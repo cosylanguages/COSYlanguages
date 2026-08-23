@@ -282,7 +282,7 @@
         "h": [
             "Você sabe nadar?",
             "Você gosta de água?",
-            "Onde você nada: na piscina ou no mar?",
+            "Onde você nada — na piscina ou no mar?",
             "De qual esporte você gosta?",
             "O esporte é importante para você?"
         ],

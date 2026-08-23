@@ -49,7 +49,7 @@
     {
         "t": "Se as pessoas mudam fundamentalmente ou apenas se revelam lentamente",
         "h": [
-            "Você consegue pensar em alguém que mudou genuinamente: ou você apenas não o conhecia bem o suficiente antes?",
+            "Você consegue pensar em alguém que mudou genuinamente — ou você apenas não o conhecia bem o suficiente antes?",
             "O que é preciso para uma pessoa mudar de verdade?",
             "Você acha que mudou ou permaneceu essencialmente o mesmo?",
             "O que diz sobre os relacionamentos se as pessoas não mudarem de verdade?",
@@ -191,7 +191,7 @@
             "É desconfortável reconhecer que a sorte desempenhou um papel?",
             "A sorte já trabalhou contra você?",
             "Você acha que as pessoas superestimam o controle que têm?",
-            "Qual é a implicação ética da sorte: ela afeta o que devemos uns aos outros?"
+            "Qual é a implicação ética da sorte — ela afeta o que devemos uns aos outros?"
         ],
         "word": "O papel da sorte na sua vida",
         "lang": "pt",
@@ -279,7 +279,7 @@
     {
         "t": "Algo sobre a vida moderna que genuinamente o preocupa",
         "h": [
-            "O que é: tecnologia, política, tendências sociais, o meio ambiente?",
+            "O que é — tecnologia, política, tendências sociais, o meio ambiente?",
             "Essa preocupação é nova ou vem crescendo?",
             "Você acha que outros a compartilham ou se sente sozinho nela?",
             "Preocupar-se com isso muda a maneira como você vive?",
@@ -306,7 +306,7 @@
             "Você já experimentou solidão no meio de uma multidão?",
             "Você acha que a vida moderna torna a solidão mais ou menos comum?",
             "Você pode ser solitário em um relacionamento?",
-            "Qual é a cura para a solidão: mais conexão, ou algo mais profundo?"
+            "Qual é a cura para a solidão — mais conexão, ou algo mais profundo?"
         ],
         "word": "A diferença entre estar sozinho e ser solitário",
         "lang": "pt",
@@ -323,7 +323,7 @@
         "id": "pt_advanced_social_phrase_a_diferena_entre_estar_sozinho"
     },
     {
-        "t": "O que significa viver bem: e se você está perto",
+        "t": "O que significa viver bem — e se você está perto",
         "h": [
             "Como você define uma vida bem vivida?",
             "Para a vida de quem você olha e pensa: isso está perto?",
@@ -331,7 +331,7 @@
             "Você pensa nisso com frequência ou a vida diária te distrai?",
             "Viver bem é algo que você planeja ou algo que acontece por acidente?"
         ],
-        "word": "O que significa viver bem: e se você está perto",
+        "word": "O que significa viver bem — e se você está perto",
         "lang": "pt",
         "level": "advanced",
         "theme": "social",
@@ -339,7 +339,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "O que significa viver bem: e se você está perto",
+                "text": "O que significa viver bem — e se você está perto",
                 "examples": []
             }
         ],
@@ -352,7 +352,7 @@
             "Você acha que editamos nossas memórias para adequá-las a uma narrativa sobre nós mesmos?",
             "Qual é a memória mais vívida que você tem e quão confiável você acha que ela é?",
             "Importa se uma memória é precisa se ela parece verdadeira?",
-            "O que a memória diz sobre identidade: se suas memórias mudassem, você seria uma pessoa diferente?"
+            "O que a memória diz sobre identidade — se suas memórias mudassem, você seria uma pessoa diferente?"
         ],
         "word": "Se você confia na sua própria memória",
         "lang": "pt",
@@ -371,7 +371,7 @@
     {
         "t": "As instituições e se elas nos servem",
         "h": [
-            "Pense em uma instituição: saúde, educação, governo: e avalie-a honestamente.",
+            "Pense em uma instituição — saúde, educação, governo — e avalie-a honestamente.",
             "Em que ponto uma instituição deixa de cumprir seu propósito?",
             "Você já se sentiu abandonado por uma instituição em que confiava?",
             "A reforma é possível ou as instituições precisam ser substituídas inteiramente?",
@@ -443,7 +443,7 @@
             "Quais sinais você procura?",
             "Seu instinto já esteve completamente errado?",
             "Você acha que é confiante demais, não confia o suficiente ou é bem calibrado?",
-            "A confiança é dada ou conquistada: e essa distinção importa?",
+            "A confiança é dada ou conquistada — e essa distinção importa?",
             "O que quebra a confiança irrevogavelmente para você?"
         ],
         "word": "Como você sabe quando confiar em alguém",

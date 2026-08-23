@@ -362,7 +362,7 @@
             {
                 "text": "An opening in a wall filled with glass that lets in light.",
                 "examples": [
-                    "Open the window: it is hot."
+                    "Open the window — it is hot."
                 ]
             }
         ],"transcription": "ˈwɪndoʊ",

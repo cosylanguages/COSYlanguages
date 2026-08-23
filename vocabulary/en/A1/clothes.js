@@ -36,7 +36,7 @@
             {
                 "text": "Pieces of clothing that you wear on your hands to keep them warm.",
                 "examples": [
-                    "Wear your gloves: it is cold."
+                    "Wear your gloves — it is cold."
                 ]
             }
         ],
@@ -259,7 +259,7 @@
             {
                 "text": "A piece of clothing that you wear over other clothes to keep warm.",
                 "examples": [
-                    "Put on your coat: it's cold."
+                    "Put on your coat — it's cold."
                 ]
             }
         ],"transcription": "koʊt",

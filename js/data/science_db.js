@@ -162,7 +162,7 @@
             "hypothesis": "Digital communication platforms favor algorithmic shortcuts over complex syntax."
         },
         "mendelian-laws-broken": {
-            "title": "Broken Laws: Rethinking Genetics",
+            "title": "Broken Laws — Rethinking Genetics",
             "theme": "Non-Mendelian inheritance mechanisms",
             "source": "Nature Genetics",
             "source_url": "https://www.nature.com/articles/d41586-024-00456-z",

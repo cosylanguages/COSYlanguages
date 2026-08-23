@@ -750,7 +750,7 @@ const data = [
         "v3": "banned",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "baning",
+        "v4": "banning",
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "people",
@@ -1563,7 +1563,8 @@ const data = [
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "overcoming"
     },
     {
         "id": "en_upper_intermediate_describing_038",
@@ -1751,7 +1752,8 @@ const data = [
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "persuasion_rhetoric",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "drawing on"
     },
     {
         "id": "en_upper_intermediate_persuasion_rhetoric_002",
@@ -1777,7 +1779,8 @@ const data = [
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "persuasion_rhetoric",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "giving rise to"
     },
     {
         "id": "en_upper_intermediate_persuasion_rhetoric_003",
@@ -1800,7 +1803,7 @@ const data = [
         "v3": "accounted for",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "account foring",
+        "v4": "accounting for",
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "persuasion_rhetoric",
@@ -1830,7 +1833,8 @@ const data = [
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "persuasion_rhetoric",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "building on"
     },
     {
         "id": "en_upper_intermediate_persuasion_rhetoric_005",
@@ -1853,7 +1857,7 @@ const data = [
         "v3": "phased out",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "phase outing",
+        "v4": "phasing out",
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "persuasion_rhetoric",
@@ -1880,7 +1884,7 @@ const data = [
         "v3": "stemmed from",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "stem froming",
+        "v4": "steming from",
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "persuasion_rhetoric",
@@ -1910,7 +1914,8 @@ const data = [
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "persuasion_rhetoric",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "standing out"
     },
     {
         "id": "en_upper_intermediate_persuasion_rhetoric_008",
@@ -1936,7 +1941,8 @@ const data = [
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "persuasion_rhetoric",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "taking into account"
     },
     {
         "id": "en_upper_intermediate_politics_governance_042",
@@ -1965,7 +1971,7 @@ const data = [
         "theme": "people",
         "sub_theme": null
     }
-    ];
+];
     const lang = "en";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);

@@ -315,7 +315,7 @@
         "form": "noun phrase",
         "definitions": [
             {
-                "text": "A form of active learning that starts by posing questions, problems or scenarios:rather than simply presenting established facts.",
+                "text": "A form of active learning that starts by posing questions, problems or scenarios—rather than simply presenting established facts.",
                 "examples": [
                     "Inquiry-based learning encourages students to conduct their own research and find solutions.",
                     "The science fair project is a classic example of inquiry-based learning."

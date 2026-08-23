@@ -26,7 +26,8 @@
         "v3": "sostenuto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": ""
+        "transcription": "",
+        "v4": "sostenendo che"
     }
 ];
     const lang = "it";

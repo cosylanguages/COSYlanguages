@@ -296,7 +296,7 @@
         "h": [
             "Can you swim?",
             "Do you like water?",
-            "Where do you swim: pool or sea?",
+            "Where do you swim — pool or sea?",
             "What sport do you like?",
             "Is sport important to you?"
         ],

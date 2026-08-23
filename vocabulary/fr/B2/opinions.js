@@ -62,13 +62,13 @@
             "De quoi êtes-vous le plus nostalgique ?",
             "Pensez-vous que le passé était vraiment meilleur ?",
             "La nostalgie est-elle réconfortante ou vous freine-t-elle ?",
-            "La nostalgie peut-elle être dangereuse: personnellement ou politiquement ?",
+            "La nostalgie peut-elle être dangereuse — personnellement ou politiquement ?",
             "Que signifie le fait que nous retouchons nos souvenirs ?"
         ]
     },
     {
         "id": "fr_upper_intermediate_social_102",
-        "word": "La plupart des gens ne veulent pas vraiment de retours honnêtes: ils veulent être rassurés.",
+        "word": "La plupart des gens ne veulent pas vraiment de retours honnêtes — ils veulent être rassurés.",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -76,7 +76,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "La plupart des gens ne veulent pas vraiment de retours honnêtes: ils veulent être rassurés.",
+                "text": "La plupart des gens ne veulent pas vraiment de retours honnêtes — ils veulent être rassurés.",
                 "examples": []
             }
         ],
@@ -170,7 +170,7 @@
         ],
         "h": [
             "Pouvez-vous penser à un acte véritablement altruiste ?",
-            "Faire quelque chose de bien vous fait-il vous sentir bien: et cela le rend-il égoïste ?",
+            "Faire quelque chose de bien vous fait-il vous sentir bien — et cela le rend-il égoïste ?",
             "S'agit-il d'une vision cynique ou réaliste ?",
             "La motivation derrière une action importe-t-elle si le résultat est positif ?",
             "Le fait de croire cela change-t-il votre comportement ?"
@@ -195,7 +195,7 @@
             "Quand vous attendiez-vous à vous sentir adulte ?",
             "Tout le monde a-t-il l'impression de faire semblant ?",
             "Est-ce rassurant ou terrifiant ?",
-            "Qui semble avoir tout compris: pensez-vous que ce soit vraiment le cas ?"
+            "Qui semble avoir tout compris — pensez-vous que ce soit vraiment le cas ?"
         ]
     },
     {
@@ -244,7 +244,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_110",
-        "word": "Les zones de confort sont surévaluées: c'est dans l'inconfort que la croissance se produit réellement.",
+        "word": "Les zones de confort sont surévaluées — c'est dans l'inconfort que la croissance se produit réellement.",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -252,7 +252,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Les zones de confort sont surévaluées: c'est dans l'inconfort que la croissance se produit réellement.",
+                "text": "Les zones de confort sont surévaluées — c'est dans l'inconfort que la croissance se produit réellement.",
                 "examples": []
             }
         ],
@@ -266,7 +266,7 @@
     },
     {
         "id": "fr_upper_intermediate_social_111",
-        "word": "La colère est une émotion sous-estimée: parfois, elle fait bouger les choses.",
+        "word": "La colère est une émotion sous-estimée — parfois, elle fait bouger les choses.",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "social",
@@ -274,7 +274,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "La colère est une émotion sous-estimée: parfois, elle fait bouger les choses.",
+                "text": "La colère est une émotion sous-estimée — parfois, elle fait bouger les choses.",
                 "examples": []
             }
         ],

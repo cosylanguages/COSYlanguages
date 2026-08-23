@@ -52,7 +52,7 @@
             "De que sente mais nostalgia?",
             "Acha que o passado era realmente melhor?",
             "A nostalgia é reconfortante ou impede-o de avançar?",
-            "A nostalgia pode ser perigosa: pessoal ou politicamente?",
+            "A nostalgia pode ser perigosa — pessoal ou politicamente?",
             "O que significa o facto de editarmos as nossas memórias?"
         ],
         "word": "A nostalgia é, na maior parte das vezes, apenas uma mentira que contamos a nós mesmos.",
@@ -70,7 +70,7 @@
         "id": "pt_upper_intermediate_psychology_001"
     },
     {
-        "t": "A maioria das pessoas não quer realmente um feedback honesto: querem reafirmação.",
+        "t": "A maioria das pessoas não quer realmente um feedback honesto — querem reafirmação.",
         "h": [
             "Quando pede feedback, o que quer realmente?",
             "Já recebeu algum feedback difícil de ouvir, mas valioso?",
@@ -78,7 +78,7 @@
             "Consegue pensar num contexto onde a reafirmação é realmente a coisa certa?",
             "Qual é a diferença entre gentileza e desonestidade?"
         ],
-        "word": "A maioria das pessoas não quer realmente um feedback honesto: querem reafirmação.",
+        "word": "A maioria das pessoas não quer realmente um feedback honesto — querem reafirmação.",
         "lang": "pt",
         "level": "upper_intermediate",
         "theme": "psychology",
@@ -86,7 +86,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "A maioria das pessoas não quer realmente um feedback honesto: querem reafirmação.",
+                "text": "A maioria das pessoas não quer realmente um feedback honesto — querem reafirmação.",
                 "examples": []
             }
         ],
@@ -165,7 +165,7 @@
         "t": "Não existe tal coisa como um comportamento verdadeiramente altruísta.",
         "h": [
             "Consegue pensar num ato genuinamente altruísta?",
-            "Fazer algo bom fá-lo sentir-se bem: e isso torna-o egoísta?",
+            "Fazer algo bom fá-lo sentir-se bem — e isso torna-o egoísta?",
             "Esta é uma visão cínica ou realista?",
             "A motivação por trás de uma ação importa se o resultado for positivo?",
             "Acreditar nisto muda a forma como se comporta?"
@@ -191,7 +191,7 @@
             "Quando é que esperava sentir-se como um adulto?",
             "Toda a gente sente que está a fingir?",
             "Isto é tranquilizador ou aterrador?",
-            "Quem é alguém que parece ter tudo sob controlo: acha que realmente tem?"
+            "Quem é alguém que parece ter tudo sob controlo — acha que realmente tem?"
         ],
         "word": "A maioria dos adultos está apenas a improvisar.",
         "lang": "pt",
@@ -254,7 +254,7 @@
         "id": "pt_upper_intermediate_psychology_005"
     },
     {
-        "t": "As zonas de conforto são sobrevalorizadas: o desconforto é onde o crescimento realmente acontece.",
+        "t": "As zonas de conforto são sobrevalorizadas — o desconforto é onde o crescimento realmente acontece.",
         "h": [
             "Consegue pensar numa altura em que o desconforto levou ao crescimento?",
             "É sempre necessário estar desconfortável para se desenvolver?",
@@ -262,7 +262,7 @@
             "Procura ativamente o desconforto?",
             "O que é algo que está fora da sua zona de conforto neste momento?"
         ],
-        "word": "As zonas de conforto são sobrevalorizadas: o desconforto é onde o crescimento realmente acontece.",
+        "word": "As zonas de conforto são sobrevalorizadas — o desconforto é onde o crescimento realmente acontece.",
         "lang": "pt",
         "level": "upper_intermediate",
         "theme": "psychology",
@@ -270,14 +270,14 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "As zonas de conforto são sobrevalorizadas: o desconforto é onde o crescimento realmente acontece.",
+                "text": "As zonas de conforto são sobrevalorizadas — o desconforto é onde o crescimento realmente acontece.",
                 "examples": []
             }
         ],
         "id": "pt_upper_intermediate_psychology_006"
     },
     {
-        "t": "A raiva é uma emoção subestimada: às vezes faz com que as coisas aconteçam.",
+        "t": "A raiva é uma emoção subestimada — às vezes faz com que as coisas aconteçam.",
         "h": [
             "Acha que expressa bem a raiva?",
             "Consegue pensar numa altura em que a raiva foi produtiva?",
@@ -285,7 +285,7 @@
             "Algumas pessoas são demasiado rápidas a suprimir a sua raiva?",
             "O que faz quando está zangado?"
         ],
-        "word": "A raiva é uma emoção subestimada: às vezes faz com que as coisas aconteçam.",
+        "word": "A raiva é uma emoção subestimada — às vezes faz com que as coisas aconteçam.",
         "lang": "pt",
         "level": "upper_intermediate",
         "theme": "psychology",
@@ -293,7 +293,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "A raiva é uma emoção subestimada: às vezes faz com que as coisas aconteçam.",
+                "text": "A raiva é uma emoção subestimada — às vezes faz com que as coisas aconteçam.",
                 "examples": []
             }
         ],

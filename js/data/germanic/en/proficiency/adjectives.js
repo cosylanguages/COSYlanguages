@@ -666,7 +666,7 @@
             {
                 "text": "Not able to be changed; fixed and permanent.",
                 "examples": [
-                    "Language is not immutable: it constantly evolves."
+                    "Language is not immutable — it constantly evolves."
                 ]
             }
         ],

@@ -25,7 +25,8 @@
             "subtext": "",
             "v3": "fatto giardinaggio",
             "auxiliary": "avere"
-        }
+        },
+        "v4": "facendo giardinaggio"
     },
     {
         "id": "it_intermediate_social_064",
@@ -51,7 +52,8 @@
             "subtext": "",
             "v3": "fatto volontariato",
             "auxiliary": "avere"
-        }
+        },
+        "v4": "facendo volontariato"
     }
 ];
     const lang = "it";

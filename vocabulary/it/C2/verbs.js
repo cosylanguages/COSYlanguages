@@ -20,7 +20,8 @@ const data = [
             }
         ],
         "id": "it_proficiency_language_001",
-        "transcription": ""
+        "transcription": "",
+        "v4": "cambio di paradigma"
     },
     {
         "word": "reificare",
@@ -175,7 +176,8 @@ const data = [
         "auxiliary": "avere",
         "lang": "it",
         "id": "it_proficiency_language_005",
-        "transcription": ""
+        "transcription": "",
+        "v4": "trascendendo"
     },
     {
         "word": "mediare",
@@ -226,7 +228,8 @@ const data = [
         "auxiliary": "avere",
         "lang": "it",
         "id": "it_proficiency_language_006",
-        "transcription": ""
+        "transcription": "",
+        "v4": "elidendo"
     },
     {
         "word": "offuscare",
@@ -277,7 +280,8 @@ const data = [
         "auxiliary": "avere",
         "lang": "it",
         "id": "it_proficiency_language_007",
-        "transcription": ""
+        "transcription": "",
+        "v4": "fondendo"
     },
     {
         "word": "invocare",
@@ -328,7 +332,8 @@ const data = [
         "auxiliary": "avere",
         "lang": "it",
         "id": "it_proficiency_psychology_004",
-        "transcription": ""
+        "transcription": "",
+        "v4": "mettendo in primo piano"
     },
     {
         "word": "recuperare",
@@ -796,7 +801,8 @@ const data = [
         "auxiliary": "avere",
         "lang": "it",
         "id": "it_proficiency_psychology_011",
-        "transcription": ""
+        "transcription": "",
+        "v4": "precludendo"
     },
     {
         "word": "dialettizzare",
@@ -847,7 +853,8 @@ const data = [
         "auxiliary": "essere",
         "lang": "it",
         "id": "it_proficiency_social_013",
-        "transcription": ""
+        "transcription": "",
+        "v4": "contravvenendo"
     },
     {
         "word": "sussumere",
@@ -872,7 +879,8 @@ const data = [
         "auxiliary": "avere",
         "lang": "it",
         "id": "it_proficiency_language_010",
-        "transcription": ""
+        "transcription": "",
+        "v4": "sussumendo"
     },
     {
         "word": "accentuare",
@@ -1027,7 +1035,8 @@ const data = [
         "auxiliary": "avere",
         "lang": "it",
         "id": "it_proficiency_psychology_013",
-        "transcription": ""
+        "transcription": "",
+        "v4": "diffondendo"
     },
     {
         "word": "racchiudere",
@@ -1052,7 +1061,8 @@ const data = [
         "auxiliary": "avere",
         "lang": "it",
         "id": "it_proficiency_language_012",
-        "transcription": ""
+        "transcription": "",
+        "v4": "racchiudendo"
     },
     {
         "word": "ingenerare",
@@ -1233,7 +1243,8 @@ const data = [
         "auxiliary": "avere",
         "lang": "it",
         "id": "it_proficiency_time_001",
-        "transcription": ""
+        "transcription": "",
+        "v4": "pervadendo"
     },
     {
         "word": "precludere",
@@ -1258,7 +1269,8 @@ const data = [
         "auxiliary": "avere",
         "lang": "it",
         "id": "it_proficiency_psychology_014",
-        "transcription": ""
+        "transcription": "",
+        "v4": "precludendo"
     },
     {
         "word": "conciliare",
@@ -1335,7 +1347,8 @@ const data = [
         "auxiliary": "avere",
         "lang": "it",
         "id": "it_proficiency_language_015",
-        "transcription": ""
+        "transcription": "",
+        "v4": "sostenendo"
     },
     {
         "word": "giustificare",
@@ -1384,7 +1397,7 @@ const data = [
         "v3": "ruotato attorno a",
         "group": "are",
         "auxiliary": "avere",
-        "v4": "ruotare attornando",
+        "v4": "ruotando attorno a",
         "lang": "it",
         "id": "it_proficiency_language_016",
         "transcription": ""
@@ -1436,7 +1449,7 @@ const data = [
         "v3": "sorvolato su",
         "group": "are",
         "auxiliary": "avere",
-        "v4": "sorvolareando",
+        "v4": "sorvolando su",
         "lang": "it",
         "id": "it_proficiency_language_018",
         "transcription": ""

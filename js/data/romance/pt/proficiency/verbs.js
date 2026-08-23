@@ -128,7 +128,8 @@ const data = [
         "auxiliary": "ter",
         "lang": "pt",
         "id": "pt_proficiency_logic_debate_001",
-        "transcription": ""
+        "transcription": "",
+        "v4": "negando"
     },
     {
         "word": "transcender",
@@ -151,7 +152,7 @@ const data = [
         "v3": "transcendido",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "transcendiendo",
+        "v4": "transcendendo",
         "lang": "pt",
         "id": "pt_proficiency_philosophy_general_001",
         "transcription": ""
@@ -179,7 +180,8 @@ const data = [
         "auxiliary": "ter",
         "lang": "pt",
         "id": "pt_proficiency_sociology_conflict_001",
-        "transcription": ""
+        "transcription": "",
+        "v4": "mediando"
     },
     {
         "word": "elidir",
@@ -202,7 +204,7 @@ const data = [
         "v3": "elidido",
         "group": "ir",
         "auxiliary": "ter",
-        "v4": "elidiendo",
+        "v4": "elidindo",
         "lang": "pt",
         "id": "pt_proficiency_linguistics_debate_001",
         "transcription": ""
@@ -620,7 +622,8 @@ const data = [
         "auxiliary": "ter",
         "lang": "pt",
         "id": "pt_proficiency_debate_logic_001",
-        "transcription": ""
+        "transcription": "",
+        "v4": "contradizendo"
     },
     {
         "word": "ab-rogar",
@@ -671,7 +674,8 @@ const data = [
         "auxiliary": "ter",
         "lang": "pt",
         "id": "pt_proficiency_law_debate_002",
-        "transcription": ""
+        "transcription": "",
+        "v4": "contraindo"
     },
     {
         "word": "subsumir",
@@ -694,7 +698,7 @@ const data = [
         "v3": "subsumido",
         "group": "ir",
         "auxiliary": "ter",
-        "v4": "subsumiendo",
+        "v4": "subsumindo",
         "lang": "pt",
         "id": "pt_proficiency_logic_philosophy_001",
         "transcription": ""
@@ -722,7 +726,8 @@ const data = [
         "auxiliary": "ter",
         "lang": "pt",
         "id": "pt_proficiency_philosophy_literature_001",
-        "transcription": ""
+        "transcription": "",
+        "v4": "desconstruindo"
     },
     {
         "word": "precluir",
@@ -747,7 +752,8 @@ const data = [
         "auxiliary": "ter",
         "lang": "pt",
         "id": "pt_proficiency_law_debate_003",
-        "transcription": ""
+        "transcription": "",
+        "v4": "precluindo"
     },
     {
         "word": "dialetizar",
@@ -848,7 +854,7 @@ const data = [
         "v3": "aquiescido",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "aquiesciendo",
+        "v4": "aquiescendo",
         "lang": "pt",
         "id": "pt_proficiency_debate_communication_002",
         "transcription": ""
@@ -1084,7 +1090,8 @@ const data = [
         "auxiliary": "ter",
         "lang": "pt",
         "id": "pt_proficiency_general_academic_005",
-        "transcription": ""
+        "transcription": "",
+        "v4": "impedindo"
     },
     {
         "word": "mitigar",
@@ -1159,7 +1166,7 @@ const data = [
         "v3": "pervadido",
         "group": "ir",
         "auxiliary": "ter",
-        "v4": "pervadiendo",
+        "v4": "pervadindo",
         "lang": "pt",
         "id": "pt_proficiency_general_academic_007",
         "transcription": ""
@@ -1187,7 +1194,8 @@ const data = [
         "auxiliary": "ter",
         "lang": "pt",
         "id": "pt_proficiency_general_academic_008",
-        "transcription": ""
+        "transcription": "",
+        "v4": "excluindo"
     },
     {
         "word": "reconciliar",
@@ -1238,7 +1246,8 @@ const data = [
         "auxiliary": "ter",
         "lang": "pt",
         "id": "pt_proficiency_law_academic_002",
-        "transcription": ""
+        "transcription": "",
+        "v4": "substituindo"
     },
     {
         "word": "alicerçar",
@@ -1315,7 +1324,8 @@ const data = [
         "auxiliary": "ter",
         "lang": "pt",
         "id": "pt_proficiency_general_academic_012",
-        "transcription": ""
+        "transcription": "",
+        "v4": "dependendo de"
     },
     {
         "word": "lidar com",
@@ -1340,7 +1350,8 @@ const data = [
         "auxiliary": "ter",
         "lang": "pt",
         "id": "pt_proficiency_general_academic_013",
-        "transcription": ""
+        "transcription": "",
+        "v4": "lidando com"
     },
     {
         "word": "ignorar",
@@ -1417,7 +1428,8 @@ const data = [
         "auxiliary": "ter",
         "lang": "pt",
         "id": "pt_proficiency_academic_general_001",
-        "transcription": ""
+        "transcription": "",
+        "v4": "mudança de paradigma"
     }
 ];
     const lang = "pt";

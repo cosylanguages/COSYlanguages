@@ -2,7 +2,7 @@
     const data = [
     {
         "id": "fr_proficiency_social_083",
-        "word": "Le soi n'est pas quelque chose que nous découvrons: c'est quelque chose que nous inventons continuellement.",
+        "word": "Le soi n'est pas quelque chose que nous découvrons — c'est quelque chose que nous inventons continuellement.",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -10,7 +10,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Le soi n'est pas quelque chose que nous découvrons: c'est quelque chose que nous inventons continuellement.",
+                "text": "Le soi n'est pas quelque chose que nous découvrons — c'est quelque chose que nous inventons continuellement.",
                 "examples": []
             }
         ],
@@ -24,7 +24,7 @@
     },
     {
         "id": "fr_proficiency_social_084",
-        "word": "La compassion qui exige qu'une histoire soit racontée simplement n'est pas de la compassion: c'est de la sentimentalité.",
+        "word": "La compassion qui exige qu'une histoire soit racontée simplement n'est pas de la compassion — c'est de la sentimentalité.",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -32,7 +32,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "La compassion qui exige qu'une histoire soit racontée simplement n'est pas de la compassion: c'est de la sentimentalité.",
+                "text": "La compassion qui exige qu'une histoire soit racontée simplement n'est pas de la compassion — c'est de la sentimentalité.",
                 "examples": []
             }
         ],
@@ -68,7 +68,7 @@
     },
     {
         "id": "fr_proficiency_social_086",
-        "word": "Le langage ne décrit pas la réalité: il la construit.",
+        "word": "Le langage ne décrit pas la réalité — il la construit.",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -76,7 +76,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Le langage ne décrit pas la réalité: il la construit.",
+                "text": "Le langage ne décrit pas la réalité — il la construit.",
                 "examples": []
             }
         ],
@@ -178,7 +178,7 @@
     },
     {
         "id": "fr_proficiency_social_091",
-        "word": "Internet ne nous a pas rendus plus informés: il nous a rendus plus sûrs de nos erreurs.",
+        "word": "Internet ne nous a pas rendus plus informés — il nous a rendus plus sûrs de nos erreurs.",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -186,7 +186,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Internet ne nous a pas rendus plus informés: il nous a rendus plus sûrs de nos erreurs.",
+                "text": "Internet ne nous a pas rendus plus informés — il nous a rendus plus sûrs de nos erreurs.",
                 "examples": []
             }
         ],
@@ -215,7 +215,7 @@
         "h": [
             "Art faisant les deux simultanément ?",
             "Hiérarchie des valeurs ou snobisme ?",
-            "Vers quoi vous tournez-vous dans la douleur: difficulté ou consolation ?",
+            "Vers quoi vous tournez-vous dans la douleur — difficulté ou consolation ?",
             "L'art dérangeant change-t-il le comportement ?",
             "But de l'art : défi, reflet ou transcendance ?"
         ]
@@ -266,7 +266,7 @@
     },
     {
         "id": "fr_proficiency_social_095",
-        "word": "La mémoire n'est pas un enregistrement de ce qui s'est passé: c'est une histoire que nous réécrivons sans cesse.",
+        "word": "La mémoire n'est pas un enregistrement de ce qui s'est passé — c'est une histoire que nous réécrivons sans cesse.",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -274,7 +274,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "La mémoire n'est pas un enregistrement de ce qui s'est passé: c'est une histoire que nous réécrivons sans cesse.",
+                "text": "La mémoire n'est pas un enregistrement de ce qui s'est passé — c'est une histoire que nous réécrivons sans cesse.",
                 "examples": []
             }
         ],
@@ -288,7 +288,7 @@
     },
     {
         "id": "fr_proficiency_social_096",
-        "word": "Il n'y a pas de consommation éthique sous le capitalisme tardif: et c'est une raison d'agir, pas d'abandonner.",
+        "word": "Il n'y a pas de consommation éthique sous le capitalisme tardif — et c'est une raison d'agir, pas d'abandonner.",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -296,7 +296,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Il n'y a pas de consommation éthique sous le capitalisme tardif: et c'est une raison d'agir, pas d'abandonner.",
+                "text": "Il n'y a pas de consommation éthique sous le capitalisme tardif — et c'est une raison d'agir, pas d'abandonner.",
                 "examples": []
             }
         ],
@@ -310,7 +310,7 @@
     },
     {
         "id": "fr_proficiency_social_097",
-        "word": "La vie examinée vaut la peine d'être vécue: mais l'examiner de trop près peut la rendre invivable.",
+        "word": "La vie examinée vaut la peine d'être vécue — mais l'examiner de trop près peut la rendre invivable.",
         "lang": "fr",
         "level": "proficiency",
         "theme": "social",
@@ -318,7 +318,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "La vie examinée vaut la peine d'être vécue: mais l'examiner de trop près peut la rendre invivable.",
+                "text": "La vie examinée vaut la peine d'être vécue — mais l'examiner de trop près peut la rendre invivable.",
                 "examples": []
             }
         ],

@@ -38,7 +38,7 @@
         ],
         "h": [
             "Y a-t-il un 'vous' fixe qui attend d'être découvert, ou êtes-vous continuellement créé par vos choix et votre contexte ?",
-            "Qu'arrive-t-il à l'identité quand le contexte change radicalement: maladie, migration, perte ?",
+            "Qu'arrive-t-il à l'identité quand le contexte change radicalement — maladie, migration, perte ?",
             "Le récit que vous tenez sur vous-même est-il une découverte ou une invention ?",
             "La question importe-t-elle pour votre façon de vivre, ou est-elle purement philosophique ?",
             "Si le soi est construit, de quoi sommes-nous responsables dans sa construction ?"
@@ -63,7 +63,7 @@
             "La mémoire sélective est-elle une forme de malhonnêteté envers nous-mêmes ?",
             "Le pardon peut-il exiger l'oubli, ou est-ce une erreur de catégorie ?",
             "Qu'est-ce qu'une société qui choisit collectivement d'oublier révèle sur elle-même ?",
-            "Existe-t-il une amnésie éthique: pour les individus ou les nations ?"
+            "Existe-t-il une amnésie éthique — pour les individus ou les nations ?"
         ]
     },
     {
@@ -107,7 +107,7 @@
             "La liberté est-elle toujours achetée aux dépens de quelqu'un d'autre ?",
             "Vivez-vous vos responsabilités comme des contraintes ou come ce qui donne sens à votre liberté ?",
             "Une personne peut-elle être véritablement libre sans les conditions matérielles pour exercer cette liberté ?",
-            "Que sacrifieriez-vous pour être plus libre: et que révèle votre réponse ?"
+            "Que sacrifieriez-vous pour être plus libre — et que révèle votre réponse ?"
         ]
     },
     {
@@ -129,7 +129,7 @@
             "Faites-vous confiance aux sentiments nostalgiques ou les traitez-vous avec suspicion ?",
             "Ce dont vous êtes nostalgique est-il un passé réel ou une version éditée ?",
             "Qu'est-ce que la nostalgie empêche et qu'est-ce qu'elle rend possible ?",
-            "Une société peut-elle être nostalgique de la même manière qu'un individu: et avec les mêmes dangers ?"
+            "Une société peut-elle être nostalgique de la même manière qu'un individu — et avec les mêmes dangers ?"
         ]
     },
     {
@@ -147,7 +147,7 @@
             }
         ],
         "h": [
-            "Pensez à quelque chose de beau ou de mystérieux: le fait de le comprendre le rend-il moins beau ?",
+            "Pensez à quelque chose de beau ou de mystérieux — le fait de le comprendre le rend-il moins beau ?",
             "Y a-t-il de la valeur à ne pas savoir, ou est-ce juste du romantisme ?",
             "L'explication scientifique et l'émerveillement esthétique peuvent-ils coexister, ou l'une colonise-t-elle l'autre ?",
             "Y a-t-il quelque chose que vous évitez délibérément de comprendre par peur de perdre son pouvoir sur vous ?",
@@ -169,7 +169,7 @@
             }
         ],
         "h": [
-            "Que disent vos choix réels: et non vos croyances déclarées: de ce que vous valorisez le plus ?",
+            "Que disent vos choix réels — et non vos croyances déclarées — de ce que vous valorisez le plus ?",
             "Y a-t-il un écart douloureux entre les deux ?",
             "L'écart est-il la preuve de l'hypocrisie ou de la difficulté réelle de vivre selon ses principes ?",
             "Pouvez-vous combler l'écart, ou une certaine distance entre l'idéal et le réel persiste-t-elle toujours ?",
@@ -213,7 +213,7 @@
             }
         ],
         "h": [
-            "Vers quoi vous tournez-vous réellement quand vous souffrez: la difficulté ou le réconfort ?",
+            "Vers quoi vous tournez-vous réellement quand vous souffrez — la difficulté ou le réconfort ?",
             "Existe-t-il un art qui parvienne à faire les deux simultanément ?",
             "L'art de consolation est-il moins sérieux que l'art provocateur, ou est-ce une distinction snob ?",
             "Quelle est, selon vous, l'obligation primaire de l'art ?",
@@ -281,7 +281,7 @@
         "h": [
             "Y a-t-il quelque chose que vous ressentez mais pour lequel vous ne trouvez pas de langage ?",
             "La difficulté concerne-t-elle le langage ou la chose elle-même ?",
-            "Pensez-vous que certaines expériences intérieures soient véritablement privées: inaccessibles même à vous-même ?",
+            "Pensez-vous que certaines expériences intérieures soient véritablement privées — inaccessibles même à vous-même ?",
             "Que signifierait comprendre pleinement sa propre intériorité ?",
             "L'ineffable doit-il être articulé pour être réel ?"
         ]
@@ -327,7 +327,7 @@
             "En quoi consiste réellement la continuité du soi ?",
             "La personne que vous vous souvenez être est-elle la même que celle qui parle maintenant ?",
             "Qu'arrive-t-il à l'identité dans l'expérience d'une perte ou d'une transformation radicale ?",
-            "La question de l'identité personnelle importe-t-elle pour la façon dont nous nous traitons les uns les autres: légalement, éthiquement ?"
+            "La question de l'identité personnelle importe-t-elle pour la façon dont nous nous traitons les uns les autres — légalement, éthiquement ?"
         ]
     },
     {
@@ -345,8 +345,8 @@
             }
         ],
         "h": [
-            "Socrate a dit que la vie non examinée ne vaut pas la peine d'être vécue: êtes-vous d'accord ?",
-            "Y a-t-il un coût à l'examen: une sorte de paralysie ou de perte d'innocence ?",
+            "Socrate a dit que la vie non examinée ne vaut pas la peine d'être vécue — êtes-vous d'accord ?",
+            "Y a-t-il un coût à l'examen — une sorte de paralysie ou de perte d'innocence ?",
             "L'examen peut-il devenir sa propre forme d'évitement ?",
             "Y a-t-il des gens qui vivent profondément et bien sans beaucoup d'auto-examen ?",
             "Que pensez-vous que votre propre degré d'auto-examen vous a coûté et vous a apporté ?"
@@ -368,7 +368,7 @@
         ],
         "h": [
             "Avez-vous des obligations envers des personnes que vous ne rencontrerez jamais ?",
-            "Jusqu'où s'étendent vos obligations morales: à votre quartier, votre nation, le monde ?",
+            "Jusqu'où s'étendent vos obligations morales — à votre quartier, votre nation, le monde ?",
             "La distance physique ou culturelle diminue-t-elle l'obligation ou est-ce une rationalisation ?",
             "Quelle est la différence entre la charité et la justice ?",
             "Comment vivez-vous réellement par rapport à cette question ?"
@@ -389,7 +389,7 @@
             }
         ],
         "h": [
-            "Chaque société a un mythe fondateur: quel est le vôtre, et à quel point est-il exact ?",
+            "Chaque société a un mythe fondateur — quel est le vôtre, et à quel point est-il exact ?",
             "Qu'est-ce qu'une nation choisit d'oublier autant qu'elle choisit de se souvenir ?",
             "L'identité nationale est-elle une fiction utile ou dangereuse ?",
             "Une société peut-elle avoir un récit plus honnête d'elle-même sans perdre sa cohésion ?",

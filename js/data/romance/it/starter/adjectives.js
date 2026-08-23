@@ -59,7 +59,7 @@
             {
                 "text": "Di altezza o lunghezza inferiore alla media.",
                 "examples": [
-                    "Ha un tragitto breve: dieci minuti in bicicletta."
+                    "Ha un tragitto breve — dieci minuti in bicicletta."
                 ]
             }
         ],
@@ -2062,7 +2062,7 @@
             {
                 "text": "Che ha bisogno di cibo.",
                 "examples": [
-                    "Ho fame: sono già le due."
+                    "Ho fame — sono già le due."
                 ]
             }
         ],

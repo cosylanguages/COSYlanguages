@@ -50,7 +50,7 @@
             "Que dit cette citation sur notre rapport au moment présent ?",
             "Pouvez-vous penser à un « projet » qui s'est avéré moins important que ce qui s'est passé à la place ?"
         ],
-        "task": "Racontez une courte histoire: réelle ou inventée: qui illustre parfaitement cette citation. Dites ensuite quelle leçon on pourrait en tirer."
+        "task": "Racontez une courte histoire — réelle ou inventée — qui illustre parfaitement cette citation. Dites ensuite quelle leçon on pourrait en tirer."
     },
     {
         "id": "fr_upper_intermediate_social_118",
@@ -74,9 +74,9 @@
             "Pensez-vous que la société pousse les gens à suivre un chemin fixe ?",
             "Pouvez-vous penser à quelqu'un dont l'errance l'a mené vers quelque chose de mieux ?",
             "Y a-t-il une différence entre être perdu et simplement ne pas encore savoir où l'on va ?",
-            "Vous êtes-vous déjà senti comme un errant: et était-ce un sentiment positif ou négatif ?"
+            "Vous êtes-vous déjà senti comme un errant — et était-ce un sentiment positif ou négatif ?"
         ],
-        "task": "Contestez cette citation. Soutenez l'idée opposée: qu'errer sans direction est en fait un problème. Utilisez au moins deux exemples."
+        "task": "Contestez cette citation. Soutenez l'idée opposée — qu'errer sans direction est en fait un problème. Utilisez au moins deux exemples."
     },
     {
         "id": "fr_upper_intermediate_social_119",
@@ -102,7 +102,7 @@
             "Quelle est la chose que vous voulez faire avant qu'il ne soit trop tard ?",
             "Une seule vie suffit-elle, ou l'idée d'une vie unique vous semble-t-elle limitante ?"
         ],
-        "task": "Décrivez ce que « bien vivre » signifierait dans votre vie: concrètement. Que feriez-vous ? À quoi auriez-vous renoncé ?"
+        "task": "Décrivez ce que « bien vivre » signifierait dans votre vie — concrètement. Que feriez-vous ? À quoi auriez-vous renoncé ?"
     },
     {
         "id": "fr_upper_intermediate_social_120",
@@ -154,7 +154,7 @@
             "La société rend-elle plus difficile ou plus facile d'être authentique ?",
             "À quel âge pensez-vous que les gens commencent à devenir qui ils sont vraiment ?"
         ],
-        "task": "Pensez à quelqu'un: réel ou fictif: qui a fait preuve de ce genre de courage. Décrivez ce qu'il a fait et pourquoi cela a demandé de la bravoure."
+        "task": "Pensez à quelqu'un — réel ou fictif — qui a fait preuve de ce genre de courage. Décrivez ce qu'il a fait et pourquoi cela a demandé de la bravoure."
     },
     {
         "id": "fr_upper_intermediate_social_122",
@@ -180,7 +180,7 @@
             "Cette citation vous inspire-t-elle de l'espoir ou de l'incertitude ?",
             "Que pourriez-vous devenir que vous ne pouvez pas encore imaginer ?"
         ],
-        "task": "Réécrivez cette citation pour un public moderne: même idée, vos propres mots: puis expliquez ce que vous avez changé et pourquoi."
+        "task": "Réécrivez cette citation pour un public moderne — même idée, vos propres mots — puis expliquez ce que vous avez changé et pourquoi."
     },
     {
         "id": "fr_upper_intermediate_social_123",
@@ -203,7 +203,7 @@
             "Êtes-vous d'accord pour dire que l'inauthenticité cause de la souffrance ?",
             "Pouvez-vous penser à une situation où quelqu'un n'est manifestement pas lui-même ?",
             "Est-il toujours possible d'être qui l'on est vraiment ?",
-            "Que signifie le désespoir pour vous: est-ce différent de la tristesse ?",
+            "Que signifie le désespoir pour vous — est-ce différent de la tristesse ?",
             "Que devrait changer une personne pour commencer à être qui elle est vraiment ?"
         ],
         "task": "Approuvez ou contestez cette citation dans un discours d'au moins une minute. Utilisez un exemple personnel ou une personne que vous connaissez (ou avez observée) pour appuyer votre point de vue."
@@ -232,7 +232,7 @@
             "La persévérance est-elle toujours admirable, ou peut-elle devenir de l'entêtement ?",
             "Quelle est la différence entre échouer et abandonner ?"
         ],
-        "task": "Racontez l'histoire d'un échec: le vôtre ou celui de quelqu'un d'autre: qui s'est avéré plus précieux qu'un succès ne l'aurait été."
+        "task": "Racontez l'histoire d'un échec — le vôtre ou celui de quelqu'un d'autre — qui s'est avéré plus précieux qu'un succès ne l'aurait été."
     },
     {
         "id": "fr_upper_intermediate_social_125",
@@ -280,7 +280,7 @@
         "qs": [
             "Pensez-vous que l'enthousiasme soit l'ingrédient clé décrit par Churchill ?",
             "Pouvez-vous citer un exemple célèbre de personne correspondant à cette description ?",
-            "Cette définition du succès n'est-elle pas trop étroite: qu'en est-il de ceux qui réussissent du premier coup ?",
+            "Cette définition du succès n'est-elle pas trop étroite — qu'en est-il de ceux qui réussissent du premier coup ?",
             "Comment gérez-vous personnellement les échecs répétés ?",
             "L'enthousiasme est-il quelque chose que l'on peut entretenir délibérément, ou finit-il par s'épuiser ?"
         ],
@@ -310,7 +310,7 @@
             "Pensez-vous que ce message est plus difficile à entendre pour certaines personnes que pour d'autres ?",
             "À quoi ressemblerait votre vie si vous aviez moins peur d'échouer ?"
         ],
-        "task": "Paraphrasez cette citation dans le langage le plus simple possible: comme si vous l'expliquiez à un étudiant de niveau A2. Donnez ensuite un exemple qui l'illustre."
+        "task": "Paraphrasez cette citation dans le langage le plus simple possible — comme si vous l'expliquiez à un étudiant de niveau A2. Donnez ensuite un exemple qui l'illustre."
     },
     {
         "id": "fr_upper_intermediate_social_128",
@@ -334,9 +334,9 @@
             "La passion est-elle toujours accessible à tous, ou est-ce un privilège ?",
             "Un excellent travail peut-il provenir de la discipline et du métier plutôt que de l'amour ?",
             "Avez-vous déjà aimé quelque chose pour ensuite le voir gâché en le transformant en travail ?",
-            "Que feriez-vous gratuitement que vous faites actuellement: ou aimeriez faire: pour de l'argent ?"
+            "Que feriez-vous gratuitement que vous faites actuellement — ou aimeriez faire — pour de l'argent ?"
         ],
-        "task": "C'est l'un des conseils de carrière les plus cités au monde. Soutenez qu'il s'agit en fait d'un mauvais conseil: ou qu'il est fondamentalement juste. Choisissez un camp et défendez-le."
+        "task": "C'est l'un des conseils de carrière les plus cités au monde. Soutenez qu'il s'agit en fait d'un mauvais conseil — ou qu'il est fondamentalement juste. Choisissez un camp et défendez-le."
     },
     {
         "id": "fr_upper_intermediate_social_129",
@@ -362,7 +362,7 @@
             "Cette idée change-t-elle selon la gravité de la difficulté ?",
             "Quelle opportunité une difficulté dans votre propre vie a-t-elle créée ?"
         ],
-        "task": "Prenez une difficulté actuelle: dans le monde, dans votre pays ou dans votre propre vie: et essayez sincèrement d'identifier l'opportunité qu'elle contient. Parlez pendant au moins une minute."
+        "task": "Prenez une difficulté actuelle — dans le monde, dans votre pays ou dans votre propre vie — et essayez sincèrement d'identifier l'opportunité qu'elle contient. Parlez pendant au moins une minute."
     },
     {
         "id": "fr_upper_intermediate_social_130",
@@ -382,7 +382,7 @@
         "o": "Attribué",
         "c": "Nature humaine",
         "qs": [
-            "Est-ce drôle, cynique ou profondément sérieux: ou les trois ?",
+            "Est-ce drôle, cynique ou profondément sérieux — ou les trois ?",
             "Pensez-vous que les humains sont fondamentalement sages ou fondamentalement fous ?",
             "Pouvez-vous donner un exemple de bêtise humaine collective ?",
             "Est-il juste de généraliser sur la « bêtise humaine » ?",
@@ -410,11 +410,11 @@
         "qs": [
             "Que pensez-vous que Donne voulait dire par là ?",
             "Pensez-vous que la vie moderne nous rend plus ou moins connectés aux autres ?",
-            "Pouvez-vous penser à une personne qui semble vivre comme une île: et quel en est le coût ?",
+            "Pouvez-vous penser à une personne qui semble vivre comme une île — et quel en est le coût ?",
             "L'interdépendance est-elle une force ou une vulnérabilité ?",
             "De quelles manières dépendez-vous des autres sans toujours vous en rendre compte ?"
         ],
-        "task": "Cette citation a 400 ans. Soutenez qu'elle est plus pertinente aujourd'hui que jamais: ou que le monde moderne l'a rendue moins vraie."
+        "task": "Cette citation a 400 ans. Soutenez qu'elle est plus pertinente aujourd'hui que jamais — ou que le monde moderne l'a rendue moins vraie."
     },
     {
         "id": "fr_upper_intermediate_social_132",
@@ -438,9 +438,9 @@
             "Pouvez-vous citer un exemple historique ou personnel où cette logique a fonctionné ?",
             "L'amour est-il un outil politique ou est-ce aller trop loin ?",
             "Qu'est-ce que cette citation exige de nous personnellement ?",
-            "Y a-t-il quelque chose qui ne peut être combattu que par son opposé: ou la colère est-elle parfois nécessaire ?"
+            "Y a-t-il quelque chose qui ne peut être combattu que par son opposé — ou la colère est-elle parfois nécessaire ?"
         ],
-        "task": "Choisissez un conflit actuel: dans le monde, une communauté ou une relation: et appliquez-lui cette citation. La logique tient-elle ? Parlez pendant au moins une minute."
+        "task": "Choisissez un conflit actuel — dans le monde, une communauté ou une relation — et appliquez-lui cette citation. La logique tient-elle ? Parlez pendant au moins une minute."
     },
     {
         "id": "fr_upper_intermediate_social_133",
@@ -466,7 +466,7 @@
             "Quelle est la chose la plus créative que vous ayez jamais faite ?",
             "Existe-t-il un type de créativité qui n'implique aucun plaisir ?"
         ],
-        "task": "Contestez cette citation. Soutenez que la créativité et l'intelligence sont complètement distinctes: avec au moins deux exemples pour vous appuyer."
+        "task": "Contestez cette citation. Soutenez que la créativité et l'intelligence sont complètement distinctes — avec au moins deux exemples pour vous appuyer."
     },
     {
         "id": "fr_upper_intermediate_social_134",
@@ -486,13 +486,13 @@
         "o": "Peintre impressionniste français",
         "c": "Créativité et art",
         "qs": [
-            "Quelle est la meilleure œuvre d'art: sous n'importe quelle forme: qui vous a fait voir les choses différemment ?",
+            "Quelle est la meilleure œuvre d'art — sous n'importe quelle forme — qui vous a fait voir les choses différemment ?",
             "Pensez-vous que l'art a la responsabilité de faire voir la vérité ?",
             "Quelque chose peut-il être de l'art si différentes personnes y voient des choses complètement différentes ?",
-            "Y a-t-il un art qui vous a laissé de marbre: et cela signifie-t-il qu'il a échoué ?",
+            "Y a-t-il un art qui vous a laissé de marbre — et cela signifie-t-il qu'il a échoué ?",
             "L'interprétation du spectateur compte-t-elle autant que l'intention de l'artiste ?"
         ],
-        "task": "Décrivez une œuvre d'art: un film, une chanson, un livre, une peinture, n'importe quoi: qui vous a sincèrement fait voir quelque chose que vous n'aviez pas vu auparavant. Qu'est-ce que cela a changé en vous ?"
+        "task": "Décrivez une œuvre d'art — un film, une chanson, un livre, une peinture, n'importe quoi — qui vous a sincèrement fait voir quelque chose que vous n'aviez pas vu auparavant. Qu'est-ce que cela a changé en vous ?"
     },
     {
         "id": "fr_upper_intermediate_social_135",
@@ -518,7 +518,7 @@
             "Quel est le plus petit acte de création qui compte encore ?",
             "Consommer de l'art est-il aussi précieux que d'en créer ?"
         ],
-        "task": "Parlez-nous de quelque chose que vous avez créé: aussi petit soit-il: et dites si cela vous a procuré ce sentiment. Si non, dites pourquoi."
+        "task": "Parlez-nous de quelque chose que vous avez créé — aussi petit soit-il — et dites si cela vous a procuré ce sentiment. Si non, dites pourquoi."
     },
     {
         "id": "fr_upper_intermediate_social_136",
@@ -544,7 +544,7 @@
             "Avez-vous déjà laissé partir quelqu'un pour le regretter plus tard ?",
             "Peut-on s'accrocher à une idée, un lieu ou un souvenir de la même manière ?"
         ],
-        "task": "Réécrivez cette citation: même sentiment, métaphore complètement différente. Expliquez ensuite quelle version vous préférez et pourquoi."
+        "task": "Réécrivez cette citation — même sentiment, métaphore complètement différente. Expliquez ensuite quelle version vous préférez et pourquoi."
     },
     {
         "id": "fr_upper_intermediate_social_137",
@@ -567,7 +567,7 @@
             "Trouvez-vous facile d'être vulnérable avec les personnes que vous aimez ?",
             "Aimer sans peur d'être blessé est-il sage ou naïf ?",
             "Pensez-vous que les blessures passées changent notre façon d'aimer à l'avenir ?",
-            "Que signifie pour vous danser comme si personne ne regardait: au sens propre et figuré ?",
+            "Que signifie pour vous danser comme si personne ne regardait — au sens propre et figuré ?",
             "Y a-t-il quelque chose dans votre vie que vous retenez par peur d'être blessé ?"
         ],
         "task": "C'est l'une des citations les plus partagées sur internet. Est-elle sincèrement sage ou simplement réconfortante ? Argumentez votre position."
@@ -591,12 +591,12 @@
         "c": "Amour et relations",
         "qs": [
             "Pensez-vous que cela soit psychologiquement vrai ?",
-            "Êtes-vous déjà resté dans une relation: amicale ou amoureuse: qui était en dessous de ce que vous méritiez ?",
+            "Êtes-vous déjà resté dans une relation — amicale ou amoureuse — qui était en dessous de ce que vous méritiez ?",
             "Qu'est-ce qui détermine ce que quelqu'un pense mériter ?",
             "La thérapie, le temps ou l'expérience peuvent-ils changer ce que nous pensons mériter ?",
             "Cette citation est-elle valorisante ou place-t-elle trop de responsabilité sur la personne blessée ?"
         ],
-        "task": "Cette citation provient d'un roman sur un adolescent. S'applique-t-elle également aux adultes ? Argumentez par l'affirmative ou la négative: avec des exemples."
+        "task": "Cette citation provient d'un roman sur un adolescent. S'applique-t-elle également aux adultes ? Argumentez par l'affirmative ou la négative — avec des exemples."
     },
     {
         "id": "fr_upper_intermediate_social_139",
@@ -618,7 +618,7 @@
         "qs": [
             "Vous sentez-vous personnellement responsable d'une injustice qui se produit loin d'ici ?",
             "Pouvez-vous penser à une injustice dans un lieu qui a affecté des gens ailleurs ?",
-            "Cette citation est-elle un appel à l'action: et si oui, quelle action ?",
+            "Cette citation est-elle un appel à l'action — et si oui, quelle action ?",
             "Y a-t-il un point où la distance rend l'injustice impossible à traiter ?",
             "À quelle injustice tenez-vous le plus et pourquoi ?"
         ],
@@ -646,7 +646,7 @@
             "Y a-t-il une tension entre liberté et sécurité ?",
             "Quelle erreur êtes-vous heureux d'avoir été libre de commettre ?",
             "La liberté peut-elle être retirée progressivement sans que les gens s'en aperçoivent ?",
-            "La « cancel culture » est-elle un exemple de restriction de la liberté: ou de responsabilité ?"
+            "La « cancel culture » est-elle un exemple de restriction de la liberté — ou de responsabilité ?"
         ],
         "task": "Pensez à une loi, une règle ou une norme sociale qui restreint la liberté de commettre une erreur particulière. Dites si cette restriction est justifiée ou non."
     },
@@ -674,11 +674,11 @@
             "Quelle est la différence entre une vérité qui libère et une qui blesse simplement ?",
             "Y a-t-il une vérité sur vous-même que vous n'êtes pas encore prêt à affronter ?"
         ],
-        "task": "Racontez une histoire: réelle, observée ou fictive: où quelqu'un a découvert une vérité douloureuse mais finalement libératrice. Quel a été le tournant ?"
+        "task": "Racontez une histoire — réelle, observée ou fictive — où quelqu'un a découvert une vérité douloureuse mais finalement libératrice. Quel a été le tournant ?"
     },
     {
         "id": "fr_upper_intermediate_time_001",
-        "word": "Hier est de l'histoire, demain est un mystère, aujourd'hui est un cadeau: c'est pourquoi on l'appelle le présent.",
+        "word": "Hier est de l'histoire, demain est un mystère, aujourd'hui est un cadeau — c'est pourquoi on l'appelle le présent.",
         "lang": "fr",
         "level": "upper_intermediate",
         "theme": "time",
@@ -686,7 +686,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Hier est de l'histoire, demain est un mystère, aujourd'hui est un cadeau: c'est pourquoi on l'appelle le présent.",
+                "text": "Hier est de l'histoire, demain est un mystère, aujourd'hui est un cadeau — c'est pourquoi on l'appelle le présent.",
                 "examples": []
             }
         ],
@@ -696,7 +696,7 @@
         "qs": [
             "Cette citation est-elle de la sagesse ou un cliché ?",
             "Passez-vous plus de temps à penser au passé, au futur ou au présent ?",
-            "Vivre dans le présent est-il toujours souhaitable: ou avons-nous besoin du passé et du futur ?",
+            "Vivre dans le présent est-il toujours souhaitable — ou avons-nous besoin du passé et du futur ?",
             "Que signifie concrètement traiter aujourd'hui comme un cadeau ?",
             "Pouvez-vous penser à un jour récent que vous avez véritablement traité comme un cadeau ?"
         ],
@@ -722,11 +722,11 @@
         "qs": [
             "Trouvez-vous facile ou difficile de changer d'avis ?",
             "Avez-vous changé d'avis sur quelque chose d'important récemment ?",
-            "L'entêtement est-il toujours une faiblesse: ou peut-il être une force ?",
+            "L'entêtement est-il toujours une faiblesse — ou peut-il être une force ?",
             "Quelle est la différence entre changer d'avis et manquer de conviction ?",
             "Quelle est la chose que vous croyiez autrefois et que vous ne croyez plus ?"
         ],
-        "task": "Pensez à une croyance que vous avez tenue longtemps et que vous avez fini par changer. Expliquez-nous ce qui s'est passé: quelle information nouvelle ou expérience vous a fait basculer."
+        "task": "Pensez à une croyance que vous avez tenue longtemps et que vous avez fini par changer. Expliquez-nous ce qui s'est passé — quelle information nouvelle ou expérience vous a fait basculer."
     },
     {
         "id": "fr_upper_intermediate_time_003",
@@ -778,7 +778,7 @@
             "Y a-t-il quelque chose dans votre vie que vous prenez trop au sérieux ?",
             "Quelle est la différence entre ne pas se prendre au sérieux et ne pas prendre la vie au sérieux ?"
         ],
-        "task": "Répondez à la question: pourquoi prenez-vous les choses que vous prenez au sérieux aussi sérieusement ? Parlez pendant une minute."
+        "task": "Répondez à la question — pourquoi prenez-vous les choses que vous prenez au sérieux aussi sérieusement ? Parlez pendant une minute."
     },
     {
         "id": "fr_upper_intermediate_social_143",
@@ -800,11 +800,11 @@
         "qs": [
             "Que signifie « au-delà » pour vous dans votre propre vie ?",
             "L'ambition sans limites est-elle inspirante ou irréaliste ?",
-            "Quel est votre « infini » personnel: quelque chose que vous essayez toujours d'atteindre ?",
+            "Quel est votre « infini » personnel — quelque chose que vous essayez toujours d'atteindre ?",
             "Un film pour enfants peut-il contenir une véritable sagesse ?",
             "Quelle est la chose que vous pensiez autrefois impossible et qui s'est avérée ne pas l'être ?"
         ],
-        "task": "Traitez cette citation aussi sérieusement qu'une citation de philosophe. Que dit-elle réellement sur l'ambition humaine: et êtes-vous d'accord ?"
+        "task": "Traitez cette citation aussi sérieusement qu'une citation de philosophe. Que dit-elle réellement sur l'ambition humaine — et êtes-vous d'accord ?"
     },
     {
         "id": "fr_upper_intermediate_social_144",
@@ -826,7 +826,7 @@
         "qs": [
             "Êtes-vous d'accord pour dire que pouvoir et responsabilité sont toujours liés ?",
             "Pouvez-vous penser à quelqu'un ayant du pouvoir qui a ignoré ses responsabilités ?",
-            "Quel pouvoir avez-vous dans votre propre vie: et quelle responsabilité l'accompagne ?",
+            "Quel pouvoir avez-vous dans votre propre vie — et quelle responsabilité l'accompagne ?",
             "Cette citation s'applique-t-elle à l'influence sur les réseaux sociaux ?",
             "La responsabilité est-elle quelque chose que les gens choisissent ou quelque chose qu'on leur impose ?"
         ],
@@ -853,10 +853,10 @@
             "Pourquoi pensez-vous que cette citation touche les gens si fortement ?",
             "La loyauté sur une longue période est-elle une vertu ou une obsession ?",
             "Pouvez-vous penser à quelque chose ou à quelqu'un envers qui vous êtes toujours resté fidèle ?",
-            "Le contexte change-t-il le sens de cette citation: savoir l'histoire de Rogue est-il important ?",
+            "Le contexte change-t-il le sens de cette citation — savoir l'histoire de Rogue est-il important ?",
             "Quelle est la différence entre la dévotion et l'incapacité à lâcher prise ?"
         ],
-        "task": "Décrivez votre réaction à cette citation: émotionnellement et intellectuellement. Pensez-vous que sa puissance vient des mots eux-mêmes ou de l'histoire qu'il y a derrière ?"
+        "task": "Décrivez votre réaction à cette citation — émotionnellement et intellectuellement. Pensez-vous que sa puissance vient des mots eux-mêmes ou de l'histoire qu'il y a derrière ?"
     },
     {
         "id": "fr_upper_intermediate_social_146",
@@ -877,10 +877,10 @@
         "c": "Pop culture",
         "qs": [
             "Pourquoi pensez-vous que cette réplique soit devenue si connue ?",
-            "Est-il important de s'entendre dire qu'on est important: surtout enfant ?",
+            "Est-il important de s'entendre dire qu'on est important — surtout enfant ?",
             "Pensez-vous que les gens autour de vous savent qu'ils sont importants ?",
             "Y a-t-il quelque chose de puissant à dire quelque chose de simple et direct ?",
-            "Qui vous a dit quelque chose comme ça: et cela a-t-il changé quelque chose ?"
+            "Qui vous a dit quelque chose comme ça — et cela a-t-il changé quelque chose ?"
         ],
         "task": "Cette citation utilise délibérément un anglais grammaticalement incorrect (« You is... »). Pourquoi ? Que perdrait-on si on la « corrigeait » ? Que dit cela sur la langue et l'émotion ?"
     },
@@ -908,7 +908,7 @@
             "Cette citation s'applique-t-elle à la façon dont nous jugeons les personnalités publiques ?",
             "Quel acte de votre part définit le mieux qui vous êtes ?"
         ],
-        "task": "Soutenez l'inverse: que ce que nous sommes en dessous compte plus que ce que nous faisons. Présentez les arguments les plus solides possible."
+        "task": "Soutenez l'inverse — que ce que nous sommes en dessous compte plus que ce que nous faisons. Présentez les arguments les plus solides possible."
     },
     {
         "id": "fr_upper_intermediate_social_148",
@@ -934,7 +934,7 @@
             "Quelle est la chose dans votre vie à travers laquelle vous êtes actuellement en train de « nager » ?",
             "L'optimisme comme celui de Dory est-il un type de personnalité ou un choix ?"
         ],
-        "task": "Comparez cela à un autre conseil sur la persévérance: tiré d'un livre, d'une personne de votre entourage ou de votre propre culture. Lequel est le plus utile et pourquoi ?"
+        "task": "Comparez cela à un autre conseil sur la persévérance — tiré d'un livre, d'une personne de votre entourage ou de votre propre culture. Lequel est le plus utile et pourquoi ?"
     },
     {
         "id": "fr_upper_intermediate_social_149",
@@ -954,13 +954,13 @@
         "o": "Game of Thrones",
         "c": "Pop culture",
         "qs": [
-            "Que représente « l'hiver » pour vous: quelle chose difficile approche ?",
+            "Que représente « l'hiver » pour vous — quelle chose difficile approche ?",
             "La préparation est-elle une vertu ou vous prive-t-elle du moment présent ?",
             "Pouvez-vous penser à un « hiver » qui est arrivé sans prévenir ?",
             "Avez-vous tendance à vous préparer aux difficultés ou à les gérer quand elles arrivent ?",
             "Quelle est la chose à laquelle le monde devrait se préparer mais ne le fait pas ?"
         ],
-        "task": "Utilisez cette citation comme métaphore pour quelque chose de réel: changement climatique, crise personnelle, instabilité politique. Développez la métaphore pendant au moins une minute."
+        "task": "Utilisez cette citation comme métaphore pour quelque chose de réel — changement climatique, crise personnelle, instabilité politique. Développez la métaphore pendant au moins une minute."
     },
     {
         "id": "fr_upper_intermediate_social_150",
@@ -1032,10 +1032,10 @@
         "o": "Historienne américaine, 1976",
         "c": "Esprit et humour",
         "qs": [
-            "Est-ce un appel à mal se comporter: ou quelque chose de plus nuancé ?",
+            "Est-ce un appel à mal se comporter — ou quelque chose de plus nuancé ?",
             "Qui est une femme dans l'histoire qui n'était pas « bien élevée » et qui a changé les choses ?",
             "Cette citation s'applique-t-elle également aux hommes, ou y a-t-il quelque chose de spécifique aux femmes ?",
-            "La transgression des règles est-elle nécessaire au progrès: ou est-elle romancée ?",
+            "La transgression des règles est-elle nécessaire au progrès — ou est-elle romancée ?",
             "Que signifie « bien élevé », et qui décide ?"
         ],
         "task": "Appliquez cette citation à un homme. Fonctionne-t-elle de la même manière ? Que révèle votre réponse sur la façon dont nous pensons le genre et l'histoire ?"
@@ -1058,7 +1058,7 @@
         "o": "The Office (US), 2007",
         "c": "Esprit et humour",
         "qs": [
-            "Avez-vous des superstitions: même celles auxquelles vous ne croyez pas totalement ?",
+            "Avez-vous des superstitions — même celles auxquelles vous ne croyez pas totalement ?",
             "Pourquoi des personnes intelligentes ont-elles parfois des croyances irrationnelles ?",
             "Y a-t-il une différence entre superstition et intuition ?",
             "Quelles superstitions sont courantes dans votre culture ?",

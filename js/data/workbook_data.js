@@ -1,5 +1,5 @@
 /**
- * WORKBOOK DATA: exercises, grammar blocks & homework
+ * WORKBOOK DATA — exercises, grammar blocks & homework
  */
 
 const WORKBOOK_TOPICS = [
@@ -27,7 +27,7 @@ const WORKBOOK_TOPICS = [
     ]
   },
   {
-    id: 'en-a1-tobe-core', lang: 'en', flag: '🇬🇧', level: 'a1', title: 'Verb TO BE: Core',
+    id: 'en-a1-tobe-core', lang: 'en', flag: '🇬🇧', level: 'a1', title: 'Verb TO BE — Core',
     desc: 'I am / You are / He is',
     verbKey: 'to be',
     img: 'images/cosyenglish.png',

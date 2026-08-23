@@ -26,7 +26,8 @@
         "v3": "soutenu",
         "group": "ir",
         "auxiliary": "avoir",
-        "transcription": ""
+        "transcription": "",
+        "v4": "soutenissant que"
     }
 ];
     const lang = "fr";

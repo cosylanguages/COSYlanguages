@@ -20,7 +20,8 @@ const data = [
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "v4": "changement de paradigme"
     },
     {
         "word": "réifier",
@@ -96,7 +97,7 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "reflexive": true,
-        "v4": "se fonder sant",
+        "v4": "fondant sur",
         "lang": "fr",
         "id": "fr_proficiency_social_001",
         "transcription": ""
@@ -332,7 +333,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "id": "fr_proficiency_psychology_004",
-        "transcription": ""
+        "transcription": "",
+        "v4": "mettant en avant"
     },
     {
         "word": "récupérer",
@@ -670,7 +672,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "id": "fr_proficiency_psychology_008",
-        "transcription": ""
+        "transcription": "",
+        "v4": "contrediant"
     },
     {
         "word": "abroger",
@@ -693,7 +696,7 @@ const data = [
         "v3": "abrogé",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "abrogant",
+        "v4": "abrogeant",
         "lang": "fr",
         "id": "fr_proficiency_social_012",
         "transcription": ""
@@ -721,7 +724,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "id": "fr_proficiency_psychology_009",
-        "transcription": ""
+        "transcription": "",
+        "v4": "déconstruiant"
     },
     {
         "word": "problématiser",
@@ -798,7 +802,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "id": "fr_proficiency_psychology_011",
-        "transcription": ""
+        "transcription": "",
+        "v4": "forcloant"
     },
     {
         "word": "dialectiser",
@@ -849,7 +854,8 @@ const data = [
         "auxiliary": "être",
         "lang": "fr",
         "id": "fr_proficiency_social_013",
-        "transcription": ""
+        "transcription": "",
+        "v4": "contrevenissant"
     },
     {
         "word": "subsumer",
@@ -924,7 +930,7 @@ const data = [
         "v3": "acquiescé",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "acquiescant",
+        "v4": "acquiesçant",
         "lang": "fr",
         "id": "fr_proficiency_social_014",
         "transcription": ""
@@ -950,7 +956,7 @@ const data = [
         "v3": "soulagé",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "soulagant",
+        "v4": "soulageant",
         "lang": "fr",
         "id": "fr_proficiency_social_015",
         "transcription": ""
@@ -1210,7 +1216,7 @@ const data = [
         "v3": "obligé",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "obligant",
+        "v4": "obligeant",
         "lang": "fr",
         "id": "fr_proficiency_social_021",
         "transcription": ""
@@ -1264,7 +1270,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "id": "fr_proficiency_psychology_014",
-        "transcription": ""
+        "transcription": "",
+        "v4": "excluant"
     },
     {
         "word": "réconcilier",
@@ -1391,7 +1398,7 @@ const data = [
         "v3": "reposé sur",
         "group": "er",
         "auxiliary": "avoir",
-        "v4": "reposer sant",
+        "v4": "reposant sur",
         "lang": "fr",
         "id": "fr_proficiency_language_016",
         "transcription": ""
@@ -1418,7 +1425,7 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "reflexive": true,
-        "v4": "se débattre avant",
+        "v4": "débattant avec",
         "lang": "fr",
         "id": "fr_proficiency_language_017",
         "transcription": ""

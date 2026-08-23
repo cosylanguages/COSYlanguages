@@ -22,7 +22,7 @@ const data = [
         "v3": "brossé les dents",
         "auxiliary": "être",
         "reflexive": true,
-        "v4": "se brossant les dents",
+        "v4": "brossant les dents",
         "lang": "fr",
         "transcription": "/sə bʁɔse le dɑ̃/",
         "id": "fr_elementary_body_002"
@@ -51,7 +51,7 @@ const data = [
         "v3": "douché",
         "auxiliary": "être",
         "reflexive": true,
-        "v4": "se douchant",
+        "v4": "douchant",
         "lang": "fr",
         "transcription": "/sə duʃe/",
         "id": "fr_elementary_body_003"
@@ -103,7 +103,8 @@ const data = [
         "auxiliary": "être",
         "lang": "fr",
         "transcription": "/dəvniʁ/",
-        "id": "fr_elementary_people_043"
+        "id": "fr_elementary_people_043",
+        "v4": "devenissant"
     },
     {
         "word": "croire",
@@ -127,7 +128,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/kʁwaʁ/",
-        "id": "fr_elementary_describing_036"
+        "id": "fr_elementary_describing_036",
+        "v4": "croyant"
     },
     {
         "word": "se passer",
@@ -150,7 +152,7 @@ const data = [
         "v3": "passé",
         "auxiliary": "être",
         "reflexive": true,
-        "v4": "se passant",
+        "v4": "passant",
         "lang": "fr",
         "transcription": "/sə pɑse/",
         "id": "fr_elementary_describing_037"
@@ -177,7 +179,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/ɛ̃klyʁ/",
-        "id": "fr_elementary_describing_038"
+        "id": "fr_elementary_describing_038",
+        "v4": "incluant"
     },
     {
         "word": "continuer",
@@ -276,7 +279,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/sɥivʁ/",
-        "id": "fr_elementary_describing_041"
+        "id": "fr_elementary_describing_041",
+        "v4": "suivant"
     },
     {
         "word": "créer",
@@ -325,7 +329,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/pɛʁmɛtʁ/",
-        "id": "fr_elementary_people_045"
+        "id": "fr_elementary_people_045",
+        "v4": "permettant"
     },
     {
         "word": "grandir",
@@ -374,7 +379,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/ɔfʁiʁ/",
-        "id": "fr_elementary_people_046"
+        "id": "fr_elementary_people_046",
+        "v4": "offrissant"
     },
     {
         "word": "considérer",
@@ -423,7 +429,8 @@ const data = [
         "auxiliary": "être",
         "lang": "fr",
         "transcription": "/apaʁɛtʁ/",
-        "id": "fr_elementary_people_047"
+        "id": "fr_elementary_people_047",
+        "v4": "apparaîtant"
     },
     {
         "word": "servir",
@@ -447,7 +454,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/sɛʁviʁ/",
-        "id": "fr_elementary_food_drink_019"
+        "id": "fr_elementary_food_drink_019",
+        "v4": "servissant"
     },
     {
         "word": "attendre",
@@ -496,7 +504,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/kɔ̃stʁɥiʁ/",
-        "id": "fr_elementary_describing_044"
+        "id": "fr_elementary_describing_044",
+        "v4": "construiant"
     },
     {
         "word": "atteindre",
@@ -520,7 +529,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/atɛ̃dʁ/",
-        "id": "fr_elementary_travel_008"
+        "id": "fr_elementary_travel_008",
+        "v4": "atteindant"
     },
     {
         "word": "tuer",
@@ -757,7 +767,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/pʁɑ̃dʁ sa ʁətʁɛt/",
-        "id": "fr_elementary_work_023"
+        "id": "fr_elementary_work_023",
+        "v4": "prenant sa retraite"
     },
     {
         "word": "avoir les moyens",
@@ -784,7 +795,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/avwaʁ le mwajɛ̃/",
-        "id": "fr_elementary_numbers_015"
+        "id": "fr_elementary_numbers_015",
+        "v4": "ayant les moyens"
     },
     {
         "word": "recycler",
@@ -861,7 +873,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/pʁɔdɥiʁ/",
-        "id": "fr_elementary_work_024"
+        "id": "fr_elementary_work_024",
+        "v4": "produiant"
     },
     {
         "word": "faire face",
@@ -885,7 +898,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/fɛʁ fas/",
-        "id": "fr_elementary_people_048"
+        "id": "fr_elementary_people_048",
+        "v4": "faisant face"
     },
     {
         "word": "couvrir",
@@ -909,7 +923,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/kuvʁiʁ/",
-        "id": "fr_elementary_describing_049"
+        "id": "fr_elementary_describing_049",
+        "v4": "couvrissant"
     },
     {
         "word": "décrire",
@@ -933,7 +948,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/dekʁiʁ/",
-        "id": "fr_elementary_work_025"
+        "id": "fr_elementary_work_025",
+        "v4": "décriant"
     },
     {
         "word": "attraper",
@@ -1039,7 +1055,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/pʁɔmuvwaʁ/",
-        "id": "fr_elementary_work_028"
+        "id": "fr_elementary_work_028",
+        "v4": "promouvoissant"
     },
     {
         "word": "démissionner",
@@ -1446,7 +1463,7 @@ const data = [
         "v3": "disputé",
         "auxiliary": "être",
         "reflexive": true,
-        "v4": "se disputant",
+        "v4": "disputant",
         "lang": "fr",
         "transcription": "/sə dispyte/",
         "id": "fr_elementary_describing_050"
@@ -1473,7 +1490,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/fɛʁ kɔ̃fjɑ̃s/",
-        "id": "fr_elementary_describing_051"
+        "id": "fr_elementary_describing_051",
+        "v4": "faisant confiance"
     },
     {
         "word": "soutenir",
@@ -1497,7 +1515,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/sutniʁ/",
-        "id": "fr_elementary_describing_052"
+        "id": "fr_elementary_describing_052",
+        "v4": "soutenissant"
     },
     {
         "word": "ne pas être d'accord",
@@ -1521,7 +1540,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/ne pɑ ɛtʁ d akɔʁ/",
-        "id": "fr_elementary_describing_053"
+        "id": "fr_elementary_describing_053",
+        "v4": "ne pas être d'accord"
     },
     {
         "word": "s'excuser",
@@ -1544,7 +1564,7 @@ const data = [
         "v3": "excusé",
         "auxiliary": "être",
         "reflexive": true,
-        "v4": "s'excusant",
+        "v4": "excusant",
         "lang": "fr",
         "transcription": "/sɛkskyze/",
         "id": "fr_elementary_describing_054"
@@ -1600,7 +1620,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/fɛʁ œ̃ kɔ̃pʁɔmi/",
-        "id": "fr_elementary_describing_056"
+        "id": "fr_elementary_describing_056",
+        "v4": "faisant un compromis"
     },
     {
         "word": "diagnostiquer",
@@ -1674,7 +1695,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/pʁevniʁ/",
-        "id": "fr_elementary_health_medicine_007"
+        "id": "fr_elementary_health_medicine_007",
+        "v4": "prévenissant"
     },
     {
         "word": "souffrir",
@@ -1698,7 +1720,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/sufʁiʁ/",
-        "id": "fr_elementary_health_medicine_008"
+        "id": "fr_elementary_health_medicine_008",
+        "v4": "souffrissant"
     },
     {
         "word": "recommander",
@@ -1931,7 +1954,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/dekuvʁiʁ/",
-        "id": "fr_elementary_describing_062"
+        "id": "fr_elementary_describing_062",
+        "v4": "découvrissant"
     },
     {
         "word": "poursuivre",
@@ -1955,7 +1979,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/puʁsɥivʁ/",
-        "id": "fr_elementary_work_037"
+        "id": "fr_elementary_work_037",
+        "v4": "poursuivant"
     },
     {
         "word": "abandonner",
@@ -2010,7 +2035,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/ʁezudʁ/",
-        "id": "fr_elementary_work_039"
+        "id": "fr_elementary_work_039",
+        "v4": "résoudant"
     },
     {
         "word": "s'occuper de",
@@ -2038,7 +2064,8 @@ const data = [
         "reflexive": true,
         "lang": "fr",
         "transcription": "/sɔkype də/",
-        "id": "fr_elementary_people_049"
+        "id": "fr_elementary_people_049",
+        "v4": "occupant de"
     },
     {
         "word": "limiter",
@@ -2144,7 +2171,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/ʁəmɛtʁ a ply taʁ/",
-        "id": "fr_elementary_work_042"
+        "id": "fr_elementary_work_042",
+        "v4": "remettant à plus tard"
     },
     {
         "word": "devoir",
@@ -2180,7 +2208,8 @@ const data = [
         },
         "lang": "fr",
         "transcription": "/doˈvwaʁ/",
-        "id": "fr_elementary_numbers_024"
+        "id": "fr_elementary_numbers_024",
+        "v4": "devant"
     },
     {
         "word": "inviter",
@@ -2283,7 +2312,8 @@ const data = [
         "reflexive": true,
         "lang": "fr",
         "transcription": "/sə plɛ̃dʁ/",
-        "id": "fr_elementary_describing_065"
+        "id": "fr_elementary_describing_065",
+        "v4": "plaindant"
     },
     {
         "word": "discuter",
@@ -2410,7 +2440,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/pɛʁdʁ dy pwa/",
-        "id": "fr_elementary_health_medicine_010"
+        "id": "fr_elementary_health_medicine_010",
+        "v4": "perdant du poids"
     },
     {
         "word": "augmenter",
@@ -2459,7 +2490,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/ʁedɥiʁ/",
-        "id": "fr_elementary_work_047"
+        "id": "fr_elementary_work_047",
+        "v4": "réduiant"
     },
     {
         "word": "améliorer ses compétences",
@@ -2487,7 +2519,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/ameljɔʁe se kɔ̃petɑ̃s/",
-        "id": "fr_elementary_work_048"
+        "id": "fr_elementary_work_048",
+        "v4": "améliorant ses compétences"
     },
     {
         "word": "fournir",
@@ -2539,7 +2572,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/ʁezudʁ/",
-        "id": "fr_elementary_work_050"
+        "id": "fr_elementary_work_050",
+        "v4": "résoudant"
     },
     {
         "word": "partager",
@@ -2588,7 +2622,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/ʁəʒwɛ̃dʁ/",
-        "id": "fr_elementary_social_170"
+        "id": "fr_elementary_social_170",
+        "v4": "rejoindant"
     },
     {
         "word": "recevoir",
@@ -2612,7 +2647,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/ʁəsəvwaʁ/",
-        "id": "fr_elementary_work_053"
+        "id": "fr_elementary_work_053",
+        "v4": "recevant"
     },
     {
         "word": "contenir",
@@ -2639,7 +2675,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/kɔ̃tniʁ/",
-        "id": "fr_elementary_describing_067"
+        "id": "fr_elementary_describing_067",
+        "v4": "contenissant"
     },
     {
         "word": "prévoir",
@@ -2663,7 +2700,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/pʁevwaʁ/",
-        "id": "fr_elementary_work_055"
+        "id": "fr_elementary_work_055",
+        "v4": "prévoissant"
     },
     {
         "word": "préparer",
@@ -2762,7 +2800,8 @@ const data = [
         "auxiliary": "avoir",
         "lang": "fr",
         "transcription": "/ɛtʁ d akɔʁ/",
-        "id": "fr_elementary_describing_069"
+        "id": "fr_elementary_describing_069",
+        "v4": "étant d'accord"
     },
     {
         "word": "remplacer",
@@ -2838,7 +2877,7 @@ const data = [
         "v3": "déconnecté",
         "auxiliary": "être",
         "reflexive": true,
-        "v4": "se déconnectant",
+        "v4": "déconnectant",
         "lang": "fr",
         "transcription": "/sə dekɔnɛkte/",
         "id": "fr_elementary_technology_010"

@@ -63,7 +63,7 @@
             }
         ],
         "h": [
-            "Où habites-tu: village ou ville ?",
+            "Où habites-tu — village ou ville ?",
             "Tes voisins sont-ils amicaux ?",
             "Est-ce que les gens parlent aux inconnus là où tu habites ?",
             "As-tu déjà vécu dans un type de lieu différent ?",
@@ -232,7 +232,7 @@
         ],
         "h": [
             "À quelle fréquence cuisines-tu à la maison ?",
-            "Qu'est-ce qui est plus facile: cuisiner ou aller au restaurant ?",
+            "Qu'est-ce qui est plus facile — cuisiner ou aller au restaurant ?",
             "Manger au restaurant coûte-t-il cher là où tu habites ?",
             "Quel est ton restaurant préféré ?",
             "Quel est ton meilleur plat fait maison ?"

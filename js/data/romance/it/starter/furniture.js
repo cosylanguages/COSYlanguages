@@ -373,7 +373,7 @@
             {
                 "text": "Un'apertura in una parete riempita di vetro che lascia entrare la luce.",
                 "examples": [
-                    "Apri la finestra: fa caldo."
+                    "Apri la finestra — fa caldo."
                 ]
             }
         ],

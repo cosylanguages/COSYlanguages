@@ -2130,7 +2130,7 @@
             {
                 "text": "Based on theory rather than practice.",
                 "examples": [
-                    "The problem is theoretical: it does not arise in practice."
+                    "The problem is theoretical — it does not arise in practice."
                 ]
             }
         ],

@@ -53,7 +53,7 @@
     {
         "t": "As pessoas são mais simpáticas nas cidades pequenas.",
         "h": [
-            "Onde mora: vila ou cidade?",
+            "Onde mora — vila ou cidade?",
             "Os seus vizinhos são amigáveis?",
             "As pessoas falam com estranhos onde mora?",
             "Já viveu num tipo de lugar diferente?",
@@ -229,7 +229,7 @@
         "t": "Cozinhar em casa é sempre melhor do que comer fora.",
         "h": [
             "Com que frequência cozinha em casa?",
-            "O que é mais fácil: cozinhar ou ir a um restaurante?",
+            "O que é mais fácil — cozinhar ou ir a um restaurante?",
             "Comer fora é caro onde mora?",
             "Qual é o seu restaurante favorito?",
             "Qual é a sua melhor refeição caseira?"

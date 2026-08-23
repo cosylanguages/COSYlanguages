@@ -27,7 +27,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "photographing"
-        }
+        },
+        "v4": "photographing"
     },
     {
         "id": "en_intermediate_social_055",
@@ -55,7 +56,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "gardening"
-        }
+        },
+        "v4": "gardening"
     },
     {
         "id": "en_intermediate_social_056",
@@ -88,7 +90,8 @@ const data = [
                 "origin_lang": "Proto-Germanic",
                 "origin_word": "fiskaz"
             }
-        }
+        },
+        "v4": "fishing"
     },
     {
         "id": "en_intermediate_social_057",
@@ -118,7 +121,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "volunteering"
-        }
+        },
+        "v4": "volunteering"
     },
     {
         "id": "en_intermediate_environment_010",
@@ -146,7 +150,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "recycling"
-        }
+        },
+        "v4": "recycling"
     },
     {
         "id": "en_intermediate_structured_argument_006",
@@ -174,7 +179,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "arguing"
-        }
+        },
+        "v4": "arguing"
     },
     {
         "id": "en_intermediate_work_033",
@@ -202,7 +208,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "suggesting"
-        }
+        },
+        "v4": "suggesting"
     },
     {
         "id": "en_intermediate_structured_argument_007",
@@ -230,7 +237,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "claiming"
-        }
+        },
+        "v4": "claiming"
     },
     {
         "id": "en_intermediate_values_beliefs_008",
@@ -258,7 +266,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "believing"
-        }
+        },
+        "v4": "believing"
     },
     {
         "id": "en_intermediate_work_034",
@@ -286,7 +295,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "denying"
-        }
+        },
+        "v4": "denying"
     },
     {
         "id": "en_intermediate_career_development_039",
@@ -314,7 +324,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "considering"
-        }
+        },
+        "v4": "considering"
     },
     {
         "id": "en_intermediate_work_035",
@@ -342,7 +353,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "assuming"
-        }
+        },
+        "v4": "assuming"
     },
     {
         "id": "en_intermediate_work_036",
@@ -370,7 +382,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "admiting"
-        }
+        },
+        "v4": "admitting"
     },
     {
         "id": "en_intermediate_work_037",
@@ -398,7 +411,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "acknowledging"
-        }
+        },
+        "v4": "acknowledging"
     },
     {
         "id": "en_intermediate_probability_certainty_003",
@@ -426,7 +440,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "doubting"
-        }
+        },
+        "v4": "doubting"
     },
     {
         "id": "en_intermediate_work_038",
@@ -454,7 +469,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "insisting"
-        }
+        },
+        "v4": "insisting"
     },
     {
         "id": "en_intermediate_work_039",
@@ -482,7 +498,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "presenting"
-        }
+        },
+        "v4": "presenting"
     },
     {
         "id": "en_intermediate_work_040",
@@ -510,7 +527,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "implementing"
-        }
+        },
+        "v4": "implementing"
     },
     {
         "id": "en_intermediate_career_development_040",
@@ -538,7 +556,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "achieving"
-        }
+        },
+        "v4": "achieving"
     },
     {
         "id": "en_intermediate_work_041",
@@ -549,7 +568,7 @@ const data = [
         "form": "verb",
         "definitions": [
             {
-                "text": "To give something: time, money or ideas: to a shared purpose.",
+                "text": "To give something — time, money or ideas — to a shared purpose.",
                 "examples": [
                     "She contributes valuable experience to every project."
                 ]
@@ -566,7 +585,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "contributing"
-        }
+        },
+        "v4": "contributing"
     },
     {
         "id": "en_intermediate_work_042",
@@ -594,7 +614,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "identifying"
-        }
+        },
+        "v4": "identifying"
     },
     {
         "id": "en_intermediate_career_development_041",
@@ -622,7 +643,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "adapting"
-        }
+        },
+        "v4": "adapting"
     },
     {
         "id": "en_intermediate_career_development_042",
@@ -650,7 +672,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "motivating"
-        }
+        },
+        "v4": "motivating"
     },
     {
         "id": "en_intermediate_work_043",
@@ -678,7 +701,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "prioritising"
-        }
+        },
+        "v4": "prioritising"
     },
     {
         "id": "en_intermediate_work_044",
@@ -706,7 +730,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "resolving"
-        }
+        },
+        "v4": "resolving"
     },
     {
         "id": "en_intermediate_career_development_043",
@@ -734,7 +759,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "developing"
-        }
+        },
+        "v4": "developing"
     },
     {
         "id": "en_intermediate_finances_investment_003",
@@ -762,7 +788,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "increasing"
-        }
+        },
+        "v4": "increasing"
     },
     {
         "id": "en_intermediate_finances_investment_004",
@@ -790,7 +817,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "reducing"
-        }
+        },
+        "v4": "reducing"
     },
     {
         "id": "en_intermediate_environment_011",
@@ -818,7 +846,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "affecting"
-        }
+        },
+        "v4": "affecting"
     },
     {
         "id": "en_intermediate_environment_012",
@@ -846,7 +875,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "causing"
-        }
+        },
+        "v4": "causing"
     },
     {
         "id": "en_intermediate_career_development_044",
@@ -874,7 +904,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "improving"
-        }
+        },
+        "v4": "improving"
     },
     {
         "id": "en_intermediate_work_045",
@@ -902,7 +933,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "replacing"
-        }
+        },
+        "v4": "replacing"
     },
     {
         "id": "en_intermediate_work_046",
@@ -930,7 +962,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "reporting"
-        }
+        },
+        "v4": "reporting"
     },
     {
         "id": "en_intermediate_work_047",
@@ -958,7 +991,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "warning"
-        }
+        },
+        "v4": "warning"
     },
     {
         "id": "en_intermediate_work_048",
@@ -986,7 +1020,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "confirming"
-        }
+        },
+        "v4": "confirming"
     },
     {
         "id": "en_intermediate_work_049",
@@ -1014,7 +1049,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "explaining"
-        }
+        },
+        "v4": "explaining"
     },
     {
         "id": "en_intermediate_work_050",
@@ -1042,7 +1078,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "describing"
-        }
+        },
+        "v4": "describing"
     },
     {
         "id": "en_intermediate_social_058",
@@ -1070,7 +1107,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "voting"
-        }
+        },
+        "v4": "voting"
     },
     {
         "id": "en_intermediate_social_059",
@@ -1098,7 +1136,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "participating"
-        }
+        },
+        "v4": "participating"
     },
     {
         "id": "en_intermediate_social_060",
@@ -1126,7 +1165,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "protesting"
-        }
+        },
+        "v4": "protesting"
     },
     {
         "id": "en_intermediate_social_061",
@@ -1154,7 +1194,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "supporting"
-        }
+        },
+        "v4": "supporting"
     },
     {
         "id": "en_intermediate_social_062",
@@ -1182,7 +1223,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "raising"
-        }
+        },
+        "v4": "raising"
     },
     {
         "id": "en_intermediate_stress_anxiety_012",
@@ -1210,7 +1252,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "worrying"
-        }
+        },
+        "v4": "worrying"
     },
     {
         "id": "en_intermediate_mental_health_wellbeing_018",
@@ -1238,7 +1281,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "regreting"
-        }
+        },
+        "v4": "regretting"
     },
     {
         "id": "en_intermediate_mental_health_wellbeing_019",
@@ -1266,7 +1310,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "resenting"
-        }
+        },
+        "v4": "resenting"
     },
     {
         "id": "en_intermediate_work_051",
@@ -1294,7 +1339,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "appreciating"
-        }
+        },
+        "v4": "appreciating"
     },
     {
         "id": "en_intermediate_work_052",
@@ -1322,7 +1368,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "blaming"
-        }
+        },
+        "v4": "blaming"
     },
     {
         "id": "en_intermediate_work_053",
@@ -1350,7 +1397,8 @@ const data = [
             "group": "regular",
             "auxiliary": "have",
             "v4": "encouraging"
-        }
+        },
+        "v4": "encouraging"
     },
     {
         "id": "en_intermediate_work_054",
@@ -1377,7 +1425,8 @@ const data = [
             "v3": "taken on",
             "group": "regular",
             "auxiliary": "have"
-        }
+        },
+        "v4": "taking on"
     },
     {
         "id": "en_intermediate_work_055",
@@ -1404,7 +1453,8 @@ const data = [
             "v3": "put off",
             "group": "regular",
             "auxiliary": "have"
-        }
+        },
+        "v4": "putting off"
     },
     {
         "id": "en_intermediate_work_056",
@@ -1431,7 +1481,8 @@ const data = [
             "v3": "come across",
             "group": "regular",
             "auxiliary": "have"
-        }
+        },
+        "v4": "coming across"
     },
     {
         "id": "en_intermediate_work_057",
@@ -1458,7 +1509,8 @@ const data = [
             "v3": "dealt with",
             "group": "regular",
             "auxiliary": "have"
-        }
+        },
+        "v4": "dealing with"
     },
     {
         "id": "en_intermediate_social_063",
@@ -1485,7 +1537,8 @@ const data = [
             "v3": "stood for",
             "group": "regular",
             "auxiliary": "have"
-        }
+        },
+        "v4": "standing for"
     },
     {
         "id": "en_intermediate_career_development_045",
@@ -1512,7 +1565,8 @@ const data = [
             "v3": "built up",
             "group": "regular",
             "auxiliary": "have"
-        }
+        },
+        "v4": "building up"
     },
     {
         "id": "en_intermediate_finances_investment_005",
@@ -1539,7 +1593,8 @@ const data = [
             "v3": "run out",
             "group": "regular",
             "auxiliary": "have"
-        }
+        },
+        "v4": "running out"
     },
     {
         "id": "en_intermediate_work_058",
@@ -1566,7 +1621,8 @@ const data = [
             "v3": "looked into",
             "group": "regular",
             "auxiliary": "have"
-        }
+        },
+        "v4": "looking into"
     }
 ];
     const lang = "en";

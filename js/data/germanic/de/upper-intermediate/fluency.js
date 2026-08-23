@@ -364,7 +364,7 @@
                 "t": "Etwas, worauf du im Stillen stolz bist",
                 "h": [
                         "Was ist es?",
-                        "Warum im Stillen: warum nicht lautstark?",
+                        "Warum im Stillen — warum nicht lautstark?",
                         "Wie lange hat es gedauert?",
                         "Wissen die Menschen, die dir nahestehen, davon?",
                         "Was sagt das über deine Werte aus?"
@@ -380,7 +380,7 @@
                                 "text": "Etwas, worauf du im Stillen stolz bist",
                                 "examples": [
                                         "Was ist es?",
-                                        "Warum im Stillen: warum nicht lautstark?",
+                                        "Warum im Stillen — warum nicht lautstark?",
                                         "Wie lange hat es gedauert?",
                                         "Wissen die Menschen, die dir nahestehen, davon?",
                                         "Was sagt das über deine Werte aus?"
@@ -541,7 +541,7 @@
                 "id": "de_upper_intermediate_social_018"
         },
     {
-                "t": "Ruhm: Strafe oder Belohnung?",
+                "t": "Ruhm — Strafe oder Belohnung?",
                 "h": [
                         "Möchtest du berühmt sein?",
                         "Welche Art von Berühmtheit wärst du?",
@@ -553,11 +553,11 @@
                 "level": "upper_intermediate",
                 "theme": "social",
                 "sub_theme": null,
-                "word": "Ruhm: Strafe oder Belohnung?",
+                "word": "Ruhm — Strafe oder Belohnung?",
                 "form": "phrase",
                 "definitions": [
                         {
-                                "text": "Ruhm: Strafe oder Belohnung?",
+                                "text": "Ruhm — Strafe oder Belohnung?",
                                 "examples": [
                                         "Möchtest du berühmt sein?",
                                         "Welche Art von Berühmtheit wärst du?",

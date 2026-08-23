@@ -11,7 +11,7 @@
         "aspect": "stative",
         "v3": "infrastruttura",
         "auxiliary": "avere",
-        "v4": "infrastruttando",
+        "v4": "infrastruttura",
         "lang": "it",
         "id": "it_advanced_science_tech_society_c1_verb_infrastruttura",
         "transcription": ""

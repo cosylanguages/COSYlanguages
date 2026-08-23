@@ -46,7 +46,8 @@
         },
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_social_001"
+        "id": "pt_starter_social_001",
+        "v4": "sendo"
     },
     {
         "word": "ter",
@@ -91,7 +92,8 @@
         },
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_work_001"
+        "id": "pt_starter_work_001",
+        "v4": "tendo"
     },
     {
         "word": "sentir",
@@ -116,7 +118,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_health_medicine_001"
+        "id": "pt_starter_health_medicine_001",
+        "v4": "sentindo"
     },
     {
         "word": "dar",
@@ -161,7 +164,8 @@
             "tomar"
         ],
         "transcription": "",
-        "id": "pt_starter_shopping_001"
+        "id": "pt_starter_shopping_001",
+        "v4": "dando"
     },
     {
         "word": "tomar",
@@ -199,7 +203,8 @@
             "dar"
         ],
         "transcription": "",
-        "id": "pt_starter_travel_001"
+        "id": "pt_starter_travel_001",
+        "v4": "tomando"
     },
     {
         "word": "obter",
@@ -232,7 +237,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_shopping_002"
+        "id": "pt_starter_shopping_002",
+        "v4": "obtendo"
     },
     {
         "word": "pôr",
@@ -263,7 +269,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_furniture_001"
+        "id": "pt_starter_furniture_001",
+        "v4": "pondo"
     },
     {
         "word": "fazer",
@@ -298,7 +305,8 @@
         },
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_work_002"
+        "id": "pt_starter_work_002",
+        "v4": "fazendo"
     },
     {
         "word": "fazer",
@@ -328,7 +336,8 @@
         },
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_work_003"
+        "id": "pt_starter_work_003",
+        "v4": "fazendo"
     },
     {
         "word": "usar",
@@ -379,7 +388,7 @@
         "v3": "aberto",
         "group": "ir",
         "auxiliary": "ter",
-        "v4": "abriendo",
+        "v4": "abrindo",
         "lang": "pt",
         "antonyms": [
             "fechar"
@@ -560,7 +569,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_language_001"
+        "id": "pt_starter_language_001",
+        "v4": "mostrando"
     },
     {
         "word": "encontrar",
@@ -590,7 +600,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_shopping_005"
+        "id": "pt_starter_shopping_005",
+        "v4": "encontrando"
     },
     {
         "word": "manter",
@@ -619,7 +630,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_work_007"
+        "id": "pt_starter_work_007",
+        "v4": "mantendo"
     },
     {
         "word": "perder",
@@ -648,7 +660,8 @@
             "ganhar"
         ],
         "transcription": "",
-        "id": "pt_starter_shopping_006"
+        "id": "pt_starter_shopping_006",
+        "v4": "perdendo"
     },
     {
         "word": "cortar",
@@ -677,7 +690,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_food_drink_001"
+        "id": "pt_starter_food_drink_001",
+        "v4": "cortando"
     },
     {
         "word": "virar",
@@ -737,7 +751,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_food_drink_002"
+        "id": "pt_starter_food_drink_002",
+        "v4": "trazendo"
     },
     {
         "word": "dizer",
@@ -763,7 +778,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_social_002"
+        "id": "pt_starter_social_002",
+        "v4": "dizendo"
     },
     {
         "word": "contar",
@@ -792,7 +808,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_language_002"
+        "id": "pt_starter_language_002",
+        "v4": "contando"
     },
     {
         "word": "perguntar",
@@ -852,7 +869,8 @@
         },
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_social_003"
+        "id": "pt_starter_social_003",
+        "v4": "falando"
     },
     {
         "word": "falar",
@@ -944,7 +962,8 @@
             "ler"
         ],
         "transcription": "",
-        "id": "pt_starter_school_002"
+        "id": "pt_starter_school_002",
+        "v4": "escrevendo"
     },
     {
         "word": "ler",
@@ -973,7 +992,8 @@
             "escrever"
         ],
         "transcription": "",
-        "id": "pt_starter_school_003"
+        "id": "pt_starter_school_003",
+        "v4": "lendo"
     },
     {
         "word": "ouvir",
@@ -997,7 +1017,7 @@
         "v3": "ouvido",
         "group": "ir",
         "auxiliary": "ter",
-        "v4": "ouviendo",
+        "v4": "ouvindo",
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "audire"
@@ -1031,7 +1051,7 @@
         "v3": "respondido",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "respondiendo",
+        "v4": "respondendo",
         "lang": "pt",
         "transcription": "",
         "id": "pt_starter_language_004"
@@ -1058,7 +1078,7 @@
         "v3": "repetido",
         "group": "ir",
         "auxiliary": "ter",
-        "v4": "repetiendo",
+        "v4": "repetindo",
         "lang": "pt",
         "transcription": "",
         "id": "pt_starter_school_005"
@@ -1102,7 +1122,8 @@
         },
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_travel_003"
+        "id": "pt_starter_travel_003",
+        "v4": "indo"
     },
     {
         "word": "vir",
@@ -1138,7 +1159,8 @@
             "ir"
         ],
         "transcription": "",
-        "id": "pt_starter_travel_004"
+        "id": "pt_starter_travel_004",
+        "v4": "vindo"
     },
     {
         "word": "caminhar",
@@ -1191,7 +1213,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_travel_006"
+        "id": "pt_starter_travel_006",
+        "v4": "conduzindo"
     },
     {
         "word": "voar",
@@ -1217,7 +1240,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_travel_007"
+        "id": "pt_starter_travel_007",
+        "v4": "voando"
     },
     {
         "word": "chegar",
@@ -1274,7 +1298,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_work_009"
+        "id": "pt_starter_work_009",
+        "v4": "partindo"
     },
     {
         "word": "mover",
@@ -1302,7 +1327,7 @@
         "v3": "movido",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "moviendo",
+        "v4": "movendo",
         "lang": "pt",
         "transcription": "",
         "id": "pt_starter_furniture_002"
@@ -1399,7 +1424,8 @@
             "beber"
         ],
         "transcription": "",
-        "id": "pt_starter_food_drink_003"
+        "id": "pt_starter_food_drink_003",
+        "v4": "comendo"
     },
     {
         "word": "beber",
@@ -1432,7 +1458,8 @@
             "comer"
         ],
         "transcription": "",
-        "id": "pt_starter_food_drink_004"
+        "id": "pt_starter_food_drink_004",
+        "v4": "bebendo"
     },
     {
         "word": "dormir",
@@ -1465,7 +1492,8 @@
             "acordar"
         ],
         "transcription": "",
-        "id": "pt_starter_time_001"
+        "id": "pt_starter_time_001",
+        "v4": "dormindo"
     },
     {
         "word": "cozinhar",
@@ -1478,7 +1506,7 @@
             {
                 "text": "Preparar comida aquecendo-a.",
                 "examples": [
-                    "Ela cozinha o jantar todas as noites. Eu não cozinho: encomendo comida."
+                    "Ela cozinha o jantar todas as noites. Eu não cozinho — encomendo comida."
                 ]
             }
         ],
@@ -1549,7 +1577,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_clothes_001"
+        "id": "pt_starter_clothes_001",
+        "v4": "vestindo"
     },
     {
         "word": "lavar",
@@ -1605,7 +1634,8 @@
             "vender"
         ],
         "transcription": "",
-        "id": "pt_starter_shopping_007"
+        "id": "pt_starter_shopping_007",
+        "v4": "comprando"
     },
     {
         "word": "pagar",
@@ -1630,7 +1660,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_shopping_008"
+        "id": "pt_starter_shopping_008",
+        "v4": "pagando"
     },
     {
         "word": "gastar",
@@ -1658,7 +1689,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_shopping_009"
+        "id": "pt_starter_shopping_009",
+        "v4": "gastando"
     },
     {
         "word": "poupar",
@@ -1737,7 +1769,7 @@
         "v3": "vivido",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "viviendo",
+        "v4": "vivendo",
         "lang": "pt",
         "antonyms": [
             "morrer"
@@ -1769,7 +1801,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_social_005"
+        "id": "pt_starter_social_005",
+        "v4": "pensando"
     },
     {
         "word": "saber",
@@ -1800,7 +1833,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_school_006"
+        "id": "pt_starter_school_006",
+        "v4": "sabendo"
     },
     {
         "word": "querer",
@@ -1825,7 +1859,7 @@
         "v3": "querido",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "queriendo",
+        "v4": "querendo",
         "lang": "pt",
         "transcription": "",
         "id": "pt_starter_emotions_001"
@@ -2021,7 +2055,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_school_008"
+        "id": "pt_starter_school_008",
+        "v4": "esquecendo"
     },
     {
         "word": "entender",
@@ -2047,7 +2082,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_language_005"
+        "id": "pt_starter_language_005",
+        "v4": "entendendo"
     },
     {
         "word": "decidir",
@@ -2074,7 +2110,7 @@
         "v3": "decidido",
         "group": "ir",
         "auxiliary": "ter",
-        "v4": "decidiendo",
+        "v4": "decidindo",
         "lang": "pt",
         "transcription": "",
         "id": "pt_starter_social_006"
@@ -2133,7 +2169,8 @@
         },
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_body_001"
+        "id": "pt_starter_body_001",
+        "v4": "vendo"
     },
     {
         "word": "ouvir",
@@ -2163,7 +2200,8 @@
         },
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_body_002"
+        "id": "pt_starter_body_002",
+        "v4": "ouvindo"
     },
     {
         "word": "acordar",
@@ -2191,7 +2229,8 @@
             "dormir"
         ],
         "transcription": "",
-        "id": "pt_starter_work_011"
+        "id": "pt_starter_work_011",
+        "v4": "acordando"
     },
     {
         "word": "assistir",
@@ -2220,7 +2259,7 @@
         "v3": "assistido",
         "group": "ir",
         "auxiliary": "ter",
-        "v4": "assistiendo",
+        "v4": "assistindo",
         "lang": "pt",
         "transcription": "",
         "id": "pt_starter_social_007"
@@ -2317,7 +2356,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_sports_001"
+        "id": "pt_starter_sports_001",
+        "v4": "correndo"
     },
     {
         "word": "sentar",
@@ -2352,7 +2392,8 @@
             "estar de pé"
         ],
         "transcription": "",
-        "id": "pt_starter_work_012"
+        "id": "pt_starter_work_012",
+        "v4": "sentando"
     },
     {
         "word": "estar de pé",
@@ -2386,7 +2427,8 @@
             "sentar"
         ],
         "transcription": "",
-        "id": "pt_starter_work_013"
+        "id": "pt_starter_work_013",
+        "v4": "estando de pé"
     },
     {
         "word": "conhecer",
@@ -2416,7 +2458,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_work_014"
+        "id": "pt_starter_work_014",
+        "v4": "conhecendo"
     },
     {
         "word": "aprender",
@@ -2441,7 +2484,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_school_009"
+        "id": "pt_starter_school_009",
+        "v4": "aprendendo"
     },
     {
         "word": "mudar",
@@ -2551,7 +2595,8 @@
             "perder"
         ],
         "transcription": "",
-        "id": "pt_starter_social_009"
+        "id": "pt_starter_social_009",
+        "v4": "ganhando"
     },
     {
         "word": "esperar",
@@ -2603,7 +2648,7 @@
         "v3": "morto",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "morriendo",
+        "v4": "morrendo",
         "lang": "pt",
         "antonyms": [
             "viver"
@@ -2634,7 +2679,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_work_018"
+        "id": "pt_starter_work_018",
+        "v4": "enviando"
     },
     {
         "word": "ficar",
@@ -2691,7 +2737,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_nature_001"
+        "id": "pt_starter_nature_001",
+        "v4": "caindo"
     },
     {
         "word": "passar",
@@ -2749,7 +2796,8 @@
             "comprar"
         ],
         "transcription": "",
-        "id": "pt_starter_shopping_011"
+        "id": "pt_starter_shopping_011",
+        "v4": "vendendo"
     },
     {
         "word": "puxar",
@@ -2879,7 +2927,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_describing_001"
+        "id": "pt_starter_describing_001",
+        "v4": "quebrando"
     },
     {
         "word": "receber",
@@ -2903,7 +2952,7 @@
         "v3": "recebido",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "recebiendo",
+        "v4": "recebendo",
         "lang": "pt",
         "transcription": "",
         "id": "pt_starter_shopping_012"
@@ -2968,7 +3017,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_social_011"
+        "id": "pt_starter_social_011",
+        "v4": "desenhando"
     },
     {
         "word": "partilhar",
@@ -3022,7 +3072,7 @@
         "v3": "sorrido",
         "group": "ir",
         "auxiliary": "ter",
-        "v4": "sorriendo",
+        "v4": "sorrindo",
         "lang": "pt",
         "antonyms": [
             "chorar"
@@ -3121,7 +3171,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_music_002"
+        "id": "pt_starter_music_002",
+        "v4": "cantando"
     },
     {
         "word": "saltar",
@@ -3178,7 +3229,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_sports_003"
+        "id": "pt_starter_sports_003",
+        "v4": "nadando"
     },
     {
         "word": "estudar",
@@ -3235,7 +3287,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_school_012"
+        "id": "pt_starter_school_012",
+        "v4": "ensinando"
     },
     {
         "word": "viajar diariamente",
@@ -3263,7 +3316,7 @@
         "v3": "viajado diariamente",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "viajar diariamenando",
+        "v4": "viajando diariamente",
         "lang": "pt",
         "transcription": "",
         "id": "pt_starter_travel_011"
@@ -3343,7 +3396,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_shopping_013"
+        "id": "pt_starter_shopping_013",
+        "v4": "custando"
     },
     {
         "word": "convidar",
@@ -3395,7 +3449,8 @@
         "reflexive": true,
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_work_022"
+        "id": "pt_starter_work_022",
+        "v4": "levantando"
     },
     {
         "word": "tomar o pequeno-almoço",
@@ -3423,7 +3478,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_work_023"
+        "id": "pt_starter_work_023",
+        "v4": "tomando o pequeno-almoço"
     },
     {
         "word": "voltar",
@@ -3448,7 +3504,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_work_024"
+        "id": "pt_starter_work_024",
+        "v4": "voltando"
     },
     {
         "word": "deitar-se",
@@ -3474,7 +3531,8 @@
         "reflexive": true,
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_work_025"
+        "id": "pt_starter_work_025",
+        "v4": "deitando"
     },
     {
         "word": "verificar",
@@ -3526,7 +3584,7 @@
         "form": "verb",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "respondiendo",
+        "v4": "respondendo",
         "lang": "pt",
         "transcription": "",
         "id": "pt_starter_work_027"
@@ -3581,7 +3639,7 @@
         "form": "verb",
         "group": "ir",
         "auxiliary": "ter",
-        "v4": "assistiendo",
+        "v4": "assistindo",
         "lang": "pt",
         "transcription": "",
         "id": "pt_starter_work_029"
@@ -3607,7 +3665,7 @@
         "form": "verb",
         "group": "ir",
         "auxiliary": "ter",
-        "v4": "geriendo",
+        "v4": "gerindo",
         "lang": "pt",
         "transcription": "",
         "id": "pt_starter_work_030"
@@ -3662,7 +3720,7 @@
         "form": "verb",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "ter meios paiendo",
+        "v4": "tendo meios para",
         "lang": "pt",
         "transcription": "",
         "id": "pt_starter_shopping_015"
@@ -3688,7 +3746,7 @@
         "form": "verb",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "deviendo",
+        "v4": "devendo",
         "lang": "pt",
         "transcription": "",
         "id": "pt_starter_shopping_016"
@@ -3823,7 +3881,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_health_medicine_003"
+        "id": "pt_starter_health_medicine_003",
+        "v4": "magoando"
     },
     {
         "word": "descansar",
@@ -3931,7 +3990,7 @@
         "form": "verb",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "fazer as maliendo",
+        "v4": "fazendo as malas",
         "lang": "pt",
         "transcription": "",
         "id": "pt_starter_travel_014"
@@ -3986,7 +4045,7 @@
         "form": "verb",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "perdiendo",
+        "v4": "perdendo",
         "lang": "pt",
         "transcription": "",
         "id": "pt_starter_travel_016"
@@ -4071,7 +4130,7 @@
         "v3": "agradecido",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "agradeciendo",
+        "v4": "agradecendo",
         "lang": "pt",
         "transcription": "",
         "id": "pt_starter_social_018"
@@ -4182,7 +4241,7 @@
         "v3": "acontecido",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "aconteciendo",
+        "v4": "acontecendo",
         "lang": "pt",
         "transcription": "",
         "id": "pt_starter_social_021"
@@ -4208,7 +4267,7 @@
         "v3": "parecido",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "pareciendo",
+        "v4": "parecendo",
         "lang": "pt",
         "transcription": "",
         "id": "pt_starter_social_022"
@@ -4240,7 +4299,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_school_013"
+        "id": "pt_starter_school_013",
+        "v4": "significando"
     },
     {
         "word": "seguir",
@@ -4267,7 +4327,7 @@
         "v3": "seguido",
         "group": "ir",
         "auxiliary": "ter",
-        "v4": "seguiendo",
+        "v4": "seguindo",
         "lang": "pt",
         "transcription": "",
         "id": "pt_starter_work_034"
@@ -4324,7 +4384,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_work_035"
+        "id": "pt_starter_work_035",
+        "v4": "crescendo"
     },
     {
         "word": "incluir",
@@ -4351,7 +4412,7 @@
         "v3": "incluído",
         "group": "ir",
         "auxiliary": "ter",
-        "v4": "incluiendo",
+        "v4": "incluindo",
         "lang": "pt",
         "transcription": "",
         "id": "pt_starter_shopping_018"
@@ -4380,7 +4441,8 @@
         "reflexive": true,
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_work_036"
+        "id": "pt_starter_work_036",
+        "v4": "tornando"
     },
     {
         "word": "pertencer",
@@ -4406,7 +4468,7 @@
         "v3": "pertencido",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "pertenciendo",
+        "v4": "pertencendo",
         "lang": "pt",
         "transcription": "",
         "id": "pt_starter_work_037"
@@ -4434,7 +4496,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_social_023"
+        "id": "pt_starter_social_023",
+        "v4": "escolhendo"
     },
     {
         "word": "construir",
@@ -4464,7 +4527,8 @@
         "auxiliary": "ter",
         "lang": "pt",
         "transcription": "",
-        "id": "pt_starter_work_038"
+        "id": "pt_starter_work_038",
+        "v4": "construindo"
     },
     {
         "word": "produzir",
@@ -4487,7 +4551,8 @@
         ],
         "lang": "pt",
         "emoji": "✨",
-        "id": "pt_starter_work_employment_001"
+        "id": "pt_starter_work_employment_001",
+        "v4": "produzindo"
     },
     {
         "word": "projetar",

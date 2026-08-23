@@ -1671,7 +1671,8 @@
         "lang": "en",
         "level": "advanced",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "giving way to"
     },
     {
         "id": "en_advanced_discourse_argument_verb_set_out",
@@ -1697,7 +1698,8 @@
         "lang": "en",
         "level": "advanced",
         "theme": "discourse_argument",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "setting out"
     },
     {
         "id": "en_advanced_discourse_argument_verb_bear_out",
@@ -1723,7 +1725,8 @@
         "lang": "en",
         "level": "advanced",
         "theme": "discourse_argument",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "bearing out"
     },
     {
         "id": "en_advanced_language_verb_bring_about",
@@ -1749,7 +1752,8 @@
         "lang": "en",
         "level": "advanced",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "bringing about"
     },
     {
         "id": "en_advanced_discourse_argument_verb_call_into_question",
@@ -1772,7 +1776,7 @@
         "v3": "called into question",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "call into questioning",
+        "v4": "calling into question",
         "lang": "en",
         "level": "advanced",
         "theme": "discourse_argument",

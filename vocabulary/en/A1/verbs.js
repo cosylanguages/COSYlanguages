@@ -56,7 +56,8 @@ const data = [
         },
         "antonyms": [
             "become"
-        ]
+        ],
+        "v4": "being"
     },
     {
         "id": "en_starter_work_094",
@@ -103,7 +104,8 @@ const data = [
         },
         "antonyms": [
             "need"
-        ]
+        ],
+        "v4": "having"
     },
     {
         "id": "en_starter_illnesses_symptoms_016",
@@ -132,7 +134,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "act"
-        ]
+        ],
+        "v4": "feeling"
     },
     {
         "id": "en_starter_shopping_022",
@@ -166,7 +169,8 @@ const data = [
         },
         "antonyms": [
             "take"
-        ]
+        ],
+        "v4": "giving"
     },
     {
         "id": "en_starter_modes_of_transport_018",
@@ -196,7 +200,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "give"
-        ]
+        ],
+        "v4": "taking"
     },
     {
         "id": "en_starter_shopping_023",
@@ -227,7 +232,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "give"
-        ]
+        ],
+        "v4": "getting"
     },
     {
         "id": "en_starter_furniture_062",
@@ -257,7 +263,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "take"
-        ]
+        ],
+        "v4": "putting"
     },
     {
         "id": "en_starter_work_095",
@@ -287,7 +294,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "destroy"
-        ]
+        ],
+        "v4": "making"
     },
     {
         "id": "en_starter_work_096",
@@ -333,7 +341,8 @@ const data = [
         },
         "antonyms": [
             "undo"
-        ]
+        ],
+        "v4": "doing"
     },
     {
         "id": "en_starter_technology_024",
@@ -591,7 +600,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "hide"
-        ]
+        ],
+        "v4": "showing"
     },
     {
         "id": "en_starter_shopping_026",
@@ -624,7 +634,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "lose"
-        ]
+        ],
+        "v4": "finding"
     },
     {
         "id": "en_starter_work_100",
@@ -657,7 +668,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "give away"
-        ]
+        ],
+        "v4": "keeping"
     },
     {
         "id": "en_starter_shopping_027",
@@ -690,7 +702,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "win"
-        ]
+        ],
+        "v4": "losing"
     },
     {
         "id": "en_starter_cooking_methods_003",
@@ -723,7 +736,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "join"
-        ]
+        ],
+        "v4": "cutting"
     },
     {
         "id": "en_starter_directions_navigation_007",
@@ -787,7 +801,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "take"
-        ]
+        ],
+        "v4": "bringing"
     },
     {
         "id": "en_starter_social_025",
@@ -821,7 +836,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "listen"
-        ]
+        ],
+        "v4": "saying"
     },
     {
         "id": "en_starter_asking_answering_questions_002",
@@ -854,7 +870,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "ask"
-        ]
+        ],
+        "v4": "telling"
     },
     {
         "id": "en_starter_asking_answering_questions_003",
@@ -924,7 +941,8 @@ const data = [
         },
         "antonyms": [
             "be silent"
-        ]
+        ],
+        "v4": "speaking"
     },
     {
         "id": "en_starter_people_017",
@@ -1024,7 +1042,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "read"
-        ]
+        ],
+        "v4": "writing"
     },
     {
         "id": "en_starter_learning_studying_024",
@@ -1057,7 +1076,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "write"
-        ]
+        ],
+        "v4": "reading"
     },
     {
         "id": "en_starter_learning_studying_025",
@@ -1208,7 +1228,8 @@ const data = [
         },
         "antonyms": [
             "come"
-        ]
+        ],
+        "v4": "going"
     },
     {
         "id": "en_starter_travel_033",
@@ -1245,7 +1266,8 @@ const data = [
         },
         "antonyms": [
             "go"
-        ]
+        ],
+        "v4": "coming"
     },
     {
         "id": "en_starter_modes_of_transport_019",
@@ -1312,7 +1334,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "walk"
-        ]
+        ],
+        "v4": "driving"
     },
     {
         "id": "en_starter_modes_of_transport_021",
@@ -1345,7 +1368,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "land"
-        ]
+        ],
+        "v4": "flying"
     },
     {
         "id": "en_starter_work_101",
@@ -1411,7 +1435,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "arrive"
-        ]
+        ],
+        "v4": "leaving"
     },
     {
         "id": "en_starter_household_tasks_009",
@@ -1501,7 +1526,7 @@ const data = [
             "journey"
         ],
         "auxiliary": "have",
-        "v4": "traveling",
+        "v4": "travelling",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -1546,7 +1571,8 @@ const data = [
         },
         "antonyms": [
             "drink"
-        ]
+        ],
+        "v4": "eating"
     },
     {
         "id": "en_starter_food_drink_089",
@@ -1584,7 +1610,8 @@ const data = [
         },
         "antonyms": [
             "eat"
-        ]
+        ],
+        "v4": "drinking"
     },
     {
         "id": "en_starter_time_040",
@@ -1622,7 +1649,8 @@ const data = [
         },
         "antonyms": [
             "wake up"
-        ]
+        ],
+        "v4": "sleeping"
     },
     {
         "id": "en_starter_cooking_methods_004",
@@ -1634,7 +1662,7 @@ const data = [
             {
                 "text": "To prepare food by heating it.",
                 "examples": [
-                    "She cooks dinner every evening. I do not cook: I order food."
+                    "She cooks dinner every evening. I do not cook — I order food."
                 ]
             }
         ],
@@ -1722,7 +1750,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "undress"
-        ]
+        ],
+        "v4": "wearing"
     },
     {
         "id": "en_starter_household_tasks_011",
@@ -1789,7 +1818,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "sell"
-        ]
+        ],
+        "v4": "buying"
     },
     {
         "id": "en_starter_money_payment_016",
@@ -1821,7 +1851,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "receive"
-        ]
+        ],
+        "v4": "paying"
     },
     {
         "id": "en_starter_money_payment_017",
@@ -1853,7 +1884,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "save"
-        ]
+        ],
+        "v4": "spending"
     },
     {
         "id": "en_starter_money_payment_018",
@@ -1986,7 +2018,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "feel"
-        ]
+        ],
+        "v4": "thinking"
     },
     {
         "id": "en_starter_learning_studying_026",
@@ -2020,7 +2053,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "wonder"
-        ]
+        ],
+        "v4": "knowing"
     },
     {
         "id": "en_starter_emotions_054",
@@ -2096,7 +2130,8 @@ const data = [
         "id": "en_starter_emotions_056",
         "word": "like",
         "emoji": "👍",
-        "subtext": "like work / like to travel / like someone / like the idea","form": "verb",
+        "subtext": "like work / like to travel / like someone / like the idea",
+        "form": "verb",
         "definitions": [
             {
                 "text": "To find something pleasant; to enjoy.",
@@ -2314,7 +2349,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "remember"
-        ]
+        ],
+        "v4": "forgetting"
     },
     {
         "id": "en_starter_asking_answering_questions_005",
@@ -2344,7 +2380,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "misunderstand"
-        ]
+        ],
+        "v4": "understanding"
     },
     {
         "id": "en_starter_giving_opinions_020",
@@ -2443,7 +2480,8 @@ const data = [
         },
         "antonyms": [
             "blind"
-        ]
+        ],
+        "v4": "seeing"
     },
     {
         "id": "en_starter_body_044",
@@ -2478,7 +2516,8 @@ const data = [
         },
         "antonyms": [
             "ignore"
-        ]
+        ],
+        "v4": "hearing"
     },
     {
         "id": "en_starter_work_104",
@@ -2507,7 +2546,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "sleep"
-        ]
+        ],
+        "v4": "waking up"
     },
     {
         "id": "en_starter_leisure_activities_020",
@@ -2628,7 +2668,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "walk"
-        ]
+        ],
+        "v4": "running"
     },
     {
         "id": "en_starter_work_105",
@@ -2661,7 +2702,8 @@ const data = [
         },
         "antonyms": [
             "stand"
-        ]
+        ],
+        "v4": "sitting"
     },
     {
         "id": "en_starter_work_106",
@@ -2694,7 +2736,8 @@ const data = [
         },
         "antonyms": [
             "sit"
-        ]
+        ],
+        "v4": "standing"
     },
     {
         "id": "en_starter_work_107",
@@ -2714,12 +2757,14 @@ const data = [
         "v2": "met",
         "v3": "met",
         "subtext": "meet a client / meet a colleague / meet for lunch / meet online",
-        "group": "regular","transcription": "mit",
+        "group": "regular",
+        "transcription": "mit",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "meeting"
     },
     {
         "id": "en_starter_learning_studying_029",
@@ -2748,7 +2793,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "teach"
-        ]
+        ],
+        "v4": "learning"
     },
     {
         "id": "en_starter_work_108",
@@ -2801,7 +2847,7 @@ const data = [
         "group": "regular",
         "transcription": "stɑp",
         "auxiliary": "have",
-        "v4": "stoping",
+        "v4": "stopping",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -2901,7 +2947,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "lose"
-        ]
+        ],
+        "v4": "winning"
     },
     {
         "id": "en_starter_work_110",
@@ -2954,7 +3001,7 @@ const data = [
         "group": "regular",
         "transcription": "daɪ",
         "auxiliary": "have",
-        "v4": "diing",
+        "v4": "dying",
         "lang": "en",
         "level": "starter",
         "theme": "health_medicine",
@@ -2990,7 +3037,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "receive"
-        ]
+        ],
+        "v4": "sending"
     },
     {
         "id": "en_starter_types_of_accommodation_003",
@@ -3054,7 +3102,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "rise"
-        ]
+        ],
+        "v4": "falling"
     },
     {
         "id": "en_starter_seasons_climate_003",
@@ -3084,7 +3133,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "fall"
-        ]
+        ],
+        "v4": "rising"
     },
     {
         "id": "en_starter_learning_studying_030",
@@ -3147,7 +3197,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "buy"
-        ]
+        ],
+        "v4": "selling"
     },
     {
         "id": "en_starter_work_112",
@@ -3268,7 +3319,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "fix"
-        ]
+        ],
+        "v4": "breaking"
     },
     {
         "id": "en_starter_money_payment_019",
@@ -3351,12 +3403,14 @@ const data = [
         "aspect": "action",
         "v2": "drew",
         "v3": "drawn",
-        "group": "regular","transcription": "drɔ",
+        "group": "regular",
+        "transcription": "drɔ",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "drawing"
     },
     {
         "id": "en_starter_people_018",
@@ -3519,7 +3573,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "be quiet"
-        ]
+        ],
+        "v4": "singing"
     },
     {
         "id": "en_starter_playing_watching_sport_002",
@@ -3583,7 +3638,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "sink"
-        ]
+        ],
+        "v4": "swimming"
     },
     {
         "id": "en_starter_learning_studying_031",
@@ -3642,7 +3698,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "learn"
-        ]
+        ],
+        "v4": "teaching"
     },
     {
         "id": "en_starter_types_of_accommodation_004",
@@ -3728,7 +3785,8 @@ const data = [
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "costing"
     },
     {
         "id": "en_starter_people_019",
@@ -3778,12 +3836,14 @@ const data = [
         "v3": "got up",
         "emoji": "🛌",
         "form": "verb",
-        "group": "regular","transcription": "gɪt əp",
+        "group": "regular",
+        "transcription": "gɪt əp",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "getting up"
     },
     {
         "id": "en_starter_work_116",
@@ -3806,12 +3866,14 @@ const data = [
         "v3": "had breakfast",
         "emoji": "🍳",
         "form": "verb",
-        "group": "regular","transcription": "hæv ˈbrɛkfəst",
+        "group": "regular",
+        "transcription": "hæv ˈbrɛkfəst",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "having breakfast"
     },
     {
         "id": "en_starter_work_117",
@@ -3831,12 +3893,14 @@ const data = [
         "v3": "come back",
         "emoji": "🔙",
         "form": "verb",
-        "group": "regular","transcription": "kəm bæk",
+        "group": "regular",
+        "transcription": "kəm bæk",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "coming back"
     },
     {
         "id": "en_starter_work_118",
@@ -3856,12 +3920,14 @@ const data = [
         "v3": "gone to bed",
         "emoji": "🛌",
         "form": "verb",
-        "group": "regular","transcription": "goʊ tɪ bɛd",
+        "group": "regular",
+        "transcription": "goʊ tɪ bɛd",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "going to bed"
     },
     {
         "id": "en_starter_work_119",
@@ -4160,7 +4226,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "heal"
-        ]
+        ],
+        "v4": "hurting"
     },
     {
         "id": "en_starter_work_124",
@@ -4278,7 +4345,7 @@ const data = [
         "group": "regular",
         "transcription": "ˈkænsəl",
         "auxiliary": "have",
-        "v4": "canceling",
+        "v4": "cancelling",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -4464,7 +4531,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "nonsense"
-        ]
+        ],
+        "v4": "meaning"
     },
     {
         "id": "en_starter_work_126",
@@ -4523,7 +4591,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "shrink"
-        ]
+        ],
+        "v4": "growing"
     },
     {
         "id": "en_starter_work_128",
@@ -4552,7 +4621,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "remain"
-        ]
+        ],
+        "v4": "becoming"
     },
     {
         "id": "en_starter_giving_opinions_022",
@@ -4581,7 +4651,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "reject"
-        ]
+        ],
+        "v4": "choosing"
     },
     {
         "id": "en_starter_work_129",
@@ -4613,7 +4684,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "end"
-        ]
+        ],
+        "v4": "beginning"
     },
     {
         "id": "en_starter_work_130",
@@ -4709,7 +4781,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "walk"
-        ]
+        ],
+        "v4": "riding"
     },
     {
         "id": "en_starter_giving_opinions_023",
@@ -4766,7 +4839,7 @@ const data = [
         "group": "regular",
         "transcription": "prɪˈfər",
         "auxiliary": "have",
-        "v4": "prefering",
+        "v4": "preferring",
         "lang": "en",
         "level": "starter",
         "theme": "giving_opinions",
@@ -4802,7 +4875,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "throw"
-        ]
+        ],
+        "v4": "catching"
     },
     {
         "id": "en_starter_household_tasks_012",
@@ -4861,7 +4935,7 @@ const data = [
         "group": "regular",
         "transcription": "plæn",
         "auxiliary": "have",
-        "v4": "planing",
+        "v4": "planning",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -4930,7 +5004,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "stink"
-        ]
+        ],
+        "v4": "smelling"
     },
     {
         "id": "en_starter_tastes_textures_018",
@@ -4995,7 +5070,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "stand"
-        ]
+        ],
+        "v4": "lying"
     },
     {
         "id": "en_starter_emotions_062",
@@ -5126,7 +5202,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "misspell"
-        ]
+        ],
+        "v4": "spelling"
     },
     {
         "id": "en_starter_language_022",
@@ -5291,7 +5368,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "catch"
-        ]
+        ],
+        "v4": "throwing"
     },
     {
         "id": "en_starter_sports_017",
@@ -5385,7 +5463,7 @@ const data = [
         "group": "regular",
         "transcription": "hɑp",
         "auxiliary": "have",
-        "v4": "hoping",
+        "v4": "hopping",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -5419,7 +5497,7 @@ const data = [
         "group": "regular",
         "transcription": "skɪp",
         "auxiliary": "have",
-        "v4": "skiping",
+        "v4": "skipping",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -5591,7 +5669,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "drop"
-        ]
+        ],
+        "v4": "holding"
     },
     {
         "id": "en_starter_work_135",
@@ -5624,7 +5703,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "follow"
-        ]
+        ],
+        "v4": "leading"
     },
     {
         "id": "en_starter_emotions_064",
@@ -5656,7 +5736,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "make peace"
-        ]
+        ],
+        "v4": "fighting"
     },
     {
         "id": "en_starter_toys_games_010",
@@ -5685,7 +5766,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "show"
-        ]
+        ],
+        "v4": "hiding"
     },
     {
         "id": "en_starter_toys_games_011",
@@ -5717,7 +5799,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "hide"
-        ]
+        ],
+        "v4": "seeking"
     },
     {
         "id": "en_starter_technology_026",
@@ -5750,7 +5833,8 @@ const data = [
         "sub_theme": null,
         "antonyms": [
             "be silent"
-        ]
+        ],
+        "v4": "ringing"
     },
     {
         "id": "en_starter_using_smartphone_010",
@@ -5840,7 +5924,8 @@ const data = [
         "aspect": "action",
         "v2": "touched",
         "v3": "touched",
-        "group": "regular","transcription": "təʧ",
+        "group": "regular",
+        "transcription": "təʧ",
         "auxiliary": "have",
         "v4": "touching",
         "lang": "en",
@@ -5867,12 +5952,14 @@ const data = [
         "aspect": "action",
         "v2": "let",
         "v3": "let",
-        "group": "regular","transcription": "lɛt",
+        "group": "regular",
+        "transcription": "lɛt",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
         "theme": "giving_opinions",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "letting"
     },
     {
         "id": "en_starter_work_136",
@@ -5893,12 +5980,14 @@ const data = [
         "aspect": "action",
         "v2": "set",
         "v3": "set",
-        "group": "regular","transcription": "sɛt",
+        "group": "regular",
+        "transcription": "sɛt",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "setting"
     },
     {
         "id": "en_starter_using_smartphone_011",
@@ -6080,7 +6169,7 @@ const data = [
         "group": "regular",
         "transcription": "tərn ɔn",
         "auxiliary": "have",
-        "v4": "turn oning",
+        "v4": "turning on",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -6111,7 +6200,7 @@ const data = [
         "group": "regular",
         "transcription": "tərn ɔf",
         "auxiliary": "have",
-        "v4": "turn offing",
+        "v4": "turning off",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -6261,7 +6350,7 @@ const data = [
         "group": "regular",
         "transcription": "fɪt",
         "auxiliary": "have",
-        "v4": "fiting",
+        "v4": "fitting",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -6701,7 +6790,8 @@ const data = [
         "lang": "en",
         "level": "starter",
         "theme": "giving_opinions",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": ""
     },
     {
         "id": "en_starter_giving_opinions_030",
@@ -6728,7 +6818,8 @@ const data = [
         "lang": "en",
         "level": "starter",
         "theme": "giving_opinions",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": ""
     }
 ];
     window.vocabularyData = window.vocabularyData || {};

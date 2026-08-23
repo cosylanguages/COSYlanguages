@@ -352,7 +352,7 @@
             "t": "Qualcosa di cui sei silenziosamente orgoglioso",
             "h": [
                 "Cos'è?",
-                "Perché silenziosamente: perché non ad alta voce?",
+                "Perché silenziosamente — perché non ad alta voce?",
                 "Quanto tempo ci è voluto?",
                 "Le persone a te vicine lo sanno?",
                 "Cosa dice questo su ciò a cui dai valore?"
@@ -363,7 +363,7 @@
                     "text": "Qualcosa di cui sei silenziosamente orgoglioso",
                     "examples": [
                         "Cos'è?",
-                        "Perché silenziosamente: perché non ad alta voce?",
+                        "Perché silenziosamente — perché non ad alta voce?",
                         "Quanto tempo ci è voluto?",
                         "Le persone a te vicine lo sanno?",
                         "Cosa dice questo su ciò a cui dai valore?"
@@ -523,7 +523,7 @@
             "id": "it_upper_intermediate_social_018"
         },
     {
-            "t": "Fama: punizione o ricompensa?",
+            "t": "Fama — punizione o ricompensa?",
             "h": [
                 "Vorresti essere famoso?",
                 "Che tipo di fama vorresti avere?",
@@ -531,10 +531,10 @@
                 "Pensi che la maggior parte delle persone famose sia felice?",
                 "Qual è la differenza tra fama e rispetto?"
             ],
-            "word": "Fama: punizione o ricompensa?",
+            "word": "Fama — punizione o ricompensa?",
             "definitions": [
                 {
-                    "text": "Fama: punizione o ricompensa?",
+                    "text": "Fama — punizione o ricompensa?",
                     "examples": [
                         "Vorresti essere famoso?",
                         "Che tipo di fama vorresti avere?",

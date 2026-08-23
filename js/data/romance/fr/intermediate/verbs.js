@@ -26,7 +26,8 @@ const data = [
             "v3": "jardiné",
             "auxiliary": "avoir",
             "v4": "jardinant"
-        }
+        },
+        "v4": "jardinant"
     },
     {
         "id": "fr_intermediate_social_123",
@@ -52,7 +53,8 @@ const data = [
             "subtext": "",
             "v3": "fait du bénévolat",
             "auxiliary": "avoir"
-        }
+        },
+        "v4": "faisant du bénévolat"
     }
 ];
     const lang = "fr";

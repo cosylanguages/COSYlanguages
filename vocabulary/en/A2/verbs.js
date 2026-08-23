@@ -137,7 +137,7 @@ const data = [
         "v3": "admitted",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "admiting",
+        "v4": "admitting",
         "lang": "en",
         "level": "elementary",
         "theme": "describing",
@@ -442,7 +442,7 @@ const data = [
         "transcription": "əˈplaɪ fɔːr",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "apply foring",
+        "v4": "applying for",
         "lang": "en",
         "level": "elementary",
         "theme": "jobs",
@@ -742,7 +742,8 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "sports",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "beating"
     },
     {
         "id": "en_elementary_people_079",
@@ -799,7 +800,8 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "animals",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "biting"
     },
     {
         "id": "en_elementary_right_wrong_basic_006",
@@ -849,7 +851,7 @@ const data = [
         "transcription": "brʌʃ tiːθ",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "brush teething",
+        "v4": "brushing teeth",
         "lang": "en",
         "level": "elementary",
         "theme": "describing",
@@ -907,7 +909,8 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "jobs",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "building"
     },
     {
         "id": "en_elementary_basic_arithmetic_001",
@@ -967,7 +970,7 @@ const data = [
         "transcription": "🇬🇧 ˈkæri ɒn | 🇺🇸 ˈkæri ɑːn",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "carry oning",
+        "v4": "carrying on",
         "lang": "en",
         "level": "elementary",
         "theme": "jobs",
@@ -1606,7 +1609,7 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "controling",
+        "v4": "controlling",
         "lang": "en",
         "level": "elementary",
         "theme": "describing",
@@ -1730,7 +1733,8 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "food_drink",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "cutting down on"
     },
     {
         "id": "en_elementary_home_repairs_maintenance_002",
@@ -2247,7 +2251,8 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "jobs",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "dreaming"
     },
     {
         "id": "en_elementary_emotions_018",
@@ -2624,7 +2629,8 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "finding out"
     },
     {
         "id": "en_elementary_emotions_020",
@@ -2653,7 +2659,8 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "emotions",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "forgiving"
     },
     {
         "id": "en_elementary_weather_climate_005",
@@ -2682,7 +2689,8 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "freezing"
     },
     {
         "id": "en_elementary_career_development_066",
@@ -2708,7 +2716,8 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "jobs",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "giving up"
     },
     {
         "id": "en_elementary_qualifications_exams_002",
@@ -3376,7 +3385,8 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "numbers",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "lending"
     },
     {
         "id": "en_elementary_social_008",
@@ -3399,7 +3409,7 @@ const data = [
         "transcription": "🇬🇧 lɒɡ aʊt | 🇺🇸 lɑːɡ aʊt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "log outing",
+        "v4": "logging out",
         "lang": "en",
         "level": "elementary",
         "theme": "social",
@@ -3426,7 +3436,7 @@ const data = [
         "transcription": "lʊk ˈɑːftər",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "look aftering",
+        "v4": "looking after",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
@@ -3453,7 +3463,7 @@ const data = [
         "transcription": "lʊk fɔːr",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "look foring",
+        "v4": "looking for",
         "lang": "en",
         "level": "elementary",
         "theme": "jobs",
@@ -3483,7 +3493,8 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "food_drink",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "losing weight"
     },
     {
         "id": "en_elementary_basic_science_009",
@@ -4152,7 +4163,8 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "jobs",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "putting off"
     },
     {
         "id": "en_elementary_booking_planning_a_trip_004",
@@ -4787,7 +4799,8 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "jobs",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "setting up"
     },
     {
         "id": "en_elementary_career_development_081",
@@ -4845,7 +4858,7 @@ const data = [
         "transcription": "sɔːrt aʊt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "sort outing",
+        "v4": "sorting out",
         "lang": "en",
         "level": "elementary",
         "theme": "jobs",
@@ -5028,7 +5041,8 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "jobs",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "taking on"
     },
     {
         "id": "en_elementary_banking_002",
@@ -5055,7 +5069,7 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "transfering",
+        "v4": "transferring",
         "lang": "en",
         "level": "elementary",
         "theme": "numbers",
@@ -5142,7 +5156,7 @@ const data = [
         "transcription": "tɜːrn daʊn",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "turn downing",
+        "v4": "turning down",
         "lang": "en",
         "level": "elementary",
         "theme": "jobs",
@@ -5203,7 +5217,8 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "numbers",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "withdrawing"
     },
     {
         "id": "en_elementary_giving_reasons_049",
@@ -5386,7 +5401,7 @@ const data = [
         "transcription": "əˈkɜːr",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "occuring",
+        "v4": "occurring",
         "lang": "en",
         "level": "elementary",
         "theme": "describing",
@@ -5918,7 +5933,7 @@ const data = [
         "transcription": "tʃɛk ɪn",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "check ining",
+        "v4": "checking in",
         "lang": "en",
         "level": "elementary",
         "theme": "travel",
@@ -5951,7 +5966,8 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "travel",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "overtaking"
     },
     {
         "id": "en_elementary_people_083",
@@ -5981,7 +5997,8 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "v4": "breaking up"
     },
     {
         "id": "en_elementary_travel_027",
@@ -6007,7 +6024,7 @@ const data = [
         "transcription": "tʃɛk aʊt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "check outing",
+        "v4": "checking out",
         "lang": "en",
         "level": "elementary",
         "theme": "travel",

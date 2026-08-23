@@ -79,7 +79,8 @@ const data = [
         "lang": "es",
         "sub_theme": "phonetics",
         "id": "es_proficiency_language_002",
-        "transcription": ""
+        "transcription": "",
+        "v4": "predicando"
     },
     {
         "word": "instanciar",
@@ -132,7 +133,8 @@ const data = [
         "lang": "es",
         "sub_theme": "discourse",
         "id": "es_proficiency_language_003",
-        "transcription": ""
+        "transcription": "",
+        "v4": "negando"
     },
     {
         "word": "trascender",
@@ -644,7 +646,8 @@ const data = [
         "lang": "es",
         "sub_theme": "discourse",
         "id": "es_proficiency_language_009",
-        "transcription": ""
+        "transcription": "",
+        "v4": "contradeciendo"
     },
     {
         "word": "abrogar",
@@ -697,7 +700,8 @@ const data = [
         "lang": "es",
         "sub_theme": "discourse",
         "id": "es_proficiency_language_010",
-        "transcription": ""
+        "transcription": "",
+        "v4": "contraveniendo"
     },
     {
         "word": "subsumir",
@@ -750,7 +754,8 @@ const data = [
         "lang": "es",
         "sub_theme": "literature",
         "id": "es_proficiency_art_culture_003",
-        "transcription": ""
+        "transcription": "",
+        "v4": "deconstruiendo"
     },
     {
         "word": "precluir",
@@ -776,7 +781,8 @@ const data = [
         "lang": "es",
         "sub_theme": "discourse",
         "id": "es_proficiency_language_011",
-        "transcription": ""
+        "transcription": "",
+        "v4": "precluiendo"
     },
     {
         "word": "dialectizar",
@@ -883,7 +889,8 @@ const data = [
         "lang": "es",
         "sub_theme": "discourse",
         "id": "es_proficiency_language_012",
-        "transcription": ""
+        "transcription": "",
+        "v4": "asentiendo"
     },
     {
         "word": "aliviar",
@@ -1125,7 +1132,8 @@ const data = [
         "lang": "es",
         "sub_theme": "subjects",
         "id": "es_proficiency_school_008",
-        "transcription": ""
+        "transcription": "",
+        "v4": "impediendo"
     },
     {
         "word": "mitigar",
@@ -1232,7 +1240,8 @@ const data = [
         "lang": "es",
         "sub_theme": "subjects",
         "id": "es_proficiency_school_011",
-        "transcription": ""
+        "transcription": "",
+        "v4": "excluiendo"
     },
     {
         "word": "reconciliar",
@@ -1285,7 +1294,8 @@ const data = [
         "lang": "es",
         "sub_theme": "business_lang",
         "id": "es_proficiency_work_007",
-        "transcription": ""
+        "transcription": "",
+        "v4": "sustituiendo"
     },
     {
         "word": "sustentar",
@@ -1365,7 +1375,8 @@ const data = [
         "lang": "es",
         "sub_theme": "subjects",
         "id": "es_proficiency_school_015",
-        "transcription": ""
+        "transcription": "",
+        "v4": "dependiendo de"
     },
     {
         "word": "lidiar con",
@@ -1391,7 +1402,8 @@ const data = [
         "lang": "es",
         "sub_theme": "subjects",
         "id": "es_proficiency_school_016",
-        "transcription": ""
+        "transcription": "",
+        "v4": "lidiando con"
     },
     {
         "word": "pasar por alto",
@@ -1417,7 +1429,8 @@ const data = [
         "lang": "es",
         "sub_theme": "discourse",
         "id": "es_proficiency_language_014",
-        "transcription": ""
+        "transcription": "",
+        "v4": "pasando por alto"
     },
     {
         "word": "disimular",
@@ -1470,7 +1483,8 @@ const data = [
         "lang": "es",
         "sub_theme": "subjects",
         "id": "es_proficiency_school_017",
-        "transcription": ""
+        "transcription": "",
+        "v4": "cambio de paradigma"
     }
 ];
     const lang = "es";
