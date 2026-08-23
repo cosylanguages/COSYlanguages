@@ -59,7 +59,7 @@
             }
         ],
         "h": [
-            "Comment voyagez-vous — bus, voiture, vélo ?",
+            "Comment voyagez-vous : bus, voiture, vélo ?",
             "Combien de temps cela prend-il ?",
             "Appréciez-vous le trajet ?",
             "Est-ce cher ?",

@@ -1098,7 +1098,7 @@
         "sideA": "Consciousness",
         "sideB": "AGI",
         "ideasA": [
-            "Moral status requires the capacity for 'sentience'—the subjective, qualitative experience of pain and pleasure—which is uniquely biological.",
+            "Moral status requires the capacity for 'sentience' : the subjective, qualitative experience of pain and pleasure : which is uniquely biological.",
             "An AGI, however sophisticated, is ultimately a set of sophisticated algorithms lacking the 'inner life' that justifies moral concern."
         ],
         "ideasB": [
@@ -1389,7 +1389,7 @@
         ],
         "ideasB": [
             "Art is fundamentally a communicative act; formal experimentation is empty virtuosity if it does not serve to deepen our understanding of the human condition.",
-            "The 'weight' of a work comes from its moral, social, or philosophical substance—the truth it reveals about the world we inhabit."
+            "The 'weight' of a work comes from its moral, social, or philosophical substance : the truth it reveals about the world we inhabit."
         ],
         "lang": "en",
         "level": "proficiency",
@@ -1592,7 +1592,7 @@
         "sideA": "Continuity of Self",
         "sideB": "Radical Discontinuity",
         "ideasA": [
-            "Identity is not found in the material substrate, but in the continuity of the pattern—the stream of memories, values, and relational commitments.",
+            "Identity is not found in the material substrate, but in the continuity of the pattern : the stream of memories, values, and relational commitments.",
             "The self is a narrative project; as long as the story can be coherently told, the 'person' remains fundamentally the same across time."
         ],
         "ideasB": [
@@ -1644,7 +1644,7 @@
         "sideA": "Linguistic",
         "sideB": "Cultural",
         "ideasA": [
-            "The physical articulation of the word—the combination of the nasal 'm' and the 'oi' diphthong—triggers an inherent sensory discomfort regardless of meaning.",
+            "The physical articulation of the word : the combination of the nasal 'm' and the 'oi' diphthong : triggers an inherent sensory discomfort regardless of meaning.",
             "Phonaesthesia suggests a deep-coded relationship between sound and feeling; certain phonemes possess a natural 'texture' that can be universally repellant."
         ],
         "ideasB": [

@@ -70,7 +70,7 @@
             {
                 "text": "Menschen sind in Kleinstädten netter.",
                 "examples": [
-                    "Wo lebst du — in einer Kleinstadt oder einer Großstadt?",
+                    "Wo lebst du : in einer Kleinstadt oder einer Großstadt?",
                     "Sind deine Nachbarn freundlich?",
                     "Sprechen Menschen dort, wo du lebst, mit Fremden?",
                     "Hast du jemals an einem anderen Ortstyp gelebt?",
@@ -79,7 +79,7 @@
             }
         ],
         "h": [
-            "Wo lebst du — in einer Kleinstadt oder einer Großstadt?",
+            "Wo lebst du : in einer Kleinstadt oder einer Großstadt?",
             "Sind deine Nachbarn freundlich?",
             "Sprechen Menschen dort, wo du lebst, mit Fremden?",
             "Hast du jemals an einem anderen Ortstyp gelebt?",
@@ -274,7 +274,7 @@
                 "text": "Zu Hause zu kochen ist immer besser als auswärts zu essen.",
                 "examples": [
                     "Wie oft kochst du zu Hause?",
-                    "Was ist einfacher — kochen oder in ein Restaurant gehen?",
+                    "Was ist einfacher : kochen oder in ein Restaurant gehen?",
                     "Ist auswärts essen dort, wo du lebst, teuer?",
                     "Was ist dein Lieblingsrestaurant?",
                     "Was ist dein bestes selbstgekochtes Essen?"
@@ -283,7 +283,7 @@
         ],
         "h": [
             "Wie oft kochst du zu Hause?",
-            "Was ist einfacher — kochen oder in ein Restaurant gehen?",
+            "Was ist einfacher : kochen oder in ein Restaurant gehen?",
             "Ist auswärts essen dort, wo du lebst, teuer?",
             "Was ist dein Lieblingsrestaurant?",
             "Was ist dein bestes selbstgekochtes Essen?"

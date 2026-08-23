@@ -208,7 +208,7 @@
         "id": "pt_intermediate_people_004"
     },
     {
-        "t": "O silêncio à mesa não é constrangedor — é pacífico.",
+        "t": "O silêncio à mesa não é constrangedor : é pacífico.",
         "h": [
             "Fala muito durante as refeições?",
             "O silêncio é desconfortável para si?",
@@ -216,7 +216,7 @@
             "Acha que as refeições devem ser sociais?",
             "Do que costuma falar ao jantar?"
         ],
-        "word": "O silêncio à mesa não é constrangedor — é pacífico.",
+        "word": "O silêncio à mesa não é constrangedor : é pacífico.",
         "lang": "pt",
         "level": "intermediate",
         "theme": "social",
@@ -224,7 +224,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "O silêncio à mesa não é constrangedor — é pacífico.",
+                "text": "O silêncio à mesa não é constrangedor : é pacífico.",
                 "examples": []
             }
         ],

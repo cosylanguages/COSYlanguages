@@ -264,7 +264,7 @@
         {
             "t": "Il tuo lavoro o la tua scuola",
             "h": [
-                "Cosa fai — lavori o studi?",
+                "Cosa fai : lavori o studi?",
                 "Cosa ti piace di questo?",
                 "A che ora inizi?",
                 "Con chi lavori o studi?",
@@ -277,7 +277,7 @@
                 {
                     "text": "Il tuo lavoro o la tua scuola",
                     "examples": [
-                        "Cosa fai — lavori o studi?",
+                        "Cosa fai : lavori o studi?",
                         "Cosa ti piace di questo?",
                         "A che ora inizi?",
                         "Con chi lavori o studi?",

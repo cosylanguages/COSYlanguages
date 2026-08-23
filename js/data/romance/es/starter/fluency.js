@@ -210,7 +210,7 @@
     {
         "t": "Tu trabajo o escuela",
         "h": [
-            "¿Qué haces — trabajar o estudiar?",
+            "¿Qué haces : trabajar o estudiar?",
             "¿Qué te gusta de ello?",
             "¿A qué hora empiezas?",
             "¿Con quién trabajas o estudias?",

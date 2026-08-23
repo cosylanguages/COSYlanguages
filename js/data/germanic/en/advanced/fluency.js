@@ -96,7 +96,7 @@
         "id": "en_advanced_people_other_whether_people_fundamentally_c",
         "t": "Whether people fundamentally change or just reveal themselves slowly",
         "h": [
-            "Can you think of someone who genuinely changed — or did you just not know them well enough before?",
+            "Can you think of someone who genuinely changed : or did you just not know them well enough before?",
             "What does it take for a person to truly change?",
             "Do you think you have changed or remained essentially yourself?",
             "What does it say about relationships if people don't really change?",
@@ -238,7 +238,7 @@
             "Is it uncomfortable to acknowledge that luck played a role?",
             "Has luck worked against you?",
             "Do you think people overestimate how much control they have?",
-            "What is the ethical implication of luck — does it affect what we owe each other?"
+            "What is the ethical implication of luck : does it affect what we owe each other?"
         ],
         "lang": "en",
         "level": "advanced",
@@ -326,7 +326,7 @@
         "id": "en_advanced_social_other_something_about_modern_life_th",
         "t": "Something about modern life that genuinely worries you",
         "h": [
-            "What is it — technology, politics, social trends, the environment?",
+            "What is it : technology, politics, social trends, the environment?",
             "Is this worry new or has it been building?",
             "Do you think others share it or feel alone in it?",
             "Does worrying about it change how you live?",
@@ -353,7 +353,7 @@
             "Have you experienced loneliness in the middle of a crowd?",
             "Do you think modern life makes loneliness more or less common?",
             "Can you be lonely in a relationship?",
-            "What is the cure for loneliness — more connection, or something deeper?"
+            "What is the cure for loneliness : more connection, or something deeper?"
         ],
         "lang": "en",
         "level": "advanced",
@@ -370,7 +370,7 @@
     },
     {
         "id": "en_advanced_social_other_what_it_means_to_live_well_and",
-        "t": "What it means to live well — and whether you are close",
+        "t": "What it means to live well : and whether you are close",
         "h": [
             "How do you define a life well-lived?",
             "Whose life do you look at and think: that's close?",
@@ -382,11 +382,11 @@
         "level": "advanced",
         "theme": "social",
         "sub_theme": null,
-        "word": "What it means to live well — and whether you are close",
+        "word": "What it means to live well : and whether you are close",
         "form": "other",
         "definitions": [
             {
-                "text": "What it means to live well — and whether you are close",
+                "text": "What it means to live well : and whether you are close",
                 "examples": []
             }
         ]
@@ -399,7 +399,7 @@
             "Do you think we edit our memories to suit a narrative about ourselves?",
             "What is the most vivid memory you have and how reliable do you think it is?",
             "Does it matter if a memory is accurate if it feels true?",
-            "What does memory say about identity — if your memories changed, would you be a different person?"
+            "What does memory say about identity : if your memories changed, would you be a different person?"
         ],
         "lang": "en",
         "level": "advanced",
@@ -418,7 +418,7 @@
         "id": "en_advanced_social_other_institutions_and_whether_they_",
         "t": "Institutions and whether they serve us",
         "h": [
-            "Think of one institution — healthcare, education, government — and assess it honestly.",
+            "Think of one institution : healthcare, education, government : and assess it honestly.",
             "At what point does an institution stop serving its purpose?",
             "Have you ever felt failed by an institution you relied on?",
             "Is reform possible or do institutions need to be replaced entirely?",
@@ -490,7 +490,7 @@
             "What signals do you look for?",
             "Has your instinct ever been completely wrong?",
             "Do you think you are too trusting, not trusting enough, or well-calibrated?",
-            "Is trust given or earned — and does that distinction matter?",
+            "Is trust given or earned : and does that distinction matter?",
             "What breaks trust irrevocably for you?"
         ],
         "lang": "en",

@@ -331,7 +331,7 @@
             "id": "it_intermediate_social_055"
         },
         {
-            "t": "Il silenzio a tavola non è imbarazzante — è tranquillo.",
+            "t": "Il silenzio a tavola non è imbarazzante : è tranquillo.",
             "tag": "Vita sociale",
             "h": [
                 "Parli molto durante i pasti?",
@@ -340,10 +340,10 @@
                 "Pensi che i pasti debbano essere sociali?",
                 "Di cosa parli di solito a cena?"
             ],
-            "word": "Il silenzio a tavola non è imbarazzante — è tranquillo.",
+            "word": "Il silenzio a tavola non è imbarazzante : è tranquillo.",
             "definitions": [
                 {
-                    "text": "Il silenzio a tavola non è imbarazzante — è tranquillo.",
+                    "text": "Il silenzio a tavola non è imbarazzante : è tranquillo.",
                     "examples": [
                         "Parli molto durante i pasti?",
                         "Il silenzio è scomodo for te?",

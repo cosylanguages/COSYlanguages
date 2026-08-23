@@ -47,7 +47,7 @@
         "id": "pt_advanced_social_phrase_o_rendimento_bsico_universal_a"
     },
     {
-        "t": "A felicidade é uma escolha — as circunstâncias são apenas desculpas.",
+        "t": "A felicidade é uma escolha : as circunstâncias são apenas desculpas.",
         "h": [
             "Você acha que a felicidade está sob o controle de todos?",
             "Esta é uma visão privilegiada?",
@@ -55,7 +55,7 @@
             "Você conhece pessoas que são felizes apesar de vidas difíceis?",
             "A busca pela felicidade em si é parte do problema?"
         ],
-        "word": "A felicidade é uma escolha — as circunstâncias são apenas desculpas.",
+        "word": "A felicidade é uma escolha : as circunstâncias são apenas desculpas.",
         "lang": "pt",
         "level": "advanced",
         "theme": "psychological_concepts_c1",
@@ -63,7 +63,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "A felicidade é uma escolha — as circunstâncias são apenas desculpas.",
+                "text": "A felicidade é uma escolha : as circunstâncias são apenas desculpas.",
                 "examples": []
             }
         ],
@@ -351,7 +351,7 @@
             "Consegue pensar num caso em que o clamor público foi justificado?",
             "Existe diferença entre responsabilidade e punição?",
             "Quem decide o que é imperdoável?",
-            "O cancelamento funciona — ele realmente muda o comportamento?",
+            "O cancelamento funciona : ele realmente muda o comportamento?",
             "Há algo irremediavelmente problemático nisso ou é apenas imperfeito?"
         ],
         "word": "A cultura do cancelamento tornou-se uma forma de justiça digital de multidão.",

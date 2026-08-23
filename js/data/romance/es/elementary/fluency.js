@@ -59,7 +59,7 @@
             }
         ],
         "h": [
-            "¿Cómo viajas — autobús, coche, bici?",
+            "¿Cómo viajas : autobús, coche, bici?",
             "¿Cuánto tiempo tardas?",
             "¿Disfrutas del viaje?",
             "¿Es caro?",

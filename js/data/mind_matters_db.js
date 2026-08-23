@@ -17,7 +17,7 @@
             "duration": "60 min"
         },
         "anticipatory-grief": {
-            "title": "Anticipatory Grief — Mourning the Living",
+            "title": "Anticipatory Grief : Mourning the Living",
             "theme": "Emotional shielding and the rehearsal of loss before separation.",
             "lenses": ["Emotions & Affective States", "Stress, Fear & Uncertainty", "Meaning & Existential Reflection"],
             "languages": ["en", "fr"],
@@ -25,7 +25,7 @@
             "duration": "60 min"
         },
         "aspiration-vs-inspiration": {
-            "title": "Aspiration vs. Inspiration — The Fuel of the Mind",
+            "title": "Aspiration vs. Inspiration : The Fuel of the Mind",
             "theme": "Future-focused ambition vs. spontaneous creative drive and productivity anxiety.",
             "lenses": ["Motivation & Drive", "Stress, Fear & Uncertainty", "Identity & Self-Perception"],
             "languages": ["en"],
@@ -81,7 +81,7 @@
             "duration": "60 min"
         },
         "broken-children-grown-bodies": {
-            "title": "Broken Children — Grown Adult Bodies",
+            "title": "Broken Children : Grown Adult Bodies",
             "theme": "Persistent childhood coping adaptations in adult behavioral patterns.",
             "lenses": ["Identity & Self-Perception", "Relational Dynamics", "Emotions & Affective States"],
             "languages": ["en", "fr"],
@@ -97,7 +97,7 @@
             "duration": "60 min"
         },
         "depersonalization": {
-            "title": "Depersonalization — Dissociation as Shield",
+            "title": "Depersonalization : Dissociation as Shield",
             "theme": "Anxiety-induced dissociation and somatic mindfulness anchoring tools.",
             "lenses": ["Stress, Fear & Uncertainty", "Identity & Self-Perception", "Emotions & Affective States"],
             "languages": ["en", "fr"],
@@ -113,7 +113,7 @@
             "duration": "60 min"
         },
         "fear-of-love-control": {
-            "title": "The Fear of Love — Attachment & Autonomy",
+            "title": "The Fear of Love : Attachment & Autonomy",
             "theme": "Avoidant attachment structures and the fear of losing personal autonomy.",
             "lenses": ["Relational Dynamics", "Stress, Fear & Uncertainty", "Identity & Self-Perception"],
             "languages": ["en", "fr"],
@@ -121,7 +121,7 @@
             "duration": "60 min"
         },
         "finding-the-right-person": {
-            "title": "Finding the Right Person — Romantic Projection",
+            "title": "Finding the Right Person : Romantic Projection",
             "theme": "Romantic expectations, partner projection, and integrating human vulnerabilities.",
             "lenses": ["Relational Dynamics", "Identity & Self-Perception", "Emotions & Affective States"],
             "languages": ["en", "fr"],
@@ -129,7 +129,7 @@
             "duration": "60 min"
         },
         "gilberts-law": {
-            "title": "Gilbert's Law — Autonomy in Problem Solving",
+            "title": "Gilbert's Law : Autonomy in Problem Solving",
             "theme": "Deconstructing autonomy and responsibility in professional life.",
             "lenses": ["Cognitive Heuristics & Laws", "Motivation & Drive"],
             "languages": ["en", "fr"],
@@ -161,7 +161,7 @@
             "duration": "60 min"
         },
         "kidlins-law": {
-            "title": "Kidlin's Law — Clear Problem Formulation",
+            "title": "Kidlin's Law : Clear Problem Formulation",
             "theme": "How specifying the exact problem acts as the first structural step to the solution.",
             "lenses": ["Cognitive Heuristics & Laws", "Identity & Self-Perception"],
             "languages": ["en", "fr"],
@@ -169,7 +169,7 @@
             "duration": "60 min"
         },
         "law-of-attraction": {
-            "title": "Law of Attraction — Magic vs. Control",
+            "title": "Law of Attraction : Magic vs. Control",
             "theme": "Critiquing magical thinking, confirmation bias, and the psychological quest for safety.",
             "lenses": ["Cognitive Heuristics & Laws", "Stress, Fear & Uncertainty"],
             "languages": ["en", "fr"],
@@ -177,7 +177,7 @@
             "duration": "60 min"
         },
         "limerence": {
-            "title": "Limerence — Dopamine & Obsession",
+            "title": "Limerence : Dopamine & Obsession",
             "theme": "Intrusive romantic fantasy loops and compulsive projection behaviors.",
             "lenses": ["Relational Dynamics", "Emotions & Affective States", "Habits, Loops & Neurobiology"],
             "languages": ["en", "fr"],
@@ -209,7 +209,7 @@
             "duration": "60 min"
         },
         "murphys-law": {
-            "title": "Murphy's Law — Expectation Heuristics",
+            "title": "Murphy's Law : Expectation Heuristics",
             "theme": "Cognitive defense and preparing the brain for unexpected outcomes.",
             "lenses": ["Cognitive Heuristics & Laws", "Stress, Fear & Uncertainty"],
             "languages": ["en", "fr"],
@@ -217,7 +217,7 @@
             "duration": "60 min"
         },
         "nazi-race-propaganda": {
-            "title": "Nazi Race Propaganda — Would you survive?",
+            "title": "Nazi Race Propaganda : Would you survive?",
             "theme": "Deconstructing empathy erosion, systematic othering, and cognitive conformity.",
             "lenses": ["Social Psychology & Public Manipulation", "Meaning & Existential Reflection"],
             "languages": ["en"],
@@ -321,7 +321,7 @@
             "duration": "60 min"
         },
         "wilsons-law": {
-            "title": "Wilson's Law — Knowledge Asset",
+            "title": "Wilson's Law : Knowledge Asset",
             "theme": "Prioritizing skill and information accumulation over financial output.",
             "lenses": ["Cognitive Heuristics & Laws", "Motivation & Drive"],
             "languages": ["en", "fr"],

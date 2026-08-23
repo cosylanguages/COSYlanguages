@@ -244,7 +244,7 @@
     },
     {
         "id": "fr_intermediate_social_114",
-        "word": "Le silence à table n'est pas gênant — il est paisible.",
+        "word": "Le silence à table n'est pas gênant : il est paisible.",
         "lang": "fr",
         "level": "intermediate",
         "theme": "social",
@@ -252,7 +252,7 @@
         "form": "phrase",
         "definitions": [
             {
-                "text": "Le silence à table n'est pas gênant — il est paisible.",
+                "text": "Le silence à table n'est pas gênant : il est paisible.",
                 "examples": []
             }
         ],

@@ -59,7 +59,7 @@
             }
         ],
         "h": [
-            "Pelec'h e chomit — kêriadenn pe gêr?",
+            "Pelec'h e chomit : kêriadenn pe gêr?",
             "Hag-eñ eo mignonel ho amezeien?",
             "Hag-eñ e komz an dud gant an estrenien pelec'h e chomit?",
             "Hag-eñ az peus bevet en ul lec'h disheñvel gwechall?",
@@ -214,7 +214,7 @@
         ],
         "h": [
             "Pegement e poazhit er gêr?",
-            "Petra eo an aesañ — poazhañ pe mont d'un ti-debriñ?",
+            "Petra eo an aesañ : poazhañ pe mont d'un ti-debriñ?",
             "Hag-eñ eo ker debriñ en un ti-debriñ pelec'h e chomit?",
             "Petra eo ho ti-debriñ karetañ?",
             "Petra eo ho pred gwellañ poazhet er gêr?"
