@@ -49,7 +49,11 @@
         ['Doce 🍰', 'Salgado 🧀'],
         ['Viajar sozinho ✈️', 'Viajar com amigos 👥']
       ],
-      critic: [],
+      critic: [
+        { title: 'Delicioso, mas muito caro 🍝', type: 'Restaurante', review: 'A comida estava incrível e os ingredientes frescos, mas as porções eram pequenas e a conta foi uma surpresa.', question: 'Você voltaria apesar do preço elevado?' },
+        { title: 'Enredo envolvente, final fraco 🎬', type: 'Filme', review: 'Os dois primeiros terços do filme foram cheios de suspense, mas o desfecho foi apressado e ilógico.', question: 'O quanto o final afeta a sua avaliação geral?' },
+        { title: 'Gráficos incríveis, mas com falhas 🎮', type: 'Jogo', review: 'O jogo é visualmente espetacular, mas trava com frequência e tem falhas técnicas.', question: 'A atmosfera e os gráficos podem compensar os problemas técnicos?' }
+      ],
       action: {
         starter: ['Gato', 'Cão', 'Casa', 'Carro', 'Livro', 'Água', 'Sol', 'Lua', 'Árvore', 'Telefone', 'Porta', 'Cadeira', 'Cama', 'Pão', 'Peixe'],
         elementary: ['Cozinha', 'Jardim', 'Comboio', 'Médico', 'Professor', 'Música', 'Aniversário', 'Natação', 'Férias', 'Loja', 'Estação', 'Hospital'],
@@ -80,8 +84,20 @@
         { words: ['Piano', 'Guitarra', 'Violino', 'Trompete'], odd: 'none', link: 'Instrumentos musicais', oddReason: 'Todos são instrumentos' },
         { words: ['Médico', 'Enfermeiro', 'Cirurgião', 'Piloto'], odd: 'Piloto', link: 'Profissões de saúde', oddReason: 'O piloto pilota aviões, não no hospital' }
       ],
-      etymology: [],
-      storychain: []
+      etymology: [
+        { word: 'Saudade', origin: 'Latim (solitudo)', meaning: 'Solidão ou isolamento', story: 'Evoluiu no português para expressar o sentimento profundo de nostalgia e presença da ausência.' },
+        { word: 'Obrigado', origin: 'Latim (obligatus)', meaning: 'Atado por dever de retribuição', story: 'Expressa a ideia moral de ficar ligado em gratidão a quem ajudou.' },
+        { word: 'Galáxia', origin: 'Grego (gala)', meaning: 'Via Láctea / Leite', story: 'Deriva do mito grego sobre as gotas de leite derramadas no céu.' },
+        { word: 'Candidato', origin: 'Latim (candidus)', meaning: 'Branco brilhante', story: 'Na Roma Antiga, os postulantes a cargos vestiam uma toga perfeitamente branca.' },
+        { word: 'Nostalgia', origin: 'Grego (nostos + algos)', meaning: 'Dor do regresso a casa', story: 'Criado no século XVII para descrever as saudades profundas dos soldados da sua terra natal.' }
+      ],
+      storychain: [
+        { prompt: 'Numa terça-feira chuvosa, o Marcos encontrou uma chave antiga no bolso…', level: 'starter' },
+        { prompt: 'O comboio parou numa estação que não figurava em nenhum mapa…', level: 'elementary' },
+        { prompt: 'Uma carta misteriosa estava na mesa da cozinha sem remetente…', level: 'intermediate' },
+        { prompt: 'Quando a luz faltou em toda a cidade, a Sofia notou um brilho invulgar…', level: 'upper_intermediate' },
+        { prompt: 'No sótão da casa antiga, o António descobriu um diário datado de 1888…', level: 'advanced' }
+      ]
     };
 
     window.gameData = window.gameData || {};
