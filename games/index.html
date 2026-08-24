@@ -213,9 +213,53 @@
   <!-- Scripts -->
     <script src="../js/data/languages.js"></script>
     <script src="../js/core/i18n.js"></script>
-    <script src="../js/games/loader.js"></script>
+    <script src="_engine/loader.js"></script>
     <script src="../js/core/ui.js"></script>
 
     <div id="toast" style="position: fixed; bottom: 2rem; right: 2rem; background: var(--ink); color: #fff; padding: 12px 24px; border-radius: 12px; opacity: 0; pointer-events: none; transition: opacity 0.3s; z-index: 3000; font-size: .85rem; font-weight: 500;"></div>
+
+  <script>
+    const GAME_PATH_MAP = {
+      fluency: 'fluency_flow/index.html',
+      battle: 'battle_of_wits/index.html',
+      opinion: 'opinion_arena/index.html',
+      critic: 'critics_corner/index.html',
+      storychain: 'story_chain/index.html',
+      hotseat: 'hot_seat/index.html',
+      action: 'action_hero/index.html',
+      identity: 'identity_mystery/index.html',
+      etymology: 'etymology_explorer/index.html',
+      emoji: 'emoji_odyssey/index.html',
+      lastletter: 'last_letter/index.html',
+      crossword: 'cosy_crossword/index.html',
+      wordlinker: 'word_linker/index.html',
+      objectquest: 'object_quest/index.html',
+      bingo: 'lucky_numbers/index.html',
+      gender: 'what_gender_is_it/index.html',
+      storytelling: 'storytelling/index.html',
+      hundredquestions: 'hundred_questions/index.html'
+    };
+    function openGame(id) {
+      if (GAME_PATH_MAP[id]) location.href = GAME_PATH_MAP[id];
+    }
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.fpill').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.fpill').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          const filter = btn.getAttribute('data-f');
+          document.querySelectorAll('.gc').forEach(card => {
+            if (filter === 'all') {
+              card.style.display = '';
+            } else {
+              const tags = (card.getAttribute('data-tags') || '').split(' ');
+              card.style.display = tags.includes(filter) ? '' : 'none';
+            }
+          });
+        });
+      });
+    });
+  </script>
+
 </body>
 </html>
