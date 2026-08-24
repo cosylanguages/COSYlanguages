@@ -1,48 +1,50 @@
-from playwright.sync_api import sync_playwright
-import os
+import os, json
 
-def run_cuj(page):
-    print("Going to English Events Hub...")
-    page.goto("http://localhost:8080/events/index.html")
-    page.wait_for_timeout(1000)
+new_files = [
+    'apps/premium-events/clubs/kus/sessions/keeping-up-with-science/screen-time-kids-development-intermediate.html',
+    'apps/premium-events/clubs/kus/sessions/keeping-up-with-science/multilingual-brains-younger-elementary.html',
+    'apps/premium-events/clubs/kus/sessions/keeping-up-with-science/multilingual-brains-younger-intermediate.html',
+    'apps/premium-events/clubs/kus/sessions/keeping-up-with-science/coffee-drinkers-muscle-hormones-advanced.html',
+    'apps/premium-events/clubs/kus/sessions/keeping-up-with-science/rewriting-human-family-tree-advanced.html',
+    'apps/premium-events/clubs/celebrate/sessions/lets-celebrate/kiss-and-make-up-day-intermediate.html',
+    'apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/dalai-lama-happier-minds-elementary.html',
+    'apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/dalai-lama-happier-minds-intermediate.html',
+    'apps/premium-events/clubs/debate/sessions/debatable-relatable/chatting-ai-vs-human-elementary.html',
+    'apps/premium-events/clubs/debate/sessions/debatable-relatable/chatting-ai-vs-human-intermediate.html',
+    'apps/premium-events/clubs/debate/sessions/debatable-relatable/chatting-ai-vs-human-upper-intermediate.html',
+    'apps/premium-events/clubs/life/sessions/my-life-with-without/hearing-abilities-intermediate.html',
+    'apps/premium-events/clubs/life/sessions/my-life-with-without/hearing-abilities-upper-intermediate.html',
+    'apps/premium-events/clubs/mind/sessions/mind-matters/why-friends-correct-your-story-intermediate.html'
+]
 
-    # Screenshot of index page
-    page.screenshot(path="/home/jules/verification/screenshots/events_hub.png")
-    print("Screenshot saved to /home/jules/verification/screenshots/events_hub.png")
+print("1. Verifying session file existence & content...")
+for f in new_files:
+    assert os.path.exists(f), f"File missing: {f}"
+    with open(f, encoding='utf-8') as fp:
+        c = fp.read()
+    assert len(c) > 5000, f"File content too small: {f}"
+    assert 'COSY.addToDict' in c, f"Missing COSY.addToDict: {f}"
+    assert '📖 Session Vocabulary' in c, f"Missing Vocab section: {f}"
+    assert '🎙️ Discussion Structure' in c, f"Missing Discussion section: {f}"
+print(f"-> All {len(new_files)} files exist and passed checks.")
 
-    print("Going to a new session page: Single Working Women's Day...")
-    page.goto("http://localhost:8080/events/sessions/lets-celebrate/single-working-womens-day.html")
-    page.wait_for_timeout(1000)
+print("2. Verifying events/data/sessions.json entries...")
+with open('events/data/sessions.json', encoding='utf-8') as fp:
+    sessions_data = json.load(fp)
 
-    # Click on some elements, let's toggle a round or something
-    page.get_by_text("🟠 Warm-up — Celebrating Autonomy").click()
-    page.wait_for_timeout(500)
+registered_hrefs = {item['href'] for item in sessions_data}
+for f in new_files:
+    rel_href = '../' + f
+    assert rel_href in registered_hrefs, f"Href {rel_href} not found in events/data/sessions.json"
+print(f"-> All {len(new_files)} sessions registered in sessions.json.")
 
-    page.screenshot(path="/home/jules/verification/screenshots/single_working_women_session.png")
-    print("Screenshot saved to /home/jules/verification/screenshots/single_working_women_session.png")
+print("3. Verifying events/index.html upcoming section...")
+with open('events/index.html', encoding='utf-8') as fp:
+    index_html = fp.read()
 
-    print("Going to the new Wonder session page: Why Do I Spend More When I Earn More...")
-    page.goto("http://localhost:8080/events/sessions/i-couldnt-help-but-wonder/why-do-i-spend-more-when-i-earn-more.html")
-    page.wait_for_timeout(1000)
+for f in new_files:
+    rel_href = '../' + f
+    assert rel_href in index_html, f"Href {rel_href} missing from events/index.html upcoming table"
+print(f"-> All {len(new_files)} sessions present in events/index.html upcoming table.")
 
-    # Flip the diary card!
-    page.get_by_role("button", name="Flip to Next Page ✍️").click()
-    page.wait_for_timeout(500)
-
-    page.screenshot(path="/home/jules/verification/screenshots/spend_more_session.png")
-    print("Screenshot saved to /home/jules/verification/screenshots/spend_more_session.png")
-
-if __name__ == "__main__":
-    os.makedirs("/home/jules/verification/screenshots", exist_ok=True)
-    os.makedirs("/home/jules/verification/videos", exist_ok=True)
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        context = browser.new_context(
-            record_video_dir="/home/jules/verification/videos"
-        )
-        page = context.new_page()
-        try:
-            run_cuj(page)
-        finally:
-            context.close()
-            browser.close()
+print("ALL VERIFICATION CHECKS PASSED SUCCESSFULLY!")
