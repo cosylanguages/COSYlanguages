@@ -4369,6 +4369,32 @@
         "sub_theme": "office",
         "id": "es_starter_work_042",
         "emoji": "✨"
+    },
+    {
+        "word": "organizar",
+        "level": "starter",
+        "theme": "work",
+        "emoji": "📂",
+        "form": "verb",
+        "transcription": "oɾ.ɡa.niˈsaɾ",
+        "definitions": [
+            {
+                "text": "Planificar o estructurar algo de forma ordenada.",
+                "examples": [
+                    "Ella organiza la reunión semanal.",
+                    "Organizamos un evento excelente."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "organizado",
+        "group": "ar",
+        "auxiliary": "haber",
+        "subtext": "organizar un evento",
+        "v4": "organizando",
+        "lang": "es",
+        "id": "es_starter_work_043"
     }
 ];
     window.vocabularyData = window.vocabularyData || {};

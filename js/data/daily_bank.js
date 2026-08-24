@@ -503,6 +503,40 @@ window.DAILY_BANK = {
                     }
                 }
             }
+        },
+        {
+            id: 602,
+            title: "Personal Growth & Lifelong Learning",
+            subtitle: "Reflecting on habits, curiosity, and self-improvement",
+            levels: {
+                b: {
+                    prompt: "What is one new skill or hobby you would love to learn this year?",
+                    tip: "Use simple future goal starters: 'I want to learn...', 'I hope to...'",
+                    micro: {
+                        title: "Learning Words",
+                        instruction: "Find the translation for 'practice', 'teacher', and 'goal' in your target language.",
+                        example: "German: Die Praxis, der Lehrer, das Ziel."
+                    }
+                },
+                i: {
+                    prompt: "How do you stay motivated when learning a difficult subject or skill?",
+                    tip: "Use habit and frequency phrases like 'consistently', 'step by step', or 'day by day'.",
+                    micro: {
+                        title: "Motivation Verbs",
+                        instruction: "Learn 3 key verbs describing self-improvement like 'to improve', 'to achieve', and 'to adapt'.",
+                        example: "Spanish: Mejorar, Lograr, Adaptarse."
+                    }
+                },
+                a: {
+                    prompt: "Is curiosity an inherent personality trait or a discipline that can be cultivated?",
+                    tip: "Use nuanced analytical framing: 'arguably', 'predominantly', 'intrinsic vs. extrinsic'.",
+                    micro: {
+                        title: "Philosophical Vocabulary",
+                        instruction: "Translate abstract concepts like 'metacognition', 'growth mindset', and 'perseverance'.",
+                        example: "French: La persévérance, l'état d'esprit de croissance."
+                    }
+                }
+            }
         }
     ]
 };

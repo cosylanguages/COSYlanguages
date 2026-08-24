@@ -4507,6 +4507,32 @@
         "auxiliary": "быть",
         "lang": "ru",
         "id": "ru_starter_work_038"
+    },
+    {
+        "word": "организовать",
+        "level": "starter",
+        "theme": "work",
+        "emoji": "📂",
+        "form": "verb",
+        "transcription": "/ərɡənʲɪzəˈvatʲ/",
+        "definitions": [
+            {
+                "text": "Упорядочить или спланировать что-либо.",
+                "examples": [
+                    "Она организует встречи каждую неделю.",
+                    "Мы организовали отличный семинар."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "организовал",
+        "v3": "организовала",
+        "group": "1st_conj",
+        "auxiliary": "быть",
+        "subtext": "организовать рабочее место",
+        "lang": "ru",
+        "id": "ru_starter_work_039"
     }
 ];
     window.vocabularyData = window.vocabularyData || {};
