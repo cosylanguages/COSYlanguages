@@ -153,7 +153,7 @@
                                 e.preventDefault();
                                 const targetEl = document.querySelector(href);
                                 if (targetEl) {
-                                    const offset = 80;
+                                    const offset = 125;
                                     const elementPosition = targetEl.getBoundingClientRect().top + window.scrollY;
                                     const offsetPosition = elementPosition - offset;
                                     window.scrollTo({
@@ -327,7 +327,7 @@
                     e.preventDefault();
                     const targetEl = document.querySelector(href);
                     if (targetEl) {
-                        const offset = 80;
+                        const offset = 125;
                         const elementPosition = targetEl.getBoundingClientRect().top + window.scrollY;
                         const offsetPosition = elementPosition - offset;
                         window.scrollTo({
