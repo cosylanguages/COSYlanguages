@@ -65,7 +65,9 @@ html[data-theme="dark"], body.theme-dark {
 
 /* ── Navigation ────────────────────────────────────── */
 #cosy-nav {
-  background: var(--warm-white);
+  background: rgba(250, 248, 245, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--border);
   padding: 0 2rem;
   display: flex;
@@ -77,6 +79,12 @@ html[data-theme="dark"], body.theme-dark {
   z-index: 1000;
   font-family: var(--font-sans);
   gap: 1rem;
+}
+
+html[data-theme="dark"] #cosy-nav,
+body.theme-dark #cosy-nav {
+  background: rgba(22, 26, 23, 0.95) !important;
+  border-color: #323A34 !important;
 }
 .nav-container {
   display: flex;
@@ -1472,7 +1480,7 @@ html[data-theme="dark"], body.theme-dark {
 
 .session-mini-nav {
   position: sticky;
-  top: 0;
+  top: 64px;
   z-index: 990;
   display: flex;
   align-items: center;
