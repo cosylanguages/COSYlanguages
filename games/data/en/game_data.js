@@ -4,18 +4,27 @@
         { text: 'Your morning routine ☕', level: 'starter' },
         { text: 'A childhood memory 🧸', level: 'starter' },
         { text: 'Your favourite season and why 🍂', level: 'starter' },
+        { text: 'Your pet or favourite animal 🐶', level: 'starter' },
+        { text: 'What you like to do on rainy days 🌧️', level: 'starter' },
         { text: 'A skill you wish you had 🎸', level: 'elementary' },
         { text: 'The best meal you ever ate 🍜', level: 'elementary' },
         { text: 'A place you want to visit 🗺️', level: 'elementary' },
+        { text: 'A funny story that happened to you 🚴', level: 'elementary' },
+        { text: 'Your favourite holiday tradition 🎄', level: 'elementary' },
         { text: 'Your perfect holiday destination 🌴', level: 'intermediate' },
         { text: 'The most interesting person you know 🙋', level: 'intermediate' },
         { text: 'Describe your perfect weekend ☀️', level: 'intermediate' },
         { text: 'The last time you tried something new 🎯', level: 'intermediate' },
+        { text: 'A hobby you would love to start 🎨', level: 'intermediate' },
+        { text: 'How technology has changed your daily life 📱', level: 'intermediate' },
         { text: 'What would you do with 1 million euros? 💰', level: 'upper_intermediate' },
         { text: 'A book or film that changed your view 📚', level: 'upper_intermediate' },
         { text: 'If you could live anywhere in the world… 🌍', level: 'upper_intermediate' },
         { text: 'Something you\'re proud of 🏆', level: 'upper_intermediate' },
-        { text: 'What does happiness mean to you? 😊', level: 'advanced' }
+        { text: 'An unexpected lesson life taught you 💡', level: 'upper_intermediate' },
+        { text: 'What does happiness mean to you? 😊', level: 'advanced' },
+        { text: 'How cultural values shape our personality 🏛️', level: 'advanced' },
+        { text: 'The balance between ambition and contentment ⚖️', level: 'advanced' }
       ],
       opinions: [
         { text: 'Social media does more harm than good.', level: 'intermediate' },
@@ -33,8 +42,11 @@
         { text: 'Cooking at home is always better than eating out.', level: 'intermediate' },
         { text: 'Children should learn a musical instrument.', level: 'intermediate' },
         { text: 'The world would be better with one universal language.', level: 'intermediate' },
+        { text: 'A four-day work week increases overall productivity and happiness.', level: 'upper_intermediate' },
+        { text: 'Public transportation should be free for all residents.', level: 'upper_intermediate' },
         { text: 'Universal basic income is necessary for future economies.', level: 'upper_intermediate' },
-        { text: 'Generative AI can never truly replace human artistic creativity.', level: 'advanced' }
+        { text: 'Generative AI can never truly replace human artistic creativity.', level: 'advanced' },
+        { text: 'True privacy is impossible in the modern digital age.', level: 'advanced' }
       ],
       battle: [
         ['Mountains 🏔️', 'Beach 🏖️'],
@@ -46,30 +58,39 @@
         ['Cats 🐱', 'Dogs 🐶'],
         ['Working from home 🏠', 'Office work 🏢'],
         ['Sweet 🍰', 'Savoury 🧀'],
-        ['Travelling alone ✈️', 'Travelling with friends 👥']
+        ['Travelling alone ✈️', 'Travelling with friends 👥'],
+        ['Paper books 📖', 'E-readers 📱'],
+        ['Cook at home 🍳', 'Order delivery 🍕'],
+        ['Public transport 🚌', 'Private car 🚗'],
+        ['Early morning workout 🏃', 'Evening gym 🏋️']
       ],
       critic: [],
       action: {
-        starter: ['Cat', 'Dog', 'House', 'Car', 'Book', 'Water', 'Sun', 'Moon', 'Tree', 'Phone', 'Door', 'Chair', 'Bed', 'Food', 'Fish'],
-        elementary: ['Kitchen', 'Garden', 'Train', 'Doctor', 'Teacher', 'Music', 'Birthday', 'Swimming', 'Holiday', 'Shopping'],
-        intermediate: ['Museum', 'Interview', 'Architect', 'Journalist', 'Parliament', 'Orchestra', 'Marathon', 'Exhibition'],
-        upper_intermediate: ['Philanthropy', 'Ambassador', 'Hypothesis', 'Entrepreneur', 'Archaeology', 'Telescope', 'Symposium'],
-        advanced: ['Paradigm', 'Juxtaposition', 'Anachronism', 'Resilience', 'Nuance', 'Verisimilitude', 'Magnanimous', 'Vicissitude'],
-        proficiency: ['Ubiquitous', 'Ephemeral', 'Pugnacious', 'Perspicacious', 'Sycophant', 'Surreptitious', 'Equanimity', 'Ineffable']
+        starter: ['Cat', 'Dog', 'House', 'Car', 'Book', 'Water', 'Sun', 'Moon', 'Tree', 'Phone', 'Door', 'Chair', 'Bed', 'Food', 'Fish', 'Apple', 'Pen', 'Bag'],
+        elementary: ['Kitchen', 'Garden', 'Train', 'Doctor', 'Teacher', 'Music', 'Birthday', 'Swimming', 'Holiday', 'Shopping', 'Airport', 'Hospital', 'Library', 'Market'],
+        intermediate: ['Museum', 'Interview', 'Architect', 'Journalist', 'Parliament', 'Orchestra', 'Marathon', 'Exhibition', 'Submarine', 'Telescope', 'Laboratory'],
+        upper_intermediate: ['Philanthropy', 'Ambassador', 'Hypothesis', 'Entrepreneur', 'Archaeology', 'Symposium', 'Biodiversity', 'Infrastructure'],
+        advanced: ['Paradigm', 'Juxtaposition', 'Anachronism', 'Resilience', 'Nuance', 'Verisimilitude', 'Magnanimous', 'Vicissitude', 'Ubiquity'],
+        proficiency: ['Ephemeral', 'Pugnacious', 'Perspicacious', 'Sycophant', 'Surreptitious', 'Equanimity', 'Ineffable', 'Magniloquent', 'Sesquipedalian']
       },
       identity: [
         { person: 'A firefighter', clue: 'They wear a helmet and extinguish fires with water.', level: 'elementary' },
         { person: 'A chef', clue: 'They work in a kitchen and cook delicious meals.', level: 'elementary' },
-        { person: 'An astronaut', clue: 'They travel into space beyond Earth.', level: 'intermediate' },
         { person: 'A librarian', clue: 'They manage a library and help people find books.', level: 'elementary' },
-        { person: 'A detective', clue: 'They investigate mysteries and look for clues.', level: 'intermediate' },
         { person: 'A musician', clue: 'They play instruments or sing to create music.', level: 'elementary' },
+        { person: 'A veterinarian', clue: 'They take care of sick and injured animals.', level: 'elementary' },
+        { person: 'An astronaut', clue: 'They travel into space beyond Earth.', level: 'intermediate' },
+        { person: 'A detective', clue: 'They investigate mysteries and look for clues.', level: 'intermediate' },
+        { person: 'A journalist', clue: 'They report news and interview people for articles.', level: 'intermediate' },
+        { person: 'A photographer', clue: 'They capture memories and images with a camera.', level: 'intermediate' },
         { person: 'An architect', clue: 'They design houses and buildings before construction begins.', level: 'upper_intermediate' },
         { person: 'A surgeon', clue: 'They perform medical operations in a hospital.', level: 'upper_intermediate' },
+        { person: 'A data scientist', clue: 'They analyze complex datasets to uncover trends and patterns.', level: 'upper_intermediate' },
+        { person: 'A software engineer', clue: 'They write code to build applications and programs.', level: 'upper_intermediate' },
         { person: 'A diplomat', clue: 'They represent their country in official international relations.', level: 'advanced' },
         { person: 'A marine biologist', clue: 'They study ocean plants and marine animals.', level: 'advanced' },
-        { person: 'A data scientist', clue: 'They analyze complex datasets to uncover trends and patterns.', level: 'upper_intermediate' },
-        { person: 'An acoustic engineer', clue: 'They design rooms and buildings to control sound quality and reduce unwanted noise.', level: 'advanced' }
+        { person: 'An acoustic engineer', clue: 'They design rooms and buildings to control sound quality and reduce unwanted noise.', level: 'advanced' },
+        { person: 'An astrophysicist', clue: 'They study the physical properties of stars and galaxies.', level: 'advanced' }
       ],
       wordlinker: [
         { words: ['Apple', 'Orange', 'Banana', 'Carrot'], odd: 'Carrot', link: 'Fruits', oddReason: 'Carrot is a vegetable' },
@@ -79,7 +100,8 @@
         { words: ['Run', 'Jump', 'Sleep', 'Swim'], odd: 'Sleep', link: 'Active physical verbs', oddReason: 'Sleep is passive' },
         { words: ['Red', 'Blue', 'Heavy', 'Green'], odd: 'Heavy', link: 'Colours', oddReason: 'Heavy is not a colour' },
         { words: ['Shakespeare', 'Dickens', 'Picasso', 'Austen'], odd: 'Picasso', link: 'English authors', oddReason: 'Picasso was a Spanish painter' },
-        { words: ['Sunrise', 'Dawn', 'Dusk', 'Twilight'], odd: 'none', link: 'Times of day near sunrise/sunset', oddReason: 'All describe transitional light' }
+        { words: ['Sunrise', 'Dawn', 'Dusk', 'Twilight'], odd: 'none', link: 'Times of day near sunrise/sunset', oddReason: 'All describe transitional light' },
+        { words: ['Doctor', 'Nurse', 'Surgeon', 'Pilot'], odd: 'Pilot', link: 'Healthcare professions', oddReason: 'Pilot operates aircraft, not hospitals' }
       ],
       etymology: [],
       storychain: []
