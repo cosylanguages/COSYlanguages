@@ -3606,5 +3606,181 @@
     "lang": "Russian",
     "club": "Karaoke Club",
     "format": "Karaoke Night"
+  },
+  {
+    "title": "Disappear with Art",
+    "href": "../apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/disappear-with-art-quote-elementary.html",
+    "level": "A2",
+    "lang": "English",
+    "club": "The Greatest Quotes Club",
+    "format": "Speaking Club"
+  },
+  {
+    "title": "Disappear with Art",
+    "href": "../apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/disappear-with-art-quote-intermediate.html",
+    "level": "B1",
+    "lang": "English",
+    "club": "The Greatest Quotes Club",
+    "format": "Speaking Club"
+  },
+  {
+    "title": "National Book Lovers Day",
+    "href": "../apps/premium-events/clubs/celebrate/sessions/lets-celebrate/national-book-lovers-day.html",
+    "level": "A1",
+    "lang": "English",
+    "club": "Let's Celebrate Club",
+    "format": "Speaking Club"
+  },
+  {
+    "title": "Retirement: Is It Worth It?",
+    "href": "../apps/premium-events/clubs/debate/sessions/debatable-relatable/retirement-is-it-worth-it-elementary.html",
+    "level": "A2",
+    "lang": "English",
+    "club": "Debatable & Relatable Club",
+    "format": "Speaking Club"
+  },
+  {
+    "title": "Retirement: Is It Worth It?",
+    "href": "../apps/premium-events/clubs/debate/sessions/debatable-relatable/retirement-is-it-worth-it-intermediate.html",
+    "level": "B1",
+    "lang": "English",
+    "club": "Debatable & Relatable Club",
+    "format": "Speaking Club"
+  },
+  {
+    "title": "My Life With & My Life Without Fast Food",
+    "href": "../apps/premium-events/clubs/life/sessions/my-life-with-without/fast-food.html",
+    "level": "B1",
+    "lang": "English",
+    "club": "My Life With & Without",
+    "format": "Speaking Club"
+  },
+  {
+    "title": "Turn Off AI",
+    "href": "../apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/turn-off-ai-quote-elementary.html",
+    "level": "A2",
+    "lang": "English",
+    "club": "The Greatest Quotes Club",
+    "format": "Speaking Club"
+  },
+  {
+    "title": "Mountain Day",
+    "href": "../apps/premium-events/clubs/celebrate/sessions/lets-celebrate/mountain-day.html",
+    "level": "B1",
+    "lang": "English",
+    "club": "Let's Celebrate Club",
+    "format": "Speaking Club"
+  },
+  {
+    "title": "The Disappearance of Literary Men",
+    "href": "../apps/premium-events/clubs/mind/sessions/mind-matters/disappearance-of-literary-men.html",
+    "level": "B1",
+    "lang": "English",
+    "club": "Mind Matters Club",
+    "format": "Speaking Club"
+  },
+  {
+    "title": "Living with Family vs Living Alone",
+    "href": "../apps/premium-events/clubs/debate/sessions/debatable-relatable/living-with-family-vs-living-alone-intermediate.html",
+    "level": "B1",
+    "lang": "English",
+    "club": "Debatable & Relatable Club",
+    "format": "Speaking Club"
+  },
+  {
+    "title": "Living with Family vs Living Alone",
+    "href": "../apps/premium-events/clubs/debate/sessions/debatable-relatable/living-with-family-vs-living-alone-elementary.html",
+    "level": "A2",
+    "lang": "English",
+    "club": "Debatable & Relatable Club",
+    "format": "Speaking Club"
+  },
+  {
+    "title": "International Homeless Animals Day",
+    "href": "../apps/premium-events/clubs/celebrate/sessions/lets-celebrate/international-homeless-animals-day.html",
+    "level": "A1",
+    "lang": "English",
+    "club": "Let's Celebrate Club",
+    "format": "Speaking Club"
+  },
+  {
+    "title": "My Life With & My Life Without AI",
+    "href": "../apps/premium-events/clubs/life/sessions/my-life-with-without/my-life-with-without-ai.html",
+    "level": "B1",
+    "lang": "English",
+    "club": "My Life With & Without",
+    "format": "Speaking Club"
+  },
+  {
+    "title": "Technofeudalism & the War for Attention",
+    "href": "../apps/premium-events/clubs/mind/sessions/mind-matters/technofeudalism-attention.html",
+    "level": "B1",
+    "lang": "English",
+    "club": "Mind Matters Club",
+    "format": "Speaking Club"
+  },
+  {
+    "title": "Cheap Flight Day",
+    "href": "../apps/premium-events/clubs/celebrate/sessions/lets-celebrate/cheap-flight-day.html",
+    "level": "A1",
+    "lang": "English",
+    "club": "Let's Celebrate Club",
+    "format": "Speaking Club"
+  },
+  {
+    "title": "A 42-Year-Old Childhood Obesity Theory May Be Wrong",
+    "href": "../apps/premium-events/clubs/kus/sessions/keeping-up-with-science/childhood-obesity-theory-upper-intermediate.html",
+    "level": "B2",
+    "lang": "English",
+    "club": "Keeping Up with Science",
+    "format": "Speaking Club"
+  },
+  {
+    "title": "Sitting Up Straight May Improve Your Mood",
+    "href": "../apps/premium-events/clubs/kus/sessions/keeping-up-with-science/sitting-up-straight-intermediate.html",
+    "level": "B1",
+    "lang": "English",
+    "club": "Keeping Up with Science",
+    "format": "Speaking Club"
+  },
+  {
+    "title": "Sitting Up Straight May Improve Your Mood",
+    "href": "../apps/premium-events/clubs/kus/sessions/keeping-up-with-science/sitting-up-straight-elementary.html",
+    "level": "A2",
+    "lang": "English",
+    "club": "Keeping Up with Science",
+    "format": "Speaking Club"
+  },
+  {
+    "title": "Brain Cells That Keep You Motivated",
+    "href": "../apps/premium-events/clubs/kus/sessions/keeping-up-with-science/brain-cells-motivation-intermediate.html",
+    "level": "B1",
+    "lang": "English",
+    "club": "Keeping Up with Science",
+    "format": "Speaking Club"
+  },
+  {
+    "title": "Brain Cells That Keep You Motivated",
+    "href": "../apps/premium-events/clubs/kus/sessions/keeping-up-with-science/brain-cells-motivation-advanced.html",
+    "level": "C1",
+    "lang": "English",
+    "club": "Keeping Up with Science",
+    "format": "Speaking Club"
+  },
+  {
+    "title": "Ordinary WiFi Can Identify You",
+    "href": "../apps/premium-events/clubs/kus/sessions/keeping-up-with-science/ordinary-wifi-identification-intermediate.html",
+    "level": "B1",
+    "lang": "English",
+    "club": "Keeping Up with Science",
+    "format": "Speaking Club"
+  },
+  {
+    "title": "Ordinary WiFi Can Identify You",
+    "href": "../apps/premium-events/clubs/kus/sessions/keeping-up-with-science/ordinary-wifi-identification-elementary.html",
+    "level": "A2",
+    "lang": "English",
+    "club": "Keeping Up with Science",
+    "format": "Speaking Club"
   }
 ]
