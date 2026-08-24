@@ -986,6 +986,12 @@
         // Prevent duplicate setups
         if (document.querySelector('.cosy-article-wrapper')) return;
 
+        // Only setup embedded articles on session pages or pages with source cards/meta grids
+        const isSessionPage = window.location.pathname.includes('/sessions/') ||
+                              !!document.querySelector('.science-source-card') ||
+                              !!document.querySelector('.session-meta-grid');
+        if (!isSessionPage) return;
+
         // Find all links on the page
         const links = Array.from(document.querySelectorAll('a'));
         const articleLinks = links.filter(link => {
@@ -4370,8 +4376,62 @@
                         const parser = new DOMParser();
                         const doc = parser.parseFromString(html, 'text/html');
 
-                        // Update title
+                        // Update title & lang
                         document.title = doc.title;
+                        if (doc.documentElement && doc.documentElement.lang) {
+                            document.documentElement.lang = doc.documentElement.lang;
+                        }
+
+                        // Convert existing relative stylesheet links in document.head to absolute URLs before pushState
+                        document.head.querySelectorAll('link[rel="stylesheet"]').forEach(l => {
+                            const rawHref = l.getAttribute('href');
+                            if (rawHref && !rawHref.startsWith('http://') && !rawHref.startsWith('https://') && !rawHref.startsWith('//')) {
+                                l.href = new URL(rawHref, window.location.href).href;
+                            }
+                        });
+
+                        // Synchronize <head> elements
+                        // 1. Remove previous PJAX dynamic styles/links
+                        document.querySelectorAll('head [data-pjax-dynamic]').forEach(el => el.remove());
+
+                        // 2. Remove old page inline <style> tags (preserving wonder music toggle styles if present)
+                        Array.from(document.head.querySelectorAll('style')).forEach(styleEl => {
+                            if (!styleEl.id || styleEl.id !== 'wonder-music-toggle-styles') {
+                                styleEl.remove();
+                            }
+                        });
+
+                        // 3. Process new head stylesheets and inline styles from doc.head
+                        if (doc.head) {
+                            // Copy inline style tags from new page
+                            doc.head.querySelectorAll('style').forEach(newStyle => {
+                                const styleCopy = document.createElement('style');
+                                styleCopy.textContent = newStyle.textContent;
+                                styleCopy.setAttribute('data-pjax-dynamic', 'true');
+                                document.head.appendChild(styleCopy);
+                            });
+
+                            // Copy/Update stylesheet link tags with resolved absolute URLs
+                            doc.head.querySelectorAll('link[rel="stylesheet"]').forEach(newLink => {
+                                const rawHref = newLink.getAttribute('href');
+                                if (!rawHref) return;
+                                const absHref = new URL(rawHref, url).href;
+
+                                const existingLinks = Array.from(document.head.querySelectorAll('link[rel="stylesheet"]'));
+                                const matchingLink = existingLinks.find(l => {
+                                    const lHref = l.getAttribute('href');
+                                    return lHref && new URL(lHref, window.location.href).href === absHref;
+                                });
+
+                                if (!matchingLink) {
+                                    const linkCopy = document.createElement('link');
+                                    linkCopy.rel = 'stylesheet';
+                                    linkCopy.href = absHref;
+                                    linkCopy.setAttribute('data-pjax-dynamic', 'true');
+                                    document.head.appendChild(linkCopy);
+                                }
+                            });
+                        }
 
                         // Swap body classes and inner HTML
                         document.body.className = doc.body.className;
@@ -4423,8 +4483,29 @@
                         }
 
                         // Reinitialize all components
+                        if (window.COSY && typeof window.COSY.initTheme === 'function') {
+                            window.COSY.initTheme();
+                        }
+                        if (window.COSY && typeof window.COSY.renderNav === 'function') {
+                            window.COSY.renderNav();
+                        }
                         if (window.COSY && typeof window.COSY.reinit === 'function') {
                             window.COSY.reinit();
+                        }
+                        if (typeof setupWonderModeRouter === 'function') {
+                            setupWonderModeRouter();
+                        }
+                        if (typeof setupEmbeddedArticles === 'function') {
+                            setupEmbeddedArticles();
+                        }
+                        if (typeof setupWonderMusic === 'function') {
+                            setupWonderMusic();
+                        }
+                        if (typeof updateNavActiveState === 'function') {
+                            updateNavActiveState();
+                        }
+                        if (window.COSY_UI_I18N && typeof window.COSY_UI_I18N.refresh === 'function') {
+                            window.COSY_UI_I18N.refresh();
                         }
 
                         // Scroll to top
