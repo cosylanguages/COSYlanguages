@@ -3,15 +3,12 @@
 scripts/remediate_cinema_cefr_and_vocab.py
 
 Standardizes all 113 Cinema Club session files under events/sessions/cinema-club/:
-1. Lowercases <strong> highlighted vocabulary terms in discussion rounds (.round-item-main, .round-item-personal)
-   unless sentence-initial, proper nouns/names (e.g. Tim, Paris, Cruella, London, etc.), acronyms (e.g. AI, TV, WWII, VPN),
-   or Grammar Focus titles / multi-word grammar terms.
-2. Audits target language sessions (FR, RU, ES):
+1. Audits target language sessions (FR, RU, ES):
    - Adds gender articles (le, la, el, la) or (m.) / (f.) for contracted articles (l') to French/Spanish noun vocabulary entries.
    - Adds parenthetical gender indicators (м.), (ж.), or (ср.) to Russian noun vocabulary entries.
-3. Cleans up any remaining placeholder/fallback definition artifacts in non-English files, replacing them with
+2. Cleans up any remaining placeholder/fallback definition artifacts in non-English files, replacing them with
    authentic, film-grounded definitions and example sentences in the target language.
-4. Synchronizes COSY.addToDict(...) parameters with updated word, definition, and example strings.
+3. Synchronizes COSY.addToDict(...) parameters with updated word, definition, and example strings.
 """
 
 import os
@@ -19,23 +16,6 @@ import glob
 import re
 
 SESSIONS_DIR = "events/sessions/cinema-club"
-
-PROPER_NOUNS_AND_ACRONYMS = {
-    "AI", "TV", "CGI", "WWII", "VPN", "NPC", "CEO", "UK", "US", "USA", "LA", "NY", "NYC",
-    "Tim", "Lake", "Tim Lake", "Cornwall", "London", "Paris", "Rome", "Italy", "Cruella",
-    "Cruella de Vil", "Pongo", "Perdita", "Horace", "Jasper", "Abby", "Abby Jensen",
-    "Celeste", "Jay", "Krista", "Chronos", "Dalí", "Disney", "Walt Disney", "Shadow", "Chance",
-    "Sassy", "Peter", "Sam", "Bob", "Hazel", "Babe", "Gerry", "Remy", "Linguini", "Colette",
-    "Skinner", "Gusteau", "Anton Ego", "Ego", "Odette", "Derek", "Rothbart", "Jean-Bob",
-    "Puffin", "Speed", "Alice", "Elio", "Oliver", "Sonmi-451", "Ruby", "Rebecca", "Madeline",
-    "Helen", "Lisle", "Sam Greenfield", "Jackie", "Isabel", "Dolly Levi", "Miranda Priestly",
-    "Katniss", "Katniss Everdeen", "Szpilman", "Władysław Szpilman", "Warsaw", "Heather", "Heather Chandler",
-    "Thamesmead", "Gloucester", "Illyria", "Madrid", "Saint Petersburg", "Pères", "Mères",
-    "Vespa", "Mouth of Truth", "Big Ben", "Hell Hall", "Dr. Pavlov", "Waddlesworth", "Jay Keystone", "Krista Cook",
-    "Sierra Nevada", "Don Ameche", "Michael J. Fox", "Sally Field", "Babe the Dragon", "Root", "John Debney",
-    "Colette Tatou", "Michael Giacchino", "Brad Bird", "Queen Uberta", "King William", "Richard Rich", "Tchaikovsky",
-    "The Holy Grail", "Priory of Sion", "Opus Dei", "The Twelve", "Holy Grail", "Mouth of Truth", "Vespa"
-}
 
 NON_EN_VOCAB_DB = {
     # French - Incendies (B2)
@@ -81,7 +61,7 @@ NON_EN_VOCAB_DB = {
         "Critique": ("le critique / la critique", "(noun) une personne qui évalue la qualité des œuvres d'art ou des repas.", "Anton Ego est le critique gastronomique le plus redouté de tout Paris."),
         "Savourer": ("savourer", "(verb) déguster lentement avec un plaisir profond.", "Remy apprend à savourer chaque association de fromage et de fruits."),
         "Cuisinier": ("le cuisinier / la cuisinière", "(noun) une personne qui prépare les repas dans un restaurant.", "Linguini tente d'agir comme un grand cuisinier grâce à l'aide secrète de Remy."),
-        "Héritage": ("l'héritage (m.)", "(noun) ce qui est transmis par les générations précédentes.", "Le chef Skinner détruit l'héritage d'Auguste Gusteau en vendant des plats surgelés."),
+        "Héritage": ("l'héritage (m.)", "(noun) ce qui est transmitted par les générations précédentes.", "Le chef Skinner détruit l'héritage d'Auguste Gusteau en vendant des plats surgelés."),
         "Subtil": ("subtil(e)", "(adjective) délicat, raffiné et difficile à percevoir au premier coup d'œil.", "Remy cherche des mélanges de saveurs subtils et harmonieux."),
         "Épiphanie": ("l'épiphanie (f.)", "(noun) une prise de conscience soudaine et lumineuse.", "Une seule bouchée de ratatouille provoque une épiphanie nostalgique chez Ego."),
         "Équipe": ("l'équipe (f.)", "(noun) un groupe de personnes travaillant ensemble pour un même but.", "La colonie de rats forme une équipe soudée pour sauver le service du soir."),
@@ -157,63 +137,11 @@ NON_EN_VOCAB_DB = {
         "vulnerabilidad mental": ("la vulnerabilidad mental", "(noun) el estado de fragilidad o sensibilidad emocional.", "El protagonista aprende a gestionar su vulnerabilidad mental sin culpa."),
         "Abrirse": ("abrirse", "(verb) expresar los sentimientos y pensamientos más íntimos con confianza.", "Al paciente le cuesta abrirse durante las primeras sesiones de terapia."),
         "vulnerabilidad": ("la vulnerabilidad", "(noun) la cualidad de mostrar las emociones con sinceridad.", "Mostrar vulnerabilidad ayuda a conectar de forma auténtica con los demás."),
-        "empatía": ("la empatía", "(noun) la facultad de ponerse en el lugar de otra persona.", "La empatía compartida fortalece el vínculo affective entre los personajes."),
+        "empatía": ("la empatía", "(noun) la facultad de ponerse en el lugar de otra persona.", "La empatía compartida fortalece el vínculo afectivo entre los personajes."),
         "confianza": ("la confianza", "(noun) la fe o seguridad firme que se deposita en alguien.", "Recuperar la confianza exige tiempo, paciencia y pequeños pasos cotidianos."),
         "psicoterapeuta": ("el psicoterapeuta / la psicoterapeuta", "(noun) el profesional de la salud mental que guía el proceso de sanación.", "La psicoterapeuta acompaña el proceso de autodescubrimiento con gran respeto.")
     }
 }
-
-def is_sentence_start_proper_or_grammar_title(text, full_item_text, grammar_focus):
-    """Determines if the text inside <strong> should remain capitalized."""
-    clean_text = text.strip()
-    if not clean_text:
-        return True
-
-    # 1. Do not lowercase Grammar Focus title match or multi-word grammatical titles
-    if grammar_focus and (clean_text.lower() in grammar_focus.lower() or grammar_focus.lower() in clean_text.lower()):
-        return True
-
-    # Any multi-word capitalized phrase that looks like a title (e.g., Grammar Focus titles or key thematic headings)
-    words = clean_text.split()
-    if len(words) > 1 and all(w[0].isupper() or w in ["&", "/", "and", "or", "of", "in", "for", "vs.", "to", "with"] for w in words):
-        return True
-
-    # 2. Check if exact match to proper noun/acronym or starts with proper noun
-    if clean_text in PROPER_NOUNS_AND_ACRONYMS:
-        return True
-
-    first_word = clean_text.split()[0].strip(".,!?:;\"'()[]")
-    if first_word in PROPER_NOUNS_AND_ACRONYMS:
-        return True
-
-    # 3. Check if it appears right after sentence ending punctuation (. ! ?) in the full item text
-    pattern = r'(?:^|[.!?]\s+|\"\s*|\'\s*)<strong>' + re.escape(text) + r'</strong>'
-    if re.search(pattern, full_item_text):
-        return True
-
-    return False
-
-def fix_strong_tags(content, grammar_focus):
-    """Lowercases <strong> tags in discussion items unless sentence initial, proper noun, or grammar title."""
-    def replace_item(match):
-        item_type = match.group(1) # main or personal
-        item_text = match.group(2)
-
-        def replace_strong(s_match):
-            strong_inside = s_match.group(1)
-            clean_s = strong_inside.strip()
-
-            if is_sentence_start_proper_or_grammar_title(clean_s, item_text, grammar_focus):
-                return s_match.group(0) # Keep as is
-
-            # Lowercase single vocabulary terms cleanly
-            lowered = clean_s.lower()
-            return f"<strong>{lowered}</strong>"
-
-        new_item_text = re.sub(r'<strong>(.*?)</strong>', replace_strong, item_text)
-        return f'<div class="{item_type}">{new_item_text}</div>'
-
-    return re.sub(r'<div class=[\"\'](round-item-(?:main|personal))[\"\']>(.*?)</div>', replace_item, content, flags=re.DOTALL)
 
 def process_session_file(fpath):
     fname = os.path.basename(fpath)
@@ -222,16 +150,7 @@ def process_session_file(fpath):
 
     original_content = content
 
-    # Get grammar focus title if present (strip inner HTML tags if any)
-    gf_match = re.search(r'<h4>Grammar Focus</h4>\s*<p>(.*?)</p>', content, flags=re.DOTALL)
-    grammar_focus = ""
-    if gf_match:
-        grammar_focus = re.sub(r'<[^>]+>', '', gf_match.group(1)).strip()
-
-    # 1. Lowercase strong tags in discussion rounds appropriately
-    content = fix_strong_tags(content, grammar_focus)
-
-    # 2. Process non-English vocabulary definitions and genders if in DB
+    # Process non-English vocabulary definitions and genders if in DB
     if fname in NON_EN_VOCAB_DB:
         vocab_map = NON_EN_VOCAB_DB[fname]
 
@@ -265,7 +184,7 @@ def process_session_file(fpath):
 
 def main():
     files = sorted(glob.glob(os.path.join(SESSIONS_DIR, "*.html")))
-    print(f"Processing {len(files)} Cinema Club session files for CEFR level adaptation, strong tag case, and gender markers...")
+    print(f"Processing {len(files)} Cinema Club session files for non-English vocabulary gender markers and definitions...")
 
     updated_count = 0
     for fpath in files:
