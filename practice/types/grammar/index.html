@@ -3,22 +3,202 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grammar Practice : COSYlanguages</title>
+    <title data-translate-key="grammar_title">Grammar Practice ⚙️ : COSYlanguages</title>
+    <meta name="description" content="Grammar practice and sentence structure exercises. Test your skills with interactive fill-in-the-blank and sentence scramble tasks.">
+    <link rel="icon" href="../../../images/logos/cosylanguages.png">
+    <link rel="manifest" href="../../../apps/free-portal/manifest.json">
+    <meta name="theme-color" content="#FAF7F2">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="../../../css/tokens.css">
     <link rel="stylesheet" href="../../../css/base.css">
     <link rel="stylesheet" href="../../../css/components.css">
     <link rel="stylesheet" href="../../../css/layout.css">
     <link rel="stylesheet" href="../../../css/practice-new.css">
 </head>
-<body>
-    <div id="cosy-hint"></div>
-    <script src="../../_engine/session.js"></script>
-    <script src="../../_engine/feedback.js"></script>
-    <script src="../../_engine/scorer.js"></script>
-    <script src="grammar.js"></script>
+<body class="practice-page-new">
+
+<a href="#main-content" class="skip-link">Skip to Content</a>
+
+<nav id="cosy-nav" role="navigation"></nav>
+
+<!-- Sticky Top Navigation Header -->
+<header class="sd-sticky-header">
+  <div class="sd-header-inner">
+    <div class="sd-breadcrumbs">
+      <a href="../../../index.html" data-translate-key="breadcrumb_home">Home</a>
+      <span class="sep">/</span>
+      <a href="../../index.html" data-translate-key="breadcrumb_practice">Free Practice</a>
+      <span class="sep">/</span>
+      <span class="current">Grammar ⚙️</span>
+    </div>
+    <nav class="sd-jump-links" aria-label="Page jump links">
+      <a href="#setup-section" class="sd-jump-link">Practice Setup</a>
+      <a href="#practice-section" class="sd-jump-link">Interactive Drill</a>
+    </nav>
+  </div>
+</header>
+
+<div class="page">
+  <main id="main-content" class="practice-container" role="main">
+    <header class="dash-hero">
+      <div>
+        <h1 class="dash-greeting">Grammar <strong>Practice</strong> ⚙️</h1>
+        <p style="color:var(--ink-muted); font-size:0.9rem; margin-top:0.5rem;">Fill-in-the-blank cloze, sentence scrambles, and verb usage drills.</p>
+      </div>
+    </header>
+
+    <!-- Setup Section -->
+    <div id="setup-section" class="setup-panel">
+      <div class="setup-grid" style="display: flex; flex-direction: column; gap: 1.5rem;">
+        <div class="setup-col">
+          <label class="setup-label">Select Target Language</label>
+          <div id="lang-pills" class="lang-pills"></div>
+        </div>
+
+        <div class="setup-col" style="display: flex; gap: 1rem; flex-wrap: wrap;">
+          <div style="flex: 1; min-width: 140px;">
+            <label class="setup-label">Level</label>
+            <select id="level-filter" onchange="window.cosyPractice && window.cosyPractice.updateThemes && window.cosyPractice.updateThemes()" class="styled-select">
+              <option value="all">All Levels (A1-C2)</option>
+              <option value="starter">A1 Starter</option>
+              <option value="elementary">A2 Elementary</option>
+              <option value="intermediate">B1 Intermediate</option>
+              <option value="upper_intermediate">B2 Upper-Intermediate</option>
+              <option value="advanced">C1 Advanced</option>
+            </select>
+          </div>
+          <div style="flex: 1; min-width: 180px;">
+            <label class="setup-label">Theme</label>
+            <select id="theme-filter" class="styled-select">
+              <option value="all">All Themes</option>
+              <option value="Psychology_&_Mind">Psychology &amp; Mind</option>
+              <option value="Society_&_Politics">Society &amp; Politics</option>
+              <option value="Food,_Drink_&_Health">Food &amp; Health</option>
+              <option value="Science_&_Technology">Science &amp; Technology</option>
+              <option value="Travel_&_Nature">Travel &amp; Nature</option>
+            </select>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 1rem;">
+          <button class="start-btn-primary" onclick="window.cosyPractice && window.cosyPractice.startPractice && window.cosyPractice.startPractice()" style="padding: 12px 32px; font-size: 1.05rem; font-weight: bold; cursor: pointer; border-radius: var(--r-md); background: var(--teal); color: white; border: none;">
+            Start Grammar Practice 🚀
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="setup-error-msg" class="setup-error-banner" style="display:none; margin-top: 1rem; padding: 1rem; background: rgba(220,53,69,0.1); border: 1px solid var(--coral); border-radius: 8px; color: var(--coral); text-align: center;">
+      No grammar exercises found for this combination. Try All Levels or a different theme.
+    </div>
+
+    <!-- Practice Section Engine Container -->
+    <div id="practice-section" class="practice-engine hidden" style="margin-top: 2rem;">
+      <div class="pe-header">
+        <div id="pe-session-title" class="pe-session-title">Grammar</div>
+        <div class="pe-counter" id="combo-wrap" style="display: none; background: rgba(196, 82, 42, 0.15); border-radius: 8px; padding: 2px 8px;">
+          <div id="combo-count" class="pec-val" style="color: #E8A838;">0</div>
+        </div>
+        <div class="pe-stats-mini" style="display: flex; gap: 1rem; font-weight: bold;">
+          <div>Points: <span id="score-count">0</span></div>
+          <div>Streak: 🔥 <span id="streak-count">0</span></div>
+        </div>
+      </div>
+
+      <div class="pe-progress-bar" style="background: rgba(0,0,0,0.08); height: 8px; border-radius: 4px; overflow: hidden; margin: 1rem 0;">
+        <div id="progress-fill" class="pe-progress-fill" style="width: 0%; height: 100%; background: var(--teal); transition: width 0.3s;"></div>
+      </div>
+      <div id="pe-progress-text" class="pe-progress-text" style="font-size: 0.85rem; font-weight: bold; color: var(--ink-muted); margin-bottom: 1rem; text-align: center;"></div>
+
+      <div id="pe-body-content"></div>
+      <div id="pe-fb" class="pe-feedback"></div>
+
+      <div class="pe-actions" style="margin-top: 1.5rem; display: flex; gap: 1rem; justify-content: center;">
+        <button id="pe-next" onclick="window.cosyPractice && window.cosyPractice.nextQ && window.cosyPractice.nextQ()" class="pe-btn-next" style="display:none; padding: 10px 24px; background: var(--teal); color: white; border: none; border-radius: 8px; font-weight: bold; cursor: pointer;">Next Question</button>
+        <button id="pe-hint" onclick="window.cosyPractice && window.cosyPractice.showHint && window.cosyPractice.showHint()" class="pe-btn-hint" style="padding: 10px 20px; background: var(--warm-white); border: 1px solid var(--border); border-radius: 8px; cursor: pointer;">Hint 💡</button>
+        <button id="exit-practice-btn" onclick="window.cosyPractice && window.cosyPractice.showSummary && window.cosyPractice.showSummary()" class="pe-btn-exit" style="padding: 10px 20px; background: var(--warm-white); border: 1px solid var(--border); border-radius: 8px; cursor: pointer;">Exit Practice</button>
+      </div>
+    </div>
+  </main>
+</div>
+
+<!-- Bottom Action Bar -->
+<div id="pe-bottom-bar" class="pe-bottom-bar">
+  <div style="display: flex; align-items: center; gap: 12px;">
+    <div id="pe-bb-icon" class="pe-bb-icon"></div>
+    <div>
+      <div id="pe-bb-title" class="pe-bb-title" style="font-weight: bold;"></div>
+      <div id="pe-bb-desc" class="pe-bb-desc" style="font-size: 0.85rem;"></div>
+    </div>
+  </div>
+  <button id="pe-bb-btn" class="pe-bb-action-btn" onclick="window.cosyPracticeEngine && window.cosyPracticeEngine.nextQuestion && window.cosyPracticeEngine.nextQuestion()" style="padding: 8px 20px; background: var(--teal); color: white; border: none; border-radius: 8px; font-weight: bold; cursor: pointer;">Continue</button>
+</div>
+
+<!-- Summary Modal -->
+<div id="summary-modal" class="modal-overlay" style="display: none;">
+  <div id="session-summary" class="modal-content glass" style="max-width: 500px; margin: 4rem auto; padding: 2rem; background: white; border-radius: 16px; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.15);">
+    <h2 style="font-family: 'Fraunces', serif;">Grammar Practice Complete! 🎉</h2>
+    <div style="display: flex; justify-content: space-around; margin: 1.5rem 0;">
+      <div>Score: <span id="final-score" style="font-weight: bold;">0</span></div>
+      <div>Accuracy: <span id="final-accuracy" style="font-weight: bold;">100%</span></div>
+      <div>Points: <span id="final-total-score" style="font-weight: bold;">0</span></div>
+      <div>Streak: 🔥 <span id="final-streak" style="font-weight: bold;">0</span></div>
+    </div>
+    <div id="speaking-club-bridge-card" style="margin: 1.5rem 0; background: linear-gradient(135deg, var(--teal-light), var(--warm-white)); border: 1.5px solid var(--teal); border-radius: var(--r-lg); padding: 1.25rem; text-align: left;">
+      <h3 id="bridge-card-title" style="font-family: 'Fraunces', serif; font-size: 1.15rem; margin: 0.5rem 0 0.25rem 0; color: var(--ink);">Join a COSY Speaking Club Event</h3>
+      <p id="bridge-card-desc" style="font-size: 0.82rem; color: var(--ink-muted); margin: 0 0 1rem 0;">Practice your grammar in live discussions with fellow learners!</p>
+      <a id="bridge-card-link" href="../../../events/index.html" class="btn-primary" style="display: inline-block; font-size: 0.85rem; padding: 8px 18px; text-decoration: none; background: var(--teal); color: white; border-radius: 8px;">Explore Speaking Clubs →</a>
+    </div>
+    <button onclick="window.location.reload()" style="padding: 10px 24px; background: var(--teal); color: white; border: none; border-radius: 8px; font-weight: bold; cursor: pointer;">Practice Again 🔄</button>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-col">
+      <h3>Courses</h3>
+      <a href="../../../apps/premium-courses/general/">General Course 📖</a>
+      <a href="../../../apps/premium-courses/spoken/">Spoken Course 🗣️</a>
+      <a href="../../../apps/premium-courses/exam/">Exam Preparation 📝</a>
+      <a href="../../../apps/premium-courses/travelling/">Travelling Course ✈️</a>
+    </div>
+    <div class="footer-col">
+      <h3>Explore</h3>
+      <a href="../../../index.html#languages">Languages 🌍</a>
+      <a href="../../index.html">Free Practice 💡</a>
+      <a href="../../../events/index.html">Events 🎉</a>
+      <a href="../../../games/index.html">Games 🎮</a>
+    </div>
+    <div class="footer-col">
+      <h3>Project</h3>
+      <a href="../../../privacy.html">Privacy &amp; Safety 🛡️</a>
+    </div>
+    <div class="footer-col">
+      <h3>Contact</h3>
+      <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+      <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+      <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-logo">🏡 COSYlanguages</span>
+    <span class="footer-copy">© 2026 COSYlanguages : All rights reserved</span>
+  </div>
+</footer>
+
+<div id="cosy-hint"></div>
+
 <script src="../../../js/data/languages.js"></script>
 <script src="../../../js/core/engine.js"></script>
 <script src="../../../js/core/i18n.js"></script>
 <script src="../../../js/core/ui.js"></script>
+<script src="../../../js/games/utils/shared.js"></script>
+<script src="../../_engine/core.js"></script>
+<script src="../../_engine/renderers.js"></script>
+<script src="../../hub.js"></script>
+<script src="grammar.js"></script>
 </body>
 </html>
