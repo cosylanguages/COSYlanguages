@@ -4461,6 +4461,32 @@
         "lang": "de",
         "transcription": "",
         "id": "de_starter_work_038"
+    },
+    {
+        "word": "organisieren",
+        "level": "starter",
+        "theme": "work",
+        "emoji": "📂",
+        "form": "verb",
+        "transcription": "ɔʁɡaniˈziːʁən",
+        "definitions": [
+            {
+                "text": "Etwas planmäßig vorbereiten oder gestalten.",
+                "examples": [
+                    "Sie organisiert das wöchentliche Meeting.",
+                    "Wir haben eine Konferenz organisiert."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "organisierte",
+        "v3": "organisiert",
+        "group": "en",
+        "auxiliary": "haben",
+        "subtext": "Termine organisieren",
+        "lang": "de",
+        "id": "de_starter_work_039"
     }
 ];
     window.vocabularyData = window.vocabularyData || {};

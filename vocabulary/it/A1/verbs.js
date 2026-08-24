@@ -6268,6 +6268,32 @@ const data = [
         "v4": "completando",
         "lang": "it",
         "id": "it_starter_work_058"
+    },
+    {
+        "word": "organizzare",
+        "level": "starter",
+        "theme": "work",
+        "emoji": "📂",
+        "form": "verb",
+        "transcription": "orɡanidˈtsare",
+        "definitions": [
+            {
+                "text": "Disporre o pianificare qualcosa in modo ordinato.",
+                "examples": [
+                    "Organizza le riunioni ogni settimana.",
+                    "Abbiamo organizzato un ottimo evento."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "organizzato",
+        "group": "are",
+        "auxiliary": "avere",
+        "subtext": "organizzare un evento",
+        "v4": "organizzando",
+        "lang": "it",
+        "id": "it_starter_work_059"
     }
 ];
     window.vocabularyData = window.vocabularyData || {};

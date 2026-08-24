@@ -4185,6 +4185,31 @@ const data = [
         "auxiliary": "έχω",
         "lang": "el",
         "id": "el_starter_work_038"
+    },
+    {
+        "word": "οργανώνω",
+        "level": "starter",
+        "theme": "work",
+        "emoji": "📂",
+        "form": "verb",
+        "transcription": "/orɣaˈnono/",
+        "definitions": [
+            {
+                "text": "Σχεδιάζω ή τακτοποιώ κάτι με οργανωμένο τρόπο.",
+                "examples": [
+                    "Οργανώνει τις συναντήσεις κάθε εβδομάδα.",
+                    "Οργανώσαμε μια εξαιρετική εκδήλωση."
+                ]
+            }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "v3": "οργανώσει",
+        "group": "1st_conj",
+        "auxiliary": "έχω",
+        "subtext": "οργανώνω το γραφείο",
+        "lang": "el",
+        "id": "el_starter_work_039"
     }
 ];
     window.vocabularyData = window.vocabularyData || {};
