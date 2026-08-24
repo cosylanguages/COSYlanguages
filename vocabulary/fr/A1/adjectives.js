@@ -4976,6 +4976,29 @@
         "lang": "fr",
         "emoji": "✨",
         "id": "fr_starter_people_010"
+    },
+    {
+        "word": "curieux",
+        "level": "starter",
+        "theme": "describing",
+        "form": "adjective",
+        "transcription": "ky.ʁjø",
+        "feminine": "curieuse",
+        "plural": "curieux",
+        "femininePlural": "curieuses",
+        "subtext": "très curieux",
+        "definitions": [
+            {
+                "text": "Qui a le désir de savoir et de comprendre.",
+                "examples": [
+                    "Les enfants sont très curieux de tout.",
+                    "Un esprit curieux apprend rapidement."
+                ]
+            }
+        ],
+        "lang": "fr",
+        "emoji": "🧐",
+        "id": "fr_starter_describing_104"
     }
 ];
     window.vocabularyData = window.vocabularyData || {};
