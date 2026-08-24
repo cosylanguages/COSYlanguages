@@ -1135,8 +1135,117 @@ const Linguistics = {
 
             return neg;
         });
+    },
+
+    /**
+     * App Data Directory Map for Standalone Noun and Verb Apps
+     */
+    appPaths: {
+        fr: { nouns: 'apps/fr-genre/data/nouns.json', verbs: 'apps/fr-conjugeur/data/verbs.json' },
+        it: { nouns: 'apps/it-genere/data/nouns.json', verbs: 'apps/it-coniugatore/data/verbs.json' },
+        el: { nouns: 'apps/el-genos-ptoseis/data/nouns.json', verbs: 'apps/el-klisi-rimaton/data/verbs.json' },
+        ru: { nouns: 'apps/ru-rod-padezhi/data/nouns.json', verbs: 'apps/ru-spryazhenie/data/verbs.json' },
+        en: { verbs: 'apps/en-verb-prep/data/verbs.json' }
+    },
+
+    /**
+     * In-Memory Cache for Loaded App Datasets
+     */
+    _appDataCache: {
+        nouns: {},
+        verbs: {}
+    },
+
+    /**
+     * Synchronously loads or registers app data into cache.
+     * @param {string} lang
+     * @param {'nouns'|'verbs'} category
+     * @param {object} data
+     */
+    registerAppData(lang, category, data) {
+        if (!this._appDataCache[category]) this._appDataCache[category] = {};
+        this._appDataCache[category][lang] = data;
+    },
+
+    /**
+     * Asynchronously loads app dataset for a language if running in browser/node environment.
+     * @param {string} lang
+     * @param {'nouns'|'verbs'} category
+     */
+    async loadAppData(lang, category) {
+        if (this._appDataCache[category]?.[lang]) {
+            return this._appDataCache[category][lang];
+        }
+
+        const relativePath = this.appPaths[lang]?.[category];
+        if (!relativePath) return null;
+
+        try {
+            if (typeof window !== 'undefined' && typeof fetch !== 'undefined') {
+                const rootPrefix = window.COSY_ROOT ? window.COSY_ROOT : '/';
+                const cleanPrefix = rootPrefix.endsWith('/') ? rootPrefix : rootPrefix + '/';
+                const res = await fetch(cleanPrefix + relativePath);
+                if (res.ok) {
+                    const data = await res.json();
+                    this.registerAppData(lang, category, data);
+                    return data;
+                }
+            } else if (typeof require !== 'undefined') {
+                const fs = require('fs');
+                const path = require('path');
+                const fullPath = path.resolve(__dirname, '../../', relativePath);
+                if (fs.existsSync(fullPath)) {
+                    const data = JSON.parse(fs.readFileSync(fullPath, 'utf8'));
+                    this.registerAppData(lang, category, data);
+                    return data;
+                }
+            }
+        } catch (e) {
+            console.warn(`Linguistics.loadAppData: Failed to load ${category} for ${lang}`, e);
+        }
+
+        return null;
+    },
+
+    /**
+     * Retrieves full verb paradigm object from standalone app datasets.
+     * @param {string} lang
+     * @param {string} verb
+     */
+    getVerbParadigm(lang, verb) {
+        if (!verb) return null;
+        const cleanKey = verb.toLowerCase().trim();
+        const dataset = this._appDataCache.verbs?.[lang];
+        if (dataset && dataset[cleanKey]) {
+            return dataset[cleanKey];
+        }
+        return null;
+    },
+
+    /**
+     * Retrieves full noun declension/case object from standalone app datasets.
+     * @param {string} lang
+     * @param {string} noun
+     */
+    getNounDeclension(lang, noun) {
+        if (!noun) return null;
+        const cleanKey = noun.toLowerCase().trim();
+        const dataset = this._appDataCache.nouns?.[lang];
+        if (dataset && dataset[cleanKey]) {
+            return dataset[cleanKey];
+        }
+        return null;
     }
 };
+
+// Global COSY Namespace Binding
+if (typeof window !== 'undefined') {
+    if (!window.COSY) window.COSY = {};
+    window.COSY.Linguistics = Linguistics;
+    window.COSY.getVerbParadigm = (lang, verb) => Linguistics.getVerbParadigm(lang, verb);
+    window.COSY.getNounDeclension = (lang, noun) => Linguistics.getNounDeclension(lang, noun);
+    window.COSY.loadAppData = (lang, cat) => Linguistics.loadAppData(lang, cat);
+}
 
 if (typeof module !== 'undefined') {
     module.exports = Linguistics;
