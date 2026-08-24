@@ -52,7 +52,11 @@
         ["Libri cartacei 📖", "E-reader 📱"],
         ["Cucinare a casa 🍳", "Ordinare a domicilio 🍕"]
       ],
-      critic: [],
+      critic: [
+        { title: "Squisito ma troppo caro 🍝", type: "Ristorante", review: "Il cibo era eccezionale e gli ingredienti freschissimi, ma le porzioni erano ridotte e il conto è stato un trauma.", question: "Torneresti nonostante il prezzo elevato?" },
+        { title: "Trama avvincente, finale deludente 🎬", type: "Film", review: "I primi due terzi del film erano pieni di suspense, ma la conclusione è apparsa affrettata e poco logica.", question: "Quanto influisce il finale sul tuo giudizio complessivo?" },
+        { title: "Grafica mozzafiato ma troppi bug 🎮", type: "Videogioco", review: "Visivamente è un capolavoro, ma si blocca spesso e presenta gravi difetti tecnici.", question: "Grafica e atmosfera possono compensare i difetti tecnici?" }
+      ],
       action: {
         starter: ["Gatto", "Cane", "Casa", "Auto", "Libro", "Acqua", "Sole", "Luna", "Albero", "Telefono", "Porta", "Sedia", "Letto", "Pane", "Pesce"],
         elementary: ["Cucina", "Giardino", "Treno", "Medico", "Insegnante", "Musica", "Compleanno", "Nuoto", "Vacanze", "Negozio", "Stazione", "Ospedale"],
@@ -83,8 +87,20 @@
         { words: ["Pianoforte", "Chitarra", "Violino", "Tromba"], odd: "none", link: "Strumenti musicali", oddReason: "Tutti sono strumenti musicali" },
         { words: ["Medico", "Infermiere", "Chirurgo", "Pilota"], odd: "Pilota", link: "Professioni sanitarie", oddReason: "Il pilota guida aerei, non in ospedale" }
       ],
-      etymology: [],
-      storychain: []
+      etymology: [
+        { word: "Ciao", origin: "Veneto (sciavo)", meaning: "Sono tuo schiavo (servitore)", story: "Deriva dal saluto veneziano 'scomputo de sciavo', divenuto un saluto informale universale." },
+        { word: "Biscotto", origin: "Latino (bis coctus)", meaning: "Cotto due volte", story: "Si riferisce alla tecnica di cuocere il pane due volte per conservarlo a lungo nei viaggi." },
+        { word: "Galassia", origin: "Greco (gala)", meaning: "Via Lattea / Latte", story: "Dalla leggenda greca delle gocce di latte scaturite nel cielo." },
+        { word: "Candidato", origin: "Latino (candidus)", meaning: "Bianco brillante", story: "Gli aspiranti alle cariche nell'antica Roma indossavano una toga candida." },
+        { word: "Nostalgia", origin: "Greco (nostos + algos)", meaning: "Dolore del ritorno a casa", story: "Coniato nel XVII secolo da un medico svizzero per descrivere il mal di patria dei soldati." }
+      ],
+      storychain: [
+        { prompt: "In un piovoso martedì, Marco trovò una vecchia chiave nella sua tasca…", level: "starter" },
+        { prompt: "Il treno si fermò in una stazione che non figurava su nessuna mappa…", level: "elementary" },
+        { prompt: "Una lettera misteriosa era appoggiata sul tavolo della cucina senza mittente…", level: "intermediate" },
+        { prompt: "Quando la luce si spense in tutta la città, Sofia notò un bagliore insolito…", level: "upper_intermediate" },
+        { prompt: "Nella soffitta della vecchia casa, Antonio scoprì un diario risalente al 1888…", level: "advanced" }
+      ]
     };
 
     window.gameData = window.gameData || {};

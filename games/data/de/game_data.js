@@ -52,7 +52,11 @@
         ['Gedruckte Bücher 📖', 'E-Reader 📱'],
         ['Zuhause kochen 🍳', 'Essen bestellen 🍕']
       ],
-      critic: [],
+      critic: [
+        { title: 'Sehr lecker, aber zu teuer 🍝', type: 'Restaurant', review: 'Das Essen war fantastisch und die Zutaten frisch, aber die Portionen waren klein und die Rechnung war eine Überraschung.', question: 'Würdest du trotz des hohen Preises wiederkommen?' },
+        { title: 'Spannender Plot, schwaches Ende 🎬', type: 'Film', review: 'Die ersten zwei Drittel des Films waren fesselnd, aber die Auflösung war überstürzt und unlogisch.', question: 'Wie wichtig ist das Ende eines Films für deine Gesamtwertung?' },
+        { title: 'Tolle Grafik, aber viele Bugs 🎮', type: 'Videospiel', review: 'Das Spiel sieht wunderschön aus, stürzt jedoch häufig ab und hat viele technische Fehler.', question: 'Können Grafik und Atmosphäre technische Mängel ausgleichen?' }
+      ],
       action: {
         starter: ['Katze', 'Hund', 'Haus', 'Auto', 'Buch', 'Wasser', 'Sonne', 'Mond', 'Baum', 'Telefon', 'Tür', 'Stuhl', 'Bett', 'Brot', 'Fisch'],
         elementary: ['Küche', 'Garten', 'Zug', 'Arzt', 'Lehrer', 'Musik', 'Geburtstag', 'Schwimmen', 'Urlaub', 'Geschäft', 'Bahnhof', 'Krankenhaus'],
@@ -83,8 +87,20 @@
         { words: ['Klavier', 'Gitarre', 'Geige', 'Trompete'], odd: 'none', link: 'Musikinstrumente', oddReason: 'Alle sind Musikinstrumente' },
         { words: ['Arzt', 'Pfleger', 'Chirurg', 'Pilot'], odd: 'Pilot', link: 'Gesundheitsberufe', oddReason: 'Der Pilot fliegt Flugzeuge, nicht im Krankenhaus' }
       ],
-      etymology: [],
-      storychain: []
+      etymology: [
+        { word: 'Kindergarten', origin: 'Deutsch', meaning: 'Garten für Kinder (wörtlich)', story: '1837 von Friedrich Fröbel geprägt für frühkindliche Bildung.' },
+        { word: 'Roboter', origin: 'Tschechisch (robota)', meaning: 'Fronarbeit / Zwangsarbeit', story: 'Eingeführt von Karel Čapek in seinem Theaterstück R.U.R. im Jahr 1920.' },
+        { word: 'Zeitgeist', origin: 'Deutsch', meaning: 'Geist der Zeit', story: 'Von Herder und Goethe populär gemacht zur Beschreibung der intellektuellen Strömung einer Epoche.' },
+        { word: 'Ketchup', origin: 'Chinesisch (ke-tsiap)', meaning: 'Fermentierte Fischsaucen-Essenz', story: 'Von britischen Händlern aus Asien mitgebracht und später mit Tomaten abgewandelt.' },
+        { word: 'Panik', origin: 'Griechisch (Pan)', meaning: 'Dem Gott Pan zugeschrieben', story: 'Bezieht sich auf den altgriechischen Gott Pan, der plötzliche Furcht in Wäldern auslöste.' }
+      ],
+      storychain: [
+        { prompt: 'An einem regnerischen Dienstag fand Max einen alten Schlüssel in seiner Tasche…', level: 'starter' },
+        { prompt: 'Der Zug hielt an einer Station, die auf keiner Karte verzeichnet war…', level: 'elementary' },
+        { prompt: 'Ein mysteriöser Brief lag morgens auf dem Küchentisch ohne Absender…', level: 'intermediate' },
+        { prompt: 'Als der Strom in der gesamten Stadt ausfiel, bemerkte Sophie ein seltsames Leuchten…', level: 'upper_intermediate' },
+        { prompt: 'Auf dem Dachboden des alten Hauses entdeckte Anton ein Tagebuch aus dem Jahr 1888…', level: 'advanced' }
+      ]
     };
 
     window.gameData = window.gameData || {};
