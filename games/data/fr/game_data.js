@@ -1,21 +1,21 @@
 (function() {
     const data = {
       fluency: [
-        "Votre destination de vacances idéale 🌴",
-        "Une compétence que vous aimeriez avoir 🎸",
-        "Le meilleur repas que vous ayez jamais mangé 🍜",
-        "Un endroit que vous souhaitez visiter 🗺️",
-        "Votre saison préférée et pourquoi 🍂",
-        "Un souvenir d'enfance 🧸",
-        "La personne la plus intéressante que vous connaissez 🙋",
-        "Que feriez-vous avec 1 million d'euros ? 💰",
-        "Décrivez votre week-end parfait ☀️",
-        "Un livre ou un film qui a changé votre vision 📚",
-        "Si vous pouviez vivre n'importe où dans le monde… 🌍",
-        "Votre routine du matin ☕",
-        "Quelque chose dont vous êtes fier 🏆",
-        "Que signifie le bonheur pour vous ? 😊",
-        "La dernière fois que vous avez essayé quelque chose de nouveau 🎯"
+        { text: "Votre routine du matin ☕", level: "starter" },
+        { text: "Un souvenir d'enfance 🧸", level: "starter" },
+        { text: "Votre saison préférée et pourquoi 🍂", level: "starter" },
+        { text: "Une compétence que vous aimeriez avoir 🎸", level: "elementary" },
+        { text: "Le meilleur repas que vous ayez jamais mangé 🍜", level: "elementary" },
+        { text: "Un endroit que vous souhaitez visiter 🗺️", level: "elementary" },
+        { text: "Votre destination de vacances idéale 🌴", level: "intermediate" },
+        { text: "La personne la plus intéressante que vous connaissez 🙋", level: "intermediate" },
+        { text: "Décrivez votre week-end parfait ☀️", level: "intermediate" },
+        { text: "La dernière fois que vous avez essayé quelque chose de nouveau 🎯", level: "intermediate" },
+        { text: "Que feriez-vous avec 1 million d'euros ? 💰", level: "upper_intermediate" },
+        { text: "Un livre ou un film qui a changé votre vision 📚", level: "upper_intermediate" },
+        { text: "Si vous pouviez vivre n'importe où dans le monde… 🌍", level: "upper_intermediate" },
+        { text: "Quelque chose dont vous êtes fier 🏆", level: "upper_intermediate" },
+        { text: "Que signifie le bonheur pour vous ? 😊", level: "advanced" }
       ],
       opinions: [
         { text: "Les réseaux sociaux font plus de mal que de bien.", level: "intermediate" },
@@ -27,7 +27,9 @@
         { text: "Les voyages sont la meilleure forme d'éducation.", level: "intermediate" },
         { text: "Les animaux ne devraient pas être gardés dans des zoos.", level: "intermediate" },
         { text: "La restauration rapide est l'une des pires inventions.", level: "intermediate" },
-        { text: "Lire des livres a plus de valeur que regarder des films.", level: "intermediate" }
+        { text: "Lire des livres a plus de valeur que regarder des films.", level: "intermediate" },
+        { text: "Le revenu de base universel est nécessaire pour l'économie de demain.", level: "upper_intermediate" },
+        { text: "L'intelligence artificielle générative ne pourra jamais remplacer la créativité humaine.", level: "advanced" }
       ],
       battle: [
         ["Montagnes 🏔️", "Plage 🏖️"],
@@ -52,10 +54,12 @@
       },
       identity: [
         { person: "Un pompier", clue: "Il porte un casque et éteint les incendies avec de l'eau.", level: "elementary" },
-        { person: "Un chef cuisinier", clue: "Il travaille dans une cuisine et prépare des plats.", level: "elementary" },
-        { person: "Un astronaute", clue: "Il voyage au-delà de notre planète.", level: "intermediate" },
-        { person: "Un bibliothécaire", clue: "Il est entouré de livres toute la journée.", level: "elementary" },
-        { person: "Un détective", clue: "Il résout des mystères et cherche des indices.", level: "intermediate" }
+        { person: "Un chef cuisinier", clue: "Il travaille dans une cuisine et prépare de délicieux repas.", level: "elementary" },
+        { person: "Un astronaute", clue: "Il voyage dans l'espace au-delà de la Terre.", level: "intermediate" },
+        { person: "Un bibliothécaire", clue: "Il gère une bibliothèque et aide les gens à trouver des livres.", level: "elementary" },
+        { person: "Un détective", clue: "Il mène des enquêtes et cherche des indices.", level: "intermediate" },
+        { person: "Un architecte", clue: "Il conçoit des maisons et des bâtiments avant leur construction.", level: "upper_intermediate" },
+        { person: "Un diplomate", clue: "Il représente son pays lors des relations internationales officielles.", level: "advanced" }
       ],
       wordlinker: [
         { words: ["Pomme", "Orange", "Banane", "Carotte"], odd: "Carotte", link: "Fruits", oddReason: "La carotte est un légume" },
