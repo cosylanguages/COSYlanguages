@@ -595,10 +595,21 @@
     async function loadLevelData(lang, level) {
         // Ensure level is full ID
         const lid = window.getLevelCode(level);
-        if (window.COSY && window.COSY.loadLanguageData) await window.COSY.loadLanguageData(lang, lid);
+        const l = window.getLangCode(lang);
+
+        if (window.COSY && window.COSY.loadLanguageData) {
+            await window.COSY.loadLanguageData(l, lid);
+        }
+
+        if (window.COSY && window.COSY.loadAppData) {
+            await Promise.all([
+                window.COSY.loadAppData(l, 'verbs'),
+                window.COSY.loadAppData(l, 'nouns')
+            ]);
+        }
+
         if (window.location.pathname.includes('/games/')) {
             const prefix = (window.COSY && window.COSY.getPrefix) ? window.COSY.getPrefix() : '../../';
-            const l = window.getLangCode(lang);
 
             const scriptsToLoad = [
                 `${prefix}games/data/universal.js`,

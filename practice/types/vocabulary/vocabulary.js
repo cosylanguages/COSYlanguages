@@ -112,6 +112,15 @@
             console.error("Centralized loader COSY.loadLanguageData not found.");
         }
 
+        // Load standalone app morphological datasets via adapter bridge
+        if (window.COSY && window.COSY.loadAppData) {
+            const l = (lang || 'en').toLowerCase();
+            await Promise.all([
+                window.COSY.loadAppData(l, 'verbs'),
+                window.COSY.loadAppData(l, 'nouns')
+            ]);
+        }
+
         // Also load curriculum for pronunciation if needed
         if (window.COSY && window.COSY.loadCurriculum) {
             const l = (lang || 'en').toLowerCase();
@@ -493,6 +502,25 @@
                         qText = `Practice: ${item.word}`;
                     }
 
+                    // Check for morphological paradigm enhancements via Linguistics Adapter Bridge
+                    let morphologicalHint = null;
+                    if (window.COSY && window.COSY.getVerbParadigm) {
+                        const verbParadigm = window.COSY.getVerbParadigm(l, item.word);
+                        if (verbParadigm) {
+                            if (verbParadigm.usage_hint) {
+                                morphologicalHint = `Usage: ${verbParadigm.usage_hint}`;
+                            } else if (verbParadigm.group) {
+                                morphologicalHint = `Group: ${verbParadigm.group}`;
+                            }
+                        }
+                    }
+                    if (!morphologicalHint && window.COSY && window.COSY.getNounDeclension) {
+                        const nounDecl = window.COSY.getNounDeclension(l, item.word);
+                        if (nounDecl && nounDecl.gender) {
+                            morphologicalHint = `Gender: ${nounDecl.gender}`;
+                        }
+                    }
+
                     return {
                         form: type,
                         q: qText,
@@ -503,7 +531,7 @@
                         theme: item.theme,
                         sub_theme: item.sub_theme || null,
                         translation: item.translation || item.word,
-                        ruleHint: item.usage_hint || item.collocation || (item.preposition ? `Collocation / Preposition: ${item.word} ${item.preposition}` : null)
+                        ruleHint: item.usage_hint || item.collocation || (item.preposition ? `Collocation / Preposition: ${item.word} ${item.preposition}` : morphologicalHint)
                     };
                 } else if (cat === 'Speaking' || cat === 'speaking') {
                     return { form: 'conv', q: item.topic || item.text || item.q, level: item.level, theme: item.theme };
