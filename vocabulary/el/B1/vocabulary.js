@@ -1240,7 +1240,7 @@
         "emoji": "❓"
     },
     {
-        "id": "el_b1_tech_01",
+        "id": "el_intermediate_tech_01",
         "word": "τεχνητή νοημοσύνη",
         "lang": "el",
         "level": "intermediate",

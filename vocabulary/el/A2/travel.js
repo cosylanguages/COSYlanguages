@@ -1,6 +1,7 @@
 (function() {
     'use strict';
 
+    const lang = 'el';
     const data = [
         {
             id: 'el_a2_travel_01',

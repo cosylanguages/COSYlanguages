@@ -1,6 +1,7 @@
 (function() {
     'use strict';
 
+    const lang = 'fr';
     const data = [
         {
             id: 'fr_a2_voyage_01',
