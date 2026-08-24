@@ -75,6 +75,74 @@ window.DAILY_BANK = {
                     }
                 }
             }
+        },
+        {
+            id: 103,
+            title: "Digital Life & Tech",
+            subtitle: "Screen time, social media, and staying connected",
+            levels: {
+                b: {
+                    prompt: "Which 3 apps do you open most often on your phone?",
+                    tip: "Use simple present verbs: 'I check...', 'I watch...'",
+                    micro: {
+                        title: "Tech Basics",
+                        instruction: "Find the words for 'screen', 'password', and 'charger' in your target language.",
+                        example: "French: Le mot de passe."
+                    }
+                },
+                i: {
+                    prompt: "How has your screen time changed over the past few years? Do you take digital detoxes?",
+                    tip: "Use time references like 'lately', 'in recent years', or 'from time to time'.",
+                    micro: {
+                        title: "Digital Verbs",
+                        instruction: "Write 3 sentences using verbs like 'to download', 'to share', or 'to mute'.",
+                        example: "Spanish: Descargar una aplicación."
+                    }
+                },
+                a: {
+                    prompt: "Do modern social platforms deepen real human connections or foster superficial interactions?",
+                    tip: "Structure your contrast using 'while', 'whereas', or 'on the flip side'.",
+                    micro: {
+                        title: "Nuanced Terms",
+                        instruction: "Translate terms like 'echo chamber', 'algorithms', and 'digital footprint'.",
+                        example: "German: Der digitale Fußabdruck."
+                    }
+                }
+            }
+        },
+        {
+            id: 104,
+            title: "Health & Wellness",
+            subtitle: "Balancing movement, sleep, and rest",
+            levels: {
+                b: {
+                    prompt: "What do you like to do to stay active or unwind after work?",
+                    tip: "Use simple leisure verbs: 'I walk...', 'I sleep...', 'I do yoga...'",
+                    micro: {
+                        title: "Body & Care",
+                        instruction: "Learn how to express feeling tired or asking for advice on resting.",
+                        example: "Italian: Sono stanco."
+                    }
+                },
+                i: {
+                    prompt: "How do you manage stress when facing a crowded schedule?",
+                    tip: "Use modal verbs: 'I try to...', 'I ought to...', 'I must make time...'",
+                    micro: {
+                        title: "Wellbeing Adjectives",
+                        instruction: "Find 4 adjectives describing physical or mental states (e.g., refreshed, exhausted).",
+                        example: "Spanish: Restaurado, Agotado."
+                    }
+                },
+                a: {
+                    prompt: "Should wellness be viewed as an individual responsibility or a societal duty?",
+                    tip: "Use evaluation markers: 'fundamentally', 'crucially', 'it is paramount that...'",
+                    micro: {
+                        title: "Medical & Health Idioms",
+                        instruction: "Explain the idiom 'a picture of health' and find a local equivalent.",
+                        example: "Meaning: Being in remarkably good health."
+                    }
+                }
+            }
         }
     ],
 
@@ -110,6 +178,40 @@ window.DAILY_BANK = {
                         title: "Cultural Nuance",
                         instruction: "Research a unique social etiquette rule in your target culture.",
                         example: "Japan: Tipping is often considered unexpected or rude."
+                    }
+                }
+            }
+        },
+        {
+            id: 202,
+            title: "Neighborhood Walks",
+            subtitle: "Discovering hidden gems in your local town",
+            levels: {
+                b: {
+                    prompt: "Describe 3 places in your neighborhood (e.g., a bakery, a park, a library).",
+                    tip: "Use location phrases: 'There is a...', 'Next to the...'",
+                    micro: {
+                        title: "City Words",
+                        instruction: "Learn the words for 'street', 'square', and 'market'.",
+                        example: "French: La rue, la place, le marché."
+                    }
+                },
+                i: {
+                    prompt: "What makes your hometown unique? Where would you take a friend visiting for the first time?",
+                    tip: "Use recommendation phrases: 'I highly recommend...', 'You shouldn't miss...'",
+                    micro: {
+                        title: "Giving Directions",
+                        instruction: "Write 3 sentences explaining how to get to your favorite local spot.",
+                        example: "Spanish: Gira a la izquierda en la esquina."
+                    }
+                },
+                a: {
+                    prompt: "How does urban gentrification alter the cultural fabric of historic city centers?",
+                    tip: "Use analytical vocabulary: 'displacement', 'heritage', 'revitalization'.",
+                    micro: {
+                        title: "Architectural Terms",
+                        instruction: "Find terms used to describe city landscapes and historic facades.",
+                        example: "Italian: Il centro storico."
                     }
                 }
             }
@@ -151,6 +253,40 @@ window.DAILY_BANK = {
                     }
                 }
             }
+        },
+        {
+            id: 302,
+            title: "Sustainable Living",
+            subtitle: "Small daily habits for a greener future",
+            levels: {
+                b: {
+                    prompt: "What simple things do you do to help the environment at home?",
+                    tip: "Use simple action verbs: 'I recycle...', 'I save water...'",
+                    micro: {
+                        title: "Eco Vocab",
+                        instruction: "Learn the target words for 'recycle', 'nature', and 'energy'.",
+                        example: "German: Recyceln, die Natur."
+                    }
+                },
+                i: {
+                    prompt: "Is individual action enough to tackle climate change, or must governments lead?",
+                    tip: "Use contrast phrases: 'While personal efforts count, large policy change is vital.'",
+                    micro: {
+                        title: "Environmental Phrases",
+                        instruction: "Find expressions for 'renewable energy' and 'carbon footprint'.",
+                        example: "French: L'empreinte carbone."
+                    }
+                },
+                a: {
+                    prompt: "Evaluate whether economic growth can truly be decoupled from environmental resource depletion.",
+                    tip: "Use advanced argumentative frameworks: 'notably', 'conversely', 'paradoxically'.",
+                    micro: {
+                        title: "Policy Terminology",
+                        instruction: "Translate terms like 'biodiversity', 'sustainability', and 'circular economy'.",
+                        example: "Spanish: Economía circular."
+                    }
+                }
+            }
         }
     ],
 
@@ -189,6 +325,40 @@ window.DAILY_BANK = {
                     }
                 }
             }
+        },
+        {
+            id: 402,
+            title: "Friendship & Connection",
+            subtitle: "Nurturing deep bonds in a fast world",
+            levels: {
+                b: {
+                    prompt: "Describe your best friend in 3 simple words.",
+                    tip: "Use clear adjectives: 'kind', 'funny', 'honest'.",
+                    micro: {
+                        title: "Friendship Basics",
+                        instruction: "Learn how to say 'friend', 'trust', and 'together'.",
+                        example: "Spanish: Amigo, Confianza."
+                    }
+                },
+                i: {
+                    prompt: "How have your friendships evolved over time as life becomes busier?",
+                    tip: "Use present perfect forms: 'We have stayed close...', 'We have grown...'",
+                    micro: {
+                        title: "Relationship Idioms",
+                        instruction: "Find expressions for 'to keep in touch' and 'to hit it off'.",
+                        example: "French: Garder le contact."
+                    }
+                },
+                a: {
+                    prompt: "In an era of mobility and remote life, how is the nature of lifelong community changing?",
+                    tip: "Use deep reflective vocabulary: 'ephemeral', 'enduring', 'interconnectedness'.",
+                    micro: {
+                        title: "Nuanced Qualities",
+                        instruction: "Translate abstract values like 'empathy', 'reciprocation', and 'loyalty'.",
+                        example: "Greek: Ενσυναίσθηση, Αφοσίωση."
+                    }
+                }
+            }
         }
     ],
 
@@ -224,6 +394,40 @@ window.DAILY_BANK = {
                         title: "Artistic Criticism",
                         instruction: "Find verbs used to describe artistic processes, such as to compose, to sculpt, or to depict.",
                         example: "French: Dépeindre, sculpter."
+                    }
+                }
+            }
+        },
+        {
+            id: 502,
+            title: "Books & Storytelling",
+            subtitle: "Exploring worlds through words and literature",
+            levels: {
+                b: {
+                    prompt: "What was the last book or article you read? Did you like it?",
+                    tip: "Use past tense starters: 'I read...', 'It was good...'",
+                    micro: {
+                        title: "Book Terms",
+                        instruction: "Learn words for 'author', 'chapter', and 'story'.",
+                        example: "Italian: L'autore, il capitolo."
+                    }
+                },
+                i: {
+                    prompt: "Do you prefer reading physical printed books or digital e-readers? Why?",
+                    tip: "Use preference verbs: 'I prefer...', 'I tend to choose...'",
+                    micro: {
+                        title: "Literary Genres",
+                        instruction: "Translate 4 genres like fiction, biography, mystery, or fantasy.",
+                        example: "Spanish: Novela negra, Fantasía."
+                    }
+                },
+                a: {
+                    prompt: "Why do certain ancient myths and classic novels continue to resonate across cultures centuries later?",
+                    tip: "Use analytical framing: 'attributable to', 'underlying human archetype', 'timelessness'.",
+                    micro: {
+                        title: "Narrative Nuance",
+                        instruction: "Find terms for 'plot twist', 'foreshadowing', and 'protagonist'.",
+                        example: "French: Le protagoniste, le coup de théâtre."
                     }
                 }
             }
