@@ -986,15 +986,6 @@
         // Prevent duplicate setups
         if (document.querySelector('.cosy-article-wrapper')) return;
 
-        // Skip embedding external articles/links for Big and Mini group views of Science club
-        const path = window.location.pathname;
-        const isKus = path.includes('sessions/keeping-up-with-science/');
-        const params = new URLSearchParams(window.location.search);
-        const mode = params.get('mode') || 'big';
-        if (isKus && (mode === 'big' || mode === 'mini')) {
-            return;
-        }
-
         // Find all links on the page
         const links = Array.from(document.querySelectorAll('a'));
         const articleLinks = links.filter(link => {
@@ -1004,10 +995,11 @@
             const isVideo = href.includes('youtube.com') || href.includes('youtu.be') || href.includes('youtube-nocookie.com');
             const isMedia = href.match(/\.(png|jpg|jpeg|gif|pdf|mp3|mp4|webm)$/i);
 
-            // Check if link matches keywords (article, text, read, reading)
-            const matchesKeyword = text.includes('article') || text.includes('text') || text.includes('read') || text.includes('reading');
+            // Check if link is inside meta-item or matches keywords across languages (en, fr, ru, es, it)
+            const isMetaItemLink = !!link.closest('.meta-item');
+            const matchesKeyword = text.includes('article') || text.includes('text') || text.includes('read') || text.includes('reading') || text.includes('lire') || text.includes('читать') || text.includes('стать') || text.includes('📖');
 
-            return isExternal && !isVideo && !isMedia && matchesKeyword;
+            return isExternal && !isVideo && !isMedia && (matchesKeyword || isMetaItemLink);
         });
 
         if (articleLinks.length === 0) return;
@@ -1043,13 +1035,13 @@
                 </div>
             `;
 
-            // Inject the wrapper after the meta grid
-            const metaGrid = document.querySelector('.session-meta-grid');
-            if (metaGrid) {
-                metaGrid.parentNode.insertBefore(playerWrapper, metaGrid.nextSibling);
+            // Inject the wrapper after source card or meta grid if present
+            const targetContainer = document.querySelector('.science-source-card') || document.querySelector('.session-meta-grid');
+            if (targetContainer) {
+                targetContainer.parentNode.insertBefore(playerWrapper, targetContainer.nextSibling);
             } else {
-                // Fallback: insert before the link's parent container or paragraph
-                const parent = link.closest('p') || link.closest('div') || link;
+                // Fallback: insert after the link's parent container or paragraph
+                const parent = link.closest('p') || link.closest('.science-source-card') || link.closest('div') || link;
                 parent.parentNode.insertBefore(playerWrapper, parent.nextSibling);
             }
         });
@@ -3443,8 +3435,8 @@
                     formatSwitcherPlaceholder.id = "kus-dynamic-switcher-placeholder";
                     mainContainer.appendChild(formatSwitcherPlaceholder);
 
-                    // 6. Article / Source Card (Only rendered on Private Lesson mode to keep big & mini groups link-free)
-                    if (sourceHtml && mode === 'private') {
+                    // 6. Article / Source Card
+                    if (sourceHtml) {
                         const sourceCard = document.createElement('div');
                         sourceCard.className = "science-source-card";
                         sourceCard.innerHTML = `
@@ -4119,6 +4111,7 @@
 
             // Re-trigger science audio setup now that KUS mode routing and passcodes are initialized!
             setupScienceSessionAudio();
+            setupEmbeddedArticles();
         }
 
         window.COSY_WONDER_ROUTER = window.COSY_WONDER_ROUTER || {
