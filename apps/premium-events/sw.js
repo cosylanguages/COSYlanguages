@@ -1,8 +1,8 @@
-const CACHE_NAME = 'cosy-premium-events-v1';
+const CACHE_NAME = 'cosy-premium-events-v2';
 const STATIC_ASSETS = [
   './',
-  './events/index.html',
-  './css/events.css',
+  '../../events/speaking-clubs.html',
+  '../../css/events.css',
   '../../css/base.css',
   '../../css/components.css',
   '../../css/layout.css',
