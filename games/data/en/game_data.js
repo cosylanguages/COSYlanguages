@@ -1,21 +1,21 @@
 (function() {
     const data = {
       fluency: [
-        'Your perfect holiday destination 🌴',
-        'A skill you wish you had 🎸',
-        'The best meal you ever ate 🍜',
-        'A place you want to visit 🗺️',
-        'Your favourite season and why 🍂',
-        'A childhood memory 🧸',
-        'The most interesting person you know 🙋',
-        'What would you do with 1 million euros? 💰',
-        'Describe your perfect weekend ☀️',
-        'A book or film that changed your view 📚',
-        'If you could live anywhere in the world… 🌍',
-        'Your morning routine ☕',
-        'Something you\'re proud of 🏆',
-        'What does happiness mean to you? 😊',
-        'The last time you tried something new 🎯',
+        { text: 'Your morning routine ☕', level: 'starter' },
+        { text: 'A childhood memory 🧸', level: 'starter' },
+        { text: 'Your favourite season and why 🍂', level: 'starter' },
+        { text: 'A skill you wish you had 🎸', level: 'elementary' },
+        { text: 'The best meal you ever ate 🍜', level: 'elementary' },
+        { text: 'A place you want to visit 🗺️', level: 'elementary' },
+        { text: 'Your perfect holiday destination 🌴', level: 'intermediate' },
+        { text: 'The most interesting person you know 🙋', level: 'intermediate' },
+        { text: 'Describe your perfect weekend ☀️', level: 'intermediate' },
+        { text: 'The last time you tried something new 🎯', level: 'intermediate' },
+        { text: 'What would you do with 1 million euros? 💰', level: 'upper_intermediate' },
+        { text: 'A book or film that changed your view 📚', level: 'upper_intermediate' },
+        { text: 'If you could live anywhere in the world… 🌍', level: 'upper_intermediate' },
+        { text: 'Something you\'re proud of 🏆', level: 'upper_intermediate' },
+        { text: 'What does happiness mean to you? 😊', level: 'advanced' }
       ],
       opinions: [
         { text: 'Social media does more harm than good.', level: 'intermediate' },
@@ -34,7 +34,7 @@
         { text: 'Children should learn a musical instrument.', level: 'intermediate' },
         { text: 'The world would be better with one universal language.', level: 'intermediate' },
         { text: 'Universal basic income is necessary for future economies.', level: 'upper_intermediate' },
-        { text: 'Artistic creativity cannot be replicated by synthetic algorithms.', level: 'advanced' }
+        { text: 'Generative AI can never truly replace human artistic creativity.', level: 'advanced' }
       ],
       battle: [
         ['Mountains 🏔️', 'Beach 🏖️'],
@@ -46,7 +46,7 @@
         ['Cats 🐱', 'Dogs 🐶'],
         ['Working from home 🏠', 'Office work 🏢'],
         ['Sweet 🍰', 'Savoury 🧀'],
-        ['Travelling alone ✈️', 'Travelling with friends 👥'],
+        ['Travelling alone ✈️', 'Travelling with friends 👥']
       ],
       critic: [],
       action: {
@@ -54,22 +54,22 @@
         elementary: ['Kitchen', 'Garden', 'Train', 'Doctor', 'Teacher', 'Music', 'Birthday', 'Swimming', 'Holiday', 'Shopping'],
         intermediate: ['Museum', 'Interview', 'Architect', 'Journalist', 'Parliament', 'Orchestra', 'Marathon', 'Exhibition'],
         upper_intermediate: ['Philanthropy', 'Ambassador', 'Hypothesis', 'Entrepreneur', 'Archaeology', 'Telescope', 'Symposium'],
-        advanced: ['Paradigm', 'Juxtaposition', 'Anachronism', 'Quinquennial', 'Sesquipedalian', 'Verisimilitude', 'Magnanimous', 'Vicissitude'],
+        advanced: ['Paradigm', 'Juxtaposition', 'Anachronism', 'Resilience', 'Nuance', 'Verisimilitude', 'Magnanimous', 'Vicissitude'],
         proficiency: ['Ubiquitous', 'Ephemeral', 'Pugnacious', 'Perspicacious', 'Sycophant', 'Surreptitious', 'Equanimity', 'Ineffable']
       },
       identity: [
-        { person: 'A firefighter', clue: 'They wear a helmet and fight with water.', level: 'elementary' },
-        { person: 'A chef', clue: 'They work in a kitchen and create dishes.', level: 'elementary' },
-        { person: 'An astronaut', clue: 'They travel beyond our planet.', level: 'intermediate' },
-        { person: 'A librarian', clue: 'They are surrounded by books all day.', level: 'elementary' },
-        { person: 'A detective', clue: 'They solve mysteries and look for clues.', level: 'intermediate' },
-        { person: 'A musician', clue: 'They use instruments to create sound.', level: 'elementary' },
-        { person: 'An architect', clue: 'They design buildings before they are built.', level: 'upper_intermediate' },
-        { person: 'A surgeon', clue: 'They operate on people inside a hospital.', level: 'upper_intermediate' },
-        { person: 'A diplomat', clue: 'They work between governments of different countries.', level: 'advanced' },
-        { person: 'A marine biologist', clue: 'They study life in the ocean.', level: 'advanced' },
-        { person: 'A data scientist', clue: 'They analyze complex statistics and algorithms to find hidden patterns.', level: 'upper_intermediate' },
-        { person: 'An acoustic engineer', clue: 'They design spaces to control sound propagation and eliminate noise.', level: 'advanced' }
+        { person: 'A firefighter', clue: 'They wear a helmet and extinguish fires with water.', level: 'elementary' },
+        { person: 'A chef', clue: 'They work in a kitchen and cook delicious meals.', level: 'elementary' },
+        { person: 'An astronaut', clue: 'They travel into space beyond Earth.', level: 'intermediate' },
+        { person: 'A librarian', clue: 'They manage a library and help people find books.', level: 'elementary' },
+        { person: 'A detective', clue: 'They investigate mysteries and look for clues.', level: 'intermediate' },
+        { person: 'A musician', clue: 'They play instruments or sing to create music.', level: 'elementary' },
+        { person: 'An architect', clue: 'They design houses and buildings before construction begins.', level: 'upper_intermediate' },
+        { person: 'A surgeon', clue: 'They perform medical operations in a hospital.', level: 'upper_intermediate' },
+        { person: 'A diplomat', clue: 'They represent their country in official international relations.', level: 'advanced' },
+        { person: 'A marine biologist', clue: 'They study ocean plants and marine animals.', level: 'advanced' },
+        { person: 'A data scientist', clue: 'They analyze complex datasets to uncover trends and patterns.', level: 'upper_intermediate' },
+        { person: 'An acoustic engineer', clue: 'They design rooms and buildings to control sound quality and reduce unwanted noise.', level: 'advanced' }
       ],
       wordlinker: [
         { words: ['Apple', 'Orange', 'Banana', 'Carrot'], odd: 'Carrot', link: 'Fruits', oddReason: 'Carrot is a vegetable' },
@@ -79,7 +79,7 @@
         { words: ['Run', 'Jump', 'Sleep', 'Swim'], odd: 'Sleep', link: 'Active physical verbs', oddReason: 'Sleep is passive' },
         { words: ['Red', 'Blue', 'Heavy', 'Green'], odd: 'Heavy', link: 'Colours', oddReason: 'Heavy is not a colour' },
         { words: ['Shakespeare', 'Dickens', 'Picasso', 'Austen'], odd: 'Picasso', link: 'English authors', oddReason: 'Picasso was a Spanish painter' },
-        { words: ['Sunrise', 'Dawn', 'Dusk', 'Twilight'], odd: 'none', link: 'Times of day near sunrise/sunset', oddReason: 'All describe transitional light' },
+        { words: ['Sunrise', 'Dawn', 'Dusk', 'Twilight'], odd: 'none', link: 'Times of day near sunrise/sunset', oddReason: 'All describe transitional light' }
       ],
       etymology: [],
       storychain: []

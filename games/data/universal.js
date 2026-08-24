@@ -4,7 +4,7 @@
       opinions: [],
       battle: [],
       critic: [
-        '"The only way to do great work is to love what you do." : Steve Jobs',
+        '"The only way to do great work is to love what you do.": Steve Jobs',
         '"In the middle of every difficulty lies opportunity.": Albert Einstein',
         '"The journey of a thousand miles begins with one step.": Lao Tzu',
         '"Be the change you wish to see in the world.": Gandhi',
