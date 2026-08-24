@@ -22,7 +22,9 @@
       crossword: 'cosy_crossword/index.html',
       bingo: 'lucky_numbers/index.html',
       etymology: 'etymology_explorer/index.html',
-      gender: 'what_gender_is_it/index.html'
+      gender: 'what_gender_is_it/index.html',
+      questions: 'hundred_questions/index.html',
+      storytelling: 'storytelling/index.html'
     };
 
     window.openGame = function(id) {

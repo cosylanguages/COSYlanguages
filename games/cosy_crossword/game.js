@@ -58,20 +58,11 @@
                     </div>
                 </div>`;
 
-            // Note: crossword logic requires a crossword engine script.
-            // We assume it might be in js/games/crossword.js which we copied but it might need adaptation.
-            // For now, let's load it dynamically if it exists.
-            const prefix = '../../';
-            const s = document.createElement('script');
-            s.src = prefix + 'js/games/crossword.js';
-            s.onload = () => {
-                if (window.CrosswordGame) {
-                    window.CrosswordGame.init(lang, level, 'all');
-                    window.CrosswordGame.render('crossword-grid-container');
-                    COSYGame.nextRound(); // Track that a puzzle was started
-                }
-            };
-            document.head.appendChild(s);
+            if (window.CrosswordGame) {
+                window.CrosswordGame.init(lang, level, 'all');
+                window.CrosswordGame.render('crossword-grid-container');
+                COSYGame.nextRound();
+            }
 
             window.COSY_GAME.cwCheck = () => {
                 if (window.CrosswordGame) {
