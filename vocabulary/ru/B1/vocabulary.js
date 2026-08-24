@@ -1269,7 +1269,7 @@
         "emoji": "❓"
     },
     {
-        "id": "ru_b1_tech_01",
+        "id": "ru_intermediate_tech_01",
         "word": "искусственный интеллект",
         "lang": "ru",
         "level": "intermediate",

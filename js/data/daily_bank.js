@@ -143,6 +143,40 @@ window.DAILY_BANK = {
                     }
                 }
             }
+        },
+        {
+            id: 105,
+            title: "Shopping & Markets",
+            subtitle: "Buying goods, bargaining, and local markets",
+            levels: {
+                b: {
+                    prompt: "What is your favorite item to buy when shopping locally?",
+                    tip: "Use simple shopping verbs: 'I buy...', 'I pay...', 'It costs...'",
+                    micro: {
+                        title: "Shopping Basics",
+                        instruction: "Learn how to ask 'How much is this?' in your target language.",
+                        example: "French: C'est combien ?"
+                    }
+                },
+                i: {
+                    prompt: "Do you prefer traditional local markets or online shopping platforms?",
+                    tip: "Use comparison markers like 'convenient', 'authentic', 'more accessible'.",
+                    micro: {
+                        title: "Commerce Terms",
+                        instruction: "Find the target words for 'discount', 'receipt', and 'cashier'.",
+                        example: "Spanish: Descuento, Recibo, Cajero."
+                    }
+                },
+                a: {
+                    prompt: "How does fast consumerism impact artisanal traditions and independent small businesses?",
+                    tip: "Use economic vocabulary like 'sustainability', 'mass production', 'craftsmanship'.",
+                    micro: {
+                        title: "Financial Idioms",
+                        instruction: "Translate the idiom 'cost an arm and a leg' and find a local equivalent.",
+                        example: "Meaning: To be extremely expensive."
+                    }
+                }
+            }
         }
     ],
 

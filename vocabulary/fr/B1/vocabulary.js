@@ -1274,7 +1274,7 @@
         "emoji": "❓"
     },
     {
-        "id": "fr_b1_tech_01",
+        "id": "fr_intermediate_tech_01",
         "word": "intelligence artificielle",
         "lang": "fr",
         "level": "intermediate",

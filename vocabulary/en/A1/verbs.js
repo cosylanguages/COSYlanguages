@@ -6729,6 +6729,99 @@ const data = [
         "level": "starter",
         "theme": "giving_opinions",
         "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_142",
+        "word": "organize",
+        "emoji": "📂",
+        "form": "verb",
+        "transcription": "ˈɔːrɡənaɪz",
+        "definitions": [
+            {
+                "text": "To arrange or plan something in an orderly way.",
+                "examples": [
+                    "She organizes weekly team meetings.",
+                    "He organized his workspace carefully."
+                ]
+            }
+        ],
+        "v2": "organized",
+        "v3": "organized",
+        "v4": "organizing",
+        "classification": "regular",
+        "aspect": "action",
+        "group": "regular",
+        "subtext": "organize files / organize an event",
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null,
+        "antonyms": [
+            "disorganize"
+        ]
+    },
+    {
+        "id": "en_starter_travel_039",
+        "word": "explore",
+        "emoji": "🧭",
+        "form": "verb",
+        "transcription": "ɪkˈsplɔːr",
+        "definitions": [
+            {
+                "text": "To travel through an unfamiliar area in order to learn about it.",
+                "examples": [
+                    "We love exploring new cities on foot.",
+                    "They explored the historic district."
+                ]
+            }
+        ],
+        "v2": "explored",
+        "v3": "explored",
+        "v4": "exploring",
+        "classification": "regular",
+        "aspect": "action",
+        "group": "regular",
+        "subtext": "explore a city / explore ideas",
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "travel",
+        "sub_theme": null,
+        "antonyms": [
+            "ignore"
+        ]
+    },
+    {
+        "id": "en_starter_learning_034",
+        "word": "improve",
+        "emoji": "📈",
+        "form": "verb",
+        "transcription": "ɪmˈpruːv",
+        "definitions": [
+            {
+                "text": "To make or become better in quality or skill.",
+                "examples": [
+                    "He works hard to improve his English pronunciation.",
+                    "Our customer feedback has improved significantly."
+                ]
+            }
+        ],
+        "v2": "improved",
+        "v3": "improved",
+        "v4": "improving",
+        "classification": "regular",
+        "aspect": "action",
+        "group": "regular",
+        "subtext": "improve skills / improve quality",
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "learning_studying",
+        "sub_theme": null,
+        "antonyms": [
+            "worsen"
+        ]
     }
 ];
     window.vocabularyData = window.vocabularyData || {};
