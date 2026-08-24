@@ -994,12 +994,14 @@
             const isExternal = href.startsWith('http://') || href.startsWith('https://');
             const isVideo = href.includes('youtube.com') || href.includes('youtu.be') || href.includes('youtube-nocookie.com');
             const isMedia = href.match(/\.(png|jpg|jpeg|gif|pdf|mp3|mp4|webm)$/i);
+            const isSocial = href.includes('wa.me') || href.includes('t.me');
 
-            // Check if link is inside meta-item or matches keywords across languages (en, fr, ru, es, it)
+            // Check if link is inside meta-item or matches article keywords across languages (en, fr, ru, es, it, el)
             const isMetaItemLink = !!link.closest('.meta-item');
-            const matchesKeyword = text.includes('article') || text.includes('text') || text.includes('read') || text.includes('reading') || text.includes('lire') || text.includes('читать') || text.includes('стать') || text.includes('📖');
+            const matchesKeyword = text.includes('article') || text.includes('text') || text.includes('read') || text.includes('reading') || text.includes('lire') || text.includes('читать') || text.includes('стать') || text.includes('источник') || text.includes('source') || text.includes('lien') || text.includes('link') || text.includes('ссылка') || text.includes('📖');
+            const isKnownArticleDomain = href.includes('sciencedaily.com') || href.includes('nature.com') || href.includes('wikipedia.org') || href.includes('bbc.com') || href.includes('psychologies.com') || href.includes('lefigaro.fr') || href.includes('rb.ru') || href.includes('nplus1.ru') || href.includes('pourlascience.fr') || href.includes('sciencefocus.com') || href.includes('sciencex.com') || href.includes('iter.org');
 
-            return isExternal && !isVideo && !isMedia && (matchesKeyword || isMetaItemLink);
+            return isExternal && !isVideo && !isMedia && !isSocial && (matchesKeyword || isMetaItemLink || isKnownArticleDomain);
         });
 
         if (articleLinks.length === 0) return;
@@ -1021,7 +1023,7 @@
 
             const playerWrapper = document.createElement('div');
             playerWrapper.className = 'cosy-article-wrapper';
-            playerWrapper.style.margin = '2rem 0';
+            playerWrapper.style.margin = '1.5rem 0';
             playerWrapper.innerHTML = `
                 <div class="cosy-article-header" style="background: var(--cream); border: 1px solid var(--border); border-bottom: none; border-radius: 12px 12px 0 0; padding: 0.75rem 1rem; display: flex; justify-content: space-between; align-items: center; box-sizing: border-box;">
                     <span style="font-weight: 600; font-family: 'Playfair Display', serif; color: var(--indigo); font-size: 1rem;">📖 Embedded Reader</span>
@@ -1035,14 +1037,10 @@
                 </div>
             `;
 
-            // Inject the wrapper after source card or meta grid if present
-            const targetContainer = document.querySelector('.science-source-card') || document.querySelector('.session-meta-grid');
-            if (targetContainer) {
-                targetContainer.parentNode.insertBefore(playerWrapper, targetContainer.nextSibling);
-            } else {
-                // Fallback: insert after the link's parent container or paragraph
-                const parent = link.closest('p') || link.closest('.science-source-card') || link.closest('div') || link;
-                parent.parentNode.insertBefore(playerWrapper, parent.nextSibling);
+            // Inject the wrapper directly relative to the specific link / card
+            const relativeTarget = link.closest('.science-source-card') || link.closest('.session-meta-grid') || link.closest('tr') || link.closest('.meta-item') || link.closest('p') || link.closest('div') || link;
+            if (relativeTarget && relativeTarget.parentNode) {
+                relativeTarget.parentNode.insertBefore(playerWrapper, relativeTarget.nextSibling);
             }
         });
     };
