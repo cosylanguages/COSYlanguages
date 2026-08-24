@@ -23,51 +23,62 @@
             Vocabulary: [
                 { type:'mc', q:'"sibling" = ?', opts:['A brother or sister','A parent','A cousin','A friend'], ans:0, level:'starter', theme:'Family' },
                 { type:'mc', q:'"ancient" ≠ ?', opts:['Modern','Old','Historic','Antique'], ans:0, level:'elementary', theme:'Arts & Culture' },
+                { type:'mc', q:'"resilient" = ?', opts:['Able to recover quickly from difficult conditions','Easily broken','Slightly confused','Extremely loud'], ans:0, level:'intermediate', theme:'Daily Life' },
+                { type:'mc', q:'"meticulous" ≈ ?', opts:['Thorough and attentive to detail','Careless','Hasty','Vague'], ans:0, level:'upper_intermediate', theme:'Daily Life' },
                 { type:'tf', q:'"ubiquitous" = "extremely rare"', ans:false, level:'advanced', theme:'Daily Life' },
             ],
             Grammar: [
                 { type:'mc', q:'✓ ?', opts:['She doesn\'t like coffee.','She don\'t like coffee.','She not like coffee.','She isn\'t like coffee.'], ans:0, level:'starter', theme:'Tenses' },
                 { type:'tf', q:'"I have been living here for 3 years" = present perfect continuous', ans:true, level:'intermediate', theme:'Tenses' },
+                { type:'mc', q:'✓ ?', opts:['If I had known, I would have called you.','If I knew, I would call you yesterday.','If I have known, I called you.','If I had knew, I will call you.'], ans:0, level:'upper_intermediate', theme:'Conditionals' }
             ]
         },
         FR: {
             Vocabulary: [
                 { type:'mc', q:'"frère" = ?', opts:['Le fils des mêmes parents','Un parent éloigné','Un ami d’enfance','Une sœur'], ans:0, level:'starter', theme:'Family' },
                 { type:'mc', q:'"ancien" ≠ ?', opts:['Moderne','Vieux','Historique','Antique'], ans:0, level:'elementary', theme:'Arts & Culture' },
+                { type:'mc', q:'"bienveillant" = ?', opts:['Attentif et soucieux du bien d’autrui','Égoïste','Indifférent','Sévère'], ans:0, level:'intermediate', theme:'Daily Life' },
                 { type:'tf', q:'"rapide" = "très lent"', ans:false, level:'starter', theme:'Daily Life' }
             ],
             Grammar: [
-                { type:'mc', q:'✓ ?', opts:['Elle n’aime pas le café.','Elle ne aime pas le café.','Elle pas aime le café.','Elle aime pas le café.'], ans:0, level:'starter', theme:'Tenses' }
+                { type:'mc', q:'✓ ?', opts:['Elle n’aime pas le café.','Elle ne aime pas le café.','Elle pas aime le café.','Elle aime pas le café.'], ans:0, level:'starter', theme:'Tenses' },
+                { type:'mc', q:'✓ ?', opts:['Il faut que tu fasses attention.','Il faut que tu fais attention.','Il faut que tu faire attention.','Il faut tu fais attention.'], ans:0, level:'intermediate', theme:'Subjunctive' }
             ]
         },
         IT: {
             Vocabulary: [
                 { type:'mc', q:'"fratello" = ?', opts:['Il figlio dei propri genitori','Un genitore','Un cugino','Un amico'], ans:0, level:'starter', theme:'Family' },
                 { type:'mc', q:'"antico" ≠ ?', opts:['Moderno','Vecchio','Storico','Antico'], ans:0, level:'elementary', theme:'Arts & Culture' },
+                { type:'mc', q:'"accogliente" = ?', opts:['Caldo, ospitale e confortevole','Freddo','Lontano','Pericoloso'], ans:0, level:'intermediate', theme:'Daily Life' },
                 { type:'tf', q:'"veloce" = "molto lento"', ans:false, level:'starter', theme:'Daily Life' }
             ],
             Grammar: [
-                { type:'mc', q:'✓ ?', opts:['A lei non piace il caffè.','Lei non piace il caffè.','Lei no piace il caffè.','A lei non piacciono il caffè.'], ans:0, level:'starter', theme:'Tenses' }
+                { type:'mc', q:'✓ ?', opts:['A lei non piace il caffè.','Lei non piace il caffè.','Lei no piace il caffè.','A lei non piacciono il caffè.'], ans:0, level:'starter', theme:'Tenses' },
+                { type:'mc', q:'✓ ?', opts:['Penso che sia una buona idea.','Penso che è una buona idea.','Penso che sara una buona idea.','Penso che fose una buona idea.'], ans:0, level:'intermediate', theme:'Subjunctive' }
             ]
         },
         RU: {
             Vocabulary: [
                 { type:'mc', q:'"брат" = ?', opts:['Сын тех же родителей','Родитель','Двоюродный брат','Друг'], ans:0, level:'starter', theme:'Family' },
                 { type:'mc', q:'"древний" ≠ ?', opts:['Современный','Старый','Исторический','Античный'], ans:0, level:'elementary', theme:'Arts & Culture' },
+                { type:'mc', q:'"вдохновляющий" = ?', opts:['Побуждающий к творчеству или действию','Скучный','Утомительный','Непонятный'], ans:0, level:'intermediate', theme:'Daily Life' },
                 { type:'tf', q:'"быстрый" = "очень медленный"', ans:false, level:'starter', theme:'Daily Life' }
             ],
             Grammar: [
-                { type:'mc', q:'✓ ?', opts:['Она не любит кофе.','Она нет любит кофе.','Она не любить кофе.','Она кофе не любит.'], ans:0, level:'starter', theme:'Tenses' }
+                { type:'mc', q:'✓ ?', opts:['Она не любит кофе.','Она нет любит кофе.','Она не любить кофе.','Она кофе не любит.'], ans:0, level:'starter', theme:'Tenses' },
+                { type:'mc', q:'✓ ?', opts:['Если бы я знал, я бы пришел.','Если я знал, я пришел бы.','Если бы я знаю, я приду.','Если я бы знал, пришел.'], ans:0, level:'intermediate', theme:'Conditionals' }
             ]
         },
         EL: {
             Vocabulary: [
                 { type:'mc', q:'"αδελφός" = ?', opts:['Ο γιος των ίδιων γονέων','Ένας γονέας','Ένας ξάδελφος','Ένας φίλος'], ans:0, level:'starter', theme:'Family' },
                 { type:'mc', q:'"αρχαίος" ≠ ?', opts:['Σύγχρονος','Παλιός','Ιστορικός','Αντίκα'], ans:0, level:'elementary', theme:'Arts & Culture' },
+                { type:'mc', q:'"φιλόξενος" = ?', opts:['Ζεστός και φιλόφρων με τους καλεσμένους','Απρόσιτος','Επιθετικός','Αδιάφορος'], ans:0, level:'intermediate', theme:'Daily Life' },
                 { type:'tf', q:'"γρήγορος" = "πολύ αργός"', ans:false, level:'starter', theme:'Daily Life' }
             ],
             Grammar: [
-                { type:'mc', q:'✓ ?', opts:['Δεν της αρέσει ο καφές.','Δεν αρέσει ο καφές αυτής.','Δεν την αρέσει ο καφές.','Δεν της αρέσουν ο καφές.'], ans:0, level:'starter', theme:'Tenses' }
+                { type:'mc', q:'✓ ?', opts:['Δεν της αρέσει ο καφές.','Δεν αρέσει ο καφές αυτής.','Δεν την αρέσει ο καφές.','Δεν της αρέσουν ο καφές.'], ans:0, level:'starter', theme:'Tenses' },
+                { type:'mc', q:'✓ ?', opts:['Αν είχα χρόνο, θα ερχόμουν.','Αν έχω χρόνο, θα ερχόμουν.','Αν είχα χρόνο, θα έρθω.','Αν είχα χρόνο, ερχόμουν.'], ans:0, level:'intermediate', theme:'Conditionals' }
             ]
         }
     };
