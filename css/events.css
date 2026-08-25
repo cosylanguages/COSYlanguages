@@ -22,6 +22,83 @@
     --sensitive-tag-color: #B91C1C;
 }
 
+/* ── Content Warning Severity Tiers ──────────────── */
+/* Tier 1: Sensitive Topic Note (Genuinely 18+/taboo: death, suicide/euthanasia, historical atrocities, severe trauma/abuse) */
+.sensitive-topic-warning,
+.sensitive-topic-warning.tier-1 {
+    margin-bottom: 2rem;
+    padding: 1.25rem;
+    background: rgba(229, 62, 62, 0.05);
+    border-left: 4px solid #E53E3E;
+    border-radius: 12px;
+    font-size: 0.92rem;
+    line-height: 1.5;
+    color: #9B2C2C;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    box-shadow: var(--shadow-sm);
+}
+
+.sensitive-topic-warning strong,
+.sensitive-topic-warning.tier-1 strong {
+    color: #9B2C2C;
+}
+
+/* Tier 2: Discussion Note / Philosophical Inquiry Note (Sensitive-but-not-taboo: dementia, bioethics, mental-health-adjacent, corporate PR manipulation, LGBTQ+ family) */
+.discussion-topic-warning,
+.sensitive-topic-warning.tier-2 {
+    margin-bottom: 2rem;
+    padding: 1.25rem;
+    background: rgba(63, 43, 150, 0.05);
+    border-left: 4px solid #3F2B96;
+    border-radius: 12px;
+    font-size: 0.92rem;
+    line-height: 1.5;
+    color: #1F104D;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    box-shadow: var(--shadow-sm);
+}
+
+.discussion-topic-warning strong,
+.sensitive-topic-warning.tier-2 strong {
+    color: #3F2B96;
+}
+
+html[data-theme="dark"] .sensitive-topic-warning,
+html[data-theme="dark"] .sensitive-topic-warning.tier-1,
+body.theme-dark .sensitive-topic-warning,
+body.theme-dark .sensitive-topic-warning.tier-1 {
+    background: rgba(229, 62, 62, 0.12);
+    border-left-color: #F87171;
+    color: #FECACA;
+}
+
+html[data-theme="dark"] .sensitive-topic-warning strong,
+html[data-theme="dark"] .sensitive-topic-warning.tier-1 strong,
+body.theme-dark .sensitive-topic-warning strong,
+body.theme-dark .sensitive-topic-warning.tier-1 strong {
+    color: #F87171;
+}
+
+html[data-theme="dark"] .discussion-topic-warning,
+html[data-theme="dark"] .sensitive-topic-warning.tier-2,
+body.theme-dark .discussion-topic-warning,
+body.theme-dark .sensitive-topic-warning.tier-2 {
+    background: rgba(139, 92, 246, 0.12);
+    border-left-color: #A78BFA;
+    color: #DDD6FE;
+}
+
+html[data-theme="dark"] .discussion-topic-warning strong,
+html[data-theme="dark"] .sensitive-topic-warning.tier-2 strong,
+body.theme-dark .discussion-topic-warning strong,
+body.theme-dark .sensitive-topic-warning.tier-2 strong {
+    color: #C4B5FD;
+}
+
 html[data-theme="dark"], body.theme-dark {
     /* Mistake block variables */
     --mistake-bg:          #241a15;
