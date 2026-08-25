@@ -3206,13 +3206,14 @@
         'your-fingers-hold-secret-brain-evolution-upper-intermediate.html': 46
     };
 
-    /* ─── WONDER CLUB & SCIENCE CLUB MODE ROUTER ────────────────── */
+    /* ─── GENERALIZED CLUB SESSION MODE ROUTER ────────────────── */
     const setupWonderModeRouter = () => {
         const currentPathname = window.location.pathname;
         const isWonderSession = currentPathname.includes('sessions/i-couldnt-help-but-wonder/');
         const isKusSession = currentPathname.includes('sessions/keeping-up-with-science/');
+        const isClubSession = currentPathname.includes('/sessions/') && !currentPathname.endsWith('/sessions/') && !currentPathname.endsWith('/sessions/index.html');
 
-        if (!isWonderSession && !isKusSession) {
+        if (!isClubSession) {
             document.body.classList.remove("wonder-locked-body-blur");
             document.body.removeAttribute("data-active-mode");
             const gate = document.getElementById("wonder-passcode-gate");
@@ -3226,8 +3227,8 @@
             return;
         }
 
-        // Dynamically load passcodes.js for Wonder and KUS if not present
-        if ((isWonderSession || isKusSession) && !window.COSY_PASSCODES) {
+        // Dynamically load passcodes.js for any club session if not present
+        if (isClubSession && !window.COSY_PASSCODES) {
             const segments = currentPathname.replace(/^\//, '').replace(/\/$/, '').split('/').length;
             const prefix = segments <= 1 ? "./" : "../".repeat(segments - 1);
             const script = document.createElement('script');
@@ -3255,8 +3256,8 @@
 
         document.body.setAttribute('data-active-mode', mode);
 
-        // Dynamically inject Wonder modes switcher
-        if (isWonderSession) {
+        // Dynamically inject mode switcher for non-KUS sessions
+        if (isClubSession && !isKusSession) {
             const mainContainer = document.querySelector('main.content-container');
             if (mainContainer) {
                 const isFrench = currentPathname.includes('/fr/');
