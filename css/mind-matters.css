@@ -266,7 +266,6 @@ body[class*="theme-mind-"] .vocab-card,
 body[class*="theme-mind-"] .round-block,
 body[class*="theme-mind-"] .mind-profile-box,
 body[class*="theme-mind-"] .mind-session-info-box,
-body[class*="theme-mind-"] .sensitive-topic-warning,
 body[class*="theme-mind-"] .mistake-block {
   background-color: var(--mind-theme-card-bg) !important;
   border-color: var(--mind-theme-border) !important;
@@ -614,7 +613,6 @@ html[data-theme="dark"] body[class*="theme-mind-"] .vocab-card,
 html[data-theme="dark"] body[class*="theme-mind-"] .round-block,
 html[data-theme="dark"] body[class*="theme-mind-"] .mind-profile-box,
 html[data-theme="dark"] body[class*="theme-mind-"] .mind-session-info-box,
-html[data-theme="dark"] body[class*="theme-mind-"] .sensitive-topic-warning,
 html[data-theme="dark"] body[class*="theme-mind-"] .mistake-block {
   background-color: var(--mind-theme-card-bg-dark, #262222) !important;
   border-color: var(--mind-theme-border-dark, #3D3535) !important;
