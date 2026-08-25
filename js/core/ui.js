@@ -4118,6 +4118,7 @@
             // Re-trigger science audio setup now that KUS mode routing and passcodes are initialized!
             setupScienceSessionAudio();
             setupEmbeddedArticles();
+            setupAccessibilityAttributes();
         }
 
         window.COSY_WONDER_ROUTER = window.COSY_WONDER_ROUTER || {
@@ -5274,6 +5275,51 @@
         });
     };
 
+    /* ─── ACCESSIBILITY ENHANCEMENTS (WCAG 2.1.1) ───────────────── */
+    const setupAccessibilityAttributes = () => {
+        // Collapsible round headers
+        document.querySelectorAll('.round-block, .mistake-block').forEach(block => {
+            const header = block.querySelector('.round-header, .vocab-header, .mistake-header');
+            if (header) {
+                if (!header.hasAttribute('role')) header.setAttribute('role', 'button');
+                if (!header.hasAttribute('tabindex')) header.setAttribute('tabindex', '0');
+                header.setAttribute('aria-expanded', block.classList.contains('open') ? 'true' : 'false');
+            }
+        });
+
+        // Round toggles (question-block expanders)
+        document.querySelectorAll('.round-toggle').forEach(toggle => {
+            if (!toggle.hasAttribute('role')) toggle.setAttribute('role', 'button');
+            if (!toggle.hasAttribute('tabindex')) toggle.setAttribute('tabindex', '0');
+            if (!toggle.dataset.kbdBound) {
+                toggle.dataset.kbdBound = 'true';
+                toggle.addEventListener('keydown', (e) => {
+                    if (e.key === ' ' || e.key === 'Enter') {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        toggle.click();
+                    }
+                });
+            }
+        });
+
+        // Grammar tap chips (grammar selector chips)
+        document.querySelectorAll('.grammar-tap-chip').forEach(chip => {
+            if (!chip.hasAttribute('role')) chip.setAttribute('role', 'button');
+            if (!chip.hasAttribute('tabindex')) chip.setAttribute('tabindex', '0');
+            if (!chip.dataset.kbdBound) {
+                chip.dataset.kbdBound = 'true';
+                chip.addEventListener('keydown', (e) => {
+                    if (e.key === ' ' || e.key === 'Enter') {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        chip.click();
+                    }
+                });
+            }
+        });
+    };
+
     /* ─── INITIALIZATION ────────────────────────────────────────── */
     const init = () => {
         if (window.COSY) {
@@ -5337,15 +5383,7 @@
             }
         });
 
-        // Initialize ARIA accessibility attributes on collapsible round headers
-        document.querySelectorAll('.round-block, .mistake-block').forEach(block => {
-            const header = block.querySelector('.round-header, .vocab-header, .mistake-header');
-            if (header) {
-                header.setAttribute('role', 'button');
-                header.setAttribute('tabindex', '0');
-                header.setAttribute('aria-expanded', block.classList.contains('open') ? 'true' : 'false');
-            }
-        });
+        setupAccessibilityAttributes();
 
         // Mobile Nav Injection
         if (!document.querySelector('.mobile-nav')) {
