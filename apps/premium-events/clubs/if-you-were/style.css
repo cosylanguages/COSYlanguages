@@ -32,3 +32,46 @@
   color: var(--ink-soft);
   line-height: 1.5;
 }
+
+/* ─── CLASS-BASED BACKGROUND GRADIENTS FOR SESSION HEROS ─── */
+body.theme-ifyouwere-blind .session-hero {
+  background: linear-gradient(135deg, #312E81, #1E1B4B) !important;
+  border-bottom: 2px solid #4F46E5;
+}
+
+body.theme-ifyouwere-deaf .session-hero {
+  background: linear-gradient(135deg, #0F766E, #134E4A) !important;
+  border-bottom: 2px solid #0D9488;
+}
+
+body.theme-ifyouwere-child-again .session-hero {
+  background: linear-gradient(135deg, #C2410C, #7C2D12) !important;
+  border-bottom: 2px solid #EA580C;
+}
+
+body.theme-ifyouwere-parent-to-yourself .session-hero {
+  background: linear-gradient(135deg, #047857, #064E3B) !important;
+  border-bottom: 2px solid #10B981;
+}
+
+body.theme-ifyouwere-teacher .session-hero {
+  background: linear-gradient(135deg, #831843, #500724) !important;
+  border-bottom: 2px solid #BE185D;
+}
+
+/* ─── THEME WATERMARKS ─── */
+body[class*="theme-ifyouwere-"]::after {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 5rem;
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 0;
+}
+
+body.theme-ifyouwere-blind::after { content: "🕶️"; }
+body.theme-ifyouwere-deaf::after { content: "🔇"; }
+body.theme-ifyouwere-child-again::after { content: "👶"; }
+body.theme-ifyouwere-parent-to-yourself::after { content: "🧬"; }
+body.theme-ifyouwere-teacher::after { content: "🏫"; }
