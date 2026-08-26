@@ -299,7 +299,7 @@ const Linguistics = {
         const config = GRAMMAR_CONFIG[lang]?.pronoun_system;
 
         // Basic elision
-        if (config?.categories?.reflexive?.elisions && /^[aeiouh]/i.test(verb)) {
+        if (config?.categories?.reflexive?.elisions && /^[aeiouh]/i.test(verb.normalize("NFD"))) {
              const elision = config.categories.reflexive.elisions[clitic];
              if (elision) return elision + verb;
         }
@@ -327,17 +327,25 @@ const Linguistics = {
         }
 
         // 2. Check for Irregular Overrides
-        if (verbObj.classification === 'irregular' && verbObj.tenses && verbObj.tenses[tense]) {
-            let positive = verbObj.tenses[tense].positive || [];
-            if (verbObj.reflexive) {
+        let currentVerbObj = verbObj;
+        if (verbObj.classification === 'irregular' && (!verbObj.tenses || !verbObj.tenses[tense])) {
+            const fallbackVerb = this.findVerb(lang, verbObj.word);
+            if (fallbackVerb && fallbackVerb.tenses && fallbackVerb.tenses[tense]) {
+                currentVerbObj = fallbackVerb;
+            }
+        }
+
+        if (currentVerbObj.classification === 'irregular' && currentVerbObj.tenses && currentVerbObj.tenses[tense]) {
+            let positive = currentVerbObj.tenses[tense].positive || [];
+            if (currentVerbObj.reflexive) {
                 positive = positive.map((v, i) => this.applyReflexive(lang, v, i));
             }
             // Handle separable irregulars (if any)
-            positive = positive.map(v => this.handleSeparable(lang, v, verbObj, tense, false));
+            positive = positive.map(v => this.handleSeparable(lang, v, currentVerbObj, tense, false));
 
             return {
                 positive: positive,
-                negative: verbObj.tenses[tense].negative || this.generateNegations(lang, positive, verbObj, false, tense)
+                negative: currentVerbObj.tenses[tense].negative || this.generateNegations(lang, positive, currentVerbObj, false, tense)
             };
         }
 
@@ -531,7 +539,7 @@ const Linguistics = {
         let art = map[key] || "";
 
         // French elision
-        if (lang === 'fr' && numberForm === 'singular' && /^[aeiouh]/i.test(nounObj.word) && map.elided) {
+        if (lang === 'fr' && numberForm === 'singular' && /^[aeiouh]/i.test(nounObj.word.normalize("NFD")) && map.elided) {
             return map.elided;
         }
 
@@ -873,8 +881,8 @@ const Linguistics = {
 
         const fallbacks = {
             fr: {
-                'avoir': { word: 'avoir', group: 'ir', classification: 'irregular', tenses: { present_simple: { positive: ['ai', 'as', 'a', 'avons', 'avez', 'ont'] }, imperfect: { positive: ['avais', 'avais', 'avait', 'avions', 'aviez', 'avaient'] }, future_simple: { positive: ['aurai', 'auras', 'aura', 'aurons', 'aurez', 'auront'] } } },
-                'être': { word: 'être', group: 're', classification: 'irregular', tenses: { present_simple: { positive: ['suis', 'es', 'est', 'sommes', 'êtes', 'sont'] }, imperfect: { positive: ['étais', 'étais', 'était', 'étions', 'étiez', 'étaient'] }, future_simple: { positive: ['serai', 'seras', 'sera', 'serons', 'serez', 'seront'] } } }
+                'avoir': { word: 'avoir', group: 'ir', classification: 'irregular', tenses: { present_simple: { positive: ['ai', 'as', 'a', 'avons', 'avez', 'ont'] }, imperfect: { positive: ['avais', 'avais', 'avait', 'avions', 'aviez', 'avaient'] }, future_simple: { positive: ['aurai', 'auras', 'aura', 'aurons', 'aurez', 'auront'] }, conditional_present: { positive: ['aurais', 'aurais', 'aurait', 'aurions', 'auriez', 'auraient'] }, subjunctive_present: { positive: ['aie', 'aies', 'ait', 'ayons', 'ayez', 'aient'] } } },
+                'être': { word: 'être', group: 're', classification: 'irregular', tenses: { present_simple: { positive: ['suis', 'es', 'est', 'sommes', 'êtes', 'sont'] }, imperfect: { positive: ['étais', 'étais', 'était', 'étions', 'étiez', 'étaient'] }, future_simple: { positive: ['serai', 'seras', 'sera', 'serons', 'serez', 'seront'] }, conditional_present: { positive: ['serais', 'serais', 'serait', 'serions', 'seriez', 'seraient'] }, subjunctive_present: { positive: ['sois', 'sois', 'soit', 'soyons', 'soyez', 'soient'] } } }
             },
             it: {
                 'avere': { word: 'avere', group: 'ere', classification: 'irregular', tenses: { present_simple: { positive: ['ho', 'hai', 'ha', 'abbiamo', 'avete', 'hanno'] }, imperfect: { positive: ['avevo', 'avevi', 'aveva', 'avevamo', 'avevate', 'avevano'] } } },
@@ -1093,7 +1101,7 @@ const Linguistics = {
         let ref = Array.isArray(refPronouns) ? refPronouns[index] : (refPronouns || "");
 
         // Handle elision (e.g., French me -> m' before vowel)
-        if (refCfg.elisions && /^[aeiouh]/i.test(word) && refCfg.elisions[ref]) {
+        if (refCfg.elisions && /^[aeiouh]/i.test(word.normalize("NFD")) && refCfg.elisions[ref]) {
             return refCfg.elisions[ref] + word;
         }
 
@@ -1127,7 +1135,7 @@ const Linguistics = {
             if (config.elisions) {
                 for (const [plain, elided] of Object.entries(config.elisions)) {
                     const search = plain + " ";
-                    if (neg.includes(search) && /^[aeiouh]/i.test(v)) {
+                    if (neg.includes(search) && /^[aeiouh]/i.test(v.normalize("NFD"))) {
                          neg = neg.replace(search, elided);
                     }
                 }
