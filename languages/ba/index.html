@@ -42,7 +42,6 @@ if ('serviceWorker' in navigator) {
       <span class="current">Башҡортса</span>
     </div>
     <nav class="sd-jump-links" aria-label="Page jump links">
-      <a href="#manuals-apps" class="sd-jump-link">Белешмәлектәр & Apps</a>
       <a href="#daily-dose" class="sd-jump-link">Daily Dose</a>
       <a href="#resources" class="sd-jump-link">Resources</a>
       <a href="#media-culture" class="sd-jump-link">Media & Culture</a>
@@ -92,44 +91,12 @@ if ('serviceWorker' in navigator) {
 </section>
 
 <!-- Daily dose -->
-<!-- Interactive Manuals & Apps -->
-<section id="manuals-apps">
-  <div class="sec-head reveal">
-    <span class="sec-tag">📖 Интерактив уҡыу</span>
-    <h2>Интерактив белешмәлектәр һәм ресурстар</h2>
-    <p>Беҙҙең бер телле веб-белешмәлектәр, дәрәжә хабтары һәм күнегеү коралдары.</p>
-  </div>
-  <div class="resources-grid">
-    <a href="../../bashqort-tele-grammatikahy/index.html" class="resource-card reveal">
-      <div class="rc-icon">📘</div>
-      <div class="rc-name">Башҡорт теле грамматикаһы (A0–A1)</div>
-      <div class="rc-desc">Интерактив грамматика ҡулланмаһы A0–A1, килештәр һәм күнегеүҙәр.</div>
-      <div class="rc-link">Грамматиканы асыу →</div>
-    </a>
-    <a href="../../bashqort-tele-leksikahy/index.html" class="resource-card reveal">
-      <div class="rc-icon">📚</div>
-      <div class="rc-name">Башҡорт теле лексикаһы (A0–A1)</div>
-      <div class="rc-desc">Тематик һүҙлек карточкалары, эҙләү һәм белемде тикшереү.</div>
-      <div class="rc-link">Лексиканы асыу →</div>
-    </a>
-    <a href="../../manuals/bashqort-a0-a1.html" class="resource-card reveal">
-      <div class="rc-icon">🌐</div>
-      <div class="rc-name">COSYбашҡорт A0–A1 Hub</div>
-      <div class="rc-desc">Башҡорт теле грамматикаһы һәм лексикаһы буйынса төп белешмәлек.</div>
-      <div class="rc-link">Hub A0–A1 асыу →</div>
-    </a>
-  </div>
-</section>
-
 <section id="daily-dose">
   <div class="sec-head reveal">
     <span class="sec-tag" data-translate-key="daily_dose_tag">💊 Һеҙҙең көндәлек дозағыҙ</span>
     <h2 data-translate-key="daily_dose_title">Көн һүҙе һәм ҡыҙыҡлы факт</h2>
   </div>
   <div class="daily-grid">
-    <div class="daily-card reveal" data-bg="📖">
-      <h3 data-translate-key="word_of_the_day">Көн һүҙе 📖</h3>
-      <div class="daily-content" id="word-of-the-day" data-translate-key="word_of_the_day_placeholder">Йөкләнә...</div>
     </div>
     <div class="daily-card reveal" data-bg="🤣">
       <h3 data-translate-key="fun_fact_title">Көн факты 🤣</h3>
@@ -277,6 +244,7 @@ if ('serviceWorker' in navigator) {
 
 <script src="../../js/core/i18n.js"></script>
 <script src="../../js/data/languages.js"></script>
+<script src="../../js/data/daily_dose.js"></script>
 <script src="../../js/core/ui.js"></script>
 </body>
 </html>

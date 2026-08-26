@@ -42,7 +42,6 @@ if ('serviceWorker' in navigator) {
       <span class="current">ქართული</span>
     </div>
     <nav class="sd-jump-links" aria-label="Page jump links">
-      <a href="#manuals-apps" class="sd-jump-link">სახელმძღვანელოები & Apps</a>
       <a href="#daily-dose" class="sd-jump-link">Daily Dose</a>
       <a href="#resources" class="sd-jump-link">Resources</a>
       <a href="#media-culture" class="sd-jump-link">Media & Culture</a>
@@ -90,44 +89,12 @@ if ('serviceWorker' in navigator) {
 </section>
 
 <!-- Daily dose -->
-<!-- Interactive Manuals & Apps -->
-<section id="manuals-apps">
-  <div class="sec-head reveal">
-    <span class="sec-tag">📖 ინტერაქტიული სწავლება</span>
-    <h2>ინტერაქტიული სახელმძღვანელოები</h2>
-    <p>აღმოაჩინეთ ჩვენი ერთენოვანი ვებ-სახელმძღვანელოები, დონის ჰაბები და რესურსები.</p>
-  </div>
-  <div class="resources-grid">
-    <a href="../../qartuli-gramatika/index.html" class="resource-card reveal">
-      <div class="rc-icon">📘</div>
-      <div class="rc-name">ქართული გრამატიკა (A0–A1)</div>
-      <div class="rc-desc">ინტერაქტიული გრამატიკის სახელმძღვანელო A0–A1, ბრუნვები და ქვიზები.</div>
-      <div class="rc-link">გრამატიკის გახსნა →</div>
-    </a>
-    <a href="../../qartuli-leqsika/index.html" class="resource-card reveal">
-      <div class="rc-icon">📚</div>
-      <div class="rc-name">ქართული ლექსიკა (A0–A1)</div>
-      <div class="rc-desc">თემატური ლექსიკური ბარათები, ძიება და ცოდნის შემოწმება.</div>
-      <div class="rc-link">ლექსიკის გახსნა →</div>
-    </a>
-    <a href="../../manuals/qartuli-a0-a1.html" class="resource-card reveal">
-      <div class="rc-icon">🌐</div>
-      <div class="rc-name">COSYქართული A0–A1 Hub</div>
-      <div class="rc-desc">ქართული ენის გრამატიკისა და ლექსიკის მთავარი სახელმძღვანელო.</div>
-      <div class="rc-link">Hub A0–A1 გახსნა →</div>
-    </a>
-  </div>
-</section>
-
 <section id="daily-dose">
   <div class="sec-head reveal">
     <span class="sec-tag" data-translate-key="daily_dose_tag">💊 Შენი დღიური დოზა</span>
     <h2 data-translate-key="daily_dose_title">დღის სიტყვა და ფაქტი</h2>
   </div>
   <div class="daily-grid">
-    <div class="daily-card reveal" data-bg="📖">
-      <h3 data-translate-key="word_of_the_day">დღის სიტყვა 📖</h3>
-      <div class="daily-content" id="word-of-the-day" data-translate-key="word_of_the_day_placeholder">იტვირთება...</div>
     </div>
     <div class="daily-card reveal" data-bg="🤣">
       <h3 data-translate-key="fun_fact_title">დღის ფაქტი 🤣</h3>
@@ -292,6 +259,7 @@ if ('serviceWorker' in navigator) {
 
 <script src="../../js/core/i18n.js"></script>
 <script src="../../js/data/languages.js"></script>
+<script src="../../js/data/daily_dose.js"></script>
 <script src="../../js/core/ui.js"></script>
 </body>
 </html>

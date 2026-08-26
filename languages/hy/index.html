@@ -42,7 +42,6 @@ if ('serviceWorker' in navigator) {
       <span class="current">Հայերեն</span>
     </div>
     <nav class="sd-jump-links" aria-label="Page jump links">
-      <a href="#manuals-apps" class="sd-jump-link">Ձեռնարկներ & Apps</a>
       <a href="#daily-dose" class="sd-jump-link">Daily Dose</a>
       <a href="#resources" class="sd-jump-link">Resources</a>
       <a href="#media-culture" class="sd-jump-link">Media & Culture</a>
@@ -90,44 +89,12 @@ if ('serviceWorker' in navigator) {
 </section>
 
 <!-- Daily dose -->
-<!-- Interactive Manuals & Apps -->
-<section id="manuals-apps">
-  <div class="sec-head reveal">
-    <span class="sec-tag">📖 Ինտերակտիվ Ուսուցում</span>
-    <h2>Ինտերակտիվ Ձեռնարկներ և Ռեսուրսներ</h2>
-    <p>Ուսումնասիրեք մեր միալեզու վեբ ձեռնարկները, մակարդակների հաբերը և վարժությունները:</p>
-  </div>
-  <div class="resources-grid">
-    <a href="../../hayots-lezvi-kerakanutyun/index.html" class="resource-card reveal">
-      <div class="rc-icon">📘</div>
-      <div class="rc-name">Հայոց լեզվի քերականություն (A0–A1)</div>
-      <div class="rc-desc">Ինտերակտիվ քերականության ձեռնարկ A0–A1, հոլովումներ և վարժություններ:</div>
-      <div class="rc-link">Բացել Քերականությունը →</div>
-    </a>
-    <a href="../../hayots-lezvi-barapashar/index.html" class="resource-card reveal">
-      <div class="rc-icon">📚</div>
-      <div class="rc-name">Հայոց լեզվի բառապաշար (A0–A1)</div>
-      <div class="rc-desc">Թեմատիկ բառապաշարի քարտեր, որոնում և ստուգողական թեստեր:</div>
-      <div class="rc-link">Բացել Բառապաշարը →</div>
-    </a>
-    <a href="../../manuals/hayots-a0-a1.html" class="resource-card reveal">
-      <div class="rc-icon">🌐</div>
-      <div class="rc-name">COSYհայերեն A0–A1 Hub</div>
-      <div class="rc-desc">Մայր հանգույց հայոց լեզվի քերականության և բառապաշարի համար:</div>
-      <div class="rc-link">Բացել Hub A0–A1 →</div>
-    </a>
-  </div>
-</section>
-
 <section id="daily-dose">
   <div class="sec-head reveal">
     <span class="sec-tag" data-translate-key="daily_dose_tag">💊 Ձեր օրվա չափաբաժինը</span>
     <h2 data-translate-key="daily_dose_title">Օրվա բառը և հետաքրքիր փաստ</h2>
   </div>
   <div class="daily-grid">
-    <div class="daily-card reveal" data-bg="📖">
-      <h3 data-translate-key="word_of_the_day">Օրվա բառը 📖</h3>
-      <div class="daily-content" id="word-of-the-day" data-translate-key="word_of_the_day_placeholder">Բեռնվում է...</div>
     </div>
     <div class="daily-card reveal" data-bg="🤣">
       <h3 data-translate-key="fun_fact_title">Օրվա փաստը 🤣</h3>
@@ -292,6 +259,7 @@ if ('serviceWorker' in navigator) {
 
 <script src="../../js/core/i18n.js"></script>
 <script src="../../js/data/languages.js"></script>
+<script src="../../js/data/daily_dose.js"></script>
 <script src="../../js/core/ui.js"></script>
 </body>
 </html>

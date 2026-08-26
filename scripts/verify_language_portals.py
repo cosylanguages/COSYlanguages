@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """
 scripts/verify_language_portals.py
-Verifies all 13 language portals and their redirect files.
-Checks file existence, link resolutions, anchors, and standard structure.
+Verifies all 13 language portals, redirect files, and daily dose datasets.
 """
 
 import os
@@ -47,8 +46,6 @@ def verify_portal_pages():
         # Check required sections
         if 'class="sd-sticky-header"' not in content:
             errors.append(f"{path} missing sticky top header (.sd-sticky-header)")
-        if 'id="manuals-apps"' not in content:
-            errors.append(f"{path} missing manuals & apps section (#manuals-apps)")
         if 'id="daily-dose"' not in content:
             errors.append(f"{path} missing daily dose section (#daily-dose)")
         if 'id="resources"' not in content:
@@ -57,23 +54,27 @@ def verify_portal_pages():
             errors.append(f"{path} missing media & culture section (#media-culture)")
         if 'id="daily-life"' not in content:
             errors.append(f"{path} missing daily life section (#daily-life)")
+        if 'daily_dose.js' not in content:
+            errors.append(f"{path} missing daily_dose.js script tag")
         if '© 2026 COSYlanguages' not in content:
             errors.append(f"{path} missing standard COSY footer")
 
-        # Extract relative links (href and src) that are local (do not start with http, mailto, tel, #, javascript, etc.)
+        # Ensure paid manuals are NOT publicly linked in portal pages
+        if 'manuals/' in content:
+            errors.append(f"{path} contains public link to paid manuals/ directory")
+
+        # Extract relative links
         links = re.findall(r'(?:href|src)=["\']([^"\']+)["\']', content)
         dir_path = os.path.dirname(path)
 
         for link in links:
             if link.startswith(('http://', 'https://', 'mailto:', 'tel:', 'javascript:', 'data:', '#', 'https://wa.me', 'https://t.me')):
                 continue
-            # Handle query params or anchors
             clean_link = link.split('?')[0].split('#')[0]
             if not clean_link:
                 continue
 
             resolved_target = os.path.normpath(os.path.join(dir_path, clean_link))
-            # If target ends with /, look for index.html inside it
             if os.path.isdir(resolved_target):
                 resolved_target = os.path.join(resolved_target, 'index.html')
 
@@ -85,7 +86,7 @@ def verify_portal_pages():
             print(f"❌ {err}")
         return False
 
-    print("✅ All 13 language portals verified with 100% valid relative links and structure.\n")
+    print("✅ All 13 language portals verified with 100% valid relative links and clean structure.\n")
     return True
 
 def main():
