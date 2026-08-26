@@ -2,6 +2,48 @@
 (function(){
  "use strict";
 
+ /* ---------- Text-To-Speech (TTS) for Example Sentences ---------- */
+ function initTTS(){
+   if(!('speechSynthesis' in window)) return;
+
+   document.querySelectorAll('.examples li, .gblock .v').forEach(function(el){
+     if(el.querySelector('.tts-btn')) return;
+     var text = el.textContent.trim();
+     var btn = document.createElement('button');
+     btn.className = 'tts-btn';
+     btn.style.marginLeft = '8px';
+     btn.setAttribute('aria-label', 'Listen to ' + text);
+     btn.innerHTML = '🔊';
+     btn.addEventListener('click', function(e){
+       e.stopPropagation();
+       var utterance = new SpeechSynthesisUtterance(text);
+       utterance.lang = 'en-GB';
+       utterance.rate = 0.9;
+       window.speechSynthesis.cancel();
+       window.speechSynthesis.speak(utterance);
+     });
+     el.appendChild(btn);
+   });
+ }
+
+ /* ---------- Real-Time Search Filter on Manual Landing Page ---------- */
+ function initSearchFilter(){
+   var searchInput = document.querySelector('.search-input');
+   if(!searchInput) return;
+
+   searchInput.addEventListener('input', function(){
+     var q = searchInput.value.toLowerCase().trim();
+     document.querySelectorAll('.part-card, .topic-card').forEach(function(card){
+       var text = card.textContent.toLowerCase();
+       if(!q || text.includes(q)){
+         card.style.display = '';
+       } else {
+         card.style.display = 'none';
+       }
+     });
+   });
+ }
+
  /* ---------- Checklist ("Can you already use this?") with persistence ---------- */
  function initChecklists(){
  document.querySelectorAll('.checklist[data-key]').forEach(function(box){
@@ -37,16 +79,14 @@
  });
  card.setAttribute('tabindex','0');
  card.setAttribute('role','button');
+ card.setAttribute('aria-expanded', 'false');
  card.addEventListener('keydown', function(e){
- if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); card.classList.toggle('flipped'); }
- });
- });
+ if(e.key === 'Enter' || e.key === ' '){
+   e.preventDefault();
+   card.classList.toggle('flipped');
+   card.setAttribute('aria-expanded', card.classList.contains('flipped') ? 'true' : 'false');
  }
-
- /* ---------- Flashcards ---------- */
- function initFlashcards(){
- document.querySelectorAll('.flashcard').forEach(function(card){
- card.addEventListener('click', function(){ card.classList.toggle('flipped'); });
+ });
  });
  }
 
@@ -85,72 +125,17 @@
  var resetBtn = panel.querySelector('.quiz-reset');
  if(resetBtn){
  resetBtn.addEventListener('click', function(){
- score = 0; answered = 0;
- panel.querySelectorAll('.qopt').forEach(function(o){ o.disabled=false; o.classList.remove('correct','incorrect'); });
- panel.querySelectorAll('.qexplain').forEach(function(e){ e.classList.remove('show'); });
- panel.querySelectorAll('.qitem').forEach(function(qEl){ /* relock handled by closures via disabled flags already reset */ });
- // rebuild lock state by re-cloning listeners is unnecessary: disabled reset lets user click again,
- // but our qLocked closure var stays true. Simplest robust fix: reload the quiz block.
  location.reload();
  });
  }
  });
  }
 
- /* ---------- Mode toggle: quiz <-> flashcards ---------- */
- function initModeToggles(){
- document.querySelectorAll('.mode-toggle').forEach(function(toggle){
- var buttons = toggle.querySelectorAll('button');
- buttons.forEach(function(btn){
- btn.addEventListener('click', function(){
- buttons.forEach(function(b){ b.classList.remove('active'); });
- btn.classList.add('active');
- var target = btn.getAttribute('data-target');
- var wrap = toggle.parentElement;
- wrap.querySelectorAll('.mode-panel').forEach(function(p){
- p.style.display = (p.getAttribute('data-panel') === target) ? '' : 'none';
- });
- });
- });
- });
- }
-
- /* ---------- Homepage sentence builder (signature interaction) ---------- */
- function initSentenceBuilder(){
- var builder = document.getElementById('sentence-builder');
- if(!builder) return;
- var slots = builder.querySelectorAll('.slot');
- var out = builder.querySelector('.sentence-out');
- var state = {subject:null, verb:null, object:null};
- var sentences = {
- 'She|reads|books':'She reads books.',
- 'They|play|football':'They play football.',
- 'We|like|pizza':'We like pizza.',
- 'He|drives|a car':'He drives a car.',
- 'I|love|music':'I love music.'
- };
- builder.querySelectorAll('.pool button').forEach(function(btn){
- btn.addEventListener('click', function(){
- var role = btn.getAttribute('data-role');
- var word = btn.getAttribute('data-word');
- state[role] = word;
- var slot = builder.querySelector('.slot[data-role="'+role+'"]');
- slot.textContent = word;
- slot.classList.add('filled');
- if(state.subject && state.verb && state.object){
- var key = state.subject+'|'+state.verb+'|'+state.object;
- out.textContent = sentences[key] || (state.subject+' '+state.verb+' '+state.object+'.');
- }
- });
- });
- }
-
  document.addEventListener('DOMContentLoaded', function(){
+ initTTS();
+ initSearchFilter();
  initChecklists();
  initMistakeFlip();
- initFlashcards();
  initQuizzes();
- initModeToggles();
- initSentenceBuilder();
  });
 })();

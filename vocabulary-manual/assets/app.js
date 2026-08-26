@@ -2,6 +2,50 @@
 (function(){
   "use strict";
 
+  /* ---------- Text-To-Speech (TTS) for Vocabulary Words & Examples ---------- */
+  function initTTS(){
+    if(!('speechSynthesis' in window)) return;
+
+    // Attach TTS audio buttons to vocabulary words
+    document.querySelectorAll('.vocab-word').forEach(function(el){
+      if(el.querySelector('.tts-btn')) return;
+      var text = el.textContent.trim().split('\n')[0];
+      var btn = document.createElement('button');
+      btn.className = 'tts-btn';
+      btn.setAttribute('aria-label', 'Listen to pronunciation of ' + text);
+      btn.innerHTML = '🔊 Listen';
+      btn.addEventListener('click', function(e){
+        e.stopPropagation();
+        var utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = 'en-GB';
+        utterance.rate = 0.9;
+        window.speechSynthesis.cancel();
+        window.speechSynthesis.speak(utterance);
+      });
+      el.appendChild(btn);
+    });
+  }
+
+  /* ---------- Real-Time Search Filter on Manual Pages ---------- */
+  function initSearchFilter(){
+    var searchInput = document.querySelector('.search-input');
+    if(!searchInput) return;
+
+    searchInput.addEventListener('input', function(){
+      var q = searchInput.value.toLowerCase().trim();
+
+      // Filter part cards or topic cards
+      document.querySelectorAll('.part-card, .topic-card').forEach(function(card){
+        var text = card.textContent.toLowerCase();
+        if(!q || text.includes(q)){
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  }
+
   /* ---------- Checklist ("Can you already use this?") with persistence ---------- */
   function initChecklists(){
     document.querySelectorAll('.checklist[data-key]').forEach(function(box){
@@ -37,8 +81,13 @@
       });
       card.setAttribute('tabindex','0');
       card.setAttribute('role','button');
+      card.setAttribute('aria-expanded', 'false');
       card.addEventListener('keydown', function(e){
-        if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); card.classList.toggle('flipped'); }
+        if(e.key === 'Enter' || e.key === ' '){
+          e.preventDefault();
+          card.classList.toggle('flipped');
+          card.setAttribute('aria-expanded', card.classList.contains('flipped') ? 'true' : 'false');
+        }
       });
     });
   }
@@ -85,6 +134,8 @@
   }
 
   document.addEventListener('DOMContentLoaded', function(){
+    initTTS();
+    initSearchFilter();
     initChecklists();
     initMistakeFlip();
     initQuizzes();
