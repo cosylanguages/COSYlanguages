@@ -49,6 +49,51 @@
         "grammar/en-possessives.html"
       ],
       "definition": "TBD"
+    },
+    {
+      "id": "demonstratives",
+      "label": "Demonstratives (This, That, These, Those)",
+      "items": [
+        {
+          "id": "demonstratives",
+          "label": "Demonstratives (This, That, These, Those)",
+          "level": "A1",
+          "definition": "Demonstratives · talking about distance",
+          "practice_links": [
+            "grammar/topics/demonstratives.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "some_vs_any",
+      "label": "Some vs Any",
+      "items": [
+        {
+          "id": "some_vs_any",
+          "label": "Some vs Any",
+          "level": "A1",
+          "definition": "Choosing the right word by sentence type",
+          "practice_links": [
+            "grammar/topics/some-vs-any.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "all_both_none",
+      "label": "All, Both, Either, Neither, None",
+      "items": [
+        {
+          "id": "all_both_none",
+          "label": "All, Both, Either, Neither, None",
+          "level": "A2",
+          "definition": "Talking about a whole group, or exactly two things",
+          "practice_links": [
+            "grammar/topics/all-both-none.html"
+          ]
+        }
+      ]
     }
   ]
 }

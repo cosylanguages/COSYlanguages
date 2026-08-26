@@ -97,6 +97,12 @@
 
                 const wordToSpeak = (q.item.word || q.item.text || q.ans || '').replace(/'/g, "\\'");
                 html += `<button class="btn-outline pe-card-speak-btn" onclick="window.cosyPracticeEngine.speakText('${wordToSpeak}', '${lang}')">🔊 Listen <span class="keycap-badge">S</span></button>`;
+
+                const links = q.practice_links || q.item?.practice_links;
+                if (links && links.length > 0) {
+                    html += `<div style="margin-top:10px;"><a href="../../${links[0]}" target="_blank" class="btn-outline" style="text-decoration:none; display:inline-block; padding: 6px 12px; font-size: 0.85rem;">📖 Open Lesson Manual 🚀</a></div>`;
+                }
+
                 html += `</div>`;
             }
 

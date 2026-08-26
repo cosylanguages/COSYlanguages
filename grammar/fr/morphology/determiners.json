@@ -56,6 +56,36 @@
         "grammaire-francaise/topics/articles-partitifs.html"
       ],
       "definition": "Du, de la, des — une quantité non précisée"
+    },
+    {
+      "id": "ce_cet_cette_ces",
+      "label": "Les adjectifs démonstratifs (Ce, cet, cette, ces)",
+      "items": [
+        {
+          "id": "ce_cet_cette_ces",
+          "label": "Les adjectifs démonstratifs (Ce, cet, cette, ces)",
+          "level": "A1",
+          "definition": "Désigner une chose ou une personne",
+          "practice_links": [
+            "grammaire-francaise/topics/ce-cet-cette-ces.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beaucoup_un_peu_quelques",
+      "label": "Beaucoup de, un peu de, quelques",
+      "items": [
+        {
+          "id": "beaucoup_un_peu_quelques",
+          "label": "Beaucoup de, un peu de, quelques",
+          "level": "A1",
+          "definition": "Exprimer une quantité précise",
+          "practice_links": [
+            "grammaire-francaise/topics/beaucoup-un-peu-quelques.html"
+          ]
+        }
+      ]
     }
   ]
 }

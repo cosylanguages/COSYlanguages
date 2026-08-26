@@ -2,5 +2,36 @@
   "language": "en",
   "category": "numerals",
   "level": "A1-C2",
-  "groups": []
+  "groups": [
+    {
+      "id": "numbers_dates",
+      "label": "Numbers, Days & Months",
+      "items": [
+        {
+          "id": "numbers_dates",
+          "label": "Numbers, Days & Months",
+          "level": "A0-A1",
+          "definition": "Counting & talking about dates",
+          "practice_links": [
+            "grammar/topics/numbers-dates.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "telling_time",
+      "label": "Telling the Time",
+      "items": [
+        {
+          "id": "telling_time",
+          "label": "Telling the Time",
+          "level": "A1",
+          "definition": "Clocks, hours & seasons",
+          "practice_links": [
+            "grammar/topics/telling-time.html"
+          ]
+        }
+      ]
+    }
+  ]
 }
