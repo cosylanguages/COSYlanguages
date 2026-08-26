@@ -27,6 +27,66 @@
       "practice_links": [
         "grammar/en-plurals.html"
       ]
+    },
+    {
+      "id": "plurals_regular",
+      "label": "Plural Nouns — Regular Forms",
+      "items": [
+        {
+          "id": "plurals_regular",
+          "label": "Plural Nouns — Regular Forms",
+          "level": "A1",
+          "definition": "Spelling rules for adding -s / -es",
+          "practice_links": [
+            "grammar/topics/plurals-regular.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plurals_irregular",
+      "label": "Plural Nouns — Irregular Forms",
+      "items": [
+        {
+          "id": "plurals_irregular",
+          "label": "Plural Nouns — Irregular Forms",
+          "level": "A1",
+          "definition": "Words that don't just add -s",
+          "practice_links": [
+            "grammar/topics/plurals-irregular.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "countable_uncountable",
+      "label": "Countable & Uncountable Nouns",
+      "items": [
+        {
+          "id": "countable_uncountable",
+          "label": "Countable & Uncountable Nouns",
+          "level": "A1",
+          "definition": "Things you can count and things you can't",
+          "practice_links": [
+            "grammar/topics/countable-uncountable.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "possessive_s",
+      "label": "Possessive ’s",
+      "items": [
+        {
+          "id": "possessive_s",
+          "label": "Possessive ’s",
+          "level": "A1",
+          "definition": "Showing who owns what",
+          "practice_links": [
+            "grammar/topics/possessive-s.html"
+          ]
+        }
+      ]
     }
   ]
 }

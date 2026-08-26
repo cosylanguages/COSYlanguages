@@ -2,5 +2,36 @@
   "language": "fr",
   "category": "numerals",
   "level": "A1-C2",
-  "groups": []
+  "groups": [
+    {
+      "id": "nombres_jours_mois",
+      "label": "Les nombres, jours et mois",
+      "items": [
+        {
+          "id": "nombres_jours_mois",
+          "label": "Les nombres, jours et mois",
+          "level": "A0-A1",
+          "definition": "Compter et se repérer dans le temps",
+          "practice_links": [
+            "grammaire-francaise/topics/nombres-jours-mois.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "heure",
+      "label": "L'heure",
+      "items": [
+        {
+          "id": "heure",
+          "label": "L'heure",
+          "level": "A1",
+          "definition": "Demander et dire l'heure",
+          "practice_links": [
+            "grammaire-francaise/topics/heure.html"
+          ]
+        }
+      ]
+    }
+  ]
 }

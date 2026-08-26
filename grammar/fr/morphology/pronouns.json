@@ -30,6 +30,66 @@
         "grammaire-francaise/topics/les-pronoms.html"
       ],
       "definition": "Sujet, tonique — et le fameux « on »"
+    },
+    {
+      "id": "adjectifs_possessifs",
+      "label": "Les adjectifs possessifs",
+      "items": [
+        {
+          "id": "adjectifs_possessifs",
+          "label": "Les adjectifs possessifs",
+          "level": "A1",
+          "definition": "Mon, ma, mes... — accord avec l’objet possédé",
+          "practice_links": [
+            "grammaire-francaise/topics/adjectifs-possessifs.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pronoms_cod",
+      "label": "Les pronoms compléments directs (COD)",
+      "items": [
+        {
+          "id": "pronoms_cod",
+          "label": "Les pronoms compléments directs (COD)",
+          "level": "A2",
+          "definition": "Me, te, le, la, nous, vous, les — remplacer un objet direct",
+          "practice_links": [
+            "grammaire-francaise/topics/pronoms-cod.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pronoms_coi",
+      "label": "Les pronoms compléments indirects (COI)",
+      "items": [
+        {
+          "id": "pronoms_coi",
+          "label": "Les pronoms compléments indirects (COI)",
+          "level": "A2",
+          "definition": "Me, te, lui, nous, vous, leur — remplacer un objet avec « à »",
+          "practice_links": [
+            "grammaire-francaise/topics/pronoms-coi.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cod_ou_coi",
+      "label": "COD ou COI ? Synthèse",
+      "items": [
+        {
+          "id": "cod_ou_coi",
+          "label": "COD ou COI ? Synthèse",
+          "level": "A2",
+          "definition": "Un seul réflexe pour choisir à coup sûr",
+          "practice_links": [
+            "grammaire-francaise/topics/cod-ou-coi.html"
+          ]
+        }
+      ]
     }
   ]
 }

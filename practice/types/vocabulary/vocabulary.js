@@ -121,6 +121,11 @@
             ]);
         }
 
+        // Load JSON morphology datasets
+        if (window.COSY && window.COSY.loadMorphologyData) {
+            await window.COSY.loadMorphologyData(lang);
+        }
+
         // Also load curriculum for pronunciation if needed
         if (window.COSY && window.COSY.loadCurriculum) {
             const l = (lang || 'en').toLowerCase();
@@ -265,6 +270,25 @@
                     phrases.push({ word: p.phrase, level: 'starter', definitions: [{ text: p.definition }], examples: [{ text: p.example }], theme: 'phrases_idioms' });
                 });
                 pool.push(...window.gameUtils.filterVocabulary(phrases, { lang, level, theme, subTheme, category: uiCat, strict: isStrict }));
+            }
+
+            // Append dynamic morphology dataset items for Grammar practice
+            if (uiCat === 'Grammar' && window.morphologyData && window.morphologyData[l]) {
+                const morphItems = window.morphologyData[l].map(m => ({
+                    id: m.id,
+                    word: m.label || m.id,
+                    definition: m.definition || m.group_label || 'Grammar & Morphology',
+                    definitions: [{ text: m.definition || m.group_label || 'Grammar & Morphology' }],
+                    level: (m.level || 'starter').toLowerCase(),
+                    theme: m.group || 'Grammar',
+                    practice_links: m.practice_links,
+                    usage_hint: m.definition ? `Concept: ${m.definition}` : null
+                }));
+                const filteredMorph = morphItems.filter(m => {
+                    const mLevel = norm(m.level);
+                    return normalizedLevel === 'all' || mLevel === normalizedLevel || mLevel.includes(normalizedLevel);
+                });
+                pool.push(...filteredMorph);
             }
         } else if (cat === 'Speaking' || cat === 'speaking') {
             const s = window.speakingData?.[l] || {};
@@ -531,6 +555,7 @@
                         theme: item.theme,
                         sub_theme: item.sub_theme || null,
                         translation: item.translation || item.word,
+                        practice_links: item.practice_links,
                         ruleHint: item.usage_hint || item.collocation || (item.preposition ? `Collocation / Preposition: ${item.word} ${item.preposition}` : morphologicalHint)
                     };
                 } else if (cat === 'Speaking' || cat === 'speaking') {

@@ -2,5 +2,66 @@
   "language": "fr",
   "category": "nouns",
   "level": "A1-C2",
-  "groups": []
+  "groups": [
+    {
+      "id": "genre_des_noms_1",
+      "label": "Le genre des noms (1/2)",
+      "items": [
+        {
+          "id": "genre_des_noms_1",
+          "label": "Le genre des noms (1/2)",
+          "level": "A1",
+          "definition": "Masculin ou féminin ? La base de toute la grammaire française",
+          "practice_links": [
+            "grammaire-francaise/topics/genre-des-noms-1.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "genre_des_noms_2",
+      "label": "Le genre des noms (2/2)",
+      "items": [
+        {
+          "id": "genre_des_noms_2",
+          "label": "Le genre des noms (2/2)",
+          "level": "A1",
+          "definition": "Encore plus de terminaisons — et une carte visuelle pour tout retenir",
+          "practice_links": [
+            "grammaire-francaise/topics/genre-des-noms-2.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pluriel_des_noms",
+      "label": "Le pluriel des noms",
+      "items": [
+        {
+          "id": "pluriel_des_noms",
+          "label": "Le pluriel des noms",
+          "level": "A1",
+          "definition": "Formes régulières et irrégulières",
+          "practice_links": [
+            "grammaire-francaise/topics/pluriel-des-noms.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comptables_indenombrables",
+      "label": "Noms comptables et indénombrables",
+      "items": [
+        {
+          "id": "comptables_indenombrables",
+          "label": "Noms comptables et indénombrables",
+          "level": "A1",
+          "definition": "Ce qu'on peut compter — et ce qu'on ne peut pas",
+          "practice_links": [
+            "grammaire-francaise/topics/comptables-indenombrables.html"
+          ]
+        }
+      ]
+    }
+  ]
 }
