@@ -7,7 +7,7 @@
       "id": "be_present_simple",
       "label": "Verb TO BE — Present Simple",
       "level": "starter",
-      "definition": "TBD",
+      "definition": "Am, is, are · affirmative, negative & question",
       "emoji": "👤",
       "rules": [
         "I am",
@@ -25,14 +25,14 @@
         }
       ],
       "practice_links": [
-        "grammar/en-be.html"
+        "grammar/topics/to-be.html"
       ]
     },
     {
       "id": "present_simple",
       "label": "Present Simple",
       "level": "starter",
-      "definition": "TBD",
+      "definition": "Routines, habits & facts",
       "emoji": "🕐",
       "rules": [
         "Use for habits, routines, and general truths.",
@@ -55,7 +55,7 @@
         }
       ],
       "practice_links": [
-        "grammar/en-present-simple.html"
+        "grammar/topics/present-simple.html"
       ]
     },
     {
@@ -87,7 +87,7 @@
       "id": "future_going_to",
       "label": "Future: Going to",
       "level": "elementary",
-      "definition": "TBD",
+      "definition": "Plans, intentions & predictions",
       "emoji": "🔮",
       "rules": [
         "Formula: BE + GOING TO + VERB",
@@ -104,7 +104,7 @@
         }
       ],
       "practice_links": [
-        "grammar/en-future-going-to.html"
+        "grammar/topics/going-to.html"
       ]
     }
   ]

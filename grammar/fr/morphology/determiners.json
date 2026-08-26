@@ -27,9 +27,9 @@
         }
       ],
       "practice_links": [
-        "grammar/fr-articles.html"
+        "grammaire-francaise/topics/articles.html"
       ],
-      "definition": "TBD"
+      "definition": "Le, la, les — un, une, des"
     },
     {
       "id": "articles_partitifs",
@@ -53,9 +53,9 @@
         }
       ],
       "practice_links": [
-        "grammar/fr-articles-partitifs.html"
+        "grammaire-francaise/topics/articles-partitifs.html"
       ],
-      "definition": "TBD"
+      "definition": "Du, de la, des — une quantité non précisée"
     }
   ]
 }

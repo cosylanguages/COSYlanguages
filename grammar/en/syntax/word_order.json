@@ -7,7 +7,7 @@
       "id": "word_order_svo",
       "label": "Basic Word Order (SVO)",
       "level": "starter",
-      "definition": "TBD",
+      "definition": "Subject + Verb + Object",
       "emoji": "➡️",
       "rules": [
         "Subject + Verb + Object"
@@ -23,14 +23,14 @@
         }
       ],
       "practice_links": [
-        "grammar/en-word-order.html"
+        "grammar/topics/word-order.html"
       ]
     },
     {
       "id": "there_is_are",
       "label": "There is / There are",
       "level": "starter",
-      "definition": "TBD",
+      "definition": "Saying what exists right now",
       "emoji": "📍",
       "rules": [
         "There is + singular noun.",
@@ -47,7 +47,7 @@
         }
       ],
       "practice_links": [
-        "grammar/en-there-is.html"
+        "grammar/topics/there-is-are.html"
       ]
     }
   ]
