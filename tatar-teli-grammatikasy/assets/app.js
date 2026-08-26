@@ -1,15 +1,11 @@
 // COSYlanguages Monolingual Manual Interactivity Engine
 document.addEventListener('DOMContentLoaded', () => {
-  // Mistake Flip Cards
   document.querySelectorAll('.mflip').forEach(card => {
     card.addEventListener('click', () => card.classList.toggle('revealed'));
   });
 
-  // Quiz Panel Engine
   document.querySelectorAll('.quiz-panel').forEach(panel => {
     const quizData = JSON.parse(panel.dataset.quiz || '[]');
-    let score = 0;
-    const scoreEl = panel.querySelector('.quiz-score');
 
     panel.querySelectorAll('.qitem').forEach((qitem, qidx) => {
       const opts = qitem.querySelectorAll('.qopt');
@@ -36,26 +32,4 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
   });
-
-  // Interactive Sentence Builder
-  const sb = document.getElementById('sentence-builder');
-  if (sb) {
-    const slots = sb.querySelectorAll('.slot');
-    const out = sb.querySelector('.sentence-out');
-    const selected = {};
-
-    sb.querySelectorAll('.pool button').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const role = btn.dataset.role;
-        const word = btn.dataset.word;
-        selected[role] = word;
-
-        const slot = sb.querySelector(`.slot[data-role="${role}"]`);
-        if (slot) slot.textContent = word;
-
-        const parts = Array.from(slots).map(s => selected[s.dataset.role] || '...').join(' ');
-        if (out) out.textContent = parts;
-      });
-    });
-  }
 });
