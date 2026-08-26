@@ -87,7 +87,11 @@ MODULES = [
                 "title": "Описание человека",
                 "subtitle": "Прилагательные для описания внешности и характера",
                 "words": [
+<<<<<<< HEAD
                     {"word": "Высо́кий", "type": "adj", "meta": "прил. · м.р.", "def": "Большего роста.", "ex": "Мой брат очень высокий.", "colloc": "высокий человек"},
+=======
+                    {"word": "Высо́кий", "type": "adj", "meta": "прил. · м.р.", "def": "Большого роста.", "ex": "Мой брат очень высокий.", "colloc": "высокий человек"},
+>>>>>>> origin/main
                     {"word": "Краси́вый", "type": "adj", "meta": "прил. · м.р.", "def": "Приятный на вид.", "ex": "Это красивый город.", "colloc": "красивая девушка"},
                     {"word": "До́брый", "type": "adj", "meta": "прил. · м.р.", "def": "Отзывчивый, делающий добро.", "ex": "Наша бабушка очень добрая.", "colloc": "добрый характер"},
                     {"word": "У́мный", "type": "adj", "meta": "прил. · м.р.", "def": "Обладающий хорошим умом.", "ex": "Это умный студент.", "colloc": "умный ответ"}
@@ -352,7 +356,11 @@ MODULES = [
                     {"word": "И", "type": "expr", "meta": "союз", "def": "Соединительный союз.", "ex": "Я люблю чай и кофе.", "colloc": "хлеб и масло"},
                     {"word": "Но", "type": "expr", "meta": "союз", "def": "Противопоставительный союз.", "ex": "Я хочу пойти, но занят.", "colloc": "красивый, но дорогой"},
                     {"word": "Потому́ что", "type": "expr", "meta": "союз", "def": "Указывает на причину.", "ex": "Я отдыхаю, потому что устал.", "colloc": "устал, потому что..."},
+<<<<<<< HEAD
                     {"word": "Поэ́этому", "type": "expr", "meta": "союз / наречие", "def": "Указывает на следствие.", "ex": "Шёл дождь, поэтому мы остались дома.", "colloc": "устал, поэтому спал"}
+=======
+                    {"word": "Поэ́тому", "type": "expr", "meta": "союз / наречие", "def": "Указывает на следствие.", "ex": "Шёл дождь, поэтому мы остались дома.", "colloc": "устал, поэтому спал"}
+>>>>>>> origin/main
                 ],
                 "tip": "Перед союзами «а», «но», «потому что», «поэтому» в русском языке всегда ставится запятая."
             }
@@ -382,7 +390,11 @@ def render_vocab_topbar(active_mod_id=None, is_topic=False):
         short_title = m["title"].split("·")[0].strip()
         nav_links.append(f'<a {act} href="{rel_prefix}{m["file"]}">{short_title}</a>')
     nav_html = "".join(nav_links)
+<<<<<<< HEAD
 
+=======
+
+>>>>>>> origin/main
     return f'''<header class="topbar">
   <div class="topbar-inner">
     <a class="brand" href="{rel_prefix}index.html">
@@ -407,7 +419,11 @@ def render_vocab_footer():
 for mod in MODULES:
     for top in mod["topics"]:
         prev_t, next_t = get_prev_next_vocab(top["slug"])
+<<<<<<< HEAD
 
+=======
+
+>>>>>>> origin/main
         cards_html = []
         flash_cards = []
         for w in top["words"]:
@@ -421,7 +437,11 @@ for mod in MODULES:
   <div class="v-ex">{w["ex"]}</div>
   <div class="v-colloc">&#128279; Сочетаемость: {w["colloc"]}</div>
 </div>''')
+<<<<<<< HEAD
 
+=======
+
+>>>>>>> origin/main
             flash_cards.append(f'''<div class="flashcard">
   <div class="flash-inner">
     <div class="flash-face front">{w["word"]}</div>
@@ -511,7 +531,11 @@ for mod in MODULES:
     <p class="subtitle">{mod["subtitle"]}</p>
     <hr class="rule">
   </div>
+<<<<<<< HEAD
 
+=======
+
+>>>>>>> origin/main
   <div class="topic-grid">
     {"".join(topic_cards)}
   </div>
