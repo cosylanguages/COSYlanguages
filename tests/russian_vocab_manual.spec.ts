@@ -22,7 +22,7 @@ test.describe('Russian Vocabulary Manual (A0-A1)', () => {
 
     // Check vocabulary cards
     const vocabCards = page.locator('.vocab-card');
-    await expect(vocabCards).toHaveCount(4);
+    await expect(vocabCards).toHaveCount(6);
     await expect(vocabCards.first()).toContainText('Здравствуйте');
 
     // Test search filter
@@ -36,7 +36,7 @@ test.describe('Russian Vocabulary Manual (A0-A1)', () => {
 
     // Clear search
     await searchInput.fill('');
-    await expect(page.locator('.vocab-card:not([style*="display: none"])')).toHaveCount(4);
+    await expect(page.locator('.vocab-card:not([style*="display: none"])')).toHaveCount(6);
 
     // Test Flashcards flip
     const flashCard = page.locator('.flashcard').first();
