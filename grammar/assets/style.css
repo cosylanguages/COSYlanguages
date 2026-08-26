@@ -389,3 +389,29 @@ footer.site .container{display:flex; justify-content:space-between; gap:20px; fl
  .hero{padding:44px 0 40px;}
  .qa-row{flex-direction:column;}
 }
+
+/* ---------- print styles ---------- */
+@media print {
+ .topbar, .pager { display: none !important; }
+ .box, .card, .mflip, .examples, .table-wrap, .place-cell, .quiz-panel {
+  background: none !important;
+  box-shadow: none !important;
+  border: 1px solid #ccc !important;
+ }
+ h1 {
+  page-break-before: always;
+  break-before: page;
+ }
+ .qexplain {
+  display: block !important;
+ }
+ .mflip .right-line {
+  display: flex !important;
+ }
+ .mflip .hint {
+  display: none !important;
+ }
+ .mflip .wrong-text {
+  text-decoration: line-through !important;
+ }
+}

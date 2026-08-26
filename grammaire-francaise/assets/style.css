@@ -390,6 +390,32 @@ footer.site .container{display:flex; justify-content:space-between; gap:20px; fl
   .qa-row{flex-direction:column;}
 }
 
+/* ---------- print styles ---------- */
+@media print {
+  .topbar, .pager { display: none !important; }
+  .box, .card, .mflip, .examples, .table-wrap, .place-cell, .quiz-panel {
+    background: none !important;
+    box-shadow: none !important;
+    border: 1px solid #ccc !important;
+  }
+  h1 {
+    page-break-before: always;
+    break-before: page;
+  }
+  .qexplain {
+    display: block !important;
+  }
+  .mflip .right-line {
+    display: flex !important;
+  }
+  .mflip .hint {
+    display: none !important;
+  }
+  .mflip .wrong-text {
+    text-decoration: line-through !important;
+  }
+}
+
 /* ---------- French edition additions ---------- */
 .box.phon{background:#e7f1fc; border-color:#bcd9f5; color:#1a4a7a;}
 .box.phon h3{color:#1a4a7a;}
