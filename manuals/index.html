@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>COSYlanguages English Manuals Hub (A0–A1) &middot; COSYlanguages</title>
+<meta name="description" content="The complete interactive reference library for English learners (A0-A1): Grammar Manual, Vocabulary Manual, and future study companions.">
+<link rel="stylesheet" href="../vocabulary-manual/assets/style.css">
+<style>
+  .manuals-hero { background: var(--teal-900); color: #eafaf5; padding: 64px 0 56px; }
+  .manual-tab-bar { display: flex; gap: 8px; margin: 24px 0; border-bottom: 2px solid var(--line); padding-bottom: 12px; }
+  .manual-tab {
+    font-family: var(--font-display); font-weight: 700; font-size: 15px;
+    padding: 10px 20px; border-radius: 99px; text-decoration: none;
+    background: var(--panel); color: var(--ink); border: 1.5px solid var(--line);
+    transition: all .15s ease;
+  }
+  .manual-tab.active { background: var(--teal-900); color: #fff; border-color: var(--teal-900); }
+  .manual-tab:hover:not(.active) { border-color: var(--teal-600); }
+  .hub-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px; margin: 34px 0; }
+  .hub-card {
+    background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius-l);
+    padding: 28px; box-shadow: var(--shadow-card); position: relative; overflow: hidden;
+    display: flex; flex-direction: column; justify-content: space-between;
+  }
+  .hub-card .badge-tag {
+    display: inline-block; font-family: var(--font-mono); font-size: 11px; text-transform: uppercase;
+    letter-spacing: .06em; font-weight: 700; padding: 4px 10px; border-radius: 99px; margin-bottom: 12px;
+  }
+  .hub-card.grammar .badge-tag { background: #e9eefd; color: #3562e0; }
+  .hub-card.vocab .badge-tag { background: #e6f6ec; color: #1c8f56; }
+  .hub-card.future .badge-tag { background: #f1e9fb; color: #7c4fd6; }
+  .hub-card h2 { font-family: var(--font-display); font-weight: 800; font-size: 24px; margin: 0 0 10px; }
+  .hub-card p { color: var(--ink-soft); font-size: 15px; margin: 0 0 20px; flex-grow: 1; }
+  .hub-card .card-stats { font-family: var(--font-mono); font-size: 12px; color: var(--ink-soft); margin-bottom: 20px; }
+  .hub-card .btn-hub {
+    display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+    font-family: var(--font-display); font-weight: 700; font-size: 15px; text-decoration: none;
+    padding: 12px 22px; border-radius: var(--radius-m); color: #fff; background: var(--teal-700);
+    transition: background .15s;
+  }
+  .hub-card .btn-hub:hover { background: var(--teal-900); }
+  .hub-card.future .btn-hub { background: var(--line); color: var(--ink-soft); pointer-events: none; }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+ <div class="topbar-inner">
+ <a class="brand" href="index.html">
+ <span class="brand-mark">cl</span>
+ <span class="brand-name">COSY<em>languages</em> &middot; English Reference Hub</span>
+ </a>
+ <nav class="topbar-nav">
+ <a class="active" href="index.html">All Manuals</a>
+ <a href="../grammar/index.html">Grammar Manual</a>
+ <a href="../vocabulary-manual/index.html">Vocabulary Manual</a>
+ </nav>
+ </div>
+</header>
+
+<section class="hero manuals-hero">
+ <div class="container">
+ <span class="hero-kicker">COSYlanguages &middot; English Level A0&ndash;A1</span>
+ <h1>English Learning Manuals,<br>all in one place.</h1>
+ <p class="lead">Your complete interactive companion library: master English grammar structures, build core vocabulary themes, and prepare for real conversations, courses, and challenges.</p>
+ </div>
+</section>
+
+<main class="container">
+ <div class="page-head" style="padding-top:40px;">
+ <span class="eyebrow">Level A0&ndash;A1 Manuals</span>
+ <h1 style="font-size:28px;">Interactive Study Companions</h1>
+ <p class="subtitle">Choose a manual to start learning or revising.</p>
+ </div>
+
+ <div class="hub-grid">
+  <!-- Grammar Manual Card -->
+  <div class="hub-card grammar">
+   <div>
+    <span class="badge-tag">Grammar Reference</span>
+    <h2>English Grammar Manual</h2>
+    <p>42 interactive topics organised into 4 core parts. Master sentence building, verb tenses, articles, pronouns, prepositions, and question forms with color-coded diagrams, mistake flippers, and quick quizzes.</p>
+    <div class="card-stats">📘 42 Topics &middot; 4 Parts + Appendix &middot; Interactive Quizzes</div>
+   </div>
+   <a href="../grammar/index.html" class="btn-hub">Open Grammar Manual &rarr;</a>
+  </div>
+
+  <!-- Vocabulary Manual Card -->
+  <div class="hub-card vocab">
+   <div>
+    <span class="badge-tag">Vocabulary Reference</span>
+    <h2>English Vocabulary Manual</h2>
+    <p>69 vocabulary themes across 15 parts covering every daily situation. Learn words, simple meanings, example sentences, regional badges (UK/US/CA/AU), memory tricks, and confusable verb breakdowns.</p>
+    <div class="card-stats">📚 69 Themes &middot; 15 Parts &middot; Regional Badges & Memory Tricks</div>
+   </div>
+   <a href="../vocabulary-manual/index.html" class="btn-hub">Open Vocabulary Manual &rarr;</a>
+  </div>
+
+  <!-- Future Manual Card -->
+  <div class="hub-card future">
+   <div>
+    <span class="badge-tag">Coming Soon</span>
+    <h2>Pronunciation & Phrasebook Manual</h2>
+    <p>A planned interactive guide covering English phonetics, intonation, connected speech, and social phrasebooks for adult conversations and challenges.</p>
+    <div class="card-stats">🌱 Future Expansion &middot; Level A0&ndash;B1</div>
+   </div>
+   <a href="#" class="btn-hub">Coming Soon</a>
+  </div>
+ </div>
+</main>
+
+<footer class="site">
+ <div class="container">
+ <div>COSYlanguages &middot; English Manuals Hub, Level A0&ndash;A1 &middot; interactive web edition</div>
+ <div><a href="../index.html">&larr; Back to cosylanguages.github.io</a></div>
+ </div>
+</footer>
+<script src="../vocabulary-manual/assets/app.js"></script>
+</body>
+</html>
