@@ -859,6 +859,45 @@ window.COSY = {
         return (window.curriculumData && window.curriculumData[key]) || [];
     },
 
+    async loadMorphologyData(lang) {
+        if (!lang) return [];
+
+        const langLow = lang.toLowerCase();
+        window.morphologyData = window.morphologyData || {};
+        window.morphologyData[langLow] = window.morphologyData[langLow] || [];
+
+        const prefix = getPrefix();
+        const files = ['verbs.json', 'nouns.json', 'pronouns.json', 'determiners.json', 'adjectives.json', 'numerals.json'];
+
+        const loadPromises = files.map(file => {
+            const path = `${prefix}grammar/${langLow}/morphology/${file}`;
+            return fetch(path)
+                .then(res => res.ok ? res.json() : null)
+                .then(data => {
+                    if (data && data.groups) {
+                        data.groups.forEach(group => {
+                            const items = group.items || [group];
+                            items.forEach(item => {
+                                if (!item.id) return;
+                                const entry = {
+                                    ...item,
+                                    group: group.id,
+                                    group_label: group.label || group.id,
+                                    category: data.category || 'morphology',
+                                    language: langLow
+                                };
+                                window.morphologyData[langLow].push(entry);
+                            });
+                        });
+                    }
+                })
+                .catch(err => console.warn(`[COSY Morphology Loader] Failed to load ${path}:`, err));
+        });
+
+        await Promise.all(loadPromises);
+        return window.morphologyData[langLow];
+    },
+
     setNavContext(html) {
         const ctx = document.getElementById('cosy-nav-context');
         if (ctx) ctx.innerHTML = html;
