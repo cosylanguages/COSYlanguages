@@ -27,9 +27,9 @@
         }
       ],
       "practice_links": [
-        "grammar/fr-etre.html"
+        "grammaire-francaise/topics/etre.html"
       ],
-      "definition": "TBD"
+      "definition": "Le verbe le plus utilisé — identité, nationalité, profession"
     },
     {
       "id": "avoir",
@@ -55,9 +55,9 @@
         }
       ],
       "practice_links": [
-        "grammar/fr-avoir.html"
+        "grammaire-francaise/topics/avoir.html"
       ],
-      "definition": "TBD"
+      "definition": "Possession, âge et sensations"
     },
     {
       "id": "verbes_er",
@@ -79,9 +79,9 @@
         }
       ],
       "practice_links": [
-        "grammar/fr-verbes-er.html"
+        "grammaire-francaise/topics/verbes-er.html"
       ],
-      "definition": "TBD"
+      "definition": "Le groupe le plus fréquent — modèle : parler"
     }
   ]
 }
