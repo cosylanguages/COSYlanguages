@@ -62,6 +62,12 @@
     --mistake-header-text: #8c2e2e;
     --mistake-wrong-color: #C0392B;
     --mistake-right-color: #1A7A4A;
+    --mistake-null-color:  #9CA3AF;
+    --mistake-subj-color:  #2B6CB0;
+    --mistake-verb-color:  #0F766E;
+    --mistake-obj-color:   #7C3AED;
+    --mistake-mod-color:   #C05621;
+    --mistake-other-color: #B45309;
 
     /* ── Dictionary Panel variables ── */
     --dict-panel-bg:       rgba(255, 255, 255, 0.95);
@@ -206,6 +212,12 @@ html[data-theme="dark"], body.theme-dark {
     --mistake-header-text: #fca5a5;
     --mistake-wrong-color: #f87171;
     --mistake-right-color: #4ade80;
+    --mistake-null-color:  #C1C7D0;
+    --mistake-subj-color:  #63B3ED;
+    --mistake-verb-color:  #2DD4BF;
+    --mistake-obj-color:   #A78BFA;
+    --mistake-mod-color:   #F6AD55;
+    --mistake-other-color: #FBBF24;
 
     /* ── Dictionary Panel variables ── */
     --dict-panel-bg:       rgba(34, 43, 34, 0.95);

@@ -125,11 +125,28 @@ Place inside `.history-body` of a club card.
           <span>✏️ Teacher's Note (Linguistic Corrections)</span><span class="round-toggle">▼</span>
         </div>
         <div class="mistake-body">
+          <!-- 1. Extra/Wrong Word Example -->
           <div class="mistake-item">
-            <span class="mistake-wrong">[WRONG]</span>
+            <span class="mistake-wrong">He <span class="mistake-flag-wrong">have</span> went to Paris</span>
             <span class="mistake-arrow">→</span>
-            <span class="mistake-right">[RIGHT]</span>
-            <span class="mistake-note-text">([NOTE])</span>
+            <span class="mistake-right">He <span class="mistake-flag-right">has</span> gone to Paris</span>
+            <span class="mistake-note-text">(Wrong word: 'have' vs singular auxiliary 'has' for present perfect)</span>
+          </div>
+
+          <!-- 2. Missing Word Example -->
+          <div class="mistake-item">
+            <span class="mistake-wrong">She lives <span class="mistake-null">X</span> Paris</span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right">She lives <span class="mistake-flag-right">in</span> Paris</span>
+            <span class="mistake-note-text">(Missing preposition 'in')</span>
+          </div>
+
+          <!-- 3. Word Order / Structure Example -->
+          <div class="mistake-item">
+            <span class="mistake-wrong"><span class="mistake-part-subj">We</span> <span class="mistake-part-verb">discussed</span> <span class="mistake-part-mod">yesterday</span> <span class="mistake-part-obj">the problem</span></span>
+            <span class="mistake-arrow">→</span>
+            <span class="mistake-right"><span class="mistake-part-subj">We</span> <span class="mistake-part-verb">discussed</span> <span class="mistake-part-obj">the problem</span> <span class="mistake-part-mod">yesterday</span></span>
+            <span class="mistake-note-text">(Word order: Subject + Verb + Object + Modifier)</span>
           </div>
         </div>
       </div>
