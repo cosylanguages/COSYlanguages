@@ -162,13 +162,60 @@
     }
 
     .mistake-wrong {
-        text-decoration: line-through;
-        color: #7d0000 !important;
+        background: #fdf2f2 !important;
+        padding: 0.1rem 0.4rem !important;
+        border-radius: 4px !important;
+        font-weight: 500 !important;
     }
 
     .mistake-right {
-        font-weight: bold;
+        background: #f0fdf4 !important;
+        padding: 0.1rem 0.4rem !important;
+        border-radius: 4px !important;
+        font-weight: 500 !important;
+    }
+
+    .mistake-flag-wrong {
+        font-weight: bold !important;
+        text-transform: uppercase !important;
+        color: #7d0000 !important;
+    }
+
+    .mistake-flag-right {
+        font-weight: bold !important;
+        text-transform: uppercase !important;
         color: #004d00 !important;
+    }
+
+    .mistake-null {
+        font-weight: bold !important;
+        font-style: italic !important;
+        color: #555 !important;
+    }
+
+    .mistake-part-subj {
+        font-weight: bold !important;
+        text-decoration: underline !important;
+    }
+
+    .mistake-part-verb {
+        font-weight: bold !important;
+        text-decoration: underline double !important;
+    }
+
+    .mistake-part-obj {
+        font-weight: bold !important;
+        text-decoration: underline dotted !important;
+    }
+
+    .mistake-part-mod {
+        font-weight: bold !important;
+        text-decoration: underline wavy !important;
+    }
+
+    .mistake-part-other {
+        font-weight: bold !important;
+        font-style: italic !important;
     }
 
     .mistake-note-text {
