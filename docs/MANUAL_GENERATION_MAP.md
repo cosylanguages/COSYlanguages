@@ -34,6 +34,7 @@ The repository utilizes two distinct authoring approaches:
 | Directory | Target Language | Status | Generator Script | Rebuild Command |
 |---|---|---|---|---|
 | `vocabulary-manual/` | English | **(b) Hand-authored HTML** | None | N/A (Hand-authored HTML) |
+| `lexique-francais/` | French | **(a) Generated** | `scripts/build_french_vocab_manual.py` | `python3 scripts/build_french_vocab_manual.py` |
 | `lessico-italiano/` | Italian | **(a) Generated** | `scripts/build_monolingual_vocab_manuals.py` | `python3 scripts/build_monolingual_vocab_manuals.py` |
 | `vocabulario-espanol/` | Spanish | **(a) Generated** | `scripts/build_monolingual_vocab_manuals.py` | `python3 scripts/build_monolingual_vocab_manuals.py` |
 | `deutscher-wortschatz/` | German | **(a) Generated** | `scripts/build_monolingual_vocab_manuals.py` | `python3 scripts/build_monolingual_vocab_manuals.py` |
