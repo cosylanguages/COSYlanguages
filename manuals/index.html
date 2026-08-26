@@ -3,116 +3,255 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>COSYlanguages English Manuals Hub (A0–A1) &middot; COSYlanguages</title>
-<meta name="description" content="The complete interactive reference library for English learners (A0-A1): Grammar Manual, Vocabulary Manual, and future study companions.">
+<title>COSYlanguages All Grammar &amp; Vocabulary Manuals Master Directory &middot; Level A0–A1</title>
+<meta name="description" content="Complete master directory of all Grammar and Vocabulary manuals across all 14 languages supported by COSYlanguages including Chuvash.">
 <link rel="stylesheet" href="../vocabulary-manual/assets/style.css">
 <style>
   .manuals-hero { background: var(--teal-900); color: #eafaf5; padding: 64px 0 56px; }
-  .manual-tab-bar { display: flex; gap: 8px; margin: 24px 0; border-bottom: 2px solid var(--line); padding-bottom: 12px; }
-  .manual-tab {
-    font-family: var(--font-display); font-weight: 700; font-size: 15px;
-    padding: 10px 20px; border-radius: 99px; text-decoration: none;
-    background: var(--panel); color: var(--ink); border: 1.5px solid var(--line);
-    transition: all .15s ease;
-  }
-  .manual-tab.active { background: var(--teal-900); color: #fff; border-color: var(--teal-900); }
-  .manual-tab:hover:not(.active) { border-color: var(--teal-600); }
   .hub-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px; margin: 34px 0; }
   .hub-card {
     background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius-l);
-    padding: 28px; box-shadow: var(--shadow-card); position: relative; overflow: hidden;
+    padding: 24px; box-shadow: var(--shadow-card); position: relative; overflow: hidden;
     display: flex; flex-direction: column; justify-content: space-between;
   }
-  .hub-card .badge-tag {
-    display: inline-block; font-family: var(--font-mono); font-size: 11px; text-transform: uppercase;
-    letter-spacing: .06em; font-weight: 700; padding: 4px 10px; border-radius: 99px; margin-bottom: 12px;
+  .hub-card h2 { font-family: var(--font-display); font-weight: 800; font-size: 22px; margin: 0 0 10px; display: flex; align-items: center; gap: 8px; }
+  .hub-card p { color: var(--ink-soft); font-size: 14.5px; margin: 0 0 16px; flex-grow: 1; }
+  .hub-card .link-group { display: flex; flex-direction: column; gap: 8px; margin-top: 12px; }
+  .hub-card .btn-link {
+    display: inline-flex; align-items: center; justify-content: space-between;
+    font-family: var(--font-display); font-weight: 700; font-size: 14px; text-decoration: none;
+    padding: 10px 16px; border-radius: var(--radius-m); color: var(--teal-900); background: var(--teal-100);
+    transition: all .15s ease; border: 1px solid var(--line);
   }
-  .hub-card.grammar .badge-tag { background: #e9eefd; color: #3562e0; }
-  .hub-card.vocab .badge-tag { background: #e6f6ec; color: #1c8f56; }
-  .hub-card.future .badge-tag { background: #f1e9fb; color: #7c4fd6; }
-  .hub-card h2 { font-family: var(--font-display); font-weight: 800; font-size: 24px; margin: 0 0 10px; }
-  .hub-card p { color: var(--ink-soft); font-size: 15px; margin: 0 0 20px; flex-grow: 1; }
-  .hub-card .card-stats { font-family: var(--font-mono); font-size: 12px; color: var(--ink-soft); margin-bottom: 20px; }
-  .hub-card .btn-hub {
-    display: inline-flex; align-items: center; justify-content: center; gap: 8px;
-    font-family: var(--font-display); font-weight: 700; font-size: 15px; text-decoration: none;
-    padding: 12px 22px; border-radius: var(--radius-m); color: #fff; background: var(--teal-700);
-    transition: background .15s;
+  .hub-card .btn-link:hover { background: var(--teal-700); color: #fff; border-color: var(--teal-700); }
+  .hub-card .btn-main-hub {
+    display: inline-flex; align-items: center; justify-content: center;
+    font-family: var(--font-display); font-weight: 700; font-size: 14.5px; text-decoration: none;
+    padding: 12px 18px; border-radius: var(--radius-m); color: #fff; background: var(--teal-700);
+    margin-bottom: 12px; transition: background .15s ease;
   }
-  .hub-card .btn-hub:hover { background: var(--teal-900); }
-  .hub-card.future .btn-hub { background: var(--line); color: var(--ink-soft); pointer-events: none; }
+  .hub-card .btn-main-hub:hover { background: var(--teal-900); }
 </style>
 </head>
 <body>
 
 <header class="topbar">
  <div class="topbar-inner">
- <a class="brand" href="index.html">
+ <a class="brand" href="../index.html">
  <span class="brand-mark">cl</span>
- <span class="brand-name">COSY<em>languages</em> &middot; English Reference Hub</span>
+ <span class="brand-name">COSY<em>languages</em> &middot; Master Manuals Directory</span>
  </a>
  <nav class="topbar-nav">
  <a class="active" href="index.html">All Manuals</a>
- <a href="../grammar/index.html">Grammar Manual</a>
- <a href="../vocabulary-manual/index.html">Vocabulary Manual</a>
+ <a href="../index.html">&larr; Back Home</a>
  </nav>
  </div>
 </header>
 
 <section class="hero manuals-hero">
  <div class="container">
- <span class="hero-kicker">COSYlanguages &middot; English Level A0&ndash;A1</span>
- <h1>English Learning Manuals,<br>all in one place.</h1>
- <p class="lead">Your complete interactive companion library: master English grammar structures, build core vocabulary themes, and prepare for real conversations, courses, and challenges.</p>
+ <span class="hero-kicker">COSYlanguages &middot; All 14 Languages Master Directory</span>
+ <h1>Grammar &amp; Vocabulary Manuals,<br>all in one place.</h1>
+ <p class="lead">Complete interactive reference library: access combined Level A0–A1 hubs, standalone Grammar Manuals, and Vocabulary Manuals for every language we support.</p>
  </div>
 </section>
 
 <main class="container">
  <div class="page-head" style="padding-top:40px;">
- <span class="eyebrow">Level A0&ndash;A1 Manuals</span>
- <h1 style="font-size:28px;">Interactive Study Companions</h1>
- <p class="subtitle">Choose a manual to start learning or revising.</p>
+ <span class="eyebrow">Level A0&ndash;A1 Interactive Companions</span>
+ <h1 style="font-size:28px;">Select Your Target Language</h1>
+ <p class="subtitle">Choose a language below to access its combined 1-page hub or jump directly to its Grammar or Vocabulary manual.</p>
  </div>
 
  <div class="hub-grid">
-  <!-- Grammar Manual Card -->
-  <div class="hub-card grammar">
+  <div class="hub-card">
    <div>
-    <span class="badge-tag">Grammar Reference</span>
-    <h2>English Grammar Manual</h2>
-    <p>42 interactive topics organised into 4 core parts. Master sentence building, verb tenses, articles, pronouns, prepositions, and question forms with color-coded diagrams, mistake flippers, and quick quizzes.</p>
-    <div class="card-stats">📘 42 Topics &middot; 4 Parts + Appendix &middot; Interactive Quizzes</div>
+    <h2>🇬🇧 English <span style="font-size:14px; font-weight:400; color:var(--ink-soft);">(English)</span></h2>
+    <p>The complete companion library for English (Level A0–A1): Grammar Manual &amp; Vocabulary Manual.</p>
    </div>
-   <a href="../grammar/index.html" class="btn-hub">Open Grammar Manual &rarr;</a>
+   <div>
+    <a href="english-a0-a1.html" class="btn-main-hub">Open English Combined Hub (1 Page) &rarr;</a>
+    <div class="link-group">
+      <a href="../grammar/index.html" class="btn-link"><span>📘 Grammar Manual</span> <span>&rarr;</span></a>
+      <a href="../vocabulary-manual/index.html" class="btn-link"><span>📚 Vocabulary Manual</span> <span>&rarr;</span></a>
+    </div>
+   </div>
   </div>
-
-  <!-- Vocabulary Manual Card -->
-  <div class="hub-card vocab">
+  <div class="hub-card">
    <div>
-    <span class="badge-tag">Vocabulary Reference</span>
-    <h2>English Vocabulary Manual</h2>
-    <p>69 vocabulary themes across 15 parts covering every daily situation. Learn words, simple meanings, example sentences, regional badges (UK/US/CA/AU), memory tricks, and confusable verb breakdowns.</p>
-    <div class="card-stats">📚 69 Themes &middot; 15 Parts &middot; Regional Badges & Memory Tricks</div>
+    <h2>🇫🇷 French <span style="font-size:14px; font-weight:400; color:var(--ink-soft);">(Français)</span></h2>
+    <p>Le système d'apprentissage complet du français (Niveau A0–A1) : Manuel de Grammaire &amp; Manuel de Vocabulaire.</p>
    </div>
-   <a href="../vocabulary-manual/index.html" class="btn-hub">Open Vocabulary Manual &rarr;</a>
+   <div>
+    <a href="francaise-a0-a1.html" class="btn-main-hub">Open French Combined Hub (1 Page) &rarr;</a>
+    <div class="link-group">
+      <a href="../grammaire-francaise/index.html" class="btn-link"><span>📘 Grammar Manual</span> <span>&rarr;</span></a>
+      <a href="../languages/fr/vocabulary.html" class="btn-link"><span>📚 Vocabulary Manual</span> <span>&rarr;</span></a>
+    </div>
+   </div>
   </div>
-
-  <!-- Future Manual Card -->
-  <div class="hub-card future">
+  <div class="hub-card">
    <div>
-    <span class="badge-tag">Coming Soon</span>
-    <h2>Pronunciation & Phrasebook Manual</h2>
-    <p>A planned interactive guide covering English phonetics, intonation, connected speech, and social phrasebooks for adult conversations and challenges.</p>
-    <div class="card-stats">🌱 Future Expansion &middot; Level A0&ndash;B1</div>
+    <h2>🇮🇹 Italian <span style="font-size:14px; font-weight:400; color:var(--ink-soft);">(Italiano)</span></h2>
+    <p>Il sistema completo di apprendimento della lingua italiana (Livello A0–A1): Manuale di Grammatica e Manuale di Lessico.</p>
    </div>
-   <a href="#" class="btn-hub">Coming Soon</a>
+   <div>
+    <a href="italiano-a0-a1.html" class="btn-main-hub">Open Italian Combined Hub (1 Page) &rarr;</a>
+    <div class="link-group">
+      <a href="../grammatica-italiana/index.html" class="btn-link"><span>📘 Grammar Manual</span> <span>&rarr;</span></a>
+      <a href="../lessico-italiano/index.html" class="btn-link"><span>📚 Vocabulary Manual</span> <span>&rarr;</span></a>
+    </div>
+   </div>
+  </div>
+  <div class="hub-card">
+   <div>
+    <h2>🇪🇸 Spanish <span style="font-size:14px; font-weight:400; color:var(--ink-soft);">(Español)</span></h2>
+    <p>El sistema interactivo completo para aprender español (Nivel A0–A1): Manual de Gramática y Manual de Vocabulario.</p>
+   </div>
+   <div>
+    <a href="espanol-a0-a1.html" class="btn-main-hub">Open Spanish Combined Hub (1 Page) &rarr;</a>
+    <div class="link-group">
+      <a href="../gramatica-espanola/index.html" class="btn-link"><span>📘 Grammar Manual</span> <span>&rarr;</span></a>
+      <a href="../vocabulario-espanol/index.html" class="btn-link"><span>📚 Vocabulary Manual</span> <span>&rarr;</span></a>
+    </div>
+   </div>
+  </div>
+  <div class="hub-card">
+   <div>
+    <h2>🇩🇪 German <span style="font-size:14px; font-weight:400; color:var(--ink-soft);">(Deutsch)</span></h2>
+    <p>Das vollständige Lernsystem für Deutsch (Niveau A0–A1): Grammatik-Handbuch und Wortschatz-Handbuch.</p>
+   </div>
+   <div>
+    <a href="deutsch-a0-a1.html" class="btn-main-hub">Open German Combined Hub (1 Page) &rarr;</a>
+    <div class="link-group">
+      <a href="../deutsche-grammatik/index.html" class="btn-link"><span>📘 Grammar Manual</span> <span>&rarr;</span></a>
+      <a href="../deutscher-wortschatz/index.html" class="btn-link"><span>📚 Vocabulary Manual</span> <span>&rarr;</span></a>
+    </div>
+   </div>
+  </div>
+  <div class="hub-card">
+   <div>
+    <h2>🇵🇹 Portuguese <span style="font-size:14px; font-weight:400; color:var(--ink-soft);">(Português)</span></h2>
+    <p>O sistema completo de aprendizagem de português (Nível A0–A1): Manual de Gramática e Manual de Vocabulário.</p>
+   </div>
+   <div>
+    <a href="portugues-a0-a1.html" class="btn-main-hub">Open Portuguese Combined Hub (1 Page) &rarr;</a>
+    <div class="link-group">
+      <a href="../gramatica-portuguesa/index.html" class="btn-link"><span>📘 Grammar Manual</span> <span>&rarr;</span></a>
+      <a href="../vocabulario-portugues/index.html" class="btn-link"><span>📚 Vocabulary Manual</span> <span>&rarr;</span></a>
+    </div>
+   </div>
+  </div>
+  <div class="hub-card">
+   <div>
+    <h2>🇷🇺 Russian <span style="font-size:14px; font-weight:400; color:var(--ink-soft);">(Русский)</span></h2>
+    <p>Полная обучающая система для изучения русского языка (Уровень А0–А1): Грамматика и Лексика.</p>
+   </div>
+   <div>
+    <a href="russkiy-a0-a1.html" class="btn-main-hub">Open Russian Combined Hub (1 Page) &rarr;</a>
+    <div class="link-group">
+      <a href="../grammatika-russkogo-yazyka/index.html" class="btn-link"><span>📘 Grammar Manual</span> <span>&rarr;</span></a>
+      <a href="../leksika-russkogo-yazyka/index.html" class="btn-link"><span>📚 Vocabulary Manual</span> <span>&rarr;</span></a>
+    </div>
+   </div>
+  </div>
+  <div class="hub-card">
+   <div>
+    <h2>🏴 Breton <span style="font-size:14px; font-weight:400; color:var(--ink-soft);">(Brezhoneg)</span></h2>
+    <p>Ar Reizhiad Deskiñ Klok evit ar Brezhoneg (Live A0–A1): Levr Yezhadur ha Levr Gerioù &mdash; skrivet e brezhoneg hepken.</p>
+   </div>
+   <div>
+    <a href="brezhoneg-a0-a1.html" class="btn-main-hub">Open Breton Combined Hub (1 Page) &rarr;</a>
+    <div class="link-group">
+      <a href="../yezhadur-brezhoneg/index.html" class="btn-link"><span>📘 Grammar Manual</span> <span>&rarr;</span></a>
+      <a href="../geriou-brezhoneg/index.html" class="btn-link"><span>📚 Vocabulary Manual</span> <span>&rarr;</span></a>
+    </div>
+   </div>
+  </div>
+  <div class="hub-card">
+   <div>
+    <h2>🏴 Tatar <span style="font-size:14px; font-weight:400; color:var(--ink-soft);">(Татарча)</span></h2>
+    <p>Татар телен өйрәнү өчен тулы интерактив система (А0–А1 дәрәҗәсе): Грамматика һәм Лексика.</p>
+   </div>
+   <div>
+    <a href="tatar-a0-a1.html" class="btn-main-hub">Open Tatar Combined Hub (1 Page) &rarr;</a>
+    <div class="link-group">
+      <a href="../tatar-teli-grammatikasy/index.html" class="btn-link"><span>📘 Grammar Manual</span> <span>&rarr;</span></a>
+      <a href="../tatar-teli-leksikasy/index.html" class="btn-link"><span>📚 Vocabulary Manual</span> <span>&rarr;</span></a>
+    </div>
+   </div>
+  </div>
+  <div class="hub-card">
+   <div>
+    <h2>🏴 Bashkir <span style="font-size:14px; font-weight:400; color:var(--ink-soft);">(Башҡортса)</span></h2>
+    <p>Башҡорт телен өйрәнеү өсөн тулы система (А0–А1 дәрәжәһе): Грамматика һәм Лексика.</p>
+   </div>
+   <div>
+    <a href="bashqort-a0-a1.html" class="btn-main-hub">Open Bashkir Combined Hub (1 Page) &rarr;</a>
+    <div class="link-group">
+      <a href="../bashqort-tele-grammatikahy/index.html" class="btn-link"><span>📘 Grammar Manual</span> <span>&rarr;</span></a>
+      <a href="../bashqort-tele-leksikahy/index.html" class="btn-link"><span>📚 Vocabulary Manual</span> <span>&rarr;</span></a>
+    </div>
+   </div>
+  </div>
+  <div class="hub-card">
+   <div>
+    <h2>🏴 Chuvash <span style="font-size:14px; font-weight:400; color:var(--ink-soft);">(Чӑвашла)</span></h2>
+    <p>Чӑваш чӗлхине вӗренмелли пӗтӗмӗшле система (А0–А1 шайӗ): Грамматика тата Лексика.</p>
+   </div>
+   <div>
+    <a href="chavash-a0-a1.html" class="btn-main-hub">Open Chuvash Combined Hub (1 Page) &rarr;</a>
+    <div class="link-group">
+      <a href="../chavash-grammatika/index.html" class="btn-link"><span>📘 Grammar Manual</span> <span>&rarr;</span></a>
+      <a href="../chavash-leksiki/index.html" class="btn-link"><span>📚 Vocabulary Manual</span> <span>&rarr;</span></a>
+    </div>
+   </div>
+  </div>
+  <div class="hub-card">
+   <div>
+    <h2>🇦🇲 Armenian <span style="font-size:14px; font-weight:400; color:var(--ink-soft);">(Հայերեն)</span></h2>
+    <p>Հայերենի ուսուցման ամբողջական համակարգ (A0–A1 մակարդակ)՝ Քերականություն և Բառապաշար:</p>
+   </div>
+   <div>
+    <a href="hayots-a0-a1.html" class="btn-main-hub">Open Armenian Combined Hub (1 Page) &rarr;</a>
+    <div class="link-group">
+      <a href="../hayots-lezvi-kerakanutyun/index.html" class="btn-link"><span>📘 Grammar Manual</span> <span>&rarr;</span></a>
+      <a href="../hayots-lezvi-barapashar/index.html" class="btn-link"><span>📚 Vocabulary Manual</span> <span>&rarr;</span></a>
+    </div>
+   </div>
+  </div>
+  <div class="hub-card">
+   <div>
+    <h2>🇬🇪 Georgian <span style="font-size:14px; font-weight:400; color:var(--ink-soft);">(ქართული)</span></h2>
+    <p>ქართული ენის შესასწავლი სრული სისტემა (A0–A1 დონე): გრამატიკა და ლექსიკა.</p>
+   </div>
+   <div>
+    <a href="qartuli-a0-a1.html" class="btn-main-hub">Open Georgian Combined Hub (1 Page) &rarr;</a>
+    <div class="link-group">
+      <a href="../qartuli-gramatika/index.html" class="btn-link"><span>📘 Grammar Manual</span> <span>&rarr;</span></a>
+      <a href="../qartuli-leqsika/index.html" class="btn-link"><span>📚 Vocabulary Manual</span> <span>&rarr;</span></a>
+    </div>
+   </div>
+  </div>
+  <div class="hub-card">
+   <div>
+    <h2>🇬🇷 Greek <span style="font-size:14px; font-weight:400; color:var(--ink-soft);">(Ελληνικά)</span></h2>
+    <p>Πλήρες σύστημα εκμάθησης ελληνικών (Επίπεδο A0–A1): Ελληνική Γραμματική &amp; Ελληνικό Λεξιλόγιο.</p>
+   </div>
+   <div>
+    <a href="ellinika-a0-a1.html" class="btn-main-hub">Open Greek Combined Hub (1 Page) &rarr;</a>
+    <div class="link-group">
+      <a href="../languages/el/grammar.html" class="btn-link"><span>📘 Grammar Manual</span> <span>&rarr;</span></a>
+      <a href="../languages/el/vocabulary.html" class="btn-link"><span>📚 Vocabulary Manual</span> <span>&rarr;</span></a>
+    </div>
+   </div>
   </div>
  </div>
 </main>
 
 <footer class="site">
  <div class="container">
- <div>COSYlanguages &middot; English Manuals Hub, Level A0&ndash;A1 &middot; interactive web edition</div>
+ <div>COSYlanguages &middot; All Grammar &amp; Vocabulary Manuals Master Directory &middot; Level A0&ndash;A1</div>
  <div><a href="../index.html">&larr; Back to cosylanguages.github.io</a></div>
  </div>
 </footer>
