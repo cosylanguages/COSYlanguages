@@ -2,5 +2,51 @@
   "language": "en",
   "category": "adjectives",
   "level": "A1-C2",
-  "groups": []
+  "groups": [
+    {
+      "id": "adjectives",
+      "label": "Adjectives",
+      "items": [
+        {
+          "id": "adjectives",
+          "label": "Adjectives",
+          "level": "A1",
+          "definition": "Describing people & things",
+          "practice_links": [
+            "grammar/topics/adjectives.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comparative_adjectives",
+      "label": "Comparative Adjectives",
+      "items": [
+        {
+          "id": "comparative_adjectives",
+          "label": "Comparative Adjectives",
+          "level": "A2",
+          "definition": "Comparing two things",
+          "practice_links": [
+            "grammar/topics/comparative-adjectives.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "superlative_adjectives",
+      "label": "Superlative Adjectives",
+      "items": [
+        {
+          "id": "superlative_adjectives",
+          "label": "Superlative Adjectives",
+          "level": "A2",
+          "definition": "Comparing one thing to all the others",
+          "practice_links": [
+            "grammar/topics/superlative-adjectives.html"
+          ]
+        }
+      ]
+    }
+  ]
 }

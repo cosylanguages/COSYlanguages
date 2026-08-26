@@ -106,6 +106,171 @@
       "practice_links": [
         "grammar/topics/going-to.html"
       ]
+    },
+    {
+      "id": "past_simple_be",
+      "label": "Past Simple of 'To Be'",
+      "items": [
+        {
+          "id": "past_simple_be",
+          "label": "Past Simple of 'To Be'",
+          "level": "A1",
+          "definition": "Was & were",
+          "practice_links": [
+            "grammar/topics/past-simple-be.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "past_simple_regular",
+      "label": "Past Simple — Regular Verbs",
+      "items": [
+        {
+          "id": "past_simple_regular",
+          "label": "Past Simple — Regular Verbs",
+          "level": "A1",
+          "definition": "Spelling rules for the -ed ending",
+          "practice_links": [
+            "grammar/topics/past-simple-regular.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "past_simple_irregular",
+      "label": "Past Simple — Irregular Verbs",
+      "items": [
+        {
+          "id": "past_simple_irregular",
+          "label": "Past Simple — Irregular Verbs",
+          "level": "A1",
+          "definition": "Verbs that don't follow the -ed rule",
+          "practice_links": [
+            "grammar/topics/past-simple-irregular.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "present_continuous",
+      "label": "Present Continuous",
+      "items": [
+        {
+          "id": "present_continuous",
+          "label": "Present Continuous",
+          "level": "A1",
+          "definition": "Actions happening now",
+          "practice_links": [
+            "grammar/topics/present-continuous.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "have_got",
+      "label": "Have Got",
+      "items": [
+        {
+          "id": "have_got",
+          "label": "Have Got",
+          "level": "A1",
+          "definition": "Talking about possession",
+          "practice_links": [
+            "grammar/topics/have-got.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "can_cant",
+      "label": "Can / Can't",
+      "items": [
+        {
+          "id": "can_cant",
+          "label": "Can / Can't",
+          "level": "A1",
+          "definition": "Ability, permission & possibility",
+          "practice_links": [
+            "grammar/topics/can-cant.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "could_couldnt",
+      "label": "Could / Couldn't",
+      "items": [
+        {
+          "id": "could_couldnt",
+          "label": "Could / Couldn't",
+          "level": "A2",
+          "definition": "Past ability & polite requests",
+          "practice_links": [
+            "grammar/topics/could-couldnt.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "will",
+      "label": "Will (Future)",
+      "items": [
+        {
+          "id": "will",
+          "label": "Will (Future)",
+          "level": "A2",
+          "definition": "Future predictions, promises & offers",
+          "practice_links": [
+            "grammar/topics/will.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "irregular_verbs",
+      "label": "Irregular Verbs Reference",
+      "items": [
+        {
+          "id": "irregular_verbs",
+          "label": "Irregular Verbs Reference",
+          "level": "A1-A2",
+          "definition": "Base form → past simple, grouped by pattern",
+          "practice_links": [
+            "grammar/topics/irregular-verbs.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "imperatives",
+      "label": "Imperatives",
+      "items": [
+        {
+          "id": "imperatives",
+          "label": "Imperatives",
+          "level": "A1",
+          "definition": "Instructions, rules & directions",
+          "practice_links": [
+            "grammar/topics/imperatives.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "like_love_hate",
+      "label": "Like / Love / Hate + -ing",
+      "items": [
+        {
+          "id": "like_love_hate",
+          "label": "Like / Love / Hate + -ing",
+          "level": "A1",
+          "definition": "Talking about preferences",
+          "practice_links": [
+            "grammar/topics/like-love-hate.html"
+          ]
+        }
+      ]
     }
   ]
 }

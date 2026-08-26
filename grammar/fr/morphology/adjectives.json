@@ -2,5 +2,66 @@
   "language": "fr",
   "category": "adjectives",
   "level": "A1-C2",
-  "groups": []
+  "groups": [
+    {
+      "id": "accord_des_adjectifs",
+      "label": "L'accord des adjectifs",
+      "items": [
+        {
+          "id": "accord_des_adjectifs",
+          "label": "L'accord des adjectifs",
+          "level": "A1",
+          "definition": "Masculin, féminin, singulier, pluriel",
+          "practice_links": [
+            "grammaire-francaise/topics/accord-des-adjectifs.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adjectifs_position",
+      "label": "Les adjectifs : position",
+      "items": [
+        {
+          "id": "adjectifs_position",
+          "label": "Les adjectifs : position",
+          "level": "A1",
+          "definition": "Avant ou après le nom ?",
+          "practice_links": [
+            "grammaire-francaise/topics/adjectifs-position.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comparatif",
+      "label": "Le comparatif",
+      "items": [
+        {
+          "id": "comparatif",
+          "label": "Le comparatif",
+          "level": "A2",
+          "definition": "Plus...que, moins...que, aussi...que",
+          "practice_links": [
+            "grammaire-francaise/topics/comparatif.html"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "superlatif",
+      "label": "Le superlatif",
+      "items": [
+        {
+          "id": "superlatif",
+          "label": "Le superlatif",
+          "level": "A2",
+          "definition": "Le/la/les plus... — comparer à tout le reste",
+          "practice_links": [
+            "grammaire-francaise/topics/superlatif.html"
+          ]
+        }
+      ]
+    }
+  ]
 }
