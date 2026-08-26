@@ -1,16 +1,7 @@
 #!/usr/bin/env python3
 """
 Generator script for COSYlanguages Monolingual A0-A1 Interactive Web Edition Grammar Manuals.
-Comprehensive CEFR A0-A1 curriculum coverage across:
-1. grammatica-italiana (Italian)
-2. gramatica-espanola (Spanish)
-3. deutsche-grammatik (German)
-4. gramatica-portuguesa (Portuguese)
-5. tatar-teli-grammatikasy (Tatar)
-6. bashqort-tele-grammatikahy (Bashkir)
-7. chavash-grammatika (Chuvash)
-8. hayots-lezvi-kerakanutyun (Armenian)
-9. qartuli-gramatika (Georgian)
+Pure Grammar Focus: Structural grammar rules, cases, declensions, verb tenses, and paradigms.
 """
 
 import os
@@ -18,7 +9,6 @@ import json
 
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
-# Universal CSS Blueprint
 SHARED_CSS = """/* COSYlanguages Monolingual Grammar Manual CSS */
 :root {
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -88,8 +78,7 @@ footer.site { border-top: 1px solid var(--border); background: var(--card-bg); p
 footer.site a { color: var(--role-subject); text-decoration: none; }
 """
 
-# Universal JS Blueprint
-SHARED_JS = """// COSYlanguages Monolingual Manual Interactivity Engine
+SHARED_JS = """// COSYlanguages Monolingual Grammar Manual Interactivity Engine
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.mflip').forEach(card => {
     card.addEventListener('click', () => card.classList.toggle('revealed'));
@@ -128,7 +117,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 UI_STRINGS = {
     "it": {
-        "table_head": ["Categoria", "Esempio / Struttura", "Uso / Note"],
         "notice_title": "👀 Attenzione",
         "memory_title": "💡 Trucco mnemonico",
         "mistake_title": "⚠️ Errori comuni",
@@ -138,7 +126,6 @@ UI_STRINGS = {
         "reset": "Ripristina"
     },
     "es": {
-        "table_head": ["Categoría", "Ejemplo / Estructura", "Uso / Notas"],
         "notice_title": "👀 Atención",
         "memory_title": "💡 Regla mnemotécnica",
         "mistake_title": "⚠️ Errores frecuentes",
@@ -148,7 +135,6 @@ UI_STRINGS = {
         "reset": "Reiniciar"
     },
     "de": {
-        "table_head": ["Kategorie", "Beispiel / Struktur", "Gebrauch / Hinweise"],
         "notice_title": "👀 Hinweis",
         "memory_title": "💡 Eselsbrücke",
         "mistake_title": "⚠️ Häufige Fehler",
@@ -158,7 +144,6 @@ UI_STRINGS = {
         "reset": "Zurücksetzen"
     },
     "pt": {
-        "table_head": ["Categoria", "Exemplo / Estrutura", "Uso / Notas"],
         "notice_title": "👀 Atenção",
         "memory_title": "💡 Dica mnemônica",
         "mistake_title": "⚠️ Erros comuns",
@@ -168,7 +153,6 @@ UI_STRINGS = {
         "reset": "Reiniciar"
     },
     "tt": {
-        "table_head": ["Төркем", "Мисал / Төзелеш", "Кулланыш / Искәрмә"],
         "notice_title": "👀 Игътибар",
         "memory_title": "💡 Истә калдыру ысулы",
         "mistake_title": "⚠️ Еш җибәрелә торган хаталар",
@@ -178,7 +162,6 @@ UI_STRINGS = {
         "reset": "Яңадан башлау"
     },
     "ba": {
-        "table_head": ["Төркөм", "Мисал / Төҙөлөш", "Ҡулланыу / Иҫкәрмә"],
         "notice_title": "👀 Иғтибар",
         "memory_title": "💡 Хәтерҙә ҡалдырыу ысулы",
         "mistake_title": "⚠️ Йыш ебәрелгән хаталар",
@@ -188,7 +171,6 @@ UI_STRINGS = {
         "reset": "Яңынан башлау"
     },
     "cv": {
-        "table_head": ["Тĕсĕ", "Тĕслĕх / Тытăмĕ", "Усă курни / Асăрхаттару"],
         "notice_title": "👀 Асăрхаттăр",
         "memory_title": "💡 Аста хурас мешĕ",
         "mistake_title": "⚠️ Еш пулакан йăнăшсем",
@@ -198,7 +180,6 @@ UI_STRINGS = {
         "reset": "Татах каялла"
     },
     "hy": {
-        "table_head": ["Կատեգորիա", "Օրինակ / Կառուցվածք", "Կիրառություն / Նշումներ"],
         "notice_title": "👀 Ուշադրություն",
         "memory_title": "💡 Հիշելու եղանակ",
         "mistake_title": "⚠️ Հաճախ հանդիպող սխալներ",
@@ -208,7 +189,6 @@ UI_STRINGS = {
         "reset": "Վերասկսել"
     },
     "ka": {
-        "table_head": ["კატეგორია", "მაგალითი / სტრუქტურა", "გამოყენება / შენიშვნა"],
         "notice_title": "👀 ყურადღება",
         "memory_title": "💡 დამახსოვრების წესი",
         "mistake_title": "⚠️ ხშირი შეცდომები",
@@ -232,7 +212,7 @@ MANUALS = [
                 "id": "capitolo-1", "file": "capitolo-1.html", "title": "Capitolo 1 · Nomi, articoli e genere", "subtitle": "Genere maschile e femminile, articoli determinativi e indeterminati", "stripe": "#3562e0",
                 "topics": [
                     {
-                        "slug": "genere-nomi", "title": "Genere dei nomi", "subtitle": "Maschile e femminile in italiano", "page_num": 1, "vocab_theme": "Famiglia e casa",
+                        "slug": "genere-nomi", "title": "Genere dei nomi", "subtitle": "Maschile e femminile in italiano", "page_num": 1,
                         "table_head": ["Genere", "Finale singolare", "Esempio singolare", "Finale plurale", "Esempio plurale"],
                         "table_rows": [
                             ["Maschile", "-o", "il ragazzo", "-i", "i ragazzi"],
@@ -246,7 +226,7 @@ MANUALS = [
                         "quiz": [{"q": "Qual è il plurale corretto di «la ragazza»?", "opts": ["le ragazzi", "le ragazze", "i ragazze"], "correct": 1, "explain": "I nomi femminili in -a formano il plurale in -e con l'articolo «le»."}]
                     },
                     {
-                        "slug": "articoli-determinativi", "title": "Articoli determinativi", "subtitle": "Il, lo, la, l', i, gli, le", "page_num": 2, "vocab_theme": "Oggetti quotidiani",
+                        "slug": "articoli-determinativi", "title": "Articoli determinativi", "subtitle": "Il, lo, la, l', i, gli, le", "page_num": 2,
                         "table_head": ["Genere e Numero", "Inizio parola", "Articolo", "Esempio"],
                         "table_rows": [
                             ["Maschile singolare", "Consonante generale", "il", "il libro"],
@@ -262,7 +242,7 @@ MANUALS = [
                         "quiz": [{"q": "Quale articolo si usa prima di «zaino»?", "opts": ["il zaino", "lo zaino", "un zaino"], "correct": 1, "explain": "Davanti alle parole che iniziano con Z si usa l'articolo «lo»."}]
                     },
                     {
-                        "slug": "articoli-indeterminativi", "title": "Articoli indeterminativi", "subtitle": "Un, uno, una, un'", "page_num": 3, "vocab_theme": "Città e acquisti",
+                        "slug": "articoli-indeterminativi", "title": "Articoli indeterminativi", "subtitle": "Un, uno, una, un'", "page_num": 3,
                         "table_head": ["Genere", "Inizio parola", "Articolo", "Esempio"],
                         "table_rows": [
                             ["Maschile", "Consonante / Vocale", "un", "un libro / un amico"],
@@ -277,7 +257,7 @@ MANUALS = [
                         "quiz": [{"q": "Qual è la forma corretta per un sostantivo femminile che inizia per vocale?", "opts": ["un amica", "uno amica", "un'amica"], "correct": 2, "explain": "L'articolo femminile davanti a vocale elide in un' con apostrofo."}]
                     },
                     {
-                        "slug": "singolare-plurale", "title": "Singolare e plurale", "subtitle": "Trasformazione delle desinenze", "page_num": 4, "vocab_theme": "Cibo e bevande",
+                        "slug": "singolare-plurale", "title": "Singolare e plurale", "subtitle": "Trasformazione delle desinenze", "page_num": 4,
                         "table_head": ["Singolare", "Plurale", "Esempio singolare", "Esempio plurale"],
                         "table_rows": [
                             ["-o", "-i", "il gelato", "i gelati"],
@@ -296,7 +276,7 @@ MANUALS = [
                 "id": "capitolo-2", "file": "capitolo-2.html", "title": "Capitolo 2 · Verbi essenziali e presente", "subtitle": "Essere, avere, verbi in -are, -ere, -ire", "stripe": "#1c8f56",
                 "topics": [
                     {
-                        "slug": "essere-avere", "title": "Verbi essere e avere", "subtitle": "I due ausiliari fondamentali", "page_num": 5, "vocab_theme": "Presentazioni",
+                        "slug": "essere-avere", "title": "Verbi essere e avere", "subtitle": "I due ausiliari fondamentali", "page_num": 5,
                         "table_head": ["Pronome", "Essere", "Avere"],
                         "table_rows": [
                             ["io", "sono", "ho"],
@@ -313,7 +293,7 @@ MANUALS = [
                         "quiz": [{"q": "Come si dice «Lei ha un libro»?", "opts": ["Lei è un libro", "Lei ha un libro", "Lei ho un libro"], "correct": 1, "explain": "Per esprimere il possesso con lei si usa «ha»."}]
                     },
                     {
-                        "slug": "presente-regolare", "title": "Presente indicativo regolare", "subtitle": "Coniugazione delle tre coniugazioni -are, -ere, -ire", "page_num": 6, "vocab_theme": "Attività quotidiane",
+                        "slug": "presente-regolare", "title": "Presente indicativo regolare", "subtitle": "Coniugazione delle tre coniugazioni -are, -ere, -ire", "page_num": 6,
                         "table_head": ["Pronome", "-ARE (parlare)", "-ERE (prendere)", "-IRE (dormire)"],
                         "table_rows": [
                             ["io", "parlo", "prendo", "dormo"],
@@ -330,7 +310,7 @@ MANUALS = [
                         "quiz": [{"q": "Qual è la forma corretta per «noi» con il verbo «prendere»?", "opts": ["prendiamo", "prendete", "prendono"], "correct": 0, "explain": "Per la prima persona plurale «noi» la desinenza è «-iamo»: prendiamo."}]
                     },
                     {
-                        "slug": "verbi-modali", "title": "Verbi modali (dovere, potere, volere)", "subtitle": "Esprimere necessità, possibilità e volontà", "page_num": 7, "vocab_theme": "Lavoro e richieste",
+                        "slug": "verbi-modali", "title": "Verbi modali (dovere, potere, volere)", "subtitle": "Esprimere necessità, possibilità e volontà", "page_num": 7,
                         "table_head": ["Pronome", "Dovere", "Potere", "Volere"],
                         "table_rows": [
                             ["io", "devo", "posso", "voglio"],
@@ -347,7 +327,7 @@ MANUALS = [
                         "quiz": [{"q": "Come si dice «I want to learn»?", "opts": ["Voglio imparare", "Devo imparare", "Posso imparare"], "correct": 0, "explain": "Il verbo volere esprime desiderio: «Voglio imparare»."}]
                     },
                     {
-                        "slug": "passato-prossimo", "title": "Passato prossimo", "subtitle": "Ausiliare essere o avere + participio passato", "page_num": 8, "vocab_theme": "Eventi passati",
+                        "slug": "passato-prossimo", "title": "Passato prossimo", "subtitle": "Ausiliare essere o avere + participio passato", "page_num": 8,
                         "table_head": ["Coniugazione", "Infinito", "Participio passato", "Esempio"],
                         "table_rows": [
                             ["-are", "parlare", "parlato", "Ho parlato"],
@@ -367,7 +347,7 @@ MANUALS = [
                 "id": "capitolo-3", "file": "capitolo-3.html", "title": "Capitolo 3 · Aggettivi, pronomi e preposizioni", "subtitle": "Qualità, possesso e preposizioni articolate", "stripe": "#c9740a",
                 "topics": [
                     {
-                        "slug": "aggettivi-qualificativi", "title": "Aggettivi qualificativi", "subtitle": "Accordo in genere e numero", "page_num": 9, "vocab_theme": "Descrizione",
+                        "slug": "aggettivi-qualificativi", "title": "Aggettivi qualificativi", "subtitle": "Accordo in genere e numero", "page_num": 9,
                         "table_head": ["Classe", "Maschile Singolare", "Femminile Singolare", "Plurale"],
                         "table_rows": [
                             ["4 uscite", "rosso", "rossa", "rossi / rosse"],
@@ -380,7 +360,7 @@ MANUALS = [
                         "quiz": [{"q": "Come si dice «a red car» in italiano?", "opts": ["una macchina rosso", "una macchina rossa", "un macchina rossa"], "correct": 1, "explain": "«Macchina» è femminile, quindi l'aggettivo deve concordare: «rossa»."}]
                     },
                     {
-                        "slug": "pronomi-possessivi", "title": "Possessivi e dimostrativi", "subtitle": "Il mio, il tuo, questo, quello", "page_num": 10, "vocab_theme": "Proprietà e oggetti",
+                        "slug": "pronomi-possessivi", "title": "Possessivi e dimostrativi", "subtitle": "Il mio, il tuo, questo, quello", "page_num": 10,
                         "table_head": ["Possessore", "Maschile Singolare", "Femminile Singolare", "Plurale"],
                         "table_rows": [
                             ["io", "il mio", "la mia", "i miei / le mie"],
@@ -394,7 +374,7 @@ MANUALS = [
                         "quiz": [{"q": "Qual è la forma corretta per «my house»?", "opts": ["mia casa", "la mia casa", "una mia casa"], "correct": 1, "explain": "In italiano si usa l'articolo determinativo prima del possessivo: «la mia casa»."}]
                     },
                     {
-                        "slug": "preposizioni-semplici", "title": "Preposizioni semplici e articolate", "subtitle": "Di, a, da, in, con, su, per, tra, fra", "page_num": 11, "vocab_theme": "Luoghi e trasporti",
+                        "slug": "preposizioni-semplici", "title": "Preposizioni semplici e articolate", "subtitle": "Di, a, da, in, con, su, per, tra, fra", "page_num": 11,
                         "table_head": ["Preposizione", "+ il", "+ lo", "+ la", "+ i", "+ le"],
                         "table_rows": [
                             ["a", "al", "allo", "alla", "ai", "alle"],
@@ -409,7 +389,7 @@ MANUALS = [
                         "quiz": [{"q": "Come si dice «I go to Rome»?", "opts": ["Vado in Roma", "Vado a Roma", "Vado da Roma"], "correct": 1, "explain": "Con i nomi di città si usa la preposizione «a»."}]
                     },
                     {
-                        "slug": "interrogativi", "title": "Pronomi e avverbi interrogativi", "subtitle": "Chi, che cosa, dove, quando, perché", "page_num": 12, "vocab_theme": "Domande frequenti",
+                        "slug": "interrogativi", "title": "Pronomi e avverbi interrogativi", "subtitle": "Chi, che cosa, dove, quando, perché", "page_num": 12,
                         "table_head": ["Parola interrogativa", "Significato", "Esempio"],
                         "table_rows": [
                             ["Chi", "Persona", "Chi è lui?"],
@@ -440,7 +420,7 @@ MANUALS = [
                 "id": "capitulo-1", "file": "capitulo-1.html", "title": "Capítulo 1 · Sustantivos y artículos", "subtitle": "Género gramatical, artículos determinados e indeterminados", "stripe": "#c9740a",
                 "topics": [
                     {
-                        "slug": "genero-sustantivos", "title": "El género de los sustantivos", "subtitle": "Masculino y femenino en español", "page_num": 1, "vocab_theme": "Familia y casa",
+                        "slug": "genero-sustantivos", "title": "El género de los sustantivos", "subtitle": "Masculino y femenino en español", "page_num": 1,
                         "table_head": ["Género", "Terminación", "Ejemplo singular", "Ejemplo plural"],
                         "table_rows": [
                             ["Masculino", "-o", "el libro", "los libros"],
@@ -454,7 +434,7 @@ MANUALS = [
                         "quiz": [{"q": "¿Cuál es el plural correcto de «la casa»?", "opts": ["las casa", "las casas", "los casas"], "correct": 1, "explain": "El plural femenino de «la casa» es «las casas»."}]
                     },
                     {
-                        "slug": "articulos-definidos", "title": "Artículos determinados e indeterminados", "subtitle": "El, la, los, las / un, una, unos, unas", "page_num": 2, "vocab_theme": "Objetos cotidianos",
+                        "slug": "articulos-definidos", "title": "Artículos determinados e indeterminados", "subtitle": "El, la, los, las / un, una, unos, unas", "page_num": 2,
                         "table_head": ["Tipo", "Masculino Singular", "Femenino Singular", "Masculino Plural", "Femenino Plural"],
                         "table_rows": [
                             ["Determinado", "el libro", "la mesa", "los libros", "las mesas"],
@@ -467,7 +447,7 @@ MANUALS = [
                         "quiz": [{"q": "¿Qué artículo indeterminado corresponde a «mesa»?", "opts": ["un mesa", "una mesa", "unos mesa"], "correct": 1, "explain": "«Mesa» es femenino, por lo que requiere «una»."}]
                     },
                     {
-                        "slug": "plural-sustantivos", "title": "Formación del plural", "subtitle": "Reglas para vocales y consonantes", "page_num": 3, "vocab_theme": "Compras y mercado",
+                        "slug": "plural-sustantivos", "title": "Formación del plural", "subtitle": "Reglas para vocales y consonantes", "page_num": 3,
                         "table_head": ["Terminación singular", "Regla de plural", "Ejemplo singular", "Ejemplo plural"],
                         "table_rows": [
                             ["Vocal no acentuada", "Añadir -s", "la manzana", "las manzanas"],
@@ -486,7 +466,7 @@ MANUALS = [
                 "id": "capitulo-2", "file": "capitulo-2.html", "title": "Capítulo 2 · Verbos fundamentales", "subtitle": "Ser vs Estar y presente regular", "stripe": "#1c8f56",
                 "topics": [
                     {
-                        "slug": "ser-vs-estar", "title": "Ser vs Estar", "subtitle": "Diferencias clave entre los dos verbos", "page_num": 4, "vocab_theme": "Presentaciones y lugares",
+                        "slug": "ser-vs-estar", "title": "Ser vs Estar", "subtitle": "Diferencias clave entre los dos verbos", "page_num": 4,
                         "table_head": ["Verbo", "Uso principal", "Ejemplo"],
                         "table_rows": [
                             ["Ser", "Identidad, origen, profesión, características permanentes", "Yo soy profesor / Ella es de España"],
@@ -499,7 +479,7 @@ MANUALS = [
                         "quiz": [{"q": "¿Cómo se dice «Where are you?»?", "opts": ["¿Dónde eres?", "¿Dónde estás?", "¿Dónde tienes?"], "correct": 1, "explain": "Para preguntar la ubicación se usa el verbo «estar»."}]
                     },
                     {
-                        "slug": "presente-indicativo", "title": "Presente de indicativo", "subtitle": "Verbos regulares -ar, -er, -ir", "page_num": 5, "vocab_theme": "Rutina diaria",
+                        "slug": "presente-indicativo", "title": "Presente de indicativo", "subtitle": "Verbos regulares -ar, -er, -ir", "page_num": 5,
                         "table_head": ["Pronombre", "-AR (hablar)", "-ER (comer)", "-IR (vivir)"],
                         "table_rows": [
                             ["yo", "hablo", "como", "vivo"],
@@ -516,7 +496,7 @@ MANUALS = [
                         "quiz": [{"q": "¿Cuál es la forma correcta para «nosotros» con el verbo «comer»?", "opts": ["comemos", "comen", "coméis"], "correct": 0, "explain": "La terminación para nosotros en verbos -er es «-emos»: comemos."}]
                     },
                     {
-                        "slug": "hay-vs-esta", "title": "Hay vs Está/Están", "subtitle": "Existencia vs ubicación", "page_num": 6, "vocab_theme": "La ciudad y el barrio",
+                        "slug": "hay-vs-esta", "title": "Hay vs Está/Están", "subtitle": "Existencia vs ubicación", "page_num": 6,
                         "table_head": ["Forma", "Función", "Ejemplo"],
                         "table_rows": [
                             ["Hay", "Existencia de algo indeterminado", "Hay un parque cerca / Hay muchos coches"],
@@ -529,7 +509,7 @@ MANUALS = [
                         "quiz": [{"q": "¿Cómo se dice «There is a hotel near here»?", "opts": ["Está un hotel cerca de aquí", "Hay un hotel cerca de aquí", "Es un hotel cerca de aquí"], "correct": 1, "explain": "Para expresar la existencia de algo indeterminado se usa «Hay»."}]
                     },
                     {
-                        "slug": "pretérito-perfecto", "title": "Pretérito perfecto compuesto", "subtitle": "Verbo haber + participio", "page_num": 7, "vocab_theme": "Experiencias recientes",
+                        "slug": "pretérito-perfecto", "title": "Pretérito perfecto compuesto", "subtitle": "Verbo haber + participio", "page_num": 7,
                         "table_head": ["Pronombre", "Haber", "Participio (-ar -> -ado / -er,-ir -> -ido)"],
                         "table_rows": [
                             ["yo", "he", "hablado / comido"],
@@ -557,10 +537,10 @@ MANUALS = [
         "back_link": "Zurück zu COSYlanguages",
         "sections": [
             {
-                "id": "kapitel-1", "file": "kapitel-1.html", "title": "Kapitel 1 · Nomen, Artikel und Fälle", "subtitle": "Der, die, das, Plural und Nominativ/Akkusativ", "stripe": "#1c8f56",
+                "id": "kapitel-1", "file": "kapitel-1.html", "title": "Kapitel 1 · Nomen und Artikel", "subtitle": "Der, die, das, Plural und Nominativ/Akkusativ", "stripe": "#1c8f56",
                 "topics": [
                     {
-                        "slug": "artikel-und-genus", "title": "Artikel und Genus", "subtitle": "Maskulin, Feminin und Neutral im Deutschen", "page_num": 1, "vocab_theme": "Alltag und Objekte",
+                        "slug": "artikel-und-genus", "title": "Artikel und Genus", "subtitle": "Maskulin, Feminin und Neutral im Deutschen", "page_num": 1,
                         "table_head": ["Genus", "Bestimmter Artikel", "Unbestimmter Artikel", "Plural"],
                         "table_rows": [
                             ["Maskulin", "der Mann", "ein Mann", "die Männer"],
@@ -574,7 +554,7 @@ MANUALS = [
                         "quiz": [{"q": "Welcher Artikel passt zu «Frau»?", "opts": ["der", "die", "das"], "correct": 1, "explain": "«Frau» ist feminin: die Frau."}]
                     },
                     {
-                        "slug": "nominativ-und-akkusativ", "title": "Nominativ und Akkusativ", "subtitle": "Subjekt und direktes Objekt", "page_num": 2, "vocab_theme": "Einkaufen und Essen",
+                        "slug": "nominativ-und-akkusativ", "title": "Nominativ und Akkusativ", "subtitle": "Subjekt und direktes Objekt", "page_num": 2,
                         "table_head": ["Kasus", "Maskulin", "Feminin", "Neutral", "Plural"],
                         "table_rows": [
                             ["Nominativ (Subjekt)", "der / ein", "die / eine", "das / ein", "die"],
@@ -587,7 +567,7 @@ MANUALS = [
                         "quiz": [{"q": "Wie heißt der Akkusativ von «der Apfel» in «Ich kaufe ...»?", "opts": ["der Apfel", "den Apfel", "dem Apfel"], "correct": 1, "explain": "«Apfel» ist maskulin und Akkusativobjekt: den Apfel."}]
                     },
                     {
-                        "slug": "personalpronomen", "title": "Personalpronomen und Possessivartikel", "subtitle": "Ich, du, er, sie, es, mein, dein", "page_num": 3, "vocab_theme": "Familie und Freunde",
+                        "slug": "personalpronomen", "title": "Personalpronomen und Possessivartikel", "subtitle": "Ich, du, er, sie, es, mein, dein", "page_num": 3,
                         "table_head": ["Personalpronomen", "Possessivartikel (Maskulin/Neutral)", "Possessivartikel (Feminin/Plural)"],
                         "table_rows": [
                             ["ich", "mein Vater", "meine Mutter"],
@@ -608,7 +588,7 @@ MANUALS = [
                 "id": "kapitel-2", "file": "kapitel-2.html", "title": "Kapitel 2 · Verben und Satzbau", "subtitle": "Präsens, Modalverben und V2-Wortstellung", "stripe": "#3562e0",
                 "topics": [
                     {
-                        "slug": "praesens-regelmaessig", "title": "Präsens regelmäßiger Verben", "subtitle": "Endungen im Präsens (-e, -st, -t, -en)", "page_num": 4, "vocab_theme": "Freizeit und Hobbys",
+                        "slug": "praesens-regelmaessig", "title": "Präsens regelmäßiger Verben", "subtitle": "Endungen im Präsens (-e, -st, -t, -en)", "page_num": 4,
                         "table_head": ["Pronomen", "Endung", "Beispiel (lernen)", "Beispiel (machen)"],
                         "table_rows": [
                             ["ich", "-e", "lerne", "mache"],
@@ -625,7 +605,7 @@ MANUALS = [
                         "quiz": [{"q": "Welche Endung gehört zu «du»?", "opts": ["-e", "-st", "-t"], "correct": 1, "explain": "Die Endung für die zweite Person Singular «du» ist «-st»."}]
                     },
                     {
-                        "slug": "sein-und-haben", "title": "Verben sein und haben", "subtitle": "Die zwei wichtigsten Hilfsverben", "page_num": 5, "vocab_theme": "Persönliche Angaben",
+                        "slug": "sein-und-haben", "title": "Verben sein und haben", "subtitle": "Die zwei wichtigsten Hilfsverben", "page_num": 5,
                         "table_head": ["Personalpronomen", "sein", "haben"],
                         "table_rows": [
                             ["ich", "bin", "habe"],
@@ -642,7 +622,7 @@ MANUALS = [
                         "quiz": [{"q": "Wie heißt die richtige Form für «du» bei «sein»?", "opts": ["du bin", "du bist", "du ist"], "correct": 1, "explain": "Die Form für du lautet «bist»."}]
                     },
                     {
-                        "slug": "modalverben", "title": "Modalverben (können, müssen, wollen)", "subtitle": "Bedeutung und Satzstellung", "page_num": 6, "vocab_theme": "Beruf und Pflichten",
+                        "slug": "modalverben", "title": "Modalverben (können, müssen, wollen)", "subtitle": "Bedeutung und Satzstellung", "page_num": 6,
                         "table_head": ["Pronomen", "können", "müssen", "wollen"],
                         "table_rows": [
                             ["ich", "kann", "muss", "will"],
@@ -657,7 +637,7 @@ MANUALS = [
                         "quiz": [{"q": "Wo steht der Infinitiv bei einem Satz mit Modalverb?", "opts": ["An Position 1", "An Position 2", "Ganz am Ende"], "correct": 2, "explain": "Der Infinitiv steht im Hauptsatz mit Modalverb ganz am Satzende."}]
                     },
                     {
-                        "slug": "perfekt", "title": "Perfekt mit haben und sein", "subtitle": "Vergangenheit im Alltag", "page_num": 7, "vocab_theme": "Reisen und Erlebnisse",
+                        "slug": "perfekt", "title": "Perfekt mit haben und sein", "subtitle": "Vergangenheit im Alltag", "page_num": 7,
                         "table_head": ["Hilfsverb", "Verwendung", "Partizip II Form", "Beispiel"],
                         "table_rows": [
                             ["haben", "Meiste Verben / Transitiv", "ge- + Stamm + -t", "Ich habe gelernt"],
@@ -685,7 +665,7 @@ MANUALS = [
                 "id": "capitulo-1", "file": "capitulo-1.html", "title": "Capítulo 1 · Substantivos e artigos", "subtitle": "Gênero gramatical, artigos definidos e indefinidos", "stripe": "#7c4fd6",
                 "topics": [
                     {
-                        "slug": "genero-dos-substantivos", "title": "Gênero dos substantivos", "subtitle": "Masculino e feminino em português", "page_num": 1, "vocab_theme": "Família e casa",
+                        "slug": "genero-dos-substantivos", "title": "Gênero dos substantivos", "subtitle": "Masculino e feminino em português", "page_num": 1,
                         "table_head": ["Gênero", "Terminação", "Exemplo singular", "Exemplo plural"],
                         "table_rows": [
                             ["Masculino", "-o", "o livro", "os livros"],
@@ -698,8 +678,8 @@ MANUALS = [
                         "quiz": [{"q": "Qual é o plural correto de «a casa»?", "opts": ["as casa", "as casas", "os casas"], "correct": 1, "explain": "O plural feminino de «a casa» é «as casas»."}]
                     },
                     {
-                        "slug": "artigos-definidos", "title": "Artigos definidos e indefinidos", "subtitle": "O, a, os, as / um, uma, uns, umas", "page_num": 2, "vocab_theme": "Objetos do dia a dia",
-                        "table_head": ["Tipo", "Masculino Singolar", "Feminino Singular", "Masculino Plural", "Feminino Plural"],
+                        "slug": "artigos-definidos", "title": "Artigos definidos e indefinidos", "subtitle": "O, a, os, as / um, uma, uns, umas", "page_num": 2,
+                        "table_head": ["Tipo", "Masculino Singular", "Feminino Singular", "Masculino Plural", "Feminino Plural"],
                         "table_rows": [
                             ["Definido", "o carro", "a mesa", "os carros", "as mesas"],
                             ["Indefinido", "um carro", "uma mesa", "uns carros", "umas mesas"]
@@ -711,7 +691,7 @@ MANUALS = [
                         "quiz": [{"q": "Qual é o artigo indefinido feminino singular?", "opts": ["um", "uma", "uns"], "correct": 1, "explain": "O artigo indefinido feminino singular é «uma»."}]
                     },
                     {
-                        "slug": "plural-dos-substantivos", "title": "Formação do plural", "subtitle": "Regras gerais para vogais e consoantes", "page_num": 3, "vocab_theme": "Compras e comércio",
+                        "slug": "plural-dos-substantivos", "title": "Formação do plural", "subtitle": "Regras gerais para vogais e consoantes", "page_num": 3,
                         "table_head": ["Terminação", "Regra de Plural", "Exemplo singular", "Exemplo plural"],
                         "table_rows": [
                             ["Vogal", "Adicionar -s", "o livro", "os livros"],
@@ -730,7 +710,7 @@ MANUALS = [
                 "id": "capitulo-2", "file": "capitulo-2.html", "title": "Capítulo 2 · Verbos fundamentais", "subtitle": "Ser vs Estar e presente do indicativo", "stripe": "#1c8f56",
                 "topics": [
                     {
-                        "slug": "ser-vs-estar", "title": "Ser vs Estar", "subtitle": "Diferenças essenciais entre os dois verbos", "page_num": 4, "vocab_theme": "Apresentações e lugares",
+                        "slug": "ser-vs-estar", "title": "Ser vs Estar", "subtitle": "Diferenças essenciais entre os dois verbos", "page_num": 4,
                         "table_head": ["Verbo", "Uso principal", "Exemplo"],
                         "table_rows": [
                             ["Ser", "Identidade permanente, nacionalidade, profissão", "Eu sou professor / Ela é do Brasil"],
@@ -743,7 +723,7 @@ MANUALS = [
                         "quiz": [{"q": "Como se diz «She is tired»?", "opts": ["Ela é cansada", "Ela está cansada", "Ela tem cansada"], "correct": 1, "explain": "Para estados temporários como cansaço, usa-se o verbo «estar»."}]
                     },
                     {
-                        "slug": "presente-do-indicativo", "title": "Presente do indicativo", "subtitle": "Conjugação dos verbos regulares em -ar, -er, -ir", "page_num": 5, "vocab_theme": "Rotina diária",
+                        "slug": "presente-do-indicativo", "title": "Presente do indicativo", "subtitle": "Conjugação dos verbos regulares em -ar, -er, -ir", "page_num": 5,
                         "table_head": ["Pronombre", "-AR (falar)", "-ER (comer)", "-IR (abrir)"],
                         "table_rows": [
                             ["eu", "falo", "como", "abro"],
@@ -759,7 +739,7 @@ MANUALS = [
                         "quiz": [{"q": "Qual é a forma correta para «nós» no verbo «comer»?", "opts": ["comemos", "comem", "comes"], "correct": 0, "explain": "A terminação de primeira pessoa do plural para verbos em -er é «-emos»: comemos."}]
                     },
                     {
-                        "slug": "preterito-perfeito", "title": "Pretérito perfeito simples", "subtitle": "Ações concluídas no passado", "page_num": 6, "vocab_theme": "Viagens e lembranças",
+                        "slug": "preterito-perfeito", "title": "Pretérito perfeito simples", "subtitle": "Ações concluídas no passado", "page_num": 6,
                         "table_head": ["Pronombre", "-AR (falar)", "-ER (comer)", "-IR (abrir)"],
                         "table_rows": [
                             ["eu", "falei", "comi", "abri"],
@@ -790,7 +770,7 @@ MANUALS = [
                 "id": "bulek-1", "file": "bulek-1.html", "title": "1 нче бүлек · Сингармонизм һәм килешләр", "subtitle": "Сузыклар гармониясе һәм татар теленең 6 килеше", "stripe": "#3562e0",
                 "topics": [
                     {
-                        "slug": "singarmonizm", "title": "Сузыклар сингарнизмы", "subtitle": "Калын һәм нечкә сузыклар кагыйдәсе", "page_num": 1, "vocab_theme": "Сүзләр һәм авазлар",
+                        "slug": "singarmonizm", "title": "Сузыклар сингарнизмы", "subtitle": "Калын һәм нечкә сузыклар кагыйдәсе", "page_num": 1,
                         "table_head": ["Төр", "Сузыклар", "Мисал", "Кушымча мисалы"],
                         "table_rows": [
                             ["Калын сузыклар", "а, о, у, ы", "кала (шәһәр)", "кала-да"],
@@ -803,7 +783,7 @@ MANUALS = [
                         "quiz": [{"q": "«Өй» сүзенә кайсы урын-вакыт кушымчасы ялгана?", "opts": ["-да", "-дә", "-та"], "correct": 1, "explain": "«Өй» — нечкә сузыклы сүз, шуңа күрә «-дә» кушымчасы ялгана."}]
                     },
                     {
-                        "slug": "kileshlar", "title": "Татар теленең 6 килеше", "subtitle": "Баш, иялек, юнәлеш, төшем, чыгыш, урын-вакыт", "page_num": 2, "vocab_theme": "Өй һәм шәһәр",
+                        "slug": "kileshlar", "title": "Татар теленең 6 килеше", "subtitle": "Баш, иялек, юнәлеш, төшем, чыгыш, урын-вакыт", "page_num": 2,
                         "table_head": ["Килеш", "Сораулар", "Калын кушымча", "Мисал (мәктәп)"],
                         "table_rows": [
                             ["Баш килеш", "Кем? Нәрсә?", "—", "мәктәп"],
@@ -820,7 +800,7 @@ MANUALS = [
                         "quiz": [{"q": "«Кала» сүзенә чыгыш килеш кушымчасы кайсы?", "opts": ["-дан", "-дән", "-тан"], "correct": 0, "explain": "«Кала» — калын сузыклы һәм сузыкка тәмамлана, шуңа күрә «-дан»."}]
                     },
                     {
-                        "slug": "iyalek-kushymchalary", "title": "Иялек кушымчалары", "subtitle": "Минем, синең, аның кушымчалары", "page_num": 3, "vocab_theme": "Гаилә һәм туганнар",
+                        "slug": "iyalek-kushymchalary", "title": "Иялек кушымчалары", "subtitle": "Минем, синең, аның кушымчалары", "page_num": 3,
                         "table_head": ["Зат", "Алышма", "Кушымча (сузыкка)", "Мисал (китап)"],
                         "table_rows": [
                             ["1 нче зат", "минем", "-м / -ым / -ем", "китабым"],
@@ -832,7 +812,7 @@ MANUALS = [
                         "mnemonic": "Минем китабым, синең китабың, аның китабы.",
                         "mistakes": [{"wrong": "минем китапсы", "right": "минем китабым"}],
                         "check_items": ["Иялек кушымчаларын ялгау", "Затлар буенча дөрес куллану"],
-                        "quiz": [{"q": "«Минем» сүзе белән кайсы форма дөрес?", "opts": ["китабым", "китабың", "китабы"], "correct": 0, "explain": "Первая persona singular (минем) требует окончание «-м/-ым/-ем»: китабым."}]
+                        "quiz": [{"q": "«Минем» сүзе белән кайсы форма дөрес?", "opts": ["китабым", "китабың", "китабы"], "correct": 0, "explain": "Минем (моя/мой) өчен -м/-ым/-ем кушымчасы: китабым."}]
                     }
                 ]
             },
@@ -840,7 +820,7 @@ MANUALS = [
                 "id": "bulek-2", "file": "bulek-2.html", "title": "2 нче бүлек · Фигыльләр һәм заманнар", "subtitle": "Хәзерге, үткән һәм киләчәк заман фигыльләре", "stripe": "#1c8f56",
                 "topics": [
                     {
-                        "slug": "hazierge-zaman", "title": "Хәзерге заман фигыльләр", "subtitle": "Фигыльнең хәзерге заман кушымчалары", "page_num": 4, "vocab_theme": "Көн тәртибе",
+                        "slug": "hazierge-zaman", "title": "Хәзерге заман фигыльләр", "subtitle": "Фигыльнең хәзерге заман кушымчалары", "page_num": 4,
                         "table_head": ["Зат", "Алышма", "Фигыль мисалы (уку)"],
                         "table_rows": [
                             ["1 нче зат (берлек)", "мин", "укыйм"],
@@ -857,7 +837,7 @@ MANUALS = [
                         "quiz": [{"q": "«Без» (күплек) заты өчен кайсы форма дөрес?", "opts": ["укыйм", "укыйбыз", "укыйлар"], "correct": 1, "explain": "«Без» заты өчен -быз/-без кушымчасы ялгана: укыйбыз."}]
                     },
                     {
-                        "slug": "utkan-zaman", "title": "Үткән заман фигыльләр", "subtitle": "Билгеле үткән заман (-ды/-де/-ты/-те)", "page_num": 5, "vocab_theme": "Тарих һәм вакыйгалар",
+                        "slug": "utkan-zaman", "title": "Үткән заман фигыльләр", "subtitle": "Билгеле үткән заман (-ды/-де/-ты/-те)", "page_num": 5,
                         "table_head": ["Зат", "Алышма", "Мисал (язу)"],
                         "table_rows": [
                             ["1 нче зат", "мин", "яздым"],
@@ -872,7 +852,7 @@ MANUALS = [
                         "quiz": [{"q": "«Мин» заты өчен үткән заман кушымчасы кайсы?", "opts": ["-дым", "-дың", "-ды"], "correct": 0, "explain": "Мин яздым (-дым)."}]
                     },
                     {
-                        "slug": "kilechak-zaman", "title": "Киләчәк заман фигыльләр", "subtitle": "Билгеле киләчәк заман (-ачак/-әчәк)", "page_num": 6, "vocab_theme": "Планнар һәм максатлар",
+                        "slug": "kilechak-zaman", "title": "Киләчәк заман фигыльләр", "subtitle": "Билгеле киләчәк заман (-ачак/-әчәк)", "page_num": 6,
                         "table_head": ["Зат", "Алышма", "Мисал (бару)"],
                         "table_rows": [
                             ["1 нче зат", "мин", "барачакмын"],
@@ -901,7 +881,7 @@ MANUALS = [
                 "id": "bulek-1", "file": "bulek-1.html", "title": "1-се бүлек · Өндәр һәм килештәр", "subtitle": "Сингармонизм кағиҙәләре һәм башҡорт теленең килештәре", "stripe": "#1c9483",
                 "topics": [
                     {
-                        "slug": "haudhaktar-hahem-affikstar", "title": "Һуҙынҡылар һәм аффикстар", "subtitle": "Башҡорт телендә сингармонизм кағиҙәһе", "page_num": 1, "vocab_theme": "Тәүге һүҙҙәр",
+                        "slug": "haudhaktar-hahem-affikstar", "title": "Һуҙынҡылар һәм аффикстар", "subtitle": "Башҡорт телендә сингармонизм кағиҙәһе", "page_num": 1,
                         "table_head": ["Төр", "Һуҙынҡылар", "Мисал", "Аффикс мисалы"],
                         "table_rows": [
                             ["Ҡалындар", "а, о, у, ы", "ҡала (город)", "ҡала-ҙа"],
@@ -914,11 +894,11 @@ MANUALS = [
                         "quiz": [{"q": "«Өй» һүҙенә ниндәй урын-ваҡыт аффиксы ҡушыла?", "opts": ["-ҙа", "-ҙә", "-та"], "correct": 1, "explain": "«Өй» — нескә һүҙ, шуға күрә «-ҙә» аффиксы ҡушыла."}]
                     },
                     {
-                        "slug": "kileshtar", "title": "Башҡорт теленең килештәре", "subtitle": "Төп, эйәлек, төбәү, түшәм, урын-ваҡыт, сығыш", "page_num": 2, "vocab_theme": "Ғәилә һәм өй",
+                        "slug": "kileshtar", "title": "Башҡорт теленең килештәре", "subtitle": "Төп, эйәлек, төбәү, түшәм, урын-ваҡыт, сығыш", "page_num": 2,
                         "table_head": ["Килеш", "Һорауҙар", "Аффикс", "Мисал (мәктәп)"],
                         "table_rows": [
                             ["Төп килеш", "Кем? Нәмә?", "—", "мәктәп"],
-                            ["Эйәлек килеш", "Кемдең? Нәмәнең?", "-тың / -нең", "мәктәпнең"],
+                            ["Эйәлек килеш", "Кемдең? Нәмәнең?", "-тың / -нең", "мәктәптең"],
                             ["Төбәү килеш", "Кемгә? Нәмәгә?", "-ға / -гә / -ҡа / -кә", "мәктәпкә"],
                             ["Түшәм килеш", "Кемде? Нәмәне?", "-ны / -не", "мәктәпне"],
                             ["Урын-ваҡыт", "Кемдә? Нәмәдә?", "-ла / -лә / -та / -тә", "мәктәптә"],
@@ -946,7 +926,7 @@ MANUALS = [
                 "id": "pay-1", "file": "pay-1.html", "title": "1-мĕш пай · Сасăсем тата падежсем", "subtitle": "Чăваш чĕлхин сингармонизмĕ тата падежсем", "stripe": "#c9740a",
                 "topics": [
                     {
-                        "slug": "sasamssam-tata-singarmonizm", "title": "Сасăсем тата сингармонизм", "subtitle": "Хытă тата çемçе сасăсен калăпăшĕ", "page_num": 1, "vocab_theme": "Сăмахсем",
+                        "slug": "sasamssam-tata-singarmonizm", "title": "Сасăсем тата сингармонизм", "subtitle": "Хытă тата çемçе сасăсен калăпăшĕ", "page_num": 1,
                         "table_head": ["Тĕсĕ", "Уçă сасăсем", "Тĕслĕх", "Аффикс тĕслĕхĕ"],
                         "table_rows": [
                             ["Хытă сасăсем", "а, о, у, ы", "яла (деревня)", "ял-та"],
@@ -959,7 +939,7 @@ MANUALS = [
                         "quiz": [{"q": "«Ял» сăмахне мĕнле аффикс хушăнать?", "opts": ["-та", "-те", "-ти"], "correct": 0, "explain": "«Ял» — хытă сасăллă сăмах, шунпа «-та» аффикс хушăнать."}]
                     },
                     {
-                        "slug": "padezhsem", "title": "Чăваш чĕлхин 8 падежĕ", "subtitle": "Ят, илек, пĕрлештерӳ тата ытти падежсем", "page_num": 2, "vocab_theme": "Çемье тата ял",
+                        "slug": "padezhsem", "title": "Чăваш чĕлхин 8 падежĕ", "subtitle": "Ят, илек, пĕрлештерӳ тата ытти падежсем", "page_num": 2,
                         "table_head": ["Падеж", "Ыйтусем", "Аффикс", "Тĕслĕх (кил)"],
                         "table_rows": [
                             ["Ят падежĕ", "Кам? Мĕн?", "—", "кил"],
@@ -988,7 +968,7 @@ MANUALS = [
                 "id": "mas-1", "file": "mas-1.html", "title": "Մաս 1 · Գոյական և հոլովներ", "subtitle": "Հայերենի որոշյալ հոդերը և հոլովման համակարգը", "stripe": "#7c4fd6",
                 "topics": [
                     {
-                        "slug": "goyakan-yev-hoder", "title": "Գոյական անուն և որոշյալ հոդեր", "subtitle": "Որոշյալ -ը / -ն հոդերի կիրառությունը", "page_num": 1, "vocab_theme": "Ընտանիք և տուն",
+                        "slug": "goyakan-yev-hoder", "title": "Գոյական անուն և որոշյալ հոդեր", "subtitle": "Որոշյալ -ը / -ն հոդերի կիրառությունը", "page_num": 1,
                         "table_head": ["Տեսակ", "Վերջավորություն", "Օրինակ", "Որոշյալ ձև"],
                         "table_rows": [
                             ["Անորոշ", "առանց հոդի", "տուն", "տունը (-ը բաղաձայնից հետո)"],
@@ -1001,7 +981,7 @@ MANUALS = [
                         "quiz": [{"q": "Ո՞ր հոդն է ավելանում «կատու» բառին։", "opts": ["-ը", "-ն", "-ա"], "correct": 1, "explain": "Ձայնավորով ավարտվող բառերն ստանում են -ն հոդը։"}]
                     },
                     {
-                        "slug": "holovner", "title": "Հայերենի 7 հոլովները", "subtitle": "Ուղղական, սեռական, տրական, հայցական, բացառական, գործիական, ներգոյական", "page_num": 2, "vocab_theme": "Քաղաք և տուն",
+                        "slug": "holovner", "title": "Հայերենի 7 հոլովները", "subtitle": "Ուղղական, սեռական, տրական, հայցական, բացառական, գործիական, ներգոյական", "page_num": 2,
                         "table_head": ["Հոլով", "Հարցեր", "Վերջավորություն", "Օրինակ (տուն)"],
                         "table_rows": [
                             ["Ուղղական", "Ո՞վ, Ի՞նչ", "—", "տուն"],
@@ -1033,7 +1013,7 @@ MANUALS = [
                 "id": "nacili-1", "file": "nacili-1.html", "title": "ნაწილი 1 · არსებითი სახელი და ბრუნვები", "subtitle": "ქართული ენის 7 ბრუნვა და სახელის ფუძე", "stripe": "#a3195b",
                 "topics": [
                     {
-                        "slug": "brunvebi", "title": "არსებითი სახელის ბრუნვები", "subtitle": "სახელობითი, მოთხრობითი და მიცემითი ბრუნვები", "page_num": 1, "vocab_theme": "ოჯახი და სახლი",
+                        "slug": "brunvebi", "title": "არსებითი სახელის ბრუნვები", "subtitle": "სახელობითი, მოთხრობითი და მიცემითი ბრუნვები", "page_num": 1,
                         "table_head": ["ბრუნვა", "ბრუნვის ნიშანი", "მაგალითი", "წინადადება"],
                         "table_rows": [
                             ["სახელობითი", "-ი", "კაცი", "კაცი წერს"],
@@ -1047,7 +1027,7 @@ MANUALS = [
                         "quiz": [{"q": "რა არის მოთხრობითი ბრუნვის ნიშანი?", "opts": ["-ი", "-მ / -მა", "-ს"], "correct": 1, "explain": "მოთხრობითი ბრუნვის ნიშანია -მ ან -მა."}]
                     },
                     {
-                        "slug": "zmna-da-droebrivi-fortmebi", "title": "ზმნა და დროები", "subtitle": "აწმყო, წარსული და მომავალი დრო", "page_num": 2, "vocab_theme": "ყოველდღიურობა",
+                        "slug": "zmna-da-droebrivi-fortmebi", "title": "ზმნა და დროები", "subtitle": "აწმყო, წარსული და მომავალი დრო", "page_num": 2,
                         "table_head": ["დრო", "მაგალითი (წერა)", "მნიშვნელობა"],
                         "table_rows": [
                             ["აწმყო", "წერს", "ახლა წერს"],
@@ -1058,7 +1038,7 @@ MANUALS = [
                         "mnemonic": "აწმყო: წერს | მომავალი: დაწერს.",
                         "mistakes": [{"wrong": "ის დაწერს ახლა", "right": "ის წერს ახლა"}],
                         "check_items": ["აწმყო და მომავალი დროის გარჩევა", "ზმნისწინების გამოყენება მომავალ დროში"],
-                        "quiz": [{"q": "რომელია მომავალი დრო ზმნისა «წერს»?", "opts": ["წერს", "დაწერა", "დაწერს"], "correct": 2, "explain": "ზმნისწინის «და-» დამატებით აწმყოს ფორმა «წერს» ხდება მომავალი დრო: «დაწერს»."}]
+                        "quiz": [{"q": "რომელია მომავალი დრო ზმნისა «წერს»?", "opts": ["წერს", "დაწერა", "დაწერს"], "correct": 2, "explain": "ზმნისწინების «და-» დამატებით აწმყოს ფორმა «წერს» ხდება მომავალი დრო: «დაწერს»."}]
                     }
                 ]
             }

@@ -1,4 +1,4 @@
-// COSYlanguages Monolingual Manual Interactivity Engine
+// COSYlanguages Monolingual Grammar Manual Interactivity Engine
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.mflip').forEach(card => {
     card.addEventListener('click', () => card.classList.toggle('revealed'));
