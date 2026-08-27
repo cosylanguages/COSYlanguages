@@ -1120,5 +1120,199 @@
     "common_mistake": "❌ Turn up it. ➔ ✅ Turn it up.",
     "synonyms": ["arrive", "appear", "increase"],
     "antonyms": ["turn down"]
+  },
+  "work with": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "with / on",
+    "transitivity": "Both",
+    "transitivity_code": "Both",
+    "prepositions": ["with", "on"],
+    "pattern": "work with [someone] on [something/project]",
+    "level": "A2",
+    "definition": "To collaborate or cooperate with a team or client on a specific project or objective.",
+    "grammar_rule": "Multi-preposition structure: work WITH + person/team/company ON + project/task. Note: FOR + noun/gerund expresses purpose, whereas TO + verb infinitive expresses intention.",
+    "noun_parallel": "⚡ Verb: 'work with a team on a project' ➔ Noun: 'collaboration WITH someone ON something'",
+    "examples": [
+      "He works closely with his team to execute marketing campaigns.",
+      "She works with small businesses on social media strategy."
+    ],
+    "common_mistake": "❌ Work to a team for a project. ➔ ✅ Work with a team on a project.",
+    "synonyms": ["collaborate with", "cooperate with"],
+    "antonyms": []
+  },
+  "report to": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "to",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["to", "on"],
+    "pattern": "report to [manager/head] on [progress/issue]",
+    "level": "B1",
+    "definition": "To be directly responsible to a supervisor, or to provide an account of progress.",
+    "grammar_rule": "Report TO + person (line manager/supervisor); report ON + subject/progress.",
+    "noun_parallel": "⚡ Verb: 'He reports to the head of marketing' ➔ Noun: 'Direct report TO the director'",
+    "examples": [
+      "He reports to the head of marketing and works closely with his team.",
+      "The regional managers report directly to the CEO."
+    ],
+    "common_mistake": "❌ He reports at the manager. ➔ ✅ He reports to the manager.",
+    "synonyms": ["be accountable to", "answer to"],
+    "antonyms": []
+  },
+  "coordinate with": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "with",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["with", "on"],
+    "pattern": "coordinate with [person/team] on [schedule/target]",
+    "level": "B1",
+    "definition": "To organize activities so that people or teams work together effectively.",
+    "grammar_rule": "Coordinate WITH + person/department ON + task/schedule. Use FOR + noun/gerund when stating the target reason.",
+    "noun_parallel": "⚡ Verb: 'Coordinate with colleagues' ➔ Noun: 'Coordination WITH the team'",
+    "examples": [
+      "She coordinates with her team to meet sales targets.",
+      "We need to coordinate with the logistics department on delivery dates."
+    ],
+    "common_mistake": "❌ Coordinate to the team. ➔ ✅ Coordinate with the team.",
+    "synonyms": ["liaise with", "align with"],
+    "antonyms": []
+  },
+  "responsible for": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": ["for"],
+    "pattern": "be responsible for + [noun / gerund (-ing)]",
+    "level": "A2",
+    "definition": "Having the duty to take care of someone or something, or being the cause of an outcome.",
+    "grammar_rule": "Adjective phrase requiring FOR + noun or gerund (-ing). Do NOT use TO + verb infinitive directly after 'responsible for'.",
+    "noun_parallel": "⚡ Adjective: 'responsible FOR overseeing' ➔ Noun: 'take responsibility FOR something'",
+    "examples": [
+      "Sarah is responsible for overseeing the entire organization.",
+      "Who is responsible for managing customer feedback?"
+    ],
+    "common_mistake": "❌ She is responsible to oversee the team. ➔ ✅ She is responsible for overseeing the team.",
+    "synonyms": ["in charge of", "answerable for"],
+    "antonyms": []
+  },
+  "in charge of": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": ["of"],
+    "pattern": "be in charge of + [noun / gerund (-ing)]",
+    "level": "A2",
+    "definition": "Having control of or responsibility for a department, team, or task.",
+    "grammar_rule": "Prepositional idiom requiring OF + noun or gerund (-ing). Use FOR when expressing purpose separately.",
+    "examples": [
+      "She's in charge of setting the company's vision and goals.",
+      "Who is in charge of handling client contracts?"
+    ],
+    "common_mistake": "❌ In charge for setting goals. ➔ ✅ In charge of setting goals.",
+    "synonyms": ["responsible for", "head of"],
+    "antonyms": []
+  },
+  "comply with": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "with",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["with"],
+    "pattern": "comply with [regulations / laws / standards]",
+    "level": "B2",
+    "definition": "To act in accordance with a wish, command, law, or rule.",
+    "grammar_rule": "Inseparable verb + preposition structure. Always requires 'with'.",
+    "noun_parallel": "⚡ Verb: 'comply with safety regulations' ➔ Noun: 'in compliance WITH standards'",
+    "examples": [
+      "All products must comply with international safety standards.",
+      "Failure to comply with the rules may result in penalties."
+    ],
+    "common_mistake": "❌ Comply to the regulations. ➔ ✅ Comply with the regulations.",
+    "synonyms": ["adhere to", "abide by", "conform to"],
+    "antonyms": ["violate", "defy"]
+  },
+  "specialize in": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "in",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["in"],
+    "pattern": "specialize in [field / area / subject]",
+    "level": "B1",
+    "definition": "To concentrate on and become an expert in a particular subject or skill.",
+    "grammar_rule": "Requires 'in' followed by a noun or gerund (-ing).",
+    "noun_parallel": "⚡ Verb: 'specialize in corporate law' ➔ Noun: 'specialization IN marketing'",
+    "examples": [
+      "Our firm specializes in environmental law and sustainability.",
+      "She specialized in pediatric medicine during residency."
+    ],
+    "common_mistake": "❌ Specialize on international trade. ➔ ✅ Specialize in international trade.",
+    "synonyms": ["focus on", "major in"],
+    "antonyms": []
+  },
+  "succeed in": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "in",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["in"],
+    "pattern": "succeed in + [gerund (-ing) / achieving something]",
+    "level": "B1",
+    "definition": "To achieve the desired aim or result in a task or career.",
+    "grammar_rule": "Requires 'in' + gerund (-ing). Do NOT use TO + infinitive after 'succeed' when stating the action achieved.",
+    "noun_parallel": "⚡ Verb: 'succeed in passing the exam' ➔ Noun: 'success IN business'",
+    "examples": [
+      "She succeeded in securing funding for the new start-up.",
+      "If you work hard, you will succeed in achieving your goals."
+    ],
+    "common_mistake": "❌ He succeeded to pass the test. ➔ ✅ He succeeded in passing the test.",
+    "synonyms": ["manage to", "achieve"],
+    "antonyms": ["fail in"]
+  },
+  "attribute to": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "to",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["to"],
+    "pattern": "attribute [effect/success] to [cause/person]",
+    "level": "C1",
+    "definition": "To regard something as being caused by someone or something.",
+    "grammar_rule": "Complex structure: attribute SOMETHING (direct object) TO SOMETHING/SOMEONE (cause).",
+    "noun_parallel": "⚡ Verb: 'attribute success to hard work' ➔ Noun: 'an attribution TO the author'",
+    "examples": [
+      "The CEO attributed the rise in profits to strong teamwork.",
+      "Scientists attribute global warming to greenhouse gas emissions."
+    ],
+    "common_mistake": "❌ He attributed the success for his team. ➔ ✅ He attributed the success to his team.",
+    "synonyms": ["ascribe to", "credit to"],
+    "antonyms": []
+  },
+  "refrain from": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "from",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["from"],
+    "pattern": "refrain from + [gerund (-ing) / action]",
+    "level": "C1",
+    "definition": "To stop oneself from doing something or acting on an impulse.",
+    "grammar_rule": "Requires FROM + gerund (-ing). Formal register.",
+    "examples": [
+      "Please refrain from smoking inside the auditorium.",
+      "Passengers are requested to refrain from using mobile phones during takeoff."
+    ],
+    "common_mistake": "❌ Refrain to speak during the presentation. ➔ ✅ Refrain from speaking during the presentation.",
+    "synonyms": ["abstain from", "desist from", "avoid"],
+    "antonyms": ["indulge in"]
   }
 }
