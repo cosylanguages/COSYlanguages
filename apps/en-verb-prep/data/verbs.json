@@ -1120,5 +1120,433 @@
     "common_mistake": "❌ Turn up it. ➔ ✅ Turn it up.",
     "synonyms": ["arrive", "appear", "increase"],
     "antonyms": ["turn down"]
+  },
+  "work with": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "with / on",
+    "transitivity": "Both",
+    "transitivity_code": "Both",
+    "prepositions": ["with", "on"],
+    "pattern": "work with [someone] on [something/project]",
+    "level": "A2",
+    "definition": "To collaborate or cooperate with a team or client on a specific project or objective.",
+    "grammar_rule": "Multi-preposition structure: work WITH + person/team/company ON + project/task. Note: FOR + noun/gerund expresses purpose, whereas TO + verb infinitive expresses intention.",
+    "noun_parallel": "⚡ Verb: 'work with a team on a project' ➔ Noun: 'collaboration WITH someone ON something'",
+    "examples": [
+      "He works closely with his team to execute marketing campaigns.",
+      "She works with small businesses on social media strategy."
+    ],
+    "common_mistake": "❌ Work to a team for a project. ➔ ✅ Work with a team on a project.",
+    "synonyms": ["collaborate with", "cooperate with"],
+    "antonyms": []
+  },
+  "report to": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "to",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["to", "on"],
+    "pattern": "report to [manager/head] on [progress/issue]",
+    "level": "B1",
+    "definition": "To be directly responsible to a supervisor, or to provide an account of progress.",
+    "grammar_rule": "Report TO + person (line manager/supervisor); report ON + subject/progress.",
+    "noun_parallel": "⚡ Verb: 'He reports to the head of marketing' ➔ Noun: 'Direct report TO the director'",
+    "examples": [
+      "He reports to the head of marketing and works closely with his team.",
+      "The regional managers report directly to the CEO."
+    ],
+    "common_mistake": "❌ He reports at the manager. ➔ ✅ He reports to the manager.",
+    "synonyms": ["be accountable to", "answer to"],
+    "antonyms": []
+  },
+  "coordinate with": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "with",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["with", "on"],
+    "pattern": "coordinate with [person/team] on [schedule/target]",
+    "level": "B1",
+    "definition": "To organize activities so that people or teams work together effectively.",
+    "grammar_rule": "Coordinate WITH + person/department ON + task/schedule. Use FOR + noun/gerund when stating the target reason.",
+    "noun_parallel": "⚡ Verb: 'Coordinate with colleagues' ➔ Noun: 'Coordination WITH the team'",
+    "examples": [
+      "She coordinates with her team to meet sales targets.",
+      "We need to coordinate with the logistics department on delivery dates."
+    ],
+    "common_mistake": "❌ Coordinate to the team. ➔ ✅ Coordinate with the team.",
+    "synonyms": ["liaise with", "align with"],
+    "antonyms": []
+  },
+  "responsible for": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": ["for"],
+    "pattern": "be responsible for + [noun / gerund (-ing)]",
+    "level": "A2",
+    "definition": "Having the duty to take care of someone or something, or being the cause of an outcome.",
+    "grammar_rule": "Adjective phrase requiring FOR + noun or gerund (-ing). Do NOT use TO + verb infinitive directly after 'responsible for'.",
+    "noun_parallel": "⚡ Adjective: 'responsible FOR overseeing' ➔ Noun: 'take responsibility FOR something'",
+    "examples": [
+      "Sarah is responsible for overseeing the entire organization.",
+      "Who is responsible for managing customer feedback?"
+    ],
+    "common_mistake": "❌ She is responsible to oversee the team. ➔ ✅ She is responsible for overseeing the team.",
+    "synonyms": ["in charge of", "answerable for"],
+    "antonyms": []
+  },
+  "in charge of": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": ["of"],
+    "pattern": "be in charge of + [noun / gerund (-ing)]",
+    "level": "A2",
+    "definition": "Having control of or responsibility for a department, team, or task.",
+    "grammar_rule": "Prepositional idiom requiring OF + noun or gerund (-ing). Use FOR when expressing purpose separately.",
+    "examples": [
+      "She's in charge of setting the company's vision and goals.",
+      "Who is in charge of handling client contracts?"
+    ],
+    "common_mistake": "❌ In charge for setting goals. ➔ ✅ In charge of setting goals.",
+    "synonyms": ["responsible for", "head of"],
+    "antonyms": []
+  },
+  "comply with": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "with",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["with"],
+    "pattern": "comply with [regulations / laws / standards]",
+    "level": "B2",
+    "definition": "To act in accordance with a wish, command, law, or rule.",
+    "grammar_rule": "Inseparable verb + preposition structure. Always requires 'with'.",
+    "noun_parallel": "⚡ Verb: 'comply with safety regulations' ➔ Noun: 'in compliance WITH standards'",
+    "examples": [
+      "All products must comply with international safety standards.",
+      "Failure to comply with the rules may result in penalties."
+    ],
+    "common_mistake": "❌ Comply to the regulations. ➔ ✅ Comply with the regulations.",
+    "synonyms": ["adhere to", "abide by", "conform to"],
+    "antonyms": ["violate", "defy"]
+  },
+  "specialize in": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "in",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["in"],
+    "pattern": "specialize in [field / area / subject]",
+    "level": "B1",
+    "definition": "To concentrate on and become an expert in a particular subject or skill.",
+    "grammar_rule": "Requires 'in' followed by a noun or gerund (-ing).",
+    "noun_parallel": "⚡ Verb: 'specialize in corporate law' ➔ Noun: 'specialization IN marketing'",
+    "examples": [
+      "Our firm specializes in environmental law and sustainability.",
+      "She specialized in pediatric medicine during residency."
+    ],
+    "common_mistake": "❌ Specialize on international trade. ➔ ✅ Specialize in international trade.",
+    "synonyms": ["focus on", "major in"],
+    "antonyms": []
+  },
+  "succeed in": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "in",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["in"],
+    "pattern": "succeed in + [gerund (-ing) / achieving something]",
+    "level": "B1",
+    "definition": "To achieve the desired aim or result in a task or career.",
+    "grammar_rule": "Requires 'in' + gerund (-ing). Do NOT use TO + infinitive after 'succeed' when stating the action achieved.",
+    "noun_parallel": "⚡ Verb: 'succeed in passing the exam' ➔ Noun: 'success IN business'",
+    "examples": [
+      "She succeeded in securing funding for the new start-up.",
+      "If you work hard, you will succeed in achieving your goals."
+    ],
+    "common_mistake": "❌ He succeeded to pass the test. ➔ ✅ He succeeded in passing the test.",
+    "synonyms": ["manage to", "achieve"],
+    "antonyms": ["fail in"]
+  },
+  "attribute to": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "to",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["to"],
+    "pattern": "attribute [effect/success] to [cause/person]",
+    "level": "C1",
+    "definition": "To regard something as being caused by someone or something.",
+    "grammar_rule": "Complex structure: attribute SOMETHING (direct object) TO SOMETHING/SOMEONE (cause).",
+    "noun_parallel": "⚡ Verb: 'attribute success to hard work' ➔ Noun: 'an attribution TO the author'",
+    "examples": [
+      "The CEO attributed the rise in profits to strong teamwork.",
+      "Scientists attribute global warming to greenhouse gas emissions."
+    ],
+    "common_mistake": "❌ He attributed the success for his team. ➔ ✅ He attributed the success to his team.",
+    "synonyms": ["ascribe to", "credit to"],
+    "antonyms": []
+  },
+  "refrain from": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "from",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["from"],
+    "pattern": "refrain from + [gerund (-ing) / action]",
+    "level": "C1",
+    "definition": "To stop oneself from doing something or acting on an impulse.",
+    "grammar_rule": "Requires FROM + gerund (-ing). Formal register.",
+    "examples": [
+      "Please refrain from smoking inside the auditorium.",
+      "Passengers are requested to refrain from using mobile phones during takeoff."
+    ],
+    "common_mistake": "❌ Refrain to speak during the presentation. ➔ ✅ Refrain from speaking during the presentation.",
+    "synonyms": ["abstain from", "desist from", "avoid"],
+    "antonyms": ["indulge in"]
+  },
+  "apply": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": ["for", "to"],
+    "pattern": "apply for [job/visa/grant] / apply to [company/university]",
+    "level": "A1",
+    "definition": "To make a formal request for a job, position, visa, or program.",
+    "grammar_rule": "Apply FOR + position/thing requested; apply TO + company/institution/person receiving application.",
+    "noun_parallel": "⚡ Verb: 'apply for a job to a company' ➔ Noun: 'an application FOR a job TO a company'",
+    "examples": [
+      "She applied for a project manager position at Google.",
+      "I am applying to three universities in the UK."
+    ],
+    "common_mistake": "❌ Apply a job to the company. ➔ ✅ Apply for a job at/to the company.",
+    "synonyms": ["request", "solicit"],
+    "antonyms": []
+  },
+  "focus on": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "on",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["on"],
+    "pattern": "focus on [subject / goal / gerund (-ing)]",
+    "level": "A2",
+    "definition": "To give central attention or effort to a particular topic or task.",
+    "grammar_rule": "Always requires 'on' before a noun, pronoun, or gerund (-ing). Do NOT use 'in' or 'to'.",
+    "noun_parallel": "⚡ Verb: 'focus on key priorities' ➔ Noun: 'maintain focus ON priorities'",
+    "examples": [
+      "Let's focus on solving the primary bottleneck first.",
+      "He needs to focus on improving his conversational skills."
+    ],
+    "common_mistake": "❌ Focus in the project. ➔ ✅ Focus on the project.",
+    "synonyms": ["concentrate on", "center on"],
+    "antonyms": ["distract from", "ignore"]
+  },
+  "rely on": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "on",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["on"],
+    "pattern": "rely on [someone / data / system]",
+    "level": "A2",
+    "definition": "To depend on or trust someone/something to work or act properly.",
+    "grammar_rule": "Requires 'on'. Followed by noun, pronoun, or gerund (-ing).",
+    "noun_parallel": "⚡ Verb: 'rely on facts' ➔ Noun: 'place reliance ON data'",
+    "examples": [
+      "You can always rely on her to deliver high-quality work on time.",
+      "Modern businesses rely heavily on cloud infrastructure."
+    ],
+    "common_mistake": "❌ Rely of public transport. ➔ ✅ Rely on public transport.",
+    "synonyms": ["depend on", "count on"],
+    "antonyms": ["distrust"]
+  },
+  "belong to": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "to",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["to"],
+    "pattern": "belong to [owner / group / organization]",
+    "level": "A1",
+    "definition": "To be owned by someone, or be a member of a group.",
+    "grammar_rule": "Requires 'to' before the owner or club/organization.",
+    "examples": [
+      "This laptop belongs to the IT department.",
+      "Does this notebook belong to you?"
+    ],
+    "common_mistake": "❌ It belongs for me. ➔ ✅ It belongs to me.",
+    "synonyms": ["be owned by", "pertain to"],
+    "antonyms": []
+  },
+  "deal with": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "with",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["with"],
+    "pattern": "deal with [problem / client / situation]",
+    "level": "A2",
+    "definition": "To take action to handle, resolve, or cope with a situation or person.",
+    "grammar_rule": "Inseparable phrasal verb. Requires 'with' after 'deal'.",
+    "examples": [
+      "Customer service representatives deal with complaints every day.",
+      "How do you deal with stress at work?"
+    ],
+    "common_mistake": "❌ Deal about the issue. ➔ ✅ Deal with the issue.",
+    "synonyms": ["handle", "manage", "tackle", "cope with"],
+    "antonyms": ["neglect", "ignore"]
+  },
+  "suffer from": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "from",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["from"],
+    "pattern": "suffer from [illness / condition / hardship]",
+    "level": "B1",
+    "definition": "To experience physical or mental pain, illness, or hardship.",
+    "grammar_rule": "Requires 'from' when specifying the medical condition or hardship.",
+    "examples": [
+      "Many adults suffer from chronic sleep deprivation.",
+      "The business suffered from severe cash flow problems."
+    ],
+    "common_mistake": "❌ Suffer of migraines. ➔ ✅ Suffer from migraines.",
+    "synonyms": ["endure", "be afflicted with"],
+    "antonyms": []
+  },
+  "prevent from": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "from",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["from"],
+    "pattern": "prevent [someone/something] from + [gerund (-ing)]",
+    "level": "B1",
+    "definition": "To stop something from happening or stop someone from doing an action.",
+    "grammar_rule": "Prevent + direct object + FROM + gerund (-ing).",
+    "examples": [
+      "Bad weather prevented us from leaving the port.",
+      "Proper security controls prevent hackers from accessing customer data."
+    ],
+    "common_mistake": "❌ Prevent him to enter the building. ➔ ✅ Prevent him from entering the building.",
+    "synonyms": ["stop from", "hinder from", "inhibit from"],
+    "antonyms": ["allow to", "permit to"]
+  },
+  "insist on": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "on",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["on"],
+    "pattern": "insist on + [noun / gerund (-ing)]",
+    "level": "B1",
+    "definition": "To demand something forcefully and refuse to accept any refusal.",
+    "grammar_rule": "Requires 'on' + gerund (-ing) or noun object.",
+    "noun_parallel": "⚡ Verb: 'insist on paying' ➔ Noun: 'an insistence ON quality'",
+    "examples": [
+      "He insisted on paying for everyone's dinner.",
+      "Why do you insist on doing everything by yourself?"
+    ],
+    "common_mistake": "❌ Insist to pay the bill. ➔ ✅ Insist on paying the bill.",
+    "synonyms": ["demand", "persist in"],
+    "antonyms": ["yield", "concede"]
+  },
+  "participate in": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "in",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["in"],
+    "pattern": "participate in [event / discussion / activity]",
+    "level": "B1",
+    "definition": "To take part in an event, activity, or conversation.",
+    "grammar_rule": "Requires 'in'. Followed by noun or gerund (-ing).",
+    "noun_parallel": "⚡ Verb: 'participate in workshops' ➔ Noun: 'participation IN discussions'",
+    "examples": [
+      "All team members are encouraged to participate in weekly discussions.",
+      "Over fifty countries participated in the climate summit."
+    ],
+    "common_mistake": "❌ Participate at the meeting. ➔ ✅ Participate in the meeting.",
+    "synonyms": ["take part in", "join in"],
+    "antonyms": ["withdraw from"]
+  },
+  "benefit from": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "from",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["from"],
+    "pattern": "benefit from [something / action]",
+    "level": "B1",
+    "definition": "To receive an advantage, profit, or help from something.",
+    "grammar_rule": "Verb 'benefit FROM' takes 'from'. Note: noun 'benefit OF' takes 'of'.",
+    "noun_parallel": "⚡ Verb: 'benefit from training' ➔ Noun: 'the benefit OF experience'",
+    "examples": [
+      "Students benefit from regular personalized feedback.",
+      "The local community will benefit greatly from the new sports center."
+    ],
+    "common_mistake": "❌ Benefit of the new system. (when used as verb) ➔ ✅ Benefit from the new system.",
+    "synonyms": ["gain from", "profit from"],
+    "antonyms": ["suffer from"]
+  },
+  "approve of": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "of",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["of"],
+    "pattern": "approve of [action / decision / person]",
+    "level": "B2",
+    "definition": "To think that someone or something is good, right, or acceptable.",
+    "grammar_rule": "Intransitive + preposition 'of'. Transitive direct 'approve something' means officially sign/authorize.",
+    "noun_parallel": "⚡ Verb: 'approve of your choice' ➔ Noun: 'give approval OF/FOR a plan'",
+    "examples": [
+      "Her parents didn't approve of her decision to leave university.",
+      "Do you approve of the new office policies?"
+    ],
+    "common_mistake": "❌ I approve for your plan. ➔ ✅ I approve of your plan.",
+    "synonyms": ["endorse", "favor", "sanction"],
+    "antonyms": ["disapprove of", "object to"]
+  },
+  "object to": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "to",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["to"],
+    "pattern": "object to + [noun / gerund (-ing)]",
+    "level": "B2",
+    "definition": "To express disagreement with or opposition to something.",
+    "grammar_rule": "Requires 'to' + noun or gerund (-ing). 'To' is a preposition here, NOT an infinitive marker.",
+    "noun_parallel": "⚡ Verb: 'object to changing terms' ➔ Noun: 'raise an objection TO terms'",
+    "examples": [
+      "Several residents object to building a highway near the school.",
+      "No one objected to the proposed timetable."
+    ],
+    "common_mistake": "❌ I object to change the plan. ➔ ✅ I object to changing the plan.",
+    "synonyms": ["oppose", "protest against", "demur to"],
+    "antonyms": ["approve of", "agree to"]
   }
 }
