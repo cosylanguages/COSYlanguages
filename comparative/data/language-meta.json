@@ -1,0 +1,100 @@
+[
+  {
+    "code": "en",
+    "name_en": "English",
+    "name_native": "English",
+    "family": "Germanic",
+    "manual_url": "/grammar/"
+  },
+  {
+    "code": "fr",
+    "name_en": "French",
+    "name_native": "Français",
+    "family": "Romance",
+    "manual_url": "/grammaire-francaise/"
+  },
+  {
+    "code": "it",
+    "name_en": "Italian",
+    "name_native": "Italiano",
+    "family": "Romance",
+    "manual_url": "/grammatica-italiana/"
+  },
+  {
+    "code": "ru",
+    "name_en": "Russian",
+    "name_native": "Русский",
+    "family": "Slavic",
+    "manual_url": "/grammatika-russkogo-yazyka/"
+  },
+  {
+    "code": "el",
+    "name_en": "Greek",
+    "name_native": "Ελληνικά",
+    "family": "Hellenic",
+    "manual_url": "/elliniki-grammatiki/"
+  },
+  {
+    "code": "es",
+    "name_en": "Spanish",
+    "name_native": "Español",
+    "family": "Romance",
+    "manual_url": "/gramatica-espanola/"
+  },
+  {
+    "code": "de",
+    "name_en": "German",
+    "name_native": "Deutsch",
+    "family": "Germanic",
+    "manual_url": "/deutsche-grammatik/"
+  },
+  {
+    "code": "pt",
+    "name_en": "Portuguese",
+    "name_native": "Português",
+    "family": "Romance",
+    "manual_url": "/gramatica-portuguesa/"
+  },
+  {
+    "code": "hy",
+    "name_en": "Armenian",
+    "name_native": "Հայերեն",
+    "family": "Armenian",
+    "manual_url": "/hayots-lezvi-kerakanutyun/"
+  },
+  {
+    "code": "ka",
+    "name_en": "Georgian",
+    "name_native": "ქართული",
+    "family": "Kartvelian",
+    "manual_url": "/qartuli-gramatika/"
+  },
+  {
+    "code": "tt",
+    "name_en": "Tatar",
+    "name_native": "Татарча",
+    "family": "Turkic",
+    "manual_url": "/tatar-teli-grammatikasy/"
+  },
+  {
+    "code": "ba",
+    "name_en": "Bashkir",
+    "name_native": "Башҡортса",
+    "family": "Turkic",
+    "manual_url": "/bashqort-tele-grammatikahy/"
+  },
+  {
+    "code": "br",
+    "name_en": "Breton",
+    "name_native": "Brezhoneg",
+    "family": "Celtic",
+    "manual_url": "/yezhadur-brezhoneg/"
+  },
+  {
+    "code": "cv",
+    "name_en": "Chuvash",
+    "name_native": "Чăвашла",
+    "family": "Turkic",
+    "manual_url": "/chavash-grammatika/"
+  }
+]
