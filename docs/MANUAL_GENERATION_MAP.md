@@ -12,7 +12,7 @@ The repository utilizes two distinct authoring approaches:
 
 | Directory | Target Language | Status | Generator Script | Rebuild Command |
 |---|---|---|---|---|
-| `grammar/` | English | **(b) Hand-authored HTML** | None | N/A (Hand-authored HTML) |
+| `grammar/` | English | **(a) Generated** | `scripts/build_english_grammar_manual.py` | `python3 scripts/build_english_grammar_manual.py` |
 | `grammaire-francaise/` | French | **(b) Hand-authored HTML** | None | N/A (Hand-authored HTML) |
 | `grammatica-italiana/` | Italian | **(a) Generated** | `scripts/build_monolingual_grammar_manuals.py` | `python3 scripts/build_monolingual_grammar_manuals.py` |
 | `gramatica-espanola/` | Spanish | **(a) Generated** | `scripts/build_monolingual_grammar_manuals.py` | `python3 scripts/build_monolingual_grammar_manuals.py` |
@@ -52,7 +52,6 @@ The repository utilizes two distinct authoring approaches:
 ## 🔍 Specific Hand-Authored Manual Confirmations
 
 - **`grammaire-francaise/`** (French Grammar, 62 topics): Hand-authored static HTML with no generator script.
-- **`grammar/`** (English Grammar, 42 topics): Hand-authored static HTML with no generator script.
 - **`vocabulary-manual/`** (English Vocabulary, 69 topics): Hand-authored static HTML with no generator script.
 - **`yezhadur-brezhoneg/`** (Breton Grammar, 19 topics): Hand-authored static HTML with no generator script.
 - **`geriou-brezhoneg/`** (Breton Vocabulary, 19 topics): Hand-authored static HTML with no generator script.
