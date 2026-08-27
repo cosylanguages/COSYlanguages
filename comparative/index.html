@@ -320,6 +320,25 @@
         <option value="all">All Categories</option>
       </select>
     </div>
+
+    <!-- Known Language Transfer Tips Bar -->
+    <div class="category-filter-bar" style="margin-top:12px; padding-top:12px;">
+      <label for="known-lang-select">💡 I already know...</label>
+      <select id="known-lang-select" class="cat-select" onchange="renderTransferTips()">
+        <option value="">-- Select a language you know --</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Transfer Tips Callout Box -->
+  <div id="transfer-tips-box" style="display:none; background: #fff8e6; border: 1px solid #f0d588; border-radius: 16px; padding: 20px; margin-bottom: 28px; box-shadow: 0 4px 16px -8px rgba(184, 134, 11, 0.2);">
+    <div style="display:flex; align-items:center; justify-between; gap:12px; margin-bottom:12px;">
+      <h3 id="transfer-tips-title" style="margin:0; font-family:'Poppins', system-ui, sans-serif; font-size:16px; color:#7a5200; display:flex; align-items:center; gap:8px;">
+        💡 Linguistic Transfer Insights
+      </h3>
+      <button onclick="clearKnownLang()" class="btn-chip" style="font-size:11px; padding:2px 8px;">Clear</button>
+    </div>
+    <div id="transfer-tips-list" style="display:grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap:12px;"></div>
   </div>
 
   <!-- Comparative Matrix Table -->
@@ -339,6 +358,7 @@
 <script>
   let languageMeta = [];
   let grammarInventory = [];
+  let transferNotes = [];
   let selectedLangCodes = new Set();
 
   const FLAG_MAP = {
@@ -349,22 +369,82 @@
 
   async function loadComparativeData() {
     try {
-      const [metaRes, invRes] = await Promise.all([
+      const [metaRes, invRes, notesRes] = await Promise.all([
         fetch('./data/language-meta.json'),
-        fetch('./data/grammar-inventory.json')
+        fetch('./data/grammar-inventory.json'),
+        fetch('./data/transfer-notes.json')
       ]);
       languageMeta = await metaRes.json();
       grammarInventory = await invRes.json();
+      transferNotes = await notesRes.json();
 
       // Default: select all languages
       selectedLangCodes = new Set(languageMeta.map(l => l.code));
 
       renderFamilyControls();
       populateCategories();
+      populateKnownLangs();
       renderMatrix();
     } catch (err) {
       console.error('Failed to load comparative data:', err);
     }
+  }
+
+  function populateKnownLangs() {
+    const select = document.getElementById('known-lang-select');
+    languageMeta.forEach(l => {
+      const opt = document.createElement('option');
+      opt.value = l.code;
+      opt.textContent = `${FLAG_MAP[l.code] || '🌐'} ${l.name_en} (${l.name_native})`;
+      select.appendChild(opt);
+    });
+  }
+
+  function renderTransferTips() {
+    const knownCode = document.getElementById('known-lang-select').value;
+    const tipsBox = document.getElementById('transfer-tips-box');
+    const tipsList = document.getElementById('transfer-tips-list');
+    const tipsTitle = document.getElementById('transfer-tips-title');
+
+    if (!knownCode) {
+      tipsBox.style.display = 'none';
+      return;
+    }
+
+    const knownLang = languageMeta.find(l => l.code === knownCode);
+    const matchingNotes = transferNotes.filter(n => n.known_language === knownCode);
+
+    if (matchingNotes.length === 0) {
+      tipsBox.style.display = 'block';
+      tipsTitle.innerHTML = `💡 Transfer Insights for ${FLAG_MAP[knownCode] || ''} ${knownLang ? knownLang.name_en : knownCode}`;
+      tipsList.innerHTML = `<div style="font-size:13px; color:#8a6d3b; grid-column: 1 / -1;">No specific transfer notes cataloged for this language yet.</div>`;
+      return;
+    }
+
+    tipsBox.style.display = 'block';
+    tipsTitle.innerHTML = `💡 Transfer Insights when you know ${FLAG_MAP[knownCode] || ''} ${knownLang ? knownLang.name_en : knownCode}`;
+
+    tipsList.innerHTML = matchingNotes.map(note => {
+      const targetLang = languageMeta.find(l => l.code === note.target_language);
+      const targetName = targetLang ? targetLang.name_en : note.target_language.toUpperCase();
+      const targetFlag = FLAG_MAP[note.target_language] || '🌐';
+
+      return `
+        <div style="background:#ffffff; border:1px solid #f0e2b6; border-radius:12px; padding:12px 14px;">
+          <div style="font-weight:700; font-size:13.5px; color:#5c3d00; margin-bottom:4px; display:flex; align-items:center; gap:6px;">
+            <span>→ ${targetFlag} Learning ${targetName}:</span>
+          </div>
+          <div style="font-size:13px; color:#4a3810; line-height:1.45;">
+            ${note.note}
+          </div>
+        </div>
+      `;
+    }).join('');
+  }
+
+  function clearKnownLang() {
+    document.getElementById('known-lang-select').value = '';
+    renderTransferTips();
   }
 
   function renderFamilyControls() {

@@ -1,0 +1,77 @@
+[
+  {
+    "known_language": "es",
+    "target_language": "it",
+    "note": "Italian articles and gender agreements will feel very familiar coming from Spanish, though watch out for Italian plural formation using -e/-i instead of -s."
+  },
+  {
+    "known_language": "es",
+    "target_language": "pt",
+    "note": "Vocabulary and sentence structure overlap significantly, but Portuguese features nasal vowels and contractions like 'do' (de+o) and 'na' (em+a)."
+  },
+  {
+    "known_language": "fr",
+    "target_language": "it",
+    "note": "Both languages share Romance verbal paradigms and compound tense auxiliaries (être/avoir vs essere/avere), though Italian drops subject pronouns."
+  },
+  {
+    "known_language": "fr",
+    "target_language": "br",
+    "note": "Breton shares significant historical vocabulary with French and uses similar discontinuous negation (ne...ket), but uses VSO word order and initial mutations."
+  },
+  {
+    "known_language": "ru",
+    "target_language": "ba",
+    "note": "Bashkir uses agglutinative case suffixes rather than Slavic prepositions, though loanwords and sentence rhythms share regional similarities."
+  },
+  {
+    "known_language": "ru",
+    "target_language": "tt",
+    "note": "Tatar syntax follows strict SOV order with agglutinative cases and possessive suffixes, differing fundamentally from Russian SVO structure."
+  },
+  {
+    "known_language": "ru",
+    "target_language": "cv",
+    "note": "Chuvash is an Oghur Turkic language with SOV order and vowel harmony; case endings replace prepositional structures used in Russian."
+  },
+  {
+    "known_language": "en",
+    "target_language": "de",
+    "note": "German shares Germanic core vocabulary with English, but enforces strict Verb-Second (V2) word order in main clauses and verb-final in subordinate clauses."
+  },
+  {
+    "known_language": "de",
+    "target_language": "en",
+    "note": "English word order is fixed SVO without case inflections on nouns, making sentence building straightforward once verb tenses are mastered."
+  },
+  {
+    "known_language": "it",
+    "target_language": "el",
+    "note": "Modern Greek uses definite articles similarly to Italian across all gender cases, though Greek retains a active 3-case noun declension system."
+  },
+  {
+    "known_language": "tt",
+    "target_language": "ba",
+    "note": "Tatar and Bashkir are closely related Kipchak Turkic languages sharing nearly identical agglutinative case suffix structures and vowel harmony rules."
+  },
+  {
+    "known_language": "ka",
+    "target_language": "hy",
+    "note": "Both Kartvelian Georgian and Armenian feature rich agglutinative or inflectional case systems without grammatical gender distinctions."
+  },
+  {
+    "known_language": "pt",
+    "target_language": "fr",
+    "note": "French verbal tenses align closely with Portuguese, though French requires mandatory subject pronouns (je/tu/il) whereas Portuguese is pro-drop."
+  },
+  {
+    "known_language": "el",
+    "target_language": "ru",
+    "note": "Greek case logic (nominative, accusative, genitive) provides a strong foundation for understanding Russian's 6-case nominal declension system."
+  },
+  {
+    "known_language": "en",
+    "target_language": "fr",
+    "note": "Thousands of English cognates derive from Norman French, making vocabulary acquisition rapid, though French requires explicit gender agreement."
+  }
+]
