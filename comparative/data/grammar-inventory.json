@@ -22,7 +22,14 @@
       "br",
       "cv"
     ],
-    "verified": true
+    "verified": true,
+    "links": {
+      "el": "../grammar/el-pronouns.html",
+      "en": "../grammar/topics/pronouns.html",
+      "fr": "../grammaire-francaise/topics/les-pronoms.html",
+      "it": "../grammar/it-pronomi.html",
+      "ru": "../grammar/ru-pronouns.html"
+    }
   },
   {
     "id": "definite-articles",
@@ -42,7 +49,13 @@
       "hy",
       "br"
     ],
-    "verified": true
+    "verified": true,
+    "links": {
+      "el": "../grammar/el-articles.html",
+      "en": "../grammar/topics/articles.html",
+      "fr": "../grammaire-francaise/topics/articles-partitifs.html",
+      "it": "../grammar/it-articoli.html"
+    }
   },
   {
     "id": "indefinite-articles",
@@ -60,7 +73,8 @@
       "pt",
       "br"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "grammatical-gender",
@@ -79,7 +93,11 @@
       "pt",
       "br"
     ],
-    "verified": true
+    "verified": true,
+    "links": {
+      "fr": "../grammaire-francaise/topics/genre-des-noms-2.html",
+      "ru": "../grammar/ru-nouns-gender.html"
+    }
   },
   {
     "id": "noun-number-plural",
@@ -104,7 +122,12 @@
       "br",
       "cv"
     ],
-    "verified": true
+    "verified": true,
+    "links": {
+      "en": "../grammar/topics/plurals-irregular.html",
+      "fr": "../grammaire-francaise/topics/pluriel-des-noms.html",
+      "it": "../grammar/it-plurali.html"
+    }
   },
   {
     "id": "present-tense-to-be",
@@ -125,7 +148,14 @@
       "ka",
       "br"
     ],
-    "verified": true
+    "verified": true,
+    "links": {
+      "el": "../grammar/el-be.html",
+      "en": "../grammar/topics/to-be.html",
+      "fr": "../grammaire-francaise/topics/etre.html",
+      "it": "../grammar/it-essere-1.html",
+      "ru": "../grammar/ru-be.html"
+    }
   },
   {
     "id": "present-tense-to-have",
@@ -145,7 +175,12 @@
       "hy",
       "br"
     ],
-    "verified": true
+    "verified": true,
+    "links": {
+      "en": "../grammar/topics/have-got.html",
+      "fr": "../grammaire-francaise/topics/avoir.html",
+      "it": "../grammar/it-avere.html"
+    }
   },
   {
     "id": "basic-negation",
@@ -170,7 +205,10 @@
       "br",
       "cv"
     ],
-    "verified": true
+    "verified": true,
+    "links": {
+      "fr": "../grammaire-francaise/topics/negation.html"
+    }
   },
   {
     "id": "yes-no-questions",
@@ -195,7 +233,8 @@
       "br",
       "cv"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "word-order-svo",
@@ -216,7 +255,10 @@
       "hy",
       "br"
     ],
-    "verified": true
+    "verified": true,
+    "links": {
+      "en": "../grammar/topics/word-order.html"
+    }
   },
   {
     "id": "word-order-sov",
@@ -233,7 +275,8 @@
       "de",
       "hy"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "possessive-adjectives",
@@ -258,7 +301,11 @@
       "br",
       "cv"
     ],
-    "verified": true
+    "verified": true,
+    "links": {
+      "en": "../grammar/en-possessives.html",
+      "fr": "../grammaire-francaise/topics/adjectifs-possessifs.html"
+    }
   },
   {
     "id": "demonstrative-determiners",
@@ -283,7 +330,11 @@
       "br",
       "cv"
     ],
-    "verified": true
+    "verified": true,
+    "links": {
+      "en": "../grammar/topics/demonstratives.html",
+      "fr": "../grammaire-francaise/topics/ce-cet-cette-ces.html"
+    }
   },
   {
     "id": "noun-case-declension",
@@ -302,7 +353,8 @@
       "ba",
       "cv"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "adjective-agreement",
@@ -321,7 +373,11 @@
       "pt",
       "br"
     ],
-    "verified": true
+    "verified": true,
+    "links": {
+      "en": "../grammar/topics/adjectives.html",
+      "fr": "../grammaire-francaise/topics/accord-des-adjectifs.html"
+    }
   },
   {
     "id": "verb-person-conjugation",
@@ -346,7 +402,8 @@
       "br",
       "cv"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "accusative-marking",
@@ -366,7 +423,8 @@
       "ba",
       "cv"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "vowel-harmony",
@@ -380,7 +438,8 @@
       "ba",
       "cv"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "consonant-mutations",
@@ -392,7 +451,8 @@
     "languages": [
       "br"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "agglutinative-suffix-chains",
@@ -407,7 +467,8 @@
       "ba",
       "cv"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "demonstrative-pronouns",
@@ -432,7 +493,8 @@
       "br",
       "cv"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "three-way-demonstratives",
@@ -450,7 +512,8 @@
       "ba",
       "cv"
     ],
-    "verified": false
+    "verified": false,
+    "links": {}
   },
   {
     "id": "genitive-possession",
@@ -470,7 +533,8 @@
       "ba",
       "cv"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "prepositional-possession",
@@ -487,7 +551,8 @@
       "pt",
       "br"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "possessive-suffixes",
@@ -502,7 +567,8 @@
       "cv",
       "hy"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "dative-existential-possession",
@@ -516,7 +582,8 @@
       "hy",
       "ka"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "postnominal-adjectives",
@@ -532,7 +599,10 @@
       "pt",
       "br"
     ],
-    "verified": true
+    "verified": true,
+    "links": {
+      "fr": "../grammaire-francaise/topics/adjectifs-position.html"
+    }
   },
   {
     "id": "prenominal-adjectives",
@@ -552,7 +622,8 @@
       "ba",
       "cv"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "adjective-predicative-uninflected",
@@ -568,7 +639,8 @@
       "cv",
       "en"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "adverb-derivation-suffix",
@@ -587,7 +659,8 @@
       "pt",
       "br"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "adverb-position-flexibility",
@@ -605,7 +678,8 @@
       "ba",
       "cv"
     ],
-    "verified": false
+    "verified": false,
+    "links": {}
   },
   {
     "id": "adverbial-flat-forms",
@@ -621,7 +695,8 @@
       "cv",
       "ka"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "cardinal-numerals-1-10",
@@ -646,7 +721,8 @@
       "br",
       "cv"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "numeral-noun-agreement",
@@ -666,7 +742,8 @@
       "hy",
       "br"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "numeral-singular-noun-rule",
@@ -682,7 +759,8 @@
       "ka",
       "hy"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "ordinal-numeral-derivation",
@@ -707,7 +785,8 @@
       "br",
       "cv"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "question-words-wh",
@@ -732,7 +811,8 @@
       "br",
       "cv"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "subject-verb-inversion-questions",
@@ -751,7 +831,8 @@
       "hy",
       "br"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "interrogative-particle",
@@ -767,7 +848,8 @@
       "ru",
       "fr"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "double-negation-negative-concord",
@@ -784,7 +866,8 @@
       "el",
       "br"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "verbal-negation-affix",
@@ -800,7 +883,8 @@
       "ka",
       "hy"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "discontinuous-negation",
@@ -813,7 +897,8 @@
       "fr",
       "br"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "locative-spatial-case",
@@ -831,7 +916,8 @@
       "ba",
       "cv"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "dative-indirect-object",
@@ -850,7 +936,8 @@
       "ba",
       "cv"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "instrumental-comitative-case",
@@ -867,7 +954,8 @@
       "ba",
       "cv"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "genitive-partitive-case",
@@ -886,7 +974,8 @@
       "ba",
       "cv"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "spatial-prepositions",
@@ -906,7 +995,8 @@
       "pt",
       "br"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "postpositions",
@@ -923,7 +1013,8 @@
       "hy",
       "de"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "preposition-article-contraction",
@@ -940,7 +1031,8 @@
       "pt",
       "br"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "v2-word-order",
@@ -952,7 +1044,8 @@
     "languages": [
       "de"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "flexible-free-word-order",
@@ -970,7 +1063,8 @@
       "ba",
       "cv"
     ],
-    "verified": false
+    "verified": false,
+    "links": {}
   },
   {
     "id": "vso-word-order",
@@ -982,7 +1076,8 @@
     "languages": [
       "br"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "coordinating-conjunctions",
@@ -1007,7 +1102,8 @@
       "br",
       "cv"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "subordinating-conjunctions-because-if",
@@ -1032,7 +1128,8 @@
       "br",
       "cv"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "present-continuous-aspect",
@@ -1053,7 +1150,10 @@
       "ba",
       "cv"
     ],
-    "verified": true
+    "verified": true,
+    "links": {
+      "en": "../grammar/topics/present-continuous.html"
+    }
   },
   {
     "id": "periphrastic-future",
@@ -1069,7 +1169,11 @@
       "pt",
       "br"
     ],
-    "verified": true
+    "verified": true,
+    "links": {
+      "en": "../grammar/topics/going-to.html",
+      "fr": "../grammaire-francaise/topics/futur-proche.html"
+    }
   },
   {
     "id": "days-months-time-adverbs",
@@ -1094,7 +1198,10 @@
       "br",
       "cv"
     ],
-    "verified": true
+    "verified": true,
+    "links": {
+      "fr": "../grammaire-francaise/topics/nombres-jours-mois.html"
+    }
   },
   {
     "id": "comparative-adjectives-analytic-synthetic",
@@ -1119,7 +1226,11 @@
       "br",
       "cv"
     ],
-    "verified": true
+    "verified": true,
+    "links": {
+      "en": "../grammar/topics/comparative-adjectives.html",
+      "fr": "../grammaire-francaise/topics/comparatif.html"
+    }
   },
   {
     "id": "superlative-adjectives",
@@ -1144,7 +1255,11 @@
       "br",
       "cv"
     ],
-    "verified": true
+    "verified": true,
+    "links": {
+      "en": "../grammar/topics/superlative-adjectives.html",
+      "fr": "../grammaire-francaise/topics/superlatif.html"
+    }
   },
   {
     "id": "relative-clauses-relative-pronoun",
@@ -1166,7 +1281,8 @@
       "ka",
       "br"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "subordinate-clause-word-order-change",
@@ -1178,7 +1294,8 @@
     "languages": [
       "de"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "reflexive-verbs-pronouns",
@@ -1200,7 +1317,8 @@
       "ka",
       "br"
     ],
-    "verified": true
+    "verified": true,
+    "links": {}
   },
   {
     "id": "passive-reflexive-middle-voice",
@@ -1218,6 +1336,7 @@
       "pt",
       "ka"
     ],
-    "verified": false
+    "verified": false,
+    "links": {}
   }
 ]
