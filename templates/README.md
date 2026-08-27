@@ -42,7 +42,12 @@ This directory contains standardized templates for adding new languages or conte
 1.  Copy `grammar/lesson-template.html` to `grammar/[lang]/[layer]/[lesson-slug].html`.
 2.  Define the rules and interactive quiz questions in the script block.
 
-### 6. Etymology & Data Enrichment
+### 6. New Communication Unit
+1.  **Communication Roadmap:** Copy `communication/index-template.html` to `communication/[lang]/[lang].html`.
+2.  **Communication Unit:** Copy `communication/unit-template.html` to `communication/[lang]/[system-slug].html`.
+3.  Follow the exact 14-step page rhythm defined in `communication/COMMUNICATION_STANDARD.md` (Communication Question, System Title, Summary, Why this matters, Building Blocks, Conversation Map, Notice, Think in conversation, Natural Speech add-on, Memory Trick, Connects to..., Can I already do this?, Progress Celebration, and Mini Dialogue built live from Section 5 blocks).
+
+### 7. Etymology & Data Enrichment
 - New vocabulary entries should include `synonyms`, `antonyms`, `collocations`, and `etymology` where possible.
 - Use `scripts/content-build/build_etymology_dict.js` to bulk-generate etymology data from Wiktextract dumps. Run `node scripts/content-build/build_etymology_dict.js --help` for usage details.
 
