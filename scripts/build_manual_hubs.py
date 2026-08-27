@@ -25,7 +25,7 @@ LANGUAGES = {
         "portal_url": "../languages/en.html",
         "portal_label": "← COSYenglish Hub",
         "manifesto_title": "★ HOW THE SYSTEM WORKS",
-        "manifesto_text": "Every level at COSYlanguages features complementary manuals. Read a topic in the <strong>Grammar Manual</strong> to understand sentence structure, use the words from the <strong>Vocabulary Manual</strong> to build sentences, and practice speaking in our clubs and challenges! Ready for Level A2? Check out our <a href='english-a2.html'>English Level A2 Hub</a>.",
+        "manifesto_text": "Every level at COSYlanguages features complementary manuals. Read a topic in the <strong>Grammar Manual</strong> to understand sentence structure, use the words from the <strong>Vocabulary Manual</strong> to build sentences, and practice speaking in our clubs and challenges! Ready for higher levels? Check out our <a href='english-a2.html'>English Level A2 Hub</a> and <a href='english-b1.html'>English Level B1 Hub</a>.",
         "g_badge": "BOOK 1 · GRAMMAR MANUAL",
         "g_title": "English Grammar Manual (A0–A1)",
         "g_desc": "42 interactive topics in 4 core parts. Master sentence building, verb tenses, articles, pronouns, prepositions, and question forms.",
@@ -51,7 +51,7 @@ LANGUAGES = {
         "portal_url": "../languages/en.html",
         "portal_label": "← COSYenglish Hub",
         "manifesto_title": "★ HOW THE SYSTEM WORKS",
-        "manifesto_text": "Level A2 builds directly on your A0-A1 foundation. Study structural grammar in our <strong>Level A2 Grammar Manual</strong>, expand your expression with thematic daily challenges, and join live speaking events! Looking for A0-A1? Visit the <a href='english-a0-a1.html'>Level A0–A1 Hub</a>.",
+        "manifesto_text": "Level A2 builds directly on your A0-A1 foundation. Study structural grammar in our <strong>Level A2 Grammar Manual</strong>, expand your expression with thematic daily challenges, and join live speaking events! Looking for A0-A1 or B1? Visit the <a href='english-a0-a1.html'>Level A0–A1 Hub</a> or <a href='english-b1.html'>Level B1 Hub</a>.",
         "g_badge": "BOOK 1 · GRAMMAR MANUAL",
         "g_title": "English Grammar Manual (A2)",
         "g_desc": "46 interactive topics across 8 parts and appendix: past simple & continuous, present perfect, conditionals, passive, modals, and reported speech.",
@@ -60,6 +60,32 @@ LANGUAGES = {
         "v_badge": "BOOK 2 · VOCABULARY & PRACTICE",
         "v_title": "Level A2 Practice System",
         "v_desc": "Calibrated A2 vocabulary decks, practice trainers, and speaking prompts integrated across practice hubs and club sessions.",
+        "v_btn": "Open Practice Hub →",
+        "v_url": "../practice/index.html",
+    },
+    "en_b1": {
+        "filename": "english-b1.html",
+        "lang_code": "en",
+        "name_en": "English (Level B1)",
+        "native_name": "English B1",
+        "flag": "🇬🇧",
+        "title": "COSYlanguages English Live B1 · Learning Manuals Hub",
+        "meta_desc": "The complete interactive reference library for English learners (Level B1): Book 1 Grammar Manual and companion learning system.",
+        "kicker": "Complete Learning System · Level B1",
+        "h1": "English Learning Manuals (Level B1)",
+        "lead": "Speaking with confidence and nuance: narrative tenses, future continuous & perfect, modals of deduction, third & mixed conditionals, relative clauses, causatives, and linking words.",
+        "portal_url": "../languages/en.html",
+        "portal_label": "← COSYenglish Hub",
+        "manifesto_title": "★ HOW THE SYSTEM WORKS",
+        "manifesto_text": "Level B1 empowers confident and nuanced communication. Study structural grammar in our <strong>Level B1 Grammar Manual</strong>, refine your fluency with intermediate practice trainers, and engage in multi-round debate clubs! Looking for lower levels? Visit the <a href='english-a0-a1.html'>Level A0–A1 Hub</a> or <a href='english-a2.html'>Level A2 Hub</a>.",
+        "g_badge": "BOOK 1 · GRAMMAR MANUAL",
+        "g_title": "English Grammar Manual (B1)",
+        "g_desc": "47 interactive topics across 11 parts and appendix: continuous aspects, narrative tenses, future perfect, modals of deduction, mixed conditionals, causatives, and connectors.",
+        "g_btn": "Open Grammar Manual B1 (47 Topics) →",
+        "g_url": "../grammar-b1/index.html",
+        "v_badge": "BOOK 2 · VOCABULARY & PRACTICE",
+        "v_title": "Level B1 Practice System",
+        "v_desc": "Calibrated B1 vocabulary decks, spaced repetition drills, and authentic debate prompts integrated across practice hubs.",
         "v_btn": "Open Practice Hub →",
         "v_url": "../practice/index.html",
     },
@@ -417,7 +443,6 @@ HUB_TEMPLATE = """<!doctype html>
   :root {{
     --brand-teal: #0f382c;
     --brand-teal-light: #e3f5ef;
-    --accent-gold: #c99a1f;
     --paper-bg: #fcfbf7;
     --card-bg: #ffffff;
     --text-ink: #13231e;
