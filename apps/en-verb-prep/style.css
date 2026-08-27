@@ -18,6 +18,8 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
+        --sage-primary: #86d277;
+        --sage-dark: #a8e6cf;
         --cream-bg: #121815;
         --cream-card: #1c2420;
         --ink: #f0f4f1;
