@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Generator script for COSYlanguages Level A0-A1 Per-Language Manual Hubs and Master Directory in manuals/.
-Generates 14 single-page hubs combining Book 1 (Grammar) and Book 2 (Vocabulary) for every language,
+Generator script for COSYlanguages Per-Language Manual Hubs and Master Directory in manuals/.
+Generates single-page hubs combining Book 1 (Grammar) and Book 2 (Vocabulary) for every language and level,
 plus manuals/index.html as the master directory with links leading to all manual pages and all languages.
 """
 
@@ -14,28 +14,54 @@ LANGUAGES = {
     "en": {
         "filename": "english-a0-a1.html",
         "lang_code": "en",
-        "name_en": "English",
-        "native_name": "English",
+        "name_en": "English (Level A0–A1)",
+        "native_name": "English A0–A1",
         "flag": "🇬🇧",
         "title": "COSYlanguages English Live A0–A1 · Learning Manuals Hub",
         "meta_desc": "The complete interactive reference library for English learners (A0-A1): Book 1 Grammar Manual and Book 2 Vocabulary Manual.",
         "kicker": "Complete Learning System · Level A0–A1",
-        "h1": "English Learning Manuals",
+        "h1": "English Learning Manuals (Level A0–A1)",
         "lead": "Two complementary manuals working together for true English mastery: structural grammar rules and thematic vocabulary.",
         "portal_url": "../languages/en.html",
         "portal_label": "← COSYenglish Hub",
         "manifesto_title": "★ HOW THE SYSTEM WORKS",
-        "manifesto_text": "Every level at COSYlanguages features complementary manuals. Read a topic in the <strong>Grammar Manual</strong> to understand sentence structure, use the words from the <strong>Vocabulary Manual</strong> to build sentences, and practice speaking in our clubs and challenges!",
+        "manifesto_text": "Every level at COSYlanguages features complementary manuals. Read a topic in the <strong>Grammar Manual</strong> to understand sentence structure, use the words from the <strong>Vocabulary Manual</strong> to build sentences, and practice speaking in our clubs and challenges! Ready for Level A2? Check out our <a href='english-a2.html'>English Level A2 Hub</a>.",
         "g_badge": "BOOK 1 · GRAMMAR MANUAL",
-        "g_title": "English Grammar Manual",
+        "g_title": "English Grammar Manual (A0–A1)",
         "g_desc": "42 interactive topics in 4 core parts. Master sentence building, verb tenses, articles, pronouns, prepositions, and question forms.",
-        "g_btn": "Open Grammar Manual (42 Topics) →",
+        "g_btn": "Open Grammar Manual A0–A1 (42 Topics) →",
         "g_url": "../grammar/index.html",
         "v_badge": "BOOK 2 · VOCABULARY MANUAL",
-        "v_title": "English Vocabulary Manual",
+        "v_title": "English Vocabulary Manual (A0–A1)",
         "v_desc": "69 thematic vocabulary modules across 15 parts with UK/US regional markers, memory tricks, and confusable verb breakdowns.",
-        "v_btn": "Open Vocabulary Manual (69 Themes) →",
+        "v_btn": "Open Vocabulary Manual A0–A1 (69 Themes) →",
         "v_url": "../vocabulary-manual/index.html",
+    },
+    "en_a2": {
+        "filename": "english-a2.html",
+        "lang_code": "en",
+        "name_en": "English (Level A2)",
+        "native_name": "English A2",
+        "flag": "🇬🇧",
+        "title": "COSYlanguages English Live A2 · Learning Manuals Hub",
+        "meta_desc": "The complete interactive reference library for English learners (Level A2): Book 1 Grammar Manual and companion learning system.",
+        "kicker": "Complete Learning System · Level A2",
+        "h1": "English Learning Manuals (Level A2)",
+        "lead": "Expanding fluency block by block: past tenses, present perfect, conditionals, passive voice, modal auxiliaries, and complex connectors.",
+        "portal_url": "../languages/en.html",
+        "portal_label": "← COSYenglish Hub",
+        "manifesto_title": "★ HOW THE SYSTEM WORKS",
+        "manifesto_text": "Level A2 builds directly on your A0-A1 foundation. Study structural grammar in our <strong>Level A2 Grammar Manual</strong>, expand your expression with thematic daily challenges, and join live speaking events! Looking for A0-A1? Visit the <a href='english-a0-a1.html'>Level A0–A1 Hub</a>.",
+        "g_badge": "BOOK 1 · GRAMMAR MANUAL",
+        "g_title": "English Grammar Manual (A2)",
+        "g_desc": "46 interactive topics across 8 parts and appendix: past simple & continuous, present perfect, conditionals, passive, modals, and reported speech.",
+        "g_btn": "Open Grammar Manual A2 (46 Topics) →",
+        "g_url": "../grammar-a2/index.html",
+        "v_badge": "BOOK 2 · VOCABULARY & PRACTICE",
+        "v_title": "Level A2 Practice System",
+        "v_desc": "Calibrated A2 vocabulary decks, practice trainers, and speaking prompts integrated across practice hubs and club sessions.",
+        "v_btn": "Open Practice Hub →",
+        "v_url": "../practice/index.html",
     },
     "fr": {
         "filename": "francaise-a0-a1.html",
@@ -562,7 +588,7 @@ HUB_TEMPLATE = """<!doctype html>
       <a href="{g_url}" class="btn-open">{g_btn}</a>
     </div>
 
-    <!-- Book 2: Vocabulary -->
+    <!-- Book 2: Vocabulary / Practice -->
     <div class="book-card">
       <div>
         <span class="badge active">{v_badge}</span>
@@ -597,7 +623,7 @@ HUB_TEMPLATE = """<!doctype html>
 </main>
 
 <footer style="background: var(--brand-teal); color: #c9d8d4; padding: 30px 24px; text-align: center; font-size: 13.5px;">
-  <div>&copy; 2026 COSYlanguages · Level A0–A1 Learning System</div>
+  <div>&copy; 2026 COSYlanguages · Learning Manuals System</div>
 </footer>
 
 </body>
@@ -618,24 +644,23 @@ def generate_hubs():
     # Build Master Directory manuals/index.html
     cards_html = []
     for code, info in LANGUAGES.items():
-        card = f"""
+        cards_html.append(f"""
     <div class="lang-hub-card">
       <div class="lang-card-header">
         <span class="flag">{info['flag']}</span>
         <div>
           <h2>{info['name_en']} <span class="native">({info['native_name']})</span></h2>
-          <span class="level-pill">Level A0–A1 Package</span>
+          <span class="level-pill">{info['kicker'].split('· ')[-1]}</span>
         </div>
       </div>
       <p class="lang-desc">{info['lead']}</p>
       <div class="card-links-grid">
         <a href="{info['filename']}" class="btn-link primary">🌟 Unified Language Hub</a>
         <a href="{info['g_url']}" class="btn-link grammar">📘 Grammar Manual</a>
-        <a href="{info['v_url']}" class="btn-link vocab">📚 Vocabulary Manual</a>
+        <a href="{info['v_url']}" class="btn-link vocab">📚 Vocabulary / Practice</a>
         <a href="{info['portal_url']}" class="btn-link portal">🌐 Language Portal</a>
       </div>
-    </div>"""
-        cards_html.append(card)
+    </div>""")
 
     master_index_content = f"""<!doctype html>
 <html lang="en">
@@ -643,7 +668,7 @@ def generate_hubs():
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>COSYlanguages Master Directory · All Language Manuals &amp; Hubs</title>
-<meta name="description" content="Master directory of all COSYlanguages learning manuals and level A0-A1 hubs across all 14 supported languages including Chuvash.">
+<meta name="description" content="Master directory of all COSYlanguages learning manuals and level hubs across all supported languages.">
 <link rel="stylesheet" href="../css/lang-pages.css">
 <link rel="stylesheet" href="../css/lang-accents.css">
 <link rel="stylesheet" href="../css/mobile.css">
@@ -880,14 +905,14 @@ def generate_hubs():
     Master Directory · COSYlanguages Library
   </span>
   <h1>All Manuals &amp; Languages Hub</h1>
-  <p>Explore single-page hubs, grammar references, and vocabulary manuals across all 14 supported languages in the COSYlanguages ecosystem.</p>
+  <p>Explore single-page hubs, grammar references, and vocabulary manuals across all supported languages in the COSYlanguages ecosystem.</p>
 </section>
 
 <main class="master-container">
 
   <div>
-    <h2 class="section-title">Language Manuals &amp; Hubs (14 Languages)</h2>
-    <p class="section-sub">Select a language to open its unified hub or jump directly to Book 1 (Grammar) or Book 2 (Vocabulary).</p>
+    <h2 class="section-title">Language Manuals &amp; Hubs</h2>
+    <p class="section-sub">Select a language to open its unified hub or jump directly to Book 1 (Grammar) or Book 2 (Vocabulary/Practice).</p>
   </div>
 
   <div class="directory-grid">
