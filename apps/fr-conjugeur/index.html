@@ -6,7 +6,7 @@
     <title>Conjugueur Français | COSYlanguages</title>
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" href="#1b4332">
+    <meta name="theme-color" content="#1b4332">
   <link rel="stylesheet" href="../../css/components.css">
 </head>
 <body>
@@ -47,7 +47,7 @@
                 <div class="game-header">
                     <div class="game-title">
                         <h2>🎮 Jeu d'Entraînement</h2>
-                        <p>Pratiquez votre reconnaissance des terminaisons conjuguées !</p>
+                        <div class="game-mode-selector" style="margin-top: 6px;"><button id="mode-conj-btn" class="badge active-mode" onclick="appEngine.setPracticeMode('conjugation')">📝 Conjugaison</button> <button id="mode-prep-btn" class="badge" onclick="appEngine.setPracticeMode('preposition')">💡 Prépositions &amp; Construction</button></div>
                     </div>
                     <div class="score-badge">
                         <span>Score : <strong id="game-score">0</strong></span>
