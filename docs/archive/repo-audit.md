@@ -91,7 +91,7 @@ Every `.html` file (total 846 files) was crawled to analyze broken internal link
 - [x] **Images Missing `alt` Attributes (0 found)**
 - [x] **Pages Missing `<title>` (0 found)**
 - [ ] **Pages Missing Meta Description (52 found):**
-  - Static language specific grammar units and maps (such as `grammar/de/de.html`, `grammar/fr/morphology/fr-avoir.html`, etc.) lack a meta description.
+  - Static language specific grammar units and maps (such as `reference-grammar/de/de.html`, `reference-grammar/fr/morphology/fr-avoir.html`, etc.) lack a meta description.
 
 ### Folder: `courses/`
 - [x] **Broken Internal Links (0 found)**

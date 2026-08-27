@@ -3,7 +3,7 @@ from playwright.sync_api import sync_playwright
 
 def run_cuj_russian(page):
     # Navigate to the newly updated Russian pronouns page
-    page.goto("http://localhost:8080/grammar/ru/morphology/ru-pronouns.html")
+    page.goto("http://localhost:8080/reference-grammar/ru/morphology/ru-pronouns.html")
     page.wait_for_timeout(1000)
 
     # Scroll down to the table / visual map area

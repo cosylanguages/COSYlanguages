@@ -3,7 +3,7 @@ from playwright.sync_api import sync_playwright
 
 def run_cuj(page):
     # Navigate to the newly updated word order page
-    page.goto("http://localhost:8080/grammar/en/syntax/en-word-order.html")
+    page.goto("http://localhost:8080/reference-grammar/en/syntax/en-word-order.html")
     page.wait_for_timeout(1000)
 
     # Scroll down to the table / visual map area

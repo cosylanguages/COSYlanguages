@@ -56,4 +56,6 @@ The repository utilizes two distinct authoring approaches:
 - **`yezhadur-brezhoneg/`** (Breton Grammar, 19 topics): Hand-authored static HTML with no generator script.
 - **`geriou-brezhoneg/`** (Breton Vocabulary, 19 topics): Hand-authored static HTML with no generator script.
 
+> **Note on Legacy Reference Tool (`reference-grammar/`):** The legacy multi-language grammar reference tool resides under `reference-grammar/<lang>/` (moved from `grammar/<lang>/`) and is distinct from the primary monolingual grammar manuals listed above (`grammar/` for English, `grammaire-francaise/` for French, `deutsche-grammatik/` for German, etc.).
+
 > **Note for Content Updates:** When making content updates to generated manuals, edit the Python data structures inside the respective generator script in `scripts/` and run the rebuild command. For hand-authored manuals, edit the HTML files directly within the manual directory.

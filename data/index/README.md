@@ -30,7 +30,7 @@ the platform looks it up in the index, and can show both:
         "layer": "morphology",
         "category": "verbs",
         "group_id": "present_simple",
-        "file": "grammar/el/morphology/verbs.json"
+        "file": "reference-grammar/el/morphology/verbs.json"
       }
     ]
   }
