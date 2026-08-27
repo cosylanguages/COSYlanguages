@@ -5465,11 +5465,20 @@
     };
 
     window.updateDailyDose = function() {
-        const lang = localStorage.getItem('cosy_user_lang') || 'en';
-        const wotd = document.getElementById('word-of-the-day');
-        if (wotd) {
-            const list = { en:["Hello"], fr:["Bonjour"], it:["Ciao"], ru:["Привет"], el:["Γειά"] }[lang] || ["Hello"];
-            wotd.textContent = list[getDayOfYear() % list.length];
+        const htmlLang = document.documentElement.lang || (document.body && document.body.dataset ? document.body.dataset.langTheme : '');
+        const lang = (htmlLang || localStorage.getItem('cosy_user_lang') || 'en').toLowerCase();
+
+        const now = new Date();
+        const start = new Date(now.getFullYear(), 0, 0);
+        const dayOfYear = Math.floor((now - start) / (1000 * 60 * 60 * 24));
+
+        const fact = document.getElementById('fun-fact-of-the-day');
+        if (fact) {
+            const factList = (window.COSY_DAILY_FACTS && window.COSY_DAILY_FACTS[lang]) ? window.COSY_DAILY_FACTS[lang] : [
+                "Languages connect people across cultures and time."
+            ];
+            const factItem = factList[dayOfYear % factList.length];
+            fact.innerHTML = factItem;
         }
     };
 
