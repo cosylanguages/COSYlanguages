@@ -31386,7 +31386,7 @@
         "il/elle suscite",
         "nous suscitons",
         "vous suscitez",
-        "ils/elles me suscitent"
+        "ils/elles suscitent"
       ],
       "imp": [
         "je suscitais",
@@ -31425,7 +31425,7 @@
         "tu susciterais",
         "il/elle susciterait",
         "nous susciterions",
-        "vous me susciteriez",
+        "vous susciteriez",
         "ils/elles susciteraient"
       ],
       "impv": [
@@ -31594,14 +31594,14 @@
         "je compromets",
         "tu compromets",
         "il/elle compromet",
-        "nous me compromettons",
+        "nous compromettons",
         "vous compromettez",
-        "ils/elles me me compromettent"
+        "ils/elles compromettent"
       ],
       "imp": [
-        "je me me me compromettais",
-        "tu me compromettais",
-        "il/elle me compromettait",
+        "je compromettais",
+        "tu compromettais",
+        "il/elle compromettait",
         "nous compromettions",
         "vous compromettiez",
         "ils/elles compromettaient"
@@ -31615,15 +31615,15 @@
         "ils/elles ont compromis"
       ],
       "fut": [
-        "je me me compromettrai",
+        "je compromettrai",
         "tu compromettras",
-        "il/elle me compromettra",
+        "il/elle compromettra",
         "nous compromettrons",
         "vous compromettrez",
-        "ils/elles compromettont"
+        "ils/elles compromettront"
       ],
       "subj": [
-        "que je me compromette",
+        "que je compromette",
         "que tu compromettes",
         "qu'il/elle compromette",
         "que nous compromettions",

@@ -3,9 +3,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Bâtiment servant d'habitation.",
-    "antonyms": [
-      "rue"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "maisons",
     "irregular": false
@@ -14,9 +12,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Véhicule automobile.",
-    "antonyms": [
-      "piéton"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "voitures",
     "irregular": false
@@ -25,9 +21,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Meuble composé d'une surface plane.",
-    "antonyms": [
-      "chaise"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "tables",
     "irregular": false
@@ -36,9 +30,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Siège à dossier sans bras.",
-    "antonyms": [
-      "table"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "chaises",
     "irregular": false
@@ -47,9 +39,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Ouverture permettant d'entrer.",
-    "antonyms": [
-      "fenêtre"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "portes",
     "irregular": false
@@ -58,9 +48,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Ouverture dans un mur pour le jour.",
-    "antonyms": [
-      "porte"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "fenêtres",
     "irregular": false
@@ -80,9 +68,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Voie de circulation dans une ville.",
-    "antonyms": [
-      "place"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "rues",
     "irregular": false
@@ -91,9 +77,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Établissement d'enseignement.",
-    "antonyms": [
-      "maison"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "écoles",
     "irregular": false
@@ -102,9 +86,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Liquide transparent et incolore.",
-    "antonyms": [
-      "feu"
-    ],
+    "antonyms": [],
     "grammar_rule": "💡 REMEMBER: Nom féminin ('l'eau') — pluriel irrégulier en '-x' ('les eaux').",
     "article": "l'",
     "plural": "eaux",
@@ -125,9 +107,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Grande étendue d'eau salée.",
-    "antonyms": [
-      "montagne"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "mers",
     "irregular": false
@@ -158,9 +138,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Partie colorée d'une plante.",
-    "antonyms": [
-      "arbre"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "fleurs",
     "irregular": false
@@ -169,9 +147,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Fruit du pommier.",
-    "antonyms": [
-      "poire"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "pommes",
     "irregular": false
@@ -180,9 +156,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Instrument pour fermer une serrure.",
-    "antonyms": [
-      "serrure"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "clés",
     "irregular": false
@@ -191,9 +165,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Pièce d'une habitation.",
-    "antonyms": [
-      "salon"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "chambres",
     "irregular": false
@@ -202,9 +174,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Pièce où l'on prépare les repas.",
-    "antonyms": [
-      "salle"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "cuisines",
     "irregular": false
@@ -323,9 +293,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Partie du corps au bout du bras.",
-    "antonyms": [
-      "pied"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "mains",
     "irregular": false
@@ -334,9 +302,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Partie supérieure du corps.",
-    "antonyms": [
-      "pied"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "têtes",
     "irregular": false
@@ -356,9 +322,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Voie aménagée hors agglomération.",
-    "antonyms": [
-      "sentier"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "routes",
     "irregular": false
@@ -389,9 +353,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Récit d'événements.",
-    "antonyms": [
-      "réitération"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "histoires",
     "irregular": false
@@ -400,9 +362,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Groupe uni par la parenté.",
-    "antonyms": [
-      "solitude"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "familles",
     "irregular": false
@@ -411,9 +371,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Période de l'année.",
-    "antonyms": [
-      "année"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "saisons",
     "irregular": false
@@ -422,9 +380,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Période de sept jours.",
-    "antonyms": [
-      "mois"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "semaines",
     "irregular": false
@@ -433,9 +389,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Soixante minutes.",
-    "antonyms": [
-      "seconde"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "heures",
     "irregular": false
@@ -444,9 +398,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Soixante secondes.",
-    "antonyms": [
-      "heure"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "minutes",
     "irregular": false
@@ -455,9 +407,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Soixantième de minute.",
-    "antonyms": [
-      "minute"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "secondes",
     "irregular": false
@@ -466,9 +416,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Pièce de musique vocale.",
-    "antonyms": [
-      "poème"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "chansons",
     "irregular": false
@@ -554,9 +502,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Astre éclairant la Terre.",
-    "antonyms": [
-      "lune"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "soleils",
     "irregular": false
@@ -565,9 +511,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Assemblage de feuilles imprimées.",
-    "antonyms": [
-      "cahier"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "livres",
     "irregular": false
@@ -576,9 +520,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Instrument pour écrire.",
-    "antonyms": [
-      "crayon"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "stylos",
     "irregular": false
@@ -587,9 +529,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Bâtonnet de mine de plomb.",
-    "antonyms": [
-      "stylo"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "crayons",
     "irregular": false
@@ -598,9 +538,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Assemblage de feuilles vierges.",
-    "antonyms": [
-      "livre"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "cahiers",
     "irregular": false
@@ -609,9 +547,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Récipient souple pour transporter.",
-    "antonyms": [
-      "poche"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "sacs",
     "irregular": false
@@ -620,9 +556,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Vêtement de dessus.",
-    "antonyms": [
-      "pantalon"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "manteaux",
     "irregular": false
@@ -631,9 +565,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Vêtement pour le bas du corps.",
-    "antonyms": [
-      "jupe"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "pantalons",
     "irregular": false
@@ -642,9 +574,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Couvre-chef.",
-    "antonyms": [
-      "casquette"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "chapeaux",
     "irregular": false
@@ -653,9 +583,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Animal domestique fidèle.",
-    "antonyms": [
-      "chat"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "chiens",
     "irregular": false
@@ -664,9 +592,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Félin domestique.",
-    "antonyms": [
-      "chien"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "chats",
     "irregular": false
@@ -675,9 +601,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Mammifère solipède.",
-    "antonyms": [
-      "vache"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "chevaux",
     "irregular": false
@@ -686,9 +610,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Animal vertébré à plumes.",
-    "antonyms": [
-      "poisson"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "oiseaux",
     "irregular": false
@@ -697,9 +619,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Animal aquatique à nageoires.",
-    "antonyms": [
-      "oiseau"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "poissons",
     "irregular": false
@@ -708,9 +628,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Végétal ligneux.",
-    "antonyms": [
-      "fleur"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "arbres",
     "irregular": false
@@ -719,9 +637,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Terrain cultivé.",
-    "antonyms": [
-      "maison"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "jardins",
     "irregular": false
@@ -730,9 +646,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Espace vert public.",
-    "antonyms": [
-      "rue"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "parcs",
     "irregular": false
@@ -741,9 +655,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Déplacement d'air.",
-    "antonyms": [
-      "calme"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "vents",
     "irregular": false
@@ -807,9 +719,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Douzième partie de l'année.",
-    "antonyms": [
-      "année"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "mois",
     "irregular": false
@@ -818,9 +728,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Période de douze mois.",
-    "antonyms": [
-      "mois"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "ans",
     "irregular": false
@@ -829,9 +737,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Période de cent ans.",
-    "antonyms": [
-      "année"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "siècles",
     "irregular": false
@@ -840,9 +746,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Dimension de la durée.",
-    "antonyms": [
-      "espace"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "temps",
     "irregular": false
@@ -874,9 +778,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Aliment à base de farine.",
-    "antonyms": [
-      "eau"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "pains",
     "irregular": false
@@ -885,9 +787,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Produit laitier.",
-    "antonyms": [
-      "lait"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "fromages",
     "irregular": false
@@ -896,9 +796,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Liquide blanc nutritif.",
-    "antonyms": [
-      "eau"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "laits",
     "irregular": false
@@ -907,9 +805,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Boisson chaude stimulante.",
-    "antonyms": [
-      "thé"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "cafés",
     "irregular": false
@@ -918,9 +814,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Boisson d'infusion.",
-    "antonyms": [
-      "café"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "thés",
     "irregular": false
@@ -940,9 +834,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Établissement servant des repas.",
-    "antonyms": [
-      "maison"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "restaurants",
     "irregular": false
@@ -951,9 +843,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Établissement d'hébergement.",
-    "antonyms": [
-      "maison"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "hôtels",
     "irregular": false
@@ -962,9 +852,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Transport ferroviaire.",
-    "antonyms": [
-      "avion"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "trains",
     "irregular": false
@@ -973,9 +861,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Aéronef à moteur.",
-    "antonyms": [
-      "bateau"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "avions",
     "irregular": false
@@ -984,9 +870,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Engin flottant.",
-    "antonyms": [
-      "avion"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "bateaux",
     "irregular": false
@@ -995,9 +879,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Déplacement au loin.",
-    "antonyms": [
-      "séjour"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "voyages",
     "irregular": false
@@ -1050,9 +932,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Idée de ce qu'on veut réaliser.",
-    "antonyms": [
-      "passé"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "projets",
     "irregular": false
@@ -1083,9 +963,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Ensemble de tout ce qui existe.",
-    "antonyms": [
-      "solitude"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "mondes",
     "irregular": false
@@ -1094,9 +972,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Territoire d'une nation.",
-    "antonyms": [
-      "ville"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "pays",
     "irregular": false
@@ -1116,9 +992,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Ouvrage de maçonnerie vertical.",
-    "antonyms": [
-      "sol"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "murs",
     "irregular": false
@@ -1149,9 +1023,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Meuble pour dormir.",
-    "antonyms": [
-      "chaise"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "lits",
     "irregular": false
@@ -1160,9 +1032,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Événement imprévu et malheureux.",
-    "antonyms": [
-      "sécurité"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "accidents",
     "irregular": false
@@ -1193,9 +1063,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Ensemble d'installations pour les avions.",
-    "antonyms": [
-      "gare"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "aéroports",
     "irregular": false
@@ -1204,9 +1072,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Durée de la vie d'un être.",
-    "antonyms": [
-      "jeunesse"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "âges",
     "irregular": false
@@ -1215,9 +1081,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Personne chargée de fonctions publiques.",
-    "antonyms": [
-      "citoyen"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "agents",
     "irregular": false
@@ -1248,9 +1112,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Liquide enivrant.",
-    "antonyms": [
-      "eau"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "alcools",
     "irregular": false
@@ -1259,9 +1121,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Être vivant doué de sensibilité.",
-    "antonyms": [
-      "végétal"
-    ],
+    "antonyms": [],
     "grammar_rule": "💡 REMEMBER: Nom masculin — pluriel en '-aux' ('les animaux').",
     "article": "l'",
     "plural": "animaux",
@@ -1282,9 +1142,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Assemblage d'organes d'un mécanisme.",
-    "antonyms": [
-      "outil"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "appareils",
     "irregular": false
@@ -1293,9 +1151,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Ensemble de pièces d'habitation.",
-    "antonyms": [
-      "maison"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "appartements",
     "irregular": false
@@ -1304,9 +1160,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Monnaie ou métal précieux.",
-    "antonyms": [
-      "pauvreté"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "argents",
     "irregular": false
@@ -1315,9 +1169,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Action de stopper.",
-    "antonyms": [
-      "départ"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "arrêts",
     "irregular": false
@@ -1337,9 +1189,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Écrit formant un tout dans un journal.",
-    "antonyms": [
-      "livre"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "articles",
     "irregular": false
@@ -1359,9 +1209,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Appel à la prudence.",
-    "antonyms": [
-      "encouragement"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "avertissements",
     "irregular": false
@@ -1381,9 +1229,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Immersion dans l'eau.",
-    "antonyms": [
-      "douche"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "bains",
     "irregular": false
@@ -1392,9 +1238,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Plateforme en saillie.",
-    "antonyms": [
-      "terrasse"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "balcons",
     "irregular": false
@@ -1403,9 +1247,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Balle de sport gonflée d'air.",
-    "antonyms": [
-      "balle"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "ballons",
     "irregular": false
@@ -1414,9 +1256,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Personne qui dirige une banque.",
-    "antonyms": [
-      "client"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "banquiers",
     "irregular": false
@@ -1425,9 +1265,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Construction immobilière.",
-    "antonyms": [
-      "terrain"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "bâtiments",
     "irregular": false
@@ -1436,9 +1274,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Bassin d'eau.",
-    "antonyms": [
-      "lac"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "bassins",
     "irregular": false
@@ -1458,9 +1294,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Matière grasse du lait.",
-    "antonyms": [
-      "huile"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "beurres",
     "irregular": false
@@ -1469,9 +1303,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Titre de transport ou papier de banque.",
-    "antonyms": [
-      "pièce"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "billets",
     "irregular": false
@@ -1480,9 +1312,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Petite gaufrette sèche.",
-    "antonyms": [
-      "gâteau"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "biscuits",
     "irregular": false
@@ -1491,9 +1321,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Matière des arbres.",
-    "antonyms": [
-      "métal"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "bois",
     "irregular": false
@@ -1513,9 +1341,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Meuble pour écrire ou pièce de travail.",
-    "antonyms": [
-      "atelier"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "bureaux",
     "irregular": false
@@ -1524,9 +1350,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Autobus de ville.",
-    "antonyms": [
-      "train"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "bus",
     "irregular": false
@@ -1546,9 +1370,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Opération mathématique.",
-    "antonyms": [
-      "estimation"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "calculs",
     "irregular": false
@@ -1568,9 +1390,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Grand véhicule de transport.",
-    "antonyms": [
-      "voiture"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "camions",
     "irregular": false
@@ -1579,9 +1399,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Lieu de séjour temporaire sous la tente.",
-    "antonyms": [
-      "hôtel"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "camps",
     "irregular": false
@@ -1590,9 +1408,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Voie d'eau artificielle.",
-    "antonyms": [
-      "fleuve"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "canaux",
     "irregular": false
@@ -1601,9 +1417,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Combustible fossile noir.",
-    "antonyms": [
-      "bois"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "charbons",
     "irregular": false
@@ -1612,9 +1426,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Voie de terre.",
-    "antonyms": [
-      "route"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "chemins",
     "irregular": false
@@ -1634,9 +1446,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Substance sucrée au cacao.",
-    "antonyms": [
-      "bonbon"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "chocolats",
     "irregular": false
@@ -1645,9 +1455,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Salle de projection de films.",
-    "antonyms": [
-      "théâtre"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "cinémas",
     "irregular": false
@@ -1656,9 +1464,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Agrume jaune acide.",
-    "antonyms": [
-      "orange"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "citrons",
     "irregular": false
@@ -1678,9 +1484,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Ensemble des conditions atmosphériques.",
-    "antonyms": [
-      "météo"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "climats",
     "irregular": false
@@ -1689,9 +1493,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Organe vital de la circulation.",
-    "antonyms": [
-      "esprit"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "cœurs",
     "irregular": false
@@ -1700,9 +1502,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Angle de deux murs.",
-    "antonyms": [
-      "centre"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "coins",
     "irregular": false
@@ -1722,9 +1522,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Établissement d'enseignement secondaire.",
-    "antonyms": [
-      "lycée"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "collèges",
     "irregular": false
@@ -1733,9 +1531,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Lutte armée.",
-    "antonyms": [
-      "paix"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "combats",
     "irregular": false
@@ -1744,9 +1540,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Achat et vente de marchandises.",
-    "antonyms": [
-      "industrie"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "commerces",
     "irregular": false
@@ -1766,9 +1560,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Séance musicale.",
-    "antonyms": [
-      "opéra"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "concerts",
     "irregular": false
@@ -1777,9 +1569,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Avis donné à quelqu'un.",
-    "antonyms": [
-      "ordre"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "conseils",
     "irregular": false
@@ -1799,9 +1589,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Convention juridique entre parties.",
-    "antonyms": [
-      "litige"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "contrats",
     "irregular": false
@@ -1810,9 +1598,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Vérification attentive.",
-    "antonyms": [
-      "laisser-faire"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "contrôles",
     "irregular": false
@@ -1832,9 +1618,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Vêtement masculin complet.",
-    "antonyms": [
-      "robe"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "costumes",
     "irregular": false
@@ -1843,9 +1627,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Fibre textile végétale.",
-    "antonyms": [
-      "laine"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "cotons",
     "irregular": false
@@ -1854,9 +1636,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Articulation du bras.",
-    "antonyms": [
-      "genou"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "coudes",
     "irregular": false
@@ -1865,9 +1645,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Choc rapide.",
-    "antonyms": [
-      "caresse"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "coups",
     "irregular": false
@@ -1876,9 +1654,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Ensemble des lettres envoyées.",
-    "antonyms": [
-      "colis"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "courriers",
     "irregular": false
@@ -1887,9 +1663,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Enseignement donné par un professeur.",
-    "antonyms": [
-      "examen"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "cours",
     "irregular": false
@@ -1898,9 +1672,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Ustensile pour couper.",
-    "antonyms": [
-      "fourchette"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "couteaux",
     "irregular": false
@@ -1909,9 +1681,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Pièce fermant un récipient.",
-    "antonyms": [
-      "boîte"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "couvercles",
     "irregular": false
@@ -1975,9 +1745,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Représentation graphique.",
-    "antonyms": [
-      "peinture"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "dessins",
     "irregular": false
@@ -1997,9 +1765,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Recueil de mots de la langue.",
-    "antonyms": [
-      "roman"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "dictionnaires",
     "irregular": false
@@ -2030,9 +1796,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Propos tenus devant un public.",
-    "antonyms": [
-      "silence"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "discours",
     "irregular": false
@@ -2041,9 +1805,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Extrémité articulée de la main.",
-    "antonyms": [
-      "orteil"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "doigts",
     "irregular": false
@@ -2085,9 +1847,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Lumière vive de l'orage.",
-    "antonyms": [
-      "tonnerre"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "éclairs",
     "irregular": false
@@ -2096,9 +1856,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Surface d'affichage électronique.",
-    "antonyms": [
-      "clavier"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "écrans",
     "irregular": false
@@ -2118,9 +1876,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Grand mammifère à trompe.",
-    "antonyms": [
-      "souris"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "éléphants",
     "irregular": false
@@ -2140,9 +1896,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Lieu déterminé.",
-    "antonyms": [
-      "espace"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "endroits",
     "irregular": false
@@ -2162,9 +1916,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Suite de marches.",
-    "antonyms": [
-      "ascenseur"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "escaliers",
     "irregular": false
@@ -2173,9 +1925,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Étendue indéfinie.",
-    "antonyms": [
-      "temps"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "espaces",
     "irregular": false
@@ -2206,9 +1956,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Tentative d'action.",
-    "antonyms": [
-      "échec"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "essais",
     "irregular": false
@@ -2228,9 +1976,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Personne inscrite à l'université.",
-    "antonyms": [
-      "professeur"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "étudiants",
     "irregular": false
@@ -2239,9 +1985,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Ce qui sert de modèle.",
-    "antonyms": [
-      "exception"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "exemples",
     "irregular": false
@@ -2250,9 +1994,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Pratique pour apprendre.",
-    "antonyms": [
-      "repos"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "exercices",
     "irregular": false
@@ -2273,9 +2015,7 @@
     "gender": "Masculin",
     "level": "B2",
     "definition": "Grand instrument de musique à tuyaux et à clavier.",
-    "antonyms": [
-      "piano"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "orgues",
     "grammar_rule": "💡 REMEMBER: Nom masculin au singulier ('un grand orgue'), mais souvent féminin au pluriel ('les grandes orgues').",
@@ -2592,9 +2332,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Pièce de vaisselle creuse ou plate pour servir la nourriture.",
-    "antonyms": [
-      "bol"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "assiettes",
     "irregular": false
@@ -2603,9 +2341,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Récipient pour boire des liquides.",
-    "antonyms": [
-      "tasse"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "verres",
     "irregular": false
@@ -2614,9 +2350,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Ustensile de table à dents pour piquer les aliments.",
-    "antonyms": [
-      "couteau"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "fourchettes",
     "irregular": false
@@ -2625,9 +2359,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Ustensile de table creux pour prélever les liquides ou aliments.",
-    "antonyms": [
-      "fourchette"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "cuillères",
     "irregular": false
@@ -2637,7 +2369,7 @@
     "level": "A1",
     "definition": "Condiment blanc utilisé pour assaisonner les plats.",
     "antonyms": [
-      "poivre"
+      "sucre"
     ],
     "article": "le",
     "plural": "sels",
@@ -2647,9 +2379,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Epice piquante utilisée pour relever le goût des aliments.",
-    "antonyms": [
-      "sel"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "poivres",
     "irregular": false
@@ -2669,9 +2399,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Vêtement pour le haut du corps avec col et boutons.",
-    "antonyms": [
-      "pantalon"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "chemises",
     "irregular": false
@@ -2680,9 +2408,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Vêtement féminin d'une seule pièce couvrant le corps.",
-    "antonyms": [
-      "costume"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "robes",
     "irregular": false
@@ -2691,9 +2417,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Vêtement féminin suspendu à la taille.",
-    "antonyms": [
-      "pantalon"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "jupes",
     "irregular": false
@@ -2702,9 +2426,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Vêtement à manches se portant par-dessus la chemise.",
-    "antonyms": [
-      "manteau"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "vestes",
     "irregular": false
@@ -2713,9 +2435,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Vêtement de tricot recouvrant le pied et la cheville.",
-    "antonyms": [
-      "chaussure"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "chaussettes",
     "irregular": false
@@ -2724,9 +2444,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Objet en cuir ou tissu servant à chaausser le pied.",
-    "antonyms": [
-      "chaussette"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "chaussures",
     "irregular": false
@@ -2735,9 +2453,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Vêtement qui s'adapte exactement à la main.",
-    "antonyms": [
-      "chaussette"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "gants",
     "irregular": false
@@ -2757,9 +2473,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Précipitation d'eau congelée sous forme de flocons.",
-    "antonyms": [
-      "pluie"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "neiges",
     "irregular": false
@@ -2779,9 +2493,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Masse de vapeur d'eau suspendue dans l'atmosphère.",
-    "antonyms": [
-      "soleil"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "nuages",
     "irregular": false
@@ -2790,9 +2502,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Astre céleste produisant sa propre lumière.",
-    "antonyms": [
-      "soleil"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "étoiles",
     "irregular": false
@@ -2801,9 +2511,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Satellite naturel de la Terre.",
-    "antonyms": [
-      "soleil"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "lunes",
     "irregular": false
@@ -2812,9 +2520,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Cours d'eau naturel s'écoulant dans un autre.",
-    "antonyms": [
-      "fleuve"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "rivières",
     "irregular": false
@@ -2834,9 +2540,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Local commercial où l'on vend des marchandises.",
-    "antonyms": [
-      "marché"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "magasins",
     "irregular": false
@@ -2845,9 +2549,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Lieu public de vente de produits alimentaires.",
-    "antonyms": [
-      "magasin"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "marchés",
     "irregular": false
@@ -2856,9 +2558,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Établissement financier.",
-    "antonyms": [
-      "magasin"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "banques",
     "irregular": false
@@ -2867,9 +2567,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Édifice consacré au culte chrétien.",
-    "antonyms": [
-      "mosquée"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "églises",
     "irregular": false
@@ -2878,9 +2576,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Établissement de soins médicaux.",
-    "antonyms": [
-      "école"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "hôpitaux",
     "grammar_rule": "💡 REMEMBER: Nom masculin — pluriel irrégulier en '-aux' ('les hôpitaux').",
@@ -2890,9 +2586,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Officine où l'on prépare et vend des médicaments.",
-    "antonyms": [
-      "hôpital"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "pharmacies",
     "irregular": false
@@ -2901,9 +2595,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Ensemble des installations ferroviaires pour voyageurs.",
-    "antonyms": [
-      "aéroport"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "gares",
     "irregular": false
@@ -2912,9 +2604,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Ouvrage reliant deux rives au-dessus d'un obstacle.",
-    "antonyms": [
-      "tunnel"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "ponts",
     "irregular": false
@@ -3062,9 +2752,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Machine électronique de traitement de l'information.",
-    "antonyms": [
-      "papier"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "ordinateurs",
     "irregular": false
@@ -3073,9 +2761,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Appareil de communication vocale à distance.",
-    "antonyms": [
-      "lettre"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "téléphones",
     "irregular": false
@@ -3094,9 +2780,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Ensemble des touches d'un ordinateur ou d'un piano.",
-    "antonyms": [
-      "écran"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "claviers",
     "irregular": false
@@ -3105,9 +2789,7 @@
     "gender": "Féminin",
     "level": "A2",
     "definition": "Dispositif de pointage pour ordinateur ou petit rongeur.",
-    "antonyms": [
-      "clavier"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "souris",
     "grammar_rule": "💡 REMEMBER: Toujours du genre féminin (\"la souris\"), y compris pour le périphérique informatique. Invariable au pluriel.",
@@ -3117,9 +2799,7 @@
     "gender": "Masculin",
     "level": "A2",
     "definition": "Texte ou information transmis à un destinataire.",
-    "antonyms": [
-      "silence"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "messages",
     "irregular": false
@@ -3591,9 +3271,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Plante potagère consommée dans l'alimentation.",
-    "antonyms": [
-      "fruit"
-    ],
+    "antonyms": [],
     "article": "le",
     "plural": "légumes",
     "irregular": false
@@ -3602,9 +3280,7 @@
     "gender": "Féminin",
     "level": "A1",
     "definition": "Chair animale utilisée pour la nourriture.",
-    "antonyms": [
-      "poisson"
-    ],
+    "antonyms": [],
     "article": "la",
     "plural": "viandes",
     "irregular": false
@@ -3780,9 +3456,7 @@
     "gender": "Masculin",
     "level": "A1",
     "definition": "Perturbation atmosphérique avec pluie, éclairs et tonnerre.",
-    "antonyms": [
-      "calme"
-    ],
+    "antonyms": [],
     "article": "l'",
     "plural": "orages",
     "irregular": false
