@@ -1,0 +1,182 @@
+[
+  {
+    "id": "personal-pronouns",
+    "category": "pronouns",
+    "title": "Personal Pronouns",
+    "cefr_level": "A0",
+    "description": "Subject pronouns used to replace specific nouns (e.g., I, you, he, she, it, we, they).",
+    "universal": true,
+    "languages": ["en", "fr", "it", "ru", "el", "es", "de", "pt", "hy", "ka", "tt", "ba", "br", "cv"]
+  },
+  {
+    "id": "definite-articles",
+    "category": "articles",
+    "title": "Definite Articles",
+    "cefr_level": "A0",
+    "description": "Words used before nouns to indicate specific items (e.g., the, le/la, il/la, der/die/das).",
+    "universal": false,
+    "languages": ["en", "fr", "it", "el", "es", "de", "pt", "hy", "br"]
+  },
+  {
+    "id": "indefinite-articles",
+    "category": "articles",
+    "title": "Indefinite Articles",
+    "cefr_level": "A0",
+    "description": "Words used before nouns to specify non-specific items (e.g., a/an, un/une, ein/eine).",
+    "universal": false,
+    "languages": ["en", "fr", "it", "es", "de", "pt", "br"]
+  },
+  {
+    "id": "grammatical-gender",
+    "category": "gender",
+    "title": "Grammatical Noun Gender",
+    "cefr_level": "A1",
+    "description": "Classification of nouns into masculine, feminine, or neuter categories affecting agreement.",
+    "universal": false,
+    "languages": ["fr", "it", "ru", "el", "es", "de", "pt", "br"]
+  },
+  {
+    "id": "noun-number-plural",
+    "category": "nouns",
+    "title": "Noun Plural Formation",
+    "cefr_level": "A0",
+    "description": "Morphological or syntactic mechanisms to mark plural quantity on nouns.",
+    "universal": true,
+    "languages": ["en", "fr", "it", "ru", "el", "es", "de", "pt", "hy", "ka", "tt", "ba", "br", "cv"]
+  },
+  {
+    "id": "present-tense-to-be",
+    "category": "verb-to-be",
+    "title": "Present Tense Copula (To Be)",
+    "cefr_level": "A0",
+    "description": "Overt present tense copular verb used to link subjects with predicates or identities.",
+    "universal": false,
+    "languages": ["en", "fr", "it", "el", "es", "de", "pt", "hy", "ka", "br"]
+  },
+  {
+    "id": "present-tense-to-have",
+    "category": "verbs",
+    "title": "Possession Verb (To Have)",
+    "cefr_level": "A0",
+    "description": "Dedicated verb expressively denoting possession (e.g., have, avoir, avere, tener, haben).",
+    "universal": false,
+    "languages": ["en", "fr", "it", "el", "es", "de", "pt", "hy", "br"]
+  },
+  {
+    "id": "basic-negation",
+    "category": "negation",
+    "title": "Basic Clause Negation",
+    "cefr_level": "A0",
+    "description": "Particles, adverbs, or affixes used to negate main clauses (e.g., not, ne...pas, non, не, не/μή).",
+    "universal": true,
+    "languages": ["en", "fr", "it", "ru", "el", "es", "de", "pt", "hy", "ka", "tt", "ba", "br", "cv"]
+  },
+  {
+    "id": "yes-no-questions",
+    "category": "questions",
+    "title": "Yes/No Polar Questions",
+    "cefr_level": "A0",
+    "description": "Structures or rising intonation patterns used to formulate closed questions.",
+    "universal": true,
+    "languages": ["en", "fr", "it", "ru", "el", "es", "de", "pt", "hy", "ka", "tt", "ba", "br", "cv"]
+  },
+  {
+    "id": "word-order-svo",
+    "category": "word-order",
+    "title": "Subject-Verb-Object (SVO) Word Order",
+    "cefr_level": "A0",
+    "description": "Dominant default word order where the verb appears between subject and object.",
+    "universal": false,
+    "languages": ["en", "fr", "it", "ru", "el", "es", "de", "pt", "hy", "br"]
+  },
+  {
+    "id": "word-order-sov",
+    "category": "word-order",
+    "title": "Subject-Object-Verb (SOV) Word Order",
+    "cefr_level": "A0",
+    "description": "Dominant default word order where the verb concludes the clause after subject and object.",
+    "universal": false,
+    "languages": ["ka", "tt", "ba", "cv", "de", "hy"]
+  },
+  {
+    "id": "possessive-adjectives",
+    "category": "pronouns",
+    "title": "Possessive Adjectives & Suffixes",
+    "cefr_level": "A1",
+    "description": "Forms indicating ownership modifying or attached to nouns (e.g., my/your, mon/ma, мой, -ым/-ем).",
+    "universal": true,
+    "languages": ["en", "fr", "it", "ru", "el", "es", "de", "pt", "hy", "ka", "tt", "ba", "br", "cv"]
+  },
+  {
+    "id": "demonstrative-determiners",
+    "category": "determiners",
+    "title": "Demonstrative Determiners",
+    "cefr_level": "A1",
+    "description": "Words pointing to specific items relative to speaker location (e.g., this/that, ce/cette, этот/тот).",
+    "universal": true,
+    "languages": ["en", "fr", "it", "ru", "el", "es", "de", "pt", "hy", "ka", "tt", "ba", "br", "cv"]
+  },
+  {
+    "id": "noun-case-declension",
+    "category": "cases",
+    "title": "Noun Case Declension",
+    "cefr_level": "A1",
+    "description": "Inflection of nouns to mark syntactic relationships like subject, direct object, or location.",
+    "universal": false,
+    "languages": ["ru", "el", "de", "hy", "ka", "tt", "ba", "cv"]
+  },
+  {
+    "id": "adjective-agreement",
+    "category": "adjectives",
+    "title": "Adjective Agreement",
+    "cefr_level": "A1",
+    "description": "Adjectives changing form to match gender, number, or case of the modified noun.",
+    "universal": false,
+    "languages": ["fr", "it", "ru", "el", "es", "de", "pt", "br"]
+  },
+  {
+    "id": "verb-person-conjugation",
+    "category": "verbs",
+    "title": "Verb Inflection for Person & Number",
+    "cefr_level": "A1",
+    "description": "Verbs changing endings or forms based on grammatical person (1st, 2nd, 3rd) and number.",
+    "universal": false,
+    "languages": ["en", "fr", "it", "ru", "el", "es", "de", "pt", "hy", "ka", "tt", "ba", "br", "cv"]
+  },
+  {
+    "id": "accusative-marking",
+    "category": "cases",
+    "title": "Accusative Direct Object Marking",
+    "cefr_level": "A1",
+    "description": "Explicit morphological case marking or prepositional marking for direct objects.",
+    "universal": false,
+    "languages": ["ru", "el", "es", "de", "hy", "ka", "tt", "ba", "cv"]
+  },
+  {
+    "id": "vowel-harmony",
+    "category": "phonology-morphology",
+    "title": "Vowel Harmony in Suffixation",
+    "cefr_level": "A1",
+    "description": "Phonological rule dictating suffix vowel fronting or backing based on root vowels.",
+    "universal": false,
+    "languages": ["tt", "ba", "cv"]
+  },
+  {
+    "id": "consonant-mutations",
+    "category": "phonology-morphology",
+    "title": "Initial Consonant Mutations",
+    "cefr_level": "A1",
+    "description": "Sound changes at the beginning of words triggered by preceding grammatical particles or words.",
+    "universal": false,
+    "languages": ["br"]
+  },
+  {
+    "id": "agglutinative-suffix-chains",
+    "category": "morphology",
+    "title": "Agglutinative Suffix Chains",
+    "cefr_level": "A1",
+    "description": "Building complex meanings by appending distinct, single-function suffixes to root words.",
+    "universal": false,
+    "languages": ["hy", "tt", "ba", "cv"]
+  }
+]
