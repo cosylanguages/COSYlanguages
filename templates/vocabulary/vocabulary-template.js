@@ -1,7 +1,7 @@
 /**
  * COSYlanguages Vocabulary Template
  *
- * Follow SCHEMA.md for field requirements and CONTENT_ARCHITECTURE.md for codes.
+ * Follow project/docs/SCHEMA.md for field requirements and project/docs/CONTENT_ARCHITECTURE.md for codes.
  * File naming: theme-slug.js (e.g., food-drink.js)
  */
 (function() {
@@ -16,7 +16,7 @@
             "word": "word",
             "lang": "xx",
             "level": "starter", // starter | elementary | intermediate | upper_intermediate | advanced | proficiency
-            "theme": "theme",   // Slug from CONTENT_ARCHITECTURE.md (e.g., animals, food_drink)
+            "theme": "theme",   // Slug from project/docs/CONTENT_ARCHITECTURE.md (e.g., animals, food_drink)
             "form": "noun",     // noun | verb | adjective | adverb | phrase | other
             "definitions": [
                 {
@@ -32,7 +32,7 @@
             /**
              * OPTIONAL FIELDS (strongly recommended for B1+)
              */
-            "sub_theme": null,    // Optional sub-theme from CONTENT_ARCHITECTURE.md
+            "sub_theme": null,    // Optional sub-theme from project/docs/CONTENT_ARCHITECTURE.md
             "synonyms": [],       // Array of strings
             "antonyms": [],       // Array of strings
             "collocations": [],   // Array of strings in the target language

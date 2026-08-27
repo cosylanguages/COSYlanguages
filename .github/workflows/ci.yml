@@ -27,4 +27,4 @@ jobs:
 
       - name: Run internal link verification
         run: |
-          python3 scripts/audits/link_checker.py
+          python3 project/scripts/audits/link_checker.py
