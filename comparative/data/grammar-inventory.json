@@ -6,7 +6,23 @@
     "cefr_level": "A0",
     "description": "Subject pronouns used to replace specific nouns (e.g., I, you, he, she, it, we, they).",
     "universal": true,
-    "languages": ["en", "fr", "it", "ru", "el", "es", "de", "pt", "hy", "ka", "tt", "ba", "br", "cv"]
+    "languages": [
+      "en",
+      "fr",
+      "it",
+      "ru",
+      "el",
+      "es",
+      "de",
+      "pt",
+      "hy",
+      "ka",
+      "tt",
+      "ba",
+      "br",
+      "cv"
+    ],
+    "verified": true
   },
   {
     "id": "definite-articles",
@@ -15,7 +31,18 @@
     "cefr_level": "A0",
     "description": "Words used before nouns to indicate specific items (e.g., the, le/la, il/la, der/die/das).",
     "universal": false,
-    "languages": ["en", "fr", "it", "el", "es", "de", "pt", "hy", "br"]
+    "languages": [
+      "en",
+      "fr",
+      "it",
+      "el",
+      "es",
+      "de",
+      "pt",
+      "hy",
+      "br"
+    ],
+    "verified": true
   },
   {
     "id": "indefinite-articles",
@@ -24,7 +51,16 @@
     "cefr_level": "A0",
     "description": "Words used before nouns to specify non-specific items (e.g., a/an, un/une, ein/eine).",
     "universal": false,
-    "languages": ["en", "fr", "it", "es", "de", "pt", "br"]
+    "languages": [
+      "en",
+      "fr",
+      "it",
+      "es",
+      "de",
+      "pt",
+      "br"
+    ],
+    "verified": true
   },
   {
     "id": "grammatical-gender",
@@ -33,7 +69,17 @@
     "cefr_level": "A1",
     "description": "Classification of nouns into masculine, feminine, or neuter categories affecting agreement.",
     "universal": false,
-    "languages": ["fr", "it", "ru", "el", "es", "de", "pt", "br"]
+    "languages": [
+      "fr",
+      "it",
+      "ru",
+      "el",
+      "es",
+      "de",
+      "pt",
+      "br"
+    ],
+    "verified": true
   },
   {
     "id": "noun-number-plural",
@@ -42,7 +88,23 @@
     "cefr_level": "A0",
     "description": "Morphological or syntactic mechanisms to mark plural quantity on nouns.",
     "universal": true,
-    "languages": ["en", "fr", "it", "ru", "el", "es", "de", "pt", "hy", "ka", "tt", "ba", "br", "cv"]
+    "languages": [
+      "en",
+      "fr",
+      "it",
+      "ru",
+      "el",
+      "es",
+      "de",
+      "pt",
+      "hy",
+      "ka",
+      "tt",
+      "ba",
+      "br",
+      "cv"
+    ],
+    "verified": true
   },
   {
     "id": "present-tense-to-be",
@@ -51,7 +113,19 @@
     "cefr_level": "A0",
     "description": "Overt present tense copular verb used to link subjects with predicates or identities.",
     "universal": false,
-    "languages": ["en", "fr", "it", "el", "es", "de", "pt", "hy", "ka", "br"]
+    "languages": [
+      "en",
+      "fr",
+      "it",
+      "el",
+      "es",
+      "de",
+      "pt",
+      "hy",
+      "ka",
+      "br"
+    ],
+    "verified": true
   },
   {
     "id": "present-tense-to-have",
@@ -60,7 +134,18 @@
     "cefr_level": "A0",
     "description": "Dedicated verb expressively denoting possession (e.g., have, avoir, avere, tener, haben).",
     "universal": false,
-    "languages": ["en", "fr", "it", "el", "es", "de", "pt", "hy", "br"]
+    "languages": [
+      "en",
+      "fr",
+      "it",
+      "el",
+      "es",
+      "de",
+      "pt",
+      "hy",
+      "br"
+    ],
+    "verified": true
   },
   {
     "id": "basic-negation",
@@ -69,7 +154,23 @@
     "cefr_level": "A0",
     "description": "Particles, adverbs, or affixes used to negate main clauses (e.g., not, ne...pas, non, не, не/μή).",
     "universal": true,
-    "languages": ["en", "fr", "it", "ru", "el", "es", "de", "pt", "hy", "ka", "tt", "ba", "br", "cv"]
+    "languages": [
+      "en",
+      "fr",
+      "it",
+      "ru",
+      "el",
+      "es",
+      "de",
+      "pt",
+      "hy",
+      "ka",
+      "tt",
+      "ba",
+      "br",
+      "cv"
+    ],
+    "verified": true
   },
   {
     "id": "yes-no-questions",
@@ -78,7 +179,23 @@
     "cefr_level": "A0",
     "description": "Structures or rising intonation patterns used to formulate closed questions.",
     "universal": true,
-    "languages": ["en", "fr", "it", "ru", "el", "es", "de", "pt", "hy", "ka", "tt", "ba", "br", "cv"]
+    "languages": [
+      "en",
+      "fr",
+      "it",
+      "ru",
+      "el",
+      "es",
+      "de",
+      "pt",
+      "hy",
+      "ka",
+      "tt",
+      "ba",
+      "br",
+      "cv"
+    ],
+    "verified": true
   },
   {
     "id": "word-order-svo",
@@ -87,7 +204,19 @@
     "cefr_level": "A0",
     "description": "Dominant default word order where the verb appears between subject and object.",
     "universal": false,
-    "languages": ["en", "fr", "it", "ru", "el", "es", "de", "pt", "hy", "br"]
+    "languages": [
+      "en",
+      "fr",
+      "it",
+      "ru",
+      "el",
+      "es",
+      "de",
+      "pt",
+      "hy",
+      "br"
+    ],
+    "verified": true
   },
   {
     "id": "word-order-sov",
@@ -96,25 +225,65 @@
     "cefr_level": "A0",
     "description": "Dominant default word order where the verb concludes the clause after subject and object.",
     "universal": false,
-    "languages": ["ka", "tt", "ba", "cv", "de", "hy"]
+    "languages": [
+      "ka",
+      "tt",
+      "ba",
+      "cv",
+      "de",
+      "hy"
+    ],
+    "verified": true
   },
   {
     "id": "possessive-adjectives",
-    "category": "pronouns",
-    "title": "Possessive Adjectives & Suffixes",
+    "category": "possession",
+    "title": "Possessive Adjectives & Determiners",
     "cefr_level": "A1",
-    "description": "Forms indicating ownership modifying or attached to nouns (e.g., my/your, mon/ma, мой, -ым/-ем).",
+    "description": "Forms indicating ownership modifying nouns (e.g., my/your, mon/ma, мой, il mio).",
     "universal": true,
-    "languages": ["en", "fr", "it", "ru", "el", "es", "de", "pt", "hy", "ka", "tt", "ba", "br", "cv"]
+    "languages": [
+      "en",
+      "fr",
+      "it",
+      "ru",
+      "el",
+      "es",
+      "de",
+      "pt",
+      "hy",
+      "ka",
+      "tt",
+      "ba",
+      "br",
+      "cv"
+    ],
+    "verified": true
   },
   {
     "id": "demonstrative-determiners",
-    "category": "determiners",
+    "category": "demonstratives",
     "title": "Demonstrative Determiners",
     "cefr_level": "A1",
     "description": "Words pointing to specific items relative to speaker location (e.g., this/that, ce/cette, этот/тот).",
     "universal": true,
-    "languages": ["en", "fr", "it", "ru", "el", "es", "de", "pt", "hy", "ka", "tt", "ba", "br", "cv"]
+    "languages": [
+      "en",
+      "fr",
+      "it",
+      "ru",
+      "el",
+      "es",
+      "de",
+      "pt",
+      "hy",
+      "ka",
+      "tt",
+      "ba",
+      "br",
+      "cv"
+    ],
+    "verified": true
   },
   {
     "id": "noun-case-declension",
@@ -123,7 +292,17 @@
     "cefr_level": "A1",
     "description": "Inflection of nouns to mark syntactic relationships like subject, direct object, or location.",
     "universal": false,
-    "languages": ["ru", "el", "de", "hy", "ka", "tt", "ba", "cv"]
+    "languages": [
+      "ru",
+      "el",
+      "de",
+      "hy",
+      "ka",
+      "tt",
+      "ba",
+      "cv"
+    ],
+    "verified": true
   },
   {
     "id": "adjective-agreement",
@@ -132,7 +311,17 @@
     "cefr_level": "A1",
     "description": "Adjectives changing form to match gender, number, or case of the modified noun.",
     "universal": false,
-    "languages": ["fr", "it", "ru", "el", "es", "de", "pt", "br"]
+    "languages": [
+      "fr",
+      "it",
+      "ru",
+      "el",
+      "es",
+      "de",
+      "pt",
+      "br"
+    ],
+    "verified": true
   },
   {
     "id": "verb-person-conjugation",
@@ -141,7 +330,23 @@
     "cefr_level": "A1",
     "description": "Verbs changing endings or forms based on grammatical person (1st, 2nd, 3rd) and number.",
     "universal": false,
-    "languages": ["en", "fr", "it", "ru", "el", "es", "de", "pt", "hy", "ka", "tt", "ba", "br", "cv"]
+    "languages": [
+      "en",
+      "fr",
+      "it",
+      "ru",
+      "el",
+      "es",
+      "de",
+      "pt",
+      "hy",
+      "ka",
+      "tt",
+      "ba",
+      "br",
+      "cv"
+    ],
+    "verified": true
   },
   {
     "id": "accusative-marking",
@@ -150,25 +355,44 @@
     "cefr_level": "A1",
     "description": "Explicit morphological case marking or prepositional marking for direct objects.",
     "universal": false,
-    "languages": ["ru", "el", "es", "de", "hy", "ka", "tt", "ba", "cv"]
+    "languages": [
+      "ru",
+      "el",
+      "es",
+      "de",
+      "hy",
+      "ka",
+      "tt",
+      "ba",
+      "cv"
+    ],
+    "verified": true
   },
   {
     "id": "vowel-harmony",
-    "category": "phonology-morphology",
+    "category": "morphology",
     "title": "Vowel Harmony in Suffixation",
     "cefr_level": "A1",
     "description": "Phonological rule dictating suffix vowel fronting or backing based on root vowels.",
     "universal": false,
-    "languages": ["tt", "ba", "cv"]
+    "languages": [
+      "tt",
+      "ba",
+      "cv"
+    ],
+    "verified": true
   },
   {
     "id": "consonant-mutations",
-    "category": "phonology-morphology",
+    "category": "morphology",
     "title": "Initial Consonant Mutations",
     "cefr_level": "A1",
     "description": "Sound changes at the beginning of words triggered by preceding grammatical particles or words.",
     "universal": false,
-    "languages": ["br"]
+    "languages": [
+      "br"
+    ],
+    "verified": true
   },
   {
     "id": "agglutinative-suffix-chains",
@@ -177,6 +401,823 @@
     "cefr_level": "A1",
     "description": "Building complex meanings by appending distinct, single-function suffixes to root words.",
     "universal": false,
-    "languages": ["hy", "tt", "ba", "cv"]
+    "languages": [
+      "hy",
+      "tt",
+      "ba",
+      "cv"
+    ],
+    "verified": true
+  },
+  {
+    "id": "demonstrative-pronouns",
+    "category": "demonstratives",
+    "title": "Demonstrative Pronouns",
+    "cefr_level": "A1",
+    "description": "Pronouns functioning independently to replace and point to specific entities (this, that, ceci, cela, это, αυτό).",
+    "universal": true,
+    "languages": [
+      "en",
+      "fr",
+      "it",
+      "ru",
+      "el",
+      "es",
+      "de",
+      "pt",
+      "hy",
+      "ka",
+      "tt",
+      "ba",
+      "br",
+      "cv"
+    ],
+    "verified": true
+  },
+  {
+    "id": "three-way-demonstratives",
+    "category": "demonstratives",
+    "title": "Three-Way Spatial Demonstratives",
+    "cefr_level": "A1",
+    "description": "Spatial distance system contrasting near speaker, near listener, and far from both (este/ese/aquel, esto/isso/aquilo).",
+    "universal": false,
+    "languages": [
+      "es",
+      "pt",
+      "ka",
+      "hy",
+      "tt",
+      "ba",
+      "cv"
+    ],
+    "verified": false
+  },
+  {
+    "id": "genitive-possession",
+    "category": "possession",
+    "title": "Genitive Noun Possession",
+    "cefr_level": "A1",
+    "description": "Marking the possessor noun directly with a genitive case ending or possessive affix.",
+    "universal": false,
+    "languages": [
+      "en",
+      "ru",
+      "el",
+      "de",
+      "hy",
+      "ka",
+      "tt",
+      "ba",
+      "cv"
+    ],
+    "verified": true
+  },
+  {
+    "id": "prepositional-possession",
+    "category": "possession",
+    "title": "Prepositional Possession Construction",
+    "cefr_level": "A1",
+    "description": "Expressing ownership using prepositions before the possessor noun (e.g., of, de, di, da).",
+    "universal": false,
+    "languages": [
+      "en",
+      "fr",
+      "it",
+      "es",
+      "pt",
+      "br"
+    ],
+    "verified": true
+  },
+  {
+    "id": "possessive-suffixes",
+    "category": "possession",
+    "title": "Possessive Noun Suffixes",
+    "cefr_level": "A1",
+    "description": "Attaching personal possessive suffixes directly to the possessed noun stem (e.g., -ым/-ем, -ы/-е).",
+    "universal": false,
+    "languages": [
+      "tt",
+      "ba",
+      "cv",
+      "hy"
+    ],
+    "verified": true
+  },
+  {
+    "id": "dative-existential-possession",
+    "category": "possession",
+    "title": "Dative / Locative Existential Possession",
+    "cefr_level": "A1",
+    "description": "Expressing 'X has Y' using a dative or locative possessor coupled with an existential copula ('у меня есть').",
+    "universal": false,
+    "languages": [
+      "ru",
+      "hy",
+      "ka"
+    ],
+    "verified": true
+  },
+  {
+    "id": "postnominal-adjectives",
+    "category": "adjectives",
+    "title": "Postnominal Adjective Placement",
+    "cefr_level": "A1",
+    "description": "Positioning modifying descriptive adjectives immediately after the noun by default.",
+    "universal": false,
+    "languages": [
+      "fr",
+      "it",
+      "es",
+      "pt",
+      "br"
+    ],
+    "verified": true
+  },
+  {
+    "id": "prenominal-adjectives",
+    "category": "adjectives",
+    "title": "Prenominal Adjective Placement",
+    "cefr_level": "A1",
+    "description": "Positioning modifying descriptive adjectives before the noun by default.",
+    "universal": false,
+    "languages": [
+      "en",
+      "ru",
+      "el",
+      "de",
+      "hy",
+      "ka",
+      "tt",
+      "ba",
+      "cv"
+    ],
+    "verified": true
+  },
+  {
+    "id": "adjective-predicative-uninflected",
+    "category": "adjectives",
+    "title": "Uninflected Predicative Adjectives",
+    "cefr_level": "A1",
+    "description": "Adjectives remaining invariant in form when functioning as predicate complements following copulas.",
+    "universal": false,
+    "languages": [
+      "de",
+      "tt",
+      "ba",
+      "cv",
+      "en"
+    ],
+    "verified": true
+  },
+  {
+    "id": "adverb-derivation-suffix",
+    "category": "adverbs",
+    "title": "Adverbial Derivational Suffixes",
+    "cefr_level": "A1",
+    "description": "Forming adverbs systematically from adjective roots using dedicated suffixes (-ly, -ment, -mente, -o, -ως).",
+    "universal": false,
+    "languages": [
+      "en",
+      "fr",
+      "it",
+      "ru",
+      "el",
+      "es",
+      "pt",
+      "br"
+    ],
+    "verified": true
+  },
+  {
+    "id": "adverb-position-flexibility",
+    "category": "adverbs",
+    "title": "Flexible Adverb Placement",
+    "cefr_level": "A1",
+    "description": "Permitting adverbs variable placement at sentence start, middle, or end without altering clause syntax.",
+    "universal": false,
+    "languages": [
+      "ru",
+      "el",
+      "hy",
+      "ka",
+      "tt",
+      "ba",
+      "cv"
+    ],
+    "verified": false
+  },
+  {
+    "id": "adverbial-flat-forms",
+    "category": "adverbs",
+    "title": "Flat Adverbs (Uninflected Adjective Form)",
+    "cefr_level": "A1",
+    "description": "Using the base uninflected adjective stem directly as an adverb without derivation suffixes.",
+    "universal": false,
+    "languages": [
+      "de",
+      "tt",
+      "ba",
+      "cv",
+      "ka"
+    ],
+    "verified": true
+  },
+  {
+    "id": "cardinal-numerals-1-10",
+    "category": "numerals",
+    "title": "Basic Cardinal Numerals (1-10)",
+    "cefr_level": "A0",
+    "description": "Core counting numbers utilized for quantity identification and basic counting.",
+    "universal": true,
+    "languages": [
+      "en",
+      "fr",
+      "it",
+      "ru",
+      "el",
+      "es",
+      "de",
+      "pt",
+      "hy",
+      "ka",
+      "tt",
+      "ba",
+      "br",
+      "cv"
+    ],
+    "verified": true
+  },
+  {
+    "id": "numeral-noun-agreement",
+    "category": "numerals",
+    "title": "Numeral-Noun Gender & Case Agreement",
+    "cefr_level": "A1",
+    "description": "Cardinal numbers changing inflection to match the gender, number, or case of the accompanying noun.",
+    "universal": false,
+    "languages": [
+      "fr",
+      "it",
+      "ru",
+      "el",
+      "es",
+      "de",
+      "pt",
+      "hy",
+      "br"
+    ],
+    "verified": true
+  },
+  {
+    "id": "numeral-singular-noun-rule",
+    "category": "numerals",
+    "title": "Singular Noun Form Following Numerals",
+    "cefr_level": "A1",
+    "description": "Rule requiring nouns modified by cardinal numbers greater than 1 to remain in the grammatical singular.",
+    "universal": false,
+    "languages": [
+      "tt",
+      "ba",
+      "cv",
+      "ka",
+      "hy"
+    ],
+    "verified": true
+  },
+  {
+    "id": "ordinal-numeral-derivation",
+    "category": "numerals",
+    "title": "Ordinal Numeral Suffixation",
+    "cefr_level": "A1",
+    "description": "Derivation of sequential order numbers (1st, 2nd, 3rd) using dedicated ordinal affixes or suffixes.",
+    "universal": true,
+    "languages": [
+      "en",
+      "fr",
+      "it",
+      "ru",
+      "el",
+      "es",
+      "de",
+      "pt",
+      "hy",
+      "ka",
+      "tt",
+      "ba",
+      "br",
+      "cv"
+    ],
+    "verified": true
+  },
+  {
+    "id": "question-words-wh",
+    "category": "questions",
+    "title": "Interrogative Question Words",
+    "cefr_level": "A0",
+    "description": "Interrogative pronouns and adverbs used for open information questions (who, what, where, when, why).",
+    "universal": true,
+    "languages": [
+      "en",
+      "fr",
+      "it",
+      "ru",
+      "el",
+      "es",
+      "de",
+      "pt",
+      "hy",
+      "ka",
+      "tt",
+      "ba",
+      "br",
+      "cv"
+    ],
+    "verified": true
+  },
+  {
+    "id": "subject-verb-inversion-questions",
+    "category": "questions",
+    "title": "Subject-Verb Inversion in Interrogatives",
+    "cefr_level": "A1",
+    "description": "Inverting default subject and verb positions to mark question clauses.",
+    "universal": false,
+    "languages": [
+      "en",
+      "fr",
+      "it",
+      "es",
+      "de",
+      "pt",
+      "hy",
+      "br"
+    ],
+    "verified": true
+  },
+  {
+    "id": "interrogative-particle",
+    "category": "questions",
+    "title": "Interrogative Clitic / Particle",
+    "cefr_level": "A1",
+    "description": "Dedicated grammatical particle appended to clauses to signal yes/no polar questions (-мы/-ме, -ши, ли).",
+    "universal": false,
+    "languages": [
+      "tt",
+      "ba",
+      "cv",
+      "ru",
+      "fr"
+    ],
+    "verified": true
+  },
+  {
+    "id": "double-negation-negative-concord",
+    "category": "negation",
+    "title": "Negative Concord (Double Negation)",
+    "cefr_level": "A1",
+    "description": "Grammatical requirement combining main verb negation particles with negative pronouns/adverbs.",
+    "universal": false,
+    "languages": [
+      "ru",
+      "it",
+      "es",
+      "pt",
+      "el",
+      "br"
+    ],
+    "verified": true
+  },
+  {
+    "id": "verbal-negation-affix",
+    "category": "negation",
+    "title": "Bound Verbal Negation Affixes",
+    "cefr_level": "A1",
+    "description": "Incorporating negative markers directly into the verbal morphological stem as bound prefixes or suffixes.",
+    "universal": false,
+    "languages": [
+      "tt",
+      "ba",
+      "cv",
+      "ka",
+      "hy"
+    ],
+    "verified": true
+  },
+  {
+    "id": "discontinuous-negation",
+    "category": "negation",
+    "title": "Discontinuous Split Negation Markers",
+    "cefr_level": "A1",
+    "description": "Clause negation utilizing two separated surrounding markers (ne...pas, ne...ket).",
+    "universal": false,
+    "languages": [
+      "fr",
+      "br"
+    ],
+    "verified": true
+  },
+  {
+    "id": "locative-spatial-case",
+    "category": "cases",
+    "title": "Locative / Spatial Case Marking",
+    "cefr_level": "A1",
+    "description": "Expressing spatial location (in, at, on) via noun case endings or postpositions rather than prepositions.",
+    "universal": false,
+    "languages": [
+      "ru",
+      "de",
+      "hy",
+      "ka",
+      "tt",
+      "ba",
+      "cv"
+    ],
+    "verified": true
+  },
+  {
+    "id": "dative-indirect-object",
+    "category": "cases",
+    "title": "Dative Case for Indirect Objects",
+    "cefr_level": "A1",
+    "description": "Noun case inflection designating the recipient or indirect object complement of verbs.",
+    "universal": false,
+    "languages": [
+      "ru",
+      "el",
+      "de",
+      "hy",
+      "ka",
+      "tt",
+      "ba",
+      "cv"
+    ],
+    "verified": true
+  },
+  {
+    "id": "instrumental-comitative-case",
+    "category": "cases",
+    "title": "Instrumental / Comitative Case Suffixes",
+    "cefr_level": "A1",
+    "description": "Morphological case suffix marking the instrument, tool, or accompaniment ('with X').",
+    "universal": false,
+    "languages": [
+      "ru",
+      "hy",
+      "ka",
+      "tt",
+      "ba",
+      "cv"
+    ],
+    "verified": true
+  },
+  {
+    "id": "genitive-partitive-case",
+    "category": "cases",
+    "title": "Genitive Case for Quantities & Absence",
+    "cefr_level": "A1",
+    "description": "Employing genitive case endings on nouns following numerical quantifiers or negated verbs.",
+    "universal": false,
+    "languages": [
+      "ru",
+      "el",
+      "de",
+      "hy",
+      "ka",
+      "tt",
+      "ba",
+      "cv"
+    ],
+    "verified": true
+  },
+  {
+    "id": "spatial-prepositions",
+    "category": "prepositions",
+    "title": "Basic Spatial Prepositions",
+    "cefr_level": "A0",
+    "description": "Preposed adpositions indicating spatial orientation (in, on, at, under, behind, in front of).",
+    "universal": false,
+    "languages": [
+      "en",
+      "fr",
+      "it",
+      "ru",
+      "el",
+      "es",
+      "de",
+      "pt",
+      "br"
+    ],
+    "verified": true
+  },
+  {
+    "id": "postpositions",
+    "category": "prepositions",
+    "title": "Spatial & Temporal Postpositions",
+    "cefr_level": "A1",
+    "description": "Adpositional elements positioned immediately following the noun phrase rather than preceding it.",
+    "universal": false,
+    "languages": [
+      "ka",
+      "tt",
+      "ba",
+      "cv",
+      "hy",
+      "de"
+    ],
+    "verified": true
+  },
+  {
+    "id": "preposition-article-contraction",
+    "category": "prepositions",
+    "title": "Preposition-Article Contraction",
+    "cefr_level": "A1",
+    "description": "Mandatory phonetic fusion of prepositions with definite articles into single contracted words (du, au, della, im).",
+    "universal": false,
+    "languages": [
+      "fr",
+      "it",
+      "es",
+      "de",
+      "pt",
+      "br"
+    ],
+    "verified": true
+  },
+  {
+    "id": "v2-word-order",
+    "category": "word-order",
+    "title": "Verb-Second (V2) Word Order",
+    "cefr_level": "A1",
+    "description": "Syntactic constraint placing the finite verb in the second constituent position in main declarative clauses.",
+    "universal": false,
+    "languages": [
+      "de"
+    ],
+    "verified": true
+  },
+  {
+    "id": "flexible-free-word-order",
+    "category": "word-order",
+    "title": "Pragmatically Flexible Word Order",
+    "cefr_level": "A1",
+    "description": "Highly inflected syntax permitting SVO, SOV, VSO permutations for pragmatic focus and topicalization.",
+    "universal": false,
+    "languages": [
+      "ru",
+      "el",
+      "ka",
+      "hy",
+      "tt",
+      "ba",
+      "cv"
+    ],
+    "verified": false
+  },
+  {
+    "id": "vso-word-order",
+    "category": "word-order",
+    "title": "Verb-Subject-Object (VSO) Word Order",
+    "cefr_level": "A1",
+    "description": "Syntax placing the finite verb at the head of declarative sentences before subject and object.",
+    "universal": false,
+    "languages": [
+      "br"
+    ],
+    "verified": true
+  },
+  {
+    "id": "coordinating-conjunctions",
+    "category": "conjunctions",
+    "title": "Coordinating Conjunctions (And, But, Or)",
+    "cefr_level": "A0",
+    "description": "Core grammatical connectives linking words, phrases, or independent clauses of equal syntactic status.",
+    "universal": true,
+    "languages": [
+      "en",
+      "fr",
+      "it",
+      "ru",
+      "el",
+      "es",
+      "de",
+      "pt",
+      "hy",
+      "ka",
+      "tt",
+      "ba",
+      "br",
+      "cv"
+    ],
+    "verified": true
+  },
+  {
+    "id": "subordinating-conjunctions-because-if",
+    "category": "conjunctions",
+    "title": "Basic Subordinating Conjunctions (Because, If, That)",
+    "cefr_level": "A1",
+    "description": "Connectives introducing dependent clauses establishing causal, conditional, or nominal relationships.",
+    "universal": true,
+    "languages": [
+      "en",
+      "fr",
+      "it",
+      "ru",
+      "el",
+      "es",
+      "de",
+      "pt",
+      "hy",
+      "ka",
+      "tt",
+      "ba",
+      "br",
+      "cv"
+    ],
+    "verified": true
+  },
+  {
+    "id": "present-continuous-aspect",
+    "category": "time-expressions",
+    "title": "Present Continuous / Progressive Aspect",
+    "cefr_level": "A1",
+    "description": "Grammatical constructions marking ongoing actions occurring at the time of utterance.",
+    "universal": false,
+    "languages": [
+      "en",
+      "fr",
+      "it",
+      "es",
+      "pt",
+      "hy",
+      "ka",
+      "tt",
+      "ba",
+      "cv"
+    ],
+    "verified": true
+  },
+  {
+    "id": "periphrastic-future",
+    "category": "time-expressions",
+    "title": "Periphrastic Near Future (Going To)",
+    "cefr_level": "A1",
+    "description": "Using motion or auxiliary verbs ('go') combined with infinitives to convey prospective future actions.",
+    "universal": false,
+    "languages": [
+      "en",
+      "fr",
+      "es",
+      "pt",
+      "br"
+    ],
+    "verified": true
+  },
+  {
+    "id": "days-months-time-adverbs",
+    "category": "time-expressions",
+    "title": "Calendar Units & Basic Temporal Adverbs",
+    "cefr_level": "A0",
+    "description": "Fundamental expressions for schedule management (days of week, months, today, tomorrow, yesterday).",
+    "universal": true,
+    "languages": [
+      "en",
+      "fr",
+      "it",
+      "ru",
+      "el",
+      "es",
+      "de",
+      "pt",
+      "hy",
+      "ka",
+      "tt",
+      "ba",
+      "br",
+      "cv"
+    ],
+    "verified": true
+  },
+  {
+    "id": "comparative-adjectives-analytic-synthetic",
+    "category": "comparison",
+    "title": "Comparative Degree of Adjectives",
+    "cefr_level": "A1",
+    "description": "Morphological suffixes or degree adverbs used to express greater intensity or comparison between entities.",
+    "universal": true,
+    "languages": [
+      "en",
+      "fr",
+      "it",
+      "ru",
+      "el",
+      "es",
+      "de",
+      "pt",
+      "hy",
+      "ka",
+      "tt",
+      "ba",
+      "br",
+      "cv"
+    ],
+    "verified": true
+  },
+  {
+    "id": "superlative-adjectives",
+    "category": "comparison",
+    "title": "Superlative Degree of Adjectives",
+    "cefr_level": "A1",
+    "description": "Grammatical forms indicating the highest relative degree of a property within a group.",
+    "universal": true,
+    "languages": [
+      "en",
+      "fr",
+      "it",
+      "ru",
+      "el",
+      "es",
+      "de",
+      "pt",
+      "hy",
+      "ka",
+      "tt",
+      "ba",
+      "br",
+      "cv"
+    ],
+    "verified": true
+  },
+  {
+    "id": "relative-clauses-relative-pronoun",
+    "category": "subordinate-clauses",
+    "title": "Relative Clauses with Relative Pronouns",
+    "cefr_level": "A1",
+    "description": "Subordinate clauses embedded to modify noun heads introduced by relative pronouns (who, which, that, qui, который).",
+    "universal": false,
+    "languages": [
+      "en",
+      "fr",
+      "it",
+      "ru",
+      "el",
+      "es",
+      "de",
+      "pt",
+      "hy",
+      "ka",
+      "br"
+    ],
+    "verified": true
+  },
+  {
+    "id": "subordinate-clause-word-order-change",
+    "category": "subordinate-clauses",
+    "title": "Subordinate Clause Word Order Alteration",
+    "cefr_level": "A1",
+    "description": "Clause syntax changing significantly inside dependent subordinate clauses (e.g., verb-final placement).",
+    "universal": false,
+    "languages": [
+      "de"
+    ],
+    "verified": true
+  },
+  {
+    "id": "reflexive-verbs-pronouns",
+    "category": "reflexive-constructions",
+    "title": "Reflexive Verbs & Pronouns",
+    "cefr_level": "A1",
+    "description": "Constructions where the action of the verb reflects directly back onto the grammatical subject.",
+    "universal": false,
+    "languages": [
+      "en",
+      "fr",
+      "it",
+      "ru",
+      "el",
+      "es",
+      "de",
+      "pt",
+      "hy",
+      "ka",
+      "br"
+    ],
+    "verified": true
+  },
+  {
+    "id": "passive-reflexive-middle-voice",
+    "category": "reflexive-constructions",
+    "title": "Reflexive Passive / Middle Voice",
+    "cefr_level": "A1",
+    "description": "Employing reflexive or middle voice morphology to express impersonal or passive meanings.",
+    "universal": false,
+    "languages": [
+      "fr",
+      "it",
+      "ru",
+      "el",
+      "es",
+      "pt",
+      "ka"
+    ],
+    "verified": false
   }
 ]
