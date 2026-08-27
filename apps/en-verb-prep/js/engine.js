@@ -364,7 +364,15 @@ class EnglishVerbPrepEngine {
             choices: choices
         };
 
-        document.getElementById('game-verb-prompt').textContent = randomKey;
+        let displayPrompt = randomKey;
+        if (data.is_phrasal && primaryPrep !== 'none') {
+            const prepRegex = new RegExp(`\\b${primaryPrep.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&')}\\b`, 'i');
+            if (prepRegex.test(randomKey)) {
+                displayPrompt = randomKey.replace(prepRegex, '___');
+            }
+        }
+
+        document.getElementById('game-verb-prompt').textContent = displayPrompt;
 
         const typeBadge = document.getElementById('game-type-badge');
         if (data.is_phrasal) {
