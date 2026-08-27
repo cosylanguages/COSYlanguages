@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rosetta Wall · Comparative Grammar Showcase · COSYlanguages</title>
+<meta name="description" content="Side-by-side comparative showcase demonstrating how different languages express core communicative functions.">
+<link rel="stylesheet" href="../css/lang-pages.css">
+<link rel="stylesheet" href="../css/mobile.css">
+<style>
+  :root {
+    --brand-teal: #0f382c;
+    --brand-teal-light: #e3f5ef;
+    --paper-bg: #fcfbf7;
+    --card-bg: #ffffff;
+    --text-ink: #13231e;
+    --text-soft: #3c544c;
+    --line-border: #e3e0d5;
+
+    /* Editorial Handbook Part II Semantic Colors */
+    --role-subject: #3562e0;
+    --role-verb: #1c8f56;
+    --role-noun: #c9740a;
+    --role-ending: #7c4fd6;
+    --role-adjective: #d99b00;
+    --role-question: #a3195b;
+  }
+  body {
+    background: var(--paper-bg);
+    color: var(--text-ink);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+  }
+  .topbar {
+    background: var(--brand-teal);
+    color: #fff;
+    padding: 12px 24px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .topbar-inner {
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .topbar a {
+    color: #eafaf5;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .hero-rosetta {
+    background: linear-gradient(135deg, #13231e, #1c6b54);
+    color: #fff;
+    padding: 56px 24px 48px;
+    text-align: center;
+  }
+  .hero-rosetta h1 {
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: clamp(32px, 5vw, 48px);
+    margin: 12px 0 8px;
+  }
+  .hero-rosetta p {
+    max-width: 760px;
+    margin: 0 auto 20px;
+    font-size: 17.5px;
+    opacity: 0.92;
+  }
+  .motto-badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.15);
+    padding: 6px 16px;
+    border-radius: 99px;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .rosetta-container {
+    max-width: 1200px;
+    margin: 40px auto 80px;
+    padding: 0 24px;
+  }
+
+  /* Semantic Role Color Classes */
+  .hl-subj {
+    color: var(--role-subject);
+    font-weight: 800;
+    border-bottom: 2px solid var(--role-subject);
+    padding-bottom: 1px;
+  }
+  .hl-verb {
+    color: var(--role-verb);
+    font-weight: 800;
+    border-bottom: 2px solid var(--role-verb);
+    padding-bottom: 1px;
+  }
+  .hl-noun {
+    color: var(--role-noun);
+    font-weight: 800;
+    border-bottom: 2px solid var(--role-noun);
+    padding-bottom: 1px;
+  }
+  .hl-end {
+    color: var(--role-ending);
+    font-weight: 800;
+    border-bottom: 2px dotted var(--role-ending);
+    padding-bottom: 1px;
+  }
+  .hl-adj {
+    color: var(--role-adjective);
+    font-weight: 800;
+    border-bottom: 2px solid var(--role-adjective);
+    padding-bottom: 1px;
+  }
+  .hl-q {
+    color: var(--role-question);
+    font-weight: 800;
+    border-bottom: 2px solid var(--role-question);
+    padding-bottom: 1px;
+  }
+
+  /* Structural Legend Bar */
+  .legend-bar {
+    background: var(--card-bg);
+    border: 1px solid var(--line-border);
+    border-radius: 16px;
+    padding: 18px 24px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    box-shadow: 0 4px 16px -8px rgba(0,0,0,0.06);
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13.5px;
+    font-weight: 600;
+  }
+  .legend-swatch {
+    width: 14px;
+    height: 14px;
+    border-radius: 4px;
+    display: inline-block;
+  }
+
+  /* Function Section Blocks */
+  .function-section {
+    background: var(--card-bg);
+    border: 1px solid var(--line-border);
+    border-radius: 24px;
+    padding: 32px;
+    margin-bottom: 48px;
+    box-shadow: 0 8px 28px -12px rgba(19, 35, 30, 0.08);
+  }
+  .function-header {
+    border-bottom: 2px solid var(--line-border);
+    padding-bottom: 16px;
+    margin-bottom: 28px;
+  }
+  .function-header h2 {
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 24px;
+    margin: 0 0 6px;
+    color: var(--brand-teal);
+  }
+  .function-header p {
+    margin: 0;
+    color: var(--text-soft);
+    font-size: 15px;
+  }
+
+  /* Side-by-side Language Grid */
+  .lang-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 18px;
+  }
+  .lang-card {
+    background: #fdfdfb;
+    border: 1px solid var(--line-border);
+    border-radius: 16px;
+    padding: 18px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.15s, border-color 0.15s;
+  }
+  .lang-card:hover {
+    transform: translateY(-2px);
+    border-color: #a3e2cd;
+  }
+  .card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+  .lang-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 700;
+    font-size: 14.5px;
+  }
+  .lang-flag {
+    font-size: 20px;
+  }
+  .native-sentence {
+    font-size: 18.5px;
+    font-weight: 600;
+    color: var(--text-ink);
+    margin: 8px 0 16px;
+    line-height: 1.5;
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+  .manual-link {
+    align-self: flex-start;
+    color: var(--brand-teal);
+    text-decoration: none;
+    font-size: 12.5px;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 8px;
+    background: var(--brand-teal-light);
+    transition: background 0.15s;
+  }
+  .manual-link:hover {
+    background: #c3ebd9;
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="../index.html">← COSYlanguages Platform</a>
+    <a href="../comparative/index.html">🌐 Grammar Atlas</a>
+    <a href="../manuals/index.html">Manuals Index</a>
+  </div>
+</header>
+
+<section class="hero-rosetta">
+  <span class="motto-badge">Editorial Handbook Principle 3 · Structural Blueprint</span>
+  <h1>The Rosetta Wall</h1>
+  <p>Every language has its own inner logic. Experience how 14 languages express the exact same communicative concepts side-by-side using semantic structural color coding.</p>
+</section>
+
+<main class="rosetta-container">
+
+  <!-- Semantic Color Legend -->
+  <div class="legend-bar">
+    <span class="legend-item"><span class="legend-swatch" style="background: var(--role-subject);"></span> Subject / Topic</span>
+    <span class="legend-item"><span class="legend-swatch" style="background: var(--role-verb);"></span> Verb / Action</span>
+    <span class="legend-item"><span class="legend-swatch" style="background: var(--role-noun);"></span> Noun / Object</span>
+    <span class="legend-item"><span class="legend-swatch" style="background: var(--role-ending);"></span> Case / Suffix / Ending</span>
+    <span class="legend-item"><span class="legend-swatch" style="background: var(--role-adjective);"></span> Adjective / Modifier</span>
+    <span class="legend-item"><span class="legend-swatch" style="background: var(--role-question);"></span> Question / Particle</span>
+  </div>
+
+  <!-- Function 1: Expressing Possession -->
+  <section class="function-section" id="possession">
+    <div class="function-header">
+      <h2>1. Expressing Possession ("I have a book")</h2>
+      <p>Notice how languages split between transitive verb constructions ("I possess") and possessive locatives ("To me is a book").</p>
+    </div>
+    <div class="lang-grid" id="possession-grid"></div>
+  </section>
+
+  <!-- Function 2: Negating a Sentence -->
+  <section class="function-section" id="negation">
+    <div class="function-header">
+      <h2>2. Negating a Sentence</h2>
+      <p>Compare pre-verbal particles, dual circumfix negation (ne ... pas), and suffix negation attached to verb stems.</p>
+    </div>
+    <div class="lang-grid" id="negation-grid"></div>
+  </section>
+
+  <!-- Function 3: Asking a Yes/No Question -->
+  <section class="function-section" id="questions">
+    <div class="function-header">
+      <h2>3. Asking a Yes/No Question</h2>
+      <p>Compare intonation-only shifts, subject-verb inversion, initial question particles, and suffix particles.</p>
+    </div>
+    <div class="lang-grid" id="questions-grid"></div>
+  </section>
+
+  <!-- Function 4: Basic Word Order -->
+  <section class="function-section" id="word-order">
+    <div class="function-header">
+      <h2>4. Basic Word Order ("The cat eats fish")</h2>
+      <p>Observe SVO (Subject-Verb-Object) vs SOV (Subject-Object-Verb) vs flexible case-marked syntax.</p>
+    </div>
+    <div class="lang-grid" id="word-order-grid"></div>
+  </section>
+
+  <!-- Function 5: Expressing Existence -->
+  <section class="function-section" id="existence">
+    <div class="function-header">
+      <h2>5. Expressing Existence ("There is a cat")</h2>
+      <p>Compare existential verbs, locative particles, and impersonal existential expressions.</p>
+    </div>
+    <div class="lang-grid" id="existence-grid"></div>
+  </section>
+
+</main>
+
+<footer style="background: var(--brand-teal); color: #c9d8d4; padding: 36px 24px; text-align: center; font-size: 13.5px;">
+  <div>&copy; 2026 COSYlanguages · All rights reserved · Structural Rosetta Showcase</div>
+</footer>
+
+<script>
+const LANGUAGES = [
+  { code: 'en', flag: '🇬🇧', name: 'English', manual: '../grammar/index.html' },
+  { code: 'fr', flag: '🇫🇷', name: 'Français', manual: '../grammaire-francaise/index.html' },
+  { code: 'it', flag: '🇮🇹', name: 'Italiano', manual: '../grammatica-italiana/index.html' },
+  { code: 'ru', flag: '🇷🇺', name: 'Русский', manual: '../grammatika-russkogo-yazyka/index.html' },
+  { code: 'el', flag: '🇬🇷', name: 'Ελληνικά', manual: '../elliniki-grammatiki/index.html' },
+  { code: 'es', flag: '🇪🇸', name: 'Español', manual: '../gramatica-espanola/index.html' },
+  { code: 'de', flag: '🇩🇪', name: 'Deutsch', manual: '../deutsche-grammatik/index.html' },
+  { code: 'pt', flag: '🇵🇹', name: 'Português', manual: '../gramatica-portuguesa/index.html' },
+  { code: 'hy', flag: '🇦🇲', name: 'Հայերեն', manual: '../hayots-lezvi-kerakanutyun/index.html' },
+  { code: 'ka', flag: '🇬🇪', name: 'ქართული', manual: '../qartuli-gramatika/index.html' },
+  { code: 'tt', flag: '🟢', name: 'Татарча', manual: '../tatar-teli-grammatikasy/index.html' },
+  { code: 'ba', flag: '🔵', name: 'Башҡортса', manual: '../bashqort-tele-grammatikahy/index.html' },
+  { code: 'br', flag: '🖤', name: 'Brezhoneg', manual: '../yezhadur-brezhoneg/index.html' },
+  { code: 'cv', flag: '🔴', name: 'Чăвашла', manual: '../chavash-grammatika/index.html' }
+];
+
+const DATA = {
+  possession: {
+    en: '<span class="hl-subj">I</span> <span class="hl-verb">have</span> a <span class="hl-noun">book</span>',
+    fr: '<span class="hl-subj">J\'</span><span class="hl-verb">ai</span> un <span class="hl-noun">livre</span>',
+    it: '<span class="hl-verb">Ho</span> un <span class="hl-noun">libro</span>',
+    ru: 'У <span class="hl-subj">меня</span> <span class="hl-verb">есть</span> <span class="hl-noun">книга</span>',
+    el: '<span class="hl-verb">Έχω</span> ένα <span class="hl-noun">βιβλίο</span>',
+    es: '<span class="hl-verb">Tengo</span> un <span class="hl-noun">libro</span>',
+    de: '<span class="hl-subj">Ich</span> <span class="hl-verb">habe</span> ein <span class="hl-noun">Buch</span>',
+    pt: '<span class="hl-subj">Eu</span> <span class="hl-verb">tenho</span> um <span class="hl-noun">livro</span>',
+    hy: '<span class="hl-subj">Ես</span> <span class="hl-noun">գիրք</span> <span class="hl-verb">ունեմ</span>',
+    ka: '<span class="hl-subj">მე</span> <span class="hl-verb">მაქვს</span> <span class="hl-noun">წიგნი</span>',
+    tt: '<span class="hl-subj">Минем</span> <span class="hl-noun">китабым</span> <span class="hl-verb">бар</span>',
+    ba: '<span class="hl-subj">Минең</span> <span class="hl-noun">китабым</span> <span class="hl-verb">бар</span>',
+    br: 'Ur <span class="hl-noun">levr</span> <span class="hl-verb">am eus</span>',
+    cv: '<span class="hl-subj">Манăн</span> <span class="hl-noun">кĕнеке</span> <span class="hl-verb"> пур</span>'
+  },
+  negation: {
+    en: '<span class="hl-subj">He</span> <span class="hl-q">does not</span> <span class="hl-verb">work</span>',
+    fr: '<span class="hl-subj">Il</span> <span class="hl-q">ne</span> <span class="hl-verb">travaille</span> <span class="hl-q">pas</span>',
+    it: '<span class="hl-subj">Lui</span> <span class="hl-q">non</span> <span class="hl-verb">lavora</span>',
+    ru: '<span class="hl-subj">Он</span> <span class="hl-q">не</span> <span class="hl-verb">работает</span>',
+    el: '<span class="hl-subj">Αυτός</span> <span class="hl-q">δεν</span> <span class="hl-verb">δουλεύει</span>',
+    es: '<span class="hl-subj">Él</span> <span class="hl-q">no</span> <span class="hl-verb">trabaja</span>',
+    de: '<span class="hl-subj">Er</span> <span class="hl-verb">arbeitet</span> <span class="hl-q">nicht</span>',
+    pt: '<span class="hl-subj">Ele</span> <span class="hl-q">não</span> <span class="hl-verb">trabalha</span>',
+    hy: '<span class="hl-subj">Նա</span> <span class="hl-q">չի</span> <span class="hl-verb">աշխատում</span>',
+    ka: '<span class="hl-subj">ის</span> <span class="hl-q">არ</span> <span class="hl-verb">მუშაობს</span>',
+    tt: '<span class="hl-subj">Ул</span> <span class="hl-verb">эшлә<span class="hl-q">ми</span></span>',
+    ba: '<span class="hl-subj">Ул</span> <span class="hl-verb">эшлә<span class="hl-q">мәй</span></span>',
+    br: '<span class="hl-subj">Eñ</span> <span class="hl-q">ne</span> <span class="hl-verb">labour</span> <span class="hl-q">ket</span>',
+    cv: '<span class="hl-subj">Вăл</span> <span class="hl-verb">ĕçле<span class="hl-q">мест</span></span>'
+  },
+  questions: {
+    en: '<span class="hl-q">Do</span> <span class="hl-subj">you</span> <span class="hl-verb">speak</span><span class="hl-q">?</span>',
+    fr: '<span class="hl-q">Est-ce que</span> <span class="hl-subj">tu</span> <span class="hl-verb">parles</span><span class="hl-q">?</span>',
+    it: '<span class="hl-verb">Parli</span><span class="hl-q">?</span>',
+    ru: '<span class="hl-subj">Ты</span> <span class="hl-verb">говоришь</span><span class="hl-q">?</span>',
+    el: '<span class="hl-verb">Μιλάς</span><span class="hl-q">;</span>',
+    es: '<span class="hl-q">¿</span><span class="hl-verb">Hablas</span><span class="hl-q">?</span>',
+    de: '<span class="hl-verb">Sprichst</span> <span class="hl-subj">du</span><span class="hl-q">?</span>',
+    pt: '<span class="hl-verb">Falas</span><span class="hl-q">?</span>',
+    hy: '<span class="hl-subj">Դու</span> <span class="hl-verb">խոսո՞ւմ</span> <span class="hl-verb">ես</span>',
+    ka: '<span class="hl-verb">ლაპარაკობ</span><span class="hl-q">?</span>',
+    tt: '<span class="hl-subj">Син</span> <span class="hl-verb">сөйләшә<span class="hl-q">сеңме</span></span><span class="hl-q">?</span>',
+    ba: '<span class="hl-subj">Һин</span> <span class="hl-verb">һөйләшә<span class="hl-q">һеңме</span></span><span class="hl-q">?</span>',
+    br: '<span class="hl-verb">Kaozeal</span> a <span class="hl-verb">rez</span><span class="hl-q">?</span>',
+    cv: '<span class="hl-subj">Эсĕ</span> <span class="hl-verb">калаçа<span class="hl-q">тăн-и</span></span><span class="hl-q">?</span>'
+  },
+  wordOrder: {
+    en: 'The <span class="hl-subj">cat</span> <span class="hl-verb">eats</span> <span class="hl-noun">fish</span>',
+    fr: 'Le <span class="hl-subj">chat</span> <span class="hl-verb">mange</span> du <span class="hl-noun">poisson</span>',
+    it: 'Il <span class="hl-subj">gatto</span> <span class="hl-verb">mangia</span> il <span class="hl-noun">pesce</span>',
+    ru: '<span class="hl-subj">Кот</span> <span class="hl-verb">ест</span> <span class="hl-noun">рыбу</span><span class="hl-end"></span>',
+    el: 'Η <span class="hl-subj">γάτα</span> <span class="hl-verb">τρώει</span> <span class="hl-noun">ψάρι</span>',
+    es: 'El <span class="hl-subj">gato</span> <span class="hl-verb">come</span> <span class="hl-noun">pescado</span>',
+    de: 'Die <span class="hl-subj">Katze</span> <span class="hl-verb">frisst</span> <span class="hl-noun">Fisch</span>',
+    pt: 'O <span class="hl-subj">gato</span> <span class="hl-verb">come</span> <span class="hl-noun">peixe</span>',
+    hy: '<span class="hl-subj">Կատուն</span> <span class="hl-noun">ձուկ</span> է <span class="hl-verb">ուտում</span>',
+    ka: '<span class="hl-subj">კატა</span> <span class="hl-noun">თევზს</span> <span class="hl-verb">ჭამს</span>',
+    tt: '<span class="hl-subj">Пешик</span> <span class="hl-noun">балык</span> <span class="hl-verb">ашый</span>',
+    ba: '<span class="hl-subj">Бешәй</span> <span class="hl-noun">балыҡ</span> <span class="hl-verb">ашай</span>',
+    br: 'Ar <span class="hl-subj">kazh</span> a <span class="hl-verb">debr</span> <span class="hl-noun">pesked</span>',
+    cv: '<span class="hl-subj">Кушак</span> <span class="hl-noun">пăлăх</span> <span class="hl-verb">çиет</span>'
+  },
+  existence: {
+    en: '<span class="hl-q">There is</span> a <span class="hl-noun">cat</span>',
+    fr: '<span class="hl-q">Il y a</span> un <span class="hl-noun">chat</span>',
+    it: '<span class="hl-q">C\'è</span> un <span class="hl-noun">gatto</span>',
+    ru: '<span class="hl-verb">Есть</span> <span class="hl-noun">кот</span>',
+    el: '<span class="hl-q">Υπάρχει</span> μια <span class="hl-noun">γάτα</span>',
+    es: '<span class="hl-q">Hay</span> un <span class="hl-noun">gato</span>',
+    de: '<span class="hl-q">Es gibt</span> eine <span class="hl-noun">Katze</span>',
+    pt: '<span class="hl-q">Há</span> um <span class="hl-noun">gato</span>',
+    hy: '<span class="hl-noun">Կատու</span> <span class="hl-verb">կա</span>',
+    ka: '<span class="hl-noun">კატა</span> <span class="hl-verb">არის</span>',
+    tt: '<span class="hl-noun">Пешик</span> <span class="hl-verb">бар</span>',
+    ba: '<span class="hl-noun">Бешәй</span> <span class="hl-verb">бар</span>',
+    br: '<span class="hl-verb">Emañ</span> ur <span class="hl-noun">kazh</span>',
+    cv: '<span class="hl-noun">Кушак</span> <span class="hl-verb"> пур</span>'
+  }
+};
+
+function renderFunctionGrid(funcKey, containerId) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+  const funcData = DATA[funcKey];
+
+  container.innerHTML = LANGUAGES.map(lang => {
+    const sentence = funcData[lang.code] || '';
+    return `
+      <div class="lang-card">
+        <div>
+          <div class="card-top">
+            <span class="lang-label">
+              <span class="lang-flag">${lang.flag}</span>
+              ${lang.name}
+            </span>
+          </div>
+          <div class="native-sentence">${sentence}</div>
+        </div>
+        <a href="${lang.manual}" class="manual-link">Grammar Manual →</a>
+      </div>
+    `;
+  }).join('');
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  renderFunctionGrid('possession', 'possession-grid');
+  renderFunctionGrid('negation', 'negation-grid');
+  renderFunctionGrid('questions', 'questions-grid');
+  renderFunctionGrid('wordOrder', 'word-order-grid');
+  renderFunctionGrid('existence', 'existence-grid');
+});
+</script>
+</body>
+</html>
