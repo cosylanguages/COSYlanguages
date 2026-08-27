@@ -1,0 +1,688 @@
+{
+  "ba": [],
+  "br": [],
+  "de": [],
+  "el": [
+    {
+      "category": "cases",
+      "group_id": "nominative",
+      "label": "Ονομαστική",
+      "practice_links": []
+    },
+    {
+      "category": "determiners",
+      "group_id": "definite_article",
+      "label": "Οριστικό άρθρο",
+      "practice_links": [
+        "grammar/el-articles.html"
+      ]
+    },
+    {
+      "category": "pronouns",
+      "group_id": "personal_pronouns",
+      "label": "Προσωπικές αντωνυμίες",
+      "practice_links": [
+        "grammar/el-pronouns.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "eimai",
+      "label": "Ρήμα ΕΙΜΑΙ",
+      "practice_links": [
+        "grammar/el-be.html"
+      ]
+    }
+  ],
+  "en": [
+    {
+      "category": "adjectives",
+      "group_id": "adjectives",
+      "label": "Adjectives",
+      "practice_links": [
+        "grammar/topics/adjectives.html"
+      ]
+    },
+    {
+      "category": "adjectives",
+      "group_id": "comparative_adjectives",
+      "label": "Comparative Adjectives",
+      "practice_links": [
+        "grammar/topics/comparative-adjectives.html"
+      ]
+    },
+    {
+      "category": "adjectives",
+      "group_id": "superlative_adjectives",
+      "label": "Superlative Adjectives",
+      "practice_links": [
+        "grammar/topics/superlative-adjectives.html"
+      ]
+    },
+    {
+      "category": "determiners",
+      "group_id": "articles",
+      "label": "Articles — A, AN, THE",
+      "practice_links": [
+        "grammar/topics/articles.html"
+      ]
+    },
+    {
+      "category": "nouns",
+      "group_id": "plurals",
+      "label": "Nouns & Plurals",
+      "practice_links": [
+        "grammar/en-plurals.html"
+      ]
+    },
+    {
+      "category": "nouns",
+      "group_id": "plurals_regular",
+      "label": "Plural Nouns — Regular Forms",
+      "practice_links": [
+        "grammar/topics/plurals-regular.html"
+      ]
+    },
+    {
+      "category": "nouns",
+      "group_id": "plurals_irregular",
+      "label": "Plural Nouns — Irregular Forms",
+      "practice_links": [
+        "grammar/topics/plurals-irregular.html"
+      ]
+    },
+    {
+      "category": "nouns",
+      "group_id": "countable_uncountable",
+      "label": "Countable & Uncountable Nouns",
+      "practice_links": [
+        "grammar/topics/countable-uncountable.html"
+      ]
+    },
+    {
+      "category": "nouns",
+      "group_id": "possessive_s",
+      "label": "Possessive ’s",
+      "practice_links": [
+        "grammar/topics/possessive-s.html"
+      ]
+    },
+    {
+      "category": "numerals",
+      "group_id": "numbers_dates",
+      "label": "Numbers, Days & Months",
+      "practice_links": [
+        "grammar/topics/numbers-dates.html"
+      ]
+    },
+    {
+      "category": "numerals",
+      "group_id": "telling_time",
+      "label": "Telling the Time",
+      "practice_links": [
+        "grammar/topics/telling-time.html"
+      ]
+    },
+    {
+      "category": "pronouns",
+      "group_id": "personal_pronouns",
+      "label": "Personal Pronouns",
+      "practice_links": [
+        "grammar/topics/pronouns.html"
+      ]
+    },
+    {
+      "category": "pronouns",
+      "group_id": "possessive_adjectives",
+      "label": "Possessive Adjectives",
+      "practice_links": [
+        "grammar/en-possessives.html"
+      ]
+    },
+    {
+      "category": "pronouns",
+      "group_id": "demonstratives",
+      "label": "Demonstratives (This, That, These, Those)",
+      "practice_links": [
+        "grammar/topics/demonstratives.html"
+      ]
+    },
+    {
+      "category": "pronouns",
+      "group_id": "some_vs_any",
+      "label": "Some vs Any",
+      "practice_links": [
+        "grammar/topics/some-vs-any.html"
+      ]
+    },
+    {
+      "category": "pronouns",
+      "group_id": "all_both_none",
+      "label": "All, Both, Either, Neither, None",
+      "practice_links": [
+        "grammar/topics/all-both-none.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "be_present_simple",
+      "label": "Verb TO BE — Present Simple",
+      "practice_links": [
+        "grammar/topics/to-be.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "present_simple",
+      "label": "Present Simple",
+      "practice_links": [
+        "grammar/topics/present-simple.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "past_simple",
+      "label": "Past Simple",
+      "practice_links": [
+        "grammar/en-past-simple.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "future_going_to",
+      "label": "Future: Going to",
+      "practice_links": [
+        "grammar/topics/going-to.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "past_simple_be",
+      "label": "Past Simple of 'To Be'",
+      "practice_links": [
+        "grammar/topics/past-simple-be.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "past_simple_regular",
+      "label": "Past Simple — Regular Verbs",
+      "practice_links": [
+        "grammar/topics/past-simple-regular.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "past_simple_irregular",
+      "label": "Past Simple — Irregular Verbs",
+      "practice_links": [
+        "grammar/topics/past-simple-irregular.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "present_continuous",
+      "label": "Present Continuous",
+      "practice_links": [
+        "grammar/topics/present-continuous.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "have_got",
+      "label": "Have Got",
+      "practice_links": [
+        "grammar/topics/have-got.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "can_cant",
+      "label": "Can / Can't",
+      "practice_links": [
+        "grammar/topics/can-cant.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "could_couldnt",
+      "label": "Could / Couldn't",
+      "practice_links": [
+        "grammar/topics/could-couldnt.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "will",
+      "label": "Will (Future)",
+      "practice_links": [
+        "grammar/topics/will.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "irregular_verbs",
+      "label": "Irregular Verbs Reference",
+      "practice_links": [
+        "grammar/topics/irregular-verbs.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "imperatives",
+      "label": "Imperatives",
+      "practice_links": [
+        "grammar/topics/imperatives.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "like_love_hate",
+      "label": "Like / Love / Hate + -ing",
+      "practice_links": [
+        "grammar/topics/like-love-hate.html"
+      ]
+    },
+    {
+      "category": "syntax",
+      "group_id": "word_order_svo",
+      "label": "Basic Word Order (SVO)",
+      "practice_links": [
+        "grammar/topics/word-order.html"
+      ]
+    },
+    {
+      "category": "syntax",
+      "group_id": "there_is_are",
+      "label": "There is / There are",
+      "practice_links": [
+        "grammar/topics/there-is-are.html"
+      ]
+    }
+  ],
+  "es": [],
+  "fr": [
+    {
+      "category": "adjectives",
+      "group_id": "accord_des_adjectifs",
+      "label": "L'accord des adjectifs",
+      "practice_links": [
+        "grammaire-francaise/topics/accord-des-adjectifs.html"
+      ]
+    },
+    {
+      "category": "adjectives",
+      "group_id": "adjectifs_position",
+      "label": "Les adjectifs : position",
+      "practice_links": [
+        "grammaire-francaise/topics/adjectifs-position.html"
+      ]
+    },
+    {
+      "category": "adjectives",
+      "group_id": "comparatif",
+      "label": "Le comparatif",
+      "practice_links": [
+        "grammaire-francaise/topics/comparatif.html"
+      ]
+    },
+    {
+      "category": "adjectives",
+      "group_id": "superlatif",
+      "label": "Le superlatif",
+      "practice_links": [
+        "grammaire-francaise/topics/superlatif.html"
+      ]
+    },
+    {
+      "category": "determiners",
+      "group_id": "articles_definis_indefinis",
+      "label": "Les Articles",
+      "practice_links": [
+        "grammaire-francaise/topics/articles.html"
+      ]
+    },
+    {
+      "category": "determiners",
+      "group_id": "articles_partitifs",
+      "label": "Les Articles Partitifs",
+      "practice_links": [
+        "grammaire-francaise/topics/articles-partitifs.html"
+      ]
+    },
+    {
+      "category": "determiners",
+      "group_id": "ce_cet_cette_ces",
+      "label": "Les adjectifs démonstratifs (Ce, cet, cette, ces)",
+      "practice_links": [
+        "grammaire-francaise/topics/ce-cet-cette-ces.html"
+      ]
+    },
+    {
+      "category": "determiners",
+      "group_id": "beaucoup_un_peu_quelques",
+      "label": "Beaucoup de, un peu de, quelques",
+      "practice_links": [
+        "grammaire-francaise/topics/beaucoup-un-peu-quelques.html"
+      ]
+    },
+    {
+      "category": "nouns",
+      "group_id": "genre_des_noms_1",
+      "label": "Le genre des noms (1/2)",
+      "practice_links": [
+        "grammaire-francaise/topics/genre-des-noms-1.html"
+      ]
+    },
+    {
+      "category": "nouns",
+      "group_id": "genre_des_noms_2",
+      "label": "Le genre des noms (2/2)",
+      "practice_links": [
+        "grammaire-francaise/topics/genre-des-noms-2.html"
+      ]
+    },
+    {
+      "category": "nouns",
+      "group_id": "pluriel_des_noms",
+      "label": "Le pluriel des noms",
+      "practice_links": [
+        "grammaire-francaise/topics/pluriel-des-noms.html"
+      ]
+    },
+    {
+      "category": "nouns",
+      "group_id": "comptables_indenombrables",
+      "label": "Noms comptables et indénombrables",
+      "practice_links": [
+        "grammaire-francaise/topics/comptables-indenombrables.html"
+      ]
+    },
+    {
+      "category": "numerals",
+      "group_id": "nombres_jours_mois",
+      "label": "Les nombres, jours et mois",
+      "practice_links": [
+        "grammaire-francaise/topics/nombres-jours-mois.html"
+      ]
+    },
+    {
+      "category": "numerals",
+      "group_id": "heure",
+      "label": "L'heure",
+      "practice_links": [
+        "grammaire-francaise/topics/heure.html"
+      ]
+    },
+    {
+      "category": "pronouns",
+      "group_id": "pronoms_sujets",
+      "label": "Les Pronoms Sujets",
+      "practice_links": [
+        "grammaire-francaise/topics/les-pronoms.html"
+      ]
+    },
+    {
+      "category": "pronouns",
+      "group_id": "adjectifs_possessifs",
+      "label": "Les adjectifs possessifs",
+      "practice_links": [
+        "grammaire-francaise/topics/adjectifs-possessifs.html"
+      ]
+    },
+    {
+      "category": "pronouns",
+      "group_id": "pronoms_cod",
+      "label": "Les pronoms compléments directs (COD)",
+      "practice_links": [
+        "grammaire-francaise/topics/pronoms-cod.html"
+      ]
+    },
+    {
+      "category": "pronouns",
+      "group_id": "pronoms_coi",
+      "label": "Les pronoms compléments indirects (COI)",
+      "practice_links": [
+        "grammaire-francaise/topics/pronoms-coi.html"
+      ]
+    },
+    {
+      "category": "pronouns",
+      "group_id": "cod_ou_coi",
+      "label": "COD ou COI ? Synthèse",
+      "practice_links": [
+        "grammaire-francaise/topics/cod-ou-coi.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "etre",
+      "label": "Verbe ÊTRE",
+      "practice_links": [
+        "grammaire-francaise/topics/etre.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "avoir",
+      "label": "Verbe AVOIR",
+      "practice_links": [
+        "grammaire-francaise/topics/avoir.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "verbes_er",
+      "label": "Verbes en -ER",
+      "practice_links": [
+        "grammaire-francaise/topics/verbes-er.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "verbes_ir",
+      "label": "Les verbes en -IR",
+      "practice_links": [
+        "grammaire-francaise/topics/verbes-ir.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "verbes_re",
+      "label": "Les verbes en -RE",
+      "practice_links": [
+        "grammaire-francaise/topics/verbes-re.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "verbes_pronominaux",
+      "label": "Les verbes pronominaux",
+      "practice_links": [
+        "grammaire-francaise/topics/verbes-pronominaux.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "aller",
+      "label": "Aller",
+      "practice_links": [
+        "grammaire-francaise/topics/aller.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "devoir",
+      "label": "Devoir",
+      "practice_links": [
+        "grammaire-francaise/topics/devoir.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "passe_recent",
+      "label": "Le passé récent",
+      "practice_links": [
+        "grammaire-francaise/topics/passe-recent.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "futur_proche",
+      "label": "Le futur proche",
+      "practice_links": [
+        "grammaire-francaise/topics/futur-proche.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "passe_compose_avoir",
+      "label": "Le passé composé avec avoir",
+      "practice_links": [
+        "grammaire-francaise/topics/passe-compose-avoir.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "passe_compose_etre_1",
+      "label": "Le passé composé avec être (1/2)",
+      "practice_links": [
+        "grammaire-francaise/topics/passe-compose-etre-1.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "passe_compose_etre_2",
+      "label": "Le passé composé avec être (2/2)",
+      "practice_links": [
+        "grammaire-francaise/topics/passe-compose-etre-2.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "imparfait",
+      "label": "L'imparfait",
+      "practice_links": [
+        "grammaire-francaise/topics/imparfait.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "futur_simple",
+      "label": "Le futur simple",
+      "practice_links": [
+        "grammaire-francaise/topics/futur-simple.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "verbes_irreguliers_1",
+      "label": "Verbes irréguliers (1/3)",
+      "practice_links": [
+        "grammaire-francaise/topics/verbes-irreguliers-1.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "verbes_irreguliers_2",
+      "label": "Verbes irréguliers (2/3)",
+      "practice_links": [
+        "grammaire-francaise/topics/verbes-irreguliers-2.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "verbes_irreguliers_3",
+      "label": "Verbes irréguliers (3/3)",
+      "practice_links": [
+        "grammaire-francaise/topics/verbes-irreguliers-3.html"
+      ]
+    },
+    {
+      "category": "syntax",
+      "group_id": "negation",
+      "label": "La Négation",
+      "practice_links": [
+        "grammaire-francaise/topics/negation.html"
+      ]
+    }
+  ],
+  "hy": [],
+  "it": [
+    {
+      "category": "determiners",
+      "group_id": "articoli_determinativi",
+      "label": "Gli Articoli Determinativi",
+      "practice_links": [
+        "grammar/it-articoli.html"
+      ]
+    },
+    {
+      "category": "nouns",
+      "group_id": "plurali",
+      "label": "I Plurali",
+      "practice_links": [
+        "grammar/it-plurali.html"
+      ]
+    },
+    {
+      "category": "pronouns",
+      "group_id": "pronomi_soggetto",
+      "label": "I Pronomi Soggetto",
+      "practice_links": [
+        "grammar/it-pronomi.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "essere",
+      "label": "Verbo ESSERE",
+      "practice_links": [
+        "grammar/it-essere-1.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "avere",
+      "label": "Verbo AVERE",
+      "practice_links": [
+        "grammar/it-avere.html"
+      ]
+    }
+  ],
+  "ka": [],
+  "pt": [],
+  "ru": [
+    {
+      "category": "cases",
+      "group_id": "nominative",
+      "label": "Именительный падеж",
+      "practice_links": []
+    },
+    {
+      "category": "nouns",
+      "group_id": "gender",
+      "label": "Род существительных",
+      "practice_links": [
+        "grammar/ru-nouns-gender.html"
+      ]
+    },
+    {
+      "category": "pronouns",
+      "group_id": "personal_pronouns",
+      "label": "Личные местоимения",
+      "practice_links": [
+        "grammar/ru-pronouns.html"
+      ]
+    },
+    {
+      "category": "verbs",
+      "group_id": "be_present",
+      "label": "Глагол БЫТЬ (Настоящее время)",
+      "practice_links": [
+        "grammar/ru-be.html"
+      ]
+    }
+  ],
+  "tt": []
+}
