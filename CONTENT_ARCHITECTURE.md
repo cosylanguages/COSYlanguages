@@ -131,7 +131,33 @@ Atmospheric, media-rich workshops centered on cinematic, musical, and literary a
 | `long-reads` | Long Reads | Literary parlor, active book curriculum, reader ledgers. | Cozy dark-mahogany, interactive typewriter |
 | `if-you-were` | If You Were | Hypothetical subjective states, Perspective Mirror box columns. | High-contrast dark backgrounds, light text rules |
 
-## 6. Content Standards
+## 6. Communication Architecture
+
+### The 10 Communication Systems
+
+| System ID | Label | Communication Question |
+|-----------|-------|------------------------|
+| `starting` | Starting Conversations | How do I enter a conversation smoothly? |
+| `keeping_alive` | Keeping Conversations Alive | How do I keep talking without awkward silences? |
+| `showing_feelings` | Showing Feelings & Reacting | How do I show surprise, empathy, or enthusiasm? |
+| `giving_opinions` | Giving Opinions | How do I express my personal perspective? |
+| `agreeing` | Agreeing | How do I validate someone's point enthusiastically? |
+| `disagreeing_politely` | Disagreeing Politely | How do I challenge an idea without being rude? |
+| `explaining` | Explaining & Paraphrasing | How do I rephrase when I am misunderstood? |
+| `clarifying` | Clarifying & Repairing | How do I deal with missing words or fast speech? |
+| `managing_floor` | Managing the Floor | How do I interrupt politely or hold my turn? |
+| `ending` | Ending Conversations | How do I wrap up and leave gracefully? |
+
+### Communication Unit ID Format
+`{lang}_{system_id}_{level}_{sequence}`
+- `lang`: ISO code (en, fr, etc.)
+- `system_id`: System slug from table above.
+- `level`: Full level ID (`starter`, `elementary`, `intermediate`, `upper_intermediate`, `advanced`, `proficiency`).
+- `sequence`: 3-digit zero-padded integer (`001`, `002`...).
+
+Example: `en_starting_starter_001`
+
+## 7. Content Standards
 
 ### The 10-10-10 Rule (Speaking Sessions)
 Every speaking session must include:

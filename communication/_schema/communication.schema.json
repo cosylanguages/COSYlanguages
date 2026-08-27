@@ -1,64 +1,116 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "COSY Communication Entry",
-  "description": "Schema for communication and speech dataset entries in the COSYlanguages platform",
+  "title": "COSY Communication Unit Entry",
+  "description": "Schema for communication units in the COSYlanguages Book 3 Communication Manual",
   "type": "object",
-  "required": ["language", "level", "domain", "units"],
+  "required": [
+    "id",
+    "lang",
+    "level",
+    "system_id",
+    "communication_question",
+    "building_blocks",
+    "conversation_map",
+    "natural_speech_examples",
+    "connects_to_grammar",
+    "connects_to_vocabulary",
+    "connects_to_next_system"
+  ],
   "properties": {
-    "language": { "type": "string", "description": "ISO 639-1 language code" },
-    "level": { "type": "string", "enum": ["A1", "A2", "B1", "B2", "C1", "C2"] },
-    "domain": { "type": "string", "description": "Communicative domain name" },
-    "units": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier following format {lang}_{system_id}_{level}_{sequence}, e.g. en_starting_starter_001"
+    },
+    "lang": {
+      "type": "string",
+      "description": "ISO 639-1 language code"
+    },
+    "level": {
+      "type": "string",
+      "enum": ["starter", "elementary", "intermediate", "upper_intermediate", "advanced", "proficiency"],
+      "description": "Normalized CEFR level ID"
+    },
+    "system_id": {
+      "type": "string",
+      "enum": [
+        "starting",
+        "keeping_alive",
+        "showing_feelings",
+        "giving_opinions",
+        "agreeing",
+        "disagreeing_politely",
+        "explaining",
+        "clarifying",
+        "managing_floor",
+        "ending"
+      ],
+      "description": "Communication System slug"
+    },
+    "communication_question": {
+      "type": "string",
+      "description": "Natural conversational situation or question anchor, e.g. How do I enter a conversation smoothly?"
+    },
+    "building_blocks": {
       "type": "array",
+      "description": "Modular phrase building blocks categorized by turn role",
       "items": {
         "type": "object",
-        "required": ["id", "title", "goal", "register", "expressions"],
+        "required": ["text", "block_type"],
         "properties": {
-          "id": { "type": "string" },
-          "title": { "type": "string" },
-          "goal": { "type": "string", "description": "Primary communicative goal" },
-          "register": { "type": "string", "enum": ["casual", "neutral", "formal", "flexible"] },
-          "dialogue": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "required": ["speaker", "text"],
-              "properties": {
-                "speaker": { "type": "string" },
-                "text": { "type": "string" },
-                "notes": { "type": "string" }
-              }
-            }
+          "text": {
+            "type": "string",
+            "description": "The expression or phrase in target language"
           },
-          "expressions": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "required": ["phrase", "function", "register"],
-              "properties": {
-                "phrase": { "type": "string" },
-                "function": { "type": "string" },
-                "register": { "type": "string", "enum": ["casual", "neutral", "formal"] },
-                "notes": { "type": "string" }
-              }
-            }
-          },
-          "pitfalls": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "required": ["avoid", "instead", "reason"],
-              "properties": {
-                "avoid": { "type": "string" },
-                "instead": { "type": "string" },
-                "reason": { "type": "string" }
-              }
-            }
-          },
-          "grammar_refs": { "type": "array", "items": { "type": "string" } },
-          "vocab_refs": { "type": "array", "items": { "type": "string" } }
+          "block_type": {
+            "type": "string",
+            "enum": ["block-start", "block-continue", "block-react", "block-ask", "block-close"],
+            "description": "Pragmatic turn role type"
+          }
         }
       }
+    },
+    "conversation_map": {
+      "type": "array",
+      "description": "Flowchart steps mapping out the interaction path",
+      "items": {
+        "type": "string"
+      }
+    },
+    "natural_speech_examples": {
+      "type": "array",
+      "description": "Side-by-side comparison between textbook-stiff and natural spoken phrasing",
+      "items": {
+        "type": "object",
+        "required": ["stiff", "natural"],
+        "properties": {
+          "stiff": {
+            "type": "string",
+            "description": "Overly literal or textbook-bound phrasing"
+          },
+          "natural": {
+            "type": "string",
+            "description": "Authentic, natural spoken alternative"
+          }
+        }
+      }
+    },
+    "connects_to_grammar": {
+      "type": "array",
+      "description": "Slugs of related Book 1 Grammar pages",
+      "items": {
+        "type": "string"
+      }
+    },
+    "connects_to_vocabulary": {
+      "type": "array",
+      "description": "Slugs of related Book 2 Vocabulary themes",
+      "items": {
+        "type": "string"
+      }
+    },
+    "connects_to_next_system": {
+      "type": "string",
+      "description": "Slug of the next sequential Communication System or unit ID"
     }
   }
 }
