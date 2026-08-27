@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "COSY Communication Entry",
+  "description": "Schema for communication and speech dataset entries in the COSYlanguages platform",
+  "type": "object",
+  "required": ["language", "level", "domain", "units"],
+  "properties": {
+    "language": { "type": "string", "description": "ISO 639-1 language code" },
+    "level": { "type": "string", "enum": ["A1", "A2", "B1", "B2", "C1", "C2"] },
+    "domain": { "type": "string", "description": "Communicative domain name" },
+    "units": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "goal", "register", "expressions"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "goal": { "type": "string", "description": "Primary communicative goal" },
+          "register": { "type": "string", "enum": ["casual", "neutral", "formal", "flexible"] },
+          "dialogue": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["speaker", "text"],
+              "properties": {
+                "speaker": { "type": "string" },
+                "text": { "type": "string" },
+                "notes": { "type": "string" }
+              }
+            }
+          },
+          "expressions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["phrase", "function", "register"],
+              "properties": {
+                "phrase": { "type": "string" },
+                "function": { "type": "string" },
+                "register": { "type": "string", "enum": ["casual", "neutral", "formal"] },
+                "notes": { "type": "string" }
+              }
+            }
+          },
+          "pitfalls": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["avoid", "instead", "reason"],
+              "properties": {
+                "avoid": { "type": "string" },
+                "instead": { "type": "string" },
+                "reason": { "type": "string" }
+              }
+            }
+          },
+          "grammar_refs": { "type": "array", "items": { "type": "string" } },
+          "vocab_refs": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    }
+  }
+}

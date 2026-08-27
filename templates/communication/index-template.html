@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Language Name Communication Roadmap · COSYlanguages</title>
+<link rel="icon" href="../../images/logos/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/layout.css">
+</head>
+<body class="grammar-body">
+
+<div class="grammar-header-new">
+  <div>
+    <div class="breadcrumb">Student Area 🔐</div>
+    <h1>Language Name Communication Roadmap 💬</h1>
+  </div>
+  <div class="lang-tabs" id="roadmap-lang-tabs">
+    <a href="en.html" class="lang-tab active">🇬🇧 EN</a>
+    <a href="fr.html" class="lang-tab">🇫🇷 FR</a>
+    <a href="it.html" class="lang-tab">🇮🇹 IT</a>
+    <a href="ru.html" class="lang-tab">🇷🇺 RU</a>
+    <a href="el.html" class="lang-tab">🇬🇷 EL</a>
+  </div>
+</div>
+
+<div class="grammar-layout">
+<nav class="grammar-sidebar">
+  <div class="gs-label">Foundations & Social</div>
+  <a class="gs-item active" href="#part_0">Part 0: Spoken Foundations</a>
+  <a class="gs-item" href="#part_1">Part 1: Greetings & Small Talk</a>
+
+  <div class="gs-label">Pragmatics & Interaction</div>
+  <a class="gs-item" href="#part_2">Part 2: Politeness & Requests</a>
+
+  <div class="gs-label" id="nav-label">Navigation</div>
+  <a class="gs-item" id="all-roadmaps-link" href="../manuals/english-a0-a1.html">← English Hub</a>
+</nav>
+
+<main class="grammar-main">
+  <div class="grammar-section-title">Communication & Speech Reference Roadmap</div>
+
+  <div class="level-section" id="part_0">
+    <div class="level-badge">FOUNDATIONS</div>
+    <div class="g-card">
+      <div class="card-title">Part 0 · Foundations of Spoken Communication</div>
+      <p class="g-desc">Intonation, fillers, rhythm, and active listening strategies.</p>
+      <div class="g-lesson-grid">
+        <a href="part-0.html" class="g-lesson-btn">Open Interactive Unit 🚀</a>
+      </div>
+    </div>
+  </div>
+
+</main>
+</div>
+
+<script>
+const items = document.querySelectorAll('.gs-item');
+const sections = document.querySelectorAll('.level-section');
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      items.forEach(i => i.classList.remove('active'));
+      const link = document.querySelector(".gs-item[href=\"#" + entry.target.id + "\"]");
+      if (link) link.classList.add('active');
+    }
+  });
+}, { threshold: 0.3 });
+sections.forEach(s => observer.observe(s));
+</script>
+
+<script src="../../js/data/languages.js"></script>
+<script src="../../js/core/engine.js"></script>
+<script src="../../js/core/i18n.js"></script>
+<script src="../../js/core/ui.js"></script>
+</body>
+</html>
