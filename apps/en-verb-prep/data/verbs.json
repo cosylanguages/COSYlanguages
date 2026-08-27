@@ -1314,5 +1314,239 @@
     "common_mistake": "❌ Refrain to speak during the presentation. ➔ ✅ Refrain from speaking during the presentation.",
     "synonyms": ["abstain from", "desist from", "avoid"],
     "antonyms": ["indulge in"]
+  },
+  "apply": {
+    "is_phrasal": false,
+    "transitivity": "Intransitive",
+    "transitivity_code": "VI",
+    "prepositions": ["for", "to"],
+    "pattern": "apply for [job/visa/grant] / apply to [company/university]",
+    "level": "A1",
+    "definition": "To make a formal request for a job, position, visa, or program.",
+    "grammar_rule": "Apply FOR + position/thing requested; apply TO + company/institution/person receiving application.",
+    "noun_parallel": "⚡ Verb: 'apply for a job to a company' ➔ Noun: 'an application FOR a job TO a company'",
+    "examples": [
+      "She applied for a project manager position at Google.",
+      "I am applying to three universities in the UK."
+    ],
+    "common_mistake": "❌ Apply a job to the company. ➔ ✅ Apply for a job at/to the company.",
+    "synonyms": ["request", "solicit"],
+    "antonyms": []
+  },
+  "focus on": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "on",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["on"],
+    "pattern": "focus on [subject / goal / gerund (-ing)]",
+    "level": "A2",
+    "definition": "To give central attention or effort to a particular topic or task.",
+    "grammar_rule": "Always requires 'on' before a noun, pronoun, or gerund (-ing). Do NOT use 'in' or 'to'.",
+    "noun_parallel": "⚡ Verb: 'focus on key priorities' ➔ Noun: 'maintain focus ON priorities'",
+    "examples": [
+      "Let's focus on solving the primary bottleneck first.",
+      "He needs to focus on improving his conversational skills."
+    ],
+    "common_mistake": "❌ Focus in the project. ➔ ✅ Focus on the project.",
+    "synonyms": ["concentrate on", "center on"],
+    "antonyms": ["distract from", "ignore"]
+  },
+  "rely on": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "on",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["on"],
+    "pattern": "rely on [someone / data / system]",
+    "level": "A2",
+    "definition": "To depend on or trust someone/something to work or act properly.",
+    "grammar_rule": "Requires 'on'. Followed by noun, pronoun, or gerund (-ing).",
+    "noun_parallel": "⚡ Verb: 'rely on facts' ➔ Noun: 'place reliance ON data'",
+    "examples": [
+      "You can always rely on her to deliver high-quality work on time.",
+      "Modern businesses rely heavily on cloud infrastructure."
+    ],
+    "common_mistake": "❌ Rely of public transport. ➔ ✅ Rely on public transport.",
+    "synonyms": ["depend on", "count on"],
+    "antonyms": ["distrust"]
+  },
+  "belong to": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "to",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["to"],
+    "pattern": "belong to [owner / group / organization]",
+    "level": "A1",
+    "definition": "To be owned by someone, or be a member of a group.",
+    "grammar_rule": "Requires 'to' before the owner or club/organization.",
+    "examples": [
+      "This laptop belongs to the IT department.",
+      "Does this notebook belong to you?"
+    ],
+    "common_mistake": "❌ It belongs for me. ➔ ✅ It belongs to me.",
+    "synonyms": ["be owned by", "pertain to"],
+    "antonyms": []
+  },
+  "deal with": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "with",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["with"],
+    "pattern": "deal with [problem / client / situation]",
+    "level": "A2",
+    "definition": "To take action to handle, resolve, or cope with a situation or person.",
+    "grammar_rule": "Inseparable phrasal verb. Requires 'with' after 'deal'.",
+    "examples": [
+      "Customer service representatives deal with complaints every day.",
+      "How do you deal with stress at work?"
+    ],
+    "common_mistake": "❌ Deal about the issue. ➔ ✅ Deal with the issue.",
+    "synonyms": ["handle", "manage", "tackle", "cope with"],
+    "antonyms": ["neglect", "ignore"]
+  },
+  "suffer from": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "from",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["from"],
+    "pattern": "suffer from [illness / condition / hardship]",
+    "level": "B1",
+    "definition": "To experience physical or mental pain, illness, or hardship.",
+    "grammar_rule": "Requires 'from' when specifying the medical condition or hardship.",
+    "examples": [
+      "Many adults suffer from chronic sleep deprivation.",
+      "The business suffered from severe cash flow problems."
+    ],
+    "common_mistake": "❌ Suffer of migraines. ➔ ✅ Suffer from migraines.",
+    "synonyms": ["endure", "be afflicted with"],
+    "antonyms": []
+  },
+  "prevent from": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "from",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["from"],
+    "pattern": "prevent [someone/something] from + [gerund (-ing)]",
+    "level": "B1",
+    "definition": "To stop something from happening or stop someone from doing an action.",
+    "grammar_rule": "Prevent + direct object + FROM + gerund (-ing).",
+    "examples": [
+      "Bad weather prevented us from leaving the port.",
+      "Proper security controls prevent hackers from accessing customer data."
+    ],
+    "common_mistake": "❌ Prevent him to enter the building. ➔ ✅ Prevent him from entering the building.",
+    "synonyms": ["stop from", "hinder from", "inhibit from"],
+    "antonyms": ["allow to", "permit to"]
+  },
+  "insist on": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "on",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["on"],
+    "pattern": "insist on + [noun / gerund (-ing)]",
+    "level": "B1",
+    "definition": "To demand something forcefully and refuse to accept any refusal.",
+    "grammar_rule": "Requires 'on' + gerund (-ing) or noun object.",
+    "noun_parallel": "⚡ Verb: 'insist on paying' ➔ Noun: 'an insistence ON quality'",
+    "examples": [
+      "He insisted on paying for everyone's dinner.",
+      "Why do you insist on doing everything by yourself?"
+    ],
+    "common_mistake": "❌ Insist to pay the bill. ➔ ✅ Insist on paying the bill.",
+    "synonyms": ["demand", "persist in"],
+    "antonyms": ["yield", "concede"]
+  },
+  "participate in": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "in",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["in"],
+    "pattern": "participate in [event / discussion / activity]",
+    "level": "B1",
+    "definition": "To take part in an event, activity, or conversation.",
+    "grammar_rule": "Requires 'in'. Followed by noun or gerund (-ing).",
+    "noun_parallel": "⚡ Verb: 'participate in workshops' ➔ Noun: 'participation IN discussions'",
+    "examples": [
+      "All team members are encouraged to participate in weekly discussions.",
+      "Over fifty countries participated in the climate summit."
+    ],
+    "common_mistake": "❌ Participate at the meeting. ➔ ✅ Participate in the meeting.",
+    "synonyms": ["take part in", "join in"],
+    "antonyms": ["withdraw from"]
+  },
+  "benefit from": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "from",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["from"],
+    "pattern": "benefit from [something / action]",
+    "level": "B1",
+    "definition": "To receive an advantage, profit, or help from something.",
+    "grammar_rule": "Verb 'benefit FROM' takes 'from'. Note: noun 'benefit OF' takes 'of'.",
+    "noun_parallel": "⚡ Verb: 'benefit from training' ➔ Noun: 'the benefit OF experience'",
+    "examples": [
+      "Students benefit from regular personalized feedback.",
+      "The local community will benefit greatly from the new sports center."
+    ],
+    "common_mistake": "❌ Benefit of the new system. (when used as verb) ➔ ✅ Benefit from the new system.",
+    "synonyms": ["gain from", "profit from"],
+    "antonyms": ["suffer from"]
+  },
+  "approve of": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "of",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["of"],
+    "pattern": "approve of [action / decision / person]",
+    "level": "B2",
+    "definition": "To think that someone or something is good, right, or acceptable.",
+    "grammar_rule": "Intransitive + preposition 'of'. Transitive direct 'approve something' means officially sign/authorize.",
+    "noun_parallel": "⚡ Verb: 'approve of your choice' ➔ Noun: 'give approval OF/FOR a plan'",
+    "examples": [
+      "Her parents didn't approve of her decision to leave university.",
+      "Do you approve of the new office policies?"
+    ],
+    "common_mistake": "❌ I approve for your plan. ➔ ✅ I approve of your plan.",
+    "synonyms": ["endorse", "favor", "sanction"],
+    "antonyms": ["disapprove of", "object to"]
+  },
+  "object to": {
+    "is_phrasal": true,
+    "separability": "Inseparable",
+    "particle": "to",
+    "transitivity": "Transitive",
+    "transitivity_code": "VT",
+    "prepositions": ["to"],
+    "pattern": "object to + [noun / gerund (-ing)]",
+    "level": "B2",
+    "definition": "To express disagreement with or opposition to something.",
+    "grammar_rule": "Requires 'to' + noun or gerund (-ing). 'To' is a preposition here, NOT an infinitive marker.",
+    "noun_parallel": "⚡ Verb: 'object to changing terms' ➔ Noun: 'raise an objection TO terms'",
+    "examples": [
+      "Several residents object to building a highway near the school.",
+      "No one objected to the proposed timetable."
+    ],
+    "common_mistake": "❌ I object to change the plan. ➔ ✅ I object to changing the plan.",
+    "synonyms": ["oppose", "protest against", "demur to"],
+    "antonyms": ["approve of", "agree to"]
   }
 }
