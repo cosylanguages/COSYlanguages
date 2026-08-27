@@ -1,0 +1,130 @@
+/* COSYlanguages Communication & Speech Manual CSS Stylesheet */
+:root {
+  --comm-start: #0e7490;
+  --comm-continue: #4338ca;
+  --comm-react: #be185d;
+  --comm-ask: #c2410c;
+  --comm-close: #4c1d95;
+}
+
+/* Building Block Chips */
+.block-chip-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 1rem 0;
+}
+
+.block-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 99px;
+  color: #ffffff;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.85rem;
+  font-weight: 700;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.block-start { background-color: var(--comm-start); }
+.block-continue { background-color: var(--comm-continue); }
+.block-react { background-color: var(--comm-react); }
+.block-ask { background-color: var(--comm-ask); }
+.block-close { background-color: var(--comm-close); }
+
+/* Conversation Map Flowchart */
+.conversation-map {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 1.5rem 0;
+  padding: 1.25rem;
+  background: var(--gh-surface, #ffffff);
+  border: 1.5px solid var(--gh-border, #e2e8f0);
+  border-radius: 12px;
+}
+
+.map-step {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  background: var(--gh-subtle, #f8fafc);
+  border-left: 4px solid var(--comm-start);
+  border-radius: 6px;
+}
+
+.map-step.step-continue { border-left-color: var(--comm-continue); }
+.map-step.step-react { border-left-color: var(--comm-react); }
+.map-step.step-ask { border-left-color: var(--comm-ask); }
+.map-step.step-close { border-left-color: var(--comm-close); }
+
+.map-step-label {
+  font-family: var(--font-mono, monospace);
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  opacity: 0.85;
+}
+
+.map-step-content {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+/* Natural Speech Add-on Box */
+.natural-speech-box {
+  background: var(--gh-surface, #ffffff);
+  border: 1.5px solid var(--gh-border, #e2e8f0);
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.natural-speech-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.speech-stiff {
+  background: #fef2f2;
+  border-left: 4px solid #ef4444;
+  padding: 10px 12px;
+  border-radius: 6px;
+  color: #991b1b;
+  font-size: 0.9rem;
+}
+
+.speech-natural {
+  background: #f0fdf4;
+  border-left: 4px solid #22c55e;
+  padding: 10px 12px;
+  border-radius: 6px;
+  color: #166534;
+  font-size: 0.9rem;
+}
+
+/* Live Mini Dialogue */
+.mini-dialogue {
+  background: #fafaf9;
+  border: 1.5px solid #e7e5e4;
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.dialogue-line {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.dialogue-speaker {
+  font-weight: 800;
+  font-family: var(--font-mono, monospace);
+  margin-right: 6px;
+}
