@@ -244,6 +244,11 @@
             await window.COSY.loadMorphologyData(lang);
         }
 
+        // Load comparative transfer datasets
+        if (window.COSY && window.COSY.loadComparativeData) {
+            await window.COSY.loadComparativeData();
+        }
+
         // Also load curriculum for pronunciation if needed
         if (window.COSY && window.COSY.loadCurriculum) {
             const l = (lang || 'en').toLowerCase();
@@ -326,6 +331,88 @@
             level: item.level,
             theme: item.theme
         };
+    }
+
+    /* ══════════════════════════════════════
+       CROSS-LINGUISTIC COMPARATIVE DRILL GENERATOR
+    ══════════════════════════════════════ */
+    function buildComparativeTransferDrills(knownLang, targetLang) {
+        if (!knownLang || !targetLang || knownLang.toLowerCase() === targetLang.toLowerCase()) return [];
+
+        const k = knownLang.toLowerCase();
+        const t = targetLang.toLowerCase();
+        const data = window.comparativeData;
+        if (!data) return [];
+
+        const drills = [];
+
+        // 1. Transfer Notes (True/False & Insight Cards)
+        const notes = (data.notes || []).filter(n =>
+            (n.known_language === k && n.target_language === t) ||
+            (n.known_language === t && n.target_language === k)
+        );
+
+        notes.forEach(note => {
+            drills.push({
+                type: 'tf',
+                q: `💡 Transfer Insight (${k.toUpperCase()} ➔ ${t.toUpperCase()}): "${note.note}"`,
+                ans: true,
+                item: { word: `Transfer (${k.toUpperCase()} ➔ ${t.toUpperCase()})`, emoji: '💡' },
+                transferHint: note.note,
+                level: 'starter',
+                theme: 'grammar'
+            });
+        });
+
+        // 2. Grammar Inventory Comparative Feature Drills
+        const inv = data.inventory || [];
+        const relevantFeatures = inv.filter(f => f.languages && (f.languages.includes(k) || f.languages.includes(t)));
+
+        relevantFeatures.slice(0, 5).forEach(feat => {
+            const inK = feat.languages.includes(k);
+            const inT = feat.languages.includes(t);
+
+            if (inK !== inT) {
+                // Contrast Rule (Present in one, absent in other)
+                const targetHasIt = inT;
+                const questionText = targetHasIt
+                    ? `Does ${t.toUpperCase()} feature "${feat.title}" (unlike ${k.toUpperCase()})?`
+                    : `Does ${t.toUpperCase()} feature "${feat.title}"?`;
+
+                drills.push({
+                    type: 'tf',
+                    q: questionText,
+                    ans: targetHasIt,
+                    item: { word: feat.title, emoji: '🌐' },
+                    transferHint: `${feat.description} (${k.toUpperCase()}: ${inK ? 'Yes' : 'No'}, ${t.toUpperCase()}: ${inT ? 'Yes' : 'No'})`,
+                    ruleHint: feat.description,
+                    level: feat.cefr_level ? feat.cefr_level.toLowerCase() : 'starter',
+                    theme: feat.category || 'grammar'
+                });
+            } else if (inK && inT) {
+                // Shared Universal / Common Feature Rule
+                const opts = [
+                    `Both ${k.toUpperCase()} and ${t.toUpperCase()} share this rule`,
+                    `Only ${k.toUpperCase()} uses this rule`,
+                    `Neither language uses this rule`
+                ].sort(() => Math.random() - 0.5);
+
+                const targetRule = `Both ${k.toUpperCase()} and ${t.toUpperCase()} share this rule`;
+                drills.push({
+                    type: 'mc',
+                    q: `Grammar Transfer: How is "${feat.title}" shared between ${k.toUpperCase()} and ${t.toUpperCase()}?`,
+                    opts: opts,
+                    ans: opts.indexOf(targetRule),
+                    item: { word: feat.title, emoji: '🤝' },
+                    transferHint: `Shared feature: ${feat.description}`,
+                    ruleHint: feat.description,
+                    level: feat.cefr_level ? feat.cefr_level.toLowerCase() : 'starter',
+                    theme: feat.category || 'grammar'
+                });
+            }
+        });
+
+        return drills;
     }
 
     /* ══════════════════════════════════════
@@ -555,6 +642,12 @@
         let proceduralDrills = [];
         if (cat === 'Grammar' || cat === 'grammar') {
             proceduralDrills = buildProceduralMorphologyDrills(l);
+
+            const knownLang = (document.getElementById('known-lang-select')?.value || '').toLowerCase();
+            if (knownLang && knownLang !== l) {
+                const compDrills = buildComparativeTransferDrills(knownLang, l);
+                proceduralDrills = [...compDrills, ...proceduralDrills];
+            }
         }
 
         let qs = [];

@@ -140,6 +140,12 @@
                 const wordToSpeak = (q.item.word || q.item.text || q.ans || '').replace(/'/g, "\\'");
                 html += `<button class="btn-outline pe-card-speak-btn" onclick="window.cosyPracticeEngine.speakText('${wordToSpeak}', '${lang}')">🔊 Listen <span class="keycap-badge">S</span></button>`;
 
+                if (q.transferHint) {
+                    html += `<div class="pe-transfer-hint-box" style="margin-top: 10px; padding: 10px 14px; background: rgba(75, 120, 190, 0.08); border-left: 4px solid #4b78be; border-radius: 6px; font-size: 0.88rem; text-align: left;">
+                        <strong style="color: #2b589e;">💡 Language Transfer Tip:</strong> ${q.transferHint}
+                    </div>`;
+                }
+
                 if (q.ruleHint) {
                     html += `<div class="pe-rule-hint-box" style="margin-top: 10px; padding: 10px 14px; background: rgba(230, 160, 40, 0.08); border-left: 4px solid #e6a028; border-radius: 6px; font-size: 0.88rem; text-align: left;">
                         <strong style="color: #b57600;">💡 Rule Hint:</strong> ${q.ruleHint}

@@ -899,6 +899,27 @@ window.COSY = {
         return window.morphologyData[langLow];
     },
 
+    async loadComparativeData() {
+        if (window.comparativeData && window.comparativeData.notes) return window.comparativeData;
+
+        window.comparativeData = window.comparativeData || { notes: [], inventory: [] };
+        const prefix = getPrefix();
+
+        try {
+            const [notesRes, invRes] = await Promise.all([
+                fetch(`${prefix}comparative/data/transfer-notes.json`),
+                fetch(`${prefix}comparative/data/grammar-inventory.json`)
+            ]);
+
+            if (notesRes.ok) window.comparativeData.notes = await notesRes.json();
+            if (invRes.ok) window.comparativeData.inventory = await invRes.json();
+        } catch (err) {
+            console.warn('[COSY Comparative Loader] Failed to load comparative datasets:', err);
+        }
+
+        return window.comparativeData;
+    },
+
     setNavContext(html) {
         const ctx = document.getElementById('cosy-nav-context');
         if (ctx) ctx.innerHTML = html;
