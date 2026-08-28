@@ -1,6 +1,6 @@
 # COSYlanguages Manual Generation Map
 
-This document details the generation status and build commands for all 14 grammar manual directories and 12 vocabulary manual directories across the COSYlanguages repository.
+This document details the generation status and build commands for all 14 grammar manual directories and 13 vocabulary manual directories across the COSYlanguages repository.
 
 The repository utilizes two distinct authoring approaches:
 1. **Generated Manuals**: HTML files (index, hubs, and topics) are generated programmatically from Python data structures via build scripts located in `scripts/`. Rerunning the respective build script overwrites generated HTML files.
@@ -40,6 +40,7 @@ The repository utilizes two distinct authoring approaches:
 | `deutscher-wortschatz/` | German | **(a) Generated** | `scripts/build_monolingual_vocab_manuals.py` | `python3 scripts/build_monolingual_vocab_manuals.py` |
 | `vocabulario-portugues/` | Portuguese | **(a) Generated** | `scripts/build_monolingual_vocab_manuals.py` | `python3 scripts/build_monolingual_vocab_manuals.py` |
 | `leksika-russkogo-yazyka/` | Russian | **(a) Generated** | `scripts/build_russian_vocab_manual.py` | `python3 scripts/build_russian_vocab_manual.py` |
+| `leksilogio-ellinikon/` | Greek | **(a) Generated** | `scripts/build_greek_vocab_manual.py` | `python3 scripts/build_greek_vocab_manual.py` |
 | `tatar-teli-leksikasy/` | Tatar | **(a) Generated** | `scripts/build_monolingual_vocab_manuals.py` | `python3 scripts/build_monolingual_vocab_manuals.py` |
 | `bashqort-tele-leksikahy/` | Bashkir | **(a) Generated** | `scripts/build_monolingual_vocab_manuals.py` | `python3 scripts/build_monolingual_vocab_manuals.py` |
 | `chavash-leksiki/` | Chuvash | **(a) Generated** | `scripts/build_monolingual_vocab_manuals.py` | `python3 scripts/build_monolingual_vocab_manuals.py` |
