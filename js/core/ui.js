@@ -65,7 +65,10 @@
       travel:          ['transport','accommodation','tourism','directions','documents'],
       work:            ['office','meetings','career','documents','remote_work'],
       art_culture:     ['art','literature','film','theatre','traditions'],
-      psychology:      ['biases','cognitive_processes','behavior','psychoanalysis','concepts']
+      psychology:      ['biases','cognitive_processes','behavior','psychoanalysis','concepts'],
+      prepositions:    ['prepositions_place','prepositions_time','prepositions_direction','dependent_prepositions'],
+      contrast_pairs:  ['ed_vs_ing_adjectives','comparative_vs_superlative'],
+      grammar:         ['tenses_aspect','conditionals_moods','cases_declensions','articles_gender','syntax_word_order']
     };
 
     window.COSY_GAMES = {
