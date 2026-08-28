@@ -418,7 +418,7 @@ MODULES = [
                     {"word": "vingt", "type": "noun", "meta": "adj. num.", "def": "Nombre correspondant au chiffre 20.", "ex": "Elle a vingt ans aujourd'hui.", "colloc": "vingt personnes"}
                 ],
                 "tip": "Au nombre « un », la forme s'accorde au féminin : « un livre » (masculin) et « une table » (féminin).",
-                "grammar_link": "../../grammaire-francaise/topics/articles.html"
+                "grammar_link": "../../grammaire-francaise/topics/nombres-jours-mois.html"
             },
             {
                 "slug": "grands-nombres-et-chiffres",
