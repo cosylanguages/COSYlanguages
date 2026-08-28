@@ -48,7 +48,7 @@ COSYlanguages is structured as a collection of independent, specialized sub-prod
    - *Thematic Speaking Clubs:* I Couldn't Help But Wonder, Keeping Up with Science, Mind Matters, Debatable & Relatable, Let's Celebrate, My Life With/Without, and The Greatest Quotes.
    - *Interactive Multimedia Nights:* Cinema Club, Karaoke Club, Game Evening, Long Reads, and If You Were.
 
-For detailed taxonomy standards, refer to `CONTENT_ARCHITECTURE.md` or `apps/README.md`.
+For detailed taxonomy standards, refer to `project/docs/CONTENT_ARCHITECTURE.md` or `apps/README.md`.
 
 ## Running locally
 Open `index.html` directly in a browser, or use a local server:

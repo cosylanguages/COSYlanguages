@@ -49,7 +49,7 @@ This directory contains standardized templates for adding new languages or conte
 
 ### 7. Etymology & Data Enrichment
 - New vocabulary entries should include `synonyms`, `antonyms`, `collocations`, and `etymology` where possible.
-- Use `scripts/content-build/build_etymology_dict.js` to bulk-generate etymology data from Wiktextract dumps. Run `node scripts/content-build/build_etymology_dict.js --help` for usage details.
+- Use `project/scripts/content-build/build_etymology_dict.js` to bulk-generate etymology data from Wiktextract dumps. Run `node project/scripts/content-build/build_etymology_dict.js --help` for usage details.
 
 ---
 
@@ -100,8 +100,8 @@ As the platform grows, our previous sessions list will expand significantly. To 
 ---
 
 ## Standards & Compliance
-- **SCHEMA.md:** Always refer to the root `SCHEMA.md` for data field requirements.
-- **THEMES.md:** Use standardized theme slugs for vocabulary and curriculum.
+- **project/docs/SCHEMA.md:** Always refer to the root `project/docs/SCHEMA.md` for data field requirements.
+- **project/docs/THEMES.md:** Use standardized theme slugs for vocabulary and curriculum.
 - **CEFR Levels:** Use normalized Level IDs: `starter`, `elementary`, `intermediate`, `upper_intermediate`, `advanced`, and `proficiency`. Short codes (like `A1`, `A2`, etc.) are reserved for directory structure and user-facing presentation.
 - **Naming Conventions:** Use lowercase with hyphens for filenames (`my-new-session.html`).
 - **Target Language:** Definitions, examples, and rules must be written in the target language (except for English-specific files).
