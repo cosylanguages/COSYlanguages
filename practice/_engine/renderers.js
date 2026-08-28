@@ -79,6 +79,48 @@
         return m[t] || t;
     }
 
+    function getFreeAppInfo(lang, q) {
+        const l = (lang || '').toLowerCase();
+        const theme = q.theme || '';
+
+        if (l === 'en' && (theme.includes('preposition') || theme === 'prepositions_place' || theme === 'prepositions_time')) {
+            return { name: 'EN Verb Prepositions Engine', url: 'apps/en-verb-prep/index.html', icon: '⚡' };
+        }
+        if (l === 'fr') {
+            if (theme === 'articles_gender' || theme === 'gender') {
+                return { name: 'FR Genre Engine', url: 'apps/fr-genre/index.html', icon: '⚡' };
+            }
+            if (theme === 'tenses_aspect' || theme === 'conditionals_moods' || theme.includes('verb')) {
+                return { name: 'FR Conjugeur Engine', url: 'apps/fr-conjugeur/index.html', icon: '⚡' };
+            }
+        }
+        if (l === 'it') {
+            if (theme === 'articles_gender' || theme === 'gender') {
+                return { name: 'IT Genere Engine', url: 'apps/it-genere/index.html', icon: '⚡' };
+            }
+            if (theme === 'tenses_aspect' || theme === 'conditionals_moods' || theme.includes('verb')) {
+                return { name: 'IT Coniugatore Engine', url: 'apps/it-coniugatore/index.html', icon: '⚡' };
+            }
+        }
+        if (l === 'ru') {
+            if (theme === 'cases_declensions' || theme === 'articles_gender' || theme === 'gender') {
+                return { name: 'RU Род & Падежи Engine', url: 'apps/ru-rod-padezhi/index.html', icon: '⚡' };
+            }
+            if (theme === 'tenses_aspect' || theme === 'conditionals_moods' || theme.includes('verb')) {
+                return { name: 'RU Спряжение Engine', url: 'apps/ru-spryazhenie/index.html', icon: '⚡' };
+            }
+        }
+        if (l === 'el') {
+            if (theme === 'cases_declensions' || theme === 'articles_gender' || theme === 'gender') {
+                return { name: 'EL Γένος & Πτώσεις Engine', url: 'apps/el-genos-ptoseis/index.html', icon: '⚡' };
+            }
+            if (theme === 'tenses_aspect' || theme === 'conditionals_moods' || theme.includes('verb')) {
+                return { name: 'EL Κλίση Engine', url: 'apps/el-klisi-rimaton/index.html', icon: '⚡' };
+            }
+        }
+        return null;
+    }
+
     const renderers = {
         renderQuestion(q, session, lang) {
             const form = q.form || q.type;
@@ -98,8 +140,20 @@
                 const wordToSpeak = (q.item.word || q.item.text || q.ans || '').replace(/'/g, "\\'");
                 html += `<button class="btn-outline pe-card-speak-btn" onclick="window.cosyPracticeEngine.speakText('${wordToSpeak}', '${lang}')">🔊 Listen <span class="keycap-badge">S</span></button>`;
 
+                if (q.ruleHint) {
+                    html += `<div class="pe-rule-hint-box" style="margin-top: 10px; padding: 10px 14px; background: rgba(230, 160, 40, 0.08); border-left: 4px solid #e6a028; border-radius: 6px; font-size: 0.88rem; text-align: left;">
+                        <strong style="color: #b57600;">💡 Rule Hint:</strong> ${q.ruleHint}
+                    </div>`;
+                }
+
+                const freeApp = getFreeAppInfo(lang, q);
+                if (freeApp) {
+                    html += `<div style="margin-top:10px;"><a href="../../${freeApp.url}" target="_blank" class="btn-outline" style="text-decoration:none; display:inline-block; padding: 6px 12px; font-size: 0.85rem;">${freeApp.icon} Open Free ${freeApp.name} 🚀</a></div>`;
+                }
+
                 const links = q.practice_links || q.item?.practice_links;
-                if (links && links.length > 0) {
+                const isPaidLearner = typeof sessionStorage !== 'undefined' && sessionStorage.getItem('cosy_paid_learner') === 'true';
+                if (isPaidLearner && links && links.length > 0) {
                     html += `<div style="margin-top:10px;"><a href="../../${links[0]}" target="_blank" class="btn-outline" style="text-decoration:none; display:inline-block; padding: 6px 12px; font-size: 0.85rem;">📖 Open Lesson Manual 🚀</a></div>`;
                 }
 
