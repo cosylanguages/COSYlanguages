@@ -871,7 +871,7 @@ window.COSY = {
         const files = ['verbs.json', 'nouns.json', 'pronouns.json', 'determiners.json', 'adjectives.json', 'numerals.json'];
 
         const loadPromises = files.map(file => {
-            const path = `${prefix}grammar/${langLow}/morphology/${file}`;
+            const path = `${prefix}reference-grammar/${langLow}/morphology/${file}`;
             return fetch(path)
                 .then(res => res.ok ? res.json() : null)
                 .then(data => {

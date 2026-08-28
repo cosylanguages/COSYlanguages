@@ -329,6 +329,81 @@
     }
 
     /* ══════════════════════════════════════
+       PROCEDURAL MORPHOLOGY DRILL GENERATORS
+    ══════════════════════════════════════ */
+    function buildProceduralMorphologyDrills(lang) {
+        const l = (lang || 'en').toLowerCase();
+        const data = (window.morphologyData && window.morphologyData[l]) || [];
+        if (!data || data.length === 0) return [];
+
+        const drills = [];
+
+        data.forEach(item => {
+            const rules = item.rules || [];
+            const examples = item.examples || [];
+            const label = item.label || item.group_label || item.id || 'Grammar Rule';
+
+            if (rules.length > 0) {
+                // Rule Cloze/MC Drill
+                const mainRule = rules[0];
+                if (mainRule.includes(':') || mainRule.includes('->') || mainRule.includes('➔')) {
+                    const parts = mainRule.split(/[:->➔]/);
+                    const prompt = parts[0].trim();
+                    const target = parts[1] ? parts[1].trim() : prompt;
+
+                    const opts = [target, prompt, 'N/A'].sort(() => Math.random() - 0.5);
+                    drills.push({
+                        type: 'cloze',
+                        q: `Grammar Rule (${label}): Complete "${prompt}"`,
+                        sentence: `${prompt} ➔ [ ___ ]`,
+                        opts: opts,
+                        ans: opts.indexOf(target),
+                        item: { word: label, emoji: item.emoji || '📐' },
+                        ruleHint: `Rule (${label}): ${rules.join(' ')}`,
+                        practice_links: item.practice_links,
+                        level: item.level || 'starter',
+                        theme: 'grammar'
+                    });
+                } else {
+                    const opts = [mainRule, "No specific rule applies", "Always use singular form"].sort(() => Math.random() - 0.5);
+                    drills.push({
+                        type: 'mc',
+                        q: `What is the key rule for "${label}"?`,
+                        opts: opts,
+                        ans: opts.indexOf(mainRule),
+                        item: { word: label, emoji: item.emoji || '📐' },
+                        ruleHint: rules.join(' '),
+                        practice_links: item.practice_links,
+                        level: item.level || 'starter',
+                        theme: 'grammar'
+                    });
+                }
+            }
+
+            if (examples.length > 0) {
+                const ex = examples[0];
+                const text = ex.t || ex.text || '';
+                const meaning = ex.m || ex.meaning || '';
+
+                if (text) {
+                    drills.push({
+                        type: 'sc',
+                        q: `🧩 Sentence Scramble (${label}):`,
+                        item: { word: label, emoji: item.emoji || '🧩' },
+                        ans: text,
+                        ruleHint: meaning ? `Meaning: "${meaning}"` : rules.join(' '),
+                        practice_links: item.practice_links,
+                        level: item.level || 'starter',
+                        theme: 'syntax_word_order'
+                    });
+                }
+            }
+        });
+
+        return drills;
+    }
+
+    /* ══════════════════════════════════════
        TASK GENERATION
     ══════════════════════════════════════ */
     function beginSession(lang, catInput, level, theme, isChallenge, customQs, subTheme) {
@@ -475,6 +550,11 @@
                 });
             });
             pool = window.gameUtils.filterVocabulary(tempPool, { lang: l, level, theme, subTheme, category: 'Pronunciation' });
+        }
+
+        let proceduralDrills = [];
+        if (cat === 'Grammar' || cat === 'grammar') {
+            proceduralDrills = buildProceduralMorphologyDrills(l);
         }
 
         let qs = [];
@@ -710,6 +790,10 @@
 
         const errorMsg = document.getElementById('setup-error-msg');
         if (errorMsg) errorMsg.style.display = 'none';
+
+        if (proceduralDrills.length > 0) {
+            qs = [...proceduralDrills, ...qs];
+        }
 
         qs = [...qs].sort(() => Math.random() - .5).slice(0, 10);
 
