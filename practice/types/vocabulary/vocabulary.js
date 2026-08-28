@@ -28,6 +28,27 @@
                 { type:'tf', q:'"ubiquitous" = "extremely rare"', ans:false, level:'advanced', theme:'Daily Life' },
             ],
             Grammar: [
+                // Prepositions of Place
+                { type:'mc', q:'The book is ___ the table.', opts:['on','in','at','to'], ans:0, level:'starter', theme:'prepositions_place', ruleHint:'Use "on" for flat surfaces.' },
+                { type:'mc', q:'She is waiting ___ the bus stop.', opts:['at','on','in','into'], ans:0, level:'starter', theme:'prepositions_place', ruleHint:'Use "at" for specific locations and points.' },
+                { type:'mc', q:'There is a cat ___ the car.', opts:['under','on top','at','into'], ans:0, level:'starter', theme:'prepositions_place', ruleHint:'Use "under" when something is directly beneath something else.' },
+                { type:'mc', q:'The cafe is ___ the bank and the pharmacy.', opts:['between','among','inside','at'], ans:0, level:'elementary', theme:'prepositions_place', ruleHint:'Use "between" when referring to two distinct items.' },
+
+                // Prepositions of Time
+                { type:'mc', q:'Our meeting starts ___ 9:00 AM.', opts:['at','in','on','for'], ans:0, level:'starter', theme:'prepositions_time', ruleHint:'Use "at" for precise clock times.' },
+                { type:'mc', q:'She was born ___ July.', opts:['in','on','at','for'], ans:0, level:'starter', theme:'prepositions_time', ruleHint:'Use "in" for months, years, seasons, and long periods.' },
+                { type:'mc', q:'We always go hiking ___ Saturdays.', opts:['on','in','at','during'], ans:0, level:'starter', theme:'prepositions_time', ruleHint:'Use "on" for days of the week and dates.' },
+                { type:'mc', q:'I have lived here ___ three years.', opts:['for','since','during','in'], ans:0, level:'intermediate', theme:'prepositions_time', ruleHint:'Use "for" to indicate a duration of time.' },
+
+                // Adjective Contrast Pairs (-ed vs -ing)
+                { type:'mc', q:'The football match was really ___!', opts:['exciting','excited','excite','excitement'], ans:0, level:'elementary', theme:'contrast_pairs', ruleHint:'-ing adjectives describe the characteristic of a thing or event.' },
+                { type:'mc', q:'I was so ___ after hearing the great news!', opts:['excited','exciting','excite','excitement'], ans:0, level:'elementary', theme:'contrast_pairs', ruleHint:'-ed adjectives describe human feelings and emotional states.' },
+                { type:'mc', q:'This book is so ___; I cannot finish reading it.', opts:['boring','bored','bores','boredom'], ans:0, level:'elementary', theme:'contrast_pairs', ruleHint:'-ing adjectives describe what causes the feeling.' },
+                { type:'mc', q:'The audience felt ___ during the long presentation.', opts:['bored','boring','bores','boredom'], ans:0, level:'elementary', theme:'contrast_pairs', ruleHint:'-ed adjectives express how people feel.' },
+                { type:'mc', q:'Are you ___ in modern history and art?', opts:['interested','interesting','interest','interests'], ans:0, level:'elementary', theme:'contrast_pairs', ruleHint:'Use "interested in" for personal interest.' },
+                { type:'mc', q:'She told us an ___ story about her travels.', opts:['interesting','interested','interest','interests'], ans:0, level:'elementary', theme:'contrast_pairs', ruleHint:'Use "interesting" to describe a noun.' },
+
+                // Tenses & Conditionals
                 { type:'mc', q:'✓ ?', opts:['She doesn\'t like coffee.','She don\'t like coffee.','She not like coffee.','She isn\'t like coffee.'], ans:0, level:'starter', theme:'Tenses' },
                 { type:'tf', q:'"I have been living here for 3 years" = present perfect continuous', ans:true, level:'intermediate', theme:'Tenses' },
                 { type:'mc', q:'✓ ?', opts:['If I had known, I would have called you.','If I knew, I would call you yesterday.','If I have known, I called you.','If I had knew, I will call you.'], ans:0, level:'upper_intermediate', theme:'Conditionals' }
@@ -41,6 +62,17 @@
                 { type:'tf', q:'"rapide" = "très lent"', ans:false, level:'starter', theme:'Daily Life' }
             ],
             Grammar: [
+                // Prépositions de lieu & temps
+                { type:'mc', q:'Le livre est ___ la table.', opts:['sur','dans','à','sous'], ans:0, level:'starter', theme:'prepositions_place', ruleHint:'Utilisez "sur" pour une surface.' },
+                { type:'mc', q:'Elle habite ___ Paris.', opts:['à','dans','en','au'], ans:0, level:'starter', theme:'prepositions_place', ruleHint:'Utilisez "à" devant le nom d\'une ville.' },
+                { type:'mc', q:'Le train arrive ___ 15h00.', opts:['à','en','dans','sur'], ans:0, level:'starter', theme:'prepositions_time', ruleHint:'Utilisez "à" pour indiquer l\'heure exacte.' },
+                { type:'mc', q:'Nous partons en vacances ___ juillet.', opts:['en','à','dans','au'], ans:0, level:'starter', theme:'prepositions_time', ruleHint:'Utilisez "en" devant les mois et saisons.' },
+
+                // Adjectifs & Paires de contraste
+                { type:'mc', q:'Ce film est vraiment ___ !', opts:['intéressant','intéressé','intéresser','intérêt'], ans:0, level:'elementary', theme:'contrast_pairs', ruleHint:'Utilisez l\'adjectif qualificatif pour décrire une chose.' },
+                { type:'mc', q:'Il est très ___ par la peinture moderne.', opts:['intéressé','intéressant','intéresser','intérêt'], ans:0, level:'elementary', theme:'contrast_pairs', ruleHint:'Utilisez "intéressé par" pour exprimer un sentiment personnel.' },
+
+                // Temps & Subjonctif
                 { type:'mc', q:'✓ ?', opts:['Elle n’aime pas le café.','Elle ne aime pas le café.','Elle pas aime le café.','Elle aime pas le café.'], ans:0, level:'starter', theme:'Tenses' },
                 { type:'mc', q:'✓ ?', opts:['Il faut que tu fasses attention.','Il faut que tu fais attention.','Il faut que tu faire attention.','Il faut tu fais attention.'], ans:0, level:'intermediate', theme:'Subjunctive' }
             ]
@@ -53,6 +85,16 @@
                 { type:'tf', q:'"veloce" = "molto lento"', ans:false, level:'starter', theme:'Daily Life' }
             ],
             Grammar: [
+                // Preposizioni di luogo e tempo
+                { type:'mc', q:'Il libro è ___ tavolo.', opts:['sul','in','a','per'], ans:0, level:'starter', theme:'prepositions_place', ruleHint:'Utilizza la preposizione articolata "sul" (su + il).' },
+                { type:'mc', q:'Abiti ___ Roma o a Milano?', opts:['a','in','da','su'], ans:0, level:'starter', theme:'prepositions_place', ruleHint:'Usa "a" davanti ai nomi di città.' },
+                { type:'mc', q:'La lezione inizia ___ 9:00.', opts:['alle','in','a','da'], ans:0, level:'starter', theme:'prepositions_time', ruleHint:'Usa "alle" per indicare l\'ora.' },
+
+                // Coppie di contrasto
+                { type:'mc', q:'Questo libro è molto ___!', opts:['interessante','interessato','interessare','interesse'], ans:0, level:'elementary', theme:'contrast_pairs', ruleHint:'Descrittivo per un oggetto o storia.' },
+                { type:'mc', q:'Sono molto ___ alla tua proposta.', opts:['interessato','interessante','interessare','interesse'], ans:0, level:'elementary', theme:'contrast_pairs', ruleHint:'Esprime uno stato d\'animo personale.' },
+
+                // Tempi & Congiuntivo
                 { type:'mc', q:'✓ ?', opts:['A lei non piace il caffè.','Lei non piace il caffè.','Lei no piace il caffè.','A lei non piacciono il caffè.'], ans:0, level:'starter', theme:'Tenses' },
                 { type:'mc', q:'✓ ?', opts:['Penso che sia una buona idea.','Penso che è una buona idea.','Penso che sara una buona idea.','Penso che fose una buona idea.'], ans:0, level:'intermediate', theme:'Subjunctive' }
             ]
@@ -65,6 +107,16 @@
                 { type:'tf', q:'"быстрый" = "очень медленный"', ans:false, level:'starter', theme:'Daily Life' }
             ],
             Grammar: [
+                // Предлоги места и времени (Падежи)
+                { type:'mc', q:'Книга лежит ___ столе.', opts:['на','в','к','за'], ans:0, level:'starter', theme:'prepositions_place', ruleHint:'Предложный падеж: на столе (на поверхности).' },
+                { type:'mc', q:'Мы идем ___ театр.', opts:['в','на','к','за'], ans:0, level:'starter', theme:'prepositions_place', ruleHint:'Винительный падеж направления: в театр.' },
+                { type:'mc', q:'Урок начинается ___ 9 часов.', opts:['в','на','к','за'], ans:0, level:'starter', theme:'prepositions_time', ruleHint:'Указывает точное время: в 9 часов.' },
+
+                // Контрастные пары
+                { type:'mc', q:'Фильм был очень ___!', opts:['интересный','заинтересованный','интерес','интересно'], ans:0, level:'elementary', theme:'contrast_pairs', ruleHint:'Прилагательное описывает качество предмета.' },
+                { type:'mc', q:'Я очень ___ в успехе проекта.', opts:['заинтересован','интересный','интерес','интересно'], ans:0, level:'elementary', theme:'contrast_pairs', ruleHint:'Краткое причастие описывает состояние человека.' },
+
+                // Время & Сослагательное наклонение
                 { type:'mc', q:'✓ ?', opts:['Она не любит кофе.','Она нет любит кофе.','Она не любить кофе.','Она кофе не любит.'], ans:0, level:'starter', theme:'Tenses' },
                 { type:'mc', q:'✓ ?', opts:['Если бы я знал, я бы пришел.','Если я знал, я пришел бы.','Если бы я знаю, я приду.','Если я бы знал, пришел.'], ans:0, level:'intermediate', theme:'Conditionals' }
             ]
@@ -77,6 +129,15 @@
                 { type:'tf', q:'"γρήγορος" = "πολύ αργός"', ans:false, level:'starter', theme:'Daily Life' }
             ],
             Grammar: [
+                // Προθέσεις τόπου & χρόνου
+                { type:'mc', q:'Το βιβλίο είναι ___ τραπέζι.', opts:['στο','από','για','με'], ans:0, level:'starter', theme:'prepositions_place', ruleHint:'Σύνθετη πρόθεση: σε + το = στο.' },
+                { type:'mc', q:'Μένω ___ Αθήνα.', opts:['στην','από','για','με'], ans:0, level:'starter', theme:'prepositions_place', ruleHint:'Σύνθετη πρόθεση: σε + την = στην.' },
+                { type:'mc', q:'Το μάθημα αρχίζει ___ 9:00.', opts:['στις','από','για','με'], ans:0, level:'starter', theme:'prepositions_time', ruleHint:'Χρησιμοποιήστε "στις" για τις ώρες.' },
+
+                // Αντιθετικά ζεύγη
+                { type:'mc', q:'Αυτό το βιβλίο είναι πολύ ___!', opts:['ενδιαφέρον','ενδιαφερόμενος','ενδιαφέρονται','ενδιαφέροντος'], ans:0, level:'elementary', theme:'contrast_pairs', ruleHint:'Περιγραφή ιδιότητας ενός πράγματος.' },
+
+                // Χρόνοι & Υποθετικοί λόγοι
                 { type:'mc', q:'✓ ?', opts:['Δεν της αρέσει ο καφές.','Δεν αρέσει ο καφές αυτής.','Δεν την αρέσει ο καφές.','Δεν της αρέσουν ο καφές.'], ans:0, level:'starter', theme:'Tenses' },
                 { type:'mc', q:'✓ ?', opts:['Αν είχα χρόνο, θα ερχόμουν.','Αν έχω χρόνο, θα ερχόμουν.','Αν είχα χρόνο, θα έρθω.','Αν είχα χρόνο, ερχόμουν.'], ans:0, level:'intermediate', theme:'Conditionals' }
             ]
