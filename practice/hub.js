@@ -285,7 +285,7 @@
             window.cosyPractice.quickStart(challenge.lang, challenge.cat, 'all', challenge.theme);
         },
 
-        startMistakeReview() {
+        startMistakeReview(filterLang) {
             const engine = window.cosyPracticeEngine;
             if (!engine || !engine.state.mistakes || engine.state.mistakes.length === 0) {
                 const msg = "No mistakes saved yet: well done! Practice new themes to test your skills. 🌟";
@@ -293,15 +293,31 @@
                 else alert(msg);
                 return;
             }
-            const qs = engine.state.mistakes.map(m => ({
-                type: 'type',
-                q: `Review: "${m.definitions?.[0]?.text || m.translation || m.word}"`,
-                item: m,
-                ans: m.word,
-                ruleHint: m.usage_hint || m.collocation || (m.preposition ? `Preposition: ${m.word} ${m.preposition}` : null)
-            }));
 
-            window.beginSession('multi', 'Remediation', 'mixed', 'all', false, qs.slice(0, 10));
+            const targetLang = (filterLang || selectedLang || 'multi').toLowerCase();
+            let mistakes = engine.state.mistakes;
+            if (targetLang !== 'multi' && targetLang !== 'all') {
+                const langFiltered = mistakes.filter(m => (m.lang || '').toLowerCase() === targetLang);
+                if (langFiltered.length > 0) mistakes = langFiltered;
+            }
+
+            const qs = mistakes.map(m => {
+                const formType = m.type || (m.opts ? 'mc' : m.sentence ? 'cloze' : 'type');
+                return {
+                    type: formType,
+                    form: formType,
+                    q: m.q || `Review: "${m.definitions?.[0]?.text || m.translation || m.word || 'Item'}"`,
+                    sentence: m.sentence,
+                    opts: m.opts,
+                    item: m,
+                    ans: m.ans || m.word,
+                    theme: m.theme || 'remediation',
+                    ruleHint: m.ruleHint || m.usage_hint || m.collocation || (m.preposition ? `Preposition: ${m.word} ${m.preposition}` : null),
+                    practice_links: m.practice_links
+                };
+            });
+
+            window.beginSession(targetLang, 'Remediation', 'mixed', 'all', false, qs.slice(0, 10));
         },
 
         startSRSReview(lang) {

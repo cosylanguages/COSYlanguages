@@ -665,20 +665,55 @@
                 showFloatingScoreEffect('0 PTS ❌', false);
             }
 
-            if (!q || !q.item) return;
-            updateItemSRS(q.item, false, this.session?.lang || 'en');
+            if (!q) return;
+            const itemObj = q.item || { word: q.ans || q.q || 'Item', definition: q.q || '' };
+            updateItemSRS(itemObj, false, this.session?.lang || 'en');
             const s = this.state;
-            const exists = s.mistakes.some(m => m.word === q.item.word && m.lang === (this.session?.lang || 'multi'));
-            if (!exists) {
+            const itemKey = itemObj.word || q.q || 'Item';
+            const langKey = this.session?.lang || 'multi';
+            const existing = s.mistakes.find(m => (m.word === itemKey || m.q === q.q) && m.lang === langKey);
+            if (!existing) {
                 s.mistakes.push({
-                    ...q.item,
-                    lang: this.session?.lang || 'multi',
-                    cat: this.session?.cat || 'vocab',
-                    level: this.session?.level || 'all',
-                    theme: this.session?.theme || 'all',
+                    ...itemObj,
+                    q: q.q,
+                    type: q.type || q.form || 'mc',
+                    opts: q.opts,
+                    ans: q.ans,
+                    sentence: q.sentence,
+                    ruleHint: q.ruleHint || itemObj.usage_hint || itemObj.collocation,
+                    practice_links: q.practice_links || itemObj.practice_links,
+                    lang: langKey,
+                    cat: this.session?.cat || q.cat || 'vocab',
+                    level: this.session?.level || q.level || 'all',
+                    theme: this.session?.theme || q.theme || 'all',
+                    consecutiveCorrect: 0,
                     added: Date.now()
                 });
                 if (s.mistakes.length > 50) s.mistakes.shift();
+            } else {
+                existing.consecutiveCorrect = 0;
+            }
+            this.save();
+            this.populateRecentAndMistakes();
+        },
+
+        recordCorrectAnswer(q) {
+            if (!q) return;
+            const itemKey = q.item?.word || q.ans || q.q;
+            const langKey = this.session?.lang || 'multi';
+            const s = this.state;
+            if (!s.mistakes || s.mistakes.length === 0) return;
+
+            const index = s.mistakes.findIndex(m => (m.word === itemKey || m.q === q.q || m.ans === q.ans) && (m.lang === langKey || m.lang === 'multi'));
+            if (index !== -1) {
+                const item = s.mistakes[index];
+                item.consecutiveCorrect = (item.consecutiveCorrect || 0) + 1;
+                if (item.consecutiveCorrect >= 3) {
+                    s.mistakes.splice(index, 1);
+                    if (window.COSY && window.COSY.showToast) {
+                        window.COSY.showToast(`🎉 Mastered weak spot: "${item.word || item.ans || 'Item'}"!`, true);
+                    }
+                }
                 this.save();
                 this.populateRecentAndMistakes();
             }
@@ -1406,6 +1441,7 @@
 
         if (i === ans) {
             engine.awardPoints(10);
+            engine.recordCorrectAnswer(q);
             if (fb) {
                 fb.className = 'pe-feedback show ok';
                 fb.innerHTML = '✅ Correct! +10 pts';
@@ -1453,6 +1489,7 @@
 
         if (val === q.ans) {
             engine.awardPoints(10);
+            engine.recordCorrectAnswer(q);
             if (fb) {
                 fb.className = 'pe-feedback show ok';
                 fb.innerHTML = '✅ Correct! +10 pts';
@@ -1487,6 +1524,7 @@
         inp.disabled = true;
         if (userAnswer === correctAnswer) {
             engine.awardPoints(10);
+            engine.recordCorrectAnswer(q);
             inp.classList.add('correct');
             if (!isReduced) {
                 inp.classList.add('correct-highlight');
@@ -1543,6 +1581,7 @@
 
         if (val.trim().toLowerCase() === q.ans.trim().toLowerCase()) {
             engine.awardPoints(10);
+            engine.recordCorrectAnswer(q);
             if (!isReduced) {
                 assembly.classList.add('correct-highlight');
             }
