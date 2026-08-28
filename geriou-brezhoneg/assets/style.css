@@ -315,3 +315,14 @@ footer.site .container { display: flex; justify-content: space-between; gap: 20p
   .qexplain { display: block !important; }
   .mflip .right-line { display: flex !important; }
 }
+
+/* Per-word example sentence on vocabulary cards */
+.vocab-card .example {
+  font-size: 13px;
+  color: var(--ink-soft);
+  margin-top: 8px;
+  line-height: 1.35;
+  font-style: italic;
+  border-top: 1px dashed var(--line);
+  padding-top: 6px;
+}
