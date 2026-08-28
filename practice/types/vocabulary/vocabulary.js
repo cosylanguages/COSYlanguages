@@ -48,10 +48,23 @@
                 { type:'mc', q:'Are you ___ in modern history and art?', opts:['interested','interesting','interest','interests'], ans:0, level:'elementary', theme:'contrast_pairs', ruleHint:'Use "interested in" for personal interest.' },
                 { type:'mc', q:'She told us an ___ story about her travels.', opts:['interesting','interested','interest','interests'], ans:0, level:'elementary', theme:'contrast_pairs', ruleHint:'Use "interesting" to describe a noun.' },
 
+                // Nouns, Articles & Plurals
+                { type:'mc', q:'I bought ___ apple and a banana.', opts:['an','a','the','some'], ans:0, level:'starter', theme:'articles_gender', ruleHint:'Use "an" before words starting with a vowel sound.' },
+                { type:'mc', q:'We need ___ bread and cheese.', opts:['some','a','an','many'], ans:0, level:'starter', theme:'articles_gender', ruleHint:'Use "some" with uncountable nouns.' },
+                { type:'mc', q:'One child, two ___ .', opts:['children','childs','childes','childrens'], ans:0, level:'starter', theme:'cases_declensions', ruleHint:'Irregular plural: child ➔ children.' },
+
+                // Sentence Syntax & Connectors
+                { type:'mc', q:'We stayed home ___ the heavy rain.', opts:['because of','because','although','despite of'], ans:0, level:'intermediate', theme:'syntax_word_order', ruleHint:'Use "because of" before a noun phrase.' },
+                { type:'mc', q:'___ it was raining, we went for a walk in the park.', opts:['Although','Despite','In spite of','Because of'], ans:0, level:'intermediate', theme:'syntax_word_order', ruleHint:'Use "Although" followed by a full subject + verb clause.' },
+                { type:'mc', q:'She studied hard ___ pass the examination.', opts:['in order to','so that','because','despite'], ans:0, level:'intermediate', theme:'syntax_word_order', ruleHint:'Use "in order to" followed by an infinitive verb.' },
+
                 // Tenses & Conditionals
-                { type:'mc', q:'✓ ?', opts:['She doesn\'t like coffee.','She don\'t like coffee.','She not like coffee.','She isn\'t like coffee.'], ans:0, level:'starter', theme:'Tenses' },
-                { type:'tf', q:'"I have been living here for 3 years" = present perfect continuous', ans:true, level:'intermediate', theme:'Tenses' },
-                { type:'mc', q:'✓ ?', opts:['If I had known, I would have called you.','If I knew, I would call you yesterday.','If I have known, I called you.','If I had knew, I will call you.'], ans:0, level:'upper_intermediate', theme:'Conditionals' }
+                { type:'mc', q:'✓ ?', opts:['She doesn\'t like coffee.','She don\'t like coffee.','She not like coffee.','She isn\'t like coffee.'], ans:0, level:'starter', theme:'tenses_aspect', ruleHint:'Present simple third person singular uses "doesn\'t".' },
+                { type:'mc', q:'I ___ Paris twice in my life.', opts:['have visited','visited','was visiting','had visit'], ans:0, level:'intermediate', theme:'tenses_aspect', ruleHint:'Use Present Perfect for life experience without a specified past time.' },
+                { type:'mc', q:'Yesterday at 8 PM, I ___ dinner when you called.', opts:['was cooking','cooked','have cooked','had cook'], ans:0, level:'intermediate', theme:'tenses_aspect', ruleHint:'Past Continuous describes an ongoing action interrupted by a Past Simple event.' },
+                { type:'tf', q:'"I have been living here for 3 years" = present perfect continuous', ans:true, level:'intermediate', theme:'tenses_aspect' },
+                { type:'mc', q:'✓ ?', opts:['If I had known, I would have called you.','If I knew, I would call you yesterday.','If I have known, I called you.','If I had knew, I will call you.'], ans:0, level:'upper_intermediate', theme:'conditionals_moods', ruleHint:'Third conditional formula: If + Past Perfect, Subject + would have + Past Participle.' },
+                { type:'mc', q:'If I ___ more time, I would learn another language.', opts:['had','have','would have','had had'], ans:0, level:'intermediate', theme:'conditionals_moods', ruleHint:'Second conditional uses Past Simple in the "if" clause for unreal present situations.' }
             ]
         },
         FR: {
@@ -72,9 +85,19 @@
                 { type:'mc', q:'Ce film est vraiment ___ !', opts:['intéressant','intéressé','intéresser','intérêt'], ans:0, level:'elementary', theme:'contrast_pairs', ruleHint:'Utilisez l\'adjectif qualificatif pour décrire une chose.' },
                 { type:'mc', q:'Il est très ___ par la peinture moderne.', opts:['intéressé','intéressant','intéresser','intérêt'], ans:0, level:'elementary', theme:'contrast_pairs', ruleHint:'Utilisez "intéressé par" pour exprimer un sentiment personnel.' },
 
+                // Articles & Partitifs
+                { type:'mc', q:'Je voudrais ___ pain et du fromage.', opts:['du','de la','des','le'], ans:0, level:'starter', theme:'articles_gender', ruleHint:'Utilisez l\'article partitif "du" devant un nom masculin singulier.' },
+                { type:'mc', q:'Il mange ___ eau fraîche.', opts:['de l\'','du','de la','des'], ans:0, level:'starter', theme:'articles_gender', ruleHint:'Devant une voyelle ou un h muet, utilisez "de l\'".' },
+
+                // Syntaxe & Connecteurs
+                { type:'mc', q:'Il est venu ___ la pluie battait son plein.', opts:['bien que','malgré','à cause de','pour'], ans:0, level:'intermediate', theme:'syntax_word_order', ruleHint:'"Bien que" est suivi du subjonctif.' },
+                { type:'mc', q:'Nous sommes sortis ___ la pluie.', opts:['malgré','bien que','parce que','afin que'], ans:0, level:'intermediate', theme:'syntax_word_order', ruleHint:'"Malgré" est suivi directement d\'un groupe nominal.' },
+
                 // Temps & Subjonctif
-                { type:'mc', q:'✓ ?', opts:['Elle n’aime pas le café.','Elle ne aime pas le café.','Elle pas aime le café.','Elle aime pas le café.'], ans:0, level:'starter', theme:'Tenses' },
-                { type:'mc', q:'✓ ?', opts:['Il faut que tu fasses attention.','Il faut que tu fais attention.','Il faut que tu faire attention.','Il faut tu fais attention.'], ans:0, level:'intermediate', theme:'Subjunctive' }
+                { type:'mc', q:'✓ ?', opts:['Elle n’aime pas le café.','Elle ne aime pas le café.','Elle pas aime le café.','Elle aime pas le café.'], ans:0, level:'starter', theme:'tenses_aspect', ruleHint:'La négation entoure le verbe : ne + verbe + pas (avec élision n\').' },
+                { type:'mc', q:'Pendant que je lisais, le téléphone ___ .', opts:['a sonné','sonnait','a sonner','sonne'], ans:0, level:'intermediate', theme:'tenses_aspect', ruleHint:'L\'imparfait décrit une action en cours, interrompue par le passé composé.' },
+                { type:'mc', q:'✓ ?', opts:['Il faut que tu fasses attention.','Il faut que tu fais attention.','Il faut que tu faire attention.','Il faut tu fais attention.'], ans:0, level:'intermediate', theme:'conditionals_moods', ruleHint:'L\'expression "il faut que" nécessite le subjonctif présent.' },
+                { type:'mc', q:'Si j\'avais su, je ___ plus tôt.', opts:['serais venu','venais','viendrai','suis venu'], ans:0, level:'upper_intermediate', theme:'conditionals_moods', ruleHint:'Si + plus-que-parfait est suivi du conditionnel passé.' }
             ]
         },
         IT: {
@@ -94,9 +117,17 @@
                 { type:'mc', q:'Questo libro è molto ___!', opts:['interessante','interessato','interessare','interesse'], ans:0, level:'elementary', theme:'contrast_pairs', ruleHint:'Descrittivo per un oggetto o storia.' },
                 { type:'mc', q:'Sono molto ___ alla tua proposta.', opts:['interessato','interessante','interessare','interesse'], ans:0, level:'elementary', theme:'contrast_pairs', ruleHint:'Esprime uno stato d\'animo personale.' },
 
+                // Articoli & Genere
+                { type:'mc', q:'___ studente è molto intelligente.', opts:['Lo','Il','La','L\''], ans:0, level:'starter', theme:'articles_gender', ruleHint:'Usa "lo" davanti a nomi maschili che iniziano con s + consonante.' },
+                { type:'mc', q:'Vorrei ___ acqua minerale.', opts:['dell\'','del','dello','della'], ans:0, level:'starter', theme:'articles_gender', ruleHint:'Usa "dell\'" per i partitivi femminili che iniziano con vocale.' },
+
+                // Sintassi & Connettori
+                { type:'mc', q:'Siamo usciti ___ la pioggia.', opts:['nonostante','perché','affinché','poiché'], ans:0, level:'intermediate', theme:'syntax_word_order', ruleHint:'"Nonostante" è seguito da un sostantivo.' },
+
                 // Tempi & Congiuntivo
-                { type:'mc', q:'✓ ?', opts:['A lei non piace il caffè.','Lei non piace il caffè.','Lei no piace il caffè.','A lei non piacciono il caffè.'], ans:0, level:'starter', theme:'Tenses' },
-                { type:'mc', q:'✓ ?', opts:['Penso che sia una buona idea.','Penso che è una buona idea.','Penso che sara una buona idea.','Penso che fose una buona idea.'], ans:0, level:'intermediate', theme:'Subjunctive' }
+                { type:'mc', q:'✓ ?', opts:['A lei non piace il caffè.','Lei non piace il caffè.','Lei no piace il caffè.','A lei non piacciono il caffè.'], ans:0, level:'starter', theme:'tenses_aspect', ruleHint:'Il verbo piacere concorda con l\'oggetto (il caffè).' },
+                { type:'mc', q:'Mentre studiavo, Marco ___ a casa.', opts:['è arrivato','arrivava','arriva','era arrivato'], ans:0, level:'intermediate', theme:'tenses_aspect', ruleHint:'L\'imperfetto indica l\'azione continuata, il passato prossimo l\'evento puntuale.' },
+                { type:'mc', q:'✓ ?', opts:['Penso che sia una buona idea.','Penso che è una buona idea.','Penso che sara una buona idea.','Penso che fose una buona idea.'], ans:0, level:'intermediate', theme:'conditionals_moods', ruleHint:'I verbi di opinione (pensare) richiedono il congiuntivo.' }
             ]
         },
         RU: {
@@ -116,9 +147,19 @@
                 { type:'mc', q:'Фильм был очень ___!', opts:['интересный','заинтересованный','интерес','интересно'], ans:0, level:'elementary', theme:'contrast_pairs', ruleHint:'Прилагательное описывает качество предмета.' },
                 { type:'mc', q:'Я очень ___ в успехе проекта.', opts:['заинтересован','интересный','интерес','интересно'], ans:0, level:'elementary', theme:'contrast_pairs', ruleHint:'Краткое причастие описывает состояние человека.' },
 
+                // Падежи & Род
+                { type:'mc', q:'Я даю книгу ___ (друг).', opts:['другу','друга','другом','друге'], ans:0, level:'elementary', theme:'cases_declensions', ruleHint:'Дательный падеж адресата: другу (-у).' },
+                { type:'mc', q:'Мы говорим о ___ (Москва).', opts:['Москве','Москву','Москвой','Москвы'], ans:0, level:'elementary', theme:'cases_declensions', ruleHint:'Предложный падеж объекта речи после предлога "о": о Москве (-е).' },
+
+                // Синтаксис & Союзы
+                { type:'mc', q:'Мы пошли на прогулку, ___ шел дождь.', opts:['хотя','несмотря на','из-за','чтобы'], ans:0, level:'intermediate', theme:'syntax_word_order', ruleHint:'Союз "хотя" связывает придаточное уступительное предложение.' },
+                { type:'mc', q:'Мы остались дома ___ дождя.', opts:['из-за','потому что','хотя','для'], ans:0, level:'intermediate', theme:'syntax_word_order', ruleHint:'Предлог "из-за" используется с существительным в родительном падеже.' },
+
                 // Время & Сослагательное наклонение
-                { type:'mc', q:'✓ ?', opts:['Она не любит кофе.','Она нет любит кофе.','Она не любить кофе.','Она кофе не любит.'], ans:0, level:'starter', theme:'Tenses' },
-                { type:'mc', q:'✓ ?', opts:['Если бы я знал, я бы пришел.','Если я знал, я пришел бы.','Если бы я знаю, я приду.','Если я бы знал, пришел.'], ans:0, level:'intermediate', theme:'Conditionals' }
+                { type:'mc', q:'✓ ?', opts:['Она не любит кофе.','Она нет любит кофе.','Она не любить кофе.','Она кофе не любит.'], ans:0, level:'starter', theme:'tenses_aspect', ruleHint:'Отрицание "не" ставится перед глаголом.' },
+                { type:'mc', q:'Вчера я весь вечер ___ книгу.', opts:['читал','прочитал','прочитаю','буду читать'], ans:0, level:'elementary', theme:'tenses_aspect', ruleHint:'НСВ (читал) обозначает длительный процесс (весь вечер).' },
+                { type:'mc', q:'Я ___ эту статью за один час.', opts:['прочитал','читал','дочитал','прочитаю'], ans:0, level:'elementary', theme:'tenses_aspect', ruleHint:'СВ (прочитал) обозначает завершенный результат за определенное время.' },
+                { type:'mc', q:'✓ ?', opts:['Если бы я знал, я бы пришел.','Если я знал, я пришел бы.','Если бы я знаю, я приду.','Если я бы знал, пришел.'], ans:0, level:'intermediate', theme:'conditionals_moods', ruleHint:'Сослагательное наклонение использует частицу "бы" с глаголом прошедшего времени.' }
             ]
         },
         EL: {
@@ -137,9 +178,15 @@
                 // Αντιθετικά ζεύγη
                 { type:'mc', q:'Αυτό το βιβλίο είναι πολύ ___!', opts:['ενδιαφέρον','ενδιαφερόμενος','ενδιαφέρονται','ενδιαφέροντος'], ans:0, level:'elementary', theme:'contrast_pairs', ruleHint:'Περιγραφή ιδιότητας ενός πράγματος.' },
 
+                // Άρθρα & Πτώσεις
+                { type:'mc', q:'Βλέπω ___ φίλο μου.', opts:['τον','ο','του','το'], ans:0, level:'starter', theme:'cases_declensions', ruleHint:'Αιτιατική πτώση αρσενικού: τον φίλο.' },
+
+                // Σύνταξη & Σύνδεσμοι
+                { type:'mc', q:'Βγήκαμε έξω ___ έβρεχε.', opts:['αν και','εξαιτίας','για να','επειδή'], ans:0, level:'intermediate', theme:'syntax_word_order', ruleHint:'"Αν και" εισάγει εναντιωματική πρόταση.' },
+
                 // Χρόνοι & Υποθετικοί λόγοι
-                { type:'mc', q:'✓ ?', opts:['Δεν της αρέσει ο καφές.','Δεν αρέσει ο καφές αυτής.','Δεν την αρέσει ο καφές.','Δεν της αρέσουν ο καφές.'], ans:0, level:'starter', theme:'Tenses' },
-                { type:'mc', q:'✓ ?', opts:['Αν είχα χρόνο, θα ερχόμουν.','Αν έχω χρόνο, θα ερχόμουν.','Αν είχα χρόνο, θα έρθω.','Αν είχα χρόνο, ερχόμουν.'], ans:0, level:'intermediate', theme:'Conditionals' }
+                { type:'mc', q:'✓ ?', opts:['Δεν της αρέσει ο καφές.','Δεν αρέσει ο καφές αυτής.','Δεν την αρέσει ο καφές.','Δεν της αρέσουν ο καφές.'], ans:0, level:'starter', theme:'tenses_aspect' },
+                { type:'mc', q:'✓ ?', opts:['Αν είχα χρόνο, θα ερχόμουν.','Αν έχω χρόνο, θα ερχόμουν.','Αν είχα χρόνο, θα έρθω.','Αν είχα χρόνο, ερχόμουν.'], ans:0, level:'intermediate', theme:'conditionals_moods', ruleHint:'Υποθετικός λόγος 2ου είδους: Αν + παρατατικός, θα + παρατατικός.' }
             ]
         }
     };
