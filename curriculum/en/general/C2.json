@@ -1,0 +1,41 @@
+{
+  "language": "en",
+  "course_type": "general",
+  "level": "C2",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Unit 1: Stylistic Mastery & Cultural Metaphors",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "gv",
+          "title": "Rhetoric & Sociolinguistic Subtleties",
+          "duration_minutes": 60,
+          "grammar": [
+            "Stylistic subject inversion and sentence cadence",
+            "Register Shifting & Near-Native Information Packaging"
+          ],
+          "vocabulary": [
+            "Erudition",
+            "Innuendo",
+            "Allegory",
+            "Aphorism",
+            "Quintessence",
+            "Hermeneutics",
+            "Intertextuality",
+            "Subvert"
+          ],
+          "practice_types": [
+            "speaking",
+            "listening",
+            "reading",
+            "writing"
+          ],
+          "speaking_percent": 60,
+          "teacher_notes": "code: \"EN-C2-001\"\npronunciation: [{\"point\":\"Near-native prosody & subtle cadence\",\"explain\":\"Deploying unconstrained rhetorical cadence, rhythmic emphasis, and native-level prosody in formal speech.\",\"examples\":[{\"pattern\":\"quintessence\",\"ipa\":\"/kwɪnˈtes.əns/\",\"word\":\"quintessence\"}],\"visual\":\"🗣️\"}]\ncando: \"Can understand and employ the finest nuances of the English language at a native level\""
+        }
+      ]
+    }
+  ]
+}
