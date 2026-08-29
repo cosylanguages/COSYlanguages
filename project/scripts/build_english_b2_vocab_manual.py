@@ -1,0 +1,82 @@
+#!/usr/bin/env python3
+"""
+Generator script for COSYlanguages English Vocabulary Manual (Level B2).
+Generates manuals/en/vocabulary-b2/index.html and assets.
+"""
+
+import os
+
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "manuals/en/vocabulary-b2"))
+os.makedirs(BASE_DIR, exist_ok=True)
+
+INDEX_HTML = """<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>English Vocabulary Manual (Level B2) · COSYlanguages</title>
+<meta name="description" content="Interactive edition of the COSYlanguages Level B2 English Vocabulary Manual: B2 vocabulary decks, formal/informal registers, idioms, and academic vocabulary.">
+<link rel="stylesheet" href="../grammar/b2/assets/style.css">
+</head>
+<body>
+<header class="topbar">
+ <div class="topbar-inner">
+ <a class="brand" href="../../index.html">
+ <span class="brand-mark">cl</span>
+ <span class="brand-name">COSY<em>languages</em> · Vocabulary B2</span>
+ </a>
+ <nav class="topbar-nav">
+ <a href="../../english-b2.html">&larr; Back to Level B2 Hub</a>
+ </nav>
+ </div>
+</header>
+<section class="hero">
+ <div class="container">
+ <span class="hero-kicker">COSYlanguages · Level B2</span>
+ <h1>English Vocabulary Manual · Level B2</h1>
+ <p class="lead">Advanced register nuances, collocations, idiomatic expressions, and academic vocabulary across 20 modules.</p>
+ </div>
+</section>
+<main class="container">
+ <div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid var(--role-verb, #1c8f56); padding:16px; margin-bottom:24px; border-radius:8px;">
+   <strong>🎯 Communicative Outcome:</strong> Articulate complex arguments, business strategy, legal/social issues, and nuanced feelings in professional and academic settings.
+ </div>
+ <div class="topic-grid">
+  <div class="topic-card">
+   <div class="tnum">MODULE 1</div>
+   <div class="ttl">Business & Economics</div>
+   <div class="sub">Market trends, finance, corporate strategy, trade</div>
+  </div>
+  <div class="topic-card">
+   <div class="tnum">MODULE 2</div>
+   <div class="ttl">Politics & Society</div>
+   <div class="sub">Governance, elections, social justice, public policy</div>
+  </div>
+  <div class="topic-card">
+   <div class="tnum">MODULE 3</div>
+   <div class="ttl">Science & Innovation</div>
+   <div class="sub">Biotechnology, artificial intelligence, scientific method</div>
+  </div>
+  <div class="topic-card">
+   <div class="tnum">MODULE 4</div>
+   <div class="ttl">Arts & Culture</div>
+   <div class="sub">Literature, cinema criticism, philosophy, architecture</div>
+  </div>
+ </div>
+</main>
+<footer class="site">
+ <div class="container">
+ <div>COSYlanguages · English Vocabulary Manual, Level B2</div>
+ </div>
+</footer>
+</body>
+</html>
+"""
+
+def build_all():
+    with open(os.path.join(BASE_DIR, "index.html"), "w", encoding="utf-8") as f:
+        f.write(INDEX_HTML)
+    print("Successfully built Level B2 English Vocabulary Manual!")
+
+if __name__ == "__main__":
+    build_all()

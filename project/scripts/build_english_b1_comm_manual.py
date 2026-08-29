@@ -1,0 +1,82 @@
+#!/usr/bin/env python3
+"""
+Generator script for COSYlanguages English Communication Manual (Level B1).
+Generates manuals/en/communication-b1/index.html and assets.
+"""
+
+import os
+
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "manuals/en/communication-b1"))
+os.makedirs(BASE_DIR, exist_ok=True)
+
+INDEX_HTML = """<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>English Communication Manual (Level B1) · COSYlanguages</title>
+<meta name="description" content="Interactive edition of the COSYlanguages Level B1 English Communication Manual: Building Blocks phrase chips, Conversation Maps, and opinion dialogues.">
+<link rel="stylesheet" href="../grammar/b1/assets/style.css">
+</head>
+<body>
+<header class="topbar">
+ <div class="topbar-inner">
+ <a class="brand" href="../../index.html">
+ <span class="brand-mark">cl</span>
+ <span class="brand-name">COSY<em>languages</em> · Communication B1</span>
+ </a>
+ <nav class="topbar-nav">
+ <a href="../../english-b1.html">&larr; Back to Level B1 Hub</a>
+ </nav>
+ </div>
+</header>
+<section class="hero">
+ <div class="container">
+ <span class="hero-kicker">COSYlanguages · Level B1</span>
+ <h1>English Communication Manual · Level B1</h1>
+ <p class="lead">Intermediate discourse strategies: expressing opinions, active listening, polite disagreement, and story mapping across 10 parts.</p>
+ </div>
+</section>
+<main class="container">
+ <div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid var(--role-verb, #1c8f56); padding:16px; margin-bottom:24px; border-radius:8px;">
+   <strong>🎯 Communicative Outcome:</strong> Participate actively in group discussions, state arguments, soften criticism, and tell narrative anecdotes smoothly.
+ </div>
+ <div class="topic-grid">
+  <div class="topic-card">
+   <div class="tnum">PART 1</div>
+   <div class="ttl">Expressing & Justifying Opinions</div>
+   <div class="sub">🧩 Building Blocks: Stating views, giving reasons, checking agreement</div>
+  </div>
+  <div class="topic-card">
+   <div class="tnum">PART 2</div>
+   <div class="ttl">Polite Disagreement & Softening</div>
+   <div class="sub">🗺️ Conversation Map: Validating, introducing counter-point, concluding</div>
+  </div>
+  <div class="topic-card">
+   <div class="tnum">PART 3</div>
+   <div class="ttl">Storytelling & Anecdotes</div>
+   <div class="sub">🗺️ Story Map: Hook ➔ Setting scene ➔ Climax ➔ Resolution</div>
+  </div>
+  <div class="topic-card">
+   <div class="tnum">PART 4</div>
+   <div class="ttl">Workplace Collaboration & Meetings</div>
+   <div class="sub">🧩 Building Blocks: Interrupting politely, clarifying, summarizing</div>
+  </div>
+ </div>
+</main>
+<footer class="site">
+ <div class="container">
+ <div>COSYlanguages · English Communication Manual, Level B1</div>
+ </div>
+</footer>
+</body>
+</html>
+"""
+
+def build_all():
+    with open(os.path.join(BASE_DIR, "index.html"), "w", encoding="utf-8") as f:
+        f.write(INDEX_HTML)
+    print("Successfully built Level B1 English Communication Manual!")
+
+if __name__ == "__main__":
+    build_all()
