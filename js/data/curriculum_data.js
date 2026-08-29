@@ -369,64 +369,8 @@ var CURRICULUM = {
     EXM: { A1: [], A2: [], B1: [], B2: [], C1: [], C2: [] },
   },
   FR: {
-    GEN: {
-      A1: "FROM_DATA",
-      A2: [],
-      B1: [
-        {
-          title: "Opinions & Arguments", subtitle: "Agreeing, disagreeing, justifying",
-          skills: ["speaking", "grammar", "vocab"], desc: "Express and defend opinions clearly. Discourse markers and hedging language.", duration: "60 min", practiceTheme: "Opinions",
-          grammar: [
-            {
-              point: "Subjunctive after opinion verbs", tag: "Subjonctif",
-              explain: "The subjunctive is triggered after verbs expressing doubt, emotion, or subjective judgement. It's a key B1→B2 marker.",
-              rule: "Je pense que + indicatif · Je ne pense pas que + subjonctif",
-              examples: [{ t: "Je pense que c'est vrai.", e: "I think it's true. (indicative)" }, { t: "Je ne pense pas que ce soit vrai.", e: "I don't think it's true. (subjunctive)" }, { t: "Il faut qu'on parle.", e: "We need to talk." }, { t: "Je veux qu'il vienne.", e: "I want him to come." }],
-              tip: "💡 Learn the most common triggers first: il faut que, je veux que, bien que, pour que.",
-              practiceTheme: "Opinions",
-            },
-            {
-              point: "Discourse markers for debate", tag: "Connectors",
-              explain: "These linking phrases are what make spoken French sound structured and natural. They are the backbone of any well-argued opinion.",
-              rule: "D'abord… · Ensuite… · De plus… · En revanche… · En fin de compte…",
-              examples: [{ t: "D'abord, je pense que…", e: "First of all, I think that…" }, { t: "En revanche, il faut admettre que…", e: "On the other hand, we must admit that…" }, { t: "En fin de compte, cela dépend de…", e: "Ultimately, it depends on…" }, { t: "Certes, mais…", e: "Granted, but…" }],
-              tip: "💡 Certes, mais… is a powerful B1/B2 move : it acknowledges the other view before countering it.",
-              practiceTheme: "Opinions",
-            },
-          ],
-          vocab: [
-            {
-              group: "Giving opinions", words: [
-                { w: "À mon avis", phon: "/a.mɔ̃.na.vi/", trans: "In my opinion", key: true },
-                { w: "Il me semble que", phon: "/il.mə.sɑ̃bl.kə/", trans: "It seems to me that", key: true },
-                { w: "Tout à fait", phon: "/tu.ta.fɛ/", trans: "Absolutely / Exactly", key: true },
-                { w: "Pas du tout", phon: "/pa.dy.tu/", trans: "Not at all", key: true },
-                { w: "C'est discutable", phon: "/se.dis.ky.tabl/", trans: "That's debatable", key: false },
-                { w: "Ça dépend", phon: "/sa.de.pɑ̃/", trans: "It depends", key: true },
-                { w: "Je suis convaincu(e) que", phon: "", trans: "I am convinced that", key: false },
-              ]
-            },
-          ],
-        },
-      ],
-      B2: [], C1: [], C2: []
-    },
-    SPK: { A1: [], A2: [], B1: [], B2: [
-      {
-        title: "Podcast Style", subtitle: "Extended fluent monologue",
-        skills: ["speaking", "listening"], desc: "Talk about a topic for 5 minutes without stopping. Your teacher only asks follow-up questions.", duration: "30 min", practiceTheme: "Conversation",
-        grammar: [],
-        vocab: [{
-          group: "Filler & thinking phrases", words: [
-            { w: "Ça me fait penser à…", phon: "", trans: "That makes me think of…", key: true },
-            { w: "Je dirais que…", phon: "", trans: "I would say that…", key: true },
-            { w: "Dans une certaine mesure", phon: "", trans: "To a certain extent", key: false },
-            { w: "En quelque sorte…", phon: "", trans: "In a way…", key: false },
-            { w: "Il va sans dire que…", phon: "", trans: "It goes without saying that…", key: true },
-          ]
-        }],
-      },
-    ], C1: [], C2: [] },
+    GEN: { A1: "FROM_DATA", A2: [], B1: "FROM_DATA", B2: [], C1: [], C2: [] },
+    SPK: { A1: [], A2: [], B1: [], B2: "FROM_DATA", C1: [], C2: [] },
     EXM: { A1: [], A2: [], B1: [], B2: [], C1: [], C2: [] },
   },
   IT: {

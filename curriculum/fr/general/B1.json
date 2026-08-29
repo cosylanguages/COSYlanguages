@@ -22,6 +22,26 @@
           "teacher_notes": "code: \"FR-B1-002\"\ncando: \"Peut structurer un raisonnement logique simple\""
         }
       ]
+    },
+    {
+      "unit": 2,
+      "title": "Unité 2 : Modulateurs de discours et débat d'idées",
+      "lessons": [
+        {
+          "lesson": 1,
+          "title": "Le subjonctif d'opinion et de doute",
+          "grammar": ["Je pense que + indicatif", "Je ne pense pas que + subjonctif", "Il me semble que"],
+          "vocabulary": ["À mon avis", "Il me semble que", "Tout à fait", "Pas du tout", "C'est discutable", "Ça dépend", "Je suis convaincu(e) que"],
+          "teacher_notes": "code: \"FR-B1-003\"\ncando: \"Peut exprimer la certitude et le doute avec le subjonctif et l'indicatif\""
+        },
+        {
+          "lesson": 2,
+          "title": "Les connecteurs logiques de l'argumentation",
+          "grammar": ["D'abord / Ensuite / De plus", "En revanche / Certes, mais...", "En fin de compte"],
+          "vocabulary": ["Soutenir", "Réfuter", "Admettre", "Contester", "Nuancer"],
+          "teacher_notes": "code: \"FR-B1-004\"\ncando: \"Peut structurer un monologue ou un débat fluide à l'aide de connecteurs de discours\""
+        }
+      ]
     }
   ]
 }
