@@ -1,0 +1,112 @@
+{
+  "language": "en",
+  "course_type": "general",
+  "level": "A2",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Unit 1: Personal Life, Upbringing & Past Events",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "gv",
+          "title": "Past Simple vs Past Continuous",
+          "duration_minutes": 60,
+          "grammar": [
+            "Past Simple for completed past actions and main storyline events",
+            "Past Continuous for background actions in progress (was/were + -ing)",
+            "Interrupted actions using when and while"
+          ],
+          "vocabulary": [
+            "Yesterday",
+            "Last year",
+            "Suddenly",
+            "While",
+            "Meanwhile",
+            "Memorable",
+            "Upbringing",
+            "Milestone",
+            "Grow up",
+            "Relocate"
+          ],
+          "practice_types": [
+            "speaking",
+            "listening",
+            "reading",
+            "writing"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "code: \"EN-A2-001\"\npronunciation: [{\"point\":\"Past simple -ed endings\",\"explain\":\"Distinguish between /t/, /d/, and /ɪd/ endings for regular past tense verbs.\",\"examples\":[{\"pattern\":\"worked / played / started\",\"ipa\":\"/wɜːkt/ / /pleɪd/ / /ˈstɑː.tɪd/\",\"word\":\"started\"}],\"visual\":\"🗣️\"}]\ncando: \"Can narrate a simple past event and describe background actions using when and while\""
+        },
+        {
+          "lesson": 2,
+          "type": "gv",
+          "title": "Past Habits & Life Experiences (Used to & Present Perfect)",
+          "duration_minutes": 60,
+          "grammar": [
+            "Used to + infinitive for past habits and states no longer true",
+            "Present Perfect with ever and never for life experiences",
+            "Contrast between Past Simple (finished time) and Present Perfect (unfinished time)"
+          ],
+          "vocabulary": [
+            "In the past",
+            "Nowadays",
+            "Ever",
+            "Never",
+            "Childhood",
+            "Acquaintance",
+            "Adapt",
+            "Graduate",
+            "Reliable",
+            "Stubborn"
+          ],
+          "practice_types": [
+            "speaking",
+            "listening",
+            "reading",
+            "writing"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "code: \"EN-A2-002\"\npronunciation: [{\"point\":\"The used to liaison\",\"explain\":\"The final d in used and initial t in to blend into a single /tuː/ sound.\",\"examples\":[{\"pattern\":\"used to\",\"ipa\":\"/ˈjuːs.tə/\",\"word\":\"used to\"}],\"visual\":\"🔗\"}]\ncando: \"Can describe past habits and talk about general life experiences\""
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Unit 2: Expressing Future Plans, Intentions & Arrangements",
+      "lessons": [
+        {
+          "lesson": 3,
+          "type": "gv",
+          "title": "Future Tenses Contrast (Will vs Be Going To vs Present Continuous)",
+          "duration_minutes": 60,
+          "grammar": [
+            "Be going to + infinitive for intentions and prior plans",
+            "Present Continuous for fixed arrangements with a specific time or place",
+            "Will + infinitive for spontaneous decisions, promises, and predictions"
+          ],
+          "vocabulary": [
+            "Tomorrow",
+            "Next week",
+            "Soon",
+            "Intention",
+            "Arrangement",
+            "Schedule",
+            "Prediction",
+            "Ambition",
+            "Career",
+            "Punctual"
+          ],
+          "practice_types": [
+            "speaking",
+            "listening",
+            "reading",
+            "writing"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "code: \"EN-A2-003\"\npronunciation: [{\"point\":\"Weak form of going to (gonna)\",\"explain\":\"In casual speech, going to often reduces to /ˈɡən.ə/.\",\"examples\":[{\"pattern\":\"going to\",\"ipa\":\"/ˈɡən.ə/\",\"word\":\"gonna\"}],\"visual\":\"🗣️\"}]\ncando: \"Can talk about future plans, arrangements, and spontaneous decisions\""
+        }
+      ]
+    }
+  ]
+}
