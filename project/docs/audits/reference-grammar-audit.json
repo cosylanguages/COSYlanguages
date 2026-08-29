@@ -14,7 +14,7 @@
       "group_id": "definite_article",
       "label": "Οριστικό άρθρο",
       "practice_links": [
-        "grammar/el-articles.html"
+        "manuals/en/grammar/a1/el-articles.html"
       ]
     },
     {
@@ -22,7 +22,7 @@
       "group_id": "personal_pronouns",
       "label": "Προσωπικές αντωνυμίες",
       "practice_links": [
-        "grammar/el-pronouns.html"
+        "manuals/en/grammar/a1/el-pronouns.html"
       ]
     },
     {
@@ -30,7 +30,7 @@
       "group_id": "eimai",
       "label": "Ρήμα ΕΙΜΑΙ",
       "practice_links": [
-        "grammar/el-be.html"
+        "manuals/en/grammar/a1/el-be.html"
       ]
     }
   ],
@@ -40,7 +40,7 @@
       "group_id": "adjectives",
       "label": "Adjectives",
       "practice_links": [
-        "grammar/topics/adjectives.html"
+        "manuals/en/grammar/a1/topics/adjectives.html"
       ]
     },
     {
@@ -48,7 +48,7 @@
       "group_id": "comparative_adjectives",
       "label": "Comparative Adjectives",
       "practice_links": [
-        "grammar/topics/comparative-adjectives.html"
+        "manuals/en/grammar/a1/topics/comparative-adjectives.html"
       ]
     },
     {
@@ -56,7 +56,7 @@
       "group_id": "superlative_adjectives",
       "label": "Superlative Adjectives",
       "practice_links": [
-        "grammar/topics/superlative-adjectives.html"
+        "manuals/en/grammar/a1/topics/superlative-adjectives.html"
       ]
     },
     {
@@ -64,7 +64,7 @@
       "group_id": "articles",
       "label": "Articles — A, AN, THE",
       "practice_links": [
-        "grammar/topics/articles.html"
+        "manuals/en/grammar/a1/topics/articles.html"
       ]
     },
     {
@@ -72,7 +72,7 @@
       "group_id": "plurals",
       "label": "Nouns & Plurals",
       "practice_links": [
-        "grammar/en-plurals.html"
+        "manuals/en/grammar/a1/en-plurals.html"
       ]
     },
     {
@@ -80,7 +80,7 @@
       "group_id": "plurals_regular",
       "label": "Plural Nouns — Regular Forms",
       "practice_links": [
-        "grammar/topics/plurals-regular.html"
+        "manuals/en/grammar/a1/topics/plurals-regular.html"
       ]
     },
     {
@@ -88,7 +88,7 @@
       "group_id": "plurals_irregular",
       "label": "Plural Nouns — Irregular Forms",
       "practice_links": [
-        "grammar/topics/plurals-irregular.html"
+        "manuals/en/grammar/a1/topics/plurals-irregular.html"
       ]
     },
     {
@@ -96,7 +96,7 @@
       "group_id": "countable_uncountable",
       "label": "Countable & Uncountable Nouns",
       "practice_links": [
-        "grammar/topics/countable-uncountable.html"
+        "manuals/en/grammar/a1/topics/countable-uncountable.html"
       ]
     },
     {
@@ -104,7 +104,7 @@
       "group_id": "possessive_s",
       "label": "Possessive ’s",
       "practice_links": [
-        "grammar/topics/possessive-s.html"
+        "manuals/en/grammar/a1/topics/possessive-s.html"
       ]
     },
     {
@@ -112,7 +112,7 @@
       "group_id": "numbers_dates",
       "label": "Numbers, Days & Months",
       "practice_links": [
-        "grammar/topics/numbers-dates.html"
+        "manuals/en/grammar/a1/topics/numbers-dates.html"
       ]
     },
     {
@@ -120,7 +120,7 @@
       "group_id": "telling_time",
       "label": "Telling the Time",
       "practice_links": [
-        "grammar/topics/telling-time.html"
+        "manuals/en/grammar/a1/topics/telling-time.html"
       ]
     },
     {
@@ -128,7 +128,7 @@
       "group_id": "personal_pronouns",
       "label": "Personal Pronouns",
       "practice_links": [
-        "grammar/topics/pronouns.html"
+        "manuals/en/grammar/a1/topics/pronouns.html"
       ]
     },
     {
@@ -136,7 +136,7 @@
       "group_id": "possessive_adjectives",
       "label": "Possessive Adjectives",
       "practice_links": [
-        "grammar/en-possessives.html"
+        "manuals/en/grammar/a1/en-possessives.html"
       ]
     },
     {
@@ -144,7 +144,7 @@
       "group_id": "demonstratives",
       "label": "Demonstratives (This, That, These, Those)",
       "practice_links": [
-        "grammar/topics/demonstratives.html"
+        "manuals/en/grammar/a1/topics/demonstratives.html"
       ]
     },
     {
@@ -152,7 +152,7 @@
       "group_id": "some_vs_any",
       "label": "Some vs Any",
       "practice_links": [
-        "grammar/topics/some-vs-any.html"
+        "manuals/en/grammar/a1/topics/some-vs-any.html"
       ]
     },
     {
@@ -160,7 +160,7 @@
       "group_id": "all_both_none",
       "label": "All, Both, Either, Neither, None",
       "practice_links": [
-        "grammar/topics/all-both-none.html"
+        "manuals/en/grammar/a1/topics/all-both-none.html"
       ]
     },
     {
@@ -168,7 +168,7 @@
       "group_id": "be_present_simple",
       "label": "Verb TO BE — Present Simple",
       "practice_links": [
-        "grammar/topics/to-be.html"
+        "manuals/en/grammar/a1/topics/to-be.html"
       ]
     },
     {
@@ -176,7 +176,7 @@
       "group_id": "present_simple",
       "label": "Present Simple",
       "practice_links": [
-        "grammar/topics/present-simple.html"
+        "manuals/en/grammar/a1/topics/present-simple.html"
       ]
     },
     {
@@ -184,7 +184,7 @@
       "group_id": "past_simple",
       "label": "Past Simple",
       "practice_links": [
-        "grammar/en-past-simple.html"
+        "manuals/en/grammar/a1/en-past-simple.html"
       ]
     },
     {
@@ -192,7 +192,7 @@
       "group_id": "future_going_to",
       "label": "Future: Going to",
       "practice_links": [
-        "grammar/topics/going-to.html"
+        "manuals/en/grammar/a1/topics/going-to.html"
       ]
     },
     {
@@ -200,7 +200,7 @@
       "group_id": "past_simple_be",
       "label": "Past Simple of 'To Be'",
       "practice_links": [
-        "grammar/topics/past-simple-be.html"
+        "manuals/en/grammar/a1/topics/past-simple-be.html"
       ]
     },
     {
@@ -208,7 +208,7 @@
       "group_id": "past_simple_regular",
       "label": "Past Simple — Regular Verbs",
       "practice_links": [
-        "grammar/topics/past-simple-regular.html"
+        "manuals/en/grammar/a1/topics/past-simple-regular.html"
       ]
     },
     {
@@ -216,7 +216,7 @@
       "group_id": "past_simple_irregular",
       "label": "Past Simple — Irregular Verbs",
       "practice_links": [
-        "grammar/topics/past-simple-irregular.html"
+        "manuals/en/grammar/a1/topics/past-simple-irregular.html"
       ]
     },
     {
@@ -224,7 +224,7 @@
       "group_id": "present_continuous",
       "label": "Present Continuous",
       "practice_links": [
-        "grammar/topics/present-continuous.html"
+        "manuals/en/grammar/a1/topics/present-continuous.html"
       ]
     },
     {
@@ -232,7 +232,7 @@
       "group_id": "have_got",
       "label": "Have Got",
       "practice_links": [
-        "grammar/topics/have-got.html"
+        "manuals/en/grammar/a1/topics/have-got.html"
       ]
     },
     {
@@ -240,7 +240,7 @@
       "group_id": "can_cant",
       "label": "Can / Can't",
       "practice_links": [
-        "grammar/topics/can-cant.html"
+        "manuals/en/grammar/a1/topics/can-cant.html"
       ]
     },
     {
@@ -248,7 +248,7 @@
       "group_id": "could_couldnt",
       "label": "Could / Couldn't",
       "practice_links": [
-        "grammar/topics/could-couldnt.html"
+        "manuals/en/grammar/a1/topics/could-couldnt.html"
       ]
     },
     {
@@ -256,7 +256,7 @@
       "group_id": "will",
       "label": "Will (Future)",
       "practice_links": [
-        "grammar/topics/will.html"
+        "manuals/en/grammar/a1/topics/will.html"
       ]
     },
     {
@@ -264,7 +264,7 @@
       "group_id": "irregular_verbs",
       "label": "Irregular Verbs Reference",
       "practice_links": [
-        "grammar/topics/irregular-verbs.html"
+        "manuals/en/grammar/a1/topics/irregular-verbs.html"
       ]
     },
     {
@@ -272,7 +272,7 @@
       "group_id": "imperatives",
       "label": "Imperatives",
       "practice_links": [
-        "grammar/topics/imperatives.html"
+        "manuals/en/grammar/a1/topics/imperatives.html"
       ]
     },
     {
@@ -280,7 +280,7 @@
       "group_id": "like_love_hate",
       "label": "Like / Love / Hate + -ing",
       "practice_links": [
-        "grammar/topics/like-love-hate.html"
+        "manuals/en/grammar/a1/topics/like-love-hate.html"
       ]
     },
     {
@@ -288,7 +288,7 @@
       "group_id": "word_order_svo",
       "label": "Basic Word Order (SVO)",
       "practice_links": [
-        "grammar/topics/word-order.html"
+        "manuals/en/grammar/a1/topics/word-order.html"
       ]
     },
     {
@@ -296,7 +296,7 @@
       "group_id": "there_is_are",
       "label": "There is / There are",
       "practice_links": [
-        "grammar/topics/there-is-are.html"
+        "manuals/en/grammar/a1/topics/there-is-are.html"
       ]
     }
   ],
@@ -614,7 +614,7 @@
       "group_id": "articoli_determinativi",
       "label": "Gli Articoli Determinativi",
       "practice_links": [
-        "grammar/it-articoli.html"
+        "manuals/en/grammar/a1/it-articoli.html"
       ]
     },
     {
@@ -622,7 +622,7 @@
       "group_id": "plurali",
       "label": "I Plurali",
       "practice_links": [
-        "grammar/it-plurali.html"
+        "manuals/en/grammar/a1/it-plurali.html"
       ]
     },
     {
@@ -630,7 +630,7 @@
       "group_id": "pronomi_soggetto",
       "label": "I Pronomi Soggetto",
       "practice_links": [
-        "grammar/it-pronomi.html"
+        "manuals/en/grammar/a1/it-pronomi.html"
       ]
     },
     {
@@ -638,7 +638,7 @@
       "group_id": "essere",
       "label": "Verbo ESSERE",
       "practice_links": [
-        "grammar/it-essere-1.html"
+        "manuals/en/grammar/a1/it-essere-1.html"
       ]
     },
     {
@@ -646,7 +646,7 @@
       "group_id": "avere",
       "label": "Verbo AVERE",
       "practice_links": [
-        "grammar/it-avere.html"
+        "manuals/en/grammar/a1/it-avere.html"
       ]
     }
   ],
@@ -664,7 +664,7 @@
       "group_id": "gender",
       "label": "Род существительных",
       "practice_links": [
-        "grammar/ru-nouns-gender.html"
+        "manuals/en/grammar/a1/ru-nouns-gender.html"
       ]
     },
     {
@@ -672,7 +672,7 @@
       "group_id": "personal_pronouns",
       "label": "Личные местоимения",
       "practice_links": [
-        "grammar/ru-pronouns.html"
+        "manuals/en/grammar/a1/ru-pronouns.html"
       ]
     },
     {
@@ -680,7 +680,7 @@
       "group_id": "be_present",
       "label": "Глагол БЫТЬ (Настоящее время)",
       "practice_links": [
-        "grammar/ru-be.html"
+        "manuals/en/grammar/a1/ru-be.html"
       ]
     }
   ],

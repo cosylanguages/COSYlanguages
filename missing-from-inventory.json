@@ -5,7 +5,7 @@
       "group_id": "countable_uncountable",
       "label": "Countable & Uncountable Nouns",
       "practice_links": [
-        "grammar/topics/countable-uncountable.html"
+        "manuals/en/grammar/a1/topics/countable-uncountable.html"
       ]
     },
     {
@@ -13,7 +13,7 @@
       "group_id": "possessive_s",
       "label": "Possessive ’s",
       "practice_links": [
-        "grammar/topics/possessive-s.html"
+        "manuals/en/grammar/a1/topics/possessive-s.html"
       ]
     },
     {
@@ -31,7 +31,7 @@
       "group_id": "numbers_dates",
       "label": "Numbers, Days & Months",
       "practice_links": [
-        "grammar/topics/numbers-dates.html"
+        "manuals/en/grammar/a1/topics/numbers-dates.html"
       ]
     },
     {
@@ -39,7 +39,7 @@
       "group_id": "telling_time",
       "label": "Telling the Time",
       "practice_links": [
-        "grammar/topics/telling-time.html"
+        "manuals/en/grammar/a1/topics/telling-time.html"
       ]
     },
     {
@@ -57,7 +57,7 @@
       "group_id": "some_vs_any",
       "label": "Some vs Any",
       "practice_links": [
-        "grammar/topics/some-vs-any.html"
+        "manuals/en/grammar/a1/topics/some-vs-any.html"
       ]
     },
     {
@@ -65,7 +65,7 @@
       "group_id": "all_both_none",
       "label": "All, Both, Either, Neither, None",
       "practice_links": [
-        "grammar/topics/all-both-none.html"
+        "manuals/en/grammar/a1/topics/all-both-none.html"
       ]
     },
     {
@@ -99,7 +99,7 @@
       "group_id": "present_simple",
       "label": "Present Simple",
       "practice_links": [
-        "grammar/topics/present-simple.html"
+        "manuals/en/grammar/a1/topics/present-simple.html"
       ]
     },
     {
@@ -107,7 +107,7 @@
       "group_id": "past_simple",
       "label": "Past Simple",
       "practice_links": [
-        "grammar/en-past-simple.html"
+        "manuals/en/grammar/a1/en-past-simple.html"
       ]
     },
     {
@@ -115,7 +115,7 @@
       "group_id": "past_simple_be",
       "label": "Past Simple of 'To Be'",
       "practice_links": [
-        "grammar/topics/past-simple-be.html"
+        "manuals/en/grammar/a1/topics/past-simple-be.html"
       ]
     },
     {
@@ -123,7 +123,7 @@
       "group_id": "past_simple_regular",
       "label": "Past Simple — Regular Verbs",
       "practice_links": [
-        "grammar/topics/past-simple-regular.html"
+        "manuals/en/grammar/a1/topics/past-simple-regular.html"
       ]
     },
     {
@@ -131,7 +131,7 @@
       "group_id": "past_simple_irregular",
       "label": "Past Simple — Irregular Verbs",
       "practice_links": [
-        "grammar/topics/past-simple-irregular.html"
+        "manuals/en/grammar/a1/topics/past-simple-irregular.html"
       ]
     },
     {
@@ -139,7 +139,7 @@
       "group_id": "can_cant",
       "label": "Can / Can't",
       "practice_links": [
-        "grammar/topics/can-cant.html"
+        "manuals/en/grammar/a1/topics/can-cant.html"
       ]
     },
     {
@@ -147,7 +147,7 @@
       "group_id": "could_couldnt",
       "label": "Could / Couldn't",
       "practice_links": [
-        "grammar/topics/could-couldnt.html"
+        "manuals/en/grammar/a1/topics/could-couldnt.html"
       ]
     },
     {
@@ -155,7 +155,7 @@
       "group_id": "will",
       "label": "Will (Future)",
       "practice_links": [
-        "grammar/topics/will.html"
+        "manuals/en/grammar/a1/topics/will.html"
       ]
     },
     {
@@ -163,7 +163,7 @@
       "group_id": "irregular_verbs",
       "label": "Irregular Verbs Reference",
       "practice_links": [
-        "grammar/topics/irregular-verbs.html"
+        "manuals/en/grammar/a1/topics/irregular-verbs.html"
       ]
     },
     {
@@ -171,7 +171,7 @@
       "group_id": "imperatives",
       "label": "Imperatives",
       "practice_links": [
-        "grammar/topics/imperatives.html"
+        "manuals/en/grammar/a1/topics/imperatives.html"
       ]
     },
     {
@@ -179,7 +179,7 @@
       "group_id": "like_love_hate",
       "label": "Like / Love / Hate + -ing",
       "practice_links": [
-        "grammar/topics/like-love-hate.html"
+        "manuals/en/grammar/a1/topics/like-love-hate.html"
       ]
     },
     {
@@ -309,7 +309,7 @@
       "group_id": "there_is_are",
       "label": "There is / There are",
       "practice_links": [
-        "grammar/topics/there-is-are.html"
+        "manuals/en/grammar/a1/topics/there-is-are.html"
       ]
     }
   ],

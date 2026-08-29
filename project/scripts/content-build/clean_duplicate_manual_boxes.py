@@ -12,7 +12,7 @@ GENERIC_BOXES = [
 ]
 
 DIRS = [
-    'grammar/topics',
+    'manuals/en/grammar/a1/topics',
     'grammaire-francaise/topics',
     'grammatika-russkogo-yazyka/topics',
     'grammatica-italiana/topics',

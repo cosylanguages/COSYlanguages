@@ -23,7 +23,7 @@
         }
       ],
       "practice_links": [
-        "grammar/topics/pronouns.html"
+        "manuals/en/grammar/a1/topics/pronouns.html"
       ],
       "definition": "Subject, object, possessive adjective & possessive pronoun"
     },
@@ -46,7 +46,7 @@
         }
       ],
       "practice_links": [
-        "grammar/en-possessives.html"
+        "manuals/en/grammar/a1/en-possessives.html"
       ],
       "definition": "TBD"
     },
@@ -60,7 +60,7 @@
           "level": "A1",
           "definition": "Demonstratives · talking about distance",
           "practice_links": [
-            "grammar/topics/demonstratives.html"
+            "manuals/en/grammar/a1/topics/demonstratives.html"
           ]
         }
       ]
@@ -75,7 +75,7 @@
           "level": "A1",
           "definition": "Choosing the right word by sentence type",
           "practice_links": [
-            "grammar/topics/some-vs-any.html"
+            "manuals/en/grammar/a1/topics/some-vs-any.html"
           ]
         }
       ]
@@ -90,7 +90,7 @@
           "level": "A2",
           "definition": "Talking about a whole group, or exactly two things",
           "practice_links": [
-            "grammar/topics/all-both-none.html"
+            "manuals/en/grammar/a1/topics/all-both-none.html"
           ]
         }
       ]

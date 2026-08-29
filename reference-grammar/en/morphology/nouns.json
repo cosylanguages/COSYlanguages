@@ -25,7 +25,7 @@
         }
       ],
       "practice_links": [
-        "grammar/en-plurals.html"
+        "manuals/en/grammar/a1/en-plurals.html"
       ]
     },
     {
@@ -38,7 +38,7 @@
           "level": "A1",
           "definition": "Spelling rules for adding -s / -es",
           "practice_links": [
-            "grammar/topics/plurals-regular.html"
+            "manuals/en/grammar/a1/topics/plurals-regular.html"
           ]
         }
       ]
@@ -53,7 +53,7 @@
           "level": "A1",
           "definition": "Words that don't just add -s",
           "practice_links": [
-            "grammar/topics/plurals-irregular.html"
+            "manuals/en/grammar/a1/topics/plurals-irregular.html"
           ]
         }
       ]
@@ -68,7 +68,7 @@
           "level": "A1",
           "definition": "Things you can count and things you can't",
           "practice_links": [
-            "grammar/topics/countable-uncountable.html"
+            "manuals/en/grammar/a1/topics/countable-uncountable.html"
           ]
         }
       ]
@@ -83,7 +83,7 @@
           "level": "A1",
           "definition": "Showing who owns what",
           "practice_links": [
-            "grammar/topics/possessive-s.html"
+            "manuals/en/grammar/a1/topics/possessive-s.html"
           ]
         }
       ]

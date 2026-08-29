@@ -25,7 +25,7 @@
         }
       ],
       "practice_links": [
-        "grammar/topics/to-be.html"
+        "manuals/en/grammar/a1/topics/to-be.html"
       ]
     },
     {
@@ -55,7 +55,7 @@
         }
       ],
       "practice_links": [
-        "grammar/topics/present-simple.html"
+        "manuals/en/grammar/a1/topics/present-simple.html"
       ]
     },
     {
@@ -80,7 +80,7 @@
         }
       ],
       "practice_links": [
-        "grammar/en-past-simple.html"
+        "manuals/en/grammar/a1/en-past-simple.html"
       ]
     },
     {
@@ -104,7 +104,7 @@
         }
       ],
       "practice_links": [
-        "grammar/topics/going-to.html"
+        "manuals/en/grammar/a1/topics/going-to.html"
       ]
     },
     {
@@ -117,7 +117,7 @@
           "level": "A1",
           "definition": "Was & were",
           "practice_links": [
-            "grammar/topics/past-simple-be.html"
+            "manuals/en/grammar/a1/topics/past-simple-be.html"
           ]
         }
       ]
@@ -132,7 +132,7 @@
           "level": "A1",
           "definition": "Spelling rules for the -ed ending",
           "practice_links": [
-            "grammar/topics/past-simple-regular.html"
+            "manuals/en/grammar/a1/topics/past-simple-regular.html"
           ]
         }
       ]
@@ -147,7 +147,7 @@
           "level": "A1",
           "definition": "Verbs that don't follow the -ed rule",
           "practice_links": [
-            "grammar/topics/past-simple-irregular.html"
+            "manuals/en/grammar/a1/topics/past-simple-irregular.html"
           ]
         }
       ]
@@ -162,7 +162,7 @@
           "level": "A1",
           "definition": "Actions happening now",
           "practice_links": [
-            "grammar/topics/present-continuous.html"
+            "manuals/en/grammar/a1/topics/present-continuous.html"
           ]
         }
       ]
@@ -177,7 +177,7 @@
           "level": "A1",
           "definition": "Talking about possession",
           "practice_links": [
-            "grammar/topics/have-got.html"
+            "manuals/en/grammar/a1/topics/have-got.html"
           ]
         }
       ]
@@ -192,7 +192,7 @@
           "level": "A1",
           "definition": "Ability, permission & possibility",
           "practice_links": [
-            "grammar/topics/can-cant.html"
+            "manuals/en/grammar/a1/topics/can-cant.html"
           ]
         }
       ]
@@ -207,7 +207,7 @@
           "level": "A2",
           "definition": "Past ability & polite requests",
           "practice_links": [
-            "grammar/topics/could-couldnt.html"
+            "manuals/en/grammar/a1/topics/could-couldnt.html"
           ]
         }
       ]
@@ -222,7 +222,7 @@
           "level": "A2",
           "definition": "Future predictions, promises & offers",
           "practice_links": [
-            "grammar/topics/will.html"
+            "manuals/en/grammar/a1/topics/will.html"
           ]
         }
       ]
@@ -237,7 +237,7 @@
           "level": "A1-A2",
           "definition": "Base form → past simple, grouped by pattern",
           "practice_links": [
-            "grammar/topics/irregular-verbs.html"
+            "manuals/en/grammar/a1/topics/irregular-verbs.html"
           ]
         }
       ]
@@ -252,7 +252,7 @@
           "level": "A1",
           "definition": "Instructions, rules & directions",
           "practice_links": [
-            "grammar/topics/imperatives.html"
+            "manuals/en/grammar/a1/topics/imperatives.html"
           ]
         }
       ]
@@ -267,7 +267,7 @@
           "level": "A1",
           "definition": "Talking about preferences",
           "practice_links": [
-            "grammar/topics/like-love-hate.html"
+            "manuals/en/grammar/a1/topics/like-love-hate.html"
           ]
         }
       ]

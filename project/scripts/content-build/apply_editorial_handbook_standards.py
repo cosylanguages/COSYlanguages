@@ -5,7 +5,7 @@ import re
 
 MANUAL_CONFIGS = {
     'en': {
-        'dir': 'grammar/topics',
+        'dir': 'manuals/en/grammar/a1/topics',
         'outcome_title': '🎯 What you can communicate after this page:',
         'outcome_default': 'You can build clear, accurate sentences and communicate confidently in everyday situations.',
         'notice_title': '👀 What do you notice?',

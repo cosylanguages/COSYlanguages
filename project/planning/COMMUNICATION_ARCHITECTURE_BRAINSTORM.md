@@ -57,7 +57,7 @@ Rather than treating them as isolated chapters, three essential dimensions cut h
 A critical distinction must be maintained between Book 2 Part 14 and Book 3:
 
 * **`vocabulary-manual/part-14.html` (Social English & Set Phrases):** Serves as the **phrase reference dictionary**. It catalogs thematic vocabulary lists of set phrases (greetings, politeness expressions, emergency phrases) as static lexical assets.
-* **`communication-manual/` (Book 3):** Serves as the **interactive conversational architecture**. It teaches learners *how* to deploy those phrases dynamically, how to combine them with grammar, how to manage turn-taking flow, how to handle unexpected responses, and how to repair broken dialogue in real time.
+* **`manuals/en/communication/` (Book 3):** Serves as the **interactive conversational architecture**. It teaches learners *how* to deploy those phrases dynamically, how to combine them with grammar, how to manage turn-taking flow, how to handle unexpected responses, and how to repair broken dialogue in real time.
 
 ---
 
@@ -65,5 +65,5 @@ A critical distinction must be maintained between Book 2 Part 14 and Book 3:
 
 1. **Schema & Standard Consolidation:** Maintain `communication/_schema/communication.schema.json` and `communication/COMMUNICATION_STANDARD.md` to enforce systemic visual and structural rules.
 2. **Template Standardization:** Align `templates/communication/index-template.html` and `unit-template.html` with canonical roadmap standards.
-3. **Interactive Hub & Units:** Ensure `communication-manual/index.html` and its 11 unit files (`part-0.html` through `part-10.html`) strictly embody the 10 Communication Systems and cross-cutting layers.
+3. **Interactive Hub & Units:** Ensure `manuals/en/communication/index.html` and its 11 unit files (`part-0.html` through `part-10.html`) strictly embody the 10 Communication Systems and cross-cutting layers.
 4. **Language Hub Activation:** Maintain active Book 3 integration across all 14 language hubs in `manuals/*-a0-a1.html`.
