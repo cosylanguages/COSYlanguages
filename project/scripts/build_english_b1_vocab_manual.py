@@ -317,50 +317,50 @@ PARTS = [
     {
         "id": "part-2",
         "file": "part-2.html",
-        "slug": "media-news-and-communication-technology",
-        "title": "Part 2 · Media, News & Communication Technology",
+        "slug": "personality-psychology-and-emotions",
+        "title": "Part 2 · Personality, Psychology & Emotions",
         "short_title": "Part 2",
-        "subtitle": "News vocabulary, social media, smartphones, apps, viral trends, and online safety.",
-        "eyebrow": "PET Topic: Tech & Media",
+        "subtitle": "Character nuances, temperament, emotional wellbeing, burnout resilience, and growth mindset.",
+        "eyebrow": "PET Topic: Personality & Feelings",
         "stripe": "#1c8f56",
-        "topic_title": "Media, News & Communication Technology",
+        "topic_title": "Personality, Psychology & Emotions",
         "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
-  <strong>🎯 What you can communicate after this page:</strong> You can discuss digital media, social networks, online privacy, and viral technological trends.
+  <strong>🎯 What you can communicate after this page:</strong> You can describe personality traits (*conscientious, level-headed*), emotional wellbeing (*mindfulness, resilience*), and personal growth milestones.
 </div>
 <div class="table-wrap"><table>
 <thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
 <tbody>
-<tr><td>Digital Media</td><td>headline, broadcast, fake news, subscriber</td><td>The story made national <b>headlines</b>.</td></tr>
-<tr><td>Social Networks</td><td>go viral, algorithm, notification, post</td><td>Her video went <b>viral</b> overnight with 2 million views.</td></tr>
-<tr><td>Cybersecurity</td><td>privacy settings, two-factor auth, scam, cloud</td><td>Always update your <b>privacy settings</b> on public apps.</td></tr>
+<tr><td>Character Traits</td><td>conscientious, level-headed, charismatic, empathetic</td><td>She is a <b>conscientious</b> student who never misses deadlines.</td></tr>
+<tr><td>Wellbeing & Growth</td><td>resilience, burnout, mindfulness, coping mechanism</td><td>Practicing <b>mindfulness</b> helps prevent workplace <b>burnout</b>.</td></tr>
+<tr><td>Phrasal Verbs</td><td>bounce back, cope with, come across as, open up</td><td>It took him a few months to <b>bounce back</b> after losing his job.</td></tr>
 </tbody>
 </table></div>
-<div class="examples"><span class="label">More Examples</span><ul><li>I turned off app <b>notifications</b> to stay focused.</li><li>Beware of online <b>scams</b> asking for banking details.</li></ul></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>He <b>comes across as</b> quiet, but he has a great sense of humour.</li><li>Building <b>resilience</b> is essential for navigating challenging career transitions.</li></ul></div>
 <div class="mistakes">
  <div class="m-title">⚠️ Common mistakes</div>
  <div class="mflip">
-  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">The news are very interesting today.</span></div>
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">She is very sensible about other people's feelings.</span></div>
   <span class="hint">tap to see the correct form</span>
-  <div class="right-line"><span class="c">✅</span><span>The news <b>is</b> very interesting today. (News takes a singular verb!)</span></div>
+  <div class="right-line"><span class="c">✅</span><span>She is very <b>sensitive</b> to other people's feelings. (Sensible = reasonable/practical; Sensitive = empathetic/tender!)</span></div>
  </div>
 </div>
-<div class="checklist" data-key="media-tech">
+<div class="checklist" data-key="personality-psychology">
  <h3>🎯 Can you already use this?</h3>
- <label class="check-item"><input type="checkbox"><span>Use news and media terms (headline, broadcast, subscriber)</span></label>
- <label class="check-item"><input type="checkbox"><span>Treat 'news' as an uncountable singular noun</span></label>
+ <label class="check-item"><input type="checkbox"><span>Distinguish sensitive (empathetic) from sensible (practical)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Discuss burnout, resilience, and mindfulness techniques</span></label>
  <div class="check-progress"></div>
 </div>
-<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
+<div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
  <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
  <div class="qitem">
-  <div class="qtext">1. 'When a video spreads rapidly online, it ___.'</div>
-  <div class="qopts"><button class="qopt">goes viral</button><button class="qopt">runs out</button><button class="qopt">broadcasts</button></div>
-  <div class="qexplain">Rapid digital spread means 'goes viral'.</div>
+  <div class="qtext">1. 'Ability to recover quickly from difficulties is called ___.'</div>
+  <div class="qopts"><button class="qopt">burnout</button><button class="qopt">resilience</button><button class="qopt">neurosis</button></div>
+  <div class="qexplain">Bouncing back from hardship is 'resilience'.</div>
  </div>
  <div class="qitem">
-  <div class="qtext">2. 'The news about the election ___ shocking.'</div>
-  <div class="qopts"><button class="qopt">were</button><button class="qopt">was</button><button class="qopt">are</button></div>
-  <div class="qexplain">Singular verb required for 'news': was.</div>
+  <div class="qtext">2. 'A person who is calm and reasonable under pressure is ___.'</div>
+  <div class="qopts"><button class="qopt">level-headed</button><button class="qopt">charismatic</button><button class="qopt">anxious</button></div>
+  <div class="qexplain">Calm and practical state is 'level-headed'.</div>
  </div>
  <button class="quiz-reset">Reset quiz</button>
 </div>"""
@@ -368,50 +368,50 @@ PARTS = [
     {
         "id": "part-3",
         "file": "part-3.html",
-        "slug": "environment-and-global-issues",
-        "title": "Part 3 · Environment & Global Issues",
+        "slug": "work-career-and-business-communication",
+        "title": "Part 3 · Work, Career & Business Communication",
         "short_title": "Part 3",
-        "subtitle": "Climate, sustainability basics, waste reduction, endangered species, and natural disasters.",
-        "eyebrow": "PET Topic: Environment",
+        "subtitle": "Job applications, tailoring CVs, project management, meeting deadlines, and customer relations.",
+        "eyebrow": "PET Topic: Work & Career",
         "stripe": "#c9740a",
-        "topic_title": "Environment & Global Issues",
+        "topic_title": "Work, Career & Business Communication",
         "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
-  <strong>🎯 What you can communicate after this page:</strong> You can discuss environmental protection, renewable energy, and ecological footprint.
+  <strong>🎯 What you can communicate after this page:</strong> You can apply for jobs (*tailor CV, cover letter*), manage workflow bottlenecks, and delegate professional tasks.
 </div>
 <div class="table-wrap"><table>
-<thead><tr><th>Topic</th><th>Vocabulary</th><th>Example</th></tr></thead>
+<thead><tr><th>Context</th><th>Vocabulary</th><th>Example</th></tr></thead>
 <tbody>
-<tr><td>Sustainability</td><td>renewable energy, carbon footprint, biodegradable</td><td>Solar power is a clean source of <b>renewable energy</b>.</td></tr>
-<tr><td>Ecology</td><td>endangered species, habitat, deforestation</td><td>Loss of forest <b>habitat</b> threatens many species.</td></tr>
-<tr><td>Waste & Pollution</td><td>single-use plastic, landfill, emissions</td><td>We must reduce our reliance on <b>single-use plastic</b>.</td></tr>
+<tr><td>Recruitment</td><td>cover letter, probation period, remuneration, portfolio</td><td>She negotiated a competitive <b>remuneration</b> package.</td></tr>
+<tr><td>Project Management</td><td>deadline, bottleneck, delegate, streamline, scope</td><td>We need to <b>streamline</b> our workflow to meet the tight <b>deadline</b>.</td></tr>
+<tr><td>Customer Service</td><td>escalate, customer satisfaction, issue a refund, feedback</td><td>If the issue is unresolved, please <b>escalate</b> it to management.</td></tr>
 </tbody>
 </table></div>
-<div class="examples"><span class="label">More Examples</span><ul><li>Electric cars produce zero tailpipe <b>emissions</b>.</li><li>Tigers are classified as an <b>endangered species</b>.</li></ul></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>I <b>tailored my CV</b> specifically for the project manager role.</li><li>Let's <b>delegate tasks</b> to team members to avoid unnecessary bottlenecks.</li></ul></div>
 <div class="mistakes">
  <div class="m-title">⚠️ Common mistakes</div>
  <div class="mflip">
-  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">We must protect the nature.</span></div>
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I want to make a career in finance.</span></div>
   <span class="hint">tap to see the correct form</span>
-  <div class="right-line"><span class="c">✅</span><span>We must protect nature. (No article before 'nature' in general sense!)</span></div>
+  <div class="right-line"><span class="c">✅</span><span>I want to <b>pursue a career</b> in finance.</span></div>
  </div>
 </div>
-<div class="checklist" data-key="environment-b1">
+<div class="checklist" data-key="work-business">
  <h3>🎯 Can you already use this?</h3>
- <label class="check-item"><input type="checkbox"><span>Discuss renewable energy and carbon footprint</span></label>
- <label class="check-item"><input type="checkbox"><span>Omit article before 'nature' when talking generally</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use application terms (tailor CV, probation period, cover letter)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Discuss project workflow (streamline, bottleneck, delegate)</span></label>
  <div class="check-progress"></div>
 </div>
-<div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
+<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
  <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
  <div class="qitem">
-  <div class="qtext">1. 'Animals in danger of disappearing completely are ___.'</div>
-  <div class="qopts"><button class="qopt">single-use</button><button class="qopt">endangered species</button><button class="qopt">landfills</button></div>
-  <div class="qexplain">Threatened animals are 'endangered species'.</div>
+  <div class="qtext">1. 'To pass a customer complaint to a higher authority is to ___.'</div>
+  <div class="qopts"><button class="qopt">escalate</button><button class="qopt">delegate</button><button class="qopt">streamline</button></div>
+  <div class="qexplain">Passing issues higher is 'escalate'.</div>
  </div>
  <div class="qitem">
-  <div class="qtext">2. 'Solar and wind power are examples of ___ energy.'</div>
-  <div class="qopts"><button class="qopt">renewable</button><button class="qopt">biodegradable</button><button class="qopt">single-use</button></div>
-  <div class="qexplain">Clean energy sources are 'renewable'.</div>
+  <div class="qtext">2. 'Initial trial work period before permanent employment is a ___.'</div>
+  <div class="qopts"><button class="qopt">remuneration</button><button class="qopt">probation period</button><button class="qopt">portfolio</button></div>
+  <div class="qexplain">Trial work duration is 'probation period'.</div>
  </div>
  <button class="quiz-reset">Reset quiz</button>
 </div>"""
@@ -419,50 +419,50 @@ PARTS = [
     {
         "id": "part-4",
         "file": "part-4.html",
-        "slug": "education-careers-and-ambitions",
-        "title": "Part 4 · Education, Careers & Ambitions",
+        "slug": "media-digital-life-and-cybersecurity",
+        "title": "Part 4 · Media, Digital Life & Cybersecurity",
         "short_title": "Part 4",
-        "subtitle": "Qualifications, career paths, job applications, workplace relationships, and long-term goals.",
-        "eyebrow": "PET Topic: Education & Work",
+        "subtitle": "News journalism, media bias, fact-checking, social media algorithms, and cybersecurity encryption.",
+        "eyebrow": "PET Topic: Media & Tech",
         "stripe": "#7c4fd6",
-        "topic_title": "Education, Careers & Ambitions",
+        "topic_title": "Media, Digital Life & Cybersecurity",
         "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
-  <strong>🎯 What you can communicate after this page:</strong> You can detail professional career ambitions, academic qualifications, and job application processes.
+  <strong>🎯 What you can communicate after this page:</strong> You can evaluate news credibility (*media bias, fact-checking*), manage digital footprints, and secure sensitive data.
 </div>
 <div class="table-wrap"><table>
 <thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
 <tbody>
-<tr><td>Job Application</td><td>CV / résumé, cover letter, references, vacancy</td><td>She submitted her <b>CV</b> and <b>cover letter</b> for the post.</td></tr>
-<tr><td>Career Progression</td><td>promotion, internship, resignation, work-life balance</td><td>He earned a <b>promotion</b> to senior project manager.</td></tr>
-<tr><td>Qualifications</td><td>bachelor's degree, diploma, apprenticeship</td><td>She completed a three-year <b>apprenticeship</b>.</td></tr>
+<tr><td>Journalism</td><td>media bias, objective, broadcast, fact-check, sensational</td><td>Always verify sources to avoid falling for <b>media bias</b>.</td></tr>
+<tr><td>Digital Networks</td><td>algorithm, digital footprint, engagement, subscriber</td><td>Social media <b>algorithms</b> prioritize high engagement posts.</td></tr>
+<tr><td>Cybersecurity</td><td>encryption, data breach, malware, firewall, backup</td><td>End-to-end <b>encryption</b> keeps messaging secure.</td></tr>
 </tbody>
 </table></div>
-<div class="examples"><span class="label">More Examples</span><ul><li>Achieving a good <b>work-life balance</b> is essential for wellbeing.</li><li>There is a job <b>vacancy</b> in our marketing department.</li></ul></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>Always <b>fact-check</b> breaking news stories before sharing them online.</li><li>A major <b>data breach</b> forced the company to reset user passwords.</li></ul></div>
 <div class="mistakes">
  <div class="m-title">⚠️ Common mistakes</div>
  <div class="mflip">
-  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I want to make a career in medicine.</span></div>
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">The news are very sensational today.</span></div>
   <span class="hint">tap to see the correct form</span>
-  <div class="right-line"><span class="c">✅</span><span>I want to pursue a career in medicine. / pursue a career</span></div>
+  <div class="right-line"><span class="c">✅</span><span>The news <b>is</b> very sensational today. (News is uncountable singular!)</span></div>
  </div>
 </div>
-<div class="checklist" data-key="careers-b1">
+<div class="checklist" data-key="media-cybersecurity">
  <h3>🎯 Can you already use this?</h3>
- <label class="check-item"><input type="checkbox"><span>Use application terms (CV, cover letter, vacancy)</span></label>
- <label class="check-item"><input type="checkbox"><span>Pair 'pursue' with 'career'</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use journalism terms (media bias, fact-check, sensational)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Discuss cybersecurity measures (encryption, firewall, data breach)</span></label>
  <div class="check-progress"></div>
 </div>
-<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
+<div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
  <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
  <div class="qitem">
-  <div class="qtext">1. 'An available job opening is a ___.'</div>
-  <div class="qopts"><button class="qopt">vacancy</button><button class="qopt">promotion</button><button class="qopt">diploma</button></div>
-  <div class="qexplain">Job opening is a 'vacancy'.</div>
+  <div class="qtext">1. 'Encoding data so only authorized parties can read it is ___.'</div>
+  <div class="qopts"><button class="qopt">malware</button><button class="qopt">encryption</button><button class="qopt">sensationalism</button></div>
+  <div class="qexplain">Data encoding is 'encryption'.</div>
  </div>
  <div class="qitem">
-  <div class="qtext">2. 'Moving up to a higher rank at work is a ___.'</div>
-  <div class="qopts"><button class="qopt">resignation</button><button class="qopt">promotion</button><button class="qopt">internship</button></div>
-  <div class="qexplain">Higher job rank is a 'promotion'.</div>
+  <div class="qtext">2. 'Trail of data left behind when using the internet is a ___.'</div>
+  <div class="qopts"><button class="qopt">digital footprint</button><button class="qopt">data breach</button><button class="qopt">firewall</button></div>
+  <div class="qexplain">Internet data trail is 'digital footprint'.</div>
  </div>
  <button class="quiz-reset">Reset quiz</button>
 </div>"""
@@ -470,50 +470,50 @@ PARTS = [
     {
         "id": "part-5",
         "file": "part-5.html",
-        "slug": "money-shopping-and-consumer-life",
-        "title": "Part 5 · Money, Shopping & Consumer Life",
+        "slug": "ecology-climate-and-sustainability",
+        "title": "Part 5 · Ecology, Climate & Sustainability",
         "short_title": "Part 5",
-        "subtitle": "Budgeting, saving, value for money, consumer rights, and digital banking.",
-        "eyebrow": "B1 Everyday Finance & Consumption",
+        "subtitle": "Global warming, renewable energy grids, carbon footprint, biodiversity, and phasing out fossil fuels.",
+        "eyebrow": "PET Topic: Ecology & Climate",
         "stripe": "#a3195b",
-        "topic_title": "Money, Shopping & Consumer Life",
+        "topic_title": "Ecology, Climate & Sustainability",
         "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
-  <strong>🎯 What you can communicate after this page:</strong> You can discuss personal budgeting, financial transactions, and consumer rights.
+  <strong>🎯 What you can communicate after this page:</strong> You can debate climate policy (*renewable energy, carbon footprint*), ecosystem conservation, and eco-friendly habits.
 </div>
 <div class="table-wrap"><table>
-<thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
+<thead><tr><th>Topic</th><th>Key Vocabulary</th><th>Example</th></tr></thead>
 <tbody>
-<tr><td>Finance & Budget</td><td>budget, income, expense, savings account, interest rate</td><td>I keep a monthly <b>budget</b> to track my expenses.</td></tr>
-<tr><td>Consumer Life</td><td>value for money, warranty, receipt, exchange policy</td><td>The laptop comes with a two-year <b>warranty</b>.</td></tr>
-<tr><td>Payments</td><td>contactless, direct debit, currency exchange</td><td>I paid using <b>contactless</b> on my smartphone.</td></tr>
+<tr><td>Energy & Emissions</td><td>renewable energy, carbon footprint, phase out, emissions</td><td>Cities must <b>phase out</b> fossil fuels to cut <b>emissions</b>.</td></tr>
+<tr><td>Conservation</td><td>biodiversity, ecosystem, endangered species, habitat</td><td>Deforestation directly threatens forest <b>biodiversity</b>.</td></tr>
+<tr><td>Sustainability</td><td>biodegradable, depletion, eco-friendly, green energy</td><td>Switching to <b>biodegradable</b> packaging reduces plastic waste.</td></tr>
 </tbody>
 </table></div>
-<div class="examples"><span class="label">More Examples</span><ul><li>This hotel offers excellent <b>value for money</b>.</li><li>Set up a <b>direct debit</b> to pay utility bills automatically.</li></ul></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>Investing in <b>renewable energy grids</b> lowers carbon footprints.</li><li>Over-exploitation leads to rapid <b>resource depletion</b>.</li></ul></div>
 <div class="mistakes">
  <div class="m-title">⚠️ Common mistakes</div>
  <div class="mflip">
-  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I borrowed him £20.</span></div>
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">We must protect the nature at all costs.</span></div>
   <span class="hint">tap to see the correct form</span>
-  <div class="right-line"><span class="c">✅</span><span>I <b>lent</b> him £20. / He <b>borrowed</b> £20 from me.</span></div>
+  <div class="right-line"><span class="c">✅</span><span>We must protect <b>nature</b> at all costs. (Omit article before general 'nature'!)</span></div>
  </div>
 </div>
-<div class="checklist" data-key="money-b1">
+<div class="checklist" data-key="ecology-sustainability">
  <h3>🎯 Can you already use this?</h3>
- <label class="check-item"><input type="checkbox"><span>Distinguish lend (give) from borrow (take)</span></label>
- <label class="check-item"><input type="checkbox"><span>Use consumer terms like warranty and value for money</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use sustainability terms (carbon footprint, renewable energy, depletion)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Omit article before 'nature' in general statements</span></label>
  <div class="check-progress"></div>
 </div>
-<div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
+<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
  <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
  <div class="qitem">
-  <div class="qtext">1. 'Written guarantee repairing a product if it breaks is a ___.'</div>
-  <div class="qopts"><button class="qopt">direct debit</button><button class="qopt">warranty</button><button class="qopt">budget</button></div>
-  <div class="qexplain">Product guarantee is a 'warranty'.</div>
+  <div class="qtext">1. 'To gradually stop using or producing something is to ___.'</div>
+  <div class="qopts"><button class="qopt">phase out</button><button class="qopt">deplete</button><button class="qopt">conserve</button></div>
+  <div class="qexplain">Gradual elimination is 'phase out'.</div>
  </div>
  <div class="qitem">
-  <div class="qtext">2. 'Can you ___ me your bicycle for the afternoon?'</div>
-  <div class="qopts"><button class="qopt">lend</button><button class="qopt">borrow</button><button class="qopt">expense</button></div>
-  <div class="qexplain">Giving temporary use is 'lend'.</div>
+  <div class="qtext">2. 'Variety of plant and animal life in a habitat is ___.'</div>
+  <div class="qopts"><button class="qopt">depletion</button><button class="qopt">biodiversity</button><button class="qopt">emissions</button></div>
+  <div class="qexplain">Variety of species is 'biodiversity'.</div>
  </div>
  <button class="quiz-reset">Reset quiz</button>
 </div>"""
@@ -521,50 +521,50 @@ PARTS = [
     {
         "id": "part-6",
         "file": "part-6.html",
-        "slug": "health-fitness-and-lifestyle",
-        "title": "Part 6 · Health, Fitness & Lifestyle",
+        "slug": "health-medicine-and-lifestyle",
+        "title": "Part 6 · Health, Medicine & Lifestyle",
         "short_title": "Part 6",
-        "subtitle": "Illness treatment in depth, mental wellbeing, stress management, exercise, and diet.",
-        "eyebrow": "PET Topic: Health & Lifestyle",
+        "subtitle": "Medical symptoms, prescriptions, side effects, caloric intake, processed food, and work-life balance.",
+        "eyebrow": "PET Topic: Health & Wellbeing",
         "stripe": "#3562e0",
-        "topic_title": "Health, Fitness & Lifestyle",
+        "topic_title": "Health, Medicine & Lifestyle",
         "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
-  <strong>🎯 What you can communicate after this page:</strong> You can discuss physical fitness routines, stress management, and mental health balance.
+  <strong>🎯 What you can communicate after this page:</strong> You can discuss medical consultations (*diagnose, prescription, side effects*) and balanced nutrition.
 </div>
 <div class="table-wrap"><table>
 <thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
 <tbody>
-<tr><td>Mental Wellbeing</td><td>stress management, burnout, anxiety, mindfulness</td><td>Practicing <b>mindfulness</b> helps reduce exam anxiety.</td></tr>
-<tr><td>Physical Fitness</td><td>endurance, strength training, workout routine</td><td>She does <b>strength training</b> three times a week.</td></tr>
-<tr><td>Medical Treatment</td><td>recovery, therapy, specialist, remedy</td><td>He made a full <b>recovery</b> after the surgery.</td></tr>
+<tr><td>Medical Care</td><td>diagnosis, prescription, painkillers, side effects, GP</td><td>The doctor wrote a <b>prescription</b> for antibiotics.</td></tr>
+<tr><td>Nutrition & Diet</td><td>caloric intake, processed food, organic produce, label</td><td>Cut down on <b>processed food</b> to improve digestive health.</td></tr>
+<tr><td>Phrasal Verbs</td><td>come down with, get over, pass out, cut down on</td><td>I think I am <b>coming down with</b> a cold.</td></tr>
 </tbody>
 </table></div>
-<div class="examples"><span class="label">More Examples</span><ul><li>Regular exercise is crucial for effective <b>stress management</b>.</li><li>The doctor referred her to a heart <b>specialist</b>.</li></ul></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>Be aware of potential <b>side effects</b> listed on the medicine package.</li><li>It took her two weeks to <b>get over</b> the severe flu.</li></ul></div>
 <div class="mistakes">
  <div class="m-title">⚠️ Common mistakes</div>
  <div class="mflip">
-  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I have a big stress.</span></div>
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">The doctor gave me a recipe for pills.</span></div>
   <span class="hint">tap to see the correct form</span>
-  <div class="right-line"><span class="c">✅</span><span>I am under a lot of stress. / I am very stressed.</span></div>
+  <div class="right-line"><span class="c">✅</span><span>The doctor gave me a <b>prescription</b> for pills. (Recipe = cooking instructions!)</span></div>
  </div>
 </div>
-<div class="checklist" data-key="health-b1">
+<div class="checklist" data-key="health-medicine">
  <h3>🎯 Can you already use this?</h3>
- <label class="check-item"><input type="checkbox"><span>Use 'under stress' / 'stressed' instead of 'a big stress'</span></label>
- <label class="check-item"><input type="checkbox"><span>Discuss mental wellbeing and workout routines</span></label>
+ <label class="check-item"><input type="checkbox"><span>Distinguish prescription (medical) from recipe (cooking)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use health phrasal verbs (come down with, get over, cut down on)</span></label>
  <div class="check-progress"></div>
 </div>
-<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
+<div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
  <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
  <div class="qitem">
-  <div class="qtext">1. 'Exhaustion caused by prolonged workplace stress is ___.'</div>
-  <div class="qopts"><button class="qopt">burnout</button><button class="qopt">endurance</button><button class="qopt">recovery</button></div>
-  <div class="qexplain">Extreme stress exhaustion is 'burnout'.</div>
+  <div class="qtext">1. 'Doctor's official written order for medicine is a ___.'</div>
+  <div class="qopts"><button class="qopt">recipe</button><button class="qopt">prescription</button><button class="qopt">diagnosis</button></div>
+  <div class="qexplain">Medical paper is a 'prescription'.</div>
  </div>
  <div class="qitem">
-  <div class="qtext">2. 'Correct frame: "I am currently ___ a lot of stress."'</div>
-  <div class="qopts"><button class="qopt">with</button><button class="qopt">under</button><button class="qopt">having</button></div>
-  <div class="qexplain">Preposition frame is 'under stress'.</div>
+  <div class="qtext">2. 'Phrasal verb meaning "to become ill with a mild disease":'</div>
+  <div class="qopts"><button class="qopt">come down with</button><button class="qopt">pass out</button><button class="qopt">get over</button></div>
+  <div class="qexplain">Falling ill is 'come down with'.</div>
  </div>
  <button class="quiz-reset">Reset quiz</button>
 </div>"""
@@ -572,50 +572,50 @@ PARTS = [
     {
         "id": "part-7",
         "file": "part-7.html",
-        "slug": "arts-culture-and-entertainment",
-        "title": "Part 7 · Arts, Culture & Entertainment",
+        "slug": "travel-immigration-and-global-mobility",
+        "title": "Part 7 · Travel, Immigration & Global Mobility",
         "short_title": "Part 7",
-        "subtitle": "Books, films, music genres, art exhibitions, writing reviews, and cultural heritage.",
-        "eyebrow": "PET Topic: Arts & Media",
+        "subtitle": "Customs clearance, visa applications, itinerary planning, immigration control, and travel claims.",
+        "eyebrow": "PET Topic: Travel & Mobility",
         "stripe": "#1c8f56",
-        "topic_title": "Arts, Culture & Entertainment",
+        "topic_title": "Travel, Immigration & Global Mobility",
         "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
-  <strong>🎯 What you can communicate after this page:</strong> You can critique movies, books, music genres, and art exhibitions in reviews.
+  <strong>🎯 What you can communicate after this page:</strong> You can navigate international border procedures (*customs, visa application*), travel insurance, and flight claims.
 </div>
 <div class="table-wrap"><table>
-<thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
+<thead><tr><th>Context</th><th>Vocabulary</th><th>Example</th></tr></thead>
 <tbody>
-<tr><td>Film & Theater</td><td>plot, soundtrack, performance, director, review</td><td>The film's <b>soundtrack</b> won several awards.</td></tr>
-<tr><td>Literature & Art</td><td>novel, genre, masterpiece, gallery exhibition</td><td>This portrait is considered his greatest <b>masterpiece</b>.</td></tr>
-<tr><td>Cultural Life</td><td>heritage, tradition, festival, venue</td><td>The annual jazz <b>festival</b> attracts thousands.</td></tr>
+<tr><td>Border & Visas</td><td>customs clearance, immigration control, valid visa, declare</td><td>Pass through <b>immigration control</b> with a valid passport.</td></tr>
+<tr><td>Travel Logistics</td><td>itinerary, travel insurance, luggage claim, stopover</td><td>Keep all receipts in case of a <b>lost luggage claim</b>.</td></tr>
+<tr><td>Phrasal Verbs</td><td>set off, check in, drop off, pick up, stop over</td><td>We <b>set off</b> at dawn to avoid morning traffic.</td></tr>
 </tbody>
 </table></div>
-<div class="examples"><span class="label">More Examples</span><ul><li>The <b>plot</b> of the novel was unpredictable and exciting.</li><li>We visited an impressive <b>gallery exhibition</b> of modern sculpture.</li></ul></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>Check whether your <b>visa application</b> requires proof of travel insurance.</li><li>Our flight includes a two-hour <b>stopover</b> in Istanbul.</li></ul></div>
 <div class="mistakes">
  <div class="m-title">⚠️ Common mistakes</div>
  <div class="mflip">
-  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">The historical context of the film was very history.</span></div>
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">We made a very pleasant travel last week.</span></div>
   <span class="hint">tap to see the correct form</span>
-  <div class="right-line"><span class="c">✅</span><span>The historical context of the film was very realistic / authentic.</span></div>
+  <div class="right-line"><span class="c">✅</span><span>We went on a very pleasant <b>trip / journey</b> last week. (Travel is uncountable general noun!)</span></div>
  </div>
 </div>
-<div class="checklist" data-key="arts-b1">
+<div class="checklist" data-key="travel-mobility">
  <h3>🎯 Can you already use this?</h3>
- <label class="check-item"><input type="checkbox"><span>Use review terms (plot, soundtrack, masterpiece, venue)</span></label>
- <label class="check-item"><input type="checkbox"><span>Structure a short 100-word film or book review</span></label>
+ <label class="check-item"><input type="checkbox"><span>Distinguish trip/journey (countable) from travel (uncountable)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use airport/border terms (customs, itinerary, stopover, valid visa)</span></label>
  <div class="check-progress"></div>
 </div>
-<div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
+<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
  <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
  <div class="qitem">
-  <div class="qtext">1. 'The music accompanying a film is its ___.'</div>
-  <div class="qopts"><button class="qopt">plot</button><button class="qopt">soundtrack</button><button class="qopt">genre</button></div>
-  <div class="qexplain">Film music is 'soundtrack'.</div>
+  <div class="qtext">1. 'Detailed plan or schedule of a journey route is an ___.'</div>
+  <div class="qopts"><button class="qopt">itinerary</button><button class="qopt">immigration</button><button class="qopt">stopover</button></div>
+  <div class="qexplain">Travel plan is an 'itinerary'.</div>
  </div>
  <div class="qitem">
-  <div class="qtext">2. 'The story structure and events of a book or movie is the ___.'</div>
-  <div class="qopts"><button class="qopt">plot</button><button class="qopt">heritage</button><button class="qopt">venue</button></div>
-  <div class="qexplain">Story line is the 'plot'.</div>
+  <div class="qtext">2. 'Phrasal verb meaning "to start a journey":'</div>
+  <div class="qopts"><button class="qopt">drop off</button><button class="qopt">set off</button><button class="qopt">check in</button></div>
+  <div class="qexplain">Starting a journey is 'set off'.</div>
  </div>
  <button class="quiz-reset">Reset quiz</button>
 </div>"""
@@ -623,50 +623,50 @@ PARTS = [
     {
         "id": "part-8",
         "file": "part-8.html",
-        "slug": "relationships-and-social-life",
-        "title": "Part 8 · Relationships & Social Life",
+        "slug": "education-academic-integrity-and-research",
+        "title": "Part 8 · Education, Academic Integrity & Research",
         "short_title": "Part 8",
-        "subtitle": "Friendship dynamics, dating, conflict resolution, and social etiquette.",
-        "eyebrow": "PET Topic: Personal Experiences",
+        "subtitle": "University lectures, dissertations, citations, academic honesty, plagiarism, and peer review.",
+        "eyebrow": "PET Topic: Academic Life",
         "stripe": "#c9740a",
-        "topic_title": "Relationships & Social Life",
+        "topic_title": "Education, Academic Integrity & Research",
         "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
-  <strong>🎯 What you can communicate after this page:</strong> You can discuss interpersonal friendships, resolve minor conflicts, and express empathy.
+  <strong>🎯 What you can communicate after this page:</strong> You can discuss university studies (*dissertation, research methodology*), cite sources, and uphold academic honesty.
 </div>
 <div class="table-wrap"><table>
 <thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
 <tbody>
-<tr><td>Friendship</td><td>close friend, trustworthy, keep in touch, acquaintance</td><td>Even after moving abroad, we <b>kept in touch</b>.</td></tr>
-<tr><td>Conflict & Resolution</td><td>misunderstanding, apologize, compromise, resolve</td><td>They sat down to <b>resolve</b> their misunderstanding.</td></tr>
-<tr><td>Social Etiquette</td><td>polite, host, guest, invitation, small talk</td><td>Making <b>small talk</b> at networking events is useful.</td></tr>
+<tr><td>Academic Integrity</td><td>plagiarism, citation, academic honesty, peer review</td><td>Proper <b>citation</b> is required to avoid <b>plagiarism</b>.</td></tr>
+<tr><td>University Studies</td><td>dissertation, thesis, seminar, lecture hall, faculty</td><td>She is writing her master's <b>dissertation</b> in economics.</td></tr>
+<tr><td>Research Methods</td><td>methodology, empirical data, hypothesis, evaluate</td><td>The paper presents <b>empirical data</b> gathered over two years.</td></tr>
 </tbody>
 </table></div>
-<div class="examples"><span class="label">More Examples</span><ul><li>He is an <b>acquaintance</b> from university, not a close friend.</li><li>We reached a fair <b>compromise</b> after talking for an hour.</li></ul></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>The paper was published in a prestigious <b>peer-reviewed journal</b>.</li><li>Students must adhere to strict guidelines on <b>academic honesty</b>.</li></ul></div>
 <div class="mistakes">
  <div class="m-title">⚠️ Common mistakes</div>
  <div class="mflip">
-  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I lost the contact with my school friends.</span></div>
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">He made plagiarism on his research essay.</span></div>
   <span class="hint">tap to see the correct form</span>
-  <div class="right-line"><span class="c">✅</span><span>I <b>lost touch with</b> my school friends.</span></div>
+  <div class="right-line"><span class="c">✅</span><span>He <b>committed plagiarism</b> on his research essay.</span></div>
  </div>
 </div>
-<div class="checklist" data-key="relationships-b1">
+<div class="checklist" data-key="edu-research">
  <h3>🎯 Can you already use this?</h3>
- <label class="check-item"><input type="checkbox"><span>Use 'keep in touch' and 'lose touch with'</span></label>
- <label class="check-item"><input type="checkbox"><span>Distinguish close friend from acquaintance</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use academic vocabulary (citation, dissertation, peer-reviewed)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Pair 'commit' with 'plagiarism'</span></label>
  <div class="check-progress"></div>
 </div>
-<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
+<div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
  <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
  <div class="qitem">
-  <div class="qtext">1. 'An agreement where both sides accept less than requested is a ___.'</div>
-  <div class="qopts"><button class="qopt">compromise</button><button class="qopt">misunderstanding</button><button class="qopt">acquaintance</button></div>
-  <div class="qexplain">Mutual concession is a 'compromise'.</div>
+  <div class="qtext">1. 'Using someone else's work without attribution is ___.'</div>
+  <div class="qopts"><button class="qopt">citation</button><button class="qopt">plagiarism</button><button class="qopt">methodology</button></div>
+  <div class="qexplain">Uncredited copying is 'plagiarism'.</div>
  </div>
  <div class="qitem">
-  <div class="qtext">2. 'Complete phrase: "I lost ___ with my old classmates."'</div>
-  <div class="qopts"><button class="qopt">the contact</button><button class="qopt">touch</button><button class="qopt">relationship</button></div>
-  <div class="qexplain">Collocation is 'lost touch with'.</div>
+  <div class="qtext">2. 'Evaluation of academic work by experts in the same field is ___.'</div>
+  <div class="qopts"><button class="qopt">peer review</button><button class="qopt">faculty</button><button class="qopt">dissertation</button></div>
+  <div class="qexplain">Expert evaluation is 'peer review'.</div>
  </div>
  <button class="quiz-reset">Reset quiz</button>
 </div>"""
@@ -674,50 +674,50 @@ PARTS = [
     {
         "id": "part-9",
         "file": "part-9.html",
-        "slug": "travel-tourism-and-cultures",
-        "title": "Part 9 · Travel, Tourism & Cultures",
+        "slug": "society-civics-and-human-rights",
+        "title": "Part 9 · Society, Civics & Human Rights",
         "short_title": "Part 9",
-        "subtitle": "Trip-planning in depth, cultural differences, describing cities, and travel writing style.",
-        "eyebrow": "PET Topic: Travel & Places",
+        "subtitle": "Citizenship rights, civic duty, volunteering, NGOs, social integration, and equality.",
+        "eyebrow": "PET Topic: Society & Civics",
         "stripe": "#7c4fd6",
-        "topic_title": "Travel, Tourism & Cultures",
+        "topic_title": "Society, Civics & Human Rights",
         "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
-  <strong>🎯 What you can communicate after this page:</strong> You can plan complex travel itineraries, describe cultural customs, and write travel blog posts.
+  <strong>🎯 What you can communicate after this page:</strong> You can discuss civic responsibilities (*human rights, public service*), community volunteering, and social integration.
 </div>
 <div class="table-wrap"><table>
 <thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
 <tbody>
-<tr><td>Itinerary & Travel</td><td>itinerary, destination, guided tour, excursion</td><td>Our travel agent organized a full day <b>excursion</b>.</td></tr>
-<tr><td>Culture & Customs</td><td>cultural shock, local customs, traditional cuisine</td><td>Experiencing <b>local customs</b> is part of travelling.</td></tr>
-<tr><td>Describing Places</td><td>picturesque, bustling, historical landmark, scenic</td><td>Venice is famous for its <b>picturesque</b> canals.</td></tr>
+<tr><td>Civic Rights</td><td>citizenship, human rights, civic duty, equality</td><td>Voting in elections is an important <b>civic duty</b>.</td></tr>
+<tr><td>Community Action</td><td>NGO, non-profit, volunteering, advocacy, integration</td><td>She works for an <b>NGO</b> supporting refugee <b>integration</b>.</td></tr>
+<tr><td>Phrasal Verbs</td><td>stand up for, speak out, pitch in, give back</td><td>Citizens should <b>stand up for</b> fundamental human rights.</td></tr>
 </tbody>
 </table></div>
-<div class="examples"><span class="label">More Examples</span><ul><li>We enjoyed strolling through the <b>bustling</b> night market.</li><li>Follow the planned travel <b>itinerary</b> carefully.</li></ul></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>Volunteering at a local shelter is a great way to <b>give back</b>.</li><li>The organization advocates for equal rights and non-discrimination.</li></ul></div>
 <div class="mistakes">
  <div class="m-title">⚠️ Common mistakes</div>
  <div class="mflip">
-  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">We made a very long travel last year.</span></div>
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">We must fight for the human rights.</span></div>
   <span class="hint">tap to see the correct form</span>
-  <div class="right-line"><span class="c">✅</span><span>We went on a very long <b>trip / journey</b> last year. (Travel is uncountable general noun!)</span></div>
+  <div class="right-line"><span class="c">✅</span><span>We must fight for <b>human rights</b>. (No article before general plural!)</span></div>
  </div>
 </div>
-<div class="checklist" data-key="travel-b1">
+<div class="checklist" data-key="society-civics">
  <h3>🎯 Can you already use this?</h3>
- <label class="check-item"><input type="checkbox"><span>Use descriptive place adjectives (picturesque, bustling, scenic)</span></label>
- <label class="check-item"><input type="checkbox"><span>Distinguish travel (general concept) from trip / journey (specific event)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use civics vocabulary (civic duty, NGO, social integration, advocacy)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use social phrasal verbs (stand up for, give back, pitch in)</span></label>
  <div class="check-progress"></div>
 </div>
-<div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
+<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
  <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
  <div class="qitem">
-  <div class="qtext">1. 'Visually attractive and charming (especially of places) means ___.'</div>
-  <div class="qopts"><button class="qopt">bustling</button><button class="qopt">picturesque</button><button class="qopt">excursion</button></div>
-  <div class="qexplain">Charming visual appearance means 'picturesque'.</div>
+  <div class="qtext">1. 'Non-governmental non-profit organization is abbreviated as ___.'</div>
+  <div class="qopts"><button class="qopt">NGO</button><button class="qopt">GP</button><button class="qopt">CV</button></div>
+  <div class="qexplain">Non-governmental organization is 'NGO'.</div>
  </div>
  <div class="qitem">
-  <div class="qtext">2. 'A detailed plan of a route and journey is an ___.'</div>
-  <div class="qopts"><button class="qopt">itinerary</button><button class="qopt">excursion</button><button class="qopt">custom</button></div>
-  <div class="qexplain">Journey schedule is an 'itinerary'.</div>
+  <div class="qtext">2. 'Phrasal verb meaning "to defend or support an idea or person":'</div>
+  <div class="qopts"><button class="qopt">pitch in</button><button class="qopt">stand up for</button><button class="qopt">give back</button></div>
+  <div class="qexplain">Defending rights is 'stand up for'.</div>
  </div>
  <button class="quiz-reset">Reset quiz</button>
 </div>"""
@@ -725,50 +725,50 @@ PARTS = [
     {
         "id": "part-10",
         "file": "part-10.html",
-        "slug": "crime-law-and-society",
-        "title": "Part 10 · Crime, Law & Society",
+        "slug": "money-personal-finance-and-consumer-rights",
+        "title": "Part 10 · Money, Personal Finance & Consumer Rights",
         "short_title": "Part 10",
-        "subtitle": "Basic crime/law vocabulary, community rules, civic rights, and social responsibilities.",
-        "eyebrow": "PET/FCE Bridging Topic",
+        "subtitle": "Monthly budgeting, mortgage applications, interest rates, consumer protection, and scam prevention.",
+        "eyebrow": "PET Topic: Finance & Consumer Rights",
         "stripe": "#a3195b",
-        "topic_title": "Crime, Law & Society",
+        "topic_title": "Money, Personal Finance & Consumer Rights",
         "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
-  <strong>🎯 What you can communicate after this page:</strong> You can discuss community regulations, basic legal rights, and social responsibilities.
+  <strong>🎯 What you can communicate after this page:</strong> You can manage personal finances (*budget, mortgage, interest rate*), defend consumer rights, and recognize online scams.
 </div>
 <div class="table-wrap"><table>
 <thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
 <tbody>
-<tr><td>Law & Justice</td><td>law, regulation, court, fine, witness, evidence</td><td>The driver received a <b>fine</b> for speeding.</td></tr>
-<tr><td>Crime Types</td><td>theft, burglary, fraud, vandalism, suspect</td><td>Police are searching for a <b>suspect</b> after the theft.</td></tr>
-<tr><td>Society & Community</td><td>citizen, public safety, volunteer, community center</td><td>Local <b>volunteers</b> cleaned up the city park.</td></tr>
+<tr><td>Banking & Debt</td><td>savings account, interest rate, mortgage, loan, expenditure</td><td>They applied for a <b>mortgage</b> to buy their first home.</td></tr>
+<tr><td>Consumer Protection</td><td>consumer rights, refund policy, fraudulent, phishing scam</td><td>Beware of <b>phishing scams</b> asking for password resets.</td></tr>
+<tr><td>Phrasal Verbs</td><td>save up, pay off, cut back, rip off, fall for</td><td>We are <b>saving up</b> for a deposit on an apartment.</td></tr>
 </tbody>
 </table></div>
-<div class="examples"><span class="label">More Examples</span><ul><li>The police officer interviewed a <b>witness</b> to the accident.</li><li>We must follow local safety <b>regulations</b>.</li></ul></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>Rising <b>interest rates</b> increase monthly mortgage payments.</li><li>Know your <b>consumer rights</b> when returning faulty goods.</li></ul></div>
 <div class="mistakes">
  <div class="m-title">⚠️ Common mistakes</div>
  <div class="mflip">
-  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">He committed a big fault.</span></div>
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I fell into a phishing scam.</span></div>
   <span class="hint">tap to see the correct form</span>
-  <div class="right-line"><span class="c">✅</span><span>He <b>committed a crime</b>.</span></div>
+  <div class="right-line"><span class="c">✅</span><span>I <b>fell for</b> a phishing scam.</span></div>
  </div>
 </div>
-<div class="checklist" data-key="crime-b1">
+<div class="checklist" data-key="finance-consumer">
  <h3>🎯 Can you already use this?</h3>
- <label class="check-item"><input type="checkbox"><span>Use legal and civic terms (witness, fine, regulation)</span></label>
- <label class="check-item"><input type="checkbox"><span>Pair 'commit' with 'crime'</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use financial terms (mortgage, interest rate, expenditure)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use financial phrasal verbs (save up, pay off, fall for, cut back)</span></label>
  <div class="check-progress"></div>
 </div>
-<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
+<div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
  <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
  <div class="qitem">
-  <div class="qtext">1. 'Financial penalty for breaking a rule is a ___.'</div>
-  <div class="qopts"><button class="qopt">fine</button><button class="qopt">witness</button><button class="qopt">regulation</button></div>
-  <div class="qexplain">Monetary penalty is a 'fine'.</div>
+  <div class="qtext">1. 'Bank loan specifically used to purchase property is a ___.'</div>
+  <div class="qopts"><button class="qopt">subscription</button><button class="qopt">mortgage</button><button class="qopt">expenditure</button></div>
+  <div class="qexplain">Property bank loan is a 'mortgage'.</div>
  </div>
  <div class="qitem">
-  <div class="qtext">2. 'A person who saw an incident occur is a ___.'</div>
-  <div class="qopts"><button class="qopt">suspect</button><button class="qopt">witness</button><button class="qopt">volunteer</button></div>
-  <div class="qexplain">Eye-observer is a 'witness'.</div>
+  <div class="qtext">2. 'Phrasal verb meaning "to reduce spending or consumption":'</div>
+  <div class="qopts"><button class="qopt">cut back</button><button class="qopt">pay off</button><button class="qopt">save up</button></div>
+  <div class="qexplain">Reducing expenses is 'cut back'.</div>
  </div>
  <button class="quiz-reset">Reset quiz</button>
 </div>"""
@@ -776,50 +776,560 @@ PARTS = [
     {
         "id": "part-11",
         "file": "part-11.html",
-        "slug": "personality-feelings-and-abstract-qualities",
-        "title": "Part 11 · Personality, Feelings & Abstract Qualities",
+        "slug": "science-innovation-and-future-tech",
+        "title": "Part 11 · Science, Innovation & Future Tech",
         "short_title": "Part 11",
-        "subtitle": "Nuanced personality traits, abstract emotional states, and describing personal growth over time.",
-        "eyebrow": "PET Topic: Feelings in Depth",
+        "subtitle": "Scientific breakthroughs, robotics, home automation, AI innovation, and internet safety.",
+        "eyebrow": "PET Topic: Science & Innovation",
         "stripe": "#3562e0",
-        "topic_title": "Personality, Feelings & Abstract Qualities",
+        "topic_title": "Science, Innovation & Future Tech",
         "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
-  <strong>🎯 What you can communicate after this page:</strong> You can describe complex personality nuances and abstract emotional experiences.
+  <strong>🎯 What you can communicate after this page:</strong> You can discuss technological innovation (*AI, smart devices, robotics*), scientific discoveries, and internet safety.
 </div>
 <div class="table-wrap"><table>
 <thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
 <tbody>
-<tr><td>Personality Nuance</td><td>ambitious, reliable, open-minded, considerate</td><td>She is a very <b>reliable</b> team member.</td></tr>
-<tr><td>Abstract Feelings</td><td>frustrated, overwhelmed, content, nostalgic</td><td>He felt <b>frustrated</b> by the unexpected delay.</td></tr>
-<tr><td>Personal Growth</td><td>self-confidence, determination, resilience</td><td>Learning a language builds <b>self-confidence</b>.</td></tr>
+<tr><td>Scientific Innovation</td><td>breakthrough, discovery, research, conduct experiments</td><td>Scientists achieved a major medical <b>breakthrough</b>.</td></tr>
+<tr><td>Everyday Tech & AI</td><td>Artificial Intelligence (AI), smart device, automation, robot</td><td><b>Smart devices</b> automate home temperature and lighting.</td></tr>
+<tr><td>Internet Security</td><td>firewall, antivirus, cyber threat, digital privacy</td><td>Enable your <b>firewall</b> to protect against <b>cyber threats</b>.</td></tr>
 </tbody>
 </table></div>
-<div class="examples"><span class="label">More Examples</span><ul><li>Looking at old photographs made her feel <b>nostalgic</b>.</li><li>Her <b>determination</b> helped her pass the B1 exam.</li></ul></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>Artificial Intelligence is revolutionizing data analysis.</li><li>Keep your software updated to safeguard <b>digital privacy</b>.</li></ul></div>
 <div class="mistakes">
  <div class="m-title">⚠️ Common mistakes</div>
  <div class="mflip">
-  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I feel very frustration today.</span></div>
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">They made a scientific experiment.</span></div>
   <span class="hint">tap to see the correct form</span>
-  <div class="right-line"><span class="c">✅</span><span>I feel very <b>frustrated</b> today. (Adjective -ed for personal feeling!)</span></div>
+  <div class="right-line"><span class="c">✅</span><span>They <b>conducted / carried out</b> a scientific experiment.</span></div>
  </div>
 </div>
-<div class="checklist" data-key="feelings-abstract-b1">
+<div class="checklist" data-key="science-future-tech">
  <h3>🎯 Can you already use this?</h3>
- <label class="check-item"><input type="checkbox"><span>Use nuanced personality adjectives (reliable, open-minded, ambitious)</span></label>
- <label class="check-item"><input type="checkbox"><span>Use -ed adjective forms for internal emotional states</span></label>
+ <label class="check-item"><input type="checkbox"><span>Pair 'conduct' or 'carry out' with 'experiment'</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use innovation and tech terms (breakthrough, AI, automation)</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'Dramatic and important scientific discovery is a ___.'</div>
+  <div class="qopts"><button class="qopt">breakthrough</button><button class="qopt">firewall</button><button class="qopt">automation</button></div>
+  <div class="qexplain">Important discovery is a 'breakthrough'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'Correct collocation: "Scientists ___ an experiment."'</div>
+  <div class="qopts"><button class="qopt">made</button><button class="qopt">conducted</button><button class="qopt">did</button></div>
+  <div class="qexplain">Scientific collocation is 'conducted'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    },
+    {
+        "id": "part-12",
+        "file": "part-12.html",
+        "slug": "housing-homeownership-and-diy",
+        "title": "Part 12 · Housing, Homeownership & DIY",
+        "short_title": "Part 12",
+        "subtitle": "Real estate, tenancy agreements, home renovations, DIY projects, and utility maintenance.",
+        "eyebrow": "PET Topic: Housing & Living",
+        "stripe": "#1c8f56",
+        "topic_title": "Housing, Homeownership & DIY",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can handle housing contracts (*tenancy agreement, mortgage application*), home DIY renovations, and trade services.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>Property Transactions</td><td>real estate, tenancy agreement, maintenance fee, lease</td><td>Read the <b>tenancy agreement</b> before signing.</td></tr>
+<tr><td>DIY & Repairs</td><td>renovation, DIY project, electrician, plumber, assemble</td><td>He hired an <b>electrician</b> to rewire the kitchen.</td></tr>
+<tr><td>Phrasal Verbs</td><td>move in, move out, fix up, put up, do up</td><td>They spent two months <b>fixing up</b> the old cottage.</td></tr>
+</tbody>
+</table></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>We hired a professional to <b>assemble</b> the new furniture.</li><li>Monthly <b>maintenance fees</b> cover building repairs and trash removal.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">We entered in our new apartment yesterday.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>We <b>moved into</b> our new apartment yesterday.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="housing-diy">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Use housing vocabulary (tenancy agreement, lease, maintenance fee)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use housing phrasal verbs (move in, move out, fix up, do up)</span></label>
  <div class="check-progress"></div>
 </div>
 <div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
  <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
  <div class="qitem">
-  <div class="qtext">1. 'Someone you can trust and count on is ___.'</div>
-  <div class="qopts"><button class="qopt">frustrated</button><button class="qopt">reliable</button><button class="qopt">nostalgic</button></div>
-  <div class="qexplain">Trustworthy person is 'reliable'.</div>
+  <div class="qtext">1. 'Written rental contract between landlord and tenant is a ___.'</div>
+  <div class="qopts"><button class="qopt">maintenance fee</button><button class="qopt">tenancy agreement</button><button class="qopt">renovation</button></div>
+  <div class="qexplain">Rental contract is 'tenancy agreement'.</div>
  </div>
  <div class="qitem">
-  <div class="qtext">2. 'Feeling peaceful, satisfied, and happy with life is being ___.'</div>
-  <div class="qopts"><button class="qopt">content</button><button class="qopt">overwhelmed</button><button class="qopt">considerate</button></div>
-  <div class="qexplain">Peaceful satisfaction means 'content'.</div>
+  <div class="qtext">2. 'Phrasal verb meaning "to renovate or redecorate a building":'</div>
+  <div class="qopts"><button class="qopt">do up</button><button class="qopt">move out</button><button class="qopt">put up</button></div>
+  <div class="qexplain">Renovating is 'do up'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    },
+    {
+        "id": "part-13",
+        "file": "part-13.html",
+        "slug": "professional-gastronomy-and-culinary-arts",
+        "title": "Part 13 · Professional Gastronomy & Culinary Arts",
+        "short_title": "Part 13",
+        "subtitle": "Culinary techniques, kitchen hygiene standards, recipes, dining etiquette, and food waste reduction.",
+        "eyebrow": "PET Topic: Gastronomy & Dining",
+        "stripe": "#c9740a",
+        "topic_title": "Professional Gastronomy & Culinary Arts",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can describe culinary preparation techniques (*garnish, marinate, simmer*), food safety, and restaurant etiquette.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>Cooking Techniques</td><td>marinate, simmer, poach, garnish, season</td><td>Let the soup <b>simmer</b> gently for twenty minutes.</td></tr>
+<tr><td>Culinary Arts</td><td>gastronomy, food safety, kitchen hygiene, sommelier</td><td>Professional kitchens must observe strict <b>kitchen hygiene</b>.</td></tr>
+<tr><td>Phrasal Verbs</td><td>chop up, boil down, slice off, dish out, warm up</td><td><b>Chop up</b> the herbs before adding them to the sauce.</td></tr>
+</tbody>
+</table></div>
+<div class="examples"><span class="label">More Examples</span><ul><li><b>Marinate</b> the chicken in olive oil and lemon before grilling.</li><li>Garnish the plate with fresh parsley before serving.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">Let the water simmer until it boils very fast.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>Let the water <b>boil</b> fast, or let it <b>simmer</b> gently. (Simmer = low gentle heat!)</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="gastronomy-culinary">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Distinguish simmer (gentle heat) from boil (high heat)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use culinary technique verbs (marinate, poach, garnish, season)</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'To cook liquid gently just below boiling point is to ___.'</div>
+  <div class="qopts"><button class="qopt">simmer</button><button class="qopt">boil</button><button class="qopt">garnish</button></div>
+  <div class="qexplain">Gentle cooking heat is 'simmer'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'To decorate a completed food dish with small items is to ___.'</div>
+  <div class="qopts"><button class="qopt">poach</button><button class="qopt">garnish</button><button class="qopt">marinate</button></div>
+  <div class="qexplain">Plate decoration is 'garnish'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    },
+    {
+        "id": "part-14",
+        "file": "part-14.html",
+        "slug": "law-crime-and-judicial-system",
+        "title": "Part 14 · Law, Crime & Judicial System",
+        "short_title": "Part 14",
+        "subtitle": "Legal systems, court proceedings, legally binding contracts, defense attorneys, and crime prevention.",
+        "eyebrow": "PET/FCE Topic: Law & Justice",
+        "stripe": "#7c4fd6",
+        "topic_title": "Law, Crime & Judicial System",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can discuss legal frameworks (*legally binding, breach of contract*), court proceedings, and civil rights.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>Court & Trial</td><td>prosecute, defense attorney, verdict, witness, evidence</td><td>The jury reached a unanimous <b>verdict</b> of not guilty.</td></tr>
+<tr><td>Contracts & Law</td><td>legally binding, breach of contract, liability, clause</td><td>Signing the document creates a <b>legally binding</b> agreement.</td></tr>
+<tr><td>Phrasal Verbs</td><td>break in, cover up, lock up, stand trial, testify to</td><td>The suspect will <b>stand trial</b> next month in court.</td></tr>
+</tbody>
+</table></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>The <b>defense attorney</b> presented clear evidence supporting the alibi.</li><li>Failing to pay on time constitutes a <b>breach of contract</b>.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">The judge gave a verdict of innocent.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>The jury delivered a verdict of <b>not guilty</b>.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="law-crime-system">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Use legal terminology (legally binding, breach of contract, liability)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use court verbs (prosecute, testify to, stand trial, deliver a verdict)</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'Failure to perform any duty required by a contract is a ___.'</div>
+  <div class="qopts"><button class="qopt">verdict</button><button class="qopt">breach of contract</button><button class="qopt">liability</button></div>
+  <div class="qexplain">Contract violation is 'breach of contract'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'Phrasal verb meaning "to appear in court as a defendant":'</div>
+  <div class="qopts"><button class="qopt">stand trial</button><button class="qopt">cover up</button><button class="qopt">break in</button></div>
+  <div class="qexplain">Court appearance as defendant is 'stand trial'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    },
+    {
+        "id": "part-15",
+        "file": "part-15.html",
+        "slug": "environment-disasters-and-conservation",
+        "title": "Part 15 · Environment, Disasters & Conservation",
+        "short_title": "Part 15",
+        "subtitle": "Natural reserves, habitat destruction, natural disaster responses, evacuation orders, and wildlife protection.",
+        "eyebrow": "PET/FCE Topic: Disasters & Nature",
+        "stripe": "#a3195b",
+        "topic_title": "Environment, Disasters & Conservation",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can discuss emergency disaster responses (*evacuation order, relief effort*) and wildlife habitat conservation.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>Disaster Management</td><td>natural disaster, evacuation order, relief effort, hurricane</td><td>Authorities issued an <b>evacuation order</b> before the storm.</td></tr>
+<tr><td>Conservation</td><td>habitat destruction, endangered species, national reserve</td><td><b>Habitat destruction</b> threatens native wildlife populations.</td></tr>
+<tr><td>Phrasal Verbs</td><td>wipe out, die out, clean up, evacuate from, die off</td><td>Pollution could <b>wipe out</b> rare river species.</td></tr>
+</tbody>
+</table></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>International teams launched a massive <b>relief effort</b> after the flood.</li><li>National reserves protect native plants from total extinction.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">Many animals are dying off out due to pollution.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>Many animals are <b>dying out</b> / <b>dying off</b> due to pollution.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="env-disasters">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Use disaster response vocabulary (evacuation order, relief effort)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use extinction phrasal verbs (die out, wipe out, die off)</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'Official instruction instructing people to leave a dangerous area is an ___.'</div>
+  <div class="qopts"><button class="qopt">evacuation order</button><button class="qopt">national reserve</button><button class="qopt">relief effort</button></div>
+  <div class="qexplain">Safety exit instruction is 'evacuation order'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'Phrasal verb meaning "to become completely extinct":'</div>
+  <div class="qopts"><button class="qopt">clean up</button><button class="qopt">die out</button><button class="qopt">evacuate from</button></div>
+  <div class="qexplain">Extinction phrasal verb is 'die out'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    },
+    {
+        "id": "part-16",
+        "file": "part-16.html",
+        "slug": "advanced-computing-cybersecurity-and-ai",
+        "title": "Part 16 · Advanced Computing, Cybersecurity & AI",
+        "short_title": "Part 16",
+        "subtitle": "Cloud storage solutions, data breaches, machine learning models, UI design, and network infrastructure.",
+        "eyebrow": "PET/FCE Topic: Tech Architecture",
+        "stripe": "#3562e0",
+        "topic_title": "Advanced Computing, Cybersecurity & AI",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can analyze digital infrastructure (*cloud storage, user interface*), AI machine learning, and cybersecurity protocols.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>Architecture & Cloud</td><td>cloud storage, network infrastructure, user interface (UI), scalable</td><td><b>Cloud storage</b> allows scalable remote data access.</td></tr>
+<tr><td>AI & Security</td><td>machine learning, data breach, software update, deploy</td><td>Engineers <b>deployed</b> a patch after the <b>data breach</b>.</td></tr>
+<tr><td>Phrasal Verbs</td><td>hack into, back up, shut down, set up, log into</td><td>Always <b>back up</b> critical files on external drives.</td></tr>
+</tbody>
+</table></div>
+<div class="examples"><span class="label">More Examples</span><ul><li><b>Machine learning models</b> require large datasets for accurate training.</li><li>An intuitive <b>user interface</b> improves software adoption.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">Someone hacked in our corporate server.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>Someone <b>hacked into</b> our corporate server.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="computing-ai">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Use computing architecture terms (cloud storage, UI, scalable, deploy)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use security phrasal verbs (hack into, back up, shut down)</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'Unauthorized access and theft of confidential corporate data is a ___.'</div>
+  <div class="qopts"><button class="qopt">user interface</button><button class="qopt">data breach</button><button class="qopt">cloud storage</button></div>
+  <div class="qexplain">Unauthorized access is a 'data breach'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'Phrasal verb meaning "to create a safety copy of computer data":'</div>
+  <div class="qopts"><button class="qopt">back up</button><button class="qopt">hack into</button><button class="qopt">shut down</button></div>
+  <div class="qexplain">Safety copy action is 'back up'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    },
+    {
+        "id": "part-17",
+        "file": "part-17.html",
+        "slug": "arts-culture-and-performing-arts",
+        "title": "Part 17 · Arts, Culture & Performing Arts",
+        "short_title": "Part 17",
+        "subtitle": "Art exhibitions, architectural heritage, live symphonies, theatrical productions, and cultural curation.",
+        "eyebrow": "PET/FCE Topic: Arts & Heritage",
+        "stripe": "#1c8f56",
+        "topic_title": "Arts, Culture & Performing Arts",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can critique performing arts (*theatrical play, live symphony*), architectural heritage, and museum curation.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>Performing Arts</td><td>symphony, theatrical play, choreography, soundtrack, venue</td><td>The orchestra performed a breathtaking <b>symphony</b>.</td></tr>
+<tr><td>Arts & Curation</td><td>art gallery, exhibition, architectural heritage, aesthetics</td><td>The cathedral is a masterpiece of <b>architectural heritage</b>.</td></tr>
+<tr><td>Phrasal Verbs</td><td>put on, show off, act out, draw on, compose of</td><td>The theater group will <b>put on</b> a new play in May.</td></tr>
+</tbody>
+</table></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>The museum curator organized an impressive <b>art exhibition</b>.</li><li>Her <b>choreography</b> combined traditional dance with modern movement.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">They made a new theatrical play.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>They <b>put on / staged</b> a new theatrical play.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="arts-performing">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Use arts terminology (architectural heritage, symphony, curation)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use theater phrasal verbs (put on, act out, draw on)</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'Phrasal verb meaning "to produce or stage a performance":'</div>
+  <div class="qopts"><button class="qopt">put on</button><button class="qopt">show off</button><button class="qopt">draw on</button></div>
+  <div class="qexplain">Staging a play is 'put on'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'Sequence of steps and movements in dance performance is ___.'</div>
+  <div class="qopts"><button class="qopt">symphony</button><button class="qopt">choreography</button><button class="qopt">aesthetics</button></div>
+  <div class="qexplain">Dance movement planning is 'choreography'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    },
+    {
+        "id": "part-18",
+        "file": "part-18.html",
+        "slug": "philosophy-values-and-moral-ethics",
+        "title": "Part 18 · Philosophy, Values & Moral Ethics",
+        "short_title": "Part 18",
+        "subtitle": "Moral dilemmas, core values, ethical standards, personal integrity, and philosophical reflection.",
+        "eyebrow": "PET/FCE Topic: Ethics & Beliefs",
+        "stripe": "#c9740a",
+        "topic_title": "Philosophy, Values & Moral Ethics",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can evaluate ethical dilemmas (*moral obligation, integrity*), core personal values, and philosophical stances.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>Ethics & Values</td><td>moral dilemma, integrity, core values, ethical standard</td><td>He refused the bribe to maintain his personal <b>integrity</b>.</td></tr>
+<tr><td>Philosophy</td><td>morality, belief system, free will, purpose in life</td><td>Pondering <b>free will</b> is a central topic in philosophy.</td></tr>
+<tr><td>Phrasal Verbs</td><td>stand for, abide by, live by, believe in, reflect on</td><td>Employees must <b>abide by</b> the company code of ethics.</td></tr>
+</tbody>
+</table></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>Whistleblowers often face a difficult <b>moral dilemma</b>.</li><li>Her <b>core values</b> guide her professional decisions.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">You must abide with the ethical rules.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>You must <b>abide by</b> the ethical rules.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="philosophy-ethics">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Use ethical vocabulary (moral dilemma, integrity, core values)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Pair 'abide' with 'by'</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'Quality of being honest and having strong moral principles is ___.'</div>
+  <div class="qopts"><button class="qopt">moral dilemma</button><button class="qopt">integrity</button><button class="qopt">free will</button></div>
+  <div class="qexplain">Honesty and strong moral principles is 'integrity'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'Phrasal verb meaning "to accept and act according to a rule":'</div>
+  <div class="qopts"><button class="qopt">abide by</button><button class="qopt">stand for</button><button class="qopt">reflect on</button></div>
+  <div class="qexplain">Obeying rules is 'abide by'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    },
+    {
+        "id": "part-19",
+        "file": "part-19.html",
+        "slug": "current-affairs-and-global-economy",
+        "title": "Part 19 · Current Affairs & Global Economy",
+        "short_title": "Part 19",
+        "subtitle": "Economic recession, public policy reforms, trade agreements, inflation trends, and geopolitical analysis.",
+        "eyebrow": "PET/FCE Topic: Current Affairs",
+        "stripe": "#7c4fd6",
+        "topic_title": "Current Affairs & Global Economy",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can discuss economic trends (*inflation, recession, trade agreement*) and public policy news.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>Global Economy</td><td>economic recession, inflation, trade agreement, fluctuate</td><td>Rising energy prices accelerated global <b>inflation</b>.</td></tr>
+<tr><td>Public Policy</td><td>policy reform, election campaign, socio-economic trend</td><td>The government proposed a major <b>public policy reform</b>.</td></tr>
+<tr><td>Phrasal Verbs</td><td>bring about, point out, lead to, report on, carry out</td><td>Policy changes will <b>bring about</b> economic growth.</td></tr>
+</tbody>
+</table></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>The two nations signed a landmark <b>trade agreement</b>.</li><li>Market analysts <b>pointed out</b> potential inflation risks.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">The economic recession made prices to fall down.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>The economic recession <b>caused prices to fall</b>.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="current-affairs">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Use current affairs terms (economic recession, inflation, trade agreement)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use policy phrasal verbs (bring about, point out, lead to)</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'Period of temporary economic decline with reduced trade is a ___.'</div>
+  <div class="qopts"><button class="qopt">recession</button><button class="qopt">reform</button><button class="qopt">campaign</button></div>
+  <div class="qexplain">Economic decline is a 'recession'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'Phrasal verb meaning "to cause or make something happen":'</div>
+  <div class="qopts"><button class="qopt">point out</button><button class="qopt">bring about</button><button class="qopt">report on</button></div>
+  <div class="qexplain">Causing change is 'bring about'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    },
+    {
+        "id": "part-20",
+        "file": "part-20.html",
+        "slug": "business-english-leadership-and-negotiation",
+        "title": "Part 20 · Business English, Leadership & Negotiation",
+        "short_title": "Part 20",
+        "subtitle": "Corporate strategy, key performance indicators (KPIs), executive leadership, trade-offs, and negotiating deals.",
+        "eyebrow": "PET/FCE Topic: Business & Negotiation",
+        "stripe": "#a3195b",
+        "topic_title": "Business English, Leadership & Negotiation",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can manage business negotiations (*trade-off, compromise*), corporate strategy, and KPI performance tracking.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>Corporate Strategy</td><td>corporate strategy, KPI, stakeholder, executive leadership</td><td>We reviewed quarterly <b>KPIs</b> during the board meeting.</td></tr>
+<tr><td>Negotiation Skills</td><td>trade-off, compromise, agenda, chair a meeting, contract</td><td>Finding a fair <b>trade-off</b> resolved the contract dispute.</td></tr>
+<tr><td>Phrasal Verbs</td><td>work out, deal with, bring forward, put off, close down</td><td>We managed to <b>work out</b> a mutually beneficial deal.</td></tr>
+</tbody>
+</table></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>The CEO presented the <b>corporate strategy</b> for international expansion.</li><li>She was appointed to <b>chair the meeting</b> on Monday morning.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">We made a compromise agreement after discussing.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>We <b>reached a compromise</b> after discussing.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="business-leadership">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Use business strategy terms (KPI, corporate strategy, trade-off)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Pair 'reach' with 'compromise'</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'Balance or compromise between two desirable but opposing features is a ___.'</div>
+  <div class="qopts"><button class="qopt">KPI</button><button class="qopt">trade-off</button><button class="qopt">agenda</button></div>
+  <div class="qexplain">Balanced compromise is a 'trade-off'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'Phrasal verb meaning "to solve or find a solution to a problem":'</div>
+  <div class="qopts"><button class="qopt">work out</button><button class="qopt">put off</button><button class="qopt">bring forward</button></div>
+  <div class="qexplain">Solving a problem is 'work out'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    },
+    {
+        "id": "part-21",
+        "file": "part-21.html",
+        "slug": "life-skills-decision-making-and-critical-thinking",
+        "title": "Part 21 · Life Skills, Decision Making & Critical Thinking",
+        "short_title": "Part 21",
+        "subtitle": "Critical thinking skills, time management, action planning, evaluating risk factors, and long-term goal setting.",
+        "eyebrow": "PET/FCE Topic: Critical Thinking",
+        "stripe": "#3562e0",
+        "topic_title": "Life Skills, Decision Making & Critical Thinking",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can apply critical thinking (*action plan, risk factor*), prioritize tasks, and execute effective time management.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>Decision & Strategy</td><td>critical thinking, action plan, risk factor, long-term vision</td><td>Evaluate all <b>risk factors</b> before launching the project.</td></tr>
+<tr><td>Life Skills</td><td>time management, prioritize, self-reflection, narrow down</td><td>Effective <b>time management</b> reduces daily stress.</td></tr>
+<tr><td>Phrasal Verbs</td><td>narrow down, think over, map out, work out</td><td>Let's <b>narrow down</b> our options to the top two choices.</td></tr>
+</tbody>
+</table></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>We created a step-by-step <b>action plan</b> to reach our annual targets.</li><li><b>Critical thinking skills</b> allow you to analyze facts objectively.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I need to think over about this offer.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>I need to <b>think over</b> this offer. (No 'about' after 'think over'!)</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="life-critical-thinking">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Use critical thinking vocabulary (action plan, risk factor, prioritize)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Omit 'about' after phrasal verb 'think over'</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'Detailed plan outlining actions needed to reach a goal is an ___.'</div>
+  <div class="qopts"><button class="qopt">action plan</button><button class="qopt">risk factor</button><button class="qopt">self-reflection</button></div>
+  <div class="qexplain">Detailed plan is an 'action plan'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'Phrasal verb meaning "to reduce the number of possibilities":'</div>
+  <div class="qopts"><button class="qopt">map out</button><button class="qopt">narrow down</button><button class="qopt">think over</button></div>
+  <div class="qexplain">Reducing options is 'narrow down'.</div>
  </div>
  <button class="quiz-reset">Reset quiz</button>
 </div>"""
@@ -828,7 +1338,7 @@ PARTS = [
 
 def render_topbar(is_topic=False):
     rel = "../" if is_topic else ""
-    links = [f'<a href="{rel}part-{i}.html">Part {i}</a>' for i in range(1, 12)]
+    links = [f'<a href="{rel}part-{i}.html">Part {i}</a>' for i in range(1, len(PARTS) + 1)]
     nav_html = "\n".join(links)
     return f"""<header class="topbar">
  <div class="topbar-inner">
@@ -958,7 +1468,7 @@ def build_all():
  <div class="container">
  <span class="hero-kicker">COSYlanguages · Level B1</span>
  <h1>English Vocabulary Manual · Level B1</h1>
- <p class="lead">Discussing Ideas, Not Just Things. 11 thematic modules aligned with Cambridge B1 Preliminary (PET) syllabus.</p>
+ <p class="lead">Discussing Ideas, Not Just Things. 21 thematic modules aligned with Cambridge B1 Preliminary (PET) syllabus.</p>
  </div>
 </section>
 <main class="container">
