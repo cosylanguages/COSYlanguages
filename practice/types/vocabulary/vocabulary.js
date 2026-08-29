@@ -404,7 +404,9 @@
                 }));
                 const filteredMorph = morphItems.filter(m => {
                     const mLevel = norm(m.level);
-                    return normalizedLevel === 'all' || mLevel === normalizedLevel || mLevel.includes(normalizedLevel);
+                    const levelOk = normalizedLevel === 'all' || mLevel === normalizedLevel || mLevel.includes(normalizedLevel);
+                    const themeOk = !theme || theme === 'all' || (window.gameUtils && window.gameUtils.isThemeMatch ? window.gameUtils.isThemeMatch(m.theme, theme, m) : true);
+                    return levelOk && themeOk;
                 });
                 pool.push(...filteredMorph);
             }
