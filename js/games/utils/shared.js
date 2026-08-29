@@ -614,9 +614,17 @@
         if (window.location.pathname.includes('/games/')) {
             const prefix = (window.COSY && window.COSY.getPrefix) ? window.COSY.getPrefix() : '../../';
 
+            const familyMap = window.FAMILY_MAP || {
+                'en': 'germanic', 'fr': 'romance', 'it': 'romance', 'ru': 'slavic',
+                'el': 'hellenic', 'es': 'romance', 'de': 'germanic', 'pt': 'romance',
+                'hy': 'armenian', 'ka': 'kartvelian', 'tt': 'turkic', 'ba': 'turkic', 'br': 'celtic'
+            };
+            const family = familyMap[l] || 'germanic';
+
             const scriptsToLoad = [
                 `${prefix}games/data/universal.js`,
-                `${prefix}games/data/${l}/game_data.js`
+                `${prefix}games/data/${l}/game_data.js`,
+                `${prefix}js/data/${family}/${l}/alphabets.js`
             ];
 
             for (const src of scriptsToLoad) {

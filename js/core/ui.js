@@ -3210,7 +3210,7 @@
     };
 
     /* ─── WONDER CLUB & SCIENCE CLUB MODE ROUTER ────────────────── */
-    const setupWonderModeRouter = () => {
+    const setupWonderModeRouter = async () => {
         const currentPathname = window.location.pathname;
         const isWonderSession = currentPathname.includes('sessions/i-couldnt-help-but-wonder/');
         const isKusSession = currentPathname.includes('sessions/keeping-up-with-science/');
@@ -3305,6 +3305,18 @@
             if (mainContainer) {
                 const isFrench = currentPathname.includes('/fr/');
                 const isRussian = currentPathname.includes('/ru/');
+
+                // Ensure science_db.js is loaded if missing
+                if (!window.COSY_SCIENCE_DB) {
+                    const prefix = (window.COSY && typeof window.COSY.getPrefix === 'function') ? window.COSY.getPrefix() : '../../../../../../';
+                    await new Promise((resolve) => {
+                        const s = document.createElement('script');
+                        s.src = prefix + 'js/data/science_db.js';
+                        s.onload = resolve;
+                        s.onerror = resolve;
+                        document.head.appendChild(s);
+                    });
+                }
 
                 // Ensure we only redesign the layout once
                 if (!mainContainer.hasAttribute('data-redesigned')) {
