@@ -491,20 +491,27 @@
     function isValidTheme(t) {
         if (!t || t === 'all') return true;
         const lower = t.toLowerCase().trim();
-        if (lower === 'to_be') return true;
+        const normHyphen = lower.replace(/_/g, '-');
+        const normUnderscore = lower.replace(/-/g, '_');
+        if (lower === 'to_be' || lower === 'to-be') return true;
+
+        if (window.COSY_GRAMMAR_TOPICS) {
+            const allGrammarSlugs = Object.values(window.COSY_GRAMMAR_TOPICS).flat().map(s => s.toLowerCase());
+            if (allGrammarSlugs.includes(lower) || allGrammarSlugs.includes(normHyphen) || allGrammarSlugs.includes(normUnderscore)) return true;
+        }
 
         if (window.COSY_THEME_TREE) {
-            if (window.COSY_THEME_TREE[lower]) return true;
-            if (Object.keys(window.COSY_THEME_TREE).some(k => k.toLowerCase() === lower)) return true;
+            if (window.COSY_THEME_TREE[lower] || window.COSY_THEME_TREE[normUnderscore]) return true;
+            if (Object.keys(window.COSY_THEME_TREE).some(k => k.toLowerCase() === lower || k.toLowerCase() === normUnderscore)) return true;
             const allSubthemes = Object.values(window.COSY_THEME_TREE).flat().map(s => s.toLowerCase());
-            if (allSubthemes.includes(lower)) return true;
+            if (allSubthemes.includes(lower) || allSubthemes.includes(normUnderscore)) return true;
         }
 
         const themeSelect = document.getElementById('theme-filter');
-        if (themeSelect && Array.from(themeSelect.options).some(opt => opt.value.toLowerCase() === lower)) return true;
+        if (themeSelect && Array.from(themeSelect.options).some(opt => opt.value.toLowerCase() === lower || opt.value.toLowerCase() === normHyphen || opt.value.toLowerCase() === normUnderscore)) return true;
 
         const subSelect = document.getElementById('subtheme-filter');
-        if (subSelect && Array.from(subSelect.options).some(opt => opt.value.toLowerCase() === lower)) return true;
+        if (subSelect && Array.from(subSelect.options).some(opt => opt.value.toLowerCase() === lower || opt.value.toLowerCase() === normHyphen || opt.value.toLowerCase() === normUnderscore)) return true;
 
         const knownThemes = [
             'food', 'greetings', 'numbers', 'home', 'family', 'daily_life', 'phrases_idioms',
@@ -513,7 +520,7 @@
             'contrast_pairs', 'ed_vs_ing_adjectives', 'comparative_vs_superlative',
             'tenses_aspect', 'conditionals_moods', 'cases_declensions', 'articles_gender', 'syntax_word_order'
         ];
-        if (knownThemes.includes(lower)) return true;
+        if (knownThemes.includes(lower) || knownThemes.includes(normUnderscore)) return true;
 
         return false;
     }

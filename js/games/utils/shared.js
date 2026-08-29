@@ -525,15 +525,43 @@
         if (Array.from(themeSelect.options).some(opt => opt.value === currentVal)) themeSelect.value = currentVal;
     };
 
-    const isThemeMatch = (itemTheme, selectedTheme) => {
+    const isThemeMatch = (itemTheme, selectedTheme, item) => {
         if (!selectedTheme || selectedTheme === 'all') return true;
-        if (!itemTheme) return false;
-        if (!selectedTheme.includes(':')) return itemTheme === selectedTheme;
+
+        const sel = selectedTheme.toLowerCase().trim();
+        const selHyphen = sel.replace(/_/g, '-');
+        const selUnderscore = sel.replace(/-/g, '_');
+
         if (selectedTheme.startsWith('group:')) {
             const parentTheme = selectedTheme.replace('group:', '');
-            const children = COSY_THEME_TREE[parentTheme] || [];
+            const children = (window.COSY_THEME_TREE && window.COSY_THEME_TREE[parentTheme]) || [];
             return itemTheme === parentTheme || children.includes(itemTheme);
         }
+
+        if (itemTheme) {
+            const itemT = itemTheme.toLowerCase().trim();
+            if (itemT === sel || itemT === selHyphen || itemT === selUnderscore) return true;
+        }
+
+        if (item) {
+            if (item.id) {
+                const itemId = String(item.id).toLowerCase().trim();
+                if (itemId === sel || itemId === selHyphen || itemId === selUnderscore) return true;
+            }
+            if (item.group) {
+                const group = String(item.group).toLowerCase().trim();
+                if (group === sel || group === selHyphen || group === selUnderscore) return true;
+            }
+            if (item.practice_links && Array.isArray(item.practice_links)) {
+                for (const link of item.practice_links) {
+                    if (typeof link === 'string') {
+                        const filename = link.split('/').pop().replace(/\.html$/, '').toLowerCase();
+                        if (filename === sel || filename === selHyphen || filename === selUnderscore) return true;
+                    }
+                }
+            }
+        }
+
         return false;
     };
 
@@ -553,7 +581,7 @@
                 if (!entry.level || window.getLevelCode(entry.level) !== levelId) return false;
             }
             if (category && targetForms && entry.form && !targetForms.includes(entry.form)) return false;
-            if (theme && theme !== 'all' && !isThemeMatch(entry.theme, theme)) return false;
+            if (theme && theme !== 'all' && !isThemeMatch(entry.theme, theme, entry)) return false;
             if (subTheme && subTheme !== 'all' && (entry.sub_theme || '') !== subTheme) return false;
             return true;
         });
@@ -569,7 +597,7 @@
       return pool.filter(item => {
         if (lang && item.language && item.language.toLowerCase() !== lang.toLowerCase()) if (!item.lang || item.lang.toLowerCase() !== lang.toLowerCase()) return false;
         const levelMatch = normalizedLevel === 'all' || (item.level && window.getLevelCode(item.level) === normalizedLevel);
-        const themeMatch = isThemeMatch(item.theme, theme);
+        const themeMatch = isThemeMatch(item.theme, theme, item);
         const subThemeMatch = !subTheme || subTheme === 'all' || (item.sub_theme && item.sub_theme === subTheme);
         return levelMatch && themeMatch && subThemeMatch;
       });
