@@ -1,7 +1,7 @@
 {
   "language": "en",
   "course_type": "general",
-  "level": "advanced",
+  "level": "C1",
   "units": [
     {
       "unit": 1,
@@ -13,9 +13,25 @@
           "title": "Science, Tech & Society - Vocabulary I",
           "duration_minutes": 60,
           "vocabulary": [
-            "C1 terminology"
+            "Empirical evidence",
+            "Systematic review",
+            "Meta-analysis",
+            "Methodological rigor",
+            "Peer review",
+            "Replication crisis",
+            "Synthesize",
+            "Substantiate",
+            "Extrapolate",
+            "Paradigm shift"
           ],
-          "teacher_notes": "Focus on advanced science, tech & society vocabulary and registers."
+          "practice_types": [
+            "reading",
+            "listening",
+            "speaking",
+            "writing"
+          ],
+          "speaking_percent": 40,
+          "teacher_notes": "code: \"EN-C1-001\"\npronunciation: [{\"point\":\"Academic word stress & schwa\",\"explain\":\"Mastering primary stress in multi-syllable academic nouns (e.g. syn-THE-sis, me-tha-do-LO-gi-cal).\",\"examples\":[{\"pattern\":\"synthesize\",\"ipa\":\"/\u02c8s\u026an.\u03b8\u0259.sa\u026az/\",\"word\":\"synthesize\"}],\"visual\":\"\ud83d\udd2c\"}]\ncando: \"Can evaluate and synthesize complex scientific research terminology in formal academic registers\""
         },
         {
           "lesson": 2,
@@ -23,16 +39,40 @@
           "title": "Science, Tech & Society - Advanced Grammar",
           "duration_minutes": 60,
           "grammar": [
-            "Complex structures"
+            "Advanced Hedging & Academic Stance Devices (It is widely acknowledged that..., would appear to indicate)",
+            "Theme-Rheme and Information Packaging (Passive & Cleft structures for focus)",
+            "Modal verbs of speculation and deduction in scientific claims"
           ],
-          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+          "practice_types": [
+            "writing",
+            "reading",
+            "speaking"
+          ],
+          "speaking_percent": 45,
+          "teacher_notes": "code: \"EN-C1-002\"\npronunciation: [{\"point\":\"Subtle intonation in hedging\",\"explain\":\"Using fall-rise intonation patterns when introducing qualified scientific hypotheses.\",\"examples\":[{\"pattern\":\"Arguably, the data suggest...\",\"ipa\":\"/\u02c8\u0251\u02d0\u0261.ju.\u0259.bli/\",\"word\":\"Arguably\"}],\"visual\":\"\ud83d\udde3\ufe0f\"}]\ncando: \"Can hedge scientific claims and organize complex informational focus using theme-rheme structures\""
         },
         {
           "lesson": 3,
           "type": "spoken",
           "title": "Science, Tech & Society - Seminar & Debate",
           "duration_minutes": 90,
-          "teacher_notes": "Critical discussion and presentation skills."
+          "grammar": [
+            "Inversion after negative adverbials (Not only does AI automate..., but...)",
+            "Diplomatic disagreement and stance reframing"
+          ],
+          "vocabulary": [
+            "Ethics committee",
+            "Algorithmic bias",
+            "Technological singularity",
+            "Bioethics",
+            "Disruptive technology"
+          ],
+          "practice_types": [
+            "speaking",
+            "listening"
+          ],
+          "speaking_percent": 80,
+          "teacher_notes": "code: \"EN-C1-003\"\ncando: \"Can lead and participate fluently in academic seminars debating technological ethics and scientific policy\""
         }
       ]
     },
@@ -46,9 +86,25 @@
           "title": "Power & Institutions - Vocabulary I",
           "duration_minutes": 60,
           "vocabulary": [
-            "C1 terminology"
+            "Institutional governance",
+            "Hegemony",
+            "Bureaucratic oversight",
+            "Legislative mandate",
+            "Jurisdiction",
+            "Sovereignty",
+            "Ratify",
+            "Consolidated power",
+            "Check and balance",
+            "Constitutional framework"
           ],
-          "teacher_notes": "Focus on advanced power & institutions vocabulary and registers."
+          "practice_types": [
+            "reading",
+            "listening",
+            "speaking",
+            "writing"
+          ],
+          "speaking_percent": 40,
+          "teacher_notes": "code: \"EN-C1-004\"\npronunciation: [{\"point\":\"Formal political rhetoric intonation\",\"explain\":\"Using deliberate pauses and rhythmic cadences in policy discussions.\",\"examples\":[{\"pattern\":\"sovereignty\",\"ipa\":\"/\u02c8s\u0252v.r\u026an.ti/\",\"word\":\"sovereignty\"}],\"visual\":\"\ud83c\udfdb\ufe0f\"}]\ncando: \"Can utilize specialized political and institutional terminology precisely in formal contexts\""
         },
         {
           "lesson": 2,
@@ -56,16 +112,39 @@
           "title": "Power & Institutions - Advanced Grammar",
           "duration_minutes": 60,
           "grammar": [
-            "Complex structures"
+            "Distancing passives and reporting structures (It is reported to have been enacted..., Allegedly...)",
+            "Mandative Subjunctive in formal legislation and mandates (It is imperative that the law be ratified)"
           ],
-          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+          "practice_types": [
+            "writing",
+            "reading",
+            "speaking"
+          ],
+          "speaking_percent": 45,
+          "teacher_notes": "code: \"EN-C1-005\"\npronunciation: [{\"point\":\"Unstressed subjunctive forms\",\"explain\":\"Pronouncing bare infinitive forms cleanly in formal mandative subjunctive clauses.\",\"examples\":[{\"pattern\":\"that he be appointed\",\"ipa\":\"/\u00f0\u0259t hi\u02d0 bi\u02d0 \u0259\u02c8p\u0254\u026an.t\u026ad/\",\"word\":\"be\"}],\"visual\":\"\u2696\ufe0f\"}]\ncando: \"Can construct formal legal and institutional statements using distancing passives and the mandative subjunctive\""
         },
         {
           "lesson": 3,
           "type": "spoken",
           "title": "Power & Institutions - Seminar & Debate",
           "duration_minutes": 90,
-          "teacher_notes": "Critical discussion and presentation skills."
+          "grammar": [
+            "Cleft sentences for emphasis (What the committee proposed was... / It was the minister who...)",
+            "Rhetorical questions and parliamentary debate structures"
+          ],
+          "vocabulary": [
+            "Policy brief",
+            "Regulatory compliance",
+            "Accountability",
+            "Democratic deficit",
+            "Institutional reform"
+          ],
+          "practice_types": [
+            "speaking",
+            "listening"
+          ],
+          "speaking_percent": 80,
+          "teacher_notes": "code: \"EN-C1-006\"\ncando: \"Can debate institutional governance and policy proposals using advanced rhetorical emphasis\""
         }
       ]
     },
@@ -79,9 +158,25 @@
           "title": "Social Structures - Vocabulary I",
           "duration_minutes": 60,
           "vocabulary": [
-            "C1 terminology"
+            "Socio-economic stratification",
+            "Social mobility",
+            "Demographic transition",
+            "Marginalization",
+            "Egalitarianism",
+            "Cultural assimilation",
+            "Cohesion",
+            "Disparity",
+            "Systemic inequality",
+            "Intergenerational mobility"
           ],
-          "teacher_notes": "Focus on advanced social structures vocabulary and registers."
+          "practice_types": [
+            "reading",
+            "listening",
+            "speaking",
+            "writing"
+          ],
+          "speaking_percent": 40,
+          "teacher_notes": "code: \"EN-C1-007\"\npronunciation: [{\"point\":\"Sociological terminology stress\",\"explain\":\"Accurately placing stress in complex derivative nouns (e.g. stra-ti-fi-CA-tion, e-ga-li-TA-ri-a-nism).\",\"examples\":[{\"pattern\":\"stratification\",\"ipa\":\"/\u02ccstr\u00e6t.\u026a.f\u026a\u02c8ke\u026a.\u0283\u0259n/\",\"word\":\"stratification\"}],\"visual\":\"\ud83c\udf10\"}]\ncando: \"Can analyze and discuss complex societal structures and demographic trends using precise sociological lexicon\""
         },
         {
           "lesson": 2,
@@ -89,16 +184,39 @@
           "title": "Social Structures - Advanced Grammar",
           "duration_minutes": 60,
           "grammar": [
-            "Complex structures"
+            "Cohesion, Ellipsis & Lexical Substitution to eliminate redundancy in sociological texts",
+            "Participle clauses for background information (Having examined the demographic shift, researchers...)"
           ],
-          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+          "practice_types": [
+            "writing",
+            "reading",
+            "speaking"
+          ],
+          "speaking_percent": 45,
+          "teacher_notes": "code: \"EN-C1-008\"\npronunciation: [{\"point\":\"Reduced participle clauses\",\"explain\":\"Smoothly linking participle clauses to main clauses without artificial pauses.\",\"examples\":[{\"pattern\":\"Having examined...\",\"ipa\":\"/\u02c8h\u00e6v.\u026a\u014b \u026a\u0261\u02c8z\u00e6m.\u026and/\",\"word\":\"Having\"}],\"visual\":\"\ud83d\udcdd\"}]\ncando: \"Can craft cohesive sociological analyses using ellipsis, lexical substitution, and participle clauses\""
         },
         {
           "lesson": 3,
           "type": "spoken",
           "title": "Social Structures - Seminar & Debate",
           "duration_minutes": 90,
-          "teacher_notes": "Critical discussion and presentation skills."
+          "grammar": [
+            "Conditionals of concession and hypothesis (Even if socio-economic policy were implemented...)",
+            "Nuanced turn-taking and topic management"
+          ],
+          "vocabulary": [
+            "Gentrifcation",
+            "Urban renewal",
+            "Social safety net",
+            "Inclusive policy",
+            "Community engagement"
+          ],
+          "practice_types": [
+            "speaking",
+            "listening"
+          ],
+          "speaking_percent": 80,
+          "teacher_notes": "code: \"EN-C1-009\"\ncando: \"Can articulate and defend complex viewpoints on societal change and social justice\""
         }
       ]
     },
@@ -112,9 +230,25 @@
           "title": "Knowledge & Truth - Vocabulary I",
           "duration_minutes": 60,
           "vocabulary": [
-            "C1 terminology"
+            "Epistemology",
+            "Cognitive bias",
+            "Empiricism",
+            "Rationalism",
+            "Falsifiability",
+            "Heuristic",
+            "Disinformation",
+            "Veracity",
+            "Fallacy",
+            "Intellectual humility"
           ],
-          "teacher_notes": "Focus on advanced knowledge & truth vocabulary and registers."
+          "practice_types": [
+            "reading",
+            "listening",
+            "speaking",
+            "writing"
+          ],
+          "speaking_percent": 40,
+          "teacher_notes": "code: \"EN-C1-010\"\npronunciation: [{\"point\":\"Philosophical terminology IPA\",\"explain\":\"Mastering vowel quality in abstract philosophical terms (e.g. e-pis-te-MO-lo-gy, heu-RIS-tic).\",\"examples\":[{\"pattern\":\"epistemology\",\"ipa\":\"/\u026a\u02ccp\u026as.t\u0259\u02c8m\u0252l.\u0259.d\u0292i/\",\"word\":\"epistemology\"}],\"visual\":\"\ud83d\udca1\"}]\ncando: \"Can evaluate philosophical concepts of truth, knowledge validation, and cognitive biases\""
         },
         {
           "lesson": 2,
@@ -122,16 +256,39 @@
           "title": "Knowledge & Truth - Advanced Grammar",
           "duration_minutes": 60,
           "grammar": [
-            "Complex structures"
+            "Modality for degrees of certainty and speculation (must have been, could arguably be, is bound to)",
+            "Advanced punctuation mechanics (semicolons, em-dashes for parenthetical stance)"
           ],
-          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+          "practice_types": [
+            "writing",
+            "reading",
+            "speaking"
+          ],
+          "speaking_percent": 45,
+          "teacher_notes": "code: \"EN-C1-011\"\npronunciation: [{\"point\":\"Parenthetical intonation drops\",\"explain\":\"Lowering pitch slightly when delivering parenthetical commentary set off by dashes or commas.\",\"examples\":[{\"pattern\":\"The hypothesis \u2014 though controversial \u2014 was supported...\",\"ipa\":\"/\u00f0\u0259 ha\u026a\u02c8p\u0252\u03b8.\u0259.s\u026as/\",\"word\":\"hypothesis\"}],\"visual\":\"\ud83d\udd8b\ufe0f\"}]\ncando: \"Can express exact epistemic certainty and structure complex parenthetical commentary\""
         },
         {
           "lesson": 3,
           "type": "spoken",
           "title": "Knowledge & Truth - Seminar & Debate",
           "duration_minutes": 90,
-          "teacher_notes": "Critical discussion and presentation skills."
+          "grammar": [
+            "Counter-argumentation and rebuttal structures (Granted that X, it nevertheless follows that Y)",
+            "Challenging logical fallacies in real-time debate"
+          ],
+          "vocabulary": [
+            "Echo chamber",
+            "Confirmation bias",
+            "Media literacy",
+            "Post-truth era",
+            "Critical scrutiny"
+          ],
+          "practice_types": [
+            "speaking",
+            "listening"
+          ],
+          "speaking_percent": 80,
+          "teacher_notes": "code: \"EN-C1-012\"\ncando: \"Can critically challenge logical fallacies and examine post-truth phenomena in academic discourse\""
         }
       ]
     },
@@ -145,9 +302,25 @@
           "title": "Discourse & Argument - Vocabulary I",
           "duration_minutes": 60,
           "vocabulary": [
-            "C1 terminology"
+            "Rhetorical strategy",
+            "Premise",
+            "Syllogism",
+            "Concession",
+            "Refutation",
+            "Eloquent",
+            "Persuasive",
+            "Coherent",
+            "Incisive",
+            "Stance"
           ],
-          "teacher_notes": "Focus on advanced discourse & argument vocabulary and registers."
+          "practice_types": [
+            "reading",
+            "listening",
+            "speaking",
+            "writing"
+          ],
+          "speaking_percent": 40,
+          "teacher_notes": "code: \"EN-C1-013\"\npronunciation: [{\"point\":\"Rhetorical stress in argumentation\",\"explain\":\"Placing nuclear stress on key contrastive lexical items in persuasive speeches.\",\"examples\":[{\"pattern\":\"incisive\",\"ipa\":\"/\u026an\u02c8sa\u026a.s\u026av/\",\"word\":\"incisive\"}],\"visual\":\"\ud83d\udde3\ufe0f\"}]\ncando: \"Can deploy a broad range of rhetorical devices and persuasive argumentative vocabulary\""
         },
         {
           "lesson": 2,
@@ -155,16 +328,39 @@
           "title": "Discourse & Argument - Advanced Grammar",
           "duration_minutes": 60,
           "grammar": [
-            "Complex structures"
+            "Sentence Variety: Periodic, Loose, and Balanced sentence structures for stylistic impact",
+            "Advanced discourse connectors (Notwithstanding, Albeit, Insofar as, In Light of)"
           ],
-          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+          "practice_types": [
+            "writing",
+            "reading",
+            "speaking"
+          ],
+          "speaking_percent": 45,
+          "teacher_notes": "code: \"EN-C1-014\"\npronunciation: [{\"point\":\"Periodic sentence cadence\",\"explain\":\"Building tension by maintaining suspended intonation until the final main clause in periodic sentences.\",\"examples\":[{\"pattern\":\"Notwithstanding the challenges, we succeeded.\",\"ipa\":\"/\u02ccn\u0252t.w\u026a\u03b8\u02c8st\u00e6n.d\u026a\u014b/\",\"word\":\"Notwithstanding\"}],\"visual\":\"\ud83d\udcd0\"}]\ncando: \"Can compose varied sentence structures (periodic, loose, balanced) with sophisticated linking devices\""
         },
         {
           "lesson": 3,
           "type": "spoken",
           "title": "Discourse & Argument - Seminar & Debate",
           "duration_minutes": 90,
-          "teacher_notes": "Critical discussion and presentation skills."
+          "grammar": [
+            "Advanced negotiation, hedging, and floor management in formal panel discussions",
+            "Spontaneous keynote presentation delivery"
+          ],
+          "vocabulary": [
+            "Keynote address",
+            "Panel discussion",
+            "Consensus building",
+            "Rebuttal",
+            "Closing statement"
+          ],
+          "practice_types": [
+            "speaking",
+            "listening"
+          ],
+          "speaking_percent": 80,
+          "teacher_notes": "code: \"EN-C1-015\"\ncando: \"Can deliver structured keynote presentations and lead high-stakes professional debates fluently\""
         }
       ]
     }

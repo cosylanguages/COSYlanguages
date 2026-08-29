@@ -1,0 +1,306 @@
+{
+  "language": "en",
+  "course_type": "general",
+  "level": "C2",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Unit 1: Poetics, Literary Criticism & Narrative Hermeneutics",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Poetics, Narrative Forms & Literary Devices",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Bildungsroman",
+            "Stream of consciousness",
+            "Free indirect discourse",
+            "Pathetic fallacy",
+            "Metonymy",
+            "Synecdoche",
+            "Zeugma",
+            "Litotes",
+            "Allegorize",
+            "Subvert"
+          ],
+          "practice_types": [
+            "reading",
+            "listening",
+            "speaking",
+            "writing"
+          ],
+          "speaking_percent": 45,
+          "teacher_notes": "code: \"EN-C2-001\"\npronunciation: [{\"point\":\"Literary loanword stress & IPA\",\"explain\":\"Mastering stress and vowel quality in literary loanwords (e.g., Bil-dungs-ro-man, sy-nec-do-che).\",\"examples\":[{\"pattern\":\"synecdoche\",\"ipa\":\"/sɪˈnek.də.ki/\",\"word\":\"synecdoche\"}],\"visual\":\"📖\"}]\ncando: \"Can dissect narrative structures, rhetorical figures, and poetic cadences at a native-speaker literary level\""
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Rhetorical Inversion & Stylistic Sentence Cadence",
+          "duration_minutes": 60,
+          "grammar": [
+            "Stylistic subject-verb inversion in narrative prose (On the hill stood the ancient ruin...)",
+            "Chiasmus, parallelism, and rhythmic clause balance"
+          ],
+          "practice_types": [
+            "writing",
+            "reading",
+            "speaking"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "code: \"EN-C2-002\"\ncando: \"Can craft highly stylized literary prose utilizing chiasmus, parallelism, and rhetorical inversion\""
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Unit 2: Rhetoric, Oratory & Persuasive Stance",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Classical Oratory, Ethos & Political Rhetoric",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Oratory",
+            "Ethos",
+            "Pathos",
+            "Logos",
+            "Demagoguery",
+            "Invective",
+            "Polemic",
+            "Peroration",
+            "Rhetorical stance",
+            "Elocution"
+          ],
+          "practice_types": [
+            "speaking",
+            "listening",
+            "reading",
+            "writing"
+          ],
+          "speaking_percent": 55,
+          "teacher_notes": "code: \"EN-C2-003\"\npronunciation: [{\"point\":\"Unconstrained oratorical prosody\",\"explain\":\"Utilizing deliberate pauses, nuclear stress, and pitch contours in formal keynote address delivery.\",\"examples\":[{\"pattern\":\"peroration\",\"ipa\":\"/ˌper.əˈreɪ.ʃən/\",\"word\":\"peroration\"}],\"visual\":\"🎙️\"}]\ncando: \"Can deliver unconstrained public addresses and utilize classical oratorical devices fluently\""
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Near-Native Register Shifting & Information Packaging",
+          "duration_minutes": 60,
+          "grammar": [
+            "Register Shifting: Seamlessly shifting from high academic register to colloquial idiom",
+            "Near-Native Information Packaging & Focal Adjustments"
+          ],
+          "practice_types": [
+            "speaking",
+            "listening",
+            "reading",
+            "writing"
+          ],
+          "speaking_percent": 60,
+          "teacher_notes": "code: \"EN-C2-004\"\ncando: \"Can execute register shifts effortlessly to suit any high-stakes or informal communicative context\""
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Unit 3: Philosophical Hermeneutics & Epistemological Critique",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Hermeneutics, Ontology & Philosophical Discourse",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Hermeneutics",
+            "Ontology",
+            "Phenomenology",
+            "Dialectic",
+            "Determinism",
+            "Existentialism",
+            "Solipsism",
+            "Teleology",
+            "Paradigm",
+            "Interrogating"
+          ],
+          "practice_types": [
+            "reading",
+            "listening",
+            "speaking",
+            "writing"
+          ],
+          "speaking_percent": 45,
+          "teacher_notes": "code: \"EN-C2-005\"\ncando: \"Can interrogate complex philosophical treatises and navigate ontological debate effortlessly\""
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Subtle Modal Nuance, Speculation & Irony",
+          "duration_minutes": 60,
+          "grammar": [
+            "Subtle modal nuances for hypothetical speculation (would have to have been, might conceivably be construed as)",
+            "Irony, understatement (litotes), and double negatives for philosophical stance"
+          ],
+          "practice_types": [
+            "writing",
+            "reading",
+            "speaking"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "code: \"EN-C2-006\"\ncando: \"Can convey subtle irony, litotes, and delicate epistemic qualifications in scholarly commentary\""
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Unit 4: Executive Leadership & Boardroom Negotiations",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Corporate Strategy, Governance & Executive Leadership",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Fiduciary duty",
+            "Hostile takeover",
+            "Consolidated balance sheet",
+            "Divestiture",
+            "Restructuring",
+            "Stakeholder alignment",
+            "Executive mandate",
+            "Synergy",
+            "Capital allocation",
+            "Risk mitigation"
+          ],
+          "practice_types": [
+            "speaking",
+            "listening",
+            "reading",
+            "writing"
+          ],
+          "speaking_percent": 55,
+          "teacher_notes": "code: \"EN-C2-007\"\ncando: \"Can lead high-stakes executive board meetings, direct corporate acquisitions, and handle shareholder disputes\""
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Diplomatic Tact, Hedging & Impasse Resolution",
+          "duration_minutes": 60,
+          "grammar": [
+            "Ultra-diplomatic hedging and stance framing in boardroom deadlocks",
+            "Infinitive and gerund reduced clauses in executive agreements"
+          ],
+          "practice_types": [
+            "speaking",
+            "listening"
+          ],
+          "speaking_percent": 65,
+          "teacher_notes": "code: \"EN-C2-008\"\ncando: \"Can break executive deadlocks, mediate boardroom disputes, and draft high-level corporate agreements\""
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Unit 5: Legal Opinions, Constitutional Jurisprudence & Governance",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Legal Opinions, Appellate Courts & Statutory Interpretation",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Amicus curiae",
+            "Certiorari",
+            "Obiter dictum",
+            "Ratio decidendi",
+            "Statutory construction",
+            "Jurisprudential",
+            "Injunction",
+            "Tort",
+            "Indictment",
+            "Constitutional challenge"
+          ],
+          "practice_types": [
+            "reading",
+            "listening",
+            "speaking",
+            "writing"
+          ],
+          "speaking_percent": 45,
+          "teacher_notes": "code: \"EN-C2-009\"\ncando: \"Can comprehend and critique appellate judicial opinions, statutory interpretations, and constitutional briefs\""
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Complex Archaisms & Legal Syntax Mechanics",
+          "duration_minutes": 60,
+          "grammar": [
+            "Legal syntax mechanics: pre-positional modifiers and archaic adverbs (herein, thereof, notwithstanding)",
+            "Complex conditionality in statutory drafting"
+          ],
+          "practice_types": [
+            "writing",
+            "reading",
+            "speaking"
+          ],
+          "speaking_percent": 45,
+          "teacher_notes": "code: \"EN-C2-010\"\ncando: \"Can parse and construct formal legal syntax, statutory clauses, and appellate arguments\""
+        }
+      ]
+    },
+    {
+      "unit": 6,
+      "title": "Unit 6: Cultural Erudition, Allusions & C2 Master Integration",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Shakespearean Allusions, Classical Loan Words & Metaphorical Networks",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Quixotic",
+            "Byzantine",
+            "Kafkaesque",
+            "Machiavellian",
+            "Pyrrhic victory",
+            "Gordian knot",
+            "Rubicon",
+            "Augury",
+            "Catch-22",
+            "Touchstone"
+          ],
+          "practice_types": [
+            "speaking",
+            "listening",
+            "reading",
+            "writing"
+          ],
+          "speaking_percent": 60,
+          "teacher_notes": "code: \"EN-C2-011\"\ncando: \"Can spontaneously employ classical literary and historical allusions in high-level conversation\""
+        },
+        {
+          "lesson": 2,
+          "type": "srev",
+          "title": "C2 Master Mastery & Native-Level Proficiency Examination",
+          "duration_minutes": 90,
+          "grammar": [
+            "Mastery evaluation of all C2 architectural pillars: poetics, rhetoric, hermeneutics, executive leadership, and legal jurisprudence"
+          ],
+          "vocabulary": [
+            "ALL Unit 1-6 Encyclopedic C2 Lexicon",
+            "C2 Allusions & Metaphors",
+            "C2 Register Shifting Networks"
+          ],
+          "practice_types": [
+            "speaking",
+            "listening",
+            "reading",
+            "writing"
+          ],
+          "speaking_percent": 80,
+          "teacher_notes": "code: \"EN-C2-012\"\ncando: \"Demonstrates complete native-level fluency, unconstrained stylistic control, and cultural erudition across all English domains\""
+        }
+      ]
+    }
+  ]
+}
