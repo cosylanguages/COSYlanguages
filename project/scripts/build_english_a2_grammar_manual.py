@@ -1079,7 +1079,367 @@ TOPICS_DATA = {
 
 # Add all remaining topics into TOPICS_DATA with authentic text matching manual
 def populate_all_topics():
-    # Part 2
+    TOPICS_DATA["present-simple-vs-present-continuous"] = {
+        "title": "Present Simple vs Present Continuous",
+        "subtitle": "Habits and permanent states vs actions happening right now",
+        "eyebrow": "Part 0 · Quick A1 Review",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid var(--role-verb, #1c8f56); padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can contrast daily habits and routines with actions happening at the moment of speaking.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Tense</th><th>Usage</th><th>Signal Words</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>Present Simple</td><td>Habits, routines, permanent facts</td><td>always, usually, every day, often</td><td>I <b>work</b> in London every day.</td></tr>
+<tr><td>Present Continuous</td><td>Actions happening now, temporary trends</td><td>now, at the moment, today, right now</td><td>I <b>am working</b> from home today.</td></tr>
+</tbody>
+</table></div>
+<div class="box rule-box">
+  <p><strong>Key Distinction:</strong> Use <em>Present Simple</em> for regular routines (<em>I play tennis on Saturdays</em>). Use <em>Present Continuous</em> for temporary actions happening right now or around now (<em>I am playing tennis right now</em>).</p>
+</div>
+<div class="box mint">
+ <h3>👀 Stative Verbs Warning</h3>
+ <p>Verbs of thinking, feeling, and possessing (like <em>know, want, like, understand, belong</em>) are rarely used in continuous forms: <em>I know the answer</em> (NOT: <em>I am knowing</em>).</p>
+</div>
+<div class="examples"><span class="label">Examples</span><ul><li>He usually <b>drinks</b> tea, but today he <b>is drinking</b> coffee.</li><li>What <b>are you doing</b> right now? I <b>am studying</b> grammar.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I am working in a bank every day.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>I work in a bank every day.</span></div>
+ </div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">Look! It rains outside.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>Look! It is raining outside.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="present-simple-vs-present-continuous">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Use Present Simple for daily routines and permanent facts</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use Present Continuous for current temporary actions</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'Listen! Somebody ___ at the door.'</div>
+  <div class="qopts"><button class="qopt">is knocking</button><button class="qopt">knocks</button><button class="qopt">knock</button></div>
+  <div class="qexplain">Action happening right now at the moment of speaking requires Present Continuous.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'She usually ___ to work by bus.'</div>
+  <div class="qopts"><button class="qopt">is going</button><button class="qopt">goes</button><button class="qopt">go</button></div>
+  <div class="qexplain">Routine daily habit indicated by 'usually' requires Present Simple.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    }
+
+    TOPICS_DATA["pronouns-review"] = {
+        "title": "Pronouns Review: Subject, Object, Possessive",
+        "subtitle": "Mastering personal, object, possessive adjectives and pronouns",
+        "eyebrow": "Part 0 · Quick A1 Review",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid var(--role-verb, #1c8f56); padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can use all forms of personal pronouns, possessive adjectives, and possessive pronouns without confusion.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Subject</th><th>Object</th><th>Possessive Adj (+ noun)</th><th>Possessive Pronoun (alone)</th></tr></thead>
+<tbody>
+<tr><td>I</td><td>me</td><td>my (car)</td><td>mine</td></tr>
+<tr><td>you</td><td>you</td><td>your (car)</td><td>yours</td></tr>
+<tr><td>he / she / it</td><td>him / her / it</td><td>his / her / its (car)</td><td>his / hers / its</td></tr>
+<tr><td>we / they</td><td>us / them</td><td>our / their (car)</td><td>ours / theirs</td></tr>
+</tbody>
+</table></div>
+<div class="box rule-box">
+  <p><strong>Rule:</strong> Subject pronouns do the action (<em>Subject + Verb</em>). Object pronouns receive the action (<em>Verb + Object</em>). Possessive adjectives need a noun (<em>my book</em>). Possessive pronouns stand alone (<em>The book is mine</em>).</p>
+</div>
+<div class="examples"><span class="label">Examples</span><ul><li><b>She</b> called <b>him</b> yesterday, but <b>he</b> didn't answer <b>her</b>.</li><li>Is this pen <b>yours</b> or <b>mine</b>? It's <b>my</b> pen, so it's <b>mine</b>.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">Me and him went to the market.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>He and I went to the market.</span></div>
+ </div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">This jacket is my.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>This jacket is mine.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="pronouns-review">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Distinguish subject and object pronouns in sentences</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use possessive pronouns without repeating nouns</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'Whose phone is this? It's ___.'</div>
+  <div class="qopts"><button class="qopt">my</button><button class="qopt">mine</button><button class="qopt">me</button></div>
+  <div class="qexplain">Standalone possessive pronoun requires 'mine'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'I saw Sarah yesterday and gave ___ the book.'</div>
+  <div class="qopts"><button class="qopt">her</button><button class="qopt">she</button><button class="qopt">hers</button></div>
+  <div class="qexplain">Object position receiving the verb 'gave' requires object pronoun 'her'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    }
+
+    TOPICS_DATA["past-simple-review"] = {
+        "title": "Past Simple Review",
+        "subtitle": "Regular -ed endings, irregular past forms, and ago",
+        "eyebrow": "Part 1 · Talking About the Past",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid var(--role-verb, #1c8f56); padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can talk clearly about finished actions at specific completed times in the past.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Type</th><th>Affirmative</th><th>Negative</th><th>Question</th></tr></thead>
+<tbody>
+<tr><td>Regular Verbs (+ed)</td><td>I work<b>ed</b> yesterday.</td><td>I <b>didn't work</b> yesterday.</td><td><b>Did</b> you <b>work</b> yesterday?</td></tr>
+<tr><td>Irregular Verbs</td><td>She <b>went</b> to Paris.</td><td>She <b>didn't go</b> to Paris.</td><td><b>Did</b> she <b>go</b> to Paris?</td></tr>
+</tbody>
+</table></div>
+<div class="box rule-box">
+  <p><strong>Rule:</strong> In negative sentences and questions, use <em>did / didn't</em> + the base verb infinitive (NOT the past form). <em>I didn't see him</em> (NOT: <em>I didn't saw him</em>).</p>
+</div>
+<div class="examples"><span class="label">Examples</span><ul><li>They <b>bought</b> a new car two weeks <b>ago</b>.</li><li>What time <b>did</b> you <b>arrive</b> last night?</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I didn't saw him yesterday.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>I didn't see him yesterday.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="past-simple-review">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Use -ed for regular past forms and recall common irregulars</span></label>
+ <label class="check-item"><input type="checkbox"><span>Form negatives and questions using didn't + infinitive</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'Where ___ you go on vacation last summer?'</div>
+  <div class="qopts"><button class="qopt">did</button><button class="qopt">were</button><button class="qopt">have</button></div>
+  <div class="qexplain">Past simple question auxiliary for main action verbs is 'did'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'We ___ our friends three days ago.'</div>
+  <div class="qopts"><button class="qopt">meets</button><button class="qopt">met</button><button class="qopt">have met</button></div>
+  <div class="qexplain">Past simple irregular form of 'meet' is 'met'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    }
+
+    TOPICS_DATA["past-continuous"] = {
+        "title": "Past Continuous",
+        "subtitle": "Actions in progress at a specific moment in the past",
+        "eyebrow": "Part 1 · Talking About the Past",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid var(--role-verb, #1c8f56); padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can describe background scenes and ongoing activities at exact past moments.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Subject</th><th>Affirmative</th><th>Negative</th><th>Question</th></tr></thead>
+<tbody>
+<tr><td>I / He / She / It</td><td>He <b>was sleeping</b>.</td><td>He <b>wasn't sleeping</b>.</td><td><b>Was</b> he <b>sleeping</b>?</td></tr>
+<tr><td>You / We / They</td><td>They <b>were playing</b>.</td><td>They <b>weren't playing</b>.</td><td><b>Were</b> they <b>playing</b>?</td></tr>
+</tbody>
+</table></div>
+<div class="box rule-box">
+  <p><strong>Form:</strong> was/were + verb -ing. Use it for an action that was already in progress at a specific time in the past (e.g., <em>At 8 PM yesterday, I was studying</em>).</p>
+</div>
+<div class="examples"><span class="label">Examples</span><ul><li>What <b>were you doing</b> at midnight? I <b>was watching</b> a film.</li><li>It <b>was raining</b> heavily when we woke up.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">They was playing football at 5 PM.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>They were playing football at 5 PM.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="past-continuous">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Form was/were + verb-ing correctly for all subjects</span></label>
+ <label class="check-item"><input type="checkbox"><span>Describe actions in progress at specific past moments</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'At 10 AM yesterday, she ___ a report.'</div>
+  <div class="qopts"><button class="qopt">is writing</button><button class="qopt">was writing</button><button class="qopt">wrote</button></div>
+  <div class="qexplain">Specific past moment in progress takes 'was writing'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. '___ you sleeping when I called?'</div>
+  <div class="qopts"><button class="qopt">Were</button><button class="qopt">Was</button><button class="qopt">Did</button></div>
+  <div class="qexplain">Subject 'you' in past continuous takes 'Were'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    }
+
+    TOPICS_DATA["used-to"] = {
+        "title": "Used To: Past Habits & Past States",
+        "subtitle": "Things that were true in the past but are not true now",
+        "eyebrow": "Part 1 · Talking About the Past",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid var(--role-verb, #1c8f56); padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can discuss long-term past habits, routines, and states that have since changed.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Form</th><th>Structure</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>Affirmative</td><td>used to + verb</td><td>I <b>used to live</b> in Madrid.</td></tr>
+<tr><td>Negative</td><td>didn't use to + verb</td><td>She <b>didn't use to like</b> spinach.</td></tr>
+<tr><td>Question</td><td>Did ... use to + verb?</td><td><b>Did you use to play</b> the piano?</td></tr>
+</tbody>
+</table></div>
+<div class="box rule-box">
+  <p><strong>Key Rule:</strong> <em>used to + infinitive</em> is ONLY for past habits and states that are NO LONGER true today. For negative forms and questions, drop the '-d': <em>didn't use to</em>, <em>Did you use to...?</em></p>
+</div>
+<div class="examples"><span class="label">Examples</span><ul><li>I <b>used to have</b> long hair when I was a teenager.</li><li>We <b>didn't use to travel</b> much, but now we travel every year.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I use to play football every day when I was 10.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>I used to play football every day when I was 10.</span></div>
+ </div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I didn't used to like vegetables.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>I didn't use to like vegetables.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="used-to">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Form used to + infinitive for past routines</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use didn't use to without -d in negative sentences</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'He ___ live in London, but now he lives in Manchester.'</div>
+  <div class="qopts"><button class="qopt">used to</button><button class="qopt">uses to</button><button class="qopt">is used to</button></div>
+  <div class="qexplain">Past state no longer true takes 'used to'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'She didn't ___ smoke.'</div>
+  <div class="qopts"><button class="qopt">used to</button><button class="qopt">use to</button><button class="qopt">using to</button></div>
+  <div class="qexplain">After 'didn't', the form drops the '-d' and becomes 'use to'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    }
+
+    TOPICS_DATA["no-longer-any-longer-anymore"] = {
+        "title": "No Longer, Any Longer, Anymore",
+        "subtitle": "Expressing actions and states that have ceased",
+        "eyebrow": "Part 1 · Talking About the Past",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid var(--role-verb, #1c8f56); padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can clearly express that a past situation or habit has stopped occurring.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Word / Phrase</th><th>Sentence Type</th><th>Position</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>no longer</td><td>Affirmative verb</td><td>Before main verb / after 'be'</td><td>He <b>no longer works</b> here.</td></tr>
+<tr><td>any longer / anymore</td><td>Negative verb</td><td>At the end of the sentence</td><td>He <b>doesn't work</b> here <b>anymore</b>.</td></tr>
+</tbody>
+</table></div>
+<div class="box rule-box">
+  <p><strong>Rule:</strong> Use <em>no longer</em> with affirmative verbs (<em>She no longer lives here</em>). Use <em>anymore</em> or <em>any longer</em> with negative verbs (<em>She doesn't live here anymore</em>). Do NOT double-negative!</p>
+</div>
+<div class="examples"><span class="label">Examples</span><ul><li>I <b>no longer drink</b> coffee in the evening.</li><li>They don't speak to each other <b>any longer</b>.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">He doesn't work here no longer.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>He doesn't work here anymore.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="no-longer-any-longer-anymore">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Use no longer with affirmative verbs</span></label>
+ <label class="check-item"><input type="checkbox"><span>Place anymore/any longer at the end of negative sentences</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'She doesn't live in Paris ___.'</div>
+  <div class="qopts"><button class="qopt">no longer</button><button class="qopt">anymore</button><button class="qopt">no more</button></div>
+  <div class="qexplain">End of negative clause takes 'anymore'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'We ___ eat meat.'</div>
+  <div class="qopts"><button class="qopt">no longer</button><button class="qopt">don't no longer</button><button class="qopt">anymore</button></div>
+  <div class="qexplain">Mid-sentence with affirmative verb 'eat' takes 'no longer'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    }
+
+    TOPICS_DATA["past-perfect"] = {
+        "title": "Past Perfect: Had + Past Participle",
+        "subtitle": "The action that happened before another past action",
+        "eyebrow": "Part 1 · Talking About the Past",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid var(--role-verb, #1c8f56); padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can clarify the chronological sequence of two connected past events.
+</div>
+<div class="box rule-box">
+  <p><strong>Core Rule:</strong> Master the usage, nuance, and structural patterns of <em>Past Perfect</em> (had + past participle) to show an action completed before another point in the past.</p>
+</div>
+<div class="timeline-wrap"><div class="timeline">
+ <div class="pt" style="left:20%; background:#a3195b;"></div>
+ <div class="pt-label" style="left:20%; top:46px; color:#a3195b;">1st: Train had left (Past Perfect)</div>
+ <div class="pt" style="left:50%; background:#1c9483;"></div>
+ <div class="pt-label" style="left:50%; top:46px; color:#1c9483;">2nd: I arrived (Past Simple)</div>
+ <div class="now-tick" style="left:80%;"></div>
+ <div class="now-label" style="left:80%;">Now</div>
+ <span class="endcap left">past</span><span class="endcap right">future</span>
+</div></div>
+<div class="examples"><span class="label">Examples</span><ul><li>When I arrived at the station, the train <b>had already left</b>.</li><li>She <b>had studied</b> French before she moved to Paris.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">When I arrived, the film already started.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>When I arrived, the film had already started.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="past-perfect">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Form had + past participle correctly</span></label>
+ <label class="check-item"><input type="checkbox"><span>Sequence earlier past actions before past simple events</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'By the time we got home, everyone ___ to bed.'</div>
+  <div class="qopts"><button class="qopt">had gone</button><button class="qopt">went</button><button class="qopt">has gone</button></div>
+  <div class="qexplain">Earlier action completed before past moment takes Past Perfect 'had gone'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'He missed the bus because he ___ up late.'</div>
+  <div class="qopts"><button class="qopt">wakes</button><button class="qopt">had woken</button><button class="qopt">was waking</button></div>
+  <div class="qexplain">The earlier cause before missing the bus requires 'had woken'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    }
+
+
     TOPICS_DATA["present-perfect-form-use"] = {
         "title": "Present Perfect: Form & Use",
         "subtitle": "A past action connected to now",
@@ -1161,38 +1521,28 @@ def populate_all_topics():
 <div class="mistakes">
  <div class="m-title">⚠️ Common mistakes</div>
  <div class="mflip">
-  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I have finished already my work.</span></div>
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I have already finish my homework.</span></div>
   <span class="hint">tap to see the correct form</span>
-  <div class="right-line"><span class="c">✅</span><span>I have already finished my work.</span></div>
- </div>
- <div class="mflip">
-  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">Have you finished already?</span></div>
-  <span class="hint">tap to see the correct form</span>
-  <div class="right-line"><span class="c">✅</span><span>Have you finished yet?</span></div>
- </div>
- <div class="mflip">
-  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I have yet finished.</span></div>
-  <span class="hint">tap to see the correct form</span>
-  <div class="right-line"><span class="c">✅</span><span>I haven't finished yet.</span></div>
+  <div class="right-line"><span class="c">✅</span><span>I have already finished my homework.</span></div>
  </div>
 </div>
 <div class="checklist" data-key="present-perfect-just-already-yet">
  <h3>🎯 Can you already use this?</h3>
- <label class="check-item"><input type="checkbox"><span>Position 'just' and 'already' between have/has and past participle</span></label>
- <label class="check-item"><input type="checkbox"><span>Place 'yet' at the end of negative sentences and questions</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use just and already between have and past participle</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use yet at the end of negative sentences and questions</span></label>
  <div class="check-progress"></div>
 </div>
-<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 2}]'>
+<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
  <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
  <div class="qitem">
-  <div class="qtext">1. 'I haven't called him ___.'</div>
-  <div class="qopts"><button class="qopt">yet</button><button class="qopt">already</button><button class="qopt">just</button></div>
-  <div class="qexplain">Negatives use 'yet' at the end.</div>
+  <div class="qtext">1. 'Have you called Sarah ___?'</div>
+  <div class="qopts"><button class="qopt">yet</button><button class="qopt">just</button><button class="qopt">already</button></div>
+  <div class="qexplain">Question asking about completion takes 'yet' at the end.</div>
  </div>
  <div class="qitem">
-  <div class="qtext">2. 'We have ___ arrived at the station.'</div>
-  <div class="qopts"><button class="qopt">yet</button><button class="qopt">ever</button><button class="qopt">just</button></div>
-  <div class="qexplain">Action happening very recently uses 'just'.</div>
+  <div class="qtext">2. 'I have ___ eaten, so I am not hungry.'</div>
+  <div class="qopts"><button class="qopt">yet</button><button class="qopt">already</button><button class="qopt">still</button></div>
+  <div class="qexplain">Affirmative completion before now takes 'already'.</div>
  </div>
  <button class="quiz-reset">Reset quiz</button>
 </div>"""
@@ -1214,13 +1564,18 @@ def populate_all_topics():
 <tr><td>SINCE</td><td>a starting point in time</td><td>I've lived here since 2021.</td></tr>
 </tbody>
 </table></div>
+<div class="timeline-wrap"><div class="timeline">
+ <div class="span" style="left:25%; width:50%; background:var(--teal-600, #1c9483);"></div>
+ <div class="pt" style="left:25%; background:#c9740a;"></div>
+ <div class="pt-label" style="left:25%; color:#c9740a;">SINCE 2021 (start)</div>
+ <div class="now-tick" style="left:75%;"></div>
+ <div class="now-label" style="left:75%;">Now</div>
+ <div class="pt-label" style="left:50%; top:12px; color:var(--teal-600, #1c9483);">FOR 3 years (duration)</div>
+ <span class="endcap left">past</span><span class="endcap right">future</span>
+</div></div>
 <div class="box mint">
  <h3>👀 Notice: A length of time, or a starting point?</h3>
  <p>Can you count it (three years, two weeks, five minutes)? Use <em>for</em>. Is it a fixed point you could circle on a calendar (2021, last Monday, my birthday)? Use <em>since</em>.</p>
-</div>
-<div class="box why">
- <h3>💡 Memory trick</h3>
- <p><strong>FOR</strong> counts — it's always followed by a number you could count on your fingers (<em>for 3 years</em>). <strong>SINCE</strong> is a snapshot — a fixed date you could point to on a calendar (<em>since 2021</em>).</p>
 </div>
 <div class="examples"><span class="label">More examples</span><ul><li>They've been married for ten years.</li><li>He's worked here since January.</li></ul></div>
 <div class="mistakes">
@@ -1235,11 +1590,6 @@ def populate_all_topics():
   <span class="hint">tap to see the correct form</span>
   <div class="right-line"><span class="c">✅</span><span>I've never been there.</span></div>
  </div>
- <div class="mflip">
-  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">She's worked here for 2020.</span></div>
-  <span class="hint">tap to see the correct form</span>
-  <div class="right-line"><span class="c">✅</span><span>She's worked here since 2020.</span></div>
- </div>
 </div>
 <div class="checklist" data-key="present-perfect-ever-never-for-since">
  <h3>🎯 Can you already use this?</h3>
@@ -1247,7 +1597,7 @@ def populate_all_topics():
  <label class="check-item"><input type="checkbox"><span>Use 'since' with starting points</span></label>
  <div class="check-progress"></div>
 </div>
-<div class="quiz-panel" data-quiz='[{{"correct": 0}}, {{"correct": 1}}]'>
+<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
  <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
  <div class="qitem">
   <div class="qtext">1. 'She has lived here ___ 2018.'</div>
@@ -1265,67 +1615,593 @@ def populate_all_topics():
 
     TOPICS_DATA["present-perfect-vs-past-simple"] = {
         "title": "Present Perfect vs Past Simple",
-        "subtitle": "Choosing the right past tense",
+        "subtitle": "Unfinished time & experience vs finished past time",
         "eyebrow": "Part 2 · Present Perfect",
         "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid var(--role-verb, #1c8f56); padding:12px 16px; margin-bottom:20px; border-radius:4px;">
-  <strong>🎯 What you can communicate after this page:</strong> You can choose between Past Simple and Present Perfect seamlessly based on whether time is stated.
+  <strong>🎯 What you can communicate after this page:</strong> You can smoothly alternate between introducing life experiences and specifying exact past details.
 </div>
 <div class="table-wrap"><table>
 <thead><tr><th>Feature</th><th>Present Perfect</th><th>Past Simple</th></tr></thead>
 <tbody>
-<tr><td><strong>Time</strong></td><td>not mentioned / not finished</td><td>finished & often stated</td></tr>
-<tr><td><strong>Focus</strong></td><td>experience or result now</td><td>the event itself, in the past</td></tr>
-<tr><td><strong>Signal words</strong></td><td>ever, never, already, just, yet, for, since</td><td>yesterday, last week, in 2020, ago</td></tr>
-<tr><td><strong>Example</strong></td><td>I have visited Rome.</td><td>I visited Rome in 2019.</td></tr>
+<tr><td>Time Frame</td><td>Unfinished time / no specific time mentioned</td><td>Finished time (yesterday, in 2020, ago)</td></tr>
+<tr><td>Focus</td><td>Result now or life experience</td><td>Finished event in the past</td></tr>
+<tr><td>Example</td><td>I <b>have visited</b> Paris. (in my life)</td><td>I <b>visited</b> Paris in 2019. (finished year)</td></tr>
 </tbody>
 </table></div>
-<div class="box mint">
- <h3>👀 Notice: Is a time mentioned?</h3>
- <p>Ask: is there a finished time word in the sentence (<em>yesterday, last year, in 2020</em>)? Yes → past simple. No time, just the experience? → present perfect.</p>
+<div class="box rule-box">
+  <p><strong>Gold Standard Conversation Pattern:</strong> Start with Present Perfect to introduce an experience (<em>Have you ever seen a bear?</em>), then switch to Past Simple to ask for specific details (<em>Where did you see it?</em>).</p>
 </div>
-<div class="box why">
- <h3>💡 Memory trick</h3>
- <p><strong>Present Perfect + a specific time word = never together.</strong> If you can hear yourself saying when (<em>yesterday, in 2019, last week</em>), your verb must jump to past simple.</p>
-</div>
+<div class="examples"><span class="label">Examples</span><ul><li>I <b>have broken</b> my leg! (result now: it's in a cast).</li><li>I <b>broke</b> my leg last winter while skiing.</li></ul></div>
 <div class="mistakes">
  <div class="m-title">⚠️ Common mistakes</div>
  <div class="mflip">
-  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I have seen that film yesterday.</span></div>
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I have seen him yesterday.</span></div>
   <span class="hint">tap to see the correct form</span>
-  <div class="right-line"><span class="c">✅</span><span>I saw that film yesterday.</span></div>
- </div>
- <div class="mflip">
-  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I saw that film already.</span></div>
-  <span class="hint">tap to see the correct form</span>
-  <div class="right-line"><span class="c">✅</span><span>I've already seen that film.</span></div>
- </div>
- <div class="mflip">
-  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">She has arrived last night.</span></div>
-  <span class="hint">tap to see the correct form</span>
-  <div class="right-line"><span class="c">✅</span><span>She arrived last night.</span></div>
+  <div class="right-line"><span class="c">✅</span><span>I saw him yesterday.</span></div>
  </div>
 </div>
 <div class="checklist" data-key="present-perfect-vs-past-simple">
  <h3>🎯 Can you already use this?</h3>
- <label class="check-item"><input type="checkbox"><span>Use past simple whenever specific finished time is stated</span></label>
- <label class="check-item"><input type="checkbox"><span>Use present perfect when focusing on experience or result now</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use Past Simple with finished time adverbs (yesterday, ago)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use Present Perfect when timing is unstated or time period is unfinished</span></label>
  <div class="check-progress"></div>
 </div>
 <div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
  <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
  <div class="qitem">
-  <div class="qtext">1. 'I ___ Paris in 2019.'</div>
-  <div class="qopts"><button class="qopt">have visited</button><button class="qopt">visited</button><button class="qopt">visit</button></div>
-  <div class="qexplain">Stated past year '2019' requires Past Simple: visited.</div>
+  <div class="qtext">1. 'I ___ my keys yesterday.'</div>
+  <div class="qopts"><button class="qopt">have lost</button><button class="qopt">lost</button><button class="qopt">lose</button></div>
+  <div class="qexplain">Finished past time 'yesterday' requires Past Simple 'lost'.</div>
  </div>
  <div class="qitem">
-  <div class="qtext">2. 'I ___ that movie twice.'</div>
-  <div class="qopts"><button class="qopt">have seen</button><button class="qopt">saw yesterday</button><button class="qopt">see</button></div>
-  <div class="qexplain">General life experience without stated time uses Present Perfect.</div>
+  <div class="qtext">2. '___ you ever been to London?'</div>
+  <div class="qopts"><button class="qopt">Have</button><button class="qopt">Did</button><button class="qopt">Were</button></div>
+  <div class="qexplain">Life experience question taking 'ever' requires Present Perfect 'Have'.</div>
  </div>
  <button class="quiz-reset">Reset quiz</button>
 </div>"""
     }
+
+    TOPICS_DATA["will-vs-going-to"] = {
+        "title": "Will vs Going To",
+        "subtitle": "Instant decisions vs pre-planned intentions",
+        "eyebrow": "Part 3 · Future & Tense Review",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid var(--role-verb, #1c8f56); padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can distinguish spontaneous decisions and offers from pre-planned intentions and evidence-based predictions.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Form</th><th>Primary Use</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>Going To</td><td>Pre-planned intentions, predictions with present evidence</td><td>I'm <b>going to visit</b> my grandmother this weekend. Look at those dark clouds, it's <b>going to rain</b>!</td></tr>
+<tr><td>Will</td><td>Instant decisions, promises, offers, predictions without evidence</td><td>The phone is ringing. I'll <b>answer</b> it! I <b>will help</b> you carry those bags.</td></tr>
+</tbody>
+</table></div>
+<div class="box rule-box">
+  <p><strong>Rule:</strong> Did you decide BEFORE the moment of speaking? Use <em>be going to</em>. Are you deciding RIGHT NOW, offering help, or making a promise? Use <em>will</em>.</p>
+</div>
+<div class="examples"><span class="label">Examples</span><ul><li>I <b>am going to buy</b> a new car next month (already decided).</li><li>I'm thirsty. I think I<b>'ll get</b> a glass of water (spontaneous choice).</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I decided yesterday: I will buy a laptop tomorrow.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>I decided yesterday: I am going to buy a laptop tomorrow.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="will-vs-going-to">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Use going to for prior intentions and present evidence</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use will for instant choices, promises, and offers</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'Oh, we ran out of milk! No problem, I ___ go get some now.'</div>
+  <div class="qopts"><button class="qopt">am going to</button><button class="qopt">will</button><button class="qopt">go to</button></div>
+  <div class="qexplain">Spontaneous instant decision at the moment of speaking takes 'will'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'We already bought the tickets. We ___ see the concert tonight.'</div>
+  <div class="qopts"><button class="qopt">are going to</button><button class="qopt">will</button><button class="qopt">would</button></div>
+  <div class="qexplain">Pre-planned intention with tickets bought takes 'are going to'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    }
+
+    TOPICS_DATA["present-continuous-for-future"] = {
+        "title": "Present Continuous for Future Arrangements",
+        "subtitle": "Fixed plans with a specific time and place",
+        "eyebrow": "Part 3 · Future & Tense Review",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid var(--role-verb, #1c8f56); padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can discuss confirmed social plans, doctor appointments, and travel arrangements.
+</div>
+<div class="box rule-box">
+  <p><strong>Rule:</strong> Use <em>Present Continuous</em> (am/is/are + verb-ing) for future arrangements that have been organized with another person, booked, or confirmed on a calendar.</p>
+</div>
+<div class="examples"><span class="label">Examples</span><ul><li>I <b>am meeting</b> Sarah at 3 PM tomorrow.</li><li>We <b>are flying</b> to Rome on Friday morning.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I meet the dentist tomorrow at 9 AM.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>I am meeting the dentist tomorrow at 9 AM.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="present-continuous-for-future">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Express fixed personal arrangements with Present Continuous</span></label>
+ <label class="check-item"><input type="checkbox"><span>Include specific future time expressions</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'What ___ you doing this Saturday night?'</div>
+  <div class="qopts"><button class="qopt">are</button><button class="qopt">will</button><button class="qopt">do</button></div>
+  <div class="qexplain">Present continuous for future arrangement question takes 'are'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'We ___ dinner with John at 8 PM tonight.'</div>
+  <div class="qopts"><button class="qopt">will have</button><button class="qopt">are having</button><button class="qopt">have</button></div>
+  <div class="qexplain">Confirmed social arrangement at a fixed time takes 'are having'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    }
+
+    TOPICS_DATA["future-time-clauses"] = {
+        "title": "Future Time Clauses: When, As Soon As, Before, After, Until",
+        "subtitle": "Present simple after time conjunctions referring to the future",
+        "eyebrow": "Part 3 · Future & Tense Review",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid var(--role-verb, #1c8f56); padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can link future actions chronologically using time connectors without repeating 'will'.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Time Conjunction</th><th>Rule</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>when / as soon as / before / after / until</td><td>Use <b>Present Simple</b> in the time clause (after the conjunction)</td><td>I will call you when I <b>arrive</b>.</td></tr>
+<tr><td>Main Clause</td><td>Use <b>Will / Going to</b> in the main clause</td><td>As soon as the meeting <b>finishes</b>, we will leave.</td></tr>
+</tbody>
+</table></div>
+<div class="box rule-box">
+  <p><strong>Golden Rule:</strong> Never use <em>will</em> immediately after time conjunctions (<em>when, as soon as, before, after, until</em>). Use the Present Simple instead!</p>
+</div>
+<div class="examples"><span class="label">Examples</span><ul><li>I'll wait here <b>until</b> you <b>come</b> back.</li><li><b>Before</b> she <b>leaves</b> tomorrow, she will sign the contract.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I will call you when I will arrive home.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>I will call you when I arrive home.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="future-time-clauses">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Use Present Simple directly after when, as soon as, until</span></label>
+ <label class="check-item"><input type="checkbox"><span>Avoid putting 'will' inside the time clause</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'As soon as he ___, we will start dinner.'</div>
+  <div class="qopts"><button class="qopt">will arrive</button><button class="qopt">arrives</button><button class="qopt">arrived</button></div>
+  <div class="qexplain">After 'as soon as', use Present Simple 'arrives'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'I won't leave until you ___ ready.'</div>
+  <div class="qopts"><button class="qopt">are</button><button class="qopt">will be</button><button class="qopt">were</button></div>
+  <div class="qexplain">After 'until', use Present Simple 'are'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    }
+
+
+    TOPICS_DATA["have-to-must-mustnt"] = {
+        "title": "Have To, Must, Mustn't, Don't Have To",
+        "subtitle": "Obligation, prohibition, and lack of necessity",
+        "eyebrow": "Part 4 · Modals & Verb Patterns",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid var(--role-verb, #1c8f56); padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can express mandatory rules, strict prohibitions, and options where something is not necessary.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Modal</th><th>Meaning</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>have to / must</td><td>Obligation (necessary)</td><td>You <b>have to wear</b> a seatbelt. I <b>must call</b> my doctor.</td></tr>
+<tr><td>mustn't</td><td>Prohibition (forbidden / don't do it!)</td><td>You <b>mustn't smoke</b> here.</td></tr>
+<tr><td>don't have to</td><td>No obligation (optional)</td><td>You <b>don't have to come</b> if you are busy.</td></tr>
+</tbody>
+</table></div>
+<div class="box rule-box">
+  <p><strong>Crucial Distinction:</strong> <em>Mustn't</em> = 100% forbidden (Do NOT do it!). <em>Don't have to</em> = unnecessary (You can do it if you want, but it's not required).</p>
+</div>
+<div class="examples"><span class="label">Examples</span><ul><li>In football, you <b>mustn't touch</b> the ball with your hands.</li><li>It's Sunday, so I <b>don't have to get up</b> early.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">You mustn't pay, it's free!</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>You don't have to pay, it's free!</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="have-to-must-mustnt">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Use must / have to for external or personal obligations</span></label>
+ <label class="check-item"><input type="checkbox"><span>Contrast mustn't (prohibition) with don't have to (optional)</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'Tomorrow is a holiday, so I ___ go to work.'</div>
+  <div class="qopts"><button class="qopt">mustn't</button><button class="qopt">don't have to</button><button class="qopt">must</button></div>
+  <div class="qexplain">Lack of obligation (not necessary) requires 'don't have to'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'You ___ touch that wire! It's dangerous!'</div>
+  <div class="qopts"><button class="qopt">mustn't</button><button class="qopt">don't have to</button><button class="qopt">haven't to</button></div>
+  <div class="qexplain">Strict prohibition (forbidden / dangerous) takes 'mustn't'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    }
+
+    TOPICS_DATA["should-shouldnt"] = {
+        "title": "Should & Shouldn't",
+        "subtitle": "Giving advice and making recommendations",
+        "eyebrow": "Part 4 · Modals & Verb Patterns",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid var(--role-verb, #1c8f56); padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can give friendly advice, make health recommendations, and express opinions on what is best to do.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Form</th><th>Structure</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>Affirmative</td><td>subject + should + verb</td><td>You <b>should see</b> a doctor.</td></tr>
+<tr><td>Negative</td><td>subject + shouldn't + verb</td><td>You <b>shouldn't drink</b> cold water if you have a sore throat.</td></tr>
+<tr><td>Question</td><td>Should + subject + verb?</td><td><b>Should I buy</b> this jacket?</td></tr>
+</tbody>
+</table></div>
+<div class="box rule-box">
+  <p><strong>Rule:</strong> <em>Should</em> is followed by the base infinitive without 'to' (<em>You should eat</em>, NOT <em>You should to eat</em>). It expresses a good idea or advice, not a strict rule.</p>
+</div>
+<div class="examples"><span class="label">Examples</span><ul><li>If you feel tired, you <b>should go</b> to sleep early.</li><li>He <b>shouldn't spend</b> so much time on his phone.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">You should to visit the museum.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>You should visit the museum.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="should-shouldnt">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Use should / shouldn't + bare infinitive for advice</span></label>
+ <label class="check-item"><input type="checkbox"><span>Ask for advice using 'Should I...?'</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'You have a headache. You ___ take an aspirin.'</div>
+  <div class="qopts"><button class="qopt">should</button><button class="qopt">should to</button><button class="qopt">mustn't</button></div>
+  <div class="qexplain">Modal 'should' is followed directly by base verb 'take' without 'to'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. '___ I call her now or wait until tomorrow?'</div>
+  <div class="qopts"><button class="qopt">Do I should</button><button class="qopt">Should</button><button class="qopt">Must to</button></div>
+  <div class="qexplain">Asking for advice starts with 'Should I...?'</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    }
+
+    TOPICS_DATA["may-might"] = {
+        "title": "May & Might",
+        "subtitle": "Expressing present and future possibility",
+        "eyebrow": "Part 4 · Modals & Verb Patterns",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid var(--role-verb, #1c8f56); padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can express uncertainty and talk about possible future outcomes.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Modal</th><th>Meaning</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>might / may</td><td>Possibility (maybe yes, maybe no)</td><td>It <b>might rain</b> later. Take an umbrella.</td></tr>
+<tr><td>might not / may not</td><td>Possible negative outcome</td><td>She <b>might not come</b> to the party tonight.</td></tr>
+</tbody>
+</table></div>
+<div class="box rule-box">
+  <p><strong>Rule:</strong> Use <em>may</em> or <em>might</em> + base verb infinitive to express 30–50% possibility. <em>Might</em> is extremely common in spoken English.</p>
+</div>
+<div class="examples"><span class="label">Examples</span><ul><li>We <b>might go</b> to Italy this summer, but we haven't decided yet.</li><li>Be careful, the floor <b>may be</b> slippery.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">It might to snow tomorrow.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>It might snow tomorrow.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="may-might">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Express future uncertainty with might / may</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use base infinitives without 'to' after may/might</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'Take a jacket. It ___ get cold tonight.'</div>
+  <div class="qopts"><button class="qopt">must</button><button class="qopt">might</button><button class="qopt">might to</button></div>
+  <div class="qexplain">Expressing future possibility takes 'might' + base verb.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'I'm not sure, but I ___ be a few minutes late.'</div>
+  <div class="qopts"><button class="qopt">may</button><button class="qopt">will definitely</button><button class="qopt">am</button></div>
+  <div class="qexplain">Uncertainty indicated by 'not sure' takes 'may'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    }
+
+    TOPICS_DATA["could"] = {
+        "title": "Could: Past Ability & Polite Requests",
+        "subtitle": "General past ability, possibility, and polite asking",
+        "eyebrow": "Part 4 · Modals & Verb Patterns",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid var(--role-verb, #1c8f56); padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can describe past skills and make polite requests in stores or restaurants.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Function</th><th>Structure</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>Past Ability</td><td>subject + could + verb</td><td>When I was five, I <b>could swim</b>.</td></tr>
+<tr><td>Polite Request</td><td>Could you + verb...?</td><td><b>Could you pass</b> the salt, please?</td></tr>
+<tr><td>Possibility</td><td>subject + could + verb</td><td>We <b>could go</b> to the cinema tonight if you like.</td></tr>
+</tbody>
+</table></div>
+<div class="box rule-box">
+  <p><strong>Rule:</strong> <em>Could</em> is the past form of <em>can</em> for general abilities (<em>I could swim</em>). In present requests, <em>Could you...?</em> is more polite than <em>Can you...?</em></p>
+</div>
+<div class="examples"><span class="label">Examples</span><ul><li>My grandfather <b>could speak</b> four languages.</li><li><b>Could you open</b> the window, please?</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">Could you to help me?</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>Could you help me?</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="could">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Use could for general past skills and abilities</span></label>
+ <label class="check-item"><input type="checkbox"><span>Make polite requests using 'Could you...?'</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. '___ you please speak a little slower?'</div>
+  <div class="qopts"><button class="qopt">Could</button><button class="qopt">Did</button><button class="qopt">Are</button></div>
+  <div class="qexplain">Polite request to a speaker takes 'Could'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'When he was young, he ___ run very fast.'</div>
+  <div class="qopts"><button class="qopt">can</button><button class="qopt">could</button><button class="qopt">could to</button></div>
+  <div class="qexplain">Past ability in youth takes 'could'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    }
+
+    TOPICS_DATA["infinitives-and-gerunds"] = {
+        "title": "Infinitives & Gerunds",
+        "subtitle": "Verbs followed by to + verb vs verbs followed by verb-ing",
+        "eyebrow": "Part 4 · Modals & Verb Patterns",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid var(--role-verb, #1c8f56); padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can join two verbs together accurately according to English verb patterns.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Pattern</th><th>Common Trigger Verbs</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>Verb + Infinitive (to + verb)</td><td>want, hope, decide, plan, offer, promise, need</td><td>I <b>want to learn</b> Spanish. She <b>decided to buy</b> the car.</td></tr>
+<tr><td>Verb + Gerund (verb-ing)</td><td>enjoy, mind, avoid, finish, suggest, keep</td><td>I <b>enjoy swimming</b>. Would you <b>mind closing</b> the door?</td></tr>
+</tbody>
+</table></div>
+<div class="box rule-box">
+  <p><strong>Rule:</strong> Memorize which trigger verbs take <em>to + infinitive</em> and which take <em>-ing</em>. After prepositions (<em>about, in, of, for</em>), ALWAYS use the gerund: <em>interested in learning</em>.</p>
+</div>
+<div class="examples"><span class="label">Examples</span><ul><li>We <b>decided to stay</b> at home.</li><li>They <b>finished eating</b> dinner at 8 PM.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I enjoy to read books.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>I enjoy reading books.</span></div>
+ </div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I want going home.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>I want to go home.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="infinitives-and-gerunds">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Pair want, decide, hope with to + infinitive</span></label>
+ <label class="check-item"><input type="checkbox"><span>Pair enjoy, finish, mind with verb-ing</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'She promised ___ me tomorrow.'</div>
+  <div class="qopts"><button class="qopt">calling</button><button class="qopt">to call</button><button class="qopt">call</button></div>
+  <div class="qexplain">Trigger verb 'promise' takes 'to + infinitive'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'Do you mind ___ the window?'</div>
+  <div class="qopts"><button class="qopt">opening</button><button class="qopt">to open</button><button class="qopt">open</button></div>
+  <div class="qexplain">Trigger verb 'mind' takes gerund '-ing'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    }
+
+    TOPICS_DATA["expressing-purpose-to-for"] = {
+        "title": "Expressing Purpose: To vs For",
+        "subtitle": "Explaining why you do something or what an item is used for",
+        "eyebrow": "Part 4 · Modals & Verb Patterns",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid var(--role-verb, #1c8f56); padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can explain reasons, motives, and the function of tools without confusing 'to' and 'for'.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Purpose Pattern</th><th>Structure</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>Action purpose (Why you do something)</td><td><b>to + infinitive</b></td><td>I went to the shop <b>to buy</b> bread.</td></tr>
+<tr><td>Noun purpose (For a thing / person)</td><td><b>for + noun</b></td><td>I went to the shop <b>for some bread</b>.</td></tr>
+<tr><td>General function of a tool</td><td><b>for + verb-ing</b></td><td>This knife is <b>for cutting</b> bread.</td></tr>
+</tbody>
+</table></div>
+<div class="box rule-box">
+  <p><strong>Rule:</strong> Use <em>to + verb</em> when stating the reason for an action (<em>I came here to study</em>, NOT <em>for study</em> or <em>for to study</em>).</p>
+</div>
+<div class="examples"><span class="label">Examples</span><ul><li>She is saving money <b>to buy</b> a laptop.</li><li>This key is <b>for opening</b> the garage door.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I went to London for learn English.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>I went to London to learn English.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="expressing-purpose-to-for">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Use to + verb to express why you performed an action</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use for + noun for target items or recipients</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'He phoned me ___ ask a question.'</div>
+  <div class="qopts"><button class="qopt">to</button><button class="qopt">for</button><button class="qopt">for to</button></div>
+  <div class="qexplain">Reason for an action takes infinitive connector 'to'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'This gift is ___ you.'</div>
+  <div class="qopts"><button class="qopt">to</button><button class="qopt">for</button><button class="qopt">from to</button></div>
+  <div class="qexplain">Target recipient noun takes 'for'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    }
+
+    TOPICS_DATA["do-vs-make"] = {
+        "title": "Do vs Make",
+        "subtitle": "Mastering high-frequency collocations with do and make",
+        "eyebrow": "Part 4 · Modals & Verb Patterns",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid var(--role-verb, #1c8f56); padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can correctly pair activities, tasks, creations, and decisions with 'do' or 'make'.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Verb</th><th>General Meaning</th><th>Common Collocations</th></tr></thead>
+<tbody>
+<tr><td>DO</td><td>Tasks, jobs, general unstated activities</td><td><b>do</b> homework, <b>do</b> housework, <b>do</b> research, <b>do</b> a favor, <b>do</b> your best</td></tr>
+<tr><td>MAKE</td><td>Creating, producing, decisions, speaking</td><td><b>make</b> coffee, <b>make</b> a mistake, <b>make</b> a decision, <b>make</b> money, <b>make</b> a noise</td></tr>
+</tbody>
+</table></div>
+<div class="box rule-box">
+  <p><strong>Rule:</strong> <em>DO</em> = actions, obligations, routines. <em>MAKE</em> = creating something new or producing an effect/result.</p>
+</div>
+<div class="examples"><span class="label">Examples</span><ul><li>I need to <b>do my homework</b> before I <b>make dinner</b>.</li><li>Don't worry if you <b>make a mistake</b>.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I need to make my homework.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>I need to do my homework.</span></div>
+ </div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">She did a big mistake.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>She made a big mistake.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="do-vs-make">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Use 'do' for tasks, jobs, homework, and housework</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use 'make' for decisions, mistakes, and cooking</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'It's late. I have to ___ a decision.'</div>
+  <div class="qopts"><button class="qopt">do</button><button class="qopt">make</button><button class="qopt">create</button></div>
+  <div class="qexplain">Decisions collocate with 'make'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'Could you ___ me a favor, please?'</div>
+  <div class="qopts"><button class="qopt">do</button><button class="qopt">make</button><button class="qopt">give</button></div>
+  <div class="qexplain">Favors collocate with 'do'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    }
+
+    TOPICS_DATA["review-of-verb-tenses"] = {
+        "title": "Review of Verb Tenses",
+        "subtitle": "Side-by-side comparison of present, past, and future tenses",
+        "eyebrow": "Part 3 · Future & Tense Review",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid var(--role-verb, #1c8f56); padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can confidently select and alternate between all major A1–A2 verb tenses during continuous speech.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Tense</th><th>Form</th><th>Core Concept</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>Present Simple</td><td>verb / verb-s</td><td>Habits & general truths</td><td>I work every day.</td></tr>
+<tr><td>Present Continuous</td><td>am/is/are + verb-ing</td><td>Actions right now / arrangements</td><td>I am working right now.</td></tr>
+<tr><td>Past Simple</td><td>past form (-ed / irregular)</td><td>Finished past actions at specific time</td><td>I worked yesterday.</td></tr>
+<tr><td>Past Continuous</td><td>was/were + verb-ing</td><td>Action in progress in the past</td><td>I was working at 4 PM.</td></tr>
+<tr><td>Present Perfect</td><td>have/has + past participle</td><td>Past connected to present / experience</td><td>I have worked here for years.</td></tr>
+<tr><td>Future (Going to / Will)</td><td>going to / will + verb</td><td>Intentions vs instant decisions</td><td>I am going to work tomorrow. / I'll work late.</td></tr>
+</tbody>
+</table></div>
+<div class="box rule-box">
+  <p><strong>Mastery Checklist:</strong> Match the time adverbial to the correct tense: <em>yesterday</em> ➔ Past Simple; <em>now</em> ➔ Present Continuous; <em>since 2020</em> ➔ Present Perfect; <em>tomorrow</em> ➔ Future.</p>
+</div>
+<div class="examples"><span class="label">Examples</span><ul><li>Yesterday I <b>went</b> shopping, but today I <b>am resting</b> at home.</li><li>I <b>have known</b> Mark since 2018, and we <b>are meeting</b> tomorrow.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I live here since 2015 and I am working here yesterday.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>I have lived here since 2015 and I worked here yesterday.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="review-of-verb-tenses">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Identify which tense matches specific time indicators</span></label>
+ <label class="check-item"><input type="checkbox"><span>Switch tenses naturally when narrating stories</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'I ___ three emails so far this morning.'</div>
+  <div class="qopts"><button class="qopt">sent</button><button class="qopt">have sent</button><button class="qopt">send</button></div>
+  <div class="qexplain">Unfinished period 'so far this morning' takes Present Perfect 'have sent'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'While I ___ home, it started to rain.'</div>
+  <div class="qopts"><button class="qopt">was walking</button><button class="qopt">walked</button><button class="qopt">have walked</button></div>
+  <div class="qexplain">Background action interrupted by 'started' takes Past Continuous 'was walking'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    }
+
 
 populate_all_topics()
 
