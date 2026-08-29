@@ -2,5 +2,81 @@
   "language": "en",
   "category": "sentence_types",
   "level": "A1-C2",
-  "groups": []
+  "groups": [
+    {
+      "id": "questions_question_words",
+      "label": "Question Words & Formation",
+      "level": "starter",
+      "emoji": "❓",
+      "definition": "Wh- questions and Yes/No question structure",
+      "rules": [
+        "Invert subject and auxiliary/verb to form questions.",
+        "Wh- words (Who, What, Where, When, Why, How) come at the beginning.",
+        "Use Do/Does/Did for simple tenses without auxiliary verbs."
+      ],
+      "examples": [
+        {
+          "t": "Where do you live?",
+          "m": "Wh- question"
+        },
+        {
+          "t": "Are you ready?",
+          "m": "Yes/No question with Be"
+        }
+      ],
+      "practice_links": [
+        "manuals/en/grammar/a1/topics/question-words.html"
+      ]
+    },
+    {
+      "id": "conjunctions",
+      "label": "Conjunctions & Linking Words",
+      "level": "starter",
+      "emoji": "🔗",
+      "definition": "Connecting sentences and clauses (and, but, or, because, so)",
+      "rules": [
+        "Use 'and' to add information.",
+        "Use 'but' to show contrast.",
+        "Use 'because' for reasons and 'so' for results."
+      ],
+      "examples": [
+        {
+          "t": "I like coffee and tea.",
+          "m": "Addition"
+        },
+        {
+          "t": "He is tired but happy.",
+          "m": "Contrast"
+        }
+      ],
+      "practice_links": [
+        "manuals/en/grammar/a1/topics/conjunctions.html"
+      ]
+    },
+    {
+      "id": "imperatives",
+      "label": "Imperatives & Instructions",
+      "level": "starter",
+      "emoji": "📢",
+      "definition": "Giving commands, rules, and directions",
+      "rules": [
+        "Use the base form of the verb without subject.",
+        "Use 'Don't' for negative imperatives.",
+        "Add 'please' for polite requests."
+      ],
+      "examples": [
+        {
+          "t": "Open the door, please.",
+          "m": "Affirmative imperative"
+        },
+        {
+          "t": "Don't touch that!",
+          "m": "Negative imperative"
+        }
+      ],
+      "practice_links": [
+        "manuals/en/grammar/a1/topics/imperatives.html"
+      ]
+    }
+  ]
 }

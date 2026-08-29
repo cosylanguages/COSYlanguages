@@ -2,5 +2,50 @@
   "language": "en",
   "category": "intonation",
   "level": "A1-C2",
-  "groups": []
+  "groups": [
+    {
+      "id": "basic_intonation",
+      "label": "Rising & Falling Intonation",
+      "level": "starter",
+      "emoji": "📈",
+      "definition": "Pitch movement in statements and questions",
+      "rules": [
+        "Yes/No questions end with rising intonation ↗.",
+        "Wh- questions and statements end with falling intonation ↘."
+      ],
+      "examples": [
+        {
+          "t": "Are you ready? ↗",
+          "m": "Yes/No rising intonation"
+        },
+        {
+          "t": "Where do you live? ↘",
+          "m": "Wh- falling intonation"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "connected_speech",
+      "label": "Connected Speech & Linking",
+      "level": "elementary",
+      "emoji": "🌊",
+      "definition": "Consonant-to-vowel linking in natural speech",
+      "rules": [
+        "Final consonants link smoothly to initial vowels of the next word.",
+        "Words flow together in continuous speech streams."
+      ],
+      "examples": [
+        {
+          "t": "An apple ➔ /ənæp.əl/",
+          "m": "Consonant-vowel link"
+        },
+        {
+          "t": "Stand up ➔ /stændʌp/",
+          "m": "Consonant-vowel link"
+        }
+      ],
+      "practice_links": null
+    }
+  ]
 }

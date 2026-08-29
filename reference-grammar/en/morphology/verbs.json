@@ -80,7 +80,8 @@
         }
       ],
       "practice_links": [
-        "manuals/en/grammar/a1/en-past-simple.html"
+        "manuals/en/grammar/a1/topics/past-simple-regular.html",
+        "manuals/en/grammar/a1/topics/past-simple-irregular.html"
       ]
     },
     {
@@ -120,6 +121,9 @@
             "manuals/en/grammar/a1/topics/past-simple-be.html"
           ]
         }
+      ],
+      "practice_links": [
+        "manuals/en/grammar/a1/topics/past-simple-be.html"
       ]
     },
     {
@@ -135,6 +139,9 @@
             "manuals/en/grammar/a1/topics/past-simple-regular.html"
           ]
         }
+      ],
+      "practice_links": [
+        "manuals/en/grammar/a1/topics/past-simple-regular.html"
       ]
     },
     {
@@ -150,6 +157,9 @@
             "manuals/en/grammar/a1/topics/past-simple-irregular.html"
           ]
         }
+      ],
+      "practice_links": [
+        "manuals/en/grammar/a1/topics/past-simple-irregular.html"
       ]
     },
     {
@@ -165,6 +175,9 @@
             "manuals/en/grammar/a1/topics/present-continuous.html"
           ]
         }
+      ],
+      "practice_links": [
+        "manuals/en/grammar/a1/topics/present-continuous.html"
       ]
     },
     {
@@ -180,6 +193,9 @@
             "manuals/en/grammar/a1/topics/have-got.html"
           ]
         }
+      ],
+      "practice_links": [
+        "manuals/en/grammar/a1/topics/have-got.html"
       ]
     },
     {
@@ -195,6 +211,9 @@
             "manuals/en/grammar/a1/topics/can-cant.html"
           ]
         }
+      ],
+      "practice_links": [
+        "manuals/en/grammar/a1/topics/can-cant.html"
       ]
     },
     {
@@ -210,6 +229,9 @@
             "manuals/en/grammar/a1/topics/could-couldnt.html"
           ]
         }
+      ],
+      "practice_links": [
+        "manuals/en/grammar/a1/topics/could-couldnt.html"
       ]
     },
     {
@@ -225,6 +247,9 @@
             "manuals/en/grammar/a1/topics/will.html"
           ]
         }
+      ],
+      "practice_links": [
+        "manuals/en/grammar/a1/topics/will.html"
       ]
     },
     {
@@ -240,6 +265,9 @@
             "manuals/en/grammar/a1/topics/irregular-verbs.html"
           ]
         }
+      ],
+      "practice_links": [
+        "manuals/en/grammar/a1/topics/irregular-verbs.html"
       ]
     },
     {
@@ -255,6 +283,9 @@
             "manuals/en/grammar/a1/topics/imperatives.html"
           ]
         }
+      ],
+      "practice_links": [
+        "manuals/en/grammar/a1/topics/imperatives.html"
       ]
     },
     {
@@ -270,6 +301,9 @@
             "manuals/en/grammar/a1/topics/like-love-hate.html"
           ]
         }
+      ],
+      "practice_links": [
+        "manuals/en/grammar/a1/topics/like-love-hate.html"
       ]
     }
   ]

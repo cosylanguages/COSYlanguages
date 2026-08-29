@@ -25,7 +25,8 @@
         }
       ],
       "practice_links": [
-        "manuals/en/grammar/a1/en-plurals.html"
+        "manuals/en/grammar/a1/topics/plurals-regular.html",
+        "manuals/en/grammar/a1/topics/plurals-irregular.html"
       ]
     },
     {
@@ -41,6 +42,9 @@
             "manuals/en/grammar/a1/topics/plurals-regular.html"
           ]
         }
+      ],
+      "practice_links": [
+        "manuals/en/grammar/a1/topics/plurals-regular.html"
       ]
     },
     {
@@ -56,6 +60,9 @@
             "manuals/en/grammar/a1/topics/plurals-irregular.html"
           ]
         }
+      ],
+      "practice_links": [
+        "manuals/en/grammar/a1/topics/plurals-irregular.html"
       ]
     },
     {
@@ -71,6 +78,9 @@
             "manuals/en/grammar/a1/topics/countable-uncountable.html"
           ]
         }
+      ],
+      "practice_links": [
+        "manuals/en/grammar/a1/topics/countable-uncountable.html"
       ]
     },
     {
@@ -86,6 +96,9 @@
             "manuals/en/grammar/a1/topics/possessive-s.html"
           ]
         }
+      ],
+      "practice_links": [
+        "manuals/en/grammar/a1/topics/possessive-s.html"
       ]
     }
   ]

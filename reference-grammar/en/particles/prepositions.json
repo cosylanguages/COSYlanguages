@@ -2,5 +2,87 @@
   "language": "en",
   "category": "prepositions",
   "level": "A1-C2",
-  "groups": []
+  "groups": [
+    {
+      "id": "prepositions_place",
+      "label": "Prepositions of Place (In, On, At)",
+      "level": "starter",
+      "emoji": "📍",
+      "definition": "Describing location and spatial relationships",
+      "rules": [
+        "IN: enclosed spaces, cities, countries.",
+        "ON: surfaces, floors, streets.",
+        "AT: specific points, addresses, events."
+      ],
+      "examples": [
+        {
+          "t": "She is in the kitchen.",
+          "m": "Enclosed space"
+        },
+        {
+          "t": "The key is on the table.",
+          "m": "Surface"
+        },
+        {
+          "t": "Meet me at the bus stop.",
+          "m": "Specific location"
+        }
+      ],
+      "practice_links": [
+        "manuals/en/grammar/a1/topics/prepositions-place.html"
+      ]
+    },
+    {
+      "id": "prepositions_time",
+      "label": "Prepositions of Time (In, On, At)",
+      "level": "starter",
+      "emoji": "🕒",
+      "definition": "Describing time, dates, and deadlines",
+      "rules": [
+        "AT: clock times, night, holidays.",
+        "ON: days of the week, dates.",
+        "IN: months, years, seasons, parts of day."
+      ],
+      "examples": [
+        {
+          "t": "At 8 o'clock.",
+          "m": "Clock time"
+        },
+        {
+          "t": "On Monday morning.",
+          "m": "Day"
+        },
+        {
+          "t": "In July / In 2026.",
+          "m": "Month & Year"
+        }
+      ],
+      "practice_links": [
+        "manuals/en/grammar/a1/topics/prepositions-time.html"
+      ]
+    },
+    {
+      "id": "prepositions_movement",
+      "label": "Prepositions of Movement",
+      "level": "elementary",
+      "emoji": "🚶",
+      "definition": "Expressing direction and motion",
+      "rules": [
+        "Use 'to', 'into', 'out of', 'across', 'through', 'towards' to show direction of movement."
+      ],
+      "examples": [
+        {
+          "t": "He walked into the building.",
+          "m": "Movement into space"
+        },
+        {
+          "t": "They drove across the bridge.",
+          "m": "Movement across surface"
+        }
+      ],
+      "practice_links": [
+        "manuals/en/grammar/a2/topics/prepositions-of-movement.html"
+      ]
+    }
+  ]
 }

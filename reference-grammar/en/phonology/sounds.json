@@ -2,5 +2,52 @@
   "language": "en",
   "category": "sounds",
   "level": "A1-C2",
-  "groups": []
+  "groups": [
+    {
+      "id": "vowels_consonants",
+      "label": "Vowels & Consonants",
+      "level": "starter",
+      "emoji": "🔤",
+      "definition": "Core phoneme system of English",
+      "rules": [
+        "English has 5 vowel letters (A, E, I, O, U) representing 20 distinct vowel sounds.",
+        "Consonants can be voiced or unvoiced."
+      ],
+      "examples": [
+        {
+          "t": "Ship /ɪ/ vs Sheep /iː/",
+          "m": "Short vs long vowel"
+        },
+        {
+          "t": "Think /θ/ vs This /ð/",
+          "m": "Unvoiced vs voiced dental fricative"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "silent_letters",
+      "label": "Silent Letters",
+      "level": "starter",
+      "emoji": "🔇",
+      "definition": "Unpronounced letters in common words",
+      "rules": [
+        "Silent K in know, knee, knife.",
+        "Silent L in listen, talk, walk, half.",
+        "Silent W in write, answer, wrong.",
+        "Silent B in climb, comb."
+      ],
+      "examples": [
+        {
+          "t": "I know the answer.",
+          "m": "Silent K and W"
+        },
+        {
+          "t": "Listen to the music.",
+          "m": "Silent T"
+        }
+      ],
+      "practice_links": null
+    }
+  ]
 }

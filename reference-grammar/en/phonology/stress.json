@@ -2,5 +2,50 @@
   "language": "en",
   "category": "stress",
   "level": "A1-C2",
-  "groups": []
+  "groups": [
+    {
+      "id": "word_stress",
+      "label": "Word Stress & Syllable Prominence",
+      "level": "starter",
+      "emoji": "🔊",
+      "definition": "Stressing syllables in multi-syllable words",
+      "rules": [
+        "Most 2-syllable nouns stress the first syllable (DOC-tor, TEA-cher).",
+        "-teen numbers stress the second syllable (thir-TEEN), -ty numbers stress the first (THIR-ty)."
+      ],
+      "examples": [
+        {
+          "t": "DOC-tor, BU-si-ness",
+          "m": "First-syllable noun stress"
+        },
+        {
+          "t": "thir-TEEN vs THIR-ty",
+          "m": "-teen vs -ty contrast"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "sentence_stress_schwa",
+      "label": "Sentence Stress & Schwa /ə/",
+      "level": "starter",
+      "emoji": "🗣️",
+      "definition": "Prominence of content words and weak forms",
+      "rules": [
+        "Content words (nouns, main verbs, adjectives) are stressed.",
+        "Function words are unstressed and often use the schwa sound /ə/."
+      ],
+      "examples": [
+        {
+          "t": "about /əˈbaʊt/, doctor /ˈdɒk.tə/",
+          "m": "Schwa /ə/ in unstressed syllables"
+        },
+        {
+          "t": "Where do you LIVE?",
+          "m": "Sentence stress on content word"
+        }
+      ],
+      "practice_links": null
+    }
+  ]
 }
