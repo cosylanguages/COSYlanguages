@@ -6,10 +6,10 @@ This document outlines the strategic roadmap, architectural specification, direc
 
 ## 1. Monolingual Design Imperative
 
-Following the pattern established by **`grammaire-francaise/`** (French) and **`grammatika-russkogo-yazyka/`** (Russian), all COSYlanguages grammar manuals are **100% monolingual**.
+Following the pattern established by **`grammaire-francaise/`** (French) and **`manuals/ru/grammar/`** (Russian), all COSYlanguages grammar manuals are **100% monolingual**.
 
 - **Language of Instruction**: Every explanation, visual diagram title, button label, self-evaluation checklist item, error callout, and quiz question is written in the native target language.
-- **Title Nomenclature & URLs**: Manual directories and page titles use the authentic native name of the grammar manual in that language (e.g., `grammatica-italiana/`, `gramatica-espanola/`, `tatar-teli-grammatikasy/`), matching the pattern of `grammatika-russkogo-yazyka/`.
+- **Title Nomenclature & URLs**: Manual directories and page titles use the authentic native name of the grammar manual in that language (e.g., `grammatica-italiana/`, `gramatica-espanola/`, `tatar-teli-grammatikasy/`), matching the pattern of `manuals/ru/grammar/`.
 
 ---
 
@@ -22,7 +22,7 @@ The approved monolingual directory names and native titles for all 9 target manu
 | **Italian** | `it` | `grammatica-italiana/` | Grammatica italiana | Capitolo / Parte |
 | **Spanish** | `es` | `gramatica-espanola/` | Gramática española | Capítulo / Parte |
 | **German** | `de` | `deutsche-grammatik/` | Deutsche Grammatik | Kapitel / Teil |
-| **Portuguese** | `pt` | `gramatica-portuguesa/` | Gramática portuguesa | Capítulo / Parte |
+| **Portuguese** | `pt` | `manuals/pt/grammar/` | Gramática portuguesa | Capítulo / Parte |
 | **Tatar** | `tt` | `tatar-teli-grammatikasy/` | Татар теле грамматикасы | Бүлек |
 | **Bashkir** | `ba` | `bashqort-tele-grammatikahy/` | Башҡорт теле грамматикаһы | Бүлек |
 | **Chuvash** | `cv` | `chavash-grammatika/` | Чăваш грамматики | Пайлăк / Пай |

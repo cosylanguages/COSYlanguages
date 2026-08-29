@@ -5,7 +5,7 @@ Builds self-contained vocabulary manuals across 9 target languages:
 1. lessico-italiano (Italian)
 2. vocabulario-espanol (Spanish)
 3. deutscher-wortschatz (German)
-4. vocabulario-portugues (Portuguese)
+4. manuals/pt/vocabulary (Portuguese)
 5. tatar-teli-leksikasy (Tatar)
 6. bashqort-tele-leksikahy (Bashkir)
 7. chavash-leksiki (Chuvash)
@@ -3672,7 +3672,7 @@ MANUALS_VOCAB = [
         ]
     },
     {
-        "dir": "vocabulario-portugues",
+        "dir": "manuals/pt/vocabulary",
         "title": "Vocabulário português (A0–A1)",
         "nav_title": "Vocabulário português",
         "lang": "pt",
@@ -3797,7 +3797,7 @@ MANUALS_VOCAB = [
                             },
                             {
                                 "word": "morar",
-                                "def": "v.intr. · residir num determinado local (<a href=\"../../gramatica-portuguesa/topics/presente-do-indicativo.html\">verbo regular -ar</a>)",
+                                "def": "v.intr. · residir num determinado local (<a href=\"../../manuals/pt/grammar/topics/presente-do-indicativo.html\">verbo regular -ar</a>)",
                                 "ex": "Moro em Coimbra atualmente."
                             }
                         ],
@@ -3875,7 +3875,7 @@ MANUALS_VOCAB = [
                             },
                             {
                                 "word": "a mão",
-                                "def": "s.f. · extremidade do braço (<a href=\"../../gramatica-portuguesa/topics/genero-dos-substantivos.html\">substantivo feminino terminado em -ão</a>)",
+                                "def": "s.f. · extremidade do braço (<a href=\"../../manuals/pt/grammar/topics/genero-dos-substantivos.html\">substantivo feminino terminado em -ão</a>)",
                                 "ex": "Lava as mãos antes de comer."
                             },
                             {
@@ -3935,7 +3935,7 @@ MANUALS_VOCAB = [
                         ],
                         "check_items": [
                             "Descrever o próprio estado emocional",
-                            "Usar 'estar' com adjetivos de emoção (<a href=\"../../gramatica-portuguesa/topics/ser-vs-estar.html\">ser vs estar</a>)"
+                            "Usar 'estar' com adjetivos de emoção (<a href=\"../../manuals/pt/grammar/topics/ser-vs-estar.html\">ser vs estar</a>)"
                         ],
                         "quiz": [
                             {
@@ -4751,12 +4751,12 @@ MANUALS_VOCAB = [
                         "words": [
                             {
                                 "word": "ser",
-                                "def": "v.aux./cop. · expressa identidade ou qualidades permanentes (<a href=\"../../gramatica-portuguesa/topics/ser-vs-estar.html\">verbo irregular</a>)",
+                                "def": "v.aux./cop. · expressa identidade ou qualidades permanentes (<a href=\"../../manuals/pt/grammar/topics/ser-vs-estar.html\">verbo irregular</a>)",
                                 "ex": "Eu sou português e vivo em Lisboa."
                             },
                             {
                                 "word": "estar",
-                                "def": "v.aux./cop. · expressa estados temporários ou localização (<a href=\"../../gramatica-portuguesa/topics/ser-vs-estar.html\">verbo irregular</a>)",
+                                "def": "v.aux./cop. · expressa estados temporários ou localização (<a href=\"../../manuals/pt/grammar/topics/ser-vs-estar.html\">verbo irregular</a>)",
                                 "ex": "Estou muito contente hoje."
                             },
                             {

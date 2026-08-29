@@ -47,12 +47,12 @@ A thorough audit of the repository confirms that the following directories serve
 
 ### Breton Manual Mapping Correction
 - Prompt proposal listed:
-  - `geriou-brezhoneg/` $\rightarrow$ `manuals/br/grammar/`
-  - `yezhadur-brezhoneg/` $\rightarrow$ `manuals/br/vocabulary/`
+  - `manuals/br/vocabulary/` $\rightarrow$ `manuals/br/grammar/`
+  - `manuals/br/grammar/` $\rightarrow$ `manuals/br/vocabulary/`
 - **Correction:** In Breton, *Yezhadur* means **Grammar** and *Gerioù* means **Vocabulary**.
 - **Correct Target Mapping:**
-  - `yezhadur-brezhoneg/` $\rightarrow$ `manuals/br/grammar/`
-  - `geriou-brezhoneg/` $\rightarrow$ `manuals/br/vocabulary/`
+  - `manuals/br/grammar/` $\rightarrow$ `manuals/br/grammar/`
+  - `manuals/br/vocabulary/` $\rightarrow$ `manuals/br/vocabulary/`
 
 ### Multi-Level English Landing Page Routing
 - `manuals/english-a0-a1.html` $\rightarrow$ `manuals/en/index.html` (Primary A0–A1 Landing Page)
@@ -83,10 +83,10 @@ A thorough audit of the repository confirms that the following directories serve
 | `grammatica-italiana/` | `manuals/it/grammar/` | Standardize Italian grammar manual under ISO code `it` | **High** | 16 referencing files. |
 | `lessico-italiano/` | `manuals/it/vocabulary/` | Standardize Italian vocabulary manual under ISO code `it` | **Medium** | 4 referencing files. |
 | `elliniki-grammatiki/` | `manuals/el/grammar/` | Standardize Greek grammar manual under ISO code `el` | **Medium** | 6 referencing files. Linked in `languages/el/index.html`. |
-| `grammatika-russkogo-yazyka/` | `manuals/ru/grammar/` | Standardize Russian grammar manual under ISO code `ru` | **Medium** | 7 referencing files. |
-| `leksika-russkogo-yazyka/` | `manuals/ru/vocabulary/` | Standardize Russian vocabulary manual under ISO code `ru` | **Medium** | 4 referencing files. |
-| `gramatica-portuguesa/` | `manuals/pt/grammar/` | Standardize Portuguese grammar manual under ISO code `pt` | **High** | 10 referencing files. |
-| `vocabulario-portugues/` | `manuals/pt/vocabulary/` | Standardize Portuguese vocabulary manual under ISO code `pt` | **Medium** | 4 referencing files. |
+| `manuals/ru/grammar/` | `manuals/ru/grammar/` | Standardize Russian grammar manual under ISO code `ru` | **Medium** | 7 referencing files. |
+| `manuals/ru/vocabulary/` | `manuals/ru/vocabulary/` | Standardize Russian vocabulary manual under ISO code `ru` | **Medium** | 4 referencing files. |
+| `manuals/pt/grammar/` | `manuals/pt/grammar/` | Standardize Portuguese grammar manual under ISO code `pt` | **High** | 10 referencing files. |
+| `manuals/pt/vocabulary/` | `manuals/pt/vocabulary/` | Standardize Portuguese vocabulary manual under ISO code `pt` | **Medium** | 4 referencing files. |
 | `hayots-lezvi-kerakanutyun/` | `manuals/hy/grammar/` | Standardize Armenian grammar manual under ISO code `hy` | **High** | 13 referencing files. |
 | `hayots-lezvi-barapashar/` | `manuals/hy/vocabulary/` | Standardize Armenian vocabulary manual under ISO code `hy` | **Medium** | 4 referencing files. |
 | `qartuli-gramatika/` | `manuals/ka/grammar/` | Standardize Georgian grammar manual under ISO code `ka` | **High** | 13 referencing files. |
@@ -97,8 +97,8 @@ A thorough audit of the repository confirms that the following directories serve
 | `bashqort-tele-leksikahy/` | `manuals/ba/vocabulary/` | Standardize Bashkir vocabulary manual under ISO code `ba` | **Medium** | 4 referencing files. |
 | `chavash-grammatika/` | `manuals/cv/grammar/` | Standardize Chuvash grammar manual under ISO code `cv` | **High** | 12 referencing files. Fixes ISO gap in `CONTENT_ARCHITECTURE.md`. |
 | `chavash-leksiki/` | `manuals/cv/vocabulary/` | Standardize Chuvash vocabulary manual under ISO code `cv` | **Medium** | 4 referencing files. |
-| `yezhadur-brezhoneg/` | `manuals/br/grammar/` | Standardize Breton grammar manual (*Yezhadur* = Grammar) | **High** | 22 referencing files. Corrected prompt swap. |
-| `geriou-brezhoneg/` | `manuals/br/vocabulary/` | Standardize Breton vocabulary manual (*Gerioù* = Vocabulary) | **High** | 23 referencing files. Corrected prompt swap. |
+| `manuals/br/grammar/` | `manuals/br/grammar/` | Standardize Breton grammar manual (*Yezhadur* = Grammar) | **High** | 22 referencing files. Corrected prompt swap. |
+| `manuals/br/vocabulary/` | `manuals/br/vocabulary/` | Standardize Breton vocabulary manual (*Gerioù* = Vocabulary) | **High** | 23 referencing files. Corrected prompt swap. |
 | `manuals/english-a0-a1.html` | `manuals/en/index.html` | Consolidate English A0–A1 hub into language directory | **High** | 20 referencing files. Primary landing page for English manual. |
 | `manuals/english-a2.html` | `manuals/en/a2.html` | Consolidate English A2 hub into language directory | **High** | 10 referencing files. |
 | `manuals/english-b1.html` | `manuals/en/b1.html` | Consolidate English B1 hub into language directory | **High** | 13 referencing files. |
