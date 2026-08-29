@@ -252,8 +252,6 @@ function getTenseLabel(tense, lang) {
 }
 
 async function loadGrammarData(lang, level) {
-  const family = FAMILIES[lang];
-  if (!family) return;
   const dir = levelToDir[level];
   if (!dir) return;
 
@@ -261,20 +259,12 @@ async function loadGrammarData(lang, level) {
     const s = document.createElement("script");
     s.src = `vocabulary/${lang}/${dir}/verbs.js`;
     s.onload = () => resolve();
-    s.onerror = () => {
-        const s2 = document.createElement("script");
-        s2.src = `js/data/${family}/${level}/verbs.js`;
-        s2.onload = () => resolve();
-        s2.onerror = () => resolve();
-        document.head.appendChild(s2);
-    };
+    s.onerror = () => resolve();
     document.head.appendChild(s);
   });
 }
 
 async function loadNounData(lang, level) {
-  const family = FAMILIES[lang];
-  if (!family) return;
   const dir = levelToDir[level];
   if (!dir) return;
 
@@ -284,13 +274,7 @@ async function loadNounData(lang, level) {
       const s = document.createElement("script");
       s.src = `vocabulary/${lang}/${dir}/${f}`;
       s.onload = () => resolve();
-      s.onerror = () => {
-          const s2 = document.createElement("script");
-          s2.src = `js/data/${family}/${level}/${f}`;
-          s2.onload = () => resolve();
-          s2.onerror = () => resolve();
-          document.head.appendChild(s2);
-      };
+      s.onerror = () => resolve();
       document.head.appendChild(s);
     });
   });
