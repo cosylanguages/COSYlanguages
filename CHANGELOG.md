@@ -49,3 +49,6 @@ Add an entry every time a stage is merged to main.
 ### [Stage 6b — Practice System Spec] · 2026-05-24
 - Created planning/general/practice_spec.md — full spec for practice session structure, types, scoring, hints, keyboard nav
 - No code was changed in this stage
+
+### [Unreleased] · 2027-02-23
+- Removed empty curriculum JSON stubs `curriculum/en/general/A2.json`, `B1.json`, `B2.json`, and `C2.json` as they were unreferenced by application/build code and avoided risk of silently loading empty curriculum data.
