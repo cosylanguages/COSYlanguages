@@ -642,9 +642,11 @@
         if (window.location.pathname.includes('/games/')) {
             const prefix = (window.COSY && window.COSY.getPrefix) ? window.COSY.getPrefix() : '../../';
 
+            const family = (window.FAMILY_MAP && window.FAMILY_MAP[l]) || 'germanic';
             const scriptsToLoad = [
                 `${prefix}games/data/universal.js`,
-                `${prefix}games/data/${l}/game_data.js`
+                `${prefix}games/data/${l}/game_data.js`,
+                `${prefix}js/data/${family}/${l}/alphabets.js`
             ];
 
             for (const src of scriptsToLoad) {
