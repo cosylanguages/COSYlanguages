@@ -71,3 +71,10 @@
 2. **Expand Stub Pages:** Complete linguistic explanations, real examples, common mistakes, and interactive quiz items for placeholder topics in A2 (Parts 3–7), B1, and B2.
 3. **Extend Decision Tree Components:** Adapt the A0–A1 branching decision tree for Conditionals (If-clause → result-clause) and Relative Clauses.
 4. **Determine A2–B2 Vocabulary & Communication Strategy:** Evaluate scaffolding dedicated thematic vocabulary and communication manuals for A2–B2 following the A0–A1 "Building Blocks" + "Conversation Map" standard.
+
+---
+
+## 5. Visual Component Blueprint & Level Taxonomy
+
+For full specifications, CEFR matrix across Grammar/Vocabulary/Communication (A0–B2), and reusable HTML/CSS component snippets, see:
+👉 [ENGLISH_MANUALS_BRAINSTORM_AND_COMPONENTS.md](ENGLISH_MANUALS_BRAINSTORM_AND_COMPONENTS.md)
