@@ -19,7 +19,7 @@ MANUAL_CONFIGS = {
         'notice_default': 'Observez les exemples ci-dessous. Faites attention à l’ordre des mots, aux terminaisons et aux structures avant de lire la règle.',
     },
     'ru': {
-        'dir': 'grammatika-russkogo-yazyka/topics',
+        'dir': 'manuals/ru/grammar/topics',
         'outcome_title': '🎯 Что вы можете сказать после этой страницы:',
         'outcome_default': 'Вы сможете строить правильные фразы и уверенно общаться в повседневных ситуациях.',
         'notice_title': '👀 Что вы замечаете?',
@@ -54,7 +54,7 @@ MANUAL_CONFIGS = {
         'notice_default': 'Betrachte die folgenden Beispiele. Achte auf Wortstellung und Endungen, bevor du die Regel liest.',
     },
     'pt': {
-        'dir': 'gramatica-portuguesa/topics',
+        'dir': 'manuals/pt/grammar/topics',
         'outcome_title': '🎯 O que podes comunicar após esta página:',
         'outcome_default': 'Podes construir frases claras e comunicar com confiança no dia a dia.',
         'notice_title': '👀 O que observas?',

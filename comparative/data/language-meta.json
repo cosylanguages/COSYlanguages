@@ -25,7 +25,7 @@
     "name_en": "Russian",
     "name_native": "Русский",
     "family": "Slavic",
-    "manual_url": "/grammatika-russkogo-yazyka/"
+    "manual_url": "/manuals/ru/grammar/"
   },
   {
     "code": "el",
@@ -53,7 +53,7 @@
     "name_en": "Portuguese",
     "name_native": "Português",
     "family": "Romance",
-    "manual_url": "/gramatica-portuguesa/"
+    "manual_url": "/manuals/pt/grammar/"
   },
   {
     "code": "hy",
@@ -88,7 +88,7 @@
     "name_en": "Breton",
     "name_native": "Brezhoneg",
     "family": "Celtic",
-    "manual_url": "/yezhadur-brezhoneg/"
+    "manual_url": "/manuals/br/grammar/"
   },
   {
     "code": "cv",

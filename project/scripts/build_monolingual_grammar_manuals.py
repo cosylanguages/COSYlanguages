@@ -2385,7 +2385,7 @@ MANUALS = [   {   'back_link': 'Torna al sito COSYlanguages',
                                               'title': 'Komparativ und Superlativ'}]}],
         'title': 'Deutsche Grammatik (A0–A1)'},
     {   'back_link': 'Voltar para COSYlanguages',
-        'dir': 'gramatica-portuguesa',
+        'dir': 'manuals/pt/grammar',
         'lang': 'pt',
         'lead': 'O manual interativo de gramática portuguesa COSYlanguages: capítulos, tabelas, autoavaliação e '
                 'exercícios.',

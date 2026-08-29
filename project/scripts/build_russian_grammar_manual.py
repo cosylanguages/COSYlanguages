@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
 Generator script for COSYlanguages Russian Grammar Manual (A0-A1) Interactive Web Edition.
-Generates grammatika-russkogo-yazyka/index.html, 8 section hub HTML pages,
-and 60 topic HTML pages in grammatika-russkogo-yazyka/topics/.
+Generates manuals/ru/grammar/index.html, 8 section hub HTML pages,
+and 60 topic HTML pages in manuals/ru/grammar/topics/.
 """
 
 import os
 import json
 
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "grammatika-russkogo-yazyka"))
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "manuals/ru/grammar"))
 TOPICS_DIR = os.path.join(BASE_DIR, "topics")
 
 os.makedirs(TOPICS_DIR, exist_ok=True)
@@ -1433,7 +1433,7 @@ for sec_idx, sec in enumerate(SECTIONS):
         with open(os.path.join(TOPICS_DIR, f'{top["slug"]}.html'), 'w', encoding='utf-8') as f:
             f.write(topic_page_code)
 
-print("Generated 60 topic HTML files in grammatika-russkogo-yazyka/topics/.")
+print("Generated 60 topic HTML files in manuals/ru/grammar/topics/.")
 
 # 2. Render Section Hub Pages
 for sec in SECTIONS:
@@ -1569,4 +1569,4 @@ index_code = f'''<!doctype html>
 with open(os.path.join(BASE_DIR, "index.html"), 'w', encoding='utf-8') as f:
     f.write(index_code)
 
-print("Generated grammatika-russkogo-yazyka/index.html successfully.")
+print("Generated manuals/ru/grammar/index.html successfully.")

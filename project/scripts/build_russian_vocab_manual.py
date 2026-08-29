@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """
 Generator script for COSYlanguages Russian Vocabulary Manual (A0-A1) Interactive Web Edition.
-Generates leksika-russkogo-yazyka/index.html, 6 section hub HTML pages (razdel-1.html .. razdel-6.html),
-and 21 topic HTML pages in leksika-russkogo-yazyka/topics/.
+Generates manuals/ru/vocabulary/index.html, 6 section hub HTML pages (razdel-1.html .. razdel-6.html),
+and 21 topic HTML pages in manuals/ru/vocabulary/topics/.
 """
 
 import os
 import json
 import glob
 
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "leksika-russkogo-yazyka"))
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "manuals/ru/vocabulary"))
 TOPICS_DIR = os.path.join(BASE_DIR, "topics")
 
 os.makedirs(TOPICS_DIR, exist_ok=True)
@@ -480,7 +480,7 @@ for mod in MODULES:
         with open(os.path.join(TOPICS_DIR, f'{top["slug"]}.html'), 'w', encoding='utf-8') as f:
             f.write(topic_code)
 
-print("Generated 21 vocabulary topic pages in leksika-russkogo-yazyka/topics/.")
+print("Generated 21 vocabulary topic pages in manuals/ru/vocabulary/topics/.")
 
 # 2. Render Module Hub Pages
 for mod in MODULES:
@@ -584,4 +584,4 @@ index_code = f'''<!doctype html>
 with open(os.path.join(BASE_DIR, "index.html"), 'w', encoding='utf-8') as f:
     f.write(index_code)
 
-print("Generated leksika-russkogo-yazyka/index.html successfully.")
+print("Generated manuals/ru/vocabulary/index.html successfully.")

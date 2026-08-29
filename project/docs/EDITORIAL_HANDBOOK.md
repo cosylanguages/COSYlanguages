@@ -267,14 +267,14 @@ Every language manual highlights the "core pedagogical logic" that defines how t
 | Language | Directory Path | Core Pedagogical Logic | Key Visual Metaphor |
 |:---|:---|:---|:---|
 | **English** | `grammar/` | Word order & helper verbs | Fixed Train Tracks & Helper Blocks |
-| **Russian** | `grammatika-russkogo-yazyka/` | Endings and case patterns | Color-Coded Word Suffixes |
+| **Russian** | `manuals/ru/grammar/` | Endings and case patterns | Color-Coded Word Suffixes |
 | **Greek** | `elliniki-grammatiki/` | Gender agreement & article families | Family Color Badges |
 | **French** | `grammaire-francaise/` | Rhythm, sound & silent letters | Visual Tense Timelines & Elision Bridges |
 | **German** | `deutsche-grammatik/` | Sentence structure & verb position | Verb Position Magnet Board |
 | **Spanish** | `gramatica-espanola/` | Aspect & verb conjugation system | Mood & Tense Matrix Cards |
 | **Italian** | `grammatica-italiana/` | Musical rhythm & vowel agreement | Soft Vowel Ending Harmonies |
-| **Portuguese** | `gramatica-portuguesa/` | Aspect, nasal sounds & contraction | Contraction Fusion Blocks |
-| **Breton** | `yezhadur-brezhoneg/` | Initial consonant mutations | Mutation Transformation Arrows |
+| **Portuguese** | `manuals/pt/grammar/` | Aspect, nasal sounds & contraction | Contraction Fusion Blocks |
+| **Breton** | `manuals/br/grammar/` | Initial consonant mutations | Mutation Transformation Arrows |
 | **Tatar** | `tatar-teli-grammatikasy/` | Agglutinative suffix stacking | Suffix Train Carriages |
 | **Bashkir** | `bashqort-tele-grammatikahy/` | Vowel harmony & agglutination | Harmonic Sound Scales |
 | **Chuvash** | `chavash-grammatika/` | Agglutination & postpositions | Postposition Anchors |
