@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """
 Generator script for COSYlanguages English Grammar Manual (Level A2) Interactive Web Edition.
-Generates grammar-a2/index.html, 9 section hub HTML pages (part-0.html .. part-7.html, appendix.html),
-assets (style.css, app.js), and 46 topic HTML pages in grammar-a2/topics/.
+Generates manuals/en/grammar/a2/index.html, 9 section hub HTML pages (part-0.html .. part-7.html, appendix.html),
+assets (style.css, app.js), and 46 topic HTML pages in manuals/en/grammar/a2/topics/.
 """
 
 import os
 import json
 import re
 
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "grammar-a2"))
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "manuals/en/grammar/a2"))
 TOPICS_DIR = os.path.join(BASE_DIR, "topics")
 ASSETS_DIR = os.path.join(BASE_DIR, "assets")
 

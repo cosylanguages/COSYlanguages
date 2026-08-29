@@ -69,11 +69,11 @@ A thorough audit of the repository confirms that the following directories serve
 | Old Path | New Path | Reason | Risk | Notes |
 |---|---|---|---|---|
 | `grammar/` | `manuals/en/grammar/a1/` | Standardize English A0–A1 grammar manual into ISO structure | **High** | 779 referencing files (Practice engine, navigation, comparative matrix). Needs JS engine alias / redirect. |
-| `grammar-a2/` | `manuals/en/grammar/a2/` | Standardize English A2 grammar manual | **Medium** | 2 referencing files. Sub-folder path changes. |
-| `grammar-b1/` | `manuals/en/grammar/b1/` | Standardize English B1 grammar manual | **Medium** | 2 referencing files. Sub-folder path changes. |
-| `grammar-b2/` | `manuals/en/grammar/b2/` | Standardize English B2 grammar manual | **Medium** | 2 referencing files. Sub-folder path changes. |
+| `manuals/en/grammar/a2/` | `manuals/en/grammar/a2/` | Standardize English A2 grammar manual | **Medium** | 2 referencing files. Sub-folder path changes. |
+| `manuals/en/grammar/b1/` | `manuals/en/grammar/b1/` | Standardize English B1 grammar manual | **Medium** | 2 referencing files. Sub-folder path changes. |
+| `manuals/en/grammar/b2/` | `manuals/en/grammar/b2/` | Standardize English B2 grammar manual | **Medium** | 2 referencing files. Sub-folder path changes. |
 | `vocabulary-manual/` | `manuals/en/vocabulary/` | Standardize English vocabulary manual | **High** | 18 referencing files. Linked from index.html and navigation hubs. |
-| `communication-manual/` | `manuals/en/communication/` | Standardize English speech/communication manual | **High** | 18 referencing files. Linked across core hubs. |
+| `manuals/en/communication/` | `manuals/en/communication/` | Standardize English speech/communication manual | **High** | 18 referencing files. Linked across core hubs. |
 | `deutsche-grammatik/` | `manuals/de/grammar/` | Standardize German grammar manual under ISO code `de` | **High** | 11 referencing files. |
 | `deutscher-wortschatz/` | `manuals/de/vocabulary/` | Standardize German vocabulary manual under ISO code `de` | **Medium** | 4 referencing files. |
 | `gramatica-espanola/` | `manuals/es/grammar/` | Standardize Spanish grammar manual under ISO code `es` | **High** | 10 referencing files. |

@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
 Generator script for COSYlanguages English Grammar Manual (Level B1) Interactive Web Edition.
-Generates grammar-b1/index.html, 12 section hub HTML pages (part-0.html .. part-10.html, appendix.html),
-assets (style.css, app.js), and 47 topic HTML pages in grammar-b1/topics/.
+Generates manuals/en/grammar/b1/index.html, 12 section hub HTML pages (part-0.html .. part-10.html, appendix.html),
+assets (style.css, app.js), and 47 topic HTML pages in manuals/en/grammar/b1/topics/.
 """
 
 import os
 import json
 
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "grammar-b1"))
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "manuals/en/grammar/b1"))
 TOPICS_DIR = os.path.join(BASE_DIR, "topics")
 ASSETS_DIR = os.path.join(BASE_DIR, "assets")
 

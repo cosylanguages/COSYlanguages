@@ -59,9 +59,9 @@
                 { type:'mc', q:'She studied hard ___ pass the examination.', opts:['in order to','so that','because','despite'], ans:0, level:'intermediate', theme:'syntax_word_order', ruleHint:'Use "in order to" followed by an infinitive verb.' },
 
                 // Interactive Scramble, Cloze & Typing Exercises
-                { type:'sc', q:'🧩 Reorder the sentence:', ans:'She does not like coffee in the morning.', level:'starter', theme:'syntax_word_order', item:{ word:'Sentence Order' }, practice_links:['grammar/topics/word-order.html'] },
-                { type:'cloze', q:'Fill in the blank: She is interested [ ___ ] modern art.', sentence:'She is interested [ ___ ] modern art.', opts:['in','at','on','for'], ans:0, level:'elementary', theme:'prepositions_place', ruleHint:'Use "in" with the adjective interested.', practice_links:['grammar/topics/prepositions-place.html'] },
-                { type:'type', q:'"Past simple of verb: go" = ?', ans:'went', level:'starter', theme:'tenses_aspect', ruleHint:'Irregular verb: go ➔ went.', item:{ word:'went' }, practice_links:['grammar/topics/past-simple-irregular.html'] }
+                { type:'sc', q:'🧩 Reorder the sentence:', ans:'She does not like coffee in the morning.', level:'starter', theme:'syntax_word_order', item:{ word:'Sentence Order' }, practice_links:['manuals/en/grammar/a1/topics/word-order.html'] },
+                { type:'cloze', q:'Fill in the blank: She is interested [ ___ ] modern art.', sentence:'She is interested [ ___ ] modern art.', opts:['in','at','on','for'], ans:0, level:'elementary', theme:'prepositions_place', ruleHint:'Use "in" with the adjective interested.', practice_links:['manuals/en/grammar/a1/topics/prepositions-place.html'] },
+                { type:'type', q:'"Past simple of verb: go" = ?', ans:'went', level:'starter', theme:'tenses_aspect', ruleHint:'Irregular verb: go ➔ went.', item:{ word:'went' }, practice_links:['manuals/en/grammar/a1/topics/past-simple-irregular.html'] }
 
                 // Tenses & Conditionals
                 { type:'mc', q:'✓ ?', opts:['She doesn\'t like coffee.','She don\'t like coffee.','She not like coffee.','She isn\'t like coffee.'], ans:0, level:'starter', theme:'tenses_aspect', ruleHint:'Present simple third person singular uses "doesn\'t".' },
