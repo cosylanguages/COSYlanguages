@@ -312,50 +312,50 @@ PARTS = [
     {
         "id": "part-2",
         "file": "part-2.html",
-        "slug": "society-politics-and-global-issues",
-        "title": "Part 2 · Society, Politics & Global Issues",
+        "slug": "society-government-and-public-life",
+        "title": "Part 2 · Society, Government & Public Life",
         "short_title": "Part 2",
-        "subtitle": "Social inequality, government structures, policy debates, and human rights vocabulary.",
-        "eyebrow": "FCE Topic: Society",
+        "subtitle": "Branches of government, public administration, elections, political manifestos, and voting dynamics.",
+        "eyebrow": "FCE Topic: Society & Governance",
         "stripe": "#1c8f56",
-        "topic_title": "Society, Politics & Global Issues",
+        "topic_title": "Society, Government & Public Life",
         "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
-  <strong>🎯 What you can communicate after this page:</strong> You can debate civic governance, socio-economic inequality, and global human rights initiatives.
+  <strong>🎯 What you can communicate after this page:</strong> You can debate civic governance (*enact legislation, prime minister, constitutional reform*), elections, and political manifestos.
 </div>
 <div class="table-wrap"><table>
 <thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
 <tbody>
-<tr><td>Governance</td><td>legislation, policy, referendum, electoral system</td><td>The government introduced new environmental <b>legislation</b>.</td></tr>
-<tr><td>Socio-Economic</td><td>inequality, mobility, welfare, marginalization</td><td>Education is key to promoting social <b>mobility</b>.</td></tr>
-<tr><td>Global Rights</td><td>humanitarian aid, advocacy, sanctions, diplomacy</td><td>Charities provided urgent <b>humanitarian aid</b> to the region.</td></tr>
+<tr><td>Governance</td><td>legislation, parliament, civil servant, bureaucracy</td><td>The <b>parliament</b> passed new <b>legislation</b> on energy.</td></tr>
+<tr><td>Elections</td><td>manifesto, candidate, turnout, ballot, coalition</td><td>High voter <b>turnout</b> is expected in the upcoming election.</td></tr>
+<tr><td>Phrasal Verbs</td><td>step down, call for, carry out, rule out, stand down</td><td>The minister decided to <b>step down</b> following public critique.</td></tr>
 </tbody>
 </table></div>
-<div class="examples"><span class="label">More Examples</span><ul><li>The citizens voted in a national <b>referendum</b>.</li><li>International <b>advocacy</b> groups urged a peaceful resolution.</li></ul></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>The opposition party published its election <b>manifesto</b> yesterday.</li><li>Two parties agreed to form a <b>coalition</b> government.</li></ul></div>
 <div class="mistakes">
  <div class="m-title">⚠️ Common mistakes</div>
  <div class="mflip">
-  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">The government passed a new law regulation.</span></div>
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">The minister stepped out from his post.</span></div>
   <span class="hint">tap to see the correct form</span>
-  <div class="right-line"><span class="c">✅</span><span>The government passed new <b>legislation</b>.</span></div>
+  <div class="right-line"><span class="c">✅</span><span>The minister <b>stepped down / stood down</b> from his post.</span></div>
  </div>
 </div>
-<div class="checklist" data-key="society-b2">
+<div class="checklist" data-key="society-government">
  <h3>🎯 Can you already use this?</h3>
- <label class="check-item"><input type="checkbox"><span>Use formal civic vocabulary (legislation, referendum, sanctions)</span></label>
- <label class="check-item"><input type="checkbox"><span>Discuss social mobility and inequality</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use governance terms (legislation, civil servant, manifesto, coalition)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use political phrasal verbs (step down, call for, rule out)</span></label>
  <div class="check-progress"></div>
 </div>
 <div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
  <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
  <div class="qitem">
-  <div class="qtext">1. 'A direct vote by the electorate on a specific proposal is a ___.'</div>
-  <div class="qopts"><button class="qopt">referendum</button><button class="qopt">legislation</button><button class="qopt">sanction</button></div>
-  <div class="qexplain">Direct public vote is a 'referendum'.</div>
+  <div class="qtext">1. 'Written public statement of political principles and plans is a ___.'</div>
+  <div class="qopts"><button class="qopt">manifesto</button><button class="qopt">bureaucracy</button><button class="qopt">turnout</button></div>
+  <div class="qexplain">Political principles statement is a 'manifesto'.</div>
  </div>
  <div class="qitem">
-  <div class="qtext">2. 'Laws collectively enacted by a legislative body are called ___.'</div>
-  <div class="qopts"><button class="qopt">welfare</button><button class="qopt">legislation</button><button class="qopt">advocacy</button></div>
-  <div class="qexplain">Body of laws is 'legislation'.</div>
+  <div class="qtext">2. 'Phrasal verb meaning "to resign from an official position":'</div>
+  <div class="qopts"><button class="qopt">rule out</button><button class="qopt">step down</button><button class="qopt">call for</button></div>
+  <div class="qexplain">Resigning position is 'step down'.</div>
  </div>
  <button class="quiz-reset">Reset quiz</button>
 </div>"""
@@ -363,50 +363,50 @@ PARTS = [
     {
         "id": "part-3",
         "file": "part-3.html",
-        "slug": "science-technology-and-innovation",
-        "title": "Part 3 · Science, Technology & Innovation",
+        "slug": "law-justice-and-civil-rights",
+        "title": "Part 3 · Law, Justice & Civil Rights",
         "short_title": "Part 3",
-        "subtitle": "Scientific methodology, breakthroughs, AI, automation, and technological ethics.",
-        "eyebrow": "FCE Topic: Science & Tech",
+        "subtitle": "Judicial procedure, prosecution vs defense, corporate law, copyright infringement, and data privacy rights.",
+        "eyebrow": "FCE Topic: Law & Justice",
         "stripe": "#c9740a",
-        "topic_title": "Science, Technology & Innovation",
+        "topic_title": "Law, Justice & Civil Rights",
         "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
-  <strong>🎯 What you can communicate after this page:</strong> You can discuss artificial intelligence ethics, technological breakthroughs, and scientific research methods.
+  <strong>🎯 What you can communicate after this page:</strong> You can discuss legal proceedings (*jurisdiction, defendant, acquit*) and intellectual property compliance.
 </div>
 <div class="table-wrap"><table>
 <thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
 <tbody>
-<tr><td>Innovation</td><td>breakthrough, cutting-edge, state-of-the-art, pioneer</td><td>Scientists achieved a major medical <b>breakthrough</b>.</td></tr>
-<tr><td>AI & Robotics</td><td>artificial intelligence, automation, machine learning</td><td>Workplace <b>automation</b> is transforming manufacturing.</td></tr>
-<tr><td>Ethics</td><td>ethical dilemma, data privacy, surveillance</td><td>Genetic engineering poses complex <b>ethical dilemmas</b>.</td></tr>
+<tr><td>Judicial System</td><td>prosecution, defense, verdict, acquit, jurisdiction</td><td>The jury <b>acquitted</b> the defendant after three hours.</td></tr>
+<tr><td>Corporate Law</td><td>intellectual property, copyright infringement, audit</td><td>The startup was sued for <b>copyright infringement</b>.</td></tr>
+<tr><td>Phrasal Verbs</td><td>stand trial, bring against, rule on, lock up, call upon</td><td>He will <b>stand trial</b> for financial fraud next month.</td></tr>
 </tbody>
 </table></div>
-<div class="examples"><span class="label">More Examples</span><ul><li>The laboratory is equipped with <b>state-of-the-art</b> technology.</li><li>Concerns over <b>data privacy</b> have led to stricter regulations.</li></ul></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>Firms must ensure strict <b>regulatory compliance</b> regarding consumer data.</li><li>Circumstantial evidence was deemed inadmissible in court.</li></ul></div>
 <div class="mistakes">
  <div class="m-title">⚠️ Common mistakes</div>
  <div class="mflip">
-  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">It is a technology of cutting-edge.</span></div>
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">The court made him innocent.</span></div>
   <span class="hint">tap to see the correct form</span>
-  <div class="right-line"><span class="c">✅</span><span>It is a <b>cutting-edge technology</b>. (Hyphenated compound adjective before noun!)</span></div>
+  <div class="right-line"><span class="c">✅</span><span>The court <b>acquitted</b> him. / The jury found him <b>not guilty</b>.</span></div>
  </div>
 </div>
-<div class="checklist" data-key="science-b2">
+<div class="checklist" data-key="law-justice">
  <h3>🎯 Can you already use this?</h3>
- <label class="check-item"><input type="checkbox"><span>Use advanced innovation terms (breakthrough, cutting-edge, pioneer)</span></label>
- <label class="check-item"><input type="checkbox"><span>Discuss artificial intelligence and automation ethics</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use legal terminology (jurisdiction, acquit, intellectual property)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use judicial phrasal verbs (stand trial, rule on, bring against)</span></label>
  <div class="check-progress"></div>
 </div>
 <div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
  <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
  <div class="qitem">
-  <div class="qtext">1. 'Adjective meaning at the forefront of technological development:'</div>
-  <div class="qopts"><button class="qopt">breakthrough</button><button class="qopt">cutting-edge</button><button class="qopt">automation</button></div>
-  <div class="qexplain">Forefront technology is 'cutting-edge'.</div>
+  <div class="qtext">1. 'To officially declare someone not guilty of a crime is to ___.'</div>
+  <div class="qopts"><button class="qopt">prosecute</button><button class="qopt">acquit</button><button class="qopt">convict</button></div>
+  <div class="qexplain">Declaring not guilty is 'acquit'.</div>
  </div>
  <div class="qitem">
-  <div class="qtext">2. 'A dramatic discovery or advancement in research is a ___.'</div>
-  <div class="qopts"><button class="qopt">breakthrough</button><button class="qopt">surveillance</button><button class="qopt">dilemma</button></div>
-  <div class="qexplain">Major discovery is a 'breakthrough'.</div>
+  <div class="qtext">2. 'Unauthorized copy or use of protected creative work is ___.'</div>
+  <div class="qopts"><button class="qopt">copyright infringement</button><button class="qopt">regulatory compliance</button><button class="qopt">jurisdiction</button></div>
+  <div class="qexplain">Unauthorized copying is 'copyright infringement'.</div>
  </div>
  <button class="quiz-reset">Reset quiz</button>
 </div>"""
@@ -414,50 +414,50 @@ PARTS = [
     {
         "id": "part-4",
         "file": "part-4.html",
-        "slug": "business-economy-and-work",
-        "title": "Part 4 · Business, Economy & Work",
+        "slug": "economics-trade-and-finance",
+        "title": "Part 4 · Economics, Trade & Finance",
         "short_title": "Part 4",
-        "subtitle": "Economic dynamics (inflation, supply/demand), corporate structure, and career advancement.",
-        "eyebrow": "FCE Topic: Business & Work",
+        "subtitle": "Macroeconomics, inflation control, interest rate hikes, global trade tariffs, and stock market volatility.",
+        "eyebrow": "FCE Topic: Economics & Trade",
         "stripe": "#7c4fd6",
-        "topic_title": "Business, Economy & Work",
+        "topic_title": "Economics, Trade & Finance",
         "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
-  <strong>🎯 What you can communicate after this page:</strong> You can analyze economic indicators, corporate strategies, and labor market trends.
+  <strong>🎯 What you can communicate after this page:</strong> You can analyze macroeconomic indicators (*GDP, inflation, recession*) and global trade dynamics.
 </div>
 <div class="table-wrap"><table>
 <thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
 <tbody>
-<tr><td>Economics</td><td>inflation, purchasing power, recession, supply and demand</td><td>Rising <b>inflation</b> reduced consumer purchasing power.</td></tr>
-<tr><td>Corporate Life</td><td>entrepreneurship, merger, acquisition, stakeholder</td><td>The <b>merger</b> created a leading global corporation.</td></tr>
-<tr><td>Labor Market</td><td>redundancy, remote work, gig economy, turnover</td><td>The company reduced employee <b>turnover</b> by improving perks.</td></tr>
+<tr><td>Macroeconomics</td><td>Gross Domestic Product (GDP), inflation, recession, fiscal</td><td>Central banks raised rates to curb rising <b>inflation</b>.</td></tr>
+<tr><td>Global Trade</td><td>tariff, trade deficit, liquidity, stock market, export</td><td>Imposing new <b>tariffs</b> increased the cost of imported goods.</td></tr>
+<tr><td>Verbs</td><td>fluctuate, stabilize, stagnate, stimulate, curb</td><td>Oil prices continue to <b>fluctuate</b> on global markets.</td></tr>
 </tbody>
 </table></div>
-<div class="examples"><span class="label">More Examples</span><ul><li>Prices fluctuate according to the law of <b>supply and demand</b>.</li><li>All key <b>stakeholders</b> approved the strategic plan.</li></ul></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>Fiscal stimulus helped prevent a prolonged <b>economic recession</b>.</li><li>High market <b>volatility</b> prompted cautious investor behavior.</li></ul></div>
 <div class="mistakes">
  <div class="m-title">⚠️ Common mistakes</div>
  <div class="mflip">
-  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">The inflation increased the costs very high.</span></div>
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">The economic situation is in a high inflation.</span></div>
   <span class="hint">tap to see the correct form</span>
-  <div class="right-line"><span class="c">✅</span><span>Inflation drove up costs significantly. (No article before 'inflation' in general sense!)</span></div>
+  <div class="right-line"><span class="c">✅</span><span><b>Inflation is high</b> / The economy is experiencing high inflation.</span></div>
  </div>
 </div>
-<div class="checklist" data-key="business-b2">
+<div class="checklist" data-key="economics-trade">
  <h3>🎯 Can you already use this?</h3>
- <label class="check-item"><input type="checkbox"><span>Discuss economic indicators (inflation, recession, purchasing power)</span></label>
- <label class="check-item"><input type="checkbox"><span>Use corporate terminology (stakeholder, merger, acquisition)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use macroeconomic terms (GDP, inflation, recession, fiscal, tariff)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use trend verbs (fluctuate, stabilize, stagnate, curb)</span></label>
  <div class="check-progress"></div>
 </div>
 <div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
  <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
  <div class="qitem">
-  <div class="qtext">1. 'Combining two companies into a single entity is a ___.'</div>
-  <div class="qopts"><button class="qopt">merger</button><button class="qopt">redundancy</button><button class="qopt">recession</button></div>
-  <div class="qexplain">Corporate combination is a 'merger'.</div>
+  <div class="qtext">1. 'Tax or duty paid on a particular class of imports or exports is a ___.'</div>
+  <div class="qopts"><button class="qopt">tariff</button><button class="qopt">deficit</button><button class="qopt">liquidity</button></div>
+  <div class="qexplain">Import tax is a 'tariff'.</div>
  </div>
  <div class="qitem">
-  <div class="qtext">2. 'General increase in prices and fall in purchasing value is ___.'</div>
-  <div class="qopts"><button class="qopt">turnover</button><button class="qopt">inflation</button><button class="qopt">acquisition</button></div>
-  <div class="qexplain">Price increase is 'inflation'.</div>
+  <div class="qtext">2. 'To restrain or keep something under control (e.g. inflation) is to ___.'</div>
+  <div class="qopts"><button class="qopt">fluctuate</button><button class="qopt">curb</button><button class="qopt">stagnate</button></div>
+  <div class="qexplain">Restraining inflation is 'curb'.</div>
  </div>
  <button class="quiz-reset">Reset quiz</button>
 </div>"""
@@ -465,50 +465,50 @@ PARTS = [
     {
         "id": "part-5",
         "file": "part-5.html",
-        "slug": "culture-traditions-and-the-arts",
-        "title": "Part 5 · Culture, Traditions & the Arts",
+        "slug": "business-strategy-management-and-leadership",
+        "title": "Part 5 · Business Strategy, Management & Leadership",
         "short_title": "Part 5",
-        "subtitle": "Cross-cultural customs, literary analysis, artistic movements, and cultural identity.",
-        "eyebrow": "FCE Topic: Culture",
+        "subtitle": "Corporate leadership, venture capital funding, risk management, market segmentation, and brand loyalty.",
+        "eyebrow": "FCE Topic: Corporate Strategy",
         "stripe": "#a3195b",
-        "topic_title": "Culture, Traditions & the Arts",
+        "topic_title": "Business Strategy, Management & Leadership",
         "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
-  <strong>🎯 What you can communicate after this page:</strong> You can evaluate cultural heritage, artistic expressions, and cross-cultural traditions.
+  <strong>🎯 What you can communicate after this page:</strong> You can discuss corporate strategy (*spearhead, venture capital, merger*), marketing funnel, and brand acquisition.
 </div>
 <div class="table-wrap"><table>
 <thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
 <tbody>
-<tr><td>Artistic Movements</td><td>aesthetic, avant-garde, expressionism, medium</td><td>The gallery features <b>avant-garde</b> contemporary installations.</td></tr>
-<tr><td>Cultural Identity</td><td>heritage, folklore, preservation, assimilation</td><td>Efforts are underway for the <b>preservation</b> of regional dialects.</td></tr>
-<tr><td>Literary Analysis</td><td>allegory, narrative perspective, symbolism, motif</td><td>Light serves as a recurring <b>symbolism</b> throughout the novel.</td></tr>
+<tr><td>Leadership & Strategy</td><td>spearhead, venture capital, stakeholder, risk management</td><td>She was praised for <b>spearheading</b> the digital initiative.</td></tr>
+<tr><td>Marketing & Sales</td><td>market segmentation, brand loyalty, acquisition cost, funnel</td><td>Strong <b>brand loyalty</b> reduces customer acquisition costs.</td></tr>
+<tr><td>Corporate Actions</td><td>merger, acquisition, pitch, diversify, positioning</td><td>The <b>merger</b> formed the largest retail entity in the region.</td></tr>
 </tbody>
 </table></div>
-<div class="examples"><span class="label">More Examples</span><ul><li>The architect focused on minimalist <b>aesthetics</b>.</li><li>The story is a powerful political <b>allegory</b>.</li></ul></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>The startup secured five million dollars in <b>venture capital funding</b>.</li><li>Effective <b>risk management</b> protocols protected company assets.</li></ul></div>
 <div class="mistakes">
  <div class="m-title">⚠️ Common mistakes</div>
  <div class="mflip">
-  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">This painting has a beautiful aesthetic value.</span></div>
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">He spearheaded for the new department.</span></div>
   <span class="hint">tap to see the correct form</span>
-  <div class="right-line"><span class="c">✅</span><span>This painting has great <b>aesthetic appeal</b> / value.</span></div>
+  <div class="right-line"><span class="c">✅</span><span>He <b>spearheaded the new department</b>. (Direct transitive verb without 'for'!)</span></div>
  </div>
 </div>
-<div class="checklist" data-key="culture-b2">
+<div class="checklist" data-key="business-strategy">
  <h3>🎯 Can you already use this?</h3>
- <label class="check-item"><input type="checkbox"><span>Use artistic criticism vocabulary (aesthetic, avant-garde, symbolism)</span></label>
- <label class="check-item"><input type="checkbox"><span>Discuss cultural preservation and heritage</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use leadership terms (spearhead, venture capital, stakeholder, risk management)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use marketing terms (market segmentation, brand loyalty, acquisition)</span></label>
  <div class="check-progress"></div>
 </div>
 <div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
  <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
  <div class="qitem">
-  <div class="qtext">1. 'New and experimental ideas in art and literature are described as ___.'</div>
-  <div class="qopts"><button class="qopt">allegory</button><button class="qopt">avant-garde</button><button class="qopt">folklore</button></div>
-  <div class="qexplain">Experimental art is 'avant-garde'.</div>
+  <div class="qtext">1. 'To lead a project, initiative, or attack is to ___.'</div>
+  <div class="qopts"><button class="qopt">diversify</button><button class="qopt">spearhead</button><button class="qopt">acquire</button></div>
+  <div class="qexplain">Leading an initiative is 'spearhead'.</div>
  </div>
  <div class="qitem">
-  <div class="qtext">2. 'A story that can be interpreted to reveal a hidden moral meaning is an ___.'</div>
-  <div class="qopts"><button class="qopt">allegory</button><button class="qopt">aesthetic</button><button class="qopt">preservation</button></div>
-  <div class="qexplain">Symbolic story is an 'allegory'.</div>
+  <div class="qtext">2. 'Capital invested in project startups with high risk is ___.'</div>
+  <div class="qopts"><button class="qopt">venture capital</button><button class="qopt">market share</button><button class="qopt">sales funnel</button></div>
+  <div class="qexplain">Startup investment is 'venture capital'.</div>
  </div>
  <button class="quiz-reset">Reset quiz</button>
 </div>"""
@@ -516,50 +516,50 @@ PARTS = [
     {
         "id": "part-6",
         "file": "part-6.html",
-        "slug": "environment-and-sustainability-advanced",
-        "title": "Part 6 · Environment & Sustainability (Advanced)",
+        "slug": "science-research-and-empirical-methodology",
+        "title": "Part 6 · Science, Research & Empirical Methodology",
         "short_title": "Part 6",
-        "subtitle": "Climate change in depth, conservation policy, biodiversity loss, and sustainable choices.",
-        "eyebrow": "FCE Topic: Environment Advanced",
+        "subtitle": "Natural sciences, empirical data, double-blind trials, peer review, orbital trajectory, and satellite propulsion.",
+        "eyebrow": "FCE Topic: Science & Research",
         "stripe": "#3562e0",
-        "topic_title": "Environment & Sustainability (Advanced)",
+        "topic_title": "Science, Research & Empirical Methodology",
         "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
-  <strong>🎯 What you can communicate after this page:</strong> You can discuss climate mitigation strategies, ecosystem resilience, and circular economy principles.
+  <strong>🎯 What you can communicate after this page:</strong> You can explain scientific inquiry (*empirical data, hypothesis, double-blind trial*) and aerospace exploration.
 </div>
 <div class="table-wrap"><table>
 <thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
 <tbody>
-<tr><td>Climate Action</td><td>decarbonization, carbon neutrality, offsetting</td><td>The corporation pledged to achieve <b>carbon neutrality</b> by 2040.</td></tr>
-<tr><td>Ecosystems</td><td>biodiversity loss, ecological footprint, resilience</td><td>Protecting wetlands prevents further <b>biodiversity loss</b>.</td></tr>
-<tr><td>Sustainable Economy</td><td>circular economy, fast fashion, resource depletion</td><td>A <b>circular economy</b> minimizes waste by reusing materials.</td></tr>
+<tr><td>Scientific Method</td><td>empirical data, hypothesis, control group, double-blind study</td><td>The <b>hypothesis</b> was verified in a <b>double-blind study</b>.</td></tr>
+<tr><td>Aerospace & Exploration</td><td>orbital trajectory, payload, propulsion, satellite, rover</td><td>Engineers adjusted the probe's <b>orbital trajectory</b>.</td></tr>
+<tr><td>Research Process</td><td>replicate, peer review, formulate, transmit, observe</td><td>Experiments must be <b>replicated</b> before publication.</td></tr>
 </tbody>
 </table></div>
-<div class="examples"><span class="label">More Examples</span><ul><li>Rapid urban expansion leads to severe <b>resource depletion</b>.</li><li>Many consumers are rejecting <b>fast fashion</b> in favor of durable clothing.</li></ul></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>The study relies on <b>empirical evidence</b> gathered across five labs.</li><li>The robotic <b>rover</b> transmitted geological data back to Earth.</li></ul></div>
 <div class="mistakes">
  <div class="m-title">⚠️ Common mistakes</div>
  <div class="mflip">
-  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">We must stop the climate change quickly.</span></div>
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">They made an empirical data.</span></div>
   <span class="hint">tap to see the correct form</span>
-  <div class="right-line"><span class="c">✅</span><span>We must combat <b>climate change</b> urgency. (No article before 'climate change'!)</span></div>
+  <div class="right-line"><span class="c">✅</span><span>They <b>gathered / collected empirical data</b>. (Data is uncountable!)</span></div>
  </div>
 </div>
-<div class="checklist" data-key="env-b2">
+<div class="checklist" data-key="science-empirical">
  <h3>🎯 Can you already use this?</h3>
- <label class="check-item"><input type="checkbox"><span>Use advanced climate concepts (carbon neutrality, decarbonization)</span></label>
- <label class="check-item"><input type="checkbox"><span>Discuss circular economy and fast fashion impacts</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use research terminology (empirical data, double-blind study, peer review)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Treat 'data' correctly with verbs like gather or analyze</span></label>
  <div class="check-progress"></div>
 </div>
 <div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
  <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
  <div class="qitem">
-  <div class="qtext">1. 'Achieving net-zero carbon emissions is known as carbon ___.'</div>
-  <div class="qopts"><button class="qopt">neutrality</button><button class="qopt">depletion</button><button class="qopt">resilience</button></div>
-  <div class="qexplain">Net-zero balance is carbon 'neutrality'.</div>
+  <div class="qtext">1. 'Information acquired by observation or experimentation is ___.'</div>
+  <div class="qopts"><button class="qopt">empirical data</button><button class="qopt">payload</button><button class="qopt">propulsion</button></div>
+  <div class="qexplain">Observed data is 'empirical data'.</div>
  </div>
  <div class="qitem">
-  <div class="qtext">2. 'An economic model designed to eliminate waste and keep materials in use is a ___.'</div>
-  <div class="qopts"><button class="qopt">fast fashion</button><button class="qopt">circular economy</button><button class="qopt">offsetting</button></div>
-  <div class="qexplain">Zero-waste model is 'circular economy'.</div>
+  <div class="qtext">2. 'Curved path of a celestial object or spacecraft around a star/planet is an ___.'</div>
+  <div class="qopts"><button class="qopt">empirical method</button><button class="qopt">orbital trajectory</button><button class="qopt">control group</button></div>
+  <div class="qexplain">Spacecraft path is 'orbital trajectory'.</div>
  </div>
  <button class="quiz-reset">Reset quiz</button>
 </div>"""
@@ -567,50 +567,50 @@ PARTS = [
     {
         "id": "part-7",
         "file": "part-7.html",
-        "slug": "media-advertising-and-public-opinion",
-        "title": "Part 7 · Media, Advertising & Public Opinion",
+        "slug": "technology-ai-and-cybernetics",
+        "title": "Part 7 · Technology, AI & Cybernetics",
         "short_title": "Part 7",
-        "subtitle": "Media literacy, marketing techniques, misinformation, rhetoric, and opinion polling.",
-        "eyebrow": "FCE Topic: Media & Public Opinion",
+        "subtitle": "Artificial Intelligence models, neural networks, predictive analytics, cloud storage, and digital ethics frameworks.",
+        "eyebrow": "FCE Topic: Tech & AI",
         "stripe": "#1c8f56",
-        "topic_title": "Media, Advertising & Public Opinion",
+        "topic_title": "Technology, AI & Cybernetics",
         "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
-  <strong>🎯 What you can communicate after this page:</strong> You can critique advertising persuasion techniques, media bias, and public opinion trends.
+  <strong>🎯 What you can communicate after this page:</strong> You can discuss Artificial Intelligence (*neural network, predictive model*), cloud security, and digital ethics.
 </div>
 <div class="table-wrap"><table>
 <thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
 <tbody>
-<tr><td>Media Literacy</td><td>media bias, sensationalism, fact-checking, echo chamber</td><td>Sensationalism in journalism distorts public perception.</td></tr>
-<tr><td>Advertising</td><td>sponsorship, endorsement, consumer manipulation, slogan</td><td>The athlete signed a lucrative brand <b>endorsement</b> deal.</td></tr>
-<tr><td>Public Opinion</td><td>opinion poll, narrative, misinformation, consensus</td><td><b>Opinion polls</b> indicate shifting voter priorities.</td></tr>
+<tr><td>AI & ML</td><td>Machine Learning (ML), neural network, predictive analytics</td><td><b>Neural networks</b> process complex pattern recognition.</td></tr>
+<tr><td>Cybernetics & Cloud</td><td>cloud storage, blockchain, digital ethics, end-to-end encryption</td><td>Establishing a <b>digital ethics</b> framework is mandatory.</td></tr>
+<tr><td>Verbs</td><td>automate, optimize, simulate, virtualize, authenticate</td><td>Automated systems <b>optimize</b> logistics operations.</td></tr>
 </tbody>
 </table></div>
-<div class="examples"><span class="label">More Examples</span><ul><li>Social media algorithms can create dangerous <b>echo chambers</b>.</li><li>Independent journalists engaged in rigorous <b>fact-checking</b>.</li></ul></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>Logistics companies utilize <b>predictive analytics</b> to forecast demand.</li><li>Sensitive files are protected with <b>end-to-end encryption</b>.</li></ul></div>
 <div class="mistakes">
  <div class="m-title">⚠️ Common mistakes</div>
  <div class="mflip">
-  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">The advertizing was very effective.</span></div>
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">The AI is optimizing automatic the route.</span></div>
   <span class="hint">tap to see the correct form</span>
-  <div class="right-line"><span class="c">✅</span><span>The <b>advertising campaign</b> was very effective.</span></div>
+  <div class="right-line"><span class="c">✅</span><span>AI is optimizing the route <b>automatically</b>. (Adverb modifies verb!)</span></div>
  </div>
 </div>
-<div class="checklist" data-key="media-b2">
+<div class="checklist" data-key="tech-ai-cybernetics">
  <h3>🎯 Can you already use this?</h3>
- <label class="check-item"><input type="checkbox"><span>Critique media bias and sensationalism</span></label>
- <label class="check-item"><input type="checkbox"><span>Use marketing terms (endorsement, echo chamber, opinion poll)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use AI/tech terminology (neural network, predictive analytics, digital ethics)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use tech verbs (optimize, simulate, authenticate, virtualize)</span></label>
  <div class="check-progress"></div>
 </div>
 <div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
  <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
  <div class="qitem">
-  <div class="qtext">1. 'An environment where a person only encounters information reflecting their own views is an ___.'</div>
-  <div class="qopts"><button class="qopt">opinion poll</button><button class="qopt">echo chamber</button><button class="qopt">sponsorship</button></div>
-  <div class="qexplain">Isolated views environment is an 'echo chamber'.</div>
+  <div class="qtext">1. 'Computing systems inspired by biological brain structures are ___.'</div>
+  <div class="qopts"><button class="qopt">blockchains</button><button class="qopt">neural networks</button><button class="qopt">cloud storages</button></div>
+  <div class="qexplain">Brain-inspired computing is 'neural network'.</div>
  </div>
  <div class="qitem">
-  <div class="qtext">2. 'Deliberately exaggerated news coverage designed to provoke emotion is ___.'</div>
-  <div class="qopts"><button class="qopt">sensationalism</button><button class="qopt">endorsement</button><button class="qopt">consensus</button></div>
-  <div class="qexplain">Exaggerated news style is 'sensationalism'.</div>
+  <div class="qtext">2. 'Using historical data to forecast future outcomes is ___.'</div>
+  <div class="qopts"><button class="qopt">predictive analytics</button><button class="qopt">digital footprint</button><button class="qopt">end-to-end encryption</button></div>
+  <div class="qexplain">Forecasting outcomes is 'predictive analytics'.</div>
  </div>
  <button class="quiz-reset">Reset quiz</button>
 </div>"""
@@ -618,50 +618,50 @@ PARTS = [
     {
         "id": "part-8",
         "file": "part-8.html",
-        "slug": "education-and-personal-development",
-        "title": "Part 8 · Education & Personal Development",
+        "slug": "media-journalism-and-public-discourse",
+        "title": "Part 8 · Media, Journalism & Public Discourse",
         "short_title": "Part 8",
-        "subtitle": "Lifelong learning, self-improvement, critical thinking, and alternative educational models.",
-        "eyebrow": "FCE Topic: Education",
+        "subtitle": "Investigative journalism, press freedom, whistleblowers, digital echo chambers, disinformation, and clickbait.",
+        "eyebrow": "FCE Topic: Media & Public Discourse",
         "stripe": "#c9740a",
-        "topic_title": "Education & Personal Development",
+        "topic_title": "Media, Journalism & Public Discourse",
         "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
-  <strong>🎯 What you can communicate after this page:</strong> You can discuss critical thinking skills, alternative learning models, and personal development goals.
+  <strong>🎯 What you can communicate after this page:</strong> You can evaluate press freedom (*investigative reporting, whistleblower*), disinformation campaigns, and echo chambers.
 </div>
 <div class="table-wrap"><table>
 <thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
 <tbody>
-<tr><td>Learning Models</td><td>lifelong learning, vocational training, holistic education</td><td>Higher education emphasizes <b>lifelong learning</b> habits.</td></tr>
-<tr><td>Cognitive Skills</td><td>critical thinking, problem-solving, cognitive agility</td><td>Schools must foster <b>critical thinking</b> rather than rote memorization.</td></tr>
-<tr><td>Development</td><td>mentor, self-discipline, goal-setting, adaptability</td><td>Working with an experienced <b>mentor</b> accelerated his career.</td></tr>
+<tr><td>Journalism</td><td>investigative reporting, press freedom, whistleblower, source</td><td>The <b>whistleblower</b> exposed corporate environmental crimes.</td></tr>
+<tr><td>Public Discourse</td><td>disinformation, echo chamber, clickbait, debunk, manipulate</td><td>Sensational <b>clickbait</b> headlines distort public discourse.</td></tr>
+<tr><td>Verbs</td><td>investigate, expose, leak, distort, sensationalize</td><td>Journalists worked for months to <b>expose</b> corruption.</td></tr>
 </tbody>
 </table></div>
-<div class="examples"><span class="label">More Examples</span><ul><li><b>Vocational training</b> offers practical skills for technical careers.</li><li>In a rapidly changing world, <b>adaptability</b> is crucial.</li></ul></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>Fact-checkers worked rapidly to <b>debunk</b> viral disinformation.</li><li>Algorithms can inadvertently trap readers inside a <b>digital echo chamber</b>.</li></ul></div>
 <div class="mistakes">
  <div class="m-title">⚠️ Common mistakes</div>
  <div class="mflip">
-  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">He made a big self-development.</span></div>
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">The whistleblower leaked out confidential documents.</span></div>
   <span class="hint">tap to see the correct form</span>
-  <div class="right-line"><span class="c">✅</span><span>He focused on <b>personal development</b> / self-improvement.</span></div>
+  <div class="right-line"><span class="c">✅</span><span>The whistleblower <b>leaked</b> confidential documents. (Direct verb without 'out'!)</span></div>
  </div>
 </div>
-<div class="checklist" data-key="edu-b2">
+<div class="checklist" data-key="media-journalism">
  <h3>🎯 Can you already use this?</h3>
- <label class="check-item"><input type="checkbox"><span>Discuss critical thinking vs rote memorization</span></label>
- <label class="check-item"><input type="checkbox"><span>Use development terms (lifelong learning, mentor, adaptability)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use media journalism terms (investigative reporting, whistleblower, clickbait)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Discuss echo chambers and disinformation tactics</span></label>
  <div class="check-progress"></div>
 </div>
 <div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
  <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
  <div class="qitem">
-  <div class="qtext">1. 'Analyzing facts objectively to form a judgment is ___.'</div>
-  <div class="qopts"><button class="qopt">critical thinking</button><button class="qopt">vocational training</button><button class="qopt">rote memorization</button></div>
-  <div class="qexplain">Objective analysis is 'critical thinking'.</div>
+  <div class="qtext">1. 'Person who informs on a person or organization engaged in illegal activity is a ___.'</div>
+  <div class="qopts"><button class="qopt">whistleblower</button><button class="qopt">fact-checker</button><button class="qopt">editor</button></div>
+  <div class="qexplain">Informer on wrongdoing is a 'whistleblower'.</div>
  </div>
  <div class="qitem">
-  <div class="qtext">2. 'Education focused on practical skills for specific trades is ___.'</div>
-  <div class="qopts"><button class="qopt">holistic education</button><button class="qopt">vocational training</button><button class="qopt">cognitive agility</button></div>
-  <div class="qexplain">Trade-focused education is 'vocational training'.</div>
+  <div class="qtext">2. 'Environment where a person only encounters information reflecting their own views is an ___.'</div>
+  <div class="qopts"><button class="qopt">clickbait</button><button class="qopt">echo chamber</button><button class="qopt">disinformation</button></div>
+  <div class="qexplain">Enclosed views environment is an 'echo chamber'.</div>
  </div>
  <button class="quiz-reset">Reset quiz</button>
 </div>"""
@@ -669,50 +669,50 @@ PARTS = [
     {
         "id": "part-9",
         "file": "part-9.html",
-        "slug": "health-psychology-and-wellbeing",
-        "title": "Part 9 · Health, Psychology & Wellbeing",
+        "slug": "psychology-cognition-and-behavior",
+        "title": "Part 9 · Psychology, Cognition & Behavior",
         "short_title": "Part 9",
-        "subtitle": "Mental health, non-clinical psychological terms, emotional intelligence, and resilience.",
-        "eyebrow": "FCE Topic: Health & Fitness",
+        "subtitle": "Cognitive bias, emotional intelligence, subconscious habit formation, psychological resilience, and behavior.",
+        "eyebrow": "FCE Topic: Psychology & Cognition",
         "stripe": "#7c4fd6",
-        "topic_title": "Health, Psychology & Wellbeing",
+        "topic_title": "Psychology, Cognition & Behavior",
         "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
-  <strong>🎯 What you can communicate after this page:</strong> You can discuss psychological resilience, emotional intelligence, and work-life balance non-clinically.
+  <strong>🎯 What you can communicate after this page:</strong> You can discuss psychological processes (*cognitive bias, subconscious, emotional intelligence*) and habit formation.
 </div>
 <div class="table-wrap"><table>
 <thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
 <tbody>
-<tr><td>Psychology</td><td>emotional intelligence, coping mechanism, mindset, perception</td><td>Developing <b>emotional intelligence</b> improves team leadership.</td></tr>
-<tr><td>Wellbeing</td><td>work-life balance, burnout prevention, mental clarity</td><td>Regular exercise contributes to overall <b>mental clarity</b>.</td></tr>
-<tr><td>Behavior</td><td>habit formation, motivation, self-esteem, empathy</td><td>Positive feedback boosts employee <b>self-esteem</b>.</td></tr>
+<tr><td>Cognition</td><td>cognitive bias, subconscious, perception, internalize</td><td>Confirmation bias is a widespread <b>cognitive bias</b>.</td></tr>
+<tr><td>Psychology</td><td>emotional intelligence, psychological resilience, coping</td><td>High <b>emotional intelligence</b> fosters effective team leadership.</td></tr>
+<tr><td>Verbs</td><td>perceive, process, internalize, cope, adapt</td><td>It takes time to <b>internalize</b> new behavioral habits.</td></tr>
 </tbody>
 </table></div>
-<div class="examples"><span class="label">More Examples</span><ul><li>Meditation serves as a healthy <b>coping mechanism</b> for stress.</li><li>A growth <b>mindset</b> encourages viewing mistakes as learning opportunities.</li></ul></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>Developing <b>psychological resilience</b> helps individuals recover from adversity.</li><li>Unconscious choices are driven by <b>subconscious</b> preferences.</li></ul></div>
 <div class="mistakes">
  <div class="m-title">⚠️ Common mistakes</div>
  <div class="mflip">
-  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">He has a high emotional intelligent.</span></div>
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">He has a strong cognitive biased.</span></div>
   <span class="hint">tap to see the correct form</span>
-  <div class="right-line"><span class="c">✅</span><span>He has high <b>emotional intelligence</b>. (Noun required after adjective!)</span></div>
+  <div class="right-line"><span class="c">✅</span><span>He has a strong <b>cognitive bias</b>. (Noun required!)</span></div>
  </div>
 </div>
-<div class="checklist" data-key="psych-b2">
+<div class="checklist" data-key="psychology-cognition">
  <h3>🎯 Can you already use this?</h3>
- <label class="check-item"><input type="checkbox"><span>Use terms like emotional intelligence and growth mindset</span></label>
- <label class="check-item"><input type="checkbox"><span>Discuss coping mechanisms for daily stress</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use cognitive psychology terms (cognitive bias, subconscious, resilience)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Discuss emotional intelligence and perception</span></label>
  <div class="check-progress"></div>
 </div>
 <div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
  <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
  <div class="qitem">
-  <div class="qtext">1. 'The ability to understand and manage one's emotions effectively is ___.'</div>
-  <div class="qopts"><button class="qopt">coping mechanism</button><button class="qopt">emotional intelligence</button><button class="qopt">habit formation</button></div>
-  <div class="qexplain">Managing emotions is 'emotional intelligence'.</div>
+  <div class="qtext">1. 'Systematic pattern of deviation from norm or rationality in judgment is a ___.'</div>
+  <div class="qopts"><button class="qopt">subconscious</button><button class="qopt">cognitive bias</button><button class="qopt">perception</button></div>
+  <div class="qexplain">Systematic error in thinking is 'cognitive bias'.</div>
  </div>
  <div class="qitem">
-  <div class="qtext">2. 'A strategy used to manage difficult emotional situations is a ___.'</div>
-  <div class="qopts"><button class="qopt">coping mechanism</button><button class="qopt">growth mindset</button><button class="qopt">perception</button></div>
-  <div class="qexplain">Stress management strategy is a 'coping mechanism'.</div>
+  <div class="qtext">2. 'Capacity to recover quickly from psychological difficulties is ___.'</div>
+  <div class="qopts"><button class="qopt">psychological resilience</button><button class="qopt">cognitive bias</button><button class="qopt">subconscious</button></div>
+  <div class="qexplain">Recovery capacity is 'resilience'.</div>
  </div>
  <button class="quiz-reset">Reset quiz</button>
 </div>"""
@@ -720,50 +720,50 @@ PARTS = [
     {
         "id": "part-10",
         "file": "part-10.html",
-        "slug": "relationships-and-communication-styles",
-        "title": "Part 10 · Relationships & Communication Styles",
+        "slug": "philosophy-ethics-and-moral-logic",
+        "title": "Part 10 · Philosophy, Ethics & Moral Logic",
         "short_title": "Part 10",
-        "subtitle": "Interpersonal dynamics, active listening, non-verbal cues, and conflict mediation.",
-        "eyebrow": "FCE Topic: Relationships",
+        "subtitle": "Utilitarianism vs deontology, moral dilemmas, free will, epistemology, and ethical decision frameworks.",
+        "eyebrow": "FCE Topic: Philosophy & Ethics",
         "stripe": "#a3195b",
-        "topic_title": "Relationships & Communication Styles",
+        "topic_title": "Philosophy, Ethics & Moral Logic",
         "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
-  <strong>🎯 What you can communicate after this page:</strong> You can evaluate communication styles (assertive, passive), body language cues, and interpersonal dynamics.
+  <strong>🎯 What you can communicate after this page:</strong> You can debate philosophical frameworks (*utilitarianism, deontology, moral dilemma*) and ethical logic.
 </div>
 <div class="table-wrap"><table>
 <thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
 <tbody>
-<tr><td>Communication Styles</td><td>assertive, persuasive, diplomatic, passive-aggressive</td><td>She stated her request in a clear, <b>assertive</b> manner.</td></tr>
-<tr><td>Non-Verbal Cues</td><td>body language, gesture, eye contact, tone of voice</td><td>Maintaining direct <b>eye contact</b> signals confidence.</td></tr>
-<tr><td>Interpersonal Dynamics</td><td>rapport, mediation, boundary, constructive criticism</td><td>The manager established a strong <b>rapport</b> with the team.</td></tr>
+<tr><td>Philosophical Logic</td><td>utilitarianism, deontology, moral dilemma, free will</td><td>Engineers face a <b>moral dilemma</b> in autonomous driving design.</td></tr>
+<tr><td>Principles</td><td>epistemology, ethical framework, fundamental principles</td><td><b>Utilitarianism</b> seeks the greatest good for the greatest number.</td></tr>
+<tr><td>Verbs</td><td>deliberate, justify, uphold, deduce, ponder</td><td>The ethics committee <b>deliberated</b> for several hours.</td></tr>
 </tbody>
 </table></div>
-<div class="examples"><span class="label">More Examples</span><ul><li>Constructive <b>mediation</b> resolved the workplace dispute.</li><li>Pay attention to subtle changes in <b>tone of voice</b>.</li></ul></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>Deontology emphasizes duty over consequences.</li><li>He spent years <b>pondering</b> the nature of free will and human agency.</li></ul></div>
 <div class="mistakes">
  <div class="m-title">⚠️ Common mistakes</div>
  <div class="mflip">
-  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">He was very aggressive when asking politely.</span></div>
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">They justified for their decision morally.</span></div>
   <span class="hint">tap to see the correct form</span>
-  <div class="right-line"><span class="c">✅</span><span>He was firm and <b>assertive</b> without being aggressive.</span></div>
+  <div class="right-line"><span class="c">✅</span><span>They <b>justified their decision</b> morally. (No 'for' after transitive verb justify!)</span></div>
  </div>
 </div>
-<div class="checklist" data-key="rel-b2">
+<div class="checklist" data-key="philosophy-moral-logic">
  <h3>🎯 Can you already use this?</h3>
- <label class="check-item"><input type="checkbox"><span>Distinguish assertive from aggressive communication</span></label>
- <label class="check-item"><input type="checkbox"><span>Use terms like rapport, mediation, and body language</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use philosophical terms (utilitarianism, deontology, moral dilemma)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Omit 'for' after justify</span></label>
  <div class="check-progress"></div>
 </div>
 <div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
  <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
  <div class="qitem">
-  <div class="qtext">1. 'Expressing views confidently and directly without aggression is being ___.'</div>
-  <div class="qopts"><button class="qopt">assertive</button><button class="qopt">passive-aggressive</button><button class="qopt">diplomatic</button></div>
-  <div class="qexplain">Confident non-aggressive communication is 'assertive'.</div>
+  <div class="qtext">1. 'Ethical theory holding that actions are right if they benefit the majority is ___.'</div>
+  <div class="qopts"><button class="qopt">utilitarianism</button><button class="qopt">deontology</button><button class="qopt">epistemology</button></div>
+  <div class="qexplain">Majority benefit ethics is 'utilitarianism'.</div>
  </div>
  <div class="qitem">
-  <div class="qtext">2. 'A close and harmonious relationship based on mutual understanding is ___.'</div>
-  <div class="qopts"><button class="qopt">mediation</button><button class="qopt">rapport</button><button class="qopt">boundary</button></div>
-  <div class="qexplain">Harmonious connection is 'rapport'.</div>
+  <div class="qtext">2. 'Situation in which a difficult choice has to be made between two moral imperatives is a ___.'</div>
+  <div class="qopts"><button class="qopt">utilitarianism</button><button class="qopt">moral dilemma</button><button class="qopt">free will</button></div>
+  <div class="qexplain">Difficult moral choice is a 'moral dilemma'.</div>
  </div>
  <button class="quiz-reset">Reset quiz</button>
 </div>"""
@@ -771,50 +771,305 @@ PARTS = [
     {
         "id": "part-11",
         "file": "part-11.html",
-        "slug": "abstract-and-academic-concepts",
-        "title": "Part 11 · Abstract & Academic Concepts",
+        "slug": "culture-arts-and-heritage",
+        "title": "Part 11 · Culture, Arts & Heritage",
         "short_title": "Part 11",
-        "subtitle": "Vocabulary for discussing abstract ideas: identity, freedom, justice, progress, and ethics.",
-        "eyebrow": "FCE Writing (Essay) & Speaking Part 4",
+        "subtitle": "Fine arts, architectural landmarks, symphonic orchestration, sculpture, aesthetics, and heritage sites.",
+        "eyebrow": "FCE Topic: Arts & Heritage",
         "stripe": "#3562e0",
-        "topic_title": "Abstract & Academic Concepts",
+        "topic_title": "Culture, Arts & Heritage",
         "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
-  <strong>🎯 What you can communicate after this page:</strong> You can construct essay arguments and debate abstract concepts like justice, freedom, and societal progress.
+  <strong>🎯 What you can communicate after this page:</strong> You can critique architectural design (*landmark, aesthetic*), fine arts exhibitions, and cultural heritage sites.
 </div>
 <div class="table-wrap"><table>
 <thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
 <tbody>
-<tr><td>Abstract Concepts</td><td>identity, freedom of speech, justice, fundamental rights</td><td><b>Freedom of speech</b> is a cornerstone of democratic society.</td></tr>
-<tr><td>Academic Analysis</td><td>hypothesis, perspective, paradox, fundamental, paradigm</td><td>The study presents a fascinating economic <b>paradox</b>.</td></tr>
-<tr><td>Evaluation</td><td>implication, criterion, justification, validity</td><td>What are the long-term <b>implications</b> of this policy?</td></tr>
+<tr><td>Fine Arts & Design</td><td>sculpture, choreography, aesthetics, curatorial design</td><td>The architect focused on clean lines and modern <b>aesthetics</b>.</td></tr>
+<tr><td>Heritage & Performance</td><td>architectural landmark, cultural heritage site, symphony</td><td>The ancient temple was designated a UNESCO <b>heritage site</b>.</td></tr>
+<tr><td>Verbs</td><td>exhibit, compose, sculpt, choreograph, preserve</td><td>The orchestra performed a newly <b>composed</b> symphony.</td></tr>
 </tbody>
 </table></div>
-<div class="examples"><span class="label">More Examples</span><ul><li>Researchers challenged the existing scientific <b>paradigm</b>.</li><li>The report outlines key <b>criteria</b> for evaluating success.</li></ul></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>Efforts were made to <b>preserve</b> the city's architectural landmarks.</li><li>The museum features an outstanding collection of contemporary <b>sculptures</b>.</li></ul></div>
 <div class="mistakes">
  <div class="m-title">⚠️ Common mistakes</div>
  <div class="mflip">
-  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">What is the criteria for this selection?</span></div>
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">The monument is an aesthetic landmark structure.</span></div>
   <span class="hint">tap to see the correct form</span>
-  <div class="right-line"><span class="c">✅</span><span>What <b>are</b> the <b>criteria</b>? / What is the single <b>criterion</b>? (Criteria is plural!)</span></div>
+  <div class="right-line"><span class="c">✅</span><span>The monument is an <b>architectural landmark</b>.</span></div>
  </div>
 </div>
-<div class="checklist" data-key="abstract-b2">
+<div class="checklist" data-key="culture-arts-heritage">
  <h3>🎯 Can you already use this?</h3>
- <label class="check-item"><input type="checkbox"><span>Distinguish singular criterion from plural criteria</span></label>
- <label class="check-item"><input type="checkbox"><span>Use academic essay vocabulary (paradox, paradigm, implication)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use arts & architecture terms (architectural landmark, aesthetics, heritage)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Discuss museum curation and symphonic performance</span></label>
  <div class="check-progress"></div>
 </div>
 <div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
  <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
  <div class="qitem">
-  <div class="qtext">1. 'Plural form of the noun criterion is ___.'</div>
-  <div class="qopts"><button class="qopt">criterions</button><button class="qopt">criteria</button><button class="qopt">criterias</button></div>
-  <div class="qexplain">Plural form is 'criteria'.</div>
+  <div class="qtext">1. 'Set of principles underlying and guiding the work of a particular artist or movement is ___.'</div>
+  <div class="qopts"><button class="qopt">choreography</button><button class="qopt">aesthetics</button><button class="qopt">symphony</button></div>
+  <div class="qexplain">Guiding principles of beauty is 'aesthetics'.</div>
  </div>
  <div class="qitem">
-  <div class="qtext">2. 'A seemingly contradictory statement that may be true is a ___.'</div>
-  <div class="qopts"><button class="qopt">paradox</button><button class="qopt">paradigm</button><button class="qopt">implication</button></div>
-  <div class="qexplain">Contradictory true statement is a 'paradox'.</div>
+  <div class="qtext">2. 'Building or structure of historical or architectural importance is an ___.'</div>
+  <div class="qopts"><button class="qopt">architectural landmark</button><button class="qopt">aesthetic design</button><button class="qopt">curatorial study</button></div>
+  <div class="qexplain">Important historic structure is an 'architectural landmark'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    },
+    {
+        "id": "part-12",
+        "file": "part-12.html",
+        "slug": "higher-education-and-academic-inquiry",
+        "title": "Part 12 · Higher Education & Academic Inquiry",
+        "short_title": "Part 12",
+        "subtitle": "Dissertation defense, thesis evaluation, academic integrity, peer-reviewed journals, and empirical methodology.",
+        "eyebrow": "FCE Topic: Higher Education",
+        "stripe": "#1c8f56",
+        "topic_title": "Higher Education & Academic Inquiry",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can outline postgraduate research (*dissertation, thesis defense, citation*) and faculty peer review.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>Academic Research</td><td>dissertation, thesis defense, academic integrity, citation</td><td>Postgraduate candidates must <b>defend their thesis</b>.</td></tr>
+<tr><td>University & Faculty</td><td>peer-reviewed journal, symposium, faculty, methodology</td><td>The findings were published in a top <b>peer-reviewed journal</b>.</td></tr>
+<tr><td>Verbs</td><td>defend, publish, cite, evaluate, lecture</td><td>Always <b>cite</b> original authors to maintain academic integrity.</td></tr>
+</tbody>
+</table></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>She delivered a paper at an international academic <b>symposium</b>.</li><li>The <b>faculty panel</b> commended her innovative research methodology.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">He defended for his dissertation yesterday.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>He <b>defended his dissertation</b> yesterday. (No 'for' after defend!)</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="higher-edu-inquiry">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Use higher education terms (dissertation, thesis defense, peer-reviewed)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Omit 'for' after transitive verb defend</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'Long essay on a particular subject written for a university degree is a ___.'</div>
+  <div class="qopts"><button class="qopt">dissertation</button><button class="qopt">symposium</button><button class="qopt">citation</button></div>
+  <div class="qexplain">Degree long paper is a 'dissertation'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'Quotation from or reference to a book or author in an academic paper is a ___.'</div>
+  <div class="qopts"><button class="qopt">symposium</button><button class="qopt">citation</button><button class="qopt">faculty</button></div>
+  <div class="qexplain">Reference to source is a 'citation'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    },
+    {
+        "id": "part-13",
+        "file": "part-13.html",
+        "slug": "environment-sustainability-and-circular-economy",
+        "title": "Part 13 · Environment, Sustainability & Circular Economy",
+        "short_title": "Part 13",
+        "subtitle": "Circular economy models, carbon credit trading, urban sustainability plans, zero-emissions targets, and biodiversity.",
+        "eyebrow": "FCE Topic: Sustainability & Economy",
+        "stripe": "#c9740a",
+        "topic_title": "Environment, Sustainability & Circular Economy",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can discuss circular economy models (*zero-emissions, carbon credit trading*) and urban sustainability.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>Circular Model</td><td>circular economy, carbon credit trading, zero emissions</td><td>A <b>circular economy</b> model eliminates waste by design.</td></tr>
+<tr><td>Urban Sustainability</td><td>urban sustainability, water management, biodiversity</td><td>The council approved a ten-year <b>urban sustainability</b> plan.</td></tr>
+<tr><td>Verbs</td><td>conserve, reduce, mitigate, preserve, recycle</td><td>Cities must <b>mitigate</b> the risks of urban heat islands.</td></tr>
+</tbody>
+</table></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>Companies buy carbon credits to offset industrial emissions.</li><li>Pledging to reach a <b>zero-emissions target</b> accelerates clean tech adoption.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">We must reduce the carbon emissions of 20%.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>We must reduce carbon emissions <b>by</b> 20%.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="env-circular-economy">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Use circular economy terms (carbon credit trading, zero emissions, circular model)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use correct preposition 'by' for reduction percentages</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'Economic system aimed at eliminating waste and continual use of resources is a ___.'</div>
+  <div class="qopts"><button class="qopt">carbon market</button><button class="qopt">circular economy</button><button class="qopt">zero emission</button></div>
+  <div class="qexplain">Zero-waste resource system is 'circular economy'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'Market-based system for buying and selling permits to emit greenhouse gases is ___.'</div>
+  <div class="qopts"><button class="qopt">carbon credit trading</button><button class="qopt">circular economy</button><button class="qopt">water management</button></div>
+  <div class="qexplain">Permit trading system is 'carbon credit trading'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    },
+    {
+        "id": "part-14",
+        "file": "part-14.html",
+        "slug": "international-relations-and-geopolitics",
+        "title": "Part 14 · International Relations & Geopolitics",
+        "short_title": "Part 14",
+        "subtitle": "Diplomatic immunity, ratifying treaties, multilateral agreements, economic sanctions, and peacekeeping missions.",
+        "eyebrow": "FCE Topic: International Relations",
+        "stripe": "#7c4fd6",
+        "topic_title": "International Relations & Geopolitics",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can analyze international diplomacy (*multilateral treaty, diplomatic immunity, economic sanctions*).
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>Diplomacy & Treaties</td><td>diplomacy, multilateral treaty, diplomatic immunity, ambassador</td><td>Both delegates met to sign a <b>multilateral treaty</b>.</td></tr>
+<tr><td>Global Security</td><td>international sanctions, peacekeeping, summit, bilateral</td><td>The UN Security Council voted to <b>impose economic sanctions</b>.</td></tr>
+<tr><td>Verbs</td><td>negotiate, ratify, impose, mediate, execute</td><td>All parliament members voted to <b>ratify the treaty</b>.</td></tr>
+</tbody>
+</table></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>An international <b>peacekeeping mission</b> was dispatched to monitor the ceasefire.</li><li>The prime minister attended the international climate <b>summit</b>.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">They imposed economic sanctions for the country.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>They imposed economic sanctions <b>on / against</b> the country.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="intl-relations">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Use international relations terms (multilateral treaty, sanctions, peacekeeping)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use correct prepositions 'on' / 'against' after impose sanctions</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'Formal agreement between three or more sovereign states is a ___.'</div>
+  <div class="qopts"><button class="qopt">multilateral treaty</button><button class="qopt">diplomatic immunity</button><button class="qopt">economic sanction</button></div>
+  <div class="qexplain">Multi-state agreement is 'multilateral treaty'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'Correct preposition: "Impose sanctions ___ the rogue regime."'</div>
+  <div class="qopts"><button class="qopt">to</button><button class="qopt">on</button><button class="qopt">for</button></div>
+  <div class="qexplain">Preposition required is 'on' / 'against'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    },
+    {
+        "id": "part-15",
+        "file": "part-15.html",
+        "slug": "healthcare-systems-and-preventive-medicine",
+        "title": "Part 15 · Healthcare Systems & Preventive Medicine",
+        "short_title": "Part 15",
+        "subtitle": "Public health policies, clinical trials, medical ethics committees, preventive medicine, and universal coverage.",
+        "eyebrow": "FCE Topic: Public Health",
+        "stripe": "#a3195b",
+        "topic_title": "Healthcare Systems & Preventive Medicine",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can discuss public healthcare policy (*preventive medicine, universal coverage, clinical trial*).
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>Public Health</td><td>public health policy, universal coverage, epidemiology</td><td>The government pledged to achieve <b>universal coverage</b>.</td></tr>
+<tr><td>Medicine & Trials</td><td>preventive medicine, clinical trial, medical ethics committee</td><td>Phase III <b>clinical trials</b> confirmed the vaccine's efficacy.</td></tr>
+<tr><td>Verbs</td><td>vaccinate, prevent, treat, administer, regulate</td><td>Hospitals prioritize <b>preventive medicine</b> to cut costs.</td></tr>
+</tbody>
+</table></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>The <b>medical ethics committee</b> reviewed the drug trial protocol.</li><li>Epidemiologists tracked disease transmission rates across regions.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">The vaccine was tested in clinical experiences.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>The vaccine was tested in <b>clinical trials</b>.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="healthcare-preventive">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Use healthcare terms (universal coverage, clinical trial, preventive medicine)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Distinguish clinical trials (medical testing) from experiences</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'Research studies performed in people to evaluate medical treatments are ___.'</div>
+  <div class="qopts"><button class="qopt">clinical experiences</button><button class="qopt">clinical trials</button><button class="qopt">public health policies</button></div>
+  <div class="qexplain">Medical test studies are 'clinical trials'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'Healthcare system ensuring all residents have healthcare access is ___.'</div>
+  <div class="qopts"><button class="qopt">universal coverage</button><button class="qopt">preventive medicine</button><button class="qopt">medical ethics</button></div>
+  <div class="qexplain">Access for all is 'universal coverage'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    },
+    {
+        "id": "part-16",
+        "file": "part-16.html",
+        "slug": "daily-professional-life-and-workplace-dynamics",
+        "title": "Part 16 · Daily Professional Life & Workplace Dynamics",
+        "short_title": "Part 16",
+        "subtitle": "Annual performance reviews, hybrid work environments, negotiation strategies, and work-life balance.",
+        "eyebrow": "FCE Topic: Professional Workplace",
+        "stripe": "#3562e0",
+        "topic_title": "Daily Professional Life & Workplace Dynamics",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can manage workplace interactions (*annual performance review, hybrid work, negotiation strategy*).
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>Workplace Setup</td><td>hybrid work environment, remote work, team dynamic</td><td>Our company adopted a flexible <b>hybrid work environment</b>.</td></tr>
+<tr><td>Performance & Career</td><td>annual performance review, negotiation strategy, productivity</td><td>She outlined her accomplishments during her <b>performance review</b>.</td></tr>
+<tr><td>Verbs</td><td>evaluate, balance, negotiate, adapt, collaborate</td><td>Remote teams must <b>collaborate</b> effectively via video calls.</td></tr>
+</tbody>
+</table></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>Maintaining a positive <b>work-life balance</b> prevents employee burnout.</li><li>He prepared a persuasive <b>negotiation strategy</b> for the client meeting.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I am working in a hybrid job model environment.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>I work in a <b>hybrid work environment</b>.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="daily-professional-life">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Use workplace terms (performance review, hybrid work, negotiation strategy)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Discuss team dynamics and productivity strategies</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'Formal assessment of an employee's work over a year is an ___.'</div>
+  <div class="qopts"><button class="qopt">annual performance review</button><button class="qopt">hybrid work model</button><button class="qopt">negotiation strategy</button></div>
+  <div class="qexplain">Yearly evaluation is 'annual performance review'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'Work setup combining office work with remote work is a ___.'</div>
+  <div class="qopts"><button class="qopt">performance review</button><button class="qopt">hybrid work environment</button><button class="qopt">negotiation strategy</button></div>
+  <div class="qexplain">Combined office/remote setup is 'hybrid work environment'.</div>
  </div>
  <button class="quiz-reset">Reset quiz</button>
 </div>"""
@@ -823,7 +1078,7 @@ PARTS = [
 
 def render_topbar(is_topic=False):
     rel = "../" if is_topic else ""
-    links = [f'<a href="{rel}part-{i}.html">Part {i}</a>' for i in range(1, 12)]
+    links = [f'<a href="{rel}part-{i}.html">Part {i}</a>' for i in range(1, len(PARTS) + 1)]
     nav_html = "\n".join(links)
     return f"""<header class="topbar">
  <div class="topbar-inner">
@@ -953,7 +1208,7 @@ def build_all():
  <div class="container">
  <span class="hero-kicker">COSYlanguages · Level B2</span>
  <h1>English Vocabulary Manual · Level B2</h1>
- <p class="lead">Precision, Nuance & Register. 11 thematic modules aligned with Cambridge B2 First (FCE) Use of English and Speaking syllabus.</p>
+ <p class="lead">Precision, Nuance & Register. 16 thematic modules aligned with Cambridge B2 First (FCE) Use of English and Speaking syllabus.</p>
  </div>
 </section>
 <main class="container">
