@@ -1,0 +1,71 @@
+{
+  "language": "en",
+  "course_type": "general",
+  "level": "B1",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Unit 1: Nuancing Thoughts & Expressing Complex Opinions",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "gv",
+          "title": "Present Perfect Continuous vs Simple & Present Deduction",
+          "duration_minutes": 60,
+          "grammar": [
+            "Present Perfect Continuous for ongoing actions and duration up to now",
+            "Present Perfect Simple for completed achievements and life results",
+            "Modals of deduction (must, can't, might, could) for present speculation"
+          ],
+          "vocabulary": [
+            "In my view",
+            "From my perspective",
+            "It is necessary",
+            "To demand",
+            "Essential",
+            "Crucial",
+            "Self-identity",
+            "Nuance"
+          ],
+          "practice_types": [
+            "speaking",
+            "listening",
+            "reading",
+            "writing"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "code: \"EN-B1-001\"\npronunciation: [{\"point\":\"Connected speech & weak forms\",\"explain\":\"Mastering weak forms of auxiliary verbs (have/has/been) in natural continuous speech.\",\"examples\":[{\"pattern\":\"have been working\",\"ipa\":\"/həv bɪn ˈwɜː.kɪŋ/\",\"word\":\"been\"}],\"visual\":\"🎵\"}]\ncando: \"Can express necessity, nuanced desires, and speculate on present situations using modals of deduction\""
+        },
+        {
+          "lesson": 2,
+          "type": "gv",
+          "title": "Expressing Cause, Consequence & Polite Disagreement",
+          "duration_minutes": 60,
+          "grammar": [
+            "Connectors of cause and consequence (due to, owing to, as a result, consequently)",
+            "Polite disagreement structures (I see your point, however / I agree up to a point, but)",
+            "Second and Third Conditionals for hypothetical scenarios"
+          ],
+          "vocabulary": [
+            "Reason",
+            "Impact",
+            "Result",
+            "Factor",
+            "Origin",
+            "Consequently",
+            "Nevertheless",
+            "Trade-off"
+          ],
+          "practice_types": [
+            "speaking",
+            "listening",
+            "reading",
+            "writing"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "code: \"EN-B1-002\"\ncando: \"Can structure simple logical arguments and express polite disagreement in discussions\""
+        }
+      ]
+    }
+  ]
+}
