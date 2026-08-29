@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 Generator script for COSYlanguages English Vocabulary Manual (Level A2) Interactive Web Edition.
-Generates manuals/en/vocabulary/a2/index.html, 10 section hub HTML pages (part-1.html .. part-10.html),
-assets (style.css, app.js), and 10 topic HTML pages in manuals/en/vocabulary/a2/topics/.
+Generates manuals/en/vocabulary/a2/index.html, 17 section hub HTML pages (part-1.html .. part-17.html),
+assets (style.css, app.js), and 17 topic HTML pages in manuals/en/vocabulary/a2/topics/.
 """
 
 import os
@@ -777,12 +777,381 @@ PARTS = [
  </div>
  <button class="quiz-reset">Reset quiz</button>
 </div>"""
+    },
+    {
+        "id": "part-11",
+        "file": "part-11.html",
+        "slug": "expanded-transport-and-driving",
+        "title": "Part 11 · Expanded Transport & Driving",
+        "short_title": "Part 11",
+        "subtitle": "Driving rules, road navigation, vehicle parts, and public transit systems.",
+        "eyebrow": "A2 Key Topic: Transport & Driving",
+        "stripe": "#3562e0",
+        "topic_title": "Expanded Transport & Driving",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can discuss driving regulations, road directions, vehicle components, and transit routes.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Domain</th><th>Vocabulary</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>Driving & Navigation</td><td>driver's license, seatbelt, speed limit, traffic light, roundabout, motorway</td><td>Always wear your <b>seatbelt</b> before driving.</td></tr>
+<tr><td>Vehicle Parts</td><td>steering wheel, brakes, engine, tyre, windscreen, fuel tank</td><td>He hit the <b>brakes</b> to avoid the dog.</td></tr>
+<tr><td>Public Transit</td><td>timetable, platform, conductor, fare, single/return ticket</td><td>What time does the next train leave from <b>platform 3</b>?</td></tr>
+</tbody>
+</table></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>Be careful when changing lanes on the <b>motorway</b>.</li><li>You must lower your speed near a school zone to obey the <b>speed limit</b>.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I entered into the bus at the station.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>I got on the bus at the station.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="transport-driving">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Name essential vehicle parts like brakes, engine, and steering wheel</span></label>
+ <label class="check-item"><input type="checkbox"><span>Describe road navigation terms (roundabout, speed limit, motorway)</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'The safety strap you wear in a car is a ___.'</div>
+  <div class="qopts"><button class="qopt">windscreen</button><button class="qopt">seatbelt</button><button class="qopt">roundabout</button></div>
+  <div class="qexplain">Car safety belt is a 'seatbelt'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'The part of the vehicle used to stop or slow down is the ___.'</div>
+  <div class="qopts"><button class="qopt">brakes</button><button class="qopt">engine</button><button class="qopt">tyre</button></div>
+  <div class="qexplain">Stopping mechanism is 'brakes'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    },
+    {
+        "id": "part-12",
+        "file": "part-12.html",
+        "slug": "emergencies-and-accidents",
+        "title": "Part 12 · Emergencies & Accidents",
+        "short_title": "Part 12",
+        "subtitle": "Emergency services, reporting incidents, lost property, and natural disasters.",
+        "eyebrow": "A2 Key Topic: Emergencies & Safety",
+        "stripe": "#e55353",
+        "topic_title": "Emergencies & Accidents",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can call emergency services, describe incidents, report lost property, and handle emergency situations.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Category</th><th>Key Vocabulary</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>Emergency Services</td><td>ambulance, police officer, firefighter, first aid, emergency call</td><td>Call an <b>ambulance</b> immediately!</td></tr>
+<tr><td>Incidents & Crimes</td><td>accident, collision, theft, burglary, injury, lost property</td><td>I need to report a <b>theft</b> at the police station.</td></tr>
+<tr><td>Disasters & Safety</td><td>flood, earthquake, storm damage, fire alarm, evacuation</td><td>Everyone left safely during the <b>fire alarm</b>.</td></tr>
+</tbody>
+</table></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>The paramedics provided <b>first aid</b> before heading to the hospital.</li><li>Excuse me, is there a <b>lost property office</b> nearby?</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I phoned to the emergency number.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>I called the emergency services number.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="emergencies-accidents">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Call emergency services and state location</span></label>
+ <label class="check-item"><input type="checkbox"><span>Report stolen items or lost property clearly</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 2}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'Initial medical assistance given to an injured person is ___.'</div>
+  <div class="qopts"><button class="qopt">first aid</button><button class="qopt">lost property</button><button class="qopt">burglary</button></div>
+  <div class="qexplain">Immediate care is 'first aid'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'If your wallet is stolen, you should report a ___.'</div>
+  <div class="qopts"><button class="qopt">flood</button><button class="qopt">collision</button><button class="qopt">theft</button></div>
+  <div class="qexplain">Stolen property reporting is a 'theft'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    },
+    {
+        "id": "part-13",
+        "file": "part-13.html",
+        "slug": "culture-society-and-celebrations",
+        "title": "Part 13 · Culture, Society & Celebrations",
+        "short_title": "Part 13",
+        "subtitle": "National holidays, social etiquette, parties, gift giving, and cultural customs.",
+        "eyebrow": "A2 Key Topic: Culture & Customs",
+        "stripe": "#1c8f56",
+        "topic_title": "Culture, Society & Celebrations",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can discuss cultural customs, social etiquette, celebrate milestones, and exchange gifts.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Context</th><th>Vocabulary</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>Holidays & Etiquette</td><td>custom, tradition, social norms, eye contact, handshake, greeting</td><td>A firm <b>handshake</b> is customary in business greetings.</td></tr>
+<tr><td>Celebrations & Parties</td><td>festival, anniversary, wedding, birthday, party host, toast</td><td>Let's make a <b>toast</b> to the happy couple!</td></tr>
+<tr><td>Gifts & Hospitality</td><td>invitation, gift wrap, present, gathering, congratulate</td><td>Thank you for the lovely birthday <b>present</b>!</td></tr>
+</tbody>
+</table></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>How do people celebrate <b>New Year's Eve</b> in your home city?</li><li>I sent an <b>invitation</b> to all my friends for the housewarming party.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I congratulate you for your birthday.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>I congratulate you on your birthday! / Happy birthday!</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="culture-society">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Describe greeting customs (handshake, eye contact)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use celebration phrases (make a toast, wrap a present)</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'To raise a glass and drink to celebrate someone is to make a ___.'</div>
+  <div class="qopts"><button class="qopt">handshake</button><button class="qopt">toast</button><button class="qopt">custom</button></div>
+  <div class="qexplain">Drinking to honor someone is making a 'toast'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'A traditional social rule or behavior in a society is a ___.'</div>
+  <div class="qopts"><button class="qopt">custom</button><button class="qopt">wrapping paper</button><button class="qopt">host</button></div>
+  <div class="qexplain">Cultural practice is a 'custom'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    },
+    {
+        "id": "part-14",
+        "file": "part-14.html",
+        "slug": "personal-development-and-goals",
+        "title": "Part 14 · Personal Development & Goals",
+        "short_title": "Part 14",
+        "subtitle": "Goal setting, time management, decision making, habits, and self-improvement.",
+        "eyebrow": "A2 Key Topic: Goals & Habits",
+        "stripe": "#c9740a",
+        "topic_title": "Personal Development & Goals",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can outline personal goals, manage schedules, evaluate options, and build positive study habits.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Area</th><th>Key Terms</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>Goals & Success</td><td>goal, target, achievement, failure, study habit, self-improvement</td><td>My main <b>goal</b> is to achieve B1 fluency.</td></tr>
+<tr><td>Time Management</td><td>priority, schedule, procrastination, delay, time management</td><td>I set clear <b>priorities</b> every morning.</td></tr>
+<tr><td>Decision Making</td><td>decision, option, pros and cons, choose, evaluate</td><td>Let's weigh the <b>pros and cons</b> before deciding.</td></tr>
+</tbody>
+</table></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>Don't be afraid of <b>failure</b>; learn from your mistakes.</li><li>Effective <b>time management</b> reduces daily stress.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I made a decision of leaving.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>I made a decision to leave.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="personal-development">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Form goal statements with 'My main goal is to...'</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use decision frames like 'weigh the pros and cons'</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'Delaying tasks that need to be done is called ___.'</div>
+  <div class="qopts"><button class="qopt">procrastination</button><button class="qopt">priority</button><button class="qopt">achievement</button></div>
+  <div class="qexplain">Delaying work is 'procrastination'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'To evaluate positive and negative factors of a choice is to weigh the ___.'</div>
+  <div class="qopts"><button class="qopt">schedules</button><button class="qopt">pros and cons</button><button class="qopt">targets</button></div>
+  <div class="qexplain">Comparing advantages/disadvantages is 'pros and cons'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    },
+    {
+        "id": "part-15",
+        "file": "part-15.html",
+        "slug": "master-collocations-dictionary",
+        "title": "Part 15 · Master Collocations Dictionary",
+        "short_title": "Part 15",
+        "subtitle": "High-frequency A2 verb collocations: MAKE, DO, TAKE, GET, HAVE, GIVE, KEEP, PAY, BREAK.",
+        "eyebrow": "A2 Essential Collocations Index",
+        "stripe": "#7c4fd6",
+        "topic_title": "Master Collocations Dictionary",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can pair high-frequency verbs naturally with their correct noun partners.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Verb</th><th>Essential A2 Collocations</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>MAKE</td><td>decision, mistake, friends, progress, money, call, reservation</td><td>He <b>made a reservation</b> for two at 8 PM.</td></tr>
+<tr><td>DO</td><td>homework, washing-up, housework, exercise, favor, your best</td><td>Please <b>do me a favor</b> and hold this door.</td></tr>
+<tr><td>TAKE</td><td>medicine, break, photo, bus, shower, exam, notes, care of</td><td>Remember to <b>take notes</b> during the lecture.</td></tr>
+<tr><td>GET</td><td>married, lost, ready, better, home, job, tired, degree</td><td>We <b>got lost</b> in the city center.</td></tr>
+<tr><td>HAVE</td><td>meeting, shower, party, rest, fun, problem, time, look</td><td>Let's <b>have a look</b> at the new catalog.</td></tr>
+<tr><td>GIVE</td><td>advice, permission, lift, presentation, call, hand, gift</td><td>Can you <b>give me a hand</b> with these boxes?</td></tr>
+<tr><td>KEEP</td><td>calm, in touch, promise, secret, fit, going, track of</td><td>Make sure to <b>keep in touch</b> while abroad!</td></tr>
+<tr><td>PAY</td><td>attention, bill, by card, in cash, fine, visit</td><td>You can <b>pay by card</b> or in cash.</td></tr>
+<tr><td>BREAK</td><td>promise, law, news, record, habit, down, bone</td><td>The car <b>broke down</b> on the highway.</td></tr>
+</tbody>
+</table></div>
+<div class="examples"><span class="label">More Examples</span><ul><li>Always <b>pay attention</b> when crossing busy streets.</li><li>She works out daily to <b>keep fit</b>.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I did a big mistake on the exam.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>I made a big mistake on the exam.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="master-collocations">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Distinguish MAKE collocations (decision, mistake) from DO (homework, favor)</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use PAY, KEEP, and GIVE collocations accurately</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'Can you ___ me a hand with this heavy table?'</div>
+  <div class="qopts"><button class="qopt">make</button><button class="qopt">give</button><button class="qopt">pay</button></div>
+  <div class="qexplain">Assistance phrase is 'give a hand'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'We need to ___ a decision before Friday.'</div>
+  <div class="qopts"><button class="qopt">make</button><button class="qopt">do</button><button class="qopt">take</button></div>
+  <div class="qexplain">Deciding uses 'make a decision'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    },
+    {
+        "id": "part-16",
+        "file": "part-16.html",
+        "slug": "functional-english-masterclass",
+        "title": "Part 16 · Functional English Masterclass",
+        "short_title": "Part 16",
+        "subtitle": "Situational dialogues: small talk, booking, phone calls, customer service, and polite opinions.",
+        "eyebrow": "A2 Key Speaking & Writing Masterclass",
+        "stripe": "#a3195b",
+        "topic_title": "Functional English Masterclass",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can manage everyday phone calls, handle customer service issues, and make appointments smoothly.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Situation</th><th>Key Functional Set Phrases</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>Small Talk & Greetings</td><td>"Lovely to see you!", "How was your weekend?", "Nice weather today!"</td><td><b>Lovely to see you!</b> How have you been?</td></tr>
+<tr><td>Booking Appointments</td><td>"I'd like to make an appointment...", "Would Tuesday suit you?"</td><td><b>Would Tuesday at 3 PM suit you?</b></td></tr>
+<tr><td>Phone & Video Calls</td><td>"Hello, this is... speaking", "Could I speak to...", "You're on mute!"</td><td><b>Hello, this is Alex speaking.</b></td></tr>
+<tr><td>Customer Complaints</td><td>"I'm calling to complain about...", "We will offer a full refund."</td><td><b>I'm calling to complain about</b> a delayed package.</td></tr>
+<tr><td>Clarification & Repetition</td><td>"Could you repeat that?", "What does this mean?", "Could you speak slower?"</td><td><b>Could you speak a bit more slowly</b>, please?</td></tr>
+<tr><td>Polite Opinions & Agreement</td><td>"In my opinion...", "I completely agree!", "I see your point, but..."</td><td><b>I completely agree</b> with your suggestion.</td></tr>
+</tbody>
+</table></div>
+<div class="examples"><span class="label">More Examples</span><ul><li><b>I'm afraid I have to cancel</b> our appointment due to an emergency.</li><li><b>Would you like to join us</b> for lunch after the meeting?</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">I am calling for complain about the service.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>I am calling to complain about the service.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="functional-masterclass">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Use telephone opening and closing phrases</span></label>
+ <label class="check-item"><input type="checkbox"><span>Ask for repetition or clarification politely</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'If someone on a video call cannot hear you, they might say: "You are ___!"'</div>
+  <div class="qopts"><button class="qopt">on mute</button><button class="qopt">delayed</button><button class="qopt">rescheduled</button></div>
+  <div class="qexplain">Silenced microphone is 'on mute'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'Politely asking someone to say something again: "Could you ___ that?"'</div>
+  <div class="qopts"><button class="qopt">reschedule</button><button class="qopt">repeat</button><button class="qopt">complain</button></div>
+  <div class="qexplain">Asking to re-say is 'repeat'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    },
+    {
+        "id": "part-17",
+        "file": "part-17.html",
+        "slug": "encyclopedic-a2-vocabulary-reference-tables",
+        "title": "Part 17 · Encyclopedic A2 Vocabulary Reference Tables",
+        "short_title": "Part 17",
+        "subtitle": "Master A2 frequency catalogs: top verbs, nouns, adjectives, adverbs, fillers, and idioms.",
+        "eyebrow": "A2 Comprehensive Reference Lexicon",
+        "stripe": "#3562e0",
+        "topic_title": "Encyclopedic A2 Vocabulary Reference Tables",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid #1c8f56; padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can systematically reference high-frequency A2 words, discourse fillers, and idioms to transition into B1.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Lexical Category</th><th>Catalog & Scope</th><th>Representative Examples</th></tr></thead>
+<tbody>
+<tr><td>Top A2 Verbs (500)</td><td>Action, state, motion, and mental verbs</td><td>accept, adapt, behave, evaluate, improve, organize, succeed</td></tr>
+<tr><td>Top A2 Nouns (800)</td><td>Categorized across 20 life domains</td><td>achievement, deposit, emergency, ingredients, priority, suburb</td></tr>
+<tr><td>Top A2 Adjectives (400)</td><td>Descriptive, comparative, and evaluative</td><td>ambitious, customary, generous, punctual, reliable, stubborn</td></tr>
+<tr><td>Adverbs (150)</td><td>Frequency, manner, degree, time, place</td><td>extremely, fairly, gradually, highly, immediately, daily</td></tr>
+<tr><td>Discourse Markers (100)</td><td>Conversation fillers & transitions</td><td>well, actually, basically, mind you, by the way, honestly</td></tr>
+<tr><td>Idioms & Fixed Expressions (200)</td><td>Everyday conversational idioms</td><td>piece of cake, break a leg, so far so good, under the weather</td></tr>
+</tbody>
+</table></div>
+<div class="examples"><span class="label">More Examples</span><ul><li><b>As a matter of fact</b>, I have already completed that assignment.</li><li>I am feeling a bit <b>under the weather</b> today, so I will rest.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">By the way, I am very agree with you.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>By the way, I completely agree with you.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="encyclopedic-reference">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Use discourse fillers like 'actually', 'basically', and 'by the way'</span></label>
+ <label class="check-item"><input type="checkbox"><span>Recognize common A2 idioms (piece of cake, under the weather)</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'If something is very easy, you can describe it idiomatically as a ___.'</div>
+  <div class="qopts"><button class="qopt">piece of cake</button><button class="qopt">break of leg</button><button class="qopt">toast</button></div>
+  <div class="qexplain">Easy task idiom is 'piece of cake'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'If you are feeling slightly unwell, you are feeling ___.'</div>
+  <div class="qopts"><button class="qopt">so far so good</button><button class="qopt">under the weather</button><button class="qopt">in the clouds</button></div>
+  <div class="qexplain">Unwell idiom is 'under the weather'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
     }
 ]
 
 def render_topbar(is_topic=False):
     rel = "../" if is_topic else ""
-    links = [f'<a href="{rel}part-{i}.html">Part {i}</a>' for i in range(1, 11)]
+    links = [f'<a href="{rel}part-{i}.html">Part {i}</a>' for i in range(1, 18)]
     nav_html = "\n".join(links)
     return f"""<header class="topbar">
  <div class="topbar-inner">
@@ -912,7 +1281,7 @@ def build_all():
  <div class="container">
  <span class="hero-kicker">COSYlanguages · Level A2</span>
  <h1>English Vocabulary Manual · Level A2</h1>
- <p class="lead">From Survival to Everyday Fluency. 10 thematic modules aligned with Cambridge A2 Key and CEFR Waystage descriptors.</p>
+ <p class="lead">From Survival to Everyday Fluency. 17 thematic modules aligned with Cambridge A2 Key and CEFR Waystage descriptors.</p>
  </div>
 </section>
 <main class="container">
