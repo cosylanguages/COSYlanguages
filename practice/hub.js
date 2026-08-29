@@ -266,18 +266,63 @@
             }
         },
 
-        quickStart: async (lang, cat, level, theme) => {
-            const lp = document.querySelector(`.lang-pill[data-value="${lang.toLowerCase()}"]`);
+        /**
+         * Direct URL Query Parameter Launcher & Quick Start.
+         *
+         * Supported URL query parameters:
+         *   - lang: Language code (e.g. 'en', 'fr', 'it', 'ru', 'el', 'es', 'de', 'pt', 'hy', 'ka', 'tt', 'ba', 'br')
+         *   - cat: Category ('Vocabulary', 'Grammar', 'Speaking', 'Pronunciation' or 'vocab', 'grammar', etc.)
+         *   - level: Level ID ('starter', 'elementary', 'intermediate', 'upper_intermediate', 'advanced', 'proficiency', 'all') or short code ('A1'-'C2')
+         *   - theme: Theme identifier (e.g. 'all', 'to_be', 'prepositions_place', 'contrast_pairs', 'food_drink', etc.)
+         *   - subtheme (optional): Sub-theme identifier (e.g. 'pets', 'prepositions_place', etc.)
+         *
+         * Example URL:
+         *   practice/index.html?lang=en&cat=Grammar&level=starter&theme=to_be
+         *
+         * @param {string} lang - Language code
+         * @param {string} cat - Category name
+         * @param {string} level - Level code or ID
+         * @param {string} theme - Theme name
+         * @param {string} [subTheme] - Optional sub-theme name
+         */
+        quickStart: async (lang, cat, level, theme, subTheme) => {
+            const l = (lang || 'en').toLowerCase();
+            const lp = document.querySelector(`.lang-pill[data-value="${l}"]`);
             if (lp) selectLang(lp);
+            else selectLang(l);
 
-            const cp = Array.from(document.querySelectorAll('.cat-pill')).find(p =>
-                p.dataset.value?.toLowerCase() === cat.toLowerCase() ||
-                p.textContent.toLowerCase().includes(cat.toLowerCase())
-            );
-            if (cp) selectCat(cp);
+            if (cat) {
+                const cp = Array.from(document.querySelectorAll('.cat-pill')).find(p =>
+                    p.dataset.value?.toLowerCase() === cat.toLowerCase() ||
+                    p.textContent.toLowerCase().includes(cat.toLowerCase())
+                );
+                if (cp) selectCat(cp);
+            }
 
-            if (window.ensureDataLoaded) await window.ensureDataLoaded(lang, level);
-            if (window.beginSession) window.beginSession(lang, selectedCat, level, theme, false);
+            const levelSelect = document.getElementById('level-filter');
+            if (levelSelect && level) {
+                const normLvl = window.getLevelCode ? window.getLevelCode(level, 'id') : level;
+                levelSelect.value = normLvl;
+                updateThemes();
+            }
+
+            const themeSelect = document.getElementById('theme-filter');
+            if (themeSelect && theme) {
+                themeSelect.value = theme;
+                updateSubThemes();
+            }
+
+            const subSelect = document.getElementById('subtheme-filter');
+            if (subSelect && subTheme) {
+                subSelect.value = subTheme;
+            }
+
+            const targetLevel = level || 'all';
+            const targetTheme = theme || 'all';
+            const targetSubTheme = subTheme || '';
+
+            if (window.ensureDataLoaded) await window.ensureDataLoaded(lang, targetLevel);
+            if (window.beginSession) window.beginSession(lang, selectedCat, targetLevel, targetTheme, false, null, targetSubTheme);
         },
 
         startDailyChallenge: async () => {
@@ -443,42 +488,123 @@
     // Expose progress rendering globally
     window.cosyRenderThemeProgressTrackers = renderThemeProgressTrackers;
 
-    document.addEventListener('DOMContentLoaded', () => {
-        initSetupUI();
+    function isValidTheme(t) {
+        if (!t || t === 'all') return true;
+        const lower = t.toLowerCase().trim();
+        if (lower === 'to_be') return true;
 
-        // Handle URL parameters
-        const params = new URLSearchParams(window.location.search);
-        const lang = params.get('lang');
-        const cat = params.get('cat');
-        const level = params.get('level');
-        const theme = params.get('theme');
-
-        if (lang) selectLang(lang);
-        if (cat) {
-            const catPill = document.querySelector(`.cat-pill[data-value="${cat}"]`);
-            if (catPill) selectCat(catPill);
+        if (window.COSY_THEME_TREE) {
+            if (window.COSY_THEME_TREE[lower]) return true;
+            if (Object.keys(window.COSY_THEME_TREE).some(k => k.toLowerCase() === lower)) return true;
+            const allSubthemes = Object.values(window.COSY_THEME_TREE).flat().map(s => s.toLowerCase());
+            if (allSubthemes.includes(lower)) return true;
         }
-        if (level) {
-            const levelSel = document.getElementById('level-filter');
-            if (levelSel) {
-                levelSel.value = level;
-                updateThemes();
-            }
-        } else {
+
+        const themeSelect = document.getElementById('theme-filter');
+        if (themeSelect && Array.from(themeSelect.options).some(opt => opt.value.toLowerCase() === lower)) return true;
+
+        const subSelect = document.getElementById('subtheme-filter');
+        if (subSelect && Array.from(subSelect.options).some(opt => opt.value.toLowerCase() === lower)) return true;
+
+        const knownThemes = [
+            'food', 'greetings', 'numbers', 'home', 'family', 'daily_life', 'phrases_idioms',
+            'arts & culture', 'arts_culture', 'speaking', 'pronunciation', 'general',
+            'prepositions_place', 'prepositions_time', 'prepositions_direction', 'dependent_prepositions',
+            'contrast_pairs', 'ed_vs_ing_adjectives', 'comparative_vs_superlative',
+            'tenses_aspect', 'conditionals_moods', 'cases_declensions', 'articles_gender', 'syntax_word_order'
+        ];
+        if (knownThemes.includes(lower)) return true;
+
+        return false;
+    }
+
+    function handleUrlParams() {
+        const params = new URLSearchParams(window.location.search);
+        const langParam = params.get('lang');
+        const catParam = params.get('cat');
+        const levelParam = params.get('level');
+        const themeParam = params.get('theme');
+        const subthemeParam = params.get('subtheme') || params.get('subTheme') || params.get('sub_theme');
+
+        // Preserve current default behavior when no query params are present
+        if (!langParam && !catParam && !levelParam && !themeParam && !subthemeParam) {
             const levelSel = document.getElementById('level-filter');
             if (levelSel) {
                 const storedLevel = localStorage.getItem('cosy_practice_last_level') || 'all';
                 levelSel.value = storedLevel;
                 updateThemes();
             }
-        }
-        if (theme) {
-            const themeSel = document.getElementById('theme-filter');
-            if (themeSel) themeSel.value = theme;
+            return;
         }
 
-        if (lang && cat) {
-            window.cosyPractice.startPractice();
+        let isValid = true;
+
+        if (langParam) {
+            const normLang = langParam.toLowerCase().trim();
+            const validLang = window.COSY_LANGUAGES && window.COSY_LANGUAGES.some(l =>
+                l.code === normLang || l.name.toLowerCase() === normLang || l.native.toLowerCase() === normLang
+            );
+            if (!validLang) {
+                console.warn('[Practice Hub] Unknown lang URL parameter:', langParam);
+                isValid = false;
+            }
         }
+
+        if (catParam) {
+            const normCat = catParam.toLowerCase().trim();
+            const validCats = ['vocab', 'vocabulary', 'grammar', 'speaking', 'pronunciation'];
+            if (!validCats.includes(normCat)) {
+                console.warn('[Practice Hub] Unknown cat URL parameter:', catParam);
+                isValid = false;
+            }
+        }
+
+        if (levelParam) {
+            const normLvl = levelParam.toLowerCase().trim();
+            const validLevels = ['all', 'starter', 'elementary', 'intermediate', 'upper_intermediate', 'advanced', 'proficiency', 'a1', 'a2', 'b1', 'b2', 'c1', 'c2'];
+            if (!validLevels.includes(normLvl) && (!window.COSY_LEVELS || !window.COSY_LEVELS.some(l => l.id === normLvl || l.short.toLowerCase() === normLvl))) {
+                console.warn('[Practice Hub] Unknown level URL parameter:', levelParam);
+                isValid = false;
+            }
+        }
+
+        if (themeParam) {
+            if (!isValidTheme(themeParam)) {
+                console.warn('[Practice Hub] Unknown theme URL parameter:', themeParam);
+                isValid = false;
+            }
+        }
+
+        if (subthemeParam) {
+            if (!isValidTheme(subthemeParam)) {
+                console.warn('[Practice Hub] Unknown subtheme URL parameter:', subthemeParam);
+                isValid = false;
+            }
+        }
+
+        if (!isValid) {
+            // Fall back gracefully to normal Practice Hub landing screen
+            const levelSel = document.getElementById('level-filter');
+            if (levelSel) {
+                const storedLevel = localStorage.getItem('cosy_practice_last_level') || 'all';
+                levelSel.value = storedLevel;
+                updateThemes();
+            }
+            return;
+        }
+
+        // Direct auto-launch direct practice session if params present and valid
+        const lang = langParam ? (window.getLangCode ? window.getLangCode(langParam) : langParam) : selectedLang;
+        const cat = catParam || selectedCat;
+        const level = levelParam ? (window.getLevelCode ? window.getLevelCode(levelParam, 'id') : levelParam) : 'all';
+        const theme = themeParam || 'all';
+        const subtheme = subthemeParam || '';
+
+        window.cosyPractice.quickStart(lang, cat, level, theme, subtheme);
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        initSetupUI();
+        handleUrlParams();
     });
 })();
