@@ -1,0 +1,42 @@
+{
+  "language": "en",
+  "course_type": "general",
+  "level": "B2",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Unit 1: Advanced Argumentation & Socio-Cultural Debate",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "gv",
+          "title": "The Mandative Subjunctive & Nuances of Reservation",
+          "duration_minutes": 60,
+          "grammar": [
+            "Mandative Subjunctive after verbs of demand and recommendation (It is essential that he be...)",
+            "Distancing passive and reporting verbs (It is reported to have been...)",
+            "Inversion after negative and limiting adverbials for rhetorical emphasis"
+          ],
+          "vocabulary": [
+            "Reservation",
+            "Nuance",
+            "Controversial",
+            "To contend",
+            "Indisputable",
+            "Diplomatic",
+            "Hedge",
+            "Aesthetics"
+          ],
+          "practice_types": [
+            "speaking",
+            "listening",
+            "reading",
+            "writing"
+          ],
+          "speaking_percent": 60,
+          "teacher_notes": "code: \"EN-B2-001\"\npronunciation: [{\"point\":\"Intonation in diplomatic hedging\",\"explain\":\"Using fall-rise intonation contours to soft-land controversial assertions and reserve judgment.\",\"examples\":[{\"pattern\":\"Admittedly, however...\",\"ipa\":\"/ədˈmɪt.ɪd.li haʊˈev.ər/\",\"word\":\"Admittedly\"}],\"visual\":\"🗣️\"}]\ncando: \"Can defend a complex position, nuance reservations, and chair socio-cultural debates fluently\""
+        }
+      ]
+    }
+  ]
+}
