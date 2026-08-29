@@ -156,18 +156,13 @@ let VOCAB = {};
 let currentLang = 'en';
 
 async function loadLanguageData(lang) {
-  const family = {
-    "en": "germanic/en", "fr": "romance/fr", "it": "romance/it", "ru": "slavic/ru",
-    "el": "hellenic/el", "es": "romance/es", "de": "germanic/de", "pt": "romance/pt"
-  }[lang];
-  if (!family) return;
   const levels = ["starter", "elementary", "intermediate", "upper-intermediate", "advanced", "proficiency"];
   const files = ["vocabulary", "animals", "food", "body", "home", "clothing", "transport", "weather", "numbers", "colours", "family", "jobs", "places", "leisure", "social", "time", "education", "tech", "nature", "shopping", "verbs", "adjectives", "people", "locations", "nationalities", "dishes"];
   const ps = [];
   levels.forEach(lv => {
     files.forEach(f => {
       const lvShort = window.levelIdToShort(lv);
-      const path = f === "vocabulary" || ["animals","food","body","home","clothing","transport","weather","numbers","colours","family","jobs","places","leisure","social","time","education","tech","nature","shopping"].includes(f) || ["verbs", "adjectives", "people", "locations", "nationalities", "dishes"].includes(f) ? `../vocabulary/${currentLang}/${lvShort}/${f}.js` : `../js/data/${family}/${lv}/${f}.js`;
+      const path = `../vocabulary/${currentLang}/${lvShort}/${f}.js`;
       ps.push(new Promise(res => {
         const s = document.createElement("script");
         s.src = path; s.onload = res; s.onerror = res;
