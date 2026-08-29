@@ -491,20 +491,28 @@
     function isValidTheme(t) {
         if (!t || t === 'all') return true;
         const lower = t.toLowerCase().trim();
-        if (lower === 'to_be') return true;
+        const lowerUnderscore = lower.replace(/-/g, '_');
+        const lowerHyphen = lower.replace(/_/g, '-');
+
+        if (lower === 'to_be' || lower === 'to-be') return true;
 
         if (window.COSY_THEME_TREE) {
-            if (window.COSY_THEME_TREE[lower]) return true;
-            if (Object.keys(window.COSY_THEME_TREE).some(k => k.toLowerCase() === lower)) return true;
+            if (window.COSY_THEME_TREE[lower] || window.COSY_THEME_TREE[lowerUnderscore]) return true;
+            if (Object.keys(window.COSY_THEME_TREE).some(k => k.toLowerCase() === lower || k.toLowerCase() === lowerUnderscore)) return true;
             const allSubthemes = Object.values(window.COSY_THEME_TREE).flat().map(s => s.toLowerCase());
-            if (allSubthemes.includes(lower)) return true;
+            if (allSubthemes.includes(lower) || allSubthemes.includes(lowerUnderscore)) return true;
+        }
+
+        if (window.COSY_GRAMMAR_TOPICS) {
+            const allGrammarSlugs = Object.values(window.COSY_GRAMMAR_TOPICS).flat().map(s => s.toLowerCase());
+            if (allGrammarSlugs.includes(lowerHyphen) || allGrammarSlugs.includes(lowerUnderscore) || allGrammarSlugs.includes(lower)) return true;
         }
 
         const themeSelect = document.getElementById('theme-filter');
-        if (themeSelect && Array.from(themeSelect.options).some(opt => opt.value.toLowerCase() === lower)) return true;
+        if (themeSelect && Array.from(themeSelect.options).some(opt => opt.value.toLowerCase() === lower || opt.value.toLowerCase() === lowerUnderscore)) return true;
 
         const subSelect = document.getElementById('subtheme-filter');
-        if (subSelect && Array.from(subSelect.options).some(opt => opt.value.toLowerCase() === lower)) return true;
+        if (subSelect && Array.from(subSelect.options).some(opt => opt.value.toLowerCase() === lower || opt.value.toLowerCase() === lowerUnderscore)) return true;
 
         const knownThemes = [
             'food', 'greetings', 'numbers', 'home', 'family', 'daily_life', 'phrases_idioms',
@@ -513,7 +521,7 @@
             'contrast_pairs', 'ed_vs_ing_adjectives', 'comparative_vs_superlative',
             'tenses_aspect', 'conditionals_moods', 'cases_declensions', 'articles_gender', 'syntax_word_order'
         ];
-        if (knownThemes.includes(lower)) return true;
+        if (knownThemes.includes(lower) || knownThemes.includes(lowerUnderscore)) return true;
 
         return false;
     }
@@ -523,7 +531,8 @@
         const langParam = params.get('lang');
         const catParam = params.get('cat');
         const levelParam = params.get('level');
-        const themeParam = params.get('theme');
+        const topicParam = params.get('topic');
+        const themeParam = topicParam || params.get('theme');
         const subthemeParam = params.get('subtheme') || params.get('subTheme') || params.get('sub_theme');
 
         // Preserve current default behavior when no query params are present

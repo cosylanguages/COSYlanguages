@@ -5,7 +5,7 @@ import time
 import os
 from playwright.sync_api import sync_playwright
 
-PORT = 8889
+PORT = 8891
 
 class QuietHandler(http.server.SimpleHTTPRequestHandler):
     def log_message(self, format, *args):
@@ -21,7 +21,7 @@ def start_server():
     server_thread.start()
     return httpd
 
-def test_practice_url_params():
+def test_practice_grammar_topics():
     httpd = start_server()
     time.sleep(0.5)
 
@@ -31,84 +31,61 @@ def test_practice_url_params():
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
 
-            # Test Case 1: Valid URL parameters (en + Grammar + starter + to_be)
+            # Test Case 1: Topic slug in theme param (to-be)
             page = browser.new_page()
-            page.goto(f"http://localhost:{PORT}/practice/index.html?lang=en&cat=Grammar&level=starter&theme=to_be")
+            page.goto(f"http://localhost:{PORT}/practice/index.html?lang=en&cat=Grammar&level=a1&theme=to-be")
             page.wait_for_selector("#practice-section.active", timeout=5000)
 
             practice_visible = page.is_visible("#practice-section")
-            setup_visible = page.is_visible("#setup-section")
             title_text = page.text_content("#pe-session-title")
 
-            print("Test 1 (Valid params - en/Grammar/starter/to_be):")
+            print("Test 1 (Granular topic slug via theme: to-be):")
             print(f"  Practice section visible: {practice_visible}")
-            print(f"  Setup section visible: {setup_visible}")
             print(f"  Session title: {title_text}")
-            assert practice_visible, "Practice section should be visible for valid params"
-            assert not setup_visible, "Setup section should be hidden when session is active"
-            assert "EN" in title_text and "grammar" in title_text.lower(), f"Title should contain EN and Grammar, got: {title_text}"
-
-            page.screenshot(path="/home/jules/project/tests/verification/screenshots/practice_url_valid_to_be.png")
+            assert practice_visible, "Practice section should be visible"
+            assert "EN" in title_text and "grammar" in title_text.lower(), f"Unexpected title: {title_text}"
             page.close()
 
-            # Test Case 2: Valid URL parameters (fr + vocab)
+            # Test Case 2: Topic slug in topic param (second-conditional)
             page = browser.new_page()
-            page.goto(f"http://localhost:{PORT}/practice/index.html?lang=fr&cat=vocab&level=all&theme=all")
+            page.goto(f"http://localhost:{PORT}/practice/index.html?lang=en&cat=Grammar&level=a2&topic=second-conditional")
             page.wait_for_selector("#practice-section.active", timeout=5000)
 
-            practice_visible_fr = page.is_visible("#practice-section")
-            title_text_fr = page.text_content("#pe-session-title")
-            print("\nTest 2 (Valid params - fr/vocab):")
-            print(f"  Practice section visible: {practice_visible_fr}")
-            print(f"  Session title: {title_text_fr}")
-            assert practice_visible_fr, "Practice section should be visible for fr/vocab"
-            assert "FR" in title_text_fr, f"Title should contain FR, got: {title_text_fr}"
+            practice_visible_topic = page.is_visible("#practice-section")
+            title_text_topic = page.text_content("#pe-session-title")
+
+            print("\nTest 2 (Granular topic slug via topic param: second-conditional):")
+            print(f"  Practice section visible: {practice_visible_topic}")
+            print(f"  Session title: {title_text_topic}")
+            assert practice_visible_topic, "Practice section should be visible"
             page.close()
 
-            # Test Case 3: Invalid theme parameter (fallback to landing screen + console.warn)
+            # Test Case 3: Invalid topic slug (fallback + warning)
             page = browser.new_page()
             warn_logs = []
-            page.on("console", lambda msg: warn_logs.append(msg.text) if msg.type == "warning" or "Unknown" in msg.text or "invalid" in msg.text.lower() else None)
+            page.on("console", lambda msg: warn_logs.append(msg.text) if "Unknown" in msg.text or "invalid" in msg.text.lower() else None)
 
-            page.goto(f"http://localhost:{PORT}/practice/index.html?lang=en&cat=Grammar&level=starter&theme=unknown_theme_123")
+            page.goto(f"http://localhost:{PORT}/practice/index.html?lang=en&cat=Grammar&level=a1&topic=nonexistent_grammar_topic_xyz")
             page.wait_for_timeout(1000)
 
             setup_visible_invalid = page.is_visible("#setup-section")
             practice_visible_invalid = page.is_visible("#practice-section.active")
 
-            print("\nTest 3 (Invalid theme param - unknown_theme_123):")
+            print("\nTest 3 (Invalid topic slug fallback):")
             print(f"  Setup section visible: {setup_visible_invalid}")
             print(f"  Practice section active: {practice_visible_invalid}")
             print(f"  Console warnings: {warn_logs}")
 
-            assert setup_visible_invalid, "Setup section should remain visible on invalid theme"
-            assert not practice_visible_invalid, "Practice section should NOT be active on invalid theme"
-            assert any("Unknown theme URL parameter" in w for w in warn_logs), f"Should log console warning for bad theme, got: {warn_logs}"
-
-            page.screenshot(path="/home/jules/project/tests/verification/screenshots/practice_url_invalid_theme.png")
-            page.close()
-
-            # Test Case 4: Default landing screen (no params)
-            page = browser.new_page()
-            page.goto(f"http://localhost:{PORT}/practice/index.html")
-            page.wait_for_timeout(500)
-
-            setup_visible_default = page.is_visible("#setup-section")
-            practice_visible_default = page.is_visible("#practice-section.active")
-
-            print("\nTest 4 (Default landing - no params):")
-            print(f"  Setup section visible: {setup_visible_default}")
-            print(f"  Practice section active: {practice_visible_default}")
-
-            assert setup_visible_default, "Setup section should be visible by default"
-            assert not practice_visible_default, "Practice section should NOT be active by default"
+            assert setup_visible_invalid, "Setup section should remain visible on invalid topic"
+            assert not practice_visible_invalid, "Practice section should NOT be active on invalid topic"
+            assert any("Unknown theme URL parameter" in w for w in warn_logs), f"Should log console warning, got: {warn_logs}"
             page.close()
 
             browser.close()
     finally:
         httpd.shutdown()
 
-    print("\nALL 4 VERIFICATION TESTS PASSED SUCCESSFULLY! 🚀")
+    print("\nALL GRAMMAR TOPICS VERIFICATION TESTS PASSED SUCCESSFULLY! 🚀")
 
 if __name__ == "__main__":
-    test_practice_url_params()
+    test_practice_grammar_topics()

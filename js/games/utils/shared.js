@@ -525,13 +525,31 @@
         if (Array.from(themeSelect.options).some(opt => opt.value === currentVal)) themeSelect.value = currentVal;
     };
 
-    const isThemeMatch = (itemTheme, selectedTheme) => {
+    const isThemeMatch = (itemTheme, selectedTheme, itemLinks) => {
         if (!selectedTheme || selectedTheme === 'all') return true;
-        if (!itemTheme) return false;
-        if (!selectedTheme.includes(':')) return itemTheme === selectedTheme;
+        const normSelected = selectedTheme.toLowerCase().trim();
+        const normSelectedHyphen = normSelected.replace(/_/g, '-');
+        const normSelectedUnderscore = normSelected.replace(/-/g, '_');
+
+        if (itemTheme) {
+            const normItem = itemTheme.toLowerCase().trim();
+            if (normItem === normSelected || normItem === normSelectedHyphen || normItem === normSelectedUnderscore) return true;
+        }
+
+        if (itemLinks && Array.isArray(itemLinks)) {
+            if (itemLinks.some(link => link.toLowerCase().includes(normSelectedHyphen) || link.toLowerCase().includes(normSelectedUnderscore))) {
+                return true;
+            }
+        }
+
+        if (!selectedTheme.includes(':')) {
+            const normItem = (itemTheme || '').toLowerCase().trim();
+            return normItem === normSelected || normItem === normSelectedHyphen || normItem === normSelectedUnderscore;
+        }
+
         if (selectedTheme.startsWith('group:')) {
             const parentTheme = selectedTheme.replace('group:', '');
-            const children = COSY_THEME_TREE[parentTheme] || [];
+            const children = (COSY_THEME_TREE && COSY_THEME_TREE[parentTheme]) || [];
             return itemTheme === parentTheme || children.includes(itemTheme);
         }
         return false;
@@ -553,7 +571,8 @@
                 if (!entry.level || window.getLevelCode(entry.level) !== levelId) return false;
             }
             if (category && targetForms && entry.form && !targetForms.includes(entry.form)) return false;
-            if (theme && theme !== 'all' && !isThemeMatch(entry.theme, theme)) return false;
+            const links = entry.practice_links || entry.item?.practice_links;
+            if (theme && theme !== 'all' && !isThemeMatch(entry.theme, theme, links)) return false;
             if (subTheme && subTheme !== 'all' && (entry.sub_theme || '') !== subTheme) return false;
             return true;
         });
@@ -569,7 +588,8 @@
       return pool.filter(item => {
         if (lang && item.language && item.language.toLowerCase() !== lang.toLowerCase()) if (!item.lang || item.lang.toLowerCase() !== lang.toLowerCase()) return false;
         const levelMatch = normalizedLevel === 'all' || (item.level && window.getLevelCode(item.level) === normalizedLevel);
-        const themeMatch = isThemeMatch(item.theme, theme);
+        const links = item.practice_links || item.item?.practice_links;
+        const themeMatch = isThemeMatch(item.theme, theme, links);
         const subThemeMatch = !subTheme || subTheme === 'all' || (item.sub_theme && item.sub_theme === subTheme);
         return levelMatch && themeMatch && subThemeMatch;
       });
