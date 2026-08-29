@@ -88,6 +88,13 @@ a:hover { color: var(--teal-900); }
 .subtitle { color: var(--ink-soft); font-size: 1.1rem; max-width: 700px; margin: 0 auto; }
 hr.rule { border: 0; height: 2px; background: var(--line); margin: 24px auto 0; max-width: 100px; }
 
+/* Inter-Manual Cross-Link Callouts */
+.cross-link-box { background: var(--teal-050); border: 2px solid var(--teal-500); border-radius: var(--radius-m); padding: 18px 22px; margin: 24px 0; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.cross-link-box .cross-title { font-weight: 800; color: var(--teal-900); font-family: var(--font-display); font-size: 1.05rem; }
+.cross-link-box .cross-desc { color: var(--ink-soft); font-size: 0.95rem; margin-top: 4px; }
+.cross-link-box .cross-btn { background: var(--teal-700); color: #fff; padding: 8px 16px; border-radius: var(--radius-s); font-weight: 700; font-size: 0.9rem; transition: background .2s; }
+.cross-link-box .cross-btn:hover { background: var(--teal-900); }
+
 /* Parts Grid & Cards */
 .parts-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
 .part-card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius-m); padding: 24px; position: relative; overflow: hidden; box-shadow: var(--shadow-card); transition: transform .2s ease, box-shadow .2s ease; display: flex; flex-direction: column; justify-content: space-between; }
@@ -179,6 +186,10 @@ PARTS = [
         "title": "Part 1 — About Me & Personal Identity",
         "topic_title": "About Me & Personal Identity",
         "subtitle": "Personal information, contact details, countries, nationalities, family relationships, physical appearance, emotions & health.",
+        "grammar_ref": "../../grammar/a1/part-1.html",
+        "grammar_title": "Book 1 (Grammar) Part 1 — Building Blocks & Pronouns",
+        "comm_ref": "../../communication/part-1.html",
+        "comm_title": "Book 3 (Communication) Part 1 — Starting & Ending Conversations",
         "body_html": """
 <div class="content-block">
   <h2>Unit 1: Personal Information & First Contact</h2>
@@ -187,14 +198,22 @@ PARTS = [
     <div class="vocab-item">Name / First name / Last name <span>Identity terms</span></div>
     <div class="vocab-item">Hello / Hi / Good morning <span>Greetings</span></div>
     <div class="vocab-item">Goodbye / Bye / See you <span>Partings</span></div>
-    <div class="vocab-item">Meet / Call / Spell <span>Action verbs</span></div>
+    <div class="vocab-item">Meet / Call / Spell / Wave <span>Action verbs</span></div>
+  </div>
+  <div class="frame-box">
+    <strong>Collocations & Essential Verbs:</strong>
+    <ul>
+      <li>First name, last name, full name, spell your name, say hello, wave goodbye.</li>
+      <li>Be, call, spell, say, meet, introduce, greet, wave.</li>
+    </ul>
   </div>
   <div class="frame-box">
     <strong>Set Phrases & Sentence Frames:</strong>
     <ul>
-      <li>What's your name? / My name is David.</li>
-      <li>Nice to meet you! / Nice to meet you too!</li>
-      <li>How are you? / I'm fine, thank you.</li>
+      <li>What's your name? / My name is... / I am...</li>
+      <li>Nice to meet you. / Glad to meet you.</li>
+      <li>Good morning! / Good afternoon! / Good evening! / How are you? / I'm fine, thank you. / See you tomorrow! / Bye!</li>
+      <li>Sentence frame: <code>My name is + [Name]</code>, <code>Nice to meet you, + [Name]</code>.</li>
     </ul>
   </div>
   <div class="dialogue-box">
@@ -210,17 +229,41 @@ PARTS = [
     <div class="vocab-item">Phone number / Email address <span>Digital contact</span></div>
     <div class="vocab-item">Passport / ID card / Driver's licence <span>Documents</span></div>
   </div>
+  <div class="frame-box">
+    <strong>Collocations & Verbs:</strong>
+    <ul>
+      <li>Home address, email address, mobile phone number, date of birth, identity card, fill in a form, sign here.</li>
+      <li>Live, have, write, sign, fill in, complete, show, check.</li>
+    </ul>
+  </div>
+  <div class="dialogue-box">
+    <div class="line"><strong>A:</strong> Can I have your phone number, please?</div>
+    <div class="line"><strong>B:</strong> Sure! It's 07700 900123.</div>
+    <div class="line"><strong>A:</strong> Thank you. And what's your email address?</div>
+    <div class="line"><strong>B:</strong> It's sarah.smith@email.com.</div>
+  </div>
 
   <h3>1.3 Origin, Countries, Nationalities & Languages</h3>
   <p>Country ➔ Nationality ➔ Language Triads:</p>
   <ul>
     <li>United Kingdom ➔ British ➔ English</li>
     <li>United States ➔ American ➔ English</li>
+    <li>Canada ➔ Canadian ➔ English / French</li>
+    <li>Australia ➔ Australian ➔ English</li>
     <li>France ➔ French ➔ French</li>
     <li>Germany ➔ German ➔ German</li>
+    <li>Italy ➔ Italian ➔ Italian</li>
     <li>Spain ➔ Spanish ➔ Spanish</li>
+    <li>Portugal ➔ Portuguese ➔ Portuguese</li>
+    <li>Greece ➔ Greek ➔ Greek</li>
     <li>Japan ➔ Japanese ➔ Japanese</li>
     <li>China ➔ Chinese ➔ Mandarin</li>
+    <li>India ➔ Indian ➔ Hindi / English</li>
+    <li>Brazil ➔ Brazilian ➔ Portuguese</li>
+    <li>Mexico ➔ Mexican ➔ Spanish</li>
+    <li>Ukraine ➔ Ukrainian ➔ Ukrainian</li>
+    <li>Poland ➔ Polish ➔ Polish</li>
+    <li>Turkey ➔ Turkish ➔ Turkish</li>
   </ul>
 </div>
 
@@ -228,13 +271,14 @@ PARTS = [
   <h2>Unit 2: Family & Relationships</h2>
   <h3>2.1 Immediate & Extended Family</h3>
   <div class="vocab-grid">
-    <div class="vocab-item">Mother / Father / Parents <span>Direct parents</span></div>
+    <div class="vocab-item">Mother / Mum / Dad / Parents <span>Direct parents</span></div>
     <div class="vocab-item">Brother / Sister / Twin <span>Siblings</span></div>
     <div class="vocab-item">Grandmother / Grandfather <span>Grandparents</span></div>
-    <div class="vocab-item">Uncle / Aunt / Cousin <span>Extended family</span></div>
+    <div class="vocab-item">Uncle / Aunt / Cousin / Nephew / Niece <span>Extended family</span></div>
+    <div class="vocab-item">Stepmother / Father-in-law <span>Step & In-law family</span></div>
   </div>
-  <h3>2.2 Marital Status</h3>
-  <p>Single, married, engaged, divorced, separated, widowed.</p>
+  <h3>2.2 Marital Status & Relationships</h3>
+  <p>Status: Single, married, engaged, divorced, separated, widowed. Friend, best friend, neighbour, colleague, classmate, roommate, partner, boyfriend, girlfriend, husband, wife, fiancé, couple.</p>
 </div>
 
 <div class="content-block">
@@ -244,9 +288,10 @@ PARTS = [
     <div class="vocab-item">Head / Hair / Eye / Nose / Mouth <span>Facial features</span></div>
     <div class="vocab-item">Shoulder / Arm / Hand / Finger <span>Upper body</span></div>
     <div class="vocab-item">Leg / Knee / Foot / Feet / Toe <span>Lower body</span></div>
+    <div class="vocab-item">Heart / Brain / Lungs / Stomach <span>Internal organs</span></div>
   </div>
   <h3>3.2 Emotions & Health</h3>
-  <p>Happy, sad, angry, tired, exhausted, hungry, thirsty, sick, headache, sore throat, medicine, doctor.</p>
+  <p>Happy, sad, angry, tired, exhausted, hungry, thirsty, sick, headache, sore throat, medicine, doctor, nurse, pharmacy, hospital, ambulance.</p>
 </div>
 
 <div class="quiz-panel">
@@ -267,6 +312,10 @@ PARTS = [
         "title": "Part 2 — Clothes & Personal Belongings",
         "topic_title": "Clothes & Personal Belongings",
         "subtitle": "Everyday clothing, footwear, seasonal gear, accessories, jewellery, bags & fitting room interactions.",
+        "grammar_ref": "../../grammar/a1/part-5.html",
+        "grammar_title": "Book 1 (Grammar) Part 5 — Adjectives & Descriptive Order",
+        "comm_ref": "../../communication/part-4.html",
+        "comm_title": "Book 3 (Communication) Part 4 — Preferences & Shopping",
         "body_html": """
 <div class="content-block">
   <h2>Unit 4: Everyday & Seasonal Clothing</h2>
@@ -279,7 +328,7 @@ PARTS = [
   </div>
 
   <h3>4.2 Footwear & Shoes</h3>
-  <p>Shoes, boots, trainers/sneakers, sandals, slippers, high heels, socks, tights.</p>
+  <p>Shoes, boots, trainers/sneakers, sandals, slippers, high heels, socks, tights. Verbs: Put on, take off, tie, untie, try on.</p>
 
   <h3>4.3 Winter & Summer Weather Gear</h3>
   <div class="vocab-grid">
@@ -295,9 +344,9 @@ PARTS = [
   <div class="frame-box">
     <strong>Action Verbs & Key Phrases:</strong>
     <ul>
-      <li>Wear, put on, take off, try on, change, wash, iron, fit.</li>
+      <li>Wear, put on, take off, try on, change, wash, iron, fit, suit, match, zip up, button up.</li>
       <li>Where is the fitting room? / What size is this?</li>
-      <li>It fits me well. / Put on your coat!</li>
+      <li>It fits me well. / Put on your coat! / Take off your shoes.</li>
     </ul>
   </div>
   <div class="dialogue-box">
@@ -325,6 +374,10 @@ PARTS = [
         "title": "Part 3 — Home & Everyday Living",
         "topic_title": "Home & Everyday Living",
         "subtitle": "Housing types, building exterior, garden, living room, bedroom, kitchen appliances, tableware & bathroom hygiene.",
+        "grammar_ref": "../../grammar/a1/part-8.html",
+        "grammar_title": "Book 1 (Grammar) Part 8 — Prepositions of Place (In/On/At)",
+        "comm_ref": "../../communication/part-7.html",
+        "comm_title": "Book 3 (Communication) Part 7 — Describing Your Home & Environment",
         "body_html": """
 <div class="content-block">
   <h2>Unit 5: Housing & Building Exterior</h2>
@@ -367,6 +420,10 @@ PARTS = [
         "title": "Part 4 — Food, Drink & Gastronomy",
         "topic_title": "Food, Drink & Gastronomy",
         "subtitle": "Fruits, vegetables, meat, seafood, dairy, pantry staples, cooking verbs, meals & dining out at restaurants.",
+        "grammar_ref": "../../grammar/a1/part-7.html",
+        "grammar_title": "Book 1 (Grammar) Part 7 — Countable/Uncountable & Quantifiers",
+        "comm_ref": "../../communication/part-2.html",
+        "comm_title": "Book 3 (Communication) Part 2 — Ordering Food & Cafe Requests",
         "body_html": """
 <div class="content-block">
   <h2>Unit 7: Food Categories & Pantry</h2>
@@ -410,6 +467,10 @@ PARTS = [
         "title": "Part 5 — Daily Routine, Time & Calendar",
         "topic_title": "Daily Routine, Time & Calendar",
         "subtitle": "Morning, commute, workday, evening & weekend routines, telling time, days of the week, months, seasons & dates.",
+        "grammar_ref": "../../grammar/a1/part-10.html",
+        "grammar_title": "Book 1 (Grammar) Part 10 — Present Simple & Tenses",
+        "comm_ref": "../../communication/part-2.html",
+        "comm_title": "Book 3 (Communication) Part 2 — Keeping Conversations Alive",
         "body_html": """
 <div class="content-block">
   <h2>Unit 9: Daily Routines (Contextual Progression)</h2>
@@ -442,6 +503,10 @@ PARTS = [
         "title": "Part 6 — City, Transport & Travel",
         "topic_title": "City, Transport & Travel",
         "subtitle": "Shops, public institutions, leisure places, transport modes, travel infrastructure, tickets & journey details.",
+        "grammar_ref": "../../grammar/a1/part-8.html",
+        "grammar_title": "Book 1 (Grammar) Part 8 — Prepositions of Movement & Direction",
+        "comm_ref": "../../communication/part-8.html",
+        "comm_title": "Book 3 (Communication) Part 8 — Asking for Directions & Travel Help",
         "body_html": """
 <div class="content-block">
   <h2>Unit 11: City Infrastructure & Places</h2>
@@ -471,6 +536,10 @@ PARTS = [
         "title": "Part 7 — School, Work & Technology",
         "topic_title": "School, Work & Technology",
         "subtitle": "Classroom objects, school subjects, professions, workplace essentials, digital devices, software & internet.",
+        "grammar_ref": "../../grammar/a1/part-9.html",
+        "grammar_title": "Book 1 (Grammar) Part 9 — Verb System & Imperatives",
+        "comm_ref": "../../communication/part-9.html",
+        "comm_title": "Book 3 (Communication) Part 9 — Workplace Interaction & Digital Terms",
         "body_html": """
 <div class="content-block">
   <h2>Unit 13: Education, Work & Digital Devices</h2>
@@ -494,6 +563,10 @@ PARTS = [
         "title": "Part 8 — Nature, Weather & Animals",
         "topic_title": "Nature, Weather & Animals",
         "subtitle": "Natural landscapes, geography, weather conditions, temperature, domestic pets, farm animals & wild animals.",
+        "grammar_ref": "../../grammar/a1/part-5.html",
+        "grammar_title": "Book 1 (Grammar) Part 5 — Adjectives & Comparatives",
+        "comm_ref": "../../communication/part-3.html",
+        "comm_title": "Book 3 (Communication) Part 3 — Small Talk & Weather Conversations",
         "body_html": """
 <div class="content-block">
   <h2>Unit 14: Nature, Climate & Animals</h2>
@@ -517,6 +590,10 @@ PARTS = [
         "title": "Part 9 — Hobbies, Sports & Leisure",
         "topic_title": "Hobbies, Sports & Leisure",
         "subtitle": "Leisure activities, creative hobbies, physical exercise, sports, games & competitive activities.",
+        "grammar_ref": "../../grammar/a1/part-10.html",
+        "grammar_title": "Book 1 (Grammar) Part 10 — Present Continuous & Like/Love/Hate",
+        "comm_ref": "../../communication/part-4.html",
+        "comm_title": "Book 3 (Communication) Part 4 — Talking About Free Time",
         "body_html": """
 <div class="content-block">
   <h2>Unit 15: Hobbies, Physical Activity & Entertainment</h2>
@@ -537,6 +614,10 @@ PARTS = [
         "title": "Part 10 — Unified Foundational Primitives",
         "topic_title": "Unified Foundational Primitives",
         "subtitle": "Numbers 0–20, tens, hundreds, thousands, primary/secondary colours, shades & basic geometric shapes.",
+        "grammar_ref": "../../grammar/a1/part-1.html",
+        "grammar_title": "Book 1 (Grammar) Part 1 — Numbers & Alphabet Mechanics",
+        "comm_ref": "../../communication/part-10.html",
+        "comm_title": "Book 3 (Communication) Part 10 — Production Frames",
         "body_html": """
 <div class="content-block">
   <h2>Unit 16: Primitive Core Boards</h2>
@@ -634,6 +715,18 @@ def build_all():
 
         pager_html = f'<div class="pager">{"".join(pager_parts)}</div>'
 
+        # Cross-link HTML
+        cross_link_html = f"""<div class="cross-link-box">
+  <div>
+    <div class="cross-title">📖 Inter-Manual Connections</div>
+    <div class="cross-desc">Pair this vocabulary module with matching structural rules & speaking systems:</div>
+    <ul style="margin: 6px 0 0; padding-left: 20px; font-size: 0.9rem;">
+      <li><strong>Grammar:</strong> <a href="{p['grammar_ref']}">{p['grammar_title']}</a></li>
+      <li><strong>Communication:</strong> <a href="{p['comm_ref']}">{p['comm_title']}</a></li>
+    </ul>
+  </div>
+</div>"""
+
         # Build topic page
         topic_html = f"""<!doctype html>
 <html lang="en">
@@ -652,6 +745,7 @@ def build_all():
  <p class="subtitle">{p["subtitle"]}</p>
  <hr class="rule">
 </div>
+{cross_link_html}
 {p["body_html"]}
 {pager_html}
 </main>
