@@ -17,6 +17,9 @@
 
     /* ══════════════════════════════════════
        QUESTION DATA (Static Fallbacks)
+       Note: Dynamic English vocabulary is loaded from vocabulary/en/{A1,A2,B1,B2,C1,C2}/*.js
+       via COSY.loadLanguageData() and processed in beginSession(). The QUESTIONS structure
+       below serves as a static fallback if dynamic data is unavailable or empty.
     ══════════════════════════════════════ */
     const QUESTIONS = {
         EN: {
