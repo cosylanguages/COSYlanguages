@@ -684,6 +684,106 @@ TOPICS_DATA = {
  <button class="quiz-reset">Reset quiz</button>
 </div>"""
     },
+
+    "narrative-tenses": {
+        "title": "Narrative Tenses: Past Simple, Continuous, Perfect & Perfect Continuous",
+        "subtitle": "Combining four past tenses for rich storytelling",
+        "eyebrow": "Part 1 · Advanced Past & Narrative",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid var(--role-verb, #1c8f56); padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can tell detailed, engaging stories in English with clear chronological sequencing and background depth.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Tense</th><th>Role in Narrative</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>Past Simple</td><td>Main sequential events (what happened)</td><td>He <b>opened</b> the door and <b>stepped</b> inside.</td></tr>
+<tr><td>Past Continuous</td><td>Background scene & ongoing actions</td><td>The rain <b>was falling</b> softly outside.</td></tr>
+<tr><td>Past Perfect</td><td>Earlier events (before main narrative)</td><td>He realized he <b>had forgotten</b> his keys.</td></tr>
+<tr><td>Past Perfect Continuous</td><td>Duration before a past point</td><td>They <b>had been driving</b> for hours before finding hotel.</td></tr>
+</tbody>
+</table></div>
+<div class="box rule-box">
+  <p><strong>Storytelling Formula:</strong> Use <em>Past Continuous</em> to set the background scene, <em>Past Simple</em> for the main action events, and <em>Past Perfect</em> for earlier background context.</p>
+</div>
+<div class="examples"><span class="label">Examples</span><ul><li>While the sun <b>was setting</b>, Sarah <b>walked</b> into the restaurant where her friends <b>had reserved</b> a table.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">When I arrived, he already left.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>When I arrived, he had already left.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="narrative-tenses">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Combine past tenses smoothly in written narratives</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use Past Perfect for flashback actions</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 0}, {"correct": 1}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'It was dark. The storm ___ for hours.'</div>
+  <div class="qopts"><button class="qopt">had been raging</button><button class="qopt">is raging</button><button class="qopt">rages</button></div>
+  <div class="qexplain">Ongoing action leading up to a past narrative point takes Past Perfect Continuous.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'She opened her bag and ___ her wallet was missing.'</div>
+  <div class="qopts"><button class="qopt">had seen</button><button class="qopt">saw</button><button class="qopt">was seeing</button></div>
+  <div class="qexplain">Main sequential story action takes Past Simple 'saw'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    },
+
+    "modals-of-deduction-present": {
+        "title": "Modals of Deduction: Present (Must, Can't, Might/Could)",
+        "subtitle": "Making logical guesses about present situations",
+        "eyebrow": "Part 4 · Modals & Nuance",
+        "body_html": """<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid var(--role-verb, #1c8f56); padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can deduce information and express varying degrees of certainty about present facts.
+</div>
+<div class="table-wrap"><table>
+<thead><tr><th>Modal</th><th>Degree of Certainty</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>must</td><td>99% sure YES (logical conclusion)</td><td>She has three sports cars. She <b>must be</b> rich.</td></tr>
+<tr><td>might / may / could</td><td>50% possible (maybe yes, maybe no)</td><td>He's not answering. He <b>might be</b> busy.</td></tr>
+<tr><td>can't</td><td>99% sure NO (impossible)</td><td>That <b>can't be</b> John. He's on vacation in Japan!</td></tr>
+</tbody>
+</table></div>
+<div class="box rule-box">
+  <p><strong>Rule:</strong> Modal + base infinitive. Use <em>must</em> when you are almost certain something is true. Use <em>can't</em> (NOT <em>mustn't</em>) when you are almost certain something is impossible.</p>
+</div>
+<div class="examples"><span class="label">Examples</span><ul><li>Look at the long queue outside. It <b>must be</b> a great restaurant.</li><li>You've been working all day. You <b>must be</b> exhausted.</li></ul></div>
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">It mustn't be true! I don't believe it.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>It can't be true! I don't believe it.</span></div>
+ </div>
+</div>
+<div class="checklist" data-key="modals-of-deduction-present">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Use must for strong positive deductions</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use can't for impossible deductions</span></label>
+ <div class="check-progress"></div>
+</div>
+<div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. 'He hasn't eaten all day. He ___ be starving!'</div>
+  <div class="qopts"><button class="qopt">can't</button><button class="qopt">must</button><button class="qopt">might not</button></div>
+  <div class="qexplain">Strong logical conclusion (99% sure YES) takes 'must'.</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. 'She just left 2 minutes ago. She ___ be at home already.'</div>
+  <div class="qopts"><button class="qopt">can't</button><button class="qopt">mustn't</button><button class="qopt">might</button></div>
+  <div class="qexplain">Impossible present situation (99% sure NO) takes 'can't'.</div>
+ </div>
+ <button class="quiz-reset">Reset quiz</button>
+</div>"""
+    },
+
     "past-simple-vs-present-perfect": {
         "title": "Past Simple vs Present Perfect",
         "subtitle": "A fast A2 refresher",
