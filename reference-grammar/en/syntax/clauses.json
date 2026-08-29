@@ -2,5 +2,81 @@
   "language": "en",
   "category": "clauses",
   "level": "A1-C2",
-  "groups": []
+  "groups": [
+    {
+      "id": "relative_clauses",
+      "label": "Defining Relative Clauses",
+      "level": "elementary",
+      "emoji": "🧩",
+      "definition": "Connecting clauses with Who, Which, That, Where",
+      "rules": [
+        "Use 'who' for people.",
+        "Use 'which' or 'that' for things.",
+        "Use 'where' for places."
+      ],
+      "examples": [
+        {
+          "t": "The man who lives next door is a doctor.",
+          "m": "Person"
+        },
+        {
+          "t": "The book that I read was great.",
+          "m": "Thing"
+        }
+      ],
+      "practice_links": [
+        "manuals/en/grammar/a2/topics/defining-relative-clauses.html"
+      ]
+    },
+    {
+      "id": "conditionals_zero_first",
+      "label": "Zero & First Conditionals",
+      "level": "elementary",
+      "emoji": "🔀",
+      "definition": "Facts, habits, and future real possibilities",
+      "rules": [
+        "Zero conditional: If + Present Simple, Present Simple (general truths).",
+        "First conditional: If + Present Simple, Will + Verb (future possibility)."
+      ],
+      "examples": [
+        {
+          "t": "If you heat water to 100°C, it boils.",
+          "m": "Zero conditional"
+        },
+        {
+          "t": "If it rains tomorrow, we will stay home.",
+          "m": "First conditional"
+        }
+      ],
+      "practice_links": [
+        "manuals/en/grammar/a2/topics/zero-conditional.html",
+        "manuals/en/grammar/a2/topics/first-conditional.html"
+      ]
+    },
+    {
+      "id": "conditionals_second_third",
+      "label": "Second & Third Conditionals",
+      "level": "intermediate",
+      "emoji": "🔮",
+      "definition": "Hypothetical, unreal, and past regret scenarios",
+      "rules": [
+        "Second conditional: If + Past Simple, Would + Verb (unreal present/future).",
+        "Third conditional: If + Past Perfect, Would Have + Past Participle (unreal past)."
+      ],
+      "examples": [
+        {
+          "t": "If I had a million dollars, I would travel the world.",
+          "m": "Second conditional"
+        },
+        {
+          "t": "If I had studied harder, I would have passed.",
+          "m": "Third conditional"
+        }
+      ],
+      "practice_links": [
+        "manuals/en/grammar/a2/topics/second-conditional.html",
+        "manuals/en/grammar/b1/topics/third-conditional.html"
+      ]
+    }
+  ]
 }

@@ -46,7 +46,7 @@
         }
       ],
       "practice_links": [
-        "manuals/en/grammar/a1/en-possessives.html"
+        "manuals/en/grammar/a1/topics/possessive-s.html"
       ],
       "definition": "TBD"
     },
@@ -63,6 +63,9 @@
             "manuals/en/grammar/a1/topics/demonstratives.html"
           ]
         }
+      ],
+      "practice_links": [
+        "manuals/en/grammar/a1/topics/demonstratives.html"
       ]
     },
     {
@@ -78,6 +81,9 @@
             "manuals/en/grammar/a1/topics/some-vs-any.html"
           ]
         }
+      ],
+      "practice_links": [
+        "manuals/en/grammar/a1/topics/some-vs-any.html"
       ]
     },
     {
@@ -93,6 +99,9 @@
             "manuals/en/grammar/a1/topics/all-both-none.html"
           ]
         }
+      ],
+      "practice_links": [
+        "manuals/en/grammar/a1/topics/all-both-none.html"
       ]
     }
   ]
