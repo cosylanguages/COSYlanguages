@@ -4,19 +4,19 @@
  */
 
 window.TRANSLATION_MAP = {
-    'en': 'js/data/germanic/en/translations.js',
-    'fr': 'js/data/romance/fr/translations.js',
-    'it': 'js/data/romance/it/translations.js',
-    'ru': 'js/data/slavic/ru/translations.js',
-    'el': 'js/data/hellenic/el/translations.js',
-    'es': 'js/data/romance/es/translations.js',
-    'de': 'js/data/germanic/de/translations.js',
-    'pt': 'js/data/romance/pt/translations.js',
-    'hy': 'js/data/armenian/hy/translations.js',
-    'ka': 'js/data/kartvelian/ka/translations.js',
-    'tt': 'js/data/turkic/tt/translations.js',
-    'ba': 'js/data/turkic/ba/translations.js',
-    'br': 'js/data/celtic/br/translations.js'
+    'en': 'data/ui/en.json',
+    'fr': 'data/ui/fr.json',
+    'it': 'data/ui/it.json',
+    'ru': 'data/ui/ru.json',
+    'el': 'data/ui/el.json',
+    'es': 'data/ui/es.json',
+    'de': 'data/ui/de.json',
+    'pt': 'data/ui/pt.json',
+    'hy': 'data/ui/hy.json',
+    'ka': 'data/ui/ka.json',
+    'tt': 'data/ui/tt.json',
+    'ba': 'data/ui/ba.json',
+    'br': 'data/ui/br.json'
 };
 
 // Master language registry.

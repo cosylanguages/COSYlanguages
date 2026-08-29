@@ -3425,6 +3425,19 @@
             return;
         }
 
+        // Dynamically load science_db.js for KUS session if missing
+        if (isKusSession && !window.COSY_SCIENCE_DB) {
+            const segments = currentPathname.replace(/^\//, '').replace(/\/$/, '').split('/').length;
+            const prefix = segments <= 1 ? "./" : "../".repeat(segments - 1);
+            const script = document.createElement('script');
+            script.src = prefix + "js/data/science_db.js";
+            script.onload = () => {
+                setupWonderModeRouter();
+            };
+            document.head.appendChild(script);
+            return;
+        }
+
         const params = new URLSearchParams(window.location.search);
         const mode = params.get('mode') || 'big';
 
