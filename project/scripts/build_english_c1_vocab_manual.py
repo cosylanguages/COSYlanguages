@@ -1322,6 +1322,14 @@ def build_all():
  <span class="topics-count">{count} {topic_plural} &rarr;</span>
  </a>""")
 
+    parts_grid_cards.append("""<a class="part-card" href="../../../index.html" style="border: 2px solid var(--teal-500); background: var(--teal-050);">
+ <div class="stripe" style="background: var(--teal-500);"></div>
+ <div class="pnum">ENGLISH TRACK COMPLETED</div>
+ <h2>You've completed the English track! 🎉</h2>
+ <p>Congratulations! You've reached the top of the English vocabulary curriculum. Return to the Master Manuals Directory to explore other languages and resources.</p>
+ <span class="topics-count">Return to Master Manuals Directory &rarr;</span>
+ </a>""")
+
     parts_grid_html = "\n".join(parts_grid_cards)
 
     index_code = f"""<!doctype html>

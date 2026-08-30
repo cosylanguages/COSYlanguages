@@ -801,6 +801,14 @@ def build_all():
  <span class="topics-count">Explore Part &rarr;</span>
 </a>""")
 
+    grid_cards.append("""<a class="part-card" href="../a2/index.html" style="border: 2px solid var(--teal-500); background: var(--teal-050);">
+ <div class="stripe" style="background: var(--teal-500);"></div>
+ <span class="pnum">NEXT LEVEL</span>
+ <h2>Continue to Level A2 &rarr;</h2>
+ <p>Ready for the next step? Advance to English Vocabulary Manual Level A2 covering 17 thematic modules aligned with Cambridge A2 Key & CEFR Waystage descriptors.</p>
+ <span class="topics-count">Open Vocabulary Manual A2 &rarr;</span>
+</a>""")
+
     index_html = f"""<!doctype html>
 <html lang="en">
 <head>

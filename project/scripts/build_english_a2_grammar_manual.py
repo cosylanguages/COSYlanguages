@@ -2411,6 +2411,14 @@ def build_all():
  <span class="topics-count">{count} {topic_plural} &rarr;</span>
  </a>''')
 
+    parts_grid_cards.append('''<a class="part-card" href="../b1/index.html" style="border: 2px solid var(--teal-500); background: var(--teal-050);">
+ <div class="stripe" style="background: var(--teal-500);"></div>
+ <div class="pnum">NEXT LEVEL</div>
+ <h2>Continue to Level B1 &rarr;</h2>
+ <p>Ready for the next step? Advance to English Grammar Manual Level B1 covering narrative tenses, modals of deduction, mixed conditionals, and causatives.</p>
+ <span class="topics-count">Open Grammar Manual B1 &rarr;</span>
+ </a>''')
+
     parts_grid_html = "".join(parts_grid_cards)
 
     index_code = f'''<!doctype html>
