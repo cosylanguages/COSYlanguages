@@ -3114,7 +3114,7 @@ MANUALS = [   {   'back_link': 'Torna al sito COSYlanguages',
                                               'title': 'Comparativo e superlativo'}]}],
         'title': 'Gramática portuguesa (A0–A1)'},
     {   'back_link': 'COSYlanguages төп сайтына кайту',
-        'dir': 'tatar-teli-grammatikasy',
+        'dir': 'manuals/tt/grammar',
         'lang': 'tt',
         'lead': 'Татар теле грамматикасы буенча интерактив белешмәлек: бүлекләр, сингармонизм, килешләр, фигыльләр һәм '
                 'күнегүләр.',
