@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
 Generator script for COSYlanguages Per-Language Manual Hubs and Master Directory in manuals/.
-Generates single-page hubs combining Book 1 (Grammar) and Book 2 (Vocabulary) for every language and level,
-plus manuals/index.html as the master directory with links leading to all manual pages and all languages.
+Generates single-page hubs combining Book 1 (Grammar), Book 2 (Vocabulary), and Book 3 (Communication)
+for every language and level, plus manuals/index.html as the master directory with links leading
+to all manual pages and all languages.
 """
 
 import os
@@ -25,7 +26,7 @@ LANGUAGES = {
         "portal_url": "../languages/en.html",
         "portal_label": "← COSYenglish Hub",
         "manifesto_title": "★ HOW THE SYSTEM WORKS",
-        "manifesto_text": "Every level at COSYlanguages features complementary manuals. Read a topic in the <strong>Grammar Manual</strong> to understand sentence structure, use the words from the <strong>Vocabulary Manual</strong> to build sentences, and practice speaking in our clubs and challenges! Ready for higher levels? Check out our <a href='english-a2.html'>English Level A2 Hub</a>, <a href='english-b1.html'>Level B1 Hub</a>, and <a href='english-b2.html'>Level B2 Hub</a>.",
+        "manifesto_text": "Every level at COSYlanguages features complementary manuals. Read a topic in the <strong>Grammar Manual</strong> to understand sentence structure, use the words from the <strong>Vocabulary Manual</strong> to build sentences, and practice speaking in our clubs and challenges! Ready for higher levels? Check out our <a href='english-a2.html'>English Level A2 Hub</a>, <a href='english-b1.html'>Level B1 Hub</a>, <a href='english-b2.html'>Level B2 Hub</a>, and <a href='english-c1.html'>Level C1 Hub</a>.",
         "g_badge": "BOOK 1 · GRAMMAR MANUAL",
         "g_title": "English Grammar Manual (A0–A1)",
         "g_desc": "42 interactive topics in 4 core parts. Master sentence building, verb tenses, articles, pronouns, prepositions, and question forms.",
@@ -44,24 +45,29 @@ LANGUAGES = {
         "native_name": "English A2",
         "flag": "🇬🇧",
         "title": "COSYlanguages English Live A2 · Learning Manuals Hub",
-        "meta_desc": "The complete interactive reference library for English learners (Level A2): Book 1 Grammar Manual and companion learning system.",
+        "meta_desc": "The complete interactive reference library for English learners (Level A2): Book 1 Grammar Manual, Book 2 Vocabulary Manual, and Book 3 Communication Manual.",
         "kicker": "Complete Learning System · Level A2",
         "h1": "English Learning Manuals (Level A2)",
         "lead": "Expanding fluency block by block: past tenses, present perfect, conditionals, passive voice, modal auxiliaries, and complex connectors.",
         "portal_url": "../languages/en.html",
         "portal_label": "← COSYenglish Hub",
         "manifesto_title": "★ HOW THE SYSTEM WORKS",
-        "manifesto_text": "Level A2 builds directly on your A0-A1 foundation. Study structural grammar in our <strong>Level A2 Grammar Manual</strong>, expand your expression with thematic daily challenges, and join live speaking events! Looking for other levels? Visit the <a href='english-a0-a1.html'>Level A0–A1 Hub</a>, <a href='english-b1.html'>Level B1 Hub</a>, or <a href='english-b2.html'>Level B2 Hub</a>.",
+        "manifesto_text": "Level A2 builds directly on your A0-A1 foundation. Study structural grammar in our <strong>Level A2 Grammar Manual</strong>, expand your expression with our <strong>Vocabulary Manual</strong> and <strong>Communication Manual</strong>, and practice with our interactive trainers! Looking for other levels? Visit the <a href='english-a0-a1.html'>Level A0–A1 Hub</a>, <a href='english-b1.html'>Level B1 Hub</a>, <a href='english-b2.html'>Level B2 Hub</a>, or <a href='english-c1.html'>Level C1 Hub</a>.",
         "g_badge": "BOOK 1 · GRAMMAR MANUAL",
         "g_title": "English Grammar Manual (A2)",
         "g_desc": "46 interactive topics across 8 parts and appendix: past simple & continuous, present perfect, conditionals, passive, modals, and reported speech.",
         "g_btn": "Open Grammar Manual A2 (46 Topics) →",
         "g_url": "../manuals/en/grammar/a2/index.html",
-        "v_badge": "BOOK 2 · VOCABULARY & PRACTICE",
-        "v_title": "Level A2 Practice System",
-        "v_desc": "Calibrated A2 vocabulary decks, practice trainers, and speaking prompts integrated across practice hubs and club sessions.",
-        "v_btn": "Open Practice Hub →",
-        "v_url": "../practice/index.html",
+        "v_badge": "BOOK 2 · VOCABULARY MANUAL",
+        "v_title": "English Vocabulary Manual (A2)",
+        "v_desc": "17 thematic modules aligned with Cambridge A2 Key & CEFR Waystage descriptors: everyday fluency, work, travel, health, and collocations masterclass.",
+        "v_btn": "Open Vocabulary Manual A2 (17 Modules) →",
+        "v_url": "../manuals/en/vocabulary/a2/index.html",
+        "c_badge": "BOOK 3 · COMMUNICATION MANUAL",
+        "c_title": "English Communication Manual (A2)",
+        "c_desc": "10 conversation systems aligned with CEFR Waystage and Cambridge A2 Key collaborative speaking tasks: telling stories, making plans, and navigating service exchanges.",
+        "c_btn": "Open Communication Manual A2 (10 Systems) →",
+        "c_url": "../manuals/en/communication/a2/index.html",
     },
     "en_b1": {
         "filename": "english-b1.html",
@@ -70,24 +76,29 @@ LANGUAGES = {
         "native_name": "English B1",
         "flag": "🇬🇧",
         "title": "COSYlanguages English Live B1 · Learning Manuals Hub",
-        "meta_desc": "The complete interactive reference library for English learners (Level B1): Book 1 Grammar Manual and companion learning system.",
+        "meta_desc": "The complete interactive reference library for English learners (Level B1): Book 1 Grammar Manual, Book 2 Vocabulary Manual, and Book 3 Communication Manual.",
         "kicker": "Complete Learning System · Level B1",
         "h1": "English Learning Manuals (Level B1)",
         "lead": "Speaking with confidence and nuance: narrative tenses, future continuous & perfect, modals of deduction, third & mixed conditionals, relative clauses, causatives, and linking words.",
         "portal_url": "../languages/en.html",
         "portal_label": "← COSYenglish Hub",
         "manifesto_title": "★ HOW THE SYSTEM WORKS",
-        "manifesto_text": "Level B1 empowers confident and nuanced communication. Study structural grammar in our <strong>Level B1 Grammar Manual</strong>, refine your fluency with intermediate practice trainers, and engage in multi-round debate clubs! Looking for other levels? Visit the <a href='english-a0-a1.html'>Level A0–A1 Hub</a>, <a href='english-a2.html'>Level A2 Hub</a>, or <a href='english-b2.html'>Level B2 Hub</a>.",
+        "manifesto_text": "Level B1 empowers confident and nuanced communication. Study structural grammar in our <strong>Level B1 Grammar Manual</strong>, refine your expression with our <strong>Vocabulary Manual</strong> and <strong>Communication Manual</strong>, and engage in multi-round debate clubs! Looking for other levels? Visit the <a href='english-a0-a1.html'>Level A0–A1 Hub</a>, <a href='english-a2.html'>Level A2 Hub</a>, <a href='english-b2.html'>Level B2 Hub</a>, or <a href='english-c1.html'>Level C1 Hub</a>.",
         "g_badge": "BOOK 1 · GRAMMAR MANUAL",
         "g_title": "English Grammar Manual (B1)",
         "g_desc": "47 interactive topics across 11 parts and appendix: continuous aspects, narrative tenses, future perfect, modals of deduction, mixed conditionals, causatives, and connectors.",
         "g_btn": "Open Grammar Manual B1 (47 Topics) →",
         "g_url": "../manuals/en/grammar/b1/index.html",
-        "v_badge": "BOOK 2 · VOCABULARY & PRACTICE",
-        "v_title": "Level B1 Practice System",
-        "v_desc": "Calibrated B1 vocabulary decks, spaced repetition drills, and authentic debate prompts integrated across practice hubs.",
-        "v_btn": "Open Practice Hub →",
-        "v_url": "../practice/index.html",
+        "v_badge": "BOOK 2 · VOCABULARY MANUAL",
+        "v_title": "English Vocabulary Manual (B1)",
+        "v_desc": "21 thematic modules aligned with Cambridge B1 Preliminary (PET) syllabus: career, media, climate, health, finance, tech, law, and critical thinking.",
+        "v_btn": "Open Vocabulary Manual B1 (21 Modules) →",
+        "v_url": "../manuals/en/vocabulary/b1/index.html",
+        "c_badge": "BOOK 3 · COMMUNICATION MANUAL",
+        "c_title": "English Communication Manual (B1)",
+        "c_desc": "10 Core Conversation Systems aligned with PET task formats, plus 40 Functional Situational Masterclass Units for workplace meetings, service, and debate.",
+        "c_btn": "Open Communication Manual B1 (10 Systems) →",
+        "c_url": "../manuals/en/communication/b1/index.html",
     },
     "en_b2": {
         "filename": "english-b2.html",
@@ -96,24 +107,55 @@ LANGUAGES = {
         "native_name": "English B2",
         "flag": "🇬🇧",
         "title": "COSYlanguages English Live B2 · Learning Manuals Hub",
-        "meta_desc": "The complete interactive reference library for English learners (Level B2): Book 1 Grammar Manual and companion learning system.",
+        "meta_desc": "The complete interactive reference library for English learners (Level B2): Book 1 Grammar Manual, Book 2 Vocabulary Manual, and Book 3 Communication Manual.",
         "kicker": "Complete Learning System · Level B2",
         "h1": "English Learning Manuals (Level B2)",
         "lead": "Precision, nuance, and natural expression: used to vs would, conditional inversion, it's time, distancing passive reporting, participle clauses, OSASCOMP adjective order, negative adverbial inversion, and cleft sentences.",
         "portal_url": "../languages/en.html",
         "portal_label": "← COSYenglish Hub",
         "manifesto_title": "★ HOW THE SYSTEM WORKS",
-        "manifesto_text": "Level B2 unlocks upper-intermediate mastery and natural expression. Study structural grammar in our <strong>Level B2 Grammar Manual</strong>, refine your register and vocabulary, and participate in advanced speaking challenges! Looking for lower levels? Visit the <a href='english-a0-a1.html'>Level A0–A1 Hub</a>, <a href='english-a2.html'>Level A2 Hub</a>, or <a href='english-b1.html'>Level B1 Hub</a>.",
+        "manifesto_text": "Level B2 unlocks upper-intermediate mastery and natural expression. Study structural grammar in our <strong>Level B2 Grammar Manual</strong>, refine your register and vocabulary with our <strong>Vocabulary Manual</strong> and <strong>Communication Manual</strong>, and participate in advanced speaking challenges! Looking for other levels? Visit the <a href='english-a0-a1.html'>Level A0–A1 Hub</a>, <a href='english-a2.html'>Level A2 Hub</a>, <a href='english-b1.html'>Level B1 Hub</a>, or <a href='english-c1.html'>Level C1 Hub</a>.",
         "g_badge": "BOOK 1 · GRAMMAR MANUAL",
         "g_title": "English Grammar Manual (B2)",
         "g_desc": "35 interactive topics across 12 parts and appendix: narrative tenses, conditional inversion, passive reporting, participle clauses, cleft sentences, and register comparison.",
         "g_btn": "Open Grammar Manual B2 (35 Topics) →",
         "g_url": "../manuals/en/grammar/b2/index.html",
-        "v_badge": "BOOK 2 · VOCABULARY & PRACTICE",
-        "v_title": "Level B2 Practice System",
-        "v_desc": "Upper-intermediate B2 vocabulary decks, advanced discourse markers, and academic/informal register practice.",
-        "v_btn": "Open Practice Hub →",
-        "v_url": "../practice/index.html",
+        "v_badge": "BOOK 2 · VOCABULARY MANUAL",
+        "v_title": "English Vocabulary Manual (B2)",
+        "v_desc": "16 thematic modules aligned with Cambridge B2 First (FCE) Use of English and Speaking syllabus: law, politics, economics, AI, ethics, and sustainability.",
+        "v_btn": "Open Vocabulary Manual B2 (16 Modules) →",
+        "v_url": "../manuals/en/vocabulary/b2/index.html",
+        "c_badge": "BOOK 3 · COMMUNICATION MANUAL",
+        "c_title": "English Communication Manual (B2)",
+        "c_desc": "10 conversation systems aligned with Cambridge B2 First (FCE) Speaking and Writing task formats: argument building, diplomacy, and managing discussions.",
+        "c_btn": "Open Communication Manual B2 (10 Systems) →",
+        "c_url": "../manuals/en/communication/b2/index.html",
+    },
+    "en_c1": {
+        "filename": "english-c1.html",
+        "lang_code": "en",
+        "name_en": "English (Level C1)",
+        "native_name": "English C1",
+        "flag": "🇬🇧",
+        "title": "COSYlanguages English Live C1 · Learning Manuals Hub",
+        "meta_desc": "The complete interactive reference library for English learners (Level C1): Book 1 Grammar Manual and Book 2 Vocabulary Manual.",
+        "kicker": "Complete Learning System · Level C1",
+        "h1": "English Learning Manuals (Level C1)",
+        "lead": "Stylistic sophistication, hedging, information packaging, and encyclopedic mastery: academic stance devices, probability adverbs, syntactic inversion, theme/rheme alignment, research discourse, law, economics, AI, and digital ethics.",
+        "portal_url": "../languages/en.html",
+        "portal_label": "← COSYenglish Hub",
+        "manifesto_title": "★ HOW THE SYSTEM WORKS",
+        "manifesto_text": "Level C1 unlocks advanced academic and professional mastery. Study structural grammar in our <strong>Level C1 Grammar Manual</strong>, explore 14 encyclopedic domains in our <strong>Level C1 Vocabulary Manual</strong>, and refine your academic and technical communication! Looking for other levels? Visit the <a href='english-a0-a1.html'>Level A0–A1 Hub</a>, <a href='english-a2.html'>Level A2 Hub</a>, <a href='english-b1.html'>Level B1 Hub</a>, or <a href='english-b2.html'>Level B2 Hub</a>.",
+        "g_badge": "BOOK 1 · GRAMMAR MANUAL",
+        "g_title": "English Grammar Manual (C1)",
+        "g_desc": "Advanced syntactic sophistication, hedging, information packaging, sentence variety, periodic sentences, and discourse cohesion.",
+        "g_btn": "Open Grammar Manual C1 (6 Topics) →",
+        "g_url": "../manuals/en/grammar/c1/index.html",
+        "v_badge": "BOOK 2 · VOCABULARY MANUAL",
+        "v_title": "English Vocabulary Manual (C1)",
+        "v_desc": "14 encyclopedic domains across 21 topics: academic discourse, jurisprudence, economics, corporate governance, AI, ethics, and sustainability.",
+        "v_btn": "Open Vocabulary Manual C1 (14 Parts) →",
+        "v_url": "../manuals/en/vocabulary/c1/index.html",
     },
     "fr": {
         "filename": "francaise-a0-a1.html",
@@ -639,25 +681,21 @@ HUB_TEMPLATE = """<!doctype html>
       <a href="{g_url}" class="btn-open">{g_btn}</a>
     </div>
 
-    <!-- Book 2: Vocabulary / Practice -->
+    <!-- Book 2: Vocabulary -->
     <div class="book-card">
       <div>
         <span class="badge active">{v_badge}</span>
         <h2>{v_title}</h2>
         <p>{v_desc}</p>
       </div>
-      <a href="{v_url}" class="btn-open">{v_btn}</a>
+      <div>
+        <a href="{v_url}" class="btn-open">{v_btn}</a>
+        {v_extra}
+      </div>
     </div>
 
-    <!-- Book 3: Speech (Future Expansion) -->
-    <div class="book-card" style="opacity: 0.85;">
-      <div>
-        <span class="badge coming">BOOK 3 · COMING SOON</span>
-        <h2>Speech &amp; Conversation</h2>
-        <p>Daily dialogues, speech patterns, and real-time situational practice for active communication.</p>
-      </div>
-      <span style="font-size: 13px; font-weight: 700; color: var(--text-soft); font-style: italic;">In active editorial preparation...</span>
-    </div>
+    <!-- Book 3: Speech / Communication -->
+    {book3_html}
 
     <!-- Book 4: Exercises & Culture (Future Expansion) -->
     <div class="book-card" style="opacity: 0.85;">
@@ -686,7 +724,38 @@ def generate_hubs():
     count = 0
     for code, info in LANGUAGES.items():
         filepath = os.path.join(MANUALS_DIR, info["filename"])
-        content = HUB_TEMPLATE.format(**info)
+
+        if "c_url" in info:
+            book3_html = f"""<div class="book-card">
+      <div>
+        <span class="badge active">{info['c_badge']}</span>
+        <h2>{info['c_title']}</h2>
+        <p>{info['c_desc']}</p>
+      </div>
+      <a href="{info['c_url']}" class="btn-open">{info['c_btn']}</a>
+    </div>"""
+        else:
+            book3_html = """<div class="book-card" style="opacity: 0.85;">
+      <div>
+        <span class="badge coming">BOOK 3 · COMING SOON</span>
+        <h2>Speech &amp; Conversation</h2>
+        <p>Daily dialogues, speech patterns, and real-time situational practice for active communication.</p>
+      </div>
+      <span style="font-size: 13px; font-weight: 700; color: var(--text-soft); font-style: italic;">In active editorial preparation...</span>
+    </div>"""
+
+        if code in ("en_a2", "en_b1", "en_b2"):
+            v_extra = """<div style="margin-top: 10px; text-align: center;">
+          <a href="../practice/index.html" style="font-size: 13px; font-weight: 700; color: var(--brand-teal); text-decoration: underline;">Open Practice Hub ↗</a>
+        </div>"""
+        else:
+            v_extra = ""
+
+        content_vars = dict(info)
+        content_vars["book3_html"] = book3_html
+        content_vars["v_extra"] = v_extra
+
+        content = HUB_TEMPLATE.format(**content_vars)
         with open(filepath, "w", encoding="utf-8") as f:
             f.write(content)
         count += 1
@@ -695,6 +764,10 @@ def generate_hubs():
     # Build Master Directory manuals/index.html
     cards_html = []
     for code, info in LANGUAGES.items():
+        comm_btn_html = ""
+        if "c_url" in info:
+            comm_btn_html = f'\n        <a href="{info["c_url"]}" class="btn-link comm">💬 Communication Manual</a>'
+
         cards_html.append(f"""
     <div class="lang-hub-card">
       <div class="lang-card-header">
@@ -708,7 +781,7 @@ def generate_hubs():
       <div class="card-links-grid">
         <a href="{info['filename']}" class="btn-link primary">🌟 Unified Language Hub</a>
         <a href="{info['g_url']}" class="btn-link grammar">📘 Grammar Manual</a>
-        <a href="{info['v_url']}" class="btn-link vocab">📚 Vocabulary / Practice</a>
+        <a href="{info['v_url']}" class="btn-link vocab">📚 Vocabulary Manual</a>{comm_btn_html}
         <a href="{info['portal_url']}" class="btn-link portal">🌐 Language Portal</a>
       </div>
     </div>""")
@@ -881,6 +954,14 @@ def generate_hubs():
   .btn-link.vocab:hover {{
     background: #ceeedb;
   }}
+  .btn-link.comm {{
+    grid-column: 1 / -1;
+    background: #fdf3e6;
+    color: #b85d2b;
+  }}
+  .btn-link.comm:hover {{
+    background: #fce4cc;
+  }}
   .btn-link.portal {{
     grid-column: 1 / -1;
     background: var(--paper-bg);
@@ -956,14 +1037,14 @@ def generate_hubs():
     Master Directory · COSYlanguages Library
   </span>
   <h1>All Manuals &amp; Languages Hub</h1>
-  <p>Explore single-page hubs, grammar references, and vocabulary manuals across all supported languages in the COSYlanguages ecosystem.</p>
+  <p>Explore single-page hubs, grammar references, vocabulary manuals, and communication systems across all supported languages in the COSYlanguages ecosystem.</p>
 </section>
 
 <main class="master-container">
 
   <div>
     <h2 class="section-title">Language Manuals &amp; Hubs</h2>
-    <p class="section-sub">Select a language to open its unified hub or jump directly to Book 1 (Grammar) or Book 2 (Vocabulary/Practice).</p>
+    <p class="section-sub">Select a language to open its unified hub or jump directly to Book 1 (Grammar), Book 2 (Vocabulary), or Book 3 (Communication).</p>
   </div>
 
   <div class="directory-grid">
