@@ -820,41 +820,21 @@ window.COSY = {
 
         const standardPath = `${prefix}curriculum/${lang}/general/${levelUp}.json`;
         const v2Path = `${prefix}curriculum/${lang}/general/${levelUp}_v2.json`;
-        const legacyPath = `${prefix}js/data/curriculum/${langLow}_${levelLow}.js`;
 
-        const knownLegacyScripts = ['en_a1', 'fr_b1'];
-        const legacyKey = `${langLow}_${levelLow}`;
-
-        // 1. Load legacy script if it's known to exist
-        const legacyLoad = new Promise((resolve) => {
-            if (!knownLegacyScripts.includes(legacyKey)) return resolve();
-            if (document.querySelector(`script[src*="${legacyPath}"]`)) return resolve();
-            const script = document.createElement('script');
-            script.src = legacyPath;
-            script.onload = () => resolve();
-            script.onerror = () => resolve();
-            document.head.appendChild(script);
-        });
-
-        // 2. Load standard JSON curriculum or fallback to v2 JSON
-        const jsonLoad = fetch(standardPath)
-            .then(res => res.ok ? res.json() : fetch(v2Path).then(r => r.ok ? r.json() : null))
-            .then(data => {
-                if (data && data.units) {
-                    const units = data.units;
-                    window.curriculumData = window.curriculumData || {};
-                    const key = `${langLow}_${levelLow}`;
-                    if (!window.curriculumData[key]) {
-                        window.curriculumData[key] = units;
-                    }
-                    if (window.cosyDays) window.cosyDays.state.curriculum = units;
-                    return units;
-                }
-                return null;
-            })
-            .catch(() => null);
-
-        await Promise.all([legacyLoad, jsonLoad]);
+        try {
+            const res = await fetch(standardPath);
+            const data = res.ok ? await res.json() : await fetch(v2Path).then(r => r.ok ? r.json() : null);
+            if (data && data.units) {
+                const units = data.units;
+                window.curriculumData = window.curriculumData || {};
+                const key = `${langLow}_${levelLow}`;
+                window.curriculumData[key] = units;
+                if (window.cosyDays) window.cosyDays.state.curriculum = units;
+                return units;
+            }
+        } catch (e) {
+            console.warn(`Failed to load curriculum for ${lang} ${level}:`, e);
+        }
 
         const key = `${langLow}_${levelLow}`;
         return (window.curriculumData && window.curriculumData[key]) || [];

@@ -49,54 +49,6 @@
         }
     }
 
-    /**
-     * Dynamically loads translations.js from translations map if present.
-     */
-    async function loadTranslationsJs(lang) {
-        if (!lang) return {};
-
-        // If already loaded in window.translations
-        if (window.translations && window.translations[lang]) {
-            return window.translations[lang];
-        }
-
-        const prefix = (window.COSY && typeof window.COSY.getPrefix === 'function')
-            ? window.COSY.getPrefix()
-            : '/';
-
-        const map = {
-            'en': 'js/data/germanic/en/translations.js',
-            'fr': 'js/data/romance/fr/translations.js',
-            'it': 'js/data/romance/it/translations.js',
-            'ru': 'js/data/slavic/ru/translations.js',
-            'el': 'js/data/hellenic/el/translations.js',
-            'es': 'js/data/romance/es/translations.js',
-            'de': 'js/data/germanic/de/translations.js',
-            'pt': 'js/data/romance/pt/translations.js',
-            'hy': 'js/data/armenian/hy/translations.js',
-            'ka': 'js/data/kartvelian/ka/translations.js',
-            'tt': 'js/data/turkic/tt/translations.js',
-            'ba': 'js/data/turkic/ba/translations.js',
-            'br': 'js/data/celtic/br/translations.js'
-        };
-
-        const path = map[lang];
-        if (!path) return {};
-
-        return new Promise((resolve) => {
-            const s = document.createElement('script');
-            s.src = prefix + path;
-            s.onload = () => {
-                s.remove();
-                resolve(window.translations && window.translations[lang] ? window.translations[lang] : {});
-            };
-            s.onerror = () => {
-                s.remove();
-                resolve({});
-            };
-            document.head.appendChild(s);
-        });
-    }
 
     /**
      * Translates a key using the currently loaded strings.
@@ -161,9 +113,7 @@
         try {
             currentLang = lang.toLowerCase();
             localStorage.setItem('cosy_last_language', currentLang);
-            const jsonTranslations = await fetchTranslations(currentLang);
-            const jsTranslations = await loadTranslationsJs(currentLang);
-            translations = { ...jsTranslations, ...jsonTranslations };
+            translations = await fetchTranslations(currentLang);
             applyTranslations();
 
             if (window.setUILanguage) {
@@ -214,9 +164,7 @@
 
         if (currentLang) {
             localStorage.setItem('cosy_last_language', currentLang);
-            const jsonTranslations = await fetchTranslations(currentLang);
-            const jsTranslations = await loadTranslationsJs(currentLang);
-            translations = { ...jsTranslations, ...jsonTranslations };
+            translations = await fetchTranslations(currentLang);
             applyTranslations();
 
             // Refresh navbar/mobile menu/etc. if engine is already loaded
