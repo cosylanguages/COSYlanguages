@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
-Generates complete continuous reading/printing HTML pages for grammaire-francaise chapters (Domaines).
-Prototype for Domaine 1: grammaire-francaise/domaine-1-complet.html
+Generates complete continuous reading/printing HTML pages for grammaire-francaise chapters (Domaines 1 to 5).
 """
 
 import os
@@ -9,9 +8,11 @@ import re
 
 MANUAL_DIR = "grammaire-francaise"
 
-def generate_domaine_complet(domaine_num=1):
+def generate_domaine_complet(domaine_num):
     dom_filename = f"domaine-{domaine_num}.html"
     dom_path = os.path.join(MANUAL_DIR, dom_filename)
+    if not os.path.exists(dom_path):
+        return
 
     with open(dom_path, "r", encoding="utf-8") as f:
         dom_html = f.read()
@@ -46,18 +47,14 @@ def generate_domaine_complet(domaine_num=1):
         # Remove pager navigation div
         main_content = re.sub(r'<div class="pager">.*?</div>', '', main_content, flags=re.DOTALL)
 
-        # Fix relative links in topic bodies:
-        # 1. ../ references (assets, index.html, domaine-X.html, etc.) -> remove ../
+        # Fix relative links in topic bodies
         main_content = main_content.replace('href="../', 'href="')
         main_content = main_content.replace('src="../', 'src="')
 
-        # 2. Same-folder topic links in topic files (e.g. href="genre-des-noms-1.html" or href="articles-partitifs.html")
-        # In a topic file, href="x.html" points to topics/x.html.
         def fix_topic_link(m):
             link = m.group(1)
             if link.startswith(('http', '#', 'topics/', 'domaine-', 'index.html', 'mailto:')):
                 return f'href="{link}"'
-            # If link matches an existing topic file in topics/
             if os.path.exists(os.path.join(MANUAL_DIR, 'topics', link)):
                 return f'href="topics/{link}"'
             return f'href="{link}"'
@@ -67,7 +64,6 @@ def generate_domaine_complet(domaine_num=1):
         # Extract topic title for TOC
         h1_m = re.search(r'<h1>(.*?)</h1>', main_content)
         topic_title = h1_m.group(1) if h1_m else f"Topic {idx}"
-        # Clean tags from topic_title for TOC
         clean_title = re.sub(r'<[^>]+>', '', topic_title)
 
         topic_id = f"topic-{slug}"
@@ -216,5 +212,26 @@ def generate_domaine_complet(domaine_num=1):
         out_f.write(page_html)
     print(f"Generated {out_path} successfully ({len(page_html)} bytes).")
 
+    # Add entry link to domaine-X.html if not present
+    add_entry_link_to_domaine(domaine_num)
+
+def add_entry_link_to_domaine(domaine_num):
+    dom_path = os.path.join(MANUAL_DIR, f"domaine-{domaine_num}.html")
+    with open(dom_path, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    link_html = f'''  <div style="margin-top: 14px;">
+    <a href="domaine-{domaine_num}-complet.html" class="theme-pill" style="background: var(--teal-100); color: var(--teal-800); border-color: var(--teal-500); text-decoration: none; font-weight: 700;">
+      📖 Domaine {domaine_num} complet (version imprimable / lecture continue) &rarr;
+    </a>
+  </div>'''
+
+    if f"domaine-{domaine_num}-complet.html" not in content:
+        content = content.replace('<hr class="rule">', f'{link_html}\n  <hr class="rule">')
+        with open(dom_path, "w", encoding="utf-8") as f:
+            f.write(content)
+        print(f"Added entry link to {dom_path}")
+
 if __name__ == "__main__":
-    generate_domaine_complet(1)
+    for d in range(1, 6):
+        generate_domaine_complet(d)
