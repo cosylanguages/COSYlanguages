@@ -1,0 +1,67 @@
+/* COSYlanguages · Lexique Français Niveau A2 */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap');
+
+:root {
+  --teal-900: #0f382c;
+  --teal-800: #1c6b54;
+  --teal-600: #25a894;
+  --teal-100: #e4f5f0;
+  --ink: #13231e;
+  --ink-soft: #3c544c;
+  --paper: #fcfbf7;
+  --panel: #ffffff;
+  --line: #e3e0d5;
+  --mint-bg: #e3f5ef;
+  --mint-ink: #0f382c;
+  --radius-s: 8px;
+  --radius-m: 14px;
+  --radius-l: 20px;
+  --shadow-card: 0 2px 8px rgba(15,56,44,.06);
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: 'Inter', system-ui, sans-serif; line-height: 1.6; }
+a { color: var(--teal-800); text-decoration: none; font-weight: 600; }
+.container { max-width: 920px; margin: 0 auto; padding: 0 20px; }
+
+.topbar { position: sticky; top: 0; z-index: 50; background: var(--teal-900); color: #fff; }
+.topbar-inner { max-width: 1100px; margin: 0 auto; padding: 12px 20px; display: flex; align-items: center; justify-content: space-between; }
+.brand { color: #fff; font-weight: 800; font-family: 'Nunito', sans-serif; display: flex; align-items: center; gap: 8px; }
+.brand-mark { background: #fff; color: var(--teal-900); width: 30px; height: 30px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-style: italic; }
+.topbar-nav { display: flex; gap: 8px; }
+.topbar-nav a { color: #e4f5f0; font-size: 13px; padding: 6px 12px; border-radius: 99px; }
+.topbar-nav a:hover, .topbar-nav a.active { background: rgba(255,255,255,.2); }
+
+.page-head { padding: 32px 0 16px; }
+.eyebrow { display: inline-block; font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 700; text-transform: uppercase; color: var(--teal-800); background: var(--teal-100); padding: 4px 12px; border-radius: 99px; margin-bottom: 12px; }
+.page-head h1 { font-family: 'Nunito', sans-serif; font-weight: 900; font-size: clamp(28px, 4vw, 40px); margin: 0 0 6px; }
+.subtitle { color: var(--ink-soft); font-size: 18px; margin: 0; font-style: italic; }
+.rule { border: none; border-top: 2px solid var(--ink); margin: 16px 0 24px; opacity: .8; }
+
+.vocab-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin: 24px 0; }
+.vcard { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius-m); padding: 18px; box-shadow: var(--shadow-card); }
+.vcard .word { font-family: 'Nunito', sans-serif; font-weight: 800; font-size: 18px; color: var(--teal-900); margin-bottom: 4px; }
+.vcard .genre { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--teal-800); font-weight: 700; margin-bottom: 8px; }
+.vcard .ex { font-size: 14.5px; color: var(--ink-soft); font-style: italic; }
+
+.checklist { background: var(--mint-bg); border: 1px solid #a3e0d3; border-radius: var(--radius-m); padding: 20px; margin: 24px 0; }
+.checklist h3 { margin: 0 0 12px; font-family: 'Nunito', sans-serif; color: var(--mint-ink); font-size: 16px; }
+.check-item { display: flex; align-items: center; gap: 10px; padding: 6px 0; cursor: pointer; }
+
+.quiz-panel { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius-l); padding: 24px; margin: 32px 0; box-shadow: var(--shadow-card); }
+.quiz-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+.qitem { border-top: 1px solid var(--line); padding: 16px 0; }
+.qopts { display: flex; flex-direction: column; gap: 8px; }
+.qopt { text-align: left; border: 1px solid var(--line); background: var(--paper); border-radius: var(--radius-s); padding: 10px 14px; font-size: 15px; cursor: pointer; }
+.qopt.correct { border-color: #16a34a; background: #dcfce7; font-weight: 700; }
+.qopt.incorrect { border-color: #ef4444; background: #fef2f2; }
+.qexplain { display: none; margin-top: 10px; font-size: 14px; background: var(--teal-100); padding: 10px 14px; border-radius: 6px; }
+.qexplain.show { display: block; }
+
+.module-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin: 24px 0; }
+.mcard { display: block; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius-m); padding: 20px; color: var(--ink); box-shadow: var(--shadow-card); }
+.mcard h2 { font-family: 'Nunito', sans-serif; font-size: 18px; font-weight: 800; margin: 6px 0; }
+
+.pager { display: flex; justify-content: space-between; gap: 16px; margin: 40px 0; }
+footer.site { background: var(--teal-900); color: #e4f5f0; padding: 32px 0; margin-top: 48px; text-align: center; font-size: 14px; }
+footer.site a { color: #fff; }
