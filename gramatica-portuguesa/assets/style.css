@@ -49,9 +49,9 @@ th { background: rgba(0,0,0,0.02); font-weight: 600; }
 .mflip { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 12px 16px; margin: 8px 0; cursor: pointer; }
 .wrong-line { color: var(--role-error); font-weight: 600; }
 .right-line { display: none; color: var(--role-verb); font-weight: 600; margin-top: 6px; }
-.mflip.revealed .right-line { display: block; }
+.mflip.revealed .right-line, .mflip.flipped .right-line { display: block; }
 .hint { font-size: 12px; color: var(--subtext); display: block; margin-top: 4px; }
-.mflip.revealed .hint { display: none; }
+.mflip.revealed .hint, .mflip.flipped .hint { display: none; }
 .checklist { background: var(--card-bg); border: 1px solid var(--border); border-radius: 10px; padding: 20px; margin: 24px 0; }
 .check-item { display: flex; align-items: center; gap: 10px; margin: 10px 0; cursor: pointer; }
 .quiz-panel { background: var(--card-bg); border: 1px solid var(--border); border-radius: 10px; padding: 20px; margin: 24px 0; }
@@ -62,8 +62,9 @@ th { background: rgba(0,0,0,0.02); font-weight: 600; }
 .qopts { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
 .qopt { background: var(--bg); border: 1px solid var(--border); border-radius: 6px; padding: 8px 14px; cursor: pointer; font-size: 14px; }
 .qopt.correct { background: #e6f4ea; border-color: var(--role-verb); color: var(--role-verb); font-weight: 600; }
-.qopt.wrong { background: #fce8e6; border-color: var(--role-error); color: var(--role-error); }
+.qopt.wrong, .qopt.incorrect { background: #fce8e6; border-color: var(--role-error); color: var(--role-error); }
 .qexplain { display: none; margin-top: 6px; font-size: 13px; color: var(--subtext); }
+.qexplain.show { display: block; }
 .timeline-wrap { margin: 26px 0; padding: 22px 10px 10px; }
 .timeline { position: relative; height: 2px; background: var(--border); margin: 0 20px; }
 .timeline .now-tick { position: absolute; left: 50%; top: -6px; width: 2px; height: 14px; background: var(--text); }
