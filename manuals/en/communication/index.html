@@ -3,140 +3,207 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>COSYlanguages English Communication Manual (Level A0–A1) · COSYlanguages</title>
-<link rel="stylesheet" href="assets/style.css">
+<title>COSYlanguages English Communication Manuals Hub (Levels A1–C1) · COSYlanguages</title>
+<meta name="description" content="The master directory for all English Communication Manuals across CEFR levels A1, A2, B1, B2, and C1.">
+<style>
+  :root {
+    --brand-teal: #0c3f38;
+    --brand-teal-light: #e4f4f0;
+    --paper-bg: #faf8f3;
+    --card-bg: #ffffff;
+    --text-ink: #132321;
+    --text-soft: #3c5450;
+    --line-border: #e6e2d8;
+  }
+  body {
+    background: var(--paper-bg);
+    color: var(--text-ink);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    margin: 0;
+    line-height: 1.65;
+  }
+  .topbar {
+    background: var(--brand-teal);
+    color: #fff;
+    padding: 12px 24px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .topbar-inner {
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .topbar a {
+    color: #eafaf5;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .hero-hub {
+    background: linear-gradient(135deg, var(--brand-teal), #157c6c);
+    color: #fff;
+    padding: 60px 24px 50px;
+    text-align: center;
+  }
+  .hero-hub h1 {
+    font-family: 'Nunito', 'Poppins', system-ui, sans-serif;
+    font-size: clamp(32px, 5.5vw, 48px);
+    font-weight: 900;
+    margin: 10px 0;
+  }
+  .hero-hub p {
+    max-width: 680px;
+    margin: 0 auto 24px;
+    font-size: 18px;
+    opacity: 0.9;
+  }
+  .hub-container {
+    max-width: 1040px;
+    margin: -30px auto 60px;
+    padding: 0 24px;
+  }
+  .levels-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  .level-card {
+    background: var(--card-bg);
+    border: 1px solid var(--line-border);
+    border-radius: 18px;
+    padding: 24px;
+    box-shadow: 0 8px 24px -12px rgba(19, 35, 33, 0.15);
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .level-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 32px -12px rgba(19, 35, 33, 0.25);
+  }
+  .level-card .badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 99px;
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 12px;
+    background: var(--brand-teal-light);
+    color: var(--brand-teal);
+  }
+  .level-card h2 {
+    font-family: 'Nunito', 'Poppins', system-ui, sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    margin: 0 0 8px;
+  }
+  .level-card p {
+    color: var(--text-soft);
+    font-size: 14.5px;
+    margin-bottom: 20px;
+  }
+  .level-card .btn-open {
+    display: inline-block;
+    text-align: center;
+    background: var(--brand-teal);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14.5px;
+    padding: 12px 20px;
+    border-radius: 12px;
+    transition: background 0.2s;
+  }
+  .level-card .btn-open:hover {
+    background: #157c6c;
+  }
+</style>
 </head>
 <body>
+
 <header class="topbar">
- <div class="topbar-inner">
- <a class="brand" href="index.html">
- <span class="brand-mark">cl</span>
- <span class="brand-name">COSY<em>languages</em> · Communication A0–A1</span>
- </a>
- <nav class="topbar-nav">
- <a href="../../manuals/english-a0-a1.html" style="font-weight: 700;">← English Hub</a>
- <a href="part-0.html">Part 0</a>
- <a href="part-1.html">Part 1</a>
- <a href="part-2.html">Part 2</a>
- <a href="part-3.html">Part 3</a>
- <a href="part-4.html">Part 4</a>
- <a href="part-5.html">Part 5</a>
- <a href="part-6.html">Part 6</a>
- <a href="part-7.html">Part 7</a>
- <a href="part-8.html">Part 8</a>
- <a href="part-9.html">Part 9</a>
- <a href="part-10.html">Part 10</a>
- </nav>
- </div>
+  <div class="topbar-inner">
+    <a href="../english-a0-a1.html">← English Ecosystem</a>
+    <a href="../index.html">All COSY Manuals</a>
+  </div>
 </header>
-<section class="hero">
- <div class="container">
- <span class="hero-kicker">COSYlanguages · Level A0–A1</span>
- <h1>English Communication Manual</h1>
- <p class="lead">From Phrases to Natural Dialogue. 11 conversation parts covering turn-taking, pragmatics, active listening & story maps.</p>
- </div>
+
+<section class="hero-hub">
+  <span style="background: rgba(255,255,255,0.15); padding: 5px 14px; border-radius: 99px; font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;">
+    Book 3 · Speech &amp; Communication Systems
+  </span>
+  <h1>English Communication Manuals</h1>
+  <p>Master natural spoken interaction across CEFR levels A1 through C1 with phrase building blocks, flow maps, natural speech contrasts, and pragmatic strategies.</p>
 </section>
-<main class="container">
- <div class="parts-grid">
- <a class="part-card" href="part-0.html">
- <div class="stripe" style="background:#25a894;"></div>
- <span class="pnum">Part 0</span>
- <h2>Part 0 — Conversation Architecture</h2>
- <p>How speech works: turns, floor management, active listening & pragmatic intent.</p>
- <span class="topics-count">Explore Part &rarr;</span>
-</a><a class="part-card" href="part-1.html">
- <div class="stripe" style="background:#157c6c;"></div>
- <span class="pnum">Part 1</span>
- <h2>Part 1 — Starting & Ending Conversations</h2>
- <p>Greetings, introductions, icebreakers, polite exits & farewells.</p>
- <span class="topics-count">Explore Part &rarr;</span>
-</a><a class="part-card" href="part-2.html">
- <div class="stripe" style="background:#0f5c50;"></div>
- <span class="pnum">Part 2</span>
- <h2>Part 2 — Keeping Conversations Alive</h2>
- <p>Follow-up questions, echoing, expanding answers & small talk bridges.</p>
- <span class="topics-count">Explore Part &rarr;</span>
-</a><a class="part-card" href="part-3.html">
- <div class="stripe" style="background:#0c3f38;"></div>
- <span class="pnum">Part 3</span>
- <h2>Part 3 — Showing Feelings & Reacting</h2>
- <p>Expressing enthusiasm, empathy, surprise, sympathy & agreement.</p>
- <span class="topics-count">Explore Part &rarr;</span>
-</a><a class="part-card" href="part-4.html">
- <div class="stripe" style="background:#25a894;"></div>
- <span class="pnum">Part 4</span>
- <h2>Part 4 — Giving Opinions & Framing Views</h2>
- <p>I think..., In my view, I prefer..., Likes & dislikes.</p>
- <span class="topics-count">Explore Part &rarr;</span>
-</a><a class="part-card" href="part-5.html">
- <div class="stripe" style="background:#157c6c;"></div>
- <span class="pnum">Part 5</span>
- <h2>Part 5 — Agreeing & Building Consensus</h2>
- <p>I agree, Exactly, That's true, Me too / Neither do I.</p>
- <span class="topics-count">Explore Part &rarr;</span>
-</a><a class="part-card" href="part-6.html">
- <div class="stripe" style="background:#0f5c50;"></div>
- <span class="pnum">Part 6</span>
- <h2>Part 6 — Disagreeing Politely</h2>
- <p>I see your point, but..., I'm not so sure, Actually...</p>
- <span class="topics-count">Explore Part &rarr;</span>
-</a><a class="part-card" href="part-7.html">
- <div class="stripe" style="background:#0c3f38;"></div>
- <span class="pnum">Part 7</span>
- <h2>Part 7 — Explaining & Paraphrasing</h2>
- <p>Because..., That means..., What I mean is...</p>
- <span class="topics-count">Explore Part &rarr;</span>
-</a><a class="part-card" href="part-8.html">
- <div class="stripe" style="background:#25a894;"></div>
- <span class="pnum">Part 8</span>
- <h2>Part 8 — Clarifying & Repairing Breakdown</h2>
- <p>Could you repeat that? What does X mean? Sorry, I didn't catch that.</p>
- <span class="topics-count">Explore Part &rarr;</span>
-</a><a class="part-card" href="part-9.html">
- <div class="stripe" style="background:#157c6c;"></div>
- <span class="pnum">Part 9</span>
- <h2>Part 9 — Managing the Floor & Turn-Taking</h2>
- <p>Can I add something? Let me see..., Holding turn & yielding turn.</p>
- <span class="topics-count">Explore Part &rarr;</span>
-</a><a class="part-card" href="part-10.html">
- <div class="stripe" style="background:#0f5c50;"></div>
- <span class="pnum">Part 10</span>
- <h2>Part 10 — Conversation & Story Maps</h2>
- <p>Full dialogue flows, storytelling frames, transactional simulations & speaking production maps.</p>
- <span class="topics-count">Explore Part &rarr;</span>
-</a>
- </div>
+
+<main class="hub-container">
+
+  <div class="levels-grid">
+
+    <!-- Level A1 -->
+    <div class="level-card">
+      <div>
+        <span class="badge">CEFR LEVEL A0–A1</span>
+        <h2>Level A1 · Everyday Spoken Interaction</h2>
+        <p>10 conversation systems: greetings, basic questions, ordering food, directions, shopping, phone phrases, and simple small talk.</p>
+      </div>
+      <a href="a1/index.html" class="btn-open">Open Level A1 Communication Manual (10 Systems) →</a>
+    </div>
+
+    <!-- Level A2 -->
+    <div class="level-card">
+      <div>
+        <span class="badge">CEFR LEVEL A2</span>
+        <h2>Level A2 · Everyday Social Interaction</h2>
+        <p>10 conversation systems: telling simple stories, making plans, comparing options, phone calls, and transactional dialogue.</p>
+      </div>
+      <a href="a2/index.html" class="btn-open">Open Level A2 Communication Manual (10 Systems) →</a>
+    </div>
+
+    <!-- Level B1 -->
+    <div class="level-card">
+      <div>
+        <span class="badge">CEFR LEVEL B1</span>
+        <h2>Level B1 · Independent Spoken Interaction</h2>
+        <p>49 conversation systems: structured talks, polite disagreement, negotiating trade-offs, handling complaints, and job interviews.</p>
+      </div>
+      <a href="b1/index.html" class="btn-open">Open Level B1 Communication Manual (49 Systems) →</a>
+    </div>
+
+    <!-- Level B2 -->
+    <div class="level-card">
+      <div>
+        <span class="badge">CEFR LEVEL B2</span>
+        <h2>Level B2 · Spoken Fluency &amp; Argument</h2>
+        <p>10 conversation systems: comparing photo scenes, defending arguments, diplomatic hedging, abstract debate, and chairing discussions.</p>
+      </div>
+      <a href="b2/index.html" class="btn-open">Open Level B2 Communication Manual (10 Systems) →</a>
+    </div>
+
+    <!-- Level C1 -->
+    <div class="level-card">
+      <div>
+        <span class="badge">CEFR LEVEL C1</span>
+        <h2>Level C1 · Leadership &amp; Rhetoric</h2>
+        <p>10 conversation systems: chairing high-stakes meetings, persuasive rhetoric, diplomatic conflict de-escalation, keynotes, irony, and mediation.</p>
+      </div>
+      <a href="c1/index.html" class="btn-open">Open Level C1 Communication Manual (10 Systems) →</a>
+    </div>
+
+  </div>
+
 </main>
-<footer>
- <div class="footer-inner">
- <div class="footer-col">
- <h4>Courses</h4>
- <ul>
- <li><a href="../../../../manuals/english-a0-a1.html">English Ecosystem</a></li>
- <li><a href="../../../../manuals/francaise-a0-a1.html">French Manuals</a></li>
- <li><a href="../../../../manuals/italiano-a0-a1.html">Italian Manuals</a></li>
- </ul>
- </div>
- <div class="footer-col">
- <h4>Explore</h4>
- <ul>
- <li><a href="../../../../practice/index.html">Practice Hub</a></li>
- <li><a href="../../../../comparative/index.html">Comparative Matrix</a></li>
- <li><a href="../../../../rosetta-wall/index.html">Rosetta Wall</a></li>
- </ul>
- </div>
- <div class="footer-col">
- <h4>Project</h4>
- <ul>
- <li><a href="../../../../manuals/index.html">All Manuals</a></li>
- <li><a href="../../../../hybrid/index.html">Beyond the Screen</a></li>
- </ul>
- </div>
- </div>
- <div class="footer-bottom">
- &copy; COSYlanguages · Level A0–A1 English Communication Manual
- </div>
+
+<footer style="background: var(--brand-teal); color: #c9d8d4; padding: 30px 24px; text-align: center; font-size: 13.5px;">
+  <div>&copy; 2026 COSYlanguages · Communication Manuals Directory</div>
 </footer>
-<script src="assets/app.js"></script>
+
 </body>
 </html>
