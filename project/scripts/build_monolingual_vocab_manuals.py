@@ -4836,7 +4836,7 @@ MANUALS_VOCAB = [
         ]
     },
     {
-        "dir": "tatar-teli-leksikasy",
+        "dir": "manuals/tt/vocabulary",
         "title": "Татар теле лексикасы (A0–A1)",
         "nav_title": "Татар теле лексикасы",
         "lang": "tt",
@@ -4858,7 +4858,7 @@ MANUALS_VOCAB = [
                         "words": [
                             {
                                 "word": "әни",
-                                "def": "ана, гаиләдә иң якын кеше (<a href=\"../../tatar-teli-grammatikasy/topics/iyalek-kushymchalary.html\">иялек кушымчасы: әнием</a>)",
+                                "def": "ана, гаиләдә иң якын кеше (<a href=\"../../grammar/topics/iyalek-kushymchalary.html\">иялек кушымчасы: әнием</a>)",
                                 "ex": "Әнием Казанда яши."
                             },
                             {
@@ -4946,7 +4946,7 @@ MANUALS_VOCAB = [
                         "words": [
                             {
                                 "word": "исем",
-                                "def": "кешенең аты (<a href=\"../../tatar-teli-grammatikasy/topics/iyalek-kushymchalary.html\">минем исемем</a>)",
+                                "def": "кешенең аты (<a href=\"../../grammar/topics/iyalek-kushymchalary.html\">минем исемем</a>)",
                                 "ex": "Минем исемем — Руслан."
                             },
                             {
@@ -4961,7 +4961,7 @@ MANUALS_VOCAB = [
                             },
                             {
                                 "word": "яшәү",
-                                "def": "берәр урында гомер итү (<a href=\"../../tatar-teli-grammatikasy/topics/hazierge-zaman.html\">хәзерге заман</a>)",
+                                "def": "берәр урында гомер итү (<a href=\"../../grammar/topics/hazierge-zaman.html\">хәзерге заман</a>)",
                                 "ex": "Мин Казанда яшим."
                             }
                         ],
@@ -4990,7 +4990,7 @@ MANUALS_VOCAB = [
                         "words": [
                             {
                                 "word": "бер",
-                                "def": "төп сан, 1 (<a href=\"../../tatar-teli-grammatikasy/topics/sannar-ham-vaqyt.html\">саннар</a>)",
+                                "def": "төп сан, 1 (<a href=\"../../grammar/topics/sannar-ham-vaqyt.html\">саннар</a>)",
                                 "ex": "Минем бер китабым бар."
                             },
                             {
@@ -5122,7 +5122,7 @@ MANUALS_VOCAB = [
                         "words": [
                             {
                                 "word": "кызыл",
-                                "def": "ут һәм кан төсе (<a href=\"../../tatar-teli-grammatikasy/topics/syjfatlar.html\">сыйфат</a>)",
+                                "def": "ут һәм кан төсе (<a href=\"../../grammar/topics/syjfatlar.html\">сыйфат</a>)",
                                 "ex": "Кызыл алма бик тәмле."
                             },
                             {
@@ -5648,7 +5648,7 @@ MANUALS_VOCAB = [
                             },
                             {
                                 "word": "эш",
-                                "def": "эшчәнлек, шөгыль (<a href=\"../../tatar-teli-grammatikasy/topics/bar-yuk.html\">эш бар</a>)",
+                                "def": "эшчәнлек, шөгыль (<a href=\"../../grammar/topics/bar-yuk.html\">эш бар</a>)",
                                 "ex": "Бүген минем эшем күп."
                             }
                         ],
@@ -5862,7 +5862,7 @@ MANUALS_VOCAB = [
                         "words": [
                             {
                                 "word": "кем",
-                                "def": "кешене белү өчен сорау сүзе (<a href=\"../../tatar-teli-grammatikasy/topics/sorau-formashy.html\">сорау формасы</a>)",
+                                "def": "кешене белү өчен сорау сүзе (<a href=\"../../grammar/topics/sorau-formashy.html\">сорау формасы</a>)",
                                 "ex": "Бу кеше кем?"
                             },
                             {
@@ -5915,7 +5915,7 @@ MANUALS_VOCAB = [
                         "words": [
                             {
                                 "word": "булу",
-                                "def": "барлык яки асылны белдерүче фигыль (<a href=\"../../tatar-teli-grammatikasy/topics/bar-yuk.html\">бар/юк</a>)",
+                                "def": "барлык яки асылны белдерүче фигыль (<a href=\"../../grammar/topics/bar-yuk.html\">бар/юк</a>)",
                                 "ex": "Мин укучы булам."
                             },
                             {
@@ -5974,7 +5974,7 @@ MANUALS_VOCAB = [
                             },
                             {
                                 "word": "сингармонизм",
-                                "def": "сузыкларның өндәшлеге законы (<a href=\"../../tatar-teli-grammatikasy/topics/singarmonizm.html\">сингармонизм дәресе</a>)",
+                                "def": "сузыкларның өндәшлеге законы (<a href=\"../../grammar/topics/singarmonizm.html\">сингармонизм дәресе</a>)",
                                 "ex": "Калын һәм чечкә сузыклар кануны."
                             }
                         ],
