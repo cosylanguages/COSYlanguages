@@ -224,36 +224,35 @@
        DATA LOADING
     ══════════════════════════════════════ */
     async function ensureDataLoaded(lang, level) {
+        const targetLang = (lang || 'en').toLowerCase();
         if (window.COSY && window.COSY.loadLanguageData) {
-            await window.COSY.loadLanguageData(lang, level);
+            await window.COSY.loadLanguageData(targetLang, level);
         } else {
             console.error("Centralized loader COSY.loadLanguageData not found.");
         }
 
         // Load standalone app morphological datasets via adapter bridge
         if (window.COSY && window.COSY.loadAppData) {
-            const l = (lang || 'en').toLowerCase();
             await Promise.all([
-                window.COSY.loadAppData(l, 'verbs'),
-                window.COSY.loadAppData(l, 'nouns')
+                window.COSY.loadAppData(targetLang, 'verbs'),
+                window.COSY.loadAppData(targetLang, 'nouns')
             ]);
         }
 
         // Load JSON morphology datasets
         if (window.COSY && window.COSY.loadMorphologyData) {
-            await window.COSY.loadMorphologyData(lang);
+            await window.COSY.loadMorphologyData(targetLang);
         }
 
         // Also load curriculum for pronunciation if needed
         if (window.COSY && window.COSY.loadCurriculum) {
-            const l = (lang || 'en').toLowerCase();
             const lvl = (level || 'starter').toLowerCase();
             const lvlCode = LEVEL_MAP[lvl] || lvl;
             if (lvlCode !== 'all') {
-                await window.COSY.loadCurriculum(l, lvlCode);
+                await window.COSY.loadCurriculum(targetLang, lvlCode);
             } else {
                 for (let lc of Object.values(LEVEL_MAP)) {
-                    await window.COSY.loadCurriculum(l, lc);
+                    await window.COSY.loadCurriculum(targetLang, lc);
                 }
             }
         }
@@ -274,29 +273,33 @@
         let targetText = '';
         let qText = '';
 
+        const itemWord = item.word || item.topic || item.phrase || '...';
+
         if (matchType === 'synonym') {
             targetText = item.synonyms[0];
-            qText = `"${item.word}" ≈ ?`;
+            qText = `"${itemWord}" ≈ ?`;
         } else if (matchType === 'antonym') {
             targetText = item.antonyms?.[0] || item.opposite;
-            qText = `"${item.word}" ≠ ?`;
+            qText = `"${itemWord}" ≠ ?`;
         } else {
-            targetText = item.definitions?.[0]?.text || item.definition || item.translation || item.word || '...';
-            qText = `"${item.word}" = ?`;
+            targetText = item.definitions?.[0]?.text || item.definition || item.translation || itemWord || '...';
+            qText = `"${itemWord}" = ?`;
         }
 
         // Pull distractors
         let distractors = [];
         if (matchType === 'definition') {
             distractors = pool
-                .filter(p => p.id !== item.id && p.definitions?.[0]?.text)
-                .sort(() => Math.random() - 0.5)
-                .map(p => p.definitions[0].text);
+                .filter(p => (p.id ? p.id !== item.id : p !== item))
+                .map(p => p.definitions?.[0]?.text || p.definition || p.translation)
+                .filter(Boolean)
+                .sort(() => Math.random() - 0.5);
         } else {
             distractors = pool
-                .filter(p => p.id !== item.id && p.word)
-                .sort(() => Math.random() - 0.5)
-                .map(p => p.word);
+                .filter(p => (p.id ? p.id !== item.id : p !== item))
+                .map(p => p.word || p.topic || p.phrase)
+                .filter(Boolean)
+                .sort(() => Math.random() - 0.5);
         }
 
         distractors = [...new Set(distractors)].filter(d => d && d.toLowerCase() !== targetText.toLowerCase());
@@ -304,9 +307,11 @@
 
         while (distractors.length < 2) {
             const fallback = pool
-                .filter(p => p.id !== item.id)
+                .filter(p => (p.id ? p.id !== item.id : p !== item))
                 .sort(() => Math.random() - 0.5)[0];
-            const fallbackVal = matchType === 'definition' ? (fallback?.translation || 'none') : (fallback?.word || 'none');
+            const fallbackVal = matchType === 'definition'
+                ? (fallback?.definitions?.[0]?.text || fallback?.definition || fallback?.translation || 'none')
+                : (fallback?.word || fallback?.topic || fallback?.phrase || 'none');
             if (fallbackVal && fallbackVal.toLowerCase() !== targetText.toLowerCase()) {
                 distractors.push(fallbackVal);
             } else {
@@ -317,14 +322,21 @@
         const allOpts = [targetText, ...distractors].sort(() => Math.random() - 0.5);
         const ans = allOpts.indexOf(targetText);
 
+        const mappedLevel = LEVEL_MAP[item.level] || item.level || 'a1';
+
         return {
             type: 'mc',
+            form: 'mc',
             q: qText,
             item,
             ans,
             opts: allOpts,
-            level: item.level,
-            theme: item.theme
+            level: mappedLevel,
+            theme: item.theme,
+            sub_theme: item.sub_theme || null,
+            translation: item.translation || itemWord,
+            practice_links: item.practice_links,
+            ruleHint: item.usage_hint || item.collocation || (item.preposition ? `Preposition: ${itemWord} ${item.preposition}` : null)
         };
     }
 
@@ -480,10 +492,12 @@
         }
 
         let qs = [];
+        const isVocab = (cat === 'Vocabulary' || cat === 'vocab' || cat === 'vocabulary');
         if (pool.length > 0) {
             qs = pool.map(item => {
-                const isVocabOrGrammar = (cat === 'Vocabulary' || cat === 'Grammar' || cat === 'vocab' || cat === 'grammar' || cat === 'vocabulary');
-                if (isVocabOrGrammar) {
+                if (isVocab) {
+                    return buildMCQuestion(item, pool);
+                } else if (cat === 'Grammar' || cat === 'grammar') {
                     let types = ['mc', 'tf', 'type', 'sc', 'ls', 'mp', 'cloze', 'dictation'];
                     let type = types[Math.floor(Math.random() * types.length)];
                     if (type === 'dictation') {
@@ -492,7 +506,6 @@
                         if (!hasEx) type = 'ls';
                     }
 
-                    // Guard against missing examples for scramble & cloze questions
                     const hasExamples = Array.isArray(item.examples)
                         && item.examples.length > 0
                         && item.examples[0]?.text;
@@ -504,7 +517,6 @@
                     const definition = item.definitions?.[0]?.text || item.definition || item.translation || item.word || "...";
 
                     if (type === 'mp') {
-                        // Match Pairs: Current item + 3 other random items
                         const otherItems = pool
                             .filter(p => p.id !== item.id && p.word && (p.definitions?.[0]?.text || p.definition || p.translation))
                             .sort(() => Math.random() - 0.5);
@@ -519,9 +531,7 @@
                             });
                         }
 
-                        // Determine available modes dynamically based on item fields
                         let possibleModes = ['definition'];
-
                         const hasEmojis = selectedPairs.filter(p => p.emoji).length >= 3;
                         if (hasEmojis) possibleModes.push('emoji');
 
@@ -533,7 +543,6 @@
 
                         const selectedMode = possibleModes[Math.floor(Math.random() * possibleModes.length)];
 
-                        // Map each pair based on the chosen mode
                         const pairs = selectedPairs.map((p, idx) => {
                             let matchValue = '';
                             if (selectedMode === 'emoji') {
@@ -553,7 +562,6 @@
                             };
                         });
 
-                        // Set a fully monolingual descriptive title based on selected mode
                         if (selectedMode === 'emoji') {
                             qText = "🧩 Match the words with their images";
                         } else if (selectedMode === 'transcription') {
@@ -564,14 +572,13 @@
                             qText = "🧩 Match the words with their definitions";
                         }
 
-                        ans = pairs; // Array of { id, word, definition }
+                        ans = pairs;
                     } else if (type === 'mc') {
                         const mcQ = buildMCQuestion(item, pool);
                         qText = mcQ.q;
                         ans = mcQ.ans;
                         opts = mcQ.opts;
                     } else if (type === 'ls') {
-                        // Fully monolingual Listening Task: options are target words
                         const otherWords = pool
                             .filter(p => p.id !== item.id && p.word)
                             .sort(() => Math.random() - 0.5)
@@ -584,7 +591,6 @@
                         opts = [item.word, ...distractors].sort(() => Math.random() - 0.5);
                         ans = opts.indexOf(item.word);
                     } else if (type === 'tf') {
-                        // Fully monolingual True/False
                         const isTrue = Math.random() > 0.5;
                         let displayDef = definition;
                         if (!isTrue) {
@@ -599,7 +605,6 @@
                         qText = `"${item.word}" = "${displayDef}"`;
                         ans = isTrue;
                     } else if (type === 'sc') {
-                        // Fully monolingual Sentence Scramble
                         const examplesArr = (item.examples && item.examples.length > 0) ? item.examples : (item.definitions?.[0]?.examples || []);
                         const ex = examplesArr[Math.floor(Math.random() * examplesArr.length)];
                         if (!ex?.text) {
@@ -609,7 +614,6 @@
                             ans = ex.text;
                         }
                     } else if (type === 'cloze') {
-                        // Fully monolingual Sentence Cloze
                         const examplesArr = (item.examples && item.examples.length > 0) ? item.examples : (item.definitions?.[0]?.examples || []);
                         const ex = examplesArr[Math.floor(Math.random() * examplesArr.length)];
                         if (!ex?.text || !item.word) {
@@ -636,17 +640,14 @@
                     }
 
                     if (type === 'type') {
-                        // Fully monolingual Typing task
                         qText = `"${definition}" = ?`;
                         ans = item.word;
                     }
 
                     if (!qText) {
-                        console.warn('[COSY Practice] qText still empty for item:', item, 'type:', type);
                         qText = `Practice: ${item.word}`;
                     }
 
-                    // Check for morphological paradigm enhancements via Linguistics Adapter Bridge
                     let morphologicalHint = null;
                     if (window.COSY && window.COSY.getVerbParadigm) {
                         const verbParadigm = window.COSY.getVerbParadigm(l, item.word);
@@ -671,7 +672,7 @@
                         item: item,
                         ans: ans,
                         opts,
-                        level: item.level,
+                        level: LEVEL_MAP[item.level] || item.level || 'a1',
                         theme: item.theme,
                         sub_theme: item.sub_theme || null,
                         translation: item.translation || item.word,
@@ -679,7 +680,7 @@
                         ruleHint: item.usage_hint || item.collocation || (item.preposition ? `Collocation / Preposition: ${item.word} ${item.preposition}` : morphologicalHint)
                     };
                 } else if (cat === 'Speaking' || cat === 'speaking') {
-                    return { form: 'conv', q: item.topic || item.text || item.q, level: item.level, theme: item.theme };
+                    return { form: 'conv', q: item.topic || item.text || item.q, level: LEVEL_MAP[item.level] || item.level || 'a1', theme: item.theme };
                 } else if (cat === 'Pronunciation' || cat === 'pronunciation') {
                     const correctIpa = item.ipa;
                     const distractors = ['/a/', '/i/', '/u/', '/e/', '/o/'].filter(i => i !== correctIpa).sort(() => Math.random() - 0.5).slice(0, 2);
