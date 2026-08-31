@@ -1,0 +1,2171 @@
+[
+  {
+    "id": "en.grammar.a1.appendix",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Reference & Culture",
+    "manual_url": "manuals/en/grammar/a1/appendix.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.index",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "English Grammar Knowledge Tree Course",
+    "manual_url": "manuals/en/grammar/a1/index.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.part-1",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Part 1 — The Building Blocks of English",
+    "manual_url": "manuals/en/grammar/a1/part-1.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.part-10",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Part 10 — Tense System",
+    "manual_url": "manuals/en/grammar/a1/part-10.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.part-11",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Part 11 — Questions & Negation",
+    "manual_url": "manuals/en/grammar/a1/part-11.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.part-2",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Part 2 — Nouns & Possession",
+    "manual_url": "manuals/en/grammar/a1/part-2.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.part-3",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Part 3 — Articles & Determiners",
+    "manual_url": "manuals/en/grammar/a1/part-3.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.part-4",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Part 4 — Pronouns",
+    "manual_url": "manuals/en/grammar/a1/part-4.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.part-5",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Part 5 — Adjectives & Comparisons",
+    "manual_url": "manuals/en/grammar/a1/part-5.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.part-6",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Part 6 — Adverbs",
+    "manual_url": "manuals/en/grammar/a1/part-6.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.part-7",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Part 7 — Quantifiers",
+    "manual_url": "manuals/en/grammar/a1/part-7.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.part-8",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Part 8 — Prepositions",
+    "manual_url": "manuals/en/grammar/a1/part-8.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.part-9",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Part 9 — Verb System & Modals",
+    "manual_url": "manuals/en/grammar/a1/part-9.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.adjectives",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Adjectives",
+    "manual_url": "manuals/en/grammar/a1/topics/adjectives.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.adverbs-frequency",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Adverbs of Frequency",
+    "manual_url": "manuals/en/grammar/a1/topics/adverbs-frequency.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.adverbs-manner",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Adverbs of Manner",
+    "manual_url": "manuals/en/grammar/a1/topics/adverbs-manner.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.all-both-none",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "All, Both, Either, Neither, None",
+    "manual_url": "manuals/en/grammar/a1/topics/all-both-none.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.articles",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Articles: A / An / The",
+    "manual_url": "manuals/en/grammar/a1/topics/articles.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.can-cant",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Can / Can't",
+    "manual_url": "manuals/en/grammar/a1/topics/can-cant.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.comparative-adjectives",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Comparative Adjectives",
+    "manual_url": "manuals/en/grammar/a1/topics/comparative-adjectives.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.conjunctions",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Conjunctions",
+    "manual_url": "manuals/en/grammar/a1/topics/conjunctions.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.could-couldnt",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Could / Couldn't",
+    "manual_url": "manuals/en/grammar/a1/topics/could-couldnt.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.countable-uncountable",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Countable &amp; Uncountable Nouns",
+    "manual_url": "manuals/en/grammar/a1/topics/countable-uncountable.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.demonstratives",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "This, That, These, Those",
+    "manual_url": "manuals/en/grammar/a1/topics/demonstratives.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.english-around-world",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "English Around the World",
+    "manual_url": "manuals/en/grammar/a1/topics/english-around-world.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.going-to",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Going To",
+    "manual_url": "manuals/en/grammar/a1/topics/going-to.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.have-got",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Have Got",
+    "manual_url": "manuals/en/grammar/a1/topics/have-got.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.id-like",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "I'd Like / Would You Like…?",
+    "manual_url": "manuals/en/grammar/a1/topics/id-like.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.imperatives",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Imperatives",
+    "manual_url": "manuals/en/grammar/a1/topics/imperatives.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.intensifiers",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Intensifiers",
+    "manual_url": "manuals/en/grammar/a1/topics/intensifiers.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.irregular-verbs",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Irregular Verbs",
+    "manual_url": "manuals/en/grammar/a1/topics/irregular-verbs.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.like-love-hate",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Like / Love / Hate + -ing",
+    "manual_url": "manuals/en/grammar/a1/topics/like-love-hate.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.much-many",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Much / Many / A few / A little",
+    "manual_url": "manuals/en/grammar/a1/topics/much-many.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.numbers-dates",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Numbers, Days &amp; Months",
+    "manual_url": "manuals/en/grammar/a1/topics/numbers-dates.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.part-1-building-blocks",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "The Building Blocks of English",
+    "manual_url": "manuals/en/grammar/a1/topics/part-1-building-blocks.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.part-10-tense-system",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Tense System",
+    "manual_url": "manuals/en/grammar/a1/topics/part-10-tense-system.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.part-11-questions-negation",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Questions & Negation",
+    "manual_url": "manuals/en/grammar/a1/topics/part-11-questions-negation.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.part-2-nouns-possession",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Nouns & Possession",
+    "manual_url": "manuals/en/grammar/a1/topics/part-2-nouns-possession.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.part-3-articles-determiners",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Articles & Determiners",
+    "manual_url": "manuals/en/grammar/a1/topics/part-3-articles-determiners.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.part-4-pronouns",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Pronouns",
+    "manual_url": "manuals/en/grammar/a1/topics/part-4-pronouns.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.part-5-adjectives-comparisons",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Adjectives & Comparisons",
+    "manual_url": "manuals/en/grammar/a1/topics/part-5-adjectives-comparisons.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.part-6-adverbs",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Adverbs",
+    "manual_url": "manuals/en/grammar/a1/topics/part-6-adverbs.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.part-7-quantifiers",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Quantifiers",
+    "manual_url": "manuals/en/grammar/a1/topics/part-7-quantifiers.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.part-8-prepositions",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Prepositions",
+    "manual_url": "manuals/en/grammar/a1/topics/part-8-prepositions.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.part-9-verbs-modals",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Verb System & Modals",
+    "manual_url": "manuals/en/grammar/a1/topics/part-9-verbs-modals.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.past-simple-be",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Past Simple of 'To Be'",
+    "manual_url": "manuals/en/grammar/a1/topics/past-simple-be.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.past-simple-irregular",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Past Simple: Irregular Verbs",
+    "manual_url": "manuals/en/grammar/a1/topics/past-simple-irregular.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.past-simple-regular",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Past Simple: Regular Verbs",
+    "manual_url": "manuals/en/grammar/a1/topics/past-simple-regular.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.plurals-irregular",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Plural Nouns · Irregular Forms",
+    "manual_url": "manuals/en/grammar/a1/topics/plurals-irregular.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.plurals-regular",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Plural Nouns · Regular Forms",
+    "manual_url": "manuals/en/grammar/a1/topics/plurals-regular.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.possessive-s",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Whose…? Possessive ’s",
+    "manual_url": "manuals/en/grammar/a1/topics/possessive-s.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.prepositions-place",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Prepositions of Place",
+    "manual_url": "manuals/en/grammar/a1/topics/prepositions-place.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.prepositions-time",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Prepositions of Time",
+    "manual_url": "manuals/en/grammar/a1/topics/prepositions-time.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.present-continuous",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Present Continuous",
+    "manual_url": "manuals/en/grammar/a1/topics/present-continuous.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.present-simple",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Present Simple",
+    "manual_url": "manuals/en/grammar/a1/topics/present-simple.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.pronouns",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Pronouns",
+    "manual_url": "manuals/en/grammar/a1/topics/pronouns.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.question-words",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Question Words",
+    "manual_url": "manuals/en/grammar/a1/topics/question-words.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.simple-vs-continuous",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Present Simple vs Continuous",
+    "manual_url": "manuals/en/grammar/a1/topics/simple-vs-continuous.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.some-vs-any",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Some vs Any",
+    "manual_url": "manuals/en/grammar/a1/topics/some-vs-any.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.superlative-adjectives",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Superlative Adjectives",
+    "manual_url": "manuals/en/grammar/a1/topics/superlative-adjectives.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.telling-time",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Telling the Time",
+    "manual_url": "manuals/en/grammar/a1/topics/telling-time.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.there-is-are",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "There is / There are",
+    "manual_url": "manuals/en/grammar/a1/topics/there-is-are.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.there-was-were",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "There was/were &amp; There will be",
+    "manual_url": "manuals/en/grammar/a1/topics/there-was-were.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.to-be",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "The Verb 'To Be'",
+    "manual_url": "manuals/en/grammar/a1/topics/to-be.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.will",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Will",
+    "manual_url": "manuals/en/grammar/a1/topics/will.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a1.word-order",
+    "cefr": "A1",
+    "skill": "grammar",
+    "title": "Basic Word Order",
+    "manual_url": "manuals/en/grammar/a1/topics/word-order.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.appendix",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Appendix · Irregular Past Participles",
+    "manual_url": "manuals/en/grammar/a2/appendix.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.index",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "English Grammar Manual · Level A2",
+    "manual_url": "manuals/en/grammar/a2/index.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.part-0",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Part 0 · Quick A1 Review",
+    "manual_url": "manuals/en/grammar/a2/part-0.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.part-1",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Part 1 · Talking About the Past",
+    "manual_url": "manuals/en/grammar/a2/part-1.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.part-2",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Part 2 · Present Perfect",
+    "manual_url": "manuals/en/grammar/a2/part-2.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.part-3",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Part 3 · Future & Tense Review",
+    "manual_url": "manuals/en/grammar/a2/part-3.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.part-4",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Part 4 · Modals & Verb Patterns",
+    "manual_url": "manuals/en/grammar/a2/part-4.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.part-5",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Part 5 · Conditionals & Passive",
+    "manual_url": "manuals/en/grammar/a2/part-5.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.part-6",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Part 6 · Pronouns & Quantifiers",
+    "manual_url": "manuals/en/grammar/a2/part-6.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.part-7",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Part 7 · Connecting Ideas & Questions",
+    "manual_url": "manuals/en/grammar/a2/part-7.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.as-as",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "As As",
+    "manual_url": "manuals/en/grammar/a2/topics/as-as.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.comparatives-and-superlatives",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Comparatives And Superlatives",
+    "manual_url": "manuals/en/grammar/a2/topics/comparatives-and-superlatives.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.could",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Could: Past Ability & Polite Requests",
+    "manual_url": "manuals/en/grammar/a2/topics/could.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.defining-relative-clauses",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Defining Relative Clauses",
+    "manual_url": "manuals/en/grammar/a2/topics/defining-relative-clauses.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.do-vs-make",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Do vs Make",
+    "manual_url": "manuals/en/grammar/a2/topics/do-vs-make.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.either-or-neither-nor-both-and",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Either Or Neither Nor Both And",
+    "manual_url": "manuals/en/grammar/a2/topics/either-or-neither-nor-both-and.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.expressing-purpose-to-for",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Expressing Purpose: To vs For",
+    "manual_url": "manuals/en/grammar/a2/topics/expressing-purpose-to-for.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.first-conditional",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "First Conditional",
+    "manual_url": "manuals/en/grammar/a2/topics/first-conditional.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.future-time-clauses",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Future Time Clauses: When, As Soon As, Before, After, Until",
+    "manual_url": "manuals/en/grammar/a2/topics/future-time-clauses.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.have-to-must-mustnt",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Have To, Must, Mustn't, Don't Have To",
+    "manual_url": "manuals/en/grammar/a2/topics/have-to-must-mustnt.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.how-questions",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "How Questions",
+    "manual_url": "manuals/en/grammar/a2/topics/how-questions.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.however-although-because-so",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "However Although Because So",
+    "manual_url": "manuals/en/grammar/a2/topics/however-although-because-so.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.indefinite-pronouns",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Indefinite Pronouns",
+    "manual_url": "manuals/en/grammar/a2/topics/indefinite-pronouns.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.infinitives-and-gerunds",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Infinitives & Gerunds",
+    "manual_url": "manuals/en/grammar/a2/topics/infinitives-and-gerunds.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.may-might",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "May & Might",
+    "manual_url": "manuals/en/grammar/a2/topics/may-might.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.most-most-of-the-most",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Most Most Of The Most",
+    "manual_url": "manuals/en/grammar/a2/topics/most-most-of-the-most.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.much-many-little-few",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Much Many Little Few",
+    "manual_url": "manuals/en/grammar/a2/topics/much-many-little-few.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.no-longer-any-longer-anymore",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "No Longer, Any Longer, Anymore",
+    "manual_url": "manuals/en/grammar/a2/topics/no-longer-any-longer-anymore.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.on-time-in-time-at-the-end-in-the-end",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "On Time In Time At The End In The End",
+    "manual_url": "manuals/en/grammar/a2/topics/on-time-in-time-at-the-end-in-the-end.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.past-continuous",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Past Continuous",
+    "manual_url": "manuals/en/grammar/a2/topics/past-continuous.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.past-participles-1",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Past Participles 1",
+    "manual_url": "manuals/en/grammar/a2/topics/past-participles-1.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.past-participles-2",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Past Participles 2",
+    "manual_url": "manuals/en/grammar/a2/topics/past-participles-2.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.past-perfect",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Past Perfect: Had + Past Participle",
+    "manual_url": "manuals/en/grammar/a2/topics/past-perfect.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.past-simple-review",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Past Simple Review",
+    "manual_url": "manuals/en/grammar/a2/topics/past-simple-review.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.past-simple-vs-past-continuous",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Past Simple vs Past Continuous",
+    "manual_url": "manuals/en/grammar/a2/topics/past-simple-vs-past-continuous.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.prepositions-of-movement",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Prepositions Of Movement",
+    "manual_url": "manuals/en/grammar/a2/topics/prepositions-of-movement.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.present-and-past-simple-passive",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Present And Past Simple Passive",
+    "manual_url": "manuals/en/grammar/a2/topics/present-and-past-simple-passive.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.present-continuous-for-future",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Present Continuous for Future Arrangements",
+    "manual_url": "manuals/en/grammar/a2/topics/present-continuous-for-future.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.present-perfect-ever-never-for-since",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Present Perfect: Ever, Never, For, Since",
+    "manual_url": "manuals/en/grammar/a2/topics/present-perfect-ever-never-for-since.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.present-perfect-form-use",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Present Perfect: Form & Use",
+    "manual_url": "manuals/en/grammar/a2/topics/present-perfect-form-use.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.present-perfect-just-already-yet",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Present Perfect: Just, Already, Yet",
+    "manual_url": "manuals/en/grammar/a2/topics/present-perfect-just-already-yet.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.present-perfect-vs-past-simple",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Present Perfect vs Past Simple",
+    "manual_url": "manuals/en/grammar/a2/topics/present-perfect-vs-past-simple.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.present-simple-vs-present-continuous",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Present Simple vs Present Continuous",
+    "manual_url": "manuals/en/grammar/a2/topics/present-simple-vs-present-continuous.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.pronouns-review",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Pronouns Review: Subject, Object, Possessive",
+    "manual_url": "manuals/en/grammar/a2/topics/pronouns-review.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.question-forms",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Question Forms",
+    "manual_url": "manuals/en/grammar/a2/topics/question-forms.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.reported-speech",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Reported Speech",
+    "manual_url": "manuals/en/grammar/a2/topics/reported-speech.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.review-of-verb-tenses",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Review of Verb Tenses",
+    "manual_url": "manuals/en/grammar/a2/topics/review-of-verb-tenses.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.second-conditional",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Second Conditional",
+    "manual_url": "manuals/en/grammar/a2/topics/second-conditional.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.should-shouldnt",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Should & Shouldn't",
+    "manual_url": "manuals/en/grammar/a2/topics/should-shouldnt.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.so-neither",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "So Neither",
+    "manual_url": "manuals/en/grammar/a2/topics/so-neither.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.too-and-enough",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Too And Enough",
+    "manual_url": "manuals/en/grammar/a2/topics/too-and-enough.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.used-to",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Used To: Past Habits & Past States",
+    "manual_url": "manuals/en/grammar/a2/topics/used-to.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.uses-of-get",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Uses Of Get",
+    "manual_url": "manuals/en/grammar/a2/topics/uses-of-get.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.uses-of-go",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Uses Of Go",
+    "manual_url": "manuals/en/grammar/a2/topics/uses-of-go.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.will-vs-going-to",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Will vs Going To",
+    "manual_url": "manuals/en/grammar/a2/topics/will-vs-going-to.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.a2.zero-conditional",
+    "cefr": "A2",
+    "skill": "grammar",
+    "title": "Zero Conditional",
+    "manual_url": "manuals/en/grammar/a2/topics/zero-conditional.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.appendix",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Appendix · Connectors & Linking Words",
+    "manual_url": "manuals/en/grammar/b1/appendix.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.index",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "English Grammar Manual · Level B1",
+    "manual_url": "manuals/en/grammar/b1/index.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.part-0",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Part 0 · Quick A2 Review",
+    "manual_url": "manuals/en/grammar/b1/part-0.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.part-1",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Part 1 · Perfect & Continuous Aspects",
+    "manual_url": "manuals/en/grammar/b1/part-1.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.part-10",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Part 10 · Extra Structures",
+    "manual_url": "manuals/en/grammar/b1/part-10.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.part-2",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Part 2 · Future Forms",
+    "manual_url": "manuals/en/grammar/b1/part-2.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.part-3",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Part 3 · Modals, Deduction & Advice",
+    "manual_url": "manuals/en/grammar/b1/part-3.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.part-4",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Part 4 · Conditionals & Wish",
+    "manual_url": "manuals/en/grammar/b1/part-4.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.part-5",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Part 5 · Passive & Reported Speech",
+    "manual_url": "manuals/en/grammar/b1/part-5.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.part-6",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Part 6 · Relative Clauses & Determiners",
+    "manual_url": "manuals/en/grammar/b1/part-6.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.part-7",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Part 7 · Adjectives & Adverbs",
+    "manual_url": "manuals/en/grammar/b1/part-7.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.part-8",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Part 8 · Prepositions",
+    "manual_url": "manuals/en/grammar/b1/part-8.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.part-9",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Part 9 · Questions & Connectors",
+    "manual_url": "manuals/en/grammar/b1/part-9.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.adjective-preposition",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Adjective Preposition",
+    "manual_url": "manuals/en/grammar/b1/topics/adjective-preposition.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.all-both-either-neither-none",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "All Both Either Neither None",
+    "manual_url": "manuals/en/grammar/b1/topics/all-both-either-neither-none.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.another-other-others-the-other",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Another Other Others The Other",
+    "manual_url": "manuals/en/grammar/b1/topics/another-other-others-the-other.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.articles-deeper-rules",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Articles Deeper Rules",
+    "manual_url": "manuals/en/grammar/b1/topics/articles-deeper-rules.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.broader-intensifiers",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Broader Intensifiers",
+    "manual_url": "manuals/en/grammar/b1/topics/broader-intensifiers.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.can-could-be-able-to",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Can Could Be Able To",
+    "manual_url": "manuals/en/grammar/b1/topics/can-could-be-able-to.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.causative-have-get-something-done",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Causative Have Get Something Done",
+    "manual_url": "manuals/en/grammar/b1/topics/causative-have-get-something-done.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.connectors-and-linking-words",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Connectors And Linking Words",
+    "manual_url": "manuals/en/grammar/b1/topics/connectors-and-linking-words.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.defining-vs-non-defining-relative-clauses",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Defining Vs Non Defining Relative Clauses",
+    "manual_url": "manuals/en/grammar/b1/topics/defining-vs-non-defining-relative-clauses.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.during-for-while",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "During For While",
+    "manual_url": "manuals/en/grammar/b1/topics/during-for-while.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.ed-ing-adjectives",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Ed Ing Adjectives",
+    "manual_url": "manuals/en/grammar/b1/topics/ed-ing-adjectives.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.embedded-indirect-questions",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Embedded Indirect Questions",
+    "manual_url": "manuals/en/grammar/b1/topics/embedded-indirect-questions.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.for-since-from",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "For Since From",
+    "manual_url": "manuals/en/grammar/b1/topics/for-since-from.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.future-continuous",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Future Continuous",
+    "manual_url": "manuals/en/grammar/b1/topics/future-continuous.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.future-forms-review",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Future Forms Review",
+    "manual_url": "manuals/en/grammar/b1/topics/future-forms-review.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.future-perfect",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Future Perfect",
+    "manual_url": "manuals/en/grammar/b1/topics/future-perfect.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.have-to-must-should-had-better",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Have To Must Should Had Better",
+    "manual_url": "manuals/en/grammar/b1/topics/have-to-must-should-had-better.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.it-is-said-that",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "It Is Said That",
+    "manual_url": "manuals/en/grammar/b1/topics/it-is-said-that.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.linking-words",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Linking Words",
+    "manual_url": "manuals/en/grammar/b1/topics/linking-words.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.mixed-conditionals",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Mixed Conditionals",
+    "manual_url": "manuals/en/grammar/b1/topics/mixed-conditionals.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.modals-of-deduction-past",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Modals Of Deduction Past",
+    "manual_url": "manuals/en/grammar/b1/topics/modals-of-deduction-past.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.modals-of-deduction-present",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Modals of Deduction: Present (Must, Can't, Might/Could)",
+    "manual_url": "manuals/en/grammar/b1/topics/modals-of-deduction-present.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.modifying-comparatives",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Modifying Comparatives",
+    "manual_url": "manuals/en/grammar/b1/topics/modifying-comparatives.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.narrative-tenses",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Narrative Tenses: Past Simple, Continuous, Perfect & Perfect Continuous",
+    "manual_url": "manuals/en/grammar/b1/topics/narrative-tenses.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.neednt-didnt-need-to-neednt-have",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Neednt Didnt Need To Neednt Have",
+    "manual_url": "manuals/en/grammar/b1/topics/neednt-didnt-need-to-neednt-have.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.passive-continuous-and-perfect-tenses",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Passive Continuous And Perfect Tenses",
+    "manual_url": "manuals/en/grammar/b1/topics/passive-continuous-and-perfect-tenses.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.passive-simple-and-future-tenses",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Passive Simple And Future Tenses",
+    "manual_url": "manuals/en/grammar/b1/topics/passive-simple-and-future-tenses.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.passive-with-modals",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Passive With Modals",
+    "manual_url": "manuals/en/grammar/b1/topics/passive-with-modals.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.past-perfect-continuous",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Past Perfect Continuous",
+    "manual_url": "manuals/en/grammar/b1/topics/past-perfect-continuous.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.past-perfect",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Past Perfect",
+    "manual_url": "manuals/en/grammar/b1/topics/past-perfect.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.past-simple-vs-present-perfect",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Past Simple vs Present Perfect",
+    "manual_url": "manuals/en/grammar/b1/topics/past-simple-vs-present-perfect.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.phrasal-verbs-grammar-patterns",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Phrasal Verbs Grammar Patterns",
+    "manual_url": "manuals/en/grammar/b1/topics/phrasal-verbs-grammar-patterns.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.present-perfect-simple-vs-continuous",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Present Perfect Simple Vs Continuous",
+    "manual_url": "manuals/en/grammar/b1/topics/present-perfect-simple-vs-continuous.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.present-simple-vs-present-continuous",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Present Simple vs Present Continuous",
+    "manual_url": "manuals/en/grammar/b1/topics/present-simple-vs-present-continuous.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.question-tags",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Question Tags",
+    "manual_url": "manuals/en/grammar/b1/topics/question-tags.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.reflexive-pronouns",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Reflexive Pronouns",
+    "manual_url": "manuals/en/grammar/b1/topics/reflexive-pronouns.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.reported-questions-and-commands",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Reported Questions And Commands",
+    "manual_url": "manuals/en/grammar/b1/topics/reported-questions-and-commands.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.reported-speech-statements",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Reported Speech Statements",
+    "manual_url": "manuals/en/grammar/b1/topics/reported-speech-statements.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.reporting-verbs",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Reporting Verbs",
+    "manual_url": "manuals/en/grammar/b1/topics/reporting-verbs.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.second-conditional",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Second Conditional",
+    "manual_url": "manuals/en/grammar/b1/topics/second-conditional.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.so-such-so-much-so-many",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "So Such So Much So Many",
+    "manual_url": "manuals/en/grammar/b1/topics/so-such-so-much-so-many.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.third-conditional",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Third Conditional",
+    "manual_url": "manuals/en/grammar/b1/topics/third-conditional.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.verb-preposition",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Verb Preposition",
+    "manual_url": "manuals/en/grammar/b1/topics/verb-preposition.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.verbs-of-the-senses",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Verbs Of The Senses",
+    "manual_url": "manuals/en/grammar/b1/topics/verbs-of-the-senses.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.wh-questions-in-the-past",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Wh Questions In The Past",
+    "manual_url": "manuals/en/grammar/b1/topics/wh-questions-in-the-past.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.wish-if-only",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Wish If Only",
+    "manual_url": "manuals/en/grammar/b1/topics/wish-if-only.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b1.would-rather-would-sooner",
+    "cefr": "B1",
+    "skill": "grammar",
+    "title": "Would Rather Would Sooner",
+    "manual_url": "manuals/en/grammar/b1/topics/would-rather-would-sooner.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.appendix",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Appendix · Formal vs Informal Register",
+    "manual_url": "manuals/en/grammar/b2/appendix.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.index",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "English Grammar Manual · Level B2",
+    "manual_url": "manuals/en/grammar/b2/index.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.part-0",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Part 0 · Quick B1 Review",
+    "manual_url": "manuals/en/grammar/b2/part-0.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.part-1",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Part 1 · Narrative Tenses & Past Habits",
+    "manual_url": "manuals/en/grammar/b2/part-1.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.part-10",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Part 10 · Connectors & Emphasis",
+    "manual_url": "manuals/en/grammar/b2/part-10.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.part-11",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Part 11 · Prepositions & Phrasal Verbs",
+    "manual_url": "manuals/en/grammar/b2/part-11.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.part-2",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Part 2 · Future Forms",
+    "manual_url": "manuals/en/grammar/b2/part-2.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.part-3",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Part 3 · Modals: Permission, Obligation & Speculation",
+    "manual_url": "manuals/en/grammar/b2/part-3.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.part-4",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Part 4 · Conditionals & Unreal Meaning",
+    "manual_url": "manuals/en/grammar/b2/part-4.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.part-5",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Part 5 · Passive & Reporting",
+    "manual_url": "manuals/en/grammar/b2/part-5.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.part-6",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Part 6 · Verb Patterns",
+    "manual_url": "manuals/en/grammar/b2/part-6.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.part-7",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Part 7 · Pronouns & Nouns",
+    "manual_url": "manuals/en/grammar/b2/part-7.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.part-8",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Part 8 · Relative Clauses & Reduced Clauses",
+    "manual_url": "manuals/en/grammar/b2/part-8.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.part-9",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Part 9 · Adjectives, Adverbs & Word Order",
+    "manual_url": "manuals/en/grammar/b2/part-9.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.adverbs-position-and-types",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Adverbs Position And Types",
+    "manual_url": "manuals/en/grammar/b2/topics/adverbs-position-and-types.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.alternatives-to-if",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Alternatives To If",
+    "manual_url": "manuals/en/grammar/b2/topics/alternatives-to-if.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.clauses-of-contrast-purpose-reason-and-result",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Clauses Of Contrast Purpose Reason And Result",
+    "manual_url": "manuals/en/grammar/b2/topics/clauses-of-contrast-purpose-reason-and-result.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.cleft-sentences-and-emphasis",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Cleft Sentences And Emphasis",
+    "manual_url": "manuals/en/grammar/b2/topics/cleft-sentences-and-emphasis.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.compound-nouns",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Compound Nouns",
+    "manual_url": "manuals/en/grammar/b2/topics/compound-nouns.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.conditional-inversion",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Conditional Inversion",
+    "manual_url": "manuals/en/grammar/b2/topics/conditional-inversion.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.dependent-prepositions-noun-preposition",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Dependent Prepositions Noun Preposition",
+    "manual_url": "manuals/en/grammar/b2/topics/dependent-prepositions-noun-preposition.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.discourse-markers",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Discourse Markers",
+    "manual_url": "manuals/en/grammar/b2/topics/discourse-markers.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.distancing-passive-reporting",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Distancing Passive Reporting",
+    "manual_url": "manuals/en/grammar/b2/topics/distancing-passive-reporting.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.formal-vs-informal-register",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Formal Vs Informal Register",
+    "manual_url": "manuals/en/grammar/b2/topics/formal-vs-informal-register.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.future-forms-expressing-future-time",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Future Forms Expressing Future Time",
+    "manual_url": "manuals/en/grammar/b2/topics/future-forms-expressing-future-time.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.future-in-the-past",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Future In The Past",
+    "manual_url": "manuals/en/grammar/b2/topics/future-in-the-past.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.generic-common-gender-pronouns",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Generic Common Gender Pronouns",
+    "manual_url": "manuals/en/grammar/b2/topics/generic-common-gender-pronouns.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.gerunds-and-infinitives-complex-forms",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Gerunds And Infinitives Complex Forms",
+    "manual_url": "manuals/en/grammar/b2/topics/gerunds-and-infinitives-complex-forms.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.get-different-meanings",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Get Different Meanings",
+    "manual_url": "manuals/en/grammar/b2/topics/get-different-meanings.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.gradable-vs-extreme-adjectives",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Gradable Vs Extreme Adjectives",
+    "manual_url": "manuals/en/grammar/b2/topics/gradable-vs-extreme-adjectives.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.inversion-after-negative-adverbials",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Inversion After Negative Adverbials",
+    "manual_url": "manuals/en/grammar/b2/topics/inversion-after-negative-adverbials.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.its-time",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Its Time",
+    "manual_url": "manuals/en/grammar/b2/topics/its-time.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.mandative-subjunctive",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Mandative & Formulaic Subjunctive",
+    "manual_url": "manuals/en/grammar/b2/topics/mandative-subjunctive.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.mixed-conditionals",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Mixed Conditionals",
+    "manual_url": "manuals/en/grammar/b2/topics/mixed-conditionals.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.narrative-tenses",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Narrative Tenses",
+    "manual_url": "manuals/en/grammar/b2/topics/narrative-tenses.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.order-of-adjectives",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Order Of Adjectives",
+    "manual_url": "manuals/en/grammar/b2/topics/order-of-adjectives.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.other-ways-to-express-future",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Other Ways To Express Future",
+    "manual_url": "manuals/en/grammar/b2/topics/other-ways-to-express-future.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.participle-clauses",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Participle Clauses",
+    "manual_url": "manuals/en/grammar/b2/topics/participle-clauses.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.passive-verbs-with-two-objects",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Passive Verbs With Two Objects",
+    "manual_url": "manuals/en/grammar/b2/topics/passive-verbs-with-two-objects.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.past-tenses-review",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Past Tenses Review",
+    "manual_url": "manuals/en/grammar/b2/topics/past-tenses-review.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.permission-obligation-and-prohibition",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Permission Obligation And Prohibition",
+    "manual_url": "manuals/en/grammar/b2/topics/permission-obligation-and-prohibition.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.phrasal-verbs-extended-patterns",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Phrasal Verbs Extended Patterns",
+    "manual_url": "manuals/en/grammar/b2/topics/phrasal-verbs-extended-patterns.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.possessive-s-with-time-expressions",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Possessive S With Time Expressions",
+    "manual_url": "manuals/en/grammar/b2/topics/possessive-s-with-time-expressions.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.present-tenses-review",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Present Tenses Review",
+    "manual_url": "manuals/en/grammar/b2/topics/present-tenses-review.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.reflexive-and-reciprocal-pronouns",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Reflexive And Reciprocal Pronouns",
+    "manual_url": "manuals/en/grammar/b2/topics/reflexive-and-reciprocal-pronouns.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.relative-clauses-review-and-deepening",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Relative Clauses Review And Deepening",
+    "manual_url": "manuals/en/grammar/b2/topics/relative-clauses-review-and-deepening.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.speculation-and-deduction-deepening",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Speculation And Deduction Deepening",
+    "manual_url": "manuals/en/grammar/b2/topics/speculation-and-deduction-deepening.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.used-to-vs-would",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Used To Vs Would",
+    "manual_url": "manuals/en/grammar/b2/topics/used-to-vs-would.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.verb-object-infinitive-gerund",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Verb Object Infinitive Gerund",
+    "manual_url": "manuals/en/grammar/b2/topics/verb-object-infinitive-gerund.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.b2.whatever-whenever-wherever-whoever-however",
+    "cefr": "B2",
+    "skill": "grammar",
+    "title": "Whatever Whenever Wherever Whoever However",
+    "manual_url": "manuals/en/grammar/b2/topics/whatever-whenever-wherever-whoever-however.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.c1.index",
+    "cefr": "C1",
+    "skill": "grammar",
+    "title": "English Grammar Manual · Level C1",
+    "manual_url": "manuals/en/grammar/c1/index.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.c1.part-1",
+    "cefr": "C1",
+    "skill": "grammar",
+    "title": "Part 1 · Advanced Hedging, Nuance & Modality",
+    "manual_url": "manuals/en/grammar/c1/part-1.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.c1.part-2",
+    "cefr": "C1",
+    "skill": "grammar",
+    "title": "Part 2 · Information Packaging, Cohesion & Sentence Variety",
+    "manual_url": "manuals/en/grammar/c1/part-2.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.c1.advanced-hedging-and-academic-stance-devices",
+    "cefr": "C1",
+    "skill": "grammar",
+    "title": "Advanced Hedging & Academic Stance Devices",
+    "manual_url": "manuals/en/grammar/c1/topics/advanced-hedging-and-academic-stance-devices.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.c1.advanced-punctuation-mechanics",
+    "cefr": "C1",
+    "skill": "grammar",
+    "title": "Advanced Punctuation Mechanics",
+    "manual_url": "manuals/en/grammar/c1/topics/advanced-punctuation-mechanics.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.c1.cohesion-ellipsis-and-lexical-substitution",
+    "cefr": "C1",
+    "skill": "grammar",
+    "title": "Cohesion, Ellipsis & Lexical Substitution",
+    "manual_url": "manuals/en/grammar/c1/topics/cohesion-ellipsis-and-lexical-substitution.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.c1.modality-for-speculation-deduction-and-certainty",
+    "cefr": "C1",
+    "skill": "grammar",
+    "title": "Modality for Speculation, Deduction & Certainty",
+    "manual_url": "manuals/en/grammar/c1/topics/modality-for-speculation-deduction-and-certainty.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.c1.sentence-variety-periodic-loose-and-balanced",
+    "cefr": "C1",
+    "skill": "grammar",
+    "title": "Sentence Variety (Periodic, Loose & Balanced Sentences)",
+    "manual_url": "manuals/en/grammar/c1/topics/sentence-variety-periodic-loose-and-balanced.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.grammar.c1.theme-rheme-and-information-packaging",
+    "cefr": "C1",
+    "skill": "grammar",
+    "title": "Theme, Rheme & Information Packaging",
+    "manual_url": "manuals/en/grammar/c1/topics/theme-rheme-and-information-packaging.html",
+    "practice_ids": [],
+    "prereqs": []
+  }
+]

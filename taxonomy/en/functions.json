@@ -1,0 +1,1298 @@
+[
+  {
+    "id": "en.functions.a1.index",
+    "cefr": "A1",
+    "skill": "functions",
+    "title": "English Communication Manual · Level A0–A1",
+    "manual_url": "manuals/en/communication/a1/index.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a1.part-1",
+    "cefr": "A1",
+    "skill": "functions",
+    "title": "System 1 · Greetings & Introductions",
+    "manual_url": "manuals/en/communication/a1/part-1.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a1.part-10",
+    "cefr": "A1",
+    "skill": "functions",
+    "title": "System 10 · Putting It Together: Everyday Exchanges",
+    "manual_url": "manuals/en/communication/a1/part-10.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a1.part-2",
+    "cefr": "A1",
+    "skill": "functions",
+    "title": "System 2 · Asking Simple Questions",
+    "manual_url": "manuals/en/communication/a1/part-2.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a1.part-3",
+    "cefr": "A1",
+    "skill": "functions",
+    "title": "System 3 · Ordering Food & Drinks",
+    "manual_url": "manuals/en/communication/a1/part-3.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a1.part-4",
+    "cefr": "A1",
+    "skill": "functions",
+    "title": "System 4 · Asking for & Giving Directions",
+    "manual_url": "manuals/en/communication/a1/part-4.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a1.part-5",
+    "cefr": "A1",
+    "skill": "functions",
+    "title": "System 5 · Basic Shopping Phrases",
+    "manual_url": "manuals/en/communication/a1/part-5.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a1.part-6",
+    "cefr": "A1",
+    "skill": "functions",
+    "title": "System 6 · Simple Phone & Messaging Phrases",
+    "manual_url": "manuals/en/communication/a1/part-6.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a1.part-7",
+    "cefr": "A1",
+    "skill": "functions",
+    "title": "System 7 · Expressing Preferences, Likes & Dislikes",
+    "manual_url": "manuals/en/communication/a1/part-7.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a1.part-8",
+    "cefr": "A1",
+    "skill": "functions",
+    "title": "System 8 · Basic Clarification & Repair",
+    "manual_url": "manuals/en/communication/a1/part-8.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a1.part-9",
+    "cefr": "A1",
+    "skill": "functions",
+    "title": "System 9 · Keeping Simple Conversations Alive",
+    "manual_url": "manuals/en/communication/a1/part-9.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a1.asking-for-and-giving-directions",
+    "cefr": "A1",
+    "skill": "functions",
+    "title": "Asking for & Giving Directions",
+    "manual_url": "manuals/en/communication/a1/topics/asking-for-and-giving-directions.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a1.asking-simple-questions",
+    "cefr": "A1",
+    "skill": "functions",
+    "title": "Asking Simple Questions",
+    "manual_url": "manuals/en/communication/a1/topics/asking-simple-questions.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a1.basic-clarification-and-repair",
+    "cefr": "A1",
+    "skill": "functions",
+    "title": "Basic Clarification & Repair",
+    "manual_url": "manuals/en/communication/a1/topics/basic-clarification-and-repair.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a1.basic-shopping-phrases",
+    "cefr": "A1",
+    "skill": "functions",
+    "title": "Basic Shopping Phrases",
+    "manual_url": "manuals/en/communication/a1/topics/basic-shopping-phrases.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a1.everyday-exchanges-capstone",
+    "cefr": "A1",
+    "skill": "functions",
+    "title": "Putting It Together: Everyday Exchanges",
+    "manual_url": "manuals/en/communication/a1/topics/everyday-exchanges-capstone.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a1.expressing-likes-and-dislikes",
+    "cefr": "A1",
+    "skill": "functions",
+    "title": "Expressing Preferences, Likes & Dislikes",
+    "manual_url": "manuals/en/communication/a1/topics/expressing-likes-and-dislikes.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a1.greetings-and-introductions",
+    "cefr": "A1",
+    "skill": "functions",
+    "title": "Greetings & Introductions",
+    "manual_url": "manuals/en/communication/a1/topics/greetings-and-introductions.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a1.keeping-simple-conversations-alive",
+    "cefr": "A1",
+    "skill": "functions",
+    "title": "Keeping Simple Conversations Alive",
+    "manual_url": "manuals/en/communication/a1/topics/keeping-simple-conversations-alive.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a1.ordering-food-and-drinks",
+    "cefr": "A1",
+    "skill": "functions",
+    "title": "Ordering Food & Drinks",
+    "manual_url": "manuals/en/communication/a1/topics/ordering-food-and-drinks.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a1.simple-phone-and-messaging",
+    "cefr": "A1",
+    "skill": "functions",
+    "title": "Simple Phone & Messaging Phrases",
+    "manual_url": "manuals/en/communication/a1/topics/simple-phone-and-messaging.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a2.index",
+    "cefr": "A2",
+    "skill": "functions",
+    "title": "English Communication Manual · Level A2",
+    "manual_url": "manuals/en/communication/a2/index.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a2.part-1",
+    "cefr": "A2",
+    "skill": "functions",
+    "title": "System 1 · Telling a Simple Story",
+    "manual_url": "manuals/en/communication/a2/part-1.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a2.part-10",
+    "cefr": "A2",
+    "skill": "functions",
+    "title": "System 10 · Integration Capstone",
+    "manual_url": "manuals/en/communication/a2/part-10.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a2.part-2",
+    "cefr": "A2",
+    "skill": "functions",
+    "title": "System 2 · Making Plans Together",
+    "manual_url": "manuals/en/communication/a2/part-2.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a2.part-3",
+    "cefr": "A2",
+    "skill": "functions",
+    "title": "System 3 · Comparing & Choosing Together",
+    "manual_url": "manuals/en/communication/a2/part-3.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a2.part-4",
+    "cefr": "A2",
+    "skill": "functions",
+    "title": "System 4 · Describing People & Places",
+    "manual_url": "manuals/en/communication/a2/part-4.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a2.part-5",
+    "cefr": "A2",
+    "skill": "functions",
+    "title": "System 5 · Getting Things Done (Transactions)",
+    "manual_url": "manuals/en/communication/a2/part-5.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a2.part-6",
+    "cefr": "A2",
+    "skill": "functions",
+    "title": "System 6 · Asking For & Giving Directions",
+    "manual_url": "manuals/en/communication/a2/part-6.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a2.part-7",
+    "cefr": "A2",
+    "skill": "functions",
+    "title": "System 7 · Talking on the Phone",
+    "manual_url": "manuals/en/communication/a2/part-7.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a2.part-8",
+    "cefr": "A2",
+    "skill": "functions",
+    "title": "System 8 · Describing Symptoms & Asking for Help",
+    "manual_url": "manuals/en/communication/a2/part-8.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a2.part-9",
+    "cefr": "A2",
+    "skill": "functions",
+    "title": "System 9 · Giving Simple Advice",
+    "manual_url": "manuals/en/communication/a2/part-9.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a2.asking-for-and-giving-directions",
+    "cefr": "A2",
+    "skill": "functions",
+    "title": "Asking For & Giving Directions",
+    "manual_url": "manuals/en/communication/a2/topics/asking-for-and-giving-directions.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a2.comparing-and-choosing-together",
+    "cefr": "A2",
+    "skill": "functions",
+    "title": "Comparing & Choosing Together",
+    "manual_url": "manuals/en/communication/a2/topics/comparing-and-choosing-together.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a2.describing-people-and-places-in-conversation",
+    "cefr": "A2",
+    "skill": "functions",
+    "title": "Describing People & Places in Conversation",
+    "manual_url": "manuals/en/communication/a2/topics/describing-people-and-places-in-conversation.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a2.describing-symptoms-and-asking-for-help",
+    "cefr": "A2",
+    "skill": "functions",
+    "title": "Describing Symptoms & Asking for Help",
+    "manual_url": "manuals/en/communication/a2/topics/describing-symptoms-and-asking-for-help.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a2.getting-things-done-transactions",
+    "cefr": "A2",
+    "skill": "functions",
+    "title": "Getting Things Done (Transactions)",
+    "manual_url": "manuals/en/communication/a2/topics/getting-things-done-transactions.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a2.giving-simple-advice",
+    "cefr": "A2",
+    "skill": "functions",
+    "title": "Giving Simple Advice",
+    "manual_url": "manuals/en/communication/a2/topics/giving-simple-advice.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a2.making-plans-together",
+    "cefr": "A2",
+    "skill": "functions",
+    "title": "Making Plans Together",
+    "manual_url": "manuals/en/communication/a2/topics/making-plans-together.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a2.putting-it-together-a-full-everyday-exchange",
+    "cefr": "A2",
+    "skill": "functions",
+    "title": "Putting It Together: A Full Everyday Exchange",
+    "manual_url": "manuals/en/communication/a2/topics/putting-it-together-a-full-everyday-exchange.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a2.talking-on-the-phone",
+    "cefr": "A2",
+    "skill": "functions",
+    "title": "Talking on the Phone",
+    "manual_url": "manuals/en/communication/a2/topics/talking-on-the-phone.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.a2.telling-a-simple-story",
+    "cefr": "A2",
+    "skill": "functions",
+    "title": "Telling a Simple Story",
+    "manual_url": "manuals/en/communication/a2/topics/telling-a-simple-story.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.index",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "English Communication Manual · Level B1",
+    "manual_url": "manuals/en/communication/b1/index.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.part-1",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "System 1 · Narrating Complex Past Experiences",
+    "manual_url": "manuals/en/communication/b1/part-1.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.part-10",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "System 10 · Giving a Short Structured Talk",
+    "manual_url": "manuals/en/communication/b1/part-10.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.part-2",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "System 2 · Describing & Comparing a Photo (Long Turn)",
+    "manual_url": "manuals/en/communication/b1/part-2.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.part-3",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "System 3 · Negotiating a Joint Decision",
+    "manual_url": "manuals/en/communication/b1/part-3.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.part-4",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "System 4 · Giving & Justifying Opinions",
+    "manual_url": "manuals/en/communication/b1/part-4.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.part-5",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "System 5 · Discussing Advantages & Disadvantages",
+    "manual_url": "manuals/en/communication/b1/part-5.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.part-6",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "System 6 · Future Plans & Predictions",
+    "manual_url": "manuals/en/communication/b1/part-6.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.part-7",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "System 7 · Expressing Hypothetical Situations",
+    "manual_url": "manuals/en/communication/b1/part-7.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.part-8",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "System 8 · Making Formal Requests & Complaints",
+    "manual_url": "manuals/en/communication/b1/part-8.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.part-9",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "System 9 · Reporting What Someone Said",
+    "manual_url": "manuals/en/communication/b1/part-9.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.accepting-criticism-gracefully",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Accepting Criticism Gracefully",
+    "manual_url": "manuals/en/communication/b1/topics/accepting-criticism-gracefully.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.apologizing-for-errors",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Apologizing for Errors",
+    "manual_url": "manuals/en/communication/b1/topics/apologizing-for-errors.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.asking-for-advice",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Asking for Advice",
+    "manual_url": "manuals/en/communication/b1/topics/asking-for-advice.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.asking-for-clarification",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Asking for Clarification",
+    "manual_url": "manuals/en/communication/b1/topics/asking-for-clarification.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.asking-for-favors",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Asking for Favors",
+    "manual_url": "manuals/en/communication/b1/topics/asking-for-favors.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.asking-for-permission",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Asking for Permission",
+    "manual_url": "manuals/en/communication/b1/topics/asking-for-permission.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.checking-progress",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Checking Progress",
+    "manual_url": "manuals/en/communication/b1/topics/checking-progress.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.comparing-alternatives",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Comparing Alternatives",
+    "manual_url": "manuals/en/communication/b1/topics/comparing-alternatives.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.congratulating-and-celebrating",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Congratulating & Celebrating",
+    "manual_url": "manuals/en/communication/b1/topics/congratulating-and-celebrating.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.delivering-bad-news",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Delivering Bad News",
+    "manual_url": "manuals/en/communication/b1/topics/delivering-bad-news.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.describing-and-comparing-a-photo-long-turn",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Describing & Comparing a Photo (Long Turn)",
+    "manual_url": "manuals/en/communication/b1/topics/describing-and-comparing-a-photo-long-turn.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.describing-problems-in-detail",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Describing Problems in Detail",
+    "manual_url": "manuals/en/communication/b1/topics/describing-problems-in-detail.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.discussing-advantages-and-disadvantages",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Discussing Advantages & Disadvantages",
+    "manual_url": "manuals/en/communication/b1/topics/discussing-advantages-and-disadvantages.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.explaining-complex-opinions",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Explaining Complex Opinions",
+    "manual_url": "manuals/en/communication/b1/topics/explaining-complex-opinions.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.expressing-agreement",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Expressing Agreement",
+    "manual_url": "manuals/en/communication/b1/topics/expressing-agreement.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.expressing-deep-sympathy",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Expressing Deep Sympathy",
+    "manual_url": "manuals/en/communication/b1/topics/expressing-deep-sympathy.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.expressing-gratitude",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Expressing Gratitude",
+    "manual_url": "manuals/en/communication/b1/topics/expressing-gratitude.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.expressing-hypothetical-situations",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Expressing Hypothetical Situations",
+    "manual_url": "manuals/en/communication/b1/topics/expressing-hypothetical-situations.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.expressing-polite-disagreement",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Expressing Polite Disagreement",
+    "manual_url": "manuals/en/communication/b1/topics/expressing-polite-disagreement.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.expressing-preferences",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Expressing Preferences",
+    "manual_url": "manuals/en/communication/b1/topics/expressing-preferences.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.expressing-uncertainty",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Expressing Uncertainty",
+    "manual_url": "manuals/en/communication/b1/topics/expressing-uncertainty.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.formal-vs-informal-register-switch",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Formal vs Informal Register Switch",
+    "manual_url": "manuals/en/communication/b1/topics/formal-vs-informal-register-switch.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.giving-a-short-structured-talk",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Giving a Short Structured Talk",
+    "manual_url": "manuals/en/communication/b1/topics/giving-a-short-structured-talk.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.giving-advice",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Giving Advice",
+    "manual_url": "manuals/en/communication/b1/topics/giving-advice.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.giving-and-justifying-opinions-in-depth",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Giving & Justifying Opinions in Depth",
+    "manual_url": "manuals/en/communication/b1/topics/giving-and-justifying-opinions-in-depth.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.giving-constructive-feedback",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Giving Constructive Feedback",
+    "manual_url": "manuals/en/communication/b1/topics/giving-constructive-feedback.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.giving-instructions",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Giving Instructions",
+    "manual_url": "manuals/en/communication/b1/topics/giving-instructions.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.giving-presentations",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Giving Presentations",
+    "manual_url": "manuals/en/communication/b1/topics/giving-presentations.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.handling-complaints",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Handling Complaints",
+    "manual_url": "manuals/en/communication/b1/topics/handling-complaints.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.interrupting-politely",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Interrupting Politely",
+    "manual_url": "manuals/en/communication/b1/topics/interrupting-politely.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.job-interview-performance",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Job Interview Performance",
+    "manual_url": "manuals/en/communication/b1/topics/job-interview-performance.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.leaving-professional-messages",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Leaving Professional Messages",
+    "manual_url": "manuals/en/communication/b1/topics/leaving-professional-messages.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.making-formal-requests-and-complaints",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Making Formal Requests & Complaints",
+    "manual_url": "manuals/en/communication/b1/topics/making-formal-requests-and-complaints.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.making-reservations",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Making Reservations",
+    "manual_url": "manuals/en/communication/b1/topics/making-reservations.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.making-suggestions",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Making Suggestions",
+    "manual_url": "manuals/en/communication/b1/topics/making-suggestions.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.narrating-complex-past-experiences",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Narrating Complex Past Experiences",
+    "manual_url": "manuals/en/communication/b1/topics/narrating-complex-past-experiences.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.negotiating-a-joint-decision",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Negotiating a Joint Decision",
+    "manual_url": "manuals/en/communication/b1/topics/negotiating-a-joint-decision.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.negotiating-trade-offs",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Negotiating Trade-Offs",
+    "manual_url": "manuals/en/communication/b1/topics/negotiating-trade-offs.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.networking-at-conferences",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Networking at Conferences",
+    "manual_url": "manuals/en/communication/b1/topics/networking-at-conferences.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.participating-in-group-discussions",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Participating in Group Discussions",
+    "manual_url": "manuals/en/communication/b1/topics/participating-in-group-discussions.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.persuading-and-convincing",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Persuading & Convincing",
+    "manual_url": "manuals/en/communication/b1/topics/persuading-and-convincing.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.public-announcements-handling",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Public Announcements Handling",
+    "manual_url": "manuals/en/communication/b1/topics/public-announcements-handling.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.rejecting-proposals-politely",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Rejecting Proposals Politely",
+    "manual_url": "manuals/en/communication/b1/topics/rejecting-proposals-politely.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.reporting-what-someone-said",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Reporting What Someone Said",
+    "manual_url": "manuals/en/communication/b1/topics/reporting-what-someone-said.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.speculating-on-options",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Speculating on Options",
+    "manual_url": "manuals/en/communication/b1/topics/speculating-on-options.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.summarizing-meetings",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Summarizing Meetings",
+    "manual_url": "manuals/en/communication/b1/topics/summarizing-meetings.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.talking-about-future-plans-and-predictions",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Talking About Future Plans & Predictions",
+    "manual_url": "manuals/en/communication/b1/topics/talking-about-future-plans-and-predictions.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.telephone-professional-english",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Telephone Professional English",
+    "manual_url": "manuals/en/communication/b1/topics/telephone-professional-english.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b1.video-call-etiquette",
+    "cefr": "B1",
+    "skill": "functions",
+    "title": "Video Call Etiquette",
+    "manual_url": "manuals/en/communication/b1/topics/video-call-etiquette.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b2.index",
+    "cefr": "B2",
+    "skill": "functions",
+    "title": "English Communication Manual · Level B2",
+    "manual_url": "manuals/en/communication/b2/index.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b2.part-1",
+    "cefr": "B2",
+    "skill": "functions",
+    "title": "System 1 · Comparing & Speculating on Two Images",
+    "manual_url": "manuals/en/communication/b2/part-1.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b2.part-10",
+    "cefr": "B2",
+    "skill": "functions",
+    "title": "System 10 · Chairing & Managing a Discussion",
+    "manual_url": "manuals/en/communication/b2/part-10.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b2.part-2",
+    "cefr": "B2",
+    "skill": "functions",
+    "title": "System 2 · Speculating About Past, Present & Future",
+    "manual_url": "manuals/en/communication/b2/part-2.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b2.part-3",
+    "cefr": "B2",
+    "skill": "functions",
+    "title": "System 3 · Building & Defending an Argument",
+    "manual_url": "manuals/en/communication/b2/part-3.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b2.part-4",
+    "cefr": "B2",
+    "skill": "functions",
+    "title": "System 4 · Negotiating Towards a Decision",
+    "manual_url": "manuals/en/communication/b2/part-4.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b2.part-5",
+    "cefr": "B2",
+    "skill": "functions",
+    "title": "System 5 · Discussing Abstract & Global Topics",
+    "manual_url": "manuals/en/communication/b2/part-5.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b2.part-6",
+    "cefr": "B2",
+    "skill": "functions",
+    "title": "System 6 · Hedging & Diplomatic Language",
+    "manual_url": "manuals/en/communication/b2/part-6.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b2.part-7",
+    "cefr": "B2",
+    "skill": "functions",
+    "title": "System 7 · Persuading & Making a Case",
+    "manual_url": "manuals/en/communication/b2/part-7.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b2.part-8",
+    "cefr": "B2",
+    "skill": "functions",
+    "title": "System 8 · Nuanced Agreement & Disagreement",
+    "manual_url": "manuals/en/communication/b2/part-8.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b2.part-9",
+    "cefr": "B2",
+    "skill": "functions",
+    "title": "System 9 · Structuring a Formal Talk",
+    "manual_url": "manuals/en/communication/b2/part-9.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b2.building-and-defending-an-argument",
+    "cefr": "B2",
+    "skill": "functions",
+    "title": "Building & Defending an Argument",
+    "manual_url": "manuals/en/communication/b2/topics/building-and-defending-an-argument.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b2.chairing-and-managing-a-discussion",
+    "cefr": "B2",
+    "skill": "functions",
+    "title": "Chairing & Managing a Discussion",
+    "manual_url": "manuals/en/communication/b2/topics/chairing-and-managing-a-discussion.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b2.comparing-and-speculating-on-two-images",
+    "cefr": "B2",
+    "skill": "functions",
+    "title": "Comparing & Speculating on Two Images",
+    "manual_url": "manuals/en/communication/b2/topics/comparing-and-speculating-on-two-images.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b2.discussing-abstract-and-global-topics-fluently",
+    "cefr": "B2",
+    "skill": "functions",
+    "title": "Discussing Abstract & Global Topics Fluently",
+    "manual_url": "manuals/en/communication/b2/topics/discussing-abstract-and-global-topics-fluently.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b2.expressing-nuanced-agreement-and-disagreement",
+    "cefr": "B2",
+    "skill": "functions",
+    "title": "Expressing Nuanced Agreement & Disagreement",
+    "manual_url": "manuals/en/communication/b2/topics/expressing-nuanced-agreement-and-disagreement.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b2.hedging-and-diplomatic-language",
+    "cefr": "B2",
+    "skill": "functions",
+    "title": "Hedging & Diplomatic Language",
+    "manual_url": "manuals/en/communication/b2/topics/hedging-and-diplomatic-language.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b2.negotiating-towards-a-decision",
+    "cefr": "B2",
+    "skill": "functions",
+    "title": "Negotiating Towards a Decision",
+    "manual_url": "manuals/en/communication/b2/topics/negotiating-towards-a-decision.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b2.persuading-and-making-a-case",
+    "cefr": "B2",
+    "skill": "functions",
+    "title": "Persuading & Making a Case",
+    "manual_url": "manuals/en/communication/b2/topics/persuading-and-making-a-case.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b2.speculating-about-past-present-and-future",
+    "cefr": "B2",
+    "skill": "functions",
+    "title": "Speculating About Past, Present & Future",
+    "manual_url": "manuals/en/communication/b2/topics/speculating-about-past-present-and-future.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.b2.structuring-a-formal-talk-or-presentation",
+    "cefr": "B2",
+    "skill": "functions",
+    "title": "Structuring a Formal Talk or Presentation",
+    "manual_url": "manuals/en/communication/b2/topics/structuring-a-formal-talk-or-presentation.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.c1.index",
+    "cefr": "C1",
+    "skill": "functions",
+    "title": "English Communication Manual · Level C1",
+    "manual_url": "manuals/en/communication/c1/index.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.c1.part-1",
+    "cefr": "C1",
+    "skill": "functions",
+    "title": "System 1 · Chairing High-Stakes Meetings",
+    "manual_url": "manuals/en/communication/c1/part-1.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.c1.part-10",
+    "cefr": "C1",
+    "skill": "functions",
+    "title": "System 10 · Executive Communication Capstone",
+    "manual_url": "manuals/en/communication/c1/part-10.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.c1.part-2",
+    "cefr": "C1",
+    "skill": "functions",
+    "title": "System 2 · Delivering Persuasive Arguments with Rhetorical Structure",
+    "manual_url": "manuals/en/communication/c1/part-2.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.c1.part-3",
+    "cefr": "C1",
+    "skill": "functions",
+    "title": "System 3 · Diplomatic Hedging & De-escalation in Conflict",
+    "manual_url": "manuals/en/communication/c1/part-3.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.c1.part-4",
+    "cefr": "C1",
+    "skill": "functions",
+    "title": "System 4 · Giving Eloquent Extended Presentations",
+    "manual_url": "manuals/en/communication/c1/part-4.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.c1.part-5",
+    "cefr": "C1",
+    "skill": "functions",
+    "title": "System 5 · Nuanced Humor, Irony & Understatement",
+    "manual_url": "manuals/en/communication/c1/part-5.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.c1.part-6",
+    "cefr": "C1",
+    "skill": "functions",
+    "title": "System 6 · Navigating Culturally Sensitive Topics",
+    "manual_url": "manuals/en/communication/c1/part-6.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.c1.part-7",
+    "cefr": "C1",
+    "skill": "functions",
+    "title": "System 7 · Advanced Negotiation & Mediation Language",
+    "manual_url": "manuals/en/communication/c1/part-7.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.c1.part-8",
+    "cefr": "C1",
+    "skill": "functions",
+    "title": "System 8 · Academic & Professional Register Switching",
+    "manual_url": "manuals/en/communication/c1/part-8.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.c1.part-9",
+    "cefr": "C1",
+    "skill": "functions",
+    "title": "System 9 · Subtle Floor Management & Strategic Steering",
+    "manual_url": "manuals/en/communication/c1/part-9.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.c1.academic-and-professional-register-switching",
+    "cefr": "C1",
+    "skill": "functions",
+    "title": "Academic & Professional Register Switching",
+    "manual_url": "manuals/en/communication/c1/topics/academic-and-professional-register-switching.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.c1.advanced-negotiation-and-mediation",
+    "cefr": "C1",
+    "skill": "functions",
+    "title": "Advanced Negotiation & Mediation Language",
+    "manual_url": "manuals/en/communication/c1/topics/advanced-negotiation-and-mediation.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.c1.chairing-high-stakes-meetings",
+    "cefr": "C1",
+    "skill": "functions",
+    "title": "Chairing High-Stakes Meetings",
+    "manual_url": "manuals/en/communication/c1/topics/chairing-high-stakes-meetings.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.c1.delivering-persuasive-arguments-rhetoric",
+    "cefr": "C1",
+    "skill": "functions",
+    "title": "Delivering Persuasive Arguments with Rhetorical Structure",
+    "manual_url": "manuals/en/communication/c1/topics/delivering-persuasive-arguments-rhetoric.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.c1.diplomatic-hedging-and-deescalation",
+    "cefr": "C1",
+    "skill": "functions",
+    "title": "Diplomatic Hedging & De-escalation in Conflict",
+    "manual_url": "manuals/en/communication/c1/topics/diplomatic-hedging-and-deescalation.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.c1.executive-communication-capstone",
+    "cefr": "C1",
+    "skill": "functions",
+    "title": "Executive Communication Capstone",
+    "manual_url": "manuals/en/communication/c1/topics/executive-communication-capstone.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.c1.giving-eloquent-extended-presentations",
+    "cefr": "C1",
+    "skill": "functions",
+    "title": "Giving Eloquent Extended Presentations",
+    "manual_url": "manuals/en/communication/c1/topics/giving-eloquent-extended-presentations.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.c1.navigating-culturally-sensitive-topics",
+    "cefr": "C1",
+    "skill": "functions",
+    "title": "Navigating Culturally Sensitive Topics",
+    "manual_url": "manuals/en/communication/c1/topics/navigating-culturally-sensitive-topics.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.c1.nuanced-humor-irony-understatement",
+    "cefr": "C1",
+    "skill": "functions",
+    "title": "Nuanced Humor, Irony & Understatement",
+    "manual_url": "manuals/en/communication/c1/topics/nuanced-humor-irony-understatement.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.functions.c1.subtle-floor-management-strategic-steering",
+    "cefr": "C1",
+    "skill": "functions",
+    "title": "Subtle Floor Management & Strategic Steering",
+    "manual_url": "manuals/en/communication/c1/topics/subtle-floor-management-strategic-steering.html",
+    "practice_ids": [],
+    "prereqs": []
+  }
+]
