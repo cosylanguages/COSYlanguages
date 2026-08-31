@@ -1,0 +1,670 @@
+{
+  "policy": "Before starting any B1+ task for a language, read curriculum/<lang-code>/general/ in full to check whether a syllabus outline exists to drive the topic list.",
+  "languages": {
+    "en": {
+      "levels": {
+        "A1": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 6,
+          "lessons_count": 55,
+          "status": "COMPLETE"
+        },
+        "A2": {
+          "json_exists": true,
+          "md_exists": true,
+          "units_count": 10,
+          "lessons_count": 20,
+          "status": "COMPLETE"
+        },
+        "B1": {
+          "json_exists": true,
+          "md_exists": true,
+          "units_count": 10,
+          "lessons_count": 20,
+          "status": "COMPLETE"
+        },
+        "B2": {
+          "json_exists": true,
+          "md_exists": true,
+          "units_count": 8,
+          "lessons_count": 16,
+          "status": "COMPLETE"
+        },
+        "C1": {
+          "json_exists": true,
+          "md_exists": true,
+          "units_count": 5,
+          "lessons_count": 15,
+          "status": "COMPLETE"
+        },
+        "C2": {
+          "json_exists": true,
+          "md_exists": true,
+          "units_count": 6,
+          "lessons_count": 12,
+          "status": "COMPLETE"
+        }
+      },
+      "b1_plus_ready": true,
+      "b1_plus_levels_present": [
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    "fr": {
+      "levels": {
+        "A1": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 6,
+          "lessons_count": 55,
+          "status": "COMPLETE"
+        },
+        "A2": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 2,
+          "lessons_count": 3,
+          "status": "COMPLETE"
+        },
+        "B1": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 2,
+          "lessons_count": 4,
+          "status": "COMPLETE"
+        },
+        "B2": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 1,
+          "lessons_count": 1,
+          "status": "COMPLETE"
+        },
+        "C1": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 5,
+          "lessons_count": 15,
+          "status": "COMPLETE"
+        },
+        "C2": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 1,
+          "lessons_count": 1,
+          "status": "COMPLETE"
+        }
+      },
+      "b1_plus_ready": true,
+      "b1_plus_levels_present": [
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    "it": {
+      "levels": {
+        "A1": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 6,
+          "lessons_count": 55,
+          "status": "COMPLETE"
+        },
+        "A2": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 1,
+          "lessons_count": 2,
+          "status": "COMPLETE"
+        },
+        "B1": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 1,
+          "lessons_count": 1,
+          "status": "COMPLETE"
+        },
+        "B2": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 1,
+          "lessons_count": 1,
+          "status": "COMPLETE"
+        },
+        "C1": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 5,
+          "lessons_count": 15,
+          "status": "COMPLETE"
+        },
+        "C2": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 1,
+          "lessons_count": 1,
+          "status": "COMPLETE"
+        }
+      },
+      "b1_plus_ready": true,
+      "b1_plus_levels_present": [
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    "ru": {
+      "levels": {
+        "A1": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 6,
+          "lessons_count": 55,
+          "status": "COMPLETE"
+        },
+        "A2": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 1,
+          "lessons_count": 1,
+          "status": "COMPLETE"
+        },
+        "B1": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 1,
+          "lessons_count": 1,
+          "status": "COMPLETE"
+        },
+        "B2": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 1,
+          "lessons_count": 1,
+          "status": "COMPLETE"
+        },
+        "C1": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 5,
+          "lessons_count": 15,
+          "status": "COMPLETE"
+        },
+        "C2": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 1,
+          "lessons_count": 1,
+          "status": "COMPLETE"
+        }
+      },
+      "b1_plus_ready": true,
+      "b1_plus_levels_present": [
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    "el": {
+      "levels": {
+        "A1": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 6,
+          "lessons_count": 55,
+          "status": "COMPLETE"
+        },
+        "A2": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 1,
+          "lessons_count": 1,
+          "status": "COMPLETE"
+        },
+        "B1": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 1,
+          "lessons_count": 1,
+          "status": "COMPLETE"
+        },
+        "B2": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 1,
+          "lessons_count": 1,
+          "status": "COMPLETE"
+        },
+        "C1": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 1,
+          "lessons_count": 1,
+          "status": "COMPLETE"
+        },
+        "C2": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 1,
+          "lessons_count": 1,
+          "status": "COMPLETE"
+        }
+      },
+      "b1_plus_ready": true,
+      "b1_plus_levels_present": [
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    "es": {
+      "levels": {
+        "A1": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 2,
+          "lessons_count": 9,
+          "status": "COMPLETE"
+        },
+        "A2": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        },
+        "B1": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        },
+        "B2": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        },
+        "C1": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 5,
+          "lessons_count": 15,
+          "status": "COMPLETE"
+        },
+        "C2": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        }
+      },
+      "b1_plus_ready": true,
+      "b1_plus_levels_present": [
+        "C1"
+      ]
+    },
+    "de": {
+      "levels": {
+        "A1": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 2,
+          "lessons_count": 8,
+          "status": "COMPLETE"
+        },
+        "A2": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        },
+        "B1": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        },
+        "B2": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        },
+        "C1": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 5,
+          "lessons_count": 15,
+          "status": "COMPLETE"
+        },
+        "C2": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        }
+      },
+      "b1_plus_ready": true,
+      "b1_plus_levels_present": [
+        "C1"
+      ]
+    },
+    "pt": {
+      "levels": {
+        "A1": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 2,
+          "lessons_count": 8,
+          "status": "COMPLETE"
+        },
+        "A2": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        },
+        "B1": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        },
+        "B2": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        },
+        "C1": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 5,
+          "lessons_count": 15,
+          "status": "COMPLETE"
+        },
+        "C2": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        }
+      },
+      "b1_plus_ready": true,
+      "b1_plus_levels_present": [
+        "C1"
+      ]
+    },
+    "hy": {
+      "levels": {
+        "A1": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 6,
+          "lessons_count": 55,
+          "status": "COMPLETE"
+        },
+        "A2": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        },
+        "B1": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        },
+        "B2": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        },
+        "C1": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 5,
+          "lessons_count": 15,
+          "status": "COMPLETE"
+        },
+        "C2": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        }
+      },
+      "b1_plus_ready": true,
+      "b1_plus_levels_present": [
+        "C1"
+      ]
+    },
+    "ka": {
+      "levels": {
+        "A1": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 6,
+          "lessons_count": 55,
+          "status": "COMPLETE"
+        },
+        "A2": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        },
+        "B1": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        },
+        "B2": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        },
+        "C1": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 5,
+          "lessons_count": 15,
+          "status": "COMPLETE"
+        },
+        "C2": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        }
+      },
+      "b1_plus_ready": true,
+      "b1_plus_levels_present": [
+        "C1"
+      ]
+    },
+    "tt": {
+      "levels": {
+        "A1": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 6,
+          "lessons_count": 55,
+          "status": "COMPLETE"
+        },
+        "A2": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        },
+        "B1": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        },
+        "B2": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        },
+        "C1": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 5,
+          "lessons_count": 15,
+          "status": "COMPLETE"
+        },
+        "C2": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        }
+      },
+      "b1_plus_ready": true,
+      "b1_plus_levels_present": [
+        "C1"
+      ]
+    },
+    "ba": {
+      "levels": {
+        "A1": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 6,
+          "lessons_count": 55,
+          "status": "COMPLETE"
+        },
+        "A2": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        },
+        "B1": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        },
+        "B2": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        },
+        "C1": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 5,
+          "lessons_count": 15,
+          "status": "COMPLETE"
+        },
+        "C2": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        }
+      },
+      "b1_plus_ready": true,
+      "b1_plus_levels_present": [
+        "C1"
+      ]
+    },
+    "br": {
+      "levels": {
+        "A1": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 6,
+          "lessons_count": 55,
+          "status": "COMPLETE"
+        },
+        "A2": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        },
+        "B1": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        },
+        "B2": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        },
+        "C1": {
+          "json_exists": true,
+          "md_exists": false,
+          "units_count": 5,
+          "lessons_count": 15,
+          "status": "COMPLETE"
+        },
+        "C2": {
+          "json_exists": false,
+          "md_exists": false,
+          "units_count": 0,
+          "lessons_count": 0,
+          "status": "MISSING"
+        }
+      },
+      "b1_plus_ready": true,
+      "b1_plus_levels_present": [
+        "C1"
+      ]
+    }
+  }
+}
