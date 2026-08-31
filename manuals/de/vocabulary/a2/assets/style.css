@@ -1,0 +1,103 @@
+/* COSYlanguages · Deutscher Wortschatz Niveau A2 */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --yellow-900: #713f12;
+  --yellow-800: #854d0e;
+  --yellow-700: #a16207;
+  --yellow-100: #fef9c3;
+
+  --ink: #1c1917;
+  --ink-soft: #44403c;
+  --paper: #faf8f5;
+  --panel: #ffffff;
+  --line: #e7e5e4;
+
+  --radius-m: 14px;
+  --shadow-card: 0 2px 8px rgba(161,98,7,.06);
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Inter', system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+.topbar {
+  background: var(--yellow-900);
+  color: #fff;
+  padding: 12px 24px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.topbar-inner {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.topbar a {
+  color: #fef9c3;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 24px;
+}
+
+.page-head { margin-bottom: 30px; }
+.eyebrow { font-size: 12px; font-weight: 800; text-transform: uppercase; color: var(--yellow-700); letter-spacing: 0.05em; }
+h1 { font-family: 'Poppins', sans-serif; font-size: 32px; margin: 8px 0; color: var(--yellow-900); }
+p.subtitle { font-size: 18px; color: var(--ink-soft); margin: 0; }
+
+.vocab-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 24px 0;
+  background: var(--panel);
+  border-radius: var(--radius-m);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+}
+.vocab-table th, .vocab-table td {
+  padding: 14px 18px;
+  border: 1px solid var(--line);
+  text-align: left;
+}
+.vocab-table th { background: var(--yellow-100); color: var(--yellow-900); font-weight: 700; }
+
+.parts-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 30px; }
+.part-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-m);
+  padding: 24px;
+  text-decoration: none;
+  color: var(--ink);
+  transition: transform 0.2s;
+}
+.part-card:hover { transform: translateY(-4px); }
+.part-card h2 { color: var(--yellow-900); margin: 0 0 10px; font-size: 20px; }
+
+.topic-grid { display: grid; grid-template-columns: 1fr; gap: 16px; margin-top: 24px; }
+.topic-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-m);
+  padding: 20px;
+  text-decoration: none;
+  color: var(--ink);
+  transition: border-color 0.2s;
+}
+.topic-card:hover { border-color: var(--yellow-700); }
+.topic-card .ttl { font-weight: 700; font-size: 18px; color: var(--yellow-900); }
+.topic-card .sub { font-size: 14px; color: var(--ink-soft); }
