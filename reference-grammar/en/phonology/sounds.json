@@ -26,6 +26,53 @@
       "practice_links": null
     },
     {
+      "id": "magic_e_rule",
+      "label": "The Silent-E / Magic-E Rule",
+      "level": "A1",
+      "emoji": "🪄",
+      "definition": "A single silent e at the end of a word changes the preceding short vowel into a long vowel that says its letter name",
+      "rules": [
+        "When a word ends in vowel + consonant + silent e (VCE pattern), the final e is unpronounced.",
+        "The silent e makes the preceding vowel long (it 'says its name'): a➔/eɪ/, i➔/aɪ/, o➔/əʊ/ or /oʊ/, u➔/juː/ or /uː/."
+      ],
+      "examples": [
+        {
+          "t": "Kit /kɪt/ ➔ Kite /kaɪt/",
+          "m": "Short /ɪ/ becomes long /aɪ/"
+        },
+        {
+          "t": "Hop /hɒp/ ➔ Hope /həʊp/, Cut /kʌt/ ➔ Cute /kjuːt/",
+          "m": "Short /ɒ/ and /ʌ/ become long /əʊ/ and /juː/"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "consonant_digraphs",
+      "label": "Common Consonant Digraphs",
+      "level": "A1",
+      "emoji": "🧩",
+      "definition": "Two consonant letters written together that make a single new consonant sound",
+      "rules": [
+        "SH makes the /ʃ/ sound (shoe, shop, fish).",
+        "CH makes the /ʧ/ sound (chair, cheese, watch).",
+        "PH makes the /f/ sound (phone, photo, elephant).",
+        "WH makes the /w/ sound (white, wheel) or /h/ sound (who, whole).",
+        "NG makes the /ŋ/ nasal sound at the end of syllables (sing, long, English)."
+      ],
+      "examples": [
+        {
+          "t": "Shop /ʃɒp/, Chair /ʧeə(r)/, Phone /fəʊn/",
+          "m": "Digraphs SH /ʃ/, CH /ʧ/, PH /f/"
+        },
+        {
+          "t": "White /waɪt/, Song /sɒŋ/",
+          "m": "Digraphs WH /w/ and NG /ŋ/"
+        }
+      ],
+      "practice_links": null
+    },
+    {
       "id": "silent_letters",
       "label": "Silent Letters",
       "level": "starter",
@@ -72,6 +119,29 @@
       "practice_links": null
     },
     {
+      "id": "r_controlled_vowels",
+      "label": "R-Controlled Vowels",
+      "level": "A2",
+      "emoji": "🌀",
+      "definition": "Vowel sounds modified and controlled by a following letter R",
+      "rules": [
+        "When a vowel is followed by R, the letter R changes the vowel sound into a distinct r-controlled vowel.",
+        "AR makes /ɑː/ or /ɑːr/ (car, star, park). OR makes /ɔː/ or /ɔːr/ (for, born, short).",
+        "ER, IR, UR blend into the same /ɜː/ or /ɜːr/ sound (her, bird, turn). AIR and EAR form vowel glides (fair /feə(r)/, near /nɪə(r)/)."
+      ],
+      "examples": [
+        {
+          "t": "Car /kɑː(r)/, For /fɔː(r)/",
+          "m": "R-controlled AR /ɑː/ and OR /ɔː/"
+        },
+        {
+          "t": "Bird /bɜːd/, Turn /tɜːn/, Fair /feə(r)/",
+          "m": "R-controlled IR/UR /ɜː/ and AIR /eə/"
+        }
+      ],
+      "practice_links": null
+    },
+    {
       "id": "diphthongs_vowel_length",
       "label": "Diphthongs & Vowel Duration",
       "level": "A2",
@@ -111,6 +181,29 @@
         {
           "t": "Nice to meet you ➔ /miːtʃuː/",
           "m": "Assimilation of /t/ and /j/"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "tion_sion_cian_endings",
+      "label": "Suffix Sound Shifts: -tion, -sion, -cian",
+      "level": "B1",
+      "emoji": "🗣️",
+      "definition": "Pronunciation of suffix endings -tion, -sion, and -cian as /ʃən/ or /ʒən/",
+      "rules": [
+        "-tion and -cian are pronounced /ʃən/ (nation /ˈneɪʃən/, musician /mjuːˈzɪʃən/).",
+        "-sion is pronounced /ʃən/ after consonants (discussion /dɪˈskʌʃən/) and /ʒən/ after vowels (vision /ˈvɪʒən/, decision /dɪˈsɪʒən/).",
+        "Stress falls on the syllable immediately preceding these suffixes."
+      ],
+      "examples": [
+        {
+          "t": "Nation /ˈneɪʃən/, Musician /mjuːˈzɪʃən/",
+          "m": "-tion and -cian pronounced /ʃən/"
+        },
+        {
+          "t": "Discussion /dɪˈskʌʃən/ vs Vision /ˈvɪʒən/",
+          "m": "-sion pronounced /ʃən/ after consonant vs /ʒən/ after vowel"
         }
       ],
       "practice_links": null
