@@ -87,6 +87,49 @@
       "vocabulary.js"
     ]
   },
+  "cv": {
+    "A1": [
+      "adjectives.js",
+      "debates.js",
+      "dishes.js",
+      "fluency.js",
+      "grammar.js",
+      "grammar_elements.js",
+      "locations.js",
+      "nationalities.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ],
+    "A2": [
+      "fluency.js",
+      "locations.js",
+      "opinions.js"
+    ],
+    "B1": [
+      "fluency.js",
+      "locations.js",
+      "opinions.js"
+    ],
+    "B2": [
+      "fluency.js",
+      "opinions.js"
+    ],
+    "C1": [
+      "fluency.js",
+      "opinions.js"
+    ],
+    "C2": [
+      "adjectives.js",
+      "fluency.js",
+      "opinions.js",
+      "verbs.js",
+      "vocabulary.js"
+    ]
+  },
   "de": {
     "A1": [
       "adjectives.js",
