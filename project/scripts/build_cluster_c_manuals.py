@@ -7,6 +7,63 @@ A2 Grammar and Vocabulary Manuals with 100% Target Language Monolingual Content 
 import os
 import json
 
+LOCALIZED_LABELS = {
+    "br": {
+        "prev": "← An hini a-raok", "next": "An hini da-heul →",
+        "why": "Prak e vez pouezus", "example": "Skouer e-barzh ur frazenn",
+        "native": "💡 Penaos e soñj un den a-vro", "formula": "📌 Formulenn bennañ",
+        "mistakes": "⚠️ Fazioù boutin", "mnemonic": "💡 Evit derc'hel soñj",
+        "connects": "🔗 Danvezioù liammet", "congrats": "🎉 Gourc'hemennoù! Deuet eo ganeoc'h ar poent yezhadur A2-mañ.",
+        "quiz": "Amprouadenn hag obererezh", "score": "Kont:", "wrong": "Mank:", "right": "Reizh:",
+        "word": "Ger / Frazenn", "pos": "Rann ar ger", "ex": "Skouer"
+    },
+    "tt": {
+        "prev": "← Үткәне", "next": "Киләсе →",
+        "why": "Бу ни өчен мөһим?", "example": "Җөмләдә мисал",
+        "native": "💡 Татарча ничек уйларга?", "formula": "📌 Төп формула",
+        "mistakes": "⚠️ Еш ясала торган хаталар", "mnemonic": "💡 Хәтердә калдыру өчен",
+        "connects": "🔗 Бәйле темалар", "congrats": "🎉 Тәбриклибез! Сез А2 дәрәҗәсендәге бу теманы үзләштердегез.",
+        "quiz": "Диагностика һәм тест", "score": "Нәтиҗә:", "wrong": "Хата:", "right": "Дөрес:",
+        "word": "Сүз / Гыйбарә", "pos": "Сүз төркеме", "ex": "Мисал"
+    },
+    "ba": {
+        "prev": "← Алдағы", "next": "Киләһе →",
+        "why": "Был ни өсөн мөһим?", "example": "Һөмләлә мисал",
+        "native": "💡 Башҡортса нисек уйларға?", "formula": "📌 Төп формула",
+        "mistakes": "⚠️ Йыш яһалған хаталар", "mnemonic": "💡 Хәтерҙә ҡалдырыу өсөн",
+        "connects": "🔗 Бәйле темалар", "congrats": "🎉 Ҡотлайбыҙ! Һеҙ А2 кимәлендәге был теманы үҙләштерҙегеҙ.",
+        "quiz": "Диагностика һәм тест", "score": "Һөҙөмтә:", "wrong": "Хата:", "right": "Дөрөҫ:",
+        "word": "Һүҙ / Ғибәрә", "pos": "Һүҙ төркөмө", "ex": "Мисал"
+    },
+    "cv": {
+        "prev": "← Анри япала", "next": "Малалла →",
+        "why": "Мĕншĕн ку пĕлтерĕшлĕ?", "example": "Предложенири тĕслĕх",
+        "native": "💡 Мĕнле шухăшлать чăваш келевĕ", "formula": "📌 Тĕп формула",
+        "mistakes": "⚠️ Час-час пулакан йăнăшсем", "mnemonic": "💡 Астаңара асармашкăн",
+        "connects": "🔗 Çыхăннă темасем", "congrats": "🎉 Саламлатпăр! Эсир ку А2 шайри грамматика темине вĕренсе пĕтертерĕр.",
+        "quiz": "Тĕрĕслев тата тест", "score": "Счет:", "wrong": "Йăнăш:", "right": "Тĕрĕс:",
+        "word": "Сăмах / Калаçу", "pos": "Сăмах пайĕ", "ex": "Тĕслĕх"
+    },
+    "ka": {
+        "prev": "← წინა", "next": "შემდეგი →",
+        "why": "რატომ არის ეს მნიშვნელოვანი?", "example": "მაგალითი წინადადებაში",
+        "native": "💡 როგორ ფიქრობს ქართულად მოლაპარაკე", "formula": "📌 მთავარი ფორმულა",
+        "mistakes": "⚠️ ხშირი შეცდომები", "mnemonic": "💡 დასამახსოვრებელი წესი",
+        "connects": "🔗 დაკავშირებული თემები", "congrats": "🎉 გილოცავთ! თქვენ წარმატებით აითვისეთ A2 დონის ეს თემა.",
+        "quiz": "ტესტი და სავარჯიშო", "score": "ქულა:", "wrong": "არასწორია:", "right": "სწორია:",
+        "word": "სიტყვა / ფრაზა", "pos": "მეტყველების ნაწილი", "ex": "მაგალითი"
+    },
+    "hy": {
+        "prev": "← Նախորդը", "next": "Հաջորդը →",
+        "why": "Ինչու է սա կարևոր", "example": "Օրինակ նախադասության մեջ",
+        "native": "💡 Ինչպես է մտածում հայերեն խոսողը", "formula": "📌 Հիմնական բանաձև",
+        "mistakes": "⚠️ Հաճախակի սխալներ", "mnemonic": "💡 Հիշելու համար",
+        "connects": "🔗 Կապված թեմաներ", "congrats": "🎉 Շնորհավորում ենք: Դուք յուրացրեցիք A2 մակարդակի այս թեման:",
+        "quiz": "Թեստ և ստուգում", "score": "Միավոր:", "wrong": "Սխալ:", "right": "Ճիշտ:",
+        "word": "Բառ / Արտահայտություն", "pos": "Խոսքի մաս", "ex": "Օրինակ"
+    }
+}
+
 CLUSTER_C_DATA = {
     "br": {
         "name": "Brezhoneg",
@@ -733,6 +790,16 @@ def build_language_manuals(code, lang_info):
         connects_lis = "".join([f'<li><a href="{c}.html">{c}</a></li>' for c in top.get("connects", [])])
         connects_html = f'<div class="box"><h3>🔗 Connected Topics</h3><ul>{connects_lis}</ul></div>' if connects_lis else ''
 
+        lbl = LOCALIZED_LABELS[code]
+        prev_link = f'<a href="{g_topic_keys[idx-1]}.html">{lbl["prev"]}</a>' if idx > 0 else '<span></span>'
+        next_link = f'<a href="{g_topic_keys[idx+1]}.html">{lbl["next"]}</a>' if idx < len(g_topic_keys)-1 else '<span></span>'
+        pager_html = f'<div class="pager">{prev_link}{next_link}</div>'
+
+        mistakes_html = ""
+        if top.get("mistakes"):
+            m_items = "".join([f'<li><strong style="color:var(--mistake-ink)">{lbl["wrong"]}</strong> {m["wrong"]}<br><strong style="color:var(--mint-ink)">{lbl["right"]}</strong> {m["right"]}<br><small>{m["note"]}</small></li>' for m in top["mistakes"]])
+            mistakes_html = f'<div class="box mistake"><h3>{lbl["mistakes"]}</h3><ul>{m_items}</ul></div>'
+
         page_html = f'''<!doctype html>
 <html lang="{code}">
 <head>
@@ -754,18 +821,18 @@ def build_language_manuals(code, lang_info):
     <h1>{top["title"]}</h1>
     <p class="subtitle">{top["subtitle"]}</p>
   </div>
-  <div class="outcome-banner">🎯 <strong>Communication Target:</strong> {top["cando"]}</div>
-  <p><strong>Summary:</strong> {top["one_liner"]}</p>
-  <div class="box why"><h3>Why it matters</h3><p>{top["why_matters"]}</p></div>
+  <div class="outcome-banner">🎯 {top["cando"]}</div>
+  <p>{top["one_liner"]}</p>
+  <div class="box why"><h3>{lbl["why"]}</h3><p>{top["why_matters"]}</p></div>
   {top["visual_diagram"]}
-  <div class="box"><h3>In Example</h3><p>{top["example_code"]}</p></div>
+  <div class="box"><h3>{lbl["example"]}</h3><p>{top["example_code"]}</p></div>
   <p>{top["notice"]}</p>
-  <div class="box native"><h3>💡 Native Speaker Thinking</h3><p>{top["think_native"]}</p></div>
-  <div class="box"><h3>📌 Key Formula</h3><p>{top["signature_box"]}</p></div>
+  <div class="box native"><h3>{lbl["native"]}</h3><p>{top["think_native"]}</p></div>
+  <div class="box"><h3>{lbl["formula"]}</h3><p>{top["signature_box"]}</p></div>
   {mistakes_html}
-  <div class="box why"><h3>💡 Mnemonic</h3><p>{top["mnemonic"]}</p></div>
+  <div class="box why"><h3>{lbl["mnemonic"]}</h3><p>{top["mnemonic"]}</p></div>
   {connects_html}
-  <div class="outcome-banner">🎉 Congratulations! You mastered this A2 grammar topic.</div>
+  <div class="outcome-banner">{lbl["congrats"]}</div>
   {quiz_html}
   {pager_html}
 </main>
@@ -815,6 +882,7 @@ def build_language_manuals(code, lang_info):
 
     # 2. VOCABULARY MANUAL
     v_topic_cards = []
+    lbl = LOCALIZED_LABELS[code]
     for top in lang_info["v"]:
         slug = top["slug"]
         rows = "".join([f'<tr><td><strong>{w["word"]}</strong></td><td>{w["type"]}</td><td>{w["example"]}</td></tr>' for w in top["words"]])
@@ -840,7 +908,7 @@ def build_language_manuals(code, lang_info):
     <p class="subtitle">{top["subtitle"]}</p>
   </div>
   <table class="vocab-table">
-    <thead><tr><th>Word / Phrase</th><th>Part of Speech</th><th>Example</th></tr></thead>
+    <thead><tr><th>{lbl["word"]}</th><th>{lbl["pos"]}</th><th>{lbl["ex"]}</th></tr></thead>
     <tbody>{rows}</tbody>
   </table>
 </main>
