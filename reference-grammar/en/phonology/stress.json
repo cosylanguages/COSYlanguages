@@ -70,6 +70,28 @@
       "practice_links": null
     },
     {
+      "id": "rhythm_stress_timing",
+      "label": "Stress-Timed Rhythm",
+      "level": "A2",
+      "emoji": "🥁",
+      "definition": "Rhythmic structure where stressed syllables occur at regular time intervals",
+      "rules": [
+        "English is a stress-timed language: the time between stressed syllables remains relatively constant regardless of how many unstressed words sit between them.",
+        "Unstressed syllables are compressed and spoken faster to maintain sentence beat."
+      ],
+      "examples": [
+        {
+          "t": "CATS / EAT / FISH ➔ 1... 2... 3...",
+          "m": "Three content words stressed equally"
+        },
+        {
+          "t": "The CATS have been EATING the FISH ➔ 1... 2... 3...",
+          "m": "Same duration despite added functional words"
+        }
+      ],
+      "practice_links": null
+    },
+    {
       "id": "compound_word_stress",
       "label": "Compound & Functional Stress",
       "level": "B1",
@@ -87,6 +109,28 @@
         {
           "t": "an IN-crease (noun) vs to in-CREASE (verb)",
           "m": "Noun vs verb stress shift"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "stress_shifts_word_families",
+      "label": "Stress Shifts in Word Families",
+      "level": "B1",
+      "emoji": "🔄",
+      "definition": "Movement of primary stress across related derivatives of the same root word",
+      "rules": [
+        "Adding derivational suffixes can shift primary stress to different syllables across a word family.",
+        "Vowel quality changes when stress shifts (stressed vowels become full, unstressed vowels become schwa /ə/)."
+      ],
+      "examples": [
+        {
+          "t": "PHO-to-graph /ˈfəʊtəɡrɑːf/ ➔ pho-TOG-ra-pher /fəˈtɒɡrəfə/ ➔ pho-to-GRAPH-ic /ˌfəʊtəˈɡræfɪk/",
+          "m": "Primary stress movement across derivatives"
+        },
+        {
+          "t": "CLIM-ate /ˈklaɪmət/ ➔ cli-MAT-ic /klaɪˈmætɪk/",
+          "m": "Vowel change with stress shift"
         }
       ],
       "practice_links": null

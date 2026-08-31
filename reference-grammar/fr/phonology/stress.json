@@ -26,6 +26,28 @@
       "practice_links": null
     },
     {
+      "id": "syllabation_ouverte",
+      "label": "Syllabation ouverte et découpage",
+      "level": "A1",
+      "emoji": "✂️",
+      "definition": "Tendance du français à découper les mots en syllabes ouvertes (terminées par une voyelle)",
+      "rules": [
+        "Le français privilégie les syllabes ouvertes qui se terminent par un son voyelle (Consonne + Voyelle / CV-CV).",
+        "Dans la phrase liée, la consonne finale d'un mot s'attache à la voyelle initiale du mot suivant pour former une nouvelle syllabe."
+      ],
+      "examples": [
+        {
+          "t": "Cinéma ➔ ci-né-ma (CV-CV-CV)",
+          "m": "Découpage en syllabes ouvertes"
+        },
+        {
+          "t": "Il habite à Paris ➔ i-la-bi-ta-pa-ri",
+          "m": "Syllabation ouverte continue dans la phrase"
+        }
+      ],
+      "practice_links": null
+    },
+    {
       "id": "accent_insistance",
       "label": "Accent d'insistance",
       "level": "A2",
@@ -48,6 +70,28 @@
       "practice_links": null
     },
     {
+      "id": "allongement_syllabique",
+      "label": "Allongement de la syllabe accentuée",
+      "level": "A2",
+      "emoji": "⏳",
+      "definition": "Durée prolongée de la voyelle dans la dernière syllabe accentuée du groupe",
+      "rules": [
+        "La dernière voyelle d'un groupe rythmique s'allonge particulièrement si elle est suivie d'une consonne allongeante ([v], [z], [ʒ], [ʁ] ou [vʁ]).",
+        "L'allongement syllabique sert de signal acoustique de fin de groupe ou de fin de phrase."
+      ],
+      "examples": [
+        {
+          "t": "Une belle chaise ➔ /ʃɛːz/",
+          "m": "Allongement devant [z]"
+        },
+        {
+          "t": "Il arrive ➔ /aʁiːv/",
+          "m": "Allongement devant [v]"
+        }
+      ],
+      "practice_links": null
+    },
+    {
       "id": "accentuation_rythme_phrase",
       "label": "Rythme et groupes d'intonation",
       "level": "B1",
@@ -65,6 +109,28 @@
         {
           "t": "Si vous voulez réussir ↗ / il faut pratiquer régulièrement. ↘",
           "m": "Régularité des groupes rythmiques dans une phrase complexe"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "accentuation_mise_en_relief",
+      "label": "Accent de mise en relief et césure",
+      "level": "B1",
+      "emoji": "🎭",
+      "definition": "Mise en valeur d'un élément d'information par focalisation et pause rythmique",
+      "rules": [
+        "La mise en relief (ex. 'C'est... qui/que', 'Moi, je...') crée un groupe rythmique autonome avec son propre accent principal.",
+        "La pause (césure) après un élément focalisé permet de détacher l'information importante."
+      ],
+      "examples": [
+        {
+          "t": "C'est PIERRE ↗ / qui a gagné le concours. ↘",
+          "m": "Accentuation du sujet mis en relief"
+        },
+        {
+          "t": "Moi ↗ / je ne suis pas d'accord. ↘",
+          "m": "Détachement et accent du pronom tonique"
         }
       ],
       "practice_links": null

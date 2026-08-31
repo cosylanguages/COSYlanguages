@@ -70,6 +70,28 @@
       "practice_links": null
     },
     {
+      "id": "choice_politeness_intonation",
+      "label": "Choice & Polite Request Intonation",
+      "level": "A2",
+      "emoji": "☕",
+      "definition": "Intonation contours in alternative questions and courteous requests",
+      "rules": [
+        "In choice questions with 'or', pitch rises on the first option and falls on the final option ↗↘.",
+        "Polite requests use a rising or fall-rising intonation to sound open and friendly rather than demanding."
+      ],
+      "examples": [
+        {
+          "t": "Would you like tea ↗ or coffee ↘?",
+          "m": "Rising on first option, falling on final choice"
+        },
+        {
+          "t": "Could you open the door, please? ↗",
+          "m": "Rising intonation for polite requests"
+        }
+      ],
+      "practice_links": null
+    },
+    {
       "id": "contrastive_tonic_intonation",
       "label": "Contrastive & Tonic Intonation",
       "level": "B1",
@@ -87,6 +109,28 @@
         {
           "t": "Well, she is nice... ↘↗",
           "m": "Fall-rise pitch expressing hesitation or qualification"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "thought_groups_parentheticals",
+      "label": "Thought Groups & Chunking",
+      "level": "B1",
+      "emoji": "🧩",
+      "definition": "Dividing speech into meaningful intonation units (thought groups) and lower pitch for parentheticals",
+      "rules": [
+        "Long sentences are broken into thought groups (intonavial phrases), with each group having its own pitch movement and pause.",
+        "Parenthetical remarks, commentary, or non-defining clauses are spoken at a lower pitch and faster tempo."
+      ],
+      "examples": [
+        {
+          "t": "If you need help ↗ / just give me a call ↘.",
+          "m": "Thought group pause between subordinate and main clause"
+        },
+        {
+          "t": "My sister, (who lives in Paris), ↘ is visiting today.",
+          "m": "Lower pitch for non-defining relative clause"
         }
       ],
       "practice_links": null

@@ -11,16 +11,38 @@
       "definition": "Les sons fondamentaux de la langue française",
       "rules": [
         "Le français possède 16 sons voyelles distincts et 17 consonnes.",
-        "La plupart des consonnes finales sont muettes à la fin des mots (sauf C, R, F, L)."
+        "Les voyelles françaises sont très nettes et ne se réduisent pas en son flou."
       ],
       "examples": [
         {
-          "t": "Un chat /ʃa/, un lit /li/",
-          "m": "Consonnes finales muettes T et S"
+          "t": "Une table /tabl/, un livre /livʁ/",
+          "m": "Prononciation claire des voyelles"
         },
         {
-          "t": "Un sac /sak/, un chef /ʃɛf/",
-          "m": "Consonnes finales prononcées C et F"
+          "t": "Café /kafe/, zéro /zeʁo/",
+          "m": "Consonnes et voyelles fondamentales"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "consonnes_finales_muettes",
+      "label": "Consonnes finales muettes et voyelles U/OU/I",
+      "level": "A1",
+      "emoji": "🔇",
+      "definition": "Règle des consonnes finales muettes et distinction des sons [y], [u], [i]",
+      "rules": [
+        "En général, les consonnes finales D, P, S, T, X, Z sont muettes. Les consonnes C, R, F, L (règle CaReFuL) se prononcent souvent en fin de mot.",
+        "Le son [y] (lettre U comme dans 'tu') se prononce avec les lèvres arrondies vers l'avant, très différent du son [u] ('ou') et [i] ('il')."
+      ],
+      "examples": [
+        {
+          "t": "Un chat (T muet), des enfants (S et T muets) vs Un sac (C prononcé)",
+          "m": "Consonnes finales muettes"
+        },
+        {
+          "t": "Tu [ty] vs Tout [tu] vs Lit [li]",
+          "m": "Distinction entre U, OU et I"
         }
       ],
       "practice_links": null
@@ -48,6 +70,28 @@
       "practice_links": null
     },
     {
+      "id": "semi_voyelles_et_finales_ent",
+      "label": "Semi-voyelles et terminaisons -ENT",
+      "level": "A2",
+      "emoji": "🔀",
+      "definition": "Prononciation des semi-consonnes [j], [w], [ɥ] et de la terminaison -ENT des verbes",
+      "rules": [
+        "Les combinaisons i/y + voyelle ([j]), ou + voyelle ([w]) et u + voyelle ([ɥ]) créent des semi-voyelles rapides.",
+        "La terminaison `-ent` de la 3e personne du pluriel des verbes est complètement muette (ex. ils parlent /il paʁl/ et non pas /parlɑ̃/)."
+      ],
+      "examples": [
+        {
+          "t": "Un travail [tʁavaj], oui [wi], la nuit [nɥi]",
+          "m": "Prononciation des semi-voyelles [j], [w], [ɥ]"
+        },
+        {
+          "t": "Ils mangent [il mɑ̃ʒ] vs Un moment [œ̃ momɑ̃]",
+          "m": "-ENT muet au verbe vs -ENT nasal au nom"
+        }
+      ],
+      "practice_links": null
+    },
+    {
       "id": "e_caduc_muet",
       "label": "Le E caduc (ou muet)",
       "level": "B1",
@@ -65,6 +109,28 @@
         {
           "t": "Je ne sais pas ➔ /ʒən sɛ pa/ ou /ʒsɛ pa/",
           "m": "Elision du E dans la conversation orale"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "distinction_e_ouvert_ferme",
+      "label": "E ouvert [ɛ] et E fermé [e]",
+      "level": "B1",
+      "emoji": "🎼",
+      "definition": "Distinction systématique entre É fermé et È/Ê/AI ouvert",
+      "rules": [
+        "Le E fermé [e] s'écrit généralement É, ER en fin de mot ou EZ (parler, vous mangez, été).",
+        "Le E ouvert [ɛ] s'écrit È, Ê, AI, EI ou E devant deux consonnes (frère, fête, maison, merci)."
+      ],
+      "examples": [
+        {
+          "t": "Un été /ete/, vous chantez /ʃɑ̃te/",
+          "m": "Prononciation du E fermé [e]"
+        },
+        {
+          "t": "La mère /mɛʁ/, la tête /tɛt/, le lait /lɛ/",
+          "m": "Prononciation du E ouvert [ɛ]"
         }
       ],
       "practice_links": null

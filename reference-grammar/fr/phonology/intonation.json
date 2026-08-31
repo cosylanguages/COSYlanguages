@@ -26,6 +26,28 @@
       "practice_links": null
     },
     {
+      "id": "intonation_questions_est_ce_que",
+      "label": "Intonation des questions structurées",
+      "level": "A1",
+      "emoji": "❓",
+      "definition": "Mélodie des questions avec « est-ce que » et avec inversion du sujet",
+      "rules": [
+        "Dans les questions avec « est-ce que », la voix monte sur « est-ce que » puis remonte en fin de phrase.",
+        "Dans les questions avec inversion (ex. Vient-il ?), le sommet mélodique se situe sur le verbe inversé."
+      ],
+      "examples": [
+        {
+          "t": "Est-ce que tu as faim ? ↗",
+          "m": "Mélodie de la question avec est-ce que"
+        },
+        {
+          "t": "Comprenez-vous cette règle ? ↗",
+          "m": "Mélodie de la question avec inversion"
+        }
+      ],
+      "practice_links": null
+    },
+    {
       "id": "liaison_enchainement",
       "label": "Liaisons et enchaînements",
       "level": "A2",
@@ -48,6 +70,28 @@
       "practice_links": null
     },
     {
+      "id": "liaisons_obligatoires_interdites",
+      "label": "Liaisons obligatoires vs interdites",
+      "level": "A2",
+      "emoji": "🚫",
+      "definition": "Règles strictes régissant la présence ou l'absence de liaison en français",
+      "rules": [
+        "La liaison est obligatoire entre le déterminant et le nom (les_enfants), le pronom et le verbe (ils_ont) ou l'adjectif et le nom (grand_arbre).",
+        "La liaison est interdite après la conjonction 'et', après un nom au singulier (un enfant // adorable) et devant le H aspiré (les // héros)."
+      ],
+      "examples": [
+        {
+          "t": "Ils_ont deux_amis. (Liaisons obligatoires)",
+          "m": "Exemples de liaisons obligatoires"
+        },
+        {
+          "t": "Un homme et // une femme ; Des // héros. (Liaisons interdites)",
+          "m": "Exemples de liaisons interdites"
+        }
+      ],
+      "practice_links": null
+    },
+    {
       "id": "intonation_nuances_et_modalites",
       "label": "Intonation expressive et nuances",
       "level": "B1",
@@ -65,6 +109,28 @@
         {
           "t": "Pourriez-vous m'aider, s'il vous plaît ? ↗",
           "m": "Intonation adoucie pour une demande polie"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "enchainement_et_schema_subordination",
+      "label": "Mélodie des subordinations et parenthèses",
+      "level": "B1",
+      "emoji": "🎼",
+      "definition": "Schéma intonatif des phrases complexes avec propositions subordonnées",
+      "rules": [
+        "La proposition subordonnée placée en tête de phrase se termine par une montée mélodique (continuité ↗), suivie d'une descente sur la principale (conclusion ↘).",
+        "Les incises et parenthèses se prononcent sur un registre de voix plus bas et plus rapide."
+      ],
+      "examples": [
+        {
+          "t": "Bien qu'il fasse froid ↗, nous sommes sortis nous promener. ↘",
+          "m": "Schéma mélodique montée/descente d'une phrase subordonnée"
+        },
+        {
+          "t": "Cette solution, (pensa-t-il), ↘ était la meilleure.",
+          "m": "Registre bas pour l'incise"
         }
       ],
       "practice_links": null

@@ -26,6 +26,28 @@
       "practice_links": null
     },
     {
+      "id": "accento_fonico_aperto_chiuso",
+      "label": "Accento fonico aperto e chiuso",
+      "level": "A1",
+      "emoji": "🎼",
+      "definition": "Accento grave (aperto) ed acuto (chiuso) sulle vocali E ed O",
+      "rules": [
+        "L'accento grave (è, ò) indica suono aperto [ɛ, ɔ], come in 'è' (verbo essere) o 'caffè'.",
+        "L'accento acuto (é, ó) indica suono chiuso [e, o], come in 'perché' o 'ventitré'."
+      ],
+      "examples": [
+        {
+          "t": "Lui è [ɛ] (aperto) vs Perché [e] (chiuso)",
+          "m": "Accento grave vs accento acuto su E"
+        },
+        {
+          "t": "Però [ɔ] (aperto) vs Botte [o] (chiuso)",
+          "m": "Accento aperto e chiuso su O"
+        }
+      ],
+      "practice_links": null
+    },
+    {
       "id": "parole_sdrucciole",
       "label": "Parole sdrucciole e bisdrucciole",
       "level": "A2",
@@ -48,6 +70,28 @@
       "practice_links": null
     },
     {
+      "id": "accento_verbi_coniugati",
+      "label": "Accento nei verbi coniugati",
+      "level": "A2",
+      "emoji": "🔄",
+      "definition": "Spostamento dell'accento tonico nelle persone della coniugazione verbale",
+      "rules": [
+        "Nel presente indicativo delle prime tre persone e della 3ª plurale, l'accento cade sulla radice del verbo (es. io pàrlo, loro pàrlano).",
+        "Nelle forme della 1ª e 2ª persona plurale (noi, voi), l'accento si sposta sulla desinenza verbale (parliàmo, parlàte)."
+      ],
+      "examples": [
+        {
+          "t": "Io abìto, tu abìti, loro abìtano",
+          "m": "Accento sulla radice (sdrucciola alla 3ª plurale)"
+        },
+        {
+          "t": "Noi abitiamo, voi abitate",
+          "m": "Accento spostato sulla desinenza"
+        }
+      ],
+      "practice_links": null
+    },
+    {
       "id": "accento_differenziale",
       "label": "Accento differenziale e omografi",
       "level": "B1",
@@ -65,6 +109,28 @@
         {
           "t": "Lui mi dà un libro vs Viene da Roma",
           "m": "Accento grafico differenziale su monosillabi"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "raddoppiamento_fonosintattico",
+      "label": "Raddoppiamento fonosintattico",
+      "level": "B1",
+      "emoji": "⚡",
+      "definition": "Raddoppiamento della consonante iniziale della parola seguente nella pronuncia",
+      "rules": [
+        "Nella pronuncia parlata standard, dopo una parola tronca accentata (città, perché) o dopo alcuni monosillabi forti (a, da, che, e, o, ma, già, più), la consonante iniziale della parola successiva viene raddoppiata.",
+        "Questo fenomeno è automatico ed essenziale per il ritmo naturale della frase."
+      ],
+      "examples": [
+        {
+          "t": "Andiamo a casa ➔ /anˈdjaːmo ak ˈkaːsa/",
+          "m": "Raddoppiamento dopo la preposizione 'a'"
+        },
+        {
+          "t": "Città pulita ➔ /tʃitˈta ppulˈliːta/, Più bello ➔ /pju bˈbɛllo/",
+          "m": "Raddoppiamento dopo parola tronca o monosillabo forte"
         }
       ],
       "practice_links": null

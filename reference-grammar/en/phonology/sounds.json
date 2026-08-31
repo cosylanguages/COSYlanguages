@@ -50,6 +50,28 @@
       "practice_links": null
     },
     {
+      "id": "ed_s_endings",
+      "label": "Pronunciation of -ed and -s Endings",
+      "level": "A1",
+      "emoji": "🔀",
+      "definition": "Pronunciation rules for regular past tense -ed and plural/verb -s endings",
+      "rules": [
+        "-ed is pronounced /ɪd/ after /t/ or /d/ (wanted, needed), /t/ after unvoiced sounds (worked, stopped), and /d/ after voiced sounds (played, lived).",
+        "-s / -es is pronounced /ɪz/ after sibilants /s, z, ʃ, ʧ, ʤ/ (buses, watches), /s/ after unvoiced sounds (cats, books), and /z/ after voiced sounds (dogs, runs)."
+      ],
+      "examples": [
+        {
+          "t": "Wanted /ɪd/, Worked /t/, Played /d/",
+          "m": "Three pronunciations of -ed"
+        },
+        {
+          "t": "Cats /s/, Dogs /z/, Buses /ɪz/",
+          "m": "Three pronunciations of -s"
+        }
+      ],
+      "practice_links": null
+    },
+    {
       "id": "diphthongs_vowel_length",
       "label": "Diphthongs & Vowel Duration",
       "level": "A2",
@@ -72,6 +94,28 @@
       "practice_links": null
     },
     {
+      "id": "glottal_stop_assimilation",
+      "label": "Glottal Stop & Consonant Assimilation",
+      "level": "A2",
+      "emoji": "✂️",
+      "definition": "Glottal replacement of /t/ and sound fusion across word boundaries",
+      "rules": [
+        "Final /t/ is frequently replaced or reinforced by a glottal stop /ʔ/ before consonants or in casual speech (e.g. cat food /kæʔ fʊd/).",
+        "Assimilation occurs when sounds blend across word boundaries, such as /t/ + /j/ becoming /ʧ/ (would you ➔ /wʊdʒuː/)."
+      ],
+      "examples": [
+        {
+          "t": "Football ➔ /ˈfʊʔbɔːl/, Not now ➔ /nɒʔ naʊ/",
+          "m": "Glottal stop replacement of final /t/"
+        },
+        {
+          "t": "Nice to meet you ➔ /miːtʃuː/",
+          "m": "Assimilation of /t/ and /j/"
+        }
+      ],
+      "practice_links": null
+    },
+    {
       "id": "consonant_clusters_elision",
       "label": "Consonant Clusters & Elision",
       "level": "B1",
@@ -89,6 +133,28 @@
         {
           "t": "Next door ➔ /neks dɔːr/, Last night ➔ /lɑːs naɪt/",
           "m": "Elision of final /t/ before another consonant"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "weak_strong_forms_intrusion",
+      "label": "Weak Forms & Linking Intrusion",
+      "level": "B1",
+      "emoji": "🔗",
+      "definition": "Weak pronunciation of structural words and intrusive linking sounds /r, w, j/",
+      "rules": [
+        "Function words (auxiliaries, prepositions, articles) use weak schwa forms in connected speech, switching to strong forms only for emphasis.",
+        "When a word ending in a vowel meets a word beginning with a vowel, intrusive /r/, /w/, or /j/ glides link them smoothly."
+      ],
+      "examples": [
+        {
+          "t": "Fish and chips ➔ /fɪʃ ən ʧɪps/, Must go ➔ /məs ɡəʊ/",
+          "m": "Weak form of 'and' and 'must'"
+        },
+        {
+          "t": "Go away ➔ /ɡəʊ ʷ əˈweɪ/, Media event ➔ /ˈmiːdiə ʳ ɪˈvent/",
+          "m": "Intrusive /w/ and /r/ linking glides"
         }
       ],
       "practice_links": null
