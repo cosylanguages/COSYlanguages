@@ -1,0 +1,1514 @@
+[
+  {
+    "id": "en.vocabulary.a1.index",
+    "cefr": "A1",
+    "skill": "vocabulary",
+    "title": "English Visual Dictionary & Vocabulary Manual",
+    "manual_url": "manuals/en/vocabulary/a1/index.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a1.part-1",
+    "cefr": "A1",
+    "skill": "vocabulary",
+    "title": "Part 1 — About Me & Personal Identity",
+    "manual_url": "manuals/en/vocabulary/a1/part-1.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a1.part-10",
+    "cefr": "A1",
+    "skill": "vocabulary",
+    "title": "Part 10 — Unified Foundational Primitives",
+    "manual_url": "manuals/en/vocabulary/a1/part-10.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a1.part-2",
+    "cefr": "A1",
+    "skill": "vocabulary",
+    "title": "Part 2 — Clothes & Personal Belongings",
+    "manual_url": "manuals/en/vocabulary/a1/part-2.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a1.part-3",
+    "cefr": "A1",
+    "skill": "vocabulary",
+    "title": "Part 3 — Home & Everyday Living",
+    "manual_url": "manuals/en/vocabulary/a1/part-3.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a1.part-4",
+    "cefr": "A1",
+    "skill": "vocabulary",
+    "title": "Part 4 — Food, Drink & Gastronomy",
+    "manual_url": "manuals/en/vocabulary/a1/part-4.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a1.part-5",
+    "cefr": "A1",
+    "skill": "vocabulary",
+    "title": "Part 5 — Daily Routine, Time & Calendar",
+    "manual_url": "manuals/en/vocabulary/a1/part-5.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a1.part-6",
+    "cefr": "A1",
+    "skill": "vocabulary",
+    "title": "Part 6 — City, Transport & Travel",
+    "manual_url": "manuals/en/vocabulary/a1/part-6.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a1.part-7",
+    "cefr": "A1",
+    "skill": "vocabulary",
+    "title": "Part 7 — School, Work & Technology",
+    "manual_url": "manuals/en/vocabulary/a1/part-7.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a1.part-8",
+    "cefr": "A1",
+    "skill": "vocabulary",
+    "title": "Part 8 — Nature, Weather & Animals",
+    "manual_url": "manuals/en/vocabulary/a1/part-8.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a1.part-9",
+    "cefr": "A1",
+    "skill": "vocabulary",
+    "title": "Part 9 — Hobbies, Sports & Leisure",
+    "manual_url": "manuals/en/vocabulary/a1/part-9.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a1.part-1-about-me",
+    "cefr": "A1",
+    "skill": "vocabulary",
+    "title": "About Me & Personal Identity",
+    "manual_url": "manuals/en/vocabulary/a1/topics/part-1-about-me.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a1.part-10-primitives",
+    "cefr": "A1",
+    "skill": "vocabulary",
+    "title": "Unified Foundational Primitives",
+    "manual_url": "manuals/en/vocabulary/a1/topics/part-10-primitives.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a1.part-2-clothes",
+    "cefr": "A1",
+    "skill": "vocabulary",
+    "title": "Clothes & Personal Belongings",
+    "manual_url": "manuals/en/vocabulary/a1/topics/part-2-clothes.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a1.part-3-home",
+    "cefr": "A1",
+    "skill": "vocabulary",
+    "title": "Home & Everyday Living",
+    "manual_url": "manuals/en/vocabulary/a1/topics/part-3-home.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a1.part-4-food",
+    "cefr": "A1",
+    "skill": "vocabulary",
+    "title": "Food, Drink & Gastronomy",
+    "manual_url": "manuals/en/vocabulary/a1/topics/part-4-food.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a1.part-5-daily-routine",
+    "cefr": "A1",
+    "skill": "vocabulary",
+    "title": "Daily Routine, Time & Calendar",
+    "manual_url": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a1.part-6-city-transport",
+    "cefr": "A1",
+    "skill": "vocabulary",
+    "title": "City, Transport & Travel",
+    "manual_url": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a1.part-7-school-work-tech",
+    "cefr": "A1",
+    "skill": "vocabulary",
+    "title": "School, Work & Technology",
+    "manual_url": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a1.part-8-nature-animals",
+    "cefr": "A1",
+    "skill": "vocabulary",
+    "title": "Nature, Weather & Animals",
+    "manual_url": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a1.part-9-hobbies-sports",
+    "cefr": "A1",
+    "skill": "vocabulary",
+    "title": "Hobbies, Sports & Leisure",
+    "manual_url": "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.index",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "English Vocabulary Manual · Level A2",
+    "manual_url": "manuals/en/vocabulary/a2/index.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.part-1",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Part 1 · Vocabulary-Building Toolkit",
+    "manual_url": "manuals/en/vocabulary/a2/part-1.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.part-10",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Part 10 · Describing Change & Comparison",
+    "manual_url": "manuals/en/vocabulary/a2/part-10.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.part-11",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Part 11 · Expanded Transport & Driving",
+    "manual_url": "manuals/en/vocabulary/a2/part-11.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.part-12",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Part 12 · Emergencies & Accidents",
+    "manual_url": "manuals/en/vocabulary/a2/part-12.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.part-13",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Part 13 · Culture, Society & Celebrations",
+    "manual_url": "manuals/en/vocabulary/a2/part-13.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.part-14",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Part 14 · Personal Development & Goals",
+    "manual_url": "manuals/en/vocabulary/a2/part-14.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.part-15",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Part 15 · Master Collocations Dictionary",
+    "manual_url": "manuals/en/vocabulary/a2/part-15.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.part-16",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Part 16 · Functional English Masterclass",
+    "manual_url": "manuals/en/vocabulary/a2/part-16.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.part-17",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Part 17 · Encyclopedic A2 Vocabulary Reference Tables",
+    "manual_url": "manuals/en/vocabulary/a2/part-17.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.part-2",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Part 2 · People, Relationships & Life Stages",
+    "manual_url": "manuals/en/vocabulary/a2/part-2.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.part-3",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Part 3 · Home, Neighbourhood & Environment",
+    "manual_url": "manuals/en/vocabulary/a2/part-3.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.part-4",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Part 4 · Daily Life, Free Time & Entertainment",
+    "manual_url": "manuals/en/vocabulary/a2/part-4.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.part-5",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Part 5 · Travel & Getting Around",
+    "manual_url": "manuals/en/vocabulary/a2/part-5.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.part-6",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Part 6 · Food, Health & the Body",
+    "manual_url": "manuals/en/vocabulary/a2/part-6.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.part-7",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Part 7 · Shopping & Services",
+    "manual_url": "manuals/en/vocabulary/a2/part-7.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.part-8",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Part 8 · School, Work & Technology",
+    "manual_url": "manuals/en/vocabulary/a2/part-8.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.part-9",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Part 9 · Opinions, Feelings & Social Language",
+    "manual_url": "manuals/en/vocabulary/a2/part-9.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.culture-society-and-celebrations",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Culture, Society & Celebrations",
+    "manual_url": "manuals/en/vocabulary/a2/topics/culture-society-and-celebrations.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.daily-life-free-time-and-entertainment",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Daily Life, Free Time & Entertainment",
+    "manual_url": "manuals/en/vocabulary/a2/topics/daily-life-free-time-and-entertainment.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.describing-change-and-comparison",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Describing Change & Comparison",
+    "manual_url": "manuals/en/vocabulary/a2/topics/describing-change-and-comparison.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.emergencies-and-accidents",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Emergencies & Accidents",
+    "manual_url": "manuals/en/vocabulary/a2/topics/emergencies-and-accidents.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.encyclopedic-a2-vocabulary-reference-tables",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Encyclopedic A2 Vocabulary Reference Tables",
+    "manual_url": "manuals/en/vocabulary/a2/topics/encyclopedic-a2-vocabulary-reference-tables.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.expanded-transport-and-driving",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Expanded Transport & Driving",
+    "manual_url": "manuals/en/vocabulary/a2/topics/expanded-transport-and-driving.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.food-health-and-the-body",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Food, Health & the Body",
+    "manual_url": "manuals/en/vocabulary/a2/topics/food-health-and-the-body.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.functional-english-masterclass",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Functional English Masterclass",
+    "manual_url": "manuals/en/vocabulary/a2/topics/functional-english-masterclass.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.home-neighbourhood-and-environment",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Home, Neighbourhood & Environment",
+    "manual_url": "manuals/en/vocabulary/a2/topics/home-neighbourhood-and-environment.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.master-collocations-dictionary",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Master Collocations Dictionary",
+    "manual_url": "manuals/en/vocabulary/a2/topics/master-collocations-dictionary.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.opinions-feelings-and-social-language",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Opinions, Feelings & Social Language",
+    "manual_url": "manuals/en/vocabulary/a2/topics/opinions-feelings-and-social-language.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.people-relationships-and-life-stages",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "People, Relationships & Life Stages",
+    "manual_url": "manuals/en/vocabulary/a2/topics/people-relationships-and-life-stages.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.personal-development-and-goals",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Personal Development & Goals",
+    "manual_url": "manuals/en/vocabulary/a2/topics/personal-development-and-goals.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.school-work-and-technology",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "School, Work & Technology",
+    "manual_url": "manuals/en/vocabulary/a2/topics/school-work-and-technology.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.shopping-and-services",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Shopping & Services",
+    "manual_url": "manuals/en/vocabulary/a2/topics/shopping-and-services.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.travel-and-getting-around",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Travel & Getting Around",
+    "manual_url": "manuals/en/vocabulary/a2/topics/travel-and-getting-around.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.a2.vocabulary-building-toolkit",
+    "cefr": "A2",
+    "skill": "vocabulary",
+    "title": "Vocabulary-Building Toolkit (Phrasal Verbs & Collocations)",
+    "manual_url": "manuals/en/vocabulary/a2/topics/vocabulary-building-toolkit.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.index",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "English Vocabulary Manual · Level B1",
+    "manual_url": "manuals/en/vocabulary/b1/index.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.part-1",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Part 1 · Vocabulary-Building Toolkit (Intermediate)",
+    "manual_url": "manuals/en/vocabulary/b1/part-1.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.part-10",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Part 10 · Money, Personal Finance & Consumer Rights",
+    "manual_url": "manuals/en/vocabulary/b1/part-10.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.part-11",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Part 11 · Science, Innovation & Future Tech",
+    "manual_url": "manuals/en/vocabulary/b1/part-11.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.part-12",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Part 12 · Housing, Homeownership & DIY",
+    "manual_url": "manuals/en/vocabulary/b1/part-12.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.part-13",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Part 13 · Professional Gastronomy & Culinary Arts",
+    "manual_url": "manuals/en/vocabulary/b1/part-13.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.part-14",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Part 14 · Law, Crime & Judicial System",
+    "manual_url": "manuals/en/vocabulary/b1/part-14.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.part-15",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Part 15 · Environment, Disasters & Conservation",
+    "manual_url": "manuals/en/vocabulary/b1/part-15.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.part-16",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Part 16 · Advanced Computing, Cybersecurity & AI",
+    "manual_url": "manuals/en/vocabulary/b1/part-16.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.part-17",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Part 17 · Arts, Culture & Performing Arts",
+    "manual_url": "manuals/en/vocabulary/b1/part-17.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.part-18",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Part 18 · Philosophy, Values & Moral Ethics",
+    "manual_url": "manuals/en/vocabulary/b1/part-18.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.part-19",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Part 19 · Current Affairs & Global Economy",
+    "manual_url": "manuals/en/vocabulary/b1/part-19.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.part-2",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Part 2 · Personality, Psychology & Emotions",
+    "manual_url": "manuals/en/vocabulary/b1/part-2.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.part-20",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Part 20 · Business English, Leadership & Negotiation",
+    "manual_url": "manuals/en/vocabulary/b1/part-20.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.part-21",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Part 21 · Life Skills, Decision Making & Critical Thinking",
+    "manual_url": "manuals/en/vocabulary/b1/part-21.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.part-3",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Part 3 · Work, Career & Business Communication",
+    "manual_url": "manuals/en/vocabulary/b1/part-3.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.part-4",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Part 4 · Media, Digital Life & Cybersecurity",
+    "manual_url": "manuals/en/vocabulary/b1/part-4.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.part-5",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Part 5 · Ecology, Climate & Sustainability",
+    "manual_url": "manuals/en/vocabulary/b1/part-5.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.part-6",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Part 6 · Health, Medicine & Lifestyle",
+    "manual_url": "manuals/en/vocabulary/b1/part-6.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.part-7",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Part 7 · Travel, Immigration & Global Mobility",
+    "manual_url": "manuals/en/vocabulary/b1/part-7.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.part-8",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Part 8 · Education, Academic Integrity & Research",
+    "manual_url": "manuals/en/vocabulary/b1/part-8.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.part-9",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Part 9 · Society, Civics & Human Rights",
+    "manual_url": "manuals/en/vocabulary/b1/part-9.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.advanced-computing-cybersecurity-and-ai",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Advanced Computing, Cybersecurity & AI",
+    "manual_url": "manuals/en/vocabulary/b1/topics/advanced-computing-cybersecurity-and-ai.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.arts-culture-and-performing-arts",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Arts, Culture & Performing Arts",
+    "manual_url": "manuals/en/vocabulary/b1/topics/arts-culture-and-performing-arts.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.business-english-leadership-and-negotiation",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Business English, Leadership & Negotiation",
+    "manual_url": "manuals/en/vocabulary/b1/topics/business-english-leadership-and-negotiation.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.current-affairs-and-global-economy",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Current Affairs & Global Economy",
+    "manual_url": "manuals/en/vocabulary/b1/topics/current-affairs-and-global-economy.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.ecology-climate-and-sustainability",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Ecology, Climate & Sustainability",
+    "manual_url": "manuals/en/vocabulary/b1/topics/ecology-climate-and-sustainability.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.education-academic-integrity-and-research",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Education, Academic Integrity & Research",
+    "manual_url": "manuals/en/vocabulary/b1/topics/education-academic-integrity-and-research.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.environment-disasters-and-conservation",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Environment, Disasters & Conservation",
+    "manual_url": "manuals/en/vocabulary/b1/topics/environment-disasters-and-conservation.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.health-medicine-and-lifestyle",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Health, Medicine & Lifestyle",
+    "manual_url": "manuals/en/vocabulary/b1/topics/health-medicine-and-lifestyle.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.housing-homeownership-and-diy",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Housing, Homeownership & DIY",
+    "manual_url": "manuals/en/vocabulary/b1/topics/housing-homeownership-and-diy.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.law-crime-and-judicial-system",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Law, Crime & Judicial System",
+    "manual_url": "manuals/en/vocabulary/b1/topics/law-crime-and-judicial-system.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.life-skills-decision-making-and-critical-thinking",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Life Skills, Decision Making & Critical Thinking",
+    "manual_url": "manuals/en/vocabulary/b1/topics/life-skills-decision-making-and-critical-thinking.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.media-digital-life-and-cybersecurity",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Media, Digital Life & Cybersecurity",
+    "manual_url": "manuals/en/vocabulary/b1/topics/media-digital-life-and-cybersecurity.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.money-personal-finance-and-consumer-rights",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Money, Personal Finance & Consumer Rights",
+    "manual_url": "manuals/en/vocabulary/b1/topics/money-personal-finance-and-consumer-rights.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.personality-psychology-and-emotions",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Personality, Psychology & Emotions",
+    "manual_url": "manuals/en/vocabulary/b1/topics/personality-psychology-and-emotions.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.philosophy-values-and-moral-ethics",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Philosophy, Values & Moral Ethics",
+    "manual_url": "manuals/en/vocabulary/b1/topics/philosophy-values-and-moral-ethics.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.phrasal-verbs-everyday-non-literal-meanings",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Phrasal Verbs: Everyday Non-Literal Meanings",
+    "manual_url": "manuals/en/vocabulary/b1/topics/phrasal-verbs-everyday-non-literal-meanings.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.professional-gastronomy-and-culinary-arts",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Professional Gastronomy & Culinary Arts",
+    "manual_url": "manuals/en/vocabulary/b1/topics/professional-gastronomy-and-culinary-arts.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.science-innovation-and-future-tech",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Science, Innovation & Future Tech",
+    "manual_url": "manuals/en/vocabulary/b1/topics/science-innovation-and-future-tech.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.society-civics-and-human-rights",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Society, Civics & Human Rights",
+    "manual_url": "manuals/en/vocabulary/b1/topics/society-civics-and-human-rights.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.travel-immigration-and-global-mobility",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Travel, Immigration & Global Mobility",
+    "manual_url": "manuals/en/vocabulary/b1/topics/travel-immigration-and-global-mobility.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b1.work-career-and-business-communication",
+    "cefr": "B1",
+    "skill": "vocabulary",
+    "title": "Work, Career & Business Communication",
+    "manual_url": "manuals/en/vocabulary/b1/topics/work-career-and-business-communication.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.index",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "English Vocabulary Manual · Level B2",
+    "manual_url": "manuals/en/vocabulary/b2/index.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.part-1",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "Part 1 · Advanced Vocabulary Toolkit",
+    "manual_url": "manuals/en/vocabulary/b2/part-1.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.part-10",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "Part 10 · Philosophy, Ethics & Moral Logic",
+    "manual_url": "manuals/en/vocabulary/b2/part-10.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.part-11",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "Part 11 · Culture, Arts & Heritage",
+    "manual_url": "manuals/en/vocabulary/b2/part-11.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.part-12",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "Part 12 · Higher Education & Academic Inquiry",
+    "manual_url": "manuals/en/vocabulary/b2/part-12.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.part-13",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "Part 13 · Environment, Sustainability & Circular Economy",
+    "manual_url": "manuals/en/vocabulary/b2/part-13.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.part-14",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "Part 14 · International Relations & Geopolitics",
+    "manual_url": "manuals/en/vocabulary/b2/part-14.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.part-15",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "Part 15 · Healthcare Systems & Preventive Medicine",
+    "manual_url": "manuals/en/vocabulary/b2/part-15.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.part-16",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "Part 16 · Daily Professional Life & Workplace Dynamics",
+    "manual_url": "manuals/en/vocabulary/b2/part-16.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.part-2",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "Part 2 · Society, Government & Public Life",
+    "manual_url": "manuals/en/vocabulary/b2/part-2.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.part-3",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "Part 3 · Law, Justice & Civil Rights",
+    "manual_url": "manuals/en/vocabulary/b2/part-3.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.part-4",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "Part 4 · Economics, Trade & Finance",
+    "manual_url": "manuals/en/vocabulary/b2/part-4.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.part-5",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "Part 5 · Business Strategy, Management & Leadership",
+    "manual_url": "manuals/en/vocabulary/b2/part-5.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.part-6",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "Part 6 · Science, Research & Empirical Methodology",
+    "manual_url": "manuals/en/vocabulary/b2/part-6.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.part-7",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "Part 7 · Technology, AI & Cybernetics",
+    "manual_url": "manuals/en/vocabulary/b2/part-7.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.part-8",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "Part 8 · Media, Journalism & Public Discourse",
+    "manual_url": "manuals/en/vocabulary/b2/part-8.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.part-9",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "Part 9 · Psychology, Cognition & Behavior",
+    "manual_url": "manuals/en/vocabulary/b2/part-9.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.advanced-vocabulary-toolkit",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "Advanced Vocabulary Toolkit",
+    "manual_url": "manuals/en/vocabulary/b2/topics/advanced-vocabulary-toolkit.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.business-strategy-management-and-leadership",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "Business Strategy, Management & Leadership",
+    "manual_url": "manuals/en/vocabulary/b2/topics/business-strategy-management-and-leadership.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.culture-arts-and-heritage",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "Culture, Arts & Heritage",
+    "manual_url": "manuals/en/vocabulary/b2/topics/culture-arts-and-heritage.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.daily-professional-life-and-workplace-dynamics",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "Daily Professional Life & Workplace Dynamics",
+    "manual_url": "manuals/en/vocabulary/b2/topics/daily-professional-life-and-workplace-dynamics.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.economics-trade-and-finance",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "Economics, Trade & Finance",
+    "manual_url": "manuals/en/vocabulary/b2/topics/economics-trade-and-finance.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.environment-sustainability-and-circular-economy",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "Environment, Sustainability & Circular Economy",
+    "manual_url": "manuals/en/vocabulary/b2/topics/environment-sustainability-and-circular-economy.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.healthcare-systems-and-preventive-medicine",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "Healthcare Systems & Preventive Medicine",
+    "manual_url": "manuals/en/vocabulary/b2/topics/healthcare-systems-and-preventive-medicine.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.higher-education-and-academic-inquiry",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "Higher Education & Academic Inquiry",
+    "manual_url": "manuals/en/vocabulary/b2/topics/higher-education-and-academic-inquiry.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.international-relations-and-geopolitics",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "International Relations & Geopolitics",
+    "manual_url": "manuals/en/vocabulary/b2/topics/international-relations-and-geopolitics.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.law-justice-and-civil-rights",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "Law, Justice & Civil Rights",
+    "manual_url": "manuals/en/vocabulary/b2/topics/law-justice-and-civil-rights.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.media-journalism-and-public-discourse",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "Media, Journalism & Public Discourse",
+    "manual_url": "manuals/en/vocabulary/b2/topics/media-journalism-and-public-discourse.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.philosophy-ethics-and-moral-logic",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "Philosophy, Ethics & Moral Logic",
+    "manual_url": "manuals/en/vocabulary/b2/topics/philosophy-ethics-and-moral-logic.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.psychology-cognition-and-behavior",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "Psychology, Cognition & Behavior",
+    "manual_url": "manuals/en/vocabulary/b2/topics/psychology-cognition-and-behavior.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.science-research-and-empirical-methodology",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "Science, Research & Empirical Methodology",
+    "manual_url": "manuals/en/vocabulary/b2/topics/science-research-and-empirical-methodology.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.society-government-and-public-life",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "Society, Government & Public Life",
+    "manual_url": "manuals/en/vocabulary/b2/topics/society-government-and-public-life.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.b2.technology-ai-and-cybernetics",
+    "cefr": "B2",
+    "skill": "vocabulary",
+    "title": "Technology, AI & Cybernetics",
+    "manual_url": "manuals/en/vocabulary/b2/topics/technology-ai-and-cybernetics.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.index",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "English Vocabulary Manual · Level C1",
+    "manual_url": "manuals/en/vocabulary/c1/index.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.part-1",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Part 1 · Advanced Academic Discourse & Research",
+    "manual_url": "manuals/en/vocabulary/c1/part-1.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.part-10",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Part 10 · Psychology, Cognition & Behavior",
+    "manual_url": "manuals/en/vocabulary/c1/part-10.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.part-11",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Part 11 · Higher Education, Pedagogy & Academics",
+    "manual_url": "manuals/en/vocabulary/c1/part-11.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.part-12",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Part 12 · Culture, Heritage & Fine Arts",
+    "manual_url": "manuals/en/vocabulary/c1/part-12.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.part-13",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Part 13 · International Relations & Diplomacy",
+    "manual_url": "manuals/en/vocabulary/c1/part-13.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.part-14",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Part 14 · Environment, Ecology & Circular Economy",
+    "manual_url": "manuals/en/vocabulary/c1/part-14.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.part-2",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Part 2 · Jurisprudence, Litigation & Constitutional Law",
+    "manual_url": "manuals/en/vocabulary/c1/part-2.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.part-3",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Part 3 · Economics, Financial Markets & Fiscal Policy",
+    "manual_url": "manuals/en/vocabulary/c1/part-3.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.part-4",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Part 4 · Corporate Governance & Business Management",
+    "manual_url": "manuals/en/vocabulary/c1/part-4.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.part-5",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Part 5 · Medicine, Public Health & Bioethics",
+    "manual_url": "manuals/en/vocabulary/c1/part-5.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.part-6",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Part 6 · Natural Sciences, Neuroscience & Climate Science",
+    "manual_url": "manuals/en/vocabulary/c1/part-6.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.part-7",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Part 7 · Advanced Technology, AI & Cybernetics",
+    "manual_url": "manuals/en/vocabulary/c1/part-7.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.part-8",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Part 8 · Media, Journalism & Public Discourse",
+    "manual_url": "manuals/en/vocabulary/c1/part-8.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.part-9",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Part 9 · Philosophy, Ethics & Epistemology",
+    "manual_url": "manuals/en/vocabulary/c1/part-9.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.academic-genres-and-research-publications",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Academic Genres & Research Publications",
+    "manual_url": "manuals/en/vocabulary/c1/topics/academic-genres-and-research-publications.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.academic-literacy-assessment-and-pedagogy",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Academic Literacy, Assessment & Pedagogy",
+    "manual_url": "manuals/en/vocabulary/c1/topics/academic-literacy-assessment-and-pedagogy.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.aesthetics-literature-and-architectural-heritage",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Aesthetics, Literature & Architectural Heritage",
+    "manual_url": "manuals/en/vocabulary/c1/topics/aesthetics-literature-and-architectural-heritage.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.artificial-intelligence-machine-learning-and-robotics",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Artificial Intelligence, Machine Learning & Robotics",
+    "manual_url": "manuals/en/vocabulary/c1/topics/artificial-intelligence-machine-learning-and-robotics.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.banking-investment-cryptocurrencies-and-crises",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Banking, Investment, Cryptocurrencies & Crises",
+    "manual_url": "manuals/en/vocabulary/c1/topics/banking-investment-cryptocurrencies-and-crises.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.civil-law-contracts-and-torts",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Civil Law, Contracts & Torts",
+    "manual_url": "manuals/en/vocabulary/c1/topics/civil-law-contracts-and-torts.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.climate-adaptation-biodiversity-and-green-tech",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Climate Adaptation, Biodiversity & Green Tech",
+    "manual_url": "manuals/en/vocabulary/c1/topics/climate-adaptation-biodiversity-and-green-tech.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.cognitive-biases-mental-disorders-and-therapy",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Cognitive Biases, Mental Disorders & Therapy",
+    "manual_url": "manuals/en/vocabulary/c1/topics/cognitive-biases-mental-disorders-and-therapy.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.constitutional-and-international-law",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Constitutional & International Law",
+    "manual_url": "manuals/en/vocabulary/c1/topics/constitutional-and-international-law.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.criminal-law-and-judicial-proceedings",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Criminal Law & Judicial Proceedings",
+    "manual_url": "manuals/en/vocabulary/c1/topics/criminal-law-and-judicial-proceedings.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.cybersecurity-big-data-and-digital-ethics",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Cybersecurity, Big Data & Digital Ethics",
+    "manual_url": "manuals/en/vocabulary/c1/topics/cybersecurity-big-data-and-digital-ethics.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.diagnostics-clinical-trials-and-specialties",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Diagnostics, Clinical Trials & Specialties",
+    "manual_url": "manuals/en/vocabulary/c1/topics/diagnostics-clinical-trials-and-specialties.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.executive-leadership-operations-and-hr",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Executive Leadership, Operations & HR",
+    "manual_url": "manuals/en/vocabulary/c1/topics/executive-leadership-operations-and-hr.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.geopolitics-soft-power-and-peacekeeping",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Geopolitics, Soft Power & Peacekeeping",
+    "manual_url": "manuals/en/vocabulary/c1/topics/geopolitics-soft-power-and-peacekeeping.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.investigative-journalism-and-press-freedom",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Investigative Journalism & Press Freedom",
+    "manual_url": "manuals/en/vocabulary/c1/topics/investigative-journalism-and-press-freedom.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.microeconomics-macroeconomics-and-behavioural-economics",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Microeconomics, Macroeconomics & Behavioural Economics",
+    "manual_url": "manuals/en/vocabulary/c1/topics/microeconomics-macroeconomics-and-behavioural-economics.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.morality-existentialism-and-epistemology",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Morality, Existentialism & Epistemology",
+    "manual_url": "manuals/en/vocabulary/c1/topics/morality-existentialism-and-epistemology.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.physics-chemistry-biology-and-genetics",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Physics, Chemistry, Biology & Genetics",
+    "manual_url": "manuals/en/vocabulary/c1/topics/physics-chemistry-biology-and-genetics.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.research-ethics-peer-review-and-methodology",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Research Ethics, Peer Review & Methodology",
+    "manual_url": "manuals/en/vocabulary/c1/topics/research-ethics-peer-review-and-methodology.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.risk-management-change-and-entrepreneurship",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Risk Management, Change & Entrepreneurship",
+    "manual_url": "manuals/en/vocabulary/c1/topics/risk-management-change-and-entrepreneurship.html",
+    "practice_ids": [],
+    "prereqs": []
+  },
+  {
+    "id": "en.vocabulary.c1.statistical-analysis-and-empirical-data-interpretation",
+    "cefr": "C1",
+    "skill": "vocabulary",
+    "title": "Statistical Analysis & Empirical Data Interpretation",
+    "manual_url": "manuals/en/vocabulary/c1/topics/statistical-analysis-and-empirical-data-interpretation.html",
+    "practice_ids": [],
+    "prereqs": []
+  }
+]
