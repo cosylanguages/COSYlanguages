@@ -244,6 +244,13 @@
             await window.COSY.loadMorphologyData(targetLang);
         }
 
+        // Load reference phonology datasets (sounds, stress, intonation)
+        if (window.COSY && window.COSY.loadPhonologyData) {
+            await window.COSY.loadPhonologyData(targetLang);
+        } else if (window.loadPhonologyData) {
+            await window.loadPhonologyData(targetLang);
+        }
+
         // Also load curriculum for pronunciation if needed
         if (window.COSY && window.COSY.loadCurriculum) {
             const lvl = (level || 'starter').toLowerCase();
@@ -373,7 +380,7 @@
 
             // Fallback to aggregated window.*Data if pool is empty
             if (pool.length === 0) {
-                const keys = ['vocabularyData', 'verbsData', 'adjectivesData', 'nationalitiesData', 'grammarData', 'grammarElements'];
+                const keys = ['vocabularyData', 'verbsData', 'adjectivesData', 'locationsData', 'peopleData', 'nationalitiesData', 'grammarData', 'grammarElements'];
                 let aggregatedPool = [];
                 keys.forEach(key => {
                     if (window[key] && window[key][l]) aggregatedPool = aggregatedPool.concat(window[key][l]);
@@ -448,6 +455,8 @@
             const codes = (level === 'all') ? Object.values(LEVEL_MAP) : [LEVEL_MAP[level] || 'a1'];
 
             const tempPool = [];
+
+            // 1. Source from Curriculum Data
             codes.forEach(lvlCode => {
                 const currKey = `${l}_${lvlCode}`;
                 const currData = window.curriculumData?.[currKey] || [];
@@ -488,6 +497,56 @@
                     });
                 });
             });
+
+            // 2. Source from Reference Phonology Datasets (sounds, stress, intonation)
+            const phonData = window.phonologyData?.[l] || {};
+            ['sounds', 'stress', 'intonation'].forEach(pCat => {
+                const groups = phonData[pCat] || [];
+                groups.forEach(group => {
+                    const grpLevel = (group.level || 'A1').toLowerCase();
+                    const groupMappedLevel = LEVEL_MAP[grpLevel] || grpLevel;
+
+                    // Extract examples from reference phonology group
+                    if (Array.isArray(group.examples)) {
+                        group.examples.forEach(ex => {
+                            let textWord = '';
+                            let textIpa = null;
+                            if (typeof ex === 'string') {
+                                textWord = ex;
+                            } else if (ex && typeof ex === 'object') {
+                                textWord = ex.t || ex.word || ex.text || group.label;
+                                textIpa = ex.m || ex.ipa || null;
+                            }
+
+                            if (textWord) {
+                                tempPool.push({
+                                    word: textWord,
+                                    ipa: textIpa,
+                                    theme: group.label || group.id,
+                                    type: 'ls',
+                                    language: l,
+                                    level: groupMappedLevel,
+                                    form: 'pronunciation'
+                                });
+                            }
+                        });
+                    }
+
+                    // Fallback to group label/definition if no examples
+                    if ((!group.examples || group.examples.length === 0) && group.label) {
+                        tempPool.push({
+                            word: group.label,
+                            ipa: group.definition || null,
+                            theme: group.label,
+                            type: 'ls',
+                            language: l,
+                            level: groupMappedLevel,
+                            form: 'pronunciation'
+                        });
+                    }
+                });
+            });
+
             pool = window.gameUtils.filterVocabulary(tempPool, { lang: l, level, theme, subTheme, category: 'Pronunciation' });
         }
 
@@ -681,11 +740,11 @@
                     };
                 } else if (cat === 'Speaking' || cat === 'speaking') {
                     return { form: 'conv', q: item.topic || item.text || item.q, level: LEVEL_MAP[item.level] || item.level || 'a1', theme: item.theme };
-                } else if (cat === 'Pronunciation' || cat === 'pronunciation') {
-                    const correctIpa = item.ipa;
+                } else if (cat === 'Pronunciation' || cat === 'pronunciation' || cat === 'Pronunciation 🔊') {
+                    const correctIpa = item.ipa || item.word;
                     const distractors = ['/a/', '/i/', '/u/', '/e/', '/o/'].filter(i => i !== correctIpa).sort(() => Math.random() - 0.5).slice(0, 2);
                     const opts = [correctIpa, ...distractors].sort(() => Math.random() - 0.5);
-                    return { form: 'ls', q: '🔊 ?', item: item, ans: opts.indexOf(correctIpa), opts: opts, theme: item.theme };
+                    return { form: 'ls', q: `🔊 Pronounce: ${item.word}`, item: item, ans: opts.indexOf(correctIpa), opts: opts, theme: item.theme };
                 }
                 return item;
             });
