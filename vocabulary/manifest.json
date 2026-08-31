@@ -2,17 +2,34 @@
   "ba": {
     "A1": [
       "adjectives.js",
+      "animals.js",
+      "body.js",
+      "clothes.js",
+      "colours.js",
       "debates.js",
       "dishes.js",
+      "family.js",
       "fluency.js",
+      "food_drink.js",
+      "furniture.js",
       "grammar.js",
       "grammar_elements.js",
+      "greetings.js",
+      "jobs.js",
       "locations.js",
       "nationalities.js",
+      "nature.js",
+      "numbers.js",
       "opinions.js",
       "people.js",
+      "places.js",
       "quotes.js",
+      "school.js",
+      "shopping.js",
+      "social.js",
       "speaking.js",
+      "technology.js",
+      "time.js",
       "travel.js",
       "verbs.js",
       "vocabulary.js"
@@ -28,12 +45,18 @@
       "opinions.js"
     ],
     "B2": [
+      "adjectives.js",
       "fluency.js",
-      "opinions.js"
+      "opinions.js",
+      "verbs.js",
+      "vocabulary.js"
     ],
     "C1": [
+      "adjectives.js",
       "fluency.js",
-      "opinions.js"
+      "opinions.js",
+      "verbs.js",
+      "vocabulary.js"
     ],
     "C2": [
       "adjectives.js",
@@ -46,17 +69,34 @@
   "br": {
     "A1": [
       "adjectives.js",
+      "animals.js",
+      "body.js",
+      "clothes.js",
+      "colours.js",
       "debates.js",
       "dishes.js",
+      "family.js",
       "fluency.js",
+      "food_drink.js",
+      "furniture.js",
       "grammar.js",
       "grammar_elements.js",
+      "greetings.js",
+      "jobs.js",
       "locations.js",
       "nationalities.js",
+      "nature.js",
+      "numbers.js",
       "opinions.js",
       "people.js",
+      "places.js",
       "quotes.js",
+      "school.js",
+      "shopping.js",
+      "social.js",
       "speaking.js",
+      "technology.js",
+      "time.js",
       "travel.js",
       "verbs.js",
       "vocabulary.js"
@@ -72,12 +112,18 @@
       "opinions.js"
     ],
     "B2": [
+      "adjectives.js",
       "fluency.js",
-      "opinions.js"
+      "opinions.js",
+      "verbs.js",
+      "vocabulary.js"
     ],
     "C1": [
+      "adjectives.js",
       "fluency.js",
-      "opinions.js"
+      "opinions.js",
+      "verbs.js",
+      "vocabulary.js"
     ],
     "C2": [
       "adjectives.js",
@@ -444,17 +490,35 @@
   "hy": {
     "A1": [
       "adjectives.js",
+      "animals.js",
+      "body.js",
+      "clothes.js",
+      "colours.js",
       "debates.js",
       "dishes.js",
+      "family.js",
       "fluency.js",
+      "food_drink.js",
+      "furniture.js",
       "grammar.js",
       "grammar_elements.js",
+      "greetings.js",
+      "jobs.js",
       "locations.js",
       "nationalities.js",
+      "nature.js",
+      "numbers.js",
       "opinions.js",
       "people.js",
+      "places.js",
       "quotes.js",
+      "school.js",
+      "shopping.js",
+      "social.js",
       "speaking.js",
+      "technology.js",
+      "time.js",
+      "travel.js",
       "verbs.js",
       "vocabulary.js"
     ],
@@ -469,12 +533,18 @@
       "opinions.js"
     ],
     "B2": [
+      "adjectives.js",
       "fluency.js",
-      "opinions.js"
+      "opinions.js",
+      "verbs.js",
+      "vocabulary.js"
     ],
     "C1": [
+      "adjectives.js",
       "fluency.js",
-      "opinions.js"
+      "opinions.js",
+      "verbs.js",
+      "vocabulary.js"
     ],
     "C2": [
       "adjectives.js",
@@ -579,17 +649,35 @@
   "ka": {
     "A1": [
       "adjectives.js",
+      "animals.js",
+      "body.js",
+      "clothes.js",
+      "colours.js",
       "debates.js",
       "dishes.js",
+      "family.js",
       "fluency.js",
+      "food_drink.js",
+      "furniture.js",
       "grammar.js",
       "grammar_elements.js",
+      "greetings.js",
+      "jobs.js",
       "locations.js",
       "nationalities.js",
+      "nature.js",
+      "numbers.js",
       "opinions.js",
       "people.js",
+      "places.js",
       "quotes.js",
+      "school.js",
+      "shopping.js",
+      "social.js",
       "speaking.js",
+      "technology.js",
+      "time.js",
+      "travel.js",
       "verbs.js",
       "vocabulary.js"
     ],
@@ -604,12 +692,18 @@
       "opinions.js"
     ],
     "B2": [
+      "adjectives.js",
       "fluency.js",
-      "opinions.js"
+      "opinions.js",
+      "verbs.js",
+      "vocabulary.js"
     ],
     "C1": [
+      "adjectives.js",
       "fluency.js",
-      "opinions.js"
+      "opinions.js",
+      "verbs.js",
+      "vocabulary.js"
     ],
     "C2": [
       "adjectives.js",
@@ -744,17 +838,35 @@
   "tt": {
     "A1": [
       "adjectives.js",
+      "animals.js",
+      "body.js",
+      "clothes.js",
+      "colours.js",
       "debates.js",
       "dishes.js",
+      "family.js",
       "fluency.js",
+      "food_drink.js",
+      "furniture.js",
       "grammar.js",
       "grammar_elements.js",
+      "greetings.js",
+      "jobs.js",
       "locations.js",
       "nationalities.js",
+      "nature.js",
+      "numbers.js",
       "opinions.js",
       "people.js",
+      "places.js",
       "quotes.js",
+      "school.js",
+      "shopping.js",
+      "social.js",
       "speaking.js",
+      "technology.js",
+      "time.js",
+      "travel.js",
       "verbs.js",
       "vocabulary.js"
     ],
@@ -769,12 +881,18 @@
       "opinions.js"
     ],
     "B2": [
+      "adjectives.js",
       "fluency.js",
-      "opinions.js"
+      "opinions.js",
+      "verbs.js",
+      "vocabulary.js"
     ],
     "C1": [
+      "adjectives.js",
       "fluency.js",
-      "opinions.js"
+      "opinions.js",
+      "verbs.js",
+      "vocabulary.js"
     ],
     "C2": [
       "adjectives.js",
