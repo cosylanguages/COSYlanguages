@@ -1,4 +1,874 @@
 {
+  "intonation": [
+    {
+      "lang": "el",
+      "group_id": "epipedo_tonou_erotiseis",
+      "label": "Επιτονισμός προτάσεων και ερωτήσεων",
+      "practice_links": []
+    },
+    {
+      "lang": "el",
+      "group_id": "epitonismos_prostagon_parakliseon",
+      "label": "Επιτονισμός προσταγών και παρακλήσεων",
+      "practice_links": []
+    },
+    {
+      "lang": "el",
+      "group_id": "intonation_lists_continuation",
+      "label": "Επιτονισμός απαρίθμησης και ημιτελούς πρότασης",
+      "practice_links": []
+    },
+    {
+      "lang": "el",
+      "group_id": "epitonismos_dilemmatikon_erotiseon",
+      "label": "Επιτονισμός διλημματικών ερωτήσεων",
+      "practice_links": []
+    },
+    {
+      "lang": "el",
+      "group_id": "intonation_emphasis_emotions",
+      "label": "Επιτονισμός έμφασης και συναισθήματος",
+      "practice_links": []
+    },
+    {
+      "lang": "el",
+      "group_id": "epitonismos_ironias_ypothetikon",
+      "label": "Επιτονισμός ειρωνείας και υποθετικών λόγων",
+      "practice_links": []
+    },
+    {
+      "lang": "el",
+      "group_id": "epitonismos_yponooumenon_prosodias",
+      "label": "Επιτονισμός υπονοουμένων και επιφύλαξης",
+      "practice_links": []
+    },
+    {
+      "lang": "el",
+      "group_id": "epitonismos_rhytorikou_logou",
+      "label": "Επιτονισμός ρητορικών ερωτήσεων και πειθούς",
+      "practice_links": []
+    },
+    {
+      "lang": "el",
+      "group_id": "epitonismos_theatrikou_logou",
+      "label": "Επιτονισμός θεατρικής και ποιητικής απαγγελίας",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "basic_intonation",
+      "label": "Rising & Falling Intonation",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "connected_speech",
+      "label": "Connected Speech & Linking",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "tag_question_intonation",
+      "label": "Question Tag Intonation",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "choice_politeness_intonation",
+      "label": "Choice & Polite Request Intonation",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "contrastive_tonic_intonation",
+      "label": "Contrastive & Tonic Intonation",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "thought_groups_parentheticals",
+      "label": "Thought Groups & Chunking",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "attitudinal_intonation_nuance",
+      "label": "Attitudinal Intonation Contours",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "discourse_intonation_key",
+      "label": "Discourse Intonation & Pitch Key",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "stylistic_rhetorical_intonation",
+      "label": "Stylistic & Rhetorical Pitch Movement",
+      "practice_links": []
+    },
+    {
+      "lang": "fr",
+      "group_id": "intonation_base",
+      "label": "Intonation de base",
+      "practice_links": []
+    },
+    {
+      "lang": "fr",
+      "group_id": "intonation_questions_est_ce_que",
+      "label": "Intonation des questions structurées",
+      "practice_links": []
+    },
+    {
+      "lang": "fr",
+      "group_id": "liaison_enchainement",
+      "label": "Liaisons et enchaînements",
+      "practice_links": []
+    },
+    {
+      "lang": "fr",
+      "group_id": "liaisons_obligatoires_interdites",
+      "label": "Liaisons obligatoires vs interdites",
+      "practice_links": []
+    },
+    {
+      "lang": "fr",
+      "group_id": "intonation_nuances_et_modalites",
+      "label": "Intonation expressive et nuances",
+      "practice_links": []
+    },
+    {
+      "lang": "fr",
+      "group_id": "enchainement_et_schema_subordination",
+      "label": "Mélodie des subordinations et parenthèses",
+      "practice_links": []
+    },
+    {
+      "lang": "fr",
+      "group_id": "intonation_ironie_sarcasme",
+      "label": "Intonation de l'ironie et du sarcasme",
+      "practice_links": []
+    },
+    {
+      "lang": "fr",
+      "group_id": "intonation_oratoire_concession",
+      "label": "Intonation oratoire et argumentative",
+      "practice_links": []
+    },
+    {
+      "lang": "fr",
+      "group_id": "intonation_style_litteraire_diction",
+      "label": "Mélodie de la diction littéraire et théâtrale",
+      "practice_links": []
+    },
+    {
+      "lang": "it",
+      "group_id": "intonazione_base_domande",
+      "label": "Intonazione dichiarativa e interrogativa",
+      "practice_links": []
+    },
+    {
+      "lang": "it",
+      "group_id": "intonazione_domande_aperte_esclamazioni",
+      "label": "Intonazione con pronomi interrogativi ed esclamazioni",
+      "practice_links": []
+    },
+    {
+      "lang": "it",
+      "group_id": "intonazione_sospensione_liste",
+      "label": "Intonazione di sospensione ed enumerazione",
+      "practice_links": []
+    },
+    {
+      "lang": "it",
+      "group_id": "intonazione_alternativa_cortesia",
+      "label": "Intonazione alternativa e di cortesia",
+      "practice_links": []
+    },
+    {
+      "lang": "it",
+      "group_id": "intonazione_espressiva_sfumature",
+      "label": "Intonazione espressiva ed enfatica",
+      "practice_links": []
+    },
+    {
+      "lang": "it",
+      "group_id": "intonazione_ironia_subordinate",
+      "label": "Intonazione dell'ironia e dei periodi complessi",
+      "practice_links": []
+    },
+    {
+      "lang": "it",
+      "group_id": "intonazione_periodo_ipotetico_concessione",
+      "label": "Intonazione del periodo ipotetico del 3° tipo",
+      "practice_links": []
+    },
+    {
+      "lang": "it",
+      "group_id": "intonazione_argomentativa_persuasione",
+      "label": "Intonazione del discorso argomentativo",
+      "practice_links": []
+    },
+    {
+      "lang": "it",
+      "group_id": "intonazione_recitazione_dizione",
+      "label": "Intonazione della recitazione e tono aulico",
+      "practice_links": []
+    },
+    {
+      "lang": "ru",
+      "group_id": "ik1_ik2",
+      "label": "Интонационные конструкции ИК-1 и ИК-2",
+      "practice_links": []
+    },
+    {
+      "lang": "ru",
+      "group_id": "ik2_obrascheniya_prosoba",
+      "label": "ИК-2 в обращениях, вежливых просьбах и приветствиях",
+      "practice_links": []
+    },
+    {
+      "lang": "ru",
+      "group_id": "ik3_ik4",
+      "label": "Интонационные конструкции ИК-3 и ИК-4",
+      "practice_links": []
+    },
+    {
+      "lang": "ru",
+      "group_id": "ik4_perechislenie_oficialnyy_zpros",
+      "label": "ИК-4 при официальном запросе и синтаксическом неконце",
+      "practice_links": []
+    },
+    {
+      "lang": "ru",
+      "group_id": "ik5_ik6_ik7",
+      "label": "Интонационные конструкции ИК-5 и ИК-6",
+      "practice_links": []
+    },
+    {
+      "lang": "ru",
+      "group_id": "ik7_otricanie_ironiya",
+      "label": "Интонационная конструкция ИК-7 (Ирония и отрицание)",
+      "practice_links": []
+    },
+    {
+      "lang": "ru",
+      "group_id": "ik7_vysokaya_stilistika",
+      "label": "Интонационные фигуры книжной и научнной речи",
+      "practice_links": []
+    },
+    {
+      "lang": "ru",
+      "group_id": "intonatsiya_publichnogo_vystupleniya",
+      "label": "Интонация публичной речи и лекции",
+      "practice_links": []
+    },
+    {
+      "lang": "ru",
+      "group_id": "intonatsiya_hudojestvennogo_chteniya",
+      "label": "Интонация декламации и художественного чтения",
+      "practice_links": []
+    }
+  ],
+  "sounds": [
+    {
+      "lang": "el",
+      "group_id": "symfona_pseudofila",
+      "label": "Σύμφωνα – Ψευδόφιλες Γραφές",
+      "practice_links": []
+    },
+    {
+      "lang": "el",
+      "group_id": "fonienta_symfona_base",
+      "label": "Φωνήεντα και σύμφωνα",
+      "practice_links": []
+    },
+    {
+      "lang": "el",
+      "group_id": "teliko_n_kanonas",
+      "label": "Ο κανόνας του τελικού -ν",
+      "practice_links": []
+    },
+    {
+      "lang": "el",
+      "group_id": "dipsifa_grammata",
+      "label": "Δίψηφα φωνήεντα και σύμφωνα",
+      "practice_links": []
+    },
+    {
+      "lang": "el",
+      "group_id": "dipla_symfona_s_sm",
+      "label": "Διπλά σύμφωνα και προφορά του Σ/ΣΜ",
+      "practice_links": []
+    },
+    {
+      "lang": "el",
+      "group_id": "syndyasmoi_af_ef",
+      "label": "Συνδυασμοί ΑΥ και ΕΥ",
+      "practice_links": []
+    },
+    {
+      "lang": "el",
+      "group_id": "ekthlipsi_afairesi_symplegmata",
+      "label": "Έκθλιψη, αφαίρεση και συμπλέγματα φθόγγων",
+      "practice_links": []
+    },
+    {
+      "lang": "el",
+      "group_id": "fonitikes_parallages_dialektoi",
+      "label": "Φωνητικές παραλλαγές και λόγιες επιδράσεις",
+      "practice_links": []
+    },
+    {
+      "lang": "el",
+      "group_id": "assimilosi_phthongon_logia",
+      "label": "Αφομοίωση φθόγγων και λόγια συμπλέγματα",
+      "practice_links": []
+    },
+    {
+      "lang": "el",
+      "group_id": "fonitiki_fylologiis_metriki",
+      "label": "Φωνητική της λογοτεχνικής γλώσσας",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "vowels_consonants",
+      "label": "Vowels & Consonants",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "magic_e_rule",
+      "label": "The Silent-E / Magic-E Rule",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "consonant_digraphs",
+      "label": "Common Consonant Digraphs",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "silent_letters",
+      "label": "Silent Letters",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "ed_s_endings",
+      "label": "Pronunciation of -ed and -s Endings",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "r_controlled_vowels",
+      "label": "R-Controlled Vowels",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "diphthongs_vowel_length",
+      "label": "Diphthongs & Vowel Duration",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "glottal_stop_assimilation",
+      "label": "Glottal Stop & Consonant Assimilation",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "tion_sion_cian_endings",
+      "label": "Suffix Sound Shifts: -tion, -sion, -cian",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "consonant_clusters_elision",
+      "label": "Consonant Clusters & Elision",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "weak_strong_forms_intrusion",
+      "label": "Weak Forms & Linking Intrusion",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "coarticulation_epenthesis",
+      "label": "Coarticulation & Epenthesis",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "sociolinguistic_phonetics_accents",
+      "label": "Sociolinguistic Phonetic Variation",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "phonological_stylistics_metrics",
+      "label": "Phonological Stylistics & Aesthetics",
+      "practice_links": []
+    },
+    {
+      "lang": "fr",
+      "group_id": "voyelles_et_consonnes_base",
+      "label": "Voyelles et consonnes de base",
+      "practice_links": []
+    },
+    {
+      "lang": "fr",
+      "group_id": "consonnes_finales_muettes",
+      "label": "Consonnes finales muettes et voyelles U/OU/I",
+      "practice_links": []
+    },
+    {
+      "lang": "fr",
+      "group_id": "h_aspire_et_muet",
+      "label": "H aspiré vs H muet",
+      "practice_links": []
+    },
+    {
+      "lang": "fr",
+      "group_id": "elision_de_base",
+      "label": "Élision de base",
+      "practice_links": []
+    },
+    {
+      "lang": "fr",
+      "group_id": "prononciation_t_devant_i_tion_tie",
+      "label": "Prononciation du T devant I (-tion, -tie, -tiel)",
+      "practice_links": []
+    },
+    {
+      "lang": "fr",
+      "group_id": "voyelles_nasales",
+      "label": "Les voyelles nasales",
+      "practice_links": []
+    },
+    {
+      "lang": "fr",
+      "group_id": "semi_voyelles_et_finales_ent",
+      "label": "Semi-voyelles et terminaisons -ENT",
+      "practice_links": []
+    },
+    {
+      "lang": "fr",
+      "group_id": "e_caduc_muet",
+      "label": "Le E caduc (ou muet)",
+      "practice_links": []
+    },
+    {
+      "lang": "fr",
+      "group_id": "distinction_e_ouvert_ferme",
+      "label": "E ouvert [ɛ] et E fermé [e]",
+      "practice_links": []
+    },
+    {
+      "lang": "fr",
+      "group_id": "liaisons_facultatives_style",
+      "label": "Liaisons facultatives et registres",
+      "practice_links": []
+    },
+    {
+      "lang": "fr",
+      "group_id": "assimilation_sonorite_articulatoire",
+      "label": "Assimilation de sonorité",
+      "practice_links": []
+    },
+    {
+      "lang": "fr",
+      "group_id": "orthoepie_variations_diatopiques",
+      "label": "Orthoépie et diction littéraire",
+      "practice_links": []
+    },
+    {
+      "lang": "it",
+      "group_id": "vocali_e_consonanti",
+      "label": "Vocali e consonanti italiane",
+      "practice_links": []
+    },
+    {
+      "lang": "it",
+      "group_id": "pronuncia_s_z_h_muta",
+      "label": "Pronuncia di S, Z e H muta",
+      "practice_links": []
+    },
+    {
+      "lang": "it",
+      "group_id": "consonanti_doppie",
+      "label": "Consonanti doppie (Geminate)",
+      "practice_links": []
+    },
+    {
+      "lang": "it",
+      "group_id": "gruppi_sc_dittonghi_iati",
+      "label": "Gruppo SC, dittonghi e iati",
+      "practice_links": []
+    },
+    {
+      "lang": "it",
+      "group_id": "suoni_dolci_duri_c_g",
+      "label": "Suoni dolci e duri di C, G e gruppi speciali",
+      "practice_links": []
+    },
+    {
+      "lang": "it",
+      "group_id": "assimilazione_intrinsecamente_doppie",
+      "label": "Consonanti intrinsecamente intense",
+      "practice_links": []
+    },
+    {
+      "lang": "it",
+      "group_id": "varianti_regionali_dizione_neutra",
+      "label": "Varianti regionali e dizione neutra",
+      "practice_links": []
+    },
+    {
+      "lang": "it",
+      "group_id": "assimilazione_fonetica_regolativa",
+      "label": "Assimilazione fonetica in sintagmi",
+      "practice_links": []
+    },
+    {
+      "lang": "it",
+      "group_id": "ortoepia_fonetica_letteraria",
+      "label": "Ortoepia e fonetica letteraria",
+      "practice_links": []
+    },
+    {
+      "lang": "ru",
+      "group_id": "tverdye_i_myagkie_soglasnye",
+      "label": "Твёрдые и мягкие согласные",
+      "practice_links": []
+    },
+    {
+      "lang": "ru",
+      "group_id": "jotirovannye_glasnye_vsegda_tverdye_myagkie",
+      "label": "Йотированные гласные и непарные согласные",
+      "practice_links": []
+    },
+    {
+      "lang": "ru",
+      "group_id": "reduktsiya_glasnyh",
+      "label": "Редукция безударных гласных",
+      "practice_links": []
+    },
+    {
+      "lang": "ru",
+      "group_id": "neproiznosimye_soglasnye_tsya",
+      "label": "Непроизносимые согласные и сочетание -ТСЯ/-ТЬСЯ",
+      "practice_links": []
+    },
+    {
+      "lang": "ru",
+      "group_id": "oglushenie_i_ozvonchenie",
+      "label": "Оглушение и озвончение согласных",
+      "practice_links": []
+    },
+    {
+      "lang": "ru",
+      "group_id": "osobye_sochetaniya_cht_chn_g",
+      "label": "Особые произносительные нормы (ЧТ, ЧН, -ЕГО/-ОГО)",
+      "practice_links": []
+    },
+    {
+      "lang": "ru",
+      "group_id": "assimilyatsiya_po_myagkosti",
+      "label": "Ассимиляция согласных по мягкости",
+      "practice_links": []
+    },
+    {
+      "lang": "ru",
+      "group_id": "stilisticheskie_varianty_orfoepii",
+      "label": "Старомосковская и современная орфоэпическая норма",
+      "practice_links": []
+    },
+    {
+      "lang": "ru",
+      "group_id": "foneticheskaya_stilistika_stihoslozhenie",
+      "label": "Фонетическая стилистика и звукопись",
+      "practice_links": []
+    }
+  ],
+  "stress": [
+    {
+      "lang": "el",
+      "group_id": "kanonas_tonismou",
+      "label": "Ο κανόνας του τόνου",
+      "practice_links": []
+    },
+    {
+      "lang": "el",
+      "group_id": "tonos_monosyllaba_syndesmoi",
+      "label": "Τονισμός μονοσύλλαβων και διαζευκτικού Ή",
+      "practice_links": []
+    },
+    {
+      "lang": "el",
+      "group_id": "tonos_triplis_syllabis",
+      "label": "Κανόνας των τριών συλλαβών",
+      "practice_links": []
+    },
+    {
+      "lang": "el",
+      "group_id": "tonos_syntheta_prostaktiki",
+      "label": "Τονισμός στην προστακτική και στα σύνθετα",
+      "practice_links": []
+    },
+    {
+      "lang": "el",
+      "group_id": "egklisi_tonou_diakritikos",
+      "label": "Έγκλιση τόνου και διακριτικός τόνος",
+      "practice_links": []
+    },
+    {
+      "lang": "el",
+      "group_id": "tonismos_epirrimaton_prostaktikon",
+      "label": "Τονισμός επιρρημάτων σε -ως και διπλός τονισμός",
+      "practice_links": []
+    },
+    {
+      "lang": "el",
+      "group_id": "tonismos_logion_typwon",
+      "label": "Τονισμός λόγιων ουσιαστικών και επιθέτων",
+      "practice_links": []
+    },
+    {
+      "lang": "el",
+      "group_id": "rythmos_pithous_dilektike",
+      "label": "Ρυθμική δομή ρητορικού λόγου",
+      "practice_links": []
+    },
+    {
+      "lang": "el",
+      "group_id": "metriki_poiisis_prosodia",
+      "label": "Μετρική και προσωδία της ελληνικής ποίησης",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "word_stress",
+      "label": "Word Stress & Syllable Prominence",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "sentence_stress_schwa",
+      "label": "Sentence Stress & Schwa /ə/",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "suffix_stress_patterns",
+      "label": "Suffix Stress Patterns",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "rhythm_stress_timing",
+      "label": "Stress-Timed Rhythm",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "compound_word_stress",
+      "label": "Compound & Functional Stress",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "stress_shifts_word_families",
+      "label": "Stress Shifts in Word Families",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "secondary_stress_clash_avoidance",
+      "label": "Secondary Stress & Stress Shift",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "nuclear_stress_pragmatics",
+      "label": "Nuclear Stress & Pragmatic Focus",
+      "practice_links": []
+    },
+    {
+      "lang": "en",
+      "group_id": "rhetorical_prosody_cadence",
+      "label": "Rhetorical Prosody & Metrical Cadence",
+      "practice_links": []
+    },
+    {
+      "lang": "fr",
+      "group_id": "accent_de_groupe",
+      "label": "Accent tonique de groupe",
+      "practice_links": []
+    },
+    {
+      "lang": "fr",
+      "group_id": "syllabation_ouverte",
+      "label": "Syllabation ouverte et découpage",
+      "practice_links": []
+    },
+    {
+      "lang": "fr",
+      "group_id": "accent_insistance",
+      "label": "Accent d'insistance",
+      "practice_links": []
+    },
+    {
+      "lang": "fr",
+      "group_id": "allongement_syllabique",
+      "label": "Allongement de la syllabe accentuée",
+      "practice_links": []
+    },
+    {
+      "lang": "fr",
+      "group_id": "accentuation_rythme_phrase",
+      "label": "Rythme et groupes d'intonation",
+      "practice_links": []
+    },
+    {
+      "lang": "fr",
+      "group_id": "accentuation_mise_en_relief",
+      "label": "Accent de mise en relief et césure",
+      "practice_links": []
+    },
+    {
+      "lang": "fr",
+      "group_id": "accent_didactique_intellectuel",
+      "label": "Accent d'insistance intellectuel et didactique",
+      "practice_links": []
+    },
+    {
+      "lang": "fr",
+      "group_id": "rythme_oratoire_pauses",
+      "label": "Cadence oratoire et équilibre rythmique",
+      "practice_links": []
+    },
+    {
+      "lang": "fr",
+      "group_id": "versification_metrique_prosodie",
+      "label": "Versification et prosodie poétique",
+      "practice_links": []
+    },
+    {
+      "lang": "it",
+      "group_id": "accento_piane_tronche",
+      "label": "Accento tonico e parole piane e tronche",
+      "practice_links": []
+    },
+    {
+      "lang": "it",
+      "group_id": "accento_fonico_aperto_chiuso",
+      "label": "Accento fonico aperto e chiuso",
+      "practice_links": []
+    },
+    {
+      "lang": "it",
+      "group_id": "parole_sdrucciole",
+      "label": "Parole sdrucciole e bisdrucciole",
+      "practice_links": []
+    },
+    {
+      "lang": "it",
+      "group_id": "accento_verbi_coniugati",
+      "label": "Accento nei verbi coniugati",
+      "practice_links": []
+    },
+    {
+      "lang": "it",
+      "group_id": "accento_differenziale",
+      "label": "Accento differenziale e omografi",
+      "practice_links": []
+    },
+    {
+      "lang": "it",
+      "group_id": "raddoppiamento_fonosintattico",
+      "label": "Raddoppiamento fonosintattico",
+      "practice_links": []
+    },
+    {
+      "lang": "it",
+      "group_id": "evitamento_scontro_accenti",
+      "label": "Retrazione dell'accento e ritmo",
+      "practice_links": []
+    },
+    {
+      "lang": "it",
+      "group_id": "prosodia_oratoria_cadenza",
+      "label": "Prosodia oratoria e cadenza ritmica",
+      "practice_links": []
+    },
+    {
+      "lang": "it",
+      "group_id": "metrica_letteraria_prosodia",
+      "label": "Metrica e prosodia poetica italiana",
+      "practice_links": []
+    },
+    {
+      "lang": "ru",
+      "group_id": "osnovy_udareniya",
+      "label": "Свободное ударение в русском языке",
+      "practice_links": []
+    },
+    {
+      "lang": "ru",
+      "group_id": "bukva_yo_dlitelnost_udarnyh",
+      "label": "Буква Ё и выделение ударного слога",
+      "practice_links": []
+    },
+    {
+      "lang": "ru",
+      "group_id": "podvizhnoe_udarenie",
+      "label": "Подвижное ударение при словоизменении",
+      "practice_links": []
+    },
+    {
+      "lang": "ru",
+      "group_id": "udarenie_proshedshee_vremya_kratkie",
+      "label": "Ударение в прошедшем времени и кратких формах",
+      "practice_links": []
+    },
+    {
+      "lang": "ru",
+      "group_id": "smyslorazlichitelnoe_udarenie",
+      "label": "Смыслоразличительная роль ударения",
+      "practice_links": []
+    },
+    {
+      "lang": "ru",
+      "group_id": "udarenie_chislitelnye_predlogi",
+      "label": "Ударение в числительных и перенос на предлог",
+      "practice_links": []
+    },
+    {
+      "lang": "ru",
+      "group_id": "variantnoe_udarenie_norma",
+      "label": "Вариантность ударения в литературоведческой норме",
+      "practice_links": []
+    },
+    {
+      "lang": "ru",
+      "group_id": "aktsentologiya_slozhnyh_slov",
+      "label": "Второстепенное ударение в сложных словах",
+      "practice_links": []
+    },
+    {
+      "lang": "ru",
+      "group_id": "metrika_russkogo_stiha",
+      "label": "Метрика и ритмика поэтической речи",
+      "practice_links": []
+    }
+  ],
   "nouns": [
     {
       "lang": "en",
@@ -107,7 +977,8 @@
       "group_id": "past_simple",
       "label": "Past Simple",
       "practice_links": [
-        "manuals/en/grammar/a1/en-past-simple.html"
+        "manuals/en/grammar/a1/topics/past-simple-regular.html",
+        "manuals/en/grammar/a1/topics/past-simple-irregular.html"
       ]
     },
     {
@@ -300,6 +1171,86 @@
       "label": "Verbes irréguliers (3/3)",
       "practice_links": [
         "grammaire-francaise/topics/verbes-irreguliers-3.html"
+      ]
+    }
+  ],
+  "prepositions": [
+    {
+      "lang": "en",
+      "group_id": "prepositions_place",
+      "label": "Prepositions of Place (In, On, At)",
+      "practice_links": [
+        "manuals/en/grammar/a1/topics/prepositions-place.html"
+      ]
+    },
+    {
+      "lang": "en",
+      "group_id": "prepositions_time",
+      "label": "Prepositions of Time (In, On, At)",
+      "practice_links": [
+        "manuals/en/grammar/a1/topics/prepositions-time.html"
+      ]
+    },
+    {
+      "lang": "en",
+      "group_id": "prepositions_movement",
+      "label": "Prepositions of Movement",
+      "practice_links": [
+        "manuals/en/grammar/a2/topics/prepositions-of-movement.html"
+      ]
+    }
+  ],
+  "clauses": [
+    {
+      "lang": "en",
+      "group_id": "relative_clauses",
+      "label": "Defining Relative Clauses",
+      "practice_links": [
+        "manuals/en/grammar/a2/topics/defining-relative-clauses.html"
+      ]
+    },
+    {
+      "lang": "en",
+      "group_id": "conditionals_zero_first",
+      "label": "Zero & First Conditionals",
+      "practice_links": [
+        "manuals/en/grammar/a2/topics/zero-conditional.html",
+        "manuals/en/grammar/a2/topics/first-conditional.html"
+      ]
+    },
+    {
+      "lang": "en",
+      "group_id": "conditionals_second_third",
+      "label": "Second & Third Conditionals",
+      "practice_links": [
+        "manuals/en/grammar/a2/topics/second-conditional.html",
+        "manuals/en/grammar/b1/topics/third-conditional.html"
+      ]
+    }
+  ],
+  "sentence_types": [
+    {
+      "lang": "en",
+      "group_id": "questions_question_words",
+      "label": "Question Words & Formation",
+      "practice_links": [
+        "manuals/en/grammar/a1/topics/question-words.html"
+      ]
+    },
+    {
+      "lang": "en",
+      "group_id": "conjunctions",
+      "label": "Conjunctions & Linking Words",
+      "practice_links": [
+        "manuals/en/grammar/a1/topics/conjunctions.html"
+      ]
+    },
+    {
+      "lang": "en",
+      "group_id": "imperatives",
+      "label": "Imperatives & Instructions",
+      "practice_links": [
+        "manuals/en/grammar/a1/topics/imperatives.html"
       ]
     }
   ],
