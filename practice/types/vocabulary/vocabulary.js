@@ -15,6 +15,12 @@
         'proficiency': 'c2'
     };
 
+    function toShortLevelCode(lvl) {
+        if (!lvl) return 'a1';
+        const l = String(lvl).toLowerCase();
+        return LEVEL_MAP[l] || (['a1', 'a2', 'b1', 'b2', 'c1', 'c2'].includes(l) ? l : 'a1');
+    }
+
     /* ══════════════════════════════════════
        QUESTION DATA (Static Fallbacks)
     ══════════════════════════════════════ */
@@ -452,7 +458,7 @@
 
             pool = window.gameUtils.filterVocabulary(processedSpeaking, { lang: l, level, theme, subTheme, category: 'Speaking' });
         } else if (cat === 'Pronunciation' || cat === 'pronunciation' || cat === 'Pronunciation 🔊') {
-            const codes = (level === 'all') ? Object.values(LEVEL_MAP) : [LEVEL_MAP[level] || 'a1'];
+            const codes = (level === 'all') ? Object.values(LEVEL_MAP) : [toShortLevelCode(level)];
 
             const tempPool = [];
 
@@ -504,24 +510,52 @@
                 const groups = phonData[pCat] || [];
                 groups.forEach(group => {
                     const grpLevel = (group.level || 'A1').toLowerCase();
-                    const groupMappedLevel = LEVEL_MAP[grpLevel] || grpLevel;
+                    const groupMappedLevel = toShortLevelCode(grpLevel);
+
+                    // Helper to clean raw text and extract clean target word and IPA
+                    const parsePhonologyExample = (ex) => {
+                        let rawTitle = '';
+                        let rawIpa = null;
+                        if (typeof ex === 'string') {
+                            rawTitle = ex;
+                        } else if (ex && typeof ex === 'object') {
+                            rawTitle = ex.t || ex.word || ex.text || group.label || '';
+                            rawIpa = ex.m || ex.ipa || null;
+                        }
+
+                        if (!rawTitle) return null;
+
+                        let targetStr = rawTitle;
+                        if (targetStr.includes(' ➔ ')) {
+                            const parts = targetStr.split(' ➔ ');
+                            targetStr = parts[parts.length - 1].trim();
+                        } else if (targetStr.includes(' vs ')) {
+                            const parts = targetStr.split(' vs ');
+                            targetStr = parts[0].trim();
+                        }
+
+                        // Extract embedded IPA like /kɪt/ if present
+                        let extractedIpa = rawIpa;
+                        const ipaMatch = targetStr.match(/\/[^/]+\//);
+                        if (ipaMatch && !extractedIpa) {
+                            extractedIpa = ipaMatch[0];
+                        }
+
+                        // Strip embedded IPA or bracketed annotations from word
+                        let cleanWord = targetStr.replace(/\/[^/]+\//g, '').replace(/\([^)]+\)/g, '').trim();
+                        if (!cleanWord) cleanWord = rawTitle;
+
+                        return { word: cleanWord, ipa: extractedIpa };
+                    };
 
                     // Extract examples from reference phonology group
                     if (Array.isArray(group.examples)) {
                         group.examples.forEach(ex => {
-                            let textWord = '';
-                            let textIpa = null;
-                            if (typeof ex === 'string') {
-                                textWord = ex;
-                            } else if (ex && typeof ex === 'object') {
-                                textWord = ex.t || ex.word || ex.text || group.label;
-                                textIpa = ex.m || ex.ipa || null;
-                            }
-
-                            if (textWord) {
+                            const parsed = parsePhonologyExample(ex);
+                            if (parsed && parsed.word) {
                                 tempPool.push({
-                                    word: textWord,
-                                    ipa: textIpa,
+                                    word: parsed.word,
+                                    ipa: parsed.ipa,
                                     theme: group.label || group.id,
                                     type: 'ls',
                                     language: l,
@@ -741,10 +775,35 @@
                 } else if (cat === 'Speaking' || cat === 'speaking') {
                     return { form: 'conv', q: item.topic || item.text || item.q, level: LEVEL_MAP[item.level] || item.level || 'a1', theme: item.theme };
                 } else if (cat === 'Pronunciation' || cat === 'pronunciation' || cat === 'Pronunciation 🔊') {
-                    const correctIpa = item.ipa || item.word;
-                    const distractors = ['/a/', '/i/', '/u/', '/e/', '/o/'].filter(i => i !== correctIpa).sort(() => Math.random() - 0.5).slice(0, 2);
-                    const opts = [correctIpa, ...distractors].sort(() => Math.random() - 0.5);
-                    return { form: 'ls', q: `🔊 Pronounce: ${item.word}`, item: item, ans: opts.indexOf(correctIpa), opts: opts, theme: item.theme };
+                    const correctVal = item.ipa || item.word;
+
+                    let poolDistractors = pool
+                        .filter(p => p !== item && (p.ipa || p.word))
+                        .map(p => p.ipa || p.word);
+
+                    let cleanDistractors = [...new Set(poolDistractors)].filter(d => d && d.toLowerCase() !== correctVal.toLowerCase()).sort(() => Math.random() - 0.5);
+
+                    const fallbackIpa = ['/aɪ/', '/iː/', '/uː/', '/eɪ/', '/əʊ/', '/ɒ/', '/æ/', '/θ/', '/ð/', '/ʃ/'];
+                    for (const fb of fallbackIpa) {
+                        if (cleanDistractors.length >= 2) break;
+                        if (fb.toLowerCase() !== correctVal.toLowerCase() && !cleanDistractors.includes(fb)) {
+                            cleanDistractors.push(fb);
+                        }
+                    }
+
+                    const distractors = cleanDistractors.slice(0, 2);
+                    const opts = [correctVal, ...distractors].sort(() => Math.random() - 0.5);
+                    const ans = opts.indexOf(correctVal);
+
+                    return {
+                        form: 'ls',
+                        q: `🔊 Pronounce: ${item.word}`,
+                        item: item,
+                        ans: ans,
+                        opts: opts,
+                        level: toShortLevelCode(item.level),
+                        theme: item.theme
+                    };
                 }
                 return item;
             });

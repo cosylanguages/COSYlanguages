@@ -21,7 +21,8 @@
                 } else if (text.includes('=')) {
                     return `"<span class="q-word">${item.word}</span>" <span class="q-symbol">=</span> <span class="q-target">?</span>`;
                 } else if (text.includes('🔊')) {
-                    return `<span class="q-symbol">🔊</span> <span class="q-target">?</span>`;
+                    const word = item.word || text.replace(/🔊\s*(Pronounce:)?\s*/i, '').trim();
+                    return `<span class="q-symbol">🔊</span> Pronounce: "<span class="q-word">${word}</span>"`;
                 }
             } else if (form === 'tf') {
                 const parts = text.split(' = ');
@@ -57,7 +58,8 @@
         } else if (text.includes('🧩')) {
             return text;
         } else if (text.includes('🔊')) {
-            return `<span class="q-symbol">🔊</span> <span class="q-target">?</span>`;
+            const word = text.replace(/🔊\s*(Pronounce:)?\s*/i, '').trim();
+            return `<span class="q-symbol">🔊</span> Pronounce: "<span class="q-word">${word || '?'}</span>"`;
         }
 
         return text;
