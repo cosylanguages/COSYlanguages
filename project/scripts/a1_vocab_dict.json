@@ -169,11 +169,11 @@
   },
   "clean": {
     "word": "clean",
-    "pos": "adjective",
-    "def": "Free from dirt.",
-    "ex": "The flat is clean now.",
-    "id": "en_starter_household_tasks_001",
-    "theme": "household_tasks"
+    "pos": "verb",
+    "def": "To remove dirt, dust, or mess from something.",
+    "ex": "I clean the flat every Saturday morning.",
+    "id": "context_clean",
+    "theme": "general"
   },
   "healthy": {
     "word": "healthy",
@@ -929,11 +929,11 @@
   },
   "square": {
     "word": "square",
-    "pos": "adjective",
-    "def": "Having four equal sides and four 90-degree angles.",
-    "ex": "The box is square.",
-    "id": "en_starter_size_shape_026",
-    "theme": "size_shape"
+    "pos": "noun",
+    "def": "An open public area in a city or town, usually surrounded by buildings.",
+    "ex": "We met in the town square near the fountain.",
+    "id": "context_square",
+    "theme": "general"
   },
   "helpful": {
     "word": "helpful",
@@ -1786,10 +1786,10 @@
   "mouse": {
     "word": "mouse",
     "pos": "noun",
-    "def": "A small animal with a long tail.",
-    "ex": "The cat is chasing a mouse.",
-    "id": "en_starter_animals_015",
-    "theme": "animals"
+    "def": "A small hand-held device used to control the cursor on a computer screen.",
+    "ex": "Click the link using the computer mouse.",
+    "id": "context_mouse",
+    "theme": "general"
   },
   "snake": {
     "word": "snake",
@@ -2297,11 +2297,11 @@
   },
   "dress": {
     "word": "dress",
-    "pos": "noun",
-    "def": "A piece of clothing for a woman or girl that covers the top of the body and part of the legs.",
-    "ex": "She is wearing a beautiful blue dress.",
-    "id": "en_starter_items_of_clothing_011",
-    "theme": "items_of_clothing"
+    "pos": "verb",
+    "def": "To put clothes on yourself or someone else.",
+    "ex": "I get dressed at seven o'clock every morning.",
+    "id": "context_dress",
+    "theme": "general"
   },
   "skirt": {
     "word": "skirt",
@@ -2329,11 +2329,11 @@
   },
   "watch": {
     "word": "watch",
-    "pos": "noun",
-    "def": "A small clock that you wear on your wrist.",
-    "ex": "What time is it on your watch?",
-    "id": "en_starter_accessories_005",
-    "theme": "accessories"
+    "pos": "verb",
+    "def": "To look at or observe attentively over a period of time.",
+    "ex": "We watch a movie on TV in the evening.",
+    "id": "context_watch",
+    "theme": "general"
   },
   "jeans": {
     "word": "jeans",
@@ -3394,10 +3394,10 @@
   "book": {
     "word": "book",
     "pos": "noun",
-    "def": "Many pages with words and pictures that you read.",
-    "ex": "I read a book every night.",
-    "id": "en_starter_furniture_027",
-    "theme": "furniture"
+    "def": "A written work published in print or electronic form for reading.",
+    "ex": "I read a chapter of my book before going to sleep.",
+    "id": "context_book",
+    "theme": "general"
   },
   "bag": {
     "word": "bag",
@@ -6666,10 +6666,10 @@
   "lose": {
     "word": "lose",
     "pos": "verb",
-    "def": "To no longer have something.",
-    "ex": "I lost my keys.",
-    "id": "en_starter_shopping_015",
-    "theme": "shopping"
+    "def": "To fail to win a game, match, or competition.",
+    "ex": "Our team played hard but lost the match by one goal.",
+    "id": "context_lose",
+    "theme": "general"
   },
   "buy": {
     "word": "buy",
@@ -8718,5 +8718,845 @@
     "ex": "Make a shopping list.",
     "id": "en_starter_describing_088",
     "theme": "describing"
+  },
+  "o'clock": {
+    "word": "o'clock",
+    "pos": "adverb",
+    "def": "Used after a number from one to twelve to say what time it is.",
+    "ex": "School starts at nine o'clock in the morning.",
+    "id": "fallback_o'clock",
+    "theme": "general"
+  },
+  "half past": {
+    "word": "half past",
+    "pos": "phrase",
+    "def": "Thirty minutes past the hour.",
+    "ex": "We have a team meeting at half past two.",
+    "id": "fallback_half past",
+    "theme": "general"
+  },
+  "quarter past": {
+    "word": "quarter past",
+    "pos": "phrase",
+    "def": "Fifteen minutes past the hour.",
+    "ex": "The train arrives at quarter past three.",
+    "id": "fallback_quarter past",
+    "theme": "general"
+  },
+  "quarter to": {
+    "word": "quarter to",
+    "pos": "phrase",
+    "def": "Fifteen minutes before the next hour.",
+    "ex": "It is quarter to four right now.",
+    "id": "fallback_quarter to",
+    "theme": "general"
+  },
+  "midnight": {
+    "word": "midnight",
+    "pos": "noun",
+    "def": "Twelve o'clock at night.",
+    "ex": "The movie screening finished near midnight.",
+    "id": "fallback_midnight",
+    "theme": "general"
+  },
+  "bakery": {
+    "word": "bakery",
+    "pos": "noun",
+    "def": "A shop where bread, cakes, and pastries are made or sold.",
+    "ex": "I buy fresh croissants at the bakery every morning.",
+    "id": "fallback_bakery",
+    "theme": "general"
+  },
+  "pharmacy": {
+    "word": "pharmacy",
+    "pos": "noun",
+    "def": "A shop where medicines are prepared and sold.",
+    "ex": "She went to the pharmacy to buy aspirin.",
+    "id": "fallback_pharmacy",
+    "theme": "general"
+  },
+  "post office": {
+    "word": "post office",
+    "pos": "noun",
+    "def": "A public building where stamps are sold and letters are mailed.",
+    "ex": "I am going to the post office to send a parcel.",
+    "id": "fallback_post office",
+    "theme": "general"
+  },
+  "police station": {
+    "word": "police station",
+    "pos": "noun",
+    "def": "The local office of a police force in a town or city.",
+    "ex": "Report the missing passport at the central police station.",
+    "id": "fallback_police station",
+    "theme": "general"
+  },
+  "town hall": {
+    "word": "town hall",
+    "pos": "noun",
+    "def": "A public building used for local government administration.",
+    "ex": "The mayor gave a speech at the town hall.",
+    "id": "fallback_town hall",
+    "theme": "general"
+  },
+  "art gallery": {
+    "word": "art gallery",
+    "pos": "noun",
+    "def": "A building or room where paintings and sculptures are exhibited.",
+    "ex": "We visited an impressive art gallery on Saturday.",
+    "id": "fallback_art gallery",
+    "theme": "general"
+  },
+  "swimming pool": {
+    "word": "swimming pool",
+    "pos": "noun",
+    "def": "An artificial basin filled with water for swimming.",
+    "ex": "She swims twenty laps in the indoor swimming pool.",
+    "id": "fallback_swimming pool",
+    "theme": "general"
+  },
+  "stadium": {
+    "word": "stadium",
+    "pos": "noun",
+    "def": "A large sports ground surrounded by tiers of seats for spectators.",
+    "ex": "Thousands of fans gathered at the football stadium.",
+    "id": "fallback_stadium",
+    "theme": "general"
+  },
+  "metro": {
+    "word": "metro",
+    "pos": "noun",
+    "def": "An underground railway system in a major city.",
+    "ex": "Riding the metro is the fastest way across town.",
+    "id": "fallback_metro",
+    "theme": "general"
+  },
+  "subway": {
+    "word": "subway",
+    "pos": "noun",
+    "def": "An underground urban railway network.",
+    "ex": "Take the subway to reach the museum quickly.",
+    "id": "fallback_subway",
+    "theme": "general"
+  },
+  "tram": {
+    "word": "tram",
+    "pos": "noun",
+    "def": "A passenger vehicle powered by electricity that runs on rails along city streets.",
+    "ex": "The tram stopped right outside our hotel.",
+    "id": "fallback_tram",
+    "theme": "general"
+  },
+  "ferry": {
+    "word": "ferry",
+    "pos": "noun",
+    "def": "A boat or ship that transports passengers and vehicles across water.",
+    "ex": "We boarded the ferry to cross the bay.",
+    "id": "fallback_ferry",
+    "theme": "general"
+  },
+  "train station": {
+    "word": "train station",
+    "pos": "noun",
+    "def": "A place along a railway line where trains stop for passengers.",
+    "ex": "I will meet you outside the central train station.",
+    "id": "fallback_train station",
+    "theme": "general"
+  },
+  "bus stop": {
+    "word": "bus stop",
+    "pos": "noun",
+    "def": "A designated spot along a road where buses pause for passengers.",
+    "ex": "Wait at the bus stop for the number twelve bus.",
+    "id": "fallback_bus stop",
+    "theme": "general"
+  },
+  "terminal": {
+    "word": "terminal",
+    "pos": "noun",
+    "def": "A main building at an airport or transport hub.",
+    "ex": "Our flight departs from terminal two.",
+    "id": "fallback_terminal",
+    "theme": "general"
+  },
+  "platform": {
+    "word": "platform",
+    "pos": "noun",
+    "def": "The raised structure beside railway tracks where passengers board trains.",
+    "ex": "The express train departs from platform four.",
+    "id": "fallback_platform",
+    "theme": "general"
+  },
+  "single ticket": {
+    "word": "single ticket",
+    "pos": "noun",
+    "def": "A ticket valid for a journey in one direction only.",
+    "ex": "A single ticket to the city center costs three pounds.",
+    "id": "fallback_single ticket",
+    "theme": "general"
+  },
+  "return ticket": {
+    "word": "return ticket",
+    "pos": "noun",
+    "def": "A ticket valid for travel to a destination and back.",
+    "ex": "Buying a return ticket is cheaper than two single tickets.",
+    "id": "fallback_return ticket",
+    "theme": "general"
+  },
+  "boarding pass": {
+    "word": "boarding pass",
+    "pos": "noun",
+    "def": "A card or digital pass giving a passenger permission to board an aircraft.",
+    "ex": "Please show your passport and boarding pass at the gate.",
+    "id": "fallback_boarding pass",
+    "theme": "general"
+  },
+  "luggage": {
+    "word": "luggage",
+    "pos": "noun",
+    "def": "Bags, trunks, and suitcases containing personal belongings for travel.",
+    "ex": "The porter helped us load our heavy luggage.",
+    "id": "fallback_luggage",
+    "theme": "general"
+  },
+  "delay": {
+    "word": "delay",
+    "pos": "noun",
+    "def": "A period of time during which an event or service is delayed.",
+    "ex": "Bad weather caused a one-hour flight delay.",
+    "id": "fallback_delay",
+    "theme": "general"
+  },
+  "flight": {
+    "word": "flight",
+    "pos": "noun",
+    "def": "A journey made by flying in an aircraft.",
+    "ex": "Our flight to Barcelona was smooth and pleasant.",
+    "id": "fallback_flight",
+    "theme": "general"
+  },
+  "whiteboard": {
+    "word": "whiteboard",
+    "pos": "noun",
+    "def": "A large smooth white board for writing on with dry-erase markers.",
+    "ex": "The teacher wrote today's vocabulary on the whiteboard.",
+    "id": "fallback_whiteboard",
+    "theme": "general"
+  },
+  "pe": {
+    "word": "pe",
+    "pos": "noun",
+    "def": "Physical education classes taught in schools.",
+    "ex": "We played volleyball during PE class this morning.",
+    "id": "fallback_pe",
+    "theme": "general"
+  },
+  "programmer": {
+    "word": "programmer",
+    "pos": "noun",
+    "def": "A person who writes code to create software and computer programs.",
+    "ex": "An experienced programmer built our company website.",
+    "id": "fallback_programmer",
+    "theme": "general"
+  },
+  "designer": {
+    "word": "designer",
+    "pos": "noun",
+    "def": "A person who plans the look or structure of objects, clothing, or graphics.",
+    "ex": "The graphic designer created a stylish new logo.",
+    "id": "fallback_designer",
+    "theme": "general"
+  },
+  "lawyer": {
+    "word": "lawyer",
+    "pos": "noun",
+    "def": "A qualified professional who advises clients on legal matters.",
+    "ex": "Our lawyer reviewed the lease contract carefully.",
+    "id": "fallback_lawyer",
+    "theme": "general"
+  },
+  "salary": {
+    "word": "salary",
+    "pos": "noun",
+    "def": "A fixed regular payment made by an employer to an employee.",
+    "ex": "Employees receive their monthly salary on the last Friday.",
+    "id": "fallback_salary",
+    "theme": "general"
+  },
+  "tablet": {
+    "word": "tablet",
+    "pos": "noun",
+    "def": "A portable touch-screen computer.",
+    "ex": "She reads digital textbooks on her tablet.",
+    "id": "fallback_tablet",
+    "theme": "general"
+  },
+  "headphones": {
+    "word": "headphones",
+    "pos": "noun",
+    "def": "A pair of small speakers worn over or inside the ears.",
+    "ex": "He listened to music through his wireless headphones.",
+    "id": "fallback_headphones",
+    "theme": "general"
+  },
+  "app": {
+    "word": "app",
+    "pos": "noun",
+    "def": "A software program designed for mobile devices or computers.",
+    "ex": "Download the transit app to view live bus schedules.",
+    "id": "fallback_app",
+    "theme": "general"
+  },
+  "password": {
+    "word": "password",
+    "pos": "noun",
+    "def": "A secret string of characters used to log into an account.",
+    "ex": "Never share your secret account password with anyone.",
+    "id": "fallback_password",
+    "theme": "general"
+  },
+  "video call": {
+    "word": "video call",
+    "pos": "noun",
+    "def": "A telephone call transmiting real-time video and audio.",
+    "ex": "We scheduled a video call with our overseas colleagues.",
+    "id": "fallback_video call",
+    "theme": "general"
+  },
+  "nature": {
+    "word": "nature",
+    "pos": "noun",
+    "def": "The physical world including plants, animals, landscapes, and natural forces.",
+    "ex": "Taking walks in nature helps reduce daily stress.",
+    "id": "fallback_nature",
+    "theme": "general"
+  },
+  "mountain": {
+    "word": "mountain",
+    "pos": "noun",
+    "def": "A large natural elevation of the earth's surface rising abruptly.",
+    "ex": "Snow covered the top of the high mountain peak.",
+    "id": "fallback_mountain",
+    "theme": "general"
+  },
+  "hill": {
+    "word": "hill",
+    "pos": "noun",
+    "def": "A naturally raised area of land, smaller than a mountain.",
+    "ex": "They walked up the green hill to enjoy the view.",
+    "id": "fallback_hill",
+    "theme": "general"
+  },
+  "valley": {
+    "word": "valley",
+    "pos": "noun",
+    "def": "A low area of land between hills or mountains.",
+    "ex": "A sparkling river winds through the fertile valley.",
+    "id": "fallback_valley",
+    "theme": "general"
+  },
+  "forest": {
+    "word": "forest",
+    "pos": "noun",
+    "def": "A large area of land covered densely with trees and undergrowth.",
+    "ex": "Birds sing in the quiet pine forest.",
+    "id": "fallback_forest",
+    "theme": "general"
+  },
+  "jungle": {
+    "word": "jungle",
+    "pos": "noun",
+    "def": "An area of land overgrown with dense tropical vegetation.",
+    "ex": "Monkeys and parrots live in the tropical jungle.",
+    "id": "fallback_jungle",
+    "theme": "general"
+  },
+  "river": {
+    "word": "river",
+    "pos": "noun",
+    "def": "A large natural stream of water flowing towards the sea or a lake.",
+    "ex": "Boats sail along the wide river.",
+    "id": "fallback_river",
+    "theme": "general"
+  },
+  "lake": {
+    "word": "lake",
+    "pos": "noun",
+    "def": "A large body of water surrounded entirely by land.",
+    "ex": "We rented a small wooden boat on the lake.",
+    "id": "fallback_lake",
+    "theme": "general"
+  },
+  "sea": {
+    "word": "sea",
+    "pos": "noun",
+    "def": "The expanse of salt water that covers most of the earth's surface.",
+    "ex": "Ships travel across the open sea.",
+    "id": "fallback_sea",
+    "theme": "general"
+  },
+  "ocean": {
+    "word": "ocean",
+    "pos": "noun",
+    "def": "A vast body of salt water covering major areas of the globe.",
+    "ex": "Whales migrate across the deep ocean.",
+    "id": "fallback_ocean",
+    "theme": "general"
+  },
+  "beach": {
+    "word": "beach",
+    "pos": "noun",
+    "def": "A pebbly or sandy shore beside a body of water.",
+    "ex": "Children love building sandcastles on the sunny beach.",
+    "id": "fallback_beach",
+    "theme": "general"
+  },
+  "island": {
+    "word": "island",
+    "pos": "noun",
+    "def": "A piece of land surrounded by water on all sides.",
+    "ex": "We took a ferry to visit the picturesque island.",
+    "id": "fallback_island",
+    "theme": "general"
+  },
+  "desert": {
+    "word": "desert",
+    "pos": "noun",
+    "def": "A dry barren region of land with very little rainfall.",
+    "ex": "Camels can travel long distances across the hot desert.",
+    "id": "fallback_desert",
+    "theme": "general"
+  },
+  "field": {
+    "word": "field",
+    "pos": "noun",
+    "def": "An area of open land, especially one used for pasture or crops.",
+    "ex": "Yellow sunflowers bloom across the farmer's field.",
+    "id": "fallback_field",
+    "theme": "general"
+  },
+  "tree": {
+    "word": "tree",
+    "pos": "noun",
+    "def": "A tall perennial plant with a wooden trunk and spreading branches.",
+    "ex": "Apples grow on the large tree in our garden.",
+    "id": "fallback_tree",
+    "theme": "general"
+  },
+  "flower": {
+    "word": "flower",
+    "pos": "noun",
+    "def": "The colorful blossom of a plant.",
+    "ex": "She placed a vase of fresh red flowers on the table.",
+    "id": "fallback_flower",
+    "theme": "general"
+  },
+  "grass": {
+    "word": "grass",
+    "pos": "noun",
+    "def": "Low green vegetation growing on lawns and pastures.",
+    "ex": "Cows graze peacefully on the green grass.",
+    "id": "fallback_grass",
+    "theme": "general"
+  },
+  "cloud": {
+    "word": "cloud",
+    "pos": "noun",
+    "def": "A visible mass of condensed water vapor floating in the atmosphere.",
+    "ex": "White fluffy clouds drifted across the blue sky.",
+    "id": "fallback_cloud",
+    "theme": "general"
+  },
+  "fog": {
+    "word": "fog",
+    "pos": "noun",
+    "def": "A thick mist of tiny water droplets hanging low near the ground.",
+    "ex": "Dense morning fog reduced visibility on the highway.",
+    "id": "fallback_fog",
+    "theme": "general"
+  },
+  "freezing": {
+    "word": "freezing",
+    "pos": "adjective",
+    "def": "Extremely cold, near or below the freezing point of water.",
+    "ex": "Dress warmly because it is freezing outside today.",
+    "id": "fallback_freezing",
+    "theme": "general"
+  },
+  "tiger": {
+    "word": "tiger",
+    "pos": "noun",
+    "def": "A large wild Asian cat with distinctive black stripes on orange fur.",
+    "ex": "The tiger stalked quietly through the forest shadow.",
+    "id": "fallback_tiger",
+    "theme": "general"
+  },
+  "reading": {
+    "word": "reading",
+    "pos": "noun",
+    "def": "The action or skill of reading books and written material.",
+    "ex": "Reading daily improves your language skills.",
+    "id": "fallback_reading",
+    "theme": "general"
+  },
+  "drawing": {
+    "word": "drawing",
+    "pos": "noun",
+    "def": "A picture or diagram produced with pencils or pens.",
+    "ex": "She submitted a detailed charcoal drawing.",
+    "id": "fallback_drawing",
+    "theme": "general"
+  },
+  "gardening": {
+    "word": "gardening",
+    "pos": "noun",
+    "def": "The activity of cultivating and caring for a garden.",
+    "ex": "Gardening is her favorite weekend hobby.",
+    "id": "fallback_gardening",
+    "theme": "general"
+  },
+  "fishing": {
+    "word": "fishing",
+    "pos": "noun",
+    "def": "The activity or sport of catching fish.",
+    "ex": "He spent Sunday morning fishing by the riverbank.",
+    "id": "fallback_fishing",
+    "theme": "general"
+  },
+  "camping": {
+    "word": "camping",
+    "pos": "noun",
+    "def": "The activity of spending holidays outdoors in a tent.",
+    "ex": "We packed sleeping bags for our weekend camping trip.",
+    "id": "fallback_camping",
+    "theme": "general"
+  },
+  "travelling": {
+    "word": "travelling",
+    "pos": "noun",
+    "def": "The activity of visiting different places and foreign countries.",
+    "ex": "Travelling opens your mind to diverse world cultures.",
+    "id": "fallback_travelling",
+    "theme": "general"
+  },
+  "gaming": {
+    "word": "gaming",
+    "pos": "noun",
+    "def": "The activity of playing interactive video games.",
+    "ex": "Online gaming with friends is popular among teens.",
+    "id": "fallback_gaming",
+    "theme": "general"
+  },
+  "dancing": {
+    "word": "dancing",
+    "pos": "noun",
+    "def": "The movement of the body in a rhythmic way, usually to music.",
+    "ex": "Dancing salsa is a fun way to stay active.",
+    "id": "fallback_dancing",
+    "theme": "general"
+  },
+  "singing": {
+    "word": "singing",
+    "pos": "noun",
+    "def": "The act or vocal performance of producing musical sounds with the voice.",
+    "ex": "She practices singing in the local choir every Tuesday.",
+    "id": "fallback_singing",
+    "theme": "general"
+  },
+  "soccer": {
+    "word": "soccer",
+    "pos": "noun",
+    "def": "A game played by two teams of eleven players kicking a spherical ball.",
+    "ex": "Kids play soccer on the school field during recess.",
+    "id": "fallback_soccer",
+    "theme": "general"
+  },
+  "volleyball": {
+    "word": "volleyball",
+    "pos": "noun",
+    "def": "A game in which two teams hit a ball back and forth over a high net.",
+    "ex": "We played beach volleyball during our summer holiday.",
+    "id": "fallback_volleyball",
+    "theme": "general"
+  },
+  "swimming": {
+    "word": "swimming",
+    "pos": "noun",
+    "def": "The sport or activity of moving through water using limbs.",
+    "ex": "Swimming is a great low-impact full-body exercise.",
+    "id": "fallback_swimming",
+    "theme": "general"
+  },
+  "running": {
+    "word": "running",
+    "pos": "noun",
+    "def": "The activity or sport of running on foot as exercise.",
+    "ex": "He goes running in the park every morning at six.",
+    "id": "fallback_running",
+    "theme": "general"
+  },
+  "cycling": {
+    "word": "cycling",
+    "pos": "noun",
+    "def": "The sport or activity of riding a bicycle.",
+    "ex": "Cycling to work is healthy and environmentally friendly.",
+    "id": "fallback_cycling",
+    "theme": "general"
+  },
+  "skiing": {
+    "word": "skiing",
+    "pos": "noun",
+    "def": "The sport or activity of sliding over snow on skis.",
+    "ex": "We go skiing in the Swiss Alps every winter.",
+    "id": "fallback_skiing",
+    "theme": "general"
+  },
+  "yoga": {
+    "word": "yoga",
+    "pos": "noun",
+    "def": "A Hindu spiritual and physical discipline involving posture and breath control.",
+    "ex": "Practicing morning yoga helps stretch muscles and relax.",
+    "id": "fallback_yoga",
+    "theme": "general"
+  },
+  "pitch": {
+    "word": "pitch",
+    "pos": "noun",
+    "def": "An outdoor playing area marked for sports such as football.",
+    "ex": "The referee stepped onto the football pitch.",
+    "id": "fallback_pitch",
+    "theme": "general"
+  },
+  "court": {
+    "word": "court",
+    "pos": "noun",
+    "def": "A marked rectangular area for playing games such as tennis or basketball.",
+    "ex": "They reserved the indoor tennis court for two hours.",
+    "id": "fallback_court",
+    "theme": "general"
+  },
+  "match": {
+    "word": "match",
+    "pos": "noun",
+    "def": "A contest or game in which people or teams compete.",
+    "ex": "Our local team won the championship match.",
+    "id": "fallback_match",
+    "theme": "general"
+  },
+  "team": {
+    "word": "team",
+    "pos": "noun",
+    "def": "A group of players forming one side in a competitive game.",
+    "ex": "All eleven players worked together as a cohesive team.",
+    "id": "fallback_team",
+    "theme": "general"
+  },
+  "score a goal": {
+    "word": "score a goal",
+    "pos": "phrase",
+    "def": "To kick or strike a ball into the opponent's net to score a point.",
+    "ex": "The striker scored a goal in the final minute of play.",
+    "id": "fallback_score a goal",
+    "theme": "general"
+  },
+  "zero": {
+    "word": "zero",
+    "pos": "noun",
+    "def": "The numerical digit or symbol 0.",
+    "ex": "The temperature dropped to zero degrees overnight.",
+    "id": "fallback_zero",
+    "theme": "general"
+  },
+  "one": {
+    "word": "one",
+    "pos": "noun",
+    "def": "The number or digit 1.",
+    "ex": "She bought one red apple.",
+    "id": "fallback_one",
+    "theme": "general"
+  },
+  "two": {
+    "word": "two",
+    "pos": "noun",
+    "def": "The number or digit 2.",
+    "ex": "Two passenger trains arrived at the station simultaneously.",
+    "id": "fallback_two",
+    "theme": "general"
+  },
+  "three": {
+    "word": "three",
+    "pos": "noun",
+    "def": "The number or digit 3.",
+    "ex": "We waited three hours for our flight.",
+    "id": "fallback_three",
+    "theme": "general"
+  },
+  "twenty": {
+    "word": "twenty",
+    "pos": "noun",
+    "def": "The number 20.",
+    "ex": "There are twenty students in our English class.",
+    "id": "fallback_twenty",
+    "theme": "general"
+  },
+  "thirty": {
+    "word": "thirty",
+    "pos": "noun",
+    "def": "The number 30.",
+    "ex": "April has thirty days.",
+    "id": "fallback_thirty",
+    "theme": "general"
+  },
+  "forty": {
+    "word": "forty",
+    "pos": "noun",
+    "def": "The number 40.",
+    "ex": "A standard work week consists of forty hours.",
+    "id": "fallback_forty",
+    "theme": "general"
+  },
+  "fifty": {
+    "word": "fifty",
+    "pos": "noun",
+    "def": "The number 50.",
+    "ex": "Fifty percent of the participants answered correctly.",
+    "id": "fallback_fifty",
+    "theme": "general"
+  },
+  "hundred": {
+    "word": "hundred",
+    "pos": "noun",
+    "def": "The number 100.",
+    "ex": "One hundred years make one century.",
+    "id": "fallback_hundred",
+    "theme": "general"
+  },
+  "thousand": {
+    "word": "thousand",
+    "pos": "noun",
+    "def": "The number 1000.",
+    "ex": "More than a thousand people attended the festival.",
+    "id": "fallback_thousand",
+    "theme": "general"
+  },
+  "million": {
+    "word": "million",
+    "pos": "noun",
+    "def": "The number 1,000,000.",
+    "ex": "The city has a population of two million residents.",
+    "id": "fallback_million",
+    "theme": "general"
+  },
+  "third": {
+    "word": "third",
+    "pos": "adjective",
+    "def": "Coming immediately after second in order or rank.",
+    "ex": "She finished in third position in the race.",
+    "id": "fallback_third",
+    "theme": "general"
+  },
+  "light blue": {
+    "word": "light blue",
+    "pos": "adjective",
+    "def": "Having a pale or light shade of blue.",
+    "ex": "She wore a light blue cotton shirt.",
+    "id": "fallback_light blue",
+    "theme": "general"
+  },
+  "dark green": {
+    "word": "dark green",
+    "pos": "adjective",
+    "def": "Having a deep or dark shade of green.",
+    "ex": "Pine needles are dark green in color.",
+    "id": "fallback_dark green",
+    "theme": "general"
+  },
+  "bright red": {
+    "word": "bright red",
+    "pos": "adjective",
+    "def": "Having a vivid, vibrant red color.",
+    "ex": "A bright red sports car drove past the office.",
+    "id": "fallback_bright red",
+    "theme": "general"
+  },
+  "circle": {
+    "word": "circle",
+    "pos": "noun",
+    "def": "A perfectly round two-dimensional geometric shape.",
+    "ex": "Draw a circle on the paper with a compass.",
+    "id": "fallback_circle",
+    "theme": "general"
+  },
+  "triangle": {
+    "word": "triangle",
+    "pos": "noun",
+    "def": "A two-dimensional geometric shape with three straight sides and three angles.",
+    "ex": "A slice of pizza resembles a triangle.",
+    "id": "fallback_triangle",
+    "theme": "general"
+  },
+  "rectangle": {
+    "word": "rectangle",
+    "pos": "noun",
+    "def": "A four-sided geometric shape with four right angles.",
+    "ex": "The computer monitor screen is a rectangle.",
+    "id": "fallback_rectangle",
+    "theme": "general"
+  },
+  "star": {
+    "word": "star",
+    "pos": "noun",
+    "def": "A conventional geometric symbol with five or six pointed arms.",
+    "ex": "The teacher placed a gold star on her test.",
+    "id": "fallback_star",
+    "theme": "general"
+  },
+  "diamond": {
+    "word": "diamond",
+    "pos": "noun",
+    "def": "A quadrilateral geometric shape with four equal sides placed obliquely.",
+    "ex": "Road signs in the area are shaped like a diamond.",
+    "id": "fallback_diamond",
+    "theme": "general"
+  },
+  "cube": {
+    "word": "cube",
+    "pos": "noun",
+    "def": "A solid three-dimensional object with six equal square faces.",
+    "ex": "Drop an ice cube into the glass of lemonade.",
+    "id": "fallback_cube",
+    "theme": "general"
+  },
+  "sphere": {
+    "word": "sphere",
+    "pos": "noun",
+    "def": "A perfectly round three-dimensional solid ball shape.",
+    "ex": "The Earth is an oblique spherical planet.",
+    "id": "fallback_sphere",
+    "theme": "general"
+  },
+  "cylinder": {
+    "word": "cylinder",
+    "pos": "noun",
+    "def": "A solid or hollow geometric object with straight parallel sides and circular ends.",
+    "ex": "Soup comes stored in a metal cylinder can.",
+    "id": "fallback_cylinder",
+    "theme": "general"
+  },
+  "cone": {
+    "word": "cone",
+    "pos": "noun",
+    "def": "A solid or hollow object tapering smoothly from a circular base to a point.",
+    "ex": "He enjoyed a chocolate ice cream cone.",
+    "id": "fallback_cone",
+    "theme": "general"
+  },
+  "curved": {
+    "word": "curved",
+    "pos": "adjective",
+    "def": "Having a bending or non-straight line or surface.",
+    "ex": "The scenic mountain road follows a curved path.",
+    "id": "fallback_curved",
+    "theme": "general"
   }
 }

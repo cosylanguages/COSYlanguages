@@ -25,84 +25,6 @@ if os.path.exists(dict_path):
 else:
     dict_a1 = {}
 
-FALLBACKS = {
-    'midnight': ('noun', 'Twelve o\'clock at night.', 'The movie starts at midnight.'),
-    'quarter past': ('phrase', 'Fifteen minutes after the hour.', 'It is quarter past three.'),
-    'quarter to': ('phrase', 'Fifteen minutes before the hour.', 'It is quarter to four.'),
-    'half past': ('phrase', 'Thirty minutes after the hour.', 'The meeting is at half past two.'),
-    'o\'clock': ('adverb', 'Used after a number from one to twelve to say what time it is.', 'School starts at nine o\'clock.'),
-    'town hall': ('noun', 'A public building used for town administration and meetings.', 'The town hall is in the central square.'),
-    'art gallery': ('noun', 'A building or room where works of art are shown.', 'We visited an art gallery on Saturday.'),
-    'swimming pool': ('noun', 'An artificial area of water for swimming.', 'She swims in the indoor swimming pool.'),
-    'single ticket': ('noun', 'A ticket for a journey in one direction only.', 'I bought a single ticket to London.'),
-    'return ticket': ('noun', 'A ticket for a journey to a place and back again.', 'A return ticket is cheaper.'),
-    'boarding pass': ('noun', 'A pass that gives a passenger permission to board a plane or ship.', 'Show your boarding pass at the gate.'),
-    'train station': ('noun', 'A building where trains stop for passengers.', 'Meet me at the train station.'),
-    'bus stop': ('noun', 'A place on a road where buses stop to let passengers on or off.', 'Wait at the bus stop.'),
-    'post office': ('noun', 'A place where you can buy stamps and send letters.', 'I am going to the post office.'),
-    'police station': ('noun', 'A building for police officers in a town.', 'Report the lost wallet at the police station.'),
-    'maths': ('noun', 'The study of numbers, shapes, and quantities.', 'Maths is my favourite subject.'),
-    'science': ('noun', 'The study of the physical and natural world.', 'We conducted an experiment in science class.'),
-    'history': ('noun', 'The study of past events.', 'I am reading a book about world history.'),
-    'geography': ('noun', 'The study of the Earth\'s physical features and climate.', 'Geography teaches us about countries and maps.'),
-    'art': ('noun', 'The expression of creative skill, such as painting.', 'She drew a landscape in art class.'),
-    'pe': ('noun', 'Physical education lessons at school.', 'We played basketball in PE.'),
-    'whiteboard': ('noun', 'A large smooth white board for writing on with markers.', 'The teacher wrote the sentence on the whiteboard.'),
-    'video call': ('noun', 'A phone call in which you can see the person you are talking to.', 'We had a video call with our grandparents.'),
-    'fog': ('noun', 'A thick cloud of water droplets suspended in the air.', 'Thick fog delayed our morning drive.'),
-    'freezing': ('adjective', 'Extremely cold.', 'It is freezing outside in winter.'),
-    'field': ('noun', 'An area of open land, especially one used for crops or pasture.', 'Cows graze in the open field.'),
-    'island': ('noun', 'A piece of land surrounded by water.', 'We took a boat to a tropical island.'),
-    'jungle': ('noun', 'An area of land overgrown with dense forest and vegetation.', 'Monkeys live in the tropical jungle.'),
-    'valley': ('noun', 'A low area of land between hills or mountains.', 'A river flows through the valley.'),
-    'hill': ('noun', 'A naturally raised area of land, lower than a mountain.', 'They walked up the grassy hill.'),
-    'desert': ('noun', 'A dry, barren area of land with little water.', 'Camels travel across the hot desert.'),
-    'tiger': ('noun', 'A large wild cat with black stripes.', 'The tiger walked through the forest.'),
-    'butterfly': ('noun', 'An insect with large colourful wings.', 'A beautiful butterfly landed on the flower.'),
-    'reading': ('noun', 'The action or skill of reading books or texts.', 'Reading expands your vocabulary.'),
-    'drawing': ('noun', 'A picture made with a pencil or pen.', 'She made a lovely pencil drawing.'),
-    'gardening': ('noun', 'The activity of tending and cultivating a garden.', 'Gardening is a relaxing hobby.'),
-    'fishing': ('noun', 'The activity of catching fish.', 'He went fishing at the lake on Sunday.'),
-    'camping': ('noun', 'The activity of spending a holiday living in a tent.', 'We went camping in the mountains.'),
-    'travelling': ('noun', 'The activity of visiting different places and countries.', 'Travelling opens your mind to new cultures.'),
-    'gaming': ('noun', 'The activity of playing video games.', 'He enjoys online gaming with friends.'),
-    'dancing': ('noun', 'Moving your body to music.', 'Dancing is great exercise and fun.'),
-    'singing': ('noun', 'Making musical sounds with the voice.', 'She loves singing in the local choir.'),
-    'soccer': ('noun', 'A game played by two teams who kick a ball into a goal (football).', 'They play soccer after school.'),
-    'volleyball': ('noun', 'A game in which two teams hit a ball over a high net.', 'We played beach volleyball in summer.'),
-    'swimming': ('noun', 'Moving through water by moving body limbs.', 'Swimming is an excellent full-body exercise.'),
-    'running': ('noun', 'Moving fast on foot as a sport or exercise.', 'He goes running every morning in the park.'),
-    'cycling': ('noun', 'The activity of riding a bicycle.', 'Cycling is an eco-friendly way to commute.'),
-    'skiing': ('noun', 'The sport or activity of moving over snow on skis.', 'We go skiing in the mountains every winter.'),
-    'yoga': ('noun', 'A system of exercises for body and breath control.', 'Yoga helps reduce stress.'),
-    'pitch': ('noun', 'An area grounded for playing a sport such as football.', 'The players ran onto the football pitch.'),
-    'court': ('noun', 'An area marked for playing games such as tennis or basketball.', 'They booked a tennis court for two hours.'),
-    'match': ('noun', 'A contest in which people or teams compete against each other.', 'We won the football match.'),
-    'team': ('noun', 'A group of players forming one side in a competitive game.', 'Our team played very well today.'),
-    'score a goal': ('phrase', 'To kick or hit the ball into the net to get a point.', 'He scored a goal in the final minute.'),
-    'zero': ('noun', 'The numerical symbol 0.', 'Water freezes at zero degrees Celsius.'),
-    'thirty': ('noun', 'The number 30.', 'There are thirty days in April.'),
-    'forty': ('noun', 'The number 40.', 'He works forty hours a week.'),
-    'fifty': ('noun', 'The number 50.', 'Fifty percent of the group agreed.'),
-    'hundred': ('noun', 'The number 100.', 'One hundred years make a century.'),
-    'thousand': ('noun', 'The number 1000.', 'A thousand people attended the concert.'),
-    'million': ('noun', 'The number 1,000,000.', 'Over one million tourists visit each year.'),
-    'third': ('adjective', 'Coming immediately after the second.', 'She finished in third place.'),
-    'light blue': ('adjective', 'Having a pale shade of blue.', 'She wore a light blue shirt.'),
-    'dark green': ('adjective', 'Having a deep or dark shade of green.', 'The forest was dark green in summer.'),
-    'bright red': ('adjective', 'Having a vibrant, vivid red colour.', 'A bright red sports car drove past.'),
-    'circle': ('noun', 'A completely round flat shape.', 'Draw a perfect circle on the page.'),
-    'triangle': ('noun', 'A geometric shape with three straight sides and three angles.', 'A slice of pizza looks like a triangle.'),
-    'rectangle': ('noun', 'A shape with four straight sides and four right angles.', 'The computer monitor is a rectangle.'),
-    'star': ('noun', 'A shape with five or six points.', 'Draw a yellow star on the chart.'),
-    'diamond': ('noun', 'A shape with four equal straight sides forming two acute angles.', 'The road sign was shaped like a diamond.'),
-    'cube': ('noun', 'A solid three-dimensional square shape with six equal faces.', 'Roll the six-sided ice cube.'),
-    'sphere': ('noun', 'A round three-dimensional shape like a ball.', 'The Earth is a massive sphere.'),
-    'cylinder': ('noun', 'A solid geometric shape with straight parallel sides and circular ends.', 'The tin can is a cylinder.'),
-    'cone': ('noun', 'A solid object that tapers smoothly from a circular base to a point.', 'He ate an ice cream cone.'),
-    'curved': ('adjective', 'Having a bending line without straight angles.', 'The road follows a curved path.')
-}
-
 def resolve_card(term):
     key = term.lower().strip()
     if key in dict_a1:
@@ -112,11 +34,8 @@ def resolve_card(term):
         ex = item.get('ex') or f'This is a key example sentence for {term}.'
         w = item.get('word') or term
         return w, pos, d, ex
-    elif key in FALLBACKS:
-        pos, d, ex = FALLBACKS[key]
-        return term, pos, d, ex
     else:
-        return term, 'noun', f'Essential A1 vocabulary term for {term}.', f'This is a key example sentence for {term}.'
+        return term, 'noun', f'Key vocabulary term for {term}.', f'Example sentence using {term}.'
 
 def make_grid(terms):
     cards = []
@@ -297,32 +216,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 """
 
-# Define word lists for each unit across Parts 1-10
-p1_11 = ['name', 'first name', 'last name', 'hello', 'hi', 'good morning', 'goodbye', 'bye', 'meet', 'call', 'spell', 'wave']
-p1_12 = ['age', 'birthday', 'date of birth', 'address', 'street', 'postcode', 'phone number', 'email address', 'passport', 'id card', 'driver\'s licence']
-p1_13 = ['United Kingdom', 'British', 'United States', 'American', 'Canada', 'Canadian', 'France', 'French', 'Germany', 'German', 'Spain', 'Spanish']
-p1_21 = ['mother', 'mum', 'dad', 'parents', 'brother', 'sister', 'twin', 'grandmother', 'grandfather', 'uncle', 'aunt', 'cousin']
-p1_22 = ['single', 'married', 'friend', 'best friend', 'neighbour', 'colleague', 'classmate', 'roommate', 'partner', 'boyfriend', 'girlfriend', 'husband', 'wife']
-p1_31 = ['head', 'hair', 'eye', 'nose', 'mouth', 'shoulder', 'arm', 'hand', 'finger', 'leg', 'knee', 'foot', 'toe', 'heart', 'stomach']
-p1_32 = ['happy', 'sad', 'angry', 'tired', 'exhausted', 'hungry', 'thirsty', 'sick', 'headache', 'medicine', 'doctor', 'nurse']
-
-p2_41 = ['shirt', 't-shirt', 'polo shirt', 'sweater', 'hoodie', 'jacket', 'coat', 'trousers', 'jeans', 'shorts', 'skirt', 'dress', 'tracksuit', 'pajamas']
-p2_42 = ['shoes', 'boots', 'trainers', 'sandals', 'slippers', 'high heels', 'socks', 'tights']
-p2_43 = ['raincoat', 'winter coat', 'scarf', 'gloves', 'mittens', 'beanie', 'sun hat', 'swimsuit', 'sunglasses']
-p2_44 = ['belt', 'tie', 'watch', 'ring', 'necklace', 'bracelet', 'earrings', 'wallet', 'purse', 'handbag', 'backpack', 'suitcase']
-p2_45 = ['wear', 'put on', 'take off', 'try on', 'change', 'wash', 'iron', 'fit', 'suit']
-
-p3_51 = ['house', 'cottage', 'flat', 'apartment', 'skyscraper', 'ground floor', 'top floor', 'balcony', 'garden', 'yard', 'garage']
-p3_61 = ['sofa', 'armchair', 'coffee table', 'television', 'bookshelf', 'carpet', 'curtain', 'lamp']
-p3_62 = ['bed', 'mattress', 'pillow', 'blanket', 'duvet', 'wardrobe', 'chest of drawers']
-p3_63 = ['fridge', 'freezer', 'cooker', 'oven', 'microwave', 'kettle', 'toaster', 'dishwasher', 'plate', 'bowl', 'cup', 'mug', 'knife', 'fork', 'spoon']
-p3_64 = ['toilet', 'sink', 'bathtub', 'shower', 'towel', 'soap', 'shampoo', 'toothbrush', 'toothpaste', 'hairdryer']
-
-p4_71 = ['apple', 'banana', 'orange', 'lemon', 'strawberry', 'raspberry', 'blueberry', 'potato', 'tomato', 'onion', 'garlic']
-p4_72 = ['beef', 'pork', 'chicken', 'turkey', 'ham', 'bacon', 'fish', 'salmon', 'tuna', 'milk', 'butter', 'cheese', 'yoghurt', 'egg', 'bread']
-p4_73 = ['rice', 'pasta', 'cereal', 'flour', 'sugar', 'salt', 'pepper', 'olive oil', 'vinegar', 'ketchup', 'mustard', 'honey']
-p4_81 = ['breakfast', 'lunch', 'dinner', 'snack', 'cook', 'bake', 'boil', 'fry', 'grill', 'roast', 'chop', 'slice', 'mix']
-
+# Word lists for converted Parts 5-10
 p5_91 = ['wake up', 'get up', 'shower', 'brush', 'breakfast', 'coffee', 'eat', 'drink', 'dress', 'wash']
 p5_92 = ['leave', 'bus', 'train', 'drive', 'work', 'arrive', 'email', 'meeting', 'lunch', 'finish']
 p5_93 = ['home', 'relax', 'cook', 'dinner', 'watch', 'read', 'book', 'sleep', 'clean', 'friend']
@@ -363,16 +257,30 @@ PARTS = [
         "grammar_title": "Book 1 (Grammar) Part 1 — Building Blocks & Pronouns",
         "comm_ref": "../../communication/part-1.html",
         "comm_title": "Book 3 (Communication) Part 1 — Starting & Ending Conversations",
-        "body_html": f"""
+        "body_html": """
 <div class="content-block">
   <h2>Unit 1: Personal Information & First Contact</h2>
-  <h3>1.1 First Contact & Basic Greetings ({len(p1_11)} terms)</h3>
-{make_grid(p1_11)}
+  <h3>1.1 First Contact & Basic Greetings</h3>
+  <div class="vocab-grid">
+    <div class="vocab-item">Name / First name / Last name <span>Identity terms</span></div>
+    <div class="vocab-item">Hello / Hi / Good morning <span>Greetings</span></div>
+    <div class="vocab-item">Goodbye / Bye / See you <span>Partings</span></div>
+    <div class="vocab-item">Meet / Call / Spell / Wave <span>Action verbs</span></div>
+  </div>
   <div class="frame-box">
     <strong>Collocations & Essential Verbs:</strong>
     <ul>
       <li>First name, last name, full name, spell your name, say hello, wave goodbye.</li>
       <li>Be, call, spell, say, meet, introduce, greet, wave.</li>
+    </ul>
+  </div>
+  <div class="frame-box">
+    <strong>Set Phrases & Sentence Frames:</strong>
+    <ul>
+      <li>What's your name? / My name is... / I am...</li>
+      <li>Nice to meet you. / Glad to meet you.</li>
+      <li>Good morning! / Good afternoon! / Good evening! / How are you? / I'm fine, thank you. / See you tomorrow! / Bye!</li>
+      <li>Sentence frame: <code>My name is + [Name]</code>, <code>Nice to meet you, + [Name]</code>.</li>
     </ul>
   </div>
   <div class="dialogue-box">
@@ -381,29 +289,76 @@ PARTS = [
     <div class="line"><strong>A:</strong> Nice to meet you too!</div>
   </div>
 
-  <h3>1.2 Personal Details & Contact Info ({len(p1_12)} terms)</h3>
-{make_grid(p1_12)}
+  <h3>1.2 Personal Details & Contact Info</h3>
+  <div class="vocab-grid">
+    <div class="vocab-item">Age / Birthday / Date of birth <span>Personal metrics</span></div>
+    <div class="vocab-item">Address / Street / Postcode <span>Location details</span></div>
+    <div class="vocab-item">Phone number / Email address <span>Digital contact</span></div>
+    <div class="vocab-item">Passport / ID card / Driver's licence <span>Documents</span></div>
+  </div>
+  <div class="frame-box">
+    <strong>Collocations & Verbs:</strong>
+    <ul>
+      <li>Home address, email address, mobile phone number, date of birth, identity card, fill in a form, sign here.</li>
+      <li>Live, have, write, sign, fill in, complete, show, check.</li>
+    </ul>
+  </div>
+  <div class="dialogue-box">
+    <div class="line"><strong>A:</strong> Can I have your phone number, please?</div>
+    <div class="line"><strong>B:</strong> Sure! It's 07700 900123.</div>
+    <div class="line"><strong>A:</strong> Thank you. And what's your email address?</div>
+    <div class="line"><strong>B:</strong> It's sarah.smith@email.com.</div>
+  </div>
 
-  <h3>1.3 Origin, Countries & Nationalities ({len(p1_13)} terms)</h3>
-{make_grid(p1_13)}
+  <h3>1.3 Origin, Countries, Nationalities & Languages</h3>
+  <p>Country ➔ Nationality ➔ Language Triads:</p>
+  <ul>
+    <li>United Kingdom ➔ British ➔ English</li>
+    <li>United States ➔ American ➔ English</li>
+    <li>Canada ➔ Canadian ➔ English / French</li>
+    <li>Australia ➔ Australian ➔ English</li>
+    <li>France ➔ French ➔ French</li>
+    <li>Germany ➔ German ➔ German</li>
+    <li>Italy ➔ Italian ➔ Italian</li>
+    <li>Spain ➔ Spanish ➔ Spanish</li>
+    <li>Portugal ➔ Portuguese ➔ Portuguese</li>
+    <li>Greece ➔ Greek ➔ Greek</li>
+    <li>Japan ➔ Japanese ➔ Japanese</li>
+    <li>China ➔ Chinese ➔ Mandarin</li>
+    <li>India ➔ Indian ➔ Hindi / English</li>
+    <li>Brazil ➔ Brazilian ➔ Portuguese</li>
+    <li>Mexico ➔ Mexican ➔ Spanish</li>
+    <li>Ukraine ➔ Ukrainian ➔ Ukrainian</li>
+    <li>Poland ➔ Polish ➔ Polish</li>
+    <li>Turkey ➔ Turkish ➔ Turkish</li>
+  </ul>
 </div>
 
 <div class="content-block">
   <h2>Unit 2: Family & Relationships</h2>
-  <h3>2.1 Immediate & Extended Family ({len(p1_21)} terms)</h3>
-{make_grid(p1_21)}
-
-  <h3>2.2 Marital Status & Relationships ({len(p1_22)} terms)</h3>
-{make_grid(p1_22)}
+  <h3>2.1 Immediate & Extended Family</h3>
+  <div class="vocab-grid">
+    <div class="vocab-item">Mother / Mum / Dad / Parents <span>Direct parents</span></div>
+    <div class="vocab-item">Brother / Sister / Twin <span>Siblings</span></div>
+    <div class="vocab-item">Grandmother / Grandfather <span>Grandparents</span></div>
+    <div class="vocab-item">Uncle / Aunt / Cousin / Nephew / Niece <span>Extended family</span></div>
+    <div class="vocab-item">Stepmother / Father-in-law <span>Step & In-law family</span></div>
+  </div>
+  <h3>2.2 Marital Status & Relationships</h3>
+  <p>Status: Single, married, engaged, divorced, separated, widowed. Friend, best friend, neighbour, colleague, classmate, roommate, partner, boyfriend, girlfriend, husband, wife, fiancé, couple.</p>
 </div>
 
 <div class="content-block">
   <h2>Unit 3: The Human Body & Physical Appearance</h2>
-  <h3>3.1 Head, Facial Features & Body Parts ({len(p1_31)} terms)</h3>
-{make_grid(p1_31)}
-
-  <h3>3.2 Emotions & Health ({len(p1_32)} terms)</h3>
-{make_grid(p1_32)}
+  <h3>3.1 Head, Facial Features & Body Parts</h3>
+  <div class="vocab-grid">
+    <div class="vocab-item">Head / Hair / Eye / Nose / Mouth <span>Facial features</span></div>
+    <div class="vocab-item">Shoulder / Arm / Hand / Finger <span>Upper body</span></div>
+    <div class="vocab-item">Leg / Knee / Foot / Feet / Toe <span>Lower body</span></div>
+    <div class="vocab-item">Heart / Brain / Lungs / Stomach <span>Internal organs</span></div>
+  </div>
+  <h3>3.2 Emotions & Health</h3>
+  <p>Happy, sad, angry, tired, exhausted, hungry, thirsty, sick, headache, sore throat, medicine, doctor, nurse, pharmacy, hospital, ambulance.</p>
 </div>
 
 <div class="quiz-panel">
@@ -428,23 +383,39 @@ PARTS = [
         "grammar_title": "Book 1 (Grammar) Part 5 — Adjectives & Descriptive Order",
         "comm_ref": "../../communication/part-4.html",
         "comm_title": "Book 3 (Communication) Part 4 — Preferences & Shopping",
-        "body_html": f"""
+        "body_html": """
 <div class="content-block">
   <h2>Unit 4: Everyday & Seasonal Clothing</h2>
-  <h3>4.1 Everyday Upper & Lower Body Clothes ({len(p2_41)} terms)</h3>
-{make_grid(p2_41)}
+  <h3>4.1 Everyday Upper & Lower Body Clothes</h3>
+  <div class="vocab-grid">
+    <div class="vocab-item">Shirt / T-shirt / Polo shirt <span>Upper body</span></div>
+    <div class="vocab-item">Sweater / Hoodie / Jacket / Coat <span>Outerwear</span></div>
+    <div class="vocab-item">Trousers / Jeans / Shorts / Skirt <span>Lower body</span></div>
+    <div class="vocab-item">Dress / Tracksuit / Pajamas <span>Full body / Sleepwear</span></div>
+  </div>
 
-  <h3>4.2 Footwear & Shoes ({len(p2_42)} terms)</h3>
-{make_grid(p2_42)}
+  <h3>4.2 Footwear & Shoes</h3>
+  <p>Shoes, boots, trainers/sneakers, sandals, slippers, high heels, socks, tights. Verbs: Put on, take off, tie, untie, try on.</p>
 
-  <h3>4.3 Winter & Summer Weather Gear ({len(p2_43)} terms)</h3>
-{make_grid(p2_43)}
+  <h3>4.3 Winter & Summer Weather Gear</h3>
+  <div class="vocab-grid">
+    <div class="vocab-item">Raincoat / Winter coat / Scarf <span>Cold/Rain gear</span></div>
+    <div class="vocab-item">Gloves / Mittens / Beanie <span>Winter accessories</span></div>
+    <div class="vocab-item">Sun hat / Swimsuit / Sunglasses <span>Summer gear</span></div>
+  </div>
 
-  <h3>4.4 Accessories, Jewellery & Bags ({len(p2_44)} terms)</h3>
-{make_grid(p2_44)}
+  <h3>4.4 Accessories, Jewellery & Bags</h3>
+  <p>Belt, tie, watch, ring, necklace, bracelet, earrings, wallet, purse, handbag, backpack, suitcase.</p>
 
-  <h3>4.5 Dressing Actions ({len(p2_45)} terms)</h3>
-{make_grid(p2_45)}
+  <h3>4.5 Dressing Actions & Fitting Room</h3>
+  <div class="frame-box">
+    <strong>Action Verbs & Key Phrases:</strong>
+    <ul>
+      <li>Wear, put on, take off, try on, change, wash, iron, fit, suit, match, zip up, button up.</li>
+      <li>Where is the fitting room? / What size is this?</li>
+      <li>It fits me well. / Put on your coat! / Take off your shoes.</li>
+    </ul>
+  </div>
   <div class="dialogue-box">
     <div class="line"><strong>Customer:</strong> Excuse me, where is the fitting room?</div>
     <div class="line"><strong>Staff:</strong> Over there on the left.</div>
@@ -474,26 +445,36 @@ PARTS = [
         "grammar_title": "Book 1 (Grammar) Part 8 — Prepositions of Place (In/On/At)",
         "comm_ref": "../../communication/part-7.html",
         "comm_title": "Book 3 (Communication) Part 7 — Describing Your Home & Environment",
-        "body_html": f"""
+        "body_html": """
 <div class="content-block">
   <h2>Unit 5: Housing & Building Exterior</h2>
-  <h3>5.1 Housing Types & Building Exterior ({len(p3_51)} terms)</h3>
-{make_grid(p3_51)}
+  <h3>5.1 House vs. Apartment Building</h3>
+  <div class="vocab-grid">
+    <div class="vocab-item">House / Cottage / Flat / Apartment <span>Housing types</span></div>
+    <div class="vocab-item">Block of flats / Skyscraper <span>Large buildings</span></div>
+    <div class="vocab-item">Ground floor / Top floor / Balcony <span>Building levels</span></div>
+  </div>
+  <h3>5.2 Garden, Yard & Garage</h3>
+  <p>Garden, yard, lawn, fence, gate, garage, driveway, mailbox, plants, flowers.</p>
 </div>
 
 <div class="content-block">
   <h2>Unit 6: Inside the Home (Room by Room)</h2>
-  <h3>6.1 Living Room & Relaxation Area ({len(p3_61)} terms)</h3>
-{make_grid(p3_61)}
+  <h3>6.1 Living Room & Relaxation Area</h3>
+  <p>Sofa, armchair, coffee table, TV stand, television, bookshelf, carpet, curtain, lamp.</p>
 
-  <h3>6.2 Bedroom & Sleep Essentials ({len(p3_62)} terms)</h3>
-{make_grid(p3_62)}
+  <h3>6.2 Bedroom & Sleep Essentials</h3>
+  <div class="vocab-grid">
+    <div class="vocab-item">Bed / Double bed / Single bed <span>Beds</span></div>
+    <div class="vocab-item">Mattress / Pillow / Blanket / Duvet <span>Bedding</span></div>
+    <div class="vocab-item">Wardrobe / Chest of drawers <span>Storage</span></div>
+  </div>
 
-  <h3>6.3 Kitchen Appliances & Tableware ({len(p3_63)} terms)</h3>
-{make_grid(p3_63)}
+  <h3>6.3 Kitchen Appliances & Tableware</h3>
+  <p>Fridge, freezer, cooker, oven, microwave, kettle, toaster, dishwasher, plate, bowl, cup, mug, knife, fork, spoon.</p>
 
-  <h3>6.4 Bathroom & Personal Hygiene ({len(p3_64)} terms)</h3>
-{make_grid(p3_64)}
+  <h3>6.4 Bathroom & Personal Hygiene</h3>
+  <p>Toilet, sink, bathtub, shower, towel, soap, shampoo, toothbrush, toothpaste, hairdryer.</p>
 </div>
 """
     },
@@ -510,23 +491,27 @@ PARTS = [
         "grammar_title": "Book 1 (Grammar) Part 7 — Countable/Uncountable & Quantifiers",
         "comm_ref": "../../communication/part-2.html",
         "comm_title": "Book 3 (Communication) Part 2 — Ordering Food & Cafe Requests",
-        "body_html": f"""
+        "body_html": """
 <div class="content-block">
   <h2>Unit 7: Food Categories & Pantry</h2>
-  <h3>7.1 Fruits, Berries & Vegetables ({len(p4_71)} terms)</h3>
-{make_grid(p4_71)}
+  <h3>7.1 Fruits, Berries & Vegetables</h3>
+  <div class="vocab-grid">
+    <div class="vocab-item">Apple / Banana / Orange / Lemon <span>Fruits</span></div>
+    <div class="vocab-item">Strawberry / Raspberry / Blueberry <span>Berries</span></div>
+    <div class="vocab-item">Potato / Tomato / Onion / Garlic <span>Vegetables</span></div>
+  </div>
 
-  <h3>7.2 Meat, Seafood & Dairy ({len(p4_72)} terms)</h3>
-{make_grid(p4_72)}
+  <h3>7.2 Meat, Poultry, Seafood & Dairy</h3>
+  <p>Beef, pork, chicken, turkey, ham, bacon, fish, salmon, tuna, prawn, milk, butter, cheese, yoghurt, egg, bread.</p>
 
-  <h3>7.3 Pantry Staples & Condiments ({len(p4_73)} terms)</h3>
-{make_grid(p4_73)}
+  <h3>7.3 Pantry Staples & Condiments</h3>
+  <p>Rice, pasta, cereal, flour, sugar, salt, pepper, olive oil, vinegar, ketchup, mustard, honey.</p>
 </div>
 
 <div class="content-block">
   <h2>Unit 8: Meals, Cooking & Eating Out</h2>
-  <h3>8.1 Meals & Cooking Methods ({len(p4_81)} terms)</h3>
-{make_grid(p4_81)}
+  <h3>8.1 Meals & Cooking Methods</h3>
+  <p>Breakfast, lunch, dinner, snack, cook, bake, boil, fry, grill, roast, chop, slice, mix.</p>
 
   <h3>8.2 Restaurant & Cafe Dining</h3>
   <div class="frame-box">
