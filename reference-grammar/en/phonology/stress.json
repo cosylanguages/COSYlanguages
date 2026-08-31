@@ -46,6 +46,50 @@
         }
       ],
       "practice_links": null
+    },
+    {
+      "id": "suffix_stress_patterns",
+      "label": "Suffix Stress Patterns",
+      "level": "A2",
+      "emoji": "📌",
+      "definition": "Predictable stress shifts caused by specific word suffixes",
+      "rules": [
+        "Suffixes like -tion, -sion, and -ic place primary stress on the syllable immediately preceding them.",
+        "Neutral suffixes like -ful, -less, and -ly do not alter the root word's stress position."
+      ],
+      "examples": [
+        {
+          "t": "in-for-MA-tion, eco-NOM-ic",
+          "m": "Stress on syllable before -tion or -ic"
+        },
+        {
+          "t": "CARE-ful, HAP-pi-ly",
+          "m": "Unchanged stress root with neutral suffixes"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "compound_word_stress",
+      "label": "Compound & Functional Stress",
+      "level": "B1",
+      "emoji": "🔀",
+      "definition": "Stress distinctions in compound nouns, phrasal verbs, and noun-verb pairs",
+      "rules": [
+        "Compound nouns usually stress the first word (BLACK-board), while adjective + noun phrases stress the second word (black BOARD).",
+        "Noun-verb homographs stress the first syllable as a noun (EX-port) and the second as a verb (ex-PORT)."
+      ],
+      "examples": [
+        {
+          "t": "GREEN-house (building for plants) vs green HOUSE (house painted green)",
+          "m": "Compound noun vs adjective phrase stress"
+        },
+        {
+          "t": "an IN-crease (noun) vs to in-CREASE (verb)",
+          "m": "Noun vs verb stress shift"
+        }
+      ],
+      "practice_links": null
     }
   ]
 }

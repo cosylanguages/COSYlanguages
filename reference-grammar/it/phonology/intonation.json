@@ -2,5 +2,72 @@
   "language": "it",
   "category": "intonation",
   "level": "A1-C2",
-  "groups": []
+  "groups": [
+    {
+      "id": "intonazione_base_domande",
+      "label": "Intonazione dichiarativa e interrogativa",
+      "level": "A1",
+      "emoji": "📈",
+      "definition": "Andamento della voce nelle affermazioni e nelle domande semplici",
+      "rules": [
+        "Le frasi dichiarative terminano con un tono discendente ↘.",
+        "Le domande sì/no senza pronome interrogativo terminano con una curva ascendente ↗ sul finale."
+      ],
+      "examples": [
+        {
+          "t": "Sei italiano? ↗",
+          "m": "Domanda diretta con tono ascendente"
+        },
+        {
+          "t": "Sono italiano. ↘",
+          "m": "Affermazione con tono discendente"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "intonazione_sospensione_liste",
+      "label": "Intonazione di sospensione ed enumerazione",
+      "level": "A2",
+      "emoji": "📋",
+      "definition": "Andamento tonale nelle liste di elementi e nelle frasi sospese",
+      "rules": [
+        "Nelle enumerazioni, la voce sale leggermente su ogni elemento e scende solo sull'ultimo ↗↗↘.",
+        "Nelle proposizioni sospese o coordinate, l'intonazione rimane media per indicare che il discorso prosegue."
+      ],
+      "examples": [
+        {
+          "t": "Ho comprato pane ↗, latte ↗ e formaggio ↘.",
+          "m": "Intonazione di lista con chiusura finale"
+        },
+        {
+          "t": "Se vieni domani ↗, andiamo al mare ↘.",
+          "m": "Tono di sospensione nella proposizione ipotetica"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "intonazione_espressiva_sfumature",
+      "label": "Intonazione espressiva ed enfatica",
+      "level": "B1",
+      "emoji": "🎭",
+      "definition": "Variazioni di altezza tonale per esprimere enfasi, sorpresa o contrasto",
+      "rules": [
+        "L'intonazione di contrasto sposta il picco d'altezza sulla parola da evidenziare.",
+        "Le domande esclamative o di sorpresa presentano un'escursione tonale più ampia e rapida."
+      ],
+      "examples": [
+        {
+          "t": "Voglio il libro ROSSO ↗, non quello blu ↘.",
+          "m": "Intonazione di contrasto sulla parola chiave"
+        },
+        {
+          "t": "Davvero l'hai fatto?! ↗💥",
+          "m": "Escursione tonale per esprimere sorpresa o incredulità"
+        }
+      ],
+      "practice_links": null
+    }
+  ]
 }

@@ -2,5 +2,72 @@
   "language": "it",
   "category": "stress",
   "level": "A1-C2",
-  "groups": []
+  "groups": [
+    {
+      "id": "accento_piane_tronche",
+      "label": "Accento tonico e parole piane e tronche",
+      "level": "A1",
+      "emoji": "🔊",
+      "definition": "La posizione principale dell'accento tonico nelle parole italiane",
+      "rules": [
+        "La maggior parte delle parole italiane è piana: l'accento cade sulla penultima sillaba.",
+        "Nelle parole tronche l'accento cade sull'ultima sillaba e l'accento grafico è obbligatorio."
+      ],
+      "examples": [
+        {
+          "t": "Cà-sa, ma-mà-na, li-brè-ria",
+          "m": "Parole piane con accento sulla penultima sillaba"
+        },
+        {
+          "t": "Caffè, città, perché, virtù",
+          "m": "Parole tronche con accento grafico sull'ultima sillaba"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "parole_sdrucciole",
+      "label": "Parole sdrucciole e bisdrucciole",
+      "level": "A2",
+      "emoji": "📐",
+      "definition": "Accento sulla terzultima o quartultima sillaba",
+      "rules": [
+        "Nelle parole sdrucciole l'accento cade sulla terzultima sillaba (es. tàvola, mòdulo).",
+        "Nelle forme verbali con pronomi clitici l'accento può cadere sulla quartultima sillaba (parole bisdrucciole)."
+      ],
+      "examples": [
+        {
+          "t": "Tà-vo-la, me-di-co, mu-si-ca",
+          "m": "Parole sdrucciole con accento sulla terzultima"
+        },
+        {
+          "t": "Pàr-la-mi-lo, por-ta-te-ce-lo",
+          "m": "Parole bisdrucciole con accento sulla quartultima"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "accento_differenziale",
+      "label": "Accento differenziale e omografi",
+      "level": "B1",
+      "emoji": "⚖️",
+      "definition": "Uso dell'accento per distinguere parole con diverso significato o funzione grammaticale",
+      "rules": [
+        "L'accento tonico distingue parole omografe ma non omofone (es. àncora vs ancòra).",
+        "L'accento grafico differenziale distingue monosillabi omofoni con diverse funzioni (es. dà verbo vs da preposizione, sì affermazione vs si riflessivo)."
+      ],
+      "examples": [
+        {
+          "t": "L'àncora della nave vs Non è ancòra arrivato",
+          "m": "Distinzione di significato tramite posizione dell'accento"
+        },
+        {
+          "t": "Lui mi dà un libro vs Viene da Roma",
+          "m": "Accento grafico differenziale su monosillabi"
+        }
+      ],
+      "practice_links": null
+    }
+  ]
 }

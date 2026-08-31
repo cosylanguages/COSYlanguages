@@ -46,6 +46,50 @@
         }
       ],
       "practice_links": null
+    },
+    {
+      "id": "tag_question_intonation",
+      "label": "Question Tag Intonation",
+      "level": "A2",
+      "emoji": "❓",
+      "definition": "Pitch variations determining whether a question tag asks or confirms",
+      "rules": [
+        "Falling intonation ↘ on a question tag indicates checking agreement rather than asking a genuine question.",
+        "Rising intonation ↗ on a question tag indicates a genuine request for information."
+      ],
+      "examples": [
+        {
+          "t": "It's cold today, isn't it? ↘",
+          "m": "Falling tag intonation seeking agreement"
+        },
+        {
+          "t": "You haven't seen my keys, have you? ↗",
+          "m": "Rising tag intonation asking a real question"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "contrastive_tonic_intonation",
+      "label": "Contrastive & Tonic Intonation",
+      "level": "B1",
+      "emoji": "🎯",
+      "definition": "Shifting nucleus stress and pitch contour to highlight specific information or express nuance",
+      "rules": [
+        "Moving tonic stress to non-standard words shifts contrastive focus to correct information or highlight alternatives.",
+        "Fall-rise intonation ↘↗ expresses reservation, uncertainty, or polite disagreement."
+      ],
+      "examples": [
+        {
+          "t": "I wanted RED shoes, not black. 🎯",
+          "m": "Contrastive stress on the color adjective"
+        },
+        {
+          "t": "Well, she is nice... ↘↗",
+          "m": "Fall-rise pitch expressing hesitation or qualification"
+        }
+      ],
+      "practice_links": null
     }
   ]
 }

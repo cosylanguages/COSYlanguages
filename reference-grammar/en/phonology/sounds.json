@@ -48,6 +48,50 @@
         }
       ],
       "practice_links": null
+    },
+    {
+      "id": "diphthongs_vowel_length",
+      "label": "Diphthongs & Vowel Duration",
+      "level": "A2",
+      "emoji": "🎵",
+      "definition": "Gliding vowel sounds and vowel length before voiced consonants",
+      "rules": [
+        "Diphthongs move from one vowel sound to another within the same syllable (e.g. /eɪ/, /aɪ/, /əʊ/, /aʊ/).",
+        "Vowels are pronounced slightly longer before voiced consonants (e.g., bad /bæːd/) than before voiceless ones (e.g., bat /bæt/)."
+      ],
+      "examples": [
+        {
+          "t": "Play /pleɪ/, Time /taɪm/, Home /hoʊm/",
+          "m": "Diphthong glides"
+        },
+        {
+          "t": "Cap /kæp/ vs Cab /kæːb/",
+          "m": "Vowel shortening before voiceless /p/ vs lengthening before voiced /b/"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "consonant_clusters_elision",
+      "label": "Consonant Clusters & Elision",
+      "level": "B1",
+      "emoji": "⚡",
+      "definition": "Complex consonant combinations and sound dropping in natural speech",
+      "rules": [
+        "Consonant clusters occur when two or three consonants appear together without intervening vowels (e.g., /str/, /kts/).",
+        "Elision involves dropping weak sounds (like /t/ or /d/) in rapid speech when flanked by other consonants."
+      ],
+      "examples": [
+        {
+          "t": "Street /striːt/, Texts /teksts/",
+          "m": "Initial and final consonant clusters"
+        },
+        {
+          "t": "Next door ➔ /neks dɔːr/, Last night ➔ /lɑːs naɪt/",
+          "m": "Elision of final /t/ before another consonant"
+        }
+      ],
+      "practice_links": null
     }
   ]
 }

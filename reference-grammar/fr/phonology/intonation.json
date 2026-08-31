@@ -2,5 +2,72 @@
   "language": "fr",
   "category": "intonation",
   "level": "A1-C2",
-  "groups": []
+  "groups": [
+    {
+      "id": "intonation_base",
+      "label": "Intonation de base",
+      "level": "A1",
+      "emoji": "📈",
+      "definition": "Mouvement de la voix dans les déclarations et les questions simples",
+      "rules": [
+        "Les phrases déclaratives et les questions avec mot interrogatif se terminent par une intonation descendante ↘.",
+        "Les questions fermées (auxquelles on répond par oui ou non) utilisent une intonation montante ↗."
+      ],
+      "examples": [
+        {
+          "t": "Tu viens demain ? ↗",
+          "m": "Question fermée à intonation montante"
+        },
+        {
+          "t": "Où vas-tu ? ↘ / Je vais au marché. ↘",
+          "m": "Question ouverte et affirmation à intonation descendante"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "liaison_enchainement",
+      "label": "Liaisons et enchaînements",
+      "level": "A2",
+      "emoji": "🔗",
+      "definition": "Continuité du son entre les mots dans la parole liée",
+      "rules": [
+        "La liaison consiste à prononcer une consonne finale habituellement muette devant une voyelle (ex. les_amis /lezami/).",
+        "L'enchaînement vocalique ou consonantique relie naturellement la consonne finale prononcée au mot suivant sans pause."
+      ],
+      "examples": [
+        {
+          "t": "Un petit_enfant /pətitɑ̃fɑ̃/, des_univerités /dezynivɛʁsite/",
+          "m": "Liaison obligatoire après un déterminant ou un adjectif"
+        },
+        {
+          "t": "Elle habite à Paris /ɛlabitapari/",
+          "m": "Enchaînement consonantique continu"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "intonation_nuances_et_modalites",
+      "label": "Intonation expressive et nuances",
+      "level": "B1",
+      "emoji": "🎭",
+      "definition": "Mouvements intonatifs exprimant le doute, la surprise, l'ironie ou la politesse",
+      "rules": [
+        "L'intonation de doute ou d'hésitation utilise un ton soutenu ou légèrement montant-descendant.",
+        "L'intonation de politesse ou d'atténuation adoucit la fin de phrase par une courbe descendante douce."
+      ],
+      "examples": [
+        {
+          "t": "Ah bon ? Vous croyez ? ↗↘",
+          "m": "Mouvement intonatif exprimant le doute ou l'étonnement"
+        },
+        {
+          "t": "Pourriez-vous m'aider, s'il vous plaît ? ↗",
+          "m": "Intonation adoucie pour une demande polie"
+        }
+      ],
+      "practice_links": null
+    }
+  ]
 }

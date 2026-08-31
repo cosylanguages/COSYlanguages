@@ -2,5 +2,72 @@
   "language": "it",
   "category": "sounds",
   "level": "A1-C2",
-  "groups": []
+  "groups": [
+    {
+      "id": "vocali_e_consonanti",
+      "label": "Vocali e consonanti italiane",
+      "level": "A1",
+      "emoji": "🔤",
+      "definition": "I suoni base dell'alfabeto e della pronuncia italiana",
+      "rules": [
+        "L'italiano ha 7 suoni vocalici tonici (a, e aperta/chiusa, i, o aperta/chiusa, u).",
+        "Ogni lettera scritta corrisponde quasi sempre a un singolo suono chiaro."
+      ],
+      "examples": [
+        {
+          "t": "Caffè /ɛ/ aperto vs Peré /e/ chiuso",
+          "m": "Distinzione tra E aperta ed E chiusa"
+        },
+        {
+          "t": "Casa, sole, mare",
+          "m": "Pronuncia limpida delle vocali italiane"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "consonanti_doppie",
+      "label": "Consonanti doppie (Geminate)",
+      "level": "A2",
+      "emoji": "👯",
+      "definition": "La differenza di durata e forza tra consonanti scempie e doppie",
+      "rules": [
+        "Le consonanti doppie si pronunciano con maggiore durata e un'interruzione di pressione dell'aria.",
+        "La presenza della doppia consone può cambiare completamente il significato della parola."
+      ],
+      "examples": [
+        {
+          "t": "Pala /pala/ vs Palla /palːa/",
+          "m": "Consonante semplice vs consonante doppia"
+        },
+        {
+          "t": "Cano /vano/ vs Canno /anno/, Note vs Notte",
+          "m": "Opposizione fonologica e di significato"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "suoni_dolci_duri_c_g",
+      "label": "Suoni dolci e duri di C, G e gruppi speciali",
+      "level": "B1",
+      "emoji": "🔍",
+      "definition": "La pronuncia di C e G davanti alle vocali e i suoni di GN e GLI",
+      "rules": [
+        "Le lettere C e G hanno suono duro [k, g] davanti ad A, O, U e davanti alla H (chi, ghi).",
+        "Le lettere C e G hanno suono dolce [ʧ, ʤ] davanti ad E, I. Il gruppo GLI ha suono palatale [ʎ] e GN ha suono palatale [ɲ]."
+      ],
+      "examples": [
+        {
+          "t": "Ciao /ʧao/, Giro /ʤiro/ vs Chianti /kianti/, Gatto /gatto/",
+          "m": "Suono dolce vs suono duro di C e G"
+        },
+        {
+          "t": "Famiglia /famiʎa/, Legno /leɲo/",
+          "m": "Pronuncia palatale dei gruppi GLI e GN"
+        }
+      ],
+      "practice_links": null
+    }
+  ]
 }

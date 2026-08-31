@@ -2,5 +2,72 @@
   "language": "fr",
   "category": "sounds",
   "level": "A1-C2",
-  "groups": []
+  "groups": [
+    {
+      "id": "voyelles_et_consonnes_base",
+      "label": "Voyelles et consonnes de base",
+      "level": "A1",
+      "emoji": "🔤",
+      "definition": "Les sons fondamentaux de la langue française",
+      "rules": [
+        "Le français possède 16 sons voyelles distincts et 17 consonnes.",
+        "La plupart des consonnes finales sont muettes à la fin des mots (sauf C, R, F, L)."
+      ],
+      "examples": [
+        {
+          "t": "Un chat /ʃa/, un lit /li/",
+          "m": "Consonnes finales muettes T et S"
+        },
+        {
+          "t": "Un sac /sak/, un chef /ʃɛf/",
+          "m": "Consonnes finales prononcées C et F"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "voyelles_nasales",
+      "label": "Les voyelles nasales",
+      "level": "A2",
+      "emoji": "👃",
+      "definition": "Sons vocaliques articulés en laissant passer l'air par la bouche et le nez",
+      "rules": [
+        "Les combinaisons voyelle + N ou M forment une voyelle nasale quand elles sont suivies d'une consonne ou en fin de mot.",
+        "Les trois principales nasales sont [ɑ̃] (an/en), [ɛ̃] (in/ain/ein) et [ɔ̃] (on)."
+      ],
+      "examples": [
+        {
+          "t": "Un blanc /blɑ̃/, le temps /tɑ̃/",
+          "m": "Voyelle nasale [ɑ̃]"
+        },
+        {
+          "t": "Un vin /vɛ̃/, le pain /pɛ̃/, un bonbon /bɔ̃bɔ̃/",
+          "m": "Voyelles nasales [ɛ̃] et [ɔ̃]"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "e_caduc_muet",
+      "label": "Le E caduc (ou muet)",
+      "level": "B1",
+      "emoji": "🔇",
+      "definition": "Prononciation et chute de la voyelle « e » instable dans la parole courante",
+      "rules": [
+        "Le « e » instable se prononce [ə] ou s'efface selon sa position dans le mot et la phrase.",
+        "À l'intérieur d'un mot ou d'un groupe, un « e » tombe souvent s'il est précédé d'une seule consonne prononcée (règle des trois consonnes)."
+      ],
+      "examples": [
+        {
+          "t": "Un samedi ➔ /samdi/, la boulangerie ➔ /bulɑ̃ʒʁi/",
+          "m": "Chute du E caduc à l'intérieur d'un mot"
+        },
+        {
+          "t": "Je ne sais pas ➔ /ʒən sɛ pa/ ou /ʒsɛ pa/",
+          "m": "Elision du E dans la conversation orale"
+        }
+      ],
+      "practice_links": null
+    }
+  ]
 }

@@ -2,5 +2,72 @@
   "language": "fr",
   "category": "stress",
   "level": "A1-C2",
-  "groups": []
+  "groups": [
+    {
+      "id": "accent_de_groupe",
+      "label": "Accent tonique de groupe",
+      "level": "A1",
+      "emoji": "🔊",
+      "definition": "L'accentuation de la dernière syllabe du groupe rythmique en français",
+      "rules": [
+        "En français, l'accent n'est pas fixe sur les mots isolés, mais porte sur la dernière syllabe du groupe de mots (groupe rythmique).",
+        "La dernière syllabe accentuée est légèrement plus longue et plus haute."
+      ],
+      "examples": [
+        {
+          "t": "Un chat ➔ un CHAT",
+          "m": "Accent sur la syllabe unique"
+        },
+        {
+          "t": "Un petit chat noir ➔ un petit chat NOIR",
+          "m": "Accent sur la dernière syllabe du groupe rythmique"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "accent_insistance",
+      "label": "Accent d'insistance",
+      "level": "A2",
+      "emoji": "💥",
+      "definition": "Accent expressif placé en début de mot pour marquer l'émotion ou le contraste",
+      "rules": [
+        "L'accent d'insistance frappe la première ou deuxième syllabe d'un mot pour exprimer un sentiment fort ou une opposition.",
+        "Il s'ajoute à l'accent tonique normal qui reste à la fin du groupe rythmique."
+      ],
+      "examples": [
+        {
+          "t": "C'est FORmidable ! 💥",
+          "m": "Accent d'insistance sur la première syllabe d'un adjectif"
+        },
+        {
+          "t": "C'est ABsolument interdit. 💥",
+          "m": "Insistance expressive sur l'adverbe"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "accentuation_rythme_phrase",
+      "label": "Rythme et groupes d'intonation",
+      "level": "B1",
+      "emoji": "📊",
+      "definition": "Organisation de la phrase complexe en unités rythmiques équilibrées",
+      "rules": [
+        "Les phrases longues se découpent en plusieurs groupes rythmiques de 3 à 7 syllabes.",
+        "Chaque groupe rythmique se termine par une syllabe accentuée qui porte une montée ou une descente mélodique."
+      ],
+      "examples": [
+        {
+          "t": "Quand j'étais petit ↗ / j'habitais à Paris. ↘",
+          "m": "Découpage en deux groupes rythmiques avec accent de fin de groupe"
+        },
+        {
+          "t": "Si vous voulez réussir ↗ / il faut pratiquer régulièrement. ↘",
+          "m": "Régularité des groupes rythmiques dans une phrase complexe"
+        }
+      ],
+      "practice_links": null
+    }
+  ]
 }
