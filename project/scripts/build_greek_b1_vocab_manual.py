@@ -1,21 +1,21 @@
 #!/usr/bin/env python3
 """
-Generator script for COSYlanguages French Vocabulary Manual (Level B1) Interactive Web Edition.
-Generates manuals/fr/vocabulary/b1/index.html, module-N.html hubs, assets, and topic HTML pages in manuals/fr/vocabulary/b1/topics/.
-100% Monolingual French.
+Generator script for COSYlanguages Greek Vocabulary Manual (Level B1) Interactive Web Edition.
+Generates manuals/el/vocabulary/b1/index.html, module-N.html hubs, assets, and topic HTML pages in manuals/el/vocabulary/b1/topics/.
+100% Monolingual Greek.
 """
 
 import os
 import json
 
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "manuals/fr/vocabulary/b1"))
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "manuals/el/vocabulary/b1"))
 TOPICS_DIR = os.path.join(BASE_DIR, "topics")
 ASSETS_DIR = os.path.join(BASE_DIR, "assets")
 
 os.makedirs(TOPICS_DIR, exist_ok=True)
 os.makedirs(ASSETS_DIR, exist_ok=True)
 
-STYLE_CSS = """/* COSYlanguages · Lexique Français Niveau B1 */
+STYLE_CSS = """/* COSYlanguages · Ελληνικό Λεξιλόγιο Επίπεδο B1 */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap');
 
 :root {
@@ -87,12 +87,12 @@ footer.site a { color: #fff; }
 with open(os.path.join(ASSETS_DIR, "style.css"), "w", encoding="utf-8") as f:
     f.write(STYLE_CSS)
 
-APP_JS = """// COSYlanguages B1 Lexique Français · Interactivité
+APP_JS = """// COSYlanguages B1 Ελληνικό Λεξιλόγιο · Διαδραστικότητα
 (function(){
  "use strict";
  function initChecklists(){
    document.querySelectorAll('.checklist[data-key]').forEach(function(box){
-     var key = 'cosy-fr-b1-vocab-' + box.getAttribute('data-key');
+     var key = 'cosy-el-b1-vocab-' + box.getAttribute('data-key');
      var stored = {};
      try{ stored = JSON.parse(localStorage.getItem(key) || '{}'); }catch(e){}
      var items = box.querySelectorAll('.check-item');
@@ -114,7 +114,7 @@ APP_JS = """// COSYlanguages B1 Lexique Français · Interactivité
      try{ data = JSON.parse(panel.getAttribute('data-quiz')); }catch(e){ return; }
      var scoreEl = panel.querySelector('.quiz-score');
      var score = 0;
-     function refreshScore(){ if(scoreEl) scoreEl.textContent = 'Score: ' + score + ' / ' + data.length; }
+     function refreshScore(){ if(scoreEl) scoreEl.textContent = 'Σκορ: ' + score + ' / ' + data.length; }
      panel.querySelectorAll('.qitem').forEach(function(qEl, qi){
        var opts = qEl.querySelectorAll('.qopt');
        var explain = qEl.querySelector('.qexplain');
@@ -152,98 +152,98 @@ MODULES = [
     {
         "id": "module-1",
         "file": "module-1.html",
-        "title": "Module 1 · Nuancer sa Pensée & Exprimer des Opinions",
-        "short_title": "Module 1",
-        "subtitle": "Vocabulaire de la volonté, du doute et de l'affirmation personnelle.",
-        "topics": ["le-vocabulaire-de-la-necessite", "lexpression-de-lopinion-et-du-doute"]
+        "title": "Ενότητα 1 · Έκφραση Γνώμης & Αμφιβολίας",
+        "short_title": "Ενότητα 1",
+        "subtitle": "Λεξιλόγιο της προσωπικής άποψης, της αμφιβολίας και των προσδοκιών.",
+        "topics": ["lexilogio-apopsis-kai-amfibolias", "ekfrasi-epithimion-kai-prosdokion"]
     },
     {
         "id": "module-2",
         "file": "module-2.html",
-        "title": "Module 2 · Argumentation & Débat d'Idées",
-        "short_title": "Module 2",
-        "subtitle": "Vocabulaire de la cause, des impacts et de la réfutation dans les débats.",
-        "topics": ["la-cause-le-resultat-et-limpact", "les-termes-du-debat-et-de-la-refutation"]
+        "title": "Ενότητα 2 · Επιχειρηματολογία & Διάλογος",
+        "short_title": "Ενότητα 2",
+        "subtitle": "Λεξιλόγιο της αιτίας, των συνεπειών και των επιχειρημάτων στο διάλογο.",
+        "topics": ["aitia-apotelesma-kai-synepeies", "oroi-syzitisis-kai-anaskevis"]
     }
 ]
 
 TOPICS = {
-    "le-vocabulaire-de-la-necessite": {
-        "title": "Le Vocabulaire de la Nécessité et des Exigences",
-        "subtitle": "Termes indispensables pour formuler des priorités et impératifs",
-        "module_title": "Module 1 · Nuancer sa Pensée & Exprimer des Opinions",
+    "lexilogio-apopsis-kai-amfibolias": {
+        "title": "Εκφράσεις Γνώμης και Αμφιβολίας",
+        "subtitle": "Διατυπώσεις για την άποψη, τις επιφυλάξεις και την εκτίμηση",
+        "module_title": "Ενότητα 1 · Έκφραση Γνώμης & Αμφιβολίας",
         "words": [
-            {"word": "essentiel", "genre": "adj.", "ex": "Il est essentiel de relire ce dossier avant la réunion."},
-            {"word": "indispensable", "genre": "adj.", "ex": "Une bonne connexion est indispensable pour le travail à distance."},
-            {"word": "exiger", "genre": "v.", "ex": "Le directeur exige que les délais soient respectés."},
-            {"word": "souhaiter", "genre": "v.", "ex": "Je souhaite que nous trouvions une solution rapidement."},
-            {"word": "une obligation", "genre": "n.f.", "ex": "Le respect des normes de sécurité est une obligation légale."}
+            {"word": "κατά τη γνώμη μου", "genre": "έκφρ.", "ex": "Κατά τη γνώμη μου, η πρόταση αυτή είναι εξαιρετική."},
+            {"word": "η άποψη", "genre": "ουσ. θηλ.", "ex": "Σεβόμαστε την άποψη όλων των συνομιλητών."},
+            {"word": "η αμφιβολία", "genre": "ουσ. θηλ.", "ex": "Έχω σοβαρές αμφιβολίες για το αποτέλεσμα."},
+            {"word": "η υπόθεση", "genre": "ουσ. θηλ.", "ex": "Εξετάζουμε μια ενδιαφέρουσα υπόθεση."},
+            {"word": "αμφισβητήσιμος", "genre": "επίθ.", "ex": "Αυτό το σημείο παραμένει αμφισβητήσιμο."}
         ],
-        "checklist": ["Connaître les adjectifs de priorité", "Employer les verbes d'exigence au subjonctif"],
+        "checklist": ["Έκφραση προσωπικής γνώμης με ποικιλία", "Διατύπωση αμφιβολίας με ευγένεια"],
         "quiz": [
-            {"q": "Quel adjectif signifie 'qu'on ne peut pas éviter' ?", "opts": ["indispensable", "discutable", "secondaire"], "correct": 0, "explain": "'Indispensable' qualifie ce qui est totalement nécessaire."}
+            {"q": "Ποια έκφραση εισάγει προσωπική άποψη ;", "opts": ["Κατά τη γνώμη μου", "Επομένως", "Γι' αυτό"], "correct": 0, "explain": "Το 'Κατά τη γνώμη μου' εισάγει την προσωπική άποψη."}
         ]
     },
-    "lexpression-de-lopinion-et-du-doute": {
-        "title": "L'Expression de l'Opinion et du Doute",
-        "subtitle": "Moduler ses propos entre certitude, conviction et réserve",
-        "module_title": "Module 1 · Nuancer sa Pensée & Exprimer des Opinions",
+    "ekfrasi-epithimion-kai-prosdokion": {
+        "title": "Έκφραση Επιθυμιών και Προσδοκιών",
+        "subtitle": "Λεξιλόγιο για στόχους, ευχές και μελλοντικά σχέδια",
+        "module_title": "Ενότητα 1 · Έκφραση Γνώμης & Αμφιβολίας",
         "words": [
-            {"word": "à mon avis", "genre": "expr.", "ex": "À mon avis, cette stratégie comporte trop de risques."},
-            {"word": "être convaincu(e)", "genre": "expr.", "ex": "Je suis convaincue que notre projet réussira."},
-            {"word": "discutable", "genre": "adj.", "ex": "Cette hypothèse reste discutable selon les experts."},
-            {"word": "un doute", "genre": "n.m.", "ex": "J'ai encore des doutes sur l'efficacité de ce système."},
-            {"word": "il me semble", "genre": "expr.", "ex": "Il me semble que la décision a déjà été prise."}
+            {"word": "η ελπίδα", "genre": "ουσ. θηλ.", "ex": "Έχουμε την ελπίδα ότι θα βρεθεί λύση."},
+            {"word": "η ευχή", "genre": "ουσ. θηλ.", "ex": "Στέλνω τις καλύτερες ευχές μου για τη νέα δουλειά."},
+            {"word": "ο στόχος", "genre": "ουσ. αρσ.", "ex": "Ο κύριος στόχος μας είναι η ποιότητα."},
+            {"word": "επιδιώκω", "genre": "ρήμα", "ex": "Επιδιώκουμε τη βελτίωση των συνθηκών."},
+            {"word": "προτιμώ", "genre": "ρήμα", "ex": "Θα προτιμούσα να συναντηθούμε αύριο."}
         ],
-        "checklist": ["Varier ses formules d'introduction d'opinion", "Exprimer la réserve avec diplomatie"],
+        "checklist": ["Έκφραση επιθυμιών και προσδοκιών", "Χρήση ρημάτων επιδίωξης"],
         "quiz": [
-            {"q": "Quelle formule exprime une certitude absolue ?", "opts": ["Je suis convaincu(e)", "Je doute", "Il me semble"], "correct": 0, "explain": "'Être convaincu(e)' affirme une certitude totale."}
+            {"q": "Ποια λέξη σημαίνει 'το επιθυμητό αποτέλεσμα' ;", "opts": ["ο στόχος", "η αμφιβολία", "η αιτία"], "correct": 0, "explain": "Ο 'στόχος' δηλώνει το αποτέλεσμα που επιδιώκουμε."}
         ]
     },
-    "la-cause-le-resultat-et-limpact": {
-        "title": "La Cause, le Résultat et l'Impact",
-        "subtitle": "Lexique du raisonnement causal et des conséquences à long terme",
-        "module_title": "Module 2 · Argumentation & Débat d'Idées",
+    "aitia-apotelesma-kai-synepeies": {
+        "title": "Αιτία, Αποτέλεσμα και Συνέπειες",
+        "subtitle": "Λεξιλόγιο των λόγων, των αποτελεσμάτων και των επιπτώσεων",
+        "module_title": "Ενότητα 2 · Επιχειρηματολογία & Διάλογος",
         "words": [
-            {"word": "l'origine", "genre": "n.f.", "ex": "L'origine du problème remonte à plusieurs mois."},
-            {"word": "un facteur", "genre": "n.m.", "ex": "Le stress est un facteur déterminant dans ce projet."},
-            {"word": "un impact", "genre": "n.m.", "ex": "Cette réforme aura un impact positif sur l'économie."},
-            {"word": "engendrer", "genre": "v.", "ex": "Cette mesure peut engendrer des réactions fortes."},
-            {"word": "par conséquent", "genre": "loc. adv.", "ex": "Les coûts ont augmenté ; par conséquent, nous adaptons les tarifs."}
+            {"word": "η αιτία", "genre": "ουσ. θηλ.", "ex": "Η κύρια αιτία της καθυστέρησης ήταν ο καιρός."},
+            {"word": "το αποτέλεσμα", "genre": "ουσ. ουδ.", "ex": "Το αποτέλεσμα της έρευνας ήταν θετικό."},
+            {"word": "ο παράγοντας", "genre": "ουσ. αρσ.", "ex": "Η εμπειρία είναι καθοριστικός παράγοντας."},
+            {"word": "προκαλώ", "genre": "ρήμα", "ex": "Η νέα απόφαση μπορεί να προκαλέσει συζητήσεις."},
+            {"word": "κατά συνέπεια", "genre": "έκφρ.", "ex": "Τα έξοδα αυξήθηκαν, κατά συνέπεια προσαρμόσαμε τις τιμές."}
         ],
-        "checklist": ["Identifier et nommer les facteurs de cause", "Exprimer l'effet et la conséquence"],
+        "checklist": ["Προσδιορισμός αιτίων και συνεπειών", "Περιγραφή επιπτώσεων αποφάσεων"],
         "quiz": [
-            {"q": "Quel verbe signifie 'produire ou causer un résultat' ?", "opts": ["engendrer", "réfuter", "admettre"], "correct": 0, "explain": "'Engendrer' signifie donner naissance ou causer une situation."}
+            {"q": "Ποιο ρήμα σημαίνει 'γίνομαι η αφορμή για κάτι' ;", "opts": ["προκαλώ", "ανασκευάζω", "δέχoμαι"], "correct": 0, "explain": "Το 'προκαλώ' σημαίνει γίνομαι η αιτία να συμβεί κάτι."}
         ]
     },
-    "les-termes-du-debat-et-de-la-refutation": {
-        "title": "Les Termes du Débat et de la Réfutation",
-        "subtitle": "Vocabulaire pour soutenir, contester et nuancer une idée",
-        "module_title": "Module 2 · Argumentation & Débat d'Idées",
+    "oroi-syzitisis-kai-anaskevis": {
+        "title": "Όροι Συζήτησης και Ανασκευής",
+        "subtitle": "Λεξιλόγιο για υποστήριξη, αμφισβήτηση και ανασκευή θέσεων",
+        "module_title": "Ενότητα 2 · Επιχειρηματολογία & Διάλογος",
         "words": [
-            {"word": "soutenir", "genre": "v.", "ex": "Le chercheur soutient que son modèle est fiable."},
-            {"word": "réfuter", "genre": "v.", "ex": "L'expert a réfuté tous les arguments de l'opposition."},
-            {"word": "admettre", "genre": "v.", "ex": "Il faut admettre que les résultats dépassent les prévisions."},
-            {"word": "contester", "genre": "v.", "ex": "Plusieurs personnes contestent la légitimité de ce choix."},
-            {"word": "nuancer", "genre": "v.", "ex": "Permettez-moi de nuancer cette affirmation."}
+            {"word": "το επιχείρημα", "genre": "ουσ. ουδ.", "ex": "Ο ομιλητής παρουσίασε ισχυρά επιχειρήματα."},
+            {"word": "υποστηρίζω", "genre": "ρήμα", "ex": "Υποστηρίζει ότι η θεωρία είναι σωστή."},
+            {"word": "ανασκευάζω", "genre": "ρήμα", "ex": "Ο ειδικός ανασκεύασε την αντίθετη άποψη."},
+            {"word": "παραδέχομαι", "genre": "ρήμα", "ex": "Πρέπει να παραδεχθούμε ότι τα πράγματα βελτιώθηκαν."},
+            {"word": "διαφωνώ", "genre": "ρήμα", "ex": "Διαφωνώ ευγενικά με αυτή την εκτίμηση."}
         ],
-        "checklist": ["Utiliser les verbes d'argumentation", "Réfuter une idée avec politesse"],
+        "checklist": ["Υποστήριξη θέσης με επιχειρήματα", "Ευγενική ανασκευή αντίθετης άποψης"],
         "quiz": [
-            {"q": "Quel verbe signifie 'prouver la fausseté d'un argument' ?", "opts": ["réfuter", "soutenir", "admettre"], "correct": 0, "explain": "'Réfuter' consiste à détruire un argument par des preuves contraires."}
+            {"q": "Ποιο ρήμα σημαίνει 'αποδεικνύω εσφαλμένη μια άποψη' ;", "opts": ["ανασκευάζω", "υποστηρίζω", "παραδέχομαι"], "correct": 0, "explain": "Το 'ανασκευάζω' σημαίνει αναιρώ ή αποδεικνύω εσφαλμένο ένα ισχυρισμό."}
         ]
     }
 }
 
 def render_topbar(is_topic=False):
     rel_prefix = "../" if is_topic else ""
-    hub_link = "../../../../francaise-b1.html" if is_topic else "../../../francaise-b1.html"
-    return f'''<header class="topbar"><div class="topbar-inner"><a class="brand" href="{rel_prefix}index.html"><span class="brand-mark">cl</span><span>COSYlanguages · Lexique B1</span></a><nav class="topbar-nav"><a href="{hub_link}">← Hub Français B1</a></nav></div></header>'''
+    hub_link = "../../../../ellinika-b1.html" if is_topic else "../../../ellinika-b1.html"
+    return f'''<header class="topbar"><div class="topbar-inner"><a class="brand" href="{rel_prefix}index.html"><span class="brand-mark">cl</span><span>COSYlanguages · Λεξιλόγιο B1</span></a><nav class="topbar-nav"><a href="{hub_link}">← Hub Ελληνικά B1</a></nav></div></header>'''
 
 def render_footer():
-    return '''<footer class="site"><div class="container"><div>COSYlanguages · Lexique Français (B1) · Édition Web</div><div><a href="https://cosylanguages.github.io/COSYlanguages/index.html">← Accueil COSYlanguages</a></div></div></footer>'''
+    return '''<footer class="site"><div class="container"><div>COSYlanguages · Ελληνικό Λεξιλόγιο (B1) · Διαδικτυακή Έκδοση</div><div><a href="https://cosylanguages.github.io/COSYlanguages/index.html">← Αρχική COSYlanguages</a></div></div></footer>'''
 
 def build_all():
-    print("Building French B1 Vocabulary Manual...")
+    print("Building Greek B1 Vocabulary Manual...")
     topic_slugs = list(TOPICS.keys())
 
     for idx, (slug, top) in enumerate(TOPICS.items()):
@@ -260,7 +260,7 @@ def build_all():
         vcards_html = f'<div class="vocab-grid">{"".join(vcards)}</div>'
 
         c_items = "".join([f'<label class="check-item"><input type="checkbox"><span>{ci}</span></label>' for ci in top["checklist"]])
-        check_html = f'<div class="checklist" data-key="{slug}"><h3>🎯 Compétences lexicales</h3>{c_items}</div>'
+        check_html = f'<div class="checklist" data-key="{slug}"><h3>🎯 Λεξιλογικές δεξιότητες</h3>{c_items}</div>'
 
         q_items = []
         q_data = []
@@ -269,14 +269,14 @@ def build_all():
             opts = "".join([f'<button class="qopt">{o}</button>' for o in q["opts"]])
             q_items.append(f'<div class="qitem"><div class="qtext">{q["q"]}</div><div class="qopts">{opts}</div><div class="qexplain">{q["explain"]}</div></div>')
         quiz_json = json.dumps(q_data)
-        quiz_html = f'<div class="quiz-panel" data-quiz=\'{quiz_json}\'><div class="quiz-head"><h2>Test de Lexique</h2><span class="quiz-score">Score: 0 / {len(q_data)}</span></div>{"".join(q_items)}</div>'
+        quiz_html = f'<div class="quiz-panel" data-quiz=\'{quiz_json}\'><div class="quiz-head"><h2>Έλεγχος Λεξιλογίου</h2><span class="quiz-score">Σκορ: 0 / {len(q_data)}</span></div>{"".join(q_items)}</div>'
 
         page_html = f'''<!doctype html>
-<html lang="fr">
+<html lang="el">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{top["title"]} · Lexique Français B1</title>
+<title>{top["title"]} · Ελληνικό Λεξιλόγιο B1</title>
 <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
@@ -308,18 +308,18 @@ def build_all():
             cards.append(f'''<a class="mcard" href="topics/{slug}.html"><h2>{top["title"]}</h2><p>{top["subtitle"]}</p></a>''')
 
         m_html = f'''<!doctype html>
-<html lang="fr">
+<html lang="el">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{m["title"]} · Lexique B1</title>
+<title>{m["title"]} · Λεξιλόγιο B1</title>
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 {render_topbar(is_topic=False)}
 <main class="container">
   <div class="page-head">
-    <span class="eyebrow">Module</span>
+    <span class="eyebrow">Ενότητα</span>
     <h1>{m["title"]}</h1>
     <p class="subtitle">{m["subtitle"]}</p>
     <hr class="rule">
@@ -335,23 +335,23 @@ def build_all():
 
     index_cards = []
     for m in MODULES:
-        index_cards.append(f'''<a class="mcard" href="{m["file"]}"><h2>{m["title"]}</h2><p>{m["subtitle"]}</p><span style="font-size:12px;font-weight:700;color:var(--teal-800);">{len(m["topics"])} thèmes →</span></a>''')
+        index_cards.append(f'''<a class="mcard" href="{m["file"]}"><h2>{m["title"]}</h2><p>{m["subtitle"]}</p><span style="font-size:12px;font-weight:700;color:var(--teal-800);">{len(m["topics"])} θέματα →</span></a>''')
 
     index_html = f'''<!doctype html>
-<html lang="fr">
+<html lang="el">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Lexique Français Niveau B1 · COSYlanguages</title>
+<title>Ελληνικό Λεξιλόγιο Επίπεδο B1 · COSYlanguages</title>
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 {render_topbar(is_topic=False)}
 <main class="container">
   <div class="page-head">
-    <span class="eyebrow">COSYlanguages · Niveau B1</span>
-    <h1>Lexique Français (B1)</h1>
-    <p class="subtitle">Manuel interactif monolingue de vocabulaire français niveau B1.</p>
+    <span class="eyebrow">COSYlanguages · Επίπεδο B1</span>
+    <h1>Ελληνικό Λεξιλόγιο (B1)</h1>
+    <p class="subtitle">Διαδραστικό μονογλωσσικό εγχειρίδιο ελληνικού λεξιλογίου επιπέδου B1.</p>
     <hr class="rule">
   </div>
   <div class="module-grid">{"".join(index_cards)}</div>
@@ -363,7 +363,7 @@ def build_all():
     with open(os.path.join(BASE_DIR, "index.html"), "w", encoding="utf-8") as f:
         f.write(index_html)
 
-    print("French B1 Vocabulary Manual generated successfully!")
+    print("Greek B1 Vocabulary Manual generated successfully!")
 
 if __name__ == "__main__":
     build_all()

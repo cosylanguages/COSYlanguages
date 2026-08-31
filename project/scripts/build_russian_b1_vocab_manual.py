@@ -1,21 +1,21 @@
 #!/usr/bin/env python3
 """
-Generator script for COSYlanguages French Vocabulary Manual (Level B1) Interactive Web Edition.
-Generates manuals/fr/vocabulary/b1/index.html, module-N.html hubs, assets, and topic HTML pages in manuals/fr/vocabulary/b1/topics/.
-100% Monolingual French.
+Generator script for COSYlanguages Russian Vocabulary Manual (Level B1) Interactive Web Edition.
+Generates manuals/ru/vocabulary/b1/index.html, module-N.html hubs, assets, and topic HTML pages in manuals/ru/vocabulary/b1/topics/.
+100% Monolingual Russian.
 """
 
 import os
 import json
 
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "manuals/fr/vocabulary/b1"))
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "manuals/ru/vocabulary/b1"))
 TOPICS_DIR = os.path.join(BASE_DIR, "topics")
 ASSETS_DIR = os.path.join(BASE_DIR, "assets")
 
 os.makedirs(TOPICS_DIR, exist_ok=True)
 os.makedirs(ASSETS_DIR, exist_ok=True)
 
-STYLE_CSS = """/* COSYlanguages · Lexique Français Niveau B1 */
+STYLE_CSS = """/* COSYlanguages · Лексика Русского Языка Уровень B1 */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap');
 
 :root {
@@ -87,12 +87,12 @@ footer.site a { color: #fff; }
 with open(os.path.join(ASSETS_DIR, "style.css"), "w", encoding="utf-8") as f:
     f.write(STYLE_CSS)
 
-APP_JS = """// COSYlanguages B1 Lexique Français · Interactivité
+APP_JS = """// COSYlanguages B1 Лексика Русского Языка · Интерактивность
 (function(){
  "use strict";
  function initChecklists(){
    document.querySelectorAll('.checklist[data-key]').forEach(function(box){
-     var key = 'cosy-fr-b1-vocab-' + box.getAttribute('data-key');
+     var key = 'cosy-ru-b1-vocab-' + box.getAttribute('data-key');
      var stored = {};
      try{ stored = JSON.parse(localStorage.getItem(key) || '{}'); }catch(e){}
      var items = box.querySelectorAll('.check-item');
@@ -114,7 +114,7 @@ APP_JS = """// COSYlanguages B1 Lexique Français · Interactivité
      try{ data = JSON.parse(panel.getAttribute('data-quiz')); }catch(e){ return; }
      var scoreEl = panel.querySelector('.quiz-score');
      var score = 0;
-     function refreshScore(){ if(scoreEl) scoreEl.textContent = 'Score: ' + score + ' / ' + data.length; }
+     function refreshScore(){ if(scoreEl) scoreEl.textContent = 'Результат: ' + score + ' / ' + data.length; }
      panel.querySelectorAll('.qitem').forEach(function(qEl, qi){
        var opts = qEl.querySelectorAll('.qopt');
        var explain = qEl.querySelector('.qexplain');
@@ -152,98 +152,98 @@ MODULES = [
     {
         "id": "module-1",
         "file": "module-1.html",
-        "title": "Module 1 · Nuancer sa Pensée & Exprimer des Opinions",
-        "short_title": "Module 1",
-        "subtitle": "Vocabulaire de la volonté, du doute et de l'affirmation personnelle.",
-        "topics": ["le-vocabulaire-de-la-necessite", "lexpression-de-lopinion-et-du-doute"]
+        "title": "Модуль 1 · Выражение Мнения и Дискуссия",
+        "short_title": "Модуль 1",
+        "subtitle": "Лексика для формулирования личной точки зрения и ведения спора.",
+        "topics": ["vyrazhenie-mneniya-i-moly-mneniya", "lexika-dlya-debato-i-discussii"]
     },
     {
         "id": "module-2",
         "file": "module-2.html",
-        "title": "Module 2 · Argumentation & Débat d'Idées",
-        "short_title": "Module 2",
-        "subtitle": "Vocabulaire de la cause, des impacts et de la réfutation dans les débats.",
-        "topics": ["la-cause-le-resultat-et-limpact", "les-termes-du-debat-et-de-la-refutation"]
+        "title": "Модуль 2 · Причина, Следствие и Аргументация",
+        "short_title": "Модуль 2",
+        "subtitle": "Слова и выражения для выстраивания логической цепочки и выводов.",
+        "topics": ["prichina-sledstvie-i-argumenty", "terminy-refutatsii-i-ogovorok"]
     }
 ]
 
 TOPICS = {
-    "le-vocabulaire-de-la-necessite": {
-        "title": "Le Vocabulaire de la Nécessité et des Exigences",
-        "subtitle": "Termes indispensables pour formuler des priorités et impératifs",
-        "module_title": "Module 1 · Nuancer sa Pensée & Exprimer des Opinions",
+    "vyrazhenie-mneniya-i-moly-mneniya": {
+        "title": "Выражение Мнения и Формулы Оценки",
+        "subtitle": "По моему мнению / На мой взгляд / Убеждён, что...",
+        "module_title": "Модуль 1 · Выражение Мнения и Дискуссия",
         "words": [
-            {"word": "essentiel", "genre": "adj.", "ex": "Il est essentiel de relire ce dossier avant la réunion."},
-            {"word": "indispensable", "genre": "adj.", "ex": "Une bonne connexion est indispensable pour le travail à distance."},
-            {"word": "exiger", "genre": "v.", "ex": "Le directeur exige que les délais soient respectés."},
-            {"word": "souhaiter", "genre": "v.", "ex": "Je souhaite que nous trouvions une solution rapidement."},
-            {"word": "une obligation", "genre": "n.f.", "ex": "Le respect des normes de sécurité est une obligation légale."}
+            {"word": "по моему мнению", "genre": "вводн. сл.", "ex": "По моему мнению, этот проект принесёт большую пользу."},
+            {"word": "на мой взгляд", "genre": "вводн. сл.", "ex": "На мой взгляд, следует рассмотреть другие варианты."},
+            {"word": "позиция", "genre": "сущ. ж.р.", "ex": "Наша позиция остается открытой для диалога."},
+            {"word": "сомнение", "genre": "сущ. ср.р.", "ex": "У меня есть сомнения в целесообразности этого шага."},
+            {"word": "спорный", "genre": "прил.", "ex": "Этот вопрос является довольно спорным среди экспертов."}
         ],
-        "checklist": ["Connaître les adjectifs de priorité", "Employer les verbes d'exigence au subjonctif"],
+        "checklist": ["Разнообразить формулировки выражения мнения", "Вежливо выражать сомнение"],
         "quiz": [
-            {"q": "Quel adjectif signifie 'qu'on ne peut pas éviter' ?", "opts": ["indispensable", "discutable", "secondaire"], "correct": 0, "explain": "'Indispensable' qualifie ce qui est totalement nécessaire."}
+            {"q": "Какая фраза вводит личное мнение ?", "opts": ["По моему мнению,", "Следовательно,", "Таким образом,"], "correct": 0, "explain": "'По моему мнению' служит для выражения личной точки зрения."}
         ]
     },
-    "lexpression-de-lopinion-et-du-doute": {
-        "title": "L'Expression de l'Opinion et du Doute",
-        "subtitle": "Moduler ses propos entre certitude, conviction et réserve",
-        "module_title": "Module 1 · Nuancer sa Pensée & Exprimer des Opinions",
+    "lexika-dlya-debato-i-discussii": {
+        "title": "Лексика для Дебатов и Дискуссий",
+        "subtitle": "Выражения для отстаивания своей позиции и обсуждения",
+        "module_title": "Модуль 1 · Выражение Мнения и Дискуссия",
         "words": [
-            {"word": "à mon avis", "genre": "expr.", "ex": "À mon avis, cette stratégie comporte trop de risques."},
-            {"word": "être convaincu(e)", "genre": "expr.", "ex": "Je suis convaincue que notre projet réussira."},
-            {"word": "discutable", "genre": "adj.", "ex": "Cette hypothèse reste discutable selon les experts."},
-            {"word": "un doute", "genre": "n.m.", "ex": "J'ai encore des doutes sur l'efficacité de ce système."},
-            {"word": "il me semble", "genre": "expr.", "ex": "Il me semble que la décision a déjà été prise."}
+            {"word": "точка зрения", "genre": "сущ. ж.р.", "ex": "У каждого участника дискуссии своя точка зрения."},
+            {"word": "убеждение", "genre": "сущ. ср.р.", "ex": "Его убеждение основано на многолетнем опыте."},
+            {"word": "считать", "genre": "глаг.", "ex": "Я считаю, что мы должны продолжить работу."},
+            {"word": "сомневаться", "genre": "глаг.", "ex": "Он сомневается в успешном исходе переговоров."},
+            {"word": "соглашаться", "genre": "глаг.", "ex": "Коллеги соглашаются с предложенным планом."}
         ],
-        "checklist": ["Varier ses formules d'introduction d'opinion", "Exprimer la réserve avec diplomatie"],
+        "checklist": ["Участвовать в дискуссиях на общие темы", "Формулировать аргументы за и против"],
         "quiz": [
-            {"q": "Quelle formule exprime une certitude absolue ?", "opts": ["Je suis convaincu(e)", "Je doute", "Il me semble"], "correct": 0, "explain": "'Être convaincu(e)' affirme une certitude totale."}
+            {"q": "Какое слово означает глубокое уверенное мнение ?", "opts": ["убеждение", "сомнение", "ошибка"], "correct": 0, "explain": "'Убеждение' — это твёрдая уверенность в чём-либо."}
         ]
     },
-    "la-cause-le-resultat-et-limpact": {
-        "title": "La Cause, le Résultat et l'Impact",
-        "subtitle": "Lexique du raisonnement causal et des conséquences à long terme",
-        "module_title": "Module 2 · Argumentation & Débat d'Idées",
+    "prichina-sledstvie-i-argumenty": {
+        "title": "Причина, Следствие и Аргументы",
+        "subtitle": "Слова для раскрытия причин и подведения итогов",
+        "module_title": "Модуль 2 · Причина, Следствие и Аргументация",
         "words": [
-            {"word": "l'origine", "genre": "n.f.", "ex": "L'origine du problème remonte à plusieurs mois."},
-            {"word": "un facteur", "genre": "n.m.", "ex": "Le stress est un facteur déterminant dans ce projet."},
-            {"word": "un impact", "genre": "n.m.", "ex": "Cette réforme aura un impact positif sur l'économie."},
-            {"word": "engendrer", "genre": "v.", "ex": "Cette mesure peut engendrer des réactions fortes."},
-            {"word": "par conséquent", "genre": "loc. adv.", "ex": "Les coûts ont augmenté ; par conséquent, nous adaptons les tarifs."}
+            {"word": "причина", "genre": "сущ. ж.р.", "ex": "Главная причина задержки — плохая погода."},
+            {"word": "следствие", "genre": "сущ. ср.р.", "ex": "Это решение стало прямым следствием проведённого анализа."},
+            {"word": "аргумент", "genre": "сущ. м.р.", "ex": "Докладчик привёл убедительные аргументы."},
+            {"word": "вызывать", "genre": "глаг.", "ex": "Новые правила могут вызвать дискуссию."},
+            {"word": "в результате", "genre": "предл.", "ex": "В результате переговоров было подписано соглашение."}
         ],
-        "checklist": ["Identifier et nommer les facteurs de cause", "Exprimer l'effet et la conséquence"],
+        "checklist": ["Обосновывать логические связи", "Формулировать последствия"],
         "quiz": [
-            {"q": "Quel verbe signifie 'produire ou causer un résultat' ?", "opts": ["engendrer", "réfuter", "admettre"], "correct": 0, "explain": "'Engendrer' signifie donner naissance ou causer une situation."}
+            {"q": "Какое слово обозначает логический результат события ?", "opts": ["следствие", "причина", "сомнение"], "correct": 0, "explain": "'Следствие' — это результат или вывод из чего-либо."}
         ]
     },
-    "les-termes-du-debat-et-de-la-refutation": {
-        "title": "Les Termes du Débat et de la Réfutation",
-        "subtitle": "Vocabulaire pour soutenir, contester et nuancer une idée",
-        "module_title": "Module 2 · Argumentation & Débat d'Idées",
+    "terminy-refutatsii-i-ogovorok": {
+        "title": "Термины Опровержения и Оговорок",
+        "subtitle": "Утверждать, опровергать, признавать и уточнять",
+        "module_title": "Модуль 2 · Причина, Следствие и Аргументация",
         "words": [
-            {"word": "soutenir", "genre": "v.", "ex": "Le chercheur soutient que son modèle est fiable."},
-            {"word": "réfuter", "genre": "v.", "ex": "L'expert a réfuté tous les arguments de l'opposition."},
-            {"word": "admettre", "genre": "v.", "ex": "Il faut admettre que les résultats dépassent les prévisions."},
-            {"word": "contester", "genre": "v.", "ex": "Plusieurs personnes contestent la légitimité de ce choix."},
-            {"word": "nuancer", "genre": "v.", "ex": "Permettez-moi de nuancer cette affirmation."}
+            {"word": "утверждать", "genre": "глаг.", "ex": "Докладчик утверждает, что гипотеза подтвердилась."},
+            {"word": "опровергать", "genre": "глаг.", "ex": "Эксперт опроверг ошибочное мнение фактами."},
+            {"word": "признавать", "genre": "глаг.", "ex": "Необходимо признать, что результаты превзошли ожидания."},
+            {"word": "возражать", "genre": "глаг.", "ex": "Оппонент стал возражать против этого предложения."},
+            {"word": "уточнять", "genre": "глаг.", "ex": "Позвольте уточнить детали этого проекта."}
         ],
-        "checklist": ["Utiliser les verbes d'argumentation", "Réfuter une idée avec politesse"],
+        "checklist": ["Уметь возражать и уточнять факты", "Опровергать слабые аргументы в споре"],
         "quiz": [
-            {"q": "Quel verbe signifie 'prouver la fausseté d'un argument' ?", "opts": ["réfuter", "soutenir", "admettre"], "correct": 0, "explain": "'Réfuter' consiste à détruire un argument par des preuves contraires."}
+            {"q": "Какой глагол означает 'доказывать неверность утверждения' ?", "opts": ["опровергать", "утверждать", "соглашаться"], "correct": 0, "explain": "'Опровергать' означает доказывать ложность чего-либо."}
         ]
     }
 }
 
 def render_topbar(is_topic=False):
     rel_prefix = "../" if is_topic else ""
-    hub_link = "../../../../francaise-b1.html" if is_topic else "../../../francaise-b1.html"
-    return f'''<header class="topbar"><div class="topbar-inner"><a class="brand" href="{rel_prefix}index.html"><span class="brand-mark">cl</span><span>COSYlanguages · Lexique B1</span></a><nav class="topbar-nav"><a href="{hub_link}">← Hub Français B1</a></nav></div></header>'''
+    hub_link = "../../../../russkiy-b1.html" if is_topic else "../../../russkiy-b1.html"
+    return f'''<header class="topbar"><div class="topbar-inner"><a class="brand" href="{rel_prefix}index.html"><span class="brand-mark">cl</span><span>COSYlanguages · Лексика B1</span></a><nav class="topbar-nav"><a href="{hub_link}">← Hub Русский B1</a></nav></div></header>'''
 
 def render_footer():
-    return '''<footer class="site"><div class="container"><div>COSYlanguages · Lexique Français (B1) · Édition Web</div><div><a href="https://cosylanguages.github.io/COSYlanguages/index.html">← Accueil COSYlanguages</a></div></div></footer>'''
+    return '''<footer class="site"><div class="container"><div>COSYlanguages · Лексика Русского Языка (B1) · Веб-издание</div><div><a href="https://cosylanguages.github.io/COSYlanguages/index.html">← Главная COSYlanguages</a></div></div></footer>'''
 
 def build_all():
-    print("Building French B1 Vocabulary Manual...")
+    print("Building Russian B1 Vocabulary Manual...")
     topic_slugs = list(TOPICS.keys())
 
     for idx, (slug, top) in enumerate(TOPICS.items()):
@@ -260,7 +260,7 @@ def build_all():
         vcards_html = f'<div class="vocab-grid">{"".join(vcards)}</div>'
 
         c_items = "".join([f'<label class="check-item"><input type="checkbox"><span>{ci}</span></label>' for ci in top["checklist"]])
-        check_html = f'<div class="checklist" data-key="{slug}"><h3>🎯 Compétences lexicales</h3>{c_items}</div>'
+        check_html = f'<div class="checklist" data-key="{slug}"><h3>🎯 Лексические навыки</h3>{c_items}</div>'
 
         q_items = []
         q_data = []
@@ -269,14 +269,14 @@ def build_all():
             opts = "".join([f'<button class="qopt">{o}</button>' for o in q["opts"]])
             q_items.append(f'<div class="qitem"><div class="qtext">{q["q"]}</div><div class="qopts">{opts}</div><div class="qexplain">{q["explain"]}</div></div>')
         quiz_json = json.dumps(q_data)
-        quiz_html = f'<div class="quiz-panel" data-quiz=\'{quiz_json}\'><div class="quiz-head"><h2>Test de Lexique</h2><span class="quiz-score">Score: 0 / {len(q_data)}</span></div>{"".join(q_items)}</div>'
+        quiz_html = f'<div class="quiz-panel" data-quiz=\'{quiz_json}\'><div class="quiz-head"><h2>Проверка Словарного Запаса</h2><span class="quiz-score">Результат: 0 / {len(q_data)}</span></div>{"".join(q_items)}</div>'
 
         page_html = f'''<!doctype html>
-<html lang="fr">
+<html lang="ru">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{top["title"]} · Lexique Français B1</title>
+<title>{top["title"]} · Лексика Русского Языка B1</title>
 <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
@@ -308,18 +308,18 @@ def build_all():
             cards.append(f'''<a class="mcard" href="topics/{slug}.html"><h2>{top["title"]}</h2><p>{top["subtitle"]}</p></a>''')
 
         m_html = f'''<!doctype html>
-<html lang="fr">
+<html lang="ru">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{m["title"]} · Lexique B1</title>
+<title>{m["title"]} · Лексика B1</title>
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 {render_topbar(is_topic=False)}
 <main class="container">
   <div class="page-head">
-    <span class="eyebrow">Module</span>
+    <span class="eyebrow">Модуль</span>
     <h1>{m["title"]}</h1>
     <p class="subtitle">{m["subtitle"]}</p>
     <hr class="rule">
@@ -335,23 +335,23 @@ def build_all():
 
     index_cards = []
     for m in MODULES:
-        index_cards.append(f'''<a class="mcard" href="{m["file"]}"><h2>{m["title"]}</h2><p>{m["subtitle"]}</p><span style="font-size:12px;font-weight:700;color:var(--teal-800);">{len(m["topics"])} thèmes →</span></a>''')
+        index_cards.append(f'''<a class="mcard" href="{m["file"]}"><h2>{m["title"]}</h2><p>{m["subtitle"]}</p><span style="font-size:12px;font-weight:700;color:var(--teal-800);">{len(m["topics"])} темы →</span></a>''')
 
     index_html = f'''<!doctype html>
-<html lang="fr">
+<html lang="ru">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Lexique Français Niveau B1 · COSYlanguages</title>
+<title>Лексика Русского Языка Уровень B1 · COSYlanguages</title>
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 {render_topbar(is_topic=False)}
 <main class="container">
   <div class="page-head">
-    <span class="eyebrow">COSYlanguages · Niveau B1</span>
-    <h1>Lexique Français (B1)</h1>
-    <p class="subtitle">Manuel interactif monolingue de vocabulaire français niveau B1.</p>
+    <span class="eyebrow">COSYlanguages · Уровень B1</span>
+    <h1>Лексика Русского Языка (B1)</h1>
+    <p class="subtitle">Интерактивное одноязычное руководство по словарному запасу русского языка уровня B1.</p>
     <hr class="rule">
   </div>
   <div class="module-grid">{"".join(index_cards)}</div>
@@ -363,7 +363,7 @@ def build_all():
     with open(os.path.join(BASE_DIR, "index.html"), "w", encoding="utf-8") as f:
         f.write(index_html)
 
-    print("French B1 Vocabulary Manual generated successfully!")
+    print("Russian B1 Vocabulary Manual generated successfully!")
 
 if __name__ == "__main__":
     build_all()

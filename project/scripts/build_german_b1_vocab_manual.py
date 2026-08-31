@@ -1,21 +1,21 @@
 #!/usr/bin/env python3
 """
-Generator script for COSYlanguages French Vocabulary Manual (Level B1) Interactive Web Edition.
-Generates manuals/fr/vocabulary/b1/index.html, module-N.html hubs, assets, and topic HTML pages in manuals/fr/vocabulary/b1/topics/.
-100% Monolingual French.
+Generator script for COSYlanguages German Vocabulary Manual (Level B1) Interactive Web Edition.
+Generates manuals/de/vocabulary/b1/index.html, module-N.html hubs, assets, and topic HTML pages in manuals/de/vocabulary/b1/topics/.
+100% Monolingual German.
 """
 
 import os
 import json
 
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "manuals/fr/vocabulary/b1"))
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "manuals/de/vocabulary/b1"))
 TOPICS_DIR = os.path.join(BASE_DIR, "topics")
 ASSETS_DIR = os.path.join(BASE_DIR, "assets")
 
 os.makedirs(TOPICS_DIR, exist_ok=True)
 os.makedirs(ASSETS_DIR, exist_ok=True)
 
-STYLE_CSS = """/* COSYlanguages · Lexique Français Niveau B1 */
+STYLE_CSS = """/* COSYlanguages · Deutscher Wortschatz Niveau B1 */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap');
 
 :root {
@@ -87,12 +87,12 @@ footer.site a { color: #fff; }
 with open(os.path.join(ASSETS_DIR, "style.css"), "w", encoding="utf-8") as f:
     f.write(STYLE_CSS)
 
-APP_JS = """// COSYlanguages B1 Lexique Français · Interactivité
+APP_JS = """// COSYlanguages B1 Deutscher Wortschatz · Interaktivität
 (function(){
  "use strict";
  function initChecklists(){
    document.querySelectorAll('.checklist[data-key]').forEach(function(box){
-     var key = 'cosy-fr-b1-vocab-' + box.getAttribute('data-key');
+     var key = 'cosy-de-b1-vocab-' + box.getAttribute('data-key');
      var stored = {};
      try{ stored = JSON.parse(localStorage.getItem(key) || '{}'); }catch(e){}
      var items = box.querySelectorAll('.check-item');
@@ -114,7 +114,7 @@ APP_JS = """// COSYlanguages B1 Lexique Français · Interactivité
      try{ data = JSON.parse(panel.getAttribute('data-quiz')); }catch(e){ return; }
      var scoreEl = panel.querySelector('.quiz-score');
      var score = 0;
-     function refreshScore(){ if(scoreEl) scoreEl.textContent = 'Score: ' + score + ' / ' + data.length; }
+     function refreshScore(){ if(scoreEl) scoreEl.textContent = 'Ergebnis: ' + score + ' / ' + data.length; }
      panel.querySelectorAll('.qitem').forEach(function(qEl, qi){
        var opts = qEl.querySelectorAll('.qopt');
        var explain = qEl.querySelector('.qexplain');
@@ -152,98 +152,98 @@ MODULES = [
     {
         "id": "module-1",
         "file": "module-1.html",
-        "title": "Module 1 · Nuancer sa Pensée & Exprimer des Opinions",
-        "short_title": "Module 1",
-        "subtitle": "Vocabulaire de la volonté, du doute et de l'affirmation personnelle.",
-        "topics": ["le-vocabulaire-de-la-necessite", "lexpression-de-lopinion-et-du-doute"]
+        "title": "Modul 1 · Meinung, Zweifel & Ausdrücke",
+        "short_title": "Modul 1",
+        "subtitle": "Wortschatz für eigene Standpunkte, Unsicherheit und Wünsche.",
+        "topics": ["meinung-und-zweifel-ausdruecken", "wuensche-und-erwartungen"]
     },
     {
         "id": "module-2",
         "file": "module-2.html",
-        "title": "Module 2 · Argumentation & Débat d'Idées",
-        "short_title": "Module 2",
-        "subtitle": "Vocabulaire de la cause, des impacts et de la réfutation dans les débats.",
-        "topics": ["la-cause-le-resultat-et-limpact", "les-termes-du-debat-et-de-la-refutation"]
+        "title": "Modul 2 · Ursache, Wirkung & Debatte",
+        "short_title": "Modul 2",
+        "subtitle": "Wortschatz für Kausalität, Folgen und Gegenargumente in Diskussionen.",
+        "topics": ["ursache-wirkung-und-einfluss", "begriffe-der-debatte-und-widerlegung"]
     }
 ]
 
 TOPICS = {
-    "le-vocabulaire-de-la-necessite": {
-        "title": "Le Vocabulaire de la Nécessité et des Exigences",
-        "subtitle": "Termes indispensables pour formuler des priorités et impératifs",
-        "module_title": "Module 1 · Nuancer sa Pensée & Exprimer des Opinions",
+    "meinung-und-zweifel-ausdruecken": {
+        "title": "Meinung und Zweifel Ausdrücken",
+        "subtitle": "Redemittel für Standpunkte, Vorbehalte und Einschätzungen",
+        "module_title": "Modul 1 · Meinung, Zweifel & Ausdrücke",
         "words": [
-            {"word": "essentiel", "genre": "adj.", "ex": "Il est essentiel de relire ce dossier avant la réunion."},
-            {"word": "indispensable", "genre": "adj.", "ex": "Une bonne connexion est indispensable pour le travail à distance."},
-            {"word": "exiger", "genre": "v.", "ex": "Le directeur exige que les délais soient respectés."},
-            {"word": "souhaiter", "genre": "v.", "ex": "Je souhaite que nous trouvions une solution rapidement."},
-            {"word": "une obligation", "genre": "n.f.", "ex": "Le respect des normes de sécurité est une obligation légale."}
+            {"word": "meiner Meinung nach", "genre": "Ausdr.", "ex": "Meiner Meinung nach sollten wir diese Option wählen."},
+            {"word": "der Standpunkt", "genre": "N. m.", "ex": "Er vertritt einen sehr klaren Standpunkt dazu."},
+            {"word": "der Zweifel", "genre": "N. m.", "ex": "Ich habe noch leichte Zweifel an dem neuen Plan."},
+            {"word": "die Vermutung", "genre": "N. f.", "ex": "Das ist bisher nur eine Vermutung, kein Fakt."},
+            {"word": "umstritten", "genre": "Adj.", "ex": "Das Thema ist in der Öffentlichkeit sehr umstritten."}
         ],
-        "checklist": ["Connaître les adjectifs de priorité", "Employer les verbes d'exigence au subjonctif"],
+        "checklist": ["Die eigene Meinung abwechslungsreich ausdrücken", "Zweifel höflich formulieren"],
         "quiz": [
-            {"q": "Quel adjectif signifie 'qu'on ne peut pas éviter' ?", "opts": ["indispensable", "discutable", "secondaire"], "correct": 0, "explain": "'Indispensable' qualifie ce qui est totalement nécessaire."}
+            {"q": "Welche Wendung leitet eine persönliche Meinung ein ?", "opts": ["Meiner Meinung nach", "Deshalb", "Deswegen"], "correct": 0, "explain": "'Meiner Meinung nach' leitet den eigenen Standpunkt ein."}
         ]
     },
-    "lexpression-de-lopinion-et-du-doute": {
-        "title": "L'Expression de l'Opinion et du Doute",
-        "subtitle": "Moduler ses propos entre certitude, conviction et réserve",
-        "module_title": "Module 1 · Nuancer sa Pensée & Exprimer des Opinions",
+    "wuensche-und-erwartungen": {
+        "title": "Wünsche und Erwartungen",
+        "subtitle": "Wortschatz für Hoffnungen, Ziele und höfliche Anliegen",
+        "module_title": "Modul 1 · Meinung, Zweifel & Ausdrücke",
         "words": [
-            {"word": "à mon avis", "genre": "expr.", "ex": "À mon avis, cette stratégie comporte trop de risques."},
-            {"word": "être convaincu(e)", "genre": "expr.", "ex": "Je suis convaincue que notre projet réussira."},
-            {"word": "discutable", "genre": "adj.", "ex": "Cette hypothèse reste discutable selon les experts."},
-            {"word": "un doute", "genre": "n.m.", "ex": "J'ai encore des doutes sur l'efficacité de ce système."},
-            {"word": "il me semble", "genre": "expr.", "ex": "Il me semble que la décision a déjà été prise."}
+            {"word": "die Hoffnung", "genre": "N. f.", "ex": "Wir haben die Hoffnung, bald eine Lösung zu finden."},
+            {"word": "der Wunsch", "genre": "N. m.", "ex": "Mein größter Wunsch ist eine erfolgreiche Zusammenarbeit."},
+            {"word": "das Ziel", "genre": "N. n.", "ex": "Das Ziel des Projekts ist die Effizienzsteigerung."},
+            {"word": "anstreben", "genre": "V.", "ex": "Wir streben eine nachhaltige Entwicklung an."},
+            {"word": "bevorzugen", "genre": "V.", "ex": "Ich würde einen Termin am Vormittag bevorzugen."}
         ],
-        "checklist": ["Varier ses formules d'introduction d'opinion", "Exprimer la réserve avec diplomatie"],
+        "checklist": ["Wünsche und Ziele beschreiben", "Verben der Erwartung nutzen"],
         "quiz": [
-            {"q": "Quelle formule exprime une certitude absolue ?", "opts": ["Je suis convaincu(e)", "Je doute", "Il me semble"], "correct": 0, "explain": "'Être convaincu(e)' affirme une certitude totale."}
+            {"q": "Welcher Begriff bezeichnet das angestrebte Resultat ?", "opts": ["das Ziel", "der Zweifel", "die Ursache"], "correct": 0, "explain": "'Das Ziel' bezeichnet das geplante Ergebnis."}
         ]
     },
-    "la-cause-le-resultat-et-limpact": {
-        "title": "La Cause, le Résultat et l'Impact",
-        "subtitle": "Lexique du raisonnement causal et des conséquences à long terme",
-        "module_title": "Module 2 · Argumentation & Débat d'Idées",
+    "ursache-wirkung-und-einfluss": {
+        "title": "Ursache, Wirkung und Einfluss",
+        "subtitle": "Wortschatz für Gründe, Ergebnisse und Konsequenzen",
+        "module_title": "Modul 2 · Ursache, Wirkung & Debatte",
         "words": [
-            {"word": "l'origine", "genre": "n.f.", "ex": "L'origine du problème remonte à plusieurs mois."},
-            {"word": "un facteur", "genre": "n.m.", "ex": "Le stress est un facteur déterminant dans ce projet."},
-            {"word": "un impact", "genre": "n.m.", "ex": "Cette réforme aura un impact positif sur l'économie."},
-            {"word": "engendrer", "genre": "v.", "ex": "Cette mesure peut engendrer des réactions fortes."},
-            {"word": "par conséquent", "genre": "loc. adv.", "ex": "Les coûts ont augmenté ; par conséquent, nous adaptons les tarifs."}
+            {"word": "die Ursache", "genre": "N. f.", "ex": "Die Ursache des Problems liegt in der Software."},
+            {"word": "die Wirkung", "genre": "N. f.", "ex": "Die Maßnahme zeigte sofort eine positive Wirkung."},
+            {"word": "der Einfluss", "genre": "N. m.", "ex": "Das Wetter hat großen Einfluss auf das Ergebnis."},
+            {"word": "verursachen", "genre": "V.", "ex": "Der Sturm verursachte erhebliche Schäden."},
+            {"word": "Infolgedessen", "genre": "Adv.", "ex": "Die Preise stiegen ; infolgedessen passten wir die Budgets an."}
         ],
-        "checklist": ["Identifier et nommer les facteurs de cause", "Exprimer l'effet et la conséquence"],
+        "checklist": ["Gründe und Auswirkungen benennen", "Einflüsse sachlich beschreiben"],
         "quiz": [
-            {"q": "Quel verbe signifie 'produire ou causer un résultat' ?", "opts": ["engendrer", "réfuter", "admettre"], "correct": 0, "explain": "'Engendrer' signifie donner naissance ou causer une situation."}
+            {"q": "Welches Verb bedeutet 'einen Effekt hervorrufen' ?", "opts": ["verursachen", "widerlegen", "zustimmen"], "correct": 0, "explain": "'Verursachen' bedeutet der Grund für ein Ergebnis zu sein."}
         ]
     },
-    "les-termes-du-debat-et-de-la-refutation": {
-        "title": "Les Termes du Débat et de la Réfutation",
-        "subtitle": "Vocabulaire pour soutenir, contester et nuancer une idée",
-        "module_title": "Module 2 · Argumentation & Débat d'Idées",
+    "begriffe-der-debatte-und-widerlegung": {
+        "title": "Begriffe der Debatte und Widerlegung",
+        "subtitle": "Wortschatz zum Argumentieren, Einwänden und Verhandeln",
+        "module_title": "Modul 2 · Ursache, Wirkung & Debatte",
         "words": [
-            {"word": "soutenir", "genre": "v.", "ex": "Le chercheur soutient que son modèle est fiable."},
-            {"word": "réfuter", "genre": "v.", "ex": "L'expert a réfuté tous les arguments de l'opposition."},
-            {"word": "admettre", "genre": "v.", "ex": "Il faut admettre que les résultats dépassent les prévisions."},
-            {"word": "contester", "genre": "v.", "ex": "Plusieurs personnes contestent la légitimité de ce choix."},
-            {"word": "nuancer", "genre": "v.", "ex": "Permettez-moi de nuancer cette affirmation."}
+            {"word": "das Argument", "genre": "N. n.", "ex": "Sie brachte ein sehr überzeugendes Argument vor."},
+            {"word": "behaupten", "genre": "V.", "ex": "Der Experte behauptet, dass der Markt wachsen wird."},
+            {"word": "widerlegen", "genre": "V.", "ex": "Wir konnten die alte Theorie mit neuen Daten widerlegen."},
+            {"word": "einschränken", "genre": "V.", "ex": "Ich möchte diese Aussage ein wenig einschränken."},
+            {"word": "widersprechen", "genre": "V.", "ex": "Da muss ich Ihnen höflich widersprechen."}
         ],
-        "checklist": ["Utiliser les verbes d'argumentation", "Réfuter une idée avec politesse"],
+        "checklist": ["Eigene Argumente stützen", "Gegenargumente höflich widerlegen"],
         "quiz": [
-            {"q": "Quel verbe signifie 'prouver la fausseté d'un argument' ?", "opts": ["réfuter", "soutenir", "admettre"], "correct": 0, "explain": "'Réfuter' consiste à détruire un argument par des preuves contraires."}
+            {"q": "Welches Verb bedeutet 'eine Aussage als falsch nachweisen' ?", "opts": ["widerlegen", "behaupten", "zustimmen"], "correct": 0, "explain": "'Widerlegen' bedeutet die Unrichtigkeit einer Behauptung zu beweisen."}
         ]
     }
 }
 
 def render_topbar(is_topic=False):
     rel_prefix = "../" if is_topic else ""
-    hub_link = "../../../../francaise-b1.html" if is_topic else "../../../francaise-b1.html"
-    return f'''<header class="topbar"><div class="topbar-inner"><a class="brand" href="{rel_prefix}index.html"><span class="brand-mark">cl</span><span>COSYlanguages · Lexique B1</span></a><nav class="topbar-nav"><a href="{hub_link}">← Hub Français B1</a></nav></div></header>'''
+    hub_link = "../../../../deutsch-b1.html" if is_topic else "../../../deutsch-b1.html"
+    return f'''<header class="topbar"><div class="topbar-inner"><a class="brand" href="{rel_prefix}index.html"><span class="brand-mark">cl</span><span>COSYlanguages · Wortschatz B1</span></a><nav class="topbar-nav"><a href="{hub_link}">← Hub Deutsch B1</a></nav></div></header>'''
 
 def render_footer():
-    return '''<footer class="site"><div class="container"><div>COSYlanguages · Lexique Français (B1) · Édition Web</div><div><a href="https://cosylanguages.github.io/COSYlanguages/index.html">← Accueil COSYlanguages</a></div></div></footer>'''
+    return '''<footer class="site"><div class="container"><div>COSYlanguages · Deutscher Wortschatz (B1) · Web-Edition</div><div><a href="https://cosylanguages.github.io/COSYlanguages/index.html">← COSYlanguages Startseite</a></div></div></footer>'''
 
 def build_all():
-    print("Building French B1 Vocabulary Manual...")
+    print("Building German B1 Vocabulary Manual...")
     topic_slugs = list(TOPICS.keys())
 
     for idx, (slug, top) in enumerate(TOPICS.items()):
@@ -260,7 +260,7 @@ def build_all():
         vcards_html = f'<div class="vocab-grid">{"".join(vcards)}</div>'
 
         c_items = "".join([f'<label class="check-item"><input type="checkbox"><span>{ci}</span></label>' for ci in top["checklist"]])
-        check_html = f'<div class="checklist" data-key="{slug}"><h3>🎯 Compétences lexicales</h3>{c_items}</div>'
+        check_html = f'<div class="checklist" data-key="{slug}"><h3>🎯 Wortschatz-Kompetenzen</h3>{c_items}</div>'
 
         q_items = []
         q_data = []
@@ -269,14 +269,14 @@ def build_all():
             opts = "".join([f'<button class="qopt">{o}</button>' for o in q["opts"]])
             q_items.append(f'<div class="qitem"><div class="qtext">{q["q"]}</div><div class="qopts">{opts}</div><div class="qexplain">{q["explain"]}</div></div>')
         quiz_json = json.dumps(q_data)
-        quiz_html = f'<div class="quiz-panel" data-quiz=\'{quiz_json}\'><div class="quiz-head"><h2>Test de Lexique</h2><span class="quiz-score">Score: 0 / {len(q_data)}</span></div>{"".join(q_items)}</div>'
+        quiz_html = f'<div class="quiz-panel" data-quiz=\'{quiz_json}\'><div class="quiz-head"><h2>Wortschatz-Test</h2><span class="quiz-score">Ergebnis: 0 / {len(q_data)}</span></div>{"".join(q_items)}</div>'
 
         page_html = f'''<!doctype html>
-<html lang="fr">
+<html lang="de">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{top["title"]} · Lexique Français B1</title>
+<title>{top["title"]} · Deutscher Wortschatz B1</title>
 <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
@@ -308,18 +308,18 @@ def build_all():
             cards.append(f'''<a class="mcard" href="topics/{slug}.html"><h2>{top["title"]}</h2><p>{top["subtitle"]}</p></a>''')
 
         m_html = f'''<!doctype html>
-<html lang="fr">
+<html lang="de">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{m["title"]} · Lexique B1</title>
+<title>{m["title"]} · Wortschatz B1</title>
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 {render_topbar(is_topic=False)}
 <main class="container">
   <div class="page-head">
-    <span class="eyebrow">Module</span>
+    <span class="eyebrow">Modul</span>
     <h1>{m["title"]}</h1>
     <p class="subtitle">{m["subtitle"]}</p>
     <hr class="rule">
@@ -335,14 +335,14 @@ def build_all():
 
     index_cards = []
     for m in MODULES:
-        index_cards.append(f'''<a class="mcard" href="{m["file"]}"><h2>{m["title"]}</h2><p>{m["subtitle"]}</p><span style="font-size:12px;font-weight:700;color:var(--teal-800);">{len(m["topics"])} thèmes →</span></a>''')
+        index_cards.append(f'''<a class="mcard" href="{m["file"]}"><h2>{m["title"]}</h2><p>{m["subtitle"]}</p><span style="font-size:12px;font-weight:700;color:var(--teal-800);">{len(m["topics"])} Themen →</span></a>''')
 
     index_html = f'''<!doctype html>
-<html lang="fr">
+<html lang="de">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Lexique Français Niveau B1 · COSYlanguages</title>
+<title>Deutscher Wortschatz Niveau B1 · COSYlanguages</title>
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
@@ -350,8 +350,8 @@ def build_all():
 <main class="container">
   <div class="page-head">
     <span class="eyebrow">COSYlanguages · Niveau B1</span>
-    <h1>Lexique Français (B1)</h1>
-    <p class="subtitle">Manuel interactif monolingue de vocabulaire français niveau B1.</p>
+    <h1>Deutscher Wortschatz (B1)</h1>
+    <p class="subtitle">Interaktives einsprachiges Handbuch des deutschen Wortschatzes Niveau B1.</p>
     <hr class="rule">
   </div>
   <div class="module-grid">{"".join(index_cards)}</div>
@@ -363,7 +363,7 @@ def build_all():
     with open(os.path.join(BASE_DIR, "index.html"), "w", encoding="utf-8") as f:
         f.write(index_html)
 
-    print("French B1 Vocabulary Manual generated successfully!")
+    print("German B1 Vocabulary Manual generated successfully!")
 
 if __name__ == "__main__":
     build_all()
