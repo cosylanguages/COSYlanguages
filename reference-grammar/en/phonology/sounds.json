@@ -119,6 +119,29 @@
       "practice_links": null
     },
     {
+      "id": "r_controlled_vowels",
+      "label": "R-Controlled Vowels",
+      "level": "A2",
+      "emoji": "🌀",
+      "definition": "Vowel sounds modified and controlled by a following letter R",
+      "rules": [
+        "When a vowel is followed by R, the letter R changes the vowel sound into a distinct r-controlled vowel.",
+        "AR makes /ɑː/ or /ɑːr/ (car, star, park). OR makes /ɔː/ or /ɔːr/ (for, born, short).",
+        "ER, IR, UR blend into the same /ɜː/ or /ɜːr/ sound (her, bird, turn). AIR and EAR form vowel glides (fair /feə(r)/, near /nɪə(r)/)."
+      ],
+      "examples": [
+        {
+          "t": "Car /kɑː(r)/, For /fɔː(r)/",
+          "m": "R-controlled AR /ɑː/ and OR /ɔː/"
+        },
+        {
+          "t": "Bird /bɜːd/, Turn /tɜːn/, Fair /feə(r)/",
+          "m": "R-controlled IR/UR /ɜː/ and AIR /eə/"
+        }
+      ],
+      "practice_links": null
+    },
+    {
       "id": "diphthongs_vowel_length",
       "label": "Diphthongs & Vowel Duration",
       "level": "A2",
@@ -158,6 +181,29 @@
         {
           "t": "Nice to meet you ➔ /miːtʃuː/",
           "m": "Assimilation of /t/ and /j/"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "tion_sion_cian_endings",
+      "label": "Suffix Sound Shifts: -tion, -sion, -cian",
+      "level": "B1",
+      "emoji": "🗣️",
+      "definition": "Pronunciation of suffix endings -tion, -sion, and -cian as /ʃən/ or /ʒən/",
+      "rules": [
+        "-tion and -cian are pronounced /ʃən/ (nation /ˈneɪʃən/, musician /mjuːˈzɪʃən/).",
+        "-sion is pronounced /ʃən/ after consonants (discussion /dɪˈskʌʃən/) and /ʒən/ after vowels (vision /ˈvɪʒən/, decision /dɪˈsɪʒən/).",
+        "Stress falls on the syllable immediately preceding these suffixes."
+      ],
+      "examples": [
+        {
+          "t": "Nation /ˈneɪʃən/, Musician /mjuːˈzɪʃən/",
+          "m": "-tion and -cian pronounced /ʃən/"
+        },
+        {
+          "t": "Discussion /dɪˈskʌʃən/ vs Vision /ˈvɪʒən/",
+          "m": "-sion pronounced /ʃən/ after consonant vs /ʒən/ after vowel"
         }
       ],
       "practice_links": null

@@ -92,6 +92,28 @@
       "practice_links": null
     },
     {
+      "id": "prononciation_t_devant_i_tion_tie",
+      "label": "Prononciation du T devant I (-tion, -tie, -tiel)",
+      "level": "A2",
+      "emoji": "💬",
+      "definition": "Changement de son de la lettre T prononcée [s] devant I suivi d'une autre voyelle",
+      "rules": [
+        "Devant I suivi d'une voyelle (-tion, -tie, -tiel, -tieux), la lettre T se prononce généralement [s] : nation [nasjɔ̃], patient [pasjɑ̃], essentiel [esɑ̃sjɛl].",
+        "Exception : quand la lettre T est précédée d'un S, elle conserve son son d'origine [t] : question [kɛstjɔ̃], digestion [diʒɛstjɔ̃]."
+      ],
+      "examples": [
+        {
+          "t": "Nation [nasjɔ̃], Patient [pasjɑ̃], Démocratie [demokʁasi]",
+          "m": "T se prononce [s] devant I + voyelle"
+        },
+        {
+          "t": "Question [kɛstjɔ̃], Suggestion [syʒɛstjɔ̃]",
+          "m": "T reste [t] après la lettre S"
+        }
+      ],
+      "practice_links": null
+    },
+    {
       "id": "voyelles_nasales",
       "label": "Les voyelles nasales",
       "level": "A2",
