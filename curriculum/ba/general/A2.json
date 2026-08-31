@@ -1,0 +1,367 @@
+{
+  "language": "ba",
+  "course_type": "general",
+  "level": "A2",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Ütkän zamana häm Sähät",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Ütkän zamana häm Sähät",
+          "duration_minutes": 60,
+          "grammar": [
+            "A2 Structural Patterns"
+          ],
+          "vocabulary": [
+            "Core A2 Vocabulary"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 40,
+          "teacher_notes": "A2 level practice for Ütkän zamana häm Sähät"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Grammar & Structure",
+          "duration_minutes": 60,
+          "grammar": [
+            "Past & Future Forms"
+          ],
+          "vocabulary": [
+            "Contextual Phrasal Sets"
+          ],
+          "practice_types": [
+            "fill",
+            "listening"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on past tense and prepositions."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Conversational Application",
+          "duration_minutes": 60,
+          "grammar": [
+            "Conversational Connectors"
+          ],
+          "vocabulary": [
+            "Idiomatic Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 70,
+          "teacher_notes": "Interactive communication practice."
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Satıvalıwzar häm Kiyem",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Satıvalıwzar häm Kiyem",
+          "duration_minutes": 60,
+          "grammar": [
+            "A2 Structural Patterns"
+          ],
+          "vocabulary": [
+            "Core A2 Vocabulary"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 40,
+          "teacher_notes": "A2 level practice for Satıvalıwzar häm Kiyem"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Grammar & Structure",
+          "duration_minutes": 60,
+          "grammar": [
+            "Past & Future Forms"
+          ],
+          "vocabulary": [
+            "Contextual Phrasal Sets"
+          ],
+          "practice_types": [
+            "fill",
+            "listening"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on past tense and prepositions."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Conversational Application",
+          "duration_minutes": 60,
+          "grammar": [
+            "Conversational Connectors"
+          ],
+          "vocabulary": [
+            "Idiomatic Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 70,
+          "teacher_notes": "Interactive communication practice."
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Büş vaqıt häm Hobbilar",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Büş vaqıt häm Hobbilar",
+          "duration_minutes": 60,
+          "grammar": [
+            "A2 Structural Patterns"
+          ],
+          "vocabulary": [
+            "Core A2 Vocabulary"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 40,
+          "teacher_notes": "A2 level practice for Büş vaqıt häm Hobbilar"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Grammar & Structure",
+          "duration_minutes": 60,
+          "grammar": [
+            "Past & Future Forms"
+          ],
+          "vocabulary": [
+            "Contextual Phrasal Sets"
+          ],
+          "practice_types": [
+            "fill",
+            "listening"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on past tense and prepositions."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Conversational Application",
+          "duration_minutes": 60,
+          "grammar": [
+            "Conversational Connectors"
+          ],
+          "vocabulary": [
+            "Idiomatic Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 70,
+          "teacher_notes": "Interactive communication practice."
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Sälämätlek häm Bädän",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Sälämätlek häm Bädän",
+          "duration_minutes": 60,
+          "grammar": [
+            "A2 Structural Patterns"
+          ],
+          "vocabulary": [
+            "Core A2 Vocabulary"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 40,
+          "teacher_notes": "A2 level practice for Sälämätlek häm Bädän"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Grammar & Structure",
+          "duration_minutes": 60,
+          "grammar": [
+            "Past & Future Forms"
+          ],
+          "vocabulary": [
+            "Contextual Phrasal Sets"
+          ],
+          "practice_types": [
+            "fill",
+            "listening"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on past tense and prepositions."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Conversational Application",
+          "duration_minutes": 60,
+          "grammar": [
+            "Conversational Connectors"
+          ],
+          "vocabulary": [
+            "Idiomatic Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 70,
+          "teacher_notes": "Interactive communication practice."
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Yort häm Qorşaw",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Yort häm Qorşaw",
+          "duration_minutes": 60,
+          "grammar": [
+            "A2 Structural Patterns"
+          ],
+          "vocabulary": [
+            "Core A2 Vocabulary"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 40,
+          "teacher_notes": "A2 level practice for Yort häm Qorşaw"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Grammar & Structure",
+          "duration_minutes": 60,
+          "grammar": [
+            "Past & Future Forms"
+          ],
+          "vocabulary": [
+            "Contextual Phrasal Sets"
+          ],
+          "practice_types": [
+            "fill",
+            "listening"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on past tense and prepositions."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Conversational Application",
+          "duration_minutes": 60,
+          "grammar": [
+            "Conversational Connectors"
+          ],
+          "vocabulary": [
+            "Idiomatic Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 70,
+          "teacher_notes": "Interactive communication practice."
+        }
+      ]
+    },
+    {
+      "unit": 6,
+      "title": "Eş häm Keşelär",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Eş häm Keşelär",
+          "duration_minutes": 60,
+          "grammar": [
+            "A2 Structural Patterns"
+          ],
+          "vocabulary": [
+            "Core A2 Vocabulary"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 40,
+          "teacher_notes": "A2 level practice for Eş häm Keşelär"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Grammar & Structure",
+          "duration_minutes": 60,
+          "grammar": [
+            "Past & Future Forms"
+          ],
+          "vocabulary": [
+            "Contextual Phrasal Sets"
+          ],
+          "practice_types": [
+            "fill",
+            "listening"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on past tense and prepositions."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Conversational Application",
+          "duration_minutes": 60,
+          "grammar": [
+            "Conversational Connectors"
+          ],
+          "vocabulary": [
+            "Idiomatic Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 70,
+          "teacher_notes": "Interactive communication practice."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "language": "br",
+  "course_type": "general",
+  "level": "B1",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Ali ha Kaozeadenn",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Ali ha Kaozeadenn",
+          "duration_minutes": 60,
+          "grammar": [
+            "B1 Complex Structures"
+          ],
+          "vocabulary": [
+            "Core B1 Lexicon"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "B1 level deep dive for Ali ha Kaozeadenn"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Subjunctive & Relative Clauses",
+          "duration_minutes": 60,
+          "grammar": [
+            "Subjunctive / Moods",
+            "Relative Clauses"
+          ],
+          "vocabulary": [
+            "Abstract Vocabulary"
+          ],
+          "practice_types": [
+            "fill",
+            "writing"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on clause linking and hypotheticals."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Advanced Discussion & Argumentation",
+          "duration_minutes": 60,
+          "grammar": [
+            "Argumentation Connectors"
+          ],
+          "vocabulary": [
+            "Debate Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 80,
+          "teacher_notes": "Polite disagreement and floor management."
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Mediaoù ha Teknologiezh",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Mediaoù ha Teknologiezh",
+          "duration_minutes": 60,
+          "grammar": [
+            "B1 Complex Structures"
+          ],
+          "vocabulary": [
+            "Core B1 Lexicon"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "B1 level deep dive for Mediaoù ha Teknologiezh"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Subjunctive & Relative Clauses",
+          "duration_minutes": 60,
+          "grammar": [
+            "Subjunctive / Moods",
+            "Relative Clauses"
+          ],
+          "vocabulary": [
+            "Abstract Vocabulary"
+          ],
+          "practice_types": [
+            "fill",
+            "writing"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on clause linking and hypotheticals."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Advanced Discussion & Argumentation",
+          "duration_minutes": 60,
+          "grammar": [
+            "Argumentation Connectors"
+          ],
+          "vocabulary": [
+            "Debate Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 80,
+          "teacher_notes": "Polite disagreement and floor management."
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Endro ha Kevredigezh",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Endro ha Kevredigezh",
+          "duration_minutes": 60,
+          "grammar": [
+            "B1 Complex Structures"
+          ],
+          "vocabulary": [
+            "Core B1 Lexicon"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "B1 level deep dive for Endro ha Kevredigezh"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Subjunctive & Relative Clauses",
+          "duration_minutes": 60,
+          "grammar": [
+            "Subjunctive / Moods",
+            "Relative Clauses"
+          ],
+          "vocabulary": [
+            "Abstract Vocabulary"
+          ],
+          "practice_types": [
+            "fill",
+            "writing"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on clause linking and hypotheticals."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Advanced Discussion & Argumentation",
+          "duration_minutes": 60,
+          "grammar": [
+            "Argumentation Connectors"
+          ],
+          "vocabulary": [
+            "Debate Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 80,
+          "teacher_notes": "Polite disagreement and floor management."
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Sevenadur hag Arzoù",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Sevenadur hag Arzoù",
+          "duration_minutes": 60,
+          "grammar": [
+            "B1 Complex Structures"
+          ],
+          "vocabulary": [
+            "Core B1 Lexicon"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "B1 level deep dive for Sevenadur hag Arzoù"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Subjunctive & Relative Clauses",
+          "duration_minutes": 60,
+          "grammar": [
+            "Subjunctive / Moods",
+            "Relative Clauses"
+          ],
+          "vocabulary": [
+            "Abstract Vocabulary"
+          ],
+          "practice_types": [
+            "fill",
+            "writing"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on clause linking and hypotheticals."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Advanced Discussion & Argumentation",
+          "duration_minutes": 60,
+          "grammar": [
+            "Argumentation Connectors"
+          ],
+          "vocabulary": [
+            "Debate Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 80,
+          "teacher_notes": "Polite disagreement and floor management."
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Micher hag Bed al Labour",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Micher hag Bed al Labour",
+          "duration_minutes": 60,
+          "grammar": [
+            "B1 Complex Structures"
+          ],
+          "vocabulary": [
+            "Core B1 Lexicon"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "B1 level deep dive for Micher hag Bed al Labour"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Subjunctive & Relative Clauses",
+          "duration_minutes": 60,
+          "grammar": [
+            "Subjunctive / Moods",
+            "Relative Clauses"
+          ],
+          "vocabulary": [
+            "Abstract Vocabulary"
+          ],
+          "practice_types": [
+            "fill",
+            "writing"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on clause linking and hypotheticals."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Advanced Discussion & Argumentation",
+          "duration_minutes": 60,
+          "grammar": [
+            "Argumentation Connectors"
+          ],
+          "vocabulary": [
+            "Debate Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 80,
+          "teacher_notes": "Polite disagreement and floor management."
+        }
+      ]
+    },
+    {
+      "unit": 6,
+      "title": "Santimantoù ha Darempredoù",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Santimantoù ha Darempredoù",
+          "duration_minutes": 60,
+          "grammar": [
+            "B1 Complex Structures"
+          ],
+          "vocabulary": [
+            "Core B1 Lexicon"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "B1 level deep dive for Santimantoù ha Darempredoù"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Subjunctive & Relative Clauses",
+          "duration_minutes": 60,
+          "grammar": [
+            "Subjunctive / Moods",
+            "Relative Clauses"
+          ],
+          "vocabulary": [
+            "Abstract Vocabulary"
+          ],
+          "practice_types": [
+            "fill",
+            "writing"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on clause linking and hypotheticals."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Advanced Discussion & Argumentation",
+          "duration_minutes": 60,
+          "grammar": [
+            "Argumentation Connectors"
+          ],
+          "vocabulary": [
+            "Debate Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 80,
+          "teacher_notes": "Polite disagreement and floor management."
+        }
+      ]
+    }
+  ]
+}

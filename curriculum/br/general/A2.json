@@ -1,0 +1,367 @@
+{
+  "language": "br",
+  "course_type": "general",
+  "level": "A2",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Tremened ha Beajoù",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Tremened ha Beajoù",
+          "duration_minutes": 60,
+          "grammar": [
+            "A2 Structural Patterns"
+          ],
+          "vocabulary": [
+            "Core A2 Vocabulary"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 40,
+          "teacher_notes": "A2 level practice for Tremened ha Beajoù"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Grammar & Structure",
+          "duration_minutes": 60,
+          "grammar": [
+            "Past & Future Forms"
+          ],
+          "vocabulary": [
+            "Contextual Phrasal Sets"
+          ],
+          "practice_types": [
+            "fill",
+            "listening"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on past tense and prepositions."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Conversational Application",
+          "duration_minutes": 60,
+          "grammar": [
+            "Conversational Connectors"
+          ],
+          "vocabulary": [
+            "Idiomatic Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 70,
+          "teacher_notes": "Interactive communication practice."
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Prenadennoù ha Dilhad",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Prenadennoù ha Dilhad",
+          "duration_minutes": 60,
+          "grammar": [
+            "A2 Structural Patterns"
+          ],
+          "vocabulary": [
+            "Core A2 Vocabulary"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 40,
+          "teacher_notes": "A2 level practice for Prenadennoù ha Dilhad"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Grammar & Structure",
+          "duration_minutes": 60,
+          "grammar": [
+            "Past & Future Forms"
+          ],
+          "vocabulary": [
+            "Contextual Phrasal Sets"
+          ],
+          "practice_types": [
+            "fill",
+            "listening"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on past tense and prepositions."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Conversational Application",
+          "duration_minutes": 60,
+          "grammar": [
+            "Conversational Connectors"
+          ],
+          "vocabulary": [
+            "Idiomatic Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 70,
+          "teacher_notes": "Interactive communication practice."
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Amzer frank ha Dudi",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Amzer frank ha Dudi",
+          "duration_minutes": 60,
+          "grammar": [
+            "A2 Structural Patterns"
+          ],
+          "vocabulary": [
+            "Core A2 Vocabulary"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 40,
+          "teacher_notes": "A2 level practice for Amzer frank ha Dudi"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Grammar & Structure",
+          "duration_minutes": 60,
+          "grammar": [
+            "Past & Future Forms"
+          ],
+          "vocabulary": [
+            "Contextual Phrasal Sets"
+          ],
+          "practice_types": [
+            "fill",
+            "listening"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on past tense and prepositions."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Conversational Application",
+          "duration_minutes": 60,
+          "grammar": [
+            "Conversational Connectors"
+          ],
+          "vocabulary": [
+            "Idiomatic Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 70,
+          "teacher_notes": "Interactive communication practice."
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Yec'hed ha Korf",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Yec'hed ha Korf",
+          "duration_minutes": 60,
+          "grammar": [
+            "A2 Structural Patterns"
+          ],
+          "vocabulary": [
+            "Core A2 Vocabulary"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 40,
+          "teacher_notes": "A2 level practice for Yec'hed ha Korf"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Grammar & Structure",
+          "duration_minutes": 60,
+          "grammar": [
+            "Past & Future Forms"
+          ],
+          "vocabulary": [
+            "Contextual Phrasal Sets"
+          ],
+          "practice_types": [
+            "fill",
+            "listening"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on past tense and prepositions."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Conversational Application",
+          "duration_minutes": 60,
+          "grammar": [
+            "Conversational Connectors"
+          ],
+          "vocabulary": [
+            "Idiomatic Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 70,
+          "teacher_notes": "Interactive communication practice."
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Tiez hag Endro",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Tiez hag Endro",
+          "duration_minutes": 60,
+          "grammar": [
+            "A2 Structural Patterns"
+          ],
+          "vocabulary": [
+            "Core A2 Vocabulary"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 40,
+          "teacher_notes": "A2 level practice for Tiez hag Endro"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Grammar & Structure",
+          "duration_minutes": 60,
+          "grammar": [
+            "Past & Future Forms"
+          ],
+          "vocabulary": [
+            "Contextual Phrasal Sets"
+          ],
+          "practice_types": [
+            "fill",
+            "listening"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on past tense and prepositions."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Conversational Application",
+          "duration_minutes": 60,
+          "grammar": [
+            "Conversational Connectors"
+          ],
+          "vocabulary": [
+            "Idiomatic Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 70,
+          "teacher_notes": "Interactive communication practice."
+        }
+      ]
+    },
+    {
+      "unit": 6,
+      "title": "Lec'h labour ha Dazont",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Lec'h labour ha Dazont",
+          "duration_minutes": 60,
+          "grammar": [
+            "A2 Structural Patterns"
+          ],
+          "vocabulary": [
+            "Core A2 Vocabulary"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 40,
+          "teacher_notes": "A2 level practice for Lec'h labour ha Dazont"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Grammar & Structure",
+          "duration_minutes": 60,
+          "grammar": [
+            "Past & Future Forms"
+          ],
+          "vocabulary": [
+            "Contextual Phrasal Sets"
+          ],
+          "practice_types": [
+            "fill",
+            "listening"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on past tense and prepositions."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Conversational Application",
+          "duration_minutes": 60,
+          "grammar": [
+            "Conversational Connectors"
+          ],
+          "vocabulary": [
+            "Idiomatic Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 70,
+          "teacher_notes": "Interactive communication practice."
+        }
+      ]
+    }
+  ]
+}

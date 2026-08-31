@@ -10,18 +10,126 @@
         {
           "lesson": 1,
           "title": "Passato prossimo con essere e avere",
-          "grammar": ["Accordo del participio passato con essere", "Ausiliari al presente"],
-          "vocabulary": ["Ieri", "L'anno scorso", "Viaggio", "Ricordo", "Vacanza"],
+          "grammar": [
+            "Accordo del participio passato con essere",
+            "Ausiliari al presente"
+          ],
+          "vocabulary": [
+            "Ieri",
+            "L'anno scorso",
+            "Viaggio",
+            "Ricordo",
+            "Vacanza"
+          ],
           "teacher_notes": "code: \"IT-A2-001\"\npronunciation: [{\"point\":\"Consonanti doppie\",\"explain\":\"Pronuncia distinta e allungata delle consonanti doppie.\",\"examples\":[{\"pattern\":\"fatto / fato\",\"ipa\":\"/ˈfat.to/ / /ˈfa.to/\",\"word\":\"fatto\"}],\"visual\":\"🇮🇹\"}]\ncando: \"Sa raccontare un evento passato semplice\""
         },
         {
           "lesson": 2,
           "title": "L'imperfetto indicativo",
-          "grammar": ["Formazione dell'imperfetto", "Descrizioni e abitudini nel passato"],
-          "vocabulary": ["Da piccolo", "Ogni estate", "Abitudine", "Paesaggio", "Atmosfera"],
+          "grammar": [
+            "Formazione dell'imperfetto",
+            "Descrizioni e abitudini nel passato"
+          ],
+          "vocabulary": [
+            "Da piccolo",
+            "Ogni estate",
+            "Abitudine",
+            "Paesaggio",
+            "Atmosfera"
+          ],
           "teacher_notes": "code: \"IT-A2-002\"\ncando: \"Sa descrivere un'abitudine passata\""
         }
       ]
+    },
+    {
+      "title": "Unità 2: Passato prossimo e Imperfetto",
+      "lessons": [
+        {
+          "lesson": 1,
+          "title": "Raccontare il passato",
+          "grammar": [
+            "Passato prossimo vs Imperfetto"
+          ],
+          "vocabulary": [
+            "Ieri",
+            "Ricordi"
+          ],
+          "teacher_notes": "cando: \"Raccontare eventi passati\""
+        }
+      ],
+      "unit": 2
+    },
+    {
+      "title": "Unità 3: Feste e Tradizioni",
+      "lessons": [
+        {
+          "lesson": 1,
+          "title": "Tradizioni italiane",
+          "grammar": [
+            "Pronomi diretti e indiretti"
+          ],
+          "vocabulary": [
+            "Feste",
+            "Famiglia"
+          ],
+          "teacher_notes": "cando: \"Parlare delle festività\""
+        }
+      ],
+      "unit": 3
+    },
+    {
+      "title": "Unità 4: Fare la spesa e cucinare",
+      "lessons": [
+        {
+          "lesson": 1,
+          "title": "Al mercato",
+          "grammar": [
+            "Ne partitivo e ci locativo"
+          ],
+          "vocabulary": [
+            "Cibo",
+            "Ricette"
+          ],
+          "teacher_notes": "cando: \"Fare acquisti alimentari\""
+        }
+      ],
+      "unit": 4
+    },
+    {
+      "title": "Unità 5: Salute e benessere",
+      "lessons": [
+        {
+          "lesson": 1,
+          "title": "Dal medico",
+          "grammar": [
+            "Imperativo informale"
+          ],
+          "vocabulary": [
+            "Corpo umano",
+            "Salute"
+          ],
+          "teacher_notes": "cando: \"Descrivere sintomi\""
+        }
+      ],
+      "unit": 5
+    },
+    {
+      "title": "Unità 6: Il lavoro e il futuro",
+      "lessons": [
+        {
+          "lesson": 1,
+          "title": "Progetti per il futuro",
+          "grammar": [
+            "Futuro semplice"
+          ],
+          "vocabulary": [
+            "Lavoro",
+            "Ufficio"
+          ],
+          "teacher_notes": "cando: \"Esprimere progetti futuri\""
+        }
+      ],
+      "unit": 6
     }
   ]
 }

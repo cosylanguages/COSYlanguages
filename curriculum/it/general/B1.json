@@ -10,11 +10,110 @@
         {
           "lesson": 1,
           "title": "Il congiuntivo presente — Opinione e desiderio",
-          "grammar": ["Penso che + congiuntivo", "Spero che + congiuntivo"],
-          "vocabulary": ["Secondo me", "Opinione", "Dubbio", "Speranza", "Ipotesi"],
+          "grammar": [
+            "Penso che + congiuntivo",
+            "Spero che + congiuntivo"
+          ],
+          "vocabulary": [
+            "Secondo me",
+            "Opinione",
+            "Dubbio",
+            "Speranza",
+            "Ipotesi"
+          ],
           "teacher_notes": "code: \"IT-B1-001\"\ncando: \"Sa esprimere un'opinione personale con sfumature di dubbio\""
         }
       ]
+    },
+    {
+      "title": "Unità 2: Il Congiuntivo presente",
+      "lessons": [
+        {
+          "lesson": 1,
+          "title": "Esprimere opinioni e desideri",
+          "grammar": [
+            "Congiuntivo presente"
+          ],
+          "vocabulary": [
+            "Opinione",
+            "Dubbio"
+          ],
+          "teacher_notes": "cando: \"Esprimere opinioni personali\""
+        }
+      ],
+      "unit": 2
+    },
+    {
+      "title": "Unità 3: Il Periodo ipotetico della possibilità",
+      "lessons": [
+        {
+          "lesson": 1,
+          "title": "Se fossi ricchissimo...",
+          "grammar": [
+            "Condizionale e Congiuntivo imperfetto"
+          ],
+          "vocabulary": [
+            "Ipotesi",
+            "Sogni"
+          ],
+          "teacher_notes": "cando: \"Fare ipotesi sulla realtà\""
+        }
+      ],
+      "unit": 3
+    },
+    {
+      "title": "Unità 4: Ambiente ed Ecologia",
+      "lessons": [
+        {
+          "lesson": 1,
+          "title": "Proteggere il pianeta",
+          "grammar": [
+            "Forma passiva e si passivante"
+          ],
+          "vocabulary": [
+            "Natura",
+            "Riciclaggio"
+          ],
+          "teacher_notes": "cando: \"Discutere di problemi ambientali\""
+        }
+      ],
+      "unit": 4
+    },
+    {
+      "title": "Unità 5: Media e Società",
+      "lessons": [
+        {
+          "lesson": 1,
+          "title": "Attualità e notizie",
+          "grammar": [
+            "Discorso indiretto"
+          ],
+          "vocabulary": [
+            "Giornale",
+            "Internet"
+          ],
+          "teacher_notes": "cando: \"Riferire notizie e interviste\""
+        }
+      ],
+      "unit": 5
+    },
+    {
+      "title": "Unità 6: Arte e Spettacolo",
+      "lessons": [
+        {
+          "lesson": 1,
+          "title": "Cinema e Teatro",
+          "grammar": [
+            "Pronomi relativi (che, cui)"
+          ],
+          "vocabulary": [
+            "Spettacolo",
+            "Recensione"
+          ],
+          "teacher_notes": "cando: \"Scrivere la recensione di un film\""
+        }
+      ],
+      "unit": 6
     }
   ]
 }

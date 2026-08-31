@@ -10,15 +10,33 @@
         {
           "lesson": 1,
           "title": "Passé composé avec avoir et être",
-          "grammar": ["Accord du participe passé avec être", "Verbes auxiliaires au présent"],
-          "vocabulary": ["Hier", "Autrefois", "L'année dernière", "Souvenir", "Voyage"],
+          "grammar": [
+            "Accord du participe passé avec être",
+            "Verbes auxiliaires au présent"
+          ],
+          "vocabulary": [
+            "Hier",
+            "Autrefois",
+            "L'année dernière",
+            "Souvenir",
+            "Voyage"
+          ],
           "teacher_notes": "code: \"FR-A2-001\"\npronunciation: [{\"point\":\"Les sons [e] et [ɛ]\",\"explain\":\"Distinguer les participes passés en -é et les formes de l'imparfait en -ais.\",\"examples\":[{\"pattern\":\"mangé / mangeais\",\"ipa\":\"/mɑ̃.ʒe/ / /mɑ̃.ʒɛ/\",\"word\":\"mangé\"}],\"visual\":\"🗣️\"}]\ncando: \"Peut raconter un événement passé simple\""
         },
         {
           "lesson": 2,
           "title": "L'imparfait de l'indicatif",
-          "grammar": ["Formation de l'imparfait", "Utilisation pour les descriptions et habitudes"],
-          "vocabulary": ["Quand j'étais jeune", "Chaque été", "Habitude", "Paysage", "Atmosphère"],
+          "grammar": [
+            "Formation de l'imparfait",
+            "Utilisation pour les descriptions et habitudes"
+          ],
+          "vocabulary": [
+            "Quand j'étais jeune",
+            "Chaque été",
+            "Habitude",
+            "Paysage",
+            "Atmosphère"
+          ],
           "teacher_notes": "code: \"FR-A2-002\"\ncando: \"Peut décrire une habitude passée\""
         }
       ]
@@ -30,11 +48,97 @@
         {
           "lesson": 3,
           "title": "Le futur simple",
-          "grammar": ["Terminaisons du futur simple", "Verbes irréguliers au futur"],
-          "vocabulary": ["Demain", "Plus tard", "Projet", "Ambition", "Carrière"],
+          "grammar": [
+            "Terminaisons du futur simple",
+            "Verbes irréguliers au futur"
+          ],
+          "vocabulary": [
+            "Demain",
+            "Plus tard",
+            "Projet",
+            "Ambition",
+            "Carrière"
+          ],
           "teacher_notes": "code: \"FR-A2-003\"\ncando: \"Peut parler de ses projets futurs\""
         }
       ]
+    },
+    {
+      "title": "Unité 3 : Faire des achats et la cuisine",
+      "lessons": [
+        {
+          "lesson": 1,
+          "title": "Articles partitifs et quantités",
+          "grammar": [
+            "Du, de la, des, de"
+          ],
+          "vocabulary": [
+            "Nourriture",
+            "Marché",
+            "Quantités"
+          ],
+          "teacher_notes": "code: \"FR-A2-004\"\ncando: \"Peut faire des courses au marché\""
+        }
+      ],
+      "unit": 3
+    },
+    {
+      "title": "Unité 4 : La santé et le corps humain",
+      "lessons": [
+        {
+          "lesson": 1,
+          "title": "Chez le médecin",
+          "grammar": [
+            "Avoir mal à",
+            "Il faut + infinitif"
+          ],
+          "vocabulary": [
+            "Symptômes",
+            "Symptômes",
+            "Corps"
+          ],
+          "teacher_notes": "code: \"FR-A2-005\"\ncando: \"Peut décrire des symptômes chez le médecin\""
+        }
+      ],
+      "unit": 4
+    },
+    {
+      "title": "Unité 5 : Voyages et hébergement",
+      "lessons": [
+        {
+          "lesson": 1,
+          "title": "Réserver une chambre d'hôtel",
+          "grammar": [
+            "Verbes modaux (pouvoir, vouloir, devoir)"
+          ],
+          "vocabulary": [
+            "Hôtel",
+            "Réservation",
+            "Services"
+          ],
+          "teacher_notes": "code: \"FR-A2-006\"\ncando: \"Peut réserver un hébergement\""
+        }
+      ],
+      "unit": 5
+    },
+    {
+      "title": "Unité 6 : Le monde du travail",
+      "lessons": [
+        {
+          "lesson": 1,
+          "title": "Parler de sa profession et de ses tâches",
+          "grammar": [
+            "Pronoms relatifs simples (qui, que, où)"
+          ],
+          "vocabulary": [
+            "Bureau",
+            "Professions",
+            "Tâches"
+          ],
+          "teacher_notes": "code: \"FR-A2-007\"\ncando: \"Peut présenter ses responsabilités professionnelles\""
+        }
+      ],
+      "unit": 6
     }
   ]
 }

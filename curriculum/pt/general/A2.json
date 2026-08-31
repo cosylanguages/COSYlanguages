@@ -1,0 +1,367 @@
+{
+  "language": "pt",
+  "course_type": "general",
+  "level": "A2",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Passado e Viagens",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Passado e Viagens",
+          "duration_minutes": 60,
+          "grammar": [
+            "A2 Structural Patterns"
+          ],
+          "vocabulary": [
+            "Core A2 Vocabulary"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 40,
+          "teacher_notes": "A2 level practice for Passado e Viagens"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Grammar & Structure",
+          "duration_minutes": 60,
+          "grammar": [
+            "Past & Future Forms"
+          ],
+          "vocabulary": [
+            "Contextual Phrasal Sets"
+          ],
+          "practice_types": [
+            "fill",
+            "listening"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on past tense and prepositions."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Conversational Application",
+          "duration_minutes": 60,
+          "grammar": [
+            "Conversational Connectors"
+          ],
+          "vocabulary": [
+            "Idiomatic Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 70,
+          "teacher_notes": "Interactive communication practice."
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Compras e Vestuário",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Compras e Vestuário",
+          "duration_minutes": 60,
+          "grammar": [
+            "A2 Structural Patterns"
+          ],
+          "vocabulary": [
+            "Core A2 Vocabulary"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 40,
+          "teacher_notes": "A2 level practice for Compras e Vestuário"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Grammar & Structure",
+          "duration_minutes": 60,
+          "grammar": [
+            "Past & Future Forms"
+          ],
+          "vocabulary": [
+            "Contextual Phrasal Sets"
+          ],
+          "practice_types": [
+            "fill",
+            "listening"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on past tense and prepositions."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Conversational Application",
+          "duration_minutes": 60,
+          "grammar": [
+            "Conversational Connectors"
+          ],
+          "vocabulary": [
+            "Idiomatic Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 70,
+          "teacher_notes": "Interactive communication practice."
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Tempos Livres e Passatempos",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Tempos Livres e Passatempos",
+          "duration_minutes": 60,
+          "grammar": [
+            "A2 Structural Patterns"
+          ],
+          "vocabulary": [
+            "Core A2 Vocabulary"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 40,
+          "teacher_notes": "A2 level practice for Tempos Livres e Passatempos"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Grammar & Structure",
+          "duration_minutes": 60,
+          "grammar": [
+            "Past & Future Forms"
+          ],
+          "vocabulary": [
+            "Contextual Phrasal Sets"
+          ],
+          "practice_types": [
+            "fill",
+            "listening"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on past tense and prepositions."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Conversational Application",
+          "duration_minutes": 60,
+          "grammar": [
+            "Conversational Connectors"
+          ],
+          "vocabulary": [
+            "Idiomatic Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 70,
+          "teacher_notes": "Interactive communication practice."
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Saúde e Corpo",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Saúde e Corpo",
+          "duration_minutes": 60,
+          "grammar": [
+            "A2 Structural Patterns"
+          ],
+          "vocabulary": [
+            "Core A2 Vocabulary"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 40,
+          "teacher_notes": "A2 level practice for Saúde e Corpo"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Grammar & Structure",
+          "duration_minutes": 60,
+          "grammar": [
+            "Past & Future Forms"
+          ],
+          "vocabulary": [
+            "Contextual Phrasal Sets"
+          ],
+          "practice_types": [
+            "fill",
+            "listening"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on past tense and prepositions."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Conversational Application",
+          "duration_minutes": 60,
+          "grammar": [
+            "Conversational Connectors"
+          ],
+          "vocabulary": [
+            "Idiomatic Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 70,
+          "teacher_notes": "Interactive communication practice."
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Habitação e Envolvente",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Habitação e Envolvente",
+          "duration_minutes": 60,
+          "grammar": [
+            "A2 Structural Patterns"
+          ],
+          "vocabulary": [
+            "Core A2 Vocabulary"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 40,
+          "teacher_notes": "A2 level practice for Habitação e Envolvente"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Grammar & Structure",
+          "duration_minutes": 60,
+          "grammar": [
+            "Past & Future Forms"
+          ],
+          "vocabulary": [
+            "Contextual Phrasal Sets"
+          ],
+          "practice_types": [
+            "fill",
+            "listening"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on past tense and prepositions."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Conversational Application",
+          "duration_minutes": 60,
+          "grammar": [
+            "Conversational Connectors"
+          ],
+          "vocabulary": [
+            "Idiomatic Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 70,
+          "teacher_notes": "Interactive communication practice."
+        }
+      ]
+    },
+    {
+      "unit": 6,
+      "title": "Trabalho e Futuro",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Trabalho e Futuro",
+          "duration_minutes": 60,
+          "grammar": [
+            "A2 Structural Patterns"
+          ],
+          "vocabulary": [
+            "Core A2 Vocabulary"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 40,
+          "teacher_notes": "A2 level practice for Trabalho e Futuro"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Grammar & Structure",
+          "duration_minutes": 60,
+          "grammar": [
+            "Past & Future Forms"
+          ],
+          "vocabulary": [
+            "Contextual Phrasal Sets"
+          ],
+          "practice_types": [
+            "fill",
+            "listening"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on past tense and prepositions."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Conversational Application",
+          "duration_minutes": 60,
+          "grammar": [
+            "Conversational Connectors"
+          ],
+          "vocabulary": [
+            "Idiomatic Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 70,
+          "teacher_notes": "Interactive communication practice."
+        }
+      ]
+    }
+  ]
+}
