@@ -1,0 +1,367 @@
+{
+  "language": "hy",
+  "course_type": "general",
+  "level": "A2",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Անցյալ և Ճանապարհորդություն",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Անցյալ և Ճանապարհորդություն",
+          "duration_minutes": 60,
+          "grammar": [
+            "A2 Structural Patterns"
+          ],
+          "vocabulary": [
+            "Core A2 Vocabulary"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 40,
+          "teacher_notes": "A2 level practice for Անցյալ և Ճանապարհորդություն"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Grammar & Structure",
+          "duration_minutes": 60,
+          "grammar": [
+            "Past & Future Forms"
+          ],
+          "vocabulary": [
+            "Contextual Phrasal Sets"
+          ],
+          "practice_types": [
+            "fill",
+            "listening"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on past tense and prepositions."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Conversational Application",
+          "duration_minutes": 60,
+          "grammar": [
+            "Conversational Connectors"
+          ],
+          "vocabulary": [
+            "Idiomatic Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 70,
+          "teacher_notes": "Interactive communication practice."
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Գնումներ և Հագուստ",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Գնումներ և Հագուստ",
+          "duration_minutes": 60,
+          "grammar": [
+            "A2 Structural Patterns"
+          ],
+          "vocabulary": [
+            "Core A2 Vocabulary"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 40,
+          "teacher_notes": "A2 level practice for Գնումներ և Հագուստ"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Grammar & Structure",
+          "duration_minutes": 60,
+          "grammar": [
+            "Past & Future Forms"
+          ],
+          "vocabulary": [
+            "Contextual Phrasal Sets"
+          ],
+          "practice_types": [
+            "fill",
+            "listening"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on past tense and prepositions."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Conversational Application",
+          "duration_minutes": 60,
+          "grammar": [
+            "Conversational Connectors"
+          ],
+          "vocabulary": [
+            "Idiomatic Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 70,
+          "teacher_notes": "Interactive communication practice."
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Ազատ ժամանակ և Հոբբի",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Ազատ ժամանակ և Հոբբի",
+          "duration_minutes": 60,
+          "grammar": [
+            "A2 Structural Patterns"
+          ],
+          "vocabulary": [
+            "Core A2 Vocabulary"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 40,
+          "teacher_notes": "A2 level practice for Ազատ ժամանակ և Հոբբի"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Grammar & Structure",
+          "duration_minutes": 60,
+          "grammar": [
+            "Past & Future Forms"
+          ],
+          "vocabulary": [
+            "Contextual Phrasal Sets"
+          ],
+          "practice_types": [
+            "fill",
+            "listening"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on past tense and prepositions."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Conversational Application",
+          "duration_minutes": 60,
+          "grammar": [
+            "Conversational Connectors"
+          ],
+          "vocabulary": [
+            "Idiomatic Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 70,
+          "teacher_notes": "Interactive communication practice."
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Առողջություն և Մարմին",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Առողջություն և Մարմին",
+          "duration_minutes": 60,
+          "grammar": [
+            "A2 Structural Patterns"
+          ],
+          "vocabulary": [
+            "Core A2 Vocabulary"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 40,
+          "teacher_notes": "A2 level practice for Առողջություն և Մարմին"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Grammar & Structure",
+          "duration_minutes": 60,
+          "grammar": [
+            "Past & Future Forms"
+          ],
+          "vocabulary": [
+            "Contextual Phrasal Sets"
+          ],
+          "practice_types": [
+            "fill",
+            "listening"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on past tense and prepositions."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Conversational Application",
+          "duration_minutes": 60,
+          "grammar": [
+            "Conversational Connectors"
+          ],
+          "vocabulary": [
+            "Idiomatic Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 70,
+          "teacher_notes": "Interactive communication practice."
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Տուն և Շրջապատ",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Տուն և Շրջապատ",
+          "duration_minutes": 60,
+          "grammar": [
+            "A2 Structural Patterns"
+          ],
+          "vocabulary": [
+            "Core A2 Vocabulary"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 40,
+          "teacher_notes": "A2 level practice for Տուն և Շրջապատ"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Grammar & Structure",
+          "duration_minutes": 60,
+          "grammar": [
+            "Past & Future Forms"
+          ],
+          "vocabulary": [
+            "Contextual Phrasal Sets"
+          ],
+          "practice_types": [
+            "fill",
+            "listening"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on past tense and prepositions."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Conversational Application",
+          "duration_minutes": 60,
+          "grammar": [
+            "Conversational Connectors"
+          ],
+          "vocabulary": [
+            "Idiomatic Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 70,
+          "teacher_notes": "Interactive communication practice."
+        }
+      ]
+    },
+    {
+      "unit": 6,
+      "title": "Աշխատանք և Ապագա",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Աշխատանք և Ապագա",
+          "duration_minutes": 60,
+          "grammar": [
+            "A2 Structural Patterns"
+          ],
+          "vocabulary": [
+            "Core A2 Vocabulary"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 40,
+          "teacher_notes": "A2 level practice for Աշխատանք և Ապագա"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Grammar & Structure",
+          "duration_minutes": 60,
+          "grammar": [
+            "Past & Future Forms"
+          ],
+          "vocabulary": [
+            "Contextual Phrasal Sets"
+          ],
+          "practice_types": [
+            "fill",
+            "listening"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on past tense and prepositions."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Conversational Application",
+          "duration_minutes": 60,
+          "grammar": [
+            "Conversational Connectors"
+          ],
+          "vocabulary": [
+            "Idiomatic Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 70,
+          "teacher_notes": "Interactive communication practice."
+        }
+      ]
+    }
+  ]
+}

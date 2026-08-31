@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Курсы · COSY</title>
+<title>Courses · COSY</title>
 <link rel="stylesheet" href="../../css/lang-pages.css">
 <link rel="stylesheet" href="../../css/lang-accents.css">
 <link rel="stylesheet" href="../../css/mobile.css">
@@ -14,17 +14,20 @@
   .cc-icon { font-size: 2.5rem; margin-bottom: 1rem; }
   .cc-title { font-size: 1.5rem; font-weight: 800; margin-bottom: 0.5rem; display: flex; align-items: center; justify-content: space-between; }
   .badge { font-size: 1.2rem; }
+  .roadmap-section { margin-top: 3rem; background: #faf7f2; padding: 2rem; border-radius: 1rem; border: 1px solid #e2d9cc; }
+  .level-badge { display: inline-block; padding: 0.25rem 0.75rem; background: #1b4332; color: white; border-radius: 1rem; font-weight: 700; margin-right: 0.5rem; }
 </style>
   <link rel="stylesheet" href="../../css/components.css">
 </head>
 <body data-lang-theme="ru">
 <nav id="cosy-nav"></nav>
 <main style="padding: 2rem;">
-  <h1 style="font-size: 3rem; font-weight: 900; margin-bottom: 1rem;">Курсы</h1>
+  <h1 style="font-size: 3rem; font-weight: 900; margin-bottom: 1rem;">Courses & Roadmap</h1>
   <div class="courses-grid">
     <a href="../../apps/premium-courses/general/ru/" class="course-card">
       <div class="cc-icon">📖</div>
       <div class="cc-title"><span data-translate-key="course_general">General Course</span></div>
+      <p style="margin-top: 0.5rem; color: #555;">Structured CEFR A1, A2, B1 roadmap for complete proficiency.</p>
     </a>
     <a href="../../apps/premium-courses/spoken/ru/" class="course-card">
       <div class="cc-icon">👤</div>
@@ -34,19 +37,23 @@
       <div class="cc-icon">📝</div>
       <div class="cc-title"><span data-translate-key="course_exam">Exam Preparation</span> <span class="badge">🔜</span></div>
     </a>
-    <a href="../../apps/premium-courses/travelling/ru/" class="course-card">
-      <div class="cc-icon">✈️</div>
-      <div class="cc-title"><span data-translate-key="course_travelling">Travelling Course</span> <span class="badge">🔜</span></div>
-    </a>
-    <a href="../../apps/premium-courses/professional/ru/" class="course-card">
-      <div class="cc-icon">💼</div>
-      <div class="cc-title"><span data-translate-key="course_professional">Professional Course</span> <span class="badge">🔜</span></div>
-    </a>
-    <a href="../../apps/premium-courses/relocation/ru/" class="course-card">
-      <div class="cc-icon">🏡</div>
-      <div class="cc-title"><span data-translate-key="course_relocation">Relocation Course</span> <span class="badge">🔜</span></div>
-    </a>
   </div>
+
+  <section class="roadmap-section">
+    <h2 style="font-size: 2rem; font-weight: 800; margin-bottom: 1.5rem;">Visual Course Progression Roadmap</h2>
+    <div style="margin-bottom: 1.5rem;">
+      <h3><span class="level-badge">A1</span> Beginner Mechanics</h3>
+      <p>Alphabet, phonology, present tenses, basic greetings, core 500-800 word vocabulary, and immediate transactional communication.</p>
+    </div>
+    <div style="margin-bottom: 1.5rem;">
+      <h3><span class="level-badge">A2</span> Elementary Expansion</h3>
+      <p>Past & future tenses, travel, shopping, work, health, routine exchanges, and 1200-1500 active vocabulary.</p>
+    </div>
+    <div>
+      <h3><span class="level-badge">B1</span> Intermediate Independence</h3>
+      <p>Subjunctive, conditionals, relative clauses, abstract discussions, debate management, and 2500+ active words.</p>
+    </div>
+  </section>
 </main>
 <script src="../../js/data/languages.js"></script>
 <script src="../../js/core/i18n.js"></script>

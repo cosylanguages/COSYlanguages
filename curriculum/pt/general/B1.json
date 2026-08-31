@@ -1,0 +1,373 @@
+{
+  "language": "pt",
+  "course_type": "general",
+  "level": "B1",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Opinião e Discussão",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Opinião e Discussão",
+          "duration_minutes": 60,
+          "grammar": [
+            "B1 Complex Structures"
+          ],
+          "vocabulary": [
+            "Core B1 Lexicon"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "B1 level deep dive for Opinião e Discussão"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Subjunctive & Relative Clauses",
+          "duration_minutes": 60,
+          "grammar": [
+            "Subjunctive / Moods",
+            "Relative Clauses"
+          ],
+          "vocabulary": [
+            "Abstract Vocabulary"
+          ],
+          "practice_types": [
+            "fill",
+            "writing"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on clause linking and hypotheticals."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Advanced Discussion & Argumentation",
+          "duration_minutes": 60,
+          "grammar": [
+            "Argumentation Connectors"
+          ],
+          "vocabulary": [
+            "Debate Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 80,
+          "teacher_notes": "Polite disagreement and floor management."
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Meios e Tecnologia",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Meios e Tecnologia",
+          "duration_minutes": 60,
+          "grammar": [
+            "B1 Complex Structures"
+          ],
+          "vocabulary": [
+            "Core B1 Lexicon"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "B1 level deep dive for Meios e Tecnologia"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Subjunctive & Relative Clauses",
+          "duration_minutes": 60,
+          "grammar": [
+            "Subjunctive / Moods",
+            "Relative Clauses"
+          ],
+          "vocabulary": [
+            "Abstract Vocabulary"
+          ],
+          "practice_types": [
+            "fill",
+            "writing"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on clause linking and hypotheticals."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Advanced Discussion & Argumentation",
+          "duration_minutes": 60,
+          "grammar": [
+            "Argumentation Connectors"
+          ],
+          "vocabulary": [
+            "Debate Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 80,
+          "teacher_notes": "Polite disagreement and floor management."
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Ambiente e Sociedade",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Ambiente e Sociedade",
+          "duration_minutes": 60,
+          "grammar": [
+            "B1 Complex Structures"
+          ],
+          "vocabulary": [
+            "Core B1 Lexicon"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "B1 level deep dive for Ambiente e Sociedade"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Subjunctive & Relative Clauses",
+          "duration_minutes": 60,
+          "grammar": [
+            "Subjunctive / Moods",
+            "Relative Clauses"
+          ],
+          "vocabulary": [
+            "Abstract Vocabulary"
+          ],
+          "practice_types": [
+            "fill",
+            "writing"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on clause linking and hypotheticals."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Advanced Discussion & Argumentation",
+          "duration_minutes": 60,
+          "grammar": [
+            "Argumentation Connectors"
+          ],
+          "vocabulary": [
+            "Debate Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 80,
+          "teacher_notes": "Polite disagreement and floor management."
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Cultura e Arte",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Cultura e Arte",
+          "duration_minutes": 60,
+          "grammar": [
+            "B1 Complex Structures"
+          ],
+          "vocabulary": [
+            "Core B1 Lexicon"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "B1 level deep dive for Cultura e Arte"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Subjunctive & Relative Clauses",
+          "duration_minutes": 60,
+          "grammar": [
+            "Subjunctive / Moods",
+            "Relative Clauses"
+          ],
+          "vocabulary": [
+            "Abstract Vocabulary"
+          ],
+          "practice_types": [
+            "fill",
+            "writing"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on clause linking and hypotheticals."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Advanced Discussion & Argumentation",
+          "duration_minutes": 60,
+          "grammar": [
+            "Argumentation Connectors"
+          ],
+          "vocabulary": [
+            "Debate Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 80,
+          "teacher_notes": "Polite disagreement and floor management."
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Carreira e Mundo do Trabalho",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Carreira e Mundo do Trabalho",
+          "duration_minutes": 60,
+          "grammar": [
+            "B1 Complex Structures"
+          ],
+          "vocabulary": [
+            "Core B1 Lexicon"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "B1 level deep dive for Carreira e Mundo do Trabalho"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Subjunctive & Relative Clauses",
+          "duration_minutes": 60,
+          "grammar": [
+            "Subjunctive / Moods",
+            "Relative Clauses"
+          ],
+          "vocabulary": [
+            "Abstract Vocabulary"
+          ],
+          "practice_types": [
+            "fill",
+            "writing"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on clause linking and hypotheticals."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Advanced Discussion & Argumentation",
+          "duration_minutes": 60,
+          "grammar": [
+            "Argumentation Connectors"
+          ],
+          "vocabulary": [
+            "Debate Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 80,
+          "teacher_notes": "Polite disagreement and floor management."
+        }
+      ]
+    },
+    {
+      "unit": 6,
+      "title": "Sentimentos e Relações",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Sentimentos e Relações",
+          "duration_minutes": 60,
+          "grammar": [
+            "B1 Complex Structures"
+          ],
+          "vocabulary": [
+            "Core B1 Lexicon"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "B1 level deep dive for Sentimentos e Relações"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Subjunctive & Relative Clauses",
+          "duration_minutes": 60,
+          "grammar": [
+            "Subjunctive / Moods",
+            "Relative Clauses"
+          ],
+          "vocabulary": [
+            "Abstract Vocabulary"
+          ],
+          "practice_types": [
+            "fill",
+            "writing"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on clause linking and hypotheticals."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Advanced Discussion & Argumentation",
+          "duration_minutes": 60,
+          "grammar": [
+            "Argumentation Connectors"
+          ],
+          "vocabulary": [
+            "Debate Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 80,
+          "teacher_notes": "Polite disagreement and floor management."
+        }
+      ]
+    }
+  ]
+}

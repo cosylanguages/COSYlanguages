@@ -10,15 +10,33 @@
         {
           "lesson": 1,
           "title": "Le subjonctif présent — Nécessité et volonté",
-          "grammar": ["Il faut que + subjonctif", "Je veux que + subjonctif"],
-          "vocabulary": ["Il est nécessaire", "Souhaiter", "Exiger", "Important", "Essentiel"],
+          "grammar": [
+            "Il faut que + subjonctif",
+            "Je veux que + subjonctif"
+          ],
+          "vocabulary": [
+            "Il est nécessaire",
+            "Souhaiter",
+            "Exiger",
+            "Important",
+            "Essentiel"
+          ],
           "teacher_notes": "code: \"FR-B1-001\"\npronunciation: [{\"point\":\"La nasalisation\",\"explain\":\"Distinguer clairement les voyelles nasales [ɑ̃], [ɔ̃], [ɛ̃].\",\"examples\":[{\"pattern\":\"un bon vin blanc\",\"ipa\":\"/œ̃ bɔ̃ vɛ̃ blɑ̃/\",\"word\":\"vin\"}],\"visual\":\"🎵\"}]\ncando: \"Peut exprimer la nécessité et des volontés nuancées\""
         },
         {
           "lesson": 2,
           "title": "L'expression de la cause et de la conséquence",
-          "grammar": ["Parce que vs Grâce à / À cause de", "Donc / C'est pourquoi"],
-          "vocabulary": ["Raison", "Impact", "Résultat", "Facteur", "Origine"],
+          "grammar": [
+            "Parce que vs Grâce à / À cause de",
+            "Donc / C'est pourquoi"
+          ],
+          "vocabulary": [
+            "Raison",
+            "Impact",
+            "Résultat",
+            "Facteur",
+            "Origine"
+          ],
           "teacher_notes": "code: \"FR-B1-002\"\ncando: \"Peut structurer un raisonnement logique simple\""
         }
       ]
@@ -30,18 +48,117 @@
         {
           "lesson": 1,
           "title": "Le subjonctif d'opinion et de doute",
-          "grammar": ["Je pense que + indicatif", "Je ne pense pas que + subjonctif", "Il me semble que"],
-          "vocabulary": ["À mon avis", "Il me semble que", "Tout à fait", "Pas du tout", "C'est discutable", "Ça dépend", "Je suis convaincu(e) que"],
+          "grammar": [
+            "Je pense que + indicatif",
+            "Je ne pense pas que + subjonctif",
+            "Il me semble que"
+          ],
+          "vocabulary": [
+            "À mon avis",
+            "Il me semble que",
+            "Tout à fait",
+            "Pas du tout",
+            "C'est discutable",
+            "Ça dépend",
+            "Je suis convaincu(e) que"
+          ],
           "teacher_notes": "code: \"FR-B1-003\"\ncando: \"Peut exprimer la certitude et le doute avec le subjonctif et l'indicatif\""
         },
         {
           "lesson": 2,
           "title": "Les connecteurs logiques de l'argumentation",
-          "grammar": ["D'abord / Ensuite / De plus", "En revanche / Certes, mais...", "En fin de compte"],
-          "vocabulary": ["Soutenir", "Réfuter", "Admettre", "Contester", "Nuancer"],
+          "grammar": [
+            "D'abord / Ensuite / De plus",
+            "En revanche / Certes, mais...",
+            "En fin de compte"
+          ],
+          "vocabulary": [
+            "Soutenir",
+            "Réfuter",
+            "Admettre",
+            "Contester",
+            "Nuancer"
+          ],
           "teacher_notes": "code: \"FR-B1-004\"\ncando: \"Peut structurer un monologue ou un débat fluide à l'aide de connecteurs de discours\""
         }
       ]
+    },
+    {
+      "title": "Unité 3 : Exprimer une opinion et débattre",
+      "lessons": [
+        {
+          "lesson": 1,
+          "title": "Le subjonctif présent pour l'opinion et le doute",
+          "grammar": [
+            "Formation du subjonctif",
+            "Je ne pense pas que..."
+          ],
+          "vocabulary": [
+            "Argumentation",
+            "Débat",
+            "Société"
+          ],
+          "teacher_notes": "code: \"FR-B1-003\"\ncando: \"Peut donner son avis dans un débat\""
+        }
+      ],
+      "unit": 3
+    },
+    {
+      "title": "Unité 4 : Médias et nouvelles technologies",
+      "lessons": [
+        {
+          "lesson": 1,
+          "title": "La presse et Internet",
+          "grammar": [
+            "Le discours rapporté au présent"
+          ],
+          "vocabulary": [
+            "Information",
+            "Réseaux sociaux",
+            "Presse"
+          ],
+          "teacher_notes": "code: \"FR-B1-004\"\ncando: \"Peut résumer un article de presse\""
+        }
+      ],
+      "unit": 4
+    },
+    {
+      "title": "Unité 5 : Environnement et écologie",
+      "lessons": [
+        {
+          "lesson": 1,
+          "title": "Proposer des solutions écologiques",
+          "grammar": [
+            "Le conditionnel présent pour les propositions"
+          ],
+          "vocabulary": [
+            "Climat",
+            "Recyclage",
+            "Énergie"
+          ],
+          "teacher_notes": "code: \"FR-B1-005\"\ncando: \"Peut proposer des initiatives vertes\""
+        }
+      ],
+      "unit": 5
+    },
+    {
+      "title": "Unité 6 : Culture et patrimoine",
+      "lessons": [
+        {
+          "lesson": 1,
+          "title": "Raconter une histoire ou un film",
+          "grammar": [
+            "Les pronoms démonstratifs et possessifs"
+          ],
+          "vocabulary": [
+            "Cinéma",
+            "Littérature",
+            "Art"
+          ],
+          "teacher_notes": "code: \"FR-B1-006\"\ncando: \"Peut faire la critique d'un livre ou d'un film\""
+        }
+      ],
+      "unit": 6
     }
   ]
 }

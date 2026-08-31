@@ -1,0 +1,373 @@
+{
+  "language": "hy",
+  "course_type": "general",
+  "level": "B1",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Կարծիք և Քննարկում",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Կարծիք և Քննարկում",
+          "duration_minutes": 60,
+          "grammar": [
+            "B1 Complex Structures"
+          ],
+          "vocabulary": [
+            "Core B1 Lexicon"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "B1 level deep dive for Կարծիք և Քննարկում"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Subjunctive & Relative Clauses",
+          "duration_minutes": 60,
+          "grammar": [
+            "Subjunctive / Moods",
+            "Relative Clauses"
+          ],
+          "vocabulary": [
+            "Abstract Vocabulary"
+          ],
+          "practice_types": [
+            "fill",
+            "writing"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on clause linking and hypotheticals."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Advanced Discussion & Argumentation",
+          "duration_minutes": 60,
+          "grammar": [
+            "Argumentation Connectors"
+          ],
+          "vocabulary": [
+            "Debate Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 80,
+          "teacher_notes": "Polite disagreement and floor management."
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Մեդիա և Տեխնոլոգիա",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Մեդիա և Տեխնոլոգիա",
+          "duration_minutes": 60,
+          "grammar": [
+            "B1 Complex Structures"
+          ],
+          "vocabulary": [
+            "Core B1 Lexicon"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "B1 level deep dive for Մեդիա և Տեխնոլոգիա"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Subjunctive & Relative Clauses",
+          "duration_minutes": 60,
+          "grammar": [
+            "Subjunctive / Moods",
+            "Relative Clauses"
+          ],
+          "vocabulary": [
+            "Abstract Vocabulary"
+          ],
+          "practice_types": [
+            "fill",
+            "writing"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on clause linking and hypotheticals."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Advanced Discussion & Argumentation",
+          "duration_minutes": 60,
+          "grammar": [
+            "Argumentation Connectors"
+          ],
+          "vocabulary": [
+            "Debate Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 80,
+          "teacher_notes": "Polite disagreement and floor management."
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Շրջակա միջավայր և Հասարակություն",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Շրջակա միջավայր և Հասարակություն",
+          "duration_minutes": 60,
+          "grammar": [
+            "B1 Complex Structures"
+          ],
+          "vocabulary": [
+            "Core B1 Lexicon"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "B1 level deep dive for Շրջակա միջավայր և Հասարակություն"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Subjunctive & Relative Clauses",
+          "duration_minutes": 60,
+          "grammar": [
+            "Subjunctive / Moods",
+            "Relative Clauses"
+          ],
+          "vocabulary": [
+            "Abstract Vocabulary"
+          ],
+          "practice_types": [
+            "fill",
+            "writing"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on clause linking and hypotheticals."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Advanced Discussion & Argumentation",
+          "duration_minutes": 60,
+          "grammar": [
+            "Argumentation Connectors"
+          ],
+          "vocabulary": [
+            "Debate Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 80,
+          "teacher_notes": "Polite disagreement and floor management."
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Մշակույթ և Արվեստ",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Մշակույթ և Արվեստ",
+          "duration_minutes": 60,
+          "grammar": [
+            "B1 Complex Structures"
+          ],
+          "vocabulary": [
+            "Core B1 Lexicon"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "B1 level deep dive for Մշակույթ և Արվեստ"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Subjunctive & Relative Clauses",
+          "duration_minutes": 60,
+          "grammar": [
+            "Subjunctive / Moods",
+            "Relative Clauses"
+          ],
+          "vocabulary": [
+            "Abstract Vocabulary"
+          ],
+          "practice_types": [
+            "fill",
+            "writing"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on clause linking and hypotheticals."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Advanced Discussion & Argumentation",
+          "duration_minutes": 60,
+          "grammar": [
+            "Argumentation Connectors"
+          ],
+          "vocabulary": [
+            "Debate Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 80,
+          "teacher_notes": "Polite disagreement and floor management."
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Կարիերա և Աշխատանքային աշխարհ",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Կարիերա և Աշխատանքային աշխարհ",
+          "duration_minutes": 60,
+          "grammar": [
+            "B1 Complex Structures"
+          ],
+          "vocabulary": [
+            "Core B1 Lexicon"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "B1 level deep dive for Կարիերա և Աշխատանքային աշխարհ"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Subjunctive & Relative Clauses",
+          "duration_minutes": 60,
+          "grammar": [
+            "Subjunctive / Moods",
+            "Relative Clauses"
+          ],
+          "vocabulary": [
+            "Abstract Vocabulary"
+          ],
+          "practice_types": [
+            "fill",
+            "writing"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on clause linking and hypotheticals."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Advanced Discussion & Argumentation",
+          "duration_minutes": 60,
+          "grammar": [
+            "Argumentation Connectors"
+          ],
+          "vocabulary": [
+            "Debate Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 80,
+          "teacher_notes": "Polite disagreement and floor management."
+        }
+      ]
+    },
+    {
+      "unit": 6,
+      "title": "Զգացմունքներ և Հարաբերություններ",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lesson 1: Զգացմունքներ և Հարաբերություններ",
+          "duration_minutes": 60,
+          "grammar": [
+            "B1 Complex Structures"
+          ],
+          "vocabulary": [
+            "Core B1 Lexicon"
+          ],
+          "practice_types": [
+            "mc",
+            "fill"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "B1 level deep dive for Զգացմունքներ և Հարաբերություններ"
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Lesson 2: Subjunctive & Relative Clauses",
+          "duration_minutes": 60,
+          "grammar": [
+            "Subjunctive / Moods",
+            "Relative Clauses"
+          ],
+          "vocabulary": [
+            "Abstract Vocabulary"
+          ],
+          "practice_types": [
+            "fill",
+            "writing"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "Focus on clause linking and hypotheticals."
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Lesson 3: Advanced Discussion & Argumentation",
+          "duration_minutes": 60,
+          "grammar": [
+            "Argumentation Connectors"
+          ],
+          "vocabulary": [
+            "Debate Phrases"
+          ],
+          "practice_types": [
+            "mc",
+            "speaking"
+          ],
+          "speaking_percent": 80,
+          "teacher_notes": "Polite disagreement and floor management."
+        }
+      ]
+    }
+  ]
+}
