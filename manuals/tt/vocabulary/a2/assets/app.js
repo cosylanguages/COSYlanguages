@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.quiz-panel').forEach(panel => {
     const data = JSON.parse(panel.dataset.quiz || '[]');
     const items = panel.querySelectorAll('.qitem');
+    const scoreLabel = panel.dataset.scoreLabel || 'Score:';
     let score = 0;
 
     items.forEach((item, idx) => {
@@ -23,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
             opts[correctIdx].style.background = '#dcfce7';
           }
           if (explain) explain.style.display = 'block';
-          panel.querySelector('.quiz-score').textContent = `Score: ${score} / ${data.length}`;
+          panel.querySelector('.quiz-score').textContent = `${scoreLabel} ${score} / ${data.length}`;
         });
       });
     });

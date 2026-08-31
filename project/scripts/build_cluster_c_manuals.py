@@ -15,7 +15,8 @@ LOCALIZED_LABELS = {
         "mistakes": "⚠️ Fazioù boutin", "mnemonic": "💡 Evit derc'hel soñj",
         "connects": "🔗 Danvezioù liammet", "congrats": "🎉 Gourc'hemennoù! Deuet eo ganeoc'h ar poent yezhadur A2-mañ.",
         "quiz": "Amprouadenn hag obererezh", "score": "Kont:", "wrong": "Mank:", "right": "Reizh:",
-        "word": "Ger / Frazenn", "pos": "Rann ar ger", "ex": "Skouer"
+        "word": "Ger / Frazenn", "pos": "Rann ar ger", "ex": "Skouer",
+        "back_master": "← Roll meur", "sub_g": "Levr yezhadur brezhonek e brezhoneg hepken.", "sub_v": "Levr geriaoueg brezhonek e brezhoneg hepken."
     },
     "tt": {
         "prev": "← Үткәне", "next": "Киләсе →",
@@ -24,7 +25,8 @@ LOCALIZED_LABELS = {
         "mistakes": "⚠️ Еш ясала торган хаталар", "mnemonic": "💡 Хәтердә калдыру өчен",
         "connects": "🔗 Бәйле темалар", "congrats": "🎉 Тәбриклибез! Сез А2 дәрәҗәсендәге бу теманы үзләштердегез.",
         "quiz": "Диагностика һәм тест", "score": "Нәтиҗә:", "wrong": "Хата:", "right": "Дөрес:",
-        "word": "Сүз / Гыйбарә", "pos": "Сүз төркеме", "ex": "Мисал"
+        "word": "Сүз / Гыйбарә", "pos": "Сүз төркеме", "ex": "Мисал",
+        "back_master": "← Гөп каталог", "sub_g": "Татар теле грамматикасы А2 уку кулланмасы.", "sub_v": "Татар теле лексикасы А2 уку кулланмасы."
     },
     "ba": {
         "prev": "← Алдағы", "next": "Киләһе →",
@@ -33,7 +35,8 @@ LOCALIZED_LABELS = {
         "mistakes": "⚠️ Йыш яһалған хаталар", "mnemonic": "💡 Хәтерҙә ҡалдырыу өсөн",
         "connects": "🔗 Бәйле темалар", "congrats": "🎉 Ҡотлайбыҙ! Һеҙ А2 кимәлендәге был теманы үҙләштерҙегеҙ.",
         "quiz": "Диагностика һәм тест", "score": "Һөҙөмтә:", "wrong": "Хата:", "right": "Дөрөҫ:",
-        "word": "Һүҙ / Ғибәрә", "pos": "Һүҙ төркөмө", "ex": "Мисал"
+        "word": "Һүҙ / Ғибәрә", "pos": "Һүҙ төркөмө", "ex": "Мисал",
+        "back_master": "← Төп каталог", "sub_g": "Башҡорт теле грамматикаһы А2 уҡыу ҡулланмаһы.", "sub_v": "Башҡорт теле лексикаһы А2 уҡыу ҡулланмаһы."
     },
     "cv": {
         "prev": "← Анри япала", "next": "Малалла →",
@@ -42,7 +45,8 @@ LOCALIZED_LABELS = {
         "mistakes": "⚠️ Час-час пулакан йăнăшсем", "mnemonic": "💡 Астаңара асармашкăн",
         "connects": "🔗 Çыхăннă темасем", "congrats": "🎉 Саламлатпăр! Эсир ку А2 шайри грамматика темине вĕренсе пĕтертерĕр.",
         "quiz": "Тĕрĕслев тата тест", "score": "Счет:", "wrong": "Йăнăш:", "right": "Тĕрĕс:",
-        "word": "Сăмах / Калаçу", "pos": "Сăмах пайĕ", "ex": "Тĕслĕх"
+        "word": "Сăмах / Калаçу", "pos": "Сăмах пайĕ", "ex": "Тĕслĕх",
+        "back_master": "← Тĕп каталог", "sub_g": "Чăваш грамматики А2 вĕренӳ кĕнеки.", "sub_v": "Чăваш лексики А2 вĕренӳ кĕнеки."
     },
     "ka": {
         "prev": "← წინა", "next": "შემდეგი →",
@@ -51,7 +55,8 @@ LOCALIZED_LABELS = {
         "mistakes": "⚠️ ხშირი შეცდომები", "mnemonic": "💡 დასამახსოვრებელი წესი",
         "connects": "🔗 დაკავშირებული თემები", "congrats": "🎉 გილოცავთ! თქვენ წარმატებით აითვისეთ A2 დონის ეს თემა.",
         "quiz": "ტესტი და სავარჯიშო", "score": "ქულა:", "wrong": "არასწორია:", "right": "სწორია:",
-        "word": "სიტყვა / ფრაზა", "pos": "მეტყველების ნაწილი", "ex": "მაგალითი"
+        "word": "სიტყვა / ფრაზა", "pos": "მეტყველების ნაწილი", "ex": "მაგალითი",
+        "back_master": "← მთავარი კატალოგი", "sub_g": "ქართული გრამატიკა A2 სახელმძღვანელო.", "sub_v": "ქართული ლექსიკა A2 სახელმძღვანელო."
     },
     "hy": {
         "prev": "← Նախորդը", "next": "Հաջորդը →",
@@ -60,7 +65,8 @@ LOCALIZED_LABELS = {
         "mistakes": "⚠️ Հաճախակի սխալներ", "mnemonic": "💡 Հիշելու համար",
         "connects": "🔗 Կապված թեմաներ", "congrats": "🎉 Շնորհավորում ենք: Դուք յուրացրեցիք A2 մակարդակի այս թեման:",
         "quiz": "Թեստ և ստուգում", "score": "Միավոր:", "wrong": "Սխալ:", "right": "Ճիշտ:",
-        "word": "Բառ / Արտահայտություն", "pos": "Խոսքի մաս", "ex": "Օրինակ"
+        "word": "Բառ / Արտահայտություն", "pos": "Խոսքի մաս", "ex": "Օրինակ",
+        "back_master": "← Գլխավոր ցանկ", "sub_g": "Հայոց լեզվի քերականություն A2 ձեռնարկ:", "sub_v": "Հայոց լեզվի բառապաշար A2 ձեռնարկ:"
     }
 }
 
@@ -72,45 +78,63 @@ CLUSTER_C_DATA = {
         "title_v": "Levr Geriaoueg Brezhoneg (A2)",
         "hub_link": "../../brezhoneg-a2.html",
         "hub_label": "Hub Brezhoneg A2",
+        "g_parts": [
+            {
+                "id": "part-1",
+                "file": "part-1.html",
+                "title": "Lodenn 1 · Kemmadurioù ha Verboù",
+                "subtitle": "Kemmadurioù kemmesket ha framm an amzer-dremen gevrennek",
+                "topics": ["kemmaduriou-kemmesket", "amzer-dremen-gevrennek"]
+            }
+        ],
+        "v_parts": [
+            {
+                "id": "module-1",
+                "file": "module-1.html",
+                "title": "Rann 1 · Labour ha Beajoù",
+                "subtitle": "Micherioù, savadurioù ha karbedoù pemdeziek",
+                "topics": ["micherioù-ha-labour", "beajoù-ha-treuzdougen"]
+            }
+        ],
         "g": [
             {
                 "slug": "kemmaduriou-kemmesket",
-                "part_title": "Loden 1 · Yezhadur A2",
+                "part_title": "Lodenn 1 · Yezhadur A2",
                 "title": "Kemmadurioù kemmesket",
                 "subtitle": "Kemmadur dre gejañ goude ar rannigoù-verb «o», «e», «ez»",
                 "cando": "Gallout a reot implijout ar c'hemmadurioù kemmesket hep fazi e-barzh frazennoù an amzer-vremañ hag an amzer-dremen.",
                 "one_liner": "Ar c'hemmadur kemmesket a gemma b, d, g e p, t, k goude rannigoù zo hag a dreuzfurm m e v.",
-                "why_matters": "Un elfenn hep he par eo ar c'hemmadurioù e brezhoneg evit krouiñ un frazenn flour ha reizh e-ser komz.",
+                "why_matters": "Un elfenn hep he par eo ar c'hemmadurioù e brezhoneg evit krouiñ ur frazenn flour ha reizh e-ser komz.",
                 "visual_diagram": """<table class="grammar-table">
                   <thead><tr><th>Kensonenn</th><th>Kemmadur kemmesket</th><th>Skouer</th></tr></thead>
                   <tbody>
-                    <tr><td><strong>B -> P</strong></td><td>e + bara</td><td>e <strong>para</strong> (il pain)</td></tr>
-                    <tr><td><strong>D -> T</strong></td><td>e + den</td><td>e <strong>tenn</strong> (son homme)</td></tr>
-                    <tr><td><strong>G -> K</strong></td><td>o + gortoz</td><td>o <strong>kortoz</strong> (en attendant)</td></tr>
+                    <tr><td><strong>B -> P</strong></td><td>e + bara</td><td>e para</td></tr>
+                    <tr><td><strong>D -> T</strong></td><td>e + den</td><td>e tenn</td></tr>
+                    <tr><td><strong>G -> K</strong></td><td>o + gortoz</td><td>o kortoz</td></tr>
                   </tbody>
                 </table>""",
                 "example_code": "Emañ Yann o <strong>kinnig</strong> ur banne kafe d'e amezeg.",
-                "notice": "Ar rannig-verb «o» a zegas ar c'hemmadur kemmesket dirak Pep verb e-barzh ar stumm amzer-vremañ badus.",
+                "notice": "Ar rannig-verb «o» a zegas ar c'hemmadur kemmesket dirak pep verb e-barzh ar stumm amzer-vremañ badus.",
                 "think_native": "Mendoni gant ar son kaledet: ar kensonennoù gwan a zeu da vezañ kreñv goude ar rannigoù.",
                 "signature_box": "Rannig-verb (o / e) + Kensonenn galetaet (B->P, D->T, G->K).",
                 "mistakes": [{"wrong": "Emañ o gober e labour.", "right": "Emañ o kober e labour.", "note": "G a zeu da vezañ K goude «o»."}],
                 "mnemonic": "Goude «o», B, D, G a zeu da P, T, K!",
                 "quiz": [{"q": "Peseurt stumm a zo reizh: «Emañ o ___» (dibriñ)?", "opts": ["dibriñ", "tibriñ"], "correct": 1, "explain": "D a zeu da T goude ar rannig «o»."}],
-                "connects": ["amzer-dremen-kevrennek"]
+                "connects": ["amzer-dremen-gevrennek"]
             },
             {
                 "slug": "amzer-dremen-gevrennek",
-                "part_title": "Loden 1 · Yezhadur A2",
+                "part_title": "Lodenn 1 · Yezhadur A2",
                 "title": "An amzer-dremen gevrennek",
                 "subtitle": "Amzer-dremen kaset da benn gant «kaout» ha «bezañ»",
                 "cando": "Gallout a reot kontañ darvoudoù kaset da benn en amzer-dremen.",
                 "one_liner": "An amzer-dremen gevrennek a vez krouet gant an verb-skoazell (kaout pe bezañ) hag an anv-verb-gwel.",
-                "why_matters": "Essential eo evit kontañ Istorioù, kounioù pe traoù c'hoarvezet er vuhez pemdeziek.",
+                "why_matters": "Essential eo evit kontañ istoroiù, kounioù pe traoù c'hoarvezet er vuhez pemdeziek.",
                 "visual_diagram": """<table class="grammar-table">
                   <thead><tr><th>Verb-skoazell</th><th>Implij</th><th>Skouer</th></tr></thead>
                   <tbody>
-                    <tr><td><strong>Kaout</strong></td><td>Aksyon oberiant (an darn vrasañ)</td><td>M'eus <strong>lennet</strong> al levr-mañ.</td></tr>
-                    <tr><td><strong>Bezañ</strong></td><td>Verboù fiñval pe emgemmañ</td><td>Aet on <strong>da Roazhon</strong>.</td></tr>
+                    <tr><td><strong>Kaout</strong></td><td>Aksyon oberiant (an darn vrasañ)</td><td>M'eus lennet al levr-mañ.</td></tr>
+                    <tr><td><strong>Bezañ</strong></td><td>Verboù fiñval pe emgemmañ</td><td>Aet on da Roazhon.</td></tr>
                   </tbody>
                 </table>""",
                 "example_code": "D'ar sadorn paseet em eus <strong>prenet</strong> dilhad nevez er c'habined.",
@@ -125,7 +149,7 @@ CLUSTER_C_DATA = {
         "v": [
             {
                 "slug": "micherioù-ha-labour",
-                "part_title": "Lodenn 1 · Geriaoueg A2",
+                "part_title": "Rann 1 · Geriaoueg A2",
                 "title": "Ar micherioù hag al labour",
                 "subtitle": "Gerioù evit komz eus al labour, ar micherioù hag ar birvilh pemdeziek",
                 "words": [
@@ -136,7 +160,7 @@ CLUSTER_C_DATA = {
             },
             {
                 "slug": "beajoù-ha-treuzdougen",
-                "part_title": "Lodenn 1 · Geriaoueg A2",
+                "part_title": "Rann 1 · Geriaoueg A2",
                 "title": "Ar beajoù hag an treuzdougen",
                 "subtitle": "Geograilhoù treuzdougen, kirri-tan ha reoterien",
                 "words": [
@@ -154,6 +178,24 @@ CLUSTER_C_DATA = {
         "title_v": "Татар теле лексикасы (A2)",
         "hub_link": "../../tatar-a2.html",
         "hub_label": "Hub Татар A2",
+        "g_parts": [
+            {
+                "id": "part-1",
+                "file": "part-1.html",
+                "title": "1 нче бөлөк · Грамматика A2",
+                "subtitle": "Тартым кушымчалары чылбыры һәм хәл фигыльләр",
+                "topics": ["tartym-kushymchalary-chylbyry", "xal-figyllar-xem-kileshler"]
+            }
+        ],
+        "v_parts": [
+            {
+                "id": "module-1",
+                "file": "module-1.html",
+                "title": "1 нче модуль · Лексика A2",
+                "subtitle": "Хезмәт, һөнәрләр, сәяхәт һәм транспорт",
+                "topics": ["xezmet-xem-honomnar", "sxyaxat-xem-transport"]
+            }
+        ],
         "g": [
             {
                 "slug": "tartym-kushymchalary-chylbyry",
@@ -166,8 +208,8 @@ CLUSTER_C_DATA = {
                 "visual_diagram": """<table class="grammar-table">
                   <thead><tr><th>Низгез исем</th><th>Тартым (-ым/-ем)</th><th>Килеш (-тә/-тә)</th><th>Нәтиҗә</th></tr></thead>
                   <tbody>
-                    <tr><td>китап</td><td>китаб-ым</td><td>китабым-да</td><td>китабымда (в моей книге)</td></tr>
-                    <tr><td>өй</td><td>өе-без</td><td>өебез-гә</td><td>өебезгә (в наш дом)</td></tr>
+                    <tr><td>китап</td><td>китаб-ым</td><td>китабым-да</td><td>китабымда</td></tr>
+                    <tr><td>өй</td><td>өе-без</td><td>өебез-гә</td><td>өебезгә</td></tr>
                   </tbody>
                 </table>""",
                 "example_code": "Минем <strong>дустымның</strong> өендә яңа компьютер бар.",
@@ -176,7 +218,7 @@ CLUSTER_C_DATA = {
                 "signature_box": "Формула: Исем + Тартым кушымчасы + Килеш кушымчасы.",
                 "mistakes": [{"wrong": "Китаптаым бар.", "right": "Китабымда бар.", "note": "Тартым кушымчасы килештән алда килергә тиеш."}],
                 "mnemonic": "Башта иясе (тартым), аннары урыны (килеш)!",
-                "quiz": [{"q": "Дөрес вариантны сайлагыз: «Минем мектек___» (в моей школе)", "opts": ["мәктәбемдә", "мәктәптәем"], "correct": 0, "explain": "Башта -ем (тартым), аннары -дә (урын-вакыт килеше)."}]
+                "quiz": [{"q": "Дөрес вариантны сайлагыз: «Минем мектек___»", "opts": ["мәктәбемдә", "мәктәптәем"], "correct": 0, "explain": "Башта -ем (тартым), аннары -дә (урын-вакыт килеше)."}]
             },
             {
                 "slug": "xal-figyllar-xem-kileshler",
@@ -189,8 +231,8 @@ CLUSTER_C_DATA = {
                 "visual_diagram": """<table class="grammar-table">
                   <thead><tr><th>Күренеш</th><th>Суффикс</th><th>Мисал</th></tr></thead>
                   <tbody>
-                    <tr><td>Соңыннан эшләнгән</td><td>-п / -ып / -еп</td><td>Ашшап (ашап) <strong>читкә китте</strong>.</td></tr>
-                    <tr><td>Вакытлы бәйләнеш</td><td>-гач / -гәч</td><td>Укыгач <strong>куйды</strong>.</td></tr>
+                    <tr><td>Соңыннан эшләнгән</td><td>-п / -ып / -еп</td><td>Ашап читкә китте.</td></tr>
+                    <tr><td>Вакытлы бәйләнеш</td><td>-гач / -гәч</td><td>Укыгач куйды.</td></tr>
                   </tbody>
                 </table>""",
                 "example_code": "Ул эшкә <strong>барып</strong> кайтты.",
@@ -234,6 +276,24 @@ CLUSTER_C_DATA = {
         "title_v": "Башҡорт теле лексикаһы (A2)",
         "hub_link": "../../bashqort-a2.html",
         "hub_label": "Hub Башҡорт A2",
+        "g_parts": [
+            {
+                "id": "part-1",
+                "file": "part-1.html",
+                "title": "1-се бүлек · Грамматика A2",
+                "subtitle": "Хәл фиғылдар һәм үткән замандар",
+                "topics": ["fagyl-formalary-hem-qushymchalar", "utken-zamandar"]
+            }
+        ],
+        "v_parts": [
+            {
+                "id": "module-1",
+                "file": "module-1.html",
+                "title": "1-се модуль · Лексика A2",
+                "subtitle": "Ғаилә, хеҙмәт, сәйәхәт һәм транспорт",
+                "topics": ["gailat-hem-xezmet", "saxat-hem-transport"]
+            }
+        ],
         "g": [
             {
                 "slug": "fagyl-formalary-hem-qushymchalar",
@@ -246,8 +306,8 @@ CLUSTER_C_DATA = {
                 "visual_diagram": """<table class="grammar-table">
                   <thead><tr><th>Нигеҙ</th><th>Кушымша</th><th>Мисал</th></tr></thead>
                   <tbody>
-                    <tr><td>уҡы-</td><td>-п</td><td>уҡып (прочитав)</td></tr>
-                    <tr><td>яҙ-</td><td>-ып</td><td>яҙып (написав)</td></tr>
+                    <tr><td>уҡы-</td><td>-п</td><td>уҡып</td></tr>
+                    <tr><td>яҙ-</td><td>-ып</td><td>яҙып</td></tr>
                   </tbody>
                 </table>""",
                 "example_code": "Ул эште <strong>бөтөрөп</strong> өйгә ҡайтты.",
@@ -314,6 +374,24 @@ CLUSTER_C_DATA = {
         "title_v": "Чăваш лексики (A2)",
         "hub_link": "../../chavash-a2.html",
         "hub_label": "Hub Чăваш A2",
+        "g_parts": [
+            {
+                "id": "part-1",
+                "file": "part-1.html",
+                "title": "1-мĕш пай · Грамматика A2",
+                "subtitle": "Парăнну аффикссен вăчăрĕ тата иртнĕ вăхăт формысем",
+                "topics": ["pashor-affixsen-vachary", "Iskil-viesleny"]
+            }
+        ],
+        "v_parts": [
+            {
+                "id": "module-1",
+                "file": "module-1.html",
+                "title": "1-мĕш модуль · Лексики A2",
+                "subtitle": "Ĕç, профессисем, çул-ҫүрĕ тата транспорт",
+                "topics": ["ichet-tata-yratu", "cyul-cyusen"]
+            }
+        ],
         "g": [
             {
                 "slug": "pashor-affixsen-vachary",
@@ -326,7 +404,7 @@ CLUSTER_C_DATA = {
                 "visual_diagram": """<table class="grammar-table">
                   <thead><tr><th>Тĕп сăмах</th><th>Парăнну</th><th>Падеж</th><th>Форма</th></tr></thead>
                   <tbody>
-                    <tr><td>кĕнеке</td><td>-м (эпĕ)</td><td>-ра (урын)</td><td>кĕнекемре (в моей книге)</td></tr>
+                    <tr><td>кĕнеке</td><td>-м (эпĕ)</td><td>-ра (урын)</td><td>кĕнекемре</td></tr>
                   </tbody>
                 </table>""",
                 "example_code": "Мĕнле пурăнатăр манăн <strong>унта ялăмра</strong>?",
@@ -335,7 +413,7 @@ CLUSTER_C_DATA = {
                 "signature_box": "Сăмах + Парăнну аффиксĕ + Падеж аффиксĕ.",
                 "mistakes": [{"wrong": "Кĕнекерарайм.", "right": "Кĕнекемре.", "note": "Парăнну аффиксĕ падежран маларах пулать."}],
                 "mnemonic": "Аффикссене тәртиппе ларт!",
-                "quiz": [{"q": "Тĕрĕс форма: «Манăн кил___» (в моем доме)", "opts": ["килемре", "килрем"], "correct": 0, "explain": "Башта -ем, унтан -ре."}]
+                "quiz": [{"q": "Тĕрĕс форма: «Манăн кил___»", "opts": ["килемре", "килрем"], "correct": 0, "explain": "Башта -ем, унтан -ре."}]
             },
             {
                 "slug": "Iskil-viesleny",
@@ -348,7 +426,7 @@ CLUSTER_C_DATA = {
                 "visual_diagram": """<table class="grammar-table">
                   <thead><tr><th>Форма</th><th>Аффикс</th><th>Тĕслĕх</th></tr></thead>
                   <tbody>
-                    <tr><td>Уçă иртнĕ вăхăт</td><td>-рĕ / -рĕ</td><td>Вăл <strong>вуласа пĕтерчĕ</strong>.</td></tr>
+                    <tr><td>Уçă иртнĕ вăхăт</td><td>-рĕ / -рĕ</td><td>Вăл вулăса пĕтерчĕ.</td></tr>
                   </tbody>
                 </table>""",
                 "example_code": "Эпĕ ĕçе <strong>туса пĕтеррĕм</strong>.",
@@ -392,6 +470,24 @@ CLUSTER_C_DATA = {
         "title_v": "ქართული ლექსიკა (A2)",
         "hub_link": "../../qartuli-a2.html",
         "hub_label": "Hub ქართული A2",
+        "g_parts": [
+            {
+                "id": "part-1",
+                "file": "part-1.html",
+                "title": "ნაწილი 1 · გრამატიკა A2",
+                "subtitle": "ზმნის მწკრივები, ბრუნვები და თანდებულები",
+                "topics": ["zmnebi-mravalricxovani-mcvrivze", "brunvebi-da-tandebulebi"]
+            }
+        ],
+        "v_parts": [
+            {
+                "id": "module-1",
+                "file": "module-1.html",
+                "title": "მოდული 1 · ლექსიკა A2",
+                "subtitle": "სამსახური, პროფესიები, მოგზაურობა და ტრანსპორტი",
+                "topics": ["samsaxuri-da-prowesiebi", "mogzauroba-da-transporti"]
+            }
+        ],
         "g": [
             {
                 "slug": "zmnebi-mravalricxovani-mcvrivze",
@@ -404,8 +500,8 @@ CLUSTER_C_DATA = {
                 "visual_diagram": """<table class="grammar-table">
                   <thead><tr><th>მწკრივი</th><th>მნიშვნელობა</th><th>მაგალითი</th></tr></thead>
                   <tbody>
-                    <tr><td><strong>წყვეტილი</strong></td><td>დასრულებული შედეგი</td><td>გუშინ წიგნი <strong>წავიკითხე</strong>.</td></tr>
-                    <tr><td><strong>უწყვეტელი</strong></td><td>ხანგრძლივი პროცესი</td><td>მთელი საღამო წიგნს <strong>ვკითხულობდი</strong>.</td></tr>
+                    <tr><td><strong>წყვეტილი</strong></td><td>დასრულებული შედეგი</td><td>გუშინ წიგნი წავიკითხე.</td></tr>
+                    <tr><td><strong>უწყვეტელი</strong></td><td>ხანგრძლივი პროცესი</td><td>მთელი საღამო წიგნს ვკითხულობდი.</td></tr>
                   </tbody>
                 </table>""",
                 "example_code": "მან წერილი <strong>დაწერა</strong> და გააგზავნა.",
@@ -414,7 +510,7 @@ CLUSTER_C_DATA = {
                 "signature_box": "ზმნისწინი + ზმნა = დასრულებული მოქმედება (წყვეტილი).",
                 "mistakes": [{"wrong": "გუშინ ვწერდი წერილს და გავაგზავნე.", "right": "გუშინ დავწერე წერილი და გავაგზავნე.", "note": "ორივე მოქმედება დასრულებულია."}],
                 "mnemonic": "ზმნისწინი აძლევს დასრულებულ სახეს!",
-                "quiz": [{"q": "სწორი ფორმა: «მან დავალება ___» (დაწერა/წერდა - დასრულდა).", "opts": ["დაწერა", "წერდა"], "correct": 0, "explain": "დასრულებული მოქმედება მოითხოვს წყვეტილს (დაწერა)."}]
+                "quiz": [{"q": "სწორი ფორმა: «მან დავალება ___»", "opts": ["დაწერა", "წერდა"], "correct": 0, "explain": "დასრულებული მოქმედება მოითხოვს წყვეტილს (დაწერა)."}]
             },
             {
                 "slug": "brunvebi-da-tandebulebi",
@@ -427,8 +523,8 @@ CLUSTER_C_DATA = {
                 "visual_diagram": """<table class="grammar-table">
                   <thead><tr><th>თანდებული</th><th>ბრუნვა</th><th>მაგალითი</th></tr></thead>
                   <tbody>
-                    <tr><td><strong>-ში</strong> (შიგნით)</td><td>მიცემითი</td><td>ქალაქ<strong>ში</strong> ვარ.</td></tr>
-                    <tr><td><strong>-ზე</strong> (ზედაპირზე)</td><td>მიცემითი</td><td>მაგიდა<strong>ზე</strong> დევს.</td></tr>
+                    <tr><td><strong>-ში</strong></td><td>მიცემითი</td><td>ქალაქში ვარ.</td></tr>
+                    <tr><td><strong>-ზე</strong></td><td>მიცემითი</td><td>მაგიდაზე დევს.</td></tr>
                   </tbody>
                 </table>""",
                 "example_code": "ჩვენ მივდივართ <strong>თბილისში</strong>.",
@@ -437,7 +533,7 @@ CLUSTER_C_DATA = {
                 "signature_box": "არსებითი სახელი + თანდებული (-ში / -ზე / -თან).",
                 "mistakes": [{"wrong": "ვარ ში სახლი.", "right": "ვარ სახლში.", "note": "თანდებული სიტყვის ბოლოში იწერება."}],
                 "mnemonic": "-ში = შიგნით, -ზე = ზემოდან!",
-                "quiz": [{"q": "ჩასვით სწორი ფორმა: «წიგნი დევს ___» (მაგიდა).", "opts": ["მაგიდაზე", "მაგიდაში"], "correct": 0, "explain": "ზედაპირზე დებას გამოხატავს -ზე."}]
+                "quiz": [{"q": "ჩასვით სწორი ფორმა: «წიგნი დევს ___»", "opts": ["მაგიდაზე", "მაგიდაში"], "correct": 0, "explain": "ზედაპირზე დებას გამოხატავს -ზე."}]
             }
         ],
         "v": [
@@ -472,6 +568,24 @@ CLUSTER_C_DATA = {
         "title_v": "Հայոց լեզվի բառապաշար (A2)",
         "hub_link": "../../hayots-a2.html",
         "hub_label": "Hub Հայերեն A2",
+        "g_parts": [
+            {
+                "id": "part-1",
+                "file": "part-1.html",
+                "title": "Մաս 1 · Քերականություն A2",
+                "subtitle": "Անցյալ կատարյալ, անցյալ անկատար և հոլովման համակարգ",
+                "topics": ["ancyal-katarhyal-yev-ancyal-anhatar", "holovman-hamakarg"]
+            }
+        ],
+        "v_parts": [
+            {
+                "id": "module-1",
+                "file": "module-1.html",
+                "title": "Մոդուլ 1 · Բառապաշար A2",
+                "subtitle": "Աշխատանք, մասնագիտություններ, ճամփորդություն և տրանսպորտ",
+                "topics": ["ashkhatank-yev-masnagidutyunner", "chambordutyun-yev-transport"]
+            }
+        ],
         "g": [
             {
                 "slug": "ancyal-katarhyal-yev-ancyal-anhatar",
@@ -484,8 +598,8 @@ CLUSTER_C_DATA = {
                 "visual_diagram": """<table class="grammar-table">
                   <thead><tr><th>Ժամանակաձև</th><th>Իմաստ</th><th>Օրինակ</th></tr></thead>
                   <tbody>
-                    <tr><td><strong>Անցյալ կատարյալ</strong></td><td>Ավարտված գործողություն</td><td>Ես <strong>գրեցի</strong> նամակը:</td></tr>
-                    <tr><td><strong>Անցյալ անկատար</strong></td><td>Ընթացք / Սովորույթ</td><td>Ամեն օր ես <strong>գրում էի</strong>:</td></tr>
+                    <tr><td><strong>Անցյալ կատարյալ</strong></td><td>Ավարտված գործողություն</td><td>Ես գրեցի նամակը:</td></tr>
+                    <tr><td><strong>Անցյալ անկատար</strong></td><td>Ընթացք / Սովորույթ</td><td>Ամեն օր ես գրում էի:</td></tr>
                   </tbody>
                 </table>""",
                 "example_code": "Երեկ մենք <strong>գնացինք</strong> թանգարան:",
@@ -494,7 +608,7 @@ CLUSTER_C_DATA = {
                 "signature_box": "Բայի հիմք + -եցի (-ացի) = Անցյալ կատարյալ:",
                 "mistakes": [{"wrong": "Երեկ ես գրում էի նամակը և ուղարկեցի:", "right": "Երեկ ես գրեցի նամակը և ուղարկեցի:", "note": "Երկու գործողություններն էլ ավարտված են:"}],
                 "mnemonic": "Ավարտվե՞ց՝ ուրեմն կատարյալ է!",
-                "quiz": [{"q": "Ընտրեք ճիշտ ձևը. «Երեկ նա ___ (գնալ) տուն»:", "opts": ["գնաց", "գնում էր"], "correct": 0, "explain": "Ավարտված գործողության համար օգտագործվում է անցյալ կատարյալը (գնաց):"}]
+                "quiz": [{"q": "Ընտրեք ճիշտ ձևը. «Երեկ նա ___ տուն»:", "opts": ["գնաց", "գնում էր"], "correct": 0, "explain": "Ավարտված գործողության համար օգտագործվում է անցյալ կատարյալը (գնաց):"}]
             },
             {
                 "slug": "holovman-hamakarg",
@@ -507,9 +621,9 @@ CLUSTER_C_DATA = {
                 "visual_diagram": """<table class="grammar-table">
                   <thead><tr><th>Հոլով</th><th>Վերջավորություն</th><th>Օրինակ</th></tr></thead>
                   <tbody>
-                    <tr><td><strong>Տրական</strong></td><td>-ին / -ի</td><td>քաղաք<strong>ին</strong></td></tr>
-                    <tr><td><strong>Բացառական</strong></td><td>-ից</td><td>քաղաք<strong>ից</strong></td></tr>
-                    <tr><td><strong>Գործիական</strong></td><td>-ով</td><td>քաղաք<strong>ով</strong></td></tr>
+                    <tr><td><strong>Տրական</strong></td><td>-ին / -ի</td><td>քաղաքին</td></tr>
+                    <tr><td><strong>Բացառական</strong></td><td>-ից</td><td>քաղաքից</td></tr>
+                    <tr><td><strong>Գործիական</strong></td><td>-ով</td><td>քաղաքով</td></tr>
                   </tbody>
                 </table>""",
                 "example_code": "Մենք ապրում ենք այս <strong>քաղաքում</strong>:",
@@ -518,7 +632,7 @@ CLUSTER_C_DATA = {
                 "signature_box": "Բառ + Հոլովական վերջավորություն (-ում, -ից, -ով):",
                 "mistakes": [{"wrong": "Գնում եմ քաղաքում:", "right": "Գնում եմ քաղաք:", "note": "Ուղղության համար ներգոյական հոլով չի օգտագործվում:"}],
                 "mnemonic": "-ում = ներսում, -ից = դուրս!",
-                "quiz": [{"q": "«Նա դուրս եկավ ___» (տուն):", "opts": ["տանից", "տանը"], "correct": 0, "explain": "Շարժումը ներսից դուրս ցույց է տալիս բացառական հոլովը (-ից):"}]
+                "quiz": [{"q": "«Նա դուրս եկավ ___»", "opts": ["տանից", "տանը"], "correct": 0, "explain": "Շարժումը ներսից դուրս ցույց է տալիս բացառական հոլովը (-ից):"}]
             }
         ],
         "v": [
@@ -721,6 +835,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.quiz-panel').forEach(panel => {
     const data = JSON.parse(panel.dataset.quiz || '[]');
     const items = panel.querySelectorAll('.qitem');
+    const scoreLabel = panel.dataset.scoreLabel || 'Score:';
     let score = 0;
 
     items.forEach((item, idx) => {
@@ -741,7 +856,7 @@ document.addEventListener('DOMContentLoaded', () => {
             opts[correctIdx].style.background = '#dcfce7';
           }
           if (explain) explain.style.display = 'block';
-          panel.querySelector('.quiz-score').textContent = `Score: ${score} / ${data.length}`;
+          panel.querySelector('.quiz-score').textContent = `${scoreLabel} ${score} / ${data.length}`;
         });
       });
     });
@@ -762,35 +877,14 @@ def build_language_manuals(code, lang_info):
     with open(f"{base_g}/assets/app.js", "w", encoding="utf-8") as f: f.write(APP_JS)
     with open(f"{base_v}/assets/app.js", "w", encoding="utf-8") as f: f.write(APP_JS)
 
-    # 1. GRAMMAR MANUAL
-    g_topic_cards = []
+    lbl = LOCALIZED_LABELS[code]
+
+    # 1. GRAMMAR TOPICS
     g_topic_keys = [t["slug"] for t in lang_info["g"]]
+    g_topics_map = {t["slug"]: t for t in lang_info["g"]}
 
     for idx, top in enumerate(lang_info["g"]):
         slug = top["slug"]
-        prev_link = f'<a href="{g_topic_keys[idx-1]}.html">← Previous</a>' if idx > 0 else '<span></span>'
-        next_link = f'<a href="{g_topic_keys[idx+1]}.html">Next →</a>' if idx < len(g_topic_keys)-1 else '<span></span>'
-        pager_html = f'<div class="pager">{prev_link}{next_link}</div>'
-
-        mistakes_html = ""
-        if top.get("mistakes"):
-            m_items = "".join([f'<li><strong style="color:var(--mistake-ink)">Wrong:</strong> {m["wrong"]}<br><strong style="color:var(--mint-ink)">Right:</strong> {m["right"]}<br><small>{m["note"]}</small></li>' for m in top["mistakes"]])
-            mistakes_html = f'<div class="box mistake"><h3>⚠️ Common Mistakes</h3><ul>{m_items}</ul></div>'
-
-        q_items = []
-        q_data = []
-        for q in top.get("quiz", []):
-            q_data.append({"correct": q["correct"]})
-            opts = "".join([f'<button class="qopt">{o}</button>' for o in q["opts"]])
-            q_items.append(f'<div class="qitem"><div class="qtext">{q["q"]}</div><div class="qopts">{opts}</div><div class="qexplain">{q["explain"]}</div></div>')
-
-        quiz_json = json.dumps(q_data, ensure_ascii=False)
-        quiz_html = f'<div class="quiz-panel" data-quiz=\'{quiz_json}\'><div class="quiz-head"><h2>Diagnostic & Quiz</h2><span class="quiz-score">Score: 0 / {len(q_data)}</span></div>{"".join(q_items)}</div>' if q_data else ''
-
-        connects_lis = "".join([f'<li><a href="{c}.html">{c}</a></li>' for c in top.get("connects", [])])
-        connects_html = f'<div class="box"><h3>🔗 Connected Topics</h3><ul>{connects_lis}</ul></div>' if connects_lis else ''
-
-        lbl = LOCALIZED_LABELS[code]
         prev_link = f'<a href="{g_topic_keys[idx-1]}.html">{lbl["prev"]}</a>' if idx > 0 else '<span></span>'
         next_link = f'<a href="{g_topic_keys[idx+1]}.html">{lbl["next"]}</a>' if idx < len(g_topic_keys)-1 else '<span></span>'
         pager_html = f'<div class="pager">{prev_link}{next_link}</div>'
@@ -800,12 +894,25 @@ def build_language_manuals(code, lang_info):
             m_items = "".join([f'<li><strong style="color:var(--mistake-ink)">{lbl["wrong"]}</strong> {m["wrong"]}<br><strong style="color:var(--mint-ink)">{lbl["right"]}</strong> {m["right"]}<br><small>{m["note"]}</small></li>' for m in top["mistakes"]])
             mistakes_html = f'<div class="box mistake"><h3>{lbl["mistakes"]}</h3><ul>{m_items}</ul></div>'
 
+        q_items = []
+        q_data = []
+        for q in top.get("quiz", []):
+            q_data.append({"correct": q["correct"]})
+            opts = "".join([f'<button class="qopt">{o}</button>' for o in q["opts"]])
+            q_items.append(f'<div class="qitem"><div class="qtext">{q["q"]}</div><div class="qopts">{opts}</div><div class="qexplain">{q["explain"]}</div></div>')
+
+        quiz_json = json.dumps(q_data, ensure_ascii=False)
+        quiz_html = f'<div class="quiz-panel" data-quiz=\'{quiz_json}\' data-score-label="{lbl["score"]}"><div class="quiz-head"><h2>{lbl["quiz"]}</h2><span class="quiz-score">{lbl["score"]} 0 / {len(q_data)}</span></div>{"".join(q_items)}</div>' if q_data else ''
+
+        connects_lis = "".join([f'<li><a href="{c}.html">{g_topics_map[c]["title"]}</a></li>' for c in top.get("connects", []) if c in g_topics_map])
+        connects_html = f'<div class="box"><h3>{lbl["connects"]}</h3><ul>{connects_lis}</ul></div>' if connects_lis else ''
+
         page_html = f'''<!doctype html>
 <html lang="{code}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{top["title"]} · {lang_info["name"]} A2 Grammar</title>
+<title>{top["title"]} · {lang_info["name"]}</title>
 <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
@@ -846,7 +953,46 @@ def build_language_manuals(code, lang_info):
         with open(f"{base_g}/topics/{slug}.html", "w", encoding="utf-8") as f:
             f.write(page_html)
 
-        g_topic_cards.append(f'<a class="topic-card" href="topics/{slug}.html"><div class="ttl">{top["title"]}</div><div class="sub">{top["subtitle"]}</div></a>')
+    # 2. GRAMMAR INDEX AND CHAPTER HUB PAGES (part-N.html)
+    g_part_cards = []
+    for p in lang_info["g_parts"]:
+        part_topic_cards = []
+        for slug in p["topics"]:
+            if slug in g_topics_map:
+                top = g_topics_map[slug]
+                part_topic_cards.append(f'<a class="topic-card" href="topics/{slug}.html"><div class="ttl">{top["title"]}</div><div class="sub">{top["subtitle"]}</div></a>')
+
+        p_html = f'''<!doctype html>
+<html lang="{code}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{p["title"]} · {lang_info["name"]}</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html">← {lang_info["title_g"]}</a>
+    <a href="{lang_info["hub_link"]}">{lang_info["hub_label"]}</a>
+  </div>
+</header>
+<main class="container">
+  <div class="page-head">
+    <span class="eyebrow">{p["title"]}</span>
+    <h1>{p["title"]}</h1>
+    <p class="subtitle">{p["subtitle"]}</p>
+  </div>
+  <div class="topic-grid">{"".join(part_topic_cards)}</div>
+</main>
+<footer style="background: var(--brand-900); color: #fff; padding: 24px; text-align: center; font-size: 14px; margin-top: 60px;">
+  <div>&copy; 2026 COSYlanguages · {lang_info["title_g"]}</div>
+</footer>
+</body>
+</html>'''
+        with open(f"{base_g}/{p['file']}", "w", encoding="utf-8") as f: f.write(p_html)
+
+        g_part_cards.append(f'<a class="part-card" href="{p["file"]}"><h2>{p["title"]}</h2><p>{p["subtitle"]}</p><span style="font-size:12px;font-weight:700;color:var(--brand-700);">{len(p["topics"])} →</span></a>')
 
     g_index_html = f'''<!doctype html>
 <html lang="{code}">
@@ -859,7 +1005,7 @@ def build_language_manuals(code, lang_info):
 <body>
 <header class="topbar">
   <div class="topbar-inner">
-    <a href="../../index.html">← Master Directory</a>
+    <a href="../../index.html">{lbl["back_master"]}</a>
     <a href="{lang_info["hub_link"]}">{lang_info["hub_label"]}</a>
   </div>
 </header>
@@ -867,9 +1013,9 @@ def build_language_manuals(code, lang_info):
   <div class="page-head">
     <span class="eyebrow">COSYlanguages · Level A2</span>
     <h1>{lang_info["title_g"]}</h1>
-    <p class="subtitle">Monolingual A2 Grammar Manual.</p>
+    <p class="subtitle">{lbl["sub_g"]}</p>
   </div>
-  <div class="topic-grid">{"".join(g_topic_cards)}</div>
+  <div class="parts-grid">{"".join(g_part_cards)}</div>
 </main>
 <footer style="background: var(--brand-900); color: #fff; padding: 24px; text-align: center; font-size: 14px; margin-top: 60px;">
   <div>&copy; 2026 COSYlanguages · {lang_info["title_g"]}</div>
@@ -878,11 +1024,10 @@ def build_language_manuals(code, lang_info):
 </html>'''
 
     with open(f"{base_g}/index.html", "w", encoding="utf-8") as f: f.write(g_index_html)
-    with open(f"{base_g}/part-1.html", "w", encoding="utf-8") as f: f.write(g_index_html)
 
-    # 2. VOCABULARY MANUAL
-    v_topic_cards = []
-    lbl = LOCALIZED_LABELS[code]
+    # 3. VOCABULARY TOPICS AND MODULE CHAPTER PAGES (module-N.html)
+    v_topics_map = {t["slug"]: t for t in lang_info["v"]}
+
     for top in lang_info["v"]:
         slug = top["slug"]
         rows = "".join([f'<tr><td><strong>{w["word"]}</strong></td><td>{w["type"]}</td><td>{w["example"]}</td></tr>' for w in top["words"]])
@@ -891,7 +1036,7 @@ def build_language_manuals(code, lang_info):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{top["title"]} · {lang_info["name"]} A2 Vocabulary</title>
+<title>{top["title"]} · {lang_info["name"]}</title>
 <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
@@ -920,7 +1065,45 @@ def build_language_manuals(code, lang_info):
         with open(f"{base_v}/topics/{slug}.html", "w", encoding="utf-8") as f:
             f.write(v_page_html)
 
-        v_topic_cards.append(f'<a class="topic-card" href="topics/{slug}.html"><div class="ttl">{top["title"]}</div><div class="sub">{top["subtitle"]}</div></a>')
+    v_mod_cards = []
+    for m in lang_info["v_parts"]:
+        mod_topic_cards = []
+        for slug in m["topics"]:
+            if slug in v_topics_map:
+                top = v_topics_map[slug]
+                mod_topic_cards.append(f'<a class="topic-card" href="topics/{slug}.html"><div class="ttl">{top["title"]}</div><div class="sub">{top["subtitle"]}</div></a>')
+
+        m_html = f'''<!doctype html>
+<html lang="{code}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{m["title"]} · {lang_info["name"]}</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html">← {lang_info["title_v"]}</a>
+    <a href="{lang_info["hub_link"]}">{lang_info["hub_label"]}</a>
+  </div>
+</header>
+<main class="container">
+  <div class="page-head">
+    <span class="eyebrow">{m["title"]}</span>
+    <h1>{m["title"]}</h1>
+    <p class="subtitle">{m["subtitle"]}</p>
+  </div>
+  <div class="topic-grid">{"".join(mod_topic_cards)}</div>
+</main>
+<footer style="background: var(--brand-900); color: #fff; padding: 24px; text-align: center; font-size: 14px; margin-top: 60px;">
+  <div>&copy; 2026 COSYlanguages · {lang_info["title_v"]}</div>
+</footer>
+</body>
+</html>'''
+        with open(f"{base_v}/{m['file']}", "w", encoding="utf-8") as f: f.write(m_html)
+
+        v_mod_cards.append(f'<a class="part-card" href="{m["file"]}"><h2>{m["title"]}</h2><p>{m["subtitle"]}</p><span style="font-size:12px;font-weight:700;color:var(--brand-700);">{len(m["topics"])} →</span></a>')
 
     v_index_html = f'''<!doctype html>
 <html lang="{code}">
@@ -933,7 +1116,7 @@ def build_language_manuals(code, lang_info):
 <body>
 <header class="topbar">
   <div class="topbar-inner">
-    <a href="../../index.html">← Master Directory</a>
+    <a href="../../index.html">{lbl["back_master"]}</a>
     <a href="{lang_info["hub_link"]}">{lang_info["hub_label"]}</a>
   </div>
 </header>
@@ -941,9 +1124,9 @@ def build_language_manuals(code, lang_info):
   <div class="page-head">
     <span class="eyebrow">COSYlanguages · Level A2</span>
     <h1>{lang_info["title_v"]}</h1>
-    <p class="subtitle">Monolingual A2 Vocabulary Manual.</p>
+    <p class="subtitle">{lbl["sub_v"]}</p>
   </div>
-  <div class="topic-grid">{"".join(v_topic_cards)}</div>
+  <div class="parts-grid">{"".join(v_mod_cards)}</div>
 </main>
 <footer style="background: var(--brand-900); color: #fff; padding: 24px; text-align: center; font-size: 14px; margin-top: 60px;">
   <div>&copy; 2026 COSYlanguages · {lang_info["title_v"]}</div>
@@ -952,9 +1135,8 @@ def build_language_manuals(code, lang_info):
 </html>'''
 
     with open(f"{base_v}/index.html", "w", encoding="utf-8") as f: f.write(v_index_html)
-    with open(f"{base_v}/module-1.html", "w", encoding="utf-8") as f: f.write(v_index_html)
 
-    print(f"Cluster C language '{code}' A2 manuals generated with 14-part rhythm!")
+    print(f"Cluster C language '{code}' A2 manuals generated with 100% monolingual UI and structured chapters!")
 
 def build_all_cluster_c():
     for code, lang_info in CLUSTER_C_DATA.items():
