@@ -36,7 +36,17 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-A2-001\"\npronunciation: [{\"point\":\"Past simple -ed endings\",\"explain\":\"Distinguish between /t/, /d/, and /ɪd/ endings for regular past tense verbs.\",\"examples\":[{\"pattern\":\"worked / played / started\",\"ipa\":\"/wɜːkt/ / /pleɪd/ / /ˈstɑː.tɪd/\",\"word\":\"started\"}],\"visual\":\"🗣️\"}]\ncando: \"Can narrate a simple past event and describe background actions using when and while\""
+          "teacher_notes": "code: \"EN-A2-001\"\npronunciation: [{\"point\":\"Past simple -ed endings\",\"explain\":\"Distinguish between /t/, /d/, and /ɪd/ endings for regular past tense verbs.\",\"examples\":[{\"pattern\":\"worked / played / started\",\"ipa\":\"/wɜːkt/ / /pleɪd/ / /ˈstɑː.tɪd/\",\"word\":\"started\"}],\"visual\":\"🗣️\"}]\ncando: \"Can narrate a simple past event and describe background actions using when and while\"",
+          "grammar_refs": [
+            "en.grammar.a2.present-and-past-simple-passive",
+            "en.grammar.a2.past-continuous",
+            "en.grammar.a2.comparatives-and-superlatives"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.a2.vocabulary-building-toolkit",
+            "en.vocabulary.a2.master-collocations-dictionary",
+            "en.vocabulary.a2.culture-society-and-celebrations"
+          ]
         },
         {
           "lesson": 2,
@@ -67,7 +77,18 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-A2-002\"\npronunciation: [{\"point\":\"The used to liaison\",\"explain\":\"The final d in used and initial t in to blend into a single /tuː/ sound.\",\"examples\":[{\"pattern\":\"used to\",\"ipa\":\"/ˈjuːs.tə/\",\"word\":\"used to\"}],\"visual\":\"🔗\"}]\ncando: \"Can describe past habits and talk about general life experiences\""
+          "teacher_notes": "code: \"EN-A2-002\"\npronunciation: [{\"point\":\"The used to liaison\",\"explain\":\"The final d in used and initial t in to blend into a single /tuː/ sound.\",\"examples\":[{\"pattern\":\"used to\",\"ipa\":\"/ˈjuːs.tə/\",\"word\":\"used to\"}],\"visual\":\"🔗\"}]\ncando: \"Can describe past habits and talk about general life experiences\"",
+          "grammar_refs": [
+            "en.grammar.a2.used-to",
+            "en.grammar.a2.present-perfect-vs-past-simple"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.a2.index",
+            "en.vocabulary.a2.daily-life-free-time-and-entertainment",
+            "en.vocabulary.a2.people-relationships-and-life-stages",
+            "en.vocabulary.a2.encyclopedic-a2-vocabulary-reference-tables",
+            "en.vocabulary.b2.higher-education-and-academic-inquiry"
+          ]
         }
       ]
     },
@@ -103,7 +124,18 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-A2-003\"\npronunciation: [{\"point\":\"Silent t in mustn't\",\"explain\":\"Practice saying mustn't cleanly without pronouncing the middle t.\",\"examples\":[{\"pattern\":\"mustn't\",\"ipa\":\"/ˈmʌs.ənt/\",\"word\":\"mustn't\"}],\"visual\":\"🏠\"}]\ncando: \"Can discuss housing rules, lease conditions, and tenant obligations\""
+          "teacher_notes": "code: \"EN-A2-003\"\npronunciation: [{\"point\":\"Silent t in mustn't\",\"explain\":\"Practice saying mustn't cleanly without pronouncing the middle t.\",\"examples\":[{\"pattern\":\"mustn't\",\"ipa\":\"/ˈmʌs.ənt/\",\"word\":\"mustn't\"}],\"visual\":\"🏠\"}]\ncando: \"Can discuss housing rules, lease conditions, and tenant obligations\"",
+          "grammar_refs": [
+            "en.grammar.a2.have-to-must-mustnt",
+            "en.grammar.b2.permission-obligation-and-prohibition"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.b1.housing-homeownership-and-diy",
+            "en.vocabulary.a2.home-neighbourhood-and-environment",
+            "en.vocabulary.a2.encyclopedic-a2-vocabulary-reference-tables",
+            "en.vocabulary.a2.master-collocations-dictionary",
+            "en.vocabulary.c1.climate-adaptation-biodiversity-and-green-tech"
+          ]
         },
         {
           "lesson": 2,
@@ -132,7 +164,15 @@
             "reading"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-A2-004\"\ncando: \"Can describe property layouts, room features, and neighbourhood locations\""
+          "teacher_notes": "code: \"EN-A2-004\"\ncando: \"Can describe property layouts, room features, and neighbourhood locations\"",
+          "grammar_refs": [
+            "en.grammar.a1.prepositions-place",
+            "en.grammar.a1.some-vs-any"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.a2.home-neighbourhood-and-environment",
+            "en.vocabulary.a2.culture-society-and-celebrations"
+          ]
         }
       ]
     },
@@ -167,7 +207,20 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-A2-005\"\npronunciation: [{\"point\":\"Office vocabulary stress\",\"explain\":\"Primary stress placement in workplace terms (dePARTment, PROductive, EFFICient).\",\"examples\":[{\"pattern\":\"department\",\"ipa\":\"/dɪˈpɑːt.mənt/\",\"word\":\"department\"}],\"visual\":\"💼\"}]\ncando: \"Can talk about job duties, office projects, and everyday work responsibilities\""
+          "teacher_notes": "code: \"EN-A2-005\"\npronunciation: [{\"point\":\"Office vocabulary stress\",\"explain\":\"Primary stress placement in workplace terms (dePARTment, PROductive, EFFICient).\",\"examples\":[{\"pattern\":\"department\",\"ipa\":\"/dɪˈpɑːt.mənt/\",\"word\":\"department\"}],\"visual\":\"💼\"}]\ncando: \"Can talk about job duties, office projects, and everyday work responsibilities\"",
+          "grammar_refs": [
+            "en.grammar.a2.do-vs-make",
+            "en.grammar.a2.present-continuous-for-future"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.a2.people-relationships-and-life-stages",
+            "en.vocabulary.b2.business-strategy-management-and-leadership",
+            "en.vocabulary.b1.work-career-and-business-communication",
+            "en.vocabulary.a2.personal-development-and-goals",
+            "en.vocabulary.a2.emergencies-and-accidents",
+            "en.vocabulary.b1.law-crime-and-judicial-system",
+            "en.vocabulary.a2.functional-english-masterclass"
+          ]
         },
         {
           "lesson": 2,
@@ -196,7 +249,20 @@
             "speaking"
           ],
           "speaking_percent": 45,
-          "teacher_notes": "code: \"EN-A2-006\"\ncando: \"Can describe office procedures and task status using simple passive forms\""
+          "teacher_notes": "code: \"EN-A2-006\"\ncando: \"Can describe office procedures and task status using simple passive forms\"",
+          "grammar_refs": [
+            "en.grammar.a2.present-and-past-simple-passive"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.c1.geopolitics-soft-power-and-peacekeeping",
+            "en.vocabulary.a2.encyclopedic-a2-vocabulary-reference-tables",
+            "en.vocabulary.a2.daily-life-free-time-and-entertainment",
+            "en.vocabulary.b2.environment-sustainability-and-circular-economy",
+            "en.vocabulary.b1.business-english-leadership-and-negotiation",
+            "en.vocabulary.b2.daily-professional-life-and-workplace-dynamics",
+            "en.vocabulary.b1.work-career-and-business-communication",
+            "en.vocabulary.b1.arts-culture-and-performing-arts"
+          ]
         }
       ]
     },
@@ -232,7 +298,17 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-A2-007\"\npronunciation: [{\"point\":\"Silent l in should\",\"explain\":\"The letter l in should and shouldn't is silent (/ʃʊd/, /ˈʃʊd.ənt/).\",\"examples\":[{\"pattern\":\"should\",\"ipa\":\"/ʃʊd/\",\"word\":\"should\"}],\"visual\":\"🏥\"}]\ncando: \"Can explain illness symptoms and give appropriate health advice using should\""
+          "teacher_notes": "code: \"EN-A2-007\"\npronunciation: [{\"point\":\"Silent l in should\",\"explain\":\"The letter l in should and shouldn't is silent (/ʃʊd/, /ˈʃʊd.ənt/).\",\"examples\":[{\"pattern\":\"should\",\"ipa\":\"/ʃʊd/\",\"word\":\"should\"}],\"visual\":\"🏥\"}]\ncando: \"Can explain illness symptoms and give appropriate health advice using should\"",
+          "grammar_refs": [
+            "en.grammar.a2.should-shouldnt",
+            "en.grammar.a1.have-got"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.c1.diagnostics-clinical-trials-and-specialties",
+            "en.vocabulary.a2.food-health-and-the-body",
+            "en.vocabulary.a1.part-1-about-me",
+            "en.vocabulary.b1.personality-psychology-and-emotions"
+          ]
         },
         {
           "lesson": 2,
@@ -261,7 +337,19 @@
             "reading"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-A2-008\"\ncando: \"Can discuss dietary habits, exercise routines, and personal wellbeing goals\""
+          "teacher_notes": "code: \"EN-A2-008\"\ncando: \"Can discuss dietary habits, exercise routines, and personal wellbeing goals\"",
+          "grammar_refs": [
+            "en.grammar.b2.adverbs-position-and-types",
+            "en.grammar.c1.modality-for-speculation-deduction-and-certainty"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.b1.health-medicine-and-lifestyle",
+            "en.vocabulary.a2.master-collocations-dictionary",
+            "en.vocabulary.a2.food-health-and-the-body",
+            "en.vocabulary.a1.part-5-daily-routine",
+            "en.vocabulary.b1.current-affairs-and-global-economy",
+            "en.vocabulary.a1.part-5"
+          ]
         }
       ]
     },
@@ -297,7 +385,19 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-A2-009\"\npronunciation: [{\"point\":\"Polite intonation in indirect questions\",\"explain\":\"Using gentle rising-falling pitch contours when asking polite service questions.\",\"examples\":[{\"pattern\":\"Could you tell me...?\",\"ipa\":\"/kʊd juː tel miː/\",\"word\":\"Could\"}],\"visual\":\"✈️\"}]\ncando: \"Can book travel arrangements, ask polite questions, and handle hotel check-in\""
+          "teacher_notes": "code: \"EN-A2-009\"\npronunciation: [{\"point\":\"Polite intonation in indirect questions\",\"explain\":\"Using gentle rising-falling pitch contours when asking polite service questions.\",\"examples\":[{\"pattern\":\"Could you tell me...?\",\"ipa\":\"/kʊd juː tel miː/\",\"word\":\"Could\"}],\"visual\":\"✈️\"}]\ncando: \"Can book travel arrangements, ask polite questions, and handle hotel check-in\"",
+          "grammar_refs": [
+            "en.grammar.b1.embedded-indirect-questions",
+            "en.grammar.a2.could"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.a2.master-collocations-dictionary",
+            "en.vocabulary.b2.psychology-cognition-and-behavior",
+            "en.vocabulary.b1.travel-immigration-and-global-mobility",
+            "en.vocabulary.a2.personal-development-and-goals",
+            "en.vocabulary.a2.travel-and-getting-around",
+            "en.vocabulary.a2.functional-english-masterclass"
+          ]
         },
         {
           "lesson": 2,
@@ -326,7 +426,18 @@
             "reading"
           ],
           "speaking_percent": 55,
-          "teacher_notes": "code: \"EN-A2-010\"\ncando: \"Can ask for and give directions to urban landmarks and describe sightseeing tours\""
+          "teacher_notes": "code: \"EN-A2-010\"\ncando: \"Can ask for and give directions to urban landmarks and describe sightseeing tours\"",
+          "grammar_refs": [
+            "en.grammar.a2.prepositions-of-movement",
+            "en.grammar.c1.modality-for-speculation-deduction-and-certainty"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.b1.current-affairs-and-global-economy",
+            "en.vocabulary.b2.culture-arts-and-heritage",
+            "en.vocabulary.b1.arts-culture-and-performing-arts",
+            "en.vocabulary.b1.philosophy-values-and-moral-ethics",
+            "en.vocabulary.a2.home-neighbourhood-and-environment"
+          ]
         }
       ]
     },
@@ -362,7 +473,19 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-A2-011\"\ncando: \"Can compare products, evaluate prices, and make smart purchasing decisions\""
+          "teacher_notes": "code: \"EN-A2-011\"\ncando: \"Can compare products, evaluate prices, and make smart purchasing decisions\"",
+          "grammar_refs": [
+            "en.grammar.a2.comparatives-and-superlatives",
+            "en.grammar.b1.modifying-comparatives"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.c1.criminal-law-and-judicial-proceedings",
+            "en.vocabulary.a2.shopping-and-services",
+            "en.vocabulary.a2.functional-english-masterclass",
+            "en.vocabulary.a2.culture-society-and-celebrations",
+            "en.vocabulary.c1.banking-investment-cryptocurrencies-and-crises",
+            "en.vocabulary.a2.describing-change-and-comparison"
+          ]
         },
         {
           "lesson": 2,
@@ -391,7 +514,18 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-A2-012\"\ncando: \"Can express customer preferences, report defective items, and ask for refunds\""
+          "teacher_notes": "code: \"EN-A2-012\"\ncando: \"Can express customer preferences, report defective items, and ask for refunds\"",
+          "grammar_refs": [
+            "en.grammar.a2.too-and-enough",
+            "en.grammar.a2.indefinite-pronouns"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.a2.shopping-and-services",
+            "en.vocabulary.a1.part-2-clothes",
+            "en.vocabulary.a2.functional-english-masterclass",
+            "en.vocabulary.b1.work-career-and-business-communication",
+            "en.vocabulary.c1.executive-leadership-operations-and-hr"
+          ]
         }
       ]
     },
@@ -427,7 +561,18 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-A2-013\"\npronunciation: [{\"point\":\"Weak form of going to\",\"explain\":\"In casual conversation, going to frequently reduces to gonna /ˈɡən.ə/.\",\"examples\":[{\"pattern\":\"going to\",\"ipa\":\"/ˈɡən.ə/\",\"word\":\"gonna\"}],\"visual\":\"📱\"}]\ncando: \"Can discuss technology habits, device preferences, and planned digital updates\""
+          "teacher_notes": "code: \"EN-A2-013\"\npronunciation: [{\"point\":\"Weak form of going to\",\"explain\":\"In casual conversation, going to frequently reduces to gonna /ˈɡən.ə/.\",\"examples\":[{\"pattern\":\"going to\",\"ipa\":\"/ˈɡən.ə/\",\"word\":\"gonna\"}],\"visual\":\"📱\"}]\ncando: \"Can discuss technology habits, device preferences, and planned digital updates\"",
+          "grammar_refs": [
+            "en.grammar.c1.modality-for-speculation-deduction-and-certainty"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.a2.vocabulary-building-toolkit",
+            "en.vocabulary.b1.housing-homeownership-and-diy",
+            "en.vocabulary.b1.advanced-computing-cybersecurity-and-ai",
+            "en.vocabulary.a2.school-work-and-technology",
+            "en.vocabulary.a2.home-neighbourhood-and-environment",
+            "en.vocabulary.a2.travel-and-getting-around"
+          ]
         },
         {
           "lesson": 2,
@@ -456,7 +601,20 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-A2-014\"\ncando: \"Can explain cause-and-effect conditions and basic cybersecurity rules\""
+          "teacher_notes": "code: \"EN-A2-014\"\ncando: \"Can explain cause-and-effect conditions and basic cybersecurity rules\"",
+          "grammar_refs": [
+            "en.grammar.a2.first-conditional",
+            "en.grammar.a2.future-time-clauses"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.b1.media-digital-life-and-cybersecurity",
+            "en.vocabulary.a2.shopping-and-services",
+            "en.vocabulary.b1.science-innovation-and-future-tech",
+            "en.vocabulary.a2.home-neighbourhood-and-environment",
+            "en.vocabulary.a2.personal-development-and-goals",
+            "en.vocabulary.c1.risk-management-change-and-entrepreneurship",
+            "en.vocabulary.b1.ecology-climate-and-sustainability"
+          ]
         }
       ]
     },
@@ -492,7 +650,20 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-A2-015\"\ncando: \"Can express educational goals, learning strategies, and personal ambitions\""
+          "teacher_notes": "code: \"EN-A2-015\"\ncando: \"Can express educational goals, learning strategies, and personal ambitions\"",
+          "grammar_refs": [
+            "en.grammar.a1.irregular-verbs",
+            "en.grammar.b2.verb-object-infinitive-gerund"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.a1.index",
+            "en.vocabulary.a2.encyclopedic-a2-vocabulary-reference-tables",
+            "en.vocabulary.a2.school-work-and-technology",
+            "en.vocabulary.a2.master-collocations-dictionary",
+            "en.vocabulary.a2.culture-society-and-celebrations",
+            "en.vocabulary.a2.describing-change-and-comparison",
+            "en.vocabulary.a2.personal-development-and-goals"
+          ]
         },
         {
           "lesson": 2,
@@ -521,7 +692,19 @@
             "reading"
           ],
           "speaking_percent": 55,
-          "teacher_notes": "code: \"EN-A2-016\"\ncando: \"Can talk about hypothetical future situations and offer personal advice using second conditional\""
+          "teacher_notes": "code: \"EN-A2-016\"\ncando: \"Can talk about hypothetical future situations and offer personal advice using second conditional\"",
+          "grammar_refs": [
+            "en.grammar.a2.second-conditional",
+            "en.grammar.a1.id-like"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.a2.school-work-and-technology",
+            "en.vocabulary.b1.science-innovation-and-future-tech",
+            "en.vocabulary.a2.personal-development-and-goals",
+            "en.vocabulary.a2.master-collocations-dictionary",
+            "en.vocabulary.a2.culture-society-and-celebrations",
+            "en.vocabulary.a2.encyclopedic-a2-vocabulary-reference-tables"
+          ]
         }
       ]
     },
@@ -557,7 +740,19 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-A2-017\"\ncando: \"Can describe movies, books, venues, and cultural events using relative clauses\""
+          "teacher_notes": "code: \"EN-A2-017\"\ncando: \"Can describe movies, books, venues, and cultural events using relative clauses\"",
+          "grammar_refs": [
+            "en.grammar.a2.defining-relative-clauses",
+            "en.grammar.a2.pronouns-review"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.a2.personal-development-and-goals",
+            "en.vocabulary.a2.culture-society-and-celebrations",
+            "en.vocabulary.b1.arts-culture-and-performing-arts",
+            "en.vocabulary.c1.research-ethics-peer-review-and-methodology",
+            "en.vocabulary.c1.academic-genres-and-research-publications",
+            "en.vocabulary.a2.daily-life-free-time-and-entertainment"
+          ]
         },
         {
           "lesson": 2,
@@ -585,7 +780,17 @@
             "listening"
           ],
           "speaking_percent": 60,
-          "teacher_notes": "code: \"EN-A2-018\"\npronunciation: [{\"point\":\"Intonation on question tags\",\"explain\":\"Falling intonation expects agreement; rising intonation asks a real question.\",\"examples\":[{\"pattern\":\"Great concert, wasn't it?\",\"ipa\":\"/wɒz.ənt ɪt/\",\"word\":\"wasn't it\"}],\"visual\":\"🎭\"}]\ncando: \"Can maintain social conversation, express agreement, and use natural question tags\""
+          "teacher_notes": "code: \"EN-A2-018\"\npronunciation: [{\"point\":\"Intonation on question tags\",\"explain\":\"Falling intonation expects agreement; rising intonation asks a real question.\",\"examples\":[{\"pattern\":\"Great concert, wasn't it?\",\"ipa\":\"/wɒz.ənt ɪt/\",\"word\":\"wasn't it\"}],\"visual\":\"🎭\"}]\ncando: \"Can maintain social conversation, express agreement, and use natural question tags\"",
+          "grammar_refs": [
+            "en.grammar.b1.question-tags",
+            "en.grammar.a2.expressing-purpose-to-for"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.a2.culture-society-and-celebrations",
+            "en.vocabulary.a2.functional-english-masterclass",
+            "en.vocabulary.a2.encyclopedic-a2-vocabulary-reference-tables",
+            "en.vocabulary.a2.vocabulary-building-toolkit"
+          ]
         }
       ]
     },
@@ -621,7 +826,18 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-A2-019\"\ncando: \"Can report news, opinions, and environmental statements using reported speech\""
+          "teacher_notes": "code: \"EN-A2-019\"\ncando: \"Can report news, opinions, and environmental statements using reported speech\"",
+          "grammar_refs": [
+            "en.grammar.b1.reported-speech-statements",
+            "en.grammar.a2.present-and-past-simple-passive"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.a2.home-neighbourhood-and-environment",
+            "en.vocabulary.b2.environment-sustainability-and-circular-economy",
+            "en.vocabulary.b1.environment-disasters-and-conservation",
+            "en.vocabulary.b1.ecology-climate-and-sustainability",
+            "en.vocabulary.b1.current-affairs-and-global-economy"
+          ]
         },
         {
           "lesson": 2,
@@ -643,7 +859,14 @@
             "writing"
           ],
           "speaking_percent": 70,
-          "teacher_notes": "code: \"EN-A2-020\"\ncando: \"Can demonstrate full A2 language competency across conversational, professional, and practical everyday scenarios\""
+          "teacher_notes": "code: \"EN-A2-020\"\ncando: \"Can demonstrate full A2 language competency across conversational, professional, and practical everyday scenarios\"",
+          "grammar_refs": [
+            "en.grammar.a2.present-perfect-vs-past-simple"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.a2.master-collocations-dictionary",
+            "en.vocabulary.a2.vocabulary-building-toolkit"
+          ]
         }
       ]
     }

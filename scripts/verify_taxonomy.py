@@ -7,6 +7,8 @@ Verifies taxonomy JSON files for a given language:
 - Ensures manual_url for every taxonomy entry exists on disk.
 - Detects orphan HTML manual files under manuals/{lang}/{grammar,vocabulary,communication}/
   matching */*.html or */topics/*.html that are not referenced in the taxonomy.
+- Validates that every grammar_refs and vocabulary_refs ID in curriculum/{lang}/general/*.json
+  actually exists in the taxonomy files.
 - Prints a coverage summary table of entry counts per skill per CEFR level.
 """
 
@@ -97,6 +99,39 @@ def find_orphan_manuals(lang, referenced_urls):
     return problems
 
 
+def verify_curriculum_references(lang, valid_taxonomy_ids):
+    problems = []
+    curr_dir = os.path.join("curriculum", lang, "general")
+    if not os.path.isdir(curr_dir):
+        return problems
+
+    curr_files = sorted(glob.glob(os.path.join(curr_dir, "*.json")))
+    for file_path in curr_files:
+        try:
+            with open(file_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except Exception as e:
+            problems.append(f"Failed to parse curriculum file {file_path}: {e}")
+            continue
+
+        filename = os.path.basename(file_path)
+        for unit in data.get("units", []):
+            unit_id = unit.get("unit", unit.get("id", "<unknown>"))
+            for lesson in unit.get("lessons", []):
+                lesson_num = lesson.get("lesson", "<unknown>")
+                lesson_label = f"{filename} Unit {unit_id} Lesson {lesson_num}"
+
+                for g_ref in lesson.get("grammar_refs", []) or []:
+                    if g_ref not in valid_taxonomy_ids:
+                        problems.append(f"Invalid grammar_ref '{g_ref}' in {lesson_label} not found in taxonomy")
+
+                for v_ref in lesson.get("vocabulary_refs", []) or []:
+                    if v_ref not in valid_taxonomy_ids:
+                        problems.append(f"Invalid vocabulary_ref '{v_ref}' in {lesson_label} not found in taxonomy")
+
+    return problems
+
+
 def print_coverage_summary(entries):
     # Counts per skill per CEFR level
     counts = {skill: {level: 0 for level in CEFR_LEVELS} for skill in SKILLS}
@@ -137,10 +172,12 @@ def main():
     args = parser.parse_args()
 
     entries, load_problems = load_taxonomy(args.lang)
+    valid_taxonomy_ids = {entry.get("id") for entry in entries if entry.get("id")}
     referenced_urls, entry_problems = verify_taxonomy_entries(entries)
     orphan_problems = find_orphan_manuals(args.lang, referenced_urls)
+    curriculum_problems = verify_curriculum_references(args.lang, valid_taxonomy_ids)
 
-    all_problems = load_problems + entry_problems + orphan_problems
+    all_problems = load_problems + entry_problems + orphan_problems + curriculum_problems
 
     if all_problems:
         print(f"\n❌ TAXONOMY VERIFICATION FAILED ({len(all_problems)} issues found):\n", file=sys.stderr)

@@ -36,7 +36,16 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-B1-001\"\npronunciation: [{\"point\":\"Weak forms of auxiliary verbs\",\"explain\":\"Mastering weak forms of have/has/been in natural connected continuous tenses.\",\"examples\":[{\"pattern\":\"have been working\",\"ipa\":\"/həv bɪn ˈwɜː.kɪŋ/\",\"word\":\"been\"}],\"visual\":\"🎵\"}]\ncando: \"Can discuss personality nuances, character growth, and emotional state using present perfect continuous\""
+          "teacher_notes": "code: \"EN-B1-001\"\npronunciation: [{\"point\":\"Weak forms of auxiliary verbs\",\"explain\":\"Mastering weak forms of have/has/been in natural connected continuous tenses.\",\"examples\":[{\"pattern\":\"have been working\",\"ipa\":\"/həv bɪn ˈwɜː.kɪŋ/\",\"word\":\"been\"}],\"visual\":\"🎵\"}]\ncando: \"Can discuss personality nuances, character growth, and emotional state using present perfect continuous\"",
+          "grammar_refs": [
+            "en.grammar.a2.present-perfect-vs-past-simple",
+            "en.grammar.b1.passive-continuous-and-perfect-tenses"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.b1.personality-psychology-and-emotions",
+            "en.vocabulary.c1.cybersecurity-big-data-and-digital-ethics",
+            "en.vocabulary.b2.index"
+          ]
         },
         {
           "lesson": 2,
@@ -66,7 +75,14 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-B1-002\"\ncando: \"Can speculate about present situations and past behavior with varying degrees of certainty\""
+          "teacher_notes": "code: \"EN-B1-002\"\ncando: \"Can speculate about present situations and past behavior with varying degrees of certainty\"",
+          "grammar_refs": [
+            "en.grammar.b1.modals-of-deduction-present"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.b2.psychology-cognition-and-behavior",
+            "en.vocabulary.c1.statistical-analysis-and-empirical-data-interpretation"
+          ]
         }
       ]
     },
@@ -103,7 +119,16 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-B1-003\"\ncando: \"Can narrate detailed career progression and past professional milestones using past perfect forms\""
+          "teacher_notes": "code: \"EN-B1-003\"\ncando: \"Can narrate detailed career progression and past professional milestones using past perfect forms\"",
+          "grammar_refs": [
+            "en.grammar.b1.past-simple-vs-present-perfect",
+            "en.grammar.b1.past-perfect-continuous",
+            "en.grammar.b2.future-in-the-past"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.b1.work-career-and-business-communication",
+            "en.vocabulary.a2.school-work-and-technology"
+          ]
         },
         {
           "lesson": 2,
@@ -132,7 +157,16 @@
             "reading"
           ],
           "speaking_percent": 45,
-          "teacher_notes": "code: \"EN-B1-004\"\ncando: \"Can describe delegated tasks, professional services, and quality control procedures\""
+          "teacher_notes": "code: \"EN-B1-004\"\ncando: \"Can describe delegated tasks, professional services, and quality control procedures\"",
+          "grammar_refs": [
+            "en.grammar.b1.causative-have-get-something-done",
+            "en.grammar.b2.passive-verbs-with-two-objects"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.b1.work-career-and-business-communication",
+            "en.vocabulary.b1.housing-homeownership-and-diy",
+            "en.vocabulary.b2.law-justice-and-civil-rights"
+          ]
         }
       ]
     },
@@ -168,7 +202,18 @@
             "listening"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-B1-005\"\ncando: \"Can analyze digital media trends, debate online privacy, and structure complex written arguments with connectors\""
+          "teacher_notes": "code: \"EN-B1-005\"\ncando: \"Can analyze digital media trends, debate online privacy, and structure complex written arguments with connectors\"",
+          "grammar_refs": [
+            "en.grammar.b1.another-other-others-the-other",
+            "en.grammar.b1.connectors-and-linking-words"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.b1.media-digital-life-and-cybersecurity",
+            "en.vocabulary.b2.media-journalism-and-public-discourse",
+            "en.vocabulary.b1.advanced-computing-cybersecurity-and-ai",
+            "en.vocabulary.b1.money-personal-finance-and-consumer-rights",
+            "en.vocabulary.c1.cybersecurity-big-data-and-digital-ethics"
+          ]
         },
         {
           "lesson": 2,
@@ -197,7 +242,17 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-B1-006\"\ncando: \"Can make complex technical enquiries and report digital issues politely using embedded indirect questions\""
+          "teacher_notes": "code: \"EN-B1-006\"\ncando: \"Can make complex technical enquiries and report digital issues politely using embedded indirect questions\"",
+          "grammar_refs": [
+            "en.grammar.b1.embedded-indirect-questions",
+            "en.grammar.b2.formal-vs-informal-register"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.b1.money-personal-finance-and-consumer-rights",
+            "en.vocabulary.b1.advanced-computing-cybersecurity-and-ai",
+            "en.vocabulary.b2.higher-education-and-academic-inquiry",
+            "en.vocabulary.b2.law-justice-and-civil-rights"
+          ]
         }
       ]
     },
@@ -234,7 +289,19 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-B1-007\"\ncando: \"Can evaluate environmental policies and hypothesize past and present climate outcomes using complex conditionals\""
+          "teacher_notes": "code: \"EN-B1-007\"\ncando: \"Can evaluate environmental policies and hypothesize past and present climate outcomes using complex conditionals\"",
+          "grammar_refs": [
+            "en.grammar.b1.second-conditional",
+            "en.grammar.b1.third-conditional",
+            "en.grammar.b1.have-to-must-should-had-better"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.b1.ecology-climate-and-sustainability",
+            "en.vocabulary.b1.environment-disasters-and-conservation",
+            "en.vocabulary.b2.environment-sustainability-and-circular-economy",
+            "en.vocabulary.c1.aesthetics-literature-and-architectural-heritage",
+            "en.vocabulary.c1.banking-investment-cryptocurrencies-and-crises"
+          ]
         },
         {
           "lesson": 2,
@@ -264,7 +331,21 @@
             "writing"
           ],
           "speaking_percent": 55,
-          "teacher_notes": "code: \"EN-B1-008\"\ncando: \"Can express environmental concerns, personal regrets, and policy desires using wish and if only\""
+          "teacher_notes": "code: \"EN-B1-008\"\ncando: \"Can express environmental concerns, personal regrets, and policy desires using wish and if only\"",
+          "grammar_refs": [
+            "en.grammar.b1.past-simple-vs-present-perfect",
+            "en.grammar.a2.past-perfect",
+            "en.grammar.b1.during-for-while"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.b1.index",
+            "en.vocabulary.c1.climate-adaptation-biodiversity-and-green-tech",
+            "en.vocabulary.b2.business-strategy-management-and-leadership",
+            "en.vocabulary.a2.expanded-transport-and-driving",
+            "en.vocabulary.b1.society-civics-and-human-rights",
+            "en.vocabulary.b1.ecology-climate-and-sustainability",
+            "en.vocabulary.b1.advanced-computing-cybersecurity-and-ai"
+          ]
         }
       ]
     },
@@ -300,7 +381,18 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-B1-009\"\ncando: \"Can discuss medical diagnoses, treatment options, and urgent health precautions\""
+          "teacher_notes": "code: \"EN-B1-009\"\ncando: \"Can discuss medical diagnoses, treatment options, and urgent health precautions\"",
+          "grammar_refs": [
+            "en.grammar.b1.have-to-must-should-had-better",
+            "en.grammar.b1.causative-have-get-something-done"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.b1.health-medicine-and-lifestyle",
+            "en.vocabulary.b1.law-crime-and-judicial-system",
+            "en.vocabulary.c1.diagnostics-clinical-trials-and-specialties",
+            "en.vocabulary.c1.cognitive-biases-mental-disorders-and-therapy",
+            "en.vocabulary.b2.international-relations-and-geopolitics"
+          ]
         },
         {
           "lesson": 2,
@@ -329,7 +421,17 @@
             "reading"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-B1-010\"\ncando: \"Can describe physical sensations, emotional states, and stress recovery strategies\""
+          "teacher_notes": "code: \"EN-B1-010\"\ncando: \"Can describe physical sensations, emotional states, and stress recovery strategies\"",
+          "grammar_refs": [
+            "en.grammar.b1.ed-ing-adjectives",
+            "en.grammar.b1.verbs-of-the-senses"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.b1.life-skills-decision-making-and-critical-thinking",
+            "en.vocabulary.b1.personality-psychology-and-emotions",
+            "en.vocabulary.b1.media-digital-life-and-cybersecurity",
+            "en.vocabulary.b1.environment-disasters-and-conservation"
+          ]
         }
       ]
     },
@@ -365,7 +467,16 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-B1-011\"\ncando: \"Can explain travel schedules, visa processing deadlines, and international travel logistics\""
+          "teacher_notes": "code: \"EN-B1-011\"\ncando: \"Can explain travel schedules, visa processing deadlines, and international travel logistics\"",
+          "grammar_refs": [
+            "en.grammar.b1.future-continuous",
+            "en.grammar.b1.causative-have-get-something-done"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.b1.travel-immigration-and-global-mobility",
+            "en.vocabulary.a2.expanded-transport-and-driving",
+            "en.vocabulary.c1.civil-law-contracts-and-torts"
+          ]
         },
         {
           "lesson": 2,
@@ -395,7 +506,19 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-B1-012\"\ncando: \"Can describe travel destinations, expatriate experiences, and logistics using non-defining relative clauses\""
+          "teacher_notes": "code: \"EN-B1-012\"\ncando: \"Can describe travel destinations, expatriate experiences, and logistics using non-defining relative clauses\"",
+          "grammar_refs": [
+            "en.grammar.b1.defining-vs-non-defining-relative-clauses",
+            "en.grammar.b2.relative-clauses-review-and-deepening"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.b1.advanced-computing-cybersecurity-and-ai",
+            "en.vocabulary.a1.index",
+            "en.vocabulary.a2.travel-and-getting-around",
+            "en.vocabulary.a2.culture-society-and-celebrations",
+            "en.vocabulary.b1.travel-immigration-and-global-mobility",
+            "en.vocabulary.a1.part-6-city-transport"
+          ]
         }
       ]
     },
@@ -431,7 +554,17 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-B1-013\"\ncando: \"Can evaluate financial products, compare interest rates, and discuss budgeting strategies\""
+          "teacher_notes": "code: \"EN-B1-013\"\ncando: \"Can evaluate financial products, compare interest rates, and discuss budgeting strategies\"",
+          "grammar_refs": [
+            "en.grammar.b1.modifying-comparatives",
+            "en.grammar.b1.another-other-others-the-other"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.b1.money-personal-finance-and-consumer-rights",
+            "en.vocabulary.b1.housing-homeownership-and-diy",
+            "en.vocabulary.c1.banking-investment-cryptocurrencies-and-crises",
+            "en.vocabulary.b1.current-affairs-and-global-economy"
+          ]
         },
         {
           "lesson": 2,
@@ -460,7 +593,18 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-B1-014\"\ncando: \"Can report banking transactions, advise against financial scams, and file dispute claims\""
+          "teacher_notes": "code: \"EN-B1-014\"\ncando: \"Can report banking transactions, advise against financial scams, and file dispute claims\"",
+          "grammar_refs": [
+            "en.grammar.b1.phrasal-verbs-grammar-patterns",
+            "en.grammar.b1.reported-questions-and-commands"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.b1.money-personal-finance-and-consumer-rights",
+            "en.vocabulary.b2.society-government-and-public-life",
+            "en.vocabulary.b1.business-english-leadership-and-negotiation",
+            "en.vocabulary.b1.advanced-computing-cybersecurity-and-ai",
+            "en.vocabulary.b1.law-crime-and-judicial-system"
+          ]
         }
       ]
     },
@@ -496,7 +640,15 @@
             "writing"
           ],
           "speaking_percent": 45,
-          "teacher_notes": "code: \"EN-B1-015\"\ncando: \"Can present scientific breakthroughs and technological innovations using passive voice structures\""
+          "teacher_notes": "code: \"EN-B1-015\"\ncando: \"Can present scientific breakthroughs and technological innovations using passive voice structures\"",
+          "grammar_refs": [
+            "en.grammar.b1.passive-continuous-and-perfect-tenses",
+            "en.grammar.b2.passive-verbs-with-two-objects"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.b1.science-innovation-and-future-tech",
+            "en.vocabulary.c1.artificial-intelligence-machine-learning-and-robotics"
+          ]
         },
         {
           "lesson": 2,
@@ -525,7 +677,15 @@
             "reading"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-B1-016\"\ncando: \"Can explain scientific methods and technological troubleshooting using phrasal verb patterns\""
+          "teacher_notes": "code: \"EN-B1-016\"\ncando: \"Can explain scientific methods and technological troubleshooting using phrasal verb patterns\"",
+          "grammar_refs": [
+            "en.grammar.b1.phrasal-verbs-grammar-patterns"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.b1.current-affairs-and-global-economy",
+            "en.vocabulary.b1.advanced-computing-cybersecurity-and-ai",
+            "en.vocabulary.b1.ecology-climate-and-sustainability"
+          ]
         }
       ]
     },
@@ -561,7 +721,16 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-B1-017\"\ncando: \"Can critique cultural exhibitions and express aesthetic judgments using cleft sentences for emphasis\""
+          "teacher_notes": "code: \"EN-B1-017\"\ncando: \"Can critique cultural exhibitions and express aesthetic judgments using cleft sentences for emphasis\"",
+          "grammar_refs": [
+            "en.grammar.b1.another-other-others-the-other",
+            "en.grammar.a2.most-most-of-the-most"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.b1.arts-culture-and-performing-arts",
+            "en.vocabulary.b2.culture-arts-and-heritage",
+            "en.vocabulary.c1.statistical-analysis-and-empirical-data-interpretation"
+          ]
         },
         {
           "lesson": 2,
@@ -589,7 +758,18 @@
             "listening"
           ],
           "speaking_percent": 65,
-          "teacher_notes": "code: \"EN-B1-018\"\ncando: \"Can manage conversational floor, express artistic opinions, and check agreement in discussions\""
+          "teacher_notes": "code: \"EN-B1-018\"\ncando: \"Can manage conversational floor, express artistic opinions, and check agreement in discussions\"",
+          "grammar_refs": [
+            "en.grammar.b1.question-tags",
+            "en.grammar.b1.connectors-and-linking-words"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.b1.arts-culture-and-performing-arts",
+            "en.vocabulary.b2.culture-arts-and-heritage",
+            "en.vocabulary.a2.encyclopedic-a2-vocabulary-reference-tables",
+            "en.vocabulary.b1.education-academic-integrity-and-research",
+            "en.vocabulary.a2.culture-society-and-celebrations"
+          ]
         }
       ]
     },
@@ -625,7 +805,20 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-B1-019\"\ncando: \"Can evaluate ethical dilemmas, justify difficult decisions, and debate moral trade-offs\""
+          "teacher_notes": "code: \"EN-B1-019\"\ncando: \"Can evaluate ethical dilemmas, justify difficult decisions, and debate moral trade-offs\"",
+          "grammar_refs": [
+            "en.grammar.b1.mixed-conditionals",
+            "en.grammar.b1.it-is-said-that"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.b1.philosophy-values-and-moral-ethics",
+            "en.vocabulary.b1.business-english-leadership-and-negotiation",
+            "en.vocabulary.b2.philosophy-ethics-and-moral-logic",
+            "en.vocabulary.b1.education-academic-integrity-and-research",
+            "en.vocabulary.c1.executive-leadership-operations-and-hr",
+            "en.vocabulary.c1.civil-law-contracts-and-torts",
+            "en.vocabulary.c1.morality-existentialism-and-epistemology"
+          ]
         },
         {
           "lesson": 2,
@@ -647,7 +840,13 @@
             "writing"
           ],
           "speaking_percent": 70,
-          "teacher_notes": "code: \"EN-B1-020\"\ncando: \"Can demonstrate full B1 independent language user competency across professional, academic, and social contexts\""
+          "teacher_notes": "code: \"EN-B1-020\"\ncando: \"Can demonstrate full B1 independent language user competency across professional, academic, and social contexts\"",
+          "grammar_refs": [
+            "en.grammar.b1.connectors-and-linking-words"
+          ],
+          "vocabulary_refs": [
+            "en.vocabulary.a2.vocabulary-building-toolkit"
+          ]
         }
       ]
     }
