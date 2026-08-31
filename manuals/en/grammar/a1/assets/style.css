@@ -86,6 +86,11 @@ hr.rule { border: 0; height: 2px; background: var(--line); margin: 24px auto 0; 
 .frame-box { background: var(--why-bg); border-left: 4px solid var(--why-line); padding: 18px 20px; border-radius: 0 var(--radius-s) var(--radius-s) 0; margin: 16px 0; color: var(--why-ink); }
 .frame-box ul { margin: 8px 0 0; padding-left: 20px; }
 
+/* Minimal Pronunciation Callout Box */
+.pron-callout { background: #f0f7f5; border: 1px solid #b2dfdb; border-left: 4px solid var(--teal-600); padding: 12px 16px; border-radius: var(--radius-s); margin: 18px 0; color: var(--ink); }
+.pron-callout h3, .pron-callout strong.pron-title { display: block; font-family: var(--font-display); font-size: 1rem; color: var(--teal-900); margin: 0 0 6px 0; }
+.pron-callout p { margin: 0; font-size: 0.92rem; line-height: 1.5; color: var(--ink-soft); }
+
 .quiz-panel { background: var(--panel); border: 2px dashed var(--teal-500); border-radius: var(--radius-m); padding: 24px; margin: 24px 0; }
 .quiz-option { display: block; width: 100%; text-align: left; padding: 10px 16px; margin: 8px 0; border: 1px solid var(--line); border-radius: var(--radius-s); background: #fff; cursor: pointer; font-weight: 600; font-family: var(--font-body); transition: all .2s; }
 .quiz-option:hover { background: var(--teal-100); border-color: var(--teal-500); }
