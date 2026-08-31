@@ -26,6 +26,53 @@
       "practice_links": null
     },
     {
+      "id": "magic_e_rule",
+      "label": "The Silent-E / Magic-E Rule",
+      "level": "A1",
+      "emoji": "🪄",
+      "definition": "A single silent e at the end of a word changes the preceding short vowel into a long vowel that says its letter name",
+      "rules": [
+        "When a word ends in vowel + consonant + silent e (VCE pattern), the final e is unpronounced.",
+        "The silent e makes the preceding vowel long (it 'says its name'): a➔/eɪ/, i➔/aɪ/, o➔/əʊ/ or /oʊ/, u➔/juː/ or /uː/."
+      ],
+      "examples": [
+        {
+          "t": "Kit /kɪt/ ➔ Kite /kaɪt/",
+          "m": "Short /ɪ/ becomes long /aɪ/"
+        },
+        {
+          "t": "Hop /hɒp/ ➔ Hope /həʊp/, Cut /kʌt/ ➔ Cute /kjuːt/",
+          "m": "Short /ɒ/ and /ʌ/ become long /əʊ/ and /juː/"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "consonant_digraphs",
+      "label": "Common Consonant Digraphs",
+      "level": "A1",
+      "emoji": "🧩",
+      "definition": "Two consonant letters written together that make a single new consonant sound",
+      "rules": [
+        "SH makes the /ʃ/ sound (shoe, shop, fish).",
+        "CH makes the /ʧ/ sound (chair, cheese, watch).",
+        "PH makes the /f/ sound (phone, photo, elephant).",
+        "WH makes the /w/ sound (white, wheel) or /h/ sound (who, whole).",
+        "NG makes the /ŋ/ nasal sound at the end of syllables (sing, long, English)."
+      ],
+      "examples": [
+        {
+          "t": "Shop /ʃɒp/, Chair /ʧeə(r)/, Phone /fəʊn/",
+          "m": "Digraphs SH /ʃ/, CH /ʧ/, PH /f/"
+        },
+        {
+          "t": "White /waɪt/, Song /sɒŋ/",
+          "m": "Digraphs WH /w/ and NG /ŋ/"
+        }
+      ],
+      "practice_links": null
+    },
+    {
       "id": "silent_letters",
       "label": "Silent Letters",
       "level": "starter",
