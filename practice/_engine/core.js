@@ -1342,6 +1342,16 @@
         return items.filter(i => i.lang?.toLowerCase() === lang.toLowerCase() && i.nextReview <= now);
     };
 
+    const cleanTTSText = (raw) => {
+        if (!raw) return '';
+        let s = String(raw);
+        s = s.replace(/\/[^/]+\//g, '');
+        s = s.replace(/\([^)]+\)/g, '');
+        s = s.replace(/\s*[\/➔≠]\s*/g, ', ');
+        s = s.replace(/\s+/g, ' ').trim();
+        return s;
+    };
+
     engine.speakText = function(text, lang) {
         if (!text) return;
 
@@ -1356,7 +1366,8 @@
         }
         if (!window.speechSynthesis) return;
         window.speechSynthesis.cancel();
-        const msg = new SpeechSynthesisUtterance(text);
+        const cleanText = cleanTTSText(text);
+        const msg = new SpeechSynthesisUtterance(cleanText);
         const langMap = {
             'en': 'en-GB', 'fr': 'fr-FR', 'it': 'it-IT', 'ru': 'ru-RU', 'el': 'el-GR',
             'es': 'es-ES', 'de': 'de-DE', 'pt': 'pt-PT'
