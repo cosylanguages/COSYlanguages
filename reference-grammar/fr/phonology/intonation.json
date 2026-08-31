@@ -134,6 +134,60 @@
         }
       ],
       "practice_links": null
+    },
+    {
+      "id": "intonation_ironie_sarcasme",
+      "label": "Intonation de l'ironie et du sarcasme",
+      "level": "B2",
+      "emoji": "😏",
+      "definition": "Contours mélodiques caractérisant le second degré et le sous-entendu",
+      "rules": [
+        "L'ironie se caractérise par une mélodie exagérément amplifiée ou au contraire un ton monocorde et plat.",
+        "L'allongement de la voyelle accentuée associé à un ton montant-descendant signale l'intention sarcastique."
+      ],
+      "examples": [
+        {
+          "t": "C'est vraiment... charmant ! ↗↘ (ironique)",
+          "m": "Allongement et mélodie sarcastique"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "intonation_oratoire_concession",
+      "label": "Intonation oratoire et argumentative",
+      "level": "C1",
+      "emoji": "🏛️",
+      "definition": "Schémas intonatifs pour la concession, la réfutation et le débat d'idées",
+      "rules": [
+        "La concession (ex. 'Certes...') adopte une courbe descendante ferme, suivie immédiatement d'une reprise montante sur la contre-argumentation ('mais...').",
+        "La réfutation s'appuie sur une hausse de hauteur tonale (tonique élevée) sur le connecteur d'opposition."
+      ],
+      "examples": [
+        {
+          "t": "Certes, le projet est coûteux ↘ ; MAIS il est indispensable. ↗",
+          "m": "Schéma intonatif de concession et réfutation"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "intonation_style_litteraire_diction",
+      "label": "Mélodie de la diction littéraire et théâtrale",
+      "level": "C2",
+      "emoji": "🎭",
+      "definition": "Prosodie supérieure de la lecture publique, de la déclamation et du discours académique",
+      "rules": [
+        "La diction poétique et académique s'appuie sur une amplitude mélodique contrôlée, évitant les chutes tonales abruptes.",
+        "Le maintien d'un registre médium soutenu préserve l'équilibre esthétique des grandes périodes de la prose littéraire."
+      ],
+      "examples": [
+        {
+          "t": "Longtemps, je me suis couché de bonne heure. ↗↘",
+          "m": "Prosodie équilibrée de l'incipit littéraire"
+        }
+      ],
+      "practice_links": null
     }
   ]
 }

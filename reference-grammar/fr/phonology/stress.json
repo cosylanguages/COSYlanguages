@@ -134,6 +134,60 @@
         }
       ],
       "practice_links": null
+    },
+    {
+      "id": "accent_didactique_intellectuel",
+      "label": "Accent d'insistance intellectuel et didactique",
+      "level": "B2",
+      "emoji": "💡",
+      "definition": "Accentuation de la première consonne pour contraster des concepts scientifiques ou argumentatifs",
+      "rules": [
+        "Dans l'argumentation ou la conférence, l'accent d'insistance didactique frappe la première consonne du mot pour faire ressortir une opposition conceptuelle.",
+        "Il se distingue de l'accent d'insistance affectif par sa brièveté et sa clarté consonantique."
+      ],
+      "examples": [
+        {
+          "t": "Il ne s'agit pas de SIMplifier ↗, mais de CLARifier. ↘",
+          "m": "Accent didactique sur les consonnes initiales [s] et [kl]"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "rythme_oratoire_pauses",
+      "label": "Cadence oratoire et équilibre rythmique",
+      "level": "C1",
+      "emoji": "🏛️",
+      "definition": "Structuration rythmique binaire ou ternaire du discours formel et oratoire",
+      "rules": [
+        "Le discours oratoire s'appuie sur le rythme binaire (période à deux membres) ou ternaire (trois éléments d'égale durée syllabique).",
+        "Les pauses breath-group (pauses respiratoires) s'insèrent aux frontières majeures de propositions."
+      ],
+      "examples": [
+        {
+          "t": "Je suis venu ↗, j'ai vu ↗, j'ai vaincu. ↘",
+          "m": "Cadence ternaire classique"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "versification_metrique_prosodie",
+      "label": "Versification et prosodie poétique",
+      "level": "C2",
+      "emoji": "📜",
+      "definition": "Règles prosodiques de la versification classique française (alexandrin et césure)",
+      "rules": [
+        "L'alexandrin est un vers de 12 syllabes articulé en deux hémistiches de 6 syllabes séparés par une césure.",
+        "Le 'e' muet compte pour une syllabe devant une consonne et s'élide devant une voyelle ou en fin de vers."
+      ],
+      "examples": [
+        {
+          "t": "Toujours aimer, / toujours souffrir, / toujours mourir. (6 / 6)",
+          "m": "Alexandrin avec césure à l'hémistiche"
+        }
+      ],
+      "practice_links": null
     }
   ]
 }

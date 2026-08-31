@@ -134,6 +134,72 @@
         }
       ],
       "practice_links": null
+    },
+    {
+      "id": "secondary_stress_clash_avoidance",
+      "label": "Secondary Stress & Stress Shift",
+      "level": "B2",
+      "emoji": "⚖️",
+      "definition": "Secondary stress marks in long words and stress retraction to avoid adjacent stress clashes",
+      "rules": [
+        "Polysyllabic words often carry a secondary stress /ˌ/ in addition to primary stress /ˈ/ (e.g. /ˌɪntəˈnæʃnəl/).",
+        "When a word with final primary stress precedes a stressed noun, its stress shifts backward to avoid a stress clash (e.g., thir-TEEN ➔ THIR-teen MEN)."
+      ],
+      "examples": [
+        {
+          "t": "thir-TEEN ➔ THIR-teen books",
+          "m": "Stress retraction to avoid stress clash"
+        },
+        {
+          "t": "in-for-MA-tion /ˌɪnfəˈmeɪʃn/",
+          "m": "Secondary stress on first syllable"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "nuclear_stress_pragmatics",
+      "label": "Nuclear Stress & Pragmatic Focus",
+      "level": "C1",
+      "emoji": "🎯",
+      "definition": "Location of the tonic syllable (nuclear stress) to signal discourse focus, presupposition, and contrast",
+      "rules": [
+        "The tonic syllable (nucleus) defaults to the last content word of an intonation phrase, but shifts to signal contrast, correction, or narrow focus.",
+        "Given information receives low prominence, while new or contrastive information receives nuclear stress."
+      ],
+      "examples": [
+        {
+          "t": "John bought a BLUE car. (Default nucleus on last content word)",
+          "m": "Default neutral nuclear stress"
+        },
+        {
+          "t": "JOHN bought a blue car. (Focus on who bought it)",
+          "m": "Nuclear stress shift for pragmatic focus"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "rhetorical_prosody_cadence",
+      "label": "Rhetorical Prosody & Metrical Cadence",
+      "level": "C2",
+      "emoji": "🎙️",
+      "definition": "Manipulating stress distribution, rhythmic feet, and speech tempo for persuasive oratory",
+      "rules": [
+        "Formal public speaking uses deliberate stress alignment, extended pauses, and rhythmic parallelism to enhance rhetorical impact.",
+        "Metrical variation creates emphasis by contrasting isometric stress cadence with sudden accelerations or decelerations."
+      ],
+      "examples": [
+        {
+          "t": "'ASK NOT / what your COUNTRY / can DO for YOU'",
+          "m": "Rhetorical parallel stress structure"
+        },
+        {
+          "t": "'WE shall FIGHT on the BEACHES, / WE shall FIGHT on the LANDING GROUNDS'",
+          "m": "Anaphora reinforced by nuclear stress alignment"
+        }
+      ],
+      "practice_links": null
     }
   ]
 }

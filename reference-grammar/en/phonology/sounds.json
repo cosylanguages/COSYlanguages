@@ -158,6 +158,72 @@
         }
       ],
       "practice_links": null
+    },
+    {
+      "id": "coarticulation_epenthesis",
+      "label": "Coarticulation & Epenthesis",
+      "level": "B2",
+      "emoji": "🔬",
+      "definition": "Advanced articulatory overlap and sound insertion in fluid continuous speech",
+      "rules": [
+        "Coarticulation causes neighboring phonetic segments to adjust their place or manner of articulation simultaneously (e.g., labialization of consonants before /w/ or /uː/).",
+        "Epenthesis inserts a brief transitional consonant sound, such as inserting a subtle /p/ between /m/ and /t/ in 'warmth' /wɔːmpθ/."
+      ],
+      "examples": [
+        {
+          "t": "Warmth /wɔːmpθ/, Something /ˈsʌmpθɪŋ/",
+          "m": "Epenthetic /p/ insertion"
+        },
+        {
+          "t": "Ten bags ➔ /tem bæɡz/, Good boy ➔ /ɡʊb bɔɪ/",
+          "m": "Place assimilation in fluent coarticulation"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "sociolinguistic_phonetics_accents",
+      "label": "Sociolinguistic Phonetic Variation",
+      "level": "C1",
+      "emoji": "🌐",
+      "definition": "Phonetic shifts across major regional accents and sociolinguistic registers",
+      "rules": [
+        "Systematic phonetic contrasts separate major international standards, such as rhoticity in General American vs non-rhotic Received Pronunciation.",
+        "Vowel shifts like the TRAP-BATH split in Southern British English contrast short /æ/ in 'cat' with broad /ɑː/ in 'dance' and 'path'."
+      ],
+      "examples": [
+        {
+          "t": "Car: RP /kɑː/ (non-rhotic) vs GA /kɑːr/ (rhotic)",
+          "m": "Rhoticity contrast"
+        },
+        {
+          "t": "Dance: RP /dɑːns/ vs GA /dæns/",
+          "m": "TRAP-BATH vowel split"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "phonological_stylistics_metrics",
+      "label": "Phonological Stylistics & Aesthetics",
+      "level": "C2",
+      "emoji": "🎭",
+      "definition": "Articulatory aesthetics, sound symbolism, alliteration, and metrical structures in formal speech",
+      "rules": [
+        "Phonological stylistics analyzes how acoustic properties (euphony, cacophony, sibilance) create emotional texture in literature and public rhetoric.",
+        "Metrical cadence in formal English depends on regular stress feet (iambs, trochees, dactyls) balancing spoken energy."
+      ],
+      "examples": [
+        {
+          "t": "Soft sibilance: 'Silently Slipped the Silver Serpent'",
+          "m": "Sibilant alliteration creating acoustic texture"
+        },
+        {
+          "t": "Iambic cadence: 'To BE or NOT to BE'",
+          "m": "Regular alternating stress feet"
+        }
+      ],
+      "practice_links": null
     }
   ]
 }

@@ -134,6 +134,60 @@
         }
       ],
       "practice_links": null
+    },
+    {
+      "id": "intonazione_periodo_ipotetico_concessione",
+      "label": "Intonazione del periodo ipotetico del 3° tipo",
+      "level": "B2",
+      "emoji": "📐",
+      "definition": "Profili intonativi nelle frasi ipotetiche dell'impossibilità e nelle concessioni",
+      "rules": [
+        "Nelle ipotesi dell'impossibilità (congiuntivo trapassato + condizionale passato), l'intonazione sale marcatamente sulla protasi e scende sulla frase principale.",
+        "Nelle concessive introdotte da 'per quanto', 'benché', l'intonazione sospensiva segnala il contrasto imminente."
+      ],
+      "examples": [
+        {
+          "t": "Se lo avessi saputo prima ↗, non sarei venuto ↘.",
+          "m": "Intonazione del periodo ipotetico dell'impossibilità"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "intonazione_argomentativa_persuasione",
+      "label": "Intonazione del discorso argomentativo",
+      "level": "C1",
+      "emoji": "🏛️",
+      "definition": "Mododulazione intonativa nella persuasione oratoria e nel dibattito formale",
+      "rules": [
+        "Nel discorso persuasivo, la voce utilizza toni medi fermi con picchi accentuativi calibrati sulle premesse e una marcata cadenza conclusiva.",
+        "Le contrapposizioni argomentative utilizzano una modulazione alternata di toni alti e bassi."
+      ],
+      "examples": [
+        {
+          "t": "Da un lato abbiamo la tradizione ↗, dall'altro l'innovazione indispensabile ↘.",
+          "m": "Contrasto intonativo argomentativo"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "intonazione_recitazione_dizione",
+      "label": "Intonazione della recitazione e tono aulico",
+      "level": "C2",
+      "emoji": "🎭",
+      "definition": "Regolazione melodica della recitazione teatrale, della lettura poetica e del tono aulico",
+      "rules": [
+        "La recitazione teatrale classica evita le inflessioni piatte del parlato quotidiano, estendendo l'arco intonativo sull'intera frase.",
+        "Il tono aulico mantiene una sostenuta continuità tonale fino alla pausa conclusiva."
+      ],
+      "examples": [
+        {
+          "t": "Essere, o non essere, questo è il problema... ↗↘",
+          "m": "Intonazione drammatica teatrale"
+        }
+      ],
+      "practice_links": null
     }
   ]
 }

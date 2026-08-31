@@ -134,6 +134,68 @@
         }
       ],
       "practice_links": null
+    },
+    {
+      "id": "attitudinal_intonation_nuance",
+      "label": "Attitudinal Intonation Contours",
+      "level": "B2",
+      "emoji": "🎭",
+      "definition": "Expressing subtle emotions, sarcasm, skepticism, or surprise through pitch movement",
+      "rules": [
+        "Rise-fall intonation ↗↘ expresses strong enthusiasm, approval, or dramatic emphasis.",
+        "High-fall intonation indicates finality and certainty, whereas low-rise conveys skepticism or incomplete thought."
+      ],
+      "examples": [
+        {
+          "t": "That's BRILLIANT! ↗↘",
+          "m": "Rise-fall expressing enthusiasm"
+        },
+        {
+          "t": "You think so...? ↘↗",
+          "m": "Low-rise pitch signaling skepticism"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "discourse_intonation_key",
+      "label": "Discourse Intonation & Pitch Key",
+      "level": "C1",
+      "emoji": "🎼",
+      "definition": "Structuring spoken discourse using high, mid, and low pitch keys to manage conversation flow",
+      "rules": [
+        "High pitch key initiates a new topic or contrasts with previous expectations.",
+        "Mid key maintains topic continuity, while low key signals background information or topic closure."
+      ],
+      "examples": [
+        {
+          "t": "[HIGH KEY] MOVING ON to the next point...",
+          "m": "High pitch key introducing a new discourse section"
+        },
+        {
+          "t": "[LOW KEY] as I mentioned earlier...",
+          "m": "Low pitch key for background reference"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "stylistic_rhetorical_intonation",
+      "label": "Stylistic & Rhetorical Pitch Movement",
+      "level": "C2",
+      "emoji": "📢",
+      "definition": "High-level intonational styling in formal lectures, media broadcasting, and persuasive public speech",
+      "rules": [
+        "Broadcasters and public speakers use extended pitch range and rhythmic pauses (cadence) to sustain listener engagement.",
+        "Parallel syntactic structures are mirrored intonationally to reinforce logical arguments."
+      ],
+      "examples": [
+        {
+          "t": "We shall pay ANY price ↗, bear ANY burden ↗, meet ANY hardship ↘.",
+          "m": "Parallel rising contours culminating in a conclusive fall"
+        }
+      ],
+      "practice_links": null
     }
   ]
 }

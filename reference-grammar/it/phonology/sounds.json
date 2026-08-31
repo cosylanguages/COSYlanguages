@@ -134,6 +134,64 @@
         }
       ],
       "practice_links": null
+    },
+    {
+      "id": "varianti_regionali_dizione_neutra",
+      "label": "Varianti regionali e dizione neutra",
+      "level": "B2",
+      "emoji": "🌐",
+      "definition": "Differenze fonetiche tra italiano neutro da dizione e italiano parlato regionale",
+      "rules": [
+        "L'italiano neutro (standard ortoepico) distingue la E ed O aperta/chiusa secondo la norma tradizionale (es. pésca frutto vs pèsca azione).",
+        "Le varianti regionali (settentrionale, centrale, meridionale) presentano sonorizzazioni della S intervocalica o gorgia toscana."
+      ],
+      "examples": [
+        {
+          "t": "Pésca (atto di pescare) vs Pèsca (frutto)",
+          "m": "Opposizione fonematica di dizione neutra"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "assimilazione_fonetica_regolativa",
+      "label": "Assimilazione fonetica in sintagmi",
+      "level": "C1",
+      "emoji": "🔬",
+      "definition": "Fenomeni di assimilazione consonantica regrediente nella catena parlata",
+      "rules": [
+        "Il prefisso in- o con- assimila la nasale /n/ in bilabiale /m/ davanti a consonanti bilabiali [p, b, m] (es. in+possibile ➔ impossibile).",
+        "La nasale n si dentalizza o velarizza davanti a consonanti velari [k, g] (es. banca /baŋka/)."
+      ],
+      "examples": [
+        {
+          "t": "In- + possibile ➔ Impossibile [imposˈsiːbile]",
+          "m": "Assimilazione bilabiale della nasale"
+        },
+        {
+          "t": "Banca [ˈbaŋka], Con Marco [kom ˈmarko]",
+          "m": "Assimilazione velare e labiale nel parlato continuo"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "ortoepia_fonetica_letteraria",
+      "label": "Ortoepia e fonetica letteraria",
+      "level": "C2",
+      "emoji": "🎭",
+      "definition": "Regole tradizionali dell'ortoepia classica e dizione teatrale italiana",
+      "rules": [
+        "L'ortoepia classica stabilisce la corretta apertura vocalica nel vocabolario colto e l'eliminazione dei regionalismi espressivi.",
+        "Nella recitazione classica si mantiene il rigore delle consonanti geminate e la chiarezza dei timbri vocalici."
+      ],
+      "examples": [
+        {
+          "t": "Scienza [ˈʃɛntsa] con E aperta e Z intensa",
+          "m": "Pronuncia ortoepica classica"
+        }
+      ],
+      "practice_links": null
     }
   ]
 }

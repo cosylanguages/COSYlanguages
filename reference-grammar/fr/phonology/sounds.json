@@ -134,6 +134,72 @@
         }
       ],
       "practice_links": null
+    },
+    {
+      "id": "liaisons_facultatives_style",
+      "label": "Liaisons facultatives et registres",
+      "level": "B2",
+      "emoji": "📜",
+      "definition": "Liaisons stylitiques et facultatives selon le niveau de langue",
+      "rules": [
+        "Les liaisons facultatives s'emploient dans le registre soutenu ou la lecture formelle (ex. après le verbe être, après les prépositions polysyllabiques).",
+        "Leur fréquence augmente avec la formalité du discours et diminue en français familier."
+      ],
+      "examples": [
+        {
+          "t": "Ils sont_arrivés /il sɔ̃taʁive/ (style soutenu)",
+          "m": "Liaison facultative après le verbe"
+        },
+        {
+          "t": "Pendant_un mois /pɑ̃dɑ̃tœ̃ mwa/",
+          "m": "Liaison facultative après préposition"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "assimilation_sonorite_articulatoire",
+      "label": "Assimilation de sonorité",
+      "level": "C1",
+      "emoji": "🔄",
+      "definition": "Modification de sonorité des consonnes en contact rapide",
+      "rules": [
+        "L'assimilation régressive assourdit une consonne sonore devant une consonne sourde (ex. un médecin /metsɛ̃/, une médecine /metsin/).",
+        "Elle sonorise une consonne sourde devant une consonne sonore (ex. un passeport /paspɔʁ/ vs un aneecdote /anɛɡdɔt/)."
+      ],
+      "examples": [
+        {
+          "t": "Médecin ➔ [mɛtsɛ̃] (D assourdi en T)",
+          "m": "Assimilation régressive d'assourdissement"
+        },
+        {
+          "t": "Anecdote ➔ [anɛɡdɔt] (C sonorisé en G)",
+          "m": "Assimilation régressive de sonorisation"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "orthoepie_variations_diatopiques",
+      "label": "Orthoépie et diction littéraire",
+      "level": "C2",
+      "emoji": "🎭",
+      "definition": "Règles d'orthoépie, diction théâtrale et distinctions régionales neutres",
+      "rules": [
+        "L'orthoépie traditionnelle maintient la distinction entre le A antérieur [a] et le A postérieur [ɑ] (patte vs pâte) et entre Brin [bʁɛ̃] et Brun [bʁœ̃].",
+        "La diction poétique ou théâtrale restaure la prononciation du E caduc pour maintenir le nombre de syllabes métriques."
+      ],
+      "examples": [
+        {
+          "t": "Brin [bʁɛ̃] vs Brun [bʁœ̃], Patte [pat] vs Pâte [pɑt]",
+          "m": "Distinctions voyelles traditionnelles en orthoépie"
+        },
+        {
+          "t": "Le jour // se lève ➔ 4 syllabes en déclamation",
+          "m": "Maintien du E caduc en diction littéraire"
+        }
+      ],
+      "practice_links": null
     }
   ]
 }
