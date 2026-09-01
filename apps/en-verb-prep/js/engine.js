@@ -1,22 +1,24 @@
 /**
  * COSYlanguages Standalone App — English Prepositions Engine (en-verb-prep)
  * Provides offline search, transitivity rules, dependent prepositions, phrasal verbs,
- * nouns, adjectives, cross-reference navigation & interactive practice game mode.
+ * nouns, adjectives, cross-reference navigation, spaced-repetition practice mode & dashboard.
  */
 
 class EnglishVerbPrepEngine {
     constructor() {
         this.dbMap = { verbs: {}, nouns: {}, adjectives: {} };
         this.currentWordType = 'verbs'; // 'verbs' | 'nouns' | 'adjectives'
+        this.appMode = 'practice'; // 'practice' | 'lookup' | 'dashboard'
         this.verbDb = {};
         this.verbKeys = [];
         this.filteredKeys = [];
         this.activeFilter = 'all';
         this.currentIndex = -1;
-        this.isGameActive = false;
-        this.gameScore = 0;
-        this.gameStreak = 0;
-        this.currentQuestion = null;
+
+        this.srsStore = null;
+        this.practice = null;
+        this.dashboard = null;
+
         this.init();
     }
 
@@ -32,11 +34,67 @@ class EnglishVerbPrepEngine {
             this.dbMap.nouns = await nounsRes.json();
             this.dbMap.adjectives = await adjRes.json();
 
+            this.srsStore = new SpacedRepetitionStore();
+            this.practice = new PracticeManager(this, this.srsStore);
+            this.dashboard = new DashboardManager(this, this.srsStore);
+
             this.setWordType('verbs');
             this.bindEvents();
+            this.setAppMode('practice');
         } catch (err) {
             console.error("Failed to load prepositions database:", err);
         }
+    }
+
+    setAppMode(mode) {
+        this.appMode = mode;
+
+        ['practice', 'lookup', 'dashboard'].forEach(m => {
+            const btn = document.getElementById(`nav-${m}-btn`);
+            const container = document.getElementById(`${m}-view-container`);
+            if (btn) {
+                if (m === mode) btn.classList.add('active');
+                else btn.classList.remove('active');
+            }
+            if (container) {
+                container.style.display = (m === mode) ? 'block' : 'none';
+            }
+        });
+
+        if (mode === 'practice') {
+            this.updateStreakWidget();
+            if (!this.practice.currentSession || this.practice.currentSession.length === 0) {
+                this.startNewPracticeSession();
+            }
+        } else if (mode === 'dashboard') {
+            if (this.dashboard) this.dashboard.renderDashboard();
+        }
+    }
+
+    updateStreakWidget() {
+        if (!this.srsStore) return;
+        const streakInfo = this.srsStore.getStreakInfo();
+        const streakEl = document.getElementById('practice-streak-count');
+        const goalEl = document.getElementById('practice-goal-sub');
+
+        if (streakEl) streakEl.textContent = streakInfo.streakDays;
+        if (goalEl) goalEl.textContent = `Goal: ${streakInfo.todayCount} / ${streakInfo.goal} sessions today`;
+    }
+
+    startNewPracticeSession() {
+        const levelSelect = document.getElementById('practice-level-select');
+        const typeSelect = document.getElementById('practice-type-select');
+
+        const lvl = levelSelect ? levelSelect.value : 'all';
+        const type = typeSelect ? typeSelect.value : 'all';
+
+        if (this.practice) {
+            this.practice.startSession(lvl, type);
+        }
+    }
+
+    onPracticeFilterChange() {
+        this.startNewPracticeSession();
     }
 
     setWordType(wordType) {
@@ -99,7 +157,6 @@ class EnglishVerbPrepEngine {
     setFilter(filterType) {
         this.activeFilter = filterType;
 
-        // Update active filter pill styling
         ['all', 'prep', 'phrasal', 'double'].forEach(f => {
             const btn = document.getElementById(`filter-${f}`);
             if (btn) {
@@ -110,7 +167,6 @@ class EnglishVerbPrepEngine {
 
         this.updateFilteredKeys();
 
-        // Re-run search if input has value
         const input = document.getElementById('verb-search-input');
         if (input && input.value.trim()) {
             this.handleSearchInput(input.value);
@@ -225,13 +281,11 @@ class EnglishVerbPrepEngine {
 
     searchVerb(query) {
         if (!query) return;
-        if (this.isGameActive) this.toggleGameMode();
 
         const cleanQuery = query.trim().toLowerCase();
         let matchedKey = this.verbKeys.find(k => k.toLowerCase() === cleanQuery);
 
         if (!matchedKey) {
-            // Partial match fallback
             matchedKey = this.verbKeys.find(k => k.toLowerCase().startsWith(cleanQuery));
         }
 
@@ -240,7 +294,6 @@ class EnglishVerbPrepEngine {
             this.currentIndex = pool.indexOf(matchedKey);
             this.renderVerbResult(matchedKey, this.verbDb[matchedKey]);
         } else {
-            // Dynamic fallback generator
             this.currentIndex = -1;
             const fallbackData = {
                 word_type: this.currentWordType.slice(0, -1),
@@ -376,7 +429,6 @@ class EnglishVerbPrepEngine {
         const refs = [];
         const targetTypes = ['verbs', 'nouns', 'adjectives'].filter(t => t !== currentType);
 
-        // Find quoted items like 'influence' or 'interested in' or 'rely on'
         const quotedMatches = text.match(/'([^']+)'/g) || [];
         const candidates = quotedMatches.map(m => m.slice(1, -1).trim());
 
@@ -400,11 +452,11 @@ class EnglishVerbPrepEngine {
     }
 
     navigateToCrossReference(targetType, targetKey) {
+        this.setAppMode('lookup');
         this.setWordType(targetType);
         this.searchVerb(targetKey);
     }
 
-    /* Sequential Item Navigation */
     navigateNext() {
         const pool = this.filteredKeys.length > 0 ? this.filteredKeys : this.verbKeys;
         if (pool.length === 0) return;
@@ -436,143 +488,6 @@ class EnglishVerbPrepEngine {
     resetDisplay() {
         document.getElementById('verb-result-container').style.display = 'none';
         document.getElementById('empty-state').style.display = 'block';
-    }
-
-    /* Interactive Practice Game Mode */
-    toggleGameMode() {
-        this.isGameActive = !this.isGameActive;
-        const toggleBtn = document.getElementById('toggle-game-btn');
-        const gameContainer = document.getElementById('game-container');
-        const searchContainer = document.getElementById('search-section-container');
-        const resultContainer = document.getElementById('verb-result-container');
-        const emptyState = document.getElementById('empty-state');
-
-        if (this.isGameActive) {
-            toggleBtn.textContent = '📖 Dictionary Mode';
-            toggleBtn.style.backgroundColor = 'var(--sage-primary)';
-            toggleBtn.style.color = '#ffffff';
-            gameContainer.style.display = 'block';
-            searchContainer.style.display = 'none';
-            resultContainer.style.display = 'none';
-            emptyState.style.display = 'none';
-            this.nextGameQuestion();
-        } else {
-            toggleBtn.textContent = '🎮 Practice Mode';
-            toggleBtn.style.backgroundColor = 'var(--cream-bg)';
-            toggleBtn.style.color = 'var(--sage-dark)';
-            gameContainer.style.display = 'none';
-            searchContainer.style.display = 'block';
-            this.resetDisplay();
-        }
-    }
-
-    nextGameQuestion() {
-        const pool = this.filteredKeys.length > 0 ? this.filteredKeys : this.verbKeys;
-        if (pool.length === 0) return;
-
-        const randomKey = pool[Math.floor(Math.random() * pool.length)];
-        const data = this.verbDb[randomKey];
-
-        const primaryPrep = data.prepositions?.[0] || 'none';
-        const transCode = data.transitivity_code || (data.word_type ? data.word_type.toUpperCase() : 'PREP');
-
-        // Pool of particles / prepositions
-        const prepPool = ['down', 'up', 'off', 'on', 'out of', 'into', 'for', 'to', 'from', 'with', 'none'];
-
-        // Build choices
-        let choices = [primaryPrep];
-        while (choices.length < 4) {
-            const randomPrep = prepPool[Math.floor(Math.random() * prepPool.length)];
-            if (!choices.includes(randomPrep)) {
-                choices.push(randomPrep);
-            }
-        }
-        // Shuffle choices
-        choices.sort(() => Math.random() - 0.5);
-
-        this.currentQuestion = {
-            verb: randomKey,
-            data: data,
-            expected: primaryPrep,
-            choices: choices
-        };
-
-        let displayPrompt = randomKey;
-        if (data.is_phrasal && primaryPrep !== 'none') {
-            const prepRegex = new RegExp(`\\b${primaryPrep.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&')}\\b`, 'i');
-            if (prepRegex.test(randomKey)) {
-                displayPrompt = randomKey.replace(prepRegex, '___');
-            }
-        }
-
-        document.getElementById('game-verb-prompt').textContent = displayPrompt;
-
-        const typeBadge = document.getElementById('game-type-badge');
-        if (data.is_phrasal) {
-            typeBadge.className = 'badge phrasal-badge';
-            typeBadge.textContent = `Phrasal Verb (${data.separability || 'Inseparable'})`;
-        } else if (data.word_type && data.word_type !== 'verb') {
-            typeBadge.className = 'badge phrasal-badge';
-            typeBadge.textContent = data.word_type === 'noun' ? 'Noun 📦' : 'Adjective 🎨';
-        } else {
-            typeBadge.className = 'badge prep-badge';
-            typeBadge.textContent = 'Verb + Preposition';
-        }
-
-        const transBadge = document.getElementById('game-transitivity-badge');
-        if (data.transitivity_code) {
-            transBadge.style.display = 'inline-block';
-            transBadge.textContent = `${data.transitivity} (${transCode})`;
-        } else {
-            transBadge.style.display = 'none';
-        }
-
-        const exampleSentence = data.examples?.[0] || `Word: ${randomKey}`;
-        let sentencePrompt = exampleSentence;
-        if (primaryPrep !== 'none') {
-            const prepRegex = new RegExp(`\\b${primaryPrep}\\b`, 'i');
-            sentencePrompt = exampleSentence.replace(prepRegex, `<strong class="blank-spot">[ ? ]</strong>`);
-        } else {
-            sentencePrompt = exampleSentence;
-        }
-
-        document.getElementById('game-sentence-prompt').innerHTML = `Sentence: "${sentencePrompt}"`;
-
-        const choiceGrid = document.getElementById('game-choice-options');
-        choiceGrid.style.display = 'grid';
-        choiceGrid.innerHTML = choices.map(choice => `
-            <button class="choice-btn" onclick="appEngine.checkGameChoice('${choice}')">
-                ${choice === 'none' ? 'No Preposition (Direct)' : choice}
-            </button>
-        `).join('');
-
-        document.getElementById('game-feedback-box').style.display = 'none';
-        document.getElementById('game-next-btn').style.display = 'none';
-    }
-
-    checkGameChoice(userChoice) {
-        if (!this.currentQuestion) return;
-
-        const feedback = document.getElementById('game-feedback-box');
-        feedback.style.display = 'block';
-        const expected = this.currentQuestion.expected;
-
-        if (userChoice.toLowerCase() === expected.toLowerCase()) {
-            this.gameScore += 10;
-            this.gameStreak += 1;
-            feedback.className = 'feedback-card correct';
-            feedback.innerHTML = `✅ Excellent! Correct particle/preposition for <strong>${this.currentQuestion.verb}</strong> is <strong>${expected === 'none' ? 'Direct Object (No Preposition)' : expected}</strong> (+10 pts).`;
-        } else {
-            this.gameStreak = 0;
-            feedback.className = 'feedback-card wrong';
-            feedback.innerHTML = `❌ Incorrect! <strong>${this.currentQuestion.verb}</strong> uses: <strong>${expected === 'none' ? 'Direct Object (No Preposition)' : expected}</strong>.<br><small style="margin-top:4px; display:inline-block;">Rule: ${this.currentQuestion.data.grammar_rule}</small>`;
-        }
-
-        document.getElementById('game-score').textContent = this.gameScore;
-        document.getElementById('game-streak').textContent = this.gameStreak;
-
-        document.getElementById('game-choice-options').style.display = 'none';
-        document.getElementById('game-next-btn').style.display = 'block';
     }
 }
 
