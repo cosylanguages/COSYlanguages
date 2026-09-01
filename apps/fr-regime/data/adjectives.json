@@ -1,0 +1,26 @@
+{
+  "content": {
+    "word_type": "adjective",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "être content de [nom / verbe]",
+    "level": "A1",
+    "definition": "Éprouver de la joie ou de la satisfaction.",
+    "grammar_rule": "Exige la préposition 'de' devant un nom ou un infinitif. Contractions du/des. Le verbe 'se réjouir' exige aussi 'de'.",
+    "related_forms": "⚡ Adjectif : 'content' ➜ forme apparentée : « se réjouir »",
+    "examples": [
+      "Je suis très content de mon nouveau travail.",
+      "Elle est contente de revoir ses amis."
+    ],
+    "common_mistake": "❌ Je suis content pour mon voyage. ➜ ✅ Je suis content de mon voyage.",
+    "synonyms": [
+      "heureux",
+      "satisfait"
+    ],
+    "antonyms": [
+      "mécontent",
+      "triste"
+    ]
+  }
+}

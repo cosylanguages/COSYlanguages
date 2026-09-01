@@ -1,11 +1,11 @@
 {
-  "name": "Régime prépositionnel des verbes français",
+  "name": "Régime prépositionnel : verbes, noms & adjectifs",
   "short_name": "Régime FR",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#FAF7F2",
   "theme_color": "#1b4332",
-  "description": "Guide et recherche du régime prépositionnel des verbes français offline.",
+  "description": "Guide unifié du régime prépositionnel des verbes, noms et adjectifs français offline.",
   "icons": [
     {
       "src": "../../images/logos/cosylanguages.png",

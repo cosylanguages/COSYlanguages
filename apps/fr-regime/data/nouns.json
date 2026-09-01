@@ -1,0 +1,26 @@
+{
+  "besoin": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "besoin de [nom / verbe]",
+    "level": "A1",
+    "definition": "Exigence fondamentale ou nécessité vitale d'avoir quelque chose.",
+    "grammar_rule": "Le nom 'besoin' prend la préposition 'de' (besoin de repos). Identique au verbe 'avoir besoin de'. Contractions du/des.",
+    "related_forms": "⚡ Nom : 'besoin' ➜ Verbe apparenté : « avoir besoin »",
+    "examples": [
+      "Il ressent un grand besoin de repos après le travail.",
+      "Le besoin d'eau est vital pour tous."
+    ],
+    "common_mistake": "❌ Il a un besoin à dormir. ➜ ✅ Il a un besoin de dormir.",
+    "synonyms": [
+      "nécessité",
+      "exigence"
+    ],
+    "antonyms": [
+      "superflu",
+      "luxe"
+    ]
+  }
+}
