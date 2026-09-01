@@ -208,15 +208,32 @@ class GreekGenderCasesEngine {
         let correctVal = data.cases ? data.cases[targetCase.key] : targetNoun;
 
         const distractors = new Set();
-        while (distractors.size < 3) {
-            const rndN = nouns[Math.floor(Math.random() * nouns.length)];
-            const rndC = caseMeta[Math.floor(Math.random() * caseMeta.length)];
-            const dData = this.nounDb[rndN];
-            let val = dData.cases ? dData.cases[rndC.key] : null;
-            if (val && val !== correctVal) distractors.add(val);
+        if (data.cases) {
+            Object.values(data.cases).forEach(val => {
+                if (typeof val === 'string' && val && val !== correctVal) {
+                    distractors.add(val);
+                } else if (Array.isArray(val)) {
+                    val.forEach(v => { if (v && v !== correctVal) distractors.add(v); });
+                }
+            });
         }
 
-        const options = [correctVal, ...Array.from(distractors)].sort(() => 0.5 - Math.random());
+        let distractorList = Array.from(distractors).sort(() => 0.5 - Math.random());
+
+        if (distractorList.length < 3) {
+            const cleanStem = targetNoun.endsWith('ος') || targetNoun.endsWith('ης') || targetNoun.endsWith('ας') || targetNoun.endsWith('ιο') ? targetNoun.slice(0, -2) : (targetNoun.endsWith('α') || targetNoun.endsWith('η') || targetNoun.endsWith('ο') ? targetNoun.slice(0, -1) : targetNoun);
+            const syntheticEndings = ['ου', 'ο', 'οι', 'ων', 'ους', 'ες', 'α'];
+            for (let end of syntheticEndings) {
+                let synthVal = cleanStem + end;
+                if (synthVal !== correctVal && !distractorList.includes(synthVal)) {
+                    distractorList.push(synthVal);
+                    if (distractorList.length >= 3) break;
+                }
+            }
+        }
+
+        distractorList = distractorList.slice(0, 3);
+        const options = [correctVal, ...distractorList].sort(() => 0.5 - Math.random());
 
         this.currentQuestion = { noun: targetNoun, caseName: targetCase.name, expected: correctVal, isCases: true };
 
