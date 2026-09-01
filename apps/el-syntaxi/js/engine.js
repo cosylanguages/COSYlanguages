@@ -13,6 +13,9 @@ class GreekSyntaxiEngine {
         this.activeFilter = 'all';
         this.currentIndex = -1;
         this.appMode = 'lookup';
+        this.gameScore = 0;
+        this.gameStreak = 0;
+        this.currentQuestion = null;
 
         this.init();
     }
@@ -311,6 +314,97 @@ class GreekSyntaxiEngine {
     resetDisplay() {
         document.getElementById('verb-result-container').style.display = 'none';
         document.getElementById('empty-state').style.display = 'block';
+    }
+
+    setAppMode(mode) {
+        this.appMode = mode;
+        const lookupView = document.getElementById('lookup-view-container');
+        const practiceView = document.getElementById('practice-view-container');
+        const lookupBtn = document.getElementById('nav-lookup-btn');
+        const practiceBtn = document.getElementById('nav-practice-btn');
+
+        if (mode === 'practice') {
+            lookupView.style.display = 'none';
+            practiceView.style.display = 'block';
+            if (lookupBtn) lookupBtn.className = 'nav-mode-btn';
+            if (practiceBtn) practiceBtn.className = 'nav-mode-btn active';
+            this.nextPracticeQuestion();
+        } else {
+            lookupView.style.display = 'block';
+            practiceView.style.display = 'none';
+            if (lookupBtn) lookupBtn.className = 'nav-mode-btn active';
+            if (practiceBtn) practiceBtn.className = 'nav-mode-btn';
+        }
+    }
+
+    formatGovPattern(data) {
+        if (!data || !data.government) return '';
+        const govStrings = data.government.map(g => {
+            const caseGreek = g.case === 'genitive' ? 'Γενική' : 'Αιτιατική';
+            return g.preposition ? `${g.preposition} + ${caseGreek}` : `${caseGreek} (χωρίς πρόθεση)`;
+        });
+        return govStrings.join(' / ');
+    }
+
+    nextPracticeQuestion() {
+        if (this.verbKeys.length === 0) return;
+
+        const targetVerb = this.verbKeys[Math.floor(Math.random() * this.verbKeys.length)];
+        const verbData = this.verbDb[targetVerb];
+        const correctGov = this.formatGovPattern(verbData);
+
+        const allPatterns = [];
+        for (const k of this.verbKeys) {
+            const pat = this.formatGovPattern(this.verbDb[k]);
+            if (pat && pat !== correctGov && !allPatterns.includes(pat)) {
+                allPatterns.push(pat);
+            }
+        }
+
+        allPatterns.sort(() => 0.5 - Math.random());
+        const distractors = allPatterns.slice(0, 3);
+        const choices = [correctGov, ...distractors].sort(() => 0.5 - Math.random());
+
+        this.currentQuestion = {
+            verb: targetVerb,
+            expected: correctGov,
+            data: verbData
+        };
+
+        document.getElementById('game-verb-prompt').textContent = targetVerb;
+        document.getElementById('game-cefr-badge').textContent = `Επίπεδο: ${verbData.level || 'A1'}`;
+        document.getElementById('game-def-prompt').textContent = verbData.definition || '';
+
+        const mcGroup = document.getElementById('game-mc-options');
+        mcGroup.innerHTML = choices.map(choice => `
+            <button class="choice-btn" onclick="appEngine.checkPracticeAnswer('${choice.replace(/'/g, "\\'")}')">${choice}</button>
+        `).join('');
+
+        document.getElementById('game-feedback-box').style.display = 'none';
+        document.getElementById('game-next-btn').style.display = 'none';
+    }
+
+    checkPracticeAnswer(selected) {
+        if (!this.currentQuestion) return;
+
+        const isCorrect = selected === this.currentQuestion.expected;
+        const feedbackBox = document.getElementById('game-feedback-box');
+        feedbackBox.style.display = 'block';
+
+        if (isCorrect) {
+            this.gameScore += 10;
+            this.gameStreak += 1;
+            feedbackBox.className = 'feedback-card correct';
+            feedbackBox.innerHTML = `✅ Σωστά! Το ρήμα <strong>${this.currentQuestion.verb}</strong> συντάσσεται με: <strong>${selected}</strong>. (+10 pti).`;
+        } else {
+            this.gameStreak = 0;
+            feedbackBox.className = 'feedback-card wrong';
+            feedbackBox.innerHTML = `❌ Λάθος! Η σωστή σύνταξη για το ρήμα <strong>${this.currentQuestion.verb}</strong> είναι: <strong>${this.currentQuestion.expected}</strong>.<br><small style="margin-top:4px; display:block;">📌 Κανόνας: ${this.currentQuestion.data.grammar_rule || ''}</small>`;
+        }
+
+        document.getElementById('game-score').textContent = this.gameScore;
+        document.getElementById('game-streak').textContent = this.gameStreak;
+        document.getElementById('game-next-btn').style.display = 'block';
     }
 }
 
