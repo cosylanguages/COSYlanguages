@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>English Verb Prepositions &amp; Phrasal Verbs | COSYlanguages</title>
+    <title>English Prepositions: Verbs, Nouns &amp; Adjectives | COSYlanguages</title>
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#1b4332">
@@ -16,8 +16,8 @@
             <div class="logo-badge">
                 <span class="brand-icon">🇬🇧</span>
                 <div class="brand-text">
-                    <h1>English Verbs &amp; Prepositions</h1>
-                    <p class="tagline">Transitivity, Dependent Prepositions, Phrasal Verbs &amp; Noun Contrasts</p>
+                    <h1>English Prepositions Engine</h1>
+                    <p class="tagline">Verbs, Nouns &amp; Adjectives — Transitivity, Dependent Prepositions &amp; Contrasts</p>
                 </div>
             </div>
 
@@ -34,8 +34,15 @@
         <!-- Search & Filter Bar -->
         <main class="app-main">
             <section id="search-section-container" class="search-section">
-                <!-- Filter Pills -->
-                <div class="filter-pills-bar">
+                <!-- Word Type Switcher Tabs -->
+                <div class="word-type-tab-bar">
+                    <button class="word-type-tab active" id="tab-verbs" onclick="appEngine.setWordType('verbs')">🏃 Verbs</button>
+                    <button class="word-type-tab" id="tab-nouns" onclick="appEngine.setWordType('nouns')">📦 Nouns</button>
+                    <button class="word-type-tab" id="tab-adjectives" onclick="appEngine.setWordType('adjectives')">🎨 Adjectives</button>
+                </div>
+
+                <!-- Filter Pills Bar -->
+                <div class="filter-pills-bar" id="filter-pills-bar">
                     <button class="filter-pill active" id="filter-all" onclick="appEngine.setFilter('all')">All Verbs</button>
                     <button class="filter-pill" id="filter-prep" onclick="appEngine.setFilter('prep')">Verb Prepositions</button>
                     <button class="filter-pill" id="filter-phrasal" onclick="appEngine.setFilter('phrasal')">Phrasal Verbs 🧩</button>
@@ -144,8 +151,8 @@
             <!-- Initial Empty State -->
             <section id="empty-state" class="empty-state-box">
                 <span class="empty-icon">🌿</span>
-                <h3>Search English verbs &amp; phrasal verbs</h3>
-                <p>Explore <strong style="color: var(--blue);">transitivity classifications</strong>, dependent prepositions, <strong style="color: var(--gold-cefr);">Verb vs. Noun Preposition Contrasts</strong> (e.g. <em>influence X me</em> vs. <em>an influence ON me</em>), phrasal verbs &amp; separability rules, clear examples, and pitfall fixes.</p>
+                <h3 id="empty-state-heading">Search English prepositions across Verbs, Nouns &amp; Adjectives</h3>
+                <p id="empty-state-description">Explore dependent prepositions, <strong style="color: var(--blue);">transitivity classifications</strong>, phrasal verbs, <strong style="color: var(--gold-cefr);">Verb vs. Noun vs. Adjective Preposition Contrasts</strong>, clear usage examples, and pitfall fixes.</p>
                 <div class="quick-tags">
                     <span>Essential Verbs (A0–B2):</span>
                     <button class="tag-btn" onclick="appEngine.searchVerb('influence')">influence</button>

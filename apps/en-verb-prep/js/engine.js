@@ -1,10 +1,13 @@
 /**
- * COSYlanguages Standalone App — English Verb Prepositions & Phrasal Verbs Engine (en-verb-prep)
- * Provides offline search, transitivity rules, dependent prepositions, phrasal verbs, separability, noun contrasts, sequential navigation & practice game mode.
+ * COSYlanguages Standalone App — English Prepositions Engine (en-verb-prep)
+ * Provides offline search, transitivity rules, dependent prepositions, phrasal verbs,
+ * nouns, adjectives, cross-reference navigation & interactive practice game mode.
  */
 
 class EnglishVerbPrepEngine {
     constructor() {
+        this.dbMap = { verbs: {}, nouns: {}, adjectives: {} };
+        this.currentWordType = 'verbs'; // 'verbs' | 'nouns' | 'adjectives'
         this.verbDb = {};
         this.verbKeys = [];
         this.filteredKeys = [];
@@ -19,13 +22,77 @@ class EnglishVerbPrepEngine {
 
     async init() {
         try {
-            const response = await fetch('data/verbs.json');
-            this.verbDb = await response.json();
-            this.verbKeys = Object.keys(this.verbDb);
-            this.updateFilteredKeys();
+            const [verbsRes, nounsRes, adjRes] = await Promise.all([
+                fetch('data/verbs.json'),
+                fetch('data/nouns.json'),
+                fetch('data/adjectives.json')
+            ]);
+
+            this.dbMap.verbs = await verbsRes.json();
+            this.dbMap.nouns = await nounsRes.json();
+            this.dbMap.adjectives = await adjRes.json();
+
+            this.setWordType('verbs');
             this.bindEvents();
         } catch (err) {
-            console.error("Failed to load verbs database:", err);
+            console.error("Failed to load prepositions database:", err);
+        }
+    }
+
+    setWordType(wordType) {
+        if (!this.dbMap[wordType]) return;
+        this.currentWordType = wordType;
+
+        // Update tab button styling
+        ['verbs', 'nouns', 'adjectives'].forEach(wt => {
+            const tabBtn = document.getElementById(`tab-${wt}`);
+            if (tabBtn) {
+                if (wt === wordType) tabBtn.classList.add('active');
+                else tabBtn.classList.remove('active');
+            }
+        });
+
+        // Update current DB reference and keys
+        this.verbDb = this.dbMap[this.currentWordType];
+        this.verbKeys = Object.keys(this.verbDb);
+
+        // Update filter pills bar based on word type
+        const filterBar = document.getElementById('filter-pills-bar');
+        if (filterBar) {
+            if (wordType === 'verbs') {
+                filterBar.innerHTML = `
+                    <button class="filter-pill active" id="filter-all" onclick="appEngine.setFilter('all')">All Verbs</button>
+                    <button class="filter-pill" id="filter-prep" onclick="appEngine.setFilter('prep')">Verb Prepositions</button>
+                    <button class="filter-pill" id="filter-phrasal" onclick="appEngine.setFilter('phrasal')">Phrasal Verbs 🧩</button>
+                    <button class="filter-pill" id="filter-double" onclick="appEngine.setFilter('double')">Double Prepositions 🔗</button>
+                `;
+            } else if (wordType === 'nouns') {
+                filterBar.innerHTML = `
+                    <button class="filter-pill active" id="filter-all" onclick="appEngine.setFilter('all')">All Nouns</button>
+                `;
+            } else if (wordType === 'adjectives') {
+                filterBar.innerHTML = `
+                    <button class="filter-pill active" id="filter-all" onclick="appEngine.setFilter('all')">All Adjectives</button>
+                `;
+            }
+        }
+
+        // Reset filter state
+        this.activeFilter = 'all';
+        this.updateFilteredKeys();
+
+        // Update search input placeholder
+        const input = document.getElementById('verb-search-input');
+        if (input) {
+            if (wordType === 'verbs') input.placeholder = "Search a verb (e.g. influence, affect, depend, answer, turn down, give up)...";
+            else if (wordType === 'nouns') input.placeholder = "Search a noun (e.g. reason for, interest in, visit to, effect on, lack of)...";
+            else if (wordType === 'adjectives') input.placeholder = "Search an adjective (e.g. good at, interested in, proud of, responsible for, dependent on)...";
+
+            if (input.value.trim()) {
+                this.handleSearchInput(input.value);
+            } else {
+                this.resetDisplay();
+            }
         }
     }
 
@@ -51,12 +118,16 @@ class EnglishVerbPrepEngine {
     }
 
     updateFilteredKeys() {
-        if (this.activeFilter === 'phrasal') {
-            this.filteredKeys = this.verbKeys.filter(k => this.verbDb[k].is_phrasal);
-        } else if (this.activeFilter === 'prep') {
-            this.filteredKeys = this.verbKeys.filter(k => !this.verbDb[k].is_phrasal);
-        } else if (this.activeFilter === 'double') {
-            this.filteredKeys = this.verbKeys.filter(k => this.verbDb[k].preposition_structure === 'double_phrasal');
+        if (this.currentWordType === 'verbs') {
+            if (this.activeFilter === 'phrasal') {
+                this.filteredKeys = this.verbKeys.filter(k => this.verbDb[k].is_phrasal);
+            } else if (this.activeFilter === 'prep') {
+                this.filteredKeys = this.verbKeys.filter(k => !this.verbDb[k].is_phrasal);
+            } else if (this.activeFilter === 'double') {
+                this.filteredKeys = this.verbKeys.filter(k => this.verbDb[k].preposition_structure === 'double_phrasal');
+            } else {
+                this.filteredKeys = [...this.verbKeys];
+            }
         } else {
             this.filteredKeys = [...this.verbKeys];
         }
@@ -117,7 +188,16 @@ class EnglishVerbPrepEngine {
         if (matches.length > 0 && suggestionsBox) {
             suggestionsBox.innerHTML = matches.slice(0, 6).map(key => {
                 const data = this.verbDb[key];
-                const typeLabel = data.is_phrasal ? 'Phrasal Verb' : `${data.transitivity} (${data.transitivity_code})`;
+                let typeLabel = '';
+                if (data.is_phrasal) {
+                    typeLabel = 'Phrasal Verb';
+                } else if (data.transitivity_code) {
+                    typeLabel = `${data.transitivity} (${data.transitivity_code})`;
+                } else if (data.word_type) {
+                    typeLabel = data.word_type.toUpperCase();
+                } else {
+                    typeLabel = this.currentWordType.slice(0, -1).toUpperCase();
+                }
                 return `
                 <div class="suggestion-item" onclick="appEngine.selectSuggestion('${key}')">
                     <span><strong>${key}</strong></span>
@@ -163,19 +243,18 @@ class EnglishVerbPrepEngine {
             // Dynamic fallback generator
             this.currentIndex = -1;
             const fallbackData = {
+                word_type: this.currentWordType.slice(0, -1),
                 is_phrasal: cleanQuery.includes(' '),
-                transitivity: "Transitive",
-                transitivity_code: "VT",
                 prepositions: ["none"],
-                pattern: `${cleanQuery} [direct object]`,
+                pattern: `${cleanQuery} [object]`,
                 level: "A2",
-                definition: `Action or state of '${cleanQuery}'.`,
-                grammar_rule: `English verb '${cleanQuery}'. Ensure correct subject-verb agreement and object pattern.`,
+                definition: `Action or concept of '${cleanQuery}'.`,
+                grammar_rule: `English '${cleanQuery}'. Ensure correct preposition and object usage.`,
                 examples: [
-                    `She always tries to ${cleanQuery} accurately.`,
-                    `They decided to ${cleanQuery} the situation carefully.`
+                    `She always tries to use ${cleanQuery} accurately.`,
+                    `They examined ${cleanQuery} carefully.`
                 ],
-                common_mistake: `⚠️ Check whether '${cleanQuery}' requires a dependent preposition or particle.`,
+                common_mistake: `⚠️ Check whether '${cleanQuery}' requires a dependent preposition.`,
                 synonyms: [],
                 antonyms: []
             };
@@ -190,11 +269,14 @@ class EnglishVerbPrepEngine {
 
         document.getElementById('verb-title').textContent = verbKey;
 
-        // Phrasal Verb Badge
+        // Phrasal Verb / Word Type Badge
         const phrasalBadge = document.getElementById('phrasal-badge');
         if (data.is_phrasal) {
             phrasalBadge.style.display = 'inline-block';
             phrasalBadge.textContent = 'Phrasal Verb 🧩';
+        } else if (data.word_type && data.word_type !== 'verb') {
+            phrasalBadge.style.display = 'inline-block';
+            phrasalBadge.textContent = data.word_type === 'noun' ? 'Noun 📦' : 'Adjective 🎨';
         } else {
             phrasalBadge.style.display = 'none';
         }
@@ -210,13 +292,18 @@ class EnglishVerbPrepEngine {
 
         // Transitivity Badge
         const transBadge = document.getElementById('transitivity-badge');
-        transBadge.textContent = `${data.transitivity} (${data.transitivity_code})`;
-        if (data.transitivity_code === 'VT') {
-            transBadge.className = 'badge trans-vt';
-        } else if (data.transitivity_code === 'VI') {
-            transBadge.className = 'badge trans-vi';
+        if (data.transitivity_code) {
+            transBadge.style.display = 'inline-block';
+            transBadge.textContent = `${data.transitivity} (${data.transitivity_code})`;
+            if (data.transitivity_code === 'VT') {
+                transBadge.className = 'badge trans-vt';
+            } else if (data.transitivity_code === 'VI') {
+                transBadge.className = 'badge trans-vi';
+            } else {
+                transBadge.className = 'badge trans-both';
+            }
         } else {
-            transBadge.className = 'badge trans-both';
+            transBadge.style.display = 'none';
         }
 
         // Preposition / Particle Badge
@@ -231,11 +318,22 @@ class EnglishVerbPrepEngine {
         document.getElementById('verb-definition').textContent = data.definition || 'Definition unavailable.';
         document.getElementById('verb-pattern-text').textContent = data.pattern || verbKey;
 
-        // Noun Parallel Contrast Box
+        // Noun Parallel or Related Forms Box
         const nounParallelBox = document.getElementById('noun-parallel-container');
         const nounParallelText = document.getElementById('noun-parallel-text');
-        if (data.noun_parallel) {
-            nounParallelText.textContent = data.noun_parallel;
+        const contrastContent = data.related_forms || data.noun_parallel;
+
+        if (contrastContent) {
+            const crossRefs = this.extractCrossReferences(contrastContent, this.currentWordType);
+            let html = `<div>${contrastContent}</div>`;
+            if (crossRefs.length > 0) {
+                html += `<div style="margin-top: 0.5rem; display: flex; gap: 0.4rem; flex-wrap: wrap;">`;
+                crossRefs.forEach(ref => {
+                    html += `<button class="xref-chip" onclick="appEngine.navigateToCrossReference('${ref.type}', '${ref.key.replace(/'/g, "\\'")}')">${ref.label}</button>`;
+                });
+                html += `</div>`;
+            }
+            nounParallelText.innerHTML = html;
             nounParallelBox.style.display = 'block';
         } else {
             nounParallelBox.style.display = 'none';
@@ -271,6 +369,39 @@ class EnglishVerbPrepEngine {
         } else {
             document.getElementById('antonyms-container').style.display = 'none';
         }
+    }
+
+    extractCrossReferences(text, currentType) {
+        if (!text) return [];
+        const refs = [];
+        const targetTypes = ['verbs', 'nouns', 'adjectives'].filter(t => t !== currentType);
+
+        // Find quoted items like 'influence' or 'interested in' or 'rely on'
+        const quotedMatches = text.match(/'([^']+)'/g) || [];
+        const candidates = quotedMatches.map(m => m.slice(1, -1).trim());
+
+        targetTypes.forEach(type => {
+            const db = this.dbMap[type] || {};
+            const dbKeys = Object.keys(db);
+
+            candidates.forEach(cand => {
+                let matchedKey = dbKeys.find(k => k.toLowerCase() === cand.toLowerCase());
+                if (!matchedKey) {
+                    matchedKey = dbKeys.find(k => cand.toLowerCase().includes(k.toLowerCase()) || k.toLowerCase().includes(cand.toLowerCase()));
+                }
+                if (matchedKey && !refs.some(r => r.type === type && r.key === matchedKey)) {
+                    let labelType = type === 'verbs' ? 'Verb' : (type === 'nouns' ? 'Noun' : 'Adjective');
+                    refs.push({ type, key: matchedKey, label: `➜ See ${labelType}: "${matchedKey}"` });
+                }
+            });
+        });
+
+        return refs;
+    }
+
+    navigateToCrossReference(targetType, targetKey) {
+        this.setWordType(targetType);
+        this.searchVerb(targetKey);
     }
 
     /* Sequential Item Navigation */
@@ -343,7 +474,7 @@ class EnglishVerbPrepEngine {
         const data = this.verbDb[randomKey];
 
         const primaryPrep = data.prepositions?.[0] || 'none';
-        const transCode = data.transitivity_code;
+        const transCode = data.transitivity_code || (data.word_type ? data.word_type.toUpperCase() : 'PREP');
 
         // Pool of particles / prepositions
         const prepPool = ['down', 'up', 'off', 'on', 'out of', 'into', 'for', 'to', 'from', 'with', 'none'];
@@ -380,14 +511,23 @@ class EnglishVerbPrepEngine {
         if (data.is_phrasal) {
             typeBadge.className = 'badge phrasal-badge';
             typeBadge.textContent = `Phrasal Verb (${data.separability || 'Inseparable'})`;
+        } else if (data.word_type && data.word_type !== 'verb') {
+            typeBadge.className = 'badge phrasal-badge';
+            typeBadge.textContent = data.word_type === 'noun' ? 'Noun 📦' : 'Adjective 🎨';
         } else {
             typeBadge.className = 'badge prep-badge';
             typeBadge.textContent = 'Verb + Preposition';
         }
 
-        document.getElementById('game-transitivity-badge').textContent = `${data.transitivity} (${transCode})`;
+        const transBadge = document.getElementById('game-transitivity-badge');
+        if (data.transitivity_code) {
+            transBadge.style.display = 'inline-block';
+            transBadge.textContent = `${data.transitivity} (${transCode})`;
+        } else {
+            transBadge.style.display = 'none';
+        }
 
-        const exampleSentence = data.examples?.[0] || `Verb: ${randomKey}`;
+        const exampleSentence = data.examples?.[0] || `Word: ${randomKey}`;
         let sentencePrompt = exampleSentence;
         if (primaryPrep !== 'none') {
             const prepRegex = new RegExp(`\\b${primaryPrep}\\b`, 'i');
