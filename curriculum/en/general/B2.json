@@ -373,7 +373,7 @@
             "Descriptive sentence cadence in literary critique"
           ],
           "vocabulary": [
-            "Monolothic",
+            "Monolithic",
             "Intricate",
             "Exquisite",
             "Minimalist",
@@ -460,7 +460,7 @@
     },
     {
       "unit": 8,
-      "title": "Unit 8: B2 Master Mastery & Socio-Cultural Integration",
+      "title": "Unit 8: Socio-Cultural Diversity, Migration & Intercultural Dynamics",
       "lessons": [
         {
           "lesson": 1,
@@ -494,6 +494,137 @@
         },
         {
           "lesson": 2,
+          "type": "gv",
+          "title": "Conditionals & Subjunctive Devices in Public Policy Debates",
+          "duration_minutes": 60,
+          "grammar": [
+            "Mixed conditionals and inverted structures in social policy framing",
+            "Softened assertions in intercultural dialogue"
+          ],
+          "vocabulary": [
+            "Demographic",
+            "Expatriate",
+            "Diaspora",
+            "Multiculturalism",
+            "Humanitarian",
+            "Refugee status",
+            "Xenophobia",
+            "Tolerance",
+            "Equity",
+            "Belonging"
+          ],
+          "practice_types": [
+            "speaking",
+            "listening",
+            "reading",
+            "writing"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "code: \"EN-B2-016\"\ncando: \"Can debate migration policies, diaspora dynamics, and social equity with appropriate register and nuance\""
+        }
+      ]
+    },
+    {
+      "unit": 9,
+      "title": "Unit 9: Media Literacy, Crisis Communication & Public Relations",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "gv",
+          "title": "Reporting Structures & Passive Spin Control",
+          "duration_minutes": 60,
+          "grammar": [
+            "Advanced reporting verbs with prepositions and gerunds (accuse of -ing, congratulate on -ing, blame for -ing)",
+            "Passive stance framing in press statements"
+          ],
+          "vocabulary": [
+            "Press conference",
+            "Media spin",
+            "Crisis management",
+            "Damage control",
+            "Spokesperson",
+            "Press release",
+            "Broadcasting",
+            "Journalistic integrity",
+            "Misinformation",
+            "Sensationalism"
+          ],
+          "practice_types": [
+            "speaking",
+            "listening",
+            "reading",
+            "writing"
+          ],
+          "speaking_percent": 55,
+          "teacher_notes": "code: \"EN-B2-017\"\ncando: \"Can manage press conferences, handle hostile questioning, and frame corporate response in crisis communications\""
+        },
+        {
+          "lesson": 2,
+          "type": "gv",
+          "title": "Rhetorical Questioning, Metaphor & Persuasive Cadence",
+          "duration_minutes": 60,
+          "grammar": [
+            "Rhetorical questioning and parallel structures in public relations speeches",
+            "Extended metaphors in persuasive rhetoric"
+          ],
+          "vocabulary": [
+            "Persuasion",
+            "Narrative arc",
+            "Key message",
+            "Target audience",
+            "Endorsement",
+            "Campaign",
+            "Slogan",
+            "Rebuttal",
+            "Clarification",
+            "Call to action"
+          ],
+          "practice_types": [
+            "speaking",
+            "listening",
+            "writing"
+          ],
+          "speaking_percent": 60,
+          "teacher_notes": "code: \"EN-B2-018\"\ncando: \"Can deliver persuasive public relations addresses and craft compelling campaign narratives\""
+        }
+      ]
+    },
+    {
+      "unit": 10,
+      "title": "Unit 10: Academic Research, Ethics & B2 Course Consolidation",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "gv",
+          "title": "Hedging & Academic Citation Mechanics",
+          "duration_minutes": 60,
+          "grammar": [
+            "Hedging claims in academic writing (it appears that, data indicates, may arguably suggest)",
+            "Citation integration and parenthetical reporting"
+          ],
+          "vocabulary": [
+            "Methodology",
+            "Literature review",
+            "Hypothesis",
+            "Citation",
+            "Plagiarism",
+            "Empirical",
+            "Data set",
+            "Correlation",
+            "Abstract",
+            "Peer review"
+          ],
+          "practice_types": [
+            "speaking",
+            "listening",
+            "reading",
+            "writing"
+          ],
+          "speaking_percent": 45,
+          "teacher_notes": "code: \"EN-B2-019\"\ncando: \"Can present research findings, formulate empirical hypotheses, and hedge academic conclusions responsibly\""
+        },
+        {
+          "lesson": 2,
           "type": "srev",
           "title": "B2 General Course Master Review & Examination",
           "duration_minutes": 90,
@@ -501,7 +632,7 @@
             "Comprehensive master review of B2 grammar systems: inversion, mandative subjunctive, distancing passives, clefts, hedging, and advanced discourse markers"
           ],
           "vocabulary": [
-            "ALL Unit 1-8 Advanced Vocabulary",
+            "ALL Unit 1-10 Advanced Vocabulary",
             "B2 Corporate & Geopolitical Lexicon",
             "B2 Rhetorical Devices"
           ],
@@ -512,7 +643,7 @@
             "writing"
           ],
           "speaking_percent": 75,
-          "teacher_notes": "code: \"EN-B2-016\"\ncando: \"Can demonstrate full B2 upper-intermediate/vantage level mastery across executive, academic, geopolitical, and socio-cultural scenarios\""
+          "teacher_notes": "code: \"EN-B2-020\"\ncando: \"Can demonstrate full B2 upper-intermediate/vantage level mastery across executive, academic, geopolitical, and socio-cultural scenarios\""
         }
       ]
     }

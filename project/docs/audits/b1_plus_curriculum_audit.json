@@ -27,22 +27,22 @@
         "B2": {
           "json_exists": true,
           "md_exists": true,
-          "units_count": 8,
-          "lessons_count": 16,
+          "units_count": 10,
+          "lessons_count": 20,
           "status": "COMPLETE"
         },
         "C1": {
           "json_exists": true,
           "md_exists": true,
-          "units_count": 5,
-          "lessons_count": 15,
+          "units_count": 7,
+          "lessons_count": 21,
           "status": "COMPLETE"
         },
         "C2": {
           "json_exists": true,
           "md_exists": true,
-          "units_count": 6,
-          "lessons_count": 12,
+          "units_count": 10,
+          "lessons_count": 20,
           "status": "COMPLETE"
         }
       },
