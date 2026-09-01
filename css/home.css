@@ -25,6 +25,15 @@
 
 /* ── Course Card Specifics ─────────────────────────── */
 .cc-icon { font-size: 2.2rem; margin-bottom: var(--space-lg); }
+.btn-card-on-dark {
+  border-color: rgba(255, 255, 255, 0.6) !important;
+  color: #ffffff !important;
+}
+.btn-card-on-dark:hover {
+  background: rgba(255, 255, 255, 0.2) !important;
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+}
 .cc-title { font-size: 1.55rem; font-weight: 600; margin-bottom: var(--space-sm); line-height: 1.2; }
 .cc-speak { display: flex; align-items: center; gap: 8px; font-size: .88rem; font-weight: 800; margin-bottom: var(--space-md); color: var(--coral); }
 .cc-desc { font-size: .94rem; line-height: 1.6; margin-bottom: var(--space-xl); opacity: .8; flex-grow: 1; min-height: 80px; }
