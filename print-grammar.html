@@ -197,8 +197,8 @@
 <main class="print-container">
     <div id="print-content">
         <!-- Content will be loaded dynamically -->
-        <h1 style="text-align: center; font-family: 'Lora', serif; color: var(--sage-dark);">Grammar Reference</h1>
-        <p style="text-align: center; color: #888;">Select a language and level to generate a printable guide.</p>
+        <h1 class="cog-section-title hero-inner-centered">Grammar Reference</h1>
+        <p class="grammar-empty-msg">Select a language and level to generate a printable guide.</p>
     </div>
 </main>
 
@@ -323,10 +323,10 @@ async function loadPrintData() {
 
 function renderPrintPage(lang, level, type) {
     let headerHtml = `
-        <div style="text-align:center; margin-bottom: 2rem; border-bottom: 3px double var(--sage-deep); padding-bottom: 1.5rem;">
-            <img src="images/logos/cosylanguages.png" alt="COSYlanguages" style="height: 50px; margin-bottom: 0.5rem;">
-            <h1 style="font-family: 'Lora', serif; color: var(--sage-deep); font-size: 2.2rem; margin: 0;">${lang.toUpperCase()} Grammar Guide</h1>
-            <div style="font-weight: 800; text-transform: uppercase; color: var(--honey-dark); letter-spacing: 2px; margin-top: 0.5rem;">Level: ${level.toUpperCase()} — Category: ${type.toUpperCase()}</div>
+        <div class="grammar-header-banner">
+            <img src="images/logos/cosylanguages.png" alt="COSYlanguages" class="grammar-header-logo">
+            <h1 class="grammar-header-title">${lang.toUpperCase()} Grammar Guide</h1>
+            <div class="grammar-header-meta">Level: ${level.toUpperCase()} — Category: ${type.toUpperCase()}</div>
         </div>
     `;
 
@@ -338,7 +338,7 @@ function renderPrintPage(lang, level, type) {
         const verbs = [...loadedVerbs, ...vocabVerbs];
         const filtered = verbs.filter(v => v && v.word && (v.level === level || (!v.level && level === 'starter')));
         if (filtered.length === 0) {
-            dataHtml = `<div style="text-align:center; color:#666; padding: 2rem;">No verb conjugation datasets found for this level.</div>`;
+            dataHtml = `<div class="grammar-empty-msg">No verb conjugation datasets found for this level.</div>`;
         } else {
             dataHtml = `<div class="cards-grid">` + filtered.map(v => renderVerbCard(v, lang)).join('') + `</div>`;
         }
@@ -346,7 +346,7 @@ function renderPrintPage(lang, level, type) {
         const vocab = window.vocabularyData?.[lang] || [];
         const nouns = vocab.filter(v => v && v.word && v.form === 'noun' && (v.level === level || (!v.level && level === 'starter')));
         if (nouns.length === 0) {
-            dataHtml = `<div style="text-align:center; color:#666; padding: 2rem;">No noun declension datasets found for this level.</div>`;
+            dataHtml = `<div class="grammar-empty-msg">No noun declension datasets found for this level.</div>`;
         } else {
             dataHtml = `<div class="cards-grid">` + nouns.map(n => renderNounCard(n, lang)).join('') + `</div>`;
         }
@@ -354,7 +354,7 @@ function renderPrintPage(lang, level, type) {
         const vocab = window.vocabularyData?.[lang] || [];
         const adjectives = vocab.filter(v => v && v.word && v.form === 'adjective' && (v.level === level || (!v.level && level === 'starter')));
         if (adjectives.length === 0) {
-            dataHtml = `<div style="text-align:center; color:#666; padding: 2rem;">No adjective inflection datasets found for this level.</div>`;
+            dataHtml = `<div class="grammar-empty-msg">No adjective inflection datasets found for this level.</div>`;
         } else {
             dataHtml = `<div class="cards-grid">` + adjectives.map(a => renderAdjectiveCard(a, lang)).join('') + `</div>`;
         }

@@ -965,10 +965,10 @@
             setTimeout(() => {
                 const pt = PIVOT_TRANSLATIONS[selectedLang] || PIVOT_TRANSLATIONS['en'];
                 const pivotHtml = `
-                    <div class="question-card" style="display: block; text-align: center; padding: 2.5rem 1.5rem; border: 2px dashed var(--honey-dark, #b7791f); border-radius: 12px; background: var(--honey-pale); box-shadow: 0 4px 15px rgba(183,121,31,0.05); animation: fadeIn 0.4s ease;">
-                        <div style="font-size: 3rem; margin-bottom: 1rem;">⚡</div>
-                        <div class="question-text" style="color: var(--honey-dark, #b7791f); font-family: 'Lora', serif; font-size: 1.45rem; margin-bottom: 1rem;">${pt.title}</div>
-                        <p style="font-size: 1.05rem; color: var(--ink-soft); line-height: 1.6; max-width: 500px; margin: 0 auto 1.5rem;">
+                    <div class="question-card power-test-card">
+                        <div class="power-test-icon">⚡</div>
+                        <div class="question-text power-test-title">${pt.title}</div>
+                        <p class="power-test-sub">
                             ${pt.desc}
                         </p>
                     </div>
