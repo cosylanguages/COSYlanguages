@@ -51,7 +51,7 @@ class DashboardManager {
                     <div class="dash-cell">
                         <div class="cell-level">${lvl}</div>
                         <div class="cell-bar-box">
-                            <div class="cell-bar-fill" style="width: ${percent}%;"></div>
+                            <div class="cell-bar-fill" style="--percent-width: ${percent}%; width: ${percent}%;"></div>
                         </div>
                         <div class="cell-text">${lvlMastered} / ${lvlKeys.length} (${percent}%)</div>
                     </div>

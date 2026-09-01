@@ -272,7 +272,7 @@ class ItalianReggenzaEngine {
                 return `
                 <div class="suggestion-item" onclick="appEngine.selectSuggestion('${key.replace(/'/g, "\\'")}')">
                     <span><strong>${key}</strong>${proLabel}</span>
-                    <span style="color: var(--sage-primary); font-size: 0.85rem; font-weight: 600;">${prepLabel}</span>
+                    <span class="text-label-sage">${prepLabel}</span>
                 </div>
             `;
             }).join('');
@@ -378,7 +378,7 @@ class ItalianReggenzaEngine {
             const crossRefs = this.extractCrossReferences(contrastContent, this.currentWordType);
             let html = `<div>${contrastContent}</div>`;
             if (crossRefs.length > 0) {
-                html += `<div style="margin-top: 0.5rem; display: flex; gap: 0.4rem; flex-wrap: wrap;">`;
+                html += `<div class="chips-top-spaced">`;
                 crossRefs.forEach(ref => {
                     html += `<button class="xref-chip" onclick="appEngine.navigateToCrossReference('${ref.type}', '${ref.key.replace(/'/g, "\\'")}')">${ref.label}</button>`;
                 });

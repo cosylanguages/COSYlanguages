@@ -144,8 +144,8 @@ class PracticeManager {
                 ${choiceButtonsHtml}
             </div>
 
-            <div id="practice-feedback-box" class="inline-feedback-card" style="display: none;"></div>
-            <button id="practice-next-btn" class="game-btn" style="display: none;" onclick="appEngine.practice.nextQuestion()">Continua ➔</button>
+            <div id="practice-feedback-box" class="inline-feedback-card hidden"></div>
+            <button id="practice-next-btn" class="game-btn hidden" onclick="appEngine.practice.nextQuestion()">Continua ➔</button>
         `;
     }
 
