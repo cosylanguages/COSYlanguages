@@ -1,0 +1,49 @@
+{
+  "language": "en",
+  "course_type": "professional",
+  "level": "B2",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Business Negotiations & Workplace Leadership",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "spoken",
+          "title": "Commercial Negotiations & Compromise",
+          "grammar": [
+            "Conditionals (First & Second) in bargaining",
+            "Hedging language"
+          ],
+          "vocabulary": [
+            "Bargain",
+            "Trade-off",
+            "Terms",
+            "Contract",
+            "Agreement",
+            "Concede"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-001\"\ncando: \"Can negotiate commercial terms and propose mutual trade-offs in business deals.\""
+        },
+        {
+          "lesson": 2,
+          "type": "spoken",
+          "title": "Delivering Corporate Presentations & Q&A",
+          "grammar": [
+            "Signposting language",
+            "Passive voice for objective reporting"
+          ],
+          "vocabulary": [
+            "Overview",
+            "Metric",
+            "Strategy",
+            "Forecast",
+            "Stakeholder",
+            "ROI"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-002\"\ncando: \"Can structure and deliver professional slide presentations and manage audience Q&A.\""
+        }
+      ]
+    }
+  ]
+}

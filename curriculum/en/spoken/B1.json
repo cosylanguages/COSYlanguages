@@ -1,0 +1,47 @@
+{
+  "language": "en",
+  "course_type": "spoken",
+  "level": "B1",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Conversational Fluency & Spoken Interaction",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "spoken",
+          "title": "Expressing & Justifying Opinions",
+          "grammar": [
+            "In my opinion...",
+            "Because / As a result",
+            "First conditional for future results"
+          ],
+          "vocabulary": [
+            "Perspective",
+            "Believe",
+            "Argue",
+            "Advantage",
+            "Disadvantage"
+          ],
+          "teacher_notes": "code: \"EN-SPK-B1-001\"\ncando: \"Can express clear personal opinions and justify choices in discussions.\""
+        },
+        {
+          "lesson": 2,
+          "type": "spoken",
+          "title": "Polite Disagreement & Interrupting",
+          "grammar": [
+            "Modal verbs for politeness (could, would)",
+            "Question tags for checking"
+          ],
+          "vocabulary": [
+            "I see your point, but...",
+            "May I add something?",
+            "Respectfully",
+            "Alternative"
+          ],
+          "teacher_notes": "code: \"EN-SPK-B1-002\"\ncando: \"Can interrupt politely and express disagreement diplomatically in group discussions.\""
+        }
+      ]
+    }
+  ]
+}

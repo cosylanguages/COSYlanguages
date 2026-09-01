@@ -1,0 +1,49 @@
+{
+  "language": "en",
+  "course_type": "travelling",
+  "level": "A1",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Travel Essentials & Getting Around",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Airport & Transit Vocabulary",
+          "grammar": [
+            "Where is...?",
+            "Ticket / Passport / Luggage"
+          ],
+          "vocabulary": [
+            "Airport",
+            "Boarding pass",
+            "Gate",
+            "Luggage",
+            "Customs",
+            "Passport"
+          ],
+          "teacher_notes": "code: \"EN-TRV-A1-001\"\ncando: \"Can navigate airport check-in, passport control, and luggage claim.\""
+        },
+        {
+          "lesson": 2,
+          "type": "spoken",
+          "title": "Hotel Check-In & Reservations",
+          "grammar": [
+            "I have a reservation for...",
+            "Can I have...?"
+          ],
+          "vocabulary": [
+            "Hotel",
+            "Reservation",
+            "Room",
+            "Key card",
+            "Wi-Fi",
+            "Breakfast"
+          ],
+          "teacher_notes": "code: \"EN-TRV-A1-002\"\ncando: \"Can check into a hotel and request basic room amenities.\""
+        }
+      ]
+    }
+  ]
+}

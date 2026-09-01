@@ -1,0 +1,49 @@
+{
+  "language": "en",
+  "course_type": "travelling",
+  "level": "A2",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Navigating Destinations & Local Experiences",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "spoken",
+          "title": "Ordering Local Food & Special Requests",
+          "grammar": [
+            "Could we get the menu?",
+            "I am allergic to..."
+          ],
+          "vocabulary": [
+            "Specialty",
+            "Bill",
+            "Tip",
+            "Allergy",
+            "Recommendation",
+            "Delicious"
+          ],
+          "teacher_notes": "code: \"EN-TRV-A2-001\"\ncando: \"Can order regional dishes, communicate dietary needs, and handle payment.\""
+        },
+        {
+          "lesson": 2,
+          "type": "spoken",
+          "title": "Handling Travel Delays & Transport Changes",
+          "grammar": [
+            "What time does the train leave?",
+            "Is there a delay?"
+          ],
+          "vocabulary": [
+            "Delay",
+            "Cancelled",
+            "Platform",
+            "Schedule",
+            "Transfer",
+            "Refund"
+          ],
+          "teacher_notes": "code: \"EN-TRV-A2-002\"\ncando: \"Can ask about timetable changes, ticket exchanges, and travel delays.\""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "language": "en",
+  "course_type": "spoken",
+  "level": "C1",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Executive Spoken Rhetoric & Register Mastery",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "spoken",
+          "title": "Rhetorical Devices & Persuasive Monologues",
+          "grammar": [
+            "Inversion for emphasis",
+            "Advanced cleft sentences"
+          ],
+          "vocabulary": [
+            "Compelling",
+            "Eloquence",
+            "Resonate",
+            "Articulate",
+            "Understatement"
+          ],
+          "teacher_notes": "code: \"EN-SPK-C1-001\"\ncando: \"Can deliver persuasive monologues using rhetorical techniques and register shifts.\""
+        },
+        {
+          "lesson": 2,
+          "type": "spoken",
+          "title": "Nuanced Humor, Irony & Subtle Floor Steering",
+          "grammar": [
+            "Subjunctive forms",
+            "Idiomatic phrasing and metaphor"
+          ],
+          "vocabulary": [
+            "Nuance",
+            "Subtlety",
+            "Sarcasm",
+            "Irony",
+            "De-escalation"
+          ],
+          "teacher_notes": "code: \"EN-SPK-C1-002\"\ncando: \"Can use subtle humor, irony, and diplomatic de-escalation in high-stakes spoken exchanges.\""
+        }
+      ]
+    }
+  ]
+}

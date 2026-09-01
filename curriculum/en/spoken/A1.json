@@ -1,0 +1,88 @@
+{
+  "language": "en",
+  "course_type": "spoken",
+  "level": "A1",
+  "units": [
+    {
+      "unit": 1,
+      "title": "First Contact & Social Greetings",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "spoken",
+          "title": "Greetings & Introductions",
+          "grammar": [
+            "Verb 'to be' (present simple)",
+            "Possessive adjectives (my, your)"
+          ],
+          "vocabulary": [
+            "Hello",
+            "Good morning",
+            "Nice to meet you",
+            "My name is",
+            "Welcome"
+          ],
+          "teacher_notes": "code: \"EN-SPK-A1-001\"\ncando: \"Can greet people, introduce oneself, and ask basic questions in spoken English.\""
+        },
+        {
+          "lesson": 2,
+          "type": "spoken",
+          "title": "Asking Simple Questions & Clarification",
+          "grammar": [
+            "Question words (What, Where, How)",
+            "Can for requests"
+          ],
+          "vocabulary": [
+            "Pardon?",
+            "Could you repeat that?",
+            "Slowly",
+            "Understand"
+          ],
+          "teacher_notes": "code: \"EN-SPK-A1-002\"\ncando: \"Can ask simple questions and request clarification when speaking.\""
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Everyday Situational Conversations",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "spoken",
+          "title": "Basic Shopping & Ordering Phrases",
+          "grammar": [
+            "I would like...",
+            "How much is...?"
+          ],
+          "vocabulary": [
+            "Menu",
+            "Bill",
+            "Price",
+            "Buy",
+            "Order",
+            "Receipt"
+          ],
+          "teacher_notes": "code: \"EN-SPK-A1-003\"\ncando: \"Can order food, drinks, and buy basic goods in shop transactions.\""
+        },
+        {
+          "lesson": 2,
+          "type": "spoken",
+          "title": "Asking for & Giving Directions",
+          "grammar": [
+            "Prepositions of place",
+            "Imperatives (Turn left, Go straight)"
+          ],
+          "vocabulary": [
+            "Street",
+            "Corner",
+            "Left",
+            "Right",
+            "Straight ahead",
+            "Near"
+          ],
+          "teacher_notes": "code: \"EN-SPK-A1-004\"\ncando: \"Can ask for and give basic street directions.\""
+        }
+      ]
+    }
+  ]
+}

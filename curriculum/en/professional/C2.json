@@ -1,0 +1,30 @@
+{
+  "language": "en",
+  "course_type": "professional",
+  "level": "C2",
+  "units": [
+    {
+      "unit": 1,
+      "title": "C-Suite Leadership & Global Market Discourse",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "spoken",
+          "title": "Global Market Keynote & Media Interviews",
+          "grammar": [
+            "Flawless register switching",
+            "Mastery of rhetorical device"
+          ],
+          "vocabulary": [
+            "Visionary",
+            "Enterprise",
+            "Monetization",
+            "Scalability",
+            "Transformation"
+          ],
+          "teacher_notes": "code: \"EN-PRO-C2-001\"\ncando: \"Can deliver C-suite speeches, handle press interviews, and address global market audiences.\""
+        }
+      ]
+    }
+  ]
+}

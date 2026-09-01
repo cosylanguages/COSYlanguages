@@ -1,0 +1,30 @@
+{
+  "language": "en",
+  "course_type": "spoken",
+  "level": "C2",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Mastery of Native-Level Spoken Discourse",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "spoken",
+          "title": "Spontaneous High-Level Debate & Keynote Monologue",
+          "grammar": [
+            "Complex multi-clause synthesis",
+            "Unrestricted stylistic variation"
+          ],
+          "vocabulary": [
+            "Impromptu",
+            "Spontaneity",
+            "Synthesis",
+            "Mastery",
+            "Command"
+          ],
+          "teacher_notes": "code: \"EN-SPK-C2-001\"\ncando: \"Can present keynotes and participate in spontaneous debates with native-level fluency and precision.\""
+        }
+      ]
+    }
+  ]
+}

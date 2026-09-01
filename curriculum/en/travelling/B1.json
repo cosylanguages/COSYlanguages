@@ -1,0 +1,49 @@
+{
+  "language": "en",
+  "course_type": "travelling",
+  "level": "B1",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Independent Exploration & Travel Problem Solving",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "spoken",
+          "title": "Dealing with Lost Property & Insurance Claims",
+          "grammar": [
+            "Past continuous + past simple for describing incidents",
+            "Indirect questions"
+          ],
+          "vocabulary": [
+            "Lost property",
+            "Insurance",
+            "Report",
+            "Stolen",
+            "Claim",
+            "Receipt"
+          ],
+          "teacher_notes": "code: \"EN-TRV-B1-001\"\ncando: \"Can file a report for lost luggage or items and explain circumstances clearly.\""
+        },
+        {
+          "lesson": 2,
+          "type": "spoken",
+          "title": "Guided Tours, History & Cultural Exchanges",
+          "grammar": [
+            "Passive voice for historic facts",
+            "Relative clauses for places"
+          ],
+          "vocabulary": [
+            "Monument",
+            "Heritage",
+            "Architecture",
+            "Exhibition",
+            "Guide",
+            "Century"
+          ],
+          "teacher_notes": "code: \"EN-TRV-B1-002\"\ncando: \"Can participate in guided cultural tours and discuss local history.\""
+        }
+      ]
+    }
+  ]
+}

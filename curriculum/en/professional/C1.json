@@ -1,0 +1,48 @@
+{
+  "language": "en",
+  "course_type": "professional",
+  "level": "C1",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Executive Strategy & High-Stakes Stakeholder Relations",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "spoken",
+          "title": "Executive Communication & Boardroom Mediation",
+          "grammar": [
+            "Advanced diplomatic phrasing",
+            "Subtleties of tone and emphasis"
+          ],
+          "vocabulary": [
+            "Governance",
+            "Consensus",
+            "Mitigate",
+            "Leverage",
+            "Synergy",
+            "Alignment"
+          ],
+          "teacher_notes": "code: \"EN-PRO-C1-001\"\ncando: \"Can mediate boardroom conflicts, lead executive discussions, and align stakeholder interests.\""
+        },
+        {
+          "lesson": 2,
+          "type": "vocab",
+          "title": "Strategic Whitepapers & Industry Reports",
+          "grammar": [
+            "Dense nominal structures",
+            "Formal academic/corporate register"
+          ],
+          "vocabulary": [
+            "Disruption",
+            "Benchmark",
+            "Paradigm",
+            "Infrastructure",
+            "Viability"
+          ],
+          "teacher_notes": "code: \"EN-PRO-C1-002\"\ncando: \"Can draft comprehensive strategic reports and corporate whitepapers.\""
+        }
+      ]
+    }
+  ]
+}
