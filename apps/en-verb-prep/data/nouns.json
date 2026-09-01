@@ -17,7 +17,10 @@
       "title of",
       "designation of"
     ],
-    "antonyms": []
+    "antonyms": [
+      "anonymity",
+      "namelessness"
+    ]
   },
   "member of": {
     "word_type": "noun",
@@ -84,7 +87,10 @@
       "sort of",
       "category of"
     ],
-    "antonyms": []
+    "antonyms": [
+      "unrelated item",
+      "mismatch"
+    ]
   },
   "sort of": {
     "word_type": "noun",
@@ -105,7 +111,10 @@
       "type of",
       "variety of"
     ],
-    "antonyms": []
+    "antonyms": [
+      "unrelated category",
+      "mismatch"
+    ]
   },
   "lot of": {
     "word_type": "noun",
@@ -148,7 +157,10 @@
       "glass of",
       "mug of"
     ],
-    "antonyms": []
+    "antonyms": [
+      "empty cup",
+      "lack of liquid"
+    ]
   },
   "price of": {
     "word_type": "noun",
@@ -169,7 +181,10 @@
       "rate of",
       "charge for"
     ],
-    "antonyms": []
+    "antonyms": [
+      "free of charge",
+      "valuelessness"
+    ]
   },
   "reason for": {
     "word_type": "noun",
@@ -240,7 +255,10 @@
       "appeal for",
       "demand for"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "refusal of",
+      "rejection of"
+    ],
     "related_forms": "⚡ Noun: 'a request FOR assistance' ➔ Verb: 'request' (no prep)"
   },
   "love for": {
@@ -386,7 +404,10 @@
       "visit to",
       "excursion to"
     ],
-    "antonyms": []
+    "antonyms": [
+      "return from",
+      "stay at home"
+    ]
   },
   "visit to": {
     "word_type": "noun",
@@ -407,7 +428,10 @@
       "stay at",
       "excursion to"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "departure from",
+      "avoidance of"
+    ],
     "related_forms": "⚡ Noun: 'a visit TO the museum' ➔ Verb: 'visit' (no prep)"
   },
   "way to": {
@@ -429,7 +453,10 @@
       "path to",
       "method for"
     ],
-    "antonyms": []
+    "antonyms": [
+      "obstacle to",
+      "detour from"
+    ]
   },
   "key to": {
     "word_type": "noun",
@@ -450,7 +477,10 @@
       "solution to",
       "access to"
     ],
-    "antonyms": []
+    "antonyms": [
+      "obstacle to",
+      "hindrance to"
+    ]
   },
   "answer to": {
     "word_type": "noun",
@@ -495,7 +525,10 @@
       "note to",
       "note for"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "silence toward",
+      "no response to"
+    ],
     "related_forms": "⚡ Noun: 'write a letter TO her' ➔ Verb: 'write to'"
   },
   "invitation to": {
@@ -516,7 +549,10 @@
       "summons to",
       "request for attendance"
     ],
-    "antonyms": []
+    "antonyms": [
+      "exclusion from",
+      "rejection from"
+    ]
   },
   "picture of": {
     "word_type": "noun",
@@ -537,7 +573,10 @@
       "image of",
       "portrait of"
     ],
-    "antonyms": []
+    "antonyms": [
+      "blank space",
+      "absence of image"
+    ]
   },
   "photo of": {
     "word_type": "noun",
@@ -558,7 +597,10 @@
       "snapshot of",
       "image of"
     ],
-    "antonyms": []
+    "antonyms": [
+      "blank screen",
+      "absence of photo"
+    ]
   },
   "map of": {
     "word_type": "noun",
@@ -578,7 +620,10 @@
       "chart of",
       "plan of"
     ],
-    "antonyms": []
+    "antonyms": [
+      "uncharted territory",
+      "unmapped area"
+    ]
   },
   "group of": {
     "word_type": "noun",
@@ -621,7 +666,10 @@
       "cup of",
       "tumbler of"
     ],
-    "antonyms": []
+    "antonyms": [
+      "empty glass",
+      "empty container"
+    ]
   },
   "piece of": {
     "word_type": "noun",
@@ -664,7 +712,10 @@
       "piece of",
       "portion of"
     ],
-    "antonyms": []
+    "antonyms": [
+      "whole piece",
+      "entirety"
+    ]
   },
   "cost of": {
     "word_type": "noun",
@@ -685,7 +736,10 @@
       "expense of",
       "expenditure on"
     ],
-    "antonyms": []
+    "antonyms": [
+      "profit from",
+      "financial gain"
+    ]
   },
   "ticket to": {
     "word_type": "noun",
@@ -706,7 +760,10 @@
       "pass to",
       "entry permit for"
     ],
-    "antonyms": []
+    "antonyms": [
+      "denial of entry",
+      "ban from"
+    ]
   },
   "gift for": {
     "word_type": "noun",
@@ -726,7 +783,10 @@
       "present for",
       "token for"
     ],
-    "antonyms": []
+    "antonyms": [
+      "penalty for",
+      "fine for"
+    ]
   },
   "time for": {
     "word_type": "noun",
@@ -746,7 +806,10 @@
       "opportunity for",
       "occasion for"
     ],
-    "antonyms": []
+    "antonyms": [
+      "delay of",
+      "lack of time for"
+    ]
   },
   "place for": {
     "word_type": "noun",
@@ -767,7 +830,10 @@
       "space for",
       "site for"
     ],
-    "antonyms": []
+    "antonyms": [
+      "unsuitable location for",
+      "displacement from"
+    ]
   },
   "work of": {
     "word_type": "noun",
@@ -787,7 +853,10 @@
       "creation of",
       "masterpiece of"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "neglect by",
+      "destruction by"
+    ],
     "related_forms": "⚡ Noun: 'a work of art' ➔ Verb: 'work'"
   },
   "attention to": {
@@ -858,7 +927,10 @@
       "strategy for",
       "attitude toward"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "retreat from",
+      "avoidance of"
+    ],
     "related_forms": "⚡ Noun: 'our approach TO learning' ➔ Verb: 'approach the problem' (no prep)"
   },
   "solution to": {
@@ -904,7 +976,10 @@
       "reply to",
       "feedback on"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "inaction toward",
+      "indifference to"
+    ],
     "related_forms": "⚡ Noun: 'reaction TO the news' ➔ Verb: 'react to'"
   },
   "response to": {
@@ -1024,7 +1099,10 @@
       "replacement for",
       "option to"
     ],
-    "antonyms": []
+    "antonyms": [
+      "sole option",
+      "continuation of"
+    ]
   },
   "relationship with": {
     "word_type": "noun",
@@ -1664,7 +1742,10 @@
       "routine of",
       "custom of"
     ],
-    "antonyms": []
+    "antonyms": [
+      "disinclination for",
+      "unfamiliarity with"
+    ]
   },
   "effect on": {
     "word_type": "noun",
@@ -1685,7 +1766,10 @@
       "influence on",
       "consequence for"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "lack of effect on",
+      "ineffectiveness on"
+    ],
     "related_forms": "⚡ Noun: 'an effect ON health' ➔ Verb: 'affect' (no prep)"
   },
   "impact on": {
@@ -1707,7 +1791,10 @@
       "influence on",
       "impression on"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "lack of impact on",
+      "harmlessness to"
+    ],
     "related_forms": "⚡ Noun: 'an impact ON the economy' ➔ Verb: 'impact'"
   },
   "influence on": {
@@ -1729,7 +1816,10 @@
       "impact on",
       "sway over"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "lack of influence on",
+      "impotence toward"
+    ],
     "related_forms": "⚡ Noun: 'have an influence ON children' ➔ Verb: 'influence' (no prep)"
   },
   "criticism of": {
@@ -1801,7 +1891,10 @@
       "duty on",
       "tariff on"
     ],
-    "antonyms": []
+    "antonyms": [
+      "subsidy for",
+      "rebate on"
+    ]
   },
   "effect of": {
     "word_type": "noun",
@@ -1822,7 +1915,10 @@
       "consequence of",
       "impact of"
     ],
-    "antonyms": []
+    "antonyms": [
+      "cause of",
+      "absence of effect of"
+    ]
   },
   "dependence on": {
     "word_type": "noun",
@@ -1917,7 +2013,10 @@
       "expression of regret",
       "plea for forgiveness"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "justification for",
+      "defense of"
+    ],
     "related_forms": "⚡ Noun: 'an apology FOR being late' ➔ Verb: 'apologize to'"
   },
   "objection to": {
@@ -2012,7 +2111,10 @@
       "dependence on",
       "fixation on"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "aversion to",
+      "repulsion from"
+    ],
     "related_forms": "⚡ Noun: 'addiction TO gambling' ➔ Adjective: 'addicted to'"
   },
   "preference for": {
@@ -2253,7 +2355,10 @@
       "view of",
       "perception of"
     ],
-    "antonyms": []
+    "antonyms": [
+      "misconception of",
+      "unawareness of"
+    ]
   },
   "opinion of": {
     "word_type": "noun",
@@ -2276,7 +2381,10 @@
       "perspective on",
       "judgment of"
     ],
-    "antonyms": []
+    "antonyms": [
+      "indifference toward",
+      "neutrality toward"
+    ]
   },
   "attitude toward": {
     "word_type": "noun",
@@ -2299,7 +2407,10 @@
       "stance on",
       "disposition toward"
     ],
-    "antonyms": []
+    "antonyms": [
+      "indifference toward",
+      "neutrality toward"
+    ]
   },
   "exception to": {
     "word_type": "noun",
@@ -2466,7 +2577,10 @@
       "hunt for",
       "pursuit of"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "abandonment of",
+      "discovery of"
+    ],
     "related_forms": "⚡ Noun: 'the search FOR evidence' ➔ Verb: 'search' (search for)"
   },
   "desire for": {
@@ -2986,7 +3100,10 @@
       "perception of",
       "grasp of"
     ],
-    "antonyms": []
+    "antonyms": [
+      "ignorance of",
+      "blindness to"
+    ]
   },
   "inquiry into": {
     "word_type": "noun",
@@ -3007,7 +3124,10 @@
       "probe into",
       "scrutiny of"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "disregard of",
+      "indifference to"
+    ],
     "related_forms": "⚡ Noun: 'an inquiry INTO the crash' ➔ Verb: 'look into'"
   },
   "investigation into": {
@@ -3029,7 +3149,10 @@
       "probe into",
       "examination of"
     ],
-    "antonyms": []
+    "antonyms": [
+      "neglect of",
+      "abandonment of inquiry into"
+    ]
   },
   "research into": {
     "word_type": "noun",
@@ -3051,7 +3174,10 @@
       "study of",
       "exploration of"
     ],
-    "antonyms": []
+    "antonyms": [
+      "ignorance of",
+      "neglect of study into"
+    ]
   },
   "relevance to": {
     "word_type": "noun",
@@ -3242,7 +3368,10 @@
       "extraction from",
       "source from"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "origin of",
+      "source of"
+    ],
     "related_forms": "⚡ Noun: 'derivation FROM Latin' ➔ Adjective: 'derived from'"
   },
   "precondition for": {
@@ -3264,7 +3393,10 @@
       "requirement for",
       "necessity for"
     ],
-    "antonyms": []
+    "antonyms": [
+      "consequence of",
+      "result of"
+    ]
   },
   "prerequisite for": {
     "word_type": "noun",
@@ -3286,7 +3418,10 @@
       "requirement for",
       "qualification for"
     ],
-    "antonyms": []
+    "antonyms": [
+      "optional element for",
+      "unnecessary factor for"
+    ]
   },
   "indictment of": {
     "word_type": "noun",
