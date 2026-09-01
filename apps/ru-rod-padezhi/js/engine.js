@@ -216,18 +216,32 @@ class RussianGenderCasesEngine {
         correctVal = correctVal.replace(/[\u0300-\u036f]/g, "");
 
         const distractors = new Set();
-        while (distractors.size < 3) {
-            const rndN = nouns[Math.floor(Math.random() * nouns.length)];
-            const rndC = caseMeta[Math.floor(Math.random() * caseMeta.length)];
-            const dData = this.nounDb[rndN];
-            let val = dData.cases ? (dData.cases[rndC.key] || (dData.cases[rndC.legacyKey] ? dData.cases[rndC.legacyKey][rndC.legacyIdx] : null)) : null;
-            if (val) {
-                val = val.replace(/[\u0300-\u036f]/g, "");
-                if (val !== correctVal) distractors.add(val);
+        if (data.cases) {
+            caseMeta.forEach(c => {
+                let val = data.cases[c.key] || (data.cases[c.legacyKey] ? data.cases[c.legacyKey][c.legacyIdx] : null);
+                if (val) {
+                    val = val.replace(/[\u0300-\u036f]/g, "");
+                    if (val !== correctVal) distractors.add(val);
+                }
+            });
+        }
+
+        let distractorList = Array.from(distractors).sort(() => 0.5 - Math.random());
+
+        if (distractorList.length < 3) {
+            const cleanStem = targetNoun.endsWith('а') || targetNoun.endsWith('я') || targetNoun.endsWith('о') || targetNoun.endsWith('е') || targetNoun.endsWith('ь') ? targetNoun.slice(0, -1) : targetNoun;
+            const syntheticEndings = ['а', 'у', 'ом', 'е', 'ы', 'ов', 'ам', 'ами', 'ах'];
+            for (let end of syntheticEndings) {
+                let synthVal = cleanStem + end;
+                if (synthVal !== correctVal && !distractorList.includes(synthVal)) {
+                    distractorList.push(synthVal);
+                    if (distractorList.length >= 3) break;
+                }
             }
         }
 
-        const options = [correctVal, ...Array.from(distractors)].sort(() => 0.5 - Math.random());
+        distractorList = distractorList.slice(0, 3);
+        const options = [correctVal, ...distractorList].sort(() => 0.5 - Math.random());
 
         this.currentQuestion = { noun: targetNoun, caseName: targetCase.name, expected: correctVal, isCases: true };
 
