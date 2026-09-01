@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Régime prépositionnel des verbes français | COSYlanguages</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1b4332">
+    <link rel="stylesheet" href="../../css/components.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header Cozy -->
+        <header class="app-header">
+            <div class="logo-badge">
+                <span class="brand-icon">🇫🇷</span>
+                <div class="brand-text">
+                    <h1>Régime prépositionnel des verbes</h1>
+                    <p class="tagline">Prépositions obligatoires (à, de, sur...), verbes pronominaux &amp; pièges transitifs</p>
+                </div>
+            </div>
+
+            <div class="header-actions">
+                <button id="toggle-game-btn" class="mode-toggle-btn" onclick="appEngine.toggleGameMode()">
+                    🎮 Mode Entraînement
+                </button>
+                <button id="pwa-install-btn" class="install-pwa-btn" style="display: none;">
+                    📲 Installer l'app
+                </button>
+            </div>
+        </header>
+
+        <!-- Barre de recherche et filtres -->
+        <main class="app-main">
+            <section id="search-section-container" class="search-section">
+                <!-- Boutons de filtre -->
+                <div class="filter-pills-bar">
+                    <button class="filter-pill active" id="filter-all" onclick="appEngine.setFilter('all')">Tous les verbes</button>
+                    <button class="filter-pill" id="filter-a" onclick="appEngine.setFilter('a')">Régime « à »</button>
+                    <button class="filter-pill" id="filter-de" onclick="appEngine.setFilter('de')">Régime « de »</button>
+                    <button class="filter-pill" id="filter-direct" onclick="appEngine.setFilter('direct')">Direct (sans prép)</button>
+                    <button class="filter-pill" id="filter-pronominal" onclick="appEngine.setFilter('pronominal')">Pronominaux 🪞</button>
+                    <button class="filter-pill" id="filter-other" onclick="appEngine.setFilter('other')">Autres (sur, en...)</button>
+                </div>
+
+                <div class="search-box">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="verb-search-input" placeholder="Rechercher un verbe (ex. penser, parler, s'intéresser, attendre, insister)..." autocomplete="off" autofocus>
+                    <button id="clear-search-btn" class="clear-btn" style="display: none;">&times;</button>
+                </div>
+                <div id="search-suggestions" class="suggestions-list" style="display: none;"></div>
+            </section>
+
+            <!-- Mode Entraînement / Quiz -->
+            <section id="game-container" class="game-card" style="display: none;">
+                <div class="game-header">
+                    <div class="game-title">
+                        <h2>🎮 Entraîneur de régime prépositionnel</h2>
+                        <p>Maîtrisez les prépositions de verbes, les contractions (au, aux, du, des) et les pièges transitifs !</p>
+                    </div>
+                    <div class="score-badge">
+                        <span>Score: <strong id="game-score">0</strong></span>
+                        <span class="streak">🔥 Série: <strong id="game-streak">0</strong></span>
+                    </div>
+                </div>
+
+                <div class="game-prompt-box">
+                    <span class="prompt-label">Verbe :</span>
+                    <h3 id="game-verb-prompt">penser</h3>
+                    <div class="prompt-details">
+                        <span id="game-type-badge" class="badge prep-badge">Préposition : à</span>
+                        <span id="game-cefr-badge" class="badge cefr-badge">Niveau : A1</span>
+                        <span id="game-question-prompt" class="prompt-question">Quelle préposition ou construction est correcte ?</span>
+                    </div>
+                    <div id="game-sentence-prompt" class="game-sentence-box" style="margin-top: 1rem; font-size: 1.05rem;">
+                        "Je pense <strong class="blank-spot">[ ? ]</strong> mes prochaines vacances."
+                    </div>
+                </div>
+
+                <div id="game-choice-options" class="game-choice-grid">
+                    <!-- Choix injectés dynamiquement -->
+                </div>
+
+                <div id="game-feedback-box" class="feedback-card" style="display: none;"></div>
+
+                <button id="game-next-btn" class="game-btn secondary-btn" style="display: none;" onclick="appEngine.nextGameQuestion()">Question suivante ➔</button>
+            </section>
+
+            <!-- Fiche du Verbe -->
+            <section id="verb-result-container" class="verb-result-card" style="display: none;">
+                <!-- Contrôles de navigation -->
+                <div class="nav-controls-bar">
+                    <button class="nav-btn" onclick="appEngine.navigatePrevious()" title="Entrée précédente">◀ Précédent</button>
+                    <button class="nav-btn random-btn" onclick="appEngine.navigateRandom()" title="Entrée aléatoire">🎲 Au hasard</button>
+                    <button class="nav-btn" onclick="appEngine.navigateNext()" title="Entrée suivante">Suivant ▶</button>
+                </div>
+
+                <!-- En-tête du verbe -->
+                <div class="verb-header">
+                    <div class="verb-title-group">
+                        <h2 id="verb-title">penser</h2>
+                        <span id="pronominal-badge" class="badge phrasal-badge" style="display: none;">Pronominal 🪞</span>
+                        <span id="prep-badge" class="badge prep-badge">Préposition : à</span>
+                        <span id="verb-cefr-badge" class="badge cefr-badge">Niveau : A1</span>
+                        <button id="speak-verb-btn" class="tts-btn" title="Écouter la prononciation">🔊 Écouter</button>
+                    </div>
+
+                    <!-- Blocs explicatifs -->
+                    <div class="lexical-box">
+                        <div class="def-block">
+                            <span class="lexical-label">📖 Définition :</span>
+                            <span id="verb-definition" class="def-text">Avoir une pensée pour quelqu'un ou réfléchir à quelque chose.</span>
+                        </div>
+                        <div id="pattern-container" class="usage-block">
+                            <span class="lexical-label">💡 Structure &amp; Construction :</span>
+                            <span id="verb-pattern-text" class="usage-text">penser à [quelqu'un / quelque chose]</span>
+                        </div>
+                        <!-- Bloc contraste nom/verbe -->
+                        <div id="noun-parallel-container" class="noun-parallel-block" style="display: none;">
+                            <span class="lexical-label">⚡ Contraste Verbe vs. Nom :</span>
+                            <span id="noun-parallel-text" class="noun-parallel-text"></span>
+                        </div>
+                        <div id="grammar-rule-container" class="grammar-rule-block">
+                            <span class="lexical-label">📌 Règle de grammaire &amp; Contractions :</span>
+                            <span id="grammar-rule-text" class="rule-text"></span>
+                        </div>
+                        <div id="mistake-container" class="mistake-block">
+                            <span class="lexical-label">⚠️ Piège &amp; Erreur fréquente :</span>
+                            <span id="mistake-text" class="mistake-text"></span>
+                        </div>
+                        <div id="examples-container" class="examples-block">
+                            <span class="lexical-label">💬 Exemples d'usage :</span>
+                            <ul id="examples-list" class="examples-list"></ul>
+                        </div>
+                        <div id="antonyms-container" class="antonyms-block">
+                            <span class="lexical-label">↔️ Synonymes &amp; Antonymes :</span>
+                            <div id="antonyms-pills" class="pills-list"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- État initial sans recherche -->
+            <section id="empty-state" class="empty-state-box">
+                <span class="empty-icon">🌿</span>
+                <h3>Rechercher les verbes français et leurs prépositions</h3>
+                <p>Explorez le <strong style="color: var(--sage-primary);">régime prépositionnel</strong> (<em>à</em>, <em>de</em>, <em>sur</em>, <em>en</em>...), les verbes pronominaux, les <strong style="color: var(--terracotta);">pièges transitifs direct/indirect</strong> (attendre, regarder, demander...), les contractions d'articles (<em>au/aux</em>, <em>du/des</em>) et les nuances de sens.</p>
+                <div class="quick-tags">
+                    <span>Verbes essentiels (A1–B2) :</span>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('penser')">penser à/de</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('parler')">parler à/de</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('avoir besoin de')">avoir besoin de</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('s\'intéresser à')">s'intéresser à</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('jouer')">jouer à/de</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('attendre')">attendre (direct)</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('se souvenir de')">se souvenir de</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('insister sur')">insister sur</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('consister')">consister à/en</button>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer Cozy -->
+        <footer class="app-footer">
+            <p>🌿 <strong>COSYlanguages Standalone Apps</strong> — Régime prépositionnel des verbes français. 100% offline &amp; privé.</p>
+        </footer>
+    </div>
+
+    <script src="js/engine.js"></script>
+    <script src="../../js/data/languages.js"></script>
+    <script src="../../js/core/i18n.js"></script>
+    <script src="../../js/core/ui.js"></script>
+</body>
+</html>
