@@ -10,9 +10,18 @@
         {
           "lesson": 1,
           "title": "Συντελεσμένοι χρόνοι και υποθετικοί λόγοι",
-          "grammar": ["Υποθετικοί λόγοι 2ου και 3ου είδους"],
-          "vocabulary": ["Διαφωνία", "Απόχρωση", "Υποστηρίζω", "Αδιαμφισβήτητος", "Θέση"],
-          "teacher_notes": "code: \"EL-B2-001\"\ncando: \"Μπορεί να υποστηρίξει μια σύνθετη θέση σε μια συζήτηση\""
+          "grammar": [
+            "Υποθετικοί λόγοι 2ου και 3ου είδους"
+          ],
+          "vocabulary": [
+            "Διαφωνία",
+            "Απόχρωση",
+            "Υποστηρίζω",
+            "Αδιαμφισβήτητος",
+            "Θέση"
+          ],
+          "teacher_notes": "code: \"EL-B2-001\"\ncando: \"Μπορεί να υποστηρίξει μια σύνθετη θέση σε μια συζήτηση\"",
+          "recycled": "Initial course anchor: establishes baseline target-language sounds, primary greetings, and fundamental sentence patterns."
         }
       ]
     }

@@ -31,6 +31,7 @@ This document consolidates future roadmap initiatives, platform specifications, 
 * Secondary evaluation track: Spanish, German, Portuguese.
 
 ### B. Course Track Additions & Pedagogical Enhancements
+* **Interconnected Lesson Flow & Knowledge Recycling**: Enforce smooth, logical lesson-to-lesson flow across all tracks where lessons are connected and all previous knowledge (grammar, vocabulary, routines) is continuously recycled and actively re-applied.
 * **General Course**: Interactive visual dictionary integration for A0–C2 levels.
 * **Spoken Course**: Real-time voice prompt evaluation and fluency timers.
 * **Exam Prep**: Standardized test preparation modules (DELF/DALF, CILS, TORFL, IELTS/TOEFL).

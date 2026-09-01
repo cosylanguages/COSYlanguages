@@ -22,7 +22,8 @@
             "Account for",
             "Bound to"
           ],
-          "teacher_notes": "code: \"EN-EXM-C1-001\"\ncando: \"Can complete complex key word transformation and Use of English tasks.\""
+          "teacher_notes": "code: \"EN-EXM-C1-001\"\ncando: \"Can complete complex key word transformation and Use of English tasks.\"",
+          "recycled": "Initial course anchor: establishes baseline target-language sounds, primary greetings, and fundamental sentence patterns."
         },
         {
           "lesson": 2,
@@ -39,7 +40,8 @@
             "Feasibility",
             "Conclusion"
           ],
-          "teacher_notes": "code: \"EN-EXM-C1-002\"\ncando: \"Can draft executive reports and proposals adhering to academic exam standards.\""
+          "teacher_notes": "code: \"EN-EXM-C1-002\"\ncando: \"Can draft executive reports and proposals adhering to academic exam standards.\"",
+          "recycled": "Grammar: Inversion, Cleft sentences, Advanced verb-noun collocations · Vocabulary: No sooner, Little did they know, Account for, Bound to (reused and expanded in C1 Formal Proposal & Report Writing)"
         }
       ]
     }

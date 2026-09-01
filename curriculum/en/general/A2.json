@@ -36,7 +36,8 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-A2-001\"\npronunciation: [{\"point\":\"Past simple -ed endings\",\"explain\":\"Distinguish between /t/, /d/, and /ɪd/ endings for regular past tense verbs.\",\"examples\":[{\"pattern\":\"worked / played / started\",\"ipa\":\"/wɜːkt/ / /pleɪd/ / /ˈstɑː.tɪd/\",\"word\":\"started\"}],\"visual\":\"🗣️\"}]\ncando: \"Can narrate a simple past event and describe background actions using when and while\""
+          "teacher_notes": "code: \"EN-A2-001\"\npronunciation: [{\"point\":\"Past simple -ed endings\",\"explain\":\"Distinguish between /t/, /d/, and /ɪd/ endings for regular past tense verbs.\",\"examples\":[{\"pattern\":\"worked / played / started\",\"ipa\":\"/wɜːkt/ / /pleɪd/ / /ˈstɑː.tɪd/\",\"word\":\"started\"}],\"visual\":\"🗣️\"}]\ncando: \"Can narrate a simple past event and describe background actions using when and while\"",
+          "recycled": "Initial course anchor: establishes baseline target-language sounds, primary greetings, and fundamental sentence patterns."
         },
         {
           "lesson": 2,
@@ -67,7 +68,8 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-A2-002\"\npronunciation: [{\"point\":\"The used to liaison\",\"explain\":\"The final d in used and initial t in to blend into a single /tuː/ sound.\",\"examples\":[{\"pattern\":\"used to\",\"ipa\":\"/ˈjuːs.tə/\",\"word\":\"used to\"}],\"visual\":\"🔗\"}]\ncando: \"Can describe past habits and talk about general life experiences\""
+          "teacher_notes": "code: \"EN-A2-002\"\npronunciation: [{\"point\":\"The used to liaison\",\"explain\":\"The final d in used and initial t in to blend into a single /tuː/ sound.\",\"examples\":[{\"pattern\":\"used to\",\"ipa\":\"/ˈjuːs.tə/\",\"word\":\"used to\"}],\"visual\":\"🔗\"}]\ncando: \"Can describe past habits and talk about general life experiences\"",
+          "recycled": "Grammar: Past Simple for completed past actions and main storyline events, Past Continuous for background actions in progress (was/were + -ing), Interrupted actions using when and while · Vocabulary: Upbringing, Milestone, Grow up, Relocate (reused and expanded in Past Habits & Life Experiences (Used to & Present Perfect))"
         }
       ]
     },
@@ -103,7 +105,8 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-A2-003\"\npronunciation: [{\"point\":\"Silent t in mustn't\",\"explain\":\"Practice saying mustn't cleanly without pronouncing the middle t.\",\"examples\":[{\"pattern\":\"mustn't\",\"ipa\":\"/ˈmʌs.ənt/\",\"word\":\"mustn't\"}],\"visual\":\"🏠\"}]\ncando: \"Can discuss housing rules, lease conditions, and tenant obligations\""
+          "teacher_notes": "code: \"EN-A2-003\"\npronunciation: [{\"point\":\"Silent t in mustn't\",\"explain\":\"Practice saying mustn't cleanly without pronouncing the middle t.\",\"examples\":[{\"pattern\":\"mustn't\",\"ipa\":\"/ˈmʌs.ənt/\",\"word\":\"mustn't\"}],\"visual\":\"🏠\"}]\ncando: \"Can discuss housing rules, lease conditions, and tenant obligations\"",
+          "recycled": "Grammar: Used to + infinitive for past habits and states no longer true, Present Perfect with ever and never for life experiences, Contrast between Past Simple (finished time) and Present Perfect (unfinished time) · Vocabulary: Adapt, Graduate, Reliable, Stubborn (reused and expanded in Obligation & Rules in Housing (Have to / Must / Mustn't))"
         },
         {
           "lesson": 2,
@@ -132,7 +135,8 @@
             "reading"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-A2-004\"\ncando: \"Can describe property layouts, room features, and neighbourhood locations\""
+          "teacher_notes": "code: \"EN-A2-004\"\ncando: \"Can describe property layouts, room features, and neighbourhood locations\"",
+          "recycled": "Grammar: Contrast between Past Simple (finished time) and Present Perfect (unfinished time), Have to / don't have to for external obligation and lack of obligation, Must for strong personal obligation; Mustn't for prohibition · Vocabulary: Furniture, Heating, Bill, Repair (reused and expanded in Describing Homes & Prepositions of Place)"
         }
       ]
     },
@@ -167,7 +171,8 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-A2-005\"\npronunciation: [{\"point\":\"Office vocabulary stress\",\"explain\":\"Primary stress placement in workplace terms (dePARTment, PROductive, EFFICient).\",\"examples\":[{\"pattern\":\"department\",\"ipa\":\"/dɪˈpɑːt.mənt/\",\"word\":\"department\"}],\"visual\":\"💼\"}]\ncando: \"Can talk about job duties, office projects, and everyday work responsibilities\""
+          "teacher_notes": "code: \"EN-A2-005\"\npronunciation: [{\"point\":\"Office vocabulary stress\",\"explain\":\"Primary stress placement in workplace terms (dePARTment, PROductive, EFFICient).\",\"examples\":[{\"pattern\":\"department\",\"ipa\":\"/dɪˈpɑːt.mənt/\",\"word\":\"department\"}],\"visual\":\"💼\"}]\ncando: \"Can talk about job duties, office projects, and everyday work responsibilities\"",
+          "recycled": "Grammar: Must for strong personal obligation; Mustn't for prohibition, Prepositions of place and location (opposite, next to, between, across from), There is / There are with quantifiers (some, any, several) · Vocabulary: Suburbs, Downtown, Convenient, Quiet (reused and expanded in Workplace Tasks & Verb Collocations (Do vs Make))"
         },
         {
           "lesson": 2,
@@ -196,7 +201,8 @@
             "speaking"
           ],
           "speaking_percent": 45,
-          "teacher_notes": "code: \"EN-A2-006\"\ncando: \"Can describe office procedures and task status using simple passive forms\""
+          "teacher_notes": "code: \"EN-A2-006\"\ncando: \"Can describe office procedures and task status using simple passive forms\"",
+          "recycled": "Grammar: There is / There are with quantifiers (some, any, several), Workplace verb collocations: do business/research vs make a decision/effort, Present Simple vs Present Continuous for current projects vs regular job duties · Vocabulary: Manage, Responsible, Efficient, Productive (reused and expanded in Present & Past Passive in Workplace Processes)"
         }
       ]
     },
@@ -232,7 +238,8 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-A2-007\"\npronunciation: [{\"point\":\"Silent l in should\",\"explain\":\"The letter l in should and shouldn't is silent (/ʃʊd/, /ˈʃʊd.ənt/).\",\"examples\":[{\"pattern\":\"should\",\"ipa\":\"/ʃʊd/\",\"word\":\"should\"}],\"visual\":\"🏥\"}]\ncando: \"Can explain illness symptoms and give appropriate health advice using should\""
+          "teacher_notes": "code: \"EN-A2-007\"\npronunciation: [{\"point\":\"Silent l in should\",\"explain\":\"The letter l in should and shouldn't is silent (/ʃʊd/, /ˈʃʊd.ənt/).\",\"examples\":[{\"pattern\":\"should\",\"ipa\":\"/ʃʊd/\",\"word\":\"should\"}],\"visual\":\"🏥\"}]\ncando: \"Can explain illness symptoms and give appropriate health advice using should\"",
+          "recycled": "Grammar: Present Simple vs Present Continuous for current projects vs regular job duties, Present Simple Passive (is/are + past participle) for workflow routines, Past Simple Passive (was/were + past participle) for completed reports and tasks · Vocabulary: Contract, Client, Feedback, Performance (reused and expanded in Describing Health Symptoms & Giving Advice (Should / Shouldn't))"
         },
         {
           "lesson": 2,
@@ -261,7 +268,8 @@
             "reading"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-A2-008\"\ncando: \"Can discuss dietary habits, exercise routines, and personal wellbeing goals\""
+          "teacher_notes": "code: \"EN-A2-008\"\ncando: \"Can discuss dietary habits, exercise routines, and personal wellbeing goals\"",
+          "recycled": "Grammar: Past Simple Passive (was/were + past participle) for completed reports and tasks, Should / shouldn't for health recommendations, Expressing physical symptoms (have got a headache, feel dizzy, hurt) · Vocabulary: Recover, Treatment, Healthy, Appointment (reused and expanded in Healthy Lifestyle & Physical Wellbeing)"
         }
       ]
     },
@@ -297,7 +305,8 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-A2-009\"\npronunciation: [{\"point\":\"Polite intonation in indirect questions\",\"explain\":\"Using gentle rising-falling pitch contours when asking polite service questions.\",\"examples\":[{\"pattern\":\"Could you tell me...?\",\"ipa\":\"/kʊd juː tel miː/\",\"word\":\"Could\"}],\"visual\":\"✈️\"}]\ncando: \"Can book travel arrangements, ask polite questions, and handle hotel check-in\""
+          "teacher_notes": "code: \"EN-A2-009\"\npronunciation: [{\"point\":\"Polite intonation in indirect questions\",\"explain\":\"Using gentle rising-falling pitch contours when asking polite service questions.\",\"examples\":[{\"pattern\":\"Could you tell me...?\",\"ipa\":\"/kʊd juː tel miː/\",\"word\":\"Could\"}],\"visual\":\"✈️\"}]\ncando: \"Can book travel arrangements, ask polite questions, and handle hotel check-in\"",
+          "recycled": "Grammar: Expressing physical symptoms (have got a headache, feel dizzy, hurt), Adverbs of degree and frequency (extremely, fairly, regularly, rarely), Imperatives for fitness and wellbeing instructions · Vocabulary: Relax, Habit, Energy, Routine (reused and expanded in Booking Travel & Asking for Information (Indirect Questions))"
         },
         {
           "lesson": 2,
@@ -326,7 +335,8 @@
             "reading"
           ],
           "speaking_percent": 55,
-          "teacher_notes": "code: \"EN-A2-010\"\ncando: \"Can ask for and give directions to urban landmarks and describe sightseeing tours\""
+          "teacher_notes": "code: \"EN-A2-010\"\ncando: \"Can ask for and give directions to urban landmarks and describe sightseeing tours\"",
+          "recycled": "Grammar: Imperatives for fitness and wellbeing instructions, Indirect questions for polite enquiry (Could you tell me where... / Do you know if...), Modals for polite requests (Could I, Would you mind) · Vocabulary: Boarding pass, Luggage, Refund, Enquiry (reused and expanded in Sightseeing & Prepositions of Movement)"
         }
       ]
     },
@@ -362,7 +372,8 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-A2-011\"\ncando: \"Can compare products, evaluate prices, and make smart purchasing decisions\""
+          "teacher_notes": "code: \"EN-A2-011\"\ncando: \"Can compare products, evaluate prices, and make smart purchasing decisions\"",
+          "recycled": "Grammar: Modals for polite requests (Could I, Would you mind), Prepositions of movement (along, across, through, past, towards), Imperatives and directional phrases for giving directions · Vocabulary: Pedestrian, Historic, Scenic, Tourist (reused and expanded in Comparing Options (Comparatives & Superlatives))"
         },
         {
           "lesson": 2,
@@ -391,7 +402,8 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-A2-012\"\ncando: \"Can express customer preferences, report defective items, and ask for refunds\""
+          "teacher_notes": "code: \"EN-A2-012\"\ncando: \"Can express customer preferences, report defective items, and ask for refunds\"",
+          "recycled": "Grammar: Imperatives and directional phrases for giving directions, Comparative and superlative adjectives (cheaper, more expensive, the best, as...as), Modifying comparatives (a bit cheaper, much better) · Vocabulary: Price, Afford, Expensive, Value (reused and expanded in Too & Enough / Indefinite Pronouns)"
         }
       ]
     },
@@ -427,7 +439,8 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-A2-013\"\npronunciation: [{\"point\":\"Weak form of going to\",\"explain\":\"In casual conversation, going to frequently reduces to gonna /ˈɡən.ə/.\",\"examples\":[{\"pattern\":\"going to\",\"ipa\":\"/ˈɡən.ə/\",\"word\":\"gonna\"}],\"visual\":\"📱\"}]\ncando: \"Can discuss technology habits, device preferences, and planned digital updates\""
+          "teacher_notes": "code: \"EN-A2-013\"\npronunciation: [{\"point\":\"Weak form of going to\",\"explain\":\"In casual conversation, going to frequently reduces to gonna /ˈɡən.ə/.\",\"examples\":[{\"pattern\":\"going to\",\"ipa\":\"/ˈɡən.ə/\",\"word\":\"gonna\"}],\"visual\":\"📱\"}]\ncando: \"Can discuss technology habits, device preferences, and planned digital updates\"",
+          "recycled": "Grammar: Modifying comparatives (a bit cheaper, much better), Too + adjective / Adjective + enough for suitability, Indefinite pronouns (someone, anything, nowhere, everybody) · Vocabulary: Complaint, Defective, Replace, Guarantee (reused and expanded in Future Plans & Intentions (Will vs Be Going To))"
         },
         {
           "lesson": 2,
@@ -456,7 +469,8 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-A2-014\"\ncando: \"Can explain cause-and-effect conditions and basic cybersecurity rules\""
+          "teacher_notes": "code: \"EN-A2-014\"\ncando: \"Can explain cause-and-effect conditions and basic cybersecurity rules\"",
+          "recycled": "Grammar: Indefinite pronouns (someone, anything, nowhere, everybody), Be going to for intentions and planned tech upgrades, Will for spontaneous decisions, predictions, and tech promises · Vocabulary: Download, Connection, Storage, Digital (reused and expanded in First Conditional in Tech & Daily Life)"
         }
       ]
     },
@@ -492,7 +506,8 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-A2-015\"\ncando: \"Can express educational goals, learning strategies, and personal ambitions\""
+          "teacher_notes": "code: \"EN-A2-015\"\ncando: \"Can express educational goals, learning strategies, and personal ambitions\"",
+          "recycled": "Grammar: Will for spontaneous decisions, predictions, and tech promises, First conditional: If + Present Simple, Will + infinitive, Time clauses with when and as soon as · Vocabulary: Feature, Option, Risk, Protect (reused and expanded in Gerunds vs Infinitives in Learning Goals)"
         },
         {
           "lesson": 2,
@@ -521,7 +536,8 @@
             "reading"
           ],
           "speaking_percent": 55,
-          "teacher_notes": "code: \"EN-A2-016\"\ncando: \"Can talk about hypothetical future situations and offer personal advice using second conditional\""
+          "teacher_notes": "code: \"EN-A2-016\"\ncando: \"Can talk about hypothetical future situations and offer personal advice using second conditional\"",
+          "recycled": "Grammar: Time clauses with when and as soon as, Verbs followed by gerund (-ing): enjoy, practice, mind, consider, Verbs followed by infinitive (to + verb): decide, hope, plan, want, agree · Vocabulary: Improve, Achieve, Goal, Progress (reused and expanded in Second Conditional Intro (Hypothetical Dreams))"
         }
       ]
     },
@@ -557,7 +573,8 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-A2-017\"\ncando: \"Can describe movies, books, venues, and cultural events using relative clauses\""
+          "teacher_notes": "code: \"EN-A2-017\"\ncando: \"Can describe movies, books, venues, and cultural events using relative clauses\"",
+          "recycled": "Grammar: Verbs followed by infinitive (to + verb): decide, hope, plan, want, agree, Second conditional intro: If + Past Simple, Would + infinitive for imaginary situations, If I were you, I would... · Vocabulary: Choice, Advice, Develop, Succeed (reused and expanded in Defining Relative Clauses (Who, Which, That, Where))"
         },
         {
           "lesson": 2,
@@ -585,7 +602,8 @@
             "listening"
           ],
           "speaking_percent": 60,
-          "teacher_notes": "code: \"EN-A2-018\"\npronunciation: [{\"point\":\"Intonation on question tags\",\"explain\":\"Falling intonation expects agreement; rising intonation asks a real question.\",\"examples\":[{\"pattern\":\"Great concert, wasn't it?\",\"ipa\":\"/wɒz.ənt ɪt/\",\"word\":\"wasn't it\"}],\"visual\":\"🎭\"}]\ncando: \"Can maintain social conversation, express agreement, and use natural question tags\""
+          "teacher_notes": "code: \"EN-A2-018\"\npronunciation: [{\"point\":\"Intonation on question tags\",\"explain\":\"Falling intonation expects agreement; rising intonation asks a real question.\",\"examples\":[{\"pattern\":\"Great concert, wasn't it?\",\"ipa\":\"/wɒz.ənt ɪt/\",\"word\":\"wasn't it\"}],\"visual\":\"🎭\"}]\ncando: \"Can maintain social conversation, express agreement, and use natural question tags\"",
+          "recycled": "Grammar: If I were you, I would..., Defining relative clauses: who for people, which/that for things, where for places, Omitting relative pronouns when they are object of the clause · Vocabulary: Audience, Review, Genre, Entertainment (reused and expanded in Question Tags & Social Agreement)"
         }
       ]
     },
@@ -621,7 +639,8 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-A2-019\"\ncando: \"Can report news, opinions, and environmental statements using reported speech\""
+          "teacher_notes": "code: \"EN-A2-019\"\ncando: \"Can report news, opinions, and environmental statements using reported speech\"",
+          "recycled": "Grammar: Omitting relative pronouns when they are object of the clause, Question tags for checking information and seeking agreement (is it?, don't you?), So / Neither for expressing agreement (So do I / Neither am I) · Vocabulary: Popular, Opinion, Agree, Disagree (reused and expanded in Reported Speech Statements & Backshift)"
         },
         {
           "lesson": 2,
@@ -643,7 +662,8 @@
             "writing"
           ],
           "speaking_percent": 70,
-          "teacher_notes": "code: \"EN-A2-020\"\ncando: \"Can demonstrate full A2 language competency across conversational, professional, and practical everyday scenarios\""
+          "teacher_notes": "code: \"EN-A2-020\"\ncando: \"Can demonstrate full A2 language competency across conversational, professional, and practical everyday scenarios\"",
+          "recycled": "Grammar: So / Neither for expressing agreement (So do I / Neither am I), Reported speech for statements (He said that..., She told me that...), Tense backshift rules (Present Simple -> Past Simple) · Vocabulary: Wildlife, Habitat, Conservation, Ecosystem (reused and expanded in A2 General Course Master Review & Consolidation)"
         }
       ]
     }

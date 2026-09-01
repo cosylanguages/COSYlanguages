@@ -10,9 +10,18 @@
         {
           "lesson": 1,
           "title": "Retorica e figure retoriche della lingua italiana",
-          "grammar": ["Inversione sintattica stilistica"],
-          "vocabulary": ["Erudizione", "Sottointeso", "Allegoria", "Aforisma", "Quintessenza"],
-          "teacher_notes": "code: \"IT-C2-001\"\ncando: \"Sa cogliere e utilizzare le sottigliezze culturali e stilistiche al livello madrelingua\""
+          "grammar": [
+            "Inversione sintattica stilistica"
+          ],
+          "vocabulary": [
+            "Erudizione",
+            "Sottointeso",
+            "Allegoria",
+            "Aforisma",
+            "Quintessenza"
+          ],
+          "teacher_notes": "code: \"IT-C2-001\"\ncando: \"Sa cogliere e utilizzare le sottigliezze culturali e stilistiche al livello madrelingua\"",
+          "recycled": "Initial course anchor: establishes baseline target-language sounds, primary greetings, and fundamental sentence patterns."
         }
       ]
     }

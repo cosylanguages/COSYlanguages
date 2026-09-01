@@ -20,7 +20,8 @@
             "Por favor",
             "Adeus"
           ],
-          "teacher_notes": "code: \"PT-001\"\npronunciation: [{\"point\":\"O Alfabeto Português\",\"explain\":\"O alfabeto português tem 26 letras. Atenção aos acentos e ao til (~).\",\"alphabet\":[{\"l\":\"A a\",\"ipa\":\"/a/\"},{\"l\":\"B b\",\"ipa\":\"/be/\"},{\"l\":\"C c\",\"ipa\":\"/se/\"},{\"l\":\"D d\",\"ipa\":\"/de/\"},{\"l\":\"E e\",\"ipa\":\"/ɛ/\"},{\"l\":\"F f\",\"ipa\":\"/ɛfe/\"},{\"l\":\"G g\",\"ipa\":\"/ʒe/\"},{\"l\":\"H h\",\"ipa\":\"/aɡa/\"},{\"l\":\"I i\",\"ipa\":\"/i/\"},{\"l\":\"J j\",\"ipa\":\"/ʒɔta/\"},{\"l\":\"K k\",\"ipa\":\"/ka/\"},{\"l\":\"L l\",\"ipa\":\"/ɛle/\"},{\"l\":\"M m\",\"ipa\":\"/ɛme/\"},{\"l\":\"N n\",\"ipa\":\"/ɛne/\"},{\"l\":\"O o\",\"ipa\":\"/ɔ/\"},{\"l\":\"P p\",\"ipa\":\"/pe/\"},{\"l\":\"Q q\",\"ipa\":\"/ke/\"},{\"l\":\"R r\",\"ipa\":\"/ɛʁe/\"},{\"l\":\"S s\",\"ipa\":\"/ɛse/\"},{\"l\":\"T t\",\"ipa\":\"/te/\"},{\"l\":\"U u\",\"ipa\":\"/u/\"},{\"l\":\"V v\",\"ipa\":\"/ve/\"},{\"l\":\"W w\",\"ipa\":\"/dabliu/\"},{\"l\":\"X x\",\"ipa\":\"/ʃis/\"},{\"l\":\"Y y\",\"ipa\":\"/ipsilɔn/\"},{\"l\":\"Z z\",\"ipa\":\"/ze/\"}],\"extension\":\"O português é falado em muitos países, e existem diferenças de pronúncia entre o Brasil e Portugal. Aqui focamos na base comum e clara.\",\"visual\":\"🇵🇹🔤\"}]\ncando: \"Can greet people and say goodbye\"\nhw: \"Learn the alphabet and the nasal sounds\""
+          "teacher_notes": "code: \"PT-001\"\npronunciation: [{\"point\":\"O Alfabeto Português\",\"explain\":\"O alfabeto português tem 26 letras. Atenção aos acentos e ao til (~).\",\"alphabet\":[{\"l\":\"A a\",\"ipa\":\"/a/\"},{\"l\":\"B b\",\"ipa\":\"/be/\"},{\"l\":\"C c\",\"ipa\":\"/se/\"},{\"l\":\"D d\",\"ipa\":\"/de/\"},{\"l\":\"E e\",\"ipa\":\"/ɛ/\"},{\"l\":\"F f\",\"ipa\":\"/ɛfe/\"},{\"l\":\"G g\",\"ipa\":\"/ʒe/\"},{\"l\":\"H h\",\"ipa\":\"/aɡa/\"},{\"l\":\"I i\",\"ipa\":\"/i/\"},{\"l\":\"J j\",\"ipa\":\"/ʒɔta/\"},{\"l\":\"K k\",\"ipa\":\"/ka/\"},{\"l\":\"L l\",\"ipa\":\"/ɛle/\"},{\"l\":\"M m\",\"ipa\":\"/ɛme/\"},{\"l\":\"N n\",\"ipa\":\"/ɛne/\"},{\"l\":\"O o\",\"ipa\":\"/ɔ/\"},{\"l\":\"P p\",\"ipa\":\"/pe/\"},{\"l\":\"Q q\",\"ipa\":\"/ke/\"},{\"l\":\"R r\",\"ipa\":\"/ɛʁe/\"},{\"l\":\"S s\",\"ipa\":\"/ɛse/\"},{\"l\":\"T t\",\"ipa\":\"/te/\"},{\"l\":\"U u\",\"ipa\":\"/u/\"},{\"l\":\"V v\",\"ipa\":\"/ve/\"},{\"l\":\"W w\",\"ipa\":\"/dabliu/\"},{\"l\":\"X x\",\"ipa\":\"/ʃis/\"},{\"l\":\"Y y\",\"ipa\":\"/ipsilɔn/\"},{\"l\":\"Z z\",\"ipa\":\"/ze/\"}],\"extension\":\"O português é falado em muitos países, e existem diferenças de pronúncia entre o Brasil e Portugal. Aqui focamos na base comum e clara.\",\"visual\":\"🇵🇹🔤\"}]\ncando: \"Can greet people and say goodbye\"\nhw: \"Learn the alphabet and the nasal sounds\"",
+          "recycled": "Initial course anchor: establishes baseline target-language sounds, primary greetings, and fundamental sentence patterns."
         },
         {
           "lesson": 2,
@@ -33,7 +34,8 @@
             "Como?",
             "Muito prazer"
           ],
-          "teacher_notes": "code: \"PT-002\"\npronunciation: [{\"point\":\"Sons Nasais e o Til (~)\",\"explain\":\"O til indica que o som deve sair pelo nariz.\",\"examples\":[{\"pattern\":\"ão\",\"ipa\":\"/ɐ̃w̃/\",\"word\":\"pão\"},{\"pattern\":\"ã\",\"ipa\":\"/ɐ̃/\",\"word\":\"manhã\"},{\"pattern\":\"ões\",\"ipa\":\"/õj̃s/\",\"word\":\"lições\"}],\"tip\":\"Pense no som do sino: 'tão, tão'.\",\"extension\":\"Os sons nasais são uma das características mais marcantes do português. É o que dá à língua o seu som melódico único.\",\"visual\":\"👃\"}]\ncando: \"Can introduce themselves\"\nhw: \"Practice spelling your name in Portuguese\""
+          "teacher_notes": "code: \"PT-002\"\npronunciation: [{\"point\":\"Sons Nasais e o Til (~)\",\"explain\":\"O til indica que o som deve sair pelo nariz.\",\"examples\":[{\"pattern\":\"ão\",\"ipa\":\"/ɐ̃w̃/\",\"word\":\"pão\"},{\"pattern\":\"ã\",\"ipa\":\"/ɐ̃/\",\"word\":\"manhã\"},{\"pattern\":\"ões\",\"ipa\":\"/õj̃s/\",\"word\":\"lições\"}],\"tip\":\"Pense no som do sino: 'tão, tão'.\",\"extension\":\"Os sons nasais são uma das características mais marcantes do português. É o que dá à língua o seu som melódico único.\",\"visual\":\"👃\"}]\ncando: \"Can introduce themselves\"\nhw: \"Practice spelling your name in Portuguese\"",
+          "recycled": "Grammar: Verbo \"ser\" (presente) — formas afirmativas · Vocabulary: Bom dia, Obrigado, Por favor, Adeus (reused and expanded in Como se chama?)"
         },
         {
           "lesson": 3,
@@ -48,7 +50,8 @@
             "dez",
             "vinte"
           ],
-          "teacher_notes": "code: \"PT-003\"\npronunciation: [{\"point\":\"Sons de 'S' e 'Z'\",\"explain\":\"O 's' entre vogais soa como 'z'.\",\"examples\":[{\"pattern\":\"casa\",\"ipa\":\"/ˈka.zɐ/\",\"word\":\"casa\"},{\"pattern\":\"mesa\",\"ipa\":\"/ˈme.zɐ/\",\"word\":\"mesa\"},{\"pattern\":\"rosa\",\"ipa\":\"/ˈʁɔ.zɐ/\",\"word\":\"rosa\"}]}]\ncando: \"Can count from 1 to 20\"\nhw: \"Count from 1 to 20 in Portuguese while showering\""
+          "teacher_notes": "code: \"PT-003\"\npronunciation: [{\"point\":\"Sons de 'S' e 'Z'\",\"explain\":\"O 's' entre vogais soa como 'z'.\",\"examples\":[{\"pattern\":\"casa\",\"ipa\":\"/ˈka.zɐ/\",\"word\":\"casa\"},{\"pattern\":\"mesa\",\"ipa\":\"/ˈme.zɐ/\",\"word\":\"mesa\"},{\"pattern\":\"rosa\",\"ipa\":\"/ˈʁɔ.zɐ/\",\"word\":\"rosa\"}]}]\ncando: \"Can count from 1 to 20\"\nhw: \"Count from 1 to 20 in Portuguese while showering\"",
+          "recycled": "Grammar: Verbo \"ser\" (presente) — formas afirmativas, Verbo \"chamar-se\" (presente) · Vocabulary: Adeus, Nome, Como?, Muito prazer (reused and expanded in Números 1-20)"
         },
         {
           "lesson": 4,
@@ -61,7 +64,8 @@
             "banho",
             "chave"
           ],
-          "teacher_notes": "code: \"PT-004\"\npronunciation: [{\"point\":\"Dígrafos LH, NH, CH\",\"explain\":\"Estes pares de letras criam sons específicos.\",\"minimalPairs\":[{\"w1\":\"filha\",\"p1\":\"/ˈfi.ʎɐ/\",\"w2\":\"fila\",\"p2\":\"/ˈfi.lɐ/\"},{\"w1\":\"banho\",\"p1\":\"/ˈba.ɲu/\",\"w2\":\"bano\",\"p2\":\"/ˈba.nu/\"},{\"w1\":\"chave\",\"p1\":\"/ˈʃa.ve/\",\"w2\":\"chá\",\"p2\":\"/ʃa/\"}],\"extension\":\"LH soa como 'li' em 'milhão'. NH soa como 'ni' em 'ninho'. CH soa como 'sh' em 'show'.\",\"visual\":\"🇵🇹\"}]\ncando: \"Can pronounce LH and NH sounds correctly\"\nhw: \"Record yourself saying \\\"filha\\\" and \\\"banho\\\"\""
+          "teacher_notes": "code: \"PT-004\"\npronunciation: [{\"point\":\"Dígrafos LH, NH, CH\",\"explain\":\"Estes pares de letras criam sons específicos.\",\"minimalPairs\":[{\"w1\":\"filha\",\"p1\":\"/ˈfi.ʎɐ/\",\"w2\":\"fila\",\"p2\":\"/ˈfi.lɐ/\"},{\"w1\":\"banho\",\"p1\":\"/ˈba.ɲu/\",\"w2\":\"bano\",\"p2\":\"/ˈba.nu/\"},{\"w1\":\"chave\",\"p1\":\"/ˈʃa.ve/\",\"w2\":\"chá\",\"p2\":\"/ʃa/\"}],\"extension\":\"LH soa como 'li' em 'milhão'. NH soa como 'ni' em 'ninho'. CH soa como 'sh' em 'show'.\",\"visual\":\"🇵🇹\"}]\ncando: \"Can pronounce LH and NH sounds correctly\"\nhw: \"Record yourself saying \\\"filha\\\" and \\\"banho\\\"\"",
+          "recycled": "Grammar: Verbo \"ser\" (presente) — formas afirmativas, Verbo \"chamar-se\" (presente), Género dos nomes (masculino e feminino) · Vocabulary: dois, três, dez, vinte (reused and expanded in Dígrafos: LH, NH, CH)"
         },
         {
           "lesson": 5,
@@ -75,7 +79,8 @@
             "Sim",
             "Não"
           ],
-          "teacher_notes": "code: \"PT-005\"\npronunciation: [{\"point\":\"Acento Tónico\",\"explain\":\"Em português, a maioria das palavras é paroxítona (acento na penúltima sílaba).\",\"examples\":[{\"pattern\":\"por favor\",\"ipa\":\"/puɾ fɐ.ˈvoɾ/\",\"word\":\"por favor\"},{\"pattern\":\"obrigado\",\"ipa\":\"/u.bɾi.ˈɡa.du/\",\"word\":\"obrigado\"}]}]\ncando: \"Can use basic polite phrases\"\nhw: \"Use three polite phrases tomorrow in Portuguese\""
+          "teacher_notes": "code: \"PT-005\"\npronunciation: [{\"point\":\"Acento Tónico\",\"explain\":\"Em português, a maioria das palavras é paroxítona (acento na penúltima sílaba).\",\"examples\":[{\"pattern\":\"por favor\",\"ipa\":\"/puɾ fɐ.ˈvoɾ/\",\"word\":\"por favor\"},{\"pattern\":\"obrigado\",\"ipa\":\"/u.bɾi.ˈɡa.du/\",\"word\":\"obrigado\"}]}]\ncando: \"Can use basic polite phrases\"\nhw: \"Use three polite phrases tomorrow in Portuguese\"",
+          "recycled": "Grammar: Verbo \"chamar-se\" (presente), Género dos nomes (masculino e feminino), Estrutura básica da frase em português · Vocabulary: vinte, filha, banho, chave (reused and expanded in Frases Essenciais)"
         }
       ]
     },
@@ -94,7 +99,8 @@
             "professor",
             "português"
           ],
-          "teacher_notes": "code: \"PT-01\"\npronunciation: [{\"point\":\"Redução Vocálica\",\"explain\":\"Em Portugal, as vogais átonas são muitas vezes reduzidas ou quase desaparecem.\",\"examples\":[{\"pattern\":\"excelente\",\"ipa\":\"/ɐj.sə.ˈlẽ.tə/\",\"word\":\"excelente\"},{\"pattern\":\"português\",\"ipa\":\"/puɾ.tu.ˈɡeʃ/\",\"word\":\"português\"}],\"extension\":\"Esta redução é a principal diferença entre o português de Portugal (mais 'fechado') e o do Brasil (mais 'aberto'). Ouvir estas diferenças ajuda muito na compreensão auditiva.\",\"visual\":\"📉\"}]\ncando: \"Can introduce themselves and use basic verbs\"\nhw: \"Write a small intro about yourself in Portuguese\""
+          "teacher_notes": "code: \"PT-01\"\npronunciation: [{\"point\":\"Redução Vocálica\",\"explain\":\"Em Portugal, as vogais átonas são muitas vezes reduzidas ou quase desaparecem.\",\"examples\":[{\"pattern\":\"excelente\",\"ipa\":\"/ɐj.sə.ˈlẽ.tə/\",\"word\":\"excelente\"},{\"pattern\":\"português\",\"ipa\":\"/puɾ.tu.ˈɡeʃ/\",\"word\":\"português\"}],\"extension\":\"Esta redução é a principal diferença entre o português de Portugal (mais 'fechado') e o do Brasil (mais 'aberto'). Ouvir estas diferenças ajuda muito na compreensão auditiva.\",\"visual\":\"📉\"}]\ncando: \"Can introduce themselves and use basic verbs\"\nhw: \"Write a small intro about yourself in Portuguese\"",
+          "recycled": "Grammar: Género dos nomes (masculino e feminino), Estrutura básica da frase em português, Pedidos educados (Por favor, Com licença) · Vocabulary: Desculpe, Sinto muito, Sim, Não (reused and expanded in Olá, eu sou...)"
         },
         {
           "lesson": 2,
@@ -102,7 +108,8 @@
           "grammar": [
             "Verbo ter + artigos indefinidos"
           ],
-          "teacher_notes": "code: \"PT-02\"\npronunciation: [{\"point\":\"O som do 'X'\",\"explain\":\"A letra 'x' pode ter vários sons em português: 'sh', 'z', 'ks' ou 's'.\",\"examples\":[{\"pattern\":\"sh\",\"ipa\":\"/ʃ/\",\"word\":\"caixa\"},{\"pattern\":\"z\",\"ipa\":\"/z/\",\"word\":\"exame\"},{\"pattern\":\"ks\",\"ipa\":\"/ks/\",\"word\":\"táxi\"}],\"tip\":\"Não há uma regra fixa, é preciso aprender caso a caso!\",\"visual\":\"✖️\"}]"
+          "teacher_notes": "code: \"PT-02\"\npronunciation: [{\"point\":\"O som do 'X'\",\"explain\":\"A letra 'x' pode ter vários sons em português: 'sh', 'z', 'ks' ou 's'.\",\"examples\":[{\"pattern\":\"sh\",\"ipa\":\"/ʃ/\",\"word\":\"caixa\"},{\"pattern\":\"z\",\"ipa\":\"/z/\",\"word\":\"exame\"},{\"pattern\":\"ks\",\"ipa\":\"/ks/\",\"word\":\"táxi\"}],\"tip\":\"Não há uma regra fixa, é preciso aprender caso a caso!\",\"visual\":\"✖️\"}]",
+          "recycled": "Grammar: Estrutura básica da frase em português, Pedidos educados (Por favor, Com licença), Verbos \"ser\" e \"estar\" (presente) · Vocabulary: Não, estudante, professor, português (reused and expanded in O meu trabalho)"
         },
         {
           "lesson": 3,
@@ -110,7 +117,8 @@
           "grammar": [
             "Verbos de lugar + preposições"
           ],
-          "teacher_notes": "code: \"PT-03\"\npronunciation: [{\"point\":\"O 'R' vibrante e o 'RR'\",\"explain\":\"O 'r' no início da palavra ou o 'rr' no meio é forte e vem da garganta.\",\"examples\":[{\"pattern\":\"r-\",\"ipa\":\"/ʁ/\",\"word\":\"rua\"},{\"pattern\":\"rr\",\"ipa\":\"/ʁ/\",\"word\":\"carro\"}],\"extension\":\"Em Portugal, este som é muitas vezes produzido na úvula, de forma semelhante ao 'r' francês ou alemão.\",\"visual\":\"🦁\"}]"
+          "teacher_notes": "code: \"PT-03\"\npronunciation: [{\"point\":\"O 'R' vibrante e o 'RR'\",\"explain\":\"O 'r' no início da palavra ou o 'rr' no meio é forte e vem da garganta.\",\"examples\":[{\"pattern\":\"r-\",\"ipa\":\"/ʁ/\",\"word\":\"rua\"},{\"pattern\":\"rr\",\"ipa\":\"/ʁ/\",\"word\":\"carro\"}],\"extension\":\"Em Portugal, este som é muitas vezes produzido na úvula, de forma semelhante ao 'r' francês ou alemão.\",\"visual\":\"🦁\"}]",
+          "recycled": "Grammar: Pedidos educados (Por favor, Com licença), Verbos \"ser\" e \"estar\" (presente), Verbo ter + artigos indefinidos · Vocabulary: Não, estudante, professor, português (reused and expanded in A minha casa)"
         }
       ]
     }

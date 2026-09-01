@@ -23,7 +23,8 @@
             "Claim",
             "Receipt"
           ],
-          "teacher_notes": "code: \"EN-TRV-B1-001\"\ncando: \"Can file a report for lost luggage or items and explain circumstances clearly.\""
+          "teacher_notes": "code: \"EN-TRV-B1-001\"\ncando: \"Can file a report for lost luggage or items and explain circumstances clearly.\"",
+          "recycled": "Initial course anchor: establishes baseline target-language sounds, primary greetings, and fundamental sentence patterns."
         },
         {
           "lesson": 2,
@@ -41,7 +42,8 @@
             "Guide",
             "Century"
           ],
-          "teacher_notes": "code: \"EN-TRV-B1-002\"\ncando: \"Can participate in guided cultural tours and discuss local history.\""
+          "teacher_notes": "code: \"EN-TRV-B1-002\"\ncando: \"Can participate in guided cultural tours and discuss local history.\"",
+          "recycled": "Grammar: Past continuous + past simple for describing incidents, Indirect questions · Vocabulary: Report, Stolen, Claim, Receipt (reused and expanded in Guided Tours, History & Cultural Exchanges)"
         }
       ]
     }

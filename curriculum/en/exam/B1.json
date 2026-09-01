@@ -22,7 +22,8 @@
             "Look like",
             "Describe"
           ],
-          "teacher_notes": "code: \"EN-EXM-B1-001\"\ncando: \"Can describe pictures and complete 1-minute long turns for B1 oral exams.\""
+          "teacher_notes": "code: \"EN-EXM-B1-001\"\ncando: \"Can describe pictures and complete 1-minute long turns for B1 oral exams.\"",
+          "recycled": "Initial course anchor: establishes baseline target-language sounds, primary greetings, and fundamental sentence patterns."
         },
         {
           "lesson": 2,
@@ -39,7 +40,8 @@
             "However",
             "To conclude"
           ],
-          "teacher_notes": "code: \"EN-EXM-B1-002\"\ncando: \"Can structure short emails and essays following B1 exam criteria.\""
+          "teacher_notes": "code: \"EN-EXM-B1-002\"\ncando: \"Can structure short emails and essays following B1 exam criteria.\"",
+          "recycled": "Grammar: Present continuous for actions in pictures, Prepositions of position (in the foreground, on the left) · Vocabulary: Background, Appears to be, Look like, Describe (reused and expanded in B1 Email & Essay Writing Structure)"
         }
       ]
     }

@@ -36,7 +36,8 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-B1-001\"\npronunciation: [{\"point\":\"Weak forms of auxiliary verbs\",\"explain\":\"Mastering weak forms of have/has/been in natural connected continuous tenses.\",\"examples\":[{\"pattern\":\"have been working\",\"ipa\":\"/həv bɪn ˈwɜː.kɪŋ/\",\"word\":\"been\"}],\"visual\":\"🎵\"}]\ncando: \"Can discuss personality nuances, character growth, and emotional state using present perfect continuous\""
+          "teacher_notes": "code: \"EN-B1-001\"\npronunciation: [{\"point\":\"Weak forms of auxiliary verbs\",\"explain\":\"Mastering weak forms of have/has/been in natural connected continuous tenses.\",\"examples\":[{\"pattern\":\"have been working\",\"ipa\":\"/həv bɪn ˈwɜː.kɪŋ/\",\"word\":\"been\"}],\"visual\":\"🎵\"}]\ncando: \"Can discuss personality nuances, character growth, and emotional state using present perfect continuous\"",
+          "recycled": "Initial course anchor: establishes baseline target-language sounds, primary greetings, and fundamental sentence patterns."
         },
         {
           "lesson": 2,
@@ -66,7 +67,8 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-B1-002\"\ncando: \"Can speculate about present situations and past behavior with varying degrees of certainty\""
+          "teacher_notes": "code: \"EN-B1-002\"\ncando: \"Can speculate about present situations and past behavior with varying degrees of certainty\"",
+          "recycled": "Grammar: Present Perfect Continuous for ongoing actions and duration up to now, Present Perfect Simple for completed achievements and life results, State verbs vs action verbs in continuous tenses · Vocabulary: Emotional wellbeing, Cope with, Mindset, Nuance (reused and expanded in Modals of Deduction & Speculation (Present & Past))"
         }
       ]
     },
@@ -103,7 +105,8 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-B1-003\"\ncando: \"Can narrate detailed career progression and past professional milestones using past perfect forms\""
+          "teacher_notes": "code: \"EN-B1-003\"\ncando: \"Can narrate detailed career progression and past professional milestones using past perfect forms\"",
+          "recycled": "Grammar: State verbs vs action verbs in continuous tenses, Modals of present deduction (must be, can't be, might/could be), Modals of past deduction (must have been, can't have been, might have been) · Vocabulary: Perceive, Interpret, Certainty, Plausible (reused and expanded in Narrative Tenses & Past Perfect Simple / Continuous)"
         },
         {
           "lesson": 2,
@@ -132,7 +135,8 @@
             "reading"
           ],
           "speaking_percent": 45,
-          "teacher_notes": "code: \"EN-B1-004\"\ncando: \"Can describe delegated tasks, professional services, and quality control procedures\""
+          "teacher_notes": "code: \"EN-B1-004\"\ncando: \"Can describe delegated tasks, professional services, and quality control procedures\"",
+          "recycled": "Grammar: Past Perfect Simple for actions completed before another past event, Past Perfect Continuous for ongoing past duration prior to a past benchmark, Future in the Past (was going to, was due to, was about to) · Vocabulary: Redundancy, Work ethic, Interview, Track record (reused and expanded in Causative Passive (Have / Get Something Done))"
         }
       ]
     },
@@ -168,7 +172,8 @@
             "listening"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-B1-005\"\ncando: \"Can analyze digital media trends, debate online privacy, and structure complex written arguments with connectors\""
+          "teacher_notes": "code: \"EN-B1-005\"\ncando: \"Can analyze digital media trends, debate online privacy, and structure complex written arguments with connectors\"",
+          "recycled": "Grammar: Future in the Past (was going to, was due to, was about to), Have something done / Get something done for arranged professional services, Passive voice with modal verbs (must be completed, should be reviewed) · Vocabulary: Quality control, Audit, Supervise, Implementation (reused and expanded in Discourse Connectors & Linking Words Masterclass)"
         },
         {
           "lesson": 2,
@@ -197,7 +202,8 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-B1-006\"\ncando: \"Can make complex technical enquiries and report digital issues politely using embedded indirect questions\""
+          "teacher_notes": "code: \"EN-B1-006\"\ncando: \"Can make complex technical enquiries and report digital issues politely using embedded indirect questions\"",
+          "recycled": "Grammar: Passive voice with modal verbs (must be completed, should be reviewed), Connectors of contrast (however, whereas, on the other hand, despite, in spite of), Connectors of cause and result (consequently, therefore, due to, as a result) · Vocabulary: Phishing, Data breach, Credibility, Verification (reused and expanded in Embedded Indirect Questions & Politeness)"
         }
       ]
     },
@@ -234,7 +240,8 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-B1-007\"\ncando: \"Can evaluate environmental policies and hypothesize past and present climate outcomes using complex conditionals\""
+          "teacher_notes": "code: \"EN-B1-007\"\ncando: \"Can evaluate environmental policies and hypothesize past and present climate outcomes using complex conditionals\"",
+          "recycled": "Grammar: Connectors of cause and result (consequently, therefore, due to, as a result), Embedded indirect questions (Do you happen to know whether... / I was wondering if you could clarify...), Polite register shifts in online customer service · Vocabulary: Inquiry, Compliance, Privacy policy, Terms of service (reused and expanded in Second & Third Conditionals + Mixed Conditionals Recognition)"
         },
         {
           "lesson": 2,
@@ -264,7 +271,8 @@
             "writing"
           ],
           "speaking_percent": 55,
-          "teacher_notes": "code: \"EN-B1-008\"\ncando: \"Can express environmental concerns, personal regrets, and policy desires using wish and if only\""
+          "teacher_notes": "code: \"EN-B1-008\"\ncando: \"Can express environmental concerns, personal regrets, and policy desires using wish and if only\"",
+          "recycled": "Grammar: Second conditional for hypothetical present policy choices, Third conditional for past environmental decisions (If we had invested in solar...), Mixed conditional intro (If we had protected wetlands then, we would have less flooding now) · Vocabulary: Emission, Eco-friendly, Preservation, Impact (reused and expanded in Expressing Wishes & Regrets (Wish / If Only))"
         }
       ]
     },
@@ -300,7 +308,8 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-B1-009\"\ncando: \"Can discuss medical diagnoses, treatment options, and urgent health precautions\""
+          "teacher_notes": "code: \"EN-B1-009\"\ncando: \"Can discuss medical diagnoses, treatment options, and urgent health precautions\"",
+          "recycled": "Grammar: Wish + Past Simple for present desires (I wish governments did more), Wish + Past Perfect for past regrets (If only we had acted sooner), Wish + Would for complaints about annoying habits · Vocabulary: Footprint, Urgency, Depletion, Action (reused and expanded in Modals of Obligation & Necessity Review (Must, Have to, Should, Had Better))"
         },
         {
           "lesson": 2,
@@ -329,7 +338,8 @@
             "reading"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-B1-010\"\ncando: \"Can describe physical sensations, emotional states, and stress recovery strategies\""
+          "teacher_notes": "code: \"EN-B1-010\"\ncando: \"Can describe physical sensations, emotional states, and stress recovery strategies\"",
+          "recycled": "Grammar: Wish + Would for complaints about annoying habits, Had better / had better not for urgent warnings, Needn't / didn't need to / needn't have done for lack of obligation · Vocabulary: Rehabilitation, Therapy, Immunity, Wellbeing (reused and expanded in -ed / -ing Adjectives & Verbs of the Senses)"
         }
       ]
     },
@@ -365,7 +375,8 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-B1-011\"\ncando: \"Can explain travel schedules, visa processing deadlines, and international travel logistics\""
+          "teacher_notes": "code: \"EN-B1-011\"\ncando: \"Can explain travel schedules, visa processing deadlines, and international travel logistics\"",
+          "recycled": "Grammar: Needn't / didn't need to / needn't have done for lack of obligation, -ed vs -ing adjectives for feelings vs sources (exhausted vs exhausting), Verbs of the senses + adjective / + as if + clause (look, sound, feel, taste, smell) · Vocabulary: Restorative, Sensation, Anxiety, Relief (reused and expanded in Future Continuous & Future Perfect Simple)"
         },
         {
           "lesson": 2,
@@ -395,7 +406,8 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-B1-012\"\ncando: \"Can describe travel destinations, expatriate experiences, and logistics using non-defining relative clauses\""
+          "teacher_notes": "code: \"EN-B1-012\"\ncando: \"Can describe travel destinations, expatriate experiences, and logistics using non-defining relative clauses\"",
+          "recycled": "Grammar: Verbs of the senses + adjective / + as if + clause (look, sound, feel, taste, smell), Future Continuous (will be doing) for actions in progress at a future time, Future Perfect Simple (will have done) for actions completed before a future deadline · Vocabulary: Compensation, Relocation, Border control, Itinerary (reused and expanded in Relative Clauses (Defining, Non-defining & Whose))"
         }
       ]
     },
@@ -431,7 +443,8 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-B1-013\"\ncando: \"Can evaluate financial products, compare interest rates, and discuss budgeting strategies\""
+          "teacher_notes": "code: \"EN-B1-013\"\ncando: \"Can evaluate financial products, compare interest rates, and discuss budgeting strategies\"",
+          "recycled": "Grammar: Future Perfect Simple (will have done) for actions completed before a future deadline, Non-defining relative clauses with commas for supplementary detail, Possessive relative pronoun whose for people and organizations · Vocabulary: Baggage allowance, Travel insurance, Terminal, Guidebook (reused and expanded in Modifying Comparatives & Superlatives)"
         },
         {
           "lesson": 2,
@@ -460,7 +473,8 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-B1-014\"\ncando: \"Can report banking transactions, advise against financial scams, and file dispute claims\""
+          "teacher_notes": "code: \"EN-B1-014\"\ncando: \"Can report banking transactions, advise against financial scams, and file dispute claims\"",
+          "recycled": "Grammar: Possessive relative pronoun whose for people and organizations, Modifying comparatives (substantially higher, far more expensive, slightly lower), Double comparatives (the more you invest, the higher the return) · Vocabulary: Transaction, Overdraft, Expenditure, Asset (reused and expanded in Reporting Verbs & Reported Questions)"
         }
       ]
     },
@@ -496,7 +510,8 @@
             "writing"
           ],
           "speaking_percent": 45,
-          "teacher_notes": "code: \"EN-B1-015\"\ncando: \"Can present scientific breakthroughs and technological innovations using passive voice structures\""
+          "teacher_notes": "code: \"EN-B1-015\"\ncando: \"Can present scientific breakthroughs and technological innovations using passive voice structures\"",
+          "recycled": "Grammar: Double comparatives (the more you invest, the higher the return), Reporting verbs with specific patterns (advise to, warn against -ing, suggest that), Reported questions with word order shift and if/whether · Vocabulary: Terms, Liability, Credit score, Advisor (reused and expanded in Passive Voice Across Tenses (Simple, Continuous, Perfect))"
         },
         {
           "lesson": 2,
@@ -525,7 +540,8 @@
             "reading"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-B1-016\"\ncando: \"Can explain scientific methods and technological troubleshooting using phrasal verb patterns\""
+          "teacher_notes": "code: \"EN-B1-016\"\ncando: \"Can explain scientific methods and technological troubleshooting using phrasal verb patterns\"",
+          "recycled": "Grammar: Reported questions with word order shift and if/whether, Passive voice across tenses (is being developed, has been discovered, will be launched), Passive with modal verbs (must be tested, can be implemented) · Vocabulary: Experiment, Biotechnology, Feasibility, Pioneer (reused and expanded in Phrasal Verbs Grammar Patterns & Separation Rules)"
         }
       ]
     },
@@ -561,7 +577,8 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-B1-017\"\ncando: \"Can critique cultural exhibitions and express aesthetic judgments using cleft sentences for emphasis\""
+          "teacher_notes": "code: \"EN-B1-017\"\ncando: \"Can critique cultural exhibitions and express aesthetic judgments using cleft sentences for emphasis\"",
+          "recycled": "Grammar: Passive with modal verbs (must be tested, can be implemented), Separable vs non-separable phrasal verbs (carry out research, set up a system), Three-part phrasal verbs (come up with, look forward to) · Vocabulary: Look into, Take over, Turn out, Break down (reused and expanded in Basic Cleft Sentences & Structural Emphasis)"
         },
         {
           "lesson": 2,
@@ -589,7 +606,8 @@
             "listening"
           ],
           "speaking_percent": 65,
-          "teacher_notes": "code: \"EN-B1-018\"\ncando: \"Can manage conversational floor, express artistic opinions, and check agreement in discussions\""
+          "teacher_notes": "code: \"EN-B1-018\"\ncando: \"Can manage conversational floor, express artistic opinions, and check agreement in discussions\"",
+          "recycled": "Grammar: Three-part phrasal verbs (come up with, look forward to), It-clefts for focus (It is the artistic expression that captivates...), Wh-clefts for emphasis (What I appreciate most about the exhibition is...) · Vocabulary: Curator, Sculpture, Audience, Acoustics (reused and expanded in Question Tags & Conversational Floor Management)"
         }
       ]
     },
@@ -625,7 +643,8 @@
             "writing"
           ],
           "speaking_percent": 50,
-          "teacher_notes": "code: \"EN-B1-019\"\ncando: \"Can evaluate ethical dilemmas, justify difficult decisions, and debate moral trade-offs\""
+          "teacher_notes": "code: \"EN-B1-019\"\ncando: \"Can evaluate ethical dilemmas, justify difficult decisions, and debate moral trade-offs\"",
+          "recycled": "Grammar: Wh-clefts for emphasis (What I appreciate most about the exhibition is...), Advanced question tags for checking assumptions and encouraging floor participation, Interrupting politely and clarifying points · Vocabulary: Expression, Impression, Review, Festival (reused and expanded in Complex Conditionals & Hypothetical Reasoning)"
         },
         {
           "lesson": 2,
@@ -647,7 +666,8 @@
             "writing"
           ],
           "speaking_percent": 70,
-          "teacher_notes": "code: \"EN-B1-020\"\ncando: \"Can demonstrate full B1 independent language user competency across professional, academic, and social contexts\""
+          "teacher_notes": "code: \"EN-B1-020\"\ncando: \"Can demonstrate full B1 independent language user competency across professional, academic, and social contexts\"",
+          "recycled": "Grammar: Interrupting politely and clarifying points, Mixed conditionals review for moral and ethical dilemmas, In Case vs If / Provided that / As long as · Vocabulary: Integrity, Accountability, Resolution, Justification (reused and expanded in B1 General Course Master Review & Consolidation)"
         }
       ]
     }

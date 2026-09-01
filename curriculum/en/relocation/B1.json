@@ -23,7 +23,8 @@
             "Symptom",
             "Appointment"
           ],
-          "teacher_notes": "code: \"EN-RLC-B1-001\"\ncando: \"Can schedule medical appointments, describe symptoms, and handle prescriptions.\""
+          "teacher_notes": "code: \"EN-RLC-B1-001\"\ncando: \"Can schedule medical appointments, describe symptoms, and handle prescriptions.\"",
+          "recycled": "Initial course anchor: establishes baseline target-language sounds, primary greetings, and fundamental sentence patterns."
         },
         {
           "lesson": 2,
@@ -41,7 +42,8 @@
             "Facility",
             "Tax"
           ],
-          "teacher_notes": "code: \"EN-RLC-B1-002\"\ncando: \"Can navigate school registration for family and interact with local council services.\""
+          "teacher_notes": "code: \"EN-RLC-B1-002\"\ncando: \"Can navigate school registration for family and interact with local council services.\"",
+          "recycled": "Grammar: Should / Shouldn't for medical advice, Describing symptoms in past simple · Vocabulary: Prescription, Insurance, Symptom, Appointment (reused and expanded in School Enrollment & Neighborhood Life)"
         }
       ]
     }

@@ -23,7 +23,8 @@
             "Advantage",
             "Disadvantage"
           ],
-          "teacher_notes": "code: \"EN-SPK-B1-001\"\ncando: \"Can express clear personal opinions and justify choices in discussions.\""
+          "teacher_notes": "code: \"EN-SPK-B1-001\"\ncando: \"Can express clear personal opinions and justify choices in discussions.\"",
+          "recycled": "Initial course anchor: establishes baseline target-language sounds, primary greetings, and fundamental sentence patterns."
         },
         {
           "lesson": 2,
@@ -39,7 +40,8 @@
             "Respectfully",
             "Alternative"
           ],
-          "teacher_notes": "code: \"EN-SPK-B1-002\"\ncando: \"Can interrupt politely and express disagreement diplomatically in group discussions.\""
+          "teacher_notes": "code: \"EN-SPK-B1-002\"\ncando: \"Can interrupt politely and express disagreement diplomatically in group discussions.\"",
+          "recycled": "Grammar: In my opinion..., Because / As a result, First conditional for future results · Vocabulary: Believe, Argue, Advantage, Disadvantage (reused and expanded in Polite Disagreement & Interrupting)"
         }
       ]
     }

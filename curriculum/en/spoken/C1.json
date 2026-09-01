@@ -22,7 +22,8 @@
             "Articulate",
             "Understatement"
           ],
-          "teacher_notes": "code: \"EN-SPK-C1-001\"\ncando: \"Can deliver persuasive monologues using rhetorical techniques and register shifts.\""
+          "teacher_notes": "code: \"EN-SPK-C1-001\"\ncando: \"Can deliver persuasive monologues using rhetorical techniques and register shifts.\"",
+          "recycled": "Initial course anchor: establishes baseline target-language sounds, primary greetings, and fundamental sentence patterns."
         },
         {
           "lesson": 2,
@@ -39,7 +40,8 @@
             "Irony",
             "De-escalation"
           ],
-          "teacher_notes": "code: \"EN-SPK-C1-002\"\ncando: \"Can use subtle humor, irony, and diplomatic de-escalation in high-stakes spoken exchanges.\""
+          "teacher_notes": "code: \"EN-SPK-C1-002\"\ncando: \"Can use subtle humor, irony, and diplomatic de-escalation in high-stakes spoken exchanges.\"",
+          "recycled": "Grammar: Inversion for emphasis, Advanced cleft sentences · Vocabulary: Eloquence, Resonate, Articulate, Understatement (reused and expanded in Nuanced Humor, Irony & Subtle Floor Steering)"
         }
       ]
     }

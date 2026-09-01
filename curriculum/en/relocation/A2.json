@@ -24,7 +24,8 @@
             "Utilities",
             "Electricity"
           ],
-          "teacher_notes": "code: \"EN-RLC-A2-001\"\ncando: \"Can enquire about rental listings, understand lease conditions, and set up utilities.\""
+          "teacher_notes": "code: \"EN-RLC-A2-001\"\ncando: \"Can enquire about rental listings, understand lease conditions, and set up utilities.\"",
+          "recycled": "Initial course anchor: establishes baseline target-language sounds, primary greetings, and fundamental sentence patterns."
         },
         {
           "lesson": 2,
@@ -42,7 +43,8 @@
             "ID",
             "Form"
           ],
-          "teacher_notes": "code: \"EN-RLC-A2-002\"\ncando: \"Can complete administrative tasks like opening a bank account and registering locally.\""
+          "teacher_notes": "code: \"EN-RLC-A2-002\"\ncando: \"Can complete administrative tasks like opening a bank account and registering locally.\"",
+          "recycled": "Grammar: Have to / Don't have to for lease rules, Questions with How much / When · Vocabulary: Tenant, Lease, Utilities, Electricity (reused and expanded in Registering Local Services & Banking)"
         }
       ]
     }

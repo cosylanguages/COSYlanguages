@@ -22,7 +22,8 @@
             "Deduce",
             "Speculate"
           ],
-          "teacher_notes": "code: \"EN-EXM-B2-001\"\ncando: \"Can compare candidate photos and speculate on underlying contexts under exam conditions.\""
+          "teacher_notes": "code: \"EN-EXM-B2-001\"\ncando: \"Can compare candidate photos and speculate on underlying contexts under exam conditions.\"",
+          "recycled": "Initial course anchor: establishes baseline target-language sounds, primary greetings, and fundamental sentence patterns."
         },
         {
           "lesson": 2,
@@ -39,7 +40,8 @@
             "Significant",
             "Evidence"
           ],
-          "teacher_notes": "code: \"EN-EXM-B2-002\"\ncando: \"Can produce structured 140-190 word argumentative essays with clear paragraphs.\""
+          "teacher_notes": "code: \"EN-EXM-B2-002\"\ncando: \"Can produce structured 140-190 word argumentative essays with clear paragraphs.\"",
+          "recycled": "Grammar: Modals of deduction (must be, might be, can't be), Comparative structures · Vocabulary: In contrast, Likely, Deduce, Speculate (reused and expanded in B2 Essay Writing: Argumentative & Discursive)"
         }
       ]
     }

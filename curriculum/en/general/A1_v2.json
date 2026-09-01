@@ -18,7 +18,7 @@
           "lesson": 1,
           "type": "vocab",
           "title": "Greetings, names & the alphabet",
-          "recycled": null,
+          "recycled": "Initial course anchor: establishes baseline target-language sounds, primary greetings, and fundamental sentence patterns.",
           "vocabulary": [
             "Hello",
             "hi",
@@ -36,7 +36,7 @@
           "lesson": 2,
           "type": "grammar",
           "title": "To be — I am, you are (positive & negative)",
-          "recycled": null,
+          "recycled": "Vocabulary: good afternoon, good evening, good night, Nice to meet you (reused and expanded in To be — I am, you are (positive & negative))",
           "grammar": [
             "To be — I am, you are",
             "Apostrophe for contractions"

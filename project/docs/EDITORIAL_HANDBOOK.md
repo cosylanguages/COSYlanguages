@@ -98,8 +98,9 @@ Instead, **we build language operating systems**. Students learn **how the langu
    - Replace 300 words of explanation with 1 clear structural diagram or timeline. Show first; explain second.
 6. **Confidence before perfection.**
    - Teach: `Pattern ➔ Practice ➔ Exception`. Never overwhelm with 5 edge cases on the first exposure.
-7. **Build a language network.**
-   - Every page connects backward to previous topics and forward to future topics, vocabulary, speaking clubs, and practice engines. Students build a connected city, not collect isolated bricks.
+7. **Build a language network & interconnected lesson flow.**
+   - Course lessons, steps, and days are never treated as separate or isolated units. Every lesson flows smoothly into the next.
+   - All previous knowledge (grammar, vocabulary, routines) is explicitly recycled and actively applied in subsequent lessons. Students build a connected city, not collect isolated bricks.
 8. **Monolingual teaching creates independent learners.**
    - Context, visuals, emojis, and organic patterns replace L1 translation support.
 

@@ -31,7 +31,8 @@
             "writing"
           ],
           "speaking_percent": 40,
-          "teacher_notes": "code: \"EN-C1-001\"\npronunciation: [{\"point\":\"Academic word stress & schwa\",\"explain\":\"Mastering primary stress in multi-syllable academic nouns (e.g. syn-THE-sis, me-tha-do-LO-gi-cal).\",\"examples\":[{\"pattern\":\"synthesize\",\"ipa\":\"/ˈsɪn.θə.saɪz/\",\"word\":\"synthesize\"}],\"visual\":\"🔬\"}]\ncando: \"Can evaluate and synthesize complex scientific research terminology in formal academic registers\""
+          "teacher_notes": "code: \"EN-C1-001\"\npronunciation: [{\"point\":\"Academic word stress & schwa\",\"explain\":\"Mastering primary stress in multi-syllable academic nouns (e.g. syn-THE-sis, me-tha-do-LO-gi-cal).\",\"examples\":[{\"pattern\":\"synthesize\",\"ipa\":\"/ˈsɪn.θə.saɪz/\",\"word\":\"synthesize\"}],\"visual\":\"🔬\"}]\ncando: \"Can evaluate and synthesize complex scientific research terminology in formal academic registers\"",
+          "recycled": "Initial course anchor: establishes baseline target-language sounds, primary greetings, and fundamental sentence patterns."
         },
         {
           "lesson": 2,
@@ -49,7 +50,8 @@
             "speaking"
           ],
           "speaking_percent": 45,
-          "teacher_notes": "code: \"EN-C1-002\"\npronunciation: [{\"point\":\"Subtle intonation in hedging\",\"explain\":\"Using fall-rise intonation patterns when introducing qualified scientific hypotheses.\",\"examples\":[{\"pattern\":\"Arguably, the data suggest...\",\"ipa\":\"/ˈɑːɡ.ju.ə.bli/\",\"word\":\"Arguably\"}],\"visual\":\"🗣️\"}]\ncando: \"Can hedge scientific claims and organize complex informational focus using theme-rheme structures\""
+          "teacher_notes": "code: \"EN-C1-002\"\npronunciation: [{\"point\":\"Subtle intonation in hedging\",\"explain\":\"Using fall-rise intonation patterns when introducing qualified scientific hypotheses.\",\"examples\":[{\"pattern\":\"Arguably, the data suggest...\",\"ipa\":\"/ˈɑːɡ.ju.ə.bli/\",\"word\":\"Arguably\"}],\"visual\":\"🗣️\"}]\ncando: \"Can hedge scientific claims and organize complex informational focus using theme-rheme structures\"",
+          "recycled": "Vocabulary: Synthesize, Substantiate, Extrapolate, Paradigm shift (reused and expanded in Science, Tech & Society - Advanced Grammar)"
         },
         {
           "lesson": 3,
@@ -72,7 +74,8 @@
             "listening"
           ],
           "speaking_percent": 80,
-          "teacher_notes": "code: \"EN-C1-003\"\ncando: \"Can lead and participate fluently in academic seminars debating technological ethics and scientific policy\""
+          "teacher_notes": "code: \"EN-C1-003\"\ncando: \"Can lead and participate fluently in academic seminars debating technological ethics and scientific policy\"",
+          "recycled": "Grammar: Advanced Hedging & Academic Stance Devices (It is widely acknowledged that..., would appear to indicate), Theme-Rheme and Information Packaging (Passive & Cleft structures for focus), Modal verbs of speculation and deduction in scientific claims · Vocabulary: Synthesize, Substantiate, Extrapolate, Paradigm shift (reused and expanded in Science, Tech & Society - Seminar & Debate)"
         }
       ]
     },
@@ -104,7 +107,8 @@
             "writing"
           ],
           "speaking_percent": 40,
-          "teacher_notes": "code: \"EN-C1-004\"\npronunciation: [{\"point\":\"Formal political rhetoric intonation\",\"explain\":\"Using deliberate pauses and rhythmic cadences in policy discussions.\",\"examples\":[{\"pattern\":\"sovereignty\",\"ipa\":\"/ˈsɒv.rɪn.ti/\",\"word\":\"sovereignty\"}],\"visual\":\"🏛️\"}]\ncando: \"Can utilize specialized political and institutional terminology precisely in formal contexts\""
+          "teacher_notes": "code: \"EN-C1-004\"\npronunciation: [{\"point\":\"Formal political rhetoric intonation\",\"explain\":\"Using deliberate pauses and rhythmic cadences in policy discussions.\",\"examples\":[{\"pattern\":\"sovereignty\",\"ipa\":\"/ˈsɒv.rɪn.ti/\",\"word\":\"sovereignty\"}],\"visual\":\"🏛️\"}]\ncando: \"Can utilize specialized political and institutional terminology precisely in formal contexts\"",
+          "recycled": "Grammar: Modal verbs of speculation and deduction in scientific claims, Inversion after negative adverbials (Not only does AI automate..., but...), Diplomatic disagreement and stance reframing · Vocabulary: Algorithmic bias, Technological singularity, Bioethics, Disruptive technology (reused and expanded in Power & Institutions - Vocabulary I)"
         },
         {
           "lesson": 2,
@@ -121,7 +125,8 @@
             "speaking"
           ],
           "speaking_percent": 45,
-          "teacher_notes": "code: \"EN-C1-005\"\npronunciation: [{\"point\":\"Unstressed subjunctive forms\",\"explain\":\"Pronouncing bare infinitive forms cleanly in formal mandative subjunctive clauses.\",\"examples\":[{\"pattern\":\"that he be appointed\",\"ipa\":\"/ðət hiː biː əˈpɔɪn.tɪd/\",\"word\":\"be\"}],\"visual\":\"⚖️\"}]\ncando: \"Can construct formal legal and institutional statements using distancing passives and the mandative subjunctive\""
+          "teacher_notes": "code: \"EN-C1-005\"\npronunciation: [{\"point\":\"Unstressed subjunctive forms\",\"explain\":\"Pronouncing bare infinitive forms cleanly in formal mandative subjunctive clauses.\",\"examples\":[{\"pattern\":\"that he be appointed\",\"ipa\":\"/ðət hiː biː əˈpɔɪn.tɪd/\",\"word\":\"be\"}],\"visual\":\"⚖️\"}]\ncando: \"Can construct formal legal and institutional statements using distancing passives and the mandative subjunctive\"",
+          "recycled": "Grammar: Modal verbs of speculation and deduction in scientific claims, Inversion after negative adverbials (Not only does AI automate..., but...), Diplomatic disagreement and stance reframing · Vocabulary: Ratify, Consolidated power, Check and balance, Constitutional framework (reused and expanded in Power & Institutions - Advanced Grammar)"
         },
         {
           "lesson": 3,
@@ -144,7 +149,8 @@
             "listening"
           ],
           "speaking_percent": 80,
-          "teacher_notes": "code: \"EN-C1-006\"\ncando: \"Can debate institutional governance and policy proposals using advanced rhetorical emphasis\""
+          "teacher_notes": "code: \"EN-C1-006\"\ncando: \"Can debate institutional governance and policy proposals using advanced rhetorical emphasis\"",
+          "recycled": "Grammar: Diplomatic disagreement and stance reframing, Distancing passives and reporting structures (It is reported to have been enacted..., Allegedly...), Mandative Subjunctive in formal legislation and mandates (It is imperative that the law be ratified) · Vocabulary: Ratify, Consolidated power, Check and balance, Constitutional framework (reused and expanded in Power & Institutions - Seminar & Debate)"
         }
       ]
     },
@@ -176,7 +182,8 @@
             "writing"
           ],
           "speaking_percent": 40,
-          "teacher_notes": "code: \"EN-C1-007\"\npronunciation: [{\"point\":\"Sociological terminology stress\",\"explain\":\"Accurately placing stress in complex derivative nouns (e.g. stra-ti-fi-CA-tion, e-ga-li-TA-ri-a-nism).\",\"examples\":[{\"pattern\":\"stratification\",\"ipa\":\"/ˌstræt.ɪ.fɪˈkeɪ.ʃən/\",\"word\":\"stratification\"}],\"visual\":\"🌐\"}]\ncando: \"Can analyze and discuss complex societal structures and demographic trends using precise sociological lexicon\""
+          "teacher_notes": "code: \"EN-C1-007\"\npronunciation: [{\"point\":\"Sociological terminology stress\",\"explain\":\"Accurately placing stress in complex derivative nouns (e.g. stra-ti-fi-CA-tion, e-ga-li-TA-ri-a-nism).\",\"examples\":[{\"pattern\":\"stratification\",\"ipa\":\"/ˌstræt.ɪ.fɪˈkeɪ.ʃən/\",\"word\":\"stratification\"}],\"visual\":\"🌐\"}]\ncando: \"Can analyze and discuss complex societal structures and demographic trends using precise sociological lexicon\"",
+          "recycled": "Grammar: Mandative Subjunctive in formal legislation and mandates (It is imperative that the law be ratified), Cleft sentences for emphasis (What the committee proposed was... / It was the minister who...), Rhetorical questions and parliamentary debate structures · Vocabulary: Regulatory compliance, Accountability, Democratic deficit, Institutional reform (reused and expanded in Social Structures - Vocabulary I)"
         },
         {
           "lesson": 2,
@@ -193,7 +200,8 @@
             "speaking"
           ],
           "speaking_percent": 45,
-          "teacher_notes": "code: \"EN-C1-008\"\npronunciation: [{\"point\":\"Reduced participle clauses\",\"explain\":\"Smoothly linking participle clauses to main clauses without artificial pauses.\",\"examples\":[{\"pattern\":\"Having examined...\",\"ipa\":\"/ˈhæv.ɪŋ ɪɡˈzæm.ɪnd/\",\"word\":\"Having\"}],\"visual\":\"📝\"}]\ncando: \"Can craft cohesive sociological analyses using ellipsis, lexical substitution, and participle clauses\""
+          "teacher_notes": "code: \"EN-C1-008\"\npronunciation: [{\"point\":\"Reduced participle clauses\",\"explain\":\"Smoothly linking participle clauses to main clauses without artificial pauses.\",\"examples\":[{\"pattern\":\"Having examined...\",\"ipa\":\"/ˈhæv.ɪŋ ɪɡˈzæm.ɪnd/\",\"word\":\"Having\"}],\"visual\":\"📝\"}]\ncando: \"Can craft cohesive sociological analyses using ellipsis, lexical substitution, and participle clauses\"",
+          "recycled": "Grammar: Mandative Subjunctive in formal legislation and mandates (It is imperative that the law be ratified), Cleft sentences for emphasis (What the committee proposed was... / It was the minister who...), Rhetorical questions and parliamentary debate structures · Vocabulary: Cohesion, Disparity, Systemic inequality, Intergenerational mobility (reused and expanded in Social Structures - Advanced Grammar)"
         },
         {
           "lesson": 3,
@@ -216,7 +224,8 @@
             "listening"
           ],
           "speaking_percent": 80,
-          "teacher_notes": "code: \"EN-C1-009\"\ncando: \"Can articulate and defend complex viewpoints on societal change and social justice\""
+          "teacher_notes": "code: \"EN-C1-009\"\ncando: \"Can articulate and defend complex viewpoints on societal change and social justice\"",
+          "recycled": "Grammar: Rhetorical questions and parliamentary debate structures, Cohesion, Ellipsis & Lexical Substitution to eliminate redundancy in sociological texts, Participle clauses for background information (Having examined the demographic shift, researchers...) · Vocabulary: Cohesion, Disparity, Systemic inequality, Intergenerational mobility (reused and expanded in Social Structures - Seminar & Debate)"
         }
       ]
     },
@@ -248,7 +257,8 @@
             "writing"
           ],
           "speaking_percent": 40,
-          "teacher_notes": "code: \"EN-C1-010\"\npronunciation: [{\"point\":\"Philosophical terminology IPA\",\"explain\":\"Mastering vowel quality in abstract philosophical terms (e.g. e-pis-te-MO-lo-gy, heu-RIS-tic).\",\"examples\":[{\"pattern\":\"epistemology\",\"ipa\":\"/ɪˌpɪs.təˈmɒl.ə.dʒi/\",\"word\":\"epistemology\"}],\"visual\":\"💡\"}]\ncando: \"Can evaluate philosophical concepts of truth, knowledge validation, and cognitive biases\""
+          "teacher_notes": "code: \"EN-C1-010\"\npronunciation: [{\"point\":\"Philosophical terminology IPA\",\"explain\":\"Mastering vowel quality in abstract philosophical terms (e.g. e-pis-te-MO-lo-gy, heu-RIS-tic).\",\"examples\":[{\"pattern\":\"epistemology\",\"ipa\":\"/ɪˌpɪs.təˈmɒl.ə.dʒi/\",\"word\":\"epistemology\"}],\"visual\":\"💡\"}]\ncando: \"Can evaluate philosophical concepts of truth, knowledge validation, and cognitive biases\"",
+          "recycled": "Grammar: Participle clauses for background information (Having examined the demographic shift, researchers...), Conditionals of concession and hypothesis (Even if socio-economic policy were implemented...), Nuanced turn-taking and topic management · Vocabulary: Urban renewal, Social safety net, Inclusive policy, Community engagement (reused and expanded in Knowledge & Truth - Vocabulary I)"
         },
         {
           "lesson": 2,
@@ -265,7 +275,8 @@
             "speaking"
           ],
           "speaking_percent": 45,
-          "teacher_notes": "code: \"EN-C1-011\"\npronunciation: [{\"point\":\"Parenthetical intonation drops\",\"explain\":\"Lowering pitch slightly when delivering parenthetical commentary set off by dashes or commas.\",\"examples\":[{\"pattern\":\"The hypothesis — though controversial — was supported...\",\"ipa\":\"/ðə haɪˈpɒθ.ə.sɪs/\",\"word\":\"hypothesis\"}],\"visual\":\"🖊️\"}]\ncando: \"Can express exact epistemic certainty and structure complex parenthetical commentary\""
+          "teacher_notes": "code: \"EN-C1-011\"\npronunciation: [{\"point\":\"Parenthetical intonation drops\",\"explain\":\"Lowering pitch slightly when delivering parenthetical commentary set off by dashes or commas.\",\"examples\":[{\"pattern\":\"The hypothesis — though controversial — was supported...\",\"ipa\":\"/ðə haɪˈpɒθ.ə.sɪs/\",\"word\":\"hypothesis\"}],\"visual\":\"🖊️\"}]\ncando: \"Can express exact epistemic certainty and structure complex parenthetical commentary\"",
+          "recycled": "Grammar: Participle clauses for background information (Having examined the demographic shift, researchers...), Conditionals of concession and hypothesis (Even if socio-economic policy were implemented...), Nuanced turn-taking and topic management · Vocabulary: Disinformation, Veracity, Fallacy, Intellectual humility (reused and expanded in Knowledge & Truth - Advanced Grammar)"
         },
         {
           "lesson": 3,
@@ -288,7 +299,8 @@
             "listening"
           ],
           "speaking_percent": 80,
-          "teacher_notes": "code: \"EN-C1-012\"\ncando: \"Can critically challenge logical fallacies and examine post-truth phenomena in academic discourse\""
+          "teacher_notes": "code: \"EN-C1-012\"\ncando: \"Can critically challenge logical fallacies and examine post-truth phenomena in academic discourse\"",
+          "recycled": "Grammar: Nuanced turn-taking and topic management, Modality for degrees of certainty and speculation (must have been, could arguably be, is bound to), Advanced punctuation mechanics (semicolons, em-dashes for parenthetical stance) · Vocabulary: Disinformation, Veracity, Fallacy, Intellectual humility (reused and expanded in Knowledge & Truth - Seminar & Debate)"
         }
       ]
     },
@@ -320,7 +332,8 @@
             "writing"
           ],
           "speaking_percent": 40,
-          "teacher_notes": "code: \"EN-C1-013\"\npronunciation: [{\"point\":\"Rhetorical stress in argumentation\",\"explain\":\"Placing nuclear stress on key contrastive lexical items in persuasive speeches.\",\"examples\":[{\"pattern\":\"incisive\",\"ipa\":\"/ɪnˈsaɪ.sɪv/\",\"word\":\"incisive\"}],\"visual\":\"🗣️\"}]\ncando: \"Can deploy a broad range of rhetorical devices and persuasive argumentative vocabulary\""
+          "teacher_notes": "code: \"EN-C1-013\"\npronunciation: [{\"point\":\"Rhetorical stress in argumentation\",\"explain\":\"Placing nuclear stress on key contrastive lexical items in persuasive speeches.\",\"examples\":[{\"pattern\":\"incisive\",\"ipa\":\"/ɪnˈsaɪ.sɪv/\",\"word\":\"incisive\"}],\"visual\":\"🗣️\"}]\ncando: \"Can deploy a broad range of rhetorical devices and persuasive argumentative vocabulary\"",
+          "recycled": "Grammar: Advanced punctuation mechanics (semicolons, em-dashes for parenthetical stance), Counter-argumentation and rebuttal structures (Granted that X, it nevertheless follows that Y), Challenging logical fallacies in real-time debate · Vocabulary: Confirmation bias, Media literacy, Post-truth era, Critical scrutiny (reused and expanded in Discourse & Argument - Vocabulary I)"
         },
         {
           "lesson": 2,
@@ -337,7 +350,8 @@
             "speaking"
           ],
           "speaking_percent": 45,
-          "teacher_notes": "code: \"EN-C1-014\"\npronunciation: [{\"point\":\"Periodic sentence cadence\",\"explain\":\"Building tension by maintaining suspended intonation until the final main clause in periodic sentences.\",\"examples\":[{\"pattern\":\"Notwithstanding the challenges, we succeeded.\",\"ipa\":\"/ˌnɒt.wɪθˈstæn.dɪŋ/\",\"word\":\"Notwithstanding\"}],\"visual\":\"📐\"}]\ncando: \"Can compose varied sentence structures (periodic, loose, balanced) with sophisticated linking devices\""
+          "teacher_notes": "code: \"EN-C1-014\"\npronunciation: [{\"point\":\"Periodic sentence cadence\",\"explain\":\"Building tension by maintaining suspended intonation until the final main clause in periodic sentences.\",\"examples\":[{\"pattern\":\"Notwithstanding the challenges, we succeeded.\",\"ipa\":\"/ˌnɒt.wɪθˈstæn.dɪŋ/\",\"word\":\"Notwithstanding\"}],\"visual\":\"📐\"}]\ncando: \"Can compose varied sentence structures (periodic, loose, balanced) with sophisticated linking devices\"",
+          "recycled": "Grammar: Advanced punctuation mechanics (semicolons, em-dashes for parenthetical stance), Counter-argumentation and rebuttal structures (Granted that X, it nevertheless follows that Y), Challenging logical fallacies in real-time debate · Vocabulary: Persuasive, Coherent, Incisive, Stance (reused and expanded in Discourse & Argument - Advanced Grammar)"
         },
         {
           "lesson": 3,
@@ -360,7 +374,8 @@
             "listening"
           ],
           "speaking_percent": 80,
-          "teacher_notes": "code: \"EN-C1-015\"\ncando: \"Can deliver structured keynote presentations and lead high-stakes professional debates fluently\""
+          "teacher_notes": "code: \"EN-C1-015\"\ncando: \"Can deliver structured keynote presentations and lead high-stakes professional debates fluently\"",
+          "recycled": "Grammar: Challenging logical fallacies in real-time debate, Sentence Variety: Periodic, Loose, and Balanced sentence structures for stylistic impact, Advanced discourse connectors (Notwithstanding, Albeit, Insofar as, In Light of) · Vocabulary: Persuasive, Coherent, Incisive, Stance (reused and expanded in Discourse & Argument - Seminar & Debate)"
         }
       ]
     },
@@ -392,7 +407,8 @@
             "writing"
           ],
           "speaking_percent": 40,
-          "teacher_notes": "code: \"EN-C1-016\"\npronunciation: [{\"point\":\"Economic terminology stress\",\"explain\":\"Maintaining correct stress and clear vowel reduction in complex financial compounds.\",\"examples\":[{\"pattern\":\"arbitrage\",\"ipa\":\"/ˈɑː.bɪ.trɑːʒ/\",\"word\":\"arbitrage\"}],\"visual\":\"📈\"}]\ncando: \"Can evaluate macroeconomic policies, systemic risk factors, and global market dynamics fluently\""
+          "teacher_notes": "code: \"EN-C1-016\"\npronunciation: [{\"point\":\"Economic terminology stress\",\"explain\":\"Maintaining correct stress and clear vowel reduction in complex financial compounds.\",\"examples\":[{\"pattern\":\"arbitrage\",\"ipa\":\"/ˈɑː.bɪ.trɑːʒ/\",\"word\":\"arbitrage\"}],\"visual\":\"📈\"}]\ncando: \"Can evaluate macroeconomic policies, systemic risk factors, and global market dynamics fluently\"",
+          "recycled": "Grammar: Advanced discourse connectors (Notwithstanding, Albeit, Insofar as, In Light of), Advanced negotiation, hedging, and floor management in formal panel discussions, Spontaneous keynote presentation delivery · Vocabulary: Panel discussion, Consensus building, Rebuttal, Closing statement (reused and expanded in Economics & Global Markets - Vocabulary I)"
         },
         {
           "lesson": 2,
@@ -409,7 +425,8 @@
             "speaking"
           ],
           "speaking_percent": 45,
-          "teacher_notes": "code: \"EN-C1-017\"\npronunciation: [{\"point\":\"Inversion prosody in briefings\",\"explain\":\"Utilizing heightened pitch contrast when leading with inverted conditional clauses in economic forecasts.\",\"examples\":[{\"pattern\":\"Had central banks intervened...\",\"ipa\":\"/hæd ˈsen.trəl bæŋks/\",\"word\":\"intervened\"}],\"visual\":\"📊\"}]\ncando: \"Can deliver sophisticated economic forecasts using inverted conditionals and fronting structures\""
+          "teacher_notes": "code: \"EN-C1-017\"\npronunciation: [{\"point\":\"Inversion prosody in briefings\",\"explain\":\"Utilizing heightened pitch contrast when leading with inverted conditional clauses in economic forecasts.\",\"examples\":[{\"pattern\":\"Had central banks intervened...\",\"ipa\":\"/hæd ˈsen.trəl bæŋks/\",\"word\":\"intervened\"}],\"visual\":\"📊\"}]\ncando: \"Can deliver sophisticated economic forecasts using inverted conditionals and fronting structures\"",
+          "recycled": "Grammar: Advanced discourse connectors (Notwithstanding, Albeit, Insofar as, In Light of), Advanced negotiation, hedging, and floor management in formal panel discussions, Spontaneous keynote presentation delivery · Vocabulary: Protectionism, Sovereign debt, Market equilibrium, Arbitrage (reused and expanded in Economics & Global Markets - Advanced Grammar)"
         },
         {
           "lesson": 3,
@@ -432,7 +449,8 @@
             "listening"
           ],
           "speaking_percent": 80,
-          "teacher_notes": "code: \"EN-C1-018\"\ncando: \"Can lead strategic debates on international trade policy, economic sanctions, and geopolitical stability\""
+          "teacher_notes": "code: \"EN-C1-018\"\ncando: \"Can lead strategic debates on international trade policy, economic sanctions, and geopolitical stability\"",
+          "recycled": "Grammar: Spontaneous keynote presentation delivery, Conditional Inversion in Economic Forecasting (Had central banks intervened earlier..., Were tariff rates to rise...), Fronting and End-Weight Principle in Market Analysis · Vocabulary: Protectionism, Sovereign debt, Market equilibrium, Arbitrage (reused and expanded in Economics & Global Markets - Seminar & Debate)"
         }
       ]
     },
@@ -464,7 +482,8 @@
             "writing"
           ],
           "speaking_percent": 45,
-          "teacher_notes": "code: \"EN-C1-019\"\npronunciation: [{\"point\":\"French loanword stress & IPA\",\"explain\":\"Navigating French loanwords in artistic and literary commentary (e.g. avant-garde, chiaroscuro).\",\"examples\":[{\"pattern\":\"avant-garde\",\"ipa\":\"/ˌæv.ɑːŋˈɡɑːd/\",\"word\":\"avant-garde\"}],\"visual\":\"🎨\"}]\ncando: \"Can formulate high-level artistic reviews and articulate complex aesthetic critiques in formal registers\""
+          "teacher_notes": "code: \"EN-C1-019\"\npronunciation: [{\"point\":\"French loanword stress & IPA\",\"explain\":\"Navigating French loanwords in artistic and literary commentary (e.g. avant-garde, chiaroscuro).\",\"examples\":[{\"pattern\":\"avant-garde\",\"ipa\":\"/ˌæv.ɑːŋˈɡɑːd/\",\"word\":\"avant-garde\"}],\"visual\":\"🎨\"}]\ncando: \"Can formulate high-level artistic reviews and articulate complex aesthetic critiques in formal registers\"",
+          "recycled": "Grammar: Fronting and End-Weight Principle in Market Analysis, Syntactic Fronting & Passive Reporting in Geopolitical Briefings, Diplomatic Concession & Counter-Stance Framing · Vocabulary: Trade embargo, Economic sanction, Multilateral alliance, Geopolitical volatility (reused and expanded in Aesthetics, Fine Arts & Cultural Criticism)"
         },
         {
           "lesson": 2,
@@ -481,7 +500,8 @@
             "speaking"
           ],
           "speaking_percent": 45,
-          "teacher_notes": "code: \"EN-C1-020\"\ncando: \"Can compose rich, stylistically sophisticated cultural commentaries utilizing nominalization and balanced cadence\""
+          "teacher_notes": "code: \"EN-C1-020\"\ncando: \"Can compose rich, stylistically sophisticated cultural commentaries utilizing nominalization and balanced cadence\"",
+          "recycled": "Grammar: Fronting and End-Weight Principle in Market Analysis, Syntactic Fronting & Passive Reporting in Geopolitical Briefings, Diplomatic Concession & Counter-Stance Framing · Vocabulary: Cultural heritage, Chiaroscuro, Juxtaposition, Provocative critique (reused and expanded in Aesthetics & Cultural Criticism - Advanced Grammar)"
         },
         {
           "lesson": 3,
@@ -503,7 +523,8 @@
             "writing"
           ],
           "speaking_percent": 80,
-          "teacher_notes": "code: \"EN-C1-021\"\ncando: \"Can demonstrate complete C1 effective operational proficiency across academic, professional, economic, and cultural domains\""
+          "teacher_notes": "code: \"EN-C1-021\"\ncando: \"Can demonstrate complete C1 effective operational proficiency across academic, professional, economic, and cultural domains\"",
+          "recycled": "Grammar: Diplomatic Concession & Counter-Stance Framing, Nominalization & Stylistic Sentence Cadence in Cultural Essays, Adverbial Modifier Placement for Subtle Aesthetic Nuance · Vocabulary: Cultural heritage, Chiaroscuro, Juxtaposition, Provocative critique (reused and expanded in C1 Master Proficiency Examination & Consolidation)"
         }
       ]
     }

@@ -15,7 +15,8 @@
           "vocabulary": [
             "C1 terminology"
           ],
-          "teacher_notes": "Focus on advanced skiant, teknik ha kevredigezh vocabulary and registers."
+          "teacher_notes": "Focus on advanced skiant, teknik ha kevredigezh vocabulary and registers.",
+          "recycled": "Initial course anchor: establishes baseline target-language sounds, primary greetings, and fundamental sentence patterns."
         },
         {
           "lesson": 2,
@@ -25,14 +26,16 @@
           "grammar": [
             "Complex structures"
           ],
-          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors.",
+          "recycled": "Vocabulary: C1 terminology (reused and expanded in Skiant, Teknik ha Kevredigezh - Advanced Grammar)"
         },
         {
           "lesson": 3,
           "type": "spoken",
           "title": "Skiant, Teknik ha Kevredigezh - Seminar & Debate",
           "duration_minutes": 90,
-          "teacher_notes": "Critical discussion and presentation skills."
+          "teacher_notes": "Critical discussion and presentation skills.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in Skiant, Teknik ha Kevredigezh - Seminar & Debate)"
         }
       ]
     },
@@ -48,7 +51,8 @@
           "vocabulary": [
             "C1 terminology"
           ],
-          "teacher_notes": "Focus on advanced galloud hag ensavadurioù vocabulary and registers."
+          "teacher_notes": "Focus on advanced galloud hag ensavadurioù vocabulary and registers.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in Galloud hag Ensavadurioù - Vocabulary I)"
         },
         {
           "lesson": 2,
@@ -58,14 +62,16 @@
           "grammar": [
             "Complex structures"
           ],
-          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in Galloud hag Ensavadurioù - Advanced Grammar)"
         },
         {
           "lesson": 3,
           "type": "spoken",
           "title": "Galloud hag Ensavadurioù - Seminar & Debate",
           "duration_minutes": 90,
-          "teacher_notes": "Critical discussion and presentation skills."
+          "teacher_notes": "Critical discussion and presentation skills.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in Galloud hag Ensavadurioù - Seminar & Debate)"
         }
       ]
     },
@@ -81,7 +87,8 @@
           "vocabulary": [
             "C1 terminology"
           ],
-          "teacher_notes": "Focus on advanced frammoù kevredigezhel vocabulary and registers."
+          "teacher_notes": "Focus on advanced frammoù kevredigezhel vocabulary and registers.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in Frammoù Kevredigezhel - Vocabulary I)"
         },
         {
           "lesson": 2,
@@ -91,14 +98,16 @@
           "grammar": [
             "Complex structures"
           ],
-          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in Frammoù Kevredigezhel - Advanced Grammar)"
         },
         {
           "lesson": 3,
           "type": "spoken",
           "title": "Frammoù Kevredigezhel - Seminar & Debate",
           "duration_minutes": 90,
-          "teacher_notes": "Critical discussion and presentation skills."
+          "teacher_notes": "Critical discussion and presentation skills.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in Frammoù Kevredigezhel - Seminar & Debate)"
         }
       ]
     },
@@ -114,7 +123,8 @@
           "vocabulary": [
             "C1 terminology"
           ],
-          "teacher_notes": "Focus on advanced gouiziegezh ha gwirionez vocabulary and registers."
+          "teacher_notes": "Focus on advanced gouiziegezh ha gwirionez vocabulary and registers.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in Gouiziegezh ha Gwirionez - Vocabulary I)"
         },
         {
           "lesson": 2,
@@ -124,14 +134,16 @@
           "grammar": [
             "Complex structures"
           ],
-          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in Gouiziegezh ha Gwirionez - Advanced Grammar)"
         },
         {
           "lesson": 3,
           "type": "spoken",
           "title": "Gouiziegezh ha Gwirionez - Seminar & Debate",
           "duration_minutes": 90,
-          "teacher_notes": "Critical discussion and presentation skills."
+          "teacher_notes": "Critical discussion and presentation skills.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in Gouiziegezh ha Gwirionez - Seminar & Debate)"
         }
       ]
     },
@@ -147,7 +159,8 @@
           "vocabulary": [
             "C1 terminology"
           ],
-          "teacher_notes": "Focus on advanced prezeg hag arguzennerezh vocabulary and registers."
+          "teacher_notes": "Focus on advanced prezeg hag arguzennerezh vocabulary and registers.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in Prezeg hag Arguzennerezh - Vocabulary I)"
         },
         {
           "lesson": 2,
@@ -157,14 +170,16 @@
           "grammar": [
             "Complex structures"
           ],
-          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in Prezeg hag Arguzennerezh - Advanced Grammar)"
         },
         {
           "lesson": 3,
           "type": "spoken",
           "title": "Prezeg hag Arguzennerezh - Seminar & Debate",
           "duration_minutes": 90,
-          "teacher_notes": "Critical discussion and presentation skills."
+          "teacher_notes": "Critical discussion and presentation skills.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in Prezeg hag Arguzennerezh - Seminar & Debate)"
         }
       ]
     }

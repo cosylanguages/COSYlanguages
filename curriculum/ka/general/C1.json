@@ -15,7 +15,8 @@
           "vocabulary": [
             "C1 terminology"
           ],
-          "teacher_notes": "Focus on advanced მეცნიერება, ტექნიკა და საზოგადოება vocabulary and registers."
+          "teacher_notes": "Focus on advanced მეცნიერება, ტექნიკა და საზოგადოება vocabulary and registers.",
+          "recycled": "Initial course anchor: establishes baseline target-language sounds, primary greetings, and fundamental sentence patterns."
         },
         {
           "lesson": 2,
@@ -25,14 +26,16 @@
           "grammar": [
             "Complex structures"
           ],
-          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors.",
+          "recycled": "Vocabulary: C1 terminology (reused and expanded in მეცნიერება, ტექნიკა და საზოგადოება - Advanced Grammar)"
         },
         {
           "lesson": 3,
           "type": "spoken",
           "title": "მეცნიერება, ტექნიკა და საზოგადოება - Seminar & Debate",
           "duration_minutes": 90,
-          "teacher_notes": "Critical discussion and presentation skills."
+          "teacher_notes": "Critical discussion and presentation skills.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in მეცნიერება, ტექნიკა და საზოგადოება - Seminar & Debate)"
         }
       ]
     },
@@ -48,7 +51,8 @@
           "vocabulary": [
             "C1 terminology"
           ],
-          "teacher_notes": "Focus on advanced ძალაუფლება და ინსტიტუტები vocabulary and registers."
+          "teacher_notes": "Focus on advanced ძალაუფლება და ინსტიტუტები vocabulary and registers.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in ძალაუფლება და ინსტიტუტები - Vocabulary I)"
         },
         {
           "lesson": 2,
@@ -58,14 +62,16 @@
           "grammar": [
             "Complex structures"
           ],
-          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in ძალაუფლება და ინსტიტუტები - Advanced Grammar)"
         },
         {
           "lesson": 3,
           "type": "spoken",
           "title": "ძალაუფლება და ინსტიტუტები - Seminar & Debate",
           "duration_minutes": 90,
-          "teacher_notes": "Critical discussion and presentation skills."
+          "teacher_notes": "Critical discussion and presentation skills.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in ძალაუფლება და ინსტიტუტები - Seminar & Debate)"
         }
       ]
     },
@@ -81,7 +87,8 @@
           "vocabulary": [
             "C1 terminology"
           ],
-          "teacher_notes": "Focus on advanced სოციალური სტრუქტურები vocabulary and registers."
+          "teacher_notes": "Focus on advanced სოციალური სტრუქტურები vocabulary and registers.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in სოციალური სტრუქტურები - Vocabulary I)"
         },
         {
           "lesson": 2,
@@ -91,14 +98,16 @@
           "grammar": [
             "Complex structures"
           ],
-          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in სოციალური სტრუქტურები - Advanced Grammar)"
         },
         {
           "lesson": 3,
           "type": "spoken",
           "title": "სოციალური სტრუქტურები - Seminar & Debate",
           "duration_minutes": 90,
-          "teacher_notes": "Critical discussion and presentation skills."
+          "teacher_notes": "Critical discussion and presentation skills.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in სოციალური სტრუქტურები - Seminar & Debate)"
         }
       ]
     },
@@ -114,7 +123,8 @@
           "vocabulary": [
             "C1 terminology"
           ],
-          "teacher_notes": "Focus on advanced ცოდნა და ჭეშმარიტება vocabulary and registers."
+          "teacher_notes": "Focus on advanced ცოდნა და ჭეშმარიტება vocabulary and registers.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in ცოდნა და ჭეშმარიტება - Vocabulary I)"
         },
         {
           "lesson": 2,
@@ -124,14 +134,16 @@
           "grammar": [
             "Complex structures"
           ],
-          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in ცოდნა და ჭეშმარიტება - Advanced Grammar)"
         },
         {
           "lesson": 3,
           "type": "spoken",
           "title": "ცოდნა და ჭეშმარიტება - Seminar & Debate",
           "duration_minutes": 90,
-          "teacher_notes": "Critical discussion and presentation skills."
+          "teacher_notes": "Critical discussion and presentation skills.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in ცოდნა და ჭეშმარიტება - Seminar & Debate)"
         }
       ]
     },
@@ -147,7 +159,8 @@
           "vocabulary": [
             "C1 terminology"
           ],
-          "teacher_notes": "Focus on advanced დისკურსი და არგუმენტაცია vocabulary and registers."
+          "teacher_notes": "Focus on advanced დისკურსი და არგუმენტაცია vocabulary and registers.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in დისკურსი და არგუმენტაცია - Vocabulary I)"
         },
         {
           "lesson": 2,
@@ -157,14 +170,16 @@
           "grammar": [
             "Complex structures"
           ],
-          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in დისკურსი და არგუმენტაცია - Advanced Grammar)"
         },
         {
           "lesson": 3,
           "type": "spoken",
           "title": "დისკურსი და არგუმენტაცია - Seminar & Debate",
           "duration_minutes": 90,
-          "teacher_notes": "Critical discussion and presentation skills."
+          "teacher_notes": "Critical discussion and presentation skills.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in დისკურსი და არგუმენტაცია - Seminar & Debate)"
         }
       ]
     }

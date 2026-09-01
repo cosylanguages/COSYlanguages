@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C2 Curriculum — General Course — COSYlanguages</title>
+    <title>C2 General Course — COSYlanguages</title>
     <link rel="stylesheet" href="../../../../css/tokens.css">
     <link rel="stylesheet" href="../../../../css/base.css">
     <link rel="stylesheet" href="../../../../css/components.css">
@@ -32,7 +32,7 @@
             <div id="curriculum-data">Loading curriculum...</div>
 
             <div style="margin-top: 2rem; text-align: center;">
-                <a href="index.html" class="btn-secondary">← Back to English</a>
+                <a href="index.html" class="btn-secondary">← Back</a>
             </div>
         </div>
     </section>
@@ -65,18 +65,20 @@ function render(data) {
     }
     let html = '';
     data.units.forEach(unit => {
-        const cleanUnitTitle = (unit.title || '').replace(/^Unit\s+\d+:\s*/i, '');
+        const cleanUnitTitle = (unit.title || '').replace(/^Unit\s+\d+:\s*/i, '').replace(/^Unité\s+\d+:\s*/i, '');
         html += `<div class="unit-block">
             <h2 class="unit-title">Unit ${unit.unit}: ${cleanUnitTitle}</h2>`;
         unit.lessons.forEach(lesson => {
             const grammarStr = Array.isArray(lesson.grammar) ? lesson.grammar.join(', ') : (lesson.grammar || '');
             const vocabStr = Array.isArray(lesson.vocabulary) ? lesson.vocabulary.join(', ') : (lesson.vocabulary || '');
+            const recycledStr = lesson.recycled || '';
             const teacherNotes = lesson.teacher_notes ? lesson.teacher_notes.replace(/\n/g, '<br>') : '';
             html += `<div class="lesson-card">
                 <div class="lc-title">Lesson ${lesson.lesson}: ${lesson.title}</div>
                 ${grammarStr ? `<div class="lc-meta"><strong>Grammar:</strong> ${grammarStr}</div>` : ''}
                 ${vocabStr ? `<div class="lc-meta"><strong>Vocabulary:</strong> ${vocabStr}</div>` : ''}
-                ${teacherNotes ? `<div class="lc-content">${teacherNotes}</div>` : ''}
+                ${recycledStr ? `<div class="lc-meta lc-recycled" style="margin-top: 0.4rem; padding: 0.4rem 0.6rem; background: rgba(28, 143, 86, 0.1); border-left: 3px solid var(--role-verb, #1c8f56); border-radius: 4px;"><strong>🔄 Applied Prior Knowledge:</strong> ${recycledStr}</div>` : ''}
+                ${teacherNotes ? `<div class="lc-content" style="margin-top: 0.5rem;">${teacherNotes}</div>` : ''}
             </div>`;
         });
         html += '</div>';

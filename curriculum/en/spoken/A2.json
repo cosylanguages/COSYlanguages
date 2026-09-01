@@ -22,7 +22,8 @@
             "Option",
             "Suggest"
           ],
-          "teacher_notes": "code: \"EN-SPK-A2-001\"\ncando: \"Can discuss plans, make arrangements, and compare alternatives in conversation.\""
+          "teacher_notes": "code: \"EN-SPK-A2-001\"\ncando: \"Can discuss plans, make arrangements, and compare alternatives in conversation.\"",
+          "recycled": "Initial course anchor: establishes baseline target-language sounds, primary greetings, and fundamental sentence patterns."
         },
         {
           "lesson": 2,
@@ -39,7 +40,8 @@
             "Happened",
             "Memorable"
           ],
-          "teacher_notes": "code: \"EN-SPK-A2-002\"\ncando: \"Can narrate a short personal story or past experience.\""
+          "teacher_notes": "code: \"EN-SPK-A2-002\"\ncando: \"Can narrate a short personal story or past experience.\"",
+          "recycled": "Grammar: Going to vs Present Continuous, Comparatives (better, cheaper) · Vocabulary: Available, Prefer, Option, Suggest (reused and expanded in Telling Short Personal Stories)"
         }
       ]
     }

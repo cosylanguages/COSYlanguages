@@ -15,7 +15,8 @@
           "vocabulary": [
             "C1 terminology"
           ],
-          "teacher_notes": "Focus on advanced επιστήμη, τεχνολογία και κοινωνία vocabulary and registers."
+          "teacher_notes": "Focus on advanced επιστήμη, τεχνολογία και κοινωνία vocabulary and registers.",
+          "recycled": "Initial course anchor: establishes baseline target-language sounds, primary greetings, and fundamental sentence patterns."
         },
         {
           "lesson": 2,
@@ -25,14 +26,16 @@
           "grammar": [
             "Complex structures"
           ],
-          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors.",
+          "recycled": "Vocabulary: C1 terminology (reused and expanded in Επιστήμη, Τεχνολογία και Κοινωνία - Advanced Grammar)"
         },
         {
           "lesson": 3,
           "type": "spoken",
           "title": "Επιστήμη, Τεχνολογία και Κοινωνία - Seminar & Debate",
           "duration_minutes": 90,
-          "teacher_notes": "Critical discussion and presentation skills."
+          "teacher_notes": "Critical discussion and presentation skills.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in Επιστήμη, Τεχνολογία και Κοινωνία - Seminar & Debate)"
         }
       ]
     },
@@ -48,7 +51,8 @@
           "vocabulary": [
             "C1 terminology"
           ],
-          "teacher_notes": "Focus on advanced εξουσία και θεσμοί vocabulary and registers."
+          "teacher_notes": "Focus on advanced εξουσία και θεσμοί vocabulary and registers.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in Εξουσία και Θεσμοί - Vocabulary I)"
         },
         {
           "lesson": 2,
@@ -58,14 +62,16 @@
           "grammar": [
             "Complex structures"
           ],
-          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in Εξουσία και Θεσμοί - Advanced Grammar)"
         },
         {
           "lesson": 3,
           "type": "spoken",
           "title": "Εξουσία και Θεσμοί - Seminar & Debate",
           "duration_minutes": 90,
-          "teacher_notes": "Critical discussion and presentation skills."
+          "teacher_notes": "Critical discussion and presentation skills.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in Εξουσία και Θεσμοί - Seminar & Debate)"
         }
       ]
     },
@@ -81,7 +87,8 @@
           "vocabulary": [
             "C1 terminology"
           ],
-          "teacher_notes": "Focus on advanced κοινωνικές δομές vocabulary and registers."
+          "teacher_notes": "Focus on advanced κοινωνικές δομές vocabulary and registers.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in Κοινωνικές Δομές - Vocabulary I)"
         },
         {
           "lesson": 2,
@@ -91,14 +98,16 @@
           "grammar": [
             "Complex structures"
           ],
-          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in Κοινωνικές Δομές - Advanced Grammar)"
         },
         {
           "lesson": 3,
           "type": "spoken",
           "title": "Κοινωνικές Δομές - Seminar & Debate",
           "duration_minutes": 90,
-          "teacher_notes": "Critical discussion and presentation skills."
+          "teacher_notes": "Critical discussion and presentation skills.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in Κοινωνικές Δομές - Seminar & Debate)"
         }
       ]
     },
@@ -114,7 +123,8 @@
           "vocabulary": [
             "C1 terminology"
           ],
-          "teacher_notes": "Focus on advanced γνώση και αλήθεια vocabulary and registers."
+          "teacher_notes": "Focus on advanced γνώση και αλήθεια vocabulary and registers.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in Γνώση και Αλήθεια - Vocabulary I)"
         },
         {
           "lesson": 2,
@@ -124,14 +134,16 @@
           "grammar": [
             "Complex structures"
           ],
-          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in Γνώση και Αλήθεια - Advanced Grammar)"
         },
         {
           "lesson": 3,
           "type": "spoken",
           "title": "Γνώση και Αλήθεια - Seminar & Debate",
           "duration_minutes": 90,
-          "teacher_notes": "Critical discussion and presentation skills."
+          "teacher_notes": "Critical discussion and presentation skills.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in Γνώση και Αλήθεια - Seminar & Debate)"
         }
       ]
     },
@@ -147,7 +159,8 @@
           "vocabulary": [
             "C1 terminology"
           ],
-          "teacher_notes": "Focus on advanced λόγος και επιχειρηματολογία vocabulary and registers."
+          "teacher_notes": "Focus on advanced λόγος και επιχειρηματολογία vocabulary and registers.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in Λόγος και Επιχειρηματολογία - Vocabulary I)"
         },
         {
           "lesson": 2,
@@ -157,14 +170,16 @@
           "grammar": [
             "Complex structures"
           ],
-          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in Λόγος και Επιχειρηματολογία - Advanced Grammar)"
         },
         {
           "lesson": 3,
           "type": "spoken",
           "title": "Λόγος και Επιχειρηματολογία - Seminar & Debate",
           "duration_minutes": 90,
-          "teacher_notes": "Critical discussion and presentation skills."
+          "teacher_notes": "Critical discussion and presentation skills.",
+          "recycled": "Grammar: Complex structures · Vocabulary: C1 terminology (reused and expanded in Λόγος και Επιχειρηματολογία - Seminar & Debate)"
         }
       ]
     }

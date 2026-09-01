@@ -22,7 +22,8 @@
             "My name is",
             "Welcome"
           ],
-          "teacher_notes": "code: \"EN-SPK-A1-001\"\ncando: \"Can greet people, introduce oneself, and ask basic questions in spoken English.\""
+          "teacher_notes": "code: \"EN-SPK-A1-001\"\ncando: \"Can greet people, introduce oneself, and ask basic questions in spoken English.\"",
+          "recycled": "Initial course anchor: establishes baseline target-language sounds, primary greetings, and fundamental sentence patterns."
         },
         {
           "lesson": 2,
@@ -38,7 +39,8 @@
             "Slowly",
             "Understand"
           ],
-          "teacher_notes": "code: \"EN-SPK-A1-002\"\ncando: \"Can ask simple questions and request clarification when speaking.\""
+          "teacher_notes": "code: \"EN-SPK-A1-002\"\ncando: \"Can ask simple questions and request clarification when speaking.\"",
+          "recycled": "Grammar: Verb 'to be' (present simple), Possessive adjectives (my, your) · Vocabulary: Good morning, Nice to meet you, My name is, Welcome (reused and expanded in Asking Simple Questions & Clarification)"
         }
       ]
     },
@@ -62,7 +64,8 @@
             "Order",
             "Receipt"
           ],
-          "teacher_notes": "code: \"EN-SPK-A1-003\"\ncando: \"Can order food, drinks, and buy basic goods in shop transactions.\""
+          "teacher_notes": "code: \"EN-SPK-A1-003\"\ncando: \"Can order food, drinks, and buy basic goods in shop transactions.\"",
+          "recycled": "Grammar: Possessive adjectives (my, your), Question words (What, Where, How), Can for requests · Vocabulary: Pardon?, Could you repeat that?, Slowly, Understand (reused and expanded in Basic Shopping & Ordering Phrases)"
         },
         {
           "lesson": 2,
@@ -80,7 +83,8 @@
             "Straight ahead",
             "Near"
           ],
-          "teacher_notes": "code: \"EN-SPK-A1-004\"\ncando: \"Can ask for and give basic street directions.\""
+          "teacher_notes": "code: \"EN-SPK-A1-004\"\ncando: \"Can ask for and give basic street directions.\"",
+          "recycled": "Grammar: Can for requests, I would like..., How much is...? · Vocabulary: Price, Buy, Order, Receipt (reused and expanded in Asking for & Giving Directions)"
         }
       ]
     }

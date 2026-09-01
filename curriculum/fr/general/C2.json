@@ -10,9 +10,18 @@
         {
           "lesson": 1,
           "title": "Rhétorique et subtilités sociolinguistiques",
-          "grammar": ["Inversion stylistique du sujet"],
-          "vocabulary": ["Érudition", "Sous-entendu", "Allégorie", "Aphorisme", "Quintessence"],
-          "teacher_notes": "code: \"FR-C2-001\"\ncando: \"Peut comprendre et utiliser les finesses de la langue française au niveau natif\""
+          "grammar": [
+            "Inversion stylistique du sujet"
+          ],
+          "vocabulary": [
+            "Érudition",
+            "Sous-entendu",
+            "Allégorie",
+            "Aphorisme",
+            "Quintessence"
+          ],
+          "teacher_notes": "code: \"FR-C2-001\"\ncando: \"Peut comprendre et utiliser les finesses de la langue française au niveau natif\"",
+          "recycled": "Initial course anchor: establishes baseline target-language sounds, primary greetings, and fundamental sentence patterns."
         }
       ]
     }

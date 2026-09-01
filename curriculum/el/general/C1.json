@@ -10,9 +10,18 @@
         {
           "lesson": 1,
           "title": "Λόγιες συντακτικές δομές και μετοχικοί σχηματισμοί",
-          "grammar": ["Χρήση λόγιων μετοχών (παρόντος, παρελθόντος)"],
-          "vocabulary": ["Οξυδέρκεια", "Ευγλωττία", "Υπονοούμενο", "Προϋπόθεση", "Ουσία"],
-          "teacher_notes": "code: \"EL-C1-001\"\ncando: \"Μπορεί να εκφραστεί με άνεση σε επίσημο και απαιτητικό ύφος\""
+          "grammar": [
+            "Χρήση λόγιων μετοχών (παρόντος, παρελθόντος)"
+          ],
+          "vocabulary": [
+            "Οξυδέρκεια",
+            "Ευγλωττία",
+            "Υπονοούμενο",
+            "Προϋπόθεση",
+            "Ουσία"
+          ],
+          "teacher_notes": "code: \"EL-C1-001\"\ncando: \"Μπορεί να εκφραστεί με άνεση σε επίσημο και απαιτητικό ύφος\"",
+          "recycled": "Initial course anchor: establishes baseline target-language sounds, primary greetings, and fundamental sentence patterns."
         }
       ]
     }

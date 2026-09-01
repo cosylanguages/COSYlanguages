@@ -20,5 +20,11 @@ Organised by: language → course type → CEFR level file.
 ## Planned course types (not yet active)
 See `planning/general/planned_courses.md` for course types that are designed but not yet built.
 
+## Interconnected Flow & Continuous Knowledge Recycling
+Lessons, steps, and days in COSYlanguages courses are **never** treated as isolated, separate silos. Rather, they flow smoothly from one to another in a logical, continuous progression:
+- Every lesson connects backward to preceding lessons and forward to upcoming concepts.
+- Previously introduced vocabulary, grammar, and communicative routines are explicitly recycled and actively applied in subsequent lessons via the `"recycled"` field.
+- Learners constantly build upon and reuse prior knowledge to reinforce long-term mastery and fluency.
+
 ## Non-translation rule
 All lesson titles and teacher notes are in the target language.

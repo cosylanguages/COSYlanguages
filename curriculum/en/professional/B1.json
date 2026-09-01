@@ -23,7 +23,8 @@
             "Sincerely",
             "Regards"
           ],
-          "teacher_notes": "code: \"EN-PRO-B1-001\"\ncando: \"Can write clear formal emails for routine workplace requests and scheduling.\""
+          "teacher_notes": "code: \"EN-PRO-B1-001\"\ncando: \"Can write clear formal emails for routine workplace requests and scheduling.\"",
+          "recycled": "Initial course anchor: establishes baseline target-language sounds, primary greetings, and fundamental sentence patterns."
         },
         {
           "lesson": 2,
@@ -40,7 +41,8 @@
             "Action point",
             "Status update"
           ],
-          "teacher_notes": "code: \"EN-PRO-B1-002\"\ncando: \"Can report project status and contribute to team meeting agendas.\""
+          "teacher_notes": "code: \"EN-PRO-B1-002\"\ncando: \"Can report project status and contribute to team meeting agendas.\"",
+          "recycled": "Grammar: Formal request phrasing, Future arrangements with Present Continuous · Vocabulary: Confirm, Schedule, Sincerely, Regards (reused and expanded in Participating in Team Meetings & Project Updates)"
         }
       ]
     }

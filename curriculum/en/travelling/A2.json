@@ -23,7 +23,8 @@
             "Recommendation",
             "Delicious"
           ],
-          "teacher_notes": "code: \"EN-TRV-A2-001\"\ncando: \"Can order regional dishes, communicate dietary needs, and handle payment.\""
+          "teacher_notes": "code: \"EN-TRV-A2-001\"\ncando: \"Can order regional dishes, communicate dietary needs, and handle payment.\"",
+          "recycled": "Initial course anchor: establishes baseline target-language sounds, primary greetings, and fundamental sentence patterns."
         },
         {
           "lesson": 2,
@@ -41,7 +42,8 @@
             "Transfer",
             "Refund"
           ],
-          "teacher_notes": "code: \"EN-TRV-A2-002\"\ncando: \"Can ask about timetable changes, ticket exchanges, and travel delays.\""
+          "teacher_notes": "code: \"EN-TRV-A2-002\"\ncando: \"Can ask about timetable changes, ticket exchanges, and travel delays.\"",
+          "recycled": "Grammar: Could we get the menu?, I am allergic to... · Vocabulary: Tip, Allergy, Recommendation, Delicious (reused and expanded in Handling Travel Delays & Transport Changes)"
         }
       ]
     }
