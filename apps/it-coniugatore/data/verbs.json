@@ -9263,7 +9263,7 @@
       ]
     },
     "usage_hint": "essere di (possesso) / in / a / + aggettivo",
-    "auxiliary": "avere",
+    "auxiliary": "essere",
     "irregular": true
   },
   "avere": {
@@ -13822,7 +13822,7 @@
       ]
     },
     "usage_hint": "intransitivo: tornare a / in / da",
-    "auxiliary": "avere",
+    "auxiliary": "essere",
     "irregular": false
   },
   "entrare": {
