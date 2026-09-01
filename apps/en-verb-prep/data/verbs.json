@@ -21,7 +21,10 @@
       "impact",
       "sway"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "ignore",
+      "leave untouched"
+    ],
     "preposition_structure": "none",
     "particle_count": 0
   },
@@ -47,7 +50,10 @@
       "impact",
       "alter"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "leave unaffected",
+      "ignore"
+    ],
     "preposition_structure": "none",
     "particle_count": 0
   },
@@ -72,7 +78,10 @@
       "affect",
       "influence"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "leave unaffected",
+      "have no effect on"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -126,7 +135,10 @@
       "reach",
       "get in touch with"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "avoid",
+      "ignore"
+    ],
     "preposition_structure": "none",
     "particle_count": 0
   },
@@ -151,7 +163,10 @@
       "see",
       "call on"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "avoid",
+      "depart from"
+    ],
     "preposition_structure": "none",
     "particle_count": 0
   },
@@ -235,7 +250,10 @@
       "insist on",
       "claim"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "offer",
+      "concede"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -260,7 +278,10 @@
       "ask for",
       "solicit"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "offer",
+      "provide"
+    ],
     "preposition_structure": "none",
     "particle_count": 0
   },
@@ -331,7 +352,7 @@
       "about"
     ],
     "pattern": "ask [someone] a question (VT) / ask for [item/help] (VI)",
-    "level": "A0",
+    "level": "A1",
     "definition": "To inquire about something or request an item/favor.",
     "grammar_rule": "'Ask someone' (direct object for question/person); 'ask FOR something' when requesting an item or help.",
     "examples": [
@@ -373,7 +394,10 @@
       "remit",
       "settle"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "receive payment",
+      "default"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -425,7 +449,10 @@
       "fret",
       "be anxious"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "reassure",
+      "calm"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -467,7 +494,7 @@
       "at"
     ],
     "pattern": "look at [someone / something]",
-    "level": "A0",
+    "level": "A1",
     "definition": "To direct your eyes toward someone or something to see them.",
     "grammar_rule": "Requires 'at' when specifying the target of sight.",
     "examples": [
@@ -509,7 +536,10 @@
       "search for",
       "seek"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "ignore",
+      "abandon search for"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -594,7 +624,10 @@
       "conceive",
       "opinion on"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "forget",
+      "ignore"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -621,7 +654,10 @@
       "consider",
       "deliberate"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "ignore",
+      "dismiss"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -647,7 +683,10 @@
       "hinge",
       "count"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "be independent of",
+      "stand alone"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -672,7 +711,10 @@
       "express regret",
       "ask forgiveness"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "blame",
+      "insist"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -904,7 +946,10 @@
       "fail",
       "collapse"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "function",
+      "work properly"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -1113,7 +1158,10 @@
       "find by chance",
       "encounter"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "overlook",
+      "miss"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -1140,7 +1188,10 @@
       "comprehend",
       "work out"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "misunderstand",
+      "be confused by"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -1228,7 +1279,10 @@
       "calculate",
       "resolve"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "fail",
+      "go wrong"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -1401,7 +1455,10 @@
       "examine",
       "review"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "avoid",
+      "bypass"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -1513,7 +1570,10 @@
     "synonyms": [
       "mature"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "regress",
+      "remain child-like"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -1601,7 +1661,10 @@
       "hang on",
       "clings"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "let go",
+      "release"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -1719,7 +1782,10 @@
       "collaborate with",
       "cooperate with"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "work against",
+      "oppose"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -1747,7 +1813,10 @@
       "be accountable to",
       "answer to"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "lead",
+      "command"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -1775,7 +1844,10 @@
       "liaise with",
       "align with"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "disregard",
+      "work independently of"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -1800,7 +1872,10 @@
       "in charge of",
       "answerable for"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "irresponsible for",
+      "exempt from"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -1824,7 +1899,10 @@
       "responsible for",
       "head of"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "subordinate to",
+      "under the command of"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -1882,7 +1960,10 @@
       "focus on",
       "major in"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "generalize in",
+      "diversify"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -1938,7 +2019,10 @@
       "ascribe to",
       "credit to"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "disassociate from",
+      "disclaim"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -1994,7 +2078,10 @@
       "request",
       "solicit"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "withdraw",
+      "cancel application"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -2079,7 +2166,10 @@
       "be owned by",
       "pertain to"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "be separate from",
+      "be excluded from"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -2136,7 +2226,10 @@
       "endure",
       "be afflicted with"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "benefit from",
+      "thrive on"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -2373,7 +2466,10 @@
       "invent",
       "propose"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "copy",
+      "imitate"
+    ],
     "preposition_structure": "double_phrasal",
     "particle_count": 2
   },
@@ -2665,7 +2761,10 @@
       "be composed of",
       "be made up of"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "exclude",
+      "be devoid of"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -2690,7 +2789,10 @@
       "felicitate",
       "praise"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "criticize",
+      "condemn"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -2717,7 +2819,10 @@
       "caution about",
       "alert to"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "reassure",
+      "encourage danger"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -2866,7 +2971,10 @@
       "fall back on",
       "use as last resort"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "avoid",
+      "abstain from"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -3142,7 +3250,10 @@
       "turn on",
       "pivot on"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "be independent of",
+      "disregard"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -3200,7 +3311,10 @@
       "constitute",
       "make up"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "leave unexplained",
+      "ignore"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -3316,7 +3430,10 @@
       "apply to",
       "concern"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "be irrelevant to",
+      "be disconnected from"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -3434,7 +3551,10 @@
       "alter",
       "interfere with"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "preserve",
+      "leave intact"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -3492,7 +3612,10 @@
       "replace with",
       "swap for"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "keep",
+      "retain original"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -3552,7 +3675,10 @@
       "infringe on",
       "intrude on"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "respect",
+      "leave unimpaired"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -3612,7 +3738,10 @@
       "consider",
       "debate"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "decide spontaneously",
+      "ignore"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -3728,7 +3857,10 @@
       "attribute to",
       "assign to"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "disassociate from",
+      "deny attribution to"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -4268,7 +4400,10 @@
       "call",
       "ring"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "ignore",
+      "avoid calling"
+    ],
     "preposition_structure": "none",
     "particle_count": 0
   },
@@ -4293,7 +4428,10 @@
       "message",
       "send an email to"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "ignore",
+      "avoid messaging"
+    ],
     "preposition_structure": "none",
     "particle_count": 0
   },
@@ -4750,7 +4888,10 @@
       "fantasize about",
       "aspire to"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "confront reality",
+      "be pragmatic"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -4775,7 +4916,10 @@
       "get ready for",
       "arrange"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "neglect",
+      "improvise"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -5027,7 +5171,10 @@
       "correspond with",
       "send a letter to"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "ignore",
+      "stop correspondence with"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -5054,7 +5201,10 @@
       "fit in",
       "go in"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "be out of place in",
+      "mismatch"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -5110,7 +5260,10 @@
       "discuss",
       "speak of"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "be silent on",
+      "ignore"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -5193,7 +5346,10 @@
     "synonyms": [
       "say sorry to"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "blame",
+      "reproach"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -5307,7 +5463,10 @@
       "finance",
       "foot the bill for"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "receive payment for",
+      "get for free"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -5333,7 +5492,10 @@
       "talk with",
       "converse with"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "ignore",
+      "avoid speaking to"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
@@ -5359,7 +5521,10 @@
       "speak to",
       "address"
     ],
-    "antonyms": [],
+    "antonyms": [
+      "ignore",
+      "avoid talking to"
+    ],
     "preposition_structure": "single",
     "particle_count": 1
   },
