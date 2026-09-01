@@ -341,17 +341,21 @@ class ConjugationEngine {
     setPracticeMode(mode) {
         this.gamePracticeMode = mode;
         const cBtn = document.getElementById('mode-conj-btn');
+        const aBtn = document.getElementById('mode-aux-btn');
         const gBtn = document.getElementById('mode-prep-btn');
-        if (cBtn && gBtn) {
-            cBtn.className = mode === 'conjugation' ? 'badge active-mode' : 'badge';
-            gBtn.className = mode === 'preposition' ? 'badge active-mode' : 'badge';
-        }
+        if (cBtn) cBtn.className = mode === 'conjugation' ? 'badge active-mode' : 'badge';
+        if (aBtn) aBtn.className = mode === 'auxiliary' ? 'badge active-mode' : 'badge';
+        if (gBtn) gBtn.className = mode === 'preposition' ? 'badge active-mode' : 'badge';
         this.nextGameQuestion();
     }
 
     nextGameQuestion() {
         if (this.gamePracticeMode === 'preposition') {
             this.nextPrepositionQuestion();
+            return;
+        }
+        if (this.gamePracticeMode === 'auxiliary') {
+            this.nextAuxiliaryQuestion();
             return;
         }
         const gameAnsInput = document.getElementById('game-answer-input');
@@ -484,6 +488,97 @@ class ConjugationEngine {
         document.getElementById('game-feedback-box').style.display = 'none';
         document.getElementById('game-submit-btn').style.display = 'none';
         document.getElementById('game-next-btn').style.display = 'none';
+    }
+
+    nextAuxiliaryQuestion() {
+        const inputGroup = document.querySelector('.game-input-group');
+        let mcGroup = document.getElementById('game-mc-options');
+        if (inputGroup) inputGroup.style.display = 'none';
+        if (!mcGroup) {
+            mcGroup = document.createElement('div');
+            mcGroup.id = 'game-mc-options';
+            mcGroup.className = 'mc-options-grid';
+            document.querySelector('.game-prompt-box').insertAdjacentElement('afterend', mcGroup);
+        }
+        mcGroup.style.display = 'grid';
+
+        const verbs = Object.keys(this.verbDb);
+        if (verbs.length === 0) return;
+
+        // 30% chance to test a dual-auxiliary verb if available
+        const dualVerbs = verbs.filter(k => this.verbDb[k].auxiliary === 'both');
+        const isDualTest = dualVerbs.length > 0 && Math.random() < 0.4;
+        const targetVerb = isDualTest ? dualVerbs[Math.floor(Math.random() * dualVerbs.length)] : verbs[Math.floor(Math.random() * verbs.length)];
+        const verbData = this.verbDb[targetVerb];
+
+        if (isDualTest && verbData.dual_auxiliary_rules) {
+            const rules = verbData.dual_auxiliary_rules;
+            const useAvoir = Math.random() < 0.5;
+            const chosenAux = useAvoir ? 'avoir' : 'être';
+            const ruleData = rules[chosenAux];
+
+            this.currentQuestion = {
+                verb: targetVerb,
+                expected: chosenAux,
+                isAuxiliary: true,
+                explanation: `<strong>${chosenAux.toUpperCase()}</strong> (${ruleData.condition}). Ex : <em>"${ruleData.example}"</em>`
+            };
+
+            document.getElementById('game-verb-prompt').textContent = targetVerb;
+            document.getElementById('game-tense-badge').textContent = 'Auxiliaire au Passé Composé';
+            document.getElementById('game-pronoun-prompt').textContent = `Contexte : ${ruleData.condition}`;
+
+            mcGroup.innerHTML = `
+                <button class="mc-option-btn" onclick="appEngine.checkAuxiliaryChoice('avoir')">avoir (ai, a, avons...)</button>
+                <button class="mc-option-btn" onclick="appEngine.checkAuxiliaryChoice('être')">être (suis, est, sommes...)</button>
+                <button class="mc-option-btn" onclick="appEngine.checkAuxiliaryChoice('both')">les deux (selon le COD / sens)</button>
+            `;
+        } else {
+            const expectedAux = verbData.auxiliary || 'avoir';
+            this.currentQuestion = {
+                verb: targetVerb,
+                expected: expectedAux,
+                isAuxiliary: true,
+                explanation: expectedAux === 'être'
+                    ? `Verbe de mouvement / pronominal ➔ <strong>ÊTRE</strong>`
+                    : (expectedAux === 'both' ? `Verbe à double auxiliaire ➔ <strong>ÊTRE / AVOIR</strong>` : `Verbe transitif standard ➔ <strong>AVOIR</strong>`)
+            };
+
+            document.getElementById('game-verb-prompt').textContent = targetVerb;
+            document.getElementById('game-tense-badge').textContent = 'Auxiliaire au Passé Composé';
+            document.getElementById('game-pronoun-prompt').textContent = 'Quel auxiliaire utilise ce verbe ?';
+
+            mcGroup.innerHTML = `
+                <button class="mc-option-btn" onclick="appEngine.checkAuxiliaryChoice('avoir')">avoir (ai, a, avons...)</button>
+                <button class="mc-option-btn" onclick="appEngine.checkAuxiliaryChoice('être')">être (suis, est, sommes...)</button>
+                <button class="mc-option-btn" onclick="appEngine.checkAuxiliaryChoice('both')">les deux (selon le COD / sens)</button>
+            `;
+        }
+
+        document.getElementById('game-feedback-box').style.display = 'none';
+        document.getElementById('game-submit-btn').style.display = 'none';
+        document.getElementById('game-next-btn').style.display = 'none';
+    }
+
+    checkAuxiliaryChoice(selected) {
+        if (!this.currentQuestion) return;
+        const isCorrect = selected === this.currentQuestion.expected;
+        const feedbackBox = document.getElementById('game-feedback-box');
+        feedbackBox.style.display = 'block';
+
+        if (isCorrect) {
+            this.gameScore += 10; this.gameStreak += 1;
+            feedbackBox.className = 'feedback-card correct';
+            feedbackBox.innerHTML = `✅ Exact ! <strong>${this.currentQuestion.verb}</strong> ➔ ${this.currentQuestion.explanation} (+10 pts).`;
+        } else {
+            this.gameStreak = 0;
+            feedbackBox.className = 'feedback-card wrong';
+            feedbackBox.innerHTML = `❌ Oups ! Réponse correcte : <strong>${this.currentQuestion.expected.toUpperCase()}</strong>. ${this.currentQuestion.explanation}`;
+        }
+
+        document.getElementById('game-score').textContent = this.gameScore;
+        document.getElementById('game-streak').textContent = this.gameStreak;
+        document.getElementById('game-next-btn').style.display = 'block';
     }
 
     checkPrepositionChoice(selected) {

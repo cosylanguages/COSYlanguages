@@ -191,17 +191,21 @@ class ItalianConjugationEngine {
     setPracticeMode(mode) {
         this.gamePracticeMode = mode;
         const cBtn = document.getElementById('mode-conj-btn');
+        const aBtn = document.getElementById('mode-aux-btn');
         const gBtn = document.getElementById('mode-prep-btn');
-        if (cBtn && gBtn) {
-            cBtn.className = mode === 'conjugation' ? 'badge active-mode' : 'badge';
-            gBtn.className = mode === 'preposition' ? 'badge active-mode' : 'badge';
-        }
+        if (cBtn) cBtn.className = mode === 'conjugation' ? 'badge active-mode' : 'badge';
+        if (aBtn) aBtn.className = mode === 'auxiliary' ? 'badge active-mode' : 'badge';
+        if (gBtn) gBtn.className = mode === 'preposition' ? 'badge active-mode' : 'badge';
         this.nextGameQuestion();
     }
 
     nextGameQuestion() {
         if (this.gamePracticeMode === 'preposition') {
             this.nextPrepositionQuestion();
+            return;
+        }
+        if (this.gamePracticeMode === 'auxiliary') {
+            this.nextAuxiliaryQuestion();
             return;
         }
         const gameAnsInput = document.getElementById('game-answer-input');
@@ -289,6 +293,96 @@ class ItalianConjugationEngine {
         document.getElementById('game-feedback-box').style.display = 'none';
         document.getElementById('game-submit-btn').style.display = 'none';
         document.getElementById('game-next-btn').style.display = 'none';
+    }
+
+    nextAuxiliaryQuestion() {
+        const inputGroup = document.querySelector('.game-input-group');
+        let mcGroup = document.getElementById('game-mc-options');
+        if (inputGroup) inputGroup.style.display = 'none';
+        if (!mcGroup) {
+            mcGroup = document.createElement('div');
+            mcGroup.id = 'game-mc-options';
+            mcGroup.className = 'mc-options-grid';
+            document.querySelector('.game-prompt-box').insertAdjacentElement('afterend', mcGroup);
+        }
+        mcGroup.style.display = 'grid';
+
+        const verbs = Object.keys(this.verbDb);
+        if (verbs.length === 0) return;
+
+        const dualVerbs = verbs.filter(k => this.verbDb[k].auxiliary === 'both');
+        const isDualTest = dualVerbs.length > 0 && Math.random() < 0.4;
+        const targetVerb = isDualTest ? dualVerbs[Math.floor(Math.random() * dualVerbs.length)] : verbs[Math.floor(Math.random() * verbs.length)];
+        const verbData = this.verbDb[targetVerb];
+
+        if (isDualTest && verbData.dual_auxiliary_rules) {
+            const rules = verbData.dual_auxiliary_rules;
+            const useAvere = Math.random() < 0.5;
+            const chosenAux = useAvere ? 'avere' : 'essere';
+            const ruleData = rules[chosenAux];
+
+            this.currentQuestion = {
+                verb: targetVerb,
+                expected: chosenAux,
+                isAuxiliary: true,
+                explanation: `<strong>${chosenAux.toUpperCase()}</strong> (${ruleData.condition}). Es: <em>"${ruleData.example}"</em>`
+            };
+
+            document.getElementById('game-verb-prompt').textContent = targetVerb;
+            document.getElementById('game-tense-badge').textContent = 'Ausiliare al Passato Prossimo';
+            document.getElementById('game-pronoun-prompt').textContent = `Contesto: ${ruleData.condition}`;
+
+            mcGroup.innerHTML = `
+                <button class="mc-option-btn" onclick="appEngine.checkAuxiliaryChoice('avere')">avere (ho, ha, abbiamo...)</button>
+                <button class="mc-option-btn" onclick="appEngine.checkAuxiliaryChoice('essere')">essere (sono, è, siamo...)</button>
+                <button class="mc-option-btn" onclick="appEngine.checkAuxiliaryChoice('both')">entrambi (in base al contesto)</button>
+            `;
+        } else {
+            const expectedAux = verbData.auxiliary || 'avere';
+            this.currentQuestion = {
+                verb: targetVerb,
+                expected: expectedAux,
+                isAuxiliary: true,
+                explanation: expectedAux === 'essere'
+                    ? `Verbo di movimento / riflessivo ➔ <strong>ESSERE</strong>`
+                    : (expectedAux === 'both' ? `Verbo a doppio ausiliare ➔ <strong>ESSERE / AVERE</strong>` : `Verbo transitivo standard ➔ <strong>AVERE</strong>`)
+            };
+
+            document.getElementById('game-verb-prompt').textContent = targetVerb;
+            document.getElementById('game-tense-badge').textContent = 'Ausiliare al Passato Prossimo';
+            document.getElementById('game-pronoun-prompt').textContent = 'Quale ausiliare usa questo verbo?';
+
+            mcGroup.innerHTML = `
+                <button class="mc-option-btn" onclick="appEngine.checkAuxiliaryChoice('avere')">avere (ho, ha, abbiamo...)</button>
+                <button class="mc-option-btn" onclick="appEngine.checkAuxiliaryChoice('essere')">essere (sono, è, siamo...)</button>
+                <button class="mc-option-btn" onclick="appEngine.checkAuxiliaryChoice('both')">entrambi (in base al contesto)</button>
+            `;
+        }
+
+        document.getElementById('game-feedback-box').style.display = 'none';
+        document.getElementById('game-submit-btn').style.display = 'none';
+        document.getElementById('game-next-btn').style.display = 'none';
+    }
+
+    checkAuxiliaryChoice(selected) {
+        if (!this.currentQuestion) return;
+        const isCorrect = selected === this.currentQuestion.expected;
+        const feedbackBox = document.getElementById('game-feedback-box');
+        feedbackBox.style.display = 'block';
+
+        if (isCorrect) {
+            this.gameScore += 10; this.gameStreak += 1;
+            feedbackBox.className = 'feedback-card correct';
+            feedbackBox.innerHTML = `✅ Esatto! <strong>${this.currentQuestion.verb}</strong> ➔ ${this.currentQuestion.explanation} (+10 pti).`;
+        } else {
+            this.gameStreak = 0;
+            feedbackBox.className = 'feedback-card wrong';
+            feedbackBox.innerHTML = `❌ Ops! Risposta corretta: <strong>${this.currentQuestion.expected.toUpperCase()}</strong>. ${this.currentQuestion.explanation}`;
+        }
+
+        document.getElementById('game-score').textContent = this.gameScore;
+        document.getElementById('game-streak').textContent = this.gameStreak;
+        document.getElementById('game-next-btn').style.display = 'block';
     }
 
     checkPrepositionChoice(selected) {
