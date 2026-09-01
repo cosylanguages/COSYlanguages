@@ -65,8 +65,9 @@ function render(data) {
     }
     let html = '';
     data.units.forEach(unit => {
+        const cleanUnitTitle = (unit.title || '').replace(/^Unit\s+\d+:\s*/i, '');
         html += `<div class="unit-block">
-            <h2 class="unit-title">Unit ${unit.unit}: ${unit.title}</h2>`;
+            <h2 class="unit-title">Unit ${unit.unit}: ${cleanUnitTitle}</h2>`;
         unit.lessons.forEach(lesson => {
             const grammarStr = Array.isArray(lesson.grammar) ? lesson.grammar.join(', ') : (lesson.grammar || '');
             const vocabStr = Array.isArray(lesson.vocabulary) ? lesson.vocabulary.join(', ') : (lesson.vocabulary || '');
