@@ -23,7 +23,8 @@
             "Immigration",
             "Lawyer"
           ],
-          "teacher_notes": "code: \"EN-RLC-B2-001\"\ncando: \"Can handle complex residency applications, visa renewals, and legal documentation.\""
+          "teacher_notes": "code: \"EN-RLC-B2-001\"\ncando: \"Can handle complex residency applications, visa renewals, and legal documentation.\"",
+          "recycled": "Foundational communication & basic level vocabulary"
         },
         {
           "lesson": 2,
@@ -41,7 +42,8 @@
             "Deed",
             "Investment"
           ],
-          "teacher_notes": "code: \"EN-RLC-B2-002\"\ncando: \"Can negotiate property purchases, mortgages, and legal contracts with advisors.\""
+          "teacher_notes": "code: \"EN-RLC-B2-002\"\ncando: \"Can negotiate property purchases, mortgages, and legal contracts with advisors.\"",
+          "recycled": "Passive voice for administrative procedures, Complex conditional requirements, Compliance"
         }
       ]
     }
