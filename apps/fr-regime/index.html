@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Régime prépositionnel des verbes français | COSYlanguages</title>
+    <title>Régime prépositionnel : verbes, noms &amp; adjectifs | COSYlanguages</title>
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#1b4332">
@@ -16,8 +16,8 @@
             <div class="logo-badge">
                 <span class="brand-icon">🇫🇷</span>
                 <div class="brand-text">
-                    <h1>Régime prépositionnel des verbes</h1>
-                    <p class="tagline">Prépositions obligatoires (à, de, sur...), verbes pronominaux &amp; pièges transitifs</p>
+                    <h1>Régime prépositionnel français</h1>
+                    <p class="tagline">Verbes, Noms &amp; Adjectifs — Prépositions obligatoires &amp; liens croisés</p>
                 </div>
             </div>
 
@@ -34,19 +34,21 @@
         <!-- Barre de recherche et filtres -->
         <main class="app-main">
             <section id="search-section-container" class="search-section">
-                <!-- Boutons de filtre -->
-                <div class="filter-pills-bar">
-                    <button class="filter-pill active" id="filter-all" onclick="appEngine.setFilter('all')">Tous les verbes</button>
-                    <button class="filter-pill" id="filter-a" onclick="appEngine.setFilter('a')">Régime « à »</button>
-                    <button class="filter-pill" id="filter-de" onclick="appEngine.setFilter('de')">Régime « de »</button>
-                    <button class="filter-pill" id="filter-direct" onclick="appEngine.setFilter('direct')">Direct (sans prép)</button>
-                    <button class="filter-pill" id="filter-pronominal" onclick="appEngine.setFilter('pronominal')">Pronominaux 🪞</button>
-                    <button class="filter-pill" id="filter-other" onclick="appEngine.setFilter('other')">Autres (sur, en...)</button>
+                <!-- Selecteur de Type de mot (Verbes / Noms / Adjectifs) -->
+                <div class="word-type-tabs-bar">
+                    <button class="type-tab-btn active" id="tab-verbs" onclick="appEngine.setWordType('verbs')">💬 Verbes</button>
+                    <button class="type-tab-btn" id="tab-nouns" onclick="appEngine.setWordType('nouns')">📦 Noms</button>
+                    <button class="type-tab-btn" id="tab-adjectives" onclick="appEngine.setWordType('adjectives')">🎨 Adjectifs</button>
+                </div>
+
+                <!-- Boutons de filtre par préposition -->
+                <div id="filter-pills-container" class="filter-pills-bar">
+                    <!-- Injection dynamique des filtres selon le type de mot -->
                 </div>
 
                 <div class="search-box">
                     <span class="search-icon">🔍</span>
-                    <input type="text" id="verb-search-input" placeholder="Rechercher un verbe (ex. penser, parler, s'intéresser, attendre, insister)..." autocomplete="off" autofocus>
+                    <input type="text" id="verb-search-input" placeholder="Rechercher un verbe, nom ou adjectif (ex. penser, besoin, content)..." autocomplete="off" autofocus>
                     <button id="clear-search-btn" class="clear-btn" style="display: none;">&times;</button>
                 </div>
                 <div id="search-suggestions" class="suggestions-list" style="display: none;"></div>
@@ -57,7 +59,7 @@
                 <div class="game-header">
                     <div class="game-title">
                         <h2>🎮 Entraîneur de régime prépositionnel</h2>
-                        <p>Maîtrisez les prépositions de verbes, les contractions (au, aux, du, des) et les pièges transitifs !</p>
+                        <p>Maîtrisez les prépositions obligatoires (à, de, sur, en, pour, avec...) !</p>
                     </div>
                     <div class="score-badge">
                         <span>Score: <strong id="game-score">0</strong></span>
@@ -66,7 +68,7 @@
                 </div>
 
                 <div class="game-prompt-box">
-                    <span class="prompt-label">Verbe :</span>
+                    <span class="prompt-label" id="game-prompt-type-label">Mot :</span>
                     <h3 id="game-verb-prompt">penser</h3>
                     <div class="prompt-details">
                         <span id="game-type-badge" class="badge prep-badge">Préposition : à</span>
@@ -87,7 +89,7 @@
                 <button id="game-next-btn" class="game-btn secondary-btn" style="display: none;" onclick="appEngine.nextGameQuestion()">Question suivante ➔</button>
             </section>
 
-            <!-- Fiche du Verbe -->
+            <!-- Fiche du Mot -->
             <section id="verb-result-container" class="verb-result-card" style="display: none;">
                 <!-- Contrôles de navigation -->
                 <div class="nav-controls-bar">
@@ -96,10 +98,11 @@
                     <button class="nav-btn" onclick="appEngine.navigateNext()" title="Entrée suivante">Suivant ▶</button>
                 </div>
 
-                <!-- En-tête du verbe -->
+                <!-- En-tête du mot -->
                 <div class="verb-header">
                     <div class="verb-title-group">
                         <h2 id="verb-title">penser</h2>
+                        <span id="word-type-badge" class="badge word-type-badge">Verbe</span>
                         <span id="pronominal-badge" class="badge phrasal-badge" style="display: none;">Pronominal 🪞</span>
                         <span id="prep-badge" class="badge prep-badge">Préposition : à</span>
                         <span id="verb-cefr-badge" class="badge cefr-badge">Niveau : A1</span>
@@ -116,13 +119,13 @@
                             <span class="lexical-label">💡 Structure &amp; Construction :</span>
                             <span id="verb-pattern-text" class="usage-text">penser à [quelqu'un / quelque chose]</span>
                         </div>
-                        <!-- Bloc contraste nom/verbe -->
-                        <div id="noun-parallel-container" class="noun-parallel-block" style="display: none;">
-                            <span class="lexical-label">⚡ Contraste Verbe vs. Nom :</span>
-                            <span id="noun-parallel-text" class="noun-parallel-text"></span>
+                        <!-- Bloc lien croisé (Nom/Verbe/Adjectif) -->
+                        <div id="cross-ref-container" class="noun-parallel-block" style="display: none;">
+                            <span class="lexical-label">⚡ Formes apparentées &amp; Liens croisés :</span>
+                            <div id="cross-ref-content"></div>
                         </div>
                         <div id="grammar-rule-container" class="grammar-rule-block">
-                            <span class="lexical-label">📌 Règle de grammaire &amp; Contractions :</span>
+                            <span class="lexical-label">📌 Règle de grammaire &amp; Nuances :</span>
                             <span id="grammar-rule-text" class="rule-text"></span>
                         </div>
                         <div id="mistake-container" class="mistake-block">
@@ -144,26 +147,26 @@
             <!-- État initial sans recherche -->
             <section id="empty-state" class="empty-state-box">
                 <span class="empty-icon">🌿</span>
-                <h3>Rechercher les verbes français et leurs prépositions</h3>
-                <p>Explorez le <strong style="color: var(--sage-primary);">régime prépositionnel</strong> (<em>à</em>, <em>de</em>, <em>sur</em>, <em>en</em>...), les verbes pronominaux, les <strong style="color: var(--terracotta);">pièges transitifs direct/indirect</strong> (attendre, regarder, demander...), les contractions d'articles (<em>au/aux</em>, <em>du/des</em>) et les nuances de sens.</p>
+                <h3>Rechercher les verbes, noms &amp; adjectifs français</h3>
+                <p>Explorez le <strong style="color: var(--sage-primary);">régime prépositionnel complet</strong> (<em>à</em>, <em>de</em>, <em>sur</em>, <em>en</em>, <em>pour</em>, <em>avec</em>...), les correspondances entre mots apparentés, les contractions d'articles (<em>au/aux</em>, <em>du/des</em>) et les pièges d'usage.</p>
                 <div class="quick-tags">
-                    <span>Verbes essentiels (A1–B2) :</span>
-                    <button class="tag-btn" onclick="appEngine.searchVerb('penser')">penser à/de</button>
-                    <button class="tag-btn" onclick="appEngine.searchVerb('parler')">parler à/de</button>
-                    <button class="tag-btn" onclick="appEngine.searchVerb('avoir besoin de')">avoir besoin de</button>
-                    <button class="tag-btn" onclick="appEngine.searchVerb('s\'intéresser à')">s'intéresser à</button>
-                    <button class="tag-btn" onclick="appEngine.searchVerb('jouer')">jouer à/de</button>
-                    <button class="tag-btn" onclick="appEngine.searchVerb('attendre')">attendre (direct)</button>
-                    <button class="tag-btn" onclick="appEngine.searchVerb('se souvenir de')">se souvenir de</button>
-                    <button class="tag-btn" onclick="appEngine.searchVerb('insister sur')">insister sur</button>
-                    <button class="tag-btn" onclick="appEngine.searchVerb('consister')">consister à/en</button>
+                    <span>Mots essentiels (A1–B2) :</span>
+                    <button class="tag-btn" onclick="appEngine.searchEntry('penser', 'verbs')">penser (verbe)</button>
+                    <button class="tag-btn" onclick="appEngine.searchEntry('besoin', 'nouns')">besoin (nom)</button>
+                    <button class="tag-btn" onclick="appEngine.searchEntry('content', 'adjectives')">content (adjectif)</button>
+                    <button class="tag-btn" onclick="appEngine.searchEntry('avoir besoin', 'verbs')">avoir besoin (verbe)</button>
+                    <button class="tag-btn" onclick="appEngine.searchEntry('confiance', 'nouns')">confiance (nom)</button>
+                    <button class="tag-btn" onclick="appEngine.searchEntry('fier', 'adjectives')">fier (adjectif)</button>
+                    <button class="tag-btn" onclick="appEngine.searchEntry('s\'intéresser', 'verbs')">s'intéresser (verbe)</button>
+                    <button class="tag-btn" onclick="appEngine.searchEntry('intérêt', 'nouns')">intérêt (nom)</button>
+                    <button class="tag-btn" onclick="appEngine.searchEntry('différent', 'adjectives')">différent (adjectif)</button>
                 </div>
             </section>
         </main>
 
         <!-- Footer Cozy -->
         <footer class="app-footer">
-            <p>🌿 <strong>COSYlanguages Standalone Apps</strong> — Régime prépositionnel des verbes français. 100% offline &amp; privé.</p>
+            <p>🌿 <strong>COSYlanguages Standalone Apps</strong> — Régime prépositionnel des verbes, noms &amp; adjectifs français. 100% offline &amp; privé.</p>
         </footer>
     </div>
 

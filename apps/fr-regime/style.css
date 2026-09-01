@@ -119,6 +119,42 @@ body {
     gap: 0.75rem;
 }
 
+/* Word-Type Tab Switcher */
+.word-type-tabs-bar {
+    display: flex;
+    gap: 0.5rem;
+    background: var(--cream-card);
+    padding: 0.35rem;
+    border-radius: 16px;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-soft);
+}
+
+.type-tab-btn {
+    flex: 1;
+    min-height: 44px;
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    border: none;
+    background: transparent;
+    color: var(--ink-muted);
+    font-size: 0.95rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.type-tab-btn:hover {
+    background: var(--sage-light);
+    color: var(--sage-dark);
+}
+
+.type-tab-btn.active {
+    background: var(--sage-primary);
+    color: #ffffff;
+    box-shadow: 0 2px 8px rgba(45, 90, 39, 0.2);
+}
+
 .filter-pills-bar {
     display: flex;
     gap: 0.5rem;
@@ -260,6 +296,11 @@ body {
     font-weight: 700;
 }
 
+.word-type-badge {
+    background: rgba(45, 90, 39, 0.15);
+    color: var(--sage-dark);
+}
+
 .phrasal-badge {
     background: rgba(124, 58, 237, 0.15);
     color: var(--purple-both);
@@ -355,6 +396,29 @@ body {
     font-size: 1rem;
     font-weight: 600;
     color: var(--ink);
+}
+
+/* Cross-reference Chips */
+.ref-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.3rem 0.8rem;
+    border-radius: 16px;
+    background: var(--cream-card);
+    border: 1px solid var(--gold-cefr);
+    color: var(--gold-cefr);
+    font-weight: 700;
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin: 0.2rem 0.3rem 0.2rem 0;
+    transition: all 0.2s ease;
+}
+
+.ref-chip:hover {
+    background: var(--gold-cefr);
+    color: #ffffff;
+    transform: translateY(-1px);
 }
 
 .mistake-block {
@@ -601,5 +665,9 @@ body {
     .nav-btn {
         flex: 1;
         text-align: center;
+    }
+
+    .word-type-tabs-bar {
+        flex-direction: column;
     }
 }

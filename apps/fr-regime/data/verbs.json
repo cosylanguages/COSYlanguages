@@ -2146,22 +2146,20 @@
       "de"
     ],
     "pronominal": true,
-    "pattern": "se méfier de [quelqu'un / quelque chose]",
-    "level": "B1",
-    "definition": "Être sur ses gardes et ne pas accorder sa confiance.",
-    "grammar_rule": "Verbe pronominal exigeant « de ». Contraction systématique avec l'article défini : de + le = du, de + les = des.",
-    "noun_parallel": "⚡ Verbe : 'Se méfier du loup' ➜ Nom : 'La méfiance ENVERS les inconnus'",
+    "pattern": "se méfier de [la fraude]",
+    "level": "B2",
+    "definition": "Demeurer vigilant face à un risque de tromperie.",
+    "grammar_rule": "Verbe pronominal exigeant « de ».",
+    "noun_parallel": "",
     "examples": [
-      "Il faut se méfier des apparences trompeuses.",
-      "Elle se méfie du nouveau voisin."
+      "Se méfier du phishing sur Internet est indispensable.",
+      "Elle se méfie des promesses trop belles."
     ],
-    "common_mistake": "❌ Je me méfie à cet homme. ➜ ✅ Je me méfie de cet homme.",
+    "common_mistake": "❌ Se méfier sur les arnaques. ➜ ✅ Se méfier des arnaques.",
     "synonyms": [
-      "être sur ses gardes",
-      "suspecter"
+      "être vigilant envers"
     ],
     "antonyms": [
-      "se fier à",
       "faire confiance à"
     ]
   },
@@ -3052,28 +3050,6 @@
     "antonyms": [
       "passer outre",
       "pardonner"
-    ]
-  },
-  "s mefier de": {
-    "prepositions": [
-      "de"
-    ],
-    "pronominal": true,
-    "pattern": "se méfier de [la fraude]",
-    "level": "B2",
-    "definition": "Demeurer vigilant face à un risque de tromperie.",
-    "grammar_rule": "Verbe pronominal exigeant « de ».",
-    "noun_parallel": "",
-    "examples": [
-      "Se méfier du phishing sur Internet est indispensable.",
-      "Elle se méfie des promesses trop belles."
-    ],
-    "common_mistake": "❌ Se méfier sur les arnaques. ➜ ✅ Se méfier des arnaques.",
-    "synonyms": [
-      "être vigilant envers"
-    ],
-    "antonyms": [
-      "faire confiance à"
     ]
   },
   "inciter": {
