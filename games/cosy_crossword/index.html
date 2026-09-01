@@ -19,7 +19,7 @@
 <body class="game-standalone">
     <nav id="cosy-nav"></nav>
 
-    <div class="game-overlay open" id="game-overlay" style="position: relative; height: calc(100vh - 62px); z-index: 1;">
+    <div class="game-overlay open game-overlay-standalone" id="game-overlay">
       <div class="go-topbar">
         <button class="go-back" onclick="location.href='../index.html'">← Back to games</button>
         <div>
@@ -29,7 +29,7 @@
         <div id="go-topbar-right"></div>
       </div>
       <div class="go-body" id="go-body">
-          <div id="game-loader" style="text-align:center; padding: 4rem;">Loading game assets...</div>
+          <div id="game-loader" class="game-loader">Loading game assets...</div>
       </div>
     </div>
 
@@ -50,6 +50,6 @@
     <!-- Game Specific Logic (loaded by individual folders) -->
     <script src="game.js"></script>
 
-    <div id="toast" style="position: fixed; bottom: 2rem; right: 2rem; background: var(--ink); color: #fff; padding: 12px 24px; border-radius: 12px; opacity: 0; pointer-events: none; transition: opacity 0.3s; z-index: 3000; font-size: .85rem; font-weight: 500;"></div>
+    <div id="toast" class="toast-notification"></div>
 </body>
 </html>

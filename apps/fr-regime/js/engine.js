@@ -191,7 +191,7 @@ class FrenchRegimeEngine {
 
         } else if (format === 'spot_mistake' && data.common_mistake) {
             document.getElementById('srs-question-type-label').textContent = "Format : Corrigez l'erreur";
-            document.getElementById('srs-sentence-prompt').innerHTML = `Erreur courante : <span style="color:var(--terracotta);">${data.common_mistake.split('➜')[0]}</span><br>Quelle est la forme correcte ?`;
+            document.getElementById('srs-sentence-prompt').innerHTML = `Erreur courante : <span class="text-terracotta">${data.common_mistake.split('➜')[0]}</span><br>Quelle est la forme correcte ?`;
 
             const choices = this.generatePrepositionChoices(primaryPrep);
             const grid = document.getElementById('srs-choices-grid');
@@ -277,7 +277,7 @@ class FrenchRegimeEngine {
             feedback.innerHTML = `✅ Excellent ! La préposition exacte pour <strong>${current.key}</strong> est <strong>${expected === 'none' ? 'Direct (sans préposition)' : expected}</strong>.<br><div style="margin-top:4px; font-weight:600; font-size:0.9rem;">⭐ Niveau de maîtrise : ${srsResult.newLevel}/5</div>`;
         } else {
             feedback.className = 'feedback-card wrong';
-            feedback.innerHTML = `❌ Incorrect ! <strong>${current.key}</strong> demande : <strong>${expected === 'none' ? 'Direct (sans préposition)' : expected}</strong>.<br><div style="margin-top:4px; font-weight:600; font-size:0.9rem;">⭐ Niveau de maîtrise : ${srsResult.newLevel}/5</div><small style="margin-top:6px; display:block;"><strong>Règle :</strong> ${data.grammar_rule}</small>${data.common_mistake ? `<small style="margin-top:4px; display:block; color:var(--terracotta);"><strong>Piège :</strong> ${data.common_mistake}</small>` : ''}`;
+            feedback.innerHTML = `❌ Incorrect ! <strong>${current.key}</strong> demande : <strong>${expected === 'none' ? 'Direct (sans préposition)' : expected}</strong>.<br><small class="rule-box-spaced"><strong>Règle :</strong> ${data.grammar_rule}</small>${data.common_mistake ? `<small class="trap-box-spaced"><strong>Piège :</strong> ${data.common_mistake}</small>` : ''}`;
         }
 
         // Check for cross-family "Le saviez-vous ?" nudge on mastery or review
@@ -344,9 +344,9 @@ class FrenchRegimeEngine {
         ];
 
         let html = `
-            <div style="margin-bottom: 1rem; display: flex; gap: 1rem; justify-content: space-around; background: var(--cream-bg); padding: 0.8rem; border-radius: 12px;">
+            <div class="mastered-stats-box">
                 <div>Total mots : <strong>${stats.totalItems}</strong></div>
-                <div>Maîtrisés (Niv 4+) : <strong style="color: var(--sage-primary);">${stats.totalMastered}</strong></div>
+                <div>Maîtrisés (Niv 4+) : <strong class="text-sage-primary">${stats.totalMastered}</strong></div>
                 <div>Série : <strong>${stats.streak} jours</strong></div>
             </div>
             <table class="matrix-table">
@@ -370,7 +370,7 @@ class FrenchRegimeEngine {
                 html += `
                     <td>
                         <div><strong>${cell.mastered} / ${cell.total}</strong></div>
-                        <div style="font-size:0.75rem; color: var(--ink-muted);">${pct}% maîtrisés</div>
+                        <div class="text-faint-muted">${pct}% maîtrisés</div>
                     </td>
                 `;
             });
@@ -545,7 +545,7 @@ class FrenchRegimeEngine {
                 return `
                 <div class="suggestion-item" onclick="appEngine.selectSuggestion('${key.replace(/'/g, "\\'")}')">
                     <span><strong>${key}</strong></span>
-                    <span style="color: var(--sage-primary); font-size: 0.85rem; font-weight: 600;">${prepLabel}</span>
+                    <span class="text-label-sage">${prepLabel}</span>
                 </div>
             `;
             }).join('');
@@ -657,7 +657,7 @@ class FrenchRegimeEngine {
         const rawText = data.related_forms || data.noun_parallel || '';
         if (rawText) {
             const chipsHtml = this.generateCrossReferenceChips(rawText);
-            crossRefContent.innerHTML = `<p style="margin-bottom: 0.5rem; font-weight:600;">${rawText}</p>${chipsHtml}`;
+            crossRefContent.innerHTML = `<p class="cross-ref-title">${rawText}</p>${chipsHtml}`;
             crossRefBox.style.display = 'block';
         } else {
             crossRefBox.style.display = 'none';
@@ -713,7 +713,7 @@ class FrenchRegimeEngine {
         }
 
         const uniqueChips = [...new Set(chips)];
-        return uniqueChips.length > 0 ? `<div style="display:flex; flex-wrap:wrap; gap:0.4rem;">${uniqueChips.join('')}</div>` : '';
+        return uniqueChips.length > 0 ? `<div class="chips-wrap-flex">${uniqueChips.join('')}</div>` : '';
     }
 
     navigateToCrossReference(targetType, key) {

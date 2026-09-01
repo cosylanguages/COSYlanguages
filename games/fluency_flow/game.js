@@ -53,7 +53,7 @@
         async start() {
             const lang = COSYLoader.getLangCode(document.getElementById('s-lang')?.value);
             const level = COSYLoader.getLevelCode(document.getElementById('s-level')?.value);
-            document.getElementById('go-body').innerHTML = '<div style="text-align:center;padding:4rem;">Loading data...</div>';
+            document.getElementById('go-body').innerHTML = '<div class="game-loader-centered">Loading data...</div>';
 
             await COSYLoader.loadLevelData(lang, level);
             COSYGame.init(GAME_ID, lang, level);
@@ -84,8 +84,8 @@
                   <div class="game-label">🗣️ Your topic</div>
                   <div class="game-prompt" id="ff-topic">${esc(topic)}</div>
                   ${hints.length > 0 ? `
-                    <div style="font-size:.7rem; font-weight:700; text-transform:uppercase; color:var(--sage-dark); margin: .5rem 0 .5rem;">💡 Ideas for you:</div>
-                    <ul style="font-size:.85rem; text-align:left; margin:0 0 1rem 1rem; padding:0; line-height:1.4">
+                    <div class="ideas-title-sage">💡 Ideas for you:</div>
+                    <ul class="ideas-list-styled">
                         ${hints.map(h => `<li>${esc(h)}</li>`).join('')}
                     </ul>` : ''}
                   <div class="game-sub">Speak about this topic for <strong>${durStr}</strong> without stopping. Don't worry about mistakes: keep talking!</div>
@@ -150,7 +150,7 @@
                     <div class="re-icon">🏆</div>
                     <div class="re-title">Flow Complete!</div>
                     <div class="re-sub">Topics covered: <strong>${COSYGame.score}</strong></div>
-                    ${best ? `<div class="game-sub" style="margin-bottom:1rem">Personal best: ${best.score}</div>` : ''}
+                    ${best ? `<div class="game-sub personal-best-sub">Personal best: ${best.score}</div>` : ''}
                     <div class="re-actions">
                         <button class="btn-g-primary" onclick="COSY_GAME.start()">Play again ↺</button>
                         <button class="btn-g-secondary" onclick="COSY_GAME.reset()">Setup</button>

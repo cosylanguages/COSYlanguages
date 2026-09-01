@@ -19,7 +19,7 @@
             <div class="setup-screen">
               <h2>Lucky Numbers 🔢</h2>
               <p>Play Bingo! You can be the <strong>Caller</strong> for a group, or play as a <strong>Player</strong> (solo or with a host).</p>
-              <div style="background:var(--gold-light); padding:8px 12px; border-radius:8px; font-size:.8rem; color:var(--gold); margin-bottom:1rem; border:1px solid rgba(176,125,43,.2);">
+              <div class="gold-info-banner">
                 📍 Level: Starter (A1)
               </div>
               <div class="setup-field"><label>Role</label>
@@ -50,7 +50,7 @@
             const type = document.getElementById('s-type')?.value || 'Bingo 1 (0-9)';
             const lang = COSYLoader.getLangCode(document.getElementById('s-lang')?.value);
             const level = 'starter';
-            body.innerHTML = '<div style="text-align:center;padding:4rem;">Loading...</div>';
+            body.innerHTML = '<div class="game-loader-centered">Loading...</div>';
 
             await COSYLoader.loadLevelData(lang, level);
             COSYGame.init(GAME_ID, lang, level);
@@ -59,15 +59,15 @@
 
             if (role === 'caller') {
                 body.innerHTML = `
-                    <div class="game-card" style="text-align:center">
+                    <div class="game-card game-card-centered">
                         <div class="game-label">📣 Lucky Caller</div>
-                        <div class="game-prompt" id="bingo-call" style="font-size:5rem">${isListening ? '👂' : '---'}</div>
+                        <div class="game-prompt game-prompt-large" id="bingo-call">${isListening ? '👂' : '---'}</div>
                         <div class="game-sub" id="bingo-call-word">Get ready to call!</div>
-                        <div class="game-controls" style="justify-content:center; margin-top:2rem">
+                        <div class="game-controls game-controls-centered-spaced">
                             <button class="btn-g-primary" id="btn-bingo-next">Next Item 🎲</button>
                             <button class="btn-g-danger" id="btn-bingo-stop">Stop</button>
                         </div>
-                        <div id="bingo-history" style="margin-top:1.5rem; font-size:.8rem; opacity:.6; word-wrap:break-word"></div>
+                        <div id="bingo-history" class="game-history-box"></div>
                     </div>`;
 
                 let pool = [];
@@ -120,10 +120,10 @@
                     <div class="sb-item"><div class="sb-val">${COSYGame.score}</div><div class="sb-lbl">Score</div></div>
                     <div class="sb-item"><div class="sb-val">${COSYGame.round}/${COSYGame.maxRounds}</div><div class="sb-lbl">Card</div></div>
                   </div>
-                    <div class="game-card" style="text-align:center">
+                    <div class="game-card game-card-centered">
                         <div class="game-label">🃏 Your Bingo Card</div>
-                        <div id="bingo-grid" class="bingo-grid" style="display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin:1.5rem 0"></div>
-                        <div class="game-controls" style="justify-content:center">
+                        <div id="bingo-grid" class="bingo-grid bingo-grid-layout"></div>
+                        <div class="game-controls game-controls-centered">
                             <button class="btn-g-secondary" onclick="COSY_GAME.start()">New Card ↺</button>
                             <button class="btn-g-danger" onclick="COSY_GAME.reset()">Setup</button>
                         </div>
@@ -196,7 +196,7 @@
                     <div class="re-icon">🏆</div>
                     <div class="re-title">Game Over!</div>
                     <div class="re-sub">Your final score: <strong>${COSYGame.score}</strong></div>
-                    ${best ? `<div class="game-sub" style="margin-bottom:1rem">Personal best: ${best.score} pts</div>` : ''}
+                    ${best ? `<div class="game-sub personal-best-sub">Personal best: ${best.score} pts</div>` : ''}
                     <div class="re-actions">
                         <button class="btn-g-primary" onclick="COSY_GAME.start()">Play again ↺</button>
                         <button class="btn-g-secondary" onclick="COSY_GAME.reset()">Setup</button>
