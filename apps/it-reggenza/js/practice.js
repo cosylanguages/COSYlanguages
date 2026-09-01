@@ -48,8 +48,22 @@ class PracticeManager {
 
         const item = this.currentSession[this.currentIndex];
         const data = item.entry;
-        const key = item.key;
+        const rawKey = item.key;
         const type = item.type;
+
+        // Clean prompt word to avoid leaking trailing preposition in key name
+        let promptWord = rawKey;
+        if (data.prepositions && data.prepositions.length > 0 && data.prepositions[0] !== 'none') {
+            for (const p of data.prepositions) {
+                if (p === 'none') continue;
+                const reg = new RegExp(`\\s+${p.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&')}$`, 'i');
+                if (reg.test(promptWord)) {
+                    promptWord = promptWord.replace(reg, '');
+                    break;
+                }
+            }
+            promptWord = promptWord.trim();
+        }
 
         // Question format: 'mc' (multiple choice), 'blank' (fill in blank), or 'spot_mistake' (if common_mistake exists)
         const randVal = Math.random();
@@ -86,7 +100,7 @@ class PracticeManager {
             questionPromptHtml = `
                 <div class="mistake-spot-prompt">
                     <span class="prompt-badge spot-badge">⚠️ Correggi l'errore</span>
-                    <h4>Individua la reggenza corretta per: <strong class="highlight-word">${key}</strong></h4>
+                    <h4>Identifica la struttura corretta per: <strong class="highlight-word">${promptWord}</strong></h4>
                     <p class="mistake-line">${data.common_mistake.split('➜')[0] || data.common_mistake}</p>
                 </div>
             `;
@@ -99,12 +113,12 @@ class PracticeManager {
                 const prepRegex = new RegExp(`\\b(${primaryPrep}|al|allo|alla|ai|agli|alle|del|dello|della|dei|degli|delle|dal|dallo|dalla|dai|dagli|dalle|nel|nello|nella|nei|negli|nelle|sul|sullo|sulla|sui|sugli|sulle)\\b`, 'i');
                 blankSentence = ex.replace(prepRegex, '<strong class="blank-spot">[ ___ ]</strong>');
             } else {
-                blankSentence = ex.replace(new RegExp(`\\b${key}\\b`, 'i'), `${key} <strong class="blank-spot">[ ___ ]</strong>`);
+                blankSentence = ex.replace(new RegExp(`\\b${promptWord}\\b`, 'i'), `${promptWord} <strong class="blank-spot">[ ___ ]</strong>`);
             }
             questionPromptHtml = `
                 <div class="blank-prompt">
                     <span class="prompt-badge blank-badge">💡 Completa la frase</span>
-                    <h3>${key}</h3>
+                    <h3>${promptWord}</h3>
                     <p class="sentence-box">"${blankSentence}"</p>
                 </div>
             `;
@@ -112,7 +126,7 @@ class PracticeManager {
             questionPromptHtml = `
                 <div class="mc-prompt">
                     <span class="prompt-badge mc-badge">🎯 Preposizione reggente</span>
-                    <h3>${key}</h3>
+                    <h3>${promptWord}</h3>
                     <p class="definition-hint"><em>${data.definition || ''}</em></p>
                 </div>
             `;
@@ -171,6 +185,7 @@ class PracticeManager {
             feedbackBox.className = 'inline-feedback-card feedback-correct';
             feedbackBox.innerHTML = `
                 <div class="feedback-title">✅ Esatto! (${expected === 'none' ? 'Diretto / Senza preposizione' : 'Preposizione: ' + expected})</div>
+                <div class="feedback-srs-info" style="margin: 0.25rem 0; font-weight: 600; font-size: 0.9rem;">⭐ Livello di maestria: ${newProg.masteryLevel}/5</div>
                 <div class="feedback-rule">📌 Regola: ${item.entry.grammar_rule}</div>
             `;
         } else {
@@ -178,6 +193,7 @@ class PracticeManager {
             feedbackBox.className = 'inline-feedback-card feedback-wrong';
             feedbackBox.innerHTML = `
                 <div class="feedback-title">❌ Errato! Risposta corretta: <strong>${expected === 'none' ? 'Diretto (senza preposizione)' : expected}</strong></div>
+                <div class="feedback-srs-info" style="margin: 0.25rem 0; font-weight: 600; font-size: 0.9rem;">⭐ Livello di maestria: ${newProg.masteryLevel}/5</div>
                 <div class="feedback-rule">📌 Regola: ${item.entry.grammar_rule}</div>
                 ${item.entry.common_mistake ? `<div class="feedback-mistake">⚠️ Errore da evitare: ${item.entry.common_mistake}</div>` : ''}
             `;
