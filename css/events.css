@@ -2569,3 +2569,252 @@ body.theme-dark .session-jump-link.active {
   background: var(--indigo, #6366F1) !important;
   color: #ffffff !important;
 }
+
+/* Event Category Clean CSS Classes */
+.game-hero-dark {
+  background: linear-gradient(135deg, #1b263b, #0d1b2a);
+  color: white;
+}
+.game-ev-icon-lg {
+  font-size: 3.5rem;
+}
+.hero-title-white {
+  color: white;
+  font-family: var(--font-serif);
+}
+.hero-desc-light {
+  color: rgba(255,255,255,0.85);
+  max-width: 700px;
+  margin: 0 auto;
+}
+.container-padded {
+  padding: 2rem 1.5rem 5rem;
+}
+.back-link-flex {
+  margin-bottom: 2rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.club-content-grid-layout {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 2rem;
+}
+.power-play-box {
+  background: var(--warm-white);
+  border: 1px solid var(--border);
+  border-radius: 28px;
+  padding: 2.5rem;
+  margin-bottom: 3rem;
+}
+.power-play-title {
+  font-family: var(--font-serif);
+  font-size: 1.6rem;
+  color: var(--sage-deep);
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.power-play-desc {
+  font-size: 0.98rem;
+  line-height: 1.7;
+  color: var(--ink-soft);
+  margin-bottom: 1.25rem;
+}
+.power-play-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  border-top: 1px dashed var(--border);
+  padding-top: 1.5rem;
+}
+.power-feature-title-teal {
+  display: block;
+  color: var(--teal);
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+}
+.power-feature-title-coral {
+  display: block;
+  color: var(--coral);
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+}
+.power-feature-text {
+  font-size: 0.88rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+.deck-title {
+  font-family: var(--font-serif);
+  font-size: 1.6rem;
+  color: var(--sage-deep);
+  margin-bottom: 0.5rem;
+}
+.btn-launch-gold { background: var(--gold); }
+.btn-launch-coral { background: var(--coral); }
+.btn-launch-plum { background: var(--plum); }
+.btn-launch-blue { background: var(--blue); }
+.btn-launch-teal { background: var(--teal); }
+.btn-launch-pink { background: #d53f8c; }
+
+.club-sidebar-box {
+  background: var(--warm-white);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.sidebar-header-box {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+.sidebar-title {
+  margin: 0 0 0.5rem;
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  color: var(--sage-deep);
+}
+.table-logistics {
+  width: 100%;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  border-collapse: collapse;
+}
+.tr-border-bottom {
+  border-bottom: 1px solid rgba(0,0,0,0.03);
+}
+.td-label {
+  padding: 0.5rem 0;
+  font-weight: bold;
+  color: var(--ink-faint);
+}
+.td-val-right {
+  text-align: right;
+}
+
+.club-card-science {
+  background: linear-gradient(135deg, #0F6E56, #073b2d);
+  color: white;
+}
+.club-card-celebrate {
+  background: linear-gradient(135deg, #BA7517, #5c390b);
+  color: white;
+}
+.club-card-quotes {
+  background: linear-gradient(135deg, #5D4037, #3E2723);
+  color: white;
+}
+.club-card-mind {
+  background: linear-gradient(135deg, #993556, #4d1a2b);
+  color: white;
+}
+.club-card-life {
+  background: linear-gradient(135deg, #3B6D11, #1d3608);
+  color: white;
+}
+.club-card-debate {
+  background: linear-gradient(135deg, #993C1D, #4d1e0f);
+  color: white;
+}
+.club-card-wonder {
+  background: linear-gradient(135deg, #3F2B96, #1F104D);
+  color: white;
+}
+.club-card-ifyouwere {
+  background: linear-gradient(135deg, #4F46E5, #1e1b4b);
+  color: white;
+}
+.club-card-longreads {
+  background: linear-gradient(135deg, #7A1C1C, #3E0F0F);
+  color: white;
+}
+.club-tag-on-dark {
+  background: rgba(255,255,255,0.15);
+  color: white;
+  border-color: rgba(255,255,255,0.3);
+}
+.club-desc-on-dark {
+  color: rgba(255,255,255,0.85);
+}
+.club-link-white {
+  color: white;
+}
+.club-img-logo {
+  height: 50px;
+}
+
+/* Onboarding Guide & Grid Spacing */
+.onboarding-guide-box {
+  background: var(--cream-dark);
+  border: 1.5px dashed var(--border);
+  border-radius: var(--r-xl);
+  padding: 2rem;
+  margin-bottom: 2.5rem;
+  box-sizing: border-box;
+}
+.guide-flex-wrap {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.guide-icon {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+.guide-content {
+  flex: 1;
+  min-width: 280px;
+}
+.guide-title {
+  margin: 0 0 0.5rem 0;
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  color: var(--sage-deep);
+}
+.guide-sub {
+  margin: 0 0 1rem 0;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+.guide-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.guide-card {
+  background: var(--surface-color, white);
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+}
+.guide-tag {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: 700;
+}
+.guide-tag-gold { color: #BA7517; }
+.guide-tag-rose { color: #993556; }
+.guide-tag-teal { color: #0F6E56; }
+.guide-card-p {
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: var(--muted);
+}
+.club-grid-spaced {
+  margin-bottom: 3.5rem;
+  margin-top: 1.5rem;
+}

@@ -70,7 +70,7 @@
             </section>
 
             <!-- Look Up Mode View (Secondary Reference View) -->
-            <section id="lookup-view-container" class="app-view-section" style="display: none;">
+            <section id="lookup-view-container" class="app-view-section hidden">
                 <section id="search-section-container" class="search-section">
                     <!-- Word Type Switcher Tabs -->
                     <div class="word-type-tab-bar">
@@ -92,13 +92,13 @@
                     <div class="search-box">
                         <span class="search-icon">🔍</span>
                         <input type="text" id="verb-search-input" placeholder="Cerca un verbo (es. pensare, parlare, abituarsi, avere bisogno, guardare)..." autocomplete="off" autofocus>
-                        <button id="clear-search-btn" class="clear-btn" style="display: none;">&times;</button>
+                        <button id="clear-search-btn" class="clear-btn hidden">&times;</button>
                     </div>
-                    <div id="search-suggestions" class="suggestions-list" style="display: none;"></div>
+                    <div id="search-suggestions" class="suggestions-list hidden"></div>
                 </section>
 
                 <!-- Verb / Word Result Display -->
-                <section id="verb-result-container" class="verb-result-card" style="display: none;">
+                <section id="verb-result-container" class="verb-result-card hidden">
                     <!-- Result Navigation Controls -->
                     <div class="nav-controls-bar">
                         <button class="nav-btn" onclick="appEngine.navigatePrevious()" title="Voce precedente">◀ Precedente</button>
@@ -110,7 +110,7 @@
                     <div class="verb-header">
                         <div class="verb-title-group">
                             <h2 id="verb-title">pensare</h2>
-                            <span id="pronominal-badge" class="badge phrasal-badge" style="display: none;">Pronominale 🪞</span>
+                            <span id="pronominal-badge" class="badge phrasal-badge hidden">Pronominale 🪞</span>
                             <span id="prep-badge" class="badge prep-badge">Preposizione: a / di</span>
                             <span id="verb-cefr-badge" class="badge cefr-badge">Livello: A1</span>
                             <button id="speak-verb-btn" class="tts-btn" title="Ascolta la pronuncia">🔊 Ascolta</button>
@@ -127,7 +127,7 @@
                                 <span id="verb-pattern-text" class="usage-text">pensare a [qualcuno/qualcosa] / pensare di [opinione o verbo]</span>
                             </div>
                             <!-- Noun Parallel / Cross References Box -->
-                            <div id="noun-parallel-container" class="noun-parallel-block" style="display: none;">
+                            <div id="noun-parallel-container" class="noun-parallel-block hidden">
                                 <span class="lexical-label">⚡ Contrasti &amp; Forme Correlate:</span>
                                 <div id="noun-parallel-text" class="noun-parallel-text"></div>
                             </div>
@@ -155,7 +155,7 @@
                 <section id="empty-state" class="empty-state-box">
                     <span class="empty-icon">🌿</span>
                     <h3 id="empty-state-heading">Cerca la reggenza di verbi, nomi e aggettivi italiani</h3>
-                    <p id="empty-state-description">Esplora le <strong style="color: var(--sage-primary);">preposizioni reggenti</strong> (<em>a</em>, <em>di</em>, <em>su</em>, <em>in</em>, <em>con</em>, <em>da</em>...), le preposizioni articolate (<em>al, del, dal...</em>), i verbi pronominali e i <strong style="color: var(--terracotta);">contrasti verbo / nome / aggettivo</strong>.</p>
+                    <p id="empty-state-description">Esplora le <strong class="text-sage-primary">preposizioni reggenti</strong> (<em>a</em>, <em>di</em>, <em>su</em>, <em>in</em>, <em>con</em>, <em>da</em>...), le preposizioni articolate (<em>al, del, dal...</em>), i verbi pronominali e i <strong class="text-terracotta">contrasti verbo / nome / aggettivo</strong>.</p>
                     <div class="quick-tags">
                         <span>Verbi essenziali (A1–B2):</span>
                         <button class="tag-btn" onclick="appEngine.searchVerb('pensare')">pensare a/di</button>
@@ -166,7 +166,7 @@
                         <button class="tag-btn" onclick="appEngine.searchVerb('guardare')">guardare (diretto)</button>
                         <button class="tag-btn" onclick="appEngine.searchVerb('ascoltare')">ascoltare (diretto)</button>
                     </div>
-                    <div class="quick-tags" style="margin-top: 0.75rem;">
+                    <div class="quick-tags quick-tags-spaced">
                         <span>Nomi &amp; Aggettivi con preposizione 📦🎨:</span>
                         <button class="tag-btn" onclick="appEngine.navigateToCrossReference('nouns', 'bisogno')">bisogno di</button>
                         <button class="tag-btn" onclick="appEngine.navigateToCrossReference('nouns', 'paura')">paura di</button>
@@ -179,7 +179,7 @@
             </section>
 
             <!-- Dashboard Mode View -->
-            <section id="dashboard-view-container" class="app-view-section" style="display: none;">
+            <section id="dashboard-view-container" class="app-view-section hidden">
                 <div id="dashboard-content-container">
                     <!-- Injected dynamically by DashboardManager -->
                 </div>

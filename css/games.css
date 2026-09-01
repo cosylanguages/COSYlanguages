@@ -317,3 +317,31 @@ body.theme-dark .btn-gender {
     color: #e8f0e9 !important;
     border-color: rgba(107, 143, 113, 0.3) !important;
 }
+
+/* Standalone Overlay, Loader & Toast Utilities */
+.game-overlay-standalone {
+    position: relative;
+    height: calc(100vh - 62px);
+    z-index: 1;
+}
+
+.game-loader {
+    text-align: center;
+    padding: 4rem;
+}
+
+.toast-notification {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: var(--ink);
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 12px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+    z-index: 3000;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
