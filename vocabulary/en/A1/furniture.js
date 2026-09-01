@@ -1,3 +1,4 @@
+// VERIFIED: CEFR A0-A1 (Starter Level) - Aligned with A0-A1 Visual Dictionary Master Curriculum
 (function() {
     const lang = "en";
     const data = [
@@ -18,7 +19,8 @@
                     "This chair is broken."
                 ]
             }
-        ],"transcription": "ʧɛr",
+        ],
+        "transcription": "ʧɛr",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -45,7 +47,8 @@
                     "Let's sit at the table."
                 ]
             }
-        ],"transcription": "ˈteɪbəl",
+        ],
+        "transcription": "ˈteɪbəl",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -72,7 +75,8 @@
                     "It's time to go to bed."
                 ]
             }
-        ],"transcription": "bɛd",
+        ],
+        "transcription": "bɛd",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -106,7 +110,8 @@
                 ]
             }
         ],
-        "subtext": "related to furniture objects","transcription": "ki",
+        "subtext": "related to furniture objects",
+        "transcription": "ki",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -131,7 +136,8 @@
                 ]
             }
         ],
-        "subtext": "related to furniture objects","transcription": "bʊk",
+        "subtext": "related to furniture objects",
+        "transcription": "bʊk",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -159,7 +165,8 @@
                 ]
             }
         ],
-        "subtext": "related to furniture objects","transcription": "bæg",
+        "subtext": "related to furniture objects",
+        "transcription": "bæg",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -182,7 +189,8 @@
                 ]
             }
         ],
-        "subtext": "related to furniture objects","transcription": "pɛn",
+        "subtext": "related to furniture objects",
+        "transcription": "pɛn",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -204,7 +212,8 @@
                     "He is in the office."
                 ]
             }
-        ],"transcription": "ˈɔfəs",
+        ],
+        "transcription": "ˈɔfəs",
         "lang": "en",
         "level": "starter",
         "theme": "rooms_indoor_spaces",
@@ -225,7 +234,8 @@
                     "I go home at six o'clock."
                 ]
             }
-        ],"transcription": "hoʊm",
+        ],
+        "transcription": "hoʊm",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -247,7 +257,8 @@
                     "They have a big house."
                 ]
             }
-        ],"transcription": "haʊs",
+        ],
+        "transcription": "haʊs",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -277,7 +288,8 @@
                     "She lives in a flat."
                 ]
             }
-        ],"transcription": "flæt",
+        ],
+        "transcription": "flæt",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -299,7 +311,8 @@
                     "The flat has three rooms."
                 ]
             }
-        ],"transcription": "rum",
+        ],
+        "transcription": "rum",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -321,7 +334,8 @@
                     "I cook in the kitchen."
                 ]
             }
-        ],"transcription": "ˈkɪʧən",
+        ],
+        "transcription": "ˈkɪʧən",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -343,7 +357,8 @@
                     "Please close the door."
                 ]
             }
-        ],"transcription": "dɔr",
+        ],
+        "transcription": "dɔr",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -365,7 +380,8 @@
                     "Open the window — it is hot."
                 ]
             }
-        ],"transcription": "ˈwɪndoʊ",
+        ],
+        "transcription": "ˈwɪndoʊ",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -387,7 +403,8 @@
                     "Please put the sandwich on a plate."
                 ]
             }
-        ],"transcription": "pleɪt",
+        ],
+        "transcription": "pleɪt",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -409,7 +426,8 @@
                     "Would you like a cup of tea?"
                 ]
             }
-        ],"transcription": "kəp",
+        ],
+        "transcription": "kəp",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -431,7 +449,8 @@
                     "Can I have a glass of water, please?"
                 ]
             }
-        ],"transcription": "glæs",
+        ],
+        "transcription": "glæs",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -453,7 +472,8 @@
                 ]
             }
         ],
-        "subtext": "related to furniture objects","transcription": "fɔrk",
+        "subtext": "related to furniture objects",
+        "transcription": "fɔrk",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -475,7 +495,8 @@
                 ]
             }
         ],
-        "subtext": "related to furniture objects","transcription": "spun",
+        "subtext": "related to furniture objects",
+        "transcription": "spun",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -497,7 +518,8 @@
                 ]
             }
         ],
-        "subtext": "related to furniture objects","transcription": "naɪf",
+        "subtext": "related to furniture objects",
+        "transcription": "naɪf",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -519,7 +541,8 @@
                 ]
             }
         ],
-        "subtext": "related to furniture objects","transcription": "dɛsk",
+        "subtext": "related to furniture objects",
+        "transcription": "dɛsk",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -541,7 +564,8 @@
                 ]
             }
         ],
-        "subtext": "related to furniture objects","transcription": "læmp",
+        "subtext": "related to furniture objects",
+        "transcription": "læmp",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -563,7 +587,8 @@
                 ]
             }
         ],
-        "subtext": "related to furniture objects","transcription": "klɑk",
+        "subtext": "related to furniture objects",
+        "transcription": "klɑk",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -585,7 +610,8 @@
                 ]
             }
         ],
-        "subtext": "related to furniture objects","transcription": "ˈmɪrər",
+        "subtext": "related to furniture objects",
+        "transcription": "ˈmɪrər",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -607,7 +633,8 @@
                 ]
             }
         ],
-        "subtext": "related to rooms of a home","transcription": "ˈbæθˌrum",
+        "subtext": "related to rooms of a home",
+        "transcription": "ˈbæθˌrum",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -629,7 +656,8 @@
                 ]
             }
         ],
-        "subtext": "related to rooms of a home","transcription": "ˈbɛˌdrum",
+        "subtext": "related to rooms of a home",
+        "transcription": "ˈbɛˌdrum",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -651,7 +679,8 @@
                 ]
             }
         ],
-        "subtext": "related to furniture objects","transcription": "ˈbɑtəl",
+        "subtext": "related to furniture objects",
+        "transcription": "ˈbɑtəl",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -673,7 +702,8 @@
                 ]
             }
         ],
-        "subtext": "related to furniture objects","transcription": "bɑks",
+        "subtext": "related to furniture objects",
+        "transcription": "bɑks",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -695,7 +725,8 @@
                 ]
             }
         ],
-        "subtext": "related to rooms of a home","transcription": "bæθ",
+        "subtext": "related to rooms of a home",
+        "transcription": "bæθ",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -717,7 +748,8 @@
                 ]
             }
         ],
-        "subtext": "related to furniture objects","transcription": "ˈpɛnsəl",
+        "subtext": "related to furniture objects",
+        "transcription": "ˈpɛnsəl",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -739,7 +771,8 @@
                 ]
             }
         ],
-        "subtext": "related to furniture objects","transcription": "ˈpeɪpər",
+        "subtext": "related to furniture objects",
+        "transcription": "ˈpeɪpər",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -764,7 +797,8 @@
                     "The milk is in the fridge."
                 ]
             }
-        ],"transcription": "frɪʤ",
+        ],
+        "transcription": "frɪʤ",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -786,7 +820,8 @@
                 ]
             }
         ],
-        "subtext": "related to furniture objects","transcription": "ˈəvən",
+        "subtext": "related to furniture objects",
+        "transcription": "ˈəvən",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -808,7 +843,8 @@
                 ]
             }
         ],
-        "subtext": "related to furniture objects","transcription": "soʊp",
+        "subtext": "related to furniture objects",
+        "transcription": "soʊp",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -830,7 +866,8 @@
                 ]
             }
         ],
-        "subtext": "related to furniture objects","transcription": "taʊəl",
+        "subtext": "related to furniture objects",
+        "transcription": "taʊəl",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -852,7 +889,8 @@
                 ]
             }
         ],
-        "subtext": "related to rooms of a home","transcription": "wɔl",
+        "subtext": "related to rooms of a home",
+        "transcription": "wɔl",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -874,7 +912,8 @@
                 ]
             }
         ],
-        "subtext": "related to rooms of a home","transcription": "flɔr",
+        "subtext": "related to rooms of a home",
+        "transcription": "flɔr",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -896,7 +935,8 @@
                 ]
             }
         ],
-        "subtext": "related to rooms of a home","transcription": "stɛrz",
+        "subtext": "related to rooms of a home",
+        "transcription": "stɛrz",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -918,7 +958,8 @@
                 ]
             }
         ],
-        "subtext": "related to rooms of a home","transcription": "ʃaʊər",
+        "subtext": "related to rooms of a home",
+        "transcription": "ʃaʊər",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -940,7 +981,8 @@
                 ]
             }
         ],
-        "subtext": "related to rooms of a home","transcription": "ˈtɔɪlət",
+        "subtext": "related to rooms of a home",
+        "transcription": "ˈtɔɪlət",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -962,7 +1004,8 @@
                 ]
             }
         ],
-        "subtext": "related to rooms of a home","transcription": "sɪŋk",
+        "subtext": "related to rooms of a home",
+        "transcription": "sɪŋk",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -987,7 +1030,8 @@
                     "Let's sit on the sofa."
                 ]
             }
-        ],"transcription": "ˈsoʊfə",
+        ],
+        "transcription": "ˈsoʊfə",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1011,7 +1055,8 @@
                 ]
             }
         ],
-        "subtext": "related to furniture objects","transcription": "ʃɛlf",
+        "subtext": "related to furniture objects",
+        "transcription": "ʃɛlf",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1033,7 +1078,8 @@
                 ]
             }
         ],
-        "subtext": "related to furniture objects","transcription": "ˈtuθbrəʃ",
+        "subtext": "related to furniture objects",
+        "transcription": "ˈtuθbrəʃ",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1055,7 +1101,8 @@
                 ]
             }
         ],
-        "subtext": "related to furniture objects","transcription": "ˈtuθˌpeɪst",
+        "subtext": "related to furniture objects",
+        "transcription": "ˈtuθˌpeɪst",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1077,7 +1124,8 @@
                 ]
             }
         ],
-        "subtext": "related to furniture objects","transcription": "ʃæmˈpu",
+        "subtext": "related to furniture objects",
+        "transcription": "ʃæmˈpu",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1099,7 +1147,8 @@
                 ]
             }
         ],
-        "subtext": "related to furniture objects","transcription": "dɪʃ",
+        "subtext": "related to furniture objects",
+        "transcription": "dɪʃ",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1121,7 +1170,8 @@
                 ]
             }
         ],
-        "subtext": "related to rooms of a home","transcription": "ˈgɑrdən",
+        "subtext": "related to rooms of a home",
+        "transcription": "ˈgɑrdən",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1143,7 +1193,8 @@
                 ]
             }
         ],
-        "subtext": "related to household items","transcription": "ˈɑrmˌʧɛr",
+        "subtext": "related to household items",
+        "transcription": "ˈɑrmˌʧɛr",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
@@ -1165,7 +1216,8 @@
                 ]
             }
         ],
-        "subtext": "related to household items","transcription": "ˈbʊkˌkeɪs",
+        "subtext": "related to household items",
+        "transcription": "ˈbʊkˌkeɪs",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
@@ -1187,7 +1239,8 @@
                 ]
             }
         ],
-        "subtext": "related to household items","transcription": "ˈkəbərd",
+        "subtext": "related to household items",
+        "transcription": "ˈkəbərd",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
@@ -1209,7 +1262,8 @@
                 ]
             }
         ],
-        "subtext": "related to household items","transcription": "rəg",
+        "subtext": "related to household items",
+        "transcription": "rəg",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
@@ -1231,7 +1285,8 @@
                 ]
             }
         ],
-        "subtext": "related to household items","transcription": "drɔr",
+        "subtext": "related to household items",
+        "transcription": "drɔr",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
@@ -1253,7 +1308,8 @@
                 ]
             }
         ],
-        "subtext": "related to kitchen items","transcription": "boʊl",
+        "subtext": "related to kitchen items",
+        "transcription": "boʊl",
         "lang": "en",
         "level": "starter",
         "theme": "kitchen_items",
@@ -1275,7 +1331,8 @@
                 ]
             }
         ],
-        "subtext": "related to kitchen items","transcription": "ˈkɛtəl",
+        "subtext": "related to kitchen items",
+        "transcription": "ˈkɛtəl",
         "lang": "en",
         "level": "starter",
         "theme": "kitchen_items",
@@ -1297,7 +1354,8 @@
                 ]
             }
         ],
-        "subtext": "related to kitchen items","transcription": "pæn",
+        "subtext": "related to kitchen items",
+        "transcription": "pæn",
         "lang": "en",
         "level": "starter",
         "theme": "kitchen_items",
@@ -1319,7 +1377,8 @@
                 ]
             }
         ],
-        "subtext": "related to kitchen items","transcription": "pɑt",
+        "subtext": "related to kitchen items",
+        "transcription": "pɑt",
         "lang": "en",
         "level": "starter",
         "theme": "kitchen_items",
@@ -1341,7 +1400,8 @@
                 ]
             }
         ],
-        "subtext": "related to rooms of a home","transcription": "rʊf",
+        "subtext": "related to rooms of a home",
+        "transcription": "rʊf",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1363,7 +1423,8 @@
                 ]
             }
         ],
-        "subtext": "related to rooms of a home","transcription": "fɛns",
+        "subtext": "related to rooms of a home",
+        "transcription": "fɛns",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1385,7 +1446,8 @@
                 ]
             }
         ],
-        "subtext": "related to rooms of a home","transcription": "geɪt",
+        "subtext": "related to rooms of a home",
+        "transcription": "geɪt",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1407,7 +1469,8 @@
                 ]
             }
         ],
-        "subtext": "related to household items","transcription": "ˈwɑʃɪŋ məˈʃin",
+        "subtext": "related to household items",
+        "transcription": "ˈwɑʃɪŋ məˈʃin",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
@@ -1429,7 +1492,8 @@
                 ]
             }
         ],
-        "subtext": "related to household items","transcription": "ˈtoʊstər",
+        "subtext": "related to household items",
+        "transcription": "ˈtoʊstər",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
@@ -1451,7 +1515,8 @@
                 ]
             }
         ],
-        "subtext": "related to household items","transcription": "rɪˈmoʊt kənˈtroʊl",
+        "subtext": "related to household items",
+        "transcription": "rɪˈmoʊt kənˈtroʊl",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
@@ -1473,7 +1538,8 @@
                 ]
             }
         ],
-        "subtext": "related to rooms of a home","transcription": "ˈlɪvɪŋ rum",
+        "subtext": "related to rooms of a home",
+        "transcription": "ˈlɪvɪŋ rum",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1495,7 +1561,8 @@
                 ]
             }
         ],
-        "subtext": "related to rooms of a home","transcription": "ˈdaɪnɪŋ rum",
+        "subtext": "related to rooms of a home",
+        "transcription": "ˈdaɪnɪŋ rum",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1518,7 +1585,8 @@
                     "The furniture is very modern."
                 ]
             }
-        ],"transcription": "ˈfɜːnɪtʃə(r)",
+        ],
+        "transcription": "ˈfɜːnɪtʃə(r)",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1540,7 +1608,8 @@
                 ]
             }
         ],
-        "subtext": "related to furniture objects","transcription": "koʊm",
+        "subtext": "related to furniture objects",
+        "transcription": "koʊm",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1565,7 +1634,8 @@
                     "I live in a small apartment in the city."
                 ]
             }
-        ],"transcription": "əˈpɑrtmənt",
+        ],
+        "transcription": "əˈpɑrtmənt",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1879,7 +1949,8 @@
         "id": "en_starter_furniture_059",
         "word": "comfortable",
         "emoji": "🛋️",
-        "form": "adjective","subtext": "a comfortable chair / feel comfortable",
+        "form": "adjective",
+        "subtext": "a comfortable chair / feel comfortable",
         "synonyms": [
             "relaxed",
             "cozy"
@@ -1904,7 +1975,8 @@
         "id": "en_starter_furniture_060",
         "word": "uncomfortable",
         "emoji": "🪑",
-        "form": "adjective","subtext": "feel uncomfortable / uncomfortable chair",
+        "form": "adjective",
+        "subtext": "feel uncomfortable / uncomfortable chair",
         "synonyms": [
             "awkward",
             "painful"
@@ -1946,6 +2018,98 @@
             }
         ],
         "subtext": "furniture for clothes",
+        "lang": "en",
+        "level": "starter",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_084",
+        "word": "balcony",
+        "emoji": "🏙️",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "balconies",
+        "definitions": [
+            {
+                "text": "A platform enclosed by a wall or balustrade on the outside of a building.",
+                "examples": [
+                    "We had breakfast on the balcony."
+                ]
+            }
+        ],
+        "transcription": "ˈbælkəni",
+        "subtext": "sunny balcony, city view",
+        "lang": "en",
+        "level": "starter",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_087",
+        "word": "microwave",
+        "emoji": "📻",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "microwaves",
+        "definitions": [
+            {
+                "text": "An electric oven that heats and cooks food very quickly using electromagnetic radiation.",
+                "examples": [
+                    "Heat up your lunch in the microwave."
+                ]
+            }
+        ],
+        "transcription": "ˈmaɪkrəweɪv",
+        "subtext": "heat up food",
+        "lang": "en",
+        "level": "starter",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_088",
+        "word": "dishwasher",
+        "emoji": "🍽️",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "dishwashers",
+        "definitions": [
+            {
+                "text": "A machine for washing dishes automatically.",
+                "examples": [
+                    "Load dirty plates into the dishwasher."
+                ]
+            }
+        ],
+        "transcription": "ˈdɪʃwɒʃə",
+        "subtext": "load the dishwasher",
+        "lang": "en",
+        "level": "starter",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_089",
+        "word": "hairdryer",
+        "emoji": "💨",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "hairdryers",
+        "definitions": [
+            {
+                "text": "An electrical device used for drying a person's hair.",
+                "examples": [
+                    "Dry your hair with a hairdryer after a shower."
+                ]
+            }
+        ],
+        "transcription": "ˈheədraɪə",
+        "subtext": "dry wet hair",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",

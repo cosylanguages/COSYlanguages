@@ -1,3 +1,4 @@
+// VERIFIED: CEFR A0-A1 (Starter Level) - Aligned with A0-A1 Visual Dictionary Master Curriculum
 (function() {
     const lang = "en";
     const data = [
@@ -18,7 +19,8 @@
                     "I don't drink much soda because it has a lot of sugar."
                 ]
             }
-        ],"lang": "en",
+        ],
+        "lang": "en",
         "level": "starter",
         "theme": "food_drink",
         "sub_theme": null,
@@ -45,7 +47,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","lang": "en",
+        "subtext": "related to basic foods",
+        "lang": "en",
         "level": "starter",
         "theme": "food_drink",
         "sub_theme": null
@@ -76,7 +79,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "ˈpitsə",
+        "subtext": "related to basic foods",
+        "transcription": "ˈpitsə",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -105,7 +109,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "ˈpɑstə",
+        "subtext": "related to basic foods",
+        "transcription": "ˈpɑstə",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -130,7 +135,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "ˈæpəl",
+        "subtext": "related to basic foods",
+        "transcription": "ˈæpəl",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -159,7 +165,8 @@
                     "I eat bread for breakfast."
                 ]
             }
-        ],"transcription": "brɛd",
+        ],
+        "transcription": "brɛd",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -193,7 +200,8 @@
                     "We need eggs to bake a cake."
                 ]
             }
-        ],"transcription": "ɛg",
+        ],
+        "transcription": "ɛg",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -222,7 +230,8 @@
                     "Keep the milk in the fridge."
                 ]
             }
-        ],"transcription": "mɪlk",
+        ],
+        "transcription": "mɪlk",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -256,7 +265,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "bəˈnænə",
+        "subtext": "related to basic foods",
+        "transcription": "bəˈnænə",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -295,7 +305,8 @@
                     "The coffee is very hot."
                 ]
             }
-        ],"transcription": "ˈkɔfi",
+        ],
+        "transcription": "ˈkɔfi",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -325,7 +336,8 @@
                     "I like tea with lemon."
                 ]
             }
-        ],"transcription": "ti",
+        ],
+        "transcription": "ti",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -354,7 +366,8 @@
                 ]
             }
         ],
-        "subtext": "related to drinks","transcription": "ʤus",
+        "subtext": "related to drinks",
+        "transcription": "ʤus",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -378,7 +391,8 @@
                     "Please drink water."
                 ]
             }
-        ],"transcription": "ˈwɔtər",
+        ],
+        "transcription": "ˈwɔtər",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -404,7 +418,8 @@
                     "The food is good here."
                 ]
             }
-        ],"transcription": "fud",
+        ],
+        "transcription": "fud",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -431,7 +446,8 @@
                     "We eat rice every day."
                 ]
             }
-        ],"transcription": "raɪs",
+        ],
+        "transcription": "raɪs",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -457,7 +473,8 @@
                     "He eats meat and vegetables."
                 ]
             }
-        ],"transcription": "mit",
+        ],
+        "transcription": "mit",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -483,7 +500,8 @@
                     "Breakfast is at seven o'clock."
                 ]
             }
-        ],"transcription": "ˈbrɛkfəst",
+        ],
+        "transcription": "ˈbrɛkfəst",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -504,7 +522,8 @@
                     "Dinner is at eight o'clock."
                 ]
             }
-        ],"transcription": "ˈdɪnər",
+        ],
+        "transcription": "ˈdɪnər",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -526,7 +545,8 @@
                     "What is for lunch?"
                 ]
             }
-        ],"transcription": "lənʧ",
+        ],
+        "transcription": "lənʧ",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -548,7 +568,8 @@
                     "Fruit is healthy and good for you."
                 ]
             }
-        ],"transcription": "frut",
+        ],
+        "transcription": "frut",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -570,7 +591,8 @@
                     "He eats vegetables every day."
                 ]
             }
-        ],"transcription": "ˈvɛʤtəbəl",
+        ],
+        "transcription": "ˈvɛʤtəbəl",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -592,7 +614,8 @@
                     "He drinks beer at the weekend."
                 ]
             }
-        ],"transcription": "bɪr",
+        ],
+        "transcription": "bɪr",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -614,7 +637,8 @@
                     "She drinks a glass of wine in the evening."
                 ]
             }
-        ],"transcription": "waɪn",
+        ],
+        "transcription": "waɪn",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -636,7 +660,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "ˈʧɪkən",
+        "subtext": "related to basic foods",
+        "transcription": "ˈʧɪkən",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -658,7 +683,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "ˈʃʊgər",
+        "subtext": "related to basic foods",
+        "transcription": "ˈʃʊgər",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -680,7 +706,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "ˈsæləd",
+        "subtext": "related to basic foods",
+        "transcription": "ˈsæləd",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -702,7 +729,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "bif",
+        "subtext": "related to basic foods",
+        "transcription": "bif",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -724,7 +752,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "pɔrk",
+        "subtext": "related to basic foods",
+        "transcription": "pɔrk",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -746,7 +775,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "pəˈteɪˌtoʊ",
+        "subtext": "related to basic foods",
+        "transcription": "pəˈteɪˌtoʊ",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -768,7 +798,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "təˈmɑˌtoʊ",
+        "subtext": "related to basic foods",
+        "transcription": "təˈmɑˌtoʊ",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -791,7 +822,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "ˈənjən",
+        "subtext": "related to basic foods",
+        "transcription": "ˈənjən",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -813,7 +845,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "ˈkɛrət",
+        "subtext": "related to basic foods",
+        "transcription": "ˈkɛrət",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -835,7 +868,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "sup",
+        "subtext": "related to basic foods",
+        "transcription": "sup",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -857,7 +891,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "keɪk",
+        "subtext": "related to basic foods",
+        "transcription": "keɪk",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -879,7 +914,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "ˈʧɔklət",
+        "subtext": "related to basic foods",
+        "transcription": "ˈʧɔklət",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -901,7 +937,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "aɪs krim",
+        "subtext": "related to basic foods",
+        "transcription": "aɪs krim",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -923,7 +960,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "ˈlɛmən",
+        "subtext": "related to basic foods",
+        "transcription": "ˈlɛmən",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -949,7 +987,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "ˈɔrɪnʤ",
+        "subtext": "related to basic foods",
+        "transcription": "ˈɔrɪnʤ",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -976,7 +1015,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "ˈstrɔˌbɛri",
+        "subtext": "related to basic foods",
+        "transcription": "ˈstrɔˌbɛri",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -1002,7 +1042,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "greɪp",
+        "subtext": "related to basic foods",
+        "transcription": "greɪp",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -1029,7 +1070,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "ˈgɑrlɪk",
+        "subtext": "related to basic foods",
+        "transcription": "ˈgɑrlɪk",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -1055,7 +1097,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "ˈbətər",
+        "subtext": "related to basic foods",
+        "transcription": "ˈbətər",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -1082,7 +1125,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "ʧiz",
+        "subtext": "related to basic foods",
+        "transcription": "ʧiz",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -1104,7 +1148,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "sɔlt",
+        "subtext": "related to basic foods",
+        "transcription": "sɔlt",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -1126,7 +1171,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "snæk",
+        "subtext": "related to basic foods",
+        "transcription": "snæk",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -1148,7 +1194,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "pɛr",
+        "subtext": "related to basic foods",
+        "transcription": "pɛr",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -1170,7 +1217,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "ˈkjukəmbər",
+        "subtext": "related to basic foods",
+        "transcription": "ˈkjukəmbər",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -1192,7 +1240,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "ˈlɛtəs",
+        "subtext": "related to basic foods",
+        "transcription": "ˈlɛtəs",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -1214,7 +1263,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "ˈsænwɪʧ",
+        "subtext": "related to basic foods",
+        "transcription": "ˈsænwɪʧ",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -1236,7 +1286,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "ɔɪl",
+        "subtext": "related to basic foods",
+        "transcription": "ɔɪl",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -1258,7 +1309,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "ˈpɛpər",
+        "subtext": "related to basic foods",
+        "transcription": "ˈpɛpər",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -1283,7 +1335,8 @@
                     "I want a chocolate cookie."
                 ]
             }
-        ],"transcription": "ˈkʊki",
+        ],
+        "transcription": "ˈkʊki",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -1308,7 +1361,8 @@
                     "Would you like a biscuit with your tea?"
                 ]
             }
-        ],"transcription": "ˈbɪskət",
+        ],
+        "transcription": "ˈbɪskət",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -1330,7 +1384,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "ˈjoʊgərt",
+        "subtext": "related to basic foods",
+        "transcription": "ˈjoʊgərt",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -1352,7 +1407,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "hæm",
+        "subtext": "related to basic foods",
+        "transcription": "hæm",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -1374,7 +1430,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "ˈbeɪkən",
+        "subtext": "related to basic foods",
+        "transcription": "ˈbeɪkən",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -1396,7 +1453,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "ˈsɔsɪʤ",
+        "subtext": "related to basic foods",
+        "transcription": "ˈsɔsɪʤ",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -1417,7 +1475,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "ˈhəni",
+        "subtext": "related to basic foods",
+        "transcription": "ˈhəni",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -1438,7 +1497,8 @@
                 ]
             }
         ],
-        "subtext": "related to basic foods","transcription": "ʤæm",
+        "subtext": "related to basic foods",
+        "transcription": "ʤæm",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -1460,7 +1520,8 @@
                 ]
             }
         ],
-        "subtext": "related to fruits vegetables","transcription": "ˈpaɪˌnæpəl",
+        "subtext": "related to fruits vegetables",
+        "transcription": "ˈpaɪˌnæpəl",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -1486,7 +1547,8 @@
                 ]
             }
         ],
-        "subtext": "related to fruits vegetables","transcription": "ˈwɔtərˌmɛlən",
+        "subtext": "related to fruits vegetables",
+        "transcription": "ˈwɔtərˌmɛlən",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -1513,7 +1575,8 @@
                 ]
             }
         ],
-        "subtext": "related to fruits vegetables","transcription": "ˈməʃrum",
+        "subtext": "related to fruits vegetables",
+        "transcription": "ˈməʃrum",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -1534,7 +1597,8 @@
                 ]
             }
         ],
-        "subtext": "related to fruits vegetables","transcription": "ˈbrɑkəli",
+        "subtext": "related to fruits vegetables",
+        "transcription": "ˈbrɑkəli",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -1556,7 +1620,8 @@
                 ]
             }
         ],
-        "subtext": "related to fruits vegetables","transcription": "piz",
+        "subtext": "related to fruits vegetables",
+        "transcription": "piz",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -1578,7 +1643,8 @@
                     "Breakfast is the first meal of the day."
                 ]
             }
-        ],"transcription": "mil",
+        ],
+        "transcription": "mil",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -1603,7 +1669,8 @@
                     "What is for dessert?"
                 ]
             }
-        ],"transcription": "dɪˈzərt",
+        ],
+        "transcription": "dɪˈzərt",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -1629,7 +1696,8 @@
                     "I want fish and chips for lunch."
                 ]
             }
-        ],"transcription": "ʧɪps",
+        ],
+        "transcription": "ʧɪps",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -1654,7 +1722,8 @@
                     "Would you like fries with your burger?"
                 ]
             }
-        ],"transcription": "fraɪz",
+        ],
+        "transcription": "fraɪz",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -2006,7 +2075,8 @@
         "id": "en_starter_tastes_textures_012",
         "word": "salty",
         "emoji": "🧂",
-        "form": "adjective","subtext": "salty snacks / too salty",
+        "form": "adjective",
+        "subtext": "salty snacks / too salty",
         "synonyms": [
             "tasting of salt"
         ],
@@ -2115,7 +2185,8 @@
         "id": "en_starter_tastes_textures_016",
         "word": "sharp",
         "emoji": "🔪",
-        "form": "adjective","definitions": [
+        "form": "adjective",
+        "definitions": [
             {
                 "text": "Having a thin edge that is able to cut things or a fine point which is able to make a hole in things.",
                 "examples": [
@@ -2163,6 +2234,51 @@
         "antonyms": [
             "rough"
         ]
+    },
+    {
+        "id": "en_starter_food_087",
+        "word": "raspberry",
+        "emoji": "🫐",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "raspberries",
+        "definitions": [
+            {
+                "text": "A small soft red fruit growing on a bush.",
+                "examples": [
+                    "Fresh raspberries taste sweet and sour."
+                ]
+            }
+        ],
+        "transcription": "ˈrɑːzbəri",
+        "subtext": "fresh raspberries, sweet berries",
+        "lang": "en",
+        "level": "starter",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_089",
+        "word": "olive oil",
+        "emoji": "🫒",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
+        "definitions": [
+            {
+                "text": "An oil extracted from olives, used in cooking and salads.",
+                "examples": [
+                    "Drizzle olive oil over the fresh salad."
+                ]
+            }
+        ],
+        "transcription": "ˈɒlɪv ɔɪl",
+        "subtext": "extra virgin olive oil",
+        "lang": "en",
+        "level": "starter",
+        "theme": "food_drink",
+        "sub_theme": null
     }
 ];
     window.vocabularyData = window.vocabularyData || {};

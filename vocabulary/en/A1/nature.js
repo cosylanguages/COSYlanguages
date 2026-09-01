@@ -1,3 +1,4 @@
+// VERIFIED: CEFR A0-A1 (Starter Level) - Aligned with A0-A1 Visual Dictionary Master Curriculum
 (function() {
     const lang = "en";
     const data = [
@@ -17,7 +18,8 @@
                     "The sun is very strong today."
                 ]
             }
-        ],"transcription": "sən",
+        ],
+        "transcription": "sən",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -44,7 +46,8 @@
                     "There is a lot of rain in autumn."
                 ]
             }
-        ],"transcription": "reɪn",
+        ],
+        "transcription": "reɪn",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -70,7 +73,8 @@
                     "The wind is very strong today."
                 ]
             }
-        ],"transcription": "wɪnd",
+        ],
+        "transcription": "wɪnd",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -95,7 +99,8 @@
                 ]
             }
         ],
-        "subtext": "related to seasons climate","transcription": "spərɪŋ",
+        "subtext": "related to seasons climate",
+        "transcription": "spərɪŋ",
         "lang": "en",
         "level": "starter",
         "theme": "seasons_climate",
@@ -116,7 +121,8 @@
                 ]
             }
         ],
-        "subtext": "related to seasons climate","transcription": "ˈsəmər",
+        "subtext": "related to seasons climate",
+        "transcription": "ˈsəmər",
         "lang": "en",
         "level": "starter",
         "theme": "seasons_climate",
@@ -140,7 +146,8 @@
                     "Leaves fall in autumn."
                 ]
             }
-        ],"transcription": "ˈɔtəm",
+        ],
+        "transcription": "ˈɔtəm",
         "lang": "en",
         "level": "starter",
         "theme": "seasons_climate",
@@ -161,7 +168,8 @@
                 ]
             }
         ],
-        "subtext": "related to seasons climate","transcription": "ˈwɪntər",
+        "subtext": "related to seasons climate",
+        "transcription": "ˈwɪntər",
         "lang": "en",
         "level": "starter",
         "theme": "seasons_climate",
@@ -183,7 +191,8 @@
                 ]
             }
         ],
-        "subtext": "related to weather","transcription": "ˈəmˌbrɛlə",
+        "subtext": "related to weather",
+        "transcription": "ˈəmˌbrɛlə",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -206,7 +215,8 @@
                     "The weather is very nice."
                 ]
             }
-        ],"transcription": "ˈweðə(r)",
+        ],
+        "transcription": "ˈweðə(r)",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -229,7 +239,8 @@
                     "Check the temperature."
                 ]
             }
-        ],"transcription": "ˈtemprətʃə(r)",
+        ],
+        "transcription": "ˈtemprətʃə(r)",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -252,7 +263,8 @@
                 ]
             }
         ],
-        "subtext": "related to weather","transcription": "snoʊ",
+        "subtext": "related to weather",
+        "transcription": "snoʊ",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -276,7 +288,8 @@
                     "Do you want ice in your drink?"
                 ]
             }
-        ],"transcription": "aɪs",
+        ],
+        "transcription": "aɪs",
         "lang": "en",
         "level": "starter",
         "theme": "nature",

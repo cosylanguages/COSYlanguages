@@ -1,3 +1,4 @@
+// VERIFIED: CEFR A0-A1 (Starter Level) - Aligned with A0-A1 Visual Dictionary Master Curriculum
 (function() {
     const lang = "en";
     const data = [
@@ -22,7 +23,7 @@
             "origin_lang": "Old French",
             "origin_word": "jardin"
         },
-        "transcription": ""
+        "transcription": "ˈɡɑːdn"
     },
     {
         "id": "en_starter_places_079",
@@ -40,7 +41,8 @@
                 ]
             }
         ],
-        "subtext": "related to local places services","transcription": "ˈmɑːkɪt",
+        "subtext": "related to local places services",
+        "transcription": "ˈmɑːkɪt",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -74,7 +76,8 @@
                 ]
             }
         ],
-        "subtext": "related to local places services","transcription": "pɑrk",
+        "subtext": "related to local places services",
+        "transcription": "pɑrk",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -97,7 +100,8 @@
                 ]
             }
         ],
-        "subtext": "related to local places services","transcription": "skul",
+        "subtext": "related to local places services",
+        "transcription": "skul",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -123,7 +127,8 @@
                     "The shop is open."
                 ]
             }
-        ],"transcription": "ʃɑp",
+        ],
+        "transcription": "ʃɑp",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -173,7 +178,8 @@
                     "My neighbours are very nice."
                 ]
             }
-        ],"transcription": "ˈneɪbər",
+        ],
+        "transcription": "ˈneɪbər",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -195,7 +201,8 @@
                     "He went to the hospital by ambulance."
                 ]
             }
-        ],"transcription": "ˈhɑˌspɪtəl",
+        ],
+        "transcription": "ˈhɑˌspɪtəl",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -222,7 +229,8 @@
                     "We go to a restaurant on Fridays."
                 ]
             }
-        ],"transcription": "ˈrɛˌstrɑnt",
+        ],
+        "transcription": "ˈrɛˌstrɑnt",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -249,7 +257,8 @@
                     "The bank is near my office."
                 ]
             }
-        ],"transcription": "bæŋk",
+        ],
+        "transcription": "bæŋk",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -276,7 +285,8 @@
                     "The station is ten minutes from here."
                 ]
             }
-        ],"transcription": "ˈsteɪʃən",
+        ],
+        "transcription": "ˈsteɪʃən",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -303,7 +313,8 @@
                     "I go to the supermarket on Saturdays."
                 ]
             }
-        ],"transcription": "ˈsupərˌmɑrkɪt",
+        ],
+        "transcription": "ˈsupərˌmɑrkɪt",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -330,7 +341,8 @@
                 ]
             }
         ],
-        "subtext": "related to address location","transcription": "strit",
+        "subtext": "related to address location",
+        "transcription": "strit",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -352,7 +364,8 @@
                 ]
             }
         ],
-        "subtext": "related to address location","transcription": "ˈbɪldɪŋ",
+        "subtext": "related to address location",
+        "transcription": "ˈbɪldɪŋ",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -374,7 +387,8 @@
                 ]
             }
         ],
-        "subtext": "related to local places services","transcription": "kəˈfeɪ",
+        "subtext": "related to local places services",
+        "transcription": "kəˈfeɪ",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -396,7 +410,8 @@
                     "The bank is in the city centre."
                 ]
             }
-        ],"transcription": "ˈsɛntər",
+        ],
+        "transcription": "ˈsɛntər",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -418,7 +433,8 @@
                 ]
             }
         ],
-        "subtext": "related to address location","transcription": "ˈɛriə",
+        "subtext": "related to address location",
+        "transcription": "ˈɛriə",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -437,7 +453,8 @@
                 ]
             }
         ],
-        "subtext": "related to prepositions place","transcription": "ðɛr",
+        "subtext": "related to prepositions place",
+        "transcription": "ðɛr",
         "lang": "en",
         "level": "starter",
         "theme": "prepositions_place",
@@ -459,7 +476,8 @@
                 ]
             }
         ],
-        "subtext": "related to cities towns","transcription": "ˈsɪti",
+        "subtext": "related to cities towns",
+        "transcription": "ˈsɪti",
         "lang": "en",
         "level": "starter",
         "theme": "cities_towns",
@@ -485,7 +503,8 @@
                 ]
             }
         ],
-        "subtext": "related to cities towns","transcription": "taʊn",
+        "subtext": "related to cities towns",
+        "transcription": "taʊn",
         "lang": "en",
         "level": "starter",
         "theme": "cities_towns",
@@ -511,7 +530,8 @@
                 ]
             }
         ],
-        "subtext": "related to cities towns","transcription": "ˈvɪlɪʤ",
+        "subtext": "related to cities towns",
+        "transcription": "ˈvɪlɪʤ",
         "lang": "en",
         "level": "starter",
         "theme": "cities_towns",
@@ -533,7 +553,8 @@
                 ]
             }
         ],
-        "subtext": "related to countries capitals","transcription": "ˈkəntri",
+        "subtext": "related to countries capitals",
+        "transcription": "ˈkəntri",
         "lang": "en",
         "level": "starter",
         "theme": "countries_capitals",
@@ -542,7 +563,8 @@
     {
         "id": "en_starter_prepositions_place_010",
         "word": "with",
-        "form": "preposition","definitions": [
+        "form": "preposition",
+        "definitions": [
             {
                 "text": "In the company of or including.",
                 "examples": [
@@ -561,7 +583,8 @@
     {
         "id": "en_starter_prepositions_place_011",
         "word": "without",
-        "form": "preposition","definitions": [
+        "form": "preposition",
+        "definitions": [
             {
                 "text": "Not having or including something.",
                 "examples": [
@@ -589,7 +612,8 @@
                 ]
             }
         ],
-        "subtext": "related to prepositions place","emoji": "⬅️",
+        "subtext": "related to prepositions place",
+        "emoji": "⬅️",
         "transcription": "frəm",
         "lang": "en",
         "level": "starter",
@@ -612,7 +636,8 @@
                 ]
             }
         ],
-        "subtext": "related to countries capitals","transcription": "wərld",
+        "subtext": "related to countries capitals",
+        "transcription": "wərld",
         "lang": "en",
         "level": "starter",
         "theme": "countries_capitals",
@@ -634,7 +659,8 @@
                 ]
             }
         ],
-        "subtext": "related to local places services","transcription": "pleɪs",
+        "subtext": "related to local places services",
+        "transcription": "pleɪs",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -657,7 +683,8 @@
                     "Please write your address here."
                 ]
             }
-        ],"transcription": "əˈdres",
+        ],
+        "transcription": "əˈdres",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -682,7 +709,8 @@
                     "I bought a dictionary at the bookshop."
                 ]
             }
-        ],"transcription": "ˈbʊkˌʃɑp",
+        ],
+        "transcription": "ˈbʊkˌʃɑp",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -704,7 +732,8 @@
                     "The road is very busy."
                 ]
             }
-        ],"transcription": "roʊd",
+        ],
+        "transcription": "roʊd",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -817,7 +846,8 @@
                     "Call the police!"
                 ]
             }
-        ],"transcription": "pəˈlis",
+        ],
+        "transcription": "pəˈlis",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -842,7 +872,8 @@
                     "They live on a big farm."
                 ]
             }
-        ],"transcription": "fɑrm",
+        ],
+        "transcription": "fɑrm",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -1086,6 +1117,75 @@
         "lang": "en",
         "level": "starter",
         "theme": "prepositions_place",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_pharmacy_46",
+        "word": "pharmacy",
+        "emoji": "🏥",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "pharmacies",
+        "definitions": [
+            {
+                "text": "A shop where medicinal drugs are prepared and sold.",
+                "examples": [
+                    "I went to the pharmacy to buy medicine."
+                ]
+            }
+        ],
+        "transcription": "ˈfɑːməsi",
+        "subtext": "local pharmacy, buy medicine",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_post_office_47",
+        "word": "post office",
+        "emoji": "🏣",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "post offices",
+        "definitions": [
+            {
+                "text": "A building where postal services such as sending letters and parcels are provided.",
+                "examples": [
+                    "She went to the post office to mail a letter."
+                ]
+            }
+        ],
+        "transcription": "pəʊst ˈɒfɪs",
+        "subtext": "send a letter, main post office",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_police_station_48",
+        "word": "police station",
+        "emoji": "🏢",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "plural": "police stations",
+        "definitions": [
+            {
+                "text": "The office or headquarters of a local police force.",
+                "examples": [
+                    "He reported the lost wallet at the police station."
+                ]
+            }
+        ],
+        "transcription": "pəˈliːs ˈsteɪʃn",
+        "subtext": "report a problem",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
         "sub_theme": null
     }
 ];

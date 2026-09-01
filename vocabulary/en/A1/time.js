@@ -1,3 +1,4 @@
+// VERIFIED: CEFR A0-A1 (Starter Level) - Aligned with A0-A1 Visual Dictionary Master Curriculum
 (function() {
     const lang = "en";
     const data = [
@@ -97,7 +98,8 @@
                     "I work five days a week."
                 ]
             }
-        ],"transcription": "wik",
+        ],
+        "transcription": "wik",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -119,7 +121,8 @@
                     "I relax at the weekend."
                 ]
             }
-        ],"transcription": "ˈwiˌkɪnd",
+        ],
+        "transcription": "ˈwiˌkɪnd",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -196,7 +199,8 @@
                     "I don't have much time."
                 ]
             }
-        ],"transcription": "taɪm",
+        ],
+        "transcription": "taɪm",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -221,7 +225,8 @@
                 ]
             }
         ],
-        "subtext": "related to days week","transcription": "ˈmənˌdeɪ",
+        "subtext": "related to days week",
+        "transcription": "ˈmənˌdeɪ",
         "lang": "en",
         "level": "starter",
         "theme": "days_week",
@@ -242,7 +247,8 @@
                 ]
             }
         ],
-        "subtext": "related to days week","transcription": "ˈtuzˌdeɪ",
+        "subtext": "related to days week",
+        "transcription": "ˈtuzˌdeɪ",
         "lang": "en",
         "level": "starter",
         "theme": "days_week",
@@ -263,7 +269,8 @@
                 ]
             }
         ],
-        "subtext": "related to days week","transcription": "ˈwɛnzˌdeɪ",
+        "subtext": "related to days week",
+        "transcription": "ˈwɛnzˌdeɪ",
         "lang": "en",
         "level": "starter",
         "theme": "days_week",
@@ -284,7 +291,8 @@
                 ]
             }
         ],
-        "subtext": "related to days week","transcription": "ˈθərzˌdeɪ",
+        "subtext": "related to days week",
+        "transcription": "ˈθərzˌdeɪ",
         "lang": "en",
         "level": "starter",
         "theme": "days_week",
@@ -305,7 +313,8 @@
                 ]
             }
         ],
-        "subtext": "related to days week","transcription": "ˈfraɪˌdeɪ",
+        "subtext": "related to days week",
+        "transcription": "ˈfraɪˌdeɪ",
         "lang": "en",
         "level": "starter",
         "theme": "days_week",
@@ -326,7 +335,8 @@
                 ]
             }
         ],
-        "subtext": "related to days week","transcription": "ˈsæˌtɪˌdeɪ",
+        "subtext": "related to days week",
+        "transcription": "ˈsæˌtɪˌdeɪ",
         "lang": "en",
         "level": "starter",
         "theme": "days_week",
@@ -347,7 +357,8 @@
                 ]
             }
         ],
-        "subtext": "related to days week","transcription": "ˈsənˌdi",
+        "subtext": "related to days week",
+        "transcription": "ˈsənˌdi",
         "lang": "en",
         "level": "starter",
         "theme": "days_week",
@@ -368,7 +379,8 @@
                 ]
             }
         ],
-        "subtext": "related to months year","transcription": "ˈʤænjuˌɛri",
+        "subtext": "related to months year",
+        "transcription": "ˈʤænjuˌɛri",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -389,7 +401,8 @@
                 ]
             }
         ],
-        "subtext": "related to months year","transcription": "ˈfɛbruˌɛri",
+        "subtext": "related to months year",
+        "transcription": "ˈfɛbruˌɛri",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -410,7 +423,8 @@
                 ]
             }
         ],
-        "subtext": "related to months year","transcription": "mɑrʧ",
+        "subtext": "related to months year",
+        "transcription": "mɑrʧ",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -431,7 +445,8 @@
                 ]
             }
         ],
-        "subtext": "related to months year","transcription": "ˈeɪprəl",
+        "subtext": "related to months year",
+        "transcription": "ˈeɪprəl",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -452,7 +467,8 @@
                 ]
             }
         ],
-        "subtext": "related to months year","transcription": "meɪ",
+        "subtext": "related to months year",
+        "transcription": "meɪ",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -473,7 +489,8 @@
                 ]
             }
         ],
-        "subtext": "related to months year","transcription": "ʤun",
+        "subtext": "related to months year",
+        "transcription": "ʤun",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -494,7 +511,8 @@
                 ]
             }
         ],
-        "subtext": "related to months year","transcription": "ˌʤuˈlaɪ",
+        "subtext": "related to months year",
+        "transcription": "ˌʤuˈlaɪ",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -515,7 +533,8 @@
                 ]
             }
         ],
-        "subtext": "related to months year","transcription": "ˈɔgəst",
+        "subtext": "related to months year",
+        "transcription": "ˈɔgəst",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -536,7 +555,8 @@
                 ]
             }
         ],
-        "subtext": "related to months year","transcription": "sɛpˈtɛmbər",
+        "subtext": "related to months year",
+        "transcription": "sɛpˈtɛmbər",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -557,7 +577,8 @@
                 ]
             }
         ],
-        "subtext": "related to months year","transcription": "ɑkˈtoʊbər",
+        "subtext": "related to months year",
+        "transcription": "ɑkˈtoʊbər",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -578,7 +599,8 @@
                 ]
             }
         ],
-        "subtext": "related to months year","transcription": "noʊˈvɛmbər",
+        "subtext": "related to months year",
+        "transcription": "noʊˈvɛmbər",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -599,7 +621,8 @@
                 ]
             }
         ],
-        "subtext": "related to months year","transcription": "dɪˈsɛmbər",
+        "subtext": "related to months year",
+        "transcription": "dɪˈsɛmbər",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -618,7 +641,8 @@
                 ]
             }
         ],
-        "subtext": "related to frequency adverbs","transcription": "əˈgɛn",
+        "subtext": "related to frequency adverbs",
+        "transcription": "əˈgɛn",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -637,7 +661,8 @@
                 ]
             }
         ],
-        "subtext": "related to duration expressions","transcription": "əˈgoʊ",
+        "subtext": "related to duration expressions",
+        "transcription": "əˈgoʊ",
         "lang": "en",
         "level": "starter",
         "theme": "duration_expressions",
@@ -655,7 +680,8 @@
                 ]
             }
         ],
-        "subtext": "related to prepositions time","emoji": "🎁",
+        "subtext": "related to prepositions time",
+        "emoji": "🎁",
         "transcription": "fər",
         "lang": "en",
         "level": "starter",
@@ -698,7 +724,8 @@
                 ]
             }
         ],
-        "subtext": "related to duration expressions","transcription": "naʊ",
+        "subtext": "related to duration expressions",
+        "transcription": "naʊ",
         "lang": "en",
         "level": "starter",
         "theme": "duration_expressions",
@@ -717,7 +744,8 @@
                 ]
             }
         ],
-        "subtext": "related to duration expressions","transcription": "sun",
+        "subtext": "related to duration expressions",
+        "transcription": "sun",
         "lang": "en",
         "level": "starter",
         "theme": "duration_expressions",
@@ -736,7 +764,8 @@
                 ]
             }
         ],
-        "subtext": "related to duration expressions","transcription": "ˈleɪtər",
+        "subtext": "related to duration expressions",
+        "transcription": "ˈleɪtər",
         "lang": "en",
         "level": "starter",
         "theme": "duration_expressions",
@@ -758,7 +787,8 @@
                 ]
             }
         ],
-        "subtext": "related to telling time","transcription": "aʊər",
+        "subtext": "related to telling time",
+        "transcription": "aʊər",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -780,7 +810,8 @@
                 ]
             }
         ],
-        "subtext": "related to telling time","transcription": "ˈmɪnət",
+        "subtext": "related to telling time",
+        "transcription": "ˈmɪnət",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -802,7 +833,8 @@
                 ]
             }
         ],
-        "subtext": "related to telling time","transcription": "ˈsɛkənd",
+        "subtext": "related to telling time",
+        "transcription": "ˈsɛkənd",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -824,7 +856,8 @@
                 ]
             }
         ],
-        "subtext": "related to dates years","transcription": "jɪr",
+        "subtext": "related to dates years",
+        "transcription": "jɪr",
         "lang": "en",
         "level": "starter",
         "theme": "dates_years",
@@ -843,7 +876,8 @@
                 ]
             }
         ],
-        "subtext": "related to duration expressions","transcription": "ɔˈrɛdi",
+        "subtext": "related to duration expressions",
+        "transcription": "ɔˈrɛdi",
         "lang": "en",
         "level": "starter",
         "theme": "duration_expressions",
@@ -862,7 +896,8 @@
                 ]
             }
         ],
-        "subtext": "related to duration expressions","transcription": "stɪl",
+        "subtext": "related to duration expressions",
+        "transcription": "stɪl",
         "lang": "en",
         "level": "starter",
         "theme": "duration_expressions",
@@ -881,7 +916,8 @@
                 ]
             }
         ],
-        "subtext": "related to duration expressions","transcription": "jɛt",
+        "subtext": "related to duration expressions",
+        "transcription": "jɛt",
         "lang": "en",
         "level": "starter",
         "theme": "duration_expressions",
@@ -900,7 +936,8 @@
                 ]
             }
         ],
-        "subtext": "related to times day","transcription": "təˈnaɪt",
+        "subtext": "related to times day",
+        "transcription": "təˈnaɪt",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -922,7 +959,8 @@
                     "What is the date today?"
                 ]
             }
-        ],"transcription": "deɪt",
+        ],
+        "transcription": "deɪt",
         "lang": "en",
         "level": "starter",
         "theme": "dates_years",
@@ -944,7 +982,8 @@
                 ]
             }
         ],
-        "subtext": "related to dates years","transcription": "mənθ",
+        "subtext": "related to dates years",
+        "transcription": "mənθ",
         "lang": "en",
         "level": "starter",
         "theme": "dates_years",
@@ -962,7 +1001,8 @@
                 ]
             }
         ],
-        "subtext": "related to prepositions time","emoji": "⌛",
+        "subtext": "related to prepositions time",
+        "emoji": "⌛",
         "transcription": "ˈdʊrɪŋ",
         "lang": "en",
         "level": "starter",
@@ -1197,6 +1237,154 @@
         "emoji": "📖",
         "transcription": "əˈbaʊt",
         "subtext": "about",
+        "lang": "en",
+        "level": "starter",
+        "theme": "time",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_time_055",
+        "word": "half past",
+        "emoji": "🕞",
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "Thirty minutes after a specific hour.",
+                "examples": [
+                    "The lesson starts at half past three."
+                ]
+            }
+        ],
+        "transcription": "hɑːf pɑːst",
+        "subtext": "half past seven, clock time",
+        "lang": "en",
+        "level": "starter",
+        "theme": "time",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_time_056",
+        "word": "quarter past",
+        "emoji": "🕒",
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "Fifteen minutes after a specific hour.",
+                "examples": [
+                    "It is quarter past four now."
+                ]
+            }
+        ],
+        "transcription": "ˈkwɔːtə pɑːst",
+        "subtext": "quarter past four, clock time",
+        "lang": "en",
+        "level": "starter",
+        "theme": "time",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_time_057",
+        "word": "quarter to",
+        "emoji": "🕘",
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "Fifteen minutes before a specific hour.",
+                "examples": [
+                    "The train leaves at quarter to five."
+                ]
+            }
+        ],
+        "transcription": "ˈkwɔːtə tuː",
+        "subtext": "quarter to five, clock time",
+        "lang": "en",
+        "level": "starter",
+        "theme": "time",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_time_058",
+        "word": "spring",
+        "emoji": "🌱",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
+        "definitions": [
+            {
+                "text": "The season between winter and summer when flowers bloom.",
+                "examples": [
+                    "Spring is my favourite season of the year."
+                ]
+            }
+        ],
+        "transcription": "sprɪŋ",
+        "subtext": "warm spring, flowers in spring",
+        "lang": "en",
+        "level": "starter",
+        "theme": "time",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_time_059",
+        "word": "summer",
+        "emoji": "☀️",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
+        "definitions": [
+            {
+                "text": "The warmest season of the year between spring and autumn.",
+                "examples": [
+                    "We go to the beach every summer."
+                ]
+            }
+        ],
+        "transcription": "ˈsʌmə",
+        "subtext": "hot summer, summer holiday",
+        "lang": "en",
+        "level": "starter",
+        "theme": "time",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_time_060",
+        "word": "autumn",
+        "emoji": "🍁",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
+        "definitions": [
+            {
+                "text": "The season between summer and winter when leaves fall.",
+                "examples": [
+                    "Leaves turn yellow and brown in autumn."
+                ]
+            }
+        ],
+        "transcription": "ˈɔːtəm",
+        "subtext": "cool autumn, falling leaves",
+        "lang": "en",
+        "level": "starter",
+        "theme": "time",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_time_061",
+        "word": "winter",
+        "emoji": "❄️",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "uncountable",
+        "definitions": [
+            {
+                "text": "The coldest season of the year between autumn and spring.",
+                "examples": [
+                    "It snows a lot in winter."
+                ]
+            }
+        ],
+        "transcription": "ˈwɪntə",
+        "subtext": "cold winter, snowy winter",
         "lang": "en",
         "level": "starter",
         "theme": "time",

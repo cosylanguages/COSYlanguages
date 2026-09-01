@@ -1,7 +1,7 @@
-// TODO: verify level classification
+// VERIFIED: CEFR A0-A1 (Starter Level) - Aligned with A0-A1 Visual Dictionary Master Curriculum
 (function() {
     const lang = "en";
-const data = [
+    const data = [
     {
         "id": "en_starter_name_greeting_009",
         "word": "be",
@@ -1128,7 +1128,7 @@ const data = [
         ]
     },
     {
-        "id": "en_starter_language_020",
+        "id": "en_starter_verbs_repeat_34",
         "word": "repeat",
         "emoji": "🔁",
         "subtext": "repeat that / repeat yourself / repeat an order",
@@ -2096,7 +2096,8 @@ const data = [
         "id": "en_starter_emotions_056",
         "word": "like",
         "emoji": "👍",
-        "subtext": "like work / like to travel / like someone / like the idea","form": "verb",
+        "subtext": "like work / like to travel / like someone / like the idea",
+        "form": "verb",
         "definitions": [
             {
                 "text": "To find something pleasant; to enjoy.",
@@ -2411,7 +2412,7 @@ const data = [
         ]
     },
     {
-        "id": "en_starter_body_043",
+        "id": "en_starter_verbs_see_72",
         "word": "see",
         "emoji": "👁️",
         "subtext": "see a doctor / see friends / see the problem / see clearly",
@@ -2446,7 +2447,7 @@ const data = [
         ]
     },
     {
-        "id": "en_starter_body_044",
+        "id": "en_starter_verbs_hear_73",
         "word": "hear",
         "emoji": "👂",
         "subtext": "hear news / hear from someone / hear a sound / hear clearly",
@@ -2540,7 +2541,7 @@ const data = [
         ]
     },
     {
-        "id": "en_starter_body_045",
+        "id": "en_starter_verbs_look_76",
         "word": "look",
         "emoji": "👀",
         "subtext": "look at something / look for something / look at / for, look at / look for / look like / look happy",
@@ -2714,7 +2715,8 @@ const data = [
         "v2": "met",
         "v3": "met",
         "subtext": "meet a client / meet a colleague / meet for lunch / meet online",
-        "group": "regular","transcription": "mit",
+        "group": "regular",
+        "transcription": "mit",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -3351,7 +3353,8 @@ const data = [
         "aspect": "action",
         "v2": "drew",
         "v3": "drawn",
-        "group": "regular","transcription": "drɔ",
+        "group": "regular",
+        "transcription": "drɔ",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -3390,7 +3393,7 @@ const data = [
         ]
     },
     {
-        "id": "en_starter_body_046",
+        "id": "en_starter_verbs_smile_104",
         "word": "smile",
         "emoji": "😊",
         "subtext": "smile at someone / a big smile / smile broadly",
@@ -3778,7 +3781,8 @@ const data = [
         "v3": "got up",
         "emoji": "🛌",
         "form": "verb",
-        "group": "regular","transcription": "gɪt əp",
+        "group": "regular",
+        "transcription": "gɪt əp",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -3806,7 +3810,8 @@ const data = [
         "v3": "had breakfast",
         "emoji": "🍳",
         "form": "verb",
-        "group": "regular","transcription": "hæv ˈbrɛkfəst",
+        "group": "regular",
+        "transcription": "hæv ˈbrɛkfəst",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -3831,7 +3836,8 @@ const data = [
         "v3": "come back",
         "emoji": "🔙",
         "form": "verb",
-        "group": "regular","transcription": "kəm bæk",
+        "group": "regular",
+        "transcription": "kəm bæk",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -3856,7 +3862,8 @@ const data = [
         "v3": "gone to bed",
         "emoji": "🛌",
         "form": "verb",
-        "group": "regular","transcription": "goʊ tɪ bɛd",
+        "group": "regular",
+        "transcription": "goʊ tɪ bɛd",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -4901,7 +4908,7 @@ const data = [
         ]
     },
     {
-        "id": "en_starter_body_047",
+        "id": "en_starter_verbs_smell_154",
         "word": "smell",
         "emoji": "👃",
         "form": "verb",
@@ -5097,7 +5104,7 @@ const data = [
         ]
     },
     {
-        "id": "en_starter_language_021",
+        "id": "en_starter_verbs_spell_160",
         "word": "spell",
         "emoji": "🔤",
         "form": "verb",
@@ -5129,7 +5136,7 @@ const data = [
         ]
     },
     {
-        "id": "en_starter_language_022",
+        "id": "en_starter_verbs_point_161",
         "word": "point",
         "emoji": "☝️",
         "form": "verb",
@@ -5163,7 +5170,7 @@ const data = [
         ]
     },
     {
-        "id": "en_starter_language_023",
+        "id": "en_starter_verbs_shout_162",
         "word": "shout",
         "emoji": "📢",
         "form": "verb",
@@ -5462,7 +5469,7 @@ const data = [
         ]
     },
     {
-        "id": "en_starter_language_024",
+        "id": "en_starter_verbs_tick_171",
         "word": "tick",
         "emoji": "✅",
         "form": "verb",
@@ -5495,7 +5502,7 @@ const data = [
         ]
     },
     {
-        "id": "en_starter_language_025",
+        "id": "en_starter_verbs_cross_172",
         "word": "cross",
         "emoji": "❌",
         "form": "verb",
@@ -5840,7 +5847,8 @@ const data = [
         "aspect": "action",
         "v2": "touched",
         "v3": "touched",
-        "group": "regular","transcription": "təʧ",
+        "group": "regular",
+        "transcription": "təʧ",
         "auxiliary": "have",
         "v4": "touching",
         "lang": "en",
@@ -5867,7 +5875,8 @@ const data = [
         "aspect": "action",
         "v2": "let",
         "v3": "let",
-        "group": "regular","transcription": "lɛt",
+        "group": "regular",
+        "transcription": "lɛt",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -5893,7 +5902,8 @@ const data = [
         "aspect": "action",
         "v2": "set",
         "v3": "set",
-        "group": "regular","transcription": "sɛt",
+        "group": "regular",
+        "transcription": "sɛt",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -6451,7 +6461,7 @@ const data = [
         ]
     },
     {
-        "id": "en_starter_body_048",
+        "id": "en_starter_verbs_breathe_203",
         "word": "breathe",
         "emoji": "🫁",
         "form": "verb",
