@@ -23,7 +23,8 @@
             "Recommendation",
             "Delicious"
           ],
-          "teacher_notes": "code: \"EN-TRV-A2-001\"\ncando: \"Can order regional dishes, communicate dietary needs, and handle payment.\""
+          "teacher_notes": "code: \"EN-TRV-A2-001\"\ncando: \"Can order regional dishes, communicate dietary needs, and handle payment.\"",
+          "recycled": "Foundational communication & basic level vocabulary"
         },
         {
           "lesson": 2,
@@ -41,7 +42,8 @@
             "Transfer",
             "Refund"
           ],
-          "teacher_notes": "code: \"EN-TRV-A2-002\"\ncando: \"Can ask about timetable changes, ticket exchanges, and travel delays.\""
+          "teacher_notes": "code: \"EN-TRV-A2-002\"\ncando: \"Can ask about timetable changes, ticket exchanges, and travel delays.\"",
+          "recycled": "Could we get the menu?, I am allergic to..., Allergy"
         }
       ]
     }

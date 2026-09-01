@@ -23,7 +23,8 @@
             "Customs",
             "Passport"
           ],
-          "teacher_notes": "code: \"EN-TRV-A1-001\"\ncando: \"Can navigate airport check-in, passport control, and luggage claim.\""
+          "teacher_notes": "code: \"EN-TRV-A1-001\"\ncando: \"Can navigate airport check-in, passport control, and luggage claim.\"",
+          "recycled": "Foundational communication & basic level vocabulary"
         },
         {
           "lesson": 2,
@@ -41,7 +42,8 @@
             "Wi-Fi",
             "Breakfast"
           ],
-          "teacher_notes": "code: \"EN-TRV-A1-002\"\ncando: \"Can check into a hotel and request basic room amenities.\""
+          "teacher_notes": "code: \"EN-TRV-A1-002\"\ncando: \"Can check into a hotel and request basic room amenities.\"",
+          "recycled": "Where is...?, Ticket / Passport / Luggage, Luggage"
         }
       ]
     }

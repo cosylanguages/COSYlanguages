@@ -10,9 +10,19 @@
         {
           "lesson": 1,
           "title": "Le subjonctif passé et les nuances de réserve",
-          "grammar": ["Bien que + subjonctif passé", "À condition que"],
-          "vocabulary": ["Réserve", "Nuance", "Controversé", "Prétendre", "Incontestable"],
-          "teacher_notes": "code: \"FR-B2-001\"\ncando: \"Peut défendre une position complexe lors d'un débat\""
+          "grammar": [
+            "Bien que + subjonctif passé",
+            "À condition que"
+          ],
+          "vocabulary": [
+            "Réserve",
+            "Nuance",
+            "Controversé",
+            "Prétendre",
+            "Incontestable"
+          ],
+          "teacher_notes": "code: \"FR-B2-001\"\ncando: \"Peut défendre une position complexe lors d'un débat\"",
+          "recycled": "Foundational communication & basic level vocabulary"
         }
       ]
     }

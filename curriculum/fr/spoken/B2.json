@@ -10,9 +10,19 @@
         {
           "lesson": 1,
           "title": "L'art du monologue continu et de la relance",
-          "grammar": ["Expressions de transition", "Structures d'incise et relance"],
-          "vocabulary": ["Ça me fait penser à...", "Je dirais que...", "Dans une certaine mesure", "En quelque sorte...", "Il va sans dire que..."],
-          "teacher_notes": "code: \"FR-SPK-B2-001\"\ncando: \"Peut s'exprimer de manière continue sur un sujet complexe pendant 5 minutes sans hésitation majeure\""
+          "grammar": [
+            "Expressions de transition",
+            "Structures d'incise et relance"
+          ],
+          "vocabulary": [
+            "Ça me fait penser à...",
+            "Je dirais que...",
+            "Dans une certaine mesure",
+            "En quelque sorte...",
+            "Il va sans dire que..."
+          ],
+          "teacher_notes": "code: \"FR-SPK-B2-001\"\ncando: \"Peut s'exprimer de manière continue sur un sujet complexe pendant 5 minutes sans hésitation majeure\"",
+          "recycled": "Foundational communication & basic level vocabulary"
         }
       ]
     }

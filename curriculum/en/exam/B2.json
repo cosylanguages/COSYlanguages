@@ -22,7 +22,8 @@
             "Deduce",
             "Speculate"
           ],
-          "teacher_notes": "code: \"EN-EXM-B2-001\"\ncando: \"Can compare candidate photos and speculate on underlying contexts under exam conditions.\""
+          "teacher_notes": "code: \"EN-EXM-B2-001\"\ncando: \"Can compare candidate photos and speculate on underlying contexts under exam conditions.\"",
+          "recycled": "Foundational communication & basic level vocabulary"
         },
         {
           "lesson": 2,
@@ -39,7 +40,8 @@
             "Significant",
             "Evidence"
           ],
-          "teacher_notes": "code: \"EN-EXM-B2-002\"\ncando: \"Can produce structured 140-190 word argumentative essays with clear paragraphs.\""
+          "teacher_notes": "code: \"EN-EXM-B2-002\"\ncando: \"Can produce structured 140-190 word argumentative essays with clear paragraphs.\"",
+          "recycled": "Modals of deduction (must be, might be, can't be), Comparative structures, Likely"
         }
       ]
     }
