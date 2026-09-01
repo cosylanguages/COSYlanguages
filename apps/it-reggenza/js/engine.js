@@ -1,36 +1,116 @@
 /**
- * COSYlanguages Standalone App — Reggenza verbale italiana (it-reggenza)
+ * COSYlanguages Standalone App — Reggenza verbale, nominale e aggettivale italiana (it-reggenza)
  * Provides offline search, Italian prepositional regime rules (a, di, su, in, con, da, direct),
- * pronominal verb patterns, articulation flags, and verb vs. noun preposition contrasts.
+ * pronominal verb patterns, articulation flags, word-type switcher (Verbi / Nomi / Aggettivi),
+ * cross-reference navigation, and verb vs. noun vs. adjective preposition contrasts.
  */
 
 class ItalianReggenzaEngine {
     constructor() {
+        this.dbMap = { verbs: {}, nouns: {}, adjectives: {} };
+        this.currentWordType = 'verbs'; // 'verbs' | 'nouns' | 'adjectives'
         this.verbDb = {};
         this.verbKeys = [];
         this.filteredKeys = [];
         this.activeFilter = 'all';
         this.currentIndex = -1;
+
         this.init();
     }
 
     async init() {
         try {
-            const response = await fetch('data/verbs.json');
-            this.verbDb = await response.json();
-            this.verbKeys = Object.keys(this.verbDb);
-            this.updateFilteredKeys();
+            const [verbsRes, nounsRes, adjRes] = await Promise.all([
+                fetch('data/verbs.json'),
+                fetch('data/nouns.json'),
+                fetch('data/adjectives.json')
+            ]);
+
+            this.dbMap.verbs = await verbsRes.json();
+            this.dbMap.nouns = await nounsRes.json();
+            this.dbMap.adjectives = await adjRes.json();
+
+            this.setWordType('verbs');
             this.bindEvents();
         } catch (err) {
-            console.error("Failed to load Italian verbs database:", err);
+            console.error("Failed to load Italian prepositions database:", err);
+        }
+    }
+
+    setWordType(wordType) {
+        if (!this.dbMap[wordType]) return;
+        this.currentWordType = wordType;
+
+        // Update tab button styling
+        ['verbs', 'nouns', 'adjectives'].forEach(wt => {
+            const tabBtn = document.getElementById(`tab-${wt}`);
+            if (tabBtn) {
+                if (wt === wordType) tabBtn.classList.add('active');
+                else tabBtn.classList.remove('active');
+            }
+        });
+
+        // Update current DB reference and keys
+        this.verbDb = this.dbMap[this.currentWordType];
+        this.verbKeys = Object.keys(this.verbDb);
+
+        // Update filter pills bar based on word type
+        const filterBar = document.getElementById('filter-pills-bar');
+        if (filterBar) {
+            if (wordType === 'verbs') {
+                filterBar.innerHTML = `
+                    <button class="filter-pill active" id="filter-all" onclick="appEngine.setFilter('all')">Tutti i verbi</button>
+                    <button class="filter-pill" id="filter-a" onclick="appEngine.setFilter('a')">Reggenza « a »</button>
+                    <button class="filter-pill" id="filter-di" onclick="appEngine.setFilter('di')">Reggenza « di »</button>
+                    <button class="filter-pill" id="filter-direct" onclick="appEngine.setFilter('direct')">Diretti (senza prep)</button>
+                    <button class="filter-pill" id="filter-pronominal" onclick="appEngine.setFilter('pronominal')">Pronominali 🪞</button>
+                    <button class="filter-pill" id="filter-other" onclick="appEngine.setFilter('other')">Altre prep (su, in, con...)</button>
+                `;
+            } else if (wordType === 'nouns') {
+                filterBar.innerHTML = `
+                    <button class="filter-pill active" id="filter-all" onclick="appEngine.setFilter('all')">Tutti i nomi</button>
+                    <button class="filter-pill" id="filter-di" onclick="appEngine.setFilter('di')">Reggenza « di »</button>
+                    <button class="filter-pill" id="filter-a" onclick="appEngine.setFilter('a')">Reggenza « a »</button>
+                    <button class="filter-pill" id="filter-per" onclick="appEngine.setFilter('per')">Reggenza « per »</button>
+                    <button class="filter-pill" id="filter-in" onclick="appEngine.setFilter('in')">Reggenza « in »</button>
+                    <button class="filter-pill" id="filter-other" onclick="appEngine.setFilter('other')">Altre prep</button>
+                `;
+            } else if (wordType === 'adjectives') {
+                filterBar.innerHTML = `
+                    <button class="filter-pill active" id="filter-all" onclick="appEngine.setFilter('all')">Tutti gli aggettivi</button>
+                    <button class="filter-pill" id="filter-di" onclick="appEngine.setFilter('di')">Reggenza « di »</button>
+                    <button class="filter-pill" id="filter-a" onclick="appEngine.setFilter('a')">Reggenza « a »</button>
+                    <button class="filter-pill" id="filter-con" onclick="appEngine.setFilter('con')">Reggenza « con »</button>
+                    <button class="filter-pill" id="filter-da" onclick="appEngine.setFilter('da')">Reggenza « da »</button>
+                    <button class="filter-pill" id="filter-other" onclick="appEngine.setFilter('other')">Altre prep</button>
+                `;
+            }
+        }
+
+        // Reset filter state
+        this.activeFilter = 'all';
+        this.updateFilteredKeys();
+
+        // Update search input placeholder
+        const input = document.getElementById('verb-search-input');
+        if (input) {
+            if (wordType === 'verbs') input.placeholder = "Cerca un verbo (es. pensare, parlare, abituarsi, avere bisogno, guardare)...";
+            else if (wordType === 'nouns') input.placeholder = "Cerca un nome (es. bisogno di, paura di, interesse per, accesso a, fiducia in)...";
+            else if (wordType === 'adjectives') input.placeholder = "Cerca un aggettivo (es. contento di, fiero di, vicino a, gentile con, pronto a)...";
+
+            if (input.value.trim()) {
+                this.handleSearchInput(input.value);
+            } else {
+                this.resetDisplay();
+            }
         }
     }
 
     setFilter(filterType) {
         this.activeFilter = filterType;
 
-        // Update active filter pill styling
-        ['all', 'a', 'di', 'direct', 'pronominal', 'other'].forEach(f => {
+        const pillIds = ['all', 'a', 'di', 'direct', 'pronominal', 'other', 'per', 'in', 'con', 'da'];
+        pillIds.forEach(f => {
             const btn = document.getElementById(`filter-${f}`);
             if (btn) {
                 if (f === filterType) btn.classList.add('active');
@@ -40,7 +120,6 @@ class ItalianReggenzaEngine {
 
         this.updateFilteredKeys();
 
-        // Re-run search if input has value
         const input = document.getElementById('verb-search-input');
         if (input && input.value.trim()) {
             this.handleSearchInput(input.value);
@@ -48,18 +127,27 @@ class ItalianReggenzaEngine {
     }
 
     updateFilteredKeys() {
-        if (this.activeFilter === 'a') {
-            this.filteredKeys = this.verbKeys.filter(k => (this.verbDb[k].prepositions || []).some(p => p === 'a' || p.includes('a')));
-        } else if (this.activeFilter === 'di') {
-            this.filteredKeys = this.verbKeys.filter(k => (this.verbDb[k].prepositions || []).some(p => p === 'di' || p.includes('di')));
-        } else if (this.activeFilter === 'direct') {
-            this.filteredKeys = this.verbKeys.filter(k => (this.verbDb[k].prepositions || []).includes('none'));
-        } else if (this.activeFilter === 'pronominal') {
-            this.filteredKeys = this.verbKeys.filter(k => this.verbDb[k].pronominal === true);
-        } else if (this.activeFilter === 'other') {
-            this.filteredKeys = this.verbKeys.filter(k => (this.verbDb[k].prepositions || []).some(p => p !== 'a' && p !== 'di' && p !== 'none'));
+        if (this.currentWordType === 'verbs') {
+            if (this.activeFilter === 'a') {
+                this.filteredKeys = this.verbKeys.filter(k => (this.verbDb[k].prepositions || []).some(p => p === 'a' || p.includes('a')));
+            } else if (this.activeFilter === 'di') {
+                this.filteredKeys = this.verbKeys.filter(k => (this.verbDb[k].prepositions || []).some(p => p === 'di' || p.includes('di')));
+            } else if (this.activeFilter === 'direct') {
+                this.filteredKeys = this.verbKeys.filter(k => (this.verbDb[k].prepositions || []).includes('none'));
+            } else if (this.activeFilter === 'pronominal') {
+                this.filteredKeys = this.verbKeys.filter(k => this.verbDb[k].pronominal === true);
+            } else if (this.activeFilter === 'other') {
+                this.filteredKeys = this.verbKeys.filter(k => (this.verbDb[k].prepositions || []).some(p => p !== 'a' && p !== 'di' && p !== 'none'));
+            } else {
+                this.filteredKeys = [...this.verbKeys];
+            }
         } else {
-            this.filteredKeys = [...this.verbKeys];
+            // Nouns or Adjectives filtering
+            if (this.activeFilter === 'all') {
+                this.filteredKeys = [...this.verbKeys];
+            } else {
+                this.filteredKeys = this.verbKeys.filter(k => (this.verbDb[k].prepositions || []).some(p => p === this.activeFilter || p.includes(this.activeFilter)));
+            }
         }
     }
 
@@ -120,7 +208,7 @@ class ItalianReggenzaEngine {
                 const data = this.verbDb[key];
                 const preps = (data.prepositions || []).join(' / ');
                 const prepLabel = preps === 'none' ? 'Diretto (senza prep)' : `Prép: ${preps}`;
-                const proLabel = data.pronominal ? ' [Pronominale]' : '';
+                const proLabel = data.pronominal ? ' [Pronominale]' : (data.word_type ? ` [${data.word_type.toUpperCase()}]` : '');
                 return `
                 <div class="suggestion-item" onclick="appEngine.selectSuggestion('${key.replace(/'/g, "\\'")}')">
                     <span><strong>${key}</strong>${proLabel}</span>
@@ -163,15 +251,17 @@ class ItalianReggenzaEngine {
         } else {
             this.currentIndex = -1;
             const fallbackData = {
+                word_type: this.currentWordType.slice(0, -1),
                 prepositions: ["none"],
                 pronominal: cleanQuery.startsWith("si ") || cleanQuery.startsWith("sc"),
                 pattern: `${cleanQuery} [complemento]`,
                 level: "A2",
-                definition: `Azione o stato legato a « ${cleanQuery} ».`,
-                grammar_rule: `Verbo italiano « ${cleanQuery} ». Verificare l'uso delle preposizioni reggenti e l'eventuale articolazione.`,
+                definition: `Azione o concetto legato a « ${cleanQuery} ».`,
+                grammar_rule: `Voce italiana « ${cleanQuery} ». Verificare l'uso delle preposizioni reggenti e l'eventuale articolazione.`,
+                related_forms: "",
                 noun_parallel: "",
                 examples: [
-                    `È opportuno usare correttamente il verbo ${cleanQuery}.`,
+                    `È opportuno usare correttamente la voce ${cleanQuery}.`,
                     `Ha deciso di usare ${cleanQuery} con attenzione.`
                 ],
                 common_mistake: `⚠️ Verificare se « ${cleanQuery} » si usa direttamente o con una preposizione (a, di...).`,
@@ -189,11 +279,14 @@ class ItalianReggenzaEngine {
 
         document.getElementById('verb-title').textContent = verbKey;
 
-        // Pronominal Badge
+        // Badge (Pronominal or Word Type)
         const proBadge = document.getElementById('pronominal-badge');
         if (data.pronominal) {
             proBadge.style.display = 'inline-block';
             proBadge.textContent = 'Pronominale 🪞';
+        } else if (data.word_type && data.word_type !== 'verb') {
+            proBadge.style.display = 'inline-block';
+            proBadge.textContent = data.word_type === 'noun' ? 'Nome 📦' : 'Aggettivo 🎨';
         } else {
             proBadge.style.display = 'none';
         }
@@ -216,11 +309,22 @@ class ItalianReggenzaEngine {
         document.getElementById('verb-definition').textContent = data.definition || 'Definizione non disponibile.';
         document.getElementById('verb-pattern-text').textContent = data.pattern || verbKey;
 
-        // Noun Parallel Contrast Box
+        // Noun Parallel or Related Forms / Cross References Box
         const nounParallelBox = document.getElementById('noun-parallel-container');
         const nounParallelText = document.getElementById('noun-parallel-text');
-        if (data.noun_parallel) {
-            nounParallelText.textContent = data.noun_parallel;
+        const contrastContent = data.related_forms || data.noun_parallel;
+
+        if (contrastContent) {
+            const crossRefs = this.extractCrossReferences(contrastContent, this.currentWordType);
+            let html = `<div>${contrastContent}</div>`;
+            if (crossRefs.length > 0) {
+                html += `<div style="margin-top: 0.5rem; display: flex; gap: 0.4rem; flex-wrap: wrap;">`;
+                crossRefs.forEach(ref => {
+                    html += `<button class="xref-chip" onclick="appEngine.navigateToCrossReference('${ref.type}', '${ref.key.replace(/'/g, "\\'")}')">${ref.label}</button>`;
+                });
+                html += `</div>`;
+            }
+            nounParallelText.innerHTML = html;
             nounParallelBox.style.display = 'block';
         } else {
             nounParallelBox.style.display = 'none';
@@ -256,6 +360,38 @@ class ItalianReggenzaEngine {
         } else {
             document.getElementById('antonyms-container').style.display = 'none';
         }
+    }
+
+    extractCrossReferences(text, currentType) {
+        if (!text) return [];
+        const refs = [];
+        const targetTypes = ['verbs', 'nouns', 'adjectives'].filter(t => t !== currentType);
+
+        const quotedMatches = text.match(/'([^']+)'/g) || [];
+        const candidates = quotedMatches.map(m => m.slice(1, -1).trim());
+
+        targetTypes.forEach(type => {
+            const db = this.dbMap[type] || {};
+            const dbKeys = Object.keys(db);
+
+            candidates.forEach(cand => {
+                let matchedKey = dbKeys.find(k => k.toLowerCase() === cand.toLowerCase());
+                if (!matchedKey) {
+                    matchedKey = dbKeys.find(k => cand.toLowerCase().includes(k.toLowerCase()) || k.toLowerCase().includes(cand.toLowerCase()));
+                }
+                if (matchedKey && !refs.some(r => r.type === type && r.key === matchedKey)) {
+                    let labelType = type === 'verbs' ? 'Verbo' : (type === 'nouns' ? 'Nome' : 'Aggettivo');
+                    refs.push({ type, key: matchedKey, label: `➜ Vedi ${labelType}: "${matchedKey}"` });
+                }
+            });
+        });
+
+        return refs;
+    }
+
+    navigateToCrossReference(targetType, targetKey) {
+        this.setWordType(targetType);
+        this.searchVerb(targetKey);
     }
 
     /* Sequential navigation */

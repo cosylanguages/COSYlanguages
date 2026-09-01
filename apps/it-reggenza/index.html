@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reggenza verbale italiana | COSYlanguages</title>
+    <title>Reggenza verbale, nominale e aggettivale italiana | COSYlanguages</title>
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#1b4332">
@@ -16,8 +16,8 @@
             <div class="logo-badge">
                 <span class="brand-icon">🇮🇹</span>
                 <div class="brand-text">
-                    <h1>Reggenza verbale italiana</h1>
-                    <p class="tagline">Preposizioni reggenti dei verbi (a, di, su, in, con, da...), verbi pronominali &amp; transitivi diretti</p>
+                    <h1>Reggenza verbale, nominale e aggettivale</h1>
+                    <p class="tagline">Preposizioni reggenti di verbi, nomi e aggettivi (a, di, su, in, con, da...), pronomi &amp; contrasti</p>
                 </div>
             </div>
         </header>
@@ -25,8 +25,15 @@
         <main class="app-main">
             <!-- Search Section & Filter Pills -->
             <section id="search-section-container" class="search-section">
+                <!-- Word Type Switcher Tab Bar -->
+                <div class="word-type-tab-bar">
+                    <button class="word-type-tab active" id="tab-verbs" onclick="appEngine.setWordType('verbs')">🏃 Verbi</button>
+                    <button class="word-type-tab" id="tab-nouns" onclick="appEngine.setWordType('nouns')">📦 Nomi</button>
+                    <button class="word-type-tab" id="tab-adjectives" onclick="appEngine.setWordType('adjectives')">🎨 Aggettivi</button>
+                </div>
+
                 <!-- Filter Pills Bar -->
-                <div class="filter-pills-bar">
+                <div class="filter-pills-bar" id="filter-pills-bar">
                     <button class="filter-pill active" id="filter-all" onclick="appEngine.setFilter('all')">Tutti i verbi</button>
                     <button class="filter-pill" id="filter-a" onclick="appEngine.setFilter('a')">Reggenza « a »</button>
                     <button class="filter-pill" id="filter-di" onclick="appEngine.setFilter('di')">Reggenza « di »</button>
@@ -43,7 +50,7 @@
                 <div id="search-suggestions" class="suggestions-list" style="display: none;"></div>
             </section>
 
-            <!-- Verb Result Display -->
+            <!-- Verb / Word Result Display -->
             <section id="verb-result-container" class="verb-result-card" style="display: none;">
                 <!-- Result Navigation Controls -->
                 <div class="nav-controls-bar">
@@ -70,12 +77,12 @@
                         </div>
                         <div id="pattern-container" class="usage-block">
                             <span class="lexical-label">💡 Struttura &amp; Reggenza:</span>
-                            <span id="verb-pattern-text" class="usage-text">pensare a [qualcuno/qualcosa] / pensare di [opinione o verbe]</span>
+                            <span id="verb-pattern-text" class="usage-text">pensare a [qualcuno/qualcosa] / pensare di [opinione o verbo]</span>
                         </div>
-                        <!-- Noun Parallel / Verb vs. Noun Contrast -->
+                        <!-- Noun Parallel / Cross References Box -->
                         <div id="noun-parallel-container" class="noun-parallel-block" style="display: none;">
-                            <span class="lexical-label">⚡ Contrasto Verbo vs. Nome:</span>
-                            <span id="noun-parallel-text" class="noun-parallel-text"></span>
+                            <span class="lexical-label">⚡ Contrasti &amp; Forme Correlate:</span>
+                            <div id="noun-parallel-text" class="noun-parallel-text"></div>
                         </div>
                         <div id="grammar-rule-container" class="grammar-rule-block">
                             <span class="lexical-label">📌 Regola grammaticale &amp; Preposizioni articolate:</span>
@@ -100,8 +107,8 @@
             <!-- Initial Empty State -->
             <section id="empty-state" class="empty-state-box">
                 <span class="empty-icon">🌿</span>
-                <h3>Cerca la reggenza dei verbi italiani</h3>
-                <p>Esplora le <strong style="color: var(--sage-primary);">preposizioni reggenti</strong> (<em>a</em>, <em>di</em>, <em>su</em>, <em>in</em>, <em>con</em>, <em>da</em>...), le preposizioni articolate (<em>al, del, dal...</em>), i verbi pronominali e i <strong style="color: var(--terracotta);">verbi transitivi diretti</strong> senza preposizione (guardare, ascoltare, aspettare...).</p>
+                <h3 id="empty-state-heading">Cerca la reggenza di verbi, nomi e aggettivi italiani</h3>
+                <p id="empty-state-description">Esplora le <strong style="color: var(--sage-primary);">preposizioni reggenti</strong> (<em>a</em>, <em>di</em>, <em>su</em>, <em>in</em>, <em>con</em>, <em>da</em>...), le preposizioni articolate (<em>al, del, dal...</em>), i verbi pronominali e i <strong style="color: var(--terracotta);">contrasti verbo / nome / aggettivo</strong>.</p>
                 <div class="quick-tags">
                     <span>Verbi essenziali (A1–B2):</span>
                     <button class="tag-btn" onclick="appEngine.searchVerb('pensare')">pensare a/di</button>
@@ -111,15 +118,22 @@
                     <button class="tag-btn" onclick="appEngine.searchVerb('interessarsi')">interessarsi di/a</button>
                     <button class="tag-btn" onclick="appEngine.searchVerb('guardare')">guardare (diretto)</button>
                     <button class="tag-btn" onclick="appEngine.searchVerb('ascoltare')">ascoltare (diretto)</button>
-                    <button class="tag-btn" onclick="appEngine.searchVerb('chiedere')">chiedere [qualcosa] a [qualcuno]</button>
-                    <button class="tag-btn" onclick="appEngine.searchVerb('abituarsi')">abituarsi a</button>
+                </div>
+                <div class="quick-tags" style="margin-top: 0.75rem;">
+                    <span>Nomi &amp; Aggettivi con preposizione 📦🎨:</span>
+                    <button class="tag-btn" onclick="appEngine.navigateToCrossReference('nouns', 'bisogno')">bisogno di</button>
+                    <button class="tag-btn" onclick="appEngine.navigateToCrossReference('nouns', 'paura')">paura di</button>
+                    <button class="tag-btn" onclick="appEngine.navigateToCrossReference('nouns', 'interesse')">interesse per/a</button>
+                    <button class="tag-btn" onclick="appEngine.navigateToCrossReference('adjectives', 'contento')">contento di</button>
+                    <button class="tag-btn" onclick="appEngine.navigateToCrossReference('adjectives', 'fiero')">fiero di</button>
+                    <button class="tag-btn" onclick="appEngine.navigateToCrossReference('adjectives', 'vicino')">vicino a</button>
                 </div>
             </section>
         </main>
 
         <!-- Cozy Footer -->
         <footer class="app-footer">
-            <p>🌿 <strong>COSYlanguages Standalone Apps</strong> — Reggenza verbale italiana. 100% offline &amp; privato.</p>
+            <p>🌿 <strong>COSYlanguages Standalone Apps</strong> — Reggenza verbale, nominale e aggettivale italiana. 100% offline &amp; privato.</p>
         </footer>
     </div>
 
