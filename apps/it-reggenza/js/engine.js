@@ -2,18 +2,23 @@
  * COSYlanguages Standalone App — Reggenza verbale, nominale e aggettivale italiana (it-reggenza)
  * Provides offline search, Italian prepositional regime rules (a, di, su, in, con, da, direct),
  * pronominal verb patterns, articulation flags, word-type switcher (Verbi / Nomi / Aggettivi),
- * cross-reference navigation, and verb vs. noun vs. adjective preposition contrasts.
+ * cross-reference navigation, spaced-repetition practice mode & dashboard.
  */
 
 class ItalianReggenzaEngine {
     constructor() {
         this.dbMap = { verbs: {}, nouns: {}, adjectives: {} };
         this.currentWordType = 'verbs'; // 'verbs' | 'nouns' | 'adjectives'
+        this.appMode = 'practice'; // 'practice' | 'lookup' | 'dashboard'
         this.verbDb = {};
         this.verbKeys = [];
         this.filteredKeys = [];
         this.activeFilter = 'all';
         this.currentIndex = -1;
+
+        this.srsStore = null;
+        this.practice = null;
+        this.dashboard = null;
 
         this.init();
     }
@@ -30,11 +35,67 @@ class ItalianReggenzaEngine {
             this.dbMap.nouns = await nounsRes.json();
             this.dbMap.adjectives = await adjRes.json();
 
+            this.srsStore = new SpacedRepetitionStore();
+            this.practice = new PracticeManager(this, this.srsStore);
+            this.dashboard = new DashboardManager(this, this.srsStore);
+
             this.setWordType('verbs');
             this.bindEvents();
+            this.setAppMode('practice');
         } catch (err) {
             console.error("Failed to load Italian prepositions database:", err);
         }
+    }
+
+    setAppMode(mode) {
+        this.appMode = mode;
+
+        ['practice', 'lookup', 'dashboard'].forEach(m => {
+            const btn = document.getElementById(`nav-${m}-btn`);
+            const container = document.getElementById(`${m}-view-container`);
+            if (btn) {
+                if (m === mode) btn.classList.add('active');
+                else btn.classList.remove('active');
+            }
+            if (container) {
+                container.style.display = (m === mode) ? 'block' : 'none';
+            }
+        });
+
+        if (mode === 'practice') {
+            this.updateStreakWidget();
+            if (!this.practice.currentSession || this.practice.currentSession.length === 0) {
+                this.startNewPracticeSession();
+            }
+        } else if (mode === 'dashboard') {
+            if (this.dashboard) this.dashboard.renderDashboard();
+        }
+    }
+
+    updateStreakWidget() {
+        if (!this.srsStore) return;
+        const streakInfo = this.srsStore.getStreakInfo();
+        const streakEl = document.getElementById('practice-streak-count');
+        const goalEl = document.getElementById('practice-goal-sub');
+
+        if (streakEl) streakEl.textContent = streakInfo.streakDays;
+        if (goalEl) goalEl.textContent = `Obiettivo: ${streakInfo.todayCount} / ${streakInfo.goal} sessioni oggi`;
+    }
+
+    startNewPracticeSession() {
+        const levelSelect = document.getElementById('practice-level-select');
+        const typeSelect = document.getElementById('practice-type-select');
+
+        const lvl = levelSelect ? levelSelect.value : 'all';
+        const type = typeSelect ? typeSelect.value : 'all';
+
+        if (this.practice) {
+            this.practice.startSession(lvl, type);
+        }
+    }
+
+    onPracticeFilterChange() {
+        this.startNewPracticeSession();
     }
 
     setWordType(wordType) {
@@ -142,7 +203,6 @@ class ItalianReggenzaEngine {
                 this.filteredKeys = [...this.verbKeys];
             }
         } else {
-            // Nouns or Adjectives filtering
             if (this.activeFilter === 'all') {
                 this.filteredKeys = [...this.verbKeys];
             } else {
@@ -390,6 +450,7 @@ class ItalianReggenzaEngine {
     }
 
     navigateToCrossReference(targetType, targetKey) {
+        this.setAppMode('lookup');
         this.setWordType(targetType);
         this.searchVerb(targetKey);
     }
