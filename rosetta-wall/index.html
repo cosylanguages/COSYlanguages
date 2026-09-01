@@ -1,0 +1,662 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>COSYlanguages Rosetta Wall · Comparative Grammar Showcase</title>
+<meta name="description" content="A side-by-side comparative showcase of core communicative functions across 14 languages, demonstrating native linguistic logic through semantic color-coding.">
+<link rel="stylesheet" href="../css/lang-pages.css">
+<link rel="stylesheet" href="../css/lang-accents.css">
+<link rel="stylesheet" href="../css/mobile.css">
+<style>
+  :root {
+    --brand-teal: #0f382c;
+    --brand-teal-light: #e3f5ef;
+    --paper-bg: #fcfbf7;
+    --card-bg: #ffffff;
+    --text-ink: #13231e;
+    --text-soft: #3c544c;
+    --line-border: #e3e0d5;
+
+    /* Semantic Role Colors from EDITORIAL_HANDBOOK.md PART II */
+    --role-subject: #3562e0;
+    --role-subject-bg: #e9eefd;
+    --role-verb: #1c8f56;
+    --role-verb-bg: #e6f6ec;
+    --role-noun: #c9740a;
+    --role-noun-bg: #fbecd9;
+    --role-adj: #7c4fd6;
+    --role-adj-bg: #f1e9fb;
+    --role-ending: #0f5c50;
+    --role-ending-bg: #e4f4f0;
+    --role-question: #a3195b;
+    --role-question-bg: #fce8f1;
+  }
+  body {
+    background: var(--paper-bg);
+    color: var(--text-ink);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+  }
+  .topbar {
+    background: var(--brand-teal);
+    color: #fff;
+    padding: 12px 24px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .topbar-inner {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .topbar a {
+    color: #eafaf5;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .hero-rosetta {
+    background: linear-gradient(135deg, var(--brand-teal), #1c6b54);
+    color: #fff;
+    padding: 60px 24px 48px;
+    text-align: center;
+  }
+  .hero-rosetta h1 {
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: clamp(30px, 5vw, 46px);
+    margin: 12px 0;
+  }
+  .hero-rosetta p {
+    max-width: 760px;
+    margin: 0 auto 20px;
+    font-size: 17.5px;
+    opacity: 0.94;
+    line-height: 1.6;
+  }
+  .principle-badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.18);
+    color: #fff;
+    padding: 6px 16px;
+    border-radius: 99px;
+    font-size: 12.5px;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .rosetta-container {
+    max-width: 1180px;
+    margin: 40px auto 80px;
+    padding: 0 24px;
+  }
+
+  /* Legend Bar */
+  .legend-card {
+    background: var(--card-bg);
+    border: 1px solid var(--line-border);
+    border-radius: 18px;
+    padding: 20px 24px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 16px -6px rgba(19, 35, 30, 0.08);
+  }
+  .legend-card h3 {
+    margin: 0 0 12px;
+    font-size: 16px;
+    font-family: 'Poppins', system-ui, sans-serif;
+    color: var(--text-ink);
+  }
+  .legend-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 20px;
+  }
+  .legend-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13.5px;
+    font-weight: 600;
+  }
+  .badge-chip {
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 13px;
+  }
+
+  /* Color highlights */
+  .hl-subj { background: var(--role-subject-bg); color: var(--role-subject); font-weight: 700; padding: 2px 6px; border-radius: 5px; }
+  .hl-verb { background: var(--role-verb-bg); color: var(--role-verb); font-weight: 700; padding: 2px 6px; border-radius: 5px; }
+  .hl-noun { background: var(--role-noun-bg); color: var(--role-noun); font-weight: 700; padding: 2px 6px; border-radius: 5px; }
+  .hl-adj  { background: var(--role-adj-bg); color: var(--role-adj); font-weight: 700; padding: 2px 6px; border-radius: 5px; }
+  .hl-end  { background: var(--role-ending-bg); color: var(--role-ending); font-weight: 700; padding: 2px 6px; border-radius: 5px; }
+  .hl-q    { background: var(--role-question-bg); color: var(--role-question); font-weight: 700; padding: 2px 6px; border-radius: 5px; }
+
+  /* Function Section Cards */
+  .function-block {
+    background: var(--card-bg);
+    border: 1px solid var(--line-border);
+    border-radius: 20px;
+    padding: 28px;
+    margin-bottom: 36px;
+    box-shadow: 0 8px 24px -12px rgba(19, 35, 30, 0.1);
+  }
+  .function-header {
+    border-bottom: 2px solid var(--brand-teal-light);
+    padding-bottom: 16px;
+    margin-bottom: 24px;
+  }
+  .function-header h2 {
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 24px;
+    margin: 0 0 6px;
+    color: var(--brand-teal);
+  }
+  .function-header p {
+    margin: 0;
+    color: var(--text-soft);
+    font-size: 14.5px;
+  }
+
+  .sentences-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 16px;
+  }
+
+  .sentence-card {
+    background: #fdfdfb;
+    border: 1px solid var(--line-border);
+    border-radius: 14px;
+    padding: 16px 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+    transition: transform 0.15s, border-color 0.15s;
+  }
+  .sentence-card:hover {
+    transform: translateY(-2px);
+    border-color: #bdcbb9;
+  }
+  .lang-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13.5px;
+    font-weight: 700;
+    color: var(--text-soft);
+  }
+  .lang-label .flag {
+    font-size: 20px;
+    margin-right: 6px;
+  }
+  .native-sentence {
+    font-size: 17px;
+    line-height: 1.5;
+    color: var(--text-ink);
+    padding: 8px 0;
+  }
+  .manual-btn {
+    align-self: flex-start;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--brand-teal);
+    background: var(--brand-teal-light);
+    padding: 5px 12px;
+    border-radius: 99px;
+    text-decoration: none;
+    transition: background 0.15s;
+  }
+  .manual-btn:hover {
+    background: #c7eadf;
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="../index.html">← COSYlanguages Platform</a>
+    <a href="../manuals/index.html">All Manuals Hub</a>
+  </div>
+</header>
+
+<section class="hero-rosetta">
+  <span class="principle-badge">Editorial Standard · Principle 3</span>
+  <h1>The Rosetta Wall</h1>
+  <p>Every language thinks differently. Below, 5 core communicative functions are displayed side by side across 14 target languages using color-coded structural roles. Observe how native logic organizes meaning without translation crutches.</p>
+</section>
+
+<main class="rosetta-container">
+
+  <!-- Legend Card -->
+  <div class="legend-card">
+    <h3>🎨 Semantic Role Palette (docs/EDITORIAL_HANDBOOK.md PART II)</h3>
+    <div class="legend-grid">
+      <div class="legend-item"><span class="badge-chip hl-subj">Subject / Topic</span></div>
+      <div class="legend-item"><span class="badge-chip hl-verb">Verb / Action</span></div>
+      <div class="legend-item"><span class="badge-chip hl-noun">Object / Noun</span></div>
+      <div class="legend-item"><span class="badge-chip hl-adj">Adjective / Location</span></div>
+      <div class="legend-item"><span class="badge-chip hl-end">Affix / Case Ending</span></div>
+      <div class="legend-item"><span class="badge-chip hl-q">Question / Negation Marker</span></div>
+    </div>
+  </div>
+
+  <!-- FUNCTION 1 -->
+  <section class="function-block" id="possession">
+    <div class="function-header">
+      <h2>1. Expressing Possession</h2>
+      <p>Direct verb ownership ("I have a book") vs locative existence ("At me is a book") vs agglutinative suffix attachment.</p>
+    </div>
+    <div class="sentences-grid">
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇬🇧</span> English</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-subj">I</span> <span class="hl-verb">have got</span> <span class="hl-noun">a book</span>.</div>
+        <a href="../grammar/topics/have-got.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇫🇷</span> French</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-subj">J'</span><span class="hl-verb">ai</span> <span class="hl-noun">un livre</span>.</div>
+        <a href="../grammaire-francaise/topics/adjectifs-possessifs.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇷🇺</span> Russian</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-end">У меня</span> <span class="hl-verb">есть</span> <span class="hl-noun">книга</span>.</div>
+        <a href="../grammatika-russkogo-yazyka/topics/u-menya-est.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇬🇷</span> Greek</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-verb">Έχω</span> <span class="hl-noun">ένα βιβλίο</span>.</div>
+        <a href="../elliniki-grammatiki/topics/to-rima-echo.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇮🇹</span> Italian</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-subj">Io</span> <span class="hl-verb">ho</span> <span class="hl-noun">un libro</span>.</div>
+        <a href="../grammatica-italiana/topics/essere-avere.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇪🇸</span> Spanish</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-verb">Tengo</span> <span class="hl-noun">un libro</span>.</div>
+        <a href="../gramatica-espanola/topics/posesivos.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇩🇪</span> German</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-subj">Ich</span> <span class="hl-verb">habe</span> <span class="hl-noun">ein Buch</span>.</div>
+        <a href="../deutsche-grammatik/topics/sein-und-haben.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇵🇹</span> Portuguese</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-subj">Eu</span> <span class="hl-verb">tenho</span> <span class="hl-noun">um livro</span>.</div>
+        <a href="../gramatica-portuguesa/topics/possessivos.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🖤</span> Breton</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-noun">Ur levr</span> <span class="hl-verb">am eus</span>.</div>
+        <a href="../yezhadur-brezhoneg/topics/ar-verb-kaout.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🟢</span> Tatar</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-end">Минем</span> <span class="hl-noun">китабым</span> <span class="hl-verb">бар</span>.</div>
+        <a href="../tatar-teli-grammatikasy/topics/bar-yuk.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🔵</span> Bashkir</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-end">Минең</span> <span class="hl-noun">китабым</span> <span class="hl-verb">бар</span>.</div>
+        <a href="../bashqort-tele-grammatikahy/topics/bar-yukh.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🔴</span> Chuvash</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-end">Манăн</span> <span class="hl-noun">кĕнекем</span> <span class="hl-verb">пур</span>.</div>
+        <a href="../chavash-grammatika/topics/pur-suk.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇦🇲</span> Armenian</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-end">Իմ</span> <span class="hl-noun">գիրքս</span> <span class="hl-verb">կա</span>.</div>
+        <a href="../hayots-lezvi-kerakanutyun/topics/statsakanutyun.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇬🇪</span> Georgian</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-end">მე</span> <span class="hl-verb">მაქვს</span> <span class="hl-noun">წიგნი</span>.</div>
+        <a href="../qartuli-gramatika/topics/akvs-hkavs.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FUNCTION 2 -->
+  <section class="function-block" id="negation">
+    <div class="function-header">
+      <h2>2. Negating a Sentence</h2>
+      <p>Auxiliary helpers vs double negation frames (ne...pas / ne...ket) vs preposed particles vs suffixal verb markers.</p>
+    </div>
+    <div class="sentences-grid">
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇬🇧</span> English</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-subj">I</span> <span class="hl-q">do not</span> <span class="hl-verb">read</span>.</div>
+        <a href="../grammar/topics/present-simple.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇫🇷</span> French</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-subj">Je</span> <span class="hl-q">ne</span> <span class="hl-verb">lis</span> <span class="hl-q">pas</span>.</div>
+        <a href="../grammaire-francaise/topics/negation.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇷🇺</span> Russian</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-subj">Я</span> <span class="hl-q">не</span> <span class="hl-verb">читаю</span>.</div>
+        <a href="../grammatika-russkogo-yazyka/topics/poryadok-slov.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇬🇷</span> Greek</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-q">Δεν</span> <span class="hl-verb">διαβάζω</span>.</div>
+        <a href="../elliniki-grammatiki/topics/vasiki-seira-lexeon.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇮🇹</span> Italian</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-q">Non</span> <span class="hl-verb">leggo</span>.</div>
+        <a href="../grammatica-italiana/topics/negazione.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇪🇸</span> Spanish</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-q">No</span> <span class="hl-verb">leo</span>.</div>
+        <a href="../gramatica-espanola/topics/negacion.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇩🇪</span> German</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-subj">Ich</span> <span class="hl-verb">lese</span> <span class="hl-q">nicht</span>.</div>
+        <a href="../deutsche-grammatik/topics/negation-nicht-kein.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇵🇹</span> Portuguese</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-q">Não</span> <span class="hl-verb">leio</span>.</div>
+        <a href="../gramatica-portuguesa/topics/negacao.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🖤</span> Breton</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-q">Ne</span> <span class="hl-verb">lannan</span> <span class="hl-q">ket</span>.</div>
+        <a href="../yezhadur-brezhoneg/topics/negasion.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🟢</span> Tatar</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-subj">Мин</span> <span class="hl-verb">язып</span><span class="hl-q">мыйм</span>.</div>
+        <a href="../tatar-teli-grammatikasy/topics/kire-kagu.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🔵</span> Bashkir</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-subj">Мин</span> <span class="hl-verb">яҙ</span><span class="hl-q">майым</span>.</div>
+        <a href="../bashqort-tele-grammatikahy/topics/kire-khaghu.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🔴</span> Chuvash</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-subj">Эпĕ</span> <span class="hl-verb">вула</span><span class="hl-q">мастăп</span>.</div>
+        <a href="../chavash-grammatika/topics/suklokh-kalapashsem.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇦🇲</span> Armenian</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-subj">Ես</span> <span class="hl-q">չեմ</span> <span class="hl-verb">կարդում</span>.</div>
+        <a href="../hayots-lezvi-kerakanutyun/topics/zhkhtum.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇬🇪</span> Georgian</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-subj">მე</span> <span class="hl-q">არ</span> <span class="hl-verb">ვწერ</span>.</div>
+        <a href="../qartuli-gramatika/topics/uaryofiti-fortmebi.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FUNCTION 3 -->
+  <section class="function-block" id="question">
+    <div class="function-header">
+      <h2>3. Asking a Yes/No Question</h2>
+      <p>Do-support inversion vs verb-subject flip vs intonation alone vs interrogative suffix particles (-мы, -и).</p>
+    </div>
+    <div class="sentences-grid">
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇬🇧</span> English</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-q">Do</span> <span class="hl-subj">you</span> <span class="hl-verb">read</span>?</div>
+        <a href="../grammar/topics/present-simple.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇫🇷</span> French</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-verb">Lisez</span><span class="hl-q">-vous</span> ?</div>
+        <a href="../grammaire-francaise/topics/poser-des-questions.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇷🇺</span> Russian</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-subj">Ты</span> <span class="hl-verb">читаешь</span>?</div>
+        <a href="../grammatika-russkogo-yazyka/topics/poryadok-slov.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇬🇷</span> Greek</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-verb">Διαβάζεις</span>;</div>
+        <a href="../elliniki-grammatiki/topics/vasiki-seira-lexeon.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇮🇹</span> Italian</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-verb">Leggi</span>?</div>
+        <a href="../grammatica-italiana/topics/interrogativi.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇪🇸</span> Spanish</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-q">¿</span><span class="hl-verb">Lees</span>?</div>
+        <a href="../gramatica-espanola/topics/interrogativos.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇩🇪</span> German</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-verb">Liest</span> <span class="hl-subj">du</span>?</div>
+        <a href="../deutsche-grammatik/topics/w-fragen-und-ja-nein-fragen.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇵🇹</span> Portuguese</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-verb">Lês</span>?</div>
+        <a href="../gramatica-portuguesa/topics/interrogativos.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🖤</span> Breton</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-verb">Lenn</span> a <span class="hl-verb">rez</span>?</div>
+        <a href="../yezhadur-brezhoneg/topics/geriou-goulenn.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🟢</span> Tatar</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-subj">Бу</span> <span class="hl-noun">китап</span><span class="hl-q">мы</span>?</div>
+        <a href="../tatar-teli-grammatikasy/topics/sorau-formashy.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🔵</span> Bashkir</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-subj">Был</span> <span class="hl-noun">китап</span><span class="hl-q">мы</span>?</div>
+        <a href="../bashqort-tele-grammatikahy/topics/horau-formahhy.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🔴</span> Chuvash</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-subj">Ку</span> <span class="hl-noun">кĕнеке</span><span class="hl-q">-и</span>?</div>
+        <a href="../chavash-grammatika/topics/ytu-kalapashsem.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇦🇲</span> Armenian</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-verb">Կարդո՞ւմ</span> <span class="hl-q">ես</span>.</div>
+        <a href="../hayots-lezvi-kerakanutyun/topics/hartser-yev-hartsakan-barer.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇬🇪</span> Georgian</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-verb">წერ</span>?</div>
+        <a href="../qartuli-gramatika/topics/kitkhviti-sitkvebi.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FUNCTION 4 -->
+  <section class="function-block" id="word-order">
+    <div class="function-header">
+      <h2>4. Basic Word Order ("The Cat Eats Fish" / Action)</h2>
+      <p>SVO (Subject-Verb-Object) vs SOV (Subject-Object-Verb) vs VSO (Verb-Subject-Object).</p>
+    </div>
+    <div class="sentences-grid">
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇬🇧</span> English (SVO)</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-subj">The cat</span> <span class="hl-verb">eats</span> <span class="hl-noun">fish</span>.</div>
+        <a href="../grammar/topics/word-order.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇫🇷</span> French (SVO)</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-subj">Le chat</span> <span class="hl-verb">mange</span> <span class="hl-noun">du poisson</span>.</div>
+        <a href="../grammaire-francaise/topics/articles-partitifs.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇷🇺</span> Russian (SVO / Flexible)</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-subj">Кошка</span> <span class="hl-verb">ест</span> <span class="hl-noun">рыбу</span>.</div>
+        <a href="../grammatika-russkogo-yazyka/topics/poryadok-slov.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇬🇷</span> Greek (SVO)</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-subj">Η γάτα</span> <span class="hl-verb">τρώει</span> <span class="hl-noun">ψάρι</span>.</div>
+        <a href="../elliniki-grammatiki/topics/vasiki-seira-lexeon.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇮🇹</span> Italian (SVO)</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-subj">Il gatto</span> <span class="hl-verb">mangia</span> <span class="hl-noun">il pesce</span>.</div>
+        <a href="../grammatica-italiana/topics/presente-regolare.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇪🇸</span> Spanish (SVO)</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-subj">El gato</span> <span class="hl-verb">come</span> <span class="hl-noun">pescado</span>.</div>
+        <a href="../gramatica-espanola/topics/presente-indicativo.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇩🇪</span> German (SVO / V2)</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-subj">Die Katze</span> <span class="hl-verb">frisst</span> <span class="hl-noun">Fisch</span>.</div>
+        <a href="../deutsche-grammatik/topics/wortstellung-v2.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇵🇹</span> Portuguese (SVO)</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-subj">O gato</span> <span class="hl-verb">come</span> <span class="hl-noun">peixe</span>.</div>
+        <a href="../gramatica-portuguesa/topics/presente-do-indicativo.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🖤</span> Breton (VSO Focus)</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-verb">Debriñ</span> a ra <span class="hl-subj">ar c'hazh</span> <span class="hl-noun">pesked</span>.</div>
+        <a href="../yezhadur-brezhoneg/topics/urzh-ar-geriou.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🟢</span> Tatar (SOV)</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-subj">Мин</span> <span class="hl-noun">татар теле</span> <span class="hl-verb">өйрәнәм</span>.</div>
+        <a href="../tatar-teli-grammatikasy/topics/sozlar-tartibe.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🔵</span> Bashkir (SOV)</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-subj">Мин</span> <span class="hl-noun">башҡорт телен</span> <span class="hl-verb">өйрәнәм</span>.</div>
+        <a href="../bashqort-tele-grammatikahy/topics/huththar-tartibe.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🔴</span> Chuvash (SOV)</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-subj">Эпĕ</span> <span class="hl-noun">чăваш чĕлхине</span> <span class="hl-verb">вĕренетĕп</span>.</div>
+        <a href="../chavash-grammatika/topics/samakh-yerki.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇦🇲</span> Armenian (SOV / SVO)</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-subj">Ես</span> <span class="hl-noun">հայերեն</span> <span class="hl-verb">եմ սովորում</span>.</div>
+        <a href="../hayots-lezvi-kerakanutyun/topics/nakhadasutyan-karutsvaskh.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇬🇪</span> Georgian (SVO / SOV)</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-subj">მე</span> <span class="hl-verb">ვსწავლობ</span> <span class="hl-noun">ქართულ ენას</span>.</div>
+        <a href="../qartuli-gramatika/topics/sitkvata-rigi.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FUNCTION 5 -->
+  <section class="function-block" id="existence">
+    <div class="function-header">
+      <h2>5. Expressing Existence</h2>
+      <p>"There is" dummy subjects vs impersonal verbs (il y a, hay, es gibt) vs existential particles (бар, пур, კა, არის).</p>
+    </div>
+    <div class="sentences-grid">
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇬🇧</span> English</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-verb">There is</span> <span class="hl-noun">a book</span> <span class="hl-adj">on the table</span>.</div>
+        <a href="../grammar/topics/there-is-are.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇫🇷</span> French</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-verb">Il y a</span> <span class="hl-noun">un livre</span> <span class="hl-adj">sur la table</span>.</div>
+        <a href="../grammaire-francaise/topics/cest-vs-il-est.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇷🇺</span> Russian</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-adj">На столе</span> <span class="hl-verb">есть</span> <span class="hl-noun">книга</span>.</div>
+        <a href="../grammatika-russkogo-yazyka/topics/u-menya-est.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇬🇷</span> Greek</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-verb">Υπάρχει</span> <span class="hl-noun">ένα βιβλίο</span> <span class="hl-adj">στο τραπέζι</span>.</div>
+        <a href="../elliniki-grammatiki/topics/yparchei-yparchoun.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇮🇹</span> Italian</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-verb">C'è</span> <span class="hl-noun">un libro</span> <span class="hl-adj">sul tavolo</span>.</div>
+        <a href="../grammatica-italiana/topics/c-e-ci-sono.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇪🇸</span> Spanish</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-verb">Hay</span> <span class="hl-noun">un libro</span> <span class="hl-adj">en la mesa</span>.</div>
+        <a href="../gramatica-espanola/topics/hay-vs-esta.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇩🇪</span> German</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-verb">Es gibt</span> <span class="hl-noun">ein Buch</span> <span class="hl-adj">auf dem Tisch</span>.</div>
+        <a href="../deutsche-grammatik/topics/es-gibt.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇵🇹</span> Portuguese</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-verb">Há</span> <span class="hl-noun">um livro</span> <span class="hl-adj">na mesa</span>.</div>
+        <a href="../gramatica-portuguesa/topics/ha-vs-tem.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🖤</span> Breton</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-verb">Bez' ez eus</span> <span class="hl-noun">ur levr</span> <span class="hl-adj">war an daol</span>.</div>
+        <a href="../yezhadur-brezhoneg/topics/bez-ez-eus.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🟢</span> Tatar</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-adj">Өстәлдә</span> <span class="hl-noun">китап</span> <span class="hl-verb">бар</span>.</div>
+        <a href="../tatar-teli-grammatikasy/topics/bar-yuk.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🔵</span> Bashkir</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-adj">Өҫтәлдә</span> <span class="hl-noun">китап</span> <span class="hl-verb">бар</span>.</div>
+        <a href="../bashqort-tele-grammatikahy/topics/bar-yukh.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🔴</span> Chuvash</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-adj">Стол çинче</span> <span class="hl-noun">кĕнеке</span> <span class="hl-verb">пур</span>.</div>
+        <a href="../chavash-grammatika/topics/pur-suk.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇦🇲</span> Armenian</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-adj">Սեղանին</span> <span class="hl-noun">գիրք</span> <span class="hl-verb">կա</span>.</div>
+        <a href="../hayots-lezvi-kerakanutyun/topics/ka-chka.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+      <div class="sentence-card">
+        <div class="lang-label"><span><span class="flag">🇬🇪</span> Georgian</span><span>A0–A1</span></div>
+        <div class="native-sentence"><span class="hl-adj">მაგიდაზე</span> <span class="hl-noun">წიგნი</span> <span class="hl-verb">არის</span>.</div>
+        <a href="../qartuli-gramatika/topics/aris-ar-aris.html" class="manual-btn">📘 Open Grammar Manual Topic →</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer style="background: var(--brand-teal); color: #c9d8d4; padding: 36px 24px; text-align: center; font-size: 13.5px;">
+  <div>&copy; 2026 COSYlanguages · All rights reserved · Comparative Language Architecture Showcase</div>
+</footer>
+
+</body>
+</html>
