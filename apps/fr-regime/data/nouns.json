@@ -8,7 +8,7 @@
     "level": "A1",
     "definition": "Exigence fondamentale ou nécessité vitale d'avoir quelque chose.",
     "grammar_rule": "Le nom 'besoin' prend la préposition 'de' (besoin de repos). Identique au verbe 'avoir besoin de'. Contractions du/des.",
-    "related_forms": "⚡ Nom : 'besoin' ➜ Verbe apparenté : « avoir besoin »",
+    "related_forms": "avoir besoin",
     "examples": [
       "Il ressent un grand besoin de repos après le travail.",
       "Le besoin d'eau est vital pour tous."
@@ -21,6 +21,468 @@
     "antonyms": [
       "superflu",
       "luxe"
+    ]
+  },
+  "peur": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "peur de [nom / verbe]",
+    "level": "A1",
+    "definition": "Sentiment d'inquiétude ou d'effroi face à un danger.",
+    "grammar_rule": "Exige la préposition 'de' devant un nom ou un infinitif. Se contracte avec 'le' (du) et 'les' (des).",
+    "related_forms": "avoir peur",
+    "examples": [
+      "Les enfants ont peur du noir.",
+      "Elle a eu peur de rater son train."
+    ],
+    "common_mistake": "❌ J'ai peur pour le noir. ➜ ✅ J'ai peur du noir.",
+    "synonyms": [
+      "crainte",
+      "frayeur"
+    ],
+    "antonyms": [
+      "courage",
+      "assurance"
+    ]
+  },
+  "envie": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "envie de [nom / verbe]",
+    "level": "A1",
+    "definition": "Désir immédiat de faire ou de posséder quelque chose.",
+    "grammar_rule": "S'emploie toujours avec 'de' devant un nom ou un verbe à l'infinitif.",
+    "related_forms": "avoir envie",
+    "examples": [
+      "J'ai vraiment envie d'un bon café.",
+      "Elle a envie de partir en vacances."
+    ],
+    "common_mistake": "❌ J'ai envie pour sortir. ➜ ✅ J'ai envie de sortir.",
+    "synonyms": [
+      "désir",
+      "souhait"
+    ],
+    "antonyms": [
+      "aversion",
+      "dégoût"
+    ]
+  },
+  "accès": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "accès à [lieu / ressource]",
+    "level": "A2",
+    "definition": "Possibilité de pénétrer dans un lieu ou d'utiliser un service.",
+    "grammar_rule": "Nécessite la préposition 'à'. Attention aux contractions : à + le = au, à + les = aux.",
+    "related_forms": "accéder",
+    "examples": [
+      "L'accès à la bibliothèque est gratuit.",
+      "Les étudiants ont accès aux ordinateurs."
+    ],
+    "common_mistake": "❌ L'accès de la salle est fermé. ➜ ✅ L'accès à la salle est fermé.",
+    "synonyms": [
+      "entrée",
+      "admission"
+    ],
+    "antonyms": [
+      "interdiction",
+      "fermeture"
+    ]
+  },
+  "solution": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "solution à [problème]",
+    "level": "A2",
+    "definition": "Moyen qui permet de résoudre une difficulté ou une question.",
+    "grammar_rule": "Prend la préposition 'à' pour indiquer ce qui est résolu (solution à un problème).",
+    "related_forms": "résoudre",
+    "examples": [
+      "Nous avons trouvé une solution à ce problème.",
+      "Il existe plusieurs solutions à cette crise."
+    ],
+    "common_mistake": "❌ La solution pour le problème. ➜ ✅ La solution au problème.",
+    "synonyms": [
+      "réponse",
+      "issue"
+    ],
+    "antonyms": [
+      "obstacle",
+      "complication"
+    ]
+  },
+  "réaction": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "réaction à [événement / propos]",
+    "level": "A2",
+    "definition": "Comportement ou sentiment provoqué par une action extérieure.",
+    "grammar_rule": "Prend la préposition 'à' pour marquer l'élément déclencheur.",
+    "related_forms": "réagir",
+    "examples": [
+      "Sa réaction à cette nouvelle était inattendue.",
+      "Quelle a été votre réaction au message ?"
+    ],
+    "common_mistake": "❌ Sa réaction de la nouvelle. ➜ ✅ Sa réaction à la nouvelle.",
+    "synonyms": [
+      "réponse",
+      "répartie"
+    ],
+    "antonyms": [
+      "passivité",
+      "indifférence"
+    ]
+  },
+  "influence": {
+    "word_type": "noun",
+    "prepositions": [
+      "sur"
+    ],
+    "pattern": "influence sur [personne / chose]",
+    "level": "B1",
+    "definition": "Action exercée par une personne ou une chose sur une autre.",
+    "grammar_rule": "Le nom 'influence' exige la préposition 'sur'. Attention : le verbe 'influencer' est transitif direct !",
+    "related_forms": "influencer",
+    "examples": [
+      "Le climat a une grande influence sur notre humeur.",
+      "Elle a une bonne influence sur ses camarades."
+    ],
+    "common_mistake": "❌ Une influence à la société. ➜ ✅ Une influence sur la société.",
+    "synonyms": [
+      "impact",
+      "effet"
+    ],
+    "antonyms": [
+      "inefficacité",
+      "neutralité"
+    ]
+  },
+  "confiance": {
+    "word_type": "noun",
+    "prepositions": [
+      "en"
+    ],
+    "pattern": "confiance en [personne / soi]",
+    "level": "B1",
+    "definition": "Sentiment de sécurité fondé sur l'honnêteté ou les capacités de quelqu'un.",
+    "grammar_rule": "S'emploie avec 'en' (ex: confiance en soi, confiance en Dieu/quelqu'un) ou parfois 'dans' devant un déterminant.",
+    "related_forms": "faire confiance",
+    "examples": [
+      "Il faut avoir confiance en soi pour réussir.",
+      "J'ai toute confiance en mes équipiers."
+    ],
+    "common_mistake": "❌ J'ai confiance à lui. ➜ ✅ J'ai confiance en lui.",
+    "synonyms": [
+      "assurance",
+      "foi"
+    ],
+    "antonyms": [
+      "méfiance",
+      "doute"
+    ]
+  },
+  "fidélité": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "fidélité à [cause / personne / engagement]",
+    "level": "B2",
+    "definition": "Attachement constant et respect des engagements pris.",
+    "grammar_rule": "S'emploie avec la préposition 'à'.",
+    "related_forms": "fidèle",
+    "examples": [
+      "Sa fidélité à la marque est remarquable.",
+      "Ils ont juré fidélité à leur patrie."
+    ],
+    "common_mistake": "❌ Fidélité de ses principes. ➜ ✅ Fidélité à ses principes.",
+    "synonyms": [
+      "loyauté",
+      "dévouement"
+    ],
+    "antonyms": [
+      "infidélité",
+      "trahison"
+    ]
+  },
+  "doute": {
+    "word_type": "noun",
+    "prepositions": [
+      "sur"
+    ],
+    "pattern": "doute sur / quant à [sujet]",
+    "level": "B2",
+    "definition": "Incertitude ou manque de conviction sur une réalité.",
+    "grammar_rule": "Exige 'sur' ou 'quant à' pour introduire l'objet de l'hésitation.",
+    "related_forms": "douter",
+    "examples": [
+      "J'ai des doutes sur l'efficacité de cette méthode.",
+      "Le doute plane sur son honnêteté."
+    ],
+    "common_mistake": "❌ J'ai des doutes de sa réussite. ➜ ✅ J'ai des doutes sur sa réussite.",
+    "synonyms": [
+      "incertitude",
+      "hésitation"
+    ],
+    "antonyms": [
+      "certitude",
+      "assurance"
+    ]
+  },
+  "amour": {
+    "word_type": "noun",
+    "prepositions": [
+      "pour",
+      "de"
+    ],
+    "pattern": "amour pour / de [personne / cause]",
+    "level": "A1",
+    "definition": "Sentiment d'affection vive et d'attachement profond.",
+    "grammar_rule": "On emploie 'pour' (amour pour son pays) ou 'de' (l'amour de la patrie).",
+    "related_forms": "aimer",
+    "examples": [
+      "Son amour pour la musique est immense.",
+      "L'amour de la liberté anime ce peuple."
+    ],
+    "common_mistake": "❌ Amour à la musique. ➜ ✅ Amour pour la musique.",
+    "synonyms": [
+      "affection",
+      "passion"
+    ],
+    "antonyms": [
+      "haine",
+      "aversion"
+    ]
+  },
+  "goût": {
+    "word_type": "noun",
+    "prepositions": [
+      "pour",
+      "de"
+    ],
+    "pattern": "goût pour [activité] / goût de [substance]",
+    "level": "A1",
+    "definition": "Penchant ou préférence naturelle pour une activité ou une chose.",
+    "grammar_rule": "Utiliser 'pour' pour une inclination ou un intérêt (un goût pour l'art) et 'de' pour la saveur (un goût de pomme).",
+    "related_forms": "goûter",
+    "examples": [
+      "Il a un goût prononcé pour le dessin.",
+      "Ce gâteau a un délicieux goût de vanille."
+    ],
+    "common_mistake": "❌ Un goût à la lecture. ➜ ✅ Un goût pour la lecture.",
+    "synonyms": [
+      "penchant",
+      "attrait"
+    ],
+    "antonyms": [
+      "dégoût",
+      "repulsion"
+    ]
+  },
+  "intérêt": {
+    "word_type": "noun",
+    "prepositions": [
+      "pour"
+    ],
+    "pattern": "intérêt pour [sujet / domaine]",
+    "level": "A2",
+    "definition": "Attention curieuse ou importance accordée à un sujet.",
+    "grammar_rule": "S'emploie avec la préposition 'pour' quand il s'agit d'une curiosité intellectuelle.",
+    "related_forms": "intéresser",
+    "examples": [
+      "Elle porte un grand intérêt pour l'histoire ancienne.",
+      "Ce livre présente un réel intérêt pour les étudiants."
+    ],
+    "common_mistake": "❌ Un intérêt à l'histoire. ➜ ✅ Un intérêt pour l'histoire.",
+    "synonyms": [
+      "curiosité",
+      "attention"
+    ],
+    "antonyms": [
+      "indifférence",
+      "désintérêt"
+    ]
+  },
+  "respect": {
+    "word_type": "noun",
+    "prepositions": [
+      "pour",
+      "de",
+      "envers"
+    ],
+    "pattern": "respect pour / envers [personne] / respect de [règle]",
+    "level": "A2",
+    "definition": "Sentiment de considération et déférence envers une personne ou une loi.",
+    "grammar_rule": "Prend 'pour' ou 'envers' pour une personne, et 'de' pour une règle ou une loi.",
+    "related_forms": "respecter",
+    "examples": [
+      "Le respect envers les aînés est fondamental.",
+      "Le respect de la loi s'impose à tous."
+    ],
+    "common_mistake": "❌ Respect à la loi. ➜ ✅ Respect de la loi.",
+    "synonyms": [
+      "considération",
+      "déférence"
+    ],
+    "antonyms": [
+      "mépris",
+      "irrespect"
+    ]
+  },
+  "passion": {
+    "word_type": "noun",
+    "prepositions": [
+      "pour"
+    ],
+    "pattern": "passion pour [domaine / activité]",
+    "level": "B1",
+    "definition": "Amour ou enthousiasme très vif pour une activité.",
+    "grammar_rule": "S'utilise avec la préposition 'pour'.",
+    "related_forms": "passionné",
+    "examples": [
+      "Sa passion pour l'astronomie a débuté dans l'enfance.",
+      "Il vit sa passion pour le théâtre au quotidien."
+    ],
+    "common_mistake": "❌ Une passion à la danse. ➜ ✅ Une passion pour la danse.",
+    "synonyms": [
+      "enthousiasme",
+      "engouement"
+    ],
+    "antonyms": [
+      "indifférence",
+      "aversion"
+    ]
+  },
+  "fierté": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "fierté de [nom / verbe]",
+    "level": "B1",
+    "definition": "Sentiment de satisfaction légitime tiré d'un succès ou d'une qualité.",
+    "grammar_rule": "Exige la préposition 'de'.",
+    "related_forms": "fier",
+    "examples": [
+      "C'est une grande fierté de représenter mon pays.",
+      "Elle exprime la fierté de son équipe."
+    ],
+    "common_mistake": "❌ Fierté pour son travail. ➜ ✅ Fierté de son travail.",
+    "synonyms": [
+      "orgueil",
+      "satisfaction"
+    ],
+    "antonyms": [
+      "honte",
+      "humilité"
+    ]
+  },
+  "alliance": {
+    "word_type": "noun",
+    "prepositions": [
+      "avec",
+      "entre"
+    ],
+    "pattern": "alliance avec [partenaire] / entre [parties]",
+    "level": "B2",
+    "definition": "Union ou accord contracté entre personnes ou nations.",
+    "grammar_rule": "S'emploie avec 'avec' pour le partenaire et 'entre' pour le groupe d'alliés.",
+    "related_forms": "s'allier",
+    "examples": [
+      "Une alliance stratégique avec notre concurrent a été conclue.",
+      "L'alliance entre ces deux pays est ancienne."
+    ],
+    "common_mistake": "❌ Une alliance à cette entreprise. ➜ ✅ Une alliance avec cette entreprise.",
+    "synonyms": [
+      "union",
+      "coalition"
+    ],
+    "antonyms": [
+      "rupture",
+      "hostilité"
+    ]
+  },
+  "recherche": {
+    "word_type": "noun",
+    "prepositions": [
+      "de",
+      "sur"
+    ],
+    "pattern": "recherche de [objet perdu / vérité] / recherche sur [sujet scientifique]",
+    "level": "B2",
+    "definition": "Action de chercher à découvrir ou comprendre quelque chose.",
+    "grammar_rule": "Prend 'de' pour la quête d'un objet/but et 'sur' pour une étude scientifique.",
+    "related_forms": "chercher",
+    "examples": [
+      "Il est à la recherche de son premier emploi.",
+      "Le laboratoire mène des recherches sur les vaccins."
+    ],
+    "common_mistake": "❌ Recherche pour des vaccins (étude). ➜ ✅ Recherche sur les vaccins.",
+    "synonyms": [
+      "quête",
+      "étude"
+    ],
+    "antonyms": [
+      "abandon",
+      "ignorance"
+    ]
+  },
+  "soumission": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "soumission à [autorité / règle]",
+    "level": "C1",
+    "definition": "Fait de se soumettre à une volonté extérieure ou une obligation.",
+    "grammar_rule": "Exige la préposition 'à'.",
+    "related_forms": "se soumettre",
+    "examples": [
+      "La soumission à la décision du tribunal est obligatoire.",
+      "Son attitude témoignait d'une totale soumission à l'autorité."
+    ],
+    "common_mistake": "❌ Soumission de l'autorité. ➜ ✅ Soumission à l'autorité.",
+    "synonyms": [
+      "obéissance",
+      "docilité"
+    ],
+    "antonyms": [
+      "révolte",
+      "insubordination"
+    ]
+  },
+  "sensibilité": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "sensibilité à [douleur / art / problème]",
+    "level": "C1",
+    "definition": "Aptitude à ressentir vivement des impressions physiques ou morales.",
+    "grammar_rule": "S'emploie avec la préposition 'à'.",
+    "related_forms": "sensible",
+    "examples": [
+      "Sa sensibilité à la poésie est remarquable.",
+      "Une sensibilité accrue au froid."
+    ],
+    "common_mistake": "❌ Sensibilité pour la douleur. ➜ ✅ Sensibilité à la douleur.",
+    "synonyms": [
+      "réceptivité",
+      "émotivité"
+    ],
+    "antonyms": [
+      "insensibilité",
+      "indifférence"
     ]
   }
 }

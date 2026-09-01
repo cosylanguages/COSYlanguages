@@ -331,7 +331,7 @@
       "about"
     ],
     "pattern": "ask [someone] a question (VT) / ask for [item/help] (VI)",
-    "level": "A0",
+    "level": "A1",
     "definition": "To inquire about something or request an item/favor.",
     "grammar_rule": "'Ask someone' (direct object for question/person); 'ask FOR something' when requesting an item or help.",
     "examples": [
@@ -467,7 +467,7 @@
       "at"
     ],
     "pattern": "look at [someone / something]",
-    "level": "A0",
+    "level": "A1",
     "definition": "To direct your eyes toward someone or something to see them.",
     "grammar_rule": "Requires 'at' when specifying the target of sight.",
     "examples": [
@@ -1916,61 +1916,57 @@
     "particle_count": 1
   },
   "attribute to": {
-    "is_phrasal": true,
-    "separability": "Inseparable",
-    "particle": "to",
+    "is_phrasal": false,
     "transitivity": "Transitive",
     "transitivity_code": "VT",
     "prepositions": [
       "to"
     ],
-    "pattern": "attribute [effect/success] to [cause/person]",
+    "preposition_structure": "preposition_particle",
+    "particle_count": 1,
+    "pattern": "attribute [something] to [someone / cause]",
     "level": "C1",
-    "definition": "To regard something as being caused by someone or something.",
-    "grammar_rule": "Complex structure: attribute SOMETHING (direct object) TO SOMETHING/SOMEONE (cause).",
-    "noun_parallel": "⚡ Verb: 'attribute success to hard work' ➔ Noun: 'an attribution TO the author'",
+    "definition": "To regard something as being caused by or belonging to someone or something.",
+    "grammar_rule": "Always follow 'attribute' with direct object + preposition 'to'.",
     "examples": [
-      "The CEO attributed the rise in profits to strong teamwork.",
-      "Scientists attribute global warming to greenhouse gas emissions."
+      "Experts attribute the economic recovery to increased exports.",
+      "This famous poem is attributed to Shakespeare."
     ],
-    "common_mistake": "❌ He attributed the success for his team. ➔ ✅ He attributed the success to his team.",
+    "common_mistake": "❌ Attribute the success on hard work. ➜ ✅ Attribute the success to hard work.",
     "synonyms": [
       "ascribe to",
       "credit to"
     ],
-    "antonyms": [],
-    "preposition_structure": "single",
-    "particle_count": 1
+    "antonyms": [
+      "dissociate from"
+    ]
   },
   "refrain from": {
-    "is_phrasal": true,
-    "separability": "Inseparable",
-    "particle": "from",
+    "is_phrasal": false,
     "transitivity": "Intransitive",
     "transitivity_code": "VI",
     "prepositions": [
       "from"
     ],
+    "preposition_structure": "preposition_particle",
+    "particle_count": 1,
     "pattern": "refrain from + [gerund (-ing) / noun]",
     "level": "C1",
-    "definition": "To stop oneself from doing something or hold back voluntarily.",
-    "grammar_rule": "Inseparable verb + preposition structure requiring 'from' + gerund (-ing).",
+    "definition": "To stop oneself from doing something.",
+    "grammar_rule": "Always follow 'refrain' with preposition 'from' and a gerund (-ing).",
     "examples": [
-      "Please refrain from smoking inside the auditorium.",
+      "Please refrain from smoking during the flight.",
       "He refrained from making any further comments."
     ],
-    "common_mistake": "❌ Please refrain to take photos. ➔ ✅ Please refrain from taking photos.",
+    "common_mistake": "❌ Please refrain to speak. ➜ ✅ Please refrain from speaking.",
     "synonyms": [
       "abstain from",
-      "desist from",
-      "hold back from"
+      "withhold"
     ],
     "antonyms": [
       "indulge in",
       "persist in"
-    ],
-    "preposition_structure": "single",
-    "particle_count": 1
+    ]
   },
   "apply": {
     "is_phrasal": false,
@@ -2844,31 +2840,31 @@
     "particle_count": 1
   },
   "resort to": {
-    "is_phrasal": true,
-    "separability": "Inseparable",
-    "particle": "to",
+    "is_phrasal": false,
     "transitivity": "Intransitive",
     "transitivity_code": "VI",
     "prepositions": [
       "to"
     ],
-    "pattern": "resort to [drastic measure / violence / gerund]",
-    "level": "B2",
-    "definition": "To turn to a extreme or unpleasant strategy because no other options remain.",
-    "grammar_rule": "Inseparable verb + preposition structure. 'To' is a preposition, followed by noun or gerund.",
+    "preposition_structure": "preposition_particle",
+    "particle_count": 1,
+    "pattern": "resort to + [noun / gerund (-ing)]",
+    "level": "C1",
+    "definition": "To turn to and adopt a strategy as a last course of action.",
+    "grammar_rule": "Follow with preposition 'to' plus noun or gerund (-ing).",
     "examples": [
-      "They had to resort to legal action to recover the money.",
-      "Never resort to violence to solve personal conflicts."
+      "They had to resort to drastic measures to save the company.",
+      "Never resort to violence when resolving conflicts."
     ],
-    "common_mistake": "❌ Resort into extreme measures. ➔ ✅ Resort to extreme measures.",
+    "common_mistake": "❌ Resort into illegal means. ➜ ✅ Resort to illegal means.",
     "synonyms": [
       "turn to",
-      "fall back on",
-      "use as last resort"
+      "fall back on"
     ],
-    "antonyms": [],
-    "preposition_structure": "single",
-    "particle_count": 1
+    "antonyms": [
+      "avoid",
+      "shun"
+    ]
   },
   "contribute to": {
     "is_phrasal": true,
@@ -3235,34 +3231,31 @@
     "particle_count": 1
   },
   "stem from": {
-    "is_phrasal": true,
-    "separability": "Inseparable",
-    "particle": "from",
+    "is_phrasal": false,
     "transitivity": "Intransitive",
     "transitivity_code": "VI",
     "prepositions": [
       "from"
     ],
-    "pattern": "stem from [cause / root / origin]",
-    "level": "B2",
+    "preposition_structure": "preposition_particle",
+    "particle_count": 1,
+    "pattern": "stem from + [noun / cause]",
+    "level": "C1",
     "definition": "To originate or develop as a result of something.",
-    "grammar_rule": "Inseparable verb + preposition requiring 'from' before the root cause.",
+    "grammar_rule": "Follow with preposition 'from'.",
     "examples": [
       "His anxiety stems from past traumatic experiences.",
-      "Many health problems stem from poor dietary habits."
+      "Many environmental issues stem from industrial waste."
     ],
-    "common_mistake": "❌ The error stems out of ignorance. ➔ ✅ The error stems from ignorance.",
+    "common_mistake": "❌ Stem out of bad habits. ➜ ✅ Stem from bad habits.",
     "synonyms": [
-      "arise from",
-      "originate in",
+      "originate from",
       "derive from"
     ],
     "antonyms": [
-      "result in",
-      "lead to"
-    ],
-    "preposition_structure": "single",
-    "particle_count": 1
+      "lead to",
+      "result in"
+    ]
   },
   "subjugate to": {
     "is_phrasal": true,
@@ -5115,33 +5108,32 @@
     "particle_count": 1
   },
   "agree with": {
-    "is_phrasal": true,
-    "separability": "Inseparable",
-    "particle": "with",
+    "is_phrasal": false,
     "transitivity": "Intransitive",
     "transitivity_code": "VI",
     "prepositions": [
       "with"
     ],
-    "pattern": "agree with [person / opinion]",
-    "level": "A2",
-    "definition": "To have the same opinion as someone else.",
-    "grammar_rule": "Inseparable phrasal verb requiring 'with' when agreeing with a person.",
+    "preposition_structure": "preposition_particle",
+    "particle_count": 1,
+    "pattern": "agree with [someone / idea]",
+    "level": "A1",
+    "definition": "To share an opinion, accept a proposal, or reach a mutual decision.",
+    "grammar_rule": "Use 'with' for people/opinions, 'to' for proposals/terms, and 'on' for topics/plans.",
     "examples": [
-      "I agree with you completely on this point.",
-      "She rarely agrees with her manager."
+      "I completely agree with your assessment.",
+      "They agreed to the new contract terms.",
+      "We need to agree on a meeting date."
     ],
-    "common_mistake": "❌ I am agree with you. ➔ ✅ I agree with you.",
+    "common_mistake": "❌ I am agree with you. ➜ ✅ I agree with you.",
     "synonyms": [
-      "concur with",
-      "share opinion with"
+      "concur",
+      "assent"
     ],
     "antonyms": [
-      "disagree with",
-      "dissent from"
-    ],
-    "preposition_structure": "single",
-    "particle_count": 1
+      "disagree",
+      "dissent"
+    ]
   },
   "agree to": {
     "is_phrasal": true,

@@ -7,8 +7,8 @@
     "pattern": "être content de [nom / verbe]",
     "level": "A1",
     "definition": "Éprouver de la joie ou de la satisfaction.",
-    "grammar_rule": "Exige la préposition 'de' devant un nom ou un infinitif. Contractions du/des. Le verbe 'se réjouir' exige aussi 'de'.",
-    "related_forms": "⚡ Adjectif : 'content' ➜ forme apparentée : « se réjouir »",
+    "grammar_rule": "Exige la préposition 'de' devant un nom ou un infinitif. Contractions du/des.",
+    "related_forms": "se réjouir",
     "examples": [
       "Je suis très content de mon nouveau travail.",
       "Elle est contente de revoir ses amis."
@@ -21,6 +21,366 @@
     "antonyms": [
       "mécontent",
       "triste"
+    ]
+  },
+  "triste": {
+    "word_type": "adjective",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "être triste de [nom / verbe]",
+    "level": "A1",
+    "definition": "Éprouver du chagrin ou de la peine.",
+    "grammar_rule": "Exige la préposition 'de' devant un nom ou un infinitif.",
+    "related_forms": "attrister",
+    "examples": [
+      "Il est triste de quitter ses camarades.",
+      "Nous sommes tristes de cette mauvaise nouvelle."
+    ],
+    "common_mistake": "❌ Elle est triste pour partir. ➜ ✅ Elle est triste de partir.",
+    "synonyms": [
+      "chagriné",
+      "déçu"
+    ],
+    "antonyms": [
+      "joyeux",
+      "content"
+    ]
+  },
+  "capable": {
+    "word_type": "adjective",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "être capable de [verbe / nom]",
+    "level": "A2",
+    "definition": "Avoir l'aptitude ou les moyens physiques/intellectuels de faire quelque chose.",
+    "grammar_rule": "Prend toujours la préposition 'de' devant un infinitif.",
+    "related_forms": "capacité",
+    "examples": [
+      "Es-tu capable de courir dix kilomètres ?",
+      "Elle est capable de grandes choses."
+    ],
+    "common_mistake": "❌ Je suis capable à faire ça. ➜ ✅ Je suis capable de faire ça.",
+    "synonyms": [
+      "apte",
+      "compétent"
+    ],
+    "antonyms": [
+      "incapable",
+      "inapte"
+    ]
+  },
+  "prêt": {
+    "word_type": "adjective",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "être prêt à [verbe] / pour [nom]",
+    "level": "A2",
+    "definition": "Être dans les dispositions voulues pour faire une action ou affronter un événement.",
+    "grammar_rule": "Prêt + à + infinitif (ex: prêt à partir). Devant un nom, on utilise souvent 'pour' (ex: prêt pour le départ).",
+    "related_forms": "préparer",
+    "examples": [
+      "Nous sommes prêts à commencer la réunion.",
+      "Êtes-vous prêts pour le voyage ?"
+    ],
+    "common_mistake": "❌ Je suis prêt de partir. ➜ ✅ Je suis prêt à partir.",
+    "synonyms": [
+      "disposé",
+      "préparé"
+    ],
+    "antonyms": [
+      "indisposé",
+      "impréparé"
+    ]
+  },
+  "fâché": {
+    "word_type": "adjective",
+    "prepositions": [
+      "contre"
+    ],
+    "pattern": "être fâché contre [personne]",
+    "level": "A2",
+    "definition": "Éprouver de la colère envers quelqu'un.",
+    "grammar_rule": "On utilise la préposition 'contre' pour désigner la personne ciblée par la colère.",
+    "related_forms": "se fâcher",
+    "examples": [
+      "Il est très fâché contre son frère.",
+      "Ne sois pas fâchée contre moi."
+    ],
+    "common_mistake": "❌ Je suis fâché avec toi (pour la colère). ➜ ✅ Je suis fâché contre toi.",
+    "synonyms": [
+      "en colère",
+      "irrité"
+    ],
+    "antonyms": [
+      "calme",
+      "apaisé"
+    ]
+  },
+  "habitué": {
+    "word_type": "adjective",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "être habitué à [nom / verbe]",
+    "level": "B1",
+    "definition": "Avoir contracté l'habitude de quelque chose.",
+    "grammar_rule": "Prend toujours la préposition 'à'. Attention aux contractions (à + le = au, à + les = aux).",
+    "related_forms": "s'habituer",
+    "examples": [
+      "Elle est habituée au froid hivernal.",
+      "Je suis habitué à me lever tôt."
+    ],
+    "common_mistake": "❌ Je suis habitué avec ce bruit. ➜ ✅ Je suis habitué à ce bruit.",
+    "synonyms": [
+      "accoutumé",
+      "rodé"
+    ],
+    "antonyms": [
+      "inaccoutumé",
+      "désorienté"
+    ]
+  },
+  "responsable": {
+    "word_type": "adjective",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "être responsable de [nom / verbe]",
+    "level": "B1",
+    "definition": "Devoir répondre de ses actes ou exercer une charge/autorité sur quelque chose.",
+    "grammar_rule": "Prend la préposition 'de' pour indiquer l'objet ou le domaine de responsabilité.",
+    "related_forms": "responsabilité",
+    "examples": [
+      "Qui est responsable de ce projet ?",
+      "Il est responsable d'assurer la sécurité."
+    ],
+    "common_mistake": "❌ Il est responsable pour l'équipe. ➜ ✅ Il est responsable de l'équipe.",
+    "synonyms": [
+      "chargé",
+      "garant"
+    ],
+    "antonyms": [
+      "irresponsable",
+      "dégagé"
+    ]
+  },
+  "fier": {
+    "word_type": "adjective",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "être fier de [nom / verbe]",
+    "level": "B1",
+    "definition": "Tirer de la satisfaction ou de l'honneur de quelque chose ou de quelqu'un.",
+    "grammar_rule": "S'emploie avec la préposition 'de'.",
+    "related_forms": "fierté",
+    "examples": [
+      "Ses parents sont très fiers de sa réussite.",
+      "Je suis fier d'avoir relevé ce défi."
+    ],
+    "common_mistake": "❌ Je suis fier pour toi. ➜ ✅ Je suis fier de toi.",
+    "synonyms": [
+      "honoré",
+      "satisfait"
+    ],
+    "antonyms": [
+      "honteux",
+      "modeste"
+    ]
+  },
+  "sûr": {
+    "word_type": "adjective",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "être sûr de [nom / verbe]",
+    "level": "A1",
+    "definition": "Avoir une certitude absolue.",
+    "grammar_rule": "Exige 'de' devant un nom ou un infinitif.",
+    "related_forms": "certitude",
+    "examples": [
+      "Es-tu sûr de ton résultat ?",
+      "Elle est sûre de réussir."
+    ],
+    "common_mistake": "❌ Sûr sur ça. ➜ ✅ Sûr de ça.",
+    "synonyms": [
+      "certain",
+      "convaincu"
+    ],
+    "antonyms": [
+      "incertain",
+      "douteux"
+    ]
+  },
+  "similaire": {
+    "word_type": "adjective",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "être similaire à [nom]",
+    "level": "B2",
+    "definition": "Qui présente des ressemblances fortes avec autre chose.",
+    "grammar_rule": "S'emploie avec la préposition 'à'.",
+    "related_forms": "ressembler",
+    "examples": [
+      "Ce problème est similaire à celui de la semaine dernière.",
+      "Ses résultats sont similaires aux miens."
+    ],
+    "common_mistake": "❌ C'est similaire avec mon idée. ➜ ✅ C'est similaire à mon idée.",
+    "synonyms": [
+      "semblable",
+      "analogue"
+    ],
+    "antonyms": [
+      "différent",
+      "opposé"
+    ]
+  },
+  "différent": {
+    "word_type": "adjective",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "être différent de [nom]",
+    "level": "B2",
+    "definition": "Qui présente des qualités ou caractéristiques distinctes d'un autre.",
+    "grammar_rule": "S'emploie toujours avec la préposition 'de'.",
+    "related_forms": "différer",
+    "examples": [
+      "Sa culture est très différente de la nôtre.",
+      "Ce produit est totalement différent du précédent."
+    ],
+    "common_mistake": "❌ C'est différent à mon avis. ➜ ✅ C'est différent de mon avis.",
+    "synonyms": [
+      "distinct",
+      "divergent"
+    ],
+    "antonyms": [
+      "identique",
+      "semblable"
+    ]
+  },
+  "amoureux": {
+    "word_type": "adjective",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "être amoureux de [personne / chose]",
+    "level": "A1",
+    "definition": "Ressentir de l'amour ou une vive affection pour quelqu'un.",
+    "grammar_rule": "S'emploie avec la préposition 'de'.",
+    "related_forms": "amour",
+    "examples": [
+      "Il est passionnément amoureux de sa femme.",
+      "Elle est amoureuse de la nature."
+    ],
+    "common_mistake": "❌ Amoureux avec elle. ➜ ✅ Amoureux d'elle.",
+    "synonyms": [
+      "épris",
+      "passionné"
+    ],
+    "antonyms": [
+      "indifférent",
+      "détaché"
+    ]
+  },
+  "favorable": {
+    "word_type": "adjective",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "être favorable à [projet / idée]",
+    "level": "B1",
+    "definition": "Qui approuve ou soutient un projet ou une proposition.",
+    "grammar_rule": "S'emploie avec la préposition 'à'.",
+    "related_forms": "faveur",
+    "examples": [
+      "Le directeur est très favorable à notre projet.",
+      "La majorité des membres est favorable au changement."
+    ],
+    "common_mistake": "❌ Favorable pour la proposition. ➜ ✅ Favorable à la proposition.",
+    "synonyms": [
+      "propice",
+      "bienveillant"
+    ],
+    "antonyms": [
+      "défavorable",
+      "hostile"
+    ]
+  },
+  "hostile": {
+    "word_type": "adjective",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "être hostile à [projet / idée]",
+    "level": "B2",
+    "definition": "Qui montre de l'opposition ou de l'inimitié envers quelque chose.",
+    "grammar_rule": "Prend la préposition 'à'.",
+    "related_forms": "hostilité",
+    "examples": [
+      "Les syndicats sont hostiles à cette nouvelle réforme.",
+      "Une population hostile aux changements."
+    ],
+    "common_mistake": "❌ Hostile contre la réforme. ➜ ✅ Hostile à la réforme.",
+    "synonyms": [
+      "opposé",
+      "antagoniste"
+    ],
+    "antonyms": [
+      "favorable",
+      "amical"
+    ]
+  },
+  "dénué": {
+    "word_type": "adjective",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "être dénué de [sens / fondement / intérêt]",
+    "level": "C1",
+    "definition": "Qui est totalement dépourvu de quelque chose d'abstrait.",
+    "grammar_rule": "Exige la préposition 'de'.",
+    "related_forms": "dénuement",
+    "examples": [
+      "Son argumentation est totalement dénuée de sens.",
+      "Une affirmation dénuée de tout fondement."
+    ],
+    "common_mistake": "❌ Dénué par tout sens. ➜ ✅ Dénué de tout sens.",
+    "synonyms": [
+      "dépourvu",
+      "exempt"
+    ],
+    "antonyms": [
+      "pourvu",
+      "doté"
+    ]
+  },
+  "conforme": {
+    "word_type": "adjective",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "être conforme à [règlement / norme / original]",
+    "level": "C1",
+    "definition": "Qui est en parfait accord avec une norme, une règle ou un modèle.",
+    "grammar_rule": "S'emploie toujours avec la préposition 'à'.",
+    "related_forms": "conformité",
+    "examples": [
+      "Le produit livré est conforme à la commande.",
+      "Cette décision est conforme au règlement intérieur."
+    ],
+    "common_mistake": "❌ Conforme avec la loi. ➜ ✅ Conforme à la loi.",
+    "synonyms": [
+      "accordé",
+      "identique"
+    ],
+    "antonyms": [
+      "non-conforme",
+      "contraire"
     ]
   }
 }

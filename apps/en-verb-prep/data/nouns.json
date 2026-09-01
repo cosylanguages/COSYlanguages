@@ -2548,25 +2548,23 @@
     "prepositions": [
       "to"
     ],
-    "pattern": "susceptibility to + [disease / infection / flattery]",
-    "level": "B2",
+    "pattern": "susceptibility to + [disease / influence / error]",
+    "level": "C1",
     "definition": "The state or fact of being likely or liable to be influenced or harmed by a particular thing.",
-    "grammar_rule": "Matches adjective 'susceptible to'. Always use 'susceptibility TO'.",
+    "grammar_rule": "Always use 'to' after 'susceptibility'.",
     "examples": [
-      "Malnutrition increases susceptibility to viral infections.",
-      "Her emotional susceptibility to criticism was evident."
+      "Lack of sleep increases susceptibility to illness.",
+      "Genetic factors influence susceptibility to allergies."
     ],
-    "common_mistake": "❌ Susceptibility for disease. ➜ ✅ Susceptibility to disease.",
+    "common_mistake": "❌ Susceptibility for diseases. ➜ ✅ Susceptibility to diseases.",
     "synonyms": [
       "vulnerability to",
-      "proneness to",
-      "predisposition to"
+      "pronation to"
     ],
     "antonyms": [
       "immunity to",
       "resistance to"
-    ],
-    "related_forms": "⚡ Noun: 'susceptibility TO illness' ➔ Adjective: 'susceptible to'"
+    ]
   },
   "immunity to": {
     "word_type": "noun",
@@ -2696,25 +2694,23 @@
     "prepositions": [
       "to"
     ],
-    "pattern": "adherence to + [rules / law / principles]",
-    "level": "B2",
-    "definition": "Attachment or commitment to a person, cause, or belief.",
-    "grammar_rule": "Matches verb 'adhere to'. Always use 'adherence TO'.",
+    "pattern": "adherence to + [rules / guidelines / principles]",
+    "level": "C1",
+    "definition": "The quality of staying attached, loyal, or obedient to a rule or belief.",
+    "grammar_rule": "Always use 'to' after 'adherence'.",
     "examples": [
-      "Strict adherence to protocol prevented accidents.",
-      "Religious adherence to traditional customs."
+      "Strict adherence to safety guidelines prevents accidents.",
+      "His adherence to principles impressed the board."
     ],
-    "common_mistake": "❌ Adherence with rules. ➜ ✅ Adherence to rules.",
+    "common_mistake": "❌ Adherence with regulations. ➜ ✅ Adherence to regulations.",
     "synonyms": [
       "compliance with",
-      "conformity to",
-      "fidelity to"
+      "conformity to"
     ],
     "antonyms": [
       "violation of",
-      "departure from"
-    ],
-    "related_forms": "⚡ Noun: 'adherence TO safety regulations' ➔ Verb: 'adhere to'"
+      "defiance of"
+    ]
   },
   "conformity to": {
     "word_type": "noun",
