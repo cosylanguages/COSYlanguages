@@ -235,7 +235,8 @@
 
         renderLS(q, session, lang) {
             let finalOpts = q.opts || [];
-            const textToSpeak = (q.item?.word || q.ans || '').replace(/'/g, "\\'");
+            const rawWord = q.item?.word || (typeof q.ans === 'number' ? finalOpts[q.ans] : q.ans) || '';
+            const textToSpeak = rawWord.replace(/'/g, "\\'");
             return `<div style="text-align:center; margin-bottom: 1.5rem;">
                 <button class="btn-outline" onclick="window.cosyPracticeEngine.speakText('${textToSpeak}', '${lang}')">🔊 Play Audio <span class="keycap-badge">S</span></button>
                 <div id="waveform-wrap-box" style="display: none; margin-top: 1rem; justify-content: center; align-items: center;">

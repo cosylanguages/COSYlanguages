@@ -193,6 +193,20 @@
         return lessons;
     };
 
+    const cleanTTSText = (raw) => {
+        if (!raw) return '';
+        let s = String(raw);
+        // Remove IPA phonetic transcriptions like /kɪt/ or /iː/
+        s = s.replace(/\/[^/]+\//g, '');
+        // Remove parenthetical annotations
+        s = s.replace(/\([^)]+\)/g, '');
+        // Replace standalone slashes or arrows with natural pauses
+        s = s.replace(/\s*[\/➔≠]\s*/g, ', ');
+        // Clean leftover punctuation artifacts
+        s = s.replace(/\s+/g, ' ').trim();
+        return s;
+    };
+
     const speak = (text, lang, rate) => {
         if (!window.speechSynthesis) return;
         window.speechSynthesis.cancel();
@@ -201,6 +215,8 @@
         if (/^\d+$/.test(text) && typeof window.numbersData !== 'undefined' && window.numbersData[lang]) {
             const langData = window.numbersData[lang];
             if (langData[text]) textToSpeak = langData[text];
+        } else {
+            textToSpeak = cleanTTSText(textToSpeak);
         }
         msg.text = textToSpeak;
         if (rate) {
