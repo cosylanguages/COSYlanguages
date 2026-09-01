@@ -1,0 +1,3989 @@
+{
+  "andare": {
+    "prepositions": [
+      "a",
+      "in"
+    ],
+    "pronominal": false,
+    "pattern": "andare + a [città/verbo] / in [paese/luogo]",
+    "level": "A1",
+    "definition": "Spostarsi da un luogo a un altro.",
+    "grammar_rule": "Si usa « a » per le città (a Roma) o verbi al presente (vado a mangiare), e « in » per i paesi (in Italia) o luoghi chiusi (in farmacia). Richiede preposizioni articolate con nomi determinati (al cinema, nell'ufficio).",
+    "noun_parallel": "⚡ Verbo: 'Andare al lavoro' ➜ Nome: 'L'andata'",
+    "examples": [
+      "Vado a Roma per il fine settimana.",
+      "Domani andiamo in montagna con gli amici."
+    ],
+    "common_mistake": "❌ Vado in Roma stasera. ➜ ✅ Vado a Roma stasera.",
+    "synonyms": [
+      "spostarsi",
+      "recarsi"
+    ],
+    "antonyms": [
+      "tornare",
+      "rimanere"
+    ]
+  },
+  "arrivare": {
+    "prepositions": [
+      "a",
+      "in"
+    ],
+    "pronominal": false,
+    "pattern": "arrivare + a [città/ora] / in [paese/stazione]",
+    "level": "A1",
+    "definition": "Giungere a destinazione al termine di un percorso.",
+    "grammar_rule": "Usa « a » per città ed orari (arrivare a Milano, arrivare alle 8), e « in » per regioni o paesi (in Italia). Si articola davanti ai nomi di luoghi (al binario 3, in stazione).",
+    "noun_parallel": "⚡ Verbo: 'Arrivare alla stazione' ➜ Nome: 'L'arrivo'",
+    "examples": [
+      "Il treno arriva a Firenze in perfetto orario.",
+      "Siamo arrivati in Italia la settimana scorsa."
+    ],
+    "common_mistake": "❌ Arriviamo in Milano alle cinque. ➜ ✅ Arriviamo a Milano alle cinque.",
+    "synonyms": [
+      "giungere",
+      "sopraggiungere"
+    ],
+    "antonyms": [
+      "partire",
+      "andarsene"
+    ]
+  },
+  "ascoltare": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "ascoltare + [qualcuno / qualcosa] (oggetto diretto)",
+    "level": "A1",
+    "definition": "Sentire con attenzione e intenzione la voce o i suoni.",
+    "grammar_rule": "Verbo transitivo diretto! NON richiede alcuna preposizione prima del complemento oggetto (ascoltare la musica, ascoltare il professore). Più ingannevole per i parlanti inglesi o francesi.",
+    "noun_parallel": "⚡ Verbo: 'Ascoltare la radio' ➜ Nome: 'L'ascolto'",
+    "examples": [
+      "Ascolto sempre la musica classica mentre studio.",
+      "Devi ascoltare il tuo medico."
+    ],
+    "common_mistake": "❌ Ascolto a la musica ogni sera. ➜ ✅ Ascolto la musica ogni sera.",
+    "synonyms": [
+      "sentire",
+      "udire"
+    ],
+    "antonyms": [
+      "ignorare",
+      "disattendere"
+    ]
+  },
+  "aspettare": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "aspettare + [qualcuno / qualcosa] (oggetto diretto)",
+    "level": "A1",
+    "definition": "Rimanere in un luogo in attesa dell'arrivo di qualcuno o qualcosa.",
+    "grammar_rule": "Verbo transitivo diretto in italiano! Si dice « aspettare il bus » o « aspettare un amico » SENZA alcuna preposizione (né 'per' né 'a'). NON confondere con l'inglese 'wait for'.",
+    "noun_parallel": "⚡ Verbo: 'Aspettare il treno' ➜ Nome: 'L'attesa'",
+    "examples": [
+      "Aspetto l'autobus da più di venti minuti.",
+      "Ti aspetto davanti al bar."
+    ],
+    "common_mistake": "❌ Aspetto per l'autobus da un'ora. ➜ ✅ Aspetto l'autobus da un'ora.",
+    "synonyms": [
+      "attendere"
+    ],
+    "antonyms": [
+      "partire",
+      "andarsene"
+    ]
+  },
+  "avere bisogno": {
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": false,
+    "pattern": "avere bisogno + di + [nome / verbo all'infinito]",
+    "level": "A1",
+    "definition": "Provare la necessità di qualcosa o qualcuno.",
+    "grammar_rule": "Richiede sempre la preposizione « di », che si fonde nelle preposizioni articolate davanti ai nomi determinati (del tempo, della macchina, degli occhiali, dei soldi).",
+    "noun_parallel": "⚡ Verbo: 'Avere bisogno di aiuto' ➜ Nome: 'Il bisogno'",
+    "examples": [
+      "Ho bisogno di riposare un po' dopo il lavoro.",
+      "Abbiamo bisogno del tuo supporto in questo progetto."
+    ],
+    "common_mistake": "❌ Ho bisogno a una pausa. ➜ ✅ Ho bisogno di una pausa.",
+    "synonyms": [
+      "necessitare di",
+      "occorrere"
+    ],
+    "antonyms": [
+      "eccedere",
+      "sovrabbondare"
+    ]
+  },
+  "avere paura": {
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": false,
+    "pattern": "avere paura + di + [nome / verbo all'infinito]",
+    "level": "A1",
+    "definition": "Provare timore verso qualcuno o qualcosa.",
+    "grammar_rule": "Richiede la preposizione « di », che si articola davanti al nome (del buio, dei cani, della solitudine). Davanti a un verbo richiede « di » prima dell'infinito.",
+    "noun_parallel": "⚡ Verbo: 'Avere paura del buio' ➜ Nome: 'La paura'",
+    "examples": [
+      "Ho paura dei cani grandi.",
+      "Ha paura di sbagliare la risposta."
+    ],
+    "common_mistake": "❌ Ha paura a guidare di notte. ➜ ✅ Ha paura di guidare di notte.",
+    "synonyms": [
+      "temere"
+    ],
+    "antonyms": [
+      "rassicurarsi",
+      "sfidare"
+    ]
+  },
+  "avere voglia": {
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": false,
+    "pattern": "avere voglia + di + [nome / verbo all'infinito]",
+    "level": "A1",
+    "definition": "Desiderare di fare qualcosa o di avere qualcosa.",
+    "grammar_rule": "Richiede la preposizione « di » davanti a un sostantivo o a un verbo all'infinito. Si articola con i nomi (della pizza, del gelato).",
+    "noun_parallel": "⚡ Verbo: 'Avere voglia di uscire' ➜ Nome: 'La voglia'",
+    "examples": [
+      "Stasera ho voglia di mangiare una pizza.",
+      "Hai voglia di venire al cinema con noi?"
+    ],
+    "common_mistake": "❌ Ho voglia a uscire stasera. ➜ ✅ Ho voglia di uscire stasera.",
+    "synonyms": [
+      "desiderare",
+      "aver fame di"
+    ],
+    "antonyms": [
+      "disdegnare",
+      "rifiutare"
+    ]
+  },
+  "cercare": {
+    "prepositions": [
+      "none",
+      "di"
+    ],
+    "pronominal": false,
+    "pattern": "cercare + [oggetto diretto] / cercare + di + [infinito]",
+    "level": "A1",
+    "definition": "Sforzarsi di trovare qualcuno o qualcosa (diretto) oppure tentare di fare (di + infinito).",
+    "grammar_rule": "Come verbo transitivo diretto NON usa preposizioni (cercare le chiavi, cercare un lavoro). Quando introduce un secondo verbo all'infinito, richiede « di » (cercare di fare). Più ingannevole per chi pensa a 'search for'.",
+    "noun_parallel": "⚡ Verbo: 'Cercare le chiavi' ➜ Nome: 'La ricerca'",
+    "examples": [
+      "Cerco le mie chiavi di casa da mezz'ora.",
+      "Cerco di capire questa regola grammaticale."
+    ],
+    "common_mistake": "❌ Cerco per un nuovo lavoro in centro. ➜ ✅ Cerco un nuovo lavoro in centro.",
+    "synonyms": [
+      "trovare",
+      "tentare di"
+    ],
+    "antonyms": [
+      "abbandonare",
+      "perdere"
+    ]
+  },
+  "chiedere": {
+    "prepositions": [
+      "none",
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "chiedere + [qualcosa] + a + [qualcuno]",
+    "level": "A1",
+    "definition": "Rivolgere una domanda o una richiesta a qualcuno.",
+    "grammar_rule": "Stessa regola del francese 'demander': la cosa chiesta è oggetto diretto (senza preposizione), mentre la persona a cui si chiede vuole la preposizione « a » (al professore, alla mamma). Se segue un infinito per fare una richiesta si usa « di » (chiedere di uscire).",
+    "noun_parallel": "⚡ Verbo: 'Chiedere aiuto al collega' ➜ Nome: 'La richiesta'",
+    "examples": [
+      "Chiedo un'informazione al passante.",
+      "Ha chiesto a Marco di venire presto."
+    ],
+    "common_mistake": "❌ Chiedo di un favore a Marco. ➜ ✅ Chiedo un favore a Marco.",
+    "synonyms": [
+      "domandare",
+      "richiedere"
+    ],
+    "antonyms": [
+      "rispondere",
+      "concedere"
+    ]
+  },
+  "cominciare": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "cominciare + a + [infinito] / cominciare + con",
+    "level": "A1",
+    "definition": "Dare inizio a un'azione o a un evento.",
+    "grammar_rule": "Quando introduce un verbo all'infinito richiede la preposizione « a » (cominciare a studiare). Davanti ai nomi determinati che indicano punto d'inizio si usa « a » o « da » con articolazione (all'inizio, dal primo capitolo).",
+    "noun_parallel": "⚡ Verbo: 'Cominciare a studiare' ➜ Nome: 'Il cominciamento / L'inizio'",
+    "examples": [
+      "Comincio a capire l'italiano molto meglio.",
+      "La lezione comincia alle nove in punto."
+    ],
+    "common_mistake": "❌ Comincio di studiare italiano. ➜ ✅ Comincio a studiare italiano.",
+    "synonyms": [
+      "iniziare",
+      "principiare"
+    ],
+    "antonyms": [
+      "finire",
+      "terminare"
+    ]
+  },
+  "comprare": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "comprare + [qualcosa] (oggetto diretto) (+ a/per qualcuno)",
+    "level": "A1",
+    "definition": "Acquistare un bene pagandone il prezzo.",
+    "grammar_rule": "Verbo transitivo diretto. La merce acquistata non ha preposizione (comprare il pane). Il destinatario prende « a » o « per » (comprare un regalo alla mamma).",
+    "noun_parallel": "⚡ Verbo: 'Comprare il libro' ➜ Nome: 'L'acquisto'",
+    "examples": [
+      "Ogni mattina compro il giornale in edicola.",
+      "Ho comprato un libro per il mio amico."
+    ],
+    "common_mistake": "❌ Compro di la frutta al mercato. ➜ ✅ Compro la frutta al mercato.",
+    "synonyms": [
+      "acquistare"
+    ],
+    "antonyms": [
+      "vendere"
+    ]
+  },
+  "contattare": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "contattare + [qualcuno] (oggetto diretto)",
+    "level": "A1",
+    "definition": "Mettersi in contatto con una persona o un'azienda.",
+    "grammar_rule": "Verbo transitivo diretto in italiano! Si dice « contattare il cliente » o « contattare il servizio clienti » SENZA la preposizione 'a' o 'con'.",
+    "noun_parallel": "⚡ Verbo: 'Contattare il medico' ➜ Nome: 'Il contatto'",
+    "examples": [
+      "Ti contatto domani per confermare l'orario.",
+      "Abbiamo contattato l'assistenza clienti."
+    ],
+    "common_mistake": "❌ Ho contattato a il cliente al telefono. ➜ ✅ Ho contattato il cliente al telefono.",
+    "synonyms": [
+      "interpellare",
+      "chiamare"
+    ],
+    "antonyms": [
+      "evitare",
+      "isolare"
+    ]
+  },
+  "credere": {
+    "prepositions": [
+      "a",
+      "in"
+    ],
+    "pronominal": false,
+    "pattern": "credere + a [qualcuno/qualcosa] / in [ideale/Dio]",
+    "level": "A1",
+    "definition": "Ritenere vera una cosa o avere fiducia.",
+    "grammar_rule": "Si usa « a » per persone o affermazioni (credere a una storia, credere al testimone; articolazioni: al, alla). Si usa « in » per la fede o la fiducia profonda (credere in Dio, credere in se stessi). Davanti a verbo infinito si usa « di » (credo di sapere).",
+    "noun_parallel": "⚡ Verbo: 'Credere alle sue parole' ➜ Nome: 'La credenza / La fede'",
+    "examples": [
+      "Non credo a questa notizia assurda.",
+      "Credo fermamente nelle mie capacità."
+    ],
+    "common_mistake": "❌ Non credo di la sua storia. ➜ ✅ Non credo alla sua storia.",
+    "synonyms": [
+      "fidarsi di",
+      "ritenere"
+    ],
+    "antonyms": [
+      "dubitare di",
+      "diffidare"
+    ]
+  },
+  "dare": {
+    "prepositions": [
+      "none",
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "dare + [qualcosa] + a + [qualcuno]",
+    "level": "A1",
+    "definition": "Consegnare o offrire una cosa a una persona.",
+    "grammar_rule": "L'oggetto dato è diretto (dare le chiavi). Il destinatario prende sempre la preposizione « a » con relativa preposizione articolata (al fratello, alla professoressa, agli studenti).",
+    "noun_parallel": "⚡ Verbo: 'Dare il libro al professore' ➜ Nome: 'Il dono'",
+    "examples": [
+      "Ho dato le chiavi al portiere.",
+      "Diamo il benvenuto ai nuovi colleghi."
+    ],
+    "common_mistake": "❌ Do il libro per Marco. ➜ ✅ Do il libro a Marco.",
+    "synonyms": [
+      "consegnare",
+      "offrire"
+    ],
+    "antonyms": [
+      "prendere",
+      "togliere"
+    ]
+  },
+  "dire": {
+    "prepositions": [
+      "none",
+      "a",
+      "di"
+    ],
+    "pronominal": false,
+    "pattern": "dire + [qualcosa] + a + [qualcuno] / dire di + [infinito]",
+    "level": "A1",
+    "definition": "Comunicare con le parole un pensiero o un'informazione.",
+    "grammar_rule": "Cosa detta = oggetto diretto. Persona a cui si dice = preposizione « a » (al padre, alla polizia). Quando regge un infinito con valore di ordine o proposta usa « di » (mi ha detto di venire).",
+    "noun_parallel": "⚡ Verbo: 'Dire la verità agli amici' ➜ Nome: 'Il detto / La parola'",
+    "examples": [
+      "Dice sempre la verità a tutti.",
+      "Il medico mi ha detto di riposare."
+    ],
+    "common_mistake": "❌ Ho detto per Marco la novità. ➜ ✅ Ho detto a Marco la novità.",
+    "synonyms": [
+      "comunicare",
+      "riferire"
+    ],
+    "antonyms": [
+      "tacere",
+      "ascondere"
+    ]
+  },
+  "entrare": {
+    "prepositions": [
+      "in"
+    ],
+    "pronominal": false,
+    "pattern": "entrare + in + [luogo]",
+    "level": "A1",
+    "definition": "Passare dall'esterno all'interno di un luogo.",
+    "grammar_rule": "Richiede la preposizione « in » che si articola davanti al nome (nella stanza, nel ristorante, negli uffici, nell'aula). In rari casi figurati si usa 'a' (entrare a far parte).",
+    "noun_parallel": "⚡ Verbo: 'Entrare nella casa' ➜ Nome: 'L'entrata'",
+    "examples": [
+      "Siamo entrati nel ristorante alle otto.",
+      "Entra in classe senza fare rumore."
+    ],
+    "common_mistake": "❌ Entriamo a la casa subito. ➜ ✅ Entriamo nella casa subito.",
+    "synonyms": [
+      "penetrare",
+      "accedere"
+    ],
+    "antonyms": [
+      "uscire",
+      "abbandonare"
+    ]
+  },
+  "fare": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "fare + [qualcosa] (oggetto diretto)",
+    "level": "A1",
+    "definition": "Compiere un'azione o produrre un oggetto.",
+    "grammar_rule": "Verbo transitivo diretto (fare la spesa, fare colazione, fare i compiti). Non richiede preposizioni prima del complemento oggetto.",
+    "noun_parallel": "⚡ Verbo: 'Fare la colazione' ➜ Nome: 'Il fatto / La fattura'",
+    "examples": [
+      "Faccio colazione ogni mattina alle sette.",
+      "Cosa fai questo fine settimana?"
+    ],
+    "common_mistake": "❌ Faccio di la colazione presto. ➜ ✅ Faccio colazione presto.",
+    "synonyms": [
+      "compiere",
+      "realizzare"
+    ],
+    "antonyms": [
+      "disfare",
+      "distruggere"
+    ]
+  },
+  "giocare": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "giocare + a + [sport / gioco]",
+    "level": "A1",
+    "definition": "Divertirsi con un gioco o praticare uno sport.",
+    "grammar_rule": "DISTINZIONE FONDAMENTALE: Si dice « giocare a » per sport e giochi (giocare a calcio, giocare a scacchi, giocare alle carte; preposizioni articolate al/alla/alle). Per gli strumenti musicali si usa invece il verbo « suonare » SENZA 'a' (suonare il pianoforte).",
+    "noun_parallel": "⚡ Verbo: 'Giocare a tennis' ➜ Nome: 'Il gioco'",
+    "examples": [
+      "I bambini giocano a calcio nel parco.",
+      "Stasera giochiamo a carte in famiglia."
+    ],
+    "common_mistake": "❌ Gioco il calcio ogni sabato. ➜ ✅ Gioco a calcio ogni sabato.",
+    "synonyms": [
+      "divertirsi",
+      "praticare"
+    ],
+    "antonyms": [
+      "lavorare",
+      "serietà"
+    ]
+  },
+  "guardare": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "guardare + [qualcuno / qualcosa] (oggetto diretto)",
+    "level": "A1",
+    "definition": "Fissare lo sguardo su qualcosa o qualcuno.",
+    "grammar_rule": "Verbo transitivo diretto in italiano! Si dice « guardare la TV », « guardare un film », « guardare una persona » SENZA preposizione (né 'a' né 'per'). NON confondere con l'inglese 'look at'.",
+    "noun_parallel": "⚡ Verbo: 'Guardare il film' ➜ Nome: 'Lo sguardo / La guardia'",
+    "examples": [
+      "Guardiamo un bel film stasera.",
+      "Guarda il panorama dalla finestra!"
+    ],
+    "common_mistake": "❌ Guardo a la televisione ogni sera. ➜ ✅ Guardo la televisione ogni sera.",
+    "synonyms": [
+      "osservare",
+      "mirare"
+    ],
+    "antonyms": [
+      "ignorare",
+      "disattendere"
+    ]
+  },
+  "imparare": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "imparare + [qualcosa] / imparare + a + [infinito]",
+    "level": "A1",
+    "definition": "Acquisire una conoscenza o un'abilità.",
+    "grammar_rule": "Con un sostantivo è diretto (imparare l'italiano). Quando regge un verbo all'infinito richiede la preposizione « a » (imparare a guidare, imparare a nuotare).",
+    "noun_parallel": "⚡ Verbo: 'Imparare a nuotare' ➜ Nome: 'L'imparamento / L'apprendimento'",
+    "examples": [
+      "Mio figlio sta imparando a scrivere.",
+      "Ho imparato l'italiano in pochi mesi."
+    ],
+    "common_mistake": "❌ Imparo di guidare la macchina. ➜ ✅ Imparo a guidare la macchina.",
+    "synonyms": [
+      "apprendere",
+      "assimilare"
+    ],
+    "antonyms": [
+      "insegnare",
+      "dimenticare"
+    ]
+  },
+  "incontrare": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "incontrare + [qualcuno] (oggetto diretto)",
+    "level": "A1",
+    "definition": "Vedere e salutare una persona trovandosi nello stesso luogo.",
+    "grammar_rule": "Verbo transitivo diretto. Non richiede 'con' né 'a' prima del sostantivo (incontrare un amico, incontrare i colleghi).",
+    "noun_parallel": "⚡ Verbo: 'Incontrare un amico' ➜ Nome: 'L'incontro'",
+    "examples": [
+      "Ho incontrato Luca per strada ieri.",
+      "Ci incontriamo al bar delle rose."
+    ],
+    "common_mistake": "❌ Ho incontrato con un mio amico. ➜ ✅ Ho incontrato un mio amico.",
+    "synonyms": [
+      "incrociare",
+      "vedere"
+    ],
+    "antonyms": [
+      "evitare",
+      "schivare"
+    ]
+  },
+  "invitare": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "invitare + [qualcuno] + a + [evento / infinito]",
+    "level": "A1",
+    "definition": "Chiedere a qualcuno di partecipare a un evento o fare qualcosa.",
+    "grammar_rule": "Richiede la preposizione « a » sia per eventi (invitare alla festa, al matrimonio; articolazioni al/alla/agli) sia per verbi all'infinito (invitare a cena, invitare a parlare).",
+    "noun_parallel": "⚡ Verbo: 'Invitare alla festa' ➜ Nome: 'L'invito'",
+    "examples": [
+      "Ti invito alla mia festa di compleanno.",
+      "Ci ha invitato a cenare da lui."
+    ],
+    "common_mistake": "❌ Ti invito per la mia festa. ➜ ✅ Ti invito alla mia festa.",
+    "synonyms": [
+      "ospitare",
+      "sollecitare"
+    ],
+    "antonyms": [
+      "escludere",
+      "scacciare"
+    ]
+  },
+  "mangiare": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "mangiare + [qualcosa] (oggetto diretto)",
+    "level": "A1",
+    "definition": "Cibarsi di qualcosa ingerendo alimento.",
+    "grammar_rule": "Verbo transitivo diretto. L'alimento non ha alcuna preposizione (mangiare la mela, mangiare una pizza).",
+    "noun_parallel": "⚡ Verbo: 'Mangiare la mela' ➜ Nome: 'Il mangio / Il cibo'",
+    "examples": [
+      "A pranzo mangio un'insalata fresca.",
+      "Ieri sera abbiamo mangiato la pizza."
+    ],
+    "common_mistake": "❌ Mangio di una mela ogni giorno. ➜ ✅ Mangio una mela ogni giorno.",
+    "synonyms": [
+      "nutrirsi di",
+      "gustare"
+    ],
+    "antonyms": [
+      "digiunare"
+    ]
+  },
+  "pagare": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "pagare + [qualcosa] (oggetto diretto) (+ a qualcuno)",
+    "level": "A1",
+    "definition": "Dare una somma di denaro in cambio di beni o servizi.",
+    "grammar_rule": "Verbo transitivo diretto in italiano! Si dice « pagare il conto », « pagare il caffè », « pagare le tasse » SENZA preposizione 'per'. Il beneficiario prende la preposizione « a » (pagare il caffè al cameriere).",
+    "noun_parallel": "⚡ Verbo: 'Pagare il conto' ➜ Nome: 'Il pagamento'",
+    "examples": [
+      "Offro io: pago il caffè per tutti.",
+      "Devo pagare le bollette prima di fine mese."
+    ],
+    "common_mistake": "❌ Pago per la cena io stasera. ➜ ✅ Pago la cena io stasera.",
+    "synonyms": [
+      "saldare",
+      "versare"
+    ],
+    "antonyms": [
+      "riscuotere",
+      "incassare"
+    ]
+  },
+  "parlare": {
+    "prepositions": [
+      "a",
+      "con",
+      "di"
+    ],
+    "pronominal": false,
+    "pattern": "parlare + a/con + [persona] / parlare + di + [argomento]",
+    "level": "A1",
+    "definition": "Esprimersi con la voce o intrattenere una conversazione.",
+    "grammar_rule": "DISTINZIONE REGGENTE: Si usa « a » o « con » per l'interlocutore (parlare al professore, parlare con gli amici; articolazioni al/alla/agli) e « di » per l'argomento trattato (parlare del lavoro, della politica; articolazioni del/della/degli).",
+    "noun_parallel": "⚡ Verbo: 'Parlare di politica' ➜ Nome: 'La parola / Il discorso'",
+    "examples": [
+      "Ho parlato a Marco dei nostri progetti.",
+      "Di cosa parlate con tanto entusiasmo?"
+    ],
+    "common_mistake": "❌ Parliamo su del lavoro da ore. ➜ ✅ Parliamo del lavoro da ore.",
+    "synonyms": [
+      "discutere",
+      "chiacchierare"
+    ],
+    "antonyms": [
+      "tacere",
+      "zittirsi"
+    ]
+  },
+  "partire": {
+    "prepositions": [
+      "per",
+      "da"
+    ],
+    "pronominal": false,
+    "pattern": "partire + per + [destinazione] / da + [origine]",
+    "level": "A1",
+    "definition": "Mettersi in viaggio lasciando un luogo.",
+    "grammar_rule": "Si usa « per » per indicare la destinazione (partire per Roma, partire per le vacanze) e « da » per il luogo d'origine (partire da Milano; articolazioni dal/dalla/dalle).",
+    "noun_parallel": "⚡ Verbo: 'Partire per la vacanza' ➜ Nome: 'La partenza'",
+    "examples": [
+      "Domani parto per Parigi con il treno.",
+      "Il volo parte da Roma Fiumicino."
+    ],
+    "common_mistake": "❌ Parto a Parigi domani mattina. ➜ ✅ Parto per Parigi domani mattina.",
+    "synonyms": [
+      "viare",
+      "avviarsi"
+    ],
+    "antonyms": [
+      "arrivare",
+      "giungere"
+    ]
+  },
+  "pensare": {
+    "prepositions": [
+      "a",
+      "di"
+    ],
+    "pronominal": false,
+    "pattern": "pensare + a + [qualcosa/qualcuno] vs pensare + di + [opinione/infinito]",
+    "level": "A1",
+    "definition": "Esercitare la mente, riflettere (a) oppure esprimere un giudizio/opinione (di).",
+    "grammar_rule": "DISTINZIONE FONDAMENTALE: « Pensare a » indica diretta riflessione o cura (Penso a te, penso al futuro; articolazioni al/allo/alla). « Pensare di » esprime opinione o intenzione di fare (Che pensi di questo libro? Penso di partire; articolazioni del/della/degli).",
+    "noun_parallel": "⚡ Verbo: 'Pensare al progetto' ➜ Nome: 'La pensiero'",
+    "examples": [
+      "Penso spesso ai miei anni d'università.",
+      "Cosa pensi della nuova collega?"
+    ],
+    "common_mistake": "❌ Cosa pensi a questo film? ➜ ✅ Cosa pensi di questo film?",
+    "synonyms": [
+      "riflettere su",
+      "meditare"
+    ],
+    "antonyms": [
+      "dimenticare",
+      "trascurare"
+    ]
+  },
+  "piacere": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "piacere + a + [persona] (costruzione indiretta)",
+    "level": "A1",
+    "definition": "Essere gradito o offrire una sensazione piacevole.",
+    "grammar_rule": "Costruzione sintattica inversa: il soggetto grammaticale è la cosa piacevole e la persona a cui piace vuole la preposizione « a » (Mi piace la musica = La musica piace a me / a Marco / agli studenti).",
+    "noun_parallel": "⚡ Verbo: 'Piacere ai ragazzi' ➜ Nome: 'Il piacere'",
+    "examples": [
+      "A Marco piace molto viaggiare in Italia.",
+      "Ti piace la cucina italiana?"
+    ],
+    "common_mistake": "❌ Marco piace la cucina italiana. ➜ ✅ A Marco piace la cucina italiana.",
+    "synonyms": [
+      "aggradare",
+      "allettare"
+    ],
+    "antonyms": [
+      "dispiacere",
+      "disgustare"
+    ]
+  },
+  "prendere": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "prendere + [qualcosa] (oggetto diretto)",
+    "level": "A1",
+    "definition": "Afferrare, portare con sé o consumare cibo/bevanda.",
+    "grammar_rule": "Verbo transitivo diretto (prendere il bus, prendere un caffè, prendere le chiavi). Non usa preposizioni.",
+    "noun_parallel": "⚡ Verbo: 'Prendere il bus' ➜ Nome: 'La presa'",
+    "examples": [
+      "Prendo il treno delle sette ogni mattina.",
+      "Prendi un caffè con noi?"
+    ],
+    "common_mistake": "❌ Prendo di un caffè al bar. ➜ ✅ Prendo un caffè al bar.",
+    "synonyms": [
+      "afferrare",
+      "pigliare"
+    ],
+    "antonyms": [
+      "lasciare",
+      "posare"
+    ]
+  },
+  "rispondere": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "rispondere + a + [persona / domanda / lettera]",
+    "level": "A1",
+    "definition": "Dare una risposta a chi chiede o scrive.",
+    "grammar_rule": "Richiede la preposizione « a » sia davanti alle persone (rispondere al professore) sia alle domande o messaggi (rispondere alla mail, al telefono; articolazioni al/alla/alle).",
+    "noun_parallel": "⚡ Verbo: 'Rispondere alla lettera' ➜ Nome: 'La risposta'",
+    "examples": [
+      "Devo rispondere alla mail del cliente.",
+      "Marco non risponde mai al telefono."
+    ],
+    "common_mistake": "❌ Rispondo la tua domanda subito. ➜ ✅ Rispondo alla tua domanda subito.",
+    "synonyms": [
+      "replicare",
+      "riscontrare"
+    ],
+    "antonyms": [
+      "domandare",
+      "chiedere"
+    ]
+  },
+  "scrivere": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "scrivere + [qualcosa] + a + [qualcuno]",
+    "level": "A1",
+    "definition": "Tracciare segni o lettere per comunicare.",
+    "grammar_rule": "L'opera o il messaggio è diretto (scrivere una lettera). Il destinatario prende sempre la preposizione « a » (scrivere al dottore, alla zia; articolazioni al/alla/agli).",
+    "noun_parallel": "⚡ Verbo: 'Scrivere al professore' ➜ Nome: 'La scrittura / La lettera'",
+    "examples": [
+      "Scrivo un messaggio a Chiara.",
+      "Ha scritto una bella lettera ai genitori."
+    ],
+    "common_mistake": "❌ Scrivo per il professore una mail. ➜ ✅ Scrivo al professore una mail.",
+    "synonyms": [
+      "redigere",
+      "comporre"
+    ],
+    "antonyms": [
+      "leggere",
+      "cancellare"
+    ]
+  },
+  "servire": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "servire + a + [scopo / persona]",
+    "level": "A1",
+    "definition": "Essere utile o necessario per uno scopo.",
+    "grammar_rule": "Quando indica utilità o funzione richiede la preposizione « a » (Servire a qualcosa, servire a capire). Se seguito da nome usa « a » o preposizione articolata (servire alla patria, al progetto).",
+    "noun_parallel": "⚡ Verbo: 'Servire alla causa' ➜ Nome: 'Il servizio'",
+    "examples": [
+      "Questo strumento serve a tagliare il legno.",
+      "A cosa serve questo pulsante rosso?"
+    ],
+    "common_mistake": "❌ Questo dizionario serve per a studiare. ➜ ✅ Questo dizionario serve a studiare.",
+    "synonyms": [
+      "giovare",
+      "essere utile"
+    ],
+    "antonyms": [
+      "nocere",
+      "nuocere"
+    ]
+  },
+  "sposare": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "sposare + [qualcuno] (oggetto diretto)",
+    "level": "A1",
+    "definition": "Unirsi in matrimonio con una persona.",
+    "grammar_rule": "Verbo transitivo diretto in italiano! Si dice « sposare Maria » o « sposare il proprio partner » SENZA la preposizione 'con'. Il verbo pronominale 'sposarsi' usa invece 'con' (sposarsi con Maria).",
+    "noun_parallel": "⚡ Verbo: 'Sposare la fidanzata' ➜ Nome: 'Il sposo / Le nozze'",
+    "examples": [
+      "Paolo ha sposato Francesca lo scorso anno.",
+      "Vuoi sposarmi?"
+    ],
+    "common_mistake": "❌ Paolo ha sposato con Francesca. ➜ ✅ Paolo ha sposato Francesca.",
+    "synonyms": [
+      "impiazzarsi",
+      "ammogliarsi"
+    ],
+    "antonyms": [
+      "divorziare",
+      "separarsi"
+    ]
+  },
+  "suonare": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "suonare + [strumento musicale] (oggetto diretto)",
+    "level": "A1",
+    "definition": "Produrre musica con uno strumento musicale.",
+    "grammar_rule": "DISTINZIONE FONDAMENTALE: Gli strumenti musicali in italiano sono oggetto diretto SENZA preposizione (suonare la chitarra, suonare il pianoforte, suonare la tromba). NON usare 'a' come con lo sport (giocare a calcio)!",
+    "noun_parallel": "⚡ Verbo: 'Suonare il pianoforte' ➜ Nome: 'Il suono / La suonata'",
+    "examples": [
+      "Mia sorella suona il pianoforte da dieci anni.",
+      "Mio padre sa suonare la chitarra."
+    ],
+    "common_mistake": "❌ Suono a la chitarra ogni sera. ➜ ✅ Suono la chitarra ogni sera.",
+    "synonyms": [
+      "eseguire",
+      "suonare"
+    ],
+    "antonyms": [
+      "ascoltare",
+      "tacere"
+    ]
+  },
+  "telefonare": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "telefonare + a + [persona]",
+    "level": "A1",
+    "definition": "Chiamare qualcuno al telefono.",
+    "grammar_rule": "Richiede sempre la preposizione « a » davanti alla persona chiamata (telefonare alla mamma, telefonare al medico, telefonare agli uffici; articolazioni al/alla/agli).",
+    "noun_parallel": "⚡ Verbo: 'Telefonare al cliente' ➜ Nome: 'La telefonata'",
+    "examples": [
+      "Telefono a mia madre tutti i pomeriggi.",
+      "Hai telefonato al ristorante per prenotare?"
+    ],
+    "common_mistake": "❌ Telefono mia madre stasera. ➜ ✅ Telefono a mia madre stasera.",
+    "synonyms": [
+      "chiamare a",
+      "comunicare con"
+    ],
+    "antonyms": [
+      "ignorare"
+    ]
+  },
+  "tornare": {
+    "prepositions": [
+      "a",
+      "in"
+    ],
+    "pronominal": false,
+    "pattern": "tornare + a [città/casa] / in [paese/luogo]",
+    "level": "A1",
+    "definition": "Rientrare nel luogo di partenza.",
+    "grammar_rule": "Si usa « a » per città e casa (tornare a casa, tornare a Roma) e « in » per paesi o regioni (tornare in Italia; articolazioni al/nel/nella).",
+    "noun_parallel": "⚡ Verbo: 'Tornare a casa' ➜ Nome: 'Il ritorno'",
+    "examples": [
+      "Torno a casa verso le sette di sera.",
+      "L'anno prossimo torneremo in Italia."
+    ],
+    "common_mistake": "❌ Torno in casa dopo il lavoro. ➜ ✅ Torno a casa dopo il lavoro.",
+    "synonyms": [
+      "rientrare",
+      "ritornare"
+    ],
+    "antonyms": [
+      "partire",
+      "andarsene"
+    ]
+  },
+  "uscire": {
+    "prepositions": [
+      "da",
+      "con"
+    ],
+    "pronominal": false,
+    "pattern": "uscire + da + [luogo] / con + [persona]",
+    "level": "A1",
+    "definition": "Andare all'esterno di un ambiente chiuso o fare una passeggiata sociale.",
+    "grammar_rule": "Indica provenienza dall'interno con « da » (uscire dalla stanza, dall'ufficio; articolazioni dal/dalla) e compagnia sociale con « con » (uscire con gli amici).",
+    "noun_parallel": "⚡ Verbo: 'Uscire dall'ufficio' ➜ Nome: 'L'uscita'",
+    "examples": [
+      "Esco dall'ufficio alle sei precise.",
+      "Stasera esco con i miei colleghi."
+    ],
+    "common_mistake": "❌ Esco di l'ufficio tardi. ➜ ✅ Esco dall'ufficio tardi.",
+    "synonyms": [
+      "abbandonare",
+      "svicolare"
+    ],
+    "antonyms": [
+      "entrare",
+      "rientrare"
+    ]
+  },
+  "vedere": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "vedere + [qualcuno / qualcosa] (oggetto diretto)",
+    "level": "A1",
+    "definition": "Percepire con gli occhi.",
+    "grammar_rule": "Verbo transitivo diretto. Non richiede preposizioni prima del complemento oggetto.",
+    "noun_parallel": "⚡ Verbo: 'Vedere il film' ➜ Nome: 'La vista / La visione'",
+    "examples": [
+      "Vedo una bella mostra di pittura.",
+      "Hai visto Maria stamattina?"
+    ],
+    "common_mistake": "❌ Vedo a Luca in piazza. ➜ ✅ Vedo Luca in piazza.",
+    "synonyms": [
+      "scorgere",
+      "osservare"
+    ],
+    "antonyms": [
+      "accecare",
+      "ignorare"
+    ]
+  },
+  "venire": {
+    "prepositions": [
+      "a",
+      "da"
+    ],
+    "pronominal": false,
+    "pattern": "venire + a [città/luogo] / da [provenienza]",
+    "level": "A1",
+    "definition": "Spostarsi verso chi parla o muoversi da un punto d'origine.",
+    "grammar_rule": "Indica destinazione con « a » (venire a Roma, venire alla festa) e origine con « da » (venire da Milano, venire dal Brasile; articolazioni dal/dalla/dagli).",
+    "noun_parallel": "⚡ Verbo: 'Venire alla festa' ➜ Nome: 'La venuta'",
+    "examples": [
+      "Vengo da Firenze e vado a Roma.",
+      "Vieni alla festa di compleanno stasera?"
+    ],
+    "common_mistake": "❌ Vengo di Milano stamattina. ➜ ✅ Vengo da Milano stamattina.",
+    "synonyms": [
+      "giungere",
+      "arrivare"
+    ],
+    "antonyms": [
+      "andarsene",
+      "partire"
+    ]
+  },
+  "vivere": {
+    "prepositions": [
+      "a",
+      "in"
+    ],
+    "pronominal": false,
+    "pattern": "vivere + a [città] / in [paese/luogo]",
+    "level": "A1",
+    "definition": "Abitare in un luogo determinato.",
+    "grammar_rule": "Usa « a » per le città (vivere a Torino) e « in » per le nazioni o regioni (vivere in Spagna, in Toscana; articolazioni nel/nella/negli).",
+    "noun_parallel": "⚡ Verbo: 'Vivere in città' ➜ Nome: 'La vita'",
+    "examples": [
+      "Vivo a Milano da tre anni.",
+      "I miei nonni vivono in campagna."
+    ],
+    "common_mistake": "❌ Vivo in Roma da molti anni. ➜ ✅ Vivo a Roma da molti anni.",
+    "synonyms": [
+      "abitare",
+      "risiedere"
+    ],
+    "antonyms": [
+      "morire",
+      "decedere"
+    ]
+  },
+  "volere": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "volere + [qualcosa / infinito] (oggetto diretto)",
+    "level": "A1",
+    "definition": "Avere la volontà di fare o ottenere qualcosa.",
+    "grammar_rule": "Verbo servile e transitivo diretto. Non richiede alcuna preposizione prima del sostantivo o del verbo all'infinito (voglio un gelato, voglio partire).",
+    "noun_parallel": "⚡ Verbo: 'Volere un caffè' ➜ Nome: 'La volontà'",
+    "examples": [
+      "Voglio imparare l'italiano alla perfezione.",
+      "Cosa vuoi per il tuo compleanno?"
+    ],
+    "common_mistake": "❌ Voglio di mangiare una pizza. ➜ ✅ Voglio mangiare una pizza.",
+    "synonyms": [
+      "desiderare",
+      "esigere"
+    ],
+    "antonyms": [
+      "rifiutare",
+      "respingere"
+    ]
+  },
+  "abituarsi": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": true,
+    "pattern": "abituarsi + a + [nome / infinito]",
+    "level": "A2",
+    "definition": "Acquistare l'abitudine a una situazione o azione.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « a », che si articola davanti al sostantivo (abituarsi al clima, alla routine, agli orari).",
+    "noun_parallel": "⚡ Verbo: 'Abituarsi al freddo' ➜ Nome: 'L'abitudine'",
+    "examples": [
+      "Mi sto abituando al clima di questa città.",
+      "Si è abituato a svegliarsi presto ogni mattina."
+    ],
+    "common_mistake": "❌ Mi abituo di il freddo poco a poco. ➜ ✅ Mi abituo al freddo poco a poco.",
+    "synonyms": [
+      "assuefarsi a",
+      "adattarsi a"
+    ],
+    "antonyms": [
+      "disassuefarsi da",
+      "disimparare"
+    ]
+  },
+  "aiutare": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "aiutare + [qualcuno] + a + [infinito]",
+    "level": "A2",
+    "definition": "Prestare soccorso o assistenza a una persona per compiere un'azione.",
+    "grammar_rule": "La persona aiutata è complemento oggetto diretto (senza preposizione), mentre l'azione da compiere vuole la preposizione « a » prima dell'infinito (aiutare qualcuno a fare).",
+    "noun_parallel": "⚡ Verbo: 'Aiutare l'amico a traslocare' ➜ Nome: 'L'aiuto'",
+    "examples": [
+      "Ho aiutato Maria a preparare la cena.",
+      "Mi aiuti a portare queste borse pesanti?"
+    ],
+    "common_mistake": "❌ Ho aiutato a Maria di studiare. ➜ ✅ Ho aiutato Maria a studiare.",
+    "synonyms": [
+      "assistere",
+      "soccorrere"
+    ],
+    "antonyms": [
+      "ostacolare",
+      "impedire"
+    ]
+  },
+  "assomigliare": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "assomigliare + a + [qualcuno / qualcosa]",
+    "level": "A2",
+    "definition": "Avere tratti fisici o morali simili a un'altra persona o cosa.",
+    "grammar_rule": "Richiede la preposizione « a », che si articola regolarmente davanti ai sostantivi (assomigliare al padre, alla madre, ai nonni). Variante: somigliare a.",
+    "noun_parallel": "⚡ Verbo: 'Assomigliare al padre' ➜ Nome: 'La somiglianza'",
+    "examples": [
+      "Marco assomiglia molto a suo padre.",
+      "Questo piatto assomiglia alla paella spagnola."
+    ],
+    "common_mistake": "❌ Marco assomiglia con suo padre. ➜ ✅ Marco assomiglia a suo padre.",
+    "synonyms": [
+      "somigliare a",
+      "parere"
+    ],
+    "antonyms": [
+      "differire da",
+      "distinguersi da"
+    ]
+  },
+  "augurare": {
+    "prepositions": [
+      "none",
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "augurare + [qualcosa] + a + [qualcuno]",
+    "level": "A2",
+    "definition": "Esprimere il desiderio che qualcosa di buono accada a una persona.",
+    "grammar_rule": "Il bene augurato è oggetto diretto. La persona a cui si augura richiede la preposizione « a » (augurare buon compleanno al collega, alla zia).",
+    "noun_parallel": "⚡ Verbo: 'Augurare il meglio alla sorella' ➜ Nome: 'L'augurio'",
+    "examples": [
+      "Ti auguro un felice anno nuovo!",
+      "Abbiamo augurato buon viaggio agli sposi."
+    ],
+    "common_mistake": "❌ Auguro per te un buon compleanno. ➜ ✅ Ti auguro un buon compleanno.",
+    "synonyms": [
+      "auspicare",
+      "desiderare"
+    ],
+    "antonyms": [
+      "maledire"
+    ]
+  },
+  "cambiare": {
+    "prepositions": [
+      "none",
+      "di"
+    ],
+    "pronominal": false,
+    "pattern": "cambiare + [oggetto diretto] / cambiare + di + [opinione/idea]",
+    "level": "A2",
+    "definition": "Modificare qualcosa o sostituire con un elemento diverso.",
+    "grammar_rule": "In senso generale è diretto (cambiare macchina, cambiare casa). Con sostantivi astratti come opinione o idea richiede « di » (cambiare di idea, cambiare di parere).",
+    "noun_parallel": "⚡ Verbo: 'Cambiare idea' ➜ Nome: 'Il cambiamento'",
+    "examples": [
+      "Ha deciso di cambiare macchina il mese scorso.",
+      "Cambio spesso idea quando viaggio."
+    ],
+    "common_mistake": "❌ Cambio di la mia casa il mese prossimo. ➜ ✅ Cambio la mia casa il mese prossimo.",
+    "synonyms": [
+      "modificare",
+      "mutare"
+    ],
+    "antonyms": [
+      "conservare",
+      "mantenere"
+    ]
+  },
+  "chiedere di": {
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": false,
+    "pattern": "chiedere + di + [infinito]",
+    "level": "A2",
+    "definition": "Domandare il permesso o fare una richiesta per compiere un'azione.",
+    "grammar_rule": "Quando 'chiedere' introduce un verbo all'infinito per fare una richiesta formale o domandare un permesso, usa sempre « di » (chiedere di parlare con il direttore).",
+    "noun_parallel": "⚡ Verbo: 'Chiedere di uscire' ➜ Nome: 'La richiesta'",
+    "examples": [
+      "Il cliente ha chiesto di parlare con il responsabile.",
+      "Mi ha chiesto di accompagnarlo alla stazione."
+    ],
+    "common_mistake": "❌ Ha chiesto a uscire prima. ➜ ✅ Ha chiesto di uscire prima.",
+    "synonyms": [
+      "domandare di",
+      "pregare di"
+    ],
+    "antonyms": [
+      "ordinare di",
+      "esigere di"
+    ]
+  },
+  "cominciare a": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "cominciare + a + [infinito]",
+    "level": "A2",
+    "definition": "Dare inizio a un'attività o un processo continuo.",
+    "grammar_rule": "Introdotto con la preposizione « a » prima dell'infinito (cominciare a piovere, cominciare a lavorare).",
+    "noun_parallel": "⚡ Verbo: 'Cominciare a lavorare' ➜ Nome: 'L'inizio'",
+    "examples": [
+      "Ha cominciato a piovere a dirotto.",
+      "Cominciamo a preparare la cena."
+    ],
+    "common_mistake": "❌ Comincio di capire la situazione. ➜ ✅ Comincio a capire la situazione.",
+    "synonyms": [
+      "iniziare a"
+    ],
+    "antonyms": [
+      "finire di",
+      "smettere di"
+    ]
+  },
+  "consigliare": {
+    "prepositions": [
+      "none",
+      "a",
+      "di"
+    ],
+    "pronominal": false,
+    "pattern": "consigliare + [qualcosa] + a + [qualcuno] / consigliare di + [infinito]",
+    "level": "A2",
+    "definition": "Dare un consiglio a qualcuno su una decisione.",
+    "grammar_rule": "La persona consigliata vuole la preposizione « a » (consigliare al cliente). L'azione consigliata all'infinito vuole « di » (consigliare di partire).",
+    "noun_parallel": "⚡ Verbo: 'Consigliare un libro all'amico' ➜ Nome: 'Il consiglio'",
+    "examples": [
+      "Ti consiglio di visitare il museo degli Uffizi.",
+      "Il medico ha consigliato a Luca di riposare."
+    ],
+    "common_mistake": "❌ Ho consigliato a Luca a riposare. ➜ ✅ Ho consigliato a Luca di riposare.",
+    "synonyms": [
+      "suggerire",
+      "raccomandare"
+    ],
+    "antonyms": [
+      "sconsigliare",
+      "dissuadere"
+    ]
+  },
+  "contare su": {
+    "prepositions": [
+      "su"
+    ],
+    "pronominal": false,
+    "pattern": "contare + su + [qualcuno / qualcosa]",
+    "level": "A2",
+    "definition": "Fare affidamento o fare conto sull'aiuto di qualcuno.",
+    "grammar_rule": "Richiede la preposizione « su », che si fonde nelle articolate davanti ai nomi (sul collega, sulla parola, sugli amici, sulle nostre forze).",
+    "noun_parallel": "⚡ Verbo: 'Contare sul collega' ➜ Nome: 'Il conto'",
+    "examples": [
+      "Puoi sempre contare su di me per qualsiasi problema.",
+      "Contiamo sul tuo aiuto per organizzare l'evento."
+    ],
+    "common_mistake": "❌ Conto a te per il progetto. ➜ ✅ Conto su di te per il progetto.",
+    "synonyms": [
+      "fidarsi di",
+      "fare affidamento su"
+    ],
+    "antonyms": [
+      "diffidare di",
+      "dubitare di"
+    ]
+  },
+  "continuare": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "continuare + a + [infinito]",
+    "level": "A2",
+    "definition": "Proseguire un'azione senza interromperla.",
+    "grammar_rule": "Quando regge un verbo all'infinito richiede la preposizione « a » (continuare a studiare, continuare a parlare).",
+    "noun_parallel": "⚡ Verbo: 'Continuare a studiare' ➜ Nome: 'La continuazione'",
+    "examples": [
+      "Nonostante la pioggia, hanno continuato a giocare.",
+      "Continua a lavorare con grande passione."
+    ],
+    "common_mistake": "❌ Continua di parlare senza ascoltare. ➜ ✅ Continua a parlare senza ascoltare.",
+    "synonyms": [
+      "proseguire a",
+      "seguitare a"
+    ],
+    "antonyms": [
+      "smettere di",
+      "interrompere"
+    ]
+  },
+  "decidere": {
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": false,
+    "pattern": "decidere + di + [infinito]",
+    "level": "A2",
+    "definition": "Prendere una risoluzione o fare una scelta.",
+    "grammar_rule": "Quando si decide di compiere un'azione all'infinito, si usa sempre la preposizione « di » (decidere di partire, decidere di cambiare).",
+    "noun_parallel": "⚡ Verbo: 'Decidere di partire' ➜ Nome: 'La decisione'",
+    "examples": [
+      "Abbiamo deciso di comprare una nuova casa.",
+      "Ha deciso di iscriversi al corso di italiano."
+    ],
+    "common_mistake": "❌ Ho deciso a cambiare lavoro. ➜ ✅ Ho deciso di cambiare lavoro.",
+    "synonyms": [
+      "stabilire di",
+      "deliberare di"
+    ],
+    "antonyms": [
+      "esitare a",
+      "tentennare"
+    ]
+  },
+  "dimenticare": {
+    "prepositions": [
+      "none",
+      "di"
+    ],
+    "pronominal": false,
+    "pattern": "dimenticare + [oggetto diretto] / dimenticare di + [infinito]",
+    "level": "A2",
+    "definition": "Non ricordare una cosa o un'azione da fare.",
+    "grammar_rule": "Forma non pronominale: con sostantivo è diretto (dimenticare le chiavi). Con infinito usa « di » (dimenticare di chiudere). La forma pronominale 'dimenticarsi' richiede sempre « di » anche coi nomi (dimenticarsi delle chiavi).",
+    "noun_parallel": "⚡ Verbo: 'Dimenticare le chiavi' ➜ Nome: 'La dimenticanza'",
+    "examples": [
+      "Ho dimenticato il portafoglio a casa.",
+      "Non dimenticare di comprare il latte."
+    ],
+    "common_mistake": "❌ Ho dimenticato di le chiavi. ➜ ✅ Ho dimenticato le chiavi.",
+    "synonyms": [
+      "scordare"
+    ],
+    "antonyms": [
+      "ricordare",
+      "rammentare"
+    ]
+  },
+  "dimenticarsi": {
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": true,
+    "pattern": "dimenticarsi + di + [nome / infinito]",
+    "level": "A2",
+    "definition": "Perdere il ricordo di qualcosa o non fare un'azione per sbadataggine.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « di » sia davanti al nome (dimenticarsi del compito, della risposta) sia prima dell'infinito.",
+    "noun_parallel": "⚡ Verbo: 'Dimenticarsi degli occhiali' ➜ Nome: 'La dimenticanza'",
+    "examples": [
+      "Mi sono dimenticato delle chiavi della macchina.",
+      "Si dimentica sempre di spegnere la luce."
+    ],
+    "common_mistake": "❌ Mi sono dimenticato i compiti a casa. ➜ ✅ Mi sono dimenticato dei compiti a casa.",
+    "synonyms": [
+      "scordarsi di"
+    ],
+    "antonyms": [
+      "ricordarsi di",
+      "rammentarsi di"
+    ]
+  },
+  "fidarsi": {
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": true,
+    "pattern": "fidarsi + di + [qualcuno / qualcosa]",
+    "level": "A2",
+    "definition": "Avere piena fiducia in una persona o in una cosa.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « di », con relative preposizioni articolate (del medico, della guida, degli amici, delle sue promesse).",
+    "noun_parallel": "⚡ Verbo: 'Fidarsi del collega' ➜ Nome: 'La fiducia'",
+    "examples": [
+      "Mi fido ciecamente di Marco.",
+      "Non dovresti fidarti di quelle notizie non verificate."
+    ],
+    "common_mistake": "❌ Mi fido a questo professionista. ➜ ✅ Mi fido di questo professionista.",
+    "synonyms": [
+      "confidare in",
+      "avere fiducia in"
+    ],
+    "antonyms": [
+      "diffidare di",
+      "sfiduciare"
+    ]
+  },
+  "finire": {
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": false,
+    "pattern": "finire + di + [infinito]",
+    "level": "A2",
+    "definition": "Completare o portare a termine un'azione.",
+    "grammar_rule": "Quando regge un verbo all'infinito richiede la preposizione « di » (finire di mangiare, finire di studiare). Con un luogo indica arrivare in un punto (finire in prigione).",
+    "noun_parallel": "⚡ Verbo: 'Finire di studiare' ➜ Nome: 'La fine'",
+    "examples": [
+      "Ho finito di leggere quel romanzo ieri sera.",
+      "Finiamo di lavorare verso le sei."
+    ],
+    "common_mistake": "❌ Ho finito a preparare la valigia. ➜ ✅ Ho finito di preparare la valigia.",
+    "synonyms": [
+      "terminare di",
+      "concludere di"
+    ],
+    "antonyms": [
+      "cominciare a",
+      "iniziare a"
+    ]
+  },
+  "interessarsi": {
+    "prepositions": [
+      "a",
+      "di"
+    ],
+    "pronominal": true,
+    "pattern": "interessarsi + a/di + [argomento / settore]",
+    "level": "A2",
+    "definition": "Mostrare interesse o occuparsi di una materia o argomento.",
+    "grammar_rule": "Verbo pronominale. Accetta la preposizione « a » oppure « di » per indicare l'argomento (interessarsi alla musica / di musica; articolazioni al/alla o del/della).",
+    "noun_parallel": "⚡ Verbo: 'Interessarsi all'arte' ➜ Nome: 'L'interesse'",
+    "examples": [
+      "Si interessa molto di politica internazionale.",
+      "Mio figlio si è interessato alla fotografia."
+    ],
+    "common_mistake": "❌ Si interessa per la storia antica. ➜ ✅ Si interessa alla storia antica.",
+    "synonyms": [
+      "appassionarsi a",
+      "occuparsi di"
+    ],
+    "antonyms": [
+      "disinteressarsi di",
+      "curarsene"
+    ]
+  },
+  "lamentarsi": {
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": true,
+    "pattern": "lamentarsi + di + [qualcuno / qualcosa / infinito]",
+    "level": "A2",
+    "definition": "Esprimere insoddisfazione o dolore per qualcosa.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « di » (lamentarsi del rumore, del servizio, del freddo; articolazioni del/della/degli).",
+    "noun_parallel": "⚡ Verbo: 'Lamentarsi del servizio' ➜ Nome: 'Il lamento / La lamentela'",
+    "examples": [
+      "Si lamenta sempre del traffico in città.",
+      "I clienti si sono lamentati della lentezza."
+    ],
+    "common_mistake": "❌ Si lamenta su del rumore continuo. ➜ ✅ Si lamenta del rumore continuo.",
+    "synonyms": [
+      "protestare per",
+      "dolersi di"
+    ],
+    "antonyms": [
+      "compiacersi di",
+      "apprezzare"
+    ]
+  },
+  "occuparsi": {
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": true,
+    "pattern": "occuparsi + di + [qualcosa / qualcuno]",
+    "level": "A2",
+    "definition": "Dedicare il proprio tempo e lavoro a una gestione o persona.",
+    "grammar_rule": "Verbo pronominale. Richiede sempre la preposizione « di », con relative preposizioni articolate (occuparsi del progetto, della contabilità, dei bambini).",
+    "noun_parallel": "⚡ Verbo: 'Occuparsi del progetto' ➜ Nome: 'L'occupazione'",
+    "examples": [
+      "Mia sorella si occupa di marketing digitale.",
+      "Chi si occupa della prenotazione dell'albergo?"
+    ],
+    "common_mistake": "❌ Mi occupo a i clienti esteri. ➜ ✅ Mi occupo dei clienti esteri.",
+    "synonyms": [
+      "curare",
+      "badare a"
+    ],
+    "antonyms": [
+      "trascurare",
+      "disinteressarsi di"
+    ]
+  },
+  "offrirsi": {
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": true,
+    "pattern": "offrirsi + di + [infinito]",
+    "level": "A2",
+    "definition": "Proporsi volontariamente per compiere un'azione.",
+    "grammar_rule": "Verbo pronominale. Quando introduce un verbo all'infinito richiede la preposizione « di » (offrirsi di aiutare, offrirsi di pagare).",
+    "noun_parallel": "⚡ Verbo: 'Offrirsi di aiutare' ➜ Nome: 'L'offerta'",
+    "examples": [
+      "Marco si è offerto di accompagnarci all'aeroporto.",
+      "Si sono offerti di preparare la sala."
+    ],
+    "common_mistake": "❌ Si è offerto a guidare durante il viaggio. ➜ ✅ Si è offerto di guidare durante il viaggio.",
+    "synonyms": [
+      "proporsi di",
+      "offrirsi per"
+    ],
+    "antonyms": [
+      "rifiutarsi di"
+    ]
+  },
+  "ordinare": {
+    "prepositions": [
+      "none",
+      "a",
+      "di"
+    ],
+    "pronominal": false,
+    "pattern": "ordinare + [qualcosa] + a + [qualcuno] / ordinare di + [infinito]",
+    "level": "A2",
+    "definition": "Imporre un comando o richiedere cibo/merci.",
+    "grammar_rule": "Al ristorante è diretto (ordinare una pizza). Quando si impone un ordine a una persona richiede « a » per la persona e « di » prima dell'infinito (ordinare al soldato di avanzare).",
+    "noun_parallel": "⚡ Verbo: 'Ordinare il pranzo' ➜ Nome: 'L'ordine'",
+    "examples": [
+      "Abbiamo ordinato la cena al cameriere.",
+      "Il giudice ha ordinato di sospendere i lavori."
+    ],
+    "common_mistake": "❌ Ha ordinato a il cameriere di portare l'acqua. ➜ ✅ Ha ordinato al cameriere di portare l'acqua.",
+    "synonyms": [
+      "comandare di",
+      "prescrivere"
+    ],
+    "antonyms": [
+      "vietare di",
+      "proibire"
+    ]
+  },
+  "pensare di": {
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": false,
+    "pattern": "pensare + di + [infinito / opinione]",
+    "level": "A2",
+    "definition": "Avere intenzione di fare qualcosa o esprimere un giudizio.",
+    "grammar_rule": "Quando indica un'intenzione futura con un verbo all'infinito o chiede un'opinione sul valore di qualcosa, usa la preposizione « di » (penso di uscire, che pensi del progetto?).",
+    "noun_parallel": "⚡ Verbo: 'Pensare di partire' ➜ Nome: 'Il pensiero'",
+    "examples": [
+      "Penso di andare in vacanza a luglio.",
+      "Cosa pensi della proposta di Marco?"
+    ],
+    "common_mistake": "❌ Penso a andare al mare domani. ➜ ✅ Penso di andare al mare domani.",
+    "synonyms": [
+      "intendere",
+      "ritenere"
+    ],
+    "antonyms": [
+      "esitare",
+      "rifiutare"
+    ]
+  },
+  "permettere": {
+    "prepositions": [
+      "a",
+      "di"
+    ],
+    "pronominal": false,
+    "pattern": "permettere + a + [qualcuno] + di + [infinito]",
+    "level": "A2",
+    "definition": "Concedere a qualcuno la possibilità di fare qualcosa.",
+    "grammar_rule": "La persona a cui si concede il permesso richiede la preposizione « a » (permettere ai figli, al dipendente). L'azione permessa vuole « di » prima dell'infinito (permettere di uscire).",
+    "noun_parallel": "⚡ Verbo: 'Permettere l'accesso agli ospiti' ➜ Nome: 'Il permesso'",
+    "examples": [
+      "Il professore non permette agli studenti di usare il telefono.",
+      "Mi permetta di presentare il mio collega."
+    ],
+    "common_mistake": "❌ Il padre permette i figli di uscire. ➜ ✅ Il padre permette ai figli di uscire.",
+    "synonyms": [
+      "consentire a",
+      "autorizzare a"
+    ],
+    "antonyms": [
+      "vietare a",
+      "proibire a"
+    ]
+  },
+  "portare": {
+    "prepositions": [
+      "none",
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "portare + [qualcosa] + a + [qualcuno/luogo]",
+    "level": "A2",
+    "definition": "Trasportare o consegnare un oggetto.",
+    "grammar_rule": "L'oggetto trasportato è diretto. Il destinatario o luogo di arrivo richiede « a » (portare i libri al collega, portare la spesa a casa).",
+    "noun_parallel": "⚡ Verbo: 'Portare i fiori alla mamma' ➜ Nome: 'Il porto / Il trasporto'",
+    "examples": [
+      "Porto un regalo alla festa di Marco.",
+      "Mi porti un bicchiere d'acqua, per favore?"
+    ],
+    "common_mistake": "❌ Porto per la mamma un mazzo di fiori. ➜ ✅ Porto alla mamma un mazzo di fiori.",
+    "synonyms": [
+      "trasportare",
+      "consegnare"
+    ],
+    "antonyms": [
+      "togliere",
+      "asportare"
+    ]
+  },
+  "preoccuparsi": {
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": true,
+    "pattern": "preoccuparsi + di + [qualcuno / qualcosa / infinito]",
+    "level": "A2",
+    "definition": "Provare inquietudine o darsi cura per qualcosa.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « di », che si articola davanti al nome (preoccuparsi della salute, dei figli, del futuro) o precede l'infinito.",
+    "noun_parallel": "⚡ Verbo: 'Preoccuparsi del futuro' ➜ Nome: 'La preoccupazione'",
+    "examples": [
+      "Non preoccuparti del risultato, hai fatto del tuo meglio.",
+      "Si preoccupa sempre di arrivare in orario."
+    ],
+    "common_mistake": "❌ Non ti preoccupare per del denaro. ➜ ✅ Non ti preoccupare del denaro.",
+    "synonyms": [
+      "inquietarsi per",
+      "darsi pena di"
+    ],
+    "antonyms": [
+      "tranquillizzarsi",
+      "fregarsene"
+    ]
+  },
+  "prepararsi": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": true,
+    "pattern": "prepararsi + a + [evento / infinito]",
+    "level": "A2",
+    "definition": "Disporsi o organizzarsi per affrontare un evento o un'azione.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « a » sia davanti a un nome (prepararsi all'esame, alla gara) sia prima di un verbo all'infinito.",
+    "noun_parallel": "⚡ Verbo: 'Prepararsi all'esame' ➜ Nome: 'La preparazione'",
+    "examples": [
+      "Ci stiamo preparando all'esame di italiano.",
+      "Si prepara a uscire per andare al lavoro."
+    ],
+    "common_mistake": "❌ Mi preparo per l'esame di domani. ➜ ✅ Mi preparo all'esame di domani.",
+    "synonyms": [
+      "disporsi a",
+      "allestirsi per"
+    ],
+    "antonyms": [
+      "tralasciare",
+      "trascurare"
+    ]
+  },
+  "provare": {
+    "prepositions": [
+      "a",
+      "di"
+    ],
+    "pronominal": false,
+    "pattern": "provare + a/di + [infinito]",
+    "level": "A2",
+    "definition": "Fare un tentativo per compiere un'azione.",
+    "grammar_rule": "Quando introduce un verbo all'infinito accetta sia « a » (più comune nel parlato: provare a fare) sia « di » (provare di capire). Con un sostantivo è diretto (provare un abito, provare dolore).",
+    "noun_parallel": "⚡ Verbo: 'Provare la giacca' ➜ Nome: 'La prova'",
+    "examples": [
+      "Provo a chiamarlo un'altra volta.",
+      "Ha provato di spiegare le sue ragioni."
+    ],
+    "common_mistake": "❌ Provo di la giacca in camerino. ➜ ✅ Provo la giacca in camerino.",
+    "synonyms": [
+      "tentare di",
+      "sperimentare"
+    ],
+    "antonyms": [
+      "rinunciare a",
+      "desistere"
+    ]
+  },
+  "raccomandare": {
+    "prepositions": [
+      "a",
+      "di"
+    ],
+    "pronominal": false,
+    "pattern": "raccomandare + a + [qualcuno] + di + [infinito]",
+    "level": "A2",
+    "definition": "Consigliare con caldamente o affidare qualcuno.",
+    "grammar_rule": "La persona destinataria vuole « a » (raccomandare ai figli, al medico). L'azione raccomandata all'infinito vuole « di » (raccomandare di fare attenzione).",
+    "noun_parallel": "⚡ Verbo: 'Raccomandare la prudenza' ➜ Nome: 'La raccomandazione'",
+    "examples": [
+      "Raccomando ai miei studenti di ripassare la lezione.",
+      "Mi ha raccomandato di non arrivare in ritardo."
+    ],
+    "common_mistake": "❌ Ho raccomandato i ragazzi di stare attenti. ➜ ✅ Ho raccomandato ai ragazzi di stare attenti.",
+    "synonyms": [
+      "consigliare a",
+      "esortare a"
+    ],
+    "antonyms": [
+      "sconsigliare"
+    ]
+  },
+  "ricordare": {
+    "prepositions": [
+      "none",
+      "di"
+    ],
+    "pronominal": false,
+    "pattern": "ricordare + [oggetto diretto] / ricordare di + [infinito]",
+    "level": "A2",
+    "definition": "Richiamare alla memoria una persona o un fatto.",
+    "grammar_rule": "Forma attiva transitoria: con sostantivo è diretto (ricordare la data). Con verbo all'infinito richiede « di » (ricordare di fare la spesa).",
+    "noun_parallel": "⚡ Verbo: 'Ricordare l'evento' ➜ Nome: 'Il ricordo'",
+    "examples": [
+      "Ricordo perfettamente quel bel viaggio a Firenze.",
+      "Ricorda di comprare il pane prima di tornare."
+    ],
+    "common_mistake": "❌ Ricordo di la tua data di nascita. ➜ ✅ Ricordo la tua data di nascita.",
+    "synonyms": [
+      "rammentare"
+    ],
+    "antonyms": [
+      "dimenticare",
+      "scordare"
+    ]
+  },
+  "ricordarsi": {
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": true,
+    "pattern": "ricordarsi + di + [nome / infinito]",
+    "level": "A2",
+    "definition": "Avere il ricordo di qualcosa nella propria memoria.",
+    "grammar_rule": "Verbo pronominale. Richiede sempre la preposizione « di », che si articola davanti al nome (ricordarsi del nome, della data, dei dettagli).",
+    "noun_parallel": "⚡ Verbo: 'Ricordarsi del nome' ➜ Nome: 'Il ricordo'",
+    "examples": [
+      "Ti ricordi del nostro primo incontro?",
+      "Mi sono ricordato di inviare la mail al cliente."
+    ],
+    "common_mistake": "❌ Ti ricordi il nome di quella persona? ➜ ✅ Ti ricordi del nome di quella persona?",
+    "synonyms": [
+      "rammentarsi di"
+    ],
+    "antonyms": [
+      "dimenticarsi di",
+      "scordarsi di"
+    ]
+  },
+  "ringraziare": {
+    "prepositions": [
+      "none",
+      "di",
+      "per"
+    ],
+    "pronominal": false,
+    "pattern": "ringraziare + [qualcuno] (diretto) + di/per + [qualcosa]",
+    "level": "A2",
+    "definition": "Esprimere gratitudine verso una persona.",
+    "grammar_rule": "REGOLA IMPORTANTE: La persona ringraziata è complemento oggetto DIRETTISSIMO senza preposizione (ringraziare il professore, ringraziare Maria). Il motivo della gratitudine usa « di » o « per » (ringraziare per l'aiuto / di essere venuto).",
+    "noun_parallel": "⚡ Verbo: 'Ringraziare l'amico per l'aiuto' ➜ Nome: 'Il ringraziamento'",
+    "examples": [
+      "Ti ringrazio di cuore per il tuo prezioso aiuto.",
+      "Abbiamo ringraziato il medico per la sua disponibilità."
+    ],
+    "common_mistake": "❌ Ho ringraziato a Marco per l'aiuto. ➜ ✅ Ho ringraziato Marco per l'aiuto.",
+    "synonyms": [
+      "rendere grazie a"
+    ],
+    "antonyms": [
+      "biasimare",
+      "accusare"
+    ]
+  },
+  "rinunciare": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "rinunciare + a + [qualcosa / infinito]",
+    "level": "A2",
+    "definition": "Desistere dal possesso di qualcosa o da un'azione.",
+    "grammar_rule": "Richiede sempre la preposizione « a », con relative preposizioni articolate (rinunciare al viaggio, alla promozione, ai diritti, a uscire).",
+    "noun_parallel": "⚡ Verbo: 'Rinunciare al viaggio' ➜ Nome: 'La rinuncia'",
+    "examples": [
+      "Ha dovuto rinunciare alla vacanza per motivi di lavoro.",
+      "Non rinuncio a esprimere le mie opinioni."
+    ],
+    "common_mistake": "❌ Rinuncio di la mia quota di guadagno. ➜ ✅ Rinuncio alla mia quota di guadagno.",
+    "synonyms": [
+      "desistere da",
+      "abbandonare"
+    ],
+    "antonyms": [
+      "pretendere",
+      "rivendicare"
+    ]
+  },
+  "riuscire": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "riuscire + a + [infinito]",
+    "level": "A2",
+    "definition": "Ottenere l'effetto desiderato, farcela a compiere un'azione.",
+    "grammar_rule": "Quando regge un verbo all'infinito richiede sempre la preposizione « a » (riuscire a vincere, riuscire a capire, riuscire a finire).",
+    "noun_parallel": "⚡ Verbo: 'Riuscire nell'intento' ➜ Nome: 'La riuscita / Il successo'",
+    "examples": [
+      "Sei riuscito a trovare un parcheggio vicino al centro?",
+      "Non riesco a concentrarmi con questo rumore."
+    ],
+    "common_mistake": "❌ Non riesco di aprire questa porta. ➜ ✅ Non riesco ad aprire questa porta.",
+    "synonyms": [
+      "farcela a",
+      "capitare di"
+    ],
+    "antonyms": [
+      "fallire",
+      "bocciare"
+    ]
+  },
+  "scordarsi": {
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": true,
+    "pattern": "scordarsi + di + [nome / infinito]",
+    "level": "A2",
+    "definition": "Dimenticare qualcosa (sinonimo colloquiale di dimenticarsi).",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « di » con relative articolazioni davanti ai nomi (scordarsi del portafoglio, della chiave).",
+    "noun_parallel": "⚡ Verbo: 'Scordarsi dell'appuntamento' ➜ Nome: 'La scordatezza'",
+    "examples": [
+      "Mi sono scordato del tuo compleanno, perdonami!",
+      "Si scorda sempre di fare la spesa."
+    ],
+    "common_mistake": "❌ Mi sono scordato il tuo numero. ➜ ✅ Mi sono scordato del tuo numero.",
+    "synonyms": [
+      "dimenticarsi di"
+    ],
+    "antonyms": [
+      "ricordarsi di"
+    ]
+  },
+  "servire a": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "servire + a + [infinito / scopo]",
+    "level": "A2",
+    "definition": "Avere la funzione o l'utilità di fare qualcosa.",
+    "grammar_rule": "Usa « a » per indicare la destinazione funzionale (servire a tagliare, servire alla salute).",
+    "noun_parallel": "⚡ Verbo: 'Servire allo scopo' ➜ Nome: 'Il servizio'",
+    "examples": [
+      "Questo programma serve a modificare le immagini.",
+      "I risparmi servono a comprare la casa."
+    ],
+    "common_mistake": "❌ Questo bottone serve di accendere la TV. ➜ ✅ Questo bottone serve ad accendere la TV.",
+    "synonyms": [
+      "giovare a"
+    ],
+    "antonyms": [
+      "inutilizzarsi"
+    ]
+  },
+  "smettere": {
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": false,
+    "pattern": "smettere + di + [infinito]",
+    "level": "A2",
+    "definition": "Cessare un'azione o un'abitudine.",
+    "grammar_rule": "Quando regge un verbo all'infinito richiede sempre la preposizione « di » (smettere di fumare, smettere di parlare, smettere di piovere).",
+    "noun_parallel": "⚡ Verbo: 'Smettere di fumare' ➜ Nome: 'La smessa'",
+    "examples": [
+      "Mio padre ha smesso di fumare due anni fa.",
+      "Smettila di fare tutto questo chiasso!"
+    ],
+    "common_mistake": "❌ Ha smesso a parlare all'improvviso. ➜ ✅ Ha smesso di parlare all'improvviso.",
+    "synonyms": [
+      "cessare di",
+      "interrompere"
+    ],
+    "antonyms": [
+      "cominciare a",
+      "continuare a"
+    ]
+  },
+  "sognare": {
+    "prepositions": [
+      "none",
+      "di"
+    ],
+    "pronominal": false,
+    "pattern": "sognare + [oggetto diretto] / sognare di + [infinito]",
+    "level": "A2",
+    "definition": "Vedere immagini durante il sonno o desiderare fortemente.",
+    "grammar_rule": "Con un sostantivo è diretto (sognare il mare, sognare la gloria). Con un verbo all'infinito usa « di » (sognare di viaggiare).",
+    "noun_parallel": "⚡ Verbo: 'Sognare la libertà' ➜ Nome: 'Il sogno'",
+    "examples": [
+      "Ho sognato il mio vecchio professore di liceo.",
+      "Sogno di comprare una casa in riva al mare."
+    ],
+    "common_mistake": "❌ Sogno a viaggiare in tutto il mondo. ➜ ✅ Sogno di viaggiare in tutto il mondo.",
+    "synonyms": [
+      "fantasimare",
+      "bramare"
+    ],
+    "antonyms": [
+      "rifiutare"
+    ]
+  },
+  "sperare": {
+    "prepositions": [
+      "di",
+      "in"
+    ],
+    "pronominal": false,
+    "pattern": "sperare + di + [infinito] / sperare + in + [sostantivo]",
+    "level": "A2",
+    "definition": "Nutrire la fiducia che un desiderio si realizzi.",
+    "grammar_rule": "Davanti all'infinito vuole « di » (sperare di vincere). Davanti a un sostantivo usa « in » con articolazione (sperare nella pace, nella guarigione, nel buon tempo).",
+    "noun_parallel": "⚡ Verbo: 'Sperare nella vittoria' ➜ Nome: 'La speranza'",
+    "examples": [
+      "Spero di superare l'esame al primo tentativo.",
+      "Speriamo tutti in un futuro migliore."
+    ],
+    "common_mistake": "❌ Spero a partire presto per le vacanze. ➜ ✅ Spero di partire presto per le vacanze.",
+    "synonyms": [
+      "confidare in",
+      "auspicare"
+    ],
+    "antonyms": [
+      "disperare di"
+    ]
+  },
+  "spiegare": {
+    "prepositions": [
+      "none",
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "spiegare + [qualcosa] + a + [qualcuno]",
+    "level": "A2",
+    "definition": "Rendere chiaro un concetto a una persona.",
+    "grammar_rule": "Il concetto spiegato è oggetto diretto. La persona a cui si spiega richiede la preposizione « a » (spiegare la lezione agli studenti, al figlio).",
+    "noun_parallel": "⚡ Verbo: 'Spiegare la regola agli studenti' ➜ Nome: 'La spiegazione'",
+    "examples": [
+      "Il professore ha spiegato la regola della reggenza agli studenti.",
+      "Mi spieghi come funziona questo apparecchio?"
+    ],
+    "common_mistake": "❌ Spiego per i colleghi la procedura. ➜ ✅ Spiego ai colleghi la procedura.",
+    "synonyms": [
+      "illustrare",
+      "chiarire"
+    ],
+    "antonyms": [
+      "confondere",
+      "oscurare"
+    ]
+  },
+  "stancarsi": {
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": true,
+    "pattern": "stancarsi + di + [nome / infinito]",
+    "level": "A2",
+    "definition": "Perdere le forze o la pazienza per un'attività ripetitiva.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « di » (stancarsi del lavoro, del rumore, di aspettare; articolazioni del/della/degli).",
+    "noun_parallel": "⚡ Verbo: 'Stancarsi del rumore' ➜ Nome: 'La stanchezza'",
+    "examples": [
+      "Mi sono stancato di fare sempre le stesse cose.",
+      "Si è stancato della vita di città."
+    ],
+    "common_mistake": "❌ Mi stanco a lavorare dieci ore al giorno. ➜ ✅ Mi stanco di lavorare dieci ore al giorno.",
+    "synonyms": [
+      "affaticarsi di",
+      "stufarsi di"
+    ],
+    "antonyms": [
+      "riposarsi",
+      "divertirsi"
+    ]
+  },
+  "succhiare": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "succhiare + [qualcosa] (oggetto diretto)",
+    "level": "A2",
+    "definition": "Tirare a sé un liquido con la bocca.",
+    "grammar_rule": "Verbo transitivo diretto. Non richiede preposizioni.",
+    "noun_parallel": "⚡ Verbo: 'Succhiare la caramella' ➜ Nome: 'Il succhio'",
+    "examples": [
+      "Il bambino succhia il dito quando ha sonno.",
+      "Succhiava la caramella con gusto."
+    ],
+    "common_mistake": "❌ Succhia di la caramella. ➜ ✅ Succhia la caramella.",
+    "synonyms": [
+      "aspirare"
+    ],
+    "antonyms": [
+      "sputare"
+    ]
+  },
+  "ubbidire": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "ubbidire + a + [qualcuno / regola]",
+    "level": "A2",
+    "definition": "Eseguire gli ordini di una persona o rispettare una norma.",
+    "grammar_rule": "Richiede la preposizione « a » sia verso persone (ubbidire ai genitori, al comandante) sia verso norme (ubbidire alla legge). Grafia alternativa: obbedire.",
+    "noun_parallel": "⚡ Verbo: 'Ubbidire alle leggi' ➜ Nome: 'L'ubbidienza'",
+    "examples": [
+      "I soldati devono ubbidire al comandante.",
+      "I ragazzi devono ubbidire ai loro genitori."
+    ],
+    "common_mistake": "❌ Bisogna ubbidire le leggi dello Stato. ➜ ✅ Bisogna ubbidire sulle/alle leggi dello Stato (alle leggi).",
+    "synonyms": [
+      "obbedire a",
+      "sottomettersi a"
+    ],
+    "antonyms": [
+      "disubbidire a",
+      "ribellarsi a"
+    ]
+  },
+  "obbedire": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "obbedire + a + [qualcuno / legge]",
+    "level": "A2",
+    "definition": "Rispettare gli ordini di un'autorità o la legge.",
+    "grammar_rule": "Richiede la preposizione « a » con articolazione obbligatoria davanti ai sostantivi (obbedire al superiore, alla legge, agli ordini). Grafia alternativa di ubbidire.",
+    "noun_parallel": "⚡ Verbo: 'Obbedire al capo' ➜ Nome: 'L'obbedienza'",
+    "examples": [
+      "Bisogna sempre obbedire alle regole del codice stradale.",
+      "Il cane obbedisce al padrone."
+    ],
+    "common_mistake": "❌ Obbedisco il professore. ➜ ✅ Obbedisco al professore.",
+    "synonyms": [
+      "ubbidire a",
+      "ottemperare a"
+    ],
+    "antonyms": [
+      "disobbedire a"
+    ]
+  },
+  "abbandonarsi": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": true,
+    "pattern": "abbandonarsi + a + [emozione / vizio]",
+    "level": "B1",
+    "definition": "Lasciarsi andare completamente a un sentimento o comportamento.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « a » con relative articolazioni (abbandonarsi alla disperazione, al pianto, ai ricordi).",
+    "noun_parallel": "⚡ Verbo: 'Abbandonarsi al pianto' ➜ Nome: 'L'abbandono'",
+    "examples": [
+      "Si è abbandonato alla rabbia senza riflettere.",
+      "Non bisogna abbandonarsi alla pigrizia."
+    ],
+    "common_mistake": "❌ Si è abbandonato di il dolore. ➜ ✅ Si è abbandonato al dolore.",
+    "synonyms": [
+      "lasciarsi andare a",
+      "cedere a"
+    ],
+    "antonyms": [
+      "resistere a",
+      "frenarsi"
+    ]
+  },
+  "accorgersi": {
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": true,
+    "pattern": "accorgersi + di + [qualcosa / che]",
+    "level": "B1",
+    "definition": "Nolleggiare o prendere coscienza di un fatto o presenza.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « di », che si articola davanti al nome (accorgersi dell'errore, della presenza, dei dettagli).",
+    "noun_parallel": "⚡ Verbo: 'Accorgersi dell'errore' ➜ Nome: 'L'accorgimento'",
+    "examples": [
+      "Mi sono accorto dell'errore soltanto alla fine.",
+      "Non si è accorta di aver perso le chiavi."
+    ],
+    "common_mistake": "❌ Mi sono accorto a l'errore subito. ➜ ✅ Mi sono accorto dell'errore subito.",
+    "synonyms": [
+      "rendersi conto di",
+      "avvedersi di"
+    ],
+    "antonyms": [
+      "ignorare",
+      "trascurare"
+    ]
+  },
+  "adattarsi": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": true,
+    "pattern": "adattarsi + a + [situazione / luogo]",
+    "level": "B1",
+    "definition": "Aggiustare il proprio comportamento alle circostanze.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « a », con relative preposizioni articolate (adattarsi al nuovo clima, alla situazione, agli usi).",
+    "noun_parallel": "⚡ Verbo: 'Adattarsi alla situazione' ➜ Nome: 'L'adattamento'",
+    "examples": [
+      "I lavoratori si sono adattati ai nuovi orari.",
+      "Si adatta facilmente a qualsiasi ambiente."
+    ],
+    "common_mistake": "❌ Si adatta di i cambiamenti sociali. ➜ ✅ Si adatta ai cambiamenti sociali.",
+    "synonyms": [
+      "abituarsi a",
+      "conformarsi a"
+    ],
+    "antonyms": [
+      "ribellarsi a",
+      "incompatibilizzarsi"
+    ]
+  },
+  "approfittare": {
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": false,
+    "pattern": "approfittare + di + [opportunità / debolezza]",
+    "level": "B1",
+    "definition": "Trarre vantaggio da una situazione o disponibilità.",
+    "grammar_rule": "Richiede la preposizione « di », che si articola davanti ai sostantivi (approfittare dell'occasione, del bel tempo, della bontà).",
+    "noun_parallel": "⚡ Verbo: 'Approfittare dell'offerta' ➜ Nome: 'L'approfittamento'",
+    "examples": [
+      "Voglio approfittare del bel tempo per fare una passeggiata.",
+      "Ha approfittato dell'assenza del capo."
+    ],
+    "common_mistake": "❌ Approfitto per l'occasione per ringraziarvi. ➜ ✅ Approfitto dell'occasione per ringraziarvi.",
+    "synonyms": [
+      "valersi di",
+      "sfruttare"
+    ],
+    "antonyms": [
+      "sprecare",
+      "rinunciare a"
+    ]
+  },
+  "assistere": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "assistere + a + [spettacolo / evento]",
+    "level": "B1",
+    "definition": "Essere presente come spettatore a un evento.",
+    "grammar_rule": "DISTINZIONE IMPORTANTE: « Assistere a » significa essere presente come spettatore (assistere alla conferenza, al concerto; articolazioni al/alla/agli). Invece « assistere » SENZA 'a' significa curare/aiutare (assistere un malato).",
+    "noun_parallel": "⚡ Verbo: 'Assistere alla lezione' ➜ Nome: 'L'assistenza'",
+    "examples": [
+      "Abbiamo assistito a un concerto straordinario.",
+      "Migliaia di persone hanno assistito alla partita."
+    ],
+    "common_mistake": "❌ Ho assistito il concerto ieri sera. ➜ ✅ Ho assistito al concerto ieri sera.",
+    "synonyms": [
+      "presenziare a",
+      "vedere"
+    ],
+    "antonyms": [
+      "assentarsi da",
+      "mancare a"
+    ]
+  },
+  "astenersi": {
+    "prepositions": [
+      "da"
+    ],
+    "pronominal": true,
+    "pattern": "astenersi + da + [azione / voto / sostanza]",
+    "level": "B1",
+    "definition": "Privarsi volontariamente di un'azione o non votare.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « da », con relative preposizioni articolate (astenersi dal voto, dal giudizio, dai commenti).",
+    "noun_parallel": "⚡ Verbo: 'Astenersi dal voto' ➜ Nome: 'L'astensione'",
+    "examples": [
+      "Mi astengo dal commentare questa scelta discutibile.",
+      "Molti deputati si sono astenuti dalla votazione."
+    ],
+    "common_mistake": "❌ Mi astengo di esprimere un giudizio. ➜ ✅ Mi astengo da/dal esprimere un giudizio.",
+    "synonyms": [
+      "trattenersi da",
+      "privarsi di"
+    ],
+    "antonyms": [
+      "partecipare a",
+      "concedersi"
+    ]
+  },
+  "augurarsi": {
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": true,
+    "pattern": "augurarsi + di + [infinito]",
+    "level": "B1",
+    "definition": "Avere la speranza che qualcosa si realizzi a proprio favore.",
+    "grammar_rule": "Verbo pronominale. Quando introduce un verbo all'infinito richiede la preposizione « di » (augurarsi di riuscire, augurarsi di guarire).",
+    "noun_parallel": "⚡ Verbo: 'Augurarsi il successo' ➜ Nome: 'L'augurio'",
+    "examples": [
+      "Mi auguro di superare il colloquio di lavoro.",
+      "Si augurano di arrivare prima di sera."
+    ],
+    "common_mistake": "❌ Mi auguro a trovare una soluzione. ➜ ✅ Mi auguro di trovare una soluzione.",
+    "synonyms": [
+      "sperare di",
+      "auspicarsi"
+    ],
+    "antonyms": [
+      "temere di",
+      "disperare"
+    ]
+  },
+  "badare": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "badare + a + [qualcuno / qualcosa]",
+    "level": "B1",
+    "definition": "Prestare attenzione o prendersi cura di una persona o cosa.",
+    "grammar_rule": "Richiede la preposizione « a », che si fonde con gli articoli (badare ai bambini, alla casa, alle spese, al cane).",
+    "noun_parallel": "⚡ Verbo: 'Badare ai bambini' ➜ Nome: 'La bada'",
+    "examples": [
+      "Bada a come parli davanti agli ospiti!",
+      "La nonna bada ai nipotini il pomeriggio."
+    ],
+    "common_mistake": "❌ Bada di il tuo comportamento. ➜ ✅ Bada al tuo comportamento.",
+    "synonyms": [
+      "badare a",
+      "curare"
+    ],
+    "antonyms": [
+      "trascurare",
+      "disinteressarsi di"
+    ]
+  },
+  "capitare": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "capitare + a + [qualcuno] (+ di + infinito)",
+    "level": "B1",
+    "definition": "Accadere in modo fortuito o imprevisto a una persona.",
+    "grammar_rule": "La persona colpita dalla fatalità richiede la preposizione « a » (capitare al collega, alla famiglia). Se introduce un'azione vuole « di » (capita di sbagliare).",
+    "noun_parallel": "⚡ Verbo: 'Capitare all'improvviso' ➜ Nome: 'Il capitato / L'incidente'",
+    "examples": [
+      "È capitata una disgrazia al nostro vicino.",
+      "Capita spesso di fare errori quando si ha fretta."
+    ],
+    "common_mistake": "❌ È capitato per Marco un fatto strano. ➜ ✅ È capitato a Marco un fatto strano.",
+    "synonyms": [
+      "accadere a",
+      "succedere a"
+    ],
+    "antonyms": [
+      "evitare"
+    ]
+  },
+  "cedere": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "cedere + a + [pressione / tentazione]",
+    "level": "B1",
+    "definition": "Mollare la resistenza di fronte a una forza o tentazione.",
+    "grammar_rule": "Richiede la preposizione « a », con relative preposizioni articolate (cedere alle pressioni, alla tentazione, ai ricatti). Se transitivo diretto significa trasferire (cedere l'attività).",
+    "noun_parallel": "⚡ Verbo: 'Cedere alle pressioni' ➜ Nome: 'La cessione'",
+    "examples": [
+      "Non cedere alle sue provocazioni continue.",
+      "Alla fine ha ceduto alle insistenze dei figli."
+    ],
+    "common_mistake": "❌ Ha ceduto di le pressioni del gruppo. ➜ ✅ Ha ceduto alle pressioni del gruppo.",
+    "synonyms": [
+      "arrendersi a",
+      "capitolare davanti a"
+    ],
+    "antonyms": [
+      "resistere a",
+      "opporsi a"
+    ]
+  },
+  "congratularsi": {
+    "prepositions": [
+      "con",
+      "per"
+    ],
+    "pronominal": true,
+    "pattern": "congratularsi + con + [persona] + per + [motivo]",
+    "level": "B1",
+    "definition": "Esprimere compiacimento e felici auguri a una persona per un successo.",
+    "grammar_rule": "Verbo pronominale. La persona a cui ci si congratula richiede « con » (congratularsi con il vincitore, con la collega). Il motivo richiede « per » o « di » (per il successo, per la laurea).",
+    "noun_parallel": "⚡ Verbo: 'Congratularsi con il collega' ➜ Nome: 'La congratulazione'",
+    "examples": [
+      "Mi congratulo con te per l'ottimo risultato ottenuto!",
+      "Si sono congratulati con la professoressa per la lezione."
+    ],
+    "common_mistake": "❌ Mi congratulo a te per la vittoria. ➜ ✅ Mi congratulo con te per la vittoria.",
+    "synonyms": [
+      "felicitarsi con",
+      "lodare"
+    ],
+    "antonyms": [
+      "disapprovare",
+      "criticare"
+    ]
+  },
+  "consistere": {
+    "prepositions": [
+      "in"
+    ],
+    "pronominal": false,
+    "pattern": "consistere + in + [elementi / sostanza]",
+    "level": "B1",
+    "definition": "Avere come fondamento o materia costitutiva.",
+    "grammar_rule": "Richiede la preposizione « in », che si articola davanti al nome (consistere nel fare il proprio dovere, nelle seguenti parti). Con infinito usa 'in' o 'nel'.",
+    "noun_parallel": "⚡ Verbo: 'Consistere nella prova' ➜ Nome: 'La consistenza'",
+    "examples": [
+      "Il test consiste in venti domande a risposta multipla.",
+      "Il suo lavoro consiste nel coordinare la squadra."
+    ],
+    "common_mistake": "❌ Il lavoro consiste a scrivere rapporti. ➜ ✅ Il lavoro consiste nel/in scrivere rapporti.",
+    "synonyms": [
+      "risiedere in",
+      "basarsi su"
+    ],
+    "antonyms": [
+      "escludere",
+      "differire da"
+    ]
+  },
+  "contribuire": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "contribuire + a + [causa / progetto / infinito]",
+    "level": "B1",
+    "definition": "Dare il proprio apporto economico o morale a una causa.",
+    "grammar_rule": "Richiede la preposizione « a », che si articola davanti ai sostantivi (contribuire al successo, alla spesa, ai miglioramenti, a creare).",
+    "noun_parallel": "⚡ Verbo: 'Contribuire al successo' ➜ Nome: 'Il contributo'",
+    "examples": [
+      "Tutti devono contribuire alle spese della casa.",
+      "Ha contribuito a sviluppare il nuovo software."
+    ],
+    "common_mistake": "❌ Ha contribuito di il progetto aziendale. ➜ ✅ Ha contribuito al progetto aziendale.",
+    "synonyms": [
+      "cooperare a",
+      "concorrere a"
+    ],
+    "antonyms": [
+      "ostacolare",
+      "danneggiare"
+    ]
+  },
+  "convenire": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "convenire + a + [persona] (+ infinito)",
+    "level": "B1",
+    "definition": "Essere utile, vantaggioso o opportuno per qualcuno.",
+    "grammar_rule": "La persona per cui è vantaggioso richiede la preposizione « a » (convenire al cliente, alla ditta). Davanti all'infinito vuole 'convenire + infinito' oppure 'convenire a + persona'.",
+    "noun_parallel": "⚡ Verbo: 'Convenire al cliente' ➜ Nome: 'La convenienza'",
+    "examples": [
+      "Ti conviene accettare subito questa offerta di lavoro.",
+      "Non conviene a nessuno fare questa scelta."
+    ],
+    "common_mistake": "❌ Non conviene per te cambiare casa ora. ➜ ✅ Non conviene a te cambiare casa ora.",
+    "synonyms": [
+      "essere vantaggioso per",
+      "mantenere"
+    ],
+    "antonyms": [
+      "nuocere a",
+      "svantaggiare"
+    ]
+  },
+  "costringere": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "costringere + [qualcuno] + a + [infinito / sostantivo]",
+    "level": "B1",
+    "definition": "Obbligare una persona a fare qualcosa contro la sua volontà.",
+    "grammar_rule": "La persona costretta è oggetto diretto. L'azione o lo stato imposto richiede la preposizione « a » (costringere i dipendenti al silenzio, a lavorare).",
+    "noun_parallel": "⚡ Verbo: 'Costringere l'avversario alla resa' ➜ Nome: 'La costrizione'",
+    "examples": [
+      "La pioggia ci ha costretti a rimanere in casa.",
+      "Lo hanno costretto a firmare il contratto."
+    ],
+    "common_mistake": "❌ Lo hanno costretto di dimettersi. ➜ ✅ Lo hanno costretto a dimettersi.",
+    "synonyms": [
+      "obbligare a",
+      "forzare a"
+    ],
+    "antonyms": [
+      "esentare da",
+      "dispensare da"
+    ]
+  },
+  "dipendere": {
+    "prepositions": [
+      "da"
+    ],
+    "pronominal": false,
+    "pattern": "dipendere + da + [fattore / persona]",
+    "level": "B1",
+    "definition": "Essere condizionato o subordinato all'azione di un elemento esterno.",
+    "grammar_rule": "Richiede la preposizione « da », che si fonde nelle preposizioni articolate (dipendere dal tempo, dalla decisione, dai risultati, dalle circostanze).",
+    "noun_parallel": "⚡ Verbo: 'Dipendere dal tempo' ➜ Nome: 'La dipendenza'",
+    "examples": [
+      "La partenza dipende dalle condizioni meteorologiche.",
+      "Tutto dipende da te e dalla tua determinazione."
+    ],
+    "common_mistake": "❌ La scelta dipende di la situazione. ➜ ✅ La scelta dipende dalla situazione.",
+    "synonyms": [
+      "essere subordinato a",
+      "derivare da"
+    ],
+    "antonyms": [
+      "prescindere da",
+      "svincolarsi da"
+    ]
+  },
+  "dirigersi": {
+    "prepositions": [
+      "verso"
+    ],
+    "pronominal": true,
+    "pattern": "dirigersi + verso / a + [destinazione]",
+    "level": "B1",
+    "definition": "Avviarsi o muoversi in direzione di un luogo.",
+    "grammar_rule": "Verbo pronominale. Si usa la preposizione « verso » o « a/in » con articolazione (dirigersi verso la stazione, al centro, in periferia).",
+    "noun_parallel": "⚡ Verbo: 'Dirigersi verso il centro' ➜ Nome: 'La direzione'",
+    "examples": [
+      "La folla si è diretta verso la piazza principale.",
+      "Ci stiamo dirigendo all'aeroporto."
+    ],
+    "common_mistake": "❌ Ci dirigiamo per il centro città. ➜ ✅ Ci dirigiamo verso il centro città.",
+    "synonyms": [
+      "avviarsi verso",
+      "puntare a"
+    ],
+    "antonyms": [
+      "allontanarsi da"
+    ]
+  },
+  "dubitare": {
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": false,
+    "pattern": "dubitare + di + [qualcuno / qualcosa]",
+    "level": "B1",
+    "definition": "Nutrire incertezza o sospetto sulla veridicità di un fatto.",
+    "grammar_rule": "Richiede la preposizione « di », con relative preposizioni articolate (dubitare delle sue intenzioni, dell'onestà, dei dati).",
+    "noun_parallel": "⚡ Verbo: 'Dubitare della veridicità' ➜ Nome: 'Il dubbio'",
+    "examples": [
+      "Non ho mai dubitato della tua buona fede.",
+      "Dubito fortemente di riuscire a finire per domani."
+    ],
+    "common_mistake": "❌ Dubito su le sue parole. ➜ ✅ Dubito delle sue parole.",
+    "synonyms": [
+      "diffidare di",
+      "esitare su"
+    ],
+    "antonyms": [
+      "fidarsi di",
+      "credere a"
+    ]
+  },
+  "esitare": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "esitare + a + [infinito]",
+    "level": "B1",
+    "definition": "Inciampare nell'azione provando incertezza prima di agire.",
+    "grammar_rule": "Quando regge un verbo all'infinito richiede la preposizione « a » (esitare a rispondere, esitare a firmare).",
+    "noun_parallel": "⚡ Verbo: 'Esitare a rispondere' ➜ Nome: 'L'esitazione'",
+    "examples": [
+      "Non esitare a contattarmi per qualsiasi chiarimento.",
+      "Ha esitato a lungo a prendere una decisione."
+    ],
+    "common_mistake": "❌ Non esitare di chiedere aiuto. ➜ ✅ Non esitare a chiedere aiuto.",
+    "synonyms": [
+      "tentennare a",
+      "indugiare a"
+    ],
+    "antonyms": [
+      "decidersi a",
+      "lanciarsi"
+    ]
+  },
+  "ispirarsi": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": true,
+    "pattern": "ispirarsi + a + [modello / artista / opera]",
+    "level": "B1",
+    "definition": "Trarre motivo di creazione o condotta da un modello.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « a », che si articola davanti al nome (ispirarsi alla natura, al Rinascimento, ai classici).",
+    "noun_parallel": "⚡ Verbo: 'Ispirarsi alla natura' ➜ Nome: 'L'ispirazione'",
+    "examples": [
+      "Il regista si è ispirato a un fatto di cronaca reale.",
+      "Questo romanzo si ispira ai classici del genere."
+    ],
+    "common_mistake": "❌ Si ispira di il cinema classico italiano. ➜ ✅ Si ispira al cinema classico italiano.",
+    "synonyms": [
+      "modellarsi su",
+      "rifarsi a"
+    ],
+    "antonyms": [
+      "scostarsi da",
+      "innovare"
+    ]
+  },
+  "lottare": {
+    "prepositions": [
+      "contro",
+      "per"
+    ],
+    "pronominal": false,
+    "pattern": "lottare + contro + [nemico] / per + [ideale]",
+    "level": "B1",
+    "definition": "Combattere con tenacia contro un avversario o per una causa.",
+    "grammar_rule": "Richiede « contro » per l'avversario o la malattia (lottare contro il cancro, contro l'ingiustizia; articolazioni contro il/la) e « per » per lo scopo (lottare per la libertà).",
+    "noun_parallel": "⚡ Verbo: 'Lottare per la libertà' ➜ Nome: 'La lotta'",
+    "examples": [
+      "I cittadini hanno lottato contro la costruzione dell'impianto.",
+      "Lottiamo per i diritti di tutti."
+    ],
+    "common_mistake": "❌ Lottano a la corruzione da anni. ➜ ✅ Lottano contro la corruzione da anni.",
+    "synonyms": [
+      "combattere contro",
+      "disputare"
+    ],
+    "antonyms": [
+      "resa",
+      "sottomettersi a"
+    ]
+  },
+  "mancare": {
+    "prepositions": [
+      "di",
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "mancare + di + [qualità/risorse] / mancare + a + [persona]",
+    "level": "B1",
+    "definition": "Scarseggiare di qualcosa (di) oppure provocare nostalgia/assenza a qualcuno (a).",
+    "grammar_rule": "DISTINZIONE: « Mancare di » = scarseggiare (mancare di rispetto, mancare di fondi; articolazioni del/della). « Mancare a » = fare sentire la nostalgia (Mi manchi = Tu manchi a me / ai genitori).",
+    "noun_parallel": "⚡ Verbo: 'Mancare di rispetto' ➜ Nome: 'La mancanza'",
+    "examples": [
+      "Questo progetto manca di chiarezza nei dettagli.",
+      "La tua presenza è mancata a tutti gli invitati."
+    ],
+    "common_mistake": "❌ Tu manchi per me tantissimo. ➜ ✅ Tu manchi a me tantissimo.",
+    "synonyms": [
+      "difettare di",
+      "scarseggiare di"
+    ],
+    "antonyms": [
+      "abbondare di",
+      "eccedere"
+    ]
+  },
+  "opporsi": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": true,
+    "pattern": "opporsi + a + [proposta / decisione]",
+    "level": "B1",
+    "definition": "Contrastare fermamente una decisione o volontà altrui.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « a », con relative preposizioni articolate (opporsi al progetto, alla legge, ai cambiamenti).",
+    "noun_parallel": "⚡ Verbo: 'Opporsi alla riforma' ➜ Nome: 'L'opposizione'",
+    "examples": [
+      "L'opposizione si è opposta con forza alla nuova legge.",
+      "Si oppone a qualsiasi tipo di compromesso."
+    ],
+    "common_mistake": "❌ Si oppone di la proposta del sindaco. ➜ ✅ Si oppone alla proposta del sindaco.",
+    "synonyms": [
+      "resistere a",
+      "contrastare"
+    ],
+    "antonyms": [
+      "acconsentire a",
+      "cedere a"
+    ]
+  },
+  "partecipare": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "partecipare + a + [evento / concorso]",
+    "level": "B1",
+    "definition": "Prendere parte attivamente a un evento o riunione.",
+    "grammar_rule": "Richiede la preposizione « a », con relative preposizioni articolate (partecipare alla riunione, al concorso, ai corsi, alle feste).",
+    "noun_parallel": "⚡ Verbo: 'Partecipare alla conferenza' ➜ Nome: 'La partecipazione'",
+    "examples": [
+      "Molti studenti hanno partecipato al seminario.",
+      "Vorrei partecipare alla maratona di domenica."
+    ],
+    "common_mistake": "❌ Ho partecipato in la conferenza internazionale. ➜ ✅ Ho partecipato alla conferenza internazionale.",
+    "synonyms": [
+      "intervenire a",
+      "presenziare a"
+    ],
+    "antonyms": [
+      "assentarsi da",
+      "disertare"
+    ]
+  },
+  "pensare a": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "pensare + a + [progetto / cura di qualcuno]",
+    "level": "B1",
+    "definition": "Volgere l'attenzione o provvedere a qualcuno o qualcosa.",
+    "grammar_rule": "Richiede « a » con articolazione (pensare alla cena, al conto, ai ragazzi). Implica farsi carico o ricordare con affetto.",
+    "noun_parallel": "⚡ Verbo: 'Pensare al futuro' ➜ Nome: 'Il pensiero'",
+    "examples": [
+      "Non ti preoccupare, penso io alla cena stasera.",
+      "Pensa sempre al bene dei suoi figli."
+    ],
+    "common_mistake": "❌ Penso di la cena io stasera. ➜ ✅ Penso io alla cena stasera.",
+    "synonyms": [
+      "provvedere a",
+      "curare"
+    ],
+    "antonyms": [
+      "dimenticare",
+      "trascurare"
+    ]
+  },
+  "protestare": {
+    "prepositions": [
+      "contro",
+      "per"
+    ],
+    "pronominal": false,
+    "pattern": "protestare + contro + [ingiustizia] / per + [motivo]",
+    "level": "B1",
+    "definition": "Esprimere aperto dissenso contro un atto reputato ingiusto.",
+    "grammar_rule": "Si usa « contro » per l'oggetto del dissenso (protestare contro i tagli, contro l'aumento) e « per » per la motivazione (protestare per i ritardi).",
+    "noun_parallel": "⚡ Verbo: 'Protestare contro i ritardi' ➜ Nome: 'La protesta'",
+    "examples": [
+      "I lavoratori hanno protestato contro i licenziamenti.",
+      "Protestano per la mancanza di sicurezza."
+    ],
+    "common_mistake": "❌ Protestano a la decisione della direzione. ➜ ✅ Protestano contro la decisione della direzione.",
+    "synonyms": [
+      "reclamo contro",
+      "insorgere"
+    ],
+    "antonyms": [
+      "approvare",
+      "accettare"
+    ]
+  },
+  "puntare": {
+    "prepositions": [
+      "su"
+    ],
+    "pronominal": false,
+    "pattern": "puntare + su + [persona / strategia]",
+    "level": "B1",
+    "definition": "Focalizzare le proprie risorse o scommettere su un fattore.",
+    "grammar_rule": "Richiede la preposizione « su », con relative preposizioni articolate (puntare sul giovanile, sulla qualità, sugli investimenti). Con 'a' significa mirare a un obiettivo (puntare a vincere).",
+    "noun_parallel": "⚡ Verbo: 'Puntare sulla qualità' ➜ Nome: 'La punta'",
+    "examples": [
+      "L'azienda ha deciso di puntare sulla tecnologia.",
+      "Puntiamo sui giovani talenti per il futuro."
+    ],
+    "common_mistake": "❌ Puntiamo a la qualità del servizio. ➜ ✅ Puntiamo sulla qualità del servizio.",
+    "synonyms": [
+      "scommettere su",
+      "investire in"
+    ],
+    "antonyms": [
+      "abbandonare",
+      "trascurare"
+    ]
+  },
+  "rallegrarsi": {
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": true,
+    "pattern": "rallegrarsi + di + [evento / notizia]",
+    "level": "B1",
+    "definition": "Provare gioia per una notizia felice.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « di » (rallegrarsi della vittoria, del successo, di vederti; articolazioni del/della/degli).",
+    "noun_parallel": "⚡ Verbo: 'Rallegrarsi del successo' ➜ Nome: 'La rallegranza / La gioia'",
+    "examples": [
+      "Ci rallegriamo della bella notizia della tua guarigione.",
+      "Si è rallegrato di vederci così felici."
+    ],
+    "common_mistake": "❌ Mi rallegro per di la tua promozione. ➜ ✅ Mi rallegro della tua promozione.",
+    "synonyms": [
+      "compiacersi di",
+      "gioire di"
+    ],
+    "antonyms": [
+      "rammaricarsi di",
+      "addolorarsi per"
+    ]
+  },
+  "recarsi": {
+    "prepositions": [
+      "a",
+      "in"
+    ],
+    "pronominal": true,
+    "pattern": "recarsi + a [città] / in [paese/ufficio]",
+    "level": "B1",
+    "definition": "Andare di persona in un luogo determinato (linguaggio formale).",
+    "grammar_rule": "Verbo pronominale. Regola di luogo standard: « a » per città (recarsi a Firenze) e « in » per paesi o luoghi chiusi (recarsi in questura, negli uffici).",
+    "noun_parallel": "⚡ Verbo: 'Recarsi in ufficio' ➜ Nome: 'Il recapito'",
+    "examples": [
+      "Il presidente si è recato a Parigi in visita ufficiale.",
+      "Devo recarmi in comune per un certificato."
+    ],
+    "common_mistake": "❌ Si è recato in Roma per lavoro. ➜ ✅ Si è recato a Roma per lavoro.",
+    "synonyms": [
+      "andare a",
+      "spostarsi in"
+    ],
+    "antonyms": [
+      "rimanere a",
+      "trattenersi"
+    ]
+  },
+  "resistere": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "resistere + a + [forza / tentazione]",
+    "level": "B1",
+    "definition": "Opporre forza contraria per non cedere a una pressione.",
+    "grammar_rule": "Richiede la preposizione « a », con relative preposizioni articolate (resistere al dolore, alla tentazione, ai nemici, a mangiare).",
+    "noun_parallel": "⚡ Verbo: 'Resistere alle tentazioni' ➜ Nome: 'La resistenza'",
+    "examples": [
+      "Non ha saputo resistere alla tentazione di quel dolce.",
+      "L'edificio ha resistito al forte terremoto."
+    ],
+    "common_mistake": "❌ Non resisto di il caldo estivo. ➜ ✅ Non resisto al caldo estivo.",
+    "synonyms": [
+      "opporsi a",
+      "reggere a"
+    ],
+    "antonyms": [
+      "cedere a",
+      "capitolare"
+    ]
+  },
+  "ricorrere": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "ricorrere + a + [mezzo / tribunale]",
+    "level": "B1",
+    "definition": "Servirsi di un mezzo d'emergenza o appellarsi a un'autorità.",
+    "grammar_rule": "Richiede la preposizione « a », che si fonde con gli articoli (ricorrere ai ripari, alle vie legali, al giudice, alla violenza).",
+    "noun_parallel": "⚡ Verbo: 'Ricorrere alle vie legali' ➜ Nome: 'Il ricorso'",
+    "examples": [
+      "Abbiamo dovuto ricorrere alle vie legali per risolvere la controversia.",
+      "Ricorre spesso a scuse banali."
+    ],
+    "common_mistake": "❌ Ha dovuto ricorrere in il tribunale. ➜ ✅ Ha dovuto ricorrere al tribunale.",
+    "synonyms": [
+      "appellarsi a",
+      "avvalersi di"
+    ],
+    "antonyms": [
+      "rinunciare a",
+      "evitare"
+    ]
+  },
+  "riferirsi": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": true,
+    "pattern": "riferirsi + a + [qualcosa / qualcuno]",
+    "level": "B1",
+    "definition": "Fare allusione o collegarsi a un argomento o testo.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « a », che si articola davanti al sostantivo (riferirsi al testo, alla legge, ai fatti).",
+    "noun_parallel": "⚡ Verbo: 'Riferirsi al testo' ➜ Nome: 'Il riferimento'",
+    "examples": [
+      "La mia domanda si riferisce all'ultimo capitolo del libro.",
+      "A chi ti riferisci quando parli così?"
+    ],
+    "common_mistake": "❌ Mi riferisco di questo articolo di legge. ➜ ✅ Mi riferisco a questo articolo di legge.",
+    "synonyms": [
+      "alludere a",
+      "collegarsi a"
+    ],
+    "antonyms": [
+      "prescindere da",
+      "escludere"
+    ]
+  },
+  "rinunciare a": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "rinunciare + a + [diritto / possesso]",
+    "level": "B1",
+    "definition": "Privarsi volontariamente di un diritto o vantaggio.",
+    "grammar_rule": "Richiede la preposizione « a » con articolazione obbligatoria (rinunciare all'eredità, ai privilegi).",
+    "noun_parallel": "⚡ Verbo: 'Rinunciare ai privilegi' ➜ Nome: 'La rinuncia'",
+    "examples": [
+      "Non intendo rinunciare ai miei diritti stabiliti.",
+      "Ha rinunciato alla carica per motivi personali."
+    ],
+    "common_mistake": "❌ Rinuncio di l'incarico per stanchezza. ➜ ✅ Rinuncio all'incarico per stanchezza.",
+    "synonyms": [
+      "abbandonare a"
+    ],
+    "antonyms": [
+      "rivendicare"
+    ]
+  },
+  "rivolgersi": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": true,
+    "pattern": "rivolgersi + a + [persona / servizio]",
+    "level": "B1",
+    "definition": "Chiedere aiuto, informazioni o indirizzare la parola a qualcuno.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « a », che si articola davanti al nome (rivolgersi allo sportello, al medico, ai carabinieri).",
+    "noun_parallel": "⚡ Verbo: 'Rivolgersi allo sportello' ➜ Nome: 'La rivolta / L'indirizzo'",
+    "examples": [
+      "Per maggiori informazioni, rivolgetevi alla reception.",
+      "Si è rivolto a un avvocato penalista."
+    ],
+    "common_mistake": "❌ Mi rivolgo con il direttore per il reclamo. ➜ ✅ Mi rivolgo al direttore per il reclamo.",
+    "synonyms": [
+      "indirizzarsi a",
+      "contattare"
+    ],
+    "antonyms": [
+      "evitare",
+      "ignorare"
+    ]
+  },
+  "sbarazzarsi": {
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": true,
+    "pattern": "sbarazzarsi + di + [peso / oggetto inutile]",
+    "level": "B1",
+    "definition": "Liberarsi completamente di cose inutili o ingombranti.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « di », con relative preposizioni articolate (sbarazzarsi dei vecchi mobili, del superfluo).",
+    "noun_parallel": "⚡ Verbo: 'Sbarazzarsi del superfluo' ➜ Nome: 'Lo sbarazzo'",
+    "examples": [
+      "Dobbiamo sbarazzarci di tutti questi vecchi documenti.",
+      "Si è sbarazzato della vecchia auto distrutta."
+    ],
+    "common_mistake": "❌ Ci siamo sbarazzati da i vecchi giornali. ➜ ✅ Ci siamo sbarazzati dei vecchi giornali.",
+    "synonyms": [
+      "liberarsi di",
+      "disfarsi di"
+    ],
+    "antonyms": [
+      "conservare",
+      "accumulare"
+    ]
+  },
+  "servirsi": {
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": true,
+    "pattern": "servirsi + di + [strumento / mezzo]",
+    "level": "B1",
+    "definition": "Fare uso di un mezzo o strumento per raggiungere un fine.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « di », con relative preposizioni articolate (servirsi del dizionario, dei mezzi pubblici).",
+    "noun_parallel": "⚡ Verbo: 'Servirsi del dizionario' ➜ Nome: 'Il servizio'",
+    "examples": [
+      "Si serve del computer per il suo lavoro quotidiano.",
+      "Ci siamo serviti delle migliori tecnologie disponibili."
+    ],
+    "common_mistake": "❌ Si serve con il dizionario per tradurre. ➜ ✅ Si serve del dizionario per tradurre.",
+    "synonyms": [
+      "avvalersi di",
+      "usare"
+    ],
+    "antonyms": [
+      "rinunciare a",
+      "scartare"
+    ]
+  },
+  "sottomettersi": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": true,
+    "pattern": "sottomettersi + a + [volontà / legge / esame]",
+    "level": "B1",
+    "definition": "Accettare con obbedienza un'autorità o una decisione.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « a », con relative preposizioni articolate (sottomettersi al volere, alle regole, al controllo).",
+    "noun_parallel": "⚡ Verbo: 'Sottomettersi alla legge' ➜ Nome: 'La sottomissione'",
+    "examples": [
+      "Tutti i cittadini devono sottomettersi alle leggi dello Stato.",
+      "Si è sottomesso al volere della maggioranza."
+    ],
+    "common_mistake": "❌ Si sottomette di le decisioni altrui. ➜ ✅ Si sottomette alle decisioni altrui.",
+    "synonyms": [
+      "piegarsi a",
+      "obbedire a"
+    ],
+    "antonyms": [
+      "ribellarsi a",
+      "opporsi a"
+    ]
+  },
+  "tenere": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "tenere + a + [qualcuno / qualcosa / infinito]",
+    "level": "B1",
+    "definition": "Attribuire grande valore affettivo o essere molto interessati.",
+    "grammar_rule": "Richiede la preposizione « a », con relative preposizioni articolate (tenere al proprio lavoro, alla famiglia, a fare bella figura).",
+    "noun_parallel": "⚡ Verbo: 'Tenere alla famiglia' ➜ Nome: 'La tenuta'",
+    "examples": [
+      "Tengo moltissimo a questa amicizia sincera.",
+      "Tiene a fare bella figura con gli ospiti."
+    ],
+    "common_mistake": "❌ Tengo di questo ricordo di famiglia. ➜ ✅ Tengo a questo ricordo di famiglia.",
+    "synonyms": [
+      "caro a",
+      "premere a"
+    ],
+    "antonyms": [
+      "disinteressarsi di",
+      "disprezzare"
+    ]
+  },
+  "tradursi": {
+    "prepositions": [
+      "in"
+    ],
+    "pronominal": true,
+    "pattern": "tradursi + in + [risultato / lingua]",
+    "level": "B1",
+    "definition": "Concretizzarsi o convertirsi in una determinata forma.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « in », con articolazione se seguito da sostantivo (tradursi nel successo, in perdite).",
+    "noun_parallel": "⚡ Verbo: 'Tradursi in fatti' ➜ Nome: 'La traduzione'",
+    "examples": [
+      "Le parole devono tradursi in fatti concreti.",
+      "L'impegno si è tradotto in un brillante risultato."
+    ],
+    "common_mistake": "❌ Le promesse si traducono a fatti. ➜ ✅ Le promesse si traducono in fatti.",
+    "synonyms": [
+      "concretizzarsi in",
+      "trasformarsi in"
+    ],
+    "antonyms": [
+      "svaporare"
+    ]
+  },
+  "trasformarsi": {
+    "prepositions": [
+      "in"
+    ],
+    "pronominal": true,
+    "pattern": "trasformarsi + in + [nuova forma]",
+    "level": "B1",
+    "definition": "Cambiare completamente forma, natura o aspetto.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « in », che si articola davanti ai sostantivi determinati (trasformarsi in un incubo, nel castello).",
+    "noun_parallel": "⚡ Verbo: 'Trasformarsi in realtà' ➜ Nome: 'La trasformazione'",
+    "examples": [
+      "Il bruco si trasforma in farfalla.",
+      "La discussione si è trasformata in una lite furiosa."
+    ],
+    "common_mistake": "❌ Il bruco si trasforma a farfalla. ➜ ✅ Il bruco si trasforma in farfalla.",
+    "synonyms": [
+      "tramutarsi in",
+      "diventare"
+    ],
+    "antonyms": [
+      "conservarsi",
+      "permanere"
+    ]
+  },
+  "valersi": {
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": true,
+    "pattern": "valersi + di + [diritto / collaborazione]",
+    "level": "B1",
+    "definition": "Fare uso o avvalersi di un diritto o dell'aiuto di qualcuno.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « di », che si articola davanti al nome (valersi della facoltà di non rispondere, dei consigli).",
+    "noun_parallel": "⚡ Verbo: 'Valersi della facoltà' ➜ Nome: 'Il valore'",
+    "examples": [
+      "L'imputato si è valso della facoltà di non rispondere.",
+      "Ci siamo valsi della collaborazione di esperti."
+    ],
+    "common_mistake": "❌ Si è valso con i consigli del medico. ➜ ✅ Si è valso dei consigli del medico.",
+    "synonyms": [
+      "avvalersi di",
+      "usufruire di"
+    ],
+    "antonyms": [
+      "rinunciare a"
+    ]
+  },
+  "abituarsi a": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": true,
+    "pattern": "abituarsi + a + [nuova realtà]",
+    "level": "B2",
+    "definition": "Acquisire familiarità con situazioni complesse.",
+    "grammar_rule": "Richiede « a » con articolazione obbligatoria (abituarsi alle difficoltà, al ritmo lavorativo).",
+    "noun_parallel": "⚡ Verbo: 'Abituarsi ai ritmi' ➜ Nome: 'L'abitudine'",
+    "examples": [
+      "Bisogna abituarsi alle nuove norme di sicurezza.",
+      "Non mi abituerò mai a questo freddo intenso."
+    ],
+    "common_mistake": "❌ Abituarsi di il nuovo sistema. ➜ ✅ Abituarsi al nuovo sistema.",
+    "synonyms": [
+      "assuefarsi a"
+    ],
+    "antonyms": [
+      "disabituarsi da"
+    ]
+  },
+  "adoperarsi": {
+    "prepositions": [
+      "per"
+    ],
+    "pronominal": true,
+    "pattern": "adoperarsi + per + [obiettivo / causa]",
+    "level": "B2",
+    "definition": "Impegnarsi attivamente ed energicamente per il raggiungimento di un fine.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « per » (adoperarsi per la pace, per la riuscita del progetto; o per + infinito).",
+    "noun_parallel": "⚡ Verbo: 'Adoperarsi per la pace' ➜ Nome: 'L'adoperamento'",
+    "examples": [
+      "Tutta la comunità si è adoperata per aiutare gli sfollati.",
+      "Si adopera sempre per il bene comune."
+    ],
+    "common_mistake": "❌ Si adopera a la buona riuscita della festa. ➜ ✅ Si adopera per la buona riuscita della festa.",
+    "synonyms": [
+      "impegnarsi per",
+      "procurare di"
+    ],
+    "antonyms": [
+      "disinteressarsi di",
+      "trascurare"
+    ]
+  },
+  "affidarsi": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": true,
+    "pattern": "affidarsi + a + [persona / guida]",
+    "level": "B2",
+    "definition": "Rimettere la propria sicurezza o cura nelle mani di qualcuno.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « a », con relative preposizioni articolate (affidarsi al giudizio, al medico, alla sorte).",
+    "noun_parallel": "⚡ Verbo: 'Affidarsi al giudizio' ➜ Nome: 'L'affidamento'",
+    "examples": [
+      "Ci siamo affidati alle cure di un medico eccellente.",
+      "Non è saggio affidarsi al caso in queste decisioni."
+    ],
+    "common_mistake": "❌ Mi affido di le tue competenze. ➜ ✅ Mi affido alle tue competenze.",
+    "synonyms": [
+      "abbandonarsi a",
+      "remettersi a"
+    ],
+    "antonyms": [
+      "diffidare di",
+      "guardarsi da"
+    ]
+  },
+  "ammaliare": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "ammaliare + [qualcuno] (oggetto diretto)",
+    "level": "B2",
+    "definition": "Affascinare o sedurre profondamente qualcuno.",
+    "grammar_rule": "Verbo transitivo diretto. Non richiede preposizioni prima del complemento oggetto.",
+    "noun_parallel": "⚡ Verbo: 'Ammaliare il pubblico' ➜ Nome: 'L'ammaliamento'",
+    "examples": [
+      "La cantante ha ammaliato il pubblico con la sua voce.",
+      "Si è fatto ammaliare dalle sue false promesse."
+    ],
+    "common_mistake": "❌ Ha ammaliato a la platea intera. ➜ ✅ Ha ammaliato la platea intera.",
+    "synonyms": [
+      "incantare",
+      "seduce"
+    ],
+    "antonyms": [
+      "disgustare",
+      "alienare"
+    ]
+  },
+  "appellarsi": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": true,
+    "pattern": "appellarsi + a + [norma / giudice / senso di responsabilità]",
+    "level": "B2",
+    "definition": "Farsi forza invocando un'autorità superiore o un principio morale.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « a », che si articola davanti al nome (appellarsi alla corte, al buon senso, ai diritti).",
+    "noun_parallel": "⚡ Verbo: 'Appellarsi al buon senso' ➜ Nome: 'L'appello'",
+    "examples": [
+      "L'avvocato si è appellato al buon senso della giuria.",
+      "Si appella alla clemenza della corte."
+    ],
+    "common_mistake": "❌ Ci appelliamo di la legge internazionale. ➜ ✅ Ci appelliamo alla legge internazionale.",
+    "synonyms": [
+      "ricorrere a",
+      "invocare"
+    ],
+    "antonyms": [
+      "rinunciare a",
+      "respingere"
+    ]
+  },
+  "avvalersi": {
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": true,
+    "pattern": "avvalersi + di + [diritto / collaborazione / tecnologia]",
+    "level": "B2",
+    "definition": "Servirsi di una facoltà o strumento per il proprio vantaggio.",
+    "grammar_rule": "Verbo pronominale formale. Richiede la preposizione « di », con relative preposizioni articolate (avvalersi della facoltà, dei diritti, dell'aiuto).",
+    "noun_parallel": "⚡ Verbo: 'Avvalersi delle prestazioni' ➜ Nome: 'L'avvalimento'",
+    "examples": [
+      "L'azienda si avvale della collaborazione di esperti esterni.",
+      "Ci si avvale delle più moderne tecnologie."
+    ],
+    "common_mistake": "❌ Si avvale con la consulenza legale. ➜ ✅ Si avvale della consulenza legale.",
+    "synonyms": [
+      "servirsi di",
+      "usufruire di"
+    ],
+    "antonyms": [
+      "rinunciare a",
+      "prescindere da"
+    ]
+  },
+  "bramare": {
+    "prepositions": [
+      "none"
+    ],
+    "pronominal": false,
+    "pattern": "bramare + [qualcosa] (oggetto diretto)",
+    "level": "B2",
+    "definition": "Desiderare ardentemente una cosa.",
+    "grammar_rule": "Verbo transitivo diretto. L'oggetto desiderato non richiede alcuna preposizione (bramare il potere, bramare la ricchezza).",
+    "noun_parallel": "⚡ Verbo: 'Bramare il potere' ➜ Nome: 'La brama'",
+    "examples": [
+      "Bramava il potere sopra ogni altra cosa.",
+      "Ha sempre bramato la libertà espressiva."
+    ],
+    "common_mistake": "❌ Brama di il successo a ogni costo. ➜ ✅ Brama il successo a ogni costo.",
+    "synonyms": [
+      "desiderare ardentemente",
+      "ansimare per"
+    ],
+    "antonyms": [
+      "disprezzare",
+      "detestare"
+    ]
+  },
+  "candidarsi": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": true,
+    "pattern": "candidarsi + a + [carica / ruolo]",
+    "level": "B2",
+    "definition": "Presentare la propria candidatura per un'elezione o posto di lavoro.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « a », che si fonde con gli articoli (candidarsi alla presidenza, al parlamento, alla direzione).",
+    "noun_parallel": "⚡ Verbo: 'Candidarsi alla carica' ➜ Nome: 'La candidatura'",
+    "examples": [
+      "Si è candidato alla carica di sindaco della città.",
+      "Molti giovani si candidano a questa posizione."
+    ],
+    "common_mistake": "❌ Si candida per a il ruolo di direttore. ➜ ✅ Si candida al ruolo di direttore.",
+    "synonyms": [
+      "proporsi per",
+      "correre per"
+    ],
+    "antonyms": [
+      "ritirarsi da"
+    ]
+  },
+  "combattere": {
+    "prepositions": [
+      "contro",
+      "per"
+    ],
+    "pronominal": false,
+    "pattern": "combattere + contro + [nemico] / per + [causa]",
+    "level": "B2",
+    "definition": "Lottare con vigore contro un avversario o per difendere un diritto.",
+    "grammar_rule": "Richiede « contro » per l'avversario (combattere contro la burocrazia, contro le ingiustizie; articolazioni contro il/la) e « per » per il fine perseguito.",
+    "noun_parallel": "⚡ Verbo: 'Combattere contro l'ingiustizia' ➜ Nome: 'Il combattimento'",
+    "examples": [
+      "Dobbiamo combattere contro le disuguaglianze sociali.",
+      "Hanno combattuto strenuamente per la libertà."
+    ],
+    "common_mistake": "❌ Combattono a le discriminazioni di genere. ➜ ✅ Combattono contro le discriminazioni di genere.",
+    "synonyms": [
+      "lottare contro",
+      "contrastare"
+    ],
+    "antonyms": [
+      "arrendersi a",
+      "subire"
+    ]
+  },
+  "compiacersi": {
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": true,
+    "pattern": "compiacersi + di + [risultato / lode]",
+    "level": "B2",
+    "definition": "Mostrare viva soddisfazione o vantarsi di qualcosa.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « di », che si articola davanti al sostantivo (compiacersi dei successi, della vittoria, di essere ammirato).",
+    "noun_parallel": "⚡ Verbo: 'Compiacersi dei successi' ➜ Nome: 'Il compiacimento'",
+    "examples": [
+      "Il direttore si è compiaciuto dei risultati raggiunti dalla squadra.",
+      "Si compiace di ostentare la sua ricchezza."
+    ],
+    "common_mistake": "❌ Si compiace a il successo ottenuto. ➜ ✅ Si compiace del successo ottenuto.",
+    "synonyms": [
+      "rallegrarsi di",
+      "gloriarsi di"
+    ],
+    "antonyms": [
+      "rammaricarsi di",
+      "dispiacersi di"
+    ]
+  },
+  "confidare": {
+    "prepositions": [
+      "in"
+    ],
+    "pronominal": false,
+    "pattern": "confidare + in + [qualcuno / speranza]",
+    "level": "B2",
+    "definition": "Riporre salda fiducia in una persona o in una possibilità futuro.",
+    "grammar_rule": "Richiede la preposizione « in », con relative preposizioni articolate (confidare nel futuro, nella giustizia, in Dio, negli amici). Con 'a' significa dire un segreto.",
+    "noun_parallel": "⚡ Verbo: 'Confidare nella giustizia' ➜ Nome: 'La confidenza'",
+    "examples": [
+      "Confidiamo nella rapida risoluzione del problema.",
+      "Ha confidato il suo segreto a un amico fidato."
+    ],
+    "common_mistake": "❌ Confido di il tuo aiuto discreto. ➜ ✅ Confido nel tuo aiuto discreto.",
+    "synonyms": [
+      "fidarsi di",
+      "sperare in"
+    ],
+    "antonyms": [
+      "diffidare di",
+      "disperare di"
+    ]
+  },
+  "conformarsi": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": true,
+    "pattern": "conformarsi + a + [regola / standard]",
+    "level": "B2",
+    "definition": "Adeguare il proprio comportamento o prodotto a una norma o modello.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « a », con relative preposizioni articolate (conformarsi alle direttive, al regolamento, ai requisiti).",
+    "noun_parallel": "⚡ Verbo: 'Conformarsi al regolamento' ➜ Nome: 'La conformità'",
+    "examples": [
+      "Tutti i prodotti devono conformarsi alle norme europee.",
+      "Si è conformato alle consuetudini del luogo."
+    ],
+    "common_mistake": "❌ Bisogna conformarsi di le regole aziendali. ➜ ✅ Bisogna conformarsi alle regole aziendali.",
+    "synonyms": [
+      "adeguarsi a",
+      "uniformarsi a"
+    ],
+    "antonyms": [
+      "discostarsi da",
+      "trasgredire"
+    ]
+  },
+  "congedarsi": {
+    "prepositions": [
+      "da"
+    ],
+    "pronominal": true,
+    "pattern": "congedarsi + da + [persona / gruppo]",
+    "level": "B2",
+    "definition": "Prendere licenza o salutare accomiatandosi da qualcuno.",
+    "grammar_rule": "Verbo pronominale elevato. Richiede la preposizione « da », con relative preposizioni articolate (congedarsi dagli ospiti, dal pubblico, dalla folla).",
+    "noun_parallel": "⚡ Verbo: 'Congedarsi dagli ospiti' ➜ Nome: 'Il congedo'",
+    "examples": [
+      "Si è congedato dagli ospiti con grande eleganza.",
+      "Il professore si è congedato dal pubblico alla fine dell'intervento."
+    ],
+    "common_mistake": "❌ Si congeda con gli invitati prima di mezzanotte. ➜ ✅ Si congeda dagli invitati prima di mezzanotte.",
+    "synonyms": [
+      "accomiatarsi da",
+      "salutare"
+    ],
+    "antonyms": [
+      "presentarsi a",
+      "accogliere"
+    ]
+  },
+  "dedicarsi": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": true,
+    "pattern": "dedicarsi + a + [attività / causa]",
+    "level": "B2",
+    "definition": "Consacrare il proprio tempo e le proprie energie a una disciplina o persona.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « a », con relative preposizioni articolate (dedicarsi allo studio, alla famiglia, ai volontariati).",
+    "noun_parallel": "⚡ Verbo: 'Dedicarsi allo studio' ➜ Nome: 'La dedica / La dedizione'",
+    "examples": [
+      "Ha deciso di dedicarsi completamente alla pittura.",
+      "Si dedica da anni alla tutela dell'ambiente."
+    ],
+    "common_mistake": "❌ Si dedica di la ricerca scientifica. ➜ ✅ Si dedica alla ricerca scientifica.",
+    "synonyms": [
+      "consacrarsi a",
+      "applicarsi a"
+    ],
+    "antonyms": [
+      "trascurare",
+      "abbandonare"
+    ]
+  },
+  "deliberare": {
+    "prepositions": [
+      "su"
+    ],
+    "pronominal": false,
+    "pattern": "deliberare + su + [argomento] / deliberare + di + [infinito]",
+    "level": "B2",
+    "definition": "Discutere ed emanare una decisione formale in sede d'assemblea.",
+    "grammar_rule": "Si usa « su » per indicare l'oggetto della delibera (deliberare sul bilancio, sulla proposta; articolazioni sul/sulla/sugli) e « di » prima dell'infinito.",
+    "noun_parallel": "⚡ Verbo: 'Deliberare sul bilancio' ➜ Nome: 'La delibera / La deliberazione'",
+    "examples": [
+      "Il consiglio d'amministrazione ha deliberato sul piano di investimenti.",
+      "Hanno deliberato di approvare la mozione."
+    ],
+    "common_mistake": "❌ Il consiglio delibererà a la questione domattina. ➜ ✅ Il consiglio delibererà sulla questione domattina.",
+    "synonyms": [
+      "decidere su",
+      "statuire su"
+    ],
+    "antonyms": [
+      "rinviare",
+      "sospendere"
+    ]
+  },
+  "derivare": {
+    "prepositions": [
+      "da"
+    ],
+    "pronominal": false,
+    "pattern": "derivare + da + [origine / causa]",
+    "level": "B2",
+    "definition": "Avere origine o conseguire logicamente da una fonte.",
+    "grammar_rule": "Richiede la preposizione « da », che si fonde nelle preposizioni articolate (derivare dal latino, dalle premesse, da un equivoco).",
+    "noun_parallel": "⚡ Verbo: 'Derivare dal latino' ➜ Nome: 'La derivazione'",
+    "examples": [
+      "Molte parole italiane derivano dal latino classico.",
+      "Questo malessere deriva dal forte stress accumulato."
+    ],
+    "common_mistake": "❌ Questa parola deriva di il greco antico. ➜ ✅ Questa parola deriva dal greco antico.",
+    "synonyms": [
+      "provenire da",
+      "scaturire da"
+    ],
+    "antonyms": [
+      "sfociare in",
+      "produrre"
+    ]
+  },
+  "differire": {
+    "prepositions": [
+      "da"
+    ],
+    "pronominal": false,
+    "pattern": "differire + da + [termine di paragone]",
+    "level": "B2",
+    "definition": "Essere diverso o distinguersi per caratteristiche da qualcosa.",
+    "grammar_rule": "Richiede la preposizione « da », con relative preposizioni articolate (differire dall'originale, dalle aspettative). Se usato come rimandare vuole 'di'.",
+    "noun_parallel": "⚡ Verbo: 'Differire dall'originale' ➜ Nome: 'La differenza'",
+    "examples": [
+      "La copia differisce dall'originale per piccoli dettagli.",
+      "Le due opinioni differiscono notevolmente."
+    ],
+    "common_mistake": "❌ Questo modello differisce di quello precedente. ➜ ✅ Questo modello differisce da quello precedente.",
+    "synonyms": [
+      "distinguersi da",
+      "dissentire da"
+    ],
+    "antonyms": [
+      "assomigliare a",
+      "coincidere con"
+    ]
+  },
+  "disfarsi": {
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": true,
+    "pattern": "disfarsi + di + [oggetto ingombrante / peso]",
+    "level": "B2",
+    "definition": "Liberarsi completamente di cose di cui non si ha più bisogno.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « di », con relative preposizioni articolate (disfarsi delle carte vecchie, del vecchio guardaroba).",
+    "noun_parallel": "⚡ Verbo: 'Disfarsi del superfluo' ➜ Nome: 'La disfatta'",
+    "examples": [
+      "Ha deciso di disfarsi di tutte le cose vecchie.",
+      "Si è disfatto delle azionai prima del crollo."
+    ],
+    "common_mistake": "❌ Si è disfatto da la vecchia vettura. ➜ ✅ Si è disfatto della vecchia vettura.",
+    "synonyms": [
+      "sbarazzarsi di",
+      "liberarsi di"
+    ],
+    "antonyms": [
+      "conservare",
+      "acquistare"
+    ]
+  },
+  "dispensare": {
+    "prepositions": [
+      "da"
+    ],
+    "pronominal": false,
+    "pattern": "dispensare + [qualcuno] + da + [obbligo / compito]",
+    "level": "B2",
+    "definition": "Esentare una persona dal compimento di un dovere.",
+    "grammar_rule": "La persona esentata è oggetto diretto. L'obbligo o compito da cui si è esentati richiede la preposizione « da » (dispensare dal servizio, dalle tasse, dal presenziare).",
+    "noun_parallel": "⚡ Verbo: 'Dispensare dalle tasse' ➜ Nome: 'La dispensa'",
+    "examples": [
+      "Il medico lo ha dispensato dall'attività fisica.",
+      "È stato dispensato dal pagare la tassa."
+    ],
+    "common_mistake": "❌ Lo hanno dispensato di fare l'esame. ➜ ✅ Lo hanno dispensato dal fare l'esame.",
+    "synonyms": [
+      "esentare da",
+      "esonerare da"
+    ],
+    "antonyms": [
+      "obbligare a",
+      "costringere a"
+    ]
+  },
+  "eccellere": {
+    "prepositions": [
+      "in"
+    ],
+    "pronominal": false,
+    "pattern": "eccellere + in + [campo / disciplina]",
+    "level": "B2",
+    "definition": "Distinguersi notevolmente per superiorità e bravura in un settore.",
+    "grammar_rule": "Richiede la preposizione « in », che si articola davanti al nome (eccellere nella matematica, negli studi, nelle arti).",
+    "noun_parallel": "⚡ Verbo: 'Eccellere nella matematica' ➜ Nome: 'L'eccellenza'",
+    "examples": [
+      "Ha sempre eccelso nelle materie scientifiche.",
+      "Un professionista che eccelle nel suo campo."
+    ],
+    "common_mistake": "❌ Eccelle di la pittura rinascimentale. ➜ ✅ Eccelle nella pittura rinascimentale.",
+    "synonyms": [
+      "primeggiare in",
+      "eccellere in"
+    ],
+    "antonyms": [
+      "sfigurare in",
+      "deficere in"
+    ]
+  },
+  "esitare a": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "esitare + a + [infinito]",
+    "level": "B2",
+    "definition": "Trattenersi per dubbio o timore prima di agire.",
+    "grammar_rule": "Richiede « a » prima del verbo all'infinito.",
+    "noun_parallel": "⚡ Verbo: 'Esitare al momento decisivo' ➜ Nome: 'L'esitazione'",
+    "examples": [
+      "Non esitare ad avvisarmi in caso di necessità.",
+      "Ha esitato a prendere una decisione drastica."
+    ],
+    "common_mistake": "❌ Esita di firmare il contratto. ➜ ✅ Esita a firmare il contratto.",
+    "synonyms": [
+      "indugiare a"
+    ],
+    "antonyms": [
+      "lanciarsi"
+    ]
+  },
+  "esortare": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "esortare + [qualcuno] + a + [infinito / azione]",
+    "level": "B2",
+    "definition": "Incitare o spronare una persona a fare qualcosa di positivo.",
+    "grammar_rule": "La persona esortata è oggetto diretto. L'azione caldeggiata richiede la preposizione « a » prima dell'infinito (esortare i giovani allo studio, a reagire).",
+    "noun_parallel": "⚡ Verbo: 'Esortare gli studenti allo studio' ➜ Nome: 'L'esortazione'",
+    "examples": [
+      "Il presidente ha esortato i cittadini alla calma.",
+      "Ci ha esortati a continuare la lotta."
+    ],
+    "common_mistake": "❌ Ha esortato la popolazione di rimanere a casa. ➜ ✅ Ha esortato la popolazione a rimanere a casa.",
+    "synonyms": [
+      "incitare a",
+      "spronare a"
+    ],
+    "antonyms": [
+      "dissuadere da",
+      "sconsigliare di"
+    ]
+  },
+  "impegnarsi": {
+    "prepositions": [
+      "in",
+      "a"
+    ],
+    "pronominal": true,
+    "pattern": "impegnarsi + in + [attività] / a + [infinito]",
+    "level": "B2",
+    "definition": "Dedicare seriamente le proprie forze in un compito o promettere un'azione.",
+    "grammar_rule": "Verbo pronominale. Usa « in » per campi di lavoro o studio (impegnarsi nella ricerca; articolazioni nella/negli) e « a » prima dell'infinito (impegnarsi a pagare).",
+    "noun_parallel": "⚡ Verbo: 'Impegnarsi nella ricerca' ➜ Nome: 'L'impegno'",
+    "examples": [
+      "Si è impegnato a completare il lavoro entro venerdì.",
+      "È fortemente impegnata nel sociale."
+    ],
+    "common_mistake": "❌ Si è impegnato di finire il progetto. ➜ ✅ Si è impegnato a finire il progetto.",
+    "synonyms": [
+      "applicarsi a",
+      "obbligarsi a"
+    ],
+    "antonyms": [
+      "disimpegnarsi da",
+      "trascurare"
+    ]
+  },
+  "incitare": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "incitare + [qualcuno] + a + [infinito / azione]",
+    "level": "B2",
+    "definition": "Spingere con forza una persona a compiere un'azione.",
+    "grammar_rule": "La persona incitata è oggetto diretto. L'azione sollecitata richiede la preposizione « a » (incitare la squadra alla vittoria, a correre).",
+    "noun_parallel": "⚡ Verbo: 'Incitare la folla' ➜ Nome: 'L'incitamento'",
+    "examples": [
+      "L'allenatore incitava i giocatori a dare il massimo.",
+      "Ha incitato la folla alla protesta."
+    ],
+    "common_mistake": "❌ Incita gli studenti di studiare di più. ➜ ✅ Incita gli studenti a studiare di più.",
+    "synonyms": [
+      "spronare a",
+      "sollecitare a"
+    ],
+    "antonyms": [
+      "trattenere da",
+      "dissuadere da"
+    ]
+  },
+  "inclinare": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "inclinare + a + [tendenza / opinione / infinito]",
+    "level": "B2",
+    "definition": "Avere una naturale tendenza o predisposizione verso qualcosa.",
+    "grammar_rule": "Richiede la preposizione « a », con relative preposizioni articolate (inclinare alla malinconia, al perdono, a credere).",
+    "noun_parallel": "⚡ Verbo: 'Inclinare alla clemenza' ➜ Nome: 'L'inclinazione'",
+    "examples": [
+      "Inclina naturalmente alla misericordia.",
+      "La giuria inclina ad assolvere l'imputato."
+    ],
+    "common_mistake": "❌ Inclina di la sfiducia generale. ➜ ✅ Inclina alla sfiducia generale.",
+    "synonyms": [
+      "propendere a",
+      "tendere a"
+    ],
+    "antonyms": [
+      "avversare",
+      "repellere"
+    ]
+  },
+  "indurre": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "indurre + [qualcuno] + a + [infinito / azione]",
+    "level": "B2",
+    "definition": "Spingere o persuadere una persona a compiere un'azione o errore.",
+    "grammar_rule": "La persona indotta è oggetto diretto. Il comportamento provocato richiede la preposizione « a » (indurre in errore, indurre qualcuno a confessare).",
+    "noun_parallel": "⚡ Verbo: 'Indurre in errore' ➜ Nome: 'L'induzione'",
+    "examples": [
+      "Le sue parole mi hanno indotto a riflettere.",
+      "Questo sintomo può indurre in errore il medico."
+    ],
+    "common_mistake": "❌ Lo ha indotto di cambiare parere. ➜ ✅ Lo ha indotto a cambiare parere.",
+    "synonyms": [
+      "persuadere a",
+      "convincere a"
+    ],
+    "antonyms": [
+      "dissuadere da",
+      "distogliere da"
+    ]
+  },
+  "insistere": {
+    "prepositions": [
+      "su",
+      "in"
+    ],
+    "pronominal": false,
+    "pattern": "insistere + su + [argomento] / in + [comportamento]",
+    "level": "B2",
+    "definition": "Persistere con fermezza su un punto o in un atteggiamento.",
+    "grammar_rule": "Richiede la preposizione « su » per il tema o dettaglio (insistere sul punto, sulla qualità; articolazioni sul/sulla) e « in » per atteggiamenti ostinati (insistere nell'errore).",
+    "noun_parallel": "⚡ Verbo: 'Insistere sui dettagli' ➜ Nome: 'L'insistenza'",
+    "examples": [
+      "Il professore ha insistito sull'importanza della grammatica.",
+      "Perché insisti nel voler uscire con questo tempo?"
+    ],
+    "common_mistake": "❌ Insiste a la sua tesi senza ascoltare. ➜ ✅ Insiste sulla sua tesi senza ascoltare.",
+    "synonyms": [
+      "persistere in",
+      "ribadire"
+    ],
+    "antonyms": [
+      "desistere da",
+      "cedere su"
+    ]
+  },
+  "invogliare": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "invogliare + [qualcuno] + a + [infinito]",
+    "level": "B2",
+    "definition": "Far nascere in qualcuno la voglia di fare qualcosa.",
+    "grammar_rule": "La persona è oggetto diretto. L'azione che si desidera far fare vuole « a » prima dell'infinito (invogliare i ragazzi a leggere).",
+    "noun_parallel": "⚡ Verbo: 'Invogliare alla lettura' ➜ Nome: 'L'invoglia'",
+    "examples": [
+      "Questa bella giornata invoglia a uscire.",
+      "Gli insegnanti cercano di invogliare gli studenti a studiare."
+    ],
+    "common_mistake": "❌ Questo libro invoglia di viaggiare. ➜ ✅ Questo libro invoglia a viaggiare.",
+    "synonyms": [
+      "allettare a",
+      "stimolare a"
+    ],
+    "antonyms": [
+      "disinvogliare da",
+      "dissuadere da"
+    ]
+  },
+  "ispirarsi a": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": true,
+    "pattern": "ispirarsi + a + [modello / principio]",
+    "level": "B2",
+    "definition": "Prendere a modello un principio o un'opera artistica.",
+    "grammar_rule": "Richiede « a » con articolazione obbligatoria (ispirarsi alla tradizione, ai maestri).",
+    "noun_parallel": "⚡ Verbo: 'Ispirarsi ai classici' ➜ Nome: 'L'ispirazione'",
+    "examples": [
+      "L'architetto si è ispirato alla natura per il progetto.",
+      "Si ispira ai principi della costituzione."
+    ],
+    "common_mistake": "❌ Si ispira di il movimento futurista. ➜ ✅ Si ispira al movimento futurista.",
+    "synonyms": [
+      "rifarsi a"
+    ],
+    "antonyms": [
+      "discostarsi da"
+    ]
+  },
+  "persuadere": {
+    "prepositions": [
+      "a",
+      "di"
+    ],
+    "pronominal": false,
+    "pattern": "persuadere + [qualcuno] + a + [infinito] / di + [fatto]",
+    "level": "B2",
+    "definition": "Convincere una persona a fare un'azione o della veridicità di un fatto.",
+    "grammar_rule": "Spingere ad agire vuole « a » prima dell'infinito (persuadere Marco a venire). Convincere su una verità vuole « di » (persuadere della bontà della tesi; articolazioni della/del).",
+    "noun_parallel": "⚡ Verbo: 'Persuadere l'amico a partecipare' ➜ Nome: 'La persuasione'",
+    "examples": [
+      "Sono riuscito a persuaderlo a venire con noi.",
+      "Lo ha persuaso della propria innocenza."
+    ],
+    "common_mistake": "❌ L'ha persuaso di accettare l'offerta. ➜ ✅ L'ha persuaso ad accettare l'offerta.",
+    "synonyms": [
+      "convincere a",
+      "indurre a"
+    ],
+    "antonyms": [
+      "dissuadere da",
+      "sconsigliare"
+    ]
+  },
+  "propendere": {
+    "prepositions": [
+      "per",
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "propendere + per + [opzione] / a + [infinito]",
+    "level": "B2",
+    "definition": "Mostrare inclinazione o preferenza per una determinata scelta.",
+    "grammar_rule": "Usa la preposizione « per » davanti all'opzione preferita (propendere per il sì, per la prima ipotesi; articolazioni per il/la) e « a » prima dell'infinito.",
+    "noun_parallel": "⚡ Verbo: 'Propendere per la prima ipotesi' ➜ Nome: 'La propensione'",
+    "examples": [
+      "La maggioranza del consiglio propende per la soluzione più prudente.",
+      "Propendo a credere alle sue spiegazioni."
+    ],
+    "common_mistake": "❌ Propendo a la prima soluzione proposta. ➜ ✅ Propendo per la prima soluzione proposta.",
+    "synonyms": [
+      "inclinare per",
+      "inclinare a"
+    ],
+    "antonyms": [
+      "avversare",
+      "respingere"
+    ]
+  },
+  "provvedere": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "provvedere + a + [necessità / spesa / compito]",
+    "level": "B2",
+    "definition": "Farsi carico di un bisogno o disporre le misure necessarie.",
+    "grammar_rule": "Richiede la preposizione « a », che si articola davanti al nome (provvedere alle spese, al sostentamento, ai bisogni, a riparare).",
+    "noun_parallel": "⚡ Verbo: 'Provvedere alle spese' ➜ Nome: 'Il provvedimento'",
+    "examples": [
+      "L'azienda provvederà al saldo di tutte le fatture.",
+      "Ci hanno assicurato che provvederanno a risolvere il guasto."
+    ],
+    "common_mistake": "❌ Provvedo di la cena di stasera. ➜ ✅ Provvedo alla cena di stasera.",
+    "synonyms": [
+      "occuparsi di",
+      "badare a"
+    ],
+    "antonyms": [
+      "trascurare",
+      "disinteressarsi di"
+    ]
+  },
+  "rammaricarsi": {
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": true,
+    "pattern": "rammaricarsi + di + [errore / fatto]",
+    "level": "B2",
+    "definition": "Provare rammarico o dispiacere per un fatto avutosi.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « di », con relative preposizioni articolate (rammaricarsi dell'accaduto, della decisione, di non esserci).",
+    "noun_parallel": "⚡ Verbo: 'Rammaricarsi dell'accaduto' ➜ Nome: 'Il rammarico'",
+    "examples": [
+      "Ci rammarichiamo profondamente del ritardo causato.",
+      "Si rammarica di non aver accettato la proposta."
+    ],
+    "common_mistake": "❌ Si rammarica per dell'errore commesso. ➜ ✅ Si rammarica dell'errore commesso.",
+    "synonyms": [
+      "dispiacersi di",
+      "dolersi di"
+    ],
+    "antonyms": [
+      "rallegrarsi di",
+      "compiacersi di"
+    ]
+  },
+  "reagire": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "reagire + a + [stimolo / attacco]",
+    "level": "B2",
+    "definition": "Rispondere con un'azione o emozione a uno stimolo esterno.",
+    "grammar_rule": "Richiede la preposizione « a », con relative preposizioni articolate (reagire alla cura, alle provocazioni, agli attacchi).",
+    "noun_parallel": "⚡ Verbo: 'Reagire alle provocazioni' ➜ Nome: 'La reazione'",
+    "examples": [
+      "Il paziente ha reagito positivamente alla terapia.",
+      "Non bisogna reagire alla violenza con altra violenza."
+    ],
+    "common_mistake": "❌ Ha reagito contro alla critica ricevuta. ➜ ✅ Ha reagito alla critica ricevuta.",
+    "synonyms": [
+      "rispondere a",
+      "ribattere a"
+    ],
+    "antonyms": [
+      "subire",
+      "incassare"
+    ]
+  },
+  "rendersi conto": {
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": true,
+    "pattern": "rendersi conto + di + [fatto / situazione]",
+    "level": "B2",
+    "definition": "Acquisire piena consapevolezza di una realtà.",
+    "grammar_rule": "Espressione pronominale. Richiede la preposizione « di », che si articola davanti al nome (rendersi conto della gravità, del pericolo, dei rischi).",
+    "noun_parallel": "⚡ Verbo: 'Rendersi conto della situazione' ➜ Nome: 'Il conto'",
+    "examples": [
+      "Ti rendi conto della gravità di quello che hai fatto?",
+      "Non mi ero reso conto di quanto fosse tardi."
+    ],
+    "common_mistake": "❌ Non si rende conto a la situazione. ➜ ✅ Non si rende conto della situazione.",
+    "synonyms": [
+      "accorgersi di",
+      "prendere coscienza di"
+    ],
+    "antonyms": [
+      "ignorare",
+      "Fingere di non vedere"
+    ]
+  },
+  "rifiutarsi": {
+    "prepositions": [
+      "di"
+    ],
+    "pronominal": true,
+    "pattern": "rifiutarsi + di + [infinito]",
+    "level": "B2",
+    "definition": "Opporre un netto rifiuto a compiere un'azione.",
+    "grammar_rule": "Verbo pronominale. Quando regge un verbo all'infinito richiede la preposizione « di » (rifiutarsi di rispondere, di collaborare).",
+    "noun_parallel": "⚡ Verbo: 'Rifiutarsi di collaborare' ➜ Nome: 'Il rifiuto'",
+    "examples": [
+      "L'imputato si è rifiutato di rispondere alle domande.",
+      "Mi rifiuto di accettare condizioni così svantaggiose."
+    ],
+    "common_mistake": "❌ Mi rifiuto a firmare questo documento. ➜ ✅ Mi rifiuto di firmare questo documento.",
+    "synonyms": [
+      "ricusare di",
+      "respingere"
+    ],
+    "antonyms": [
+      "acconsentire a",
+      "accettare di"
+    ]
+  },
+  "scaturire": {
+    "prepositions": [
+      "da"
+    ],
+    "pronominal": false,
+    "pattern": "scaturire + da + [origine / causa]",
+    "level": "B2",
+    "definition": "Zampillare o sgorgare logicamente da una fonte.",
+    "grammar_rule": "Richiede la preposizione « da », che si articola davanti ai sostantivi (scaturire dalla riflessione, dalle trattative, dal dibattito).",
+    "noun_parallel": "⚡ Verbo: 'Scaturire dalla riflessione' ➜ Nome: 'Lo scaturimento'",
+    "examples": [
+      "La decisione è scaturita da un lungo dibattito.",
+      "Dall'incontro sono scaturite nuove idee brillanti."
+    ],
+    "common_mistake": "❌ La proposta scaturisce di il lavoro di squadra. ➜ ✅ La proposta scaturisce dal lavoro di squadra.",
+    "synonyms": [
+      "derivare da",
+      "nascere da"
+    ],
+    "antonyms": [
+      "estinguersi in"
+    ]
+  },
+  "sollecitare": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "sollecitare + [qualcuno] + a + [infinito / risposta]",
+    "level": "B2",
+    "definition": "Incalzare o premere su una persona perché compia un'azione in tempi brevi.",
+    "grammar_rule": "La persona sollecitata è oggetto diretto. L'azione richiesta vuole la preposizione « a » (sollecitare i fornitori alla consegna, a rispondere).",
+    "noun_parallel": "⚡ Verbo: 'Sollecitare il pagamento' ➜ Nome: 'La sollecitazione'",
+    "examples": [
+      "Abbiamo sollecitato l'impresa a concludere i lavori.",
+      "La direzione sollecita i dipendenti al rispetto dei tempi."
+    ],
+    "common_mistake": "❌ Ha sollecitato la banca di inviare i documenti. ➜ ✅ Ha sollecitato la banca ad inviare i documenti.",
+    "synonyms": [
+      "incalzare a",
+      "esortare a"
+    ],
+    "antonyms": [
+      "frenare",
+      "differire"
+    ]
+  },
+  "sovrapporsi": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": true,
+    "pattern": "sovrapporsi + a + [elemento preesistente]",
+    "level": "B2",
+    "definition": "Porsi sopra o coincidere parzialmente con un'altra cosa.",
+    "grammar_rule": "Verbo pronominale. Richiede la preposizione « a », con relative preposizioni articolate (sovrapporsi alla struttura, agli orari).",
+    "noun_parallel": "⚡ Verbo: 'Sovrapporsi al programma' ➜ Nome: 'La sovrapposizione'",
+    "examples": [
+      "Il nuovo evento si sovrappone alla riunione già programmata.",
+      "Le immagini si sovrappongono l'una all'altra."
+    ],
+    "common_mistake": "❌ Il turno si sovrappone con il mio orario. ➜ ✅ Il turno si sovrappone al mio orario.",
+    "synonyms": [
+      "coincidere con",
+      "accavallarsi a"
+    ],
+    "antonyms": [
+      "distanziarsi da"
+    ]
+  },
+  "spingere": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "spingere + [qualcuno] + a + [infinito / azione]",
+    "level": "B2",
+    "definition": "Esercitare pressione fisica o morale su qualcuno affinché agisca.",
+    "grammar_rule": "La persona spinta è oggetto diretto. La destinazione o l'azione provocata richiede la preposizione « a » (spingere i giovani all'azione, a studiare).",
+    "noun_parallel": "⚡ Verbo: 'Spingere alla rivolta' ➜ Nome: 'La spinta'",
+    "examples": [
+      "La fame li ha spinti a rubare.",
+      "Cosa ti spinge a fare questa scelta rischiosa?"
+    ],
+    "common_mistake": "❌ Lo ha spinto di fare una sciocchezza. ➜ ✅ Lo ha spinto a fare una sciocchezza.",
+    "synonyms": [
+      "indurre a",
+      "incitare a"
+    ],
+    "antonyms": [
+      "distogliere da",
+      "dissuadere da"
+    ]
+  },
+  "tendere": {
+    "prepositions": [
+      "a"
+    ],
+    "pronominal": false,
+    "pattern": "tendere + a + [obiettivo / tendenza / infinito]",
+    "level": "B2",
+    "definition": "Avere una naturale inclinazione verso un fine o un comportamento.",
+    "grammar_rule": "Richiede la preposizione « a », che si fonde con gli articoli (tendere al miglioramento, alla perfezione, a procrastinare).",
+    "noun_parallel": "⚡ Verbo: 'Tendere al miglioramento' ➜ Nome: 'La tendenza'",
+    "examples": [
+      "La situazione tende a stabilizzarsi.",
+      "Tende sempre ad minimizzare i propri meriti."
+    ],
+    "common_mistake": "❌ Tende di esagerare quando racconta storie. ➜ ✅ Tende ad esagerare quando racconta storie.",
+    "synonyms": [
+      "inclinare a",
+      "propendere a"
+    ],
+    "antonyms": [
+      "discostarsi da"
+    ]
+  },
+  "trarre": {
+    "prepositions": [
+      "da"
+    ],
+    "pronominal": false,
+    "pattern": "trarre + [qualcosa] + da + [origine / fonte]",
+    "level": "B2",
+    "definition": "Estrarre o ricavare un beneficio o lezione da una fonte.",
+    "grammar_rule": "L'oggetto tratto è diretto (trarre profitto). La fonte origina con la preposizione « da » (trarre dai libri, dall'esperienza; articolazioni dal/dalla/dagli).",
+    "noun_parallel": "⚡ Verbo: 'Trarre profitto dall'esperienza' ➜ Nome: 'La tratta / La trazione'",
+    "examples": [
+      "Abbiamo tratto grandi insegnamenti da questa brutta vicenda.",
+      "Trarre vantaggio dalla situazione."
+    ],
+    "common_mistake": "❌ Ha tratto profitto di il suo lavoro. ➜ ✅ Ha tratto profitto dal suo lavoro.",
+    "synonyms": [
+      "ricavare da",
+      "attingere da"
+    ],
+    "antonyms": [
+      "immettere in"
+    ]
+  }
+}
