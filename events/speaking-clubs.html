@@ -103,26 +103,26 @@
 <main class="page">
 
 <!-- Quick-Start Guide -->
-<section id="onboarding-guide" style="background: var(--cream-dark); border: 1.5px dashed var(--border); border-radius: var(--r-xl); padding: 2rem; margin-bottom: 2.5rem; box-sizing: border-box;">
-<div style="display: flex; gap: 1.5rem; align-items: flex-start; flex-wrap: wrap;">
-<span style="font-size: 2.5rem; line-height: 1;">🧭</span>
-<div style="flex: 1; min-width: 280px;">
-<h3 style="margin: 0 0 0.5rem 0; font-family: var(--font-serif); font-size: 1.35rem; color: var(--sage-deep);">Speaking Club Quick-Start Guide</h3>
-<p style="margin: 0 0 1rem 0; font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft);">
+<section id="onboarding-guide" class="onboarding-guide-box">
+<div class="guide-flex-wrap">
+<span class="guide-icon">🧭</span>
+<div class="guide-content">
+<h3 class="guide-title">Speaking Club Quick-Start Guide</h3>
+<p class="guide-sub">
           New to our Speaking Clubs? Follow our level-calibrated roadmap to build confidence, expand vocabulary, and achieve conversational fluency with our native teachers.
         </p>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-top: 1rem;">
-<div style="background: white; padding: 1rem; border-radius: 12px; border: 1px solid var(--border);">
-<strong style="color: #BA7517; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.25rem;">🌱 Beginner Friendly (A1–A2)</strong>
-<p style="margin: 0; font-size: 0.85rem; line-height: 1.4; color: var(--muted);">Start with <strong>Let's Celebrate</strong> or <strong>The Greatest Quotes</strong>. Topics are tailored to everyday life, cultural rituals, and core vocabulary.</p>
+<div class="guide-cards-grid">
+<div class="guide-card">
+<strong class="guide-tag guide-tag-gold">🌱 Beginner Friendly (A1–A2)</strong>
+<p class="guide-card-p">Start with <strong>Let's Celebrate</strong> or <strong>The Greatest Quotes</strong>. Topics are tailored to everyday life, cultural rituals, and core vocabulary.</p>
 </div>
-<div style="background: white; padding: 1rem; border-radius: 12px; border: 1px solid var(--border);">
-<strong style="color: #993556; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.25rem;">🚀 Intermediate (B1–B2)</strong>
-<p style="margin: 0; font-size: 0.85rem; line-height: 1.4; color: var(--muted);">Join <strong>My Life With &amp; Without</strong> or <strong>Debatable &amp; Relatable</strong>. Unpack personal choices, express regrets, and debate mild controversies.</p>
+<div class="guide-card">
+<strong class="guide-tag guide-tag-rose">🚀 Intermediate (B1–B2)</strong>
+<p class="guide-card-p">Join <strong>My Life With &amp; Without</strong> or <strong>Debatable &amp; Relatable</strong>. Unpack personal choices, express regrets, and debate mild controversies.</p>
 </div>
-<div style="background: white; padding: 1rem; border-radius: 12px; border: 1px solid var(--border);">
-<strong style="color: #0F6E56; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.25rem;">🧠 Advanced (B2–C2)</strong>
-<p style="margin: 0; font-size: 0.85rem; line-height: 1.4; color: var(--muted);">Challenge yourself in <strong>Keeping Up with Science</strong>, <strong>Mind Matters</strong>, or <strong>I Couldn't Help But Wonder</strong>. Discuss biology, psychology, and abstract philosophy.</p>
+<div class="guide-card">
+<strong class="guide-tag guide-tag-teal">🧠 Advanced (B2–C2)</strong>
+<p class="guide-card-p">Challenge yourself in <strong>Keeping Up with Science</strong>, <strong>Mind Matters</strong>, or <strong>I Couldn't Help But Wonder</strong>. Discuss biology, psychology, and abstract philosophy.</p>
 </div>
 </div>
 </div>
@@ -140,122 +140,122 @@
 <button class="filter-btn" data-level="intermediate">Intermediate (B1-B2)</button>
 <button class="filter-btn" data-level="advanced">Advanced (C1-C2)</button>
 </div>
-<div class="club-grid" style="margin-bottom: 3.5rem; margin-top: 1.5rem;">
+<div class="club-grid club-grid-spaced">
 <!-- 1. KEEPING UP WITH SCIENCE -->
-<article class="club-card" data-levels="intermediate advanced" style="background: linear-gradient(135deg, #0F6E56, #073b2d); color: white;">
+<article class="club-card club-card-science" data-levels="intermediate advanced">
 <div class="club-card-inner">
-<span class="club-emoji"><img alt="Science logo" src="../images/keepingupwithscience.png" style="height: 50px;"/></span>
-<h3 style="color: white;">Keeping Up with Science</h3>
+<span class="club-emoji"><img alt="Science logo" src="../images/keepingupwithscience.png" class="club-img-logo"/></span>
+<h3 class="hero-title-white">Keeping Up with Science</h3>
 <div class="club-meta">
-<span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">B1–C2</span>
-<span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">Science</span>
+<span class="club-tag club-tag-on-dark">B1–C2</span>
+<span class="club-tag club-tag-on-dark">Science</span>
 </div>
-<p class="club-desc" style="color: rgba(255,255,255,0.85);">Real science news, made discussable. Each session unpacks a recent discovery or trend.</p>
-<a class="club-link" href="../apps/premium-events/clubs/kus/keeping-up-with-science.html" style="color: white;">View Club &amp; History →</a>
+<p class="club-desc club-desc-on-dark">Real science news, made discussable. Each session unpacks a recent discovery or trend.</p>
+<a class="club-link club-link-white" href="../apps/premium-events/clubs/kus/keeping-up-with-science.html">View Club &amp; History →</a>
 </div>
 </article>
 <!-- 2. LET'S CELEBRATE -->
-<article class="club-card" data-levels="beginner intermediate advanced" style="background: linear-gradient(135deg, #BA7517, #5c390b); color: white;">
+<article class="club-card club-card-celebrate" data-levels="beginner intermediate advanced">
 <div class="club-card-inner">
-<span class="club-emoji"><img alt="Celebrate logo" src="../images/letscelebrate.png" style="height: 50px;"/></span>
-<h3 style="color: white;">Let's Celebrate</h3>
+<span class="club-emoji"><img alt="Celebrate logo" src="../images/letscelebrate.png" class="club-img-logo"/></span>
+<h3 class="hero-title-white">Let's Celebrate</h3>
 <div class="club-meta">
-<span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">A1–C2</span>
-<span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">Culture</span>
+<span class="club-tag club-tag-on-dark">A1–C2</span>
+<span class="club-tag club-tag-on-dark">Culture</span>
 </div>
-<p class="club-desc" style="color: rgba(255,255,255,0.85);">Festivals, traditions, and the rituals that bring people together.</p>
-<a class="club-link" href="../apps/premium-events/clubs/celebrate/lets-celebrate.html" style="color: white;">View Club &amp; History →</a>
+<p class="club-desc club-desc-on-dark">Festivals, traditions, and the rituals that bring people together.</p>
+<a class="club-link club-link-white" href="../apps/premium-events/clubs/celebrate/lets-celebrate.html">View Club &amp; History →</a>
 </div>
 </article>
 <!-- 3. THE GREATEST QUOTES -->
-<article class="club-card" data-levels="beginner intermediate advanced" style="background: linear-gradient(135deg, #5D4037, #3E2723); color: white;">
+<article class="club-card club-card-quotes" data-levels="beginner intermediate advanced">
 <div class="club-card-inner">
-<span class="club-emoji"><img alt="Quotes logo" src="../images/thegreatestquotes.png" style="height: 50px;"/></span>
-<h3 style="color: white;">The Greatest Quotes</h3>
+<span class="club-emoji"><img alt="Quotes logo" src="../images/thegreatestquotes.png" class="club-img-logo"/></span>
+<h3 class="hero-title-white">The Greatest Quotes</h3>
 <div class="club-meta">
-<span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">A1–C2</span>
-<span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">Philosophy</span>
+<span class="club-tag club-tag-on-dark">A1–C2</span>
+<span class="club-tag club-tag-on-dark">Philosophy</span>
 </div>
-<p class="club-desc" style="color: rgba(255,255,255,0.85);">One quote. Multi-faceted café debate. Join Marcus Aurelius, Alan Watts, and Oscar Wilde over espresso to unpack endless interpretations.</p>
-<a class="club-link" href="../apps/premium-events/clubs/quotes/the-greatest-quotes.html" style="color: white;">View Club &amp; History →</a>
+<p class="club-desc club-desc-on-dark">One quote. Multi-faceted café debate. Join Marcus Aurelius, Alan Watts, and Oscar Wilde over espresso to unpack endless interpretations.</p>
+<a class="club-link club-link-white" href="../apps/premium-events/clubs/quotes/the-greatest-quotes.html">View Club &amp; History →</a>
 </div>
 </article>
 <!-- 4. MIND MATTERS -->
-<article class="club-card" data-levels="intermediate advanced" style="background: linear-gradient(135deg, #993556, #4d1a2b); color: white;">
+<article class="club-card club-card-mind" data-levels="intermediate advanced">
 <div class="club-card-inner">
-<span class="club-emoji"><img alt="Mind logo" src="../images/mindmatters.png" style="height: 50px;"/></span>
-<h3 style="color: white;">Mind Matters</h3>
+<span class="club-emoji"><img alt="Mind logo" src="../images/mindmatters.png" class="club-img-logo"/></span>
+<h3 class="hero-title-white">Mind Matters</h3>
 <div class="club-meta">
-<span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">B1–C2</span>
-<span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">Psychology</span>
+<span class="club-tag club-tag-on-dark">B1–C2</span>
+<span class="club-tag club-tag-on-dark">Psychology</span>
 </div>
-<p class="club-desc" style="color: rgba(255,255,255,0.85);">Perhaps our minds are not puzzles to be solved, but landscapes to be gently wandered through. Welcome to a sanctuary of quiet reflection where we unravel our habits, our vulnerabilities, and our silent thoughts.</p>
-<a class="club-link" href="mind-matters.html" style="color: white;">View Club &amp; History →</a>
+<p class="club-desc club-desc-on-dark">Perhaps our minds are not puzzles to be solved, but landscapes to be gently wandered through. Welcome to a sanctuary of quiet reflection where we unravel our habits, our vulnerabilities, and our silent thoughts.</p>
+<a class="club-link club-link-white" href="mind-matters.html">View Club &amp; History →</a>
 </div>
 </article>
 <!-- 5. MY LIFE WITH & MY LIFE WITHOUT -->
-<article class="club-card" data-levels="beginner intermediate advanced" style="background: linear-gradient(135deg, #3B6D11, #1d3608); color: white;">
+<article class="club-card club-card-life" data-levels="beginner intermediate advanced">
 <div class="club-card-inner">
-<span class="club-emoji"><img alt="Life logo" src="../images/lifewithlifewithout.png" style="height: 50px;"/></span>
-<h3 style="color: white;">My Life With &amp; Without</h3>
+<span class="club-emoji"><img alt="Life logo" src="../images/lifewithlifewithout.png" class="club-img-logo"/></span>
+<h3 class="hero-title-white">My Life With &amp; Without</h3>
 <div class="club-meta">
-<span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">A1–C2</span>
-<span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">Personal</span>
+<span class="club-tag club-tag-on-dark">A1–C2</span>
+<span class="club-tag club-tag-on-dark">Personal</span>
 </div>
-<p class="club-desc" style="color: rgba(255,255,255,0.85);">Each session explores life before and after one thing : a habit, a person, a city, a decision.</p>
-<a class="club-link" href="../apps/premium-events/clubs/life/my-life-with-without.html" style="color: white;">View Club &amp; History →</a>
+<p class="club-desc club-desc-on-dark">Each session explores life before and after one thing : a habit, a person, a city, a decision.</p>
+<a class="club-link club-link-white" href="../apps/premium-events/clubs/life/my-life-with-without.html">View Club &amp; History →</a>
 </div>
 </article>
 <!-- 6. DEBATABLE & RELATABLE -->
-<article class="club-card" data-levels="intermediate advanced" style="background: linear-gradient(135deg, #993C1D, #4d1e0f); color: white;">
+<article class="club-card club-card-debate" data-levels="intermediate advanced">
 <div class="club-card-inner">
-<span class="club-emoji"><img alt="Debate logo" src="../images/debatabeandrelatable.png" style="height: 50px;"/></span>
-<h3 style="color: white;">Debatable &amp; Relatable</h3>
+<span class="club-emoji"><img alt="Debate logo" src="../images/debatabeandrelatable.png" class="club-img-logo"/></span>
+<h3 class="hero-title-white">Debatable &amp; Relatable</h3>
 <div class="club-meta">
-<span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">B1–C2</span>
-<span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">Debate</span>
+<span class="club-tag club-tag-on-dark">B1–C2</span>
+<span class="club-tag club-tag-on-dark">Debate</span>
 </div>
-<p class="club-desc" style="color: rgba(255,255,255,0.85);">Hot takes and genuine dilemmas. Each session presents a statement you'll passionately agree with.</p>
-<a class="club-link" href="../apps/premium-events/clubs/debate/debatable-relatable.html" style="color: white;">View Club &amp; History →</a>
+<p class="club-desc club-desc-on-dark">Hot takes and genuine dilemmas. Each session presents a statement you'll passionately agree with.</p>
+<a class="club-link club-link-white" href="../apps/premium-events/clubs/debate/debatable-relatable.html">View Club &amp; History →</a>
 </div>
 </article>
 <!-- 7. I COULDN'T HELP BUT WONDER -->
-<article class="club-card" data-levels="intermediate advanced" style="background: linear-gradient(135deg, #3F2B96, #1F104D); color: white;">
+<article class="club-card club-card-wonder" data-levels="intermediate advanced">
 <div class="club-card-inner">
-<span class="club-emoji"><img alt="Wonder logo" src="../images/icouldnthelpbutwonder.png" style="height: 50px;"/></span>
-<h3 style="color: white;">I Couldn't Help But Wonder</h3>
+<span class="club-emoji"><img alt="Wonder logo" src="../images/icouldnthelpbutwonder.png" class="club-img-logo"/></span>
+<h3 class="hero-title-white">I Couldn't Help But Wonder</h3>
 <div class="club-meta">
-<span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">B1–C2</span>
-<span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">Philosophy</span>
+<span class="club-tag club-tag-on-dark">B1–C2</span>
+<span class="club-tag club-tag-on-dark">Philosophy</span>
 </div>
-<p class="club-desc" style="color: rgba(255,255,255,0.85);">Random ideas where we speculate about various things, ask poetic questions, and develop deep philosophical reflection.</p>
-<a class="club-link" href="../apps/premium-events/clubs/wonder/i-couldnt-help-but-wonder.html" style="color: white;">View Club &amp; History →</a>
+<p class="club-desc club-desc-on-dark">Random ideas where we speculate about various things, ask poetic questions, and develop deep philosophical reflection.</p>
+<a class="club-link club-link-white" href="../apps/premium-events/clubs/wonder/i-couldnt-help-but-wonder.html">View Club &amp; History →</a>
 </div>
 </article>
 <!-- 8. IF YOU WERE -->
-<article class="club-card" data-levels="beginner intermediate advanced" style="background: linear-gradient(135deg, #4F46E5, #1e1b4b); color: white;">
+<article class="club-card club-card-ifyouwere" data-levels="beginner intermediate advanced">
 <div class="club-card-inner">
-<span class="club-emoji"><img alt="If You Were logo" src="../images/ifyouwere.png" style="height: 50px;"/></span>
-<h3 style="color: white;">If You Were</h3>
+<span class="club-emoji"><img alt="If You Were logo" src="../images/ifyouwere.png" class="club-img-logo"/></span>
+<h3 class="hero-title-white">If You Were</h3>
 <div class="club-meta">
-<span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">A2–C1</span>
-<span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">Hypothesis</span>
+<span class="club-tag club-tag-on-dark">A2–C1</span>
+<span class="club-tag club-tag-on-dark">Hypothesis</span>
 </div>
-<p class="club-desc" style="color: rgba(255,255,255,0.85);">Step into another skin, another role, or another reality. Speculative hypotheses and radical empathy to restructure your mind and speaking skills.</p>
-<a class="club-link" href="../apps/premium-events/clubs/if-you-were/if-you-were.html" style="color: white;">View Club &amp; History →</a>
+<p class="club-desc club-desc-on-dark">Step into another skin, another role, or another reality. Speculative hypotheses and radical empathy to restructure your mind and speaking skills.</p>
+<a class="club-link club-link-white" href="../apps/premium-events/clubs/if-you-were/if-you-were.html">View Club &amp; History →</a>
 </div>
 </article>
 <!-- 9. LONG READS -->
-<article class="club-card" data-levels="intermediate advanced" style="background: linear-gradient(135deg, #7A1C1C, #3E0F0F); color: white;">
+<article class="club-card club-card-longreads" data-levels="intermediate advanced">
 <div class="club-card-inner">
-<span class="club-emoji" style="font-size: 1.8rem; margin-bottom: 0.8rem; display: block;">📚</span>
-<h3 style="color: white;">Long Reads</h3>
+<span class="club-emoji">📚</span>
+<h3 class="hero-title-white">Long Reads</h3>
 <div class="club-meta">
-<span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">B2–C1</span>
-<span class="club-tag" style="background:rgba(255,255,255,0.15);color:white;border-color:rgba(255,255,255,0.3);">Literature</span>
+<span class="club-tag club-tag-on-dark">B2–C1</span>
+<span class="club-tag club-tag-on-dark">Literature</span>
 </div>
-<p class="club-desc" style="color: rgba(255,255,255,0.85);">Micro-discussions of outstanding books, audiobooks, and long-form podcasts. Carry ideas and reflections from chapter to chapter.</p>
-<a class="club-link" href="../apps/premium-events/nights/long-reads/long-reads.html" style="color: white;">View Club &amp; History →</a>
+<p class="club-desc club-desc-on-dark">Micro-discussions of outstanding books, audiobooks, and long-form podcasts. Carry ideas and reflections from chapter to chapter.</p>
+<a class="club-link club-link-white" href="../apps/premium-events/nights/long-reads/long-reads.html">View Club &amp; History →</a>
 </div>
 </article>
 </div>

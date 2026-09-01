@@ -36,11 +36,11 @@
                 <div id="search-suggestions" class="suggestions-list"></div>
             </section>
 
-            <section id="game-container" class="game-card" style="display: none;">
+            <section id="game-container" class="game-card hidden">
                 <div class="game-header">
                     <div class="game-title">
                         <h2>🎮 Παιχνίδι: Ο, Η ή Το;</h2>
-                        <div class="game-mode-selector" style="margin-top: 6px;"><button id="mode-gender-btn" class="badge active-mode" onclick="appEngine.setPracticeMode('gender')">🏷️ Γένος</button> <button id="mode-cases-btn" class="badge" onclick="appEngine.setPracticeMode('cases')">📌 Πτώσεις &amp; Καταλήξεις</button></div>
+                        <div class="game-mode-selector game-mode-selector-spaced"><button id="mode-gender-btn" class="badge active-mode" onclick="appEngine.setPracticeMode('gender')">🏷️ Γένος</button> <button id="mode-cases-btn" class="badge" onclick="appEngine.setPracticeMode('cases')">📌 Πτώσεις &amp; Καταλήξεις</button></div>
                     </div>
                     <div class="score-badge">
                         <span>Σκορ: <strong id="game-score">0</strong></span>
@@ -56,11 +56,11 @@
                     <button class="choice-btn fem-btn" onclick="appEngine.checkGameChoice('Θηλυκό')">Θηλυκό (Η)</button>
                     <button class="choice-btn neut-btn" onclick="appEngine.checkGameChoice('Oυδέτερο')">Ουδέτερο (Το)</button>
                 </div>
-                <div id="game-feedback-box" class="feedback-card" style="display: none;"></div>
-                <button id="game-next-btn" class="game-btn secondary-btn" style="display: none;" onclick="appEngine.nextGameQuestion()">Επόμενη Ερώτηση ➔</button>
+                <div id="game-feedback-box" class="feedback-card hidden"></div>
+                <button id="game-next-btn" class="game-btn secondary-btn hidden" onclick="appEngine.nextGameQuestion()">Επόμενη Ερώτηση ➔</button>
             </section>
 
-            <section id="noun-result-container" class="noun-result-card" style="display: none;">
+            <section id="noun-result-container" class="noun-result-card hidden">
                 <div class="noun-header">
                     <div class="noun-title-group">
                         <h2 id="noun-title">δρόμος</h2>
@@ -102,7 +102,7 @@
             <section id="empty-state" class="empty-state-box">
                 <span class="empty-icon">🍃</span>
                 <h3>Αναζητήστε οποιοδήποτε ελληνικό ουσιαστικό</h3>
-                <p>Δείτε το γένος, τις 4 πτώσεις με <strong style="color: var(--terracotta);">χρωματισμένες καταλήξεις</strong>, σημασίες και αντίθετα.</p>
+                <p>Δείτε το γένος, τις 4 πτώσεις με <strong class="text-terracotta">χρωματισμένες καταλήξεις</strong>, σημασίες και αντίθετα.</p>
                 <div class="quick-tags">
                     <span>Γρήγορες επιλογές:</span>
                     <button class="tag-btn" onclick="appEngine.searchNoun('δρόμος')">δρόμος</button>
