@@ -2413,24 +2413,22 @@
     "prepositions": [
       "of"
     ],
-    "pattern": "be + devoid of + [quality / emotion / meaning]",
-    "level": "B1",
-    "definition": "Entirely lacking or free from something desirable.",
+    "pattern": "be + devoid of + [noun]",
+    "level": "C1",
+    "definition": "Entirely lacking or free from something.",
     "grammar_rule": "Always use 'of' after 'devoid'.",
     "examples": [
-      "The landscape was desolate and completely devoid of life.",
-      "His voice was devoid of emotion during the interview."
+      "The landscape was cold and devoid of any vegetation.",
+      "His speech was devoid of emotion."
     ],
-    "common_mistake": "❌ The room was devoid from furniture. ➜ ✅ The room was devoid of furniture.",
+    "common_mistake": "❌ Devoid from meaning. ➜ ✅ Devoid of meaning.",
     "synonyms": [
       "lacking in",
-      "bereft of",
-      "empty of"
+      "bereft of"
     ],
     "antonyms": [
       "full of",
-      "replete with",
-      "abounding in"
+      "replete with"
     ]
   },
   "vulnerable to": {
@@ -2834,25 +2832,23 @@
     "prepositions": [
       "to"
     ],
-    "pattern": "be + subject to + [approval / change / tax / law]",
-    "level": "B1",
-    "definition": "Conditional upon; likely to be affected by or bound by something.",
-    "grammar_rule": "Use 'subject to' when stating conditions, rules, or liabilities.",
+    "pattern": "be + subject to + [noun / approval / change]",
+    "level": "C1",
+    "definition": "Conditional upon, or likely to experience or suffer from something.",
+    "grammar_rule": "Always use 'to' after 'subject'.",
     "examples": [
-      "Prices are subject to change without prior notice.",
-      "The contract is subject to board approval."
+      "Flight schedules are subject to change without notice.",
+      "The contract is subject to approval by the legal team."
     ],
-    "common_mistake": "❌ The schedule is subject for alteration. ➜ ✅ The schedule is subject to alteration.",
+    "common_mistake": "❌ Subject for approval. ➜ ✅ Subject to approval.",
     "synonyms": [
       "conditional upon",
-      "liable to",
-      "governed by"
+      "vulnerable to"
     ],
     "antonyms": [
       "exempt from",
-      "unconditional"
-    ],
-    "related_forms": "⚡ Adjective: 'subject to' ➔ Related Verb: 'subjugate to'"
+      "immune to"
+    ]
   },
   "equivalent to": {
     "word_type": "adjective",

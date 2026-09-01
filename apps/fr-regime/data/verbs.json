@@ -2263,22 +2263,22 @@
       "à"
     ],
     "pronominal": false,
-    "pattern": "veiller à [faire qqch] / veiller sur [garder]",
-    "level": "B1",
-    "definition": "Prendre soin de faire une action (veiller à) OU surveiller une personne (veiller sur).",
-    "grammar_rule": "Distinction : « veiller à » + infinitif ou nom (veiller au respect des règles ; contraction au/aux) VS « veiller sur » = protéger (veiller sur l'enfant).",
-    "noun_parallel": "⚡ Verbe : 'Veiller au respect du règlement' ➜ Nom : 'La vigilance'",
+    "pattern": "veiller à [respect de règle / verbe]",
+    "level": "C1",
+    "definition": "Prendre soin ou s'assurer activement que quelque chose soit fait.",
+    "grammar_rule": "Prend la préposition « à » devant un nom ou un verbe à l'infinitif.",
+    "noun_parallel": "veille",
     "examples": [
-      "Veillez à bien fermer la porte à clé.",
-      "L'infirmière veille sur les malades toute la nuit."
+      "Le vigile veille à la sécurité des lieux.",
+      "Veuillez veiller à bien fermer la porte."
     ],
-    "common_mistake": "❌ Veillez de remplir le formulaire. ➜ ✅ Veillez à remplir le formulaire.",
+    "common_mistake": "❌ Veiller sur la règle. ➜ ✅ Veiller à la règle.",
     "synonyms": [
-      "s'assurer de",
-      "veiller sur"
+      "s'assurer",
+      "garantir"
     ],
     "antonyms": [
-      "négliger"
+      "délaisser"
     ]
   },
   "avoir marre": {
@@ -2962,23 +2962,23 @@
       "à"
     ],
     "pronominal": false,
-    "pattern": "imputer [une faute / des pertes] à [qqn]",
-    "level": "B2",
-    "definition": "Attribuer la responsabilité d'un fait dommageable ou d'un coût à une personne.",
-    "grammar_rule": "La faute/charge est COD direct. L'auteur présumé exige la préposition « à » (contractions au/aux).",
-    "noun_parallel": "⚡ Verbe : 'Imputer l'erreur au gestionnaire' ➜ Nom : 'L'imputation COMPTABLE'",
+    "pattern": "imputer [une faute] à [quelqu'un]",
+    "level": "C1",
+    "definition": "Attribuer la responsabilité d'un fait dommageable à quelqu'un.",
+    "grammar_rule": "S'emploie avec la préposition « à » pour la personne mise en cause.",
+    "noun_parallel": "imputation",
     "examples": [
-      "L'expert impute l'accident au mauvais entretien des freins.",
-      "On a imputé ces pertes au directeur financier."
+      "On ne peut lui imputer la responsabilité de cet échec.",
+      "Les pertes ont été imputées au budget annuel."
     ],
-    "common_mistake": "❌ Il impute la faute sur son adjoint. ➜ ✅ Il impute la faute à son adjoint.",
+    "common_mistake": "❌ Imputer la faute sur lui. ➜ ✅ Imputer la faute à lui / lui imputer la faute.",
     "synonyms": [
-      "attribuer à",
+      "attribuer",
       "mettre sur le compte de"
     ],
     "antonyms": [
       "disculper",
-      "blanchir"
+      "exonérer"
     ]
   },
   "s'adonner": {
@@ -3755,5 +3755,75 @@
       "estimer"
     ],
     "antonyms": []
+  },
+  "aboutir": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "aboutir à [un résultat / une conclusion]",
+    "level": "C1",
+    "definition": "Avoir pour résultat ou conduire à une issue précise.",
+    "grammar_rule": "Verbe intransitif exigeant la préposition « à ».",
+    "noun_parallel": "aboutissement",
+    "examples": [
+      "Les négociations ont enfin abouti à un accord.",
+      "Ces démarches n'ont abouti à rien."
+    ],
+    "common_mistake": "❌ Aboutir dans un accord. ➜ ✅ Aboutir à un accord.",
+    "synonyms": [
+      "mener",
+      "conduire"
+    ],
+    "antonyms": [
+      "échouer"
+    ]
+  },
+  "subvenir": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "subvenir à [besoins / dépenses]",
+    "level": "C1",
+    "definition": "Fournir les ressources financières nécessaires pour couvrir des dépenses.",
+    "grammar_rule": "S'emploie obligatoirement avec la préposition « à ».",
+    "noun_parallel": "subvention",
+    "examples": [
+      "Il travaille dur pour subvenir aux besoins de sa famille.",
+      "Elle subvient seule à ses dépenses."
+    ],
+    "common_mistake": "❌ Subvenir les besoins. ➜ ✅ Subvenir aux besoins.",
+    "synonyms": [
+      "pourvoir",
+      "assumer"
+    ],
+    "antonyms": [
+      "négliger"
+    ]
+  },
+  "déroger": {
+    "prepositions": [
+      "à"
+    ],
+    "pronominal": false,
+    "pattern": "déroger à [une règle / un principe]",
+    "level": "C1",
+    "definition": "Ne pas respecter ou faire une exception à une règle établie.",
+    "grammar_rule": "Régime prépositionnel strict avec « à ».",
+    "noun_parallel": "dérogation",
+    "examples": [
+      "On ne peut déroger à ce principe fondamental.",
+      "Le directeur a accepté de déroger à la règle."
+    ],
+    "common_mistake": "❌ Déroger de la règle. ➜ ✅ Déroger à la règle.",
+    "synonyms": [
+      "enfreindre",
+      "transgresser"
+    ],
+    "antonyms": [
+      "respecter",
+      "observer"
+    ]
   }
 }

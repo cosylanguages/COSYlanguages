@@ -238,5 +238,251 @@
       "certitude",
       "assurance"
     ]
+  },
+  "amour": {
+    "word_type": "noun",
+    "prepositions": [
+      "pour",
+      "de"
+    ],
+    "pattern": "amour pour / de [personne / cause]",
+    "level": "A1",
+    "definition": "Sentiment d'affection vive et d'attachement profond.",
+    "grammar_rule": "On emploie 'pour' (amour pour son pays) ou 'de' (l'amour de la patrie).",
+    "related_forms": "aimer",
+    "examples": [
+      "Son amour pour la musique est immense.",
+      "L'amour de la liberté anime ce peuple."
+    ],
+    "common_mistake": "❌ Amour à la musique. ➜ ✅ Amour pour la musique.",
+    "synonyms": [
+      "affection",
+      "passion"
+    ],
+    "antonyms": [
+      "haine",
+      "aversion"
+    ]
+  },
+  "goût": {
+    "word_type": "noun",
+    "prepositions": [
+      "pour",
+      "de"
+    ],
+    "pattern": "goût pour [activité] / goût de [substance]",
+    "level": "A1",
+    "definition": "Penchant ou préférence naturelle pour une activité ou une chose.",
+    "grammar_rule": "Utiliser 'pour' pour une inclination ou un intérêt (un goût pour l'art) et 'de' pour la saveur (un goût de pomme).",
+    "related_forms": "goûter",
+    "examples": [
+      "Il a un goût prononcé pour le dessin.",
+      "Ce gâteau a un délicieux goût de vanille."
+    ],
+    "common_mistake": "❌ Un goût à la lecture. ➜ ✅ Un goût pour la lecture.",
+    "synonyms": [
+      "penchant",
+      "attrait"
+    ],
+    "antonyms": [
+      "dégoût",
+      "repulsion"
+    ]
+  },
+  "intérêt": {
+    "word_type": "noun",
+    "prepositions": [
+      "pour"
+    ],
+    "pattern": "intérêt pour [sujet / domaine]",
+    "level": "A2",
+    "definition": "Attention curieuse ou importance accordée à un sujet.",
+    "grammar_rule": "S'emploie avec la préposition 'pour' quand il s'agit d'une curiosité intellectuelle.",
+    "related_forms": "intéresser",
+    "examples": [
+      "Elle porte un grand intérêt pour l'histoire ancienne.",
+      "Ce livre présente un réel intérêt pour les étudiants."
+    ],
+    "common_mistake": "❌ Un intérêt à l'histoire. ➜ ✅ Un intérêt pour l'histoire.",
+    "synonyms": [
+      "curiosité",
+      "attention"
+    ],
+    "antonyms": [
+      "indifférence",
+      "désintérêt"
+    ]
+  },
+  "respect": {
+    "word_type": "noun",
+    "prepositions": [
+      "pour",
+      "de",
+      "envers"
+    ],
+    "pattern": "respect pour / envers [personne] / respect de [règle]",
+    "level": "A2",
+    "definition": "Sentiment de considération et déférence envers une personne ou une loi.",
+    "grammar_rule": "Prend 'pour' ou 'envers' pour une personne, et 'de' pour une règle ou une loi.",
+    "related_forms": "respecter",
+    "examples": [
+      "Le respect envers les aînés est fondamental.",
+      "Le respect de la loi s'impose à tous."
+    ],
+    "common_mistake": "❌ Respect à la loi. ➜ ✅ Respect de la loi.",
+    "synonyms": [
+      "considération",
+      "déférence"
+    ],
+    "antonyms": [
+      "mépris",
+      "irrespect"
+    ]
+  },
+  "passion": {
+    "word_type": "noun",
+    "prepositions": [
+      "pour"
+    ],
+    "pattern": "passion pour [domaine / activité]",
+    "level": "B1",
+    "definition": "Amour ou enthousiasme très vif pour une activité.",
+    "grammar_rule": "S'utilise avec la préposition 'pour'.",
+    "related_forms": "passionné",
+    "examples": [
+      "Sa passion pour l'astronomie a débuté dans l'enfance.",
+      "Il vit sa passion pour le théâtre au quotidien."
+    ],
+    "common_mistake": "❌ Une passion à la danse. ➜ ✅ Une passion pour la danse.",
+    "synonyms": [
+      "enthousiasme",
+      "engouement"
+    ],
+    "antonyms": [
+      "indifférence",
+      "aversion"
+    ]
+  },
+  "fierté": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "fierté de [nom / verbe]",
+    "level": "B1",
+    "definition": "Sentiment de satisfaction légitime tiré d'un succès ou d'une qualité.",
+    "grammar_rule": "Exige la préposition 'de'.",
+    "related_forms": "fier",
+    "examples": [
+      "C'est une grande fierté de représenter mon pays.",
+      "Elle exprime la fierté de son équipe."
+    ],
+    "common_mistake": "❌ Fierté pour son travail. ➜ ✅ Fierté de son travail.",
+    "synonyms": [
+      "orgueil",
+      "satisfaction"
+    ],
+    "antonyms": [
+      "honte",
+      "humilité"
+    ]
+  },
+  "alliance": {
+    "word_type": "noun",
+    "prepositions": [
+      "avec",
+      "entre"
+    ],
+    "pattern": "alliance avec [partenaire] / entre [parties]",
+    "level": "B2",
+    "definition": "Union ou accord contracté entre personnes ou nations.",
+    "grammar_rule": "S'emploie avec 'avec' pour le partenaire et 'entre' pour le groupe d'alliés.",
+    "related_forms": "s'allier",
+    "examples": [
+      "Une alliance stratégique avec notre concurrent a été conclue.",
+      "L'alliance entre ces deux pays est ancienne."
+    ],
+    "common_mistake": "❌ Une alliance à cette entreprise. ➜ ✅ Une alliance avec cette entreprise.",
+    "synonyms": [
+      "union",
+      "coalition"
+    ],
+    "antonyms": [
+      "rupture",
+      "hostilité"
+    ]
+  },
+  "recherche": {
+    "word_type": "noun",
+    "prepositions": [
+      "de",
+      "sur"
+    ],
+    "pattern": "recherche de [objet perdu / vérité] / recherche sur [sujet scientifique]",
+    "level": "B2",
+    "definition": "Action de chercher à découvrir ou comprendre quelque chose.",
+    "grammar_rule": "Prend 'de' pour la quête d'un objet/but et 'sur' pour une étude scientifique.",
+    "related_forms": "chercher",
+    "examples": [
+      "Il est à la recherche de son premier emploi.",
+      "Le laboratoire mène des recherches sur les vaccins."
+    ],
+    "common_mistake": "❌ Recherche pour des vaccins (étude). ➜ ✅ Recherche sur les vaccins.",
+    "synonyms": [
+      "quête",
+      "étude"
+    ],
+    "antonyms": [
+      "abandon",
+      "ignorance"
+    ]
+  },
+  "soumission": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "soumission à [autorité / règle]",
+    "level": "C1",
+    "definition": "Fait de se soumettre à une volonté extérieure ou une obligation.",
+    "grammar_rule": "Exige la préposition 'à'.",
+    "related_forms": "se soumettre",
+    "examples": [
+      "La soumission à la décision du tribunal est obligatoire.",
+      "Son attitude témoignait d'une totale soumission à l'autorité."
+    ],
+    "common_mistake": "❌ Soumission de l'autorité. ➜ ✅ Soumission à l'autorité.",
+    "synonyms": [
+      "obéissance",
+      "docilité"
+    ],
+    "antonyms": [
+      "révolte",
+      "insubordination"
+    ]
+  },
+  "sensibilité": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "sensibilité à [douleur / art / problème]",
+    "level": "C1",
+    "definition": "Aptitude à ressentir vivement des impressions physiques ou morales.",
+    "grammar_rule": "S'emploie avec la préposition 'à'.",
+    "related_forms": "sensible",
+    "examples": [
+      "Sa sensibilité à la poésie est remarquable.",
+      "Une sensibilité accrue au froid."
+    ],
+    "common_mistake": "❌ Sensibilité pour la douleur. ➜ ✅ Sensibilité à la douleur.",
+    "synonyms": [
+      "réceptivité",
+      "émotivité"
+    ],
+    "antonyms": [
+      "insensibilité",
+      "indifférence"
+    ]
   }
 }
