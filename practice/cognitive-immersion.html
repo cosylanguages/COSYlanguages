@@ -645,7 +645,7 @@
 <nav id="cosy-nav" role="navigation"></nav>
 
 <header class="cognitive-hero">
-    <div class="cosy-breadcrumbs" style="justify-content: center; margin-bottom: 1.5rem;" role="navigation" aria-label="Breadcrumb">
+    <div class="cosy-breadcrumbs breadcrumbs-centered" role="navigation" aria-label="Breadcrumb">
         <a href="../index.html">Home</a>
         <span class="sep">/</span>
         <a href="index.html">Free Practice</a>
@@ -654,7 +654,7 @@
     </div>
     <div class="hero-badge">Neuro-Linguistics Hub</div>
     <h1>Cognitive & Immersion Accelerator 🧠</h1>
-    <p class="hero-sub" style="max-width:700px; margin: 0 auto; color: var(--ink-soft);">
+    <p class="hero-sub hero-sub-constrained">
         A scientifically structured exploration of monolingual language learning, spaced repetition curves, visual memory mapping, and cognitive brain-type adaptors. Learn directly without translation fallback.
     </p>
 </header>
@@ -670,8 +670,8 @@
 
         <div class="planner-grid">
             <div>
-                <h3 style="font-family: var(--font-serif); margin-bottom: 1rem; color: var(--sage-deep);">Digital Immersion Checklist</h3>
-                <p style="font-size: 0.9rem; color: var(--ink-soft); margin-bottom: 1.5rem;">
+                <h3 class="text-serif-deep">Digital Immersion Checklist</h3>
+                <p class="text-soft-spaced">
                     Check off each action below to see how immersive your environment is. Every unchecked box represents L1 translation leakage!
                 </p>
 
@@ -738,7 +738,7 @@
             How much time do you lose by translating? Run the simulation or test your direct-concept recognition reflexes dynamically below.
         </p>
 
-        <div class="brain-tabs-header" style="margin-bottom: 1.5rem;">
+        <div class="brain-tabs-header tabs-header-spaced">
             <button class="brain-tab-btn active-tab" id="sim-tab-simulator" onclick="switchSimulatorMode('simulator')">🤖 Concept Pathway Simulator</button>
             <button class="brain-tab-btn" id="sim-tab-speedtest" onclick="switchSimulatorMode('speedtest')">⚡ Direct Concept Speed Test</button>
         </div>
@@ -754,9 +754,9 @@
             <div class="sim-display">
                 <div id="sim-prompt-word" class="sim-word-bubble">Click a button to start</div>
 
-                <div class="sim-tracks" id="sim-tracks-box" style="display:none;">
+                <div class="sim-tracks sim-tracks-hidden" id="sim-tracks-box">
                     <div class="sim-track" id="track-translation">
-                        <div class="sim-track-title" style="color:var(--coral);">
+                        <div class="sim-track-title text-coral">
                             <span>Translation Route</span>
                             <span id="timer-trans">0.0s</span>
                         </div>
@@ -771,7 +771,7 @@
                     </div>
 
                     <div class="sim-track" id="track-monolingual">
-                        <div class="sim-track-title" style="color:var(--sage-dark);">
+                        <div class="sim-track-title text-sage-dark">
                             <span>Monolingual Route (Palteca)</span>
                             <span id="timer-mono">0.0s</span>
                         </div>
@@ -783,38 +783,38 @@
                     </div>
                 </div>
 
-                <div id="sim-summary" class="sim-timer" style="display:none; color: var(--sage-deep); margin-top:1.5rem;"></div>
+                <div id="sim-summary" class="sim-timer sim-summary-hidden"></div>
             </div>
         </div>
 
         <!-- Mode B: Direct Concept Speed Test Game -->
-        <div id="mode-speedtest-view" class="simulator-box" style="display: none;">
+        <div id="mode-speedtest-view" class="simulator-box sim-view-hidden">
             <div id="speedtest-intro">
-                <p style="font-size: 1.05rem; line-height: 1.6; margin-bottom: 1.5rem; color: var(--ink-soft);">
+                <p class="speedtest-text-soft">
                     Can you connect the foreign word directly to the physical concept (emoji) without reciting its English name? Test your sub-second neural reaction pathways below!
                 </p>
                 <button class="sim-btn" onclick="startSpeedTest()">Start Concept Speed Test 🚀</button>
             </div>
 
-            <div id="speedtest-gameplay" style="display: none; text-align: center;">
-                <div style="display: flex; justify-content: space-between; max-width: 400px; margin: 0 auto 1rem; font-size: 0.9rem; font-weight: bold; color: var(--sage-deep);">
+            <div id="speedtest-gameplay" class="speedtest-gameplay-box">
+                <div class="speedtest-header-bar">
                     <span id="speedtest-progress">Question 1/5</span>
-                    <span id="speedtest-timer" style="font-family: monospace;">Time: 0.00s</span>
+                    <span id="speedtest-timer" class="speedtest-timer-text">Time: 0.00s</span>
                 </div>
-                <div id="speedtest-word" class="sim-word-bubble" style="font-size: 3rem; margin-bottom: 2rem;">---</div>
+                <div id="speedtest-word" class="sim-word-bubble speedtest-bubble-spaced">---</div>
 
-                <div id="speedtest-options" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; max-width: 450px; margin: 0 auto 1.5rem;">
+                <div id="speedtest-options" class="speedtest-options-grid">
                     <!-- Dynamically generated choice buttons -->
                 </div>
             </div>
 
-            <div id="speedtest-results" style="display: none; max-width: 600px; margin: 0 auto; text-align: center; background: #fff; padding: 2rem; border-radius: 16px; border: 1px solid var(--border);">
-                <h3 style="font-family: var(--font-serif); color: var(--sage-deep); margin-bottom: 0.5rem;" id="speedtest-results-title">Test Complete!</h3>
-                <div style="font-size: 3rem; margin-bottom: 1rem;">🧠⚡</div>
-                <p id="speedtest-results-stats" style="font-size: 1.2rem; font-weight: bold; color: var(--coral); margin-bottom: 1rem;"></p>
-                <p id="speedtest-results-feedback" style="font-size: 0.95rem; line-height: 1.5; color: var(--ink-soft); margin-bottom: 1.5rem;"></p>
+            <div id="speedtest-results" class="speedtest-results-box">
+                <h3 class="speedtest-title-serif" id="speedtest-results-title">Test Complete!</h3>
+                <div class="speedtest-brain-icon">🧠⚡</div>
+                <p id="speedtest-results-stats" class="speedtest-stats-text"></p>
+                <p id="speedtest-results-feedback" class="speedtest-feedback-text"></p>
 
-                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <div class="flex-center-wrap">
                     <button class="sim-btn" onclick="startSpeedTest()">Retry Test 🔁</button>
                     <button class="sim-btn secondary" onclick="switchSimulatorMode('simulator')">Back to Simulator 🤖</button>
                 </div>
@@ -838,27 +838,27 @@
 
         <!-- Visual Brain -->
         <div class="brain-pane active-pane" id="pane-visual">
-            <h3 style="font-family: var(--font-serif); margin-bottom: 1rem; color: var(--sage-deep);">Visual-Association Mnemonic Cards</h3>
-            <p style="font-size: 0.9rem; color: var(--ink-soft); margin-bottom: 1.5rem;">
+            <h3 class="text-serif-deep">Visual-Association Mnemonic Cards</h3>
+            <p class="text-soft-spaced">
                 Visual brains need spatial and pictorial cues. Each card pairs a word with an instant visual scene instead of a dry L1 translation.
             </p>
             <div class="visual-cards-grid" id="static-visual-cards">
                 <div class="visual-assoc-card">
-                    <div class="vac-word">Mariposa 🦋 <span style="font-size:1rem; font-weight:normal; color:var(--ink-faint);">/maɾiˈposa/</span></div>
+                    <div class="vac-word">Mariposa 🦋 <span class="vac-faint-text">/maɾiˈposa/</span></div>
                     <div class="vac-translation">Butterfly (Spanish)</div>
                     <div class="vac-mnemonic">
                         <strong>Mental Image Association:</strong> Imagine a girl named <strong>Mary</strong> elegant-posing (<strong>mariposa</strong>) in a field while giant, colorful butterfly wings emerge from her back!
                     </div>
                 </div>
                 <div class="visual-assoc-card">
-                    <div class="vac-word">Chuchoter 🤫 <span style="font-size:1rem; font-weight:normal; color:var(--ink-faint);">/ʃy.ʃɔ.te/</span></div>
+                    <div class="vac-word">Chuchoter 🤫 <span class="vac-faint-text">/ʃy.ʃɔ.te/</span></div>
                     <div class="vac-translation">Whisper (French)</div>
                     <div class="vac-mnemonic">
                         <strong>Mental Image Association:</strong> Think of a train conductor pointing to a quiet sign and saying <strong>"Shh, show tay!"</strong> (<strong>chuchoter</strong>) to whisper-quiet passengers.
                     </div>
                 </div>
                 <div class="visual-assoc-card">
-                    <div class="vac-word">Sussurrare 🌬️ <span style="font-size:1rem; font-weight:normal; color:var(--ink-faint);">/sus.sur.ˈra.re/</span></div>
+                    <div class="vac-word">Sussurrare 🌬️ <span class="vac-faint-text">/sus.sur.ˈra.re/</span></div>
                     <div class="vac-translation">Whisper/Sough (Italian)</div>
                     <div class="vac-mnemonic">
                         <strong>Mental Image Association:</strong> Picture a gentle wind blowing through dry leaves, making a quiet <strong>"sussur...rare"</strong> sound in a quiet forest.
@@ -867,7 +867,7 @@
             </div>
 
             <!-- Dynamic Personal Mnemonic Notebook -->
-            <div style="margin-top: 3rem; background: var(--cream-dark); padding: 2rem; border-radius: 20px; border: 1px dashed var(--sage);">
+            <div class="mnemonic-notebook-box">
                 <h3 style="font-family: var(--font-serif); color: var(--sage-deep); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
                     📓 Personal Mnemonic Notebook
                 </h3>
@@ -875,20 +875,20 @@
                     The absolute best mnemonics are those formulated by your own brain! Build your personal, translation-free dictionary of visual mnemonics below.
                 </p>
 
-                <form id="mnemonic-form" onsubmit="addPersonalMnemonic(event)" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) auto; gap: 1rem; align-items: end; margin-bottom: 2rem;">
+                <form id="mnemonic-form" onsubmit="addPersonalMnemonic(event)" class="mnemonic-form-grid">
                     <div>
-                        <label for="m-word" style="display: block; font-size: 0.8rem; font-weight: bold; margin-bottom: 0.25rem; color: var(--sage-deep);">Word / Phrase</label>
-                        <input type="text" id="m-word" required placeholder="e.g. Papillon 🦋" style="width: 100%; padding: 0.6rem; border: 1px solid var(--border); border-radius: 8px;">
+                        <label for="m-word" class="form-field-label">Word / Phrase</label>
+                        <input type="text" id="m-word" required placeholder="e.g. Papillon 🦋" class="form-input-styled">
                     </div>
                     <div>
-                        <label for="m-meaning" style="display: block; font-size: 0.8rem; font-weight: bold; margin-bottom: 0.25rem; color: var(--sage-deep);">Direct Meaning</label>
-                        <input type="text" id="m-meaning" required placeholder="e.g. Butterfly (French)" style="width: 100%; padding: 0.6rem; border: 1px solid var(--border); border-radius: 8px;">
+                        <label for="m-meaning" class="form-field-label">Direct Meaning</label>
+                        <input type="text" id="m-meaning" required placeholder="e.g. Butterfly (French)" class="form-input-styled">
                     </div>
                     <div>
-                        <label for="m-association" style="display: block; font-size: 0.8rem; font-weight: bold; margin-bottom: 0.25rem; color: var(--sage-deep);">Visual Mental Association</label>
-                        <input type="text" id="m-association" required placeholder="e.g. Picture a papillon dog flying with butterfly wings!" style="width: 100%; padding: 0.6rem; border: 1px solid var(--border); border-radius: 8px;">
+                        <label for="m-association" class="form-field-label">Visual Mental Association</label>
+                        <input type="text" id="m-association" required placeholder="e.g. Picture a papillon dog flying with butterfly wings!" class="form-input-styled">
                     </div>
-                    <button type="submit" class="sim-btn" style="height: fit-content; padding: 0.65rem 1.5rem;">Add Card ➕</button>
+                    <button type="submit" class="sim-btn btn-submit-fit">Add Card ➕</button>
                 </form>
 
                 <div id="personal-mnemonics-list" class="visual-cards-grid">
