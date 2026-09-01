@@ -1,0 +1,47 @@
+{
+  "language": "en",
+  "course_type": "spoken",
+  "level": "A2",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Interactive Everyday Speech",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "spoken",
+          "title": "Making Plans & Comparing Options",
+          "grammar": [
+            "Going to vs Present Continuous",
+            "Comparatives (better, cheaper)"
+          ],
+          "vocabulary": [
+            "Schedule",
+            "Available",
+            "Prefer",
+            "Option",
+            "Suggest"
+          ],
+          "teacher_notes": "code: \"EN-SPK-A2-001\"\ncando: \"Can discuss plans, make arrangements, and compare alternatives in conversation.\""
+        },
+        {
+          "lesson": 2,
+          "type": "spoken",
+          "title": "Telling Short Personal Stories",
+          "grammar": [
+            "Past Simple",
+            "Time connectors (first, then, after that)"
+          ],
+          "vocabulary": [
+            "Yesterday",
+            "Last week",
+            "Suddenly",
+            "Happened",
+            "Memorable"
+          ],
+          "teacher_notes": "code: \"EN-SPK-A2-002\"\ncando: \"Can narrate a short personal story or past experience.\""
+        }
+      ]
+    }
+  ]
+}

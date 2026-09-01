@@ -1,0 +1,47 @@
+{
+  "language": "en",
+  "course_type": "exam",
+  "level": "C1",
+  "units": [
+    {
+      "unit": 1,
+      "title": "C1 Advanced Exam Strategy: CAE / IELTS 7.5+",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "exam",
+          "title": "C1 Use of English: Key Word Transformations",
+          "grammar": [
+            "Inversion",
+            "Cleft sentences",
+            "Advanced verb-noun collocations"
+          ],
+          "vocabulary": [
+            "No sooner",
+            "Little did they know",
+            "Account for",
+            "Bound to"
+          ],
+          "teacher_notes": "code: \"EN-EXM-C1-001\"\ncando: \"Can complete complex key word transformation and Use of English tasks.\""
+        },
+        {
+          "lesson": 2,
+          "type": "exam",
+          "title": "C1 Formal Proposal & Report Writing",
+          "grammar": [
+            "Formal passive constructions",
+            "Subjunctive and recommendation structures"
+          ],
+          "vocabulary": [
+            "Outline",
+            "Recommend",
+            "Implement",
+            "Feasibility",
+            "Conclusion"
+          ],
+          "teacher_notes": "code: \"EN-EXM-C1-002\"\ncando: \"Can draft executive reports and proposals adhering to academic exam standards.\""
+        }
+      ]
+    }
+  ]
+}

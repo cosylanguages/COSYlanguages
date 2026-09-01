@@ -1,0 +1,30 @@
+{
+  "language": "en",
+  "course_type": "exam",
+  "level": "C2",
+  "units": [
+    {
+      "unit": 1,
+      "title": "C2 Proficiency Exam Mastery: CPE / IELTS 8.5-9.0",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "exam",
+          "title": "C2 Textual Synthesis & Critical Analysis",
+          "grammar": [
+            "Subtle stylistic inversions",
+            "Dense nominalization"
+          ],
+          "vocabulary": [
+            "Paraphrase",
+            "Synthesize",
+            "Discrepancy",
+            "Juxtaposition",
+            "Critique"
+          ],
+          "teacher_notes": "code: \"EN-EXM-C2-001\"\ncando: \"Can synthesize information from two contrasting texts and write polished critical essays.\""
+        }
+      ]
+    }
+  ]
+}

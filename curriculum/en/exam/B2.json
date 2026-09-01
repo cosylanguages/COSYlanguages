@@ -1,0 +1,47 @@
+{
+  "language": "en",
+  "course_type": "exam",
+  "level": "B2",
+  "units": [
+    {
+      "unit": 1,
+      "title": "B2 Exam Mastery: Cambridge FCE / IELTS 6.5 Strategy",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "exam",
+          "title": "Comparing & Speculating on Exam Visuals",
+          "grammar": [
+            "Modals of deduction (must be, might be, can't be)",
+            "Comparative structures"
+          ],
+          "vocabulary": [
+            "Whereas",
+            "In contrast",
+            "Likely",
+            "Deduce",
+            "Speculate"
+          ],
+          "teacher_notes": "code: \"EN-EXM-B2-001\"\ncando: \"Can compare candidate photos and speculate on underlying contexts under exam conditions.\""
+        },
+        {
+          "lesson": 2,
+          "type": "exam",
+          "title": "B2 Essay Writing: Argumentative & Discursive",
+          "grammar": [
+            "Passive reporting verbs",
+            "Complex linking phrases"
+          ],
+          "vocabulary": [
+            "Furthermore",
+            "On the one hand",
+            "Consequently",
+            "Significant",
+            "Evidence"
+          ],
+          "teacher_notes": "code: \"EN-EXM-B2-002\"\ncando: \"Can produce structured 140-190 word argumentative essays with clear paragraphs.\""
+        }
+      ]
+    }
+  ]
+}

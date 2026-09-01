@@ -1,0 +1,46 @@
+{
+  "language": "en",
+  "course_type": "spoken",
+  "level": "B2",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Extended Monologues & Nuanced Spoken Communication",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "spoken",
+          "title": "Building & Defending Arguments",
+          "grammar": [
+            "Discourse markers for contrast and addition",
+            "Third conditional & wish for hypothetical past"
+          ],
+          "vocabulary": [
+            "Substantiate",
+            "Assertion",
+            "Premise",
+            "Counter-argument",
+            "Crucial"
+          ],
+          "teacher_notes": "code: \"EN-SPK-B2-001\"\ncando: \"Can construct logical monologues and defend complex positions in active debates.\""
+        },
+        {
+          "lesson": 2,
+          "type": "spoken",
+          "title": "Diplomatic Hedging & Floor Management",
+          "grammar": [
+            "Passive reporting structures",
+            "Advanced modal expressions"
+          ],
+          "vocabulary": [
+            "Admittedly",
+            "To a certain extent",
+            "Steer the conversation",
+            "Summarize"
+          ],
+          "teacher_notes": "code: \"EN-SPK-B2-002\"\ncando: \"Can manage conversation flow, hedge statements, and mediate discussions.\""
+        }
+      ]
+    }
+  ]
+}

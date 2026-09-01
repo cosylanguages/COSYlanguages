@@ -1,0 +1,132 @@
+#!/usr/bin/env python3
+"""
+wire_english_track_htmls.py
+
+Wires all 21 non-general English course HTML pages under apps/premium-courses/<track>/en/<level>.html
+to dynamically fetch and render curriculum data from curriculum/en/<track>/<level>.json.
+"""
+
+import os
+import glob
+
+TRACK_TITLES = {
+    'spoken': 'Spoken Course',
+    'exam': 'Exam Preparation',
+    'travelling': 'Travelling Course',
+    'professional': 'Professional Course',
+    'relocation': 'Relocation Course'
+}
+
+def wire_html_files():
+    html_files = sorted(glob.glob('apps/premium-courses/*/en/*.html'))
+    wired_count = 0
+
+    for filepath in html_files:
+        if 'general' in filepath or filepath.endswith('index.html'):
+            continue
+
+        parts = filepath.split('/')
+        track = parts[2]
+        level = parts[4].replace('.html', '')
+        track_title = TRACK_TITLES.get(track, track.capitalize())
+
+        content = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{level} {track_title} — COSYlanguages</title>
+    <link rel="stylesheet" href="../../../../css/tokens.css">
+    <link rel="stylesheet" href="../../../../css/base.css">
+    <link rel="stylesheet" href="../../../../css/components.css">
+    <link rel="stylesheet" href="../../../../css/layout.css">
+    <link rel="stylesheet" href="../../../../css/home.css">
+    <link rel="icon" href="../../../../images/cosylanguages.png">
+    <style>
+        .curriculum-container {{ max-width: 800px; margin: 0 auto; padding: 2rem; }}
+        .unit-block {{ background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem; }}
+        .unit-title {{ font-size: 1.5rem; margin-bottom: 1rem; color: var(--accent); }}
+        .lesson-card {{ background: rgba(255,255,255,0.03); border: 1px solid var(--border); border-radius: 8px; padding: 1rem; margin-bottom: 1rem; transition: transform 0.2s; }}
+        .lesson-card:hover {{ transform: translateY(-2px); border-color: var(--accent); }}
+        .lc-title {{ font-weight: 800; font-size: 1.1rem; margin-bottom: 0.5rem; }}
+        .lc-meta {{ font-size: 0.9em; color: var(--muted); margin-bottom: 0.5rem; }}
+        .lc-content {{ font-size: 0.95em; line-height: 1.4; }}
+    </style>
+</head>
+<body>
+
+<nav id="cosy-nav"></nav>
+
+<main class="page">
+    <section>
+        <div class="curriculum-container">
+            <h1 class="sec-h2">{level} - {track_title} (English)</h1>
+            <div id="curriculum-data">Loading curriculum...</div>
+
+            <div style="margin-top: 2rem; text-align: center;">
+                <a href="index.html" class="btn-secondary">← Back to English</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script src="../../../../js/core/engine.js"></script>
+<script src="../../../../js/data/languages.js"></script>
+<script src="../../../../js/core/i18n.js"></script>
+<script src="../../../../js/core/ui.js"></script>
+<script>
+const lang = 'en';
+const type = '{track}';
+const level = '{level}';
+
+async function loadCurriculum() {{
+    try {{
+        const response = await fetch(`${{(window.COSY && typeof window.COSY.getPrefix === "function") ? window.COSY.getPrefix() : "/"}}curriculum/${{lang}}/${{type}}/${{level}}.json`);
+        const data = await response.json();
+        render(data);
+    }} catch (e) {{
+        document.getElementById('curriculum-data').innerHTML = 'Error loading curriculum data.';
+    }}
+}}
+
+function render(data) {{
+    const container = document.getElementById('curriculum-data');
+    if (!data.units || data.units.length === 0) {{
+        container.innerHTML = '<p>No units found for this level.</p>';
+        return;
+    }}
+    let html = '';
+    data.units.forEach(unit => {{
+        const cleanUnitTitle = (unit.title || '').replace(/^Unit\\s+\\d+:\\s*/i, '');
+        html += `<div class="unit-block">
+            <h2 class="unit-title">Unit ${{unit.unit}}: ${{cleanUnitTitle}}</h2>`;
+        unit.lessons.forEach(lesson => {{
+            const grammarStr = Array.isArray(lesson.grammar) ? lesson.grammar.join(', ') : (lesson.grammar || '');
+            const vocabStr = Array.isArray(lesson.vocabulary) ? lesson.vocabulary.join(', ') : (lesson.vocabulary || '');
+            const teacherNotes = lesson.teacher_notes ? lesson.teacher_notes.replace(/\\n/g, '<br>') : '';
+            html += `<div class="lesson-card">
+                <div class="lc-title">Lesson ${{lesson.lesson}}: ${{lesson.title}}</div>
+                ${{grammarStr ? `<div class="lc-meta"><strong>Grammar:</strong> ${{grammarStr}}</div>` : ''}}
+                ${{vocabStr ? `<div class="lc-meta"><strong>Vocabulary:</strong> ${{vocabStr}}</div>` : ''}}
+                ${{teacherNotes ? `<div class="lc-content">${{teacherNotes}}</div>` : ''}}
+            </div>`;
+        }});
+        html += '</div>';
+    }});
+    container.innerHTML = html;
+}}
+loadCurriculum();
+</script>
+
+</body>
+</html>
+"""
+        with open(filepath, 'w', encoding='utf-8') as f:
+            f.write(content)
+        wired_count += 1
+        print(f"Wired HTML: {filepath}")
+
+    print(f"Total HTML files wired: {wired_count}")
+
+if __name__ == "__main__":
+    wire_html_files()

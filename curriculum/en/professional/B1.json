@@ -1,0 +1,48 @@
+{
+  "language": "en",
+  "course_type": "professional",
+  "level": "B1",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Workplace Communication & Professional Basics",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Professional Email Writing & Register",
+          "grammar": [
+            "Formal request phrasing",
+            "Future arrangements with Present Continuous"
+          ],
+          "vocabulary": [
+            "Regarding",
+            "Attached",
+            "Confirm",
+            "Schedule",
+            "Sincerely",
+            "Regards"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B1-001\"\ncando: \"Can write clear formal emails for routine workplace requests and scheduling.\""
+        },
+        {
+          "lesson": 2,
+          "type": "spoken",
+          "title": "Participating in Team Meetings & Project Updates",
+          "grammar": [
+            "Present Perfect for recent updates",
+            "Modal verbs for suggestions"
+          ],
+          "vocabulary": [
+            "Agenda",
+            "Milestone",
+            "Deadline",
+            "Action point",
+            "Status update"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B1-002\"\ncando: \"Can report project status and contribute to team meeting agendas.\""
+        }
+      ]
+    }
+  ]
+}

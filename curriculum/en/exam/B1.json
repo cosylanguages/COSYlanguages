@@ -1,0 +1,47 @@
+{
+  "language": "en",
+  "course_type": "exam",
+  "level": "B1",
+  "units": [
+    {
+      "unit": 1,
+      "title": "B1 Exam Foundations: Listening & Reading Tasks",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "exam",
+          "title": "B1 Photo Description & Long Turn Task",
+          "grammar": [
+            "Present continuous for actions in pictures",
+            "Prepositions of position (in the foreground, on the left)"
+          ],
+          "vocabulary": [
+            "Foreground",
+            "Background",
+            "Appears to be",
+            "Look like",
+            "Describe"
+          ],
+          "teacher_notes": "code: \"EN-EXM-B1-001\"\ncando: \"Can describe pictures and complete 1-minute long turns for B1 oral exams.\""
+        },
+        {
+          "lesson": 2,
+          "type": "exam",
+          "title": "B1 Email & Essay Writing Structure",
+          "grammar": [
+            "Connectors of addition and contrast",
+            "Formal vs informal greetings and closings"
+          ],
+          "vocabulary": [
+            "Dear",
+            "Sincerely",
+            "In addition",
+            "However",
+            "To conclude"
+          ],
+          "teacher_notes": "code: \"EN-EXM-B1-002\"\ncando: \"Can structure short emails and essays following B1 exam criteria.\""
+        }
+      ]
+    }
+  ]
+}
