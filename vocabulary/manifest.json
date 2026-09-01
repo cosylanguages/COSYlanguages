@@ -46,15 +46,21 @@
     ],
     "B2": [
       "adjectives.js",
+      "debates.js",
       "fluency.js",
       "opinions.js",
+      "people.js",
+      "quotes.js",
       "verbs.js",
       "vocabulary.js"
     ],
     "C1": [
       "adjectives.js",
+      "debates.js",
       "fluency.js",
       "opinions.js",
+      "people.js",
+      "quotes.js",
       "verbs.js",
       "vocabulary.js"
     ],
@@ -113,15 +119,21 @@
     ],
     "B2": [
       "adjectives.js",
+      "debates.js",
       "fluency.js",
       "opinions.js",
+      "people.js",
+      "quotes.js",
       "verbs.js",
       "vocabulary.js"
     ],
     "C1": [
       "adjectives.js",
+      "debates.js",
       "fluency.js",
       "opinions.js",
+      "people.js",
+      "quotes.js",
       "verbs.js",
       "vocabulary.js"
     ],
@@ -256,7 +268,6 @@
       "people.js",
       "quotes.js",
       "speaking.js",
-      "travel.js",
       "verbs.js",
       "vocabulary.js"
     ],
@@ -614,15 +625,21 @@
     ],
     "B2": [
       "adjectives.js",
+      "debates.js",
       "fluency.js",
       "opinions.js",
+      "people.js",
+      "quotes.js",
       "verbs.js",
       "vocabulary.js"
     ],
     "C1": [
       "adjectives.js",
+      "debates.js",
       "fluency.js",
       "opinions.js",
+      "people.js",
+      "quotes.js",
       "verbs.js",
       "vocabulary.js"
     ],
@@ -773,15 +790,21 @@
     ],
     "B2": [
       "adjectives.js",
+      "debates.js",
       "fluency.js",
       "opinions.js",
+      "people.js",
+      "quotes.js",
       "verbs.js",
       "vocabulary.js"
     ],
     "C1": [
       "adjectives.js",
+      "debates.js",
       "fluency.js",
       "opinions.js",
+      "people.js",
+      "quotes.js",
       "verbs.js",
       "vocabulary.js"
     ],
@@ -980,15 +1003,21 @@
     ],
     "B2": [
       "adjectives.js",
+      "debates.js",
       "fluency.js",
       "opinions.js",
+      "people.js",
+      "quotes.js",
       "verbs.js",
       "vocabulary.js"
     ],
     "C1": [
       "adjectives.js",
+      "debates.js",
       "fluency.js",
       "opinions.js",
+      "people.js",
+      "quotes.js",
       "verbs.js",
       "vocabulary.js"
     ],
