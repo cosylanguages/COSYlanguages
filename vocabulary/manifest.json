@@ -355,6 +355,8 @@
       "adjectives.js",
       "debates.js",
       "fluency.js",
+      "grammar.js",
+      "grammar_elements.js",
       "locations.js",
       "nationalities.js",
       "opinions.js",
