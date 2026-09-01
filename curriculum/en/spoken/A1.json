@@ -22,8 +22,7 @@
             "My name is",
             "Welcome"
           ],
-          "teacher_notes": "code: \"EN-SPK-A1-001\"\ncando: \"Can greet people, introduce oneself, and ask basic questions in spoken English.\"",
-          "recycled": "Foundational communication & basic level vocabulary"
+          "teacher_notes": "code: \"EN-SPK-A1-001\"\ncando: \"Can greet people, introduce oneself, and ask basic questions in spoken English.\""
         },
         {
           "lesson": 2,
@@ -39,8 +38,7 @@
             "Slowly",
             "Understand"
           ],
-          "teacher_notes": "code: \"EN-SPK-A1-002\"\ncando: \"Can ask simple questions and request clarification when speaking.\"",
-          "recycled": "Verb 'to be' (present simple), Possessive adjectives (my, your), Nice to meet you"
+          "teacher_notes": "code: \"EN-SPK-A1-002\"\ncando: \"Can ask simple questions and request clarification when speaking.\""
         }
       ]
     },
@@ -64,8 +62,7 @@
             "Order",
             "Receipt"
           ],
-          "teacher_notes": "code: \"EN-SPK-A1-003\"\ncando: \"Can order food, drinks, and buy basic goods in shop transactions.\"",
-          "recycled": "Question words (What, Where, How), Can for requests, Could you repeat that?"
+          "teacher_notes": "code: \"EN-SPK-A1-003\"\ncando: \"Can order food, drinks, and buy basic goods in shop transactions.\""
         },
         {
           "lesson": 2,
@@ -83,8 +80,7 @@
             "Straight ahead",
             "Near"
           ],
-          "teacher_notes": "code: \"EN-SPK-A1-004\"\ncando: \"Can ask for and give basic street directions.\"",
-          "recycled": "I would like..., How much is...?, Buy"
+          "teacher_notes": "code: \"EN-SPK-A1-004\"\ncando: \"Can ask for and give basic street directions.\""
         }
       ]
     }

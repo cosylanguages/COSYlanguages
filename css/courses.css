@@ -216,3 +216,20 @@ body.theme-course-relocation {
     font-size: 1rem;
     font-weight: 700;
 }
+
+/* Course Placeholder Clean Classes */
+.coming-soon-badge-sm {
+    font-size: 0.8em;
+    opacity: 0.7;
+}
+.course-hub-back-row {
+    margin-top: 2rem;
+    text-align: center;
+}
+.placeholder-section-centered {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+.placeholder-cta-wrap {
+    margin-top: 2rem;
+}

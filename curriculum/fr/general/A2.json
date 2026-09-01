@@ -10,36 +10,16 @@
         {
           "lesson": 1,
           "title": "Passé composé avec avoir et être",
-          "grammar": [
-            "Accord du participe passé avec être",
-            "Verbes auxiliaires au présent"
-          ],
-          "vocabulary": [
-            "Hier",
-            "Autrefois",
-            "L'année dernière",
-            "Souvenir",
-            "Voyage"
-          ],
-          "teacher_notes": "code: \"FR-A2-001\"\npronunciation: [{\"point\":\"Les sons [e] et [ɛ]\",\"explain\":\"Distinguer les participes passés en -é et les formes de l'imparfait en -ais.\",\"examples\":[{\"pattern\":\"mangé / mangeais\",\"ipa\":\"/mɑ̃.ʒe/ / /mɑ̃.ʒɛ/\",\"word\":\"mangé\"}],\"visual\":\"🗣️\"}]\ncando: \"Peut raconter un événement passé simple\"",
-          "recycled": "Foundational communication & basic level vocabulary"
+          "grammar": ["Accord du participe passé avec être", "Verbes auxiliaires au présent"],
+          "vocabulary": ["Hier", "Autrefois", "L'année dernière", "Souvenir", "Voyage"],
+          "teacher_notes": "code: \"FR-A2-001\"\npronunciation: [{\"point\":\"Les sons [e] et [ɛ]\",\"explain\":\"Distinguer les participes passés en -é et les formes de l'imparfait en -ais.\",\"examples\":[{\"pattern\":\"mangé / mangeais\",\"ipa\":\"/mɑ̃.ʒe/ / /mɑ̃.ʒɛ/\",\"word\":\"mangé\"}],\"visual\":\"🗣️\"}]\ncando: \"Peut raconter un événement passé simple\""
         },
         {
           "lesson": 2,
           "title": "L'imparfait de l'indicatif",
-          "grammar": [
-            "Formation de l'imparfait",
-            "Utilisation pour les descriptions et habitudes"
-          ],
-          "vocabulary": [
-            "Quand j'étais jeune",
-            "Chaque été",
-            "Habitude",
-            "Paysage",
-            "Atmosphère"
-          ],
-          "teacher_notes": "code: \"FR-A2-002\"\ncando: \"Peut décrire une habitude passée\"",
-          "recycled": "Accord du participe passé avec être, Verbes auxiliaires au présent, L'année dernière"
+          "grammar": ["Formation de l'imparfait", "Utilisation pour les descriptions et habitudes"],
+          "vocabulary": ["Quand j'étais jeune", "Chaque été", "Habitude", "Paysage", "Atmosphère"],
+          "teacher_notes": "code: \"FR-A2-002\"\ncando: \"Peut décrire une habitude passée\""
         }
       ]
     },
@@ -50,19 +30,9 @@
         {
           "lesson": 3,
           "title": "Le futur simple",
-          "grammar": [
-            "Terminaisons du futur simple",
-            "Verbes irréguliers au futur"
-          ],
-          "vocabulary": [
-            "Demain",
-            "Plus tard",
-            "Projet",
-            "Ambition",
-            "Carrière"
-          ],
-          "teacher_notes": "code: \"FR-A2-003\"\ncando: \"Peut parler de ses projets futurs\"",
-          "recycled": "Formation de l'imparfait, Utilisation pour les descriptions et habitudes, Habitude"
+          "grammar": ["Terminaisons du futur simple", "Verbes irréguliers au futur"],
+          "vocabulary": ["Demain", "Plus tard", "Projet", "Ambition", "Carrière"],
+          "teacher_notes": "code: \"FR-A2-003\"\ncando: \"Peut parler de ses projets futurs\""
         }
       ]
     }

@@ -2710,7 +2710,7 @@
     "antonyms": [
       "rester"
     ],
-    "auxiliary": "both",
+    "auxiliary": "avoir / être",
     "tenses": {
       "indicatif_present": [
         "je passe",
@@ -2851,17 +2851,7 @@
       ]
     },
     "usage_hint": "passer par / devant / chez / passer + COD (temps)",
-    "irregular": false,
-    "dual_auxiliary_rules": {
-      "avoir": {
-        "condition": "Transitif (+ COD)",
-        "example": "J'ai passé un examen."
-      },
-      "être": {
-        "condition": "Intransitif (déplacement / lieu)",
-        "example": "Je suis passé chez toi."
-      }
-    }
+    "irregular": false
   },
   "gagner": {
     "group": "1er groupe",
@@ -3470,7 +3460,7 @@
     "antonyms": [
       "descendre"
     ],
-    "auxiliary": "both",
+    "auxiliary": "être",
     "tenses": {
       "indicatif_present": [
         "je monte",
@@ -3611,17 +3601,7 @@
       ]
     },
     "usage_hint": "monter dans (train) / sur (montagne) / à",
-    "irregular": false,
-    "dual_auxiliary_rules": {
-      "avoir": {
-        "condition": "Transitif (+ COD, porter vers le haut)",
-        "example": "J'ai monté les valises."
-      },
-      "être": {
-        "condition": "Intransitif (se déplacer vers le haut)",
-        "example": "Je suis monté au 2e étage."
-      }
-    }
+    "irregular": false
   },
   "tomber": {
     "group": "1er groupe",
@@ -24345,7 +24325,7 @@
     "antonyms": [
       "partir"
     ],
-    "auxiliary": "both",
+    "auxiliary": "être",
     "tenses": {
       "indicatif_present": [
         "je retourne",
@@ -24486,17 +24466,7 @@
       ]
     },
     "usage_hint": "retourner à / en / chez",
-    "irregular": false,
-    "dual_auxiliary_rules": {
-      "avoir": {
-        "condition": "Transitif (+ COD, tourner à l'envers)",
-        "example": "J'ai retourné la crêpe."
-      },
-      "être": {
-        "condition": "Intransitif (revenir)",
-        "example": "Je suis retourné au bureau."
-      }
-    }
+    "irregular": false
   },
   "rêver": {
     "group": "1er groupe",
@@ -27951,7 +27921,7 @@
   },
   "descendre": {
     "group": "3e groupe",
-    "auxiliary": "both",
+    "auxiliary": "être",
     "level": "A1",
     "definition": "Aller de haut en bas.",
     "antonyms": [
@@ -28097,17 +28067,7 @@
       ]
     },
     "usage_hint": "descendre de (véhicule) / dans (rue)",
-    "irregular": true,
-    "dual_auxiliary_rules": {
-      "avoir": {
-        "condition": "Transitif (+ COD, porter vers le bas)",
-        "example": "J'ai descendu la poubelle."
-      },
-      "être": {
-        "condition": "Intransitif (se déplacer vers le bas)",
-        "example": "Je suis descendu dans la rue."
-      }
-    }
+    "irregular": true
   },
   "devoir": {
     "group": "3e groupe",
@@ -30305,7 +30265,7 @@
   },
   "sortir": {
     "group": "3e groupe",
-    "auxiliary": "both",
+    "auxiliary": "être",
     "level": "A1",
     "definition": "Aller à l'extérieur.",
     "antonyms": [
@@ -30451,17 +30411,7 @@
       ]
     },
     "usage_hint": "sortir de (lieu) / avec (qqn) / + COD (sortir le chien)",
-    "irregular": true,
-    "dual_auxiliary_rules": {
-      "avoir": {
-        "condition": "Transitif (+ COD, sortir quelque chose)",
-        "example": "J'ai sorti le chien."
-      },
-      "être": {
-        "condition": "Intransitif (aller dehors)",
-        "example": "Je suis sorti avec des amis."
-      }
-    }
+    "irregular": true
   },
   "suivre": {
     "group": "3e groupe",

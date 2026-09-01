@@ -3,41 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C1 Curriculum — Professional Course — COSYlanguages</title>
+    <title>C1 Professional Course — COSYlanguages</title>
     <link rel="stylesheet" href="../../../../css/tokens.css">
     <link rel="stylesheet" href="../../../../css/base.css">
     <link rel="stylesheet" href="../../../../css/components.css">
     <link rel="stylesheet" href="../../../../css/layout.css">
     <link rel="stylesheet" href="../../../../css/home.css">
-    <link rel="stylesheet" href="../../../../apps/premium-courses/css/courses.css">
     <link rel="icon" href="../../../../images/cosylanguages.png">
 </head>
 <body>
+<!-- COSY_PLACEHOLDER: courses/professional/el/C1 — content not yet added -->
 
 <nav id="cosy-nav"></nav>
 
 <main class="page">
-    <section>
-        <div class="curriculum-container">
-            <div style="margin-bottom: 1rem;">
-                <span class="spoken-focus-tag">70%+ Spoken Focus</span>
-                <span style="font-size: 0.85rem; color: var(--muted); margin-left: 0.5rem; text-transform: uppercase; font-weight: 700; letter-spacing: 0.05em;">professional Track • Level C1</span>
-            </div>
-
-            <h1 class="sec-h2" style="margin-bottom: 0.5rem;">C1 — Professional Course (EL)</h1>
-
-            <div style="background: rgba(255,255,255,0.02); border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem; margin-bottom: 2rem;">
-                <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--accent);">Spoken Journey Goal</h3>
-                <p style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.5; margin: 0;">
-                    Build foundational vocabulary, natural pronunciation patterns, and immediate conversational confidence through interconnected, speaking-first real-world scenarios.
-                </p>
-            </div>
-
-            <div id="curriculum-data">Loading curriculum...</div>
-
-            <div style="margin-top: 2rem; text-align: center;">
-                <a href="index.html" class="btn-secondary">← Back to EL Professional</a>
-            </div>
+    <section style="text-align: center; padding: 4rem 2rem;">
+        <h1 class="sec-h2">🔜 Το περιεχόμενο θα είναι σύντομα διαθέσιμο</h1>
+        <p class="sec-p">C1 Professional Course</p>
+        <div style="margin-top: 2rem;">
+            <a href="index.html" class="btn-secondary">← Πίσω στα Ελληνικά</a>
         </div>
     </section>
 </main>
@@ -46,61 +30,5 @@
 <script src="../../../../js/data/languages.js"></script>
 <script src="../../../../js/core/i18n.js"></script>
 <script src="../../../../js/core/ui.js"></script>
-<script>
-const lang = 'el';
-const type = 'professional';
-const level = 'C1';
-
-async function loadCurriculum() {
-    try {
-        const rootPath = (window.COSY && typeof window.COSY.getPrefix === "function") ? window.COSY.getPrefix() : "../../../../";
-        const response = await fetch(`${rootPath}curriculum/${lang}/${type}/${level}.json`);
-        if (!response.ok) throw new Error("File not found");
-        const data = await response.json();
-        render(data);
-    } catch (e) {
-        document.getElementById('curriculum-data').innerHTML = '<div style="padding:2rem; text-align:center; color:var(--muted);">Curriculum dataset for this track and level is currently being prepared. Check back soon!</div>';
-    }
-}
-
-function render(data) {
-    const container = document.getElementById('curriculum-data');
-    if (!data.units || data.units.length === 0) {
-        container.innerHTML = '<p>No units found for this level.</p>';
-        return;
-    }
-    let html = '';
-    data.units.forEach(unit => {
-        const cleanUnitTitle = (unit.title || '').replace(/^Unit\s+\d+:\s*/i, '');
-        html += `<div class="unit-block">
-            <h2 class="unit-title">Unit ${unit.unit}: ${cleanUnitTitle}</h2>`;
-        unit.lessons.forEach(lesson => {
-            const grammarStr = Array.isArray(lesson.grammar) ? lesson.grammar.join(', ') : (lesson.grammar || '');
-            const vocabStr = Array.isArray(lesson.vocabulary) ? lesson.vocabulary.join(', ') : (lesson.vocabulary || '');
-            const recycledStr = lesson.recycled || '';
-
-            let notes = lesson.teacher_notes || '';
-            notes = notes.replace(/code:\s*"[^"]*"\s*/gi, '')
-                         .replace(/cando:\s*"[^"]*"\s*/gi, '')
-                         .replace(/hw:\s*"[^"]*"\s*/gi, '')
-                         .replace(/
-+/g, '<br>')
-                         .trim();
-
-            html += `<div class="lesson-card">
-                <div class="lc-title">Day ${lesson.lesson}: ${lesson.title}</div>
-                ${grammarStr ? `<div class="lc-meta"><strong>Grammar:</strong> ${grammarStr}</div>` : ''}
-                ${vocabStr ? `<div class="lc-meta"><strong>Vocabulary:</strong> ${vocabStr}</div>` : ''}
-                ${recycledStr ? `<div class="recycled-callout"><strong>🔄 Applied Prior Knowledge:</strong> ${recycledStr}</div>` : ''}
-                ${notes ? `<div class="lc-content" style="margin-top:0.5rem; font-size:0.9em; color:var(--muted);">${notes}</div>` : ''}
-            </div>`;
-        });
-        html += '</div>';
-    });
-    container.innerHTML = html;
-}
-loadCurriculum();
-</script>
-
 </body>
 </html>

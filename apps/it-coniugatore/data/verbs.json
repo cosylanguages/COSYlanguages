@@ -2823,18 +2823,8 @@
       ]
     },
     "usage_hint": "passare per / da / + oggetto diretto (tempo)",
-    "auxiliary": "both",
-    "irregular": false,
-    "dual_auxiliary_rules": {
-      "avere": {
-        "condition": "Transitivo (+ Oggetto Diretto)",
-        "example": "Ho passato un bel fine settimana."
-      },
-      "essere": {
-        "condition": "Intransitivo (movimento / tempo)",
-        "example": "Sono passato in farmacia."
-      }
-    }
+    "auxiliary": "avere",
+    "irregular": false
   },
   "guadagnare": {
     "group": "1a coniugazione",
@@ -4874,18 +4864,8 @@
       ]
     },
     "usage_hint": "cominciare a (fare qualcosa) / con",
-    "auxiliary": "both",
-    "irregular": true,
-    "dual_auxiliary_rules": {
-      "avere": {
-        "condition": "Transitivo (+ Oggetto Diretto)",
-        "example": "Ho cominciato un nuovo libro."
-      },
-      "essere": {
-        "condition": "Intransitivo (inizio di evento)",
-        "example": "La lezione è cominciata."
-      }
-    }
+    "auxiliary": "avere",
+    "irregular": true
   },
   "imparare": {
     "group": "1a coniugazione",
@@ -5670,18 +5650,8 @@
       ]
     },
     "usage_hint": "cambiare + oggetto diretto / di (idea)",
-    "auxiliary": "both",
-    "irregular": false,
-    "dual_auxiliary_rules": {
-      "avere": {
-        "condition": "Transitivo (+ Oggetto Diretto)",
-        "example": "Ho cambiato casa."
-      },
-      "essere": {
-        "condition": "Intransitivo (trasformazione)",
-        "example": "Il tempo è cambiato."
-      }
-    }
+    "auxiliary": "avere",
+    "irregular": false
   },
   "incontrare": {
     "group": "1a coniugazione",
@@ -8664,18 +8634,8 @@
       ]
     },
     "usage_hint": "finire di (fare qualcosa) / per",
-    "auxiliary": "both",
-    "irregular": false,
-    "dual_auxiliary_rules": {
-      "avere": {
-        "condition": "Transitivo (+ Oggetto Diretto)",
-        "example": "Ho finito i compiti."
-      },
-      "essere": {
-        "condition": "Intransitivo (conclusione di evento)",
-        "example": "Il film è finito tardi."
-      }
-    }
+    "auxiliary": "avere",
+    "irregular": false
   },
   "offrire": {
     "group": "3a coniugazione",
@@ -9146,18 +9106,8 @@
       ]
     },
     "usage_hint": "intransitivo: salire su (treno) / in (auto)",
-    "auxiliary": "both",
-    "irregular": false,
-    "dual_auxiliary_rules": {
-      "avere": {
-        "condition": "Transitivo (+ Oggetto Diretto)",
-        "example": "Ho salito le scale di corsa."
-      },
-      "essere": {
-        "condition": "Intransitivo (movimento verso l'alto)",
-        "example": "Sono salito sul treno."
-      }
-    }
+    "auxiliary": "avere",
+    "irregular": false
   },
   "essere": {
     "group": "2a coniugazione",
@@ -12930,18 +12880,8 @@
       ]
     },
     "usage_hint": "intransitivo: scendere da (treno) / in (strada)",
-    "auxiliary": "both",
-    "irregular": false,
-    "dual_auxiliary_rules": {
-      "avere": {
-        "condition": "Transitivo (+ Oggetto Diretto)",
-        "example": "Ho sceso le valigie."
-      },
-      "essere": {
-        "condition": "Intransitivo (movimento verso il basso)",
-        "example": "Sono sceso alla fermata."
-      }
-    }
+    "auxiliary": "essere",
+    "irregular": false
   },
   "correre": {
     "group": "2a coniugazione",
@@ -13097,18 +13037,8 @@
       ]
     },
     "usage_hint": "correre verso / in / dietro a",
-    "auxiliary": "both",
-    "irregular": false,
-    "dual_auxiliary_rules": {
-      "avere": {
-        "condition": "Attività di corsa in sé (durata / esercizio)",
-        "example": "Ho corso per due ore."
-      },
-      "essere": {
-        "condition": "Corsa verso una meta (direzione)",
-        "example": "Sono corso a casa subito."
-      }
-    }
+    "auxiliary": "avere",
+    "irregular": false
   },
   "morire": {
     "group": "3a coniugazione",

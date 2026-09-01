@@ -23,8 +23,7 @@
             "Symptom",
             "Appointment"
           ],
-          "teacher_notes": "code: \"EN-RLC-B1-001\"\ncando: \"Can schedule medical appointments, describe symptoms, and handle prescriptions.\"",
-          "recycled": "Foundational communication & basic level vocabulary"
+          "teacher_notes": "code: \"EN-RLC-B1-001\"\ncando: \"Can schedule medical appointments, describe symptoms, and handle prescriptions.\""
         },
         {
           "lesson": 2,
@@ -42,8 +41,7 @@
             "Facility",
             "Tax"
           ],
-          "teacher_notes": "code: \"EN-RLC-B1-002\"\ncando: \"Can navigate school registration for family and interact with local council services.\"",
-          "recycled": "Should / Shouldn't for medical advice, Describing symptoms in past simple, Insurance"
+          "teacher_notes": "code: \"EN-RLC-B1-002\"\ncando: \"Can navigate school registration for family and interact with local council services.\""
         }
       ]
     }

@@ -71,14 +71,13 @@ class SpacedRepetitionStore {
         let newLevel = current.masteryLevel;
         let daysToAdd = 1;
 
-        const intervals = [0, 1, 3, 7, 14, 30];
-
         if (isCorrect) {
             newLevel = Math.min(5, current.masteryLevel + 1);
+            const intervals = [1, 3, 7, 14, 30, 60];
             daysToAdd = intervals[newLevel] || 30;
         } else {
-            newLevel = Math.max(0, current.masteryLevel - 1);
-            daysToAdd = intervals[newLevel] || 1;
+            newLevel = Math.max(0, current.masteryLevel - 2);
+            daysToAdd = 1;
         }
 
         const dueDate = new Date(now.getTime() + daysToAdd * 24 * 60 * 60 * 1000);

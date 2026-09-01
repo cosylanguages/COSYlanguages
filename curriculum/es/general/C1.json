@@ -15,8 +15,7 @@
           "vocabulary": [
             "C1 terminology"
           ],
-          "teacher_notes": "Focus on advanced ciencia, tecnología y sociedad vocabulary and registers.",
-          "recycled": "Foundational communication & basic level vocabulary"
+          "teacher_notes": "Focus on advanced ciencia, tecnología y sociedad vocabulary and registers."
         },
         {
           "lesson": 2,
@@ -26,16 +25,14 @@
           "grammar": [
             "Complex structures"
           ],
-          "teacher_notes": "Focus on stylistic inversion and advanced connectors.",
-          "recycled": "C1 terminology"
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
         },
         {
           "lesson": 3,
           "type": "spoken",
           "title": "Ciencia, Tecnología y Sociedad - Seminar & Debate",
           "duration_minutes": 90,
-          "teacher_notes": "Critical discussion and presentation skills.",
-          "recycled": "Complex structures, C1 terminology"
+          "teacher_notes": "Critical discussion and presentation skills."
         }
       ]
     },
@@ -51,8 +48,7 @@
           "vocabulary": [
             "C1 terminology"
           ],
-          "teacher_notes": "Focus on advanced poder e instituciones vocabulary and registers.",
-          "recycled": "Complex structures, C1 terminology"
+          "teacher_notes": "Focus on advanced poder e instituciones vocabulary and registers."
         },
         {
           "lesson": 2,
@@ -62,16 +58,14 @@
           "grammar": [
             "Complex structures"
           ],
-          "teacher_notes": "Focus on stylistic inversion and advanced connectors.",
-          "recycled": "Complex structures, C1 terminology, C1 terminology"
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
         },
         {
           "lesson": 3,
           "type": "spoken",
           "title": "Poder e Instituciones - Seminar & Debate",
           "duration_minutes": 90,
-          "teacher_notes": "Critical discussion and presentation skills.",
-          "recycled": "Complex structures, Complex structures, C1 terminology"
+          "teacher_notes": "Critical discussion and presentation skills."
         }
       ]
     },
@@ -87,8 +81,7 @@
           "vocabulary": [
             "C1 terminology"
           ],
-          "teacher_notes": "Focus on advanced estructuras sociales vocabulary and registers.",
-          "recycled": "Complex structures, Complex structures, C1 terminology"
+          "teacher_notes": "Focus on advanced estructuras sociales vocabulary and registers."
         },
         {
           "lesson": 2,
@@ -98,16 +91,14 @@
           "grammar": [
             "Complex structures"
           ],
-          "teacher_notes": "Focus on stylistic inversion and advanced connectors.",
-          "recycled": "Complex structures, Complex structures, C1 terminology"
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
         },
         {
           "lesson": 3,
           "type": "spoken",
           "title": "Estructuras Sociales - Seminar & Debate",
           "duration_minutes": 90,
-          "teacher_notes": "Critical discussion and presentation skills.",
-          "recycled": "Complex structures, Complex structures, C1 terminology"
+          "teacher_notes": "Critical discussion and presentation skills."
         }
       ]
     },
@@ -123,8 +114,7 @@
           "vocabulary": [
             "C1 terminology"
           ],
-          "teacher_notes": "Focus on advanced conocimiento y verdad vocabulary and registers.",
-          "recycled": "Complex structures, Complex structures, C1 terminology"
+          "teacher_notes": "Focus on advanced conocimiento y verdad vocabulary and registers."
         },
         {
           "lesson": 2,
@@ -134,16 +124,14 @@
           "grammar": [
             "Complex structures"
           ],
-          "teacher_notes": "Focus on stylistic inversion and advanced connectors.",
-          "recycled": "Complex structures, Complex structures, C1 terminology"
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
         },
         {
           "lesson": 3,
           "type": "spoken",
           "title": "Conocimiento y Verdad - Seminar & Debate",
           "duration_minutes": 90,
-          "teacher_notes": "Critical discussion and presentation skills.",
-          "recycled": "Complex structures, Complex structures, C1 terminology"
+          "teacher_notes": "Critical discussion and presentation skills."
         }
       ]
     },
@@ -159,8 +147,7 @@
           "vocabulary": [
             "C1 terminology"
           ],
-          "teacher_notes": "Focus on advanced discurso y argumentación vocabulary and registers.",
-          "recycled": "Complex structures, Complex structures, C1 terminology"
+          "teacher_notes": "Focus on advanced discurso y argumentación vocabulary and registers."
         },
         {
           "lesson": 2,
@@ -170,16 +157,14 @@
           "grammar": [
             "Complex structures"
           ],
-          "teacher_notes": "Focus on stylistic inversion and advanced connectors.",
-          "recycled": "Complex structures, Complex structures, C1 terminology"
+          "teacher_notes": "Focus on stylistic inversion and advanced connectors."
         },
         {
           "lesson": 3,
           "type": "spoken",
           "title": "Discurso y Argumentación - Seminar & Debate",
           "duration_minutes": 90,
-          "teacher_notes": "Critical discussion and presentation skills.",
-          "recycled": "Complex structures, Complex structures, C1 terminology"
+          "teacher_notes": "Critical discussion and presentation skills."
         }
       ]
     }

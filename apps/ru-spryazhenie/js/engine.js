@@ -229,20 +229,6 @@ class RussianConjugationEngine {
         inp.value = ''; inp.disabled = false; inp.focus();
     }
 
-    sanitizeUsageHint(hint, verb) {
-        if (!hint) return '';
-        let clean = hint;
-
-        if (verb) {
-            const verbEscaped = verb.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
-            clean = clean.replace(new RegExp(`^${verbEscaped}\\s+`, 'i'), '');
-            clean = clean.replace(new RegExp(`\\b${verbEscaped}\\b`, 'gi'), '');
-        }
-
-        clean = clean.replace(/\(\s*\)/g, '').replace(/\s+/g, ' ').trim();
-        return clean || hint;
-    }
-
     nextGovernmentQuestion() {
         const inputGroup = document.querySelector('.game-input-group');
         let mcGroup = document.getElementById('game-mc-options');
@@ -259,19 +245,11 @@ class RussianConjugationEngine {
         if (verbsWithHints.length === 0) return;
 
         const targetVerb = verbsWithHints[Math.floor(Math.random() * verbsWithHints.length)];
-        const correctRawHint = this.verbDb[targetVerb].usage_hint;
-        const correctHint = this.sanitizeUsageHint(correctRawHint, targetVerb);
+        const correctHint = this.verbDb[targetVerb].usage_hint;
 
-        const allSanitizedHints = [];
-        for (const v of verbsWithHints) {
-            const sanitized = this.sanitizeUsageHint(this.verbDb[v].usage_hint, v);
-            if (sanitized && sanitized !== correctHint && !allSanitizedHints.includes(sanitized)) {
-                allSanitizedHints.push(sanitized);
-            }
-        }
-
-        allSanitizedHints.sort(() => 0.5 - Math.random());
-        const distractors = allSanitizedHints.slice(0, 3);
+        const allHints = Array.from(new Set(verbsWithHints.map(k => this.verbDb[k].usage_hint).filter(h => h !== correctHint)));
+        allHints.sort(() => 0.5 - Math.random());
+        const distractors = allHints.slice(0, 3);
         const options = [correctHint, ...distractors].sort(() => 0.5 - Math.random());
 
         this.currentQuestion = { verb: targetVerb, expected: correctHint, isGovernment: true };
@@ -281,7 +259,7 @@ class RussianConjugationEngine {
         document.getElementById('game-pronoun-prompt').textContent = 'Выберите верный вариант:';
 
         mcGroup.innerHTML = options.map(opt => `
-            <button class="mc-option-btn" onclick="appEngine.checkGovernmentChoice('${opt.replace(/'/g, "\\'")}')">${opt}</button>
+            <button class="mc-option-btn" onclick="appEngine.checkGovernmentChoice('${opt.replace(/'/g, "\'")}')">${opt}</button>
         `).join('');
 
         document.getElementById('game-feedback-box').style.display = 'none';
