@@ -2710,7 +2710,7 @@
     "antonyms": [
       "rester"
     ],
-    "auxiliary": "avoir",
+    "auxiliary": "avoir / être",
     "tenses": {
       "indicatif_present": [
         "je passe",
@@ -11168,20 +11168,20 @@
         "qu'ils/elles remplissent"
       ],
       "imperatif": [
-        "remplis !",
-        "remplissons !",
-        "remplissez !"
+        "remplis",
+        "remplissons",
+        "remplissez"
       ],
       "participe_passe": [
         "rempli"
       ],
       "subj": [
-        "que je remplire",
-        "que tu remplires",
-        "qu'il/elle remplire",
-        "que nous remplirions",
-        "que vous rempliriez",
-        "qu'ils/elles remplirent"
+        "que je remplisse",
+        "que tu remplisses",
+        "qu'il/elle remplisse",
+        "que nous remplissions",
+        "que vous remplissiez",
+        "qu'ils/elles remplissent"
       ],
       "cond": [
         "je remplirais",
@@ -11192,12 +11192,12 @@
         "ils/elles rempliraient"
       ],
       "impv": [
-        "remplire",
-        "remplirons",
-        "remplirez"
+        "remplis",
+        "remplissons",
+        "remplissez"
       ],
       "part": [
-        "rempliant",
+        "remplissant",
         "rempli"
       ],
       "pres": [
@@ -11318,20 +11318,20 @@
         "qu'ils/elles choisissent"
       ],
       "imperatif": [
-        "choisis !",
-        "choisissons !",
-        "choisissez !"
+        "choisis",
+        "choisissons",
+        "choisissez"
       ],
       "participe_passe": [
         "choisi"
       ],
       "subj": [
-        "que je choisire",
-        "que tu choisires",
-        "qu'il/elle choisire",
-        "que nous choisirions",
-        "que vous choisiriez",
-        "qu'ils/elles choisirent"
+        "que je choisisse",
+        "que tu choisisses",
+        "qu'il/elle choisisse",
+        "que nous choisissions",
+        "que vous choisissiez",
+        "qu'ils/elles choisissent"
       ],
       "cond": [
         "je choisirais",
@@ -11342,12 +11342,12 @@
         "ils/elles choisiraient"
       ],
       "impv": [
-        "choisire",
-        "choisirons",
-        "choisirez"
+        "choisis",
+        "choisissons",
+        "choisissez"
       ],
       "part": [
-        "choisiant",
+        "choisissant",
         "choisi"
       ],
       "pres": [
@@ -11468,20 +11468,20 @@
         "qu'ils/elles finissent"
       ],
       "imperatif": [
-        "finis !",
-        "finissons !",
-        "finissez !"
+        "finis",
+        "finissons",
+        "finissez"
       ],
       "participe_passe": [
         "fini"
       ],
       "subj": [
-        "que je finire",
-        "que tu finires",
-        "qu'il/elle finire",
-        "que nous finirions",
-        "que vous finiriez",
-        "qu'ils/elles finirent"
+        "que je finisse",
+        "que tu finisses",
+        "qu'il/elle finisse",
+        "que nous finissions",
+        "que vous finissiez",
+        "qu'ils/elles finissent"
       ],
       "cond": [
         "je finirais",
@@ -11492,12 +11492,12 @@
         "ils/elles finiraient"
       ],
       "impv": [
-        "finire",
-        "finirons",
-        "finirez"
+        "finis",
+        "finissons",
+        "finissez"
       ],
       "part": [
-        "finiant",
+        "finissant",
         "fini"
       ],
       "pres": [
@@ -11618,20 +11618,20 @@
         "qu'ils/elles réussissent"
       ],
       "imperatif": [
-        "réussis !",
-        "réussissons !",
-        "réussissez !"
+        "réussis",
+        "réussissons",
+        "réussissez"
       ],
       "participe_passe": [
         "réussi"
       ],
       "subj": [
-        "que je réussire",
-        "que tu réussires",
-        "qu'il/elle réussire",
-        "que nous réussirions",
-        "que vous réussiriez",
-        "qu'ils/elles réussirent"
+        "que je réussisse",
+        "que tu réussisses",
+        "qu'il/elle réussisse",
+        "que nous réussissions",
+        "que vous réussissiez",
+        "qu'ils/elles réussissent"
       ],
       "cond": [
         "je réussirais",
@@ -11642,12 +11642,12 @@
         "ils/elles réussiraient"
       ],
       "impv": [
-        "réussire",
-        "réussirons",
-        "réussirez"
+        "réussis",
+        "réussissons",
+        "réussissez"
       ],
       "part": [
-        "réussiant",
+        "réussissant",
         "réussi"
       ],
       "pres": [
@@ -11769,20 +11769,20 @@
         "qu'ils/elles grandissent"
       ],
       "imperatif": [
-        "grandis !",
-        "grandissons !",
-        "grandissez !"
+        "grandis",
+        "grandissons",
+        "grandissez"
       ],
       "participe_passe": [
         "grandi"
       ],
       "subj": [
-        "que je grandire",
-        "que tu grandires",
-        "qu'il/elle grandire",
-        "que nous grandirions",
-        "que vous grandiriez",
-        "qu'ils/elles grandirent"
+        "que je grandisse",
+        "que tu grandisses",
+        "qu'il/elle grandisse",
+        "que nous grandissions",
+        "que vous grandissiez",
+        "qu'ils/elles grandissent"
       ],
       "cond": [
         "je grandirais",
@@ -11793,12 +11793,12 @@
         "ils/elles grandiraient"
       ],
       "impv": [
-        "grandire",
-        "grandirons",
-        "grandirez"
+        "grandis",
+        "grandissons",
+        "grandissez"
       ],
       "part": [
-        "grandiant",
+        "grandissant",
         "grandi"
       ],
       "pres": [
@@ -11919,20 +11919,20 @@
         "qu'ils/elles réfléchissent"
       ],
       "imperatif": [
-        "réfléchis !",
-        "réfléchissons !",
-        "réfléchissez !"
+        "réfléchis",
+        "réfléchissons",
+        "réfléchissez"
       ],
       "participe_passe": [
         "réfléchi"
       ],
       "subj": [
-        "que je réfléchire",
-        "que tu réfléchires",
-        "qu'il/elle réfléchire",
-        "que nous réfléchirions",
-        "que vous réfléchiriez",
-        "qu'ils/elles réfléchirent"
+        "que je réfléchisse",
+        "que tu réfléchisses",
+        "qu'il/elle réfléchisse",
+        "que nous réfléchissions",
+        "que vous réfléchissiez",
+        "qu'ils/elles réfléchissent"
       ],
       "cond": [
         "je réfléchirais",
@@ -11943,12 +11943,12 @@
         "ils/elles réfléchiraient"
       ],
       "impv": [
-        "réfléchire",
-        "réfléchirons",
-        "réfléchirez"
+        "réfléchis",
+        "réfléchissons",
+        "réfléchissez"
       ],
       "part": [
-        "réfléchiant",
+        "réfléchissant",
         "réfléchi"
       ],
       "pres": [
@@ -12069,20 +12069,20 @@
         "qu'ils/elles obéissent"
       ],
       "imperatif": [
-        "j'obéis !",
-        "obéissons !",
-        "obéissez !"
+        "obéis",
+        "obéissons",
+        "obéissez"
       ],
       "participe_passe": [
         "obéi"
       ],
       "subj": [
-        "que j'obéire",
-        "que tu obéires",
-        "qu'il/elle obéire",
-        "que nous obéirions",
-        "que vous obéiriez",
-        "qu'ils/elles obéirent"
+        "que j'obéisse",
+        "que tu obéisses",
+        "qu'il/elle obéisse",
+        "que nous obéissions",
+        "que vous obéissiez",
+        "qu'ils/elles obéissent"
       ],
       "cond": [
         "j'obéirais",
@@ -12093,12 +12093,12 @@
         "ils/elles obéiraient"
       ],
       "impv": [
-        "obéire",
-        "obéirons",
-        "obéirez"
+        "obéis",
+        "obéissons",
+        "obéissez"
       ],
       "part": [
-        "obéiant",
+        "obéissant",
         "obéi"
       ],
       "pres": [
@@ -12219,20 +12219,20 @@
         "qu'ils/elles punissent"
       ],
       "imperatif": [
-        "punis !",
-        "punissons !",
-        "punissez !"
+        "punis",
+        "punissons",
+        "punissez"
       ],
       "participe_passe": [
         "puni"
       ],
       "subj": [
-        "que je punire",
-        "que tu punires",
-        "qu'il/elle punire",
-        "que nous punirions",
-        "que vous puniriez",
-        "qu'ils/elles punirent"
+        "que je punisse",
+        "que tu punisses",
+        "qu'il/elle punisse",
+        "que nous punissions",
+        "que vous punissiez",
+        "qu'ils/elles punissent"
       ],
       "cond": [
         "je punirais",
@@ -12243,12 +12243,12 @@
         "ils/elles puniraient"
       ],
       "impv": [
-        "punire",
-        "punirons",
-        "punirez"
+        "punis",
+        "punissons",
+        "punissez"
       ],
       "part": [
-        "puniant",
+        "punissant",
         "puni"
       ],
       "pres": [
@@ -12369,20 +12369,20 @@
         "qu'ils/elles nourrissent"
       ],
       "imperatif": [
-        "nourris !",
-        "nourrissons !",
-        "nourrissez !"
+        "nourris",
+        "nourrissons",
+        "nourrissez"
       ],
       "participe_passe": [
         "nourri"
       ],
       "subj": [
-        "que je nourrire",
-        "que tu nourrires",
-        "qu'il/elle nourrire",
-        "que nous nourririons",
-        "que vous nourririez",
-        "qu'ils/elles nourrirent"
+        "que je nourrisse",
+        "que tu nourrisses",
+        "qu'il/elle nourrisse",
+        "que nous nourrissions",
+        "que vous nourrissiez",
+        "qu'ils/elles nourrissent"
       ],
       "cond": [
         "je nourrirais",
@@ -12393,12 +12393,12 @@
         "ils/elles nourriraient"
       ],
       "impv": [
-        "nourrire",
-        "nourrirons",
-        "nourrirez"
+        "nourris",
+        "nourrissons",
+        "nourrissez"
       ],
       "part": [
-        "nourriant",
+        "nourrissant",
         "nourri"
       ],
       "pres": [
@@ -12519,20 +12519,20 @@
         "qu'ils/elles vieillissent"
       ],
       "imperatif": [
-        "vieillis !",
-        "vieillissons !",
-        "vieillissez !"
+        "vieillis",
+        "vieillissons",
+        "vieillissez"
       ],
       "participe_passe": [
         "vieilli"
       ],
       "subj": [
-        "que je vieillire",
-        "que tu vieillires",
-        "qu'il/elle vieillire",
-        "que nous vieillirions",
-        "que vous vieilliriez",
-        "qu'ils/elles vieillirent"
+        "que je vieillisse",
+        "que tu vieillisses",
+        "qu'il/elle vieillisse",
+        "que nous vieillissions",
+        "que vous vieillissiez",
+        "qu'ils/elles vieillissent"
       ],
       "cond": [
         "je vieillirais",
@@ -12543,12 +12543,12 @@
         "ils/elles vieilliraient"
       ],
       "impv": [
-        "vieillire",
-        "vieillirons",
-        "vieillirez"
+        "vieillis",
+        "vieillissons",
+        "vieillissez"
       ],
       "part": [
-        "vieilliant",
+        "vieillissant",
         "vieilli"
       ],
       "pres": [
@@ -12669,20 +12669,20 @@
         "qu'ils/elles guérissent"
       ],
       "imperatif": [
-        "guéris !",
-        "guérissons !",
-        "guérissez !"
+        "guéris",
+        "guérissons",
+        "guérissez"
       ],
       "participe_passe": [
         "guéri"
       ],
       "subj": [
-        "que je guérire",
-        "que tu guérires",
-        "qu'il/elle guérire",
-        "que nous guéririons",
-        "que vous guéririez",
-        "qu'ils/elles guérirent"
+        "que je guérisse",
+        "que tu guérisses",
+        "qu'il/elle guérisse",
+        "que nous guérissions",
+        "que vous guérissiez",
+        "qu'ils/elles guérissent"
       ],
       "cond": [
         "je guérirais",
@@ -12693,12 +12693,12 @@
         "ils/elles guériraient"
       ],
       "impv": [
-        "guérire",
-        "guérirons",
-        "guérirez"
+        "guéris",
+        "guérissons",
+        "guérissez"
       ],
       "part": [
-        "guériant",
+        "guérissant",
         "guéri"
       ],
       "pres": [
@@ -12969,20 +12969,20 @@
         "qu'ils/elles fassent"
       ],
       "imperatif": [
-        "fais !",
-        "faisons !",
-        "faites !"
+        "fais",
+        "faisons",
+        "faites"
       ],
       "participe_passe": [
         "fait"
       ],
       "subj": [
-        "que je fairee",
-        "que tu fairees",
-        "qu'il/elle fairee",
-        "que nous faireions",
-        "que vous faireiez",
-        "qu'ils/elles faireent"
+        "que je fasse",
+        "que tu fasses",
+        "qu'il/elle fasse",
+        "que nous fassions",
+        "que vous fassiez",
+        "qu'ils/elles fassent"
       ],
       "cond": [
         "je ferais",
@@ -12993,9 +12993,9 @@
         "ils/elles feraient"
       ],
       "impv": [
-        "fairee",
-        "faireons",
-        "faireez"
+        "fais",
+        "faisons",
+        "faites"
       ],
       "part": [
         "faisant",
@@ -13119,20 +13119,20 @@
         "qu'ils/elles disent"
       ],
       "imperatif": [
-        "dis !",
-        "disons !",
-        "dites !"
+        "dis",
+        "disons",
+        "dites"
       ],
       "participe_passe": [
         "dit"
       ],
       "subj": [
-        "que je diree",
-        "que tu direes",
-        "qu'il/elle diree",
-        "que nous direions",
-        "que vous direiez",
-        "qu'ils/elles direent"
+        "que je dise",
+        "que tu dises",
+        "qu'il/elle dise",
+        "que nous disions",
+        "que vous disiez",
+        "qu'ils/elles disent"
       ],
       "cond": [
         "je dirais",
@@ -13143,9 +13143,9 @@
         "ils/elles diraient"
       ],
       "impv": [
-        "diree",
-        "direons",
-        "direez"
+        "dis",
+        "disons",
+        "dites"
       ],
       "part": [
         "disant",
@@ -13269,20 +13269,20 @@
         "qu'ils/elles voient"
       ],
       "imperatif": [
-        "vois !",
-        "voyons !",
-        "voyez !"
+        "vois",
+        "voyons",
+        "voyez"
       ],
       "participe_passe": [
         "vu"
       ],
       "subj": [
-        "que je voire",
-        "que tu voires",
-        "qu'il/elle voire",
-        "que nous voirions",
-        "que vous voiriez",
-        "qu'ils/elles voirent"
+        "que je voie",
+        "que tu voies",
+        "qu'il/elle voie",
+        "que nous voyions",
+        "que vous voyiez",
+        "qu'ils/elles voient"
       ],
       "cond": [
         "je verrais",
@@ -13293,9 +13293,9 @@
         "ils/elles verraient"
       ],
       "impv": [
-        "voire",
-        "voirons",
-        "voirez"
+        "vois",
+        "voyons",
+        "voyez"
       ],
       "part": [
         "voyant",
@@ -13420,20 +13420,20 @@
         "qu'ils/elles puissent"
       ],
       "imperatif": [
-        "puisse !",
-        "puissions !",
-        "puissez !"
+        "puisse",
+        "puissions",
+        "puissiez"
       ],
       "participe_passe": [
         "pu"
       ],
       "subj": [
-        "que je pouvoire",
-        "que tu pouvoires",
-        "qu'il/elle pouvoire",
-        "que nous pouvoirions",
-        "que vous pouvoiriez",
-        "qu'ils/elles pouvoirent"
+        "que je puisse",
+        "que tu puisses",
+        "qu'il/elle puisse",
+        "que nous puissions",
+        "que vous puissiez",
+        "qu'ils/elles puissent"
       ],
       "cond": [
         "je pourrais",
@@ -13444,9 +13444,9 @@
         "ils/elles pourraient"
       ],
       "impv": [
-        "pouvoire",
-        "pouvoirons",
-        "pouvoirez"
+        "puisse",
+        "puissions",
+        "puissiez"
       ],
       "part": [
         "pouvant",
@@ -13571,20 +13571,20 @@
         "qu'ils/elles veuillent"
       ],
       "imperatif": [
-        "veuille !",
-        "voulons !",
-        "veuillez !"
+        "veuille",
+        "voulons",
+        "veuillez"
       ],
       "participe_passe": [
         "voulu"
       ],
       "subj": [
-        "que je vouloire",
-        "que tu vouloires",
-        "qu'il/elle vouloire",
-        "que nous vouloirions",
-        "que vous vouloiriez",
-        "qu'ils/elles vouloirent"
+        "que je veuille",
+        "que tu veuilles",
+        "qu'il/elle veuille",
+        "que nous voulions",
+        "que vous vouliez",
+        "qu'ils/elles veuillent"
       ],
       "cond": [
         "je voudrais",
@@ -13595,9 +13595,9 @@
         "ils/elles voudraient"
       ],
       "impv": [
-        "vouloire",
-        "vouloirons",
-        "vouloirez"
+        "veuille",
+        "voulons",
+        "veuillez"
       ],
       "part": [
         "voulant",
@@ -13722,20 +13722,20 @@
         "qu'ils/elles prennent"
       ],
       "imperatif": [
-        "prends !",
-        "prenons !",
-        "prenez !"
+        "prends",
+        "prenons",
+        "prenez"
       ],
       "participe_passe": [
         "pris"
       ],
       "subj": [
-        "que je prendree",
-        "que tu prendrees",
-        "qu'il/elle prendree",
-        "que nous prendreions",
-        "que vous prendreiez",
-        "qu'ils/elles prendreent"
+        "que je prenne",
+        "que tu prennes",
+        "qu'il/elle prenne",
+        "que nous prenions",
+        "que vous preniez",
+        "qu'ils/elles prennent"
       ],
       "cond": [
         "je prendrais",
@@ -13746,9 +13746,9 @@
         "ils/elles prendraient"
       ],
       "impv": [
-        "prendree",
-        "prendreons",
-        "prendreez"
+        "prends",
+        "prenons",
+        "prenez"
       ],
       "part": [
         "prenant",
@@ -13872,20 +13872,20 @@
         "qu'ils/elles viennent"
       ],
       "imperatif": [
-        "viens !",
-        "venons !",
-        "venez !"
+        "viens",
+        "venons",
+        "venez"
       ],
       "participe_passe": [
         "venu"
       ],
       "subj": [
-        "que je venire",
-        "que tu venires",
-        "qu'il/elle venire",
-        "que nous venirions",
-        "que vous veniriez",
-        "qu'ils/elles venirent"
+        "que je vienne",
+        "que tu viennes",
+        "qu'il/elle vienne",
+        "que nous venions",
+        "que vous veniez",
+        "qu'ils/elles viennent"
       ],
       "cond": [
         "je viendrais",
@@ -13896,9 +13896,9 @@
         "ils/elles viendraient"
       ],
       "impv": [
-        "venire",
-        "venirons",
-        "venirez"
+        "viens",
+        "venons",
+        "venez"
       ],
       "part": [
         "venant",
@@ -14023,20 +14023,20 @@
         "qu'ils/elles vendent"
       ],
       "imperatif": [
-        "vends !",
-        "vendons !",
-        "vendez !"
+        "vends",
+        "vendons",
+        "vendez"
       ],
       "participe_passe": [
         "vendu"
       ],
       "subj": [
-        "que je vendree",
-        "que tu vendrees",
-        "qu'il/elle vendree",
-        "que nous vendreions",
-        "que vous vendreiez",
-        "qu'ils/elles vendreent"
+        "que je vende",
+        "que tu vendes",
+        "qu'il/elle vende",
+        "que nous vendions",
+        "que vous vendiez",
+        "qu'ils/elles vendent"
       ],
       "cond": [
         "je vendrais",
@@ -14047,9 +14047,9 @@
         "ils/elles vendraient"
       ],
       "impv": [
-        "vendree",
-        "vendreons",
-        "vendreez"
+        "vends",
+        "vendons",
+        "vendez"
       ],
       "part": [
         "vendant",
@@ -14173,20 +14173,20 @@
         "qu'ils/elles détruisent"
       ],
       "imperatif": [
-        "détruis !",
-        "détruisons !",
-        "détruisez !"
+        "détruis",
+        "détruisons",
+        "détruisez"
       ],
       "participe_passe": [
         "détruit"
       ],
       "subj": [
-        "que je détruiree",
-        "que tu détruirees",
-        "qu'il/elle détruiree",
-        "que nous détruireions",
-        "que vous détruireiez",
-        "qu'ils/elles détruireent"
+        "que je détruise",
+        "que tu détruises",
+        "qu'il/elle détruise",
+        "que nous détruisions",
+        "que vous détruisiez",
+        "qu'ils/elles détruisent"
       ],
       "cond": [
         "je détruirais",
@@ -14197,9 +14197,9 @@
         "ils/elles détruiraient"
       ],
       "impv": [
-        "détruiree",
-        "détruireons",
-        "détruireez"
+        "détruis",
+        "détruisons",
+        "détruisez"
       ],
       "part": [
         "détruisant",
@@ -14323,20 +14323,20 @@
         "qu'ils/elles prévoient"
       ],
       "imperatif": [
-        "prévois !",
-        "prévoyons !",
-        "prévoyez !"
+        "prévois",
+        "prévoyons",
+        "prévoyez"
       ],
       "participe_passe": [
         "prévu"
       ],
       "subj": [
-        "que je prévoire",
-        "que tu prévoires",
-        "qu'il/elle prévoire",
-        "que nous prévoirions",
-        "que vous prévoiriez",
-        "qu'ils/elles prévoirent"
+        "que je prévoie",
+        "que tu prévoies",
+        "qu'il/elle prévoie",
+        "que nous prévoyions",
+        "que vous prévoyiez",
+        "qu'ils/elles prévoient"
       ],
       "cond": [
         "je prévoirais",
@@ -14347,12 +14347,12 @@
         "ils/elles prévoiraient"
       ],
       "impv": [
-        "prévoire",
-        "prévoirons",
-        "prévoirez"
+        "prévois",
+        "prévoyons",
+        "prévoyez"
       ],
       "part": [
-        "prévoiant",
+        "prévoyant",
         "prévu"
       ],
       "pres": [
@@ -14473,20 +14473,20 @@
         "qu'ils/elles préviennent"
       ],
       "imperatif": [
-        "préviens !",
-        "prévenons !",
-        "prévenez !"
+        "préviens",
+        "prévenons",
+        "prévenez"
       ],
       "participe_passe": [
         "prévenu"
       ],
       "subj": [
-        "que je prévenire",
-        "que tu prévenires",
-        "qu'il/elle prévenire",
-        "que nous prévenirions",
-        "que vous préveniriez",
-        "qu'ils/elles prévenirent"
+        "que je prévienne",
+        "que tu préviennes",
+        "qu'il/elle prévienne",
+        "que nous prévenions",
+        "que vous préveniez",
+        "qu'ils/elles préviennent"
       ],
       "cond": [
         "je préviendrais",
@@ -14497,12 +14497,12 @@
         "ils/elles préviendraient"
       ],
       "impv": [
-        "prévenire",
-        "prévenirons",
-        "prévenirez"
+        "préviens",
+        "prévenons",
+        "prévenez"
       ],
       "part": [
-        "préveniant",
+        "prévenant",
         "prévenu"
       ],
       "pres": [
@@ -14923,20 +14923,20 @@
         "qu'ils/elles achètent"
       ],
       "imperatif": [
-        "j'achète !",
-        "achètons !",
-        "achètez !"
+        "achète",
+        "achetons",
+        "achetez"
       ],
       "participe_passe": [
         "acheté"
       ],
       "subj": [
-        "que j'achete",
-        "que tu achetes",
-        "qu'il/elle achete",
+        "que j'achète",
+        "que tu achètes",
+        "qu'il/elle achète",
         "que nous achetions",
         "que vous achetiez",
-        "qu'ils/elles achetent"
+        "qu'ils/elles achètent"
       ],
       "cond": [
         "j'achèterais",
@@ -14947,7 +14947,7 @@
         "ils/elles achèteraient"
       ],
       "impv": [
-        "achete",
+        "achète",
         "achetons",
         "achetez"
       ],
@@ -21075,20 +21075,20 @@
         "qu'ils/elles jettent"
       ],
       "imperatif": [
-        "jette !",
-        "jetons !",
-        "jetez !"
+        "jette",
+        "jetons",
+        "jetez"
       ],
       "participe_passe": [
         "jeté"
       ],
       "subj": [
-        "que je jete",
-        "que tu jetes",
-        "qu'il/elle jete",
+        "que je jette",
+        "que tu jettes",
+        "qu'il/elle jette",
         "que nous jetions",
         "que vous jetiez",
-        "qu'ils/elles jetent"
+        "qu'ils/elles jettent"
       ],
       "cond": [
         "je jetterais",
@@ -21099,7 +21099,7 @@
         "ils/elles jetteraient"
       ],
       "impv": [
-        "jete",
+        "jette",
         "jetons",
         "jetez"
       ],
@@ -25726,20 +25726,20 @@
         "qu'ils/elles admettent"
       ],
       "imperatif": [
-        "admets !",
-        "admetsons !",
-        "admetsez !"
+        "admets",
+        "admettons",
+        "admettez"
       ],
       "participe_passe": [
         "admis"
       ],
       "subj": [
-        "que j'admettree",
-        "que tu admettrees",
-        "qu'il/elle admettree",
+        "que j'admette",
+        "que tu admettes",
+        "qu'il/elle admette",
         "que nous admettions",
         "que vous admettiez",
-        "qu'ils/elles admettreent"
+        "qu'ils/elles admettent"
       ],
       "cond": [
         "j'admettrais",
@@ -25750,9 +25750,9 @@
         "ils/elles admettraient"
       ],
       "impv": [
-        "admettree",
-        "admettreons",
-        "admettreez"
+        "admets",
+        "admettons",
+        "admettez"
       ],
       "part": [
         "admettant",
@@ -26176,20 +26176,20 @@
         "qu'ils/elles apprennent"
       ],
       "imperatif": [
-        "apprends !",
-        "apprendsons !",
-        "apprendsez !"
+        "apprends",
+        "apprenons",
+        "apprenez"
       ],
       "participe_passe": [
         "appris"
       ],
       "subj": [
-        "que j'apprendree",
-        "que tu apprendrees",
-        "qu'il/elle apprendree",
+        "que j'apprenne",
+        "que tu apprennes",
+        "qu'il/elle apprenne",
         "que nous apprenions",
         "que vous appreniez",
-        "qu'ils/elles apprendreent"
+        "qu'ils/elles apprennent"
       ],
       "cond": [
         "j'apprendrais",
@@ -26200,9 +26200,9 @@
         "ils/elles apprendraient"
       ],
       "impv": [
-        "apprendree",
-        "apprendreons",
-        "apprendreez"
+        "apprends",
+        "apprenons",
+        "apprenez"
       ],
       "part": [
         "apprenant",
@@ -26476,20 +26476,20 @@
         "qu'ils/elles bâtissent"
       ],
       "imperatif": [
-        "bâtis !",
-        "bâtisons !",
-        "bâtisez !"
+        "bâtis",
+        "bâtissons",
+        "bâtissez"
       ],
       "participe_passe": [
         "bâti"
       ],
       "subj": [
-        "que je bâtire",
-        "que tu bâtires",
-        "qu'il/elle bâtire",
+        "que je bâtisse",
+        "que tu bâtisses",
+        "qu'il/elle bâtisse",
         "que nous bâtissions",
         "que vous bâtissiez",
-        "qu'ils/elles bâtirent"
+        "qu'ils/elles bâtissent"
       ],
       "cond": [
         "je bâtirais",
@@ -26500,12 +26500,12 @@
         "ils/elles bâtiraient"
       ],
       "impv": [
-        "bâtire",
-        "bâtirons",
-        "bâtirez"
+        "bâtis",
+        "bâtissons",
+        "bâtissez"
       ],
       "part": [
-        "bâtiant",
+        "bâtissant",
         "bâti"
       ],
       "pres": [
@@ -26626,20 +26626,20 @@
         "qu'ils/elles boivent"
       ],
       "imperatif": [
-        "bois !",
-        "boisons !",
-        "boisez !"
+        "bois",
+        "buvons",
+        "buvez"
       ],
       "participe_passe": [
         "bu"
       ],
       "subj": [
-        "que je boiree",
-        "que tu boirees",
-        "qu'il/elle boiree",
+        "que je boive",
+        "que tu boives",
+        "qu'il/elle boive",
         "que nous buvions",
         "que vous buviez",
-        "qu'ils/elles boireent"
+        "qu'ils/elles boivent"
       ],
       "cond": [
         "je boirais",
@@ -26650,9 +26650,9 @@
         "ils/elles boiraient"
       ],
       "impv": [
-        "boiree",
-        "boireons",
-        "boireez"
+        "bois",
+        "buvons",
+        "buvez"
       ],
       "part": [
         "buvant",
@@ -27076,20 +27076,20 @@
         "qu'ils/elles comprennent"
       ],
       "imperatif": [
-        "comprends !",
-        "comprendsons !",
-        "comprendsez !"
+        "comprends",
+        "comprenons",
+        "comprenez"
       ],
       "participe_passe": [
         "compris"
       ],
       "subj": [
-        "que je comprendree",
-        "que tu comprendrees",
-        "qu'il/elle comprendree",
+        "que je comprenne",
+        "que tu comprennes",
+        "qu'il/elle comprenne",
         "que nous comprenions",
         "que vous compreniez",
-        "qu'ils/elles comprendreent"
+        "qu'ils/elles comprennent"
       ],
       "cond": [
         "je comprendrais",
@@ -27100,9 +27100,9 @@
         "ils/elles comprendraient"
       ],
       "impv": [
-        "comprendree",
-        "comprendreons",
-        "comprendreez"
+        "comprends",
+        "comprenons",
+        "comprenez"
       ],
       "part": [
         "comprenant",
@@ -27226,20 +27226,20 @@
         "qu'ils/elles construisent"
       ],
       "imperatif": [
-        "construis !",
-        "construisons !",
-        "construisez !"
+        "construis",
+        "construisons",
+        "construisez"
       ],
       "participe_passe": [
         "construit"
       ],
       "subj": [
-        "que je construiree",
-        "que tu construirees",
-        "qu'il/elle construiree",
+        "que je construise",
+        "que tu construises",
+        "qu'il/elle construise",
         "que nous construisions",
         "que vous construisiez",
-        "qu'ils/elles construireent"
+        "qu'ils/elles construisent"
       ],
       "cond": [
         "je construirais",
@@ -27250,9 +27250,9 @@
         "ils/elles construiraient"
       ],
       "impv": [
-        "construiree",
-        "construireons",
-        "construireez"
+        "construis",
+        "construisons",
+        "construisez"
       ],
       "part": [
         "construisant",
@@ -27376,20 +27376,20 @@
         "qu'ils/elles courent"
       ],
       "imperatif": [
-        "cours !",
-        "coursons !",
-        "coursez !"
+        "cours",
+        "courons",
+        "courez"
       ],
       "participe_passe": [
         "couru"
       ],
       "subj": [
-        "que je courire",
-        "que tu courires",
-        "qu'il/elle courire",
+        "que je coure",
+        "que tu coures",
+        "qu'il/elle coure",
         "que nous courions",
         "que vous couriez",
-        "qu'ils/elles courirent"
+        "qu'ils/elles courent"
       ],
       "cond": [
         "je courrais",
@@ -27400,12 +27400,12 @@
         "ils/elles courraient"
       ],
       "impv": [
-        "courire",
-        "courirons",
-        "courirez"
+        "cours",
+        "courons",
+        "courez"
       ],
       "part": [
-        "couriant",
+        "courant",
         "couru"
       ],
       "pres": [
@@ -27527,20 +27527,20 @@
         "qu'ils/elles croient"
       ],
       "imperatif": [
-        "crois !",
-        "croisons !",
-        "croisez !"
+        "crois",
+        "croyons",
+        "croyez"
       ],
       "participe_passe": [
         "cru"
       ],
       "subj": [
-        "que je croiree",
-        "que tu croirees",
-        "qu'il/elle croiree",
+        "que je croie",
+        "que tu croies",
+        "qu'il/elle croie",
         "que nous croyions",
         "que vous croyiez",
-        "qu'ils/elles croireent"
+        "qu'ils/elles croient"
       ],
       "cond": [
         "je croirais",
@@ -27551,9 +27551,9 @@
         "ils/elles croiraient"
       ],
       "impv": [
-        "croiree",
-        "croireons",
-        "croireez"
+        "crois",
+        "croyons",
+        "croyez"
       ],
       "part": [
         "croyant",
@@ -27677,20 +27677,20 @@
         "qu'ils/elles défendent"
       ],
       "imperatif": [
-        "défends !",
-        "défendsons !",
-        "défendsez !"
+        "défends",
+        "défendons",
+        "défendez"
       ],
       "participe_passe": [
         "défendu"
       ],
       "subj": [
-        "que je défendree",
-        "que tu défendrees",
-        "qu'il/elle défendree",
+        "que je défende",
+        "que tu défendes",
+        "qu'il/elle défende",
         "que nous défendions",
         "que vous défendiez",
-        "qu'ils/elles défendreent"
+        "qu'ils/elles défendent"
       ],
       "cond": [
         "je défendrais",
@@ -27701,9 +27701,9 @@
         "ils/elles défendraient"
       ],
       "impv": [
-        "défendree",
-        "défendreons",
-        "défendreez"
+        "défends",
+        "défendons",
+        "défendez"
       ],
       "part": [
         "défendant",
@@ -27827,20 +27827,20 @@
         "qu'ils/elles découvrent"
       ],
       "imperatif": [
-        "découvres !",
-        "découvresons !",
-        "découvresez !"
+        "découvre",
+        "découvrons",
+        "découvrez"
       ],
       "participe_passe": [
         "découvert"
       ],
       "subj": [
-        "que je découvrire",
-        "que tu découvrires",
-        "qu'il/elle découvrire",
+        "que je découvre",
+        "que tu découvres",
+        "qu'il/elle découvre",
         "que nous découvrions",
         "que vous découvriez",
-        "qu'ils/elles découvrirent"
+        "qu'ils/elles découvrent"
       ],
       "cond": [
         "je découvrirais",
@@ -27851,9 +27851,9 @@
         "ils/elles découvriraient"
       ],
       "impv": [
-        "découvrire",
-        "découvrirons",
-        "découvrirez"
+        "découvre",
+        "découvrons",
+        "découvrez"
       ],
       "part": [
         "découvrant",
@@ -27977,20 +27977,20 @@
         "qu'ils/elles descendent"
       ],
       "imperatif": [
-        "descends !",
-        "descendsons !",
-        "descendsez !"
+        "descends",
+        "descendons",
+        "descendez"
       ],
       "participe_passe": [
         "descendu"
       ],
       "subj": [
-        "que je descendree",
-        "que tu descendrees",
-        "qu'il/elle descendree",
+        "que je descende",
+        "que tu descendes",
+        "qu'il/elle descende",
         "que nous descendions",
         "que vous descendiez",
-        "qu'ils/elles descendreent"
+        "qu'ils/elles descendent"
       ],
       "cond": [
         "je descendrais",
@@ -28001,9 +28001,9 @@
         "ils/elles descendraient"
       ],
       "impv": [
-        "descendree",
-        "descendreons",
-        "descendreez"
+        "descends",
+        "descendons",
+        "descendez"
       ],
       "part": [
         "descendant",
@@ -28127,20 +28127,20 @@
         "qu'ils/elles doivent"
       ],
       "imperatif": [
-        "dois !",
-        "doisons !",
-        "doisez !"
+        "dois",
+        "devons",
+        "devez"
       ],
       "participe_passe": [
         "dû"
       ],
       "subj": [
-        "que je devoire",
-        "que tu devoires",
-        "qu'il/elle devoire",
+        "que je doive",
+        "que tu doives",
+        "qu'il/elle doive",
         "que nous devions",
         "que vous deviez",
-        "qu'ils/elles devoirent"
+        "qu'ils/elles doivent"
       ],
       "cond": [
         "je devrais",
@@ -28151,9 +28151,9 @@
         "ils/elles devraient"
       ],
       "impv": [
-        "devoire",
-        "devoirons",
-        "devoirez"
+        "dois",
+        "devons",
+        "devez"
       ],
       "part": [
         "devant",
@@ -28278,20 +28278,20 @@
         "qu'ils/elles dorment"
       ],
       "imperatif": [
-        "dors !",
-        "dorsons !",
-        "dorsez !"
+        "dors",
+        "dormons",
+        "dormez"
       ],
       "participe_passe": [
         "dormi"
       ],
       "subj": [
-        "que je dormire",
-        "que tu dormires",
-        "qu'il/elle dormire",
+        "que je dorme",
+        "que tu dormes",
+        "qu'il/elle dorme",
         "que nous dormions",
         "que vous dormiez",
-        "qu'ils/elles dormirent"
+        "qu'ils/elles dorment"
       ],
       "cond": [
         "je dormirais",
@@ -28302,12 +28302,12 @@
         "ils/elles dormiraient"
       ],
       "impv": [
-        "dormire",
-        "dormirons",
-        "dormirez"
+        "dors",
+        "dormons",
+        "dormez"
       ],
       "part": [
-        "dormiant",
+        "dormant",
         "dormi"
       ],
       "pres": [
@@ -28428,20 +28428,20 @@
         "qu'ils/elles écrivent"
       ],
       "imperatif": [
-        "écris !",
-        "écrisons !",
-        "écrisez !"
+        "écris",
+        "écrivons",
+        "écrivez"
       ],
       "participe_passe": [
         "écrit"
       ],
       "subj": [
-        "que j'écriree",
-        "que tu écrirees",
-        "qu'il/elle écriree",
+        "que j'écrive",
+        "que tu écrives",
+        "qu'il/elle écrive",
         "que nous écrivions",
         "que vous écriviez",
-        "qu'ils/elles écrireent"
+        "qu'ils/elles écrivent"
       ],
       "cond": [
         "j'écrirais",
@@ -28452,9 +28452,9 @@
         "ils/elles écriraient"
       ],
       "impv": [
-        "écriree",
-        "écrireons",
-        "écrireez"
+        "écris",
+        "écrivons",
+        "écrivez"
       ],
       "part": [
         "écrivant",
@@ -28578,20 +28578,20 @@
         "qu'ils/elles entendent"
       ],
       "imperatif": [
-        "entends !",
-        "entendsons !",
-        "entendsez !"
+        "entends",
+        "entendons",
+        "entendez"
       ],
       "participe_passe": [
         "entendu"
       ],
       "subj": [
-        "que j'entendree",
-        "que tu entendrees",
-        "qu'il/elle entendree",
+        "que j'entende",
+        "que tu entendes",
+        "qu'il/elle entende",
         "que nous entendions",
         "que vous entendiez",
-        "qu'ils/elles entendreent"
+        "qu'ils/elles entendent"
       ],
       "cond": [
         "j'entendrais",
@@ -28602,9 +28602,9 @@
         "ils/elles entendraient"
       ],
       "impv": [
-        "entendree",
-        "entendreons",
-        "entendreez"
+        "entends",
+        "entendons",
+        "entendez"
       ],
       "part": [
         "entendant",
@@ -28728,20 +28728,20 @@
         "qu'ils/elles éteignent"
       ],
       "imperatif": [
-        "éteins !",
-        "éteinsons !",
-        "éteinsez !"
+        "éteins",
+        "éteignons",
+        "éteignez"
       ],
       "participe_passe": [
         "éteint"
       ],
       "subj": [
-        "que j'éteindree",
-        "que tu éteindrees",
-        "qu'il/elle éteindree",
+        "que j'éteigne",
+        "que tu éteignes",
+        "qu'il/elle éteigne",
         "que nous éteignions",
         "que vous éteigniez",
-        "qu'ils/elles éteindreent"
+        "qu'ils/elles éteignent"
       ],
       "cond": [
         "j'éteindrais",
@@ -28752,9 +28752,9 @@
         "ils/elles éteindraient"
       ],
       "impv": [
-        "éteindree",
-        "éteindreons",
-        "éteindreez"
+        "éteins",
+        "éteignons",
+        "éteignez"
       ],
       "part": [
         "éteignant",
@@ -28863,7 +28863,7 @@
         "—"
       ],
       "part": [
-        "falloiant",
+        "fallant",
         "fallu"
       ],
       "pres": [
@@ -28970,20 +28970,20 @@
         "qu'ils/elles lisent"
       ],
       "imperatif": [
-        "lis !",
-        "lisons !",
-        "lisez !"
+        "lis",
+        "lisons",
+        "lisez"
       ],
       "participe_passe": [
         "lu"
       ],
       "subj": [
-        "que je liree",
-        "que tu lirees",
-        "qu'il/elle liree",
+        "que je lise",
+        "que tu lises",
+        "qu'il/elle lise",
         "que nous lisions",
         "que vous lisiez",
-        "qu'ils/elles lireent"
+        "qu'ils/elles lisent"
       ],
       "cond": [
         "je lirais",
@@ -28994,9 +28994,9 @@
         "ils/elles liraient"
       ],
       "impv": [
-        "liree",
-        "lireons",
-        "lireez"
+        "lis",
+        "lisons",
+        "lisez"
       ],
       "part": [
         "lisant",
@@ -29120,20 +29120,20 @@
         "qu'ils/elles mettent"
       ],
       "imperatif": [
-        "mets !",
-        "metsons !",
-        "metsez !"
+        "mets",
+        "mettons",
+        "mettez"
       ],
       "participe_passe": [
         "mis"
       ],
       "subj": [
-        "que je mettree",
-        "que tu mettrees",
-        "qu'il/elle mettree",
+        "que je mette",
+        "que tu mettes",
+        "qu'il/elle mette",
         "que nous mettions",
         "que vous mettiez",
-        "qu'ils/elles mettreent"
+        "qu'ils/elles mettent"
       ],
       "cond": [
         "je mettrais",
@@ -29144,9 +29144,9 @@
         "ils/elles mettraient"
       ],
       "impv": [
-        "mettree",
-        "mettreons",
-        "mettreez"
+        "mets",
+        "mettons",
+        "mettez"
       ],
       "part": [
         "mettant",
@@ -29270,20 +29270,20 @@
         "qu'ils/elles meurent"
       ],
       "imperatif": [
-        "meurs !",
-        "meursons !",
-        "meursez !"
+        "meurs",
+        "mourons",
+        "mourez"
       ],
       "participe_passe": [
         "mort"
       ],
       "subj": [
-        "que je mourire",
-        "que tu mourires",
-        "qu'il/elle mourire",
+        "que je meure",
+        "que tu meures",
+        "qu'il/elle meure",
         "que nous mourions",
         "que vous mouriez",
-        "qu'ils/elles mourirent"
+        "qu'ils/elles meurent"
       ],
       "cond": [
         "je mourrais",
@@ -29294,9 +29294,9 @@
         "ils/elles mourraient"
       ],
       "impv": [
-        "mourire",
-        "mourirons",
-        "mourirez"
+        "meurs",
+        "mourons",
+        "mourez"
       ],
       "part": [
         "mourant",
@@ -29421,20 +29421,20 @@
         "qu'ils/elles naissent"
       ],
       "imperatif": [
-        "nais !",
-        "naisons !",
-        "naisez !"
+        "nais",
+        "naissons",
+        "naissez"
       ],
       "participe_passe": [
         "né"
       ],
       "subj": [
-        "que je naîtree",
-        "que tu naîtrees",
-        "qu'il/elle naîtree",
+        "que je naisse",
+        "que tu naisses",
+        "qu'il/elle naisse",
         "que nous naissions",
         "que vous naissiez",
-        "qu'ils/elles naîtreent"
+        "qu'ils/elles naissent"
       ],
       "cond": [
         "je naîtrais",
@@ -29445,9 +29445,9 @@
         "ils/elles naîtraient"
       ],
       "impv": [
-        "naîtree",
-        "naîtreons",
-        "naîtreez"
+        "nais",
+        "naissons",
+        "naissez"
       ],
       "part": [
         "naissant",
@@ -29571,20 +29571,20 @@
         "qu'ils/elles ouvrent"
       ],
       "imperatif": [
-        "ouvres !",
-        "ouvresons !",
-        "ouvresez !"
+        "ouvre",
+        "ouvrons",
+        "ouvrez"
       ],
       "participe_passe": [
         "ouvert"
       ],
       "subj": [
-        "que j'ouvrire",
-        "que tu ouvrires",
-        "qu'il/elle ouvrire",
+        "que j'ouvre",
+        "que tu ouvres",
+        "qu'il/elle ouvre",
         "que nous ouvrions",
         "que vous ouvriez",
-        "qu'ils/elles ouvrirent"
+        "qu'ils/elles ouvrent"
       ],
       "cond": [
         "j'ouvrirais",
@@ -29595,9 +29595,9 @@
         "ils/elles ouvriraient"
       ],
       "impv": [
-        "ouvrire",
-        "ouvrirons",
-        "ouvrirez"
+        "ouvre",
+        "ouvrons",
+        "ouvrez"
       ],
       "part": [
         "ouvrant",
@@ -29721,20 +29721,20 @@
         "qu'ils/elles partent"
       ],
       "imperatif": [
-        "pars !",
-        "parsons !",
-        "parsez !"
+        "pars",
+        "partons",
+        "partez"
       ],
       "participe_passe": [
         "parti"
       ],
       "subj": [
-        "que je partire",
-        "que tu partires",
-        "qu'il/elle partire",
+        "que je parte",
+        "que tu partes",
+        "qu'il/elle parte",
         "que nous partions",
         "que vous partiez",
-        "qu'ils/elles partirent"
+        "qu'ils/elles partent"
       ],
       "cond": [
         "je partirais",
@@ -29745,9 +29745,9 @@
         "ils/elles partiraient"
       ],
       "impv": [
-        "partire",
-        "partirons",
-        "partirez"
+        "pars",
+        "partons",
+        "partez"
       ],
       "part": [
         "partant",
@@ -29871,20 +29871,20 @@
         "qu'ils/elles reçoivent"
       ],
       "imperatif": [
-        "reçois !",
-        "reçoisons !",
-        "reçoisez !"
+        "reçois",
+        "recevons",
+        "recevez"
       ],
       "participe_passe": [
         "reçu"
       ],
       "subj": [
-        "que je recevoire",
-        "que tu recevoires",
-        "qu'il/elle recevoire",
+        "que je reçoive",
+        "que tu reçoives",
+        "qu'il/elle reçoive",
         "que nous recevions",
         "que vous receviez",
-        "qu'ils/elles recevoirent"
+        "qu'ils/elles reçoivent"
       ],
       "cond": [
         "je recevrais",
@@ -29895,9 +29895,9 @@
         "ils/elles recevraient"
       ],
       "impv": [
-        "recevoire",
-        "recevoirons",
-        "recevoirez"
+        "reçois",
+        "recevons",
+        "recevez"
       ],
       "part": [
         "recevant",
@@ -30021,20 +30021,20 @@
         "qu'ils/elles rendent"
       ],
       "imperatif": [
-        "rends !",
-        "rendsons !",
-        "rendsez !"
+        "rends",
+        "rendons",
+        "rendez"
       ],
       "participe_passe": [
         "rendu"
       ],
       "subj": [
-        "que je rendree",
-        "que tu rendrees",
-        "qu'il/elle rendree",
+        "que je rende",
+        "que tu rendes",
+        "qu'il/elle rende",
         "que nous rendions",
         "que vous rendiez",
-        "qu'ils/elles rendreent"
+        "qu'ils/elles rendent"
       ],
       "cond": [
         "je rendrais",
@@ -30045,9 +30045,9 @@
         "ils/elles rendraient"
       ],
       "impv": [
-        "rendree",
-        "rendreons",
-        "rendreez"
+        "rends",
+        "rendons",
+        "rendez"
       ],
       "part": [
         "rendant",
@@ -30171,20 +30171,20 @@
         "qu'ils/elles répondent"
       ],
       "imperatif": [
-        "réponds !",
-        "répondsons !",
-        "répondsez !"
+        "réponds",
+        "répondons",
+        "répondez"
       ],
       "participe_passe": [
         "répondu"
       ],
       "subj": [
-        "que je répondree",
-        "que tu répondrees",
-        "qu'il/elle répondree",
+        "que je réponde",
+        "que tu répondes",
+        "qu'il/elle réponde",
         "que nous répondions",
         "que vous répondiez",
-        "qu'ils/elles répondreent"
+        "qu'ils/elles répondent"
       ],
       "cond": [
         "je répondrais",
@@ -30195,9 +30195,9 @@
         "ils/elles répondraient"
       ],
       "impv": [
-        "répondree",
-        "répondreons",
-        "répondreez"
+        "réponds",
+        "répondons",
+        "répondez"
       ],
       "part": [
         "répondant",
@@ -30321,20 +30321,20 @@
         "qu'ils/elles sortent"
       ],
       "imperatif": [
-        "sors !",
-        "sorsons !",
-        "sorsez !"
+        "sors",
+        "sortons",
+        "sortez"
       ],
       "participe_passe": [
         "sorti"
       ],
       "subj": [
-        "que je sortire",
-        "que tu sortires",
-        "qu'il/elle sortire",
+        "que je sorte",
+        "que tu sortes",
+        "qu'il/elle sorte",
         "que nous sortions",
         "que vous sortiez",
-        "qu'ils/elles sortirent"
+        "qu'ils/elles sortent"
       ],
       "cond": [
         "je sortirais",
@@ -30345,9 +30345,9 @@
         "ils/elles sortiraient"
       ],
       "impv": [
-        "sortire",
-        "sortirons",
-        "sortirez"
+        "sors",
+        "sortons",
+        "sortez"
       ],
       "part": [
         "sortant",
@@ -30471,20 +30471,20 @@
         "qu'ils/elles suivent"
       ],
       "imperatif": [
-        "suis !",
-        "suisons !",
-        "suisez !"
+        "suis",
+        "suivons",
+        "suivez"
       ],
       "participe_passe": [
         "suivi"
       ],
       "subj": [
-        "que je suivree",
-        "que tu suivrees",
-        "qu'il/elle suivree",
+        "que je suive",
+        "que tu suives",
+        "qu'il/elle suive",
         "que nous suivions",
         "que vous suiviez",
-        "qu'ils/elles suivreent"
+        "qu'ils/elles suivent"
       ],
       "cond": [
         "je suivrais",
@@ -30495,9 +30495,9 @@
         "ils/elles suivraient"
       ],
       "impv": [
-        "suivree",
-        "suivreons",
-        "suivreez"
+        "suis",
+        "suivons",
+        "suivez"
       ],
       "part": [
         "suivant",
@@ -30621,20 +30621,20 @@
         "qu'ils/elles tiennent"
       ],
       "imperatif": [
-        "tiens !",
-        "tiensons !",
-        "tiensez !"
+        "tiens",
+        "tenons",
+        "tenez"
       ],
       "participe_passe": [
         "tenu"
       ],
       "subj": [
-        "que je tenire",
-        "que tu tenires",
-        "qu'il/elle tenire",
+        "que je tienne",
+        "que tu tiennes",
+        "qu'il/elle tienne",
         "que nous tenions",
         "que vous teniez",
-        "qu'ils/elles tenirent"
+        "qu'ils/elles tiennent"
       ],
       "cond": [
         "je tiendrais",
@@ -30645,12 +30645,12 @@
         "ils/elles tiendraient"
       ],
       "impv": [
-        "tenire",
-        "tenirons",
-        "tenirez"
+        "tiens",
+        "tenons",
+        "tenez"
       ],
       "part": [
-        "teniant",
+        "tenant",
         "tenu"
       ],
       "pres": [
