@@ -236,3 +236,81 @@
 .btn-print { background: #333; color: #fff; border: none; padding: 10px 20px; border-radius: 5px; font-weight: 700; cursor: pointer; }
 
 .print-container { background: #fff; max-width: 800px; margin: 2rem auto; padding: 4rem; box-shadow: 0 0 30px rgba(0,0,0,0.1); min-height: 297mm; }
+
+/* Print Studio Refactored CSS Classes */
+.print-select-compact {
+  width: auto !important;
+  height: 36px !important;
+  padding: 4px 8px !important;
+  font-weight: bold !important;
+}
+.btn-print-honey {
+  background-color: var(--honey-dark, #b7791f) !important;
+  height: 36px !important;
+}
+.btn-action-sm {
+  height: 36px !important;
+}
+.option-highlight-notebook {
+  color: var(--sage-dark);
+  font-weight: bold;
+}
+.print-guide-subtitle {
+  color: #666;
+  font-size: 1.1rem;
+  margin-top: 0.25rem;
+}
+.print-guide-list {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  padding-left: 1.2rem;
+}
+.print-dashed-placeholder {
+  border: 1px dashed #eee !important;
+}
+.zine-cover-bg {
+  background: #f7fafc;
+}
+.zine-cover-title {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #2d5a45;
+}
+.zine-cover-desc {
+  font-size: 0.75rem;
+  color: #666;
+  margin-top: 0.5rem;
+  line-height: 1.4;
+}
+.zine-logo-img {
+  height: 35px;
+  width: auto;
+}
+.grammar-header-banner {
+  text-align: center;
+  margin-bottom: 2rem;
+  border-bottom: 3px double var(--sage-deep);
+  padding-bottom: 1.5rem;
+}
+.grammar-header-logo {
+  height: 50px;
+  margin-bottom: 0.5rem;
+}
+.grammar-header-title {
+  font-family: 'Lora', serif;
+  color: var(--sage-deep);
+  font-size: 2.2rem;
+  margin: 0;
+}
+.grammar-header-meta {
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--honey-dark);
+  letter-spacing: 2px;
+  margin-top: 0.5rem;
+}
+.grammar-empty-msg {
+  text-align: center;
+  color: #666;
+  padding: 2rem;
+}

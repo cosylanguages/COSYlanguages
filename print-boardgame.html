@@ -181,7 +181,7 @@
 <body class="print-preview">
 
 <div class="print-controls">
-    <select id="sel-lang" class="styled-sel" style="width: auto; height: 36px; padding: 4px 8px; font-weight: bold;">
+    <select id="sel-lang" class="styled-sel print-select-compact">
         <option value="en">🇬🇧 English</option>
         <option value="fr">🇫🇷 Français</option>
         <option value="it">🇮🇹 Italiano</option>
@@ -189,7 +189,7 @@
         <option value="el">🇬🇷 Ελληνικά</option>
     </select>
 
-    <select id="sel-level" class="styled-sel" style="width: auto; height: 36px; padding: 4px 8px; font-weight: bold;">
+    <select id="sel-level" class="styled-sel print-select-compact">
         <option value="A1">Starter (A1)</option>
         <option value="A2">Elementary (A2)</option>
         <option value="B1">Intermediate (B1)</option>
@@ -198,28 +198,28 @@
         <option value="C2">Proficiency (C2)</option>
     </select>
 
-    <select id="sel-topic" class="styled-sel" style="width: auto; height: 36px; padding: 4px 8px; font-weight: bold;">
+    <select id="sel-topic" class="styled-sel print-select-compact">
         <option value="adjectives">🏷️ Adjectives</option>
         <option value="verbs">🏃 Verbs</option>
         <option value="vocabulary">📖 General Vocab</option>
         <option value="locations">🗺️ Locations</option>
         <option value="people">👥 People</option>
         <option value="dishes">🍕 Dishes &amp; Food</option>
-        <option value="notebook_dict" style="color: var(--sage-dark); font-weight: bold;">⚡ Load My Notebook</option>
+        <option value="notebook_dict" class="option-highlight-notebook">⚡ Load My Notebook</option>
     </select>
 
-    <button onclick="window.print()" class="btn-print" style="background-color: var(--honey-dark, #b7791f); height: 36px;">🖨️ Print Board Game Set</button>
+    <button onclick="window.print()" class="btn-print btn-print-honey">🖨️ Print Board Game Set</button>
 </div>
 
 <main class="print-container">
     <div class="boardgame-title">
         <h1>COSYlanguages Tabletop Board Game 🎲</h1>
-        <p style="color: #666; font-size: 1.1rem; margin-top: 0.25rem;">A custom, print-and-play conversational board game to master language fluency offline.</p>
+        <p class="print-guide-subtitle">A custom, print-and-play conversational board game to master language fluency offline.</p>
     </div>
 
     <div class="instructions">
         <strong>🎲 How to play:</strong>
-        <ol style="margin-top: 0.5rem; margin-bottom: 0; padding-left: 1.2rem;">
+        <ol class="print-guide-list">
             <li>Print this page (Board Game + challenge cards deck) on thick cardstock or heavy paper. Cut out the 12 playing cards below.</li>
             <li>Each player needs a token (e.g. a coin or button). Place them on the <strong>🏠 START</strong> space.</li>
             <li>Take turns rolling a die or flipping a coin to move forward 1-3 spaces on the winding track.</li>

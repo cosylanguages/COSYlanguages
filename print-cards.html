@@ -159,7 +159,7 @@
 <body class="print-preview">
 
 <div class="print-controls">
-    <select id="sel-lang" onchange="loadCategoryData()" class="styled-sel" style="width: auto; height: 36px; padding: 4px 8px; font-weight: bold;">
+    <select id="sel-lang" onchange="loadCategoryData()" class="styled-sel print-select-compact">
         <option value="en">🇬🇧 English</option>
         <option value="fr">🇫🇷 Français</option>
         <option value="it">🇮🇹 Italiano</option>
@@ -167,7 +167,7 @@
         <option value="el">🇬🇷 Ελληνικά</option>
     </select>
 
-    <select id="sel-level" onchange="loadCategoryData()" class="styled-sel" style="width: auto; height: 36px; padding: 4px 8px; font-weight: bold;">
+    <select id="sel-level" onchange="loadCategoryData()" class="styled-sel print-select-compact">
         <option value="A1">Starter (A1)</option>
         <option value="A2">Elementary (A2)</option>
         <option value="B1">Intermediate (B1)</option>
@@ -176,20 +176,20 @@
         <option value="C2">Proficiency (C2)</option>
     </select>
 
-    <select id="sel-topic" onchange="loadCategoryData()" class="styled-sel" style="width: auto; height: 36px; padding: 4px 8px; font-weight: bold;">
+    <select id="sel-topic" onchange="loadCategoryData()" class="styled-sel print-select-compact">
         <option value="adjectives">🏷️ Adjectives</option>
         <option value="verbs">🏃 Verbs</option>
         <option value="vocabulary">📖 General Vocab</option>
         <option value="locations">🗺️ Locations</option>
         <option value="people">👥 People</option>
         <option value="dishes">🍕 Dishes &amp; Food</option>
-        <option value="notebook_dict" style="color: var(--sage-dark); font-weight: bold;">⚡ Load My Notebook</option>
+        <option value="notebook_dict" class="option-highlight-notebook">⚡ Load My Notebook</option>
     </select>
 
-    <button onclick="document.getElementById('file-input').click()" class="btn-action" style="height: 36px;">📂 Load JSON File</button>
+    <button onclick="document.getElementById('file-input').click()" class="btn-action btn-action-sm">📂 Load JSON File</button>
     <input type="file" id="file-input" style="display: none;" onchange="handleFileUpload(event)">
 
-    <button onclick="window.print()" class="btn-action" style="background-color: var(--honey-dark, #b7791f); height: 36px;">🖨️ Print study cards</button>
+    <button onclick="window.print()" class="btn-action btn-print-honey">🖨️ Print study cards</button>
 </div>
 
 <main class="print-container">
@@ -316,7 +316,7 @@
         // Render Fronts (Row-by-Row, Left to Right)
         pageSet.forEach(card => {
             if (!card.word) {
-                frontsGrid.innerHTML += `<div class="leitner-card-front" style="border:1px dashed #eee;"></div>`;
+                frontsGrid.innerHTML += `<div class="leitner-card-front print-dashed-placeholder"></div>`;
                 return;
             }
             frontsGrid.innerHTML += `
@@ -333,7 +333,7 @@
         reversedIndices.forEach(idx => {
             const card = pageSet[idx];
             if (!card || !card.word) {
-                backsGrid.innerHTML += `<div class="leitner-card-back" style="border:1px dashed #eee;"></div>`;
+                backsGrid.innerHTML += `<div class="leitner-card-back print-dashed-placeholder"></div>`;
                 return;
             }
             const defText = card.definition || (card.definitions && card.definitions[0] ? card.definitions[0].text : '');

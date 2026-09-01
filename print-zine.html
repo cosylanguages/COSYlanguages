@@ -180,7 +180,7 @@
 <body class="print-preview">
 
 <div class="print-controls">
-    <select id="sel-lang" onchange="loadCategoryData()" class="styled-sel" style="width: auto; height: 36px; padding: 4px 8px; font-weight: bold;">
+    <select id="sel-lang" onchange="loadCategoryData()" class="styled-sel print-select-compact">
         <option value="en">🇬🇧 English</option>
         <option value="fr">🇫🇷 Français</option>
         <option value="it">🇮🇹 Italiano</option>
@@ -188,7 +188,7 @@
         <option value="el">🇬🇷 Ελληνικά</option>
     </select>
 
-    <select id="sel-level" onchange="loadCategoryData()" class="styled-sel" style="width: auto; height: 36px; padding: 4px 8px; font-weight: bold;">
+    <select id="sel-level" onchange="loadCategoryData()" class="styled-sel print-select-compact">
         <option value="A1">Starter (A1)</option>
         <option value="A2">Elementary (A2)</option>
         <option value="B1">Intermediate (B1)</option>
@@ -197,23 +197,23 @@
         <option value="C2">Proficiency (C2)</option>
     </select>
 
-    <select id="sel-topic" onchange="loadCategoryData()" class="styled-sel" style="width: auto; height: 36px; padding: 4px 8px; font-weight: bold;">
+    <select id="sel-topic" onchange="loadCategoryData()" class="styled-sel print-select-compact">
         <option value="adjectives">🏷️ Adjectives</option>
         <option value="verbs">🏃 Verbs</option>
         <option value="vocabulary">📖 General Vocab</option>
         <option value="locations">🗺️ Locations</option>
         <option value="people">👥 People</option>
         <option value="dishes">🍕 Dishes &amp; Food</option>
-        <option value="notebook_dict" style="color: var(--sage-dark); font-weight: bold;">⚡ Load My Notebook</option>
+        <option value="notebook_dict" class="option-highlight-notebook">⚡ Load My Notebook</option>
     </select>
 
-    <button onclick="window.print()" class="btn-action" style="background-color: var(--honey-dark, #b7791f); height: 36px;">🖨️ Print Pocket Zine</button>
+    <button onclick="window.print()" class="btn-action btn-print-honey">🖨️ Print Pocket Zine</button>
 </div>
 
 <main class="print-container">
     <div class="folding-guide-banner">
         <strong>✂️ Pocket Zine Folding Guide:</strong>
-        <ol style="margin-top: 0.5rem; margin-bottom: 0; padding-left: 1.2rem;">
+        <ol class="print-guide-list">
             <li>Print this sheet in landscape format (landscape option enabled).</li>
             <li>Fold the paper in half horizontally, then unfold.</li>
             <li>Fold the paper in half vertically, then fold the outer edges to the center crease (8 segments), then unfold.</li>
@@ -327,7 +327,7 @@
                 contentHtml = `
                     <div class="zine-panel zine-cover ${p.rotation}">
                         <div class="zine-content">
-                            <img src="images/logos/cosylanguages.png" style="height:35px; width:auto;" alt="logo">
+                            <img src="images/logos/cosylanguages.png" class="zine-logo-img" alt="logo">
                             <div class="zine-cover-title">${p.title}</div>
                             <div class="zine-cover-subtitle">${p.subtitle}</div>
                         </div>
@@ -336,10 +336,10 @@
                 `;
             } else if (p.type === 'back') {
                 contentHtml = `
-                    <div class="zine-panel zine-cover ${p.rotation}" style="background:#f7fafc;">
+                    <div class="zine-panel zine-cover ${p.rotation} zine-cover-bg">
                         <div class="zine-content">
-                            <div style="font-weight:bold; font-size:1rem; color:#2d5a45;">${p.title}</div>
-                            <div style="font-size:0.75rem; color:#666; margin-top:0.5rem; line-height:1.4;">${p.desc}</div>
+                            <div class="zine-cover-title">${p.title}</div>
+                            <div class="zine-cover-desc">${p.desc}</div>
                         </div>
                         <div class="zine-page-num">${p.text}</div>
                     </div>
