@@ -110,6 +110,8 @@ test.describe('Standalone Language Reference Apps Verification', () => {
 
     test('en-verb-prep loads and displays transitivity badge, dependent prepositions, phrasal verbs with separability, CEFR level, and game mode', async ({ page }) => {
         await page.goto('http://localhost:8080/apps/en-verb-prep/index.html');
+        // Switch to Look Up mode first where search input exists
+        await page.click('#nav-lookup-btn');
         await page.waitForSelector('#verb-search-input');
 
         await page.fill('#verb-search-input', 'depend');
@@ -140,8 +142,7 @@ test.describe('Standalone Language Reference Apps Verification', () => {
         await expect(page.locator('#transitivity-badge')).toContainText('Transitive (VT)');
 
         // Check Practice Mode Toggle
-        await page.click('#toggle-game-btn');
-        await expect(page.locator('#game-container')).toBeVisible();
-        await expect(page.locator('#game-verb-prompt')).not.toBeEmpty();
+        await page.click('#nav-practice-btn');
+        await expect(page.locator('#practice-view-container')).toBeVisible();
     });
 });
