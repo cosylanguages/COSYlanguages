@@ -1594,3 +1594,336 @@ body.theme-dark .session-mini-nav .sd-jump-link.active {
     min-height: 44px;
   }
 }
+
+/* Notebook & Hybrid Component Clean CSS Classes */
+.notebook-sub {
+  color: var(--ink-muted);
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+.hero-ctas-notebook {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.btn-notebook-action {
+  background: var(--card-bg, #fff);
+  padding: 10px 16px;
+  font-size: 0.85rem;
+}
+.input-manual-entry {
+  background: var(--card-bg, #fff);
+  appearance: none;
+  background-image: none;
+}
+.btn-save-manual {
+  padding: 10px 24px;
+  height: 42px;
+}
+.mistake-container-card {
+  margin-bottom: 2rem;
+}
+.notebook-empty-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.notebook-empty-cta {
+  display: inline-block;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+.btn-remove-card {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+.card-word-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 0.5rem;
+}
+.card-word-title {
+  margin-bottom: 0;
+}
+.btn-pronounce-card {
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: all 0.2s;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.badge-lang-tag {
+  font-size: 0.6rem;
+  background: var(--teal-light);
+  color: var(--teal);
+  border: none;
+}
+.ri-dot-teal {
+  background: var(--teal);
+}
+
+.hero-ctas-hybrid {
+  flex-wrap: wrap;
+}
+.speak-badge-sage {
+  background: linear-gradient(135deg, var(--sage-deep), #223826);
+}
+.hybrid-prose-summary {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  padding: 1.25rem;
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  backdrop-filter: blur(8px);
+}
+.hybrid-prose-summary p {
+  margin: 0;
+}
+.why-exists-sec {
+  max-width: 780px;
+  margin: 0 auto 3.5rem;
+  padding: 0 1rem;
+  text-align: left;
+}
+.sec-tag-mb {
+  margin-bottom: 0.75rem;
+}
+.why-exists-quote {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(1.1rem, 2.5vw, 1.25rem);
+  font-style: italic;
+  font-weight: 300;
+  color: var(--ink-soft);
+  line-height: 1.7;
+  margin: 0;
+}
+.hybrid-pillar-box {
+  background: var(--cream-dark);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 2rem;
+  max-width: 820px;
+  margin: 1.5rem auto 0;
+  text-align: left;
+  box-shadow: var(--shadow-sm);
+}
+.hybrid-pillar-box > p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--ink);
+  margin: 0 0 1.25rem 0;
+}
+.hybrid-pillar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+.hybrid-pillar-card {
+  background: var(--warm-white);
+  padding: 1.25rem;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+}
+.hybrid-pillar-card h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+  color: var(--sage-dark);
+}
+.hybrid-pillar-card p {
+  font-size: 0.9rem;
+  color: var(--ink-muted);
+  margin: 0;
+  line-height: 1.5;
+}
+.course-card-bridge {
+  background: linear-gradient(135deg, #2b4836, #16281c);
+  color: white;
+}
+.course-card-zine {
+  background: linear-gradient(135deg, #7c4a24, #44240e);
+  color: white;
+}
+.course-card-radio {
+  background: linear-gradient(135deg, #5b3554, #2c1629);
+  color: white;
+}
+.cc-icon-lg {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+.cc-title-white {
+  color: white;
+}
+.cc-desc-soft {
+  color: rgba(255,255,255,0.85);
+}
+.btn-card-on-dark-soft {
+  background: rgba(255,255,255,0.15);
+  color: white;
+  border-color: rgba(255,255,255,0.3);
+}
+
+/* Comparative Atlas Clean CSS Classes */
+.badge-tag-uppercase {
+  background: rgba(255,255,255,0.15);
+  padding: 5px 14px;
+  border-radius: 99px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.category-filter-bar-padded {
+  margin-top: 12px;
+  padding-top: 12px;
+}
+.transfer-tips-box-panel {
+  display: none;
+  background: #fff8e6;
+  border: 1px solid #f0d588;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 28px;
+  box-shadow: 0 4px 16px -8px rgba(184, 134, 11, 0.2);
+}
+.transfer-tips-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.transfer-tips-title-text {
+  margin: 0;
+  font-family: 'Poppins', system-ui, sans-serif;
+  font-size: 16px;
+  color: #7a5200;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.btn-chip-sm {
+  font-size: 11px;
+  padding: 2px 8px;
+}
+.transfer-tips-grid-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 12px;
+}
+.transfer-tips-empty-msg {
+  font-size: 13px;
+  color: #8a6d3b;
+  grid-column: 1 / -1;
+}
+.transfer-tips-item-card {
+  background: #ffffff;
+  border: 1px solid #f0e2b6;
+  border-radius: 12px;
+  padding: 12px 14px;
+}
+.transfer-tips-item-header {
+  font-weight: 700;
+  font-size: 13.5px;
+  color: #5c3d00;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.transfer-tips-item-body {
+  font-size: 13px;
+  color: #4a3810;
+  line-height: 1.45;
+}
+.comparative-footer-bar {
+  background: var(--brand-teal);
+  color: #c9d8d4;
+  padding: 36px 24px;
+  text-align: center;
+  font-size: 13.5px;
+}
+.cell-status-disabled {
+  color: #b3b3b3;
+}
+.lang-chip-flag {
+  font-size: 20px;
+}
+.lang-chip-code {
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+/* Premium Courses Hub Clean CSS Classes */
+.course-card-general {
+  background: linear-gradient(135deg, var(--sage-deep), #1a2a1d);
+}
+.course-card-spoken {
+  background: linear-gradient(135deg, var(--coral), #8a3a1d);
+  color: white;
+}
+.course-card-exam {
+  background: linear-gradient(135deg, var(--plum), #4a3a2a);
+  color: white;
+}
+.course-card-travelling {
+  background: linear-gradient(135deg, var(--green), #2a4a33);
+  color: white;
+}
+.course-card-professional {
+  background: linear-gradient(135deg, var(--navy), #0a112b);
+  color: white;
+}
+.course-card-relocation {
+  background: linear-gradient(135deg, #d66161, #8a2a2a);
+  color: white;
+}
+.course-card-upcoming {
+  opacity: 0.7;
+}
+.course-logo-img {
+  height: 50px;
+}
+.badge-inline-sm {
+  font-size: 0.6em;
+  vertical-align: middle;
+}
+.btn-card-white-coral {
+  background: white;
+  color: var(--coral);
+}
+.btn-card-white-plum {
+  background: white;
+  color: var(--plum);
+}
+.btn-card-white-green {
+  background: white;
+  color: var(--green);
+}
+.btn-card-white-navy {
+  background: white;
+  color: var(--navy);
+}
+.btn-card-white-relocation {
+  background: white;
+  color: #d66161;
+}
+
+/* Coming Soon Clean CSS Classes */
+.coming-soon-cta-sec {
+  margin-top: 6rem;
+  text-align: center;
+}
+.coming-soon-cta-btn {
+  margin-top: 1.5rem;
+}

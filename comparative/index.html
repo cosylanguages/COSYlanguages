@@ -291,7 +291,7 @@
 </header>
 
 <section class="hero-comp">
-  <span style="background: rgba(255,255,255,0.15); padding: 5px 14px; border-radius: 99px; font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;">
+  <span class="badge-tag-uppercase">
     Interactive Linguistic Matrix · Level A0–A1
   </span>
   <h1>Comparative Grammar Matrix</h1>
@@ -322,7 +322,7 @@
     </div>
 
     <!-- Known Language Transfer Tips Bar -->
-    <div class="category-filter-bar" style="margin-top:12px; padding-top:12px;">
+    <div class="category-filter-bar category-filter-bar-padded">
       <label for="known-lang-select">💡 I already know...</label>
       <select id="known-lang-select" class="cat-select" onchange="renderTransferTips()">
         <option value="">-- Select a language you know --</option>
@@ -331,14 +331,14 @@
   </div>
 
   <!-- Transfer Tips Callout Box -->
-  <div id="transfer-tips-box" style="display:none; background: #fff8e6; border: 1px solid #f0d588; border-radius: 16px; padding: 20px; margin-bottom: 28px; box-shadow: 0 4px 16px -8px rgba(184, 134, 11, 0.2);">
-    <div style="display:flex; align-items:center; justify-between; gap:12px; margin-bottom:12px;">
-      <h3 id="transfer-tips-title" style="margin:0; font-family:'Poppins', system-ui, sans-serif; font-size:16px; color:#7a5200; display:flex; align-items:center; gap:8px;">
+  <div id="transfer-tips-box" class="transfer-tips-box-panel">
+    <div class="transfer-tips-header-row">
+      <h3 id="transfer-tips-title" class="transfer-tips-title-text">
         💡 Linguistic Transfer Insights
       </h3>
-      <button onclick="clearKnownLang()" class="btn-chip" style="font-size:11px; padding:2px 8px;">Clear</button>
+      <button onclick="clearKnownLang()" class="btn-chip btn-chip-sm">Clear</button>
     </div>
-    <div id="transfer-tips-list" style="display:grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap:12px;"></div>
+    <div id="transfer-tips-list" class="transfer-tips-grid-list"></div>
   </div>
 
   <!-- Comparative Matrix Table -->
@@ -351,7 +351,7 @@
 
 </main>
 
-<footer style="background: var(--brand-teal); color: #c9d8d4; padding: 36px 24px; text-align: center; font-size: 13.5px;">
+<footer class="comparative-footer-bar">
   <div>&copy; 2026 COSYlanguages · All rights reserved · Comparative Grammar Matrix</div>
 </footer>
 
@@ -417,7 +417,7 @@
     if (matchingNotes.length === 0) {
       tipsBox.style.display = 'block';
       tipsTitle.innerHTML = `💡 Transfer Insights for ${FLAG_MAP[knownCode] || ''} ${knownLang ? knownLang.name_en : knownCode}`;
-      tipsList.innerHTML = `<div style="font-size:13px; color:#8a6d3b; grid-column: 1 / -1;">No specific transfer notes cataloged for this language yet.</div>`;
+      tipsList.innerHTML = `<div class="transfer-tips-empty-msg">No specific transfer notes cataloged for this language yet.</div>`;
       return;
     }
 
@@ -430,11 +430,11 @@
       const targetFlag = FLAG_MAP[note.target_language] || '🌐';
 
       return `
-        <div style="background:#ffffff; border:1px solid #f0e2b6; border-radius:12px; padding:12px 14px;">
-          <div style="font-weight:700; font-size:13.5px; color:#5c3d00; margin-bottom:4px; display:flex; align-items:center; gap:6px;">
+        <div class="transfer-tips-item-card">
+          <div class="transfer-tips-item-header">
             <span>→ ${targetFlag} Learning ${targetName}:</span>
           </div>
-          <div style="font-size:13px; color:#4a3810; line-height:1.45;">
+          <div class="transfer-tips-item-body">
             ${note.note}
           </div>
         </div>
@@ -469,7 +469,7 @@
       groupEl.innerHTML = `
         <div class="family-title">
           <span>${famName}</span>
-          <button class="btn-chip ${isAllFamilySelected ? 'active' : ''}" style="padding:2px 8px; font-size:11px;" onclick="toggleFamily('${famName}')">
+          <button class="btn-chip ${isAllFamilySelected ? 'active' : ''} btn-chip-sm" onclick="toggleFamily('${famName}')">
             ${isAllFamilySelected ? 'Deselect Family' : 'Select Family'}
           </button>
         </div>
@@ -549,8 +549,8 @@
         <th class="col-feature">Grammar Feature</th>
         ${selectedLangs.map(l => `
           <th class="col-lang" title="${l.name_en} (${l.name_native})">
-            <div style="font-size:20px;">${FLAG_MAP[l.code] || '🌐'}</div>
-            <div style="font-size:12px; margin-top:2px;">${l.code.toUpperCase()}</div>
+            <div class="lang-chip-flag">${FLAG_MAP[l.code] || '🌐'}</div>
+            <div class="lang-chip-code">${l.code.toUpperCase()}</div>
           </th>
         `).join('')}
       </tr>
@@ -595,7 +595,7 @@
               </td>
             `;
           } else {
-            return `<td class="cell-status" style="color:#b3b3b3;">❌</td>`;
+            return `<td class="cell-status cell-status-disabled">❌</td>`;
           }
         }).join('')}
       </tr>

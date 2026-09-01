@@ -277,12 +277,12 @@
         <header class="dash-hero">
             <div>
                 <h1 class="dash-greeting" data-translate-key="notebook_h1">My Personal <strong>Notebook</strong> 📓</h1>
-                <p style="color:var(--ink-muted); font-size:0.9rem; margin-top:0.5rem;" data-translate-key="notebook_sub">Expanding your linguistic horizons, one word at a time.</p>
+                <p class="notebook-sub" data-translate-key="notebook_sub">Expanding your linguistic horizons, one word at a time.</p>
             </div>
-            <div class="hero-ctas" style="display: flex; gap: 8px; flex-wrap: wrap;">
-                <button class="btn-outline" onclick="COSY.exportDict()" style="background: #fff; padding: 10px 16px; font-size: 0.85rem;" data-translate-key="btn_export_txt">Export Data 📥</button>
-                <button class="btn-outline" onclick="backupDictJSON()" style="background: #fff; padding: 10px 16px; font-size: 0.85rem;" data-translate-key="btn_backup_json">Backup (JSON) 📤</button>
-                <button class="btn-outline" onclick="document.getElementById('import-file-input').click()" style="background: #fff; padding: 10px 16px; font-size: 0.85rem;" data-translate-key="btn_restore_json">Restore Backup 📥</button>
+            <div class="hero-ctas hero-ctas-notebook">
+                <button class="btn-outline btn-notebook-action" onclick="COSY.exportDict()" data-translate-key="btn_export_txt">Export Data 📥</button>
+                <button class="btn-outline btn-notebook-action" onclick="backupDictJSON()" data-translate-key="btn_backup_json">Backup (JSON) 📤</button>
+                <button class="btn-outline btn-notebook-action" onclick="document.getElementById('import-file-input').click()" data-translate-key="btn_restore_json">Restore Backup 📥</button>
                 <input type="file" id="import-file-input" accept=".json" style="display: none;" onchange="importDictJSON(event)">
             </div>
         </header>
@@ -301,13 +301,13 @@
                     <div class="add-word-form">
                         <div>
                             <label class="field-label" data-translate-key="label_word">Word</label>
-                            <input type="text" id="manual-word" data-translate-placeholder="placeholder_word" placeholder="e.g. Serendipity" class="styled-select" style="background: #fff; appearance: none; background-image: none;">
+                            <input type="text" id="manual-word" data-translate-placeholder="placeholder_word" placeholder="e.g. Serendipity" class="styled-select input-manual-entry">
                         </div>
                         <div>
                             <label class="field-label" data-translate-key="label_def">Definition or notes</label>
-                            <input type="text" id="manual-def" data-translate-placeholder="placeholder_def" placeholder="What does it mean?" class="styled-select" style="background: #fff; appearance: none; background-image: none;">
+                            <input type="text" id="manual-def" data-translate-placeholder="placeholder_def" placeholder="What does it mean?" class="styled-select input-manual-entry">
                         </div>
-                        <button onclick="addManualWord()" class="btn-start" style="padding: 10px 24px; height: 42px;" data-translate-key="btn_save">+ Save</button>
+                        <button onclick="addManualWord()" class="btn-start btn-save-manual" data-translate-key="btn_save">+ Save</button>
                     </div>
                 </div>
 
@@ -323,7 +323,7 @@
             <!-- Tab: Mistakes -->
             <div id="tab-mistakes" class="tab-content">
                 <h2 class="sec-title"><span data-translate-key="weak_spots">Weak Spots</span> <span data-translate-key="targeted_review">Targeted review</span></h2>
-                <div id="mistake-container" class="info-card" style="margin-bottom: 2rem;">
+                <div id="mistake-container" class="info-card mistake-container-card">
                     <div id="mistake-list" class="mistake-list">
                         <!-- Loaded via JS -->
                     </div>
@@ -550,10 +550,10 @@
                 const t = (key, def) => (window.t ? window.t(key) : def);
                 container.innerHTML = `
                     <div class="empty-state">
-                        <div style="font-size: 3rem; margin-bottom: 1rem;">🌱</div>
+                        <div class="notebook-empty-icon">🌱</div>
                         <h3>${t('vocab_empty_title', 'Your vocabulary is empty')}</h3>
                         <p>${t('vocab_empty_sub', 'Words you save from lessons and games will appear here.')}</p>
-                        <a href="../practice/index.html" class="btn-start" style="display: inline-block; margin-top: 1rem; text-decoration: none;">${t('explore_practice_hub', 'Explore Practice Hub')}</a>
+                        <a href="../practice/index.html" class="btn-start notebook-empty-cta">${t('explore_practice_hub', 'Explore Practice Hub')}</a>
                     </div>
                 `;
                 return;
@@ -577,10 +577,10 @@
                 if (ants.length > 0) detailsHtml += `<div class="vocab-rel-item"><div class="vocab-label">Antonyms</div><div class="v-ants"></div></div>`;
 
                 el.innerHTML = `
-                    <button class="btn-remove" style="position: absolute; top: 1rem; right: 1rem;" title="Remove">✕</button>
-                    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.5rem;">
-                        <div class="vocab-word" style="margin-bottom: 0;"></div>
-                        <button class="btn-pronounce" title="Listen Pronunciation" aria-label="Listen pronunciation" style="background:none; border:none; font-size:1.1rem; cursor:pointer; opacity:0.6; transition:all 0.2s; padding:0; display:inline-flex; align-items:center; justify-content:center;"></button>
+                    <button class="btn-remove btn-remove-card" title="Remove">✕</button>
+                    <div class="card-word-header">
+                        <div class="vocab-word card-word-title"></div>
+                        <button class="btn-pronounce btn-pronounce-card" title="Listen Pronunciation" aria-label="Listen pronunciation"></button>
                     </div>
                     <div class="vocab-def"></div>
                     <div class="vocab-details">${detailsHtml}</div>
@@ -588,7 +588,7 @@
                         <button class="btn-expand" onclick="toggleExpand('${id}')">
                             <span class="expand-label">Show Details</span> ▾
                         </button>
-                        ${data.lang ? `<span class="badge-new" style="font-size:0.6rem; background: var(--teal-light); color: var(--teal); border:none;">${data.lang.toUpperCase()}</span>` : ''}
+                        ${data.lang ? `<span class="badge-new badge-lang-tag">${data.lang.toUpperCase()}</span>` : ''}
                     </div>
                 `;
 
@@ -671,7 +671,7 @@
                 if (history.length === 0) recentList.innerHTML = `<div class="info-card-empty">${t('recent_empty', 'No sessions yet — start practising!')}</div>`;
                 else recentList.innerHTML = history.map(session => `
                     <div class="recent-item">
-                        <div class="ri-dot" style="background:var(--teal);"></div>
+                        <div class="ri-dot ri-dot-teal"></div>
                         <div class="ri-name">${session.lang.toUpperCase()} · ${session.cat}</div>
                         <div class="ri-pts">+${session.pts} ✨</div>
                     </div>`).join('');
