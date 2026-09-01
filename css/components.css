@@ -1927,3 +1927,196 @@ body.theme-dark .session-mini-nav .sd-jump-link.active {
 .coming-soon-cta-btn {
   margin-top: 1.5rem;
 }
+
+/* Practice Hub Clean CSS Classes */
+.practice-sub {
+  color: var(--ink-muted);
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+.stat-teal-border {
+  border-left: 3px solid var(--teal);
+}
+.setup-panel-spaced {
+  margin-top: 2rem;
+}
+.steps-2-5-panel-grid {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  background: var(--cream-dark);
+  border: 1.5px solid var(--border);
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin-top: 1rem;
+  box-sizing: border-box;
+}
+.pe-counters-rel {
+  position: relative;
+}
+.combo-wrap-pill {
+  background: rgba(196, 82, 42, 0.15);
+  border-radius: 8px;
+  padding: 2px 8px;
+}
+.combo-text-amber {
+  color: #E8A838;
+}
+.pe-progress-text-styled {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: var(--ink-muted);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.cog-hub-banner {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.cog-hub-inner {
+  background: linear-gradient(135deg, var(--sage-deep), #2a3a2d);
+  color: white;
+  padding: 2.5rem;
+  border-radius: 24px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+.cog-hub-content {
+  position: relative;
+  z-index: 2;
+}
+.cog-hub-badge {
+  background: var(--honey);
+  color: #fff;
+  font-weight: 800;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 4px 12px;
+  border-radius: 100px;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+.cog-hub-title {
+  font-family: 'Lora', serif;
+  font-size: 1.8rem;
+  margin: 0 0 0.5rem 0;
+  color: #fff;
+}
+.cog-hub-desc {
+  color: rgba(255,255,255,0.9);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  max-width: 650px;
+  margin: 0 0 1.5rem 0;
+}
+.cog-hub-btn {
+  display: inline-block;
+  background: var(--warm-white);
+  color: var(--sage-deep);
+  border: none;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+  transition: transform 0.2s;
+}
+.qs-card-link {
+  text-decoration: none;
+}
+.btn-close-wheel {
+  margin-top: 1.5rem;
+}
+.speaking-bridge-card {
+  margin: 1.5rem 0;
+  background: linear-gradient(135deg, var(--teal-light), var(--warm-white));
+  border: 1.5px solid var(--teal);
+  border-radius: var(--r-lg);
+  padding: 1.25rem;
+  text-align: left;
+}
+.speaking-bridge-badge {
+  background: var(--teal);
+  color: #fff;
+  font-size: 0.68rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 3px 10px;
+  border-radius: 100px;
+}
+.speaking-bridge-title {
+  font-family: 'Fraunces', serif;
+  font-size: 1.15rem;
+  margin: 0.5rem 0 0.25rem 0;
+  color: var(--ink);
+}
+.speaking-bridge-desc {
+  font-size: 0.82rem;
+  color: var(--ink-muted);
+  margin: 0 0 1rem 0;
+}
+.speaking-bridge-link {
+  display: inline-block;
+  font-size: 0.85rem;
+  padding: 8px 18px;
+  text-decoration: none;
+}
+.modal-action-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+.btn-flex-1 {
+  flex: 1;
+}
+.toast-notification {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background: var(--ink);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 12px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+  z-index: 3000;
+  font-size: .85rem;
+  font-weight: 500;
+}
+
+/* Manuals & About Page Clean CSS Classes */
+.nav-row-flex {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.global-nav-box-matrix {
+  background: #e3f5ef;
+  border-color: #a3e2cd;
+}
+.matrix-box-title {
+  color: #0f382c;
+}
+.matrix-box-desc {
+  color: #1c6b54;
+}
+.matrix-box-btn {
+  background: #0f382c;
+  color: #fff;
+  border-color: #0f382c;
+}
+.about-hero-title {
+  font-family: var(--font-heading, 'Fraunces', serif);
+  font-size: 2.75rem;
+  color: var(--ink);
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+.hero-inner-centered {
+  display: block;
+  text-align: center;
+}

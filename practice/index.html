@@ -47,7 +47,7 @@
   <header class="dash-hero">
     <div>
       <h1 class="dash-greeting" data-translate-key="tool_practice_title">Language <strong>Practice</strong> 💡</h1>
-      <p style="color:var(--ink-muted); font-size:0.9rem; margin-top:0.5rem;" data-translate-key="tool_practice_desc">Vocabulary, grammar and speaking exercises. COSY points and daily streaks: the perfect habit.</p>
+      <p class="practice-sub" data-translate-key="tool_practice_desc">Vocabulary, grammar and speaking exercises. COSY points and daily streaks: the perfect habit.</p>
     </div>
     <div class="streak-ring-wrap">
       <div class="streak-ring">
@@ -87,7 +87,7 @@
         <div class="ds-lbl">Sessions</div>
       </div>
     </div>
-    <div class="dash-stat" style="border-left: 3px solid var(--teal);">
+    <div class="dash-stat stat-teal-border">
       <div class="ds-icon">🎯</div>
       <div>
         <div id="daily-xp-val" class="ds-val">0 / 50 XP</div>
@@ -98,7 +98,7 @@
   </div>
 
   <!-- Selection/Setup Screen -->
-  <div id="setup-section" class="setup-panel" style="margin-top: 2rem;">
+  <div id="setup-section" class="setup-panel setup-panel-spaced">
     <h2 class="sec-title">Practice Setup <span>Configure your session</span></h2>
 
     <div class="setup-dashboard-wrapper">
@@ -117,7 +117,7 @@
         </div>
       </div>
 
-      <div class="steps-2-5-panel" style="grid-column: 1 / -1; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; background: var(--cream-dark); border: 1.5px solid var(--border); border-radius: 16px; padding: 1.5rem; margin-top: 1rem; box-sizing: border-box;">
+      <div class="steps-2-5-panel steps-2-5-panel-grid">
         <div>
           <label class="field-label" data-translate-key="category_label">Category</label>
           <div id="cat-pills" class="cat-pills">
@@ -170,10 +170,10 @@
         <div class="pe-session-label">Current Session</div>
         <div id="pe-session-title" class="pe-session-title">Practice</div>
       </div>
-      <div class="pe-counters" style="position: relative;">
-        <div class="pe-counter" id="combo-wrap" style="display: none; background: rgba(196, 82, 42, 0.15); border-radius: 8px; padding: 2px 8px;">
-          <div id="combo-count" class="pec-val" style="color: #E8A838;">0</div>
-          <div class="pec-lbl" style="color: #E8A838;">Combo 🔥</div>
+      <div class="pe-counters pe-counters-rel">
+        <div class="pe-counter combo-wrap-pill" id="combo-wrap" style="display: none;">
+          <div id="combo-count" class="pec-val combo-text-amber">0</div>
+          <div class="pec-lbl combo-text-amber">Combo 🔥</div>
         </div>
         <div class="pe-counter">
           <div id="score-count" class="pec-val">0</div>
@@ -191,7 +191,7 @@
     </div>
 
     <div class="pe-body">
-      <div id="pe-progress-text" class="pe-progress-text" style="font-size: 0.9rem; font-weight: bold; color: var(--ink-muted); margin-bottom: 1rem; text-align: center;"></div>
+      <div id="pe-progress-text" class="pe-progress-text pe-progress-text-styled"></div>
       <div id="pe-body-content">
         <!-- Content injected by JS -->
       </div>
@@ -207,15 +207,15 @@
   </div>
 
   <!-- Cognitive & Immersion Hub Banner -->
-  <section id="cognitive-hub-banner" class="reveal" style="margin-top: 2rem; margin-bottom: 2rem;">
-    <div style="background: linear-gradient(135deg, var(--sage-deep), #2a3a2d); color: white; padding: 2.5rem; border-radius: 24px; position: relative; overflow: hidden; box-shadow: var(--shadow);">
-      <div style="position: relative; z-index: 2;">
-        <span style="background: var(--honey); color: #fff; font-weight: 800; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; padding: 4px 12px; border-radius: 100px; display: inline-block; margin-bottom: 1rem;">🧠 Science-Backed Learning</span>
-        <h2 style="font-family: 'Lora', serif; font-size: 1.8rem; margin: 0 0 0.5rem 0; color: #fff;">Cognitive & Immersion Accelerator 🚀</h2>
-        <p style="color: rgba(255,255,255,0.9); font-size: 0.95rem; line-height: 1.6; max-width: 650px; margin: 0 0 1.5rem 0;">
+  <section id="cognitive-hub-banner" class="reveal cog-hub-banner">
+    <div class="cog-hub-inner">
+      <div class="cog-hub-content">
+        <span class="cog-hub-badge">🧠 Science-Backed Learning</span>
+        <h2 class="cog-hub-title">Cognitive & Immersion Accelerator 🚀</h2>
+        <p class="cog-hub-desc">
           Unlock native-like fluency using full monolingual immersion, the Palteca method, visual/structural brain adaptors, and interactive spaced-repetition memory curves.
         </p>
-        <a href="cognitive-immersion.html" class="btn-primary" style="display: inline-block; background: var(--warm-white); color: var(--sage-deep); border: none; font-weight: 700; text-decoration: none; padding: 0.75rem 1.5rem; border-radius: 30px; transition: transform 0.2s;">Explore the Hub →</a>
+        <a href="cognitive-immersion.html" class="btn-primary cog-hub-btn">Explore the Hub →</a>
       </div>
     </div>
   </section>
@@ -244,7 +244,7 @@
         <div class="qs-name">Tenses &amp; Conditionals</div>
         <div class="qs-sub">Verb Tenses &amp; Aspects</div>
       </div>
-      <a href="../apps/en-verb-prep/" class="qs-card" style="--qs-color: var(--blue); text-decoration: none;">
+      <a href="../apps/en-verb-prep/" class="qs-card qs-card-link" style="--qs-color: var(--blue);">
         <div class="qs-icon">🇬🇧</div>
         <div class="qs-name">EN Prepositions Engine</div>
         <div class="qs-sub">Verbs, Nouns &amp; Adjectives</div>
@@ -269,47 +269,47 @@
         <div class="qs-name">SRS Memory Review</div>
         <div class="qs-sub">Spaced Repetition</div>
       </div>
-      <a href="../apps/fr-conjugeur/" class="qs-card" style="--qs-color: var(--sage); text-decoration: none;">
+      <a href="../apps/fr-conjugeur/" class="qs-card qs-card-link" style="--qs-color: var(--sage);">
         <div class="qs-icon">🇫🇷</div>
         <div class="qs-name">FR Conjugeur</div>
         <div class="qs-sub">Offline Verb Engine</div>
       </a>
-      <a href="../apps/fr-genre/" class="qs-card" style="--qs-color: var(--sage); text-decoration: none;">
+      <a href="../apps/fr-genre/" class="qs-card qs-card-link" style="--qs-color: var(--sage);">
         <div class="qs-icon">🇫🇷</div>
         <div class="qs-name">FR Genre</div>
         <div class="qs-sub">Noun & Gender Engine</div>
       </a>
-      <a href="../apps/it-coniugatore/" class="qs-card" style="--qs-color: var(--sage); text-decoration: none;">
+      <a href="../apps/it-coniugatore/" class="qs-card qs-card-link" style="--qs-color: var(--sage);">
         <div class="qs-icon">🇮🇹</div>
         <div class="qs-name">IT Coniugatore</div>
         <div class="qs-sub">Offline Verb Engine</div>
       </a>
-      <a href="../apps/it-genere/" class="qs-card" style="--qs-color: var(--sage); text-decoration: none;">
+      <a href="../apps/it-genere/" class="qs-card qs-card-link" style="--qs-color: var(--sage);">
         <div class="qs-icon">🇮🇹</div>
         <div class="qs-name">IT Genere</div>
         <div class="qs-sub">Noun & Gender Engine</div>
       </a>
-      <a href="../apps/ru-spryazhenie/" class="qs-card" style="--qs-color: var(--sage); text-decoration: none;">
+      <a href="../apps/ru-spryazhenie/" class="qs-card qs-card-link" style="--qs-color: var(--sage);">
         <div class="qs-icon">🇷🇺</div>
         <div class="qs-name">RU Спряжение</div>
         <div class="qs-sub">Offline Verb Engine</div>
       </a>
-      <a href="../apps/ru-rod-padezhi/" class="qs-card" style="--qs-color: var(--sage); text-decoration: none;">
+      <a href="../apps/ru-rod-padezhi/" class="qs-card qs-card-link" style="--qs-color: var(--sage);">
         <div class="qs-icon">🇷🇺</div>
         <div class="qs-name">RU Род &amp; Падежи</div>
         <div class="qs-sub">Noun & Declension Engine</div>
       </a>
-      <a href="../apps/el-klisi-rimaton/" class="qs-card" style="--qs-color: var(--sage); text-decoration: none;">
+      <a href="../apps/el-klisi-rimaton/" class="qs-card qs-card-link" style="--qs-color: var(--sage);">
         <div class="qs-icon">🇬🇷</div>
         <div class="qs-name">EL Κλίση</div>
         <div class="qs-sub">Offline Verb Engine</div>
       </a>
-      <a href="../apps/el-genos-ptoseis/" class="qs-card" style="--qs-color: var(--sage); text-decoration: none;">
+      <a href="../apps/el-genos-ptoseis/" class="qs-card qs-card-link" style="--qs-color: var(--sage);">
         <div class="qs-icon">🇬🇷</div>
         <div class="qs-name">EL Γένος &amp; Πτώσεις</div>
         <div class="qs-sub">Noun & Declension Engine</div>
       </a>
-      <a href="../apps/index.html" class="qs-card" style="--qs-color: var(--sage); text-decoration: none; grid-column: span 1;">
+      <a href="../apps/index.html" class="qs-card qs-card-link" style="--qs-color: var(--sage); grid-column: span 1;">
         <div class="qs-icon">🔎</div>
         <div class="qs-name">All 12 Engines</div>
         <div class="qs-sub">Conjugation, Gender &amp; Syntax</div>
@@ -340,7 +340,7 @@
     </div>
     <button id="spin-btn" class="wheel-btn">SPIN! 🚀</button>
     <div id="wheel-result" class="wheel-result"></div>
-    <button onclick="cosyPractice.closeWheel()" class="btn-outline" style="margin-top:1.5rem;">Close</button>
+    <button onclick="cosyPractice.closeWheel()" class="btn-outline btn-close-wheel">Close</button>
   </div>
 
   <!-- Stats + Mistakes Grid -->
@@ -394,16 +394,16 @@
         <span class="stat-emoji">🔥</span>
       </div>
     </div>
-    <div id="speaking-club-bridge-card" style="margin: 1.5rem 0; background: linear-gradient(135deg, var(--teal-light), var(--warm-white)); border: 1.5px solid var(--teal); border-radius: var(--r-lg); padding: 1.25rem; text-align: left;">
-      <span style="background: var(--teal); color: #fff; font-size: 0.68rem; font-weight: bold; text-transform: uppercase; letter-spacing: 0.08em; padding: 3px 10px; border-radius: 100px;">🗣️ Take Vocabulary Live</span>
-      <h3 id="bridge-card-title" style="font-family: 'Fraunces', serif; font-size: 1.15rem; margin: 0.5rem 0 0.25rem 0; color: var(--ink);">Join a COSY Speaking Club Event</h3>
-      <p id="bridge-card-desc" style="font-size: 0.82rem; color: var(--ink-muted); margin: 0 0 1rem 0;">Practice your vocabulary in live C1/C2 discussions with fellow learners!</p>
-      <a id="bridge-card-link" href="../events/index.html" class="btn-primary" style="display: inline-block; font-size: 0.85rem; padding: 8px 18px; text-decoration: none;">Explore Speaking Clubs →</a>
+    <div id="speaking-club-bridge-card" class="speaking-bridge-card">
+      <span class="speaking-bridge-badge">🗣️ Take Vocabulary Live</span>
+      <h3 id="bridge-card-title" class="speaking-bridge-title">Join a COSY Speaking Club Event</h3>
+      <p id="bridge-card-desc" class="speaking-bridge-desc">Practice your vocabulary in live C1/C2 discussions with fellow learners!</p>
+      <a id="bridge-card-link" href="../events/index.html" class="btn-primary speaking-bridge-link">Explore Speaking Clubs →</a>
     </div>
 
-    <div style="display: flex; gap: 10px; margin-top: 1.5rem;">
-      <button onclick="cosyPractice.startMistakeReview()" class="btn-outline" style="flex: 1;">Review Weak Spots ✏️</button>
-      <button onclick="cosyPractice.endSession()" class="btn-primary" style="flex: 1;" data-translate-key="back_to_menu">Back to Menu 🏠</button>
+    <div class="modal-action-row">
+      <button onclick="cosyPractice.startMistakeReview()" class="btn-outline btn-flex-1">Review Weak Spots ✏️</button>
+      <button onclick="cosyPractice.endSession()" class="btn-primary btn-flex-1" data-translate-key="back_to_menu">Back to Menu 🏠</button>
     </div>
   </div>
 </div>
@@ -452,7 +452,7 @@
 
 <div id="answer-flash" class="answer-flash"></div>
 
-<div id="toast" style="position: fixed; bottom: 2rem; right: 2rem; background: var(--ink); color: #fff; padding: 12px 24px; border-radius: 12px; opacity: 0; pointer-events: none; transition: opacity 0.3s; z-index: 3000; font-size: .85rem; font-weight: 500;"></div>
+<div id="toast" class="toast-notification"></div>
 
 <!-- Scripts -->
 <script src="../js/data/languages.js"></script>
