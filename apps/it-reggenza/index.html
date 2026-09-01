@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reggenza verbale italiana | COSYlanguages</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1b4332">
+    <link rel="stylesheet" href="../../css/components.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Cozy Header -->
+        <header class="app-header">
+            <div class="logo-badge">
+                <span class="brand-icon">🇮🇹</span>
+                <div class="brand-text">
+                    <h1>Reggenza verbale italiana</h1>
+                    <p class="tagline">Preposizioni reggenti dei verbi (a, di, su, in, con, da...), verbi pronominali &amp; transitivi diretti</p>
+                </div>
+            </div>
+        </header>
+
+        <main class="app-main">
+            <!-- Search Section & Filter Pills -->
+            <section id="search-section-container" class="search-section">
+                <!-- Filter Pills Bar -->
+                <div class="filter-pills-bar">
+                    <button class="filter-pill active" id="filter-all" onclick="appEngine.setFilter('all')">Tutti i verbi</button>
+                    <button class="filter-pill" id="filter-a" onclick="appEngine.setFilter('a')">Reggenza « a »</button>
+                    <button class="filter-pill" id="filter-di" onclick="appEngine.setFilter('di')">Reggenza « di »</button>
+                    <button class="filter-pill" id="filter-direct" onclick="appEngine.setFilter('direct')">Diretti (senza prep)</button>
+                    <button class="filter-pill" id="filter-pronominal" onclick="appEngine.setFilter('pronominal')">Pronominali 🪞</button>
+                    <button class="filter-pill" id="filter-other" onclick="appEngine.setFilter('other')">Altre prep (su, in, con...)</button>
+                </div>
+
+                <div class="search-box">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="verb-search-input" placeholder="Cerca un verbo (es. pensare, parlare, abituarsi, avere bisogno, guardare)..." autocomplete="off" autofocus>
+                    <button id="clear-search-btn" class="clear-btn" style="display: none;">&times;</button>
+                </div>
+                <div id="search-suggestions" class="suggestions-list" style="display: none;"></div>
+            </section>
+
+            <!-- Verb Result Display -->
+            <section id="verb-result-container" class="verb-result-card" style="display: none;">
+                <!-- Result Navigation Controls -->
+                <div class="nav-controls-bar">
+                    <button class="nav-btn" onclick="appEngine.navigatePrevious()" title="Voce precedente">◀ Precedente</button>
+                    <button class="nav-btn random-btn" onclick="appEngine.navigateRandom()" title="Voce casuale">🎲 Casuale</button>
+                    <button class="nav-btn" onclick="appEngine.navigateNext()" title="Voce successiva">Successivo ▶</button>
+                </div>
+
+                <!-- Verb Header Info -->
+                <div class="verb-header">
+                    <div class="verb-title-group">
+                        <h2 id="verb-title">pensare</h2>
+                        <span id="pronominal-badge" class="badge phrasal-badge" style="display: none;">Pronominale 🪞</span>
+                        <span id="prep-badge" class="badge prep-badge">Preposizione: a / di</span>
+                        <span id="verb-cefr-badge" class="badge cefr-badge">Livello: A1</span>
+                        <button id="speak-verb-btn" class="tts-btn" title="Ascolta la pronuncia">🔊 Ascolta</button>
+                    </div>
+
+                    <!-- Lexical Information Box -->
+                    <div class="lexical-box">
+                        <div class="def-block">
+                            <span class="lexical-label">📖 Definizione:</span>
+                            <span id="verb-definition" class="def-text">Volgere la mente a qualcuno o qualcosa.</span>
+                        </div>
+                        <div id="pattern-container" class="usage-block">
+                            <span class="lexical-label">💡 Struttura &amp; Reggenza:</span>
+                            <span id="verb-pattern-text" class="usage-text">pensare a [qualcuno/qualcosa] / pensare di [opinione o verbe]</span>
+                        </div>
+                        <!-- Noun Parallel / Verb vs. Noun Contrast -->
+                        <div id="noun-parallel-container" class="noun-parallel-block" style="display: none;">
+                            <span class="lexical-label">⚡ Contrasto Verbo vs. Nome:</span>
+                            <span id="noun-parallel-text" class="noun-parallel-text"></span>
+                        </div>
+                        <div id="grammar-rule-container" class="grammar-rule-block">
+                            <span class="lexical-label">📌 Regola grammaticale &amp; Preposizioni articolate:</span>
+                            <span id="grammar-rule-text" class="rule-text"></span>
+                        </div>
+                        <div id="mistake-container" class="mistake-block">
+                            <span class="lexical-label">⚠️ Errore comune &amp; Piuttosto da evitare:</span>
+                            <span id="mistake-text" class="mistake-text"></span>
+                        </div>
+                        <div id="examples-container" class="examples-block">
+                            <span class="lexical-label">💬 Frasi di esempio:</span>
+                            <ul id="examples-list" class="examples-list"></ul>
+                        </div>
+                        <div id="antonyms-container" class="antonyms-block">
+                            <span class="lexical-label">↔️ Sinonimi &amp; Contrari:</span>
+                            <div id="antonyms-pills" class="pills-list"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Initial Empty State -->
+            <section id="empty-state" class="empty-state-box">
+                <span class="empty-icon">🌿</span>
+                <h3>Cerca la reggenza dei verbi italiani</h3>
+                <p>Esplora le <strong style="color: var(--sage-primary);">preposizioni reggenti</strong> (<em>a</em>, <em>di</em>, <em>su</em>, <em>in</em>, <em>con</em>, <em>da</em>...), le preposizioni articolate (<em>al, del, dal...</em>), i verbi pronominali e i <strong style="color: var(--terracotta);">verbi transitivi diretti</strong> senza preposizione (guardare, ascoltare, aspettare...).</p>
+                <div class="quick-tags">
+                    <span>Verbi essenziali (A1–B2):</span>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('pensare')">pensare a/di</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('parlare')">parlare a/con/di</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('avere bisogno')">avere bisogno di</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('giocare')">giocare a / suonare</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('interessarsi')">interessarsi di/a</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('guardare')">guardare (diretto)</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('ascoltare')">ascoltare (diretto)</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('chiedere')">chiedere [qualcosa] a [qualcuno]</button>
+                    <button class="tag-btn" onclick="appEngine.searchVerb('abituarsi')">abituarsi a</button>
+                </div>
+            </section>
+        </main>
+
+        <!-- Cozy Footer -->
+        <footer class="app-footer">
+            <p>🌿 <strong>COSYlanguages Standalone Apps</strong> — Reggenza verbale italiana. 100% offline &amp; privato.</p>
+        </footer>
+    </div>
+
+    <script src="js/engine.js"></script>
+    <script src="../../js/data/languages.js"></script>
+    <script src="../../js/core/i18n.js"></script>
+    <script src="../../js/core/ui.js"></script>
+</body>
+</html>
