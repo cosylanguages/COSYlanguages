@@ -116,17 +116,28 @@
         }, 1200);
     }
 
-    function showBottomFeedback(isCorrect, title, desc, autoAdvanceMs = null) {
+    function showBottomFeedback(isCorrect, title, desc, autoAdvanceMs = null, practiceLinks = null) {
         const bar = document.getElementById('pe-bottom-bar');
         const iconEl = document.getElementById('pe-bb-icon');
         const titleEl = document.getElementById('pe-bb-title');
         const descEl = document.getElementById('pe-bb-desc');
 
+        let finalDesc = desc || '';
+        if (Array.isArray(practiceLinks) && practiceLinks.length > 0 && practiceLinks[0]) {
+            const prefix = (window.COSY && typeof window.COSY.getPrefix === 'function') ? window.COSY.getPrefix() : '../';
+            let targetUrl = practiceLinks[0];
+            if (!targetUrl.startsWith('http://') && !targetUrl.startsWith('https://') && !targetUrl.startsWith('/')) {
+                targetUrl = prefix + targetUrl.replace(/^\.\//, '');
+            }
+            const linkHtml = `<div style="margin-top:6px;"><a href="${targetUrl}" target="_blank" rel="noopener" style="display:inline-flex; align-items:center; gap:4px; font-weight:700; font-size:0.85rem; color:var(--teal, #2D7D6F); text-decoration:underline;">📖 Learn more ↗</a></div>`;
+            finalDesc = finalDesc ? (finalDesc + linkHtml) : linkHtml;
+        }
+
         if (bar) {
             bar.className = 'pe-bottom-bar active ' + (isCorrect ? 'correct' : 'incorrect');
             if (iconEl) iconEl.textContent = isCorrect ? '🎉' : '❌';
             if (titleEl) titleEl.textContent = title;
-            if (descEl) descEl.textContent = desc;
+            if (descEl) descEl.innerHTML = finalDesc;
             document.body.classList.add('has-active-bottom-bar');
         }
 
@@ -1404,13 +1415,15 @@
             }
         });
 
+        const practiceLinks = q?.practice_links || q?.item?.practice_links || null;
+
         if (i === ans) {
             engine.awardPoints(10);
             if (fb) {
                 fb.className = 'pe-feedback show ok';
                 fb.innerHTML = '✅ Correct! +10 pts';
             }
-            showBottomFeedback(true, 'Correct!', '+10 PTS 🎉', 1200);
+            showBottomFeedback(true, 'Correct!', '+10 PTS 🎉', 1200, practiceLinks);
         } else {
             engine.recordMistake(q);
             if (fb) {
@@ -1423,7 +1436,7 @@
             if (ruleHint) {
                 desc += `<br><span style="display:inline-block; margin-top:4px; font-weight:600; color:var(--coral);">💡 Rule: ${ruleHint}</span>`;
             }
-            showBottomFeedback(false, 'Incorrect', desc);
+            showBottomFeedback(false, 'Incorrect', desc, null, practiceLinks);
         }
     };
 
@@ -1432,6 +1445,7 @@
         const q = sess.sessionQueue[sess.currentIndex];
         const fb = document.getElementById('pe-fb');
         const isReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        const practiceLinks = q?.practice_links || q?.item?.practice_links || null;
 
         document.querySelectorAll('.tf-btn').forEach(b => {
             b.disabled = true;
@@ -1457,7 +1471,7 @@
                 fb.className = 'pe-feedback show ok';
                 fb.innerHTML = '✅ Correct! +10 pts';
             }
-            showBottomFeedback(true, 'Correct!', '+10 PTS 🎉', 1200);
+            showBottomFeedback(true, 'Correct!', '+10 PTS 🎉', 1200, practiceLinks);
         } else {
             engine.recordMistake(q);
             if (fb) {
@@ -1469,7 +1483,7 @@
             if (ruleHint) {
                 desc += `<br><span style="display:inline-block; margin-top:4px; font-weight:600; color:var(--coral);">💡 Rule: ${ruleHint}</span>`;
             }
-            showBottomFeedback(false, 'Incorrect', desc);
+            showBottomFeedback(false, 'Incorrect', desc, null, practiceLinks);
         }
     };
 
@@ -1483,6 +1497,7 @@
         const correctAnswer = (q.ans || q.item?.translation || "").toString().trim().toLowerCase();
         const fb = document.getElementById('pe-fb');
         const isReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        const practiceLinks = q?.practice_links || q?.item?.practice_links || null;
 
         inp.disabled = true;
         if (userAnswer === correctAnswer) {
@@ -1495,7 +1510,7 @@
                 fb.className = 'pe-feedback show ok';
                 fb.innerHTML = '✅ Correct! +10 pts';
             }
-            showBottomFeedback(true, 'Correct!', '+10 PTS 🎉');
+            showBottomFeedback(true, 'Correct!', '+10 PTS 🎉', null, practiceLinks);
         } else {
             engine.recordMistake(q);
             inp.classList.add('wrong');
@@ -1506,7 +1521,7 @@
                 fb.className = 'pe-feedback show bad';
                 fb.innerHTML = '❌ Answer: ' + correctAnswer;
             }
-            showBottomFeedback(false, 'Incorrect', `Correct answer: ${correctAnswer}`);
+            showBottomFeedback(false, 'Incorrect', `Correct answer: ${correctAnswer}`, null, practiceLinks);
         }
     };
 
@@ -1540,6 +1555,7 @@
         const val = Array.from(assembly.querySelectorAll('button')).map(b => b.textContent).join(' ');
         const fb = document.getElementById('pe-fb');
         const isReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        const practiceLinks = q?.practice_links || q?.item?.practice_links || null;
 
         if (val.trim().toLowerCase() === q.ans.trim().toLowerCase()) {
             engine.awardPoints(10);
@@ -1550,7 +1566,7 @@
                 fb.className = 'pe-feedback show ok';
                 fb.innerHTML = '✅ Correct! +10 pts';
             }
-            showBottomFeedback(true, 'Correct!', '+10 PTS 🎉', 600);
+            showBottomFeedback(true, 'Correct!', '+10 PTS 🎉', 600, practiceLinks);
         } else {
             engine.recordMistake(q);
             if (!isReduced) {
@@ -1560,7 +1576,7 @@
                 fb.className = 'pe-feedback show bad';
                 fb.innerHTML = '❌ Incorrect.';
             }
-            showBottomFeedback(false, 'Incorrect', `Correct answer: ${q.ans}`, 600);
+            showBottomFeedback(false, 'Incorrect', `Correct answer: ${q.ans}`, 600, practiceLinks);
         }
     };
 
