@@ -250,7 +250,7 @@
     },
     {
       "unit": 6,
-      "title": "Unit 6: Cultural Erudition, Allusions & C2 Master Integration",
+      "title": "Unit 6: Cultural Erudition, Allusions & Metaphorical Networks",
       "lessons": [
         {
           "lesson": 1,
@@ -280,14 +280,210 @@
         },
         {
           "lesson": 2,
+          "type": "grammar",
+          "title": "Advanced Register Transformations & Stylistic Polyphony",
+          "duration_minutes": 60,
+          "grammar": [
+            "Seamless multi-register transformation across 6 registers (Informal, Corporate, Academic, Journalistic, Legal, Poetic)",
+            "Polyphonic sentence rhythm and stylistic cadence control"
+          ],
+          "practice_types": [
+            "speaking",
+            "writing",
+            "reading"
+          ],
+          "speaking_percent": 55,
+          "teacher_notes": "code: \"EN-C2-012\"\ncando: \"Can transform complex semantic arguments seamlessly across six distinct stylistic registers\""
+        }
+      ]
+    },
+    {
+      "unit": 7,
+      "title": "Unit 7: Precision & Nuance (Semantic Micro-Distinctions & Stance)",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Lexical Precision, Connotation & Semantic Micro-Distinctions",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Euphemistic",
+            "Pejorative",
+            "Incisive",
+            "Pedantic",
+            "Equivocal",
+            "Unequivocal",
+            "Tautological",
+            "Specious",
+            "Cogent",
+            "Fastidious"
+          ],
+          "practice_types": [
+            "speaking",
+            "listening",
+            "reading",
+            "writing"
+          ],
+          "speaking_percent": 55,
+          "teacher_notes": "code: \"EN-C2-013\"\npronunciation: [{\"point\":\"Connotative stress & phonostylistics\",\"explain\":\"Modulating pitch contour to signal pejorative vs laudatory semantic nuances.\",\"examples\":[{\"pattern\":\"specious argument\",\"ipa\":\"/ˈspiː.ʃəs/\",\"word\":\"specious\"}],\"visual\":\"🎯\"}]\ncando: \"Can select vocabulary with surgical precision to convey exact emotional connotation, register stance, and evaluative nuance\""
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Grammatical Precision, Focus Adverbs & Syntactic Fine-Tuning",
+          "duration_minutes": 60,
+          "grammar": [
+            "Exact scope control with focus adverbs (precisely, exclusively, pre-eminently, ostensibly, allegedly)",
+            "Subtle scope shifts in pre-nominal vs post-nominal modifier placement"
+          ],
+          "practice_types": [
+            "speaking",
+            "writing",
+            "reading"
+          ],
+          "speaking_percent": 55,
+          "teacher_notes": "code: \"EN-C2-014\"\ncando: \"Can fine-tune syntactic focus and scope using precision adverbs and modifier positioning without introducing ambiguity\""
+        }
+      ]
+    },
+    {
+      "unit": 8,
+      "title": "Unit 8: Macroeconomic Derivatives, Game Theory & High-Stakes Finance",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Quantitative Finance, Financial Derivatives & Game Theory",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Arbitrage",
+            "Nash equilibrium",
+            "Collateralized debt obligation",
+            "Credit default swap",
+            "Systemic insolvency",
+            "Quantitative easing",
+            "Fiscal consolidation",
+            "Capital flight",
+            "Price elasticity",
+            "Monetary transmission"
+          ],
+          "practice_types": [
+            "reading",
+            "listening",
+            "speaking",
+            "writing"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "code: \"EN-C2-015\"\ncando: \"Can evaluate macro-financial derivative structures, game-theoretic equilibria, and international central bank policy\""
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Hypothetical Stance & Complex Conditionals in Economic Modeling",
+          "duration_minutes": 60,
+          "grammar": [
+            "Inverted third conditionals and mixed hypothetical structures in econometric forecasting",
+            "Parenthetical qualification mechanics (using em-dashes and semicolons) in financial reports"
+          ],
+          "practice_types": [
+            "writing",
+            "reading",
+            "speaking"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "code: \"EN-C2-016\"\ncando: \"Can model complex economic contingencies and articulate econometric reports using inverted conditionality and parenthetical qualifiers\""
+        }
+      ]
+    },
+    {
+      "unit": 9,
+      "title": "Unit 9: Advanced Cybernetics, Quantum Computing & Digital Governance",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Quantum Computing, Cybernetics & Algorithmic Ethics",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Quantum entanglement",
+            "Superposition",
+            "Algorithmic governance",
+            "Generative AI",
+            "Zero-trust architecture",
+            "Decentralized ledger",
+            "Cybernetic feedback",
+            "Neural network optimization",
+            "Data sovereignty",
+            "Autonomous agent"
+          ],
+          "practice_types": [
+            "reading",
+            "listening",
+            "speaking",
+            "writing"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "code: \"EN-C2-017\"\ncando: \"Can debate frontier developments in quantum computing, cybernetic architecture, and algorithmic ethics\""
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "End-Weight, End-Focus & Syntactic Heavy-NP Placement",
+          "duration_minutes": 60,
+          "grammar": [
+            "End-weight principle in complex technical and cybernetic discourse",
+            "Extraposition of clausal subjects (It is widely maintained across cybernetic circles that...)"
+          ],
+          "practice_types": [
+            "writing",
+            "reading",
+            "speaking"
+          ],
+          "speaking_percent": 50,
+          "teacher_notes": "code: \"EN-C2-018\"\ncando: \"Can structure dense technical and cybernetic analyses using end-weight, end-focus, and extraposition\""
+        }
+      ]
+    },
+    {
+      "unit": 10,
+      "title": "Unit 10: Synthesis, Master Rhetoric & C2 Master Integration",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Classical Latin & French Expressions in High-Register Discourse",
+          "duration_minutes": 60,
+          "vocabulary": [
+            "Prima facie",
+            "De facto",
+            "Raison d'être",
+            "Status quo",
+            "Ad hoc",
+            "Vice versa",
+            "Carte blanche",
+            "Coup d'état",
+            "Magnum opus",
+            "Zeitgeist"
+          ],
+          "practice_types": [
+            "speaking",
+            "listening",
+            "reading",
+            "writing"
+          ],
+          "speaking_percent": 60,
+          "teacher_notes": "code: \"EN-C2-019\"\ncando: \"Can seamlessly integrate classical Latin and French loan expressions into high-register professional and scholarly discourse\""
+        },
+        {
+          "lesson": 2,
           "type": "srev",
           "title": "C2 Master Mastery & Native-Level Proficiency Examination",
           "duration_minutes": 90,
           "grammar": [
-            "Mastery evaluation of all C2 architectural pillars: poetics, rhetoric, hermeneutics, executive leadership, and legal jurisprudence"
+            "Mastery evaluation of all C2 architectural pillars: poetics, rhetoric, hermeneutics, precision & nuance, executive leadership, legal jurisprudence, and macro-financial derivatives"
           ],
           "vocabulary": [
-            "ALL Unit 1-6 Encyclopedic C2 Lexicon",
+            "ALL Unit 1-10 Encyclopedic C2 Lexicon",
             "C2 Allusions & Metaphors",
             "C2 Register Shifting Networks"
           ],
@@ -298,7 +494,7 @@
             "writing"
           ],
           "speaking_percent": 80,
-          "teacher_notes": "code: \"EN-C2-012\"\ncando: \"Demonstrates complete native-level fluency, unconstrained stylistic control, and cultural erudition across all English domains\""
+          "teacher_notes": "code: \"EN-C2-020\"\ncando: \"Demonstrates complete native-level fluency, unconstrained stylistic control, and cultural erudition across all English domains\""
         }
       ]
     }
