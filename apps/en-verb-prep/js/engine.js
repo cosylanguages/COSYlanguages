@@ -33,7 +33,7 @@ class EnglishVerbPrepEngine {
         this.activeFilter = filterType;
 
         // Update active filter pill styling
-        ['all', 'prep', 'phrasal'].forEach(f => {
+        ['all', 'prep', 'phrasal', 'double'].forEach(f => {
             const btn = document.getElementById(`filter-${f}`);
             if (btn) {
                 if (f === filterType) btn.classList.add('active');
@@ -55,6 +55,8 @@ class EnglishVerbPrepEngine {
             this.filteredKeys = this.verbKeys.filter(k => this.verbDb[k].is_phrasal);
         } else if (this.activeFilter === 'prep') {
             this.filteredKeys = this.verbKeys.filter(k => !this.verbDb[k].is_phrasal);
+        } else if (this.activeFilter === 'double') {
+            this.filteredKeys = this.verbKeys.filter(k => this.verbDb[k].preposition_structure === 'double_phrasal');
         } else {
             this.filteredKeys = [...this.verbKeys];
         }

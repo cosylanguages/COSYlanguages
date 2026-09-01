@@ -21,7 +21,9 @@
       "impact",
       "sway"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "none",
+    "particle_count": 0
   },
   "affect": {
     "is_phrasal": false,
@@ -45,7 +47,9 @@
       "impact",
       "alter"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "none",
+    "particle_count": 0
   },
   "impact": {
     "is_phrasal": false,
@@ -68,7 +72,9 @@
       "affect",
       "influence"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "answer": {
     "is_phrasal": false,
@@ -95,7 +101,9 @@
     "antonyms": [
       "ask",
       "question"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "contact": {
     "is_phrasal": false,
@@ -118,7 +126,9 @@
       "reach",
       "get in touch with"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "none",
+    "particle_count": 0
   },
   "visit": {
     "is_phrasal": false,
@@ -141,7 +151,9 @@
       "see",
       "call on"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "none",
+    "particle_count": 0
   },
   "approach": {
     "is_phrasal": false,
@@ -167,7 +179,9 @@
     "antonyms": [
       "recede",
       "retreat from"
-    ]
+    ],
+    "preposition_structure": "none",
+    "particle_count": 0
   },
   "lack": {
     "is_phrasal": false,
@@ -194,7 +208,9 @@
     "antonyms": [
       "possess",
       "have"
-    ]
+    ],
+    "preposition_structure": "none",
+    "particle_count": 0
   },
   "demand": {
     "is_phrasal": false,
@@ -219,7 +235,9 @@
       "insist on",
       "claim"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "request": {
     "is_phrasal": false,
@@ -242,7 +260,9 @@
       "ask for",
       "solicit"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "none",
+    "particle_count": 0
   },
   "arrive": {
     "is_phrasal": false,
@@ -268,7 +288,9 @@
     "antonyms": [
       "depart",
       "leave"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "agree": {
     "is_phrasal": false,
@@ -296,7 +318,9 @@
     "antonyms": [
       "disagree",
       "dissent"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "ask": {
     "is_phrasal": false,
@@ -323,7 +347,9 @@
     "antonyms": [
       "answer",
       "reply"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "pay": {
     "is_phrasal": false,
@@ -347,7 +373,9 @@
       "remit",
       "settle"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "believe": {
     "is_phrasal": false,
@@ -373,7 +401,9 @@
     "antonyms": [
       "doubt",
       "disbelieve"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "worry": {
     "is_phrasal": false,
@@ -395,7 +425,9 @@
       "fret",
       "be anxious"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "laugh": {
     "is_phrasal": false,
@@ -421,7 +453,9 @@
     "antonyms": [
       "cry",
       "weep"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "look at": {
     "is_phrasal": true,
@@ -449,7 +483,9 @@
     "antonyms": [
       "ignore",
       "look away"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "look for": {
     "is_phrasal": true,
@@ -473,7 +509,9 @@
       "search for",
       "seek"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "look after": {
     "is_phrasal": true,
@@ -501,7 +539,9 @@
     "antonyms": [
       "neglect",
       "ignore"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "take care of": {
     "is_phrasal": true,
@@ -528,7 +568,9 @@
     ],
     "antonyms": [
       "neglect"
-    ]
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
   },
   "think of": {
     "is_phrasal": true,
@@ -552,7 +594,9 @@
       "conceive",
       "opinion on"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "think about": {
     "is_phrasal": true,
@@ -577,7 +621,9 @@
       "consider",
       "deliberate"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "depend": {
     "is_phrasal": false,
@@ -601,7 +647,9 @@
       "hinge",
       "count"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "apologize": {
     "is_phrasal": false,
@@ -624,7 +672,9 @@
       "express regret",
       "ask forgiveness"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "discuss": {
     "is_phrasal": false,
@@ -650,7 +700,9 @@
     "antonyms": [
       "ignore",
       "overlook"
-    ]
+    ],
+    "preposition_structure": "none",
+    "particle_count": 0
   },
   "look forward to": {
     "is_phrasal": true,
@@ -676,7 +728,9 @@
     ],
     "antonyms": [
       "dread"
-    ]
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
   },
   "listen": {
     "is_phrasal": false,
@@ -700,7 +754,9 @@
     ],
     "antonyms": [
       "ignore"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "turn down": {
     "is_phrasal": true,
@@ -730,7 +786,9 @@
     "antonyms": [
       "accept",
       "turn up"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "give up": {
     "is_phrasal": true,
@@ -759,7 +817,9 @@
     "antonyms": [
       "persist",
       "continue"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "carry on": {
     "is_phrasal": true,
@@ -787,7 +847,9 @@
     "antonyms": [
       "stop",
       "halt"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "look up to": {
     "is_phrasal": true,
@@ -815,7 +877,9 @@
     "antonyms": [
       "look down on",
       "despise"
-    ]
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
   },
   "break down": {
     "is_phrasal": true,
@@ -840,7 +904,9 @@
       "fail",
       "collapse"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "run out of": {
     "is_phrasal": true,
@@ -867,7 +933,9 @@
     "antonyms": [
       "replenish",
       "stock up on"
-    ]
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
   },
   "take off": {
     "is_phrasal": true,
@@ -896,7 +964,9 @@
     "antonyms": [
       "land",
       "put on"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "put off": {
     "is_phrasal": true,
@@ -925,7 +995,9 @@
     "antonyms": [
       "expedite",
       "advance"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "bring up": {
     "is_phrasal": true,
@@ -954,7 +1026,9 @@
     "antonyms": [
       "suppress",
       "silence"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "get along with": {
     "is_phrasal": true,
@@ -981,7 +1055,9 @@
     "antonyms": [
       "fall out with",
       "clash with"
-    ]
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
   },
   "call off": {
     "is_phrasal": true,
@@ -1010,7 +1086,9 @@
     "antonyms": [
       "confirm",
       "schedule"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "come across": {
     "is_phrasal": true,
@@ -1035,7 +1113,9 @@
       "find by chance",
       "encounter"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "figure out": {
     "is_phrasal": true,
@@ -1060,7 +1140,9 @@
       "comprehend",
       "work out"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "fall out with": {
     "is_phrasal": true,
@@ -1087,7 +1169,9 @@
     "antonyms": [
       "make up with",
       "get along with"
-    ]
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
   },
   "set up": {
     "is_phrasal": true,
@@ -1116,7 +1200,9 @@
     "antonyms": [
       "dismantle",
       "disband"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "work out": {
     "is_phrasal": true,
@@ -1142,7 +1228,9 @@
       "calculate",
       "resolve"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "catch up with": {
     "is_phrasal": true,
@@ -1168,7 +1256,9 @@
     ],
     "antonyms": [
       "fall behind"
-    ]
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
   },
   "keep up with": {
     "is_phrasal": true,
@@ -1194,7 +1284,9 @@
     ],
     "antonyms": [
       "fall behind"
-    ]
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
   },
   "pass out": {
     "is_phrasal": true,
@@ -1221,7 +1313,9 @@
     "antonyms": [
       "come to",
       "revive"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "look into": {
     "is_phrasal": true,
@@ -1249,7 +1343,9 @@
     "antonyms": [
       "ignore",
       "overlook"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "put up with": {
     "is_phrasal": true,
@@ -1278,7 +1374,9 @@
     "antonyms": [
       "protest",
       "reject"
-    ]
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
   },
   "go through": {
     "is_phrasal": true,
@@ -1303,7 +1401,9 @@
       "examine",
       "review"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "bring about": {
     "is_phrasal": true,
@@ -1330,7 +1430,9 @@
     ],
     "antonyms": [
       "prevent"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "cut down on": {
     "is_phrasal": true,
@@ -1358,7 +1460,9 @@
     "antonyms": [
       "increase",
       "boost"
-    ]
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
   },
   "get over": {
     "is_phrasal": true,
@@ -1384,7 +1488,9 @@
     ],
     "antonyms": [
       "succumb to"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "grow up": {
     "is_phrasal": true,
@@ -1407,7 +1513,9 @@
     "synonyms": [
       "mature"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "show off": {
     "is_phrasal": true,
@@ -1435,7 +1543,9 @@
     "antonyms": [
       "conceal",
       "play down"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "pick up": {
     "is_phrasal": true,
@@ -1464,7 +1574,9 @@
     "antonyms": [
       "drop",
       "put down"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "hold on": {
     "is_phrasal": true,
@@ -1489,7 +1601,9 @@
       "hang on",
       "clings"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "back up": {
     "is_phrasal": true,
@@ -1517,7 +1631,9 @@
     "antonyms": [
       "undermine",
       "delete"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "drop out of": {
     "is_phrasal": true,
@@ -1545,7 +1661,9 @@
     "antonyms": [
       "graduate",
       "complete"
-    ]
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
   },
   "turn up": {
     "is_phrasal": true,
@@ -1573,7 +1691,9 @@
     ],
     "antonyms": [
       "turn down"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "work with": {
     "is_phrasal": true,
@@ -1599,7 +1719,9 @@
       "collaborate with",
       "cooperate with"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "report to": {
     "is_phrasal": true,
@@ -1625,7 +1747,9 @@
       "be accountable to",
       "answer to"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "coordinate with": {
     "is_phrasal": true,
@@ -1651,7 +1775,9 @@
       "liaise with",
       "align with"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "responsible for": {
     "is_phrasal": false,
@@ -1674,7 +1800,9 @@
       "in charge of",
       "answerable for"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "in charge of": {
     "is_phrasal": false,
@@ -1696,7 +1824,9 @@
       "responsible for",
       "head of"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "comply with": {
     "is_phrasal": true,
@@ -1725,7 +1855,9 @@
     "antonyms": [
       "violate",
       "defy"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "specialize in": {
     "is_phrasal": true,
@@ -1750,7 +1882,9 @@
       "focus on",
       "major in"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "succeed in": {
     "is_phrasal": true,
@@ -1777,7 +1911,9 @@
     ],
     "antonyms": [
       "fail in"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "attribute to": {
     "is_phrasal": true,
@@ -1802,7 +1938,9 @@
       "ascribe to",
       "credit to"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "refrain from": {
     "is_phrasal": true,
@@ -1830,7 +1968,9 @@
     "antonyms": [
       "indulge in",
       "persist in"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "apply": {
     "is_phrasal": false,
@@ -1854,7 +1994,9 @@
       "request",
       "solicit"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "focus on": {
     "is_phrasal": true,
@@ -1882,7 +2024,9 @@
     "antonyms": [
       "distract from",
       "ignore"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "rely on": {
     "is_phrasal": true,
@@ -1909,7 +2053,9 @@
     ],
     "antonyms": [
       "distrust"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "belong to": {
     "is_phrasal": true,
@@ -1933,7 +2079,9 @@
       "be owned by",
       "pertain to"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "deal with": {
     "is_phrasal": true,
@@ -1962,7 +2110,9 @@
     "antonyms": [
       "neglect",
       "ignore"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "suffer from": {
     "is_phrasal": true,
@@ -1986,7 +2136,9 @@
       "endure",
       "be afflicted with"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "prevent from": {
     "is_phrasal": true,
@@ -2014,7 +2166,9 @@
     "antonyms": [
       "allow to",
       "permit to"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "insist on": {
     "is_phrasal": true,
@@ -2042,7 +2196,9 @@
     "antonyms": [
       "yield",
       "concede"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "participate in": {
     "is_phrasal": true,
@@ -2069,7 +2225,9 @@
     ],
     "antonyms": [
       "withdraw from"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "benefit from": {
     "is_phrasal": true,
@@ -2096,7 +2254,9 @@
     ],
     "antonyms": [
       "suffer from"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "approve of": {
     "is_phrasal": true,
@@ -2125,7 +2285,9 @@
     "antonyms": [
       "disapprove of",
       "object to"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "object to": {
     "is_phrasal": true,
@@ -2154,7 +2316,9 @@
     "antonyms": [
       "approve of",
       "agree to"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "look down on": {
     "is_phrasal": true,
@@ -2182,7 +2346,9 @@
     "antonyms": [
       "look up to",
       "respect"
-    ]
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
   },
   "come up with": {
     "is_phrasal": true,
@@ -2207,7 +2373,9 @@
       "invent",
       "propose"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
   },
   "get away with": {
     "is_phrasal": true,
@@ -2234,7 +2402,9 @@
     "antonyms": [
       "pay for",
       "be punished for"
-    ]
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
   },
   "face up to": {
     "is_phrasal": true,
@@ -2263,7 +2433,9 @@
       "evade",
       "dodge",
       "ignore"
-    ]
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
   },
   "stand up for": {
     "is_phrasal": true,
@@ -2291,7 +2463,9 @@
     "antonyms": [
       "abandon",
       "betray"
-    ]
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
   },
   "go along with": {
     "is_phrasal": true,
@@ -2320,7 +2494,9 @@
       "oppose",
       "resist",
       "object to"
-    ]
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
   },
   "come down with": {
     "is_phrasal": true,
@@ -2347,7 +2523,9 @@
     ],
     "antonyms": [
       "recover from"
-    ]
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
   },
   "get out of": {
     "is_phrasal": true,
@@ -2375,7 +2553,9 @@
     "antonyms": [
       "take on",
       "undertake"
-    ]
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
   },
   "compete": {
     "is_phrasal": false,
@@ -2404,7 +2584,9 @@
     "antonyms": [
       "cooperate with",
       "collaborate with"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "differ": {
     "is_phrasal": false,
@@ -2430,7 +2612,9 @@
     "antonyms": [
       "resemble",
       "match"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "invest": {
     "is_phrasal": false,
@@ -2455,7 +2639,9 @@
     ],
     "antonyms": [
       "divest from"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "consist of": {
     "is_phrasal": true,
@@ -2479,7 +2665,9 @@
       "be composed of",
       "be made up of"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "congratulate": {
     "is_phrasal": false,
@@ -2502,7 +2690,9 @@
       "felicitate",
       "praise"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "warn": {
     "is_phrasal": false,
@@ -2527,7 +2717,9 @@
       "caution about",
       "alert to"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "protect": {
     "is_phrasal": false,
@@ -2554,7 +2746,9 @@
     "antonyms": [
       "expose to",
       "endanger"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "embark on": {
     "is_phrasal": true,
@@ -2583,7 +2777,9 @@
     "antonyms": [
       "conclude",
       "terminate"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "capitalize on": {
     "is_phrasal": true,
@@ -2611,7 +2807,9 @@
     "antonyms": [
       "miss out on",
       "ignore"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "dispose of": {
     "is_phrasal": true,
@@ -2641,7 +2839,9 @@
       "retain",
       "keep",
       "acquire"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "resort to": {
     "is_phrasal": true,
@@ -2666,7 +2866,9 @@
       "fall back on",
       "use as last resort"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "contribute to": {
     "is_phrasal": true,
@@ -2695,7 +2897,9 @@
     "antonyms": [
       "detract from",
       "hinder"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "adhere to": {
     "is_phrasal": true,
@@ -2725,7 +2929,9 @@
       "violate",
       "flout",
       "breach"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "conform to": {
     "is_phrasal": true,
@@ -2755,7 +2961,9 @@
     "antonyms": [
       "deviate from",
       "rebel against"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "cope with": {
     "is_phrasal": true,
@@ -2783,7 +2991,9 @@
     "antonyms": [
       "succumb to",
       "give up under"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "deviate from": {
     "is_phrasal": true,
@@ -2812,7 +3022,9 @@
     "antonyms": [
       "adhere to",
       "conform to"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "indulge in": {
     "is_phrasal": true,
@@ -2840,7 +3052,9 @@
     "antonyms": [
       "abstain from",
       "refrain from"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "prevail over": {
     "is_phrasal": true,
@@ -2869,7 +3083,9 @@
     "antonyms": [
       "succumb to",
       "yield to"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "dwell on": {
     "is_phrasal": true,
@@ -2898,7 +3114,9 @@
     "antonyms": [
       "move past",
       "forget"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "hinge on": {
     "is_phrasal": true,
@@ -2924,7 +3142,9 @@
       "turn on",
       "pivot on"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "culminate in": {
     "is_phrasal": true,
@@ -2953,7 +3173,9 @@
     "antonyms": [
       "begin with",
       "commence with"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "account for": {
     "is_phrasal": true,
@@ -2978,7 +3200,9 @@
       "constitute",
       "make up"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "strive for": {
     "is_phrasal": true,
@@ -3006,7 +3230,9 @@
     "antonyms": [
       "abandon",
       "give up on"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "stem from": {
     "is_phrasal": true,
@@ -3034,7 +3260,9 @@
     "antonyms": [
       "result in",
       "lead to"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "subjugate to": {
     "is_phrasal": true,
@@ -3061,7 +3289,9 @@
     "antonyms": [
       "liberate from",
       "free from"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "pertain to": {
     "is_phrasal": true,
@@ -3086,7 +3316,9 @@
       "apply to",
       "concern"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "resign from": {
     "is_phrasal": true,
@@ -3114,7 +3346,9 @@
     "antonyms": [
       "join",
       "take up"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "abide by": {
     "is_phrasal": true,
@@ -3142,7 +3376,9 @@
     "antonyms": [
       "violate",
       "break"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "cater to": {
     "is_phrasal": true,
@@ -3171,7 +3407,9 @@
     "antonyms": [
       "neglect",
       "ignore"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "tamper with": {
     "is_phrasal": true,
@@ -3196,7 +3434,9 @@
       "alter",
       "interfere with"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "discriminate against": {
     "is_phrasal": true,
@@ -3224,7 +3464,9 @@
     ],
     "antonyms": [
       "treat equally"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "substitute for": {
     "is_phrasal": true,
@@ -3250,7 +3492,9 @@
       "replace with",
       "swap for"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "interfere with": {
     "is_phrasal": true,
@@ -3280,7 +3524,9 @@
     "antonyms": [
       "assist",
       "facilitate"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "impinge on": {
     "is_phrasal": true,
@@ -3306,7 +3552,9 @@
       "infringe on",
       "intrude on"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "infringe on": {
     "is_phrasal": true,
@@ -3336,7 +3584,9 @@
     "antonyms": [
       "respect",
       "uphold"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "deliberate on": {
     "is_phrasal": true,
@@ -3362,7 +3612,9 @@
       "consider",
       "debate"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "prevail upon": {
     "is_phrasal": true,
@@ -3390,7 +3642,9 @@
     ],
     "antonyms": [
       "discourage from"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "yield to": {
     "is_phrasal": true,
@@ -3418,7 +3672,9 @@
     "antonyms": [
       "resist",
       "withstand"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "succumb to": {
     "is_phrasal": true,
@@ -3446,7 +3702,9 @@
     "antonyms": [
       "resist",
       "overcome"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "ascribe to": {
     "is_phrasal": true,
@@ -3470,7 +3728,9 @@
       "attribute to",
       "assign to"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "conduce to": {
     "is_phrasal": true,
@@ -3497,7 +3757,9 @@
     ],
     "antonyms": [
       "hinder"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "coincide with": {
     "is_phrasal": true,
@@ -3526,7 +3788,9 @@
     "antonyms": [
       "clash with",
       "conflict with"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "go": {
     "is_phrasal": false,
@@ -3553,7 +3817,9 @@
       "come",
       "stay",
       "remain"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "come": {
     "is_phrasal": false,
@@ -3581,7 +3847,9 @@
       "go",
       "leave",
       "depart"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "get": {
     "is_phrasal": false,
@@ -3606,7 +3874,9 @@
     "antonyms": [
       "leave",
       "depart"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "look": {
     "is_phrasal": false,
@@ -3632,7 +3902,9 @@
     "antonyms": [
       "look away",
       "ignore"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "wait for": {
     "is_phrasal": true,
@@ -3658,7 +3930,9 @@
     "antonyms": [
       "leave",
       "depart"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "talk": {
     "is_phrasal": false,
@@ -3686,7 +3960,9 @@
     "antonyms": [
       "be silent",
       "keep quiet"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "speak": {
     "is_phrasal": false,
@@ -3713,7 +3989,9 @@
     ],
     "antonyms": [
       "be quiet"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "thank": {
     "is_phrasal": false,
@@ -3739,7 +4017,9 @@
     "antonyms": [
       "blame",
       "criticize"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "hope": {
     "is_phrasal": false,
@@ -3764,7 +4044,9 @@
     "antonyms": [
       "dread",
       "fear"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "smile": {
     "is_phrasal": false,
@@ -3789,7 +4071,9 @@
     "antonyms": [
       "frown at",
       "scowl at"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "stare at": {
     "is_phrasal": true,
@@ -3816,7 +4100,9 @@
     "antonyms": [
       "glance away",
       "ignore"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "glance at": {
     "is_phrasal": true,
@@ -3844,7 +4130,9 @@
     "antonyms": [
       "stare at",
       "scrutinize"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "listen to": {
     "is_phrasal": true,
@@ -3871,7 +4159,9 @@
     "antonyms": [
       "ignore",
       "disregard"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "shout": {
     "is_phrasal": false,
@@ -3897,7 +4187,9 @@
     "antonyms": [
       "whisper to",
       "mutter to"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "live": {
     "is_phrasal": false,
@@ -3924,7 +4216,9 @@
     "antonyms": [
       "move away",
       "leave"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "search": {
     "is_phrasal": false,
@@ -3950,7 +4244,9 @@
     "antonyms": [
       "find",
       "locate"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "phone": {
     "is_phrasal": false,
@@ -3972,7 +4268,9 @@
       "call",
       "ring"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "none",
+    "particle_count": 0
   },
   "email": {
     "is_phrasal": false,
@@ -3995,7 +4293,9 @@
       "message",
       "send an email to"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "none",
+    "particle_count": 0
   },
   "greet": {
     "is_phrasal": false,
@@ -4022,7 +4322,9 @@
     "antonyms": [
       "ignore",
       "snub"
-    ]
+    ],
+    "preposition_structure": "none",
+    "particle_count": 0
   },
   "obey": {
     "is_phrasal": false,
@@ -4049,7 +4351,9 @@
       "disobey",
       "defy",
       "violate"
-    ]
+    ],
+    "preposition_structure": "none",
+    "particle_count": 0
   },
   "survive": {
     "is_phrasal": false,
@@ -4076,7 +4380,9 @@
     "antonyms": [
       "perish in",
       "succumb to"
-    ]
+    ],
+    "preposition_structure": "none",
+    "particle_count": 0
   },
   "enter": {
     "is_phrasal": false,
@@ -4103,7 +4409,9 @@
       "exit",
       "leave",
       "depart from"
-    ]
+    ],
+    "preposition_structure": "none",
+    "particle_count": 0
   },
   "reach": {
     "is_phrasal": false,
@@ -4129,7 +4437,9 @@
     "antonyms": [
       "leave",
       "depart from"
-    ]
+    ],
+    "preposition_structure": "none",
+    "particle_count": 0
   },
   "marry": {
     "is_phrasal": false,
@@ -4154,7 +4464,9 @@
     ],
     "antonyms": [
       "divorce"
-    ]
+    ],
+    "preposition_structure": "none",
+    "particle_count": 0
   },
   "resemble": {
     "is_phrasal": false,
@@ -4179,7 +4491,9 @@
     ],
     "antonyms": [
       "differ from"
-    ]
+    ],
+    "preposition_structure": "none",
+    "particle_count": 0
   },
   "get on with": {
     "is_phrasal": true,
@@ -4206,7 +4520,9 @@
     "antonyms": [
       "argue with",
       "clash with"
-    ]
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
   },
   "check in": {
     "is_phrasal": true,
@@ -4234,7 +4550,9 @@
     ],
     "antonyms": [
       "check out"
-    ]
+    ],
+    "preposition_structure": "verb_plus_dependent_prep",
+    "particle_count": 1
   },
   "check out": {
     "is_phrasal": true,
@@ -4261,7 +4579,9 @@
     ],
     "antonyms": [
       "check in"
-    ]
+    ],
+    "preposition_structure": "verb_plus_dependent_prep",
+    "particle_count": 1
   },
   "wake up": {
     "is_phrasal": true,
@@ -4288,7 +4608,9 @@
     "antonyms": [
       "fall asleep",
       "go to sleep"
-    ]
+    ],
+    "preposition_structure": "verb_plus_dependent_prep",
+    "particle_count": 1
   },
   "work": {
     "is_phrasal": false,
@@ -4315,7 +4637,9 @@
     "antonyms": [
       "be unemployed",
       "retire"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "stay": {
     "is_phrasal": false,
@@ -4343,7 +4667,9 @@
     "antonyms": [
       "leave",
       "depart"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "complain": {
     "is_phrasal": false,
@@ -4371,7 +4697,9 @@
     "antonyms": [
       "praise",
       "commend"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "care": {
     "is_phrasal": false,
@@ -4397,7 +4725,9 @@
     "antonyms": [
       "ignore",
       "disregard"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "dream": {
     "is_phrasal": false,
@@ -4420,7 +4750,9 @@
       "fantasize about",
       "aspire to"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "prepare": {
     "is_phrasal": false,
@@ -4443,7 +4775,9 @@
       "get ready for",
       "arrange"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "borrow": {
     "is_phrasal": false,
@@ -4466,7 +4800,9 @@
     ],
     "antonyms": [
       "lend to"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "lend": {
     "is_phrasal": false,
@@ -4489,7 +4825,9 @@
     ],
     "antonyms": [
       "borrow from"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "look away": {
     "is_phrasal": true,
@@ -4516,7 +4854,9 @@
     "antonyms": [
       "stare at",
       "look at"
-    ]
+    ],
+    "preposition_structure": "verb_plus_dependent_prep",
+    "particle_count": 1
   },
   "come back": {
     "is_phrasal": true,
@@ -4543,7 +4883,9 @@
     "antonyms": [
       "go away",
       "leave"
-    ]
+    ],
+    "preposition_structure": "verb_plus_dependent_prep",
+    "particle_count": 1
   },
   "go out": {
     "is_phrasal": true,
@@ -4570,7 +4912,9 @@
     ],
     "antonyms": [
       "stay in"
-    ]
+    ],
+    "preposition_structure": "verb_plus_dependent_prep",
+    "particle_count": 1
   },
   "get up": {
     "is_phrasal": true,
@@ -4598,7 +4942,9 @@
     "antonyms": [
       "lie down",
       "go to bed"
-    ]
+    ],
+    "preposition_structure": "verb_plus_dependent_prep",
+    "particle_count": 1
   },
   "turn on": {
     "is_phrasal": true,
@@ -4625,7 +4971,9 @@
     "antonyms": [
       "turn off",
       "switch off"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "turn off": {
     "is_phrasal": true,
@@ -4652,7 +5000,9 @@
     "antonyms": [
       "turn on",
       "switch on"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "write to": {
     "is_phrasal": true,
@@ -4677,7 +5027,9 @@
       "correspond with",
       "send a letter to"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "belong in": {
     "is_phrasal": true,
@@ -4702,7 +5054,9 @@
       "fit in",
       "go in"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "walk out on": {
     "is_phrasal": true,
@@ -4730,7 +5084,9 @@
     "antonyms": [
       "stand by",
       "support"
-    ]
+    ],
+    "preposition_structure": "double_phrasal",
+    "particle_count": 2
   },
   "talk about": {
     "is_phrasal": true,
@@ -4754,7 +5110,9 @@
       "discuss",
       "speak of"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "agree with": {
     "is_phrasal": true,
@@ -4781,7 +5139,9 @@
     "antonyms": [
       "disagree with",
       "dissent from"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "agree to": {
     "is_phrasal": true,
@@ -4808,7 +5168,9 @@
     "antonyms": [
       "reject",
       "refuse"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "apologize to": {
     "is_phrasal": true,
@@ -4831,7 +5193,9 @@
     "synonyms": [
       "say sorry to"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "arrive at": {
     "is_phrasal": true,
@@ -4858,7 +5222,9 @@
     "antonyms": [
       "depart from",
       "leave"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "arrive in": {
     "is_phrasal": true,
@@ -4885,7 +5251,9 @@
     "antonyms": [
       "depart from",
       "leave"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "believe in": {
     "is_phrasal": true,
@@ -4913,7 +5281,9 @@
     "antonyms": [
       "doubt",
       "disbelieve in"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "pay for": {
     "is_phrasal": true,
@@ -4937,7 +5307,9 @@
       "finance",
       "foot the bill for"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "speak with": {
     "is_phrasal": true,
@@ -4961,7 +5333,9 @@
       "talk with",
       "converse with"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "talk to": {
     "is_phrasal": true,
@@ -4985,7 +5359,9 @@
       "speak to",
       "address"
     ],
-    "antonyms": []
+    "antonyms": [],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "confer on": {
     "is_phrasal": true,
@@ -5015,7 +5391,9 @@
     "antonyms": [
       "revoke from",
       "withhold from"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   },
   "desist from": {
     "is_phrasal": true,
@@ -5043,6 +5421,8 @@
     "antonyms": [
       "continue",
       "persist in"
-    ]
+    ],
+    "preposition_structure": "single",
+    "particle_count": 1
   }
 }
