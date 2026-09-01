@@ -20,8 +20,7 @@
             "Grazie",
             "Arrivederci"
           ],
-          "teacher_notes": "code: \"IT-001\"\npronunciation: [{\"point\":\"L'alfabeto italiano\",\"explain\":\"L'italiano ha 21 lettere. Le vocali sono sempre chiare e distinte.\",\"alphabet\":[{\"l\":\"A\",\"ipa\":\"/a/\"},{\"l\":\"B\",\"ipa\":\"/be/\"},{\"l\":\"C\",\"ipa\":\"/tʃe/\"},{\"l\":\"D\",\"ipa\":\"/de/\"},{\"l\":\"E\",\"ipa\":\"/e/\"},{\"l\":\"F\",\"ipa\":\"/ɛf.fe/\"},{\"l\":\"G\",\"ipa\":\"/dʒe/\"},{\"l\":\"H\",\"ipa\":\"/ak.ka/\"},{\"l\":\"I\",\"ipa\":\"/i/\"},{\"l\":\"L\",\"ipa\":\"/ɛl.le/\"},{\"l\":\"M\",\"ipa\":\"/ɛm.me/\"},{\"l\":\"N\",\"ipa\":\"/ɛn.ne/\"},{\"l\":\"O\",\"ipa\":\"/o/\"},{\"l\":\"P\",\"ipa\":\"/pe/\"},{\"l\":\"Q\",\"ipa\":\"/ku/\"},{\"l\":\"R\",\"ipa\":\"/ɛr.re/\"},{\"l\":\"S\",\"ipa\":\"/ɛs.se/\"},{\"l\":\"T\",\"ipa\":\"/te/\"},{\"l\":\"U\",\"ipa\":\"/u/\"},{\"l\":\"V\",\"ipa\":\"/vu/\"},{\"l\":\"Z\",\"ipa\":\"/dzɛ.ta/\"}],\"extension\":\"L'italiano è una lingua fonetica: si scrive quasi esattamente come si pronuncia. Imparare l'alfabeto è il primo passo per leggere correttamente ogni parola.\",\"visual\":\"🇮🇹🔤\"}]\ncando: \"Sa salutare e dire arrivederci\"\nhw: \"Imparare la canzone dell'alfabeto\"",
-          "recycled": "Foundational communication & basic level vocabulary"
+          "teacher_notes": "code: \"IT-001\"\npronunciation: [{\"point\":\"L'alfabeto italiano\",\"explain\":\"L'italiano ha 21 lettere. Le vocali sono sempre chiare e distinte.\",\"alphabet\":[{\"l\":\"A\",\"ipa\":\"/a/\"},{\"l\":\"B\",\"ipa\":\"/be/\"},{\"l\":\"C\",\"ipa\":\"/tʃe/\"},{\"l\":\"D\",\"ipa\":\"/de/\"},{\"l\":\"E\",\"ipa\":\"/e/\"},{\"l\":\"F\",\"ipa\":\"/ɛf.fe/\"},{\"l\":\"G\",\"ipa\":\"/dʒe/\"},{\"l\":\"H\",\"ipa\":\"/ak.ka/\"},{\"l\":\"I\",\"ipa\":\"/i/\"},{\"l\":\"L\",\"ipa\":\"/ɛl.le/\"},{\"l\":\"M\",\"ipa\":\"/ɛm.me/\"},{\"l\":\"N\",\"ipa\":\"/ɛn.ne/\"},{\"l\":\"O\",\"ipa\":\"/o/\"},{\"l\":\"P\",\"ipa\":\"/pe/\"},{\"l\":\"Q\",\"ipa\":\"/ku/\"},{\"l\":\"R\",\"ipa\":\"/ɛr.re/\"},{\"l\":\"S\",\"ipa\":\"/ɛs.se/\"},{\"l\":\"T\",\"ipa\":\"/te/\"},{\"l\":\"U\",\"ipa\":\"/u/\"},{\"l\":\"V\",\"ipa\":\"/vu/\"},{\"l\":\"Z\",\"ipa\":\"/dzɛ.ta/\"}],\"extension\":\"L'italiano è una lingua fonetica: si scrive quasi esattamente come si pronuncia. Imparare l'alfabeto è il primo passo per leggere correttamente ogni parola.\",\"visual\":\"🇮🇹🔤\"}]\ncando: \"Sa salutare e dire arrivederci\"\nhw: \"Imparare la canzone dell'alfabeto\""
         },
         {
           "lesson": 2,
@@ -34,8 +33,7 @@
             "Come",
             "Piacere"
           ],
-          "teacher_notes": "code: \"IT-002\"\npronunciation: [{\"point\":\"La Doppia Consonante\",\"explain\":\"In italiano, le doppie consonanti si pronunciano con più forza e durata.\",\"examples\":[{\"pattern\":\"nn\",\"ipa\":\"/ˈnon.no/\",\"word\":\"nonno\"},{\"pattern\":\"tt\",\"ipa\":\"/ˈfat.to/\",\"word\":\"fatto\"},{\"pattern\":\"ll\",\"ipa\":\"/ˈbel.lo/\",\"word\":\"bello\"}],\"tip\":\"Immagina di fare una piccola pausa sulla doppia.\",\"extension\":\"Le doppie sono fondamentali! Cambiano il significato delle parole: 'casa' (house) vs 'cassa' (box). Ascolta bene la vibrazione più lunga.\",\"visual\":\"⚡\"}]\ncando: \"Sa presentarsi\"\nhw: \"Compitare il proprio nome in italiano\"",
-          "recycled": "Verbo essere (presente) — forme affermative, Benvenuti, Grazie"
+          "teacher_notes": "code: \"IT-002\"\npronunciation: [{\"point\":\"La Doppia Consonante\",\"explain\":\"In italiano, le doppie consonanti si pronunciano con più forza e durata.\",\"examples\":[{\"pattern\":\"nn\",\"ipa\":\"/ˈnon.no/\",\"word\":\"nonno\"},{\"pattern\":\"tt\",\"ipa\":\"/ˈfat.to/\",\"word\":\"fatto\"},{\"pattern\":\"ll\",\"ipa\":\"/ˈbel.lo/\",\"word\":\"bello\"}],\"tip\":\"Immagina di fare una piccola pausa sulla doppia.\",\"extension\":\"Le doppie sono fondamentali! Cambiano il significato delle parole: 'casa' (house) vs 'cassa' (box). Ascolta bene la vibrazione più lunga.\",\"visual\":\"⚡\"}]\ncando: \"Sa presentarsi\"\nhw: \"Compitare il proprio nome in italiano\""
         },
         {
           "lesson": 3,
@@ -50,8 +48,7 @@
             "dieci",
             "venti"
           ],
-          "teacher_notes": "code: \"IT-003\"\npronunciation: [{\"point\":\"Accento sulle parole\",\"explain\":\"La maggior parte delle parole italiane ha l'accento sulla penultima sillaba.\",\"examples\":[{\"pattern\":\"undici\",\"ipa\":\"/ˈun.di.tʃi/\",\"word\":\"undici\"},{\"pattern\":\"dodici\",\"ipa\":\"/ˈdo.di.tʃi/\",\"word\":\"dodici\"},{\"pattern\":\"venti\",\"ipa\":\"/ˈven.ti/\",\"word\":\"venti\"}]}]\ncando: \"Sa contare da 1 a 20\"\nhw: \"Contare gli oggetti nella stanza\"",
-          "recycled": "Verbo essere (presente) — forme affermative, Verbo chiamarsi (presente), Nome"
+          "teacher_notes": "code: \"IT-003\"\npronunciation: [{\"point\":\"Accento sulle parole\",\"explain\":\"La maggior parte delle parole italiane ha l'accento sulla penultima sillaba.\",\"examples\":[{\"pattern\":\"undici\",\"ipa\":\"/ˈun.di.tʃi/\",\"word\":\"undici\"},{\"pattern\":\"dodici\",\"ipa\":\"/ˈdo.di.tʃi/\",\"word\":\"dodici\"},{\"pattern\":\"venti\",\"ipa\":\"/ˈven.ti/\",\"word\":\"venti\"}]}]\ncando: \"Sa contare da 1 a 20\"\nhw: \"Contare gli oggetti nella stanza\""
         },
         {
           "lesson": 4,
@@ -64,8 +61,7 @@
             "cena",
             "chi"
           ],
-          "teacher_notes": "code: \"IT-004\"\npronunciation: [{\"point\":\"C vs G\",\"explain\":\"Distinguere tra suoni duri e dolci di C e G.\",\"minimalPairs\":[{\"w1\":\"casa\",\"p1\":\"/ˈka.za/\",\"w2\":\"gara\",\"p2\":\"/ˈɡa.ra/\"},{\"w1\":\"cena\",\"p1\":\"/ˈtʃe.na/\",\"w2\":\"gena\",\"p2\":\"/ˈdʒɛ.na/\"},{\"w1\":\"chi\",\"p1\":\"/ki/\",\"w2\":\"ghi\",\"p2\":\"/ɡi/\"}]}]\ncando: \"Sa distinguere i suoni C e G\"\nhw: \"Registrarsi dicendo casa e gara\"",
-          "recycled": "Verbo chiamarsi (presente), Il plurale dei nomi (introduzione), tre"
+          "teacher_notes": "code: \"IT-004\"\npronunciation: [{\"point\":\"C vs G\",\"explain\":\"Distinguere tra suoni duri e dolci di C e G.\",\"minimalPairs\":[{\"w1\":\"casa\",\"p1\":\"/ˈka.za/\",\"w2\":\"gara\",\"p2\":\"/ˈɡa.ra/\"},{\"w1\":\"cena\",\"p1\":\"/ˈtʃe.na/\",\"w2\":\"gena\",\"p2\":\"/ˈdʒɛ.na/\"},{\"w1\":\"chi\",\"p1\":\"/ki/\",\"w2\":\"ghi\",\"p2\":\"/ɡi/\"}]}]\ncando: \"Sa distinguere i suoni C e G\"\nhw: \"Registrarsi dicendo casa e gara\""
         },
         {
           "lesson": 5,
@@ -79,8 +75,7 @@
             "Scusa",
             "Prego"
           ],
-          "teacher_notes": "code: \"IT-005\"\npronunciation: [{\"point\":\"Intonazione delle domande\",\"explain\":\"Nelle domande, la voce sale alla fine della frase.\",\"examples\":[{\"pattern\":\"Per favore\",\"ipa\":\"/per fa.ˈvo.re/\",\"word\":\"Per favore\"},{\"pattern\":\"Scusa\",\"ipa\":\"/ˈsku.za/\",\"word\":\"Scusa\"},{\"pattern\":\"Prego\",\"ipa\":\"/ˈprɛ.ɡo/\",\"word\":\"Prego\"}]}]\ncando: \"Sa usare frasi di cortesia di base\"\nhw: \"Usare tre frasi di cortesia domani\"",
-          "recycled": "Il plurale dei nomi (introduzione), Struttura base della frase, casa"
+          "teacher_notes": "code: \"IT-005\"\npronunciation: [{\"point\":\"Intonazione delle domande\",\"explain\":\"Nelle domande, la voce sale alla fine della frase.\",\"examples\":[{\"pattern\":\"Per favore\",\"ipa\":\"/per fa.ˈvo.re/\",\"word\":\"Per favore\"},{\"pattern\":\"Scusa\",\"ipa\":\"/ˈsku.za/\",\"word\":\"Scusa\"},{\"pattern\":\"Prego\",\"ipa\":\"/ˈprɛ.ɡo/\",\"word\":\"Prego\"}]}]\ncando: \"Sa usare frasi di cortesia di base\"\nhw: \"Usare tre frasi di cortesia domani\""
         }
       ]
     },
@@ -105,8 +100,7 @@
             "italiano",
             "americano"
           ],
-          "teacher_notes": "code: \"IT-01\"\npronunciation: [{\"point\":\"The Italian Alphabet & Vowels\",\"explain\":\"Italian vowels are always clear and short. There are no diphthongs like in English.\",\"examples\":[{\"pattern\":\"A\",\"ipa\":\"/a/\",\"word\":\"casa\"},{\"pattern\":\"E\",\"ipa\":\"/e/\",\"word\":\"mela\"},{\"pattern\":\"I\",\"ipa\":\"/i/\",\"word\":\"bici\"},{\"pattern\":\"O\",\"ipa\":\"/o/\",\"word\":\"notte\"},{\"pattern\":\"U\",\"ipa\":\"/u/\",\"word\":\"uva\"}],\"tip\":\"Open your mouth more than you do in English for 'A'.\",\"extension\":\"In English, vowels like 'A' often have two sounds combined (a diphthong). In Italian, 'A' is just 'A', pure and simple. Keep it short!\",\"visual\":\"👄\"}]\nspeaking: \"Presentarsi e salutare in classe\"\nlistening: \"Tre persone si presentano\"\nreading: \"Un breve dialogo di presentazione\"\nwriting: \"Scrivere la propria presentazione (4 frasi)\"\ntask: \"Speed dating di presentazione\"\ncando: \"Può presentarsi e salutare con cortesia\"\nhw: \"Imparare i numeri da 1 a 20\"",
-          "recycled": "Struttura base della frase, Richieste gentili (Per favore), Grazie mille"
+          "teacher_notes": "code: \"IT-01\"\npronunciation: [{\"point\":\"The Italian Alphabet & Vowels\",\"explain\":\"Italian vowels are always clear and short. There are no diphthongs like in English.\",\"examples\":[{\"pattern\":\"A\",\"ipa\":\"/a/\",\"word\":\"casa\"},{\"pattern\":\"E\",\"ipa\":\"/e/\",\"word\":\"mela\"},{\"pattern\":\"I\",\"ipa\":\"/i/\",\"word\":\"bici\"},{\"pattern\":\"O\",\"ipa\":\"/o/\",\"word\":\"notte\"},{\"pattern\":\"U\",\"ipa\":\"/u/\",\"word\":\"uva\"}],\"tip\":\"Open your mouth more than you do in English for 'A'.\",\"extension\":\"In English, vowels like 'A' often have two sounds combined (a diphthong). In Italian, 'A' is just 'A', pure and simple. Keep it short!\",\"visual\":\"👄\"}]\nspeaking: \"Presentarsi e salutare in classe\"\nlistening: \"Tre persone si presentano\"\nreading: \"Un breve dialogo di presentazione\"\nwriting: \"Scrivere la propria presentazione (4 frasi)\"\ntask: \"Speed dating di presentazione\"\ncando: \"Può presentarsi e salutare con cortesia\"\nhw: \"Imparare i numeri da 1 a 20\""
         },
         {
           "lesson": 2,
@@ -125,8 +119,7 @@
             "occupato",
             "libero"
           ],
-          "teacher_notes": "code: \"IT-02\"\npronunciation: [{\"point\":\"Hard and Soft 'C'\",\"explain\":\"'C' is soft (ch) before E and I, but hard (k) before A, O, U.\",\"examples\":[{\"pattern\":\"ce\",\"ipa\":\"/ˈtʃe.na/\",\"word\":\"cena\"},{\"pattern\":\"ca\",\"ipa\":\"/ˈka.za/\",\"word\":\"casa\"},{\"pattern\":\"chi\",\"ipa\":\"/ˈkjan.ti/\",\"word\":\"chianti\"}],\"tip\":\"Add an 'H' to keep the 'K' sound before E or I.\",\"extension\":\"La pronuncia della 'C' è uno dei pilastri della fonetica italiana. Ricorda: C + H = Suono Duro (K).\",\"visual\":\"🍕\"}]\nspeaking: \"Descrivere il proprio lavoro e gli strumenti\"\nlistening: \"Descrizioni di vari mestieri\"\nreading: \"Un annuncio di lavoro semplice\"\nwriting: \"Descrivere il proprio lavoro in 5 frasi\"\ntask: \"Indovinare il lavoro del compagno\"\ncando: \"Può parlare della propria professione\"\nhw: \"Elencare 10 oggetti dell'ufficio\"",
-          "recycled": "Richieste gentili (Per favore), Presente di ESSERE + pronomi personali, chiamarsi"
+          "teacher_notes": "code: \"IT-02\"\npronunciation: [{\"point\":\"Hard and Soft 'C'\",\"explain\":\"'C' is soft (ch) before E and I, but hard (k) before A, O, U.\",\"examples\":[{\"pattern\":\"ce\",\"ipa\":\"/ˈtʃe.na/\",\"word\":\"cena\"},{\"pattern\":\"ca\",\"ipa\":\"/ˈka.za/\",\"word\":\"casa\"},{\"pattern\":\"chi\",\"ipa\":\"/ˈkjan.ti/\",\"word\":\"chianti\"}],\"tip\":\"Add an 'H' to keep the 'K' sound before E or I.\",\"extension\":\"La pronuncia della 'C' è uno dei pilastri della fonetica italiana. Ricorda: C + H = Suono Duro (K).\",\"visual\":\"🍕\"}]\nspeaking: \"Descrivere il proprio lavoro e gli strumenti\"\nlistening: \"Descrizioni di vari mestieri\"\nreading: \"Un annuncio di lavoro semplice\"\nwriting: \"Descrivere il proprio lavoro in 5 frasi\"\ntask: \"Indovinare il lavoro del compagno\"\ncando: \"Può parlare della propria professione\"\nhw: \"Elencare 10 oggetti dell'ufficio\""
         },
         {
           "lesson": 3,
@@ -146,8 +139,7 @@
             "piccolo",
             "bello"
           ],
-          "teacher_notes": "code: \"IT-03\"\npronunciation: [{\"point\":\"GLI and GN\",\"explain\":\"Special sounds that require specific tongue placement.\",\"examples\":[{\"pattern\":\"gli\",\"ipa\":\"/ʎi/\",\"word\":\"famiglia\"},{\"pattern\":\"gn\",\"ipa\":\"/ɲ/\",\"word\":\"bagno\"}],\"extension\":\"Il suono 'GN' è simile alla 'ñ' spagnola. Il suono 'GLI' è unico: appoggia la lingua al palato e lascia uscire l'aria dai lati.\",\"visual\":\"🍝\"}]\nspeaking: \"Descrivere la propria casa e la zona\"\nlistening: \"Una persona descrive il suo quartiere\"\nreading: \"Un annuncio immobiliare\"\nwriting: \"Scrivere l'indirizzo e descrivere la casa\"\ntask: \"Disegnare la pianta della casa e spiegarla\"\ncando: \"Può descrivere dove abita\"\nhw: \"Vocabolario delle stanze della casa\"",
-          "recycled": "Presente di ESSERE + pronomi personali, Presente di AVERE + articoli indeterminativi, lavorare"
+          "teacher_notes": "code: \"IT-03\"\npronunciation: [{\"point\":\"GLI and GN\",\"explain\":\"Special sounds that require specific tongue placement.\",\"examples\":[{\"pattern\":\"gli\",\"ipa\":\"/ʎi/\",\"word\":\"famiglia\"},{\"pattern\":\"gn\",\"ipa\":\"/ɲ/\",\"word\":\"bagno\"}],\"extension\":\"Il suono 'GN' è simile alla 'ñ' spagnola. Il suono 'GLI' è unico: appoggia la lingua al palato e lascia uscire l'aria dai lati.\",\"visual\":\"🍝\"}]\nspeaking: \"Descrivere la propria casa e la zona\"\nlistening: \"Una persona descrive il suo quartiere\"\nreading: \"Un annuncio immobiliare\"\nwriting: \"Scrivere l'indirizzo e descrivere la casa\"\ntask: \"Disegnare la pianta della casa e spiegarla\"\ncando: \"Può descrivere dove abita\"\nhw: \"Vocabolario delle stanze della casa\""
         },
         {
           "lesson": 4,
@@ -166,8 +158,7 @@
             "sposato",
             "single"
           ],
-          "teacher_notes": "code: \"IT-04\"\nspeaking: \"Presentare la famiglia con delle foto\"\nlistening: \"Un uomo parla della sua famiglia numerosa\"\nreading: \"Un albero genealogico commentato\"\nwriting: \"Un paragrafo sulla propria famiglia\"\ntask: \"Trovare somiglianze familiari nel gruppo\"\ncando: \"Può presentare i membri della famiglia\"\nhw: \"Fare il proprio albero genealogico\"",
-          "recycled": "Presente di AVERE + articoli indeterminativi, Verbi in -ARE (abitare) + preposizioni di luogo, grande"
+          "teacher_notes": "code: \"IT-04\"\nspeaking: \"Presentare la famiglia con delle foto\"\nlistening: \"Un uomo parla della sua famiglia numerosa\"\nreading: \"Un albero genealogico commentato\"\nwriting: \"Un paragrafo sulla propria famiglia\"\ntask: \"Trovare somiglianze familiari nel gruppo\"\ncando: \"Può presentare i membri della famiglia\"\nhw: \"Fare il proprio albero genealogico\""
         },
         {
           "lesson": 5,
@@ -187,8 +178,7 @@
             "costare",
             "gratis"
           ],
-          "teacher_notes": "code: \"IT-05\"\nspeaking: \"Fare acquisti in un negozio finto\"\nlistening: \"Dialogo alla cassa del supermercato\"\nreading: \"Uno scontrino e dei prezzi\"\nwriting: \"Fare una lista della spesa con i prezzi\"\ntask: \"Role-play al mercato\"\ncando: \"Sa fare acquisti di base\"\nhw: \"Memorizzare i numeri fino a 100\"",
-          "recycled": "Verbi in -ARE (abitare) + preposizioni di luogo, Aggettivi possessivi (mio, tuo, suo), volere bene"
+          "teacher_notes": "code: \"IT-05\"\nspeaking: \"Fare acquisti in un negozio finto\"\nlistening: \"Dialogo alla cassa del supermercato\"\nreading: \"Uno scontrino e dei prezzi\"\nwriting: \"Fare una lista della spesa con i prezzi\"\ntask: \"Role-play al mercato\"\ncando: \"Sa fare acquisti di base\"\nhw: \"Memorizzare i numeri fino a 100\""
         },
         {
           "lesson": 6,
@@ -210,8 +200,7 @@
             "caldo",
             "freddo"
           ],
-          "teacher_notes": "code: \"IT-06\"\nspeaking: \"Ordinare al ristorante\"\nlistening: \"Un'ordinazione al bar\"\nreading: \"Un menù di una trattoria\"\nwriting: \"Scrivere la propria ordinazione ideale\"\ntask: \"Ordinare una colazione completa\"\ncando: \"Sa ordinare da mangiare e da bere\"\nhw: \"Imparare 10 nomi di alimenti\"",
-          "recycled": "Aggettivi possessivi (mio, tuo, suo), Numeri fino a 100 + interrogativi (Quanto?), comprare"
+          "teacher_notes": "code: \"IT-06\"\nspeaking: \"Ordinare al ristorante\"\nlistening: \"Un'ordinazione al bar\"\nreading: \"Un menù di una trattoria\"\nwriting: \"Scrivere la propria ordinazione ideale\"\ntask: \"Ordinare una colazione completa\"\ncando: \"Sa ordinare da mangiare e da bere\"\nhw: \"Imparare 10 nomi di alimenti\""
         },
         {
           "lesson": 7,
@@ -232,8 +221,7 @@
             "malato",
             "in forma"
           ],
-          "teacher_notes": "code: \"IT-07\"\nspeaking: \"Spiegare i sintomi al medico\"\nlistening: \"Una visita medica semplice\"\nreading: \"Una ricetta medica\"\nwriting: \"Scrivere un messaggio di assenza per malattia\"\ntask: \"Role-play: dal dottore\"\ncando: \"Esprimere un dolore fisico semplice\"\nhw: \"Parti del corpo umano\"",
-          "recycled": "Numeri fino a 100 + interrogativi (Quanto?), Articoli determinativi (ripasso) + Vorrei..., buono"
+          "teacher_notes": "code: \"IT-07\"\nspeaking: \"Spiegare i sintomi al medico\"\nlistening: \"Una visita medica semplice\"\nreading: \"Una ricetta medica\"\nwriting: \"Scrivere un messaggio di assenza per malattia\"\ntask: \"Role-play: dal dottore\"\ncando: \"Esprimere un dolore fisico semplice\"\nhw: \"Parti del corpo umano\""
         },
         {
           "lesson": 8,
@@ -255,8 +243,7 @@
             "lento",
             "utile"
           ],
-          "teacher_notes": "code: \"IT-08\"\nspeaking: \"Parlare dell'uso dello smartphone\"\nlistening: \"Intervista sulle abitudini digitali\"\nreading: \"Un post sui social media\"\nwriting: \"Descrivere la propria routine digitale\"\ntask: \"Dibattito: smartphone sì o no?\"\ncando: \"Parlare delle proprie abitudini tecnologiche\"\nhw: \"Tradurre 5 frasi sulla tecnologia\"",
-          "recycled": "Articoli determinativi (ripasso) + Vorrei..., Espressione \"Avere male a...\", stanco"
+          "teacher_notes": "code: \"IT-08\"\nspeaking: \"Parlare dell'uso dello smartphone\"\nlistening: \"Intervista sulle abitudini digitali\"\nreading: \"Un post sui social media\"\nwriting: \"Descrivere la propria routine digitale\"\ntask: \"Dibattito: smartphone sì o no?\"\ncando: \"Parlare delle proprie abitudini tecnologiche\"\nhw: \"Tradurre 5 frasi sulla tecnologia\""
         },
         {
           "lesson": 9,
@@ -278,8 +265,7 @@
             "noioso",
             "interessante"
           ],
-          "teacher_notes": "code: \"IT-09\"\nspeaking: \"Condividere le attività del weekend\"\nlistening: \"Persone che parlano dei propri hobby\"\nreading: \"Un programma culturale cittadino\"\nwriting: \"Descrivere il proprio hobby preferito\"\ntask: \"Trovare un compagno con lo stesso hobby\"\ncando: \"Sa parlare dei propri interessi\"\nhw: \"Scrivere 5 frasi sui propri gusti\"",
-          "recycled": "Espressione \"Avere male a...\", Verbi in -ERE e -IRE al presente, veloce"
+          "teacher_notes": "code: \"IT-09\"\nspeaking: \"Condividere le attività del weekend\"\nlistening: \"Persone che parlano dei propri hobby\"\nreading: \"Un programma culturale cittadino\"\nwriting: \"Descrivere il proprio hobby preferito\"\ntask: \"Trovare un compagno con lo stesso hobby\"\ncando: \"Sa parlare dei propri interessi\"\nhw: \"Scrivere 5 frasi sui propri gusti\""
         },
         {
           "lesson": 10,
@@ -295,8 +281,7 @@
             "Verbi regolari",
             "Concordanza genere/numero"
           ],
-          "teacher_notes": "code: \"IT-10\"\nspeaking: \"Test orale di 3 minuti su se stessi\"\nlistening: \"Test di comprensione Unità 1\"\nreading: \"Profilo di uno studente italiano\"\nwriting: \"Scrivere la propria biografia (A1)\"\ntask: \"Intervista di personalità\"\ncando: \"Conosce le basi per comunicare in italiano\"\nhw: \"Preparare il portfolio Unità 1\"",
-          "recycled": "Verbi in -ERE e -IRE al presente, Verbo FARE + attività del tempo libero, divertente"
+          "teacher_notes": "code: \"IT-10\"\nspeaking: \"Test orale di 3 minuti su se stessi\"\nlistening: \"Test di comprensione Unità 1\"\nreading: \"Profilo di uno studente italiano\"\nwriting: \"Scrivere la propria biografia (A1)\"\ntask: \"Intervista di personalità\"\ncando: \"Conosce le basi per comunicare in italiano\"\nhw: \"Preparare il portfolio Unità 1\""
         }
       ]
     },
@@ -310,8 +295,7 @@
           "grammar": [
             "Passato prossimo (AVERE)"
           ],
-          "teacher_notes": "code: \"IT-11\"\nlessons_count: 1",
-          "recycled": "Verbo FARE + attività del tempo libero, Riepilogo presente, articoli e possessivi, Fare"
+          "teacher_notes": "code: \"IT-11\"\nlessons_count: 1"
         },
         {
           "lesson": 2,
@@ -319,8 +303,7 @@
           "grammar": [
             "Passato prossimo (regolari/irregolari)"
           ],
-          "teacher_notes": "code: \"IT-12\"\nlessons_count: 1",
-          "recycled": "Riepilogo presente, articoli e possessivi, Passato prossimo (AVERE), Fare"
+          "teacher_notes": "code: \"IT-12\"\nlessons_count: 1"
         },
         {
           "lesson": 3,
@@ -328,8 +311,7 @@
           "grammar": [
             "Passato prossimo (ESSERE)"
           ],
-          "teacher_notes": "code: \"IT-13\"\nlessons_count: 1",
-          "recycled": "Passato prossimo (AVERE), Passato prossimo (regolari/irregolari), Fare"
+          "teacher_notes": "code: \"IT-13\"\nlessons_count: 1"
         },
         {
           "lesson": 4,
@@ -337,8 +319,7 @@
           "grammar": [
             "Imperfetto descrittivo"
           ],
-          "teacher_notes": "code: \"IT-14\"\nlessons_count: 1",
-          "recycled": "Passato prossimo (regolari/irregolari), Passato prossimo (ESSERE), Fare"
+          "teacher_notes": "code: \"IT-14\"\nlessons_count: 1"
         },
         {
           "lesson": 5,
@@ -346,8 +327,7 @@
           "grammar": [
             "Passato prossimo vs Imperfetto"
           ],
-          "teacher_notes": "code: \"IT-15\"\nlessons_count: 1",
-          "recycled": "Passato prossimo (ESSERE), Imperfetto descrittivo, Fare"
+          "teacher_notes": "code: \"IT-15\"\nlessons_count: 1"
         },
         {
           "lesson": 6,
@@ -355,8 +335,7 @@
           "grammar": [
             "Espressioni di tempo passato"
           ],
-          "teacher_notes": "code: \"IT-16\"\nlessons_count: 1",
-          "recycled": "Imperfetto descrittivo, Passato prossimo vs Imperfetto, Fare"
+          "teacher_notes": "code: \"IT-16\"\nlessons_count: 1"
         },
         {
           "lesson": 7,
@@ -364,8 +343,7 @@
           "grammar": [
             "Narrazione al passato"
           ],
-          "teacher_notes": "code: \"IT-17\"\nlessons_count: 1",
-          "recycled": "Passato prossimo vs Imperfetto, Espressioni di tempo passato, Fare"
+          "teacher_notes": "code: \"IT-17\"\nlessons_count: 1"
         },
         {
           "lesson": 8,
@@ -373,8 +351,7 @@
           "grammar": [
             "Imperfetto per abitudine"
           ],
-          "teacher_notes": "code: \"IT-18\"\nlessons_count: 1",
-          "recycled": "Espressioni di tempo passato, Narrazione al passato, Fare"
+          "teacher_notes": "code: \"IT-18\"\nlessons_count: 1"
         },
         {
           "lesson": 9,
@@ -382,8 +359,7 @@
           "grammar": [
             "Discorso indiretto semplice"
           ],
-          "teacher_notes": "code: \"IT-19\"\nlessons_count: 1",
-          "recycled": "Narrazione al passato, Imperfetto per abitudine, Fare"
+          "teacher_notes": "code: \"IT-19\"\nlessons_count: 1"
         },
         {
           "lesson": 10,
@@ -391,8 +367,7 @@
           "grammar": [
             "Bilan Passato"
           ],
-          "teacher_notes": "code: \"IT-20\"\nlessons_count: 1",
-          "recycled": "Imperfetto per abitudine, Discorso indiretto semplice, Fare"
+          "teacher_notes": "code: \"IT-20\"\nlessons_count: 1"
         }
       ]
     },
@@ -406,8 +381,7 @@
           "grammar": [
             "Futur semplice"
           ],
-          "teacher_notes": "code: \"IT-21\"\nlessons_count: 1",
-          "recycled": "Discorso indiretto semplice, Bilan Passato, Fare"
+          "teacher_notes": "code: \"IT-21\"\nlessons_count: 1"
         },
         {
           "lesson": 2,
@@ -415,8 +389,7 @@
           "grammar": [
             "Futuro semplice"
           ],
-          "teacher_notes": "code: \"IT-22\"\nlessons_count: 1",
-          "recycled": "Bilan Passato, Futur semplice, Fare"
+          "teacher_notes": "code: \"IT-22\"\nlessons_count: 1"
         },
         {
           "lesson": 3,
@@ -424,8 +397,7 @@
           "grammar": [
             "Previsioni"
           ],
-          "teacher_notes": "code: \"IT-23\"\nlessons_count: 1",
-          "recycled": "Futur semplice, Futuro semplice, Fare"
+          "teacher_notes": "code: \"IT-23\"\nlessons_count: 1"
         },
         {
           "lesson": 4,
@@ -433,8 +405,7 @@
           "grammar": [
             "Periodo ipotetico"
           ],
-          "teacher_notes": "code: \"IT-24\"\nlessons_count: 1",
-          "recycled": "Futuro semplice, Previsioni, Fare"
+          "teacher_notes": "code: \"IT-24\"\nlessons_count: 1"
         },
         {
           "lesson": 5,
@@ -442,8 +413,7 @@
           "grammar": [
             "Programmare"
           ],
-          "teacher_notes": "code: \"IT-25\"\nlessons_count: 1",
-          "recycled": "Previsioni, Periodo ipotetico, Fare"
+          "teacher_notes": "code: \"IT-25\"\nlessons_count: 1"
         },
         {
           "lesson": 6,
@@ -451,8 +421,7 @@
           "grammar": [
             "Previsioni sociali"
           ],
-          "teacher_notes": "code: \"IT-26\"\nlessons_count: 1",
-          "recycled": "Periodo ipotetico, Programmare, Fare"
+          "teacher_notes": "code: \"IT-26\"\nlessons_count: 1"
         },
         {
           "lesson": 7,
@@ -460,8 +429,7 @@
           "grammar": [
             "Intenzioni"
           ],
-          "teacher_notes": "code: \"IT-27\"\nlessons_count: 1",
-          "recycled": "Programmare, Previsioni sociali, Fare"
+          "teacher_notes": "code: \"IT-27\"\nlessons_count: 1"
         },
         {
           "lesson": 8,
@@ -469,8 +437,7 @@
           "grammar": [
             "Potere, Volere, Dovere"
           ],
-          "teacher_notes": "code: \"IT-28\"\nlessons_count: 1",
-          "recycled": "Previsioni sociali, Intenzioni, Fare"
+          "teacher_notes": "code: \"IT-28\"\nlessons_count: 1"
         },
         {
           "lesson": 9,
@@ -478,8 +445,7 @@
           "grammar": [
             "Logistica"
           ],
-          "teacher_notes": "code: \"IT-29\"\nlessons_count: 1",
-          "recycled": "Intenzioni, Potere, Volere, Dovere, Fare"
+          "teacher_notes": "code: \"IT-29\"\nlessons_count: 1"
         },
         {
           "lesson": 10,
@@ -487,8 +453,7 @@
           "grammar": [
             "Bilan Futuro"
           ],
-          "teacher_notes": "code: \"IT-30\"\nlessons_count: 1",
-          "recycled": "Potere, Volere, Dovere, Logistica, Fare"
+          "teacher_notes": "code: \"IT-30\"\nlessons_count: 1"
         }
       ]
     },
@@ -502,8 +467,7 @@
           "grammar": [
             "Comparativi"
           ],
-          "teacher_notes": "code: \"IT-31\"\nlessons_count: 1",
-          "recycled": "Logistica, Bilan Futuro, Fare"
+          "teacher_notes": "code: \"IT-31\"\nlessons_count: 1"
         },
         {
           "lesson": 2,
@@ -511,8 +475,7 @@
           "grammar": [
             "Superlativi"
           ],
-          "teacher_notes": "code: \"IT-32\"\nlessons_count: 1",
-          "recycled": "Bilan Futuro, Comparativi, Fare"
+          "teacher_notes": "code: \"IT-32\"\nlessons_count: 1"
         },
         {
           "lesson": 3,
@@ -520,8 +483,7 @@
           "grammar": [
             "Espressioni di parere"
           ],
-          "teacher_notes": "code: \"IT-33\"\nlessons_count: 1",
-          "recycled": "Comparativi, Superlativi, Fare"
+          "teacher_notes": "code: \"IT-33\"\nlessons_count: 1"
         },
         {
           "lesson": 4,
@@ -529,8 +491,7 @@
           "grammar": [
             "Pronomi relativi"
           ],
-          "teacher_notes": "code: \"IT-34\"\nlessons_count: 1",
-          "recycled": "Superlativi, Espressioni di parere, Fare"
+          "teacher_notes": "code: \"IT-34\"\nlessons_count: 1"
         },
         {
           "lesson": 5,
@@ -538,8 +499,7 @@
           "grammar": [
             "Esprimere fastidio"
           ],
-          "teacher_notes": "code: \"IT-35\"\nlessons_count: 1",
-          "recycled": "Espressioni di parere, Pronomi relativi, Fare"
+          "teacher_notes": "code: \"IT-35\"\nlessons_count: 1"
         },
         {
           "lesson": 6,
@@ -547,8 +507,7 @@
           "grammar": [
             "Cultura"
           ],
-          "teacher_notes": "code: \"IT-36\"\nlessons_count: 1",
-          "recycled": "Pronomi relativi, Esprimere fastidio, Fare"
+          "teacher_notes": "code: \"IT-36\"\nlessons_count: 1"
         },
         {
           "lesson": 7,
@@ -556,8 +515,7 @@
           "grammar": [
             "Cultura gastronomica"
           ],
-          "teacher_notes": "code: \"IT-37\"\nlessons_count: 1",
-          "recycled": "Esprimere fastidio, Cultura, Fare"
+          "teacher_notes": "code: \"IT-37\"\nlessons_count: 1"
         },
         {
           "lesson": 8,
@@ -565,8 +523,7 @@
           "grammar": [
             "Luoghi e servizi"
           ],
-          "teacher_notes": "code: \"IT-38\"\nlessons_count: 1",
-          "recycled": "Cultura, Cultura gastronomica, Fare"
+          "teacher_notes": "code: \"IT-38\"\nlessons_count: 1"
         },
         {
           "lesson": 9,
@@ -574,8 +531,7 @@
           "grammar": [
             "Problemi globali"
           ],
-          "teacher_notes": "code: \"IT-39\"\nlessons_count: 1",
-          "recycled": "Cultura gastronomica, Luoghi e servizi, Fare"
+          "teacher_notes": "code: \"IT-39\"\nlessons_count: 1"
         },
         {
           "lesson": 10,
@@ -583,8 +539,7 @@
           "grammar": [
             "Bilan Opinioni"
           ],
-          "teacher_notes": "code: \"IT-40\"\nlessons_count: 1",
-          "recycled": "Luoghi e servizi, Problemi globali, Fare"
+          "teacher_notes": "code: \"IT-40\"\nlessons_count: 1"
         }
       ]
     },
@@ -598,8 +553,7 @@
           "grammar": [
             "Conversazione"
           ],
-          "teacher_notes": "code: \"IT-41\"\nlessons_count: 1",
-          "recycled": "Problemi globali, Bilan Opinioni, Fare"
+          "teacher_notes": "code: \"IT-41\"\nlessons_count: 1"
         },
         {
           "lesson": 2,
@@ -607,8 +561,7 @@
           "grammar": [
             "Narrazione"
           ],
-          "teacher_notes": "code: \"IT-42\"\nlessons_count: 1",
-          "recycled": "Bilan Opinioni, Conversazione, Fare"
+          "teacher_notes": "code: \"IT-42\"\nlessons_count: 1"
         },
         {
           "lesson": 3,
@@ -616,8 +569,7 @@
           "grammar": [
             "Registri"
           ],
-          "teacher_notes": "code: \"IT-43\"\nlessons_count: 1",
-          "recycled": "Conversazione, Narrazione, Fare"
+          "teacher_notes": "code: \"IT-43\"\nlessons_count: 1"
         },
         {
           "lesson": 4,
@@ -625,8 +577,7 @@
           "grammar": [
             "Comprensione media"
           ],
-          "teacher_notes": "code: \"IT-44\"\nlessons_count: 1",
-          "recycled": "Narrazione, Registri, Fare"
+          "teacher_notes": "code: \"IT-44\"\nlessons_count: 1"
         },
         {
           "lesson": 5,
@@ -634,8 +585,7 @@
           "grammar": [
             "Slang/Modi di dire"
           ],
-          "teacher_notes": "code: \"IT-45\"\nlessons_count: 1",
-          "recycled": "Registri, Comprensione media, Fare"
+          "teacher_notes": "code: \"IT-45\"\nlessons_count: 1"
         },
         {
           "lesson": 6,
@@ -643,8 +593,7 @@
           "grammar": [
             "Fluidità"
           ],
-          "teacher_notes": "code: \"IT-46\"\nlessons_count: 1",
-          "recycled": "Comprensione media, Slang/Modi di dire, Fare"
+          "teacher_notes": "code: \"IT-46\"\nlessons_count: 1"
         },
         {
           "lesson": 7,
@@ -652,8 +601,7 @@
           "grammar": [
             "Sintesi"
           ],
-          "teacher_notes": "code: \"IT-47\"\nlessons_count: 1",
-          "recycled": "Slang/Modi di dire, Fluidità, Fare"
+          "teacher_notes": "code: \"IT-47\"\nlessons_count: 1"
         },
         {
           "lesson": 8,
@@ -661,8 +609,7 @@
           "grammar": [
             "Sintesi"
           ],
-          "teacher_notes": "code: \"IT-48\"\nlessons_count: 1",
-          "recycled": "Fluidità, Sintesi, Fare"
+          "teacher_notes": "code: \"IT-48\"\nlessons_count: 1"
         },
         {
           "lesson": 9,
@@ -670,8 +617,7 @@
           "grammar": [
             "Valutazione"
           ],
-          "teacher_notes": "code: \"IT-49\"\nlessons_count: 1",
-          "recycled": "Sintesi, Sintesi, Fare"
+          "teacher_notes": "code: \"IT-49\"\nlessons_count: 1"
         },
         {
           "lesson": 10,
@@ -679,8 +625,7 @@
           "grammar": [
             "Valutazione"
           ],
-          "teacher_notes": "code: \"IT-50\"\nlessons_count: 1",
-          "recycled": "Sintesi, Valutazione, Fare"
+          "teacher_notes": "code: \"IT-50\"\nlessons_count: 1"
         }
       ]
     }

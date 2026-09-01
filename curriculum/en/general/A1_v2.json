@@ -18,7 +18,7 @@
           "lesson": 1,
           "type": "vocab",
           "title": "Greetings, names & the alphabet",
-          "recycled": "Foundational communication & basic level vocabulary",
+          "recycled": null,
           "vocabulary": [
             "Hello",
             "hi",
@@ -36,7 +36,7 @@
           "lesson": 2,
           "type": "grammar",
           "title": "To be — I am, you are (positive & negative)",
-          "recycled": "good evening, good night, Nice to meet you",
+          "recycled": null,
           "grammar": [
             "To be — I am, you are",
             "Apostrophe for contractions"

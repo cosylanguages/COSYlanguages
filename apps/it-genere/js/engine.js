@@ -180,13 +180,14 @@ class ItalianGenderEngine {
         const pat = prepPatterns[Math.floor(Math.random() * prepPatterns.length)];
         const art = data.article || (data.gender === 'Maschile' ? 'il' : 'la');
         const combined = pat.combines[art] || `${pat.prep} ${art}`;
-        const correctVal = combined;
+        const correctVal = `${combined} ${targetNoun}`;
 
         const distractors = new Set();
         const artKeys = ["il", "la", "l'", "i", "le"];
         for (let a of artKeys) {
             let comb = pat.combines[a] || `${pat.prep} ${a}`;
-            if (comb !== correctVal) distractors.add(comb);
+            let dVal = `${comb} ${targetNoun}`;
+            if (dVal !== correctVal) distractors.add(dVal);
         }
 
         const options = [correctVal, ...Array.from(distractors).slice(0, 3)].sort(() => 0.5 - Math.random());
@@ -198,7 +199,7 @@ class ItalianGenderEngine {
         if (labelEl) labelEl.textContent = 'Forma la preposizione articolata:';
 
         mcGroup.innerHTML = options.map(opt => `
-            <button class="mc-option-btn" onclick="appEngine.checkArticlesChoice('${opt.replace(/'/g, "\\'")}')">${opt}</button>
+            <button class="mc-option-btn" onclick="appEngine.checkArticlesChoice('${opt.replace(/'/g, "\'")}')">${opt}</button>
         `).join('');
 
         document.getElementById('game-feedback-box').style.display = 'none';
@@ -214,11 +215,11 @@ class ItalianGenderEngine {
         if (isCorrect) {
             this.gameScore += 10; this.gameStreak += 1;
             feedback.className = 'feedback-card correct';
-            feedback.innerHTML = `✅ Eccellente! <strong>${selected} ${this.currentQuestion.noun}</strong> è la forma corretta (+10 pti).`;
+            feedback.innerHTML = `✅ Eccellente! <strong>${selected}</strong> è la forma corretta (+10 pti).`;
         } else {
             this.gameStreak = 0;
             feedback.className = 'feedback-card wrong';
-            feedback.innerHTML = `❌ Ops! La forma corretta era: <strong>${this.currentQuestion.expected} ${this.currentQuestion.noun}</strong>.`;
+            feedback.innerHTML = `❌ Ops! La forma corretta era: <strong>${this.currentQuestion.expected}</strong>.`;
         }
         document.getElementById('game-score').textContent = this.gameScore;
         document.getElementById('game-streak').textContent = this.gameStreak;
