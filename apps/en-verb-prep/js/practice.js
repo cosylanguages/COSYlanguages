@@ -112,7 +112,7 @@ class PracticeManager {
                 <div class="mc-prompt">
                     <span class="prompt-badge mc-badge">🎯 Dependent Preposition</span>
                     <h3>${key}</h3>
-                    <p class="pattern-hint">Pattern: <em>${data.pattern || key}</em></p>
+                    <p class="definition-hint"><em>${data.definition || ''}</em></p>
                 </div>
             `;
         }
