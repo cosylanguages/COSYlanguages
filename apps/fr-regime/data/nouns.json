@@ -8,7 +8,7 @@
     "level": "A1",
     "definition": "Exigence fondamentale ou nécessité vitale d'avoir quelque chose.",
     "grammar_rule": "Le nom 'besoin' prend la préposition 'de' (besoin de repos). Identique au verbe 'avoir besoin de'. Contractions du/des.",
-    "related_forms": "⚡ Nom : 'besoin' ➜ Verbe apparenté : « avoir besoin »",
+    "related_forms": "avoir besoin",
     "examples": [
       "Il ressent un grand besoin de repos après le travail.",
       "Le besoin d'eau est vital pour tous."
@@ -21,6 +21,222 @@
     "antonyms": [
       "superflu",
       "luxe"
+    ]
+  },
+  "peur": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "peur de [nom / verbe]",
+    "level": "A1",
+    "definition": "Sentiment d'inquiétude ou d'effroi face à un danger.",
+    "grammar_rule": "Exige la préposition 'de' devant un nom ou un infinitif. Se contracte avec 'le' (du) et 'les' (des).",
+    "related_forms": "avoir peur",
+    "examples": [
+      "Les enfants ont peur du noir.",
+      "Elle a eu peur de rater son train."
+    ],
+    "common_mistake": "❌ J'ai peur pour le noir. ➜ ✅ J'ai peur du noir.",
+    "synonyms": [
+      "crainte",
+      "frayeur"
+    ],
+    "antonyms": [
+      "courage",
+      "assurance"
+    ]
+  },
+  "envie": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "envie de [nom / verbe]",
+    "level": "A1",
+    "definition": "Désir immédiat de faire ou de posséder quelque chose.",
+    "grammar_rule": "S'emploie toujours avec 'de' devant un nom ou un verbe à l'infinitif.",
+    "related_forms": "avoir envie",
+    "examples": [
+      "J'ai vraiment envie d'un bon café.",
+      "Elle a envie de partir en vacances."
+    ],
+    "common_mistake": "❌ J'ai envie pour sortir. ➜ ✅ J'ai envie de sortir.",
+    "synonyms": [
+      "désir",
+      "souhait"
+    ],
+    "antonyms": [
+      "aversion",
+      "dégoût"
+    ]
+  },
+  "accès": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "accès à [lieu / ressource]",
+    "level": "A2",
+    "definition": "Possibilité de pénétrer dans un lieu ou d'utiliser un service.",
+    "grammar_rule": "Nécessite la préposition 'à'. Attention aux contractions : à + le = au, à + les = aux.",
+    "related_forms": "accéder",
+    "examples": [
+      "L'accès à la bibliothèque est gratuit.",
+      "Les étudiants ont accès aux ordinateurs."
+    ],
+    "common_mistake": "❌ L'accès de la salle est fermé. ➜ ✅ L'accès à la salle est fermé.",
+    "synonyms": [
+      "entrée",
+      "admission"
+    ],
+    "antonyms": [
+      "interdiction",
+      "fermeture"
+    ]
+  },
+  "solution": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "solution à [problème]",
+    "level": "A2",
+    "definition": "Moyen qui permet de résoudre une difficulté ou une question.",
+    "grammar_rule": "Prend la préposition 'à' pour indiquer ce qui est résolu (solution à un problème).",
+    "related_forms": "résoudre",
+    "examples": [
+      "Nous avons trouvé une solution à ce problème.",
+      "Il existe plusieurs solutions à cette crise."
+    ],
+    "common_mistake": "❌ La solution pour le problème. ➜ ✅ La solution au problème.",
+    "synonyms": [
+      "réponse",
+      "issue"
+    ],
+    "antonyms": [
+      "obstacle",
+      "complication"
+    ]
+  },
+  "réaction": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "réaction à [événement / propos]",
+    "level": "A2",
+    "definition": "Comportement ou sentiment provoqué par une action extérieure.",
+    "grammar_rule": "Prend la préposition 'à' pour marquer l'élément déclencheur.",
+    "related_forms": "réagir",
+    "examples": [
+      "Sa réaction à cette nouvelle était inattendue.",
+      "Quelle a été votre réaction au message ?"
+    ],
+    "common_mistake": "❌ Sa réaction de la nouvelle. ➜ ✅ Sa réaction à la nouvelle.",
+    "synonyms": [
+      "réponse",
+      "répartie"
+    ],
+    "antonyms": [
+      "passivité",
+      "indifférence"
+    ]
+  },
+  "influence": {
+    "word_type": "noun",
+    "prepositions": [
+      "sur"
+    ],
+    "pattern": "influence sur [personne / chose]",
+    "level": "B1",
+    "definition": "Action exercée par une personne ou une chose sur une autre.",
+    "grammar_rule": "Le nom 'influence' exige la préposition 'sur'. Attention : le verbe 'influencer' est transitif direct !",
+    "related_forms": "influencer",
+    "examples": [
+      "Le climat a une grande influence sur notre humeur.",
+      "Elle a une bonne influence sur ses camarades."
+    ],
+    "common_mistake": "❌ Une influence à la société. ➜ ✅ Une influence sur la société.",
+    "synonyms": [
+      "impact",
+      "effet"
+    ],
+    "antonyms": [
+      "inefficacité",
+      "neutralité"
+    ]
+  },
+  "confiance": {
+    "word_type": "noun",
+    "prepositions": [
+      "en"
+    ],
+    "pattern": "confiance en [personne / soi]",
+    "level": "B1",
+    "definition": "Sentiment de sécurité fondé sur l'honnêteté ou les capacités de quelqu'un.",
+    "grammar_rule": "S'emploie avec 'en' (ex: confiance en soi, confiance en Dieu/quelqu'un) ou parfois 'dans' devant un déterminant.",
+    "related_forms": "faire confiance",
+    "examples": [
+      "Il faut avoir confiance en soi pour réussir.",
+      "J'ai toute confiance en mes équipiers."
+    ],
+    "common_mistake": "❌ J'ai confiance à lui. ➜ ✅ J'ai confiance en lui.",
+    "synonyms": [
+      "assurance",
+      "foi"
+    ],
+    "antonyms": [
+      "méfiance",
+      "doute"
+    ]
+  },
+  "fidélité": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "fidélité à [cause / personne / engagement]",
+    "level": "B2",
+    "definition": "Attachement constant et respect des engagements pris.",
+    "grammar_rule": "S'emploie avec la préposition 'à'.",
+    "related_forms": "fidèle",
+    "examples": [
+      "Sa fidélité à la marque est remarquable.",
+      "Ils ont juré fidélité à leur patrie."
+    ],
+    "common_mistake": "❌ Fidélité de ses principes. ➜ ✅ Fidélité à ses principes.",
+    "synonyms": [
+      "loyauté",
+      "dévouement"
+    ],
+    "antonyms": [
+      "infidélité",
+      "trahison"
+    ]
+  },
+  "doute": {
+    "word_type": "noun",
+    "prepositions": [
+      "sur"
+    ],
+    "pattern": "doute sur / quant à [sujet]",
+    "level": "B2",
+    "definition": "Incertitude ou manque de conviction sur une réalité.",
+    "grammar_rule": "Exige 'sur' ou 'quant à' pour introduire l'objet de l'hésitation.",
+    "related_forms": "douter",
+    "examples": [
+      "J'ai des doutes sur l'efficacité de cette méthode.",
+      "Le doute plane sur son honnêteté."
+    ],
+    "common_mistake": "❌ J'ai des doutes de sa réussite. ➜ ✅ J'ai des doutes sur sa réussite.",
+    "synonyms": [
+      "incertitude",
+      "hésitation"
+    ],
+    "antonyms": [
+      "certitude",
+      "assurance"
     ]
   }
 }
