@@ -48,8 +48,22 @@ class PracticeManager {
 
         const item = this.currentSession[this.currentIndex];
         const data = item.entry;
-        const key = item.key;
+        const rawKey = item.key;
         const type = item.type;
+
+        // Clean prompt word to avoid leaking trailing preposition in key name
+        let promptWord = rawKey;
+        if (data.prepositions && data.prepositions.length > 0 && data.prepositions[0] !== 'none') {
+            for (const p of data.prepositions) {
+                if (p === 'none') continue;
+                const reg = new RegExp(`\\s+${p.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&')}$`, 'i');
+                if (reg.test(promptWord)) {
+                    promptWord = promptWord.replace(reg, '');
+                    break;
+                }
+            }
+            promptWord = promptWord.trim();
+        }
 
         // Choose question format: 'mc' (pick prep), 'blank' (fill in blank), or 'spot_mistake' (if common_mistake exists)
         const randVal = Math.random();
@@ -87,7 +101,7 @@ class PracticeManager {
             questionPromptHtml = `
                 <div class="mistake-spot-prompt">
                     <span class="prompt-badge spot-badge">⚠️ Spot &amp; Fix Pitfall</span>
-                    <h4>Identify the correct pattern for: <strong class="highlight-word">${key}</strong></h4>
+                    <h4>Identify the correct pattern for: <strong class="highlight-word">${promptWord}</strong></h4>
                     <p class="mistake-line">${data.common_mistake.split('➜')[0] || data.common_mistake}</p>
                 </div>
             `;
@@ -98,12 +112,12 @@ class PracticeManager {
                 const reg = new RegExp(`\\b${primaryPrep}\\b`, 'i');
                 blankSentence = ex.replace(reg, '<strong class="blank-spot">[ ___ ]</strong>');
             } else {
-                blankSentence = ex.replace(new RegExp(`\\b${key}\\b`, 'i'), `${key} <strong class="blank-spot">[ ___ ]</strong>`);
+                blankSentence = ex.replace(new RegExp(`\\b${promptWord}\\b`, 'i'), `${promptWord} <strong class="blank-spot">[ ___ ]</strong>`);
             }
             questionPromptHtml = `
                 <div class="blank-prompt">
                     <span class="prompt-badge blank-badge">💡 Complete the Sentence</span>
-                    <h3>${key}</h3>
+                    <h3>${promptWord}</h3>
                     <p class="sentence-box">"${blankSentence}"</p>
                 </div>
             `;
@@ -111,8 +125,8 @@ class PracticeManager {
             questionPromptHtml = `
                 <div class="mc-prompt">
                     <span class="prompt-badge mc-badge">🎯 Dependent Preposition</span>
-                    <h3>${key}</h3>
-                    <p class="pattern-hint">Pattern: <em>${data.pattern || key}</em></p>
+                    <h3>${promptWord}</h3>
+                    <p class="definition-hint"><em>${data.definition || ''}</em></p>
                 </div>
             `;
         }
@@ -170,6 +184,7 @@ class PracticeManager {
             feedbackBox.className = 'inline-feedback-card feedback-correct';
             feedbackBox.innerHTML = `
                 <div class="feedback-title">✅ Correct! (${expected === 'none' ? 'No Preposition' : expected})</div>
+                <div class="feedback-srs-info" style="margin: 0.25rem 0; font-weight: 600; font-size: 0.9rem;">⭐ Mastery: Level ${newProg.masteryLevel}/5</div>
                 <div class="feedback-rule">📌 Rule: ${item.entry.grammar_rule}</div>
             `;
         } else {
@@ -177,6 +192,7 @@ class PracticeManager {
             feedbackBox.className = 'inline-feedback-card feedback-wrong';
             feedbackBox.innerHTML = `
                 <div class="feedback-title">❌ Incorrect! Correct choice: <strong>${expected === 'none' ? 'No Preposition (Direct)' : expected}</strong></div>
+                <div class="feedback-srs-info" style="margin: 0.25rem 0; font-weight: 600; font-size: 0.9rem;">⭐ Mastery: Level ${newProg.masteryLevel}/5</div>
                 <div class="feedback-rule">📌 Rule: ${item.entry.grammar_rule}</div>
                 ${item.entry.common_mistake ? `<div class="feedback-mistake">⚠️ Pitfall Fix: ${item.entry.common_mistake}</div>` : ''}
             `;

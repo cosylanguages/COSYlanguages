@@ -192,14 +192,13 @@ class NounGenderEngine {
         const pat = prepPatterns[Math.floor(Math.random() * prepPatterns.length)];
         const art = data.article || (data.gender === 'Masculin' ? 'le' : 'la');
         const combined = pat.combines[art] || `${pat.prep} ${art}`;
-        const correctVal = `${combined} ${targetNoun}`;
+        const correctVal = combined;
 
         const distractors = new Set();
         const artKeys = ["le", "la", "l'", "les"];
         for (let a of artKeys) {
             let comb = pat.combines[a] || `${pat.prep} ${a}`;
-            let dVal = `${comb} ${targetNoun}`;
-            if (dVal !== correctVal) distractors.add(dVal);
+            if (comb !== correctVal) distractors.add(comb);
         }
 
         const options = [correctVal, ...Array.from(distractors).slice(0, 3)].sort(() => 0.5 - Math.random());
@@ -211,7 +210,7 @@ class NounGenderEngine {
         if (labelEl) labelEl.textContent = 'Contractez la préposition :';
 
         mcGroup.innerHTML = options.map(opt => `
-            <button class="mc-option-btn" onclick="appEngine.checkArticlesChoice('${opt.replace(/'/g, "\'")}')">${opt}</button>
+            <button class="mc-option-btn" onclick="appEngine.checkArticlesChoice('${opt.replace(/'/g, "\\'")}')">${opt}</button>
         `).join('');
 
         document.getElementById('game-feedback-box').style.display = 'none';
@@ -227,11 +226,11 @@ class NounGenderEngine {
         if (isCorrect) {
             this.gameScore += 10; this.gameStreak += 1;
             feedback.className = 'feedback-card correct';
-            feedback.innerHTML = `✅ Excellent ! <strong>${selected}</strong> est la forme correcte (+10 pts).`;
+            feedback.innerHTML = `✅ Excellent ! <strong>${selected} ${this.currentQuestion.noun}</strong> est la forme correcte (+10 pts).`;
         } else {
             this.gameStreak = 0;
             feedback.className = 'feedback-card wrong';
-            feedback.innerHTML = `❌ Oups ! La forme correcte est : <strong>${this.currentQuestion.expected}</strong>.`;
+            feedback.innerHTML = `❌ Oups ! La forme correcte est : <strong>${this.currentQuestion.expected} ${this.currentQuestion.noun}</strong>.`;
         }
         document.getElementById('game-score').textContent = this.gameScore;
         document.getElementById('game-streak').textContent = this.gameStreak;

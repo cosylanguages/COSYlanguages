@@ -9,17 +9,8 @@
     <link rel="stylesheet" href="../../../../css/components.css">
     <link rel="stylesheet" href="../../../../css/layout.css">
     <link rel="stylesheet" href="../../../../css/home.css">
+    <link rel="stylesheet" href="../../../../apps/premium-courses/css/courses.css">
     <link rel="icon" href="../../../../images/cosylanguages.png">
-    <style>
-        .curriculum-container { max-width: 800px; margin: 0 auto; padding: 2rem; }
-        .unit-block { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem; }
-        .unit-title { font-size: 1.5rem; margin-bottom: 1rem; color: var(--accent); }
-        .lesson-card { background: rgba(255,255,255,0.03); border: 1px solid var(--border); border-radius: 8px; padding: 1rem; margin-bottom: 1rem; transition: transform 0.2s; }
-        .lesson-card:hover { transform: translateY(-2px); border-color: var(--accent); }
-        .lc-title { font-weight: 800; font-size: 1.1rem; margin-bottom: 0.5rem; }
-        .lc-meta { font-size: 0.9em; color: var(--muted); margin-bottom: 0.5rem; }
-        .lc-content { font-size: 0.95em; line-height: 1.4; }
-    </style>
 </head>
 <body>
 
@@ -28,11 +19,24 @@
 <main class="page">
     <section>
         <div class="curriculum-container">
-            <h1 class="sec-h2">A1 - General Course (Italiano)</h1>
+            <div style="margin-bottom: 1rem;">
+                <span class="spoken-focus-tag">70%+ Spoken Focus</span>
+                <span style="font-size: 0.85rem; color: var(--muted); margin-left: 0.5rem; text-transform: uppercase; font-weight: 700; letter-spacing: 0.05em;">general Track • Level A1</span>
+            </div>
+
+            <h1 class="sec-h2" style="margin-bottom: 0.5rem;">A1 — General Course (IT)</h1>
+
+            <div style="background: rgba(255,255,255,0.02); border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem; margin-bottom: 2rem;">
+                <h3 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--accent);">Spoken Journey Goal</h3>
+                <p style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.5; margin: 0;">
+                    Build foundational vocabulary, natural pronunciation patterns, and immediate conversational confidence through interconnected, speaking-first real-world scenarios.
+                </p>
+            </div>
+
             <div id="curriculum-data">Loading curriculum...</div>
 
             <div style="margin-top: 2rem; text-align: center;">
-                <a href="index.html" class="btn-secondary">← Torna all'Italiano</a>
+                <a href="index.html" class="btn-secondary">← Back to IT General</a>
             </div>
         </div>
     </section>
@@ -49,11 +53,13 @@ const level = 'A1';
 
 async function loadCurriculum() {
     try {
-        const response = await fetch(`${(window.COSY && typeof window.COSY.getPrefix === "function") ? window.COSY.getPrefix() : "/"}curriculum/${lang}/${type}/${level}.json`);
+        const rootPath = (window.COSY && typeof window.COSY.getPrefix === "function") ? window.COSY.getPrefix() : "../../../../";
+        const response = await fetch(`${rootPath}curriculum/${lang}/${type}/${level}.json`);
+        if (!response.ok) throw new Error("File not found");
         const data = await response.json();
         render(data);
     } catch (e) {
-        document.getElementById('curriculum-data').innerHTML = 'Error loading curriculum data.';
+        document.getElementById('curriculum-data').innerHTML = '<div style="padding:2rem; text-align:center; color:var(--muted);">Curriculum dataset for this track and level is currently being prepared. Check back soon!</div>';
     }
 }
 
@@ -65,14 +71,28 @@ function render(data) {
     }
     let html = '';
     data.units.forEach(unit => {
+        const cleanUnitTitle = (unit.title || '').replace(/^Unit\s+\d+:\s*/i, '');
         html += `<div class="unit-block">
-            <h2 class="unit-title">Unit ${unit.unit}: ${unit.title}</h2>`;
+            <h2 class="unit-title">Unit ${unit.unit}: ${cleanUnitTitle}</h2>`;
         unit.lessons.forEach(lesson => {
+            const grammarStr = Array.isArray(lesson.grammar) ? lesson.grammar.join(', ') : (lesson.grammar || '');
+            const vocabStr = Array.isArray(lesson.vocabulary) ? lesson.vocabulary.join(', ') : (lesson.vocabulary || '');
+            const recycledStr = lesson.recycled || '';
+
+            let notes = lesson.teacher_notes || '';
+            notes = notes.replace(/code:\s*"[^"]*"\s*/gi, '')
+                         .replace(/cando:\s*"[^"]*"\s*/gi, '')
+                         .replace(/hw:\s*"[^"]*"\s*/gi, '')
+                         .replace(/
++/g, '<br>')
+                         .trim();
+
             html += `<div class="lesson-card">
-                <div class="lc-title">Lesson ${lesson.lesson}: ${lesson.title}</div>
-                <div class="lc-meta"><strong>Grammar:</strong> ${lesson.grammar.join(', ')}</div>
-                <div class="lc-meta"><strong>Vocabulary:</strong> ${lesson.vocabulary.join(', ')}</div>
-                <div class="lc-content">${lesson.teacher_notes.replace(/\n/g, '<br>')}</div>
+                <div class="lc-title">Day ${lesson.lesson}: ${lesson.title}</div>
+                ${grammarStr ? `<div class="lc-meta"><strong>Grammar:</strong> ${grammarStr}</div>` : ''}
+                ${vocabStr ? `<div class="lc-meta"><strong>Vocabulary:</strong> ${vocabStr}</div>` : ''}
+                ${recycledStr ? `<div class="recycled-callout"><strong>🔄 Applied Prior Knowledge:</strong> ${recycledStr}</div>` : ''}
+                ${notes ? `<div class="lc-content" style="margin-top:0.5rem; font-size:0.9em; color:var(--muted);">${notes}</div>` : ''}
             </div>`;
         });
         html += '</div>';

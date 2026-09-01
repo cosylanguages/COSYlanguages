@@ -274,7 +274,7 @@ class FrenchRegimeEngine {
             this.sessionScore += 10;
             this.sessionCorrectCount += 1;
             feedback.className = 'feedback-card correct';
-            feedback.innerHTML = `✅ Excellent ! La préposition exacte pour <strong>${current.key}</strong> est <strong>${expected === 'none' ? 'Direct (sans préposition)' : expected}</strong>. (+10 pts, Niveau SRS : ${srsResult.newLevel}/5)`;
+            feedback.innerHTML = `✅ Excellent ! La préposition exacte pour <strong>${current.key}</strong> est <strong>${expected === 'none' ? 'Direct (sans préposition)' : expected}</strong>.<br><div style="margin-top:4px; font-weight:600; font-size:0.9rem;">⭐ Niveau de maîtrise : ${srsResult.newLevel}/5</div>`;
         } else {
             feedback.className = 'feedback-card wrong';
             feedback.innerHTML = `❌ Incorrect ! <strong>${current.key}</strong> demande : <strong>${expected === 'none' ? 'Direct (sans préposition)' : expected}</strong>.<br><small class="rule-box-spaced"><strong>Règle :</strong> ${data.grammar_rule}</small>${data.common_mistake ? `<small class="trap-box-spaced"><strong>Piège :</strong> ${data.common_mistake}</small>` : ''}`;

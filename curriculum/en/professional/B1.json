@@ -23,7 +23,8 @@
             "Sincerely",
             "Regards"
           ],
-          "teacher_notes": "code: \"EN-PRO-B1-001\"\ncando: \"Can write clear formal emails for routine workplace requests and scheduling.\""
+          "teacher_notes": "code: \"EN-PRO-B1-001\"\ncando: \"Can write clear formal emails for routine workplace requests and scheduling.\"",
+          "recycled": "Foundational communication & basic level vocabulary"
         },
         {
           "lesson": 2,
@@ -40,7 +41,8 @@
             "Action point",
             "Status update"
           ],
-          "teacher_notes": "code: \"EN-PRO-B1-002\"\ncando: \"Can report project status and contribute to team meeting agendas.\""
+          "teacher_notes": "code: \"EN-PRO-B1-002\"\ncando: \"Can report project status and contribute to team meeting agendas.\"",
+          "recycled": "Formal request phrasing, Future arrangements with Present Continuous, Schedule"
         }
       ]
     }
