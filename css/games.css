@@ -318,6 +318,89 @@ body.theme-dark .btn-gender {
     border-color: rgba(107, 143, 113, 0.3) !important;
 }
 
+/* Clean Utility Classes for Games Engine */
+.game-loader-centered {
+  text-align: center;
+  padding: 4rem;
+}
+.game-card-centered {
+  text-align: center;
+}
+.game-card-padded {
+  padding: 1rem;
+}
+.game-prompt-large {
+  font-size: 5rem;
+}
+.game-controls-centered {
+  justify-content: center;
+}
+.game-controls-centered-spaced {
+  justify-content: center;
+  margin-top: 2rem;
+}
+.game-controls-top-spaced {
+  margin-top: 1.5rem;
+  justify-content: center;
+}
+.game-history-box {
+  margin-top: 1.5rem;
+  font-size: 0.8rem;
+  opacity: 0.6;
+  word-wrap: break-word;
+}
+.bingo-grid-layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin: 1.5rem 0;
+}
+.crossword-grid-box {
+  margin: 1.5rem 0;
+  overflow-x: auto;
+}
+.crossword-clue-box {
+  font-size: 1rem;
+  border-top: 1px solid var(--border);
+  padding-top: 1rem;
+}
+.crossword-two-col-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 1rem;
+}
+.clues-list-box {
+  font-size: 0.8rem;
+  text-align: left;
+}
+.ideas-title-sage {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--sage-dark);
+  margin: 0.5rem 0 0.5rem;
+}
+.ideas-list-styled {
+  font-size: 0.85rem;
+  text-align: left;
+  margin: 0 0 1rem 1rem;
+  padding: 0;
+  line-height: 1.4;
+}
+.personal-best-sub {
+  margin-bottom: 1rem;
+}
+.gold-info-banner {
+  background: var(--gold-light);
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  color: var(--gold);
+  margin-bottom: 1rem;
+  border: 1px solid rgba(176,125,43,0.2);
+}
+
 /* Standalone Overlay, Loader & Toast Utilities */
 .game-overlay-standalone {
     position: relative;
