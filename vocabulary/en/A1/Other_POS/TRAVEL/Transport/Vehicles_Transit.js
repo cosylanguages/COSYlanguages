@@ -14,8 +14,8 @@
                 ]
             }
         ],
-        "emoji": "\ud83d\ude8c",
-        "transcription": "ba\u026a",
+        "emoji": "🚌",
+        "transcription": "baɪ",
         "subtext": "by",
         "lang": "en",
         "level": "starter",

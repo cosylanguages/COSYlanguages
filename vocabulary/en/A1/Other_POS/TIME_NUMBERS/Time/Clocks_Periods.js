@@ -14,8 +14,8 @@
                 ]
             }
         ],
-        "emoji": "\ud83d\udcd6",
-        "transcription": "\u0259\u02c8ba\u028at",
+        "emoji": "📖",
+        "transcription": "əˈbaʊt",
         "subtext": "about",
         "lang": "en",
         "level": "starter",
@@ -41,8 +41,8 @@
             }
         ],
         "subtext": "related to prepositions time",
-        "emoji": "\u23ed\ufe0f",
-        "transcription": "\u02c8\u00e6ft\u0259r",
+        "emoji": "⏭️",
+        "transcription": "ˈæftər",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -70,8 +70,8 @@
             }
         ],
         "subtext": "related to prepositions time",
-        "emoji": "\u23ee\ufe0f",
-        "transcription": "\u02ccbi\u02c8f\u0254r",
+        "emoji": "⏮️",
+        "transcription": "ˌbiˈfɔr",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -99,8 +99,8 @@
             }
         ],
         "subtext": "related to prepositions time",
-        "emoji": "\u231b",
-        "transcription": "\u02c8d\u028ar\u026a\u014b",
+        "emoji": "⌛",
+        "transcription": "ˈdʊrɪŋ",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -125,8 +125,8 @@
             }
         ],
         "subtext": "related to prepositions time",
-        "emoji": "\ud83c\udf81",
-        "transcription": "f\u0259r",
+        "emoji": "🎁",
+        "transcription": "fər",
         "lang": "en",
         "level": "starter",
         "theme": "time",

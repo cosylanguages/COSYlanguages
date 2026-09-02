@@ -4,7 +4,7 @@
     {
         "id": "A1-OTH-TRA-004",
         "word": "Albert Einstein",
-        "emoji": "\ud83d\udc68\u200d\ud83d\udd2c",
+        "emoji": "👨‍🔬",
         "definitions": [
             {
                 "text": "A very famous scientist from Germany who lived in the USA.",
@@ -14,7 +14,7 @@
             }
         ],
         "subtext": "famous scientist",
-        "transcription": "\u02c8\u00e6lb\u0259rt \u02c8a\u026ansta\u026an",
+        "transcription": "ˈælbərt ˈaɪnstaɪn",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -39,8 +39,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "\ud83c\uddf3\ud83c\uddf1",
-        "transcription": "\u02c8\u00e6mst\u0259r\u02ccd\u00e6m",
+        "emoji": "🇳🇱",
+        "transcription": "ˈæmstərˌdæm",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -65,8 +65,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "\ud83c\uddec\ud83c\uddf7",
-        "transcription": "\u02c8\u00e6\u03b8\u0259nz",
+        "emoji": "🇬🇷",
+        "transcription": "ˈæθənz",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -91,8 +91,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "\ud83c\udde6\ud83c\uddfa",
-        "transcription": "\u0254\u02c8stre\u026alj\u0259",
+        "emoji": "🇦🇺",
+        "transcription": "ɔˈstreɪljə",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -117,8 +117,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "\ud83c\udde6\ud83c\uddf9",
-        "transcription": "\u02c8\u0254stri\u0259",
+        "emoji": "🇦🇹",
+        "transcription": "ˈɔstriə",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -143,8 +143,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "\ud83c\uddea\ud83c\uddf8",
-        "transcription": "\u02ccb\u0251rs\u026a\u02c8lo\u028an\u0259",
+        "emoji": "🇪🇸",
+        "transcription": "ˌbɑrsɪˈloʊnə",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -169,8 +169,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "\ud83c\udde8\ud83c\uddf3",
-        "transcription": "\u02ccbe\u026a\u02c8\u0292\u026a\u014b",
+        "emoji": "🇨🇳",
+        "transcription": "ˌbeɪˈʒɪŋ",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -195,8 +195,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "\ud83c\udde7\ud83c\uddea",
-        "transcription": "\u02c8b\u025bl\u02a4\u0259m",
+        "emoji": "🇧🇪",
+        "transcription": "ˈbɛlʤəm",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -221,8 +221,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "\ud83c\udde9\ud83c\uddea",
-        "transcription": "b\u0259r\u02c8l\u026an",
+        "emoji": "🇩🇪",
+        "transcription": "bərˈlɪn",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -237,18 +237,18 @@
     },
     {
         "id": "A1-OTH-TRA-013",
-        "word": "Beyonc\u00e9",
-        "emoji": "\ud83c\udfa4",
+        "word": "Beyoncé",
+        "emoji": "🎤",
         "definitions": [
             {
                 "text": "A famous singer and dancer from the USA.",
                 "examples": [
-                    "Beyonc\u00e9 is a very successful artist."
+                    "Beyoncé is a very successful artist."
                 ]
             }
         ],
         "subtext": "famous singer",
-        "transcription": "\ud83c\uddec\ud83c\udde7 bi\u02c8\u0252nse\u026a | \ud83c\uddfa\ud83c\uddf8 bi\u02c8\u0251\u02d0nse\u026a",
+        "transcription": "🇬🇧 biˈɒnseɪ | 🇺🇸 biˈɑːnseɪ",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -273,8 +273,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "\ud83c\udde7\ud83c\uddf7",
-        "transcription": "br\u0259\u02c8z\u026al",
+        "emoji": "🇧🇷",
+        "transcription": "brəˈzɪl",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -299,8 +299,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "\ud83c\udde8\ud83c\udde6",
-        "transcription": "\u02c8k\u00e6n\u0259d\u0259",
+        "emoji": "🇨🇦",
+        "transcription": "ˈkænədə",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -325,8 +325,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "\ud83c\uddfa\ud83c\uddf8",
-        "transcription": "\u0283\u0259\u02c8k\u0251\u02ccgo\u028a",
+        "emoji": "🇺🇸",
+        "transcription": "ʃəˈkɑˌgoʊ",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -351,8 +351,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "\ud83c\udde8\ud83c\uddf3",
-        "transcription": "\u02c8\u02a7a\u026an\u0259",
+        "emoji": "🇨🇳",
+        "transcription": "ˈʧaɪnə",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -368,7 +368,7 @@
     {
         "id": "A1-OTH-TRA-018",
         "word": "Cristiano Ronaldo",
-        "emoji": "\u26bd",
+        "emoji": "⚽",
         "definitions": [
             {
                 "text": "A famous football player from Portugal.",
@@ -378,7 +378,7 @@
             }
         ],
         "subtext": "famous athlete",
-        "transcription": "kris\u02c8tj\u0250nu \u0281u\u02c8na\u026bdu",
+        "transcription": "krisˈtjɐnu ʁuˈnaɫdu",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -403,8 +403,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "\ud83c\udde9\ud83c\uddf0",
-        "transcription": "\u02c8d\u025bn\u02ccm\u0251rk",
+        "emoji": "🇩🇰",
+        "transcription": "ˈdɛnˌmɑrk",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -429,8 +429,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "\ud83c\uddee\ud83c\uddea",
-        "transcription": "\u02c8d\u0259bl\u026an",
+        "emoji": "🇮🇪",
+        "transcription": "ˈdəblɪn",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -455,8 +455,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc73\udb40\udc63\udb40\udc74\udb40\udc7f",
-        "transcription": "\u02c8\u025bd\u0259nb\u0259ro\u028a",
+        "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        "transcription": "ˈɛdənbəroʊ",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -481,8 +481,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "\ud83c\uddea\ud83c\uddec",
-        "transcription": "\u02c8i\u02a4\u026apt",
+        "emoji": "🇪🇬",
+        "transcription": "ˈiʤɪpt",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -498,7 +498,7 @@
     {
         "id": "A1-OTH-TRA-023",
         "word": "Elon Musk",
-        "emoji": "\ud83d\ude80",
+        "emoji": "🚀",
         "definitions": [
             {
                 "text": "A famous businessman who builds electric cars and rockets.",
@@ -508,7 +508,7 @@
             }
         ],
         "subtext": "famous businessman",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8i\u02d0l\u0252n \u02c8m\u028csk | \ud83c\uddfa\ud83c\uddf8 \u02c8i\u02d0l\u0251\u02d0n \u02c8m\u028csk",
+        "transcription": "🇬🇧 ˈiːlɒn ˈmʌsk | 🇺🇸 ˈiːlɑːn ˈmʌsk",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -533,8 +533,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
-        "transcription": "\u02c8\u026a\u014bgl\u0259nd",
+        "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "transcription": "ˈɪŋglənd",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -559,8 +559,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "\ud83c\uddeb\ud83c\uddee",
-        "transcription": "\u02c8f\u026an\u02ccl\u00e6nd",
+        "emoji": "🇫🇮",
+        "transcription": "ˈfɪnˌlænd",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -585,8 +585,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "\ud83c\uddee\ud83c\uddf9",
-        "transcription": "\u02c8fl\u0254r\u0259ns",
+        "emoji": "🇮🇹",
+        "transcription": "ˈflɔrəns",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -611,8 +611,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "\ud83c\uddeb\ud83c\uddf7",
-        "transcription": "fr\u00e6ns",
+        "emoji": "🇫🇷",
+        "transcription": "fræns",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -637,8 +637,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "\ud83c\udde9\ud83c\uddea",
-        "transcription": "\u02c8\u02a4\u0259rm\u0259ni",
+        "emoji": "🇩🇪",
+        "transcription": "ˈʤərməni",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -663,7 +663,7 @@
             }
         ],
         "subtext": "country",
-        "emoji": "\ud83c\uddec\ud83c\uddf7",
+        "emoji": "🇬🇷",
         "transcription": "gris",
         "form": "other",
         "lang": "en",
@@ -689,8 +689,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "\ud83c\uddee\ud83c\uddf3",
-        "transcription": "\u02c8\u026andi\u0259",
+        "emoji": "🇮🇳",
+        "transcription": "ˈɪndiə",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -715,8 +715,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "\ud83c\uddee\ud83c\uddea",
-        "transcription": "\u02c8a\u026a\u0259rl\u0259nd",
+        "emoji": "🇮🇪",
+        "transcription": "ˈaɪərlənd",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -741,8 +741,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "\ud83c\uddee\ud83c\uddf9",
-        "transcription": "\u02c8\u026at\u0259li",
+        "emoji": "🇮🇹",
+        "transcription": "ˈɪtəli",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -767,8 +767,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "\ud83c\uddef\ud83c\uddf5",
-        "transcription": "\u02a4\u0259\u02c8p\u00e6n",
+        "emoji": "🇯🇵",
+        "transcription": "ʤəˈpæn",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -784,7 +784,7 @@
     {
         "id": "A1-OTH-TRA-034",
         "word": "Leonardo da Vinci",
-        "emoji": "\ud83c\udfa8",
+        "emoji": "🎨",
         "definitions": [
             {
                 "text": "A famous artist and inventor from Italy who painted the Mona Lisa.",
@@ -794,7 +794,7 @@
             }
         ],
         "subtext": "famous artist",
-        "transcription": "\u02ccli\u0259\u02c8n\u0251rdo\u028a \u02c8di\u02c8e\u026a \u02c8v\u026an\u02a7i",
+        "transcription": "ˌliəˈnɑrdoʊ ˈdiˈeɪ ˈvɪnʧi",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -810,7 +810,7 @@
     {
         "id": "A1-OTH-TRA-035",
         "word": "Lionel Messi",
-        "emoji": "\u26bd",
+        "emoji": "⚽",
         "definitions": [
             {
                 "text": "A famous football player from Argentina.",
@@ -820,7 +820,7 @@
             }
         ],
         "subtext": "famous athlete",
-        "transcription": "ljo\u02c8nel \u02c8mesi",
+        "transcription": "ljoˈnel ˈmesi",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -845,8 +845,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "\ud83c\uddec\ud83c\udde7",
-        "transcription": "\u02c8l\u0259nd\u0259n",
+        "emoji": "🇬🇧",
+        "transcription": "ˈləndən",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -871,8 +871,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "\ud83c\uddfa\ud83c\uddf8",
-        "transcription": "l\u0254s \u02c8\u00e6n\u02a4\u0259l\u026as",
+        "emoji": "🇺🇸",
+        "transcription": "lɔs ˈænʤəlɪs",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -888,7 +888,7 @@
     {
         "id": "A1-OTH-TRA-038",
         "word": "Marie Curie",
-        "emoji": "\ud83e\uddea",
+        "emoji": "🧪",
         "definitions": [
             {
                 "text": "A famous scientist from Poland and France who studied radiation.",
@@ -898,7 +898,7 @@
             }
         ],
         "subtext": "famous scientist",
-        "transcription": "m\u0259r\u02c8i \u02c8kj\u028ari",
+        "transcription": "mərˈi ˈkjʊri",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -923,8 +923,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "\ud83c\udde6\ud83c\uddfa",
-        "transcription": "\u02c8m\u025blb\u0259rn",
+        "emoji": "🇦🇺",
+        "transcription": "ˈmɛlbərn",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -949,8 +949,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "\ud83c\uddf2\ud83c\uddfd",
-        "transcription": "\u02c8m\u025bks\u0259\u02ccko\u028a \u02c8s\u026ati",
+        "emoji": "🇲🇽",
+        "transcription": "ˈmɛksəˌkoʊ ˈsɪti",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -975,8 +975,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "\ud83c\uddfa\ud83c\uddf8",
-        "transcription": "ma\u026a\u02c8\u00e6mi",
+        "emoji": "🇺🇸",
+        "transcription": "maɪˈæmi",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1001,8 +1001,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "\ud83c\udde8\ud83c\udde6",
-        "transcription": "\u02ccm\u0259ntri\u02c8\u0254l",
+        "emoji": "🇨🇦",
+        "transcription": "ˌməntriˈɔl",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1027,8 +1027,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "\ud83c\uddf7\ud83c\uddfa",
-        "transcription": "\u02c8m\u0254\u02ccska\u028a",
+        "emoji": "🇷🇺",
+        "transcription": "ˈmɔˌskaʊ",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1044,7 +1044,7 @@
     {
         "id": "A1-OTH-TRA-044",
         "word": "Nelson Mandela",
-        "emoji": "\ud83c\uddff\ud83c\udde6",
+        "emoji": "🇿🇦",
         "definitions": [
             {
                 "text": "A famous leader from South Africa who fought for peace and equality.",
@@ -1054,7 +1054,7 @@
             }
         ],
         "subtext": "famous leader",
-        "transcription": "\u02c8n\u025bls\u0259n \u02ccm\u00e6n\u02c8d\u025bl\u0259",
+        "transcription": "ˈnɛlsən ˌmænˈdɛlə",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1079,8 +1079,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "\ud83c\uddf3\ud83c\uddf1",
-        "transcription": "\u02c8n\u025b\u00f0\u0259rl\u0259ndz",
+        "emoji": "🇳🇱",
+        "transcription": "ˈnɛðərləndz",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1105,8 +1105,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "\ud83c\uddfa\ud83c\uddf8",
-        "transcription": "nu j\u0254rk",
+        "emoji": "🇺🇸",
+        "transcription": "nu jɔrk",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1131,8 +1131,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "\ud83c\uddf3\ud83c\uddf4",
-        "transcription": "\u02c8n\u0254r\u02ccwe\u026a",
+        "emoji": "🇳🇴",
+        "transcription": "ˈnɔrˌweɪ",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1157,8 +1157,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "\ud83c\uddeb\ud83c\uddf7",
-        "transcription": "\u02c8p\u025br\u026as",
+        "emoji": "🇫🇷",
+        "transcription": "ˈpɛrɪs",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1183,8 +1183,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "\ud83c\uddf5\ud83c\uddf1",
-        "transcription": "\u02c8po\u028al\u0259nd",
+        "emoji": "🇵🇱",
+        "transcription": "ˈpoʊlənd",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1209,8 +1209,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "\ud83c\udde8\ud83c\uddff",
-        "transcription": "pr\u0251g",
+        "emoji": "🇨🇿",
+        "transcription": "prɑg",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1226,7 +1226,7 @@
     {
         "id": "A1-OTH-TRA-051",
         "word": "Queen Elizabeth II",
-        "emoji": "\ud83d\udc51",
+        "emoji": "👑",
         "definitions": [
             {
                 "text": "The famous Queen of the United Kingdom for a very long time.",
@@ -1236,7 +1236,7 @@
             }
         ],
         "subtext": "famous queen",
-        "transcription": "kwi\u02d0n \u026a\u02c8l\u026az\u0259b\u0259\u03b8 \u00f0\u0259 \u02c8s\u025bk\u0259nd",
+        "transcription": "kwiːn ɪˈlɪzəbəθ ðə ˈsɛkənd",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1261,8 +1261,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "\ud83c\udde7\ud83c\uddf7",
-        "transcription": "\u02c8rio\u028a d\u0259 \u02a4\u0259\u02c8n\u025b\u02ccro\u028a",
+        "emoji": "🇧🇷",
+        "transcription": "ˈrioʊ də ʤəˈnɛˌroʊ",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1287,8 +1287,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "\ud83c\uddee\ud83c\uddf9",
-        "transcription": "ro\u028am",
+        "emoji": "🇮🇹",
+        "transcription": "roʊm",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1313,8 +1313,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "\ud83c\uddf7\ud83c\uddfa",
-        "transcription": "\u02c8r\u0259\u0283\u0259",
+        "emoji": "🇷🇺",
+        "transcription": "ˈrəʃə",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1339,8 +1339,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "\ud83c\uddfa\ud83c\uddf8",
-        "transcription": "s\u00e6n fr\u00e6n\u02c8s\u026asko\u028a",
+        "emoji": "🇺🇸",
+        "transcription": "sæn frænˈsɪskoʊ",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1365,8 +1365,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "\ud83c\uddf0\ud83c\uddf7",
-        "transcription": "sa\u028a\u03b8 \u02cck\u0254\u02c8ri\u0259",
+        "emoji": "🇰🇷",
+        "transcription": "saʊθ ˌkɔˈriə",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1391,8 +1391,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "\ud83c\uddea\ud83c\uddf8",
-        "transcription": "spe\u026an",
+        "emoji": "🇪🇸",
+        "transcription": "speɪn",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1417,8 +1417,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "\ud83c\uddf8\ud83c\uddea",
-        "transcription": "s\u02c8wid\u0259n",
+        "emoji": "🇸🇪",
+        "transcription": "sˈwidən",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1443,8 +1443,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "\ud83c\udde8\ud83c\udded",
-        "transcription": "s\u02c8w\u026ats\u0259rl\u0259nd",
+        "emoji": "🇨🇭",
+        "transcription": "sˈwɪtsərlənd",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1469,8 +1469,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "\ud83c\udde6\ud83c\uddfa",
-        "transcription": "\u02c8s\u026adni",
+        "emoji": "🇦🇺",
+        "transcription": "ˈsɪdni",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1486,7 +1486,7 @@
     {
         "id": "A1-OTH-TRA-061",
         "word": "Taylor Swift",
-        "emoji": "\ud83c\udfa4",
+        "emoji": "🎤",
         "definitions": [
             {
                 "text": "A famous singer and songwriter from the USA.",
@@ -1496,7 +1496,7 @@
             }
         ],
         "subtext": "famous singer",
-        "transcription": "\u02c8te\u026al\u0259r sw\u026aft",
+        "transcription": "ˈteɪlər swɪft",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1521,8 +1521,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "\ud83c\uddf9\ud83c\udded",
-        "transcription": "\u02c8ta\u026a\u02ccl\u00e6nd",
+        "emoji": "🇹🇭",
+        "transcription": "ˈtaɪˌlænd",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1547,8 +1547,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "\ud83c\uddef\ud83c\uddf5",
-        "transcription": "\u02c8to\u028aki\u02cco\u028a",
+        "emoji": "🇯🇵",
+        "transcription": "ˈtoʊkiˌoʊ",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1573,8 +1573,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "\ud83c\uddfa\ud83c\uddf8",
-        "transcription": "\u02c8ju\u02c8\u025b\u02c8se\u026a",
+        "emoji": "🇺🇸",
+        "transcription": "ˈjuˈɛˈseɪ",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1599,8 +1599,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "\ud83c\uddfa\ud83c\udde6",
-        "transcription": "ju\u02c8kre\u026an",
+        "emoji": "🇺🇦",
+        "transcription": "juˈkreɪn",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1625,8 +1625,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "\ud83c\udde8\ud83c\udde6",
-        "transcription": "v\u00e6n\u02c8kuv\u0259r",
+        "emoji": "🇨🇦",
+        "transcription": "vænˈkuvər",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1651,8 +1651,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "\ud83c\uddee\ud83c\uddf9",
-        "transcription": "\u02c8v\u025bn\u026as",
+        "emoji": "🇮🇹",
+        "transcription": "ˈvɛnɪs",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1677,8 +1677,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "\ud83c\udde6\ud83c\uddf9",
-        "transcription": "vi\u02c8\u025bn\u0259",
+        "emoji": "🇦🇹",
+        "transcription": "viˈɛnə",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1703,8 +1703,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "\ud83c\uddfa\ud83c\uddf8",
-        "transcription": "\u02c8w\u0254\u0283\u026a\u014bt\u0259n \u02ccdi\u02c8si",
+        "emoji": "🇺🇸",
+        "transcription": "ˈwɔʃɪŋtən ˌdiˈsi",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1720,7 +1720,7 @@
     {
         "id": "A1-OTH-TRA-070",
         "word": "William Shakespeare",
-        "emoji": "\u270d\ufe0f",
+        "emoji": "✍️",
         "definitions": [
             {
                 "text": "A famous writer from England who wrote many plays and poems.",
@@ -1730,7 +1730,7 @@
             }
         ],
         "subtext": "famous writer",
-        "transcription": "\u02c8w\u026alj\u0259m \u02c8\u0283e\u026ak\u02ccspir",
+        "transcription": "ˈwɪljəm ˈʃeɪkˌspir",
         "form": "other",
         "lang": "en",
         "level": "starter",

@@ -4,7 +4,7 @@
     {
         "id": "A1-NOUN-WOR-029",
         "word": "boss",
-        "emoji": "\ud83d\udcbc",
+        "emoji": "💼",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
                 ]
             }
         ],
-        "transcription": "b\u0254s",
+        "transcription": "bɔs",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -33,7 +33,7 @@
     {
         "id": "A1-NOUN-WOR-030",
         "word": "break",
-        "emoji": "\u2615",
+        "emoji": "☕",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -47,7 +47,7 @@
                 ]
             }
         ],
-        "transcription": "bre\u026ak",
+        "transcription": "breɪk",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -62,7 +62,7 @@
     {
         "id": "A1-NOUN-WOR-031",
         "word": "business",
-        "emoji": "\ud83d\udcbc",
+        "emoji": "💼",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -76,7 +76,7 @@
             }
         ],
         "subtext": "related to workplace basics",
-        "transcription": "\u02c8b\u026azn\u026as",
+        "transcription": "ˈbɪznɪs",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -91,7 +91,7 @@
     {
         "id": "A1-NOUN-WOR-032",
         "word": "colleague",
-        "emoji": "\ud83e\uddd1\u200d\ud83d\udcbc",
+        "emoji": "🧑‍💼",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -105,7 +105,7 @@
             }
         ],
         "subtext": "related to workplace basics",
-        "transcription": "\u02c8k\u0251lig",
+        "transcription": "ˈkɑlig",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -120,7 +120,7 @@
     {
         "id": "A1-NOUN-WOR-033",
         "word": "company",
-        "emoji": "\ud83c\udfe2",
+        "emoji": "🏢",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -134,7 +134,7 @@
             }
         ],
         "subtext": "related to workplace basics",
-        "transcription": "\u02c8k\u0259mp\u0259\u02ccni",
+        "transcription": "ˈkəmpəˌni",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -149,7 +149,7 @@
     {
         "id": "A1-NOUN-WOR-034",
         "word": "document",
-        "emoji": "\ud83d\udcc4",
+        "emoji": "📄",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -163,7 +163,7 @@
             }
         ],
         "subtext": "related to workplace basics",
-        "transcription": "\u02c8d\u0251kj\u0259m\u025bnt",
+        "transcription": "ˈdɑkjəmɛnt",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -178,7 +178,7 @@
     {
         "id": "A1-NOUN-WOR-035",
         "word": "factory",
-        "emoji": "\ud83c\udfed",
+        "emoji": "🏭",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -192,7 +192,7 @@
             }
         ],
         "subtext": "related to workplace basics",
-        "transcription": "\u02c8f\u00e6kt\u0259ri",
+        "transcription": "ˈfæktəri",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -207,7 +207,7 @@
     {
         "id": "A1-NOUN-WOR-036",
         "word": "file",
-        "emoji": "\ud83d\udcc1",
+        "emoji": "📁",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -221,7 +221,7 @@
             }
         ],
         "subtext": "related to workplace basics",
-        "transcription": "fa\u026al",
+        "transcription": "faɪl",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -236,7 +236,7 @@
     {
         "id": "A1-NOUN-WOR-037",
         "word": "group",
-        "emoji": "\ud83d\udc65",
+        "emoji": "👥",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -268,7 +268,7 @@
     {
         "id": "A1-NOUN-WOR-038",
         "word": "meeting",
-        "emoji": "\ud83e\udd1d",
+        "emoji": "🤝",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -283,7 +283,7 @@
                 ]
             }
         ],
-        "transcription": "\u02c8mit\u026a\u014b",
+        "transcription": "ˈmitɪŋ",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -298,7 +298,7 @@
     {
         "id": "A1-NOUN-WOR-039",
         "word": "report",
-        "emoji": "\ud83d\udcc4",
+        "emoji": "📄",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -312,7 +312,7 @@
                 ]
             }
         ],
-        "transcription": "r\u026a\u02c8p\u0254\u02d0t",
+        "transcription": "rɪˈpɔːt",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -327,7 +327,7 @@
     {
         "id": "A1-NOUN-WOR-040",
         "word": "sleep",
-        "emoji": "\ud83d\ude34",
+        "emoji": "😴",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -347,7 +347,7 @@
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "sl\u0113pan",
+            "origin_word": "slēpan",
             "origin_meaning": "to sleep"
         },
         "antonyms": [
@@ -363,7 +363,7 @@
     {
         "id": "A1-NOUN-WOR-041",
         "word": "staff",
-        "emoji": "\ud83d\udc65",
+        "emoji": "👥",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -381,12 +381,56 @@
                 ]
             }
         ],
-        "transcription": "st\u00e6f",
+        "transcription": "stæf",
         "lang": "en",
         "level": "starter",
         "theme": "work",
         "sub_theme": null,
         "legacy_id": "A1-WORK-123",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Jobs_Careers"
+    },
+    {
+        "id": "A1-NOUN-WOR-065",
+        "word": "worker",
+        "form": "noun",
+        "transcription": "ˈwɜːkə",
+        "emoji": "👷",
+        "definitions": [
+            {
+                "text": "A person who works.",
+                "examples": [
+                    "Factory workers.",
+                    "A hard worker."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Jobs_Careers"
+    },
+    {
+        "id": "A1-NOUN-WOR-066",
+        "word": "employee",
+        "form": "noun",
+        "transcription": "ɪmˈplɔɪiː",
+        "emoji": "🧑‍💼",
+        "definitions": [
+            {
+                "text": "A person employed for wages.",
+                "examples": [
+                    "Company employees.",
+                    "A new employee."
+                ]
+            }
+        ],
+        "level": "starter",
         "level_code": "A1",
         "domain": "WORK_SCHOOL",
         "subcategory": "Work",

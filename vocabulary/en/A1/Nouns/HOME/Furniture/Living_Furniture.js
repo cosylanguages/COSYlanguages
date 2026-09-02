@@ -4,14 +4,14 @@
     {
         "id": "A1-NOUN-HOM-017",
         "word": "apartment",
-        "emoji": "\ud83c\udfe2",
+        "emoji": "🏢",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
         "plural": "apartments",
         "subtext": "flat, studio apartment",
         "synonyms": [
-            "\ud83c\uddec\ud83c\udde7 flat"
+            "🇬🇧 flat"
         ],
         "definitions": [
             {
@@ -21,7 +21,7 @@
                 ]
             }
         ],
-        "transcription": "\u0259\u02c8p\u0251rtm\u0259nt",
+        "transcription": "əˈpɑrtmənt",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -36,7 +36,7 @@
     {
         "id": "A1-NOUN-HOM-018",
         "word": "bag",
-        "emoji": "\ud83d\udc5c",
+        "emoji": "👜",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -51,7 +51,7 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "transcription": "b\u00e6g",
+        "transcription": "bæg",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -66,7 +66,7 @@
     {
         "id": "A1-NOUN-HOM-019",
         "word": "bath",
-        "emoji": "\ud83d\udec1",
+        "emoji": "🛁",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -80,7 +80,7 @@
             }
         ],
         "subtext": "related to rooms of a home",
-        "transcription": "b\u00e6\u03b8",
+        "transcription": "bæθ",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -95,7 +95,7 @@
     {
         "id": "A1-NOUN-HOM-020",
         "word": "bathroom",
-        "emoji": "\ud83d\udebf",
+        "emoji": "🚿",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -109,7 +109,7 @@
             }
         ],
         "subtext": "related to rooms of a home",
-        "transcription": "\u02c8b\u00e6\u03b8\u02ccrum",
+        "transcription": "ˈbæθˌrum",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -124,7 +124,7 @@
     {
         "id": "A1-NOUN-HOM-021",
         "word": "bed",
-        "emoji": "\ud83d\udecf\ufe0f",
+        "emoji": "🛏️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -139,14 +139,14 @@
                 ]
             }
         ],
-        "transcription": "b\u025bd",
+        "transcription": "bɛd",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "badj\u0105"
+            "origin_word": "badją"
         },
         "legacy_id": "A1-HOME-06",
         "level_code": "A1",
@@ -158,7 +158,7 @@
     {
         "id": "A1-NOUN-HOM-022",
         "word": "bedroom",
-        "emoji": "\ud83d\udecf\ufe0f",
+        "emoji": "🛏️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -172,7 +172,7 @@
             }
         ],
         "subtext": "related to rooms of a home",
-        "transcription": "\u02c8b\u025b\u02ccdrum",
+        "transcription": "ˈbɛˌdrum",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -189,7 +189,7 @@
         "word": "book",
         "numberPlural": "2 book",
         "answer": "two books",
-        "emoji": "\ud83d\udcda",
+        "emoji": "📚",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -204,14 +204,14 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "transcription": "b\u028ak",
+        "transcription": "bʊk",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "b\u014dks",
+            "origin_word": "bōks",
             "origin_meaning": "beech, book"
         },
         "legacy_id": "A1-HOME-09",
@@ -224,7 +224,7 @@
     {
         "id": "A1-NOUN-HOM-024",
         "word": "bottle",
-        "emoji": "\ud83c\udf7c",
+        "emoji": "🍼",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -238,7 +238,7 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "transcription": "\u02c8b\u0251t\u0259l",
+        "transcription": "ˈbɑtəl",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -253,7 +253,7 @@
     {
         "id": "A1-NOUN-HOM-025",
         "word": "box",
-        "emoji": "\ud83d\udce6",
+        "emoji": "📦",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -267,7 +267,7 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "transcription": "b\u0251ks",
+        "transcription": "bɑks",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -282,7 +282,7 @@
     {
         "id": "A1-NOUN-HOM-026",
         "word": "chair",
-        "emoji": "\ud83e\ude91",
+        "emoji": "🪑",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -297,7 +297,7 @@
                 ]
             }
         ],
-        "transcription": "\u02a7\u025br",
+        "transcription": "ʧɛr",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -316,7 +316,7 @@
     {
         "id": "A1-NOUN-HOM-027",
         "word": "clock",
-        "emoji": "\u23f0",
+        "emoji": "⏰",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -330,7 +330,7 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "transcription": "kl\u0251k",
+        "transcription": "klɑk",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -345,7 +345,7 @@
     {
         "id": "A1-NOUN-HOM-028",
         "word": "comb",
-        "emoji": "\ud83e\udeae",
+        "emoji": "🪮",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -359,7 +359,7 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "transcription": "ko\u028am",
+        "transcription": "koʊm",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -374,7 +374,7 @@
     {
         "id": "A1-NOUN-HOM-029",
         "word": "cup",
-        "emoji": "\u2615",
+        "emoji": "☕",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -388,7 +388,7 @@
                 ]
             }
         ],
-        "transcription": "k\u0259p",
+        "transcription": "kəp",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -403,7 +403,7 @@
     {
         "id": "A1-NOUN-HOM-030",
         "word": "desk",
-        "emoji": "\ud83d\udda5\ufe0f",
+        "emoji": "🖥️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -417,7 +417,7 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "transcription": "d\u025bsk",
+        "transcription": "dɛsk",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -432,7 +432,7 @@
     {
         "id": "A1-NOUN-HOM-031",
         "word": "dining room",
-        "emoji": "\ud83c\udf7d\ufe0f",
+        "emoji": "🍽️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -446,7 +446,7 @@
             }
         ],
         "subtext": "related to rooms of a home",
-        "transcription": "\u02c8da\u026an\u026a\u014b rum",
+        "transcription": "ˈdaɪnɪŋ rum",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -461,7 +461,7 @@
     {
         "id": "A1-NOUN-HOM-032",
         "word": "dish",
-        "emoji": "\ud83e\udd63",
+        "emoji": "🥣",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -475,7 +475,7 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "transcription": "d\u026a\u0283",
+        "transcription": "dɪʃ",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -490,7 +490,7 @@
     {
         "id": "A1-NOUN-HOM-033",
         "word": "door",
-        "emoji": "\ud83d\udeaa",
+        "emoji": "🚪",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -504,7 +504,7 @@
                 ]
             }
         ],
-        "transcription": "d\u0254r",
+        "transcription": "dɔr",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -519,7 +519,7 @@
     {
         "id": "A1-NOUN-HOM-034",
         "word": "fence",
-        "emoji": "\ud83d\udea7",
+        "emoji": "🚧",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -533,7 +533,7 @@
             }
         ],
         "subtext": "related to rooms of a home",
-        "transcription": "f\u025bns",
+        "transcription": "fɛns",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -548,14 +548,14 @@
     {
         "id": "A1-NOUN-HOM-035",
         "word": "flat",
-        "emoji": "\ud83c\udfe2",
+        "emoji": "🏢",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
         "plural": "flats",
         "subtext": "apartment, live in a flat, small flat",
         "synonyms": [
-            "\ud83c\uddfa\ud83c\uddf8 apartment"
+            "🇺🇸 apartment"
         ],
         "definitions": [
             {
@@ -565,7 +565,7 @@
                 ]
             }
         ],
-        "transcription": "fl\u00e6t",
+        "transcription": "flæt",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -580,7 +580,7 @@
     {
         "id": "A1-NOUN-HOM-036",
         "word": "floor",
-        "emoji": "\ud83e\uddf9",
+        "emoji": "🧹",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -594,7 +594,7 @@
             }
         ],
         "subtext": "related to rooms of a home",
-        "transcription": "fl\u0254r",
+        "transcription": "flɔr",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -609,7 +609,7 @@
     {
         "id": "A1-NOUN-HOM-037",
         "word": "fork",
-        "emoji": "\ud83c\udf74",
+        "emoji": "🍴",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -623,7 +623,7 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "transcription": "f\u0254rk",
+        "transcription": "fɔrk",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -638,7 +638,7 @@
     {
         "id": "A1-NOUN-HOM-038",
         "word": "fridge",
-        "emoji": "\ud83e\uddca",
+        "emoji": "🧊",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -655,7 +655,7 @@
                 ]
             }
         ],
-        "transcription": "fr\u026a\u02a4",
+        "transcription": "frɪʤ",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -670,7 +670,7 @@
     {
         "id": "A1-NOUN-HOM-039",
         "word": "furniture",
-        "emoji": "\ud83e\ude91",
+        "emoji": "🪑",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -685,7 +685,7 @@
                 ]
             }
         ],
-        "transcription": "\u02c8f\u025c\u02d0n\u026at\u0283\u0259(r)",
+        "transcription": "ˈfɜːnɪtʃə(r)",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -700,7 +700,7 @@
     {
         "id": "A1-NOUN-HOM-040",
         "word": "garden",
-        "emoji": "\ud83c\udfe1",
+        "emoji": "🏡",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -714,7 +714,7 @@
             }
         ],
         "subtext": "related to rooms of a home",
-        "transcription": "\u02c8g\u0251rd\u0259n",
+        "transcription": "ˈgɑrdən",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -729,7 +729,7 @@
     {
         "id": "A1-NOUN-HOM-041",
         "word": "gate",
-        "emoji": "\ud83d\udeaa",
+        "emoji": "🚪",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -743,7 +743,7 @@
             }
         ],
         "subtext": "related to rooms of a home",
-        "transcription": "ge\u026at",
+        "transcription": "geɪt",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -758,7 +758,7 @@
     {
         "id": "A1-NOUN-HOM-042",
         "word": "glass",
-        "emoji": "\ud83e\udd5b",
+        "emoji": "🥛",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -772,7 +772,7 @@
                 ]
             }
         ],
-        "transcription": "gl\u00e6s",
+        "transcription": "glæs",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -787,7 +787,7 @@
     {
         "id": "A1-NOUN-HOM-043",
         "word": "home",
-        "emoji": "\ud83c\udfe0",
+        "emoji": "🏠",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -800,7 +800,7 @@
                 ]
             }
         ],
-        "transcription": "ho\u028am",
+        "transcription": "hoʊm",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -815,7 +815,7 @@
     {
         "id": "A1-NOUN-HOM-044",
         "word": "house",
-        "emoji": "\ud83c\udfe1",
+        "emoji": "🏡",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -829,14 +829,14 @@
                 ]
             }
         ],
-        "transcription": "ha\u028as",
+        "transcription": "haʊs",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "h\u016bs\u0105",
+            "origin_word": "hūsą",
             "origin_meaning": "house"
         },
         "legacy_id": "A1-HOME-36",
@@ -849,7 +849,7 @@
     {
         "id": "A1-NOUN-HOM-045",
         "word": "key",
-        "emoji": "\ud83d\udd11",
+        "emoji": "🔑",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -886,7 +886,7 @@
     {
         "id": "A1-NOUN-HOM-046",
         "word": "kitchen",
-        "emoji": "\ud83c\udf73",
+        "emoji": "🍳",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -900,7 +900,7 @@
                 ]
             }
         ],
-        "transcription": "\u02c8k\u026a\u02a7\u0259n",
+        "transcription": "ˈkɪʧən",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -915,7 +915,7 @@
     {
         "id": "A1-NOUN-HOM-047",
         "word": "knife",
-        "emoji": "\ud83d\udd2a",
+        "emoji": "🔪",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -929,7 +929,7 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "transcription": "na\u026af",
+        "transcription": "naɪf",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -944,7 +944,7 @@
     {
         "id": "A1-NOUN-HOM-048",
         "word": "lamp",
-        "emoji": "\ud83d\udca1",
+        "emoji": "💡",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -958,7 +958,7 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "transcription": "l\u00e6mp",
+        "transcription": "læmp",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -973,7 +973,7 @@
     {
         "id": "A1-NOUN-HOM-049",
         "word": "living room",
-        "emoji": "\ud83d\udecb\ufe0f",
+        "emoji": "🛋️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -987,7 +987,7 @@
             }
         ],
         "subtext": "related to rooms of a home",
-        "transcription": "\u02c8l\u026av\u026a\u014b rum",
+        "transcription": "ˈlɪvɪŋ rum",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1002,7 +1002,7 @@
     {
         "id": "A1-NOUN-HOM-050",
         "word": "mirror",
-        "emoji": "\ud83e\ude9e",
+        "emoji": "🪞",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -1016,7 +1016,7 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "transcription": "\u02c8m\u026ar\u0259r",
+        "transcription": "ˈmɪrər",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1031,7 +1031,7 @@
     {
         "id": "A1-NOUN-HOM-051",
         "word": "oven",
-        "emoji": "\ud83d\udd25",
+        "emoji": "🔥",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -1045,7 +1045,7 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "transcription": "\u02c8\u0259v\u0259n",
+        "transcription": "ˈəvən",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1060,7 +1060,7 @@
     {
         "id": "A1-NOUN-HOM-052",
         "word": "paper",
-        "emoji": "\ud83d\udcc4",
+        "emoji": "📄",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -1074,7 +1074,7 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "transcription": "\u02c8pe\u026ap\u0259r",
+        "transcription": "ˈpeɪpər",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1089,7 +1089,7 @@
     {
         "id": "A1-NOUN-HOM-053",
         "word": "pen",
-        "emoji": "\ud83d\udd8a\ufe0f",
+        "emoji": "🖊️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -1104,7 +1104,7 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "transcription": "p\u025bn",
+        "transcription": "pɛn",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1119,7 +1119,7 @@
     {
         "id": "A1-NOUN-HOM-054",
         "word": "pencil",
-        "emoji": "\u270f\ufe0f",
+        "emoji": "✏️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -1133,7 +1133,7 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "transcription": "\u02c8p\u025bns\u0259l",
+        "transcription": "ˈpɛnsəl",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1148,7 +1148,7 @@
     {
         "id": "A1-NOUN-HOM-055",
         "word": "plate",
-        "emoji": "\ud83c\udf7d\ufe0f",
+        "emoji": "🍽️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -1162,7 +1162,7 @@
                 ]
             }
         ],
-        "transcription": "ple\u026at",
+        "transcription": "pleɪt",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1177,7 +1177,7 @@
     {
         "id": "A1-NOUN-HOM-056",
         "word": "roof",
-        "emoji": "\ud83c\udfe0",
+        "emoji": "🏠",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -1191,7 +1191,7 @@
             }
         ],
         "subtext": "related to rooms of a home",
-        "transcription": "r\u028af",
+        "transcription": "rʊf",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1206,7 +1206,7 @@
     {
         "id": "A1-NOUN-HOM-057",
         "word": "room",
-        "emoji": "\ud83d\udeaa",
+        "emoji": "🚪",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -1235,7 +1235,7 @@
     {
         "id": "A1-NOUN-HOM-058",
         "word": "shampoo",
-        "emoji": "\ud83e\uddf4",
+        "emoji": "🧴",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -1249,7 +1249,7 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "transcription": "\u0283\u00e6m\u02c8pu",
+        "transcription": "ʃæmˈpu",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1264,7 +1264,7 @@
     {
         "id": "A1-NOUN-HOM-059",
         "word": "shelf",
-        "emoji": "\ud83e\ude9c",
+        "emoji": "🪜",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -1280,7 +1280,7 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "transcription": "\u0283\u025blf",
+        "transcription": "ʃɛlf",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1295,7 +1295,7 @@
     {
         "id": "A1-NOUN-HOM-060",
         "word": "shower",
-        "emoji": "\ud83d\udebf",
+        "emoji": "🚿",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -1309,7 +1309,7 @@
             }
         ],
         "subtext": "related to rooms of a home",
-        "transcription": "\u0283a\u028a\u0259r",
+        "transcription": "ʃaʊər",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1324,7 +1324,7 @@
     {
         "id": "A1-NOUN-HOM-061",
         "word": "sink",
-        "emoji": "\ud83d\udeb0",
+        "emoji": "🚰",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -1338,7 +1338,7 @@
             }
         ],
         "subtext": "related to rooms of a home",
-        "transcription": "s\u026a\u014bk",
+        "transcription": "sɪŋk",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1353,7 +1353,7 @@
     {
         "id": "A1-NOUN-HOM-062",
         "word": "soap",
-        "emoji": "\ud83e\uddfc",
+        "emoji": "🧼",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -1367,7 +1367,7 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "transcription": "so\u028ap",
+        "transcription": "soʊp",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1382,7 +1382,7 @@
     {
         "id": "A1-NOUN-HOM-063",
         "word": "sofa",
-        "emoji": "\ud83d\udecb\ufe0f",
+        "emoji": "🛋️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -1399,7 +1399,7 @@
                 ]
             }
         ],
-        "transcription": "\u02c8so\u028af\u0259",
+        "transcription": "ˈsoʊfə",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1414,7 +1414,7 @@
     {
         "id": "A1-NOUN-HOM-064",
         "word": "spoon",
-        "emoji": "\ud83e\udd44",
+        "emoji": "🥄",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -1443,7 +1443,7 @@
     {
         "id": "A1-NOUN-HOM-065",
         "word": "stairs",
-        "emoji": "\ud83e\ude9c",
+        "emoji": "🪜",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -1457,7 +1457,7 @@
             }
         ],
         "subtext": "related to rooms of a home",
-        "transcription": "st\u025brz",
+        "transcription": "stɛrz",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1472,7 +1472,7 @@
     {
         "id": "A1-NOUN-HOM-066",
         "word": "table",
-        "emoji": "\ud83e\ude91",
+        "emoji": "🪑",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -1487,7 +1487,7 @@
                 ]
             }
         ],
-        "transcription": "\u02c8te\u026ab\u0259l",
+        "transcription": "ˈteɪbəl",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1506,7 +1506,7 @@
     {
         "id": "A1-NOUN-HOM-067",
         "word": "toilet",
-        "emoji": "\ud83d\udebd",
+        "emoji": "🚽",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -1520,7 +1520,7 @@
             }
         ],
         "subtext": "related to rooms of a home",
-        "transcription": "\u02c8t\u0254\u026al\u0259t",
+        "transcription": "ˈtɔɪlət",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1535,7 +1535,7 @@
     {
         "id": "A1-NOUN-HOM-068",
         "word": "toothbrush",
-        "emoji": "\ud83e\udea5",
+        "emoji": "🪥",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -1549,7 +1549,7 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "transcription": "\u02c8tu\u03b8br\u0259\u0283",
+        "transcription": "ˈtuθbrəʃ",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1564,7 +1564,7 @@
     {
         "id": "A1-NOUN-HOM-069",
         "word": "toothpaste",
-        "emoji": "\ud83e\uddf4",
+        "emoji": "🧴",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -1578,7 +1578,7 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "transcription": "\u02c8tu\u03b8\u02ccpe\u026ast",
+        "transcription": "ˈtuθˌpeɪst",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1593,7 +1593,7 @@
     {
         "id": "A1-NOUN-HOM-070",
         "word": "towel",
-        "emoji": "\ud83e\uddd6",
+        "emoji": "🧖",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -1607,7 +1607,7 @@
             }
         ],
         "subtext": "related to furniture objects",
-        "transcription": "ta\u028a\u0259l",
+        "transcription": "taʊəl",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1622,7 +1622,7 @@
     {
         "id": "A1-NOUN-HOM-071",
         "word": "wall",
-        "emoji": "\ud83e\uddf1",
+        "emoji": "🧱",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -1636,7 +1636,7 @@
             }
         ],
         "subtext": "related to rooms of a home",
-        "transcription": "w\u0254l",
+        "transcription": "wɔl",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -1651,14 +1651,14 @@
     {
         "id": "A1-NOUN-HOM-072",
         "word": "wardrobe",
-        "emoji": "\ud83d\udc57",
+        "emoji": "👗",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
         "plural": "wardrobes",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8w\u0254\u02d0dr\u0259\u028ab | \ud83c\uddfa\ud83c\uddf8 \u02c8w\u0254\u02d0dro\u028ab",
+        "transcription": "🇬🇧 ˈwɔːdrəʊb | 🇺🇸 ˈwɔːdroʊb",
         "synonyms": [
-            "\ud83c\uddfa\ud83c\uddf8 closet"
+            "🇺🇸 closet"
         ],
         "definitions": [
             {
@@ -1683,7 +1683,7 @@
     {
         "id": "A1-NOUN-HOM-073",
         "word": "window",
-        "emoji": "\ud83e\ude9f",
+        "emoji": "🪟",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -1693,16 +1693,38 @@
             {
                 "text": "An opening in a wall filled with glass that lets in light.",
                 "examples": [
-                    "Open the window \u2014 it is hot."
+                    "Open the window — it is hot."
                 ]
             }
         ],
-        "transcription": "\u02c8w\u026ando\u028a",
+        "transcription": "ˈwɪndoʊ",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
         "sub_theme": null,
         "legacy_id": "A1-HOME-75",
+        "level_code": "A1",
+        "domain": "HOME",
+        "subcategory": "Furniture",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Living_Furniture"
+    },
+    {
+        "id": "A1-NOUN-HOM-084",
+        "word": "cushion",
+        "form": "noun",
+        "transcription": "ˈkʊʃn",
+        "emoji": "🛋️",
+        "definitions": [
+            {
+                "text": "A soft pillow or pad for sitting or resting.",
+                "examples": [
+                    "Soft cushions on the sofa.",
+                    "A green velvet cushion."
+                ]
+            }
+        ],
+        "level": "starter",
         "level_code": "A1",
         "domain": "HOME",
         "subcategory": "Furniture",

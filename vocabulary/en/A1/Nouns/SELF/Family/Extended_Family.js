@@ -4,7 +4,7 @@
     {
         "id": "A1-NOUN-SEL-056",
         "word": "aunt",
-        "emoji": "\ud83d\udc69",
+        "emoji": "👩",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
             }
         ],
         "subtext": "related to extended family",
-        "transcription": "\u0254nt",
+        "transcription": "ɔnt",
         "lang": "en",
         "level": "starter",
         "theme": "extended_family",
@@ -33,7 +33,7 @@
     {
         "id": "A1-NOUN-SEL-057",
         "word": "cousin",
-        "emoji": "\ud83e\uddd1",
+        "emoji": "🧑",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -47,7 +47,7 @@
             }
         ],
         "subtext": "related to extended family",
-        "transcription": "\u02c8k\u0259z\u0259n",
+        "transcription": "ˈkəzən",
         "lang": "en",
         "level": "starter",
         "theme": "extended_family",
@@ -62,7 +62,7 @@
     {
         "id": "A1-NOUN-SEL-058",
         "word": "grandfather",
-        "emoji": "\ud83d\udc74",
+        "emoji": "👴",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -76,7 +76,7 @@
             }
         ],
         "subtext": "related to extended family",
-        "transcription": "\u02c8gr\u00e6n\u02ccf\u0251\u00f0\u0259r",
+        "transcription": "ˈgrænˌfɑðər",
         "lang": "en",
         "level": "starter",
         "theme": "extended_family",
@@ -91,7 +91,7 @@
     {
         "id": "A1-NOUN-SEL-059",
         "word": "grandmother",
-        "emoji": "\ud83d\udc75",
+        "emoji": "👵",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -105,7 +105,7 @@
             }
         ],
         "subtext": "related to extended family",
-        "transcription": "\u02c8gr\u00e6nd\u02ccm\u0259\u00f0\u0259r",
+        "transcription": "ˈgrændˌməðər",
         "lang": "en",
         "level": "starter",
         "theme": "extended_family",
@@ -120,7 +120,7 @@
     {
         "id": "A1-NOUN-SEL-060",
         "word": "nephew",
-        "emoji": "\ud83d\udc66",
+        "emoji": "👦",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -134,7 +134,7 @@
             }
         ],
         "subtext": "related to extended family",
-        "transcription": "\u02c8n\u025bfju",
+        "transcription": "ˈnɛfju",
         "lang": "en",
         "level": "starter",
         "theme": "extended_family",
@@ -149,7 +149,7 @@
     {
         "id": "A1-NOUN-SEL-061",
         "word": "niece",
-        "emoji": "\ud83d\udc67",
+        "emoji": "👧",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -178,7 +178,7 @@
     {
         "id": "A1-NOUN-SEL-062",
         "word": "uncle",
-        "emoji": "\ud83d\udc68",
+        "emoji": "👨",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -192,12 +192,56 @@
             }
         ],
         "subtext": "related to extended family",
-        "transcription": "\u02c8\u0259\u014bk\u0259l",
+        "transcription": "ˈəŋkəl",
         "lang": "en",
         "level": "starter",
         "theme": "extended_family",
         "sub_theme": null,
         "legacy_id": "A1-SELF-22",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Family",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Extended_Family"
+    },
+    {
+        "id": "A1-NOUN-SEL-115",
+        "word": "grandson",
+        "form": "noun",
+        "transcription": "ˈɡrænsʌn",
+        "emoji": "👦",
+        "definitions": [
+            {
+                "text": "A son of one's son or daughter.",
+                "examples": [
+                    "His grandson visits every weekend.",
+                    "A proud grandfather and grandson."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Family",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Extended_Family"
+    },
+    {
+        "id": "A1-NOUN-SEL-116",
+        "word": "granddaughter",
+        "form": "noun",
+        "transcription": "ˈɡrændɔːtə",
+        "emoji": "👧",
+        "definitions": [
+            {
+                "text": "A daughter of one's son or daughter.",
+                "examples": [
+                    "Her granddaughter plays the piano.",
+                    "She loves her granddaughter."
+                ]
+            }
+        ],
+        "level": "starter",
         "level_code": "A1",
         "domain": "SELF",
         "subcategory": "Family",

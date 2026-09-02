@@ -4,7 +4,7 @@
     {
         "id": "A1-VERB-TIM-014",
         "word": "ago",
-        "emoji": "\ud83d\udd70\ufe0f",
+        "emoji": "🕰️",
         "form": "adverb",
         "definitions": [
             {
@@ -15,7 +15,7 @@
             }
         ],
         "subtext": "related to duration expressions",
-        "transcription": "\u0259\u02c8go\u028a",
+        "transcription": "əˈgoʊ",
         "lang": "en",
         "level": "starter",
         "theme": "duration_expressions",
@@ -30,7 +30,7 @@
     {
         "id": "A1-VERB-TIM-015",
         "word": "already",
-        "emoji": "\u23f3",
+        "emoji": "⏳",
         "form": "adverb",
         "definitions": [
             {
@@ -41,7 +41,7 @@
             }
         ],
         "subtext": "related to duration expressions",
-        "transcription": "\u0254\u02c8r\u025bdi",
+        "transcription": "ɔˈrɛdi",
         "lang": "en",
         "level": "starter",
         "theme": "duration_expressions",
@@ -56,7 +56,7 @@
     {
         "id": "A1-VERB-TIM-016",
         "word": "later",
-        "emoji": "\ud83d\udd59",
+        "emoji": "🕙",
         "form": "adverb",
         "definitions": [
             {
@@ -67,7 +67,7 @@
             }
         ],
         "subtext": "related to duration expressions",
-        "transcription": "\u02c8le\u026at\u0259r",
+        "transcription": "ˈleɪtər",
         "lang": "en",
         "level": "starter",
         "theme": "duration_expressions",
@@ -82,7 +82,7 @@
     {
         "id": "A1-VERB-TIM-017",
         "word": "now",
-        "emoji": "\u23f1\ufe0f",
+        "emoji": "⏱️",
         "form": "adverb",
         "definitions": [
             {
@@ -93,7 +93,7 @@
             }
         ],
         "subtext": "related to duration expressions",
-        "transcription": "na\u028a",
+        "transcription": "naʊ",
         "lang": "en",
         "level": "starter",
         "theme": "duration_expressions",
@@ -108,7 +108,7 @@
     {
         "id": "A1-VERB-TIM-018",
         "word": "soon",
-        "emoji": "\ud83d\udd1c",
+        "emoji": "🔜",
         "form": "adverb",
         "definitions": [
             {
@@ -134,7 +134,7 @@
     {
         "id": "A1-VERB-TIM-019",
         "word": "still",
-        "emoji": "\ud83d\udd04",
+        "emoji": "🔄",
         "form": "adverb",
         "definitions": [
             {
@@ -145,7 +145,7 @@
             }
         ],
         "subtext": "related to duration expressions",
-        "transcription": "st\u026al",
+        "transcription": "stɪl",
         "lang": "en",
         "level": "starter",
         "theme": "duration_expressions",
@@ -160,7 +160,7 @@
     {
         "id": "A1-VERB-TIM-020",
         "word": "yet",
-        "emoji": "\u2753",
+        "emoji": "❓",
         "form": "adverb",
         "definitions": [
             {
@@ -171,7 +171,7 @@
             }
         ],
         "subtext": "related to duration expressions",
-        "transcription": "j\u025bt",
+        "transcription": "jɛt",
         "lang": "en",
         "level": "starter",
         "theme": "duration_expressions",

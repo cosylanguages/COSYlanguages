@@ -4,7 +4,7 @@
     {
         "id": "A1-NOUN-TIM-002",
         "word": "bottom",
-        "emoji": "\u2b07\ufe0f",
+        "emoji": "⬇️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -17,7 +17,7 @@
             }
         ],
         "subtext": "related to size shape",
-        "transcription": "\u02c8b\u0251t\u0259m",
+        "transcription": "ˈbɑtəm",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -35,7 +35,7 @@
     {
         "id": "A1-NOUN-TIM-003",
         "word": "top",
-        "emoji": "\ud83d\udd1d",
+        "emoji": "🔝",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -48,7 +48,7 @@
             }
         ],
         "subtext": "related to size shape",
-        "transcription": "t\u0254p",
+        "transcription": "tɔp",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",

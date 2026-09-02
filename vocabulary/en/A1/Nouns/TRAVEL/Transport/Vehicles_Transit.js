@@ -4,7 +4,7 @@
     {
         "id": "A1-NOUN-TRA-048",
         "word": "bicycle",
-        "emoji": "\ud83d\udeb2",
+        "emoji": "🚲",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
                 ]
             }
         ],
-        "transcription": "\u02c8ba\u026as\u026ak\u0259l",
+        "transcription": "ˈbaɪsɪkəl",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -33,7 +33,7 @@
     {
         "id": "A1-NOUN-TRA-049",
         "word": "bike",
-        "emoji": "\ud83d\udeb2",
+        "emoji": "🚲",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -47,7 +47,7 @@
                 ]
             }
         ],
-        "transcription": "ba\u026ak",
+        "transcription": "baɪk",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -62,7 +62,7 @@
     {
         "id": "A1-NOUN-TRA-050",
         "word": "boat",
-        "emoji": "\u26f5",
+        "emoji": "⛵",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -76,7 +76,7 @@
             }
         ],
         "subtext": "related to modes of transport",
-        "transcription": "bo\u028at",
+        "transcription": "boʊt",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -91,7 +91,7 @@
     {
         "id": "A1-NOUN-TRA-051",
         "word": "bus",
-        "emoji": "\ud83d\ude8c",
+        "emoji": "🚌",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -105,7 +105,7 @@
                 ]
             }
         ],
-        "transcription": "b\u0259s",
+        "transcription": "bəs",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -120,7 +120,7 @@
     {
         "id": "A1-NOUN-TRA-052",
         "word": "car",
-        "emoji": "\ud83d\ude97",
+        "emoji": "🚗",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -134,7 +134,7 @@
                 ]
             }
         ],
-        "transcription": "k\u0251r",
+        "transcription": "kɑr",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -149,7 +149,7 @@
     {
         "id": "A1-NOUN-TRA-053",
         "word": "motorbike",
-        "emoji": "\ud83c\udfcd\ufe0f",
+        "emoji": "🏍️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -163,7 +163,7 @@
             }
         ],
         "subtext": "related to modes of transport",
-        "transcription": "\u02c8mo\u028at\u0259r\u02ccba\u026ak",
+        "transcription": "ˈmoʊtərˌbaɪk",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -178,7 +178,7 @@
     {
         "id": "A1-NOUN-TRA-054",
         "word": "plane",
-        "emoji": "\u2708\ufe0f",
+        "emoji": "✈️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -192,7 +192,7 @@
                 ]
             }
         ],
-        "transcription": "ple\u026an",
+        "transcription": "pleɪn",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -207,7 +207,7 @@
     {
         "id": "A1-NOUN-TRA-055",
         "word": "scooter",
-        "emoji": "\ud83d\udef4",
+        "emoji": "🛴",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -221,7 +221,7 @@
             }
         ],
         "subtext": "related to modes of transport",
-        "transcription": "\u02c8skut\u0259r",
+        "transcription": "ˈskutər",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -236,7 +236,7 @@
     {
         "id": "A1-NOUN-TRA-056",
         "word": "taxi",
-        "emoji": "\ud83d\ude95",
+        "emoji": "🚕",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -250,7 +250,7 @@
             }
         ],
         "subtext": "related to modes of transport",
-        "transcription": "\u02c8t\u00e6ksi",
+        "transcription": "ˈtæksi",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -265,7 +265,7 @@
     {
         "id": "A1-NOUN-TRA-057",
         "word": "train",
-        "emoji": "\ud83d\ude86",
+        "emoji": "🚆",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -279,7 +279,7 @@
                 ]
             }
         ],
-        "transcription": "tre\u026an",
+        "transcription": "treɪn",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -294,14 +294,14 @@
     {
         "id": "A1-NOUN-TRA-058",
         "word": "truck",
-        "emoji": "\ud83d\ude9a",
+        "emoji": "🚚",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
         "plural": "trucks",
         "subtext": "related to modes of transport",
         "synonyms": [
-            "\ud83c\uddec\ud83c\udde7 lorry"
+            "🇬🇧 lorry"
         ],
         "definitions": [
             {
@@ -311,12 +311,78 @@
                 ]
             }
         ],
-        "transcription": "tr\u0259k",
+        "transcription": "trək",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
         "sub_theme": null,
         "legacy_id": "A1-TRV-56",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Transport",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Vehicles_Transit"
+    },
+    {
+        "id": "A1-NOUN-TRA-060",
+        "word": "airplane",
+        "form": "noun",
+        "transcription": "ˈeəpleɪn",
+        "emoji": "✈️",
+        "definitions": [
+            {
+                "text": "An aircraft.",
+                "examples": [
+                    "A large passenger airplane.",
+                    "An airplane in the sky."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Transport",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Vehicles_Transit"
+    },
+    {
+        "id": "A1-NOUN-TRA-061",
+        "word": "ship",
+        "form": "noun",
+        "transcription": "ʃɪp",
+        "emoji": "🚢",
+        "definitions": [
+            {
+                "text": "A large vessel for travelling on the sea.",
+                "examples": [
+                    "A cruise ship on the ocean.",
+                    "A cargo ship."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Transport",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Vehicles_Transit"
+    },
+    {
+        "id": "A1-NOUN-TRA-067",
+        "word": "passenger",
+        "form": "noun",
+        "transcription": "ˈpæsɪndʒə",
+        "emoji": "🧑‍💼",
+        "definitions": [
+            {
+                "text": "A traveller on a public or private conveyance.",
+                "examples": [
+                    "Passengers on the bus.",
+                    "All passengers aboard."
+                ]
+            }
+        ],
+        "level": "starter",
         "level_code": "A1",
         "domain": "TRAVEL",
         "subcategory": "Transport",

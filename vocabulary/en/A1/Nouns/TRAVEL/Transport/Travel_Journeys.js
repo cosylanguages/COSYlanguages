@@ -4,7 +4,7 @@
     {
         "id": "A1-NOUN-TRA-035",
         "word": "airport",
-        "emoji": "\u2708\ufe0f",
+        "emoji": "✈️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
             }
         ],
         "subtext": "related to public transport",
-        "transcription": "\u02c8\u025br\u02ccp\u0254rt",
+        "transcription": "ˈɛrˌpɔrt",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -33,7 +33,7 @@
     {
         "id": "A1-NOUN-TRA-036",
         "word": "commute",
-        "emoji": "\ud83d\ude86",
+        "emoji": "🚆",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -47,7 +47,7 @@
             }
         ],
         "subtext": "related to public transport",
-        "transcription": "k\u0259m\u02c8jut",
+        "transcription": "kəmˈjut",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -62,7 +62,7 @@
     {
         "id": "A1-NOUN-TRA-037",
         "word": "east",
-        "emoji": "\u27a1\ufe0f",
+        "emoji": "➡️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -93,7 +93,7 @@
     {
         "id": "A1-NOUN-TRA-038",
         "word": "hotel",
-        "emoji": "\ud83c\udfe8",
+        "emoji": "🏨",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -107,7 +107,7 @@
             }
         ],
         "subtext": "related to public transport",
-        "transcription": "ho\u028a\u02c8t\u025bl",
+        "transcription": "hoʊˈtɛl",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -122,7 +122,7 @@
     {
         "id": "A1-NOUN-TRA-039",
         "word": "north",
-        "emoji": "\u2b06\ufe0f",
+        "emoji": "⬆️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -135,7 +135,7 @@
             }
         ],
         "subtext": "related to directions navigation",
-        "transcription": "n\u0254r\u03b8",
+        "transcription": "nɔrθ",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -153,7 +153,7 @@
     {
         "id": "A1-NOUN-TRA-040",
         "word": "passport",
-        "emoji": "\ud83d\udec2",
+        "emoji": "🛂",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -167,7 +167,7 @@
             }
         ],
         "subtext": "related to travel vocabulary basics",
-        "transcription": "\u02c8p\u00e6\u02ccsp\u0254rt",
+        "transcription": "ˈpæˌspɔrt",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -182,7 +182,7 @@
     {
         "id": "A1-NOUN-TRA-041",
         "word": "south",
-        "emoji": "\u2b07\ufe0f",
+        "emoji": "⬇️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -195,7 +195,7 @@
             }
         ],
         "subtext": "related to directions navigation",
-        "transcription": "sa\u028a\u03b8",
+        "transcription": "saʊθ",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -213,7 +213,7 @@
     {
         "id": "A1-NOUN-TRA-042",
         "word": "suitcase",
-        "emoji": "\ud83e\uddf3",
+        "emoji": "🧳",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -227,7 +227,7 @@
             }
         ],
         "subtext": "related to travel vocabulary basics",
-        "transcription": "\u02c8sut\u02ccke\u026as",
+        "transcription": "ˈsutˌkeɪs",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -242,7 +242,7 @@
     {
         "id": "A1-NOUN-TRA-043",
         "word": "ticket",
-        "emoji": "\ud83c\udfab",
+        "emoji": "🎫",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -256,7 +256,7 @@
             }
         ],
         "subtext": "related to travel vocabulary basics",
-        "transcription": "\u02c8t\u026ak\u026at",
+        "transcription": "ˈtɪkɪt",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -271,7 +271,7 @@
     {
         "id": "A1-NOUN-TRA-044",
         "word": "traffic",
-        "emoji": "\ud83d\ude97",
+        "emoji": "🚗",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -288,7 +288,7 @@
                 ]
             }
         ],
-        "transcription": "\u02c8tr\u00e6f\u026ak",
+        "transcription": "ˈtræfɪk",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -303,7 +303,7 @@
     {
         "id": "A1-NOUN-TRA-045",
         "word": "trip",
-        "emoji": "\ud83c\udf92",
+        "emoji": "🎒",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -317,7 +317,7 @@
             }
         ],
         "subtext": "related to travel vocabulary basics",
-        "transcription": "tr\u026ap",
+        "transcription": "trɪp",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -332,7 +332,7 @@
     {
         "id": "A1-NOUN-TRA-046",
         "word": "way",
-        "emoji": "\ud83d\udee3\ufe0f",
+        "emoji": "🛣️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -347,7 +347,7 @@
             }
         ],
         "subtext": "related to directions navigation",
-        "transcription": "we\u026a",
+        "transcription": "weɪ",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -362,7 +362,7 @@
     {
         "id": "A1-NOUN-TRA-047",
         "word": "west",
-        "emoji": "\u2b05\ufe0f",
+        "emoji": "⬅️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -375,7 +375,7 @@
             }
         ],
         "subtext": "related to directions navigation",
-        "transcription": "w\u025bst",
+        "transcription": "wɛst",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -384,6 +384,94 @@
             "east"
         ],
         "legacy_id": "A1-TRV-64",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Transport",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Travel_Journeys"
+    },
+    {
+        "id": "A1-NOUN-TRA-059",
+        "word": "journey",
+        "form": "noun",
+        "transcription": "ˈdʒɜːni",
+        "emoji": "🗺️",
+        "definitions": [
+            {
+                "text": "An act of travelling from one place to another.",
+                "examples": [
+                    "A long train journey.",
+                    "Have a safe journey."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Transport",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Travel_Journeys"
+    },
+    {
+        "id": "A1-NOUN-TRA-064",
+        "word": "arrival",
+        "form": "noun",
+        "transcription": "əˈraɪvl",
+        "emoji": "🛬",
+        "definitions": [
+            {
+                "text": "The action of arriving.",
+                "examples": [
+                    "Train arrival time.",
+                    "Welcome upon arrival."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Transport",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Travel_Journeys"
+    },
+    {
+        "id": "A1-NOUN-TRA-065",
+        "word": "guide",
+        "form": "noun",
+        "transcription": "ɡaɪd",
+        "emoji": "🧭",
+        "definitions": [
+            {
+                "text": "A person who shows the way to others.",
+                "examples": [
+                    "The tour guide explained the history.",
+                    "A helpful travel guide."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Transport",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Travel_Journeys"
+    },
+    {
+        "id": "A1-NOUN-TRA-066",
+        "word": "luggage",
+        "form": "noun",
+        "transcription": "ˈlʌɡɪdʒ",
+        "emoji": "🧳",
+        "definitions": [
+            {
+                "text": "Suitcases and bags containing a traveller's belongings.",
+                "examples": [
+                    "Pack your luggage.",
+                    "Heavy airport luggage."
+                ]
+            }
+        ],
+        "level": "starter",
         "level_code": "A1",
         "domain": "TRAVEL",
         "subcategory": "Transport",

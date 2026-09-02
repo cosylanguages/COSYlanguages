@@ -4,7 +4,7 @@
     {
         "id": "A1-NOUN-SEL-001",
         "word": "belt",
-        "emoji": "\ud83c\udf97\ufe0f",
+        "emoji": "🎗️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
             }
         ],
         "subtext": "related to accessories",
-        "transcription": "b\u025blt",
+        "transcription": "bɛlt",
         "lang": "en",
         "level": "starter",
         "theme": "accessories",
@@ -33,7 +33,7 @@
     {
         "id": "A1-NOUN-SEL-002",
         "word": "glasses",
-        "emoji": "\ud83d\udc53",
+        "emoji": "👓",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -47,7 +47,7 @@
             }
         ],
         "subtext": "related to accessories",
-        "transcription": "\u02c8gl\u00e6s\u026az",
+        "transcription": "ˈglæsɪz",
         "lang": "en",
         "level": "starter",
         "theme": "accessories",
@@ -62,17 +62,17 @@
     {
         "id": "A1-NOUN-SEL-003",
         "word": "gloves",
-        "emoji": "\ud83e\udde4",
+        "emoji": "🧤",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
         "plural": "gloves",
-        "transcription": "\u0261l\u028cvz",
+        "transcription": "ɡlʌvz",
         "definitions": [
             {
                 "text": "Pieces of clothing that you wear on your hands to keep them warm.",
                 "examples": [
-                    "Wear your gloves \u2014 it is cold."
+                    "Wear your gloves — it is cold."
                 ]
             }
         ],
@@ -91,7 +91,7 @@
     {
         "id": "A1-NOUN-SEL-004",
         "word": "jewelry",
-        "emoji": "\ud83d\udc8d",
+        "emoji": "💍",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -105,7 +105,7 @@
                 ]
             }
         ],
-        "transcription": "\u02c8\u02a4u\u0259lri",
+        "transcription": "ˈʤuəlri",
         "lang": "en",
         "level": "starter",
         "theme": "accessories",
@@ -120,7 +120,7 @@
     {
         "id": "A1-NOUN-SEL-005",
         "word": "necklace",
-        "emoji": "\ud83d\udcff",
+        "emoji": "📿",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -134,7 +134,7 @@
             }
         ],
         "subtext": "related to accessories",
-        "transcription": "\u02c8n\u025bkl\u0259s",
+        "transcription": "ˈnɛkləs",
         "lang": "en",
         "level": "starter",
         "theme": "accessories",
@@ -149,7 +149,7 @@
     {
         "id": "A1-NOUN-SEL-006",
         "word": "ring",
-        "emoji": "\ud83d\udc8d",
+        "emoji": "💍",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -163,7 +163,7 @@
             }
         ],
         "subtext": "related to accessories",
-        "transcription": "r\u026a\u014b",
+        "transcription": "rɪŋ",
         "lang": "en",
         "level": "starter",
         "theme": "accessories",
@@ -178,12 +178,12 @@
     {
         "id": "A1-NOUN-SEL-007",
         "word": "scarf",
-        "emoji": "\ud83e\udde3",
+        "emoji": "🧣",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
         "plural": "scarves",
-        "transcription": "sk\u0251\u02d0f",
+        "transcription": "skɑːf",
         "definitions": [
             {
                 "text": "A piece of cloth that you wear around your neck to keep warm.",
@@ -207,12 +207,12 @@
     {
         "id": "A1-NOUN-SEL-008",
         "word": "sunglasses",
-        "emoji": "\ud83d\udd76\ufe0f",
+        "emoji": "🕶️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
         "plural": "sunglasses",
-        "transcription": "\u02c8s\u028cn\u0261l\u0251\u02d0s\u026az",
+        "transcription": "ˈsʌnɡlɑːsɪz",
         "definitions": [
             {
                 "text": "Dark glasses that you wear to protect your eyes from the sun.",
@@ -236,7 +236,7 @@
     {
         "id": "A1-NOUN-SEL-009",
         "word": "watch",
-        "emoji": "\u231a",
+        "emoji": "⌚",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -250,12 +250,56 @@
             }
         ],
         "subtext": "related to accessories",
-        "transcription": "w\u0254\u02a7",
+        "transcription": "wɔʧ",
         "lang": "en",
         "level": "starter",
         "theme": "accessories",
         "sub_theme": null,
         "legacy_id": "A1-SELF-214",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Appearance",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Accessories_Fashion"
+    },
+    {
+        "id": "A1-NOUN-SEL-113",
+        "word": "handbag",
+        "form": "noun",
+        "transcription": "ˈhændbæɡ",
+        "emoji": "👛",
+        "definitions": [
+            {
+                "text": "A small bag carried by hand.",
+                "examples": [
+                    "She left her handbag on the chair.",
+                    "A leather handbag."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Appearance",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Accessories_Fashion"
+    },
+    {
+        "id": "A1-NOUN-SEL-114",
+        "word": "wallet",
+        "form": "noun",
+        "transcription": "ˈwɒlɪt",
+        "emoji": "👛",
+        "definitions": [
+            {
+                "text": "A small pocket case for money.",
+                "examples": [
+                    "He lost his wallet.",
+                    "Keep money in your wallet."
+                ]
+            }
+        ],
+        "level": "starter",
         "level_code": "A1",
         "domain": "SELF",
         "subcategory": "Appearance",

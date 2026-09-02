@@ -4,7 +4,7 @@
     {
         "id": "A1-NOUN-NAT-003",
         "word": "animal",
-        "emoji": "\ud83d\udc3e",
+        "emoji": "🐾",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -22,7 +22,7 @@
                 ]
             }
         ],
-        "transcription": "\u02c8\u00e6n\u0259m\u0259l",
+        "transcription": "ˈænəməl",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -37,7 +37,7 @@
     {
         "id": "A1-NOUN-NAT-004",
         "word": "bear",
-        "emoji": "\ud83d\udc3b",
+        "emoji": "🐻",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -51,7 +51,7 @@
             }
         ],
         "subtext": "related to animals",
-        "transcription": "b\u025br",
+        "transcription": "bɛr",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -66,7 +66,7 @@
     {
         "id": "A1-NOUN-NAT-005",
         "word": "bee",
-        "emoji": "\ud83d\udc1d",
+        "emoji": "🐝",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -87,7 +87,7 @@
         "sub_theme": "insects",
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "bi\u014dn"
+            "origin_word": "biōn"
         },
         "legacy_id": "A1-NAT-04",
         "level_code": "A1",
@@ -99,7 +99,7 @@
     {
         "id": "A1-NOUN-NAT-006",
         "word": "bird",
-        "emoji": "\ud83d\udc26",
+        "emoji": "🐦",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -114,7 +114,7 @@
             }
         ],
         "subtext": "related to animals",
-        "transcription": "b\u0259rd",
+        "transcription": "bərd",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -133,7 +133,7 @@
     {
         "id": "A1-NOUN-NAT-007",
         "word": "cat",
-        "emoji": "\ud83d\udc08",
+        "emoji": "🐈",
         "numberPlural": "2 cat",
         "answer": "two cats",
         "form": "noun",
@@ -150,7 +150,7 @@
             }
         ],
         "subtext": "related to animals",
-        "transcription": "k\u00e6t",
+        "transcription": "kæt",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -169,7 +169,7 @@
     {
         "id": "A1-NOUN-NAT-008",
         "word": "cow",
-        "emoji": "\ud83d\udc2e",
+        "emoji": "🐮",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -183,14 +183,14 @@
             }
         ],
         "subtext": "related to animals",
-        "transcription": "ka\u028a",
+        "transcription": "kaʊ",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
         "sub_theme": "farm",
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "kw\u014duz"
+            "origin_word": "kwōuz"
         },
         "legacy_id": "A1-NAT-08",
         "level_code": "A1",
@@ -202,7 +202,7 @@
     {
         "id": "A1-NOUN-NAT-009",
         "word": "crocodile",
-        "emoji": "\ud83d\udc0a",
+        "emoji": "🐊",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -216,7 +216,7 @@
             }
         ],
         "subtext": "related to animals",
-        "transcription": "\u02c8kr\u0251k\u0259\u02ccda\u026al",
+        "transcription": "ˈkrɑkəˌdaɪl",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -231,7 +231,7 @@
     {
         "id": "A1-NOUN-NAT-010",
         "word": "dog",
-        "emoji": "\ud83d\udc15",
+        "emoji": "🐕",
         "numberPlural": "5 dog",
         "answer": "five dogs",
         "form": "noun",
@@ -248,7 +248,7 @@
             }
         ],
         "subtext": "related to animals",
-        "transcription": "d\u0254g",
+        "transcription": "dɔg",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -267,7 +267,7 @@
     {
         "id": "A1-NOUN-NAT-011",
         "word": "dolphin",
-        "emoji": "\ud83d\udc2c",
+        "emoji": "🐬",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -281,7 +281,7 @@
             }
         ],
         "subtext": "related to sea animals",
-        "transcription": "\u02c8d\u0251lf\u0259n",
+        "transcription": "ˈdɑlfən",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -296,7 +296,7 @@
     {
         "id": "A1-NOUN-NAT-012",
         "word": "duck",
-        "emoji": "\ud83e\udd86",
+        "emoji": "🦆",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -310,7 +310,7 @@
             }
         ],
         "subtext": "related to animals",
-        "transcription": "d\u0259k",
+        "transcription": "dək",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -325,7 +325,7 @@
     {
         "id": "A1-NOUN-NAT-013",
         "word": "elephant",
-        "emoji": "\ud83d\udc18",
+        "emoji": "🐘",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -339,7 +339,7 @@
             }
         ],
         "subtext": "related to animals",
-        "transcription": "\u02c8\u025bl\u0259f\u0259nt",
+        "transcription": "ˈɛləfənt",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -358,7 +358,7 @@
     {
         "id": "A1-NOUN-NAT-014",
         "word": "fish",
-        "emoji": "\ud83d\udc1f",
+        "emoji": "🐟",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -373,7 +373,7 @@
             }
         ],
         "subtext": "related to animals",
-        "transcription": "f\u026a\u0283",
+        "transcription": "fɪʃ",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -392,7 +392,7 @@
     {
         "id": "A1-NOUN-NAT-015",
         "word": "hamster",
-        "emoji": "\ud83d\udc39",
+        "emoji": "🐹",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -406,7 +406,7 @@
             }
         ],
         "subtext": "related to pets",
-        "transcription": "\u02c8h\u00e6mst\u0259r",
+        "transcription": "ˈhæmstər",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -421,7 +421,7 @@
     {
         "id": "A1-NOUN-NAT-016",
         "word": "horse",
-        "emoji": "\ud83d\udc34",
+        "emoji": "🐴",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -435,14 +435,14 @@
             }
         ],
         "subtext": "related to animals",
-        "transcription": "h\u0254rs",
+        "transcription": "hɔrs",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
         "sub_theme": "farm",
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "hruss\u0105"
+            "origin_word": "hrussą"
         },
         "legacy_id": "A1-NAT-16",
         "level_code": "A1",
@@ -454,7 +454,7 @@
     {
         "id": "A1-NOUN-NAT-017",
         "word": "lion",
-        "emoji": "\ud83e\udd81",
+        "emoji": "🦁",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -468,7 +468,7 @@
             }
         ],
         "subtext": "related to animals",
-        "transcription": "la\u026a\u0259n",
+        "transcription": "laɪən",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -487,7 +487,7 @@
     {
         "id": "A1-NOUN-NAT-018",
         "word": "lizard",
-        "emoji": "\ud83e\udd8e",
+        "emoji": "🦎",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -501,7 +501,7 @@
             }
         ],
         "subtext": "related to pets",
-        "transcription": "\u02c8l\u026az\u0259rd",
+        "transcription": "ˈlɪzərd",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -516,7 +516,7 @@
     {
         "id": "A1-NOUN-NAT-019",
         "word": "monkey",
-        "emoji": "\ud83d\udc12",
+        "emoji": "🐒",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -530,7 +530,7 @@
             }
         ],
         "subtext": "related to animals",
-        "transcription": "\u02c8m\u0259\u014bki",
+        "transcription": "ˈməŋki",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -549,7 +549,7 @@
     {
         "id": "A1-NOUN-NAT-020",
         "word": "mouse",
-        "emoji": "\ud83d\udc2d",
+        "emoji": "🐭",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -565,7 +565,7 @@
             }
         ],
         "subtext": "related to animals",
-        "transcription": "ma\u028as",
+        "transcription": "maʊs",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -580,7 +580,7 @@
     {
         "id": "A1-NOUN-NAT-021",
         "word": "octopus",
-        "emoji": "\ud83d\udc19",
+        "emoji": "🐙",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -594,7 +594,7 @@
             }
         ],
         "subtext": "related to sea animals",
-        "transcription": "\u02c8\u0251kt\u0259\u02ccp\u028as",
+        "transcription": "ˈɑktəˌpʊs",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -609,7 +609,7 @@
     {
         "id": "A1-NOUN-NAT-022",
         "word": "pet",
-        "emoji": "\ud83d\udc3e",
+        "emoji": "🐾",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -623,7 +623,7 @@
             }
         ],
         "subtext": "related to pets",
-        "transcription": "p\u025bt",
+        "transcription": "pɛt",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -638,7 +638,7 @@
     {
         "id": "A1-NOUN-NAT-023",
         "word": "pig",
-        "emoji": "\ud83d\udc37",
+        "emoji": "🐷",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -652,7 +652,7 @@
             }
         ],
         "subtext": "related to animals",
-        "transcription": "p\u026ag",
+        "transcription": "pɪg",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -671,7 +671,7 @@
     {
         "id": "A1-NOUN-NAT-024",
         "word": "rabbit",
-        "emoji": "\ud83d\udc30",
+        "emoji": "🐰",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -685,7 +685,7 @@
             }
         ],
         "subtext": "related to animals",
-        "transcription": "\u02c8r\u00e6b\u026at",
+        "transcription": "ˈræbɪt",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -705,7 +705,7 @@
     {
         "id": "A1-NOUN-NAT-025",
         "word": "shark",
-        "emoji": "\ud83e\udd88",
+        "emoji": "🦈",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -719,7 +719,7 @@
             }
         ],
         "subtext": "related to sea animals",
-        "transcription": "\u0283\u0251rk",
+        "transcription": "ʃɑrk",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -734,7 +734,7 @@
     {
         "id": "A1-NOUN-NAT-026",
         "word": "sheep",
-        "emoji": "\ud83d\udc11",
+        "emoji": "🐑",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -748,7 +748,7 @@
             }
         ],
         "subtext": "related to animals",
-        "transcription": "\u0283ip",
+        "transcription": "ʃip",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -763,7 +763,7 @@
     {
         "id": "A1-NOUN-NAT-027",
         "word": "snake",
-        "emoji": "\ud83d\udc0d",
+        "emoji": "🐍",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -777,14 +777,14 @@
             }
         ],
         "subtext": "related to animals",
-        "transcription": "sne\u026ak",
+        "transcription": "sneɪk",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "snak\u014d"
+            "origin_word": "snakō"
         },
         "legacy_id": "A1-NAT-27",
         "level_code": "A1",
@@ -796,7 +796,7 @@
     {
         "id": "A1-NOUN-NAT-028",
         "word": "spider",
-        "emoji": "\ud83d\udd77\ufe0f",
+        "emoji": "🕷️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -810,7 +810,7 @@
             }
         ],
         "subtext": "related to animals",
-        "transcription": "\u02c8spa\u026ad\u0259r",
+        "transcription": "ˈspaɪdər",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -829,7 +829,7 @@
     {
         "id": "A1-NOUN-NAT-029",
         "word": "turtle",
-        "emoji": "\ud83d\udc22",
+        "emoji": "🐢",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -843,7 +843,7 @@
             }
         ],
         "subtext": "related to pets",
-        "transcription": "\u02c8t\u0259rt\u0259l",
+        "transcription": "ˈtərtəl",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
@@ -858,7 +858,7 @@
     {
         "id": "A1-NOUN-NAT-030",
         "word": "whale",
-        "emoji": "\ud83d\udc0b",
+        "emoji": "🐋",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -872,12 +872,34 @@
             }
         ],
         "subtext": "related to sea animals",
-        "transcription": "we\u026al",
+        "transcription": "weɪl",
         "lang": "en",
         "level": "starter",
         "theme": "animals",
         "sub_theme": "sea",
         "legacy_id": "A1-NAT-30",
+        "level_code": "A1",
+        "domain": "NATURE",
+        "subcategory": "Animals",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Mammals_Creatures"
+    },
+    {
+        "id": "A1-NOUN-NAT-044",
+        "word": "tiger",
+        "form": "noun",
+        "transcription": "ˈtaɪɡə",
+        "emoji": "🐅",
+        "definitions": [
+            {
+                "text": "A large wild cat with black stripes.",
+                "examples": [
+                    "A Bengal tiger.",
+                    "Tigers have orange coats."
+                ]
+            }
+        ],
+        "level": "starter",
         "level_code": "A1",
         "domain": "NATURE",
         "subcategory": "Animals",

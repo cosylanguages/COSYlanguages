@@ -4,7 +4,7 @@
     {
         "id": "A1-NOUN-HOM-005",
         "word": "armchair",
-        "emoji": "\ud83d\udecb\ufe0f",
+        "emoji": "🛋️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
             }
         ],
         "subtext": "related to household items",
-        "transcription": "\u02c8\u0251rm\u02cc\u02a7\u025br",
+        "transcription": "ˈɑrmˌʧɛr",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
@@ -33,7 +33,7 @@
     {
         "id": "A1-NOUN-HOM-006",
         "word": "blanket",
-        "emoji": "\ud83d\udecc",
+        "emoji": "🛌",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -51,7 +51,7 @@
             "bedding",
             "keep warm"
         ],
-        "transcription": "\u02c8bl\u00e6\u014bk\u026at",
+        "transcription": "ˈblæŋkɪt",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
@@ -66,7 +66,7 @@
     {
         "id": "A1-NOUN-HOM-007",
         "word": "bookcase",
-        "emoji": "\ud83d\udcda",
+        "emoji": "📚",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -80,7 +80,7 @@
             }
         ],
         "subtext": "related to household items",
-        "transcription": "\u02c8b\u028ak\u02ccke\u026as",
+        "transcription": "ˈbʊkˌkeɪs",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
@@ -95,7 +95,7 @@
     {
         "id": "A1-NOUN-HOM-008",
         "word": "carpet",
-        "emoji": "\ud83e\uddf6",
+        "emoji": "🧶",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -113,7 +113,7 @@
             "floor covering",
             "rug"
         ],
-        "transcription": "\u02c8k\u0251rp\u0259t",
+        "transcription": "ˈkɑrpət",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
@@ -128,7 +128,7 @@
     {
         "id": "A1-NOUN-HOM-009",
         "word": "cupboard",
-        "emoji": "\ud83d\udeaa",
+        "emoji": "🚪",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -142,7 +142,7 @@
             }
         ],
         "subtext": "related to household items",
-        "transcription": "\u02c8k\u0259b\u0259rd",
+        "transcription": "ˈkəbərd",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
@@ -157,7 +157,7 @@
     {
         "id": "A1-NOUN-HOM-010",
         "word": "drawer",
-        "emoji": "\ud83d\uddc4\ufe0f",
+        "emoji": "🗄️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -171,7 +171,7 @@
             }
         ],
         "subtext": "related to household items",
-        "transcription": "dr\u0254r",
+        "transcription": "drɔr",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
@@ -186,7 +186,7 @@
     {
         "id": "A1-NOUN-HOM-011",
         "word": "pillow",
-        "emoji": "\ud83d\udecc",
+        "emoji": "🛌",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -203,7 +203,7 @@
         "synonyms": [
             "bedding"
         ],
-        "transcription": "\u02c8p\u026alo\u028a",
+        "transcription": "ˈpɪloʊ",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
@@ -218,7 +218,7 @@
     {
         "id": "A1-NOUN-HOM-012",
         "word": "remote control",
-        "emoji": "\ud83c\udfae",
+        "emoji": "🎮",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -232,7 +232,7 @@
             }
         ],
         "subtext": "related to household items",
-        "transcription": "r\u026a\u02c8mo\u028at k\u0259n\u02c8tro\u028al",
+        "transcription": "rɪˈmoʊt kənˈtroʊl",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
@@ -247,7 +247,7 @@
     {
         "id": "A1-NOUN-HOM-013",
         "word": "rug",
-        "emoji": "\ud83e\uddf6",
+        "emoji": "🧶",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -261,7 +261,7 @@
             }
         ],
         "subtext": "related to household items",
-        "transcription": "r\u0259g",
+        "transcription": "rəg",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
@@ -276,7 +276,7 @@
     {
         "id": "A1-NOUN-HOM-014",
         "word": "sheet",
-        "emoji": "\ud83d\udecc",
+        "emoji": "🛌",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -293,7 +293,7 @@
         "synonyms": [
             "linen"
         ],
-        "transcription": "\u0283it",
+        "transcription": "ʃit",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
@@ -308,7 +308,7 @@
     {
         "id": "A1-NOUN-HOM-015",
         "word": "toaster",
-        "emoji": "\ud83c\udf5e",
+        "emoji": "🍞",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -322,7 +322,7 @@
             }
         ],
         "subtext": "related to household items",
-        "transcription": "\u02c8to\u028ast\u0259r",
+        "transcription": "ˈtoʊstər",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
@@ -337,7 +337,7 @@
     {
         "id": "A1-NOUN-HOM-016",
         "word": "washing machine",
-        "emoji": "\ud83e\uddfa",
+        "emoji": "🧺",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -351,12 +351,34 @@
             }
         ],
         "subtext": "related to household items",
-        "transcription": "\u02c8w\u0251\u0283\u026a\u014b m\u0259\u02c8\u0283in",
+        "transcription": "ˈwɑʃɪŋ məˈʃin",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
         "sub_theme": null,
         "legacy_id": "A1-HOME-74",
+        "level_code": "A1",
+        "domain": "HOME",
+        "subcategory": "Furniture",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Household_Goods"
+    },
+    {
+        "id": "A1-NOUN-HOM-077",
+        "word": "curtain",
+        "form": "noun",
+        "transcription": "ˈkɜːtn",
+        "emoji": "🪟",
+        "definitions": [
+            {
+                "text": "A piece of cloth hanging to block a window.",
+                "examples": [
+                    "Close the curtains at night.",
+                    "Blue window curtains."
+                ]
+            }
+        ],
+        "level": "starter",
         "level_code": "A1",
         "domain": "HOME",
         "subcategory": "Furniture",

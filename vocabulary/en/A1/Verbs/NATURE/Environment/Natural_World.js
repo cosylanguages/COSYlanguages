@@ -4,7 +4,7 @@
     {
         "id": "A1-VERB-NAT-001",
         "word": "climb",
-        "emoji": "\ud83e\uddd7",
+        "emoji": "🧗",
         "subtext": "climb a mountain / climb a hill / climb stairs / climb up",
         "form": "verb",
         "definitions": [
@@ -21,7 +21,7 @@
         "v2": "climbed",
         "v3": "climbed",
         "group": "regular",
-        "transcription": "kla\u026am",
+        "transcription": "klaɪm",
         "auxiliary": "have",
         "v4": "climbing",
         "lang": "en",
@@ -41,7 +41,7 @@
     {
         "id": "A1-VERB-NAT-002",
         "word": "pick",
-        "emoji": "\ud83e\uddfa",
+        "emoji": "🧺",
         "form": "verb",
         "subtext": "pick flowers / pick up",
         "definitions": [
@@ -57,7 +57,7 @@
         "v2": "picked",
         "v3": "picked",
         "group": "regular",
-        "transcription": "p\u026ak",
+        "transcription": "pɪk",
         "auxiliary": "have",
         "v4": "picking",
         "lang": "en",

@@ -4,7 +4,7 @@
     {
         "id": "A1-ADJ-TIM-001",
         "word": "few",
-        "emoji": "\ud83e\udd0f",
+        "emoji": "🤏",
         "form": "adjective",
         "subtext": "a few / very few",
         "synonyms": [
@@ -36,43 +36,9 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A1-ADJ-TIM-002",
-        "word": "few",
-        "emoji": "\ud83e\udd0f",
-        "form": "adjective",
-        "subtext": "a few / very few",
-        "synonyms": [
-            "not many"
-        ],
-        "definitions": [
-            {
-                "text": "Used for saying that there are only a small number of people or things.",
-                "examples": [
-                    "There are few students here today."
-                ]
-            }
-        ],
-        "comparative": "fewer",
-        "superlative": "the fewest",
-        "transcription": "fju",
-        "lang": "en",
-        "level": "starter",
-        "theme": "numbers",
-        "sub_theme": null,
-        "antonyms": [
-            "many"
-        ],
-        "legacy_id": "A1-NUM-21",
-        "level_code": "A1",
-        "domain": "TIME_NUMBERS",
-        "subcategory": "Numbers",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Cardinal_Ordinal"
-    },
-    {
         "id": "A1-ADJ-TIM-003",
         "word": "first",
-        "emoji": "1\ufe0f\u20e3",
+        "emoji": "1️⃣",
         "form": "adjective",
         "comparative": null,
         "superlative": null,
@@ -85,7 +51,7 @@
             }
         ],
         "subtext": "related to sequence order A2",
-        "transcription": "f\u0259rst",
+        "transcription": "fərst",
         "lang": "en",
         "level": "starter",
         "theme": "numbers",
@@ -103,7 +69,7 @@
     {
         "id": "A1-ADJ-TIM-004",
         "word": "many",
-        "emoji": "\ud83d\udd22",
+        "emoji": "🔢",
         "form": "adjective",
         "subtext": "a lot of, numerous / many people / how many?",
         "definitions": [
@@ -116,7 +82,7 @@
         ],
         "comparative": "more",
         "superlative": "the most",
-        "transcription": "\u02c8m\u025bni",
+        "transcription": "ˈmɛni",
         "lang": "en",
         "level": "starter",
         "theme": "numbers",
@@ -132,30 +98,21 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A1-ADJ-TIM-005",
-        "word": "many",
-        "emoji": "\ud83d\udd22",
+        "id": "A1-ADJ-TIM-076",
+        "word": "third",
         "form": "adjective",
-        "subtext": "a lot of, numerous / many people / how many?",
+        "transcription": "θɜːd",
+        "emoji": "🥉",
         "definitions": [
             {
-                "text": "Used for saying that there are a large number of people or things.",
+                "text": "Next after the second.",
                 "examples": [
-                    "There are many students in the class."
+                    "He finished in third place.",
+                    "The third floor."
                 ]
             }
         ],
-        "comparative": "more",
-        "superlative": "the most",
-        "transcription": "\u02c8m\u025bni",
-        "lang": "en",
         "level": "starter",
-        "theme": "numbers",
-        "sub_theme": null,
-        "antonyms": [
-            "few"
-        ],
-        "legacy_id": "A1-NUM-44",
         "level_code": "A1",
         "domain": "TIME_NUMBERS",
         "subcategory": "Numbers",

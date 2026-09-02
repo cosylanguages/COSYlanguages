@@ -4,7 +4,7 @@
     {
         "id": "A1-ADJ-SEL-223",
         "word": "own",
-        "emoji": "\ud83d\udc64",
+        "emoji": "👤",
         "form": "adjective",
         "definitions": [
             {
@@ -20,7 +20,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "o\u028an",
+        "transcription": "oʊn",
         "lang": "en",
         "level": "starter",
         "theme": "personal_identity",

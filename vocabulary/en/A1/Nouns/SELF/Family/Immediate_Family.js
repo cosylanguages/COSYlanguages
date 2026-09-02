@@ -4,7 +4,7 @@
     {
         "id": "A1-NOUN-SEL-063",
         "word": "baby",
-        "emoji": "\ud83d\udc76",
+        "emoji": "👶",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
             }
         ],
         "subtext": "related to immediate family",
-        "transcription": "\u02c8be\u026abi",
+        "transcription": "ˈbeɪbi",
         "lang": "en",
         "level": "starter",
         "theme": "immediate_family",
@@ -33,7 +33,7 @@
     {
         "id": "A1-NOUN-SEL-064",
         "word": "brother",
-        "emoji": "\ud83d\udc66",
+        "emoji": "👦",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -48,14 +48,14 @@
                 ]
             }
         ],
-        "transcription": "\u02c8br\u0259\u00f0\u0259r",
+        "transcription": "ˈbrəðər",
         "lang": "en",
         "level": "starter",
         "theme": "immediate_family",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "br\u014d\u00fe\u0113r",
+            "origin_word": "brōþēr",
             "origin_meaning": "brother"
         },
         "legacy_id": "A1-SELF-03",
@@ -68,7 +68,7 @@
     {
         "id": "A1-NOUN-SEL-065",
         "word": "child",
-        "emoji": "\ud83d\udc76",
+        "emoji": "👶",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -86,7 +86,7 @@
                 ]
             }
         ],
-        "transcription": "\u02a7a\u026ald",
+        "transcription": "ʧaɪld",
         "lang": "en",
         "level": "starter",
         "theme": "immediate_family",
@@ -104,7 +104,7 @@
     {
         "id": "A1-NOUN-SEL-066",
         "word": "dad",
-        "emoji": "\ud83d\udc68",
+        "emoji": "👨",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -118,7 +118,7 @@
             }
         ],
         "subtext": "related to immediate family",
-        "transcription": "d\u00e6d",
+        "transcription": "dæd",
         "lang": "en",
         "level": "starter",
         "theme": "immediate_family",
@@ -133,7 +133,7 @@
     {
         "id": "A1-NOUN-SEL-067",
         "word": "daughter",
-        "emoji": "\ud83d\udc67",
+        "emoji": "👧",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -147,14 +147,14 @@
             }
         ],
         "subtext": "related to immediate family",
-        "transcription": "\u02c8d\u0254t\u0259r",
+        "transcription": "ˈdɔtər",
         "lang": "en",
         "level": "starter",
         "theme": "immediate_family",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "duht\u0113r",
+            "origin_word": "duhtēr",
             "origin_meaning": "daughter"
         },
         "legacy_id": "A1-SELF-07",
@@ -167,7 +167,7 @@
     {
         "id": "A1-NOUN-SEL-068",
         "word": "family",
-        "emoji": "\ud83d\udc6a",
+        "emoji": "👪",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -181,7 +181,7 @@
             }
         ],
         "subtext": "related to immediate family",
-        "transcription": "\u02c8f\u00e6m\u0259li",
+        "transcription": "ˈfæməli",
         "lang": "en",
         "level": "starter",
         "theme": "immediate_family",
@@ -196,7 +196,7 @@
     {
         "id": "A1-NOUN-SEL-069",
         "word": "father",
-        "emoji": "\ud83d\udc68",
+        "emoji": "👨",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -211,7 +211,7 @@
             }
         ],
         "subtext": "related to immediate family",
-        "transcription": "\u02c8f\u0251\u00f0\u0259r",
+        "transcription": "ˈfɑðər",
         "lang": "en",
         "level": "starter",
         "theme": "immediate_family",
@@ -231,7 +231,7 @@
     {
         "id": "A1-NOUN-SEL-070",
         "word": "friend",
-        "emoji": "\ud83d\udc6b",
+        "emoji": "👫",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -245,14 +245,14 @@
             }
         ],
         "subtext": "related to immediate family",
-        "transcription": "fr\u025bnd",
+        "transcription": "frɛnd",
         "lang": "en",
         "level": "starter",
         "theme": "immediate_family",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "frij\u014dndz",
+            "origin_word": "frijōndz",
             "origin_meaning": "friend"
         },
         "legacy_id": "A1-SELF-10",
@@ -265,7 +265,7 @@
     {
         "id": "A1-NOUN-SEL-071",
         "word": "husband",
-        "emoji": "\ud83d\udc68",
+        "emoji": "👨",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -283,7 +283,7 @@
                 ]
             }
         ],
-        "transcription": "\u02c8h\u0259zb\u0259nd",
+        "transcription": "ˈhəzbənd",
         "lang": "en",
         "level": "starter",
         "theme": "immediate_family",
@@ -298,7 +298,7 @@
     {
         "id": "A1-NOUN-SEL-072",
         "word": "mother",
-        "emoji": "\ud83d\udc69",
+        "emoji": "👩",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -313,14 +313,14 @@
             }
         ],
         "subtext": "related to immediate family",
-        "transcription": "\u02c8m\u0259\u00f0\u0259r",
+        "transcription": "ˈməðər",
         "lang": "en",
         "level": "starter",
         "theme": "immediate_family",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "m\u014dd\u0113r",
+            "origin_word": "mōdēr",
             "origin_meaning": "mother"
         },
         "legacy_id": "A1-SELF-14",
@@ -333,7 +333,7 @@
     {
         "id": "A1-NOUN-SEL-073",
         "word": "mum",
-        "emoji": "\ud83d\udc69",
+        "emoji": "👩",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -347,7 +347,7 @@
             }
         ],
         "subtext": "related to immediate family",
-        "transcription": "m\u0259m",
+        "transcription": "məm",
         "lang": "en",
         "level": "starter",
         "theme": "immediate_family",
@@ -362,7 +362,7 @@
     {
         "id": "A1-NOUN-SEL-074",
         "word": "parent",
-        "emoji": "\ud83d\udc6a",
+        "emoji": "👪",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -379,7 +379,7 @@
                 ]
             }
         ],
-        "transcription": "\u02c8p\u025br\u0259nt",
+        "transcription": "ˈpɛrənt",
         "lang": "en",
         "level": "starter",
         "theme": "immediate_family",
@@ -394,7 +394,7 @@
     {
         "id": "A1-NOUN-SEL-075",
         "word": "sister",
-        "emoji": "\ud83d\udc67",
+        "emoji": "👧",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -409,14 +409,14 @@
                 ]
             }
         ],
-        "transcription": "\u02c8s\u026ast\u0259r",
+        "transcription": "ˈsɪstər",
         "lang": "en",
         "level": "starter",
         "theme": "immediate_family",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "swest\u0113r",
+            "origin_word": "swestēr",
             "origin_meaning": "sister"
         },
         "legacy_id": "A1-SELF-20",
@@ -429,7 +429,7 @@
     {
         "id": "A1-NOUN-SEL-076",
         "word": "son",
-        "emoji": "\ud83d\udc66",
+        "emoji": "👦",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -443,7 +443,7 @@
             }
         ],
         "subtext": "related to immediate family",
-        "transcription": "s\u0259n",
+        "transcription": "sən",
         "lang": "en",
         "level": "starter",
         "theme": "immediate_family",
@@ -463,7 +463,7 @@
     {
         "id": "A1-NOUN-SEL-077",
         "word": "wife",
-        "emoji": "\ud83d\udc69",
+        "emoji": "👩",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -481,7 +481,7 @@
                 ]
             }
         ],
-        "transcription": "wa\u026af",
+        "transcription": "waɪf",
         "lang": "en",
         "level": "starter",
         "theme": "immediate_family",

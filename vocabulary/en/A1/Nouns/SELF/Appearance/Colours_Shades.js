@@ -4,7 +4,7 @@
     {
         "id": "A1-NOUN-SEL-031",
         "word": "color",
-        "emoji": "\ud83c\udfa8",
+        "emoji": "🎨",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -17,7 +17,7 @@
             }
         ],
         "subtext": "visual property",
-        "transcription": "\u02c8k\u0259l\u0259r",
+        "transcription": "ˈkələr",
         "lang": "en",
         "level": "starter",
         "theme": "colours",

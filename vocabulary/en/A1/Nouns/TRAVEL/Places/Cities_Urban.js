@@ -4,7 +4,7 @@
     {
         "id": "A1-NOUN-TRA-001",
         "word": "city",
-        "emoji": "\ud83c\udfd9\ufe0f",
+        "emoji": "🏙️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
             }
         ],
         "subtext": "related to cities towns",
-        "transcription": "\u02c8s\u026ati",
+        "transcription": "ˈsɪti",
         "lang": "en",
         "level": "starter",
         "theme": "cities_towns",
@@ -37,7 +37,7 @@
     {
         "id": "A1-NOUN-TRA-002",
         "word": "town",
-        "emoji": "\ud83c\udfd8\ufe0f",
+        "emoji": "🏘️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -51,14 +51,14 @@
             }
         ],
         "subtext": "related to cities towns",
-        "transcription": "ta\u028an",
+        "transcription": "taʊn",
         "lang": "en",
         "level": "starter",
         "theme": "cities_towns",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "t\u016bnaz"
+            "origin_word": "tūnaz"
         },
         "legacy_id": "A1-TRV-114",
         "level_code": "A1",
@@ -70,7 +70,7 @@
     {
         "id": "A1-NOUN-TRA-003",
         "word": "village",
-        "emoji": "\ud83c\udfe1",
+        "emoji": "🏡",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -84,12 +84,34 @@
             }
         ],
         "subtext": "related to cities towns",
-        "transcription": "\u02c8v\u026al\u026a\u02a4",
+        "transcription": "ˈvɪlɪʤ",
         "lang": "en",
         "level": "starter",
         "theme": "cities_towns",
         "sub_theme": null,
         "legacy_id": "A1-TRV-116",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Cities_Urban"
+    },
+    {
+        "id": "A1-NOUN-TRA-068",
+        "word": "bridge",
+        "form": "noun",
+        "transcription": "brɪdʒ",
+        "emoji": "🌉",
+        "definitions": [
+            {
+                "text": "A structure carrying a road or path across a river.",
+                "examples": [
+                    "Cross the river over the bridge.",
+                    "A stone bridge."
+                ]
+            }
+        ],
+        "level": "starter",
         "level_code": "A1",
         "domain": "TRAVEL",
         "subcategory": "Places",

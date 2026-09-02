@@ -4,7 +4,7 @@
     {
         "id": "A1-NOUN-TRA-004",
         "word": "country",
-        "emoji": "\ud83c\udff3\ufe0f",
+        "emoji": "🏳️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
             }
         ],
         "subtext": "related to countries capitals",
-        "transcription": "\u02c8k\u0259ntri",
+        "transcription": "ˈkəntri",
         "lang": "en",
         "level": "starter",
         "theme": "countries_capitals",
@@ -33,7 +33,7 @@
     {
         "id": "A1-NOUN-TRA-005",
         "word": "world",
-        "emoji": "\ud83c\udf0e",
+        "emoji": "🌎",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -47,7 +47,7 @@
             }
         ],
         "subtext": "related to countries capitals",
-        "transcription": "w\u0259rld",
+        "transcription": "wərld",
         "lang": "en",
         "level": "starter",
         "theme": "countries_capitals",

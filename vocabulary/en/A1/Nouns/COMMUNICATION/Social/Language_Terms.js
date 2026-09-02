@@ -4,7 +4,7 @@
     {
         "id": "A1-NOUN-COM-046",
         "word": "classroom",
-        "emoji": "\ud83c\udfeb",
+        "emoji": "🏫",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
             }
         ],
         "subtext": "related to classroom language",
-        "transcription": "\u02c8kl\u00e6s\u02ccrum",
+        "transcription": "ˈklæsˌrum",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -33,7 +33,7 @@
     {
         "id": "A1-NOUN-COM-047",
         "word": "dictionary",
-        "emoji": "\ud83d\udcd6",
+        "emoji": "📖",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -47,7 +47,7 @@
             }
         ],
         "subtext": "related to classroom language",
-        "transcription": "\u02c8d\u026ak\u0283\u0259\u02ccn\u025bri",
+        "transcription": "ˈdɪkʃəˌnɛri",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -66,7 +66,7 @@
     {
         "id": "A1-NOUN-COM-048",
         "word": "example",
-        "emoji": "\ud83d\udca1",
+        "emoji": "💡",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -80,7 +80,7 @@
                 ]
             }
         ],
-        "transcription": "\u026ag\u02c8z\u00e6mp\u0259l",
+        "transcription": "ɪgˈzæmpəl",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -95,7 +95,7 @@
     {
         "id": "A1-NOUN-COM-049",
         "word": "globe",
-        "emoji": "\ud83c\udf0d",
+        "emoji": "🌍",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -109,7 +109,7 @@
             }
         ],
         "subtext": "related to classroom language",
-        "transcription": "glo\u028ab",
+        "transcription": "gloʊb",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -124,7 +124,7 @@
     {
         "id": "A1-NOUN-COM-050",
         "word": "map",
-        "emoji": "\ud83d\uddfa\ufe0f",
+        "emoji": "🗺️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -138,7 +138,7 @@
             }
         ],
         "subtext": "related to classroom language",
-        "transcription": "m\u00e6p",
+        "transcription": "mæp",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -153,7 +153,7 @@
     {
         "id": "A1-NOUN-COM-051",
         "word": "page",
-        "emoji": "\ud83d\udcc4",
+        "emoji": "📄",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -167,7 +167,7 @@
             }
         ],
         "subtext": "related to classroom language",
-        "transcription": "pe\u026a\u02a4",
+        "transcription": "peɪʤ",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -182,7 +182,7 @@
     {
         "id": "A1-NOUN-COM-052",
         "word": "poster",
-        "emoji": "\ud83d\udcdc",
+        "emoji": "📜",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -196,7 +196,7 @@
             }
         ],
         "subtext": "related to classroom language",
-        "transcription": "\u02c8po\u028ast\u0259r",
+        "transcription": "ˈpoʊstər",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -211,7 +211,7 @@
     {
         "id": "A1-NOUN-COM-053",
         "word": "ruler",
-        "emoji": "\ud83d\udccf",
+        "emoji": "📏",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -225,7 +225,7 @@
             }
         ],
         "subtext": "related to classroom language",
-        "transcription": "\u02c8rul\u0259r",
+        "transcription": "ˈrulər",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -240,7 +240,7 @@
     {
         "id": "A1-NOUN-COM-054",
         "word": "sentence",
-        "emoji": "\ud83d\udcdd",
+        "emoji": "📝",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -254,7 +254,7 @@
             }
         ],
         "subtext": "related to classroom language",
-        "transcription": "\u02c8s\u025bnt\u0259ns",
+        "transcription": "ˈsɛntəns",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -269,7 +269,7 @@
     {
         "id": "A1-NOUN-COM-055",
         "word": "word",
-        "emoji": "\ud83d\udcdd",
+        "emoji": "📝",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -283,7 +283,7 @@
             }
         ],
         "subtext": "related to classroom language",
-        "transcription": "w\u0259rd",
+        "transcription": "wərd",
         "lang": "en",
         "level": "starter",
         "theme": "language",

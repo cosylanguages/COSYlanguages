@@ -4,7 +4,7 @@
     {
         "id": "A1-ADJ-NAT-001",
         "word": "alive",
-        "emoji": "\ud83c\udf31",
+        "emoji": "🌱",
         "form": "adjective",
         "subtext": "stay alive / still alive",
         "synonyms": [
@@ -20,7 +20,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "\u0259\u02c8la\u026av",
+        "transcription": "əˈlaɪv",
         "lang": "en",
         "level": "starter",
         "theme": "plants_natural_world",
@@ -38,7 +38,7 @@
     {
         "id": "A1-ADJ-NAT-002",
         "word": "natural",
-        "emoji": "\ud83c\udf31",
+        "emoji": "🌱",
         "form": "adjective",
         "subtext": "natural light / natural products",
         "synonyms": [
@@ -54,7 +54,7 @@
         ],
         "comparative": "more natural",
         "superlative": "the most natural",
-        "transcription": "\u02c8n\u00e6\u02a7\u0259r\u0259l",
+        "transcription": "ˈnæʧərəl",
         "lang": "en",
         "level": "starter",
         "theme": "plants_natural_world",

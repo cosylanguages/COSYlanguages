@@ -4,7 +4,7 @@
     {
         "id": "A1-VERB-SEL-032",
         "word": "cough",
-        "emoji": "\ud83d\ude37",
+        "emoji": "😷",
         "form": "verb",
         "definitions": [
             {
@@ -20,7 +20,7 @@
         "v3": "coughed",
         "group": "regular",
         "subtext": "have a cough",
-        "transcription": "k\u0254f",
+        "transcription": "kɔf",
         "lang": "en",
         "level": "starter",
         "theme": "health_medicine",
@@ -33,42 +33,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-VERB-SEL-033",
-        "word": "cough",
-        "emoji": "\ud83d\ude37",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To force air out of your lungs with a sudden loud noise.",
-                "examples": [
-                    "He is coughing because he is ill."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "coughed",
-        "v3": "coughed",
-        "group": "regular",
-        "subtext": "have a cough",
-        "transcription": "k\u0254f",
-        "auxiliary": "have",
-        "v4": "coughing",
-        "lang": "en",
-        "level": "starter",
-        "theme": "health_medicine",
-        "sub_theme": null,
-        "legacy_id": "A1-SELF-15",
-        "level_code": "A1",
-        "domain": "SELF",
-        "subcategory": "Identity",
-        "pos_section": "Verbs",
-        "sub_subcategory": "General_Identity"
-    },
-    {
         "id": "A1-VERB-SEL-034",
         "word": "cry",
-        "emoji": "\ud83d\ude22",
+        "emoji": "😢",
         "subtext": "cry for help / cry out / cry about something",
         "synonyms": [
             "start crying"
@@ -88,7 +55,7 @@
         "v2": "cried",
         "v3": "cried",
         "group": "regular",
-        "transcription": "kra\u026a",
+        "transcription": "kraɪ",
         "auxiliary": "have",
         "v4": "crying",
         "lang": "en",
@@ -108,7 +75,7 @@
     {
         "id": "A1-VERB-SEL-035",
         "word": "die",
-        "emoji": "\u26b0\ufe0f",
+        "emoji": "⚰️",
         "subtext": "die of / die for / die from / die out",
         "form": "verb",
         "definitions": [
@@ -124,7 +91,7 @@
         "v2": "died",
         "v3": "died",
         "group": "regular",
-        "transcription": "da\u026a",
+        "transcription": "daɪ",
         "lang": "en",
         "level": "starter",
         "theme": "health_medicine",
@@ -140,48 +107,12 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-VERB-SEL-036",
-        "word": "die",
-        "emoji": "\u26b0\ufe0f",
-        "subtext": "die of / die for / die from / die out",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To stop living.",
-                "examples": [
-                    "Plants die without water."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "died",
-        "v3": "died",
-        "group": "regular",
-        "transcription": "da\u026a",
-        "auxiliary": "have",
-        "v4": "diing",
-        "lang": "en",
-        "level": "starter",
-        "theme": "health_medicine",
-        "sub_theme": null,
-        "antonyms": [
-            "live"
-        ],
-        "legacy_id": "A1-SELF-20",
-        "level_code": "A1",
-        "domain": "SELF",
-        "subcategory": "Identity",
-        "pos_section": "Verbs",
-        "sub_subcategory": "General_Identity"
-    },
-    {
         "id": "A1-VERB-SEL-037",
         "word": "feel",
-        "emoji": "\ud83c\udf21\ufe0f",
+        "emoji": "🌡️",
         "subtext": "feel tired / feel better / feel ill / feel stressed",
         "form": "verb",
-        "transcription": "fi\u02d0l",
+        "transcription": "fiːl",
         "definitions": [
             {
                 "text": "To experience a physical or emotional state.",
@@ -210,41 +141,6 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-VERB-SEL-038",
-        "word": "feel",
-        "emoji": "\ud83c\udf21\ufe0f",
-        "subtext": "feel tired / feel better / feel ill / feel stressed",
-        "form": "verb",
-        "transcription": "fi\u02d0l",
-        "definitions": [
-            {
-                "text": "To experience a physical or emotional state.",
-                "examples": [
-                    "She feels exhausted after a long week."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "both",
-        "v2": "felt",
-        "v3": "felt",
-        "group": "regular",
-        "auxiliary": "have",
-        "lang": "en",
-        "level": "starter",
-        "theme": "health_medicine",
-        "sub_theme": null,
-        "antonyms": [
-            "act"
-        ],
-        "legacy_id": "A1-SELF-24",
-        "level_code": "A1",
-        "domain": "SELF",
-        "subcategory": "Identity",
-        "pos_section": "Verbs",
-        "sub_subcategory": "General_Identity"
-    },
-    {
         "id": "A1-VERB-SEL-039",
         "word": "hurt",
         "definitions": [
@@ -260,10 +156,10 @@
         "aspect": "both",
         "v2": "hurt",
         "v3": "hurt",
-        "emoji": "\ud83e\udd15",
+        "emoji": "🤕",
         "form": "verb",
         "group": "irregular",
-        "transcription": "h\u0259rt",
+        "transcription": "hərt",
         "lang": "en",
         "level": "starter",
         "theme": "health_medicine",
@@ -279,44 +175,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-VERB-SEL-040",
-        "word": "hurt",
-        "definitions": [
-            {
-                "text": "To cause pain; or to feel pain.",
-                "examples": [
-                    "My back hurts after sitting all day."
-                ]
-            }
-        ],
-        "subtext": "hurt your back / hurt someone / hurt yourself / it hurts",
-        "classification": "irregular",
-        "aspect": "both",
-        "v2": "hurt",
-        "v3": "hurt",
-        "emoji": "\ud83e\udd15",
-        "form": "verb",
-        "group": "regular",
-        "transcription": "h\u0259rt",
-        "auxiliary": "have",
-        "lang": "en",
-        "level": "starter",
-        "theme": "health_medicine",
-        "sub_theme": null,
-        "antonyms": [
-            "heal"
-        ],
-        "legacy_id": "A1-SELF-32",
-        "level_code": "A1",
-        "domain": "SELF",
-        "subcategory": "Identity",
-        "pos_section": "Verbs",
-        "sub_subcategory": "General_Identity"
-    },
-    {
         "id": "A1-VERB-SEL-041",
         "word": "sneeze",
-        "emoji": "\ud83e\udd27",
+        "emoji": "🤧",
         "form": "verb",
         "definitions": [
             {
@@ -348,45 +209,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-VERB-SEL-042",
-        "word": "sneeze",
-        "emoji": "\ud83e\udd27",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To suddenly force air out through your nose and mouth with a loud noise.",
-                "examples": [
-                    "Bless you! Did you sneeze?"
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "sneezed",
-        "v3": "sneezed",
-        "group": "regular",
-        "subtext": "sneeze",
-        "synonyms": [
-            "atchoo!"
-        ],
-        "transcription": "sniz",
-        "auxiliary": "have",
-        "v4": "sneezing",
-        "lang": "en",
-        "level": "starter",
-        "theme": "health_medicine",
-        "sub_theme": null,
-        "legacy_id": "A1-SELF-54",
-        "level_code": "A1",
-        "domain": "SELF",
-        "subcategory": "Identity",
-        "pos_section": "Verbs",
-        "sub_subcategory": "General_Identity"
-    },
-    {
         "id": "A1-VERB-SEL-043",
         "word": "touch",
-        "emoji": "\ud83e\udef1",
+        "emoji": "🫱",
         "form": "verb",
         "subtext": "don't touch / touch screen",
         "synonyms": [
@@ -405,48 +230,12 @@
         "v2": "touched",
         "v3": "touched",
         "group": "regular",
-        "transcription": "t\u0259\u02a7",
+        "transcription": "təʧ",
         "lang": "en",
         "level": "starter",
         "theme": "five_senses",
         "sub_theme": null,
         "legacy_id": "A1-SELF-62",
-        "level_code": "A1",
-        "domain": "SELF",
-        "subcategory": "Identity",
-        "pos_section": "Verbs",
-        "sub_subcategory": "General_Identity"
-    },
-    {
-        "id": "A1-VERB-SEL-044",
-        "word": "touch",
-        "emoji": "\ud83e\udef1",
-        "form": "verb",
-        "subtext": "don't touch / touch screen",
-        "synonyms": [
-            "feel"
-        ],
-        "definitions": [
-            {
-                "text": "To put your hand or another part of your body on something.",
-                "examples": [
-                    "Don't touch the wet paint!"
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "touched",
-        "v3": "touched",
-        "group": "regular",
-        "transcription": "t\u0259\u02a7",
-        "auxiliary": "have",
-        "v4": "touching",
-        "lang": "en",
-        "level": "starter",
-        "theme": "five_senses",
-        "sub_theme": null,
-        "legacy_id": "A1-SELF-63",
         "level_code": "A1",
         "domain": "SELF",
         "subcategory": "Identity",

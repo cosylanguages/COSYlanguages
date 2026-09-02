@@ -4,9 +4,9 @@
     {
         "id": "A1-ADJ-SEL-224",
         "word": "American",
-        "emoji": "\ud83c\uddfa\ud83c\uddf8",
+        "emoji": "🇺🇸",
         "form": "adjective",
-        "transcription": "\u0259\u02c8m\u025br\u026ak\u0259n",
+        "transcription": "əˈmɛrɪkən",
         "definitions": [
             {
                 "text": "From or connected with the United States of America.",
@@ -36,9 +36,9 @@
     {
         "id": "A1-ADJ-SEL-225",
         "word": "British",
-        "emoji": "\ud83c\uddec\ud83c\udde7",
+        "emoji": "🇬🇧",
         "form": "adjective",
-        "transcription": "\u02c8br\u026at\u026a\u0283",
+        "transcription": "ˈbrɪtɪʃ",
         "definitions": [
             {
                 "text": "From or connected with Great Britain.",
@@ -68,9 +68,9 @@
     {
         "id": "A1-ADJ-SEL-226",
         "word": "Chinese",
-        "emoji": "\ud83c\udde8\ud83c\uddf3",
+        "emoji": "🇨🇳",
         "form": "adjective",
-        "transcription": "\u02cct\u0283a\u026a\u02c8ni\u02d0z",
+        "transcription": "ˌtʃaɪˈniːz",
         "definitions": [
             {
                 "text": "From or connected with China.",
@@ -100,9 +100,9 @@
     {
         "id": "A1-ADJ-SEL-227",
         "word": "English",
-        "emoji": "\ud83c\uddec\ud83c\udde7",
+        "emoji": "🇬🇧",
         "form": "adjective",
-        "transcription": "\u02c8\u026a\u014b\u0261l\u026a\u0283",
+        "transcription": "ˈɪŋɡlɪʃ",
         "definitions": [
             {
                 "text": "From or connected with England.",
@@ -132,9 +132,9 @@
     {
         "id": "A1-ADJ-SEL-228",
         "word": "French",
-        "emoji": "\ud83c\uddeb\ud83c\uddf7",
+        "emoji": "🇫🇷",
         "form": "adjective",
-        "transcription": "fr\u025bnt\u0283",
+        "transcription": "frɛntʃ",
         "definitions": [
             {
                 "text": "From or connected with France.",
@@ -164,9 +164,9 @@
     {
         "id": "A1-ADJ-SEL-229",
         "word": "German",
-        "emoji": "\ud83c\udde9\ud83c\uddea",
+        "emoji": "🇩🇪",
         "form": "adjective",
-        "transcription": "\u02c8d\u0292\u025c\u02d0rm\u0259n",
+        "transcription": "ˈdʒɜːrmən",
         "definitions": [
             {
                 "text": "From or connected with Germany.",
@@ -196,9 +196,9 @@
     {
         "id": "A1-ADJ-SEL-230",
         "word": "Italian",
-        "emoji": "\ud83c\uddee\ud83c\uddf9",
+        "emoji": "🇮🇹",
         "form": "adjective",
-        "transcription": "\u026a\u02c8t\u00e6li\u0259n",
+        "transcription": "ɪˈtæliən",
         "definitions": [
             {
                 "text": "From or connected with Italy.",
@@ -228,9 +228,9 @@
     {
         "id": "A1-ADJ-SEL-231",
         "word": "Japanese",
-        "emoji": "\ud83c\uddef\ud83c\uddf5",
+        "emoji": "🇯🇵",
         "form": "adjective",
-        "transcription": "\u02ccd\u0292\u00e6p\u0259\u02c8ni\u02d0z",
+        "transcription": "ˌdʒæpəˈniːz",
         "definitions": [
             {
                 "text": "From or connected with Japan.",
@@ -260,9 +260,9 @@
     {
         "id": "A1-ADJ-SEL-232",
         "word": "Spanish",
-        "emoji": "\ud83c\uddea\ud83c\uddf8",
+        "emoji": "🇪🇸",
         "form": "adjective",
-        "transcription": "\u02c8sp\u00e6n\u026a\u0283",
+        "transcription": "ˈspænɪʃ",
         "definitions": [
             {
                 "text": "From or connected with Spain.",
@@ -292,7 +292,7 @@
     {
         "id": "A1-ADJ-SEL-233",
         "word": "alone",
-        "emoji": "\ud83d\udc64",
+        "emoji": "👤",
         "form": "adjective",
         "definitions": [
             {
@@ -305,7 +305,7 @@
         "subtext": "live alone / travel alone / feel alone",
         "comparative": "more alone",
         "superlative": "the most alone",
-        "transcription": "\u0259\u02c8lo\u028an",
+        "transcription": "əˈloʊn",
         "lang": "en",
         "level": "starter",
         "theme": "people",
@@ -321,40 +321,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A1-ADJ-SEL-234",
-        "word": "alone",
-        "emoji": "\ud83d\udc64",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "Without other people; by yourself.",
-                "examples": [
-                    "She lives alone."
-                ]
-            }
-        ],
-        "subtext": "live alone / travel alone / feel alone",
-        "comparative": "more alone",
-        "superlative": "the most alone",
-        "transcription": "\u0259\u02c8lo\u028an",
-        "lang": "en",
-        "level": "starter",
-        "theme": "people",
-        "sub_theme": null,
-        "antonyms": [
-            "together"
-        ],
-        "legacy_id": "A1-SELF-12",
-        "level_code": "A1",
-        "domain": "SELF",
-        "subcategory": "Identity",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Personal_Identity"
-    },
-    {
         "id": "A1-ADJ-SEL-235",
         "word": "famous",
-        "emoji": "\ud83c\udf1f",
+        "emoji": "🌟",
         "form": "adjective",
         "subtext": "a famous person / become famous",
         "synonyms": [
@@ -371,7 +340,7 @@
         ],
         "comparative": "more famous",
         "superlative": "the most famous",
-        "transcription": "\u02c8fe\u026am\u0259s",
+        "transcription": "ˈfeɪməs",
         "lang": "en",
         "level": "starter",
         "theme": "people",
@@ -389,7 +358,7 @@
     {
         "id": "A1-ADJ-SEL-236",
         "word": "married",
-        "emoji": "\ud83d\udc8d",
+        "emoji": "💍",
         "form": "adjective",
         "subtext": "having a husband or wife / a married couple / get married",
         "definitions": [
@@ -402,7 +371,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "\u02c8m\u025brid",
+        "transcription": "ˈmɛrid",
         "lang": "en",
         "level": "starter",
         "theme": "people",
@@ -420,7 +389,7 @@
     {
         "id": "A1-ADJ-SEL-237",
         "word": "nasty",
-        "emoji": "\ud83d\ude20",
+        "emoji": "😠",
         "form": "adjective",
         "subtext": "a nasty person / nasty weather",
         "synonyms": [
@@ -437,7 +406,7 @@
         ],
         "comparative": "nastier",
         "superlative": "the nastiest",
-        "transcription": "\u02c8n\u00e6sti",
+        "transcription": "ˈnæsti",
         "lang": "en",
         "level": "starter",
         "theme": "people",
@@ -455,7 +424,7 @@
     {
         "id": "A1-ADJ-SEL-238",
         "word": "shy",
-        "emoji": "\ud83d\ude33",
+        "emoji": "😳",
         "form": "adjective",
         "definitions": [
             {
@@ -471,7 +440,7 @@
         ],
         "comparative": "shyer",
         "superlative": "the shyest",
-        "transcription": "\u0283a\u026a",
+        "transcription": "ʃaɪ",
         "lang": "en",
         "level": "starter",
         "theme": "people",
@@ -489,7 +458,7 @@
     {
         "id": "A1-ADJ-SEL-239",
         "word": "single",
-        "emoji": "\ud83d\udc64",
+        "emoji": "👤",
         "form": "adjective",
         "subtext": "a single man",
         "synonyms": [
@@ -505,7 +474,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "\u02c8s\u026a\u014bg\u0259l",
+        "transcription": "ˈsɪŋgəl",
         "lang": "en",
         "level": "starter",
         "theme": "people",
@@ -523,7 +492,7 @@
     {
         "id": "A1-ADJ-SEL-240",
         "word": "stupid",
-        "emoji": "\ud83e\udd21",
+        "emoji": "🤡",
         "form": "adjective",
         "definitions": [
             {
@@ -539,7 +508,7 @@
         ],
         "comparative": "stupider",
         "superlative": "the stupidest",
-        "transcription": "\u02c8stup\u026ad",
+        "transcription": "ˈstupɪd",
         "lang": "en",
         "level": "starter",
         "theme": "people",
