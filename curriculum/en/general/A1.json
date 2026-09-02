@@ -4,1224 +4,1098 @@
   "level": "A1",
   "units": [
     {
-      "unit": 0,
-      "title": "First Steps (A0)",
+      "unit": 1,
+      "title": "Hello — Greetings, names & alphabet",
       "lessons": [
         {
           "lesson": 1,
-          "title": "Hello & Welcome",
+          "title": "Greetings, names & the alphabet",
           "grammar": [
-            "Verb \"to be\" (am/is/are) — positive forms"
+            "Alphabet & Spelling rules",
+            "Verb \"to be\" positive intro"
           ],
           "vocabulary": [
-            "Hello",
-            "Hi",
-            "Good morning",
-            "Good afternoon",
-            "Good evening",
-            "Goodbye"
+            "hello",
+            "hi",
+            "goodbye",
+            "bye",
+            "good morning",
+            "good afternoon",
+            "good evening",
+            "good night",
+            "name",
+            "spell"
           ],
-          "teacher_notes": "code: \"A1-001\"\npronunciation: [{\"point\":\"The English Alphabet\",\"explain\":\"English has 26 letters but many more sounds. Start with the names of the letters.\",\"alphabet\":[{\"l\":\"A\",\"ipa\":\"/eɪ/\"},{\"l\":\"B\",\"ipa\":\"/biː/\"},{\"l\":\"C\",\"ipa\":\"/siː/\"},{\"l\":\"D\",\"ipa\":\"/diː/\"},{\"l\":\"E\",\"ipa\":\"/iː/\"},{\"l\":\"F\",\"ipa\":\"/ef/\"},{\"l\":\"G\",\"ipa\":\"/dʒiː/\"},{\"l\":\"H\",\"ipa\":\"/eɪtʃ/\"},{\"l\":\"I\",\"ipa\":\"/aɪ/\"},{\"l\":\"J\",\"ipa\":\"/dʒeɪ/\"},{\"l\":\"K\",\"ipa\":\"/keɪ/\"},{\"l\":\"L\",\"ipa\":\"/el/\"},{\"l\":\"M\",\"ipa\":\"/em/\"},{\"l\":\"N\",\"ipa\":\"/en/\"},{\"l\":\"O\",\"ipa\":\"/əʊ/\"},{\"l\":\"P\",\"ipa\":\"/piː/\"},{\"l\":\"Q\",\"ipa\":\"/kjuː/\"},{\"l\":\"R\",\"ipa\":\"/ɑː/\"},{\"l\":\"S\",\"ipa\":\"/es/\"},{\"l\":\"T\",\"ipa\":\"/tiː/\"},{\"l\":\"U\",\"ipa\":\"/juː/\"},{\"l\":\"V\",\"ipa\":\"/viː/\"},{\"l\":\"W\",\"ipa\":\"/ˈdʌb.əl.juː/\"},{\"l\":\"X\",\"ipa\":\"/eks/\"},{\"l\":\"Y\",\"ipa\":\"/waɪ/\"},{\"l\":\"Z\",\"ipa\":\"/zed/\"}],\"extension\":\"Did you know? The letters A, E, I, O, U are vowels. All other letters are consonants. In English, one letter can often represent multiple different sounds!\",\"visual\":\"🔤\"}]\ncando: \"Can greet people and say goodbye\"\nhw: \"Learn the alphabet song\"",
+          "teacher_notes": "code: \"A1-001\"\npronunciation: [{\"point\":\"The English Alphabet\",\"explain\":\"English has 26 letters but many more sounds. Start with the names of the letters.\",\"visual\":\"🔤\"}]\ncando: \"Can greet people, say goodbye, and spell name aloud\"\nhw: \"Learn the alphabet song and practice spelling your full name\"",
           "recycled": "Foundational communication & basic level vocabulary"
         },
         {
           "lesson": 2,
-          "title": "What is your name?",
+          "title": "To be — I am, you are (positive & negative)",
           "grammar": [
-            "Verb \"to be\" — questions (What is...?)"
+            "To be — I am, you are",
+            "Apostrophe for contractions"
           ],
           "vocabulary": [
-            "Name",
-            "What",
-            "How",
-            "Nice to meet you"
+            "I",
+            "you",
+            "am",
+            "are",
+            "not",
+            "yes",
+            "no",
+            "student",
+            "teacher",
+            "friend"
           ],
-          "teacher_notes": "code: \"A1-002\"\npronunciation: [{\"point\":\"Contractions\",\"explain\":\"In spoken English, we often combine words. 'What is' becomes 'What's'.\",\"examples\":[{\"pattern\":\"What is\",\"ipa\":\"/wɒt ɪz/\",\"word\":\"What's\"},{\"pattern\":\"I am\",\"ipa\":\"/aɪ æm/\",\"word\":\"I'm\"},{\"pattern\":\"My name is\",\"ipa\":\"/maɪ neɪm ɪz/\",\"word\":\"My name's\"}],\"extension\":\"Contractions make your English sound more natural and fluent. We use them almost all the time when speaking!\",\"visual\":\"🔗\"}]\ncando: \"Can introduce themselves\"\nhw: \"Practice spelling your name\"",
-          "recycled": "Verb \"to be\" (am/is/are) — positive forms, Good afternoon, Good evening"
+          "teacher_notes": "code: \"A1-002\"\npronunciation: [{\"point\":\"Contractions\",\"explain\":\"I am -> I'm, You are -> You're\",\"visual\":\"💬\"}]\ncando: \"Can introduce oneself and state identity using I am / You are\"\nhw: \"Write 5 sentences using I am and You are\"",
+          "recycled": "Alphabet & Spelling rules, Verb \"to be\" positive intro, good night"
         },
         {
           "lesson": 3,
-          "title": "Numbers 1-20",
+          "title": "Meeting someone for the first time",
           "grammar": [
-            "Singular and Plural nouns (intro)"
+            "Subject pronouns (I, you)",
+            "To be in simple greetings"
           ],
           "vocabulary": [
-            "one",
-            "two",
-            "three",
-            "ten",
-            "twenty"
+            "Nice to meet you",
+            "How are you?",
+            "I'm fine, thanks",
+            "And you?",
+            "What's your name?"
           ],
-          "teacher_notes": "code: \"A1-003\"\npronunciation: [{\"point\":\"Numbers -teen vs -ty\",\"explain\":\"Stress is key to distinguish numbers like 13 and 30.\",\"examples\":[{\"pattern\":\"13\",\"ipa\":\"/ˌθɜːˈtiːn/\",\"word\":\"thirteen\"},{\"pattern\":\"30\",\"ipa\":\"/ˈθɜː.ti/\",\"word\":\"thirty\"}]}]\ncando: \"Can count from 1 to 20\"\nhw: \"Count objects in your room\"",
-          "recycled": "Verb \"to be\" (am/is/are) — positive forms, Verb \"to be\" — questions (What is...?), What"
+          "teacher_notes": "code: \"A1-003\"\npronunciation: [{\"point\":\"Rising/falling intonation in questions\",\"explain\":\"How are you? (falling), Are you OK? (rising)\",\"visual\":\"🗣️\"}]\ncando: \"Can engage in a basic first-meeting dialogue\"\nhw: \"Practice first-meeting dialogue with a study partner\"",
+          "recycled": "To be — I am, you are, Apostrophe for contractions, student"
         },
         {
           "lesson": 4,
-          "title": "Minimal Pairs 1: Vowels",
+          "title": "Spoken course lesson: Hello, who are you?",
           "grammar": [
-            "Basic sentence structure"
+            "Conversational greetings & polite responses",
+            "Imperatives (listen, repeat)"
           ],
           "vocabulary": [
-            "ship",
-            "sheep",
-            "feet",
-            "sit"
+            "welcome",
+            "excuse me",
+            "pardon",
+            "see you later",
+            "take care"
           ],
-          "teacher_notes": "code: \"A1-004\"\npronunciation: [{\"point\":\"Short vs Long Vowels\",\"explain\":\"Short sounds vs long sounds can change the meaning of a word.\",\"minimalPairs\":[{\"w1\":\"ship\",\"p1\":\"/ʃɪp/\",\"w2\":\"sheep\",\"p2\":\"/ʃiːp/\"},{\"w1\":\"bit\",\"p1\":\"/bɪt/\",\"w2\":\"beat\",\"p2\":\"/biːt/\"},{\"w1\":\"fit\",\"p1\":\"/fɪt/\",\"w2\":\"feet\",\"p2\":\"/fiːt/\"}],\"extension\":\"The length of the vowel is very important in English. Notice how your mouth stays in a similar position but the sound lasts longer for 'sheep' and 'beat'.\",\"visual\":\"🚢↔️🐑\"}]\ncando: \"Can distinguish between short and long vowel sounds\"\nhw: \"Record yourself saying ship and sheep\"",
-          "recycled": "Verb \"to be\" — questions (What is...?), Singular and Plural nouns (intro), three"
+          "teacher_notes": "code: \"A1-004\"\npronunciation: [{\"point\":\"Polite intonation\",\"explain\":\"Expressing warmth in greetings\",\"visual\":\"🎙️\"}]\ncando: \"Can fluently exchange spontaneous greetings in spoken English\"\nhw: \"Record a 30-second greeting audio message\"",
+          "recycled": "Subject pronouns (I, you), To be in simple greetings, I'm fine, thanks"
         },
         {
           "lesson": 5,
-          "title": "Essential Phrases",
+          "title": "Unit 1 exam & review",
           "grammar": [
-            "Polite requests (Please, Thank you)"
+            "Review of verb \"to be\" (I am / you are)",
+            "Question formation with \"to be\""
           ],
           "vocabulary": [
-            "Please",
-            "Thank you",
-            "Excuse me",
-            "Sorry"
+            "greeting",
+            "alphabet",
+            "letter",
+            "consonant",
+            "vowel"
           ],
-          "teacher_notes": "code: \"A1-005\"\npronunciation: [{\"point\":\"Word Stress\",\"explain\":\"The most important part of the word is louder and longer.\",\"examples\":[{\"pattern\":\"Please\",\"ipa\":\"/pliːz/\",\"word\":\"please\"},{\"pattern\":\"Thank you\",\"ipa\":\"/ˈθæŋk.juː/\",\"word\":\"thank you\"},{\"pattern\":\"Excuse me\",\"ipa\":\"/ɪkˈskjuːz.miː/\",\"word\":\"excuse me\"}]}]\ncando: \"Can use basic polite phrases\"\nhw: \"Use three polite phrases tomorrow\"",
-          "recycled": "Singular and Plural nouns (intro), Basic sentence structure, sheep"
+          "teacher_notes": "code: \"A1-005\"\ncando: \"Can demonstrate mastery of Unit 1 greetings, alphabet, and I/you to be forms\"\nhw: \"Complete Unit 1 review worksheet\"",
+          "recycled": "Conversational greetings & polite responses, Imperatives (listen, repeat), pardon"
         }
       ]
     },
     {
-      "unit": 1,
-      "title": "My Life Today",
+      "unit": 2,
+      "title": "Where are you from? — Countries & nationalities",
       "lessons": [
         {
           "lesson": 1,
-          "title": "A day in my life — routines revisited",
+          "title": "Countries, nationalities & languages",
           "grammar": [
-            "Present simple: all persons + frequency adverbs (mid-position)"
+            "Capital letters for countries, nationalities & languages"
+          ],
+          "vocabulary": [
+            "France",
+            "French",
+            "England",
+            "English",
+            "Italy",
+            "Italian",
+            "Spain",
+            "Spanish",
+            "Russia",
+            "Russian",
+            "Germany",
+            "German",
+            "China",
+            "Chinese"
+          ],
+          "teacher_notes": "code: \"A1-006\"\npronunciation: [{\"point\":\"Nationality word stress\",\"explain\":\"Note stress shifts: Chi-na -> Chi-NESE, I-ta-ly -> I-TA-li-an\",\"visual\":\"🌍\"}]\ncando: \"Can name major countries, nationalities, and languages\"\nhw: \"List 10 countries and their corresponding nationality adjectives\"",
+          "recycled": "Review of verb \"to be\" (I am / you are), Question formation with \"to be\", letter"
+        },
+        {
+          "lesson": 2,
+          "title": "To be — he/she/it is · They are · Questions",
+          "grammar": [
+            "To be — he/she/it/they",
+            "Questions: Where is he from?"
+          ],
+          "vocabulary": [
+            "he",
+            "she",
+            "it",
+            "we",
+            "they",
+            "is",
+            "are",
+            "where",
+            "from",
+            "city",
+            "country",
+            "capital"
+          ],
+          "teacher_notes": "code: \"A1-007\"\npronunciation: [{\"point\":\"Weak forms of is/are\",\"explain\":\"He's / She's / They're pronunciation\",\"visual\":\"📌\"}]\ncando: \"Can ask and answer questions about origin using third person to be forms\"\nhw: \"Write 5 Q&A pairs asking where famous people are from\"",
+          "recycled": "Question formation with \"to be\", Capital letters for countries, nationalities & languages, German"
+        },
+        {
+          "lesson": 3,
+          "title": "Talking about where people are from",
+          "grammar": [
+            "Present simple \"live in\" / \"come from\" vs \"to be from\""
+          ],
+          "vocabulary": [
+            "native speaker",
+            "foreign",
+            "language",
+            "speak",
+            "live in",
+            "come from",
+            "passport",
+            "nationality"
+          ],
+          "teacher_notes": "code: \"A1-008\"\ncando: \"Can state origin, residence, and spoken languages\"\nhw: \"Write a short paragraph describing where you and a friend come from\"",
+          "recycled": "To be — he/she/it/they, Questions: Where is he from?, city"
+        },
+        {
+          "lesson": 4,
+          "title": "Spoken course lesson: Where are you from?",
+          "grammar": [
+            "Wh- question intonation (Where are you from?)"
+          ],
+          "vocabulary": [
+            "Where do you live?",
+            "What language do you speak?",
+            "I speak a little English",
+            "Really?",
+            "How interesting!"
+          ],
+          "teacher_notes": "code: \"A1-009\"\ncando: \"Can converse comfortably about origin, city of residence, and languages spoken\"\nhw: \"Record a roleplay dialogue asking a partner about their origin\"",
+          "recycled": "Questions: Where is he from?, Present simple \"live in\" / \"come from\" vs \"to be from\", come from"
+        },
+        {
+          "lesson": 5,
+          "title": "Unit 2 exam & review",
+          "grammar": [
+            "Review of \"to be\" (all persons) & origin questions"
+          ],
+          "vocabulary": [
+            "country",
+            "nationality",
+            "capital",
+            "flag",
+            "world"
+          ],
+          "teacher_notes": "code: \"A1-010\"\ncando: \"Can demonstrate mastery of Unit 2 country/nationality vocabulary and origin questions\"\nhw: \"Complete Unit 2 review assessment\"",
+          "recycled": "Present simple \"live in\" / \"come from\" vs \"to be from\", Wh- question intonation (Where are you from?), I speak a little English"
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "My family — People & relationships",
+      "lessons": [
+        {
+          "lesson": 1,
+          "title": "Family members & ages",
+          "grammar": [
+            "Numbers 1–100",
+            "Singular and plural nouns (-s, -es, irregular children)"
+          ],
+          "vocabulary": [
+            "mother",
+            "father",
+            "parent",
+            "son",
+            "daughter",
+            "brother",
+            "sister",
+            "grandmother",
+            "grandfather",
+            "husband",
+            "wife",
+            "child",
+            "children",
+            "age",
+            "years old"
+          ],
+          "teacher_notes": "code: \"A1-011\"\npronunciation: [{\"point\":\"Plural -s sounds\",\"explain\":\"/s/, /z/, and /ɪz/ plural endings (e.g., cats /s/, dogs /z/, buses /ɪz/)\",\"visual\":\"👨‍👩‍👧‍👦\"}]\ncando: \"Can name family members and state their ages\"\nhw: \"Draw a simple family tree with names and ages\"",
+          "recycled": "Wh- question intonation (Where are you from?), Review of \"to be\" (all persons) & origin questions, capital"
+        },
+        {
+          "lesson": 2,
+          "title": "Possessive adjectives — my, your, his, her, our, their",
+          "grammar": [
+            "Possessive adjectives",
+            "'s for possession"
+          ],
+          "vocabulary": [
+            "my",
+            "your",
+            "his",
+            "her",
+            "its",
+            "our",
+            "their",
+            "family",
+            "relative",
+            "cousin",
+            "uncle",
+            "aunt"
+          ],
+          "teacher_notes": "code: \"A1-012\"\npronunciation: [{\"point\":\"Possessive 's vs is\",\"explain\":\"John's car (possession) vs John's tall (is)\",\"visual\":\"🔑\"}]\ncando: \"Can express ownership and family relationships using possessive adjectives and 's\"\nhw: \"Write 6 sentences using my, his, her, our, their, and possessive 's\"",
+          "recycled": "Numbers 1–100, Singular and plural nouns (-s, -es, irregular children), children"
+        },
+        {
+          "lesson": 3,
+          "title": "Talking about your family",
+          "grammar": [
+            "Describing people with \"to be\" + adjective and \"have/has got\" / \"have/has\""
+          ],
+          "vocabulary": [
+            "married",
+            "single",
+            "older",
+            "younger",
+            "close family",
+            "live together",
+            "look like",
+            "photo"
+          ],
+          "teacher_notes": "code: \"A1-013\"\ncando: \"Can describe family relationships, marital status, and physical traits\"\nhw: \"Write a 5-sentence description of your family\"",
+          "recycled": "Possessive adjectives, 's for possession, cousin"
+        },
+        {
+          "lesson": 4,
+          "title": "Spoken course lesson: Tell me about your family",
+          "grammar": [
+            "Wh- questions about family (\"How many brothers do you have?\")"
+          ],
+          "vocabulary": [
+            "How many...?",
+            "Tell me about...",
+            "She is very nice",
+            "He works as...",
+            "We are close"
+          ],
+          "teacher_notes": "code: \"A1-014\"\ncando: \"Can discuss family members and their occupations in spoken dialogue\"\nhw: \"Record a short monologue introducing your family\"",
+          "recycled": "'s for possession, Describing people with \"to be\" + adjective and \"have/has got\" / \"have/has\", live together"
+        },
+        {
+          "lesson": 5,
+          "title": "Unit 3 exam & review",
+          "grammar": [
+            "Review of possessive adjectives, possessive 's, and plurals"
+          ],
+          "vocabulary": [
+            "parent",
+            "sibling",
+            "relative",
+            "generation",
+            "family tree"
+          ],
+          "teacher_notes": "code: \"A1-015\"\ncando: \"Can demonstrate mastery of Unit 3 family terms, numbers, and possessives\"\nhw: \"Complete Unit 3 review assessment\"",
+          "recycled": "Describing people with \"to be\" + adjective and \"have/has got\" / \"have/has\", Wh- questions about family (\"How many brothers do you have?\"), She is very nice"
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "My home — Rooms, furniture & location",
+      "lessons": [
+        {
+          "lesson": 1,
+          "title": "Rooms, furniture & prepositions of place",
+          "grammar": [
+            "Prepositions of place (in, on, under, next to, behind, in front of)"
+          ],
+          "vocabulary": [
+            "house",
+            "flat",
+            "apartment",
+            "living room",
+            "bedroom",
+            "kitchen",
+            "bathroom",
+            "garden",
+            "bed",
+            "sofa",
+            "table",
+            "chair",
+            "desk",
+            "window",
+            "door",
+            "in",
+            "on",
+            "under",
+            "next to",
+            "behind",
+            "in front of"
+          ],
+          "teacher_notes": "code: \"A1-016\"\npronunciation: [{\"point\":\"Preposition stress\",\"explain\":\"Prepositions are usually unstressed in connected speech\",\"visual\":\"🏡\"}]\ncando: \"Can name rooms, basic furniture, and describe location using prepositions of place\"\nhw: \"Describe the positions of 5 objects in your bedroom\"",
+          "recycled": "Wh- questions about family (\"How many brothers do you have?\"), Review of possessive adjectives, possessive 's, and plurals, relative"
+        },
+        {
+          "lesson": 2,
+          "title": "There is / there are — positive, negative, questions",
+          "grammar": [
+            "There is / there are",
+            "singular vs plural"
+          ],
+          "vocabulary": [
+            "room",
+            "floor",
+            "wall",
+            "lamp",
+            "television",
+            "fridge",
+            "balcony",
+            "wardrobe",
+            "mirror",
+            "carpet"
+          ],
+          "teacher_notes": "code: \"A1-017\"\npronunciation: [{\"point\":\"There's contraction\",\"explain\":\"There is -> There's /ðeəz/\",\"visual\":\"🛋️\"}]\ncando: \"Can describe contents of a room using there is / there are\"\nhw: \"Write 5 sentences about what is in your living room\"",
+          "recycled": "Review of possessive adjectives, possessive 's, and plurals, Prepositions of place (in, on, under, next to, behind, in front of), next to"
+        },
+        {
+          "lesson": 3,
+          "title": "Describing your home",
+          "grammar": [
+            "Adjectives for opinion and size with \"to be\" and \"there is/are\""
+          ],
+          "vocabulary": [
+            "big",
+            "small",
+            "modern",
+            "cozy",
+            "comfortable",
+            "quiet",
+            "noisy",
+            "beautiful",
+            "clean",
+            "rent",
+            "live"
+          ],
+          "teacher_notes": "code: \"A1-018\"\ncando: \"Can evaluate and describe characteristics of living spaces\"\nhw: \"Write a short email describing your home to a penpal\"",
+          "recycled": "There is / there are, singular vs plural, wardrobe"
+        },
+        {
+          "lesson": 4,
+          "title": "Spoken course lesson: Your perfect home",
+          "grammar": [
+            "Expressing basic preferences (\"I like...\", \"It has got...\")"
+          ],
+          "vocabulary": [
+            "dream house",
+            "ideal room",
+            "view",
+            "space",
+            "prefer",
+            "I like",
+            "It has got",
+            "near the park"
+          ],
+          "teacher_notes": "code: \"A1-019\"\ncando: \"Can describe a dream home and express spatial preferences in conversation\"\nhw: \"Describe your dream home in a spoken recording\"",
+          "recycled": "singular vs plural, Adjectives for opinion and size with \"to be\" and \"there is/are\", clean"
+        },
+        {
+          "lesson": 5,
+          "title": "Unit 4 exam & review",
+          "grammar": [
+            "Review of there is/are, prepositions of place, and home vocabulary"
+          ],
+          "vocabulary": [
+            "furniture",
+            "appliance",
+            "residence",
+            "location",
+            "floorplan"
+          ],
+          "teacher_notes": "code: \"A1-020\"\ncando: \"Can demonstrate mastery of Unit 4 home vocabulary, prepositions, and there is/are\"\nhw: \"Complete Unit 4 review assessment\"",
+          "recycled": "Adjectives for opinion and size with \"to be\" and \"there is/are\", Expressing basic preferences (\"I like...\", \"It has got...\"), I like"
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "My day — Daily routine & time",
+      "lessons": [
+        {
+          "lesson": 1,
+          "title": "Daily routine verbs & time expressions",
+          "grammar": [
+            "Telling the time (o'clock, half past, quarter to/past)",
+            "Time prepositions (at 7 o'clock, in the morning)"
+          ],
+          "vocabulary": [
+            "wake up",
+            "get up",
+            "wash face",
+            "brush teeth",
+            "shower",
+            "have breakfast",
+            "go to work",
+            "start work",
+            "have lunch",
+            "finish work",
+            "go home",
+            "have dinner",
+            "watch TV",
+            "go to bed"
+          ],
+          "teacher_notes": "code: \"A1-021\"\npronunciation: [{\"point\":\"Verb linking in daily routines\",\"explain\":\"get up -> /ɡet.ʌp/, wake up -> /weɪk.ʌp/\",\"visual\":\"⏰\"}]\ncando: \"Can describe morning and evening routine actions and tell time\"\nhw: \"Write down your daily timetable with times\"",
+          "recycled": "Expressing basic preferences (\"I like...\", \"It has got...\"), Review of there is/are, prepositions of place, and home vocabulary, residence"
+        },
+        {
+          "lesson": 2,
+          "title": "Present simple — I / you / we / they (affirmative, negative, questions)",
+          "grammar": [
+            "Present simple",
+            "Frequency adverbs: always, usually, sometimes, never"
           ],
           "vocabulary": [
             "always",
             "usually",
             "often",
             "sometimes",
-            "rarely",
             "never",
-            "wake up",
-            "get up",
-            "leave",
-            "arrive",
-            "finish",
-            "start"
+            "every day",
+            "in the morning",
+            "on weekdays",
+            "at weekends"
           ],
-          "teacher_notes": "code: \"A1-01\"\npronunciation: [{\"point\":\"Starter Foundation: The Alphabet Sounds\",\"explain\":\"Master the vowel sounds in the alphabet which often cause confusion.\",\"examples\":[{\"pattern\":\"A, H, J, K\",\"ipa\":\"/eɪ/\",\"word\":\"Alphabet\"},{\"pattern\":\"E, B, C, D, G, P, T, V\",\"ipa\":\"/iː/\",\"word\":\"Email\"},{\"pattern\":\"I, Y\",\"ipa\":\"/aɪ/\",\"word\":\"Identity\"}],\"tip\":\"English vowels 'A' and 'E' are often swapped by learners from other languages!\"},{\"point\":\"The Schwa Sound /ə/\",\"explain\":\"The most common sound in English. It's short, weak, and found in unstressed syllables.\",\"examples\":[{\"pattern\":\"a\",\"ipa\":\"/ə'baʊt/\",\"word\":\"about\"},{\"pattern\":\"er\",\"ipa\":\"/'tiːtʃə/\",\"word\":\"teacher\"},{\"pattern\":\"o\",\"ipa\":\"/'pəʊlɪs/\",\"word\":\"police\"}],\"tip\":\"Relax your mouth completely to make this sound.\"}]\nspeaking: \"Compare routines with 2 partners using frequency adverbs\"\nlistening: \"Extended daily routine (3 speakers)\"\nreading: \"A \\\"day in the life\\\" magazine article\"\nwriting: \"Full daily routine paragraph (8 sentences + frequency)\"\ntask: \"Class routine survey: who does what, how often?\"\ncando: \"Can describe daily routines using all frequency adverbs\"\nhw: \"Write a detailed weekly routine with frequency adverbs\"",
-          "recycled": "Basic sentence structure, Polite requests (Please, Thank you), Thank you"
-        },
-        {
-          "lesson": 2,
-          "title": "My job — describing work in detail",
-          "grammar": [
-            "Present simple: \"I work with/for/in; I am responsible for…\""
-          ],
-          "vocabulary": [
-            "job",
-            "work",
-            "boss",
-            "colleague",
-            "salary",
-            "office",
-            "meeting",
-            "email",
-            "full-time",
-            "part-time",
-            "manage",
-            "attend",
-            "check",
-            "send",
-            "meet",
-            "reply",
-            "help",
-            "order",
-            "visit",
-            "busy"
-          ],
-          "teacher_notes": "code: \"A1-02\"\npronunciation: [{\"point\":\"Word Stress in Occupations\",\"explain\":\"Multi-syllable words always have one syllable that is stronger than the others.\",\"examples\":[{\"pattern\":\"oo\",\"ipa\":\"/ˌen.dʒɪˈnɪər/\",\"word\":\"engineer\"},{\"pattern\":\"o\",\"ipa\":\"/ˈfəʊ.tə.ɡrɑː.fər/\",\"word\":\"photographer\"},{\"pattern\":\"a\",\"ipa\":\"/ˈmæn.ɪ.dʒər/\",\"word\":\"manager\"}],\"tip\":\"Tap your finger on the desk for the stressed syllable.\"}]\nspeaking: \"Describe your job in 5 sentences to a partner\"\nlistening: \"3 job descriptions from real professionals\"\nreading: \"A short job description from a job advert\"\nwriting: \"Job description for your own role (6 sentences)\"\ntask: \"Job description swap: guess the job from description\"\ncando: \"Can describe what their job involves using present simple\"\nhw: \"Write a job description as if for a LinkedIn profile\"",
-          "recycled": "Polite requests (Please, Thank you), Present simple: all persons + frequency adverbs (mid-position), arrive"
+          "teacher_notes": "code: \"A1-022\"\npronunciation: [{\"point\":\"Frequency adverb position\",\"explain\":\"Adverbs of frequency go BEFORE main verbs, but AFTER verb to be\",\"visual\":\"📅\"}]\ncando: \"Can describe habits and routine frequency using Present Simple I/you/we/they forms\"\nhw: \"Write 5 sentences about your weekly habits using frequency adverbs\"",
+          "recycled": "Telling the time (o'clock, half past, quarter to/past), Time prepositions (at 7 o'clock, in the morning), have dinner"
         },
         {
           "lesson": 3,
-          "title": "My commute and workplace",
+          "title": "Talking about your daily routine",
           "grammar": [
-            "\"How long does it take? / How far is it?\" + It takes / It is"
+            "Prepositions of time (at, in, on)",
+            "Sequence words (first, then, after that, finally)"
           ],
           "vocabulary": [
-            "commute",
-            "floor",
-            "department",
-            "delay",
-            "rush hour",
-            "travel",
-            "leave",
-            "arrive",
+            "schedule",
             "busy",
-            "free",
-            "difficult"
-          ],
-          "teacher_notes": "code: \"A1-03\"\npronunciation: [{\"point\":\"The /θ/ and /ð/ Sounds\",\"explain\":\"English 'th' has two sounds: unvoiced /θ/ (think) and voiced /ð/ (the).\",\"examples\":[{\"pattern\":\"th\",\"ipa\":\"/θɪŋk/\",\"word\":\"think\"},{\"pattern\":\"th\",\"ipa\":\"/ðə/\",\"word\":\"the\"},{\"pattern\":\"th\",\"ipa\":\"/'ɜː.θɪŋ/\",\"word\":\"earth\"}],\"tip\":\"Put your tongue between your teeth and blow.\"}]\nspeaking: \"Tell a partner about your commute in detail\"\nlistening: \"Two people discussing their commutes\"\nreading: \"Short article on commuting in cities\"\nwriting: \"Paragraph about your commute and workplace\"\ntask: \"Commute debate: which is the best way to travel?\"\ncando: \"Can discuss commute and workplace location\"\nhw: \"Write a 60-word commute description\"",
-          "recycled": "Present simple: all persons + frequency adverbs (mid-position), Present simple: \"I work with/for/in; I am responsible for…\", order"
-        },
-        {
-          "lesson": 4,
-          "title": "Earning and spending — money vocabulary",
-          "grammar": [
-            "How much do you earn/spend? Present simple + object; too + adjective / enough"
-          ],
-          "vocabulary": [
-            "spend",
-            "save",
-            "pay",
-            "cost",
-            "cash",
-            "card",
-            "receipt",
-            "discount",
-            "bill",
-            "earn",
-            "afford",
-            "charge",
-            "cheap",
-            "expensive"
-          ],
-          "teacher_notes": "code: \"A1-04\"\npronunciation: [{\"point\":\"Numbers and Word Stress\",\"explain\":\"Differentiate between -teen and -ty numbers using stress.\",\"examples\":[{\"pattern\":\"teen\",\"ipa\":\"/ˌθɜːˈtiːn/\",\"word\":\"thirteen\"},{\"pattern\":\"ty\",\"ipa\":\"/ˈθɜː.ti/\",\"word\":\"thirty\"},{\"pattern\":\"teen\",\"ipa\":\"/ˌfɔːˈtiːn/\",\"word\":\"fourteen\"}],\"tip\":\"The '-teen' is long and high; the '-ty' is short and low.\"}]\nspeaking: \"Discuss spending habits: what do you spend most on?\"\nlistening: \"People discussing financial habits\"\nreading: \"Short article on managing money\"\nwriting: \"Monthly budget plan in full sentences\"\ntask: \"Budget challenge: live on €1,500/month (group task)\"\ncando: \"Can discuss earning and spending habits\"\nhw: \"Write a paragraph about your financial habits\"",
-          "recycled": "Present simple: \"I work with/for/in; I am responsible for…\", \"How long does it take? / How far is it?\" + It takes / It is, busy"
-        },
-        {
-          "lesson": 5,
-          "title": "My home — renting and buying",
-          "grammar": [
-            "Have to / don't have to (obligation intro); How much does it cost?"
-          ],
-          "vocabulary": [
-            "rent",
-            "flat",
-            "landlord",
-            "tenant",
-            "neighbour",
-            "furniture",
-            "heating",
-            "bill",
-            "move",
-            "repair",
-            "clean",
-            "cook",
-            "cheap",
-            "expensive",
-            "different"
-          ],
-          "teacher_notes": "code: \"A1-05\"\npronunciation: [{\"point\":\"Vowel Sound /eɪ/ (Long A)\",\"explain\":\"Common in words like 'name' and 'station'. It's a diphthong (two sounds in one).\",\"examples\":[{\"pattern\":\"a_e\",\"ipa\":\"/neɪm/\",\"word\":\"name\"},{\"pattern\":\"ai\",\"ipa\":\"/peɪ/\",\"word\":\"pay\"},{\"pattern\":\"ay\",\"ipa\":\"/deɪ/\",\"word\":\"day\"}],\"tip\":\"Open your mouth then move your jaw up slightly.\"}]\nspeaking: \"Role-play: tenant phones landlord about a flat\"\nlistening: \"A rental enquiry phone call\"\nreading: \"A property advert\"\nwriting: \"Email to a landlord asking about a flat\"\ntask: \"Flat hunting: compare two properties and decide\"\ncando: \"Can ask about and describe a rental property\"\nhw: \"Write a short email enquiry about a flat to rent\"",
-          "recycled": "\"How long does it take? / How far is it?\" + It takes / It is, How much do you earn/spend? Present simple + object; too + adjective / enough, charge"
-        },
-        {
-          "lesson": 6,
-          "title": "Food and health — what you eat, how you feel",
-          "grammar": [
-            "Should / shouldn't for advice: \"You should eat more… / You shouldn't…\""
-          ],
-          "vocabulary": [
-            "ill",
-            "tired",
-            "headache",
-            "doctor",
-            "hospital",
-            "medicine",
-            "sleep",
-            "exercise",
-            "stress",
-            "feel",
-            "rest",
-            "recover",
-            "hurt",
-            "healthy",
-            "fit",
-            "stressed"
-          ],
-          "teacher_notes": "code: \"A1-06\"\npronunciation: [{\"point\":\"The /i:/ and /ɪ/ Sounds\",\"explain\":\"Differentiate between long 'ee' (feel) and short 'i' (ill).\",\"examples\":[{\"pattern\":\"ee\",\"ipa\":\"/fiːl/\",\"word\":\"feel\"},{\"pattern\":\"i\",\"ipa\":\"/ɪl/\",\"word\":\"ill\"},{\"pattern\":\"ea\",\"ipa\":\"/iːt/\",\"word\":\"eat\"}],\"tip\":\"Think of a 'smile' for the long /i:/ sound.\"}]\nspeaking: \"Give a partner 3 pieces of health advice\"\nlistening: \"A nutritionist giving advice\"\nreading: \"A healthy eating guide\"\nwriting: \"5 health advice sentences using should/shouldn't\"\ntask: \"Health clinic: one person describes habits, partner gives advice\"\ncando: \"Can give and receive basic health advice using should\"\nhw: \"Write a 5-tip healthy lifestyle guide\"",
-          "recycled": "How much do you earn/spend? Present simple + object; too + adjective / enough, Have to / don't have to (obligation intro); How much does it cost?, cheap"
-        },
-        {
-          "lesson": 7,
-          "title": "Technology in my life",
-          "grammar": [
-            "Present simple + adverbs of frequency + like + -ing for tech habits"
-          ],
-          "vocabulary": [
-            "phone",
-            "app",
-            "password",
-            "internet",
-            "online",
-            "screen",
-            "check",
-            "send",
-            "watch",
-            "follow",
-            "learn",
-            "free",
-            "popular"
-          ],
-          "teacher_notes": "code: \"A1-07\"\npronunciation: [{\"point\":\"Silent 'e' in Tech Words\",\"explain\":\"The final 'e' is often silent but changes the previous vowel sound.\",\"examples\":[{\"pattern\":\"_one\",\"ipa\":\"/fəʊn/\",\"word\":\"phone\"},{\"pattern\":\"_ine\",\"ipa\":\"/'ɒn.laɪn/\",\"word\":\"online\"},{\"pattern\":\"een\",\"ipa\":\"/skriːn/\",\"word\":\"screen\"}],\"tip\":\"The vowel before the consonant becomes 'long' because of the magic 'e'.\"}]\nspeaking: \"Discuss your technology habits with a partner\"\nlistening: \"People describing tech habits\"\nreading: \"A short survey on technology use\"\nwriting: \"A paragraph about your technology use\"\ntask: \"Tech debate: is your phone your best friend?\"\ncando: \"Can describe technology habits using present simple\"\nhw: \"Write: \\\"How I use technology every day\\\"\"",
-          "recycled": "Have to / don't have to (obligation intro); How much does it cost?, Should / shouldn't for advice: \"You should eat more… / You shouldn't…\", healthy"
-        },
-        {
-          "lesson": 8,
-          "title": "My interests and free time",
-          "grammar": [
-            "Love / like / enjoy / don't mind / hate / can't stand + -ing (gradable scale)"
-          ],
-          "vocabulary": [
-            "holiday",
+            "early",
+            "late",
+            "routine",
+            "habits",
             "weekend",
             "free time",
-            "friend",
-            "invitation",
-            "party",
-            "hobby",
-            "relax",
-            "enjoy",
-            "invite",
-            "celebrate",
-            "play",
-            "happy",
-            "relaxed",
-            "bored",
-            "excited",
-            "free"
+            "day off"
           ],
-          "teacher_notes": "code: \"A1-08\"\npronunciation: [{\"point\":\"The /-ing/ Ending /ŋ/\",\"explain\":\"The 'g' is not fully pronounced. It's a nasal sound made at the back of the throat.\",\"examples\":[{\"pattern\":\"ing\",\"ipa\":\"/ˈpleɪ.ɪŋ/\",\"word\":\"playing\"},{\"pattern\":\"ing\",\"ipa\":\"/ˈrɪː.dɪŋ/\",\"word\":\"reading\"},{\"pattern\":\"ing\",\"ipa\":\"/ˈkʊk.ɪŋ/\",\"word\":\"cooking\"}],\"tip\":\"Keep the back of your tongue up against the roof of your mouth.\"}]\nspeaking: \"Discuss free time preferences using the full scale\"\nlistening: \"A leisure preferences survey\"\nreading: \"A \\\"My free time\\\" blog entry\"\nwriting: \"\\\"My interests\\\" paragraph (6–8 sentences)\"\ntask: \"Interest match: find someone with the same top hobby\"\ncando: \"Can express interests with gradable opinion verbs\"\nhw: \"Write a short paragraph about your ideal weekend\"",
-          "recycled": "Should / shouldn't for advice: \"You should eat more… / You shouldn't…\", Present simple + adverbs of frequency + like + -ing for tech habits, learn"
-        },
-        {
-          "lesson": 9,
-          "title": "My neighbourhood and community",
-          "grammar": [
-            "There is/are + quantity; adjectives for opinions; comparatives review"
-          ],
-          "vocabulary": [
-            "neighbour",
-            "local",
-            "convenient",
-            "community",
-            "live",
-            "move",
-            "seem",
-            "happen",
-            "quiet",
-            "noisy",
-            "popular",
-            "special",
-            "different",
-            "similar"
-          ],
-          "teacher_notes": "code: \"A1-09\"\npronunciation: [{\"point\":\"The /v/ and /b/ Sounds\",\"explain\":\"Many learners confuse these. /v/ is a 'fricative' (vibration), /b/ is a 'plosive' (stop).\",\"examples\":[{\"pattern\":\"v\",\"ipa\":\"/'vɪl.ɪdʒ/\",\"word\":\"village\"},{\"pattern\":\"v\",\"ipa\":\"/'veɹ.i/\",\"word\":\"very\"},{\"pattern\":\"b\",\"ipa\":\"/'bɪl.dɪŋ/\",\"word\":\"building\"}],\"tip\":\"For /v/, your top teeth should touch your bottom lip.\"}]\nspeaking: \"Describe your neighbourhood to a partner\"\nlistening: \"Two people comparing neighbourhoods\"\nreading: \"A \\\"Where I live\\\" blog post\"\nwriting: \"Neighbourhood description (6 sentences)\"\ntask: \"My ideal neighbourhood: design and present\"\ncando: \"Can describe and evaluate a neighbourhood\"\nhw: \"Write a \\\"Where I live\\\" paragraph\"",
-          "recycled": "Present simple + adverbs of frequency + like + -ing for tech habits, Love / like / enjoy / don't mind / hate / can't stand + -ing (gradable scale), bored"
-        },
-        {
-          "lesson": 10,
-          "title": "Unit 1 Review — My life today",
-          "grammar": [
-            "Present simple (all forms) + should + have to + frequency + like -ing"
-          ],
-          "vocabulary": [
-            "ALL Unit 1 vocabulary",
-            "ALL Unit 1 verbs",
-            "ALL Unit 1 adjectives"
-          ],
-          "teacher_notes": "code: \"A1-10\"\nspeaking: \"Oral: describe your life today (3 minutes, all topics)\"\nlistening: \"Extended listening — 3 speakers describing their lives\"\nreading: \"Full \\\"My adult life\\\" profile\"\nwriting: \"\\\"My life today\\\" paragraph (150 words)\"\ntask: \"Speed networking: 2 min each, 3 partners\"\ncando: \"Can describe all aspects of present adult life\"\nhw: \"Portfolio: write your \\\"My Life Today\\\" profile\"",
-          "recycled": "Love / like / enjoy / don't mind / hate / can't stand + -ing (gradable scale), There is/are + quantity; adjectives for opinions; comparatives review, special"
-        }
-      ]
-    },
-    {
-      "unit": 2,
-      "title": "My Past",
-      "lessons": [
-        {
-          "lesson": 1,
-          "title": "My career story — past simple review",
-          "grammar": [
-            "Past simple: regular + irregular review + time expressions (in 2015, after that, then)"
-          ],
-          "vocabulary": [
-            "career",
-            "promotion",
-            "colleague",
-            "study",
-            "work",
-            "move",
-            "change",
-            "leave",
-            "join",
-            "start",
-            "become",
-            "different",
-            "new",
-            "old"
-          ],
-          "teacher_notes": "code: \"A1-11\"\npronunciation: [{\"point\":\"Past Simple '-ed' Endings\",\"explain\":\"The suffix '-ed' can be pronounced in three different ways: /t/, /d/, or /ɪd/.\",\"examples\":[{\"pattern\":\"worked\",\"ipa\":\"/wɜːkt/\",\"word\":\"worked\"},{\"pattern\":\"played\",\"ipa\":\"/pleɪd/\",\"word\":\"played\"},{\"pattern\":\"started\",\"ipa\":\"/ˈstɑː.tɪd/\",\"word\":\"started\"}],\"extension\":\"Use /ɪd/ only when the base verb ends in 't' or 'd'. For most others, it's just a quick /t/ or /d/ sound.\",\"visual\":\"⌚\"}]\nspeaking: \"Tell your career story in 3 minutes to a partner\"\nlistening: \"A career biography\"\nreading: \"A short professional biography\"\nwriting: \"6-sentence career history\"\ntask: \"Career timeline: draw and present your career path\"\ncando: \"Can narrate a basic career history in past simple\"\nhw: \"Write your career history as a timeline with sentences\"",
-          "recycled": "There is/are + quantity; adjectives for opinions; comparatives review, Present simple (all forms) + should + have to + frequency + like -ing, ALL Unit 1 vocabulary"
-        },
-        {
-          "lesson": 2,
-          "title": "What were you doing? — past continuous",
-          "grammar": [
-            "Past continuous: was/were + -ing; contrast with past simple (while, when)"
-          ],
-          "vocabulary": [
-            "while",
-            "when",
-            "at that moment",
-            "suddenly",
-            "happen",
-            "continue",
-            "stop",
-            "sit",
-            "stand",
-            "carry",
-            "surprised",
-            "worried"
-          ],
-          "teacher_notes": "code: \"A1-12\"\npronunciation: [{\"point\":\"Weak forms of 'was' and 'were'\",\"explain\":\"In sentences, these auxiliary verbs are usually unstressed and sound weak.\",\"examples\":[{\"pattern\":\"I was\",\"ipa\":\"/aɪ wəz/\",\"word\":\"I was working\"},{\"pattern\":\"They were\",\"ipa\":\"/ðeɪ wə/\",\"word\":\"They were talking\"}],\"extension\":\"Instead of saying 'WAZ' or 'WERE' strongly, use the schwa sound /ə/ to sound more natural.\",\"visual\":\"☁️\"}]\nspeaking: \"Tell a \\\"when it happened\\\" story using both tenses\"\nlistening: \"An eyewitness account using both tenses\"\nreading: \"A short news-style account\"\nwriting: \"3 sentences: \\\"I was ___ when ___\\\"\"\ntask: \"Alibi game: where were you, what were you doing?\"\ncando: \"Can use past continuous for an ongoing past action\"\nhw: \"Write about what you were doing yesterday at specific times\"",
-          "recycled": "Present simple (all forms) + should + have to + frequency + like -ing, Past simple: regular + irregular review + time expressions (in 2015, after that, then), different"
-        },
-        {
-          "lesson": 3,
-          "title": "I used to… — past habits and states",
-          "grammar": [
-            "Used to + infinitive for past habits and states no longer true"
-          ],
-          "vocabulary": [
-            "anymore",
-            "not anymore",
-            "in the past",
-            "these days",
-            "now",
-            "used to + any verb",
-            "different",
-            "similar"
-          ],
-          "teacher_notes": "code: \"A1-13\"\npronunciation: [{\"point\":\"The 'used to' Liaison\",\"explain\":\"The 'd' in 'used' and the 't' in 'to' blend into a single /tu/ sound.\",\"examples\":[{\"pattern\":\"used to\",\"ipa\":\"/ˈjuːs.tə/\",\"word\":\"I used to live...\"}],\"tip\":\"It sounds like 'yoos-ta'.\",\"visual\":\"🔗\"}]\nspeaking: \"Tell a partner 3 things you used to do but don't anymore\"\nlistening: \"People comparing past and present habits\"\nreading: \"A \\\"My life before and after\\\" article\"\nwriting: \"5 \\\"used to\\\" sentences comparing past and present life\"\ntask: \"Before and after: draw a timeline and present\"\ncando: \"Can describe past habits using \\\"used to\\\"\"\nhw: \"Write a paragraph: \\\"My life before and now\\\"\"",
-          "recycled": "Past simple: regular + irregular review + time expressions (in 2015, after that, then), Past continuous: was/were + -ing; contrast with past simple (while, when), carry"
+          "teacher_notes": "code: \"A1-023\"\ncando: \"Can connect routine events chronologically using sequence markers\"\nhw: \"Write a 6-sentence paragraph describing a typical weekday\"",
+          "recycled": "Present simple, Frequency adverbs: always, usually, sometimes, never, in the morning"
         },
         {
           "lesson": 4,
-          "title": "Have you ever…? — life experiences",
+          "title": "Spoken course lesson: A day in my life",
           "grammar": [
-            "Present perfect: have/has + past participle + ever/never for experience"
+            "Wh- questions in Present Simple (\"What time do you wake up?\")"
           ],
           "vocabulary": [
-            "ever",
-            "never",
-            "once",
-            "twice",
-            "many times",
-            "visit",
-            "travel",
-            "try",
-            "meet",
-            "see",
-            "eat",
-            "do",
-            "amazing",
-            "fantastic",
-            "terrible",
-            "interesting"
+            "What time do you...?",
+            "What do you usually do...?",
+            "On weekends I...",
+            "Then",
+            "After that"
           ],
-          "teacher_notes": "code: \"A1-14\"\npronunciation: [{\"point\":\"Been vs Gone\",\"explain\":\"Differentiate between these two participles in connected speech.\",\"examples\":[{\"pattern\":\"been\",\"ipa\":\"/biːn/\",\"word\":\"I've been to Paris\"},{\"pattern\":\"gone\",\"ipa\":\"/ɡɒn/\",\"word\":\"He's gone to Paris\"}],\"extension\":\"'Been' implies a return, while 'Gone' implies the person is still there. Pronunciation is clear: /iː/ vs /ɒ/.\",\"visual\":\"🛫↔️🛬\"}]\nspeaking: \"Ask a partner 5 \\\"Have you ever…?\\\" questions\"\nlistening: \"An interview about life experiences\"\nreading: \"A \\\"bucket list\\\" article\"\nwriting: \"5 sentences: \\\"I have / have never ___\\\"\"\ntask: \"\\\"Have you ever…?\\\" class survey — find someone who has\"\ncando: \"Can ask and talk about life experiences using present perfect\"\nhw: \"Write a \\\"Things I have and haven't done\\\" list with sentences\"",
-          "recycled": "Past continuous: was/were + -ing; contrast with past simple (while, when), Used to + infinitive for past habits and states no longer true, used to + any verb"
+          "teacher_notes": "code: \"A1-024\"\ncando: \"Can interview a partner about their daily schedule and present a summary\"\nhw: \"Record a monologue describing a day in your life\"",
+          "recycled": "Prepositions of time (at, in, on), Sequence words (first, then, after that, finally), weekend"
         },
         {
           "lesson": 5,
-          "title": "I have just… — recent events",
+          "title": "Unit 5 exam & review",
           "grammar": [
-            "Present perfect: just, already, yet — meaning and position"
+            "Review of Present Simple I/you/we/they, frequency adverbs, and time prepositions"
           ],
           "vocabulary": [
-            "just",
-            "already",
-            "yet",
-            "recently",
-            "this week",
-            "finish",
-            "start",
-            "hear",
-            "arrive",
-            "send",
-            "recent"
+            "routine",
+            "timetable",
+            "frequency",
+            "daily",
+            "schedule"
           ],
-          "teacher_notes": "code: \"A1-15\"\nspeaking: \"Give 3 \\\"just/already\\\" updates to a partner\"\nlistening: \"A series of short updates (\\\"I've just heard…\\\")\"\nreading: \"A news update text with just/already/yet\"\nwriting: \"5 sentences using just, already and yet\"\ntask: \"Office updates game: report news using just/already/yet\"\ncando: \"Can report recent events using just, already and yet\"\nhw: \"Write a \\\"news update\\\" paragraph about your week\"",
-          "recycled": "Used to + infinitive for past habits and states no longer true, Present perfect: have/has + past participle + ever/never for experience, fantastic"
-        },
-        {
-          "lesson": 6,
-          "title": "Since when? For how long? — duration",
-          "grammar": [
-            "Present perfect: for + period, since + point in time; How long have you…?"
-          ],
-          "vocabulary": [
-            "for",
-            "since",
-            "how long",
-            "a week",
-            "a year",
-            "last month",
-            "live",
-            "work",
-            "study",
-            "know",
-            "have",
-            "long"
-          ],
-          "teacher_notes": "code: \"A1-16\"\nspeaking: \"Ask 3 partners: \\\"How long have you worked here/lived there?\\\"\"\nlistening: \"People discussing how long they have lived/worked somewhere\"\nreading: \"A \\\"How long have you been here?\\\" magazine feature\"\nwriting: \"5 sentences about duration using for and since\"\ntask: \"Duration timeline: display your for/since facts to the class\"\ncando: \"Can ask and say how long something has been the case\"\nhw: \"Write a paragraph using for and since about your life\"",
-          "recycled": "Present perfect: have/has + past participle + ever/never for experience, Present perfect: just, already, yet — meaning and position, arrive"
-        },
-        {
-          "lesson": 7,
-          "title": "Telling a story — narrative skills",
-          "grammar": [
-            "Past simple + past continuous + present perfect (mixed past narrative)"
-          ],
-          "vocabulary": [
-            "first",
-            "then",
-            "next",
-            "after that",
-            "suddenly",
-            "in the end",
-            "finally",
-            "happen",
-            "tell",
-            "show",
-            "follow",
-            "mean",
-            "seem",
-            "surprised",
-            "excited",
-            "worried",
-            "disappointed"
-          ],
-          "teacher_notes": "code: \"A1-17\"\nspeaking: \"Tell a 2-minute personal story to a partner\"\nlistening: \"A personal narrative story (3 minutes)\"\nreading: \"A short story with mixed past tenses\"\nwriting: \"120-word story about a memorable event\"\ntask: \"Story competition: most interesting true story\"\ncando: \"Can tell a coherent personal story in the past\"\nhw: \"Write a 150-word personal narrative\"",
-          "recycled": "Present perfect: just, already, yet — meaning and position, Present perfect: for + period, since + point in time; How long have you…?, know"
-        },
-        {
-          "lesson": 8,
-          "title": "A difficult situation — problem narration",
-          "grammar": [
-            "Past tenses + wish/if only (intro): \"I wish I had…\""
-          ],
-          "vocabulary": [
-            "difficulty",
-            "challenge",
-            "decision",
-            "mistake",
-            "consequence",
-            "solution",
-            "try",
-            "manage",
-            "continue",
-            "stop",
-            "change",
-            "choose",
-            "build",
-            "difficult",
-            "wrong",
-            "correct",
-            "important"
-          ],
-          "teacher_notes": "code: \"A1-18\"\nspeaking: \"Describe a difficult situation you faced (2 minutes)\"\nlistening: \"Someone describing a difficult work situation\"\nreading: \"A problem-solution narrative\"\nwriting: \"100-word narrative about a challenge\"\ntask: \"Problem sharing: listen and give advice using \\\"you should have\\\"\"\ncando: \"Can narrate a difficult past situation\"\nhw: \"Write about a difficult situation and how you handled it\"",
-          "recycled": "Present perfect: for + period, since + point in time; How long have you…?, Past simple + past continuous + present perfect (mixed past narrative), excited"
-        },
-        {
-          "lesson": 9,
-          "title": "Reporting what people said",
-          "grammar": [
-            "Reported speech: say/tell + tense shift (present → past)"
-          ],
-          "vocabulary": [
-            "say",
-            "tell",
-            "ask",
-            "explain",
-            "mention",
-            "that"
-          ],
-          "teacher_notes": "code: \"A1-19\"\nspeaking: \"Report what a partner told you to the class\"\nlistening: \"Reported speech examples\"\nreading: \"A short article with reported quotes\"\nwriting: \"5 reported speech sentences\"\ntask: \"Telephone message relay: report what you heard\"\ncando: \"Can report what someone said using basic reported speech\"\nhw: \"Write 5 sentences reporting a recent conversation\"",
-          "recycled": "Past simple + past continuous + present perfect (mixed past narrative), Past tenses + wish/if only (intro): \"I wish I had…\", wrong"
-        },
-        {
-          "lesson": 10,
-          "title": "Unit 2 Review — My past",
-          "grammar": [
-            "Past simple, past continuous, used to, present perfect (all uses)"
-          ],
-          "vocabulary": [
-            "ALL Unit 2 vocabulary",
-            "ALL Unit 2 verbs",
-            "ALL Unit 2 adjectives"
-          ],
-          "teacher_notes": "code: \"A1-20\"\nspeaking: \"Oral: tell your \\\"life story\\\" so far (3 minutes)\"\nlistening: \"Listening test: mixed past tenses (15 items)\"\nreading: \"A full narrative text\"\nwriting: \"200-word biographical paragraph\"\ntask: \"Life story presentation to a small group\"\ncando: \"Can narrate personal history using all past forms\"\nhw: \"Portfolio: write your best personal narrative\"",
-          "recycled": "Past tenses + wish/if only (intro): \"I wish I had…\", Reported speech: say/tell + tense shift (present → past), explain"
+          "teacher_notes": "code: \"A1-025\"\ncando: \"Can demonstrate mastery of Unit 5 Present Simple routines and time expressions\"\nhw: \"Complete Unit 5 review assessment\"",
+          "recycled": "Sequence words (first, then, after that, finally), Wh- questions in Present Simple (\"What time do you wake up?\"), On weekends I..."
         }
       ]
     },
     {
-      "unit": 3,
-      "title": "My Future & Plans",
+      "unit": 6,
+      "title": "Food & drink — Eating, shopping & preferences",
       "lessons": [
         {
           "lesson": 1,
-          "title": "I'm going to change — plans and intentions",
+          "title": "Food, drink & quantities",
           "grammar": [
-            "Going to + infinitive for intention; present continuous for fixed arrangements"
+            "Countable and uncountable nouns (a/an, some, any)",
+            "How much / How many intro"
           ],
           "vocabulary": [
+            "water",
+            "tea",
+            "coffee",
+            "milk",
+            "bread",
+            "cheese",
+            "butter",
+            "eggs",
+            "meat",
+            "chicken",
+            "fish",
+            "rice",
+            "pasta",
+            "fruit",
+            "apple",
+            "banana",
+            "vegetables",
+            "tomato",
+            "sugar",
+            "salt"
+          ],
+          "teacher_notes": "code: \"A1-026\"\npronunciation: [{\"point\":\"Some/any pronunciation\",\"explain\":\"Unstressed /səm/ and /'eni/ in sentences\",\"visual\":\"🍎\"}]\ncando: \"Can list food and drink items and use some/any correctly with countables/uncountables\"\nhw: \"Categorize 15 food items into countable vs uncountable\"",
+          "recycled": "Wh- questions in Present Simple (\"What time do you wake up?\"), Review of Present Simple I/you/we/they, frequency adverbs, and time prepositions, frequency"
+        },
+        {
+          "lesson": 2,
+          "title": "Present simple — he/she/it: the third person -s rule",
+          "grammar": [
+            "Present simple: 3rd person singular",
+            "Spelling rules: -es, -ies"
+          ],
+          "vocabulary": [
+            "eats",
+            "drinks",
+            "cooks",
+            "likes",
+            "prefers",
+            "buys",
+            "wants",
+            "needs",
+            "prepares",
+            "enjoys"
+          ],
+          "teacher_notes": "code: \"A1-027\"\npronunciation: [{\"point\":\"3rd person -s endings\",\"explain\":\"/s/, /z/, /ɪz/ (e.g. cooks /s/, plays /z/, teaches /ɪz/)\",\"visual\":\"🍳\"}]\ncando: \"Can describe someone else's food habits using 3rd person Present Simple -s rules\"\nhw: \"Write 5 sentences about what a friend or family member eats and drinks\"",
+          "recycled": "Countable and uncountable nouns (a/an, some, any), How much / How many intro, tomato"
+        },
+        {
+          "lesson": 3,
+          "title": "Talking about food preferences",
+          "grammar": [
+            "Like / love / hate + noun / -ing",
+            "Adjectives for taste and food quality"
+          ],
+          "vocabulary": [
+            "delicious",
+            "tasty",
+            "fresh",
+            "sweet",
+            "salty",
+            "spicy",
+            "healthy",
+            "fast food",
+            "restaurant",
+            "menu",
+            "order",
+            "bill",
+            "pay"
+          ],
+          "teacher_notes": "code: \"A1-028\"\ncando: \"Can express likes, dislikes, and food preferences with reasons\"\nhw: \"Write 5 sentences about foods you love, like, and hate\"",
+          "recycled": "Present simple: 3rd person singular, Spelling rules: -es, -ies, needs"
+        },
+        {
+          "lesson": 4,
+          "title": "Spoken course lesson: My favourite meal",
+          "grammar": [
+            "Polite requests with \"Would like\" / \"Can I have\" in café/restaurant contexts"
+          ],
+          "vocabulary": [
+            "I would like...",
+            "Can I have...?",
+            "Anything else?",
+            "How much is it?",
+            "Delicious",
+            "Bon appetit!"
+          ],
+          "teacher_notes": "code: \"A1-029\"\ncando: \"Can order food and drink politely in a restaurant or café dialogue\"\nhw: \"Record a café ordering dialogue with a partner\"",
+          "recycled": "Like / love / hate + noun / -ing, Adjectives for taste and food quality, order"
+        },
+        {
+          "lesson": 5,
+          "title": "Unit 6 exam & review",
+          "grammar": [
+            "Review of 3rd person Present Simple, countable/uncountable, and some/any"
+          ],
+          "vocabulary": [
+            "ingredient",
+            "preference",
+            "beverage",
+            "mealtime",
+            "receipt"
+          ],
+          "teacher_notes": "code: \"A1-030\"\ncando: \"Can demonstrate mastery of Unit 6 food vocabulary, 3rd person Present Simple, and ordering phrases\"\nhw: \"Complete Unit 6 review assessment\"",
+          "recycled": "Adjectives for taste and food quality, Polite requests with \"Would like\" / \"Can I have\" in café/restaurant contexts, How much is it?"
+        }
+      ]
+    },
+    {
+      "unit": 7,
+      "title": "Work & study — Jobs, places & abilities",
+      "lessons": [
+        {
+          "lesson": 1,
+          "title": "Jobs, workplaces & study",
+          "grammar": [
+            "Indefinite articles a/an with jobs",
+            "Present Simple for professions (\"I work as a...\", \"She works in...\")"
+          ],
+          "vocabulary": [
+            "teacher",
+            "doctor",
+            "nurse",
+            "engineer",
+            "manager",
+            "programmer",
+            "driver",
+            "waiter",
+            "student",
+            "school",
+            "hospital",
+            "office",
+            "company",
+            "factory",
+            "store",
+            "university"
+          ],
+          "teacher_notes": "code: \"A1-031\"\npronunciation: [{\"point\":\"Article a/an before jobs\",\"explain\":\"a doctor /ə ˈdɒk.tə/ vs an engineer /ən ˌen.dʒɪˈnɪə/\",\"visual\":\"💼\"}]\ncando: \"Can state occupations, workplaces, and study subjects\"\nhw: \"List 10 occupations with a or an correctly applied\"",
+          "recycled": "Polite requests with \"Would like\" / \"Can I have\" in café/restaurant contexts, Review of 3rd person Present Simple, countable/uncountable, and some/any, beverage"
+        },
+        {
+          "lesson": 2,
+          "title": "Can / can't — ability and possibility",
+          "grammar": [
+            "Can / can't for ability",
+            "Infinitive after modal verbs"
+          ],
+          "vocabulary": [
+            "speak",
+            "write",
+            "read",
+            "drive",
+            "swim",
+            "cook",
+            "play piano",
+            "use computer",
+            "fix",
+            "type",
+            "speak English"
+          ],
+          "teacher_notes": "code: \"A1-032\"\npronunciation: [{\"point\":\"Can vs can't stress\",\"explain\":\"Unstressed can /kən/ vs stressed can't /kɑːnt/ or /kænt/\",\"visual\":\"💪\"}]\ncando: \"Can express physical and technical abilities using can and can't\"\nhw: \"Write 5 sentences about what you can do and 3 things you can't do\"",
+          "recycled": "Indefinite articles a/an with jobs, Present Simple for professions (\"I work as a...\", \"She works in...\"), factory"
+        },
+        {
+          "lesson": 3,
+          "title": "Talking about your job and abilities",
+          "grammar": [
+            "Work collocations (do + work, make + plans, have + meeting, take + notes)",
+            "Adjective + preposition (good at, interested in)"
+          ],
+          "vocabulary": [
+            "work hours",
+            "salary",
+            "team",
+            "colleague",
+            "meeting",
+            "project",
+            "hard",
+            "easy",
+            "interesting",
+            "boring",
+            "responsible for"
+          ],
+          "teacher_notes": "code: \"A1-033\"\ncando: \"Can describe work tasks, responsibilities, and skill sets\"\nhw: \"Write a short profile describing your job or ideal career\"",
+          "recycled": "Can / can't for ability, Infinitive after modal verbs, fix"
+        },
+        {
+          "lesson": 4,
+          "title": "Spoken course lesson: What do you do?",
+          "grammar": [
+            "Questions about work and abilities (\"What do you do?\", \"Can you...?\")"
+          ],
+          "vocabulary": [
+            "What is your job?",
+            "Where do you work?",
+            "Do you like your work?",
+            "I can...",
+            "I am good at..."
+          ],
+          "teacher_notes": "code: \"A1-034\"\ncando: \"Can discuss career, workplace, and skills during a job intro dialogue\"\nhw: \"Record a 1-minute audio response introducing your job and skills\"",
+          "recycled": "Work collocations (do + work, make + plans, have + meeting, take + notes), Adjective + preposition (good at, interested in), interesting"
+        },
+        {
+          "lesson": 5,
+          "title": "Unit 7 exam & review",
+          "grammar": [
+            "Review of can/can't, job articles, and work collocations"
+          ],
+          "vocabulary": [
+            "profession",
+            "occupation",
+            "skill",
+            "workplace",
+            "ability"
+          ],
+          "teacher_notes": "code: \"A1-035\"\ncando: \"Can demonstrate mastery of Unit 7 job vocabulary, modal can/can't, and workplace phrases\"\nhw: \"Complete Unit 7 review assessment\"",
+          "recycled": "Adjective + preposition (good at, interested in), Questions about work and abilities (\"What do you do?\", \"Can you...?\"), Do you like your work?"
+        }
+      ]
+    },
+    {
+      "unit": 8,
+      "title": "My city — Places, transport & directions",
+      "lessons": [
+        {
+          "lesson": 1,
+          "title": "Places in a city & transport",
+          "grammar": [
+            "Prepositions of motion & direction (to, from, across, past, through)"
+          ],
+          "vocabulary": [
+            "bank",
+            "supermarket",
+            "pharmacy",
+            "hospital",
+            "school",
+            "park",
+            "museum",
+            "station",
+            "airport",
+            "bus",
+            "train",
+            "taxi",
+            "car",
+            "bicycle",
+            "walk"
+          ],
+          "teacher_notes": "code: \"A1-036\"\npronunciation: [{\"point\":\"Compound noun stress in city places\",\"explain\":\"SUPER-market, BUS stop, TRAIN station\",\"visual\":\"🚌\"}]\ncando: \"Can identify city locations and modes of transport\"\nhw: \"Draw a neighborhood map and label 8 public places\"",
+          "recycled": "Questions about work and abilities (\"What do you do?\", \"Can you...?\"), Review of can/can't, job articles, and work collocations, skill"
+        },
+        {
+          "lesson": 2,
+          "title": "Imperatives & directions + question words review",
+          "grammar": [
+            "Imperatives",
+            "Question words: What/Where/Who/When/How..."
+          ],
+          "vocabulary": [
+            "turn left",
+            "turn right",
+            "go straight ahead",
+            "stop",
+            "cross the street",
+            "next to",
+            "opposite",
+            "near",
+            "far",
+            "Excuse me"
+          ],
+          "teacher_notes": "code: \"A1-037\"\npronunciation: [{\"point\":\"Directional imperative intonation\",\"explain\":\"Clear, decisive stress on verb and direction (Turn LEFT, Go STRAIGHT)\",\"visual\":\"🗺️\"}]\ncando: \"Can give and follow simple directional instructions using imperatives\"\nhw: \"Write directions from your house to the nearest bus stop\"",
+          "recycled": "Review of can/can't, job articles, and work collocations, Prepositions of motion & direction (to, from, across, past, through), car"
+        },
+        {
+          "lesson": 3,
+          "title": "Getting around the city",
+          "grammar": [
+            "How much does it cost? / How far is it? / How long does it take?",
+            "Modal verbs for travel info"
+          ],
+          "vocabulary": [
+            "ticket",
+            "bus stop",
+            "platform",
+            "map",
+            "lost",
+            "schedule",
+            "arrival",
+            "departure",
+            "fare",
+            "cost"
+          ],
+          "teacher_notes": "code: \"A1-038\"\ncando: \"Can inquire about transport prices, travel times, and ticket purchases\"\nhw: \"Write a 5-exchange dialogue buying a train ticket\"",
+          "recycled": "Imperatives, Question words: What/Where/Who/When/How..., near"
+        },
+        {
+          "lesson": 4,
+          "title": "Spoken course lesson: Getting around",
+          "grammar": [
+            "Functional dialogue language for asking and giving directions politely"
+          ],
+          "vocabulary": [
+            "Excuse me, how do I get to...?",
+            "Is it near here?",
+            "Take the first turning on the right",
+            "Thank you very much!"
+          ],
+          "teacher_notes": "code: \"A1-039\"\ncando: \"Can perform spoken direction-asking dialogues with natural fluency\"\nhw: \"Record a directions dialogue roleplay\"",
+          "recycled": "How much does it cost? / How far is it? / How long does it take?, Modal verbs for travel info, departure"
+        },
+        {
+          "lesson": 5,
+          "title": "Unit 8 exam & review",
+          "grammar": [
+            "Review of imperatives, prepositions of movement, and city question forms"
+          ],
+          "vocabulary": [
+            "transport",
+            "direction",
+            "route",
+            "destination",
+            "intersection"
+          ],
+          "teacher_notes": "code: \"A1-040\"\ncando: \"Can demonstrate mastery of Unit 8 city places, transport terms, and direction imperatives\"\nhw: \"Complete Unit 8 review assessment\"",
+          "recycled": "Modal verbs for travel info, Functional dialogue language for asking and giving directions politely, Is it near here?"
+        }
+      ]
+    },
+    {
+      "unit": 9,
+      "title": "Free time — Hobbies, sports & opinions",
+      "lessons": [
+        {
+          "lesson": 1,
+          "title": "Hobbies, sports & expressing opinions",
+          "grammar": [
+            "Love / like / enjoy / don't mind / hate + -ing",
+            "Gradable scale of interest"
+          ],
+          "vocabulary": [
+            "reading",
+            "cooking",
+            "painting",
+            "dancing",
+            "travelling",
+            "music",
+            "cinema",
+            "football",
+            "swimming",
+            "tennis",
+            "gaming",
+            "photo",
+            "guitar"
+          ],
+          "teacher_notes": "code: \"A1-041\"\npronunciation: [{\"point\":\"-ing suffix pronunciation\",\"explain\":\"Soft /ɪŋ/ ending without hard /ɡ/ sound\",\"visual\":\"⚽\"}]\ncando: \"Can talk about hobbies and sports using verb + -ing forms\"\nhw: \"Write 5 sentences about your hobbies using love, like, don't mind, hate\"",
+          "recycled": "Functional dialogue language for asking and giving directions politely, Review of imperatives, prepositions of movement, and city question forms, route"
+        },
+        {
+          "lesson": 2,
+          "title": "Present continuous — am/is/are + -ing",
+          "grammar": [
+            "Present continuous",
+            "Present simple vs continuous contrast"
+          ],
+          "vocabulary": [
+            "now",
+            "at the moment",
+            "today",
+            "right now",
+            "playing",
+            "reading",
+            "listening",
+            "watching",
+            "doing",
+            "working",
+            "sleeping"
+          ],
+          "teacher_notes": "code: \"A1-042\"\npronunciation: [{\"point\":\"Auxiliary be in Present Continuous\",\"explain\":\"I'm working, She's reading, They're playing\",\"visual\":\"📸\"}]\ncando: \"Can describe actions happening right now using Present Continuous\"\nhw: \"Look out the window and write 5 sentences about what people are doing now\"",
+          "recycled": "Love / like / enjoy / don't mind / hate + -ing, Gradable scale of interest, gaming"
+        },
+        {
+          "lesson": 3,
+          "title": "Talking about hobbies and what you're doing",
+          "grammar": [
+            "Present Simple (habits) vs Present Continuous (now) contrast",
+            "Connecting words (because, so, but)"
+          ],
+          "vocabulary": [
+            "fun",
+            "exciting",
+            "relaxing",
+            "active",
+            "outdoor",
+            "indoor",
+            "team",
+            "fan",
+            "match",
+            "competition"
+          ],
+          "teacher_notes": "code: \"A1-043\"\ncando: \"Can distinguish between routine hobbies and immediate activities in discourse\"\nhw: \"Write 4 contrast sentences (e.g., I usually play tennis, but today I am swimming)\"",
+          "recycled": "Present continuous, Present simple vs continuous contrast, doing"
+        },
+        {
+          "lesson": 4,
+          "title": "Spoken course lesson: What do you do for fun?",
+          "grammar": [
+            "Basic opinion phrases (\"I think that...\", \"In my opinion...\")"
+          ],
+          "vocabulary": [
+            "What are your hobbies?",
+            "What do you do in your free time?",
+            "I think...",
+            "In my opinion...",
+            "Do you agree?"
+          ],
+          "teacher_notes": "code: \"A1-044\"\ncando: \"Can exchange opinions on hobbies and leisure activities in conversation\"\nhw: \"Record a 1-minute audio discussing your favorite hobbies\"",
+          "recycled": "Present Simple (habits) vs Present Continuous (now) contrast, Connecting words (because, so, but), fan"
+        },
+        {
+          "lesson": 5,
+          "title": "Unit 9 exam & review",
+          "grammar": [
+            "Review of Present Continuous, like + -ing, and opinion structures"
+          ],
+          "vocabulary": [
+            "hobby",
+            "recreation",
+            "leisure",
+            "activity",
+            "opinion"
+          ],
+          "teacher_notes": "code: \"A1-045\"\ncando: \"Can demonstrate mastery of Unit 9 hobbies, Present Continuous, and opinion phrases\"\nhw: \"Complete Unit 9 review assessment\"",
+          "recycled": "Connecting words (because, so, but), Basic opinion phrases (\"I think that...\", \"In my opinion...\"), I think..."
+        }
+      ]
+    },
+    {
+      "unit": 10,
+      "title": "Past & plans — Revision, future & telling your story",
+      "lessons": [
+        {
+          "lesson": 1,
+          "title": "Past time expressions & past simple of \"to be\"",
+          "grammar": [
+            "Was / were",
+            "Past time expressions (yesterday, last week, ago, in 2020)"
+          ],
+          "vocabulary": [
+            "yesterday",
+            "last night",
+            "last week",
+            "last year",
+            "ago",
+            "in 2020",
+            "was",
+            "were",
+            "wasn't",
+            "weren't",
+            "born",
+            "childhood"
+          ],
+          "teacher_notes": "code: \"A1-046\"\npronunciation: [{\"point\":\"Was vs Were pronunciation\",\"explain\":\"Was /wɒz/ or /wəz/, Were /wɜː/ or /wə/\",\"visual\":\"⏳\"}]\ncando: \"Can talk about past states, dates, and locations using was/were\"\nhw: \"Write 5 sentences about where you were yesterday and last week\"",
+          "recycled": "Basic opinion phrases (\"I think that...\", \"In my opinion...\"), Review of Present Continuous, like + -ing, and opinion structures, leisure"
+        },
+        {
+          "lesson": 2,
+          "title": "Past Simple (regular & common irregular verbs)",
+          "grammar": [
+            "Past Simple affirmative, negative (didn't) & questions (Did you...?)",
+            "Time expressions for completed past events"
+          ],
+          "vocabulary": [
+            "worked",
+            "lived",
+            "studied",
+            "visited",
+            "went",
+            "came",
+            "had",
+            "bought",
+            "saw",
+            "did",
+            "made",
+            "took",
+            "met"
+          ],
+          "teacher_notes": "code: \"A1-047\"\npronunciation: [{\"point\":\"Past simple -ed pronunciation\",\"explain\":\"/t/ worked, /d/ lived, /ɪd/ visited\",\"visual\":\"📖\"}]\ncando: \"Can narrate completed past events using Past Simple regular and irregular verbs\"\nhw: \"Write a 5-sentence diary entry about what you did yesterday\"",
+          "recycled": "Was / were, Past time expressions (yesterday, last week, ago, in 2020), weren't"
+        },
+        {
+          "lesson": 3,
+          "title": "Future plans with \"be going to\" & \"will\" intro",
+          "grammar": [
+            "Going to for future plans",
+            "Will for spontaneous decisions / future predictions intro"
+          ],
+          "vocabulary": [
+            "tomorrow",
+            "next week",
+            "next month",
+            "next year",
+            "future",
             "plan",
             "intention",
-            "goal",
-            "next year",
-            "soon",
-            "eventually",
-            "decide",
-            "change",
-            "move",
-            "start",
-            "save",
+            "decision",
+            "hope",
             "travel",
-            "different",
-            "exciting",
-            "possible"
+            "study"
           ],
-          "teacher_notes": "code: \"A1-21\"\nspeaking: \"Tell a partner your top 3 plans for the next 6 months\"\nlistening: \"People discussing future plans\"\nreading: \"A \\\"My goals for next year\\\" article\"\nwriting: \"\\\"My plans\\\" paragraph (5–6 sentences)\"\ntask: \"Goal-setting workshop: share and compare plans\"\ncando: \"Can describe future plans and intentions using going to\"\nhw: \"Write your top 5 goals for the next year\"",
-          "recycled": "Reported speech: say/tell + tense shift (present → past), Past simple, past continuous, used to, present perfect (all uses), ALL Unit 2 vocabulary"
-        },
-        {
-          "lesson": 2,
-          "title": "It will be… — predictions and decisions",
-          "grammar": [
-            "Will: predictions and spontaneous decisions; contrast with going to"
-          ],
-          "vocabulary": [
-            "probably",
-            "definitely",
-            "perhaps",
-            "maybe",
-            "I think",
-            "will + any verb",
-            "possible",
-            "impossible",
-            "certain",
-            "necessary"
-          ],
-          "teacher_notes": "code: \"A1-22\"\nspeaking: \"Make 3 predictions about your life in 5 years\"\nlistening: \"Someone making predictions about their future\"\nreading: \"A short prediction article\"\nwriting: \"5 will sentences (predictions + spontaneous decisions)\"\ntask: \"Future prediction game: class makes predictions\"\ncando: \"Can use will for predictions and spontaneous decisions\"\nhw: \"Write a paragraph: \\\"My life in 10 years\\\"\"",
-          "recycled": "Past simple, past continuous, used to, present perfect (all uses), Going to + infinitive for intention; present continuous for fixed arrangements, different"
-        },
-        {
-          "lesson": 3,
-          "title": "What are you doing on Friday? — arrangements",
-          "grammar": [
-            "Present continuous for fixed future arrangements"
-          ],
-          "vocabulary": [
-            "appointment",
-            "diary",
-            "available",
-            "schedule",
-            "arrange",
-            "confirm",
-            "meet",
-            "book",
-            "cancel",
-            "miss",
-            "arrive",
-            "busy",
-            "free"
-          ],
-          "teacher_notes": "code: \"A1-23\"\nspeaking: \"Discuss what you are doing next week with a partner\"\nlistening: \"A diary being discussed\"\nreading: \"A diary for next week\"\nwriting: \"Your schedule for next week in full sentences\"\ntask: \"Diary clash: find a time when everyone is free\"\ncando: \"Can talk about fixed future arrangements\"\nhw: \"Write an email confirming a future appointment\"",
-          "recycled": "Going to + infinitive for intention; present continuous for fixed arrangements, Will: predictions and spontaneous decisions; contrast with going to, impossible"
+          "teacher_notes": "code: \"A1-048\"\npronunciation: [{\"point\":\"Going to reduction\",\"explain\":\"Going to -> /ˈɡən.ə/ in casual spoken speech\",\"visual\":\"🔮\"}]\ncando: \"Can articulate future plans and personal intentions using be going to\"\nhw: \"Write 5 sentences about your plans for next weekend and next year\"",
+          "recycled": "Past Simple affirmative, negative (didn't) & questions (Did you...?), Time expressions for completed past events, made"
         },
         {
           "lesson": 4,
-          "title": "If you work hard… — real conditions",
+          "title": "Spoken course lesson: My life story",
           "grammar": [
-            "First conditional: if + present simple + will"
+            "Telling your story — past, present and future (combining tenses)"
           ],
           "vocabulary": [
-            "if",
-            "unless",
-            "when",
-            "as soon as",
-            "result",
-            "condition",
-            "will + any verb",
-            "possible",
-            "necessary",
-            "important"
+            "First",
+            "then",
+            "after that",
+            "now",
+            "in the future",
+            "my dream is...",
+            "I want to...",
+            "I plan to..."
           ],
-          "teacher_notes": "code: \"A1-24\"\nspeaking: \"Give 3 pieces of advice using first conditionals\"\nlistening: \"Advice using first conditionals\"\nreading: \"A \\\"success tips\\\" article with conditionals\"\nwriting: \"5 first conditional sentences\"\ntask: \"Conditional advice clinic: give real advice\"\ncando: \"Can use first conditional for real situations\"\nhw: \"Write 5 first conditional sentences about career decisions\"",
-          "recycled": "Will: predictions and spontaneous decisions; contrast with going to, Present continuous for fixed future arrangements, arrive"
+          "teacher_notes": "code: \"A1-049\"\ncando: \"Can synthesize past background, current routine, and future goals in a coherent personal story\"\nhw: \"Record a 2-minute personal story video or audio recording\"",
+          "recycled": "Going to for future plans, Will for spontaneous decisions / future predictions intro, hope"
         },
         {
           "lesson": 5,
-          "title": "What would you do? — imagined situations",
+          "title": "A1 Final Comprehensive Exam & Level Certification",
           "grammar": [
-            "Second conditional (intro): if + past + would; \"I would love to / If I had…\""
+            "Comprehensive review of all A1 grammar (To be, Present Simple, Present Continuous, Past Simple, Going to, Modals, Possessives)"
           ],
           "vocabulary": [
-            "ideal",
-            "imagine",
-            "dream",
-            "wish",
-            "would",
-            "would + any verb",
-            "amazing",
-            "different"
+            "review",
+            "summary",
+            "certification",
+            "achievement",
+            "progress"
           ],
-          "teacher_notes": "code: \"A1-25\"\nspeaking: \"Discuss: \\\"What would you do if you won €100,000?\\\"\"\nlistening: \"Someone describing their dream job\"\nreading: \"A \\\"What would you do if…?\\\" magazine feature\"\nwriting: \"3 second conditional sentences about dreams\"\ntask: \"Dream job pitch: if I could do any job, I would…\"\ncando: \"Can use second conditional for imagined situations\"\nhw: \"Write a paragraph about your ideal life\"",
-          "recycled": "Present continuous for fixed future arrangements, First conditional: if + present simple + will, possible"
-        },
-        {
-          "lesson": 6,
-          "title": "Making decisions — comparing options",
-          "grammar": [
-            "Comparatives and superlatives (extended); \"It is better to… / the best option is…\""
-          ],
-          "vocabulary": [
-            "option",
-            "choice",
-            "pro",
-            "con",
-            "advantage",
-            "disadvantage",
-            "worth",
-            "choose",
-            "decide",
-            "compare",
-            "prefer",
-            "better",
-            "best",
-            "worse",
-            "worst",
-            "more/less + adj"
-          ],
-          "teacher_notes": "code: \"A1-26\"\nspeaking: \"Compare two career paths or cities using comparatives\"\nlistening: \"People comparing two options\"\nreading: \"A pros/cons article\"\nwriting: \"A pros and cons list as full sentences\"\ntask: \"Decision debate: buy or rent? Remote or office?\"\ncando: \"Can compare options and justify a decision\"\nhw: \"Write a 100-word pros and cons analysis\"",
-          "recycled": "First conditional: if + present simple + will, Second conditional (intro): if + past + would; \"I would love to / If I had…\", would + any verb"
-        },
-        {
-          "lesson": 7,
-          "title": "What should I do? — giving advice",
-          "grammar": [
-            "Should/shouldn't; \"Why don't you + infinitive\"; imperative for strong advice"
-          ],
-          "vocabulary": [
-            "advice",
-            "idea",
-            "suggestion",
-            "problem",
-            "solution",
-            "option",
-            "suggest",
-            "recommend",
-            "advise",
-            "try",
-            "think about",
-            "good",
-            "bad",
-            "useful",
-            "important"
-          ],
-          "teacher_notes": "code: \"A1-27\"\nspeaking: \"Role-play: give advice to someone about a problem\"\nlistening: \"A radio advice programme\"\nreading: \"A problem page with advice column\"\nwriting: \"A reply to a problem page letter\"\ntask: \"Advice circle: each person presents a problem, others advise\"\ncando: \"Can ask for and give advice in real adult contexts\"\nhw: \"Write a letter of advice to a friend with a problem\"",
-          "recycled": "Second conditional (intro): if + past + would; \"I would love to / If I had…\", Comparatives and superlatives (extended); \"It is better to… / the best option is…\", worse"
-        },
-        {
-          "lesson": 8,
-          "title": "I need to… — obligation and necessity",
-          "grammar": [
-            "Need to / must / have to — necessity; mustn't for prohibition"
-          ],
-          "vocabulary": [
-            "urgent",
-            "deadline",
-            "required",
-            "necessary",
-            "compulsory",
-            "need to",
-            "must",
-            "have to",
-            "mustn't",
-            "important"
-          ],
-          "teacher_notes": "code: \"A1-28\"\nspeaking: \"Discuss: what do you need to do this week?\"\nlistening: \"Work instructions using obligation verbs\"\nreading: \"A workplace rules document\"\nwriting: \"A list of 5 things you must do this week\"\ntask: \"Work priorities task: rank what must be done today\"\ncando: \"Can express obligation and necessity using modal verbs\"\nhw: \"Write a to-do list with modal verbs for each item\"",
-          "recycled": "Comparatives and superlatives (extended); \"It is better to… / the best option is…\", Should/shouldn't; \"Why don't you + infinitive\"; imperative for strong advice, bad"
-        },
-        {
-          "lesson": 9,
-          "title": "Making requests and offers",
-          "grammar": [
-            "Could you / Would you mind -ing / Shall I… / Would you like me to…"
-          ],
-          "vocabulary": [
-            "request",
-            "offer",
-            "favour",
-            "appreciate",
-            "mind",
-            "wonder",
-            "could",
-            "would",
-            "shall",
-            "polite",
-            "formal",
-            "informal"
-          ],
-          "teacher_notes": "code: \"A1-29\"\nspeaking: \"Practise 3 polite requests with a partner\"\nlistening: \"Formal and informal request dialogues\"\nreading: \"A series of emails making requests\"\nwriting: \"A formal email with 2 polite requests\"\ntask: \"Office role-play: chain of requests at work\"\ncando: \"Can make and respond to polite requests\"\nhw: \"Write a formal email making 3 polite requests\"",
-          "recycled": "Should/shouldn't; \"Why don't you + infinitive\"; imperative for strong advice, Need to / must / have to — necessity; mustn't for prohibition, have to"
-        },
-        {
-          "lesson": 10,
-          "title": "Unit 3 Review — My future",
-          "grammar": [
-            "Going to, will, present continuous (future), first + second conditional, should, must"
-          ],
-          "vocabulary": [
-            "ALL Unit 3 vocabulary",
-            "ALL Unit 3 verbs",
-            "ALL Unit 3 adjectives"
-          ],
-          "teacher_notes": "code: \"A1-30\"\nspeaking: \"Oral: describe future plans and give someone advice (3 min)\"\nlistening: \"Listening test: future language (15 items)\"\nreading: \"A \\\"My plans for the future\\\" article\"\nwriting: \"\\\"My future plans\\\" essay (200 words)\"\ntask: \"Future planning simulation: life at 50\"\ncando: \"Can discuss the future using all A1 future structures\"\nhw: \"Portfolio: write \\\"My plans for the next 5 years\\\"\"",
-          "recycled": "Need to / must / have to — necessity; mustn't for prohibition, Could you / Would you mind -ing / Shall I… / Would you like me to…, polite"
-        }
-      ]
-    },
-    {
-      "unit": 4,
-      "title": "My World",
-      "lessons": [
-        {
-          "lesson": 1,
-          "title": "Describing people — personality in depth",
-          "grammar": [
-            "Adjective + preposition: good at, bad at, interested in, worried about"
-          ],
-          "vocabulary": [
-            "reliable",
-            "organised",
-            "ambitious",
-            "creative",
-            "sensitive",
-            "tolerant",
-            "stubborn",
-            "generous",
-            "seem",
-            "appear",
-            "become",
-            "confident",
-            "friendly",
-            "honest",
-            "patient"
-          ],
-          "teacher_notes": "code: \"A1-31\"\nspeaking: \"Describe 3 people you know using 3 adjectives each\"\nlistening: \"Descriptions of colleagues\"\nreading: \"A character sketch\"\nwriting: \"100-word character description\"\ntask: \"Ideal colleague: build a profile together\"\ncando: \"Can describe personality with adjectives and prepositions\"\nhw: \"Write a description of your ideal manager\"",
-          "recycled": "Could you / Would you mind -ing / Shall I… / Would you like me to…, Going to, will, present continuous (future), first + second conditional, should, must, ALL Unit 3 vocabulary"
-        },
-        {
-          "lesson": 2,
-          "title": "The person who… — relative clauses",
-          "grammar": [
-            "Defining relative clauses: who (people), which/that (things), where (places)"
-          ],
-          "vocabulary": [
-            "who",
-            "which",
-            "that",
-            "where",
-            "the one who",
-            "the place where",
-            "define",
-            "describe",
-            "special",
-            "useful",
-            "important"
-          ],
-          "teacher_notes": "code: \"A1-32\"\nspeaking: \"Define 5 words using \\\"it is something that/which…\\\"\"\nlistening: \"Relative clauses in descriptions\"\nreading: \"A text rich in relative clauses\"\nwriting: \"5 sentences with relative clauses\"\ntask: \"Definition game: describe a word using a relative clause\"\ncando: \"Can use defining relative clauses to describe people and things\"\nhw: \"Write 5 descriptions using relative clauses\"",
-          "recycled": "Going to, will, present continuous (future), first + second conditional, should, must, Adjective + preposition: good at, bad at, interested in, worried about, friendly"
-        },
-        {
-          "lesson": 3,
-          "title": "Agreeing and discussing — question tags",
-          "grammar": [
-            "Question tags: positive statement → negative tag; negative → positive"
-          ],
-          "vocabulary": [
-            "exactly",
-            "absolutely",
-            "I agree",
-            "that's true",
-            "isn't it",
-            "don't you",
-            "agree",
-            "disagree",
-            "think",
-            "right",
-            "wrong"
-          ],
-          "teacher_notes": "code: \"A1-33\"\nspeaking: \"Practise agreeing and using tags with a partner\"\nlistening: \"Natural conversation with question tags\"\nreading: \"A dialogue with agreement markers\"\nwriting: \"5 sentences with appropriate question tags\"\ntask: \"Discussion: agree or disagree with 5 statements\"\ncando: \"Can use question tags in natural conversation\"\nhw: \"Write a dialogue that includes 4 question tags\"",
-          "recycled": "Adjective + preposition: good at, bad at, interested in, worried about, Defining relative clauses: who (people), which/that (things), where (places), special"
-        },
-        {
-          "lesson": 4,
-          "title": "Could you tell me…? — indirect questions",
-          "grammar": [
-            "Indirect questions: statement word order after question intro"
-          ],
-          "vocabulary": [
-            "I wonder if",
-            "do you know",
-            "I'd like to know",
-            "could you tell me",
-            "wonder",
-            "know",
-            "tell",
-            "explain",
-            "polite",
-            "formal"
-          ],
-          "teacher_notes": "code: \"A1-34\"\nspeaking: \"Practise 4 indirect questions in a role-play\"\nlistening: \"Polite professional enquiries\"\nreading: \"A formal email with indirect questions\"\nwriting: \"4 indirect question forms\"\ntask: \"Information request at work or a service\"\ncando: \"Can use indirect questions for polite professional communication\"\nhw: \"Write an email using 3 indirect questions\"",
-          "recycled": "Defining relative clauses: who (people), which/that (things), where (places), Question tags: positive statement → negative tag; negative → positive, think"
-        },
-        {
-          "lesson": 5,
-          "title": "What do you think? — opinions and discussions",
-          "grammar": [
-            "Opinion phrases: \"I think/believe that + clause\"; agreeing/disagreeing"
-          ],
-          "vocabulary": [
-            "opinion",
-            "view",
-            "perspective",
-            "I think",
-            "I believe",
-            "personally",
-            "in my opinion",
-            "think",
-            "believe",
-            "feel",
-            "agree",
-            "disagree",
-            "important",
-            "interesting",
-            "different",
-            "similar"
-          ],
-          "teacher_notes": "code: \"A1-35\"\nspeaking: \"Give your opinion on 3 topics to a partner\"\nlistening: \"A short discussion with opinions\"\nreading: \"An opinion piece\"\nwriting: \"100-word opinion paragraph\"\ntask: \"Class opinion poll: vote and justify\"\ncando: \"Can express and justify an opinion\"\nhw: \"Write a 100-word opinion on a topic of your choice\"",
-          "recycled": "Question tags: positive statement → negative tag; negative → positive, Indirect questions: statement word order after question intro, explain"
-        },
-        {
-          "lesson": 6,
-          "title": "Talking about culture — customs and norms",
-          "grammar": [
-            "Present simple for general truths; \"It is + adjective + to + infinitive\""
-          ],
-          "vocabulary": [
-            "custom",
-            "tradition",
-            "norm",
-            "polite",
-            "rude",
-            "different",
-            "common",
-            "respect",
-            "follow",
-            "understand",
-            "compare",
-            "normal",
-            "strange"
-          ],
-          "teacher_notes": "code: \"A1-36\"\nspeaking: \"Compare cultural norms at work with a partner\"\nlistening: \"People comparing cultural norms\"\nreading: \"A short cultural comparison text\"\nwriting: \"5 sentences about cultural norms in your country\"\ntask: \"Cultural differences discussion: is it polite to…?\"\ncando: \"Can discuss cultural norms and compare customs\"\nhw: \"Write a short guide to your country's work culture\"",
-          "recycled": "Indirect questions: statement word order after question intro, Opinion phrases: \"I think/believe that + clause\"; agreeing/disagreeing, interesting"
-        },
-        {
-          "lesson": 7,
-          "title": "A community event — social English",
-          "grammar": [
-            "Inviting: \"Would you like to…?\" / \"Could you come to…?\" Accepting/declining politely"
-          ],
-          "vocabulary": [
-            "invitation",
-            "celebration",
-            "RSVP",
-            "event",
-            "arrange",
-            "accept",
-            "decline",
-            "invite",
-            "celebrate",
-            "meet",
-            "join",
-            "free",
-            "busy",
-            "available",
-            "sorry"
-          ],
-          "teacher_notes": "code: \"A1-37\"\nspeaking: \"Role-play: invite and respond to 3 different events\"\nlistening: \"Social invitation conversations\"\nreading: \"An invitation and two replies (accept + decline)\"\nwriting: \"A formal invitation and an informal one\"\ntask: \"Event planning simulation: organise a work event\"\ncando: \"Can invite, accept and decline invitations\"\nhw: \"Write a formal invitation and a polite decline\"",
-          "recycled": "Opinion phrases: \"I think/believe that + clause\"; agreeing/disagreeing, Present simple for general truths; \"It is + adjective + to + infinitive\", compare"
-        },
-        {
-          "lesson": 8,
-          "title": "On the phone — telephone English",
-          "grammar": [
-            "Formal telephone phrases; modal verbs for politeness (could, would)"
-          ],
-          "vocabulary": [
-            "hold on",
-            "put through",
-            "leave a message",
-            "call back",
-            "available",
-            "speaking",
-            "call",
-            "phone",
-            "hold",
-            "leave",
-            "busy",
-            "urgent"
-          ],
-          "teacher_notes": "code: \"A1-38\"\nspeaking: \"Role-play: 3 different phone situations\"\nlistening: \"3 telephone conversations\"\nreading: \"Phone message scripts\"\nwriting: \"A phone message from dictation\"\ntask: \"Phone relay: message passed through 3 people\"\ncando: \"Can make and receive professional phone calls\"\nhw: \"Write a script for a professional phone call\"",
-          "recycled": "Present simple for general truths; \"It is + adjective + to + infinitive\", Inviting: \"Would you like to…?\" / \"Could you come to…?\" Accepting/declining politely, busy"
-        },
-        {
-          "lesson": 9,
-          "title": "Writing an email — formal and informal",
-          "grammar": [
-            "Formal vs informal register; tenses in emails (present + past + future)"
-          ],
-          "vocabulary": [
-            "subject",
-            "salutation",
-            "closing",
-            "attached",
-            "regarding",
-            "sincerely",
-            "kind regards",
-            "write",
-            "reply",
-            "attach",
-            "send",
-            "thank",
-            "formal",
-            "informal",
-            "polite"
-          ],
-          "teacher_notes": "code: \"A1-39\"\nspeaking: \"Discuss: what makes an email professional?\"\nlistening: \"An email being read aloud\"\nreading: \"Formal vs informal emails — compare\"\nwriting: \"A formal and informal version of the same email\"\ntask: \"Email correction challenge: fix 6 register errors\"\ncando: \"Can write a simple formal and informal email\"\nhw: \"Write a formal email and an informal one on the same topic\"",
-          "recycled": "Inviting: \"Would you like to…?\" / \"Could you come to…?\" Accepting/declining politely, Formal telephone phrases; modal verbs for politeness (could, would), leave"
-        },
-        {
-          "lesson": 10,
-          "title": "Unit 4 Review — Relationships and communication",
-          "grammar": [
-            "Relative clauses, question tags, indirect questions, opinion phrases, modal verbs"
-          ],
-          "vocabulary": [
-            "ALL Unit 4 vocabulary",
-            "ALL Unit 4 verbs",
-            "ALL Unit 4 adjectives"
-          ],
-          "teacher_notes": "code: \"A1-40\"\nspeaking: \"Role-play simulation: 3 workplace communication scenarios\"\nlistening: \"Extended listening: social and professional dialogues\"\nreading: \"A full social/professional text\"\nwriting: \"150-word professional email\"\ntask: \"Communication challenge: all Unit 4 skills in one task\"\ncando: \"Can communicate naturally in social and professional adult contexts\"\nhw: \"Portfolio: best email + description\"",
-          "recycled": "Formal telephone phrases; modal verbs for politeness (could, would), Formal vs informal register; tenses in emails (present + past + future), formal"
-        }
-      ]
-    },
-    {
-      "unit": 5,
-      "title": "Mastery & Extension",
-      "lessons": [
-        {
-          "lesson": 1,
-          "title": "My opinions on the world — discussion topics",
-          "grammar": [
-            "Mixed A1 grammar in discussion; because + connectors: however, so, but"
-          ],
-          "vocabulary": [
-            "environment",
-            "relationship",
-            "health",
-            "opinion",
-            "reason",
-            "because",
-            "discuss",
-            "debate",
-            "argue",
-            "agree",
-            "disagree",
-            "think",
-            "important",
-            "interesting",
-            "difficult",
-            "necessary"
-          ],
-          "teacher_notes": "code: \"A1-41\"\nspeaking: \"Discuss 2 topics using opinion language\"\nlistening: \"A short radio discussion (3 speakers)\"\nreading: \"A short opinion article\"\nwriting: \"100-word opinion paragraph on a topic\"\ntask: \"Class debate on a simple real-world topic\"\ncando: \"Can discuss real-world topics at A1 with simple opinions\"\nhw: \"Write a 120-word opinion on a topic you care about\"",
-          "recycled": "Formal vs informal register; tenses in emails (present + past + future), Relative clauses, question tags, indirect questions, opinion phrases, modal verbs, ALL Unit 4 vocabulary"
-        },
-        {
-          "lesson": 2,
-          "title": "Real conversations — fluency practice",
-          "grammar": [
-            "Review of all A1 grammar through fluency tasks"
-          ],
-          "vocabulary": [
-            "well",
-            "actually",
-            "you know",
-            "I mean",
-            "kind of",
-            "sort of",
-            "by the way",
-            "ALL A1 verbs in natural speech",
-            "ALL A1 adjectives in natural speech"
-          ],
-          "teacher_notes": "code: \"A1-42\"\nspeaking: \"Extended conversation: 5 minutes on a topic\"\nlistening: \"Authentic short conversations (TV/radio extract)\"\nreading: \"A full dialogue — analyse and discuss\"\nwriting: \"Self-record a 2-minute monologue\"\ntask: \"Partner feedback: fluency, grammar, vocabulary\"\ncando: \"Can maintain a short extended conversation at A1\"\nhw: \"Write a script and then speak without reading it\"",
-          "recycled": "Relative clauses, question tags, indirect questions, opinion phrases, modal verbs, Mixed A1 grammar in discussion; because + connectors: however, so, but, interesting"
-        },
-        {
-          "lesson": 3,
-          "title": "Building vocabulary — word families and collocations",
-          "grammar": [
-            "Collocations: do + noun, make + noun, have + noun, take + noun"
-          ],
-          "vocabulary": [
-            "do homework / exercise / research",
-            "make a decision / progress / a mistake",
-            "have a meeting / lunch / time",
-            "take notes / a break / care",
-            "do",
-            "make",
-            "have",
-            "take"
-          ],
-          "teacher_notes": "code: \"A1-43\"\nspeaking: \"Collocation matching game\"\nlistening: \"Collocations in authentic short clips\"\nreading: \"A text — find and note collocations\"\nwriting: \"Write 8 collocations in full sentences\"\ntask: \"Collocation bingo\"\ncando: \"Can use common collocations naturally\"\nhw: \"Create a collocation word map for 5 key verbs\"",
-          "recycled": "Mixed A1 grammar in discussion; because + connectors: however, so, but, Review of all A1 grammar through fluency tasks, by the way"
-        },
-        {
-          "lesson": 4,
-          "title": "Pronunciation — stress and intonation",
-          "grammar": [
-            "Word and sentence stress; rising vs falling intonation in questions"
-          ],
-          "vocabulary": [
-            "stress pattern",
-            "intonation",
-            "syllable",
-            "emphasis",
-            "ALL — focus on correct stress"
-          ],
-          "teacher_notes": "code: \"A1-44\"\nspeaking: \"Drill: say sentences with correct stress pattern\"\nlistening: \"Listen and mark stress; identify question intonation\"\nreading: \"Read sentences aloud with marked stress\"\nwriting: \"Write stress marks on 10 words\"\ntask: \"Pronunciation challenge: read and record\"\ncando: \"Can produce correct word stress in known vocabulary\"\nhw: \"Learn stress patterns for 20 key A1 words\"",
-          "recycled": "Review of all A1 grammar through fluency tasks, Collocations: do + noun, make + noun, have + noun, take + noun, make"
-        },
-        {
-          "lesson": 5,
-          "title": "Reading strategies — understanding more",
-          "grammar": [
-            "Mixed A1 grammar in reading context"
-          ],
-          "vocabulary": [
-            "skim",
-            "scan",
-            "infer",
-            "predict",
-            "context clue",
-            "main idea",
-            "detail",
-            "read",
-            "understand",
-            "summarise",
-            "main",
-            "key",
-            "important",
-            "unclear"
-          ],
-          "teacher_notes": "code: \"A1-45\"\nspeaking: \"Discuss: main idea vs detail in a text\"\nlistening: \"How to read strategically\"\nreading: \"A text using skimming then scanning\"\nwriting: \"A summary of a 200-word text\"\ntask: \"Speed reading: who finds the answer first?\"\ncando: \"Can use skimming and scanning to read efficiently\"\nhw: \"Read one article at home and write a 50-word summary\"",
-          "recycled": "Collocations: do + noun, make + noun, have + noun, take + noun, Word and sentence stress; rising vs falling intonation in questions, syllable"
-        },
-        {
-          "lesson": 6,
-          "title": "Writing paragraphs — structure and cohesion",
-          "grammar": [
-            "Discourse connectors: firstly, also, however, for example, in conclusion"
-          ],
-          "vocabulary": [
-            "firstly",
-            "also",
-            "however",
-            "for example",
-            "in conclusion",
-            "therefore",
-            "furthermore",
-            "write",
-            "structure",
-            "link",
-            "connect",
-            "clear",
-            "structured",
-            "logical"
-          ],
-          "teacher_notes": "code: \"A1-46\"\nspeaking: \"Discuss: what makes a good paragraph?\"\nlistening: \"A short structured talk\"\nreading: \"3 model paragraphs — identify structure\"\nwriting: \"A structured paragraph on a given topic\"\ntask: \"Peer editing: improve a partner's paragraph\"\ncando: \"Can write a structured paragraph with connectors\"\nhw: \"Write a paragraph on your favourite topic using full structure\"",
-          "recycled": "Word and sentence stress; rising vs falling intonation in questions, Mixed A1 grammar in reading context, key"
-        },
-        {
-          "lesson": 7,
-          "title": "A2 preview — What's coming next?",
-          "grammar": [
-            "Past simple vs present perfect (contrast); going to vs will (contrast)"
-          ],
-          "vocabulary": [
-            "A2 preview vocabulary: conditionals, reported speech, comparisons",
-            "ALL — seen in A2 context"
-          ],
-          "teacher_notes": "code: \"A1-47\"\nspeaking: \"Discuss: what do you find hardest in English?\"\nlistening: \"A short A2-level dialogue\"\nreading: \"A short A2-level article\"\nwriting: \"Your personal language learning goals\"\ntask: \"A1 reflection: what have you learned?\"\ncando: \"Can identify areas to develop at A2\"\nhw: \"Write your 5 goals for A2\"",
-          "recycled": "Mixed A1 grammar in reading context, Discourse connectors: firstly, also, however, for example, in conclusion, clear"
-        },
-        {
-          "lesson": 8,
-          "title": "Revision day — grammar",
-          "grammar": [
-            "ALL A1 grammar structures — error-focused revision"
-          ],
-          "vocabulary": [
-            "ALL A1 vocabulary — student choice",
-            "ALL"
-          ],
-          "teacher_notes": "code: \"A1-48\"\nspeaking: \"Grammar auction game\"\nlistening: \"Dictation: 15 A1 sentences\"\nreading: \"Grammar reading: identify and correct errors\"\nwriting: \"Grammar test: all A1 structures\"\ntask: \"Error correction relay\"\ncando: \"Can recognise and correct common A1 grammar errors\"\nhw: \"Complete a personal grammar correction log\"",
-          "recycled": "Discourse connectors: firstly, also, however, for example, in conclusion, Past simple vs present perfect (contrast); going to vs will (contrast), logical"
-        },
-        {
-          "lesson": 9,
-          "title": "Oral assessment preparation",
-          "grammar": [
-            "ALL A1 grammar in spoken context"
-          ],
-          "vocabulary": [
-            "ALL A1 topics",
-            "ALL"
-          ],
-          "teacher_notes": "code: \"A1-49\"\nspeaking: \"Mock oral exam: 5 minutes (introduction + topic)\"\nlistening: \"Practice listening tasks\"\nreading: \"Oral exam preparation texts\"\nwriting: \"Preparation notes\"\ntask: \"Peer assessment using scoring rubric\"\ncando: \"Can complete a full A1 oral assessment task\"\nhw: \"Prepare and practise your oral exam speech\"",
-          "recycled": "Past simple vs present perfect (contrast); going to vs will (contrast), ALL A1 grammar structures — error-focused revision, ALL — seen in A2 context"
-        },
-        {
-          "lesson": 10,
-          "title": "Final assessment and reflection",
-          "grammar": [
-            "ALL A1 grammar"
-          ],
-          "vocabulary": [
-            "ALL A1 vocabulary",
-            "ALL"
-          ],
-          "teacher_notes": "code: \"A1-50\"\nspeaking: \"A1 oral assessment: 5 minutes\"\nlistening: \"A1 listening test (20 items)\"\nreading: \"A1 reading test (full text + questions)\"\nwriting: \"A1 writing test: email + paragraph\"\ntask: \"Portfolio review\"\ncando: \"Can demonstrate all A1 competencies\"\nhw: \"Write a reflection: \\\"What I can do now in English\\\"\"",
-          "recycled": "ALL A1 grammar structures — error-focused revision, ALL A1 grammar in spoken context, ALL"
+          "teacher_notes": "code: \"A1-050\"\ncando: \"Can demonstrate comprehensive A1 CEFR mastery across listening, speaking, reading, and grammar\"\nhw: \"Complete A1 Final Comprehensive Examination\"",
+          "recycled": "Will for spontaneous decisions / future predictions intro, Telling your story — past, present and future (combining tenses), my dream is..."
         }
       ]
     }

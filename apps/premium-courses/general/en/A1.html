@@ -83,8 +83,7 @@ function render(data) {
             notes = notes.replace(/code:\s*"[^"]*"\s*/gi, '')
                          .replace(/cando:\s*"[^"]*"\s*/gi, '')
                          .replace(/hw:\s*"[^"]*"\s*/gi, '')
-                         .replace(/
-+/g, '<br>')
+                         .replace(/\n+/g, '<br>')
                          .trim();
 
             html += `<div class="lesson-card">
