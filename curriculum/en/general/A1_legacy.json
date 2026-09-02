@@ -22,12 +22,7 @@
             "Goodbye"
           ],
           "teacher_notes": "code: \"A1-001\"\npronunciation: [{\"point\":\"The English Alphabet\",\"explain\":\"English has 26 letters but many more sounds. Start with the names of the letters.\",\"alphabet\":[{\"l\":\"A\",\"ipa\":\"/eɪ/\"},{\"l\":\"B\",\"ipa\":\"/biː/\"},{\"l\":\"C\",\"ipa\":\"/siː/\"},{\"l\":\"D\",\"ipa\":\"/diː/\"},{\"l\":\"E\",\"ipa\":\"/iː/\"},{\"l\":\"F\",\"ipa\":\"/ef/\"},{\"l\":\"G\",\"ipa\":\"/dʒiː/\"},{\"l\":\"H\",\"ipa\":\"/eɪtʃ/\"},{\"l\":\"I\",\"ipa\":\"/aɪ/\"},{\"l\":\"J\",\"ipa\":\"/dʒeɪ/\"},{\"l\":\"K\",\"ipa\":\"/keɪ/\"},{\"l\":\"L\",\"ipa\":\"/el/\"},{\"l\":\"M\",\"ipa\":\"/em/\"},{\"l\":\"N\",\"ipa\":\"/en/\"},{\"l\":\"O\",\"ipa\":\"/əʊ/\"},{\"l\":\"P\",\"ipa\":\"/piː/\"},{\"l\":\"Q\",\"ipa\":\"/kjuː/\"},{\"l\":\"R\",\"ipa\":\"/ɑː/\"},{\"l\":\"S\",\"ipa\":\"/es/\"},{\"l\":\"T\",\"ipa\":\"/tiː/\"},{\"l\":\"U\",\"ipa\":\"/juː/\"},{\"l\":\"V\",\"ipa\":\"/viː/\"},{\"l\":\"W\",\"ipa\":\"/ˈdʌb.əl.juː/\"},{\"l\":\"X\",\"ipa\":\"/eks/\"},{\"l\":\"Y\",\"ipa\":\"/waɪ/\"},{\"l\":\"Z\",\"ipa\":\"/zed/\"}],\"extension\":\"Did you know? The letters A, E, I, O, U are vowels. All other letters are consonants. In English, one letter can often represent multiple different sounds!\",\"visual\":\"🔤\"}]\ncando: \"Can greet people and say goodbye\"\nhw: \"Learn the alphabet song\"",
-          "recycled": "Foundational communication & basic level vocabulary",
-          "word_ids": [
-            "en_starter_greetings_001",
-            "en_starter_greetings_002"
-          ],
-          "theme": "greetings"
+          "recycled": "Foundational communication & basic level vocabulary"
         },
         {
           "lesson": 2,
@@ -42,12 +37,7 @@
             "Nice to meet you"
           ],
           "teacher_notes": "code: \"A1-002\"\npronunciation: [{\"point\":\"Contractions\",\"explain\":\"In spoken English, we often combine words. 'What is' becomes 'What's'.\",\"examples\":[{\"pattern\":\"What is\",\"ipa\":\"/wɒt ɪz/\",\"word\":\"What's\"},{\"pattern\":\"I am\",\"ipa\":\"/aɪ æm/\",\"word\":\"I'm\"},{\"pattern\":\"My name is\",\"ipa\":\"/maɪ neɪm ɪz/\",\"word\":\"My name's\"}],\"extension\":\"Contractions make your English sound more natural and fluent. We use them almost all the time when speaking!\",\"visual\":\"🔗\"}]\ncando: \"Can introduce themselves\"\nhw: \"Practice spelling your name\"",
-          "recycled": "Verb \"to be\" (am/is/are) — positive forms, Good afternoon, Good evening",
-          "word_ids": [
-            "en_starter_asking_answering_questions_008",
-            "en_starter_asking_answering_questions_012"
-          ],
-          "theme": "vocabulary"
+          "recycled": "Verb \"to be\" (am/is/are) — positive forms, Good afternoon, Good evening"
         },
         {
           "lesson": 3,
@@ -78,12 +68,7 @@
             "sit"
           ],
           "teacher_notes": "code: \"A1-004\"\npronunciation: [{\"point\":\"Short vs Long Vowels\",\"explain\":\"Short sounds vs long sounds can change the meaning of a word.\",\"minimalPairs\":[{\"w1\":\"ship\",\"p1\":\"/ʃɪp/\",\"w2\":\"sheep\",\"p2\":\"/ʃiːp/\"},{\"w1\":\"bit\",\"p1\":\"/bɪt/\",\"w2\":\"beat\",\"p2\":\"/biːt/\"},{\"w1\":\"fit\",\"p1\":\"/fɪt/\",\"w2\":\"feet\",\"p2\":\"/fiːt/\"}],\"extension\":\"The length of the vowel is very important in English. Notice how your mouth stays in a similar position but the sound lasts longer for 'sheep' and 'beat'.\",\"visual\":\"🚢↔️🐑\"}]\ncando: \"Can distinguish between short and long vowel sounds\"\nhw: \"Record yourself saying ship and sheep\"",
-          "recycled": "Verb \"to be\" — questions (What is...?), Singular and Plural nouns (intro), three",
-          "word_ids": [
-            "en_starter_animals_014",
-            "en_starter_work_052"
-          ],
-          "theme": "animals"
+          "recycled": "Verb \"to be\" — questions (What is...?), Singular and Plural nouns (intro), three"
         },
         {
           "lesson": 5,
@@ -98,13 +83,7 @@
             "Sorry"
           ],
           "teacher_notes": "code: \"A1-005\"\npronunciation: [{\"point\":\"Word Stress\",\"explain\":\"The most important part of the word is louder and longer.\",\"examples\":[{\"pattern\":\"Please\",\"ipa\":\"/pliːz/\",\"word\":\"please\"},{\"pattern\":\"Thank you\",\"ipa\":\"/ˈθæŋk.juː/\",\"word\":\"thank you\"},{\"pattern\":\"Excuse me\",\"ipa\":\"/ɪkˈskjuːz.miː/\",\"word\":\"excuse me\"}]}]\ncando: \"Can use basic polite phrases\"\nhw: \"Use three polite phrases tomorrow\"",
-          "recycled": "Singular and Plural nouns (intro), Basic sentence structure, sheep",
-          "word_ids": [
-            "en_starter_greetings_003",
-            "en_starter_greetings_004",
-            "en_starter_emotions_013"
-          ],
-          "theme": "greetings"
+          "recycled": "Singular and Plural nouns (intro), Basic sentence structure, sheep"
         }
       ]
     },
@@ -133,28 +112,7 @@
             "start"
           ],
           "teacher_notes": "code: \"A1-01\"\npronunciation: [{\"point\":\"Starter Foundation: The Alphabet Sounds\",\"explain\":\"Master the vowel sounds in the alphabet which often cause confusion.\",\"examples\":[{\"pattern\":\"A, H, J, K\",\"ipa\":\"/eɪ/\",\"word\":\"Alphabet\"},{\"pattern\":\"E, B, C, D, G, P, T, V\",\"ipa\":\"/iː/\",\"word\":\"Email\"},{\"pattern\":\"I, Y\",\"ipa\":\"/aɪ/\",\"word\":\"Identity\"}],\"tip\":\"English vowels 'A' and 'E' are often swapped by learners from other languages!\"},{\"point\":\"The Schwa Sound /ə/\",\"explain\":\"The most common sound in English. It's short, weak, and found in unstressed syllables.\",\"examples\":[{\"pattern\":\"a\",\"ipa\":\"/ə'baʊt/\",\"word\":\"about\"},{\"pattern\":\"er\",\"ipa\":\"/'tiːtʃə/\",\"word\":\"teacher\"},{\"pattern\":\"o\",\"ipa\":\"/'pəʊlɪs/\",\"word\":\"police\"}],\"tip\":\"Relax your mouth completely to make this sound.\"}]\nspeaking: \"Compare routines with 2 partners using frequency adverbs\"\nlistening: \"Extended daily routine (3 speakers)\"\nreading: \"A \\\"day in the life\\\" magazine article\"\nwriting: \"Full daily routine paragraph (8 sentences + frequency)\"\ntask: \"Class routine survey: who does what, how often?\"\ncando: \"Can describe daily routines using all frequency adverbs\"\nhw: \"Write a detailed weekly routine with frequency adverbs\"",
-          "recycled": "Basic sentence structure, Polite requests (Please, Thank you), Thank you",
-          "word_ids": [
-            "en_starter_language_012",
-            "en_starter_language_013",
-            "en_starter_language_014",
-            "en_starter_language_015",
-            "en_starter_language_016",
-            "en_starter_work_051",
-            "en_starter_work_062",
-            "en_starter_work_050",
-            "en_starter_work_049",
-            "en_starter_work_046",
-            "en_starter_work_045"
-          ],
-          "theme": "grammar_elements",
-          "grammar_refs": [
-            {
-              "layer": "morphology",
-              "category": "verbs",
-              "group_id": "present_simple"
-            }
-          ]
+          "recycled": "Basic sentence structure, Polite requests (Please, Thank you), Thank you"
         },
         {
           "lesson": 2,
@@ -185,37 +143,7 @@
             "busy"
           ],
           "teacher_notes": "code: \"A1-02\"\npronunciation: [{\"point\":\"Word Stress in Occupations\",\"explain\":\"Multi-syllable words always have one syllable that is stronger than the others.\",\"examples\":[{\"pattern\":\"oo\",\"ipa\":\"/ˌen.dʒɪˈnɪər/\",\"word\":\"engineer\"},{\"pattern\":\"o\",\"ipa\":\"/ˈfəʊ.tə.ɡrɑː.fər/\",\"word\":\"photographer\"},{\"pattern\":\"a\",\"ipa\":\"/ˈmæn.ɪ.dʒər/\",\"word\":\"manager\"}],\"tip\":\"Tap your finger on the desk for the stressed syllable.\"}]\nspeaking: \"Describe your job in 5 sentences to a partner\"\nlistening: \"3 job descriptions from real professionals\"\nreading: \"A short job description from a job advert\"\nwriting: \"Job description for your own role (6 sentences)\"\ntask: \"Job description swap: guess the job from description\"\ncando: \"Can describe what their job involves using present simple\"\nhw: \"Write a job description as if for a LinkedIn profile\"",
-          "recycled": "Polite requests (Please, Thank you), Present simple: all persons + frequency adverbs (mid-position), arrive",
-          "word_ids": [
-            "en_starter_job_titles_professions_004",
-            "en_starter_work_029",
-            "en_starter_work_030",
-            "en_starter_work_031",
-            "en_elementary_numbers_029",
-            "en_starter_rooms_indoor_spaces_001",
-            "en_starter_work_032",
-            "en_starter_using_smartphone_004",
-            "en_starter_work_023",
-            "en_starter_work_024",
-            "en_starter_work_070",
-            "en_starter_work_069",
-            "en_starter_work_066",
-            "en_starter_work_058",
-            "en_starter_work_054",
-            "en_starter_work_067",
-            "en_starter_work_047",
-            "en_starter_work_072",
-            "en_starter_people_007",
-            "en_starter_work_025"
-          ],
-          "theme": "jobs",
-          "grammar_refs": [
-            {
-              "layer": "morphology",
-              "category": "verbs",
-              "group_id": "present_simple"
-            }
-          ]
+          "recycled": "Polite requests (Please, Thank you), Present simple: all persons + frequency adverbs (mid-position), arrive"
         },
         {
           "lesson": 3,
@@ -237,18 +165,7 @@
             "difficult"
           ],
           "teacher_notes": "code: \"A1-03\"\npronunciation: [{\"point\":\"The /θ/ and /ð/ Sounds\",\"explain\":\"English 'th' has two sounds: unvoiced /θ/ (think) and voiced /ð/ (the).\",\"examples\":[{\"pattern\":\"th\",\"ipa\":\"/θɪŋk/\",\"word\":\"think\"},{\"pattern\":\"th\",\"ipa\":\"/ðə/\",\"word\":\"the\"},{\"pattern\":\"th\",\"ipa\":\"/'ɜː.θɪŋ/\",\"word\":\"earth\"}],\"tip\":\"Put your tongue between your teeth and blow.\"}]\nspeaking: \"Tell a partner about your commute in detail\"\nlistening: \"Two people discussing their commutes\"\nreading: \"Short article on commuting in cities\"\nwriting: \"Paragraph about your commute and workplace\"\ntask: \"Commute debate: which is the best way to travel?\"\ncando: \"Can discuss commute and workplace location\"\nhw: \"Write a 60-word commute description\"",
-          "recycled": "Present simple: all persons + frequency adverbs (mid-position), Present simple: \"I work with/for/in; I am responsible for…\", order",
-          "word_ids": [
-            "en_starter_public_transport_001",
-            "en_starter_rooms_of_a_home_011",
-            "en_starter_public_transport_003",
-            "en_starter_work_050",
-            "en_starter_work_049",
-            "en_starter_work_025",
-            "en_starter_shopping_003",
-            "en_starter_size_shape_010"
-          ],
-          "theme": "travel"
+          "recycled": "Present simple: all persons + frequency adverbs (mid-position), Present simple: \"I work with/for/in; I am responsible for…\", order"
         },
         {
           "lesson": 4,
@@ -273,31 +190,7 @@
             "expensive"
           ],
           "teacher_notes": "code: \"A1-04\"\npronunciation: [{\"point\":\"Numbers and Word Stress\",\"explain\":\"Differentiate between -teen and -ty numbers using stress.\",\"examples\":[{\"pattern\":\"teen\",\"ipa\":\"/ˌθɜːˈtiːn/\",\"word\":\"thirteen\"},{\"pattern\":\"ty\",\"ipa\":\"/ˈθɜː.ti/\",\"word\":\"thirty\"},{\"pattern\":\"teen\",\"ipa\":\"/ˌfɔːˈtiːn/\",\"word\":\"fourteen\"}],\"tip\":\"The '-teen' is long and high; the '-ty' is short and low.\"}]\nspeaking: \"Discuss spending habits: what do you spend most on?\"\nlistening: \"People discussing financial habits\"\nreading: \"Short article on managing money\"\nwriting: \"Monthly budget plan in full sentences\"\ntask: \"Budget challenge: live on €1,500/month (group task)\"\ncando: \"Can discuss earning and spending habits\"\nhw: \"Write a paragraph about your financial habits\"",
-          "recycled": "Present simple: \"I work with/for/in; I am responsible for…\", \"How long does it take? / How far is it?\" + It takes / It is, busy",
-          "word_ids": [
-            "en_starter_money_payment_009",
-            "en_starter_money_payment_010",
-            "en_starter_money_payment_008",
-            "en_starter_money_payment_006",
-            "en_starter_money_payment_003",
-            "en_starter_money_payment_004",
-            "en_elementary_numbers_028",
-            "en_elementary_shopping_005",
-            "en_elementary_numbers_003",
-            "en_starter_money_payment_012",
-            "en_elementary_finances_010",
-            "en_elementary_finances_012",
-            "en_starter_shopping_001",
-            "en_starter_shopping_002"
-          ],
-          "theme": "shopping",
-          "grammar_refs": [
-            {
-              "layer": "morphology",
-              "category": "verbs",
-              "group_id": "present_simple"
-            }
-          ]
+          "recycled": "Present simple: \"I work with/for/in; I am responsible for…\", \"How long does it take? / How far is it?\" + It takes / It is, busy"
         },
         {
           "lesson": 5,
@@ -323,23 +216,7 @@
             "different"
           ],
           "teacher_notes": "code: \"A1-05\"\npronunciation: [{\"point\":\"Vowel Sound /eɪ/ (Long A)\",\"explain\":\"Common in words like 'name' and 'station'. It's a diphthong (two sounds in one).\",\"examples\":[{\"pattern\":\"a_e\",\"ipa\":\"/neɪm/\",\"word\":\"name\"},{\"pattern\":\"ai\",\"ipa\":\"/peɪ/\",\"word\":\"pay\"},{\"pattern\":\"ay\",\"ipa\":\"/deɪ/\",\"word\":\"day\"}],\"tip\":\"Open your mouth then move your jaw up slightly.\"}]\nspeaking: \"Role-play: tenant phones landlord about a flat\"\nlistening: \"A rental enquiry phone call\"\nreading: \"A property advert\"\nwriting: \"Email to a landlord asking about a flat\"\ntask: \"Flat hunting: compare two properties and decide\"\ncando: \"Can ask about and describe a rental property\"\nhw: \"Write a short email enquiry about a flat to rent\"",
-          "recycled": "\"How long does it take? / How far is it?\" + It takes / It is, How much do you earn/spend? Present simple + object; too + adjective / enough, charge",
-          "word_ids": [
-            "en_starter_types_of_accommodation_001",
-            "en_starter_rooms_of_a_home_004",
-            "en_elementary_describing_036",
-            "en_starter_places_083",
-            "en_starter_furniture_056",
-            "en_elementary_numbers_003",
-            "en_starter_household_tasks_003",
-            "en_elementary_home_repairs_maintenance_003",
-            "en_starter_household_tasks_001",
-            "en_starter_cooking_methods_002",
-            "en_starter_shopping_001",
-            "en_starter_shopping_002",
-            "en_starter_describing_023"
-          ],
-          "theme": "places"
+          "recycled": "\"How long does it take? / How far is it?\" + It takes / It is, How much do you earn/spend? Present simple + object; too + adjective / enough, charge"
         },
         {
           "lesson": 6,
@@ -366,23 +243,7 @@
             "stressed"
           ],
           "teacher_notes": "code: \"A1-06\"\npronunciation: [{\"point\":\"The /i:/ and /ɪ/ Sounds\",\"explain\":\"Differentiate between long 'ee' (feel) and short 'i' (ill).\",\"examples\":[{\"pattern\":\"ee\",\"ipa\":\"/fiːl/\",\"word\":\"feel\"},{\"pattern\":\"i\",\"ipa\":\"/ɪl/\",\"word\":\"ill\"},{\"pattern\":\"ea\",\"ipa\":\"/iːt/\",\"word\":\"eat\"}],\"tip\":\"Think of a 'smile' for the long /i:/ sound.\"}]\nspeaking: \"Give a partner 3 pieces of health advice\"\nlistening: \"A nutritionist giving advice\"\nreading: \"A healthy eating guide\"\nwriting: \"5 health advice sentences using should/shouldn't\"\ntask: \"Health clinic: one person describes habits, partner gives advice\"\ncando: \"Can give and receive basic health advice using should\"\nhw: \"Write a 5-tip healthy lifestyle guide\"",
-          "recycled": "How much do you earn/spend? Present simple + object; too + adjective / enough, Have to / don't have to (obligation intro); How much does it cost?, cheap",
-          "word_ids": [
-            "en_starter_illnesses_symptoms_001",
-            "en_starter_emotions_003",
-            "en_starter_job_titles_professions_002",
-            "en_starter_places_084",
-            "en_starter_work_033",
-            "en_starter_leisure_activities_003",
-            "en_starter_illnesses_symptoms_006",
-            "en_starter_work_071",
-            "en_elementary_body_020",
-            "en_starter_illnesses_symptoms_008",
-            "en_starter_food_drink_026",
-            "en_starter_illnesses_symptoms_002",
-            "en_elementary_emotions_008"
-          ],
-          "theme": "adjectives"
+          "recycled": "How much do you earn/spend? Present simple + object; too + adjective / enough, Have to / don't have to (obligation intro); How much does it cost?, cheap"
         },
         {
           "lesson": 7,
@@ -406,29 +267,7 @@
             "popular"
           ],
           "teacher_notes": "code: \"A1-07\"\npronunciation: [{\"point\":\"Silent 'e' in Tech Words\",\"explain\":\"The final 'e' is often silent but changes the previous vowel sound.\",\"examples\":[{\"pattern\":\"_one\",\"ipa\":\"/fəʊn/\",\"word\":\"phone\"},{\"pattern\":\"_ine\",\"ipa\":\"/'ɒn.laɪn/\",\"word\":\"online\"},{\"pattern\":\"een\",\"ipa\":\"/skriːn/\",\"word\":\"screen\"}],\"tip\":\"The vowel before the consonant becomes 'long' because of the magic 'e'.\"}]\nspeaking: \"Discuss your technology habits with a partner\"\nlistening: \"People describing tech habits\"\nreading: \"A short survey on technology use\"\nwriting: \"A paragraph about your technology use\"\ntask: \"Tech debate: is your phone your best friend?\"\ncando: \"Can describe technology habits using present simple\"\nhw: \"Write: \\\"How I use technology every day\\\"\"",
-          "recycled": "Have to / don't have to (obligation intro); How much does it cost?, Should / shouldn't for advice: \"You should eat more… / You shouldn't…\", healthy",
-          "word_ids": [
-            "en_starter_using_smartphone_001",
-            "en_elementary_technology_017",
-            "en_starter_using_smartphone_002",
-            "en_starter_technology_001",
-            "en_starter_technology_011",
-            "en_starter_work_066",
-            "en_starter_work_058",
-            "en_starter_accessories_005",
-            "en_starter_work_073",
-            "en_starter_learning_studying_016",
-            "en_starter_shopping_003",
-            "en_elementary_condition_state_017"
-          ],
-          "theme": "technology",
-          "grammar_refs": [
-            {
-              "layer": "morphology",
-              "category": "verbs",
-              "group_id": "present_simple"
-            }
-          ]
+          "recycled": "Have to / don't have to (obligation intro); How much does it cost?, Should / shouldn't for advice: \"You should eat more… / You shouldn't…\", healthy"
         },
         {
           "lesson": 8,
@@ -456,26 +295,7 @@
             "free"
           ],
           "teacher_notes": "code: \"A1-08\"\npronunciation: [{\"point\":\"The /-ing/ Ending /ŋ/\",\"explain\":\"The 'g' is not fully pronounced. It's a nasal sound made at the back of the throat.\",\"examples\":[{\"pattern\":\"ing\",\"ipa\":\"/ˈpleɪ.ɪŋ/\",\"word\":\"playing\"},{\"pattern\":\"ing\",\"ipa\":\"/ˈrɪː.dɪŋ/\",\"word\":\"reading\"},{\"pattern\":\"ing\",\"ipa\":\"/ˈkʊk.ɪŋ/\",\"word\":\"cooking\"}],\"tip\":\"Keep the back of your tongue up against the roof of your mouth.\"}]\nspeaking: \"Discuss free time preferences using the full scale\"\nlistening: \"A leisure preferences survey\"\nreading: \"A \\\"My free time\\\" blog entry\"\nwriting: \"\\\"My interests\\\" paragraph (6–8 sentences)\"\ntask: \"Interest match: find someone with the same top hobby\"\ncando: \"Can express interests with gradable opinion verbs\"\nhw: \"Write a short paragraph about your ideal weekend\"",
-          "recycled": "Should / shouldn't for advice: \"You should eat more… / You shouldn't…\", Present simple + adverbs of frequency + like + -ing for tech habits, learn",
-          "word_ids": [
-            "en_starter_leisure_activities_004",
-            "en_starter_time_021",
-            "en_starter_leisure_activities_005",
-            "en_starter_immediate_family_006",
-            "en_starter_leisure_activities_008",
-            "en_starter_leisure_017",
-            "en_starter_leisure_activities_016",
-            "en_starter_emotions_061",
-            "en_starter_people_006",
-            "en_starter_leisure_activities_015",
-            "en_starter_leisure_activities_013",
-            "en_starter_emotions_002",
-            "en_starter_emotions_005",
-            "en_starter_emotions_010",
-            "en_starter_emotions_011",
-            "en_starter_shopping_003"
-          ],
-          "theme": "social"
+          "recycled": "Should / shouldn't for advice: \"You should eat more… / You shouldn't…\", Present simple + adverbs of frequency + like + -ing for tech habits, learn"
         },
         {
           "lesson": 9,
@@ -500,31 +320,7 @@
             "similar"
           ],
           "teacher_notes": "code: \"A1-09\"\npronunciation: [{\"point\":\"The /v/ and /b/ Sounds\",\"explain\":\"Many learners confuse these. /v/ is a 'fricative' (vibration), /b/ is a 'plosive' (stop).\",\"examples\":[{\"pattern\":\"v\",\"ipa\":\"/'vɪl.ɪdʒ/\",\"word\":\"village\"},{\"pattern\":\"v\",\"ipa\":\"/'veɹ.i/\",\"word\":\"very\"},{\"pattern\":\"b\",\"ipa\":\"/'bɪl.dɪŋ/\",\"word\":\"building\"}],\"tip\":\"For /v/, your top teeth should touch your bottom lip.\"}]\nspeaking: \"Describe your neighbourhood to a partner\"\nlistening: \"Two people comparing neighbourhoods\"\nreading: \"A \\\"Where I live\\\" blog post\"\nwriting: \"Neighbourhood description (6 sentences)\"\ntask: \"My ideal neighbourhood: design and present\"\ncando: \"Can describe and evaluate a neighbourhood\"\nhw: \"Write a \\\"Where I live\\\" paragraph\"",
-          "recycled": "Present simple + adverbs of frequency + like + -ing for tech habits, Love / like / enjoy / don't mind / hate / can't stand + -ing (gradable scale), bored",
-          "word_ids": [
-            "en_starter_places_083",
-            "en_elementary_neighbourhood_local_024",
-            "en_elementary_condition_state_004",
-            "en_elementary_places_080",
-            "en_starter_places_100",
-            "en_starter_household_tasks_003",
-            "en_elementary_giving_reasons_047",
-            "en_elementary_giving_reasons_038",
-            "en_starter_describing_025",
-            "en_starter_describing_046",
-            "en_elementary_condition_state_017",
-            "en_starter_describing_036",
-            "en_starter_describing_023",
-            "en_elementary_condition_state_021"
-          ],
-          "theme": "places",
-          "grammar_refs": [
-            {
-              "layer": "morphology",
-              "category": "adjectives",
-              "group_id": "adjectives"
-            }
-          ]
+          "recycled": "Present simple + adverbs of frequency + like + -ing for tech habits, Love / like / enjoy / don't mind / hate / can't stand + -ing (gradable scale), bored"
         },
         {
           "lesson": 10,
@@ -538,14 +334,7 @@
             "ALL Unit 1 adjectives"
           ],
           "teacher_notes": "code: \"A1-10\"\nspeaking: \"Oral: describe your life today (3 minutes, all topics)\"\nlistening: \"Extended listening — 3 speakers describing their lives\"\nreading: \"Full \\\"My adult life\\\" profile\"\nwriting: \"\\\"My life today\\\" paragraph (150 words)\"\ntask: \"Speed networking: 2 min each, 3 partners\"\ncando: \"Can describe all aspects of present adult life\"\nhw: \"Portfolio: write your \\\"My Life Today\\\" profile\"",
-          "recycled": "Love / like / enjoy / don't mind / hate / can't stand + -ing (gradable scale), There is/are + quantity; adjectives for opinions; comparatives review, special",
-          "grammar_refs": [
-            {
-              "layer": "morphology",
-              "category": "verbs",
-              "group_id": "present_simple"
-            }
-          ]
+          "recycled": "Love / like / enjoy / don't mind / hate / can't stand + -ing (gradable scale), There is/are + quantity; adjectives for opinions; comparatives review, special"
         }
       ]
     },
@@ -576,31 +365,7 @@
             "old"
           ],
           "teacher_notes": "code: \"A1-11\"\npronunciation: [{\"point\":\"Past Simple '-ed' Endings\",\"explain\":\"The suffix '-ed' can be pronounced in three different ways: /t/, /d/, or /ɪd/.\",\"examples\":[{\"pattern\":\"worked\",\"ipa\":\"/wɜːkt/\",\"word\":\"worked\"},{\"pattern\":\"played\",\"ipa\":\"/pleɪd/\",\"word\":\"played\"},{\"pattern\":\"started\",\"ipa\":\"/ˈstɑː.tɪd/\",\"word\":\"started\"}],\"extension\":\"Use /ɪd/ only when the base verb ends in 't' or 'd'. For most others, it's just a quick /t/ or /d/ sound.\",\"visual\":\"⌚\"}]\nspeaking: \"Tell your career story in 3 minutes to a partner\"\nlistening: \"A career biography\"\nreading: \"A short professional biography\"\nwriting: \"6-sentence career history\"\ntask: \"Career timeline: draw and present your career path\"\ncando: \"Can narrate a basic career history in past simple\"\nhw: \"Write your career history as a timeline with sentences\"",
-          "recycled": "There is/are + quantity; adjectives for opinions; comparatives review, Present simple (all forms) + should + have to + frequency + like -ing, ALL Unit 1 vocabulary",
-          "word_ids": [
-            "en_starter_job_titles_professions_017",
-            "en_elementary_work_055",
-            "en_starter_work_031",
-            "en_starter_learning_studying_018",
-            "en_starter_work_029",
-            "en_starter_household_tasks_003",
-            "en_starter_work_055",
-            "en_starter_work_050",
-            "en_starter_leisure_021",
-            "en_starter_work_045",
-            "en_starter_work_075",
-            "en_starter_describing_023",
-            "en_starter_size_shape_022",
-            "en_starter_size_shape_004"
-          ],
-          "theme": "jobs",
-          "grammar_refs": [
-            {
-              "layer": "morphology",
-              "category": "verbs",
-              "group_id": "past_simple"
-            }
-          ]
+          "recycled": "There is/are + quantity; adjectives for opinions; comparatives review, Present simple (all forms) + should + have to + frequency + like -ing, ALL Unit 1 vocabulary"
         },
         {
           "lesson": 2,
@@ -623,26 +388,7 @@
             "worried"
           ],
           "teacher_notes": "code: \"A1-12\"\npronunciation: [{\"point\":\"Weak forms of 'was' and 'were'\",\"explain\":\"In sentences, these auxiliary verbs are usually unstressed and sound weak.\",\"examples\":[{\"pattern\":\"I was\",\"ipa\":\"/aɪ wəz/\",\"word\":\"I was working\"},{\"pattern\":\"They were\",\"ipa\":\"/ðeɪ wə/\",\"word\":\"They were talking\"}],\"extension\":\"Instead of saying 'WAZ' or 'WERE' strongly, use the schwa sound /ə/ to sound more natural.\",\"visual\":\"☁️\"}]\nspeaking: \"Tell a \\\"when it happened\\\" story using both tenses\"\nlistening: \"An eyewitness account using both tenses\"\nreading: \"A short news-style account\"\nwriting: \"3 sentences: \\\"I was ___ when ___\\\"\"\ntask: \"Alibi game: where were you, what were you doing?\"\ncando: \"Can use past continuous for an ongoing past action\"\nhw: \"Write about what you were doing yesterday at specific times\"",
-          "recycled": "Present simple (all forms) + should + have to + frequency + like -ing, Past simple: regular + irregular review + time expressions (in 2015, after that, then), different",
-          "word_ids": [
-            "en_starter_asking_answering_questions_010",
-            "en_elementary_giving_reasons_038",
-            "en_elementary_school_004",
-            "en_starter_work_056",
-            "en_starter_work_052",
-            "en_starter_work_053",
-            "en_starter_work_061",
-            "en_starter_emotions_017",
-            "en_starter_emotions_006"
-          ],
-          "theme": "vocabulary",
-          "grammar_refs": [
-            {
-              "layer": "morphology",
-              "category": "verbs",
-              "group_id": "past_simple"
-            }
-          ]
+          "recycled": "Present simple (all forms) + should + have to + frequency + like -ing, Past simple: regular + irregular review + time expressions (in 2015, after that, then), different"
         },
         {
           "lesson": 3,
@@ -661,13 +407,7 @@
             "similar"
           ],
           "teacher_notes": "code: \"A1-13\"\npronunciation: [{\"point\":\"The 'used to' Liaison\",\"explain\":\"The 'd' in 'used' and the 't' in 'to' blend into a single /tu/ sound.\",\"examples\":[{\"pattern\":\"used to\",\"ipa\":\"/ˈjuːs.tə/\",\"word\":\"I used to live...\"}],\"tip\":\"It sounds like 'yoos-ta'.\",\"visual\":\"🔗\"}]\nspeaking: \"Tell a partner 3 things you used to do but don't anymore\"\nlistening: \"People comparing past and present habits\"\nreading: \"A \\\"My life before and after\\\" article\"\nwriting: \"5 \\\"used to\\\" sentences comparing past and present life\"\ntask: \"Before and after: draw a timeline and present\"\ncando: \"Can describe past habits using \\\"used to\\\"\"\nhw: \"Write a paragraph: \\\"My life before and now\\\"\"",
-          "recycled": "Past simple: regular + irregular review + time expressions (in 2015, after that, then), Past continuous: was/were + -ing; contrast with past simple (while, when), carry",
-          "word_ids": [
-            "en_starter_duration_expressions_002",
-            "en_starter_describing_023",
-            "en_elementary_condition_state_021"
-          ],
-          "theme": "time"
+          "recycled": "Past simple: regular + irregular review + time expressions (in 2015, after that, then), Past continuous: was/were + -ing; contrast with past simple (while, when), carry"
         },
         {
           "lesson": 4,
@@ -694,22 +434,7 @@
             "interesting"
           ],
           "teacher_notes": "code: \"A1-14\"\npronunciation: [{\"point\":\"Been vs Gone\",\"explain\":\"Differentiate between these two participles in connected speech.\",\"examples\":[{\"pattern\":\"been\",\"ipa\":\"/biːn/\",\"word\":\"I've been to Paris\"},{\"pattern\":\"gone\",\"ipa\":\"/ɡɒn/\",\"word\":\"He's gone to Paris\"}],\"extension\":\"'Been' implies a return, while 'Gone' implies the person is still there. Pronunciation is clear: /iː/ vs /ɒ/.\",\"visual\":\"🛫↔️🛬\"}]\nspeaking: \"Ask a partner 5 \\\"Have you ever…?\\\" questions\"\nlistening: \"An interview about life experiences\"\nreading: \"A \\\"bucket list\\\" article\"\nwriting: \"5 sentences: \\\"I have / have never ___\\\"\"\ntask: \"\\\"Have you ever…?\\\" class survey — find someone who has\"\ncando: \"Can ask and talk about life experiences using present perfect\"\nhw: \"Write a \\\"Things I have and haven't done\\\" list with sentences\"",
-          "recycled": "Past continuous: was/were + -ing; contrast with past simple (while, when), Used to + infinitive for past habits and states no longer true, used to + any verb",
-          "word_ids": [
-            "en_starter_language_016",
-            "en_starter_people_007",
-            "en_starter_public_transport_003",
-            "en_starter_learning_studying_009",
-            "en_starter_work_054",
-            "en_starter_body_028",
-            "en_starter_meals_of_the_day_007",
-            "en_starter_work_044",
-            "en_starter_describing_018",
-            "en_starter_describing_019",
-            "en_starter_describing_016",
-            "en_starter_describing_034"
-          ],
-          "theme": "grammar_elements"
+          "recycled": "Past continuous: was/were + -ing; contrast with past simple (while, when), Used to + infinitive for past habits and states no longer true, used to + any verb"
         },
         {
           "lesson": 5,
@@ -731,19 +456,7 @@
             "recent"
           ],
           "teacher_notes": "code: \"A1-15\"\nspeaking: \"Give 3 \\\"just/already\\\" updates to a partner\"\nlistening: \"A series of short updates (\\\"I've just heard…\\\")\"\nreading: \"A news update text with just/already/yet\"\nwriting: \"5 sentences using just, already and yet\"\ntask: \"Office updates game: report news using just/already/yet\"\ncando: \"Can report recent events using just, already and yet\"\nhw: \"Write a \\\"news update\\\" paragraph about your week\"",
-          "recycled": "Used to + infinitive for past habits and states no longer true, Present perfect: have/has + past participle + ever/never for experience, fantastic",
-          "word_ids": [
-            "en_elementary_language_010",
-            "en_starter_duration_expressions_005",
-            "en_starter_duration_expressions_007",
-            "en_starter_work_046",
-            "en_starter_work_045",
-            "en_starter_body_029",
-            "en_starter_work_049",
-            "en_starter_work_058",
-            "en_elementary_time_004"
-          ],
-          "theme": "grammar_elements"
+          "recycled": "Used to + infinitive for past habits and states no longer true, Present perfect: have/has + past participle + ever/never for experience, fantastic"
         },
         {
           "lesson": 6,
@@ -766,18 +479,7 @@
             "long"
           ],
           "teacher_notes": "code: \"A1-16\"\nspeaking: \"Ask 3 partners: \\\"How long have you worked here/lived there?\\\"\"\nlistening: \"People discussing how long they have lived/worked somewhere\"\nreading: \"A \\\"How long have you been here?\\\" magazine feature\"\nwriting: \"5 sentences about duration using for and since\"\ntask: \"Duration timeline: display your for/since facts to the class\"\ncando: \"Can ask and say how long something has been the case\"\nhw: \"Write a paragraph using for and since about your life\"",
-          "recycled": "Present perfect: have/has + past participle + ever/never for experience, Present perfect: just, already, yet — meaning and position, arrive",
-          "word_ids": [
-            "en_starter_time_025",
-            "en_elementary_language_012",
-            "en_starter_places_100",
-            "en_starter_work_029",
-            "en_starter_learning_studying_018",
-            "en_starter_learning_studying_013",
-            "en_starter_work_042",
-            "en_starter_size_shape_013"
-          ],
-          "theme": "time"
+          "recycled": "Present perfect: have/has + past participle + ever/never for experience, Present perfect: just, already, yet — meaning and position, arrive"
         },
         {
           "lesson": 7,
@@ -805,30 +507,7 @@
             "disappointed"
           ],
           "teacher_notes": "code: \"A1-17\"\nspeaking: \"Tell a 2-minute personal story to a partner\"\nlistening: \"A personal narrative story (3 minutes)\"\nreading: \"A short story with mixed past tenses\"\nwriting: \"120-word story about a memorable event\"\ntask: \"Story competition: most interesting true story\"\ncando: \"Can tell a coherent personal story in the past\"\nhw: \"Write a 150-word personal narrative\"",
-          "recycled": "Present perfect: just, already, yet — meaning and position, Present perfect: for + period, since + point in time; How long have you…?, know",
-          "word_ids": [
-            "en_starter_numbers_005",
-            "en_starter_time_035",
-            "en_elementary_time_011",
-            "en_elementary_giving_reasons_038",
-            "en_starter_asking_answering_questions_002",
-            "en_starter_asking_answering_questions_001",
-            "en_starter_work_073",
-            "en_starter_learning_studying_020",
-            "en_elementary_giving_reasons_047",
-            "en_starter_emotions_017",
-            "en_starter_emotions_011",
-            "en_starter_emotions_006",
-            "en_starter_emotions_018"
-          ],
-          "theme": "numbers",
-          "grammar_refs": [
-            {
-              "layer": "morphology",
-              "category": "verbs",
-              "group_id": "past_simple"
-            }
-          ]
+          "recycled": "Present perfect: just, already, yet — meaning and position, Present perfect: for + period, since + point in time; How long have you…?, know"
         },
         {
           "lesson": 8,
@@ -856,25 +535,7 @@
             "important"
           ],
           "teacher_notes": "code: \"A1-18\"\nspeaking: \"Describe a difficult situation you faced (2 minutes)\"\nlistening: \"Someone describing a difficult work situation\"\nreading: \"A problem-solution narrative\"\nwriting: \"100-word narrative about a challenge\"\ntask: \"Problem sharing: listen and give advice using \\\"you should have\\\"\"\ncando: \"Can narrate a difficult past situation\"\nhw: \"Write about a difficult situation and how you handled it\"",
-          "recycled": "Present perfect: for + period, since + point in time; How long have you…?, Past simple + past continuous + present perfect (mixed past narrative), excited",
-          "word_ids": [
-            "en_elementary_career_development_058",
-            "en_elementary_describing_012",
-            "en_elementary_describing_047",
-            "en_elementary_describing_034",
-            "en_starter_learning_studying_009",
-            "en_starter_work_070",
-            "en_elementary_school_004",
-            "en_starter_work_056",
-            "en_starter_work_055",
-            "en_starter_giving_opinions_022",
-            "en_elementary_career_development_056",
-            "en_starter_size_shape_010",
-            "en_starter_describing_022",
-            "en_starter_describing_033",
-            "en_starter_describing_011"
-          ],
-          "theme": "verbs"
+          "recycled": "Present perfect: for + period, since + point in time; How long have you…?, Past simple + past continuous + present perfect (mixed past narrative), excited"
         },
         {
           "lesson": 9,
@@ -891,16 +552,7 @@
             "that"
           ],
           "teacher_notes": "code: \"A1-19\"\nspeaking: \"Report what a partner told you to the class\"\nlistening: \"Reported speech examples\"\nreading: \"A short article with reported quotes\"\nwriting: \"5 reported speech sentences\"\ntask: \"Telephone message relay: report what you heard\"\ncando: \"Can report what someone said using basic reported speech\"\nhw: \"Write 5 sentences reporting a recent conversation\"",
-          "recycled": "Past simple + past continuous + present perfect (mixed past narrative), Past tenses + wish/if only (intro): \"I wish I had…\", wrong",
-          "word_ids": [
-            "en_starter_social_025",
-            "en_starter_asking_answering_questions_002",
-            "en_starter_asking_answering_questions_003",
-            "en_starter_language_019",
-            "en_elementary_giving_reasons_042",
-            "en_starter_language_023"
-          ],
-          "theme": "verbs"
+          "recycled": "Past simple + past continuous + present perfect (mixed past narrative), Past tenses + wish/if only (intro): \"I wish I had…\", wrong"
         },
         {
           "lesson": 10,
@@ -914,14 +566,7 @@
             "ALL Unit 2 adjectives"
           ],
           "teacher_notes": "code: \"A1-20\"\nspeaking: \"Oral: tell your \\\"life story\\\" so far (3 minutes)\"\nlistening: \"Listening test: mixed past tenses (15 items)\"\nreading: \"A full narrative text\"\nwriting: \"200-word biographical paragraph\"\ntask: \"Life story presentation to a small group\"\ncando: \"Can narrate personal history using all past forms\"\nhw: \"Portfolio: write your best personal narrative\"",
-          "recycled": "Past tenses + wish/if only (intro): \"I wish I had…\", Reported speech: say/tell + tense shift (present → past), explain",
-          "grammar_refs": [
-            {
-              "layer": "morphology",
-              "category": "verbs",
-              "group_id": "past_simple"
-            }
-          ]
+          "recycled": "Past tenses + wish/if only (intro): \"I wish I had…\", Reported speech: say/tell + tense shift (present → past), explain"
         }
       ]
     },
@@ -953,30 +598,7 @@
             "possible"
           ],
           "teacher_notes": "code: \"A1-21\"\nspeaking: \"Tell a partner your top 3 plans for the next 6 months\"\nlistening: \"People discussing future plans\"\nreading: \"A \\\"My goals for next year\\\" article\"\nwriting: \"\\\"My plans\\\" paragraph (5–6 sentences)\"\ntask: \"Goal-setting workshop: share and compare plans\"\ncando: \"Can describe future plans and intentions using going to\"\nhw: \"Write your top 5 goals for the next year\"",
-          "recycled": "Reported speech: say/tell + tense shift (present → past), Past simple, past continuous, used to, present perfect (all uses), ALL Unit 2 vocabulary",
-          "word_ids": [
-            "en_starter_work_079",
-            "en_elementary_work_049",
-            "en_starter_duration_expressions_003",
-            "en_elementary_time_008",
-            "en_starter_giving_opinions_020",
-            "en_starter_work_055",
-            "en_starter_household_tasks_003",
-            "en_starter_work_045",
-            "en_starter_money_payment_010",
-            "en_starter_public_transport_003",
-            "en_starter_describing_023",
-            "en_starter_surprise_interest_001",
-            "en_starter_giving_opinions_003"
-          ],
-          "theme": "jobs",
-          "grammar_refs": [
-            {
-              "layer": "morphology",
-              "category": "verbs",
-              "group_id": "present_continuous"
-            }
-          ]
+          "recycled": "Reported speech: say/tell + tense shift (present → past), Past simple, past continuous, used to, present perfect (all uses), ALL Unit 2 vocabulary"
         },
         {
           "lesson": 2,
@@ -997,21 +619,7 @@
             "necessary"
           ],
           "teacher_notes": "code: \"A1-22\"\nspeaking: \"Make 3 predictions about your life in 5 years\"\nlistening: \"Someone making predictions about their future\"\nreading: \"A short prediction article\"\nwriting: \"5 will sentences (predictions + spontaneous decisions)\"\ntask: \"Future prediction game: class makes predictions\"\ncando: \"Can use will for predictions and spontaneous decisions\"\nhw: \"Write a paragraph: \\\"My life in 10 years\\\"\"",
-          "recycled": "Past simple, past continuous, used to, present perfect (all uses), Going to + infinitive for intention; present continuous for fixed arrangements, different",
-          "word_ids": [
-            "en_starter_giving_opinions_003",
-            "en_elementary_condition_state_010",
-            "en_elementary_giving_reasons_004",
-            "en_elementary_condition_state_015"
-          ],
-          "theme": "adjectives",
-          "grammar_refs": [
-            {
-              "layer": "morphology",
-              "category": "verbs",
-              "group_id": "will"
-            }
-          ]
+          "recycled": "Past simple, past continuous, used to, present perfect (all uses), Going to + infinitive for intention; present continuous for fixed arrangements, different"
         },
         {
           "lesson": 3,
@@ -1035,29 +643,7 @@
             "free"
           ],
           "teacher_notes": "code: \"A1-23\"\nspeaking: \"Discuss what you are doing next week with a partner\"\nlistening: \"A diary being discussed\"\nreading: \"A diary for next week\"\nwriting: \"Your schedule for next week in full sentences\"\ntask: \"Diary clash: find a time when everyone is free\"\ncando: \"Can talk about fixed future arrangements\"\nhw: \"Write an email confirming a future appointment\"",
-          "recycled": "Going to + infinitive for intention; present continuous for fixed arrangements, Will: predictions and spontaneous decisions; contrast with going to, impossible",
-          "word_ids": [
-            "en_elementary_describing_005",
-            "en_elementary_career_development_041",
-            "en_elementary_career_development_079",
-            "en_elementary_booking_planning_a_trip_003",
-            "en_elementary_giving_reasons_028",
-            "en_starter_work_054",
-            "en_starter_furniture_027",
-            "en_starter_travel_031",
-            "en_starter_public_transport_006",
-            "en_starter_work_049",
-            "en_starter_work_025",
-            "en_starter_shopping_003"
-          ],
-          "theme": "vocabulary",
-          "grammar_refs": [
-            {
-              "layer": "morphology",
-              "category": "verbs",
-              "group_id": "present_continuous"
-            }
-          ]
+          "recycled": "Going to + infinitive for intention; present continuous for fixed arrangements, Will: predictions and spontaneous decisions; contrast with going to, impossible"
         },
         {
           "lesson": 4,
@@ -1078,21 +664,7 @@
             "important"
           ],
           "teacher_notes": "code: \"A1-24\"\nspeaking: \"Give 3 pieces of advice using first conditionals\"\nlistening: \"Advice using first conditionals\"\nreading: \"A \\\"success tips\\\" article with conditionals\"\nwriting: \"5 first conditional sentences\"\ntask: \"Conditional advice clinic: give real advice\"\ncando: \"Can use first conditional for real situations\"\nhw: \"Write 5 first conditional sentences about career decisions\"",
-          "recycled": "Will: predictions and spontaneous decisions; contrast with going to, Present continuous for fixed future arrangements, arrive",
-          "word_ids": [
-            "en_starter_asking_answering_questions_010",
-            "en_starter_giving_opinions_003",
-            "en_elementary_condition_state_015",
-            "en_starter_describing_011"
-          ],
-          "theme": "vocabulary",
-          "grammar_refs": [
-            {
-              "layer": "morphology",
-              "category": "verbs",
-              "group_id": "present_simple"
-            }
-          ]
+          "recycled": "Will: predictions and spontaneous decisions; contrast with going to, Present continuous for fixed future arrangements, arrive"
         },
         {
           "lesson": 5,
@@ -1111,15 +683,7 @@
             "different"
           ],
           "teacher_notes": "code: \"A1-25\"\nspeaking: \"Discuss: \\\"What would you do if you won €100,000?\\\"\"\nlistening: \"Someone describing their dream job\"\nreading: \"A \\\"What would you do if…?\\\" magazine feature\"\nwriting: \"3 second conditional sentences about dreams\"\ntask: \"Dream job pitch: if I could do any job, I would…\"\ncando: \"Can use second conditional for imagined situations\"\nhw: \"Write a paragraph about your ideal life\"",
-          "recycled": "Present continuous for fixed future arrangements, First conditional: if + present simple + will, possible",
-          "word_ids": [
-            "en_elementary_giving_reasons_040",
-            "en_elementary_career_development_064",
-            "en_starter_social_029",
-            "en_starter_describing_018",
-            "en_starter_describing_023"
-          ],
-          "theme": "verbs"
+          "recycled": "Present continuous for fixed future arrangements, First conditional: if + present simple + will, possible"
         },
         {
           "lesson": 6,
@@ -1146,17 +710,7 @@
             "more/less + adj"
           ],
           "teacher_notes": "code: \"A1-26\"\nspeaking: \"Compare two career paths or cities using comparatives\"\nlistening: \"People comparing two options\"\nreading: \"A pros/cons article\"\nwriting: \"A pros and cons list as full sentences\"\ntask: \"Decision debate: buy or rent? Remote or office?\"\ncando: \"Can compare options and justify a decision\"\nhw: \"Write a 100-word pros and cons analysis\"",
-          "recycled": "First conditional: if + present simple + will, Second conditional (intro): if + past + would; \"I would love to / If I had…\", would + any verb",
-          "word_ids": [
-            "en_elementary_describing_001",
-            "en_elementary_describing_015",
-            "en_elementary_finances_008",
-            "en_starter_giving_opinions_022",
-            "en_starter_giving_opinions_020",
-            "en_elementary_comparison_001",
-            "en_starter_giving_opinions_024"
-          ],
-          "theme": "vocabulary"
+          "recycled": "First conditional: if + present simple + will, Second conditional (intro): if + past + would; \"I would love to / If I had…\", would + any verb"
         },
         {
           "lesson": 7,
@@ -1182,20 +736,7 @@
             "important"
           ],
           "teacher_notes": "code: \"A1-27\"\nspeaking: \"Role-play: give advice to someone about a problem\"\nlistening: \"A radio advice programme\"\nreading: \"A problem page with advice column\"\nwriting: \"A reply to a problem page letter\"\ntask: \"Advice circle: each person presents a problem, others advise\"\ncando: \"Can ask for and give advice in real adult contexts\"\nhw: \"Write a letter of advice to a friend with a problem\"",
-          "recycled": "Second conditional (intro): if + past + would; \"I would love to / If I had…\", Comparatives and superlatives (extended); \"It is better to… / the best option is…\", worse",
-          "word_ids": [
-            "en_starter_asking_answering_questions_006",
-            "en_elementary_describing_034",
-            "en_elementary_giving_reasons_048",
-            "en_elementary_giving_reasons_045",
-            "en_elementary_giving_reasons_026",
-            "en_starter_learning_studying_009",
-            "en_starter_size_shape_005",
-            "en_starter_size_shape_006",
-            "en_starter_describing_081",
-            "en_starter_describing_011"
-          ],
-          "theme": "vocabulary"
+          "recycled": "Second conditional (intro): if + past + would; \"I would love to / If I had…\", Comparatives and superlatives (extended); \"It is better to… / the best option is…\", worse"
         },
         {
           "lesson": 8,
@@ -1216,15 +757,7 @@
             "important"
           ],
           "teacher_notes": "code: \"A1-28\"\nspeaking: \"Discuss: what do you need to do this week?\"\nlistening: \"Work instructions using obligation verbs\"\nreading: \"A workplace rules document\"\nwriting: \"A list of 5 things you must do this week\"\ntask: \"Work priorities task: rank what must be done today\"\ncando: \"Can express obligation and necessity using modal verbs\"\nhw: \"Write a to-do list with modal verbs for each item\"",
-          "recycled": "Comparatives and superlatives (extended); \"It is better to… / the best option is…\", Should/shouldn't; \"Why don't you + infinitive\"; imperative for strong advice, bad",
-          "word_ids": [
-            "en_elementary_work_044",
-            "en_elementary_condition_state_015",
-            "en_upper_intermediate_politics_governance_032",
-            "en_starter_giving_opinions_030",
-            "en_starter_describing_011"
-          ],
-          "theme": "vocabulary"
+          "recycled": "Comparatives and superlatives (extended); \"It is better to… / the best option is…\", Should/shouldn't; \"Why don't you + infinitive\"; imperative for strong advice, bad"
         },
         {
           "lesson": 9,
@@ -1247,17 +780,7 @@
             "informal"
           ],
           "teacher_notes": "code: \"A1-29\"\nspeaking: \"Practise 3 polite requests with a partner\"\nlistening: \"Formal and informal request dialogues\"\nreading: \"A series of emails making requests\"\nwriting: \"A formal email with 2 polite requests\"\ntask: \"Office role-play: chain of requests at work\"\ncando: \"Can make and respond to polite requests\"\nhw: \"Write a formal email making 3 polite requests\"",
-          "recycled": "Should/shouldn't; \"Why don't you + infinitive\"; imperative for strong advice, Need to / must / have to — necessity; mustn't for prohibition, have to",
-          "word_ids": [
-            "en_elementary_language_003",
-            "en_elementary_people_081",
-            "en_elementary_emotions_016",
-            "en_elementary_giving_reasons_049",
-            "en_elementary_language_019",
-            "en_starter_describing_042",
-            "en_elementary_customs_traditions_003"
-          ],
-          "theme": "verbs"
+          "recycled": "Should/shouldn't; \"Why don't you + infinitive\"; imperative for strong advice, Need to / must / have to — necessity; mustn't for prohibition, have to"
         },
         {
           "lesson": 10,
@@ -1271,14 +794,7 @@
             "ALL Unit 3 adjectives"
           ],
           "teacher_notes": "code: \"A1-30\"\nspeaking: \"Oral: describe future plans and give someone advice (3 min)\"\nlistening: \"Listening test: future language (15 items)\"\nreading: \"A \\\"My plans for the future\\\" article\"\nwriting: \"\\\"My future plans\\\" essay (200 words)\"\ntask: \"Future planning simulation: life at 50\"\ncando: \"Can discuss the future using all A1 future structures\"\nhw: \"Portfolio: write \\\"My plans for the next 5 years\\\"\"",
-          "recycled": "Need to / must / have to — necessity; mustn't for prohibition, Could you / Would you mind -ing / Shall I… / Would you like me to…, polite",
-          "grammar_refs": [
-            {
-              "layer": "morphology",
-              "category": "verbs",
-              "group_id": "present_continuous"
-            }
-          ]
+          "recycled": "Need to / must / have to — necessity; mustn't for prohibition, Could you / Would you mind -ing / Shall I… / Would you like me to…, polite"
         }
       ]
     },
@@ -1310,24 +826,7 @@
             "patient"
           ],
           "teacher_notes": "code: \"A1-31\"\nspeaking: \"Describe 3 people you know using 3 adjectives each\"\nlistening: \"Descriptions of colleagues\"\nreading: \"A character sketch\"\nwriting: \"100-word character description\"\ntask: \"Ideal colleague: build a profile together\"\ncando: \"Can describe personality with adjectives and prepositions\"\nhw: \"Write a description of your ideal manager\"",
-          "recycled": "Could you / Would you mind -ing / Shall I… / Would you like me to…, Going to, will, present continuous (future), first + second conditional, should, must, ALL Unit 3 vocabulary",
-          "word_ids": [
-            "en_elementary_personal_qualities_006",
-            "en_elementary_career_development_048",
-            "en_elementary_career_development_040",
-            "en_starter_describing_052",
-            "en_elementary_people_041",
-            "en_upper_intermediate_identity_self_concept_005",
-            "en_elementary_people_030",
-            "en_elementary_giving_reasons_047",
-            "en_elementary_personal_qualities_010",
-            "en_starter_work_075",
-            "en_elementary_personal_qualities_003",
-            "en_starter_describing_037",
-            "en_starter_describing_045",
-            "en_starter_describing_049"
-          ],
-          "theme": "adjectives"
+          "recycled": "Could you / Would you mind -ing / Shall I… / Would you like me to…, Going to, will, present continuous (future), first + second conditional, should, must, ALL Unit 3 vocabulary"
         },
         {
           "lesson": 2,
@@ -1349,25 +848,7 @@
             "important"
           ],
           "teacher_notes": "code: \"A1-32\"\nspeaking: \"Define 5 words using \\\"it is something that/which…\\\"\"\nlistening: \"Relative clauses in descriptions\"\nreading: \"A text rich in relative clauses\"\nwriting: \"5 sentences with relative clauses\"\ntask: \"Definition game: describe a word using a relative clause\"\ncando: \"Can use defining relative clauses to describe people and things\"\nhw: \"Write 5 descriptions using relative clauses\"",
-          "recycled": "Going to, will, present continuous (future), first + second conditional, should, must, Adjective + preposition: good at, bad at, interested in, worried about, friendly",
-          "word_ids": [
-            "en_starter_asking_answering_questions_007",
-            "en_elementary_language_023",
-            "en_starter_language_023",
-            "en_starter_asking_answering_questions_009",
-            "en_starter_giving_opinions_027",
-            "en_starter_describing_036",
-            "en_starter_describing_081",
-            "en_starter_describing_011"
-          ],
-          "theme": "vocabulary",
-          "grammar_refs": [
-            {
-              "layer": "syntax",
-              "category": "clauses",
-              "group_id": "relative_clauses"
-            }
-          ]
+          "recycled": "Going to, will, present continuous (future), first + second conditional, should, must, Adjective + preposition: good at, bad at, interested in, worried about, friendly"
         },
         {
           "lesson": 3,
@@ -1389,15 +870,7 @@
             "wrong"
           ],
           "teacher_notes": "code: \"A1-33\"\nspeaking: \"Practise agreeing and using tags with a partner\"\nlistening: \"Natural conversation with question tags\"\nreading: \"A dialogue with agreement markers\"\nwriting: \"5 sentences with appropriate question tags\"\ntask: \"Discussion: agree or disagree with 5 statements\"\ncando: \"Can use question tags in natural conversation\"\nhw: \"Write a dialogue that includes 4 question tags\"",
-          "recycled": "Adjective + preposition: good at, bad at, interested in, worried about, Defining relative clauses: who (people), which/that (things), where (places), special",
-          "word_ids": [
-            "en_starter_giving_opinions_021",
-            "en_elementary_giving_reasons_033",
-            "en_starter_giving_opinions_019",
-            "en_starter_describing_020",
-            "en_starter_describing_022"
-          ],
-          "theme": "verbs"
+          "recycled": "Adjective + preposition: good at, bad at, interested in, worried about, Defining relative clauses: who (people), which/that (things), where (places), special"
         },
         {
           "lesson": 4,
@@ -1418,16 +891,7 @@
             "formal"
           ],
           "teacher_notes": "code: \"A1-34\"\nspeaking: \"Practise 4 indirect questions in a role-play\"\nlistening: \"Polite professional enquiries\"\nreading: \"A formal email with indirect questions\"\nwriting: \"4 indirect question forms\"\ntask: \"Information request at work or a service\"\ncando: \"Can use indirect questions for polite professional communication\"\nhw: \"Write an email using 3 indirect questions\"",
-          "recycled": "Defining relative clauses: who (people), which/that (things), where (places), Question tags: positive statement → negative tag; negative → positive, think",
-          "word_ids": [
-            "en_elementary_giving_reasons_049",
-            "en_starter_learning_studying_013",
-            "en_starter_asking_answering_questions_002",
-            "en_starter_language_019",
-            "en_starter_describing_042",
-            "en_elementary_customs_traditions_003"
-          ],
-          "theme": "verbs"
+          "recycled": "Defining relative clauses: who (people), which/that (things), where (places), Question tags: positive statement → negative tag; negative → positive, think"
         },
         {
           "lesson": 5,
@@ -1454,22 +918,7 @@
             "similar"
           ],
           "teacher_notes": "code: \"A1-35\"\nspeaking: \"Give your opinion on 3 topics to a partner\"\nlistening: \"A short discussion with opinions\"\nreading: \"An opinion piece\"\nwriting: \"100-word opinion paragraph\"\ntask: \"Class opinion poll: vote and justify\"\ncando: \"Can express and justify an opinion\"\nhw: \"Write a 100-word opinion on a topic of your choice\"",
-          "recycled": "Question tags: positive statement → negative tag; negative → positive, Indirect questions: statement word order after question intro, explain",
-          "word_ids": [
-            "en_intermediate_social_093",
-            "en_elementary_describing_026",
-            "en_intermediate_social_089",
-            "en_starter_giving_opinions_019",
-            "en_starter_giving_opinions_023",
-            "en_starter_illnesses_symptoms_006",
-            "en_starter_giving_opinions_021",
-            "en_elementary_giving_reasons_033",
-            "en_starter_describing_011",
-            "en_starter_describing_034",
-            "en_starter_describing_023",
-            "en_elementary_condition_state_021"
-          ],
-          "theme": "vocabulary"
+          "recycled": "Question tags: positive statement → negative tag; negative → positive, Indirect questions: statement word order after question intro, explain"
         },
         {
           "lesson": 6,
@@ -1493,28 +942,7 @@
             "strange"
           ],
           "teacher_notes": "code: \"A1-36\"\nspeaking: \"Compare cultural norms at work with a partner\"\nlistening: \"People comparing cultural norms\"\nreading: \"A short cultural comparison text\"\nwriting: \"5 sentences about cultural norms in your country\"\ntask: \"Cultural differences discussion: is it polite to…?\"\ncando: \"Can discuss cultural norms and compare customs\"\nhw: \"Write a short guide to your country's work culture\"",
-          "recycled": "Indirect questions: statement word order after question intro, Opinion phrases: \"I think/believe that + clause\"; agreeing/disagreeing, interesting",
-          "word_ids": [
-            "en_elementary_describing_011",
-            "en_advanced_sociology_structures_c1_noun_norm",
-            "en_starter_describing_042",
-            "en_starter_describing_043",
-            "en_starter_describing_023",
-            "en_starter_describing_059",
-            "en_starter_work_073",
-            "en_starter_asking_answering_questions_005",
-            "en_elementary_comparison_001",
-            "en_starter_describing_078",
-            "en_elementary_condition_state_022"
-          ],
-          "theme": "vocabulary",
-          "grammar_refs": [
-            {
-              "layer": "morphology",
-              "category": "verbs",
-              "group_id": "present_simple"
-            }
-          ]
+          "recycled": "Indirect questions: statement word order after question intro, Opinion phrases: \"I think/believe that + clause\"; agreeing/disagreeing, interesting"
         },
         {
           "lesson": 7,
@@ -1540,20 +968,7 @@
             "sorry"
           ],
           "teacher_notes": "code: \"A1-37\"\nspeaking: \"Role-play: invite and respond to 3 different events\"\nlistening: \"Social invitation conversations\"\nreading: \"An invitation and two replies (accept + decline)\"\nwriting: \"A formal invitation and an informal one\"\ntask: \"Event planning simulation: organise a work event\"\ncando: \"Can invite, accept and decline invitations\"\nhw: \"Write a formal invitation and a polite decline\"",
-          "recycled": "Opinion phrases: \"I think/believe that + clause\"; agreeing/disagreeing, Present simple for general truths; \"It is + adjective + to + infinitive\", compare",
-          "word_ids": [
-            "en_elementary_booking_planning_a_trip_003",
-            "en_elementary_career_development_053",
-            "en_starter_people_006",
-            "en_starter_leisure_activities_015",
-            "en_starter_work_054",
-            "en_starter_leisure_021",
-            "en_starter_shopping_003",
-            "en_starter_work_025",
-            "en_elementary_career_development_041",
-            "en_starter_emotions_013"
-          ],
-          "theme": "verbs"
+          "recycled": "Opinion phrases: \"I think/believe that + clause\"; agreeing/disagreeing, Present simple for general truths; \"It is + adjective + to + infinitive\", compare"
         },
         {
           "lesson": 8,
@@ -1576,16 +991,7 @@
             "urgent"
           ],
           "teacher_notes": "code: \"A1-38\"\nspeaking: \"Role-play: 3 different phone situations\"\nlistening: \"3 telephone conversations\"\nreading: \"Phone message scripts\"\nwriting: \"A phone message from dictation\"\ntask: \"Phone relay: message passed through 3 people\"\ncando: \"Can make and receive professional phone calls\"\nhw: \"Write a script for a professional phone call\"",
-          "recycled": "Present simple for general truths; \"It is + adjective + to + infinitive\", Inviting: \"Would you like to…?\" / \"Could you come to…?\" Accepting/declining politely, busy",
-          "word_ids": [
-            "en_elementary_career_development_041",
-            "en_starter_technology_018",
-            "en_starter_using_smartphone_001",
-            "en_starter_work_081",
-            "en_starter_work_050",
-            "en_starter_work_025"
-          ],
-          "theme": "adjectives"
+          "recycled": "Present simple for general truths; \"It is + adjective + to + infinitive\", Inviting: \"Would you like to…?\" / \"Could you come to…?\" Accepting/declining politely, busy"
         },
         {
           "lesson": 9,
@@ -1611,17 +1017,7 @@
             "polite"
           ],
           "teacher_notes": "code: \"A1-39\"\nspeaking: \"Discuss: what makes an email professional?\"\nlistening: \"An email being read aloud\"\nreading: \"Formal vs informal emails — compare\"\nwriting: \"A formal and informal version of the same email\"\ntask: \"Email correction challenge: fix 6 register errors\"\ncando: \"Can write a simple formal and informal email\"\nhw: \"Write a formal email and an informal one on the same topic\"",
-          "recycled": "Inviting: \"Would you like to…?\" / \"Could you come to…?\" Accepting/declining politely, Formal telephone phrases; modal verbs for politeness (could, would), leave",
-          "word_ids": [
-            "en_starter_learning_studying_010",
-            "en_starter_work_067",
-            "en_elementary_social_004",
-            "en_starter_work_058",
-            "en_starter_social_027",
-            "en_elementary_customs_traditions_003",
-            "en_starter_describing_042"
-          ],
-          "theme": "school"
+          "recycled": "Inviting: \"Would you like to…?\" / \"Could you come to…?\" Accepting/declining politely, Formal telephone phrases; modal verbs for politeness (could, would), leave"
         },
         {
           "lesson": 10,
@@ -1635,14 +1031,7 @@
             "ALL Unit 4 adjectives"
           ],
           "teacher_notes": "code: \"A1-40\"\nspeaking: \"Role-play simulation: 3 workplace communication scenarios\"\nlistening: \"Extended listening: social and professional dialogues\"\nreading: \"A full social/professional text\"\nwriting: \"150-word professional email\"\ntask: \"Communication challenge: all Unit 4 skills in one task\"\ncando: \"Can communicate naturally in social and professional adult contexts\"\nhw: \"Portfolio: best email + description\"",
-          "recycled": "Formal telephone phrases; modal verbs for politeness (could, would), Formal vs informal register; tenses in emails (present + past + future), formal",
-          "grammar_refs": [
-            {
-              "layer": "syntax",
-              "category": "clauses",
-              "group_id": "relative_clauses"
-            }
-          ]
+          "recycled": "Formal telephone phrases; modal verbs for politeness (could, would), Formal vs informal register; tenses in emails (present + past + future), formal"
         }
       ]
     },
@@ -1675,23 +1064,7 @@
             "necessary"
           ],
           "teacher_notes": "code: \"A1-41\"\nspeaking: \"Discuss 2 topics using opinion language\"\nlistening: \"A short radio discussion (3 speakers)\"\nreading: \"A short opinion article\"\nwriting: \"100-word opinion paragraph on a topic\"\ntask: \"Class debate on a simple real-world topic\"\ncando: \"Can discuss real-world topics at A1 with simple opinions\"\nhw: \"Write a 120-word opinion on a topic you care about\"",
-          "recycled": "Formal vs informal register; tenses in emails (present + past + future), Relative clauses, question tags, indirect questions, opinion phrases, modal verbs, ALL Unit 4 vocabulary",
-          "word_ids": [
-            "en_elementary_environment_018",
-            "en_elementary_people_084",
-            "en_intermediate_social_093",
-            "en_starter_language_011",
-            "en_elementary_agreeing_disagreeing_005",
-            "en_elementary_agreeing_disagreeing_002",
-            "en_starter_giving_opinions_021",
-            "en_elementary_giving_reasons_033",
-            "en_starter_giving_opinions_019",
-            "en_starter_describing_011",
-            "en_starter_describing_034",
-            "en_starter_size_shape_010",
-            "en_elementary_condition_state_015"
-          ],
-          "theme": "vocabulary"
+          "recycled": "Formal vs informal register; tenses in emails (present + past + future), Relative clauses, question tags, indirect questions, opinion phrases, modal verbs, ALL Unit 4 vocabulary"
         },
         {
           "lesson": 2,
@@ -1711,11 +1084,7 @@
             "ALL A1 adjectives in natural speech"
           ],
           "teacher_notes": "code: \"A1-42\"\nspeaking: \"Extended conversation: 5 minutes on a topic\"\nlistening: \"Authentic short conversations (TV/radio extract)\"\nreading: \"A full dialogue — analyse and discuss\"\nwriting: \"Self-record a 2-minute monologue\"\ntask: \"Partner feedback: fluency, grammar, vocabulary\"\ncando: \"Can maintain a short extended conversation at A1\"\nhw: \"Write a script and then speak without reading it\"",
-          "recycled": "Relative clauses, question tags, indirect questions, opinion phrases, modal verbs, Mixed A1 grammar in discussion; because + connectors: however, so, but, interesting",
-          "word_ids": [
-            "en_starter_illnesses_symptoms_004"
-          ],
-          "theme": "adjectives"
+          "recycled": "Relative clauses, question tags, indirect questions, opinion phrases, modal verbs, Mixed A1 grammar in discussion; because + connectors: however, so, but, interesting"
         },
         {
           "lesson": 3,
@@ -1734,14 +1103,7 @@
             "take"
           ],
           "teacher_notes": "code: \"A1-43\"\nspeaking: \"Collocation matching game\"\nlistening: \"Collocations in authentic short clips\"\nreading: \"A text — find and note collocations\"\nwriting: \"Write 8 collocations in full sentences\"\ntask: \"Collocation bingo\"\ncando: \"Can use common collocations naturally\"\nhw: \"Create a collocation word map for 5 key verbs\"",
-          "recycled": "Mixed A1 grammar in discussion; because + connectors: however, so, but, Review of all A1 grammar through fluency tasks, by the way",
-          "word_ids": [
-            "en_starter_work_044",
-            "en_starter_work_043",
-            "en_starter_work_042",
-            "en_starter_modes_of_transport_012"
-          ],
-          "theme": "jobs"
+          "recycled": "Mixed A1 grammar in discussion; because + connectors: however, so, but, Review of all A1 grammar through fluency tasks, by the way"
         },
         {
           "lesson": 4,
@@ -1782,19 +1144,7 @@
             "unclear"
           ],
           "teacher_notes": "code: \"A1-45\"\nspeaking: \"Discuss: main idea vs detail in a text\"\nlistening: \"How to read strategically\"\nreading: \"A text using skimming then scanning\"\nwriting: \"A summary of a 200-word text\"\ntask: \"Speed reading: who finds the answer first?\"\ncando: \"Can use skimming and scanning to read efficiently\"\nhw: \"Read one article at home and write a 50-word summary\"",
-          "recycled": "Collocations: do + noun, make + noun, have + noun, take + noun, Word and sentence stress; rising vs falling intonation in questions, syllable",
-          "word_ids": [
-            "en_upper_intermediate_describing_021",
-            "en_elementary_basic_science_011",
-            "en_elementary_describing_014",
-            "en_starter_learning_studying_011",
-            "en_starter_asking_answering_questions_005",
-            "en_elementary_giving_reasons_023",
-            "en_starter_furniture_026",
-            "en_starter_describing_011",
-            "en_starter_describing_080"
-          ],
-          "theme": "verbs"
+          "recycled": "Collocations: do + noun, make + noun, have + noun, take + noun, Word and sentence stress; rising vs falling intonation in questions, syllable"
         },
         {
           "lesson": 6,
@@ -1819,17 +1169,7 @@
             "logical"
           ],
           "teacher_notes": "code: \"A1-46\"\nspeaking: \"Discuss: what makes a good paragraph?\"\nlistening: \"A short structured talk\"\nreading: \"3 model paragraphs — identify structure\"\nwriting: \"A structured paragraph on a given topic\"\ntask: \"Peer editing: improve a partner's paragraph\"\ncando: \"Can write a structured paragraph with connectors\"\nhw: \"Write a paragraph on your favourite topic using full structure\"",
-          "recycled": "Word and sentence stress; rising vs falling intonation in questions, Mixed A1 grammar in reading context, key",
-          "word_ids": [
-            "en_elementary_time_009",
-            "en_starter_conjunctions_connectors_004",
-            "en_elementary_language_005",
-            "en_starter_learning_studying_010",
-            "en_elementary_social_006",
-            "en_starter_describing_058",
-            "en_elementary_giving_reasons_011"
-          ],
-          "theme": "vocabulary"
+          "recycled": "Word and sentence stress; rising vs falling intonation in questions, Mixed A1 grammar in reading context, key"
         },
         {
           "lesson": 7,
@@ -1842,14 +1182,7 @@
             "ALL — seen in A2 context"
           ],
           "teacher_notes": "code: \"A1-47\"\nspeaking: \"Discuss: what do you find hardest in English?\"\nlistening: \"A short A2-level dialogue\"\nreading: \"A short A2-level article\"\nwriting: \"Your personal language learning goals\"\ntask: \"A1 reflection: what have you learned?\"\ncando: \"Can identify areas to develop at A2\"\nhw: \"Write your 5 goals for A2\"",
-          "recycled": "Mixed A1 grammar in reading context, Discourse connectors: firstly, also, however, for example, in conclusion, clear",
-          "grammar_refs": [
-            {
-              "layer": "morphology",
-              "category": "verbs",
-              "group_id": "past_simple"
-            }
-          ]
+          "recycled": "Mixed A1 grammar in reading context, Discourse connectors: firstly, also, however, for example, in conclusion, clear"
         },
         {
           "lesson": 8,

@@ -36,14 +36,7 @@
           ],
           "speaking_percent": 55,
           "teacher_notes": "code: \"EN-B2-001\"\npronunciation: [{\"point\":\"Intonation in diplomatic hedging\",\"explain\":\"Using fall-rise intonation contours to soft-land controversial assertions and reserve judgment.\",\"examples\":[{\"pattern\":\"Admittedly, however...\",\"ipa\":\"/ədˈmɪt.ɪd.li haʊˈev.ər/\",\"word\":\"Admittedly\"}],\"visual\":\"🗣️\"}]\ncando: \"Can defend a complex position, nuance reservations, and chair executive debates fluently\"",
-          "recycled": "Foundational communication & basic level vocabulary",
-          "word_ids": [
-            "en_upper_intermediate_formal_debate_vocab_004",
-            "en_elementary_food_drink_027",
-            "en_elementary_describing_026",
-            "en_upper_intermediate_critical_thinking_024"
-          ],
-          "theme": "adjectives"
+          "recycled": "Foundational communication & basic level vocabulary"
         },
         {
           "lesson": 2,
@@ -74,11 +67,7 @@
           ],
           "speaking_percent": 50,
           "teacher_notes": "code: \"EN-B2-002\"\ncando: \"Can report allegations, corporate findings, and speculative news using distancing passives\"",
-          "recycled": "Mandative Subjunctive after verbs of demand and recommendation (It is essential that he be...), Hedging and diplomatic stance devices (admittedly, conceivably, to a certain extent), Nuance",
-          "word_ids": [
-            "en_elementary_numbers_039"
-          ],
-          "theme": "vocabulary"
+          "recycled": "Mandative Subjunctive after verbs of demand and recommendation (It is essential that he be...), Hedging and diplomatic stance devices (admittedly, conceivably, to a certain extent), Nuance"
         }
       ]
     },
@@ -145,11 +134,7 @@
           ],
           "speaking_percent": 50,
           "teacher_notes": "code: \"EN-B2-004\"\ncando: \"Can analyze geopolitical trends and economic forecasts using fronting and cleft emphasis\"",
-          "recycled": "Subject-operator inversion after negative adverbials (Not only, Seldom, Rarely, Under no circumstances), Conditional inversion (Had we known, Should you require, Were it not for), Diplomacy",
-          "word_ids": [
-            "en_advanced_power_institutions_c1_noun_protectionism"
-          ],
-          "theme": "vocabulary"
+          "recycled": "Subject-operator inversion after negative adverbials (Not only, Seldom, Rarely, Under no circumstances), Conditional inversion (Had we known, Should you require, Were it not for), Diplomacy"
         }
       ]
     },
@@ -186,11 +171,7 @@
           ],
           "speaking_percent": 50,
           "teacher_notes": "code: \"EN-B2-005\"\ncando: \"Can evaluate energy transition models and negotiate environmental agreements using conditional alternatives\"",
-          "recycled": "Fronting of prepositional and adverbial phrases for thematic coherence, Advanced cleft structures (All that matters is..., What concerns economists most is...), Protectionism",
-          "word_ids": [
-            "en_advanced_science_tech_society_c1_noun_ecological_footprint"
-          ],
-          "theme": "vocabulary"
+          "recycled": "Fronting of prepositional and adverbial phrases for thematic coherence, Advanced cleft structures (All that matters is..., What concerns economists most is...), Protectionism"
         },
         {
           "lesson": 2,
@@ -257,11 +238,7 @@
           ],
           "speaking_percent": 50,
           "teacher_notes": "code: \"EN-B2-007\"\ncando: \"Can analyze AI ethics and data privacy frameworks while maintaining high stylistic cohesion\"",
-          "recycled": "Present and past participle clauses (Having implemented the policy, government agencies observed...), Reduced relative and adverbial clauses for academic conciseness, Conservationist",
-          "word_ids": [
-            "en_upper_intermediate_applied_sciences_engineering_002"
-          ],
-          "theme": "vocabulary"
+          "recycled": "Present and past participle clauses (Having implemented the policy, government agencies observed...), Reduced relative and adverbial clauses for academic conciseness, Conservationist"
         },
         {
           "lesson": 2,
@@ -291,12 +268,7 @@
           ],
           "speaking_percent": 45,
           "teacher_notes": "code: \"EN-B2-008\"\ncando: \"Can transform spoken technical explanations into formal executive reports using nominalization\"",
-          "recycled": "Ellipsis in complex clauses to avoid redundancy, Substitution using so, do so, one/ones, former/latter, Disruptive tech",
-          "word_ids": [
-            "en_advanced_science_tech_society_c1_noun_infrastructure",
-            "en_upper_intermediate_identity_self_concept_007"
-          ],
-          "theme": "vocabulary"
+          "recycled": "Ellipsis in complex clauses to avoid redundancy, Substitution using so, do so, one/ones, former/latter, Disruptive tech"
         }
       ]
     },
@@ -400,14 +372,7 @@
           ],
           "speaking_percent": 50,
           "teacher_notes": "code: \"EN-B2-011\"\ncando: \"Can publish sophisticated artistic reviews and cultural critiques using precise intensifiers and aesthetic lexicon\"",
-          "recycled": "Generalizing relative terms: whatever, whenever, wherever, whoever, however, Adverbial clauses of concession (However difficult the case may be...), Due process",
-          "grammar_refs": [
-            {
-              "layer": "morphology",
-              "category": "adjectives",
-              "group_id": "adjectives"
-            }
-          ]
+          "recycled": "Generalizing relative terms: whatever, whenever, wherever, whoever, however, Adverbial clauses of concession (However difficult the case may be...), Due process"
         },
         {
           "lesson": 2,
@@ -437,11 +402,7 @@
           ],
           "speaking_percent": 50,
           "teacher_notes": "code: \"EN-B2-012\"\ncando: \"Can analyze architectural styles, artistic movements, and historical artifacts with rich descriptive fluency\"",
-          "recycled": "Combining extreme adjectives with absolute adverbs (utterly magnificent, absolutely sublime), Gradable adjectives with modifying adverbs (fairly impressive, remarkably nuanced), Evocative",
-          "word_ids": [
-            "en_elementary_environment_015"
-          ],
-          "theme": "vocabulary"
+          "recycled": "Combining extreme adjectives with absolute adverbs (utterly magnificent, absolutely sublime), Gradable adjectives with modifying adverbs (fairly impressive, remarkably nuanced), Evocative"
         }
       ]
     },
@@ -507,12 +468,7 @@
           ],
           "speaking_percent": 65,
           "teacher_notes": "code: \"EN-B2-014\"\ncando: \"Can chair executive boardroom negotiations, manage impasses, and build consensus fluently\"",
-          "recycled": "Dependent prepositions in business English (commitment to, insight into, abstain from, coincide with), Prepositional phrase collocations in boardroom negotiation, Leverage",
-          "word_ids": [
-            "en_advanced_language_persuasion_c1_noun_consensus",
-            "en_elementary_agreeing_disagreeing_004"
-          ],
-          "theme": "vocabulary"
+          "recycled": "Dependent prepositions in business English (commitment to, insight into, abstain from, coincide with), Prepositional phrase collocations in boardroom negotiation, Leverage"
         }
       ]
     },
@@ -549,11 +505,7 @@
           ],
           "speaking_percent": 55,
           "teacher_notes": "code: \"EN-B2-015\"\ncando: \"Can navigate complex socio-cultural discussions and articulate multi-layered social viewpoints\"",
-          "recycled": "Discourse markers for structuring, conceding, and reframing (In light of, Be that as it may, As far as X is concerned), Chairing and managing formal executive discussions, Bargaining power",
-          "word_ids": [
-            "en_upper_intermediate_gender_equality_004"
-          ],
-          "theme": "vocabulary"
+          "recycled": "Discourse markers for structuring, conceding, and reframing (In light of, Be that as it may, As far as X is concerned), Chairing and managing formal executive discussions, Bargaining power"
         },
         {
           "lesson": 2,
@@ -584,11 +536,7 @@
           ],
           "speaking_percent": 50,
           "teacher_notes": "code: \"EN-B2-016\"\ncando: \"Can debate migration policies, diaspora dynamics, and social equity with appropriate register and nuance\"",
-          "recycled": "Complex verb patterns (urge someone to do, prevent someone from doing, object to someone doing), Phrasal verbs extended grammatical patterns (separable vs non-separable with double objects), Inclusivity",
-          "word_ids": [
-            "en_intermediate_places_024"
-          ],
-          "theme": "vocabulary"
+          "recycled": "Complex verb patterns (urge someone to do, prevent someone from doing, object to someone doing), Phrasal verbs extended grammatical patterns (separable vs non-separable with double objects), Inclusivity"
         }
       ]
     },
@@ -692,12 +640,7 @@
           ],
           "speaking_percent": 45,
           "teacher_notes": "code: \"EN-B2-019\"\ncando: \"Can present research findings, formulate empirical hypotheses, and hedge academic conclusions responsibly\"",
-          "recycled": "Rhetorical questioning and parallel structures in public relations speeches, Extended metaphors in persuasive rhetoric, Rebuttal",
-          "word_ids": [
-            "en_advanced_language_adjective_empirical",
-            "en_advanced_language_adjective_abstract"
-          ],
-          "theme": "adjectives"
+          "recycled": "Rhetorical questioning and parallel structures in public relations speeches, Extended metaphors in persuasive rhetoric, Rebuttal"
         },
         {
           "lesson": 2,

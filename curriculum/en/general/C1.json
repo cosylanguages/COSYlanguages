@@ -32,14 +32,7 @@
           ],
           "speaking_percent": 40,
           "teacher_notes": "code: \"EN-C1-001\"\npronunciation: [{\"point\":\"Academic word stress & schwa\",\"explain\":\"Mastering primary stress in multi-syllable academic nouns (e.g. syn-THE-sis, me-tha-do-LO-gi-cal).\",\"examples\":[{\"pattern\":\"synthesize\",\"ipa\":\"/ˈsɪn.θə.saɪz/\",\"word\":\"synthesize\"}],\"visual\":\"🔬\"}]\ncando: \"Can evaluate and synthesize complex scientific research terminology in formal academic registers\"",
-          "recycled": "Foundational communication & basic level vocabulary",
-          "word_ids": [
-            "en_advanced_knowledge_epistemology_c1_noun_empirical_evidence",
-            "en_upper_intermediate_formal_debate_vocab_019",
-            "en_advanced_language_verb_extrapolate",
-            "en_advanced_science_tech_society_c1_noun_paradigm_shift"
-          ],
-          "theme": "vocabulary"
+          "recycled": "Foundational communication & basic level vocabulary"
         },
         {
           "lesson": 2,
@@ -115,11 +108,7 @@
           ],
           "speaking_percent": 40,
           "teacher_notes": "code: \"EN-C1-004\"\npronunciation: [{\"point\":\"Formal political rhetoric intonation\",\"explain\":\"Using deliberate pauses and rhythmic cadences in policy discussions.\",\"examples\":[{\"pattern\":\"sovereignty\",\"ipa\":\"/ˈsɒv.rɪn.ti/\",\"word\":\"sovereignty\"}],\"visual\":\"🏛️\"}]\ncando: \"Can utilize specialized political and institutional terminology precisely in formal contexts\"",
-          "recycled": "Inversion after negative adverbials (Not only does AI automate..., but...), Diplomatic disagreement and stance reframing, Technological singularity",
-          "word_ids": [
-            "en_advanced_power_institutions_c1_noun_hegemony"
-          ],
-          "theme": "vocabulary"
+          "recycled": "Inversion after negative adverbials (Not only does AI automate..., but...), Diplomatic disagreement and stance reframing, Technological singularity"
         },
         {
           "lesson": 2,
@@ -194,11 +183,7 @@
           ],
           "speaking_percent": 40,
           "teacher_notes": "code: \"EN-C1-007\"\npronunciation: [{\"point\":\"Sociological terminology stress\",\"explain\":\"Accurately placing stress in complex derivative nouns (e.g. stra-ti-fi-CA-tion, e-ga-li-TA-ri-a-nism).\",\"examples\":[{\"pattern\":\"stratification\",\"ipa\":\"/ˌstræt.ɪ.fɪˈkeɪ.ʃən/\",\"word\":\"stratification\"}],\"visual\":\"🌐\"}]\ncando: \"Can analyze and discuss complex societal structures and demographic trends using precise sociological lexicon\"",
-          "recycled": "Cleft sentences for emphasis (What the committee proposed was... / It was the minister who...), Rhetorical questions and parliamentary debate structures, Accountability",
-          "word_ids": [
-            "en_advanced_sociology_structures_c1_noun_social_mobility"
-          ],
-          "theme": "vocabulary"
+          "recycled": "Cleft sentences for emphasis (What the committee proposed was... / It was the minister who...), Rhetorical questions and parliamentary debate structures, Accountability"
         },
         {
           "lesson": 2,
@@ -273,14 +258,7 @@
           ],
           "speaking_percent": 40,
           "teacher_notes": "code: \"EN-C1-010\"\npronunciation: [{\"point\":\"Philosophical terminology IPA\",\"explain\":\"Mastering vowel quality in abstract philosophical terms (e.g. e-pis-te-MO-lo-gy, heu-RIS-tic).\",\"examples\":[{\"pattern\":\"epistemology\",\"ipa\":\"/ɪˌpɪs.təˈmɒl.ə.dʒi/\",\"word\":\"epistemology\"}],\"visual\":\"💡\"}]\ncando: \"Can evaluate philosophical concepts of truth, knowledge validation, and cognitive biases\"",
-          "recycled": "Conditionals of concession and hypothesis (Even if socio-economic policy were implemented...), Nuanced turn-taking and topic management, Social safety net",
-          "word_ids": [
-            "en_advanced_knowledge_epistemology_c1_noun_epistemology",
-            "en_upper_intermediate_psychology_077",
-            "en_proficiency_language_004",
-            "en_upper_intermediate_media_misinformation_002"
-          ],
-          "theme": "vocabulary"
+          "recycled": "Conditionals of concession and hypothesis (Even if socio-economic policy were implemented...), Nuanced turn-taking and topic management, Social safety net"
         },
         {
           "lesson": 2,
@@ -322,11 +300,7 @@
           ],
           "speaking_percent": 80,
           "teacher_notes": "code: \"EN-C1-012\"\ncando: \"Can critically challenge logical fallacies and examine post-truth phenomena in academic discourse\"",
-          "recycled": "Modality for degrees of certainty and speculation (must have been, could arguably be, is bound to), Advanced punctuation mechanics (semicolons, em-dashes for parenthetical stance), Veracity",
-          "word_ids": [
-            "en_upper_intermediate_psychology_001"
-          ],
-          "theme": "vocabulary"
+          "recycled": "Modality for degrees of certainty and speculation (must have been, could arguably be, is bound to), Advanced punctuation mechanics (semicolons, em-dashes for parenthetical stance), Veracity"
         }
       ]
     },
@@ -434,11 +408,7 @@
           ],
           "speaking_percent": 40,
           "teacher_notes": "code: \"EN-C1-016\"\npronunciation: [{\"point\":\"Economic terminology stress\",\"explain\":\"Maintaining correct stress and clear vowel reduction in complex financial compounds.\",\"examples\":[{\"pattern\":\"arbitrage\",\"ipa\":\"/ˈɑː.bɪ.trɑːʒ/\",\"word\":\"arbitrage\"}],\"visual\":\"📈\"}]\ncando: \"Can evaluate macroeconomic policies, systemic risk factors, and global market dynamics fluently\"",
-          "recycled": "Advanced negotiation, hedging, and floor management in formal panel discussions, Spontaneous keynote presentation delivery, Consensus building",
-          "word_ids": [
-            "en_advanced_power_institutions_c1_noun_protectionism"
-          ],
-          "theme": "vocabulary"
+          "recycled": "Advanced negotiation, hedging, and floor management in formal panel discussions, Spontaneous keynote presentation delivery, Consensus building"
         },
         {
           "lesson": 2,
