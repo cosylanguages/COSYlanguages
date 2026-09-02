@@ -1,0 +1,498 @@
+{
+  "language": "fr",
+  "course_type": "professional",
+  "level": "C1",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Écrits stratégiques, Livres blancs & Notes de cadrage",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Rédiger des livres blancs et rapports d'orientation",
+          "grammar": [
+            "Structures nominales denses et style académique d'entreprise",
+            "Registres de langue soutenu et précision lexico-syntaxique"
+          ],
+          "vocabulary": [
+            "Rupture",
+            "Référentiel",
+            "Paradigme",
+            "Infrastructure",
+            "Viabilité"
+          ],
+          "teacher_notes": "code: \"FR-PRO-C1-001\"\ncando: \"Peut rédiger des rapports d'orientation stratégique et des livres blancs sectoriels d'expert.\"",
+          "recycled": "Foundational communication & basic level vocabulary"
+        },
+        {
+          "lesson": 2,
+          "type": "gv",
+          "title": "Rédiger des résolutions de conseil et notes de gouvernance",
+          "grammar": [
+            "Voix passive à nuance modale (Il est préconisé que..., Les décisions seront exécutoires...)",
+            "Subjonctif dans la rédaction de politiques d'entreprise"
+          ],
+          "vocabulary": [
+            "Fiduciaire",
+            "Directive",
+            "Gouvernance",
+            "Résolution",
+            "Mandat",
+            "Stipulation"
+          ],
+          "teacher_notes": "code: \"FR-PRO-C1-002\"\ncando: \"Peut rédiger des résolutions officielles pour le conseil d'administration et des notes de gouvernance.\"",
+          "recycled": "Structures nominales denses, Registres de langue soutenu, Viabilité"
+        },
+        {
+          "lesson": 3,
+          "type": "gv",
+          "title": "Communication de crise et notes d'information aux actionnaires",
+          "grammar": [
+            "Atténuation syntaxique poussée et gestion du risque juridique",
+            "Structures conditionnelles d'anticipation des aléas"
+          ],
+          "vocabulary": [
+            "Contingence",
+            "Mitigation",
+            "Passif",
+            "Actionnaire",
+            "Réputationnel",
+            "Transparence"
+          ],
+          "teacher_notes": "code: \"FR-PRO-C1-003\"\ncando: \"Peut rédiger des communiqués de crise et des notes d'information destinées aux investisseurs.\"",
+          "recycled": "Subjonctif dans la rédaction de politiques d'entreprise, Fiduciaire"
+        },
+        {
+          "lesson": 4,
+          "type": "spoken",
+          "title": "Communiqués de presse institutionnels et déclarations officielles",
+          "grammar": [
+            "Inversion du sujet pour effet oratoire (Non seulement le groupe s'est développé...)",
+            "Précision lexicale dans la communication d'entreprise"
+          ],
+          "vocabulary": [
+            "Porte-parole",
+            "Communiqué de presse",
+            "Acquisition",
+            "Restructuration",
+            "Transformation",
+            "Divulgation"
+          ],
+          "teacher_notes": "code: \"FR-PRO-C1-004\"\ncando: \"Peut rédiger des communiqués de presse institutionnels et gérer les déclarations officielles.\"",
+          "recycled": "Atténuation syntaxique poussée, Contingence"
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Gouvernance, Conseil d'administration & Arbitrage",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "spoken",
+          "title": "Médiation en conseil d'administration et arbitrage",
+          "grammar": [
+            "Formulations diplomatiques avancées",
+            "Nuances de ton et d'accentuation oratoire"
+          ],
+          "vocabulary": [
+            "Gouvernance",
+            "Consensus",
+            "Atténuer",
+            "Levier",
+            "Synergie",
+            "Alignement"
+          ],
+          "teacher_notes": "code: \"FR-PRO-C1-005\"\ncando: \"Peut arbitrer les conflits au sein du conseil d'administration et aligner les intérêts stratégiques.\"",
+          "recycled": "Inversion du sujet pour effet oratoire, Restructuration"
+        },
+        {
+          "lesson": 2,
+          "type": "spoken",
+          "title": "Animer les débats du conseil et gérer les dissensions",
+          "grammar": [
+            "Formules d'autorité pour la maîtrise du temps de parole",
+            "Réfutation diplomatique (Tout en partageant le constat financier, il convient de noter...)"
+          ],
+          "vocabulary": [
+            "Dissension",
+            "Résolution",
+            "Objection",
+            "Associé",
+            "Stratégique",
+            "Unanimité"
+          ],
+          "teacher_notes": "code: \"FR-PRO-C1-006\"\ncando: \"Peut gérer les dissensions en conseil et amener les membres à un vote unanime.\"",
+          "recycled": "Formulations diplomatiques avancées, Nuances de ton, Levier"
+        },
+        {
+          "lesson": 3,
+          "type": "gv",
+          "title": "Gérer la conformité réglementaire et l'éthique des affaires",
+          "grammar": [
+            "Modalités déontiques soutenu (est tenu de respecter, se doit de garantir)",
+            "Conditionnalité complexe des cadres réglementaires"
+          ],
+          "vocabulary": [
+            "Conformité",
+            "Réglementation",
+            "Audit",
+            "Juridiction",
+            "Déontologie",
+            "Statutaire"
+          ],
+          "teacher_notes": "code: \"FR-PRO-C1-007\"\ncando: \"Peut débattre des normes de conformité réglementaire et d'éthique des affaires au niveau exécutif.\"",
+          "recycled": "Formules d'autorité pour la maîtrise du temps, Unanimité"
+        },
+        {
+          "lesson": 4,
+          "type": "vocab",
+          "title": "Aligner les priorités des parties prenantes et visions stratégiques",
+          "grammar": [
+            "Structures clivées de hiérarchisation (Ce qui prime pour les actionnaires, c'est...)",
+            "Connecteurs de concession et de synthèse stratégique"
+          ],
+          "vocabulary": [
+            "Cadre",
+            "Priorisation",
+            "Alignement",
+            "Synergie",
+            "Arbitrage",
+            "Cohésion"
+          ],
+          "teacher_notes": "code: \"FR-PRO-C1-008\"\ncando: \"Peut harmoniser les priorités divergentes des parties prenantes au sein d'une feuille de route.\"",
+          "recycled": "Modalités déontiques soutenu, Statutaire"
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Discours liminaires, Investisseurs & Prise de parole médias",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "spoken",
+          "title": "Prononcer un discours liminaire et incarner la vision",
+          "grammar": [
+            "Procédés de style oratoire (anaphore, tricolon, questions rhétoriques)",
+            "Maîtrise du rythme et du registre élevé"
+          ],
+          "vocabulary": [
+            "Visionnaire",
+            "Discours liminaire",
+            "Transformation",
+            "Pionnier",
+            "Rupture",
+            "Héritage"
+          ],
+          "teacher_notes": "code: \"FR-PRO-C1-009\"\ncando: \"Peut prononcer un discours liminaire inspirant pour présenter la vision d'entreprise.\"",
+          "recycled": "Structures clivées de hiérarchisation, Cadre"
+        },
+        {
+          "lesson": 2,
+          "type": "spoken",
+          "title": "Présentations à haut risque devant des fonds d'investissement",
+          "grammar": [
+            "Phrasé de la persuasion financière",
+            "Projections hypothétiques avec conditionnel soutenu (Si nous devions nous déployer sur...)"
+          ],
+          "vocabulary": [
+            "Valorisation",
+            "Capitaux",
+            "Fonds de roulement",
+            "Rendement",
+            "Scalabilité",
+            "Dilution"
+          ],
+          "teacher_notes": "code: \"FR-PRO-C1-010\"\ncando: \"Peut défendre la valorisation de son entreprise devant des fonds d'investissement exigeants.\"",
+          "recycled": "Procédés de style oratoire, Rythme, Visionnaire"
+        },
+        {
+          "lesson": 3,
+          "type": "gv",
+          "title": "Maîtriser les conférences de presse et interviews incisives",
+          "grammar": [
+            "Techniques du rebond / pivot d'interview (C'est une question essentielle, mais l'enjeu majeur reste...)",
+            "Phrasé de réserve diplomatique"
+          ],
+          "vocabulary": [
+            "Incisif",
+            "Rebond",
+            "Scrutin",
+            "Récit",
+            "Orientation",
+            "Redvabilité"
+          ],
+          "teacher_notes": "code: \"FR-PRO-C1-011\"\ncando: \"Peut faire face à des journalistes incisifs et recentrer l'interview sur la communication officielle.\"",
+          "recycled": "Projections hypothétiques avec conditionnel soutenu, Valorisation"
+        },
+        {
+          "lesson": 4,
+          "type": "spoken",
+          "title": "Modérer des tables rondes de dirigeants et débats sectoriels",
+          "grammar": [
+            "Formules d'animation de table ronde d'experts",
+            "Synthèse en direct d'interventions complexes"
+          ],
+          "vocabulary": [
+            "Intervenant",
+            "Modérateur",
+            "Synthèse",
+            "Débat",
+            "Discours",
+            "Interjection"
+          ],
+          "teacher_notes": "code: \"FR-PRO-C1-012\"\ncando: \"Peut modérer une table ronde d'experts et synthétiser en direct des débats de haut niveau.\"",
+          "recycled": "Techniques du rebond / pivot d'interview, Scrutin"
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Haute négociation, Fusions-Acquisitions & Diplomatie",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "spoken",
+          "title": "Négocier des fusions-acquisitions et audits d'achat",
+          "grammar": [
+            "Inversion de l'hypothèse dans la négociation contractuelle (Si l'audit avait révélé...)",
+            "Prudence et réserves financières"
+          ],
+          "vocabulary": [
+            "Fusion-acquisition",
+            "Audit d'achat",
+            "Synergie",
+            "Intégration",
+            "Passif",
+            "Rachat"
+          ],
+          "teacher_notes": "code: \"FR-PRO-C1-013\"\ncando: \"Peut négocier les modalités d'une opération de fusion-acquisition et traiter l'audit d'achat.\"",
+          "recycled": "Formules d'animation de table ronde, Modérateur"
+        },
+        {
+          "lesson": 2,
+          "type": "gv",
+          "title": "Débloquer les impasses de négociation et conciliation",
+          "grammar": [
+            "Phrases de reformulation d'impasse (Recadrons ce point de blocage comme une opportunité de...)",
+            "Concessions stratégiques sous réserve"
+          ],
+          "vocabulary": [
+            "Blocage",
+            "Impasse",
+            "Concession",
+            "Point mort",
+            "Arbitrage",
+            "Médiateur"
+          ],
+          "teacher_notes": "code: \"FR-PRO-C1-014\"\ncando: \"Peut débloquer une négociation au point mort grâce à une reformulation stratégique.\"",
+          "recycled": "Inversion de l'hypothèse contractuelle, Audit d'achat"
+        },
+        {
+          "lesson": 3,
+          "type": "gv",
+          "title": "Persuasion tactique, cadrage et architecture d'influence",
+          "grammar": [
+            "Syntaxe avancée du cadrage rhétorique",
+            "Emploi de métaphores stratégiques d'entreprise"
+          ],
+          "vocabulary": [
+            "Levier",
+            "Cadrage",
+            "Influence",
+            "Psychologie",
+            "Positionnement",
+            "Alignement"
+          ],
+          "teacher_notes": "code: \"FR-PRO-C1-015\"\ncando: \"Peut manier les techniques de cadrage rhétorique pour influencer les décisions d'un partenaire.\"",
+          "recycled": "Phrases de reformulation d'impasse, Impasse"
+        },
+        {
+          "lesson": 4,
+          "type": "spoken",
+          "title": "Négocier des coentreprises internationales et consortiums",
+          "grammar": [
+            "Registre juridique soutenu pour les accords internationaux",
+            "Rigueur dans la définition des partages de responsabilité"
+          ],
+          "vocabulary": [
+            "Coentreprise",
+            "Consortium",
+            "Juridiction",
+            "Part d'intérêt",
+            "Protocole",
+            "Gouvernance"
+          ],
+          "teacher_notes": "code: \"FR-PRO-C1-016\"\ncando: \"Peut négocier la création de coentreprises internationales et formaliser des consortiums.\"",
+          "recycled": "Syntaxe avancée du cadrage rhétorique, Positionnement"
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Réseaux exécutifs, Relations grands comptes & Diplomatie",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "spoken",
+          "title": "Développer des réseaux exécutifs de haut niveau",
+          "grammar": [
+            "Registre de conversation exécutif raffiné",
+            "Formulations de demande indirecte sans sollicitation lourde"
+          ],
+          "vocabulary": [
+            "Réseau exécutif",
+            "Mécène",
+            "Patronage",
+            "Discrétion",
+            "Influence",
+            "Cercle"
+          ],
+          "teacher_notes": "code: \"FR-PRO-C1-017\"\ncando: \"Peut entretenir des réseaux décisionnels de haut niveau avec tact et discrétion.\"",
+          "recycled": "Registre juridique soutenu, Consortium"
+        },
+        {
+          "lesson": 2,
+          "type": "spoken",
+          "title": "Diplomatie d'affaires et relations publiques internationales",
+          "grammar": [
+            "Registre à haut contexte culturel vs bas contexte",
+            "Nuances d'expression du respect et du protocole"
+          ],
+          "vocabulary": [
+            "Diplomatie",
+            "Protocole",
+            "Étiquette",
+            "Haut contexte",
+            "Sur-mesure",
+            "Souveraineté"
+          ],
+          "teacher_notes": "code: \"FR-PRO-C1-018\"\ncando: \"Peut gérer des relations publiques internationales complexes dans le respect des usages séculaires.\"",
+          "recycled": "Registre de conversation exécutif, Discrétion"
+        },
+        {
+          "lesson": 3,
+          "type": "vocab",
+          "title": "Animer des comités consultatifs et réseaux d'influence",
+          "grammar": [
+            "Sollicitation d'avis d'experts (Nous sollicitons votre éclairage stratégique sur...)",
+            "Structures prépositives formelles"
+          ],
+          "vocabulary": [
+            "Comité consultatif",
+            "Chef de file",
+            "Tutelle",
+            "Honneurs",
+            "Cercle de réflexion",
+            "Gérance"
+          ],
+          "teacher_notes": "code: \"FR-PRO-C1-019\"\ncando: \"Peut créer et présider un comité consultatif ou un cercle de réflexion stratégique.\"",
+          "recycled": "Registre à haut contexte culturel, Étiquette"
+        },
+        {
+          "lesson": 4,
+          "type": "spoken",
+          "title": "Organiser des séminaires stratégiques de direction",
+          "grammar": [
+            "Marqueurs d'animation de séminaire exécutif",
+            "Synthèse des travaux de haute direction"
+          ],
+          "vocabulary": [
+            "Séminaire",
+            "Sommet",
+            "Facilitation",
+            "Délibération",
+            "Discours",
+            "Synthèse"
+          ],
+          "teacher_notes": "code: \"FR-PRO-C1-020\"\ncando: \"Peut animer un séminaire stratégique de direction et faire la synthèse des délibérations.\"",
+          "recycled": "Sollicitation d'avis d'experts, Gérance"
+        }
+      ]
+    },
+    {
+      "unit": 6,
+      "title": "Dossiers exécutifs, Chasse de têtes & Évaluation 360°",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Rédiger un dossier exécutif et une biographie de dirigeant",
+          "grammar": [
+            "Nominalisation dense dans la biographie de dirigeant",
+            "Mise en valeur du mandat d'administrateur et des responsabilités fiduciaires"
+          ],
+          "vocabulary": [
+            "Dossier exécutif",
+            "Notice biographique",
+            "Administrateur",
+            "Fiduciaire",
+            "Mandat",
+            "Feuille de route"
+          ],
+          "teacher_notes": "code: \"FR-PRO-C1-021\"\ncando: \"Peut rédiger un dossier exécutif de niveau C1 et une notice biographique d'administrateur.\"",
+          "recycled": "Marqueurs d'animation de séminaire, Délibération"
+        },
+        {
+          "lesson": 2,
+          "type": "gv",
+          "title": "Chasse de têtes et entretiens de recrutement de dirigeants",
+          "grammar": [
+            "Discours hypothétique sur la vision managériale",
+            "Mise en forme d'une philosophie de leadership"
+          ],
+          "vocabulary": [
+            "Chasseur de têtes",
+            "Recrutement exécutif",
+            "Instance",
+            "Postulant",
+            "Philosophie",
+            "Compétence"
+          ],
+          "teacher_notes": "code: \"FR-PRO-C1-022\"\ncando: \"Peut réussir un entretien mené par un chasseur de têtes pour un poste de haute direction.\"",
+          "recycled": "Nominalisation dense dans la biographie, Mandat"
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Négocier un contrat de dirigeant, options et indemnités",
+          "grammar": [
+            "Négociation financière haute (clause de parachute, stock-options)",
+            "Hypothèses d'exercice et clauses de non-concurrence"
+          ],
+          "vocabulary": [
+            "Actions",
+            "Acquisition définitive",
+            "Option",
+            "Indemnité de rupture",
+            "Prime",
+            "Rémunération"
+          ],
+          "teacher_notes": "code: \"FR-PRO-C1-023\"\ncando: \"Peut négocier un contrat de travail de dirigeant d'entreprise, ses indemnités et ses options.\"",
+          "recycled": "Discours hypothétique sur la vision, Chasseur de têtes"
+        },
+        {
+          "lesson": 4,
+          "type": "srev",
+          "title": "Audits de leadership et évaluations exécutives 360°",
+          "grammar": [
+            "Délivrer des retours exécutifs (Si l'agilité managériale est établie, la structuration processus reste...)",
+            "Définition d'objectifs de succession managériale"
+          ],
+          "vocabulary": [
+            "Évaluation 360°",
+            "Audit",
+            "Évaluation",
+            "Leadership",
+            "Succession",
+            "Référentiel"
+          ],
+          "teacher_notes": "code: \"FR-PRO-C1-024\"\ncando: \"Peut conduire des évaluations exécutives 360° et piloter les audits de succession managériale.\"",
+          "recycled": "Négociation financière haute, Acquisition définitive"
+        }
+      ]
+    }
+  ]
+}

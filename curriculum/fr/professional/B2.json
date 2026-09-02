@@ -1,0 +1,499 @@
+{
+  "language": "fr",
+  "course_type": "professional",
+  "level": "B2",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Écrits professionnels complexes & Rapports d'activité",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Rédiger des rapports d'activité et synthèses exécutives",
+          "grammar": [
+            "Passif et constructions impersonnelles pour la neutralité du style",
+            "Structures nominales complexes dans les titres d'études"
+          ],
+          "vocabulary": [
+            "Synthèse exécutive",
+            "Constat",
+            "Méthodologie",
+            "Recommandation",
+            "Évaluation",
+            "Bilan"
+          ],
+          "teacher_notes": "code: \"FR-PRO-B2-001\"\ncando: \"Peut rédiger un rapport d'activité structuré et une synthèse exécutive pour la direction.\"",
+          "recycled": "Foundational communication & basic level vocabulary"
+        },
+        {
+          "lesson": 2,
+          "type": "gv",
+          "title": "Rédiger une proposition commerciale et un cahier des charges",
+          "grammar": [
+            "Emploi des modaux de recommandation (il convient de, il serait judicieux de)",
+            "Articulateurs logiques de cause, conséquence et justification (en conséquence, dès lors)"
+          ],
+          "vocabulary": [
+            "Cahier des charges",
+            "Faisabilité",
+            "Justification",
+            "Objectif",
+            "Périmètre",
+            "Ressource"
+          ],
+          "teacher_notes": "code: \"FR-PRO-B2-002\"\ncando: \"Peut élaborer une proposition commerciale convaincante et formaliser un cahier des charges.\"",
+          "recycled": "Passif et constructions impersonnelles, Évaluation"
+        },
+        {
+          "lesson": 3,
+          "type": "gv",
+          "title": "Gestion des litiges, réclamations complexes et communication de crise",
+          "grammar": [
+            "Subjonctif et tournures conditionnelles pour les sujets délicats",
+            "Vocabulaire d'atténuation et diplomatie écrite pour désamorcer les conflits"
+          ],
+          "vocabulary": [
+            "Escalade",
+            "Responsabilité",
+            "Atténuer",
+            "Rectifier",
+            "Conformité",
+            "Incident"
+          ],
+          "teacher_notes": "code: \"FR-PRO-B2-003\"\ncando: \"Peut répondre à des réclamations clients complexes et gérer par écrit une situation de crise.\"",
+          "recycled": "Emploi des modaux de recommandation, Faisabilité"
+        },
+        {
+          "lesson": 4,
+          "type": "spoken",
+          "title": "Annonces internes, directives et notes de cadrage",
+          "grammar": [
+            "Futur antérieur et futur simple pour fixer le calendrier d'entreprise",
+            "Formulations impératives et réglementaires courtoises"
+          ],
+          "vocabulary": [
+            "Politique",
+            "Procédure",
+            "Direction",
+            "Respect",
+            "Mise en œuvre",
+            "Directive"
+          ],
+          "teacher_notes": "code: \"FR-PRO-B2-004\"\ncando: \"Peut communiquer des directives internes et rédiger une note de cadrage stratégique.\"",
+          "recycled": "Subjonctif et tournures conditionnelles, Conformité"
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Animation de réunions & Conduite de projets",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "spoken",
+          "title": "Animer une réunion et recadrer les débats",
+          "grammar": [
+            "Structures de cadrage (Venons-en au point suivant, Recentrons-nous sur)",
+            "Impératif de groupe et modaux de gestion du temps (Veillons à respecter l'horaire)"
+          ],
+          "vocabulary": [
+            "Animateur",
+            "Ordre du jour",
+            "Temps imparti",
+            "Débat",
+            "Action",
+            "Cadre"
+          ],
+          "teacher_notes": "code: \"FR-PRO-B2-005\"\ncando: \"Peut animer efficacement une réunion, distribuer la parole et maintenir l'ordre du jour.\"",
+          "recycled": "Futur antérieur et futur simple, Respect"
+        },
+        {
+          "lesson": 2,
+          "type": "spoken",
+          "title": "Gérer les avis divergents et faciliter le consensus",
+          "grammar": [
+            "Exprimer un désaccord diplomatique (Je comprends cette analyse, toutefois...)",
+            "Conditionnel passé pour analyser les erreurs de parcours"
+          ],
+          "vocabulary": [
+            "Faciliter",
+            "Perspective",
+            "Désaccord",
+            "Résolution",
+            "Terrain d'entente",
+            "Compromis"
+          ],
+          "teacher_notes": "code: \"FR-PRO-B2-006\"\ncando: \"Peut désamorcer les tensions en réunion et guider l'équipe vers un consensus.\"",
+          "recycled": "Structures de cadrage, Temps imparti"
+        },
+        {
+          "lesson": 3,
+          "type": "gv",
+          "title": "Mener des réunions hybrides et visioconférences",
+          "grammar": [
+            "Questions indirectes pour solliciter l'avis des participants distants",
+            "Gestion des aléas techniques en français (Votre micro semble coupé, je reprenne la main)"
+          ],
+          "vocabulary": [
+            "Hybride",
+            "Bande passante",
+            "En sourdine",
+            "Sous-groupe",
+            "Collaboration",
+            "Plateforme"
+          ],
+          "teacher_notes": "code: \"FR-PRO-B2-007\"\ncando: \"Peut animer des visioconférences internationales ou hybrides en garantissant l'engagement de tous.\"",
+          "recycled": "Exprimer un désaccord diplomatique, Terrain d'entente"
+        },
+        {
+          "lesson": 4,
+          "type": "vocab",
+          "title": "Synthétiser le consensus et attribuer les responsabilités",
+          "grammar": [
+            "Discours rapporté avec verbes introducteurs variés (insister, confirmer, confier)",
+            "Structures passives d'attribution (Un tel est chargé de piloter le projet)"
+          ],
+          "vocabulary": [
+            "Consensus",
+            "Responsabilité",
+            "Jalon",
+            "Pilote",
+            "Délai",
+            "Livrable"
+          ],
+          "teacher_notes": "code: \"FR-PRO-B2-008\"\ncando: \"Peut reformuler les conclusions d'une réunion et attribuer clairement les tâches stratégiques.\"",
+          "recycled": "Questions indirectes pour solliciter l'avis, Collaboration"
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Présentations stratégiques & Pitchs d'affaires",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "spoken",
+          "title": "Présenter un projet devant la direction & Q&R",
+          "grammar": [
+            "Marqueurs de transition élaborés (Ce qui nous amène à considérer, À ce stade)",
+            "Passif de présentation objective"
+          ],
+          "vocabulary": [
+            "Vue d'ensemble",
+            "Indicateur",
+            "Stratégie",
+            "Prévision",
+            "Partie prenante",
+            "Retour sur investissement"
+          ],
+          "teacher_notes": "code: \"FR-PRO-B2-009\"\ncando: \"Peut présenter un projet structuré à la direction et répondre aux questions techniques.\"",
+          "recycled": "Discours rapporté avec verbes introducteurs, Responsabilité"
+        },
+        {
+          "lesson": 2,
+          "type": "spoken",
+          "title": "Pitcher une idée ou un produit à des investisseurs",
+          "grammar": [
+            "Questions rhétoriques pour capter l'attention",
+            "Structures d'insistance (Ce qui fait la force de notre offre, c'est...)"
+          ],
+          "vocabulary": [
+            "Pitch",
+            "Proposition de valeur",
+            "Élément différenciateur",
+            "Investisseur",
+            "Adhésion",
+            "Scalabilité"
+          ],
+          "teacher_notes": "code: \"FR-PRO-B2-010\"\ncando: \"Peut réaliser un pitch percutant pour convaincre des investisseurs ou des décisionnaires.\"",
+          "recycled": "Marqueurs de transition élaborés, Stratégie, Indicateur"
+        },
+        {
+          "lesson": 3,
+          "type": "gv",
+          "title": "Présenter des prévisions financières et bilans de performance",
+          "grammar": [
+            "Nuancer les comparatifs de résultats (nettement supérieur, sensiblement égal)",
+            "Locutions prépositives d'analyse financière (au vu de, par rapport à)"
+          ],
+          "vocabulary": [
+            "Chiffre d'affaires",
+            "Marge",
+            "Projection",
+            "Trimestre",
+            "Écart",
+            "Croissance"
+          ],
+          "teacher_notes": "code: \"FR-PRO-B2-011\"\ncando: \"Peut exposer des résultats financiers trimestriels et détailler les prévisions budgétaires.\"",
+          "recycled": "Questions rhétoriques pour capter l'attention, Proposition de valeur"
+        },
+        {
+          "lesson": 4,
+          "type": "spoken",
+          "title": "Réfuter poliment les objections et gérer les questions pièges",
+          "grammar": [
+            "Techniques de recul et de temporisation (Il conviendra d'analyser ce point avec précision)",
+            "Propositions conditionnelles de prudence"
+          ],
+          "vocabulary": [
+            "Objection",
+            "Contestation",
+            "Temporiser",
+            "Rassurer",
+            "Recadrer",
+            "Traiter"
+          ],
+          "teacher_notes": "code: \"FR-PRO-B2-012\"\ncando: \"Peut répondre avec assurance aux questions difficiles et réfuter les objections sans fâcher.\"",
+          "recycled": "Nuancer les comparatifs de résultats, Chiffre d'affaires"
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Négociation commerciale & Persuasion",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "spoken",
+          "title": "Conduire une négociation commerciale et définir les concession",
+          "grammar": [
+            "Conditionnel et hypothèses de négociation",
+            "Vocabulaire de précaution oratoire"
+          ],
+          "vocabulary": [
+            "Négociation",
+            "Concession",
+            "Clauses",
+            "Contrat",
+            "Accord",
+            "Céder"
+          ],
+          "teacher_notes": "code: \"FR-PRO-B2-013\"\ncando: \"Peut conduire une négociation commerciale et obtenir des concessions mutuelles.\"",
+          "recycled": "Techniques de recul et de temporisation, Objection"
+        },
+        {
+          "lesson": 2,
+          "type": "gv",
+          "title": "Négocier les clauses d'un contrat et les pénalités",
+          "grammar": [
+            "Conditionnel mixte appliqué au droit des contrats",
+            "Modaux d'obligation légale (être tenu de, sous peine de)"
+          ],
+          "vocabulary": [
+            "Stipulation",
+            "Exclusivité",
+            "Pénalité",
+            "Renégocier",
+            "Moyen de pression",
+            "Engagement"
+          ],
+          "teacher_notes": "code: \"FR-PRO-B2-014\"\ncando: \"Peut discuter les termes juridiques et commerciaux d'un contrat de prestation de services.\"",
+          "recycled": "Conditionnel et hypothèses de négociation, Clauses"
+        },
+        {
+          "lesson": 3,
+          "type": "gv",
+          "title": "Techniques de persuasion et mise en valeur des avantages",
+          "grammar": [
+            "Phrases clivées d'insistance (C'est la rentabilité du projet qui garantit...)",
+            "Adverbes de conviction (incontestablement, judicieusement)"
+          ],
+          "vocabulary": [
+            "Persuasion",
+            "Argumentation",
+            "Incitation",
+            "Rendement",
+            "Bénéfice",
+            "Atout"
+          ],
+          "teacher_notes": "code: \"FR-PRO-B2-015\"\ncando: \"Peut employer des leviers de persuasion pour faire valoriser son offre face à la concurrence.\"",
+          "recycled": "Conditionnel mixte appliqué au droit des contrats, Moyen de pression"
+        },
+        {
+          "lesson": 4,
+          "type": "spoken",
+          "title": "Conclure une négociation et formaliser le partenariat",
+          "grammar": [
+            "Formules de signature et d'engagement officiel (Par la présente, il est convenu)",
+            "Propositions infinitives de finalité juridique"
+          ],
+          "vocabulary": [
+            "Ratifier",
+            "Vinculant",
+            "Protocole d'accord",
+            "Finaliser",
+            "Partenariat",
+            "Exécution"
+          ],
+          "teacher_notes": "code: \"FR-PRO-B2-016\"\ncando: \"Peut conclure formellement un accord commercial et valider un protocole d'accord.\"",
+          "recycled": "Phrases clivées d'insistance, Argumentation"
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Réseautage professionnel & Relations interculturelles",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "spoken",
+          "title": "Réseauter efficacement lors de colloques et salons",
+          "grammar": [
+            "Engager la conversation avec tact (Si je ne m'abuse..., Assistez-vous à la conférence sur...)",
+            "Présent parfait continu / depuis pour présenter ses chantiers en cours"
+          ],
+          "vocabulary": [
+            "Colloque",
+            "Exposant",
+            "Intervenant",
+            "Délégué",
+            "Réseautage",
+            "Prospect"
+          ],
+          "teacher_notes": "code: \"FR-PRO-B2-017\"\ncando: \"Peut nouer des contacts professionnels lors de grands événements et salons d'affaires.\"",
+          "recycled": "Formules de signature et d'engagement officiel, Ratifier"
+        },
+        {
+          "lesson": 2,
+          "type": "spoken",
+          "title": "Entretenir son portefeuille clients et fidéliser",
+          "grammar": [
+            "Relances relationnelles courtoises (Comment se déroule la mise en place...)",
+            "Modaux de service client (Nous serions ravis de vous accompagner)"
+          ],
+          "vocabulary": [
+            "Compte",
+            "Fidélisation",
+            "Client",
+            "Satisfaction",
+            "Loyauté",
+            "Portefeuille"
+          ],
+          "teacher_notes": "code: \"FR-PRO-B2-018\"\ncando: \"Peut entretenir des relations durables avec ses clients et s'assurer de leur satisfaction.\"",
+          "recycled": "Engager la conversation avec tact, Délégué"
+        },
+        {
+          "lesson": 3,
+          "type": "vocab",
+          "title": "Étiquette d'affaires et différences interculturelles",
+          "grammar": [
+            "Adaptation du niveau de langue selon les cultures d'entreprise",
+            "Modaux de déduction sur les attentes interculturelles"
+          ],
+          "vocabulary": [
+            "Protocole",
+            "Hiérarchie",
+            "Norme",
+            "Sensibilité",
+            "Diplomatie",
+            "Contexte"
+          ],
+          "teacher_notes": "code: \"FR-PRO-B2-019\"\ncando: \"Peut s'adapter aux us et coutumes des affaires en milieu francophone et international.\"",
+          "recycled": "Relances relationnelles courtoises, Fidélisation"
+        },
+        {
+          "lesson": 4,
+          "type": "spoken",
+          "title": "Recevoir des partenaires et inviter au restaurant d'affaires",
+          "grammar": [
+            "Techniques de partage de parole à table",
+            "Exprimer des opinions sur l'actualité économique sans polémiquer"
+          ],
+          "vocabulary": [
+            "Hôte",
+            "Hospitalité",
+            "Réception",
+            "Toast",
+            "Confrère",
+            "Convive"
+          ],
+          "teacher_notes": "code: \"FR-PRO-B2-020\"\ncando: \"Peut organiser et animer un repas d'affaires en respectant les codes de l'hospitalité.\"",
+          "recycled": "Adaptation du niveau de langue, Diplomatie"
+        }
+      ]
+    },
+    {
+      "unit": 6,
+      "title": "Carrière, Entretiens & Évaluation de performance",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Optimiser son CV et son profil LinkedIn professionnel",
+          "grammar": [
+            "Verbes d'action percutants et tournures concises",
+            "Quantification des réalisations (Augmentation de la productivité de 20 %)"
+          ],
+          "vocabulary": [
+            "Compétence",
+            "Accomplissement",
+            "Optimisation",
+            "Recommandation",
+            "Profil",
+            "Bilan de compétences"
+          ],
+          "teacher_notes": "code: \"FR-PRO-B2-021\"\ncando: \"Peut rédiger un CV percutant de niveau B2 et valoriser son profil professionnel en ligne.\"",
+          "recycled": "Techniques de partage de parole, Hôte"
+        },
+        {
+          "lesson": 2,
+          "type": "gv",
+          "title": "Réussir son entretien d'embauche avec la méthode STAR",
+          "grammar": [
+            "Temps du récit (Passé composé, Imparfait, Plus-que-parfait) pour structurer ses exemples",
+            "Méthode STAR : Situation, Tâche, Action, Résultat"
+          ],
+          "vocabulary": [
+            "Comportemental",
+            "Compétence",
+            "Situation",
+            "Action",
+            "Résultat",
+            "Surmonter"
+          ],
+          "teacher_notes": "code: \"FR-PRO-B2-022\"\ncando: \"Peut répondre aux questions comportementales d'un entretien d'embauche grâce à la méthode STAR.\"",
+          "recycled": "Verbes d'action percutants, Accomplissement"
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Négocier sa rémunération, ses avantages et ses conditions",
+          "grammar": [
+            "Conditionnel et précaution oratoire dans la négociation salariale",
+            "Formulations de contre-proposition financières"
+          ],
+          "vocabulary": [
+            "Rémunération",
+            "Lequel",
+            "Avantages",
+            "Package",
+            "Mobilité",
+            "Part variable"
+          ],
+          "teacher_notes": "code: \"FR-PRO-B2-023\"\ncando: \"Peut négocier son package de rémunération et ses conditions de travail lors d'une embauche.\"",
+          "recycled": "Temps du récit pour structurer ses exemples, Méthode STAR, Surmonter"
+        },
+        {
+          "lesson": 4,
+          "type": "srev",
+          "title": "Conduire et passer l'entretien annuel d'évaluation (EAE)",
+          "grammar": [
+            "Évaluation constructive (Fait preuve d'autonomie, des axes de progrès subsistent sur...)",
+            "Fixation d'objectifs futurs avec le futur de projet"
+          ],
+          "vocabulary": [
+            "Entretien annuel",
+            "Évaluation",
+            "Repère",
+            "KPI",
+            "Objectif",
+            "Progression"
+          ],
+          "teacher_notes": "code: \"FR-PRO-B2-024\"\ncando: \"Peut mener ou passer un entretien annuel d'évaluation complet et fixer des objectifs KPI.\"",
+          "recycled": "Conditionnel et précaution oratoire, Rémunération"
+        }
+      ]
+    }
+  ]
+}
