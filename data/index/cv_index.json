@@ -1,0 +1,6566 @@
+[
+  {
+    "word_id": "cv-word-a1-describing-пысăк",
+    "legacy_id": "cv_starter_describing_001",
+    "word": "пысăк",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-пĕчĕк",
+    "legacy_id": "cv_starter_describing_002",
+    "word": "пĕчĕк",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-ăшă",
+    "legacy_id": "cv_starter_describing_003",
+    "word": "ăшă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-сивĕ",
+    "legacy_id": "cv_starter_describing_004",
+    "word": "сивĕ",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-çĕнĕ",
+    "legacy_id": "cv_starter_describing_005",
+    "word": "çĕнĕ",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-ватă",
+    "legacy_id": "cv_starter_describing_006",
+    "word": "ватă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-çамрăк",
+    "legacy_id": "cv_starter_describing_007",
+    "word": "çамрăк",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-лайăх",
+    "legacy_id": "cv_starter_describing_008",
+    "word": "лайăх",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-япăх",
+    "legacy_id": "cv_starter_describing_009",
+    "word": "япăх",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-хитре",
+    "legacy_id": "cv_starter_describing_010",
+    "word": "хитре",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-çутă",
+    "legacy_id": "cv_starter_describing_011",
+    "word": "çутă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-тĕттĕм",
+    "legacy_id": "cv_starter_describing_012",
+    "word": "тĕттĕм",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-ырă",
+    "legacy_id": "cv_starter_describing_013",
+    "word": "ырă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-усал",
+    "legacy_id": "cv_starter_describing_014",
+    "word": "усал",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-пуян",
+    "legacy_id": "cv_starter_describing_015",
+    "word": "пуян",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-чухăн",
+    "legacy_id": "cv_starter_describing_016",
+    "word": "чухăн",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-хăвăрт",
+    "legacy_id": "cv_starter_describing_017",
+    "word": "хăвăрт",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-яваш",
+    "legacy_id": "cv_starter_describing_018",
+    "word": "яваш",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-вăрăм",
+    "legacy_id": "cv_starter_describing_019",
+    "word": "вăрăм",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-кĕске",
+    "legacy_id": "cv_starter_describing_020",
+    "word": "кĕске",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-тутлă",
+    "legacy_id": "cv_starter_describing_021",
+    "word": "тутлă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-йӳçĕ",
+    "legacy_id": "cv_starter_describing_022",
+    "word": "йӳçĕ",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-хĕрлĕ",
+    "legacy_id": "cv_starter_describing_023",
+    "word": "хĕрлĕ",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-шурă",
+    "legacy_id": "cv_starter_describing_024",
+    "word": "шурă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-хура",
+    "legacy_id": "cv_starter_describing_025",
+    "word": "хура",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-симĕс",
+    "legacy_id": "cv_starter_describing_026",
+    "word": "симĕс",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-кăвак",
+    "legacy_id": "cv_starter_describing_027",
+    "word": "кăвак",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-сарă",
+    "legacy_id": "cv_starter_describing_028",
+    "word": "сарă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-мăнтăр",
+    "legacy_id": "cv_starter_describing_029",
+    "word": "мăнтăр",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-çинçе",
+    "legacy_id": "cv_starter_describing_030",
+    "word": "çинçе",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-йивĕр",
+    "legacy_id": "cv_starter_describing_031",
+    "word": "йивĕр",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-çăмăл",
+    "legacy_id": "cv_starter_describing_032",
+    "word": "çăмăл",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-уçă",
+    "legacy_id": "cv_starter_describing_033",
+    "word": "уçă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-хупă",
+    "legacy_id": "cv_starter_describing_034",
+    "word": "хупă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-таса",
+    "legacy_id": "cv_starter_describing_035",
+    "word": "таса",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-вара",
+    "legacy_id": "cv_starter_describing_036",
+    "word": "вара",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-хăвăртлă",
+    "legacy_id": "cv_starter_describing_037",
+    "word": "хăвăртлă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-шулăтрах",
+    "legacy_id": "cv_starter_describing_038",
+    "word": "шулăтрах",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-тирпейлĕ",
+    "legacy_id": "cv_starter_describing_039",
+    "word": "тирпейлĕ",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-хаклă",
+    "legacy_id": "cv_starter_describing_040",
+    "word": "хаклă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-йунçă",
+    "legacy_id": "cv_starter_describing_041",
+    "word": "йунçă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-паллă",
+    "legacy_id": "cv_starter_describing_042",
+    "word": "паллă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-кăсăклă",
+    "legacy_id": "cv_starter_describing_043",
+    "word": "кăсăклă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-кулянчăк",
+    "legacy_id": "cv_starter_describing_044",
+    "word": "кулянчăк",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-шăп",
+    "legacy_id": "cv_starter_describing_045",
+    "word": "шăп",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-шавлă",
+    "legacy_id": "cv_starter_describing_046",
+    "word": "шавлă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-хытă",
+    "legacy_id": "cv_starter_describing_047",
+    "word": "хытă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-çемçе",
+    "legacy_id": "cv_starter_describing_048",
+    "word": "çемçе",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-çынлă",
+    "legacy_id": "cv_starter_describing_049",
+    "word": "çынлă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-тĕрĕс",
+    "legacy_id": "cv_starter_describing_050",
+    "word": "тĕрĕс",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-йăнăш",
+    "legacy_id": "cv_starter_describing_051",
+    "word": "йăнăш",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-хĕрхенчĕк",
+    "legacy_id": "cv_starter_describing_052",
+    "word": "хĕрхенчĕк",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-хастар",
+    "legacy_id": "cv_starter_describing_053",
+    "word": "хастар",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-кашнă",
+    "legacy_id": "cv_starter_describing_054",
+    "word": "кашнă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-ачаш",
+    "legacy_id": "cv_starter_describing_055",
+    "word": "ачаш",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-паттăр",
+    "legacy_id": "cv_starter_describing_056",
+    "word": "паттăр",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-хăракан",
+    "legacy_id": "cv_starter_describing_057",
+    "word": "хăракан",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-хĕвеллĕ",
+    "legacy_id": "cv_starter_describing_058",
+    "word": "хĕвеллĕ",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-çумăрлă",
+    "legacy_id": "cv_starter_describing_059",
+    "word": "çумăрлă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-юрлă",
+    "legacy_id": "cv_starter_describing_060",
+    "word": "юрлă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-çиллĕ",
+    "legacy_id": "cv_starter_describing_061",
+    "word": "çиллĕ",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-пĕлĕтлĕ",
+    "legacy_id": "cv_starter_describing_062",
+    "word": "пĕлĕтлĕ",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-пушă",
+    "legacy_id": "cv_starter_describing_063",
+    "word": "пушă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-тулă",
+    "legacy_id": "cv_starter_describing_064",
+    "word": "тулă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-шурăмпуçлă",
+    "legacy_id": "cv_starter_describing_065",
+    "word": "шурăмпуçлă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-каçхи",
+    "legacy_id": "cv_starter_describing_066",
+    "word": "каçхи",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-ирхи",
+    "legacy_id": "cv_starter_describing_067",
+    "word": "ирхи",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-кăнтăрлахи",
+    "legacy_id": "cv_starter_describing_068",
+    "word": "кăнтăрлахи",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-çухи",
+    "legacy_id": "cv_starter_describing_069",
+    "word": "çухи",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-хĕллехи",
+    "legacy_id": "cv_starter_describing_070",
+    "word": "хĕллехи",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-кĕркуннехи",
+    "legacy_id": "cv_starter_describing_071",
+    "word": "кĕркуннехи",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-çуркуннехи",
+    "legacy_id": "cv_starter_describing_072",
+    "word": "çуркуннехи",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-кӳршĕри",
+    "legacy_id": "cv_starter_describing_073",
+    "word": "кӳршĕри",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-шалахи",
+    "legacy_id": "cv_starter_describing_074",
+    "word": "шалахи",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-тулашри",
+    "legacy_id": "cv_starter_describing_075",
+    "word": "тулашри",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-сывă",
+    "legacy_id": "cv_starter_describing_076",
+    "word": "сывă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-чирлĕ",
+    "legacy_id": "cv_starter_describing_077",
+    "word": "чирлĕ",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-телейлĕ",
+    "legacy_id": "cv_starter_describing_078",
+    "word": "телейлĕ",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-хурлăхлă",
+    "legacy_id": "cv_starter_describing_079",
+    "word": "хурлăхлă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-çумри",
+    "legacy_id": "cv_starter_describing_080",
+    "word": "çумри",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-инçетри",
+    "legacy_id": "cv_starter_describing_081",
+    "word": "инçетри",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-яллă",
+    "legacy_id": "cv_starter_describing_082",
+    "word": "яллă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-хулахи",
+    "legacy_id": "cv_starter_describing_083",
+    "word": "хулахи",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-çинçепĕр",
+    "legacy_id": "cv_starter_describing_084",
+    "word": "çинçепĕр",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-мăншăн",
+    "legacy_id": "cv_starter_describing_085",
+    "word": "мăншăн",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-сĕтлĕ",
+    "legacy_id": "cv_starter_describing_086",
+    "word": "сĕтлĕ",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-пăрлă",
+    "legacy_id": "cv_starter_describing_087",
+    "word": "пăрлă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-сахарлă",
+    "legacy_id": "cv_starter_describing_088",
+    "word": "сахарлă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-тăварлă",
+    "legacy_id": "cv_starter_describing_089",
+    "word": "тăварлă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-çуллă",
+    "legacy_id": "cv_starter_describing_090",
+    "word": "çуллă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-палăртнă",
+    "legacy_id": "cv_starter_describing_091",
+    "word": "палăртнă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-çырнă",
+    "legacy_id": "cv_starter_describing_092",
+    "word": "çырнă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-вĕреннĕ",
+    "legacy_id": "cv_starter_describing_093",
+    "word": "вĕреннĕ",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-пĕçернĕ",
+    "legacy_id": "cv_starter_describing_094",
+    "word": "пĕçернĕ",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-çунтарнă",
+    "legacy_id": "cv_starter_describing_095",
+    "word": "çунтарнă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-унăннă",
+    "legacy_id": "cv_starter_describing_096",
+    "word": "унăннă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-шутлă",
+    "legacy_id": "cv_starter_describing_097",
+    "word": "шутлă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-пĕрлехи",
+    "legacy_id": "cv_starter_describing_098",
+    "word": "пĕрлехи",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-уйрăм",
+    "legacy_id": "cv_starter_describing_099",
+    "word": "уйрăм",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-тĕп",
+    "legacy_id": "cv_starter_describing_100",
+    "word": "тĕп",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-кӳршĕ",
+    "legacy_id": "cv_starter_describing_101",
+    "word": "кӳршĕ",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-пĕрремĕш",
+    "legacy_id": "cv_starter_describing_102",
+    "word": "пĕрремĕш",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-иккĕмĕш",
+    "legacy_id": "cv_starter_describing_103",
+    "word": "иккĕмĕш",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-виçкĕмĕш",
+    "legacy_id": "cv_starter_describing_104",
+    "word": "виçкĕмĕш",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-тăваткăмĕш",
+    "legacy_id": "cv_starter_describing_105",
+    "word": "тăваткăмĕш",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-пятекĕмĕш",
+    "legacy_id": "cv_starter_describing_106",
+    "word": "пятекĕмĕш",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-уçăмлă",
+    "legacy_id": "cv_starter_describing_107",
+    "word": "уçăмлă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-йывăр",
+    "legacy_id": "cv_starter_describing_108",
+    "word": "йывăр",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-хăвăртлăхлă",
+    "legacy_id": "cv_starter_describing_109",
+    "word": "хăвăртлăхлă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-авалхи",
+    "legacy_id": "cv_starter_describing_110",
+    "word": "авалхи",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-хальхи",
+    "legacy_id": "cv_starter_describing_111",
+    "word": "хальхи",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-çулталăкри",
+    "legacy_id": "cv_starter_describing_112",
+    "word": "çулталăкри",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-кунселенхи",
+    "legacy_id": "cv_starter_describing_113",
+    "word": "кунселенхи",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-килти",
+    "legacy_id": "cv_starter_describing_114",
+    "word": "килти",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-урамри",
+    "legacy_id": "cv_starter_describing_115",
+    "word": "урамри",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-тăван",
+    "legacy_id": "cv_starter_describing_116",
+    "word": "тăван",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-ятлă",
+    "legacy_id": "cv_starter_describing_117",
+    "word": "ятлă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-лайăх-кăмăллă",
+    "legacy_id": "cv_starter_describing_118",
+    "word": "лайăх кăмăллă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-чирлемен",
+    "legacy_id": "cv_starter_describing_119",
+    "word": "чирлемен",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-палламан",
+    "legacy_id": "cv_starter_describing_120",
+    "word": "палламан",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-вăйлă",
+    "legacy_id": "cv_starter_describing_121",
+    "word": "вăйлă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-вăйсăр",
+    "legacy_id": "cv_starter_describing_122",
+    "word": "вăйсăр",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-уçăмлăхлă",
+    "legacy_id": "cv_starter_describing_123",
+    "word": "уçăмлăхлă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-ăслă",
+    "legacy_id": "cv_starter_describing_124",
+    "word": "ăслă",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-ăссăр",
+    "legacy_id": "cv_starter_describing_125",
+    "word": "ăссăр",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-animals-кушаксем-е-йытăсем-хăшĕ-лайăхрах",
+    "legacy_id": null,
+    "word": "Кушаксем е йытăсем: хăшĕ лайăхрах?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "animals"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-ирхине-вăранни-е-каçхине-çывăрманни",
+    "legacy_id": null,
+    "word": "Ирхине вăранни е каçхине çывăрманни?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-places-ялта-пурăнни-е-хулара-пурăнни",
+    "legacy_id": null,
+    "word": "Ялта пурăнни е хулара пурăнни?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-чей-е-кофе-хăшĕ-тутлăрах",
+    "legacy_id": null,
+    "word": "Чей е кофе: хăшĕ тутлăрах?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-кĕнеке-вулани-е-фильм-пăхни",
+    "legacy_id": null,
+    "word": "Кĕнеке вулани е фильм пăхни?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-çуллахи-каникул-е-хĕллехи-каникул",
+    "legacy_id": null,
+    "word": "Çуллахи каникул е хĕллехи каникул?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-furniture-хупта-чашăк-е-хупта-кĕнеке",
+    "legacy_id": null,
+    "word": "Хупта чашăк е хупта кĕнеке?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "furniture"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-places-çутă-урам-е-тĕттĕм-паркра-уçăлни",
+    "legacy_id": null,
+    "word": "Çутă урам е тĕттĕм паркра уçăлни?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-электронлă-кĕнеке-е-хут-кĕнеке",
+    "legacy_id": null,
+    "word": "Электронлă кĕнеке е хут кĕнеке?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-килти-апат-е-лавккари-апат",
+    "legacy_id": null,
+    "word": "Килти апат е лавккари апат?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-travel-велосипедпа-йөрĕни-е-машинапа-кайма",
+    "legacy_id": null,
+    "word": "Велосипедпа йөрĕни е машинапа кайма?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "travel"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-çумăрлă-кун-е-хĕвеллĕ-кун",
+    "legacy_id": null,
+    "word": "Çумăрлă кун е хĕвеллĕ кун?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-ирхи-чей-е-каçхи-чей",
+    "legacy_id": null,
+    "word": "Ирхи чей е каçхи чей?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-sports-хĕллехи-спорт-е-çухи-спорт",
+    "legacy_id": null,
+    "word": "Хĕллехи спорт е çухи спорт?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "sports"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-places-йытă-сыхлавĕ-е-камера-сыхлавĕ",
+    "legacy_id": null,
+    "word": "Йытă сыхлавĕ е камера сыхлавĕ?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-shopping-ялхи-базар-е-хулахи-супермаркет",
+    "legacy_id": null,
+    "word": "Ялхи базар е хулахи супермаркет?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "shopping"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-sports-урамра-чупни-е-спортзалта-ĕçлени",
+    "legacy_id": null,
+    "word": "Урамра чупни е спортзалта ĕçлени?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "sports"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-furniture-мăн-çурт-е-пĕчĕк-утар",
+    "legacy_id": null,
+    "word": "Мăн çурт е пĕчĕк утар?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "furniture"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-авалхи-юмахсем-е-хальхи-кĕнекесем",
+    "legacy_id": null,
+    "word": "Авалхи юмахсем е хальхи кĕнекесем?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-travel-автобуспа-кайма-е-поездпа-кайма",
+    "legacy_id": null,
+    "word": "Автобуспа кайма е поездпа кайма?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "travel"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-симĕс-чай-е-хĕрлĕ-чей",
+    "legacy_id": null,
+    "word": "Симĕс чай е хĕрлĕ чей?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-вăрманта-уçăлни-е-юханшывра-ишни",
+    "legacy_id": null,
+    "word": "Вăрманта уçăлни е юханшывра ишни?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-sports-çуртра-выляни-е-урамра-тупăшни",
+    "legacy_id": null,
+    "word": "Çуртра выляни е урамра тупăшни?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "sports"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-places-каçхи-театр-е-кăнтăрлахи-музей",
+    "legacy_id": null,
+    "word": "Каçхи театр е кăнтăрлахи музей?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-чăваш-яшка-е-хуплу",
+    "legacy_id": null,
+    "word": "Чăваш яшка е хуплу?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-music-кĕнеке-çырни-е-юрă-юрлани",
+    "legacy_id": null,
+    "word": "Кĕнеке çырни е юрă юрлани?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "music"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-ялхи-уяв-е-хулахи-концерт",
+    "legacy_id": null,
+    "word": "Ялхи уяв е хулахи концерт?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-ачасемпе-выляни-е-кĕнеке-вулани",
+    "legacy_id": null,
+    "word": "Ачасемпе выляни е кĕнеке вулани?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-хĕвеллĕ-ир-е-çумăрлă-каç",
+    "legacy_id": null,
+    "word": "Хĕвеллĕ ир е çумăрлă каç?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-çĕр-улми-пĕçерни-е-хăяр-яшка",
+    "legacy_id": null,
+    "word": "Çĕр улми пĕçерни е хăяр яшка?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-тăван-чĕлхе-вĕренни-е-ют-чĕлхе-пĕлни",
+    "legacy_id": null,
+    "word": "Тăван чĕлхе вĕренни е ют чĕлхе пĕлни?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-clothes-çĕнĕ-тумтир-е-авалхи-япала",
+    "legacy_id": null,
+    "word": "Çĕнĕ тумтир е авалхи япала?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "clothes"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-clothes-шапка-тăхăнни-е-алшалли-ярни",
+    "legacy_id": null,
+    "word": "Шапка тăхăнни е алшалли ярни?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "clothes"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-сахарлă-чей-е-тăварлă-шӳрпе",
+    "legacy_id": null,
+    "word": "Сахарлă чей е тăварлă шӳрпе?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-work-пĕрле-ĕçлени-е-уйрăм-туни",
+    "legacy_id": null,
+    "word": "Пĕрле ĕçлени е уйрăм туни?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-travel-караппа-ишни-е-поездпа-кайма",
+    "legacy_id": null,
+    "word": "Караппа ишни е поездпа кайма?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "travel"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-shopping-паркра-уçăлни-е-пасаррта-туянни",
+    "legacy_id": null,
+    "word": "Паркра уçăлни е пасаррта туянни?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "shopping"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-йывăç-лартни-е-чечек-туни",
+    "legacy_id": null,
+    "word": "Йывăç лартни е чечек туни?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-хура-кофе-е-сĕтлĕ-чей",
+    "legacy_id": null,
+    "word": "Хура кофе е сĕтлĕ чей?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-шкул-библиотеки-е-хула-библиотеки",
+    "legacy_id": null,
+    "word": "Шкул библиотеки е хула библиотеки?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-çуллахи-тинĕс-е-хĕллехи-вăрман",
+    "legacy_id": null,
+    "word": "Çуллахи тинĕс е хĕллехи вăрман?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-work-кунселенхи-ĕç-е-кану-кунĕ",
+    "legacy_id": null,
+    "word": "Кунселенхи ĕç е кану кунĕ?",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/debates.js",
+      "topic": "work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-шăрттан",
+    "legacy_id": "cv_starter_food_drink_dish_001",
+    "word": "шăрттан",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/dishes.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-хуплу",
+    "legacy_id": "cv_starter_food_drink_dish_002",
+    "word": "хуплу",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/dishes.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-какай-шӳрпи",
+    "legacy_id": "cv_starter_food_drink_dish_003",
+    "word": "какай шӳрпи",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/dishes.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-тăпăрчă",
+    "legacy_id": "cv_starter_food_drink_dish_004",
+    "word": "тăпăрчă",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/dishes.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-çăкăр",
+    "legacy_id": "cv_starter_food_drink_dish_005",
+    "word": "çăкăр",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/dishes.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-кукăль",
+    "legacy_id": "cv_starter_food_drink_dish_006",
+    "word": "кукăль",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/dishes.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-item",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/fluency.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-furniture-item",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/fluency.js",
+      "topic": "furniture"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-item",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/fluency.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-work-item",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/fluency.js",
+      "topic": "work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-animals-item",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/fluency.js",
+      "topic": "animals"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-item",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/fluency.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-item-c6438d",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/fluency.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-item",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/fluency.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-emotions-item",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/fluency.js",
+      "topic": "emotions"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-item",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/fluency.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-numbers_0_9-item",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/fluency.js",
+      "topic": "numbers_0_9"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-item-1ba134",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/fluency.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-places-item",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/fluency.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-furniture-item-856f0a",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/fluency.js",
+      "topic": "furniture"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-item-cd880b",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/fluency.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-item-a901c1",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/fluency.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-music-item",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/fluency.js",
+      "topic": "music"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-places-item-61c5dd",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/fluency.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-shopping-item",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/fluency.js",
+      "topic": "shopping"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-item",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/fluency.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-language-пулма",
+    "legacy_id": "cv_starter_grammar_001",
+    "word": "пулма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/grammar.js",
+      "topic": "language"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-language-ĕçлеме",
+    "legacy_id": "cv_starter_grammar_002",
+    "word": "ĕçлеме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/grammar.js",
+      "topic": "language"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-language-кайма",
+    "legacy_id": "cv_starter_grammar_003",
+    "word": "кайма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/grammar.js",
+      "topic": "language"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-language-вĕренме",
+    "legacy_id": "cv_starter_grammar_004",
+    "word": "вĕренме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/grammar.js",
+      "topic": "language"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-language-валли",
+    "legacy_id": "cv_starter_language_001",
+    "word": "валли",
+    "pos": "postposition",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/grammar_elements.js",
+      "topic": "language"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-language-пайне",
+    "legacy_id": "cv_starter_language_002",
+    "word": "пайне",
+    "pos": "postposition",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/grammar_elements.js",
+      "topic": "language"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-language-çинчен",
+    "legacy_id": "cv_starter_language_003",
+    "word": "çинчен",
+    "pos": "postposition",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/grammar_elements.js",
+      "topic": "language"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-language-хыççăн",
+    "legacy_id": "cv_starter_language_004",
+    "word": "хыççăн",
+    "pos": "postposition",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/grammar_elements.js",
+      "topic": "language"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-language-тата",
+    "legacy_id": "cv_starter_language_005",
+    "word": "тата",
+    "pos": "conjunction",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/grammar_elements.js",
+      "topic": "language"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-language-анчах",
+    "legacy_id": "cv_starter_language_006",
+    "word": "анчах",
+    "pos": "conjunction",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/grammar_elements.js",
+      "topic": "language"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-language-е",
+    "legacy_id": "cv_starter_language_007",
+    "word": "е",
+    "pos": "conjunction",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/grammar_elements.js",
+      "topic": "language"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-language-мĕншĕн-тесен",
+    "legacy_id": "cv_starter_language_008",
+    "word": "мĕншĕн тесен",
+    "pos": "conjunction",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/grammar_elements.js",
+      "topic": "language"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-language-паян",
+    "legacy_id": "cv_starter_language_009",
+    "word": "паян",
+    "pos": "adverb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/grammar_elements.js",
+      "topic": "language"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-language-ыран",
+    "legacy_id": "cv_starter_language_010",
+    "word": "ыран",
+    "pos": "adverb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/grammar_elements.js",
+      "topic": "language"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-language-ĕçех",
+    "legacy_id": "cv_starter_language_011",
+    "word": "ĕçех",
+    "pos": "adverb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/grammar_elements.js",
+      "topic": "language"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-language-халь",
+    "legacy_id": "cv_starter_language_012",
+    "word": "халь",
+    "pos": "adverb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/grammar_elements.js",
+      "topic": "language"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-language-яланах",
+    "legacy_id": "cv_starter_language_013",
+    "word": "яланах",
+    "pos": "adverb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/grammar_elements.js",
+      "topic": "language"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-language-пур",
+    "legacy_id": "cv_starter_language_014",
+    "word": "пур",
+    "pos": "particle",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/grammar_elements.js",
+      "topic": "language"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-language-çук",
+    "legacy_id": "cv_starter_language_015",
+    "word": "çук",
+    "pos": "particle",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/grammar_elements.js",
+      "topic": "language"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-places-чăваш-ен",
+    "legacy_id": "cv_starter_places_loc_001",
+    "word": "Чăваш Ен",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/locations.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-places-шупашкар",
+    "legacy_id": "cv_starter_places_loc_002",
+    "word": "Шупашкар",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/locations.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-places-улатăр",
+    "legacy_id": "cv_starter_places_loc_003",
+    "word": "Улатăр",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/locations.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-places-çĕнĕ-шупашкар",
+    "legacy_id": "cv_starter_places_loc_004",
+    "word": "Çĕнĕ Шупашкар",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/locations.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-places-канаш",
+    "legacy_id": "cv_starter_places_loc_005",
+    "word": "Канаш",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/locations.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-places-çĕмĕрле",
+    "legacy_id": "cv_starter_places_loc_006",
+    "word": "Çĕмĕрле",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/locations.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-places-мускав",
+    "legacy_id": "cv_starter_places_loc_007",
+    "word": "Мускав",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/locations.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-places-россия",
+    "legacy_id": "cv_starter_places_loc_008",
+    "word": "Россия",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/locations.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-places-франция",
+    "legacy_id": "cv_starter_places_loc_009",
+    "word": "Франция",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/locations.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-places-германия",
+    "legacy_id": "cv_starter_places_loc_010",
+    "word": "Германия",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/locations.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-places-волга",
+    "legacy_id": "cv_starter_places_loc_011",
+    "word": "Волга",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/locations.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-places-ял",
+    "legacy_id": "cv_starter_places_loc_012",
+    "word": "Ял",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/locations.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-places-хула",
+    "legacy_id": "cv_starter_places_loc_013",
+    "word": "Хула",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/locations.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-places-шкул",
+    "legacy_id": "cv_starter_places_loc_014",
+    "word": "Шкул",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/locations.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-places-базар",
+    "legacy_id": "cv_starter_places_loc_015",
+    "word": "Базар",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/locations.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-чăваш",
+    "legacy_id": "cv_starter_people_nat_001",
+    "word": "чăваш",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/nationalities.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-вырăс",
+    "legacy_id": "cv_starter_people_nat_002",
+    "word": "вырăс",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/nationalities.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-тутар",
+    "legacy_id": "cv_starter_people_nat_003",
+    "word": "тутар",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/nationalities.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-мари",
+    "legacy_id": "cv_starter_people_nat_004",
+    "word": "мари",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/nationalities.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-мордва",
+    "legacy_id": "cv_starter_people_nat_005",
+    "word": "мордва",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/nationalities.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-башкир",
+    "legacy_id": "cv_starter_people_nat_006",
+    "word": "башкир",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/nationalities.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-opinions-item",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/opinions.js",
+      "topic": "opinions"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-opinions-item-59ca9b",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/opinions.js",
+      "topic": "opinions"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-opinions-item-4be1ff",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/opinions.js",
+      "topic": "opinions"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-opinions-item-58fc17",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/opinions.js",
+      "topic": "opinions"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-opinions-item-fad50c",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/opinions.js",
+      "topic": "opinions"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-opinions-item-ea6707",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/opinions.js",
+      "topic": "opinions"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-opinions-item-90094b",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/opinions.js",
+      "topic": "opinions"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-opinions-item-322a55",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/opinions.js",
+      "topic": "opinions"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-opinions-item-98bdb7",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/opinions.js",
+      "topic": "opinions"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-opinions-item-34201d",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/opinions.js",
+      "topic": "opinions"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-opinions-item-67ad7e",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/opinions.js",
+      "topic": "opinions"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-opinions-item-41d311",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/opinions.js",
+      "topic": "opinions"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-opinions-item-ef3799",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/opinions.js",
+      "topic": "opinions"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-opinions-item-fd15f9",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/opinions.js",
+      "topic": "opinions"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-opinions-item-b452d3",
+    "legacy_id": null,
+    "word": "item",
+    "pos": "word",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/opinions.js",
+      "topic": "opinions"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-çын",
+    "legacy_id": "cv_starter_people_001",
+    "word": "çын",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/people.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-ача",
+    "legacy_id": "cv_starter_people_002",
+    "word": "ача",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/people.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-арçын",
+    "legacy_id": "cv_starter_people_003",
+    "word": "арçын",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/people.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-хĕрарăм",
+    "legacy_id": "cv_starter_people_004",
+    "word": "хĕрарăм",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/people.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-тус",
+    "legacy_id": "cv_starter_people_005",
+    "word": "тус",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/people.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-юлташ",
+    "legacy_id": "cv_starter_people_006",
+    "word": "юлташ",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/people.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-ученик",
+    "legacy_id": "cv_starter_people_007",
+    "word": "ученик",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/people.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-учитель",
+    "legacy_id": "cv_starter_people_008",
+    "word": "учитель",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/people.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-вĕрентĕкçĕ",
+    "legacy_id": "cv_starter_people_009",
+    "word": "вĕрентĕкçĕ",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/people.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-тухтăр",
+    "legacy_id": "cv_starter_people_010",
+    "word": "тухтăр",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/people.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-ĕççĕ",
+    "legacy_id": "cv_starter_people_011",
+    "word": "ĕççĕ",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/people.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-кӳршĕ",
+    "legacy_id": "cv_starter_people_012",
+    "word": "кӳршĕ",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/people.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-пулма",
+    "legacy_id": "cv_starter_social_verb_001",
+    "word": "пулма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-вулама",
+    "legacy_id": "cv_starter_school_verb_002",
+    "word": "вулама",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-çырма",
+    "legacy_id": "cv_starter_school_verb_003",
+    "word": "çырма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-work-ĕçлеме",
+    "legacy_id": "cv_starter_work_verb_004",
+    "word": "ĕçлеме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-вĕренме",
+    "legacy_id": "cv_starter_school_verb_005",
+    "word": "вĕренме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-travel-кайма",
+    "legacy_id": "cv_starter_travel_verb_006",
+    "word": "кайма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "travel"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-travel-килме",
+    "legacy_id": "cv_starter_travel_verb_007",
+    "word": "килме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "travel"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-пăхма",
+    "legacy_id": "cv_starter_social_verb_008",
+    "word": "пăхма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-travel-чупма",
+    "legacy_id": "cv_starter_travel_verb_009",
+    "word": "чупма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "travel"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-travel-утма",
+    "legacy_id": "cv_starter_travel_verb_010",
+    "word": "утма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "travel"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-çиме",
+    "legacy_id": "cv_starter_food_drink_verb_011",
+    "word": "çиме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-ĕçме",
+    "legacy_id": "cv_starter_food_drink_verb_012",
+    "word": "ĕçме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-пĕçерме",
+    "legacy_id": "cv_starter_food_drink_verb_013",
+    "word": "пĕçерме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-emotions-юратма",
+    "legacy_id": "cv_starter_emotions_verb_014",
+    "word": "юратма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "emotions"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-пĕлме",
+    "legacy_id": "cv_starter_school_verb_015",
+    "word": "пĕлме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-shopping-илме",
+    "legacy_id": "cv_starter_shopping_verb_016",
+    "word": "илме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "shopping"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-парма",
+    "legacy_id": "cv_starter_social_verb_017",
+    "word": "парма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-work-тума",
+    "legacy_id": "cv_starter_work_verb_018",
+    "word": "тума",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-furniture_objects-уçма",
+    "legacy_id": "cv_starter_furniture_objects_verb_019",
+    "word": "уçма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "furniture_objects"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-furniture_objects-хупма",
+    "legacy_id": "cv_starter_furniture_objects_verb_020",
+    "word": "хупма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "furniture_objects"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-furniture_objects-ларма",
+    "legacy_id": "cv_starter_furniture_objects_verb_021",
+    "word": "ларма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "furniture_objects"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-furniture_objects-тăма",
+    "legacy_id": "cv_starter_furniture_objects_verb_022",
+    "word": "тăма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "furniture_objects"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-music-илтме",
+    "legacy_id": "cv_starter_music_verb_023",
+    "word": "илтме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "music"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-калама",
+    "legacy_id": "cv_starter_social_verb_024",
+    "word": "калама",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-ыйтма",
+    "legacy_id": "cv_starter_social_verb_025",
+    "word": "ыйтма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-хуравлама",
+    "legacy_id": "cv_starter_school_verb_026",
+    "word": "хуравлама",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-выляма",
+    "legacy_id": "cv_starter_social_verb_027",
+    "word": "выляма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-emotions-йĕрме",
+    "legacy_id": "cv_starter_emotions_verb_028",
+    "word": "йĕрме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "emotions"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-emotions-кулма",
+    "legacy_id": "cv_starter_emotions_verb_029",
+    "word": "кулма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "emotions"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-вăранма",
+    "legacy_id": "cv_starter_nature_verb_030",
+    "word": "вăранма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-furniture_objects-çуйма",
+    "legacy_id": "cv_starter_furniture_objects_verb_031",
+    "word": "çуйма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "furniture_objects"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-clothes-тăхăнма",
+    "legacy_id": "cv_starter_clothes_verb_032",
+    "word": "тăхăнма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "clothes"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-travel-çитехме",
+    "legacy_id": "cv_starter_travel_verb_033",
+    "word": "çитехме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "travel"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-shopping-сутма",
+    "legacy_id": "cv_starter_shopping_verb_034",
+    "word": "сутма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "shopping"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-shopping-туянма",
+    "legacy_id": "cv_starter_shopping_verb_035",
+    "word": "туянма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "shopping"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-work-усă-курма",
+    "legacy_id": "cv_starter_work_verb_036",
+    "word": "усă курма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-пулăшма",
+    "legacy_id": "cv_starter_social_verb_037",
+    "word": "пулăшма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-ĕненме",
+    "legacy_id": "cv_starter_social_verb_038",
+    "word": "ĕненме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-шутлама",
+    "legacy_id": "cv_starter_school_verb_039",
+    "word": "шутлама",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-ăнланма",
+    "legacy_id": "cv_starter_school_verb_040",
+    "word": "ăнланма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-манма",
+    "legacy_id": "cv_starter_school_verb_041",
+    "word": "манма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-travel-кĕтме",
+    "legacy_id": "cv_starter_travel_verb_042",
+    "word": "кĕтме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "travel"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-уçăлма",
+    "legacy_id": "cv_starter_social_verb_043",
+    "word": "уçăлма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-music-юрлама",
+    "legacy_id": "cv_starter_music_verb_044",
+    "word": "юрлама",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "music"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-music-ташлама",
+    "legacy_id": "cv_starter_music_verb_045",
+    "word": "ташлама",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "music"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-furniture_objects-çывăрма",
+    "legacy_id": "cv_starter_furniture_objects_verb_046",
+    "word": "çывăрма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "furniture_objects"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-канама",
+    "legacy_id": "cv_starter_social_verb_047",
+    "word": "канама",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-places-пурнама",
+    "legacy_id": "cv_starter_places_verb_048",
+    "word": "пурнама",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-тупма",
+    "legacy_id": "cv_starter_school_verb_049",
+    "word": "тупма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-shopping-çухатма",
+    "legacy_id": "cv_starter_shopping_verb_050",
+    "word": "çухатма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "shopping"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-travel-васкама",
+    "legacy_id": "cv_starter_travel_verb_051",
+    "word": "васкама",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "travel"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-places-сыхлама",
+    "legacy_id": "cv_starter_places_verb_052",
+    "word": "сыхлама",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-places-кĕрме",
+    "legacy_id": "cv_starter_places_verb_053",
+    "word": "кĕрме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-places-тухма",
+    "legacy_id": "cv_starter_places_verb_054",
+    "word": "тухма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-places-юлма",
+    "legacy_id": "cv_starter_places_verb_055",
+    "word": "юлма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-тытма",
+    "legacy_id": "cv_starter_nature_verb_056",
+    "word": "тытма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-вĕрентме",
+    "legacy_id": "cv_starter_school_verb_057",
+    "word": "вĕрентме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-уявлама",
+    "legacy_id": "cv_starter_social_verb_058",
+    "word": "уявлама",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-саламлама",
+    "legacy_id": "cv_starter_social_verb_059",
+    "word": "саламлама",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-паллашма",
+    "legacy_id": "cv_starter_social_verb_060",
+    "word": "паллашма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-emotions-хăрама",
+    "legacy_id": "cv_starter_emotions_verb_061",
+    "word": "хăрама",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "emotions"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-emotions-савăнма",
+    "legacy_id": "cv_starter_emotions_verb_062",
+    "word": "савăнма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "emotions"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-килĕшме",
+    "legacy_id": "cv_starter_social_verb_063",
+    "word": "килĕшме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-çумăр-çума",
+    "legacy_id": "cv_starter_nature_verb_064",
+    "word": "çумăр çума",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-юр-çума",
+    "legacy_id": "cv_starter_nature_verb_065",
+    "word": "юр çума",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-çил-ĕфме",
+    "legacy_id": "cv_starter_nature_verb_066",
+    "word": "çил ĕфме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-хĕвел-тухма",
+    "legacy_id": "cv_starter_nature_verb_067",
+    "word": "хĕвел тухма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-хĕвел-батма",
+    "legacy_id": "cv_starter_nature_verb_068",
+    "word": "хĕвел батма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-time-кун-пуçланма",
+    "legacy_id": "cv_starter_time_verb_069",
+    "word": "кун пуçланма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "time"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-time-каç-килме",
+    "legacy_id": "cv_starter_time_verb_070",
+    "word": "каç килме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "time"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-time-çулталăк-улшăнма",
+    "legacy_id": "cv_starter_time_verb_071",
+    "word": "çулталăк улшăнма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "time"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-уяв-пулма",
+    "legacy_id": "cv_starter_social_verb_072",
+    "word": "уяв пулма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-лартма",
+    "legacy_id": "cv_starter_nature_verb_073",
+    "word": "лартма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-çуратма",
+    "legacy_id": "cv_starter_people_verb_074",
+    "word": "çуратма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-furniture_objects-йăтма",
+    "legacy_id": "cv_starter_furniture_objects_verb_075",
+    "word": "йăтма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "furniture_objects"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-хисеплеме",
+    "legacy_id": "cv_starter_people_verb_076",
+    "word": "хисеплеме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-travel-çулама",
+    "legacy_id": "cv_starter_travel_verb_077",
+    "word": "çулама",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "travel"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-furniture_objects-çунма",
+    "legacy_id": "cv_starter_furniture_objects_verb_078",
+    "word": "çунма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "furniture_objects"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-travel-хăпарма",
+    "legacy_id": "cv_starter_travel_verb_079",
+    "word": "хăпарма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "travel"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-travel-анма",
+    "legacy_id": "cv_starter_travel_verb_080",
+    "word": "анма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "travel"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-sports-пăрахма",
+    "legacy_id": "cv_starter_sports_verb_081",
+    "word": "пăрахма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "sports"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-çитерме",
+    "legacy_id": "cv_starter_nature_verb_082",
+    "word": "çитерме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-тĕрĕслеме",
+    "legacy_id": "cv_starter_school_verb_083",
+    "word": "тĕрĕслеме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-sports-тупăшма",
+    "legacy_id": "cv_starter_sports_verb_084",
+    "word": "тупăшма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "sports"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-сывпуллашма",
+    "legacy_id": "cv_starter_social_verb_085",
+    "word": "сывпуллашма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-куçарма",
+    "legacy_id": "cv_starter_school_verb_086",
+    "word": "куçарма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-шутлав-тума",
+    "legacy_id": "cv_starter_school_verb_087",
+    "word": "шутлав тума",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-emotions-хурланма",
+    "legacy_id": "cv_starter_emotions_verb_088",
+    "word": "хурланма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "emotions"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-шăшма",
+    "legacy_id": "cv_starter_nature_verb_089",
+    "word": "шăшма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-emotions-туйма",
+    "legacy_id": "cv_starter_emotions_verb_090",
+    "word": "туйма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "emotions"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-пĕлтерме",
+    "legacy_id": "cv_starter_social_verb_091",
+    "word": "пĕлтерме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-work-палăртма",
+    "legacy_id": "cv_starter_work_verb_092",
+    "word": "палăртма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-furniture_objects-хăварма",
+    "legacy_id": "cv_starter_furniture_objects_verb_093",
+    "word": "хăварма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "furniture_objects"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-shopping-илсе-кайма",
+    "legacy_id": "cv_starter_shopping_verb_094",
+    "word": "илсе кайма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "shopping"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-илсе-килме",
+    "legacy_id": "cv_starter_social_verb_095",
+    "word": "илсе килме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-пĕрлешме",
+    "legacy_id": "cv_starter_social_verb_096",
+    "word": "пĕрлешме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-уйрăлма",
+    "legacy_id": "cv_starter_social_verb_097",
+    "word": "уйрăлма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-sports-çĕнтерме",
+    "legacy_id": "cv_starter_sports_verb_098",
+    "word": "çĕнтерме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "sports"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-тĕрĕслев-тума",
+    "legacy_id": "cv_starter_school_verb_099",
+    "word": "тĕрĕслев тума",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-work-хăтланма",
+    "legacy_id": "cv_starter_work_verb_100",
+    "word": "хăтланма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-пăхса-хурма",
+    "legacy_id": "cv_starter_people_verb_101",
+    "word": "пăхса хурма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-титĕрме",
+    "legacy_id": "cv_starter_nature_verb_102",
+    "word": "титĕрме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-animals-хыпарма",
+    "legacy_id": "cv_starter_animals_verb_103",
+    "word": "хыпарма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "animals"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-тĕкĕнме",
+    "legacy_id": "cv_starter_nature_verb_104",
+    "word": "тĕкĕнме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-варклама",
+    "legacy_id": "cv_starter_social_verb_105",
+    "word": "варклама",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-кăшкăрма",
+    "legacy_id": "cv_starter_social_verb_106",
+    "word": "кăшкăрма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-шăп-тăма",
+    "legacy_id": "cv_starter_school_verb_107",
+    "word": "шăп тăма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-хыпарлама",
+    "legacy_id": "cv_starter_social_verb_108",
+    "word": "хыпарлама",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-тăрашма",
+    "legacy_id": "cv_starter_school_verb_109",
+    "word": "тăрашма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-furniture_objects-уçса-пама",
+    "legacy_id": "cv_starter_furniture_objects_verb_110",
+    "word": "уçса пама",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "furniture_objects"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-furniture_objects-хупса-хурма",
+    "legacy_id": "cv_starter_furniture_objects_verb_111",
+    "word": "хупса хурма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "furniture_objects"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-travel-çул-тытма",
+    "legacy_id": "cv_starter_travel_verb_112",
+    "word": "çул тытма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "travel"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-music-илтсе-илме",
+    "legacy_id": "cv_starter_music_verb_113",
+    "word": "илтсе илме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "music"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-вуласа-тухма",
+    "legacy_id": "cv_starter_school_verb_114",
+    "word": "вуласа тухма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-çырса-хурма",
+    "legacy_id": "cv_starter_school_verb_115",
+    "word": "çырса хурма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-пĕçерсе-хурма",
+    "legacy_id": "cv_starter_food_drink_verb_116",
+    "word": "пĕçерсе хурма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-çисе-яма",
+    "legacy_id": "cv_starter_food_drink_verb_117",
+    "word": "çисе яма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-ĕçсе-яма",
+    "legacy_id": "cv_starter_food_drink_verb_118",
+    "word": "ĕçсе яма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-сывлăх-сунма",
+    "legacy_id": "cv_starter_social_verb_119",
+    "word": "сывлăх сунма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-сăмах-пама",
+    "legacy_id": "cv_starter_social_verb_120",
+    "word": "сăмах пама",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-work-ĕçе-кайма",
+    "legacy_id": "cv_starter_work_verb_121",
+    "word": "ĕçе кайма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-апат-çиме",
+    "legacy_id": "cv_starter_food_drink_verb_122",
+    "word": "апат çиме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-чей-ĕçме",
+    "legacy_id": "cv_starter_food_drink_verb_123",
+    "word": "чей ĕçме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-урама-тухма",
+    "legacy_id": "cv_starter_social_verb_124",
+    "word": "урама тухма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-кĕнеке-вулама",
+    "legacy_id": "cv_starter_school_verb_125",
+    "word": "кĕнеке вулама",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-furniture_objects-çурт-тума",
+    "legacy_id": "cv_starter_furniture_objects_verb_126",
+    "word": "çурт тума",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "furniture_objects"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-телевизор-пăхма",
+    "legacy_id": "cv_starter_social_verb_127",
+    "word": "телевизор пăхма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-music-музыка-илтме",
+    "legacy_id": "cv_starter_music_verb_128",
+    "word": "музыка илтме",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "music"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-вĕренни",
+    "legacy_id": "cv_starter_school_verb_129",
+    "word": "вĕренни",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-çырни",
+    "legacy_id": "cv_starter_school_verb_130",
+    "word": "çырни",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-work-ĕçлени",
+    "legacy_id": "cv_starter_work_verb_131",
+    "word": "ĕçлени",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-travel-утни",
+    "legacy_id": "cv_starter_travel_verb_132",
+    "word": "утни",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "travel"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-body-шăл-çума",
+    "legacy_id": "cv_starter_body_verb_133",
+    "word": "шăл çума",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "body"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-body-çӳç-ярма",
+    "legacy_id": "cv_starter_body_verb_134",
+    "word": "çӳç ярма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "body"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-усăлма",
+    "legacy_id": "cv_starter_social_verb_135",
+    "word": "усăлма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-çутăртама",
+    "legacy_id": "cv_starter_nature_verb_136",
+    "word": "çутăртама",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-emotions-хурланса-калама",
+    "legacy_id": "cv_starter_emotions_verb_137",
+    "word": "хурланса калама",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "emotions"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-music-савăнса-юрлама",
+    "legacy_id": "cv_starter_music_verb_138",
+    "word": "савăнса юрлама",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "music"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-sports-çемьепе-чупма",
+    "legacy_id": "cv_starter_sports_verb_139",
+    "word": "çемьепе чупма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "sports"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-юлташпа-выляма",
+    "legacy_id": "cv_starter_social_verb_140",
+    "word": "юлташпа выляма",
+    "pos": "verb",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/verbs.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-çăкăр-0c9f7c",
+    "legacy_id": "cv_starter_food_drink_vocab_001",
+    "word": "çăкăр",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-шыв",
+    "legacy_id": "cv_starter_food_drink_vocab_002",
+    "word": "шыв",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-чей",
+    "legacy_id": "cv_starter_food_drink_vocab_003",
+    "word": "чей",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-сĕт",
+    "legacy_id": "cv_starter_food_drink_vocab_004",
+    "word": "сĕт",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-ят",
+    "legacy_id": "cv_starter_people_vocab_005",
+    "word": "ят",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-numbers_0_9-пĕрре",
+    "legacy_id": "cv_starter_numbers_0_9_vocab_006",
+    "word": "пĕрре",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "numbers_0_9"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-numbers_10_99-вуннă",
+    "legacy_id": "cv_starter_numbers_10_99_vocab_007",
+    "word": "вуннă",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "numbers_10_99"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-numbers_100_999-çĕр",
+    "legacy_id": "cv_starter_numbers_100_999_vocab_008",
+    "word": "çĕр",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "numbers_100_999"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-панулми",
+    "legacy_id": "cv_starter_food_drink_vocab_009",
+    "word": "панулми",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-çĕр-улми",
+    "legacy_id": "cv_starter_food_drink_vocab_010",
+    "word": "çĕр улми",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-хăяр",
+    "legacy_id": "cv_starter_food_drink_vocab_011",
+    "word": "хăяр",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-помидор",
+    "legacy_id": "cv_starter_food_drink_vocab_012",
+    "word": "помидор",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-пахча",
+    "legacy_id": "cv_starter_nature_vocab_013",
+    "word": "пахча",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-йывăç",
+    "legacy_id": "cv_starter_nature_vocab_014",
+    "word": "йывăç",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-чечек",
+    "legacy_id": "cv_starter_nature_vocab_015",
+    "word": "чечек",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-курăк",
+    "legacy_id": "cv_starter_nature_vocab_016",
+    "word": "курăк",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-вăрман",
+    "legacy_id": "cv_starter_nature_vocab_017",
+    "word": "вăрман",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-пĕлĕт",
+    "legacy_id": "cv_starter_nature_vocab_018",
+    "word": "пĕлĕт",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-хĕвел",
+    "legacy_id": "cv_starter_nature_vocab_019",
+    "word": "хĕвел",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-уйăх",
+    "legacy_id": "cv_starter_nature_vocab_020",
+    "word": "уйăх",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-çăлтăр",
+    "legacy_id": "cv_starter_nature_vocab_021",
+    "word": "çăлтăр",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-çумăр",
+    "legacy_id": "cv_starter_nature_vocab_022",
+    "word": "çумăр",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-юр",
+    "legacy_id": "cv_starter_nature_vocab_023",
+    "word": "юр",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-çил",
+    "legacy_id": "cv_starter_nature_vocab_024",
+    "word": "çил",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-time-кун",
+    "legacy_id": "cv_starter_time_vocab_025",
+    "word": "кун",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "time"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-time-каç",
+    "legacy_id": "cv_starter_time_vocab_026",
+    "word": "каç",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "time"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-time-ир",
+    "legacy_id": "cv_starter_time_vocab_027",
+    "word": "ир",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "time"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-time-кăнтăр",
+    "legacy_id": "cv_starter_time_vocab_028",
+    "word": "кăнтăр",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "time"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-time-çулталăк",
+    "legacy_id": "cv_starter_time_vocab_029",
+    "word": "çулталăк",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "time"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-time-эрне",
+    "legacy_id": "cv_starter_time_vocab_030",
+    "word": "эрне",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "time"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-çемье",
+    "legacy_id": "cv_starter_people_vocab_031",
+    "word": "çемье",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-анне",
+    "legacy_id": "cv_starter_people_vocab_032",
+    "word": "анне",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-атте",
+    "legacy_id": "cv_starter_people_vocab_033",
+    "word": "атте",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-пичче",
+    "legacy_id": "cv_starter_people_vocab_034",
+    "word": "пичче",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-аппа",
+    "legacy_id": "cv_starter_people_vocab_035",
+    "word": "аппа",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-асатте",
+    "legacy_id": "cv_starter_people_vocab_036",
+    "word": "асатте",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-асанне",
+    "legacy_id": "cv_starter_people_vocab_037",
+    "word": "асанне",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-furniture-çурт",
+    "legacy_id": "cv_starter_furniture_vocab_038",
+    "word": "çурт",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "furniture"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-furniture-пĕлĕм",
+    "legacy_id": "cv_starter_furniture_vocab_039",
+    "word": "пĕлĕм",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "furniture"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-furniture-сĕтел",
+    "legacy_id": "cv_starter_furniture_vocab_040",
+    "word": "сĕтел",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "furniture"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-furniture-покан",
+    "legacy_id": "cv_starter_furniture_vocab_041",
+    "word": "покан",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "furniture"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-furniture-диван",
+    "legacy_id": "cv_starter_furniture_vocab_042",
+    "word": "диван",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "furniture"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-furniture-кăмака",
+    "legacy_id": "cv_starter_furniture_vocab_043",
+    "word": "кăмака",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "furniture"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-furniture-алăк",
+    "legacy_id": "cv_starter_furniture_vocab_044",
+    "word": "алăк",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "furniture"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-furniture-чӳрече",
+    "legacy_id": "cv_starter_furniture_vocab_045",
+    "word": "чӳрече",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "furniture"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-кĕнеке",
+    "legacy_id": "cv_starter_school_vocab_046",
+    "word": "кĕнеке",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-тедрать",
+    "legacy_id": "cv_starter_school_vocab_047",
+    "word": "тедрать",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-ручка",
+    "legacy_id": "cv_starter_school_vocab_048",
+    "word": "ручка",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-карандаш",
+    "legacy_id": "cv_starter_school_vocab_049",
+    "word": "карандаш",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-шкул",
+    "legacy_id": "cv_starter_school_vocab_050",
+    "word": "шкул",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-партă",
+    "legacy_id": "cv_starter_school_vocab_051",
+    "word": "партă",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-класс",
+    "legacy_id": "cv_starter_school_vocab_052",
+    "word": "класс",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-урок",
+    "legacy_id": "cv_starter_school_vocab_053",
+    "word": "урок",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-clothes-тумтир",
+    "legacy_id": "cv_starter_clothes_vocab_054",
+    "word": "тумтир",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "clothes"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-clothes-кĕпе",
+    "legacy_id": "cv_starter_clothes_vocab_055",
+    "word": "кĕпе",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "clothes"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-clothes-йĕм",
+    "legacy_id": "cv_starter_clothes_vocab_056",
+    "word": "йĕм",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "clothes"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-clothes-шапка",
+    "legacy_id": "cv_starter_clothes_vocab_057",
+    "word": "шапка",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "clothes"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-clothes-çăпата",
+    "legacy_id": "cv_starter_clothes_vocab_058",
+    "word": "çăпата",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "clothes"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-clothes-тăла",
+    "legacy_id": "cv_starter_clothes_vocab_059",
+    "word": "тăла",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "clothes"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-clothes-атă",
+    "legacy_id": "cv_starter_clothes_vocab_060",
+    "word": "атă",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "clothes"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-clothes-алшалли",
+    "legacy_id": "cv_starter_clothes_vocab_061",
+    "word": "алшалли",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "clothes"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-body-пуç",
+    "legacy_id": "cv_starter_body_vocab_062",
+    "word": "пуç",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "body"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-body-алă",
+    "legacy_id": "cv_starter_body_vocab_063",
+    "word": "алă",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "body"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-body-ура",
+    "legacy_id": "cv_starter_body_vocab_064",
+    "word": "ура",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "body"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-body-куç",
+    "legacy_id": "cv_starter_body_vocab_065",
+    "word": "куç",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "body"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-body-хăлха",
+    "legacy_id": "cv_starter_body_vocab_066",
+    "word": "хăлха",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "body"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-body-çăвар",
+    "legacy_id": "cv_starter_body_vocab_067",
+    "word": "çăвар",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "body"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-body-шăл",
+    "legacy_id": "cv_starter_body_vocab_068",
+    "word": "шăл",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "body"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-body-чĕлхе",
+    "legacy_id": "cv_starter_body_vocab_069",
+    "word": "чĕлхе",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "body"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-animals-кушак",
+    "legacy_id": "cv_starter_animals_vocab_070",
+    "word": "кушак",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "animals"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-animals-йытă",
+    "legacy_id": "cv_starter_animals_vocab_071",
+    "word": "йытă",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "animals"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-animals-ĕне",
+    "legacy_id": "cv_starter_animals_vocab_072",
+    "word": "ĕне",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "animals"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-animals-лаша",
+    "legacy_id": "cv_starter_animals_vocab_073",
+    "word": "лаша",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "animals"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-animals-сурăх",
+    "legacy_id": "cv_starter_animals_vocab_074",
+    "word": "сурăх",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "animals"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-animals-кайăк",
+    "legacy_id": "cv_starter_animals_vocab_075",
+    "word": "кайăк",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "animals"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-animals-пулă",
+    "legacy_id": "cv_starter_animals_vocab_076",
+    "word": "пулă",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "animals"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-travel-машина",
+    "legacy_id": "cv_starter_travel_vocab_077",
+    "word": "машина",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "travel"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-travel-поезд",
+    "legacy_id": "cv_starter_travel_vocab_078",
+    "word": "поезд",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "travel"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-travel-автобус",
+    "legacy_id": "cv_starter_travel_vocab_079",
+    "word": "автобус",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "travel"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-travel-велосипед",
+    "legacy_id": "cv_starter_travel_vocab_080",
+    "word": "велосипед",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "travel"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-travel-çул",
+    "legacy_id": "cv_starter_travel_vocab_081",
+    "word": "çул",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "travel"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-places-урам",
+    "legacy_id": "cv_starter_places_vocab_082",
+    "word": "урам",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-places-хула-cb610d",
+    "legacy_id": "cv_starter_places_vocab_083",
+    "word": "хула",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-places-ял-f51254",
+    "legacy_id": "cv_starter_places_vocab_084",
+    "word": "ял",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-shopping-базар",
+    "legacy_id": "cv_starter_shopping_vocab_085",
+    "word": "базар",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "shopping"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-shopping-лавкка",
+    "legacy_id": "cv_starter_shopping_vocab_086",
+    "word": "лавкка",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "shopping"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-shopping-укçа",
+    "legacy_id": "cv_starter_shopping_vocab_087",
+    "word": "укçа",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "shopping"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-work-ĕç",
+    "legacy_id": "cv_starter_work_vocab_088",
+    "word": "ĕç",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-уяв",
+    "legacy_id": "cv_starter_social_vocab_089",
+    "word": "уяв",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-music-юрă",
+    "legacy_id": "cv_starter_music_vocab_090",
+    "word": "юрă",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "music"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-music-ташă",
+    "legacy_id": "cv_starter_music_vocab_091",
+    "word": "ташă",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "music"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-сăмах",
+    "legacy_id": "cv_starter_social_vocab_092",
+    "word": "сăмах",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-юмах",
+    "legacy_id": "cv_starter_social_vocab_093",
+    "word": "юмах",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-хисеп",
+    "legacy_id": "cv_starter_school_vocab_094",
+    "word": "хисеп",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-çанталăк",
+    "legacy_id": "cv_starter_nature_vocab_095",
+    "word": "çанталăк",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-сывлăш",
+    "legacy_id": "cv_starter_nature_vocab_096",
+    "word": "сывлăш",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-салам",
+    "legacy_id": "cv_starter_social_vocab_097",
+    "word": "салам",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-яшка",
+    "legacy_id": "cv_starter_food_drink_vocab_098",
+    "word": "яшка",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-çăмарта",
+    "legacy_id": "cv_starter_food_drink_vocab_099",
+    "word": "çăмарта",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-çу",
+    "legacy_id": "cv_starter_food_drink_vocab_100",
+    "word": "çу",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-пăр",
+    "legacy_id": "cv_starter_nature_vocab_101",
+    "word": "пăр",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-сахар",
+    "legacy_id": "cv_starter_food_drink_vocab_102",
+    "word": "сахар",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-тăвар",
+    "legacy_id": "cv_starter_food_drink_vocab_103",
+    "word": "тăвар",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-стакан",
+    "legacy_id": "cv_starter_food_drink_vocab_104",
+    "word": "стакан",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-чашăк",
+    "legacy_id": "cv_starter_food_drink_vocab_105",
+    "word": "чашăк",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-çĕççĕ",
+    "legacy_id": "cv_starter_food_drink_vocab_106",
+    "word": "çĕççĕ",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-кашăк",
+    "legacy_id": "cv_starter_food_drink_vocab_107",
+    "word": "кашăк",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-shopping-сумка",
+    "legacy_id": "cv_starter_shopping_vocab_108",
+    "word": "сумка",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "shopping"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-юханшыв",
+    "legacy_id": "cv_starter_nature_vocab_109",
+    "word": "юханшыв",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-кӳлĕ",
+    "legacy_id": "cv_starter_nature_vocab_110",
+    "word": "кӳлĕ",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-places-парк",
+    "legacy_id": "cv_starter_places_vocab_111",
+    "word": "парк",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-describing-вакăр",
+    "legacy_id": "cv_starter_describing_vocab_112",
+    "word": "вакăр",
+    "pos": "adjective",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-япрах",
+    "legacy_id": "cv_starter_nature_vocab_113",
+    "word": "япрах",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-emotions-кăмăл",
+    "legacy_id": "cv_starter_emotions_vocab_114",
+    "word": "кăмăл",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "emotions"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-furniture-пӳлĕм",
+    "legacy_id": "cv_starter_furniture_vocab_115",
+    "word": "пӳлĕм",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "furniture"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-вăрманлăх",
+    "legacy_id": "cv_starter_nature_vocab_116",
+    "word": "вăрманлăх",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-какай",
+    "legacy_id": "cv_starter_food_drink_vocab_117",
+    "word": "какай",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-улма",
+    "legacy_id": "cv_starter_food_drink_vocab_118",
+    "word": "улма",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-çырла",
+    "legacy_id": "cv_starter_food_drink_vocab_119",
+    "word": "çырла",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-nature-кăмпа",
+    "legacy_id": "cv_starter_nature_vocab_120",
+    "word": "кăмпа",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-food_drink-аш",
+    "legacy_id": "cv_starter_food_drink_vocab_121",
+    "word": "аш",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "food_drink"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-shopping-пасар",
+    "legacy_id": "cv_starter_shopping_vocab_122",
+    "word": "пасар",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "shopping"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-clothes-çăм",
+    "legacy_id": "cv_starter_clothes_vocab_123",
+    "word": "çăм",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "clothes"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-кану",
+    "legacy_id": "cv_starter_social_vocab_124",
+    "word": "кану",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-body-сывлăх",
+    "legacy_id": "cv_starter_body_vocab_125",
+    "word": "сывлăх",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "body"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-хыпар",
+    "legacy_id": "cv_starter_social_vocab_126",
+    "word": "хыпар",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-school-буквă",
+    "legacy_id": "cv_starter_school_vocab_127",
+    "word": "буквă",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-social-уçăлав",
+    "legacy_id": "cv_starter_social_vocab_128",
+    "word": "уçăлав",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "social"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-furniture-кашта",
+    "legacy_id": "cv_starter_furniture_vocab_129",
+    "word": "кашта",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "furniture"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-кукаçи",
+    "legacy_id": "cv_starter_people_vocab_130",
+    "word": "кукаçи",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-кукамай",
+    "legacy_id": "cv_starter_people_vocab_131",
+    "word": "кукамай",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a1-people-шăллă",
+    "legacy_id": "cv_starter_people_vocab_132",
+    "word": "шăллă",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/cv/A1/vocabulary.js",
+      "topic": "people"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-phrase-a2-travel-çулçӳрев-тата-каникул",
+    "legacy_id": "cv_elementary_travel_001",
+    "word": "Çулçӳрев тата каникул",
+    "pos": "phrase",
+    "level": "A2",
+    "vocab": {
+      "file": "vocabulary/cv/A2/fluency.js",
+      "topic": "travel"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-a2-places-германия",
+    "legacy_id": "cv_elementary_places_001",
+    "word": "Германия",
+    "pos": "noun",
+    "level": "A2",
+    "vocab": {
+      "file": "vocabulary/cv/A2/locations.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-phrase-a2-work-ĕç-тата-кану",
+    "legacy_id": "cv_elementary_work_001",
+    "word": "Ĕç тата кану",
+    "pos": "phrase",
+    "level": "A2",
+    "vocab": {
+      "file": "vocabulary/cv/A2/opinions.js",
+      "topic": "work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-phrase-b1-travel-çулçӳрев-тата-каникул",
+    "legacy_id": "cv_intermediate_travel_001",
+    "word": "Çулçӳрев тата каникул",
+    "pos": "phrase",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/cv/B1/fluency.js",
+      "topic": "travel"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-b1-places-германия",
+    "legacy_id": "cv_intermediate_places_001",
+    "word": "Германия",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/cv/B1/locations.js",
+      "topic": "places"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-phrase-b1-work-ĕç-тата-кану",
+    "legacy_id": "cv_intermediate_work_001",
+    "word": "Ĕç тата кану",
+    "pos": "phrase",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/cv/B1/opinions.js",
+      "topic": "work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-phrase-b2-travel-çулçӳрев-тата-каникул",
+    "legacy_id": "cv_upper_intermediate_travel_001",
+    "word": "Çулçӳрев тата каникул",
+    "pos": "phrase",
+    "level": "B2",
+    "vocab": {
+      "file": "vocabulary/cv/B2/fluency.js",
+      "topic": "travel"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-phrase-b2-work-ĕç-тата-кану",
+    "legacy_id": "cv_upper_intermediate_work_001",
+    "word": "Ĕç тата кану",
+    "pos": "phrase",
+    "level": "B2",
+    "vocab": {
+      "file": "vocabulary/cv/B2/opinions.js",
+      "topic": "work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-phrase-c1-travel-çулçӳрев-тата-каникул",
+    "legacy_id": "cv_advanced_travel_001",
+    "word": "Çулçӳрев тата каникул",
+    "pos": "phrase",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/cv/C1/fluency.js",
+      "topic": "travel"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-phrase-c1-work-ĕç-тата-кану",
+    "legacy_id": "cv_advanced_work_001",
+    "word": "Ĕç тата кану",
+    "pos": "phrase",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/cv/C1/opinions.js",
+      "topic": "work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-c2-describing-кăсăклăхлă",
+    "legacy_id": "cv_proficiency_describing_001",
+    "word": "кăсăклăхлă",
+    "pos": "adjective",
+    "level": "C2",
+    "vocab": {
+      "file": "vocabulary/cv/C2/adjectives.js",
+      "topic": "describing"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-phrase-c2-travel-çулçӳрев-тата-каникул",
+    "legacy_id": "cv_proficiency_travel_001",
+    "word": "Çулçӳрев тата каникул",
+    "pos": "phrase",
+    "level": "C2",
+    "vocab": {
+      "file": "vocabulary/cv/C2/fluency.js",
+      "topic": "travel"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-phrase-c2-work-ĕç-тата-кану",
+    "legacy_id": "cv_proficiency_work_001",
+    "word": "Ĕç тата кану",
+    "pos": "phrase",
+    "level": "C2",
+    "vocab": {
+      "file": "vocabulary/cv/C2/opinions.js",
+      "topic": "work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-c2-school-шухăшласа-илме",
+    "legacy_id": "cv_proficiency_school_001",
+    "word": "шухăшласа илме",
+    "pos": "verb",
+    "level": "C2",
+    "vocab": {
+      "file": "vocabulary/cv/C2/verbs.js",
+      "topic": "school"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "cv-word-c2-nature-çут-çанталăк",
+    "legacy_id": "cv_proficiency_nature_001",
+    "word": "çут çанталăк",
+    "pos": "noun",
+    "level": "C2",
+    "vocab": {
+      "file": "vocabulary/cv/C2/vocabulary.js",
+      "topic": "nature"
+    },
+    "grammar_refs": []
+  }
+]
