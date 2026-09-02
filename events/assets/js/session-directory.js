@@ -34,7 +34,6 @@
       await this.loadData();
       this.renderUI();
       this.bindEvents();
-      this.bindHeaderAndDrawerEvents();
       this.bindBackToTopEvents();
       this.bindScrollspyEvents();
       this.bindQuickStartLinks();
@@ -230,73 +229,6 @@
             browseSection.scrollIntoView({ behavior: 'smooth' });
           }
         });
-      });
-    }
-
-    bindHeaderAndDrawerEvents() {
-      const hamburgerBtn = document.getElementById('sd-hamburger-btn');
-      const drawer = document.getElementById('sd-drawer');
-      const drawerBackdrop = document.getElementById('sd-drawer-backdrop');
-      const drawerCloseBtn = document.getElementById('sd-drawer-close');
-      const drawerLinks = document.querySelectorAll('.sd-drawer-link');
-
-      const openDrawer = () => {
-        if (drawer) {
-          drawer.classList.add('open');
-          drawer.setAttribute('aria-hidden', 'false');
-        }
-        if (drawerBackdrop) {
-          drawerBackdrop.classList.add('open');
-          drawerBackdrop.setAttribute('aria-hidden', 'false');
-        }
-        if (hamburgerBtn) {
-          hamburgerBtn.setAttribute('aria-expanded', 'true');
-        }
-        if (drawerCloseBtn) {
-          drawerCloseBtn.focus();
-        }
-      };
-
-      const closeDrawer = () => {
-        if (drawer) {
-          drawer.classList.remove('open');
-          drawer.setAttribute('aria-hidden', 'true');
-        }
-        if (drawerBackdrop) {
-          drawerBackdrop.classList.remove('open');
-          drawerBackdrop.setAttribute('aria-hidden', 'true');
-        }
-        if (hamburgerBtn) {
-          hamburgerBtn.setAttribute('aria-expanded', 'false');
-          hamburgerBtn.focus();
-        }
-      };
-
-      if (hamburgerBtn) hamburgerBtn.addEventListener('click', openDrawer);
-      if (drawerCloseBtn) drawerCloseBtn.addEventListener('click', closeDrawer);
-      if (drawerBackdrop) drawerBackdrop.addEventListener('click', closeDrawer);
-
-      drawerLinks.forEach(link => {
-        link.addEventListener('click', (e) => {
-          const href = link.getAttribute('href');
-          if (href && href.startsWith('#')) {
-            e.preventDefault();
-            closeDrawer();
-            const targetEl = document.querySelector(href);
-            if (targetEl) {
-              targetEl.scrollIntoView({ behavior: 'smooth' });
-            }
-          } else {
-            closeDrawer();
-          }
-        });
-      });
-
-      // Close on Escape key press
-      document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape' && drawer && drawer.classList.contains('open')) {
-          closeDrawer();
-        }
       });
     }
 
