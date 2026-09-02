@@ -1606,283 +1606,283 @@ window.COSY_DAILY_IDIOMS = {
       "example": "Après ses études, elle a quitté le domicile familial pour voler de ses propres ailes."
     },
     {
-      "idiom": "C'est la vie (1)",
+      "idiom": "C'est la vie",
       "level": "A2",
       "meaning": "That's life / Tel est le cours des choses",
       "example": "Mon train a du retard, c'est la vie !"
     },
     {
-      "idiom": "Poser un lapin (2)",
+      "idiom": "Poser un lapin",
       "level": "B1",
       "meaning": "Ne pas se présenter à un rendez-vous",
       "example": "Il ne vient pas ? Il m'a posé un lapin !"
     },
     {
-      "idiom": "Avoir le cafard (3)",
+      "idiom": "Avoir le cafard",
       "level": "B2",
       "meaning": "Se sentir triste ou déprimé",
       "example": "Quand il pleut toute la journée, j'ai le cafard."
     },
     {
-      "idiom": "Coup de foudre (4)",
+      "idiom": "Coup de foudre",
       "level": "C1",
       "meaning": "Amour soudain et immédiat",
       "example": "Entre Paul et Marie, ce fut le coup de foudre."
     },
     {
-      "idiom": "Comme un poisson dans l'eau (5)",
+      "idiom": "Comme un poisson dans l'eau",
       "level": "C2",
       "meaning": "Être très à l'aise dans un environnement",
       "example": "Au volant de sa voiture, il est comme un poisson dans l'eau."
     },
     {
-      "idiom": "Coûter les yeux de la tête (6)",
+      "idiom": "Coûter les yeux de la tête",
       "level": "A1",
       "meaning": "Être extrêmement cher",
       "example": "Ce nouveau téléphone coûte les yeux de la tête."
     },
     {
-      "idiom": "Mettre les pieds dans le plat (7)",
+      "idiom": "Mettre les pieds dans le plat",
       "level": "A2",
       "meaning": "Parler maladroitement d'un sujet délicat",
       "example": "En abordant ce sujet, il a mis les pieds dans le plat."
     },
     {
-      "idiom": "Donner sa langue au chat (8)",
+      "idiom": "Donner sa langue au chat",
       "level": "B1",
       "meaning": "Abandonner une devinette",
       "example": "Je ne trouve pas la réponse, je donne ma langue au chat."
     },
     {
-      "idiom": "Raconter des salades (9)",
+      "idiom": "Raconter des salades",
       "level": "B2",
       "meaning": "Raconter des mensonges ou des histoires",
       "example": "Ne le crois pas, il raconte toujours des salades."
     },
     {
-      "idiom": "Avoir un poil dans la main (10)",
+      "idiom": "Avoir un poil dans la main",
       "level": "C1",
       "meaning": "Être très paresseux",
       "example": "Il ne fait jamais le ménage, il a un poil dans la main !"
     },
     {
-      "idiom": "Tomber dans les pommes (11)",
+      "idiom": "Tomber dans les pommes",
       "level": "C2",
       "meaning": "S'évanouir",
       "example": "Sous cette chaleur intense, elle a failli tomber dans les pommes."
     },
     {
-      "idiom": "Au fur et à mesure (12)",
+      "idiom": "Au fur et à mesure",
       "level": "A1",
       "meaning": "Progressivement, étape par étape",
       "example": "Les idées viennent au fur et à mesure de la discussion."
     },
     {
-      "idiom": "Avoir l'embarras du choix (13)",
+      "idiom": "Avoir l'embarras du choix",
       "level": "A2",
       "meaning": "Avoir trop de possibilités",
       "example": "Dans ce grand restaurant, on a l'embarras du choix."
     },
     {
-      "idiom": "Casser les pieds (14)",
+      "idiom": "Casser les pieds",
       "level": "B1",
       "meaning": "Embêter fortement quelqu'un",
       "example": "Arrête de me casser les pieds avec tes questions !"
     },
     {
-      "idiom": "Faire la grasse matinée (15)",
+      "idiom": "Faire la grasse matinée",
       "level": "B2",
       "meaning": "Dormir tard le matin",
       "example": "Le dimanche, nous aimons faire la grasse matinée."
     },
     {
-      "idiom": "Jeter l'éponge (16)",
+      "idiom": "Jeter l'éponge",
       "level": "C1",
       "meaning": "Abandonner un projet ou un combat",
       "example": "Malgré les difficultés, l'équipe refuse de jeter l'éponge."
     },
     {
-      "idiom": "Faire d'une pierre deux coups (17)",
+      "idiom": "Faire d'une pierre deux coups",
       "level": "C2",
       "meaning": "Réussir deux objectifs en une seule action",
       "example": "En allant à Paris pour le travail, j'ai fait d'une pierre deux coups en voyant mes amis."
     },
     {
-      "idiom": "Avoir le cœur sur la main (18)",
+      "idiom": "Avoir le cœur sur la main",
       "level": "A1",
       "meaning": "Être très généreux",
       "example": "Elle aide tout le monde, elle a le cœur sur la main."
     },
     {
-      "idiom": "Avoir d'autres chats à fouetter (19)",
+      "idiom": "Avoir d'autres chats à fouetter",
       "level": "A2",
       "meaning": "Avoir des affaires plus importantes à régler",
       "example": "Je ne peux pas m'en occuper, j'ai d'autres chats à fouetter."
     },
     {
-      "idiom": "Appeler un chat un chat (20)",
+      "idiom": "Appeler un chat un chat",
       "level": "B1",
       "meaning": "Parler avec une entière franchise",
       "example": "Soyons honnêtes et appelons un chat un chat."
     },
     {
-      "idiom": "Mettre l'eau à la bouche (21)",
+      "idiom": "Mettre l'eau à la bouche",
       "level": "B2",
       "meaning": "Donner très envie de manger ou tester",
       "example": "L'odeur de ce gâteau met l'eau à la bouche."
     },
     {
-      "idiom": "Avoir la tête sur les épaules (22)",
+      "idiom": "Avoir la tête sur les épaules",
       "level": "C1",
       "meaning": "Être réaliste et sensé",
       "example": "C'est un jeune très responsable, il a la tête sur les épaules."
     },
     {
-      "idiom": "Prendre son courage à deux mains (23)",
+      "idiom": "Prendre son courage à deux mains",
       "level": "C2",
       "meaning": "Affronter une peur avec détermination",
       "example": "Il a pris son courage à deux mains et a parlé à son patron."
     },
     {
-      "idiom": "Tourner la page (24)",
+      "idiom": "Tourner la page",
       "level": "A1",
       "meaning": "Passer à autre chose après un événement",
       "example": "Après l'échec, il a décidé de tourner la page."
     },
     {
-      "idiom": "Vider son sac (25)",
+      "idiom": "Vider son sac",
       "level": "A2",
       "meaning": "Exprimer enfin tout ce qu'on retenait",
       "example": "Pendant la réunion, il a décidé de vider son sac."
     },
     {
-      "idiom": "Tirer son épingle du jeu (26)",
+      "idiom": "Tirer son épingle du jeu",
       "level": "B1",
       "meaning": "Se sortir habilement d'une situation difficile",
       "example": "Dans cette crise économique, l'entreprise a su tirer son épingle du jeu."
     },
     {
-      "idiom": "Mettre de l'eau dans son vin (27)",
+      "idiom": "Mettre de l'eau dans son vin",
       "level": "B2",
       "meaning": "Modérer ses exigences",
       "example": "Pour parvenir à un accord, chacun doit mettre de l'eau dans son vin."
     },
     {
-      "idiom": "Passer du coq à l'âne (28)",
+      "idiom": "Passer du coq à l'âne",
       "level": "C1",
       "meaning": "Changer brusquement de sujet de conversation",
       "example": "En nous parlant, il passe constamment du coq à l'âne."
     },
     {
-      "idiom": "Avoir les yeux plus gros que le ventre (29)",
+      "idiom": "Avoir les yeux plus gros que le ventre",
       "level": "C2",
       "meaning": "Commander ou prendre plus qu'on ne peut consommer",
       "example": "J'ai trop servi sur mon assiette, j'ai eu les yeux plus gros que le ventre."
     },
     {
-      "idiom": "Chercher midi à quatorze heures (30)",
+      "idiom": "Chercher midi à quatorze heures",
       "level": "A1",
       "meaning": "Compliquer inutilement les choses",
       "example": "La solution est simple, ne cherche pas midi à quatorze heures."
     },
     {
-      "idiom": "Couper les cheveux en quatre (31)",
+      "idiom": "Couper les cheveux en quatre",
       "level": "A2",
       "meaning": "Mener un raisonnement excessivement minutieux",
       "example": "Arrêtons de couper les cheveux en quatre et décidons."
     },
     {
-      "idiom": "Faire la sourde oreille (32)",
+      "idiom": "Faire la sourde oreille",
       "level": "B1",
       "meaning": "Faire semblant de ne pas entendre",
       "example": "Malgré les conseils, il fait la sourde oreille."
     },
     {
-      "idiom": "Mettre les bouchées doubles (33)",
+      "idiom": "Mettre les bouchées doubles",
       "level": "B2",
       "meaning": "Accélérer considérablement son travail",
       "example": "Pour finir avant ce soir, nous devons mettre les bouchées doubles."
     },
     {
-      "idiom": "Prendre des vessies pour des lanternes (34)",
+      "idiom": "Prendre des vessies pour des lanternes",
       "level": "C1",
       "meaning": "Se faire des illusions grossières",
       "example": "Attention à ne pas prendre des vessies pour des lanternes."
     },
     {
-      "idiom": "Tirer les vers du nez (35)",
+      "idiom": "Tirer les vers du nez",
       "level": "C2",
       "meaning": "Faire parler quelqu'un adroitement",
       "example": "La journaliste a réussi à lui tirer les vers du nez."
     },
     {
-      "idiom": "Mettre sa main au feu (36)",
+      "idiom": "Mettre sa main au feu",
       "level": "A1",
       "meaning": "Être absolument certain d'une chose",
       "example": "Je mettrais ma main au feu qu'il dit la vérité."
     },
     {
-      "idiom": "Avoir un violon d'Ingres (37)",
+      "idiom": "Avoir un violon d'Ingres",
       "level": "A2",
       "meaning": "Avoir une passion ou un loisir favori",
       "example": "La peinture est son véritable violon d'Ingres."
     },
     {
-      "idiom": "Bâtir des châteaux en Espagne (38)",
+      "idiom": "Bâtir des châteaux en Espagne",
       "level": "B1",
       "meaning": "Faire des projets irréalistes",
       "example": "Au lieu de bâtir des châteaux en Espagne, agissons."
     },
     {
-      "idiom": "Brûler les étapes (39)",
+      "idiom": "Brûler les étapes",
       "level": "B2",
       "meaning": "Agir trop précipitamment",
       "example": "Il veut réussir vite mais il ne faut pas brûler les étapes."
     },
     {
-      "idiom": "Découvrir le pot aux roses (40)",
+      "idiom": "Découvrir le pot aux roses",
       "level": "C1",
       "meaning": "Mettre au jour un secret dissimulé",
       "example": "L'enquêteur a fini par découvrir le pot aux roses."
     },
     {
-      "idiom": "Faire chou blanc (41)",
+      "idiom": "Faire chou blanc",
       "level": "C2",
       "meaning": "Subir un échec complet",
       "example": "Les recherches ont fait chou blanc toute la journée."
     },
     {
-      "idiom": "Mettre le doigt sur le problème (42)",
+      "idiom": "Mettre le doigt sur le problème",
       "level": "A1",
       "meaning": "Identifier exactement la difficulté",
       "example": "Son rapport a mis le doigt sur le problème financier."
     },
     {
-      "idiom": "Noyer le poisson (43)",
+      "idiom": "Noyer le poisson",
       "level": "A2",
       "meaning": "Créer la confusion pour esquiver une question",
       "example": "Quand on l'interroge sur les chiffres, il noie le poisson."
     },
     {
-      "idiom": "Rendre la monnaie de sa pièce (44)",
+      "idiom": "Rendre la monnaie de sa pièce",
       "level": "B1",
       "meaning": "Se venger d'un mauvais procédé",
       "example": "Il lui a rendu la monnaie de sa pièce lors du débat."
     },
     {
-      "idiom": "Séparer le grain de l'ivraie (45)",
+      "idiom": "Séparer le grain de l'ivraie",
       "level": "B2",
       "meaning": "Distinguer le bon du mauvais",
       "example": "L'examen permet de séparer le grain de l'ivraie."
     },
     {
-      "idiom": "Avoir une épée de Damoclès sur la tête (46)",
+      "idiom": "Avoir une épée de Damoclès sur la tête",
       "level": "C1",
       "meaning": "Être menacé d'un danger constant",
       "example": "Cette dette fiscale est une épée de Damoclès sur l'entreprise."
     },
     {
-      "idiom": "Clouer le bec à quelqu'un (47)",
+      "idiom": "Clouer le bec à quelqu'un",
       "level": "C2",
       "meaning": "Faire taire quelqu'un par un argument imparable",
       "example": "Sa réplique brillante a cloué le bec à son opposant."
@@ -1968,523 +1968,523 @@ window.COSY_DAILY_IDIOMS = {
       "example": "Il mediatore è riuscito a salvare capra e cavoli."
     },
     {
-      "idiom": "In bocca al lupo (1)",
+      "idiom": "In bocca al lupo",
       "level": "A2",
       "meaning": "Buona fortuna (risposta: Crepi!)",
       "example": "Domani hai l'esame? In bocca al lupo!"
     },
     {
-      "idiom": "Dolce far niente (2)",
+      "idiom": "Dolce far niente",
       "level": "B1",
       "meaning": "Il piacere del riposo e dell'ozio",
       "example": "Domenica ci godiamo il dolce far niente."
     },
     {
-      "idiom": "Avere le mani in pasta (3)",
+      "idiom": "Avere le mani in pasta",
       "level": "B2",
       "meaning": "Essere coinvolto attivamente in qualcosa",
       "example": "È un imprenditore che ha le mani in pasta in tanti settori."
     },
     {
-      "idiom": "Prendere due piccioni con una fava (4)",
+      "idiom": "Prendere due piccioni con una fava",
       "level": "C1",
       "meaning": "Ottenere due risultati con un'unica azione",
       "example": "Andando a Roma ho visitato i musei e visto gli amici: due piccioni con una fava!"
     },
     {
-      "idiom": "Rompere il ghiaccio (5)",
+      "idiom": "Rompere il ghiaccio",
       "level": "C2",
       "meaning": "Superare l'imbarazzo iniziale",
       "example": "Una battuta divertente è servita per rompere il ghiaccio."
     },
     {
-      "idiom": "Cadere dalle nuvole (6)",
+      "idiom": "Cadere dalle nuvole",
       "level": "A1",
       "meaning": "Mostrarsi completamente sorpreso",
       "example": "Quando gli ho dato la notizia, è caduto dalle nuvole."
     },
     {
-      "idiom": "Non avere peli sulla lingua (7)",
+      "idiom": "Non avere peli sulla lingua",
       "level": "A2",
       "meaning": "Parlare con estrema franchezza",
       "example": "Marta dice sempre quello che pensa, non ha peli sulla lingua."
     },
     {
-      "idiom": "Alzarsi col piede sbagliato (8)",
+      "idiom": "Alzarsi col piede sbagliato",
       "level": "B1",
       "meaning": "Iniziare la giornata di cattivo umore",
       "example": "Oggi risponde male a tutti: si è alzato col piede sbagliato."
     },
     {
-      "idiom": "Gettare la spugna (9)",
+      "idiom": "Gettare la spugna",
       "level": "B2",
       "meaning": "Arrendersi di fronte alle difficoltà",
       "example": "Non gettare la spugna proprio adesso che sei vicino al traguardo!"
     },
     {
-      "idiom": "Avere un chiodo fisso (10)",
+      "idiom": "Avere un chiodo fisso",
       "level": "C1",
       "meaning": "Essere ossessionati da un pensiero",
       "example": "Superare l'esame di italiano è diventato il suo chiodo fisso."
     },
     {
-      "idiom": "Essere all'altezza (11)",
+      "idiom": "Essere all'altezza",
       "level": "C2",
       "meaning": "Dimostrare le capacità necessarie",
       "example": "Ha dimostrato di essere all'altezza del nuovo incarico."
     },
     {
-      "idiom": "Toccare il cielo con un dito (12)",
+      "idiom": "Toccare il cielo con un dito",
       "level": "A1",
       "meaning": "Provare una felicità immensa",
       "example": "Quando ha ricevuto la borsa di studio toccava il cielo con un dito."
     },
     {
-      "idiom": "Salvare capra e cavoli (13)",
+      "idiom": "Salvare capra e cavoli",
       "level": "A2",
       "meaning": "Conciliare due esigenze opposte",
       "example": "Il mediatore è riuscito a salvare capra e cavoli."
     },
     {
-      "idiom": "In bocca al lupo (14)",
+      "idiom": "In bocca al lupo",
       "level": "B1",
       "meaning": "Buona fortuna (risposta: Crepi!)",
       "example": "Domani hai l'esame? In bocca al lupo!"
     },
     {
-      "idiom": "Dolce far niente (15)",
+      "idiom": "Dolce far niente",
       "level": "B2",
       "meaning": "Il piacere del riposo e dell'ozio",
       "example": "Domenica ci godiamo il dolce far niente."
     },
     {
-      "idiom": "Avere le mani in pasta (16)",
+      "idiom": "Avere le mani in pasta",
       "level": "C1",
       "meaning": "Essere coinvolto attivamente in qualcosa",
       "example": "È un imprenditore che ha le mani in pasta in tanti settori."
     },
     {
-      "idiom": "Prendere due piccioni con una fava (17)",
+      "idiom": "Prendere due piccioni con una fava",
       "level": "C2",
       "meaning": "Ottenere due risultati con un'unica azione",
       "example": "Andando a Roma ho visitato i musei e visto gli amici: due piccioni con una fava!"
     },
     {
-      "idiom": "Rompere il ghiaccio (18)",
+      "idiom": "Rompere il ghiaccio",
       "level": "A1",
       "meaning": "Superare l'imbarazzo iniziale",
       "example": "Una battuta divertente è servita per rompere il ghiaccio."
     },
     {
-      "idiom": "Cadere dalle nuvole (19)",
+      "idiom": "Cadere dalle nuvole",
       "level": "A2",
       "meaning": "Mostrarsi completamente sorpreso",
       "example": "Quando gli ho dato la notizia, è caduto dalle nuvole."
     },
     {
-      "idiom": "Non avere peli sulla lingua (20)",
+      "idiom": "Non avere peli sulla lingua",
       "level": "B1",
       "meaning": "Parlare con estrema franchezza",
       "example": "Marta dice sempre quello che pensa, non ha peli sulla lingua."
     },
     {
-      "idiom": "Alzarsi col piede sbagliato (21)",
+      "idiom": "Alzarsi col piede sbagliato",
       "level": "B2",
       "meaning": "Iniziare la giornata di cattivo umore",
       "example": "Oggi risponde male a tutti: si è alzato col piede sbagliato."
     },
     {
-      "idiom": "Gettare la spugna (22)",
+      "idiom": "Gettare la spugna",
       "level": "C1",
       "meaning": "Arrendersi di fronte alle difficoltà",
       "example": "Non gettare la spugna proprio adesso che sei vicino al traguardo!"
     },
     {
-      "idiom": "Avere un chiodo fisso (23)",
+      "idiom": "Avere un chiodo fisso",
       "level": "C2",
       "meaning": "Essere ossessionati da un pensiero",
       "example": "Superare l'esame di italiano è diventato il suo chiodo fisso."
     },
     {
-      "idiom": "Essere all'altezza (24)",
+      "idiom": "Essere all'altezza",
       "level": "A1",
       "meaning": "Dimostrare le capacità necessarie",
       "example": "Ha dimostrato di essere all'altezza del nuovo incarico."
     },
     {
-      "idiom": "Toccare il cielo con un dito (25)",
+      "idiom": "Toccare il cielo con un dito",
       "level": "A2",
       "meaning": "Provare una felicità immensa",
       "example": "Quando ha ricevuto la borsa di studio toccava il cielo con un dito."
     },
     {
-      "idiom": "Salvare capra e cavoli (26)",
+      "idiom": "Salvare capra e cavoli",
       "level": "B1",
       "meaning": "Conciliare due esigenze opposte",
       "example": "Il mediatore è riuscito a salvare capra e cavoli."
     },
     {
-      "idiom": "In bocca al lupo (27)",
+      "idiom": "In bocca al lupo",
       "level": "B2",
       "meaning": "Buona fortuna (risposta: Crepi!)",
       "example": "Domani hai l'esame? In bocca al lupo!"
     },
     {
-      "idiom": "Dolce far niente (28)",
+      "idiom": "Dolce far niente",
       "level": "C1",
       "meaning": "Il piacere del riposo e dell'ozio",
       "example": "Domenica ci godiamo il dolce far niente."
     },
     {
-      "idiom": "Avere le mani in pasta (29)",
+      "idiom": "Avere le mani in pasta",
       "level": "C2",
       "meaning": "Essere coinvolto attivamente in qualcosa",
       "example": "È un imprenditore che ha le mani in pasta in tanti settori."
     },
     {
-      "idiom": "Prendere due piccioni con una fava (30)",
+      "idiom": "Prendere due piccioni con una fava",
       "level": "A1",
       "meaning": "Ottenere due risultati con un'unica azione",
       "example": "Andando a Roma ho visitato i musei e visto gli amici: due piccioni con una fava!"
     },
     {
-      "idiom": "Rompere il ghiaccio (31)",
+      "idiom": "Rompere il ghiaccio",
       "level": "A2",
       "meaning": "Superare l'imbarazzo iniziale",
       "example": "Una battuta divertente è servita per rompere il ghiaccio."
     },
     {
-      "idiom": "Cadere dalle nuvole (32)",
+      "idiom": "Cadere dalle nuvole",
       "level": "B1",
       "meaning": "Mostrarsi completamente sorpreso",
       "example": "Quando gli ho dato la notizia, è caduto dalle nuvole."
     },
     {
-      "idiom": "Non avere peli sulla lingua (33)",
+      "idiom": "Non avere peli sulla lingua",
       "level": "B2",
       "meaning": "Parlare con estrema franchezza",
       "example": "Marta dice sempre quello che pensa, non ha peli sulla lingua."
     },
     {
-      "idiom": "Alzarsi col piede sbagliato (34)",
+      "idiom": "Alzarsi col piede sbagliato",
       "level": "C1",
       "meaning": "Iniziare la giornata di cattivo umore",
       "example": "Oggi risponde male a tutti: si è alzato col piede sbagliato."
     },
     {
-      "idiom": "Gettare la spugna (35)",
+      "idiom": "Gettare la spugna",
       "level": "C2",
       "meaning": "Arrendersi di fronte alle difficoltà",
       "example": "Non gettare la spugna proprio adesso che sei vicino al traguardo!"
     },
     {
-      "idiom": "Avere un chiodo fisso (36)",
+      "idiom": "Avere un chiodo fisso",
       "level": "A1",
       "meaning": "Essere ossessionati da un pensiero",
       "example": "Superare l'esame di italiano è diventato il suo chiodo fisso."
     },
     {
-      "idiom": "Essere all'altezza (37)",
+      "idiom": "Essere all'altezza",
       "level": "A2",
       "meaning": "Dimostrare le capacità necessarie",
       "example": "Ha dimostrato di essere all'altezza del nuovo incarico."
     },
     {
-      "idiom": "Toccare il cielo con un dito (38)",
+      "idiom": "Toccare il cielo con un dito",
       "level": "B1",
       "meaning": "Provare una felicità immensa",
       "example": "Quando ha ricevuto la borsa di studio toccava il cielo con un dito."
     },
     {
-      "idiom": "Salvare capra e cavoli (39)",
+      "idiom": "Salvare capra e cavoli",
       "level": "B2",
       "meaning": "Conciliare due esigenze opposte",
       "example": "Il mediatore è riuscito a salvare capra e cavoli."
     },
     {
-      "idiom": "In bocca al lupo (40)",
+      "idiom": "In bocca al lupo",
       "level": "C1",
       "meaning": "Buona fortuna (risposta: Crepi!)",
       "example": "Domani hai l'esame? In bocca al lupo!"
     },
     {
-      "idiom": "Dolce far niente (41)",
+      "idiom": "Dolce far niente",
       "level": "C2",
       "meaning": "Il piacere del riposo e dell'ozio",
       "example": "Domenica ci godiamo il dolce far niente."
     },
     {
-      "idiom": "Avere le mani in pasta (42)",
+      "idiom": "Avere le mani in pasta",
       "level": "A1",
       "meaning": "Essere coinvolto attivamente in qualcosa",
       "example": "È un imprenditore che ha le mani in pasta in tanti settori."
     },
     {
-      "idiom": "Prendere due piccioni con una fava (43)",
+      "idiom": "Prendere due piccioni con una fava",
       "level": "A2",
       "meaning": "Ottenere due risultati con un'unica azione",
       "example": "Andando a Roma ho visitato i musei e visto gli amici: due piccioni con una fava!"
     },
     {
-      "idiom": "Rompere il ghiaccio (44)",
+      "idiom": "Rompere il ghiaccio",
       "level": "B1",
       "meaning": "Superare l'imbarazzo iniziale",
       "example": "Una battuta divertente è servita per rompere il ghiaccio."
     },
     {
-      "idiom": "Cadere dalle nuvole (45)",
+      "idiom": "Cadere dalle nuvole",
       "level": "B2",
       "meaning": "Mostrarsi completamente sorpreso",
       "example": "Quando gli ho dato la notizia, è caduto dalle nuvole."
     },
     {
-      "idiom": "Non avere peli sulla lingua (46)",
+      "idiom": "Non avere peli sulla lingua",
       "level": "C1",
       "meaning": "Parlare con estrema franchezza",
       "example": "Marta dice sempre quello che pensa, non ha peli sulla lingua."
     },
     {
-      "idiom": "Alzarsi col piede sbagliato (47)",
+      "idiom": "Alzarsi col piede sbagliato",
       "level": "C2",
       "meaning": "Iniziare la giornata di cattivo umore",
       "example": "Oggi risponde male a tutti: si è alzato col piede sbagliato."
     },
     {
-      "idiom": "Gettare la spugna (48)",
+      "idiom": "Gettare la spugna",
       "level": "A1",
       "meaning": "Arrendersi di fronte alle difficoltà",
       "example": "Non gettare la spugna proprio adesso che sei vicino al traguardo!"
     },
     {
-      "idiom": "Avere un chiodo fisso (49)",
+      "idiom": "Avere un chiodo fisso",
       "level": "A2",
       "meaning": "Essere ossessionati da un pensiero",
       "example": "Superare l'esame di italiano è diventato il suo chiodo fisso."
     },
     {
-      "idiom": "Essere all'altezza (50)",
+      "idiom": "Essere all'altezza",
       "level": "B1",
       "meaning": "Dimostrare le capacità necessarie",
       "example": "Ha dimostrato di essere all'altezza del nuovo incarico."
     },
     {
-      "idiom": "Toccare il cielo con un dito (51)",
+      "idiom": "Toccare il cielo con un dito",
       "level": "B2",
       "meaning": "Provare una felicità immensa",
       "example": "Quando ha ricevuto la borsa di studio toccava il cielo con un dito."
     },
     {
-      "idiom": "Salvare capra e cavoli (52)",
+      "idiom": "Salvare capra e cavoli",
       "level": "C1",
       "meaning": "Conciliare due esigenze opposte",
       "example": "Il mediatore è riuscito a salvare capra e cavoli."
     },
     {
-      "idiom": "In bocca al lupo (53)",
+      "idiom": "In bocca al lupo",
       "level": "C2",
       "meaning": "Buona fortuna (risposta: Crepi!)",
       "example": "Domani hai l'esame? In bocca al lupo!"
     },
     {
-      "idiom": "Dolce far niente (54)",
+      "idiom": "Dolce far niente",
       "level": "A1",
       "meaning": "Il piacere del riposo e dell'ozio",
       "example": "Domenica ci godiamo il dolce far niente."
     },
     {
-      "idiom": "Avere le mani in pasta (55)",
+      "idiom": "Avere le mani in pasta",
       "level": "A2",
       "meaning": "Essere coinvolto attivamente in qualcosa",
       "example": "È un imprenditore che ha le mani in pasta in tanti settori."
     },
     {
-      "idiom": "Prendere due piccioni con una fava (56)",
+      "idiom": "Prendere due piccioni con una fava",
       "level": "B1",
       "meaning": "Ottenere due risultati con un'unica azione",
       "example": "Andando a Roma ho visitato i musei e visto gli amici: due piccioni con una fava!"
     },
     {
-      "idiom": "Rompere il ghiaccio (57)",
+      "idiom": "Rompere il ghiaccio",
       "level": "B2",
       "meaning": "Superare l'imbarazzo iniziale",
       "example": "Una battuta divertente è servita per rompere il ghiaccio."
     },
     {
-      "idiom": "Cadere dalle nuvole (58)",
+      "idiom": "Cadere dalle nuvole",
       "level": "C1",
       "meaning": "Mostrarsi completamente sorpreso",
       "example": "Quando gli ho dato la notizia, è caduto dalle nuvole."
     },
     {
-      "idiom": "Non avere peli sulla lingua (59)",
+      "idiom": "Non avere peli sulla lingua",
       "level": "C2",
       "meaning": "Parlare con estrema franchezza",
       "example": "Marta dice sempre quello che pensa, non ha peli sulla lingua."
     },
     {
-      "idiom": "Alzarsi col piede sbagliato (60)",
+      "idiom": "Alzarsi col piede sbagliato",
       "level": "A1",
       "meaning": "Iniziare la giornata di cattivo umore",
       "example": "Oggi risponde male a tutti: si è alzato col piede sbagliato."
     },
     {
-      "idiom": "Gettare la spugna (61)",
+      "idiom": "Gettare la spugna",
       "level": "A2",
       "meaning": "Arrendersi di fronte alle difficoltà",
       "example": "Non gettare la spugna proprio adesso che sei vicino al traguardo!"
     },
     {
-      "idiom": "Avere un chiodo fisso (62)",
+      "idiom": "Avere un chiodo fisso",
       "level": "B1",
       "meaning": "Essere ossessionati da un pensiero",
       "example": "Superare l'esame di italiano è diventato il suo chiodo fisso."
     },
     {
-      "idiom": "Essere all'altezza (63)",
+      "idiom": "Essere all'altezza",
       "level": "B2",
       "meaning": "Dimostrare le capacità necessarie",
       "example": "Ha dimostrato di essere all'altezza del nuovo incarico."
     },
     {
-      "idiom": "Toccare il cielo con un dito (64)",
+      "idiom": "Toccare il cielo con un dito",
       "level": "C1",
       "meaning": "Provare una felicità immensa",
       "example": "Quando ha ricevuto la borsa di studio toccava il cielo con un dito."
     },
     {
-      "idiom": "Salvare capra e cavoli (65)",
+      "idiom": "Salvare capra e cavoli",
       "level": "C2",
       "meaning": "Conciliare due esigenze opposte",
       "example": "Il mediatore è riuscito a salvare capra e cavoli."
     },
     {
-      "idiom": "In bocca al lupo (66)",
+      "idiom": "In bocca al lupo",
       "level": "A1",
       "meaning": "Buona fortuna (risposta: Crepi!)",
       "example": "Domani hai l'esame? In bocca al lupo!"
     },
     {
-      "idiom": "Dolce far niente (67)",
+      "idiom": "Dolce far niente",
       "level": "A2",
       "meaning": "Il piacere del riposo e dell'ozio",
       "example": "Domenica ci godiamo il dolce far niente."
     },
     {
-      "idiom": "Avere le mani in pasta (68)",
+      "idiom": "Avere le mani in pasta",
       "level": "B1",
       "meaning": "Essere coinvolto attivamente in qualcosa",
       "example": "È un imprenditore che ha le mani in pasta in tanti settori."
     },
     {
-      "idiom": "Prendere due piccioni con una fava (69)",
+      "idiom": "Prendere due piccioni con una fava",
       "level": "B2",
       "meaning": "Ottenere due risultati con un'unica azione",
       "example": "Andando a Roma ho visitato i musei e visto gli amici: due piccioni con una fava!"
     },
     {
-      "idiom": "Rompere il ghiaccio (70)",
+      "idiom": "Rompere il ghiaccio",
       "level": "C1",
       "meaning": "Superare l'imbarazzo iniziale",
       "example": "Una battuta divertente è servita per rompere il ghiaccio."
     },
     {
-      "idiom": "Cadere dalle nuvole (71)",
+      "idiom": "Cadere dalle nuvole",
       "level": "C2",
       "meaning": "Mostrarsi completamente sorpreso",
       "example": "Quando gli ho dato la notizia, è caduto dalle nuvole."
     },
     {
-      "idiom": "Non avere peli sulla lingua (72)",
+      "idiom": "Non avere peli sulla lingua",
       "level": "A1",
       "meaning": "Parlare con estrema franchezza",
       "example": "Marta dice sempre quello che pensa, non ha peli sulla lingua."
     },
     {
-      "idiom": "Alzarsi col piede sbagliato (73)",
+      "idiom": "Alzarsi col piede sbagliato",
       "level": "A2",
       "meaning": "Iniziare la giornata di cattivo umore",
       "example": "Oggi risponde male a tutti: si è alzato col piede sbagliato."
     },
     {
-      "idiom": "Gettare la spugna (74)",
+      "idiom": "Gettare la spugna",
       "level": "B1",
       "meaning": "Arrendersi di fronte alle difficoltà",
       "example": "Non gettare la spugna proprio adesso che sei vicino al traguardo!"
     },
     {
-      "idiom": "Avere un chiodo fisso (75)",
+      "idiom": "Avere un chiodo fisso",
       "level": "B2",
       "meaning": "Essere ossessionati da un pensiero",
       "example": "Superare l'esame di italiano è diventato il suo chiodo fisso."
     },
     {
-      "idiom": "Essere all'altezza (76)",
+      "idiom": "Essere all'altezza",
       "level": "C1",
       "meaning": "Dimostrare le capacità necessarie",
       "example": "Ha dimostrato di essere all'altezza del nuovo incarico."
     },
     {
-      "idiom": "Toccare il cielo con un dito (77)",
+      "idiom": "Toccare il cielo con un dito",
       "level": "C2",
       "meaning": "Provare una felicità immensa",
       "example": "Quando ha ricevuto la borsa di studio toccava il cielo con un dito."
     },
     {
-      "idiom": "Salvare capra e cavoli (78)",
+      "idiom": "Salvare capra e cavoli",
       "level": "A1",
       "meaning": "Conciliare due esigenze opposte",
       "example": "Il mediatore è riuscito a salvare capra e cavoli."
     },
     {
-      "idiom": "In bocca al lupo (79)",
+      "idiom": "In bocca al lupo",
       "level": "A2",
       "meaning": "Buona fortuna (risposta: Crepi!)",
       "example": "Domani hai l'esame? In bocca al lupo!"
     },
     {
-      "idiom": "Dolce far niente (80)",
+      "idiom": "Dolce far niente",
       "level": "B1",
       "meaning": "Il piacere del riposo e dell'ozio",
       "example": "Domenica ci godiamo il dolce far niente."
     },
     {
-      "idiom": "Avere le mani in pasta (81)",
+      "idiom": "Avere le mani in pasta",
       "level": "B2",
       "meaning": "Essere coinvolto attivamente in qualcosa",
       "example": "È un imprenditore che ha le mani in pasta in tanti settori."
     },
     {
-      "idiom": "Prendere due piccioni con una fava (82)",
+      "idiom": "Prendere due piccioni con una fava",
       "level": "C1",
       "meaning": "Ottenere due risultati con un'unica azione",
       "example": "Andando a Roma ho visitato i musei e visto gli amici: due piccioni con una fava!"
     },
     {
-      "idiom": "Rompere il ghiaccio (83)",
+      "idiom": "Rompere il ghiaccio",
       "level": "C2",
       "meaning": "Superare l'imbarazzo iniziale",
       "example": "Una battuta divertente è servita per rompere il ghiaccio."
     },
     {
-      "idiom": "Cadere dalle nuvole (84)",
+      "idiom": "Cadere dalle nuvole",
       "level": "A1",
       "meaning": "Mostrarsi completamente sorpreso",
       "example": "Quando gli ho dato la notizia, è caduto dalle nuvole."
     },
     {
-      "idiom": "Non avere peli sulla lingua (85)",
+      "idiom": "Non avere peli sulla lingua",
       "level": "A2",
       "meaning": "Parlare con estrema franchezza",
       "example": "Marta dice sempre quello che pensa, non ha peli sulla lingua."
     },
     {
-      "idiom": "Alzarsi col piede sbagliato (86)",
+      "idiom": "Alzarsi col piede sbagliato",
       "level": "B1",
       "meaning": "Iniziare la giornata di cattivo umore",
       "example": "Oggi risponde male a tutti: si è alzato col piede sbagliato."
     },
     {
-      "idiom": "Gettare la spugna (87)",
+      "idiom": "Gettare la spugna",
       "level": "B2",
       "meaning": "Arrendersi di fronte alle difficoltà",
       "example": "Non gettare la spugna proprio adesso che sei vicino al traguardo!"
@@ -2564,529 +2564,529 @@ window.COSY_DAILY_IDIOMS = {
       "example": "Успешный руководитель всегда держит руку на пульсе."
     },
     {
-      "idiom": "Ни пуха ни пера (1)",
+      "idiom": "Ни пуха ни пера",
       "level": "A2",
       "meaning": "Пожелание удачи (ответ: К чёрту!)",
       "example": "Завтра экзамен — ни пуха ни пера!"
     },
     {
-      "idiom": "Витать в облаках (2)",
+      "idiom": "Витать в облаках",
       "level": "B1",
       "meaning": "Мечтать, быть невнимательным",
       "example": "Перестань витать в облаках, слушай урок!"
     },
     {
-      "idiom": "Вешать нос (3)",
+      "idiom": "Вешать нос",
       "level": "B2",
       "meaning": "Унывать, расстраиваться",
       "example": "Не вешай нос, в следующий раз всё получится!"
     },
     {
-      "idiom": "Спустя рукава (4)",
+      "idiom": "Спустя рукава",
       "level": "C1",
       "meaning": "Делать работу небрежно",
       "example": "Он относится к учебе спустя рукава."
     },
     {
-      "idiom": "Мастер на все руки (5)",
+      "idiom": "Мастер на все руки",
       "level": "C2",
       "meaning": "Умелый человек, способный ко всему",
       "example": "Мой дедушка сам починил всю технику, он мастер на все руки."
     },
     {
-      "idiom": "Водить за нос (6)",
+      "idiom": "Водить за нос",
       "level": "A1",
       "meaning": "Обманывать, вводить в заблуждение",
       "example": "Не надо водить меня за нос, скажи правду."
     },
     {
-      "idiom": "Делать из мухи слона (7)",
+      "idiom": "Делать из мухи слона",
       "level": "A2",
       "meaning": "Преувеличивать проблему",
       "example": "Не стоит делать из мухи слона, это мелкая ошибка."
     },
     {
-      "idiom": "Грызть гранит науки (8)",
+      "idiom": "Грызть гранит науки",
       "level": "B1",
       "meaning": "Усердно учиться",
       "example": "Студенты перед сессией усердно грызут гранит науки."
     },
     {
-      "idiom": "Не в своей тарелке (9)",
+      "idiom": "Не в своей тарелке",
       "level": "B2",
       "meaning": "Чувствовать себя неуютно",
       "example": "На этом официальном вечере я был не в своей тарелке."
     },
     {
-      "idiom": "Свалиться как снег на голову (10)",
+      "idiom": "Свалиться как снег на голову",
       "level": "C1",
       "meaning": "Появиться внезапно, неожиданно",
       "example": "Старые друзья свалились как снег на голову."
     },
     {
-      "idiom": "Взять себя в руки (11)",
+      "idiom": "Взять себя в руки",
       "level": "C2",
       "meaning": "Собраться с духом, совладать с эмоциями",
       "example": "Взяв себя в руки, она выступила блестяще."
     },
     {
-      "idiom": "Держать руку на пульсе (12)",
+      "idiom": "Держать руку на пульсе",
       "level": "A1",
       "meaning": "Быть в курсе всех событий",
       "example": "Успешный руководитель всегда держит руку на пульсе."
     },
     {
-      "idiom": "Ни пуха ни пера (13)",
+      "idiom": "Ни пуха ни пера",
       "level": "A2",
       "meaning": "Пожелание удачи (ответ: К чёрту!)",
       "example": "Завтра экзамен — ни пуха ни пера!"
     },
     {
-      "idiom": "Витать в облаках (14)",
+      "idiom": "Витать в облаках",
       "level": "B1",
       "meaning": "Мечтать, быть невнимательным",
       "example": "Перестань витать в облаках, слушай урок!"
     },
     {
-      "idiom": "Вешать нос (15)",
+      "idiom": "Вешать нос",
       "level": "B2",
       "meaning": "Унывать, расстраиваться",
       "example": "Не вешай нос, в следующий раз всё получится!"
     },
     {
-      "idiom": "Спустя рукава (16)",
+      "idiom": "Спустя рукава",
       "level": "C1",
       "meaning": "Делать работу небрежно",
       "example": "Он относится к учебе спустя рукава."
     },
     {
-      "idiom": "Мастер на все руки (17)",
+      "idiom": "Мастер на все руки",
       "level": "C2",
       "meaning": "Умелый человек, способный ко всему",
       "example": "Мой дедушка сам починил всю технику, он мастер на все руки."
     },
     {
-      "idiom": "Водить за нос (18)",
+      "idiom": "Водить за нос",
       "level": "A1",
       "meaning": "Обманывать, вводить в заблуждение",
       "example": "Не надо водить меня за нос, скажи правду."
     },
     {
-      "idiom": "Делать из мухи слона (19)",
+      "idiom": "Делать из мухи слона",
       "level": "A2",
       "meaning": "Преувеличивать проблему",
       "example": "Не стоит делать из мухи слона, это мелкая ошибка."
     },
     {
-      "idiom": "Грызть гранит науки (20)",
+      "idiom": "Грызть гранит науки",
       "level": "B1",
       "meaning": "Усердно учиться",
       "example": "Студенты перед сессией усердно грызут гранит науки."
     },
     {
-      "idiom": "Не в своей тарелке (21)",
+      "idiom": "Не в своей тарелке",
       "level": "B2",
       "meaning": "Чувствовать себя неуютно",
       "example": "На этом официальном вечере я был не в своей тарелке."
     },
     {
-      "idiom": "Свалиться как снег на голову (22)",
+      "idiom": "Свалиться как снег на голову",
       "level": "C1",
       "meaning": "Появиться внезапно, неожиданно",
       "example": "Старые друзья свалились как снег на голову."
     },
     {
-      "idiom": "Взять себя в руки (23)",
+      "idiom": "Взять себя в руки",
       "level": "C2",
       "meaning": "Собраться с духом, совладать с эмоциями",
       "example": "Взяв себя в руки, она выступила блестяще."
     },
     {
-      "idiom": "Держать руку на пульсе (24)",
+      "idiom": "Держать руку на пульсе",
       "level": "A1",
       "meaning": "Быть в курсе всех событий",
       "example": "Успешный руководитель всегда держит руку на пульсе."
     },
     {
-      "idiom": "Ни пуха ни пера (25)",
+      "idiom": "Ни пуха ни пера",
       "level": "A2",
       "meaning": "Пожелание удачи (ответ: К чёрту!)",
       "example": "Завтра экзамен — ни пуха ни пера!"
     },
     {
-      "idiom": "Витать в облаках (26)",
+      "idiom": "Витать в облаках",
       "level": "B1",
       "meaning": "Мечтать, быть невнимательным",
       "example": "Перестань витать в облаках, слушай урок!"
     },
     {
-      "idiom": "Вешать нос (27)",
+      "idiom": "Вешать нос",
       "level": "B2",
       "meaning": "Унывать, расстраиваться",
       "example": "Не вешай нос, в следующий раз всё получится!"
     },
     {
-      "idiom": "Спустя рукава (28)",
+      "idiom": "Спустя рукава",
       "level": "C1",
       "meaning": "Делать работу небрежно",
       "example": "Он относится к учебе спустя рукава."
     },
     {
-      "idiom": "Мастер на все руки (29)",
+      "idiom": "Мастер на все руки",
       "level": "C2",
       "meaning": "Умелый человек, способный ко всему",
       "example": "Мой дедушка сам починил всю технику, он мастер на все руки."
     },
     {
-      "idiom": "Водить за нос (30)",
+      "idiom": "Водить за нос",
       "level": "A1",
       "meaning": "Обманывать, вводить в заблуждение",
       "example": "Не надо водить меня за нос, скажи правду."
     },
     {
-      "idiom": "Делать из мухи слона (31)",
+      "idiom": "Делать из мухи слона",
       "level": "A2",
       "meaning": "Преувеличивать проблему",
       "example": "Не стоит делать из мухи слона, это мелкая ошибка."
     },
     {
-      "idiom": "Грызть гранит науки (32)",
+      "idiom": "Грызть гранит науки",
       "level": "B1",
       "meaning": "Усердно учиться",
       "example": "Студенты перед сессией усердно грызут гранит науки."
     },
     {
-      "idiom": "Не в своей тарелке (33)",
+      "idiom": "Не в своей тарелке",
       "level": "B2",
       "meaning": "Чувствовать себя неуютно",
       "example": "На этом официальном вечере я был не в своей тарелке."
     },
     {
-      "idiom": "Свалиться как снег на голову (34)",
+      "idiom": "Свалиться как снег на голову",
       "level": "C1",
       "meaning": "Появиться внезапно, неожиданно",
       "example": "Старые друзья свалились как снег на голову."
     },
     {
-      "idiom": "Взять себя в руки (35)",
+      "idiom": "Взять себя в руки",
       "level": "C2",
       "meaning": "Собраться с духом, совладать с эмоциями",
       "example": "Взяв себя в руки, она выступила блестяще."
     },
     {
-      "idiom": "Держать руку на пульсе (36)",
+      "idiom": "Держать руку на пульсе",
       "level": "A1",
       "meaning": "Быть в курсе всех событий",
       "example": "Успешный руководитель всегда держит руку на пульсе."
     },
     {
-      "idiom": "Ни пуха ни пера (37)",
+      "idiom": "Ни пуха ни пера",
       "level": "A2",
       "meaning": "Пожелание удачи (ответ: К чёрту!)",
       "example": "Завтра экзамен — ни пуха ни пера!"
     },
     {
-      "idiom": "Витать в облаках (38)",
+      "idiom": "Витать в облаках",
       "level": "B1",
       "meaning": "Мечтать, быть невнимательным",
       "example": "Перестань витать в облаках, слушай урок!"
     },
     {
-      "idiom": "Вешать нос (39)",
+      "idiom": "Вешать нос",
       "level": "B2",
       "meaning": "Унывать, расстраиваться",
       "example": "Не вешай нос, в следующий раз всё получится!"
     },
     {
-      "idiom": "Спустя рукава (40)",
+      "idiom": "Спустя рукава",
       "level": "C1",
       "meaning": "Делать работу небрежно",
       "example": "Он относится к учебе спустя рукава."
     },
     {
-      "idiom": "Мастер на все руки (41)",
+      "idiom": "Мастер на все руки",
       "level": "C2",
       "meaning": "Умелый человек, способный ко всему",
       "example": "Мой дедушка сам починил всю технику, он мастер на все руки."
     },
     {
-      "idiom": "Водить за нос (42)",
+      "idiom": "Водить за нос",
       "level": "A1",
       "meaning": "Обманывать, вводить в заблуждение",
       "example": "Не надо водить меня за нос, скажи правду."
     },
     {
-      "idiom": "Делать из мухи слона (43)",
+      "idiom": "Делать из мухи слона",
       "level": "A2",
       "meaning": "Преувеличивать проблему",
       "example": "Не стоит делать из мухи слона, это мелкая ошибка."
     },
     {
-      "idiom": "Грызть гранит науки (44)",
+      "idiom": "Грызть гранит науки",
       "level": "B1",
       "meaning": "Усердно учиться",
       "example": "Студенты перед сессией усердно грызут гранит науки."
     },
     {
-      "idiom": "Не в своей тарелке (45)",
+      "idiom": "Не в своей тарелке",
       "level": "B2",
       "meaning": "Чувствовать себя неуютно",
       "example": "На этом официальном вечере я был не в своей тарелке."
     },
     {
-      "idiom": "Свалиться как снег на голову (46)",
+      "idiom": "Свалиться как снег на голову",
       "level": "C1",
       "meaning": "Появиться внезапно, неожиданно",
       "example": "Старые друзья свалились как снег на голову."
     },
     {
-      "idiom": "Взять себя в руки (47)",
+      "idiom": "Взять себя в руки",
       "level": "C2",
       "meaning": "Собраться с духом, совладать с эмоциями",
       "example": "Взяв себя в руки, она выступила блестяще."
     },
     {
-      "idiom": "Держать руку на пульсе (48)",
+      "idiom": "Держать руку на пульсе",
       "level": "A1",
       "meaning": "Быть в курсе всех событий",
       "example": "Успешный руководитель всегда держит руку на пульсе."
     },
     {
-      "idiom": "Ни пуха ни пера (49)",
+      "idiom": "Ни пуха ни пера",
       "level": "A2",
       "meaning": "Пожелание удачи (ответ: К чёрту!)",
       "example": "Завтра экзамен — ни пуха ни пера!"
     },
     {
-      "idiom": "Витать в облаках (50)",
+      "idiom": "Витать в облаках",
       "level": "B1",
       "meaning": "Мечтать, быть невнимательным",
       "example": "Перестань витать в облаках, слушай урок!"
     },
     {
-      "idiom": "Вешать нос (51)",
+      "idiom": "Вешать нос",
       "level": "B2",
       "meaning": "Унывать, расстраиваться",
       "example": "Не вешай нос, в следующий раз всё получится!"
     },
     {
-      "idiom": "Спустя рукава (52)",
+      "idiom": "Спустя рукава",
       "level": "C1",
       "meaning": "Делать работу небрежно",
       "example": "Он относится к учебе спустя рукава."
     },
     {
-      "idiom": "Мастер на все руки (53)",
+      "idiom": "Мастер на все руки",
       "level": "C2",
       "meaning": "Умелый человек, способный ко всему",
       "example": "Мой дедушка сам починил всю технику, он мастер на все руки."
     },
     {
-      "idiom": "Водить за нос (54)",
+      "idiom": "Водить за нос",
       "level": "A1",
       "meaning": "Обманывать, вводить в заблуждение",
       "example": "Не надо водить меня за нос, скажи правду."
     },
     {
-      "idiom": "Делать из мухи слона (55)",
+      "idiom": "Делать из мухи слона",
       "level": "A2",
       "meaning": "Преувеличивать проблему",
       "example": "Не стоит делать из мухи слона, это мелкая ошибка."
     },
     {
-      "idiom": "Грызть гранит науки (56)",
+      "idiom": "Грызть гранит науки",
       "level": "B1",
       "meaning": "Усердно учиться",
       "example": "Студенты перед сессией усердно грызут гранит науки."
     },
     {
-      "idiom": "Не в своей тарелке (57)",
+      "idiom": "Не в своей тарелке",
       "level": "B2",
       "meaning": "Чувствовать себя неуютно",
       "example": "На этом официальном вечере я был не в своей тарелке."
     },
     {
-      "idiom": "Свалиться как снег на голову (58)",
+      "idiom": "Свалиться как снег на голову",
       "level": "C1",
       "meaning": "Появиться внезапно, неожиданно",
       "example": "Старые друзья свалились как снег на голову."
     },
     {
-      "idiom": "Взять себя в руки (59)",
+      "idiom": "Взять себя в руки",
       "level": "C2",
       "meaning": "Собраться с духом, совладать с эмоциями",
       "example": "Взяв себя в руки, она выступила блестяще."
     },
     {
-      "idiom": "Держать руку на пульсе (60)",
+      "idiom": "Держать руку на пульсе",
       "level": "A1",
       "meaning": "Быть в курсе всех событий",
       "example": "Успешный руководитель всегда держит руку на пульсе."
     },
     {
-      "idiom": "Ни пуха ни пера (61)",
+      "idiom": "Ни пуха ни пера",
       "level": "A2",
       "meaning": "Пожелание удачи (ответ: К чёрту!)",
       "example": "Завтра экзамен — ни пуха ни пера!"
     },
     {
-      "idiom": "Витать в облаках (62)",
+      "idiom": "Витать в облаках",
       "level": "B1",
       "meaning": "Мечтать, быть невнимательным",
       "example": "Перестань витать в облаках, слушай урок!"
     },
     {
-      "idiom": "Вешать нос (63)",
+      "idiom": "Вешать нос",
       "level": "B2",
       "meaning": "Унывать, расстраиваться",
       "example": "Не вешай нос, в следующий раз всё получится!"
     },
     {
-      "idiom": "Спустя рукава (64)",
+      "idiom": "Спустя рукава",
       "level": "C1",
       "meaning": "Делать работу небрежно",
       "example": "Он относится к учебе спустя рукава."
     },
     {
-      "idiom": "Мастер на все руки (65)",
+      "idiom": "Мастер на все руки",
       "level": "C2",
       "meaning": "Умелый человек, способный ко всему",
       "example": "Мой дедушка сам починил всю технику, он мастер на все руки."
     },
     {
-      "idiom": "Водить за нос (66)",
+      "idiom": "Водить за нос",
       "level": "A1",
       "meaning": "Обманывать, вводить в заблуждение",
       "example": "Не надо водить меня за нос, скажи правду."
     },
     {
-      "idiom": "Делать из мухи слона (67)",
+      "idiom": "Делать из мухи слона",
       "level": "A2",
       "meaning": "Преувеличивать проблему",
       "example": "Не стоит делать из мухи слона, это мелкая ошибка."
     },
     {
-      "idiom": "Грызть гранит науки (68)",
+      "idiom": "Грызть гранит науки",
       "level": "B1",
       "meaning": "Усердно учиться",
       "example": "Студенты перед сессией усердно грызут гранит науки."
     },
     {
-      "idiom": "Не в своей тарелке (69)",
+      "idiom": "Не в своей тарелке",
       "level": "B2",
       "meaning": "Чувствовать себя неуютно",
       "example": "На этом официальном вечере я был не в своей тарелке."
     },
     {
-      "idiom": "Свалиться как снег на голову (70)",
+      "idiom": "Свалиться как снег на голову",
       "level": "C1",
       "meaning": "Появиться внезапно, неожиданно",
       "example": "Старые друзья свалились как снег на голову."
     },
     {
-      "idiom": "Взять себя в руки (71)",
+      "idiom": "Взять себя в руки",
       "level": "C2",
       "meaning": "Собраться с духом, совладать с эмоциями",
       "example": "Взяв себя в руки, она выступила блестяще."
     },
     {
-      "idiom": "Держать руку на пульсе (72)",
+      "idiom": "Держать руку на пульсе",
       "level": "A1",
       "meaning": "Быть в курсе всех событий",
       "example": "Успешный руководитель всегда держит руку на пульсе."
     },
     {
-      "idiom": "Ни пуха ни пера (73)",
+      "idiom": "Ни пуха ни пера",
       "level": "A2",
       "meaning": "Пожелание удачи (ответ: К чёрту!)",
       "example": "Завтра экзамен — ни пуха ни пера!"
     },
     {
-      "idiom": "Витать в облаках (74)",
+      "idiom": "Витать в облаках",
       "level": "B1",
       "meaning": "Мечтать, быть невнимательным",
       "example": "Перестань витать в облаках, слушай урок!"
     },
     {
-      "idiom": "Вешать нос (75)",
+      "idiom": "Вешать нос",
       "level": "B2",
       "meaning": "Унывать, расстраиваться",
       "example": "Не вешай нос, в следующий раз всё получится!"
     },
     {
-      "idiom": "Спустя рукава (76)",
+      "idiom": "Спустя рукава",
       "level": "C1",
       "meaning": "Делать работу небрежно",
       "example": "Он относится к учебе спустя рукава."
     },
     {
-      "idiom": "Мастер на все руки (77)",
+      "idiom": "Мастер на все руки",
       "level": "C2",
       "meaning": "Умелый человек, способный ко всему",
       "example": "Мой дедушка сам починил всю технику, он мастер на все руки."
     },
     {
-      "idiom": "Водить за нос (78)",
+      "idiom": "Водить за нос",
       "level": "A1",
       "meaning": "Обманывать, вводить в заблуждение",
       "example": "Не надо водить меня за нос, скажи правду."
     },
     {
-      "idiom": "Делать из мухи слона (79)",
+      "idiom": "Делать из мухи слона",
       "level": "A2",
       "meaning": "Преувеличивать проблему",
       "example": "Не стоит делать из мухи слона, это мелкая ошибка."
     },
     {
-      "idiom": "Грызть гранит науки (80)",
+      "idiom": "Грызть гранит науки",
       "level": "B1",
       "meaning": "Усердно учиться",
       "example": "Студенты перед сессией усердно грызут гранит науки."
     },
     {
-      "idiom": "Не в своей тарелке (81)",
+      "idiom": "Не в своей тарелке",
       "level": "B2",
       "meaning": "Чувствовать себя неуютно",
       "example": "На этом официальном вечере я был не в своей тарелке."
     },
     {
-      "idiom": "Свалиться как снег на голову (82)",
+      "idiom": "Свалиться как снег на голову",
       "level": "C1",
       "meaning": "Появиться внезапно, неожиданно",
       "example": "Старые друзья свалились как снег на голову."
     },
     {
-      "idiom": "Взять себя в руки (83)",
+      "idiom": "Взять себя в руки",
       "level": "C2",
       "meaning": "Собраться с духом, совладать с эмоциями",
       "example": "Взяв себя в руки, она выступила блестяще."
     },
     {
-      "idiom": "Держать руку на пульсе (84)",
+      "idiom": "Держать руку на пульсе",
       "level": "A1",
       "meaning": "Быть в курсе всех событий",
       "example": "Успешный руководитель всегда держит руку на пульсе."
     },
     {
-      "idiom": "Ни пуха ни пера (85)",
+      "idiom": "Ни пуха ни пера",
       "level": "A2",
       "meaning": "Пожелание удачи (ответ: К чёрту!)",
       "example": "Завтра экзамен — ни пуха ни пера!"
     },
     {
-      "idiom": "Витать в облаках (86)",
+      "idiom": "Витать в облаках",
       "level": "B1",
       "meaning": "Мечтать, быть невнимательным",
       "example": "Перестань витать в облаках, слушай урок!"
     },
     {
-      "idiom": "Вешать нос (87)",
+      "idiom": "Вешать нос",
       "level": "B2",
       "meaning": "Унывать, расстраиваться",
       "example": "Не вешай нос, в следующий раз всё получится!"
     },
     {
-      "idiom": "Спустя рукава (88)",
+      "idiom": "Спустя рукава",
       "level": "C1",
       "meaning": "Делать работу небрежно",
       "example": "Он относится к учебе спустя рукава."
@@ -3154,541 +3154,541 @@ window.COSY_DAILY_IDIOMS = {
       "example": "Έκανε τα αδύνατα δυνατά για να πετύχει την υποτροφία."
     },
     {
-      "idiom": "Όλα καλά (1)",
+      "idiom": "Όλα καλά",
       "level": "A2",
       "meaning": "Everything is good / All well",
       "example": "Πώς είσαι σήμερα; Όλα καλά!"
     },
     {
-      "idiom": "Μην τρέχει τίποτα (2)",
+      "idiom": "Μην τρέχει τίποτα",
       "level": "B1",
       "meaning": "Don't worry / Nothing is wrong",
       "example": "Συγγνώμη για την καθυστέρηση! — Μην τρέχει τίποτα."
     },
     {
-      "idiom": "Σπάω τον πάγο (3)",
+      "idiom": "Σπάω τον πάγο",
       "level": "B2",
       "meaning": "Break the ice in a conversation",
       "example": "Ένα αστείο βοήθησε να σπάσει ο πάγος στη συνάντηση."
     },
     {
-      "idiom": "Παιχνιδάκι (4)",
+      "idiom": "Παιχνιδάκι",
       "level": "C1",
       "meaning": "Piece of cake / Very easy task",
       "example": "Η εξέταση ήταν παιχνιδάκι για εκείνον."
     },
     {
-      "idiom": "Βάζω νερό στο κρασί μου (5)",
+      "idiom": "Βάζω νερό στο κρασί μου",
       "level": "C2",
       "meaning": "Compromise / Moderate expectations",
       "example": "Για να συμφωνήσουμε, έπρεπε να βάλω νερό στο κρασί μου."
     },
     {
-      "idiom": "Πνίγομαι σε μια κουταλιά νερό (6)",
+      "idiom": "Πνίγομαι σε μια κουταλιά νερό",
       "level": "A1",
       "meaning": "Get overwhelmed easily by small problems",
       "example": "Μην πνίγεσαι σε μια κουταλιά νερό, υπάρχει λύση."
     },
     {
-      "idiom": "Έπεσε από τα σύννεφα (7)",
+      "idiom": "Έπεσε από τα σύννεφα",
       "level": "A2",
       "meaning": "Was completely shocked or astonished",
       "example": "Όταν άκουσε τα νέα, έπεσε από τα σύννεφα."
     },
     {
-      "idiom": "Κάνω την πάπια (8)",
+      "idiom": "Κάνω την πάπια",
       "level": "B1",
       "meaning": "Pretend not to notice or know anything",
       "example": "Όταν τον ρώτησαν για το λάθος, έκανε την πάπια."
     },
     {
-      "idiom": "Βάζω το χέρι μου στη φωτιά (9)",
+      "idiom": "Βάζω το χέρι μου στη φωτιά",
       "level": "B2",
       "meaning": "Swear by someone's honesty or accuracy",
       "example": "Βάζω το χέρι μου στη φωτιά για την ειλικρίνειά του."
     },
     {
-      "idiom": "Κάνω τα αδύνατα δυνατά (10)",
+      "idiom": "Κάνω τα αδύνατα δυνατά",
       "level": "C1",
       "meaning": "Do the impossible to achieve a goal",
       "example": "Έκανε τα αδύνατα δυνατά για να πετύχει την υποτροφία."
     },
     {
-      "idiom": "Όλα καλά (11)",
+      "idiom": "Όλα καλά",
       "level": "C2",
       "meaning": "Everything is good / All well",
       "example": "Πώς είσαι σήμερα; Όλα καλά!"
     },
     {
-      "idiom": "Μην τρέχει τίποτα (12)",
+      "idiom": "Μην τρέχει τίποτα",
       "level": "A1",
       "meaning": "Don't worry / Nothing is wrong",
       "example": "Συγγνώμη για την καθυστέρηση! — Μην τρέχει τίποτα."
     },
     {
-      "idiom": "Σπάω τον πάγο (13)",
+      "idiom": "Σπάω τον πάγο",
       "level": "A2",
       "meaning": "Break the ice in a conversation",
       "example": "Ένα αστείο βοήθησε να σπάσει ο πάγος στη συνάντηση."
     },
     {
-      "idiom": "Παιχνιδάκι (14)",
+      "idiom": "Παιχνιδάκι",
       "level": "B1",
       "meaning": "Piece of cake / Very easy task",
       "example": "Η εξέταση ήταν παιχνιδάκι για εκείνον."
     },
     {
-      "idiom": "Βάζω νερό στο κρασί μου (15)",
+      "idiom": "Βάζω νερό στο κρασί μου",
       "level": "B2",
       "meaning": "Compromise / Moderate expectations",
       "example": "Για να συμφωνήσουμε, έπρεπε να βάλω νερό στο κρασί μου."
     },
     {
-      "idiom": "Πνίγομαι σε μια κουταλιά νερό (16)",
+      "idiom": "Πνίγομαι σε μια κουταλιά νερό",
       "level": "C1",
       "meaning": "Get overwhelmed easily by small problems",
       "example": "Μην πνίγεσαι σε μια κουταλιά νερό, υπάρχει λύση."
     },
     {
-      "idiom": "Έπεσε από τα σύννεφα (17)",
+      "idiom": "Έπεσε από τα σύννεφα",
       "level": "C2",
       "meaning": "Was completely shocked or astonished",
       "example": "Όταν άκουσε τα νέα, έπεσε από τα σύννεφα."
     },
     {
-      "idiom": "Κάνω την πάπια (18)",
+      "idiom": "Κάνω την πάπια",
       "level": "A1",
       "meaning": "Pretend not to notice or know anything",
       "example": "Όταν τον ρώτησαν για το λάθος, έκανε την πάπια."
     },
     {
-      "idiom": "Βάζω το χέρι μου στη φωτιά (19)",
+      "idiom": "Βάζω το χέρι μου στη φωτιά",
       "level": "A2",
       "meaning": "Swear by someone's honesty or accuracy",
       "example": "Βάζω το χέρι μου στη φωτιά για την ειλικρίνειά του."
     },
     {
-      "idiom": "Κάνω τα αδύνατα δυνατά (20)",
+      "idiom": "Κάνω τα αδύνατα δυνατά",
       "level": "B1",
       "meaning": "Do the impossible to achieve a goal",
       "example": "Έκανε τα αδύνατα δυνατά για να πετύχει την υποτροφία."
     },
     {
-      "idiom": "Όλα καλά (21)",
+      "idiom": "Όλα καλά",
       "level": "B2",
       "meaning": "Everything is good / All well",
       "example": "Πώς είσαι σήμερα; Όλα καλά!"
     },
     {
-      "idiom": "Μην τρέχει τίποτα (22)",
+      "idiom": "Μην τρέχει τίποτα",
       "level": "C1",
       "meaning": "Don't worry / Nothing is wrong",
       "example": "Συγγνώμη για την καθυστέρηση! — Μην τρέχει τίποτα."
     },
     {
-      "idiom": "Σπάω τον πάγο (23)",
+      "idiom": "Σπάω τον πάγο",
       "level": "C2",
       "meaning": "Break the ice in a conversation",
       "example": "Ένα αστείο βοήθησε να σπάσει ο πάγος στη συνάντηση."
     },
     {
-      "idiom": "Παιχνιδάκι (24)",
+      "idiom": "Παιχνιδάκι",
       "level": "A1",
       "meaning": "Piece of cake / Very easy task",
       "example": "Η εξέταση ήταν παιχνιδάκι για εκείνον."
     },
     {
-      "idiom": "Βάζω νερό στο κρασί μου (25)",
+      "idiom": "Βάζω νερό στο κρασί μου",
       "level": "A2",
       "meaning": "Compromise / Moderate expectations",
       "example": "Για να συμφωνήσουμε, έπρεπε να βάλω νερό στο κρασί μου."
     },
     {
-      "idiom": "Πνίγομαι σε μια κουταλιά νερό (26)",
+      "idiom": "Πνίγομαι σε μια κουταλιά νερό",
       "level": "B1",
       "meaning": "Get overwhelmed easily by small problems",
       "example": "Μην πνίγεσαι σε μια κουταλιά νερό, υπάρχει λύση."
     },
     {
-      "idiom": "Έπεσε από τα σύννεφα (27)",
+      "idiom": "Έπεσε από τα σύννεφα",
       "level": "B2",
       "meaning": "Was completely shocked or astonished",
       "example": "Όταν άκουσε τα νέα, έπεσε από τα σύννεφα."
     },
     {
-      "idiom": "Κάνω την πάπια (28)",
+      "idiom": "Κάνω την πάπια",
       "level": "C1",
       "meaning": "Pretend not to notice or know anything",
       "example": "Όταν τον ρώτησαν για το λάθος, έκανε την πάπια."
     },
     {
-      "idiom": "Βάζω το χέρι μου στη φωτιά (29)",
+      "idiom": "Βάζω το χέρι μου στη φωτιά",
       "level": "C2",
       "meaning": "Swear by someone's honesty or accuracy",
       "example": "Βάζω το χέρι μου στη φωτιά για την ειλικρίνειά του."
     },
     {
-      "idiom": "Κάνω τα αδύνατα δυνατά (30)",
+      "idiom": "Κάνω τα αδύνατα δυνατά",
       "level": "A1",
       "meaning": "Do the impossible to achieve a goal",
       "example": "Έκανε τα αδύνατα δυνατά για να πετύχει την υποτροφία."
     },
     {
-      "idiom": "Όλα καλά (31)",
+      "idiom": "Όλα καλά",
       "level": "A2",
       "meaning": "Everything is good / All well",
       "example": "Πώς είσαι σήμερα; Όλα καλά!"
     },
     {
-      "idiom": "Μην τρέχει τίποτα (32)",
+      "idiom": "Μην τρέχει τίποτα",
       "level": "B1",
       "meaning": "Don't worry / Nothing is wrong",
       "example": "Συγγνώμη για την καθυστέρηση! — Μην τρέχει τίποτα."
     },
     {
-      "idiom": "Σπάω τον πάγο (33)",
+      "idiom": "Σπάω τον πάγο",
       "level": "B2",
       "meaning": "Break the ice in a conversation",
       "example": "Ένα αστείο βοήθησε να σπάσει ο πάγος στη συνάντηση."
     },
     {
-      "idiom": "Παιχνιδάκι (34)",
+      "idiom": "Παιχνιδάκι",
       "level": "C1",
       "meaning": "Piece of cake / Very easy task",
       "example": "Η εξέταση ήταν παιχνιδάκι για εκείνον."
     },
     {
-      "idiom": "Βάζω νερό στο κρασί μου (35)",
+      "idiom": "Βάζω νερό στο κρασί μου",
       "level": "C2",
       "meaning": "Compromise / Moderate expectations",
       "example": "Για να συμφωνήσουμε, έπρεπε να βάλω νερό στο κρασί μου."
     },
     {
-      "idiom": "Πνίγομαι σε μια κουταλιά νερό (36)",
+      "idiom": "Πνίγομαι σε μια κουταλιά νερό",
       "level": "A1",
       "meaning": "Get overwhelmed easily by small problems",
       "example": "Μην πνίγεσαι σε μια κουταλιά νερό, υπάρχει λύση."
     },
     {
-      "idiom": "Έπεσε από τα σύννεφα (37)",
+      "idiom": "Έπεσε από τα σύννεφα",
       "level": "A2",
       "meaning": "Was completely shocked or astonished",
       "example": "Όταν άκουσε τα νέα, έπεσε από τα σύννεφα."
     },
     {
-      "idiom": "Κάνω την πάπια (38)",
+      "idiom": "Κάνω την πάπια",
       "level": "B1",
       "meaning": "Pretend not to notice or know anything",
       "example": "Όταν τον ρώτησαν για το λάθος, έκανε την πάπια."
     },
     {
-      "idiom": "Βάζω το χέρι μου στη φωτιά (39)",
+      "idiom": "Βάζω το χέρι μου στη φωτιά",
       "level": "B2",
       "meaning": "Swear by someone's honesty or accuracy",
       "example": "Βάζω το χέρι μου στη φωτιά για την ειλικρίνειά του."
     },
     {
-      "idiom": "Κάνω τα αδύνατα δυνατά (40)",
+      "idiom": "Κάνω τα αδύνατα δυνατά",
       "level": "C1",
       "meaning": "Do the impossible to achieve a goal",
       "example": "Έκανε τα αδύνατα δυνατά για να πετύχει την υποτροφία."
     },
     {
-      "idiom": "Όλα καλά (41)",
+      "idiom": "Όλα καλά",
       "level": "C2",
       "meaning": "Everything is good / All well",
       "example": "Πώς είσαι σήμερα; Όλα καλά!"
     },
     {
-      "idiom": "Μην τρέχει τίποτα (42)",
+      "idiom": "Μην τρέχει τίποτα",
       "level": "A1",
       "meaning": "Don't worry / Nothing is wrong",
       "example": "Συγγνώμη για την καθυστέρηση! — Μην τρέχει τίποτα."
     },
     {
-      "idiom": "Σπάω τον πάγο (43)",
+      "idiom": "Σπάω τον πάγο",
       "level": "A2",
       "meaning": "Break the ice in a conversation",
       "example": "Ένα αστείο βοήθησε να σπάσει ο πάγος στη συνάντηση."
     },
     {
-      "idiom": "Παιχνιδάκι (44)",
+      "idiom": "Παιχνιδάκι",
       "level": "B1",
       "meaning": "Piece of cake / Very easy task",
       "example": "Η εξέταση ήταν παιχνιδάκι για εκείνον."
     },
     {
-      "idiom": "Βάζω νερό στο κρασί μου (45)",
+      "idiom": "Βάζω νερό στο κρασί μου",
       "level": "B2",
       "meaning": "Compromise / Moderate expectations",
       "example": "Για να συμφωνήσουμε, έπρεπε να βάλω νερό στο κρασί μου."
     },
     {
-      "idiom": "Πνίγομαι σε μια κουταλιά νερό (46)",
+      "idiom": "Πνίγομαι σε μια κουταλιά νερό",
       "level": "C1",
       "meaning": "Get overwhelmed easily by small problems",
       "example": "Μην πνίγεσαι σε μια κουταλιά νερό, υπάρχει λύση."
     },
     {
-      "idiom": "Έπεσε από τα σύννεφα (47)",
+      "idiom": "Έπεσε από τα σύννεφα",
       "level": "C2",
       "meaning": "Was completely shocked or astonished",
       "example": "Όταν άκουσε τα νέα, έπεσε από τα σύννεφα."
     },
     {
-      "idiom": "Κάνω την πάπια (48)",
+      "idiom": "Κάνω την πάπια",
       "level": "A1",
       "meaning": "Pretend not to notice or know anything",
       "example": "Όταν τον ρώτησαν για το λάθος, έκανε την πάπια."
     },
     {
-      "idiom": "Βάζω το χέρι μου στη φωτιά (49)",
+      "idiom": "Βάζω το χέρι μου στη φωτιά",
       "level": "A2",
       "meaning": "Swear by someone's honesty or accuracy",
       "example": "Βάζω το χέρι μου στη φωτιά για την ειλικρίνειά του."
     },
     {
-      "idiom": "Κάνω τα αδύνατα δυνατά (50)",
+      "idiom": "Κάνω τα αδύνατα δυνατά",
       "level": "B1",
       "meaning": "Do the impossible to achieve a goal",
       "example": "Έκανε τα αδύνατα δυνατά για να πετύχει την υποτροφία."
     },
     {
-      "idiom": "Όλα καλά (51)",
+      "idiom": "Όλα καλά",
       "level": "B2",
       "meaning": "Everything is good / All well",
       "example": "Πώς είσαι σήμερα; Όλα καλά!"
     },
     {
-      "idiom": "Μην τρέχει τίποτα (52)",
+      "idiom": "Μην τρέχει τίποτα",
       "level": "C1",
       "meaning": "Don't worry / Nothing is wrong",
       "example": "Συγγνώμη για την καθυστέρηση! — Μην τρέχει τίποτα."
     },
     {
-      "idiom": "Σπάω τον πάγο (53)",
+      "idiom": "Σπάω τον πάγο",
       "level": "C2",
       "meaning": "Break the ice in a conversation",
       "example": "Ένα αστείο βοήθησε να σπάσει ο πάγος στη συνάντηση."
     },
     {
-      "idiom": "Παιχνιδάκι (54)",
+      "idiom": "Παιχνιδάκι",
       "level": "A1",
       "meaning": "Piece of cake / Very easy task",
       "example": "Η εξέταση ήταν παιχνιδάκι για εκείνον."
     },
     {
-      "idiom": "Βάζω νερό στο κρασί μου (55)",
+      "idiom": "Βάζω νερό στο κρασί μου",
       "level": "A2",
       "meaning": "Compromise / Moderate expectations",
       "example": "Για να συμφωνήσουμε, έπρεπε να βάλω νερό στο κρασί μου."
     },
     {
-      "idiom": "Πνίγομαι σε μια κουταλιά νερό (56)",
+      "idiom": "Πνίγομαι σε μια κουταλιά νερό",
       "level": "B1",
       "meaning": "Get overwhelmed easily by small problems",
       "example": "Μην πνίγεσαι σε μια κουταλιά νερό, υπάρχει λύση."
     },
     {
-      "idiom": "Έπεσε από τα σύννεφα (57)",
+      "idiom": "Έπεσε από τα σύννεφα",
       "level": "B2",
       "meaning": "Was completely shocked or astonished",
       "example": "Όταν άκουσε τα νέα, έπεσε από τα σύννεφα."
     },
     {
-      "idiom": "Κάνω την πάπια (58)",
+      "idiom": "Κάνω την πάπια",
       "level": "C1",
       "meaning": "Pretend not to notice or know anything",
       "example": "Όταν τον ρώτησαν για το λάθος, έκανε την πάπια."
     },
     {
-      "idiom": "Βάζω το χέρι μου στη φωτιά (59)",
+      "idiom": "Βάζω το χέρι μου στη φωτιά",
       "level": "C2",
       "meaning": "Swear by someone's honesty or accuracy",
       "example": "Βάζω το χέρι μου στη φωτιά για την ειλικρίνειά του."
     },
     {
-      "idiom": "Κάνω τα αδύνατα δυνατά (60)",
+      "idiom": "Κάνω τα αδύνατα δυνατά",
       "level": "A1",
       "meaning": "Do the impossible to achieve a goal",
       "example": "Έκανε τα αδύνατα δυνατά για να πετύχει την υποτροφία."
     },
     {
-      "idiom": "Όλα καλά (61)",
+      "idiom": "Όλα καλά",
       "level": "A2",
       "meaning": "Everything is good / All well",
       "example": "Πώς είσαι σήμερα; Όλα καλά!"
     },
     {
-      "idiom": "Μην τρέχει τίποτα (62)",
+      "idiom": "Μην τρέχει τίποτα",
       "level": "B1",
       "meaning": "Don't worry / Nothing is wrong",
       "example": "Συγγνώμη για την καθυστέρηση! — Μην τρέχει τίποτα."
     },
     {
-      "idiom": "Σπάω τον πάγο (63)",
+      "idiom": "Σπάω τον πάγο",
       "level": "B2",
       "meaning": "Break the ice in a conversation",
       "example": "Ένα αστείο βοήθησε να σπάσει ο πάγος στη συνάντηση."
     },
     {
-      "idiom": "Παιχνιδάκι (64)",
+      "idiom": "Παιχνιδάκι",
       "level": "C1",
       "meaning": "Piece of cake / Very easy task",
       "example": "Η εξέταση ήταν παιχνιδάκι για εκείνον."
     },
     {
-      "idiom": "Βάζω νερό στο κρασί μου (65)",
+      "idiom": "Βάζω νερό στο κρασί μου",
       "level": "C2",
       "meaning": "Compromise / Moderate expectations",
       "example": "Για να συμφωνήσουμε, έπρεπε να βάλω νερό στο κρασί μου."
     },
     {
-      "idiom": "Πνίγομαι σε μια κουταλιά νερό (66)",
+      "idiom": "Πνίγομαι σε μια κουταλιά νερό",
       "level": "A1",
       "meaning": "Get overwhelmed easily by small problems",
       "example": "Μην πνίγεσαι σε μια κουταλιά νερό, υπάρχει λύση."
     },
     {
-      "idiom": "Έπεσε από τα σύννεφα (67)",
+      "idiom": "Έπεσε από τα σύννεφα",
       "level": "A2",
       "meaning": "Was completely shocked or astonished",
       "example": "Όταν άκουσε τα νέα, έπεσε από τα σύννεφα."
     },
     {
-      "idiom": "Κάνω την πάπια (68)",
+      "idiom": "Κάνω την πάπια",
       "level": "B1",
       "meaning": "Pretend not to notice or know anything",
       "example": "Όταν τον ρώτησαν για το λάθος, έκανε την πάπια."
     },
     {
-      "idiom": "Βάζω το χέρι μου στη φωτιά (69)",
+      "idiom": "Βάζω το χέρι μου στη φωτιά",
       "level": "B2",
       "meaning": "Swear by someone's honesty or accuracy",
       "example": "Βάζω το χέρι μου στη φωτιά για την ειλικρίνειά του."
     },
     {
-      "idiom": "Κάνω τα αδύνατα δυνατά (70)",
+      "idiom": "Κάνω τα αδύνατα δυνατά",
       "level": "C1",
       "meaning": "Do the impossible to achieve a goal",
       "example": "Έκανε τα αδύνατα δυνατά για να πετύχει την υποτροφία."
     },
     {
-      "idiom": "Όλα καλά (71)",
+      "idiom": "Όλα καλά",
       "level": "C2",
       "meaning": "Everything is good / All well",
       "example": "Πώς είσαι σήμερα; Όλα καλά!"
     },
     {
-      "idiom": "Μην τρέχει τίποτα (72)",
+      "idiom": "Μην τρέχει τίποτα",
       "level": "A1",
       "meaning": "Don't worry / Nothing is wrong",
       "example": "Συγγνώμη για την καθυστέρηση! — Μην τρέχει τίποτα."
     },
     {
-      "idiom": "Σπάω τον πάγο (73)",
+      "idiom": "Σπάω τον πάγο",
       "level": "A2",
       "meaning": "Break the ice in a conversation",
       "example": "Ένα αστείο βοήθησε να σπάσει ο πάγος στη συνάντηση."
     },
     {
-      "idiom": "Παιχνιδάκι (74)",
+      "idiom": "Παιχνιδάκι",
       "level": "B1",
       "meaning": "Piece of cake / Very easy task",
       "example": "Η εξέταση ήταν παιχνιδάκι για εκείνον."
     },
     {
-      "idiom": "Βάζω νερό στο κρασί μου (75)",
+      "idiom": "Βάζω νερό στο κρασί μου",
       "level": "B2",
       "meaning": "Compromise / Moderate expectations",
       "example": "Για να συμφωνήσουμε, έπρεπε να βάλω νερό στο κρασί μου."
     },
     {
-      "idiom": "Πνίγομαι σε μια κουταλιά νερό (76)",
+      "idiom": "Πνίγομαι σε μια κουταλιά νερό",
       "level": "C1",
       "meaning": "Get overwhelmed easily by small problems",
       "example": "Μην πνίγεσαι σε μια κουταλιά νερό, υπάρχει λύση."
     },
     {
-      "idiom": "Έπεσε από τα σύννεφα (77)",
+      "idiom": "Έπεσε από τα σύννεφα",
       "level": "C2",
       "meaning": "Was completely shocked or astonished",
       "example": "Όταν άκουσε τα νέα, έπεσε από τα σύννεφα."
     },
     {
-      "idiom": "Κάνω την πάπια (78)",
+      "idiom": "Κάνω την πάπια",
       "level": "A1",
       "meaning": "Pretend not to notice or know anything",
       "example": "Όταν τον ρώτησαν για το λάθος, έκανε την πάπια."
     },
     {
-      "idiom": "Βάζω το χέρι μου στη φωτιά (79)",
+      "idiom": "Βάζω το χέρι μου στη φωτιά",
       "level": "A2",
       "meaning": "Swear by someone's honesty or accuracy",
       "example": "Βάζω το χέρι μου στη φωτιά για την ειλικρίνειά του."
     },
     {
-      "idiom": "Κάνω τα αδύνατα δυνατά (80)",
+      "idiom": "Κάνω τα αδύνατα δυνατά",
       "level": "B1",
       "meaning": "Do the impossible to achieve a goal",
       "example": "Έκανε τα αδύνατα δυνατά για να πετύχει την υποτροφία."
     },
     {
-      "idiom": "Όλα καλά (81)",
+      "idiom": "Όλα καλά",
       "level": "B2",
       "meaning": "Everything is good / All well",
       "example": "Πώς είσαι σήμερα; Όλα καλά!"
     },
     {
-      "idiom": "Μην τρέχει τίποτα (82)",
+      "idiom": "Μην τρέχει τίποτα",
       "level": "C1",
       "meaning": "Don't worry / Nothing is wrong",
       "example": "Συγγνώμη για την καθυστέρηση! — Μην τρέχει τίποτα."
     },
     {
-      "idiom": "Σπάω τον πάγο (83)",
+      "idiom": "Σπάω τον πάγο",
       "level": "C2",
       "meaning": "Break the ice in a conversation",
       "example": "Ένα αστείο βοήθησε να σπάσει ο πάγος στη συνάντηση."
     },
     {
-      "idiom": "Παιχνιδάκι (84)",
+      "idiom": "Παιχνιδάκι",
       "level": "A1",
       "meaning": "Piece of cake / Very easy task",
       "example": "Η εξέταση ήταν παιχνιδάκι για εκείνον."
     },
     {
-      "idiom": "Βάζω νερό στο κρασί μου (85)",
+      "idiom": "Βάζω νερό στο κρασί μου",
       "level": "A2",
       "meaning": "Compromise / Moderate expectations",
       "example": "Για να συμφωνήσουμε, έπρεπε να βάλω νερό στο κρασί μου."
     },
     {
-      "idiom": "Πνίγομαι σε μια κουταλιά νερό (86)",
+      "idiom": "Πνίγομαι σε μια κουταλιά νερό",
       "level": "B1",
       "meaning": "Get overwhelmed easily by small problems",
       "example": "Μην πνίγεσαι σε μια κουταλιά νερό, υπάρχει λύση."
     },
     {
-      "idiom": "Έπεσε από τα σύννεφα (87)",
+      "idiom": "Έπεσε από τα σύννεφα",
       "level": "B2",
       "meaning": "Was completely shocked or astonished",
       "example": "Όταν άκουσε τα νέα, έπεσε από τα σύννεφα."
     },
     {
-      "idiom": "Κάνω την πάπια (88)",
+      "idiom": "Κάνω την πάπια",
       "level": "C1",
       "meaning": "Pretend not to notice or know anything",
       "example": "Όταν τον ρώτησαν για το λάθος, έκανε την πάπια."
     },
     {
-      "idiom": "Βάζω το χέρι μου στη φωτιά (89)",
+      "idiom": "Βάζω το χέρι μου στη φωτιά",
       "level": "C2",
       "meaning": "Swear by someone's honesty or accuracy",
       "example": "Βάζω το χέρι μου στη φωτιά για την ειλικρίνειά του."
     },
     {
-      "idiom": "Κάνω τα αδύνατα δυνατά (90)",
+      "idiom": "Κάνω τα αδύνατα δυνατά",
       "level": "A1",
       "meaning": "Do the impossible to achieve a goal",
       "example": "Έκανε τα αδύνατα δυνατά για να πετύχει την υποτροφία."
@@ -3756,541 +3756,541 @@ window.COSY_DAILY_IDIOMS = {
       "example": "El periodista puso el dedo en la llaga con esa pregunta."
     },
     {
-      "idiom": "Es pan comido (1)",
+      "idiom": "Es pan comido",
       "level": "A2",
       "meaning": "Es muy fácil de hacer",
       "example": "No te preocupes por el examen, ¡es pan comido!"
     },
     {
-      "idiom": "Estar en las nubes (2)",
+      "idiom": "Estar en las nubes",
       "level": "B1",
       "meaning": "Estar despistado o soñando despierto",
       "example": "Juan no escucha la lección, siempre está en las nubes."
     },
     {
-      "idiom": "Meter la pata (3)",
+      "idiom": "Meter la pata",
       "level": "B2",
       "meaning": "Cometer un error o equivocarse",
       "example": "Metí la pata al decir su secreto delante de todos."
     },
     {
-      "idiom": "Romper el hielo (4)",
+      "idiom": "Romper el hielo",
       "level": "C1",
       "meaning": "Superar la timidez inicial",
       "example": "Un juego divertido sirvió para romper el hielo en la clase."
     },
     {
-      "idiom": "Tirar la toalla (5)",
+      "idiom": "Tirar la toalla",
       "level": "C2",
       "meaning": "Rendirse ante una dificultad",
       "example": "A pesar de los obstáculos, no pienso tirar la toalla."
     },
     {
-      "idiom": "Costar un ojo de la cara (6)",
+      "idiom": "Costar un ojo de la cara",
       "level": "A1",
       "meaning": "Ser extremadamente caro",
       "example": "Esa entrada para el concierto cuesta un ojo de la cara."
     },
     {
-      "idiom": "Estar en su salsa (7)",
+      "idiom": "Estar en su salsa",
       "level": "A2",
       "meaning": "Sentirse cómodo en un entorno",
       "example": "Cuando habla de arte, María está en su salsa."
     },
     {
-      "idiom": "Matar dos pájaros de un tiro (8)",
+      "idiom": "Matar dos pájaros de un tiro",
       "level": "B1",
       "meaning": "Lograr dos objetivos con una sola acción",
       "example": "Viajé por trabajo y visité a mi familia: maté dos pájaros de un tiro."
     },
     {
-      "idiom": "Quedarse de piedra (9)",
+      "idiom": "Quedarse de piedra",
       "level": "B2",
       "meaning": "Quedarse muy sorprendido o impactado",
       "example": "Me quedé de piedra cuando escuché la noticia."
     },
     {
-      "idiom": "Poner el dedo en la llaga (10)",
+      "idiom": "Poner el dedo en la llaga",
       "level": "C1",
       "meaning": "Señalar el punto más delicado o doloroso",
       "example": "El periodista puso el dedo en la llaga con esa pregunta."
     },
     {
-      "idiom": "Es pan comido (11)",
+      "idiom": "Es pan comido",
       "level": "C2",
       "meaning": "Es muy fácil de hacer",
       "example": "No te preocupes por el examen, ¡es pan comido!"
     },
     {
-      "idiom": "Estar en las nubes (12)",
+      "idiom": "Estar en las nubes",
       "level": "A1",
       "meaning": "Estar despistado o soñando despierto",
       "example": "Juan no escucha la lección, siempre está en las nubes."
     },
     {
-      "idiom": "Meter la pata (13)",
+      "idiom": "Meter la pata",
       "level": "A2",
       "meaning": "Cometer un error o equivocarse",
       "example": "Metí la pata al decir su secreto delante de todos."
     },
     {
-      "idiom": "Romper el hielo (14)",
+      "idiom": "Romper el hielo",
       "level": "B1",
       "meaning": "Superar la timidez inicial",
       "example": "Un juego divertido sirvió para romper el hielo en la clase."
     },
     {
-      "idiom": "Tirar la toalla (15)",
+      "idiom": "Tirar la toalla",
       "level": "B2",
       "meaning": "Rendirse ante una dificultad",
       "example": "A pesar de los obstáculos, no pienso tirar la toalla."
     },
     {
-      "idiom": "Costar un ojo de la cara (16)",
+      "idiom": "Costar un ojo de la cara",
       "level": "C1",
       "meaning": "Ser extremadamente caro",
       "example": "Esa entrada para el concierto cuesta un ojo de la cara."
     },
     {
-      "idiom": "Estar en su salsa (17)",
+      "idiom": "Estar en su salsa",
       "level": "C2",
       "meaning": "Sentirse cómodo en un entorno",
       "example": "Cuando habla de arte, María está en su salsa."
     },
     {
-      "idiom": "Matar dos pájaros de un tiro (18)",
+      "idiom": "Matar dos pájaros de un tiro",
       "level": "A1",
       "meaning": "Lograr dos objetivos con una sola acción",
       "example": "Viajé por trabajo y visité a mi familia: maté dos pájaros de un tiro."
     },
     {
-      "idiom": "Quedarse de piedra (19)",
+      "idiom": "Quedarse de piedra",
       "level": "A2",
       "meaning": "Quedarse muy sorprendido o impactado",
       "example": "Me quedé de piedra cuando escuché la noticia."
     },
     {
-      "idiom": "Poner el dedo en la llaga (20)",
+      "idiom": "Poner el dedo en la llaga",
       "level": "B1",
       "meaning": "Señalar el punto más delicado o doloroso",
       "example": "El periodista puso el dedo en la llaga con esa pregunta."
     },
     {
-      "idiom": "Es pan comido (21)",
+      "idiom": "Es pan comido",
       "level": "B2",
       "meaning": "Es muy fácil de hacer",
       "example": "No te preocupes por el examen, ¡es pan comido!"
     },
     {
-      "idiom": "Estar en las nubes (22)",
+      "idiom": "Estar en las nubes",
       "level": "C1",
       "meaning": "Estar despistado o soñando despierto",
       "example": "Juan no escucha la lección, siempre está en las nubes."
     },
     {
-      "idiom": "Meter la pata (23)",
+      "idiom": "Meter la pata",
       "level": "C2",
       "meaning": "Cometer un error o equivocarse",
       "example": "Metí la pata al decir su secreto delante de todos."
     },
     {
-      "idiom": "Romper el hielo (24)",
+      "idiom": "Romper el hielo",
       "level": "A1",
       "meaning": "Superar la timidez inicial",
       "example": "Un juego divertido sirvió para romper el hielo en la clase."
     },
     {
-      "idiom": "Tirar la toalla (25)",
+      "idiom": "Tirar la toalla",
       "level": "A2",
       "meaning": "Rendirse ante una dificultad",
       "example": "A pesar de los obstáculos, no pienso tirar la toalla."
     },
     {
-      "idiom": "Costar un ojo de la cara (26)",
+      "idiom": "Costar un ojo de la cara",
       "level": "B1",
       "meaning": "Ser extremadamente caro",
       "example": "Esa entrada para el concierto cuesta un ojo de la cara."
     },
     {
-      "idiom": "Estar en su salsa (27)",
+      "idiom": "Estar en su salsa",
       "level": "B2",
       "meaning": "Sentirse cómodo en un entorno",
       "example": "Cuando habla de arte, María está en su salsa."
     },
     {
-      "idiom": "Matar dos pájaros de un tiro (28)",
+      "idiom": "Matar dos pájaros de un tiro",
       "level": "C1",
       "meaning": "Lograr dos objetivos con una sola acción",
       "example": "Viajé por trabajo y visité a mi familia: maté dos pájaros de un tiro."
     },
     {
-      "idiom": "Quedarse de piedra (29)",
+      "idiom": "Quedarse de piedra",
       "level": "C2",
       "meaning": "Quedarse muy sorprendido o impactado",
       "example": "Me quedé de piedra cuando escuché la noticia."
     },
     {
-      "idiom": "Poner el dedo en la llaga (30)",
+      "idiom": "Poner el dedo en la llaga",
       "level": "A1",
       "meaning": "Señalar el punto más delicado o doloroso",
       "example": "El periodista puso el dedo en la llaga con esa pregunta."
     },
     {
-      "idiom": "Es pan comido (31)",
+      "idiom": "Es pan comido",
       "level": "A2",
       "meaning": "Es muy fácil de hacer",
       "example": "No te preocupes por el examen, ¡es pan comido!"
     },
     {
-      "idiom": "Estar en las nubes (32)",
+      "idiom": "Estar en las nubes",
       "level": "B1",
       "meaning": "Estar despistado o soñando despierto",
       "example": "Juan no escucha la lección, siempre está en las nubes."
     },
     {
-      "idiom": "Meter la pata (33)",
+      "idiom": "Meter la pata",
       "level": "B2",
       "meaning": "Cometer un error o equivocarse",
       "example": "Metí la pata al decir su secreto delante de todos."
     },
     {
-      "idiom": "Romper el hielo (34)",
+      "idiom": "Romper el hielo",
       "level": "C1",
       "meaning": "Superar la timidez inicial",
       "example": "Un juego divertido sirvió para romper el hielo en la clase."
     },
     {
-      "idiom": "Tirar la toalla (35)",
+      "idiom": "Tirar la toalla",
       "level": "C2",
       "meaning": "Rendirse ante una dificultad",
       "example": "A pesar de los obstáculos, no pienso tirar la toalla."
     },
     {
-      "idiom": "Costar un ojo de la cara (36)",
+      "idiom": "Costar un ojo de la cara",
       "level": "A1",
       "meaning": "Ser extremadamente caro",
       "example": "Esa entrada para el concierto cuesta un ojo de la cara."
     },
     {
-      "idiom": "Estar en su salsa (37)",
+      "idiom": "Estar en su salsa",
       "level": "A2",
       "meaning": "Sentirse cómodo en un entorno",
       "example": "Cuando habla de arte, María está en su salsa."
     },
     {
-      "idiom": "Matar dos pájaros de un tiro (38)",
+      "idiom": "Matar dos pájaros de un tiro",
       "level": "B1",
       "meaning": "Lograr dos objetivos con una sola acción",
       "example": "Viajé por trabajo y visité a mi familia: maté dos pájaros de un tiro."
     },
     {
-      "idiom": "Quedarse de piedra (39)",
+      "idiom": "Quedarse de piedra",
       "level": "B2",
       "meaning": "Quedarse muy sorprendido o impactado",
       "example": "Me quedé de piedra cuando escuché la noticia."
     },
     {
-      "idiom": "Poner el dedo en la llaga (40)",
+      "idiom": "Poner el dedo en la llaga",
       "level": "C1",
       "meaning": "Señalar el punto más delicado o doloroso",
       "example": "El periodista puso el dedo en la llaga con esa pregunta."
     },
     {
-      "idiom": "Es pan comido (41)",
+      "idiom": "Es pan comido",
       "level": "C2",
       "meaning": "Es muy fácil de hacer",
       "example": "No te preocupes por el examen, ¡es pan comido!"
     },
     {
-      "idiom": "Estar en las nubes (42)",
+      "idiom": "Estar en las nubes",
       "level": "A1",
       "meaning": "Estar despistado o soñando despierto",
       "example": "Juan no escucha la lección, siempre está en las nubes."
     },
     {
-      "idiom": "Meter la pata (43)",
+      "idiom": "Meter la pata",
       "level": "A2",
       "meaning": "Cometer un error o equivocarse",
       "example": "Metí la pata al decir su secreto delante de todos."
     },
     {
-      "idiom": "Romper el hielo (44)",
+      "idiom": "Romper el hielo",
       "level": "B1",
       "meaning": "Superar la timidez inicial",
       "example": "Un juego divertido sirvió para romper el hielo en la clase."
     },
     {
-      "idiom": "Tirar la toalla (45)",
+      "idiom": "Tirar la toalla",
       "level": "B2",
       "meaning": "Rendirse ante una dificultad",
       "example": "A pesar de los obstáculos, no pienso tirar la toalla."
     },
     {
-      "idiom": "Costar un ojo de la cara (46)",
+      "idiom": "Costar un ojo de la cara",
       "level": "C1",
       "meaning": "Ser extremadamente caro",
       "example": "Esa entrada para el concierto cuesta un ojo de la cara."
     },
     {
-      "idiom": "Estar en su salsa (47)",
+      "idiom": "Estar en su salsa",
       "level": "C2",
       "meaning": "Sentirse cómodo en un entorno",
       "example": "Cuando habla de arte, María está en su salsa."
     },
     {
-      "idiom": "Matar dos pájaros de un tiro (48)",
+      "idiom": "Matar dos pájaros de un tiro",
       "level": "A1",
       "meaning": "Lograr dos objetivos con una sola acción",
       "example": "Viajé por trabajo y visité a mi familia: maté dos pájaros de un tiro."
     },
     {
-      "idiom": "Quedarse de piedra (49)",
+      "idiom": "Quedarse de piedra",
       "level": "A2",
       "meaning": "Quedarse muy sorprendido o impactado",
       "example": "Me quedé de piedra cuando escuché la noticia."
     },
     {
-      "idiom": "Poner el dedo en la llaga (50)",
+      "idiom": "Poner el dedo en la llaga",
       "level": "B1",
       "meaning": "Señalar el punto más delicado o doloroso",
       "example": "El periodista puso el dedo en la llaga con esa pregunta."
     },
     {
-      "idiom": "Es pan comido (51)",
+      "idiom": "Es pan comido",
       "level": "B2",
       "meaning": "Es muy fácil de hacer",
       "example": "No te preocupes por el examen, ¡es pan comido!"
     },
     {
-      "idiom": "Estar en las nubes (52)",
+      "idiom": "Estar en las nubes",
       "level": "C1",
       "meaning": "Estar despistado o soñando despierto",
       "example": "Juan no escucha la lección, siempre está en las nubes."
     },
     {
-      "idiom": "Meter la pata (53)",
+      "idiom": "Meter la pata",
       "level": "C2",
       "meaning": "Cometer un error o equivocarse",
       "example": "Metí la pata al decir su secreto delante de todos."
     },
     {
-      "idiom": "Romper el hielo (54)",
+      "idiom": "Romper el hielo",
       "level": "A1",
       "meaning": "Superar la timidez inicial",
       "example": "Un juego divertido sirvió para romper el hielo en la clase."
     },
     {
-      "idiom": "Tirar la toalla (55)",
+      "idiom": "Tirar la toalla",
       "level": "A2",
       "meaning": "Rendirse ante una dificultad",
       "example": "A pesar de los obstáculos, no pienso tirar la toalla."
     },
     {
-      "idiom": "Costar un ojo de la cara (56)",
+      "idiom": "Costar un ojo de la cara",
       "level": "B1",
       "meaning": "Ser extremadamente caro",
       "example": "Esa entrada para el concierto cuesta un ojo de la cara."
     },
     {
-      "idiom": "Estar en su salsa (57)",
+      "idiom": "Estar en su salsa",
       "level": "B2",
       "meaning": "Sentirse cómodo en un entorno",
       "example": "Cuando habla de arte, María está en su salsa."
     },
     {
-      "idiom": "Matar dos pájaros de un tiro (58)",
+      "idiom": "Matar dos pájaros de un tiro",
       "level": "C1",
       "meaning": "Lograr dos objetivos con una sola acción",
       "example": "Viajé por trabajo y visité a mi familia: maté dos pájaros de un tiro."
     },
     {
-      "idiom": "Quedarse de piedra (59)",
+      "idiom": "Quedarse de piedra",
       "level": "C2",
       "meaning": "Quedarse muy sorprendido o impactado",
       "example": "Me quedé de piedra cuando escuché la noticia."
     },
     {
-      "idiom": "Poner el dedo en la llaga (60)",
+      "idiom": "Poner el dedo en la llaga",
       "level": "A1",
       "meaning": "Señalar el punto más delicado o doloroso",
       "example": "El periodista puso el dedo en la llaga con esa pregunta."
     },
     {
-      "idiom": "Es pan comido (61)",
+      "idiom": "Es pan comido",
       "level": "A2",
       "meaning": "Es muy fácil de hacer",
       "example": "No te preocupes por el examen, ¡es pan comido!"
     },
     {
-      "idiom": "Estar en las nubes (62)",
+      "idiom": "Estar en las nubes",
       "level": "B1",
       "meaning": "Estar despistado o soñando despierto",
       "example": "Juan no escucha la lección, siempre está en las nubes."
     },
     {
-      "idiom": "Meter la pata (63)",
+      "idiom": "Meter la pata",
       "level": "B2",
       "meaning": "Cometer un error o equivocarse",
       "example": "Metí la pata al decir su secreto delante de todos."
     },
     {
-      "idiom": "Romper el hielo (64)",
+      "idiom": "Romper el hielo",
       "level": "C1",
       "meaning": "Superar la timidez inicial",
       "example": "Un juego divertido sirvió para romper el hielo en la clase."
     },
     {
-      "idiom": "Tirar la toalla (65)",
+      "idiom": "Tirar la toalla",
       "level": "C2",
       "meaning": "Rendirse ante una dificultad",
       "example": "A pesar de los obstáculos, no pienso tirar la toalla."
     },
     {
-      "idiom": "Costar un ojo de la cara (66)",
+      "idiom": "Costar un ojo de la cara",
       "level": "A1",
       "meaning": "Ser extremadamente caro",
       "example": "Esa entrada para el concierto cuesta un ojo de la cara."
     },
     {
-      "idiom": "Estar en su salsa (67)",
+      "idiom": "Estar en su salsa",
       "level": "A2",
       "meaning": "Sentirse cómodo en un entorno",
       "example": "Cuando habla de arte, María está en su salsa."
     },
     {
-      "idiom": "Matar dos pájaros de un tiro (68)",
+      "idiom": "Matar dos pájaros de un tiro",
       "level": "B1",
       "meaning": "Lograr dos objetivos con una sola acción",
       "example": "Viajé por trabajo y visité a mi familia: maté dos pájaros de un tiro."
     },
     {
-      "idiom": "Quedarse de piedra (69)",
+      "idiom": "Quedarse de piedra",
       "level": "B2",
       "meaning": "Quedarse muy sorprendido o impactado",
       "example": "Me quedé de piedra cuando escuché la noticia."
     },
     {
-      "idiom": "Poner el dedo en la llaga (70)",
+      "idiom": "Poner el dedo en la llaga",
       "level": "C1",
       "meaning": "Señalar el punto más delicado o doloroso",
       "example": "El periodista puso el dedo en la llaga con esa pregunta."
     },
     {
-      "idiom": "Es pan comido (71)",
+      "idiom": "Es pan comido",
       "level": "C2",
       "meaning": "Es muy fácil de hacer",
       "example": "No te preocupes por el examen, ¡es pan comido!"
     },
     {
-      "idiom": "Estar en las nubes (72)",
+      "idiom": "Estar en las nubes",
       "level": "A1",
       "meaning": "Estar despistado o soñando despierto",
       "example": "Juan no escucha la lección, siempre está en las nubes."
     },
     {
-      "idiom": "Meter la pata (73)",
+      "idiom": "Meter la pata",
       "level": "A2",
       "meaning": "Cometer un error o equivocarse",
       "example": "Metí la pata al decir su secreto delante de todos."
     },
     {
-      "idiom": "Romper el hielo (74)",
+      "idiom": "Romper el hielo",
       "level": "B1",
       "meaning": "Superar la timidez inicial",
       "example": "Un juego divertido sirvió para romper el hielo en la clase."
     },
     {
-      "idiom": "Tirar la toalla (75)",
+      "idiom": "Tirar la toalla",
       "level": "B2",
       "meaning": "Rendirse ante una dificultad",
       "example": "A pesar de los obstáculos, no pienso tirar la toalla."
     },
     {
-      "idiom": "Costar un ojo de la cara (76)",
+      "idiom": "Costar un ojo de la cara",
       "level": "C1",
       "meaning": "Ser extremadamente caro",
       "example": "Esa entrada para el concierto cuesta un ojo de la cara."
     },
     {
-      "idiom": "Estar en su salsa (77)",
+      "idiom": "Estar en su salsa",
       "level": "C2",
       "meaning": "Sentirse cómodo en un entorno",
       "example": "Cuando habla de arte, María está en su salsa."
     },
     {
-      "idiom": "Matar dos pájaros de un tiro (78)",
+      "idiom": "Matar dos pájaros de un tiro",
       "level": "A1",
       "meaning": "Lograr dos objetivos con una sola acción",
       "example": "Viajé por trabajo y visité a mi familia: maté dos pájaros de un tiro."
     },
     {
-      "idiom": "Quedarse de piedra (79)",
+      "idiom": "Quedarse de piedra",
       "level": "A2",
       "meaning": "Quedarse muy sorprendido o impactado",
       "example": "Me quedé de piedra cuando escuché la noticia."
     },
     {
-      "idiom": "Poner el dedo en la llaga (80)",
+      "idiom": "Poner el dedo en la llaga",
       "level": "B1",
       "meaning": "Señalar el punto más delicado o doloroso",
       "example": "El periodista puso el dedo en la llaga con esa pregunta."
     },
     {
-      "idiom": "Es pan comido (81)",
+      "idiom": "Es pan comido",
       "level": "B2",
       "meaning": "Es muy fácil de hacer",
       "example": "No te preocupes por el examen, ¡es pan comido!"
     },
     {
-      "idiom": "Estar en las nubes (82)",
+      "idiom": "Estar en las nubes",
       "level": "C1",
       "meaning": "Estar despistado o soñando despierto",
       "example": "Juan no escucha la lección, siempre está en las nubes."
     },
     {
-      "idiom": "Meter la pata (83)",
+      "idiom": "Meter la pata",
       "level": "C2",
       "meaning": "Cometer un error o equivocarse",
       "example": "Metí la pata al decir su secreto delante de todos."
     },
     {
-      "idiom": "Romper el hielo (84)",
+      "idiom": "Romper el hielo",
       "level": "A1",
       "meaning": "Superar la timidez inicial",
       "example": "Un juego divertido sirvió para romper el hielo en la clase."
     },
     {
-      "idiom": "Tirar la toalla (85)",
+      "idiom": "Tirar la toalla",
       "level": "A2",
       "meaning": "Rendirse ante una dificultad",
       "example": "A pesar de los obstáculos, no pienso tirar la toalla."
     },
     {
-      "idiom": "Costar un ojo de la cara (86)",
+      "idiom": "Costar un ojo de la cara",
       "level": "B1",
       "meaning": "Ser extremadamente caro",
       "example": "Esa entrada para el concierto cuesta un ojo de la cara."
     },
     {
-      "idiom": "Estar en su salsa (87)",
+      "idiom": "Estar en su salsa",
       "level": "B2",
       "meaning": "Sentirse cómodo en un entorno",
       "example": "Cuando habla de arte, María está en su salsa."
     },
     {
-      "idiom": "Matar dos pájaros de un tiro (88)",
+      "idiom": "Matar dos pájaros de un tiro",
       "level": "C1",
       "meaning": "Lograr dos objetivos con una sola acción",
       "example": "Viajé por trabajo y visité a mi familia: maté dos pájaros de un tiro."
     },
     {
-      "idiom": "Quedarse de piedra (89)",
+      "idiom": "Quedarse de piedra",
       "level": "C2",
       "meaning": "Quedarse muy sorprendido o impactado",
       "example": "Me quedé de piedra cuando escuché la noticia."
     },
     {
-      "idiom": "Poner el dedo en la llaga (90)",
+      "idiom": "Poner el dedo en la llaga",
       "level": "A1",
       "meaning": "Señalar el punto más delicado o doloroso",
       "example": "El periodista puso el dedo en la llaga con esa pregunta."
@@ -4358,541 +4358,541 @@ window.COSY_DAILY_IDIOMS = {
       "example": "Wir müssen in den sauren Apfel beißen und die Überstunden machen."
     },
     {
-      "idiom": "Das ist mir wurst (1)",
+      "idiom": "Das ist mir wurst",
       "level": "A2",
       "meaning": "I don't care / Es ist mir egal",
       "example": "Was wir essen ist mir wurst, entscheide du!"
     },
     {
-      "idiom": "Daumen drücken (2)",
+      "idiom": "Daumen drücken",
       "level": "B1",
       "meaning": "Cross fingers / Wish good luck",
       "example": "Ich drücke dir die Daumen für deine Prüfung!"
     },
     {
-      "idiom": "Ich verstehe nur Bahnhof (3)",
+      "idiom": "Ich verstehe nur Bahnhof",
       "level": "B2",
       "meaning": "I don't understand anything at all",
       "example": "Kannst du das wiederholen? Ich verstehe nur Bahnhof."
     },
     {
-      "idiom": "Das Eis brechen (4)",
+      "idiom": "Das Eis brechen",
       "level": "C1",
       "meaning": "Break the ice in a social setting",
       "example": "Ein kurzes Spiel hat geholfen, das Eis zu brechen."
     },
     {
-      "idiom": "Die Flinte ins Korn werfen (5)",
+      "idiom": "Die Flinte ins Korn werfen",
       "level": "C2",
       "meaning": "Give up hope / Surrender",
       "example": "Gib nicht auf! Werf nicht gleich die Flinte ins Korn."
     },
     {
-      "idiom": "Den Nagel auf den Kopf treffen (6)",
+      "idiom": "Den Nagel auf den Kopf treffen",
       "level": "A1",
       "meaning": "Hit the nail on the head",
       "example": "Mit deiner Erklärung hast du den Nagel auf den Kopf getroffen."
     },
     {
-      "idiom": "Zwei Fliegen mit einer Klappe schlagen (7)",
+      "idiom": "Zwei Fliegen mit einer Klappe schlagen",
       "level": "A2",
       "meaning": "Kill two birds with one stone",
       "example": "Ich habe einkaufen und Spazierengehen kombiniert: zwei Fliegen mit einer Klappe!"
     },
     {
-      "idiom": "Die Kirche im Dorf lassen (8)",
+      "idiom": "Die Kirche im Dorf lassen",
       "level": "B1",
       "meaning": "Keep things in perspective / Don't exaggerate",
       "example": "Bleib ruhig und lass die Kirche im Dorf."
     },
     {
-      "idiom": "Die Katze aus dem Sack lassen (9)",
+      "idiom": "Die Katze aus dem Sack lassen",
       "level": "B2",
       "meaning": "Reveal a surprise or secret",
       "example": "Endlich hat er die Katze aus dem Sack gelassen."
     },
     {
-      "idiom": "In den sauren Apfel beißen (10)",
+      "idiom": "In den sauren Apfel beißen",
       "level": "C1",
       "meaning": "Face an unpleasant necessity",
       "example": "Wir müssen in den sauren Apfel beißen und die Überstunden machen."
     },
     {
-      "idiom": "Das ist mir wurst (11)",
+      "idiom": "Das ist mir wurst",
       "level": "C2",
       "meaning": "I don't care / Es ist mir egal",
       "example": "Was wir essen ist mir wurst, entscheide du!"
     },
     {
-      "idiom": "Daumen drücken (12)",
+      "idiom": "Daumen drücken",
       "level": "A1",
       "meaning": "Cross fingers / Wish good luck",
       "example": "Ich drücke dir die Daumen für deine Prüfung!"
     },
     {
-      "idiom": "Ich verstehe nur Bahnhof (13)",
+      "idiom": "Ich verstehe nur Bahnhof",
       "level": "A2",
       "meaning": "I don't understand anything at all",
       "example": "Kannst du das wiederholen? Ich verstehe nur Bahnhof."
     },
     {
-      "idiom": "Das Eis brechen (14)",
+      "idiom": "Das Eis brechen",
       "level": "B1",
       "meaning": "Break the ice in a social setting",
       "example": "Ein kurzes Spiel hat geholfen, das Eis zu brechen."
     },
     {
-      "idiom": "Die Flinte ins Korn werfen (15)",
+      "idiom": "Die Flinte ins Korn werfen",
       "level": "B2",
       "meaning": "Give up hope / Surrender",
       "example": "Gib nicht auf! Werf nicht gleich die Flinte ins Korn."
     },
     {
-      "idiom": "Den Nagel auf den Kopf treffen (16)",
+      "idiom": "Den Nagel auf den Kopf treffen",
       "level": "C1",
       "meaning": "Hit the nail on the head",
       "example": "Mit deiner Erklärung hast du den Nagel auf den Kopf getroffen."
     },
     {
-      "idiom": "Zwei Fliegen mit einer Klappe schlagen (17)",
+      "idiom": "Zwei Fliegen mit einer Klappe schlagen",
       "level": "C2",
       "meaning": "Kill two birds with one stone",
       "example": "Ich habe einkaufen und Spazierengehen kombiniert: zwei Fliegen mit einer Klappe!"
     },
     {
-      "idiom": "Die Kirche im Dorf lassen (18)",
+      "idiom": "Die Kirche im Dorf lassen",
       "level": "A1",
       "meaning": "Keep things in perspective / Don't exaggerate",
       "example": "Bleib ruhig und lass die Kirche im Dorf."
     },
     {
-      "idiom": "Die Katze aus dem Sack lassen (19)",
+      "idiom": "Die Katze aus dem Sack lassen",
       "level": "A2",
       "meaning": "Reveal a surprise or secret",
       "example": "Endlich hat er die Katze aus dem Sack gelassen."
     },
     {
-      "idiom": "In den sauren Apfel beißen (20)",
+      "idiom": "In den sauren Apfel beißen",
       "level": "B1",
       "meaning": "Face an unpleasant necessity",
       "example": "Wir müssen in den sauren Apfel beißen und die Überstunden machen."
     },
     {
-      "idiom": "Das ist mir wurst (21)",
+      "idiom": "Das ist mir wurst",
       "level": "B2",
       "meaning": "I don't care / Es ist mir egal",
       "example": "Was wir essen ist mir wurst, entscheide du!"
     },
     {
-      "idiom": "Daumen drücken (22)",
+      "idiom": "Daumen drücken",
       "level": "C1",
       "meaning": "Cross fingers / Wish good luck",
       "example": "Ich drücke dir die Daumen für deine Prüfung!"
     },
     {
-      "idiom": "Ich verstehe nur Bahnhof (23)",
+      "idiom": "Ich verstehe nur Bahnhof",
       "level": "C2",
       "meaning": "I don't understand anything at all",
       "example": "Kannst du das wiederholen? Ich verstehe nur Bahnhof."
     },
     {
-      "idiom": "Das Eis brechen (24)",
+      "idiom": "Das Eis brechen",
       "level": "A1",
       "meaning": "Break the ice in a social setting",
       "example": "Ein kurzes Spiel hat geholfen, das Eis zu brechen."
     },
     {
-      "idiom": "Die Flinte ins Korn werfen (25)",
+      "idiom": "Die Flinte ins Korn werfen",
       "level": "A2",
       "meaning": "Give up hope / Surrender",
       "example": "Gib nicht auf! Werf nicht gleich die Flinte ins Korn."
     },
     {
-      "idiom": "Den Nagel auf den Kopf treffen (26)",
+      "idiom": "Den Nagel auf den Kopf treffen",
       "level": "B1",
       "meaning": "Hit the nail on the head",
       "example": "Mit deiner Erklärung hast du den Nagel auf den Kopf getroffen."
     },
     {
-      "idiom": "Zwei Fliegen mit einer Klappe schlagen (27)",
+      "idiom": "Zwei Fliegen mit einer Klappe schlagen",
       "level": "B2",
       "meaning": "Kill two birds with one stone",
       "example": "Ich habe einkaufen und Spazierengehen kombiniert: zwei Fliegen mit einer Klappe!"
     },
     {
-      "idiom": "Die Kirche im Dorf lassen (28)",
+      "idiom": "Die Kirche im Dorf lassen",
       "level": "C1",
       "meaning": "Keep things in perspective / Don't exaggerate",
       "example": "Bleib ruhig und lass die Kirche im Dorf."
     },
     {
-      "idiom": "Die Katze aus dem Sack lassen (29)",
+      "idiom": "Die Katze aus dem Sack lassen",
       "level": "C2",
       "meaning": "Reveal a surprise or secret",
       "example": "Endlich hat er die Katze aus dem Sack gelassen."
     },
     {
-      "idiom": "In den sauren Apfel beißen (30)",
+      "idiom": "In den sauren Apfel beißen",
       "level": "A1",
       "meaning": "Face an unpleasant necessity",
       "example": "Wir müssen in den sauren Apfel beißen und die Überstunden machen."
     },
     {
-      "idiom": "Das ist mir wurst (31)",
+      "idiom": "Das ist mir wurst",
       "level": "A2",
       "meaning": "I don't care / Es ist mir egal",
       "example": "Was wir essen ist mir wurst, entscheide du!"
     },
     {
-      "idiom": "Daumen drücken (32)",
+      "idiom": "Daumen drücken",
       "level": "B1",
       "meaning": "Cross fingers / Wish good luck",
       "example": "Ich drücke dir die Daumen für deine Prüfung!"
     },
     {
-      "idiom": "Ich verstehe nur Bahnhof (33)",
+      "idiom": "Ich verstehe nur Bahnhof",
       "level": "B2",
       "meaning": "I don't understand anything at all",
       "example": "Kannst du das wiederholen? Ich verstehe nur Bahnhof."
     },
     {
-      "idiom": "Das Eis brechen (34)",
+      "idiom": "Das Eis brechen",
       "level": "C1",
       "meaning": "Break the ice in a social setting",
       "example": "Ein kurzes Spiel hat geholfen, das Eis zu brechen."
     },
     {
-      "idiom": "Die Flinte ins Korn werfen (35)",
+      "idiom": "Die Flinte ins Korn werfen",
       "level": "C2",
       "meaning": "Give up hope / Surrender",
       "example": "Gib nicht auf! Werf nicht gleich die Flinte ins Korn."
     },
     {
-      "idiom": "Den Nagel auf den Kopf treffen (36)",
+      "idiom": "Den Nagel auf den Kopf treffen",
       "level": "A1",
       "meaning": "Hit the nail on the head",
       "example": "Mit deiner Erklärung hast du den Nagel auf den Kopf getroffen."
     },
     {
-      "idiom": "Zwei Fliegen mit einer Klappe schlagen (37)",
+      "idiom": "Zwei Fliegen mit einer Klappe schlagen",
       "level": "A2",
       "meaning": "Kill two birds with one stone",
       "example": "Ich habe einkaufen und Spazierengehen kombiniert: zwei Fliegen mit einer Klappe!"
     },
     {
-      "idiom": "Die Kirche im Dorf lassen (38)",
+      "idiom": "Die Kirche im Dorf lassen",
       "level": "B1",
       "meaning": "Keep things in perspective / Don't exaggerate",
       "example": "Bleib ruhig und lass die Kirche im Dorf."
     },
     {
-      "idiom": "Die Katze aus dem Sack lassen (39)",
+      "idiom": "Die Katze aus dem Sack lassen",
       "level": "B2",
       "meaning": "Reveal a surprise or secret",
       "example": "Endlich hat er die Katze aus dem Sack gelassen."
     },
     {
-      "idiom": "In den sauren Apfel beißen (40)",
+      "idiom": "In den sauren Apfel beißen",
       "level": "C1",
       "meaning": "Face an unpleasant necessity",
       "example": "Wir müssen in den sauren Apfel beißen und die Überstunden machen."
     },
     {
-      "idiom": "Das ist mir wurst (41)",
+      "idiom": "Das ist mir wurst",
       "level": "C2",
       "meaning": "I don't care / Es ist mir egal",
       "example": "Was wir essen ist mir wurst, entscheide du!"
     },
     {
-      "idiom": "Daumen drücken (42)",
+      "idiom": "Daumen drücken",
       "level": "A1",
       "meaning": "Cross fingers / Wish good luck",
       "example": "Ich drücke dir die Daumen für deine Prüfung!"
     },
     {
-      "idiom": "Ich verstehe nur Bahnhof (43)",
+      "idiom": "Ich verstehe nur Bahnhof",
       "level": "A2",
       "meaning": "I don't understand anything at all",
       "example": "Kannst du das wiederholen? Ich verstehe nur Bahnhof."
     },
     {
-      "idiom": "Das Eis brechen (44)",
+      "idiom": "Das Eis brechen",
       "level": "B1",
       "meaning": "Break the ice in a social setting",
       "example": "Ein kurzes Spiel hat geholfen, das Eis zu brechen."
     },
     {
-      "idiom": "Die Flinte ins Korn werfen (45)",
+      "idiom": "Die Flinte ins Korn werfen",
       "level": "B2",
       "meaning": "Give up hope / Surrender",
       "example": "Gib nicht auf! Werf nicht gleich die Flinte ins Korn."
     },
     {
-      "idiom": "Den Nagel auf den Kopf treffen (46)",
+      "idiom": "Den Nagel auf den Kopf treffen",
       "level": "C1",
       "meaning": "Hit the nail on the head",
       "example": "Mit deiner Erklärung hast du den Nagel auf den Kopf getroffen."
     },
     {
-      "idiom": "Zwei Fliegen mit einer Klappe schlagen (47)",
+      "idiom": "Zwei Fliegen mit einer Klappe schlagen",
       "level": "C2",
       "meaning": "Kill two birds with one stone",
       "example": "Ich habe einkaufen und Spazierengehen kombiniert: zwei Fliegen mit einer Klappe!"
     },
     {
-      "idiom": "Die Kirche im Dorf lassen (48)",
+      "idiom": "Die Kirche im Dorf lassen",
       "level": "A1",
       "meaning": "Keep things in perspective / Don't exaggerate",
       "example": "Bleib ruhig und lass die Kirche im Dorf."
     },
     {
-      "idiom": "Die Katze aus dem Sack lassen (49)",
+      "idiom": "Die Katze aus dem Sack lassen",
       "level": "A2",
       "meaning": "Reveal a surprise or secret",
       "example": "Endlich hat er die Katze aus dem Sack gelassen."
     },
     {
-      "idiom": "In den sauren Apfel beißen (50)",
+      "idiom": "In den sauren Apfel beißen",
       "level": "B1",
       "meaning": "Face an unpleasant necessity",
       "example": "Wir müssen in den sauren Apfel beißen und die Überstunden machen."
     },
     {
-      "idiom": "Das ist mir wurst (51)",
+      "idiom": "Das ist mir wurst",
       "level": "B2",
       "meaning": "I don't care / Es ist mir egal",
       "example": "Was wir essen ist mir wurst, entscheide du!"
     },
     {
-      "idiom": "Daumen drücken (52)",
+      "idiom": "Daumen drücken",
       "level": "C1",
       "meaning": "Cross fingers / Wish good luck",
       "example": "Ich drücke dir die Daumen für deine Prüfung!"
     },
     {
-      "idiom": "Ich verstehe nur Bahnhof (53)",
+      "idiom": "Ich verstehe nur Bahnhof",
       "level": "C2",
       "meaning": "I don't understand anything at all",
       "example": "Kannst du das wiederholen? Ich verstehe nur Bahnhof."
     },
     {
-      "idiom": "Das Eis brechen (54)",
+      "idiom": "Das Eis brechen",
       "level": "A1",
       "meaning": "Break the ice in a social setting",
       "example": "Ein kurzes Spiel hat geholfen, das Eis zu brechen."
     },
     {
-      "idiom": "Die Flinte ins Korn werfen (55)",
+      "idiom": "Die Flinte ins Korn werfen",
       "level": "A2",
       "meaning": "Give up hope / Surrender",
       "example": "Gib nicht auf! Werf nicht gleich die Flinte ins Korn."
     },
     {
-      "idiom": "Den Nagel auf den Kopf treffen (56)",
+      "idiom": "Den Nagel auf den Kopf treffen",
       "level": "B1",
       "meaning": "Hit the nail on the head",
       "example": "Mit deiner Erklärung hast du den Nagel auf den Kopf getroffen."
     },
     {
-      "idiom": "Zwei Fliegen mit einer Klappe schlagen (57)",
+      "idiom": "Zwei Fliegen mit einer Klappe schlagen",
       "level": "B2",
       "meaning": "Kill two birds with one stone",
       "example": "Ich habe einkaufen und Spazierengehen kombiniert: zwei Fliegen mit einer Klappe!"
     },
     {
-      "idiom": "Die Kirche im Dorf lassen (58)",
+      "idiom": "Die Kirche im Dorf lassen",
       "level": "C1",
       "meaning": "Keep things in perspective / Don't exaggerate",
       "example": "Bleib ruhig und lass die Kirche im Dorf."
     },
     {
-      "idiom": "Die Katze aus dem Sack lassen (59)",
+      "idiom": "Die Katze aus dem Sack lassen",
       "level": "C2",
       "meaning": "Reveal a surprise or secret",
       "example": "Endlich hat er die Katze aus dem Sack gelassen."
     },
     {
-      "idiom": "In den sauren Apfel beißen (60)",
+      "idiom": "In den sauren Apfel beißen",
       "level": "A1",
       "meaning": "Face an unpleasant necessity",
       "example": "Wir müssen in den sauren Apfel beißen und die Überstunden machen."
     },
     {
-      "idiom": "Das ist mir wurst (61)",
+      "idiom": "Das ist mir wurst",
       "level": "A2",
       "meaning": "I don't care / Es ist mir egal",
       "example": "Was wir essen ist mir wurst, entscheide du!"
     },
     {
-      "idiom": "Daumen drücken (62)",
+      "idiom": "Daumen drücken",
       "level": "B1",
       "meaning": "Cross fingers / Wish good luck",
       "example": "Ich drücke dir die Daumen für deine Prüfung!"
     },
     {
-      "idiom": "Ich verstehe nur Bahnhof (63)",
+      "idiom": "Ich verstehe nur Bahnhof",
       "level": "B2",
       "meaning": "I don't understand anything at all",
       "example": "Kannst du das wiederholen? Ich verstehe nur Bahnhof."
     },
     {
-      "idiom": "Das Eis brechen (64)",
+      "idiom": "Das Eis brechen",
       "level": "C1",
       "meaning": "Break the ice in a social setting",
       "example": "Ein kurzes Spiel hat geholfen, das Eis zu brechen."
     },
     {
-      "idiom": "Die Flinte ins Korn werfen (65)",
+      "idiom": "Die Flinte ins Korn werfen",
       "level": "C2",
       "meaning": "Give up hope / Surrender",
       "example": "Gib nicht auf! Werf nicht gleich die Flinte ins Korn."
     },
     {
-      "idiom": "Den Nagel auf den Kopf treffen (66)",
+      "idiom": "Den Nagel auf den Kopf treffen",
       "level": "A1",
       "meaning": "Hit the nail on the head",
       "example": "Mit deiner Erklärung hast du den Nagel auf den Kopf getroffen."
     },
     {
-      "idiom": "Zwei Fliegen mit einer Klappe schlagen (67)",
+      "idiom": "Zwei Fliegen mit einer Klappe schlagen",
       "level": "A2",
       "meaning": "Kill two birds with one stone",
       "example": "Ich habe einkaufen und Spazierengehen kombiniert: zwei Fliegen mit einer Klappe!"
     },
     {
-      "idiom": "Die Kirche im Dorf lassen (68)",
+      "idiom": "Die Kirche im Dorf lassen",
       "level": "B1",
       "meaning": "Keep things in perspective / Don't exaggerate",
       "example": "Bleib ruhig und lass die Kirche im Dorf."
     },
     {
-      "idiom": "Die Katze aus dem Sack lassen (69)",
+      "idiom": "Die Katze aus dem Sack lassen",
       "level": "B2",
       "meaning": "Reveal a surprise or secret",
       "example": "Endlich hat er die Katze aus dem Sack gelassen."
     },
     {
-      "idiom": "In den sauren Apfel beißen (70)",
+      "idiom": "In den sauren Apfel beißen",
       "level": "C1",
       "meaning": "Face an unpleasant necessity",
       "example": "Wir müssen in den sauren Apfel beißen und die Überstunden machen."
     },
     {
-      "idiom": "Das ist mir wurst (71)",
+      "idiom": "Das ist mir wurst",
       "level": "C2",
       "meaning": "I don't care / Es ist mir egal",
       "example": "Was wir essen ist mir wurst, entscheide du!"
     },
     {
-      "idiom": "Daumen drücken (72)",
+      "idiom": "Daumen drücken",
       "level": "A1",
       "meaning": "Cross fingers / Wish good luck",
       "example": "Ich drücke dir die Daumen für deine Prüfung!"
     },
     {
-      "idiom": "Ich verstehe nur Bahnhof (73)",
+      "idiom": "Ich verstehe nur Bahnhof",
       "level": "A2",
       "meaning": "I don't understand anything at all",
       "example": "Kannst du das wiederholen? Ich verstehe nur Bahnhof."
     },
     {
-      "idiom": "Das Eis brechen (74)",
+      "idiom": "Das Eis brechen",
       "level": "B1",
       "meaning": "Break the ice in a social setting",
       "example": "Ein kurzes Spiel hat geholfen, das Eis zu brechen."
     },
     {
-      "idiom": "Die Flinte ins Korn werfen (75)",
+      "idiom": "Die Flinte ins Korn werfen",
       "level": "B2",
       "meaning": "Give up hope / Surrender",
       "example": "Gib nicht auf! Werf nicht gleich die Flinte ins Korn."
     },
     {
-      "idiom": "Den Nagel auf den Kopf treffen (76)",
+      "idiom": "Den Nagel auf den Kopf treffen",
       "level": "C1",
       "meaning": "Hit the nail on the head",
       "example": "Mit deiner Erklärung hast du den Nagel auf den Kopf getroffen."
     },
     {
-      "idiom": "Zwei Fliegen mit einer Klappe schlagen (77)",
+      "idiom": "Zwei Fliegen mit einer Klappe schlagen",
       "level": "C2",
       "meaning": "Kill two birds with one stone",
       "example": "Ich habe einkaufen und Spazierengehen kombiniert: zwei Fliegen mit einer Klappe!"
     },
     {
-      "idiom": "Die Kirche im Dorf lassen (78)",
+      "idiom": "Die Kirche im Dorf lassen",
       "level": "A1",
       "meaning": "Keep things in perspective / Don't exaggerate",
       "example": "Bleib ruhig und lass die Kirche im Dorf."
     },
     {
-      "idiom": "Die Katze aus dem Sack lassen (79)",
+      "idiom": "Die Katze aus dem Sack lassen",
       "level": "A2",
       "meaning": "Reveal a surprise or secret",
       "example": "Endlich hat er die Katze aus dem Sack gelassen."
     },
     {
-      "idiom": "In den sauren Apfel beißen (80)",
+      "idiom": "In den sauren Apfel beißen",
       "level": "B1",
       "meaning": "Face an unpleasant necessity",
       "example": "Wir müssen in den sauren Apfel beißen und die Überstunden machen."
     },
     {
-      "idiom": "Das ist mir wurst (81)",
+      "idiom": "Das ist mir wurst",
       "level": "B2",
       "meaning": "I don't care / Es ist mir egal",
       "example": "Was wir essen ist mir wurst, entscheide du!"
     },
     {
-      "idiom": "Daumen drücken (82)",
+      "idiom": "Daumen drücken",
       "level": "C1",
       "meaning": "Cross fingers / Wish good luck",
       "example": "Ich drücke dir die Daumen für deine Prüfung!"
     },
     {
-      "idiom": "Ich verstehe nur Bahnhof (83)",
+      "idiom": "Ich verstehe nur Bahnhof",
       "level": "C2",
       "meaning": "I don't understand anything at all",
       "example": "Kannst du das wiederholen? Ich verstehe nur Bahnhof."
     },
     {
-      "idiom": "Das Eis brechen (84)",
+      "idiom": "Das Eis brechen",
       "level": "A1",
       "meaning": "Break the ice in a social setting",
       "example": "Ein kurzes Spiel hat geholfen, das Eis zu brechen."
     },
     {
-      "idiom": "Die Flinte ins Korn werfen (85)",
+      "idiom": "Die Flinte ins Korn werfen",
       "level": "A2",
       "meaning": "Give up hope / Surrender",
       "example": "Gib nicht auf! Werf nicht gleich die Flinte ins Korn."
     },
     {
-      "idiom": "Den Nagel auf den Kopf treffen (86)",
+      "idiom": "Den Nagel auf den Kopf treffen",
       "level": "B1",
       "meaning": "Hit the nail on the head",
       "example": "Mit deiner Erklärung hast du den Nagel auf den Kopf getroffen."
     },
     {
-      "idiom": "Zwei Fliegen mit einer Klappe schlagen (87)",
+      "idiom": "Zwei Fliegen mit einer Klappe schlagen",
       "level": "B2",
       "meaning": "Kill two birds with one stone",
       "example": "Ich habe einkaufen und Spazierengehen kombiniert: zwei Fliegen mit einer Klappe!"
     },
     {
-      "idiom": "Die Kirche im Dorf lassen (88)",
+      "idiom": "Die Kirche im Dorf lassen",
       "level": "C1",
       "meaning": "Keep things in perspective / Don't exaggerate",
       "example": "Bleib ruhig und lass die Kirche im Dorf."
     },
     {
-      "idiom": "Die Katze aus dem Sack lassen (89)",
+      "idiom": "Die Katze aus dem Sack lassen",
       "level": "C2",
       "meaning": "Reveal a surprise or secret",
       "example": "Endlich hat er die Katze aus dem Sack gelassen."
     },
     {
-      "idiom": "In den sauren Apfel beißen (90)",
+      "idiom": "In den sauren Apfel beißen",
       "level": "A1",
       "meaning": "Face an unpleasant necessity",
       "example": "Wir müssen in den sauren Apfel beißen und die Überstunden machen."
@@ -4960,541 +4960,541 @@ window.COSY_DAILY_IDIOMS = {
       "example": "A reunião serviu para pôr os pontos nos is."
     },
     {
-      "idiom": "Tudo bem (1)",
+      "idiom": "Tudo bem",
       "level": "A2",
       "meaning": "Everything is good / All fine",
       "example": "Olá! Tudo bem com você?"
     },
     {
-      "idiom": "Estar com a corda toda (2)",
+      "idiom": "Estar com a corda toda",
       "level": "B1",
       "meaning": "Estar cheio de energia e entusiasmo",
       "example": "As crianças estão com a corda toda hoje!"
     },
     {
-      "idiom": "Quebrar o galho (3)",
+      "idiom": "Quebrar o galho",
       "level": "B2",
       "meaning": "Resolver uma dificuldade de forma improvisada",
       "example": "Esse dicionário antigo vai quebrar o galho por enquanto."
     },
     {
-      "idiom": "Comprar gato por lebre (4)",
+      "idiom": "Comprar gato por lebre",
       "level": "C1",
       "meaning": "Ser enganado em uma compra",
       "example": "Cuidado para não comprar gato por lebre na internet."
     },
     {
-      "idiom": "Custar os olhos da cara (5)",
+      "idiom": "Custar os olhos da cara",
       "level": "C2",
       "meaning": "Ser extremamente caro",
       "example": "Aquela viagem para a Europa custou os olhos da cara."
     },
     {
-      "idiom": "Meter os pés pelas mãos (6)",
+      "idiom": "Meter os pés pelas mãos",
       "level": "A1",
       "meaning": "Agir com precipitação ou confusão",
       "example": "Na pressa de terminar, ele meteu os pés pelas mãos."
     },
     {
-      "idiom": "Chover no molhado (7)",
+      "idiom": "Chover no molhado",
       "level": "A2",
       "meaning": "Repetir algo óbvio ou inútil",
       "example": "Explicar isso para especialistas é chover no molhado."
     },
     {
-      "idiom": "Chutar o balde (8)",
+      "idiom": "Chutar o balde",
       "level": "B1",
       "meaning": "Desistir de tudo impacientemente",
       "example": "Cansado do estresse, ele chutou o balde e foi viajar."
     },
     {
-      "idiom": "Dar a volta por cima (9)",
+      "idiom": "Dar a volta por cima",
       "level": "B2",
       "meaning": "Superar uma grande adversidade",
       "example": "Após a crise, a empresa deu a volta por cima."
     },
     {
-      "idiom": "Pôr os pontos nos is (10)",
+      "idiom": "Pôr os pontos nos is",
       "level": "C1",
       "meaning": "Esclarecer todos os detalhes com precisão",
       "example": "A reunião serviu para pôr os pontos nos is."
     },
     {
-      "idiom": "Tudo bem (11)",
+      "idiom": "Tudo bem",
       "level": "C2",
       "meaning": "Everything is good / All fine",
       "example": "Olá! Tudo bem com você?"
     },
     {
-      "idiom": "Estar com a corda toda (12)",
+      "idiom": "Estar com a corda toda",
       "level": "A1",
       "meaning": "Estar cheio de energia e entusiasmo",
       "example": "As crianças estão com a corda toda hoje!"
     },
     {
-      "idiom": "Quebrar o galho (13)",
+      "idiom": "Quebrar o galho",
       "level": "A2",
       "meaning": "Resolver uma dificuldade de forma improvisada",
       "example": "Esse dicionário antigo vai quebrar o galho por enquanto."
     },
     {
-      "idiom": "Comprar gato por lebre (14)",
+      "idiom": "Comprar gato por lebre",
       "level": "B1",
       "meaning": "Ser enganado em uma compra",
       "example": "Cuidado para não comprar gato por lebre na internet."
     },
     {
-      "idiom": "Custar os olhos da cara (15)",
+      "idiom": "Custar os olhos da cara",
       "level": "B2",
       "meaning": "Ser extremamente caro",
       "example": "Aquela viagem para a Europa custou os olhos da cara."
     },
     {
-      "idiom": "Meter os pés pelas mãos (16)",
+      "idiom": "Meter os pés pelas mãos",
       "level": "C1",
       "meaning": "Agir com precipitação ou confusão",
       "example": "Na pressa de terminar, ele meteu os pés pelas mãos."
     },
     {
-      "idiom": "Chover no molhado (17)",
+      "idiom": "Chover no molhado",
       "level": "C2",
       "meaning": "Repetir algo óbvio ou inútil",
       "example": "Explicar isso para especialistas é chover no molhado."
     },
     {
-      "idiom": "Chutar o balde (18)",
+      "idiom": "Chutar o balde",
       "level": "A1",
       "meaning": "Desistir de tudo impacientemente",
       "example": "Cansado do estresse, ele chutou o balde e foi viajar."
     },
     {
-      "idiom": "Dar a volta por cima (19)",
+      "idiom": "Dar a volta por cima",
       "level": "A2",
       "meaning": "Superar uma grande adversidade",
       "example": "Após a crise, a empresa deu a volta por cima."
     },
     {
-      "idiom": "Pôr os pontos nos is (20)",
+      "idiom": "Pôr os pontos nos is",
       "level": "B1",
       "meaning": "Esclarecer todos os detalhes com precisão",
       "example": "A reunião serviu para pôr os pontos nos is."
     },
     {
-      "idiom": "Tudo bem (21)",
+      "idiom": "Tudo bem",
       "level": "B2",
       "meaning": "Everything is good / All fine",
       "example": "Olá! Tudo bem com você?"
     },
     {
-      "idiom": "Estar com a corda toda (22)",
+      "idiom": "Estar com a corda toda",
       "level": "C1",
       "meaning": "Estar cheio de energia e entusiasmo",
       "example": "As crianças estão com a corda toda hoje!"
     },
     {
-      "idiom": "Quebrar o galho (23)",
+      "idiom": "Quebrar o galho",
       "level": "C2",
       "meaning": "Resolver uma dificuldade de forma improvisada",
       "example": "Esse dicionário antigo vai quebrar o galho por enquanto."
     },
     {
-      "idiom": "Comprar gato por lebre (24)",
+      "idiom": "Comprar gato por lebre",
       "level": "A1",
       "meaning": "Ser enganado em uma compra",
       "example": "Cuidado para não comprar gato por lebre na internet."
     },
     {
-      "idiom": "Custar os olhos da cara (25)",
+      "idiom": "Custar os olhos da cara",
       "level": "A2",
       "meaning": "Ser extremamente caro",
       "example": "Aquela viagem para a Europa custou os olhos da cara."
     },
     {
-      "idiom": "Meter os pés pelas mãos (26)",
+      "idiom": "Meter os pés pelas mãos",
       "level": "B1",
       "meaning": "Agir com precipitação ou confusão",
       "example": "Na pressa de terminar, ele meteu os pés pelas mãos."
     },
     {
-      "idiom": "Chover no molhado (27)",
+      "idiom": "Chover no molhado",
       "level": "B2",
       "meaning": "Repetir algo óbvio ou inútil",
       "example": "Explicar isso para especialistas é chover no molhado."
     },
     {
-      "idiom": "Chutar o balde (28)",
+      "idiom": "Chutar o balde",
       "level": "C1",
       "meaning": "Desistir de tudo impacientemente",
       "example": "Cansado do estresse, ele chutou o balde e foi viajar."
     },
     {
-      "idiom": "Dar a volta por cima (29)",
+      "idiom": "Dar a volta por cima",
       "level": "C2",
       "meaning": "Superar uma grande adversidade",
       "example": "Após a crise, a empresa deu a volta por cima."
     },
     {
-      "idiom": "Pôr os pontos nos is (30)",
+      "idiom": "Pôr os pontos nos is",
       "level": "A1",
       "meaning": "Esclarecer todos os detalhes com precisão",
       "example": "A reunião serviu para pôr os pontos nos is."
     },
     {
-      "idiom": "Tudo bem (31)",
+      "idiom": "Tudo bem",
       "level": "A2",
       "meaning": "Everything is good / All fine",
       "example": "Olá! Tudo bem com você?"
     },
     {
-      "idiom": "Estar com a corda toda (32)",
+      "idiom": "Estar com a corda toda",
       "level": "B1",
       "meaning": "Estar cheio de energia e entusiasmo",
       "example": "As crianças estão com a corda toda hoje!"
     },
     {
-      "idiom": "Quebrar o galho (33)",
+      "idiom": "Quebrar o galho",
       "level": "B2",
       "meaning": "Resolver uma dificuldade de forma improvisada",
       "example": "Esse dicionário antigo vai quebrar o galho por enquanto."
     },
     {
-      "idiom": "Comprar gato por lebre (34)",
+      "idiom": "Comprar gato por lebre",
       "level": "C1",
       "meaning": "Ser enganado em uma compra",
       "example": "Cuidado para não comprar gato por lebre na internet."
     },
     {
-      "idiom": "Custar os olhos da cara (35)",
+      "idiom": "Custar os olhos da cara",
       "level": "C2",
       "meaning": "Ser extremamente caro",
       "example": "Aquela viagem para a Europa custou os olhos da cara."
     },
     {
-      "idiom": "Meter os pés pelas mãos (36)",
+      "idiom": "Meter os pés pelas mãos",
       "level": "A1",
       "meaning": "Agir com precipitação ou confusão",
       "example": "Na pressa de terminar, ele meteu os pés pelas mãos."
     },
     {
-      "idiom": "Chover no molhado (37)",
+      "idiom": "Chover no molhado",
       "level": "A2",
       "meaning": "Repetir algo óbvio ou inútil",
       "example": "Explicar isso para especialistas é chover no molhado."
     },
     {
-      "idiom": "Chutar o balde (38)",
+      "idiom": "Chutar o balde",
       "level": "B1",
       "meaning": "Desistir de tudo impacientemente",
       "example": "Cansado do estresse, ele chutou o balde e foi viajar."
     },
     {
-      "idiom": "Dar a volta por cima (39)",
+      "idiom": "Dar a volta por cima",
       "level": "B2",
       "meaning": "Superar uma grande adversidade",
       "example": "Após a crise, a empresa deu a volta por cima."
     },
     {
-      "idiom": "Pôr os pontos nos is (40)",
+      "idiom": "Pôr os pontos nos is",
       "level": "C1",
       "meaning": "Esclarecer todos os detalhes com precisão",
       "example": "A reunião serviu para pôr os pontos nos is."
     },
     {
-      "idiom": "Tudo bem (41)",
+      "idiom": "Tudo bem",
       "level": "C2",
       "meaning": "Everything is good / All fine",
       "example": "Olá! Tudo bem com você?"
     },
     {
-      "idiom": "Estar com a corda toda (42)",
+      "idiom": "Estar com a corda toda",
       "level": "A1",
       "meaning": "Estar cheio de energia e entusiasmo",
       "example": "As crianças estão com a corda toda hoje!"
     },
     {
-      "idiom": "Quebrar o galho (43)",
+      "idiom": "Quebrar o galho",
       "level": "A2",
       "meaning": "Resolver uma dificuldade de forma improvisada",
       "example": "Esse dicionário antigo vai quebrar o galho por enquanto."
     },
     {
-      "idiom": "Comprar gato por lebre (44)",
+      "idiom": "Comprar gato por lebre",
       "level": "B1",
       "meaning": "Ser enganado em uma compra",
       "example": "Cuidado para não comprar gato por lebre na internet."
     },
     {
-      "idiom": "Custar os olhos da cara (45)",
+      "idiom": "Custar os olhos da cara",
       "level": "B2",
       "meaning": "Ser extremamente caro",
       "example": "Aquela viagem para a Europa custou os olhos da cara."
     },
     {
-      "idiom": "Meter os pés pelas mãos (46)",
+      "idiom": "Meter os pés pelas mãos",
       "level": "C1",
       "meaning": "Agir com precipitação ou confusão",
       "example": "Na pressa de terminar, ele meteu os pés pelas mãos."
     },
     {
-      "idiom": "Chover no molhado (47)",
+      "idiom": "Chover no molhado",
       "level": "C2",
       "meaning": "Repetir algo óbvio ou inútil",
       "example": "Explicar isso para especialistas é chover no molhado."
     },
     {
-      "idiom": "Chutar o balde (48)",
+      "idiom": "Chutar o balde",
       "level": "A1",
       "meaning": "Desistir de tudo impacientemente",
       "example": "Cansado do estresse, ele chutou o balde e foi viajar."
     },
     {
-      "idiom": "Dar a volta por cima (49)",
+      "idiom": "Dar a volta por cima",
       "level": "A2",
       "meaning": "Superar uma grande adversidade",
       "example": "Após a crise, a empresa deu a volta por cima."
     },
     {
-      "idiom": "Pôr os pontos nos is (50)",
+      "idiom": "Pôr os pontos nos is",
       "level": "B1",
       "meaning": "Esclarecer todos os detalhes com precisão",
       "example": "A reunião serviu para pôr os pontos nos is."
     },
     {
-      "idiom": "Tudo bem (51)",
+      "idiom": "Tudo bem",
       "level": "B2",
       "meaning": "Everything is good / All fine",
       "example": "Olá! Tudo bem com você?"
     },
     {
-      "idiom": "Estar com a corda toda (52)",
+      "idiom": "Estar com a corda toda",
       "level": "C1",
       "meaning": "Estar cheio de energia e entusiasmo",
       "example": "As crianças estão com a corda toda hoje!"
     },
     {
-      "idiom": "Quebrar o galho (53)",
+      "idiom": "Quebrar o galho",
       "level": "C2",
       "meaning": "Resolver uma dificuldade de forma improvisada",
       "example": "Esse dicionário antigo vai quebrar o galho por enquanto."
     },
     {
-      "idiom": "Comprar gato por lebre (54)",
+      "idiom": "Comprar gato por lebre",
       "level": "A1",
       "meaning": "Ser enganado em uma compra",
       "example": "Cuidado para não comprar gato por lebre na internet."
     },
     {
-      "idiom": "Custar os olhos da cara (55)",
+      "idiom": "Custar os olhos da cara",
       "level": "A2",
       "meaning": "Ser extremamente caro",
       "example": "Aquela viagem para a Europa custou os olhos da cara."
     },
     {
-      "idiom": "Meter os pés pelas mãos (56)",
+      "idiom": "Meter os pés pelas mãos",
       "level": "B1",
       "meaning": "Agir com precipitação ou confusão",
       "example": "Na pressa de terminar, ele meteu os pés pelas mãos."
     },
     {
-      "idiom": "Chover no molhado (57)",
+      "idiom": "Chover no molhado",
       "level": "B2",
       "meaning": "Repetir algo óbvio ou inútil",
       "example": "Explicar isso para especialistas é chover no molhado."
     },
     {
-      "idiom": "Chutar o balde (58)",
+      "idiom": "Chutar o balde",
       "level": "C1",
       "meaning": "Desistir de tudo impacientemente",
       "example": "Cansado do estresse, ele chutou o balde e foi viajar."
     },
     {
-      "idiom": "Dar a volta por cima (59)",
+      "idiom": "Dar a volta por cima",
       "level": "C2",
       "meaning": "Superar uma grande adversidade",
       "example": "Após a crise, a empresa deu a volta por cima."
     },
     {
-      "idiom": "Pôr os pontos nos is (60)",
+      "idiom": "Pôr os pontos nos is",
       "level": "A1",
       "meaning": "Esclarecer todos os detalhes com precisão",
       "example": "A reunião serviu para pôr os pontos nos is."
     },
     {
-      "idiom": "Tudo bem (61)",
+      "idiom": "Tudo bem",
       "level": "A2",
       "meaning": "Everything is good / All fine",
       "example": "Olá! Tudo bem com você?"
     },
     {
-      "idiom": "Estar com a corda toda (62)",
+      "idiom": "Estar com a corda toda",
       "level": "B1",
       "meaning": "Estar cheio de energia e entusiasmo",
       "example": "As crianças estão com a corda toda hoje!"
     },
     {
-      "idiom": "Quebrar o galho (63)",
+      "idiom": "Quebrar o galho",
       "level": "B2",
       "meaning": "Resolver uma dificuldade de forma improvisada",
       "example": "Esse dicionário antigo vai quebrar o galho por enquanto."
     },
     {
-      "idiom": "Comprar gato por lebre (64)",
+      "idiom": "Comprar gato por lebre",
       "level": "C1",
       "meaning": "Ser enganado em uma compra",
       "example": "Cuidado para não comprar gato por lebre na internet."
     },
     {
-      "idiom": "Custar os olhos da cara (65)",
+      "idiom": "Custar os olhos da cara",
       "level": "C2",
       "meaning": "Ser extremamente caro",
       "example": "Aquela viagem para a Europa custou os olhos da cara."
     },
     {
-      "idiom": "Meter os pés pelas mãos (66)",
+      "idiom": "Meter os pés pelas mãos",
       "level": "A1",
       "meaning": "Agir com precipitação ou confusão",
       "example": "Na pressa de terminar, ele meteu os pés pelas mãos."
     },
     {
-      "idiom": "Chover no molhado (67)",
+      "idiom": "Chover no molhado",
       "level": "A2",
       "meaning": "Repetir algo óbvio ou inútil",
       "example": "Explicar isso para especialistas é chover no molhado."
     },
     {
-      "idiom": "Chutar o balde (68)",
+      "idiom": "Chutar o balde",
       "level": "B1",
       "meaning": "Desistir de tudo impacientemente",
       "example": "Cansado do estresse, ele chutou o balde e foi viajar."
     },
     {
-      "idiom": "Dar a volta por cima (69)",
+      "idiom": "Dar a volta por cima",
       "level": "B2",
       "meaning": "Superar uma grande adversidade",
       "example": "Após a crise, a empresa deu a volta por cima."
     },
     {
-      "idiom": "Pôr os pontos nos is (70)",
+      "idiom": "Pôr os pontos nos is",
       "level": "C1",
       "meaning": "Esclarecer todos os detalhes com precisão",
       "example": "A reunião serviu para pôr os pontos nos is."
     },
     {
-      "idiom": "Tudo bem (71)",
+      "idiom": "Tudo bem",
       "level": "C2",
       "meaning": "Everything is good / All fine",
       "example": "Olá! Tudo bem com você?"
     },
     {
-      "idiom": "Estar com a corda toda (72)",
+      "idiom": "Estar com a corda toda",
       "level": "A1",
       "meaning": "Estar cheio de energia e entusiasmo",
       "example": "As crianças estão com a corda toda hoje!"
     },
     {
-      "idiom": "Quebrar o galho (73)",
+      "idiom": "Quebrar o galho",
       "level": "A2",
       "meaning": "Resolver uma dificuldade de forma improvisada",
       "example": "Esse dicionário antigo vai quebrar o galho por enquanto."
     },
     {
-      "idiom": "Comprar gato por lebre (74)",
+      "idiom": "Comprar gato por lebre",
       "level": "B1",
       "meaning": "Ser enganado em uma compra",
       "example": "Cuidado para não comprar gato por lebre na internet."
     },
     {
-      "idiom": "Custar os olhos da cara (75)",
+      "idiom": "Custar os olhos da cara",
       "level": "B2",
       "meaning": "Ser extremamente caro",
       "example": "Aquela viagem para a Europa custou os olhos da cara."
     },
     {
-      "idiom": "Meter os pés pelas mãos (76)",
+      "idiom": "Meter os pés pelas mãos",
       "level": "C1",
       "meaning": "Agir com precipitação ou confusão",
       "example": "Na pressa de terminar, ele meteu os pés pelas mãos."
     },
     {
-      "idiom": "Chover no molhado (77)",
+      "idiom": "Chover no molhado",
       "level": "C2",
       "meaning": "Repetir algo óbvio ou inútil",
       "example": "Explicar isso para especialistas é chover no molhado."
     },
     {
-      "idiom": "Chutar o balde (78)",
+      "idiom": "Chutar o balde",
       "level": "A1",
       "meaning": "Desistir de tudo impacientemente",
       "example": "Cansado do estresse, ele chutou o balde e foi viajar."
     },
     {
-      "idiom": "Dar a volta por cima (79)",
+      "idiom": "Dar a volta por cima",
       "level": "A2",
       "meaning": "Superar uma grande adversidade",
       "example": "Após a crise, a empresa deu a volta por cima."
     },
     {
-      "idiom": "Pôr os pontos nos is (80)",
+      "idiom": "Pôr os pontos nos is",
       "level": "B1",
       "meaning": "Esclarecer todos os detalhes com precisão",
       "example": "A reunião serviu para pôr os pontos nos is."
     },
     {
-      "idiom": "Tudo bem (81)",
+      "idiom": "Tudo bem",
       "level": "B2",
       "meaning": "Everything is good / All fine",
       "example": "Olá! Tudo bem com você?"
     },
     {
-      "idiom": "Estar com a corda toda (82)",
+      "idiom": "Estar com a corda toda",
       "level": "C1",
       "meaning": "Estar cheio de energia e entusiasmo",
       "example": "As crianças estão com a corda toda hoje!"
     },
     {
-      "idiom": "Quebrar o galho (83)",
+      "idiom": "Quebrar o galho",
       "level": "C2",
       "meaning": "Resolver uma dificuldade de forma improvisada",
       "example": "Esse dicionário antigo vai quebrar o galho por enquanto."
     },
     {
-      "idiom": "Comprar gato por lebre (84)",
+      "idiom": "Comprar gato por lebre",
       "level": "A1",
       "meaning": "Ser enganado em uma compra",
       "example": "Cuidado para não comprar gato por lebre na internet."
     },
     {
-      "idiom": "Custar os olhos da cara (85)",
+      "idiom": "Custar os olhos da cara",
       "level": "A2",
       "meaning": "Ser extremamente caro",
       "example": "Aquela viagem para a Europa custou os olhos da cara."
     },
     {
-      "idiom": "Meter os pés pelas mãos (86)",
+      "idiom": "Meter os pés pelas mãos",
       "level": "B1",
       "meaning": "Agir com precipitação ou confusão",
       "example": "Na pressa de terminar, ele meteu os pés pelas mãos."
     },
     {
-      "idiom": "Chover no molhado (87)",
+      "idiom": "Chover no molhado",
       "level": "B2",
       "meaning": "Repetir algo óbvio ou inútil",
       "example": "Explicar isso para especialistas é chover no molhado."
     },
     {
-      "idiom": "Chutar o balde (88)",
+      "idiom": "Chutar o balde",
       "level": "C1",
       "meaning": "Desistir de tudo impacientemente",
       "example": "Cansado do estresse, ele chutou o balde e foi viajar."
     },
     {
-      "idiom": "Dar a volta por cima (89)",
+      "idiom": "Dar a volta por cima",
       "level": "C2",
       "meaning": "Superar uma grande adversidade",
       "example": "Após a crise, a empresa deu a volta por cima."
     },
     {
-      "idiom": "Pôr os pontos nos is (90)",
+      "idiom": "Pôr os pontos nos is",
       "level": "A1",
       "meaning": "Esclarecer todos os detalhes com precisão",
       "example": "A reunião serviu para pôr os pontos nos is."
@@ -5562,541 +5562,541 @@ window.COSY_DAILY_IDIOMS = {
       "example": "Նա չափազանց երկարացրել է լեզուն։"
     },
     {
-      "idiom": "Ամեն ինչ լավ է (1)",
+      "idiom": "Ամեն ինչ լավ է",
       "level": "A2",
       "meaning": "Everything is fine",
       "example": "Ինչպե՞ս ես։ — Ամեն ինչ լավ է։"
     },
     {
-      "idiom": "Գլուխս տարար (2)",
+      "idiom": "Գլուխս տարար",
       "level": "B1",
       "meaning": "You gave me a headache / Talked too much",
       "example": "Այնքան խոսեցիր, որ գլուխս տարար։"
     },
     {
-      "idiom": "Սառույցը կոտրել (3)",
+      "idiom": "Սառույցը կոտրել",
       "level": "B2",
       "meaning": "Break the ice in conversation",
       "example": "Մեր զրույցն օգնեց կոտրել սառույցը։"
     },
     {
-      "idiom": "Ձեռք մեկնել (4)",
+      "idiom": "Ձեռք մեկնել",
       "level": "C1",
       "meaning": "Lend a helping hand",
       "example": "Դժվար պահին նա միշտ պատրաստ է ձեռք մեկնել։"
     },
     {
-      "idiom": "Քթից բռնած տանել (5)",
+      "idiom": "Քթից բռնած տանել",
       "level": "C2",
       "meaning": "Lead someone around by the nose",
       "example": "Մի թույլ տուր, որ քեզ քթից բռնած տանեն։"
     },
     {
-      "idiom": "Լեզուն կուլ տալ (6)",
+      "idiom": "Լեզուն կուլ տալ",
       "level": "A1",
       "meaning": "Remain silent / Cat got your tongue",
       "example": "Ինչո՞ւ ես լռում, լեզուդ կուլ ես տվել։"
     },
     {
-      "idiom": "Մեկ քարով երկու ճանճ սպանել (7)",
+      "idiom": "Մեկ քարով երկու ճանճ սպանել",
       "level": "A2",
       "meaning": "Kill two birds with one stone",
       "example": "Գնացի քաղաք և լուծեցի երկու հարց՝ մեկ քարով երկու ճանճ սպանելով։"
     },
     {
-      "idiom": "Ականջի ետև գցել (8)",
+      "idiom": "Ականջի ետև գցել",
       "level": "B1",
       "meaning": "Ignore advice or warning",
       "example": "Նա իմ խորհուրդը ականջի ետև գցեց։"
     },
     {
-      "idiom": "Սիրտ տալ (9)",
+      "idiom": "Սիրտ տալ",
       "level": "B2",
       "meaning": "Encourage someone in adversity",
       "example": "Ընկերները նրան սիրտ տվեցին փորձության պահին։"
     },
     {
-      "idiom": "Լեզուն երկարացնել (10)",
+      "idiom": "Լեզուն երկարացնել",
       "level": "C1",
       "meaning": "Become impudent in speech",
       "example": "Նա չափազանց երկարացրել է լեզուն։"
     },
     {
-      "idiom": "Ամեն ինչ լավ է (11)",
+      "idiom": "Ամեն ինչ լավ է",
       "level": "C2",
       "meaning": "Everything is fine",
       "example": "Ինչպե՞ս ես։ — Ամեն ինչ լավ է։"
     },
     {
-      "idiom": "Գլուխս տարար (12)",
+      "idiom": "Գլուխս տարար",
       "level": "A1",
       "meaning": "You gave me a headache / Talked too much",
       "example": "Այնքան խոսեցիր, որ գլուխս տարար։"
     },
     {
-      "idiom": "Սառույցը կոտրել (13)",
+      "idiom": "Սառույցը կոտրել",
       "level": "A2",
       "meaning": "Break the ice in conversation",
       "example": "Մեր զրույցն օգնեց կոտրել սառույցը։"
     },
     {
-      "idiom": "Ձեռք մեկնել (14)",
+      "idiom": "Ձեռք մեկնել",
       "level": "B1",
       "meaning": "Lend a helping hand",
       "example": "Դժվար պահին նա միշտ պատրաստ է ձեռք մեկնել։"
     },
     {
-      "idiom": "Քթից բռնած տանել (15)",
+      "idiom": "Քթից բռնած տանել",
       "level": "B2",
       "meaning": "Lead someone around by the nose",
       "example": "Մի թույլ տուր, որ քեզ քթից բռնած տանեն։"
     },
     {
-      "idiom": "Լեզուն կուլ տալ (16)",
+      "idiom": "Լեզուն կուլ տալ",
       "level": "C1",
       "meaning": "Remain silent / Cat got your tongue",
       "example": "Ինչո՞ւ ես լռում, լեզուդ կուլ ես տվել։"
     },
     {
-      "idiom": "Մեկ քարով երկու ճանճ սպանել (17)",
+      "idiom": "Մեկ քարով երկու ճանճ սպանել",
       "level": "C2",
       "meaning": "Kill two birds with one stone",
       "example": "Գնացի քաղաք և լուծեցի երկու հարց՝ մեկ քարով երկու ճանճ սպանելով։"
     },
     {
-      "idiom": "Ականջի ետև գցել (18)",
+      "idiom": "Ականջի ետև գցել",
       "level": "A1",
       "meaning": "Ignore advice or warning",
       "example": "Նա իմ խորհուրդը ականջի ետև գցեց։"
     },
     {
-      "idiom": "Սիրտ տալ (19)",
+      "idiom": "Սիրտ տալ",
       "level": "A2",
       "meaning": "Encourage someone in adversity",
       "example": "Ընկերները նրան սիրտ տվեցին փորձության պահին։"
     },
     {
-      "idiom": "Լեզուն երկարացնել (20)",
+      "idiom": "Լեզուն երկարացնել",
       "level": "B1",
       "meaning": "Become impudent in speech",
       "example": "Նա չափազանց երկարացրել է լեզուն։"
     },
     {
-      "idiom": "Ամեն ինչ լավ է (21)",
+      "idiom": "Ամեն ինչ լավ է",
       "level": "B2",
       "meaning": "Everything is fine",
       "example": "Ինչպե՞ս ես։ — Ամեն ինչ լավ է։"
     },
     {
-      "idiom": "Գլուխս տարար (22)",
+      "idiom": "Գլուխս տարար",
       "level": "C1",
       "meaning": "You gave me a headache / Talked too much",
       "example": "Այնքան խոսեցիր, որ գլուխս տարար։"
     },
     {
-      "idiom": "Սառույցը կոտրել (23)",
+      "idiom": "Սառույցը կոտրել",
       "level": "C2",
       "meaning": "Break the ice in conversation",
       "example": "Մեր զրույցն օգնեց կոտրել սառույցը։"
     },
     {
-      "idiom": "Ձեռք մեկնել (24)",
+      "idiom": "Ձեռք մեկնել",
       "level": "A1",
       "meaning": "Lend a helping hand",
       "example": "Դժվար պահին նա միշտ պատրաստ է ձեռք մեկնել։"
     },
     {
-      "idiom": "Քթից բռնած տանել (25)",
+      "idiom": "Քթից բռնած տանել",
       "level": "A2",
       "meaning": "Lead someone around by the nose",
       "example": "Մի թույլ տուր, որ քեզ քթից բռնած տանեն։"
     },
     {
-      "idiom": "Լեզուն կուլ տալ (26)",
+      "idiom": "Լեզուն կուլ տալ",
       "level": "B1",
       "meaning": "Remain silent / Cat got your tongue",
       "example": "Ինչո՞ւ ես լռում, լեզուդ կուլ ես տվել։"
     },
     {
-      "idiom": "Մեկ քարով երկու ճանճ սպանել (27)",
+      "idiom": "Մեկ քարով երկու ճանճ սպանել",
       "level": "B2",
       "meaning": "Kill two birds with one stone",
       "example": "Գնացի քաղաք և լուծեցի երկու հարց՝ մեկ քարով երկու ճանճ սպանելով։"
     },
     {
-      "idiom": "Ականջի ետև գցել (28)",
+      "idiom": "Ականջի ետև գցել",
       "level": "C1",
       "meaning": "Ignore advice or warning",
       "example": "Նա իմ խորհուրդը ականջի ետև գցեց։"
     },
     {
-      "idiom": "Սիրտ տալ (29)",
+      "idiom": "Սիրտ տալ",
       "level": "C2",
       "meaning": "Encourage someone in adversity",
       "example": "Ընկերները նրան սիրտ տվեցին փորձության պահին։"
     },
     {
-      "idiom": "Լեզուն երկարացնել (30)",
+      "idiom": "Լեզուն երկարացնել",
       "level": "A1",
       "meaning": "Become impudent in speech",
       "example": "Նա չափազանց երկարացրել է լեզուն։"
     },
     {
-      "idiom": "Ամեն ինչ լավ է (31)",
+      "idiom": "Ամեն ինչ լավ է",
       "level": "A2",
       "meaning": "Everything is fine",
       "example": "Ինչպե՞ս ես։ — Ամեն ինչ լավ է։"
     },
     {
-      "idiom": "Գլուխս տարար (32)",
+      "idiom": "Գլուխս տարար",
       "level": "B1",
       "meaning": "You gave me a headache / Talked too much",
       "example": "Այնքան խոսեցիր, որ գլուխս տարար։"
     },
     {
-      "idiom": "Սառույցը կոտրել (33)",
+      "idiom": "Սառույցը կոտրել",
       "level": "B2",
       "meaning": "Break the ice in conversation",
       "example": "Մեր զրույցն օգնեց կոտրել սառույցը։"
     },
     {
-      "idiom": "Ձեռք մեկնել (34)",
+      "idiom": "Ձեռք մեկնել",
       "level": "C1",
       "meaning": "Lend a helping hand",
       "example": "Դժվար պահին նա միշտ պատրաստ է ձեռք մեկնել։"
     },
     {
-      "idiom": "Քթից բռնած տանել (35)",
+      "idiom": "Քթից բռնած տանել",
       "level": "C2",
       "meaning": "Lead someone around by the nose",
       "example": "Մի թույլ տուր, որ քեզ քթից բռնած տանեն։"
     },
     {
-      "idiom": "Լեզուն կուլ տալ (36)",
+      "idiom": "Լեզուն կուլ տալ",
       "level": "A1",
       "meaning": "Remain silent / Cat got your tongue",
       "example": "Ինչո՞ւ ես լռում, լեզուդ կուլ ես տվել։"
     },
     {
-      "idiom": "Մեկ քարով երկու ճանճ սպանել (37)",
+      "idiom": "Մեկ քարով երկու ճանճ սպանել",
       "level": "A2",
       "meaning": "Kill two birds with one stone",
       "example": "Գնացի քաղաք և լուծեցի երկու հարց՝ մեկ քարով երկու ճանճ սպանելով։"
     },
     {
-      "idiom": "Ականջի ետև գցել (38)",
+      "idiom": "Ականջի ետև գցել",
       "level": "B1",
       "meaning": "Ignore advice or warning",
       "example": "Նա իմ խորհուրդը ականջի ետև գցեց։"
     },
     {
-      "idiom": "Սիրտ տալ (39)",
+      "idiom": "Սիրտ տալ",
       "level": "B2",
       "meaning": "Encourage someone in adversity",
       "example": "Ընկերները նրան սիրտ տվեցին փորձության պահին։"
     },
     {
-      "idiom": "Լեզուն երկարացնել (40)",
+      "idiom": "Լեզուն երկարացնել",
       "level": "C1",
       "meaning": "Become impudent in speech",
       "example": "Նա չափազանց երկարացրել է լեզուն։"
     },
     {
-      "idiom": "Ամեն ինչ լավ է (41)",
+      "idiom": "Ամեն ինչ լավ է",
       "level": "C2",
       "meaning": "Everything is fine",
       "example": "Ինչպե՞ս ես։ — Ամեն ինչ լավ է։"
     },
     {
-      "idiom": "Գլուխս տարար (42)",
+      "idiom": "Գլուխս տարար",
       "level": "A1",
       "meaning": "You gave me a headache / Talked too much",
       "example": "Այնքան խոսեցիր, որ գլուխս տարար։"
     },
     {
-      "idiom": "Սառույցը կոտրել (43)",
+      "idiom": "Սառույցը կոտրել",
       "level": "A2",
       "meaning": "Break the ice in conversation",
       "example": "Մեր զրույցն օգնեց կոտրել սառույցը։"
     },
     {
-      "idiom": "Ձեռք մեկնել (44)",
+      "idiom": "Ձեռք մեկնել",
       "level": "B1",
       "meaning": "Lend a helping hand",
       "example": "Դժվար պահին նա միշտ պատրաստ է ձեռք մեկնել։"
     },
     {
-      "idiom": "Քթից բռնած տանել (45)",
+      "idiom": "Քթից բռնած տանել",
       "level": "B2",
       "meaning": "Lead someone around by the nose",
       "example": "Մի թույլ տուր, որ քեզ քթից բռնած տանեն։"
     },
     {
-      "idiom": "Լեզուն կուլ տալ (46)",
+      "idiom": "Լեզուն կուլ տալ",
       "level": "C1",
       "meaning": "Remain silent / Cat got your tongue",
       "example": "Ինչո՞ւ ես լռում, լեզուդ կուլ ես տվել։"
     },
     {
-      "idiom": "Մեկ քարով երկու ճանճ սպանել (47)",
+      "idiom": "Մեկ քարով երկու ճանճ սպանել",
       "level": "C2",
       "meaning": "Kill two birds with one stone",
       "example": "Գնացի քաղաք և լուծեցի երկու հարց՝ մեկ քարով երկու ճանճ սպանելով։"
     },
     {
-      "idiom": "Ականջի ետև գցել (48)",
+      "idiom": "Ականջի ետև գցել",
       "level": "A1",
       "meaning": "Ignore advice or warning",
       "example": "Նա իմ խորհուրդը ականջի ետև գցեց։"
     },
     {
-      "idiom": "Սիրտ տալ (49)",
+      "idiom": "Սիրտ տալ",
       "level": "A2",
       "meaning": "Encourage someone in adversity",
       "example": "Ընկերները նրան սիրտ տվեցին փորձության պահին։"
     },
     {
-      "idiom": "Լեզուն երկարացնել (50)",
+      "idiom": "Լեզուն երկարացնել",
       "level": "B1",
       "meaning": "Become impudent in speech",
       "example": "Նա չափազանց երկարացրել է լեզուն։"
     },
     {
-      "idiom": "Ամեն ինչ լավ է (51)",
+      "idiom": "Ամեն ինչ լավ է",
       "level": "B2",
       "meaning": "Everything is fine",
       "example": "Ինչպե՞ս ես։ — Ամեն ինչ լավ է։"
     },
     {
-      "idiom": "Գլուխս տարար (52)",
+      "idiom": "Գլուխս տարար",
       "level": "C1",
       "meaning": "You gave me a headache / Talked too much",
       "example": "Այնքան խոսեցիր, որ գլուխս տարար։"
     },
     {
-      "idiom": "Սառույցը կոտրել (53)",
+      "idiom": "Սառույցը կոտրել",
       "level": "C2",
       "meaning": "Break the ice in conversation",
       "example": "Մեր զրույցն օգնեց կոտրել սառույցը։"
     },
     {
-      "idiom": "Ձեռք մեկնել (54)",
+      "idiom": "Ձեռք մեկնել",
       "level": "A1",
       "meaning": "Lend a helping hand",
       "example": "Դժվար պահին նա միշտ պատրաստ է ձեռք մեկնել։"
     },
     {
-      "idiom": "Քթից բռնած տանել (55)",
+      "idiom": "Քթից բռնած տանել",
       "level": "A2",
       "meaning": "Lead someone around by the nose",
       "example": "Մի թույլ տուր, որ քեզ քթից բռնած տանեն։"
     },
     {
-      "idiom": "Լեզուն կուլ տալ (56)",
+      "idiom": "Լեզուն կուլ տալ",
       "level": "B1",
       "meaning": "Remain silent / Cat got your tongue",
       "example": "Ինչո՞ւ ես լռում, լեզուդ կուլ ես տվել։"
     },
     {
-      "idiom": "Մեկ քարով երկու ճանճ սպանել (57)",
+      "idiom": "Մեկ քարով երկու ճանճ սպանել",
       "level": "B2",
       "meaning": "Kill two birds with one stone",
       "example": "Գնացի քաղաք և լուծեցի երկու հարց՝ մեկ քարով երկու ճանճ սպանելով։"
     },
     {
-      "idiom": "Ականջի ետև գցել (58)",
+      "idiom": "Ականջի ետև գցել",
       "level": "C1",
       "meaning": "Ignore advice or warning",
       "example": "Նա իմ խորհուրդը ականջի ետև գցեց։"
     },
     {
-      "idiom": "Սիրտ տալ (59)",
+      "idiom": "Սիրտ տալ",
       "level": "C2",
       "meaning": "Encourage someone in adversity",
       "example": "Ընկերները նրան սիրտ տվեցին փորձության պահին։"
     },
     {
-      "idiom": "Լեզուն երկարացնել (60)",
+      "idiom": "Լեզուն երկարացնել",
       "level": "A1",
       "meaning": "Become impudent in speech",
       "example": "Նա չափազանց երկարացրել է լեզուն։"
     },
     {
-      "idiom": "Ամեն ինչ լավ է (61)",
+      "idiom": "Ամեն ինչ լավ է",
       "level": "A2",
       "meaning": "Everything is fine",
       "example": "Ինչպե՞ս ես։ — Ամեն ինչ լավ է։"
     },
     {
-      "idiom": "Գլուխս տարար (62)",
+      "idiom": "Գլուխս տարար",
       "level": "B1",
       "meaning": "You gave me a headache / Talked too much",
       "example": "Այնքան խոսեցիր, որ գլուխս տարար։"
     },
     {
-      "idiom": "Սառույցը կոտրել (63)",
+      "idiom": "Սառույցը կոտրել",
       "level": "B2",
       "meaning": "Break the ice in conversation",
       "example": "Մեր զրույցն օգնեց կոտրել սառույցը։"
     },
     {
-      "idiom": "Ձեռք մեկնել (64)",
+      "idiom": "Ձեռք մեկնել",
       "level": "C1",
       "meaning": "Lend a helping hand",
       "example": "Դժվար պահին նա միշտ պատրաստ է ձեռք մեկնել։"
     },
     {
-      "idiom": "Քթից բռնած տանել (65)",
+      "idiom": "Քթից բռնած տանել",
       "level": "C2",
       "meaning": "Lead someone around by the nose",
       "example": "Մի թույլ տուր, որ քեզ քթից բռնած տանեն։"
     },
     {
-      "idiom": "Լեզուն կուլ տալ (66)",
+      "idiom": "Լեզուն կուլ տալ",
       "level": "A1",
       "meaning": "Remain silent / Cat got your tongue",
       "example": "Ինչո՞ւ ես լռում, լեզուդ կուլ ես տվել։"
     },
     {
-      "idiom": "Մեկ քարով երկու ճանճ սպանել (67)",
+      "idiom": "Մեկ քարով երկու ճանճ սպանել",
       "level": "A2",
       "meaning": "Kill two birds with one stone",
       "example": "Գնացի քաղաք և լուծեցի երկու հարց՝ մեկ քարով երկու ճանճ սպանելով։"
     },
     {
-      "idiom": "Ականջի ետև գցել (68)",
+      "idiom": "Ականջի ետև գցել",
       "level": "B1",
       "meaning": "Ignore advice or warning",
       "example": "Նա իմ խորհուրդը ականջի ետև գցեց։"
     },
     {
-      "idiom": "Սիրտ տալ (69)",
+      "idiom": "Սիրտ տալ",
       "level": "B2",
       "meaning": "Encourage someone in adversity",
       "example": "Ընկերները նրան սիրտ տվեցին փորձության պահին։"
     },
     {
-      "idiom": "Լեզուն երկարացնել (70)",
+      "idiom": "Լեզուն երկարացնել",
       "level": "C1",
       "meaning": "Become impudent in speech",
       "example": "Նա չափազանց երկարացրել է լեզուն։"
     },
     {
-      "idiom": "Ամեն ինչ լավ է (71)",
+      "idiom": "Ամեն ինչ լավ է",
       "level": "C2",
       "meaning": "Everything is fine",
       "example": "Ինչպե՞ս ես։ — Ամեն ինչ լավ է։"
     },
     {
-      "idiom": "Գլուխս տարար (72)",
+      "idiom": "Գլուխս տարար",
       "level": "A1",
       "meaning": "You gave me a headache / Talked too much",
       "example": "Այնքան խոսեցիր, որ գլուխս տարար։"
     },
     {
-      "idiom": "Սառույցը կոտրել (73)",
+      "idiom": "Սառույցը կոտրել",
       "level": "A2",
       "meaning": "Break the ice in conversation",
       "example": "Մեր զրույցն օգնեց կոտրել սառույցը։"
     },
     {
-      "idiom": "Ձեռք մեկնել (74)",
+      "idiom": "Ձեռք մեկնել",
       "level": "B1",
       "meaning": "Lend a helping hand",
       "example": "Դժվար պահին նա միշտ պատրաստ է ձեռք մեկնել։"
     },
     {
-      "idiom": "Քթից բռնած տանել (75)",
+      "idiom": "Քթից բռնած տանել",
       "level": "B2",
       "meaning": "Lead someone around by the nose",
       "example": "Մի թույլ տուր, որ քեզ քթից բռնած տանեն։"
     },
     {
-      "idiom": "Լեզուն կուլ տալ (76)",
+      "idiom": "Լեզուն կուլ տալ",
       "level": "C1",
       "meaning": "Remain silent / Cat got your tongue",
       "example": "Ինչո՞ւ ես լռում, լեզուդ կուլ ես տվել։"
     },
     {
-      "idiom": "Մեկ քարով երկու ճանճ սպանել (77)",
+      "idiom": "Մեկ քարով երկու ճանճ սպանել",
       "level": "C2",
       "meaning": "Kill two birds with one stone",
       "example": "Գնացի քաղաք և լուծեցի երկու հարց՝ մեկ քարով երկու ճանճ սպանելով։"
     },
     {
-      "idiom": "Ականջի ետև գցել (78)",
+      "idiom": "Ականջի ետև գցել",
       "level": "A1",
       "meaning": "Ignore advice or warning",
       "example": "Նա իմ խորհուրդը ականջի ետև գցեց։"
     },
     {
-      "idiom": "Սիրտ տալ (79)",
+      "idiom": "Սիրտ տալ",
       "level": "A2",
       "meaning": "Encourage someone in adversity",
       "example": "Ընկերները նրան սիրտ տվեցին փորձության պահին։"
     },
     {
-      "idiom": "Լեզուն երկարացնել (80)",
+      "idiom": "Լեզուն երկարացնել",
       "level": "B1",
       "meaning": "Become impudent in speech",
       "example": "Նա չափազանց երկարացրել է լեզուն։"
     },
     {
-      "idiom": "Ամեն ինչ լավ է (81)",
+      "idiom": "Ամեն ինչ լավ է",
       "level": "B2",
       "meaning": "Everything is fine",
       "example": "Ինչպե՞ս ես։ — Ամեն ինչ լավ է։"
     },
     {
-      "idiom": "Գլուխս տարար (82)",
+      "idiom": "Գլուխս տարար",
       "level": "C1",
       "meaning": "You gave me a headache / Talked too much",
       "example": "Այնքան խոսեցիր, որ գլուխս տարար։"
     },
     {
-      "idiom": "Սառույցը կոտրել (83)",
+      "idiom": "Սառույցը կոտրել",
       "level": "C2",
       "meaning": "Break the ice in conversation",
       "example": "Մեր զրույցն օգնեց կոտրել սառույցը։"
     },
     {
-      "idiom": "Ձեռք մեկնել (84)",
+      "idiom": "Ձեռք մեկնել",
       "level": "A1",
       "meaning": "Lend a helping hand",
       "example": "Դժվար պահին նա միշտ պատրաստ է ձեռք մեկնել։"
     },
     {
-      "idiom": "Քթից բռնած տանել (85)",
+      "idiom": "Քթից բռնած տանել",
       "level": "A2",
       "meaning": "Lead someone around by the nose",
       "example": "Մի թույլ տուր, որ քեզ քթից բռնած տանեն։"
     },
     {
-      "idiom": "Լեզուն կուլ տալ (86)",
+      "idiom": "Լեզուն կուլ տալ",
       "level": "B1",
       "meaning": "Remain silent / Cat got your tongue",
       "example": "Ինչո՞ւ ես լռում, լեզուդ կուլ ես տվել։"
     },
     {
-      "idiom": "Մեկ քարով երկու ճանճ սպանել (87)",
+      "idiom": "Մեկ քարով երկու ճանճ սպանել",
       "level": "B2",
       "meaning": "Kill two birds with one stone",
       "example": "Գնացի քաղաք և լուծեցի երկու հարց՝ մեկ քարով երկու ճանճ սպանելով։"
     },
     {
-      "idiom": "Ականջի ետև գցել (88)",
+      "idiom": "Ականջի ետև գցել",
       "level": "C1",
       "meaning": "Ignore advice or warning",
       "example": "Նա իմ խորհուրդը ականջի ետև գցեց։"
     },
     {
-      "idiom": "Սիրտ տալ (89)",
+      "idiom": "Սիրտ տալ",
       "level": "C2",
       "meaning": "Encourage someone in adversity",
       "example": "Ընկերները նրան սիրտ տվեցին փորձության պահին։"
     },
     {
-      "idiom": "Լեզուն երկարացնել (90)",
+      "idiom": "Լեզուն երկարացնել",
       "level": "A1",
       "meaning": "Become impudent in speech",
       "example": "Նա չափազանց երկարացրել է լեզուն։"
@@ -6164,541 +6164,541 @@ window.COSY_DAILY_IDIOMS = {
       "example": "ამ საქმეში მთელი სული და გული ჩადო."
     },
     {
-      "idiom": "ყველაფერი კარგადაა (1)",
+      "idiom": "ყველაფერი კარგადაა",
       "level": "A2",
       "meaning": "Everything is well",
       "example": "როგორ ხარ? — ყველაფერი კარგადაა!"
     },
     {
-      "idiom": "თვალის დახუჭვა (2)",
+      "idiom": "თვალის დახუჭვა",
       "level": "B1",
       "meaning": "Turn a blind eye to something",
       "example": "მცირე შეცდომაზე თვალი დახუჭა."
     },
     {
-      "idiom": "ყინულის გატეხვა (3)",
+      "idiom": "ყინულის გატეხვა",
       "level": "B2",
       "meaning": "Break the ice in a social meeting",
       "example": "ხუმრობამ ხელი შეუწყო ყინულის გატეხვას."
     },
     {
-      "idiom": "ხელის გაწვდენა (4)",
+      "idiom": "ხელის გაწვდენა",
       "level": "C1",
       "meaning": "Lend a helping hand",
       "example": "მეგობარს გაჭირვებაში ხელი გაუწოდა."
     },
     {
-      "idiom": "თვალის ახვევა (5)",
+      "idiom": "თვალის ახვევა",
       "level": "C2",
       "meaning": "Deceive or pull wool over eyes",
       "example": "ნუ ცდილობ თვალის ახვევას, სიმართლე ვიცი."
     },
     {
-      "idiom": "ენის ჩაკბეჩა (6)",
+      "idiom": "ენის ჩაკბეჩა",
       "level": "A1",
       "meaning": "Hold one's tongue",
       "example": "დროზე ჩაიკბინა ენა და ზედმეტი არ თქვა."
     },
     {
-      "idiom": "ერთი გასროლით ორი კურდღლის დაჭერა (7)",
+      "idiom": "ერთი გასროლით ორი კურდღლის დაჭერა",
       "level": "A2",
       "meaning": "Kill two birds with one stone",
       "example": "ქალაქში წასვლით ორი საქმე მოვაგვარე: ერთი გასროლით ორი კურდღელი დავიჭირე."
     },
     {
-      "idiom": "თავზე ხელის აღება (8)",
+      "idiom": "თავზე ხელის აღება",
       "level": "B1",
       "meaning": "Act recklessly / Desperately",
       "example": "ისე იყო განრისხებული, რომ თავზე ხელი აიღო."
     },
     {
-      "idiom": "გულის მოგება (9)",
+      "idiom": "გულის მოგება",
       "level": "B2",
       "meaning": "Win someone's heart / favor",
       "example": "თავისი პატიოსნებით ყველას გული მოიგო."
     },
     {
-      "idiom": "სულის ჩადგმა (10)",
+      "idiom": "სულის ჩადგმა",
       "level": "C1",
       "meaning": "Put one's heart and soul into a project",
       "example": "ამ საქმეში მთელი სული და გული ჩადო."
     },
     {
-      "idiom": "ყველაფერი კარგადაა (11)",
+      "idiom": "ყველაფერი კარგადაა",
       "level": "C2",
       "meaning": "Everything is well",
       "example": "როგორ ხარ? — ყველაფერი კარგადაა!"
     },
     {
-      "idiom": "თვალის დახუჭვა (12)",
+      "idiom": "თვალის დახუჭვა",
       "level": "A1",
       "meaning": "Turn a blind eye to something",
       "example": "მცირე შეცდომაზე თვალი დახუჭა."
     },
     {
-      "idiom": "ყინულის გატეხვა (13)",
+      "idiom": "ყინულის გატეხვა",
       "level": "A2",
       "meaning": "Break the ice in a social meeting",
       "example": "ხუმრობამ ხელი შეუწყო ყინულის გატეხვას."
     },
     {
-      "idiom": "ხელის გაწვდენა (14)",
+      "idiom": "ხელის გაწვდენა",
       "level": "B1",
       "meaning": "Lend a helping hand",
       "example": "მეგობარს გაჭირვებაში ხელი გაუწოდა."
     },
     {
-      "idiom": "თვალის ახვევა (15)",
+      "idiom": "თვალის ახვევა",
       "level": "B2",
       "meaning": "Deceive or pull wool over eyes",
       "example": "ნუ ცდილობ თვალის ახვევას, სიმართლე ვიცი."
     },
     {
-      "idiom": "ენის ჩაკბეჩა (16)",
+      "idiom": "ენის ჩაკბეჩა",
       "level": "C1",
       "meaning": "Hold one's tongue",
       "example": "დროზე ჩაიკბინა ენა და ზედმეტი არ თქვა."
     },
     {
-      "idiom": "ერთი გასროლით ორი კურდღლის დაჭერა (17)",
+      "idiom": "ერთი გასროლით ორი კურდღლის დაჭერა",
       "level": "C2",
       "meaning": "Kill two birds with one stone",
       "example": "ქალაქში წასვლით ორი საქმე მოვაგვარე: ერთი გასროლით ორი კურდღელი დავიჭირე."
     },
     {
-      "idiom": "თავზე ხელის აღება (18)",
+      "idiom": "თავზე ხელის აღება",
       "level": "A1",
       "meaning": "Act recklessly / Desperately",
       "example": "ისე იყო განრისხებული, რომ თავზე ხელი აიღო."
     },
     {
-      "idiom": "გულის მოგება (19)",
+      "idiom": "გულის მოგება",
       "level": "A2",
       "meaning": "Win someone's heart / favor",
       "example": "თავისი პატიოსნებით ყველას გული მოიგო."
     },
     {
-      "idiom": "სულის ჩადგმა (20)",
+      "idiom": "სულის ჩადგმა",
       "level": "B1",
       "meaning": "Put one's heart and soul into a project",
       "example": "ამ საქმეში მთელი სული და გული ჩადო."
     },
     {
-      "idiom": "ყველაფერი კარგადაა (21)",
+      "idiom": "ყველაფერი კარგადაა",
       "level": "B2",
       "meaning": "Everything is well",
       "example": "როგორ ხარ? — ყველაფერი კარგადაა!"
     },
     {
-      "idiom": "თვალის დახუჭვა (22)",
+      "idiom": "თვალის დახუჭვა",
       "level": "C1",
       "meaning": "Turn a blind eye to something",
       "example": "მცირე შეცდომაზე თვალი დახუჭა."
     },
     {
-      "idiom": "ყინულის გატეხვა (23)",
+      "idiom": "ყინულის გატეხვა",
       "level": "C2",
       "meaning": "Break the ice in a social meeting",
       "example": "ხუმრობამ ხელი შეუწყო ყინულის გატეხვას."
     },
     {
-      "idiom": "ხელის გაწვდენა (24)",
+      "idiom": "ხელის გაწვდენა",
       "level": "A1",
       "meaning": "Lend a helping hand",
       "example": "მეგობარს გაჭირვებაში ხელი გაუწოდა."
     },
     {
-      "idiom": "თვალის ახვევა (25)",
+      "idiom": "თვალის ახვევა",
       "level": "A2",
       "meaning": "Deceive or pull wool over eyes",
       "example": "ნუ ცდილობ თვალის ახვევას, სიმართლე ვიცი."
     },
     {
-      "idiom": "ენის ჩაკბეჩა (26)",
+      "idiom": "ენის ჩაკბეჩა",
       "level": "B1",
       "meaning": "Hold one's tongue",
       "example": "დროზე ჩაიკბინა ენა და ზედმეტი არ თქვა."
     },
     {
-      "idiom": "ერთი გასროლით ორი კურდღლის დაჭერა (27)",
+      "idiom": "ერთი გასროლით ორი კურდღლის დაჭერა",
       "level": "B2",
       "meaning": "Kill two birds with one stone",
       "example": "ქალაქში წასვლით ორი საქმე მოვაგვარე: ერთი გასროლით ორი კურდღელი დავიჭირე."
     },
     {
-      "idiom": "თავზე ხელის აღება (28)",
+      "idiom": "თავზე ხელის აღება",
       "level": "C1",
       "meaning": "Act recklessly / Desperately",
       "example": "ისე იყო განრისხებული, რომ თავზე ხელი აიღო."
     },
     {
-      "idiom": "გულის მოგება (29)",
+      "idiom": "გულის მოგება",
       "level": "C2",
       "meaning": "Win someone's heart / favor",
       "example": "თავისი პატიოსნებით ყველას გული მოიგო."
     },
     {
-      "idiom": "სულის ჩადგმა (30)",
+      "idiom": "სულის ჩადგმა",
       "level": "A1",
       "meaning": "Put one's heart and soul into a project",
       "example": "ამ საქმეში მთელი სული და გული ჩადო."
     },
     {
-      "idiom": "ყველაფერი კარგადაა (31)",
+      "idiom": "ყველაფერი კარგადაა",
       "level": "A2",
       "meaning": "Everything is well",
       "example": "როგორ ხარ? — ყველაფერი კარგადაა!"
     },
     {
-      "idiom": "თვალის დახუჭვა (32)",
+      "idiom": "თვალის დახუჭვა",
       "level": "B1",
       "meaning": "Turn a blind eye to something",
       "example": "მცირე შეცდომაზე თვალი დახუჭა."
     },
     {
-      "idiom": "ყინულის გატეხვა (33)",
+      "idiom": "ყინულის გატეხვა",
       "level": "B2",
       "meaning": "Break the ice in a social meeting",
       "example": "ხუმრობამ ხელი შეუწყო ყინულის გატეხვას."
     },
     {
-      "idiom": "ხელის გაწვდენა (34)",
+      "idiom": "ხელის გაწვდენა",
       "level": "C1",
       "meaning": "Lend a helping hand",
       "example": "მეგობარს გაჭირვებაში ხელი გაუწოდა."
     },
     {
-      "idiom": "თვალის ახვევა (35)",
+      "idiom": "თვალის ახვევა",
       "level": "C2",
       "meaning": "Deceive or pull wool over eyes",
       "example": "ნუ ცდილობ თვალის ახვევას, სიმართლე ვიცი."
     },
     {
-      "idiom": "ენის ჩაკბეჩა (36)",
+      "idiom": "ენის ჩაკბეჩა",
       "level": "A1",
       "meaning": "Hold one's tongue",
       "example": "დროზე ჩაიკბინა ენა და ზედმეტი არ თქვა."
     },
     {
-      "idiom": "ერთი გასროლით ორი კურდღლის დაჭერა (37)",
+      "idiom": "ერთი გასროლით ორი კურდღლის დაჭერა",
       "level": "A2",
       "meaning": "Kill two birds with one stone",
       "example": "ქალაქში წასვლით ორი საქმე მოვაგვარე: ერთი გასროლით ორი კურდღელი დავიჭირე."
     },
     {
-      "idiom": "თავზე ხელის აღება (38)",
+      "idiom": "თავზე ხელის აღება",
       "level": "B1",
       "meaning": "Act recklessly / Desperately",
       "example": "ისე იყო განრისხებული, რომ თავზე ხელი აიღო."
     },
     {
-      "idiom": "გულის მოგება (39)",
+      "idiom": "გულის მოგება",
       "level": "B2",
       "meaning": "Win someone's heart / favor",
       "example": "თავისი პატიოსნებით ყველას გული მოიგო."
     },
     {
-      "idiom": "სულის ჩადგმა (40)",
+      "idiom": "სულის ჩადგმა",
       "level": "C1",
       "meaning": "Put one's heart and soul into a project",
       "example": "ამ საქმეში მთელი სული და გული ჩადო."
     },
     {
-      "idiom": "ყველაფერი კარგადაა (41)",
+      "idiom": "ყველაფერი კარგადაა",
       "level": "C2",
       "meaning": "Everything is well",
       "example": "როგორ ხარ? — ყველაფერი კარგადაა!"
     },
     {
-      "idiom": "თვალის დახუჭვა (42)",
+      "idiom": "თვალის დახუჭვა",
       "level": "A1",
       "meaning": "Turn a blind eye to something",
       "example": "მცირე შეცდომაზე თვალი დახუჭა."
     },
     {
-      "idiom": "ყინულის გატეხვა (43)",
+      "idiom": "ყინულის გატეხვა",
       "level": "A2",
       "meaning": "Break the ice in a social meeting",
       "example": "ხუმრობამ ხელი შეუწყო ყინულის გატეხვას."
     },
     {
-      "idiom": "ხელის გაწვდენა (44)",
+      "idiom": "ხელის გაწვდენა",
       "level": "B1",
       "meaning": "Lend a helping hand",
       "example": "მეგობარს გაჭირვებაში ხელი გაუწოდა."
     },
     {
-      "idiom": "თვალის ახვევა (45)",
+      "idiom": "თვალის ახვევა",
       "level": "B2",
       "meaning": "Deceive or pull wool over eyes",
       "example": "ნუ ცდილობ თვალის ახვევას, სიმართლე ვიცი."
     },
     {
-      "idiom": "ენის ჩაკბეჩა (46)",
+      "idiom": "ენის ჩაკბეჩა",
       "level": "C1",
       "meaning": "Hold one's tongue",
       "example": "დროზე ჩაიკბინა ენა და ზედმეტი არ თქვა."
     },
     {
-      "idiom": "ერთი გასროლით ორი კურდღლის დაჭერა (47)",
+      "idiom": "ერთი გასროლით ორი კურდღლის დაჭერა",
       "level": "C2",
       "meaning": "Kill two birds with one stone",
       "example": "ქალაქში წასვლით ორი საქმე მოვაგვარე: ერთი გასროლით ორი კურდღელი დავიჭირე."
     },
     {
-      "idiom": "თავზე ხელის აღება (48)",
+      "idiom": "თავზე ხელის აღება",
       "level": "A1",
       "meaning": "Act recklessly / Desperately",
       "example": "ისე იყო განრისხებული, რომ თავზე ხელი აიღო."
     },
     {
-      "idiom": "გულის მოგება (49)",
+      "idiom": "გულის მოგება",
       "level": "A2",
       "meaning": "Win someone's heart / favor",
       "example": "თავისი პატიოსნებით ყველას გული მოიგო."
     },
     {
-      "idiom": "სულის ჩადგმა (50)",
+      "idiom": "სულის ჩადგმა",
       "level": "B1",
       "meaning": "Put one's heart and soul into a project",
       "example": "ამ საქმეში მთელი სული და გული ჩადო."
     },
     {
-      "idiom": "ყველაფერი კარგადაა (51)",
+      "idiom": "ყველაფერი კარგადაა",
       "level": "B2",
       "meaning": "Everything is well",
       "example": "როგორ ხარ? — ყველაფერი კარგადაა!"
     },
     {
-      "idiom": "თვალის დახუჭვა (52)",
+      "idiom": "თვალის დახუჭვა",
       "level": "C1",
       "meaning": "Turn a blind eye to something",
       "example": "მცირე შეცდომაზე თვალი დახუჭა."
     },
     {
-      "idiom": "ყინულის გატეხვა (53)",
+      "idiom": "ყინულის გატეხვა",
       "level": "C2",
       "meaning": "Break the ice in a social meeting",
       "example": "ხუმრობამ ხელი შეუწყო ყინულის გატეხვას."
     },
     {
-      "idiom": "ხელის გაწვდენა (54)",
+      "idiom": "ხელის გაწვდენა",
       "level": "A1",
       "meaning": "Lend a helping hand",
       "example": "მეგობარს გაჭირვებაში ხელი გაუწოდა."
     },
     {
-      "idiom": "თვალის ახვევა (55)",
+      "idiom": "თვალის ახვევა",
       "level": "A2",
       "meaning": "Deceive or pull wool over eyes",
       "example": "ნუ ცდილობ თვალის ახვევას, სიმართლე ვიცი."
     },
     {
-      "idiom": "ენის ჩაკბეჩა (56)",
+      "idiom": "ენის ჩაკბეჩა",
       "level": "B1",
       "meaning": "Hold one's tongue",
       "example": "დროზე ჩაიკბინა ენა და ზედმეტი არ თქვა."
     },
     {
-      "idiom": "ერთი გასროლით ორი კურდღლის დაჭერა (57)",
+      "idiom": "ერთი გასროლით ორი კურდღლის დაჭერა",
       "level": "B2",
       "meaning": "Kill two birds with one stone",
       "example": "ქალაქში წასვლით ორი საქმე მოვაგვარე: ერთი გასროლით ორი კურდღელი დავიჭირე."
     },
     {
-      "idiom": "თავზე ხელის აღება (58)",
+      "idiom": "თავზე ხელის აღება",
       "level": "C1",
       "meaning": "Act recklessly / Desperately",
       "example": "ისე იყო განრისხებული, რომ თავზე ხელი აიღო."
     },
     {
-      "idiom": "გულის მოგება (59)",
+      "idiom": "გულის მოგება",
       "level": "C2",
       "meaning": "Win someone's heart / favor",
       "example": "თავისი პატიოსნებით ყველას გული მოიგო."
     },
     {
-      "idiom": "სულის ჩადგმა (60)",
+      "idiom": "სულის ჩადგმა",
       "level": "A1",
       "meaning": "Put one's heart and soul into a project",
       "example": "ამ საქმეში მთელი სული და გული ჩადო."
     },
     {
-      "idiom": "ყველაფერი კარგადაა (61)",
+      "idiom": "ყველაფერი კარგადაა",
       "level": "A2",
       "meaning": "Everything is well",
       "example": "როგორ ხარ? — ყველაფერი კარგადაა!"
     },
     {
-      "idiom": "თვალის დახუჭვა (62)",
+      "idiom": "თვალის დახუჭვა",
       "level": "B1",
       "meaning": "Turn a blind eye to something",
       "example": "მცირე შეცდომაზე თვალი დახუჭა."
     },
     {
-      "idiom": "ყინულის გატეხვა (63)",
+      "idiom": "ყინულის გატეხვა",
       "level": "B2",
       "meaning": "Break the ice in a social meeting",
       "example": "ხუმრობამ ხელი შეუწყო ყინულის გატეხვას."
     },
     {
-      "idiom": "ხელის გაწვდენა (64)",
+      "idiom": "ხელის გაწვდენა",
       "level": "C1",
       "meaning": "Lend a helping hand",
       "example": "მეგობარს გაჭირვებაში ხელი გაუწოდა."
     },
     {
-      "idiom": "თვალის ახვევა (65)",
+      "idiom": "თვალის ახვევა",
       "level": "C2",
       "meaning": "Deceive or pull wool over eyes",
       "example": "ნუ ცდილობ თვალის ახვევას, სიმართლე ვიცი."
     },
     {
-      "idiom": "ენის ჩაკბეჩა (66)",
+      "idiom": "ენის ჩაკბეჩა",
       "level": "A1",
       "meaning": "Hold one's tongue",
       "example": "დროზე ჩაიკბინა ენა და ზედმეტი არ თქვა."
     },
     {
-      "idiom": "ერთი გასროლით ორი კურდღლის დაჭერა (67)",
+      "idiom": "ერთი გასროლით ორი კურდღლის დაჭერა",
       "level": "A2",
       "meaning": "Kill two birds with one stone",
       "example": "ქალაქში წასვლით ორი საქმე მოვაგვარე: ერთი გასროლით ორი კურდღელი დავიჭირე."
     },
     {
-      "idiom": "თავზე ხელის აღება (68)",
+      "idiom": "თავზე ხელის აღება",
       "level": "B1",
       "meaning": "Act recklessly / Desperately",
       "example": "ისე იყო განრისხებული, რომ თავზე ხელი აიღო."
     },
     {
-      "idiom": "გულის მოგება (69)",
+      "idiom": "გულის მოგება",
       "level": "B2",
       "meaning": "Win someone's heart / favor",
       "example": "თავისი პატიოსნებით ყველას გული მოიგო."
     },
     {
-      "idiom": "სულის ჩადგმა (70)",
+      "idiom": "სულის ჩადგმა",
       "level": "C1",
       "meaning": "Put one's heart and soul into a project",
       "example": "ამ საქმეში მთელი სული და გული ჩადო."
     },
     {
-      "idiom": "ყველაფერი კარგადაა (71)",
+      "idiom": "ყველაფერი კარგადაა",
       "level": "C2",
       "meaning": "Everything is well",
       "example": "როგორ ხარ? — ყველაფერი კარგადაა!"
     },
     {
-      "idiom": "თვალის დახუჭვა (72)",
+      "idiom": "თვალის დახუჭვა",
       "level": "A1",
       "meaning": "Turn a blind eye to something",
       "example": "მცირე შეცდომაზე თვალი დახუჭა."
     },
     {
-      "idiom": "ყინულის გატეხვა (73)",
+      "idiom": "ყინულის გატეხვა",
       "level": "A2",
       "meaning": "Break the ice in a social meeting",
       "example": "ხუმრობამ ხელი შეუწყო ყინულის გატეხვას."
     },
     {
-      "idiom": "ხელის გაწვდენა (74)",
+      "idiom": "ხელის გაწვდენა",
       "level": "B1",
       "meaning": "Lend a helping hand",
       "example": "მეგობარს გაჭირვებაში ხელი გაუწოდა."
     },
     {
-      "idiom": "თვალის ახვევა (75)",
+      "idiom": "თვალის ახვევა",
       "level": "B2",
       "meaning": "Deceive or pull wool over eyes",
       "example": "ნუ ცდილობ თვალის ახვევას, სიმართლე ვიცი."
     },
     {
-      "idiom": "ენის ჩაკბეჩა (76)",
+      "idiom": "ენის ჩაკბეჩა",
       "level": "C1",
       "meaning": "Hold one's tongue",
       "example": "დროზე ჩაიკბინა ენა და ზედმეტი არ თქვა."
     },
     {
-      "idiom": "ერთი გასროლით ორი კურდღლის დაჭერა (77)",
+      "idiom": "ერთი გასროლით ორი კურდღლის დაჭერა",
       "level": "C2",
       "meaning": "Kill two birds with one stone",
       "example": "ქალაქში წასვლით ორი საქმე მოვაგვარე: ერთი გასროლით ორი კურდღელი დავიჭირე."
     },
     {
-      "idiom": "თავზე ხელის აღება (78)",
+      "idiom": "თავზე ხელის აღება",
       "level": "A1",
       "meaning": "Act recklessly / Desperately",
       "example": "ისე იყო განრისხებული, რომ თავზე ხელი აიღო."
     },
     {
-      "idiom": "გულის მოგება (79)",
+      "idiom": "გულის მოგება",
       "level": "A2",
       "meaning": "Win someone's heart / favor",
       "example": "თავისი პატიოსნებით ყველას გული მოიგო."
     },
     {
-      "idiom": "სულის ჩადგმა (80)",
+      "idiom": "სულის ჩადგმა",
       "level": "B1",
       "meaning": "Put one's heart and soul into a project",
       "example": "ამ საქმეში მთელი სული და გული ჩადო."
     },
     {
-      "idiom": "ყველაფერი კარგადაა (81)",
+      "idiom": "ყველაფერი კარგადაა",
       "level": "B2",
       "meaning": "Everything is well",
       "example": "როგორ ხარ? — ყველაფერი კარგადაა!"
     },
     {
-      "idiom": "თვალის დახუჭვა (82)",
+      "idiom": "თვალის დახუჭვა",
       "level": "C1",
       "meaning": "Turn a blind eye to something",
       "example": "მცირე შეცდომაზე თვალი დახუჭა."
     },
     {
-      "idiom": "ყინულის გატეხვა (83)",
+      "idiom": "ყინულის გატეხვა",
       "level": "C2",
       "meaning": "Break the ice in a social meeting",
       "example": "ხუმრობამ ხელი შეუწყო ყინულის გატეხვას."
     },
     {
-      "idiom": "ხელის გაწვდენა (84)",
+      "idiom": "ხელის გაწვდენა",
       "level": "A1",
       "meaning": "Lend a helping hand",
       "example": "მეგობარს გაჭირვებაში ხელი გაუწოდა."
     },
     {
-      "idiom": "თვალის ახვევა (85)",
+      "idiom": "თვალის ახვევა",
       "level": "A2",
       "meaning": "Deceive or pull wool over eyes",
       "example": "ნუ ცდილობ თვალის ახვევას, სიმართლე ვიცი."
     },
     {
-      "idiom": "ენის ჩაკბეჩა (86)",
+      "idiom": "ენის ჩაკბეჩა",
       "level": "B1",
       "meaning": "Hold one's tongue",
       "example": "დროზე ჩაიკბინა ენა და ზედმეტი არ თქვა."
     },
     {
-      "idiom": "ერთი გასროლით ორი კურდღლის დაჭერა (87)",
+      "idiom": "ერთი გასროლით ორი კურდღლის დაჭერა",
       "level": "B2",
       "meaning": "Kill two birds with one stone",
       "example": "ქალაქში წასვლით ორი საქმე მოვაგვარე: ერთი გასროლით ორი კურდღელი დავიჭირე."
     },
     {
-      "idiom": "თავზე ხელის აღება (88)",
+      "idiom": "თავზე ხელის აღება",
       "level": "C1",
       "meaning": "Act recklessly / Desperately",
       "example": "ისე იყო განრისხებული, რომ თავზე ხელი აიღო."
     },
     {
-      "idiom": "გულის მოგება (89)",
+      "idiom": "გულის მოგება",
       "level": "C2",
       "meaning": "Win someone's heart / favor",
       "example": "თავისი პატიოსნებით ყველას გული მოიგო."
     },
     {
-      "idiom": "სულის ჩადგმა (90)",
+      "idiom": "სულის ჩადგმა",
       "level": "A1",
       "meaning": "Put one's heart and soul into a project",
       "example": "ამ საქმეში მთელი სული და გული ჩადო."
@@ -6766,541 +6766,541 @@ window.COSY_DAILY_IDIOMS = {
       "example": "Максатка җитү өчен зур тырышлык куйды."
     },
     {
-      "idiom": "Ихлас күңелдән (1)",
+      "idiom": "Ихлас күңелдән",
       "level": "A2",
       "meaning": "From the bottom of one's heart",
       "example": "Ихлас күңелдән сезне бәйрәм белән котлыйм!"
     },
     {
-      "idiom": "Күз ачып йомганчы (2)",
+      "idiom": "Күз ачып йомганчы",
       "level": "B1",
       "meaning": "In the blink of an eye",
       "example": "Вакыт глаз ачып йомганчы үтеп китте."
     },
     {
-      "idiom": "Бузны эретү (3)",
+      "idiom": "Бузны эретү",
       "level": "B2",
       "meaning": "Break the ice in a meeting",
       "example": "Дуслыклар бузны эретергә ярдәм итте."
     },
     {
-      "idiom": "Кул сузу (4)",
+      "idiom": "Кул сузу",
       "level": "C1",
       "meaning": "Extend a helping hand",
       "example": "Авыр чакта дуска кул сузарга кирәк."
     },
     {
-      "idiom": "Бер уклар белән ике куян ату (5)",
+      "idiom": "Бер уклар белән ике куян ату",
       "level": "C2",
       "meaning": "Kill two birds with one stone",
       "example": "Базарга барып ике эш эшләдем: бер уклар белән ике куян аттым."
     },
     {
-      "idiom": "Авызга су капу (6)",
+      "idiom": "Авызга су капу",
       "level": "A1",
       "meaning": "Keep completely silent",
       "example": "Сорауга җавап бирмичә авызга су капты."
     },
     {
-      "idiom": "Баш катыру (7)",
+      "idiom": "Баш катыру",
       "level": "A2",
       "meaning": "Puzzle over a hard problem",
       "example": "Бу мәсьәлә буенча озак баш катырдык."
     },
     {
-      "idiom": "Бәхет елмаю (8)",
+      "idiom": "Бәхет елмаю",
       "level": "B1",
       "meaning": "Fortune smiles upon someone",
       "example": "Аңа яңа эшендә бәхет елмайды."
     },
     {
-      "idiom": "Йөрәк түреннән (9)",
+      "idiom": "Йөрәк түреннән",
       "level": "B2",
       "meaning": "From the deepest core of the heart",
       "example": "Сүзләрем йөрәк түреннән чыкты."
     },
     {
-      "idiom": "Тырышлык кую (10)",
+      "idiom": "Тырышлык кую",
       "level": "C1",
       "meaning": "Exert great effort",
       "example": "Максатка җитү өчен зур тырышлык куйды."
     },
     {
-      "idiom": "Ихлас күңелдән (11)",
+      "idiom": "Ихлас күңелдән",
       "level": "C2",
       "meaning": "From the bottom of one's heart",
       "example": "Ихлас күңелдән сезне бәйрәм белән котлыйм!"
     },
     {
-      "idiom": "Күз ачып йомганчы (12)",
+      "idiom": "Күз ачып йомганчы",
       "level": "A1",
       "meaning": "In the blink of an eye",
       "example": "Вакыт глаз ачып йомганчы үтеп китте."
     },
     {
-      "idiom": "Бузны эретү (13)",
+      "idiom": "Бузны эретү",
       "level": "A2",
       "meaning": "Break the ice in a meeting",
       "example": "Дуслыклар бузны эретергә ярдәм итте."
     },
     {
-      "idiom": "Кул сузу (14)",
+      "idiom": "Кул сузу",
       "level": "B1",
       "meaning": "Extend a helping hand",
       "example": "Авыр чакта дуска кул сузарга кирәк."
     },
     {
-      "idiom": "Бер уклар белән ике куян ату (15)",
+      "idiom": "Бер уклар белән ике куян ату",
       "level": "B2",
       "meaning": "Kill two birds with one stone",
       "example": "Базарга барып ике эш эшләдем: бер уклар белән ике куян аттым."
     },
     {
-      "idiom": "Авызга су капу (16)",
+      "idiom": "Авызга су капу",
       "level": "C1",
       "meaning": "Keep completely silent",
       "example": "Сорауга җавап бирмичә авызга су капты."
     },
     {
-      "idiom": "Баш катыру (17)",
+      "idiom": "Баш катыру",
       "level": "C2",
       "meaning": "Puzzle over a hard problem",
       "example": "Бу мәсьәлә буенча озак баш катырдык."
     },
     {
-      "idiom": "Бәхет елмаю (18)",
+      "idiom": "Бәхет елмаю",
       "level": "A1",
       "meaning": "Fortune smiles upon someone",
       "example": "Аңа яңа эшендә бәхет елмайды."
     },
     {
-      "idiom": "Йөрәк түреннән (19)",
+      "idiom": "Йөрәк түреннән",
       "level": "A2",
       "meaning": "From the deepest core of the heart",
       "example": "Сүзләрем йөрәк түреннән чыкты."
     },
     {
-      "idiom": "Тырышлык кую (20)",
+      "idiom": "Тырышлык кую",
       "level": "B1",
       "meaning": "Exert great effort",
       "example": "Максатка җитү өчен зур тырышлык куйды."
     },
     {
-      "idiom": "Ихлас күңелдән (21)",
+      "idiom": "Ихлас күңелдән",
       "level": "B2",
       "meaning": "From the bottom of one's heart",
       "example": "Ихлас күңелдән сезне бәйрәм белән котлыйм!"
     },
     {
-      "idiom": "Күз ачып йомганчы (22)",
+      "idiom": "Күз ачып йомганчы",
       "level": "C1",
       "meaning": "In the blink of an eye",
       "example": "Вакыт глаз ачып йомганчы үтеп китте."
     },
     {
-      "idiom": "Бузны эретү (23)",
+      "idiom": "Бузны эретү",
       "level": "C2",
       "meaning": "Break the ice in a meeting",
       "example": "Дуслыклар бузны эретергә ярдәм итте."
     },
     {
-      "idiom": "Кул сузу (24)",
+      "idiom": "Кул сузу",
       "level": "A1",
       "meaning": "Extend a helping hand",
       "example": "Авыр чакта дуска кул сузарга кирәк."
     },
     {
-      "idiom": "Бер уклар белән ике куян ату (25)",
+      "idiom": "Бер уклар белән ике куян ату",
       "level": "A2",
       "meaning": "Kill two birds with one stone",
       "example": "Базарга барып ике эш эшләдем: бер уклар белән ике куян аттым."
     },
     {
-      "idiom": "Авызга су капу (26)",
+      "idiom": "Авызга су капу",
       "level": "B1",
       "meaning": "Keep completely silent",
       "example": "Сорауга җавап бирмичә авызга су капты."
     },
     {
-      "idiom": "Баш катыру (27)",
+      "idiom": "Баш катыру",
       "level": "B2",
       "meaning": "Puzzle over a hard problem",
       "example": "Бу мәсьәлә буенча озак баш катырдык."
     },
     {
-      "idiom": "Бәхет елмаю (28)",
+      "idiom": "Бәхет елмаю",
       "level": "C1",
       "meaning": "Fortune smiles upon someone",
       "example": "Аңа яңа эшендә бәхет елмайды."
     },
     {
-      "idiom": "Йөрәк түреннән (29)",
+      "idiom": "Йөрәк түреннән",
       "level": "C2",
       "meaning": "From the deepest core of the heart",
       "example": "Сүзләрем йөрәк түреннән чыкты."
     },
     {
-      "idiom": "Тырышлык кую (30)",
+      "idiom": "Тырышлык кую",
       "level": "A1",
       "meaning": "Exert great effort",
       "example": "Максатка җитү өчен зур тырышлык куйды."
     },
     {
-      "idiom": "Ихлас күңелдән (31)",
+      "idiom": "Ихлас күңелдән",
       "level": "A2",
       "meaning": "From the bottom of one's heart",
       "example": "Ихлас күңелдән сезне бәйрәм белән котлыйм!"
     },
     {
-      "idiom": "Күз ачып йомганчы (32)",
+      "idiom": "Күз ачып йомганчы",
       "level": "B1",
       "meaning": "In the blink of an eye",
       "example": "Вакыт глаз ачып йомганчы үтеп китте."
     },
     {
-      "idiom": "Бузны эретү (33)",
+      "idiom": "Бузны эретү",
       "level": "B2",
       "meaning": "Break the ice in a meeting",
       "example": "Дуслыклар бузны эретергә ярдәм итте."
     },
     {
-      "idiom": "Кул сузу (34)",
+      "idiom": "Кул сузу",
       "level": "C1",
       "meaning": "Extend a helping hand",
       "example": "Авыр чакта дуска кул сузарга кирәк."
     },
     {
-      "idiom": "Бер уклар белән ике куян ату (35)",
+      "idiom": "Бер уклар белән ике куян ату",
       "level": "C2",
       "meaning": "Kill two birds with one stone",
       "example": "Базарга барып ике эш эшләдем: бер уклар белән ике куян аттым."
     },
     {
-      "idiom": "Авызга су капу (36)",
+      "idiom": "Авызга су капу",
       "level": "A1",
       "meaning": "Keep completely silent",
       "example": "Сорауга җавап бирмичә авызга су капты."
     },
     {
-      "idiom": "Баш катыру (37)",
+      "idiom": "Баш катыру",
       "level": "A2",
       "meaning": "Puzzle over a hard problem",
       "example": "Бу мәсьәлә буенча озак баш катырдык."
     },
     {
-      "idiom": "Бәхет елмаю (38)",
+      "idiom": "Бәхет елмаю",
       "level": "B1",
       "meaning": "Fortune smiles upon someone",
       "example": "Аңа яңа эшендә бәхет елмайды."
     },
     {
-      "idiom": "Йөрәк түреннән (39)",
+      "idiom": "Йөрәк түреннән",
       "level": "B2",
       "meaning": "From the deepest core of the heart",
       "example": "Сүзләрем йөрәк түреннән чыкты."
     },
     {
-      "idiom": "Тырышлык кую (40)",
+      "idiom": "Тырышлык кую",
       "level": "C1",
       "meaning": "Exert great effort",
       "example": "Максатка җитү өчен зур тырышлык куйды."
     },
     {
-      "idiom": "Ихлас күңелдән (41)",
+      "idiom": "Ихлас күңелдән",
       "level": "C2",
       "meaning": "From the bottom of one's heart",
       "example": "Ихлас күңелдән сезне бәйрәм белән котлыйм!"
     },
     {
-      "idiom": "Күз ачып йомганчы (42)",
+      "idiom": "Күз ачып йомганчы",
       "level": "A1",
       "meaning": "In the blink of an eye",
       "example": "Вакыт глаз ачып йомганчы үтеп китте."
     },
     {
-      "idiom": "Бузны эретү (43)",
+      "idiom": "Бузны эретү",
       "level": "A2",
       "meaning": "Break the ice in a meeting",
       "example": "Дуслыклар бузны эретергә ярдәм итте."
     },
     {
-      "idiom": "Кул сузу (44)",
+      "idiom": "Кул сузу",
       "level": "B1",
       "meaning": "Extend a helping hand",
       "example": "Авыр чакта дуска кул сузарга кирәк."
     },
     {
-      "idiom": "Бер уклар белән ике куян ату (45)",
+      "idiom": "Бер уклар белән ике куян ату",
       "level": "B2",
       "meaning": "Kill two birds with one stone",
       "example": "Базарга барып ике эш эшләдем: бер уклар белән ике куян аттым."
     },
     {
-      "idiom": "Авызга су капу (46)",
+      "idiom": "Авызга су капу",
       "level": "C1",
       "meaning": "Keep completely silent",
       "example": "Сорауга җавап бирмичә авызга су капты."
     },
     {
-      "idiom": "Баш катыру (47)",
+      "idiom": "Баш катыру",
       "level": "C2",
       "meaning": "Puzzle over a hard problem",
       "example": "Бу мәсьәлә буенча озак баш катырдык."
     },
     {
-      "idiom": "Бәхет елмаю (48)",
+      "idiom": "Бәхет елмаю",
       "level": "A1",
       "meaning": "Fortune smiles upon someone",
       "example": "Аңа яңа эшендә бәхет елмайды."
     },
     {
-      "idiom": "Йөрәк түреннән (49)",
+      "idiom": "Йөрәк түреннән",
       "level": "A2",
       "meaning": "From the deepest core of the heart",
       "example": "Сүзләрем йөрәк түреннән чыкты."
     },
     {
-      "idiom": "Тырышлык кую (50)",
+      "idiom": "Тырышлык кую",
       "level": "B1",
       "meaning": "Exert great effort",
       "example": "Максатка җитү өчен зур тырышлык куйды."
     },
     {
-      "idiom": "Ихлас күңелдән (51)",
+      "idiom": "Ихлас күңелдән",
       "level": "B2",
       "meaning": "From the bottom of one's heart",
       "example": "Ихлас күңелдән сезне бәйрәм белән котлыйм!"
     },
     {
-      "idiom": "Күз ачып йомганчы (52)",
+      "idiom": "Күз ачып йомганчы",
       "level": "C1",
       "meaning": "In the blink of an eye",
       "example": "Вакыт глаз ачып йомганчы үтеп китте."
     },
     {
-      "idiom": "Бузны эретү (53)",
+      "idiom": "Бузны эретү",
       "level": "C2",
       "meaning": "Break the ice in a meeting",
       "example": "Дуслыклар бузны эретергә ярдәм итте."
     },
     {
-      "idiom": "Кул сузу (54)",
+      "idiom": "Кул сузу",
       "level": "A1",
       "meaning": "Extend a helping hand",
       "example": "Авыр чакта дуска кул сузарга кирәк."
     },
     {
-      "idiom": "Бер уклар белән ике куян ату (55)",
+      "idiom": "Бер уклар белән ике куян ату",
       "level": "A2",
       "meaning": "Kill two birds with one stone",
       "example": "Базарга барып ике эш эшләдем: бер уклар белән ике куян аттым."
     },
     {
-      "idiom": "Авызга су капу (56)",
+      "idiom": "Авызга су капу",
       "level": "B1",
       "meaning": "Keep completely silent",
       "example": "Сорауга җавап бирмичә авызга су капты."
     },
     {
-      "idiom": "Баш катыру (57)",
+      "idiom": "Баш катыру",
       "level": "B2",
       "meaning": "Puzzle over a hard problem",
       "example": "Бу мәсьәлә буенча озак баш катырдык."
     },
     {
-      "idiom": "Бәхет елмаю (58)",
+      "idiom": "Бәхет елмаю",
       "level": "C1",
       "meaning": "Fortune smiles upon someone",
       "example": "Аңа яңа эшендә бәхет елмайды."
     },
     {
-      "idiom": "Йөрәк түреннән (59)",
+      "idiom": "Йөрәк түреннән",
       "level": "C2",
       "meaning": "From the deepest core of the heart",
       "example": "Сүзләрем йөрәк түреннән чыкты."
     },
     {
-      "idiom": "Тырышлык кую (60)",
+      "idiom": "Тырышлык кую",
       "level": "A1",
       "meaning": "Exert great effort",
       "example": "Максатка җитү өчен зур тырышлык куйды."
     },
     {
-      "idiom": "Ихлас күңелдән (61)",
+      "idiom": "Ихлас күңелдән",
       "level": "A2",
       "meaning": "From the bottom of one's heart",
       "example": "Ихлас күңелдән сезне бәйрәм белән котлыйм!"
     },
     {
-      "idiom": "Күз ачып йомганчы (62)",
+      "idiom": "Күз ачып йомганчы",
       "level": "B1",
       "meaning": "In the blink of an eye",
       "example": "Вакыт глаз ачып йомганчы үтеп китте."
     },
     {
-      "idiom": "Бузны эретү (63)",
+      "idiom": "Бузны эретү",
       "level": "B2",
       "meaning": "Break the ice in a meeting",
       "example": "Дуслыклар бузны эретергә ярдәм итте."
     },
     {
-      "idiom": "Кул сузу (64)",
+      "idiom": "Кул сузу",
       "level": "C1",
       "meaning": "Extend a helping hand",
       "example": "Авыр чакта дуска кул сузарга кирәк."
     },
     {
-      "idiom": "Бер уклар белән ике куян ату (65)",
+      "idiom": "Бер уклар белән ике куян ату",
       "level": "C2",
       "meaning": "Kill two birds with one stone",
       "example": "Базарга барып ике эш эшләдем: бер уклар белән ике куян аттым."
     },
     {
-      "idiom": "Авызга су капу (66)",
+      "idiom": "Авызга су капу",
       "level": "A1",
       "meaning": "Keep completely silent",
       "example": "Сорауга җавап бирмичә авызга су капты."
     },
     {
-      "idiom": "Баш катыру (67)",
+      "idiom": "Баш катыру",
       "level": "A2",
       "meaning": "Puzzle over a hard problem",
       "example": "Бу мәсьәлә буенча озак баш катырдык."
     },
     {
-      "idiom": "Бәхет елмаю (68)",
+      "idiom": "Бәхет елмаю",
       "level": "B1",
       "meaning": "Fortune smiles upon someone",
       "example": "Аңа яңа эшендә бәхет елмайды."
     },
     {
-      "idiom": "Йөрәк түреннән (69)",
+      "idiom": "Йөрәк түреннән",
       "level": "B2",
       "meaning": "From the deepest core of the heart",
       "example": "Сүзләрем йөрәк түреннән чыкты."
     },
     {
-      "idiom": "Тырышлык кую (70)",
+      "idiom": "Тырышлык кую",
       "level": "C1",
       "meaning": "Exert great effort",
       "example": "Максатка җитү өчен зур тырышлык куйды."
     },
     {
-      "idiom": "Ихлас күңелдән (71)",
+      "idiom": "Ихлас күңелдән",
       "level": "C2",
       "meaning": "From the bottom of one's heart",
       "example": "Ихлас күңелдән сезне бәйрәм белән котлыйм!"
     },
     {
-      "idiom": "Күз ачып йомганчы (72)",
+      "idiom": "Күз ачып йомганчы",
       "level": "A1",
       "meaning": "In the blink of an eye",
       "example": "Вакыт глаз ачып йомганчы үтеп китте."
     },
     {
-      "idiom": "Бузны эретү (73)",
+      "idiom": "Бузны эретү",
       "level": "A2",
       "meaning": "Break the ice in a meeting",
       "example": "Дуслыклар бузны эретергә ярдәм итте."
     },
     {
-      "idiom": "Кул сузу (74)",
+      "idiom": "Кул сузу",
       "level": "B1",
       "meaning": "Extend a helping hand",
       "example": "Авыр чакта дуска кул сузарга кирәк."
     },
     {
-      "idiom": "Бер уклар белән ике куян ату (75)",
+      "idiom": "Бер уклар белән ике куян ату",
       "level": "B2",
       "meaning": "Kill two birds with one stone",
       "example": "Базарга барып ике эш эшләдем: бер уклар белән ике куян аттым."
     },
     {
-      "idiom": "Авызга су капу (76)",
+      "idiom": "Авызга су капу",
       "level": "C1",
       "meaning": "Keep completely silent",
       "example": "Сорауга җавап бирмичә авызга су капты."
     },
     {
-      "idiom": "Баш катыру (77)",
+      "idiom": "Баш катыру",
       "level": "C2",
       "meaning": "Puzzle over a hard problem",
       "example": "Бу мәсьәлә буенча озак баш катырдык."
     },
     {
-      "idiom": "Бәхет елмаю (78)",
+      "idiom": "Бәхет елмаю",
       "level": "A1",
       "meaning": "Fortune smiles upon someone",
       "example": "Аңа яңа эшендә бәхет елмайды."
     },
     {
-      "idiom": "Йөрәк түреннән (79)",
+      "idiom": "Йөрәк түреннән",
       "level": "A2",
       "meaning": "From the deepest core of the heart",
       "example": "Сүзләрем йөрәк түреннән чыкты."
     },
     {
-      "idiom": "Тырышлык кую (80)",
+      "idiom": "Тырышлык кую",
       "level": "B1",
       "meaning": "Exert great effort",
       "example": "Максатка җитү өчен зур тырышлык куйды."
     },
     {
-      "idiom": "Ихлас күңелдән (81)",
+      "idiom": "Ихлас күңелдән",
       "level": "B2",
       "meaning": "From the bottom of one's heart",
       "example": "Ихлас күңелдән сезне бәйрәм белән котлыйм!"
     },
     {
-      "idiom": "Күз ачып йомганчы (82)",
+      "idiom": "Күз ачып йомганчы",
       "level": "C1",
       "meaning": "In the blink of an eye",
       "example": "Вакыт глаз ачып йомганчы үтеп китте."
     },
     {
-      "idiom": "Бузны эретү (83)",
+      "idiom": "Бузны эретү",
       "level": "C2",
       "meaning": "Break the ice in a meeting",
       "example": "Дуслыклар бузны эретергә ярдәм итте."
     },
     {
-      "idiom": "Кул сузу (84)",
+      "idiom": "Кул сузу",
       "level": "A1",
       "meaning": "Extend a helping hand",
       "example": "Авыр чакта дуска кул сузарга кирәк."
     },
     {
-      "idiom": "Бер уклар белән ике куян ату (85)",
+      "idiom": "Бер уклар белән ике куян ату",
       "level": "A2",
       "meaning": "Kill two birds with one stone",
       "example": "Базарга барып ике эш эшләдем: бер уклар белән ике куян аттым."
     },
     {
-      "idiom": "Авызга су капу (86)",
+      "idiom": "Авызга су капу",
       "level": "B1",
       "meaning": "Keep completely silent",
       "example": "Сорауга җавап бирмичә авызга су капты."
     },
     {
-      "idiom": "Баш катыру (87)",
+      "idiom": "Баш катыру",
       "level": "B2",
       "meaning": "Puzzle over a hard problem",
       "example": "Бу мәсьәлә буенча озак баш катырдык."
     },
     {
-      "idiom": "Бәхет елмаю (88)",
+      "idiom": "Бәхет елмаю",
       "level": "C1",
       "meaning": "Fortune smiles upon someone",
       "example": "Аңа яңа эшендә бәхет елмайды."
     },
     {
-      "idiom": "Йөрәк түреннән (89)",
+      "idiom": "Йөрәк түреннән",
       "level": "C2",
       "meaning": "From the deepest core of the heart",
       "example": "Сүзләрем йөрәк түреннән чыкты."
     },
     {
-      "idiom": "Тырышлык кую (90)",
+      "idiom": "Тырышлык кую",
       "level": "A1",
       "meaning": "Exert great effort",
       "example": "Максатка җитү өчен зур тырышлык куйды."
@@ -7368,541 +7368,541 @@ window.COSY_DAILY_IDIOMS = {
       "example": "Үҙ маҡсатына ирешер өсөн күп тырышлыҡ һалды."
     },
     {
-      "idiom": "Ихлас күңелдән (1)",
+      "idiom": "Ихлас күңелдән",
       "level": "A2",
       "meaning": "From the bottom of the heart",
       "example": "Ихлас күңелдән һеҙгә ңыуаныстар теләйем!"
     },
     {
-      "idiom": "Күҙ асып йомғансы (2)",
+      "idiom": "Күҙ асып йомғансы",
       "level": "B1",
       "meaning": "In the blink of an eye",
       "example": "Ял көндәре күҙ асып йомғансы үтеп китте."
     },
     {
-      "idiom": "Буҙҙы иретеү (3)",
+      "idiom": "Буҙҙы иретеү",
       "level": "B2",
       "meaning": "Break the ice",
       "example": "Йылы һүҙ буҙҙы иретергә ярҙам итте."
     },
     {
-      "idiom": "Ҡул һуҙыу (4)",
+      "idiom": "Ҡул һуҙыу",
       "level": "C1",
       "meaning": "Extend a helping hand",
       "example": "Ауыр мәлдә ярҙамға ҡул һуҙыу — изге эш."
     },
     {
-      "idiom": "Бер уҡ менән ике ҡуян атыу (5)",
+      "idiom": "Бер уҡ менән ике ҡуян атыу",
       "level": "C2",
       "meaning": "Kill two birds with one stone",
       "example": "Юл өҫтөндә ике эште бөтөрҙөм: бер уҡ менән ике ҡуян аттым."
     },
     {
-      "idiom": "Ауыҙға һыу ҡабыу (6)",
+      "idiom": "Ауыҙға һыу ҡабыу",
       "level": "A1",
       "meaning": "Stay quiet / Keep mouth shut",
       "example": "Сорауға яуап бирмәйенсә ауыҙға һыу ҡабты."
     },
     {
-      "idiom": "Баш ҡатырыу (7)",
+      "idiom": "Баш ҡатырыу",
       "level": "A2",
       "meaning": "Ponder deeply over an issue",
       "example": "Был мәсьәлә буйынса башты ҡатырҙыҡ."
     },
     {
-      "idiom": "Бәхет йылмайыу (8)",
+      "idiom": "Бәхет йылмайыу",
       "level": "B1",
       "meaning": "Fortune smiles",
       "example": "Егеткә бәхет йылмайҙы."
     },
     {
-      "idiom": "Йөрәк түренән (9)",
+      "idiom": "Йөрәк түренән",
       "level": "B2",
       "meaning": "From the core of the heart",
       "example": "Был теләктәр йөрәк түренән сыға."
     },
     {
-      "idiom": "Тырышлыҡ һалыу (10)",
+      "idiom": "Тырышлыҡ һалыу",
       "level": "C1",
       "meaning": "Exert genuine effort",
       "example": "Үҙ маҡсатына ирешер өсөн күп тырышлыҡ һалды."
     },
     {
-      "idiom": "Ихлас күңелдән (11)",
+      "idiom": "Ихлас күңелдән",
       "level": "C2",
       "meaning": "From the bottom of the heart",
       "example": "Ихлас күңелдән һеҙгә ңыуаныстар теләйем!"
     },
     {
-      "idiom": "Күҙ асып йомғансы (12)",
+      "idiom": "Күҙ асып йомғансы",
       "level": "A1",
       "meaning": "In the blink of an eye",
       "example": "Ял көндәре күҙ асып йомғансы үтеп китте."
     },
     {
-      "idiom": "Буҙҙы иретеү (13)",
+      "idiom": "Буҙҙы иретеү",
       "level": "A2",
       "meaning": "Break the ice",
       "example": "Йылы һүҙ буҙҙы иретергә ярҙам итте."
     },
     {
-      "idiom": "Ҡул һуҙыу (14)",
+      "idiom": "Ҡул һуҙыу",
       "level": "B1",
       "meaning": "Extend a helping hand",
       "example": "Ауыр мәлдә ярҙамға ҡул һуҙыу — изге эш."
     },
     {
-      "idiom": "Бер уҡ менән ике ҡуян атыу (15)",
+      "idiom": "Бер уҡ менән ике ҡуян атыу",
       "level": "B2",
       "meaning": "Kill two birds with one stone",
       "example": "Юл өҫтөндә ике эште бөтөрҙөм: бер уҡ менән ике ҡуян аттым."
     },
     {
-      "idiom": "Ауыҙға һыу ҡабыу (16)",
+      "idiom": "Ауыҙға һыу ҡабыу",
       "level": "C1",
       "meaning": "Stay quiet / Keep mouth shut",
       "example": "Сорауға яуап бирмәйенсә ауыҙға һыу ҡабты."
     },
     {
-      "idiom": "Баш ҡатырыу (17)",
+      "idiom": "Баш ҡатырыу",
       "level": "C2",
       "meaning": "Ponder deeply over an issue",
       "example": "Был мәсьәлә буйынса башты ҡатырҙыҡ."
     },
     {
-      "idiom": "Бәхет йылмайыу (18)",
+      "idiom": "Бәхет йылмайыу",
       "level": "A1",
       "meaning": "Fortune smiles",
       "example": "Егеткә бәхет йылмайҙы."
     },
     {
-      "idiom": "Йөрәк түренән (19)",
+      "idiom": "Йөрәк түренән",
       "level": "A2",
       "meaning": "From the core of the heart",
       "example": "Был теләктәр йөрәк түренән сыға."
     },
     {
-      "idiom": "Тырышлыҡ һалыу (20)",
+      "idiom": "Тырышлыҡ һалыу",
       "level": "B1",
       "meaning": "Exert genuine effort",
       "example": "Үҙ маҡсатына ирешер өсөн күп тырышлыҡ һалды."
     },
     {
-      "idiom": "Ихлас күңелдән (21)",
+      "idiom": "Ихлас күңелдән",
       "level": "B2",
       "meaning": "From the bottom of the heart",
       "example": "Ихлас күңелдән һеҙгә ңыуаныстар теләйем!"
     },
     {
-      "idiom": "Күҙ асып йомғансы (22)",
+      "idiom": "Күҙ асып йомғансы",
       "level": "C1",
       "meaning": "In the blink of an eye",
       "example": "Ял көндәре күҙ асып йомғансы үтеп китте."
     },
     {
-      "idiom": "Буҙҙы иретеү (23)",
+      "idiom": "Буҙҙы иретеү",
       "level": "C2",
       "meaning": "Break the ice",
       "example": "Йылы һүҙ буҙҙы иретергә ярҙам итте."
     },
     {
-      "idiom": "Ҡул һуҙыу (24)",
+      "idiom": "Ҡул һуҙыу",
       "level": "A1",
       "meaning": "Extend a helping hand",
       "example": "Ауыр мәлдә ярҙамға ҡул һуҙыу — изге эш."
     },
     {
-      "idiom": "Бер уҡ менән ике ҡуян атыу (25)",
+      "idiom": "Бер уҡ менән ике ҡуян атыу",
       "level": "A2",
       "meaning": "Kill two birds with one stone",
       "example": "Юл өҫтөндә ике эште бөтөрҙөм: бер уҡ менән ике ҡуян аттым."
     },
     {
-      "idiom": "Ауыҙға һыу ҡабыу (26)",
+      "idiom": "Ауыҙға һыу ҡабыу",
       "level": "B1",
       "meaning": "Stay quiet / Keep mouth shut",
       "example": "Сорауға яуап бирмәйенсә ауыҙға һыу ҡабты."
     },
     {
-      "idiom": "Баш ҡатырыу (27)",
+      "idiom": "Баш ҡатырыу",
       "level": "B2",
       "meaning": "Ponder deeply over an issue",
       "example": "Был мәсьәлә буйынса башты ҡатырҙыҡ."
     },
     {
-      "idiom": "Бәхет йылмайыу (28)",
+      "idiom": "Бәхет йылмайыу",
       "level": "C1",
       "meaning": "Fortune smiles",
       "example": "Егеткә бәхет йылмайҙы."
     },
     {
-      "idiom": "Йөрәк түренән (29)",
+      "idiom": "Йөрәк түренән",
       "level": "C2",
       "meaning": "From the core of the heart",
       "example": "Был теләктәр йөрәк түренән сыға."
     },
     {
-      "idiom": "Тырышлыҡ һалыу (30)",
+      "idiom": "Тырышлыҡ һалыу",
       "level": "A1",
       "meaning": "Exert genuine effort",
       "example": "Үҙ маҡсатына ирешер өсөн күп тырышлыҡ һалды."
     },
     {
-      "idiom": "Ихлас күңелдән (31)",
+      "idiom": "Ихлас күңелдән",
       "level": "A2",
       "meaning": "From the bottom of the heart",
       "example": "Ихлас күңелдән һеҙгә ңыуаныстар теләйем!"
     },
     {
-      "idiom": "Күҙ асып йомғансы (32)",
+      "idiom": "Күҙ асып йомғансы",
       "level": "B1",
       "meaning": "In the blink of an eye",
       "example": "Ял көндәре күҙ асып йомғансы үтеп китте."
     },
     {
-      "idiom": "Буҙҙы иретеү (33)",
+      "idiom": "Буҙҙы иретеү",
       "level": "B2",
       "meaning": "Break the ice",
       "example": "Йылы һүҙ буҙҙы иретергә ярҙам итте."
     },
     {
-      "idiom": "Ҡул һуҙыу (34)",
+      "idiom": "Ҡул һуҙыу",
       "level": "C1",
       "meaning": "Extend a helping hand",
       "example": "Ауыр мәлдә ярҙамға ҡул һуҙыу — изге эш."
     },
     {
-      "idiom": "Бер уҡ менән ике ҡуян атыу (35)",
+      "idiom": "Бер уҡ менән ике ҡуян атыу",
       "level": "C2",
       "meaning": "Kill two birds with one stone",
       "example": "Юл өҫтөндә ике эште бөтөрҙөм: бер уҡ менән ике ҡуян аттым."
     },
     {
-      "idiom": "Ауыҙға һыу ҡабыу (36)",
+      "idiom": "Ауыҙға һыу ҡабыу",
       "level": "A1",
       "meaning": "Stay quiet / Keep mouth shut",
       "example": "Сорауға яуап бирмәйенсә ауыҙға һыу ҡабты."
     },
     {
-      "idiom": "Баш ҡатырыу (37)",
+      "idiom": "Баш ҡатырыу",
       "level": "A2",
       "meaning": "Ponder deeply over an issue",
       "example": "Был мәсьәлә буйынса башты ҡатырҙыҡ."
     },
     {
-      "idiom": "Бәхет йылмайыу (38)",
+      "idiom": "Бәхет йылмайыу",
       "level": "B1",
       "meaning": "Fortune smiles",
       "example": "Егеткә бәхет йылмайҙы."
     },
     {
-      "idiom": "Йөрәк түренән (39)",
+      "idiom": "Йөрәк түренән",
       "level": "B2",
       "meaning": "From the core of the heart",
       "example": "Был теләктәр йөрәк түренән сыға."
     },
     {
-      "idiom": "Тырышлыҡ һалыу (40)",
+      "idiom": "Тырышлыҡ һалыу",
       "level": "C1",
       "meaning": "Exert genuine effort",
       "example": "Үҙ маҡсатына ирешер өсөн күп тырышлыҡ һалды."
     },
     {
-      "idiom": "Ихлас күңелдән (41)",
+      "idiom": "Ихлас күңелдән",
       "level": "C2",
       "meaning": "From the bottom of the heart",
       "example": "Ихлас күңелдән һеҙгә ңыуаныстар теләйем!"
     },
     {
-      "idiom": "Күҙ асып йомғансы (42)",
+      "idiom": "Күҙ асып йомғансы",
       "level": "A1",
       "meaning": "In the blink of an eye",
       "example": "Ял көндәре күҙ асып йомғансы үтеп китте."
     },
     {
-      "idiom": "Буҙҙы иретеү (43)",
+      "idiom": "Буҙҙы иретеү",
       "level": "A2",
       "meaning": "Break the ice",
       "example": "Йылы һүҙ буҙҙы иретергә ярҙам итте."
     },
     {
-      "idiom": "Ҡул һуҙыу (44)",
+      "idiom": "Ҡул һуҙыу",
       "level": "B1",
       "meaning": "Extend a helping hand",
       "example": "Ауыр мәлдә ярҙамға ҡул һуҙыу — изге эш."
     },
     {
-      "idiom": "Бер уҡ менән ике ҡуян атыу (45)",
+      "idiom": "Бер уҡ менән ике ҡуян атыу",
       "level": "B2",
       "meaning": "Kill two birds with one stone",
       "example": "Юл өҫтөндә ике эште бөтөрҙөм: бер уҡ менән ике ҡуян аттым."
     },
     {
-      "idiom": "Ауыҙға һыу ҡабыу (46)",
+      "idiom": "Ауыҙға һыу ҡабыу",
       "level": "C1",
       "meaning": "Stay quiet / Keep mouth shut",
       "example": "Сорауға яуап бирмәйенсә ауыҙға һыу ҡабты."
     },
     {
-      "idiom": "Баш ҡатырыу (47)",
+      "idiom": "Баш ҡатырыу",
       "level": "C2",
       "meaning": "Ponder deeply over an issue",
       "example": "Был мәсьәлә буйынса башты ҡатырҙыҡ."
     },
     {
-      "idiom": "Бәхет йылмайыу (48)",
+      "idiom": "Бәхет йылмайыу",
       "level": "A1",
       "meaning": "Fortune smiles",
       "example": "Егеткә бәхет йылмайҙы."
     },
     {
-      "idiom": "Йөрәк түренән (49)",
+      "idiom": "Йөрәк түренән",
       "level": "A2",
       "meaning": "From the core of the heart",
       "example": "Был теләктәр йөрәк түренән сыға."
     },
     {
-      "idiom": "Тырышлыҡ һалыу (50)",
+      "idiom": "Тырышлыҡ һалыу",
       "level": "B1",
       "meaning": "Exert genuine effort",
       "example": "Үҙ маҡсатына ирешер өсөн күп тырышлыҡ һалды."
     },
     {
-      "idiom": "Ихлас күңелдән (51)",
+      "idiom": "Ихлас күңелдән",
       "level": "B2",
       "meaning": "From the bottom of the heart",
       "example": "Ихлас күңелдән һеҙгә ңыуаныстар теләйем!"
     },
     {
-      "idiom": "Күҙ асып йомғансы (52)",
+      "idiom": "Күҙ асып йомғансы",
       "level": "C1",
       "meaning": "In the blink of an eye",
       "example": "Ял көндәре күҙ асып йомғансы үтеп китте."
     },
     {
-      "idiom": "Буҙҙы иретеү (53)",
+      "idiom": "Буҙҙы иретеү",
       "level": "C2",
       "meaning": "Break the ice",
       "example": "Йылы һүҙ буҙҙы иретергә ярҙам итте."
     },
     {
-      "idiom": "Ҡул һуҙыу (54)",
+      "idiom": "Ҡул һуҙыу",
       "level": "A1",
       "meaning": "Extend a helping hand",
       "example": "Ауыр мәлдә ярҙамға ҡул һуҙыу — изге эш."
     },
     {
-      "idiom": "Бер уҡ менән ике ҡуян атыу (55)",
+      "idiom": "Бер уҡ менән ике ҡуян атыу",
       "level": "A2",
       "meaning": "Kill two birds with one stone",
       "example": "Юл өҫтөндә ике эште бөтөрҙөм: бер уҡ менән ике ҡуян аттым."
     },
     {
-      "idiom": "Ауыҙға һыу ҡабыу (56)",
+      "idiom": "Ауыҙға һыу ҡабыу",
       "level": "B1",
       "meaning": "Stay quiet / Keep mouth shut",
       "example": "Сорауға яуап бирмәйенсә ауыҙға һыу ҡабты."
     },
     {
-      "idiom": "Баш ҡатырыу (57)",
+      "idiom": "Баш ҡатырыу",
       "level": "B2",
       "meaning": "Ponder deeply over an issue",
       "example": "Был мәсьәлә буйынса башты ҡатырҙыҡ."
     },
     {
-      "idiom": "Бәхет йылмайыу (58)",
+      "idiom": "Бәхет йылмайыу",
       "level": "C1",
       "meaning": "Fortune smiles",
       "example": "Егеткә бәхет йылмайҙы."
     },
     {
-      "idiom": "Йөрәк түренән (59)",
+      "idiom": "Йөрәк түренән",
       "level": "C2",
       "meaning": "From the core of the heart",
       "example": "Был теләктәр йөрәк түренән сыға."
     },
     {
-      "idiom": "Тырышлыҡ һалыу (60)",
+      "idiom": "Тырышлыҡ һалыу",
       "level": "A1",
       "meaning": "Exert genuine effort",
       "example": "Үҙ маҡсатына ирешер өсөн күп тырышлыҡ һалды."
     },
     {
-      "idiom": "Ихлас күңелдән (61)",
+      "idiom": "Ихлас күңелдән",
       "level": "A2",
       "meaning": "From the bottom of the heart",
       "example": "Ихлас күңелдән һеҙгә ңыуаныстар теләйем!"
     },
     {
-      "idiom": "Күҙ асып йомғансы (62)",
+      "idiom": "Күҙ асып йомғансы",
       "level": "B1",
       "meaning": "In the blink of an eye",
       "example": "Ял көндәре күҙ асып йомғансы үтеп китте."
     },
     {
-      "idiom": "Буҙҙы иретеү (63)",
+      "idiom": "Буҙҙы иретеү",
       "level": "B2",
       "meaning": "Break the ice",
       "example": "Йылы һүҙ буҙҙы иретергә ярҙам итте."
     },
     {
-      "idiom": "Ҡул һуҙыу (64)",
+      "idiom": "Ҡул һуҙыу",
       "level": "C1",
       "meaning": "Extend a helping hand",
       "example": "Ауыр мәлдә ярҙамға ҡул һуҙыу — изге эш."
     },
     {
-      "idiom": "Бер уҡ менән ике ҡуян атыу (65)",
+      "idiom": "Бер уҡ менән ике ҡуян атыу",
       "level": "C2",
       "meaning": "Kill two birds with one stone",
       "example": "Юл өҫтөндә ике эште бөтөрҙөм: бер уҡ менән ике ҡуян аттым."
     },
     {
-      "idiom": "Ауыҙға һыу ҡабыу (66)",
+      "idiom": "Ауыҙға һыу ҡабыу",
       "level": "A1",
       "meaning": "Stay quiet / Keep mouth shut",
       "example": "Сорауға яуап бирмәйенсә ауыҙға һыу ҡабты."
     },
     {
-      "idiom": "Баш ҡатырыу (67)",
+      "idiom": "Баш ҡатырыу",
       "level": "A2",
       "meaning": "Ponder deeply over an issue",
       "example": "Был мәсьәлә буйынса башты ҡатырҙыҡ."
     },
     {
-      "idiom": "Бәхет йылмайыу (68)",
+      "idiom": "Бәхет йылмайыу",
       "level": "B1",
       "meaning": "Fortune smiles",
       "example": "Егеткә бәхет йылмайҙы."
     },
     {
-      "idiom": "Йөрәк түренән (69)",
+      "idiom": "Йөрәк түренән",
       "level": "B2",
       "meaning": "From the core of the heart",
       "example": "Был теләктәр йөрәк түренән сыға."
     },
     {
-      "idiom": "Тырышлыҡ һалыу (70)",
+      "idiom": "Тырышлыҡ һалыу",
       "level": "C1",
       "meaning": "Exert genuine effort",
       "example": "Үҙ маҡсатына ирешер өсөн күп тырышлыҡ һалды."
     },
     {
-      "idiom": "Ихлас күңелдән (71)",
+      "idiom": "Ихлас күңелдән",
       "level": "C2",
       "meaning": "From the bottom of the heart",
       "example": "Ихлас күңелдән һеҙгә ңыуаныстар теләйем!"
     },
     {
-      "idiom": "Күҙ асып йомғансы (72)",
+      "idiom": "Күҙ асып йомғансы",
       "level": "A1",
       "meaning": "In the blink of an eye",
       "example": "Ял көндәре күҙ асып йомғансы үтеп китте."
     },
     {
-      "idiom": "Буҙҙы иретеү (73)",
+      "idiom": "Буҙҙы иретеү",
       "level": "A2",
       "meaning": "Break the ice",
       "example": "Йылы һүҙ буҙҙы иретергә ярҙам итте."
     },
     {
-      "idiom": "Ҡул һуҙыу (74)",
+      "idiom": "Ҡул һуҙыу",
       "level": "B1",
       "meaning": "Extend a helping hand",
       "example": "Ауыр мәлдә ярҙамға ҡул һуҙыу — изге эш."
     },
     {
-      "idiom": "Бер уҡ менән ике ҡуян атыу (75)",
+      "idiom": "Бер уҡ менән ике ҡуян атыу",
       "level": "B2",
       "meaning": "Kill two birds with one stone",
       "example": "Юл өҫтөндә ике эште бөтөрҙөм: бер уҡ менән ике ҡуян аттым."
     },
     {
-      "idiom": "Ауыҙға һыу ҡабыу (76)",
+      "idiom": "Ауыҙға һыу ҡабыу",
       "level": "C1",
       "meaning": "Stay quiet / Keep mouth shut",
       "example": "Сорауға яуап бирмәйенсә ауыҙға һыу ҡабты."
     },
     {
-      "idiom": "Баш ҡатырыу (77)",
+      "idiom": "Баш ҡатырыу",
       "level": "C2",
       "meaning": "Ponder deeply over an issue",
       "example": "Был мәсьәлә буйынса башты ҡатырҙыҡ."
     },
     {
-      "idiom": "Бәхет йылмайыу (78)",
+      "idiom": "Бәхет йылмайыу",
       "level": "A1",
       "meaning": "Fortune smiles",
       "example": "Егеткә бәхет йылмайҙы."
     },
     {
-      "idiom": "Йөрәк түренән (79)",
+      "idiom": "Йөрәк түренән",
       "level": "A2",
       "meaning": "From the core of the heart",
       "example": "Был теләктәр йөрәк түренән сыға."
     },
     {
-      "idiom": "Тырышлыҡ һалыу (80)",
+      "idiom": "Тырышлыҡ һалыу",
       "level": "B1",
       "meaning": "Exert genuine effort",
       "example": "Үҙ маҡсатына ирешер өсөн күп тырышлыҡ һалды."
     },
     {
-      "idiom": "Ихлас күңелдән (81)",
+      "idiom": "Ихлас күңелдән",
       "level": "B2",
       "meaning": "From the bottom of the heart",
       "example": "Ихлас күңелдән һеҙгә ңыуаныстар теләйем!"
     },
     {
-      "idiom": "Күҙ асып йомғансы (82)",
+      "idiom": "Күҙ асып йомғансы",
       "level": "C1",
       "meaning": "In the blink of an eye",
       "example": "Ял көндәре күҙ асып йомғансы үтеп китте."
     },
     {
-      "idiom": "Буҙҙы иретеү (83)",
+      "idiom": "Буҙҙы иретеү",
       "level": "C2",
       "meaning": "Break the ice",
       "example": "Йылы һүҙ буҙҙы иретергә ярҙам итте."
     },
     {
-      "idiom": "Ҡул һуҙыу (84)",
+      "idiom": "Ҡул һуҙыу",
       "level": "A1",
       "meaning": "Extend a helping hand",
       "example": "Ауыр мәлдә ярҙамға ҡул һуҙыу — изге эш."
     },
     {
-      "idiom": "Бер уҡ менән ике ҡуян атыу (85)",
+      "idiom": "Бер уҡ менән ике ҡуян атыу",
       "level": "A2",
       "meaning": "Kill two birds with one stone",
       "example": "Юл өҫтөндә ике эште бөтөрҙөм: бер уҡ менән ике ҡуян аттым."
     },
     {
-      "idiom": "Ауыҙға һыу ҡабыу (86)",
+      "idiom": "Ауыҙға һыу ҡабыу",
       "level": "B1",
       "meaning": "Stay quiet / Keep mouth shut",
       "example": "Сорауға яуап бирмәйенсә ауыҙға һыу ҡабты."
     },
     {
-      "idiom": "Баш ҡатырыу (87)",
+      "idiom": "Баш ҡатырыу",
       "level": "B2",
       "meaning": "Ponder deeply over an issue",
       "example": "Был мәсьәлә буйынса башты ҡатырҙыҡ."
     },
     {
-      "idiom": "Бәхет йылмайыу (88)",
+      "idiom": "Бәхет йылмайыу",
       "level": "C1",
       "meaning": "Fortune smiles",
       "example": "Егеткә бәхет йылмайҙы."
     },
     {
-      "idiom": "Йөрәк түренән (89)",
+      "idiom": "Йөрәк түренән",
       "level": "C2",
       "meaning": "From the core of the heart",
       "example": "Был теләктәр йөрәк түренән сыға."
     },
     {
-      "idiom": "Тырышлыҡ һалыу (90)",
+      "idiom": "Тырышлыҡ һалыу",
       "level": "A1",
       "meaning": "Exert genuine effort",
       "example": "Үҙ маҡсатына ирешер өсөн күп тырышлыҡ һалды."
@@ -7970,541 +7970,541 @@ window.COSY_DAILY_IDIOMS = {
       "example": "Kalon vat en deus e-pad ar prantad diaes-mañ."
     },
     {
-      "idiom": "Mat eo (1)",
+      "idiom": "Mat eo",
       "level": "A2",
       "meaning": "All right / Fine",
       "example": "Penaos e gerzh? — Mat eo!"
     },
     {
-      "idiom": "Ober ur sell (2)",
+      "idiom": "Ober ur sell",
       "level": "B1",
       "meaning": "Take a look at something",
       "example": "Deus da ober ur sell war al levr-mañ."
     },
     {
-      "idiom": "Terriñ ar skorn (3)",
+      "idiom": "Terriñ ar skorn",
       "level": "B2",
       "meaning": "Break the ice in a social gathering",
       "example": "Ur c'hoari bihan a servijas da derriñ ar skorn."
     },
     {
-      "idiom": "Reiñ un dorn (4)",
+      "idiom": "Reiñ un dorn",
       "level": "C1",
       "meaning": "Lend a helping hand",
       "example": "Deus da reiñ un dorn din evit kas an traoù-mañ."
     },
     {
-      "idiom": "Ober daou daol gant un vaen (5)",
+      "idiom": "Ober daou daol gant un vaen",
       "level": "C2",
       "meaning": "Kill two birds with one stone",
       "example": "Gant va veaj e oberis daou daol gant un vaen."
     },
     {
-      "idiom": "Chom hep lavaret ger (6)",
+      "idiom": "Chom hep lavaret ger",
       "level": "A1",
       "meaning": "Keep silent / Say nothing",
       "example": "Chomet eo hep lavaret ger e-pad ar bodadeg."
     },
     {
-      "idiom": "Lakaat e fri e pep lec'h (7)",
+      "idiom": "Lakaat e fri e pep lec'h",
       "level": "A2",
       "meaning": "Pry into other people's business",
       "example": "Ar paotr-se a laka e fri e pep lec'h."
     },
     {
-      "idiom": "Tapout an ergerzh (8)",
+      "idiom": "Tapout an ergerzh",
       "level": "B1",
       "meaning": "Get the hang of something",
       "example": "Tapat en deus an ergerzh gant ar brezhoneg."
     },
     {
-      "idiom": "Lakaat an traoù en o lec'h (9)",
+      "idiom": "Lakaat an traoù en o lec'h",
       "level": "B2",
       "meaning": "Set things straight",
       "example": "Poent eo lakaat an traoù en o lec'h."
     },
     {
-      "idiom": "Kaout kalon vat (10)",
+      "idiom": "Kaout kalon vat",
       "level": "C1",
       "meaning": "Have a good and courageous heart",
       "example": "Kalon vat en deus e-pad ar prantad diaes-mañ."
     },
     {
-      "idiom": "Mat eo (11)",
+      "idiom": "Mat eo",
       "level": "C2",
       "meaning": "All right / Fine",
       "example": "Penaos e gerzh? — Mat eo!"
     },
     {
-      "idiom": "Ober ur sell (12)",
+      "idiom": "Ober ur sell",
       "level": "A1",
       "meaning": "Take a look at something",
       "example": "Deus da ober ur sell war al levr-mañ."
     },
     {
-      "idiom": "Terriñ ar skorn (13)",
+      "idiom": "Terriñ ar skorn",
       "level": "A2",
       "meaning": "Break the ice in a social gathering",
       "example": "Ur c'hoari bihan a servijas da derriñ ar skorn."
     },
     {
-      "idiom": "Reiñ un dorn (14)",
+      "idiom": "Reiñ un dorn",
       "level": "B1",
       "meaning": "Lend a helping hand",
       "example": "Deus da reiñ un dorn din evit kas an traoù-mañ."
     },
     {
-      "idiom": "Ober daou daol gant un vaen (15)",
+      "idiom": "Ober daou daol gant un vaen",
       "level": "B2",
       "meaning": "Kill two birds with one stone",
       "example": "Gant va veaj e oberis daou daol gant un vaen."
     },
     {
-      "idiom": "Chom hep lavaret ger (16)",
+      "idiom": "Chom hep lavaret ger",
       "level": "C1",
       "meaning": "Keep silent / Say nothing",
       "example": "Chomet eo hep lavaret ger e-pad ar bodadeg."
     },
     {
-      "idiom": "Lakaat e fri e pep lec'h (17)",
+      "idiom": "Lakaat e fri e pep lec'h",
       "level": "C2",
       "meaning": "Pry into other people's business",
       "example": "Ar paotr-se a laka e fri e pep lec'h."
     },
     {
-      "idiom": "Tapout an ergerzh (18)",
+      "idiom": "Tapout an ergerzh",
       "level": "A1",
       "meaning": "Get the hang of something",
       "example": "Tapat en deus an ergerzh gant ar brezhoneg."
     },
     {
-      "idiom": "Lakaat an traoù en o lec'h (19)",
+      "idiom": "Lakaat an traoù en o lec'h",
       "level": "A2",
       "meaning": "Set things straight",
       "example": "Poent eo lakaat an traoù en o lec'h."
     },
     {
-      "idiom": "Kaout kalon vat (20)",
+      "idiom": "Kaout kalon vat",
       "level": "B1",
       "meaning": "Have a good and courageous heart",
       "example": "Kalon vat en deus e-pad ar prantad diaes-mañ."
     },
     {
-      "idiom": "Mat eo (21)",
+      "idiom": "Mat eo",
       "level": "B2",
       "meaning": "All right / Fine",
       "example": "Penaos e gerzh? — Mat eo!"
     },
     {
-      "idiom": "Ober ur sell (22)",
+      "idiom": "Ober ur sell",
       "level": "C1",
       "meaning": "Take a look at something",
       "example": "Deus da ober ur sell war al levr-mañ."
     },
     {
-      "idiom": "Terriñ ar skorn (23)",
+      "idiom": "Terriñ ar skorn",
       "level": "C2",
       "meaning": "Break the ice in a social gathering",
       "example": "Ur c'hoari bihan a servijas da derriñ ar skorn."
     },
     {
-      "idiom": "Reiñ un dorn (24)",
+      "idiom": "Reiñ un dorn",
       "level": "A1",
       "meaning": "Lend a helping hand",
       "example": "Deus da reiñ un dorn din evit kas an traoù-mañ."
     },
     {
-      "idiom": "Ober daou daol gant un vaen (25)",
+      "idiom": "Ober daou daol gant un vaen",
       "level": "A2",
       "meaning": "Kill two birds with one stone",
       "example": "Gant va veaj e oberis daou daol gant un vaen."
     },
     {
-      "idiom": "Chom hep lavaret ger (26)",
+      "idiom": "Chom hep lavaret ger",
       "level": "B1",
       "meaning": "Keep silent / Say nothing",
       "example": "Chomet eo hep lavaret ger e-pad ar bodadeg."
     },
     {
-      "idiom": "Lakaat e fri e pep lec'h (27)",
+      "idiom": "Lakaat e fri e pep lec'h",
       "level": "B2",
       "meaning": "Pry into other people's business",
       "example": "Ar paotr-se a laka e fri e pep lec'h."
     },
     {
-      "idiom": "Tapout an ergerzh (28)",
+      "idiom": "Tapout an ergerzh",
       "level": "C1",
       "meaning": "Get the hang of something",
       "example": "Tapat en deus an ergerzh gant ar brezhoneg."
     },
     {
-      "idiom": "Lakaat an traoù en o lec'h (29)",
+      "idiom": "Lakaat an traoù en o lec'h",
       "level": "C2",
       "meaning": "Set things straight",
       "example": "Poent eo lakaat an traoù en o lec'h."
     },
     {
-      "idiom": "Kaout kalon vat (30)",
+      "idiom": "Kaout kalon vat",
       "level": "A1",
       "meaning": "Have a good and courageous heart",
       "example": "Kalon vat en deus e-pad ar prantad diaes-mañ."
     },
     {
-      "idiom": "Mat eo (31)",
+      "idiom": "Mat eo",
       "level": "A2",
       "meaning": "All right / Fine",
       "example": "Penaos e gerzh? — Mat eo!"
     },
     {
-      "idiom": "Ober ur sell (32)",
+      "idiom": "Ober ur sell",
       "level": "B1",
       "meaning": "Take a look at something",
       "example": "Deus da ober ur sell war al levr-mañ."
     },
     {
-      "idiom": "Terriñ ar skorn (33)",
+      "idiom": "Terriñ ar skorn",
       "level": "B2",
       "meaning": "Break the ice in a social gathering",
       "example": "Ur c'hoari bihan a servijas da derriñ ar skorn."
     },
     {
-      "idiom": "Reiñ un dorn (34)",
+      "idiom": "Reiñ un dorn",
       "level": "C1",
       "meaning": "Lend a helping hand",
       "example": "Deus da reiñ un dorn din evit kas an traoù-mañ."
     },
     {
-      "idiom": "Ober daou daol gant un vaen (35)",
+      "idiom": "Ober daou daol gant un vaen",
       "level": "C2",
       "meaning": "Kill two birds with one stone",
       "example": "Gant va veaj e oberis daou daol gant un vaen."
     },
     {
-      "idiom": "Chom hep lavaret ger (36)",
+      "idiom": "Chom hep lavaret ger",
       "level": "A1",
       "meaning": "Keep silent / Say nothing",
       "example": "Chomet eo hep lavaret ger e-pad ar bodadeg."
     },
     {
-      "idiom": "Lakaat e fri e pep lec'h (37)",
+      "idiom": "Lakaat e fri e pep lec'h",
       "level": "A2",
       "meaning": "Pry into other people's business",
       "example": "Ar paotr-se a laka e fri e pep lec'h."
     },
     {
-      "idiom": "Tapout an ergerzh (38)",
+      "idiom": "Tapout an ergerzh",
       "level": "B1",
       "meaning": "Get the hang of something",
       "example": "Tapat en deus an ergerzh gant ar brezhoneg."
     },
     {
-      "idiom": "Lakaat an traoù en o lec'h (39)",
+      "idiom": "Lakaat an traoù en o lec'h",
       "level": "B2",
       "meaning": "Set things straight",
       "example": "Poent eo lakaat an traoù en o lec'h."
     },
     {
-      "idiom": "Kaout kalon vat (40)",
+      "idiom": "Kaout kalon vat",
       "level": "C1",
       "meaning": "Have a good and courageous heart",
       "example": "Kalon vat en deus e-pad ar prantad diaes-mañ."
     },
     {
-      "idiom": "Mat eo (41)",
+      "idiom": "Mat eo",
       "level": "C2",
       "meaning": "All right / Fine",
       "example": "Penaos e gerzh? — Mat eo!"
     },
     {
-      "idiom": "Ober ur sell (42)",
+      "idiom": "Ober ur sell",
       "level": "A1",
       "meaning": "Take a look at something",
       "example": "Deus da ober ur sell war al levr-mañ."
     },
     {
-      "idiom": "Terriñ ar skorn (43)",
+      "idiom": "Terriñ ar skorn",
       "level": "A2",
       "meaning": "Break the ice in a social gathering",
       "example": "Ur c'hoari bihan a servijas da derriñ ar skorn."
     },
     {
-      "idiom": "Reiñ un dorn (44)",
+      "idiom": "Reiñ un dorn",
       "level": "B1",
       "meaning": "Lend a helping hand",
       "example": "Deus da reiñ un dorn din evit kas an traoù-mañ."
     },
     {
-      "idiom": "Ober daou daol gant un vaen (45)",
+      "idiom": "Ober daou daol gant un vaen",
       "level": "B2",
       "meaning": "Kill two birds with one stone",
       "example": "Gant va veaj e oberis daou daol gant un vaen."
     },
     {
-      "idiom": "Chom hep lavaret ger (46)",
+      "idiom": "Chom hep lavaret ger",
       "level": "C1",
       "meaning": "Keep silent / Say nothing",
       "example": "Chomet eo hep lavaret ger e-pad ar bodadeg."
     },
     {
-      "idiom": "Lakaat e fri e pep lec'h (47)",
+      "idiom": "Lakaat e fri e pep lec'h",
       "level": "C2",
       "meaning": "Pry into other people's business",
       "example": "Ar paotr-se a laka e fri e pep lec'h."
     },
     {
-      "idiom": "Tapout an ergerzh (48)",
+      "idiom": "Tapout an ergerzh",
       "level": "A1",
       "meaning": "Get the hang of something",
       "example": "Tapat en deus an ergerzh gant ar brezhoneg."
     },
     {
-      "idiom": "Lakaat an traoù en o lec'h (49)",
+      "idiom": "Lakaat an traoù en o lec'h",
       "level": "A2",
       "meaning": "Set things straight",
       "example": "Poent eo lakaat an traoù en o lec'h."
     },
     {
-      "idiom": "Kaout kalon vat (50)",
+      "idiom": "Kaout kalon vat",
       "level": "B1",
       "meaning": "Have a good and courageous heart",
       "example": "Kalon vat en deus e-pad ar prantad diaes-mañ."
     },
     {
-      "idiom": "Mat eo (51)",
+      "idiom": "Mat eo",
       "level": "B2",
       "meaning": "All right / Fine",
       "example": "Penaos e gerzh? — Mat eo!"
     },
     {
-      "idiom": "Ober ur sell (52)",
+      "idiom": "Ober ur sell",
       "level": "C1",
       "meaning": "Take a look at something",
       "example": "Deus da ober ur sell war al levr-mañ."
     },
     {
-      "idiom": "Terriñ ar skorn (53)",
+      "idiom": "Terriñ ar skorn",
       "level": "C2",
       "meaning": "Break the ice in a social gathering",
       "example": "Ur c'hoari bihan a servijas da derriñ ar skorn."
     },
     {
-      "idiom": "Reiñ un dorn (54)",
+      "idiom": "Reiñ un dorn",
       "level": "A1",
       "meaning": "Lend a helping hand",
       "example": "Deus da reiñ un dorn din evit kas an traoù-mañ."
     },
     {
-      "idiom": "Ober daou daol gant un vaen (55)",
+      "idiom": "Ober daou daol gant un vaen",
       "level": "A2",
       "meaning": "Kill two birds with one stone",
       "example": "Gant va veaj e oberis daou daol gant un vaen."
     },
     {
-      "idiom": "Chom hep lavaret ger (56)",
+      "idiom": "Chom hep lavaret ger",
       "level": "B1",
       "meaning": "Keep silent / Say nothing",
       "example": "Chomet eo hep lavaret ger e-pad ar bodadeg."
     },
     {
-      "idiom": "Lakaat e fri e pep lec'h (57)",
+      "idiom": "Lakaat e fri e pep lec'h",
       "level": "B2",
       "meaning": "Pry into other people's business",
       "example": "Ar paotr-se a laka e fri e pep lec'h."
     },
     {
-      "idiom": "Tapout an ergerzh (58)",
+      "idiom": "Tapout an ergerzh",
       "level": "C1",
       "meaning": "Get the hang of something",
       "example": "Tapat en deus an ergerzh gant ar brezhoneg."
     },
     {
-      "idiom": "Lakaat an traoù en o lec'h (59)",
+      "idiom": "Lakaat an traoù en o lec'h",
       "level": "C2",
       "meaning": "Set things straight",
       "example": "Poent eo lakaat an traoù en o lec'h."
     },
     {
-      "idiom": "Kaout kalon vat (60)",
+      "idiom": "Kaout kalon vat",
       "level": "A1",
       "meaning": "Have a good and courageous heart",
       "example": "Kalon vat en deus e-pad ar prantad diaes-mañ."
     },
     {
-      "idiom": "Mat eo (61)",
+      "idiom": "Mat eo",
       "level": "A2",
       "meaning": "All right / Fine",
       "example": "Penaos e gerzh? — Mat eo!"
     },
     {
-      "idiom": "Ober ur sell (62)",
+      "idiom": "Ober ur sell",
       "level": "B1",
       "meaning": "Take a look at something",
       "example": "Deus da ober ur sell war al levr-mañ."
     },
     {
-      "idiom": "Terriñ ar skorn (63)",
+      "idiom": "Terriñ ar skorn",
       "level": "B2",
       "meaning": "Break the ice in a social gathering",
       "example": "Ur c'hoari bihan a servijas da derriñ ar skorn."
     },
     {
-      "idiom": "Reiñ un dorn (64)",
+      "idiom": "Reiñ un dorn",
       "level": "C1",
       "meaning": "Lend a helping hand",
       "example": "Deus da reiñ un dorn din evit kas an traoù-mañ."
     },
     {
-      "idiom": "Ober daou daol gant un vaen (65)",
+      "idiom": "Ober daou daol gant un vaen",
       "level": "C2",
       "meaning": "Kill two birds with one stone",
       "example": "Gant va veaj e oberis daou daol gant un vaen."
     },
     {
-      "idiom": "Chom hep lavaret ger (66)",
+      "idiom": "Chom hep lavaret ger",
       "level": "A1",
       "meaning": "Keep silent / Say nothing",
       "example": "Chomet eo hep lavaret ger e-pad ar bodadeg."
     },
     {
-      "idiom": "Lakaat e fri e pep lec'h (67)",
+      "idiom": "Lakaat e fri e pep lec'h",
       "level": "A2",
       "meaning": "Pry into other people's business",
       "example": "Ar paotr-se a laka e fri e pep lec'h."
     },
     {
-      "idiom": "Tapout an ergerzh (68)",
+      "idiom": "Tapout an ergerzh",
       "level": "B1",
       "meaning": "Get the hang of something",
       "example": "Tapat en deus an ergerzh gant ar brezhoneg."
     },
     {
-      "idiom": "Lakaat an traoù en o lec'h (69)",
+      "idiom": "Lakaat an traoù en o lec'h",
       "level": "B2",
       "meaning": "Set things straight",
       "example": "Poent eo lakaat an traoù en o lec'h."
     },
     {
-      "idiom": "Kaout kalon vat (70)",
+      "idiom": "Kaout kalon vat",
       "level": "C1",
       "meaning": "Have a good and courageous heart",
       "example": "Kalon vat en deus e-pad ar prantad diaes-mañ."
     },
     {
-      "idiom": "Mat eo (71)",
+      "idiom": "Mat eo",
       "level": "C2",
       "meaning": "All right / Fine",
       "example": "Penaos e gerzh? — Mat eo!"
     },
     {
-      "idiom": "Ober ur sell (72)",
+      "idiom": "Ober ur sell",
       "level": "A1",
       "meaning": "Take a look at something",
       "example": "Deus da ober ur sell war al levr-mañ."
     },
     {
-      "idiom": "Terriñ ar skorn (73)",
+      "idiom": "Terriñ ar skorn",
       "level": "A2",
       "meaning": "Break the ice in a social gathering",
       "example": "Ur c'hoari bihan a servijas da derriñ ar skorn."
     },
     {
-      "idiom": "Reiñ un dorn (74)",
+      "idiom": "Reiñ un dorn",
       "level": "B1",
       "meaning": "Lend a helping hand",
       "example": "Deus da reiñ un dorn din evit kas an traoù-mañ."
     },
     {
-      "idiom": "Ober daou daol gant un vaen (75)",
+      "idiom": "Ober daou daol gant un vaen",
       "level": "B2",
       "meaning": "Kill two birds with one stone",
       "example": "Gant va veaj e oberis daou daol gant un vaen."
     },
     {
-      "idiom": "Chom hep lavaret ger (76)",
+      "idiom": "Chom hep lavaret ger",
       "level": "C1",
       "meaning": "Keep silent / Say nothing",
       "example": "Chomet eo hep lavaret ger e-pad ar bodadeg."
     },
     {
-      "idiom": "Lakaat e fri e pep lec'h (77)",
+      "idiom": "Lakaat e fri e pep lec'h",
       "level": "C2",
       "meaning": "Pry into other people's business",
       "example": "Ar paotr-se a laka e fri e pep lec'h."
     },
     {
-      "idiom": "Tapout an ergerzh (78)",
+      "idiom": "Tapout an ergerzh",
       "level": "A1",
       "meaning": "Get the hang of something",
       "example": "Tapat en deus an ergerzh gant ar brezhoneg."
     },
     {
-      "idiom": "Lakaat an traoù en o lec'h (79)",
+      "idiom": "Lakaat an traoù en o lec'h",
       "level": "A2",
       "meaning": "Set things straight",
       "example": "Poent eo lakaat an traoù en o lec'h."
     },
     {
-      "idiom": "Kaout kalon vat (80)",
+      "idiom": "Kaout kalon vat",
       "level": "B1",
       "meaning": "Have a good and courageous heart",
       "example": "Kalon vat en deus e-pad ar prantad diaes-mañ."
     },
     {
-      "idiom": "Mat eo (81)",
+      "idiom": "Mat eo",
       "level": "B2",
       "meaning": "All right / Fine",
       "example": "Penaos e gerzh? — Mat eo!"
     },
     {
-      "idiom": "Ober ur sell (82)",
+      "idiom": "Ober ur sell",
       "level": "C1",
       "meaning": "Take a look at something",
       "example": "Deus da ober ur sell war al levr-mañ."
     },
     {
-      "idiom": "Terriñ ar skorn (83)",
+      "idiom": "Terriñ ar skorn",
       "level": "C2",
       "meaning": "Break the ice in a social gathering",
       "example": "Ur c'hoari bihan a servijas da derriñ ar skorn."
     },
     {
-      "idiom": "Reiñ un dorn (84)",
+      "idiom": "Reiñ un dorn",
       "level": "A1",
       "meaning": "Lend a helping hand",
       "example": "Deus da reiñ un dorn din evit kas an traoù-mañ."
     },
     {
-      "idiom": "Ober daou daol gant un vaen (85)",
+      "idiom": "Ober daou daol gant un vaen",
       "level": "A2",
       "meaning": "Kill two birds with one stone",
       "example": "Gant va veaj e oberis daou daol gant un vaen."
     },
     {
-      "idiom": "Chom hep lavaret ger (86)",
+      "idiom": "Chom hep lavaret ger",
       "level": "B1",
       "meaning": "Keep silent / Say nothing",
       "example": "Chomet eo hep lavaret ger e-pad ar bodadeg."
     },
     {
-      "idiom": "Lakaat e fri e pep lec'h (87)",
+      "idiom": "Lakaat e fri e pep lec'h",
       "level": "B2",
       "meaning": "Pry into other people's business",
       "example": "Ar paotr-se a laka e fri e pep lec'h."
     },
     {
-      "idiom": "Tapout an ergerzh (88)",
+      "idiom": "Tapout an ergerzh",
       "level": "C1",
       "meaning": "Get the hang of something",
       "example": "Tapat en deus an ergerzh gant ar brezhoneg."
     },
     {
-      "idiom": "Lakaat an traoù en o lec'h (89)",
+      "idiom": "Lakaat an traoù en o lec'h",
       "level": "C2",
       "meaning": "Set things straight",
       "example": "Poent eo lakaat an traoù en o lec'h."
     },
     {
-      "idiom": "Kaout kalon vat (90)",
+      "idiom": "Kaout kalon vat",
       "level": "A1",
       "meaning": "Have a good and courageous heart",
       "example": "Kalon vat en deus e-pad ar prantad diaes-mañ."
