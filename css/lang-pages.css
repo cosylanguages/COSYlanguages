@@ -112,6 +112,19 @@ section{padding:3.5rem 0;}
 .daily-card h3{font-family:'Lora',serif;font-size:.95rem;font-weight:700;color:var(--sage-deep);margin-bottom:.8rem;}
 .daily-content{font-size:.9rem;color:var(--ink-soft);line-height:1.65;min-height:3rem;}
 
+/* Idiom card styling */
+.idiom-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:.5rem;}
+.idiom-phrase{font-size:1.15rem;font-weight:800;color:var(--sage-deep);margin-bottom:.3rem;}
+.idiom-badge{display:inline-block;padding:.2rem .55rem;border-radius:4px;font-size:.75rem;font-weight:800;color:#fff;background:var(--sage-deep);}
+.idiom-badge[data-level="A1"]{background:#2b8a3e;}
+.idiom-badge[data-level="A2"]{background:#37a15a;}
+.idiom-badge[data-level="B1"]{background:#e67e22;}
+.idiom-badge[data-level="B2"]{background:#d35400;}
+.idiom-badge[data-level="C1"]{background:#c0392b;}
+.idiom-badge[data-level="C2"]{background:#8e44ad;}
+.idiom-meaning{font-size:.9rem;color:var(--ink-soft);font-style:italic;margin-bottom:.5rem;}
+.idiom-example{font-size:.88rem;background:rgba(0,0,0,0.03);border-left:3px solid var(--sage);padding:.4rem .7rem;border-radius:4px;color:var(--ink);}
+
 /* Resources grid */
 .resources-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(185px,1fr));gap:.9rem;}
 .resource-card{background:#fff;border-radius:var(--radius-sm);box-shadow:var(--shadow-sm);
