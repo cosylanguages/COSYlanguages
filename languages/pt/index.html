@@ -43,6 +43,7 @@ if ('serviceWorker' in navigator) {
     </div>
     <nav class="sd-jump-links" aria-label="Page jump links">
       <a href="#daily-dose" class="sd-jump-link">Daily Dose</a>
+      <a href="#interactive-tools" class="sd-jump-link">Apps & Practice</a>
       <a href="#resources" class="sd-jump-link">Resources</a>
       <a href="#media-culture" class="sd-jump-link">Media & Culture</a>
       <a href="#daily-life" class="sd-jump-link">Daily Life</a>
@@ -91,19 +92,47 @@ if ('serviceWorker' in navigator) {
 <!-- Daily dose -->
 <section id="daily-dose">
   <div class="sec-head reveal">
-    <span class="sec-tag" data-translate-key="daily_dose_tag">💊 A sua dose de português</span>
-    <h2 data-translate-key="daily_dose_title">Palavra do dia e Curiosidade</h2>
+    <span class="sec-tag" data-translate-key="daily_dose_tag">💊 Daily Dose & Cultural Insights</span>
+    <h2 data-translate-key="daily_dose_title">Fact & Idiom of the Day 💡</h2>
   </div>
   <div class="daily-grid">
-    </div>
     <div class="daily-card reveal" data-bg="🤣">
-      <h3 data-translate-key="fun_fact_title">Curiosidade do dia 🤣</h3>
-      <div class="daily-content" id="fun-fact-of-the-day" data-translate-key="fun_fact_placeholder">A carregar...</div>
+      <h3 data-translate-key="fun_fact_title">Fact of the Day 🤣</h3>
+      <div class="daily-content" id="fun-fact-of-the-day" data-translate-key="fun_fact_placeholder">Loading...</div>
+    </div>
+    <div class="daily-card reveal" data-bg="💡">
+      <h3 data-translate-key="idiom_title">Idiom of the Day 💬</h3>
+      <div class="daily-content" id="idiom-of-the-day">Loading...</div>
     </div>
   </div>
 </section>
 
 <!-- Learning resources -->
+<!-- Interactive Reference Engines & Practice -->
+<section id="interactive-tools">
+  <div class="sec-head reveal">
+    <span class="sec-tag">🛠️ Interactive Tools</span>
+    <h2>Interactive Apps & Practice</h2>
+    <p>Practice Português with interactive reference engines, drills, and learning games.</p>
+  </div>
+  <div class="resources-grid">
+
+
+    <a href="../../practice/index.html?lang=PT" class="resource-card reveal">
+      <div class="rc-icon">💡</div>
+      <div class="rc-name">Interactive Practice</div>
+      <div class="rc-desc">Free exercises, quizzes & listening tasks for Português.</div>
+      <div class="rc-link">Practice Now →</div>
+    </a>
+    <a href="../../games/index.html?lang=PT" class="resource-card reveal">
+      <div class="rc-icon">🎮</div>
+      <div class="rc-name">Language Games</div>
+      <div class="rc-desc">Vocabulary & grammar games to test your fluency.</div>
+      <div class="rc-link">Play Games →</div>
+    </a>
+  </div>
+</section>
+
 <section id="resources">
   <div class="sec-head reveal">
     <span class="sec-tag" data-translate-key="sec_tag_tools">📚 Ferramentas de aprendizagem</span>
@@ -179,6 +208,23 @@ if ('serviceWorker' in navigator) {
   <div class="country-panel" id="country-pt">
     <div class="country-name">🇵🇹 Portugal</div>
       <div class="shop-category">
+        <h4>🏢 Habitação, Arrendamento e Imobiliário</h4>
+        <div class="shop-grid">
+          <a href="https://www.idealista.pt/" target="_blank" class="shop-card">
+            <div class="sc-name">Idealista PT</div>
+            <div class="sc-desc">O principal portal imobiliário em Portugal.</div>
+          </a>
+          <a href="https://www.imovirtual.com/" target="_blank" class="shop-card">
+            <div class="sc-name">Imovirtual</div>
+            <div class="sc-desc">Imóveis para comprar e arrendar em Portugal.</div>
+          </a>
+          <a href="https://www.olx.pt/" target="_blank" class="shop-card">
+            <div class="sc-name">OLX Portugal</div>
+            <div class="sc-desc">Anúncios grátis de casas, quartos e serviços.</div>
+          </a>
+        </div>
+      </div>
+      <div class="shop-category">
         <h4>💄 Moda e Beleza</h4>
         <div class="shop-grid">
           <a href="https://www.salsaonstore.com/pt/" target="_blank" class="shop-card">
@@ -207,6 +253,23 @@ if ('serviceWorker' in navigator) {
   </div>
   <div class="country-panel" id="country-br">
     <div class="country-name">🇧🇷 Brasil</div>
+      <div class="shop-category">
+        <h4>🏢 Habitação, Arrendamento e Imobiliário</h4>
+        <div class="shop-grid">
+          <a href="https://www.vivareal.com.br/" target="_blank" class="shop-card">
+            <div class="sc-name">Viva Real</div>
+            <div class="sc-desc">Imóveis para alugar e comprar no Brasil.</div>
+          </a>
+          <a href="https://www.zapimoveis.com.br/" target="_blank" class="shop-card">
+            <div class="sc-name">Zap Imóveis</div>
+            <div class="sc-desc">Venda e aluguel de apartamentos e casas.</div>
+          </a>
+          <a href="https://www.olx.com.br/" target="_blank" class="shop-card">
+            <div class="sc-name">OLX Brasil</div>
+            <div class="sc-desc">O maior site de compra, venda e aluguel do Brasil.</div>
+          </a>
+        </div>
+      </div>
       <div class="shop-category">
         <h4>💄 Beleza e Cosméticos</h4>
         <div class="shop-grid">

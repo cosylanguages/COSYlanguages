@@ -43,6 +43,7 @@ if ('serviceWorker' in navigator) {
     </div>
     <nav class="sd-jump-links" aria-label="Page jump links">
       <a href="#daily-dose" class="sd-jump-link">Daily Dose</a>
+      <a href="#interactive-tools" class="sd-jump-link">Apps & Practice</a>
       <a href="#resources" class="sd-jump-link">Resources</a>
       <a href="#media-culture" class="sd-jump-link">Media & Culture</a>
       <a href="#daily-life" class="sd-jump-link">Daily Life</a>
@@ -91,19 +92,47 @@ if ('serviceWorker' in navigator) {
 <!-- Daily dose -->
 <section id="daily-dose">
   <div class="sec-head reveal">
-    <span class="sec-tag" data-translate-key="daily_dose_tag">💊 Tu dosis de español</span>
-    <h2 data-translate-key="daily_dose_title">Palabra del día y Curiosidad</h2>
+    <span class="sec-tag" data-translate-key="daily_dose_tag">💊 Daily Dose & Cultural Insights</span>
+    <h2 data-translate-key="daily_dose_title">Fact & Idiom of the Day 💡</h2>
   </div>
   <div class="daily-grid">
-    </div>
     <div class="daily-card reveal" data-bg="🤣">
-      <h3 data-translate-key="fun_fact_title">Curiosidad del día 🤣</h3>
-      <div class="daily-content" id="fun-fact-of-the-day" data-translate-key="fun_fact_placeholder">Cargando...</div>
+      <h3 data-translate-key="fun_fact_title">Fact of the Day 🤣</h3>
+      <div class="daily-content" id="fun-fact-of-the-day" data-translate-key="fun_fact_placeholder">Loading...</div>
+    </div>
+    <div class="daily-card reveal" data-bg="💡">
+      <h3 data-translate-key="idiom_title">Idiom of the Day 💬</h3>
+      <div class="daily-content" id="idiom-of-the-day">Loading...</div>
     </div>
   </div>
 </section>
 
 <!-- Learning resources -->
+<!-- Interactive Reference Engines & Practice -->
+<section id="interactive-tools">
+  <div class="sec-head reveal">
+    <span class="sec-tag">🛠️ Interactive Tools</span>
+    <h2>Interactive Apps & Practice</h2>
+    <p>Practice Español with interactive reference engines, drills, and learning games.</p>
+  </div>
+  <div class="resources-grid">
+
+
+    <a href="../../practice/index.html?lang=ES" class="resource-card reveal">
+      <div class="rc-icon">💡</div>
+      <div class="rc-name">Interactive Practice</div>
+      <div class="rc-desc">Free exercises, quizzes & listening tasks for Español.</div>
+      <div class="rc-link">Practice Now →</div>
+    </a>
+    <a href="../../games/index.html?lang=ES" class="resource-card reveal">
+      <div class="rc-icon">🎮</div>
+      <div class="rc-name">Language Games</div>
+      <div class="rc-desc">Vocabulary & grammar games to test your fluency.</div>
+      <div class="rc-link">Play Games →</div>
+    </a>
+  </div>
+</section>
+
 <section id="resources">
   <div class="sec-head reveal">
     <span class="sec-tag" data-translate-key="sec_tag_tools">📚 Herramientas de aprendizaje</span>
@@ -179,6 +208,27 @@ if ('serviceWorker' in navigator) {
   <div class="country-panel" id="country-es">
     <div class="country-name">🇪🇸 España</div>
       <div class="shop-category">
+        <h4>🏢 Vivienda, Alquiler e Inmobiliaria</h4>
+        <div class="shop-grid">
+          <a href="https://www.idealista.com/" target="_blank" class="shop-card">
+            <div class="sc-name">Idealista ES</div>
+            <div class="sc-desc">El portal inmobiliario líder en España para alquilar y comprar.</div>
+          </a>
+          <a href="https://www.fotocasa.es/" target="_blank" class="shop-card">
+            <div class="sc-name">Fotocasa</div>
+            <div class="sc-desc">Pisos y habitaciones en alquiler en España.</div>
+          </a>
+          <a href="https://www.milanuncios.com/" target="_blank" class="shop-card">
+            <div class="sc-name">Milanuncios</div>
+            <div class="sc-desc">Clasificados de viviendas, coches y servicios.</div>
+          </a>
+          <a href="https://www.habitaclia.com/" target="_blank" class="shop-card">
+            <div class="sc-name">Habitaclia</div>
+            <div class="sc-desc">Portal inmobiliario de viviendas y alquileres.</div>
+          </a>
+        </div>
+      </div>
+      <div class="shop-category">
         <h4>💄 Moda y Belleza</h4>
         <div class="shop-grid">
           <a href="https://www.zara.com/es/" target="_blank" class="shop-card">
@@ -207,6 +257,19 @@ if ('serviceWorker' in navigator) {
   </div>
   <div class="country-panel" id="country-mx">
     <div class="country-name">🇲🇽 México</div>
+      <div class="shop-category">
+        <h4>🏢 Vivienda, Alquiler e Inmobiliaria</h4>
+        <div class="shop-grid">
+          <a href="https://www.inmuebles24.com/" target="_blank" class="shop-card">
+            <div class="sc-name">Inmuebles24</div>
+            <div class="sc-desc">Portal inmobiliario líder en México.</div>
+          </a>
+          <a href="https://www.mercadolibre.com.mx/" target="_blank" class="shop-card">
+            <div class="sc-name">Mercado Libre MX</div>
+            <div class="sc-desc">Inmuebles, alquileres y mercado online.</div>
+          </a>
+        </div>
+      </div>
       <div class="shop-category">
         <h4>🛍️ Compras Generales</h4>
         <div class="shop-grid">
