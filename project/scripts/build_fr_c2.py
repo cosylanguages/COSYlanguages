@@ -1,0 +1,444 @@
+import json
+
+def build_c2():
+    units = [
+        {
+            "unit": 1,
+            "title": "Unité 1 : Poétique, critique littéraire et herméneutique",
+            "lessons": [
+                {
+                    "lesson": 1,
+                    "type": "vocab",
+                    "title": "Rhétorique et subtilités sociolinguistiques",
+                    "duration_minutes": 60,
+                    "vocabulary": [
+                        "Érudition",
+                        "Sous-entendu",
+                        "Allégorie",
+                        "Aphorisme",
+                        "Quintessence",
+                        "Herméneutique",
+                        "Mise en abyme",
+                        "Chiasme",
+                        "Prosodie",
+                        "Polyphonie"
+                    ],
+                    "practice_types": ["reading", "listening", "speaking", "writing"],
+                    "speaking_percent": 45,
+                    "teacher_notes": "code: \"FR-C2-001\"\npronunciation: [{\"point\":\"Prononciation et prosodie littéraire\",\"explain\":\"Maîtriser la diction et le rythme des figures de style classiques et termes de poétique.\",\"examples\":[{\"pattern\":\"quintessence\",\"ipa\":\"/kɛ̃.tɛ.sɑ̃s/\",\"word\":\"quintessence\"}],\"visual\":\"📖\"}]\ncando: \"Peut analyser la structure narrative, les figures de style et les cadences poétiques au niveau littéraire le plus élevé\"",
+                    "recycled": "Carried over from C1: Nominalisation stylistique et rythme de la phrase, Place des adjectifs et modificateurs, Clair-obscur"
+                },
+                {
+                    "lesson": 2,
+                    "type": "grammar",
+                    "title": "Inversion stylistique du sujet et cadence poétique",
+                    "duration_minutes": 60,
+                    "grammar": [
+                        "Inversion stylistique du sujet dans la prose littéraire (Sur la colline s'élevait la ruine antique...)",
+                        "Chiasme, parallélisme et équilibre rythmique des propositions"
+                    ],
+                    "practice_types": ["writing", "reading", "speaking"],
+                    "speaking_percent": 50,
+                    "teacher_notes": "code: \"FR-C2-002\"\ncando: \"Peut composer une prose littéraire très élaborée en utilisant le chiasme, le parallélisme et l'inversion stylistique\"",
+                    "recycled": "Herméneutique, Mise en abyme, Polyphonie"
+                }
+            ]
+        },
+        {
+            "unit": 2,
+            "title": "Unité 2 : Éloquence, art oratoire et persuasion",
+            "lessons": [
+                {
+                    "lesson": 1,
+                    "type": "vocab",
+                    "title": "Art oratoire classique, Éthos et discours politique",
+                    "duration_minutes": 60,
+                    "vocabulary": [
+                        "Art oratoire",
+                        "Éthos",
+                        "Pathos",
+                        "Logos",
+                        "Démagogie",
+                        "Invective",
+                        "Polémique",
+                        "Péroraison",
+                        "Posture rhétorique",
+                        "Élocution"
+                    ],
+                    "practice_types": ["speaking", "listening", "reading", "writing"],
+                    "speaking_percent": 55,
+                    "teacher_notes": "code: \"FR-C2-003\"\npronunciation: [{\"point\":\"Prosodie oratoire sans contrainte\",\"explain\":\"Utiliser des pauses stratégiques, l'accentuation nucléaire et les contours intonatifs dans les discours magistraux.\",\"examples\":[{\"pattern\":\"péroraison\",\"ipa\":\"/pe.ʁɔ.ʁɛ.zɔ̃/\",\"word\":\"péroraison\"}],\"visual\":\"🎙️\"}]\ncando: \"Peut prononcer des discours publics captivants et utiliser les figures oratoires classiques de manière naturelle\"",
+                    "recycled": "Inversion stylistique du sujet dans la prose littéraire, Chiasme, parallélisme et équilibre rythmique, Polyphonie"
+                },
+                {
+                    "lesson": 2,
+                    "type": "grammar",
+                    "title": "Changements de registre et focalisation naturelle",
+                    "duration_minutes": 60,
+                    "grammar": [
+                        "Changements de registre : passer sans heurt du registre académique soutenu à l'idiome familier ou métaphorique",
+                        "Structure et ajustement focal du discours natif"
+                    ],
+                    "practice_types": ["speaking", "listening", "reading", "writing"],
+                    "speaking_percent": 60,
+                    "teacher_notes": "code: \"FR-C2-004\"\ncando: \"Peut exécuter des changements de registre sans effort pour s'adapter à tout contexte de communication à haut enjeu\"",
+                    "recycled": "Inversion stylistique du sujet dans la prose littéraire, Chiasme, parallélisme et équilibre, Péroraison"
+                }
+            ]
+        },
+        {
+            "unit": 3,
+            "title": "Unité 3 : Herméneutique philosophique et critique épistémologique",
+            "lessons": [
+                {
+                    "lesson": 1,
+                    "type": "vocab",
+                    "title": "Herméneutique, Ontologie et discours philosophique",
+                    "duration_minutes": 60,
+                    "vocabulary": [
+                        "Herméneutique",
+                        "Ontologie",
+                        "Phénoménologie",
+                        "Dialectique",
+                        "Déterminisme",
+                        "Existentialisme",
+                        "Solipsisme",
+                        "Téléologie",
+                        "Paradigme",
+                        "Interroger"
+                    ],
+                    "practice_types": ["reading", "listening", "speaking", "writing"],
+                    "speaking_percent": 45,
+                    "teacher_notes": "code: \"FR-C2-005\"\ncando: \"Peut analyser des traités philosophiques complexes et naviguer aisément dans le débat ontologique\"",
+                    "recycled": "Changements de registre, Structure et ajustement focal du discours, Péroraison"
+                },
+                {
+                    "lesson": 2,
+                    "type": "grammar",
+                    "title": "Nuances modales subtiles, spéculation et ironie",
+                    "duration_minutes": 60,
+                    "grammar": [
+                        "Nuances modales extrêmement fines pour la spéculation hypothétique (Arait dû être interprété comme, Eût pu être conçu)",
+                        "Ironie, litote et double négation au service de la posture philosophique"
+                    ],
+                    "practice_types": ["writing", "reading", "speaking"],
+                    "speaking_percent": 50,
+                    "teacher_notes": "code: \"FR-C2-006\"\ncando: \"Peut véhiculer une ironie subtile, utiliser la litote et exprimer des réserves épistémiques délicates dans un commentaire érudit\"",
+                    "recycled": "Changements de registre, Structure et ajustement focal du discours, Téléologie"
+                }
+            ]
+        },
+        {
+            "unit": 4,
+            "title": "Unité 4 : Direction stratégique et négociations de haut niveau",
+            "lessons": [
+                {
+                    "lesson": 1,
+                    "type": "vocab",
+                    "title": "Stratégie d'entreprise, gouvernance et leadership",
+                    "duration_minutes": 60,
+                    "vocabulary": [
+                        "Devoir de fiducie",
+                        "Offre publique d'achat (OPA) hostile",
+                        "Bilan consolidé",
+                        "Désinvestissement",
+                        "Restructuration",
+                        "Alignement des parties prenantes",
+                        "Mandat exécutif",
+                        "Synergie",
+                        "Allocation d'actifs",
+                        "Atténuation des risques"
+                    ],
+                    "practice_types": ["speaking", "listening", "reading", "writing"],
+                    "speaking_percent": 55,
+                    "teacher_notes": "code: \"FR-C2-007\"\ncando: \"Peut présider des conseils d'administration, piloter des acquisitions d'entreprise et gérer les litiges d'actionnaires\"",
+                    "recycled": "Nuances modales extrêmement fines, Ironie, litote et double négation, Téléologie"
+                },
+                {
+                    "lesson": 2,
+                    "type": "grammar",
+                    "title": "Diplomatie de crise, atténuation et résolution d'impasse",
+                    "duration_minutes": 60,
+                    "grammar": [
+                        "Précautions oratoires et cadrage de position lors d'impasses au conseil d'administration",
+                        "Clauses participiales et infinitives réduites dans les accords exécutifs"
+                    ],
+                    "practice_types": ["speaking", "listening"],
+                    "speaking_percent": 65,
+                    "teacher_notes": "code: \"FR-C2-008\"\ncando: \"Peut débloquer des situations de crise, médiatiser des conflits exécutifs et rédiger des conventions d'entreprise de haut niveau\"",
+                    "recycled": "Nuances modales extrêmement fines, Ironie, litote et double négation, Synergie"
+                }
+            ]
+        },
+        {
+            "unit": 5,
+            "title": "Unité 5 : Doctrine juridique, jurisprudence constitutionnelle et gouvernance",
+            "lessons": [
+                {
+                    "lesson": 1,
+                    "type": "vocab",
+                    "title": "Avis juridiques, cours d'appel et interprétation de la loi",
+                    "duration_minutes": 60,
+                    "vocabulary": [
+                        "Amicus curiae",
+                        "Pourvoi en cassation",
+                        "Obiter dictum",
+                        "Ratio decidendi",
+                        "Exégèse légale",
+                        "Jurisprudentiel",
+                        "Injonction",
+                        "Responsabilité délictiuelle",
+                        "Mise en examen",
+                        "Recours constitutionnel"
+                    ],
+                    "practice_types": ["reading", "listening", "speaking", "writing"],
+                    "speaking_percent": 45,
+                    "teacher_notes": "code: \"FR-C2-009\"\ncando: \"Peut comprendre et critiquer les décisions de justice des cours suprêmes, la doctrine juridique et les mémoires constitutionnels\"",
+                    "recycled": "Précautions oratoires et cadrage de position, Clauses participiales et infinitives réduites, Synergie"
+                },
+                {
+                    "lesson": 2,
+                    "type": "grammar",
+                    "title": "Archaïsmes juridiques et syntaxe de la doctrine",
+                    "duration_minutes": 60,
+                    "grammar": [
+                        "Syntaxe juridique classique : modificateurs prépositionnels et adverbes soutenus (ci-après, susvisé, nonobstant)",
+                        "Conditionnalité complexe dans la rédaction réglementaire"
+                    ],
+                    "practice_types": ["writing", "reading", "speaking"],
+                    "speaking_percent": 45,
+                    "teacher_notes": "code: \"FR-C2-010\"\ncando: \"Peut analyser et rédiger une syntaxe juridique formelle, des clauses statutaires et des arguments de cassation\"",
+                    "recycled": "Précautions oratoires et cadrage de position, Clauses participiales et infinitives réduites, Responsabilité délictiuelle"
+                }
+            ]
+        },
+        {
+            "unit": 6,
+            "title": "Unité 6 : Érudition culturelle, allusions et réseaux métaphoriques",
+            "lessons": [
+                {
+                    "lesson": 1,
+                    "type": "vocab",
+                    "title": "Allusions littéraires, emprunts classiques et métaphores complexes",
+                    "duration_minutes": 60,
+                    "vocabulary": [
+                        "Donquichottesque",
+                        "Byzantin",
+                        "Kafkaïen",
+                        "Machiavélique",
+                        "Victoire à la Pyrrhus",
+                        "Nœud gordien",
+                        "Franchir le Rubicon",
+                        "Augure",
+                        "Dilemme cornélien",
+                        "Pierre de touche"
+                    ],
+                    "practice_types": ["speaking", "listening", "reading", "writing"],
+                    "speaking_percent": 60,
+                    "teacher_notes": "code: \"FR-C2-011\"\ncando: \"Peut employer spontanément des allusions littéraires et historiques classiques dans une conversation de haut niveau\"",
+                    "recycled": "Syntaxe juridique classique, Conditionnalité complexe dans la rédaction réglementaire, Responsabilité délictiuelle"
+                },
+                {
+                    "lesson": 2,
+                    "type": "grammar",
+                    "title": "Transformations de registres et polyphonie stylistique",
+                    "duration_minutes": 60,
+                    "grammar": [
+                        "Transformation multi-registres fluide à travers 6 registres (Informatif, Entreprise, Académique, Journalistique, Juridique, Poétique)",
+                        "Rythme de phrase polyphonique et contrôle de la cadence stylistique"
+                    ],
+                    "practice_types": ["speaking", "writing", "reading"],
+                    "speaking_percent": 55,
+                    "teacher_notes": "code: \"FR-C2-012\"\ncando: \"Peut transformer des arguments sémantiques complexes sans perte de sens à travers six registres stylistiques distincts\"",
+                    "recycled": "Syntaxe juridique classique, Conditionnalité complexe dans la rédaction réglementaire, Augure"
+                }
+            ]
+        },
+        {
+            "unit": 7,
+            "title": "Unité 7 : Précision et nuance (Micro-distinctions sémantiques et posture)",
+            "lessons": [
+                {
+                    "lesson": 1,
+                    "type": "vocab",
+                    "title": "Précision lexicale, connotation et micro-distinctions sémantiques",
+                    "duration_minutes": 60,
+                    "vocabulary": [
+                        "Euphemistique",
+                        "Péjoratif",
+                        "Incisif",
+                        "Pédant",
+                        "Équivoque",
+                        "Univoque",
+                        "Tautologique",
+                        "Specieux",
+                        "Pertinent",
+                        "Fastidieux"
+                    ],
+                    "practice_types": ["speaking", "listening", "reading", "writing"],
+                    "speaking_percent": 55,
+                    "teacher_notes": "code: \"FR-C2-013\"\npronunciation: [{\"point\":\"Accentuation connotative et phonostylistique\",\"explain\":\"Moduler le contour intonatif pour signaler les nuances pejoratives ou élogieuses.\",\"examples\":[{\"pattern\":\"argument spécieux\",\"ipa\":\"/spe.sjø/\",\"word\":\"spécieux\"}],\"visual\":\"🎯\"}]\ncando: \"Peut choisir le vocabulaire avec une précision chirurgicale pour transmettre la connotation émotionnelle et la posture exacte\"",
+                    "recycled": "Transformation multi-registres fluide, Rythme de phrase polyphonique, Augure"
+                },
+                {
+                    "lesson": 2,
+                    "type": "grammar",
+                    "title": "Précision grammaticale, adverbes de portée et ajustement syntaxique",
+                    "duration_minutes": 60,
+                    "grammar": [
+                        "Contrôle de portée exacte avec les adverbes de cadrage (précisément, exclusivement, éminemment, ostensiblement, prétendument)",
+                        "Modifications de portée dans le placement des modificateurs pré- et post-nominaux"
+                    ],
+                    "practice_types": ["speaking", "writing", "reading"],
+                    "speaking_percent": 55,
+                    "teacher_notes": "code: \"FR-C2-014\"\ncando: \"Peut affiner la portée syntaxique au moyen d'adverbes de précision et du placement des adjectifs sans introduire d'ambiguïté\"",
+                    "recycled": "Transformation multi-registres fluide, Rythme de phrase polyphonique, Specieux"
+                }
+            ]
+        },
+        {
+            "unit": 8,
+            "title": "Unité 8 : Produits dérivés macroéconomiques, théorie des jeux et haute finance",
+            "lessons": [
+                {
+                    "lesson": 1,
+                    "type": "vocab",
+                    "title": "Finance quantitative, produits dérivés et théorie des jeux",
+                    "duration_minutes": 60,
+                    "vocabulary": [
+                        "Arbitrage",
+                        "Équilibre de Nash",
+                        "Obligation adossée à des actifs",
+                        "Couverture de défaillance",
+                        "Insolvabilité systémique",
+                        "Assouplissement quantitatif",
+                        "Consolidation budgétaire",
+                        "Fuite des capitaux",
+                        "Élasticité-prix",
+                        "Transmission monétaire"
+                    ],
+                    "practice_types": ["reading", "listening", "speaking", "writing"],
+                    "speaking_percent": 50,
+                    "teacher_notes": "code: \"FR-C2-015\"\ncando: \"Peut évaluer les structures financières complexes, les équilibres de théorie des jeux et les politiques des banques centrales\"",
+                    "recycled": "Contrôle de portée exacte avec les adverbes de cadrage, Modifications de portée dans le placement, Specieux"
+                },
+                {
+                    "lesson": 2,
+                    "type": "grammar",
+                    "title": "Posture hypothétique et conditionnelles complexes en modélisation",
+                    "duration_minutes": 60,
+                    "grammar": [
+                        "Inversions du troisième degré et structures hypothétiques mixtes dans les prévisions économétriques",
+                        "Techniques de qualification parenthetique (tirés et point-virgule) dans les rapports financiers"
+                    ],
+                    "practice_types": ["writing", "reading", "speaking"],
+                    "speaking_percent": 50,
+                    "teacher_notes": "code: \"FR-C2-016\"\ncando: \"Peut modéliser des contingences économiques complexes et rédiger des rapports économétriques avec inversions et incises\"",
+                    "recycled": "Contrôle de portée exacte avec les adverbes de cadrage, Modifications de portée dans le placement, Fuite des capitaux"
+                }
+            ]
+        },
+        {
+            "unit": 9,
+            "title": "Unité 9 : Cybernétique avancée, informatique quantique et gouvernance numérique",
+            "lessons": [
+                {
+                    "lesson": 1,
+                    "type": "vocab",
+                    "title": "Informatique quantique, cybernétique et éthique des algorithmes",
+                    "duration_minutes": 60,
+                    "vocabulary": [
+                        "Intrication quantique",
+                        "Superposition",
+                        "Gouvernance algorithmique",
+                        "IA générative",
+                        "Architecture zéro confiance",
+                        "Registre distribué",
+                        "Rétroaction cybernétique",
+                        "Optimisation des réseaux de neurones",
+                        "Souveraineté des données",
+                        "Agent autonome"
+                    ],
+                    "practice_types": ["reading", "listening", "speaking", "writing"],
+                    "speaking_percent": 50,
+                    "teacher_notes": "code: \"FR-C2-017\"\ncando: \"Peut débattre des avancées de pointe en informatique quantique, architecture cybernétique et éthique algorithmique\"",
+                    "recycled": "Inversions du troisième degré et structures hypothétiques mixtes, Techniques de qualification parenthetique, Fuite des capitaux"
+                },
+                {
+                    "lesson": 2,
+                    "type": "grammar",
+                    "title": "Principe du poids final, focalisation et extraposition",
+                    "duration_minutes": 60,
+                    "grammar": [
+                        "Principe du poids final (end-weight) dans le discours technique et cybernétique dense",
+                        "Extraposition de propositions sujets (Il est communément admis au sein des cercles cybernétiques que...)"
+                    ],
+                    "practice_types": ["writing", "reading", "speaking"],
+                    "speaking_percent": 50,
+                    "teacher_notes": "code: \"FR-C2-018\"\ncando: \"Peut structurer des analyses techniques et cybernétiques denses en appliquant le poids final, le focus final et l'extraposition\"",
+                    "recycled": "Inversions du troisième degré et structures hypothétiques mixtes, Techniques de qualification parenthetique, Optimisation des réseaux de neurones"
+                }
+            ]
+        },
+        {
+            "unit": 10,
+            "title": "Unité 10 : Synthèse, rhétorique magistrale et intégration C2",
+            "lessons": [
+                {
+                    "lesson": 1,
+                    "type": "vocab",
+                    "title": "Locutions latines et expressions soutenues du discours érudit",
+                    "duration_minutes": 60,
+                    "vocabulary": [
+                        "Prima facie",
+                        "De facto",
+                        "Raison d'être",
+                        "Statu quo",
+                        "Ad hoc",
+                        "Vice versa",
+                        "Carte blanche",
+                        "Coup d'État",
+                        "Magnum opus",
+                        "Zeitgeist"
+                    ],
+                    "practice_types": ["speaking", "listening", "reading", "writing"],
+                    "speaking_percent": 60,
+                    "teacher_notes": "code: \"FR-C2-019\"\ncando: \"Peut intégrer de façon transparente des locutions latines et des expressions classiques soutenues dans le discours professionnel et érudit\"",
+                    "recycled": "Principe du poids final dans le discours technique, Extraposition de propositions sujets, Optimisation des réseaux de neurones"
+                },
+                {
+                    "lesson": 2,
+                    "type": "srev",
+                    "title": "Examen de Maîtrise Bilan et Aisance Bilingue / Native C2",
+                    "duration_minutes": 90,
+                    "grammar": [
+                        "Évaluation de la maîtrise de l'ensemble des piliers C2 : poétique, rhétorique, herméneutique, précision lexicale, direction stratégique, doctrine juridique et finance quantitative"
+                    ],
+                    "vocabulary": [
+                        "TOUT le lexique encyclopédique C2",
+                        "Réseaux d'allusions et de métaphores C2",
+                        "Réseaux de transformation de registres C2"
+                    ],
+                    "practice_types": ["speaking", "listening", "reading", "writing"],
+                    "speaking_percent": 80,
+                    "teacher_notes": "code: \"FR-C2-020\"\ncando: \"Démontre une aisance naturelle équivalente à celle d'un locuteur natif instruit, un contrôle stylistique total et une érudition culturelle sans contrainte dans tous les domaines\"",
+                    "recycled": "Principe du poids final dans le discours technique, Extraposition de propositions sujets, Coup d'État"
+                }
+            ]
+        }
+    ]
+
+    data = {
+        "language": "fr",
+        "course_type": "general",
+        "level": "C2",
+        "units": units
+    }
+
+    with open('curriculum/fr/general/C2.json', 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    print("C2 generated successfully with", sum(len(u['lessons']) for u in units), "lessons across", len(units), "units.")
+
+if __name__ == '__main__':
+    build_c2()
