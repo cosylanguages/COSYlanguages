@@ -5,7 +5,253 @@
   "units": [
     {
       "unit": 1,
-      "title": "Business Negotiations & Workplace Leadership",
+      "title": "Advanced Business Correspondence & Written Reports",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Formal Business Reports & Executive Summaries",
+          "grammar": [
+            "Passive voice for objective analytical reporting",
+            "Complex nominal phrases in report headers"
+          ],
+          "vocabulary": [
+            "Executive summary",
+            "Findings",
+            "Methodology",
+            "Recommendation",
+            "Evaluation",
+            "Assessment"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-001\"\ncando: \"Can write formal business reports and concise executive summaries for management.\"",
+          "recycled": "Foundational communication & basic level vocabulary"
+        },
+        {
+          "lesson": 2,
+          "type": "gv",
+          "title": "Writing Persuasive Business Proposals & Charters",
+          "grammar": [
+            "Modal auxiliaries of recommendation (should, ought to, would advise)",
+            "Discourse markers of cause, effect, and rationale (accordingly, furthermore)"
+          ],
+          "vocabulary": [
+            "Proposal",
+            "Feasibility",
+            "Justification",
+            "Objective",
+            "Scope",
+            "Resource"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-002\"\ncando: \"Can draft compelling project proposals and business charters justifying resource allocation.\"",
+          "recycled": "Passive voice for objective analytical reporting, Assessment"
+        },
+        {
+          "lesson": 3,
+          "type": "gv",
+          "title": "Complex Workplace Enquiries, Complaints & Crisis Communication",
+          "grammar": [
+            "Subjunctive and formal conditional structures for delicate matters",
+            "Hedging and diplomatic language to minimize conflict"
+          ],
+          "vocabulary": [
+            "Escalation",
+            "Liability",
+            "Mitigate",
+            "Rectify",
+            "Compliance",
+            "Incident"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-003\"\ncando: \"Can compose formal responses to complex client complaints and mitigate workplace crisis situations.\"",
+          "recycled": "Modal auxiliaries of recommendation, Feasibility"
+        },
+        {
+          "lesson": 4,
+          "type": "spoken",
+          "title": "Cross-Departmental Announcements & Policy Updates",
+          "grammar": [
+            "Future Perfect and Future Continuous for organizational timelines",
+            "Imperative structures for formal compliance guidelines"
+          ],
+          "vocabulary": [
+            "Policy",
+            "Procedure",
+            "Department",
+            "Adherence",
+            "Implementation",
+            "Directive"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-004\"\ncando: \"Can write clear company-wide policy updates and cross-departmental operational directives.\"",
+          "recycled": "Subjunctive and formal conditional structures for delicate matters, Compliance"
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Meetings, Facilitation & Team Leadership",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "spoken",
+          "title": "Chairing Meetings & Managing Agendas",
+          "grammar": [
+            "Signposting for agenda management (Let's turn our attention to, Moving to item two)",
+            "Imperative and modal control structures (Let us keep to the timeframe)"
+          ],
+          "vocabulary": [
+            "Chair",
+            "Agenda",
+            "Timeframe",
+            "Discussion",
+            "Action item",
+            "Focus"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-005\"\ncando: \"Can effectively chair professional meetings, keep attendees focused, and manage agendas.\"",
+          "recycled": "Future Perfect and Future Continuous for organizational timelines, Adherence"
+        },
+        {
+          "lesson": 2,
+          "type": "spoken",
+          "title": "Managing Conflicting Views & Mediating Team Debates",
+          "grammar": [
+            "Tactful disagreement phrases (I appreciate that perspective, however...)",
+            "Third conditional for analyzing past team missteps"
+          ],
+          "vocabulary": [
+            "Mediate",
+            "Perspective",
+            "Conflict",
+            "Resolution",
+            "Common ground",
+            "Compromise"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-006\"\ncando: \"Can mediate conflicting viewpoints and steer team debates toward constructive resolution.\"",
+          "recycled": "Signposting for agenda management, Timeframe"
+        },
+        {
+          "lesson": 3,
+          "type": "gv",
+          "title": "Leading Virtual & Hybrid Team Conferences",
+          "grammar": [
+            "Indirect questions for polling audience opinion",
+            "Technical error handling phrases (You appear to be muted, let me re-share)"
+          ],
+          "vocabulary": [
+            "Hybrid",
+            "Bandwidth",
+            "Muted",
+            "Breakout room",
+            "Collaboration",
+            "Platform"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-007\"\ncando: \"Can smoothly lead virtual or hybrid business conferences and manage interactive breakout sessions.\"",
+          "recycled": "Tactful disagreement phrases, Common ground"
+        },
+        {
+          "lesson": 4,
+          "type": "vocab",
+          "title": "Summarizing Consensus & Assigning Strategic Action Items",
+          "grammar": [
+            "Reported speech with complex reporting verbs (urge, confirm, task)",
+            "Passive assignment structures (X is tasked with delivering Y)"
+          ],
+          "vocabulary": [
+            "Consensus",
+            "Accountability",
+            "Milestone",
+            "Owner",
+            "Deadline",
+            "Deliverable"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-008\"\ncando: \"Can summarize complex meeting outcomes, record consensus, and assign strategic action items.\"",
+          "recycled": "Indirect questions for polling audience opinion, Collaboration"
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Presentations, Slide Decks & Pitching",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "spoken",
+          "title": "Delivering Corporate Presentations & Q&A",
+          "grammar": [
+            "Signposting language",
+            "Passive voice for objective reporting"
+          ],
+          "vocabulary": [
+            "Overview",
+            "Metric",
+            "Strategy",
+            "Forecast",
+            "Stakeholder",
+            "ROI"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-009\"\ncando: \"Can structure and deliver professional slide presentations and manage audience Q&A.\"",
+          "recycled": "Reported speech with complex reporting verbs, Accountability"
+        },
+        {
+          "lesson": 2,
+          "type": "spoken",
+          "title": "Pitching Ideas & Products to Stakeholders",
+          "grammar": [
+            "Rhetorical questions for audience engagement",
+            "Emphatic structures (What makes this product unique is...)"
+          ],
+          "vocabulary": [
+            "Pitch",
+            "Value proposition",
+            "Differentiator",
+            "Investor",
+            "Buy-in",
+            "Scalability"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-010\"\ncando: \"Can deliver persuasive sales or idea pitches to internal and external stakeholders.\"",
+          "recycled": "Signposting language, Strategy, Metric"
+        },
+        {
+          "lesson": 3,
+          "type": "gv",
+          "title": "Presenting Financial Forecasts & Performance Metrics",
+          "grammar": [
+            "Modifying comparatives for data analysis (significantly higher, considerably lower)",
+            "Complex prepositional phrases for financial trends (in comparison with, relative to)"
+          ],
+          "vocabulary": [
+            "Revenue",
+            "Margin",
+            "Projection",
+            "Quarter",
+            "Variance",
+            "Growth"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-011\"\ncando: \"Can present detailed quarterly financial figures, projections, and performance variance.\"",
+          "recycled": "Rhetorical questions for audience engagement, Value proposition"
+        },
+        {
+          "lesson": 4,
+          "type": "spoken",
+          "title": "Handling Tough Q&A & Challenging Audience Questions",
+          "grammar": [
+            "Polite deflection and delaying tactics (I will have to consult our data on that)",
+            "Conditional hedging (Under certain circumstances, that might apply)"
+          ],
+          "vocabulary": [
+            "Query",
+            "Challenge",
+            "Deflect",
+            "Clarify",
+            "Reassure",
+            "Address"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-012\"\ncando: \"Can navigate hostile or complex Q&A sessions during high-stakes presentations.\"",
+          "recycled": "Modifying comparatives for data analysis, Revenue"
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Commercial Negotiation & Persuasion",
       "lessons": [
         {
           "lesson": 1,
@@ -23,27 +269,229 @@
             "Agreement",
             "Concede"
           ],
-          "teacher_notes": "code: \"EN-PRO-B2-001\"\ncando: \"Can negotiate commercial terms and propose mutual trade-offs in business deals.\"",
-          "recycled": "Foundational communication & basic level vocabulary"
+          "teacher_notes": "code: \"EN-PRO-B2-013\"\ncando: \"Can negotiate commercial terms and propose mutual trade-offs in business deals.\"",
+          "recycled": "Polite deflection and delaying tactics, Challenge"
+        },
+        {
+          "lesson": 2,
+          "type": "gv",
+          "title": "Structuring Deal Terms & Contractual Trade-offs",
+          "grammar": [
+            "Mixed conditionals in negotiation (If we had signed earlier, we would be in a stronger position now)",
+            "Modal verbs of concession (We might accept X provided that you guarantee Y)"
+          ],
+          "vocabulary": [
+            "Clause",
+            "Stipulation",
+            "Exclusivity",
+            "Penalty",
+            "Renegotiate",
+            "Leverage"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-014\"\ncando: \"Can detail contractual terms, negotiate legal clauses, and establish mutual leverage.\"",
+          "recycled": "Conditionals (First & Second) in bargaining, Hedging language, Terms"
+        },
+        {
+          "lesson": 3,
+          "type": "gv",
+          "title": "Persuasive Techniques & Framing Value Propositions",
+          "grammar": [
+            "Cleft sentences for emphasis (It is the cost efficiency that sets us apart)",
+            "Persuasive adverbs (undoubtedly, compellingly, strategically)"
+          ],
+          "vocabulary": [
+            "Persuasion",
+            "Framing",
+            "Incentive",
+            "Return",
+            "Benefit",
+            "Advantage"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-015\"\ncando: \"Can use persuasive framing techniques to articulate competitive business advantages.\"",
+          "recycled": "Mixed conditionals in negotiation, Leverage"
+        },
+        {
+          "lesson": 4,
+          "type": "spoken",
+          "title": "Closing Business Deals & Formalizing Agreements",
+          "grammar": [
+            "Formal commitment structures (We hereby confirm, It is agreed that)",
+            "Infinitive clauses of purpose for legal commitment"
+          ],
+          "vocabulary": [
+            "Ratify",
+            "Binding",
+            "Memorandum",
+            "Finalize",
+            "Partnership",
+            "Execution"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-016\"\ncando: \"Can close commercial negotiations and formalize binding business agreements.\"",
+          "recycled": "Cleft sentences for emphasis, Framing"
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Professional Networking & Intercultural Relations",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "spoken",
+          "title": "Strategic Networking at Trade Fairs & Conventions",
+          "grammar": [
+            "Initiating conversations with strangers (I couldn't help noticing..., Are you attending the session on...)",
+            "Present Perfect Continuous for current industry projects"
+          ],
+          "vocabulary": [
+            "Convention",
+            "Exhibitor",
+            "Keynote",
+            "Delegate",
+            "Networking",
+            "Prospect"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-017\"\ncando: \"Can initiate professional relationships and network effectively at industry conventions.\"",
+          "recycled": "Formal commitment structures, Ratify"
         },
         {
           "lesson": 2,
           "type": "spoken",
-          "title": "Delivering Corporate Presentations & Q&A",
+          "title": "Building Client Relationships & Account Management",
           "grammar": [
-            "Signposting language",
-            "Passive voice for objective reporting"
+            "Relationship-building questions (How has your team been adapting to...)",
+            "Modal verbs for customer care (We would be delighted to assist)"
           ],
           "vocabulary": [
-            "Overview",
-            "Metric",
-            "Strategy",
-            "Forecast",
-            "Stakeholder",
-            "ROI"
+            "Account",
+            "Retention",
+            "Client",
+            "Satisfaction",
+            "Loyalty",
+            "Portfolio"
           ],
-          "teacher_notes": "code: \"EN-PRO-B2-002\"\ncando: \"Can structure and deliver professional slide presentations and manage audience Q&A.\"",
-          "recycled": "Conditionals (First & Second) in bargaining, Hedging language, Contract"
+          "teacher_notes": "code: \"EN-PRO-B2-018\"\ncando: \"Can nurture long-term client accounts and discuss ongoing service satisfaction.\"",
+          "recycled": "Initiating conversations with strangers, Delegate"
+        },
+        {
+          "lesson": 3,
+          "type": "vocab",
+          "title": "Cross-Cultural Negotiation & International Etiquette",
+          "grammar": [
+            "Indirect register shifts for cultural sensitivity",
+            "Modals of deduction regarding cultural expectations"
+          ],
+          "vocabulary": [
+            "Protocol",
+            "Hierarchy",
+            "Norm",
+            "Sensitivity",
+            "Diplomacy",
+            "Context"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-019\"\ncando: \"Can navigate international business etiquette and respect cross-cultural hierarchy norms.\"",
+          "recycled": "Relationship-building questions, Retention"
+        },
+        {
+          "lesson": 4,
+          "type": "spoken",
+          "title": "Socializing with Clients & Industry Dinners",
+          "grammar": [
+            "Conversational floor-sharing techniques",
+            "Expressing opinions on non-controversial industry topics"
+          ],
+          "vocabulary": [
+            "Host",
+            "Hospitality",
+            "Reception",
+            "Toast",
+            "Colleague",
+            "Gathering"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-020\"\ncando: \"Can host client dinners and engage in fluent social conversation with professional peers.\"",
+          "recycled": "Indirect register shifts for cultural sensitivity, Diplomacy"
+        }
+      ]
+    },
+    {
+      "unit": 6,
+      "title": "Career Advancement, Interviews & Performance Management",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Professional CV Optimization & LinkedIn Profiles",
+          "grammar": [
+            "Strong action verbs and concise bullet constructions",
+            "Quantified impact statements (Increased efficiency by 25%)"
+          ],
+          "vocabulary": [
+            "Competency",
+            "Accomplishment",
+            "Optimization",
+            "Endorsement",
+            "Profile",
+            "Track record"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-021\"\ncando: \"Can write a high-impact B2 CV and optimize professional LinkedIn profiles with quantified achievements.\"",
+          "recycled": "Conversational floor-sharing techniques, Host"
+        },
+        {
+          "lesson": 2,
+          "type": "gv",
+          "title": "High-Impact Job Interviews & The STAR Method",
+          "grammar": [
+            "Narrative tenses (Past Simple, Past Continuous, Past Perfect) for behavioral stories",
+            "Structuring answers: Situation, Task, Action, Result"
+          ],
+          "vocabulary": [
+            "Behavioral",
+            "Competency",
+            "Situation",
+            "Action",
+            "Result",
+            "Overcome"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-022\"\ncando: \"Can answer complex behavioral job interview questions using the STAR technique.\"",
+          "recycled": "Strong action verbs and concise bullet constructions, Accomplishment"
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Negotiating Salary, Benefits & Job Offers",
+          "grammar": [
+            "Conditionals and hedging in compensation discussions (I would be comfortable accepting if...)",
+            "Polite counter-proposal structures"
+          ],
+          "vocabulary": [
+            "Remuneration",
+            "Compensation",
+            "Benefits",
+            "Package",
+            "Relocation",
+            "Equity"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-023\"\ncando: \"Can negotiate job offer compensation packages, benefits, and working conditions confidently.\"",
+          "recycled": "Narrative tenses for behavioral stories, STAR Method, Overcome"
+        },
+        {
+          "lesson": 4,
+          "type": "srev",
+          "title": "Conducting & Receiving Performance Appraisals",
+          "grammar": [
+            "Constructive evaluation phrases (Demonstrates excellence in X, while growth is needed in Y)",
+            "Future target setting with continuous forms"
+          ],
+          "vocabulary": [
+            "Appraisal",
+            "Evaluation",
+            "Benchmark",
+            "KPI",
+            "Objective",
+            "Growth"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-024\"\ncando: \"Can lead or participate in B2-level performance appraisals, setting clear KPIs and growth benchmarks.\"",
+          "recycled": "Conditionals and hedging in compensation discussions, Remuneration"
         }
       ]
     }
