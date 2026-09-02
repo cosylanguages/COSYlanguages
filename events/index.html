@@ -153,29 +153,29 @@
 
 <main class="page">
 <!-- Welcoming Speaking Club Quick-Start Guide -->
-<section id="onboarding-guide" style="background: var(--cream-dark); border: 1.5px dashed var(--border); border-radius: var(--r-xl); padding: 2rem; margin-bottom: 2.5rem; box-sizing: border-box; scroll-margin-top: 80px;">
-<div style="display: flex; gap: 1.5rem; align-items: flex-start; flex-wrap: wrap;">
-<span style="font-size: 2.5rem; line-height: 1;">🧭</span>
-<div style="flex: 1; min-width: 280px;">
-<h3 style="margin: 0 0 0.5rem 0; font-family: var(--font-serif); font-size: 1.35rem; color: var(--sage-deep);">Speaking Club Quick-Start Guide</h3>
-<p style="margin: 0 0 1rem 0; font-size: 0.92rem; line-height: 1.6; color: var(--ink-soft);">
+<section id="onboarding-guide" class="ev-onboarding-guide">
+<div class="ev-qs-container">
+<span class="ev-qs-icon">🧭</span>
+<div class="ev-qs-body">
+<h3 class="ev-qs-title">Speaking Club Quick-Start Guide</h3>
+<p class="ev-qs-desc">
           New to our Speaking Clubs? Follow our level-calibrated roadmap to build confidence, expand vocabulary, and achieve conversational fluency with our native teachers.
         </p>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-top: 1rem;">
-<div style="background: white; padding: 1rem; border-radius: 12px; border: 1px solid var(--border); display: flex; flex-direction: column;">
-<strong style="color: #8A5200; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.25rem;">🌱 Beginner Friendly (A1–A2)</strong>
-<p style="margin: 0; font-size: 0.85rem; line-height: 1.4; color: var(--muted); flex-grow: 1;">Start with <strong>Let's Celebrate</strong> or <strong>The Greatest Quotes</strong>. Topics are tailored to everyday life, cultural rituals, and core vocabulary.</p>
-<a href="#browse" class="qs-level-link" data-level-group="A1-A2" style="display: inline-block; margin-top: 0.75rem; font-size: 0.82rem; font-weight: 700; color: var(--sage); text-decoration: none;">Show these sessions ➔</a>
+<div class="ev-qs-grid">
+<div class="ev-qs-card">
+<strong class="ev-qs-badge-beginner">🌱 Beginner Friendly (A1–A2)</strong>
+<p class="ev-qs-text">Start with <strong>Let's Celebrate</strong> or <strong>The Greatest Quotes</strong>. Topics are tailored to everyday life, cultural rituals, and core vocabulary.</p>
+<a href="#browse" class="qs-level-link ev-qs-link" data-level-group="A1-A2">Show these sessions ➔</a>
 </div>
-<div style="background: white; padding: 1rem; border-radius: 12px; border: 1px solid var(--border); display: flex; flex-direction: column;">
-<strong style="color: #993556; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.25rem;">🚀 Intermediate (B1–B2)</strong>
-<p style="margin: 0; font-size: 0.85rem; line-height: 1.4; color: var(--muted); flex-grow: 1;">Join <strong>My Life With &amp; Without</strong> or <strong>Debatable &amp; Relatable</strong>. Unpack personal choices, express regrets, and debate mild controversies.</p>
-<a href="#browse" class="qs-level-link" data-level-group="B1-B2" style="display: inline-block; margin-top: 0.75rem; font-size: 0.82rem; font-weight: 700; color: var(--sage); text-decoration: none;">Show these sessions ➔</a>
+<div class="ev-qs-card">
+<strong class="ev-qs-badge-intermediate">🚀 Intermediate (B1–B2)</strong>
+<p class="ev-qs-text">Join <strong>My Life With &amp; Without</strong> or <strong>Debatable &amp; Relatable</strong>. Unpack personal choices, express regrets, and debate mild controversies.</p>
+<a href="#browse" class="qs-level-link ev-qs-link" data-level-group="B1-B2">Show these sessions ➔</a>
 </div>
-<div style="background: white; padding: 1rem; border-radius: 12px; border: 1px solid var(--border); display: flex; flex-direction: column;">
-<strong style="color: #0F6E56; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.25rem;">🧠 Advanced (B2–C2)</strong>
-<p style="margin: 0; font-size: 0.85rem; line-height: 1.4; color: var(--muted); flex-grow: 1;">Challenge yourself in <strong>Keeping Up with Science</strong>, <strong>Mind Matters</strong>, or <strong>I Couldn't Help But Wonder</strong>. Discuss biology, psychology, and abstract philosophy.</p>
-<a href="#browse" class="qs-level-link" data-level-group="B2-C2" style="display: inline-block; margin-top: 0.75rem; font-size: 0.82rem; font-weight: 700; color: var(--sage); text-decoration: none;">Show these sessions ➔</a>
+<div class="ev-qs-card">
+<strong class="ev-qs-badge-advanced">🧠 Advanced (B2–C2)</strong>
+<p class="ev-qs-text">Challenge yourself in <strong>Keeping Up with Science</strong>, <strong>Mind Matters</strong>, or <strong>I Couldn't Help But Wonder</strong>. Discuss biology, psychology, and abstract philosophy.</p>
+<a href="#browse" class="qs-level-link ev-qs-link" data-level-group="B2-C2">Show these sessions ➔</a>
 </div>
 </div>
 </div>
@@ -183,11 +183,11 @@
 </div>
 </section>
 <!-- Section 4: Upcoming Events -->
-<section id="upcoming" style="scroll-margin-top: 80px;">
+<section id="upcoming" class="ev-scroll-section">
 <div class="upcoming-section">
 <span class="sec-tag">🆕 New Sessions</span>
 <h2 class="sec-h2">New sessions this week</h2>
-<div style="overflow-x: auto;">
+<div class="ev-table-responsive">
 <table class="events-table">
 <thead>
 <tr>
@@ -202,85 +202,85 @@
 <td>Do Bisexuals Really Have to Choose Their Sexuality in the Long Run?</td>
 <td>English</td>
 <td>Speaking Club (Wonder)</td>
-<td><a class="view-btn" href="../apps/premium-events/clubs/wonder/sessions/i-couldnt-help-but-wonder/do-bisexuals-have-to-choose.html" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">Explore Session ➔</a></td>
+<td><a class="view-btn ev-btn-compact" href="../apps/premium-events/clubs/wonder/sessions/i-couldnt-help-but-wonder/do-bisexuals-have-to-choose.html">Explore Session ➔</a></td>
 </tr>
 <tr>
 <td>Scientists Tracked Kids for 8 Years — Screen Time Result</td>
 <td>English</td>
 <td>Speaking Club (Science)</td>
-<td><a class="view-btn" href="../apps/premium-events/clubs/kus/sessions/keeping-up-with-science/screen-time-kids-8-years-intermediate.html" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">Explore Session ➔</a></td>
+<td><a class="view-btn ev-btn-compact" href="../apps/premium-events/clubs/kus/sessions/keeping-up-with-science/screen-time-kids-8-years-intermediate.html">Explore Session ➔</a></td>
 </tr>
 <tr>
 <td>Multilingual People Have Younger Brains (A2)</td>
 <td>English</td>
 <td>Speaking Club (Science)</td>
-<td><a class="view-btn" href="../apps/premium-events/clubs/kus/sessions/keeping-up-with-science/multilingual-younger-brains-elementary.html" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">Explore Session ➔</a></td>
+<td><a class="view-btn ev-btn-compact" href="../apps/premium-events/clubs/kus/sessions/keeping-up-with-science/multilingual-younger-brains-elementary.html">Explore Session ➔</a></td>
 </tr>
 <tr>
 <td>Multilingual People Have Younger Brains (B1)</td>
 <td>English</td>
 <td>Speaking Club (Science)</td>
-<td><a class="view-btn" href="../apps/premium-events/clubs/kus/sessions/keeping-up-with-science/multilingual-younger-brains-intermediate.html" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">Explore Session ➔</a></td>
+<td><a class="view-btn ev-btn-compact" href="../apps/premium-events/clubs/kus/sessions/keeping-up-with-science/multilingual-younger-brains-intermediate.html">Explore Session ➔</a></td>
 </tr>
 <tr>
 <td>Coffee Drinkers: Fat, Muscle, and Hormones</td>
 <td>English</td>
 <td>Speaking Club (Science)</td>
-<td><a class="view-btn" href="../apps/premium-events/clubs/kus/sessions/keeping-up-with-science/coffee-fat-muscle-hormones-advanced.html" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">Explore Session ➔</a></td>
+<td><a class="view-btn ev-btn-compact" href="../apps/premium-events/clubs/kus/sessions/keeping-up-with-science/coffee-fat-muscle-hormones-advanced.html">Explore Session ➔</a></td>
 </tr>
 <tr>
 <td>Rewriting the Human Family Tree</td>
 <td>English</td>
 <td>Speaking Club (Science)</td>
-<td><a class="view-btn" href="../apps/premium-events/clubs/kus/sessions/keeping-up-with-science/human-family-tree-rewrite-advanced.html" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">Explore Session ➔</a></td>
+<td><a class="view-btn ev-btn-compact" href="../apps/premium-events/clubs/kus/sessions/keeping-up-with-science/human-family-tree-rewrite-advanced.html">Explore Session ➔</a></td>
 </tr>
 <tr>
 <td>Kiss and Make Up Day</td>
 <td>English</td>
 <td>Speaking Club (Celebrate)</td>
-<td><a class="view-btn" href="../apps/premium-events/clubs/celebrate/sessions/lets-celebrate/kiss-and-make-up-day-intermediate.html" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">Explore Session ➔</a></td>
+<td><a class="view-btn ev-btn-compact" href="../apps/premium-events/clubs/celebrate/sessions/lets-celebrate/kiss-and-make-up-day-intermediate.html">Explore Session ➔</a></td>
 </tr>
 <tr>
 <td>Dalai Lama: Happier Minds (A2)</td>
 <td>English</td>
 <td>Speaking Club (Quotes)</td>
-<td><a class="view-btn" href="../apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/dalai-lama-happier-minds-elementary.html" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">Explore Session ➔</a></td>
+<td><a class="view-btn ev-btn-compact" href="../apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/dalai-lama-happier-minds-elementary.html">Explore Session ➔</a></td>
 </tr>
 <tr>
 <td>Dalai Lama: Happier Minds (B1)</td>
 <td>English</td>
 <td>Speaking Club (Quotes)</td>
-<td><a class="view-btn" href="../apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/dalai-lama-happier-minds-intermediate.html" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">Explore Session ➔</a></td>
+<td><a class="view-btn ev-btn-compact" href="../apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/dalai-lama-happier-minds-intermediate.html">Explore Session ➔</a></td>
 </tr>
 <tr>
 <td>Chatting with AI vs Chatting with a Human (A2)</td>
 <td>English</td>
 <td>Speaking Club (Debate)</td>
-<td><a class="view-btn" href="../apps/premium-events/clubs/debate/sessions/debatable-relatable/chatting-with-ai-vs-human-elementary.html" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">Explore Session ➔</a></td>
+<td><a class="view-btn ev-btn-compact" href="../apps/premium-events/clubs/debate/sessions/debatable-relatable/chatting-with-ai-vs-human-elementary.html">Explore Session ➔</a></td>
 </tr>
 <tr>
 <td>Chatting with AI vs Chatting with a Human (B1-B2)</td>
 <td>English</td>
 <td>Speaking Club (Debate)</td>
-<td><a class="view-btn" href="../apps/premium-events/clubs/debate/sessions/debatable-relatable/chatting-with-ai-vs-human-intermediate.html" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">Explore Session ➔</a></td>
+<td><a class="view-btn ev-btn-compact" href="../apps/premium-events/clubs/debate/sessions/debatable-relatable/chatting-with-ai-vs-human-intermediate.html">Explore Session ➔</a></td>
 </tr>
 <tr>
 <td>My Life With & My Life Without Hearing Abilities (B1)</td>
 <td>English</td>
 <td>Speaking Club (Life)</td>
-<td><a class="view-btn" href="../apps/premium-events/clubs/life/sessions/my-life-with-without/hearing-abilities-life.html" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">Explore Session ➔</a></td>
+<td><a class="view-btn ev-btn-compact" href="../apps/premium-events/clubs/life/sessions/my-life-with-without/hearing-abilities-life.html">Explore Session ➔</a></td>
 </tr>
 <tr>
 <td>My Life With & My Life Without Hearing Abilities (B2)</td>
 <td>English</td>
 <td>Speaking Club (Life)</td>
-<td><a class="view-btn" href="../apps/premium-events/clubs/life/sessions/my-life-with-without/hearing-abilities-life.html" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">Explore Session ➔</a></td>
+<td><a class="view-btn ev-btn-compact" href="../apps/premium-events/clubs/life/sessions/my-life-with-without/hearing-abilities-life.html">Explore Session ➔</a></td>
 </tr>
 <tr>
 <td>Why Some Friends Always Try to Correct You</td>
 <td>English</td>
 <td>Speaking Club (Mind)</td>
-<td><a class="view-btn" href="../apps/premium-events/clubs/mind/sessions/mind-matters/why-friends-correct-your-story-intermediate.html" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">Explore Session ➔</a></td>
+<td><a class="view-btn ev-btn-compact" href="../apps/premium-events/clubs/mind/sessions/mind-matters/why-friends-correct-your-story-intermediate.html">Explore Session ➔</a></td>
 </tr>
 </tbody>
 </table>
@@ -289,15 +289,15 @@
 </div>
 </section>
 <!-- Section 2: Event Types -->
-<section id="types" style="scroll-margin-top: 80px;">
+<section id="types" class="ev-scroll-section">
 <span class="sec-tag">What we do</span>
 <h2 class="sec-h2">Four ways to connect</h2>
 <p class="sec-p">Whether you want to debate deep topics, enjoy a movie, sing along, or play interactive games, we have a session for you.</p>
 <div class="tools-grid">
 <!-- Card A -->
-<article class="event-type-card" style="background: linear-gradient(135deg, #fdfcf8, #f0f5f1);">
+<article class="event-type-card ev-card-gradient">
 <div class="etc-icon">
-<img alt="Speaking Club logo" src="../images/speakingclubs.png" style="height: 60px; width: auto; margin-bottom: 1rem;"/>
+<img alt="Speaking Club logo" src="../images/speakingclubs.png" class="ev-type-icon"/>
 </div>
 <h3 class="etc-title">Speaking Club</h3>
 <p class="etc-info">A small group session (4–6 people) on a real-world topic chosen in advance. The teacher facilitates, corrects lightly, and keeps everyone speaking.</p>
@@ -330,7 +330,7 @@
 <li><span>Duration</span> <span>60 min</span></li>
 <li><span>Frequency</span> <span>Bi-weekly</span></li>
 </ul>
-<a class="view-btn" href="../apps/premium-events/nights/karaoke/karaoke-club.html" style="background:#4A154B;" data-i18n="button.enterKaraoke">🎶 Enter Karaoke Club</a>
+<a class="view-btn ev-btn-karaoke" href="../apps/premium-events/nights/karaoke/karaoke-club.html" data-i18n="button.enterKaraoke">🎶 Enter Karaoke Club</a>
 </article>
 <!-- Card D -->
 <article class="event-type-card">
@@ -342,29 +342,29 @@
 <li><span>Duration</span> <span>60 - 90 min</span></li>
 <li><span>Frequency</span> <span>Bi-weekly</span></li>
 </ul>
-<a class="view-btn" href="game-evenings.html" style="background:#1b263b;" data-i18n="button.enterGames">🎮 Enter Game Club</a>
+<a class="view-btn ev-btn-games" href="game-evenings.html" data-i18n="button.enterGames">🎮 Enter Game Club</a>
 </article>
 </div>
 </section>
 
 <!-- Section: Embedded Master Session Directory -->
-<section id="browse" style="scroll-margin-top: 80px; margin-top: 3rem;">
-  <div style="text-align: center; margin-bottom: 2rem;">
+<section id="browse" class="ev-scroll-section-mt">
+  <div class="ev-text-center-mb">
     <span class="sec-tag">Comprehensive Live Events Archive</span>
-    <h2 class="sec-h2" style="margin-top: 0.5rem;">Master Session Directory</h2>
-    <p class="sec-p" style="max-width: 680px; margin: 0 auto;">Explore every past session, study sheet, speaking prompt list, and original-language debate topic across all clubs. Filter below to search instantly.</p>
+    <h2 class="sec-h2 ev-title-mt">Master Session Directory</h2>
+    <p class="sec-p ev-desc-max">Explore every past session, study sheet, speaking prompt list, and original-language debate topic across all clubs. Filter below to search instantly.</p>
   </div>
   <noscript>
     <div class="sd-container">
-      <div class="sd-empty-state" style="border-style: solid; background: #fff8e7;">
+      <div class="sd-empty-state ev-empty-state-custom">
         <span class="sd-empty-icon">⚡</span>
         <h3 class="sd-empty-title">JavaScript is required for interactive search</h3>
         <p class="sd-empty-msg">Interactive dynamic searching and level filtering require JavaScript. You can still access all our complete session archives directly through our club hubs:</p>
-        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.75rem; margin-top: 1rem;">
+        <div class="ev-flex-center-gap">
           <a href="speaking-clubs.html" class="view-btn">🎙️ Speaking Clubs Hub</a>
           <a href="cinema-club.html" class="view-btn">🍿 Cinema Club Hub</a>
-          <a href="../apps/premium-events/nights/karaoke/karaoke-club.html" class="view-btn" style="background:#4A154B;">🎶 Karaoke Club Hub</a>
-          <a href="game-evenings.html" class="view-btn" style="background:#1b263b;">🎮 Game Evenings Hub</a>
+          <a href="../apps/premium-events/nights/karaoke/karaoke-club.html" class="view-btn ev-btn-karaoke">🎶 Karaoke Club Hub</a>
+          <a href="game-evenings.html" class="view-btn ev-btn-games">🎮 Game Evenings Hub</a>
         </div>
       </div>
     </div>
@@ -373,7 +373,7 @@
 </section>
 
 <!-- Section 5: CTA -->
-<section id="join" style="scroll-margin-top: 80px;">
+<section id="join" class="ev-scroll-section">
 <div class="cta-section">
 <h2>Message us to join the next event</h2>
 <p>Ready to jump in? Connect with us on your preferred platform and we'll help you find the right session.</p>

@@ -428,3 +428,84 @@ body.theme-dark .btn-gender {
     font-size: 0.85rem;
     font-weight: 500;
 }
+
+/* ==========================================================================
+   Games Page Custom Refactored Classes & Accent Variants
+   ========================================================================== */
+
+.games-hero-inner {
+  display: block;
+  text-align: center;
+}
+
+.games-toast {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background: var(--ink);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 12px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+  z-index: 3000;
+  font-size: .85rem;
+  font-weight: 500;
+}
+
+/* Card Accent Data Variants */
+.gc[data-accent="teal"] {
+  --card-accent: var(--teal);
+  --card-bg: var(--teal-light);
+}
+
+.gc[data-accent="coral"] {
+  --card-accent: var(--coral);
+  --card-bg: var(--coral-light);
+}
+
+.gc[data-accent="plum"] {
+  --card-accent: var(--plum);
+  --card-bg: var(--plum-light);
+}
+
+.gc[data-accent="rose"] {
+  --card-accent: var(--rose);
+  --card-bg: var(--rose-light);
+}
+
+.gc[data-accent="sage"] {
+  --card-accent: var(--sage-dark);
+  --card-bg: var(--sage-light);
+}
+
+.gc[data-accent="blue"] {
+  --card-accent: var(--blue);
+  --card-bg: var(--blue-light);
+}
+
+.gc[data-accent="indigo"] {
+  --card-accent: var(--indigo);
+  --card-bg: rgba(79, 70, 229, 0.08);
+}
+
+.gc[data-accent="navy"] {
+  --card-accent: var(--navy);
+  --card-bg: var(--navy-light);
+}
+
+.gc[data-accent="gold"] {
+  --card-accent: var(--gold);
+  --card-bg: var(--gold-light);
+}
+
+.gc[data-accent="ink"] {
+  --card-accent: var(--ink);
+  --card-bg: var(--tan);
+}
+
+.gc[data-accent="gender"] {
+  --card-accent: #d53f8c;
+  --card-bg: #fff5f7;
+}

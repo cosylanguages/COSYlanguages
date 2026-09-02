@@ -107,3 +107,115 @@
         display: none !important;
     }
 }
+
+/* ==========================================================================
+   Home Page Custom Refactored Utility Classes
+   ========================================================================== */
+
+.home-hero-ctas {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.home-btn-link {
+  font-size: 0.88rem;
+  text-decoration: underline;
+  padding: 0.5rem 0.8rem;
+}
+
+.home-btn-pin {
+  font-size: 0.88rem;
+  border: none;
+  background: none;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0.5rem 0.8rem;
+}
+
+.home-card-logo {
+  height: 50px;
+  width: auto;
+}
+
+.home-card-general {
+  background: linear-gradient(135deg, var(--sage-deep), #1a2a1d);
+}
+
+.home-card-spoken {
+  background: linear-gradient(135deg, var(--coral), #8a3a1d);
+  color: white;
+}
+
+.home-card-exam {
+  background: linear-gradient(135deg, var(--plum), #4a3a2a);
+  color: white;
+}
+
+.home-text-center-mt2 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.home-text-center-mt3 {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.home-mb-md {
+  margin-bottom: 1rem;
+}
+
+.home-mt-md {
+  margin-top: 1rem;
+}
+
+.home-col-gap-sm {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.home-accelerator-link {
+  color: var(--sage-dark);
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.home-calc-details {
+  max-width: 860px;
+  margin: 0 auto;
+  background: var(--warm-white);
+  border: 1.5px solid var(--border);
+  border-radius: var(--r-xl, 24px);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+.home-calc-summary {
+  padding: 1.25rem 1.75rem;
+  font-weight: 800;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: var(--sage-deep);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  user-select: none;
+}
+
+.home-calc-summary-link {
+  font-size: 0.88rem;
+  color: var(--sage);
+  text-decoration: underline;
+}
+
+.home-calc-card-reset {
+  border: none;
+  border-top: 1px solid var(--border);
+  border-radius: 0;
+  box-shadow: none;
+  margin-top: 0;
+  padding: 1.75rem 1.5rem;
+}
