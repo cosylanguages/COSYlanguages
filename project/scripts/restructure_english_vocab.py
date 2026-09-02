@@ -7,151 +7,138 @@ import subprocess
 
 DOMAIN_MAP_A1 = {
     # SELF
-    "personal_identity": ("SELF", "Identity", "SELF"),
-    "people": ("SELF", "Identity", "SELF"),
-    "immediate_family": ("SELF", "Family", "SELF"),
-    "extended_family": ("SELF", "Family", "SELF"),
-    "family": ("SELF", "Family", "SELF"),
-    "body": ("SELF", "Body", "SELF"),
-    "describing": ("SELF", "Appearance", "SELF"),
-    "colours": ("SELF", "Appearance", "SELF"),
-    "clothes": ("SELF", "Appearance", "SELF"),
-    "items_of_clothing": ("SELF", "Appearance", "SELF"),
-    "accessories": ("SELF", "Appearance", "SELF"),
-    "emotions": ("SELF", "Emotions", "SELF"),
+    "personal_identity": ("SELF", "Identity", "Identity_Details"),
+    "people": ("SELF", "Identity", "Personal_Identity"),
+    "immediate_family": ("SELF", "Family", "Immediate_Family"),
+    "extended_family": ("SELF", "Family", "Extended_Family"),
+    "family": ("SELF", "Family", "Family_Relations"),
+    "body": ("SELF", "Body", "Body_Parts"),
+    "describing": ("SELF", "Appearance", "Descriptive_Traits"),
+    "colours": ("SELF", "Appearance", "Colours_Shades"),
+    "clothes": ("SELF", "Appearance", "Clothing_Garments"),
+    "items_of_clothing": ("SELF", "Appearance", "Clothing_Garments"),
+    "accessories": ("SELF", "Appearance", "Accessories_Fashion"),
+    "emotions": ("SELF", "Emotions", "Feelings_States"),
 
     # HOME
-    "buildings": ("HOME", "Buildings", "HOME"),
-    "types_of_accommodation": ("HOME", "Buildings", "HOME"),
-    "rooms_indoor_spaces": ("HOME", "Rooms", "HOME"),
-    "furniture": ("HOME", "Furniture", "HOME"),
-    "household_items": ("HOME", "Furniture", "HOME"),
-    "kitchen_items": ("HOME", "Appliances", "HOME"),
-    "household_tasks": ("HOME", "Household Actions", "HOME"),
+    "buildings": ("HOME", "Buildings", "Structures"),
+    "types_of_accommodation": ("HOME", "Buildings", "Housing_Types"),
+    "rooms_indoor_spaces": ("HOME", "Rooms", "Indoor_Rooms"),
+    "furniture": ("HOME", "Furniture", "Living_Furniture"),
+    "household_items": ("HOME", "Furniture", "Household_Goods"),
+    "kitchen_items": ("HOME", "Appliances", "Kitchen_Appliances"),
+    "household_tasks": ("HOME", "Household_Actions", "Daily_Chores"),
 
     # FOOD
-    "food_drink": ("FOOD", "Ingredients", "FOOD"),
-    "dishes": ("FOOD", "Meals", "FOOD"),
+    "food_drink": ("FOOD", "Ingredients", "Food_Beverages"),
+    "dishes": ("FOOD", "Meals", "Prepared_Dishes"),
 
     # WORK_SCHOOL
-    "work": ("WORK_SCHOOL", "Work", "WORK"),
-    "jobs": ("WORK_SCHOOL", "Work", "WORK"),
-    "job_titles_professions": ("WORK_SCHOOL", "Work", "WORK"),
-    "school": ("WORK_SCHOOL", "Education", "WORK"),
-    "learning_studying": ("WORK_SCHOOL", "Education", "WORK"),
-    "types_of_education": ("WORK_SCHOOL", "Education", "WORK"),
+    "work": ("WORK_SCHOOL", "Work", "Jobs_Careers"),
+    "jobs": ("WORK_SCHOOL", "Work", "Professions"),
+    "job_titles_professions": ("WORK_SCHOOL", "Work", "Professions"),
+    "school": ("WORK_SCHOOL", "Education", "School_Classroom"),
+    "learning_studying": ("WORK_SCHOOL", "Education", "Study_Activities"),
+    "types_of_education": ("WORK_SCHOOL", "Education", "Education_Systems"),
 
     # TRAVEL
-    "travel": ("TRAVEL", "Transport", "TRV"),
-    "modes_of_transport": ("TRAVEL", "Transport", "TRV"),
-    "places": ("TRAVEL", "Places", "TRV"),
-    "cities_towns": ("TRAVEL", "Places", "TRV"),
-    "countries_capitals": ("TRAVEL", "Places", "TRV"),
-    "nationalities": ("TRAVEL", "Places", "TRV"),
-    "nationality_country": ("TRAVEL", "Places", "TRV"),
-    "locations": ("TRAVEL", "Places", "TRV"),
-    "prepositions_place": ("TRAVEL", "Places", "TRV"),
-    "prepositions_movement": ("TRAVEL", "Places", "TRV"),
+    "travel": ("TRAVEL", "Transport", "Travel_Journeys"),
+    "modes_of_transport": ("TRAVEL", "Transport", "Vehicles_Transit"),
+    "places": ("TRAVEL", "Places", "Locations_Venues"),
+    "cities_towns": ("TRAVEL", "Places", "Cities_Urban"),
+    "countries_capitals": ("TRAVEL", "Places", "Countries_Nations"),
+    "nationalities": ("TRAVEL", "Places", "Nationalities_Origins"),
+    "nationality_country": ("TRAVEL", "Places", "Nationalities_Origins"),
+    "locations": ("TRAVEL", "Places", "Spatial_Locations"),
+    "prepositions_place": ("TRAVEL", "Places", "Position_Markers"),
+    "prepositions_movement": ("TRAVEL", "Places", "Direction_Markers"),
 
     # NATURE
-    "nature": ("NATURE", "Environment", "NAT"),
-    "animals": ("NATURE", "Animals", "NAT"),
-    "insects": ("NATURE", "Animals", "NAT"),
-    "plants_natural_world": ("NATURE", "Environment", "NAT"),
-    "seasons_climate": ("NATURE", "Environment", "NAT"),
+    "nature": ("NATURE", "Environment", "Natural_World"),
+    "animals": ("NATURE", "Animals", "Mammals_Creatures"),
+    "insects": ("NATURE", "Animals", "Insects_Bugs"),
+    "plants_natural_world": ("NATURE", "Environment", "Flora_Plants"),
+    "seasons_climate": ("NATURE", "Environment", "Weather_Seasons"),
 
     # TIME_NUMBERS
-    "time": ("TIME_NUMBERS", "Time", "NUM"),
-    "days_week": ("TIME_NUMBERS", "Time", "NUM"),
-    "months_year": ("TIME_NUMBERS", "Time", "NUM"),
-    "duration_expressions": ("TIME_NUMBERS", "Time", "NUM"),
-    "dates_years": ("TIME_NUMBERS", "Time", "NUM"),
-    "numbers": ("TIME_NUMBERS", "Numbers", "NUM"),
-    "size_measurements": ("TIME_NUMBERS", "Numbers", "NUM"),
-    "size_shape": ("TIME_NUMBERS", "Numbers", "NUM"),
+    "time": ("TIME_NUMBERS", "Time", "Clocks_Periods"),
+    "days_week": ("TIME_NUMBERS", "Time", "Days_Schedule"),
+    "months_year": ("TIME_NUMBERS", "Time", "Months_Calendar"),
+    "duration_expressions": ("TIME_NUMBERS", "Time", "Duration_Spans"),
+    "dates_years": ("TIME_NUMBERS", "Time", "Dates_Years"),
+    "numbers": ("TIME_NUMBERS", "Numbers", "Cardinal_Ordinal"),
+    "size_measurements": ("TIME_NUMBERS", "Numbers", "Sizes_Units"),
+    "size_shape": ("TIME_NUMBERS", "Numbers", "Shapes_Dimensions"),
 
     # SOCIAL_COMMUNICATION
-    "social": ("COMMUNICATION", "Social", "COMM"),
-    "greetings": ("COMMUNICATION", "Social", "COMM"),
-    "asking_answering_questions": ("COMMUNICATION", "Social", "COMM"),
-    "giving_opinions": ("COMMUNICATION", "Social", "COMM"),
-    "language": ("COMMUNICATION", "Social", "COMM"),
-    "grammar": ("COMMUNICATION", "Social", "COMM"),
-    "grammar_elements": ("COMMUNICATION", "Social", "COMM"),
-    "shopping": ("COMMUNICATION", "Shopping", "COMM"),
-    "technology": ("COMMUNICATION", "Technology", "COMM"),
-    "using_smartphone": ("COMMUNICATION", "Technology", "COMM"),
-    "leisure_activities": ("COMMUNICATION", "Leisure", "COMM"),
-    "sports": ("COMMUNICATION", "Leisure", "COMM"),
-    "music": ("COMMUNICATION", "Leisure", "COMM"),
-    "toys_games": ("COMMUNICATION", "Leisure", "COMM"),
-    "books_reading": ("COMMUNICATION", "Leisure", "COMM"),
-    "playing_watching_sport": ("COMMUNICATION", "Leisure", "COMM"),
+    "social": ("COMMUNICATION", "Social", "Interactions"),
+    "greetings": ("COMMUNICATION", "Social", "Greetings_Phrases"),
+    "asking_answering_questions": ("COMMUNICATION", "Social", "Question_Forms"),
+    "giving_opinions": ("COMMUNICATION", "Social", "Opinion_Phrases"),
+    "language": ("COMMUNICATION", "Social", "Language_Terms"),
+    "grammar": ("COMMUNICATION", "Social", "Grammar_Structures"),
+    "grammar_elements": ("COMMUNICATION", "Social", "Grammar_Terms"),
+    "shopping": ("COMMUNICATION", "Shopping", "Retail_Transactions"),
+    "technology": ("COMMUNICATION", "Technology", "Digital_Devices"),
+    "using_smartphone": ("COMMUNICATION", "Technology", "Mobile_Apps"),
+    "leisure_activities": ("COMMUNICATION", "Leisure", "Hobbies_Pastimes"),
+    "sports": ("COMMUNICATION", "Leisure", "Athletic_Sports"),
+    "music": ("COMMUNICATION", "Leisure", "Music_Instruments"),
+    "toys_games": ("COMMUNICATION", "Leisure", "Games_Play"),
+    "books_reading": ("COMMUNICATION", "Leisure", "Literature_Books"),
+    "playing_watching_sport": ("COMMUNICATION", "Leisure", "Spectator_Sports"),
 }
 
 DOMAIN_MAP_B1 = {
     # People
-    "people": ("People", "Identity", "PPL"),
-    "personal_identity": ("People", "Identity", "PPL"),
-    "personality": ("People", "Personality", "PPL"),
-    "emotions": ("People", "Emotions", "PPL"),
-    "habits": ("People", "Habits", "PPL"),
-    "psychology": ("People", "Personality", "PPL"),
-    "emotional_intelligence": ("People", "Emotions", "PPL"),
-    "psychological_states_c1": ("People", "Emotions", "PPL"),
-    "psychological_concepts_c1": ("People", "Personality", "PPL"),
-    "psychoanalysis_unconscious": ("People", "Personality", "PPL"),
+    "people": ("People", "Identity", "Individual_Traits"),
+    "personal_identity": ("People", "Identity", "Identity_Concepts"),
+    "personality": ("People", "Personality", "Character_Traits"),
+    "emotions": ("People", "Emotions", "Emotional_States"),
+    "habits": ("People", "Habits", "Daily_Routines"),
+    "psychology": ("People", "Personality", "Psychological_Traits"),
+    "emotional_intelligence": ("People", "Emotions", "Empathy_Awareness"),
 
     # Science
-    "science": ("Science", "Technology", "SCI"),
-    "space": ("Science", "Space", "SCI"),
-    "biology": ("Science", "Biology", "SCI"),
-    "health_medicine": ("Science", "Biology", "SCI"),
-    "environment": ("Science", "Environment", "SCI"),
-    "plants_natural_world": ("Science", "Environment", "SCI"),
-    "nature": ("Science", "Environment", "SCI"),
-    "technology": ("Science", "Technology", "SCI"),
-    "using_smartphone": ("Science", "Technology", "SCI"),
-    "science_tech_society_c1": ("Science", "Technology", "SCI"),
+    "science": ("Science", "Technology", "Scientific_Method"),
+    "space": ("Science", "Space", "Astronomy_Cosmos"),
+    "biology": ("Science", "Biology", "Living_Organisms"),
+    "health_medicine": ("Science", "Biology", "Medical_Health"),
+    "environment": ("Science", "Environment", "Ecology_Climate"),
+    "plants_natural_world": ("Science", "Environment", "Ecosystems"),
+    "nature": ("Science", "Environment", "Natural_Phenomena"),
+    "technology": ("Science", "Technology", "Computers_Engineering"),
+    "using_smartphone": ("Science", "Technology", "Software_Mobile"),
 
     # Society
-    "society": ("Society", "Culture", "SOC"),
-    "social": ("Society", "Culture", "SOC"),
-    "media": ("Society", "Media", "SOC"),
-    "education": ("Society", "Education", "SOC"),
-    "learning_studying": ("Society", "Education", "SOC"),
-    "school": ("Society", "Education", "SOC"),
-    "work": ("Society", "Work", "SOC"),
-    "job_titles_professions": ("Society", "Work", "SOC"),
-    "jobs": ("Society", "Work", "SOC"),
-    "career_development": ("Society", "Work", "SOC"),
-    "organisational_culture": ("Society", "Work", "SOC"),
-    "culture": ("Society", "Culture", "SOC"),
-    "art_culture": ("Society", "Culture", "SOC"),
-    "globalisation_geography": ("Society", "Culture", "SOC"),
-    "sociology_structures_c1": ("Society", "Culture", "SOC"),
-    "power_institutions_c1": ("Society", "Culture", "SOC"),
-
-    # Default fallback B1/B2
-    "discourse_argument": ("Society", "Culture", "SOC"),
-    "discourse_argument_c1": ("Society", "Culture", "SOC"),
-    "persuasion_rhetoric": ("Society", "Culture", "SOC"),
-    "language_persuasion_c1": ("Society", "Culture", "SOC"),
-    "rhetoric_persuasion_c1": ("Society", "Culture", "SOC"),
+    "society": ("Society", "Culture", "Social_Structures"),
+    "social": ("Society", "Culture", "Social_Relations"),
+    "media": ("Society", "Media", "Journalism_Broadcasting"),
+    "education": ("Society", "Education", "Academic_Institutions"),
+    "learning_studying": ("Society", "Education", "Pedagogy_Study"),
+    "school": ("Society", "Education", "Schooling"),
+    "work": ("Society", "Work", "Employment_Business"),
+    "job_titles_professions": ("Society", "Work", "Professional_Roles"),
+    "jobs": ("Society", "Work", "Occupations"),
+    "career_development": ("Society", "Work", "Career_Growth"),
+    "organisational_culture": ("Society", "Work", "Corporate_Culture"),
+    "culture": ("Society", "Culture", "Arts_Heritage"),
+    "art_culture": ("Society", "Culture", "Visual_Performing_Arts"),
+    "globalisation_geography": ("Society", "Culture", "Global_Geography"),
 }
 
 C_DEFAULT = {
-    "law": ("LAW", "Legal System", "LAW"),
-    "law_justice": ("LAW", "Legal System", "LAW"),
-    "philosophy": ("PHILOSOPHY", "General Philosophy", "PHIL"),
-    "epistemology": ("EPISTEMOLOGY", "Knowledge Theory", "EPIST"),
-    "knowledge_epistemology_c1": ("EPISTEMOLOGY", "Knowledge Theory", "EPIST"),
-    "epistemology_truth": ("EPISTEMOLOGY", "Knowledge Theory", "EPIST"),
-    "ontology_existence": ("PHILOSOPHY", "Ontology", "PHIL"),
-    "aesthetics_criticism": ("AESTHETICS", "Criticism", "AESTH"),
-    "moral_philosophy": ("PHILOSOPHY", "Ethics", "PHIL"),
-    "linguistics_theory": ("DISCOURSE", "Linguistics", "DISC"),
-    "advanced_register_c1": ("DISCOURSE", "Advanced Register", "DISC"),
+    "law": ("LAW", "Legal_System", "Jurisprudence_Statutes"),
+    "law_justice": ("LAW", "Legal_System", "Courts_Justice"),
+    "philosophy": ("PHILOSOPHY", "Ethics", "Moral_Philosophy"),
+    "epistemology": ("EPISTEMOLOGY", "Knowledge_Theory", "Truth_Certainty"),
+    "knowledge_epistemology_c1": ("EPISTEMOLOGY", "Knowledge_Theory", "Epistemic_Analysis"),
+    "epistemology_truth": ("EPISTEMOLOGY", "Knowledge_Theory", "Verification_Logic"),
+    "ontology_existence": ("PHILOSOPHY", "Ontology", "Existence_Metaphysics"),
+    "aesthetics_criticism": ("AESTHETICS", "Criticism", "Artistic_Critique"),
+    "moral_philosophy": ("PHILOSOPHY", "Ethics", "Ethical_Theories"),
+    "linguistics_theory": ("DISCOURSE", "Linguistics", "Semantics_Syntax"),
+    "advanced_register_c1": ("DISCOURSE", "Advanced_Register", "Rhetorical_Register"),
 }
 
 LEVEL_MAP = {
@@ -163,24 +150,41 @@ LEVEL_MAP = {
     "proficiency": "C2"
 }
 
+def get_pos_section(item):
+    theme = (item.get("theme") or "").lower()
+    form = (item.get("form") or "").lower()
+
+    if theme in ["speaking", "quotes"]:
+        return "Speaking_Games", "SPK"
+    if theme in ["debates", "fluency"]:
+        return "Fluency_Debates", "DEB"
+
+    if "verb" in form:
+        return "Verbs", "VERB"
+    elif "noun" in form:
+        return "Nouns", "NOUN"
+    elif "adj" in form or "adjective" in form:
+        return "Adjectives", "ADJ"
+    else:
+        return "Other_POS", "OTH"
+
 def get_mapping(level_code, theme_raw):
     theme = (theme_raw or "general").lower()
     if level_code in ["A1", "A2"]:
         if theme in DOMAIN_MAP_A1:
             return DOMAIN_MAP_A1[theme]
-        # check partial matches
         for k, v in DOMAIN_MAP_A1.items():
             if k in theme:
                 return v
-        return ("SELF", "Identity", "SELF")
+        return ("SELF", "Identity", "General_Identity")
     elif level_code in ["B1", "B2"]:
         if theme in DOMAIN_MAP_B1:
             return DOMAIN_MAP_B1[theme]
         for k, v in DOMAIN_MAP_B1.items():
             if k in theme:
                 return v
-        return ("Society", "Culture", "SOC")
-    else: # C1, C2
+        return ("Society", "Culture", "General_Culture")
+    else:
         if theme in C_DEFAULT:
             return C_DEFAULT[theme]
         for k, v in C_DEFAULT.items():
@@ -188,12 +192,9 @@ def get_mapping(level_code, theme_raw):
                 return v
         if theme in DOMAIN_MAP_B1:
             return DOMAIN_MAP_B1[theme]
-        return ("LAW", "Legal System", "LAW")
+        return ("LAW", "Legal_System", "General_Law")
 
 def parse_js_file(filepath):
-    """
-    Evaluates node to get data array from a js file.
-    """
     cmd = f"""node -e '
     const fs = require("fs");
     const win = {{}};
@@ -204,7 +205,6 @@ def parse_js_file(filepath):
     '"""
     res = subprocess.run(cmd, shell=True, capture_output=True, text=True)
     if res.returncode != 0 or not res.stdout.strip():
-        # Fallback eval without wrapper if it failed
         cmd2 = f"""node -e '
         const fs = require("fs");
         let window = {{}};
@@ -222,10 +222,9 @@ def main():
     base_dir = "vocabulary/en"
     level_dirs = ["A1", "A2", "B1", "B2", "C1", "C2"]
 
-    all_entries_by_target = {} # (level, domain, subcategory) -> list of items
+    all_entries = []
 
-    # Step 1: Read all existing files across level_dirs
-    total_loaded = 0
+    # Step 1: Collect entries from all existing JS files
     for lvl in level_dirs:
         lvl_path = os.path.join(base_dir, lvl)
         if not os.path.exists(lvl_path):
@@ -233,55 +232,58 @@ def main():
         js_files = glob.glob(os.path.join(lvl_path, "**", "*.js"), recursive=True)
         for f in js_files:
             items = parse_js_file(f)
-            total_loaded += len(items)
             for item in items:
-                # determine canonical level
-                raw_lvl = item.get("level", lvl.lower())
-                norm_lvl = LEVEL_MAP.get(raw_lvl, lvl)
-                theme = item.get("theme", "general")
-                domain, subcat, domain_code = get_mapping(norm_lvl, theme)
+                all_entries.append(item)
 
-                key = (norm_lvl, domain, subcat, domain_code)
-                if key not in all_entries_by_target:
-                    all_entries_by_target[key] = []
-                all_entries_by_target[key].append(item)
+    print(f"Total entries loaded: {len(all_entries)}")
 
-    print(f"Total entries collected from source files: {total_loaded}")
-
-    # Remove existing files/dirs under vocabulary/en/
+    # Clean existing directory structure under vocabulary/en
     for lvl in level_dirs:
         lvl_path = os.path.join(base_dir, lvl)
         if os.path.exists(lvl_path):
             shutil.rmtree(lvl_path)
         os.makedirs(lvl_path, exist_ok=True)
 
-    # Step 2: Write back structured files and assign formatted IDs
-    total_written = 0
-    for (lvl, domain, subcat, domain_code), items in all_entries_by_target.items():
-        domain_dir = os.path.join(base_dir, lvl, domain)
-        os.makedirs(domain_dir, exist_ok=True)
-        filename = f"{subcat.replace(' ', '_')}.js"
-        file_path = os.path.join(domain_dir, filename)
+    # Step 2: Route entries into POS/Section -> Domain -> Subcategory -> Sub-subcategory
+    grouped_entries = {}
 
-        # Sort items deterministically by word
+    for item in all_entries:
+        raw_lvl = item.get("level", "a1")
+        norm_lvl = LEVEL_MAP.get(raw_lvl, "A1")
+
+        pos_section, pos_code = get_pos_section(item)
+        domain, subcat, sub_subcat = get_mapping(norm_lvl, item.get("theme"))
+
+        key = (norm_lvl, pos_section, domain, subcat, sub_subcat, pos_code)
+        if key not in grouped_entries:
+            grouped_entries[key] = []
+        grouped_entries[key].append(item)
+
+    # Step 3: Write out structured JS files
+    total_written = 0
+    for (lvl, pos_section, domain, subcat, sub_subcat, pos_code), items in grouped_entries.items():
+        dir_path = os.path.join(base_dir, lvl, pos_section, domain, subcat)
+        os.makedirs(dir_path, exist_ok=True)
+        file_path = os.path.join(dir_path, f"{sub_subcat}.js")
+
         items.sort(key=lambda x: x.get("word", ""))
 
-        processed_items = []
+        processed = []
         for idx, item in enumerate(items, 1):
-            canonical_id = f"{lvl}-{domain_code}-{idx:02d}"
-            # preserve legacy id if present
+            canonical_id = f"{lvl}-{pos_code}-{domain[:3].upper()}-{idx:02d}"
             if "id" in item and item["id"] != canonical_id:
                 item["legacy_id"] = item["id"]
             item["id"] = canonical_id
             item["level_code"] = lvl
+            item["pos_section"] = pos_section
             item["domain"] = domain
             item["subcategory"] = subcat
-            processed_items.append(item)
+            item["sub_subcategory"] = sub_subcat
+            processed.append(item)
 
-        total_written += len(processed_items)
+        total_written += len(processed)
 
-        # Format JS content
-        js_data = json.dumps(processed_items, indent=4, ensure_ascii=False)
+        js_data = json.dumps(processed, indent=4, ensure_ascii=False)
         js_content = f"""(function() {{
     const lang = "en";
     const data = {js_data};
@@ -289,10 +291,10 @@ def main():
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 }})();
 """
-        with open(file_path, "w", encoding="utf-8") as out_f:
-            out_f.write(js_content)
+        with open(file_path, "w", encoding="utf-8") as f:
+            f.write(js_content)
 
-    print(f"Successfully restructured vocabulary! Total items written: {total_written}")
+    print(f"Successfully restructured multi-tier vocabulary! Total written: {total_written}")
 
 if __name__ == "__main__":
     main()
