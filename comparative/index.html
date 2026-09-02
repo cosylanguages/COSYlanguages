@@ -3,310 +3,65 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>COSYlanguages Comparative Grammar Matrix · Cross-Linguistic Explorer</title>
-<meta name="description" content="Interactive cross-linguistic comparative grammar matrix mapping A0-A1 grammar features across 14 languages in the COSYlanguages ecosystem.">
-<link rel="stylesheet" href="../css/lang-pages.css">
-<link rel="stylesheet" href="../css/lang-accents.css">
-<link rel="stylesheet" href="../css/mobile.css">
-<style>
-  :root {
-    --brand-teal: #0f382c;
-    --brand-teal-light: #e3f5ef;
-    --paper-bg: #fcfbf7;
-    --card-bg: #ffffff;
-    --text-ink: #13231e;
-    --text-soft: #3c544c;
-    --line-border: #e3e0d5;
-  }
-  body {
-    background: var(--paper-bg);
-    color: var(--text-ink);
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
-    margin: 0;
-    line-height: 1.6;
-  }
-  .topbar {
-    background: var(--brand-teal);
-    color: #fff;
-    padding: 12px 24px;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-  }
-  .topbar-inner {
-    max-width: 1280px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-  }
-  .topbar a {
-    color: #eafaf5;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 14px;
-  }
-  .hero-comp {
-    background: linear-gradient(135deg, var(--brand-teal), #1c6b54);
-    color: #fff;
-    padding: 56px 24px 48px;
-    text-align: center;
-  }
-  .hero-comp h1 {
-    font-family: 'Poppins', system-ui, sans-serif;
-    font-size: clamp(30px, 5vw, 46px);
-    margin: 10px 0;
-  }
-  .hero-comp p {
-    max-width: 760px;
-    margin: 0 auto 20px;
-    font-size: 17px;
-    opacity: 0.92;
-  }
-  .comp-container {
-    max-width: 1280px;
-    margin: 36px auto 80px;
-    padding: 0 24px;
-  }
-  .filter-panel {
-    background: var(--card-bg);
-    border: 1px solid var(--line-border);
-    border-radius: 20px;
-    padding: 24px;
-    box-shadow: 0 8px 24px -12px rgba(19, 35, 30, 0.12);
-    margin-bottom: 32px;
-  }
-  .filter-header {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-    margin-bottom: 18px;
-    border-bottom: 1px solid var(--line-border);
-    padding-bottom: 14px;
-  }
-  .filter-header h2 {
-    font-family: 'Poppins', system-ui, sans-serif;
-    font-size: 20px;
-    margin: 0;
-  }
-  .action-btns {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-  .btn-chip {
-    background: #f0ede3;
-    border: 1px solid var(--line-border);
-    color: var(--text-soft);
-    padding: 6px 14px;
-    border-radius: 99px;
-    font-size: 12.5px;
-    font-weight: 700;
-    cursor: pointer;
-    transition: all 0.15s ease;
-  }
-  .btn-chip:hover {
-    background: #e3ded0;
-    color: var(--text-ink);
-  }
-  .btn-chip.active {
-    background: var(--brand-teal);
-    color: #fff;
-    border-color: var(--brand-teal);
-  }
-  .family-group {
-    margin-bottom: 16px;
-  }
-  .family-title {
-    font-size: 13px;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--brand-teal);
-    margin-bottom: 8px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-  .lang-chips-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-  .lang-chip {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    background: #fff;
-    border: 1px solid var(--line-border);
-    padding: 6px 12px;
-    border-radius: 12px;
-    font-size: 13.5px;
-    font-weight: 600;
-    cursor: pointer;
-    user-select: none;
-    transition: all 0.15s ease;
-  }
-  .lang-chip:hover {
-    border-color: var(--brand-teal);
-  }
-  .lang-chip.selected {
-    background: var(--brand-teal-light);
-    border-color: var(--brand-teal);
-    color: var(--brand-teal);
-    font-weight: 700;
-  }
-  .category-filter-bar {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-top: 20px;
-    padding-top: 16px;
-    border-top: 1px dashed var(--line-border);
-  }
-  .category-filter-bar label {
-    font-size: 14px;
-    font-weight: 700;
-    color: var(--text-soft);
-  }
-  .cat-select {
-    padding: 8px 14px;
-    border-radius: 12px;
-    border: 1px solid var(--line-border);
-    background: #fff;
-    font-size: 14px;
-    font-weight: 600;
-    color: var(--text-ink);
-    cursor: pointer;
-    outline: none;
-  }
-  .matrix-wrapper {
-    background: var(--card-bg);
-    border: 1px solid var(--line-border);
-    border-radius: 20px;
-    box-shadow: 0 8px 24px -12px rgba(19, 35, 30, 0.12);
-    overflow-x: auto;
-  }
-  .matrix-table {
-    width: 100%;
-    border-collapse: collapse;
-    text-align: left;
-    font-size: 14px;
-  }
-  .matrix-table th, .matrix-table td {
-    padding: 14px 16px;
-    border-bottom: 1px solid var(--line-border);
-  }
-  .matrix-table th {
-    background: #f7f5ed;
-    color: var(--text-ink);
-    font-family: 'Poppins', system-ui, sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-  }
-  .matrix-table th.col-feature {
-    min-width: 280px;
-    max-width: 360px;
-  }
-  .matrix-table th.col-lang {
-    text-align: center;
-    min-width: 90px;
-  }
-  .feature-info .title {
-    font-weight: 700;
-    font-size: 15px;
-    color: var(--text-ink);
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-  .feature-info .badge-level {
-    display: inline-block;
-    background: var(--brand-teal-light);
-    color: var(--brand-teal);
-    font-size: 10.5px;
-    font-weight: 800;
-    padding: 2px 7px;
-    border-radius: 99px;
-  }
-  .feature-info .desc {
-    font-size: 12.5px;
-    color: var(--text-soft);
-    margin-top: 4px;
-    line-height: 1.4;
-  }
-  .cell-status {
-    text-align: center;
-    font-size: 18px;
-  }
-  .cell-link {
-    display: inline-block;
-    text-decoration: none;
-    transition: transform 0.15s ease;
-  }
-  .cell-link:hover {
-    transform: scale(1.25);
-  }
-  .no-data-row td {
-    text-align: center;
-    padding: 32px;
-    color: var(--text-soft);
-    font-style: italic;
-  }
+<title>Comparative Grammar Atlas · COSYlanguages</title>
+<meta name="description" content="Cross-linguistic comparative grammar matrix mapping A0–A1 grammar features across 14 languages in the COSYlanguages ecosystem.">
+<meta property="og:title" content="Comparative Grammar Atlas · COSYlanguages">
+<meta property="og:description" content="Cross-linguistic comparative grammar matrix mapping A0–A1 grammar features across 14 languages in the COSYlanguages ecosystem.">
+<meta property="og:image" content="../images/logos/cosylanguages.png">
+<link rel="icon" href="../images/logos/cosylanguages.png">
+<link rel="manifest" href="../apps/free-portal/manifest.json">
+<meta name="theme-color" content="#FAF7F2">
 
-  @media (max-width: 600px) {
-    .hero-comp {
-      padding: 40px 16px 36px;
-    }
-    .comp-container {
-      padding: 0 12px;
-      margin-top: 24px;
-    }
-    .filter-panel {
-      padding: 16px;
-    }
-    .topbar {
-      padding: 10px 16px;
-    }
-    .topbar a {
-      font-size: 13px;
-    }
-  }
-</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&amp;family=DM+Sans:wght@400;500;700&amp;family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../css/tokens.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/components.css">
+<link rel="stylesheet" href="../css/layout.css">
+<link rel="stylesheet" href="../css/home.css">
 </head>
 <body>
 
-<header class="topbar">
-  <div class="topbar-inner">
-    <a href="../index.html">← COSYlanguages Platform</a>
-    <a href="../manuals/index.html">Manuals Index</a>
+<a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20COSYlanguages." class="wa-fab" aria-label="Chat on WhatsApp">💬</a>
+
+<nav id="cosy-nav" aria-label="Main navigation"></nav>
+
+<!-- Sticky Header / Breadcrumbs -->
+<header class="sd-sticky-header">
+  <div class="sd-header-inner">
+    <div class="sd-breadcrumbs">
+      <a href="../index.html">Home</a>
+      <span class="sep">/</span>
+      <a href="../manuals/index.html">Master Directory</a>
+      <span class="sep">/</span>
+      <span class="current">Comparative Matrix</span>
+    </div>
   </div>
 </header>
 
-<section class="hero-comp">
-  <span class="badge-tag-uppercase">
-    Interactive Linguistic Matrix · Level A0–A1
-  </span>
-  <h1>Comparative Grammar Matrix</h1>
-  <p>Compare fundamental structural features across 14 languages. Select specific languages or linguistic families to dynamically filter the comparative view.</p>
-</section>
+<!-- Hero Header Section -->
+<header style="background: var(--surface); padding: 3.5rem 1.5rem 2.5rem; text-align: center; border-bottom: 1px solid var(--border);">
+  <div style="max-width: 800px; margin: 0 auto;">
+    <span class="sec-tag">Comparative Grammar Atlas · Level A0–A1</span>
+    <h1 style="font-family: var(--font-heading); font-size: clamp(2rem, 4vw, 3rem); color: var(--ink); margin: 0.5rem 0 1rem; font-weight: 300;">
+      Compare Grammar Across 14 Languages
+    </h1>
+    <p style="font-size: 1.1rem; color: var(--ink-soft); line-height: 1.6; margin: 0 auto;">
+      See how grammar rules connect, contrast, and transfer across languages—so you can build on what you already know instead of starting from scratch every time.
+    </p>
+  </div>
+</header>
 
-<main class="comp-container">
+<main class="comp-container page" role="main">
 
   <!-- Filter Controls Panel -->
-  <div class="filter-panel">
-    <div class="filter-header">
+  <div class="comp-filter-panel">
+    <div class="comp-filter-header">
       <h2>Filter Languages</h2>
-      <div class="action-btns">
-        <button class="btn-chip" id="btn-select-all" onclick="selectAllLangs()">Select All</button>
-        <button class="btn-chip" id="btn-deselect-all" onclick="deselectAllLangs()">Deselect All</button>
+      <div class="comp-action-btns">
+        <button class="comp-btn-chip" id="btn-select-all" onclick="selectAllLangs()">Select All</button>
+        <button class="comp-btn-chip" id="btn-deselect-all" onclick="deselectAllLangs()">Deselect All</button>
       </div>
     </div>
 
@@ -314,46 +69,97 @@
     <div id="family-groups-container"></div>
 
     <!-- Category Filter Bar -->
-    <div class="category-filter-bar">
+    <div class="comp-filter-bar">
       <label for="category-select">Filter by Category:</label>
-      <select id="category-select" class="cat-select" onchange="renderMatrix()">
+      <select id="category-select" class="comp-cat-select" onchange="renderMatrix()">
         <option value="all">All Categories</option>
       </select>
     </div>
 
     <!-- Known Language Transfer Tips Bar -->
-    <div class="category-filter-bar category-filter-bar-padded">
+    <div class="comp-filter-bar">
       <label for="known-lang-select">💡 I already know...</label>
-      <select id="known-lang-select" class="cat-select" onchange="renderTransferTips()">
+      <select id="known-lang-select" class="comp-cat-select" onchange="renderTransferTips()">
         <option value="">-- Select a language you know --</option>
       </select>
     </div>
   </div>
 
   <!-- Transfer Tips Callout Box -->
-  <div id="transfer-tips-box" class="transfer-tips-box-panel">
-    <div class="transfer-tips-header-row">
-      <h3 id="transfer-tips-title" class="transfer-tips-title-text">
+  <div id="transfer-tips-box" class="comp-transfer-tips-panel">
+    <div class="comp-transfer-header">
+      <h3 id="transfer-tips-title" class="comp-transfer-title">
         💡 Linguistic Transfer Insights
       </h3>
-      <button onclick="clearKnownLang()" class="btn-chip btn-chip-sm">Clear</button>
+      <button onclick="clearKnownLang()" class="comp-btn-chip">Clear</button>
     </div>
-    <div id="transfer-tips-list" class="transfer-tips-grid-list"></div>
+    <div id="transfer-tips-list" class="comp-transfer-grid"></div>
   </div>
 
-  <!-- Comparative Matrix Table -->
-  <div class="matrix-wrapper">
-    <table class="matrix-table" id="matrix-table">
-      <thead id="matrix-head"></thead>
-      <tbody id="matrix-body"></tbody>
-    </table>
+  <!-- Comparative Matrix Table Wrapper -->
+  <div class="comp-matrix-wrapper">
+    <div class="comp-matrix-scroll-hint">
+      <span>↔ Scroll horizontally to compare all 14 languages</span>
+      <span style="font-size: 0.78rem; opacity: 0.85;">A0–A1 Feature Map</span>
+    </div>
+    <div class="comp-matrix-scroll-container">
+      <table class="comp-matrix-table" id="matrix-table">
+        <thead id="matrix-head"></thead>
+        <tbody id="matrix-body"></tbody>
+      </table>
+    </div>
   </div>
 
 </main>
 
-<footer class="comparative-footer-bar">
-  <div>&copy; 2026 COSYlanguages · All rights reserved · Comparative Grammar Matrix</div>
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="fb-logo">
+        <img src="../images/logos/cosylanguages.png" alt="COSYlanguages logo" loading="lazy" decoding="async" width="38" height="38">
+        <span class="fb-name">COSYlanguages</span>
+      </div>
+      <p data-translate-key="footer_fb_p">Your friendly corner to master new languages and connect with the world. 🌍</p>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_courses">Courses</h3>
+      <a href="../apps/premium-courses/general/" data-translate-key="course_general">General Course 📖</a>
+      <a href="../apps/premium-courses/spoken/" data-translate-key="course_spoken">Spoken Course 🗣️</a>
+      <a href="../apps/premium-courses/exam/" data-translate-key="course_exam">Exam Preparation 📝</a>
+      <a href="../apps/premium-courses/travelling/" data-translate-key="course_travelling">Travelling Course ✈️</a>
+      <a href="../apps/premium-courses/professional/" data-translate-key="course_professional">Professional Course 💼</a>
+      <a href="../apps/premium-courses/relocation/" data-translate-key="course_relocation">Relocation Course 🏡</a>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_explore">Explore</h3>
+      <a href="../index.html#languages" data-translate-key="nav_languages">Languages 🌍</a>
+      <a href="../practice/index.html" data-translate-key="nav_practice">Free Practice 💡</a>
+      <a href="../placement-quiz.html">Placement Quiz 📝</a>
+      <a href="../hybrid/index.html">Hybrid &amp; Community 🌿</a>
+      <a href="../notebook/index.html">My Notebook 📓</a>
+      <a href="../events/index.html" data-translate-key="nav_events">Events 🎉</a>
+      <a href="../games/index.html" data-translate-key="nav_games">Games 🎮</a>
+    </div>
+    <div class="footer-links-col">
+      <h3>Project</h3>
+      <a href="../about/index.html">Our Story 🏡</a>
+      <a href="../privacy.html">Privacy &amp; Safety 🛡️</a>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_contact">Contact</h3>
+      <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+      <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+      <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
+    </div>
+  </div>
+  <div class="footer-bottom" data-translate-key="footer_copy">© 2026 COSYlanguages, All rights reserved</div>
 </footer>
+
+<script src="../js/data/languages.js"></script>
+<script src="../js/core/engine.js"></script>
+<script src="../js/core/i18n.js"></script>
+<script src="../js/core/ui.js"></script>
+<div id="toast"></div>
 
 <script>
   let languageMeta = [];
@@ -417,7 +223,7 @@
     if (matchingNotes.length === 0) {
       tipsBox.style.display = 'block';
       tipsTitle.innerHTML = `💡 Transfer Insights for ${FLAG_MAP[knownCode] || ''} ${knownLang ? knownLang.name_en : knownCode}`;
-      tipsList.innerHTML = `<div class="transfer-tips-empty-msg">No specific transfer notes cataloged for this language yet.</div>`;
+      tipsList.innerHTML = `<div style="grid-column: 1 / -1; color: var(--ink-soft); font-style: italic;">No specific transfer notes cataloged for this language yet.</div>`;
       return;
     }
 
@@ -430,11 +236,11 @@
       const targetFlag = FLAG_MAP[note.target_language] || '🌐';
 
       return `
-        <div class="transfer-tips-item-card">
-          <div class="transfer-tips-item-header">
+        <div class="comp-transfer-card">
+          <div class="comp-transfer-card-header">
             <span>→ ${targetFlag} Learning ${targetName}:</span>
           </div>
-          <div class="transfer-tips-item-body">
+          <div class="comp-transfer-card-body">
             ${note.note}
           </div>
         </div>
@@ -461,21 +267,21 @@
 
     Object.entries(families).forEach(([famName, langs]) => {
       const groupEl = document.createElement('div');
-      groupEl.className = 'family-group';
+      groupEl.className = 'comp-family-group';
 
       const familyLangCodes = langs.map(l => l.code);
       const isAllFamilySelected = familyLangCodes.every(code => selectedLangCodes.has(code));
 
       groupEl.innerHTML = `
-        <div class="family-title">
+        <div class="comp-family-title">
           <span>${famName}</span>
-          <button class="btn-chip ${isAllFamilySelected ? 'active' : ''} btn-chip-sm" onclick="toggleFamily('${famName}')">
+          <button class="comp-btn-chip ${isAllFamilySelected ? 'active' : ''}" onclick="toggleFamily('${famName}')">
             ${isAllFamilySelected ? 'Deselect Family' : 'Select Family'}
           </button>
         </div>
-        <div class="lang-chips-grid">
+        <div class="comp-lang-chips-grid">
           ${langs.map(l => `
-            <div class="lang-chip ${selectedLangCodes.has(l.code) ? 'selected' : ''}" onclick="toggleLang('${l.code}')">
+            <div class="comp-lang-chip ${selectedLangCodes.has(l.code) ? 'selected' : ''}" onclick="toggleLang('${l.code}')">
               <span>${FLAG_MAP[l.code] || '🌐'}</span>
               <span>${l.name_en}</span>
             </div>
@@ -549,8 +355,8 @@
         <th class="col-feature">Grammar Feature</th>
         ${selectedLangs.map(l => `
           <th class="col-lang" title="${l.name_en} (${l.name_native})">
-            <div class="lang-chip-flag">${FLAG_MAP[l.code] || '🌐'}</div>
-            <div class="lang-chip-code">${l.code.toUpperCase()}</div>
+            <div>${FLAG_MAP[l.code] || '🌐'}</div>
+            <div style="font-size: 0.78rem; font-weight: 800; color: var(--sage-deep); text-transform: uppercase;">${l.code}</div>
           </th>
         `).join('')}
       </tr>
@@ -564,12 +370,12 @@
     }
 
     if (selectedLangs.length === 0) {
-      body.innerHTML = `<tr class="no-data-row"><td colspan="100">Please select at least one language to view the comparative matrix.</td></tr>`;
+      body.innerHTML = `<tr class="comp-no-data-row"><td colspan="100">Please select at least one language to view the comparative matrix.</td></tr>`;
       return;
     }
 
     if (items.length === 0) {
-      body.innerHTML = `<tr class="no-data-row"><td colspan="${selectedLangs.length + 1}">No grammar features found for this category.</td></tr>`;
+      body.innerHTML = `<tr class="comp-no-data-row"><td colspan="${selectedLangs.length + 1}">No grammar features found for this category.</td></tr>`;
       return;
     }
 
@@ -577,7 +383,7 @@
     let bodyHtml = items.map(item => `
       <tr>
         <td class="col-feature">
-          <div class="feature-info">
+          <div class="comp-feature-info">
             <div class="title">
               <span>${item.title}</span>
               <span class="badge-level">${item.cefr_level}</span>
@@ -590,12 +396,12 @@
           if (hasFeature) {
             const manualPath = '..' + l.manual_url;
             return `
-              <td class="cell-status">
-                <a href="${manualPath}" class="cell-link" title="Open ${l.name_en} Grammar Manual">✅</a>
+              <td class="comp-cell-status">
+                <a href="${manualPath}" class="comp-cell-link" title="Open ${l.name_en} Grammar Manual">✅</a>
               </td>
             `;
           } else {
-            return `<td class="cell-status cell-status-disabled">❌</td>`;
+            return `<td class="comp-cell-status" style="opacity: 0.35;">❌</td>`;
           }
         }).join('')}
       </tr>
