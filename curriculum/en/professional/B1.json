@@ -5,7 +5,7 @@
   "units": [
     {
       "unit": 1,
-      "title": "Professional Written Communication",
+      "title": "Professional Written Communication & Basic Correspondence",
       "lessons": [
         {
           "lesson": 1,
@@ -23,7 +23,7 @@
             "Sincerely",
             "Regards"
           ],
-          "teacher_notes": "code: \"EN-PRO-B1-001\"\ncando: \"Can write clear formal emails for routine workplace requests and scheduling.\"",
+          "teacher_notes": "code: \"EN-PRO-B1-001\"\ncando: \"Can write clear formal emails for routine workplace requests and scheduling.\"\ndomain_hints: \"Education: Student inquiries; Legal: Case updates; Medical: Patient scheduling; IT: Ticket summaries; Business: Client quotes; Manual Trades: Material requests; Crafts: Order confirmations.\"",
           "recycled": "Foundational communication & basic level vocabulary"
         },
         {
@@ -42,13 +42,13 @@
             "Assistance",
             "Prompt"
           ],
-          "teacher_notes": "code: \"EN-PRO-B1-002\"\ncando: \"Can write polite enquiries and follow-up emails requesting workplace information.\"",
+          "teacher_notes": "code: \"EN-PRO-B1-002\"\ncando: \"Can write polite enquiries and follow-up emails requesting workplace information.\"\ndomain_hints: \"Education: Course queries; Legal: Document requests; Medical: Lab result follow-up; IT: Bug status; Business: Vendor queries; Manual Trades: Site access; Crafts: Supply orders.\"",
           "recycled": "Formal request phrasing, Future arrangements with Present Continuous, Schedule"
         },
         {
           "lesson": 3,
           "type": "gv",
-          "title": "Drafting Short Internal Memos & Status Reports",
+          "title": "Drafting Short Internal Memos, Notices & Academic Notes",
           "grammar": [
             "Passive voice for objective process reporting",
             "Bullet points and imperative list structures"
@@ -61,7 +61,7 @@
             "Summary",
             "Notify"
           ],
-          "teacher_notes": "code: \"EN-PRO-B1-003\"\ncando: \"Can draft short workplace memos and summary updates for internal team members.\"",
+          "teacher_notes": "code: \"EN-PRO-B1-003\"\ncando: \"Can draft short workplace memos, safety notices, or study notes for internal team members.\"\ndomain_hints: \"Education: Faculty announcements; Legal: Brief summaries; Medical: Ward protocol notices; IT: Maintenance windows; Business: Policy updates; Manual Trades: Safety guidelines; Crafts: Studio rules.\"",
           "recycled": "Indirect questions for polite enquiry (Could you tell me if...), Assistance"
         },
         {
@@ -80,19 +80,19 @@
             "Alternative",
             "Contact"
           ],
-          "teacher_notes": "code: \"EN-PRO-B1-004\"\ncando: \"Can write out-of-office automated replies and explain unexpected work delays professionally.\"",
+          "teacher_notes": "code: \"EN-PRO-B1-004\"\ncando: \"Can write out-of-office automated replies and explain unexpected work delays professionally.\"\ndomain_hints: \"Education: Class rescheduling; Legal: Filing extensions; Medical: Appointment shifts; IT: Server downtime; Business: Delivery delays; Manual Trades: Weather delays; Crafts: Custom order lead time.\"",
           "recycled": "Passive voice for objective process reporting, Implementation"
         }
       ]
     },
     {
       "unit": 2,
-      "title": "Meetings & Team Collaboration",
+      "title": "Meetings, Classroom Management & Team Collaboration",
       "lessons": [
         {
           "lesson": 1,
           "type": "spoken",
-          "title": "Participating in Team Meetings & Project Updates",
+          "title": "Participating in Team Meetings & Department Updates",
           "grammar": [
             "Present Perfect for recent updates",
             "Modal verbs for suggestions"
@@ -104,7 +104,7 @@
             "Action point",
             "Status update"
           ],
-          "teacher_notes": "code: \"EN-PRO-B1-005\"\ncando: \"Can report project status and contribute to team meeting agendas.\"",
+          "teacher_notes": "code: \"EN-PRO-B1-005\"\ncando: \"Can report project status and contribute to team meeting or staff room agendas.\"\ndomain_hints: \"Education: Departmental syncs; Legal: Case reviews; Medical: Shift handovers; IT: Daily standups; Business: Sales huddles; Manual Trades: Site toolboxes; Crafts: Exhibition planning.\"",
           "recycled": "Present Perfect for recent occurrences and delays, Alternative"
         },
         {
@@ -123,7 +123,7 @@
             "Elaborate",
             "Point"
           ],
-          "teacher_notes": "code: \"EN-PRO-B1-006\"\ncando: \"Can ask for clarification and interrupt politely during workplace discussions.\"",
+          "teacher_notes": "code: \"EN-PRO-B1-006\"\ncando: \"Can ask for clarification and interrupt politely during workplace discussions.\"\ndomain_hints: \"Education: Lecture Q&A; Legal: Pre-trial debriefs; Medical: Clinical rounds; IT: Architecture reviews; Business: Client calls; Manual Trades: Contractor briefings; Crafts: Client consultations.\"",
           "recycled": "Present Perfect for recent updates, Modal verbs for suggestions, Deadline"
         },
         {
@@ -142,13 +142,13 @@
             "Perspective",
             "Consensus"
           ],
-          "teacher_notes": "code: \"EN-PRO-B1-007\"\ncando: \"Can express agreement, partial disagreement, and constructive suggestions in meetings.\"",
+          "teacher_notes": "code: \"EN-PRO-B1-007\"\ncando: \"Can express agreement, partial disagreement, and constructive suggestions in meetings.\"\ndomain_hints: \"Education: Curriculum planning; Legal: Settlement terms; Medical: Treatment options; IT: Sprint planning; Business: Strategy sessions; Manual Trades: Blueprint adjustments; Crafts: Material choices.\"",
           "recycled": "Phrasal verbs for checking understanding (go over, recap, clear up), Clarification"
         },
         {
           "lesson": 4,
           "type": "vocab",
-          "title": "Taking Meeting Minutes & Action Items",
+          "title": "Taking Meeting Minutes, Class Notes & Action Items",
           "grammar": [
             "Reported speech basics for summarizing decisions",
             "Future obligation (is to be completed by...)"
@@ -161,22 +161,22 @@
             "Follow-up",
             "Record"
           ],
-          "teacher_notes": "code: \"EN-PRO-B1-008\"\ncando: \"Can take concise meeting notes and record assigned action items.\"",
+          "teacher_notes": "code: \"EN-PRO-B1-008\"\ncando: \"Can take concise meeting notes and record assigned action items or study notes.\"\ndomain_hints: \"Education: Staff meeting notes; Legal: Deposition notes; Medical: Patient notes; IT: Retro action items; Business: Board minutes; Manual Trades: Inspection reports; Crafts: Project specs.\"",
           "recycled": "Softened disagreement (I see your point, but...), Proposal"
         }
       ]
     },
     {
       "unit": 3,
-      "title": "Presentations & Public Speaking",
+      "title": "Presentations, Lecturing & Explaining Processes",
       "lessons": [
         {
           "lesson": 1,
           "type": "spoken",
-          "title": "Structuring a Simple Business Presentation",
+          "title": "Structuring a Business Presentation or Short Lecture",
           "grammar": [
             "Signposting phrases (First, moving on to, finally)",
-            "Present Simple for general facts and company background"
+            "Present Simple for general facts and background"
           ],
           "vocabulary": [
             "Introduction",
@@ -186,13 +186,13 @@
             "Conclusion",
             "Outline"
           ],
-          "teacher_notes": "code: \"EN-PRO-B1-009\"\ncando: \"Can structure and introduce a simple presentation using signposting markers.\"",
+          "teacher_notes": "code: \"EN-PRO-B1-009\"\ncando: \"Can structure and introduce a simple presentation or classroom lesson using signposting markers.\"\ndomain_hints: \"Education: Introductory lectures; Legal: Case overviews; Medical: Health briefings; IT: Tech talks; Business: Product demos; Manual Trades: Safety inductions; Crafts: Workshop intros.\"",
           "recycled": "Reported speech basics for summarizing decisions, Deliverable"
         },
         {
           "lesson": 2,
           "type": "gv",
-          "title": "Presenting Data, Charts & Trends",
+          "title": "Presenting Data, Charts & Research Trends",
           "grammar": [
             "Verbs of change and degree (increase slightly, rise sharply, remain steady)",
             "Prepositions of movement and position (increase by 10%, stand at)"
@@ -205,13 +205,13 @@
             "Trend",
             "Percentage"
           ],
-          "teacher_notes": "code: \"EN-PRO-B1-010\"\ncando: \"Can describe simple trends, charts, and financial data in a presentation.\"",
+          "teacher_notes": "code: \"EN-PRO-B1-010\"\ncando: \"Can describe simple trends, charts, and research data in a presentation.\"\ndomain_hints: \"Education: Test score analytics; Legal: Crime/case statistics; Medical: Clinical trial metrics; IT: System performance; Business: Sales charts; Manual Trades: Material cost graphs; Crafts: Sales volume trends.\"",
           "recycled": "Signposting phrases (First, moving on to, finally), Overview"
         },
         {
           "lesson": 3,
           "type": "gv",
-          "title": "Explaining Work Processes & Workflows",
+          "title": "Explaining Work Processes, Lab Procedures & Workflows",
           "grammar": [
             "Sequencers (First of all, then, after that, once...)",
             "Passive voice for standardized operational steps"
@@ -224,13 +224,13 @@
             "Efficient",
             "Operation"
           ],
-          "teacher_notes": "code: \"EN-PRO-B1-011\"\ncando: \"Can explain operational workflows and step-by-step procedures clearly.\"",
+          "teacher_notes": "code: \"EN-PRO-B1-011\"\ncando: \"Can explain operational workflows, technical assembly steps, or lab procedures clearly.\"\ndomain_hints: \"Education: Lab experiment steps; Legal: Filing procedures; Medical: Sterilization protocols; IT: Deployment pipelines; Business: Onboarding workflows; Manual Trades: Wiring steps; Crafts: Pottery firing process.\"",
           "recycled": "Verbs of change and degree (increase slightly, rise sharply, remain steady), Fluctuate"
         },
         {
           "lesson": 4,
           "type": "spoken",
-          "title": "Handling Simple Questions & Audience Interaction",
+          "title": "Handling Questions & Classroom / Audience Interaction",
           "grammar": [
             "Phrases for inviting and delaying questions (That's a good question, I will check that...)",
             "Conditional willingness (If you would like more detail, I can send...)"
@@ -243,19 +243,19 @@
             "Detail",
             "Address"
           ],
-          "teacher_notes": "code: \"EN-PRO-B1-012\"\ncando: \"Can manage basic Q&A sessions following a presentation.\"",
+          "teacher_notes": "code: \"EN-PRO-B1-012\"\ncando: \"Can manage basic Q&A sessions following a presentation, lecture, or briefing.\"\ndomain_hints: \"Education: Student Q&A; Legal: Client Q&A; Medical: Patient family questions; IT: User feedback; Business: Investor questions; Manual Trades: Client site queries; Crafts: Workshop attendee questions.\"",
           "recycled": "Sequencers (First of all, then, after that, once...), Process"
         }
       ]
     },
     {
       "unit": 4,
-      "title": "Negotiation, Persuasion & Problem Solving",
+      "title": "Negotiation, Bargaining & Client Problem Solving",
       "lessons": [
         {
           "lesson": 1,
           "type": "gv",
-          "title": "Basics of Commercial Bargaining & Terms",
+          "title": "Basics of Commercial Bargaining & Rates",
           "grammar": [
             "First conditional in bargaining (If you offer X, we will agree to Y)",
             "Quantifiers and numerical expressions"
@@ -268,13 +268,13 @@
             "Supplier",
             "Budget"
           ],
-          "teacher_notes": "code: \"EN-PRO-B1-013\"\ncando: \"Can negotiate basic price discounts and delivery terms with suppliers.\"",
+          "teacher_notes": "code: \"EN-PRO-B1-013\"\ncando: \"Can negotiate basic price discounts, hourly rates, or supply terms.\"\ndomain_hints: \"Education: Tutoring rates; Legal: Fee estimates; Medical: Supply costs; IT: Software licensing; Business: Retail wholesale; Manual Trades: Subcontractor rates; Crafts: Raw material prices.\"",
           "recycled": "Phrases for inviting and delaying questions, Feedback"
         },
         {
           "lesson": 2,
           "type": "spoken",
-          "title": "Making Proposals & Counter-offers",
+          "title": "Making Proposals & Service Counter-offers",
           "grammar": [
             "Second conditional for hypothetical bargaining (What if we were to...)",
             "Comparative expressions (far more cost-effective, slightly better)"
@@ -287,13 +287,13 @@
             "Deal",
             "Compromise"
           ],
-          "teacher_notes": "code: \"EN-PRO-B1-014\"\ncando: \"Can present initial proposals and negotiate counter-offers.\"",
+          "teacher_notes": "code: \"EN-PRO-B1-014\"\ncando: \"Can present initial service proposals and negotiate counter-offers.\"\ndomain_hints: \"Education: Grant budgets; Legal: Out-of-court terms; Medical: Equipment leases; IT: Scope of work; Business: Service contracts; Manual Trades: Project timelines; Crafts: Custom commission pricing.\"",
           "recycled": "First conditional in bargaining (If you offer X, we will agree to Y), Supplier"
         },
         {
           "lesson": 3,
           "type": "gv",
-          "title": "Handling Workplace Complaints & Disagreements",
+          "title": "Handling Complaints & Professional Disagreements",
           "grammar": [
             "Hedging and softeners (It seems there has been a misunderstanding)",
             "Past Continuous for background context"
@@ -306,13 +306,13 @@
             "Satisfaction",
             "Resolution"
           ],
-          "teacher_notes": "code: \"EN-PRO-B1-015\"\ncando: \"Can handle customer or internal complaints calmly and constructively.\"",
+          "teacher_notes": "code: \"EN-PRO-B1-015\"\ncando: \"Can handle client or internal complaints calmly and constructively.\"\ndomain_hints: \"Education: Parent concerns; Legal: Billing disputes; Medical: Waiting time complaints; IT: Bug escalations; Business: Customer service; Manual Trades: Workmanship queries; Crafts: Design revisions.\"",
           "recycled": "Second conditional for hypothetical bargaining (What if we were to...), Compromise"
         },
         {
           "lesson": 4,
           "type": "spoken",
-          "title": "Reaching Agreement & Confirming Details",
+          "title": "Reaching Agreement & Confirming Contract Details",
           "grammar": [
             "Confirming commitment phrases (We are agreed on..., Shall we proceed with...)",
             "Future Simple for spontaneous decisions and promises"
@@ -325,19 +325,19 @@
             "Signature",
             "Finalize"
           ],
-          "teacher_notes": "code: \"EN-PRO-B1-016\"\ncando: \"Can finalize deal terms and confirm agreements verbally and in writing.\"",
+          "teacher_notes": "code: \"EN-PRO-B1-016\"\ncando: \"Can finalize deal terms and confirm agreements verbally and in writing.\"\ndomain_hints: \"Education: Enrollment agreements; Legal: Retainer contracts; Medical: Consent forms; IT: SLA confirmations; Business: Service sign-offs; Manual Trades: Job sign-offs; Crafts: Commission agreements.\"",
           "recycled": "Hedging and softeners (It seems there has been a misunderstanding), Misunderstanding"
         }
       ]
     },
     {
       "unit": 5,
-      "title": "Workplace Networking & Professional Relationships",
+      "title": "Networking, Academic Conferences & Professional Relationships",
       "lessons": [
         {
           "lesson": 1,
           "type": "spoken",
-          "title": "Office Small Talk & Welcoming Visitors",
+          "title": "Office Small Talk & Welcoming Visitors or Clients",
           "grammar": [
             "Question tags for social conversation (Nice office, isn't it?)",
             "Present Continuous for current activities and trips"
@@ -350,13 +350,13 @@
             "Small talk",
             "Facility"
           ],
-          "teacher_notes": "code: \"EN-PRO-B1-017\"\ncando: \"Can greet workplace visitors, offer hospitality, and make light social conversation.\"",
+          "teacher_notes": "code: \"EN-PRO-B1-017\"\ncando: \"Can greet visitors, offer hospitality, and make light social conversation in any professional setting.\"\ndomain_hints: \"Education: Visiting scholars; Legal: Visiting clients; Medical: Clinic guests; IT: Onsite consultants; Business: Office guests; Manual Trades: Site inspectors; Crafts: Gallery visitors.\"",
           "recycled": "Confirming commitment phrases, Finalize"
         },
         {
           "lesson": 2,
           "type": "spoken",
-          "title": "Networking at Business Events & Conferences",
+          "title": "Networking at Conferences, Fairs & Trade Shows",
           "grammar": [
             "Self-introductions and elevator pitch basics",
             "Present Perfect with for/since for work history"
@@ -369,7 +369,7 @@
             "Role",
             "Exchange"
           ],
-          "teacher_notes": "code: \"EN-PRO-B1-018\"\ncando: \"Can introduce oneself at business events and exchange professional contact details.\"",
+          "teacher_notes": "code: \"EN-PRO-B1-018\"\ncando: \"Can introduce oneself at academic conferences or trade events and exchange contact details.\"\ndomain_hints: \"Education: Academic symposia; Legal: Bar association meets; Medical: Medical expos; IT: Developer summits; Business: Trade shows; Manual Trades: Trade expos; Crafts: Craft fairs.\"",
           "recycled": "Question tags for social conversation, Visitor"
         },
         {
@@ -388,13 +388,13 @@
             "Professionalism",
             "Relationship"
           ],
-          "teacher_notes": "code: \"EN-PRO-B1-019\"\ncando: \"Can show cross-cultural courtesy and build positive workplace rapport.\"",
+          "teacher_notes": "code: \"EN-PRO-B1-019\"\ncando: \"Can show cross-cultural courtesy and build positive professional rapport.\"\ndomain_hints: \"Education: Exchange programs; Legal: Cross-border cases; Medical: Diverse patient care; IT: Distributed global teams; Business: International clients; Manual Trades: Foreign site crews; Crafts: International exhibitions.\"",
           "recycled": "Self-introductions and elevator pitch basics, Networking"
         },
         {
           "lesson": 4,
           "type": "spoken",
-          "title": "Scheduling & Arranging Business Lunches or Calls",
+          "title": "Scheduling & Arranging Appointments, Lunches or Calls",
           "grammar": [
             "Proposing dates and times (Would Tuesday suit you? How about 2 PM?)",
             "Prepositions of time and place"
@@ -407,19 +407,19 @@
             "Reschedule",
             "Location"
           ],
-          "teacher_notes": "code: \"EN-PRO-B1-020\"\ncando: \"Can arrange, modify, or postpone business meetings and calls.\"",
+          "teacher_notes": "code: \"EN-PRO-B1-020\"\ncando: \"Can arrange, modify, or postpone business meetings, client calls, or academic consultations.\"\ndomain_hints: \"Education: Office hours; Legal: Consultations; Medical: Patient appointments; IT: Demo calls; Business: Lunch meetings; Manual Trades: Site visits; Crafts: Studio appointments.\"",
           "recycled": "Polite modal expressions (May I, Would you mind), Rapport"
         }
       ]
     },
     {
       "unit": 6,
-      "title": "Job Search, CVs, Interviews & Performance Management",
+      "title": "Career Search, Resumes, Interviews & Performance Reviews",
       "lessons": [
         {
           "lesson": 1,
           "type": "vocab",
-          "title": "Writing a Professional CV & Resume",
+          "title": "Writing a Professional Resume / CV & Academic Profile",
           "grammar": [
             "Action verbs in past tense for achievements",
             "Noun phrases for skill summaries"
@@ -432,13 +432,13 @@
             "Achievement",
             "Education"
           ],
-          "teacher_notes": "code: \"EN-PRO-B1-021\"\ncando: \"Can write a clear B1-level CV highlighting work history, skills, and qualifications.\"",
+          "teacher_notes": "code: \"EN-PRO-B1-021\"\ncando: \"Can write a clear B1-level CV or academic profile highlighting experience and skills.\"\ndomain_hints: \"Education: Teaching credentials; Legal: Legal training; Medical: Clinical rotations; IT: Tech stack & repos; Business: Work achievements; Manual Trades: Certifications & apprenticeships; Crafts: Portfolio highlights.\"",
           "recycled": "Proposing dates and times, Availability"
         },
         {
           "lesson": 2,
           "type": "gv",
-          "title": "Writing a Job Application & Cover Letter",
+          "title": "Writing a Cover Letter & Application Statement",
           "grammar": [
             "Formal cover letter conventions (I am writing to apply for...)",
             "Present Perfect for relevant past experience connecting to present role"
@@ -451,7 +451,7 @@
             "Candidate",
             "Requirement"
           ],
-          "teacher_notes": "code: \"EN-PRO-B1-022\"\ncando: \"Can draft a concise cover letter expressing interest in a job vacancy.\"",
+          "teacher_notes": "code: \"EN-PRO-B1-022\"\ncando: \"Can draft a concise cover letter expressing interest in a job vacancy or research position.\"\ndomain_hints: \"Education: Research assistantships; Legal: Paralegal positions; Medical: Residency applications; IT: Developer roles; Business: Management trainees; Manual Trades: Journeyman roles; Crafts: Resident artist posts.\"",
           "recycled": "Action verbs in past tense for achievements, Resume"
         },
         {
@@ -470,13 +470,13 @@
             "Competency",
             "Interviewee"
           ],
-          "teacher_notes": "code: \"EN-PRO-B1-023\"\ncando: \"Can answer standard job interview questions regarding work experience and strengths.\"",
+          "teacher_notes": "code: \"EN-PRO-B1-023\"\ncando: \"Can answer standard job interview questions regarding experience, skills, and background.\"\ndomain_hints: \"Education: Pedagogy experience; Legal: Case research skills; Medical: Patient care history; IT: Coding experience; Business: Project management; Manual Trades: Trade skills; Crafts: Craft techniques.\"",
           "recycled": "Formal cover letter conventions, Vacancy"
         },
         {
           "lesson": 4,
           "type": "srev",
-          "title": "Preparing for Performance Reviews & Giving Feedback",
+          "title": "Preparing for Performance Reviews & Academic Evaluations",
           "grammar": [
             "Expressing goals with future intentions (I plan to..., My goal is to...)",
             "Constructive feedback phrasing (One area for improvement is...)"
@@ -489,7 +489,7 @@
             "Appraisal",
             "Development"
           ],
-          "teacher_notes": "code: \"EN-PRO-B1-024\"\ncando: \"Can discuss personal job performance, set future goals, and participate in annual reviews.\"",
+          "teacher_notes": "code: \"EN-PRO-B1-024\"\ncando: \"Can discuss job performance, set future professional goals, and participate in annual reviews.\"\ndomain_hints: \"Education: Teacher evaluations; Legal: Associate reviews; Medical: Clinical appraisals; IT: Peer code reviews; Business: Annual appraisals; Manual Trades: Safety reviews; Crafts: Exhibition feedback.\"",
           "recycled": "Past Simple vs Present Perfect for discussing career history, Strength"
         }
       ]

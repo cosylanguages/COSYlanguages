@@ -5,15 +5,15 @@
   "units": [
     {
       "unit": 1,
-      "title": "Advanced Business Correspondence & Written Reports",
+      "title": "Business Correspondence, Reports & Academic Papers",
       "lessons": [
         {
           "lesson": 1,
           "type": "vocab",
-          "title": "Formal Business Reports & Executive Summaries",
+          "title": "Formal Business Reports, Academic Abstracts & Executive Summaries",
           "grammar": [
             "Passive voice for objective analytical reporting",
-            "Complex nominal phrases in report headers"
+            "Complex nominal phrases in report and paper headers"
           ],
           "vocabulary": [
             "Executive summary",
@@ -21,15 +21,15 @@
             "Methodology",
             "Recommendation",
             "Evaluation",
-            "Assessment"
+            "Abstract"
           ],
-          "teacher_notes": "code: \"EN-PRO-B2-001\"\ncando: \"Can write formal business reports and concise executive summaries for management.\"",
+          "teacher_notes": "code: \"EN-PRO-B2-001\"\ncando: \"Can write formal business reports, academic paper abstracts, and executive summaries.\"\ndomain_hints: \"Education: Research abstracts; Legal: Legal opinion summaries; Medical: Case study reports; IT: System audit reports; Business: Market analysis; Manual Trades: Site inspection summaries; Crafts: Exhibition catalog essays.\"",
           "recycled": "Foundational communication & basic level vocabulary"
         },
         {
           "lesson": 2,
           "type": "gv",
-          "title": "Writing Persuasive Business Proposals & Charters",
+          "title": "Writing Persuasive Business Proposals & Grant Applications",
           "grammar": [
             "Modal auxiliaries of recommendation (should, ought to, would advise)",
             "Discourse markers of cause, effect, and rationale (accordingly, furthermore)"
@@ -40,15 +40,15 @@
             "Justification",
             "Objective",
             "Scope",
-            "Resource"
+            "Grant"
           ],
-          "teacher_notes": "code: \"EN-PRO-B2-002\"\ncando: \"Can draft compelling project proposals and business charters justifying resource allocation.\"",
-          "recycled": "Passive voice for objective analytical reporting, Assessment"
+          "teacher_notes": "code: \"EN-PRO-B2-002\"\ncando: \"Can draft compelling business proposals and research grant applications justifying resource allocation.\"\ndomain_hints: \"Education: Research grant proposals; Legal: Motion justifications; Medical: Clinical study funding; IT: Architecture proposals; Business: Expansion plans; Manual Trades: Contract bids; Crafts: Arts council grants.\"",
+          "recycled": "Passive voice for objective analytical reporting, Abstract"
         },
         {
           "lesson": 3,
           "type": "gv",
-          "title": "Complex Workplace Enquiries, Complaints & Crisis Communication",
+          "title": "Complex Enquiries, Client Complaints & Crisis Communication",
           "grammar": [
             "Subjunctive and formal conditional structures for delicate matters",
             "Hedging and diplomatic language to minimize conflict"
@@ -61,13 +61,13 @@
             "Compliance",
             "Incident"
           ],
-          "teacher_notes": "code: \"EN-PRO-B2-003\"\ncando: \"Can compose formal responses to complex client complaints and mitigate workplace crisis situations.\"",
+          "teacher_notes": "code: \"EN-PRO-B2-003\"\ncando: \"Can compose formal responses to complex client complaints, peer concerns, or workplace incidents.\"\ndomain_hints: \"Education: Academic integrity disputes; Legal: Liability claims; Medical: Malpractice inquiries; IT: Security breach communications; Business: PR crises; Manual Trades: Structural defect claims; Crafts: Damaged shipment claims.\"",
           "recycled": "Modal auxiliaries of recommendation, Feasibility"
         },
         {
           "lesson": 4,
           "type": "spoken",
-          "title": "Cross-Departmental Announcements & Policy Updates",
+          "title": "Institutional Announcements & Policy / Curriculum Updates",
           "grammar": [
             "Future Perfect and Future Continuous for organizational timelines",
             "Imperative structures for formal compliance guidelines"
@@ -80,19 +80,19 @@
             "Implementation",
             "Directive"
           ],
-          "teacher_notes": "code: \"EN-PRO-B2-004\"\ncando: \"Can write clear company-wide policy updates and cross-departmental operational directives.\"",
+          "teacher_notes": "code: \"EN-PRO-B2-004\"\ncando: \"Can write clear organizational policy updates, curriculum revisions, or operational directives.\"\ndomain_hints: \"Education: Syllabus updates; Legal: Regulatory directives; Medical: Protocol changes; IT: Security policy rollouts; Business: HR policy changes; Manual Trades: Safety code updates; Crafts: Workshop safety rules.\"",
           "recycled": "Subjunctive and formal conditional structures for delicate matters, Compliance"
         }
       ]
     },
     {
       "unit": 2,
-      "title": "Meetings, Facilitation & Team Leadership",
+      "title": "Meetings, Seminars & Team Leadership",
       "lessons": [
         {
           "lesson": 1,
           "type": "spoken",
-          "title": "Chairing Meetings & Managing Agendas",
+          "title": "Chairing Meetings, Seminars & Managing Agendas",
           "grammar": [
             "Signposting for agenda management (Let's turn our attention to, Moving to item two)",
             "Imperative and modal control structures (Let us keep to the timeframe)"
@@ -105,13 +105,13 @@
             "Action item",
             "Focus"
           ],
-          "teacher_notes": "code: \"EN-PRO-B2-005\"\ncando: \"Can effectively chair professional meetings, keep attendees focused, and manage agendas.\"",
+          "teacher_notes": "code: \"EN-PRO-B2-005\"\ncando: \"Can effectively chair professional meetings or academic seminars and manage agendas.\"\ndomain_hints: \"Education: Academic committee meetings; Legal: Partner meetings; Medical: Tumor boards / rounds; IT: Sprint retrospectives; Business: Management meetings; Manual Trades: Foreman syncs; Crafts: Guild meetings.\"",
           "recycled": "Future Perfect and Future Continuous for organizational timelines, Adherence"
         },
         {
           "lesson": 2,
           "type": "spoken",
-          "title": "Managing Conflicting Views & Mediating Team Debates",
+          "title": "Managing Conflicting Views & Mediating Debates",
           "grammar": [
             "Tactful disagreement phrases (I appreciate that perspective, however...)",
             "Third conditional for analyzing past team missteps"
@@ -124,13 +124,13 @@
             "Common ground",
             "Compromise"
           ],
-          "teacher_notes": "code: \"EN-PRO-B2-006\"\ncando: \"Can mediate conflicting viewpoints and steer team debates toward constructive resolution.\"",
+          "teacher_notes": "code: \"EN-PRO-B2-006\"\ncando: \"Can mediate conflicting viewpoints and steer professional or academic debates toward resolution.\"\ndomain_hints: \"Education: Peer research disputes; Legal: Settlement discussions; Medical: Ethical treatment debates; IT: Technical approach debates; Business: Inter-departmental friction; Manual Trades: Subcontractor disputes; Crafts: Design disagreements.\"",
           "recycled": "Signposting for agenda management, Timeframe"
         },
         {
           "lesson": 3,
           "type": "gv",
-          "title": "Leading Virtual & Hybrid Team Conferences",
+          "title": "Leading Virtual Conferences, Webinars & Hybrid Seminars",
           "grammar": [
             "Indirect questions for polling audience opinion",
             "Technical error handling phrases (You appear to be muted, let me re-share)"
@@ -143,13 +143,13 @@
             "Collaboration",
             "Platform"
           ],
-          "teacher_notes": "code: \"EN-PRO-B2-007\"\ncando: \"Can smoothly lead virtual or hybrid business conferences and manage interactive breakout sessions.\"",
+          "teacher_notes": "code: \"EN-PRO-B2-007\"\ncando: \"Can smoothly lead virtual or hybrid business conferences, online lectures, or webinars.\"\ndomain_hints: \"Education: Virtual lectures; Legal: Remote depositions; Medical: Telemedicine webinars; IT: Remote engineering syncs; Business: All-hands meetings; Manual Trades: Virtual site tours; Crafts: Online craft masterclasses.\"",
           "recycled": "Tactful disagreement phrases, Common ground"
         },
         {
           "lesson": 4,
           "type": "vocab",
-          "title": "Summarizing Consensus & Assigning Strategic Action Items",
+          "title": "Summarizing Consensus & Assigning Action Items",
           "grammar": [
             "Reported speech with complex reporting verbs (urge, confirm, task)",
             "Passive assignment structures (X is tasked with delivering Y)"
@@ -162,21 +162,21 @@
             "Deadline",
             "Deliverable"
           ],
-          "teacher_notes": "code: \"EN-PRO-B2-008\"\ncando: \"Can summarize complex meeting outcomes, record consensus, and assign strategic action items.\"",
+          "teacher_notes": "code: \"EN-PRO-B2-008\"\ncando: \"Can summarize complex meeting outcomes, record academic consensus, and assign action items.\"\ndomain_hints: \"Education: Research group milestones; Legal: Case strategy assignments; Medical: Treatment plan tasks; IT: Jira task assignments; Business: Project action logs; Manual Trades: Site task lists; Crafts: Exhibition deadlines.\"",
           "recycled": "Indirect questions for polling audience opinion, Collaboration"
         }
       ]
     },
     {
       "unit": 3,
-      "title": "Presentations, Slide Decks & Pitching",
+      "title": "Presentations, Lecturing & Pitching",
       "lessons": [
         {
           "lesson": 1,
           "type": "spoken",
-          "title": "Delivering Corporate Presentations & Q&A",
+          "title": "Delivering Corporate Presentations & Academic Lectures",
           "grammar": [
-            "Signposting language",
+            "Signposting language for lectures and slide decks",
             "Passive voice for objective reporting"
           ],
           "vocabulary": [
@@ -185,18 +185,18 @@
             "Strategy",
             "Forecast",
             "Stakeholder",
-            "ROI"
+            "Lecture"
           ],
-          "teacher_notes": "code: \"EN-PRO-B2-009\"\ncando: \"Can structure and deliver professional slide presentations and manage audience Q&A.\"",
+          "teacher_notes": "code: \"EN-PRO-B2-009\"\ncando: \"Can structure and deliver professional slide presentations or university-level lectures with Q&A.\"\ndomain_hints: \"Education: University lectures; Legal: CLE presentations; Medical: Medical grand rounds; IT: Product demo decks; Business: Annual strategy decks; Manual Trades: Safety keynotes; Crafts: Design philosophy talks.\"",
           "recycled": "Reported speech with complex reporting verbs, Accountability"
         },
         {
           "lesson": 2,
           "type": "spoken",
-          "title": "Pitching Ideas & Products to Stakeholders",
+          "title": "Pitching Ideas, Research Proposals & Products",
           "grammar": [
             "Rhetorical questions for audience engagement",
-            "Emphatic structures (What makes this product unique is...)"
+            "Emphatic structures (What makes this approach unique is...)"
           ],
           "vocabulary": [
             "Pitch",
@@ -204,18 +204,18 @@
             "Differentiator",
             "Investor",
             "Buy-in",
-            "Scalability"
+            "Innovation"
           ],
-          "teacher_notes": "code: \"EN-PRO-B2-010\"\ncando: \"Can deliver persuasive sales or idea pitches to internal and external stakeholders.\"",
+          "teacher_notes": "code: \"EN-PRO-B2-010\"\ncando: \"Can deliver persuasive sales pitches, innovative project proposals, or research pitches.\"\ndomain_hints: \"Education: Research project pitches; Legal: Client pitch books; Medical: Health tech pitches; IT: Startup pitch decks; Business: New product pitches; Manual Trades: Bid presentations; Crafts: Gallery pitch portfolios.\"",
           "recycled": "Signposting language, Strategy, Metric"
         },
         {
           "lesson": 3,
           "type": "gv",
-          "title": "Presenting Financial Forecasts & Performance Metrics",
+          "title": "Presenting Financial Forecasts, Metrics & Clinical Data",
           "grammar": [
             "Modifying comparatives for data analysis (significantly higher, considerably lower)",
-            "Complex prepositional phrases for financial trends (in comparison with, relative to)"
+            "Complex prepositional phrases for trends (in comparison with, relative to)"
           ],
           "vocabulary": [
             "Revenue",
@@ -223,15 +223,15 @@
             "Projection",
             "Quarter",
             "Variance",
-            "Growth"
+            "Efficacy"
           ],
-          "teacher_notes": "code: \"EN-PRO-B2-011\"\ncando: \"Can present detailed quarterly financial figures, projections, and performance variance.\"",
+          "teacher_notes": "code: \"EN-PRO-B2-011\"\ncando: \"Can present detailed quarterly financial figures, research metrics, or clinical trial data.\"\ndomain_hints: \"Education: Institutional budget reports; Legal: Damage assessment data; Medical: Treatment efficacy data; IT: Performance benchmark metrics; Business: Financial forecast slides; Manual Trades: Material cost estimates; Crafts: Sales & production metrics.\"",
           "recycled": "Rhetorical questions for audience engagement, Value proposition"
         },
         {
           "lesson": 4,
           "type": "spoken",
-          "title": "Handling Tough Q&A & Challenging Audience Questions",
+          "title": "Handling Tough Q&A & Defending Research / Proposals",
           "grammar": [
             "Polite deflection and delaying tactics (I will have to consult our data on that)",
             "Conditional hedging (Under certain circumstances, that might apply)"
@@ -242,21 +242,21 @@
             "Deflect",
             "Clarify",
             "Reassure",
-            "Address"
+            "Defend"
           ],
-          "teacher_notes": "code: \"EN-PRO-B2-012\"\ncando: \"Can navigate hostile or complex Q&A sessions during high-stakes presentations.\"",
+          "teacher_notes": "code: \"EN-PRO-B2-012\"\ncando: \"Can navigate hostile Q&A sessions or defend research thesis methodologies under scrutiny.\"\ndomain_hints: \"Education: Thesis defense Q&A; Legal: Cross-examination prep; Medical: Peer review questioning; IT: Code audit defense; Business: Shareholder Q&A; Manual Trades: Building inspector queries; Crafts: Art critic Q&A.\"",
           "recycled": "Modifying comparatives for data analysis, Revenue"
         }
       ]
     },
     {
       "unit": 4,
-      "title": "Commercial Negotiation & Persuasion",
+      "title": "Negotiation, Contracts & Academic Collaborations",
       "lessons": [
         {
           "lesson": 1,
           "type": "spoken",
-          "title": "Commercial Negotiations & Compromise",
+          "title": "Commercial & Institutional Negotiations",
           "grammar": [
             "Conditionals (First & Second) in bargaining",
             "Hedging language"
@@ -269,13 +269,13 @@
             "Agreement",
             "Concede"
           ],
-          "teacher_notes": "code: \"EN-PRO-B2-013\"\ncando: \"Can negotiate commercial terms and propose mutual trade-offs in business deals.\"",
+          "teacher_notes": "code: \"EN-PRO-B2-013\"\ncando: \"Can negotiate commercial terms, research partnerships, or service contracts with mutual trade-offs.\"\ndomain_hints: \"Education: University partnership agreements; Legal: Out-of-court settlements; Medical: Pharmaceutical pricing; IT: Vendor SLA terms; Business: Commercial contracts; Manual Trades: Subcontractor terms; Crafts: Consignment terms.\"",
           "recycled": "Polite deflection and delaying tactics, Challenge"
         },
         {
           "lesson": 2,
           "type": "gv",
-          "title": "Structuring Deal Terms & Contractual Trade-offs",
+          "title": "Structuring Contract Terms, Clauses & IP Rights",
           "grammar": [
             "Mixed conditionals in negotiation (If we had signed earlier, we would be in a stronger position now)",
             "Modal verbs of concession (We might accept X provided that you guarantee Y)"
@@ -283,20 +283,20 @@
           "vocabulary": [
             "Clause",
             "Stipulation",
-            "Exclusivity",
+            "Intellectual property",
             "Penalty",
             "Renegotiate",
             "Leverage"
           ],
-          "teacher_notes": "code: \"EN-PRO-B2-014\"\ncando: \"Can detail contractual terms, negotiate legal clauses, and establish mutual leverage.\"",
+          "teacher_notes": "code: \"EN-PRO-B2-014\"\ncando: \"Can detail contractual terms, legal clauses, and intellectual property rights.\"\ndomain_hints: \"Education: Patent & IP publishing rights; Legal: Non-disclosure clauses; Medical: Trial data ownership; IT: Software copyright & IP; Business: Exclusivity agreements; Manual Trades: Warranty clauses; Crafts: Design copyright.\"",
           "recycled": "Conditionals (First & Second) in bargaining, Hedging language, Terms"
         },
         {
           "lesson": 3,
           "type": "gv",
-          "title": "Persuasive Techniques & Framing Value Propositions",
+          "title": "Persuasive Framing & Value Proposition Architecture",
           "grammar": [
-            "Cleft sentences for emphasis (It is the cost efficiency that sets us apart)",
+            "Cleft sentences for emphasis (It is the research rigor that sets us apart)",
             "Persuasive adverbs (undoubtedly, compellingly, strategically)"
           ],
           "vocabulary": [
@@ -307,13 +307,13 @@
             "Benefit",
             "Advantage"
           ],
-          "teacher_notes": "code: \"EN-PRO-B2-015\"\ncando: \"Can use persuasive framing techniques to articulate competitive business advantages.\"",
+          "teacher_notes": "code: \"EN-PRO-B2-015\"\ncando: \"Can use persuasive framing techniques to articulate competitive business or research advantages.\"\ndomain_hints: \"Education: Educational methodology value; Legal: Defense strategy framing; Medical: Preventive health benefits; IT: System ROI framing; Business: Competitive edge framing; Manual Trades: Quality assurance value; Crafts: Handcraft uniqueness.\"",
           "recycled": "Mixed conditionals in negotiation, Leverage"
         },
         {
           "lesson": 4,
           "type": "spoken",
-          "title": "Closing Business Deals & Formalizing Agreements",
+          "title": "Closing Deals & Formalizing Academic / Business Agreements",
           "grammar": [
             "Formal commitment structures (We hereby confirm, It is agreed that)",
             "Infinitive clauses of purpose for legal commitment"
@@ -326,22 +326,22 @@
             "Partnership",
             "Execution"
           ],
-          "teacher_notes": "code: \"EN-PRO-B2-016\"\ncando: \"Can close commercial negotiations and formalize binding business agreements.\"",
+          "teacher_notes": "code: \"EN-PRO-B2-016\"\ncando: \"Can close commercial negotiations and formalize binding business or research agreements.\"\ndomain_hints: \"Education: Academic MOUs; Legal: Consent decrees; Medical: Clinical trial contracts; IT: Enterprise software deals; Business: Joint venture agreements; Manual Trades: Construction contracts; Crafts: Gallery representation deals.\"",
           "recycled": "Cleft sentences for emphasis, Framing"
         }
       ]
     },
     {
       "unit": 5,
-      "title": "Professional Networking & Intercultural Relations",
+      "title": "Networking, Academic Conferences & Intercultural Relations",
       "lessons": [
         {
           "lesson": 1,
           "type": "spoken",
-          "title": "Strategic Networking at Trade Fairs & Conventions",
+          "title": "Networking at Conferences, Symposia & Conventions",
           "grammar": [
             "Initiating conversations with strangers (I couldn't help noticing..., Are you attending the session on...)",
-            "Present Perfect Continuous for current industry projects"
+            "Present Perfect Continuous for current industry/research projects"
           ],
           "vocabulary": [
             "Convention",
@@ -349,34 +349,34 @@
             "Keynote",
             "Delegate",
             "Networking",
-            "Prospect"
+            "Symposium"
           ],
-          "teacher_notes": "code: \"EN-PRO-B2-017\"\ncando: \"Can initiate professional relationships and network effectively at industry conventions.\"",
+          "teacher_notes": "code: \"EN-PRO-B2-017\"\ncando: \"Can initiate professional relationships at trade conventions or academic symposia.\"\ndomain_hints: \"Education: Academic symposia; Legal: Legal congresses; Medical: Medical conventions; IT: Tech expos; Business: Industry summits; Manual Trades: Construction expos; Crafts: International craft fairs.\"",
           "recycled": "Formal commitment structures, Ratify"
         },
         {
           "lesson": 2,
           "type": "spoken",
-          "title": "Building Client Relationships & Account Management",
+          "title": "Building Client & Academic Collaborator Relationships",
           "grammar": [
-            "Relationship-building questions (How has your team been adapting to...)",
-            "Modal verbs for customer care (We would be delighted to assist)"
+            "Relationship-building questions (How has your institution been adapting to...)",
+            "Modal verbs for customer care or academic support (We would be delighted to assist)"
           ],
           "vocabulary": [
             "Account",
             "Retention",
             "Client",
             "Satisfaction",
-            "Loyalty",
+            "Collaborator",
             "Portfolio"
           ],
-          "teacher_notes": "code: \"EN-PRO-B2-018\"\ncando: \"Can nurture long-term client accounts and discuss ongoing service satisfaction.\"",
+          "teacher_notes": "code: \"EN-PRO-B2-018\"\ncando: \"Can nurture long-term client accounts or international academic research partnerships.\"\ndomain_hints: \"Education: Partner university relations; Legal: Long-term corporate clients; Medical: Specialist referral networks; IT: Enterprise key accounts; Business: Key client accounts; Manual Trades: Developer partnerships; Crafts: Collector relations.\"",
           "recycled": "Initiating conversations with strangers, Delegate"
         },
         {
           "lesson": 3,
           "type": "vocab",
-          "title": "Cross-Cultural Negotiation & International Etiquette",
+          "title": "Cross-Cultural Protocol & Academic / Business Etiquette",
           "grammar": [
             "Indirect register shifts for cultural sensitivity",
             "Modals of deduction regarding cultural expectations"
@@ -387,18 +387,18 @@
             "Norm",
             "Sensitivity",
             "Diplomacy",
-            "Context"
+            "Etiquette"
           ],
-          "teacher_notes": "code: \"EN-PRO-B2-019\"\ncando: \"Can navigate international business etiquette and respect cross-cultural hierarchy norms.\"",
+          "teacher_notes": "code: \"EN-PRO-B2-019\"\ncando: \"Can navigate international business etiquette and respect cross-cultural hierarchy norms.\"\ndomain_hints: \"Education: Visiting delegation protocol; Legal: International arbitration etiquette; Medical: Global health protocol; IT: Offshore team culture; Business: Global office etiquette; Manual Trades: Overseas project norms; Crafts: Global exhibition etiquette.\"",
           "recycled": "Relationship-building questions, Retention"
         },
         {
           "lesson": 4,
           "type": "spoken",
-          "title": "Socializing with Clients & Industry Dinners",
+          "title": "Hosting Dinners, Receptions & Academic Banquets",
           "grammar": [
             "Conversational floor-sharing techniques",
-            "Expressing opinions on non-controversial industry topics"
+            "Expressing opinions on non-controversial industry/academic topics"
           ],
           "vocabulary": [
             "Host",
@@ -408,38 +408,38 @@
             "Colleague",
             "Gathering"
           ],
-          "teacher_notes": "code: \"EN-PRO-B2-020\"\ncando: \"Can host client dinners and engage in fluent social conversation with professional peers.\"",
+          "teacher_notes": "code: \"EN-PRO-B2-020\"\ncando: \"Can host client dinners or conference banquets and engage in fluent social conversation.\"\ndomain_hints: \"Education: Faculty dinner hosting; Legal: Client appreciation dinners; Medical: Medical society galas; IT: Team celebrations; Business: Executive dinners; Manual Trades: Project completion dinners; Crafts: Vernissage receptions.\"",
           "recycled": "Indirect register shifts for cultural sensitivity, Diplomacy"
         }
       ]
     },
     {
       "unit": 6,
-      "title": "Career Advancement, Interviews & Performance Management",
+      "title": "Career Advancement, STAR Interviews & Performance Appraisals",
       "lessons": [
         {
           "lesson": 1,
           "type": "vocab",
-          "title": "Professional CV Optimization & LinkedIn Profiles",
+          "title": "Optimizing Resumes, CVs & Academic / Professional Portfolios",
           "grammar": [
             "Strong action verbs and concise bullet constructions",
-            "Quantified impact statements (Increased efficiency by 25%)"
+            "Quantified impact statements (Published 5 peer-reviewed papers / Increased revenue by 25%)"
           ],
           "vocabulary": [
             "Competency",
             "Accomplishment",
             "Optimization",
             "Endorsement",
-            "Profile",
+            "Publication",
             "Track record"
           ],
-          "teacher_notes": "code: \"EN-PRO-B2-021\"\ncando: \"Can write a high-impact B2 CV and optimize professional LinkedIn profiles with quantified achievements.\"",
+          "teacher_notes": "code: \"EN-PRO-B2-021\"\ncando: \"Can write a high-impact B2 CV or academic CV with quantified achievements and publications.\"\ndomain_hints: \"Education: Publication lists; Legal: Case success records; Medical: Clinical research records; IT: GitHub & system accomplishments; Business: Revenue achievements; Manual Trades: Project completion stats; Crafts: Portfolio exhibition history.\"",
           "recycled": "Conversational floor-sharing techniques, Host"
         },
         {
           "lesson": 2,
           "type": "gv",
-          "title": "High-Impact Job Interviews & The STAR Method",
+          "title": "Behavioral Job Interviews & The STAR Method",
           "grammar": [
             "Narrative tenses (Past Simple, Past Continuous, Past Perfect) for behavioral stories",
             "Structuring answers: Situation, Task, Action, Result"
@@ -452,13 +452,13 @@
             "Result",
             "Overcome"
           ],
-          "teacher_notes": "code: \"EN-PRO-B2-022\"\ncando: \"Can answer complex behavioral job interview questions using the STAR technique.\"",
+          "teacher_notes": "code: \"EN-PRO-B2-022\"\ncando: \"Can answer complex behavioral job interview questions using the STAR technique.\"\ndomain_hints: \"Education: Classroom management scenarios; Legal: High-pressure case scenarios; Medical: Emergency care stories; IT: System failure resolution stories; Business: Crisis management stories; Manual Trades: Site accident prevention; Crafts: Complex commission execution.\"",
           "recycled": "Strong action verbs and concise bullet constructions, Accomplishment"
         },
         {
           "lesson": 3,
           "type": "spoken",
-          "title": "Negotiating Salary, Benefits & Job Offers",
+          "title": "Negotiating Salary, Academic Tenure Terms & Job Offers",
           "grammar": [
             "Conditionals and hedging in compensation discussions (I would be comfortable accepting if...)",
             "Polite counter-proposal structures"
@@ -468,16 +468,16 @@
             "Compensation",
             "Benefits",
             "Package",
-            "Relocation",
+            "Tenure",
             "Equity"
           ],
-          "teacher_notes": "code: \"EN-PRO-B2-023\"\ncando: \"Can negotiate job offer compensation packages, benefits, and working conditions confidently.\"",
+          "teacher_notes": "code: \"EN-PRO-B2-023\"\ncando: \"Can negotiate job offer compensation packages, academic tenure conditions, or benefit terms.\"\ndomain_hints: \"Education: Academic salary & lab space; Legal: Associate billable requirements & bonus; Medical: Hospital shift terms; IT: Equity & remote terms; Business: Base & bonus package; Manual Trades: Hourly rates & equipment allowance; Crafts: Commission split & gallery terms.\"",
           "recycled": "Narrative tenses for behavioral stories, STAR Method, Overcome"
         },
         {
           "lesson": 4,
           "type": "srev",
-          "title": "Conducting & Receiving Performance Appraisals",
+          "title": "Conducting & Receiving Performance Appraisals / Teaching Reviews",
           "grammar": [
             "Constructive evaluation phrases (Demonstrates excellence in X, while growth is needed in Y)",
             "Future target setting with continuous forms"
@@ -490,7 +490,7 @@
             "Objective",
             "Growth"
           ],
-          "teacher_notes": "code: \"EN-PRO-B2-024\"\ncando: \"Can lead or participate in B2-level performance appraisals, setting clear KPIs and growth benchmarks.\"",
+          "teacher_notes": "code: \"EN-PRO-B2-024\"\ncando: \"Can lead or participate in performance appraisals, setting clear KPIs, teaching goals, or research benchmarks.\"\ndomain_hints: \"Education: Peer teaching observations; Legal: Associate performance reviews; Medical: Clinical competency evaluations; IT: Engineering level reviews; Business: Annual KPI reviews; Manual Trades: Quality & safety audits; Crafts: Studio output evaluations.\"",
           "recycled": "Conditionals and hedging in compensation discussions, Remuneration"
         }
       ]

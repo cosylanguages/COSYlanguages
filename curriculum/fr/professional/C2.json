@@ -10,10 +10,10 @@
         {
           "lesson": 1,
           "type": "spoken",
-          "title": "Allocution de direction générale et grandes orientations",
+          "title": "Allocution de direction générale, rectorat et grandes orientations",
           "grammar": [
             "Changement de registre fluide et maîtrise des figures de style",
-            "Aisance oratoire face aux marchés et analystes"
+            "Aisance oratoire face aux marchés, universitaires et analystes"
           ],
           "vocabulary": [
             "Visionnaire",
@@ -22,7 +22,7 @@
             "Scalabilité",
             "Transformation"
           ],
-          "teacher_notes": "code: \"FR-PRO-C2-001\"\ncando: \"Peut délivrer des allocutions de haute direction et répondre aux questions des marchés internationaux.\"",
+          "teacher_notes": "code: \"FR-PRO-C2-001\"\ncando: \"Peut délivrer des allocutions de haute direction et répondre aux questions des marchés internationaux.\"\ndomain_hints: \"Éducation : Discours de rentrée des recteurs ; Juridique : Allocutions des bâtonniers ; Médical : Discours de grands congrès de santé ; Informatique : Allocutions des PDG de grands groupes tech ; Commerce : Discours devant les marchés financiers ; BTP : Allocutions des présidents de fédérations du BTP ; Métiers d'art : Discours des présidents de grands musées.\"",
           "recycled": "Foundational communication & basic level vocabulary"
         },
         {
@@ -41,7 +41,7 @@
             "Ratification",
             "Codification"
           ],
-          "teacher_notes": "code: \"FR-PRO-C2-002\"\ncando: \"Peut rédiger des propositions réglementaires et des notes d'orientation destinées aux pouvoirs publics.\"",
+          "teacher_notes": "code: \"FR-PRO-C2-002\"\ncando: \"Peut rédiger des propositions réglementaires et des notes d'orientation destinées aux pouvoirs publics.\"\ndomain_hints: \"Éducation : Memoires de réformes de l'enseignement supérieur ; Juridique : Propositions de réformes du code civil/commerce ; Médical : Projets de lois de santé publique ; Informatique : Projets de régulations de l'I.A. et cybersécurité ; Commerce : Mémoires boursiers ; BTP : Textes de lois sur la transition écologique du BTP ; Métiers d'art : Textes de protection du patrimoine.\"",
           "recycled": "Changement de registre fluide, Figures de style, Transformation"
         },
         {
@@ -60,7 +60,7 @@
             "Réputationnel",
             "Souveraineté"
           ],
-          "teacher_notes": "code: \"FR-PRO-C2-003\"\ncando: \"Peut protéger la réputation de l'entreprise lors de crises majeures par une communication sans faille.\"",
+          "teacher_notes": "code: \"FR-PRO-C2-003\"\ncando: \"Peut protéger la réputation de l'entreprise lors de crises majeures par une communication sans faille.\"\ndomain_hints: \"Éducation : Gestion de crises majeures en milieu universitaire ; Juridique : Défense de scandales judiciaires ; Médical : Gestion de rappels massifs de médicaments ; Informatique : Crises majeures de piratage de données ; Commerce : Scandales d'entreprises cotées ; BTP : Enquêtes sur des effondrements d'ouvrages ; Métiers d'art : Restitutions internationales d'œuvres.\"",
           "recycled": "Nominalisation administrative dense, Codification"
         },
         {
@@ -79,7 +79,7 @@
             "Redvabilité",
             "Divulgation"
           ],
-          "teacher_notes": "code: \"FR-PRO-C2-004\"\ncando: \"Peut présider l'Assemblée Générale et prononcer le discours du président devant les actionnaires.\"",
+          "teacher_notes": "code: \"FR-PRO-C2-004\"\ncando: \"Peut présider l'Assemblée Générale et prononcer le discours du président devant les actionnaires.\"\ndomain_hints: \"Éducation : Discours des présidents devant les conseils d'administration ; Juridique : Assemblées d'associés de cabinets internationaux ; Médical : Assemblées générales de groupes hospitaliers ; Informatique : Assemblées d'actionnaires de géants du logiciel ; Commerce : A.G. du CAC 40 ; BTP : Assemblées générales de groupes de BTP ; Métiers d'art : Assemblées générales de fondations d'art.\"",
           "recycled": "Syntaxe de désamorçage, Indemnisation"
         }
       ]
@@ -104,7 +104,7 @@
             "Probité",
             "Prudence"
           ],
-          "teacher_notes": "code: \"FR-PRO-C2-005\"\ncando: \"Peut exercer la responsabilité fiduciaire et orienter les décisions du conseil d'administration.\"",
+          "teacher_notes": "code: \"FR-PRO-C2-005\"\ncando: \"Peut exercer la responsabilité fiduciaire et orienter les décisions du conseil d'administration.\"\ndomain_hints: \"Éducation : Gouvernance des conseils d'administration d'universités ; Juridique : Gouvernance des grands cabinets ; Médical : Conseil de surveillance des CHU ; Informatique : Gouvernance de conseils tech ; Commerce : Conseils d'administration de grands groupes ; BTP : Gouvernance de majors du bâtiment ; Métiers d'art : Conseils de tutelle des musées.\"",
           "recycled": "Maîtrise du rythme oratoire, Gérance"
         },
         {
@@ -123,7 +123,7 @@
             "Hostile",
             "Prise de contrôle"
           ],
-          "teacher_notes": "code: \"FR-PRO-C2-006\"\ncando: \"Peut désamorcer les offensives d'investisseurs activistes et maintenir la cohésion du conseil.\"",
+          "teacher_notes": "code: \"FR-PRO-C2-006\"\ncando: \"Peut désamorcer les offensives d'investisseurs activistes et maintenir la cohésion du conseil.\"\ndomain_hints: \"Éducation : Oppositions politiques dans les conseils universitaires ; Juridique : Guerres d'associés dans les cabinets ; Médical : Tensions de conseils d'administration de cliniques ; Informatique : Raids d'investisseurs dans la tech ; Commerce : Batayes de procurations chez les distributeurs ; BTP : Prises de contrôle dans le BTP ; Métiers d'art : Oppositions dans les conseils de fondations.\"",
           "recycled": "Modalité déontique dans les statuts, Probité"
         },
         {
@@ -142,7 +142,7 @@
             "Sanctions",
             "Juridiction"
           ],
-          "teacher_notes": "code: \"FR-PRO-C2-007\"\ncando: \"Peut exprimer la position de l'entreprise face aux autorités de la concurrence mondiales.\"",
+          "teacher_notes": "code: \"FR-PRO-C2-007\"\ncando: \"Peut exprimer la position de l'entreprise face aux autorités de la concurrence mondiales.\"\ndomain_hints: \"Éducation : Enquêtes sur le monopole des éditions universitaires ; Juridique : Recours devant l'Autorité de la concurrence ; Médical : Antitrust dans la pharmacie mondiale ; Informatique : Procès antitrust des GAFAM ; Commerce : Procédures anti-cartel de la grande distribution ; BTP : Enquêtes d'ententes dans les travaux publics ; Métiers d'art : Monopoles du marché de l'art.\"",
           "recycled": "Syntaxe de maîtrise des débats, Consensus"
         },
         {
@@ -161,7 +161,7 @@
             "Transparence",
             "Malversation"
           ],
-          "teacher_notes": "code: \"FR-PRO-C2-008\"\ncando: \"Peut instaurer des politiques d'alerte éthique et garantir l'intégrité institutionnelle de l'entreprise.\"",
+          "teacher_notes": "code: \"FR-PRO-C2-008\"\ncando: \"Peut instaurer des politiques d'alerte éthique et garantir l'intégrité institutionnelle de l'entreprise.\"\ndomain_hints: \"Éducation : Chartes d'éthique de la recherche ; Juridique : Dispositifs anticorruption Sapin II ; Médical : Comités d'éthique médicale ; Informatique : Éthique de l'intelligence artificielle ; Commerce : Chartes éthiques des multinationales ; BTP : Transparence dans les marchés publics de BTP ; Métiers d'art : Traçabilité et déontologie du marché de l'art.\"",
           "recycled": "Conditionnalité juridique des réglementations, Contentieux"
         }
       ]
@@ -186,7 +186,7 @@
             "Équilibre",
             "Parité"
           ],
-          "teacher_notes": "code: \"FR-PRO-C2-009\"\ncando: \"Peut prononcer des discours majeurs lors de grands sommets économiques et forums mondiaux.\"",
+          "teacher_notes": "code: \"FR-PRO-C2-009\"\ncando: \"Peut prononcer des discours majeurs lors de grands sommets économiques et forums mondiaux.\"\ndomain_hints: \"Éducation : Sommets mondiaux sur l'éducation de l'UNESCO ; Juridique : Forums juridiques mondiaux ; Médical : Sommets de l'OMS et forums de santé publique ; Informatique : Forums économiques mondiaux sur le numérique ; Commerce : Sommets de Davos ; BTP : Sommets mondiaux de l'urbanisme ; Métiers d'art : Sommets mondiaux de la culture.\"",
           "recycled": "Rhétorique de l'intégrité morale, Lanceur d'alerte"
         },
         {
@@ -205,7 +205,7 @@
             "Petite phrase",
             "Couverture"
           ],
-          "teacher_notes": "code: \"FR-PRO-C2-010\"\ncando: \"Peut conduire des interviews télévisées en direct en situation de crise sans commettre d'impair.\"",
+          "teacher_notes": "code: \"FR-PRO-C2-010\"\ncando: \"Peut conduire des interviews télévisées en direct en situation de crise sans commettre d'impair.\"\ndomain_hints: \"Éducation : Plateaux télé sur les crises du système scolaire ; Juridique : Interventions télévisées d'avocats lors de grands procès ; Médical : Déclarations télévisées lors de crises sanitaires ; Informatique : Interviews en direct sur des cyberattaques ; Commerce : Passages télé lors de crises d'entreprises ; BTP : Déclarations après catastrophes d'ouvrages ; Métiers d'art : Interviews en direct sur la restitution du patrimoine.\"",
           "recycled": "Registre oratoire soutenu, Macroéconomie"
         },
         {
@@ -224,7 +224,7 @@
             "Synthèse",
             "Thèse"
           ],
-          "teacher_notes": "code: \"FR-PRO-C2-011\"\ncando: \"Peut publier des livres de pensée stratégique et des articles de référence internationale.\"",
+          "teacher_notes": "code: \"FR-PRO-C2-011\"\ncando: \"Peut publier des livres de pensée stratégique et des articles de référence internationale.\"\ndomain_hints: \"Éducation : Essais sur la philosophie de l'éducation ; Juridique : Traités majeurs de droit des affaires ; Médical : Ouvrages de référence en santé publique ; Informatique : Livres de référence sur la pensée algorithmique ; Commerce : Essais de management stratégique ; BTP : Ouvrages sur l'architecture et l'ingénierie moderne ; Métiers d'art : Traités d'esthétique et de restauration.\"",
           "recycled": "Techniques immédiates de recadrage, Pivot"
         },
         {
@@ -243,7 +243,7 @@
             "Unanimité",
             "Rapport"
           ],
-          "teacher_notes": "code: \"FR-PRO-C2-012\"\ncando: \"Peut présider des commissions d'experts internationaux et rédiger leurs rapports d'orientation.\"",
+          "teacher_notes": "code: \"FR-PRO-C2-012\"\ncando: \"Peut présider des commissions d'experts internationaux et rédiger leurs rapports d'orientation.\"\ndomain_hints: \"Éducation : Presidence de commissions du Conseil supérieur de l'éducation ; Juridique : Presidence de commissions de réformes du droit ; Médical : Presidence du Comité consultatif national d'éthique ; Informatique : Presidence de comités d'experts en I.A. ; Commerce : Présidence de commissions d'évaluation boursière ; BTP : Presidence de commissions sur les normes de construction ; Métiers d'art : Presidence de commissions d'attribution des monuments historiques.\"",
           "recycled": "Style littéraire et analytique, Monographie"
         }
       ]
@@ -268,7 +268,7 @@
             "Ratification",
             "Diplomatie"
           ],
-          "teacher_notes": "code: \"FR-PRO-C2-013\"\ncando: \"Peut négocier des contrats majeurs avec des gouvernements et entités souveraines.\"",
+          "teacher_notes": "code: \"FR-PRO-C2-013\"\ncando: \"Peut négocier des contrats majeurs avec des gouvernements et entités souveraines.\"\ndomain_hints: \"Éducation : Négociations d'accords universitaires intergouvernementaux ; Juridique : Traités d'extradition et accords judiciaires d'État ; Médical : Achats souverains de vaccins et équipements ; Informatique : Contrats de souveraineté numérique et cloud d'État ; Commerce : Accords commerciaux bilatéraux ; BTP : Grands contrats d'infrastructures étatiques ; Métiers d'art : Prêts internationaux de trésors nationaux.\"",
           "recycled": "Conduite de réunion d'experts, Commission"
         },
         {
@@ -287,7 +287,7 @@
             "Arbitrage",
             "Juridiction"
           ],
-          "teacher_notes": "code: \"FR-PRO-C2-014\"\ncando: \"Peut mener à bien des négociations complexes de consortiums internationaux.\"",
+          "teacher_notes": "code: \"FR-PRO-C2-014\"\ncando: \"Peut mener à bien des négociations complexes de consortiums internationaux.\"\ndomain_hints: \"Éducation : Consortiums de recherche spatiale ou nucléaire (ex: CERN/ITER) ; Juridique : Arbitrages multilatéraux ; Médical : Consortiums mondiaux de recherche vaccinale ; Informatique : Consortiums mondiaux de câbles sous-marins et normes web ; Commerce : Consortiums pétroliers et miniers ; BTP : Megaprojets d'ingénierie transeuropéens ; Métiers d'art : Consortiums de musées pour le patrimoine mondial.\"",
           "recycled": "Registre protocolaire diplomatique, Bilatéral"
         },
         {
@@ -306,7 +306,7 @@
             "Point mort",
             "Rachat"
           ],
-          "teacher_notes": "code: \"FR-PRO-C2-015\"\ncando: \"Peut déployer des stratégies de défense face à une OPA hostile et débloquer une crise majeure.\"",
+          "teacher_notes": "code: \"FR-PRO-C2-015\"\ncando: \"Peut déployer des stratégies de défense face à une OPA hostile et débloquer une crise majeure.\"\ndomain_hints: \"Éducation : Défense contre les prises de contrôle privées d'écoles d'élite ; Juridique : Batailles de scissions de grands cabinets ; Médical : Défense contre les rachetons hostiles de laboratoires ; Informatique : Stratégies de défense contre les OPA tech ; Commerce : Défense de fleurons industriels ; BTP : Batailles de contrôle de géants du BTP ; Métiers d'art : Preservations de maisons de haute création.\"",
           "recycled": "Cadres conditionnels complexes, Consortium"
         },
         {
@@ -325,7 +325,7 @@
             "Accord",
             "Pacte"
           ],
-          "teacher_notes": "code: \"FR-PRO-C2-016\"\ncando: \"Peut sceller des fusions mondiales et signer des accords-cadres d'État lors de cérémonies officielles.\"",
+          "teacher_notes": "code: \"FR-PRO-C2-016\"\ncando: \"Peut sceller des fusions mondiales et signer des accords-cadres d'État lors de cérémonies officielles.\"\ndomain_hints: \"Éducation : Signature d'accords d'alliances universitaires mondiales ; Juridique : Ratification de traités internationaux ; Médical : Signature d'accords mondiaux de santé ; Informatique : Signature de pactes de souveraineté numérique ; Commerce : Fusions de géants industriels ; BTP : Cérémonies de signature de métros/tunnels d'État ; Métiers d'art : Accords bilatéraux de restitution du patrimoine.\"",
           "recycled": "Formulations de moyens de pression, Pilule empoisonnée"
         }
       ]
@@ -350,7 +350,7 @@
             "Influence",
             "Affiliation"
           ],
-          "teacher_notes": "code: \"FR-PRO-C2-017\"\ncando: \"Peut évoluer avec aisance dans les plus hauts réseaux d'influence mondiaux et cercles exécutifs.\"",
+          "teacher_notes": "code: \"FR-PRO-C2-017\"\ncando: \"Peut évoluer avec aisance dans les plus hauts réseaux d'influence mondiaux et cercles exécutifs.\"\ndomain_hints: \"Éducation : Réseaux des grandes fondations universitaires ; Juridique : Cercles de juristes internationaux ; Médical : Cercles de grands donateurs de la recherche médicale ; Informatique : Réseaux de capitaux-risqueurs de la Silicon Valley ; Commerce : Grands cercles d'affaires internationaux ; BTP : Reseaux de grands développeurs fonciers ; Métiers d'art : Cercles de grands collectionneurs d'art.\"",
           "recycled": "Maîtrise de la langue de ratification, Promulguer"
         },
         {
@@ -369,7 +369,7 @@
             "Héritage",
             "Impact"
           ],
-          "teacher_notes": "code: \"FR-PRO-C2-018\"\ncando: \"Peut piloter des fondations d'entreprise internationales et promouvoir le mécénat global.\"",
+          "teacher_notes": "code: \"FR-PRO-C2-018\"\ncando: \"Peut piloter des fondations d'entreprise internationales et promouvoir le mécénat global.\"\ndomain_hints: \"Éducation : Fondations d'octroi de bourses d'études mondiales ; Juridique : Fondations pour l'accès universel au droit ; Médical : Fondations d'éradication de maladies ; Informatique : Fondations pour l'inclusion numérique et l'open source ; Commerce : Fondations d'entreprise mondiales ; BTP : Fondations pour l'architecture durable ; Métiers d'art : Fondations de préservation des métiers d'art.\"",
           "recycled": "Aisance conversationnelle de très haut niveau, Discrétion"
         },
         {
@@ -388,7 +388,7 @@
             "Soutien",
             "Patrimoine"
           ],
-          "teacher_notes": "code: \"FR-PRO-C2-019\"\ncando: \"Peut négocier des contrats de parrainage de prestige et de mécénat culturel d'envergure.\"",
+          "teacher_notes": "code: \"FR-PRO-C2-019\"\ncando: \"Peut négocier des contrats de parrainage de prestige et de mécénat culturel d'envergure.\"\ndomain_hints: \"Éducation : Parrainage de grandes chaires d'excellence ; Juridique : Partenariats de prestige avec les cours suprêmes ; Médical : Parrainage des prix Nobel de médecine ; Informatique : Partenariats de prestige avec les instituts de recherche ; Commerce : Parrainages des Jeux Olympiques ou opéras ; BTP : Parrainages de restauration de monuments historiques ; Métiers d'art : Parrainage du patrimoine mondial.\"",
           "recycled": "Phrasé de la transmission, Dotation"
         },
         {
@@ -396,7 +396,7 @@
           "type": "spoken",
           "title": "Présider des alliances sectorielles et organisations patronales",
           "grammar": [
-            "Marqueurs de consensus inter-entreprises concurentes",
+            "Marqueurs de consensus inter-entreprises concurrentes",
             "Représentation diplomatique du patronat auprès des gouvernements"
           ],
           "vocabulary": [
@@ -407,7 +407,7 @@
             "Représentation",
             "Défense"
           ],
-          "teacher_notes": "code: \"FR-PRO-C2-020\"\ncando: \"Peut diriger une grande alliance sectorielle et représenter les intérêts patronaux auprès des États.\"",
+          "teacher_notes": "code: \"FR-PRO-C2-020\"\ncando: \"Peut diriger une grande alliance sectorielle et représenter les intérêts patronaux auprès des États.\"\ndomain_hints: \"Éducation : Présidence de conférences de grandes écoles/universités ; Juridique : Presidence des unions internationales d'avocats ; Médical : Presidence de syndicats de l'industrie pharmaceutique ; Informatique : Presidence d'alliances mondiales des télécoms/I.A. ; Commerce : Présidence du MEDEF/organisations patronales ; BTP : Presidence de la fédération internationale du bâtiment ; Métiers d'art : Presidence du conseil international des musées.\"",
           "recycled": "Syntaxe d'alignement des valeurs de marque, Prestige"
         }
       ]
@@ -432,7 +432,7 @@
             "Bilan",
             "Distinction"
           ],
-          "teacher_notes": "code: \"FR-PRO-C2-021\"\ncando: \"Peut constituer un portfolio d'administrateur indépendant et un dossier de gouvernance de niveau C2.\"",
+          "teacher_notes": "code: \"FR-PRO-C2-021\"\ncando: \"Peut constituer un portfolio d'administrateur indépendant et un dossier de gouvernance de niveau C2.\"\ndomain_hints: \"Éducation : Portfolios d'administrateurs d'universités ; Juridique : Portfolios d'arbitres internationaux ; Médical : Portfolios d'administrateurs de fondations médicales ; Informatique : Portfolios d'administrateurs de géants tech ; Commerce : Portfolios d'administrateurs de sociétés cotées ; BTP : Portfolios d'administrateurs de groupes d'ingénierie ; Métiers d'art : Portfolios d'administrateurs de grands musées.\"",
           "recycled": "Marqueurs de consensus inter-entreprises, Coalition"
         },
         {
@@ -451,7 +451,7 @@
             "Mandat",
             "Gérance"
           ],
-          "teacher_notes": "code: \"FR-PRO-C2-022\"\ncando: \"Peut piloter le comité de nomination et de succession des dirigeants au sein du conseil.\"",
+          "teacher_notes": "code: \"FR-PRO-C2-022\"\ncando: \"Peut piloter le comité de nomination et de succession des dirigeants au sein du conseil.\"\ndomain_hints: \"Éducation : Succession des recteurs/présidents d'universités ; Juridique : Succession des associés gérants ; Médical : Succession des directeurs généraux de CHU ; Informatique : Succession des PDG de groupes informatiques ; Commerce : Succession des CEO du CAC 40 ; BTP : Succession des présidents de majors du BTP ; Métiers d'art : Succession des directeurs du Louvre/Centre Pompidou.\"",
           "recycled": "Style synthétique et prestigieux, Distinction"
         },
         {
@@ -470,7 +470,7 @@
             "Clause de restitution",
             "Rémunération"
           ],
-          "teacher_notes": "code: \"FR-PRO-C2-023\"\ncando: \"Peut négocier les contrats de mandat social des dirigeants, leurs parachutes et leurs clauses d'indemnité.\"",
+          "teacher_notes": "code: \"FR-PRO-C2-023\"\ncando: \"Peut négocier les contrats de mandat social des dirigeants, leurs parachutes et leurs clauses d'indemnité.\"\ndomain_hints: \"Éducation : Remunérations et mandats des dirigeants d'universités privées ; Juridique : Clauses de retrait d'associés principaux ; Médical : Contrats de mandats de directeurs de laboratoires ; Informatique : Parachutes dorés et stock-options de PDG tech ; Commerce : Contrats de mandat social de PDG ; BTP : Parachutes dorés de directeurs de majors du BTP ; Métiers d'art : Contrats de direction d'institutions d'art.\"",
           "recycled": "Techniques d'entretien d'évaluation, Succession"
         },
         {
@@ -489,7 +489,7 @@
             "Gouvernance",
             "Héritage"
           ],
-          "teacher_notes": "code: \"FR-PRO-C2-024\"\ncando: \"Peut mener l'évaluation complète du fonctionnement du conseil d'administration et présenter l'audit de gouvernance.\"",
+          "teacher_notes": "code: \"FR-PRO-C2-024\"\ncando: \"Peut mener l'évaluation complète du fonctionnement du conseil d'administration et présenter l'audit de gouvernance.\"\ndomain_hints: \"Éducation : Audits de gouvernance d'établissements d'enseignement supérieur ; Juridique : Audits de fonctionnement de grands cabinets ; Médical : Audits de gouvernance hospitalière ; Informatique : Audits de conseil d'administration d'entreprises tech ; Commerce : Audits de gouvernance d'entreprises cotées ; BTP : Audits de gouvernance de grands groupes de construction ; Métiers d'art : Audits de gouvernance de fondations d'art.\"",
           "recycled": "Inviolabilité contractuelle, Parachute doré"
         }
       ]
