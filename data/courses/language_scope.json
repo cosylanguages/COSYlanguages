@@ -1,0 +1,32 @@
+{
+  "en": {
+    "general": ["A1", "A2", "B1", "B2", "C1", "C2"],
+    "spoken": ["A1", "A2", "B1", "B2", "C1", "C2"],
+    "exam": ["B1", "B2", "C1", "C2"],
+    "travelling": ["A1", "A2", "B1"],
+    "professional": ["B1", "B2", "C1", "C2"],
+    "relocation": ["A2", "B1", "B2", "C1"]
+  },
+  "fr": {
+    "general": ["A1", "A2", "B1", "B2", "C1", "C2"],
+    "spoken": ["A1", "A2", "B1", "B2", "C1", "C2"],
+    "exam": ["B1", "B2", "C1", "C2"],
+    "travelling": ["A1", "A2", "B1"],
+    "professional": ["B1", "B2", "C1", "C2"],
+    "relocation": ["A2", "B1", "B2", "C1"]
+  },
+  "ru": {
+    "general": ["A1", "A2", "B1", "B2", "C1", "C2"],
+    "spoken": ["A1", "A2", "B1", "B2", "C1", "C2"],
+    "exam": ["B1", "B2", "C1", "C2"],
+    "travelling": ["A1", "A2", "B1"],
+    "professional": ["B1", "B2", "C1", "C2"],
+    "relocation": ["A2", "B1", "B2", "C1"]
+  },
+  "it": {
+    "general": ["A1", "A2", "B1", "B2"]
+  },
+  "el": {
+    "general": ["A1", "A2", "B1"]
+  }
+}
