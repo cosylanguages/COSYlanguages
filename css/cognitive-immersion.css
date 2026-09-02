@@ -1,0 +1,308 @@
+/* ==========================================================================
+   COSYlanguages — Cognitive & Immersion Accelerator Styles
+   ========================================================================== */
+
+/* Layout & Grids */
+.ci-grid-2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .ci-grid-2col {
+    grid-template-columns: 1fr;
+  }
+}
+
+.ci-grid-full {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: var(--ink-faint);
+  padding: 2rem;
+  font-style: italic;
+}
+
+.ci-section-title {
+  font-family: var(--font-serif);
+  color: var(--sage-deep);
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.ci-heading-center {
+  font-family: var(--font-serif);
+  margin-bottom: 0.5rem;
+  color: var(--sage-deep);
+  text-align: center;
+}
+
+.ci-card-heading {
+  font-family: var(--font-serif);
+  color: var(--sage-deep);
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ci-card-heading-simple {
+  font-family: var(--font-serif);
+  margin-bottom: 1rem;
+  color: var(--sage-deep);
+}
+
+.ci-title-reset {
+  margin-top: 0;
+  color: var(--sage-deep);
+}
+
+.ci-title-margin {
+  margin: 0 0 0.5rem 0;
+  color: var(--sage-deep);
+}
+
+/* Card Containers */
+.ci-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+}
+
+.ci-card-cream {
+  background: var(--cream);
+  padding: 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+.ci-flex-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.ci-flex-between {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: var(--ink-faint);
+  margin-top: 0.25rem;
+}
+
+.ci-text-center-max {
+  max-width: 500px;
+  margin: 0 auto 1.5rem;
+  text-align: center;
+}
+
+/* Text & Typography Helpers */
+.ci-label {
+  display: block;
+  font-size: 0.95rem;
+  color: var(--sage-deep);
+}
+
+.ci-label-bold {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--sage-deep);
+}
+
+.ci-desc {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  line-height: 1.4;
+}
+
+.ci-desc-subtle {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  margin-bottom: 1.5rem;
+}
+
+.ci-desc-center {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.ci-desc-md {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  margin-bottom: 1.5rem;
+}
+
+.ci-desc-faint {
+  font-size: 0.75rem;
+  color: var(--ink-faint);
+  margin-top: 0.5rem;
+}
+
+.ci-desc-reset {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  margin: 0;
+  color: var(--ink-soft);
+}
+
+.ci-desc-simple {
+  font-size: 0.85rem;
+  margin: 0;
+  color: var(--ink-soft);
+}
+
+.ci-desc-note {
+  font-size: 0.8rem;
+  line-height: 1.4;
+  margin: 0.5rem 0 0;
+}
+
+.ci-subtitle {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  font-weight: normal;
+}
+
+.ci-text-lg {
+  font-size: 1.1rem;
+}
+
+.ci-icon-lg {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.ci-mt-xs {
+  margin-top: 0.25rem;
+}
+
+.ci-pr-md {
+  padding-right: 1.5rem;
+}
+
+/* Forgetting Curve Graph Heights */
+.ci-bar-15 { height: 15px; }
+.ci-bar-25 { height: 25px; }
+.ci-bar-35 { height: 35px; }
+.ci-bar-40 { height: 40px; }
+.ci-bar-55 { height: 55px; }
+.ci-bar-65 { height: 65px; }
+
+/* Deletion Button in Mnemonic Cards */
+.ci-btn-delete {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  color: var(--coral);
+  padding: 0.25rem;
+  line-height: 1;
+}
+
+/* ==========================================================================
+   Range Slider Control (#curve-slider)
+   ========================================================================== */
+.ci-slider {
+  width: 100%;
+  accent-color: var(--sage-dark);
+  cursor: pointer;
+  height: 8px;
+  border-radius: 4px;
+  margin: 0.75rem 0;
+}
+
+/* Touch-friendly Range Thumb hit targets (Min 44px x 44px) */
+.ci-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--sage-deep);
+  cursor: pointer;
+  border: 3px solid white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+.ci-slider::-moz-range-thumb {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--sage-deep);
+  cursor: pointer;
+  border: 3px solid white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+.ci-slider::-webkit-slider-thumb:hover,
+.ci-slider::-webkit-slider-thumb:active {
+  transform: scale(1.15);
+  background: var(--sage-dark);
+}
+
+.ci-slider::-moz-range-thumb:hover,
+.ci-slider::-moz-range-thumb:active {
+  transform: scale(1.15);
+  background: var(--sage-dark);
+}
+
+/* ==========================================================================
+   Progressive Disclosure Sections (<details class="ci-details">)
+   ========================================================================== */
+.ci-details {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ci-details[open] {
+  border-color: var(--sage-medium);
+  box-shadow: var(--shadow-sm);
+}
+
+.ci-summary {
+  padding: 1.25rem 1.5rem;
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--sage-deep);
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  user-select: none;
+  background: var(--cream);
+}
+
+.ci-summary::-webkit-details-marker {
+  display: none;
+}
+
+.ci-summary::after {
+  content: '✦';
+  font-size: 0.9rem;
+  color: var(--sage-dark);
+  transition: transform 0.2s ease;
+}
+
+.ci-details[open] .ci-summary::after {
+  transform: rotate(45deg);
+}
+
+.ci-details-content {
+  padding: 1.5rem;
+}

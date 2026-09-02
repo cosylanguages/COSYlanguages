@@ -868,10 +868,10 @@
 
             <!-- Dynamic Personal Mnemonic Notebook -->
             <div class="mnemonic-notebook-box">
-                <h3 style="font-family: var(--font-serif); color: var(--sage-deep); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+                <h3 class="ci-card-heading">
                     📓 Personal Mnemonic Notebook
                 </h3>
-                <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 1.5rem;">
+                <p class="ci-desc-subtle">
                     The absolute best mnemonics are those formulated by your own brain! Build your personal, translation-free dictionary of visual mnemonics below.
                 </p>
 
@@ -899,12 +899,12 @@
 
         <!-- Structural Brain -->
         <div class="brain-pane" id="pane-structural">
-            <h3 style="font-family: var(--font-serif); margin-bottom: 1rem; color: var(--sage-deep);">Syntax Formula & Logic Equations</h3>
-            <p style="font-size: 0.9rem; color: var(--ink-soft); margin-bottom: 1.5rem;">
+            <h3 class="ci-card-heading-simple">Syntax Formula & Logic Equations</h3>
+            <p class="ci-desc-md">
                 Analytical brains excel when languages are modeled as mathematical or structural systems. Bypassing L1 feels natural when words are organized as clear variables.
             </p>
             <div class="structural-formula-box">
-                <h4 style="margin-top:0; color:var(--sage-deep);">Compound Past Negative Equation (French)</h4>
+                <h4 class="ci-title-reset">Compound Past Negative Equation (French)</h4>
                 <div class="structural-flow">
                     <div class="flow-node">Subject</div>
                     <div class="flow-arrow">+</div>
@@ -916,13 +916,13 @@
                     <div class="flow-arrow">+</div>
                     <div class="flow-node">Past Participle</div>
                 </div>
-                <p style="font-size:0.85rem; margin:0; color:var(--ink-soft);">
+                <p class="ci-desc-simple">
                     <strong>Example:</strong> <em>Je</em> (Subject) + <em>ne</em> + <em>suis</em> (Aux) + <em>pas</em> + <em>venu</em> (Participle) = <strong>Je ne suis pas venu.</strong>
                 </p>
             </div>
 
             <div class="structural-formula-box">
-                <h4 style="margin-top:0; color:var(--sage-deep);">Case Declension Logical Algorithm (Russian Prep. Case)</h4>
+                <h4 class="ci-title-reset">Case Declension Logical Algorithm (Russian Prep. Case)</h4>
                 <div class="structural-flow">
                     <div class="flow-node">Location / Topic (в, на, о)</div>
                     <div class="flow-arrow">+</div>
@@ -930,7 +930,7 @@
                     <div class="flow-arrow">+</div>
                     <div class="flow-node highlight">Suffix "-е"</div>
                 </div>
-                <p style="font-size:0.85rem; margin:0; color:var(--ink-soft);">
+                <p class="ci-desc-simple">
                     <strong>Example:</strong> <em>о</em> (Topic) + <em>парк</em> (Park Root) + <em>е</em> (Suffix) = <strong>о парке</strong> (about the park).
                 </p>
             </div>
@@ -938,30 +938,30 @@
 
         <!-- Auditory Brain -->
         <div class="brain-pane" id="pane-auditory">
-            <h3 style="font-family: var(--font-serif); margin-bottom: 1rem; color: var(--sage-deep);">Rhythmic Cadences & Phoneme Tuning</h3>
-            <p style="font-size: 0.9rem; color: var(--ink-soft); margin-bottom: 1.5rem;">
+            <h3 class="ci-card-heading-simple">Rhythmic Cadences & Phoneme Tuning</h3>
+            <p class="ci-desc-md">
                 Auditory brains absorb vocabulary through rhythm, melodic tone peaks, and rhyme patterns.
             </p>
             <div class="audio-wave-graphic">
                 <div class="wave-bar"></div>
-                <div class="wave-bar" style="height:35px;"></div>
-                <div class="wave-bar" style="height:55px;"></div>
-                <div class="wave-bar" style="height:25px;"></div>
-                <div class="wave-bar" style="height:65px;"></div>
-                <div class="wave-bar" style="height:40px;"></div>
-                <div class="wave-bar" style="height:15px;"></div>
+                <div class="wave-bar ci-bar-35"></div>
+                <div class="wave-bar ci-bar-55"></div>
+                <div class="wave-bar ci-bar-25"></div>
+                <div class="wave-bar ci-bar-65"></div>
+                <div class="wave-bar ci-bar-40"></div>
+                <div class="wave-bar ci-bar-15"></div>
             </div>
-            <div style="display:grid; grid-template-columns: 1fr 1fr; gap:1.5rem;">
-                <div style="background:var(--cream); padding:1.25rem; border:1px solid var(--border); border-radius:12px;">
-                    <h4 style="margin:0 0 0.5rem 0; color:var(--sage-deep);">Greek Syllabic Rhythms</h4>
-                    <p style="font-size:0.85rem; line-height:1.4; margin:0; color:var(--ink-soft);">
+            <div class="ci-grid-2col">
+                <div class="ci-card-cream">
+                    <h4 class="ci-title-margin">Greek Syllabic Rhythms</h4>
+                    <p class="ci-desc-reset">
                         Greek stress accents completely change word meanings. Associate accent stresses with high/low melody:
                         <br><strong>πα-ρα-κα-ΛΩ</strong> (Rise on last: request) ≠ <strong>ΠΑ-ρα-κα-λω</strong> (Irregular melody).
                     </p>
                 </div>
-                <div style="background:var(--cream); padding:1.25rem; border:1px solid var(--border); border-radius:12px;">
-                    <h4 style="margin:0 0 0.5rem 0; color:var(--sage-deep);">Italian Sound Matching</h4>
-                    <p style="font-size:0.85rem; line-height:1.4; margin:0; color:var(--ink-soft);">
+                <div class="ci-card-cream">
+                    <h4 class="ci-title-margin">Italian Sound Matching</h4>
+                    <p class="ci-desc-reset">
                         Phonetic rhymes for remembering word endings:
                         <br><em>"All relative plurals ending in <strong>-i</strong> match the masculine plural key!"</em>
                     </p>
@@ -971,21 +971,21 @@
 
         <!-- Tactile Brain -->
         <div class="brain-pane" id="pane-tactile">
-            <h3 style="font-family: var(--font-serif); margin-bottom: 1rem; color: var(--sage-deep);">Tactile Card Flipping Simulation</h3>
-            <p style="font-size: 0.9rem; color: var(--ink-soft); margin-bottom: 1.5rem;">
+            <h3 class="ci-card-heading-simple">Tactile Card Flipping Simulation</h3>
+            <p class="ci-desc-md">
                 Tactile and kinesthetic learners absorb through physical touch and action. Hover or click below to simulate flipping real, physical cards!
             </p>
             <div class="tactile-grid">
                 <div class="tactile-flip-card" onclick="this.classList.toggle('flipped')">
                     <div class="tfc-inner">
                         <div class="tfc-front">
-                            <span style="font-size:2rem; margin-bottom:0.5rem;">🍏</span>
-                            <strong style="font-size:1.1rem;">La mela</strong>
-                            <span style="font-size:0.75rem; color:var(--ink-faint); margin-top:0.5rem;">Click to flip</span>
+                            <span class="ci-icon-lg">🍏</span>
+                            <strong class="ci-text-lg">La mela</strong>
+                            <span class="ci-desc-faint">Click to flip</span>
                         </div>
                         <div class="tfc-back">
-                            <strong style="font-size:1.1rem;">Italian noun (f)</strong>
-                            <p style="font-size:0.8rem; line-height:1.4; margin:0.5rem 0 0;">Crisp green or red pomaceous fruit, rich in fiber.</p>
+                            <strong class="ci-text-lg">Italian noun (f)</strong>
+                            <p class="ci-desc-note">Crisp green or red pomaceous fruit, rich in fiber.</p>
                         </div>
                     </div>
                 </div>
@@ -993,13 +993,13 @@
                 <div class="tactile-flip-card" onclick="this.classList.toggle('flipped')">
                     <div class="tfc-inner">
                         <div class="tfc-front">
-                            <span style="font-size:2rem; margin-bottom:0.5rem;">🐕</span>
-                            <strong style="font-size:1.1rem;">Le chien</strong>
-                            <span style="font-size:0.75rem; color:var(--ink-faint); margin-top:0.5rem;">Click to flip</span>
+                            <span class="ci-icon-lg">🐕</span>
+                            <strong class="ci-text-lg">Le chien</strong>
+                            <span class="ci-desc-faint">Click to flip</span>
                         </div>
                         <div class="tfc-back">
-                            <strong style="font-size:1.1rem;">French noun (m)</strong>
-                            <p style="font-size:0.8rem; line-height:1.4; margin:0.5rem 0 0;">A domesticated canine mammal, loyal companion.</p>
+                            <strong class="ci-text-lg">French noun (m)</strong>
+                            <p class="ci-desc-note">A domesticated canine mammal, loyal companion.</p>
                         </div>
                     </div>
                 </div>
@@ -1007,13 +1007,13 @@
                 <div class="tactile-flip-card" onclick="this.classList.toggle('flipped')">
                     <div class="tfc-inner">
                         <div class="tfc-front">
-                            <span style="font-size:2rem; margin-bottom:0.5rem;">🏡</span>
-                            <strong style="font-size:1.1rem;">La casa</strong>
-                            <span style="font-size:0.75rem; color:var(--ink-faint); margin-top:0.5rem;">Click to flip</span>
+                            <span class="ci-icon-lg">🏡</span>
+                            <strong class="ci-text-lg">La casa</strong>
+                            <span class="ci-desc-faint">Click to flip</span>
                         </div>
                         <div class="tfc-back">
-                            <strong style="font-size:1.1rem;">Italian/Spanish (f)</strong>
-                            <p style="font-size:0.8rem; line-height:1.4; margin:0.5rem 0 0;">A house, residential structure where people live.</p>
+                            <strong class="ci-text-lg">Italian/Spanish (f)</strong>
+                            <p class="ci-desc-note">A house, residential structure where people live.</p>
                         </div>
                     </div>
                 </div>
@@ -1029,15 +1029,15 @@
         </p>
 
         <div class="chart-box">
-            <h3 style="font-family: var(--font-serif); margin-bottom: 0.5rem; color: var(--sage-deep); text-align:center;">Interactive Forgetting Curve Slider</h3>
-            <p style="font-size: 0.85rem; color: var(--ink-soft); text-align:center; margin-bottom: 1.5rem;">
+            <h3 class="ci-heading-center">Interactive Forgetting Curve Slider</h3>
+            <p class="ci-desc-center">
                 Adjust the review intervals below to visualize how spaced reviews actively combat memory decay and secure long-term retrieval!
             </p>
 
-            <div style="max-width: 500px; margin: 0 auto 1.5rem; text-align: center;">
-                <label for="curve-slider" style="display: block; font-size: 0.9rem; font-weight: bold; margin-bottom: 0.5rem; color: var(--sage-deep);" id="slider-interval-label">Review Interval: No Reviews</label>
-                <input type="range" id="curve-slider" min="1" max="5" value="5" oninput="onSliderChange(this.value)" style="width: 100%; accent-color: var(--sage-dark); cursor: pointer;">
-                <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--ink-faint); margin-top: 0.25rem;">
+            <div class="ci-text-center-max">
+                <label for="curve-slider" class="ci-label-bold" id="slider-interval-label">Review Interval: No Reviews</label>
+                <input type="range" id="curve-slider" min="1" max="5" value="5" class="ci-slider">
+                <div class="ci-flex-between">
                     <span>No Reviews</span>
                     <span>1 Review</span>
                     <span>2 Reviews</span>
@@ -1075,19 +1075,19 @@
                 </svg>
             </div>
 
-            <div class="chart-legend" style="background: white; padding: 1rem; border-radius: 12px; border: 1px solid var(--border);">
-                <div class="legend-item" style="display: flex; align-items: flex-start; gap: 0.75rem;">
-                    <div class="legend-color" id="legend-color-box" style="margin-top: 0.25rem;"></div>
+            <div class="chart-legend ci-card">
+                <div class="legend-item ci-flex-row">
+                    <div class="legend-color ci-mt-xs" id="legend-color-box"></div>
                     <div>
-                        <strong style="display: block; font-size: 0.95rem; color: var(--sage-deep);" id="legend-label-title">Loading simulation...</strong>
-                        <span id="legend-label-text" style="font-size: 0.85rem; color: var(--ink-soft); line-height: 1.4;"></span>
+                        <strong class="ci-label" id="legend-label-title">Loading simulation...</strong>
+                        <span id="legend-label-text" class="ci-desc"></span>
                     </div>
                 </div>
             </div>
         </div>
 
-        <h3 style="font-family: var(--font-serif); color: var(--sage-deep); margin-top:3rem; margin-bottom: 1rem;">Etymological Cognate & Progression Table</h3>
-        <p style="font-size:0.9rem; color:var(--ink-soft); margin-bottom:1.5rem;">
+        <h3 class="ci-section-title">Etymological Cognate & Progression Table</h3>
+        <p class="ci-desc-md">
             Seeing etymological progressions acts as a magnificent structural mnemonic. Romance and Germanic structures evolved from common roots, allowing structural minds to guess meanings without translating!
         </p>
 
@@ -1145,8 +1145,8 @@
             </table>
         </div>
 
-        <h3 style="font-family: var(--font-serif); color: var(--sage-deep); margin-top:3rem; margin-bottom: 1rem;">Immersion Milestones Progression Matrix</h3>
-        <p style="font-size:0.9rem; color:var(--ink-soft); margin-bottom:1.5rem;">
+        <h3 class="ci-section-title">Immersion Milestones Progression Matrix</h3>
+        <p class="ci-desc-md">
             The timeline of cognitive transition. Bypassing L1 translation is a gradual shift where the brain rewires itself step-by-step.
         </p>
 
@@ -1376,7 +1376,7 @@
                 summaryBox.innerHTML = `
                     🎉 <strong>Simulation Finished!</strong><br>
                     The Palteca direct-immersion route was <strong>${difference} seconds faster</strong> than translating!<br>
-                    <span style="font-size:0.9rem; color:var(--ink-soft); font-weight:normal;">Direct concept mapping eliminates the awkward conversation gap completely.</span>
+                    <span class="ci-subtitle">Direct concept mapping eliminates the awkward conversation gap completely.</span>
                 `;
             }
         }, 100);
@@ -1683,7 +1683,7 @@
 
         if (personalMnemonics.length === 0) {
             listEl.innerHTML = `
-                <div style="grid-column: 1 / -1; text-align: center; color: var(--ink-faint); padding: 2rem; font-style: italic;">
+                <div class="ci-grid-full">
                     No personal mnemonics added yet. Use the form above to capture your first association!
                 </div>
             `;
@@ -1695,8 +1695,8 @@
             card.className = 'visual-assoc-card';
             card.style.animation = 'fadeIn 0.3s ease-in-out';
             card.innerHTML = `
-                <button onclick="deletePersonalMnemonic(${index})" aria-label="Delete card" style="position: absolute; top: 0.75rem; right: 0.75rem; background: none; border: none; cursor: pointer; font-size: 1rem; color: var(--coral);">🗑️</button>
-                <div class="vac-word" style="padding-right: 1.5rem;">${escapeHTML(item.word)}</div>
+                <button onclick="deletePersonalMnemonic(${index})" aria-label="Delete card" class="ci-btn-delete">🗑️</button>
+                <div class="vac-word ci-pr-md">${escapeHTML(item.word)}</div>
                 <div class="vac-translation">${escapeHTML(item.meaning)}</div>
                 <div class="vac-mnemonic">
                     <strong>Mental Image Association:</strong> ${escapeHTML(item.association)}
@@ -1771,5 +1771,6 @@
     });
 </script>
 
+<script src="../js/pages/cognitive-immersion.js"></script>
 </body>
 </html>
