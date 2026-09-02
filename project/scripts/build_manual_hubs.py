@@ -1130,28 +1130,236 @@ def generate_hubs():
         count += 1
         print(f"Generated hub: manuals/{info['filename']}")
 
-    # Build Master Directory manuals/index.html
+    # Build Master Directory manuals/index.html grouped by 14 languages
+    LANG_GROUPS = [
+        {
+            "code": "en",
+            "name": "English",
+            "native": "English",
+            "flag": "🇬🇧",
+            "portal": "../languages/en.html",
+            "desc": "Complete interactive manuals across 6 CEFR levels (A0 to C2) covering structural grammar rules, thematic vocabulary, and conversation systems.",
+            "levels": [
+                {"level": "A0–A1", "hub": "english-a0-a1.html", "grammar": "en/grammar/a1/index.html", "vocab": "en/vocabulary/a1/index.html"},
+                {"level": "A2", "hub": "english-a2.html", "grammar": "en/grammar/a2/index.html", "vocab": "en/vocabulary/a2/index.html", "comm": "en/communication/a2/index.html"},
+                {"level": "B1", "hub": "english-b1.html", "grammar": "en/grammar/b1/index.html", "vocab": "en/vocabulary/b1/index.html", "comm": "en/communication/b1/index.html"},
+                {"level": "B2", "hub": "english-b2.html", "grammar": "en/grammar/b2/index.html", "vocab": "en/vocabulary/b2/index.html", "comm": "en/communication/b2/index.html"},
+                {"level": "C1", "hub": "english-c1.html", "grammar": "en/grammar/c1/index.html", "vocab": "en/vocabulary/c1/index.html"},
+                {"level": "C2", "hub": "english-c2.html", "grammar": "en/grammar/c2/index.html", "vocab": "en/vocabulary/c2/index.html", "comm": "en/communication/c2/index.html"}
+            ]
+        },
+        {
+            "code": "fr",
+            "name": "French",
+            "native": "Français",
+            "flag": "🇫🇷",
+            "portal": "../languages/fr.html",
+            "desc": "Interactive grammar and vocabulary manuals designed for step-by-step French language acquisition.",
+            "levels": [
+                {"level": "A0–A1", "hub": "francaise-a0-a1.html", "grammar": "fr/grammar/index.html", "vocab": "../lexique-francais/index.html"},
+                {"level": "A2", "hub": "francaise-a2.html", "grammar": "fr/grammar/a2/index.html", "vocab": "fr/vocabulary/a2/index.html"}
+            ]
+        },
+        {
+            "code": "it",
+            "name": "Italian",
+            "native": "Italiano",
+            "flag": "🇮🇹",
+            "portal": "../languages/it.html",
+            "desc": "Monolingual grammar structures and thematic vocabulary manuals for mastering Italian.",
+            "levels": [
+                {"level": "A0–A1", "hub": "italiano-a0-a1.html", "grammar": "it/grammar/index.html", "vocab": "../lessico-italiano/index.html"},
+                {"level": "A2", "hub": "italiano-a2.html", "grammar": "it/grammar/a2/index.html", "vocab": "it/vocabulary/a2/index.html"}
+            ]
+        },
+        {
+            "code": "es",
+            "name": "Spanish",
+            "native": "Español",
+            "flag": "🇪🇸",
+            "portal": "../languages/es.html",
+            "desc": "Integral Spanish learning system with structured grammar rules and contextual vocabulary.",
+            "levels": [
+                {"level": "A0–A1", "hub": "espanol-a0-a1.html", "grammar": "../gramatica-espanola/index.html", "vocab": "../vocabulario-espanol/index.html"},
+                {"level": "A2", "hub": "espanol-a2.html", "grammar": "es/grammar/a2/index.html", "vocab": "es/vocabulary/a2/index.html"}
+            ]
+        },
+        {
+            "code": "de",
+            "name": "German",
+            "native": "Deutsch",
+            "flag": "🇩🇪",
+            "portal": "../languages/de.html",
+            "desc": "Coordinated German grammar and thematic vocabulary manuals built for practical fluency.",
+            "levels": [
+                {"level": "A0–A1", "hub": "deutsch-a0-a1.html", "grammar": "../deutsche-grammatik/index.html"},
+                {"level": "A2", "hub": "deutsch-a2.html"}
+            ]
+        },
+        {
+            "code": "pt",
+            "name": "Portuguese",
+            "native": "Português",
+            "flag": "🇵🇹",
+            "portal": "../languages/pt.html",
+            "desc": "Complementary Portuguese grammar and vocabulary manuals for foundational and elementary progress.",
+            "levels": [
+                {"level": "A0–A1", "hub": "portugues-a0-a1.html", "grammar": "../gramatica-portuguesa/index.html"},
+                {"level": "A2", "hub": "portugues-a2.html", "grammar": "pt/grammar/a2/index.html", "vocab": "pt/vocabulary/a2/index.html"}
+            ]
+        },
+        {
+            "code": "ru",
+            "name": "Russian",
+            "native": "Русский язык",
+            "flag": "🇷🇺",
+            "portal": "../languages/ru.html",
+            "desc": "Comprehensive Russian reference suite covering case declensions, verb aspects, and thematic lexicon.",
+            "levels": [
+                {"level": "A0–A1", "hub": "russkiy-a0-a1.html", "grammar": "ru/grammar/index.html"},
+                {"level": "A2", "hub": "russkiy-a2.html"}
+            ]
+        },
+        {
+            "code": "br",
+            "name": "Breton",
+            "native": "Brezhoneg",
+            "flag": "🖤",
+            "portal": "../languages/br.html",
+            "desc": "Monolingual Breton learning manuals (Brezhoneg Hepken) for grammar mutations and thematic vocabulary.",
+            "levels": [
+                {"level": "A0–A1", "hub": "brezhoneg-a0-a1.html"},
+                {"level": "A2", "hub": "brezhoneg-a2.html", "grammar": "br/grammar/a2/index.html", "vocab": "br/vocabulary/a2/index.html"}
+            ]
+        },
+        {
+            "code": "tt",
+            "name": "Tatar",
+            "native": "Татар теле",
+            "flag": "🟢",
+            "portal": "../languages/tt.html",
+            "desc": "Interactive Tatar language manuals covering agglutinative grammar patterns and thematic vocabulary.",
+            "levels": [
+                {"level": "A0–A1", "hub": "tatar-a0-a1.html", "grammar": "tt/grammar/index.html", "vocab": "tt/vocabulary/index.html"},
+                {"level": "A2", "hub": "tatar-a2.html", "grammar": "tt/grammar/a2/index.html", "vocab": "tt/vocabulary/a2/index.html"}
+            ]
+        },
+        {
+            "code": "ba",
+            "name": "Bashkir",
+            "native": "Башҡорт теле",
+            "flag": "🔵",
+            "portal": "../languages/ba.html",
+            "desc": "Structured Bashkir grammar and thematic vocabulary manuals for comprehensive study.",
+            "levels": [
+                {"level": "A0–A1", "hub": "bashqort-a0-a1.html", "grammar": "../bashqort-tele-grammatikahy/index.html"},
+                {"level": "A2", "hub": "bashqort-a2.html", "grammar": "ba/grammar/a2/index.html", "vocab": "ba/vocabulary/a2/index.html"}
+            ]
+        },
+        {
+            "code": "cv",
+            "name": "Chuvash",
+            "native": "Чăваш чĕлхи",
+            "flag": "🔴",
+            "portal": "../languages/coming-soon.html",
+            "desc": "Chuvash grammar and vocabulary reference manuals with interactive exercises.",
+            "levels": [
+                {"level": "A0–A1", "hub": "chavash-a0-a1.html", "grammar": "../chavash-grammatika/index.html"},
+                {"level": "A2", "hub": "chavash-a2.html", "grammar": "cv/grammar/a2/index.html", "vocab": "cv/vocabulary/a2/index.html"}
+            ]
+        },
+        {
+            "code": "ka",
+            "name": "Georgian",
+            "native": "ქართული ენა",
+            "flag": "🇬🇪",
+            "portal": "../languages/ka.html",
+            "desc": "Monolingual Georgian manuals covering the 7-case system, verb screeves, and essential vocabulary.",
+            "levels": [
+                {"level": "A0–A1", "hub": "qartuli-a0-a1.html", "grammar": "../qartuli-gramatika/index.html"},
+                {"level": "A2", "hub": "qartuli-a2.html", "grammar": "ka/grammar/a2/index.html", "vocab": "ka/vocabulary/a2/index.html"}
+            ]
+        },
+        {
+            "code": "hy",
+            "name": "Armenian",
+            "native": "Հայոց լեզու",
+            "flag": "🇦🇲",
+            "portal": "../languages/hy.html",
+            "desc": "Structured Armenian grammar and vocabulary manuals covering nominal declensions and core lexicon.",
+            "levels": [
+                {"level": "A0–A1", "hub": "hayots-a0-a1.html", "grammar": "../hayots-lezvi-kerakanutyun/index.html"},
+                {"level": "A2", "hub": "hayots-a2.html", "grammar": "hy/grammar/a2/index.html", "vocab": "hy/vocabulary/a2/index.html"}
+            ]
+        },
+        {
+            "code": "el",
+            "name": "Greek",
+            "native": "Ελληνικά",
+            "flag": "🇬🇷",
+            "portal": "../languages/el.html",
+            "desc": "Modern Greek grammar rules, verb conjugation patterns, and thematic vocabulary manuals.",
+            "levels": [
+                {"level": "A0–A1", "hub": "ellinika-a0-a1.html", "grammar": "el/grammar/index.html"},
+                {"level": "A2", "hub": "ellinika-a2.html"}
+            ]
+        }
+    ]
+
     cards_html = []
-    for code, info in LANGUAGES.items():
-        comm_btn_html = ""
-        if "c_url" in info:
-            comm_btn_html = f'\n        <a href="{info["c_url"]}" class="btn-link comm">💬 Communication Manual</a>'
+    for lang in LANG_GROUPS:
+        level_pills = "".join([f'<span class="tool-pill" style="min-height: 24px; display: inline-flex; align-items: center;">{lvl["level"]}</span>' for lvl in lang["levels"]])
+
+        level_items_html = []
+        for lvl in lang["levels"]:
+            grammar_btn = f'\n            <a href="{lvl["grammar"]}" class="btn-secondary" style="min-height: 44px; padding: 8px 14px; font-size: 0.85rem;">📘 Grammar</a>' if "grammar" in lvl else ""
+            vocab_btn = f'\n            <a href="{lvl["vocab"]}" class="btn-secondary" style="min-height: 44px; padding: 8px 14px; font-size: 0.85rem;">📚 Vocabulary</a>' if "vocab" in lvl else ""
+            comm_btn = f'\n            <a href="{lvl["comm"]}" class="btn-secondary" style="min-height: 44px; padding: 8px 14px; font-size: 0.85rem;">💬 Communication</a>' if "comm" in lvl else ""
+            level_items_html.append(f"""
+        <div style="background: var(--surface, #FFFDF9); border: 1px solid var(--border); border-radius: 12px; padding: 0.85rem 1rem;">
+          <div style="font-weight: 800; font-size: 0.82rem; color: var(--sage-deep); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem;">
+            Level {lvl["level"]}
+          </div>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center;">
+            <a href="{lvl["hub"]}" class="btn-primary" style="min-height: 44px; padding: 8px 14px; font-size: 0.85rem;">🌟 Unified Hub</a>{grammar_btn}{vocab_btn}{comm_btn}
+          </div>
+        </div>""")
+
+        accordion_html = f"""
+      <details style="margin-top: 1rem; background: var(--cream, #FAF7F2); border: 1px solid var(--border, #E8E2D9); border-radius: var(--r-md, 16px); padding: 0.75rem 1rem;">
+        <summary style="font-weight: 700; font-size: 0.9rem; color: var(--sage-deep, #3D5A45); cursor: pointer; list-style: none; display: flex; align-items: center; justify-content: space-between; min-height: 44px; user-select: none;">
+          <span>📚 Explore All {len(lang["levels"])} Level Manuals</span>
+          <span style="font-size: 0.8rem; color: var(--ink-faint);">▼</span>
+        </summary>
+        <div style="margin-top: 0.85rem; display: flex; flex-direction: column; gap: 0.75rem; border-top: 1px dashed var(--border); padding-top: 0.85rem;">
+          {''.join(level_items_html)}
+        </div>
+      </details>"""
 
         cards_html.append(f"""
-    <div class="lang-hub-card">
-      <div class="lang-card-header">
-        <span class="flag">{info['flag']}</span>
-        <div>
-          <h2>{info['name_en']} <span class="native">({info['native_name']})</span></h2>
-          <span class="level-pill">{info['kicker'].split('· ')[-1]}</span>
+    <div class="tool-card" style="display: flex; flex-direction: column; justify-content: space-between; gap: 1.25rem;">
+      <div>
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 0.75rem; flex-wrap: wrap;">
+          <div style="display: flex; align-items: center; gap: 0.75rem;">
+            <span style="font-size: 2.2rem; line-height: 1;">{lang['flag']}</span>
+            <div>
+              <h2 style="font-family: var(--font-heading); font-size: 1.35rem; color: var(--ink); margin: 0; font-weight: 600;">
+                {lang['name']} <span style="font-size: 0.95rem; color: var(--ink-faint); font-weight: 400;">({lang['native']})</span>
+              </h2>
+            </div>
+          </div>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.35rem;">
+            {level_pills}
+          </div>
         </div>
-      </div>
-      <p class="lang-desc">{info['lead']}</p>
-      <div class="card-links-grid">
-        <a href="{info['filename']}" class="btn-link primary">🌟 Unified Language Hub</a>
-        <a href="{info['g_url']}" class="btn-link grammar">📘 Grammar Manual</a>
-        <a href="{info['v_url']}" class="btn-link vocab">📚 Vocabulary Manual</a>{comm_btn_html}
-        <a href="{info['portal_url']}" class="btn-link portal">🌐 Language Portal</a>
+        <p style="font-size: 0.95rem; color: var(--ink-soft); line-height: 1.55; margin: 0 0 1.25rem;">
+          {lang['desc']}
+        </p>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.5rem;">
+          <a href="{lang['portal']}" class="btn-secondary" style="min-height: 44px; padding: 10px 18px; font-size: 0.88rem;">🌐 Language Portal</a>
+          <a href="{lang['levels'][0]['hub']}" class="btn-primary" style="min-height: 44px; padding: 10px 18px; font-size: 0.88rem;">🌟 {lang['levels'][0]['level']} Unified Hub</a>
+        </div>
+        {accordion_html}
       </div>
     </div>""")
 
@@ -1162,293 +1370,131 @@ def generate_hubs():
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>COSYlanguages Master Directory · All Language Manuals &amp; Hubs</title>
 <meta name="description" content="Master directory of all COSYlanguages learning manuals and level hubs across all supported languages.">
-<link rel="stylesheet" href="../css/lang-pages.css">
-<link rel="stylesheet" href="../css/lang-accents.css">
-<link rel="stylesheet" href="../css/mobile.css">
-<style>
-  :root {{
-    --brand-teal: #0f382c;
-    --brand-teal-light: #e3f5ef;
-    --paper-bg: #fcfbf7;
-    --card-bg: #ffffff;
-    --text-ink: #13231e;
-    --text-soft: #3c544c;
-    --line-border: #e3e0d5;
-  }}
-  body {{
-    background: var(--paper-bg);
-    color: var(--text-ink);
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
-    margin: 0;
-    line-height: 1.6;
-  }}
-  .topbar {{
-    background: var(--brand-teal);
-    color: #fff;
-    padding: 12px 24px;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-  }}
-  .topbar-inner {{
-    max-width: 1080px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }}
-  .topbar a {{
-    color: #eafaf5;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 14px;
-  }}
-  .hero-master {{
-    background: linear-gradient(135deg, var(--brand-teal), #1c6b54);
-    color: #fff;
-    padding: 64px 24px 56px;
-    text-align: center;
-  }}
-  .hero-master h1 {{
-    font-family: 'Poppins', system-ui, sans-serif;
-    font-size: clamp(32px, 5.5vw, 50px);
-    margin: 12px 0;
-  }}
-  .hero-master p {{
-    max-width: 720px;
-    margin: 0 auto 24px;
-    font-size: 18px;
-    opacity: 0.92;
-  }}
-  .master-container {{
-    max-width: 1120px;
-    margin: 40px auto 80px;
-    padding: 0 24px;
-  }}
-  .directory-grid {{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 24px;
-  }}
-  .lang-hub-card {{
-    background: var(--card-bg);
-    border: 1px solid var(--line-border);
-    border-radius: 20px;
-    padding: 26px;
-    box-shadow: 0 8px 24px -12px rgba(19, 35, 30, 0.12);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    transition: transform 0.2s, box-shadow 0.2s;
-  }}
-  .lang-hub-card:hover {{
-    transform: translateY(-4px);
-    box-shadow: 0 16px 36px -12px rgba(19, 35, 30, 0.22);
-  }}
-  .lang-card-header {{
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    margin-bottom: 14px;
-  }}
-  .lang-card-header .flag {{
-    font-size: 36px;
-    line-height: 1;
-  }}
-  .lang-card-header h2 {{
-    font-family: 'Poppins', system-ui, sans-serif;
-    font-size: 20px;
-    margin: 0 0 4px;
-  }}
-  .lang-card-header h2 .native {{
-    font-weight: 500;
-    color: var(--text-soft);
-    font-size: 16px;
-  }}
-  .level-pill {{
-    display: inline-block;
-    background: var(--brand-teal-light);
-    color: var(--brand-teal);
-    font-size: 11px;
-    font-weight: 800;
-    padding: 3px 10px;
-    border-radius: 99px;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-  }}
-  .lang-desc {{
-    color: var(--text-soft);
-    font-size: 14px;
-    margin: 0 0 20px;
-    flex-grow: 1;
-  }}
-  .card-links-grid {{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-  }}
-  .btn-link {{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 10px 14px;
-    border-radius: 12px;
-    font-size: 13px;
-    font-weight: 700;
-    text-decoration: none;
-    transition: background 0.15s, color 0.15s;
-  }}
-  .btn-link.primary {{
-    grid-column: 1 / -1;
-    background: var(--brand-teal);
-    color: #fff;
-    font-size: 14px;
-    padding: 12px;
-  }}
-  .btn-link.primary:hover {{
-    background: #1c6b54;
-  }}
-  .btn-link.grammar {{
-    background: #e9eefd;
-    color: #2b50b8;
-  }}
-  .btn-link.grammar:hover {{
-    background: #d4e0fc;
-  }}
-  .btn-link.vocab {{
-    background: #e6f6ec;
-    color: #177546;
-  }}
-  .btn-link.vocab:hover {{
-    background: #ceeedb;
-  }}
-  .btn-link.comm {{
-    grid-column: 1 / -1;
-    background: #fdf3e6;
-    color: #b85d2b;
-  }}
-  .btn-link.comm:hover {{
-    background: #fce4cc;
-  }}
-  .btn-link.portal {{
-    grid-column: 1 / -1;
-    background: var(--paper-bg);
-    border: 1px solid var(--line-border);
-    color: var(--text-soft);
-  }}
-  .btn-link.portal:hover {{
-    background: #f0ede3;
-    color: var(--text-ink);
-  }}
-  .section-title {{
-    font-family: 'Poppins', system-ui, sans-serif;
-    font-size: 26px;
-    margin: 0 0 8px;
-  }}
-  .section-sub {{
-    color: var(--text-soft);
-    margin-bottom: 30px;
-  }}
-  .global-nav-box {{
-    background: #fdf3d6;
-    border: 1px solid #eddca0;
-    border-radius: 20px;
-    padding: 28px;
-    margin: 50px 0 30px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-  }}
-  .global-nav-box h3 {{
-    margin: 0 0 6px;
-    color: #7a5b0c;
-  }}
-  .global-nav-box p {{
-    margin: 0;
-    color: #5c440a;
-    font-size: 14.5px;
-  }}
-  .quick-nav-links {{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-  }}
-  .quick-nav-links a {{
-    background: #fff;
-    border: 1px solid #eddca0;
-    color: #7a5b0c;
-    padding: 8px 16px;
-    border-radius: 99px;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 13.5px;
-    transition: background 0.15s;
-  }}
-  .quick-nav-links a:hover {{
-    background: #faeaaf;
-  }}
-</style>
+<meta property="og:title" content="COSYlanguages Master Directory · All Language Manuals &amp; Hubs">
+<meta property="og:description" content="Master directory of all COSYlanguages learning manuals and level hubs across all supported languages.">
+<meta property="og:image" content="../images/logos/cosylanguages.png">
+<link rel="icon" href="../images/logos/cosylanguages.png">
+<link rel="manifest" href="../apps/free-portal/manifest.json">
+<meta name="theme-color" content="#FAF7F2">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&amp;family=DM+Sans:wght@400;500;700&amp;family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../css/tokens.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/components.css">
+<link rel="stylesheet" href="../css/layout.css">
+<link rel="stylesheet" href="../css/home.css">
 </head>
 <body>
 
-<header class="topbar">
-  <div class="topbar-inner">
-    <a href="../index.html">← COSYlanguages Platform</a>
-    <a href="index.html">Manuals Index</a>
+<a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20COSYlanguages." class="wa-fab" aria-label="Chat on WhatsApp">💬</a>
+
+<nav id="cosy-nav" aria-label="Main navigation"></nav>
+
+<!-- Sticky Header -->
+<header class="sd-sticky-header">
+  <div class="sd-header-inner">
+    <div class="sd-breadcrumbs">
+      <a href="../index.html">Home</a>
+      <span class="sep">/</span>
+      <span class="current">Master Directory</span>
+    </div>
   </div>
 </header>
 
-<section class="hero-master">
-  <span style="background: rgba(255,255,255,0.15); padding: 5px 14px; border-radius: 99px; font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;">
-    Master Directory · COSYlanguages Library
-  </span>
-  <h1>All Manuals &amp; Languages Hub</h1>
-  <p>Explore single-page hubs, grammar references, vocabulary manuals, and communication systems across all supported languages in the COSYlanguages ecosystem.</p>
-</section>
-
-<main class="master-container">
-
-  <div>
-    <h2 class="section-title">Language Manuals &amp; Hubs</h2>
-    <p class="section-sub">Select a language to open its unified hub or jump directly to Book 1 (Grammar), Book 2 (Vocabulary), or Book 3 (Communication).</p>
+<header style="background: var(--surface); padding: 3.5rem 1.5rem 2.5rem; text-align: center; border-bottom: 1px solid var(--border);">
+  <div style="max-width: 800px; margin: 0 auto;">
+    <span class="sec-tag">Master Directory · COSYlanguages Library</span>
+    <h1 style="font-family: var(--font-heading); font-size: clamp(2rem, 4vw, 3rem); color: var(--ink); margin: 0.5rem 0 1rem; font-weight: 300;">
+      All Language Manuals &amp; Hubs
+    </h1>
+    <p style="font-size: 1.1rem; color: var(--ink-soft); line-height: 1.6; margin: 0 auto;">
+      Explore single-page hubs, grammar references, vocabulary manuals, and communication systems across all 14 target languages in the COSYlanguages ecosystem.
+    </p>
   </div>
+</header>
 
-  <div class="directory-grid">
+<main class="page" role="main" style="max-width: 1140px; margin: 0 auto; padding: 2.5rem 1.5rem 5rem;">
+
+  <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 1.5rem; margin-bottom: 3rem;">
     {''.join(cards_html)}
   </div>
 
-  <div class="global-nav-box" style="background: #e3f5ef; border-color: #a3e2cd;">
+  <div style="background: var(--cream); border: 1px solid var(--border); border-radius: var(--r-xl); padding: 2rem; margin-bottom: 2rem; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.5rem;">
     <div>
-      <h3 style="color: #0f382c;">📊 COMPARATIVE GRAMMAR MATRIX</h3>
-      <p style="color: #1c6b54;">Cross-linguistic grammar comparison engine across all 14 target languages in the COSYlanguages system.</p>
+      <h3 style="font-family: var(--font-heading); color: var(--sage-deep); margin: 0 0 0.5rem; font-size: 1.25rem;">📊 Comparative Grammar Matrix</h3>
+      <p style="margin: 0; color: var(--ink-soft); font-size: 0.95rem;">Cross-linguistic grammar comparison engine across all 14 target languages in the COSYlanguages system.</p>
     </div>
-    <div class="quick-nav-links">
-      <a href="../comparative/index.html" style="background: #0f382c; color: #fff; border-color: #0f382c;">Open Comparative Matrix →</a>
+    <div>
+      <a href="../comparative/index.html" class="btn-primary" style="min-height: 44px; font-size: 0.9rem;">Open Comparative Matrix →</a>
     </div>
   </div>
 
-  <div class="global-nav-box">
+  <div style="background: var(--cream); border: 1px solid var(--border); border-radius: var(--r-xl); padding: 2rem; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.5rem;">
     <div>
-      <h3>🌐 QUICK PLATFORM JUMP</h3>
-      <p>Direct links to practice trainers, games, speaking events, and premium academies.</p>
+      <h3 style="font-family: var(--font-heading); color: var(--sage-deep); margin: 0 0 0.5rem; font-size: 1.25rem;">🌐 Quick Platform Jump</h3>
+      <p style="margin: 0; color: var(--ink-soft); font-size: 0.95rem;">Direct links to practice trainers, games, speaking events, and premium academies.</p>
     </div>
-    <div class="quick-nav-links">
-      <a href="../index.html">Platform Home</a>
-      <a href="../practice/index.html">Practice Hub</a>
-      <a href="../games/index.html">Games Hub</a>
-      <a href="../events/index.html">Events Workspace</a>
-      <a href="../apps/premium-courses/index.html">Premium Courses</a>
+    <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+      <a href="../index.html" class="btn-secondary" style="min-height: 44px; font-size: 0.88rem;">Platform Home</a>
+      <a href="../practice/index.html" class="btn-secondary" style="min-height: 44px; font-size: 0.88rem;">Practice Hub</a>
+      <a href="../games/index.html" class="btn-secondary" style="min-height: 44px; font-size: 0.88rem;">Games Hub</a>
+      <a href="../events/index.html" class="btn-secondary" style="min-height: 44px; font-size: 0.88rem;">Events Workspace</a>
+      <a href="../apps/premium-courses/index.html" class="btn-secondary" style="min-height: 44px; font-size: 0.88rem;">Premium Courses</a>
     </div>
   </div>
 
 </main>
 
-<footer style="background: var(--brand-teal); color: #c9d8d4; padding: 36px 24px; text-align: center; font-size: 13.5px;">
-  <div>&copy; 2026 COSYlanguages · All rights reserved · Interactive Web Edition Manuals Directory</div>
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="fb-logo">
+        <img src="../images/logos/cosylanguages.png" alt="COSYlanguages logo" loading="lazy" decoding="async" width="38" height="38">
+        <span class="fb-name">COSYlanguages</span>
+      </div>
+      <p data-translate-key="footer_fb_p">Your friendly corner to master new languages and connect with the world. 🌍</p>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_courses">Courses</h3>
+      <a href="../apps/premium-courses/general/" data-translate-key="course_general">General Course 📖</a>
+      <a href="../apps/premium-courses/spoken/" data-translate-key="course_spoken">Spoken Course 🗣️</a>
+      <a href="../apps/premium-courses/exam/" data-translate-key="course_exam">Exam Preparation 📝</a>
+      <a href="../apps/premium-courses/travelling/" data-translate-key="course_travelling">Travelling Course ✈️</a>
+      <a href="../apps/premium-courses/professional/" data-translate-key="course_professional">Professional Course 💼</a>
+      <a href="../apps/premium-courses/relocation/" data-translate-key="course_relocation">Relocation Course 🏡</a>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_explore">Explore</h3>
+      <a href="../index.html#languages" data-translate-key="nav_languages">Languages 🌍</a>
+      <a href="../practice/index.html" data-translate-key="nav_practice">Free Practice 💡</a>
+      <a href="../placement-quiz.html">Placement Quiz 📝</a>
+      <a href="../hybrid/index.html">Hybrid &amp; Community 🌿</a>
+      <a href="../notebook/index.html">My Notebook 📓</a>
+      <a href="../events/index.html" data-translate-key="nav_events">Events 🎉</a>
+      <a href="../games/index.html" data-translate-key="nav_games">Games 🎮</a>
+    </div>
+    <div class="footer-links-col">
+      <h3>Project</h3>
+      <a href="../about/index.html">Our Story 🏡</a>
+      <a href="../privacy.html">Privacy &amp; Safety 🛡️</a>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_contact">Contact</h3>
+      <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+      <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+      <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
+    </div>
+  </div>
+  <div class="footer-bottom" data-translate-key="footer_copy">© 2026 COSYlanguages, All rights reserved</div>
 </footer>
+
+<script src="../js/data/languages.js"></script>
+<script src="../js/core/engine.js"></script>
+<script src="../js/core/i18n.js"></script>
+<script src="../js/core/ui.js"></script>
+<div id="toast"></div>
 
 </body>
 </html>
