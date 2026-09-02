@@ -417,13 +417,13 @@
   },
   {
     "id": "fr_starter_idioms_024",
-    "word": "être",
+    "word": "être surpris",
     "form": "idiom",
     "definitions": [
       {
-        "text": "Ressentir de l'étonnement face à un événement inattendu.",
+        "text": "Éprouver de l'étonnement face à un fait inattendu.",
         "examples": [
-          "Elle a été surprise de recevoir ce magnifique cadeau."
+          "Il a été très surpris par cette bonne nouvelle."
         ]
       }
     ],
