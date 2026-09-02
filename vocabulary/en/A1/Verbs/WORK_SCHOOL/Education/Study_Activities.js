@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-WOR-01",
+        "id": "A1-VERB-WOR-001",
         "word": "forget",
-        "emoji": "🤔",
+        "emoji": "\ud83e\udd14",
         "subtext": "forget a name / forget to do / forget about / completely forget",
         "form": "verb",
         "definitions": [
@@ -21,7 +21,7 @@
         "v2": "forgot",
         "v3": "forgotten",
         "group": "irregular",
-        "transcription": "fərˈgɛt",
+        "transcription": "f\u0259r\u02c8g\u025bt",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -37,9 +37,9 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-VERB-WOR-02",
+        "id": "A1-VERB-WOR-002",
         "word": "forget",
-        "emoji": "🤔",
+        "emoji": "\ud83e\udd14",
         "subtext": "forget a name / forget to do / forget about / completely forget",
         "form": "verb",
         "definitions": [
@@ -56,7 +56,7 @@
         "v2": "forgot",
         "v3": "forgotten",
         "group": "regular",
-        "transcription": "fərˈgɛt",
+        "transcription": "f\u0259r\u02c8g\u025bt",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -73,11 +73,11 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-VERB-WOR-03",
+        "id": "A1-VERB-WOR-003",
         "word": "improve",
-        "emoji": "📈",
+        "emoji": "\ud83d\udcc8",
         "form": "verb",
-        "transcription": "ɪmˈpruːv",
+        "transcription": "\u026am\u02c8pru\u02d0v",
         "definitions": [
             {
                 "text": "To make or become better in quality or skill.",
@@ -110,9 +110,9 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-VERB-WOR-04",
+        "id": "A1-VERB-WOR-004",
         "word": "know",
-        "emoji": "🧠",
+        "emoji": "\ud83e\udde0",
         "subtext": "know someone / know the answer / know a place / know how to",
         "form": "verb",
         "definitions": [
@@ -130,7 +130,7 @@
         "v2": "knew",
         "v3": "known",
         "group": "irregular",
-        "transcription": "noʊ",
+        "transcription": "no\u028a",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -146,9 +146,9 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-VERB-WOR-05",
+        "id": "A1-VERB-WOR-005",
         "word": "know",
-        "emoji": "🧠",
+        "emoji": "\ud83e\udde0",
         "subtext": "know someone / know the answer / know a place / know how to",
         "form": "verb",
         "definitions": [
@@ -166,7 +166,7 @@
         "v2": "knew",
         "v3": "known",
         "group": "regular",
-        "transcription": "noʊ",
+        "transcription": "no\u028a",
         "synonyms": [
             "understand"
         ],
@@ -186,9 +186,9 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-VERB-WOR-06",
+        "id": "A1-VERB-WOR-006",
         "word": "learn",
-        "emoji": "📚",
+        "emoji": "\ud83d\udcda",
         "subtext": "learn a language / learn a skill / learn from / learn how to",
         "form": "verb",
         "definitions": [
@@ -204,7 +204,7 @@
         "v2": "learned / learnt",
         "v3": "learned / learnt",
         "group": "both",
-        "transcription": "lərn",
+        "transcription": "l\u0259rn",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -220,9 +220,9 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-VERB-WOR-07",
+        "id": "A1-VERB-WOR-007",
         "word": "learn",
-        "emoji": "📚",
+        "emoji": "\ud83d\udcda",
         "subtext": "learn a language / learn a skill / learn from / learn how to",
         "form": "verb",
         "definitions": [
@@ -238,7 +238,7 @@
         "v2": "learned / learnt",
         "v3": "learned / learnt",
         "group": "regular",
-        "transcription": "lərn",
+        "transcription": "l\u0259rn",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -255,9 +255,9 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-VERB-WOR-08",
+        "id": "A1-VERB-WOR-008",
         "word": "listen",
-        "emoji": "🎧",
+        "emoji": "\ud83c\udfa7",
         "subtext": "listen to music / listen carefully / listen to a podcast",
         "form": "verb",
         "definitions": [
@@ -274,7 +274,7 @@
         "v2": "listened",
         "v3": "listened",
         "group": "regular",
-        "transcription": "ˈlɪsən",
+        "transcription": "\u02c8l\u026as\u0259n",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -290,9 +290,9 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-VERB-WOR-09",
+        "id": "A1-VERB-WOR-009",
         "word": "listen",
-        "emoji": "🎧",
+        "emoji": "\ud83c\udfa7",
         "subtext": "listen to music / listen to someone / listen carefully / listen to a podcast",
         "form": "verb",
         "definitions": [
@@ -309,7 +309,7 @@
         "v2": "listened",
         "v3": "listened",
         "group": "regular",
-        "transcription": "ˈlɪsən",
+        "transcription": "\u02c8l\u026as\u0259n",
         "synonyms": [
             "hear"
         ],
@@ -330,9 +330,9 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-VERB-WOR-10",
+        "id": "A1-VERB-WOR-010",
         "word": "mean",
-        "emoji": "❔",
+        "emoji": "\u2754",
         "subtext": "mean something / what does it mean / mean to do / I didn't mean to",
         "form": "verb",
         "definitions": [
@@ -364,9 +364,9 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-VERB-WOR-11",
+        "id": "A1-VERB-WOR-011",
         "word": "mean",
-        "emoji": "❔",
+        "emoji": "\u2754",
         "subtext": "mean something / what does it mean / mean to do / I didn't mean to",
         "form": "verb",
         "definitions": [
@@ -399,9 +399,9 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-VERB-WOR-12",
+        "id": "A1-VERB-WOR-012",
         "word": "pass",
-        "emoji": "🏔️",
+        "emoji": "\ud83c\udfd4\ufe0f",
         "subtext": "pass an exam / pass the ball / pass time / pass the sugar",
         "form": "verb",
         "definitions": [
@@ -418,7 +418,7 @@
         "v2": "passed",
         "v3": "passed",
         "group": "regular",
-        "transcription": "pæs",
+        "transcription": "p\u00e6s",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -434,9 +434,9 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-VERB-WOR-13",
+        "id": "A1-VERB-WOR-013",
         "word": "pass",
-        "emoji": "🏔️",
+        "emoji": "\ud83c\udfd4\ufe0f",
         "subtext": "pass an exam / pass the ball / pass time / pass the sugar",
         "form": "verb",
         "definitions": [
@@ -453,7 +453,7 @@
         "v2": "passed",
         "v3": "passed",
         "group": "regular",
-        "transcription": "pæs",
+        "transcription": "p\u00e6s",
         "auxiliary": "have",
         "v4": "passing",
         "lang": "en",
@@ -471,9 +471,9 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-VERB-WOR-14",
+        "id": "A1-VERB-WOR-014",
         "word": "read",
-        "emoji": "📖",
+        "emoji": "\ud83d\udcd6",
         "subtext": "read a book / read the news / read a contract / read carefully",
         "form": "verb",
         "definitions": [
@@ -490,7 +490,7 @@
         "v2": "read",
         "v3": "read",
         "group": "irregular",
-        "transcription": "rɛd",
+        "transcription": "r\u025bd",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -506,9 +506,9 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-VERB-WOR-15",
+        "id": "A1-VERB-WOR-015",
         "word": "read",
-        "emoji": "📖",
+        "emoji": "\ud83d\udcd6",
         "subtext": "read a book / read the news / read a contract / read carefully",
         "form": "verb",
         "definitions": [
@@ -525,7 +525,7 @@
         "v2": "read",
         "v3": "read",
         "group": "regular",
-        "transcription": "rɛd",
+        "transcription": "r\u025bd",
         "synonyms": [
             "look at"
         ],
@@ -545,9 +545,9 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-VERB-WOR-16",
+        "id": "A1-VERB-WOR-016",
         "word": "remember",
-        "emoji": "🧠",
+        "emoji": "\ud83e\udde0",
         "subtext": "remember to do / remember a name / remember clearly",
         "form": "verb",
         "definitions": [
@@ -564,7 +564,7 @@
         "v2": "remembered",
         "v3": "remembered",
         "group": "regular",
-        "transcription": "rɪˈmɛmbər",
+        "transcription": "r\u026a\u02c8m\u025bmb\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -580,9 +580,9 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-VERB-WOR-17",
+        "id": "A1-VERB-WOR-017",
         "word": "remember",
-        "emoji": "🧠",
+        "emoji": "\ud83e\udde0",
         "subtext": "remember to do / remember a name / remember clearly",
         "form": "verb",
         "definitions": [
@@ -599,7 +599,7 @@
         "v2": "remembered",
         "v3": "remembered",
         "group": "regular",
-        "transcription": "rɪˈmɛmbər",
+        "transcription": "r\u026a\u02c8m\u025bmb\u0259r",
         "auxiliary": "have",
         "v4": "remembering",
         "lang": "en",
@@ -617,9 +617,9 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-VERB-WOR-18",
+        "id": "A1-VERB-WOR-018",
         "word": "study",
-        "emoji": "📖",
+        "emoji": "\ud83d\udcd6",
         "subtext": "study English / study for an exam / study hard / self-study",
         "form": "verb",
         "definitions": [
@@ -635,7 +635,7 @@
         "v2": "studied",
         "v3": "studied",
         "group": "regular",
-        "transcription": "ˈstədi",
+        "transcription": "\u02c8st\u0259di",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -651,9 +651,9 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-VERB-WOR-19",
+        "id": "A1-VERB-WOR-019",
         "word": "study",
-        "emoji": "📖",
+        "emoji": "\ud83d\udcd6",
         "subtext": "study English / study for an exam / study hard / self-study",
         "form": "verb",
         "definitions": [
@@ -669,7 +669,7 @@
         "v2": "studied",
         "v3": "studied",
         "group": "regular",
-        "transcription": "ˈstədi",
+        "transcription": "\u02c8st\u0259di",
         "auxiliary": "have",
         "v4": "studying",
         "lang": "en",
@@ -687,9 +687,9 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-VERB-WOR-20",
+        "id": "A1-VERB-WOR-020",
         "word": "teach",
-        "emoji": "👨‍🏫",
+        "emoji": "\ud83d\udc68\u200d\ud83c\udfeb",
         "subtext": "teach someone / teach a subject / teach how to / teach a class",
         "form": "verb",
         "definitions": [
@@ -705,7 +705,7 @@
         "v2": "taught",
         "v3": "taught",
         "group": "irregular",
-        "transcription": "tiʧ",
+        "transcription": "ti\u02a7",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -721,9 +721,9 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-VERB-WOR-21",
+        "id": "A1-VERB-WOR-021",
         "word": "teach",
-        "emoji": "👨‍🏫",
+        "emoji": "\ud83d\udc68\u200d\ud83c\udfeb",
         "subtext": "teach someone / teach a subject / teach how to / teach a class",
         "form": "verb",
         "definitions": [
@@ -739,7 +739,7 @@
         "v2": "taught",
         "v3": "taught",
         "group": "regular",
-        "transcription": "tiʧ",
+        "transcription": "ti\u02a7",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -756,9 +756,9 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-VERB-WOR-22",
+        "id": "A1-VERB-WOR-022",
         "word": "try",
-        "emoji": "🎯",
+        "emoji": "\ud83c\udfaf",
         "subtext": "try to do / try hard / try something new / give it a try",
         "form": "verb",
         "definitions": [
@@ -774,7 +774,7 @@
         "v2": "tried",
         "v3": "tried",
         "group": "regular",
-        "transcription": "traɪ",
+        "transcription": "tra\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -790,9 +790,9 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-VERB-WOR-23",
+        "id": "A1-VERB-WOR-023",
         "word": "try",
-        "emoji": "🎯",
+        "emoji": "\ud83c\udfaf",
         "subtext": "try to do / try hard / try something new / give it a try",
         "form": "verb",
         "definitions": [
@@ -808,7 +808,7 @@
         "v2": "tried",
         "v3": "tried",
         "group": "regular",
-        "transcription": "traɪ",
+        "transcription": "tra\u026a",
         "synonyms": [
             "attempt"
         ],
@@ -829,9 +829,9 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-VERB-WOR-24",
+        "id": "A1-VERB-WOR-024",
         "word": "write",
-        "emoji": "✍️",
+        "emoji": "\u270d\ufe0f",
         "subtext": "write to, write an email / write a report / write a letter / write notes",
         "form": "verb",
         "definitions": [
@@ -848,7 +848,7 @@
         "v2": "wrote",
         "v3": "written",
         "group": "irregular",
-        "transcription": "raɪt",
+        "transcription": "ra\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -864,9 +864,9 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-VERB-WOR-25",
+        "id": "A1-VERB-WOR-025",
         "word": "write",
-        "emoji": "✍️",
+        "emoji": "\u270d\ufe0f",
         "subtext": "write to, write an email / write a report / write a letter / write notes",
         "form": "verb",
         "definitions": [
@@ -883,7 +883,7 @@
         "v2": "wrote",
         "v3": "written",
         "group": "regular",
-        "transcription": "raɪt",
+        "transcription": "ra\u026at",
         "synonyms": [
             "note down"
         ],

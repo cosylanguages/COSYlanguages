@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A2-VERB-WOR-01",
+        "id": "A2-VERB-WOR-001",
         "word": "complete",
-        "emoji": "✅",
+        "emoji": "\u2705",
         "form": "verb",
         "subtext": "complete a task / complete a form",
         "synonyms": [
@@ -23,7 +23,7 @@
         "aspect": "action",
         "v2": "completed",
         "v3": "completed",
-        "transcription": "kəmˈpliːt",
+        "transcription": "k\u0259m\u02c8pli\u02d0t",
         "group": "regular",
         "auxiliary": "have",
         "v4": "completing",
@@ -39,9 +39,9 @@
         "sub_subcategory": "School_Classroom"
     },
     {
-        "id": "A2-VERB-WOR-02",
+        "id": "A2-VERB-WOR-002",
         "word": "continue",
-        "emoji": "➡️",
+        "emoji": "\u27a1\ufe0f",
         "form": "verb",
         "subtext": "continue working / continue the journey",
         "synonyms": [
@@ -61,7 +61,7 @@
         "aspect": "both",
         "v2": "continued",
         "v3": "continued",
-        "transcription": "kənˈtɪnjuː",
+        "transcription": "k\u0259n\u02c8t\u026anju\u02d0",
         "group": "regular",
         "auxiliary": "have",
         "v4": "continuing",
@@ -77,9 +77,9 @@
         "sub_subcategory": "School_Classroom"
     },
     {
-        "id": "A2-VERB-WOR-03",
+        "id": "A2-VERB-WOR-003",
         "word": "fail",
-        "emoji": "❌",
+        "emoji": "\u274c",
         "form": "verb",
         "subtext": "fail an exam / fail to do / fail a test / fail to meet a deadline",
         "definitions": [
@@ -95,7 +95,7 @@
         "aspect": "action",
         "v2": "failed",
         "v3": "failed",
-        "transcription": "feɪl",
+        "transcription": "fe\u026al",
         "synonyms": [
             "not pass"
         ],
@@ -114,9 +114,9 @@
         "sub_subcategory": "School_Classroom"
     },
     {
-        "id": "A2-VERB-WOR-04",
+        "id": "A2-VERB-WOR-004",
         "word": "graduate",
-        "emoji": "🎓",
+        "emoji": "\ud83c\udf93",
         "form": "verb",
         "subtext": "graduate from university / graduate high school / recent graduate",
         "definitions": [
@@ -132,7 +132,7 @@
         "aspect": "action",
         "v2": "graduated",
         "v3": "graduated",
-        "transcription": "ˈɡrædʒueɪt",
+        "transcription": "\u02c8\u0261r\u00e6d\u0292ue\u026at",
         "group": "regular",
         "auxiliary": "have",
         "v4": "graduating",
@@ -148,9 +148,9 @@
         "sub_subcategory": "School_Classroom"
     },
     {
-        "id": "A2-VERB-WOR-05",
+        "id": "A2-VERB-WOR-005",
         "word": "improve",
-        "emoji": "📈",
+        "emoji": "\ud83d\udcc8",
         "form": "verb",
         "subtext": "improve your English / improve performance",
         "synonyms": [
@@ -169,7 +169,7 @@
         "aspect": "both",
         "v2": "improved",
         "v3": "improved",
-        "transcription": "ɪmˈpruːv",
+        "transcription": "\u026am\u02c8pru\u02d0v",
         "group": "regular",
         "auxiliary": "have",
         "v4": "improving",
@@ -185,9 +185,9 @@
         "sub_subcategory": "School_Classroom"
     },
     {
-        "id": "A2-VERB-WOR-06",
+        "id": "A2-VERB-WOR-006",
         "word": "memorise",
-        "emoji": "🧠",
+        "emoji": "\ud83e\udde0",
         "form": "verb",
         "subtext": "memorise words",
         "definitions": [
@@ -202,7 +202,7 @@
         "aspect": "action",
         "v2": "memorised",
         "v3": "memorised",
-        "transcription": "ˈmɛməraɪz",
+        "transcription": "\u02c8m\u025bm\u0259ra\u026az",
         "synonyms": [
             "learn by heart"
         ],

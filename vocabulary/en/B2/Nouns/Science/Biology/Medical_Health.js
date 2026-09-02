@@ -2,12 +2,12 @@
     const lang = "en";
     const data = [
     {
-        "id": "B2-NOUN-SCI-01",
+        "id": "B2-NOUN-SCI-001",
         "lang": "en",
-        "transcription": "əʊˈbiːsəti",
+        "transcription": "\u0259\u028a\u02c8bi\u02d0s\u0259ti",
         "level": "upper_intermediate",
         "theme": "health_medicine",
-        "emoji": "⚖️⬆️",
+        "emoji": "\u2696\ufe0f\u2b06\ufe0f",
         "form": "noun",
         "classification": "regular",
         "plural": null,
@@ -26,15 +26,16 @@
         "domain": "Science",
         "subcategory": "Biology",
         "pos_section": "Nouns",
-        "sub_subcategory": "Medical_Health"
+        "sub_subcategory": "Medical_Health",
+        "word": "obesity"
     },
     {
-        "id": "B2-NOUN-SCI-02",
+        "id": "B2-NOUN-SCI-002",
         "lang": "en",
-        "transcription": "laɪf ɪkˈspɛktənsi",
+        "transcription": "la\u026af \u026ak\u02c8sp\u025bkt\u0259nsi",
         "level": "upper_intermediate",
         "theme": "health_medicine",
-        "emoji": "⏳👴",
+        "emoji": "\u23f3\ud83d\udc74",
         "form": "noun phrase",
         "plural": "life expectancies",
         "subtext": "average life expectancy, increase life expectancy",
@@ -52,18 +53,19 @@
         "domain": "Science",
         "subcategory": "Biology",
         "pos_section": "Nouns",
-        "sub_subcategory": "Medical_Health"
+        "sub_subcategory": "Medical_Health",
+        "word": "life expectancy"
     },
     {
-        "id": "B2-NOUN-SCI-03",
+        "id": "B2-NOUN-SCI-003",
         "lang": "en",
         "word": "preventive medicine",
         "level": "upper_intermediate",
         "theme": "health_medicine",
-        "emoji": "🛡️💊",
+        "emoji": "\ud83d\udee1\ufe0f\ud83d\udc8a",
         "form": "noun phrase",
         "plural": null,
-        "transcription": "prɪˈvɛntɪv ˈmɛdsn",
+        "transcription": "pr\u026a\u02c8v\u025bnt\u026av \u02c8m\u025bdsn",
         "subtext": "preventative care, public health",
         "definitions": [
             {
@@ -81,15 +83,15 @@
         "sub_subcategory": "Medical_Health"
     },
     {
-        "id": "B2-NOUN-SCI-04",
+        "id": "B2-NOUN-SCI-004",
         "lang": "en",
         "word": "universal healthcare",
         "level": "upper_intermediate",
         "theme": "health_medicine",
-        "emoji": "🏥",
+        "emoji": "\ud83c\udfe5",
         "form": "noun phrase",
         "plural": null,
-        "transcription": "🇬🇧 ˌjuːnɪˈvɜːsl ˈhɛlθkeə | 🇺🇸 ˌjuːnɪˈvɜːsl ˈhɛlθkeər",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02ccju\u02d0n\u026a\u02c8v\u025c\u02d0sl \u02c8h\u025bl\u03b8ke\u0259 | \ud83c\uddfa\ud83c\uddf8 \u02ccju\u02d0n\u026a\u02c8v\u025c\u02d0sl \u02c8h\u025bl\u03b8ke\u0259r",
         "subtext": "public healthcare, health coverage",
         "definitions": [
             {
@@ -107,15 +109,15 @@
         "sub_subcategory": "Medical_Health"
     },
     {
-        "id": "B2-NOUN-SCI-05",
+        "id": "B2-NOUN-SCI-005",
         "lang": "en",
         "word": "waiting list",
         "level": "upper_intermediate",
         "theme": "health_medicine",
-        "emoji": "⏳",
+        "emoji": "\u23f3",
         "form": "noun phrase",
         "plural": "waiting lists",
-        "transcription": "ˈweɪtɪŋ lɪst",
+        "transcription": "\u02c8we\u026at\u026a\u014b l\u026ast",
         "subtext": "queue for treatment, delayed service",
         "definitions": [
             {

@@ -5,7 +5,7 @@
         "word": "minus",
         "level": "elementary",
         "theme": "numbers",
-        "emoji": "➖",
+        "emoji": "\u2796",
         "form": "preposition",
         "definitions": [
             {
@@ -21,10 +21,10 @@
             "subtraction",
             "less"
         ],
-        "transcription": "ˈmaɪnəs",
+        "transcription": "\u02c8ma\u026an\u0259s",
         "language": "en",
         "lang": "en",
-        "id": "A2-OTH-TIM-01",
+        "id": "A2-OTH-TIM-001",
         "legacy_id": "A2-NUM-37",
         "level_code": "A2",
         "domain": "TIME_NUMBERS",
@@ -36,7 +36,7 @@
         "word": "plus",
         "level": "elementary",
         "theme": "numbers",
-        "emoji": "➕",
+        "emoji": "\u2795",
         "form": "preposition",
         "definitions": [
             {
@@ -52,10 +52,10 @@
             "addition",
             "and"
         ],
-        "transcription": "plʌs",
+        "transcription": "pl\u028cs",
         "language": "en",
         "lang": "en",
-        "id": "A2-OTH-TIM-02",
+        "id": "A2-OTH-TIM-002",
         "legacy_id": "A2-NUM-45",
         "level_code": "A2",
         "domain": "TIME_NUMBERS",

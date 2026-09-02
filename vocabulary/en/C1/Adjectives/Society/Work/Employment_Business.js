@@ -2,12 +2,12 @@
     const lang = "en";
     const data = [
     {
-        "id": "C1-ADJ-SOC-01",
+        "id": "C1-ADJ-SOC-010",
         "word": "charismatic",
-        "emoji": "✨",
+        "emoji": "\u2728",
         "subtext": "charismatic leader / charismatic authority / charismatic personality",
         "form": "adjective",
-        "transcription": "ˌkærɪzˈmætɪk",
+        "transcription": "\u02cck\u00e6r\u026az\u02c8m\u00e6t\u026ak",
         "definitions": [
             {
                 "text": "Possessing a compelling charm that inspires devotion in others.",
@@ -37,12 +37,12 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "C1-ADJ-SOC-02",
+        "id": "C1-ADJ-SOC-011",
         "word": "illegitimate",
-        "emoji": "❌",
+        "emoji": "\u274c",
         "subtext": "completely illegitimate / deemed illegitimate / an illegitimate claim",
         "form": "adjective",
-        "transcription": "ˌɪlɪˈdʒɪtɪmət",
+        "transcription": "\u02cc\u026al\u026a\u02c8d\u0292\u026at\u026am\u0259t",
         "definitions": [
             {
                 "text": "Not authorised by law or proper authority.",
@@ -72,12 +72,12 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "C1-ADJ-SOC-03",
+        "id": "C1-ADJ-SOC-012",
         "word": "legitimate",
-        "emoji": "⚖️",
+        "emoji": "\u2696\ufe0f",
         "subtext": "entirely legitimate / wholly legitimate / a legitimate concern",
         "form": "adjective",
-        "transcription": "lɪˈdʒɪtɪmət",
+        "transcription": "l\u026a\u02c8d\u0292\u026at\u026am\u0259t",
         "definitions": [
             {
                 "text": "Lawful; conforming to accepted standards.",
@@ -107,12 +107,12 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "C1-ADJ-SOC-04",
+        "id": "C1-ADJ-SOC-013",
         "word": "regulatory",
-        "emoji": "🛂",
+        "emoji": "\ud83d\udec2",
         "subtext": "strict regulatory / a regulatory framework / regulatory approval",
         "form": "adjective",
-        "transcription": "ˈreɡjələtəri",
+        "transcription": "\u02c8re\u0261j\u0259l\u0259t\u0259ri",
         "definitions": [
             {
                 "text": "Relating to official rules and controls.",

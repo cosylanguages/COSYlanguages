@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-COM-01",
+        "id": "A1-NOUN-COM-041",
         "word": "film",
-        "emoji": "🎬",
+        "emoji": "\ud83c\udfac",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
                 ]
             }
         ],
-        "transcription": "fɪlm",
+        "transcription": "f\u026alm",
         "lang": "en",
         "level": "starter",
         "theme": "social",
@@ -31,9 +31,9 @@
         "sub_subcategory": "Interactions"
     },
     {
-        "id": "A1-NOUN-COM-02",
+        "id": "A1-NOUN-COM-042",
         "word": "hobby",
-        "emoji": "🎨",
+        "emoji": "\ud83c\udfa8",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -47,7 +47,7 @@
             }
         ],
         "subtext": "related to hobbies interests",
-        "transcription": "ˈhɑbi",
+        "transcription": "\u02c8h\u0251bi",
         "lang": "en",
         "level": "starter",
         "theme": "social",
@@ -60,9 +60,9 @@
         "sub_subcategory": "Interactions"
     },
     {
-        "id": "A1-NOUN-COM-03",
+        "id": "A1-NOUN-COM-043",
         "word": "movie",
-        "emoji": "🎬",
+        "emoji": "\ud83c\udfac",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -76,7 +76,7 @@
                 ]
             }
         ],
-        "transcription": "ˈmuvi",
+        "transcription": "\u02c8muvi",
         "lang": "en",
         "level": "starter",
         "theme": "social",
@@ -89,9 +89,9 @@
         "sub_subcategory": "Interactions"
     },
     {
-        "id": "A1-NOUN-COM-04",
+        "id": "A1-NOUN-COM-044",
         "word": "photo",
-        "emoji": "📷",
+        "emoji": "\ud83d\udcf7",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -105,7 +105,7 @@
                 ]
             }
         ],
-        "transcription": "ˈfoʊˌtoʊ",
+        "transcription": "\u02c8fo\u028a\u02ccto\u028a",
         "lang": "en",
         "level": "starter",
         "theme": "social",
@@ -118,9 +118,9 @@
         "sub_subcategory": "Interactions"
     },
     {
-        "id": "A1-NOUN-COM-05",
+        "id": "A1-NOUN-COM-045",
         "word": "picture",
-        "emoji": "🖼️",
+        "emoji": "\ud83d\uddbc\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -134,7 +134,7 @@
                 ]
             }
         ],
-        "transcription": "ˈpɪkʧər",
+        "transcription": "\u02c8p\u026ak\u02a7\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "social",

@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-COM-01",
+        "id": "A1-VERB-COM-123",
         "word": "answer",
-        "emoji": "📞",
+        "emoji": "\ud83d\udcde",
         "subtext": "answer a question / answer the phone / answer an email",
         "form": "verb",
         "definitions": [
@@ -21,7 +21,7 @@
         "v2": "answered",
         "v3": "answered",
         "group": "regular",
-        "transcription": "ˈænsər",
+        "transcription": "\u02c8\u00e6ns\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -37,9 +37,9 @@
         "sub_subcategory": "Question_Forms"
     },
     {
-        "id": "A1-VERB-COM-02",
+        "id": "A1-VERB-COM-124",
         "word": "answer",
-        "emoji": "📞",
+        "emoji": "\ud83d\udcde",
         "subtext": "answer a question / answer the phone / answer an email",
         "form": "verb",
         "definitions": [
@@ -56,7 +56,7 @@
         "v2": "answered",
         "v3": "answered",
         "group": "regular",
-        "transcription": "ˈænsər",
+        "transcription": "\u02c8\u00e6ns\u0259r",
         "synonyms": [
             "reply"
         ],
@@ -77,9 +77,9 @@
         "sub_subcategory": "Question_Forms"
     },
     {
-        "id": "A1-VERB-COM-03",
+        "id": "A1-VERB-COM-125",
         "word": "ask",
-        "emoji": "❓",
+        "emoji": "\u2753",
         "subtext": "ask for / about, ask a question / ask for help / ask about / ask someone",
         "form": "verb",
         "definitions": [
@@ -95,7 +95,7 @@
         "v2": "asked",
         "v3": "asked",
         "group": "regular",
-        "transcription": "æsk",
+        "transcription": "\u00e6sk",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -111,9 +111,9 @@
         "sub_subcategory": "Question_Forms"
     },
     {
-        "id": "A1-VERB-COM-04",
+        "id": "A1-VERB-COM-126",
         "word": "ask",
-        "emoji": "❓",
+        "emoji": "\u2753",
         "subtext": "ask for / about, ask a question / ask for help / ask about / ask someone",
         "form": "verb",
         "definitions": [
@@ -129,7 +129,7 @@
         "v2": "asked",
         "v3": "asked",
         "group": "regular",
-        "transcription": "æsk",
+        "transcription": "\u00e6sk",
         "synonyms": [
             "request"
         ],
@@ -150,9 +150,9 @@
         "sub_subcategory": "Question_Forms"
     },
     {
-        "id": "A1-VERB-COM-05",
+        "id": "A1-VERB-COM-127",
         "word": "how",
-        "emoji": "⚙️",
+        "emoji": "\u2699\ufe0f",
         "form": "adverb",
         "definitions": [
             {
@@ -164,7 +164,7 @@
             }
         ],
         "subtext": "related to asking answering questions",
-        "transcription": "haʊ",
+        "transcription": "ha\u028a",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -177,9 +177,9 @@
         "sub_subcategory": "Question_Forms"
     },
     {
-        "id": "A1-VERB-COM-06",
+        "id": "A1-VERB-COM-128",
         "word": "no",
-        "emoji": "❌",
+        "emoji": "\u274c",
         "form": "adverb",
         "definitions": [
             {
@@ -190,7 +190,7 @@
             }
         ],
         "subtext": "related to asking answering questions",
-        "transcription": "noʊ",
+        "transcription": "no\u028a",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -203,9 +203,9 @@
         "sub_subcategory": "Question_Forms"
     },
     {
-        "id": "A1-VERB-COM-07",
+        "id": "A1-VERB-COM-129",
         "word": "show",
-        "emoji": "📽️",
+        "emoji": "\ud83d\udcfd\ufe0f",
         "subtext": "show someone how / show a document / show interest",
         "form": "verb",
         "definitions": [
@@ -221,7 +221,7 @@
         "v2": "showed",
         "v3": "shown",
         "group": "irregular",
-        "transcription": "ʃoʊ",
+        "transcription": "\u0283o\u028a",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -237,9 +237,9 @@
         "sub_subcategory": "Question_Forms"
     },
     {
-        "id": "A1-VERB-COM-08",
+        "id": "A1-VERB-COM-130",
         "word": "show",
-        "emoji": "📽️",
+        "emoji": "\ud83d\udcfd\ufe0f",
         "subtext": "show someone how / show a document / show interest",
         "form": "verb",
         "definitions": [
@@ -255,7 +255,7 @@
         "v2": "showed",
         "v3": "shown",
         "group": "regular",
-        "transcription": "ʃoʊ",
+        "transcription": "\u0283o\u028a",
         "synonyms": [
             "demonstrate"
         ],
@@ -275,9 +275,9 @@
         "sub_subcategory": "Question_Forms"
     },
     {
-        "id": "A1-VERB-COM-09",
+        "id": "A1-VERB-COM-131",
         "word": "tell",
-        "emoji": "🗣️",
+        "emoji": "\ud83d\udde3\ufe0f",
         "subtext": "tell the truth / tell someone / tell a story / tell someone about",
         "form": "verb",
         "definitions": [
@@ -293,7 +293,7 @@
         "v2": "told",
         "v3": "told",
         "group": "irregular",
-        "transcription": "tɛl",
+        "transcription": "t\u025bl",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -309,9 +309,9 @@
         "sub_subcategory": "Question_Forms"
     },
     {
-        "id": "A1-VERB-COM-10",
+        "id": "A1-VERB-COM-132",
         "word": "tell",
-        "emoji": "🗣️",
+        "emoji": "\ud83d\udde3\ufe0f",
         "subtext": "tell the truth / tell someone / tell a story / tell someone about",
         "form": "verb",
         "definitions": [
@@ -327,7 +327,7 @@
         "v2": "told",
         "v3": "told",
         "group": "regular",
-        "transcription": "tɛl",
+        "transcription": "t\u025bl",
         "synonyms": [
             "say",
             "inform"
@@ -348,9 +348,9 @@
         "sub_subcategory": "Question_Forms"
     },
     {
-        "id": "A1-VERB-COM-11",
+        "id": "A1-VERB-COM-133",
         "word": "understand",
-        "emoji": "💡",
+        "emoji": "\ud83d\udca1",
         "subtext": "understand a problem / understand someone / understand clearly",
         "form": "verb",
         "definitions": [
@@ -367,7 +367,7 @@
         "v2": "understood",
         "v3": "understood",
         "group": "irregular",
-        "transcription": "ˌəndərˈstænd",
+        "transcription": "\u02cc\u0259nd\u0259r\u02c8st\u00e6nd",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -383,9 +383,9 @@
         "sub_subcategory": "Question_Forms"
     },
     {
-        "id": "A1-VERB-COM-12",
+        "id": "A1-VERB-COM-134",
         "word": "understand",
-        "emoji": "💡",
+        "emoji": "\ud83d\udca1",
         "subtext": "understand a problem / understand someone / understand clearly",
         "form": "verb",
         "definitions": [
@@ -402,7 +402,7 @@
         "v2": "understood",
         "v3": "understood",
         "group": "regular",
-        "transcription": "ˌəndərˈstænd",
+        "transcription": "\u02cc\u0259nd\u0259r\u02c8st\u00e6nd",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -419,9 +419,9 @@
         "sub_subcategory": "Question_Forms"
     },
     {
-        "id": "A1-VERB-COM-13",
+        "id": "A1-VERB-COM-135",
         "word": "when",
-        "emoji": "⏰",
+        "emoji": "\u23f0",
         "form": "adverb",
         "definitions": [
             {
@@ -432,7 +432,7 @@
             }
         ],
         "subtext": "related to asking answering questions",
-        "transcription": "wɪn",
+        "transcription": "w\u026an",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -445,9 +445,9 @@
         "sub_subcategory": "Question_Forms"
     },
     {
-        "id": "A1-VERB-COM-14",
+        "id": "A1-VERB-COM-136",
         "word": "where",
-        "emoji": "📍",
+        "emoji": "\ud83d\udccd",
         "form": "adverb",
         "definitions": [
             {
@@ -458,7 +458,7 @@
             }
         ],
         "subtext": "related to asking answering questions",
-        "transcription": "wɛr",
+        "transcription": "w\u025br",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -471,9 +471,9 @@
         "sub_subcategory": "Question_Forms"
     },
     {
-        "id": "A1-VERB-COM-15",
+        "id": "A1-VERB-COM-137",
         "word": "why",
-        "emoji": "❓",
+        "emoji": "\u2753",
         "form": "adverb",
         "definitions": [
             {
@@ -484,7 +484,7 @@
             }
         ],
         "subtext": "related to asking answering questions",
-        "transcription": "waɪ",
+        "transcription": "wa\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -497,9 +497,9 @@
         "sub_subcategory": "Question_Forms"
     },
     {
-        "id": "A1-VERB-COM-16",
+        "id": "A1-VERB-COM-138",
         "word": "yes",
-        "emoji": "✅",
+        "emoji": "\u2705",
         "form": "adverb",
         "definitions": [
             {
@@ -510,7 +510,7 @@
             }
         ],
         "subtext": "related to asking answering questions",
-        "transcription": "jɛs",
+        "transcription": "j\u025bs",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",

@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-COM-01",
+        "id": "A1-NOUN-COM-023",
         "word": "story",
-        "emoji": "📖",
+        "emoji": "\ud83d\udcd6",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -19,7 +19,7 @@
             }
         ],
         "subtext": "related to books reading",
-        "transcription": "ˈstɔri",
+        "transcription": "\u02c8st\u0254ri",
         "lang": "en",
         "level": "starter",
         "theme": "books_reading",

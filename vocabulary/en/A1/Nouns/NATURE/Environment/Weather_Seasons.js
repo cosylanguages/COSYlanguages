@@ -2,15 +2,15 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-NAT-01",
+        "id": "A1-NOUN-NAT-039",
         "word": "autumn",
-        "emoji": "🍂",
+        "emoji": "\ud83c\udf42",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
         "subtext": "related to seasons climate",
         "synonyms": [
-            "🇺🇸 fall"
+            "\ud83c\uddfa\ud83c\uddf8 fall"
         ],
         "definitions": [
             {
@@ -20,7 +20,7 @@
                 ]
             }
         ],
-        "transcription": "ˈɔtəm",
+        "transcription": "\u02c8\u0254t\u0259m",
         "lang": "en",
         "level": "starter",
         "theme": "seasons_climate",
@@ -33,9 +33,9 @@
         "sub_subcategory": "Weather_Seasons"
     },
     {
-        "id": "A1-NOUN-NAT-02",
+        "id": "A1-NOUN-NAT-040",
         "word": "season",
-        "emoji": "📅",
+        "emoji": "\ud83d\udcc5",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -48,7 +48,7 @@
             }
         ],
         "subtext": "time of year",
-        "transcription": "ˈsizən",
+        "transcription": "\u02c8siz\u0259n",
         "lang": "en",
         "level": "starter",
         "theme": "seasons_climate",
@@ -61,9 +61,9 @@
         "sub_subcategory": "Weather_Seasons"
     },
     {
-        "id": "A1-NOUN-NAT-03",
+        "id": "A1-NOUN-NAT-041",
         "word": "spring",
-        "emoji": "🌱",
+        "emoji": "\ud83c\udf31",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -76,7 +76,7 @@
             }
         ],
         "subtext": "related to seasons climate",
-        "transcription": "spərɪŋ",
+        "transcription": "sp\u0259r\u026a\u014b",
         "lang": "en",
         "level": "starter",
         "theme": "seasons_climate",
@@ -89,9 +89,9 @@
         "sub_subcategory": "Weather_Seasons"
     },
     {
-        "id": "A1-NOUN-NAT-04",
+        "id": "A1-NOUN-NAT-042",
         "word": "summer",
-        "emoji": "☀️",
+        "emoji": "\u2600\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -104,7 +104,7 @@
             }
         ],
         "subtext": "related to seasons climate",
-        "transcription": "ˈsəmər",
+        "transcription": "\u02c8s\u0259m\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "seasons_climate",
@@ -117,9 +117,9 @@
         "sub_subcategory": "Weather_Seasons"
     },
     {
-        "id": "A1-NOUN-NAT-05",
+        "id": "A1-NOUN-NAT-043",
         "word": "winter",
-        "emoji": "❄️",
+        "emoji": "\u2744\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -132,7 +132,7 @@
             }
         ],
         "subtext": "related to seasons climate",
-        "transcription": "ˈwɪntər",
+        "transcription": "\u02c8w\u026ant\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "seasons_climate",

@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "C1-OTH-PEO-01",
+        "id": "C1-OTH-PEO-001",
         "word": "Elon Musk",
         "form": "other",
         "definitions": [
@@ -16,7 +16,7 @@
         "theme": "people",
         "sub_theme": null,
         "transcription": "",
-        "emoji": "✨",
+        "emoji": "\u2728",
         "legacy_id": "C1-PPL-01",
         "level_code": "C1",
         "domain": "People",
@@ -25,7 +25,7 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "C1-OTH-PEO-02",
+        "id": "C1-OTH-PEO-002",
         "word": "Nelson Mandela",
         "form": "other",
         "definitions": [
@@ -39,7 +39,7 @@
         "theme": "people",
         "sub_theme": null,
         "transcription": "",
-        "emoji": "✨",
+        "emoji": "\u2728",
         "legacy_id": "C1-PPL-02",
         "level_code": "C1",
         "domain": "People",

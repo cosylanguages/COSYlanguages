@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-TIM-01",
+        "id": "A1-VERB-TIM-007",
         "word": "every day",
-        "emoji": "🔁",
+        "emoji": "\ud83d\udd01",
         "form": "adverb",
         "definitions": [
             {
@@ -15,7 +15,7 @@
             }
         ],
         "subtext": "related to times day",
-        "transcription": "ˈɛvəri deɪ",
+        "transcription": "\u02c8\u025bv\u0259ri de\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -28,9 +28,9 @@
         "sub_subcategory": "Clocks_Periods"
     },
     {
-        "id": "A1-VERB-TIM-02",
+        "id": "A1-VERB-TIM-008",
         "word": "sleep",
-        "emoji": "😴",
+        "emoji": "\ud83d\ude34",
         "subtext": "sleep well / sleep badly / sleep eight hours / sleep late",
         "form": "verb",
         "definitions": [
@@ -54,7 +54,7 @@
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "slēpan",
+            "origin_word": "sl\u0113pan",
             "origin_meaning": "to sleep"
         },
         "antonyms": [
@@ -68,9 +68,9 @@
         "sub_subcategory": "Clocks_Periods"
     },
     {
-        "id": "A1-VERB-TIM-03",
+        "id": "A1-VERB-TIM-009",
         "word": "sleep",
-        "emoji": "😴",
+        "emoji": "\ud83d\ude34",
         "subtext": "sleep well / sleep badly / sleep eight hours / sleep late",
         "form": "verb",
         "definitions": [
@@ -98,7 +98,7 @@
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "slēpan",
+            "origin_word": "sl\u0113pan",
             "origin_meaning": "to sleep"
         },
         "antonyms": [
@@ -112,9 +112,9 @@
         "sub_subcategory": "Clocks_Periods"
     },
     {
-        "id": "A1-VERB-TIM-04",
+        "id": "A1-VERB-TIM-010",
         "word": "today",
-        "emoji": "📅",
+        "emoji": "\ud83d\udcc5",
         "form": "adverb",
         "subtext": "today's meeting, start today",
         "definitions": [
@@ -125,7 +125,7 @@
                 ]
             }
         ],
-        "transcription": "təˈdeɪ",
+        "transcription": "t\u0259\u02c8de\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -141,9 +141,9 @@
         "sub_subcategory": "Clocks_Periods"
     },
     {
-        "id": "A1-VERB-TIM-05",
+        "id": "A1-VERB-TIM-011",
         "word": "tomorrow",
-        "emoji": "⏭️",
+        "emoji": "\u23ed\ufe0f",
         "form": "adverb",
         "subtext": "tomorrow morning, see you tomorrow",
         "definitions": [
@@ -154,7 +154,7 @@
                 ]
             }
         ],
-        "transcription": "təˈmɑˌroʊ",
+        "transcription": "t\u0259\u02c8m\u0251\u02ccro\u028a",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -170,9 +170,9 @@
         "sub_subcategory": "Clocks_Periods"
     },
     {
-        "id": "A1-VERB-TIM-06",
+        "id": "A1-VERB-TIM-012",
         "word": "tonight",
-        "emoji": "🌙",
+        "emoji": "\ud83c\udf19",
         "form": "adverb",
         "definitions": [
             {
@@ -183,7 +183,7 @@
             }
         ],
         "subtext": "related to times day",
-        "transcription": "təˈnaɪt",
+        "transcription": "t\u0259\u02c8na\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -196,9 +196,9 @@
         "sub_subcategory": "Clocks_Periods"
     },
     {
-        "id": "A1-VERB-TIM-07",
+        "id": "A1-VERB-TIM-013",
         "word": "yesterday",
-        "emoji": "📅",
+        "emoji": "\ud83d\udcc5",
         "form": "adverb",
         "definitions": [
             {
@@ -209,7 +209,7 @@
             }
         ],
         "subtext": "related to times day",
-        "transcription": "ˈjɛstərˌdeɪ",
+        "transcription": "\u02c8j\u025bst\u0259r\u02ccde\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "time",

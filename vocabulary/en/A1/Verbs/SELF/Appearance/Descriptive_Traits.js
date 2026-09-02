@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-SEL-01",
+        "id": "A1-VERB-SEL-005",
         "word": "break",
-        "emoji": "💔",
+        "emoji": "\ud83d\udc94",
         "subtext": "break the glass / break a law / take a break / break down",
         "form": "verb",
         "definitions": [
@@ -21,7 +21,7 @@
         "v2": "broke",
         "v3": "broken",
         "group": "irregular",
-        "transcription": "breɪk",
+        "transcription": "bre\u026ak",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -37,9 +37,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-VERB-SEL-02",
+        "id": "A1-VERB-SEL-006",
         "word": "break",
-        "emoji": "💔",
+        "emoji": "\ud83d\udc94",
         "subtext": "break the glass / break a law / take a break / break down",
         "form": "verb",
         "definitions": [
@@ -56,7 +56,7 @@
         "v2": "broke",
         "v3": "broken",
         "group": "regular",
-        "transcription": "breɪk",
+        "transcription": "bre\u026ak",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -73,9 +73,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-VERB-SEL-03",
+        "id": "A1-VERB-SEL-007",
         "word": "taste",
-        "emoji": "👅",
+        "emoji": "\ud83d\udc45",
         "form": "verb",
         "subtext": "taste good / have a taste",
         "synonyms": [
@@ -94,7 +94,7 @@
         "v2": "tasted",
         "v3": "tasted",
         "group": "regular",
-        "transcription": "teɪst",
+        "transcription": "te\u026ast",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -110,9 +110,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-VERB-SEL-04",
+        "id": "A1-VERB-SEL-008",
         "word": "taste",
-        "emoji": "👅",
+        "emoji": "\ud83d\udc45",
         "form": "verb",
         "subtext": "taste good / have a taste",
         "synonyms": [
@@ -131,7 +131,7 @@
         "v2": "tasted",
         "v3": "tasted",
         "group": "regular",
-        "transcription": "teɪst",
+        "transcription": "te\u026ast",
         "auxiliary": "have",
         "v4": "tasting",
         "lang": "en",

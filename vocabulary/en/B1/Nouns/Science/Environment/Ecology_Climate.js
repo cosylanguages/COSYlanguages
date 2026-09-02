@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "B1-NOUN-SCI-01",
+        "id": "B1-NOUN-SCI-013",
         "word": "carbon footprint",
         "lang": "en",
         "level": "intermediate",
@@ -18,8 +18,8 @@
                 ]
             }
         ],
-        "transcription": "ˈkɑːbən ˈfʊtprɪnt",
-        "emoji": "👣",
+        "transcription": "\u02c8k\u0251\u02d0b\u0259n \u02c8f\u028atpr\u026ant",
+        "emoji": "\ud83d\udc63",
         "_legacy": {
             "plural": "carbon footprints",
             "countability": "countable",
@@ -33,7 +33,7 @@
         "sub_subcategory": "Ecology_Climate"
     },
     {
-        "id": "B1-NOUN-SCI-02",
+        "id": "B1-NOUN-SCI-014",
         "word": "climate change",
         "lang": "en",
         "level": "intermediate",
@@ -49,8 +49,8 @@
                 ]
             }
         ],
-        "transcription": "ˈklaɪmət tʃeɪndʒ",
-        "emoji": "🌍🌡️",
+        "transcription": "\u02c8kla\u026am\u0259t t\u0283e\u026and\u0292",
+        "emoji": "\ud83c\udf0d\ud83c\udf21\ufe0f",
         "_legacy": {
             "plural": null,
             "countability": "uncountable",
@@ -64,15 +64,15 @@
         "sub_subcategory": "Ecology_Climate"
     },
     {
-        "id": "B1-NOUN-SCI-03",
+        "id": "B1-NOUN-SCI-015",
         "word": "ecosystem",
         "lang": "en",
         "level": "intermediate",
         "theme": "environment",
         "form": "noun",
         "definitions": [],
-        "transcription": "🇬🇧 ˈiːkəʊˌsɪstəm | 🇺🇸 ˈiːkoʊˌsɪstəm",
-        "emoji": "🌲",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8i\u02d0k\u0259\u028a\u02ccs\u026ast\u0259m | \ud83c\uddfa\ud83c\uddf8 \u02c8i\u02d0ko\u028a\u02ccs\u026ast\u0259m",
+        "emoji": "\ud83c\udf32",
         "_legacy": {
             "classification": "regular",
             "plural": "ecosystems",
@@ -86,7 +86,7 @@
         "sub_subcategory": "Ecology_Climate"
     },
     {
-        "id": "B1-NOUN-SCI-04",
+        "id": "B1-NOUN-SCI-016",
         "word": "emissions",
         "lang": "en",
         "level": "intermediate",
@@ -100,8 +100,8 @@
                 ]
             }
         ],
-        "transcription": "iˈmɪʃnz",
-        "emoji": "💨",
+        "transcription": "i\u02c8m\u026a\u0283nz",
+        "emoji": "\ud83d\udca8",
         "_legacy": {
             "classification": "regular",
             "plural": "emissions",
@@ -116,15 +116,15 @@
         "sub_subcategory": "Ecology_Climate"
     },
     {
-        "id": "B1-NOUN-SCI-05",
+        "id": "B1-NOUN-SCI-017",
         "word": "global warming",
         "lang": "en",
         "level": "intermediate",
         "theme": "environment",
         "form": "noun phrase",
         "definitions": [],
-        "transcription": "🇬🇧 ˈɡləʊbl ˈwɔːmɪŋ | 🇺🇸 ˈɡloʊbl ˈwɔːmɪŋ",
-        "emoji": "🌡️",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8\u0261l\u0259\u028abl \u02c8w\u0254\u02d0m\u026a\u014b | \ud83c\uddfa\ud83c\uddf8 \u02c8\u0261lo\u028abl \u02c8w\u0254\u02d0m\u026a\u014b",
+        "emoji": "\ud83c\udf21\ufe0f",
         "_legacy": {
             "plural": null,
             "countability": "uncountable"
@@ -137,15 +137,15 @@
         "sub_subcategory": "Ecology_Climate"
     },
     {
-        "id": "B1-NOUN-SCI-06",
+        "id": "B1-NOUN-SCI-018",
         "word": "leaf",
         "lang": "en",
         "level": "intermediate",
         "theme": "environment",
         "form": "noun",
         "definitions": [],
-        "transcription": "liːf",
-        "emoji": "🍃",
+        "transcription": "li\u02d0f",
+        "emoji": "\ud83c\udf43",
         "_legacy": {
             "numberPlural": "many leaf",
             "answer": "many leaves",
@@ -154,7 +154,7 @@
             "countability": "countable",
             "etymology": {
                 "origin_lang": "Proto-Germanic",
-                "origin_word": "laubą"
+                "origin_word": "laub\u0105"
             }
         },
         "legacy_id": "B1-SCI-09",
@@ -165,7 +165,7 @@
         "sub_subcategory": "Ecology_Climate"
     },
     {
-        "id": "B1-NOUN-SCI-07",
+        "id": "B1-NOUN-SCI-019",
         "word": "renewable energy",
         "lang": "en",
         "level": "intermediate",
@@ -181,8 +181,8 @@
                 ]
             }
         ],
-        "transcription": "rɪˈnjuːəbl ˈɛnədʒi",
-        "emoji": "☀️💨",
+        "transcription": "r\u026a\u02c8nju\u02d0\u0259bl \u02c8\u025bn\u0259d\u0292i",
+        "emoji": "\u2600\ufe0f\ud83d\udca8",
         "_legacy": {
             "plural": null,
             "countability": "uncountable",
@@ -199,7 +199,7 @@
         "sub_subcategory": "Ecology_Climate"
     },
     {
-        "id": "B1-NOUN-SCI-08",
+        "id": "B1-NOUN-SCI-020",
         "word": "waste",
         "lang": "en",
         "level": "intermediate",
@@ -214,8 +214,8 @@
                 ]
             }
         ],
-        "transcription": "weɪst",
-        "emoji": "🗑️",
+        "transcription": "we\u026ast",
+        "emoji": "\ud83d\uddd1\ufe0f",
         "_legacy": {
             "classification": "regular",
             "plural": null,

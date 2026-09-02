@@ -2,12 +2,12 @@
     const lang = "en";
     const data = [
     {
-        "id": "B2-NOUN-SOC-01",
+        "id": "B2-NOUN-SOC-010",
         "lang": "en",
-        "transcription": "ɪnˈsɛntɪv",
+        "transcription": "\u026an\u02c8s\u025bnt\u026av",
         "level": "upper_intermediate",
         "theme": "work",
-        "emoji": "🥕",
+        "emoji": "\ud83e\udd55",
         "form": "noun",
         "classification": "regular",
         "plural": "incentives",
@@ -26,15 +26,16 @@
         "domain": "Society",
         "subcategory": "Work",
         "pos_section": "Nouns",
-        "sub_subcategory": "Employment_Business"
+        "sub_subcategory": "Employment_Business",
+        "word": "incentive"
     },
     {
-        "id": "B2-NOUN-SOC-02",
+        "id": "B2-NOUN-SOC-011",
         "lang": "en",
-        "transcription": "ɔːˈtɒnəmi",
+        "transcription": "\u0254\u02d0\u02c8t\u0252n\u0259mi",
         "level": "upper_intermediate",
         "theme": "work",
-        "emoji": "🔓",
+        "emoji": "\ud83d\udd13",
         "form": "noun",
         "classification": "regular",
         "plural": null,
@@ -56,15 +57,16 @@
         "domain": "Society",
         "subcategory": "Work",
         "pos_section": "Nouns",
-        "sub_subcategory": "Employment_Business"
+        "sub_subcategory": "Employment_Business",
+        "word": "autonomy"
     },
     {
-        "id": "B2-NOUN-SOC-03",
+        "id": "B2-NOUN-SOC-012",
         "lang": "en",
-        "transcription": "prɪˈkɛərɪti",
+        "transcription": "pr\u026a\u02c8k\u025b\u0259r\u026ati",
         "level": "upper_intermediate",
         "theme": "work",
-        "emoji": "🧗",
+        "emoji": "\ud83e\uddd7",
         "form": "noun",
         "classification": "regular",
         "plural": null,
@@ -86,15 +88,16 @@
         "domain": "Society",
         "subcategory": "Work",
         "pos_section": "Nouns",
-        "sub_subcategory": "Employment_Business"
+        "sub_subcategory": "Employment_Business",
+        "word": "precarity"
     },
     {
-        "id": "B2-NOUN-SOC-04",
+        "id": "B2-NOUN-SOC-013",
         "lang": "en",
-        "transcription": "rɪˈdʌndənsi ˈpækɪdʒ",
+        "transcription": "r\u026a\u02c8d\u028cnd\u0259nsi \u02c8p\u00e6k\u026ad\u0292",
         "level": "upper_intermediate",
         "theme": "work",
-        "emoji": "📦",
+        "emoji": "\ud83d\udce6",
         "form": "noun phrase",
         "plural": "redundancy packages",
         "subtext": "severance pay, redundancy deal",
@@ -112,15 +115,16 @@
         "domain": "Society",
         "subcategory": "Work",
         "pos_section": "Nouns",
-        "sub_subcategory": "Employment_Business"
+        "sub_subcategory": "Employment_Business",
+        "word": "redundancy package"
     },
     {
-        "id": "B2-NOUN-SOC-05",
+        "id": "B2-NOUN-SOC-014",
         "lang": "en",
-        "transcription": "ˌɒntrəprəˈnɜːʃɪp",
+        "transcription": "\u02cc\u0252ntr\u0259pr\u0259\u02c8n\u025c\u02d0\u0283\u026ap",
         "level": "upper_intermediate",
         "theme": "work",
-        "emoji": "💡",
+        "emoji": "\ud83d\udca1",
         "form": "noun",
         "classification": "regular",
         "plural": null,
@@ -139,15 +143,16 @@
         "domain": "Society",
         "subcategory": "Work",
         "pos_section": "Nouns",
-        "sub_subcategory": "Employment_Business"
+        "sub_subcategory": "Employment_Business",
+        "word": "entrepreneurship"
     },
     {
-        "id": "B2-NOUN-SOC-06",
+        "id": "B2-NOUN-SOC-015",
         "lang": "en",
-        "transcription": "ˌprɒdʌkˈtɪvəti",
+        "transcription": "\u02ccpr\u0252d\u028ck\u02c8t\u026av\u0259ti",
         "level": "upper_intermediate",
         "theme": "work",
-        "emoji": "⚡",
+        "emoji": "\u26a1",
         "form": "noun",
         "classification": "regular",
         "plural": null,
@@ -166,15 +171,16 @@
         "domain": "Society",
         "subcategory": "Work",
         "pos_section": "Nouns",
-        "sub_subcategory": "Employment_Business"
+        "sub_subcategory": "Employment_Business",
+        "word": "productivity"
     },
     {
-        "id": "B2-NOUN-SOC-07",
+        "id": "B2-NOUN-SOC-016",
         "lang": "en",
-        "transcription": "ˈaʊtsɔːsɪŋ",
+        "transcription": "\u02c8a\u028ats\u0254\u02d0s\u026a\u014b",
         "level": "upper_intermediate",
         "theme": "work",
-        "emoji": "🌐",
+        "emoji": "\ud83c\udf10",
         "form": "noun",
         "classification": "regular",
         "plural": null,
@@ -193,23 +199,24 @@
         "domain": "Society",
         "subcategory": "Work",
         "pos_section": "Nouns",
-        "sub_subcategory": "Employment_Business"
+        "sub_subcategory": "Employment_Business",
+        "word": "outsourcing"
     },
     {
-        "id": "B2-NOUN-SOC-08",
+        "id": "B2-NOUN-SOC-017",
         "lang": "en",
         "word": "GDP",
         "level": "upper_intermediate",
         "theme": "work",
-        "emoji": "📈",
+        "emoji": "\ud83d\udcc8",
         "form": "noun",
         "classification": "regular",
         "plural": null,
-        "transcription": "ˌdʒiːdiːˈpiː",
+        "transcription": "\u02ccd\u0292i\u02d0di\u02d0\u02c8pi\u02d0",
         "subtext": "economic output, Gross Domestic Product",
         "definitions": [
             {
-                "text": "Gross Domestic Product — the total value of goods and services produced in a country.",
+                "text": "Gross Domestic Product \u2014 the total value of goods and services produced in a country.",
                 "examples": [
                     "GDP growth slowed significantly last quarter."
                 ]
@@ -223,16 +230,16 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B2-NOUN-SOC-09",
+        "id": "B2-NOUN-SOC-018",
         "lang": "en",
         "word": "austerity",
         "level": "upper_intermediate",
         "theme": "work",
-        "emoji": "📉",
+        "emoji": "\ud83d\udcc9",
         "form": "noun",
         "classification": "regular",
         "plural": null,
-        "transcription": "ɔːˈstɛrɪti",
+        "transcription": "\u0254\u02d0\u02c8st\u025br\u026ati",
         "subtext": "spending cuts, fiscal policy",
         "definitions": [
             {
@@ -250,15 +257,15 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B2-NOUN-SOC-10",
+        "id": "B2-NOUN-SOC-019",
         "lang": "en",
         "word": "gig economy",
         "level": "upper_intermediate",
         "theme": "work",
-        "emoji": "💼",
+        "emoji": "\ud83d\udcbc",
         "form": "noun phrase",
         "plural": null,
-        "transcription": "🇬🇧 ˈɡɪɡ ɪˌkɒnəmi | 🇺🇸 ˈɡɪɡ ɪˌkɑːnəmi",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8\u0261\u026a\u0261 \u026a\u02cck\u0252n\u0259mi | \ud83c\uddfa\ud83c\uddf8 \u02c8\u0261\u026a\u0261 \u026a\u02cck\u0251\u02d0n\u0259mi",
         "subtext": "freelance work, flexible working",
         "definitions": [
             {
@@ -276,16 +283,16 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B2-NOUN-SOC-11",
+        "id": "B2-NOUN-SOC-020",
         "lang": "en",
         "word": "inflation",
         "level": "upper_intermediate",
         "theme": "work",
-        "emoji": "💸",
+        "emoji": "\ud83d\udcb8",
         "form": "noun",
         "classification": "regular",
         "plural": null,
-        "transcription": "ɪnˈfleɪʃn",
+        "transcription": "\u026an\u02c8fle\u026a\u0283n",
         "subtext": "rising prices, cost of living",
         "definitions": [
             {
@@ -303,16 +310,16 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B2-NOUN-SOC-12",
+        "id": "B2-NOUN-SOC-021",
         "lang": "en",
         "word": "labour market",
         "level": "upper_intermediate",
         "theme": "work",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "form": "noun",
         "classification": "regular",
         "plural": "labour markets",
-        "transcription": "ˈleɪbə ˈmɑːkɪt",
+        "transcription": "\u02c8le\u026ab\u0259 \u02c8m\u0251\u02d0k\u026at",
         "subtext": "job market, workforce",
         "definitions": [
             {
@@ -330,15 +337,15 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B2-NOUN-SOC-13",
+        "id": "B2-NOUN-SOC-022",
         "lang": "en",
         "word": "pay transparency",
         "level": "upper_intermediate",
         "theme": "work",
-        "emoji": "🪟",
+        "emoji": "\ud83e\ude9f",
         "form": "noun phrase",
         "plural": null,
-        "transcription": "peɪ trænˈspærənsi",
+        "transcription": "pe\u026a tr\u00e6n\u02c8sp\u00e6r\u0259nsi",
         "subtext": "salary disclosure, pay equality",
         "definitions": [
             {
@@ -356,16 +363,16 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B2-NOUN-SOC-14",
+        "id": "B2-NOUN-SOC-023",
         "lang": "en",
         "word": "privatisation",
         "level": "upper_intermediate",
         "theme": "work",
-        "emoji": "🏢",
+        "emoji": "\ud83c\udfe2",
         "form": "noun",
         "classification": "regular",
         "plural": null,
-        "transcription": "ˌpraɪvətaɪˈzeɪʃn",
+        "transcription": "\u02ccpra\u026av\u0259ta\u026a\u02c8ze\u026a\u0283n",
         "subtext": "private ownership, deregulation",
         "definitions": [
             {

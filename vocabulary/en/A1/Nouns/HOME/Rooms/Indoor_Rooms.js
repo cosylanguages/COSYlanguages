@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-HOM-01",
+        "id": "A1-NOUN-HOM-074",
         "word": "office",
-        "emoji": "🏢",
+        "emoji": "\ud83c\udfe2",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
                 ]
             }
         ],
-        "transcription": "ˈɔfəs",
+        "transcription": "\u02c8\u0254f\u0259s",
         "lang": "en",
         "level": "starter",
         "theme": "rooms_indoor_spaces",

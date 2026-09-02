@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "B1-NOUN-PEO-01",
+        "id": "B1-NOUN-PEO-001",
         "word": "boundary",
         "lang": "en",
         "level": "intermediate",
@@ -18,8 +18,8 @@
                 ]
             }
         ],
-        "transcription": "ˈbaʊndəri",
-        "emoji": "🚧",
+        "transcription": "\u02c8ba\u028and\u0259ri",
+        "emoji": "\ud83d\udea7",
         "_legacy": {
             "classification": "regular",
             "plural": "boundaries",
@@ -34,7 +34,7 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B1-NOUN-PEO-02",
+        "id": "B1-NOUN-PEO-002",
         "word": "childcare",
         "lang": "en",
         "level": "intermediate",
@@ -48,8 +48,8 @@
                 ]
             }
         ],
-        "transcription": "🇬🇧 ˈtʃaɪldkeə | 🇺🇸 ˈtʃaɪldkeər",
-        "emoji": "🧸",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8t\u0283a\u026aldke\u0259 | \ud83c\uddfa\ud83c\uddf8 \u02c8t\u0283a\u026aldke\u0259r",
+        "emoji": "\ud83e\uddf8",
         "_legacy": {
             "classification": "regular",
             "plural": null,
@@ -64,7 +64,7 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B1-NOUN-PEO-03",
+        "id": "B1-NOUN-PEO-003",
         "word": "conflict",
         "lang": "en",
         "level": "intermediate",
@@ -79,8 +79,8 @@
                 ]
             }
         ],
-        "transcription": "🇬🇧 ˈkɒnflɪkt | 🇺🇸 ˈkɑːnflɪkt",
-        "emoji": "⚔️",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8k\u0252nfl\u026akt | \ud83c\uddfa\ud83c\uddf8 \u02c8k\u0251\u02d0nfl\u026akt",
+        "emoji": "\u2694\ufe0f",
         "_legacy": {
             "classification": "regular",
             "plural": "conflicts",
@@ -89,7 +89,7 @@
             "antonyms": [
                 "harmony"
             ],
-            "oppositeEmoji": "🕊️"
+            "oppositeEmoji": "\ud83d\udd4a\ufe0f"
         },
         "legacy_id": "B1-PPL-03",
         "level_code": "B1",
@@ -99,7 +99,7 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B1-NOUN-PEO-04",
+        "id": "B1-NOUN-PEO-004",
         "word": "divorce",
         "lang": "en",
         "level": "intermediate",
@@ -114,8 +114,8 @@
                 ]
             }
         ],
-        "transcription": "dɪˈvɔːs",
-        "emoji": "💔",
+        "transcription": "d\u026a\u02c8v\u0254\u02d0s",
+        "emoji": "\ud83d\udc94",
         "_legacy": {
             "classification": "regular",
             "plural": "divorces",
@@ -124,7 +124,7 @@
             "antonyms": [
                 "marriage"
             ],
-            "oppositeEmoji": "💍"
+            "oppositeEmoji": "\ud83d\udc8d"
         },
         "legacy_id": "B1-PPL-04",
         "level_code": "B1",
@@ -134,7 +134,7 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B1-NOUN-PEO-05",
+        "id": "B1-NOUN-PEO-005",
         "word": "expectation",
         "lang": "en",
         "level": "intermediate",
@@ -149,8 +149,8 @@
                 ]
             }
         ],
-        "transcription": "ˌɛkspɛkˈteɪʃn",
-        "emoji": "💭",
+        "transcription": "\u02cc\u025bksp\u025bk\u02c8te\u026a\u0283n",
+        "emoji": "\ud83d\udcad",
         "_legacy": {
             "classification": "regular",
             "plural": "expectations",
@@ -165,7 +165,7 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B1-NOUN-PEO-06",
+        "id": "B1-NOUN-PEO-006",
         "word": "responsibility",
         "lang": "en",
         "level": "intermediate",
@@ -181,8 +181,8 @@
                 ]
             }
         ],
-        "transcription": "🇬🇧 rɪˌspɒnsəˈbɪlɪti | 🇺🇸 rɪˌspɑːnsəˈbɪlɪti",
-        "emoji": "🤲",
+        "transcription": "\ud83c\uddec\ud83c\udde7 r\u026a\u02ccsp\u0252ns\u0259\u02c8b\u026al\u026ati | \ud83c\uddfa\ud83c\uddf8 r\u026a\u02ccsp\u0251\u02d0ns\u0259\u02c8b\u026al\u026ati",
+        "emoji": "\ud83e\udd32",
         "_legacy": {
             "classification": "regular",
             "plural": "responsibilities",
@@ -197,7 +197,7 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B1-NOUN-PEO-07",
+        "id": "B1-NOUN-PEO-007",
         "word": "upbringing",
         "lang": "en",
         "level": "intermediate",
@@ -211,8 +211,8 @@
                 ]
             }
         ],
-        "transcription": "ˈʌpˌbrɪŋɪŋ",
-        "emoji": "👨‍👩‍👧",
+        "transcription": "\u02c8\u028cp\u02ccbr\u026a\u014b\u026a\u014b",
+        "emoji": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67",
         "_legacy": {
             "classification": "regular",
             "plural": "upbringings",

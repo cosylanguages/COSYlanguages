@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-FOO-01",
+        "id": "A1-VERB-FOO-001",
         "word": "bring",
-        "emoji": "🎁",
+        "emoji": "\ud83c\udf81",
         "subtext": "bring someone / bring food / bring a document / bring up",
         "form": "verb",
         "definitions": [
@@ -21,7 +21,7 @@
         "v2": "brought",
         "v3": "brought",
         "group": "irregular",
-        "transcription": "brɪŋ",
+        "transcription": "br\u026a\u014b",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -37,9 +37,9 @@
         "sub_subcategory": "Food_Beverages"
     },
     {
-        "id": "A1-VERB-FOO-02",
+        "id": "A1-VERB-FOO-002",
         "word": "bring",
-        "emoji": "🎁",
+        "emoji": "\ud83c\udf81",
         "subtext": "bring someone / bring food / bring a document / bring up",
         "form": "verb",
         "definitions": [
@@ -56,7 +56,7 @@
         "v2": "brought",
         "v3": "brought",
         "group": "regular",
-        "transcription": "brɪŋ",
+        "transcription": "br\u026a\u014b",
         "synonyms": [
             "carry"
         ],
@@ -76,16 +76,16 @@
         "sub_subcategory": "Food_Beverages"
     },
     {
-        "id": "A1-VERB-FOO-03",
+        "id": "A1-VERB-FOO-003",
         "word": "cook",
-        "emoji": "🍳",
+        "emoji": "\ud83c\udf73",
         "subtext": "cook dinner / cook a meal / cook at home / cook for someone",
         "form": "verb",
         "definitions": [
             {
                 "text": "To prepare food by heating it.",
                 "examples": [
-                    "She cooks dinner every evening. I do not cook — I order food."
+                    "She cooks dinner every evening. I do not cook \u2014 I order food."
                 ]
             }
         ],
@@ -94,7 +94,7 @@
         "v2": "cooked",
         "v3": "cooked",
         "group": "regular",
-        "transcription": "kʊk",
+        "transcription": "k\u028ak",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -110,16 +110,16 @@
         "sub_subcategory": "Food_Beverages"
     },
     {
-        "id": "A1-VERB-FOO-04",
+        "id": "A1-VERB-FOO-004",
         "word": "cook",
-        "emoji": "🍳",
+        "emoji": "\ud83c\udf73",
         "subtext": "cook dinner / cook a meal / cook at home / cook for someone",
         "form": "verb",
         "definitions": [
             {
                 "text": "To prepare food by heating it.",
                 "examples": [
-                    "She cooks dinner every evening. I do not cook — I order food."
+                    "She cooks dinner every evening. I do not cook \u2014 I order food."
                 ]
             }
         ],
@@ -128,7 +128,7 @@
         "v2": "cooked",
         "v3": "cooked",
         "group": "regular",
-        "transcription": "kʊk",
+        "transcription": "k\u028ak",
         "synonyms": [
             "prepare food"
         ],
@@ -149,9 +149,9 @@
         "sub_subcategory": "Food_Beverages"
     },
     {
-        "id": "A1-VERB-FOO-05",
+        "id": "A1-VERB-FOO-005",
         "word": "cut",
-        "emoji": "✂️",
+        "emoji": "\u2702\ufe0f",
         "subtext": "cut costs / cut spending / cut short / cut in half",
         "form": "verb",
         "definitions": [
@@ -168,7 +168,7 @@
         "v2": "cut",
         "v3": "cut",
         "group": "irregular",
-        "transcription": "kət",
+        "transcription": "k\u0259t",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -184,9 +184,9 @@
         "sub_subcategory": "Food_Beverages"
     },
     {
-        "id": "A1-VERB-FOO-06",
+        "id": "A1-VERB-FOO-006",
         "word": "cut",
-        "emoji": "✂️",
+        "emoji": "\u2702\ufe0f",
         "subtext": "cut costs / cut spending / cut short / cut in half",
         "form": "verb",
         "definitions": [
@@ -203,7 +203,7 @@
         "v2": "cut",
         "v3": "cut",
         "group": "regular",
-        "transcription": "kət",
+        "transcription": "k\u0259t",
         "synonyms": [
             "slice"
         ],
@@ -223,9 +223,9 @@
         "sub_subcategory": "Food_Beverages"
     },
     {
-        "id": "A1-VERB-FOO-07",
+        "id": "A1-VERB-FOO-007",
         "word": "drink",
-        "emoji": "🥛",
+        "emoji": "\ud83e\udd5b",
         "subtext": "drink coffee / drink tea / drink water / drink beer",
         "form": "verb",
         "definitions": [
@@ -242,7 +242,7 @@
         "v2": "drank",
         "v3": "drunk",
         "group": "irregular",
-        "transcription": "drɪŋk",
+        "transcription": "dr\u026a\u014bk",
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
@@ -263,9 +263,9 @@
         "sub_subcategory": "Food_Beverages"
     },
     {
-        "id": "A1-VERB-FOO-08",
+        "id": "A1-VERB-FOO-008",
         "word": "drink",
-        "emoji": "🥛",
+        "emoji": "\ud83e\udd5b",
         "subtext": "drink coffee / drink tea / drink water / drink beer",
         "form": "verb",
         "definitions": [
@@ -282,7 +282,7 @@
         "v2": "drank",
         "v3": "drunk",
         "group": "regular",
-        "transcription": "drɪŋk",
+        "transcription": "dr\u026a\u014bk",
         "synonyms": [
             "sip"
         ],
@@ -307,9 +307,9 @@
         "sub_subcategory": "Food_Beverages"
     },
     {
-        "id": "A1-VERB-FOO-09",
+        "id": "A1-VERB-FOO-009",
         "word": "eat",
-        "emoji": "🍎",
+        "emoji": "\ud83c\udf4e",
         "subtext": "eat breakfast / eat lunch / eat dinner / eat out",
         "form": "verb",
         "definitions": [
@@ -347,9 +347,9 @@
         "sub_subcategory": "Food_Beverages"
     },
     {
-        "id": "A1-VERB-FOO-10",
+        "id": "A1-VERB-FOO-010",
         "word": "eat",
-        "emoji": "🍎",
+        "emoji": "\ud83c\udf4e",
         "subtext": "eat breakfast / eat lunch / eat dinner / eat out",
         "form": "verb",
         "definitions": [

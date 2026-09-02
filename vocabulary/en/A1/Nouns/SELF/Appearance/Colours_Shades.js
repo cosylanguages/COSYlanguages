@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-SEL-01",
+        "id": "A1-NOUN-SEL-031",
         "word": "color",
-        "emoji": "🎨",
+        "emoji": "\ud83c\udfa8",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -17,7 +17,7 @@
             }
         ],
         "subtext": "visual property",
-        "transcription": "ˈkələr",
+        "transcription": "\u02c8k\u0259l\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "colours",

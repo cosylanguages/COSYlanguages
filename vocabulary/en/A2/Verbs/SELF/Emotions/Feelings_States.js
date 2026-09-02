@@ -2,11 +2,11 @@
     const lang = "en";
     const data = [
     {
-        "id": "A2-VERB-SEL-01",
+        "id": "A2-VERB-SEL-052",
         "word": "admire",
-        "emoji": "🤩",
+        "emoji": "\ud83e\udd29",
         "form": "verb",
-        "transcription": "🇬🇧 ədˈmaɪə | 🇺🇸 ədˈmaɪər",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u0259d\u02c8ma\u026a\u0259 | \ud83c\uddfa\ud83c\uddf8 \u0259d\u02c8ma\u026a\u0259r",
         "subtext": "respect, look up to",
         "synonyms": [
             "respect",
@@ -44,9 +44,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A2-VERB-SEL-02",
+        "id": "A2-VERB-SEL-053",
         "word": "apologise",
-        "emoji": "🙏",
+        "emoji": "\ud83d\ude4f",
         "form": "verb",
         "subtext": "apologise for something / to someone",
         "synonyms": [
@@ -64,7 +64,7 @@
         "aspect": "action",
         "v2": "apologised",
         "v3": "apologised",
-        "transcription": "🇬🇧 əˈpɒlədʒaɪz | 🇺🇸 əˈpɑːlədʒaɪz",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u0259\u02c8p\u0252l\u0259d\u0292a\u026az | \ud83c\uddfa\ud83c\uddf8 \u0259\u02c8p\u0251\u02d0l\u0259d\u0292a\u026az",
         "group": "regular",
         "auxiliary": "have",
         "v4": "apologising",
@@ -80,9 +80,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A2-VERB-SEL-03",
+        "id": "A2-VERB-SEL-054",
         "word": "appreciate",
-        "emoji": "🙏",
+        "emoji": "\ud83d\ude4f",
         "form": "verb",
         "subtext": "value, enjoy",
         "synonyms": [
@@ -101,7 +101,7 @@
         "aspect": "stative",
         "v2": "appreciated",
         "v3": "appreciated",
-        "transcription": "əˈpriːʃieɪt",
+        "transcription": "\u0259\u02c8pri\u02d0\u0283ie\u026at",
         "group": "regular",
         "auxiliary": "have",
         "v4": "appreciating",
@@ -117,9 +117,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A2-VERB-SEL-04",
+        "id": "A2-VERB-SEL-055",
         "word": "avoid",
-        "emoji": "🚫",
+        "emoji": "\ud83d\udeab",
         "form": "verb",
         "subtext": "avoid problems / avoid traffic / avoid someone",
         "definitions": [
@@ -135,7 +135,7 @@
         "aspect": "action",
         "v2": "avoided",
         "v3": "avoided",
-        "transcription": "əˈvɔɪd",
+        "transcription": "\u0259\u02c8v\u0254\u026ad",
         "synonyms": [
             "keep away from"
         ],
@@ -154,9 +154,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A2-VERB-SEL-05",
+        "id": "A2-VERB-SEL-056",
         "word": "encourage",
-        "emoji": "👏",
+        "emoji": "\ud83d\udc4f",
         "form": "verb",
         "subtext": "encourage someone",
         "synonyms": [
@@ -174,7 +174,7 @@
         "aspect": "action",
         "v2": "encouraged",
         "v3": "encouraged",
-        "transcription": "ɪnˈkʌrɪdʒ",
+        "transcription": "\u026an\u02c8k\u028cr\u026ad\u0292",
         "group": "regular",
         "auxiliary": "have",
         "v4": "encouraging",
@@ -190,9 +190,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A2-VERB-SEL-06",
+        "id": "A2-VERB-SEL-057",
         "word": "excite",
-        "emoji": "🤩",
+        "emoji": "\ud83e\udd29",
         "form": "verb",
         "subtext": "excite someone",
         "synonyms": [
@@ -210,7 +210,7 @@
         "aspect": "action",
         "v2": "excited",
         "v3": "excited",
-        "transcription": "ɪkˈsaɪt",
+        "transcription": "\u026ak\u02c8sa\u026at",
         "group": "regular",
         "auxiliary": "have",
         "v4": "exciting",
@@ -226,9 +226,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A2-VERB-SEL-07",
+        "id": "A2-VERB-SEL-058",
         "word": "forgive",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "form": "verb",
         "subtext": "forgive someone / forgive a mistake / hard to forgive",
         "definitions": [
@@ -243,7 +243,7 @@
         "aspect": "action",
         "v2": "forgave",
         "v3": "forgiven",
-        "transcription": "fərˈɡɪv",
+        "transcription": "f\u0259r\u02c8\u0261\u026av",
         "synonyms": [
             "pardon"
         ],
@@ -261,9 +261,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A2-VERB-SEL-08",
+        "id": "A2-VERB-SEL-059",
         "word": "impress",
-        "emoji": "✨",
+        "emoji": "\u2728",
         "form": "verb",
         "subtext": "impress someone",
         "synonyms": [
@@ -281,7 +281,7 @@
         "aspect": "action",
         "v2": "impressed",
         "v3": "impressed",
-        "transcription": "ɪmˈprɛs",
+        "transcription": "\u026am\u02c8pr\u025bs",
         "group": "regular",
         "auxiliary": "have",
         "v4": "impressing",
@@ -297,9 +297,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A2-VERB-SEL-09",
+        "id": "A2-VERB-SEL-060",
         "word": "promise",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "form": "verb",
         "subtext": "promise to / I promise",
         "definitions": [
@@ -314,7 +314,7 @@
         "aspect": "action",
         "v2": "promised",
         "v3": "promised",
-        "transcription": "🇬🇧 ˈprɒmɪs | 🇺🇸 ˈprɑːmɪs",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8pr\u0252m\u026as | \ud83c\uddfa\ud83c\uddf8 \u02c8pr\u0251\u02d0m\u026as",
         "synonyms": [
             "vow"
         ],
@@ -333,9 +333,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A2-VERB-SEL-10",
+        "id": "A2-VERB-SEL-061",
         "word": "support",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "form": "verb",
         "subtext": "support someone / support a decision / offer support",
         "definitions": [
@@ -350,7 +350,7 @@
         "aspect": "action",
         "v2": "supported",
         "v3": "supported",
-        "transcription": "səˈpɔːrt",
+        "transcription": "s\u0259\u02c8p\u0254\u02d0rt",
         "synonyms": [
             "help",
             "encourage"
@@ -370,9 +370,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A2-VERB-SEL-11",
+        "id": "A2-VERB-SEL-062",
         "word": "trust",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "form": "verb",
         "subtext": "trust someone / trust your instincts / trust a process",
         "definitions": [
@@ -387,7 +387,7 @@
         "aspect": "stative",
         "v2": "trusted",
         "v3": "trusted",
-        "transcription": "trʌst",
+        "transcription": "tr\u028cst",
         "synonyms": [
             "believe"
         ],

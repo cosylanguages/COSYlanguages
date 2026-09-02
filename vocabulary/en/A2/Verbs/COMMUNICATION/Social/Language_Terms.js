@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "A2-VERB-COM-01",
+        "id": "A2-VERB-COM-012",
         "word": "already",
         "form": "adverb",
         "definitions": [
@@ -14,8 +14,8 @@
             }
         ],
         "subtext": "present perfect time adverb",
-        "emoji": "⏰",
-        "transcription": "ɔːlˈredi",
+        "emoji": "\u23f0",
+        "transcription": "\u0254\u02d0l\u02c8redi",
         "lang": "en",
         "level": "elementary",
         "theme": "language",
@@ -28,7 +28,7 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A2-VERB-COM-02",
+        "id": "A2-VERB-COM-013",
         "word": "could",
         "form": "verb",
         "definitions": [
@@ -41,8 +41,8 @@
             }
         ],
         "subtext": "modal auxiliary for past ability and requests",
-        "emoji": "🤝",
-        "transcription": "kʊd",
+        "emoji": "\ud83e\udd1d",
+        "transcription": "k\u028ad",
         "lang": "en",
         "level": "elementary",
         "theme": "language",
@@ -55,7 +55,7 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A2-VERB-COM-03",
+        "id": "A2-VERB-COM-014",
         "word": "enough",
         "form": "adverb",
         "definitions": [
@@ -67,8 +67,8 @@
             }
         ],
         "subtext": "sufficiency modifier",
-        "emoji": "✅",
-        "transcription": "ɪˈnʌf",
+        "emoji": "\u2705",
+        "transcription": "\u026a\u02c8n\u028cf",
         "lang": "en",
         "level": "elementary",
         "theme": "language",
@@ -84,7 +84,7 @@
         "word": "extremely",
         "level": "elementary",
         "theme": "language",
-        "emoji": "🔥",
+        "emoji": "\ud83d\udd25",
         "form": "adverb",
         "definitions": [
             {
@@ -100,10 +100,10 @@
             "very",
             "incredibly"
         ],
-        "transcription": "ɪkˈstriːmli",
+        "transcription": "\u026ak\u02c8stri\u02d0mli",
         "language": "en",
         "lang": "en",
-        "id": "A2-VERB-COM-04",
+        "id": "A2-VERB-COM-015",
         "legacy_id": "A2-COMM-21",
         "level_code": "A2",
         "domain": "COMMUNICATION",
@@ -115,7 +115,7 @@
         "word": "fairly",
         "level": "elementary",
         "theme": "language",
-        "emoji": "⚖️",
+        "emoji": "\u2696\ufe0f",
         "form": "adverb",
         "definitions": [
             {
@@ -131,10 +131,10 @@
             "quite",
             "moderately"
         ],
-        "transcription": "ˈfɛərli",
+        "transcription": "\u02c8f\u025b\u0259rli",
         "language": "en",
         "lang": "en",
-        "id": "A2-VERB-COM-05",
+        "id": "A2-VERB-COM-016",
         "legacy_id": "A2-COMM-22",
         "level_code": "A2",
         "domain": "COMMUNICATION",
@@ -143,9 +143,9 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A2-VERB-COM-06",
+        "id": "A2-VERB-COM-017",
         "word": "interrupt",
-        "emoji": "🚫🗣️",
+        "emoji": "\ud83d\udeab\ud83d\udde3\ufe0f",
         "form": "verb",
         "definitions": [
             {
@@ -164,7 +164,7 @@
         "aspect": "action",
         "v2": "interrupted",
         "v3": "interrupted",
-        "transcription": "ˌɪntəˈrʌpt",
+        "transcription": "\u02cc\u026ant\u0259\u02c8r\u028cpt",
         "group": "regular",
         "auxiliary": "have",
         "v4": "interrupting",
@@ -180,7 +180,7 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A2-VERB-COM-07",
+        "id": "A2-VERB-COM-018",
         "word": "just",
         "form": "adverb",
         "definitions": [
@@ -192,8 +192,8 @@
             }
         ],
         "subtext": "present perfect time adverb",
-        "emoji": "⚡",
-        "transcription": "dʒʌst",
+        "emoji": "\u26a1",
+        "transcription": "d\u0292\u028cst",
         "lang": "en",
         "level": "elementary",
         "theme": "language",
@@ -206,7 +206,7 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A2-VERB-COM-08",
+        "id": "A2-VERB-COM-019",
         "word": "must",
         "form": "verb",
         "definitions": [
@@ -218,8 +218,8 @@
             }
         ],
         "subtext": "modal auxiliary for obligation",
-        "emoji": "❗",
-        "transcription": "mʌst",
+        "emoji": "\u2757",
+        "transcription": "m\u028cst",
         "lang": "en",
         "level": "elementary",
         "theme": "language",
@@ -235,7 +235,7 @@
         "word": "partially",
         "level": "elementary",
         "theme": "language",
-        "emoji": "🌓",
+        "emoji": "\ud83c\udf13",
         "form": "adverb",
         "definitions": [
             {
@@ -251,10 +251,10 @@
             "partly",
             "in part"
         ],
-        "transcription": "ˈpɑːrʃəli",
+        "transcription": "\u02c8p\u0251\u02d0r\u0283\u0259li",
         "language": "en",
         "lang": "en",
-        "id": "A2-VERB-COM-09",
+        "id": "A2-VERB-COM-020",
         "legacy_id": "A2-COMM-37",
         "level_code": "A2",
         "domain": "COMMUNICATION",
@@ -263,9 +263,9 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A2-VERB-COM-10",
+        "id": "A2-VERB-COM-021",
         "word": "request",
-        "emoji": "📧",
+        "emoji": "\ud83d\udce7",
         "form": "verb",
         "definitions": [
             {
@@ -284,7 +284,7 @@
         "aspect": "action",
         "v2": "requested",
         "v3": "requested",
-        "transcription": "rɪˈkwɛst",
+        "transcription": "r\u026a\u02c8kw\u025bst",
         "group": "regular",
         "auxiliary": "have",
         "v4": "requesting",
@@ -300,9 +300,9 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A2-VERB-COM-11",
+        "id": "A2-VERB-COM-022",
         "word": "respond",
-        "emoji": "💬",
+        "emoji": "\ud83d\udcac",
         "form": "verb",
         "definitions": [
             {
@@ -322,7 +322,7 @@
         "aspect": "action",
         "v2": "responded",
         "v3": "responded",
-        "transcription": "🇬🇧 rɪˈspɒnd | 🇺🇸 rɪˈspɑːnd",
+        "transcription": "\ud83c\uddec\ud83c\udde7 r\u026a\u02c8sp\u0252nd | \ud83c\uddfa\ud83c\uddf8 r\u026a\u02c8sp\u0251\u02d0nd",
         "group": "regular",
         "auxiliary": "have",
         "v4": "responding",
@@ -338,7 +338,7 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A2-VERB-COM-12",
+        "id": "A2-VERB-COM-023",
         "word": "should",
         "form": "verb",
         "definitions": [
@@ -350,8 +350,8 @@
             }
         ],
         "subtext": "modal auxiliary for advice",
-        "emoji": "💡",
-        "transcription": "ʃʊd",
+        "emoji": "\ud83d\udca1",
+        "transcription": "\u0283\u028ad",
         "lang": "en",
         "level": "elementary",
         "theme": "language",
@@ -367,7 +367,7 @@
         "word": "strongly",
         "level": "elementary",
         "theme": "language",
-        "emoji": "💪",
+        "emoji": "\ud83d\udcaa",
         "form": "adverb",
         "definitions": [
             {
@@ -383,10 +383,10 @@
             "firmly",
             "powerfully"
         ],
-        "transcription": "🇬🇧 ˈstrɒŋli | 🇺🇸 ˈstrɑːŋli",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8str\u0252\u014bli | \ud83c\uddfa\ud83c\uddf8 \u02c8str\u0251\u02d0\u014bli",
         "language": "en",
         "lang": "en",
-        "id": "A2-VERB-COM-13",
+        "id": "A2-VERB-COM-024",
         "legacy_id": "A2-COMM-52",
         "level_code": "A2",
         "domain": "COMMUNICATION",
@@ -395,7 +395,7 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A2-VERB-COM-14",
+        "id": "A2-VERB-COM-025",
         "word": "too",
         "form": "adverb",
         "definitions": [
@@ -407,8 +407,8 @@
             }
         ],
         "subtext": "degree modifier",
-        "emoji": "⚠️",
-        "transcription": "tuː",
+        "emoji": "\u26a0\ufe0f",
+        "transcription": "tu\u02d0",
         "lang": "en",
         "level": "elementary",
         "theme": "language",
@@ -421,7 +421,7 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A2-VERB-COM-15",
+        "id": "A2-VERB-COM-026",
         "word": "yet",
         "form": "adverb",
         "definitions": [
@@ -434,7 +434,7 @@
             }
         ],
         "subtext": "present perfect time adverb",
-        "emoji": "⏳",
+        "emoji": "\u23f3",
         "transcription": "jet",
         "lang": "en",
         "level": "elementary",

@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "B1-ADJ-PEO-01",
+        "id": "B1-ADJ-PEO-015",
         "word": "brave",
         "lang": "en",
         "level": "intermediate",
@@ -16,8 +16,8 @@
                 ]
             }
         ],
-        "transcription": "breɪv",
-        "emoji": "❓",
+        "transcription": "bre\u026av",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "very brave / incredibly brave / a brave decision"
         },
@@ -29,7 +29,7 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "B1-ADJ-PEO-02",
+        "id": "B1-ADJ-PEO-016",
         "word": "generous",
         "lang": "en",
         "level": "intermediate",
@@ -43,8 +43,8 @@
                 ]
             }
         ],
-        "transcription": "ˈdʒɛnərəs",
-        "emoji": "❓",
+        "transcription": "\u02c8d\u0292\u025bn\u0259r\u0259s",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "very generous / extremely generous / generous with"
         },
@@ -56,7 +56,7 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "B1-ADJ-PEO-03",
+        "id": "B1-ADJ-PEO-017",
         "word": "gentle",
         "lang": "en",
         "level": "intermediate",
@@ -70,8 +70,8 @@
                 ]
             }
         ],
-        "transcription": "ˈdʒɛntl",
-        "emoji": "❓",
+        "transcription": "\u02c8d\u0292\u025bntl",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "very gentle / a gentle approach / gentle reminder"
         },
@@ -83,7 +83,7 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "B1-ADJ-PEO-04",
+        "id": "B1-ADJ-PEO-018",
         "word": "grateful",
         "lang": "en",
         "level": "intermediate",
@@ -97,8 +97,8 @@
                 ]
             }
         ],
-        "transcription": "ˈɡreɪtfl",
-        "emoji": "❓",
+        "transcription": "\u02c8\u0261re\u026atfl",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "very grateful / deeply grateful / grateful for"
         },
@@ -110,7 +110,7 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "B1-ADJ-PEO-05",
+        "id": "B1-ADJ-PEO-019",
         "word": "honest",
         "lang": "en",
         "level": "intermediate",
@@ -124,8 +124,8 @@
                 ]
             }
         ],
-        "transcription": "🇬🇧 ˈɒnɪst | 🇺🇸 ˈɑːnɪst",
-        "emoji": "❓",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8\u0252n\u026ast | \ud83c\uddfa\ud83c\uddf8 \u02c8\u0251\u02d0n\u026ast",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "brutally honest / completely honest / very honest"
         },
@@ -137,7 +137,7 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "B1-ADJ-PEO-06",
+        "id": "B1-ADJ-PEO-020",
         "word": "humble",
         "lang": "en",
         "level": "intermediate",
@@ -151,8 +151,8 @@
                 ]
             }
         ],
-        "transcription": "ˈhʌmbl",
-        "emoji": "❓",
+        "transcription": "\u02c8h\u028cmbl",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "very humble / genuinely humble / stay humble"
         },
@@ -164,7 +164,7 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "B1-ADJ-PEO-07",
+        "id": "B1-ADJ-PEO-021",
         "word": "sensible",
         "lang": "en",
         "level": "intermediate",
@@ -178,8 +178,8 @@
                 ]
             }
         ],
-        "transcription": "ˈsɛnsəbl",
-        "emoji": "❓",
+        "transcription": "\u02c8s\u025bns\u0259bl",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "very sensible / perfectly sensible / a sensible choice"
         },

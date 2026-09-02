@@ -2,11 +2,11 @@
     const lang = "en";
     const data = [
     {
-        "id": "B2-ADJ-PEO-01",
+        "id": "B2-ADJ-PEO-020",
         "word": "bold",
-        "emoji": "🦁",
+        "emoji": "\ud83e\udd81",
         "form": "adjective",
-        "transcription": "🇬🇧 bəʊld | 🇺🇸 boʊld",
+        "transcription": "\ud83c\uddec\ud83c\udde7 b\u0259\u028ald | \ud83c\uddfa\ud83c\uddf8 bo\u028ald",
         "subtext": "Neutral | very bold / incredibly bold / a bold move",
         "definitions": [
             {
@@ -33,11 +33,11 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-ADJ-PEO-02",
+        "id": "B2-ADJ-PEO-021",
         "word": "capable",
-        "emoji": "💪",
+        "emoji": "\ud83d\udcaa",
         "form": "adjective",
-        "transcription": "ˈkeɪpəbl",
+        "transcription": "\u02c8ke\u026ap\u0259bl",
         "subtext": "Neutral | very capable / highly capable / fully capable",
         "definitions": [
             {
@@ -64,11 +64,11 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-ADJ-PEO-03",
+        "id": "B2-ADJ-PEO-022",
         "word": "civic",
-        "emoji": "🏛️",
+        "emoji": "\ud83c\udfdb\ufe0f",
         "form": "adjective",
-        "transcription": "ˈsɪvɪk",
+        "transcription": "\u02c8s\u026av\u026ak",
         "subtext": "Formal | civic duty / civic engagement / civic improvement",
         "definitions": [
             {
@@ -94,11 +94,11 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-ADJ-PEO-04",
+        "id": "B2-ADJ-PEO-023",
         "word": "compulsory",
-        "emoji": "📜",
+        "emoji": "\ud83d\udcdc",
         "form": "adjective",
-        "transcription": "kəmˈpʌlsəri",
+        "transcription": "k\u0259m\u02c8p\u028cls\u0259ri",
         "subtext": "required by law, not optional",
         "definitions": [
             {
@@ -125,11 +125,11 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-ADJ-PEO-05",
+        "id": "B2-ADJ-PEO-024",
         "word": "corrupt",
-        "emoji": "💸",
+        "emoji": "\ud83d\udcb8",
         "form": "adjective",
-        "transcription": "kəˈrʌpt",
+        "transcription": "k\u0259\u02c8r\u028cpt",
         "subtext": "Formal | deeply corrupt / completely corrupt / a corrupt system",
         "definitions": [
             {
@@ -156,11 +156,11 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-ADJ-PEO-06",
+        "id": "B2-ADJ-PEO-025",
         "word": "democratic",
-        "emoji": "🗳️",
+        "emoji": "\ud83d\uddf3\ufe0f",
         "form": "adjective",
-        "transcription": "ˌdɛməˈkrætɪk",
+        "transcription": "\u02ccd\u025bm\u0259\u02c8kr\u00e6t\u026ak",
         "subtext": "Formal | fully democratic / more democratic / democratic process",
         "definitions": [
             {
@@ -187,11 +187,11 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-ADJ-PEO-07",
+        "id": "B2-ADJ-PEO-026",
         "word": "dishonest",
-        "emoji": "🤥",
+        "emoji": "\ud83e\udd25",
         "form": "adjective",
-        "transcription": "🇬🇧 dɪsˈɒnɪst | 🇺🇸 dɪsˈɑːnɪst",
+        "transcription": "\ud83c\uddec\ud83c\udde7 d\u026as\u02c8\u0252n\u026ast | \ud83c\uddfa\ud83c\uddf8 d\u026as\u02c8\u0251\u02d0n\u026ast",
         "subtext": "Neutral | completely dishonest / deeply dishonest / dishonest about",
         "definitions": [
             {
@@ -218,11 +218,11 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-ADJ-PEO-08",
+        "id": "B2-ADJ-PEO-027",
         "word": "domestic",
-        "emoji": "🏠",
+        "emoji": "\ud83c\udfe0",
         "form": "adjective",
-        "transcription": "dəˈmɛstɪk",
+        "transcription": "d\u0259\u02c8m\u025bst\u026ak",
         "subtext": "Formal | domestic market / domestic policy / domestic violence",
         "definitions": [
             {
@@ -249,11 +249,11 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-ADJ-PEO-09",
+        "id": "B2-ADJ-PEO-028",
         "word": "liberal",
-        "emoji": "🗽",
+        "emoji": "\ud83d\uddfd",
         "form": "adjective",
-        "transcription": "ˈlɪbərəl",
+        "transcription": "\u02c8l\u026ab\u0259r\u0259l",
         "subtext": "Neutral | very liberal / quite liberal / a liberal approach",
         "definitions": [
             {
@@ -280,11 +280,11 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-ADJ-PEO-10",
+        "id": "B2-ADJ-PEO-029",
         "word": "modest",
-        "emoji": "🙇",
+        "emoji": "\ud83d\ude47",
         "form": "adjective",
-        "transcription": "🇬🇧 ˈmɒdɪst | 🇺🇸 ˈmɑːdɪst",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8m\u0252d\u026ast | \ud83c\uddfa\ud83c\uddf8 \u02c8m\u0251\u02d0d\u026ast",
         "subtext": "Neutral | very modest / quite modest / genuinely modest",
         "definitions": [
             {
@@ -311,11 +311,11 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-ADJ-PEO-11",
+        "id": "B2-ADJ-PEO-030",
         "word": "selfish",
-        "emoji": "🤳",
+        "emoji": "\ud83e\udd33",
         "form": "adjective",
-        "transcription": "ˈsɛlfɪʃ",
+        "transcription": "\u02c8s\u025blf\u026a\u0283",
         "subtext": "Neutral | very selfish / deeply selfish / incredibly selfish",
         "definitions": [
             {
@@ -342,11 +342,11 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-ADJ-PEO-12",
+        "id": "B2-ADJ-PEO-031",
         "word": "stubborn",
-        "emoji": "🐂",
+        "emoji": "\ud83d\udc02",
         "form": "adjective",
-        "transcription": "ˈstʌbən",
+        "transcription": "\u02c8st\u028cb\u0259n",
         "subtext": "Neutral | very stubborn / incredibly stubborn / stubbornly refused",
         "definitions": [
             {

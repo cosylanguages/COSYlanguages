@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-OTH-TRA-01",
+        "id": "A1-OTH-TRA-004",
         "word": "Albert Einstein",
-        "emoji": "👨‍🔬",
+        "emoji": "\ud83d\udc68\u200d\ud83d\udd2c",
         "definitions": [
             {
                 "text": "A very famous scientist from Germany who lived in the USA.",
@@ -14,7 +14,7 @@
             }
         ],
         "subtext": "famous scientist",
-        "transcription": "ˈælbərt ˈaɪnstaɪn",
+        "transcription": "\u02c8\u00e6lb\u0259rt \u02c8a\u026ansta\u026an",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -28,7 +28,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-02",
+        "id": "A1-OTH-TRA-005",
         "word": "Amsterdam",
         "definitions": [
             {
@@ -39,8 +39,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇳🇱",
-        "transcription": "ˈæmstərˌdæm",
+        "emoji": "\ud83c\uddf3\ud83c\uddf1",
+        "transcription": "\u02c8\u00e6mst\u0259r\u02ccd\u00e6m",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -54,7 +54,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-03",
+        "id": "A1-OTH-TRA-006",
         "word": "Athens",
         "definitions": [
             {
@@ -65,8 +65,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇬🇷",
-        "transcription": "ˈæθənz",
+        "emoji": "\ud83c\uddec\ud83c\uddf7",
+        "transcription": "\u02c8\u00e6\u03b8\u0259nz",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -80,7 +80,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-04",
+        "id": "A1-OTH-TRA-007",
         "word": "Australia",
         "definitions": [
             {
@@ -91,8 +91,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇦🇺",
-        "transcription": "ɔˈstreɪljə",
+        "emoji": "\ud83c\udde6\ud83c\uddfa",
+        "transcription": "\u0254\u02c8stre\u026alj\u0259",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -106,7 +106,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-05",
+        "id": "A1-OTH-TRA-008",
         "word": "Austria",
         "definitions": [
             {
@@ -117,8 +117,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇦🇹",
-        "transcription": "ˈɔstriə",
+        "emoji": "\ud83c\udde6\ud83c\uddf9",
+        "transcription": "\u02c8\u0254stri\u0259",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -132,7 +132,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-06",
+        "id": "A1-OTH-TRA-009",
         "word": "Barcelona",
         "definitions": [
             {
@@ -143,8 +143,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇪🇸",
-        "transcription": "ˌbɑrsɪˈloʊnə",
+        "emoji": "\ud83c\uddea\ud83c\uddf8",
+        "transcription": "\u02ccb\u0251rs\u026a\u02c8lo\u028an\u0259",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -158,7 +158,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-07",
+        "id": "A1-OTH-TRA-010",
         "word": "Beijing",
         "definitions": [
             {
@@ -169,8 +169,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇨🇳",
-        "transcription": "ˌbeɪˈʒɪŋ",
+        "emoji": "\ud83c\udde8\ud83c\uddf3",
+        "transcription": "\u02ccbe\u026a\u02c8\u0292\u026a\u014b",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -184,7 +184,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-08",
+        "id": "A1-OTH-TRA-011",
         "word": "Belgium",
         "definitions": [
             {
@@ -195,8 +195,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇧🇪",
-        "transcription": "ˈbɛlʤəm",
+        "emoji": "\ud83c\udde7\ud83c\uddea",
+        "transcription": "\u02c8b\u025bl\u02a4\u0259m",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -210,7 +210,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-09",
+        "id": "A1-OTH-TRA-012",
         "word": "Berlin",
         "definitions": [
             {
@@ -221,8 +221,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇩🇪",
-        "transcription": "bərˈlɪn",
+        "emoji": "\ud83c\udde9\ud83c\uddea",
+        "transcription": "b\u0259r\u02c8l\u026an",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -236,19 +236,19 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-10",
-        "word": "Beyoncé",
-        "emoji": "🎤",
+        "id": "A1-OTH-TRA-013",
+        "word": "Beyonc\u00e9",
+        "emoji": "\ud83c\udfa4",
         "definitions": [
             {
                 "text": "A famous singer and dancer from the USA.",
                 "examples": [
-                    "Beyoncé is a very successful artist."
+                    "Beyonc\u00e9 is a very successful artist."
                 ]
             }
         ],
         "subtext": "famous singer",
-        "transcription": "🇬🇧 biˈɒnseɪ | 🇺🇸 biˈɑːnseɪ",
+        "transcription": "\ud83c\uddec\ud83c\udde7 bi\u02c8\u0252nse\u026a | \ud83c\uddfa\ud83c\uddf8 bi\u02c8\u0251\u02d0nse\u026a",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -262,7 +262,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-11",
+        "id": "A1-OTH-TRA-014",
         "word": "Brazil",
         "definitions": [
             {
@@ -273,8 +273,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇧🇷",
-        "transcription": "brəˈzɪl",
+        "emoji": "\ud83c\udde7\ud83c\uddf7",
+        "transcription": "br\u0259\u02c8z\u026al",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -288,7 +288,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-12",
+        "id": "A1-OTH-TRA-015",
         "word": "Canada",
         "definitions": [
             {
@@ -299,8 +299,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇨🇦",
-        "transcription": "ˈkænədə",
+        "emoji": "\ud83c\udde8\ud83c\udde6",
+        "transcription": "\u02c8k\u00e6n\u0259d\u0259",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -314,7 +314,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-13",
+        "id": "A1-OTH-TRA-016",
         "word": "Chicago",
         "definitions": [
             {
@@ -325,8 +325,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇺🇸",
-        "transcription": "ʃəˈkɑˌgoʊ",
+        "emoji": "\ud83c\uddfa\ud83c\uddf8",
+        "transcription": "\u0283\u0259\u02c8k\u0251\u02ccgo\u028a",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -340,7 +340,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-14",
+        "id": "A1-OTH-TRA-017",
         "word": "China",
         "definitions": [
             {
@@ -351,8 +351,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇨🇳",
-        "transcription": "ˈʧaɪnə",
+        "emoji": "\ud83c\udde8\ud83c\uddf3",
+        "transcription": "\u02c8\u02a7a\u026an\u0259",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -366,9 +366,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-15",
+        "id": "A1-OTH-TRA-018",
         "word": "Cristiano Ronaldo",
-        "emoji": "⚽",
+        "emoji": "\u26bd",
         "definitions": [
             {
                 "text": "A famous football player from Portugal.",
@@ -378,7 +378,7 @@
             }
         ],
         "subtext": "famous athlete",
-        "transcription": "krisˈtjɐnu ʁuˈnaɫdu",
+        "transcription": "kris\u02c8tj\u0250nu \u0281u\u02c8na\u026bdu",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -392,7 +392,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-16",
+        "id": "A1-OTH-TRA-019",
         "word": "Denmark",
         "definitions": [
             {
@@ -403,8 +403,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇩🇰",
-        "transcription": "ˈdɛnˌmɑrk",
+        "emoji": "\ud83c\udde9\ud83c\uddf0",
+        "transcription": "\u02c8d\u025bn\u02ccm\u0251rk",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -418,7 +418,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-17",
+        "id": "A1-OTH-TRA-020",
         "word": "Dublin",
         "definitions": [
             {
@@ -429,8 +429,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇮🇪",
-        "transcription": "ˈdəblɪn",
+        "emoji": "\ud83c\uddee\ud83c\uddea",
+        "transcription": "\u02c8d\u0259bl\u026an",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -444,7 +444,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-18",
+        "id": "A1-OTH-TRA-021",
         "word": "Edinburgh",
         "definitions": [
             {
@@ -455,8 +455,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-        "transcription": "ˈɛdənbəroʊ",
+        "emoji": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc73\udb40\udc63\udb40\udc74\udb40\udc7f",
+        "transcription": "\u02c8\u025bd\u0259nb\u0259ro\u028a",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -470,7 +470,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-19",
+        "id": "A1-OTH-TRA-022",
         "word": "Egypt",
         "definitions": [
             {
@@ -481,8 +481,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇪🇬",
-        "transcription": "ˈiʤɪpt",
+        "emoji": "\ud83c\uddea\ud83c\uddec",
+        "transcription": "\u02c8i\u02a4\u026apt",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -496,9 +496,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-20",
+        "id": "A1-OTH-TRA-023",
         "word": "Elon Musk",
-        "emoji": "🚀",
+        "emoji": "\ud83d\ude80",
         "definitions": [
             {
                 "text": "A famous businessman who builds electric cars and rockets.",
@@ -508,7 +508,7 @@
             }
         ],
         "subtext": "famous businessman",
-        "transcription": "🇬🇧 ˈiːlɒn ˈmʌsk | 🇺🇸 ˈiːlɑːn ˈmʌsk",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8i\u02d0l\u0252n \u02c8m\u028csk | \ud83c\uddfa\ud83c\uddf8 \u02c8i\u02d0l\u0251\u02d0n \u02c8m\u028csk",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -522,7 +522,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-21",
+        "id": "A1-OTH-TRA-024",
         "word": "England",
         "definitions": [
             {
@@ -533,8 +533,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "transcription": "ˈɪŋglənd",
+        "emoji": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
+        "transcription": "\u02c8\u026a\u014bgl\u0259nd",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -548,7 +548,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-22",
+        "id": "A1-OTH-TRA-025",
         "word": "Finland",
         "definitions": [
             {
@@ -559,8 +559,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇫🇮",
-        "transcription": "ˈfɪnˌlænd",
+        "emoji": "\ud83c\uddeb\ud83c\uddee",
+        "transcription": "\u02c8f\u026an\u02ccl\u00e6nd",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -574,7 +574,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-23",
+        "id": "A1-OTH-TRA-026",
         "word": "Florence",
         "definitions": [
             {
@@ -585,8 +585,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇮🇹",
-        "transcription": "ˈflɔrəns",
+        "emoji": "\ud83c\uddee\ud83c\uddf9",
+        "transcription": "\u02c8fl\u0254r\u0259ns",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -600,7 +600,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-24",
+        "id": "A1-OTH-TRA-027",
         "word": "France",
         "definitions": [
             {
@@ -611,8 +611,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇫🇷",
-        "transcription": "fræns",
+        "emoji": "\ud83c\uddeb\ud83c\uddf7",
+        "transcription": "fr\u00e6ns",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -626,7 +626,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-25",
+        "id": "A1-OTH-TRA-028",
         "word": "Germany",
         "definitions": [
             {
@@ -637,8 +637,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇩🇪",
-        "transcription": "ˈʤərməni",
+        "emoji": "\ud83c\udde9\ud83c\uddea",
+        "transcription": "\u02c8\u02a4\u0259rm\u0259ni",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -652,7 +652,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-26",
+        "id": "A1-OTH-TRA-029",
         "word": "Greece",
         "definitions": [
             {
@@ -663,7 +663,7 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇬🇷",
+        "emoji": "\ud83c\uddec\ud83c\uddf7",
         "transcription": "gris",
         "form": "other",
         "lang": "en",
@@ -678,7 +678,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-27",
+        "id": "A1-OTH-TRA-030",
         "word": "India",
         "definitions": [
             {
@@ -689,8 +689,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇮🇳",
-        "transcription": "ˈɪndiə",
+        "emoji": "\ud83c\uddee\ud83c\uddf3",
+        "transcription": "\u02c8\u026andi\u0259",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -704,7 +704,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-28",
+        "id": "A1-OTH-TRA-031",
         "word": "Ireland",
         "definitions": [
             {
@@ -715,8 +715,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇮🇪",
-        "transcription": "ˈaɪərlənd",
+        "emoji": "\ud83c\uddee\ud83c\uddea",
+        "transcription": "\u02c8a\u026a\u0259rl\u0259nd",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -730,7 +730,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-29",
+        "id": "A1-OTH-TRA-032",
         "word": "Italy",
         "definitions": [
             {
@@ -741,8 +741,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇮🇹",
-        "transcription": "ˈɪtəli",
+        "emoji": "\ud83c\uddee\ud83c\uddf9",
+        "transcription": "\u02c8\u026at\u0259li",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -756,7 +756,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-30",
+        "id": "A1-OTH-TRA-033",
         "word": "Japan",
         "definitions": [
             {
@@ -767,8 +767,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇯🇵",
-        "transcription": "ʤəˈpæn",
+        "emoji": "\ud83c\uddef\ud83c\uddf5",
+        "transcription": "\u02a4\u0259\u02c8p\u00e6n",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -782,9 +782,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-31",
+        "id": "A1-OTH-TRA-034",
         "word": "Leonardo da Vinci",
-        "emoji": "🎨",
+        "emoji": "\ud83c\udfa8",
         "definitions": [
             {
                 "text": "A famous artist and inventor from Italy who painted the Mona Lisa.",
@@ -794,7 +794,7 @@
             }
         ],
         "subtext": "famous artist",
-        "transcription": "ˌliəˈnɑrdoʊ ˈdiˈeɪ ˈvɪnʧi",
+        "transcription": "\u02ccli\u0259\u02c8n\u0251rdo\u028a \u02c8di\u02c8e\u026a \u02c8v\u026an\u02a7i",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -808,9 +808,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-32",
+        "id": "A1-OTH-TRA-035",
         "word": "Lionel Messi",
-        "emoji": "⚽",
+        "emoji": "\u26bd",
         "definitions": [
             {
                 "text": "A famous football player from Argentina.",
@@ -820,7 +820,7 @@
             }
         ],
         "subtext": "famous athlete",
-        "transcription": "ljoˈnel ˈmesi",
+        "transcription": "ljo\u02c8nel \u02c8mesi",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -834,7 +834,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-33",
+        "id": "A1-OTH-TRA-036",
         "word": "London",
         "definitions": [
             {
@@ -845,8 +845,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇬🇧",
-        "transcription": "ˈləndən",
+        "emoji": "\ud83c\uddec\ud83c\udde7",
+        "transcription": "\u02c8l\u0259nd\u0259n",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -860,7 +860,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-34",
+        "id": "A1-OTH-TRA-037",
         "word": "Los Angeles",
         "definitions": [
             {
@@ -871,8 +871,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇺🇸",
-        "transcription": "lɔs ˈænʤəlɪs",
+        "emoji": "\ud83c\uddfa\ud83c\uddf8",
+        "transcription": "l\u0254s \u02c8\u00e6n\u02a4\u0259l\u026as",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -886,9 +886,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-35",
+        "id": "A1-OTH-TRA-038",
         "word": "Marie Curie",
-        "emoji": "🧪",
+        "emoji": "\ud83e\uddea",
         "definitions": [
             {
                 "text": "A famous scientist from Poland and France who studied radiation.",
@@ -898,7 +898,7 @@
             }
         ],
         "subtext": "famous scientist",
-        "transcription": "mərˈi ˈkjʊri",
+        "transcription": "m\u0259r\u02c8i \u02c8kj\u028ari",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -912,7 +912,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-36",
+        "id": "A1-OTH-TRA-039",
         "word": "Melbourne",
         "definitions": [
             {
@@ -923,8 +923,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇦🇺",
-        "transcription": "ˈmɛlbərn",
+        "emoji": "\ud83c\udde6\ud83c\uddfa",
+        "transcription": "\u02c8m\u025blb\u0259rn",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -938,7 +938,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-37",
+        "id": "A1-OTH-TRA-040",
         "word": "Mexico City",
         "definitions": [
             {
@@ -949,8 +949,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇲🇽",
-        "transcription": "ˈmɛksəˌkoʊ ˈsɪti",
+        "emoji": "\ud83c\uddf2\ud83c\uddfd",
+        "transcription": "\u02c8m\u025bks\u0259\u02ccko\u028a \u02c8s\u026ati",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -964,7 +964,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-38",
+        "id": "A1-OTH-TRA-041",
         "word": "Miami",
         "definitions": [
             {
@@ -975,8 +975,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇺🇸",
-        "transcription": "maɪˈæmi",
+        "emoji": "\ud83c\uddfa\ud83c\uddf8",
+        "transcription": "ma\u026a\u02c8\u00e6mi",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -990,7 +990,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-39",
+        "id": "A1-OTH-TRA-042",
         "word": "Montreal",
         "definitions": [
             {
@@ -1001,8 +1001,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇨🇦",
-        "transcription": "ˌməntriˈɔl",
+        "emoji": "\ud83c\udde8\ud83c\udde6",
+        "transcription": "\u02ccm\u0259ntri\u02c8\u0254l",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1016,7 +1016,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-40",
+        "id": "A1-OTH-TRA-043",
         "word": "Moscow",
         "definitions": [
             {
@@ -1027,8 +1027,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇷🇺",
-        "transcription": "ˈmɔˌskaʊ",
+        "emoji": "\ud83c\uddf7\ud83c\uddfa",
+        "transcription": "\u02c8m\u0254\u02ccska\u028a",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1042,9 +1042,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-41",
+        "id": "A1-OTH-TRA-044",
         "word": "Nelson Mandela",
-        "emoji": "🇿🇦",
+        "emoji": "\ud83c\uddff\ud83c\udde6",
         "definitions": [
             {
                 "text": "A famous leader from South Africa who fought for peace and equality.",
@@ -1054,7 +1054,7 @@
             }
         ],
         "subtext": "famous leader",
-        "transcription": "ˈnɛlsən ˌmænˈdɛlə",
+        "transcription": "\u02c8n\u025bls\u0259n \u02ccm\u00e6n\u02c8d\u025bl\u0259",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1068,7 +1068,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-42",
+        "id": "A1-OTH-TRA-045",
         "word": "Netherlands",
         "definitions": [
             {
@@ -1079,8 +1079,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇳🇱",
-        "transcription": "ˈnɛðərləndz",
+        "emoji": "\ud83c\uddf3\ud83c\uddf1",
+        "transcription": "\u02c8n\u025b\u00f0\u0259rl\u0259ndz",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1094,7 +1094,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-43",
+        "id": "A1-OTH-TRA-046",
         "word": "New York",
         "definitions": [
             {
@@ -1105,8 +1105,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇺🇸",
-        "transcription": "nu jɔrk",
+        "emoji": "\ud83c\uddfa\ud83c\uddf8",
+        "transcription": "nu j\u0254rk",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1120,7 +1120,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-44",
+        "id": "A1-OTH-TRA-047",
         "word": "Norway",
         "definitions": [
             {
@@ -1131,8 +1131,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇳🇴",
-        "transcription": "ˈnɔrˌweɪ",
+        "emoji": "\ud83c\uddf3\ud83c\uddf4",
+        "transcription": "\u02c8n\u0254r\u02ccwe\u026a",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1146,7 +1146,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-45",
+        "id": "A1-OTH-TRA-048",
         "word": "Paris",
         "definitions": [
             {
@@ -1157,8 +1157,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇫🇷",
-        "transcription": "ˈpɛrɪs",
+        "emoji": "\ud83c\uddeb\ud83c\uddf7",
+        "transcription": "\u02c8p\u025br\u026as",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1172,7 +1172,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-46",
+        "id": "A1-OTH-TRA-049",
         "word": "Poland",
         "definitions": [
             {
@@ -1183,8 +1183,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇵🇱",
-        "transcription": "ˈpoʊlənd",
+        "emoji": "\ud83c\uddf5\ud83c\uddf1",
+        "transcription": "\u02c8po\u028al\u0259nd",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1198,7 +1198,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-47",
+        "id": "A1-OTH-TRA-050",
         "word": "Prague",
         "definitions": [
             {
@@ -1209,8 +1209,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇨🇿",
-        "transcription": "prɑg",
+        "emoji": "\ud83c\udde8\ud83c\uddff",
+        "transcription": "pr\u0251g",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1224,9 +1224,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-48",
+        "id": "A1-OTH-TRA-051",
         "word": "Queen Elizabeth II",
-        "emoji": "👑",
+        "emoji": "\ud83d\udc51",
         "definitions": [
             {
                 "text": "The famous Queen of the United Kingdom for a very long time.",
@@ -1236,7 +1236,7 @@
             }
         ],
         "subtext": "famous queen",
-        "transcription": "kwiːn ɪˈlɪzəbəθ ðə ˈsɛkənd",
+        "transcription": "kwi\u02d0n \u026a\u02c8l\u026az\u0259b\u0259\u03b8 \u00f0\u0259 \u02c8s\u025bk\u0259nd",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1250,7 +1250,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-49",
+        "id": "A1-OTH-TRA-052",
         "word": "Rio de Janeiro",
         "definitions": [
             {
@@ -1261,8 +1261,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇧🇷",
-        "transcription": "ˈrioʊ də ʤəˈnɛˌroʊ",
+        "emoji": "\ud83c\udde7\ud83c\uddf7",
+        "transcription": "\u02c8rio\u028a d\u0259 \u02a4\u0259\u02c8n\u025b\u02ccro\u028a",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1276,7 +1276,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-50",
+        "id": "A1-OTH-TRA-053",
         "word": "Rome",
         "definitions": [
             {
@@ -1287,8 +1287,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇮🇹",
-        "transcription": "roʊm",
+        "emoji": "\ud83c\uddee\ud83c\uddf9",
+        "transcription": "ro\u028am",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1302,7 +1302,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-51",
+        "id": "A1-OTH-TRA-054",
         "word": "Russia",
         "definitions": [
             {
@@ -1313,8 +1313,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇷🇺",
-        "transcription": "ˈrəʃə",
+        "emoji": "\ud83c\uddf7\ud83c\uddfa",
+        "transcription": "\u02c8r\u0259\u0283\u0259",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1328,7 +1328,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-52",
+        "id": "A1-OTH-TRA-055",
         "word": "San Francisco",
         "definitions": [
             {
@@ -1339,8 +1339,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇺🇸",
-        "transcription": "sæn frænˈsɪskoʊ",
+        "emoji": "\ud83c\uddfa\ud83c\uddf8",
+        "transcription": "s\u00e6n fr\u00e6n\u02c8s\u026asko\u028a",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1354,7 +1354,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-53",
+        "id": "A1-OTH-TRA-056",
         "word": "South Korea",
         "definitions": [
             {
@@ -1365,8 +1365,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇰🇷",
-        "transcription": "saʊθ ˌkɔˈriə",
+        "emoji": "\ud83c\uddf0\ud83c\uddf7",
+        "transcription": "sa\u028a\u03b8 \u02cck\u0254\u02c8ri\u0259",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1380,7 +1380,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-54",
+        "id": "A1-OTH-TRA-057",
         "word": "Spain",
         "definitions": [
             {
@@ -1391,8 +1391,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇪🇸",
-        "transcription": "speɪn",
+        "emoji": "\ud83c\uddea\ud83c\uddf8",
+        "transcription": "spe\u026an",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1406,7 +1406,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-55",
+        "id": "A1-OTH-TRA-058",
         "word": "Sweden",
         "definitions": [
             {
@@ -1417,8 +1417,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇸🇪",
-        "transcription": "sˈwidən",
+        "emoji": "\ud83c\uddf8\ud83c\uddea",
+        "transcription": "s\u02c8wid\u0259n",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1432,7 +1432,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-56",
+        "id": "A1-OTH-TRA-059",
         "word": "Switzerland",
         "definitions": [
             {
@@ -1443,8 +1443,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇨🇭",
-        "transcription": "sˈwɪtsərlənd",
+        "emoji": "\ud83c\udde8\ud83c\udded",
+        "transcription": "s\u02c8w\u026ats\u0259rl\u0259nd",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1458,7 +1458,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-57",
+        "id": "A1-OTH-TRA-060",
         "word": "Sydney",
         "definitions": [
             {
@@ -1469,8 +1469,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇦🇺",
-        "transcription": "ˈsɪdni",
+        "emoji": "\ud83c\udde6\ud83c\uddfa",
+        "transcription": "\u02c8s\u026adni",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1484,9 +1484,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-58",
+        "id": "A1-OTH-TRA-061",
         "word": "Taylor Swift",
-        "emoji": "🎤",
+        "emoji": "\ud83c\udfa4",
         "definitions": [
             {
                 "text": "A famous singer and songwriter from the USA.",
@@ -1496,7 +1496,7 @@
             }
         ],
         "subtext": "famous singer",
-        "transcription": "ˈteɪlər swɪft",
+        "transcription": "\u02c8te\u026al\u0259r sw\u026aft",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1510,7 +1510,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-59",
+        "id": "A1-OTH-TRA-062",
         "word": "Thailand",
         "definitions": [
             {
@@ -1521,8 +1521,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇹🇭",
-        "transcription": "ˈtaɪˌlænd",
+        "emoji": "\ud83c\uddf9\ud83c\udded",
+        "transcription": "\u02c8ta\u026a\u02ccl\u00e6nd",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1536,7 +1536,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-60",
+        "id": "A1-OTH-TRA-063",
         "word": "Tokyo",
         "definitions": [
             {
@@ -1547,8 +1547,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇯🇵",
-        "transcription": "ˈtoʊkiˌoʊ",
+        "emoji": "\ud83c\uddef\ud83c\uddf5",
+        "transcription": "\u02c8to\u028aki\u02cco\u028a",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1562,7 +1562,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-61",
+        "id": "A1-OTH-TRA-064",
         "word": "USA",
         "definitions": [
             {
@@ -1573,8 +1573,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇺🇸",
-        "transcription": "ˈjuˈɛˈseɪ",
+        "emoji": "\ud83c\uddfa\ud83c\uddf8",
+        "transcription": "\u02c8ju\u02c8\u025b\u02c8se\u026a",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1588,7 +1588,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-62",
+        "id": "A1-OTH-TRA-065",
         "word": "Ukraine",
         "definitions": [
             {
@@ -1599,8 +1599,8 @@
             }
         ],
         "subtext": "country",
-        "emoji": "🇺🇦",
-        "transcription": "juˈkreɪn",
+        "emoji": "\ud83c\uddfa\ud83c\udde6",
+        "transcription": "ju\u02c8kre\u026an",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1614,7 +1614,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-63",
+        "id": "A1-OTH-TRA-066",
         "word": "Vancouver",
         "definitions": [
             {
@@ -1625,8 +1625,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇨🇦",
-        "transcription": "vænˈkuvər",
+        "emoji": "\ud83c\udde8\ud83c\udde6",
+        "transcription": "v\u00e6n\u02c8kuv\u0259r",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1640,7 +1640,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-64",
+        "id": "A1-OTH-TRA-067",
         "word": "Venice",
         "definitions": [
             {
@@ -1651,8 +1651,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇮🇹",
-        "transcription": "ˈvɛnɪs",
+        "emoji": "\ud83c\uddee\ud83c\uddf9",
+        "transcription": "\u02c8v\u025bn\u026as",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1666,7 +1666,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-65",
+        "id": "A1-OTH-TRA-068",
         "word": "Vienna",
         "definitions": [
             {
@@ -1677,8 +1677,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇦🇹",
-        "transcription": "viˈɛnə",
+        "emoji": "\ud83c\udde6\ud83c\uddf9",
+        "transcription": "vi\u02c8\u025bn\u0259",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1692,7 +1692,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-66",
+        "id": "A1-OTH-TRA-069",
         "word": "Washington DC",
         "definitions": [
             {
@@ -1703,8 +1703,8 @@
             }
         ],
         "subtext": "city",
-        "emoji": "🇺🇸",
-        "transcription": "ˈwɔʃɪŋtən ˌdiˈsi",
+        "emoji": "\ud83c\uddfa\ud83c\uddf8",
+        "transcription": "\u02c8w\u0254\u0283\u026a\u014bt\u0259n \u02ccdi\u02c8si",
         "form": "other",
         "lang": "en",
         "level": "starter",
@@ -1718,9 +1718,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-OTH-TRA-67",
+        "id": "A1-OTH-TRA-070",
         "word": "William Shakespeare",
-        "emoji": "✍️",
+        "emoji": "\u270d\ufe0f",
         "definitions": [
             {
                 "text": "A famous writer from England who wrote many plays and poems.",
@@ -1730,7 +1730,7 @@
             }
         ],
         "subtext": "famous writer",
-        "transcription": "ˈwɪljəm ˈʃeɪkˌspir",
+        "transcription": "\u02c8w\u026alj\u0259m \u02c8\u0283e\u026ak\u02ccspir",
         "form": "other",
         "lang": "en",
         "level": "starter",

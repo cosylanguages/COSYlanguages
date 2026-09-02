@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-TIM-01",
+        "id": "A1-NOUN-TIM-001",
         "word": "number",
-        "emoji": "🔢",
+        "emoji": "\ud83d\udd22",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
             }
         ],
         "subtext": "related to numbers 0 9",
-        "transcription": "ˈnəmbər",
+        "transcription": "\u02c8n\u0259mb\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "numbers",

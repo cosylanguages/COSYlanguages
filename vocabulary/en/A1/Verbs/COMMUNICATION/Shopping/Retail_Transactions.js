@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-COM-01",
+        "id": "A1-VERB-COM-039",
         "word": "borrow",
-        "emoji": "📥",
+        "emoji": "\ud83d\udce5",
         "form": "verb",
         "subtext": "take for a short time / borrow a book / borrow money",
         "definitions": [
@@ -20,7 +20,7 @@
         "v2": "borrowed",
         "v3": "borrowed",
         "group": "regular",
-        "transcription": "ˈbɑˌroʊ",
+        "transcription": "\u02c8b\u0251\u02ccro\u028a",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -36,9 +36,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-VERB-COM-02",
+        "id": "A1-VERB-COM-040",
         "word": "borrow",
-        "emoji": "📥",
+        "emoji": "\ud83d\udce5",
         "form": "verb",
         "subtext": "take for a short time / borrow a book / borrow money",
         "definitions": [
@@ -54,7 +54,7 @@
         "v2": "borrowed",
         "v3": "borrowed",
         "group": "regular",
-        "transcription": "ˈbɑˌroʊ",
+        "transcription": "\u02c8b\u0251\u02ccro\u028a",
         "auxiliary": "have",
         "v4": "borrowing",
         "lang": "en",
@@ -72,9 +72,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-VERB-COM-03",
+        "id": "A1-VERB-COM-041",
         "word": "buy",
-        "emoji": "🛒",
+        "emoji": "\ud83d\uded2",
         "subtext": "buy food / buy a ticket / buy online / buy a house",
         "form": "verb",
         "definitions": [
@@ -91,7 +91,7 @@
         "v2": "bought",
         "v3": "bought",
         "group": "irregular",
-        "transcription": "baɪ",
+        "transcription": "ba\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -107,9 +107,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-VERB-COM-04",
+        "id": "A1-VERB-COM-042",
         "word": "buy",
-        "emoji": "🛒",
+        "emoji": "\ud83d\uded2",
         "subtext": "buy food / buy a ticket / buy online / buy a house",
         "form": "verb",
         "definitions": [
@@ -126,7 +126,7 @@
         "v2": "bought",
         "v3": "bought",
         "group": "regular",
-        "transcription": "baɪ",
+        "transcription": "ba\u026a",
         "synonyms": [
             "purchase"
         ],
@@ -146,9 +146,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-VERB-COM-05",
+        "id": "A1-VERB-COM-043",
         "word": "close",
-        "emoji": "🔒",
+        "emoji": "\ud83d\udd12",
         "subtext": "close a door / close at six / close an account / close the meeting",
         "form": "verb",
         "definitions": [
@@ -165,7 +165,7 @@
         "v2": "closed",
         "v3": "closed",
         "group": "regular",
-        "transcription": "kloʊz",
+        "transcription": "klo\u028az",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -181,9 +181,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-VERB-COM-06",
+        "id": "A1-VERB-COM-044",
         "word": "close",
-        "emoji": "🔒",
+        "emoji": "\ud83d\udd12",
         "subtext": "close a door / close at six / close an account / close the meeting",
         "form": "verb",
         "definitions": [
@@ -200,7 +200,7 @@
         "v2": "closed",
         "v3": "closed",
         "group": "regular",
-        "transcription": "kloʊz",
+        "transcription": "klo\u028az",
         "auxiliary": "have",
         "v4": "closing",
         "lang": "en",
@@ -218,9 +218,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-VERB-COM-07",
+        "id": "A1-VERB-COM-045",
         "word": "cost",
-        "emoji": "💰",
+        "emoji": "\ud83d\udcb0",
         "form": "verb",
         "definitions": [
             {
@@ -236,7 +236,7 @@
         "v3": "cost",
         "subtext": "cost a lot / cost money / cost too much / cost less",
         "group": "irregular",
-        "transcription": "kɔst",
+        "transcription": "k\u0254st",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -249,9 +249,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-VERB-COM-08",
+        "id": "A1-VERB-COM-046",
         "word": "cost",
-        "emoji": "💰",
+        "emoji": "\ud83d\udcb0",
         "form": "verb",
         "definitions": [
             {
@@ -267,7 +267,7 @@
         "v3": "cost",
         "subtext": "cost a lot / cost money / cost too much / cost less",
         "group": "regular",
-        "transcription": "kɔst",
+        "transcription": "k\u0254st",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -281,7 +281,7 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-VERB-COM-09",
+        "id": "A1-VERB-COM-047",
         "word": "earn",
         "definitions": [
             {
@@ -296,10 +296,10 @@
         "aspect": "action",
         "v2": "earned",
         "v3": "earned",
-        "emoji": "💶",
+        "emoji": "\ud83d\udcb6",
         "form": "verb",
         "group": "regular",
-        "transcription": "ərn",
+        "transcription": "\u0259rn",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -315,7 +315,7 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-VERB-COM-10",
+        "id": "A1-VERB-COM-048",
         "word": "earn",
         "definitions": [
             {
@@ -330,10 +330,10 @@
         "aspect": "action",
         "v2": "earned",
         "v3": "earned",
-        "emoji": "💶",
+        "emoji": "\ud83d\udcb6",
         "form": "verb",
         "group": "regular",
-        "transcription": "ərn",
+        "transcription": "\u0259rn",
         "auxiliary": "have",
         "v4": "earning",
         "lang": "en",
@@ -351,9 +351,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-VERB-COM-11",
+        "id": "A1-VERB-COM-049",
         "word": "find",
-        "emoji": "🔍",
+        "emoji": "\ud83d\udd0d",
         "subtext": "find a job / find out / find it difficult / find time",
         "form": "verb",
         "definitions": [
@@ -370,7 +370,7 @@
         "v2": "found",
         "v3": "found",
         "group": "irregular",
-        "transcription": "faɪnd",
+        "transcription": "fa\u026and",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -386,9 +386,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-VERB-COM-12",
+        "id": "A1-VERB-COM-050",
         "word": "find",
-        "emoji": "🔍",
+        "emoji": "\ud83d\udd0d",
         "subtext": "find a job / find out / find it difficult / find time",
         "form": "verb",
         "definitions": [
@@ -405,7 +405,7 @@
         "v2": "found",
         "v3": "found",
         "group": "regular",
-        "transcription": "faɪnd",
+        "transcription": "fa\u026and",
         "synonyms": [
             "locate"
         ],
@@ -425,9 +425,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-VERB-COM-13",
+        "id": "A1-VERB-COM-051",
         "word": "get",
-        "emoji": "📥",
+        "emoji": "\ud83d\udce5",
         "subtext": "get a job / get tired / get better / get home",
         "form": "verb",
         "definitions": [
@@ -445,7 +445,7 @@
         "v2": "got",
         "v3": "got / gotten",
         "group": "irregular",
-        "transcription": "gɪt",
+        "transcription": "g\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -461,9 +461,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-VERB-COM-14",
+        "id": "A1-VERB-COM-052",
         "word": "get",
-        "emoji": "📥",
+        "emoji": "\ud83d\udce5",
         "subtext": "get a job / get tired / get better / get home",
         "form": "verb",
         "definitions": [
@@ -481,7 +481,7 @@
         "v2": "got",
         "v3": "got",
         "group": "regular",
-        "transcription": "gɪt",
+        "transcription": "g\u026at",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -498,12 +498,12 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-VERB-COM-15",
+        "id": "A1-VERB-COM-053",
         "word": "give",
-        "emoji": "🎁",
+        "emoji": "\ud83c\udf81",
         "subtext": "give advice / give money / give a present / give information",
         "form": "verb",
-        "transcription": "ɡɪv",
+        "transcription": "\u0261\u026av",
         "definitions": [
             {
                 "text": "To hand or transfer something to someone.",
@@ -524,7 +524,7 @@
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "gebaną"
+            "origin_word": "geban\u0105"
         },
         "antonyms": [
             "take"
@@ -537,12 +537,12 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-VERB-COM-16",
+        "id": "A1-VERB-COM-054",
         "word": "give",
-        "emoji": "🎁",
+        "emoji": "\ud83c\udf81",
         "subtext": "give advice / give money / give a present / give information",
         "form": "verb",
-        "transcription": "ɡɪv",
+        "transcription": "\u0261\u026av",
         "definitions": [
             {
                 "text": "To hand or transfer something to someone.",
@@ -564,7 +564,7 @@
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "gebaną"
+            "origin_word": "geban\u0105"
         },
         "antonyms": [
             "take"
@@ -577,9 +577,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-VERB-COM-17",
+        "id": "A1-VERB-COM-055",
         "word": "lose",
-        "emoji": "📉",
+        "emoji": "\ud83d\udcc9",
         "subtext": "lose a job / lose money / lose weight / lose time",
         "form": "verb",
         "definitions": [
@@ -612,9 +612,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-VERB-COM-18",
+        "id": "A1-VERB-COM-056",
         "word": "lose",
-        "emoji": "📉",
+        "emoji": "\ud83d\udcc9",
         "subtext": "lose a job / lose money / lose weight / lose time",
         "form": "verb",
         "definitions": [
@@ -651,9 +651,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-VERB-COM-19",
+        "id": "A1-VERB-COM-057",
         "word": "open",
-        "emoji": "📖",
+        "emoji": "\ud83d\udcd6",
         "subtext": "open a door / open an account / open a shop / open at nine",
         "form": "verb",
         "definitions": [
@@ -670,7 +670,7 @@
         "v2": "opened",
         "v3": "opened",
         "group": "regular",
-        "transcription": "ˈoʊpən",
+        "transcription": "\u02c8o\u028ap\u0259n",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -686,9 +686,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-VERB-COM-20",
+        "id": "A1-VERB-COM-058",
         "word": "open",
-        "emoji": "📖",
+        "emoji": "\ud83d\udcd6",
         "subtext": "open a door / open an account / open a shop / open at nine",
         "form": "verb",
         "definitions": [
@@ -705,7 +705,7 @@
         "v2": "opened",
         "v3": "opened",
         "group": "regular",
-        "transcription": "ˈoʊpən",
+        "transcription": "\u02c8o\u028ap\u0259n",
         "auxiliary": "have",
         "v4": "opening",
         "lang": "en",
@@ -723,9 +723,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-VERB-COM-21",
+        "id": "A1-VERB-COM-059",
         "word": "pay",
-        "emoji": "💳",
+        "emoji": "\ud83d\udcb3",
         "subtext": "pay for, pay a bill / pay rent / pay by card / pay in cash",
         "form": "verb",
         "definitions": [
@@ -741,7 +741,7 @@
         "v2": "paid",
         "v3": "paid",
         "group": "irregular",
-        "transcription": "peɪ",
+        "transcription": "pe\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -757,9 +757,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-VERB-COM-22",
+        "id": "A1-VERB-COM-060",
         "word": "pay",
-        "emoji": "💳",
+        "emoji": "\ud83d\udcb3",
         "subtext": "pay for, pay a bill / pay rent / pay by card / pay in cash",
         "form": "verb",
         "definitions": [
@@ -775,7 +775,7 @@
         "v2": "paid",
         "v3": "paid",
         "group": "regular",
-        "transcription": "peɪ",
+        "transcription": "pe\u026a",
         "synonyms": [
             "spend"
         ],
@@ -795,9 +795,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-VERB-COM-23",
+        "id": "A1-VERB-COM-061",
         "word": "receive",
-        "emoji": "📩",
+        "emoji": "\ud83d\udce9",
         "subtext": "receive an email / receive a gift / receive payment / receive news",
         "form": "verb",
         "definitions": [
@@ -814,7 +814,7 @@
         "v2": "received",
         "v3": "received",
         "group": "regular",
-        "transcription": "rɪˈsiv",
+        "transcription": "r\u026a\u02c8siv",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -830,9 +830,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-VERB-COM-24",
+        "id": "A1-VERB-COM-062",
         "word": "receive",
-        "emoji": "📩",
+        "emoji": "\ud83d\udce9",
         "subtext": "receive an email / receive a gift / receive payment / receive news",
         "form": "verb",
         "definitions": [
@@ -849,7 +849,7 @@
         "v2": "received",
         "v3": "received",
         "group": "regular",
-        "transcription": "rɪˈsiv",
+        "transcription": "r\u026a\u02c8siv",
         "auxiliary": "have",
         "v4": "receiving",
         "lang": "en",
@@ -867,9 +867,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-VERB-COM-25",
+        "id": "A1-VERB-COM-063",
         "word": "save",
-        "emoji": "💰",
+        "emoji": "\ud83d\udcb0",
         "subtext": "save money / save for a holiday / save for a house",
         "form": "verb",
         "definitions": [
@@ -885,7 +885,7 @@
         "v2": "saved",
         "v3": "saved",
         "group": "regular",
-        "transcription": "seɪv",
+        "transcription": "se\u026av",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -901,9 +901,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-VERB-COM-26",
+        "id": "A1-VERB-COM-064",
         "word": "save",
-        "emoji": "💰",
+        "emoji": "\ud83d\udcb0",
         "subtext": "save money / save for a holiday / save for a house",
         "form": "verb",
         "definitions": [
@@ -919,7 +919,7 @@
         "v2": "saved",
         "v3": "saved",
         "group": "regular",
-        "transcription": "seɪv",
+        "transcription": "se\u026av",
         "synonyms": [
             "keep"
         ],
@@ -940,9 +940,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-VERB-COM-27",
+        "id": "A1-VERB-COM-065",
         "word": "sell",
-        "emoji": "🏷️",
+        "emoji": "\ud83c\udff7\ufe0f",
         "subtext": "sell products / sell online / sell at the market",
         "synonyms": [
             "best seller"
@@ -961,7 +961,7 @@
         "v2": "sold",
         "v3": "sold",
         "group": "irregular",
-        "transcription": "sɛl",
+        "transcription": "s\u025bl",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -977,9 +977,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-VERB-COM-28",
+        "id": "A1-VERB-COM-066",
         "word": "sell",
-        "emoji": "🏷️",
+        "emoji": "\ud83c\udff7\ufe0f",
         "subtext": "sell products / sell online / sell at the market",
         "synonyms": [
             "best seller"
@@ -998,7 +998,7 @@
         "v2": "sold",
         "v3": "sold",
         "group": "regular",
-        "transcription": "sɛl",
+        "transcription": "s\u025bl",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -1015,9 +1015,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-VERB-COM-29",
+        "id": "A1-VERB-COM-067",
         "word": "spend",
-        "emoji": "💸",
+        "emoji": "\ud83d\udcb8",
         "subtext": "spend money / spend on food / spend on rent / spend time",
         "form": "verb",
         "definitions": [
@@ -1033,7 +1033,7 @@
         "v2": "spent",
         "v3": "spent",
         "group": "irregular",
-        "transcription": "spɛnd",
+        "transcription": "sp\u025bnd",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -1049,9 +1049,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-VERB-COM-30",
+        "id": "A1-VERB-COM-068",
         "word": "spend",
-        "emoji": "💸",
+        "emoji": "\ud83d\udcb8",
         "subtext": "spend money / spend on food / spend on rent / spend time",
         "form": "verb",
         "definitions": [
@@ -1067,7 +1067,7 @@
         "v2": "spent",
         "v3": "spent",
         "group": "regular",
-        "transcription": "spɛnd",
+        "transcription": "sp\u025bnd",
         "synonyms": [
             "pay"
         ],

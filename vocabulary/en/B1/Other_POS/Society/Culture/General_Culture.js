@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "B1-OTH-SOC-01",
+        "id": "B1-OTH-SOC-001",
         "word": "although",
         "lang": "en",
         "level": "intermediate",
@@ -17,8 +17,8 @@
                 ]
             }
         ],
-        "transcription": "🇬🇧 ɔːlˈðəʊ | 🇺🇸 ɔːlˈðoʊ",
-        "emoji": "🔄",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u0254\u02d0l\u02c8\u00f0\u0259\u028a | \ud83c\uddfa\ud83c\uddf8 \u0254\u02d0l\u02c8\u00f0o\u028a",
+        "emoji": "\ud83d\udd04",
         "_legacy": {
             "subtext": "even though, despite the fact"
         },
@@ -30,7 +30,7 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B1-OTH-SOC-02",
+        "id": "B1-OTH-SOC-002",
         "word": "as a result",
         "lang": "en",
         "level": "intermediate",
@@ -45,8 +45,8 @@
                 ]
             }
         ],
-        "transcription": "æz ə rɪˈzʌlt",
-        "emoji": "🔚",
+        "transcription": "\u00e6z \u0259 r\u026a\u02c8z\u028clt",
+        "emoji": "\ud83d\udd1a",
         "_legacy": {
             "subtext": ""
         },
@@ -58,7 +58,7 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B1-OTH-SOC-03",
+        "id": "B1-OTH-SOC-003",
         "word": "on the other hand",
         "lang": "en",
         "level": "intermediate",
@@ -73,8 +73,8 @@
                 ]
             }
         ],
-        "transcription": "🇬🇧 ɒn ði ˈʌðə hænd | 🇺🇸 ɑːn ði ˈʌðə hænd",
-        "emoji": "⚖️",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u0252n \u00f0i \u02c8\u028c\u00f0\u0259 h\u00e6nd | \ud83c\uddfa\ud83c\uddf8 \u0251\u02d0n \u00f0i \u02c8\u028c\u00f0\u0259 h\u00e6nd",
+        "emoji": "\u2696\ufe0f",
         "_legacy": {
             "subtext": ""
         },

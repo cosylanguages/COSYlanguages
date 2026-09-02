@@ -2,10 +2,10 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-FOO-01",
+        "id": "A1-NOUN-FOO-071",
         "word": "bowl",
         "translation": "deep dish",
-        "emoji": "🥣",
+        "emoji": "\ud83e\udd63",
         "form": "noun",
         "definitions": [
             {
@@ -28,10 +28,10 @@
         "sub_subcategory": "Prepared_Dishes"
     },
     {
-        "id": "A1-NOUN-FOO-02",
+        "id": "A1-NOUN-FOO-072",
         "word": "chopsticks",
         "translation": "eating sticks",
-        "emoji": "🥢",
+        "emoji": "\ud83e\udd62",
         "form": "noun",
         "definitions": [
             {
@@ -54,10 +54,10 @@
         "sub_subcategory": "Prepared_Dishes"
     },
     {
-        "id": "A1-NOUN-FOO-03",
+        "id": "A1-NOUN-FOO-073",
         "word": "cup",
         "translation": "small container for drinks",
-        "emoji": "☕",
+        "emoji": "\u2615",
         "form": "noun",
         "definitions": [
             {
@@ -80,10 +80,10 @@
         "sub_subcategory": "Prepared_Dishes"
     },
     {
-        "id": "A1-NOUN-FOO-04",
+        "id": "A1-NOUN-FOO-074",
         "word": "fork",
         "translation": "eating tool with prongs",
-        "emoji": "🍴",
+        "emoji": "\ud83c\udf74",
         "form": "noun",
         "definitions": [
             {
@@ -106,10 +106,10 @@
         "sub_subcategory": "Prepared_Dishes"
     },
     {
-        "id": "A1-NOUN-FOO-05",
+        "id": "A1-NOUN-FOO-075",
         "word": "glass",
         "translation": "drink container",
-        "emoji": "🍷",
+        "emoji": "\ud83c\udf77",
         "form": "noun",
         "definitions": [
             {
@@ -132,10 +132,10 @@
         "sub_subcategory": "Prepared_Dishes"
     },
     {
-        "id": "A1-NOUN-FOO-06",
+        "id": "A1-NOUN-FOO-076",
         "word": "knife",
         "translation": "cutting tool",
-        "emoji": "🔪",
+        "emoji": "\ud83d\udd2a",
         "form": "noun",
         "definitions": [
             {
@@ -158,10 +158,10 @@
         "sub_subcategory": "Prepared_Dishes"
     },
     {
-        "id": "A1-NOUN-FOO-07",
+        "id": "A1-NOUN-FOO-077",
         "word": "mug",
         "translation": "large cup",
-        "emoji": "☕",
+        "emoji": "\u2615",
         "form": "noun",
         "definitions": [
             {
@@ -184,10 +184,10 @@
         "sub_subcategory": "Prepared_Dishes"
     },
     {
-        "id": "A1-NOUN-FOO-08",
+        "id": "A1-NOUN-FOO-078",
         "word": "napkin",
         "translation": "cleaning cloth for mouth",
-        "emoji": "🧻",
+        "emoji": "\ud83e\uddfb",
         "form": "noun",
         "definitions": [
             {
@@ -210,10 +210,10 @@
         "sub_subcategory": "Prepared_Dishes"
     },
     {
-        "id": "A1-NOUN-FOO-09",
+        "id": "A1-NOUN-FOO-079",
         "word": "plate",
         "translation": "flat dish",
-        "emoji": "🍽️",
+        "emoji": "\ud83c\udf7d\ufe0f",
         "form": "noun",
         "definitions": [
             {
@@ -236,10 +236,10 @@
         "sub_subcategory": "Prepared_Dishes"
     },
     {
-        "id": "A1-NOUN-FOO-10",
+        "id": "A1-NOUN-FOO-080",
         "word": "spoon",
         "translation": "scooping tool",
-        "emoji": "🥄",
+        "emoji": "\ud83e\udd44",
         "form": "noun",
         "definitions": [
             {
@@ -262,10 +262,10 @@
         "sub_subcategory": "Prepared_Dishes"
     },
     {
-        "id": "A1-NOUN-FOO-11",
+        "id": "A1-NOUN-FOO-081",
         "word": "tray",
         "translation": "carrying board",
-        "emoji": "🍱",
+        "emoji": "\ud83c\udf71",
         "form": "noun",
         "definitions": [
             {

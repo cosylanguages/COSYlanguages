@@ -5,9 +5,9 @@
         "word": "abroad",
         "level": "elementary",
         "theme": "travel",
-        "emoji": "✈️",
+        "emoji": "\u2708\ufe0f",
         "form": "adverb",
-        "transcription": "əˈbrɔːd",
+        "transcription": "\u0259\u02c8br\u0254\u02d0d",
         "definitions": [
             {
                 "text": "In or to another country.",
@@ -22,7 +22,7 @@
         ],
         "language": "en",
         "lang": "en",
-        "id": "A2-VERB-TRA-01",
+        "id": "A2-VERB-TRA-003",
         "legacy_id": "A2-TRV-01",
         "level_code": "A2",
         "domain": "TRAVEL",
@@ -31,9 +31,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A2-VERB-TRA-02",
+        "id": "A2-VERB-TRA-004",
         "word": "arrange",
-        "emoji": "🗓️",
+        "emoji": "\ud83d\uddd3\ufe0f",
         "form": "verb",
         "subtext": "plan, organize",
         "synonyms": [
@@ -52,7 +52,7 @@
         "aspect": "action",
         "v2": "arranged",
         "v3": "arranged",
-        "transcription": "əˈreɪndʒ",
+        "transcription": "\u0259\u02c8re\u026and\u0292",
         "group": "regular",
         "auxiliary": "have",
         "v4": "arranging",
@@ -73,9 +73,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A2-VERB-TRA-03",
+        "id": "A2-VERB-TRA-005",
         "word": "check in",
-        "emoji": "🏢",
+        "emoji": "\ud83c\udfe2",
         "form": "verb",
         "v2": "checked in",
         "v3": "checked in",
@@ -93,7 +93,7 @@
             "register arrival"
         ],
         "classification": "regular",
-        "transcription": "tʃɛk ɪn",
+        "transcription": "t\u0283\u025bk \u026an",
         "group": "regular",
         "auxiliary": "have",
         "v4": "check ining",
@@ -109,9 +109,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A2-VERB-TRA-04",
+        "id": "A2-VERB-TRA-006",
         "word": "check out",
-        "emoji": "🚪",
+        "emoji": "\ud83d\udeaa",
         "form": "verb",
         "v2": "checked out",
         "v3": "checked out",
@@ -129,7 +129,7 @@
             "register departure"
         ],
         "classification": "regular",
-        "transcription": "tʃɛk aʊt",
+        "transcription": "t\u0283\u025bk a\u028at",
         "group": "regular",
         "auxiliary": "have",
         "v4": "check outing",
@@ -145,9 +145,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A2-VERB-TRA-05",
+        "id": "A2-VERB-TRA-007",
         "word": "explore",
-        "emoji": "🧭",
+        "emoji": "\ud83e\udded",
         "form": "verb",
         "subtext": "explore the city / explore options / explore nature",
         "definitions": [
@@ -163,7 +163,7 @@
         "aspect": "action",
         "v2": "explored",
         "v3": "explored",
-        "transcription": "ɪkˈsplɔːr",
+        "transcription": "\u026ak\u02c8spl\u0254\u02d0r",
         "synonyms": [
             "travel",
             "search"
@@ -183,9 +183,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A2-VERB-TRA-06",
+        "id": "A2-VERB-TRA-008",
         "word": "overtake",
-        "emoji": "🏎️",
+        "emoji": "\ud83c\udfce\ufe0f",
         "form": "verb",
         "v2": "overtook",
         "v3": "overtaken",
@@ -203,7 +203,7 @@
             "pass"
         ],
         "classification": "irregular",
-        "transcription": "ˌoʊvərˈteɪk",
+        "transcription": "\u02cco\u028av\u0259r\u02c8te\u026ak",
         "group": "regular",
         "auxiliary": "have",
         "lang": "en",
@@ -218,9 +218,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A2-VERB-TRA-07",
+        "id": "A2-VERB-TRA-009",
         "word": "reach",
-        "emoji": "🏁",
+        "emoji": "\ud83c\udfc1",
         "form": "verb",
         "subtext": "reach the top, reach an agreement",
         "definitions": [
@@ -235,7 +235,7 @@
         "aspect": "action",
         "v2": "reached",
         "v3": "reached",
-        "transcription": "riːtʃ",
+        "transcription": "ri\u02d0t\u0283",
         "synonyms": [
             "arrive at"
         ],
@@ -254,9 +254,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A2-VERB-TRA-08",
+        "id": "A2-VERB-TRA-010",
         "word": "reserve",
-        "emoji": "🛎️",
+        "emoji": "\ud83d\udece\ufe0f",
         "form": "verb",
         "subtext": "reserve a room / reserve a table / reserve a seat",
         "definitions": [
@@ -272,7 +272,7 @@
         "aspect": "action",
         "v2": "reserved",
         "v3": "reserved",
-        "transcription": "rɪˈzɜːrv",
+        "transcription": "r\u026a\u02c8z\u025c\u02d0rv",
         "synonyms": [
             "book"
         ],

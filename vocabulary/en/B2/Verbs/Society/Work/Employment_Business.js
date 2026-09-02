@@ -2,11 +2,11 @@
     const lang = "en";
     const data = [
     {
-        "id": "B2-VERB-SOC-01",
+        "id": "B2-VERB-SOC-047",
         "word": "acquire",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "form": "verb",
-        "transcription": "🇬🇧 əˈkwaɪə | 🇺🇸 əˈkwaɪər",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u0259\u02c8kwa\u026a\u0259 | \ud83c\uddfa\ud83c\uddf8 \u0259\u02c8kwa\u026a\u0259r",
         "subtext": "Formal | acquire a company / acquire skills / acquire assets",
         "definitions": [
             {
@@ -35,11 +35,11 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B2-VERB-SOC-02",
+        "id": "B2-VERB-SOC-048",
         "word": "depreciate",
-        "emoji": "📉",
+        "emoji": "\ud83d\udcc9",
         "form": "verb",
-        "transcription": "dɪˈpriːʃieɪt",
+        "transcription": "d\u026a\u02c8pri\u02d0\u0283ie\u026at",
         "subtext": "Formal | depreciate in value / rapidly depreciate / depreciation rate",
         "definitions": [
             {
@@ -68,11 +68,11 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B2-VERB-SOC-03",
+        "id": "B2-VERB-SOC-049",
         "word": "diversify",
-        "emoji": "🔀",
+        "emoji": "\ud83d\udd00",
         "form": "verb",
-        "transcription": "daɪˈvɜːsɪfaɪ",
+        "transcription": "da\u026a\u02c8v\u025c\u02d0s\u026afa\u026a",
         "subtext": "Formal | diversify a portfolio / diversify the economy / diversify income",
         "definitions": [
             {
@@ -101,11 +101,11 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B2-VERB-SOC-04",
+        "id": "B2-VERB-SOC-050",
         "word": "fluctuate",
-        "emoji": "📈",
+        "emoji": "\ud83d\udcc8",
         "form": "verb",
-        "transcription": "ˈflʌktʃueɪt",
+        "transcription": "\u02c8fl\u028ckt\u0283ue\u026at",
         "subtext": "Formal | prices fluctuate / exchange rates fluctuate / wildly fluctuate",
         "definitions": [
             {
@@ -134,11 +134,11 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B2-VERB-SOC-05",
+        "id": "B2-VERB-SOC-051",
         "word": "generate",
-        "emoji": "⚡",
+        "emoji": "\u26a1",
         "form": "verb",
-        "transcription": "ˈdʒɛnəreɪt",
+        "transcription": "\u02c8d\u0292\u025bn\u0259re\u026at",
         "subtext": "Formal | generate income / generate jobs / generate growth",
         "definitions": [
             {
@@ -167,11 +167,11 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B2-VERB-SOC-06",
+        "id": "B2-VERB-SOC-052",
         "word": "invest",
-        "emoji": "📈",
+        "emoji": "\ud83d\udcc8",
         "form": "verb",
-        "transcription": "ɪnˈvɛst",
+        "transcription": "\u026an\u02c8v\u025bst",
         "subtext": "Neutral | invest in property / invest long-term / return on investment",
         "definitions": [
             {
@@ -200,11 +200,11 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B2-VERB-SOC-07",
+        "id": "B2-VERB-SOC-053",
         "word": "redistribute",
-        "emoji": "🔄",
+        "emoji": "\ud83d\udd04",
         "form": "verb",
-        "transcription": "ˌriːdɪˈstrɪbjuːt",
+        "transcription": "\u02ccri\u02d0d\u026a\u02c8str\u026abju\u02d0t",
         "subtext": "Formal | redistribute wealth / redistribute income / redistribution policy",
         "definitions": [
             {
@@ -233,11 +233,11 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B2-VERB-SOC-08",
+        "id": "B2-VERB-SOC-054",
         "word": "stimulate",
-        "emoji": "🌱",
+        "emoji": "\ud83c\udf31",
         "form": "verb",
-        "transcription": "ˈstɪmjuleɪt",
+        "transcription": "\u02c8st\u026amjule\u026at",
         "subtext": "Formal | stimulate growth / stimulate demand / economic stimulus",
         "definitions": [
             {

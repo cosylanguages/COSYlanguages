@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A2-ADJ-TIM-01",
+        "id": "A2-ADJ-TIM-001",
         "word": "affordable",
-        "emoji": "💵",
+        "emoji": "\ud83d\udcb5",
         "form": "adjective",
         "definitions": [
             {
@@ -21,7 +21,7 @@
         ],
         "comparative": "more affordable",
         "superlative": "the most affordable",
-        "transcription": "əˈfɔːrdəbl",
+        "transcription": "\u0259\u02c8f\u0254\u02d0rd\u0259bl",
         "lang": "en",
         "level": "elementary",
         "theme": "numbers",
@@ -39,9 +39,9 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A2-ADJ-TIM-02",
+        "id": "A2-ADJ-TIM-002",
         "word": "broke",
-        "emoji": "📉",
+        "emoji": "\ud83d\udcc9",
         "form": "adjective",
         "definitions": [
             {
@@ -54,7 +54,7 @@
         "subtext": "flat broke / completely broke / go broke",
         "comparative": "more broke",
         "superlative": "the most broke",
-        "transcription": "broʊk",
+        "transcription": "bro\u028ak",
         "lang": "en",
         "level": "elementary",
         "theme": "numbers",
@@ -67,9 +67,9 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A2-ADJ-TIM-03",
+        "id": "A2-ADJ-TIM-003",
         "word": "commercial",
-        "emoji": "🏢",
+        "emoji": "\ud83c\udfe2",
         "form": "adjective",
         "definitions": [
             {
@@ -85,7 +85,7 @@
         ],
         "comparative": "more commercial",
         "superlative": "the most commercial",
-        "transcription": "kəˈmɜːrʃl",
+        "transcription": "k\u0259\u02c8m\u025c\u02d0r\u0283l",
         "lang": "en",
         "level": "elementary",
         "theme": "numbers",
@@ -98,9 +98,9 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A2-ADJ-TIM-04",
+        "id": "A2-ADJ-TIM-004",
         "word": "economic",
-        "emoji": "📉",
+        "emoji": "\ud83d\udcc9",
         "form": "adjective",
         "definitions": [
             {
@@ -116,7 +116,7 @@
         ],
         "comparative": "more economic",
         "superlative": "the most economic",
-        "transcription": "🇬🇧 ˌiːkəˈnɒmɪk | 🇺🇸 ˌiːkəˈnɑːmɪk",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02cci\u02d0k\u0259\u02c8n\u0252m\u026ak | \ud83c\uddfa\ud83c\uddf8 \u02cci\u02d0k\u0259\u02c8n\u0251\u02d0m\u026ak",
         "lang": "en",
         "level": "elementary",
         "theme": "numbers",
@@ -129,9 +129,9 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A2-ADJ-TIM-05",
+        "id": "A2-ADJ-TIM-005",
         "word": "financial",
-        "emoji": "💰",
+        "emoji": "\ud83d\udcb0",
         "form": "adjective",
         "definitions": [
             {
@@ -147,7 +147,7 @@
         ],
         "comparative": "more financial",
         "superlative": "the most financial",
-        "transcription": "faɪˈnænʃl",
+        "transcription": "fa\u026a\u02c8n\u00e6n\u0283l",
         "lang": "en",
         "level": "elementary",
         "theme": "numbers",
@@ -160,9 +160,9 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A2-ADJ-TIM-06",
+        "id": "A2-ADJ-TIM-006",
         "word": "valuable",
-        "emoji": "💎",
+        "emoji": "\ud83d\udc8e",
         "form": "adjective",
         "definitions": [
             {
@@ -180,7 +180,7 @@
         ],
         "comparative": "more valuable",
         "superlative": "the most valuable",
-        "transcription": "ˈvæljuəbl",
+        "transcription": "\u02c8v\u00e6lju\u0259bl",
         "lang": "en",
         "level": "elementary",
         "theme": "numbers",
@@ -193,9 +193,9 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A2-ADJ-TIM-07",
+        "id": "A2-ADJ-TIM-007",
         "word": "wealthy",
-        "emoji": "💰",
+        "emoji": "\ud83d\udcb0",
         "form": "adjective",
         "definitions": [
             {
@@ -213,7 +213,7 @@
         ],
         "comparative": "wealthier",
         "superlative": "the wealthiest",
-        "transcription": "ˈwɛlθi",
+        "transcription": "\u02c8w\u025bl\u03b8i",
         "lang": "en",
         "level": "elementary",
         "theme": "numbers",
@@ -226,9 +226,9 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A2-ADJ-TIM-08",
+        "id": "A2-ADJ-TIM-008",
         "word": "worth",
-        "emoji": "💰",
+        "emoji": "\ud83d\udcb0",
         "form": "adjective",
         "definitions": [
             {
@@ -241,7 +241,7 @@
         "subtext": "worth the money / worth doing / worth considering",
         "comparative": null,
         "superlative": null,
-        "transcription": "wɜːrθ",
+        "transcription": "w\u025c\u02d0r\u03b8",
         "lang": "en",
         "level": "elementary",
         "theme": "numbers",
@@ -254,9 +254,9 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A2-ADJ-TIM-09",
+        "id": "A2-ADJ-TIM-009",
         "word": "worthless",
-        "emoji": "🗑️",
+        "emoji": "\ud83d\uddd1\ufe0f",
         "form": "adjective",
         "definitions": [
             {
@@ -274,7 +274,7 @@
         ],
         "comparative": "more worthless",
         "superlative": "the most worthless",
-        "transcription": "ˈwɜːrθləs",
+        "transcription": "\u02c8w\u025c\u02d0r\u03b8l\u0259s",
         "lang": "en",
         "level": "elementary",
         "theme": "numbers",

@@ -2,12 +2,12 @@
     const lang = "en";
     const data = [
     {
-        "id": "B2-NOUN-SOC-01",
+        "id": "B2-NOUN-SOC-009",
         "lang": "en",
-        "transcription": "ˌriːəˌbɪlɪˈteɪʃn",
+        "transcription": "\u02ccri\u02d0\u0259\u02ccb\u026al\u026a\u02c8te\u026a\u0283n",
         "level": "upper_intermediate",
         "theme": "social",
-        "emoji": "🔄🏢",
+        "emoji": "\ud83d\udd04\ud83c\udfe2",
         "form": "noun",
         "classification": "regular",
         "plural": null,
@@ -26,7 +26,8 @@
         "domain": "Society",
         "subcategory": "Culture",
         "pos_section": "Nouns",
-        "sub_subcategory": "Social_Relations"
+        "sub_subcategory": "Social_Relations",
+        "word": "rehabilitation"
     }
 ];
     window.vocabularyData = window.vocabularyData || {};

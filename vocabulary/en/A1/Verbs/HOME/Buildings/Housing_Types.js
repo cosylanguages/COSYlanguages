@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-HOM-01",
+        "id": "A1-VERB-HOM-001",
         "word": "rent",
-        "emoji": "🏠",
+        "emoji": "\ud83c\udfe0",
         "subtext": "rent a flat / rent a property / rent out a room",
         "form": "verb",
         "definitions": [
@@ -20,7 +20,7 @@
         "v2": "rented",
         "v3": "rented",
         "group": "regular",
-        "transcription": "rɛnt",
+        "transcription": "r\u025bnt",
         "lang": "en",
         "level": "starter",
         "theme": "types_of_accommodation",
@@ -36,9 +36,9 @@
         "sub_subcategory": "Housing_Types"
     },
     {
-        "id": "A1-VERB-HOM-02",
+        "id": "A1-VERB-HOM-002",
         "word": "rent",
-        "emoji": "🏠",
+        "emoji": "\ud83c\udfe0",
         "subtext": "rent a flat / rent a property / rent out a room",
         "form": "verb",
         "definitions": [
@@ -54,7 +54,7 @@
         "v2": "rented",
         "v3": "rented",
         "group": "regular",
-        "transcription": "rɛnt",
+        "transcription": "r\u025bnt",
         "auxiliary": "have",
         "v4": "renting",
         "lang": "en",
@@ -72,9 +72,9 @@
         "sub_subcategory": "Housing_Types"
     },
     {
-        "id": "A1-VERB-HOM-03",
+        "id": "A1-VERB-HOM-003",
         "word": "stay",
-        "emoji": "🏨",
+        "emoji": "\ud83c\udfe8",
         "subtext": "stay at home / stay in a hotel / stay up late / stay with someone",
         "form": "verb",
         "definitions": [
@@ -91,7 +91,7 @@
         "v2": "stayed",
         "v3": "stayed",
         "group": "regular",
-        "transcription": "steɪ",
+        "transcription": "ste\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "types_of_accommodation",
@@ -107,9 +107,9 @@
         "sub_subcategory": "Housing_Types"
     },
     {
-        "id": "A1-VERB-HOM-04",
+        "id": "A1-VERB-HOM-004",
         "word": "stay",
-        "emoji": "🏨",
+        "emoji": "\ud83c\udfe8",
         "subtext": "stay at home / stay in a hotel / stay up late / stay with someone",
         "form": "verb",
         "definitions": [
@@ -126,7 +126,7 @@
         "v2": "stayed",
         "v3": "stayed",
         "group": "regular",
-        "transcription": "steɪ",
+        "transcription": "ste\u026a",
         "auxiliary": "have",
         "v4": "staying",
         "lang": "en",

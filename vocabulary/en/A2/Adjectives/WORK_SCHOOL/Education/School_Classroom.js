@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A2-ADJ-WOR-01",
+        "id": "A2-ADJ-WOR-001",
         "word": "absent",
-        "emoji": "❌",
+        "emoji": "\u274c",
         "form": "adjective",
         "definitions": [
             {
@@ -22,7 +22,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈæbsənt",
+        "transcription": "\u02c8\u00e6bs\u0259nt",
         "lang": "en",
         "level": "elementary",
         "theme": "school",
@@ -40,9 +40,9 @@
         "sub_subcategory": "School_Classroom"
     },
     {
-        "id": "A2-ADJ-WOR-02",
+        "id": "A2-ADJ-WOR-002",
         "word": "academic",
-        "emoji": "🎓",
+        "emoji": "\ud83c\udf93",
         "form": "adjective",
         "definitions": [
             {
@@ -58,14 +58,14 @@
         ],
         "comparative": "more academic",
         "superlative": "the most academic",
-        "transcription": "ˌækəˈdɛmɪk",
+        "transcription": "\u02cc\u00e6k\u0259\u02c8d\u025bm\u026ak",
         "lang": "en",
         "level": "elementary",
         "theme": "school",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Greek",
-            "origin_word": "akadēmia",
+            "origin_word": "akad\u0113mia",
             "origin_meaning": "Plato's school"
         },
         "legacy_id": "A2-WORK-02",
@@ -76,9 +76,9 @@
         "sub_subcategory": "School_Classroom"
     },
     {
-        "id": "A2-ADJ-WOR-03",
+        "id": "A2-ADJ-WOR-003",
         "word": "qualified",
-        "emoji": "✅",
+        "emoji": "\u2705",
         "form": "adjective",
         "definitions": [
             {
@@ -94,7 +94,7 @@
         "synonyms": [
             "trained"
         ],
-        "transcription": "🇬🇧 ˈkwɒlɪfaɪd | 🇺🇸 ˈkwɑːlɪfaɪd",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8kw\u0252l\u026afa\u026ad | \ud83c\uddfa\ud83c\uddf8 \u02c8kw\u0251\u02d0l\u026afa\u026ad",
         "lang": "en",
         "level": "elementary",
         "theme": "school",

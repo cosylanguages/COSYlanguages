@@ -2,13 +2,13 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-OTH-COM-01",
+        "id": "A1-OTH-COM-001",
         "word": "goodbye",
         "translation": "goodbye",
         "level": "starter",
         "theme": "social",
         "language": "en",
-        "emoji": "👋",
+        "emoji": "\ud83d\udc4b",
         "form": "interjection",
         "definitions": [
             {
@@ -18,7 +18,7 @@
                 ]
             }
         ],
-        "transcription": "ɡʊdˈbaɪ",
+        "transcription": "\u0261\u028ad\u02c8ba\u026a",
         "lang": "en",
         "legacy_id": "A1-COMM-41",
         "level_code": "A1",
@@ -28,13 +28,13 @@
         "sub_subcategory": "Interactions"
     },
     {
-        "id": "A1-OTH-COM-02",
+        "id": "A1-OTH-COM-002",
         "word": "hello",
         "translation": "hello",
         "level": "starter",
         "theme": "social",
         "language": "en",
-        "emoji": "👋",
+        "emoji": "\ud83d\udc4b",
         "form": "interjection",
         "definitions": [
             {
@@ -44,7 +44,7 @@
                 ]
             }
         ],
-        "transcription": "həˈloʊ",
+        "transcription": "h\u0259\u02c8lo\u028a",
         "lang": "en",
         "legacy_id": "A1-COMM-42",
         "level_code": "A1",
@@ -54,13 +54,13 @@
         "sub_subcategory": "Interactions"
     },
     {
-        "id": "A1-OTH-COM-03",
+        "id": "A1-OTH-COM-003",
         "word": "thank you",
         "translation": "thank you",
         "level": "starter",
         "theme": "social",
         "language": "en",
-        "emoji": "😊",
+        "emoji": "\ud83d\ude0a",
         "form": "phrase",
         "definitions": [
             {
@@ -70,7 +70,7 @@
                 ]
             }
         ],
-        "transcription": "θæŋk ju",
+        "transcription": "\u03b8\u00e6\u014bk ju",
         "lang": "en",
         "legacy_id": "A1-COMM-94",
         "level_code": "A1",

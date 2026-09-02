@@ -2,11 +2,11 @@
     const lang = "en";
     const data = [
     {
-        "id": "B2-ADJ-SCI-01",
+        "id": "B2-ADJ-SCI-001",
         "word": "chronic",
-        "emoji": "⏳🤒",
+        "emoji": "\u23f3\ud83e\udd12",
         "form": "adjective",
-        "transcription": "🇬🇧 ˈkrɒnɪk | 🇺🇸 ˈkrɑːnɪk",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8kr\u0252n\u026ak | \ud83c\uddfa\ud83c\uddf8 \u02c8kr\u0251\u02d0n\u026ak",
         "subtext": "Formal | chronic pain / chronic illness / chronic respiratory condition",
         "definitions": [
             {
@@ -34,11 +34,11 @@
         "sub_subcategory": "Medical_Health"
     },
     {
-        "id": "B2-ADJ-SCI-02",
+        "id": "B2-ADJ-SCI-002",
         "word": "preventive",
-        "emoji": "🛡️",
+        "emoji": "\ud83d\udee1\ufe0f",
         "form": "adjective",
-        "transcription": "prɪˈvɛntɪv",
+        "transcription": "pr\u026a\u02c8v\u025bnt\u026av",
         "subtext": "Formal | preventive medicine / preventive measure / preventive action",
         "definitions": [
             {

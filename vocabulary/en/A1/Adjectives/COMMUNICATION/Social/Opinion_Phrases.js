@@ -2,11 +2,11 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-ADJ-COM-01",
+        "id": "A1-ADJ-COM-015",
         "word": "possible",
-        "emoji": "✅",
+        "emoji": "\u2705",
         "form": "adjective",
-        "transcription": "🇬🇧 ˈpɒsəbl | 🇺🇸 ˈpɑːsəbl",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8p\u0252s\u0259bl | \ud83c\uddfa\ud83c\uddf8 \u02c8p\u0251\u02d0s\u0259bl",
         "definitions": [
             {
                 "text": "Able to be done or achieved.",
@@ -34,9 +34,9 @@
         "sub_subcategory": "Opinion_Phrases"
     },
     {
-        "id": "A1-ADJ-COM-02",
+        "id": "A1-ADJ-COM-016",
         "word": "sure",
-        "emoji": "✅",
+        "emoji": "\u2705",
         "form": "adjective",
         "definitions": [
             {
@@ -53,7 +53,7 @@
         ],
         "comparative": "surer",
         "superlative": "the surest",
-        "transcription": "ʃʊr",
+        "transcription": "\u0283\u028ar",
         "lang": "en",
         "level": "starter",
         "theme": "giving_opinions",
@@ -69,9 +69,9 @@
         "sub_subcategory": "Opinion_Phrases"
     },
     {
-        "id": "A1-ADJ-COM-03",
+        "id": "A1-ADJ-COM-017",
         "word": "unsure",
-        "emoji": "❓",
+        "emoji": "\u2753",
         "form": "adjective",
         "subtext": "feel unsure / unsure about",
         "synonyms": [
@@ -87,7 +87,7 @@
         ],
         "comparative": "more unsure",
         "superlative": "the most unsure",
-        "transcription": "ənˈʃʊr",
+        "transcription": "\u0259n\u02c8\u0283\u028ar",
         "lang": "en",
         "level": "starter",
         "theme": "giving_opinions",

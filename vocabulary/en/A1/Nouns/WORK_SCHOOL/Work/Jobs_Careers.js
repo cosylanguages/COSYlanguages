@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-WOR-01",
+        "id": "A1-NOUN-WOR-029",
         "word": "boss",
-        "emoji": "💼",
+        "emoji": "\ud83d\udcbc",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
                 ]
             }
         ],
-        "transcription": "bɔs",
+        "transcription": "b\u0254s",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -31,9 +31,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-NOUN-WOR-02",
+        "id": "A1-NOUN-WOR-030",
         "word": "break",
-        "emoji": "☕",
+        "emoji": "\u2615",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -47,7 +47,7 @@
                 ]
             }
         ],
-        "transcription": "breɪk",
+        "transcription": "bre\u026ak",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -60,9 +60,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-NOUN-WOR-03",
+        "id": "A1-NOUN-WOR-031",
         "word": "business",
-        "emoji": "💼",
+        "emoji": "\ud83d\udcbc",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -76,7 +76,7 @@
             }
         ],
         "subtext": "related to workplace basics",
-        "transcription": "ˈbɪznɪs",
+        "transcription": "\u02c8b\u026azn\u026as",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -89,9 +89,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-NOUN-WOR-04",
+        "id": "A1-NOUN-WOR-032",
         "word": "colleague",
-        "emoji": "🧑‍💼",
+        "emoji": "\ud83e\uddd1\u200d\ud83d\udcbc",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -105,7 +105,7 @@
             }
         ],
         "subtext": "related to workplace basics",
-        "transcription": "ˈkɑlig",
+        "transcription": "\u02c8k\u0251lig",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -118,9 +118,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-NOUN-WOR-05",
+        "id": "A1-NOUN-WOR-033",
         "word": "company",
-        "emoji": "🏢",
+        "emoji": "\ud83c\udfe2",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -134,7 +134,7 @@
             }
         ],
         "subtext": "related to workplace basics",
-        "transcription": "ˈkəmpəˌni",
+        "transcription": "\u02c8k\u0259mp\u0259\u02ccni",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -147,9 +147,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-NOUN-WOR-06",
+        "id": "A1-NOUN-WOR-034",
         "word": "document",
-        "emoji": "📄",
+        "emoji": "\ud83d\udcc4",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -163,7 +163,7 @@
             }
         ],
         "subtext": "related to workplace basics",
-        "transcription": "ˈdɑkjəmɛnt",
+        "transcription": "\u02c8d\u0251kj\u0259m\u025bnt",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -176,9 +176,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-NOUN-WOR-07",
+        "id": "A1-NOUN-WOR-035",
         "word": "factory",
-        "emoji": "🏭",
+        "emoji": "\ud83c\udfed",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -192,7 +192,7 @@
             }
         ],
         "subtext": "related to workplace basics",
-        "transcription": "ˈfæktəri",
+        "transcription": "\u02c8f\u00e6kt\u0259ri",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -205,9 +205,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-NOUN-WOR-08",
+        "id": "A1-NOUN-WOR-036",
         "word": "file",
-        "emoji": "📁",
+        "emoji": "\ud83d\udcc1",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -221,7 +221,7 @@
             }
         ],
         "subtext": "related to workplace basics",
-        "transcription": "faɪl",
+        "transcription": "fa\u026al",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -234,9 +234,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-NOUN-WOR-09",
+        "id": "A1-NOUN-WOR-037",
         "word": "group",
-        "emoji": "👥",
+        "emoji": "\ud83d\udc65",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -266,9 +266,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-NOUN-WOR-10",
+        "id": "A1-NOUN-WOR-038",
         "word": "meeting",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -283,7 +283,7 @@
                 ]
             }
         ],
-        "transcription": "ˈmitɪŋ",
+        "transcription": "\u02c8mit\u026a\u014b",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -296,9 +296,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-NOUN-WOR-11",
+        "id": "A1-NOUN-WOR-039",
         "word": "report",
-        "emoji": "📄",
+        "emoji": "\ud83d\udcc4",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -312,7 +312,7 @@
                 ]
             }
         ],
-        "transcription": "rɪˈpɔːt",
+        "transcription": "r\u026a\u02c8p\u0254\u02d0t",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -325,9 +325,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-NOUN-WOR-12",
+        "id": "A1-NOUN-WOR-040",
         "word": "sleep",
-        "emoji": "😴",
+        "emoji": "\ud83d\ude34",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -347,7 +347,7 @@
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "slēpan",
+            "origin_word": "sl\u0113pan",
             "origin_meaning": "to sleep"
         },
         "antonyms": [
@@ -361,9 +361,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-NOUN-WOR-13",
+        "id": "A1-NOUN-WOR-041",
         "word": "staff",
-        "emoji": "👥",
+        "emoji": "\ud83d\udc65",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -381,7 +381,7 @@
                 ]
             }
         ],
-        "transcription": "stæf",
+        "transcription": "st\u00e6f",
         "lang": "en",
         "level": "starter",
         "theme": "work",

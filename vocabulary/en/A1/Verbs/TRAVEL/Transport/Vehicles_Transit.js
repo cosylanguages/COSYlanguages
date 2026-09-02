@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-TRA-01",
+        "id": "A1-VERB-TRA-027",
         "word": "drive",
-        "emoji": "🚗",
+        "emoji": "\ud83d\ude97",
         "subtext": "drive to work / drive a car / drive home / drive carefully",
         "form": "verb",
         "definitions": [
@@ -21,7 +21,7 @@
         "v2": "drove",
         "v3": "driven",
         "group": "irregular",
-        "transcription": "draɪv",
+        "transcription": "dra\u026av",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -37,9 +37,9 @@
         "sub_subcategory": "Vehicles_Transit"
     },
     {
-        "id": "A1-VERB-TRA-02",
+        "id": "A1-VERB-TRA-028",
         "word": "drive",
-        "emoji": "🚗",
+        "emoji": "\ud83d\ude97",
         "subtext": "drive to work / drive a car / drive home / drive carefully",
         "form": "verb",
         "definitions": [
@@ -56,7 +56,7 @@
         "v2": "drove",
         "v3": "driven",
         "group": "regular",
-        "transcription": "draɪv",
+        "transcription": "dra\u026av",
         "synonyms": [
             "operate"
         ],
@@ -76,9 +76,9 @@
         "sub_subcategory": "Vehicles_Transit"
     },
     {
-        "id": "A1-VERB-TRA-03",
+        "id": "A1-VERB-TRA-029",
         "word": "fly",
-        "emoji": "✈️",
+        "emoji": "\u2708\ufe0f",
         "subtext": "fly to a city / fly business class / fly economy",
         "form": "verb",
         "definitions": [
@@ -95,7 +95,7 @@
         "v2": "flew",
         "v3": "flown",
         "group": "irregular",
-        "transcription": "flaɪ",
+        "transcription": "fla\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -111,9 +111,9 @@
         "sub_subcategory": "Vehicles_Transit"
     },
     {
-        "id": "A1-VERB-TRA-04",
+        "id": "A1-VERB-TRA-030",
         "word": "fly",
-        "emoji": "✈️",
+        "emoji": "\u2708\ufe0f",
         "subtext": "fly to a city / fly business class / fly economy",
         "form": "verb",
         "definitions": [
@@ -130,7 +130,7 @@
         "v2": "flew",
         "v3": "flown",
         "group": "regular",
-        "transcription": "flaɪ",
+        "transcription": "fla\u026a",
         "synonyms": [
             "travel by air"
         ],
@@ -150,9 +150,9 @@
         "sub_subcategory": "Vehicles_Transit"
     },
     {
-        "id": "A1-VERB-TRA-05",
+        "id": "A1-VERB-TRA-031",
         "word": "ride",
-        "emoji": "🚲",
+        "emoji": "\ud83d\udeb2",
         "form": "verb",
         "subtext": "ride a bike / ride a horse",
         "definitions": [
@@ -168,7 +168,7 @@
         "v2": "rode",
         "v3": "ridden",
         "group": "irregular",
-        "transcription": "raɪd",
+        "transcription": "ra\u026ad",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -184,9 +184,9 @@
         "sub_subcategory": "Vehicles_Transit"
     },
     {
-        "id": "A1-VERB-TRA-06",
+        "id": "A1-VERB-TRA-032",
         "word": "ride",
-        "emoji": "🚲",
+        "emoji": "\ud83d\udeb2",
         "form": "verb",
         "subtext": "ride a bike / ride a horse",
         "definitions": [
@@ -202,7 +202,7 @@
         "v2": "rode",
         "v3": "ridden",
         "group": "regular",
-        "transcription": "raɪd",
+        "transcription": "ra\u026ad",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -219,12 +219,12 @@
         "sub_subcategory": "Vehicles_Transit"
     },
     {
-        "id": "A1-VERB-TRA-07",
+        "id": "A1-VERB-TRA-033",
         "word": "take",
-        "emoji": "👜",
+        "emoji": "\ud83d\udc5c",
         "subtext": "take the bus / take medicine / take a break / take time",
         "form": "verb",
-        "transcription": "teɪk",
+        "transcription": "te\u026ak",
         "definitions": [
             {
                 "text": "To hold and move something; to use or consume.",
@@ -254,12 +254,12 @@
         "sub_subcategory": "Vehicles_Transit"
     },
     {
-        "id": "A1-VERB-TRA-08",
+        "id": "A1-VERB-TRA-034",
         "word": "take",
-        "emoji": "👜",
+        "emoji": "\ud83d\udc5c",
         "subtext": "take the bus / take medicine / take a break / take time",
         "form": "verb",
-        "transcription": "teɪk",
+        "transcription": "te\u026ak",
         "definitions": [
             {
                 "text": "To hold and move something; to use or consume.",
@@ -290,9 +290,9 @@
         "sub_subcategory": "Vehicles_Transit"
     },
     {
-        "id": "A1-VERB-TRA-09",
+        "id": "A1-VERB-TRA-035",
         "word": "walk",
-        "emoji": "🚶",
+        "emoji": "\ud83d\udeb6",
         "subtext": "walk to work / walk home / walk slowly / walk every day",
         "form": "verb",
         "definitions": [
@@ -309,7 +309,7 @@
         "v2": "walked",
         "v3": "walked",
         "group": "regular",
-        "transcription": "wɔk",
+        "transcription": "w\u0254k",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -325,9 +325,9 @@
         "sub_subcategory": "Vehicles_Transit"
     },
     {
-        "id": "A1-VERB-TRA-10",
+        "id": "A1-VERB-TRA-036",
         "word": "walk",
-        "emoji": "🚶",
+        "emoji": "\ud83d\udeb6",
         "subtext": "walk to work / walk home / walk slowly / walk every day",
         "form": "verb",
         "definitions": [
@@ -344,7 +344,7 @@
         "v2": "walked",
         "v3": "walked",
         "group": "regular",
-        "transcription": "wɔk",
+        "transcription": "w\u0254k",
         "synonyms": [
             "go on foot"
         ],

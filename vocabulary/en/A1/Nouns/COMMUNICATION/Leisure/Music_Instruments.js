@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-COM-01",
+        "id": "A1-NOUN-COM-024",
         "word": "band",
-        "emoji": "🎸",
+        "emoji": "\ud83c\udfb8",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
             }
         ],
         "subtext": "related to music",
-        "transcription": "bænd",
+        "transcription": "b\u00e6nd",
         "lang": "en",
         "level": "starter",
         "theme": "music",
@@ -31,9 +31,9 @@
         "sub_subcategory": "Music_Instruments"
     },
     {
-        "id": "A1-NOUN-COM-02",
+        "id": "A1-NOUN-COM-025",
         "word": "concert",
-        "emoji": "🎵",
+        "emoji": "\ud83c\udfb5",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -47,7 +47,7 @@
             }
         ],
         "subtext": "related to music",
-        "transcription": "ˈkɑnsərt",
+        "transcription": "\u02c8k\u0251ns\u0259rt",
         "lang": "en",
         "level": "starter",
         "theme": "music",
@@ -60,9 +60,9 @@
         "sub_subcategory": "Music_Instruments"
     },
     {
-        "id": "A1-NOUN-COM-03",
+        "id": "A1-NOUN-COM-026",
         "word": "drums",
-        "emoji": "🥁",
+        "emoji": "\ud83e\udd41",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -76,7 +76,7 @@
             }
         ],
         "subtext": "related to musical instruments",
-        "transcription": "drəmz",
+        "transcription": "dr\u0259mz",
         "lang": "en",
         "level": "starter",
         "theme": "music",
@@ -89,9 +89,9 @@
         "sub_subcategory": "Music_Instruments"
     },
     {
-        "id": "A1-NOUN-COM-04",
+        "id": "A1-NOUN-COM-027",
         "word": "flute",
-        "emoji": "🪈",
+        "emoji": "\ud83e\ude88",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -118,9 +118,9 @@
         "sub_subcategory": "Music_Instruments"
     },
     {
-        "id": "A1-NOUN-COM-05",
+        "id": "A1-NOUN-COM-028",
         "word": "guitar",
-        "emoji": "🎸",
+        "emoji": "\ud83c\udfb8",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -134,7 +134,7 @@
             }
         ],
         "subtext": "related to music",
-        "transcription": "gɪˈtɑr",
+        "transcription": "g\u026a\u02c8t\u0251r",
         "lang": "en",
         "level": "starter",
         "theme": "music",
@@ -147,9 +147,9 @@
         "sub_subcategory": "Music_Instruments"
     },
     {
-        "id": "A1-NOUN-COM-06",
+        "id": "A1-NOUN-COM-029",
         "word": "music",
-        "emoji": "🎵",
+        "emoji": "\ud83c\udfb5",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -163,7 +163,7 @@
             }
         ],
         "subtext": "related to music",
-        "transcription": "mˈjuzɪk",
+        "transcription": "m\u02c8juz\u026ak",
         "lang": "en",
         "level": "starter",
         "theme": "music",
@@ -176,9 +176,9 @@
         "sub_subcategory": "Music_Instruments"
     },
     {
-        "id": "A1-NOUN-COM-07",
+        "id": "A1-NOUN-COM-030",
         "word": "piano",
-        "emoji": "🎹",
+        "emoji": "\ud83c\udfb9",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -192,7 +192,7 @@
             }
         ],
         "subtext": "related to music",
-        "transcription": "piˈænə",
+        "transcription": "pi\u02c8\u00e6n\u0259",
         "lang": "en",
         "level": "starter",
         "theme": "music",
@@ -205,9 +205,9 @@
         "sub_subcategory": "Music_Instruments"
     },
     {
-        "id": "A1-NOUN-COM-08",
+        "id": "A1-NOUN-COM-031",
         "word": "song",
-        "emoji": "🎶",
+        "emoji": "\ud83c\udfb6",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -221,7 +221,7 @@
             }
         ],
         "subtext": "related to music",
-        "transcription": "sɔŋ",
+        "transcription": "s\u0254\u014b",
         "lang": "en",
         "level": "starter",
         "theme": "music",
@@ -234,9 +234,9 @@
         "sub_subcategory": "Music_Instruments"
     },
     {
-        "id": "A1-NOUN-COM-09",
+        "id": "A1-NOUN-COM-032",
         "word": "violin",
-        "emoji": "🎻",
+        "emoji": "\ud83c\udfbb",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -250,7 +250,7 @@
             }
         ],
         "subtext": "related to musical instruments",
-        "transcription": "vaɪəˈlɪn",
+        "transcription": "va\u026a\u0259\u02c8l\u026an",
         "lang": "en",
         "level": "starter",
         "theme": "music",

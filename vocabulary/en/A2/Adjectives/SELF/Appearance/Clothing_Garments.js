@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A2-ADJ-SEL-01",
+        "id": "A2-ADJ-SEL-001",
         "word": "loose",
-        "emoji": "👕",
+        "emoji": "\ud83d\udc55",
         "form": "adjective",
         "definitions": [
             {
@@ -22,7 +22,7 @@
         ],
         "comparative": "looser",
         "superlative": "the loosest",
-        "transcription": "luːs",
+        "transcription": "lu\u02d0s",
         "lang": "en",
         "level": "elementary",
         "theme": "clothes",
@@ -35,9 +35,9 @@
         "sub_subcategory": "Clothing_Garments"
     },
     {
-        "id": "A2-ADJ-SEL-02",
+        "id": "A2-ADJ-SEL-002",
         "word": "tight",
-        "emoji": "👚",
+        "emoji": "\ud83d\udc5a",
         "form": "adjective",
         "definitions": [
             {
@@ -55,7 +55,7 @@
         ],
         "comparative": "tighter",
         "superlative": "the tightest",
-        "transcription": "taɪt",
+        "transcription": "ta\u026at",
         "lang": "en",
         "level": "elementary",
         "theme": "clothes",

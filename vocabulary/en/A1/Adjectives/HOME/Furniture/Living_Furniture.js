@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-ADJ-HOM-01",
+        "id": "A1-ADJ-HOM-001",
         "word": "comfortable",
-        "emoji": "🛋️",
+        "emoji": "\ud83d\udecb\ufe0f",
         "form": "adjective",
         "subtext": "a comfortable chair / feel comfortable",
         "synonyms": [
@@ -21,7 +21,7 @@
         ],
         "comparative": "more comfortable",
         "superlative": "the most comfortable",
-        "transcription": "ˈkəmfərtəbəl",
+        "transcription": "\u02c8k\u0259mf\u0259rt\u0259b\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -34,9 +34,9 @@
         "sub_subcategory": "Living_Furniture"
     },
     {
-        "id": "A1-ADJ-HOM-02",
+        "id": "A1-ADJ-HOM-002",
         "word": "comfortable",
-        "emoji": "🛋️",
+        "emoji": "\ud83d\udecb\ufe0f",
         "form": "adjective",
         "subtext": "a comfortable chair / feel comfortable",
         "synonyms": [
@@ -53,7 +53,7 @@
         ],
         "comparative": "more comfortable",
         "superlative": "the most comfortable",
-        "transcription": "ˈkəmfərtəbəl",
+        "transcription": "\u02c8k\u0259mf\u0259rt\u0259b\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -69,9 +69,9 @@
         "sub_subcategory": "Living_Furniture"
     },
     {
-        "id": "A1-ADJ-HOM-03",
+        "id": "A1-ADJ-HOM-003",
         "word": "uncomfortable",
-        "emoji": "🪑",
+        "emoji": "\ud83e\ude91",
         "form": "adjective",
         "subtext": "feel uncomfortable / uncomfortable chair",
         "synonyms": [
@@ -88,7 +88,7 @@
         ],
         "comparative": "more uncomfortable",
         "superlative": "the most uncomfortable",
-        "transcription": "ənˈkəmfərtəbəl",
+        "transcription": "\u0259n\u02c8k\u0259mf\u0259rt\u0259b\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -101,9 +101,9 @@
         "sub_subcategory": "Living_Furniture"
     },
     {
-        "id": "A1-ADJ-HOM-04",
+        "id": "A1-ADJ-HOM-004",
         "word": "uncomfortable",
-        "emoji": "🪑",
+        "emoji": "\ud83e\ude91",
         "form": "adjective",
         "subtext": "feel uncomfortable / uncomfortable chair",
         "synonyms": [
@@ -120,7 +120,7 @@
         ],
         "comparative": "more uncomfortable",
         "superlative": "the most uncomfortable",
-        "transcription": "ənˈkəmfərtəbəl",
+        "transcription": "\u0259n\u02c8k\u0259mf\u0259rt\u0259b\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",

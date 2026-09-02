@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A2-ADJ-NAT-01",
+        "id": "A2-ADJ-NAT-001",
         "word": "tame",
-        "emoji": "🐈",
+        "emoji": "\ud83d\udc08",
         "form": "adjective",
         "definitions": [
             {
@@ -20,7 +20,7 @@
         ],
         "comparative": "tamer",
         "superlative": "the tamest",
-        "transcription": "teɪm",
+        "transcription": "te\u026am",
         "lang": "en",
         "level": "elementary",
         "theme": "animals",
@@ -33,9 +33,9 @@
         "sub_subcategory": "Mammals_Creatures"
     },
     {
-        "id": "A2-ADJ-NAT-02",
+        "id": "A2-ADJ-NAT-002",
         "word": "wild",
-        "emoji": "🦁",
+        "emoji": "\ud83e\udd81",
         "form": "adjective",
         "definitions": [
             {
@@ -51,7 +51,7 @@
         ],
         "comparative": "wilder",
         "superlative": "the wildest",
-        "transcription": "waɪld",
+        "transcription": "wa\u026ald",
         "lang": "en",
         "level": "elementary",
         "theme": "animals",

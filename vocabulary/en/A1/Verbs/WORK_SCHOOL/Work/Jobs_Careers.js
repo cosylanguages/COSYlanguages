@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-WOR-01",
+        "id": "A1-VERB-WOR-026",
         "word": "arrive",
-        "emoji": "🏁",
+        "emoji": "\ud83c\udfc1",
         "subtext": "arrive at / in, arrive at work / arrive late / arrive on time / arrive home",
         "form": "verb",
         "definitions": [
@@ -20,7 +20,7 @@
         "v2": "arrived",
         "v3": "arrived",
         "group": "regular",
-        "transcription": "əraɪv",
+        "transcription": "\u0259ra\u026av",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -36,9 +36,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-02",
+        "id": "A1-VERB-WOR-027",
         "word": "arrive",
-        "emoji": "🏁",
+        "emoji": "\ud83c\udfc1",
         "subtext": "arrive at / in, arrive at work / arrive late / arrive on time / arrive home",
         "form": "verb",
         "definitions": [
@@ -54,7 +54,7 @@
         "v2": "arrived",
         "v3": "arrived",
         "group": "regular",
-        "transcription": "əraɪv",
+        "transcription": "\u0259ra\u026av",
         "synonyms": [
             "reach"
         ],
@@ -75,7 +75,7 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-03",
+        "id": "A1-VERB-WOR-028",
         "word": "attend",
         "definitions": [
             {
@@ -90,10 +90,10 @@
         "aspect": "action",
         "v2": "attended",
         "v3": "attended",
-        "emoji": "📅",
+        "emoji": "\ud83d\udcc5",
         "form": "verb",
         "group": "regular",
-        "transcription": "əˈtɛnd",
+        "transcription": "\u0259\u02c8t\u025bnd",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -109,7 +109,7 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-04",
+        "id": "A1-VERB-WOR-029",
         "word": "attend",
         "definitions": [
             {
@@ -124,10 +124,10 @@
         "aspect": "action",
         "v2": "attended",
         "v3": "attended",
-        "emoji": "📅",
+        "emoji": "\ud83d\udcc5",
         "form": "verb",
         "group": "regular",
-        "transcription": "əˈtɛnd",
+        "transcription": "\u0259\u02c8t\u025bnd",
         "auxiliary": "have",
         "v4": "attending",
         "lang": "en",
@@ -145,9 +145,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-05",
+        "id": "A1-VERB-WOR-030",
         "word": "become",
-        "emoji": "✨",
+        "emoji": "\u2728",
         "subtext": "become a manager / become popular / become clear / become important",
         "form": "verb",
         "definitions": [
@@ -163,7 +163,7 @@
         "v2": "became",
         "v3": "become",
         "group": "irregular",
-        "transcription": "bɪˈkəm",
+        "transcription": "b\u026a\u02c8k\u0259m",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -179,9 +179,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-06",
+        "id": "A1-VERB-WOR-031",
         "word": "become",
-        "emoji": "✨",
+        "emoji": "\u2728",
         "subtext": "become a manager / become popular / become clear / become important",
         "form": "verb",
         "definitions": [
@@ -197,7 +197,7 @@
         "v2": "became",
         "v3": "become",
         "group": "regular",
-        "transcription": "bɪˈkəm",
+        "transcription": "b\u026a\u02c8k\u0259m",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -214,9 +214,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-07",
+        "id": "A1-VERB-WOR-032",
         "word": "begin",
-        "emoji": "▶️",
+        "emoji": "\u25b6\ufe0f",
         "form": "verb",
         "subtext": "begin a meeting / begin to work",
         "synonyms": [
@@ -235,7 +235,7 @@
         "v2": "began",
         "v3": "begun",
         "group": "irregular",
-        "transcription": "bɪˈgɪn",
+        "transcription": "b\u026a\u02c8g\u026an",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -251,9 +251,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-08",
+        "id": "A1-VERB-WOR-033",
         "word": "begin",
-        "emoji": "▶️",
+        "emoji": "\u25b6\ufe0f",
         "form": "verb",
         "subtext": "begin a meeting / begin to work",
         "synonyms": [
@@ -272,7 +272,7 @@
         "v2": "began",
         "v3": "begun",
         "group": "regular",
-        "transcription": "bɪˈgɪn",
+        "transcription": "b\u026a\u02c8g\u026an",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -289,9 +289,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-09",
+        "id": "A1-VERB-WOR-034",
         "word": "brush",
-        "emoji": "🪥",
+        "emoji": "\ud83e\udea5",
         "form": "verb",
         "subtext": "brush your teeth",
         "synonyms": [
@@ -310,7 +310,7 @@
         "v2": "brushed",
         "v3": "brushed",
         "group": "regular",
-        "transcription": "brəʃ",
+        "transcription": "br\u0259\u0283",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -326,9 +326,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-10",
+        "id": "A1-VERB-WOR-035",
         "word": "brush",
-        "emoji": "🪥",
+        "emoji": "\ud83e\udea5",
         "form": "verb",
         "subtext": "brush your teeth",
         "synonyms": [
@@ -347,7 +347,7 @@
         "v2": "brushed",
         "v3": "brushed",
         "group": "regular",
-        "transcription": "brəʃ",
+        "transcription": "br\u0259\u0283",
         "auxiliary": "have",
         "v4": "brushing",
         "lang": "en",
@@ -365,9 +365,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-11",
+        "id": "A1-VERB-WOR-036",
         "word": "carry",
-        "emoji": "🎒",
+        "emoji": "\ud83c\udf92",
         "subtext": "carry a bag / carry notes / carry out / carry on",
         "form": "verb",
         "definitions": [
@@ -383,7 +383,7 @@
         "v2": "carried",
         "v3": "carried",
         "group": "regular",
-        "transcription": "ˈkɛri",
+        "transcription": "\u02c8k\u025bri",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -399,9 +399,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-12",
+        "id": "A1-VERB-WOR-037",
         "word": "carry",
-        "emoji": "🎒",
+        "emoji": "\ud83c\udf92",
         "subtext": "carry a bag / carry notes / carry out / carry on",
         "form": "verb",
         "definitions": [
@@ -417,7 +417,7 @@
         "v2": "carried",
         "v3": "carried",
         "group": "regular",
-        "transcription": "ˈkɛri",
+        "transcription": "\u02c8k\u025bri",
         "auxiliary": "have",
         "v4": "carrying",
         "lang": "en",
@@ -435,9 +435,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-13",
+        "id": "A1-VERB-WOR-038",
         "word": "change",
-        "emoji": "🔄",
+        "emoji": "\ud83d\udd04",
         "subtext": "change jobs / change your mind / change the plan / change something",
         "form": "verb",
         "definitions": [
@@ -453,7 +453,7 @@
         "v2": "changed",
         "v3": "changed",
         "group": "regular",
-        "transcription": "ʧeɪnʤ",
+        "transcription": "\u02a7e\u026an\u02a4",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -469,9 +469,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-14",
+        "id": "A1-VERB-WOR-039",
         "word": "change",
-        "emoji": "🔄",
+        "emoji": "\ud83d\udd04",
         "subtext": "change jobs / change your mind / change the plan / change something",
         "form": "verb",
         "definitions": [
@@ -487,7 +487,7 @@
         "v2": "changed",
         "v3": "changed",
         "group": "regular",
-        "transcription": "ʧeɪnʤ",
+        "transcription": "\u02a7e\u026an\u02a4",
         "auxiliary": "have",
         "v4": "changing",
         "lang": "en",
@@ -505,7 +505,7 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-15",
+        "id": "A1-VERB-WOR-040",
         "word": "check",
         "definitions": [
             {
@@ -520,10 +520,10 @@
         "aspect": "action",
         "v2": "checked",
         "v3": "checked",
-        "emoji": "✅",
+        "emoji": "\u2705",
         "form": "verb",
         "group": "regular",
-        "transcription": "ʧɛk",
+        "transcription": "\u02a7\u025bk",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -539,7 +539,7 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-16",
+        "id": "A1-VERB-WOR-041",
         "word": "check",
         "definitions": [
             {
@@ -554,10 +554,10 @@
         "aspect": "action",
         "v2": "checked",
         "v3": "checked",
-        "emoji": "✅",
+        "emoji": "\u2705",
         "form": "verb",
         "group": "regular",
-        "transcription": "ʧɛk",
+        "transcription": "\u02a7\u025bk",
         "auxiliary": "have",
         "v4": "checking",
         "lang": "en",
@@ -575,7 +575,7 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-17",
+        "id": "A1-VERB-WOR-042",
         "word": "come back",
         "definitions": [
             {
@@ -590,10 +590,10 @@
         "aspect": "action",
         "v2": "came back",
         "v3": "come back",
-        "emoji": "🔙",
+        "emoji": "\ud83d\udd19",
         "form": "verb",
         "group": "irregular",
-        "transcription": "kəm bæk",
+        "transcription": "k\u0259m b\u00e6k",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -606,7 +606,7 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-18",
+        "id": "A1-VERB-WOR-043",
         "word": "come back",
         "definitions": [
             {
@@ -621,10 +621,10 @@
         "aspect": "action",
         "v2": "came back",
         "v3": "come back",
-        "emoji": "🔙",
+        "emoji": "\ud83d\udd19",
         "form": "verb",
         "group": "regular",
-        "transcription": "kəm bæk",
+        "transcription": "k\u0259m b\u00e6k",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -638,9 +638,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-19",
+        "id": "A1-VERB-WOR-044",
         "word": "copy",
-        "emoji": "📄",
+        "emoji": "\ud83d\udcc4",
         "form": "verb",
         "subtext": "copy a document / copy files",
         "definitions": [
@@ -656,7 +656,7 @@
         "v2": "copied",
         "v3": "copied",
         "group": "regular",
-        "transcription": "ˈkɑpi",
+        "transcription": "\u02c8k\u0251pi",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -672,9 +672,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-20",
+        "id": "A1-VERB-WOR-045",
         "word": "copy",
-        "emoji": "📄",
+        "emoji": "\ud83d\udcc4",
         "form": "verb",
         "subtext": "copy a document / copy files",
         "definitions": [
@@ -690,7 +690,7 @@
         "v2": "copied",
         "v3": "copied",
         "group": "regular",
-        "transcription": "ˈkɑpi",
+        "transcription": "\u02c8k\u0251pi",
         "auxiliary": "have",
         "v4": "copying",
         "lang": "en",
@@ -708,9 +708,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-21",
+        "id": "A1-VERB-WOR-046",
         "word": "do",
-        "emoji": "🛠️",
+        "emoji": "\ud83d\udee0\ufe0f",
         "subtext": "do work / do the shopping / do exercise / do nothing",
         "form": "verb",
         "definitions": [
@@ -734,7 +734,7 @@
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "dōn",
+            "origin_word": "d\u014dn",
             "origin_meaning": "to do"
         },
         "antonyms": [
@@ -748,9 +748,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-22",
+        "id": "A1-VERB-WOR-047",
         "word": "do",
-        "emoji": "🛠️",
+        "emoji": "\ud83d\udee0\ufe0f",
         "subtext": "do work / do the shopping / do exercise / do nothing",
         "form": "verb",
         "definitions": [
@@ -786,7 +786,7 @@
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "dōn",
+            "origin_word": "d\u014dn",
             "origin_meaning": "to do"
         },
         "antonyms": [
@@ -800,9 +800,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-23",
+        "id": "A1-VERB-WOR-048",
         "word": "dress",
-        "emoji": "👗",
+        "emoji": "\ud83d\udc57",
         "subtext": "dress well / dress for work",
         "synonyms": [
             "get dressed"
@@ -822,7 +822,7 @@
         "v2": "dressed",
         "v3": "dressed",
         "group": "regular",
-        "transcription": "drɛs",
+        "transcription": "dr\u025bs",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -838,9 +838,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-24",
+        "id": "A1-VERB-WOR-049",
         "word": "dress",
-        "emoji": "👗",
+        "emoji": "\ud83d\udc57",
         "subtext": "dress well / dress for work",
         "synonyms": [
             "get dressed"
@@ -860,7 +860,7 @@
         "v2": "dressed",
         "v3": "dressed",
         "group": "regular",
-        "transcription": "drɛs",
+        "transcription": "dr\u025bs",
         "auxiliary": "have",
         "v4": "dressing",
         "lang": "en",
@@ -878,9 +878,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-25",
+        "id": "A1-VERB-WOR-050",
         "word": "end",
-        "emoji": "🏁",
+        "emoji": "\ud83c\udfc1",
         "form": "verb",
         "subtext": "end a class / at the end",
         "synonyms": [
@@ -900,7 +900,7 @@
         "v2": "ended",
         "v3": "ended",
         "group": "regular",
-        "transcription": "ɛnd",
+        "transcription": "\u025bnd",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -916,9 +916,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-26",
+        "id": "A1-VERB-WOR-051",
         "word": "end",
-        "emoji": "🏁",
+        "emoji": "\ud83c\udfc1",
         "form": "verb",
         "subtext": "end a class / at the end",
         "synonyms": [
@@ -938,7 +938,7 @@
         "v2": "ended",
         "v3": "ended",
         "group": "regular",
-        "transcription": "ɛnd",
+        "transcription": "\u025bnd",
         "auxiliary": "have",
         "v4": "ending",
         "lang": "en",
@@ -956,9 +956,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-27",
+        "id": "A1-VERB-WOR-052",
         "word": "finish",
-        "emoji": "🏁",
+        "emoji": "\ud83c\udfc1",
         "subtext": "finish work / finish a project / finish early / finish late",
         "form": "verb",
         "definitions": [
@@ -974,7 +974,7 @@
         "v2": "finished",
         "v3": "finished",
         "group": "regular",
-        "transcription": "ˈfɪnɪʃ",
+        "transcription": "\u02c8f\u026an\u026a\u0283",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -990,9 +990,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-28",
+        "id": "A1-VERB-WOR-053",
         "word": "finish",
-        "emoji": "🏁",
+        "emoji": "\ud83c\udfc1",
         "subtext": "finish work / finish a project / finish early / finish late",
         "form": "verb",
         "definitions": [
@@ -1008,7 +1008,7 @@
         "v2": "finished",
         "v3": "finished",
         "group": "regular",
-        "transcription": "ˈfɪnɪʃ",
+        "transcription": "\u02c8f\u026an\u026a\u0283",
         "synonyms": [
             "complete",
             "end"
@@ -1030,9 +1030,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-29",
+        "id": "A1-VERB-WOR-054",
         "word": "follow",
-        "emoji": "👣",
+        "emoji": "\ud83d\udc63",
         "subtext": "follow instructions / follow someone / follow the news / follow up",
         "form": "verb",
         "definitions": [
@@ -1048,7 +1048,7 @@
         "v2": "followed",
         "v3": "followed",
         "group": "regular",
-        "transcription": "ˈfɑloʊ",
+        "transcription": "\u02c8f\u0251lo\u028a",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -1064,9 +1064,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-30",
+        "id": "A1-VERB-WOR-055",
         "word": "follow",
-        "emoji": "👣",
+        "emoji": "\ud83d\udc63",
         "subtext": "follow instructions / follow someone / follow the news / follow up",
         "form": "verb",
         "definitions": [
@@ -1082,7 +1082,7 @@
         "v2": "followed",
         "v3": "followed",
         "group": "regular",
-        "transcription": "ˈfɑloʊ",
+        "transcription": "\u02c8f\u0251lo\u028a",
         "auxiliary": "have",
         "v4": "following",
         "lang": "en",
@@ -1100,7 +1100,7 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-31",
+        "id": "A1-VERB-WOR-056",
         "word": "get up",
         "definitions": [
             {
@@ -1115,10 +1115,10 @@
         "aspect": "action",
         "v2": "got up",
         "v3": "got up",
-        "emoji": "🛌",
+        "emoji": "\ud83d\udecc",
         "form": "verb",
         "group": "irregular",
-        "transcription": "gɪt əp",
+        "transcription": "g\u026at \u0259p",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -1131,7 +1131,7 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-32",
+        "id": "A1-VERB-WOR-057",
         "word": "get up",
         "definitions": [
             {
@@ -1146,10 +1146,10 @@
         "aspect": "action",
         "v2": "got up",
         "v3": "got up",
-        "emoji": "🛌",
+        "emoji": "\ud83d\udecc",
         "form": "verb",
         "group": "regular",
-        "transcription": "gɪt əp",
+        "transcription": "g\u026at \u0259p",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -1163,7 +1163,7 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-33",
+        "id": "A1-VERB-WOR-058",
         "word": "go to bed",
         "definitions": [
             {
@@ -1178,10 +1178,10 @@
         "aspect": "action",
         "v2": "went to bed",
         "v3": "gone to bed",
-        "emoji": "🛌",
+        "emoji": "\ud83d\udecc",
         "form": "verb",
         "group": "irregular",
-        "transcription": "goʊ tɪ bɛd",
+        "transcription": "go\u028a t\u026a b\u025bd",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -1194,7 +1194,7 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-34",
+        "id": "A1-VERB-WOR-059",
         "word": "go to bed",
         "definitions": [
             {
@@ -1209,10 +1209,10 @@
         "aspect": "action",
         "v2": "went to bed",
         "v3": "gone to bed",
-        "emoji": "🛌",
+        "emoji": "\ud83d\udecc",
         "form": "verb",
         "group": "regular",
-        "transcription": "goʊ tɪ bɛd",
+        "transcription": "go\u028a t\u026a b\u025bd",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -1226,9 +1226,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-35",
+        "id": "A1-VERB-WOR-060",
         "word": "grow",
-        "emoji": "📈",
+        "emoji": "\ud83d\udcc8",
         "subtext": "grow a business / grow quickly / grow by / grow into",
         "form": "verb",
         "definitions": [
@@ -1244,7 +1244,7 @@
         "v2": "grew",
         "v3": "grown",
         "group": "irregular",
-        "transcription": "groʊ",
+        "transcription": "gro\u028a",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -1260,9 +1260,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-36",
+        "id": "A1-VERB-WOR-061",
         "word": "grow",
-        "emoji": "📈",
+        "emoji": "\ud83d\udcc8",
         "subtext": "grow a business / grow quickly / grow by / grow into",
         "form": "verb",
         "definitions": [
@@ -1278,7 +1278,7 @@
         "v2": "grew",
         "v3": "grown",
         "group": "regular",
-        "transcription": "groʊ",
+        "transcription": "gro\u028a",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -1295,12 +1295,12 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-37",
+        "id": "A1-VERB-WOR-062",
         "word": "have",
-        "emoji": "👜",
+        "emoji": "\ud83d\udc5c",
         "subtext": "have a job / have lunch / have a problem / have time",
         "form": "verb",
-        "transcription": "hæv",
+        "transcription": "h\u00e6v",
         "definitions": [
             {
                 "text": "To possess something; to experience something.",
@@ -1336,12 +1336,12 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-38",
+        "id": "A1-VERB-WOR-063",
         "word": "have",
-        "emoji": "👜",
+        "emoji": "\ud83d\udc5c",
         "subtext": "have a job / have lunch / have a problem / have time",
         "form": "verb",
-        "transcription": "hæv",
+        "transcription": "h\u00e6v",
         "definitions": [
             {
                 "text": "To possess something; to experience something.",
@@ -1389,7 +1389,7 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-39",
+        "id": "A1-VERB-WOR-064",
         "word": "have breakfast",
         "definitions": [
             {
@@ -1407,10 +1407,10 @@
         "aspect": "action",
         "v2": "had breakfast",
         "v3": "had breakfast",
-        "emoji": "🍳",
+        "emoji": "\ud83c\udf73",
         "form": "verb",
         "group": "irregular",
-        "transcription": "hæv ˈbrɛkfəst",
+        "transcription": "h\u00e6v \u02c8br\u025bkf\u0259st",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -1423,7 +1423,7 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-40",
+        "id": "A1-VERB-WOR-065",
         "word": "have breakfast",
         "definitions": [
             {
@@ -1441,10 +1441,10 @@
         "aspect": "action",
         "v2": "had breakfast",
         "v3": "had breakfast",
-        "emoji": "🍳",
+        "emoji": "\ud83c\udf73",
         "form": "verb",
         "group": "regular",
-        "transcription": "hæv ˈbrɛkfəst",
+        "transcription": "h\u00e6v \u02c8br\u025bkf\u0259st",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -1458,9 +1458,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-41",
+        "id": "A1-VERB-WOR-066",
         "word": "help",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "subtext": "help someone / help with a task / help out / ask for help",
         "form": "verb",
         "definitions": [
@@ -1476,7 +1476,7 @@
         "v2": "helped",
         "v3": "helped",
         "group": "regular",
-        "transcription": "hɛlp",
+        "transcription": "h\u025blp",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -1492,9 +1492,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-42",
+        "id": "A1-VERB-WOR-067",
         "word": "help",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "subtext": "help someone / help with a task / help out / ask for help",
         "form": "verb",
         "definitions": [
@@ -1510,7 +1510,7 @@
         "v2": "helped",
         "v3": "helped",
         "group": "regular",
-        "transcription": "hɛlp",
+        "transcription": "h\u025blp",
         "synonyms": [
             "assist"
         ],
@@ -1531,9 +1531,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-43",
+        "id": "A1-VERB-WOR-068",
         "word": "hold",
-        "emoji": "🤲",
+        "emoji": "\ud83e\udd32",
         "form": "verb",
         "subtext": "hold my hand / hold on",
         "synonyms": [
@@ -1553,7 +1553,7 @@
         "v2": "held",
         "v3": "held",
         "group": "irregular",
-        "transcription": "hoʊld",
+        "transcription": "ho\u028ald",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -1569,9 +1569,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-44",
+        "id": "A1-VERB-WOR-069",
         "word": "hold",
-        "emoji": "🤲",
+        "emoji": "\ud83e\udd32",
         "form": "verb",
         "subtext": "hold my hand / hold on",
         "synonyms": [
@@ -1591,7 +1591,7 @@
         "v2": "held",
         "v3": "held",
         "group": "regular",
-        "transcription": "hoʊld",
+        "transcription": "ho\u028ald",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -1608,9 +1608,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-45",
+        "id": "A1-VERB-WOR-070",
         "word": "keep",
-        "emoji": "📦",
+        "emoji": "\ud83d\udce6",
         "subtext": "keep going / keep quiet / keep a record / keep in touch",
         "form": "verb",
         "definitions": [
@@ -1643,9 +1643,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-46",
+        "id": "A1-VERB-WOR-071",
         "word": "keep",
-        "emoji": "📦",
+        "emoji": "\ud83d\udce6",
         "subtext": "keep going / keep quiet / keep a record / keep in touch",
         "form": "verb",
         "definitions": [
@@ -1682,9 +1682,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-47",
+        "id": "A1-VERB-WOR-072",
         "word": "lead",
-        "emoji": "👤",
+        "emoji": "\ud83d\udc64",
         "form": "verb",
         "subtext": "lead a team / follow the lead",
         "synonyms": [
@@ -1704,7 +1704,7 @@
         "v2": "led",
         "v3": "led",
         "group": "irregular",
-        "transcription": "lɛd",
+        "transcription": "l\u025bd",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -1720,9 +1720,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-48",
+        "id": "A1-VERB-WOR-073",
         "word": "lead",
-        "emoji": "👤",
+        "emoji": "\ud83d\udc64",
         "form": "verb",
         "subtext": "lead a team / follow the lead",
         "synonyms": [
@@ -1742,7 +1742,7 @@
         "v2": "led",
         "v3": "led",
         "group": "regular",
-        "transcription": "lɛd",
+        "transcription": "l\u025bd",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -1759,9 +1759,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-49",
+        "id": "A1-VERB-WOR-074",
         "word": "leave",
-        "emoji": "🚪",
+        "emoji": "\ud83d\udeaa",
         "subtext": "leave home / leave work / leave early / leave late",
         "form": "verb",
         "definitions": [
@@ -1793,9 +1793,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-50",
+        "id": "A1-VERB-WOR-075",
         "word": "leave",
-        "emoji": "🚪",
+        "emoji": "\ud83d\udeaa",
         "subtext": "leave home / leave work / leave early / leave late",
         "form": "verb",
         "definitions": [
@@ -1832,9 +1832,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-51",
+        "id": "A1-VERB-WOR-076",
         "word": "lie",
-        "emoji": "🛌",
+        "emoji": "\ud83d\udecc",
         "form": "verb",
         "subtext": "lie down / lie on the bed",
         "synonyms": [
@@ -1853,7 +1853,7 @@
         "v2": "lay",
         "v3": "lain",
         "group": "irregular",
-        "transcription": "laɪ",
+        "transcription": "la\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -1869,9 +1869,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-52",
+        "id": "A1-VERB-WOR-077",
         "word": "lie",
-        "emoji": "🛌",
+        "emoji": "\ud83d\udecc",
         "form": "verb",
         "subtext": "lie down / lie on the bed",
         "synonyms": [
@@ -1890,7 +1890,7 @@
         "v2": "lay",
         "v3": "lain",
         "group": "regular",
-        "transcription": "laɪ",
+        "transcription": "la\u026a",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -1907,9 +1907,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-53",
+        "id": "A1-VERB-WOR-078",
         "word": "make",
-        "emoji": "🏗️",
+        "emoji": "\ud83c\udfd7\ufe0f",
         "subtext": "make coffee / make a decision / make a mistake / make money",
         "form": "verb",
         "definitions": [
@@ -1926,7 +1926,7 @@
         "v2": "made",
         "v3": "made",
         "group": "irregular",
-        "transcription": "meɪk",
+        "transcription": "me\u026ak",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -1942,9 +1942,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-54",
+        "id": "A1-VERB-WOR-079",
         "word": "make",
-        "emoji": "🏗️",
+        "emoji": "\ud83c\udfd7\ufe0f",
         "subtext": "make coffee / make a decision / make a mistake / make money",
         "form": "verb",
         "definitions": [
@@ -1961,7 +1961,7 @@
         "v2": "made",
         "v3": "made",
         "group": "regular",
-        "transcription": "meɪk",
+        "transcription": "me\u026ak",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -1978,7 +1978,7 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-55",
+        "id": "A1-VERB-WOR-080",
         "word": "manage",
         "definitions": [
             {
@@ -1993,10 +1993,10 @@
         "aspect": "action",
         "v2": "managed",
         "v3": "managed",
-        "emoji": "👤",
+        "emoji": "\ud83d\udc64",
         "form": "verb",
         "group": "regular",
-        "transcription": "ˈmænɪʤ",
+        "transcription": "\u02c8m\u00e6n\u026a\u02a4",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -2012,7 +2012,7 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-56",
+        "id": "A1-VERB-WOR-081",
         "word": "manage",
         "definitions": [
             {
@@ -2027,10 +2027,10 @@
         "aspect": "action",
         "v2": "managed",
         "v3": "managed",
-        "emoji": "👤",
+        "emoji": "\ud83d\udc64",
         "form": "verb",
         "group": "regular",
-        "transcription": "ˈmænɪʤ",
+        "transcription": "\u02c8m\u00e6n\u026a\u02a4",
         "auxiliary": "have",
         "v4": "managing",
         "lang": "en",
@@ -2048,9 +2048,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-57",
+        "id": "A1-VERB-WOR-082",
         "word": "meet",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "form": "verb",
         "definitions": [
             {
@@ -2079,9 +2079,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-58",
+        "id": "A1-VERB-WOR-083",
         "word": "meet",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "form": "verb",
         "definitions": [
             {
@@ -2111,9 +2111,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-59",
+        "id": "A1-VERB-WOR-084",
         "word": "note",
-        "emoji": "📝",
+        "emoji": "\ud83d\udcdd",
         "form": "verb",
         "subtext": "note down / please note",
         "definitions": [
@@ -2129,7 +2129,7 @@
         "v2": "noted",
         "v3": "noted",
         "group": "regular",
-        "transcription": "noʊt",
+        "transcription": "no\u028at",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -2145,9 +2145,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-60",
+        "id": "A1-VERB-WOR-085",
         "word": "note",
-        "emoji": "📝",
+        "emoji": "\ud83d\udcdd",
         "form": "verb",
         "subtext": "note down / please note",
         "definitions": [
@@ -2163,7 +2163,7 @@
         "v2": "noted",
         "v3": "noted",
         "group": "regular",
-        "transcription": "noʊt",
+        "transcription": "no\u028at",
         "auxiliary": "have",
         "v4": "noting",
         "lang": "en",
@@ -2181,9 +2181,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-61",
+        "id": "A1-VERB-WOR-086",
         "word": "order",
-        "emoji": "📦",
+        "emoji": "\ud83d\udce6",
         "subtext": "order food / order a drink / order online / order supplies",
         "form": "verb",
         "definitions": [
@@ -2199,7 +2199,7 @@
         "v2": "ordered",
         "v3": "ordered",
         "group": "regular",
-        "transcription": "ˈɔrdər",
+        "transcription": "\u02c8\u0254rd\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -2215,9 +2215,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-62",
+        "id": "A1-VERB-WOR-087",
         "word": "order",
-        "emoji": "📦",
+        "emoji": "\ud83d\udce6",
         "subtext": "order food / order a drink / order online / order supplies",
         "form": "verb",
         "definitions": [
@@ -2233,7 +2233,7 @@
         "v2": "ordered",
         "v3": "ordered",
         "group": "regular",
-        "transcription": "ˈɔrdər",
+        "transcription": "\u02c8\u0254rd\u0259r",
         "auxiliary": "have",
         "v4": "ordering",
         "lang": "en",
@@ -2251,11 +2251,11 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-63",
+        "id": "A1-VERB-WOR-088",
         "word": "organize",
-        "emoji": "📂",
+        "emoji": "\ud83d\udcc2",
         "form": "verb",
-        "transcription": "ˈɔːrɡənaɪz",
+        "transcription": "\u02c8\u0254\u02d0r\u0261\u0259na\u026az",
         "definitions": [
             {
                 "text": "To arrange or plan something in an orderly way.",
@@ -2288,9 +2288,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-64",
+        "id": "A1-VERB-WOR-089",
         "word": "plan",
-        "emoji": "📅",
+        "emoji": "\ud83d\udcc5",
         "form": "verb",
         "subtext": "plan a trip / plan for the future",
         "synonyms": [
@@ -2309,7 +2309,7 @@
         "v2": "planned",
         "v3": "planned",
         "group": "regular",
-        "transcription": "plæn",
+        "transcription": "pl\u00e6n",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -2325,9 +2325,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-65",
+        "id": "A1-VERB-WOR-090",
         "word": "plan",
-        "emoji": "📅",
+        "emoji": "\ud83d\udcc5",
         "form": "verb",
         "subtext": "plan a trip / plan for the future",
         "synonyms": [
@@ -2346,7 +2346,7 @@
         "v2": "planned",
         "v3": "planned",
         "group": "regular",
-        "transcription": "plæn",
+        "transcription": "pl\u00e6n",
         "auxiliary": "have",
         "v4": "planing",
         "lang": "en",
@@ -2364,11 +2364,11 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-66",
+        "id": "A1-VERB-WOR-091",
         "word": "prepare",
-        "emoji": "📝",
+        "emoji": "\ud83d\udcdd",
         "form": "verb",
-        "transcription": "prɪˈpeə(r)",
+        "transcription": "pr\u026a\u02c8pe\u0259(r)",
         "definitions": [
             {
                 "text": "To get someone or something ready for something that will happen in the future.",
@@ -2395,11 +2395,11 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-67",
+        "id": "A1-VERB-WOR-092",
         "word": "prepare",
-        "emoji": "📝",
+        "emoji": "\ud83d\udcdd",
         "form": "verb",
-        "transcription": "prɪˈpeə(r)",
+        "transcription": "pr\u026a\u02c8pe\u0259(r)",
         "definitions": [
             {
                 "text": "To get someone or something ready for something that will happen in the future.",
@@ -2428,7 +2428,7 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-68",
+        "id": "A1-VERB-WOR-093",
         "word": "present",
         "definitions": [
             {
@@ -2443,10 +2443,10 @@
         "aspect": "action",
         "v2": "presented",
         "v3": "presented",
-        "emoji": "📊",
+        "emoji": "\ud83d\udcca",
         "form": "verb",
         "group": "regular",
-        "transcription": "ˈprɛzənt",
+        "transcription": "\u02c8pr\u025bz\u0259nt",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -2462,7 +2462,7 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-69",
+        "id": "A1-VERB-WOR-094",
         "word": "present",
         "definitions": [
             {
@@ -2477,10 +2477,10 @@
         "aspect": "action",
         "v2": "presented",
         "v3": "presented",
-        "emoji": "📊",
+        "emoji": "\ud83d\udcca",
         "form": "verb",
         "group": "regular",
-        "transcription": "ˈprɛzənt",
+        "transcription": "\u02c8pr\u025bz\u0259nt",
         "auxiliary": "have",
         "v4": "presenting",
         "lang": "en",
@@ -2498,9 +2498,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-70",
+        "id": "A1-VERB-WOR-095",
         "word": "pull",
-        "emoji": "🚜",
+        "emoji": "\ud83d\ude9c",
         "subtext": "pull the door / pull something / pull up / pull away",
         "form": "verb",
         "definitions": [
@@ -2516,7 +2516,7 @@
         "v2": "pulled",
         "v3": "pulled",
         "group": "regular",
-        "transcription": "pʊl",
+        "transcription": "p\u028al",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -2532,9 +2532,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-71",
+        "id": "A1-VERB-WOR-096",
         "word": "pull",
-        "emoji": "🚜",
+        "emoji": "\ud83d\ude9c",
         "subtext": "pull the door / pull something / pull up / pull away",
         "form": "verb",
         "definitions": [
@@ -2550,7 +2550,7 @@
         "v2": "pulled",
         "v3": "pulled",
         "group": "regular",
-        "transcription": "pʊl",
+        "transcription": "p\u028al",
         "auxiliary": "have",
         "v4": "pulling",
         "lang": "en",
@@ -2568,9 +2568,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-72",
+        "id": "A1-VERB-WOR-097",
         "word": "push",
-        "emoji": "🛒",
+        "emoji": "\ud83d\uded2",
         "subtext": "push the button / push a cart / push away / push through",
         "form": "verb",
         "definitions": [
@@ -2587,7 +2587,7 @@
         "v2": "pushed",
         "v3": "pushed",
         "group": "regular",
-        "transcription": "pʊʃ",
+        "transcription": "p\u028a\u0283",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -2603,9 +2603,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-73",
+        "id": "A1-VERB-WOR-098",
         "word": "push",
-        "emoji": "🛒",
+        "emoji": "\ud83d\uded2",
         "subtext": "push the button / push a cart / push away / push through",
         "form": "verb",
         "definitions": [
@@ -2622,7 +2622,7 @@
         "v2": "pushed",
         "v3": "pushed",
         "group": "regular",
-        "transcription": "pʊʃ",
+        "transcription": "p\u028a\u0283",
         "auxiliary": "have",
         "v4": "pushing",
         "lang": "en",
@@ -2640,7 +2640,7 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-74",
+        "id": "A1-VERB-WOR-099",
         "word": "reply",
         "definitions": [
             {
@@ -2655,10 +2655,10 @@
         "aspect": "action",
         "v2": "replied",
         "v3": "replied",
-        "emoji": "↩️",
+        "emoji": "\u21a9\ufe0f",
         "form": "verb",
         "group": "regular",
-        "transcription": "rɪˈplaɪ",
+        "transcription": "r\u026a\u02c8pla\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -2674,7 +2674,7 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-75",
+        "id": "A1-VERB-WOR-100",
         "word": "reply",
         "definitions": [
             {
@@ -2689,10 +2689,10 @@
         "aspect": "action",
         "v2": "replied",
         "v3": "replied",
-        "emoji": "↩️",
+        "emoji": "\u21a9\ufe0f",
         "form": "verb",
         "group": "regular",
-        "transcription": "rɪˈplaɪ",
+        "transcription": "r\u026a\u02c8pla\u026a",
         "auxiliary": "have",
         "v4": "replying",
         "lang": "en",
@@ -2710,7 +2710,7 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-76",
+        "id": "A1-VERB-WOR-101",
         "word": "rest",
         "definitions": [
             {
@@ -2725,10 +2725,10 @@
         "aspect": "action",
         "v2": "rested",
         "v3": "rested",
-        "emoji": "🛋️",
+        "emoji": "\ud83d\udecb\ufe0f",
         "form": "verb",
         "group": "regular",
-        "transcription": "rɛst",
+        "transcription": "r\u025bst",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -2744,7 +2744,7 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-77",
+        "id": "A1-VERB-WOR-102",
         "word": "rest",
         "definitions": [
             {
@@ -2759,10 +2759,10 @@
         "aspect": "action",
         "v2": "rested",
         "v3": "rested",
-        "emoji": "🛋️",
+        "emoji": "\ud83d\udecb\ufe0f",
         "form": "verb",
         "group": "regular",
-        "transcription": "rɛst",
+        "transcription": "r\u025bst",
         "auxiliary": "have",
         "v4": "resting",
         "lang": "en",
@@ -2780,9 +2780,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-78",
+        "id": "A1-VERB-WOR-103",
         "word": "send",
-        "emoji": "✉️",
+        "emoji": "\u2709\ufe0f",
         "form": "verb",
         "definitions": [
             {
@@ -2798,7 +2798,7 @@
         "v3": "sent",
         "subtext": "send an email / send a message / send a report / send a file",
         "group": "irregular",
-        "transcription": "sɛnd",
+        "transcription": "s\u025bnd",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -2814,9 +2814,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-79",
+        "id": "A1-VERB-WOR-104",
         "word": "send",
-        "emoji": "✉️",
+        "emoji": "\u2709\ufe0f",
         "form": "verb",
         "definitions": [
             {
@@ -2832,7 +2832,7 @@
         "v3": "sent",
         "subtext": "send an email / send a message / send a report / send a file",
         "group": "regular",
-        "transcription": "sɛnd",
+        "transcription": "s\u025bnd",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -2849,9 +2849,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-80",
+        "id": "A1-VERB-WOR-105",
         "word": "set",
-        "emoji": "⚙️",
+        "emoji": "\u2699\ufe0f",
         "subtext": "set an alarm / set the table / set a goal",
         "form": "verb",
         "definitions": [
@@ -2868,7 +2868,7 @@
         "v2": "set",
         "v3": "set",
         "group": "irregular",
-        "transcription": "sɛt",
+        "transcription": "s\u025bt",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -2881,9 +2881,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-81",
+        "id": "A1-VERB-WOR-106",
         "word": "set",
-        "emoji": "⚙️",
+        "emoji": "\u2699\ufe0f",
         "subtext": "set an alarm / set the table / set a goal",
         "form": "verb",
         "definitions": [
@@ -2900,7 +2900,7 @@
         "v2": "set",
         "v3": "set",
         "group": "regular",
-        "transcription": "sɛt",
+        "transcription": "s\u025bt",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -2914,9 +2914,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-82",
+        "id": "A1-VERB-WOR-107",
         "word": "sit",
-        "emoji": "🪑",
+        "emoji": "\ud83e\ude91",
         "subtext": "sit down / sit at a desk / sit in a meeting / sit quietly",
         "form": "verb",
         "definitions": [
@@ -2932,14 +2932,14 @@
         "v2": "sat",
         "v3": "sat",
         "group": "irregular",
-        "transcription": "sɪt",
+        "transcription": "s\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "work",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "sitjaną"
+            "origin_word": "sitjan\u0105"
         },
         "antonyms": [
             "stand"
@@ -2952,9 +2952,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-83",
+        "id": "A1-VERB-WOR-108",
         "word": "sit",
-        "emoji": "🪑",
+        "emoji": "\ud83e\ude91",
         "subtext": "sit down / sit at a desk / sit in a meeting / sit quietly",
         "form": "verb",
         "definitions": [
@@ -2970,7 +2970,7 @@
         "v2": "sat",
         "v3": "sat",
         "group": "regular",
-        "transcription": "sɪt",
+        "transcription": "s\u026at",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -2978,7 +2978,7 @@
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "sitjaną"
+            "origin_word": "sitjan\u0105"
         },
         "antonyms": [
             "stand"
@@ -2991,9 +2991,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-84",
+        "id": "A1-VERB-WOR-109",
         "word": "stand",
-        "emoji": "🧍",
+        "emoji": "\ud83e\uddcd",
         "subtext": "stand up / stand in a queue / stand by / stand out",
         "form": "verb",
         "definitions": [
@@ -3009,14 +3009,14 @@
         "v2": "stood",
         "v3": "stood",
         "group": "irregular",
-        "transcription": "stænd",
+        "transcription": "st\u00e6nd",
         "lang": "en",
         "level": "starter",
         "theme": "work",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "standaną"
+            "origin_word": "standan\u0105"
         },
         "antonyms": [
             "sit"
@@ -3029,9 +3029,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-85",
+        "id": "A1-VERB-WOR-110",
         "word": "stand",
-        "emoji": "🧍",
+        "emoji": "\ud83e\uddcd",
         "subtext": "stand up / stand in a queue / stand by / stand out",
         "form": "verb",
         "definitions": [
@@ -3047,7 +3047,7 @@
         "v2": "stood",
         "v3": "stood",
         "group": "regular",
-        "transcription": "stænd",
+        "transcription": "st\u00e6nd",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -3055,7 +3055,7 @@
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "standaną"
+            "origin_word": "standan\u0105"
         },
         "antonyms": [
             "sit"
@@ -3068,9 +3068,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-86",
+        "id": "A1-VERB-WOR-111",
         "word": "start",
-        "emoji": "▶️",
+        "emoji": "\u25b6\ufe0f",
         "subtext": "start work / start a meeting / start a new job",
         "form": "verb",
         "definitions": [
@@ -3086,7 +3086,7 @@
         "v2": "started",
         "v3": "started",
         "group": "regular",
-        "transcription": "stɑrt",
+        "transcription": "st\u0251rt",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -3102,9 +3102,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-87",
+        "id": "A1-VERB-WOR-112",
         "word": "start",
-        "emoji": "▶️",
+        "emoji": "\u25b6\ufe0f",
         "subtext": "start work / start a meeting / start a new job",
         "form": "verb",
         "definitions": [
@@ -3120,7 +3120,7 @@
         "v2": "started",
         "v3": "started",
         "group": "regular",
-        "transcription": "stɑrt",
+        "transcription": "st\u0251rt",
         "synonyms": [
             "begin"
         ],
@@ -3141,9 +3141,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-88",
+        "id": "A1-VERB-WOR-113",
         "word": "stop",
-        "emoji": "🛑",
+        "emoji": "\ud83d\uded1",
         "subtext": "stop doing / stop working / stop a habit / stop someone",
         "form": "verb",
         "definitions": [
@@ -3159,7 +3159,7 @@
         "v2": "stopped",
         "v3": "stopped",
         "group": "regular",
-        "transcription": "stɑp",
+        "transcription": "st\u0251p",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -3175,9 +3175,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-89",
+        "id": "A1-VERB-WOR-114",
         "word": "stop",
-        "emoji": "🛑",
+        "emoji": "\ud83d\uded1",
         "subtext": "stop doing / stop working / stop a habit / stop someone",
         "form": "verb",
         "definitions": [
@@ -3193,7 +3193,7 @@
         "v2": "stopped",
         "v3": "stopped",
         "group": "regular",
-        "transcription": "stɑp",
+        "transcription": "st\u0251p",
         "auxiliary": "have",
         "v4": "stoping",
         "lang": "en",
@@ -3211,9 +3211,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-90",
+        "id": "A1-VERB-WOR-115",
         "word": "undress",
-        "emoji": "👕",
+        "emoji": "\ud83d\udc55",
         "subtext": "undress quickly",
         "synonyms": [
             "get undressed"
@@ -3233,7 +3233,7 @@
         "v2": "undressed",
         "v3": "undressed",
         "group": "regular",
-        "transcription": "ənˈdrɛs",
+        "transcription": "\u0259n\u02c8dr\u025bs",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -3249,9 +3249,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-91",
+        "id": "A1-VERB-WOR-116",
         "word": "undress",
-        "emoji": "👕",
+        "emoji": "\ud83d\udc55",
         "subtext": "undress quickly",
         "synonyms": [
             "get undressed"
@@ -3271,7 +3271,7 @@
         "v2": "undressed",
         "v3": "undressed",
         "group": "regular",
-        "transcription": "ənˈdrɛs",
+        "transcription": "\u0259n\u02c8dr\u025bs",
         "auxiliary": "have",
         "v4": "undressing",
         "lang": "en",
@@ -3289,9 +3289,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-92",
+        "id": "A1-VERB-WOR-117",
         "word": "wait",
-        "emoji": "⏳",
+        "emoji": "\u23f3",
         "subtext": "wait for someone / wait in a queue / wait a moment",
         "form": "verb",
         "definitions": [
@@ -3307,7 +3307,7 @@
         "v2": "waited",
         "v3": "waited",
         "group": "regular",
-        "transcription": "weɪt",
+        "transcription": "we\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -3323,9 +3323,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-93",
+        "id": "A1-VERB-WOR-118",
         "word": "wait",
-        "emoji": "⏳",
+        "emoji": "\u23f3",
         "subtext": "wait for someone / wait for the bus / wait in a queue / wait a moment",
         "form": "verb",
         "definitions": [
@@ -3341,7 +3341,7 @@
         "v2": "waited",
         "v3": "waited",
         "group": "regular",
-        "transcription": "weɪt",
+        "transcription": "we\u026at",
         "auxiliary": "have",
         "v4": "waiting",
         "lang": "en",
@@ -3359,9 +3359,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-94",
+        "id": "A1-VERB-WOR-119",
         "word": "wake up",
-        "emoji": "⏰",
+        "emoji": "\u23f0",
         "form": "verb",
         "subtext": "wake up early / wake up late / wake up tired",
         "definitions": [
@@ -3377,7 +3377,7 @@
         "v2": "woke up",
         "v3": "woken up",
         "group": "irregular",
-        "transcription": "weɪk əp",
+        "transcription": "we\u026ak \u0259p",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -3393,9 +3393,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-95",
+        "id": "A1-VERB-WOR-120",
         "word": "wake up",
-        "emoji": "⏰",
+        "emoji": "\u23f0",
         "form": "verb",
         "subtext": "wake up early / wake up late / wake up tired",
         "definitions": [
@@ -3411,7 +3411,7 @@
         "v2": "woke up",
         "v3": "woken up",
         "group": "regular",
-        "transcription": "weɪk əp",
+        "transcription": "we\u026ak \u0259p",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -3428,9 +3428,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-96",
+        "id": "A1-VERB-WOR-121",
         "word": "work",
-        "emoji": "💼",
+        "emoji": "\ud83d\udcbc",
         "subtext": "work from home / work full-time / work hard / work late",
         "form": "verb",
         "definitions": [
@@ -3446,7 +3446,7 @@
         "v2": "worked",
         "v3": "worked",
         "group": "regular",
-        "transcription": "wərk",
+        "transcription": "w\u0259rk",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -3462,9 +3462,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-VERB-WOR-97",
+        "id": "A1-VERB-WOR-122",
         "word": "work",
-        "emoji": "💼",
+        "emoji": "\ud83d\udcbc",
         "subtext": "work from home / work full-time / work hard / work late",
         "form": "verb",
         "definitions": [
@@ -3480,7 +3480,7 @@
         "v2": "worked",
         "v3": "worked",
         "group": "regular",
-        "transcription": "wərk",
+        "transcription": "w\u0259rk",
         "synonyms": [
             "do a job"
         ],

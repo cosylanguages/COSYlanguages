@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-NAT-01",
+        "id": "A1-NOUN-NAT-001",
         "word": "ant",
-        "emoji": "🐜",
+        "emoji": "\ud83d\udc1c",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
             }
         ],
         "subtext": "related to insects",
-        "transcription": "ænt",
+        "transcription": "\u00e6nt",
         "lang": "en",
         "level": "starter",
         "theme": "insects",
@@ -31,9 +31,9 @@
         "sub_subcategory": "Insects_Bugs"
     },
     {
-        "id": "A1-NOUN-NAT-02",
+        "id": "A1-NOUN-NAT-002",
         "word": "butterfly",
-        "emoji": "🦋",
+        "emoji": "\ud83e\udd8b",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -47,14 +47,14 @@
             }
         ],
         "subtext": "related to insects",
-        "transcription": "ˈbətərˌflaɪ",
+        "transcription": "\u02c8b\u0259t\u0259r\u02ccfla\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "insects",
         "sub_theme": "insects",
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "butturafleugōn"
+            "origin_word": "butturafleug\u014dn"
         },
         "legacy_id": "A1-NAT-06",
         "level_code": "A1",

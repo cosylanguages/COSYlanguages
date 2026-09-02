@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-COM-01",
+        "id": "A1-NOUN-COM-075",
         "word": "information",
-        "emoji": "ℹ️",
+        "emoji": "\u2139\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -19,7 +19,7 @@
                 ]
             }
         ],
-        "transcription": "ˌɪnfəˈmeɪʃn",
+        "transcription": "\u02cc\u026anf\u0259\u02c8me\u026a\u0283n",
         "lang": "en",
         "level": "starter",
         "theme": "using_smartphone",
@@ -32,9 +32,9 @@
         "sub_subcategory": "Mobile_Apps"
     },
     {
-        "id": "A1-NOUN-COM-02",
+        "id": "A1-NOUN-COM-076",
         "word": "internet",
-        "emoji": "🌐",
+        "emoji": "\ud83c\udf10",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -48,7 +48,7 @@
             }
         ],
         "subtext": "related to using smartphone",
-        "transcription": "ˈɪntərˌnɛt",
+        "transcription": "\u02c8\u026ant\u0259r\u02ccn\u025bt",
         "lang": "en",
         "level": "starter",
         "theme": "using_smartphone",
@@ -61,9 +61,9 @@
         "sub_subcategory": "Mobile_Apps"
     },
     {
-        "id": "A1-NOUN-COM-03",
+        "id": "A1-NOUN-COM-077",
         "word": "letter",
-        "emoji": "✉️",
+        "emoji": "\u2709\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -77,7 +77,7 @@
                 ]
             }
         ],
-        "transcription": "ˈlɛtər",
+        "transcription": "\u02c8l\u025bt\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "using_smartphone",
@@ -90,9 +90,9 @@
         "sub_subcategory": "Mobile_Apps"
     },
     {
-        "id": "A1-NOUN-COM-04",
+        "id": "A1-NOUN-COM-078",
         "word": "message",
-        "emoji": "💬",
+        "emoji": "\ud83d\udcac",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -106,7 +106,7 @@
             }
         ],
         "subtext": "related to using smartphone",
-        "transcription": "ˈmɛsɪʤ",
+        "transcription": "\u02c8m\u025bs\u026a\u02a4",
         "lang": "en",
         "level": "starter",
         "theme": "using_smartphone",
@@ -119,9 +119,9 @@
         "sub_subcategory": "Mobile_Apps"
     },
     {
-        "id": "A1-NOUN-COM-05",
+        "id": "A1-NOUN-COM-079",
         "word": "news",
-        "emoji": "📰",
+        "emoji": "\ud83d\udcf0",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -149,9 +149,9 @@
         "sub_subcategory": "Mobile_Apps"
     },
     {
-        "id": "A1-NOUN-COM-06",
+        "id": "A1-NOUN-COM-080",
         "word": "website",
-        "emoji": "💻",
+        "emoji": "\ud83d\udcbb",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -165,7 +165,7 @@
             }
         ],
         "subtext": "related to using smartphone",
-        "transcription": "ˈwɛbˌsaɪt",
+        "transcription": "\u02c8w\u025bb\u02ccsa\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "using_smartphone",

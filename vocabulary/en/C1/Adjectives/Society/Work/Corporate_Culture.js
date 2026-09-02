@@ -2,12 +2,12 @@
     const lang = "en";
     const data = [
     {
-        "id": "C1-ADJ-SOC-01",
+        "id": "C1-ADJ-SOC-001",
         "word": "accountable",
-        "emoji": "👨‍⚖️",
+        "emoji": "\ud83d\udc68\u200d\u2696\ufe0f",
         "subtext": "held accountable / fully accountable / accountable to",
         "form": "adjective",
-        "transcription": "əˈkaʊntəbl",
+        "transcription": "\u0259\u02c8ka\u028ant\u0259bl",
         "definitions": [
             {
                 "text": "Responsible for decisions and having to explain them.",
@@ -37,12 +37,12 @@
         "sub_subcategory": "Corporate_Culture"
     },
     {
-        "id": "C1-ADJ-SOC-02",
+        "id": "C1-ADJ-SOC-002",
         "word": "appealing",
-        "emoji": "🍏",
+        "emoji": "\ud83c\udf4f",
         "subtext": "very appealing / hugely appealing / find appealing",
         "form": "adjective",
-        "transcription": "əˈpiːlɪŋ",
+        "transcription": "\u0259\u02c8pi\u02d0l\u026a\u014b",
         "definitions": [
             {
                 "text": "Attractive and interesting; having wide appeal.",
@@ -72,12 +72,12 @@
         "sub_subcategory": "Corporate_Culture"
     },
     {
-        "id": "C1-ADJ-SOC-03",
+        "id": "C1-ADJ-SOC-003",
         "word": "costly",
-        "emoji": "💸",
+        "emoji": "\ud83d\udcb8",
         "subtext": "very costly / extremely costly / a costly mistake",
         "form": "adjective",
-        "transcription": "🇬🇧 ˈkɒstli | 🇺🇸 ˈkɑːstli",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8k\u0252stli | \ud83c\uddfa\ud83c\uddf8 \u02c8k\u0251\u02d0stli",
         "definitions": [
             {
                 "text": "Causing a lot of harm, loss or expense.",
@@ -107,12 +107,12 @@
         "sub_subcategory": "Corporate_Culture"
     },
     {
-        "id": "C1-ADJ-SOC-04",
+        "id": "C1-ADJ-SOC-004",
         "word": "desirable",
-        "emoji": "⭐",
+        "emoji": "\u2b50",
         "subtext": "highly desirable / very desirable / a desirable quality",
         "form": "adjective",
-        "transcription": "dɪˈzaɪərəbl",
+        "transcription": "d\u026a\u02c8za\u026a\u0259r\u0259bl",
         "definitions": [
             {
                 "text": "Worth having or wanting; attractive.",
@@ -141,12 +141,12 @@
         "sub_subcategory": "Corporate_Culture"
     },
     {
-        "id": "C1-ADJ-SOC-05",
+        "id": "C1-ADJ-SOC-005",
         "word": "prestigious",
-        "emoji": "🏛️",
+        "emoji": "\ud83c\udfdb\ufe0f",
         "subtext": "very prestigious / highly prestigious / a prestigious award",
         "form": "adjective",
-        "transcription": "preˈstɪdʒəs",
+        "transcription": "pre\u02c8st\u026ad\u0292\u0259s",
         "definitions": [
             {
                 "text": "Respected and admired by many people.",
@@ -176,12 +176,12 @@
         "sub_subcategory": "Corporate_Culture"
     },
     {
-        "id": "C1-ADJ-SOC-06",
+        "id": "C1-ADJ-SOC-006",
         "word": "productive",
-        "emoji": "🚜",
+        "emoji": "\ud83d\ude9c",
         "subtext": "very productive / highly productive / a productive discussion",
         "form": "adjective",
-        "transcription": "prəˈdʌktɪv",
+        "transcription": "pr\u0259\u02c8d\u028ckt\u026av",
         "definitions": [
             {
                 "text": "Producing good results; effective.",
@@ -211,12 +211,12 @@
         "sub_subcategory": "Corporate_Culture"
     },
     {
-        "id": "C1-ADJ-SOC-07",
+        "id": "C1-ADJ-SOC-007",
         "word": "profitable",
-        "emoji": "💰",
+        "emoji": "\ud83d\udcb0",
         "subtext": "very profitable / highly profitable / a profitable venture",
         "form": "adjective",
-        "transcription": "🇬🇧 ˈprɒfɪtəbl | 🇺🇸 ˈprɑːfɪtəbl",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8pr\u0252f\u026at\u0259bl | \ud83c\uddfa\ud83c\uddf8 \u02c8pr\u0251\u02d0f\u026at\u0259bl",
         "definitions": [
             {
                 "text": "Producing financial gain.",
@@ -246,12 +246,12 @@
         "sub_subcategory": "Corporate_Culture"
     },
     {
-        "id": "C1-ADJ-SOC-08",
+        "id": "C1-ADJ-SOC-008",
         "word": "transparent",
-        "emoji": "🪟",
+        "emoji": "\ud83e\ude9f",
         "subtext": "fully transparent / very transparent / openly transparent",
         "form": "adjective",
-        "transcription": "trænˈspærənt",
+        "transcription": "tr\u00e6n\u02c8sp\u00e6r\u0259nt",
         "definitions": [
             {
                 "text": "Open and honest; not trying to hide anything.",
@@ -281,12 +281,12 @@
         "sub_subcategory": "Corporate_Culture"
     },
     {
-        "id": "C1-ADJ-SOC-09",
+        "id": "C1-ADJ-SOC-009",
         "word": "viable",
-        "emoji": "🌱",
+        "emoji": "\ud83c\udf31",
         "subtext": "fully viable / commercially viable / economically viable",
         "form": "adjective",
-        "transcription": "ˈvaɪəbl",
+        "transcription": "\u02c8va\u026a\u0259bl",
         "definitions": [
             {
                 "text": "Capable of working; feasible.",

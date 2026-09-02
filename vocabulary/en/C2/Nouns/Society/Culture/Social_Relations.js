@@ -2,15 +2,15 @@
     const lang = "en";
     const data = [
     {
-        "id": "C2-NOUN-SOC-01",
+        "id": "C2-NOUN-SOC-001",
         "word": "alienation",
         "lang": "en",
         "level": "proficiency",
         "theme": "social",
-        "emoji": "👤",
+        "emoji": "\ud83d\udc64",
         "form": "noun",
         "classification": "regular",
-        "transcription": "ˌeɪliəˈneɪʃn",
+        "transcription": "\u02cce\u026ali\u0259\u02c8ne\u026a\u0283n",
         "definitions": [
             {
                 "text": "In Marxist theory, the estrangement of workers from the product and process of their labour.",
@@ -29,15 +29,15 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-NOUN-SOC-02",
+        "id": "C2-NOUN-SOC-002",
         "word": "biopolitics",
         "lang": "en",
         "level": "proficiency",
         "theme": "social",
-        "emoji": "🧬",
+        "emoji": "\ud83e\uddec",
         "form": "noun",
         "classification": "regular",
-        "transcription": "🇬🇧 ˌbaɪəʊˈpɒlətɪks | 🇺🇸 ˌbaɪoʊˈpɑːlətɪks",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02ccba\u026a\u0259\u028a\u02c8p\u0252l\u0259t\u026aks | \ud83c\uddfa\ud83c\uddf8 \u02ccba\u026ao\u028a\u02c8p\u0251\u02d0l\u0259t\u026aks",
         "definitions": [
             {
                 "text": "Foucault's concept of the exercise of political power over biological life.",
@@ -56,15 +56,15 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-NOUN-SOC-03",
+        "id": "C2-NOUN-SOC-003",
         "word": "commodification",
         "lang": "en",
         "level": "proficiency",
         "theme": "social",
-        "emoji": "🏷️",
+        "emoji": "\ud83c\udff7\ufe0f",
         "form": "noun",
         "classification": "regular",
-        "transcription": "🇬🇧 kəˌmɒdɪfɪˈkeɪʃn | 🇺🇸 kəˌmɑːdɪfɪˈkeɪʃn",
+        "transcription": "\ud83c\uddec\ud83c\udde7 k\u0259\u02ccm\u0252d\u026af\u026a\u02c8ke\u026a\u0283n | \ud83c\uddfa\ud83c\uddf8 k\u0259\u02ccm\u0251\u02d0d\u026af\u026a\u02c8ke\u026a\u0283n",
         "definitions": [
             {
                 "text": "The process of transforming something into a tradeable commodity.",
@@ -83,14 +83,14 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-NOUN-SOC-04",
+        "id": "C2-NOUN-SOC-004",
         "word": "dialectical materialism",
         "lang": "en",
         "level": "proficiency",
         "theme": "social",
-        "emoji": "🛠️",
+        "emoji": "\ud83d\udee0\ufe0f",
         "form": "noun phrase",
-        "transcription": "ˌdaɪəˈlektɪkl məˈtɪəriəlɪzəm",
+        "transcription": "\u02ccda\u026a\u0259\u02c8lekt\u026akl m\u0259\u02c8t\u026a\u0259ri\u0259l\u026az\u0259m",
         "definitions": [
             {
                 "text": "The Marxist method of analysis based on the conflict between opposing social forces.",
@@ -108,15 +108,15 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-NOUN-SOC-05",
+        "id": "C2-NOUN-SOC-005",
         "word": "liberal neutrality",
         "lang": "en",
         "level": "proficiency",
         "theme": "social",
-        "emoji": "⚖️",
+        "emoji": "\u2696\ufe0f",
         "form": "noun",
         "classification": "regular",
-        "transcription": "ˈlɪbərəl njuːˈtræləti",
+        "transcription": "\u02c8l\u026ab\u0259r\u0259l nju\u02d0\u02c8tr\u00e6l\u0259ti",
         "definitions": [
             {
                 "text": "The liberal principle that the state should not favour any particular vision of the good life.",
@@ -135,15 +135,15 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-NOUN-SOC-06",
+        "id": "C2-NOUN-SOC-006",
         "word": "post-colonialism",
         "lang": "en",
         "level": "proficiency",
         "theme": "social",
-        "emoji": "🌍",
+        "emoji": "\ud83c\udf0d",
         "form": "noun",
         "classification": "regular",
-        "transcription": "🇬🇧 ˌpəʊstkəˈləʊniəlɪzəm | 🇺🇸 ˌpoʊstkəˈloʊniəlɪzəm",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02ccp\u0259\u028astk\u0259\u02c8l\u0259\u028ani\u0259l\u026az\u0259m | \ud83c\uddfa\ud83c\uddf8 \u02ccpo\u028astk\u0259\u02c8lo\u028ani\u0259l\u026az\u0259m",
         "definitions": [
             {
                 "text": "A body of theory examining the lasting cultural and political effects of colonialism.",
@@ -162,15 +162,15 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-NOUN-SOC-07",
+        "id": "C2-NOUN-SOC-007",
         "word": "pronatalism",
         "lang": "en",
         "level": "proficiency",
         "theme": "social",
-        "emoji": "👶",
+        "emoji": "\ud83d\udc76",
         "form": "noun",
         "classification": "regular",
-        "transcription": "🇬🇧 ˌprəʊˈneɪtəlɪzəm | 🇺🇸 ˌproʊˈneɪtəlɪzəm",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02ccpr\u0259\u028a\u02c8ne\u026at\u0259l\u026az\u0259m | \ud83c\uddfa\ud83c\uddf8 \u02ccpro\u028a\u02c8ne\u026at\u0259l\u026az\u0259m",
         "definitions": [
             {
                 "text": "A policy or ideology that encourages people to have more children.",

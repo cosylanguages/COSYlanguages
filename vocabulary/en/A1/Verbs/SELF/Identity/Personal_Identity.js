@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-SEL-01",
+        "id": "A1-VERB-SEL-046",
         "word": "invite",
-        "emoji": "✉️",
+        "emoji": "\u2709\ufe0f",
         "form": "verb",
         "definitions": [
             {
@@ -20,7 +20,7 @@
         "v3": "invited",
         "subtext": "invite someone / invite to dinner / invite to a party",
         "group": "regular",
-        "transcription": "ˌɪnˈvaɪt",
+        "transcription": "\u02cc\u026an\u02c8va\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "people",
@@ -36,9 +36,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A1-VERB-SEL-02",
+        "id": "A1-VERB-SEL-047",
         "word": "invite",
-        "emoji": "✉️",
+        "emoji": "\u2709\ufe0f",
         "form": "verb",
         "definitions": [
             {
@@ -54,7 +54,7 @@
         "v3": "invited",
         "subtext": "invite someone / invite to dinner / invite to a party",
         "group": "regular",
-        "transcription": "ˌɪnˈvaɪt",
+        "transcription": "\u02cc\u026an\u02c8va\u026at",
         "auxiliary": "have",
         "v4": "inviting",
         "lang": "en",
@@ -72,9 +72,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A1-VERB-SEL-03",
+        "id": "A1-VERB-SEL-048",
         "word": "share",
-        "emoji": "🍕",
+        "emoji": "\ud83c\udf55",
         "subtext": "share a room / share information / share an idea / share with",
         "form": "verb",
         "definitions": [
@@ -91,7 +91,7 @@
         "v2": "shared",
         "v3": "shared",
         "group": "regular",
-        "transcription": "ʃɛr",
+        "transcription": "\u0283\u025br",
         "lang": "en",
         "level": "starter",
         "theme": "people",
@@ -107,9 +107,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A1-VERB-SEL-04",
+        "id": "A1-VERB-SEL-049",
         "word": "share",
-        "emoji": "🍕",
+        "emoji": "\ud83c\udf55",
         "subtext": "share a room / share information / share an idea / share with",
         "form": "verb",
         "definitions": [
@@ -126,7 +126,7 @@
         "v2": "shared",
         "v3": "shared",
         "group": "regular",
-        "transcription": "ʃɛr",
+        "transcription": "\u0283\u025br",
         "auxiliary": "have",
         "v4": "sharing",
         "lang": "en",
@@ -144,9 +144,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A1-VERB-SEL-05",
+        "id": "A1-VERB-SEL-050",
         "word": "talk",
-        "emoji": "💬",
+        "emoji": "\ud83d\udcac",
         "subtext": "talk to / about, talk to someone / talk about / talk openly / talk for a long time",
         "form": "verb",
         "definitions": [
@@ -162,7 +162,7 @@
         "v2": "talked",
         "v3": "talked",
         "group": "regular",
-        "transcription": "tɔk",
+        "transcription": "t\u0254k",
         "lang": "en",
         "level": "starter",
         "theme": "people",
@@ -178,9 +178,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A1-VERB-SEL-06",
+        "id": "A1-VERB-SEL-051",
         "word": "talk",
-        "emoji": "💬",
+        "emoji": "\ud83d\udcac",
         "subtext": "talk to / about, talk to someone / talk about / talk openly / talk for a long time",
         "form": "verb",
         "definitions": [
@@ -196,7 +196,7 @@
         "v2": "talked",
         "v3": "talked",
         "group": "regular",
-        "transcription": "tɔk",
+        "transcription": "t\u0254k",
         "synonyms": [
             "speak",
             "chat"
@@ -218,9 +218,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A1-VERB-SEL-07",
+        "id": "A1-VERB-SEL-052",
         "word": "together",
-        "emoji": "👫",
+        "emoji": "\ud83d\udc6b",
         "form": "adverb",
         "definitions": [
             {
@@ -231,7 +231,7 @@
             }
         ],
         "subtext": "related to family life",
-        "transcription": "təˈgɛðər",
+        "transcription": "t\u0259\u02c8g\u025b\u00f0\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "people",
@@ -248,7 +248,7 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A1-VERB-SEL-08",
+        "id": "A1-VERB-SEL-053",
         "word": "visit",
         "definitions": [
             {
@@ -263,10 +263,10 @@
         "aspect": "action",
         "v2": "visited",
         "v3": "visited",
-        "emoji": "🏘️",
+        "emoji": "\ud83c\udfd8\ufe0f",
         "form": "verb",
         "group": "regular",
-        "transcription": "ˈvɪzɪt",
+        "transcription": "\u02c8v\u026az\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "people",
@@ -282,7 +282,7 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A1-VERB-SEL-09",
+        "id": "A1-VERB-SEL-054",
         "word": "visit",
         "definitions": [
             {
@@ -297,10 +297,10 @@
         "aspect": "action",
         "v2": "visited",
         "v3": "visited",
-        "emoji": "🏘️",
+        "emoji": "\ud83c\udfd8\ufe0f",
         "form": "verb",
         "group": "regular",
-        "transcription": "ˈvɪzɪt",
+        "transcription": "\u02c8v\u026az\u026at",
         "auxiliary": "have",
         "v4": "visiting",
         "lang": "en",

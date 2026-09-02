@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "B1-ADJ-SCI-01",
+        "id": "B1-ADJ-SCI-001",
         "word": "cheerful",
         "lang": "en",
         "level": "intermediate",
@@ -16,8 +16,8 @@
                 ]
             }
         ],
-        "transcription": "ˈtʃɪəfl",
-        "emoji": "❓",
+        "transcription": "\u02c8t\u0283\u026a\u0259fl",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "very cheerful / naturally cheerful / cheerful attitude"
         },
@@ -29,7 +29,7 @@
         "sub_subcategory": "Medical_Health"
     },
     {
-        "id": "B1-ADJ-SCI-02",
+        "id": "B1-ADJ-SCI-002",
         "word": "chronic",
         "lang": "en",
         "level": "intermediate",
@@ -43,8 +43,8 @@
                 ]
             }
         ],
-        "transcription": "🇬🇧 ˈkrɒnɪk | 🇺🇸 ˈkrɑːnɪk",
-        "emoji": "❓",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8kr\u0252n\u026ak | \ud83c\uddfa\ud83c\uddf8 \u02c8kr\u0251\u02d0n\u026ak",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "chronic illness / chronic pain / chronic stress"
         },
@@ -56,7 +56,7 @@
         "sub_subcategory": "Medical_Health"
     },
     {
-        "id": "B1-ADJ-SCI-03",
+        "id": "B1-ADJ-SCI-003",
         "word": "lonely",
         "lang": "en",
         "level": "intermediate",
@@ -70,8 +70,8 @@
                 ]
             }
         ],
-        "transcription": "🇬🇧 ˈləʊnli | 🇺🇸 ˈloʊnli",
-        "emoji": "❓",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8l\u0259\u028anli | \ud83c\uddfa\ud83c\uddf8 \u02c8lo\u028anli",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "feel lonely / very lonely / desperately lonely"
         },
@@ -83,7 +83,7 @@
         "sub_subcategory": "Medical_Health"
     },
     {
-        "id": "B1-ADJ-SCI-04",
+        "id": "B1-ADJ-SCI-004",
         "word": "mental",
         "lang": "en",
         "level": "intermediate",
@@ -97,8 +97,8 @@
                 ]
             }
         ],
-        "transcription": "ˈmɛntl",
-        "emoji": "❓",
+        "transcription": "\u02c8m\u025bntl",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "mental health / mental wellbeing / mental strength"
         },
@@ -110,7 +110,7 @@
         "sub_subcategory": "Medical_Health"
     },
     {
-        "id": "B1-ADJ-SCI-05",
+        "id": "B1-ADJ-SCI-005",
         "word": "mild",
         "lang": "en",
         "level": "intermediate",
@@ -124,8 +124,8 @@
                 ]
             }
         ],
-        "transcription": "maɪld",
-        "emoji": "❓",
+        "transcription": "ma\u026ald",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "very mild / relatively mild / a mild case"
         },
@@ -137,7 +137,7 @@
         "sub_subcategory": "Medical_Health"
     },
     {
-        "id": "B1-ADJ-SCI-06",
+        "id": "B1-ADJ-SCI-006",
         "word": "negative",
         "lang": "en",
         "level": "intermediate",
@@ -151,8 +151,8 @@
                 ]
             }
         ],
-        "transcription": "ˈnɛɡətɪv",
-        "emoji": "❓",
+        "transcription": "\u02c8n\u025b\u0261\u0259t\u026av",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "very negative / extremely negative / a negative outcome"
         },
@@ -164,7 +164,7 @@
         "sub_subcategory": "Medical_Health"
     },
     {
-        "id": "B1-ADJ-SCI-07",
+        "id": "B1-ADJ-SCI-007",
         "word": "physical",
         "lang": "en",
         "level": "intermediate",
@@ -178,8 +178,8 @@
                 ]
             }
         ],
-        "transcription": "ˈfɪzɪkl",
-        "emoji": "❓",
+        "transcription": "\u02c8f\u026az\u026akl",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "physical health / physical activity / physical condition"
         },
@@ -191,7 +191,7 @@
         "sub_subcategory": "Medical_Health"
     },
     {
-        "id": "B1-ADJ-SCI-08",
+        "id": "B1-ADJ-SCI-008",
         "word": "positive",
         "lang": "en",
         "level": "intermediate",
@@ -205,8 +205,8 @@
                 ]
             }
         ],
-        "transcription": "🇬🇧 ˈpɒzətɪv | 🇺🇸 ˈpɑːzətɪv",
-        "emoji": "❓",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8p\u0252z\u0259t\u026av | \ud83c\uddfa\ud83c\uddf8 \u02c8p\u0251\u02d0z\u0259t\u026av",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "very positive / extremely positive / stay positive"
         },
@@ -218,7 +218,7 @@
         "sub_subcategory": "Medical_Health"
     },
     {
-        "id": "B1-ADJ-SCI-09",
+        "id": "B1-ADJ-SCI-009",
         "word": "severe",
         "lang": "en",
         "level": "intermediate",
@@ -232,8 +232,8 @@
                 ]
             }
         ],
-        "transcription": "🇬🇧 sɪˈvɪə | 🇺🇸 sɪˈvɪər",
-        "emoji": "❓",
+        "transcription": "\ud83c\uddec\ud83c\udde7 s\u026a\u02c8v\u026a\u0259 | \ud83c\uddfa\ud83c\uddf8 s\u026a\u02c8v\u026a\u0259r",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "very severe / extremely severe / severe consequences"
         },

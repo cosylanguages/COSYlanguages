@@ -2,11 +2,11 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-SEL-01",
+        "id": "A1-NOUN-SEL-078",
         "word": "I",
-        "emoji": "🙋",
+        "emoji": "\ud83d\ude4b",
         "form": "pronoun",
-        "transcription": "aɪ",
+        "transcription": "a\u026a",
         "definitions": [
             {
                 "text": "Used by a speaker to refer to himself or herself.",
@@ -29,33 +29,10 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-NOUN-SEL-02",
-        "word": "algorithm",
-        "form": "noun",
-        "transcription": "ˈælɡərɪðəm",
-        "definitions": [
-            {
-                "text": "A set of rules for a computer to solve a problem.",
-                "examples": [
-                    "The search engine uses a complex algorithm."
-                ]
-            }
-        ],
-        "emoji": "💻",
-        "lang": "en",
-        "level": "b1",
-        "level_code": "A1",
-        "domain": "SELF",
-        "subcategory": "Identity",
-        "legacy_id": "B1-SCI-01",
-        "pos_section": "Nouns",
-        "sub_subcategory": "General_Identity"
-    },
-    {
-        "id": "A1-NOUN-SEL-03",
+        "id": "A1-NOUN-SEL-079",
         "word": "balcony",
         "form": "noun",
-        "transcription": "ˈbælkəni",
+        "transcription": "\u02c8b\u00e6lk\u0259ni",
         "definitions": [
             {
                 "text": "A platform outside an upper window of a building.",
@@ -64,7 +41,7 @@
                 ]
             }
         ],
-        "emoji": "🏙️",
+        "emoji": "\ud83c\udfd9\ufe0f",
         "lang": "en",
         "level": "a1",
         "level_code": "A1",
@@ -75,9 +52,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-NOUN-SEL-04",
+        "id": "A1-NOUN-SEL-080",
         "word": "he",
-        "emoji": "👨",
+        "emoji": "\ud83d\udc68",
         "form": "pronoun",
         "transcription": "hi",
         "definitions": [
@@ -105,11 +82,11 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-NOUN-SEL-05",
+        "id": "A1-NOUN-SEL-081",
         "word": "her",
-        "emoji": "👩",
+        "emoji": "\ud83d\udc69",
         "form": "pronoun",
-        "transcription": "hər",
+        "transcription": "h\u0259r",
         "definitions": [
             {
                 "text": "The object form of 'she'.",
@@ -135,34 +112,11 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-NOUN-SEL-06",
-        "word": "hermeneutics",
-        "form": "noun",
-        "transcription": "ˌhɜːrməˈnuːtɪks",
-        "definitions": [
-            {
-                "text": "The branch of knowledge that deals with interpretation, especially of text.",
-                "examples": [
-                    "Literary analysis relies on hermeneutics."
-                ]
-            }
-        ],
-        "emoji": "📖",
-        "lang": "en",
-        "level": "c2",
-        "level_code": "A1",
-        "domain": "SELF",
-        "subcategory": "Identity",
-        "legacy_id": "C2-PHIL-01",
-        "pos_section": "Nouns",
-        "sub_subcategory": "General_Identity"
-    },
-    {
-        "id": "A1-NOUN-SEL-07",
+        "id": "A1-NOUN-SEL-082",
         "word": "him",
-        "emoji": "👨",
+        "emoji": "\ud83d\udc68",
         "form": "pronoun",
-        "transcription": "hɪm",
+        "transcription": "h\u026am",
         "definitions": [
             {
                 "text": "The object form of 'he'.",
@@ -188,11 +142,11 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-NOUN-SEL-08",
+        "id": "A1-NOUN-SEL-083",
         "word": "it",
-        "emoji": "📦",
+        "emoji": "\ud83d\udce6",
         "form": "pronoun",
-        "transcription": "ɪt",
+        "transcription": "\u026at",
         "definitions": [
             {
                 "text": "Used to refer to a thing, animal, or situation already mentioned.",
@@ -215,78 +169,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-NOUN-SEL-09",
-        "word": "journalism",
-        "form": "noun",
-        "transcription": "ˈdʒɜːrnəlɪzəm",
-        "definitions": [
-            {
-                "text": "The work of collecting and writing news stories.",
-                "examples": [
-                    "She studied journalism at university."
-                ]
-            }
-        ],
-        "emoji": "📰",
-        "lang": "en",
-        "level": "b1",
-        "level_code": "A1",
-        "domain": "SELF",
-        "subcategory": "Identity",
-        "legacy_id": "B1-SOC-36",
-        "pos_section": "Nouns",
-        "sub_subcategory": "General_Identity"
-    },
-    {
-        "id": "A1-NOUN-SEL-10",
-        "word": "jurisdiction",
-        "form": "noun",
-        "transcription": "ˌdʒʊrɪsˈdɪkʃn",
-        "definitions": [
-            {
-                "text": "The official power to make legal decisions and judgments.",
-                "examples": [
-                    "The court has jurisdiction over international disputes."
-                ]
-            }
-        ],
-        "emoji": "⚖️",
-        "lang": "en",
-        "level": "c1",
-        "level_code": "A1",
-        "domain": "SELF",
-        "subcategory": "Identity",
-        "legacy_id": "C1-LAW-68",
-        "pos_section": "Nouns",
-        "sub_subcategory": "General_Identity"
-    },
-    {
-        "id": "A1-NOUN-SEL-11",
-        "word": "jurisprudence",
-        "form": "noun",
-        "transcription": "ˌdʒʊrɪsˈpruːdns",
-        "definitions": [
-            {
-                "text": "The theory or philosophy of law.",
-                "examples": [
-                    "Modern jurisprudence emphasizes human rights."
-                ]
-            }
-        ],
-        "emoji": "📜",
-        "lang": "en",
-        "level": "c2",
-        "level_code": "A1",
-        "domain": "SELF",
-        "subcategory": "Identity",
-        "legacy_id": "C2-LAW-50",
-        "pos_section": "Nouns",
-        "sub_subcategory": "General_Identity"
-    },
-    {
-        "id": "A1-NOUN-SEL-12",
+        "id": "A1-NOUN-SEL-084",
         "word": "me",
-        "emoji": "🙋",
+        "emoji": "\ud83d\ude4b",
         "form": "pronoun",
         "transcription": "mi",
         "definitions": [
@@ -311,10 +196,10 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-NOUN-SEL-13",
+        "id": "A1-NOUN-SEL-085",
         "word": "nickname",
         "form": "noun",
-        "transcription": "ˈnɪkneɪm",
+        "transcription": "\u02c8n\u026akne\u026am",
         "definitions": [
             {
                 "text": "An informal name used by family or friends.",
@@ -323,7 +208,7 @@
                 ]
             }
         ],
-        "emoji": "📛",
+        "emoji": "\ud83d\udcdb",
         "lang": "en",
         "level": "a1",
         "level_code": "A1",
@@ -334,11 +219,11 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-NOUN-SEL-14",
+        "id": "A1-NOUN-SEL-086",
         "word": "she",
-        "emoji": "👩",
+        "emoji": "\ud83d\udc69",
         "form": "pronoun",
-        "transcription": "ʃi",
+        "transcription": "\u0283i",
         "definitions": [
             {
                 "text": "Used to refer to a female person or animal already mentioned.",
@@ -364,10 +249,10 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-NOUN-SEL-15",
+        "id": "A1-NOUN-SEL-087",
         "word": "sibling",
         "form": "noun",
-        "transcription": "ˈsɪblɪŋ",
+        "transcription": "\u02c8s\u026abl\u026a\u014b",
         "definitions": [
             {
                 "text": "A brother or sister.",
@@ -376,7 +261,7 @@
                 ]
             }
         ],
-        "emoji": "👨‍👩‍👧‍👦",
+        "emoji": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66",
         "lang": "en",
         "level": "a1",
         "level_code": "A1",
@@ -387,11 +272,11 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-NOUN-SEL-16",
+        "id": "A1-NOUN-SEL-088",
         "word": "them",
-        "emoji": "👥",
+        "emoji": "\ud83d\udc65",
         "form": "pronoun",
-        "transcription": "ðɛm",
+        "transcription": "\u00f0\u025bm",
         "definitions": [
             {
                 "text": "The object form of 'they'.",
@@ -417,11 +302,11 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-NOUN-SEL-17",
+        "id": "A1-NOUN-SEL-089",
         "word": "they",
-        "emoji": "👥",
+        "emoji": "\ud83d\udc65",
         "form": "pronoun",
-        "transcription": "ðeɪ",
+        "transcription": "\u00f0e\u026a",
         "definitions": [
             {
                 "text": "Used to refer to two or more people or things already mentioned.",
@@ -447,10 +332,10 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-NOUN-SEL-18",
+        "id": "A1-NOUN-SEL-090",
         "word": "toaster",
         "form": "noun",
-        "transcription": "ˈtoʊstər",
+        "transcription": "\u02c8to\u028ast\u0259r",
         "definitions": [
             {
                 "text": "An electric machine for making toast.",
@@ -459,7 +344,7 @@
                 ]
             }
         ],
-        "emoji": "🍞",
+        "emoji": "\ud83c\udf5e",
         "lang": "en",
         "level": "a1",
         "level_code": "A1",
@@ -470,11 +355,11 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-NOUN-SEL-19",
+        "id": "A1-NOUN-SEL-091",
         "word": "us",
-        "emoji": "👥",
+        "emoji": "\ud83d\udc65",
         "form": "pronoun",
-        "transcription": "əs",
+        "transcription": "\u0259s",
         "definitions": [
             {
                 "text": "The object form of 'we'.",
@@ -500,9 +385,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-NOUN-SEL-20",
+        "id": "A1-NOUN-SEL-092",
         "word": "we",
-        "emoji": "👥",
+        "emoji": "\ud83d\udc65",
         "form": "pronoun",
         "transcription": "wi",
         "definitions": [
@@ -530,9 +415,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-NOUN-SEL-21",
+        "id": "A1-NOUN-SEL-093",
         "word": "you",
-        "emoji": "🫵",
+        "emoji": "\ud83e\udef5",
         "form": "pronoun",
         "transcription": "ju",
         "definitions": [

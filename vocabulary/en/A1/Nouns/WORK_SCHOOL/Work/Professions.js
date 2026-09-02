@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-WOR-01",
+        "id": "A1-NOUN-WOR-042",
         "word": "actor",
-        "emoji": "🎭",
+        "emoji": "\ud83c\udfad",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
             }
         ],
         "subtext": "related to job titles professions",
-        "transcription": "ˈæktər",
+        "transcription": "\u02c8\u00e6kt\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -31,9 +31,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A1-NOUN-WOR-02",
+        "id": "A1-NOUN-WOR-043",
         "word": "actress",
-        "emoji": "🎭",
+        "emoji": "\ud83c\udfad",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -50,7 +50,7 @@
                 ]
             }
         ],
-        "transcription": "ˈæktrəs",
+        "transcription": "\u02c8\u00e6ktr\u0259s",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -63,9 +63,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A1-NOUN-WOR-03",
+        "id": "A1-NOUN-WOR-044",
         "word": "career",
-        "emoji": "📈",
+        "emoji": "\ud83d\udcc8",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -79,7 +79,7 @@
                 ]
             }
         ],
-        "transcription": "kərɪr",
+        "transcription": "k\u0259r\u026ar",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -92,14 +92,14 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A1-NOUN-WOR-04",
+        "id": "A1-NOUN-WOR-045",
         "word": "chef",
-        "emoji": "👨‍🍳",
+        "emoji": "\ud83d\udc68\u200d\ud83c\udf73",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
         "plural": "chefs",
-        "transcription": "ʃef",
+        "transcription": "\u0283ef",
         "definitions": [
             {
                 "text": "A skilled and trained cook who works in a hotel or restaurant.",
@@ -121,9 +121,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A1-NOUN-WOR-05",
+        "id": "A1-NOUN-WOR-046",
         "word": "dentist",
-        "emoji": "🧑‍⚕️",
+        "emoji": "\ud83e\uddd1\u200d\u2695\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -137,7 +137,7 @@
             }
         ],
         "subtext": "related to job titles professions",
-        "transcription": "ˈdɛntɪst",
+        "transcription": "\u02c8d\u025bnt\u026ast",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -150,17 +150,17 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A1-NOUN-WOR-06",
+        "id": "A1-NOUN-WOR-047",
         "word": "doctor",
-        "etymology": "Doctor → Doctor (Latin) → Docere (to teach)",
+        "etymology": "Doctor \u2192 Doctor (Latin) \u2192 Docere (to teach)",
         "numberPlural": "2 doctor",
         "answer": "two doctors",
-        "emoji": "🧑‍⚕️",
+        "emoji": "\ud83e\uddd1\u200d\u2695\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
         "plural": "doctors",
-        "transcription": "🇬🇧 ˈdɒktə | 🇺🇸 ˈdɑːktər",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8d\u0252kt\u0259 | \ud83c\uddfa\ud83c\uddf8 \u02c8d\u0251\u02d0kt\u0259r",
         "subtext": "see a doctor, family doctor",
         "definitions": [
             {
@@ -189,9 +189,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A1-NOUN-WOR-07",
+        "id": "A1-NOUN-WOR-048",
         "word": "driver",
-        "emoji": "🚗",
+        "emoji": "\ud83d\ude97",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -205,7 +205,7 @@
                 ]
             }
         ],
-        "transcription": "ˈdraɪvər",
+        "transcription": "\u02c8dra\u026av\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -218,14 +218,14 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A1-NOUN-WOR-08",
+        "id": "A1-NOUN-WOR-049",
         "word": "engineer",
-        "emoji": "🧑‍💻",
+        "emoji": "\ud83e\uddd1\u200d\ud83d\udcbb",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
         "plural": "engineers",
-        "transcription": "ˌendʒɪˈnɪə(r)",
+        "transcription": "\u02ccend\u0292\u026a\u02c8n\u026a\u0259(r)",
         "definitions": [
             {
                 "text": "A person whose job involves designing and building machines, systems, or structures.",
@@ -247,9 +247,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A1-NOUN-WOR-09",
+        "id": "A1-NOUN-WOR-050",
         "word": "farmer",
-        "emoji": "👨‍🌾",
+        "emoji": "\ud83d\udc68\u200d\ud83c\udf3e",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -263,7 +263,7 @@
             }
         ],
         "subtext": "related to job titles professions",
-        "transcription": "ˈfɑrmər",
+        "transcription": "\u02c8f\u0251rm\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -276,9 +276,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A1-NOUN-WOR-10",
+        "id": "A1-NOUN-WOR-051",
         "word": "firefighter",
-        "emoji": "👩‍🚒",
+        "emoji": "\ud83d\udc69\u200d\ud83d\ude92",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -292,7 +292,7 @@
             }
         ],
         "subtext": "related to job titles professions",
-        "transcription": "ˈfaɪrˌfaɪtər",
+        "transcription": "\u02c8fa\u026ar\u02ccfa\u026at\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -305,9 +305,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A1-NOUN-WOR-11",
+        "id": "A1-NOUN-WOR-052",
         "word": "job",
-        "emoji": "💼",
+        "emoji": "\ud83d\udcbc",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -321,7 +321,7 @@
             }
         ],
         "subtext": "related to job titles professions",
-        "transcription": "ʤɑb",
+        "transcription": "\u02a4\u0251b",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -334,9 +334,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A1-NOUN-WOR-12",
+        "id": "A1-NOUN-WOR-053",
         "word": "manager",
-        "emoji": "🧑‍💼",
+        "emoji": "\ud83e\uddd1\u200d\ud83d\udcbc",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -350,7 +350,7 @@
                 ]
             }
         ],
-        "transcription": "ˈmænɪʤər",
+        "transcription": "\u02c8m\u00e6n\u026a\u02a4\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -363,14 +363,14 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A1-NOUN-WOR-13",
+        "id": "A1-NOUN-WOR-054",
         "word": "nurse",
-        "emoji": "🧑‍⚕️",
+        "emoji": "\ud83e\uddd1\u200d\u2695\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
         "plural": "nurses",
-        "transcription": "n˃ːs",
+        "transcription": "n\u02c3\u02d0s",
         "definitions": [
             {
                 "text": "A person whose job is to care for people who are ill or injured, especially in a hospital.",
@@ -392,14 +392,14 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A1-NOUN-WOR-14",
+        "id": "A1-NOUN-WOR-055",
         "word": "occupation",
-        "emoji": "💼",
+        "emoji": "\ud83d\udcbc",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
         "plural": "occupations",
-        "transcription": "🇬🇧 ˌɒkjuˈpeɪʃn | 🇺🇸 ˌɑːkjuˈpeɪʃn",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02cc\u0252kju\u02c8pe\u026a\u0283n | \ud83c\uddfa\ud83c\uddf8 \u02cc\u0251\u02d0kju\u02c8pe\u026a\u0283n",
         "definitions": [
             {
                 "text": "A person's job or profession.",
@@ -422,9 +422,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A1-NOUN-WOR-15",
+        "id": "A1-NOUN-WOR-056",
         "word": "pilot",
-        "emoji": "🧑‍✈️",
+        "emoji": "\ud83e\uddd1\u200d\u2708\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -438,7 +438,7 @@
             }
         ],
         "subtext": "related to job titles professions",
-        "transcription": "ˈpaɪlət",
+        "transcription": "\u02c8pa\u026al\u0259t",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -451,9 +451,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A1-NOUN-WOR-16",
+        "id": "A1-NOUN-WOR-057",
         "word": "police officer",
-        "emoji": "👮",
+        "emoji": "\ud83d\udc6e",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -467,7 +467,7 @@
             }
         ],
         "subtext": "related to job titles professions",
-        "transcription": "pəˈlis ˈɔfɪsər",
+        "transcription": "p\u0259\u02c8lis \u02c8\u0254f\u026as\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -480,9 +480,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A1-NOUN-WOR-17",
+        "id": "A1-NOUN-WOR-058",
         "word": "profession",
-        "emoji": "🎓",
+        "emoji": "\ud83c\udf93",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -500,7 +500,7 @@
                 ]
             }
         ],
-        "transcription": "prəˈfɛʃən",
+        "transcription": "pr\u0259\u02c8f\u025b\u0283\u0259n",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -513,9 +513,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A1-NOUN-WOR-18",
+        "id": "A1-NOUN-WOR-059",
         "word": "professor",
-        "emoji": "👨‍🏫",
+        "emoji": "\ud83d\udc68\u200d\ud83c\udfeb",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -529,7 +529,7 @@
             }
         ],
         "subtext": "related to job titles professions",
-        "transcription": "prəˈfɛsər",
+        "transcription": "pr\u0259\u02c8f\u025bs\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -542,9 +542,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A1-NOUN-WOR-19",
+        "id": "A1-NOUN-WOR-060",
         "word": "soldier",
-        "emoji": "🪖",
+        "emoji": "\ud83e\ude96",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -558,7 +558,7 @@
             }
         ],
         "subtext": "related to job titles professions",
-        "transcription": "ˈsoʊlʤər",
+        "transcription": "\u02c8so\u028al\u02a4\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -571,9 +571,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A1-NOUN-WOR-20",
+        "id": "A1-NOUN-WOR-061",
         "word": "teacher",
-        "emoji": "🧑‍🏫",
+        "emoji": "\ud83e\uddd1\u200d\ud83c\udfeb",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -594,7 +594,7 @@
                 ]
             }
         ],
-        "transcription": "ˈtiʧər",
+        "transcription": "\u02c8ti\u02a7\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -607,9 +607,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A1-NOUN-WOR-21",
+        "id": "A1-NOUN-WOR-062",
         "word": "waiter",
-        "emoji": "🤵",
+        "emoji": "\ud83e\udd35",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -623,7 +623,7 @@
             }
         ],
         "subtext": "related to job titles professions",
-        "transcription": "ˈweɪtər",
+        "transcription": "\u02c8we\u026at\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -636,9 +636,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A1-NOUN-WOR-22",
+        "id": "A1-NOUN-WOR-063",
         "word": "waitress",
-        "emoji": "👩‍🍳",
+        "emoji": "\ud83d\udc69\u200d\ud83c\udf73",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -652,7 +652,7 @@
             }
         ],
         "subtext": "related to job titles professions",
-        "transcription": "ˈweɪtrəs",
+        "transcription": "\u02c8we\u026atr\u0259s",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",
@@ -665,9 +665,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A1-NOUN-WOR-23",
+        "id": "A1-NOUN-WOR-064",
         "word": "writer",
-        "emoji": "✍️",
+        "emoji": "\u270d\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -681,7 +681,7 @@
                 ]
             }
         ],
-        "transcription": "ˈraɪtər",
+        "transcription": "\u02c8ra\u026at\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "job_titles_professions",

@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-SEL-01",
+        "id": "A1-VERB-SEL-021",
         "word": "dislike",
-        "emoji": "👎",
+        "emoji": "\ud83d\udc4e",
         "subtext": "not like / dislike doing",
         "form": "verb",
         "definitions": [
@@ -20,7 +20,7 @@
         "v2": "disliked",
         "v3": "disliked",
         "group": "regular",
-        "transcription": "dɪsˈlaɪk",
+        "transcription": "d\u026as\u02c8la\u026ak",
         "auxiliary": "have",
         "v4": "disliking",
         "lang": "en",
@@ -38,9 +38,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A1-VERB-SEL-02",
+        "id": "A1-VERB-SEL-022",
         "word": "enjoy",
-        "emoji": "😊",
+        "emoji": "\ud83d\ude0a",
         "subtext": "enjoy doing / enjoy a meal / enjoy your work / enjoy life",
         "form": "verb",
         "definitions": [
@@ -56,7 +56,7 @@
         "v2": "enjoyed",
         "v3": "enjoyed",
         "group": "regular",
-        "transcription": "ˌɛnˈʤɔɪ",
+        "transcription": "\u02cc\u025bn\u02c8\u02a4\u0254\u026a",
         "auxiliary": "have",
         "v4": "enjoying",
         "lang": "en",
@@ -74,9 +74,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A1-VERB-SEL-03",
+        "id": "A1-VERB-SEL-023",
         "word": "fight",
-        "emoji": "⚔️",
+        "emoji": "\u2694\ufe0f",
         "form": "verb",
         "subtext": "fight for / a big fight",
         "synonyms": [
@@ -95,7 +95,7 @@
         "v2": "fought",
         "v3": "fought",
         "group": "regular",
-        "transcription": "faɪt",
+        "transcription": "fa\u026at",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -112,9 +112,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A1-VERB-SEL-04",
+        "id": "A1-VERB-SEL-024",
         "word": "hate",
-        "emoji": "😡",
+        "emoji": "\ud83d\ude21",
         "subtext": "hate doing / hate someone / hate meetings / hate commuting",
         "form": "verb",
         "definitions": [
@@ -131,7 +131,7 @@
         "v2": "hated",
         "v3": "hated",
         "group": "regular",
-        "transcription": "heɪt",
+        "transcription": "he\u026at",
         "synonyms": [
             "dislike"
         ],
@@ -152,9 +152,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A1-VERB-SEL-05",
+        "id": "A1-VERB-SEL-025",
         "word": "hope",
-        "emoji": "🤞",
+        "emoji": "\ud83e\udd1e",
         "subtext": "hope for / hope to do / hope that / I hope so",
         "form": "verb",
         "definitions": [
@@ -171,7 +171,7 @@
         "v2": "hoped",
         "v3": "hoped",
         "group": "regular",
-        "transcription": "hoʊp",
+        "transcription": "ho\u028ap",
         "synonyms": [
             "wish"
         ],
@@ -192,9 +192,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A1-VERB-SEL-06",
+        "id": "A1-VERB-SEL-026",
         "word": "laugh",
-        "emoji": "😂",
+        "emoji": "\ud83d\ude02",
         "form": "verb",
         "subtext": "laugh at / laugh together",
         "synonyms": [
@@ -213,7 +213,7 @@
         "v2": "laughed",
         "v3": "laughed",
         "group": "regular",
-        "transcription": "læf",
+        "transcription": "l\u00e6f",
         "auxiliary": "have",
         "v4": "laughing",
         "lang": "en",
@@ -231,9 +231,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A1-VERB-SEL-07",
+        "id": "A1-VERB-SEL-027",
         "word": "like",
-        "emoji": "👍",
+        "emoji": "\ud83d\udc4d",
         "subtext": "like work / like to travel / like someone / like the idea",
         "form": "verb",
         "definitions": [
@@ -251,7 +251,7 @@
         "v2": "liked",
         "v3": "liked",
         "group": "regular",
-        "transcription": "laɪk",
+        "transcription": "la\u026ak",
         "synonyms": [
             "enjoy"
         ],
@@ -269,9 +269,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A1-VERB-SEL-08",
+        "id": "A1-VERB-SEL-028",
         "word": "love",
-        "emoji": "❤️",
+        "emoji": "\u2764\ufe0f",
         "subtext": "love someone / love doing / love a place / love the idea",
         "form": "verb",
         "definitions": [
@@ -288,7 +288,7 @@
         "v2": "loved",
         "v3": "loved",
         "group": "regular",
-        "transcription": "ləv",
+        "transcription": "l\u0259v",
         "synonyms": [
             "adore"
         ],
@@ -309,9 +309,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A1-VERB-SEL-09",
+        "id": "A1-VERB-SEL-029",
         "word": "need",
-        "emoji": "🆘",
+        "emoji": "\ud83c\udd98",
         "subtext": "need help / need time / need money / need to rest",
         "form": "verb",
         "definitions": [
@@ -350,9 +350,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A1-VERB-SEL-10",
+        "id": "A1-VERB-SEL-030",
         "word": "want",
-        "emoji": "🙏",
+        "emoji": "\ud83d\ude4f",
         "subtext": "want a job / want to leave / want more money / want help",
         "form": "verb",
         "definitions": [
@@ -370,7 +370,7 @@
         "v2": "wanted",
         "v3": "wanted",
         "group": "regular",
-        "transcription": "wɔnt",
+        "transcription": "w\u0254nt",
         "synonyms": [
             "desire"
         ],
@@ -391,9 +391,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A1-VERB-SEL-11",
+        "id": "A1-VERB-SEL-031",
         "word": "worry",
-        "emoji": "😟",
+        "emoji": "\ud83d\ude1f",
         "form": "verb",
         "subtext": "worry about / don't worry",
         "synonyms": [
@@ -412,7 +412,7 @@
         "v2": "worried",
         "v3": "worried",
         "group": "regular",
-        "transcription": "ˈwəri",
+        "transcription": "\u02c8w\u0259ri",
         "auxiliary": "have",
         "v4": "worrying",
         "lang": "en",

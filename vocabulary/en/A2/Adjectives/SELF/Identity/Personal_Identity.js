@@ -2,11 +2,11 @@
     const lang = "en";
     const data = [
     {
-        "id": "A2-ADJ-SEL-01",
+        "id": "A2-ADJ-SEL-097",
         "word": "Australian",
-        "emoji": "🇦🇺",
+        "emoji": "\ud83c\udde6\ud83c\uddfa",
         "form": "adjective",
-        "transcription": "🇬🇧 ɒˈstreɪliən | 🇺🇸 ɑːˈstreɪliən",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u0252\u02c8stre\u026ali\u0259n | \ud83c\uddfa\ud83c\uddf8 \u0251\u02d0\u02c8stre\u026ali\u0259n",
         "definitions": [
             {
                 "text": "From or connected with Australia.",
@@ -31,11 +31,11 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-02",
+        "id": "A2-ADJ-SEL-098",
         "word": "Brazilian",
-        "emoji": "🇧🇷",
+        "emoji": "\ud83c\udde7\ud83c\uddf7",
         "form": "adjective",
-        "transcription": "brəˈzɪliən",
+        "transcription": "br\u0259\u02c8z\u026ali\u0259n",
         "definitions": [
             {
                 "text": "From or connected with Brazil.",
@@ -60,11 +60,11 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-03",
+        "id": "A2-ADJ-SEL-099",
         "word": "Canadian",
-        "emoji": "🇨🇦",
+        "emoji": "\ud83c\udde8\ud83c\udde6",
         "form": "adjective",
-        "transcription": "kəˈneɪdiən",
+        "transcription": "k\u0259\u02c8ne\u026adi\u0259n",
         "definitions": [
             {
                 "text": "From or connected with Canada.",
@@ -89,11 +89,11 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-04",
+        "id": "A2-ADJ-SEL-100",
         "word": "Greek",
-        "emoji": "🇬🇷",
+        "emoji": "\ud83c\uddec\ud83c\uddf7",
         "form": "adjective",
-        "transcription": "ɡriːk",
+        "transcription": "\u0261ri\u02d0k",
         "definitions": [
             {
                 "text": "From or connected with Greece.",
@@ -118,11 +118,11 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-05",
+        "id": "A2-ADJ-SEL-101",
         "word": "Indian",
-        "emoji": "🇮🇳",
+        "emoji": "\ud83c\uddee\ud83c\uddf3",
         "form": "adjective",
-        "transcription": "ˈɪndiən",
+        "transcription": "\u02c8\u026andi\u0259n",
         "definitions": [
             {
                 "text": "From or connected with India.",
@@ -147,11 +147,11 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-06",
+        "id": "A2-ADJ-SEL-102",
         "word": "Mexican",
-        "emoji": "🇲🇽",
+        "emoji": "\ud83c\uddf2\ud83c\uddfd",
         "form": "adjective",
-        "transcription": "ˈmɛksɪkən",
+        "transcription": "\u02c8m\u025bks\u026ak\u0259n",
         "definitions": [
             {
                 "text": "From or connected with Mexico.",
@@ -176,11 +176,11 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-07",
+        "id": "A2-ADJ-SEL-103",
         "word": "Russian",
-        "emoji": "🇷🇺",
+        "emoji": "\ud83c\uddf7\ud83c\uddfa",
         "form": "adjective",
-        "transcription": "ˈrʌʃən",
+        "transcription": "\u02c8r\u028c\u0283\u0259n",
         "definitions": [
             {
                 "text": "From or connected with Russia.",
@@ -205,11 +205,11 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-08",
+        "id": "A2-ADJ-SEL-104",
         "word": "Turkish",
-        "emoji": "🇹🇷",
+        "emoji": "\ud83c\uddf9\ud83c\uddf7",
         "form": "adjective",
-        "transcription": "ˈtɜːrkɪʃ",
+        "transcription": "\u02c8t\u025c\u02d0rk\u026a\u0283",
         "definitions": [
             {
                 "text": "From or connected with Turkey.",
@@ -234,9 +234,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-09",
+        "id": "A2-ADJ-SEL-105",
         "word": "aggressive",
-        "emoji": "😠",
+        "emoji": "\ud83d\ude20",
         "form": "adjective",
         "definitions": [
             {
@@ -253,7 +253,7 @@
         ],
         "comparative": "more aggressive",
         "superlative": "the most aggressive",
-        "transcription": "əˈɡrɛsɪv",
+        "transcription": "\u0259\u02c8\u0261r\u025bs\u026av",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
@@ -271,10 +271,10 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-10",
+        "id": "A2-ADJ-SEL-106",
         "word": "athletic",
         "form": "adjective",
-        "emoji": "🏃",
+        "emoji": "\ud83c\udfc3",
         "definitions": [
             {
                 "text": "Physically strong, fit, and active.",
@@ -291,7 +291,7 @@
         ],
         "comparative": "more athletic",
         "superlative": "the most athletic",
-        "transcription": "æθˈlɛtɪk",
+        "transcription": "\u00e6\u03b8\u02c8l\u025bt\u026ak",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
@@ -309,9 +309,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-11",
+        "id": "A2-ADJ-SEL-107",
         "word": "brunette",
-        "emoji": "👩🏻",
+        "emoji": "\ud83d\udc69\ud83c\udffb",
         "form": "adjective",
         "definitions": [
             {
@@ -327,7 +327,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "bruːˈnɛt",
+        "transcription": "bru\u02d0\u02c8n\u025bt",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
@@ -340,9 +340,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-12",
+        "id": "A2-ADJ-SEL-108",
         "word": "careless",
-        "emoji": "🤷",
+        "emoji": "\ud83e\udd37",
         "form": "adjective",
         "definitions": [
             {
@@ -359,7 +359,7 @@
         ],
         "comparative": "more careless",
         "superlative": "the most careless",
-        "transcription": "ˈkeərləs",
+        "transcription": "\u02c8ke\u0259rl\u0259s",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
@@ -372,9 +372,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-13",
+        "id": "A2-ADJ-SEL-109",
         "word": "cheerful",
-        "emoji": "😊",
+        "emoji": "\ud83d\ude0a",
         "form": "adjective",
         "definitions": [
             {
@@ -393,7 +393,7 @@
         ],
         "comparative": "more cheerful",
         "superlative": "the most cheerful",
-        "transcription": "ˈtʃɪərf l",
+        "transcription": "\u02c8t\u0283\u026a\u0259rf l",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
@@ -406,9 +406,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-14",
+        "id": "A2-ADJ-SEL-110",
         "word": "confident",
-        "emoji": "✨",
+        "emoji": "\u2728",
         "form": "adjective",
         "definitions": [
             {
@@ -426,7 +426,7 @@
         ],
         "comparative": "more confident",
         "superlative": "the most confident",
-        "transcription": "🇬🇧 ˈkɒnfɪdənt | 🇺🇸 ˈkɑːnfɪdənt",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8k\u0252nf\u026ad\u0259nt | \ud83c\uddfa\ud83c\uddf8 \u02c8k\u0251\u02d0nf\u026ad\u0259nt",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
@@ -439,9 +439,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-15",
+        "id": "A2-ADJ-SEL-111",
         "word": "cruel",
-        "emoji": "👿",
+        "emoji": "\ud83d\udc7f",
         "form": "adjective",
         "definitions": [
             {
@@ -459,7 +459,7 @@
         ],
         "comparative": "crueller",
         "superlative": "the cruellest",
-        "transcription": "ˈkruːəl",
+        "transcription": "\u02c8kru\u02d0\u0259l",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
@@ -472,9 +472,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-16",
+        "id": "A2-ADJ-SEL-112",
         "word": "curious",
-        "emoji": "🧐",
+        "emoji": "\ud83e\uddd0",
         "form": "adjective",
         "definitions": [
             {
@@ -492,7 +492,7 @@
         ],
         "comparative": "more curious",
         "superlative": "the most curious",
-        "transcription": "ˈkjʊəriəs",
+        "transcription": "\u02c8kj\u028a\u0259ri\u0259s",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
@@ -505,9 +505,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-17",
+        "id": "A2-ADJ-SEL-113",
         "word": "direct",
-        "emoji": "➡️",
+        "emoji": "\u27a1\ufe0f",
         "form": "adjective",
         "definitions": [
             {
@@ -520,7 +520,7 @@
         "subtext": "very direct / direct approach / a direct question",
         "comparative": "more direct",
         "superlative": "the most direct",
-        "transcription": "dəˈrɛkt",
+        "transcription": "d\u0259\u02c8r\u025bkt",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
@@ -533,9 +533,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-18",
+        "id": "A2-ADJ-SEL-114",
         "word": "elderly",
-        "emoji": "👴",
+        "emoji": "\ud83d\udc74",
         "form": "adjective",
         "definitions": [
             {
@@ -552,7 +552,7 @@
         ],
         "comparative": "more elderly",
         "superlative": "the most elderly",
-        "transcription": "ˈɛldərli",
+        "transcription": "\u02c8\u025bld\u0259rli",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
@@ -565,9 +565,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-19",
+        "id": "A2-ADJ-SEL-115",
         "word": "energetic",
-        "emoji": "⚡",
+        "emoji": "\u26a1",
         "form": "adjective",
         "definitions": [
             {
@@ -584,7 +584,7 @@
         ],
         "comparative": "more energetic",
         "superlative": "the most energetic",
-        "transcription": "ˌɛnərˈdʒɛtɪk",
+        "transcription": "\u02cc\u025bn\u0259r\u02c8d\u0292\u025bt\u026ak",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
@@ -597,9 +597,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-20",
+        "id": "A2-ADJ-SEL-116",
         "word": "engaged",
-        "emoji": "💍",
+        "emoji": "\ud83d\udc8d",
         "form": "adjective",
         "definitions": [
             {
@@ -616,7 +616,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ɪnˈɡeɪdʒd",
+        "transcription": "\u026an\u02c8\u0261e\u026ad\u0292d",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
@@ -629,9 +629,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-21",
+        "id": "A2-ADJ-SEL-117",
         "word": "foolish",
-        "emoji": "🤡",
+        "emoji": "\ud83e\udd21",
         "form": "adjective",
         "definitions": [
             {
@@ -648,7 +648,7 @@
         ],
         "comparative": "more foolish",
         "superlative": "the most foolish",
-        "transcription": "ˈfuːlɪʃ",
+        "transcription": "\u02c8fu\u02d0l\u026a\u0283",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
@@ -661,9 +661,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-22",
+        "id": "A2-ADJ-SEL-118",
         "word": "generous",
-        "emoji": "🎁",
+        "emoji": "\ud83c\udf81",
         "form": "adjective",
         "definitions": [
             {
@@ -681,7 +681,7 @@
         ],
         "comparative": "more generous",
         "superlative": "the most generous",
-        "transcription": "ˈdʒɛnərəs",
+        "transcription": "\u02c8d\u0292\u025bn\u0259r\u0259s",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
@@ -694,9 +694,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-23",
+        "id": "A2-ADJ-SEL-119",
         "word": "impatient",
-        "emoji": "⌚",
+        "emoji": "\u231a",
         "form": "adjective",
         "definitions": [
             {
@@ -712,7 +712,7 @@
         ],
         "comparative": "more impatient",
         "superlative": "the most impatient",
-        "transcription": "ɪmˈpeɪʃnt",
+        "transcription": "\u026am\u02c8pe\u026a\u0283nt",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
@@ -725,9 +725,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-24",
+        "id": "A2-ADJ-SEL-120",
         "word": "impolite",
-        "emoji": "😛",
+        "emoji": "\ud83d\ude1b",
         "form": "adjective",
         "definitions": [
             {
@@ -743,7 +743,7 @@
         ],
         "comparative": "more impolite",
         "superlative": "the most impolite",
-        "transcription": "ˌɪmpəˈlaɪt",
+        "transcription": "\u02cc\u026amp\u0259\u02c8la\u026at",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
@@ -756,9 +756,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-25",
+        "id": "A2-ADJ-SEL-121",
         "word": "independent",
-        "emoji": "🦅",
+        "emoji": "\ud83e\udd85",
         "form": "adjective",
         "definitions": [
             {
@@ -771,7 +771,7 @@
         "subtext": "financially independent / very independent / an independent report",
         "comparative": "more independent",
         "superlative": "the most independent",
-        "transcription": "ˌɪndɪˈpɛndənt",
+        "transcription": "\u02cc\u026and\u026a\u02c8p\u025bnd\u0259nt",
         "synonyms": [
             "self-reliant"
         ],
@@ -787,9 +787,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-26",
+        "id": "A2-ADJ-SEL-122",
         "word": "intelligent",
-        "emoji": "🧠",
+        "emoji": "\ud83e\udde0",
         "form": "adjective",
         "definitions": [
             {
@@ -807,7 +807,7 @@
         ],
         "comparative": "more intelligent",
         "superlative": "the most intelligent",
-        "transcription": "ɪnˈtɛlɪdʒənt",
+        "transcription": "\u026an\u02c8t\u025bl\u026ad\u0292\u0259nt",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
@@ -820,9 +820,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-27",
+        "id": "A2-ADJ-SEL-123",
         "word": "loyal",
-        "emoji": "🐕",
+        "emoji": "\ud83d\udc15",
         "form": "adjective",
         "definitions": [
             {
@@ -838,7 +838,7 @@
         ],
         "comparative": "more loyal",
         "superlative": "the most loyal",
-        "transcription": "ˈlɔɪəl",
+        "transcription": "\u02c8l\u0254\u026a\u0259l",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
@@ -851,9 +851,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-28",
+        "id": "A2-ADJ-SEL-124",
         "word": "modest",
-        "emoji": "😌",
+        "emoji": "\ud83d\ude0c",
         "form": "adjective",
         "definitions": [
             {
@@ -870,7 +870,7 @@
         ],
         "comparative": "more modest",
         "superlative": "the most modest",
-        "transcription": "🇬🇧 ˈmɒdɪst | 🇺🇸 ˈmɑːdɪst",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8m\u0252d\u026ast | \ud83c\uddfa\ud83c\uddf8 \u02c8m\u0251\u02d0d\u026ast",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
@@ -883,9 +883,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-29",
+        "id": "A2-ADJ-SEL-125",
         "word": "optimistic",
-        "emoji": "☀️",
+        "emoji": "\u2600\ufe0f",
         "form": "adjective",
         "definitions": [
             {
@@ -903,7 +903,7 @@
         ],
         "comparative": "more optimistic",
         "superlative": "the most optimistic",
-        "transcription": "🇬🇧 ˌɒptɪˈmɪstɪk | 🇺🇸 ˌɑːptɪˈmɪstɪk",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02cc\u0252pt\u026a\u02c8m\u026ast\u026ak | \ud83c\uddfa\ud83c\uddf8 \u02cc\u0251\u02d0pt\u026a\u02c8m\u026ast\u026ak",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
@@ -916,9 +916,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-30",
+        "id": "A2-ADJ-SEL-126",
         "word": "personal",
-        "emoji": "👤",
+        "emoji": "\ud83d\udc64",
         "form": "adjective",
         "definitions": [
             {
@@ -935,7 +935,7 @@
         ],
         "comparative": "more personal",
         "superlative": "the most personal",
-        "transcription": "ˈpɜːrsənl",
+        "transcription": "\u02c8p\u025c\u02d0rs\u0259nl",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
@@ -948,9 +948,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-31",
+        "id": "A2-ADJ-SEL-127",
         "word": "pessimistic",
-        "emoji": "☁️",
+        "emoji": "\u2601\ufe0f",
         "form": "adjective",
         "definitions": [
             {
@@ -968,7 +968,7 @@
         ],
         "comparative": "more pessimistic",
         "superlative": "the most pessimistic",
-        "transcription": "ˌpɛsɪˈmɪstɪk",
+        "transcription": "\u02ccp\u025bs\u026a\u02c8m\u026ast\u026ak",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
@@ -981,9 +981,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-32",
+        "id": "A2-ADJ-SEL-128",
         "word": "pleasant",
-        "emoji": "😊",
+        "emoji": "\ud83d\ude0a",
         "form": "adjective",
         "definitions": [
             {
@@ -1001,7 +1001,7 @@
         ],
         "comparative": "more pleasant",
         "superlative": "the most pleasant",
-        "transcription": "ˈplɛznt",
+        "transcription": "\u02c8pl\u025bznt",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
@@ -1014,9 +1014,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-33",
+        "id": "A2-ADJ-SEL-129",
         "word": "reliable",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "form": "adjective",
         "definitions": [
             {
@@ -1029,7 +1029,7 @@
         "subtext": "very reliable / highly reliable / a reliable source",
         "comparative": "more reliable",
         "superlative": "the most reliable",
-        "transcription": "rɪˈlaɪəbl",
+        "transcription": "r\u026a\u02c8la\u026a\u0259bl",
         "synonyms": [
             "dependable"
         ],
@@ -1045,9 +1045,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-34",
+        "id": "A2-ADJ-SEL-130",
         "word": "romantic",
-        "emoji": "💖",
+        "emoji": "\ud83d\udc96",
         "form": "adjective",
         "definitions": [
             {
@@ -1065,7 +1065,7 @@
         ],
         "comparative": "more romantic",
         "superlative": "the most romantic",
-        "transcription": "roʊˈmæntɪk",
+        "transcription": "ro\u028a\u02c8m\u00e6nt\u026ak",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
@@ -1078,9 +1078,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-35",
+        "id": "A2-ADJ-SEL-131",
         "word": "selfish",
-        "emoji": "🤳",
+        "emoji": "\ud83e\udd33",
         "form": "adjective",
         "definitions": [
             {
@@ -1097,7 +1097,7 @@
         ],
         "comparative": "more selfish",
         "superlative": "the most selfish",
-        "transcription": "ˈsɛlfɪʃ",
+        "transcription": "\u02c8s\u025blf\u026a\u0283",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
@@ -1110,9 +1110,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-36",
+        "id": "A2-ADJ-SEL-132",
         "word": "sensible",
-        "emoji": "🧠",
+        "emoji": "\ud83e\udde0",
         "form": "adjective",
         "definitions": [
             {
@@ -1130,7 +1130,7 @@
         ],
         "comparative": "more sensible",
         "superlative": "the most sensible",
-        "transcription": "ˈsɛnsəbl",
+        "transcription": "\u02c8s\u025bns\u0259bl",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
@@ -1143,9 +1143,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-37",
+        "id": "A2-ADJ-SEL-133",
         "word": "sensitive",
-        "emoji": "🥺",
+        "emoji": "\ud83e\udd7a",
         "form": "adjective",
         "definitions": [
             {
@@ -1163,7 +1163,7 @@
         ],
         "comparative": "more sensitive",
         "superlative": "the most sensitive",
-        "transcription": "ˈsɛnsətɪv",
+        "transcription": "\u02c8s\u025bns\u0259t\u026av",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
@@ -1176,9 +1176,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-38",
+        "id": "A2-ADJ-SEL-134",
         "word": "sociable",
-        "emoji": "🗣️",
+        "emoji": "\ud83d\udde3\ufe0f",
         "form": "adjective",
         "definitions": [
             {
@@ -1191,7 +1191,7 @@
         "subtext": "very sociable / naturally sociable / sociable person",
         "comparative": "more sociable",
         "superlative": "the most sociable",
-        "transcription": "ˈsoʊʃəbl",
+        "transcription": "\u02c8so\u028a\u0283\u0259bl",
         "synonyms": [
             "friendly"
         ],
@@ -1207,9 +1207,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-39",
+        "id": "A2-ADJ-SEL-135",
         "word": "supportive",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "form": "adjective",
         "definitions": [
             {
@@ -1222,7 +1222,7 @@
         "subtext": "very supportive / supportive team / be supportive",
         "comparative": "more supportive",
         "superlative": "the most supportive",
-        "transcription": "səˈpɔːrtɪv",
+        "transcription": "s\u0259\u02c8p\u0254\u02d0rt\u026av",
         "synonyms": [
             "helpful"
         ],
@@ -1238,9 +1238,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-40",
+        "id": "A2-ADJ-SEL-136",
         "word": "talented",
-        "emoji": "🌟",
+        "emoji": "\ud83c\udf1f",
         "form": "adjective",
         "definitions": [
             {
@@ -1258,7 +1258,7 @@
         ],
         "comparative": "more talented",
         "superlative": "the most talented",
-        "transcription": "ˈtæləntɪd",
+        "transcription": "\u02c8t\u00e6l\u0259nt\u026ad",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
@@ -1271,9 +1271,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-41",
+        "id": "A2-ADJ-SEL-137",
         "word": "unfriendly",
-        "emoji": "😠",
+        "emoji": "\ud83d\ude20",
         "form": "adjective",
         "definitions": [
             {
@@ -1289,7 +1289,7 @@
         ],
         "comparative": "unfriendlier",
         "superlative": "the unfriendliest",
-        "transcription": "ʌnˈfrɛndli",
+        "transcription": "\u028cn\u02c8fr\u025bndli",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
@@ -1302,9 +1302,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-42",
+        "id": "A2-ADJ-SEL-138",
         "word": "willing",
-        "emoji": "🙋",
+        "emoji": "\ud83d\ude4b",
         "form": "adjective",
         "definitions": [
             {
@@ -1322,7 +1322,7 @@
         ],
         "comparative": "more willing",
         "superlative": "the most willing",
-        "transcription": "ˈwɪlɪŋ",
+        "transcription": "\u02c8w\u026al\u026a\u014b",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
@@ -1335,9 +1335,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-43",
+        "id": "A2-ADJ-SEL-139",
         "word": "wise",
-        "emoji": "🦉",
+        "emoji": "\ud83e\udd89",
         "form": "adjective",
         "definitions": [
             {
@@ -1355,7 +1355,7 @@
         ],
         "comparative": "wiser",
         "superlative": "the wisest",
-        "transcription": "waɪz",
+        "transcription": "wa\u026az",
         "lang": "en",
         "level": "elementary",
         "theme": "people",

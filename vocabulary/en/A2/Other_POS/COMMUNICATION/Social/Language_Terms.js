@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "A2-OTH-COM-01",
+        "id": "A2-OTH-COM-001",
         "word": "across",
         "form": "preposition",
         "definitions": [
@@ -14,8 +14,8 @@
             }
         ],
         "subtext": "preposition of movement",
-        "emoji": "🌉",
-        "transcription": "əˈkrɒs",
+        "emoji": "\ud83c\udf09",
+        "transcription": "\u0259\u02c8kr\u0252s",
         "lang": "en",
         "level": "elementary",
         "theme": "language",
@@ -28,7 +28,7 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A2-OTH-COM-02",
+        "id": "A2-OTH-COM-002",
         "word": "although",
         "form": "conjunction",
         "definitions": [
@@ -40,8 +40,8 @@
             }
         ],
         "subtext": "concession connector",
-        "emoji": "🌧️",
-        "transcription": "ɔːlˈðəʊ",
+        "emoji": "\ud83c\udf27\ufe0f",
+        "transcription": "\u0254\u02d0l\u02c8\u00f0\u0259\u028a",
         "lang": "en",
         "level": "elementary",
         "theme": "language",
@@ -57,7 +57,7 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A2-OTH-COM-03",
+        "id": "A2-OTH-COM-003",
         "word": "for",
         "form": "preposition",
         "definitions": [
@@ -69,8 +69,8 @@
             }
         ],
         "subtext": "duration with present perfect",
-        "emoji": "📅",
-        "transcription": "fɔːr",
+        "emoji": "\ud83d\udcc5",
+        "transcription": "f\u0254\u02d0r",
         "lang": "en",
         "level": "elementary",
         "theme": "language",
@@ -86,7 +86,7 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A2-OTH-COM-04",
+        "id": "A2-OTH-COM-004",
         "word": "however",
         "form": "conjunction",
         "definitions": [
@@ -98,8 +98,8 @@
             }
         ],
         "subtext": "contrast connector",
-        "emoji": "🔄",
-        "transcription": "haʊˈevər",
+        "emoji": "\ud83d\udd04",
+        "transcription": "ha\u028a\u02c8ev\u0259r",
         "lang": "en",
         "level": "elementary",
         "theme": "language",
@@ -116,7 +116,7 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A2-OTH-COM-05",
+        "id": "A2-OTH-COM-005",
         "word": "into",
         "form": "preposition",
         "definitions": [
@@ -128,8 +128,8 @@
             }
         ],
         "subtext": "preposition of movement",
-        "emoji": "➡️",
-        "transcription": "ˈɪntuː",
+        "emoji": "\u27a1\ufe0f",
+        "transcription": "\u02c8\u026antu\u02d0",
         "lang": "en",
         "level": "elementary",
         "theme": "language",
@@ -145,7 +145,7 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A2-OTH-COM-06",
+        "id": "A2-OTH-COM-006",
         "word": "many",
         "form": "determiner",
         "definitions": [
@@ -157,8 +157,8 @@
             }
         ],
         "subtext": "quantifier for plural countable nouns",
-        "emoji": "🔢",
-        "transcription": "ˈmeni",
+        "emoji": "\ud83d\udd22",
+        "transcription": "\u02c8meni",
         "lang": "en",
         "level": "elementary",
         "theme": "language",
@@ -174,7 +174,7 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A2-OTH-COM-07",
+        "id": "A2-OTH-COM-007",
         "word": "much",
         "form": "determiner",
         "definitions": [
@@ -186,8 +186,8 @@
             }
         ],
         "subtext": "quantifier for uncountable nouns",
-        "emoji": "📊",
-        "transcription": "mʌtʃ",
+        "emoji": "\ud83d\udcca",
+        "transcription": "m\u028ct\u0283",
         "lang": "en",
         "level": "elementary",
         "theme": "language",
@@ -203,7 +203,7 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A2-OTH-COM-08",
+        "id": "A2-OTH-COM-008",
         "word": "out of",
         "form": "preposition",
         "definitions": [
@@ -215,8 +215,8 @@
             }
         ],
         "subtext": "preposition of movement",
-        "emoji": "🚪",
-        "transcription": "aʊt əv",
+        "emoji": "\ud83d\udeaa",
+        "transcription": "a\u028at \u0259v",
         "lang": "en",
         "level": "elementary",
         "theme": "language",
@@ -232,7 +232,7 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A2-OTH-COM-09",
+        "id": "A2-OTH-COM-009",
         "word": "since",
         "form": "preposition",
         "definitions": [
@@ -244,8 +244,8 @@
             }
         ],
         "subtext": "starting point with present perfect",
-        "emoji": "📍",
-        "transcription": "sɪns",
+        "emoji": "\ud83d\udccd",
+        "transcription": "s\u026ans",
         "lang": "en",
         "level": "elementary",
         "theme": "language",
@@ -261,7 +261,7 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A2-OTH-COM-10",
+        "id": "A2-OTH-COM-010",
         "word": "so",
         "form": "conjunction",
         "definitions": [
@@ -273,8 +273,8 @@
             }
         ],
         "subtext": "result connector",
-        "emoji": "👉",
-        "transcription": "səʊ",
+        "emoji": "\ud83d\udc49",
+        "transcription": "s\u0259\u028a",
         "lang": "en",
         "level": "elementary",
         "theme": "language",
@@ -287,7 +287,7 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A2-OTH-COM-11",
+        "id": "A2-OTH-COM-011",
         "word": "through",
         "form": "preposition",
         "definitions": [
@@ -299,8 +299,8 @@
             }
         ],
         "subtext": "preposition of movement",
-        "emoji": "🚇",
-        "transcription": "θruː",
+        "emoji": "\ud83d\ude87",
+        "transcription": "\u03b8ru\u02d0",
         "lang": "en",
         "level": "elementary",
         "theme": "language",

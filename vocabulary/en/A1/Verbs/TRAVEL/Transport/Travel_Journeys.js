@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-TRA-01",
+        "id": "A1-VERB-TRA-004",
         "word": "book",
         "definitions": [
             {
@@ -17,17 +17,17 @@
         "aspect": "action",
         "v2": "booked",
         "v3": "booked",
-        "emoji": "📖",
+        "emoji": "\ud83d\udcd6",
         "form": "verb",
         "group": "regular",
-        "transcription": "bʊk",
+        "transcription": "b\u028ak",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "bōks",
+            "origin_word": "b\u014dks",
             "origin_meaning": "beech, book"
         },
         "antonyms": [
@@ -41,7 +41,7 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-VERB-TRA-02",
+        "id": "A1-VERB-TRA-005",
         "word": "book",
         "definitions": [
             {
@@ -56,10 +56,10 @@
         "aspect": "action",
         "v2": "booked",
         "v3": "booked",
-        "emoji": "📖",
+        "emoji": "\ud83d\udcd6",
         "form": "verb",
         "group": "regular",
-        "transcription": "bʊk",
+        "transcription": "b\u028ak",
         "auxiliary": "have",
         "v4": "booking",
         "lang": "en",
@@ -68,7 +68,7 @@
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "bōks",
+            "origin_word": "b\u014dks",
             "origin_meaning": "beech, book"
         },
         "antonyms": [
@@ -82,7 +82,7 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-VERB-TRA-03",
+        "id": "A1-VERB-TRA-006",
         "word": "cancel",
         "definitions": [
             {
@@ -97,10 +97,10 @@
         "aspect": "action",
         "v2": "cancelled",
         "v3": "cancelled",
-        "emoji": "❌",
+        "emoji": "\u274c",
         "form": "verb",
         "group": "regular",
-        "transcription": "ˈkænsəl",
+        "transcription": "\u02c8k\u00e6ns\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -116,7 +116,7 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-VERB-TRA-04",
+        "id": "A1-VERB-TRA-007",
         "word": "cancel",
         "definitions": [
             {
@@ -131,10 +131,10 @@
         "aspect": "action",
         "v2": "cancelled",
         "v3": "cancelled",
-        "emoji": "❌",
+        "emoji": "\u274c",
         "form": "verb",
         "group": "regular",
-        "transcription": "ˈkænsəl",
+        "transcription": "\u02c8k\u00e6ns\u0259l",
         "auxiliary": "have",
         "v4": "canceling",
         "lang": "en",
@@ -152,9 +152,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-VERB-TRA-05",
+        "id": "A1-VERB-TRA-008",
         "word": "catch",
-        "emoji": "🧤",
+        "emoji": "\ud83e\udde4",
         "form": "verb",
         "subtext": "catch a bus / catch a cold / catch a ball",
         "definitions": [
@@ -170,7 +170,7 @@
         "v2": "caught",
         "v3": "caught",
         "group": "irregular",
-        "transcription": "kæʧ",
+        "transcription": "k\u00e6\u02a7",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -186,9 +186,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-VERB-TRA-06",
+        "id": "A1-VERB-TRA-009",
         "word": "catch",
-        "emoji": "🧤",
+        "emoji": "\ud83e\udde4",
         "form": "verb",
         "subtext": "catch a bus / catch a cold / catch a ball",
         "definitions": [
@@ -204,7 +204,7 @@
         "v2": "caught",
         "v3": "caught",
         "group": "regular",
-        "transcription": "kæʧ",
+        "transcription": "k\u00e6\u02a7",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -221,9 +221,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-VERB-TRA-07",
+        "id": "A1-VERB-TRA-010",
         "word": "come",
-        "emoji": "🏃‍♂️",
+        "emoji": "\ud83c\udfc3\u200d\u2642\ufe0f",
         "subtext": "come home / come to work / come back / come here",
         "form": "verb",
         "definitions": [
@@ -240,14 +240,14 @@
         "v2": "came",
         "v3": "come",
         "group": "irregular",
-        "transcription": "kʌm",
+        "transcription": "k\u028cm",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "kwimaną"
+            "origin_word": "kwiman\u0105"
         },
         "antonyms": [
             "go"
@@ -260,9 +260,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-VERB-TRA-08",
+        "id": "A1-VERB-TRA-011",
         "word": "come",
-        "emoji": "🏃‍♂️",
+        "emoji": "\ud83c\udfc3\u200d\u2642\ufe0f",
         "subtext": "come home / come to work / come back / come here",
         "form": "verb",
         "definitions": [
@@ -279,7 +279,7 @@
         "v2": "came",
         "v3": "come",
         "group": "regular",
-        "transcription": "kʌm",
+        "transcription": "k\u028cm",
         "synonyms": [
             "arrive"
         ],
@@ -290,7 +290,7 @@
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "kwimaną"
+            "origin_word": "kwiman\u0105"
         },
         "antonyms": [
             "go"
@@ -303,11 +303,11 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-VERB-TRA-09",
+        "id": "A1-VERB-TRA-012",
         "word": "explore",
-        "emoji": "🧭",
+        "emoji": "\ud83e\udded",
         "form": "verb",
-        "transcription": "ɪkˈsplɔːr",
+        "transcription": "\u026ak\u02c8spl\u0254\u02d0r",
         "definitions": [
             {
                 "text": "To travel through an unfamiliar area in order to learn about it.",
@@ -340,9 +340,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-VERB-TRA-10",
+        "id": "A1-VERB-TRA-013",
         "word": "go",
-        "emoji": "🚶",
+        "emoji": "\ud83d\udeb6",
         "subtext": "go to work / go home / go out / go shopping",
         "form": "verb",
         "definitions": [
@@ -359,7 +359,7 @@
         "v2": "went",
         "v3": "gone",
         "group": "irregular",
-        "transcription": "🇬🇧 ɡəʊ | 🇺🇸 ɡoʊ",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u0261\u0259\u028a | \ud83c\uddfa\ud83c\uddf8 \u0261o\u028a",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -380,9 +380,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-VERB-TRA-11",
+        "id": "A1-VERB-TRA-014",
         "word": "go",
-        "emoji": "🚶",
+        "emoji": "\ud83d\udeb6",
         "subtext": "go to work / go home / go out / go shopping",
         "form": "verb",
         "definitions": [
@@ -399,7 +399,7 @@
         "v2": "went",
         "v3": "gone",
         "group": "regular",
-        "transcription": "🇬🇧 ɡəʊ | 🇺🇸 ɡoʊ",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u0261\u0259\u028a | \ud83c\uddfa\ud83c\uddf8 \u0261o\u028a",
         "synonyms": [
             "move"
         ],
@@ -435,7 +435,7 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-VERB-TRA-12",
+        "id": "A1-VERB-TRA-015",
         "word": "miss",
         "definitions": [
             {
@@ -450,10 +450,10 @@
         "aspect": "both",
         "v2": "missed",
         "v3": "missed",
-        "emoji": "🏃‍♂️",
+        "emoji": "\ud83c\udfc3\u200d\u2642\ufe0f",
         "form": "verb",
         "group": "regular",
-        "transcription": "mɪs",
+        "transcription": "m\u026as",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -469,7 +469,7 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-VERB-TRA-13",
+        "id": "A1-VERB-TRA-016",
         "word": "miss",
         "definitions": [
             {
@@ -484,10 +484,10 @@
         "aspect": "both",
         "v2": "missed",
         "v3": "missed",
-        "emoji": "🏃‍♂️",
+        "emoji": "\ud83c\udfc3\u200d\u2642\ufe0f",
         "form": "verb",
         "group": "regular",
-        "transcription": "mɪs",
+        "transcription": "m\u026as",
         "auxiliary": "have",
         "v4": "missing",
         "lang": "en",
@@ -505,7 +505,7 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-VERB-TRA-14",
+        "id": "A1-VERB-TRA-017",
         "word": "pack",
         "definitions": [
             {
@@ -520,10 +520,10 @@
         "aspect": "action",
         "v2": "packed",
         "v3": "packed",
-        "emoji": "🎒",
+        "emoji": "\ud83c\udf92",
         "form": "verb",
         "group": "regular",
-        "transcription": "pæk",
+        "transcription": "p\u00e6k",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -539,7 +539,7 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-VERB-TRA-15",
+        "id": "A1-VERB-TRA-018",
         "word": "pack",
         "definitions": [
             {
@@ -554,10 +554,10 @@
         "aspect": "action",
         "v2": "packed",
         "v3": "packed",
-        "emoji": "🎒",
+        "emoji": "\ud83c\udf92",
         "form": "verb",
         "group": "regular",
-        "transcription": "pæk",
+        "transcription": "p\u00e6k",
         "auxiliary": "have",
         "v4": "packing",
         "lang": "en",
@@ -575,9 +575,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-VERB-TRA-16",
+        "id": "A1-VERB-TRA-019",
         "word": "return",
-        "emoji": "🔙",
+        "emoji": "\ud83d\udd19",
         "subtext": "return home / return to work / return a call / return from",
         "form": "verb",
         "definitions": [
@@ -594,7 +594,7 @@
         "v2": "returned",
         "v3": "returned",
         "group": "regular",
-        "transcription": "rɪˈtərn",
+        "transcription": "r\u026a\u02c8t\u0259rn",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -610,9 +610,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-VERB-TRA-17",
+        "id": "A1-VERB-TRA-020",
         "word": "return",
-        "emoji": "🔙",
+        "emoji": "\ud83d\udd19",
         "subtext": "return home / return to work / return a call / return from",
         "form": "verb",
         "definitions": [
@@ -629,7 +629,7 @@
         "v2": "returned",
         "v3": "returned",
         "group": "regular",
-        "transcription": "rɪˈtərn",
+        "transcription": "r\u026a\u02c8t\u0259rn",
         "synonyms": [
             "come back"
         ],
@@ -650,9 +650,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-VERB-TRA-18",
+        "id": "A1-VERB-TRA-021",
         "word": "travel",
-        "emoji": "✈️",
+        "emoji": "\u2708\ufe0f",
         "subtext": "travel for work / travel abroad / travel by train",
         "form": "verb",
         "definitions": [
@@ -668,7 +668,7 @@
         "v2": "traveled",
         "v3": "traveled",
         "group": "regular",
-        "transcription": "ˈtrævəl",
+        "transcription": "\u02c8tr\u00e6v\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -684,9 +684,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-VERB-TRA-19",
+        "id": "A1-VERB-TRA-022",
         "word": "travel",
-        "emoji": "✈️",
+        "emoji": "\u2708\ufe0f",
         "subtext": "travel for work / travel abroad / travel by train",
         "form": "verb",
         "definitions": [
@@ -702,7 +702,7 @@
         "v2": "traveled",
         "v3": "traveled",
         "group": "regular",
-        "transcription": "ˈtrævəl",
+        "transcription": "\u02c8tr\u00e6v\u0259l",
         "synonyms": [
             "journey"
         ],
@@ -723,9 +723,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-VERB-TRA-20",
+        "id": "A1-VERB-TRA-023",
         "word": "turn",
-        "emoji": "🔄",
+        "emoji": "\ud83d\udd04",
         "subtext": "turn on / turn off / turn left / turn right",
         "form": "verb",
         "definitions": [
@@ -742,7 +742,7 @@
         "v2": "turned",
         "v3": "turned",
         "group": "regular",
-        "transcription": "tərn",
+        "transcription": "t\u0259rn",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -758,9 +758,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-VERB-TRA-21",
+        "id": "A1-VERB-TRA-024",
         "word": "turn",
-        "emoji": "🔄",
+        "emoji": "\ud83d\udd04",
         "subtext": "turn on / turn off / turn left / turn right",
         "form": "verb",
         "definitions": [
@@ -777,7 +777,7 @@
         "v2": "turned",
         "v3": "turned",
         "group": "regular",
-        "transcription": "tərn",
+        "transcription": "t\u0259rn",
         "auxiliary": "have",
         "v4": "turning",
         "lang": "en",
@@ -795,9 +795,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-VERB-TRA-22",
+        "id": "A1-VERB-TRA-025",
         "word": "unpack",
-        "emoji": "👜",
+        "emoji": "\ud83d\udc5c",
         "subtext": "unpack a suitcase",
         "form": "verb",
         "definitions": [
@@ -813,7 +813,7 @@
         "v2": "unpacked",
         "v3": "unpacked",
         "group": "regular",
-        "transcription": "ənˈpæk",
+        "transcription": "\u0259n\u02c8p\u00e6k",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -829,9 +829,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-VERB-TRA-23",
+        "id": "A1-VERB-TRA-026",
         "word": "unpack",
-        "emoji": "👜",
+        "emoji": "\ud83d\udc5c",
         "subtext": "unpack a suitcase",
         "form": "verb",
         "definitions": [
@@ -847,7 +847,7 @@
         "v2": "unpacked",
         "v3": "unpacked",
         "group": "regular",
-        "transcription": "ənˈpæk",
+        "transcription": "\u0259n\u02c8p\u00e6k",
         "auxiliary": "have",
         "v4": "unpacking",
         "lang": "en",

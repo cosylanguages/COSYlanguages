@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-ADJ-SEL-01",
+        "id": "A1-ADJ-SEL-027",
         "word": "able",
-        "emoji": "💪",
+        "emoji": "\ud83d\udcaa",
         "form": "adjective",
         "definitions": [
             {
@@ -20,7 +20,7 @@
         ],
         "comparative": "abler",
         "superlative": "the ablest",
-        "transcription": "ˈeɪbəl",
+        "transcription": "\u02c8e\u026ab\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -36,9 +36,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-02",
+        "id": "A1-ADJ-SEL-028",
         "word": "able",
-        "emoji": "💪",
+        "emoji": "\ud83d\udcaa",
         "form": "adjective",
         "definitions": [
             {
@@ -54,7 +54,7 @@
         ],
         "comparative": "abler",
         "superlative": "the ablest",
-        "transcription": "ˈeɪbəl",
+        "transcription": "\u02c8e\u026ab\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -70,9 +70,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-03",
+        "id": "A1-ADJ-SEL-029",
         "word": "active",
-        "emoji": "🏃",
+        "emoji": "\ud83c\udfc3",
         "form": "adjective",
         "subtext": "an active lifestyle / very active",
         "synonyms": [
@@ -89,7 +89,7 @@
         ],
         "comparative": "more active",
         "superlative": "the most active",
-        "transcription": "ˈæktɪv",
+        "transcription": "\u02c8\u00e6kt\u026av",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -105,9 +105,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-04",
+        "id": "A1-ADJ-SEL-030",
         "word": "active",
-        "emoji": "🏃",
+        "emoji": "\ud83c\udfc3",
         "form": "adjective",
         "subtext": "an active lifestyle / very active",
         "synonyms": [
@@ -124,7 +124,7 @@
         ],
         "comparative": "more active",
         "superlative": "the most active",
-        "transcription": "ˈæktɪv",
+        "transcription": "\u02c8\u00e6kt\u026av",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -140,7 +140,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-05",
+        "id": "A1-ADJ-SEL-031",
         "word": "amazing",
         "form": "adjective",
         "subtext": "an amazing result / an amazing offer / truly amazing",
@@ -158,8 +158,8 @@
         ],
         "comparative": "more amazing",
         "superlative": "the most amazing",
-        "emoji": "🤩",
-        "transcription": "əˈmeɪzɪŋ",
+        "emoji": "\ud83e\udd29",
+        "transcription": "\u0259\u02c8me\u026az\u026a\u014b",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -175,7 +175,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-06",
+        "id": "A1-ADJ-SEL-032",
         "word": "amazing",
         "form": "adjective",
         "subtext": "an amazing result / an amazing offer / truly amazing",
@@ -193,8 +193,8 @@
         ],
         "comparative": "more amazing",
         "superlative": "the most amazing",
-        "emoji": "🤩",
-        "transcription": "əˈmeɪzɪŋ",
+        "emoji": "\ud83e\udd29",
+        "transcription": "\u0259\u02c8me\u026az\u026a\u014b",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -210,9 +210,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-07",
+        "id": "A1-ADJ-SEL-033",
         "word": "ancient",
-        "emoji": "🏛️",
+        "emoji": "\ud83c\udfdb\ufe0f",
         "form": "adjective",
         "subtext": "ancient history / an ancient city",
         "synonyms": [
@@ -229,7 +229,7 @@
         ],
         "comparative": "more ancient",
         "superlative": "the most ancient",
-        "transcription": "ˈeɪnʧənt",
+        "transcription": "\u02c8e\u026an\u02a7\u0259nt",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -245,9 +245,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-08",
+        "id": "A1-ADJ-SEL-034",
         "word": "ancient",
-        "emoji": "🏛️",
+        "emoji": "\ud83c\udfdb\ufe0f",
         "form": "adjective",
         "subtext": "ancient history / an ancient city",
         "synonyms": [
@@ -264,7 +264,7 @@
         ],
         "comparative": "more ancient",
         "superlative": "the most ancient",
-        "transcription": "ˈeɪnʧənt",
+        "transcription": "\u02c8e\u026an\u02a7\u0259nt",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -280,7 +280,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-09",
+        "id": "A1-ADJ-SEL-035",
         "word": "awful",
         "form": "adjective",
         "subtext": "awful weather / awful news / simply awful",
@@ -298,8 +298,8 @@
         ],
         "comparative": "more awful",
         "superlative": "the most awful",
-        "emoji": "💩",
-        "transcription": "ˈɔfəl",
+        "emoji": "\ud83d\udca9",
+        "transcription": "\u02c8\u0254f\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -315,7 +315,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-10",
+        "id": "A1-ADJ-SEL-036",
         "word": "awful",
         "form": "adjective",
         "subtext": "awful weather / awful news / simply awful",
@@ -333,8 +333,8 @@
         ],
         "comparative": "more awful",
         "superlative": "the most awful",
-        "emoji": "💩",
-        "transcription": "ˈɔfəl",
+        "emoji": "\ud83d\udca9",
+        "transcription": "\u02c8\u0254f\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -350,7 +350,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-11",
+        "id": "A1-ADJ-SEL-037",
         "word": "beautiful",
         "form": "adjective",
         "definitions": [
@@ -364,8 +364,8 @@
         "subtext": "beautiful view / beautiful city / absolutely beautiful",
         "comparative": "more beautiful",
         "superlative": "the most beautiful",
-        "emoji": "✨",
-        "transcription": "ˈbjutəfəl",
+        "emoji": "\u2728",
+        "transcription": "\u02c8bjut\u0259f\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -381,7 +381,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-12",
+        "id": "A1-ADJ-SEL-038",
         "word": "beautiful",
         "form": "adjective",
         "definitions": [
@@ -395,8 +395,8 @@
         "subtext": "beautiful view / beautiful city / absolutely beautiful",
         "comparative": "more beautiful",
         "superlative": "the most beautiful",
-        "emoji": "✨",
-        "transcription": "ˈbjutəfəl",
+        "emoji": "\u2728",
+        "transcription": "\u02c8bjut\u0259f\u0259l",
         "synonyms": [
             "pretty",
             "lovely"
@@ -416,9 +416,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-13",
+        "id": "A1-ADJ-SEL-039",
         "word": "bitter",
-        "emoji": "☕",
+        "emoji": "\u2615",
         "form": "adjective",
         "subtext": "a bitter taste / bitter coffee",
         "synonyms": [
@@ -435,7 +435,7 @@
         ],
         "comparative": "bitterer",
         "superlative": "the bitterest",
-        "transcription": "ˈbɪtər",
+        "transcription": "\u02c8b\u026at\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -451,9 +451,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-14",
+        "id": "A1-ADJ-SEL-040",
         "word": "bitter",
-        "emoji": "☕",
+        "emoji": "\u2615",
         "form": "adjective",
         "subtext": "a bitter taste / bitter coffee",
         "synonyms": [
@@ -470,7 +470,7 @@
         ],
         "comparative": "bitterer",
         "superlative": "the bitterest",
-        "transcription": "ˈbɪtər",
+        "transcription": "\u02c8b\u026at\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -486,7 +486,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-15",
+        "id": "A1-ADJ-SEL-041",
         "word": "boring",
         "form": "adjective",
         "definitions": [
@@ -500,8 +500,8 @@
         "subtext": "very boring / a boring meeting / find boring",
         "comparative": "more boring",
         "superlative": "the most boring",
-        "emoji": "😴",
-        "transcription": "ˈbɔrɪŋ",
+        "emoji": "\ud83d\ude34",
+        "transcription": "\u02c8b\u0254r\u026a\u014b",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -517,7 +517,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-16",
+        "id": "A1-ADJ-SEL-042",
         "word": "boring",
         "form": "adjective",
         "definitions": [
@@ -531,8 +531,8 @@
         "subtext": "very boring / a boring meeting / find boring",
         "comparative": "more boring",
         "superlative": "the most boring",
-        "emoji": "😴",
-        "transcription": "ˈbɔrɪŋ",
+        "emoji": "\ud83d\ude34",
+        "transcription": "\u02c8b\u0254r\u026a\u014b",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -548,9 +548,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-17",
+        "id": "A1-ADJ-SEL-043",
         "word": "brave",
-        "emoji": "🦁",
+        "emoji": "\ud83e\udd81",
         "form": "adjective",
         "subtext": "a brave soldier / be brave",
         "synonyms": [
@@ -566,7 +566,7 @@
         ],
         "comparative": "braver",
         "superlative": "the bravest",
-        "transcription": "breɪv",
+        "transcription": "bre\u026av",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -582,9 +582,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-18",
+        "id": "A1-ADJ-SEL-044",
         "word": "brave",
-        "emoji": "🦁",
+        "emoji": "\ud83e\udd81",
         "form": "adjective",
         "subtext": "a brave soldier / be brave",
         "synonyms": [
@@ -600,7 +600,7 @@
         ],
         "comparative": "braver",
         "superlative": "the bravest",
-        "transcription": "breɪv",
+        "transcription": "bre\u026av",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -616,9 +616,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-19",
+        "id": "A1-ADJ-SEL-045",
         "word": "bright",
-        "emoji": "💡",
+        "emoji": "\ud83d\udca1",
         "form": "adjective",
         "subtext": "bright colors / a bright day",
         "synonyms": [
@@ -636,7 +636,7 @@
         ],
         "comparative": "brighter",
         "superlative": "the brightest",
-        "transcription": "braɪt",
+        "transcription": "bra\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -652,9 +652,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-20",
+        "id": "A1-ADJ-SEL-046",
         "word": "bright",
-        "emoji": "💡",
+        "emoji": "\ud83d\udca1",
         "form": "adjective",
         "subtext": "bright colors / a bright day",
         "synonyms": [
@@ -672,7 +672,7 @@
         ],
         "comparative": "brighter",
         "superlative": "the brightest",
-        "transcription": "braɪt",
+        "transcription": "bra\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -688,9 +688,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-21",
+        "id": "A1-ADJ-SEL-047",
         "word": "careful",
-        "emoji": "⚠️",
+        "emoji": "\u26a0\ufe0f",
         "form": "adjective",
         "subtext": "be careful / careful planning",
         "synonyms": [
@@ -706,7 +706,7 @@
         ],
         "comparative": "more careful",
         "superlative": "the most careful",
-        "transcription": "ˈkɛrfəl",
+        "transcription": "\u02c8k\u025brf\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -722,9 +722,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-22",
+        "id": "A1-ADJ-SEL-048",
         "word": "careful",
-        "emoji": "⚠️",
+        "emoji": "\u26a0\ufe0f",
         "form": "adjective",
         "subtext": "be careful / careful planning",
         "synonyms": [
@@ -740,7 +740,7 @@
         ],
         "comparative": "more careful",
         "superlative": "the most careful",
-        "transcription": "ˈkɛrfəl",
+        "transcription": "\u02c8k\u025brf\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -756,9 +756,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-23",
+        "id": "A1-ADJ-SEL-049",
         "word": "clear",
-        "emoji": "💧",
+        "emoji": "\ud83d\udca7",
         "form": "adjective",
         "subtext": "a clear sky",
         "synonyms": [
@@ -777,7 +777,7 @@
         ],
         "comparative": "clearer",
         "superlative": "the clearest",
-        "transcription": "klɪr",
+        "transcription": "kl\u026ar",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -793,9 +793,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-24",
+        "id": "A1-ADJ-SEL-050",
         "word": "clear",
-        "emoji": "💧",
+        "emoji": "\ud83d\udca7",
         "form": "adjective",
         "subtext": "a clear sky",
         "synonyms": [
@@ -814,7 +814,7 @@
         ],
         "comparative": "clearer",
         "superlative": "the clearest",
-        "transcription": "klɪr",
+        "transcription": "kl\u026ar",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -830,7 +830,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-25",
+        "id": "A1-ADJ-SEL-051",
         "word": "clever",
         "form": "adjective",
         "definitions": [
@@ -848,8 +848,8 @@
         ],
         "comparative": "cleverer",
         "superlative": "the cleverest",
-        "emoji": "🎓",
-        "transcription": "ˈklɛvər",
+        "emoji": "\ud83c\udf93",
+        "transcription": "\u02c8kl\u025bv\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -865,7 +865,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-26",
+        "id": "A1-ADJ-SEL-052",
         "word": "clever",
         "form": "adjective",
         "definitions": [
@@ -883,8 +883,8 @@
         ],
         "comparative": "cleverer",
         "superlative": "the cleverest",
-        "emoji": "🎓",
-        "transcription": "ˈklɛvər",
+        "emoji": "\ud83c\udf93",
+        "transcription": "\u02c8kl\u025bv\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -900,9 +900,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-27",
+        "id": "A1-ADJ-SEL-053",
         "word": "common",
-        "emoji": "🔄",
+        "emoji": "\ud83d\udd04",
         "form": "adjective",
         "subtext": "a common problem",
         "synonyms": [
@@ -920,7 +920,7 @@
         ],
         "comparative": "commoner",
         "superlative": "the commonest",
-        "transcription": "ˈkɑmən",
+        "transcription": "\u02c8k\u0251m\u0259n",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -936,9 +936,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-28",
+        "id": "A1-ADJ-SEL-054",
         "word": "common",
-        "emoji": "🔄",
+        "emoji": "\ud83d\udd04",
         "form": "adjective",
         "subtext": "a common problem",
         "synonyms": [
@@ -956,7 +956,7 @@
         ],
         "comparative": "commoner",
         "superlative": "the commonest",
-        "transcription": "ˈkɑmən",
+        "transcription": "\u02c8k\u0251m\u0259n",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -972,7 +972,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-29",
+        "id": "A1-ADJ-SEL-055",
         "word": "correct",
         "form": "adjective",
         "definitions": [
@@ -986,8 +986,8 @@
         "subtext": "correct answer / the correct way / completely correct",
         "comparative": "more correct",
         "superlative": "the most correct",
-        "emoji": "✅",
-        "transcription": "kərˈɛkt",
+        "emoji": "\u2705",
+        "transcription": "k\u0259r\u02c8\u025bkt",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -1003,7 +1003,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-30",
+        "id": "A1-ADJ-SEL-056",
         "word": "correct",
         "form": "adjective",
         "definitions": [
@@ -1017,8 +1017,8 @@
         "subtext": "correct answer / the correct way / completely correct",
         "comparative": "more correct",
         "superlative": "the most correct",
-        "emoji": "✅",
-        "transcription": "kərˈɛkt",
+        "emoji": "\u2705",
+        "transcription": "k\u0259r\u02c8\u025bkt",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -1034,9 +1034,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-31",
+        "id": "A1-ADJ-SEL-057",
         "word": "cowardly",
-        "emoji": "🐭",
+        "emoji": "\ud83d\udc2d",
         "form": "adjective",
         "subtext": "a cowardly act / don't be cowardly",
         "synonyms": [
@@ -1052,7 +1052,7 @@
         ],
         "comparative": "more cowardly",
         "superlative": "the most cowardly",
-        "transcription": "ˈkaʊərdli",
+        "transcription": "\u02c8ka\u028a\u0259rdli",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -1068,9 +1068,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-32",
+        "id": "A1-ADJ-SEL-058",
         "word": "cowardly",
-        "emoji": "🐭",
+        "emoji": "\ud83d\udc2d",
         "form": "adjective",
         "subtext": "a cowardly act / don't be cowardly",
         "synonyms": [
@@ -1086,7 +1086,7 @@
         ],
         "comparative": "more cowardly",
         "superlative": "the most cowardly",
-        "transcription": "ˈkaʊərdli",
+        "transcription": "\u02c8ka\u028a\u0259rdli",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -1102,9 +1102,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-33",
+        "id": "A1-ADJ-SEL-059",
         "word": "creative",
-        "emoji": "🎨",
+        "emoji": "\ud83c\udfa8",
         "form": "adjective",
         "subtext": "very creative / creative ideas",
         "synonyms": [
@@ -1121,7 +1121,7 @@
         ],
         "comparative": "more creative",
         "superlative": "the most creative",
-        "transcription": "kriˈeɪtɪv",
+        "transcription": "kri\u02c8e\u026at\u026av",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -1134,9 +1134,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-34",
+        "id": "A1-ADJ-SEL-060",
         "word": "creative",
-        "emoji": "🎨",
+        "emoji": "\ud83c\udfa8",
         "form": "adjective",
         "subtext": "very creative / creative ideas",
         "synonyms": [
@@ -1153,7 +1153,7 @@
         ],
         "comparative": "more creative",
         "superlative": "the most creative",
-        "transcription": "kriˈeɪtɪv",
+        "transcription": "kri\u02c8e\u026at\u026av",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -1169,9 +1169,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-35",
+        "id": "A1-ADJ-SEL-061",
         "word": "dark",
-        "emoji": "🌑",
+        "emoji": "\ud83c\udf11",
         "form": "adjective",
         "subtext": "dark blue / a dark night",
         "synonyms": [
@@ -1188,7 +1188,7 @@
         ],
         "comparative": "darker",
         "superlative": "the darkest",
-        "transcription": "dɑrk",
+        "transcription": "d\u0251rk",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -1204,9 +1204,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-36",
+        "id": "A1-ADJ-SEL-062",
         "word": "dark",
-        "emoji": "🌑",
+        "emoji": "\ud83c\udf11",
         "form": "adjective",
         "subtext": "dark blue / a dark night",
         "synonyms": [
@@ -1223,7 +1223,7 @@
         ],
         "comparative": "darker",
         "superlative": "the darkest",
-        "transcription": "dɑrk",
+        "transcription": "d\u0251rk",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -1239,9 +1239,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-37",
+        "id": "A1-ADJ-SEL-063",
         "word": "delicious",
-        "emoji": "😋",
+        "emoji": "\ud83d\ude0b",
         "form": "adjective",
         "subtext": "delicious meal / smell delicious",
         "synonyms": [
@@ -1258,7 +1258,7 @@
         ],
         "comparative": "more delicious",
         "superlative": "the most delicious",
-        "transcription": "dɪˈlɪʃəs",
+        "transcription": "d\u026a\u02c8l\u026a\u0283\u0259s",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -1274,9 +1274,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-38",
+        "id": "A1-ADJ-SEL-064",
         "word": "delicious",
-        "emoji": "😋",
+        "emoji": "\ud83d\ude0b",
         "form": "adjective",
         "subtext": "delicious meal / smell delicious",
         "synonyms": [
@@ -1293,7 +1293,7 @@
         ],
         "comparative": "more delicious",
         "superlative": "the most delicious",
-        "transcription": "dɪˈlɪʃəs",
+        "transcription": "d\u026a\u02c8l\u026a\u0283\u0259s",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -1309,7 +1309,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-39",
+        "id": "A1-ADJ-SEL-065",
         "word": "different",
         "form": "adjective",
         "subtext": "completely different / very different / different from",
@@ -1326,8 +1326,8 @@
         ],
         "comparative": "more different",
         "superlative": "the most different",
-        "emoji": "🌓",
-        "transcription": "ˈdɪfərənt",
+        "emoji": "\ud83c\udf13",
+        "transcription": "\u02c8d\u026af\u0259r\u0259nt",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -1343,7 +1343,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-40",
+        "id": "A1-ADJ-SEL-066",
         "word": "different",
         "form": "adjective",
         "subtext": "completely different / very different / different from",
@@ -1360,8 +1360,8 @@
         ],
         "comparative": "more different",
         "superlative": "the most different",
-        "emoji": "🌓",
-        "transcription": "ˈdɪfərənt",
+        "emoji": "\ud83c\udf13",
+        "transcription": "\u02c8d\u026af\u0259r\u0259nt",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -1377,9 +1377,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-41",
+        "id": "A1-ADJ-SEL-067",
         "word": "fair",
-        "emoji": "⚖️",
+        "emoji": "\u2696\ufe0f",
         "form": "adjective",
         "definitions": [
             {
@@ -1395,7 +1395,7 @@
         ],
         "comparative": "fairer",
         "superlative": "the fairest",
-        "transcription": "fɛr",
+        "transcription": "f\u025br",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -1411,9 +1411,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-42",
+        "id": "A1-ADJ-SEL-068",
         "word": "fair",
-        "emoji": "⚖️",
+        "emoji": "\u2696\ufe0f",
         "form": "adjective",
         "definitions": [
             {
@@ -1429,7 +1429,7 @@
         ],
         "comparative": "fairer",
         "superlative": "the fairest",
-        "transcription": "fɛr",
+        "transcription": "f\u025br",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -1445,9 +1445,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-43",
+        "id": "A1-ADJ-SEL-069",
         "word": "false",
-        "emoji": "❌",
+        "emoji": "\u274c",
         "form": "adjective",
         "subtext": "true or false / false information",
         "synonyms": [
@@ -1463,7 +1463,7 @@
         ],
         "comparative": "falser",
         "superlative": "the falsest",
-        "transcription": "fɔls",
+        "transcription": "f\u0254ls",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -1479,9 +1479,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-44",
+        "id": "A1-ADJ-SEL-070",
         "word": "false",
-        "emoji": "❌",
+        "emoji": "\u274c",
         "form": "adjective",
         "subtext": "true or false / false information",
         "synonyms": [
@@ -1497,7 +1497,7 @@
         ],
         "comparative": "falser",
         "superlative": "the falsest",
-        "transcription": "fɔls",
+        "transcription": "f\u0254ls",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -1513,7 +1513,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-45",
+        "id": "A1-ADJ-SEL-071",
         "word": "fantastic",
         "form": "adjective",
         "subtext": "fantastic news / a fantastic opportunity / truly fantastic",
@@ -1531,8 +1531,8 @@
         ],
         "comparative": "more fantastic",
         "superlative": "the most fantastic",
-        "emoji": "🔥",
-        "transcription": "fænˈtæstɪk",
+        "emoji": "\ud83d\udd25",
+        "transcription": "f\u00e6n\u02c8t\u00e6st\u026ak",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -1548,7 +1548,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-46",
+        "id": "A1-ADJ-SEL-072",
         "word": "fantastic",
         "form": "adjective",
         "subtext": "fantastic news / a fantastic opportunity / truly fantastic",
@@ -1566,8 +1566,8 @@
         ],
         "comparative": "more fantastic",
         "superlative": "the most fantastic",
-        "emoji": "🔥",
-        "transcription": "fænˈtæstɪk",
+        "emoji": "\ud83d\udd25",
+        "transcription": "f\u00e6n\u02c8t\u00e6st\u026ak",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -1583,9 +1583,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-47",
+        "id": "A1-ADJ-SEL-073",
         "word": "favourite",
-        "emoji": "⭐",
+        "emoji": "\u2b50",
         "form": "adjective",
         "subtext": "my favourite film / favourite food",
         "synonyms": [
@@ -1602,7 +1602,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈfeɪvərɪt",
+        "transcription": "\u02c8fe\u026av\u0259r\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -1618,9 +1618,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-48",
+        "id": "A1-ADJ-SEL-074",
         "word": "favourite",
-        "emoji": "⭐",
+        "emoji": "\u2b50",
         "form": "adjective",
         "subtext": "my favourite film / favourite food",
         "synonyms": [
@@ -1637,7 +1637,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈfeɪvərɪt",
+        "transcription": "\u02c8fe\u026av\u0259r\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -1653,9 +1653,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-49",
+        "id": "A1-ADJ-SEL-075",
         "word": "fine",
-        "emoji": "😊",
+        "emoji": "\ud83d\ude0a",
         "form": "adjective",
         "definitions": [
             {
@@ -1673,7 +1673,7 @@
         ],
         "comparative": "finer",
         "superlative": "the finest",
-        "transcription": "faɪn",
+        "transcription": "fa\u026an",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -1686,9 +1686,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-50",
+        "id": "A1-ADJ-SEL-076",
         "word": "fine",
-        "emoji": "😊",
+        "emoji": "\ud83d\ude0a",
         "form": "adjective",
         "definitions": [
             {
@@ -1706,7 +1706,7 @@
         ],
         "comparative": "finer",
         "superlative": "the finest",
-        "transcription": "faɪn",
+        "transcription": "fa\u026an",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -1722,7 +1722,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-51",
+        "id": "A1-ADJ-SEL-077",
         "word": "friendly",
         "form": "adjective",
         "definitions": [
@@ -1740,8 +1740,8 @@
         ],
         "comparative": "more friendly",
         "superlative": "the most friendly",
-        "emoji": "👋",
-        "transcription": "ˈfrɛndli",
+        "emoji": "\ud83d\udc4b",
+        "transcription": "\u02c8fr\u025bndli",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -1757,7 +1757,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-52",
+        "id": "A1-ADJ-SEL-078",
         "word": "friendly",
         "form": "adjective",
         "definitions": [
@@ -1775,8 +1775,8 @@
         ],
         "comparative": "more friendly",
         "superlative": "the most friendly",
-        "emoji": "👋",
-        "transcription": "ˈfrɛndli",
+        "emoji": "\ud83d\udc4b",
+        "transcription": "\u02c8fr\u025bndli",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -1792,7 +1792,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-53",
+        "id": "A1-ADJ-SEL-079",
         "word": "funny",
         "form": "adjective",
         "definitions": [
@@ -1810,8 +1810,8 @@
         ],
         "comparative": "funnier",
         "superlative": "the funniest",
-        "emoji": "😂",
-        "transcription": "ˈfəni",
+        "emoji": "\ud83d\ude02",
+        "transcription": "\u02c8f\u0259ni",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -1827,7 +1827,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-54",
+        "id": "A1-ADJ-SEL-080",
         "word": "funny",
         "form": "adjective",
         "definitions": [
@@ -1845,8 +1845,8 @@
         ],
         "comparative": "funnier",
         "superlative": "the funniest",
-        "emoji": "😂",
-        "transcription": "ˈfəni",
+        "emoji": "\ud83d\ude02",
+        "transcription": "\u02c8f\u0259ni",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -1862,7 +1862,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-55",
+        "id": "A1-ADJ-SEL-081",
         "word": "great",
         "form": "adjective",
         "subtext": "a great idea / a great opportunity / great value",
@@ -1880,8 +1880,8 @@
         ],
         "comparative": "greater",
         "superlative": "the greatest",
-        "emoji": "🌟",
-        "transcription": "greɪt",
+        "emoji": "\ud83c\udf1f",
+        "transcription": "gre\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -1897,7 +1897,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-56",
+        "id": "A1-ADJ-SEL-082",
         "word": "great",
         "form": "adjective",
         "subtext": "a great idea / a great opportunity / great value",
@@ -1915,8 +1915,8 @@
         ],
         "comparative": "greater",
         "superlative": "the greatest",
-        "emoji": "🌟",
-        "transcription": "greɪt",
+        "emoji": "\ud83c\udf1f",
+        "transcription": "gre\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -1932,9 +1932,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-57",
+        "id": "A1-ADJ-SEL-083",
         "word": "hardworking",
-        "emoji": "🐝",
+        "emoji": "\ud83d\udc1d",
         "form": "adjective",
         "subtext": "a hardworking student / very hardworking",
         "synonyms": [
@@ -1951,7 +1951,7 @@
         ],
         "comparative": "more hardworking",
         "superlative": "the most hardworking",
-        "transcription": "ˈhɑrdˌwərkɪŋ",
+        "transcription": "\u02c8h\u0251rd\u02ccw\u0259rk\u026a\u014b",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -1967,9 +1967,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-58",
+        "id": "A1-ADJ-SEL-084",
         "word": "hardworking",
-        "emoji": "🐝",
+        "emoji": "\ud83d\udc1d",
         "form": "adjective",
         "subtext": "a hardworking student / very hardworking",
         "synonyms": [
@@ -1986,7 +1986,7 @@
         ],
         "comparative": "more hardworking",
         "superlative": "the most hardworking",
-        "transcription": "ˈhɑrdˌwərkɪŋ",
+        "transcription": "\u02c8h\u0251rd\u02ccw\u0259rk\u026a\u014b",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -2002,9 +2002,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-59",
+        "id": "A1-ADJ-SEL-085",
         "word": "helpful",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "form": "adjective",
         "subtext": "very helpful / a helpful person",
         "synonyms": [
@@ -2021,7 +2021,7 @@
         ],
         "comparative": "more helpful",
         "superlative": "the most helpful",
-        "transcription": "ˈhɛlpfəl",
+        "transcription": "\u02c8h\u025blpf\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -2037,9 +2037,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-60",
+        "id": "A1-ADJ-SEL-086",
         "word": "helpful",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "form": "adjective",
         "subtext": "very helpful / a helpful person",
         "synonyms": [
@@ -2056,7 +2056,7 @@
         ],
         "comparative": "more helpful",
         "superlative": "the most helpful",
-        "transcription": "ˈhɛlpfəl",
+        "transcription": "\u02c8h\u025blpf\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -2072,7 +2072,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-61",
+        "id": "A1-ADJ-SEL-087",
         "word": "honest",
         "form": "adjective",
         "definitions": [
@@ -2089,8 +2089,8 @@
         ],
         "comparative": "more honest",
         "superlative": "the most honest",
-        "emoji": "⚖️",
-        "transcription": "ˈɑnəst",
+        "emoji": "\u2696\ufe0f",
+        "transcription": "\u02c8\u0251n\u0259st",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -2106,7 +2106,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-62",
+        "id": "A1-ADJ-SEL-088",
         "word": "honest",
         "form": "adjective",
         "definitions": [
@@ -2123,8 +2123,8 @@
         ],
         "comparative": "more honest",
         "superlative": "the most honest",
-        "emoji": "⚖️",
-        "transcription": "ˈɑnəst",
+        "emoji": "\u2696\ufe0f",
+        "transcription": "\u02c8\u0251n\u0259st",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -2140,9 +2140,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-63",
+        "id": "A1-ADJ-SEL-089",
         "word": "important",
-        "emoji": "❗",
+        "emoji": "\u2757",
         "form": "adjective",
         "subtext": "important meeting / very important / most important",
         "synonyms": [
@@ -2164,7 +2164,7 @@
         ],
         "comparative": "more important",
         "superlative": "the most important",
-        "transcription": "ˌɪmˈpɔrtənt",
+        "transcription": "\u02cc\u026am\u02c8p\u0254rt\u0259nt",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -2180,9 +2180,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-64",
+        "id": "A1-ADJ-SEL-090",
         "word": "important",
-        "emoji": "❗",
+        "emoji": "\u2757",
         "form": "adjective",
         "subtext": "important meeting / very important / most important",
         "synonyms": [
@@ -2204,7 +2204,7 @@
         ],
         "comparative": "more important",
         "superlative": "the most important",
-        "transcription": "ˌɪmˈpɔrtənt",
+        "transcription": "\u02cc\u026am\u02c8p\u0254rt\u0259nt",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -2220,9 +2220,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-65",
+        "id": "A1-ADJ-SEL-091",
         "word": "incorrect",
-        "emoji": "❌",
+        "emoji": "\u274c",
         "form": "adjective",
         "subtext": "incorrect answer / absolutely incorrect",
         "synonyms": [
@@ -2239,7 +2239,7 @@
         ],
         "comparative": "more incorrect",
         "superlative": "the most incorrect",
-        "transcription": "ˌɪnkərˈɛkt",
+        "transcription": "\u02cc\u026ank\u0259r\u02c8\u025bkt",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -2255,9 +2255,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-66",
+        "id": "A1-ADJ-SEL-092",
         "word": "incorrect",
-        "emoji": "❌",
+        "emoji": "\u274c",
         "form": "adjective",
         "subtext": "incorrect answer / absolutely incorrect",
         "synonyms": [
@@ -2274,7 +2274,7 @@
         ],
         "comparative": "more incorrect",
         "superlative": "the most incorrect",
-        "transcription": "ˌɪnkərˈɛkt",
+        "transcription": "\u02cc\u026ank\u0259r\u02c8\u025bkt",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -2290,7 +2290,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-67",
+        "id": "A1-ADJ-SEL-093",
         "word": "interesting",
         "form": "adjective",
         "definitions": [
@@ -2304,8 +2304,8 @@
         "subtext": "find interesting / very interesting / an interesting idea",
         "comparative": "more interesting",
         "superlative": "the most interesting",
-        "emoji": "🧐",
-        "transcription": "ˈɪntəˌrɛstɪŋ",
+        "emoji": "\ud83e\uddd0",
+        "transcription": "\u02c8\u026ant\u0259\u02ccr\u025bst\u026a\u014b",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -2321,7 +2321,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-68",
+        "id": "A1-ADJ-SEL-094",
         "word": "interesting",
         "form": "adjective",
         "definitions": [
@@ -2335,8 +2335,8 @@
         "subtext": "find interesting / very interesting / an interesting idea",
         "comparative": "more interesting",
         "superlative": "the most interesting",
-        "emoji": "🧐",
-        "transcription": "ˈɪntəˌrɛstɪŋ",
+        "emoji": "\ud83e\uddd0",
+        "transcription": "\u02c8\u026ant\u0259\u02ccr\u025bst\u026a\u014b",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -2352,7 +2352,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-69",
+        "id": "A1-ADJ-SEL-095",
         "word": "kind",
         "form": "adjective",
         "definitions": [
@@ -2370,8 +2370,8 @@
         ],
         "comparative": "kinder",
         "superlative": "the kindest",
-        "emoji": "🤝",
-        "transcription": "kaɪnd",
+        "emoji": "\ud83e\udd1d",
+        "transcription": "ka\u026and",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -2387,7 +2387,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-70",
+        "id": "A1-ADJ-SEL-096",
         "word": "kind",
         "form": "adjective",
         "definitions": [
@@ -2405,8 +2405,8 @@
         ],
         "comparative": "kinder",
         "superlative": "the kindest",
-        "emoji": "🤝",
-        "transcription": "kaɪnd",
+        "emoji": "\ud83e\udd1d",
+        "transcription": "ka\u026and",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -2422,7 +2422,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-71",
+        "id": "A1-ADJ-SEL-097",
         "word": "lazy",
         "form": "adjective",
         "definitions": [
@@ -2439,8 +2439,8 @@
         ],
         "comparative": "lazier",
         "superlative": "the laziest",
-        "emoji": "🛋️",
-        "transcription": "ˈleɪzi",
+        "emoji": "\ud83d\udecb\ufe0f",
+        "transcription": "\u02c8le\u026azi",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -2456,7 +2456,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-72",
+        "id": "A1-ADJ-SEL-098",
         "word": "lazy",
         "form": "adjective",
         "definitions": [
@@ -2473,8 +2473,8 @@
         ],
         "comparative": "lazier",
         "superlative": "the laziest",
-        "emoji": "🛋️",
-        "transcription": "ˈleɪzi",
+        "emoji": "\ud83d\udecb\ufe0f",
+        "transcription": "\u02c8le\u026azi",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -2490,7 +2490,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-73",
+        "id": "A1-ADJ-SEL-099",
         "word": "left",
         "form": "adjective",
         "subtext": "left hand / left side",
@@ -2505,8 +2505,8 @@
         ],
         "comparative": null,
         "superlative": null,
-        "emoji": "⬅️",
-        "transcription": "lɛft",
+        "emoji": "\u2b05\ufe0f",
+        "transcription": "l\u025bft",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -2522,7 +2522,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-74",
+        "id": "A1-ADJ-SEL-100",
         "word": "left",
         "form": "adjective",
         "subtext": "left hand / left side",
@@ -2537,8 +2537,8 @@
         ],
         "comparative": null,
         "superlative": null,
-        "emoji": "⬅️",
-        "transcription": "lɛft",
+        "emoji": "\u2b05\ufe0f",
+        "transcription": "l\u025bft",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -2554,7 +2554,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-75",
+        "id": "A1-ADJ-SEL-101",
         "word": "loud",
         "form": "adjective",
         "subtext": "loud noise / too loud / a loud voice",
@@ -2571,8 +2571,8 @@
         ],
         "comparative": "louder",
         "superlative": "the loudest",
-        "emoji": "📢",
-        "transcription": "laʊd",
+        "emoji": "\ud83d\udce2",
+        "transcription": "la\u028ad",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -2588,7 +2588,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-76",
+        "id": "A1-ADJ-SEL-102",
         "word": "loud",
         "form": "adjective",
         "subtext": "loud noise / too loud / a loud voice",
@@ -2605,8 +2605,8 @@
         ],
         "comparative": "louder",
         "superlative": "the loudest",
-        "emoji": "📢",
-        "transcription": "laʊd",
+        "emoji": "\ud83d\udce2",
+        "transcription": "la\u028ad",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -2622,9 +2622,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-77",
+        "id": "A1-ADJ-SEL-103",
         "word": "modern",
-        "emoji": "🏙️",
+        "emoji": "\ud83c\udfd9\ufe0f",
         "form": "adjective",
         "subtext": "a modern building / modern life",
         "synonyms": [
@@ -2641,7 +2641,7 @@
         ],
         "comparative": "more modern",
         "superlative": "the most modern",
-        "transcription": "ˈmɑdərn",
+        "transcription": "\u02c8m\u0251d\u0259rn",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -2657,9 +2657,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-78",
+        "id": "A1-ADJ-SEL-104",
         "word": "modern",
-        "emoji": "🏙️",
+        "emoji": "\ud83c\udfd9\ufe0f",
         "form": "adjective",
         "subtext": "a modern building / modern life",
         "synonyms": [
@@ -2676,7 +2676,7 @@
         ],
         "comparative": "more modern",
         "superlative": "the most modern",
-        "transcription": "ˈmɑdərn",
+        "transcription": "\u02c8m\u0251d\u0259rn",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -2692,7 +2692,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-79",
+        "id": "A1-ADJ-SEL-105",
         "word": "nice",
         "form": "adjective",
         "subtext": "a nice day / a nice place / a nice person",
@@ -2710,7 +2710,7 @@
         ],
         "comparative": "nicer",
         "superlative": "the nicest",
-        "emoji": "😊",
+        "emoji": "\ud83d\ude0a",
         "transcription": "nis",
         "lang": "en",
         "level": "starter",
@@ -2727,7 +2727,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-80",
+        "id": "A1-ADJ-SEL-106",
         "word": "nice",
         "form": "adjective",
         "subtext": "a nice day / a nice place / a nice person",
@@ -2745,7 +2745,7 @@
         ],
         "comparative": "nicer",
         "superlative": "the nicest",
-        "emoji": "😊",
+        "emoji": "\ud83d\ude0a",
         "transcription": "nis",
         "lang": "en",
         "level": "starter",
@@ -2762,7 +2762,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-81",
+        "id": "A1-ADJ-SEL-107",
         "word": "noisy",
         "form": "adjective",
         "definitions": [
@@ -2779,8 +2779,8 @@
         ],
         "comparative": "noisier",
         "superlative": "the noisiest",
-        "emoji": "📢",
-        "transcription": "ˈnɔɪzi",
+        "emoji": "\ud83d\udce2",
+        "transcription": "\u02c8n\u0254\u026azi",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -2796,7 +2796,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-82",
+        "id": "A1-ADJ-SEL-108",
         "word": "noisy",
         "form": "adjective",
         "definitions": [
@@ -2813,8 +2813,8 @@
         ],
         "comparative": "noisier",
         "superlative": "the noisiest",
-        "emoji": "📢",
-        "transcription": "ˈnɔɪzi",
+        "emoji": "\ud83d\udce2",
+        "transcription": "\u02c8n\u0254\u026azi",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -2830,9 +2830,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-83",
+        "id": "A1-ADJ-SEL-109",
         "word": "normal",
-        "emoji": "😐",
+        "emoji": "\ud83d\ude10",
         "form": "adjective",
         "subtext": "normal day / back to normal",
         "synonyms": [
@@ -2849,7 +2849,7 @@
         ],
         "comparative": "more normal",
         "superlative": "the most normal",
-        "transcription": "ˈnɔrməl",
+        "transcription": "\u02c8n\u0254rm\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -2865,9 +2865,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-84",
+        "id": "A1-ADJ-SEL-110",
         "word": "normal",
-        "emoji": "😐",
+        "emoji": "\ud83d\ude10",
         "form": "adjective",
         "subtext": "normal day / back to normal",
         "synonyms": [
@@ -2884,7 +2884,7 @@
         ],
         "comparative": "more normal",
         "superlative": "the most normal",
-        "transcription": "ˈnɔrməl",
+        "transcription": "\u02c8n\u0254rm\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -2900,9 +2900,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-85",
+        "id": "A1-ADJ-SEL-111",
         "word": "only",
-        "emoji": "1️⃣",
+        "emoji": "1\ufe0f\u20e3",
         "form": "adjective",
         "definitions": [
             {
@@ -2918,7 +2918,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈoʊnli",
+        "transcription": "\u02c8o\u028anli",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -2934,9 +2934,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-86",
+        "id": "A1-ADJ-SEL-112",
         "word": "only",
-        "emoji": "1️⃣",
+        "emoji": "1\ufe0f\u20e3",
         "form": "adjective",
         "definitions": [
             {
@@ -2952,7 +2952,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈoʊnli",
+        "transcription": "\u02c8o\u028anli",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -2968,9 +2968,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-87",
+        "id": "A1-ADJ-SEL-113",
         "word": "other",
-        "emoji": "➕",
+        "emoji": "\u2795",
         "form": "adjective",
         "definitions": [
             {
@@ -2986,7 +2986,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈəðər",
+        "transcription": "\u02c8\u0259\u00f0\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -3002,9 +3002,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-88",
+        "id": "A1-ADJ-SEL-114",
         "word": "other",
-        "emoji": "➕",
+        "emoji": "\u2795",
         "form": "adjective",
         "definitions": [
             {
@@ -3020,7 +3020,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈəðər",
+        "transcription": "\u02c8\u0259\u00f0\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -3036,9 +3036,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-89",
+        "id": "A1-ADJ-SEL-115",
         "word": "oval",
-        "emoji": "🥚",
+        "emoji": "\ud83e\udd5a",
         "form": "adjective",
         "subtext": "an oval mirror",
         "synonyms": [
@@ -3054,7 +3054,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈoʊvəl",
+        "transcription": "\u02c8o\u028av\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -3070,9 +3070,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-90",
+        "id": "A1-ADJ-SEL-116",
         "word": "oval",
-        "emoji": "🥚",
+        "emoji": "\ud83e\udd5a",
         "form": "adjective",
         "subtext": "an oval mirror",
         "synonyms": [
@@ -3088,7 +3088,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈoʊvəl",
+        "transcription": "\u02c8o\u028av\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -3104,9 +3104,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-91",
+        "id": "A1-ADJ-SEL-117",
         "word": "patient",
-        "emoji": "🧘",
+        "emoji": "\ud83e\uddd8",
         "form": "adjective",
         "subtext": "be patient / a patient teacher",
         "synonyms": [
@@ -3123,7 +3123,7 @@
         ],
         "comparative": "more patient",
         "superlative": "the most patient",
-        "transcription": "ˈpeɪʃənt",
+        "transcription": "\u02c8pe\u026a\u0283\u0259nt",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -3139,9 +3139,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-92",
+        "id": "A1-ADJ-SEL-118",
         "word": "patient",
-        "emoji": "🧘",
+        "emoji": "\ud83e\uddd8",
         "form": "adjective",
         "subtext": "be patient / a patient teacher",
         "synonyms": [
@@ -3158,7 +3158,7 @@
         ],
         "comparative": "more patient",
         "superlative": "the most patient",
-        "transcription": "ˈpeɪʃənt",
+        "transcription": "\u02c8pe\u026a\u0283\u0259nt",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -3174,7 +3174,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-93",
+        "id": "A1-ADJ-SEL-119",
         "word": "perfect",
         "form": "adjective",
         "definitions": [
@@ -3188,8 +3188,8 @@
         "subtext": "a perfect opportunity / perfect timing / absolutely perfect",
         "comparative": "more perfect",
         "superlative": "the most perfect",
-        "emoji": "💯",
-        "transcription": "ˈpərˌfɪkt",
+        "emoji": "\ud83d\udcaf",
+        "transcription": "\u02c8p\u0259r\u02ccf\u026akt",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -3205,7 +3205,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-94",
+        "id": "A1-ADJ-SEL-120",
         "word": "perfect",
         "form": "adjective",
         "definitions": [
@@ -3219,8 +3219,8 @@
         "subtext": "a perfect opportunity / perfect timing / absolutely perfect",
         "comparative": "more perfect",
         "superlative": "the most perfect",
-        "emoji": "💯",
-        "transcription": "ˈpərˌfɪkt",
+        "emoji": "\ud83d\udcaf",
+        "transcription": "\u02c8p\u0259r\u02ccf\u026akt",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -3236,7 +3236,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-95",
+        "id": "A1-ADJ-SEL-121",
         "word": "polite",
         "form": "adjective",
         "definitions": [
@@ -3253,8 +3253,8 @@
         ],
         "comparative": "more polite",
         "superlative": "the most polite",
-        "emoji": "🙏",
-        "transcription": "pəˈlaɪt",
+        "emoji": "\ud83d\ude4f",
+        "transcription": "p\u0259\u02c8la\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -3270,7 +3270,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-96",
+        "id": "A1-ADJ-SEL-122",
         "word": "polite",
         "form": "adjective",
         "definitions": [
@@ -3287,8 +3287,8 @@
         ],
         "comparative": "more polite",
         "superlative": "the most polite",
-        "emoji": "🙏",
-        "transcription": "pəˈlaɪt",
+        "emoji": "\ud83d\ude4f",
+        "transcription": "p\u0259\u02c8la\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -3304,7 +3304,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-97",
+        "id": "A1-ADJ-SEL-123",
         "word": "pretty",
         "form": "adjective",
         "definitions": [
@@ -3318,8 +3318,8 @@
         "subtext": "pretty good / a pretty place / quite pretty",
         "comparative": "prettier",
         "superlative": "the prettiest",
-        "emoji": "🌸",
-        "transcription": "ˈprɪti",
+        "emoji": "\ud83c\udf38",
+        "transcription": "\u02c8pr\u026ati",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -3335,7 +3335,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-98",
+        "id": "A1-ADJ-SEL-124",
         "word": "pretty",
         "form": "adjective",
         "definitions": [
@@ -3349,8 +3349,8 @@
         "subtext": "pretty good / a pretty place / quite pretty",
         "comparative": "prettier",
         "superlative": "the prettiest",
-        "emoji": "🌸",
-        "transcription": "ˈprɪti",
+        "emoji": "\ud83c\udf38",
+        "transcription": "\u02c8pr\u026ati",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -3366,7 +3366,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-99",
+        "id": "A1-ADJ-SEL-125",
         "word": "proud",
         "form": "adjective",
         "definitions": [
@@ -3384,8 +3384,8 @@
         ],
         "comparative": "prouder",
         "superlative": "the proudest",
-        "emoji": "🤳",
-        "transcription": "praʊd",
+        "emoji": "\ud83e\udd33",
+        "transcription": "pra\u028ad",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -3398,7 +3398,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-100",
+        "id": "A1-ADJ-SEL-126",
         "word": "proud",
         "form": "adjective",
         "definitions": [
@@ -3416,8 +3416,8 @@
         ],
         "comparative": "prouder",
         "superlative": "the proudest",
-        "emoji": "🤳",
-        "transcription": "praʊd",
+        "emoji": "\ud83e\udd33",
+        "transcription": "pra\u028ad",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -3433,7 +3433,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-101",
+        "id": "A1-ADJ-SEL-127",
         "word": "quiet",
         "form": "adjective",
         "subtext": "quiet area / keep quiet / nice and quiet",
@@ -3451,8 +3451,8 @@
         ],
         "comparative": "quieter",
         "superlative": "the quietest",
-        "emoji": "🤫",
-        "transcription": "kwaɪət",
+        "emoji": "\ud83e\udd2b",
+        "transcription": "kwa\u026a\u0259t",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -3468,7 +3468,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-102",
+        "id": "A1-ADJ-SEL-128",
         "word": "quiet",
         "form": "adjective",
         "subtext": "quiet area / keep quiet / nice and quiet",
@@ -3486,8 +3486,8 @@
         ],
         "comparative": "quieter",
         "superlative": "the quietest",
-        "emoji": "🤫",
-        "transcription": "kwaɪət",
+        "emoji": "\ud83e\udd2b",
+        "transcription": "kwa\u026a\u0259t",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -3503,9 +3503,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-103",
+        "id": "A1-ADJ-SEL-129",
         "word": "real",
-        "emoji": "💎",
+        "emoji": "\ud83d\udc8e",
         "form": "adjective",
         "subtext": "a real person / is it real?",
         "synonyms": [
@@ -3538,9 +3538,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-104",
+        "id": "A1-ADJ-SEL-130",
         "word": "real",
-        "emoji": "💎",
+        "emoji": "\ud83d\udc8e",
         "form": "adjective",
         "subtext": "a real person / is it real?",
         "synonyms": [
@@ -3573,9 +3573,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-105",
+        "id": "A1-ADJ-SEL-131",
         "word": "rectangular",
-        "emoji": "▭",
+        "emoji": "\u25ad",
         "form": "adjective",
         "subtext": "a rectangular room",
         "synonyms": [
@@ -3591,7 +3591,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "rɛkˈtæŋgjələr",
+        "transcription": "r\u025bk\u02c8t\u00e6\u014bgj\u0259l\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -3607,9 +3607,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-106",
+        "id": "A1-ADJ-SEL-132",
         "word": "rectangular",
-        "emoji": "▭",
+        "emoji": "\u25ad",
         "form": "adjective",
         "subtext": "a rectangular room",
         "synonyms": [
@@ -3625,7 +3625,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "rɛkˈtæŋgjələr",
+        "transcription": "r\u025bk\u02c8t\u00e6\u014bgj\u0259l\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -3641,7 +3641,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-107",
+        "id": "A1-ADJ-SEL-133",
         "word": "right",
         "form": "adjective",
         "subtext": "right hand / right side / absolutely right",
@@ -3661,8 +3661,8 @@
         ],
         "comparative": "more right",
         "superlative": "the most right",
-        "emoji": "✅",
-        "transcription": "raɪt",
+        "emoji": "\u2705",
+        "transcription": "ra\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -3678,7 +3678,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-108",
+        "id": "A1-ADJ-SEL-134",
         "word": "right",
         "form": "adjective",
         "subtext": "right hand / right side / absolutely right",
@@ -3698,8 +3698,8 @@
         ],
         "comparative": "more right",
         "superlative": "the most right",
-        "emoji": "✅",
-        "transcription": "raɪt",
+        "emoji": "\u2705",
+        "transcription": "ra\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -3715,9 +3715,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-109",
+        "id": "A1-ADJ-SEL-135",
         "word": "rough",
-        "emoji": "🧱",
+        "emoji": "\ud83e\uddf1",
         "form": "adjective",
         "definitions": [
             {
@@ -3733,7 +3733,7 @@
         ],
         "comparative": "rougher",
         "superlative": "the roughest",
-        "transcription": "rəf",
+        "transcription": "r\u0259f",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -3749,9 +3749,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-110",
+        "id": "A1-ADJ-SEL-136",
         "word": "rough",
-        "emoji": "🧱",
+        "emoji": "\ud83e\uddf1",
         "form": "adjective",
         "definitions": [
             {
@@ -3767,7 +3767,7 @@
         ],
         "comparative": "rougher",
         "superlative": "the roughest",
-        "transcription": "rəf",
+        "transcription": "r\u0259f",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -3783,7 +3783,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-111",
+        "id": "A1-ADJ-SEL-137",
         "word": "rude",
         "form": "adjective",
         "definitions": [
@@ -3801,7 +3801,7 @@
         ],
         "comparative": "ruder",
         "superlative": "the rudest",
-        "emoji": "😛",
+        "emoji": "\ud83d\ude1b",
         "transcription": "rud",
         "lang": "en",
         "level": "starter",
@@ -3818,7 +3818,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-112",
+        "id": "A1-ADJ-SEL-138",
         "word": "rude",
         "form": "adjective",
         "definitions": [
@@ -3836,7 +3836,7 @@
         ],
         "comparative": "ruder",
         "superlative": "the rudest",
-        "emoji": "😛",
+        "emoji": "\ud83d\ude1b",
         "transcription": "rud",
         "lang": "en",
         "level": "starter",
@@ -3853,9 +3853,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-113",
+        "id": "A1-ADJ-SEL-139",
         "word": "salty",
-        "emoji": "🧂",
+        "emoji": "\ud83e\uddc2",
         "form": "adjective",
         "subtext": "salty snacks / too salty",
         "synonyms": [
@@ -3871,7 +3871,7 @@
         ],
         "comparative": "saltier",
         "superlative": "the saltiest",
-        "transcription": "ˈsɔlti",
+        "transcription": "\u02c8s\u0254lti",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -3884,9 +3884,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-114",
+        "id": "A1-ADJ-SEL-140",
         "word": "salty",
-        "emoji": "🧂",
+        "emoji": "\ud83e\uddc2",
         "form": "adjective",
         "subtext": "salty snacks / too salty",
         "synonyms": [
@@ -3902,7 +3902,7 @@
         ],
         "comparative": "saltier",
         "superlative": "the saltiest",
-        "transcription": "ˈsɔlti",
+        "transcription": "\u02c8s\u0254lti",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -3918,7 +3918,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-115",
+        "id": "A1-ADJ-SEL-141",
         "word": "same",
         "form": "adjective",
         "subtext": "the same as / exactly the same / same time",
@@ -3935,8 +3935,8 @@
         ],
         "comparative": null,
         "superlative": null,
-        "emoji": "👯",
-        "transcription": "seɪm",
+        "emoji": "\ud83d\udc6f",
+        "transcription": "se\u026am",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -3952,7 +3952,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-116",
+        "id": "A1-ADJ-SEL-142",
         "word": "same",
         "form": "adjective",
         "subtext": "the same as / exactly the same / same time",
@@ -3969,8 +3969,8 @@
         ],
         "comparative": null,
         "superlative": null,
-        "emoji": "👯",
-        "transcription": "seɪm",
+        "emoji": "\ud83d\udc6f",
+        "transcription": "se\u026am",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -3986,7 +3986,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-117",
+        "id": "A1-ADJ-SEL-143",
         "word": "serious",
         "form": "adjective",
         "subtext": "a serious person / look serious",
@@ -4004,8 +4004,8 @@
         ],
         "comparative": "more serious",
         "superlative": "the most serious",
-        "emoji": "😐",
-        "transcription": "ˈsɪriəs",
+        "emoji": "\ud83d\ude10",
+        "transcription": "\u02c8s\u026ari\u0259s",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -4021,7 +4021,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-118",
+        "id": "A1-ADJ-SEL-144",
         "word": "serious",
         "form": "adjective",
         "subtext": "a serious person / look serious",
@@ -4039,8 +4039,8 @@
         ],
         "comparative": "more serious",
         "superlative": "the most serious",
-        "emoji": "😐",
-        "transcription": "ˈsɪriəs",
+        "emoji": "\ud83d\ude10",
+        "transcription": "\u02c8s\u026ari\u0259s",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -4056,9 +4056,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-119",
+        "id": "A1-ADJ-SEL-145",
         "word": "shared",
-        "emoji": "👥",
+        "emoji": "\ud83d\udc65",
         "form": "adjective",
         "subtext": "shared room / shared office",
         "synonyms": [
@@ -4074,7 +4074,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ʃɛrd",
+        "transcription": "\u0283\u025brd",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -4090,9 +4090,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-120",
+        "id": "A1-ADJ-SEL-146",
         "word": "shared",
-        "emoji": "👥",
+        "emoji": "\ud83d\udc65",
         "form": "adjective",
         "subtext": "shared room / shared office",
         "synonyms": [
@@ -4108,7 +4108,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ʃɛrd",
+        "transcription": "\u0283\u025brd",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -4124,9 +4124,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-121",
+        "id": "A1-ADJ-SEL-147",
         "word": "sharp",
-        "emoji": "🔪",
+        "emoji": "\ud83d\udd2a",
         "form": "adjective",
         "definitions": [
             {
@@ -4142,7 +4142,7 @@
         ],
         "comparative": "sharper",
         "superlative": "the sharpest",
-        "transcription": "ʃɑrp",
+        "transcription": "\u0283\u0251rp",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -4155,9 +4155,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-122",
+        "id": "A1-ADJ-SEL-148",
         "word": "sharp",
-        "emoji": "🔪",
+        "emoji": "\ud83d\udd2a",
         "form": "adjective",
         "definitions": [
             {
@@ -4173,7 +4173,7 @@
         ],
         "comparative": "sharper",
         "superlative": "the sharpest",
-        "transcription": "ʃɑrp",
+        "transcription": "\u0283\u0251rp",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -4189,9 +4189,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-123",
+        "id": "A1-ADJ-SEL-149",
         "word": "simple",
-        "emoji": "✅",
+        "emoji": "\u2705",
         "form": "adjective",
         "subtext": "a simple question / nice and simple",
         "synonyms": [
@@ -4208,7 +4208,7 @@
         ],
         "comparative": "simpler",
         "superlative": "the simplest",
-        "transcription": "ˈsɪmpəl",
+        "transcription": "\u02c8s\u026amp\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -4224,9 +4224,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-124",
+        "id": "A1-ADJ-SEL-150",
         "word": "simple",
-        "emoji": "✅",
+        "emoji": "\u2705",
         "form": "adjective",
         "subtext": "a simple question / nice and simple",
         "synonyms": [
@@ -4243,7 +4243,7 @@
         ],
         "comparative": "simpler",
         "superlative": "the simplest",
-        "transcription": "ˈsɪmpəl",
+        "transcription": "\u02c8s\u026amp\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -4259,7 +4259,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-125",
+        "id": "A1-ADJ-SEL-151",
         "word": "smart",
         "form": "adjective",
         "subtext": "a smart student / smart clothes",
@@ -4277,8 +4277,8 @@
         ],
         "comparative": "smarter",
         "superlative": "the smartest",
-        "emoji": "🎓",
-        "transcription": "smɑrt",
+        "emoji": "\ud83c\udf93",
+        "transcription": "sm\u0251rt",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -4294,7 +4294,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-126",
+        "id": "A1-ADJ-SEL-152",
         "word": "smart",
         "form": "adjective",
         "subtext": "a smart student / smart clothes",
@@ -4312,8 +4312,8 @@
         ],
         "comparative": "smarter",
         "superlative": "the smartest",
-        "emoji": "🎓",
-        "transcription": "smɑrt",
+        "emoji": "\ud83c\udf93",
+        "transcription": "sm\u0251rt",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -4329,9 +4329,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-127",
+        "id": "A1-ADJ-SEL-153",
         "word": "smooth",
-        "emoji": "🧼",
+        "emoji": "\ud83e\uddfc",
         "form": "adjective",
         "subtext": "smooth skin / smooth surface",
         "synonyms": [
@@ -4348,7 +4348,7 @@
         ],
         "comparative": "smoother",
         "superlative": "the smoothest",
-        "transcription": "smuð",
+        "transcription": "smu\u00f0",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -4364,9 +4364,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-128",
+        "id": "A1-ADJ-SEL-154",
         "word": "smooth",
-        "emoji": "🧼",
+        "emoji": "\ud83e\uddfc",
         "form": "adjective",
         "subtext": "smooth skin / smooth surface",
         "synonyms": [
@@ -4383,7 +4383,7 @@
         ],
         "comparative": "smoother",
         "superlative": "the smoothest",
-        "transcription": "smuð",
+        "transcription": "smu\u00f0",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -4399,9 +4399,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-129",
+        "id": "A1-ADJ-SEL-155",
         "word": "sour",
-        "emoji": "🍋",
+        "emoji": "\ud83c\udf4b",
         "form": "adjective",
         "subtext": "a sour taste / sour lemons",
         "synonyms": [
@@ -4417,7 +4417,7 @@
         ],
         "comparative": "sourer",
         "superlative": "the sourest",
-        "transcription": "saʊər",
+        "transcription": "sa\u028a\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -4433,9 +4433,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-130",
+        "id": "A1-ADJ-SEL-156",
         "word": "sour",
-        "emoji": "🍋",
+        "emoji": "\ud83c\udf4b",
         "form": "adjective",
         "subtext": "a sour taste / sour lemons",
         "synonyms": [
@@ -4451,7 +4451,7 @@
         ],
         "comparative": "sourer",
         "superlative": "the sourest",
-        "transcription": "saʊər",
+        "transcription": "sa\u028a\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -4467,7 +4467,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-131",
+        "id": "A1-ADJ-SEL-157",
         "word": "special",
         "form": "adjective",
         "definitions": [
@@ -4481,8 +4481,8 @@
         "subtext": "a special offer / special occasion / very special",
         "comparative": "more special",
         "superlative": "the most special",
-        "emoji": "💎",
-        "transcription": "ˈspɛʃəl",
+        "emoji": "\ud83d\udc8e",
+        "transcription": "\u02c8sp\u025b\u0283\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -4498,7 +4498,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-132",
+        "id": "A1-ADJ-SEL-158",
         "word": "special",
         "form": "adjective",
         "definitions": [
@@ -4512,8 +4512,8 @@
         "subtext": "a special offer / special occasion / very special",
         "comparative": "more special",
         "superlative": "the most special",
-        "emoji": "💎",
-        "transcription": "ˈspɛʃəl",
+        "emoji": "\ud83d\udc8e",
+        "transcription": "\u02c8sp\u025b\u0283\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -4529,7 +4529,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-133",
+        "id": "A1-ADJ-SEL-159",
         "word": "strong",
         "form": "adjective",
         "definitions": [
@@ -4543,8 +4543,8 @@
         "subtext": "strong coffee / strong opinion / very strong",
         "comparative": "stronger",
         "superlative": "the strongest",
-        "emoji": "🏋️",
-        "transcription": "strɔŋ",
+        "emoji": "\ud83c\udfcb\ufe0f",
+        "transcription": "str\u0254\u014b",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -4560,7 +4560,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-134",
+        "id": "A1-ADJ-SEL-160",
         "word": "strong",
         "form": "adjective",
         "definitions": [
@@ -4574,8 +4574,8 @@
         "subtext": "strong coffee / strong opinion / very strong",
         "comparative": "stronger",
         "superlative": "the strongest",
-        "emoji": "🏋️",
-        "transcription": "strɔŋ",
+        "emoji": "\ud83c\udfcb\ufe0f",
+        "transcription": "str\u0254\u014b",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -4591,9 +4591,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-135",
+        "id": "A1-ADJ-SEL-161",
         "word": "sweet",
-        "emoji": "🍬",
+        "emoji": "\ud83c\udf6c",
         "form": "adjective",
         "subtext": "sweet fruit / sweet tooth / very sweet",
         "synonyms": [
@@ -4625,9 +4625,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-136",
+        "id": "A1-ADJ-SEL-162",
         "word": "sweet",
-        "emoji": "🍬",
+        "emoji": "\ud83c\udf6c",
         "form": "adjective",
         "subtext": "sweet fruit / sweet tooth / very sweet",
         "synonyms": [
@@ -4659,7 +4659,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-137",
+        "id": "A1-ADJ-SEL-163",
         "word": "terrible",
         "form": "adjective",
         "subtext": "terrible weather / a terrible mistake / terrible news",
@@ -4677,8 +4677,8 @@
         ],
         "comparative": "more terrible",
         "superlative": "the most terrible",
-        "emoji": "🤮",
-        "transcription": "ˈtɛrəbəl",
+        "emoji": "\ud83e\udd2e",
+        "transcription": "\u02c8t\u025br\u0259b\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -4694,7 +4694,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-138",
+        "id": "A1-ADJ-SEL-164",
         "word": "terrible",
         "form": "adjective",
         "subtext": "terrible weather / a terrible mistake / terrible news",
@@ -4712,8 +4712,8 @@
         ],
         "comparative": "more terrible",
         "superlative": "the most terrible",
-        "emoji": "🤮",
-        "transcription": "ˈtɛrəbəl",
+        "emoji": "\ud83e\udd2e",
+        "transcription": "\u02c8t\u025br\u0259b\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -4729,9 +4729,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-139",
+        "id": "A1-ADJ-SEL-165",
         "word": "triangular",
-        "emoji": "🔺",
+        "emoji": "\ud83d\udd3a",
         "form": "adjective",
         "subtext": "a triangular shape",
         "synonyms": [
@@ -4747,7 +4747,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "traɪˈæŋgjələr",
+        "transcription": "tra\u026a\u02c8\u00e6\u014bgj\u0259l\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -4763,9 +4763,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-140",
+        "id": "A1-ADJ-SEL-166",
         "word": "triangular",
-        "emoji": "🔺",
+        "emoji": "\ud83d\udd3a",
         "form": "adjective",
         "subtext": "a triangular shape",
         "synonyms": [
@@ -4781,7 +4781,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "traɪˈæŋgjələr",
+        "transcription": "tra\u026a\u02c8\u00e6\u014bgj\u0259l\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -4797,9 +4797,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-141",
+        "id": "A1-ADJ-SEL-167",
         "word": "true",
-        "emoji": "✅",
+        "emoji": "\u2705",
         "form": "adjective",
         "definitions": [
             {
@@ -4832,9 +4832,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-142",
+        "id": "A1-ADJ-SEL-168",
         "word": "true",
-        "emoji": "✅",
+        "emoji": "\u2705",
         "form": "adjective",
         "definitions": [
             {
@@ -4867,9 +4867,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-143",
+        "id": "A1-ADJ-SEL-169",
         "word": "unclear",
-        "emoji": "🌫️",
+        "emoji": "\ud83c\udf2b\ufe0f",
         "form": "adjective",
         "subtext": "unclear instructions / feel unclear",
         "synonyms": [
@@ -4886,7 +4886,7 @@
         ],
         "comparative": "more unclear",
         "superlative": "the most unclear",
-        "transcription": "ənˈklɪr",
+        "transcription": "\u0259n\u02c8kl\u026ar",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -4902,9 +4902,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-144",
+        "id": "A1-ADJ-SEL-170",
         "word": "unclear",
-        "emoji": "🌫️",
+        "emoji": "\ud83c\udf2b\ufe0f",
         "form": "adjective",
         "subtext": "unclear instructions / feel unclear",
         "synonyms": [
@@ -4921,7 +4921,7 @@
         ],
         "comparative": "more unclear",
         "superlative": "the most unclear",
-        "transcription": "ənˈklɪr",
+        "transcription": "\u0259n\u02c8kl\u026ar",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -4937,9 +4937,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-145",
+        "id": "A1-ADJ-SEL-171",
         "word": "unhelpful",
-        "emoji": "😠",
+        "emoji": "\ud83d\ude20",
         "form": "adjective",
         "subtext": "unhelpful advice / very unhelpful",
         "synonyms": [
@@ -4955,7 +4955,7 @@
         ],
         "comparative": "more unhelpful",
         "superlative": "the most unhelpful",
-        "transcription": "ənˈhɛlpfəl",
+        "transcription": "\u0259n\u02c8h\u025blpf\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -4971,9 +4971,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-146",
+        "id": "A1-ADJ-SEL-172",
         "word": "unhelpful",
-        "emoji": "😠",
+        "emoji": "\ud83d\ude20",
         "form": "adjective",
         "subtext": "unhelpful advice / very unhelpful",
         "synonyms": [
@@ -4989,7 +4989,7 @@
         ],
         "comparative": "more unhelpful",
         "superlative": "the most unhelpful",
-        "transcription": "ənˈhɛlpfəl",
+        "transcription": "\u0259n\u02c8h\u025blpf\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -5005,9 +5005,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-147",
+        "id": "A1-ADJ-SEL-173",
         "word": "unimportant",
-        "emoji": "🍃",
+        "emoji": "\ud83c\udf43",
         "form": "adjective",
         "subtext": "unimportant detail / feel unimportant",
         "synonyms": [
@@ -5024,7 +5024,7 @@
         ],
         "comparative": "more unimportant",
         "superlative": "the most unimportant",
-        "transcription": "ənɪmˈpɔrtənt",
+        "transcription": "\u0259n\u026am\u02c8p\u0254rt\u0259nt",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -5040,9 +5040,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-148",
+        "id": "A1-ADJ-SEL-174",
         "word": "unimportant",
-        "emoji": "🍃",
+        "emoji": "\ud83c\udf43",
         "form": "adjective",
         "subtext": "unimportant detail / feel unimportant",
         "synonyms": [
@@ -5059,7 +5059,7 @@
         ],
         "comparative": "more unimportant",
         "superlative": "the most unimportant",
-        "transcription": "ənɪmˈpɔrtənt",
+        "transcription": "\u0259n\u026am\u02c8p\u0254rt\u0259nt",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -5075,9 +5075,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-149",
+        "id": "A1-ADJ-SEL-175",
         "word": "unkind",
-        "emoji": "🥀",
+        "emoji": "\ud83e\udd40",
         "form": "adjective",
         "subtext": "unkind words / be unkind",
         "synonyms": [
@@ -5094,7 +5094,7 @@
         ],
         "comparative": "more unkind",
         "superlative": "the most unkind",
-        "transcription": "ənˈkaɪnd",
+        "transcription": "\u0259n\u02c8ka\u026and",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -5110,9 +5110,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-150",
+        "id": "A1-ADJ-SEL-176",
         "word": "unkind",
-        "emoji": "🥀",
+        "emoji": "\ud83e\udd40",
         "form": "adjective",
         "subtext": "unkind words / be unkind",
         "synonyms": [
@@ -5129,7 +5129,7 @@
         ],
         "comparative": "more unkind",
         "superlative": "the most unkind",
-        "transcription": "ənˈkaɪnd",
+        "transcription": "\u0259n\u02c8ka\u026and",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -5145,11 +5145,11 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-151",
+        "id": "A1-ADJ-SEL-177",
         "word": "useful",
-        "emoji": "🛠️",
+        "emoji": "\ud83d\udee0\ufe0f",
         "form": "adjective",
-        "transcription": "ˈjuːsfl",
+        "transcription": "\u02c8ju\u02d0sfl",
         "definitions": [
             {
                 "text": "Helping you to do or achieve something.",
@@ -5177,11 +5177,11 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-152",
+        "id": "A1-ADJ-SEL-178",
         "word": "useful",
-        "emoji": "🛠️",
+        "emoji": "\ud83d\udee0\ufe0f",
         "form": "adjective",
-        "transcription": "ˈjuːsfl",
+        "transcription": "\u02c8ju\u02d0sfl",
         "definitions": [
             {
                 "text": "Helping you to do or achieve something.",
@@ -5209,7 +5209,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-153",
+        "id": "A1-ADJ-SEL-179",
         "word": "weak",
         "form": "adjective",
         "definitions": [
@@ -5223,7 +5223,7 @@
         "subtext": "weak connection / a weak argument / very weak",
         "comparative": "weaker",
         "superlative": "the weakest",
-        "emoji": "🥀",
+        "emoji": "\ud83e\udd40",
         "transcription": "wik",
         "lang": "en",
         "level": "starter",
@@ -5240,7 +5240,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-154",
+        "id": "A1-ADJ-SEL-180",
         "word": "weak",
         "form": "adjective",
         "definitions": [
@@ -5254,7 +5254,7 @@
         "subtext": "weak connection / a weak argument / very weak",
         "comparative": "weaker",
         "superlative": "the weakest",
-        "emoji": "🥀",
+        "emoji": "\ud83e\udd40",
         "transcription": "wik",
         "lang": "en",
         "level": "starter",
@@ -5271,7 +5271,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-155",
+        "id": "A1-ADJ-SEL-181",
         "word": "wonderful",
         "form": "adjective",
         "subtext": "a wonderful opportunity / a wonderful time",
@@ -5289,8 +5289,8 @@
         ],
         "comparative": "more wonderful",
         "superlative": "the most wonderful",
-        "emoji": "🌈",
-        "transcription": "ˈwəndərfəl",
+        "emoji": "\ud83c\udf08",
+        "transcription": "\u02c8w\u0259nd\u0259rf\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -5306,7 +5306,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-156",
+        "id": "A1-ADJ-SEL-182",
         "word": "wonderful",
         "form": "adjective",
         "subtext": "a wonderful opportunity / a wonderful time",
@@ -5324,8 +5324,8 @@
         ],
         "comparative": "more wonderful",
         "superlative": "the most wonderful",
-        "emoji": "🌈",
-        "transcription": "ˈwəndərfəl",
+        "emoji": "\ud83c\udf08",
+        "transcription": "\u02c8w\u0259nd\u0259rf\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -5341,7 +5341,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-157",
+        "id": "A1-ADJ-SEL-183",
         "word": "wrong",
         "form": "adjective",
         "subtext": "wrong answer / go wrong / completely wrong",
@@ -5358,8 +5358,8 @@
         ],
         "comparative": "more wrong",
         "superlative": "the most wrong",
-        "emoji": "❌",
-        "transcription": "rɔŋ",
+        "emoji": "\u274c",
+        "transcription": "r\u0254\u014b",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -5375,7 +5375,7 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-ADJ-SEL-158",
+        "id": "A1-ADJ-SEL-184",
         "word": "wrong",
         "form": "adjective",
         "subtext": "wrong answer / go wrong / completely wrong",
@@ -5392,8 +5392,8 @@
         ],
         "comparative": "more wrong",
         "superlative": "the most wrong",
-        "emoji": "❌",
-        "transcription": "rɔŋ",
+        "emoji": "\u274c",
+        "transcription": "r\u0254\u014b",
         "lang": "en",
         "level": "starter",
         "theme": "describing",

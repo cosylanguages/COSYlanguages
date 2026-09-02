@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A2-VERB-TRA-01",
+        "id": "A2-VERB-TRA-001",
         "word": "decorate",
-        "emoji": "🎨",
+        "emoji": "\ud83c\udfa8",
         "form": "verb",
         "subtext": "decorate a room",
         "synonyms": [
@@ -23,7 +23,7 @@
         "aspect": "action",
         "v2": "decorated",
         "v3": "decorated",
-        "transcription": "ˈdɛkəreɪt",
+        "transcription": "\u02c8d\u025bk\u0259re\u026at",
         "group": "regular",
         "auxiliary": "have",
         "v4": "decorating",
@@ -39,9 +39,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A2-VERB-TRA-02",
+        "id": "A2-VERB-TRA-002",
         "word": "participate",
-        "emoji": "🙋",
+        "emoji": "\ud83d\ude4b",
         "form": "verb",
         "subtext": "participate in something / participate in a meeting / participate in a discussion",
         "synonyms": [
@@ -61,7 +61,7 @@
         "aspect": "action",
         "v2": "participated",
         "v3": "participated",
-        "transcription": "pɑːrˈtɪsɪpeɪt",
+        "transcription": "p\u0251\u02d0r\u02c8t\u026as\u026ape\u026at",
         "group": "regular",
         "auxiliary": "have",
         "v4": "participating",

@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-ADJ-TIM-01",
+        "id": "A1-ADJ-TIM-070",
         "word": "early",
-        "emoji": "🌅",
+        "emoji": "\ud83c\udf05",
         "form": "adjective",
         "subtext": "early morning / early riser",
         "synonyms": [
@@ -20,7 +20,7 @@
         ],
         "comparative": "earlier",
         "superlative": "the earliest",
-        "transcription": "ˈərli",
+        "transcription": "\u02c8\u0259rli",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -36,9 +36,9 @@
         "sub_subcategory": "Clocks_Periods"
     },
     {
-        "id": "A1-ADJ-TIM-02",
+        "id": "A1-ADJ-TIM-071",
         "word": "early",
-        "emoji": "🌅",
+        "emoji": "\ud83c\udf05",
         "form": "adjective",
         "subtext": "early morning / early riser",
         "synonyms": [
@@ -54,7 +54,7 @@
         ],
         "comparative": "earlier",
         "superlative": "the earliest",
-        "transcription": "ˈərli",
+        "transcription": "\u02c8\u0259rli",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -70,9 +70,9 @@
         "sub_subcategory": "Clocks_Periods"
     },
     {
-        "id": "A1-ADJ-TIM-03",
+        "id": "A1-ADJ-TIM-072",
         "word": "last",
-        "emoji": "🔚",
+        "emoji": "\ud83d\udd1a",
         "form": "adjective",
         "comparative": null,
         "superlative": null,
@@ -85,7 +85,7 @@
             }
         ],
         "subtext": "related to sequence order A2",
-        "transcription": "læst",
+        "transcription": "l\u00e6st",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -101,9 +101,9 @@
         "sub_subcategory": "Clocks_Periods"
     },
     {
-        "id": "A1-ADJ-TIM-04",
+        "id": "A1-ADJ-TIM-073",
         "word": "late",
-        "emoji": "🌙",
+        "emoji": "\ud83c\udf19",
         "form": "adjective",
         "subtext": "late night / too late",
         "synonyms": [
@@ -119,7 +119,7 @@
         ],
         "comparative": "later",
         "superlative": "the latest",
-        "transcription": "leɪt",
+        "transcription": "le\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -135,9 +135,9 @@
         "sub_subcategory": "Clocks_Periods"
     },
     {
-        "id": "A1-ADJ-TIM-05",
+        "id": "A1-ADJ-TIM-074",
         "word": "late",
-        "emoji": "🌙",
+        "emoji": "\ud83c\udf19",
         "form": "adjective",
         "subtext": "late night / too late",
         "synonyms": [
@@ -153,7 +153,7 @@
         ],
         "comparative": "later",
         "superlative": "the latest",
-        "transcription": "leɪt",
+        "transcription": "le\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -169,9 +169,9 @@
         "sub_subcategory": "Clocks_Periods"
     },
     {
-        "id": "A1-ADJ-TIM-06",
+        "id": "A1-ADJ-TIM-075",
         "word": "next",
-        "emoji": "⏭️",
+        "emoji": "\u23ed\ufe0f",
         "form": "adjective",
         "comparative": null,
         "superlative": null,
@@ -184,7 +184,7 @@
             }
         ],
         "subtext": "related to sequence order A2",
-        "transcription": "nɛkst",
+        "transcription": "n\u025bkst",
         "lang": "en",
         "level": "starter",
         "theme": "time",

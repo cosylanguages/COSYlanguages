@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-ADJ-SEL-01",
+        "id": "A1-ADJ-SEL-001",
         "word": "black",
-        "emoji": "⬛",
+        "emoji": "\u2b1b",
         "form": "adjective",
         "subtext": "jet black, dark as night / black coffee / black market / jet black",
         "definitions": [
@@ -23,7 +23,7 @@
         ],
         "comparative": "blacker",
         "superlative": "the blackest",
-        "transcription": "blæk",
+        "transcription": "bl\u00e6k",
         "lang": "en",
         "level": "starter",
         "theme": "colours",
@@ -44,9 +44,9 @@
         "sub_subcategory": "Colours_Shades"
     },
     {
-        "id": "A1-ADJ-SEL-02",
+        "id": "A1-ADJ-SEL-002",
         "word": "black",
-        "emoji": "⬛",
+        "emoji": "\u2b1b",
         "form": "adjective",
         "subtext": "jet black, dark as night / black coffee / black market / jet black",
         "definitions": [
@@ -65,7 +65,7 @@
         ],
         "comparative": "blacker",
         "superlative": "the blackest",
-        "transcription": "blæk",
+        "transcription": "bl\u00e6k",
         "lang": "en",
         "level": "starter",
         "theme": "colours",
@@ -86,9 +86,9 @@
         "sub_subcategory": "Colours_Shades"
     },
     {
-        "id": "A1-ADJ-SEL-03",
+        "id": "A1-ADJ-SEL-003",
         "word": "blue",
-        "emoji": "🟦",
+        "emoji": "\ud83d\udfe6",
         "form": "adjective",
         "subtext": "light blue, dark blue / dark blue / light blue / blue sky",
         "definitions": [
@@ -114,7 +114,7 @@
         "sub_theme": "basic",
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "blēwaz",
+            "origin_word": "bl\u0113waz",
             "origin_meaning": "blue"
         },
         "antonyms": [
@@ -128,9 +128,9 @@
         "sub_subcategory": "Colours_Shades"
     },
     {
-        "id": "A1-ADJ-SEL-04",
+        "id": "A1-ADJ-SEL-004",
         "word": "blue",
-        "emoji": "🟦",
+        "emoji": "\ud83d\udfe6",
         "form": "adjective",
         "subtext": "light blue, dark blue / dark blue / light blue / blue sky",
         "definitions": [
@@ -156,7 +156,7 @@
         "sub_theme": "basic",
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "blēwaz",
+            "origin_word": "bl\u0113waz",
             "origin_meaning": "blue"
         },
         "antonyms": [
@@ -170,7 +170,7 @@
         "sub_subcategory": "Colours_Shades"
     },
     {
-        "id": "A1-ADJ-SEL-05",
+        "id": "A1-ADJ-SEL-005",
         "word": "brown",
         "form": "adjective",
         "subtext": "dark brown / light brown / brown bread",
@@ -184,8 +184,8 @@
         ],
         "comparative": "browner",
         "superlative": "the brownest",
-        "emoji": "🤎",
-        "transcription": "braʊn",
+        "emoji": "\ud83e\udd0e",
+        "transcription": "bra\u028an",
         "lang": "en",
         "level": "starter",
         "theme": "colours",
@@ -201,7 +201,7 @@
         "sub_subcategory": "Colours_Shades"
     },
     {
-        "id": "A1-ADJ-SEL-06",
+        "id": "A1-ADJ-SEL-006",
         "word": "brown",
         "form": "adjective",
         "subtext": "dark brown / light brown / brown bread",
@@ -215,8 +215,8 @@
         ],
         "comparative": "browner",
         "superlative": "the brownest",
-        "emoji": "🤎",
-        "transcription": "braʊn",
+        "emoji": "\ud83e\udd0e",
+        "transcription": "bra\u028an",
         "lang": "en",
         "level": "starter",
         "theme": "colours",
@@ -232,9 +232,9 @@
         "sub_subcategory": "Colours_Shades"
     },
     {
-        "id": "A1-ADJ-SEL-07",
+        "id": "A1-ADJ-SEL-007",
         "word": "gold",
-        "emoji": "🟡",
+        "emoji": "\ud83d\udfe1",
         "form": "adjective",
         "subtext": "a gold ring / gold medal",
         "synonyms": [
@@ -250,7 +250,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "goʊld",
+        "transcription": "go\u028ald",
         "lang": "en",
         "level": "starter",
         "theme": "colours",
@@ -266,9 +266,9 @@
         "sub_subcategory": "Colours_Shades"
     },
     {
-        "id": "A1-ADJ-SEL-08",
+        "id": "A1-ADJ-SEL-008",
         "word": "gold",
-        "emoji": "🟡",
+        "emoji": "\ud83d\udfe1",
         "form": "adjective",
         "subtext": "a gold ring / gold medal",
         "synonyms": [
@@ -284,7 +284,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "goʊld",
+        "transcription": "go\u028ald",
         "lang": "en",
         "level": "starter",
         "theme": "colours",
@@ -300,9 +300,9 @@
         "sub_subcategory": "Colours_Shades"
     },
     {
-        "id": "A1-ADJ-SEL-09",
+        "id": "A1-ADJ-SEL-009",
         "word": "green",
-        "emoji": "🟩",
+        "emoji": "\ud83d\udfe9",
         "form": "adjective",
         "subtext": "bright green, dark green / green energy / green space / bright green",
         "definitions": [
@@ -328,7 +328,7 @@
         "sub_theme": "basic",
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "grōniz",
+            "origin_word": "gr\u014dniz",
             "origin_meaning": "green"
         },
         "antonyms": [
@@ -342,9 +342,9 @@
         "sub_subcategory": "Colours_Shades"
     },
     {
-        "id": "A1-ADJ-SEL-10",
+        "id": "A1-ADJ-SEL-010",
         "word": "green",
-        "emoji": "🟩",
+        "emoji": "\ud83d\udfe9",
         "form": "adjective",
         "subtext": "bright green, dark green / green energy / green space / bright green",
         "definitions": [
@@ -370,7 +370,7 @@
         "sub_theme": "basic",
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "grōniz",
+            "origin_word": "gr\u014dniz",
             "origin_meaning": "green"
         },
         "antonyms": [
@@ -384,7 +384,7 @@
         "sub_subcategory": "Colours_Shades"
     },
     {
-        "id": "A1-ADJ-SEL-11",
+        "id": "A1-ADJ-SEL-011",
         "word": "grey",
         "form": "adjective",
         "subtext": "grey area / grey sky / pale grey",
@@ -398,8 +398,8 @@
         ],
         "comparative": "greyer",
         "superlative": "the greyest",
-        "emoji": "🩶",
-        "transcription": "greɪ",
+        "emoji": "\ud83e\ude76",
+        "transcription": "gre\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "colours",
@@ -415,7 +415,7 @@
         "sub_subcategory": "Colours_Shades"
     },
     {
-        "id": "A1-ADJ-SEL-12",
+        "id": "A1-ADJ-SEL-012",
         "word": "grey",
         "form": "adjective",
         "subtext": "grey area / grey sky / pale grey",
@@ -429,8 +429,8 @@
         ],
         "comparative": "greyer",
         "superlative": "the greyest",
-        "emoji": "🩶",
-        "transcription": "greɪ",
+        "emoji": "\ud83e\ude76",
+        "transcription": "gre\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "colours",
@@ -446,7 +446,7 @@
         "sub_subcategory": "Colours_Shades"
     },
     {
-        "id": "A1-ADJ-SEL-13",
+        "id": "A1-ADJ-SEL-013",
         "word": "orange",
         "form": "adjective",
         "subtext": "bright orange / dark orange / orange light",
@@ -460,8 +460,8 @@
         ],
         "comparative": "more orange",
         "superlative": "the most orange",
-        "emoji": "🧡",
-        "transcription": "ˈɔrɪnʤ",
+        "emoji": "\ud83e\udde1",
+        "transcription": "\u02c8\u0254r\u026an\u02a4",
         "lang": "en",
         "level": "starter",
         "theme": "colours",
@@ -477,7 +477,7 @@
         "sub_subcategory": "Colours_Shades"
     },
     {
-        "id": "A1-ADJ-SEL-14",
+        "id": "A1-ADJ-SEL-014",
         "word": "orange",
         "form": "adjective",
         "subtext": "bright orange / dark orange / orange light",
@@ -491,8 +491,8 @@
         ],
         "comparative": "more orange",
         "superlative": "the most orange",
-        "emoji": "🧡",
-        "transcription": "ˈɔrɪnʤ",
+        "emoji": "\ud83e\udde1",
+        "transcription": "\u02c8\u0254r\u026an\u02a4",
         "lang": "en",
         "level": "starter",
         "theme": "colours",
@@ -508,7 +508,7 @@
         "sub_subcategory": "Colours_Shades"
     },
     {
-        "id": "A1-ADJ-SEL-15",
+        "id": "A1-ADJ-SEL-015",
         "word": "pink",
         "form": "adjective",
         "subtext": "light pink / bright pink / hot pink",
@@ -522,8 +522,8 @@
         ],
         "comparative": "pinker",
         "superlative": "the pinkest",
-        "emoji": "🩷",
-        "transcription": "pɪŋk",
+        "emoji": "\ud83e\ude77",
+        "transcription": "p\u026a\u014bk",
         "lang": "en",
         "level": "starter",
         "theme": "colours",
@@ -539,7 +539,7 @@
         "sub_subcategory": "Colours_Shades"
     },
     {
-        "id": "A1-ADJ-SEL-16",
+        "id": "A1-ADJ-SEL-016",
         "word": "pink",
         "form": "adjective",
         "subtext": "light pink / bright pink / hot pink",
@@ -553,8 +553,8 @@
         ],
         "comparative": "pinker",
         "superlative": "the pinkest",
-        "emoji": "🩷",
-        "transcription": "pɪŋk",
+        "emoji": "\ud83e\ude77",
+        "transcription": "p\u026a\u014bk",
         "lang": "en",
         "level": "starter",
         "theme": "colours",
@@ -570,9 +570,9 @@
         "sub_subcategory": "Colours_Shades"
     },
     {
-        "id": "A1-ADJ-SEL-17",
+        "id": "A1-ADJ-SEL-017",
         "word": "purple",
-        "emoji": "🟣",
+        "emoji": "\ud83d\udfe3",
         "form": "adjective",
         "definitions": [
             {
@@ -588,7 +588,7 @@
         ],
         "comparative": "more purple",
         "superlative": "the most purple",
-        "transcription": "ˈpərpəl",
+        "transcription": "\u02c8p\u0259rp\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "colours",
@@ -604,9 +604,9 @@
         "sub_subcategory": "Colours_Shades"
     },
     {
-        "id": "A1-ADJ-SEL-18",
+        "id": "A1-ADJ-SEL-018",
         "word": "purple",
-        "emoji": "🟣",
+        "emoji": "\ud83d\udfe3",
         "form": "adjective",
         "definitions": [
             {
@@ -622,7 +622,7 @@
         ],
         "comparative": "more purple",
         "superlative": "the most purple",
-        "transcription": "ˈpərpəl",
+        "transcription": "\u02c8p\u0259rp\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "colours",
@@ -638,9 +638,9 @@
         "sub_subcategory": "Colours_Shades"
     },
     {
-        "id": "A1-ADJ-SEL-19",
+        "id": "A1-ADJ-SEL-019",
         "word": "red",
-        "emoji": "🟥",
+        "emoji": "\ud83d\udfe5",
         "form": "adjective",
         "subtext": "dark red, bright red / red wine / red face / red light",
         "definitions": [
@@ -659,7 +659,7 @@
         ],
         "comparative": "redder",
         "superlative": "the reddest",
-        "transcription": "rɛd",
+        "transcription": "r\u025bd",
         "lang": "en",
         "level": "starter",
         "theme": "colours",
@@ -680,9 +680,9 @@
         "sub_subcategory": "Colours_Shades"
     },
     {
-        "id": "A1-ADJ-SEL-20",
+        "id": "A1-ADJ-SEL-020",
         "word": "red",
-        "emoji": "🟥",
+        "emoji": "\ud83d\udfe5",
         "form": "adjective",
         "subtext": "dark red, bright red / red wine / red face / red light",
         "definitions": [
@@ -701,7 +701,7 @@
         ],
         "comparative": "redder",
         "superlative": "the reddest",
-        "transcription": "rɛd",
+        "transcription": "r\u025bd",
         "lang": "en",
         "level": "starter",
         "theme": "colours",
@@ -722,9 +722,9 @@
         "sub_subcategory": "Colours_Shades"
     },
     {
-        "id": "A1-ADJ-SEL-21",
+        "id": "A1-ADJ-SEL-021",
         "word": "silver",
-        "emoji": "⚪",
+        "emoji": "\u26aa",
         "form": "adjective",
         "subtext": "a silver car / silver jewelry",
         "synonyms": [
@@ -740,7 +740,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈsɪlvər",
+        "transcription": "\u02c8s\u026alv\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "colours",
@@ -756,9 +756,9 @@
         "sub_subcategory": "Colours_Shades"
     },
     {
-        "id": "A1-ADJ-SEL-22",
+        "id": "A1-ADJ-SEL-022",
         "word": "silver",
-        "emoji": "⚪",
+        "emoji": "\u26aa",
         "form": "adjective",
         "subtext": "a silver car / silver jewelry",
         "synonyms": [
@@ -774,7 +774,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈsɪlvər",
+        "transcription": "\u02c8s\u026alv\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "colours",
@@ -790,9 +790,9 @@
         "sub_subcategory": "Colours_Shades"
     },
     {
-        "id": "A1-ADJ-SEL-23",
+        "id": "A1-ADJ-SEL-023",
         "word": "white",
-        "emoji": "⬜",
+        "emoji": "\u2b1c",
         "form": "adjective",
         "subtext": "pure white, snow white / white wine / off-white / bright white",
         "definitions": [
@@ -811,14 +811,14 @@
         ],
         "comparative": "whiter",
         "superlative": "the whitest",
-        "transcription": "waɪt",
+        "transcription": "wa\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "colours",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "hwītaz",
+            "origin_word": "hw\u012btaz",
             "origin_meaning": "white"
         },
         "antonyms": [
@@ -832,9 +832,9 @@
         "sub_subcategory": "Colours_Shades"
     },
     {
-        "id": "A1-ADJ-SEL-24",
+        "id": "A1-ADJ-SEL-024",
         "word": "white",
-        "emoji": "⬜",
+        "emoji": "\u2b1c",
         "form": "adjective",
         "subtext": "pure white, snow white / white wine / off-white / bright white",
         "definitions": [
@@ -853,14 +853,14 @@
         ],
         "comparative": "whiter",
         "superlative": "the whitest",
-        "transcription": "waɪt",
+        "transcription": "wa\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "colours",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "hwītaz",
+            "origin_word": "hw\u012btaz",
             "origin_meaning": "white"
         },
         "antonyms": [
@@ -874,9 +874,9 @@
         "sub_subcategory": "Colours_Shades"
     },
     {
-        "id": "A1-ADJ-SEL-25",
+        "id": "A1-ADJ-SEL-025",
         "word": "yellow",
-        "emoji": "🟨",
+        "emoji": "\ud83d\udfe8",
         "form": "adjective",
         "subtext": "bright yellow, lemon yellow / yellow light / pale yellow / bright yellow",
         "definitions": [
@@ -895,7 +895,7 @@
         ],
         "comparative": "yellower",
         "superlative": "the yellowest",
-        "transcription": "ˈjɛloʊ",
+        "transcription": "\u02c8j\u025blo\u028a",
         "lang": "en",
         "level": "starter",
         "theme": "colours",
@@ -916,9 +916,9 @@
         "sub_subcategory": "Colours_Shades"
     },
     {
-        "id": "A1-ADJ-SEL-26",
+        "id": "A1-ADJ-SEL-026",
         "word": "yellow",
-        "emoji": "🟨",
+        "emoji": "\ud83d\udfe8",
         "form": "adjective",
         "subtext": "bright yellow, lemon yellow / yellow light / pale yellow / bright yellow",
         "definitions": [
@@ -937,7 +937,7 @@
         ],
         "comparative": "yellower",
         "superlative": "the yellowest",
-        "transcription": "ˈjɛloʊ",
+        "transcription": "\u02c8j\u025blo\u028a",
         "lang": "en",
         "level": "starter",
         "theme": "colours",

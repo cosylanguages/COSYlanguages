@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "B1-NOUN-SOC-01",
+        "id": "B1-NOUN-SOC-001",
         "word": "airport",
         "lang": "en",
         "level": "intermediate",
@@ -23,8 +23,8 @@
                 ]
             }
         ],
-        "transcription": "ˈeəpɔːt",
-        "emoji": "✈️",
+        "transcription": "\u02c8e\u0259p\u0254\u02d0t",
+        "emoji": "\u2708\ufe0f",
         "_legacy": {
             "classification": "regular",
             "plural": "airports",
@@ -38,7 +38,7 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B1-NOUN-SOC-02",
+        "id": "B1-NOUN-SOC-002",
         "word": "commuter",
         "lang": "en",
         "level": "intermediate",
@@ -59,8 +59,8 @@
                 ]
             }
         ],
-        "transcription": "🇬🇧 kəˈmjuːtə | 🇺🇸 kəˈmjuːtər",
-        "emoji": "🚆",
+        "transcription": "\ud83c\uddec\ud83c\udde7 k\u0259\u02c8mju\u02d0t\u0259 | \ud83c\uddfa\ud83c\uddf8 k\u0259\u02c8mju\u02d0t\u0259r",
+        "emoji": "\ud83d\ude86",
         "_legacy": {
             "classification": "regular",
             "plural": "commuters",
@@ -74,7 +74,7 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B1-NOUN-SOC-03",
+        "id": "B1-NOUN-SOC-003",
         "word": "equity",
         "lang": "en",
         "level": "intermediate",
@@ -88,8 +88,8 @@
                 ]
             }
         ],
-        "transcription": "ˈɛkwɪti",
-        "emoji": "📈",
+        "transcription": "\u02c8\u025bkw\u026ati",
+        "emoji": "\ud83d\udcc8",
         "_legacy": {
             "classification": "regular",
             "plural": null,
@@ -104,7 +104,7 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B1-NOUN-SOC-04",
+        "id": "B1-NOUN-SOC-004",
         "word": "garden",
         "lang": "en",
         "level": "intermediate",
@@ -117,7 +117,7 @@
             }
         ],
         "transcription": "-",
-        "emoji": "🌳",
+        "emoji": "\ud83c\udf33",
         "_legacy": {
             "image": "images/vocabulary/places/garden.png",
             "classification": "regular",
@@ -131,15 +131,15 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B1-NOUN-SOC-05",
+        "id": "B1-NOUN-SOC-005",
         "word": "library",
         "lang": "en",
         "level": "intermediate",
         "theme": "places",
         "form": "noun",
         "definitions": [],
-        "transcription": "ˈlaɪbrəri",
-        "emoji": "📚",
+        "transcription": "\u02c8la\u026abr\u0259ri",
+        "emoji": "\ud83d\udcda",
         "_legacy": {
             "explanation": "A library is a place for books, while the others might be related to food or travel.",
             "classification": "regular",
@@ -154,7 +154,7 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B1-NOUN-SOC-06",
+        "id": "B1-NOUN-SOC-006",
         "word": "mortgage",
         "lang": "en",
         "level": "intermediate",
@@ -168,8 +168,8 @@
                 ]
             }
         ],
-        "transcription": "ˈmɔːɡɪdʒ",
-        "emoji": "🏠",
+        "transcription": "\u02c8m\u0254\u02d0\u0261\u026ad\u0292",
+        "emoji": "\ud83c\udfe0",
         "_legacy": {
             "classification": "regular",
             "plural": "mortgages",
@@ -184,15 +184,15 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B1-NOUN-SOC-07",
+        "id": "B1-NOUN-SOC-007",
         "word": "museum",
         "lang": "en",
         "level": "intermediate",
         "theme": "places",
         "form": "noun",
         "definitions": [],
-        "transcription": "mjuˈziːəm",
-        "emoji": "🏛️",
+        "transcription": "mju\u02c8zi\u02d0\u0259m",
+        "emoji": "\ud83c\udfdb\ufe0f",
         "_legacy": {
             "classification": "regular",
             "plural": "museums",
@@ -206,7 +206,7 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B1-NOUN-SOC-08",
+        "id": "B1-NOUN-SOC-008",
         "word": "property",
         "lang": "en",
         "level": "intermediate",
@@ -220,8 +220,8 @@
                 ]
             }
         ],
-        "transcription": "🇬🇧 ˈprɒpəti | 🇺🇸 ˈprɑːpəti",
-        "emoji": "🏡",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8pr\u0252p\u0259ti | \ud83c\uddfa\ud83c\uddf8 \u02c8pr\u0251\u02d0p\u0259ti",
+        "emoji": "\ud83c\udfe1",
         "_legacy": {
             "classification": "regular",
             "plural": "properties",
@@ -236,7 +236,7 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B1-NOUN-SOC-09",
+        "id": "B1-NOUN-SOC-009",
         "word": "renovation",
         "lang": "en",
         "level": "intermediate",
@@ -250,8 +250,8 @@
                 ]
             }
         ],
-        "transcription": "ˌrɛnəˈveɪʃn",
-        "emoji": "🔨",
+        "transcription": "\u02ccr\u025bn\u0259\u02c8ve\u026a\u0283n",
+        "emoji": "\ud83d\udd28",
         "_legacy": {
             "classification": "regular",
             "plural": "renovations",
@@ -266,7 +266,7 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B1-NOUN-SOC-10",
+        "id": "B1-NOUN-SOC-010",
         "word": "survey",
         "lang": "en",
         "level": "intermediate",
@@ -280,8 +280,8 @@
                 ]
             }
         ],
-        "transcription": "ˈsɜːveɪ",
-        "emoji": "📝",
+        "transcription": "\u02c8s\u025c\u02d0ve\u026a",
+        "emoji": "\ud83d\udcdd",
         "_legacy": {
             "classification": "regular",
             "plural": "surveys",

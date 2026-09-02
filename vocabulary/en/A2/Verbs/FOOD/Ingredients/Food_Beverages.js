@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A2-VERB-FOO-01",
+        "id": "A2-VERB-FOO-001",
         "word": "contain",
-        "emoji": "📦",
+        "emoji": "\ud83d\udce6",
         "form": "verb",
         "subtext": "contain sugar / contain information / the box contains",
         "definitions": [
@@ -20,7 +20,7 @@
         "aspect": "stative",
         "v2": "contained",
         "v3": "contained",
-        "transcription": "kənˈteɪn",
+        "transcription": "k\u0259n\u02c8te\u026an",
         "synonyms": [
             "include",
             "hold"
@@ -40,9 +40,9 @@
         "sub_subcategory": "Food_Beverages"
     },
     {
-        "id": "A2-VERB-FOO-02",
+        "id": "A2-VERB-FOO-002",
         "word": "cut down on",
-        "emoji": "📉",
+        "emoji": "\ud83d\udcc9",
         "form": "verb",
         "subtext": "cut down on spending / cut down on sugar",
         "synonyms": [
@@ -60,7 +60,7 @@
         "aspect": "action",
         "v2": "cut down on",
         "v3": "cut down on",
-        "transcription": "🇬🇧 kʌt daʊn ɒn | 🇺🇸 kʌt daʊn ɑːn",
+        "transcription": "\ud83c\uddec\ud83c\udde7 k\u028ct da\u028an \u0252n | \ud83c\uddfa\ud83c\uddf8 k\u028ct da\u028an \u0251\u02d0n",
         "group": "regular",
         "auxiliary": "have",
         "lang": "en",
@@ -75,9 +75,9 @@
         "sub_subcategory": "Food_Beverages"
     },
     {
-        "id": "A2-VERB-FOO-03",
+        "id": "A2-VERB-FOO-003",
         "word": "deliver",
-        "emoji": "📦",
+        "emoji": "\ud83d\udce6",
         "form": "verb",
         "subtext": "deliver food / deliver a package / deliver a speech",
         "definitions": [
@@ -93,7 +93,7 @@
         "aspect": "action",
         "v2": "delivered",
         "v3": "delivered",
-        "transcription": "dɪˈlɪvər",
+        "transcription": "d\u026a\u02c8l\u026av\u0259r",
         "synonyms": [
             "bring",
             "send"
@@ -113,9 +113,9 @@
         "sub_subcategory": "Food_Beverages"
     },
     {
-        "id": "A2-VERB-FOO-04",
+        "id": "A2-VERB-FOO-004",
         "word": "diagnose",
-        "emoji": "🩺",
+        "emoji": "\ud83e\ude7a",
         "form": "verb",
         "subtext": "diagnose an illness / diagnose early",
         "synonyms": [
@@ -133,7 +133,7 @@
         "aspect": "action",
         "v2": "diagnosed",
         "v3": "diagnosed",
-        "transcription": "ˌdaɪəɡˈnoʊs",
+        "transcription": "\u02ccda\u026a\u0259\u0261\u02c8no\u028as",
         "group": "regular",
         "auxiliary": "have",
         "v4": "diagnosing",
@@ -149,9 +149,9 @@
         "sub_subcategory": "Food_Beverages"
     },
     {
-        "id": "A2-VERB-FOO-05",
+        "id": "A2-VERB-FOO-005",
         "word": "lose weight",
-        "emoji": "⚖️",
+        "emoji": "\u2696\ufe0f",
         "form": "verb",
         "subtext": "lose weight / lose a few kilos / trying to lose weight",
         "definitions": [
@@ -166,7 +166,7 @@
         "aspect": "action",
         "v2": "lost weight",
         "v3": "lost weight",
-        "transcription": "luːz weɪt",
+        "transcription": "lu\u02d0z we\u026at",
         "group": "regular",
         "auxiliary": "have",
         "lang": "en",
@@ -181,9 +181,9 @@
         "sub_subcategory": "Food_Beverages"
     },
     {
-        "id": "A2-VERB-FOO-06",
+        "id": "A2-VERB-FOO-006",
         "word": "prevent",
-        "emoji": "🛡️",
+        "emoji": "\ud83d\udee1\ufe0f",
         "form": "verb",
         "subtext": "prevent illness / prevent disease / take steps to prevent",
         "definitions": [
@@ -198,7 +198,7 @@
         "aspect": "action",
         "v2": "prevented",
         "v3": "prevented",
-        "transcription": "prɪˈvɛnt",
+        "transcription": "pr\u026a\u02c8v\u025bnt",
         "synonyms": [
             "stop"
         ],
@@ -217,9 +217,9 @@
         "sub_subcategory": "Food_Beverages"
     },
     {
-        "id": "A2-VERB-FOO-07",
+        "id": "A2-VERB-FOO-007",
         "word": "serve",
-        "emoji": "🍽️",
+        "emoji": "\ud83c\udf7d\ufe0f",
         "form": "verb",
         "subtext": "serve food, serve a purpose",
         "definitions": [
@@ -234,7 +234,7 @@
         "aspect": "action",
         "v2": "served",
         "v3": "served",
-        "transcription": "sɜːrv",
+        "transcription": "s\u025c\u02d0rv",
         "synonyms": [
             "give",
             "help"
@@ -254,9 +254,9 @@
         "sub_subcategory": "Food_Beverages"
     },
     {
-        "id": "A2-VERB-FOO-08",
+        "id": "A2-VERB-FOO-008",
         "word": "treat",
-        "emoji": "🩹",
+        "emoji": "\ud83e\ude79",
         "form": "verb",
         "subtext": "treat a patient / treat an illness / treat with medicine",
         "definitions": [
@@ -271,7 +271,7 @@
         "aspect": "action",
         "v2": "treated",
         "v3": "treated",
-        "transcription": "triːt",
+        "transcription": "tri\u02d0t",
         "synonyms": [
             "handle"
         ],

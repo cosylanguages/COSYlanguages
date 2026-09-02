@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A2-ADJ-FOO-01",
+        "id": "A2-ADJ-FOO-001",
         "word": "fresh",
-        "emoji": "🍏",
+        "emoji": "\ud83c\udf4f",
         "form": "adjective",
         "definitions": [
             {
@@ -22,7 +22,7 @@
         ],
         "comparative": "fresher",
         "superlative": "the freshest",
-        "transcription": "frɛʃ",
+        "transcription": "fr\u025b\u0283",
         "lang": "en",
         "level": "elementary",
         "theme": "food_drink",
@@ -35,9 +35,9 @@
         "sub_subcategory": "Food_Beverages"
     },
     {
-        "id": "A2-ADJ-FOO-02",
+        "id": "A2-ADJ-FOO-002",
         "word": "overweight",
-        "emoji": "⚖️",
+        "emoji": "\u2696\ufe0f",
         "form": "adjective",
         "definitions": [
             {
@@ -50,7 +50,7 @@
         "subtext": "slightly overweight / become overweight / clinically overweight",
         "comparative": "more overweight",
         "superlative": "the most overweight",
-        "transcription": "ˌoʊvərˈweɪt",
+        "transcription": "\u02cco\u028av\u0259r\u02c8we\u026at",
         "synonyms": [
             "fat",
             "heavy"

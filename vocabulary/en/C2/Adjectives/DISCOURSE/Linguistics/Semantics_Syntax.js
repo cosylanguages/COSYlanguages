@@ -2,11 +2,11 @@
     const lang = "en";
     const data = [
     {
-        "id": "C2-ADJ-DIS-01",
+        "id": "C2-ADJ-DIS-001",
         "word": "polysemous",
-        "emoji": "🔠",
+        "emoji": "\ud83d\udd20",
         "form": "adjective",
-        "transcription": "🇬🇧 ˌpɒliˈsiːməs | 🇺🇸 ˌpɑːliˈsiːməs",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02ccp\u0252li\u02c8si\u02d0m\u0259s | \ud83c\uddfa\ud83c\uddf8 \u02ccp\u0251\u02d0li\u02c8si\u02d0m\u0259s",
         "definitions": [
             {
                 "text": "Having multiple meanings.",
@@ -28,11 +28,11 @@
         "sub_subcategory": "Semantics_Syntax"
     },
     {
-        "id": "C2-ADJ-DIS-02",
+        "id": "C2-ADJ-DIS-002",
         "word": "prescriptive",
-        "emoji": "📜",
+        "emoji": "\ud83d\udcdc",
         "form": "adjective",
-        "transcription": "prɪˈskrɪptɪv",
+        "transcription": "pr\u026a\u02c8skr\u026apt\u026av",
         "definitions": [
             {
                 "text": "Dictating what should be done; laying down rules.",

@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A2-VERB-TIM-01",
+        "id": "A2-VERB-TIM-001",
         "word": "afford",
-        "emoji": "💰",
+        "emoji": "\ud83d\udcb0",
         "form": "verb",
         "subtext": "afford a house / afford to travel / can't afford it",
         "definitions": [
@@ -19,7 +19,7 @@
         "aspect": "stative",
         "v2": "afforded",
         "v3": "afforded",
-        "transcription": "əˈfɔːrd",
+        "transcription": "\u0259\u02c8f\u0254\u02d0rd",
         "synonyms": [
             "pay for"
         ],
@@ -38,9 +38,9 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A2-VERB-TIM-02",
+        "id": "A2-VERB-TIM-002",
         "word": "budget",
-        "emoji": "📊",
+        "emoji": "\ud83d\udcca",
         "form": "verb",
         "subtext": "budget for something / budget carefully / budget monthly",
         "definitions": [
@@ -55,7 +55,7 @@
         "aspect": "action",
         "v2": "budgeted",
         "v3": "budgeted",
-        "transcription": "ˈbʌdʒɪt",
+        "transcription": "\u02c8b\u028cd\u0292\u026at",
         "group": "regular",
         "auxiliary": "have",
         "v4": "budgeting",
@@ -71,9 +71,9 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A2-VERB-TIM-03",
+        "id": "A2-VERB-TIM-003",
         "word": "calculate",
-        "emoji": "🧮",
+        "emoji": "\ud83e\uddee",
         "form": "verb",
         "subtext": "calculate the cost / calculate the distance / calculate results",
         "definitions": [
@@ -89,7 +89,7 @@
         "aspect": "action",
         "v2": "calculated",
         "v3": "calculated",
-        "transcription": "ˈkælkjuleɪt",
+        "transcription": "\u02c8k\u00e6lkjule\u026at",
         "synonyms": [
             "count",
             "compute"
@@ -114,9 +114,9 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A2-VERB-TIM-04",
+        "id": "A2-VERB-TIM-004",
         "word": "charge",
-        "emoji": "💳",
+        "emoji": "\ud83d\udcb3",
         "form": "verb",
         "subtext": "charge a fee / charge for a service / charge extra",
         "definitions": [
@@ -132,7 +132,7 @@
         "aspect": "action",
         "v2": "charged",
         "v3": "charged",
-        "transcription": "tʃɑːrdʒ",
+        "transcription": "t\u0283\u0251\u02d0rd\u0292",
         "synonyms": [
             "bill"
         ],
@@ -151,9 +151,9 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A2-VERB-TIM-05",
+        "id": "A2-VERB-TIM-005",
         "word": "claim",
-        "emoji": "📜",
+        "emoji": "\ud83d\udcdc",
         "form": "verb",
         "subtext": "claim insurance / claim expenses / claim a refund",
         "definitions": [
@@ -168,7 +168,7 @@
         "aspect": "action",
         "v2": "claimed",
         "v3": "claimed",
-        "transcription": "kleɪm",
+        "transcription": "kle\u026am",
         "group": "regular",
         "auxiliary": "have",
         "v4": "claiming",
@@ -184,9 +184,9 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A2-VERB-TIM-06",
+        "id": "A2-VERB-TIM-006",
         "word": "deposit",
-        "emoji": "💰",
+        "emoji": "\ud83d\udcb0",
         "form": "verb",
         "subtext": "deposit money / deposit a check / direct deposit",
         "definitions": [
@@ -205,7 +205,7 @@
         "synonyms": [
             "put in"
         ],
-        "transcription": "🇬🇧 dɪˈpɒzɪt | 🇺🇸 dɪˈpɑːzɪt",
+        "transcription": "\ud83c\uddec\ud83c\udde7 d\u026a\u02c8p\u0252z\u026at | \ud83c\uddfa\ud83c\uddf8 d\u026a\u02c8p\u0251\u02d0z\u026at",
         "group": "regular",
         "auxiliary": "have",
         "v4": "depositing",
@@ -221,9 +221,9 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A2-VERB-TIM-07",
+        "id": "A2-VERB-TIM-007",
         "word": "divide",
-        "emoji": "➗",
+        "emoji": "\u2797",
         "form": "verb",
         "subtext": "divide by",
         "synonyms": [
@@ -241,7 +241,7 @@
         "aspect": "action",
         "v2": "divided",
         "v3": "divided",
-        "transcription": "dɪˈvaɪd",
+        "transcription": "d\u026a\u02c8va\u026ad",
         "group": "regular",
         "auxiliary": "have",
         "v4": "dividing",
@@ -257,9 +257,9 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A2-VERB-TIM-08",
+        "id": "A2-VERB-TIM-008",
         "word": "include",
-        "emoji": "➕",
+        "emoji": "\u2795",
         "form": "verb",
         "subtext": "include something / include in / price includes",
         "synonyms": [
@@ -277,7 +277,7 @@
         "aspect": "stative",
         "v2": "included",
         "v3": "included",
-        "transcription": "ɪnˈkluːd",
+        "transcription": "\u026an\u02c8klu\u02d0d",
         "group": "regular",
         "auxiliary": "have",
         "v4": "including",
@@ -293,9 +293,9 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A2-VERB-TIM-09",
+        "id": "A2-VERB-TIM-009",
         "word": "invest",
-        "emoji": "📈",
+        "emoji": "\ud83d\udcc8",
         "form": "verb",
         "subtext": "invest money / invest in",
         "definitions": [
@@ -310,7 +310,7 @@
         "aspect": "action",
         "v2": "invested",
         "v3": "invested",
-        "transcription": "ɪnˈvɛst",
+        "transcription": "\u026an\u02c8v\u025bst",
         "synonyms": [
             "put money in"
         ],
@@ -329,9 +329,9 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A2-VERB-TIM-10",
+        "id": "A2-VERB-TIM-010",
         "word": "lend",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "form": "verb",
         "subtext": "lend money / lend to someone / lend a hand",
         "definitions": [
@@ -346,7 +346,7 @@
         "aspect": "action",
         "v2": "lent",
         "v3": "lent",
-        "transcription": "lɛnd",
+        "transcription": "l\u025bnd",
         "synonyms": [
             "give"
         ],
@@ -364,9 +364,9 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A2-VERB-TIM-11",
+        "id": "A2-VERB-TIM-011",
         "word": "multiply",
-        "emoji": "✖️",
+        "emoji": "\u2716\ufe0f",
         "form": "verb",
         "subtext": "multiply by",
         "synonyms": [
@@ -384,7 +384,7 @@
         "aspect": "action",
         "v2": "multiplied",
         "v3": "multiplied",
-        "transcription": "ˈmʌltɪplaɪ",
+        "transcription": "\u02c8m\u028clt\u026apla\u026a",
         "group": "regular",
         "auxiliary": "have",
         "v4": "multiplying",
@@ -400,9 +400,9 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A2-VERB-TIM-12",
+        "id": "A2-VERB-TIM-012",
         "word": "owe",
-        "emoji": "💸",
+        "emoji": "\ud83d\udcb8",
         "form": "verb",
         "subtext": "owe money / owe someone / owe a lot / owe nothing",
         "definitions": [
@@ -417,7 +417,7 @@
         "aspect": "stative",
         "v2": "owed",
         "v3": "owed",
-        "transcription": "oʊ",
+        "transcription": "o\u028a",
         "synonyms": [
             "must pay"
         ],
@@ -439,7 +439,7 @@
         "word": "roughly",
         "level": "elementary",
         "theme": "numbers",
-        "emoji": "📏",
+        "emoji": "\ud83d\udccf",
         "form": "adverb",
         "definitions": [
             {
@@ -455,10 +455,10 @@
             "about",
             "approximately"
         ],
-        "transcription": "ˈrʌfli",
+        "transcription": "\u02c8r\u028cfli",
         "language": "en",
         "lang": "en",
-        "id": "A2-VERB-TIM-13",
+        "id": "A2-VERB-TIM-013",
         "legacy_id": "A2-NUM-48",
         "level_code": "A2",
         "domain": "TIME_NUMBERS",
@@ -467,9 +467,9 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A2-VERB-TIM-14",
+        "id": "A2-VERB-TIM-014",
         "word": "transfer",
-        "emoji": "📲",
+        "emoji": "\ud83d\udcf2",
         "form": "verb",
         "subtext": "transfer money / transfer funds / bank transfer",
         "definitions": [
@@ -484,7 +484,7 @@
         "aspect": "action",
         "v2": "transferred",
         "v3": "transferred",
-        "transcription": "trænsˈfɜːr",
+        "transcription": "tr\u00e6ns\u02c8f\u025c\u02d0r",
         "synonyms": [
             "move",
             "send"
@@ -504,9 +504,9 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A2-VERB-TIM-15",
+        "id": "A2-VERB-TIM-015",
         "word": "withdraw",
-        "emoji": "🏧",
+        "emoji": "\ud83c\udfe7",
         "form": "verb",
         "subtext": "withdraw cash / withdraw from an account / withdraw funds",
         "definitions": [
@@ -521,7 +521,7 @@
         "aspect": "action",
         "v2": "withdrew",
         "v3": "withdrawn",
-        "transcription": "wɪðˈdrɔː",
+        "transcription": "w\u026a\u00f0\u02c8dr\u0254\u02d0",
         "synonyms": [
             "take out",
             "remove"

@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-WOR-01",
+        "id": "A1-NOUN-WOR-003",
         "word": "backpack",
-        "emoji": "🎒",
+        "emoji": "\ud83c\udf92",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
             }
         ],
         "subtext": "related to school stationery",
-        "transcription": "ˈbækˌpæk",
+        "transcription": "\u02c8b\u00e6k\u02ccp\u00e6k",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -31,9 +31,9 @@
         "sub_subcategory": "School_Classroom"
     },
     {
-        "id": "A1-NOUN-WOR-02",
+        "id": "A1-NOUN-WOR-004",
         "word": "board",
-        "emoji": "📋",
+        "emoji": "\ud83d\udccb",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -48,7 +48,7 @@
             }
         ],
         "subtext": "related to school stationery",
-        "transcription": "bɔrd",
+        "transcription": "b\u0254rd",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -61,9 +61,9 @@
         "sub_subcategory": "School_Classroom"
     },
     {
-        "id": "A1-NOUN-WOR-03",
+        "id": "A1-NOUN-WOR-005",
         "word": "calculator",
-        "emoji": "🔢",
+        "emoji": "\ud83d\udd22",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -77,7 +77,7 @@
             }
         ],
         "subtext": "related to school stationery",
-        "transcription": "ˈkælkjəˌleɪtər",
+        "transcription": "\u02c8k\u00e6lkj\u0259\u02ccle\u026at\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -90,9 +90,9 @@
         "sub_subcategory": "School_Classroom"
     },
     {
-        "id": "A1-NOUN-WOR-04",
+        "id": "A1-NOUN-WOR-006",
         "word": "envelope",
-        "emoji": "✉️",
+        "emoji": "\u2709\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -106,7 +106,7 @@
             }
         ],
         "subtext": "related to school stationery",
-        "transcription": "ˈɛnvəˌloʊp",
+        "transcription": "\u02c8\u025bnv\u0259\u02cclo\u028ap",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -119,16 +119,16 @@
         "sub_subcategory": "School_Classroom"
     },
     {
-        "id": "A1-NOUN-WOR-05",
+        "id": "A1-NOUN-WOR-007",
         "word": "eraser",
-        "emoji": "🧽",
+        "emoji": "\ud83e\uddfd",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
         "plural": "erasers",
         "subtext": "related to school stationery",
         "synonyms": [
-            "🇬🇧 rubber"
+            "\ud83c\uddec\ud83c\udde7 rubber"
         ],
         "definitions": [
             {
@@ -138,7 +138,7 @@
                 ]
             }
         ],
-        "transcription": "ɪˈreɪsər",
+        "transcription": "\u026a\u02c8re\u026as\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -151,9 +151,9 @@
         "sub_subcategory": "School_Classroom"
     },
     {
-        "id": "A1-NOUN-WOR-06",
+        "id": "A1-NOUN-WOR-008",
         "word": "geography",
-        "emoji": "🌍",
+        "emoji": "\ud83c\udf0d",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -167,7 +167,7 @@
             }
         ],
         "subtext": "related to school subjects",
-        "transcription": "ʤiˈɑgrəfi",
+        "transcription": "\u02a4i\u02c8\u0251gr\u0259fi",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -185,9 +185,9 @@
         "sub_subcategory": "School_Classroom"
     },
     {
-        "id": "A1-NOUN-WOR-07",
+        "id": "A1-NOUN-WOR-009",
         "word": "glue",
-        "emoji": "🧪",
+        "emoji": "\ud83e\uddea",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -214,9 +214,9 @@
         "sub_subcategory": "School_Classroom"
     },
     {
-        "id": "A1-NOUN-WOR-08",
+        "id": "A1-NOUN-WOR-010",
         "word": "history",
-        "emoji": "📜",
+        "emoji": "\ud83d\udcdc",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -230,7 +230,7 @@
             }
         ],
         "subtext": "related to school subjects",
-        "transcription": "ˈhɪstəri",
+        "transcription": "\u02c8h\u026ast\u0259ri",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -248,9 +248,9 @@
         "sub_subcategory": "School_Classroom"
     },
     {
-        "id": "A1-NOUN-WOR-09",
+        "id": "A1-NOUN-WOR-011",
         "word": "maths",
-        "emoji": "🔢",
+        "emoji": "\ud83d\udd22",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -267,7 +267,7 @@
                 ]
             }
         ],
-        "transcription": "mæθs",
+        "transcription": "m\u00e6\u03b8s",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -285,9 +285,9 @@
         "sub_subcategory": "School_Classroom"
     },
     {
-        "id": "A1-NOUN-WOR-10",
+        "id": "A1-NOUN-WOR-012",
         "word": "notebook",
-        "emoji": "📓",
+        "emoji": "\ud83d\udcd3",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -301,7 +301,7 @@
             }
         ],
         "subtext": "related to school stationery",
-        "transcription": "ˈnoʊtˌbʊk",
+        "transcription": "\u02c8no\u028at\u02ccb\u028ak",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -314,9 +314,9 @@
         "sub_subcategory": "School_Classroom"
     },
     {
-        "id": "A1-NOUN-WOR-11",
+        "id": "A1-NOUN-WOR-013",
         "word": "pencil case",
-        "emoji": "✏️",
+        "emoji": "\u270f\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -330,7 +330,7 @@
             }
         ],
         "subtext": "related to school stationery",
-        "transcription": "ˈpɛnsəl keɪs",
+        "transcription": "\u02c8p\u025bns\u0259l ke\u026as",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -343,9 +343,9 @@
         "sub_subcategory": "School_Classroom"
     },
     {
-        "id": "A1-NOUN-WOR-12",
+        "id": "A1-NOUN-WOR-014",
         "word": "science",
-        "emoji": "🧪",
+        "emoji": "\ud83e\uddea",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -359,7 +359,7 @@
             }
         ],
         "subtext": "related to school subjects",
-        "transcription": "saɪəns",
+        "transcription": "sa\u026a\u0259ns",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -377,9 +377,9 @@
         "sub_subcategory": "School_Classroom"
     },
     {
-        "id": "A1-NOUN-WOR-13",
+        "id": "A1-NOUN-WOR-015",
         "word": "scissors",
-        "emoji": "✂️",
+        "emoji": "\u2702\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -393,7 +393,7 @@
             }
         ],
         "subtext": "related to school stationery",
-        "transcription": "ˈsɪzərz",
+        "transcription": "\u02c8s\u026az\u0259rz",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -406,9 +406,9 @@
         "sub_subcategory": "School_Classroom"
     },
     {
-        "id": "A1-NOUN-WOR-14",
+        "id": "A1-NOUN-WOR-016",
         "word": "stamp",
-        "emoji": "🧧",
+        "emoji": "\ud83e\udde7",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -422,7 +422,7 @@
             }
         ],
         "subtext": "related to school stationery",
-        "transcription": "stæmp",
+        "transcription": "st\u00e6mp",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -435,9 +435,9 @@
         "sub_subcategory": "School_Classroom"
     },
     {
-        "id": "A1-NOUN-WOR-15",
+        "id": "A1-NOUN-WOR-017",
         "word": "stapler",
-        "emoji": "🖇️",
+        "emoji": "\ud83d\udd87\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -451,7 +451,7 @@
             }
         ],
         "subtext": "related to school stationery",
-        "transcription": "ˈsteɪpələr",
+        "transcription": "\u02c8ste\u026ap\u0259l\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -464,9 +464,9 @@
         "sub_subcategory": "School_Classroom"
     },
     {
-        "id": "A1-NOUN-WOR-16",
+        "id": "A1-NOUN-WOR-018",
         "word": "tape",
-        "emoji": "🎞️",
+        "emoji": "\ud83c\udf9e\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -480,7 +480,7 @@
             }
         ],
         "subtext": "sticky tape",
-        "transcription": "teɪp",
+        "transcription": "te\u026ap",
         "lang": "en",
         "level": "starter",
         "theme": "school",
@@ -493,9 +493,9 @@
         "sub_subcategory": "School_Classroom"
     },
     {
-        "id": "A1-NOUN-WOR-17",
+        "id": "A1-NOUN-WOR-019",
         "word": "textbook",
-        "emoji": "📖",
+        "emoji": "\ud83d\udcd6",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -509,7 +509,7 @@
             }
         ],
         "subtext": "related to school stationery",
-        "transcription": "ˈtɛkstˌbʊk",
+        "transcription": "\u02c8t\u025bkst\u02ccb\u028ak",
         "lang": "en",
         "level": "starter",
         "theme": "school",

@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-SEL-01",
+        "id": "A1-NOUN-SEL-001",
         "word": "belt",
-        "emoji": "🎗️",
+        "emoji": "\ud83c\udf97\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
             }
         ],
         "subtext": "related to accessories",
-        "transcription": "bɛlt",
+        "transcription": "b\u025blt",
         "lang": "en",
         "level": "starter",
         "theme": "accessories",
@@ -31,9 +31,9 @@
         "sub_subcategory": "Accessories_Fashion"
     },
     {
-        "id": "A1-NOUN-SEL-02",
+        "id": "A1-NOUN-SEL-002",
         "word": "glasses",
-        "emoji": "👓",
+        "emoji": "\ud83d\udc53",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -47,7 +47,7 @@
             }
         ],
         "subtext": "related to accessories",
-        "transcription": "ˈglæsɪz",
+        "transcription": "\u02c8gl\u00e6s\u026az",
         "lang": "en",
         "level": "starter",
         "theme": "accessories",
@@ -60,19 +60,19 @@
         "sub_subcategory": "Accessories_Fashion"
     },
     {
-        "id": "A1-NOUN-SEL-03",
+        "id": "A1-NOUN-SEL-003",
         "word": "gloves",
-        "emoji": "🧤",
+        "emoji": "\ud83e\udde4",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
         "plural": "gloves",
-        "transcription": "ɡlʌvz",
+        "transcription": "\u0261l\u028cvz",
         "definitions": [
             {
                 "text": "Pieces of clothing that you wear on your hands to keep them warm.",
                 "examples": [
-                    "Wear your gloves — it is cold."
+                    "Wear your gloves \u2014 it is cold."
                 ]
             }
         ],
@@ -89,9 +89,9 @@
         "sub_subcategory": "Accessories_Fashion"
     },
     {
-        "id": "A1-NOUN-SEL-04",
+        "id": "A1-NOUN-SEL-004",
         "word": "jewelry",
-        "emoji": "💍",
+        "emoji": "\ud83d\udc8d",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -105,7 +105,7 @@
                 ]
             }
         ],
-        "transcription": "ˈʤuəlri",
+        "transcription": "\u02c8\u02a4u\u0259lri",
         "lang": "en",
         "level": "starter",
         "theme": "accessories",
@@ -118,9 +118,9 @@
         "sub_subcategory": "Accessories_Fashion"
     },
     {
-        "id": "A1-NOUN-SEL-05",
+        "id": "A1-NOUN-SEL-005",
         "word": "necklace",
-        "emoji": "📿",
+        "emoji": "\ud83d\udcff",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -134,7 +134,7 @@
             }
         ],
         "subtext": "related to accessories",
-        "transcription": "ˈnɛkləs",
+        "transcription": "\u02c8n\u025bkl\u0259s",
         "lang": "en",
         "level": "starter",
         "theme": "accessories",
@@ -147,9 +147,9 @@
         "sub_subcategory": "Accessories_Fashion"
     },
     {
-        "id": "A1-NOUN-SEL-06",
+        "id": "A1-NOUN-SEL-006",
         "word": "ring",
-        "emoji": "💍",
+        "emoji": "\ud83d\udc8d",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -163,7 +163,7 @@
             }
         ],
         "subtext": "related to accessories",
-        "transcription": "rɪŋ",
+        "transcription": "r\u026a\u014b",
         "lang": "en",
         "level": "starter",
         "theme": "accessories",
@@ -176,14 +176,14 @@
         "sub_subcategory": "Accessories_Fashion"
     },
     {
-        "id": "A1-NOUN-SEL-07",
+        "id": "A1-NOUN-SEL-007",
         "word": "scarf",
-        "emoji": "🧣",
+        "emoji": "\ud83e\udde3",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
         "plural": "scarves",
-        "transcription": "skɑːf",
+        "transcription": "sk\u0251\u02d0f",
         "definitions": [
             {
                 "text": "A piece of cloth that you wear around your neck to keep warm.",
@@ -205,14 +205,14 @@
         "sub_subcategory": "Accessories_Fashion"
     },
     {
-        "id": "A1-NOUN-SEL-08",
+        "id": "A1-NOUN-SEL-008",
         "word": "sunglasses",
-        "emoji": "🕶️",
+        "emoji": "\ud83d\udd76\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
         "plural": "sunglasses",
-        "transcription": "ˈsʌnɡlɑːsɪz",
+        "transcription": "\u02c8s\u028cn\u0261l\u0251\u02d0s\u026az",
         "definitions": [
             {
                 "text": "Dark glasses that you wear to protect your eyes from the sun.",
@@ -234,9 +234,9 @@
         "sub_subcategory": "Accessories_Fashion"
     },
     {
-        "id": "A1-NOUN-SEL-09",
+        "id": "A1-NOUN-SEL-009",
         "word": "watch",
-        "emoji": "⌚",
+        "emoji": "\u231a",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -250,7 +250,7 @@
             }
         ],
         "subtext": "related to accessories",
-        "transcription": "wɔʧ",
+        "transcription": "w\u0254\u02a7",
         "lang": "en",
         "level": "starter",
         "theme": "accessories",

@@ -2,14 +2,14 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-COM-01",
+        "id": "A1-NOUN-COM-033",
         "word": "card",
-        "emoji": "💳",
+        "emoji": "\ud83d\udcb3",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
         "plural": "cards",
-        "transcription": "kɑːd",
+        "transcription": "k\u0251\u02d0d",
         "subtext": "pay by card",
         "definitions": [
             {
@@ -31,14 +31,14 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-NOUN-COM-02",
+        "id": "A1-NOUN-COM-034",
         "word": "cash",
-        "emoji": "💵",
+        "emoji": "\ud83d\udcb5",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
         "plural": null,
-        "transcription": "kæʃ",
+        "transcription": "k\u00e6\u0283",
         "subtext": "pay in cash",
         "definitions": [
             {
@@ -60,9 +60,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-NOUN-COM-03",
+        "id": "A1-NOUN-COM-035",
         "word": "customer",
-        "emoji": "🛍️",
+        "emoji": "\ud83d\udecd\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -76,7 +76,7 @@
             }
         ],
         "subtext": "related to everyday shopping",
-        "transcription": "ˈkəstəmər",
+        "transcription": "\u02c8k\u0259st\u0259m\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -89,9 +89,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-NOUN-COM-04",
+        "id": "A1-NOUN-COM-036",
         "word": "gift",
-        "emoji": "🎁",
+        "emoji": "\ud83c\udf81",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -108,7 +108,7 @@
                 ]
             }
         ],
-        "transcription": "gɪft",
+        "transcription": "g\u026aft",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -121,9 +121,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-NOUN-COM-05",
+        "id": "A1-NOUN-COM-037",
         "word": "money",
-        "emoji": "💰",
+        "emoji": "\ud83d\udcb0",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -137,7 +137,7 @@
                 ]
             }
         ],
-        "transcription": "ˈməni",
+        "transcription": "\u02c8m\u0259ni",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -150,9 +150,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-NOUN-COM-06",
+        "id": "A1-NOUN-COM-038",
         "word": "price",
-        "emoji": "🏷️",
+        "emoji": "\ud83c\udff7\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -166,7 +166,7 @@
                 ]
             }
         ],
-        "transcription": "praɪs",
+        "transcription": "pra\u026as",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -179,9 +179,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-NOUN-COM-07",
+        "id": "A1-NOUN-COM-039",
         "word": "purse",
-        "emoji": "👛",
+        "emoji": "\ud83d\udc5b",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -195,7 +195,7 @@
             }
         ],
         "subtext": "related to everyday shopping",
-        "transcription": "pərs",
+        "transcription": "p\u0259rs",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -208,9 +208,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-NOUN-COM-08",
+        "id": "A1-NOUN-COM-040",
         "word": "wage",
-        "emoji": "💵",
+        "emoji": "\ud83d\udcb5",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -228,7 +228,7 @@
                 ]
             }
         ],
-        "transcription": "weɪʤ",
+        "transcription": "we\u026a\u02a4",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",

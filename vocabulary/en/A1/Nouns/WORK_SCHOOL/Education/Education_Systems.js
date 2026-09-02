@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-WOR-01",
+        "id": "A1-NOUN-WOR-001",
         "word": "college",
-        "emoji": "🎓",
+        "emoji": "\ud83c\udf93",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
             }
         ],
         "subtext": "related to types of education",
-        "transcription": "ˈkɑlɪʤ",
+        "transcription": "\u02c8k\u0251l\u026a\u02a4",
         "lang": "en",
         "level": "starter",
         "theme": "types_of_education",
@@ -31,9 +31,9 @@
         "sub_subcategory": "Education_Systems"
     },
     {
-        "id": "A1-NOUN-WOR-02",
+        "id": "A1-NOUN-WOR-002",
         "word": "university",
-        "emoji": "🎓",
+        "emoji": "\ud83c\udf93",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -47,7 +47,7 @@
                 ]
             }
         ],
-        "transcription": "ˌjunəˈvərsəti",
+        "transcription": "\u02ccjun\u0259\u02c8v\u0259rs\u0259ti",
         "lang": "en",
         "level": "starter",
         "theme": "types_of_education",

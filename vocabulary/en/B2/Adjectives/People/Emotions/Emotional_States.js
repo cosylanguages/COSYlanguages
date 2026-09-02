@@ -2,11 +2,11 @@
     const lang = "en";
     const data = [
     {
-        "id": "B2-ADJ-PEO-01",
+        "id": "B2-ADJ-PEO-001",
         "word": "aggressive",
-        "emoji": "👊",
+        "emoji": "\ud83d\udc4a",
         "form": "adjective",
-        "transcription": "əˈɡrɛsɪv",
+        "transcription": "\u0259\u02c8\u0261r\u025bs\u026av",
         "subtext": "Neutral | very aggressive / highly aggressive / an aggressive approach",
         "definitions": [
             {
@@ -33,11 +33,11 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B2-ADJ-PEO-02",
+        "id": "B2-ADJ-PEO-002",
         "word": "anxious",
-        "emoji": "😟",
+        "emoji": "\ud83d\ude1f",
         "form": "adjective",
-        "transcription": "ˈæŋkʃəs",
+        "transcription": "\u02c8\u00e6\u014bk\u0283\u0259s",
         "subtext": "Neutral | feel anxious / deeply anxious / increasingly anxious",
         "definitions": [
             {
@@ -64,11 +64,11 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B2-ADJ-PEO-03",
+        "id": "B2-ADJ-PEO-003",
         "word": "ashamed",
-        "emoji": "🤦",
+        "emoji": "\ud83e\udd26",
         "form": "adjective",
-        "transcription": "əˈʃeɪmd",
+        "transcription": "\u0259\u02c8\u0283e\u026amd",
         "subtext": "Neutral | feel ashamed / deeply ashamed / ashamed of",
         "definitions": [
             {
@@ -95,11 +95,11 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B2-ADJ-PEO-04",
+        "id": "B2-ADJ-PEO-004",
         "word": "bitter",
-        "emoji": "🍋",
+        "emoji": "\ud83c\udf4b",
         "form": "adjective",
-        "transcription": "🇬🇧 ˈbɪtə | 🇺🇸 ˈbɪtər",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8b\u026at\u0259 | \ud83c\uddfa\ud83c\uddf8 \u02c8b\u026at\u0259r",
         "subtext": "Neutral | feel bitter / bitterly disappointed / a bitter argument",
         "definitions": [
             {
@@ -126,11 +126,11 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B2-ADJ-PEO-05",
+        "id": "B2-ADJ-PEO-005",
         "word": "charming",
-        "emoji": "✨",
+        "emoji": "\u2728",
         "form": "adjective",
-        "transcription": "ˈtʃɑːmɪŋ",
+        "transcription": "\u02c8t\u0283\u0251\u02d0m\u026a\u014b",
         "subtext": "Neutral | very charming / utterly charming / naturally charming",
         "definitions": [
             {
@@ -157,11 +157,11 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B2-ADJ-PEO-06",
+        "id": "B2-ADJ-PEO-006",
         "word": "concerned",
-        "emoji": "😟",
+        "emoji": "\ud83d\ude1f",
         "form": "adjective",
-        "transcription": "kənˈsɜːnd",
+        "transcription": "k\u0259n\u02c8s\u025c\u02d0nd",
         "subtext": "Neutral | deeply concerned / seriously concerned / concerned about",
         "definitions": [
             {
@@ -188,11 +188,11 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B2-ADJ-PEO-07",
+        "id": "B2-ADJ-PEO-007",
         "word": "delighted",
-        "emoji": "😊",
+        "emoji": "\ud83d\ude0a",
         "form": "adjective",
-        "transcription": "dɪˈlaɪtɪd",
+        "transcription": "d\u026a\u02c8la\u026at\u026ad",
         "subtext": "Neutral | absolutely delighted / truly delighted / delighted to hear",
         "definitions": [
             {
@@ -219,11 +219,11 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B2-ADJ-PEO-08",
+        "id": "B2-ADJ-PEO-008",
         "word": "depressed",
-        "emoji": "😔",
+        "emoji": "\ud83d\ude14",
         "form": "adjective",
-        "transcription": "dɪˈprɛst",
+        "transcription": "d\u026a\u02c8pr\u025bst",
         "subtext": "Neutral | feel depressed / deeply depressed / clinically depressed",
         "definitions": [
             {
@@ -250,11 +250,11 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B2-ADJ-PEO-09",
+        "id": "B2-ADJ-PEO-009",
         "word": "eager",
-        "emoji": "🤩",
+        "emoji": "\ud83e\udd29",
         "form": "adjective",
-        "transcription": "🇬🇧 ˈiːɡə | 🇺🇸 ˈiːɡər",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8i\u02d0\u0261\u0259 | \ud83c\uddfa\ud83c\uddf8 \u02c8i\u02d0\u0261\u0259r",
         "subtext": "Neutral | very eager / keen and eager / eager to learn",
         "definitions": [
             {
@@ -281,11 +281,11 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B2-ADJ-PEO-10",
+        "id": "B2-ADJ-PEO-010",
         "word": "enthusiastic",
-        "emoji": "🙌",
+        "emoji": "\ud83d\ude4c",
         "form": "adjective",
-        "transcription": "ɪnˌθjuːziˈæstɪk",
+        "transcription": "\u026an\u02cc\u03b8ju\u02d0zi\u02c8\u00e6st\u026ak",
         "subtext": "Neutral | very enthusiastic / wildly enthusiastic / enthusiastically",
         "definitions": [
             {
@@ -312,11 +312,11 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B2-ADJ-PEO-11",
+        "id": "B2-ADJ-PEO-011",
         "word": "frustrated",
-        "emoji": "😤",
+        "emoji": "\ud83d\ude24",
         "form": "adjective",
-        "transcription": "frʌˈstreɪtɪd",
+        "transcription": "fr\u028c\u02c8stre\u026at\u026ad",
         "subtext": "Neutral | deeply frustrated / increasingly frustrated / frustrated by",
         "definitions": [
             {
@@ -343,11 +343,11 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B2-ADJ-PEO-12",
+        "id": "B2-ADJ-PEO-012",
         "word": "furious",
-        "emoji": "😡",
+        "emoji": "\ud83d\ude21",
         "form": "adjective",
-        "transcription": "ˈfjʊəriəs",
+        "transcription": "\u02c8fj\u028a\u0259ri\u0259s",
         "subtext": "Neutral | absolutely furious / utterly furious / furious about",
         "definitions": [
             {
@@ -374,11 +374,11 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B2-ADJ-PEO-13",
+        "id": "B2-ADJ-PEO-013",
         "word": "genuine",
-        "emoji": "💎",
+        "emoji": "\ud83d\udc8e",
         "form": "adjective",
-        "transcription": "ˈdʒɛnjuɪn",
+        "transcription": "\u02c8d\u0292\u025bnju\u026an",
         "subtext": "Neutral | a genuine concern / completely genuine / genuinely interested",
         "definitions": [
             {
@@ -405,11 +405,11 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B2-ADJ-PEO-14",
+        "id": "B2-ADJ-PEO-014",
         "word": "impatient",
-        "emoji": "⌚",
+        "emoji": "\u231a",
         "form": "adjective",
-        "transcription": "ɪmˈpeɪʃnt",
+        "transcription": "\u026am\u02c8pe\u026a\u0283nt",
         "subtext": "Neutral | grow impatient / very impatient / increasingly impatient",
         "definitions": [
             {
@@ -436,11 +436,11 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B2-ADJ-PEO-15",
+        "id": "B2-ADJ-PEO-015",
         "word": "miserable",
-        "emoji": "😫",
+        "emoji": "\ud83d\ude2b",
         "form": "adjective",
-        "transcription": "ˈmɪzrəbl",
+        "transcription": "\u02c8m\u026azr\u0259bl",
         "subtext": "Neutral | absolutely miserable / make someone miserable / feel miserable",
         "definitions": [
             {
@@ -467,11 +467,11 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B2-ADJ-PEO-16",
+        "id": "B2-ADJ-PEO-016",
         "word": "optimistic",
-        "emoji": "🌅",
+        "emoji": "\ud83c\udf05",
         "form": "adjective",
-        "transcription": "🇬🇧 ˌɒptɪˈmɪstɪk | 🇺🇸 ˌɑːptɪˈmɪstɪk",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02cc\u0252pt\u026a\u02c8m\u026ast\u026ak | \ud83c\uddfa\ud83c\uddf8 \u02cc\u0251\u02d0pt\u026a\u02c8m\u026ast\u026ak",
         "subtext": "Neutral | cautiously optimistic / very optimistic / remain optimistic",
         "definitions": [
             {
@@ -498,11 +498,11 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B2-ADJ-PEO-17",
+        "id": "B2-ADJ-PEO-017",
         "word": "pessimistic",
-        "emoji": "☁️",
+        "emoji": "\u2601\ufe0f",
         "form": "adjective",
-        "transcription": "ˌpɛsɪˈmɪstɪk",
+        "transcription": "\u02ccp\u025bs\u026a\u02c8m\u026ast\u026ak",
         "subtext": "Neutral | deeply pessimistic / very pessimistic / unduly pessimistic",
         "definitions": [
             {
@@ -529,11 +529,11 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B2-ADJ-PEO-18",
+        "id": "B2-ADJ-PEO-018",
         "word": "relieved",
-        "emoji": "😌",
+        "emoji": "\ud83d\ude0c",
         "form": "adjective",
-        "transcription": "rɪˈliːvd",
+        "transcription": "r\u026a\u02c8li\u02d0vd",
         "subtext": "Neutral | greatly relieved / hugely relieved / relieved to find out",
         "definitions": [
             {

@@ -2,12 +2,12 @@
     const lang = "en";
     const data = [
     {
-        "id": "C1-VERB-PEO-01",
+        "id": "C1-VERB-PEO-001",
         "word": "confront",
-        "emoji": "🤜",
+        "emoji": "\ud83e\udd1c",
         "subtext": "confront a problem / confront someone / be confronted with",
         "form": "verb",
-        "transcription": "kənˈfrʌnt",
+        "transcription": "k\u0259n\u02c8fr\u028cnt",
         "definitions": [
             {
                 "text": "To face a problem or person directly.",
@@ -35,12 +35,12 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "C1-VERB-PEO-02",
+        "id": "C1-VERB-PEO-002",
         "word": "contemplate",
-        "emoji": "🧘",
+        "emoji": "\ud83e\uddd8",
         "subtext": "contemplate a change / contemplate doing / contemplate the future",
         "form": "verb",
-        "transcription": "🇬🇧 ˈkɒntəmpleɪt | 🇺🇸 ˈkɑːntəmpleɪt",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8k\u0252nt\u0259mple\u026at | \ud83c\uddfa\ud83c\uddf8 \u02c8k\u0251\u02d0nt\u0259mple\u026at",
         "definitions": [
             {
                 "text": "To think about something carefully; to consider doing it.",
@@ -68,12 +68,12 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "C1-VERB-PEO-03",
+        "id": "C1-VERB-PEO-003",
         "word": "displace",
-        "emoji": "⚗️",
+        "emoji": "\u2697\ufe0f",
         "subtext": "displace anger / displacement activity / emotionally displaced",
         "form": "verb",
-        "transcription": "dɪsˈpleɪs",
+        "transcription": "d\u026as\u02c8ple\u026as",
         "definitions": [
             {
                 "text": "To shift an emotion from its true target to a safer one.",
@@ -101,12 +101,12 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "C1-VERB-PEO-04",
+        "id": "C1-VERB-PEO-004",
         "word": "internalise",
-        "emoji": "🧠",
+        "emoji": "\ud83e\udde0",
         "subtext": "internalise values / internalise criticism / deeply internalised",
         "form": "verb",
-        "transcription": "ɪnˈtɜːnəlaɪz",
+        "transcription": "\u026an\u02c8t\u025c\u02d0n\u0259la\u026az",
         "definitions": [
             {
                 "text": "To absorb and accept ideas or values as one's own.",
@@ -134,12 +134,12 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "C1-VERB-PEO-05",
+        "id": "C1-VERB-PEO-005",
         "word": "project",
-        "emoji": "🎭",
+        "emoji": "\ud83c\udfad",
         "subtext": "project feelings onto / project blame / psychological projection",
         "form": "verb",
-        "transcription": "prəˈdʒekt",
+        "transcription": "pr\u0259\u02c8d\u0292ekt",
         "definitions": [
             {
                 "text": "To attribute one's own feelings to someone else.",
@@ -167,12 +167,12 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "C1-VERB-PEO-06",
+        "id": "C1-VERB-PEO-006",
         "word": "rationalise",
-        "emoji": "🧐",
+        "emoji": "\ud83e\uddd0",
         "subtext": "rationalise a decision / rationalise behaviour / rationalise fear",
         "form": "verb",
-        "transcription": "ˈræʃnəlaɪz",
+        "transcription": "\u02c8r\u00e6\u0283n\u0259la\u026az",
         "definitions": [
             {
                 "text": "To attempt to explain one's behaviour with plausible but false reasons.",
@@ -200,12 +200,12 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "C1-VERB-PEO-07",
+        "id": "C1-VERB-PEO-007",
         "word": "repress",
-        "emoji": "🧠",
+        "emoji": "\ud83e\udde0",
         "subtext": "repress memories / repress desires / psychologically repressed",
         "form": "verb",
-        "transcription": "rɪˈpres",
+        "transcription": "r\u026a\u02c8pres",
         "definitions": [
             {
                 "text": "To prevent thoughts from entering conscious awareness.",
@@ -233,12 +233,12 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "C1-VERB-PEO-08",
+        "id": "C1-VERB-PEO-008",
         "word": "sublimate",
-        "emoji": "⚗️",
+        "emoji": "\u2697\ufe0f",
         "subtext": "sublimate desires / sublimate aggression / psychological sublimation",
         "form": "verb",
-        "transcription": "ˈsʌblɪmeɪt",
+        "transcription": "\u02c8s\u028cbl\u026ame\u026at",
         "definitions": [
             {
                 "text": "To redirect a desire or impulse into something socially acceptable.",
@@ -266,12 +266,12 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "C1-VERB-PEO-09",
+        "id": "C1-VERB-PEO-009",
         "word": "suppress",
-        "emoji": "🤐",
+        "emoji": "\ud83e\udd10",
         "subtext": "suppress emotions / suppress information / hard to suppress",
         "form": "verb",
-        "transcription": "səˈpres",
+        "transcription": "s\u0259\u02c8pres",
         "definitions": [
             {
                 "text": "To consciously prevent a feeling or information from being expressed.",

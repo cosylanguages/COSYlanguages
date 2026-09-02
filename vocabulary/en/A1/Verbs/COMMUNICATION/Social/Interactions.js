@@ -2,12 +2,12 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-COM-01",
+        "id": "A1-VERB-COM-069",
         "word": "be",
-        "emoji": "👤",
+        "emoji": "\ud83d\udc64",
         "subtext": "be tired / be happy / be at work / be ready",
         "form": "verb",
-        "transcription": "biː",
+        "transcription": "bi\u02d0",
         "definitions": [
             {
                 "text": "To exist; to have a quality or state.",
@@ -64,9 +64,9 @@
         "sub_subcategory": "Interactions"
     },
     {
-        "id": "A1-VERB-COM-02",
+        "id": "A1-VERB-COM-070",
         "word": "collect",
-        "emoji": "📦",
+        "emoji": "\ud83d\udce6",
         "form": "verb",
         "subtext": "collect things / collect stamps",
         "definitions": [
@@ -82,7 +82,7 @@
         "v2": "collected",
         "v3": "collected",
         "group": "regular",
-        "transcription": "kəˈlɛkt",
+        "transcription": "k\u0259\u02c8l\u025bkt",
         "lang": "en",
         "level": "starter",
         "theme": "social",
@@ -98,9 +98,9 @@
         "sub_subcategory": "Interactions"
     },
     {
-        "id": "A1-VERB-COM-03",
+        "id": "A1-VERB-COM-071",
         "word": "collect",
-        "emoji": "📦",
+        "emoji": "\ud83d\udce6",
         "form": "verb",
         "subtext": "collect things / collect stamps",
         "definitions": [
@@ -116,7 +116,7 @@
         "v2": "collected",
         "v3": "collected",
         "group": "regular",
-        "transcription": "kəˈlɛkt",
+        "transcription": "k\u0259\u02c8l\u025bkt",
         "auxiliary": "have",
         "v4": "collecting",
         "lang": "en",
@@ -134,9 +134,9 @@
         "sub_subcategory": "Interactions"
     },
     {
-        "id": "A1-VERB-COM-04",
+        "id": "A1-VERB-COM-072",
         "word": "draw",
-        "emoji": "🎨",
+        "emoji": "\ud83c\udfa8",
         "subtext": "draw a picture / draw a conclusion / draw attention / draw a line",
         "form": "verb",
         "definitions": [
@@ -153,7 +153,7 @@
         "v2": "drew",
         "v3": "drawn",
         "group": "irregular",
-        "transcription": "drɔ",
+        "transcription": "dr\u0254",
         "lang": "en",
         "level": "starter",
         "theme": "social",
@@ -166,9 +166,9 @@
         "sub_subcategory": "Interactions"
     },
     {
-        "id": "A1-VERB-COM-05",
+        "id": "A1-VERB-COM-073",
         "word": "draw",
-        "emoji": "🎨",
+        "emoji": "\ud83c\udfa8",
         "subtext": "draw a picture / draw a conclusion / draw attention / draw a line",
         "form": "verb",
         "definitions": [
@@ -185,7 +185,7 @@
         "v2": "drew",
         "v3": "drawn",
         "group": "regular",
-        "transcription": "drɔ",
+        "transcription": "dr\u0254",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -199,9 +199,9 @@
         "sub_subcategory": "Interactions"
     },
     {
-        "id": "A1-VERB-COM-06",
+        "id": "A1-VERB-COM-074",
         "word": "introduce",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "subtext": "introduce yourself / introduce someone / introduce a topic",
         "form": "verb",
         "definitions": [
@@ -217,7 +217,7 @@
         "v2": "introduced",
         "v3": "introduced",
         "group": "regular",
-        "transcription": "ˌɪntrəˈdus",
+        "transcription": "\u02cc\u026antr\u0259\u02c8dus",
         "auxiliary": "have",
         "v4": "introducing",
         "lang": "en",
@@ -235,9 +235,9 @@
         "sub_subcategory": "Interactions"
     },
     {
-        "id": "A1-VERB-COM-07",
+        "id": "A1-VERB-COM-075",
         "word": "join",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "form": "verb",
         "subtext": "join a club / join us",
         "definitions": [
@@ -253,7 +253,7 @@
         "v2": "joined",
         "v3": "joined",
         "group": "regular",
-        "transcription": "ʤɔɪn",
+        "transcription": "\u02a4\u0254\u026an",
         "lang": "en",
         "level": "starter",
         "theme": "social",
@@ -269,9 +269,9 @@
         "sub_subcategory": "Interactions"
     },
     {
-        "id": "A1-VERB-COM-08",
+        "id": "A1-VERB-COM-076",
         "word": "join",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "form": "verb",
         "subtext": "join a club / join us",
         "definitions": [
@@ -287,7 +287,7 @@
         "v2": "joined",
         "v3": "joined",
         "group": "regular",
-        "transcription": "ʤɔɪn",
+        "transcription": "\u02a4\u0254\u026an",
         "auxiliary": "have",
         "v4": "joining",
         "lang": "en",
@@ -305,9 +305,9 @@
         "sub_subcategory": "Interactions"
     },
     {
-        "id": "A1-VERB-COM-09",
+        "id": "A1-VERB-COM-077",
         "word": "paint",
-        "emoji": "🎨",
+        "emoji": "\ud83c\udfa8",
         "form": "verb",
         "subtext": "paint a picture",
         "synonyms": [
@@ -327,7 +327,7 @@
         "v2": "painted",
         "v3": "painted",
         "group": "regular",
-        "transcription": "peɪnt",
+        "transcription": "pe\u026ant",
         "lang": "en",
         "level": "starter",
         "theme": "social",
@@ -343,9 +343,9 @@
         "sub_subcategory": "Interactions"
     },
     {
-        "id": "A1-VERB-COM-10",
+        "id": "A1-VERB-COM-078",
         "word": "paint",
-        "emoji": "🎨",
+        "emoji": "\ud83c\udfa8",
         "form": "verb",
         "subtext": "paint a picture",
         "synonyms": [
@@ -365,7 +365,7 @@
         "v2": "painted",
         "v3": "painted",
         "group": "regular",
-        "transcription": "peɪnt",
+        "transcription": "pe\u026ant",
         "auxiliary": "have",
         "v4": "painting",
         "lang": "en",
@@ -383,13 +383,13 @@
         "sub_subcategory": "Interactions"
     },
     {
-        "id": "A1-VERB-COM-11",
+        "id": "A1-VERB-COM-079",
         "word": "please",
         "translation": "please",
         "level": "starter",
         "theme": "social",
         "language": "en",
-        "emoji": "🙏",
+        "emoji": "\ud83d\ude4f",
         "form": "adverb",
         "definitions": [
             {
@@ -409,9 +409,9 @@
         "sub_subcategory": "Interactions"
     },
     {
-        "id": "A1-VERB-COM-12",
+        "id": "A1-VERB-COM-080",
         "word": "say",
-        "emoji": "🗨️",
+        "emoji": "\ud83d\udde8\ufe0f",
         "subtext": "say hello / say yes / say no / say something",
         "form": "verb",
         "definitions": [
@@ -428,7 +428,7 @@
         "v2": "said",
         "v3": "said",
         "group": "regular",
-        "transcription": "seɪ",
+        "transcription": "se\u026a",
         "synonyms": [
             "tell",
             "state"
@@ -449,9 +449,9 @@
         "sub_subcategory": "Interactions"
     },
     {
-        "id": "A1-VERB-COM-13",
+        "id": "A1-VERB-COM-081",
         "word": "speak",
-        "emoji": "🗣️",
+        "emoji": "\ud83d\udde3\ufe0f",
         "subtext": "speak to / with, speak to someone / speak English / speak clearly / speak at a meeting",
         "form": "verb",
         "definitions": [
@@ -479,7 +479,7 @@
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "sprekaną"
+            "origin_word": "sprekan\u0105"
         },
         "antonyms": [
             "be silent"
@@ -492,9 +492,9 @@
         "sub_subcategory": "Interactions"
     },
     {
-        "id": "A1-VERB-COM-14",
+        "id": "A1-VERB-COM-082",
         "word": "thank",
-        "emoji": "🙏",
+        "emoji": "\ud83d\ude4f",
         "subtext": "thank someone / thank you for / many thanks",
         "form": "verb",
         "definitions": [
@@ -510,7 +510,7 @@
         "v2": "thanked",
         "v3": "thanked",
         "group": "regular",
-        "transcription": "θæŋk",
+        "transcription": "\u03b8\u00e6\u014bk",
         "auxiliary": "have",
         "v4": "thanking",
         "lang": "en",
@@ -528,9 +528,9 @@
         "sub_subcategory": "Interactions"
     },
     {
-        "id": "A1-VERB-COM-15",
+        "id": "A1-VERB-COM-083",
         "word": "wave",
-        "emoji": "👋",
+        "emoji": "\ud83d\udc4b",
         "form": "verb",
         "subtext": "wave at, wave goodbye / wave hello",
         "synonyms": [
@@ -549,7 +549,7 @@
         "v2": "waved",
         "v3": "waved",
         "group": "regular",
-        "transcription": "weɪv",
+        "transcription": "we\u026av",
         "auxiliary": "have",
         "v4": "waving",
         "lang": "en",
@@ -567,9 +567,9 @@
         "sub_subcategory": "Interactions"
     },
     {
-        "id": "A1-VERB-COM-16",
+        "id": "A1-VERB-COM-084",
         "word": "welcome",
-        "emoji": "👋",
+        "emoji": "\ud83d\udc4b",
         "form": "verb",
         "subtext": "welcome someone / welcome home",
         "definitions": [
@@ -585,7 +585,7 @@
         "v2": "welcomed",
         "v3": "welcomed",
         "group": "regular",
-        "transcription": "ˈwɛlkəm",
+        "transcription": "\u02c8w\u025blk\u0259m",
         "auxiliary": "have",
         "v4": "welcoming",
         "lang": "en",
@@ -603,9 +603,9 @@
         "sub_subcategory": "Interactions"
     },
     {
-        "id": "A1-VERB-COM-17",
+        "id": "A1-VERB-COM-085",
         "word": "wish",
-        "emoji": "🤞",
+        "emoji": "\ud83e\udd1e",
         "form": "verb",
         "subtext": "wish for / I wish",
         "definitions": [
@@ -621,7 +621,7 @@
         "v2": "wished",
         "v3": "wished",
         "group": "regular",
-        "transcription": "wɪʃ",
+        "transcription": "w\u026a\u0283",
         "auxiliary": "have",
         "v4": "wishing",
         "lang": "en",

@@ -2,12 +2,12 @@
     const lang = "en";
     const data = [
     {
-        "id": "C1-VERB-PHI-01",
+        "id": "C1-VERB-PHI-001",
         "word": "instrumentalise",
-        "emoji": "🛠️",
+        "emoji": "\ud83d\udee0\ufe0f",
         "subtext": "instrumentalise people / instrumentalise an idea / purely instrumental",
         "form": "verb",
-        "transcription": "ˌɪnstrʊˈmentəlaɪz",
+        "transcription": "\u02cc\u026anstr\u028a\u02c8ment\u0259la\u026az",
         "definitions": [
             {
                 "text": "To use a person or concept purely as a means to achieve an end.",

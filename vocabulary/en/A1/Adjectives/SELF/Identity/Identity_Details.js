@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-ADJ-SEL-01",
+        "id": "A1-ADJ-SEL-223",
         "word": "own",
-        "emoji": "👤",
+        "emoji": "\ud83d\udc64",
         "form": "adjective",
         "definitions": [
             {
@@ -20,7 +20,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "oʊn",
+        "transcription": "o\u028an",
         "lang": "en",
         "level": "starter",
         "theme": "personal_identity",

@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-COM-01",
+        "id": "A1-NOUN-COM-061",
         "word": "battery",
-        "emoji": "🔋",
+        "emoji": "\ud83d\udd0b",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -22,7 +22,7 @@
             "power source",
             "charging"
         ],
-        "transcription": "ˈbætəri",
+        "transcription": "\u02c8b\u00e6t\u0259ri",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -35,9 +35,9 @@
         "sub_subcategory": "Digital_Devices"
     },
     {
-        "id": "A1-NOUN-COM-02",
+        "id": "A1-NOUN-COM-062",
         "word": "camera",
-        "emoji": "📷",
+        "emoji": "\ud83d\udcf7",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -51,7 +51,7 @@
             }
         ],
         "subtext": "related to basic technology devices",
-        "transcription": "ˈkæmərə",
+        "transcription": "\u02c8k\u00e6m\u0259r\u0259",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -64,9 +64,9 @@
         "sub_subcategory": "Digital_Devices"
     },
     {
-        "id": "A1-NOUN-COM-03",
+        "id": "A1-NOUN-COM-063",
         "word": "charger",
-        "emoji": "🔌",
+        "emoji": "\ud83d\udd0c",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -83,7 +83,7 @@
         "synonyms": [
             "charging cable"
         ],
-        "transcription": "ˈʧɑrʤər",
+        "transcription": "\u02c8\u02a7\u0251r\u02a4\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -96,9 +96,9 @@
         "sub_subcategory": "Digital_Devices"
     },
     {
-        "id": "A1-NOUN-COM-04",
+        "id": "A1-NOUN-COM-064",
         "word": "computer",
-        "emoji": "💻",
+        "emoji": "\ud83d\udcbb",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -112,7 +112,7 @@
             }
         ],
         "subtext": "related to basic technology devices",
-        "transcription": "kəmˈpjutər",
+        "transcription": "k\u0259m\u02c8pjut\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -125,9 +125,9 @@
         "sub_subcategory": "Digital_Devices"
     },
     {
-        "id": "A1-NOUN-COM-05",
+        "id": "A1-NOUN-COM-065",
         "word": "keyboard",
-        "emoji": "⌨️",
+        "emoji": "\u2328\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -141,7 +141,7 @@
             }
         ],
         "subtext": "related to basic technology devices",
-        "transcription": "ˈkiˌbɔrd",
+        "transcription": "\u02c8ki\u02ccb\u0254rd",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -154,9 +154,9 @@
         "sub_subcategory": "Digital_Devices"
     },
     {
-        "id": "A1-NOUN-COM-06",
+        "id": "A1-NOUN-COM-066",
         "word": "laptop",
-        "emoji": "💻",
+        "emoji": "\ud83d\udcbb",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -170,7 +170,7 @@
             }
         ],
         "subtext": "related to basic technology devices",
-        "transcription": "ˈlæpˌtɑp",
+        "transcription": "\u02c8l\u00e6p\u02cct\u0251p",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -183,9 +183,9 @@
         "sub_subcategory": "Digital_Devices"
     },
     {
-        "id": "A1-NOUN-COM-07",
+        "id": "A1-NOUN-COM-067",
         "word": "magazine",
-        "emoji": "📖",
+        "emoji": "\ud83d\udcd6",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -199,7 +199,7 @@
             }
         ],
         "subtext": "related to basic technology devices",
-        "transcription": "ˈmægəˌzin",
+        "transcription": "\u02c8m\u00e6g\u0259\u02cczin",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -212,9 +212,9 @@
         "sub_subcategory": "Digital_Devices"
     },
     {
-        "id": "A1-NOUN-COM-08",
+        "id": "A1-NOUN-COM-068",
         "word": "mobile",
-        "emoji": "📱",
+        "emoji": "\ud83d\udcf1",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -228,7 +228,7 @@
                 ]
             }
         ],
-        "transcription": "ˈmoʊbəl",
+        "transcription": "\u02c8mo\u028ab\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -241,9 +241,9 @@
         "sub_subcategory": "Digital_Devices"
     },
     {
-        "id": "A1-NOUN-COM-09",
+        "id": "A1-NOUN-COM-069",
         "word": "newspaper",
-        "emoji": "📰",
+        "emoji": "\ud83d\udcf0",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -257,7 +257,7 @@
             }
         ],
         "subtext": "related to basic technology devices",
-        "transcription": "ˈnuzˌpeɪpər",
+        "transcription": "\u02c8nuz\u02ccpe\u026ap\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -270,9 +270,9 @@
         "sub_subcategory": "Digital_Devices"
     },
     {
-        "id": "A1-NOUN-COM-10",
+        "id": "A1-NOUN-COM-070",
         "word": "printer",
-        "emoji": "🖨️",
+        "emoji": "\ud83d\udda8\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -286,7 +286,7 @@
             }
         ],
         "subtext": "related to basic technology devices",
-        "transcription": "ˈprɪnər",
+        "transcription": "\u02c8pr\u026an\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -299,9 +299,9 @@
         "sub_subcategory": "Digital_Devices"
     },
     {
-        "id": "A1-NOUN-COM-11",
+        "id": "A1-NOUN-COM-071",
         "word": "radio",
-        "emoji": "📻",
+        "emoji": "\ud83d\udcfb",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -315,7 +315,7 @@
             }
         ],
         "subtext": "related to basic technology devices",
-        "transcription": "ˈreɪdiˌoʊ",
+        "transcription": "\u02c8re\u026adi\u02cco\u028a",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -328,9 +328,9 @@
         "sub_subcategory": "Digital_Devices"
     },
     {
-        "id": "A1-NOUN-COM-12",
+        "id": "A1-NOUN-COM-072",
         "word": "screen",
-        "emoji": "🖥️",
+        "emoji": "\ud83d\udda5\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -357,9 +357,9 @@
         "sub_subcategory": "Digital_Devices"
     },
     {
-        "id": "A1-NOUN-COM-13",
+        "id": "A1-NOUN-COM-073",
         "word": "smartphone",
-        "emoji": "📱",
+        "emoji": "\ud83d\udcf1",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -373,7 +373,7 @@
             }
         ],
         "subtext": "related to basic technology devices",
-        "transcription": "ˈsmɑːrtfoʊn",
+        "transcription": "\u02c8sm\u0251\u02d0rtfo\u028an",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -386,9 +386,9 @@
         "sub_subcategory": "Digital_Devices"
     },
     {
-        "id": "A1-NOUN-COM-14",
+        "id": "A1-NOUN-COM-074",
         "word": "television",
-        "emoji": "📺",
+        "emoji": "\ud83d\udcfa",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -402,7 +402,7 @@
                 ]
             }
         ],
-        "transcription": "ˈtɛləˌvɪʒən",
+        "transcription": "\u02c8t\u025bl\u0259\u02ccv\u026a\u0292\u0259n",
         "lang": "en",
         "level": "starter",
         "theme": "technology",

@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-COM-01",
+        "id": "A1-NOUN-COM-015",
         "word": "free time",
-        "emoji": "🎮",
+        "emoji": "\ud83c\udfae",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -17,7 +17,7 @@
             }
         ],
         "subtext": "related to leisure activities",
-        "transcription": "fri taɪm",
+        "transcription": "fri ta\u026am",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -30,9 +30,9 @@
         "sub_subcategory": "Hobbies_Pastimes"
     },
     {
-        "id": "A1-NOUN-COM-02",
+        "id": "A1-NOUN-COM-016",
         "word": "game",
-        "emoji": "🎮",
+        "emoji": "\ud83c\udfae",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -46,7 +46,7 @@
             }
         ],
         "subtext": "related to leisure activities",
-        "transcription": "geɪm",
+        "transcription": "ge\u026am",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -59,9 +59,9 @@
         "sub_subcategory": "Hobbies_Pastimes"
     },
     {
-        "id": "A1-NOUN-COM-03",
+        "id": "A1-NOUN-COM-017",
         "word": "guest",
-        "emoji": "🏨",
+        "emoji": "\ud83c\udfe8",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -75,7 +75,7 @@
             }
         ],
         "subtext": "related to leisure activities",
-        "transcription": "gɛst",
+        "transcription": "g\u025bst",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -88,9 +88,9 @@
         "sub_subcategory": "Hobbies_Pastimes"
     },
     {
-        "id": "A1-NOUN-COM-04",
+        "id": "A1-NOUN-COM-018",
         "word": "gym",
-        "emoji": "🏋️",
+        "emoji": "\ud83c\udfcb\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -107,7 +107,7 @@
                 ]
             }
         ],
-        "transcription": "ʤɪm",
+        "transcription": "\u02a4\u026am",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -120,16 +120,16 @@
         "sub_subcategory": "Hobbies_Pastimes"
     },
     {
-        "id": "A1-NOUN-COM-05",
+        "id": "A1-NOUN-COM-019",
         "word": "holiday",
-        "emoji": "🏖️",
+        "emoji": "\ud83c\udfd6\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
         "plural": "holidays",
         "subtext": "vacation, go on holiday",
         "synonyms": [
-            "🇺🇸 vacation"
+            "\ud83c\uddfa\ud83c\uddf8 vacation"
         ],
         "definitions": [
             {
@@ -139,7 +139,7 @@
                 ]
             }
         ],
-        "transcription": "ˈhɑlɪˌdeɪ",
+        "transcription": "\u02c8h\u0251l\u026a\u02ccde\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -152,9 +152,9 @@
         "sub_subcategory": "Hobbies_Pastimes"
     },
     {
-        "id": "A1-NOUN-COM-06",
+        "id": "A1-NOUN-COM-020",
         "word": "party",
-        "emoji": "🎉",
+        "emoji": "\ud83c\udf89",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -168,7 +168,7 @@
                 ]
             }
         ],
-        "transcription": "ˈpɑrti",
+        "transcription": "\u02c8p\u0251rti",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -181,9 +181,9 @@
         "sub_subcategory": "Hobbies_Pastimes"
     },
     {
-        "id": "A1-NOUN-COM-07",
+        "id": "A1-NOUN-COM-021",
         "word": "playground",
-        "emoji": "🛝",
+        "emoji": "\ud83d\udedd",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -197,7 +197,7 @@
             }
         ],
         "subtext": "related to leisure activities",
-        "transcription": "ˈpleɪˌgraʊnd",
+        "transcription": "\u02c8ple\u026a\u02ccgra\u028and",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -210,9 +210,9 @@
         "sub_subcategory": "Hobbies_Pastimes"
     },
     {
-        "id": "A1-NOUN-COM-08",
+        "id": "A1-NOUN-COM-022",
         "word": "present",
-        "emoji": "🎁",
+        "emoji": "\ud83c\udf81",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -229,7 +229,7 @@
         "synonyms": [
             "gift"
         ],
-        "transcription": "ˈprɛzənt",
+        "transcription": "\u02c8pr\u025bz\u0259nt",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",

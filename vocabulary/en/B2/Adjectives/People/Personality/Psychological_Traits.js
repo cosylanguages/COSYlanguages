@@ -2,11 +2,11 @@
     const lang = "en";
     const data = [
     {
-        "id": "B2-ADJ-PEO-01",
+        "id": "B2-ADJ-PEO-032",
         "word": "absurd",
-        "emoji": "🤡",
+        "emoji": "\ud83e\udd21",
         "form": "adjective",
-        "transcription": "əbˈsɜːd",
+        "transcription": "\u0259b\u02c8s\u025c\u02d0d",
         "subtext": "Neutral | utterly absurd / perfectly absurd / sound absurd",
         "definitions": [
             {
@@ -33,11 +33,11 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "B2-ADJ-PEO-02",
+        "id": "B2-ADJ-PEO-033",
         "word": "accurate",
-        "emoji": "🎯",
+        "emoji": "\ud83c\udfaf",
         "form": "adjective",
-        "transcription": "ˈækjərət",
+        "transcription": "\u02c8\u00e6kj\u0259r\u0259t",
         "subtext": "Formal | highly accurate / very accurate / accurate data",
         "definitions": [
             {
@@ -64,11 +64,11 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "B2-ADJ-PEO-03",
+        "id": "B2-ADJ-PEO-034",
         "word": "convinced",
-        "emoji": "🧠",
+        "emoji": "\ud83e\udde0",
         "form": "adjective",
-        "transcription": "kənˈvɪnst",
+        "transcription": "k\u0259n\u02c8v\u026anst",
         "subtext": "Neutral | fully convinced / utterly convinced / not entirely convinced",
         "definitions": [
             {
@@ -95,11 +95,11 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "B2-ADJ-PEO-04",
+        "id": "B2-ADJ-PEO-035",
         "word": "crucial",
-        "emoji": "❗",
+        "emoji": "\u2757",
         "form": "adjective",
-        "transcription": "ˈkruːʃl",
+        "transcription": "\u02c8kru\u02d0\u0283l",
         "subtext": "Formal | absolutely crucial / play a crucial role / of crucial importance",
         "definitions": [
             {
@@ -126,11 +126,11 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "B2-ADJ-PEO-05",
+        "id": "B2-ADJ-PEO-036",
         "word": "ethical",
-        "emoji": "🤔⚖️",
+        "emoji": "\ud83e\udd14\u2696\ufe0f",
         "form": "adjective",
-        "transcription": "ˈɛθɪkl",
+        "transcription": "\u02c8\u025b\u03b8\u026akl",
         "subtext": "Formal | ethical investment / ethical standards / ethical way",
         "definitions": [
             {
@@ -158,11 +158,11 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "B2-ADJ-PEO-06",
+        "id": "B2-ADJ-PEO-037",
         "word": "moral",
-        "emoji": "⚖️",
+        "emoji": "\u2696\ufe0f",
         "form": "adjective",
-        "transcription": "🇬🇧 ˈmɒrəl | 🇺🇸 ˈmɑːrəl",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8m\u0252r\u0259l | \ud83c\uddfa\ud83c\uddf8 \u02c8m\u0251\u02d0r\u0259l",
         "subtext": "Neutral | moral decision / moral obligation / moral issue",
         "definitions": [
             {
@@ -190,11 +190,11 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "B2-ADJ-PEO-07",
+        "id": "B2-ADJ-PEO-038",
         "word": "rational",
-        "emoji": "🧠",
+        "emoji": "\ud83e\udde0",
         "form": "adjective",
-        "transcription": "ˈræʃənl",
+        "transcription": "\u02c8r\u00e6\u0283\u0259nl",
         "subtext": "Formal | entirely rational / very rational / a rational approach",
         "definitions": [
             {
@@ -221,11 +221,11 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "B2-ADJ-PEO-08",
+        "id": "B2-ADJ-PEO-039",
         "word": "ridiculous",
-        "emoji": "😂",
+        "emoji": "\ud83d\ude02",
         "form": "adjective",
-        "transcription": "rɪˈdɪkjələs",
+        "transcription": "r\u026a\u02c8d\u026akj\u0259l\u0259s",
         "subtext": "Neutral | absolutely ridiculous / utterly ridiculous / totally ridiculous",
         "definitions": [
             {
@@ -252,11 +252,11 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "B2-ADJ-PEO-09",
+        "id": "B2-ADJ-PEO-040",
         "word": "worthwhile",
-        "emoji": "💎",
+        "emoji": "\ud83d\udc8e",
         "form": "adjective",
-        "transcription": "ˌwɜːθˈwaɪl",
+        "transcription": "\u02ccw\u025c\u02d0\u03b8\u02c8wa\u026al",
         "subtext": "Neutral | well worthwhile / very worthwhile / prove worthwhile",
         "definitions": [
             {

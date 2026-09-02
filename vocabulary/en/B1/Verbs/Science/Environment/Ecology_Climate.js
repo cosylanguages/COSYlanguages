@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "B1-VERB-SCI-01",
+        "id": "B1-VERB-SCI-003",
         "word": "affect",
         "lang": "en",
         "level": "intermediate",
@@ -16,8 +16,8 @@
                 ]
             }
         ],
-        "transcription": "əˈfɛkt",
-        "emoji": "⚖️",
+        "transcription": "\u0259\u02c8f\u025bkt",
+        "emoji": "\u2696\ufe0f",
         "_legacy": {
             "subtext": "affect someone / affect the result / negatively affect",
             "classification": "regular",
@@ -36,7 +36,7 @@
         "sub_subcategory": "Ecology_Climate"
     },
     {
-        "id": "B1-VERB-SCI-02",
+        "id": "B1-VERB-SCI-004",
         "word": "cause",
         "lang": "en",
         "level": "intermediate",
@@ -50,8 +50,8 @@
                 ]
             }
         ],
-        "transcription": "kɔːz",
-        "emoji": "⚡",
+        "transcription": "k\u0254\u02d0z",
+        "emoji": "\u26a1",
         "_legacy": {
             "subtext": "cause a problem / cause stress / cause damage",
             "classification": "regular",
@@ -70,7 +70,7 @@
         "sub_subcategory": "Ecology_Climate"
     },
     {
-        "id": "B1-VERB-SCI-03",
+        "id": "B1-VERB-SCI-005",
         "word": "recycle",
         "lang": "en",
         "level": "intermediate",
@@ -84,8 +84,8 @@
                 ]
             }
         ],
-        "transcription": "ˌriːˈsaɪkl",
-        "emoji": "♻️",
+        "transcription": "\u02ccri\u02d0\u02c8sa\u026akl",
+        "emoji": "\u267b\ufe0f",
         "_legacy": {
             "subtext": "recycle plastic, recycling bin",
             "classification": "regular",

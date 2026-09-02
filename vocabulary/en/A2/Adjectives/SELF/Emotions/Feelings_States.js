@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A2-ADJ-SEL-01",
+        "id": "A2-ADJ-SEL-078",
         "word": "anxious",
-        "emoji": "😟",
+        "emoji": "\ud83d\ude1f",
         "form": "adjective",
         "definitions": [
             {
@@ -23,7 +23,7 @@
         ],
         "comparative": "more anxious",
         "superlative": "the most anxious",
-        "transcription": "ˈæŋkʃəs",
+        "transcription": "\u02c8\u00e6\u014bk\u0283\u0259s",
         "lang": "en",
         "level": "elementary",
         "theme": "emotions",
@@ -41,9 +41,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A2-ADJ-SEL-02",
+        "id": "A2-ADJ-SEL-079",
         "word": "delighted",
-        "emoji": "😊",
+        "emoji": "\ud83d\ude0a",
         "form": "adjective",
         "definitions": [
             {
@@ -61,7 +61,7 @@
         ],
         "comparative": "more delighted",
         "superlative": "the most delighted",
-        "transcription": "dɪˈlaɪtɪd",
+        "transcription": "d\u026a\u02c8la\u026at\u026ad",
         "lang": "en",
         "level": "elementary",
         "theme": "emotions",
@@ -74,9 +74,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A2-ADJ-SEL-03",
+        "id": "A2-ADJ-SEL-080",
         "word": "dissatisfied",
-        "emoji": "😒",
+        "emoji": "\ud83d\ude12",
         "form": "adjective",
         "definitions": [
             {
@@ -93,7 +93,7 @@
         ],
         "comparative": "more dissatisfied",
         "superlative": "the most dissatisfied",
-        "transcription": "dɪˈsætɪsfaɪd",
+        "transcription": "d\u026a\u02c8s\u00e6t\u026asfa\u026ad",
         "lang": "en",
         "level": "elementary",
         "theme": "emotions",
@@ -106,9 +106,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A2-ADJ-SEL-04",
+        "id": "A2-ADJ-SEL-081",
         "word": "emotional",
-        "emoji": "🥺",
+        "emoji": "\ud83e\udd7a",
         "form": "adjective",
         "definitions": [
             {
@@ -124,7 +124,7 @@
         ],
         "comparative": "more emotional",
         "superlative": "the most emotional",
-        "transcription": "ɪˈmoʊʃənl",
+        "transcription": "\u026a\u02c8mo\u028a\u0283\u0259nl",
         "lang": "en",
         "level": "elementary",
         "theme": "emotions",
@@ -137,9 +137,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A2-ADJ-SEL-05",
+        "id": "A2-ADJ-SEL-082",
         "word": "grateful",
-        "emoji": "🙏",
+        "emoji": "\ud83d\ude4f",
         "form": "adjective",
         "definitions": [
             {
@@ -155,7 +155,7 @@
         ],
         "comparative": "more grateful",
         "superlative": "the most grateful",
-        "transcription": "ˈɡreɪtfl",
+        "transcription": "\u02c8\u0261re\u026atfl",
         "lang": "en",
         "level": "elementary",
         "theme": "emotions",
@@ -168,9 +168,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A2-ADJ-SEL-06",
+        "id": "A2-ADJ-SEL-083",
         "word": "pleased",
-        "emoji": "😊",
+        "emoji": "\ud83d\ude0a",
         "form": "adjective",
         "definitions": [
             {
@@ -188,7 +188,7 @@
         ],
         "comparative": "more pleased",
         "superlative": "the most pleased",
-        "transcription": "pliːzd",
+        "transcription": "pli\u02d0zd",
         "lang": "en",
         "level": "elementary",
         "theme": "emotions",
@@ -201,9 +201,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A2-ADJ-SEL-07",
+        "id": "A2-ADJ-SEL-084",
         "word": "satisfied",
-        "emoji": "😌",
+        "emoji": "\ud83d\ude0c",
         "form": "adjective",
         "definitions": [
             {
@@ -220,7 +220,7 @@
         ],
         "comparative": "more satisfied",
         "superlative": "the most satisfied",
-        "transcription": "ˈsætɪsfaɪd",
+        "transcription": "\u02c8s\u00e6t\u026asfa\u026ad",
         "lang": "en",
         "level": "elementary",
         "theme": "emotions",
@@ -233,9 +233,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A2-ADJ-SEL-08",
+        "id": "A2-ADJ-SEL-085",
         "word": "stressed",
-        "emoji": "😫",
+        "emoji": "\ud83d\ude2b",
         "form": "adjective",
         "definitions": [
             {
@@ -249,7 +249,7 @@
         "subtext": "feel stressed / very stressed / completely stressed",
         "comparative": "more stressed",
         "superlative": "the most stressed",
-        "transcription": "strɛst",
+        "transcription": "str\u025bst",
         "synonyms": [
             "worried"
         ],
@@ -265,9 +265,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A2-ADJ-SEL-09",
+        "id": "A2-ADJ-SEL-086",
         "word": "stressful",
-        "emoji": "😫",
+        "emoji": "\ud83d\ude2b",
         "form": "adjective",
         "definitions": [
             {
@@ -280,7 +280,7 @@
         "subtext": "a stressful job / very stressful / stressful situation",
         "comparative": "more stressful",
         "superlative": "the most stressful",
-        "transcription": "ˈstrɛsfl",
+        "transcription": "\u02c8str\u025bsfl",
         "synonyms": [
             "difficult"
         ],
@@ -296,9 +296,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A2-ADJ-SEL-10",
+        "id": "A2-ADJ-SEL-087",
         "word": "unlucky",
-        "emoji": "😿",
+        "emoji": "\ud83d\ude3f",
         "form": "adjective",
         "definitions": [
             {
@@ -314,7 +314,7 @@
         ],
         "comparative": "unluckier",
         "superlative": "the unluckiest",
-        "transcription": "ʌnˈlʌki",
+        "transcription": "\u028cn\u02c8l\u028cki",
         "lang": "en",
         "level": "elementary",
         "theme": "emotions",
@@ -327,9 +327,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A2-ADJ-SEL-11",
+        "id": "A2-ADJ-SEL-088",
         "word": "upset",
-        "emoji": "😢",
+        "emoji": "\ud83d\ude22",
         "form": "adjective",
         "definitions": [
             {
@@ -347,7 +347,7 @@
         ],
         "comparative": "more upset",
         "superlative": "the most upset",
-        "transcription": "ˌʌpˈsɛt",
+        "transcription": "\u02cc\u028cp\u02c8s\u025bt",
         "lang": "en",
         "level": "elementary",
         "theme": "emotions",

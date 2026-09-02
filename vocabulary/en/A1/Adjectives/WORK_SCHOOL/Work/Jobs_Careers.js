@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-ADJ-WOR-01",
+        "id": "A1-ADJ-WOR-001",
         "word": "busy",
-        "emoji": "🏃",
+        "emoji": "\ud83c\udfc3",
         "form": "adjective",
         "subtext": "very busy, busy day / busy schedule / very busy / too busy",
         "definitions": [
@@ -23,7 +23,7 @@
         ],
         "comparative": "busier",
         "superlative": "the busiest",
-        "transcription": "ˈbɪzi",
+        "transcription": "\u02c8b\u026azi",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -39,9 +39,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-ADJ-WOR-02",
+        "id": "A1-ADJ-WOR-002",
         "word": "busy",
-        "emoji": "🏃",
+        "emoji": "\ud83c\udfc3",
         "form": "adjective",
         "subtext": "very busy, busy day / busy schedule / very busy / too busy",
         "definitions": [
@@ -60,7 +60,7 @@
         ],
         "comparative": "busier",
         "superlative": "the busiest",
-        "transcription": "ˈbɪzi",
+        "transcription": "\u02c8b\u026azi",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -76,9 +76,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-ADJ-WOR-03",
+        "id": "A1-ADJ-WOR-003",
         "word": "full-time",
-        "emoji": "⏰",
+        "emoji": "\u23f0",
         "form": "adjective",
         "definitions": [
             {
@@ -91,7 +91,7 @@
         "subtext": "full-time job / full-time work / full-time employee",
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈfʊlˌtaɪm",
+        "transcription": "\u02c8f\u028al\u02ccta\u026am",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -107,9 +107,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-ADJ-WOR-04",
+        "id": "A1-ADJ-WOR-004",
         "word": "full-time",
-        "emoji": "⏰",
+        "emoji": "\u23f0",
         "form": "adjective",
         "definitions": [
             {
@@ -122,7 +122,7 @@
         "subtext": "full-time job / full-time work / full-time employee",
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈfʊlˌtaɪm",
+        "transcription": "\u02c8f\u028al\u02ccta\u026am",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -138,9 +138,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-ADJ-WOR-05",
+        "id": "A1-ADJ-WOR-005",
         "word": "part-time",
-        "emoji": "⏳",
+        "emoji": "\u23f3",
         "form": "adjective",
         "definitions": [
             {
@@ -153,7 +153,7 @@
         "subtext": "part-time job / part-time work / part-time student",
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈpɑrtˈtaɪm",
+        "transcription": "\u02c8p\u0251rt\u02c8ta\u026am",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -169,9 +169,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-ADJ-WOR-06",
+        "id": "A1-ADJ-WOR-006",
         "word": "part-time",
-        "emoji": "⏳",
+        "emoji": "\u23f3",
         "form": "adjective",
         "definitions": [
             {
@@ -184,7 +184,7 @@
         "subtext": "part-time job / part-time work / part-time student",
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈpɑrtˈtaɪm",
+        "transcription": "\u02c8p\u0251rt\u02c8ta\u026am",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -200,9 +200,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-ADJ-WOR-07",
+        "id": "A1-ADJ-WOR-007",
         "word": "ready",
-        "emoji": "✅",
+        "emoji": "\u2705",
         "form": "adjective",
         "definitions": [
             {
@@ -218,7 +218,7 @@
         ],
         "comparative": "readier",
         "superlative": "the readiest",
-        "transcription": "ˈrɛdi",
+        "transcription": "\u02c8r\u025bdi",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -234,9 +234,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-ADJ-WOR-08",
+        "id": "A1-ADJ-WOR-008",
         "word": "ready",
-        "emoji": "✅",
+        "emoji": "\u2705",
         "form": "adjective",
         "definitions": [
             {
@@ -252,7 +252,7 @@
         ],
         "comparative": "readier",
         "superlative": "the readiest",
-        "transcription": "ˈrɛdi",
+        "transcription": "\u02c8r\u025bdi",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -268,9 +268,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-ADJ-WOR-09",
+        "id": "A1-ADJ-WOR-009",
         "word": "unready",
-        "emoji": "⏳",
+        "emoji": "\u23f3",
         "form": "adjective",
         "subtext": "unready for the change",
         "synonyms": [
@@ -286,7 +286,7 @@
         ],
         "comparative": "more unready",
         "superlative": "the most unready",
-        "transcription": "ʌnˈrɛdi",
+        "transcription": "\u028cn\u02c8r\u025bdi",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -302,9 +302,9 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-ADJ-WOR-10",
+        "id": "A1-ADJ-WOR-010",
         "word": "unready",
-        "emoji": "⏳",
+        "emoji": "\u23f3",
         "form": "adjective",
         "subtext": "unready for the change",
         "synonyms": [
@@ -320,7 +320,7 @@
         ],
         "comparative": "more unready",
         "superlative": "the most unready",
-        "transcription": "ʌnˈrɛdi",
+        "transcription": "\u028cn\u02c8r\u025bdi",
         "lang": "en",
         "level": "starter",
         "theme": "work",

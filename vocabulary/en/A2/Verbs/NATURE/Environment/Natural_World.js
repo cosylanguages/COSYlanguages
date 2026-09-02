@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A2-VERB-NAT-01",
+        "id": "A2-VERB-NAT-002",
         "word": "analyze",
-        "emoji": "📊",
+        "emoji": "\ud83d\udcca",
         "form": "verb",
         "subtext": "examine, study",
         "synonyms": [
@@ -23,7 +23,7 @@
         "aspect": "action",
         "v2": "analyzed",
         "v3": "analyzed",
-        "transcription": "ˈænəlaɪz",
+        "transcription": "\u02c8\u00e6n\u0259la\u026az",
         "group": "regular",
         "auxiliary": "have",
         "v4": "analyzing",
@@ -44,9 +44,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A2-VERB-NAT-02",
+        "id": "A2-VERB-NAT-003",
         "word": "conserve",
-        "emoji": "💧",
+        "emoji": "\ud83d\udca7",
         "form": "verb",
         "subtext": "conserve energy / conserve water",
         "definitions": [
@@ -65,7 +65,7 @@
             "save",
             "protect"
         ],
-        "transcription": "kənˈsɜːrv",
+        "transcription": "k\u0259n\u02c8s\u025c\u02d0rv",
         "group": "regular",
         "auxiliary": "have",
         "v4": "conserving",
@@ -81,9 +81,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A2-VERB-NAT-03",
+        "id": "A2-VERB-NAT-004",
         "word": "discover",
-        "emoji": "🔎",
+        "emoji": "\ud83d\udd0e",
         "form": "verb",
         "subtext": "discover something new",
         "synonyms": [
@@ -101,7 +101,7 @@
         "aspect": "action",
         "v2": "discovered",
         "v3": "discovered",
-        "transcription": "dɪˈskʌvər",
+        "transcription": "d\u026a\u02c8sk\u028cv\u0259r",
         "group": "regular",
         "auxiliary": "have",
         "v4": "discovering",
@@ -117,9 +117,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A2-VERB-NAT-04",
+        "id": "A2-VERB-NAT-005",
         "word": "evolve",
-        "emoji": "🧬",
+        "emoji": "\ud83e\uddec",
         "form": "verb",
         "subtext": "slowly evolve / evolve into",
         "definitions": [
@@ -134,7 +134,7 @@
         "aspect": "action",
         "v2": "evolved",
         "v3": "evolved",
-        "transcription": "🇬🇧 ɪˈvɒlv | 🇺🇸 ɪˈvɑːlv",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u026a\u02c8v\u0252lv | \ud83c\uddfa\ud83c\uddf8 \u026a\u02c8v\u0251\u02d0lv",
         "group": "regular",
         "auxiliary": "have",
         "v4": "evolving",
@@ -150,9 +150,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A2-VERB-NAT-05",
+        "id": "A2-VERB-NAT-006",
         "word": "examine",
-        "emoji": "🔬",
+        "emoji": "\ud83d\udd2c",
         "form": "verb",
         "subtext": "examine a patient / examine a document",
         "synonyms": [
@@ -172,7 +172,7 @@
         "aspect": "action",
         "v2": "examined",
         "v3": "examined",
-        "transcription": "ɪɡˈzæmɪn",
+        "transcription": "\u026a\u0261\u02c8z\u00e6m\u026an",
         "group": "regular",
         "auxiliary": "have",
         "v4": "examining",
@@ -188,9 +188,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A2-VERB-NAT-06",
+        "id": "A2-VERB-NAT-007",
         "word": "freeze",
-        "emoji": "❄️",
+        "emoji": "\u2744\ufe0f",
         "form": "verb",
         "subtext": "freeze water",
         "synonyms": [
@@ -208,7 +208,7 @@
         "aspect": "action",
         "v2": "froze",
         "v3": "frozen",
-        "transcription": "friːz",
+        "transcription": "fri\u02d0z",
         "group": "regular",
         "auxiliary": "have",
         "lang": "en",
@@ -223,9 +223,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A2-VERB-NAT-07",
+        "id": "A2-VERB-NAT-008",
         "word": "invent",
-        "emoji": "⚙️",
+        "emoji": "\u2699\ufe0f",
         "form": "verb",
         "subtext": "invent something",
         "synonyms": [
@@ -244,7 +244,7 @@
         "aspect": "action",
         "v2": "invented",
         "v3": "invented",
-        "transcription": "ɪnˈvɛnt",
+        "transcription": "\u026an\u02c8v\u025bnt",
         "group": "regular",
         "auxiliary": "have",
         "v4": "inventing",
@@ -260,9 +260,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A2-VERB-NAT-08",
+        "id": "A2-VERB-NAT-009",
         "word": "measure",
-        "emoji": "📏",
+        "emoji": "\ud83d\udccf",
         "form": "verb",
         "subtext": "measure length / measure temperature / measure success",
         "definitions": [
@@ -278,7 +278,7 @@
         "aspect": "action",
         "v2": "measured",
         "v3": "measured",
-        "transcription": "ˈmɛʒər",
+        "transcription": "\u02c8m\u025b\u0292\u0259r",
         "synonyms": [
             "calculate"
         ],
@@ -297,9 +297,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A2-VERB-NAT-09",
+        "id": "A2-VERB-NAT-010",
         "word": "observe",
-        "emoji": "🧐",
+        "emoji": "\ud83e\uddd0",
         "form": "verb",
         "subtext": "carefully observe",
         "definitions": [
@@ -314,7 +314,7 @@
         "aspect": "action",
         "v2": "observed",
         "v3": "observed",
-        "transcription": "əbˈzɜːrv",
+        "transcription": "\u0259b\u02c8z\u025c\u02d0rv",
         "synonyms": [
             "watch",
             "see"
@@ -334,9 +334,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A2-VERB-NAT-10",
+        "id": "A2-VERB-NAT-011",
         "word": "pollute",
-        "emoji": "🏭",
+        "emoji": "\ud83c\udfed",
         "form": "verb",
         "subtext": "pollute the air / pollute the ocean",
         "definitions": [
@@ -351,7 +351,7 @@
         "aspect": "action",
         "v2": "polluted",
         "v3": "polluted",
-        "transcription": "pəˈluːt",
+        "transcription": "p\u0259\u02c8lu\u02d0t",
         "group": "regular",
         "auxiliary": "have",
         "v4": "polluting",
@@ -367,9 +367,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A2-VERB-NAT-11",
+        "id": "A2-VERB-NAT-012",
         "word": "predict",
-        "emoji": "🔮",
+        "emoji": "\ud83d\udd2e",
         "form": "verb",
         "subtext": "predict the future",
         "definitions": [
@@ -384,7 +384,7 @@
         "aspect": "action",
         "v2": "predicted",
         "v3": "predicted",
-        "transcription": "prɪˈdɪkt",
+        "transcription": "pr\u026a\u02c8d\u026akt",
         "synonyms": [
             "forecast",
             "guess"
@@ -404,9 +404,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A2-VERB-NAT-12",
+        "id": "A2-VERB-NAT-013",
         "word": "protect",
-        "emoji": "🛡️",
+        "emoji": "\ud83d\udee1\ufe0f",
         "form": "verb",
         "subtext": "protect the environment / protect wildlife / protect from harm",
         "definitions": [
@@ -422,7 +422,7 @@
         "aspect": "action",
         "v2": "protected",
         "v3": "protected",
-        "transcription": "prəˈtɛkt",
+        "transcription": "pr\u0259\u02c8t\u025bkt",
         "synonyms": [
             "save",
             "guard"
@@ -442,9 +442,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A2-VERB-NAT-13",
+        "id": "A2-VERB-NAT-014",
         "word": "react",
-        "emoji": "🧪",
+        "emoji": "\ud83e\uddea",
         "form": "verb",
         "subtext": "react to",
         "synonyms": [
@@ -462,7 +462,7 @@
         "aspect": "action",
         "v2": "reacted",
         "v3": "reacted",
-        "transcription": "riˈækt",
+        "transcription": "ri\u02c8\u00e6kt",
         "group": "regular",
         "auxiliary": "have",
         "v4": "reacting",
@@ -478,9 +478,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A2-VERB-NAT-14",
+        "id": "A2-VERB-NAT-015",
         "word": "recycle",
-        "emoji": "♻️",
+        "emoji": "\u267b\ufe0f",
         "form": "verb",
         "subtext": "recycle paper, recycle bins",
         "definitions": [
@@ -495,7 +495,7 @@
         "aspect": "action",
         "v2": "recycled",
         "v3": "recycled",
-        "transcription": "ˌriːˈsaɪkl",
+        "transcription": "\u02ccri\u02d0\u02c8sa\u026akl",
         "synonyms": [
             "reuse"
         ],

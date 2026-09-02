@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-ADJ-TIM-01",
+        "id": "A1-ADJ-TIM-001",
         "word": "few",
-        "emoji": "🤏",
+        "emoji": "\ud83e\udd0f",
         "form": "adjective",
         "subtext": "a few / very few",
         "synonyms": [
@@ -36,9 +36,9 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A1-ADJ-TIM-02",
+        "id": "A1-ADJ-TIM-002",
         "word": "few",
-        "emoji": "🤏",
+        "emoji": "\ud83e\udd0f",
         "form": "adjective",
         "subtext": "a few / very few",
         "synonyms": [
@@ -70,9 +70,9 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A1-ADJ-TIM-03",
+        "id": "A1-ADJ-TIM-003",
         "word": "first",
-        "emoji": "1️⃣",
+        "emoji": "1\ufe0f\u20e3",
         "form": "adjective",
         "comparative": null,
         "superlative": null,
@@ -85,7 +85,7 @@
             }
         ],
         "subtext": "related to sequence order A2",
-        "transcription": "fərst",
+        "transcription": "f\u0259rst",
         "lang": "en",
         "level": "starter",
         "theme": "numbers",
@@ -101,9 +101,9 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A1-ADJ-TIM-04",
+        "id": "A1-ADJ-TIM-004",
         "word": "many",
-        "emoji": "🔢",
+        "emoji": "\ud83d\udd22",
         "form": "adjective",
         "subtext": "a lot of, numerous / many people / how many?",
         "definitions": [
@@ -116,7 +116,7 @@
         ],
         "comparative": "more",
         "superlative": "the most",
-        "transcription": "ˈmɛni",
+        "transcription": "\u02c8m\u025bni",
         "lang": "en",
         "level": "starter",
         "theme": "numbers",
@@ -132,9 +132,9 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A1-ADJ-TIM-05",
+        "id": "A1-ADJ-TIM-005",
         "word": "many",
-        "emoji": "🔢",
+        "emoji": "\ud83d\udd22",
         "form": "adjective",
         "subtext": "a lot of, numerous / many people / how many?",
         "definitions": [
@@ -147,7 +147,7 @@
         ],
         "comparative": "more",
         "superlative": "the most",
-        "transcription": "ˈmɛni",
+        "transcription": "\u02c8m\u025bni",
         "lang": "en",
         "level": "starter",
         "theme": "numbers",

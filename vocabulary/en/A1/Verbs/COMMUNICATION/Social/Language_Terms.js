@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-COM-01",
+        "id": "A1-VERB-COM-086",
         "word": "again",
-        "emoji": "🔁",
+        "emoji": "\ud83d\udd01",
         "form": "adverb",
         "definitions": [
             {
@@ -15,7 +15,7 @@
             }
         ],
         "subtext": "related to frequency adverbs",
-        "transcription": "əˈgɛn",
+        "transcription": "\u0259\u02c8g\u025bn",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -28,9 +28,9 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A1-VERB-COM-02",
+        "id": "A1-VERB-COM-087",
         "word": "also",
-        "emoji": "➕",
+        "emoji": "\u2795",
         "form": "adverb",
         "definitions": [
             {
@@ -41,7 +41,7 @@
             }
         ],
         "subtext": "related to conjunctions connectors",
-        "transcription": "ˈɔlsoʊ",
+        "transcription": "\u02c8\u0254lso\u028a",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -54,9 +54,9 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A1-VERB-COM-03",
+        "id": "A1-VERB-COM-088",
         "word": "always",
-        "emoji": "♾️",
+        "emoji": "\u267e\ufe0f",
         "form": "adverb",
         "definitions": [
             {
@@ -67,7 +67,7 @@
             }
         ],
         "subtext": "related to frequency adverbs",
-        "transcription": "ˈɔlˌweɪz",
+        "transcription": "\u02c8\u0254l\u02ccwe\u026az",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -83,9 +83,9 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A1-VERB-COM-04",
+        "id": "A1-VERB-COM-089",
         "word": "colour",
-        "emoji": "🖍️",
+        "emoji": "\ud83d\udd8d\ufe0f",
         "form": "verb",
         "subtext": "colour the picture / use colours",
         "synonyms": [
@@ -104,7 +104,7 @@
         "v2": "coloured",
         "v3": "coloured",
         "group": "regular",
-        "transcription": "ˈkələr",
+        "transcription": "\u02c8k\u0259l\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -120,9 +120,9 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A1-VERB-COM-05",
+        "id": "A1-VERB-COM-090",
         "word": "colour",
-        "emoji": "🖍️",
+        "emoji": "\ud83d\udd8d\ufe0f",
         "form": "verb",
         "subtext": "colour the picture / use colours",
         "synonyms": [
@@ -141,7 +141,7 @@
         "v2": "coloured",
         "v3": "coloured",
         "group": "regular",
-        "transcription": "ˈkələr",
+        "transcription": "\u02c8k\u0259l\u0259r",
         "auxiliary": "have",
         "v4": "colouring",
         "lang": "en",
@@ -159,9 +159,9 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A1-VERB-COM-06",
+        "id": "A1-VERB-COM-091",
         "word": "cross",
-        "emoji": "❌",
+        "emoji": "\u274c",
         "form": "verb",
         "subtext": "cross out / cross the answer",
         "synonyms": [
@@ -180,7 +180,7 @@
         "v2": "crossed",
         "v3": "crossed",
         "group": "regular",
-        "transcription": "krɔs",
+        "transcription": "kr\u0254s",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -196,9 +196,9 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A1-VERB-COM-07",
+        "id": "A1-VERB-COM-092",
         "word": "cross",
-        "emoji": "❌",
+        "emoji": "\u274c",
         "form": "verb",
         "subtext": "cross out / cross the answer",
         "synonyms": [
@@ -217,7 +217,7 @@
         "v2": "crossed",
         "v3": "crossed",
         "group": "regular",
-        "transcription": "krɔs",
+        "transcription": "kr\u0254s",
         "auxiliary": "have",
         "v4": "crossing",
         "lang": "en",
@@ -235,11 +235,11 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A1-VERB-COM-08",
+        "id": "A1-VERB-COM-093",
         "word": "explain",
-        "emoji": "🗣️",
+        "emoji": "\ud83d\udde3\ufe0f",
         "form": "verb",
-        "transcription": "ɪkˈspleɪn",
+        "transcription": "\u026ak\u02c8sple\u026an",
         "definitions": [
             {
                 "text": "To make something clear or easy to understand by describing or giving information about it.",
@@ -266,11 +266,11 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A1-VERB-COM-09",
+        "id": "A1-VERB-COM-094",
         "word": "explain",
-        "emoji": "🗣️",
+        "emoji": "\ud83d\udde3\ufe0f",
         "form": "verb",
-        "transcription": "ɪkˈspleɪn",
+        "transcription": "\u026ak\u02c8sple\u026an",
         "definitions": [
             {
                 "text": "To make something clear or easy to understand by describing or giving information about it.",
@@ -299,9 +299,9 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A1-VERB-COM-10",
+        "id": "A1-VERB-COM-095",
         "word": "never",
-        "emoji": "🚫",
+        "emoji": "\ud83d\udeab",
         "form": "adverb",
         "definitions": [
             {
@@ -312,7 +312,7 @@
             }
         ],
         "subtext": "related to frequency adverbs",
-        "transcription": "ˈnɛvər",
+        "transcription": "\u02c8n\u025bv\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -328,9 +328,9 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A1-VERB-COM-11",
+        "id": "A1-VERB-COM-096",
         "word": "often",
-        "emoji": "🔁",
+        "emoji": "\ud83d\udd01",
         "form": "adverb",
         "definitions": [
             {
@@ -341,7 +341,7 @@
             }
         ],
         "subtext": "related to frequency adverbs",
-        "transcription": "ˈɔfən",
+        "transcription": "\u02c8\u0254f\u0259n",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -354,9 +354,9 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A1-VERB-COM-12",
+        "id": "A1-VERB-COM-097",
         "word": "point",
-        "emoji": "☝️",
+        "emoji": "\u261d\ufe0f",
         "form": "verb",
         "subtext": "point at / to, point to / point at",
         "synonyms": [
@@ -376,7 +376,7 @@
         "v2": "pointed",
         "v3": "pointed",
         "group": "regular",
-        "transcription": "pɔɪnt",
+        "transcription": "p\u0254\u026ant",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -392,9 +392,9 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A1-VERB-COM-13",
+        "id": "A1-VERB-COM-098",
         "word": "point",
-        "emoji": "☝️",
+        "emoji": "\u261d\ufe0f",
         "form": "verb",
         "subtext": "point at / to, point to / point at",
         "synonyms": [
@@ -414,7 +414,7 @@
         "v2": "pointed",
         "v3": "pointed",
         "group": "regular",
-        "transcription": "pɔɪnt",
+        "transcription": "p\u0254\u026ant",
         "auxiliary": "have",
         "v4": "pointing",
         "lang": "en",
@@ -432,9 +432,9 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A1-VERB-COM-14",
+        "id": "A1-VERB-COM-099",
         "word": "repeat",
-        "emoji": "🔁",
+        "emoji": "\ud83d\udd01",
         "subtext": "repeat that / repeat yourself / repeat an order",
         "form": "verb",
         "definitions": [
@@ -451,7 +451,7 @@
         "v2": "repeated",
         "v3": "repeated",
         "group": "regular",
-        "transcription": "rɪˈpit",
+        "transcription": "r\u026a\u02c8pit",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -467,9 +467,9 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A1-VERB-COM-15",
+        "id": "A1-VERB-COM-100",
         "word": "repeat",
-        "emoji": "🔁",
+        "emoji": "\ud83d\udd01",
         "subtext": "repeat that / repeat yourself / repeat an order",
         "form": "verb",
         "definitions": [
@@ -486,7 +486,7 @@
         "v2": "repeated",
         "v3": "repeated",
         "group": "regular",
-        "transcription": "rɪˈpit",
+        "transcription": "r\u026a\u02c8pit",
         "synonyms": [
             "say again"
         ],
@@ -507,9 +507,9 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A1-VERB-COM-16",
+        "id": "A1-VERB-COM-101",
         "word": "shout",
-        "emoji": "📢",
+        "emoji": "\ud83d\udce2",
         "form": "verb",
         "subtext": "shout at / don't shout",
         "synonyms": [
@@ -528,7 +528,7 @@
         "v2": "shouted",
         "v3": "shouted",
         "group": "regular",
-        "transcription": "ʃaʊt",
+        "transcription": "\u0283a\u028at",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -544,9 +544,9 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A1-VERB-COM-17",
+        "id": "A1-VERB-COM-102",
         "word": "shout",
-        "emoji": "📢",
+        "emoji": "\ud83d\udce2",
         "form": "verb",
         "subtext": "shout at / don't shout",
         "synonyms": [
@@ -565,7 +565,7 @@
         "v2": "shouted",
         "v3": "shouted",
         "group": "regular",
-        "transcription": "ʃaʊt",
+        "transcription": "\u0283a\u028at",
         "auxiliary": "have",
         "v4": "shouting",
         "lang": "en",
@@ -583,9 +583,9 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A1-VERB-COM-18",
+        "id": "A1-VERB-COM-103",
         "word": "sometimes",
-        "emoji": "⏱️",
+        "emoji": "\u23f1\ufe0f",
         "form": "adverb",
         "definitions": [
             {
@@ -596,7 +596,7 @@
             }
         ],
         "subtext": "related to frequency adverbs",
-        "transcription": "ˈsəmˌtaɪmz",
+        "transcription": "\u02c8s\u0259m\u02ccta\u026amz",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -609,9 +609,9 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A1-VERB-COM-19",
+        "id": "A1-VERB-COM-104",
         "word": "spell",
-        "emoji": "🔤",
+        "emoji": "\ud83d\udd24",
         "form": "verb",
         "subtext": "spell your name / spell correctly",
         "synonyms": [
@@ -630,7 +630,7 @@
         "v2": "spelled / spelt",
         "v3": "spelled / spelt",
         "group": "irregular",
-        "transcription": "spɛl",
+        "transcription": "sp\u025bl",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -646,9 +646,9 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A1-VERB-COM-20",
+        "id": "A1-VERB-COM-105",
         "word": "spell",
-        "emoji": "🔤",
+        "emoji": "\ud83d\udd24",
         "form": "verb",
         "subtext": "spell your name / spell correctly",
         "synonyms": [
@@ -667,7 +667,7 @@
         "v2": "spelled / spelt",
         "v3": "spelled / spelt",
         "group": "regular",
-        "transcription": "spɛl",
+        "transcription": "sp\u025bl",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -684,9 +684,9 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A1-VERB-COM-21",
+        "id": "A1-VERB-COM-106",
         "word": "tick",
-        "emoji": "✅",
+        "emoji": "\u2705",
         "form": "verb",
         "subtext": "tick the box / tick correctly",
         "synonyms": [
@@ -694,7 +694,7 @@
         ],
         "definitions": [
             {
-                "text": "To put a mark (✓) next to something to show it is correct.",
+                "text": "To put a mark (\u2713) next to something to show it is correct.",
                 "examples": [
                     "Tick the correct answer."
                 ]
@@ -705,7 +705,7 @@
         "v2": "ticked",
         "v3": "ticked",
         "group": "regular",
-        "transcription": "tɪk",
+        "transcription": "t\u026ak",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -721,9 +721,9 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A1-VERB-COM-22",
+        "id": "A1-VERB-COM-107",
         "word": "tick",
-        "emoji": "✅",
+        "emoji": "\u2705",
         "form": "verb",
         "subtext": "tick the box / tick correctly",
         "synonyms": [
@@ -731,7 +731,7 @@
         ],
         "definitions": [
             {
-                "text": "To put a mark (✓) next to something to show it is correct.",
+                "text": "To put a mark (\u2713) next to something to show it is correct.",
                 "examples": [
                     "Tick the correct answer."
                 ]
@@ -742,7 +742,7 @@
         "v2": "ticked",
         "v3": "ticked",
         "group": "regular",
-        "transcription": "tɪk",
+        "transcription": "t\u026ak",
         "auxiliary": "have",
         "v4": "ticking",
         "lang": "en",
@@ -760,9 +760,9 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A1-VERB-COM-23",
+        "id": "A1-VERB-COM-108",
         "word": "usually",
-        "emoji": "🔄",
+        "emoji": "\ud83d\udd04",
         "form": "adverb",
         "definitions": [
             {
@@ -773,7 +773,7 @@
             }
         ],
         "subtext": "related to frequency adverbs",
-        "transcription": "ˈjuʒəwəli",
+        "transcription": "\u02c8ju\u0292\u0259w\u0259li",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -786,9 +786,9 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A1-VERB-COM-24",
+        "id": "A1-VERB-COM-109",
         "word": "whisper",
-        "emoji": "🤫",
+        "emoji": "\ud83e\udd2b",
         "form": "verb",
         "subtext": "whisper a secret",
         "synonyms": [
@@ -808,7 +808,7 @@
         "v2": "whispered",
         "v3": "whispered",
         "group": "regular",
-        "transcription": "ˈwɪspər",
+        "transcription": "\u02c8w\u026asp\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -824,9 +824,9 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A1-VERB-COM-25",
+        "id": "A1-VERB-COM-110",
         "word": "whisper",
-        "emoji": "🤫",
+        "emoji": "\ud83e\udd2b",
         "form": "verb",
         "subtext": "whisper a secret",
         "synonyms": [
@@ -846,7 +846,7 @@
         "v2": "whispered",
         "v3": "whispered",
         "group": "regular",
-        "transcription": "ˈwɪspər",
+        "transcription": "\u02c8w\u026asp\u0259r",
         "auxiliary": "have",
         "v4": "whispering",
         "lang": "en",

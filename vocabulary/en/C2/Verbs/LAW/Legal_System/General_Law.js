@@ -2,10 +2,10 @@
     const lang = "en";
     const data = [
     {
-        "id": "C2-VERB-LAW-01",
+        "id": "C2-VERB-LAW-001",
         "word": "accentuate",
-        "emoji": "💡",
-        "transcription": "əkˈsentʃueɪt",
+        "emoji": "\ud83d\udca1",
+        "transcription": "\u0259k\u02c8sent\u0283ue\u026at",
         "subtext": "accentuate a difference / accentuate the positive / be accentuated by",
         "form": "verb",
         "definitions": [
@@ -35,12 +35,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-VERB-LAW-02",
+        "id": "C2-VERB-LAW-002",
         "word": "conflate",
-        "emoji": "🔔",
+        "emoji": "\ud83d\udd14",
         "subtext": "conflate issues / conflate with / dangerously conflate",
         "form": "verb",
-        "transcription": "kənˈfleɪt",
+        "transcription": "k\u0259n\u02c8fle\u026at",
         "definitions": [
             {
                 "text": "To combine two distinct things as if they were the same.",
@@ -68,10 +68,10 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-VERB-LAW-03",
+        "id": "C2-VERB-LAW-003",
         "word": "deconstruct",
-        "emoji": "🏚️",
-        "transcription": "ˌdiːkənˈstrʌkt",
+        "emoji": "\ud83c\udfda\ufe0f",
+        "transcription": "\u02ccdi\u02d0k\u0259n\u02c8str\u028ckt",
         "subtext": "deconstruct an argument / deconstruct a text / Derridean deconstruction",
         "form": "verb",
         "definitions": [
@@ -101,10 +101,10 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-VERB-LAW-04",
+        "id": "C2-VERB-LAW-004",
         "word": "delimit",
-        "emoji": "🚧",
-        "transcription": "diːˈlɪmɪt",
+        "emoji": "\ud83d\udea7",
+        "transcription": "di\u02d0\u02c8l\u026am\u026at",
         "subtext": "delimit the scope / delimit a concept / carefully delimited",
         "form": "verb",
         "definitions": [
@@ -134,10 +134,10 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-VERB-LAW-05",
+        "id": "C2-VERB-LAW-005",
         "word": "demarcate",
-        "emoji": "📏",
-        "transcription": "ˈdiːmɑːkeɪt",
+        "emoji": "\ud83d\udccf",
+        "transcription": "\u02c8di\u02d0m\u0251\u02d0ke\u026at",
         "subtext": "demarcate a boundary / clearly demarcate / demarcation line",
         "form": "verb",
         "definitions": [
@@ -167,10 +167,10 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-VERB-LAW-06",
+        "id": "C2-VERB-LAW-006",
         "word": "dialecticise",
-        "emoji": "☯️",
-        "transcription": "ˌdaɪəˈlektɪsaɪz",
+        "emoji": "\u262f\ufe0f",
+        "transcription": "\u02ccda\u026a\u0259\u02c8lekt\u026asa\u026az",
         "subtext": "dialecticise a binary / dialectical method / thesis and antithesis",
         "form": "verb",
         "definitions": [
@@ -200,10 +200,10 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-VERB-LAW-07",
+        "id": "C2-VERB-LAW-007",
         "word": "disseminate",
-        "emoji": "📢",
-        "transcription": "dɪˈsemɪneɪt",
+        "emoji": "\ud83d\udce2",
+        "transcription": "d\u026a\u02c8sem\u026ane\u026at",
         "subtext": "disseminate information / disseminate findings / widely disseminated",
         "form": "verb",
         "definitions": [
@@ -233,12 +233,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-VERB-LAW-08",
+        "id": "C2-VERB-LAW-008",
         "word": "elide",
-        "emoji": "✂️",
+        "emoji": "\u2702\ufe0f",
         "subtext": "elide a distinction / elide the difference / deliberately elide",
         "form": "verb",
-        "transcription": "ɪˈlaɪd",
+        "transcription": "\u026a\u02c8la\u026ad",
         "definitions": [
             {
                 "text": "To merge or omit something, especially a crucial distinction.",
@@ -266,10 +266,10 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-VERB-LAW-09",
+        "id": "C2-VERB-LAW-009",
         "word": "encapsulate",
-        "emoji": "💊",
-        "transcription": "ɪnˈkæpsjuleɪt",
+        "emoji": "\ud83d\udc8a",
+        "transcription": "\u026an\u02c8k\u00e6psjule\u026at",
         "subtext": "encapsulate an idea / encapsulate the problem / neatly encapsulate",
         "form": "verb",
         "definitions": [
@@ -299,10 +299,10 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-VERB-LAW-10",
+        "id": "C2-VERB-LAW-010",
         "word": "exemplify",
-        "emoji": "🌟",
-        "transcription": "ɪɡˈzemplɪfaɪ",
+        "emoji": "\ud83c\udf1f",
+        "transcription": "\u026a\u0261\u02c8zempl\u026afa\u026a",
         "subtext": "exemplify something / exemplify the problem / clearly exemplify",
         "form": "verb",
         "definitions": [
@@ -332,10 +332,10 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-VERB-LAW-11",
+        "id": "C2-VERB-LAW-011",
         "word": "foreclose",
-        "emoji": "🚪",
-        "transcription": "fɔːˈkləʊz",
+        "emoji": "\ud83d\udeaa",
+        "transcription": "f\u0254\u02d0\u02c8kl\u0259\u028az",
         "subtext": "foreclose an option / foreclose debate / foreclose the possibility of",
         "form": "verb",
         "definitions": [
@@ -365,12 +365,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-VERB-LAW-12",
+        "id": "C2-VERB-LAW-012",
         "word": "foreground",
-        "emoji": "🔦",
+        "emoji": "\ud83d\udd26",
         "subtext": "foreground an issue / foreground a perspective / deliberately foreground",
         "form": "verb",
-        "transcription": "ˈfɔːɡraʊnd",
+        "transcription": "\u02c8f\u0254\u02d0\u0261ra\u028and",
         "definitions": [
             {
                 "text": "To make something the most prominent or important element.",
@@ -398,10 +398,10 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-VERB-LAW-13",
+        "id": "C2-VERB-LAW-013",
         "word": "gloss over",
-        "emoji": "🎨",
-        "transcription": "ɡlɒs ˈəʊvə",
+        "emoji": "\ud83c\udfa8",
+        "transcription": "\u0261l\u0252s \u02c8\u0259\u028av\u0259",
         "subtext": "gloss over a problem / gloss over the details / not gloss over",
         "form": "verb",
         "definitions": [
@@ -431,10 +431,10 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-VERB-LAW-14",
+        "id": "C2-VERB-LAW-014",
         "word": "grapple with",
-        "emoji": "🤼",
-        "transcription": "ˈɡræpl wɪð",
+        "emoji": "\ud83e\udd3c",
+        "transcription": "\u02c8\u0261r\u00e6pl w\u026a\u00f0",
         "subtext": "grapple with a problem / grapple with the implications / grapple with complexity",
         "form": "verb",
         "definitions": [
@@ -464,10 +464,10 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-VERB-LAW-15",
+        "id": "C2-VERB-LAW-015",
         "word": "hinge on",
-        "emoji": "🚪",
-        "transcription": "hɪndʒ ɒn",
+        "emoji": "\ud83d\udeaa",
+        "transcription": "h\u026and\u0292 \u0252n",
         "subtext": "hinge on a decision / hinge on a single factor / everything hinges on",
         "form": "verb",
         "definitions": [
@@ -497,12 +497,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-VERB-LAW-16",
+        "id": "C2-VERB-LAW-016",
         "word": "instantiate",
-        "emoji": "🧱",
+        "emoji": "\ud83e\uddf1",
         "subtext": "instantiate a concept / instantiate in practice / concrete instantiation",
         "form": "verb",
-        "transcription": "ɪnˈstænʃieɪt",
+        "transcription": "\u026an\u02c8st\u00e6n\u0283ie\u026at",
         "definitions": [
             {
                 "text": "To represent an abstract concept in a concrete example.",
@@ -530,12 +530,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-VERB-LAW-17",
+        "id": "C2-VERB-LAW-017",
         "word": "mediate",
-        "emoji": "⚖️",
+        "emoji": "\u2696\ufe0f",
         "subtext": "mediate between / mediate a conflict / socially mediated",
         "form": "verb",
-        "transcription": "ˈmiːdieɪt",
+        "transcription": "\u02c8mi\u02d0die\u026at",
         "definitions": [
             {
                 "text": "To act as an intermediary between two things or people; to modify a relationship.",
@@ -563,12 +563,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-VERB-LAW-18",
+        "id": "C2-VERB-LAW-018",
         "word": "negate",
-        "emoji": "🚫",
+        "emoji": "\ud83d\udeab",
         "subtext": "negate an argument / negate a right / dialectical negation",
         "form": "verb",
-        "transcription": "nɪˈɡeɪt",
+        "transcription": "n\u026a\u02c8\u0261e\u026at",
         "definitions": [
             {
                 "text": "To make something ineffective or reverse its effect.",
@@ -596,12 +596,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-VERB-LAW-19",
+        "id": "C2-VERB-LAW-019",
         "word": "obfuscate",
-        "emoji": "🌫️",
+        "emoji": "\ud83c\udf2b\ufe0f",
         "subtext": "obfuscate the truth / deliberate obfuscation / obfuscate with jargon",
         "form": "verb",
-        "transcription": "ˈɒbfʌskeɪt",
+        "transcription": "\u02c8\u0252bf\u028cske\u026at",
         "definitions": [
             {
                 "text": "To make something unclear or difficult to understand deliberately.",
@@ -629,10 +629,10 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-VERB-LAW-20",
+        "id": "C2-VERB-LAW-020",
         "word": "paper over",
-        "emoji": "📄",
-        "transcription": "ˈpeɪpə ˈəʊvə",
+        "emoji": "\ud83d\udcc4",
+        "transcription": "\u02c8pe\u026ap\u0259 \u02c8\u0259\u028av\u0259",
         "subtext": "paper over a problem / paper over cracks / paper over differences",
         "form": "verb",
         "definitions": [
@@ -662,10 +662,10 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-VERB-LAW-21",
+        "id": "C2-VERB-LAW-021",
         "word": "paradigm shift",
-        "emoji": "🔄",
-        "transcription": "ˈpærədaɪm ʃɪft",
+        "emoji": "\ud83d\udd04",
+        "transcription": "\u02c8p\u00e6r\u0259da\u026am \u0283\u026aft",
         "subtext": "a paradigm shift / shift the paradigm / fundamental paradigm shift",
         "form": "verb",
         "definitions": [
@@ -695,10 +695,10 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-VERB-LAW-22",
+        "id": "C2-VERB-LAW-022",
         "word": "preclude",
-        "emoji": "🚫",
-        "transcription": "prɪˈkluːd",
+        "emoji": "\ud83d\udeab",
+        "transcription": "pr\u026a\u02c8klu\u02d0d",
         "subtext": "preclude someone from / preclude the possibility / not preclude",
         "form": "verb",
         "definitions": [
@@ -728,10 +728,10 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-VERB-LAW-23",
+        "id": "C2-VERB-LAW-023",
         "word": "problematise",
-        "emoji": "❓",
-        "transcription": "ˈprɒbləmətaɪz",
+        "emoji": "\u2753",
+        "transcription": "\u02c8pr\u0252bl\u0259m\u0259ta\u026az",
         "subtext": "problematise a concept / resist the urge to problematise / critically problematise",
         "form": "verb",
         "definitions": [
@@ -761,10 +761,10 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-VERB-LAW-24",
+        "id": "C2-VERB-LAW-024",
         "word": "reconcile",
-        "emoji": "🤝",
-        "transcription": "ˈrekənsaɪl",
+        "emoji": "\ud83e\udd1d",
+        "transcription": "\u02c8rek\u0259nsa\u026al",
         "subtext": "reconcile ideas / hard to reconcile / reconcile differences",
         "form": "verb",
         "definitions": [
@@ -794,12 +794,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-VERB-LAW-25",
+        "id": "C2-VERB-LAW-025",
         "word": "reify",
-        "emoji": "🗿",
+        "emoji": "\ud83d\uddff",
         "subtext": "reify a concept / reify the market / reification of labour",
         "form": "verb",
-        "transcription": "ˈreɪɪfaɪ",
+        "transcription": "\u02c8re\u026a\u026afa\u026a",
         "definitions": [
             {
                 "text": "To treat an abstract concept as if it were a concrete, real thing.",
@@ -827,12 +827,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-VERB-LAW-26",
+        "id": "C2-VERB-LAW-026",
         "word": "sublimate",
-        "emoji": "🌫️",
+        "emoji": "\ud83c\udf2b\ufe0f",
         "subtext": "sublimate desire / sublimation of impulse / redirect into",
         "form": "verb",
-        "transcription": "ˈsʌblɪmeɪt",
+        "transcription": "\u02c8s\u028cbl\u026ame\u026at",
         "definitions": [
             {
                 "text": "To redirect a desire or impulse into a socially acceptable form.",
@@ -860,10 +860,10 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-VERB-LAW-27",
+        "id": "C2-VERB-LAW-027",
         "word": "subsume",
-        "emoji": "📂",
-        "transcription": "səbˈsjuːm",
+        "emoji": "\ud83d\udcc2",
+        "transcription": "s\u0259b\u02c8sju\u02d0m",
         "subtext": "subsume under / be subsumed by / subsume into a category",
         "form": "verb",
         "definitions": [
@@ -893,12 +893,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-VERB-LAW-28",
+        "id": "C2-VERB-LAW-028",
         "word": "transcend",
-        "emoji": "🌌",
+        "emoji": "\ud83c\udf0c",
         "subtext": "transcend limits / transcend categories / transcend the personal",
         "form": "verb",
-        "transcription": "trænˈsend",
+        "transcription": "tr\u00e6n\u02c8send",
         "definitions": [
             {
                 "text": "To go beyond the limits of something.",
@@ -926,10 +926,10 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-VERB-LAW-29",
+        "id": "C2-VERB-LAW-029",
         "word": "underpin",
-        "emoji": "🏗️",
-        "transcription": "ˌʌndəˈpɪn",
+        "emoji": "\ud83c\udfd7\ufe0f",
+        "transcription": "\u02cc\u028cnd\u0259\u02c8p\u026an",
         "subtext": "underpin an argument / underpin success / be underpinned by",
         "form": "verb",
         "definitions": [
@@ -959,10 +959,10 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-VERB-LAW-30",
+        "id": "C2-VERB-LAW-030",
         "word": "unpack",
-        "emoji": "📦",
-        "transcription": "ˌʌnˈpæk",
+        "emoji": "\ud83d\udce6",
+        "transcription": "\u02cc\u028cn\u02c8p\u00e6k",
         "subtext": "unpack an assumption / unpack the implications / carefully unpack",
         "form": "verb",
         "definitions": [

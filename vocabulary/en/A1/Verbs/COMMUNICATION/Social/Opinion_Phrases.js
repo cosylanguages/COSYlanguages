@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-COM-01",
+        "id": "A1-VERB-COM-111",
         "word": "agree",
-        "emoji": "👍",
+        "emoji": "\ud83d\udc4d",
         "subtext": "agree with someone / agree to do / agree on / I agree",
         "form": "verb",
         "definitions": [
@@ -21,7 +21,7 @@
         "v2": "agreed",
         "v3": "agreed",
         "group": "regular",
-        "transcription": "əˈgri",
+        "transcription": "\u0259\u02c8gri",
         "auxiliary": "have",
         "v4": "agreeing",
         "lang": "en",
@@ -39,9 +39,9 @@
         "sub_subcategory": "Opinion_Phrases"
     },
     {
-        "id": "A1-VERB-COM-02",
+        "id": "A1-VERB-COM-112",
         "word": "believe",
-        "emoji": "🙏",
+        "emoji": "\ud83d\ude4f",
         "form": "verb",
         "subtext": "believe in / I believe so",
         "synonyms": [
@@ -61,7 +61,7 @@
         "v2": "believed",
         "v3": "believed",
         "group": "regular",
-        "transcription": "bɪˈliv",
+        "transcription": "b\u026a\u02c8liv",
         "auxiliary": "have",
         "v4": "believing",
         "lang": "en",
@@ -79,11 +79,11 @@
         "sub_subcategory": "Opinion_Phrases"
     },
     {
-        "id": "A1-VERB-COM-03",
+        "id": "A1-VERB-COM-113",
         "word": "can",
-        "emoji": "💪",
+        "emoji": "\ud83d\udcaa",
         "form": "verb",
-        "transcription": "kæn",
+        "transcription": "k\u00e6n",
         "definitions": [
             {
                 "text": "To be able to do something.",
@@ -112,9 +112,9 @@
         "sub_subcategory": "Opinion_Phrases"
     },
     {
-        "id": "A1-VERB-COM-04",
+        "id": "A1-VERB-COM-114",
         "word": "choose",
-        "emoji": "👉",
+        "emoji": "\ud83d\udc49",
         "subtext": "choose between / choose to do / choose carefully / choose a career",
         "form": "verb",
         "definitions": [
@@ -130,7 +130,7 @@
         "v2": "chose",
         "v3": "chosen",
         "group": "regular",
-        "transcription": "ʧuz",
+        "transcription": "\u02a7uz",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -147,9 +147,9 @@
         "sub_subcategory": "Opinion_Phrases"
     },
     {
-        "id": "A1-VERB-COM-05",
+        "id": "A1-VERB-COM-115",
         "word": "decide",
-        "emoji": "⚖️",
+        "emoji": "\u2696\ufe0f",
         "subtext": "decide to do / decide on / hard to decide",
         "synonyms": [
             "make a decision"
@@ -169,7 +169,7 @@
         "v2": "decided",
         "v3": "decided",
         "group": "regular",
-        "transcription": "ˌdɪˈsaɪd",
+        "transcription": "\u02ccd\u026a\u02c8sa\u026ad",
         "auxiliary": "have",
         "v4": "deciding",
         "lang": "en",
@@ -187,11 +187,11 @@
         "sub_subcategory": "Opinion_Phrases"
     },
     {
-        "id": "A1-VERB-COM-06",
+        "id": "A1-VERB-COM-116",
         "word": "depend",
-        "emoji": "⚖️",
+        "emoji": "\u2696\ufe0f",
         "form": "verb",
-        "transcription": "dɪˈpend",
+        "transcription": "d\u026a\u02c8pend",
         "definitions": [
             {
                 "text": "To be decided by or to change according to something else.",
@@ -220,9 +220,9 @@
         "sub_subcategory": "Opinion_Phrases"
     },
     {
-        "id": "A1-VERB-COM-07",
+        "id": "A1-VERB-COM-117",
         "word": "describe",
-        "emoji": "💬",
+        "emoji": "\ud83d\udcac",
         "form": "verb",
         "subtext": "describe something / describe a person",
         "definitions": [
@@ -238,7 +238,7 @@
         "v2": "described",
         "v3": "described",
         "group": "regular",
-        "transcription": "dɪˈskraɪb",
+        "transcription": "d\u026a\u02c8skra\u026ab",
         "auxiliary": "have",
         "v4": "describing",
         "lang": "en",
@@ -256,9 +256,9 @@
         "sub_subcategory": "Opinion_Phrases"
     },
     {
-        "id": "A1-VERB-COM-08",
+        "id": "A1-VERB-COM-118",
         "word": "let",
-        "emoji": "🔓",
+        "emoji": "\ud83d\udd13",
         "subtext": "let someone go / let it be / let someone know",
         "form": "verb",
         "definitions": [
@@ -275,7 +275,7 @@
         "v2": "let",
         "v3": "let",
         "group": "regular",
-        "transcription": "lɛt",
+        "transcription": "l\u025bt",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -289,11 +289,11 @@
         "sub_subcategory": "Opinion_Phrases"
     },
     {
-        "id": "A1-VERB-COM-09",
+        "id": "A1-VERB-COM-119",
         "word": "must",
-        "emoji": "⚠️",
+        "emoji": "\u26a0\ufe0f",
         "form": "verb",
-        "transcription": "mʌst",
+        "transcription": "m\u028cst",
         "definitions": [
             {
                 "text": "Used to say that something is necessary or very important.",
@@ -322,9 +322,9 @@
         "sub_subcategory": "Opinion_Phrases"
     },
     {
-        "id": "A1-VERB-COM-10",
+        "id": "A1-VERB-COM-120",
         "word": "prefer",
-        "emoji": "👉",
+        "emoji": "\ud83d\udc49",
         "form": "verb",
         "subtext": "like better / prefer tea to coffee",
         "definitions": [
@@ -340,7 +340,7 @@
         "v2": "preferred",
         "v3": "preferred",
         "group": "regular",
-        "transcription": "prɪˈfər",
+        "transcription": "pr\u026a\u02c8f\u0259r",
         "auxiliary": "have",
         "v4": "prefering",
         "lang": "en",
@@ -358,9 +358,9 @@
         "sub_subcategory": "Opinion_Phrases"
     },
     {
-        "id": "A1-VERB-COM-11",
+        "id": "A1-VERB-COM-121",
         "word": "sound",
-        "emoji": "👂",
+        "emoji": "\ud83d\udc42",
         "form": "verb",
         "subtext": "sound like / sound good",
         "synonyms": [
@@ -379,7 +379,7 @@
         "v2": "sounded",
         "v3": "sounded",
         "group": "regular",
-        "transcription": "saʊnd",
+        "transcription": "sa\u028and",
         "auxiliary": "have",
         "v4": "sounding",
         "lang": "en",
@@ -397,9 +397,9 @@
         "sub_subcategory": "Opinion_Phrases"
     },
     {
-        "id": "A1-VERB-COM-12",
+        "id": "A1-VERB-COM-122",
         "word": "think",
-        "emoji": "💭",
+        "emoji": "\ud83d\udcad",
         "subtext": "think about someone/something / think about / of, think about / think of / think it is / think carefully",
         "form": "verb",
         "definitions": [
@@ -416,7 +416,7 @@
         "v2": "thought",
         "v3": "thought",
         "group": "regular",
-        "transcription": "θɪŋk",
+        "transcription": "\u03b8\u026a\u014bk",
         "synonyms": [
             "believe"
         ],
