@@ -89,11 +89,11 @@
         <span>🎓</span>
         <span data-translate-key="hero_teacher_note">Our teachers aren't just teachers; we're active language learners ourselves. We know exactly what it feels like to struggle, progress and finally feel fluent.</span>
       </div>
-      <div class="hero-ctas" style="flex-wrap: wrap;">
+      <div class="hero-ctas" style="flex-wrap: wrap; align-items: center; gap: 0.85rem;">
         <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20COSYlanguages." class="btn-primary" data-translate-key="hero_cta_wa" data-i18n="button.bookNow">Chat on WhatsApp</a>
-        <a href="placement-quiz.html" class="btn-secondary">📝 Placement Quiz</a>
         <a href="#courses" class="btn-secondary" data-translate-key="hero_cta_courses" data-i18n="button.exploreTypes">Explore courses →</a>
-        <button onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal((window.t ? window.t('pin_title') : 'Add to Home Screen'), (window.t ? window.t('pin_home_desc') : 'Add COSYlanguages for instant access.'), url)" class="btn-secondary" aria-label="Pin to Home Screen" data-i18n="button.pinToHome">📲 Pin to Home</button>
+        <a href="placement-quiz.html" class="btn-tertiary" style="font-size: 0.88rem; text-decoration: underline; padding: 0.5rem 0.8rem;">📝 Placement Quiz</a>
+        <button onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal((window.t ? window.t('pin_title') : 'Add to Home Screen'), (window.t ? window.t('pin_home_desc') : 'Add COSYlanguages for instant access.'), url)" class="btn-tertiary" style="font-size: 0.88rem; border: none; background: none; text-decoration: underline; cursor: pointer; padding: 0.5rem 0.8rem;" aria-label="Pin to Home Screen" data-i18n="button.pinToHome">📲 Pin to Home</button>
       </div>
     </div>
 
@@ -247,22 +247,8 @@
     <div class="tool-card reveal">
       <div class="tool-free-label">📲 Offline Reference Apps</div>
       <h3>Conjugation &amp; Gender Engines 🔎</h3>
-      <p>Search any verb or noun to check conjugations, tenses, genders, and case declensions with pattern-recognition color coding and game practice.</p>
-      <div class="tool-pills" style="margin-bottom: 1rem;">
-        <a href="apps/en-verb-prep/" class="tool-pill" style="text-decoration:none;">🇬🇧 EN Prepositions</a>
-        <a href="apps/fr-conjugeur/" class="tool-pill" style="text-decoration:none;">🇫🇷 FR Conjugeur</a>
-        <a href="apps/fr-genre/" class="tool-pill" style="text-decoration:none;">🇫🇷 FR Genre</a>
-        <a href="apps/fr-regime/" class="tool-pill" style="text-decoration:none;">🇫🇷 FR Régime</a>
-        <a href="apps/it-coniugatore/" class="tool-pill" style="text-decoration:none;">🇮🇹 IT Coniugatore</a>
-        <a href="apps/it-genere/" class="tool-pill" style="text-decoration:none;">🇮🇹 IT Genere</a>
-        <a href="apps/it-reggenza/" class="tool-pill" style="text-decoration:none;">🇮🇹 IT Reggenza</a>
-        <a href="apps/ru-spryazhenie/" class="tool-pill" style="text-decoration:none;">🇷🇺 RU Спряжение</a>
-        <a href="apps/ru-rod-padezhi/" class="tool-pill" style="text-decoration:none;">🇷🇺 RU Род &amp; Падежи</a>
-        <a href="apps/el-klisi-rimaton/" class="tool-pill" style="text-decoration:none;">🇬🇷 EL Κλίση</a>
-        <a href="apps/el-genos-ptoseis/" class="tool-pill" style="text-decoration:none;">🇬🇷 EL Γένος &amp; Πτώσεις</a>
-        <a href="apps/el-syntaxi/" class="tool-pill" style="text-decoration:none;">🇬🇷 EL Σύνταξη</a>
-      </div>
-      <a href="apps/index.html" class="tool-link">Explore all 12 engines →</a>
+      <p>12 offline reference apps across English, French, Italian, Russian, and Greek for conjugations, genders, and prepositional regimes.</p>
+      <a href="apps/index.html" class="tool-link" style="margin-top: 1rem;">Explore all 12 engines →</a>
     </div>
   </div>
 
@@ -281,77 +267,83 @@
   <h2 class="sec-h2" data-translate-key="sec_h2_pricing">What does it cost?</h2>
   <p class="sec-p" data-translate-key="sec_p_pricing">See exactly what you'll pay. No hidden fees.</p>
 
-  <div class="calc-card reveal">
-    <!-- Compact Inline Chips Bar with embedded selects -->
-    <div class="calc-configurator">
-      <div class="calc-chips-bar" id="calc-chips-bar" aria-label="Price Calculator Configuration">
-        <div class="calc-chip-item">
-          <span class="chip-lbl">Language:</span>
-          <select id="calc-lang" onchange="calcPrice()" class="calc-chip-select">
-            <option value="en" data-translate-key="english">English 🇬🇧</option>
-            <option value="fr" data-translate-key="french">Français 🇫🇷</option>
-            <option value="it" data-translate-key="italian">Italiano 🇮🇹</option>
-            <option value="ru" data-translate-key="russian">Русский 🇷🇺</option>
-            <option value="el" data-translate-key="greek">Ελληνικά 🇬🇷</option>
-          </select>
-        </div>
+  <details class="calc-details reveal" style="max-width: 860px; margin: 0 auto; background: var(--warm-white); border: 1.5px solid var(--border); border-radius: var(--r-xl, 24px); box-shadow: var(--shadow-sm); overflow: hidden;">
+    <summary style="padding: 1.25rem 1.75rem; font-weight: 800; font-size: 1.1rem; cursor: pointer; color: var(--sage-deep); display: flex; align-items: center; justify-content: space-between; user-select: none;">
+      <span>🧮 Interactive Price Calculator</span>
+      <span style="font-size: 0.88rem; color: var(--sage); text-decoration: underline;">See what it costs →</span>
+    </summary>
+    <div class="calc-card" style="border: none; border-top: 1px solid var(--border); border-radius: 0; box-shadow: none; margin-top: 0; padding: 1.75rem 1.5rem;">
+      <!-- Compact Inline Chips Bar with embedded selects -->
+      <div class="calc-configurator">
+        <div class="calc-chips-bar" id="calc-chips-bar" aria-label="Price Calculator Configuration">
+          <div class="calc-chip-item">
+            <span class="chip-lbl">Language:</span>
+            <select id="calc-lang" onchange="calcPrice()" class="calc-chip-select">
+              <option value="en" data-translate-key="english">English 🇬🇧</option>
+              <option value="fr" data-translate-key="french">Français 🇫🇷</option>
+              <option value="it" data-translate-key="italian">Italiano 🇮🇹</option>
+              <option value="ru" data-translate-key="russian">Русский 🇷🇺</option>
+              <option value="el" data-translate-key="greek">Ελληνικά 🇬🇷</option>
+            </select>
+          </div>
 
-        <div class="calc-chip-item">
-          <span class="chip-lbl">Course:</span>
-          <select id="calc-type" onchange="calcPrice()" class="calc-chip-select">
-            <option value="general" selected data-translate-key="course_general">General Course 📖</option>
-            <option value="spoken" data-translate-key="course_spoken">Spoken Course 🗣️</option>
-            <option value="exam" data-translate-key="course_exam">Exam Preparation 📝</option>
-            <option value="travelling" data-translate-key="course_travelling">Travelling Course ✈️</option>
-            <option value="professional" data-translate-key="course_professional">Professional Course 💼</option>
-            <option value="relocation" data-translate-key="course_relocation">Relocation Course 🏡</option>
-            <option value="group" data-translate-key="calc_course_group">Group Lessons 👥</option>
-          </select>
-        </div>
+          <div class="calc-chip-item">
+            <span class="chip-lbl">Course:</span>
+            <select id="calc-type" onchange="calcPrice()" class="calc-chip-select">
+              <option value="general" selected data-translate-key="course_general">General Course 📖</option>
+              <option value="spoken" data-translate-key="course_spoken">Spoken Course 🗣️</option>
+              <option value="exam" data-translate-key="course_exam">Exam Preparation 📝</option>
+              <option value="travelling" data-translate-key="course_travelling">Travelling Course ✈️</option>
+              <option value="professional" data-translate-key="course_professional">Professional Course 💼</option>
+              <option value="relocation" data-translate-key="course_relocation">Relocation Course 🏡</option>
+              <option value="group" data-translate-key="calc_course_group">Group Lessons 👥</option>
+            </select>
+          </div>
 
-        <div class="calc-chip-item" id="dur-field">
-          <span class="chip-lbl">Duration:</span>
-          <select id="calc-dur" onchange="calcPrice()" class="calc-chip-select">
-            <option value="15">15 min</option>
-            <option value="30">30 min</option>
-            <option value="60" selected>60 min</option>
-            <option value="90">90 min</option>
-            <option value="120">120 min</option>
-          </select>
-        </div>
+          <div class="calc-chip-item" id="dur-field">
+            <span class="chip-lbl">Duration:</span>
+            <select id="calc-dur" onchange="calcPrice()" class="calc-chip-select">
+              <option value="15">15 min</option>
+              <option value="30">30 min</option>
+              <option value="60" selected>60 min</option>
+              <option value="90">90 min</option>
+              <option value="120">120 min</option>
+            </select>
+          </div>
 
-        <div class="calc-chip-item" id="pack-field">
-          <span class="chip-lbl">Pack:</span>
-          <select id="calc-pack" onchange="calcPrice()" class="calc-chip-select">
-            <option value="1" data-translate-key="pack_standard">1 lesson</option>
-            <option value="8" data-translate-key="pack_starter">8 lessons (5% off)</option>
-            <option value="16" data-translate-key="pack_progress">16 lessons (10% off)</option>
-            <option value="32" data-translate-key="pack_maestro">32 lessons (15% off)</option>
-          </select>
-        </div>
+          <div class="calc-chip-item" id="pack-field">
+            <span class="chip-lbl">Pack:</span>
+            <select id="calc-pack" onchange="calcPrice()" class="calc-chip-select">
+              <option value="1" data-translate-key="pack_standard">1 lesson</option>
+              <option value="8" data-translate-key="pack_starter">8 lessons (5% off)</option>
+              <option value="16" data-translate-key="pack_progress">16 lessons (10% off)</option>
+              <option value="32" data-translate-key="pack_maestro">32 lessons (15% off)</option>
+            </select>
+          </div>
 
-        <div class="calc-chip-item">
-          <span class="chip-lbl">Currency:</span>
-          <select id="calc-cur" onchange="calcPrice()" class="calc-chip-select">
-            <option value="EUR">Euro (€)</option>
-            <option value="USD">Dollar ($)</option>
-            <option value="RUB">Ruble (₽)</option>
-          </select>
+          <div class="calc-chip-item">
+            <span class="chip-lbl">Currency:</span>
+            <select id="calc-cur" onchange="calcPrice()" class="calc-chip-select">
+              <option value="EUR">Euro (€)</option>
+              <option value="USD">Dollar ($)</option>
+              <option value="RUB">Ruble (₽)</option>
+            </select>
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- Output price card -->
-    <div class="calc-result">
-      <div class="cr-left">
-        <span class="cr-price" id="calc-total">-</span>
-        <div class="cr-detail" id="calc-detail"></div>
-        <div class="cr-note" id="calc-note"></div>
+      <!-- Output price card -->
+      <div class="calc-result">
+        <div class="cr-left">
+          <span class="cr-price" id="calc-total">-</span>
+          <div class="cr-detail" id="calc-detail"></div>
+          <div class="cr-note" id="calc-note"></div>
+        </div>
+        <a id="calc-cta" href="https://wa.me/330766784195" class="btn-primary" data-translate-key="calc_cta_book" data-i18n="button.bookNow">Book now →</a>
       </div>
-      <a id="calc-cta" href="https://wa.me/330766784195" class="btn-primary" data-translate-key="calc_cta_book" data-i18n="button.bookNow">Book now →</a>
+      <p class="calc-note" data-translate-key="calc_footer_note">For group lessons and events, <a href="https://wa.me/330766784195">contact us directly</a>.</p>
     </div>
-    <p class="calc-note" data-translate-key="calc_footer_note">For group lessons and events, <a href="https://wa.me/330766784195">contact us directly</a>.</p>
-  </div>
+  </details>
 </section>
 
 <section id="start">
@@ -379,26 +371,19 @@
     </div>
     <div class="footer-links-col">
       <h3 data-translate-key="footer_h5_courses">Courses</h3>
-      <a href="apps/premium-courses/general/" data-translate-key="course_general">General Course 📖</a>
-      <a href="apps/premium-courses/spoken/" data-translate-key="course_spoken">Spoken Course 🗣️</a>
-      <a href="apps/premium-courses/exam/" data-translate-key="course_exam">Exam Preparation 📝</a>
-      <a href="apps/premium-courses/travelling/" data-translate-key="course_travelling">Travelling Course ✈️</a>
-      <a href="apps/premium-courses/professional/" data-translate-key="course_professional">Professional Course 💼</a>
-      <a href="apps/premium-courses/relocation/" data-translate-key="course_relocation">Relocation Course 🏡</a>
+      <a href="apps/premium-courses/index.html">All Courses 📖</a>
+      <a href="apps/premium-courses/general/" data-translate-key="course_general">General Course</a>
+      <a href="apps/premium-courses/spoken/" data-translate-key="course_spoken">Spoken Course</a>
+      <a href="apps/premium-courses/exam/" data-translate-key="course_exam">Exam Preparation</a>
     </div>
     <div class="footer-links-col">
       <h3 data-translate-key="footer_h5_explore">Explore</h3>
-      <a href="#languages" data-translate-key="nav_languages">Languages 🌍</a>
-      <a href="practice/index.html" data-translate-key="nav_practice">Free Practice 💡</a>
-      <a href="manuals/index.html">A0–A1 Manuals Hub 📘📚</a>
+      <a href="manuals/index.html">Manuals Hub 📘📚</a>
       <a href="comparative/index.html">Grammar Atlas 🌐</a>
-      <a href="manuals/en/grammar/a1/index.html">Grammar Manual 📘</a>
-      <a href="vocabulary-manual/index.html">Vocabulary Manual 📚</a>
       <a href="placement-quiz.html">Placement Quiz 📝</a>
       <a href="hybrid/index.html">Hybrid &amp; Community 🌿</a>
       <a href="notebook/index.html">My Notebook 📓</a>
-      <a href="events/index.html" data-translate-key="nav_events">Events 🎉</a>
-      <a href="games/index.html" data-translate-key="nav_games">Games 🎮</a>
+      <a href="apps/index.html">Reference Engines 🔎</a>
     </div>
     <div class="footer-links-col">
       <h3>Project</h3>
