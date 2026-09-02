@@ -31,7 +31,7 @@
 <main class="grammar-main">
   <div class="g-card" id="rules">
     <div class="g-card-title">La règle du sandwich 🥪</div>
-    <div style="padding:1.5rem; color:var(--gh-black); font-weight:700;">
+    <div style="padding:1.5rem; color:var(--ink); font-weight:700;">
         <p>To make a sentence negative, put <strong>NE</strong> and <strong>PAS</strong> around the verb.</p>
         <p style="margin-top:1rem;font-size:1.2rem;">Je <span class="key-neg">ne</span> suis <span class="key-neg">pas</span> prêt.</p>
         <p style="font-size:0.9rem;opacity:0.7">(I am not ready.)</p>
@@ -60,8 +60,6 @@ function answer(btn,qid,chosen){
   const correct=answers[qid]; const fb=document.getElementById("fb-"+qid);
   if(chosen===correct){ btn.classList.add("correct"); fb.textContent="Bravo ! ✅"; }
   else { btn.classList.add("wrong"); fb.textContent="Réessayez ! ❌"; }
-}
-  else { btn.classList.add('wrong'); fb.textContent='Réessayez ! ❌'; }
 }
 </script>
 <script src="../../../js/data/curriculum_data.js"></script>
