@@ -5665,24 +5665,6 @@
             const factItem = factList[dayOfYear % factList.length];
             fact.innerHTML = factItem;
         }
-
-        const idiom = document.getElementById('idiom-of-the-day');
-        if (idiom) {
-            const idiomList = (window.COSY_DAILY_IDIOMS && window.COSY_DAILY_IDIOMS[lang]) ? window.COSY_DAILY_IDIOMS[lang] : [
-                { idiom: "Piece of cake", level: "A1", meaning: "Very easy to do", example: "Don't worry, learning languages is a piece of cake with practice!" }
-            ];
-            const item = idiomList[dayOfYear % idiomList.length];
-            idiom.innerHTML = `
-                <div class="idiom-box">
-                    <div class="idiom-header">
-                        <div class="idiom-phrase">💡 "${item.idiom}"</div>
-                        <span class="idiom-badge" data-level="${item.level}">${item.level}</span>
-                    </div>
-                    <div class="idiom-meaning"><strong>Meaning:</strong> ${item.meaning}</div>
-                    <div class="idiom-example">💬 "${item.example}"</div>
-                </div>
-            `;
-        }
     };
 
     window.captureLead = function(lang) {

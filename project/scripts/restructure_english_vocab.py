@@ -5,140 +5,143 @@ import re
 import shutil
 import subprocess
 
+# Ultra-detailed mapping for A1/A2 levels
 DOMAIN_MAP_A1 = {
     # SELF
-    "personal_identity": ("SELF", "Identity", "Identity_Details"),
-    "people": ("SELF", "Identity", "Personal_Identity"),
-    "immediate_family": ("SELF", "Family", "Immediate_Family"),
-    "extended_family": ("SELF", "Family", "Extended_Family"),
-    "family": ("SELF", "Family", "Family_Relations"),
-    "body": ("SELF", "Body", "Body_Parts"),
-    "describing": ("SELF", "Appearance", "Descriptive_Traits"),
-    "colours": ("SELF", "Appearance", "Colours_Shades"),
-    "clothes": ("SELF", "Appearance", "Clothing_Garments"),
-    "items_of_clothing": ("SELF", "Appearance", "Clothing_Garments"),
-    "accessories": ("SELF", "Appearance", "Accessories_Fashion"),
-    "emotions": ("SELF", "Emotions", "Feelings_States"),
+    "personal_identity": ("SELF", "Identity", "Personal_Details_Identity"),
+    "people": ("SELF", "Identity", "Individual_Characteristics"),
+    "immediate_family": ("SELF", "Family", "Immediate_Family_Members"),
+    "extended_family": ("SELF", "Family", "Extended_Family_Relatives"),
+    "family": ("SELF", "Family", "Family_Relations_Lineage"),
+    "body": ("SELF", "Body", "Anatomy_External_Organs"),
+    "describing": ("SELF", "Appearance", "Physical_Descriptive_Traits"),
+    "colours": ("SELF", "Appearance", "Colours_Shades_Tones"),
+    "clothes": ("SELF", "Appearance", "Clothing_Garments_Wear"),
+    "items_of_clothing": ("SELF", "Appearance", "Clothing_Garments_Wear"),
+    "accessories": ("SELF", "Appearance", "Fashion_Accessories"),
+    "emotions": ("SELF", "Emotions", "Emotional_Feelings_States"),
 
     # HOME
-    "buildings": ("HOME", "Buildings", "Structures"),
-    "types_of_accommodation": ("HOME", "Buildings", "Housing_Types"),
-    "rooms_indoor_spaces": ("HOME", "Rooms", "Indoor_Rooms"),
-    "furniture": ("HOME", "Furniture", "Living_Furniture"),
-    "household_items": ("HOME", "Furniture", "Household_Goods"),
-    "kitchen_items": ("HOME", "Appliances", "Kitchen_Appliances"),
-    "household_tasks": ("HOME", "Household_Actions", "Daily_Chores"),
+    "buildings": ("HOME", "Buildings", "Architectural_Structures"),
+    "types_of_accommodation": ("HOME", "Buildings", "Housing_Residential_Types"),
+    "rooms_indoor_spaces": ("HOME", "Rooms", "Indoor_Living_Rooms"),
+    "furniture": ("HOME", "Furniture", "Living_Room_Furniture"),
+    "household_items": ("HOME", "Furniture", "Household_Goods_Utility"),
+    "kitchen_items": ("HOME", "Appliances", "Kitchen_Appliances_Utensils"),
+    "household_tasks": ("HOME", "Household_Actions", "Daily_Chores_Maintenance"),
 
     # FOOD
-    "food_drink": ("FOOD", "Ingredients", "Food_Beverages"),
-    "dishes": ("FOOD", "Meals", "Prepared_Dishes"),
+    "food_drink": ("FOOD", "Ingredients", "Culinary_Food_Beverages"),
+    "dishes": ("FOOD", "Meals", "Prepared_Dishes_Courses"),
 
     # WORK_SCHOOL
-    "work": ("WORK_SCHOOL", "Work", "Jobs_Careers"),
-    "jobs": ("WORK_SCHOOL", "Work", "Professions"),
-    "job_titles_professions": ("WORK_SCHOOL", "Work", "Professions"),
-    "school": ("WORK_SCHOOL", "Education", "School_Classroom"),
-    "learning_studying": ("WORK_SCHOOL", "Education", "Study_Activities"),
-    "types_of_education": ("WORK_SCHOOL", "Education", "Education_Systems"),
+    "work": ("WORK_SCHOOL", "Work", "Jobs_Careers_Occupations"),
+    "jobs": ("WORK_SCHOOL", "Work", "Professions_Trades"),
+    "job_titles_professions": ("WORK_SCHOOL", "Work", "Professions_Trades"),
+    "school": ("WORK_SCHOOL", "Education", "School_Classroom_Supplies"),
+    "learning_studying": ("WORK_SCHOOL", "Education", "Study_Academic_Activities"),
+    "types_of_education": ("WORK_SCHOOL", "Education", "Education_Systems_Institutions"),
 
     # TRAVEL
-    "travel": ("TRAVEL", "Transport", "Travel_Journeys"),
-    "modes_of_transport": ("TRAVEL", "Transport", "Vehicles_Transit"),
-    "places": ("TRAVEL", "Places", "Locations_Venues"),
-    "cities_towns": ("TRAVEL", "Places", "Cities_Urban"),
-    "countries_capitals": ("TRAVEL", "Places", "Countries_Nations"),
-    "nationalities": ("TRAVEL", "Places", "Nationalities_Origins"),
-    "nationality_country": ("TRAVEL", "Places", "Nationalities_Origins"),
-    "locations": ("TRAVEL", "Places", "Spatial_Locations"),
-    "prepositions_place": ("TRAVEL", "Places", "Position_Markers"),
-    "prepositions_movement": ("TRAVEL", "Places", "Direction_Markers"),
+    "travel": ("TRAVEL", "Transport", "Travel_Journeys_Excursions"),
+    "modes_of_transport": ("TRAVEL", "Transport", "Vehicles_Public_Transit"),
+    "places": ("TRAVEL", "Places", "Locations_Venues_Landmarks"),
+    "cities_towns": ("TRAVEL", "Places", "Cities_Urban_Spaces"),
+    "countries_capitals": ("TRAVEL", "Places", "Countries_Nations_Capitals"),
+    "nationalities": ("TRAVEL", "Places", "Nationalities_Origins_Cultures"),
+    "nationality_country": ("TRAVEL", "Places", "Nationalities_Origins_Cultures"),
+    "locations": ("TRAVEL", "Places", "Spatial_Locations_Positions"),
+    "prepositions_place": ("TRAVEL", "Places", "Position_Spatial_Markers"),
+    "prepositions_movement": ("TRAVEL", "Places", "Directional_Movement_Markers"),
 
     # NATURE
-    "nature": ("NATURE", "Environment", "Natural_World"),
-    "animals": ("NATURE", "Animals", "Mammals_Creatures"),
-    "insects": ("NATURE", "Animals", "Insects_Bugs"),
-    "plants_natural_world": ("NATURE", "Environment", "Flora_Plants"),
-    "seasons_climate": ("NATURE", "Environment", "Weather_Seasons"),
+    "nature": ("NATURE", "Environment", "Natural_World_Phenomena"),
+    "animals": ("NATURE", "Animals", "Mammals_Creatures_Fauna"),
+    "insects": ("NATURE", "Animals", "Insects_Bugs_Arachnids"),
+    "plants_natural_world": ("NATURE", "Environment", "Flora_Plants_Vegetation"),
+    "seasons_climate": ("NATURE", "Environment", "Weather_Seasons_Climate"),
 
     # TIME_NUMBERS
-    "time": ("TIME_NUMBERS", "Time", "Clocks_Periods"),
-    "days_week": ("TIME_NUMBERS", "Time", "Days_Schedule"),
-    "months_year": ("TIME_NUMBERS", "Time", "Months_Calendar"),
-    "duration_expressions": ("TIME_NUMBERS", "Time", "Duration_Spans"),
-    "dates_years": ("TIME_NUMBERS", "Time", "Dates_Years"),
-    "numbers": ("TIME_NUMBERS", "Numbers", "Cardinal_Ordinal"),
-    "size_measurements": ("TIME_NUMBERS", "Numbers", "Sizes_Units"),
-    "size_shape": ("TIME_NUMBERS", "Numbers", "Shapes_Dimensions"),
+    "time": ("TIME_NUMBERS", "Time", "Clocks_Time_Periods"),
+    "days_week": ("TIME_NUMBERS", "Time", "Days_Schedules_Routine"),
+    "months_year": ("TIME_NUMBERS", "Time", "Months_Calendar_Year"),
+    "duration_expressions": ("TIME_NUMBERS", "Time", "Duration_Spans_Intervals"),
+    "dates_years": ("TIME_NUMBERS", "Time", "Dates_Years_Eras"),
+    "numbers": ("TIME_NUMBERS", "Numbers", "Cardinal_Ordinal_Numbers"),
+    "size_measurements": ("TIME_NUMBERS", "Numbers", "Sizes_Units_Quantity"),
+    "size_shape": ("TIME_NUMBERS", "Numbers", "Shapes_Geometry_Dimensions"),
 
     # SOCIAL_COMMUNICATION
-    "social": ("COMMUNICATION", "Social", "Interactions"),
-    "greetings": ("COMMUNICATION", "Social", "Greetings_Phrases"),
-    "asking_answering_questions": ("COMMUNICATION", "Social", "Question_Forms"),
-    "giving_opinions": ("COMMUNICATION", "Social", "Opinion_Phrases"),
-    "language": ("COMMUNICATION", "Social", "Language_Terms"),
-    "grammar": ("COMMUNICATION", "Social", "Grammar_Structures"),
-    "grammar_elements": ("COMMUNICATION", "Social", "Grammar_Terms"),
-    "shopping": ("COMMUNICATION", "Shopping", "Retail_Transactions"),
-    "technology": ("COMMUNICATION", "Technology", "Digital_Devices"),
-    "using_smartphone": ("COMMUNICATION", "Technology", "Mobile_Apps"),
-    "leisure_activities": ("COMMUNICATION", "Leisure", "Hobbies_Pastimes"),
-    "sports": ("COMMUNICATION", "Leisure", "Athletic_Sports"),
-    "music": ("COMMUNICATION", "Leisure", "Music_Instruments"),
-    "toys_games": ("COMMUNICATION", "Leisure", "Games_Play"),
-    "books_reading": ("COMMUNICATION", "Leisure", "Literature_Books"),
-    "playing_watching_sport": ("COMMUNICATION", "Leisure", "Spectator_Sports"),
+    "social": ("COMMUNICATION", "Social", "Interpersonal_Interactions"),
+    "greetings": ("COMMUNICATION", "Social", "Greetings_Phrases_Etiquette"),
+    "asking_answering_questions": ("COMMUNICATION", "Social", "Question_Forms_Inquiry"),
+    "giving_opinions": ("COMMUNICATION", "Social", "Opinion_Phrases_Expressions"),
+    "language": ("COMMUNICATION", "Social", "Language_Linguistics_Terms"),
+    "grammar": ("COMMUNICATION", "Social", "Grammar_Structures_Rules"),
+    "grammar_elements": ("COMMUNICATION", "Social", "Grammar_Terminology_Terms"),
+    "shopping": ("COMMUNICATION", "Shopping", "Retail_Transactions_Commerce"),
+    "technology": ("COMMUNICATION", "Technology", "Digital_Devices_Computing"),
+    "using_smartphone": ("COMMUNICATION", "Technology", "Mobile_Apps_Telephony"),
+    "leisure_activities": ("COMMUNICATION", "Leisure", "Hobbies_Pastimes_Recreation"),
+    "sports": ("COMMUNICATION", "Leisure", "Athletic_Sports_Games"),
+    "music": ("COMMUNICATION", "Leisure", "Music_Instruments_Genres"),
+    "toys_games": ("COMMUNICATION", "Leisure", "Games_Toys_Play"),
+    "books_reading": ("COMMUNICATION", "Leisure", "Literature_Books_Reading"),
+    "playing_watching_sport": ("COMMUNICATION", "Leisure", "Spectator_Sports_Fandom"),
 }
 
+# Ultra-detailed mapping for B1/B2 levels
 DOMAIN_MAP_B1 = {
     # People
-    "people": ("People", "Identity", "Individual_Traits"),
-    "personal_identity": ("People", "Identity", "Identity_Concepts"),
-    "personality": ("People", "Personality", "Character_Traits"),
-    "emotions": ("People", "Emotions", "Emotional_States"),
-    "habits": ("People", "Habits", "Daily_Routines"),
-    "psychology": ("People", "Personality", "Psychological_Traits"),
-    "emotional_intelligence": ("People", "Emotions", "Empathy_Awareness"),
+    "people": ("People", "Identity", "Individual_Traits_Psychology"),
+    "personal_identity": ("People", "Identity", "Identity_Concepts_Self"),
+    "personality": ("People", "Personality", "Character_Traits_Disposition"),
+    "emotions": ("People", "Emotions", "Emotional_States_Affect"),
+    "habits": ("People", "Habits", "Daily_Routines_Behavior"),
+    "psychology": ("People", "Personality", "Psychological_Traits_Behavior"),
+    "emotional_intelligence": ("People", "Emotions", "Empathy_Self_Awareness"),
 
     # Science
-    "science": ("Science", "Technology", "Scientific_Method"),
-    "space": ("Science", "Space", "Astronomy_Cosmos"),
-    "biology": ("Science", "Biology", "Living_Organisms"),
-    "health_medicine": ("Science", "Biology", "Medical_Health"),
-    "environment": ("Science", "Environment", "Ecology_Climate"),
-    "plants_natural_world": ("Science", "Environment", "Ecosystems"),
-    "nature": ("Science", "Environment", "Natural_Phenomena"),
-    "technology": ("Science", "Technology", "Computers_Engineering"),
-    "using_smartphone": ("Science", "Technology", "Software_Mobile"),
+    "science": ("Science", "Technology", "Scientific_Method_Inquiry"),
+    "space": ("Science", "Space", "Astronomy_Cosmos_Astrophysics"),
+    "biology": ("Science", "Biology", "Cellular_Organisms_Biology"),
+    "health_medicine": ("Science", "Biology", "Medical_Diagnostics_Healthcare"),
+    "environment": ("Science", "Environment", "Ecology_Ecosystems_Climate"),
+    "plants_natural_world": ("Science", "Environment", "Ecosystems_Biodiversity"),
+    "nature": ("Science", "Environment", "Natural_Phenomena_Earth"),
+    "technology": ("Science", "Technology", "Computers_Software_Engineering"),
+    "using_smartphone": ("Science", "Technology", "Software_Mobile_Applications"),
 
     # Society
-    "society": ("Society", "Culture", "Social_Structures"),
-    "social": ("Society", "Culture", "Social_Relations"),
-    "media": ("Society", "Media", "Journalism_Broadcasting"),
-    "education": ("Society", "Education", "Academic_Institutions"),
-    "learning_studying": ("Society", "Education", "Pedagogy_Study"),
-    "school": ("Society", "Education", "Schooling"),
-    "work": ("Society", "Work", "Employment_Business"),
-    "job_titles_professions": ("Society", "Work", "Professional_Roles"),
-    "jobs": ("Society", "Work", "Occupations"),
-    "career_development": ("Society", "Work", "Career_Growth"),
-    "organisational_culture": ("Society", "Work", "Corporate_Culture"),
-    "culture": ("Society", "Culture", "Arts_Heritage"),
+    "society": ("Society", "Culture", "Social_Structures_Community"),
+    "social": ("Society", "Culture", "Social_Relations_Sociology"),
+    "media": ("Society", "Media", "Journalism_Broadcasting_News"),
+    "education": ("Society", "Education", "Academic_Institutions_Pedagogy"),
+    "learning_studying": ("Society", "Education", "Pedagogy_Study_Methods"),
+    "school": ("Society", "Education", "Secondary_Higher_Schooling"),
+    "work": ("Society", "Work", "Employment_Business_Commerce"),
+    "job_titles_professions": ("Society", "Work", "Professional_Roles_Occupations"),
+    "jobs": ("Society", "Work", "Occupations_Careers"),
+    "career_development": ("Society", "Work", "Career_Growth_Advancement"),
+    "organisational_culture": ("Society", "Work", "Corporate_Culture_Management"),
+    "culture": ("Society", "Culture", "Arts_Heritage_Tradition"),
     "art_culture": ("Society", "Culture", "Visual_Performing_Arts"),
-    "globalisation_geography": ("Society", "Culture", "Global_Geography"),
+    "globalisation_geography": ("Society", "Culture", "Global_Geography_Geopolitics"),
 }
 
+# Ultra-detailed mapping for C1/C2 levels
 C_DEFAULT = {
     "law": ("LAW", "Legal_System", "Jurisprudence_Statutes"),
-    "law_justice": ("LAW", "Legal_System", "Courts_Justice"),
-    "philosophy": ("PHILOSOPHY", "Ethics", "Moral_Philosophy"),
-    "epistemology": ("EPISTEMOLOGY", "Knowledge_Theory", "Truth_Certainty"),
-    "knowledge_epistemology_c1": ("EPISTEMOLOGY", "Knowledge_Theory", "Epistemic_Analysis"),
-    "epistemology_truth": ("EPISTEMOLOGY", "Knowledge_Theory", "Verification_Logic"),
-    "ontology_existence": ("PHILOSOPHY", "Ontology", "Existence_Metaphysics"),
-    "aesthetics_criticism": ("AESTHETICS", "Criticism", "Artistic_Critique"),
-    "moral_philosophy": ("PHILOSOPHY", "Ethics", "Ethical_Theories"),
-    "linguistics_theory": ("DISCOURSE", "Linguistics", "Semantics_Syntax"),
-    "advanced_register_c1": ("DISCOURSE", "Advanced_Register", "Rhetorical_Register"),
+    "law_justice": ("LAW", "Legal_System", "Courts_Justice_Constitutional"),
+    "philosophy": ("PHILOSOPHY", "Ethics", "Moral_Philosophy_Ethics"),
+    "epistemology": ("EPISTEMOLOGY", "Knowledge_Theory", "Truth_Certainty_Logic"),
+    "knowledge_epistemology_c1": ("EPISTEMOLOGY", "Knowledge_Theory", "Epistemic_Analysis_Rigor"),
+    "epistemology_truth": ("EPISTEMOLOGY", "Knowledge_Theory", "Verification_Logic_Proof"),
+    "ontology_existence": ("PHILOSOPHY", "Ontology", "Existence_Metaphysics_Being"),
+    "aesthetics_criticism": ("AESTHETICS", "Criticism", "Artistic_Critique_Hermeneutics"),
+    "moral_philosophy": ("PHILOSOPHY", "Ethics", "Ethical_Theories_Deontology"),
+    "linguistics_theory": ("DISCOURSE", "Linguistics", "Semantics_Syntax_Pragmatics"),
+    "advanced_register_c1": ("DISCOURSE", "Advanced_Register", "Rhetorical_Register_Stylistics"),
 }
 
 LEVEL_MAP = {
@@ -224,7 +227,6 @@ def main():
 
     all_entries = []
 
-    # Step 1: Collect entries from all existing JS files
     for lvl in level_dirs:
         lvl_path = os.path.join(base_dir, lvl)
         if not os.path.exists(lvl_path):
@@ -237,14 +239,12 @@ def main():
 
     print(f"Total entries loaded: {len(all_entries)}")
 
-    # Clean existing directory structure under vocabulary/en
     for lvl in level_dirs:
         lvl_path = os.path.join(base_dir, lvl)
         if os.path.exists(lvl_path):
             shutil.rmtree(lvl_path)
         os.makedirs(lvl_path, exist_ok=True)
 
-    # Step 2: Route entries into POS/Section -> Domain -> Subcategory -> Sub-subcategory
     grouped_entries = {}
 
     for item in all_entries:
@@ -259,7 +259,6 @@ def main():
             grouped_entries[key] = []
         grouped_entries[key].append(item)
 
-    # Step 3: Write out structured JS files
     total_written = 0
     for (lvl, pos_section, domain, subcat, sub_subcat, pos_code), items in grouped_entries.items():
         dir_path = os.path.join(base_dir, lvl, pos_section, domain, subcat)
