@@ -19,8 +19,8 @@
         ],
         "comparative": "blonder",
         "superlative": "the blondest",
-        "emoji": "\ud83d\udc71\u200d\u2640\ufe0f",
-        "transcription": "bl\u0251nd",
+        "emoji": "👱‍♀️",
+        "transcription": "blɑnd",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -38,7 +38,7 @@
     {
         "id": "A1-ADJ-SEL-186",
         "word": "curly",
-        "emoji": "\ud83c\udf00",
+        "emoji": "🌀",
         "form": "adjective",
         "subtext": "curly hair / short curly hair",
         "synonyms": [
@@ -54,7 +54,7 @@
         ],
         "comparative": "curlier",
         "superlative": "the curliest",
-        "transcription": "\u02c8k\u0259rli",
+        "transcription": "ˈkərli",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -72,7 +72,7 @@
     {
         "id": "A1-ADJ-SEL-187",
         "word": "fat",
-        "emoji": "\ud83c\udf54",
+        "emoji": "🍔",
         "form": "adjective",
         "subtext": "a fat cat",
         "synonyms": [
@@ -89,7 +89,7 @@
         ],
         "comparative": "fatter",
         "superlative": "the fattest",
-        "transcription": "f\u00e6t",
+        "transcription": "fæt",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -107,7 +107,7 @@
     {
         "id": "A1-ADJ-SEL-188",
         "word": "straight",
-        "emoji": "\ud83d\udccf",
+        "emoji": "📏",
         "form": "adjective",
         "subtext": "straight hair / long straight hair",
         "synonyms": [
@@ -123,7 +123,7 @@
         ],
         "comparative": "straighter",
         "superlative": "the straightest",
-        "transcription": "stre\u026at",
+        "transcription": "streɪt",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -141,7 +141,7 @@
     {
         "id": "A1-ADJ-SEL-189",
         "word": "thin",
-        "emoji": "\ud83e\udd6c",
+        "emoji": "🥬",
         "form": "adjective",
         "subtext": "he is thin / thin legs",
         "synonyms": [
@@ -158,7 +158,7 @@
         ],
         "comparative": "thinner",
         "superlative": "the thinnest",
-        "transcription": "\u03b8\u026an",
+        "transcription": "θɪn",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -191,8 +191,8 @@
         ],
         "comparative": "uglier",
         "superlative": "the ugliest",
-        "emoji": "\ud83d\udc79",
-        "transcription": "\u02c8\u0259gli",
+        "emoji": "👹",
+        "transcription": "ˈəgli",
         "lang": "en",
         "level": "starter",
         "theme": "body",

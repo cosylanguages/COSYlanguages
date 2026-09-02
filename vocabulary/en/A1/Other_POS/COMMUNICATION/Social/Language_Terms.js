@@ -4,9 +4,9 @@
     {
         "id": "A1-OTH-COM-004",
         "word": "a",
-        "emoji": "\ud83c\udd70\ufe0f",
+        "emoji": "🅰️",
         "form": "determiner",
-        "transcription": "\u0259",
+        "transcription": "ə",
         "definitions": [
             {
                 "text": "Used before a noun to refer to one thing or person for the first time.",
@@ -34,9 +34,9 @@
     {
         "id": "A1-OTH-COM-005",
         "word": "an",
-        "emoji": "\ud83c\udd70\ufe0f",
+        "emoji": "🅰️",
         "form": "determiner",
-        "transcription": "\u0259n",
+        "transcription": "ən",
         "definitions": [
             {
                 "text": "Used before a noun starting with a vowel sound.",
@@ -74,8 +74,8 @@
             }
         ],
         "subtext": "related to conjunctions connectors",
-        "emoji": "\u2795",
-        "transcription": "\u00e6nd",
+        "emoji": "➕",
+        "transcription": "ænd",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -93,9 +93,9 @@
     {
         "id": "A1-OTH-COM-007",
         "word": "any",
-        "emoji": "\u2753",
+        "emoji": "❓",
         "form": "determiner",
-        "transcription": "\u02c8\u025bni",
+        "transcription": "ˈɛni",
         "definitions": [
             {
                 "text": "Used in questions and negative sentences to refer to one or more of something.",
@@ -124,7 +124,7 @@
         "id": "A1-OTH-COM-008",
         "word": "at",
         "form": "preposition",
-        "transcription": "\u00e6t",
+        "transcription": "æt",
         "definitions": [
             {
                 "text": "Used to show a place or position.",
@@ -144,7 +144,7 @@
             }
         ],
         "subtext": "at work, at school, at the top",
-        "emoji": "\ud83d\udccd",
+        "emoji": "📍",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -172,8 +172,8 @@
             }
         ],
         "subtext": "related to conjunctions connectors",
-        "emoji": "\ud83d\udca1",
-        "transcription": "\ud83c\uddec\ud83c\udde7 b\u026a\u02c8k\u0252z | \ud83c\uddfa\ud83c\uddf8 b\u026a\u02c8k\u0251\u02d0z",
+        "emoji": "💡",
+        "transcription": "🇬🇧 bɪˈkɒz | 🇺🇸 bɪˈkɑːz",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -201,8 +201,8 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "emoji": "\ud83e\udee3",
-        "transcription": "b\u026a\u02c8ha\u026and",
+        "emoji": "🫣",
+        "transcription": "bɪˈhaɪnd",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -230,8 +230,8 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "emoji": "\ud83e\uddd8",
-        "transcription": "b\u026at\u02c8win",
+        "emoji": "🧘",
+        "transcription": "bɪtˈwin",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -259,8 +259,8 @@
             }
         ],
         "subtext": "related to conjunctions connectors",
-        "emoji": "\u2753",
-        "transcription": "b\u0259t",
+        "emoji": "❓",
+        "transcription": "bət",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -279,7 +279,7 @@
         "id": "A1-OTH-COM-013",
         "word": "in",
         "form": "preposition",
-        "transcription": "\u026an",
+        "transcription": "ɪn",
         "definitions": [
             {
                 "text": "Inside a place or container.",
@@ -299,7 +299,7 @@
             }
         ],
         "subtext": "in the box, in London, in a car",
-        "emoji": "\ud83d\udce5",
+        "emoji": "📥",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -327,8 +327,8 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "emoji": "\ud83d\udeb6",
-        "transcription": "\u026an fr\u0259nt \u0259v",
+        "emoji": "🚶",
+        "transcription": "ɪn frənt əv",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -359,8 +359,8 @@
                 ]
             }
         ],
-        "emoji": "\ud83d\udc6b",
-        "transcription": "n\u025bkst t\u026a",
+        "emoji": "👫",
+        "transcription": "nɛkst tɪ",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -379,7 +379,7 @@
         "id": "A1-OTH-COM-016",
         "word": "on",
         "form": "preposition",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u0252n | \ud83c\uddfa\ud83c\uddf8 \u0251\u02d0n",
+        "transcription": "🇬🇧 ɒn | 🇺🇸 ɑːn",
         "definitions": [
             {
                 "text": "Supported by or touching a surface.",
@@ -398,7 +398,7 @@
             }
         ],
         "subtext": "on the floor, on a bus, on the phone",
-        "emoji": "\ud83d\udd1b",
+        "emoji": "🔛",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -426,8 +426,8 @@
             }
         ],
         "subtext": "related to conjunctions connectors",
-        "emoji": "\u2753",
-        "transcription": "\u0254\u02d0(r)",
+        "emoji": "❓",
+        "transcription": "ɔː(r)",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -455,8 +455,8 @@
             }
         ],
         "subtext": "related to conjunctions connectors",
-        "emoji": "\ud83d\udca1",
-        "transcription": "\ud83c\uddec\ud83c\udde7 s\u0259\u028a | \ud83c\uddfa\ud83c\uddf8 so\u028a",
+        "emoji": "💡",
+        "transcription": "🇬🇧 səʊ | 🇺🇸 soʊ",
         "lang": "en",
         "level": "starter",
         "theme": "language",
@@ -474,9 +474,9 @@
     {
         "id": "A1-OTH-COM-019",
         "word": "some",
-        "emoji": "\u2795",
+        "emoji": "➕",
         "form": "determiner",
-        "transcription": "s\u0259m",
+        "transcription": "səm",
         "definitions": [
             {
                 "text": "An amount or number of something that is not exact.",
@@ -504,9 +504,9 @@
     {
         "id": "A1-OTH-COM-020",
         "word": "that",
-        "emoji": "\ud83d\udc49",
+        "emoji": "👉",
         "form": "determiner",
-        "transcription": "\u00f0\u00e6t",
+        "transcription": "ðæt",
         "definitions": [
             {
                 "text": "Used to refer to a person, thing, or event that is not close to the speaker.",
@@ -534,9 +534,9 @@
     {
         "id": "A1-OTH-COM-021",
         "word": "the",
-        "emoji": "\ud83d\udc49",
+        "emoji": "👉",
         "form": "determiner",
-        "transcription": "\u00f0\u0259",
+        "transcription": "ðə",
         "definitions": [
             {
                 "text": "Used to refer to a specific thing or person.",
@@ -564,9 +564,9 @@
     {
         "id": "A1-OTH-COM-022",
         "word": "these",
-        "emoji": "\ud83d\udc47",
+        "emoji": "👇",
         "form": "determiner",
-        "transcription": "\u00f0i\u02d0z",
+        "transcription": "ðiːz",
         "definitions": [
             {
                 "text": "The plural form of 'this'.",
@@ -594,9 +594,9 @@
     {
         "id": "A1-OTH-COM-023",
         "word": "this",
-        "emoji": "\ud83d\udc47",
+        "emoji": "👇",
         "form": "determiner",
-        "transcription": "\u00f0\u026as",
+        "transcription": "ðɪs",
         "definitions": [
             {
                 "text": "Used to refer to a person, thing, or event that is close to the speaker.",
@@ -624,9 +624,9 @@
     {
         "id": "A1-OTH-COM-024",
         "word": "those",
-        "emoji": "\ud83d\udc49",
+        "emoji": "👉",
         "form": "determiner",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u00f0\u0259\u028az | \ud83c\uddfa\ud83c\uddf8 \u00f0o\u028az",
+        "transcription": "🇬🇧 ðəʊz | 🇺🇸 ðoʊz",
         "definitions": [
             {
                 "text": "The plural form of 'that'.",
@@ -664,8 +664,8 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "emoji": "\ud83d\udc47",
-        "transcription": "\u02c8\u0259nd\u0259r",
+        "emoji": "👇",
+        "transcription": "ˈəndər",
         "lang": "en",
         "level": "starter",
         "theme": "language",

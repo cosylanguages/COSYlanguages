@@ -4,7 +4,7 @@
     {
         "id": "A1-NOUN-TIM-026",
         "word": "April",
-        "emoji": "\ud83c\udf27\ufe0f",
+        "emoji": "🌧️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -17,7 +17,7 @@
             }
         ],
         "subtext": "related to months year",
-        "transcription": "\u02c8e\u026apr\u0259l",
+        "transcription": "ˈeɪprəl",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -32,7 +32,7 @@
     {
         "id": "A1-NOUN-TIM-027",
         "word": "August",
-        "emoji": "\ud83c\udfd6\ufe0f",
+        "emoji": "🏖️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -45,7 +45,7 @@
             }
         ],
         "subtext": "related to months year",
-        "transcription": "\u02c8\u0254g\u0259st",
+        "transcription": "ˈɔgəst",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -60,7 +60,7 @@
     {
         "id": "A1-NOUN-TIM-028",
         "word": "December",
-        "emoji": "\ud83c\udf84",
+        "emoji": "🎄",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -73,7 +73,7 @@
             }
         ],
         "subtext": "related to months year",
-        "transcription": "d\u026a\u02c8s\u025bmb\u0259r",
+        "transcription": "dɪˈsɛmbər",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -88,7 +88,7 @@
     {
         "id": "A1-NOUN-TIM-029",
         "word": "February",
-        "emoji": "\u2744\ufe0f",
+        "emoji": "❄️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -101,7 +101,7 @@
             }
         ],
         "subtext": "related to months year",
-        "transcription": "\u02c8f\u025bbru\u02cc\u025bri",
+        "transcription": "ˈfɛbruˌɛri",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -116,7 +116,7 @@
     {
         "id": "A1-NOUN-TIM-030",
         "word": "January",
-        "emoji": "\u2744\ufe0f",
+        "emoji": "❄️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -129,7 +129,7 @@
             }
         ],
         "subtext": "related to months year",
-        "transcription": "\u02c8\u02a4\u00e6nju\u02cc\u025bri",
+        "transcription": "ˈʤænjuˌɛri",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -144,7 +144,7 @@
     {
         "id": "A1-NOUN-TIM-031",
         "word": "July",
-        "emoji": "\u2600\ufe0f",
+        "emoji": "☀️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -157,7 +157,7 @@
             }
         ],
         "subtext": "related to months year",
-        "transcription": "\u02cc\u02a4u\u02c8la\u026a",
+        "transcription": "ˌʤuˈlaɪ",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -172,7 +172,7 @@
     {
         "id": "A1-NOUN-TIM-032",
         "word": "June",
-        "emoji": "\u2600\ufe0f",
+        "emoji": "☀️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -185,7 +185,7 @@
             }
         ],
         "subtext": "related to months year",
-        "transcription": "\u02a4un",
+        "transcription": "ʤun",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -200,7 +200,7 @@
     {
         "id": "A1-NOUN-TIM-033",
         "word": "March",
-        "emoji": "\ud83c\udf31",
+        "emoji": "🌱",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -213,7 +213,7 @@
             }
         ],
         "subtext": "related to months year",
-        "transcription": "m\u0251r\u02a7",
+        "transcription": "mɑrʧ",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -228,7 +228,7 @@
     {
         "id": "A1-NOUN-TIM-034",
         "word": "May",
-        "emoji": "\ud83c\udf38",
+        "emoji": "🌸",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -241,7 +241,7 @@
             }
         ],
         "subtext": "related to months year",
-        "transcription": "me\u026a",
+        "transcription": "meɪ",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -256,7 +256,7 @@
     {
         "id": "A1-NOUN-TIM-035",
         "word": "November",
-        "emoji": "\ud83c\udf2b\ufe0f",
+        "emoji": "🌫️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -269,7 +269,7 @@
             }
         ],
         "subtext": "related to months year",
-        "transcription": "no\u028a\u02c8v\u025bmb\u0259r",
+        "transcription": "noʊˈvɛmbər",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -284,7 +284,7 @@
     {
         "id": "A1-NOUN-TIM-036",
         "word": "October",
-        "emoji": "\ud83c\udf83",
+        "emoji": "🎃",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -297,7 +297,7 @@
             }
         ],
         "subtext": "related to months year",
-        "transcription": "\u0251k\u02c8to\u028ab\u0259r",
+        "transcription": "ɑkˈtoʊbər",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -312,7 +312,7 @@
     {
         "id": "A1-NOUN-TIM-037",
         "word": "September",
-        "emoji": "\ud83c\udf42",
+        "emoji": "🍂",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -325,7 +325,7 @@
             }
         ],
         "subtext": "related to months year",
-        "transcription": "s\u025bp\u02c8t\u025bmb\u0259r",
+        "transcription": "sɛpˈtɛmbər",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",

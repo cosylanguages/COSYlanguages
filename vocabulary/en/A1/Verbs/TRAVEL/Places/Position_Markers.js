@@ -4,7 +4,7 @@
     {
         "id": "A1-VERB-TRA-003",
         "word": "there",
-        "emoji": "\ud83d\udc49",
+        "emoji": "👉",
         "form": "adverb",
         "definitions": [
             {
@@ -15,7 +15,7 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "transcription": "\u00f0\u025br",
+        "transcription": "ðɛr",
         "lang": "en",
         "level": "starter",
         "theme": "prepositions_place",

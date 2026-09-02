@@ -5,7 +5,7 @@
         "id": "A1-NOUN-FOO-071",
         "word": "bowl",
         "translation": "deep dish",
-        "emoji": "\ud83e\udd63",
+        "emoji": "🥣",
         "form": "noun",
         "definitions": [
             {
@@ -31,7 +31,7 @@
         "id": "A1-NOUN-FOO-072",
         "word": "chopsticks",
         "translation": "eating sticks",
-        "emoji": "\ud83e\udd62",
+        "emoji": "🥢",
         "form": "noun",
         "definitions": [
             {
@@ -57,7 +57,7 @@
         "id": "A1-NOUN-FOO-073",
         "word": "cup",
         "translation": "small container for drinks",
-        "emoji": "\u2615",
+        "emoji": "☕",
         "form": "noun",
         "definitions": [
             {
@@ -83,7 +83,7 @@
         "id": "A1-NOUN-FOO-074",
         "word": "fork",
         "translation": "eating tool with prongs",
-        "emoji": "\ud83c\udf74",
+        "emoji": "🍴",
         "form": "noun",
         "definitions": [
             {
@@ -109,7 +109,7 @@
         "id": "A1-NOUN-FOO-075",
         "word": "glass",
         "translation": "drink container",
-        "emoji": "\ud83c\udf77",
+        "emoji": "🍷",
         "form": "noun",
         "definitions": [
             {
@@ -135,7 +135,7 @@
         "id": "A1-NOUN-FOO-076",
         "word": "knife",
         "translation": "cutting tool",
-        "emoji": "\ud83d\udd2a",
+        "emoji": "🔪",
         "form": "noun",
         "definitions": [
             {
@@ -161,7 +161,7 @@
         "id": "A1-NOUN-FOO-077",
         "word": "mug",
         "translation": "large cup",
-        "emoji": "\u2615",
+        "emoji": "☕",
         "form": "noun",
         "definitions": [
             {
@@ -187,7 +187,7 @@
         "id": "A1-NOUN-FOO-078",
         "word": "napkin",
         "translation": "cleaning cloth for mouth",
-        "emoji": "\ud83e\uddfb",
+        "emoji": "🧻",
         "form": "noun",
         "definitions": [
             {
@@ -213,7 +213,7 @@
         "id": "A1-NOUN-FOO-079",
         "word": "plate",
         "translation": "flat dish",
-        "emoji": "\ud83c\udf7d\ufe0f",
+        "emoji": "🍽️",
         "form": "noun",
         "definitions": [
             {
@@ -239,7 +239,7 @@
         "id": "A1-NOUN-FOO-080",
         "word": "spoon",
         "translation": "scooping tool",
-        "emoji": "\ud83e\udd44",
+        "emoji": "🥄",
         "form": "noun",
         "definitions": [
             {
@@ -265,7 +265,7 @@
         "id": "A1-NOUN-FOO-081",
         "word": "tray",
         "translation": "carrying board",
-        "emoji": "\ud83c\udf71",
+        "emoji": "🍱",
         "form": "noun",
         "definitions": [
             {
@@ -281,6 +281,28 @@
         "lang": "en",
         "transcription": "",
         "legacy_id": "A1-FOOD-11",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Meals",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Prepared_Dishes"
+    },
+    {
+        "id": "A1-NOUN-FOO-082",
+        "word": "burger",
+        "form": "noun",
+        "transcription": "ˈbɜːɡə",
+        "emoji": "🍔",
+        "definitions": [
+            {
+                "text": "A round patty of ground meat in a bun.",
+                "examples": [
+                    "Beef burger with fries.",
+                    "A delicious burger."
+                ]
+            }
+        ],
+        "level": "starter",
         "level_code": "A1",
         "domain": "FOOD",
         "subcategory": "Meals",

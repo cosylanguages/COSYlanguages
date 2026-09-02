@@ -4,9 +4,9 @@
     {
         "id": "A1-NOUN-SEL-078",
         "word": "I",
-        "emoji": "\ud83d\ude4b",
+        "emoji": "🙋",
         "form": "pronoun",
-        "transcription": "a\u026a",
+        "transcription": "aɪ",
         "definitions": [
             {
                 "text": "Used by a speaker to refer to himself or herself.",
@@ -32,7 +32,7 @@
         "id": "A1-NOUN-SEL-079",
         "word": "balcony",
         "form": "noun",
-        "transcription": "\u02c8b\u00e6lk\u0259ni",
+        "transcription": "ˈbælkəni",
         "definitions": [
             {
                 "text": "A platform outside an upper window of a building.",
@@ -41,7 +41,7 @@
                 ]
             }
         ],
-        "emoji": "\ud83c\udfd9\ufe0f",
+        "emoji": "🏙️",
         "lang": "en",
         "level": "a1",
         "level_code": "A1",
@@ -54,7 +54,7 @@
     {
         "id": "A1-NOUN-SEL-080",
         "word": "he",
-        "emoji": "\ud83d\udc68",
+        "emoji": "👨",
         "form": "pronoun",
         "transcription": "hi",
         "definitions": [
@@ -84,9 +84,9 @@
     {
         "id": "A1-NOUN-SEL-081",
         "word": "her",
-        "emoji": "\ud83d\udc69",
+        "emoji": "👩",
         "form": "pronoun",
-        "transcription": "h\u0259r",
+        "transcription": "hər",
         "definitions": [
             {
                 "text": "The object form of 'she'.",
@@ -114,9 +114,9 @@
     {
         "id": "A1-NOUN-SEL-082",
         "word": "him",
-        "emoji": "\ud83d\udc68",
+        "emoji": "👨",
         "form": "pronoun",
-        "transcription": "h\u026am",
+        "transcription": "hɪm",
         "definitions": [
             {
                 "text": "The object form of 'he'.",
@@ -144,9 +144,9 @@
     {
         "id": "A1-NOUN-SEL-083",
         "word": "it",
-        "emoji": "\ud83d\udce6",
+        "emoji": "📦",
         "form": "pronoun",
-        "transcription": "\u026at",
+        "transcription": "ɪt",
         "definitions": [
             {
                 "text": "Used to refer to a thing, animal, or situation already mentioned.",
@@ -171,7 +171,7 @@
     {
         "id": "A1-NOUN-SEL-084",
         "word": "me",
-        "emoji": "\ud83d\ude4b",
+        "emoji": "🙋",
         "form": "pronoun",
         "transcription": "mi",
         "definitions": [
@@ -199,7 +199,7 @@
         "id": "A1-NOUN-SEL-085",
         "word": "nickname",
         "form": "noun",
-        "transcription": "\u02c8n\u026akne\u026am",
+        "transcription": "ˈnɪkneɪm",
         "definitions": [
             {
                 "text": "An informal name used by family or friends.",
@@ -208,7 +208,7 @@
                 ]
             }
         ],
-        "emoji": "\ud83d\udcdb",
+        "emoji": "📛",
         "lang": "en",
         "level": "a1",
         "level_code": "A1",
@@ -221,9 +221,9 @@
     {
         "id": "A1-NOUN-SEL-086",
         "word": "she",
-        "emoji": "\ud83d\udc69",
+        "emoji": "👩",
         "form": "pronoun",
-        "transcription": "\u0283i",
+        "transcription": "ʃi",
         "definitions": [
             {
                 "text": "Used to refer to a female person or animal already mentioned.",
@@ -252,7 +252,7 @@
         "id": "A1-NOUN-SEL-087",
         "word": "sibling",
         "form": "noun",
-        "transcription": "\u02c8s\u026abl\u026a\u014b",
+        "transcription": "ˈsɪblɪŋ",
         "definitions": [
             {
                 "text": "A brother or sister.",
@@ -261,7 +261,7 @@
                 ]
             }
         ],
-        "emoji": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66",
+        "emoji": "👨‍👩‍👧‍👦",
         "lang": "en",
         "level": "a1",
         "level_code": "A1",
@@ -274,9 +274,9 @@
     {
         "id": "A1-NOUN-SEL-088",
         "word": "them",
-        "emoji": "\ud83d\udc65",
+        "emoji": "👥",
         "form": "pronoun",
-        "transcription": "\u00f0\u025bm",
+        "transcription": "ðɛm",
         "definitions": [
             {
                 "text": "The object form of 'they'.",
@@ -304,9 +304,9 @@
     {
         "id": "A1-NOUN-SEL-089",
         "word": "they",
-        "emoji": "\ud83d\udc65",
+        "emoji": "👥",
         "form": "pronoun",
-        "transcription": "\u00f0e\u026a",
+        "transcription": "ðeɪ",
         "definitions": [
             {
                 "text": "Used to refer to two or more people or things already mentioned.",
@@ -335,7 +335,7 @@
         "id": "A1-NOUN-SEL-090",
         "word": "toaster",
         "form": "noun",
-        "transcription": "\u02c8to\u028ast\u0259r",
+        "transcription": "ˈtoʊstər",
         "definitions": [
             {
                 "text": "An electric machine for making toast.",
@@ -344,7 +344,7 @@
                 ]
             }
         ],
-        "emoji": "\ud83c\udf5e",
+        "emoji": "🍞",
         "lang": "en",
         "level": "a1",
         "level_code": "A1",
@@ -357,9 +357,9 @@
     {
         "id": "A1-NOUN-SEL-091",
         "word": "us",
-        "emoji": "\ud83d\udc65",
+        "emoji": "👥",
         "form": "pronoun",
-        "transcription": "\u0259s",
+        "transcription": "əs",
         "definitions": [
             {
                 "text": "The object form of 'we'.",
@@ -387,7 +387,7 @@
     {
         "id": "A1-NOUN-SEL-092",
         "word": "we",
-        "emoji": "\ud83d\udc65",
+        "emoji": "👥",
         "form": "pronoun",
         "transcription": "wi",
         "definitions": [
@@ -417,7 +417,7 @@
     {
         "id": "A1-NOUN-SEL-093",
         "word": "you",
-        "emoji": "\ud83e\udef5",
+        "emoji": "🫵",
         "form": "pronoun",
         "transcription": "ju",
         "definitions": [
@@ -435,6 +435,182 @@
         "theme": "psychology",
         "sub_theme": null,
         "legacy_id": "A1-SELF-72",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Identity",
+        "pos_section": "Nouns",
+        "sub_subcategory": "General_Identity"
+    },
+    {
+        "id": "A1-NOUN-SEL-095",
+        "word": "person",
+        "form": "noun",
+        "transcription": "ˈpɜːsn",
+        "emoji": "👤",
+        "definitions": [
+            {
+                "text": "A human being.",
+                "examples": [
+                    "She is a nice person.",
+                    "There is one person at the desk."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Identity",
+        "pos_section": "Nouns",
+        "sub_subcategory": "General_Identity"
+    },
+    {
+        "id": "A1-NOUN-SEL-096",
+        "word": "man",
+        "form": "noun",
+        "transcription": "mæn",
+        "emoji": "👨",
+        "definitions": [
+            {
+                "text": "An adult male human.",
+                "examples": [
+                    "That man is my teacher.",
+                    "A man opened the door."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Identity",
+        "pos_section": "Nouns",
+        "sub_subcategory": "General_Identity"
+    },
+    {
+        "id": "A1-NOUN-SEL-097",
+        "word": "woman",
+        "form": "noun",
+        "transcription": "ˈwʊmən",
+        "emoji": "👩",
+        "definitions": [
+            {
+                "text": "An adult female human.",
+                "examples": [
+                    "The woman is sitting here.",
+                    "She is a kind woman."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Identity",
+        "pos_section": "Nouns",
+        "sub_subcategory": "General_Identity"
+    },
+    {
+        "id": "A1-NOUN-SEL-098",
+        "word": "boy",
+        "form": "noun",
+        "transcription": "bɔɪ",
+        "emoji": "👦",
+        "definitions": [
+            {
+                "text": "A male child.",
+                "examples": [
+                    "The boy plays in the park.",
+                    "He is a good boy."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Identity",
+        "pos_section": "Nouns",
+        "sub_subcategory": "General_Identity"
+    },
+    {
+        "id": "A1-NOUN-SEL-099",
+        "word": "girl",
+        "form": "noun",
+        "transcription": "ɡɜːl",
+        "emoji": "👧",
+        "definitions": [
+            {
+                "text": "A female child.",
+                "examples": [
+                    "The girl reads a book.",
+                    "She is a young girl."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Identity",
+        "pos_section": "Nouns",
+        "sub_subcategory": "General_Identity"
+    },
+    {
+        "id": "A1-NOUN-SEL-100",
+        "word": "adult",
+        "form": "noun",
+        "transcription": "ˈædʌlt",
+        "emoji": "🧑",
+        "definitions": [
+            {
+                "text": "A fully grown person.",
+                "examples": [
+                    "Tickets for adults cost ten dollars.",
+                    "An adult should help."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Identity",
+        "pos_section": "Nouns",
+        "sub_subcategory": "General_Identity"
+    },
+    {
+        "id": "A1-NOUN-SEL-101",
+        "word": "guy",
+        "form": "noun",
+        "transcription": "ɡaɪ",
+        "emoji": "🧍",
+        "definitions": [
+            {
+                "text": "A man or person.",
+                "examples": [
+                    "He is a funny guy.",
+                    "I saw that guy yesterday."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Identity",
+        "pos_section": "Nouns",
+        "sub_subcategory": "General_Identity"
+    },
+    {
+        "id": "A1-NOUN-SEL-102",
+        "word": "lady",
+        "form": "noun",
+        "transcription": "ˈleɪdi",
+        "emoji": "👩",
+        "definitions": [
+            {
+                "text": "A polite term for a woman.",
+                "examples": [
+                    "The lady is helpful.",
+                    "A lady stood near the window."
+                ]
+            }
+        ],
+        "level": "starter",
         "level_code": "A1",
         "domain": "SELF",
         "subcategory": "Identity",

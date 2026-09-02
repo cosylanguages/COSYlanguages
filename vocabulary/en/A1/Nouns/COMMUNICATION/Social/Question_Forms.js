@@ -4,7 +4,7 @@
     {
         "id": "A1-NOUN-COM-056",
         "word": "conversation",
-        "emoji": "\ud83d\udcac",
+        "emoji": "💬",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
             }
         ],
         "subtext": "related to asking answering questions",
-        "transcription": "\u02cck\u0251nv\u0259r\u02c8se\u026a\u0283\u0259n",
+        "transcription": "ˌkɑnvərˈseɪʃən",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -33,7 +33,7 @@
     {
         "id": "A1-NOUN-COM-057",
         "word": "problem",
-        "emoji": "\u2753",
+        "emoji": "❓",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -48,7 +48,7 @@
                 ]
             }
         ],
-        "transcription": "\u02c8pr\u0251bl\u0259m",
+        "transcription": "ˈprɑbləm",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -63,7 +63,7 @@
     {
         "id": "A1-NOUN-COM-058",
         "word": "question",
-        "emoji": "\u2753",
+        "emoji": "❓",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -78,7 +78,7 @@
             }
         ],
         "subtext": "related to asking answering questions",
-        "transcription": "k\u02c8w\u025b\u0283\u0259n",
+        "transcription": "kˈwɛʃən",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -93,7 +93,7 @@
     {
         "id": "A1-NOUN-COM-059",
         "word": "what",
-        "emoji": "\u2753",
+        "emoji": "❓",
         "form": "pronoun",
         "definitions": [
             {
@@ -104,7 +104,7 @@
             }
         ],
         "subtext": "related to asking answering questions",
-        "transcription": "w\u0259t",
+        "transcription": "wət",
         "lang": "en",
         "level": "starter",
         "theme": "asking_answering_questions",
@@ -119,7 +119,7 @@
     {
         "id": "A1-NOUN-COM-060",
         "word": "who",
-        "emoji": "\ud83d\udc64",
+        "emoji": "👤",
         "form": "pronoun",
         "definitions": [
             {

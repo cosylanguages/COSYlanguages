@@ -4,7 +4,7 @@
     {
         "id": "A1-NOUN-COM-061",
         "word": "battery",
-        "emoji": "\ud83d\udd0b",
+        "emoji": "🔋",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -22,7 +22,7 @@
             "power source",
             "charging"
         ],
-        "transcription": "\u02c8b\u00e6t\u0259ri",
+        "transcription": "ˈbætəri",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -37,7 +37,7 @@
     {
         "id": "A1-NOUN-COM-062",
         "word": "camera",
-        "emoji": "\ud83d\udcf7",
+        "emoji": "📷",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -51,7 +51,7 @@
             }
         ],
         "subtext": "related to basic technology devices",
-        "transcription": "\u02c8k\u00e6m\u0259r\u0259",
+        "transcription": "ˈkæmərə",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -66,7 +66,7 @@
     {
         "id": "A1-NOUN-COM-063",
         "word": "charger",
-        "emoji": "\ud83d\udd0c",
+        "emoji": "🔌",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -83,7 +83,7 @@
         "synonyms": [
             "charging cable"
         ],
-        "transcription": "\u02c8\u02a7\u0251r\u02a4\u0259r",
+        "transcription": "ˈʧɑrʤər",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -98,7 +98,7 @@
     {
         "id": "A1-NOUN-COM-064",
         "word": "computer",
-        "emoji": "\ud83d\udcbb",
+        "emoji": "💻",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -112,7 +112,7 @@
             }
         ],
         "subtext": "related to basic technology devices",
-        "transcription": "k\u0259m\u02c8pjut\u0259r",
+        "transcription": "kəmˈpjutər",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -127,7 +127,7 @@
     {
         "id": "A1-NOUN-COM-065",
         "word": "keyboard",
-        "emoji": "\u2328\ufe0f",
+        "emoji": "⌨️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -141,7 +141,7 @@
             }
         ],
         "subtext": "related to basic technology devices",
-        "transcription": "\u02c8ki\u02ccb\u0254rd",
+        "transcription": "ˈkiˌbɔrd",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -156,7 +156,7 @@
     {
         "id": "A1-NOUN-COM-066",
         "word": "laptop",
-        "emoji": "\ud83d\udcbb",
+        "emoji": "💻",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -170,7 +170,7 @@
             }
         ],
         "subtext": "related to basic technology devices",
-        "transcription": "\u02c8l\u00e6p\u02cct\u0251p",
+        "transcription": "ˈlæpˌtɑp",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -185,7 +185,7 @@
     {
         "id": "A1-NOUN-COM-067",
         "word": "magazine",
-        "emoji": "\ud83d\udcd6",
+        "emoji": "📖",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -199,7 +199,7 @@
             }
         ],
         "subtext": "related to basic technology devices",
-        "transcription": "\u02c8m\u00e6g\u0259\u02cczin",
+        "transcription": "ˈmægəˌzin",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -214,7 +214,7 @@
     {
         "id": "A1-NOUN-COM-068",
         "word": "mobile",
-        "emoji": "\ud83d\udcf1",
+        "emoji": "📱",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -228,7 +228,7 @@
                 ]
             }
         ],
-        "transcription": "\u02c8mo\u028ab\u0259l",
+        "transcription": "ˈmoʊbəl",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -243,7 +243,7 @@
     {
         "id": "A1-NOUN-COM-069",
         "word": "newspaper",
-        "emoji": "\ud83d\udcf0",
+        "emoji": "📰",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -257,7 +257,7 @@
             }
         ],
         "subtext": "related to basic technology devices",
-        "transcription": "\u02c8nuz\u02ccpe\u026ap\u0259r",
+        "transcription": "ˈnuzˌpeɪpər",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -272,7 +272,7 @@
     {
         "id": "A1-NOUN-COM-070",
         "word": "printer",
-        "emoji": "\ud83d\udda8\ufe0f",
+        "emoji": "🖨️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -286,7 +286,7 @@
             }
         ],
         "subtext": "related to basic technology devices",
-        "transcription": "\u02c8pr\u026an\u0259r",
+        "transcription": "ˈprɪnər",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -301,7 +301,7 @@
     {
         "id": "A1-NOUN-COM-071",
         "word": "radio",
-        "emoji": "\ud83d\udcfb",
+        "emoji": "📻",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -315,7 +315,7 @@
             }
         ],
         "subtext": "related to basic technology devices",
-        "transcription": "\u02c8re\u026adi\u02cco\u028a",
+        "transcription": "ˈreɪdiˌoʊ",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -330,7 +330,7 @@
     {
         "id": "A1-NOUN-COM-072",
         "word": "screen",
-        "emoji": "\ud83d\udda5\ufe0f",
+        "emoji": "🖥️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -359,7 +359,7 @@
     {
         "id": "A1-NOUN-COM-073",
         "word": "smartphone",
-        "emoji": "\ud83d\udcf1",
+        "emoji": "📱",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -373,7 +373,7 @@
             }
         ],
         "subtext": "related to basic technology devices",
-        "transcription": "\u02c8sm\u0251\u02d0rtfo\u028an",
+        "transcription": "ˈsmɑːrtfoʊn",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -388,7 +388,7 @@
     {
         "id": "A1-NOUN-COM-074",
         "word": "television",
-        "emoji": "\ud83d\udcfa",
+        "emoji": "📺",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -402,12 +402,34 @@
                 ]
             }
         ],
-        "transcription": "\u02c8t\u025bl\u0259\u02ccv\u026a\u0292\u0259n",
+        "transcription": "ˈtɛləˌvɪʒən",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
         "sub_theme": null,
         "legacy_id": "A1-COMM-31",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Technology",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Digital_Devices"
+    },
+    {
+        "id": "A1-NOUN-COM-082",
+        "word": "telephone",
+        "form": "noun",
+        "transcription": "ˈtelɪfəʊn",
+        "emoji": "📞",
+        "definitions": [
+            {
+                "text": "A system for transmitting speech at a distance.",
+                "examples": [
+                    "Speak on the telephone.",
+                    "A wall telephone."
+                ]
+            }
+        ],
+        "level": "starter",
         "level_code": "A1",
         "domain": "COMMUNICATION",
         "subcategory": "Technology",

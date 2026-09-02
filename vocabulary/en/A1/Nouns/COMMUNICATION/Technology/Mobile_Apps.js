@@ -4,7 +4,7 @@
     {
         "id": "A1-NOUN-COM-075",
         "word": "information",
-        "emoji": "\u2139\ufe0f",
+        "emoji": "ℹ️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -19,7 +19,7 @@
                 ]
             }
         ],
-        "transcription": "\u02cc\u026anf\u0259\u02c8me\u026a\u0283n",
+        "transcription": "ˌɪnfəˈmeɪʃn",
         "lang": "en",
         "level": "starter",
         "theme": "using_smartphone",
@@ -34,7 +34,7 @@
     {
         "id": "A1-NOUN-COM-076",
         "word": "internet",
-        "emoji": "\ud83c\udf10",
+        "emoji": "🌐",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -48,7 +48,7 @@
             }
         ],
         "subtext": "related to using smartphone",
-        "transcription": "\u02c8\u026ant\u0259r\u02ccn\u025bt",
+        "transcription": "ˈɪntərˌnɛt",
         "lang": "en",
         "level": "starter",
         "theme": "using_smartphone",
@@ -63,7 +63,7 @@
     {
         "id": "A1-NOUN-COM-077",
         "word": "letter",
-        "emoji": "\u2709\ufe0f",
+        "emoji": "✉️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -77,7 +77,7 @@
                 ]
             }
         ],
-        "transcription": "\u02c8l\u025bt\u0259r",
+        "transcription": "ˈlɛtər",
         "lang": "en",
         "level": "starter",
         "theme": "using_smartphone",
@@ -92,7 +92,7 @@
     {
         "id": "A1-NOUN-COM-078",
         "word": "message",
-        "emoji": "\ud83d\udcac",
+        "emoji": "💬",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -106,7 +106,7 @@
             }
         ],
         "subtext": "related to using smartphone",
-        "transcription": "\u02c8m\u025bs\u026a\u02a4",
+        "transcription": "ˈmɛsɪʤ",
         "lang": "en",
         "level": "starter",
         "theme": "using_smartphone",
@@ -121,7 +121,7 @@
     {
         "id": "A1-NOUN-COM-079",
         "word": "news",
-        "emoji": "\ud83d\udcf0",
+        "emoji": "📰",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -151,7 +151,7 @@
     {
         "id": "A1-NOUN-COM-080",
         "word": "website",
-        "emoji": "\ud83d\udcbb",
+        "emoji": "💻",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -165,12 +165,34 @@
             }
         ],
         "subtext": "related to using smartphone",
-        "transcription": "\u02c8w\u025bb\u02ccsa\u026at",
+        "transcription": "ˈwɛbˌsaɪt",
         "lang": "en",
         "level": "starter",
         "theme": "using_smartphone",
         "sub_theme": null,
         "legacy_id": "A1-COMM-40",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Technology",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Mobile_Apps"
+    },
+    {
+        "id": "A1-NOUN-COM-085",
+        "word": "app",
+        "form": "noun",
+        "transcription": "æp",
+        "emoji": "📱",
+        "definitions": [
+            {
+                "text": "An application software on a phone or computer.",
+                "examples": [
+                    "Download a new mobile app.",
+                    "A language learning app."
+                ]
+            }
+        ],
+        "level": "starter",
         "level_code": "A1",
         "domain": "COMMUNICATION",
         "subcategory": "Technology",

@@ -4,7 +4,7 @@
     {
         "id": "A1-NOUN-NAT-031",
         "word": "ice",
-        "emoji": "\ud83e\uddca",
+        "emoji": "🧊",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -20,7 +20,7 @@
                 ]
             }
         ],
-        "transcription": "a\u026as",
+        "transcription": "aɪs",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -35,7 +35,7 @@
     {
         "id": "A1-NOUN-NAT-032",
         "word": "rain",
-        "emoji": "\ud83c\udf27\ufe0f",
+        "emoji": "🌧️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -49,14 +49,14 @@
                 ]
             }
         ],
-        "transcription": "re\u026an",
+        "transcription": "reɪn",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "rign\u0105"
+            "origin_word": "rigną"
         },
         "legacy_id": "A1-NAT-21",
         "level_code": "A1",
@@ -68,7 +68,7 @@
     {
         "id": "A1-NOUN-NAT-033",
         "word": "snow",
-        "emoji": "\u2744\ufe0f",
+        "emoji": "❄️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -83,7 +83,7 @@
             }
         ],
         "subtext": "related to weather",
-        "transcription": "sno\u028a",
+        "transcription": "snoʊ",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -98,7 +98,7 @@
     {
         "id": "A1-NOUN-NAT-034",
         "word": "sun",
-        "emoji": "\u2600\ufe0f",
+        "emoji": "☀️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -112,14 +112,14 @@
                 ]
             }
         ],
-        "transcription": "s\u0259n",
+        "transcription": "sən",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "sunn\u014d",
+            "origin_word": "sunnō",
             "origin_meaning": "sun"
         },
         "legacy_id": "A1-NAT-34",
@@ -132,7 +132,7 @@
     {
         "id": "A1-NOUN-NAT-035",
         "word": "temperature",
-        "emoji": "\ud83c\udf21\ufe0f",
+        "emoji": "🌡️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -147,7 +147,7 @@
                 ]
             }
         ],
-        "transcription": "\u02c8tempr\u0259t\u0283\u0259(r)",
+        "transcription": "ˈtemprətʃə(r)",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -162,7 +162,7 @@
     {
         "id": "A1-NOUN-NAT-036",
         "word": "umbrella",
-        "emoji": "\u2602\ufe0f",
+        "emoji": "☂️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -171,12 +171,12 @@
             {
                 "text": "A folding frame covered in cloth used to protect you from rain.",
                 "examples": [
-                    "Take an umbrella \u2014 it is raining."
+                    "Take an umbrella — it is raining."
                 ]
             }
         ],
         "subtext": "related to weather",
-        "transcription": "\u02c8\u0259m\u02ccbr\u025bl\u0259",
+        "transcription": "ˈəmˌbrɛlə",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -191,7 +191,7 @@
     {
         "id": "A1-NOUN-NAT-037",
         "word": "weather",
-        "emoji": "\ud83c\udf24\ufe0f",
+        "emoji": "🌤️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -206,7 +206,7 @@
                 ]
             }
         ],
-        "transcription": "\u02c8we\u00f0\u0259(r)",
+        "transcription": "ˈweðə(r)",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -221,7 +221,7 @@
     {
         "id": "A1-NOUN-NAT-038",
         "word": "wind",
-        "emoji": "\ud83d\udca8",
+        "emoji": "💨",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -235,7 +235,7 @@
                 ]
             }
         ],
-        "transcription": "w\u026and",
+        "transcription": "wɪnd",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -245,6 +245,424 @@
             "origin_word": "windaz"
         },
         "legacy_id": "A1-NAT-44",
+        "level_code": "A1",
+        "domain": "NATURE",
+        "subcategory": "Environment",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Natural_World"
+    },
+    {
+        "id": "A1-NOUN-NAT-050",
+        "word": "moon",
+        "form": "noun",
+        "transcription": "muːn",
+        "emoji": "🌙",
+        "definitions": [
+            {
+                "text": "The natural satellite of the earth.",
+                "examples": [
+                    "Full moon in the night sky.",
+                    "The moon orbits the earth."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "NATURE",
+        "subcategory": "Environment",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Natural_World"
+    },
+    {
+        "id": "A1-NOUN-NAT-051",
+        "word": "star",
+        "form": "noun",
+        "transcription": "stɑː",
+        "emoji": "⭐",
+        "definitions": [
+            {
+                "text": "A fixed luminous point in the night sky.",
+                "examples": [
+                    "Count the stars at night.",
+                    "A bright shining star."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "NATURE",
+        "subcategory": "Environment",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Natural_World"
+    },
+    {
+        "id": "A1-NOUN-NAT-052",
+        "word": "sky",
+        "form": "noun",
+        "transcription": "skaɪ",
+        "emoji": "☁️",
+        "definitions": [
+            {
+                "text": "The region of the atmosphere above the earth.",
+                "examples": [
+                    "Blue sky with white clouds.",
+                    "Look up at the night sky."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "NATURE",
+        "subcategory": "Environment",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Natural_World"
+    },
+    {
+        "id": "A1-NOUN-NAT-053",
+        "word": "sea",
+        "form": "noun",
+        "transcription": "siː",
+        "emoji": "🌊",
+        "definitions": [
+            {
+                "text": "The expanse of salt water that covers most of the earth's surface.",
+                "examples": [
+                    "Swim in the warm blue sea.",
+                    "A calm sea."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "NATURE",
+        "subcategory": "Environment",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Natural_World"
+    },
+    {
+        "id": "A1-NOUN-NAT-054",
+        "word": "ocean",
+        "form": "noun",
+        "transcription": "ˈəʊʃn",
+        "emoji": "🌊",
+        "definitions": [
+            {
+                "text": "A very large expanse of sea.",
+                "examples": [
+                    "Pacific Ocean.",
+                    "Dolphins swim in the ocean."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "NATURE",
+        "subcategory": "Environment",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Natural_World"
+    },
+    {
+        "id": "A1-NOUN-NAT-055",
+        "word": "river",
+        "form": "noun",
+        "transcription": "ˈrɪvə",
+        "emoji": "🏞️",
+        "definitions": [
+            {
+                "text": "A large natural stream of water.",
+                "examples": [
+                    "A boat trip down the river.",
+                    "Cross the river over the bridge."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "NATURE",
+        "subcategory": "Environment",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Natural_World"
+    },
+    {
+        "id": "A1-NOUN-NAT-056",
+        "word": "lake",
+        "form": "noun",
+        "transcription": "leɪk",
+        "emoji": "🏞️",
+        "definitions": [
+            {
+                "text": "A large body of water surrounded by land.",
+                "examples": [
+                    "A calm mountain lake.",
+                    "Feed ducks at the lake."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "NATURE",
+        "subcategory": "Environment",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Natural_World"
+    },
+    {
+        "id": "A1-NOUN-NAT-057",
+        "word": "mountain",
+        "form": "noun",
+        "transcription": "ˈmaʊntən",
+        "emoji": "⛰️",
+        "definitions": [
+            {
+                "text": "A large natural elevation of the earth's surface.",
+                "examples": [
+                    "Snowy mountain peak.",
+                    "Climb up the mountain."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "NATURE",
+        "subcategory": "Environment",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Natural_World"
+    },
+    {
+        "id": "A1-NOUN-NAT-058",
+        "word": "hill",
+        "form": "noun",
+        "transcription": "hɪl",
+        "emoji": "⛰️",
+        "definitions": [
+            {
+                "text": "A naturally raised area of land, not as high as a mountain.",
+                "examples": [
+                    "Walk up the grassy hill.",
+                    "A house on the hill."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "NATURE",
+        "subcategory": "Environment",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Natural_World"
+    },
+    {
+        "id": "A1-NOUN-NAT-060",
+        "word": "air",
+        "form": "noun",
+        "transcription": "eə",
+        "emoji": "🌬️",
+        "definitions": [
+            {
+                "text": "The invisible gaseous substance surrounding the earth.",
+                "examples": [
+                    "Fresh mountain air.",
+                    "Breathe clean air."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "NATURE",
+        "subcategory": "Environment",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Natural_World"
+    },
+    {
+        "id": "A1-NOUN-NAT-061",
+        "word": "nature",
+        "form": "noun",
+        "transcription": "ˈneɪtʃə",
+        "emoji": "🌿",
+        "definitions": [
+            {
+                "text": "The physical world including plants, animals, and landscapes.",
+                "examples": [
+                    "Enjoy the beauty of nature.",
+                    "Walk in nature."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "NATURE",
+        "subcategory": "Environment",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Natural_World"
+    },
+    {
+        "id": "A1-NOUN-NAT-062",
+        "word": "forest",
+        "form": "noun",
+        "transcription": "ˈfɒrɪst",
+        "emoji": "🌲",
+        "definitions": [
+            {
+                "text": "A large area covered chiefly with trees.",
+                "examples": [
+                    "A quiet pine forest.",
+                    "Walk through the forest."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "NATURE",
+        "subcategory": "Environment",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Natural_World"
+    },
+    {
+        "id": "A1-NOUN-NAT-063",
+        "word": "wood",
+        "form": "noun",
+        "transcription": "wʊd",
+        "emoji": "🪵",
+        "definitions": [
+            {
+                "text": "A small forest, or the hard material from trees.",
+                "examples": [
+                    "Walk in the green woods.",
+                    "Furniture made of wood."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "NATURE",
+        "subcategory": "Environment",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Natural_World"
+    },
+    {
+        "id": "A1-NOUN-NAT-064",
+        "word": "jungle",
+        "form": "noun",
+        "transcription": "ˈdʒʌŋɡl",
+        "emoji": "🌴",
+        "definitions": [
+            {
+                "text": "A dense tropical forest.",
+                "examples": [
+                    "Wild animals live in the jungle.",
+                    "A thick green jungle."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "NATURE",
+        "subcategory": "Environment",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Natural_World"
+    },
+    {
+        "id": "A1-NOUN-NAT-065",
+        "word": "island",
+        "form": "noun",
+        "transcription": "ˈaɪlənd",
+        "emoji": "🏝️",
+        "definitions": [
+            {
+                "text": "A piece of land surrounded by water.",
+                "examples": [
+                    "A tropical island.",
+                    "Sail to the island."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "NATURE",
+        "subcategory": "Environment",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Natural_World"
+    },
+    {
+        "id": "A1-NOUN-NAT-066",
+        "word": "sand",
+        "form": "noun",
+        "transcription": "sænd",
+        "emoji": "🏖️",
+        "definitions": [
+            {
+                "text": "Granular material composed of finely divided rock.",
+                "examples": [
+                    "Golden sand on the beach.",
+                    "Walk on warm sand."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "NATURE",
+        "subcategory": "Environment",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Natural_World"
+    },
+    {
+        "id": "A1-NOUN-NAT-067",
+        "word": "rock",
+        "form": "noun",
+        "transcription": "rɒk",
+        "emoji": "🪨",
+        "definitions": [
+            {
+                "text": "The solid mineral material forming part of the surface of the earth.",
+                "examples": [
+                    "Climb on a big rock.",
+                    "A hard stone rock."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "NATURE",
+        "subcategory": "Environment",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Natural_World"
+    },
+    {
+        "id": "A1-NOUN-NAT-068",
+        "word": "stone",
+        "form": "noun",
+        "transcription": "stəʊn",
+        "emoji": "🪨",
+        "definitions": [
+            {
+                "text": "A small piece of rock.",
+                "examples": [
+                    "Throw a small stone in the lake.",
+                    "A stone wall."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "NATURE",
+        "subcategory": "Environment",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Natural_World"
+    },
+    {
+        "id": "A1-NOUN-NAT-069",
+        "word": "earth",
+        "form": "noun",
+        "transcription": "ɜːθ",
+        "emoji": "🌍",
+        "definitions": [
+            {
+                "text": "The planet on which we live.",
+                "examples": [
+                    "Planet Earth.",
+                    "Fertile soil earth."
+                ]
+            }
+        ],
+        "level": "starter",
         "level_code": "A1",
         "domain": "NATURE",
         "subcategory": "Environment",

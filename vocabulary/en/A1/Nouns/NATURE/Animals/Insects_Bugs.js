@@ -4,7 +4,7 @@
     {
         "id": "A1-NOUN-NAT-001",
         "word": "ant",
-        "emoji": "\ud83d\udc1c",
+        "emoji": "🐜",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
             }
         ],
         "subtext": "related to insects",
-        "transcription": "\u00e6nt",
+        "transcription": "ænt",
         "lang": "en",
         "level": "starter",
         "theme": "insects",
@@ -33,7 +33,7 @@
     {
         "id": "A1-NOUN-NAT-002",
         "word": "butterfly",
-        "emoji": "\ud83e\udd8b",
+        "emoji": "🦋",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -47,16 +47,38 @@
             }
         ],
         "subtext": "related to insects",
-        "transcription": "\u02c8b\u0259t\u0259r\u02ccfla\u026a",
+        "transcription": "ˈbətərˌflaɪ",
         "lang": "en",
         "level": "starter",
         "theme": "insects",
         "sub_theme": "insects",
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "butturafleug\u014dn"
+            "origin_word": "butturafleugōn"
         },
         "legacy_id": "A1-NAT-06",
+        "level_code": "A1",
+        "domain": "NATURE",
+        "subcategory": "Animals",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Insects_Bugs"
+    },
+    {
+        "id": "A1-NOUN-NAT-045",
+        "word": "insect",
+        "form": "noun",
+        "transcription": "ˈɪnsekt",
+        "emoji": "🦗",
+        "definitions": [
+            {
+                "text": "A small arthropod animal with six legs.",
+                "examples": [
+                    "A tiny crawling insect.",
+                    "Insects live in grass."
+                ]
+            }
+        ],
+        "level": "starter",
         "level_code": "A1",
         "domain": "NATURE",
         "subcategory": "Animals",

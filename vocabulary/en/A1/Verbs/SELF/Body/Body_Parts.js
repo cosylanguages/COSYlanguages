@@ -4,7 +4,7 @@
     {
         "id": "A1-VERB-SEL-009",
         "word": "breathe",
-        "emoji": "\ud83e\udec1",
+        "emoji": "🫁",
         "form": "verb",
         "definitions": [
             {
@@ -24,7 +24,7 @@
             "inhale",
             "exhale"
         ],
-        "transcription": "bri\u00f0",
+        "transcription": "brið",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -37,46 +37,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-VERB-SEL-010",
-        "word": "breathe",
-        "emoji": "\ud83e\udec1",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To take air into your lungs and send it out again.",
-                "examples": [
-                    "Breathe deeply."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "breathed",
-        "v3": "breathed",
-        "group": "regular",
-        "subtext": "breathe",
-        "synonyms": [
-            "inhale",
-            "exhale"
-        ],
-        "transcription": "bri\u00f0",
-        "auxiliary": "have",
-        "v4": "breathing",
-        "lang": "en",
-        "level": "starter",
-        "theme": "body",
-        "sub_theme": null,
-        "legacy_id": "A1-SELF-06",
-        "level_code": "A1",
-        "domain": "SELF",
-        "subcategory": "Body",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Body_Parts"
-    },
-    {
         "id": "A1-VERB-SEL-011",
         "word": "hear",
-        "emoji": "\ud83d\udc42",
+        "emoji": "👂",
         "subtext": "hear news / hear from someone / hear a sound / hear clearly",
         "form": "verb",
         "definitions": [
@@ -114,50 +77,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-VERB-SEL-012",
-        "word": "hear",
-        "emoji": "\ud83d\udc42",
-        "subtext": "hear news / hear from someone / hear a sound / hear clearly",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To perceive sound through the ears.",
-                "examples": [
-                    "I hear the alarm every morning.",
-                    "Can you hear me?"
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "both",
-        "v2": "heard",
-        "v3": "heard",
-        "group": "regular",
-        "transcription": "hir",
-        "auxiliary": "have",
-        "lang": "en",
-        "level": "starter",
-        "theme": "body",
-        "sub_theme": null,
-        "etymology": {
-            "origin_lang": "Proto-Germanic",
-            "origin_word": "hauzjan",
-            "origin_meaning": "to hear"
-        },
-        "antonyms": [
-            "ignore"
-        ],
-        "legacy_id": "A1-SELF-18",
-        "level_code": "A1",
-        "domain": "SELF",
-        "subcategory": "Body",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Body_Parts"
-    },
-    {
         "id": "A1-VERB-SEL-013",
         "word": "look",
-        "emoji": "\ud83d\udc40",
+        "emoji": "👀",
         "subtext": "look at something / look for something / look at / for, look at / look for / look like / look happy",
         "form": "verb",
         "definitions": [
@@ -174,7 +96,7 @@
         "v2": "looked",
         "v3": "looked",
         "group": "regular",
-        "transcription": "l\u028ak",
+        "transcription": "lʊk",
         "auxiliary": "have",
         "v4": "looking",
         "lang": "en",
@@ -194,7 +116,7 @@
     {
         "id": "A1-VERB-SEL-014",
         "word": "see",
-        "emoji": "\ud83d\udc41\ufe0f",
+        "emoji": "👁️",
         "subtext": "see a doctor / see friends / see the problem / see clearly",
         "form": "verb",
         "definitions": [
@@ -232,50 +154,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-VERB-SEL-015",
-        "word": "see",
-        "emoji": "\ud83d\udc41\ufe0f",
-        "subtext": "see a doctor / see friends / see the problem / see clearly",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To notice or perceive with the eyes.",
-                "examples": [
-                    "I see my doctor tomorrow.",
-                    "She sees the problem."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "both",
-        "v2": "saw",
-        "v3": "seen",
-        "group": "regular",
-        "transcription": "si",
-        "auxiliary": "have",
-        "lang": "en",
-        "level": "starter",
-        "theme": "body",
-        "sub_theme": null,
-        "etymology": {
-            "origin_lang": "Proto-Germanic",
-            "origin_word": "sehwan",
-            "origin_meaning": "to see"
-        },
-        "antonyms": [
-            "blind"
-        ],
-        "legacy_id": "A1-SELF-27",
-        "level_code": "A1",
-        "domain": "SELF",
-        "subcategory": "Body",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Body_Parts"
-    },
-    {
         "id": "A1-VERB-SEL-016",
         "word": "smell",
-        "emoji": "\ud83d\udc43",
+        "emoji": "👃",
         "form": "verb",
         "subtext": "smell good / smell the flowers",
         "synonyms": [
@@ -294,7 +175,7 @@
         "v2": "smelled / smelt",
         "v3": "smelled / smelt",
         "group": "both",
-        "transcription": "sm\u025bl",
+        "transcription": "smɛl",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -310,47 +191,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-VERB-SEL-017",
-        "word": "smell",
-        "emoji": "\ud83d\udc43",
-        "form": "verb",
-        "subtext": "smell good / smell the flowers",
-        "synonyms": [
-            "scent"
-        ],
-        "definitions": [
-            {
-                "text": "To notice or recognize something using your nose.",
-                "examples": [
-                    "I can smell the coffee."
-                ]
-            }
-        ],
-        "classification": "both",
-        "aspect": "both",
-        "v2": "smelled / smelt",
-        "v3": "smelled / smelt",
-        "group": "regular",
-        "transcription": "sm\u025bl",
-        "auxiliary": "have",
-        "lang": "en",
-        "level": "starter",
-        "theme": "body",
-        "sub_theme": null,
-        "antonyms": [
-            "stink"
-        ],
-        "legacy_id": "A1-SELF-30",
-        "level_code": "A1",
-        "domain": "SELF",
-        "subcategory": "Body",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Body_Parts"
-    },
-    {
         "id": "A1-VERB-SEL-018",
         "word": "smile",
-        "emoji": "\ud83d\ude0a",
+        "emoji": "😊",
         "subtext": "smile at someone / a big smile / smile broadly",
         "form": "verb",
         "definitions": [
@@ -367,7 +210,7 @@
         "v2": "smiled",
         "v3": "smiled",
         "group": "regular",
-        "transcription": "sma\u026al",
+        "transcription": "smaɪl",
         "auxiliary": "have",
         "v4": "smiling",
         "lang": "en",
@@ -387,7 +230,7 @@
     {
         "id": "A1-VERB-SEL-019",
         "word": "yawn",
-        "emoji": "\ud83e\udd71",
+        "emoji": "🥱",
         "form": "verb",
         "definitions": [
             {
@@ -406,7 +249,7 @@
         "synonyms": [
             "feel sleepy"
         ],
-        "transcription": "j\u0254n",
+        "transcription": "jɔn",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -419,35 +262,21 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-VERB-SEL-020",
-        "word": "yawn",
-        "emoji": "\ud83e\udd71",
+        "id": "A1-VERB-SEL-055",
+        "word": "shave",
         "form": "verb",
+        "transcription": "ʃeɪv",
+        "emoji": "🪒",
         "definitions": [
             {
-                "text": "To open your mouth wide and take a deep breath because you are tired.",
+                "text": "Remove hair from skin with a razor.",
                 "examples": [
-                    "She yawned during the meeting."
+                    "He shaves every morning.",
+                    "She shaved her legs."
                 ]
             }
         ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "yawned",
-        "v3": "yawned",
-        "group": "regular",
-        "subtext": "yawn",
-        "synonyms": [
-            "feel sleepy"
-        ],
-        "transcription": "j\u0254n",
-        "auxiliary": "have",
-        "v4": "yawning",
-        "lang": "en",
         "level": "starter",
-        "theme": "body",
-        "sub_theme": null,
-        "legacy_id": "A1-SELF-39",
         "level_code": "A1",
         "domain": "SELF",
         "subcategory": "Body",

@@ -4,7 +4,7 @@
     {
         "id": "A1-NOUN-TIM-019",
         "word": "Friday",
-        "emoji": "\ud83d\udcc5",
+        "emoji": "📅",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -17,7 +17,7 @@
             }
         ],
         "subtext": "related to days week",
-        "transcription": "\u02c8fra\u026a\u02ccde\u026a",
+        "transcription": "ˈfraɪˌdeɪ",
         "lang": "en",
         "level": "starter",
         "theme": "days_week",
@@ -32,7 +32,7 @@
     {
         "id": "A1-NOUN-TIM-020",
         "word": "Monday",
-        "emoji": "\ud83d\udcc5",
+        "emoji": "📅",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -45,7 +45,7 @@
             }
         ],
         "subtext": "related to days week",
-        "transcription": "\u02c8m\u0259n\u02ccde\u026a",
+        "transcription": "ˈmənˌdeɪ",
         "lang": "en",
         "level": "starter",
         "theme": "days_week",
@@ -60,7 +60,7 @@
     {
         "id": "A1-NOUN-TIM-021",
         "word": "Saturday",
-        "emoji": "\ud83d\udcc5",
+        "emoji": "📅",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -73,7 +73,7 @@
             }
         ],
         "subtext": "related to days week",
-        "transcription": "\u02c8s\u00e6\u02cct\u026a\u02ccde\u026a",
+        "transcription": "ˈsæˌtɪˌdeɪ",
         "lang": "en",
         "level": "starter",
         "theme": "days_week",
@@ -88,7 +88,7 @@
     {
         "id": "A1-NOUN-TIM-022",
         "word": "Sunday",
-        "emoji": "\ud83d\udcc5",
+        "emoji": "📅",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -101,7 +101,7 @@
             }
         ],
         "subtext": "related to days week",
-        "transcription": "\u02c8s\u0259n\u02ccdi",
+        "transcription": "ˈsənˌdi",
         "lang": "en",
         "level": "starter",
         "theme": "days_week",
@@ -116,7 +116,7 @@
     {
         "id": "A1-NOUN-TIM-023",
         "word": "Thursday",
-        "emoji": "\ud83d\udcc5",
+        "emoji": "📅",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -129,7 +129,7 @@
             }
         ],
         "subtext": "related to days week",
-        "transcription": "\u02c8\u03b8\u0259rz\u02ccde\u026a",
+        "transcription": "ˈθərzˌdeɪ",
         "lang": "en",
         "level": "starter",
         "theme": "days_week",
@@ -144,7 +144,7 @@
     {
         "id": "A1-NOUN-TIM-024",
         "word": "Tuesday",
-        "emoji": "\ud83d\udcc5",
+        "emoji": "📅",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -157,7 +157,7 @@
             }
         ],
         "subtext": "related to days week",
-        "transcription": "\u02c8tuz\u02ccde\u026a",
+        "transcription": "ˈtuzˌdeɪ",
         "lang": "en",
         "level": "starter",
         "theme": "days_week",
@@ -172,7 +172,7 @@
     {
         "id": "A1-NOUN-TIM-025",
         "word": "Wednesday",
-        "emoji": "\ud83d\udcc5",
+        "emoji": "📅",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -185,7 +185,7 @@
             }
         ],
         "subtext": "related to days week",
-        "transcription": "\u02c8w\u025bnz\u02ccde\u026a",
+        "transcription": "ˈwɛnzˌdeɪ",
         "lang": "en",
         "level": "starter",
         "theme": "days_week",

@@ -4,7 +4,7 @@
     {
         "id": "A1-NOUN-TIM-015",
         "word": "calendar",
-        "emoji": "\ud83d\udcc5",
+        "emoji": "📅",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -21,7 +21,7 @@
         "synonyms": [
             "date planner"
         ],
-        "transcription": "\u02c8k\u00e6l\u0259nd\u0259r",
+        "transcription": "ˈkæləndər",
         "lang": "en",
         "level": "starter",
         "theme": "dates_years",
@@ -36,7 +36,7 @@
     {
         "id": "A1-NOUN-TIM-016",
         "word": "date",
-        "emoji": "\ud83d\udcc5",
+        "emoji": "📅",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -50,7 +50,7 @@
                 ]
             }
         ],
-        "transcription": "de\u026at",
+        "transcription": "deɪt",
         "lang": "en",
         "level": "starter",
         "theme": "dates_years",
@@ -65,7 +65,7 @@
     {
         "id": "A1-NOUN-TIM-017",
         "word": "month",
-        "emoji": "\ud83d\udcc5",
+        "emoji": "📅",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -79,7 +79,7 @@
             }
         ],
         "subtext": "related to dates years",
-        "transcription": "m\u0259n\u03b8",
+        "transcription": "mənθ",
         "lang": "en",
         "level": "starter",
         "theme": "dates_years",
@@ -94,7 +94,7 @@
     {
         "id": "A1-NOUN-TIM-018",
         "word": "year",
-        "emoji": "\ud83d\udcc5",
+        "emoji": "📅",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -108,7 +108,7 @@
             }
         ],
         "subtext": "related to dates years",
-        "transcription": "j\u026ar",
+        "transcription": "jɪr",
         "lang": "en",
         "level": "starter",
         "theme": "dates_years",

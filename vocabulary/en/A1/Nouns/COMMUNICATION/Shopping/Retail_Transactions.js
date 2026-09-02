@@ -4,12 +4,12 @@
     {
         "id": "A1-NOUN-COM-033",
         "word": "card",
-        "emoji": "\ud83d\udcb3",
+        "emoji": "💳",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
         "plural": "cards",
-        "transcription": "k\u0251\u02d0d",
+        "transcription": "kɑːd",
         "subtext": "pay by card",
         "definitions": [
             {
@@ -33,12 +33,12 @@
     {
         "id": "A1-NOUN-COM-034",
         "word": "cash",
-        "emoji": "\ud83d\udcb5",
+        "emoji": "💵",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
         "plural": null,
-        "transcription": "k\u00e6\u0283",
+        "transcription": "kæʃ",
         "subtext": "pay in cash",
         "definitions": [
             {
@@ -62,7 +62,7 @@
     {
         "id": "A1-NOUN-COM-035",
         "word": "customer",
-        "emoji": "\ud83d\udecd\ufe0f",
+        "emoji": "🛍️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -76,7 +76,7 @@
             }
         ],
         "subtext": "related to everyday shopping",
-        "transcription": "\u02c8k\u0259st\u0259m\u0259r",
+        "transcription": "ˈkəstəmər",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -91,7 +91,7 @@
     {
         "id": "A1-NOUN-COM-036",
         "word": "gift",
-        "emoji": "\ud83c\udf81",
+        "emoji": "🎁",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -108,7 +108,7 @@
                 ]
             }
         ],
-        "transcription": "g\u026aft",
+        "transcription": "gɪft",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -123,7 +123,7 @@
     {
         "id": "A1-NOUN-COM-037",
         "word": "money",
-        "emoji": "\ud83d\udcb0",
+        "emoji": "💰",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -137,7 +137,7 @@
                 ]
             }
         ],
-        "transcription": "\u02c8m\u0259ni",
+        "transcription": "ˈməni",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -152,7 +152,7 @@
     {
         "id": "A1-NOUN-COM-038",
         "word": "price",
-        "emoji": "\ud83c\udff7\ufe0f",
+        "emoji": "🏷️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -166,7 +166,7 @@
                 ]
             }
         ],
-        "transcription": "pra\u026as",
+        "transcription": "praɪs",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -181,7 +181,7 @@
     {
         "id": "A1-NOUN-COM-039",
         "word": "purse",
-        "emoji": "\ud83d\udc5b",
+        "emoji": "👛",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -195,7 +195,7 @@
             }
         ],
         "subtext": "related to everyday shopping",
-        "transcription": "p\u0259rs",
+        "transcription": "pərs",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -210,7 +210,7 @@
     {
         "id": "A1-NOUN-COM-040",
         "word": "wage",
-        "emoji": "\ud83d\udcb5",
+        "emoji": "💵",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -228,12 +228,34 @@
                 ]
             }
         ],
-        "transcription": "we\u026a\u02a4",
+        "transcription": "weɪʤ",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
         "sub_theme": null,
         "legacy_id": "A1-COMM-51",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Shopping",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Retail_Transactions"
+    },
+    {
+        "id": "A1-NOUN-COM-087",
+        "word": "bill",
+        "form": "noun",
+        "transcription": "bɪl",
+        "emoji": "🧾",
+        "definitions": [
+            {
+                "text": "A statement of money owed for goods or services.",
+                "examples": [
+                    "Pay the restaurant bill.",
+                    "An electricity bill."
+                ]
+            }
+        ],
+        "level": "starter",
         "level_code": "A1",
         "domain": "COMMUNICATION",
         "subcategory": "Shopping",

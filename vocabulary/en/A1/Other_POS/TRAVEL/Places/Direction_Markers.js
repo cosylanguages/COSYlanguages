@@ -4,7 +4,7 @@
     {
         "id": "A1-OTH-TRA-001",
         "word": "down",
-        "emoji": "\u2b07\ufe0f",
+        "emoji": "⬇️",
         "form": "preposition",
         "definitions": [
             {
@@ -15,7 +15,7 @@
             }
         ],
         "subtext": "related to prepositions movement",
-        "transcription": "da\u028an",
+        "transcription": "daʊn",
         "lang": "en",
         "level": "starter",
         "theme": "prepositions_movement",
@@ -43,8 +43,8 @@
             }
         ],
         "subtext": "related to prepositions movement",
-        "emoji": "\u27a1\ufe0f",
-        "transcription": "t\u026a",
+        "emoji": "➡️",
+        "transcription": "tɪ",
         "lang": "en",
         "level": "starter",
         "theme": "prepositions_movement",
@@ -59,7 +59,7 @@
     {
         "id": "A1-OTH-TRA-003",
         "word": "up",
-        "emoji": "\u2b06\ufe0f",
+        "emoji": "⬆️",
         "form": "preposition",
         "definitions": [
             {
@@ -70,7 +70,7 @@
             }
         ],
         "subtext": "related to prepositions movement",
-        "transcription": "\u0259p",
+        "transcription": "əp",
         "lang": "en",
         "level": "starter",
         "theme": "prepositions_movement",
@@ -79,6 +79,50 @@
             "down"
         ],
         "legacy_id": "A1-TRV-115",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Other_POS",
+        "sub_subcategory": "Direction_Markers"
+    },
+    {
+        "id": "A1-OTH-TRA-083",
+        "word": "along",
+        "form": "preposition",
+        "transcription": "əˈlɒŋ",
+        "emoji": "🛣️",
+        "definitions": [
+            {
+                "text": "Moving in a constant direction on a path.",
+                "examples": [
+                    "Walk along the beach.",
+                    "Trees along the road."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Other_POS",
+        "sub_subcategory": "Direction_Markers"
+    },
+    {
+        "id": "A1-OTH-TRA-085",
+        "word": "away",
+        "form": "adverb",
+        "transcription": "əˈweɪ",
+        "emoji": "🏃",
+        "definitions": [
+            {
+                "text": "To or at a distance from a place.",
+                "examples": [
+                    "Go away please.",
+                    "Far away from home."
+                ]
+            }
+        ],
+        "level": "starter",
         "level_code": "A1",
         "domain": "TRAVEL",
         "subcategory": "Places",

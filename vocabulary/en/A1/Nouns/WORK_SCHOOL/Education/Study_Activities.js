@@ -4,7 +4,7 @@
     {
         "id": "A1-NOUN-WOR-020",
         "word": "alphabet",
-        "emoji": "\ud83d\udd24",
+        "emoji": "🔤",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -17,7 +17,7 @@
             }
         ],
         "subtext": "letters",
-        "transcription": "\u02c8\u00e6lf\u0259\u02ccb\u025bt",
+        "transcription": "ˈælfəˌbɛt",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -36,7 +36,7 @@
     {
         "id": "A1-NOUN-WOR-021",
         "word": "class",
-        "emoji": "\ud83c\udfeb",
+        "emoji": "🏫",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -50,7 +50,7 @@
                 ]
             }
         ],
-        "transcription": "kl\u00e6s",
+        "transcription": "klæs",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -65,7 +65,7 @@
     {
         "id": "A1-NOUN-WOR-022",
         "word": "classmate",
-        "emoji": "\ud83e\uddd1\u200d\ud83e\udd1d\u200d\ud83e\uddd1",
+        "emoji": "🧑‍🤝‍🧑",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -79,7 +79,7 @@
             }
         ],
         "subtext": "related to learning studying",
-        "transcription": "\u02c8kl\u00e6s\u02ccme\u026at",
+        "transcription": "ˈklæsˌmeɪt",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -94,7 +94,7 @@
     {
         "id": "A1-NOUN-WOR-023",
         "word": "exam",
-        "emoji": "\ud83d\udcdd",
+        "emoji": "📝",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -108,7 +108,7 @@
                 ]
             }
         ],
-        "transcription": "\u026ag\u02c8z\u00e6m",
+        "transcription": "ɪgˈzæm",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -123,7 +123,7 @@
     {
         "id": "A1-NOUN-WOR-024",
         "word": "homework",
-        "emoji": "\ud83d\udcdd",
+        "emoji": "📝",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -137,7 +137,7 @@
             }
         ],
         "subtext": "related to learning studying",
-        "transcription": "\u02c8ho\u028am\u02ccw\u0259rk",
+        "transcription": "ˈhoʊmˌwərk",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -152,7 +152,7 @@
     {
         "id": "A1-NOUN-WOR-025",
         "word": "lesson",
-        "emoji": "\ud83d\udcda",
+        "emoji": "📚",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -166,7 +166,7 @@
             }
         ],
         "subtext": "related to learning studying",
-        "transcription": "\u02c8l\u025bs\u0259n",
+        "transcription": "ˈlɛsən",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -186,7 +186,7 @@
     {
         "id": "A1-NOUN-WOR-026",
         "word": "skill",
-        "emoji": "\ud83e\udde0",
+        "emoji": "🧠",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -200,7 +200,7 @@
                 ]
             }
         ],
-        "transcription": "sk\u026al",
+        "transcription": "skɪl",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -215,7 +215,7 @@
     {
         "id": "A1-NOUN-WOR-027",
         "word": "student",
-        "emoji": "\ud83e\uddd1\u200d\ud83c\udf93",
+        "emoji": "🧑‍🎓",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -229,7 +229,7 @@
             }
         ],
         "subtext": "related to learning studying",
-        "transcription": "\u02c8stud\u0259nt",
+        "transcription": "ˈstudənt",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -249,7 +249,7 @@
     {
         "id": "A1-NOUN-WOR-028",
         "word": "test",
-        "emoji": "\ud83d\udcdd",
+        "emoji": "📝",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -263,12 +263,56 @@
                 ]
             }
         ],
-        "transcription": "t\u025bst",
+        "transcription": "tɛst",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
         "sub_theme": null,
         "legacy_id": "A1-WORK-47",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Study_Activities"
+    },
+    {
+        "id": "A1-NOUN-WOR-073",
+        "word": "grade",
+        "form": "noun",
+        "transcription": "ɡreɪd",
+        "emoji": "🅰️",
+        "definitions": [
+            {
+                "text": "A mark indicating the quality of a student's work.",
+                "examples": [
+                    "She got a good grade in English.",
+                    "High exam grades."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Study_Activities"
+    },
+    {
+        "id": "A1-NOUN-WOR-074",
+        "word": "mark",
+        "form": "noun",
+        "transcription": "mɑːk",
+        "emoji": "✍️",
+        "definitions": [
+            {
+                "text": "A point or grade given for schoolwork.",
+                "examples": [
+                    "Full marks on the test.",
+                    "The teacher marked the paper."
+                ]
+            }
+        ],
+        "level": "starter",
         "level_code": "A1",
         "domain": "WORK_SCHOOL",
         "subcategory": "Education",

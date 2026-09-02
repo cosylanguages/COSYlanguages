@@ -4,7 +4,7 @@
     {
         "id": "A1-NOUN-TIM-004",
         "word": "afternoon",
-        "emoji": "\u2600\ufe0f",
+        "emoji": "☀️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -17,7 +17,7 @@
                 ]
             }
         ],
-        "transcription": "\u02cc\u00e6ft\u0259r\u02c8nun",
+        "transcription": "ˌæftərˈnun",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -35,7 +35,7 @@
     {
         "id": "A1-NOUN-TIM-005",
         "word": "day",
-        "emoji": "\u2600\ufe0f",
+        "emoji": "☀️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -49,7 +49,7 @@
             }
         ],
         "subtext": "related to times day",
-        "transcription": "de\u026a",
+        "transcription": "deɪ",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -71,7 +71,7 @@
     {
         "id": "A1-NOUN-TIM-006",
         "word": "evening",
-        "emoji": "\ud83c\udf06",
+        "emoji": "🌆",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -84,7 +84,7 @@
                 ]
             }
         ],
-        "transcription": "\u02c8ivn\u026a\u014b",
+        "transcription": "ˈivnɪŋ",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -102,7 +102,7 @@
     {
         "id": "A1-NOUN-TIM-007",
         "word": "hour",
-        "emoji": "\u23f0",
+        "emoji": "⏰",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -116,7 +116,7 @@
             }
         ],
         "subtext": "related to telling time",
-        "transcription": "a\u028a\u0259r",
+        "transcription": "aʊər",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -131,7 +131,7 @@
     {
         "id": "A1-NOUN-TIM-008",
         "word": "minute",
-        "emoji": "\u23f2\ufe0f",
+        "emoji": "⏲️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -145,7 +145,7 @@
             }
         ],
         "subtext": "related to telling time",
-        "transcription": "\u02c8m\u026an\u0259t",
+        "transcription": "ˈmɪnət",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -160,7 +160,7 @@
     {
         "id": "A1-NOUN-TIM-009",
         "word": "morning",
-        "emoji": "\ud83c\udf05",
+        "emoji": "🌅",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -173,7 +173,7 @@
                 ]
             }
         ],
-        "transcription": "\u02c8m\u0254rn\u026a\u014b",
+        "transcription": "ˈmɔrnɪŋ",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -191,7 +191,7 @@
     {
         "id": "A1-NOUN-TIM-010",
         "word": "night",
-        "emoji": "\ud83c\udf19",
+        "emoji": "🌙",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -205,7 +205,7 @@
                 ]
             }
         ],
-        "transcription": "na\u026at",
+        "transcription": "naɪt",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -227,7 +227,7 @@
     {
         "id": "A1-NOUN-TIM-011",
         "word": "second",
-        "emoji": "\u23f1\ufe0f",
+        "emoji": "⏱️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -241,7 +241,7 @@
             }
         ],
         "subtext": "related to telling time",
-        "transcription": "\u02c8s\u025bk\u0259nd",
+        "transcription": "ˈsɛkənd",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -256,7 +256,7 @@
     {
         "id": "A1-NOUN-TIM-012",
         "word": "time",
-        "emoji": "\u231a",
+        "emoji": "⌚",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -270,14 +270,14 @@
                 ]
             }
         ],
-        "transcription": "ta\u026am",
+        "transcription": "taɪm",
         "lang": "en",
         "level": "starter",
         "theme": "time",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "t\u012bm\u00f4"
+            "origin_word": "tīmô"
         },
         "legacy_id": "A1-NUM-51",
         "level_code": "A1",
@@ -289,7 +289,7 @@
     {
         "id": "A1-NOUN-TIM-013",
         "word": "week",
-        "emoji": "\ud83d\udcc5",
+        "emoji": "📅",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -318,7 +318,7 @@
     {
         "id": "A1-NOUN-TIM-014",
         "word": "weekend",
-        "emoji": "\ud83d\udcc5",
+        "emoji": "📅",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -332,7 +332,7 @@
                 ]
             }
         ],
-        "transcription": "\u02c8wi\u02cck\u026and",
+        "transcription": "ˈwiˌkɪnd",
         "lang": "en",
         "level": "starter",
         "theme": "time",

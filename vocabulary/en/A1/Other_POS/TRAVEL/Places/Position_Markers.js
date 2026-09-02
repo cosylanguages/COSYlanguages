@@ -14,8 +14,8 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "emoji": "\u2b06\ufe0f",
-        "transcription": "\u0259\u02c8b\u0259v",
+        "emoji": "⬆️",
+        "transcription": "əˈbəv",
         "lang": "en",
         "level": "starter",
         "theme": "prepositions_place",
@@ -43,8 +43,8 @@
                 ]
             }
         ],
-        "emoji": "\u2b55",
-        "transcription": "\u0259\u02c8ra\u028and",
+        "emoji": "⭕",
+        "transcription": "əˈraʊnd",
         "subtext": "around",
         "lang": "en",
         "level": "starter",
@@ -70,8 +70,8 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "emoji": "\u2b07\ufe0f",
-        "transcription": "b\u026a\u02c8lo\u028a",
+        "emoji": "⬇️",
+        "transcription": "bɪˈloʊ",
         "lang": "en",
         "level": "starter",
         "theme": "prepositions_place",
@@ -99,8 +99,8 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "emoji": "\u2b05\ufe0f",
-        "transcription": "fr\u0259m",
+        "emoji": "⬅️",
+        "transcription": "frəm",
         "lang": "en",
         "level": "starter",
         "theme": "prepositions_place",
@@ -125,8 +125,8 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "emoji": "\ud83c\udfe0",
-        "transcription": "\u02cc\u026an\u02c8sa\u026ad",
+        "emoji": "🏠",
+        "transcription": "ˌɪnˈsaɪd",
         "lang": "en",
         "level": "starter",
         "theme": "prepositions_place",
@@ -154,8 +154,8 @@
                 ]
             }
         ],
-        "emoji": "\ud83d\udd17",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u0252v | \ud83c\uddfa\ud83c\uddf8 \u0251\u02d0v",
+        "emoji": "🔗",
+        "transcription": "🇬🇧 ɒv | 🇺🇸 ɑːv",
         "subtext": "of",
         "lang": "en",
         "level": "starter",
@@ -181,8 +181,8 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "emoji": "\ud83c\udf33",
-        "transcription": "\u02c8a\u028at\u02c8sa\u026ad",
+        "emoji": "🌳",
+        "transcription": "ˈaʊtˈsaɪd",
         "lang": "en",
         "level": "starter",
         "theme": "prepositions_place",
@@ -210,8 +210,8 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "emoji": "\u2795",
-        "transcription": "w\u026a\u03b8",
+        "emoji": "➕",
+        "transcription": "wɪθ",
         "lang": "en",
         "level": "starter",
         "theme": "prepositions_place",
@@ -236,13 +236,79 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "emoji": "\u2796",
-        "transcription": "w\u026a\u02c8\u03b8a\u028at",
+        "emoji": "➖",
+        "transcription": "wɪˈθaʊt",
         "lang": "en",
         "level": "starter",
         "theme": "prepositions_place",
         "sub_theme": null,
         "legacy_id": "A1-TRV-118",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Other_POS",
+        "sub_subcategory": "Position_Markers"
+    },
+    {
+        "id": "A1-OTH-TRA-081",
+        "word": "here",
+        "form": "adverb",
+        "transcription": "hɪə",
+        "emoji": "📍",
+        "definitions": [
+            {
+                "text": "In, at, or to this position.",
+                "examples": [
+                    "Come here please.",
+                    "I am standing here."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Other_POS",
+        "sub_subcategory": "Position_Markers"
+    },
+    {
+        "id": "A1-OTH-TRA-082",
+        "word": "across",
+        "form": "preposition",
+        "transcription": "əˈkrɒs",
+        "emoji": "➡️",
+        "definitions": [
+            {
+                "text": "From one side to the other side of something.",
+                "examples": [
+                    "Walk across the street.",
+                    "A bridge across the river."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Other_POS",
+        "sub_subcategory": "Position_Markers"
+    },
+    {
+        "id": "A1-OTH-TRA-084",
+        "word": "anywhere",
+        "form": "adverb",
+        "transcription": "ˈeniweə",
+        "emoji": "🗺️",
+        "definitions": [
+            {
+                "text": "In or to any place.",
+                "examples": [
+                    "Sit anywhere you like.",
+                    "Did you go anywhere yesterday?"
+                ]
+            }
+        ],
+        "level": "starter",
         "level_code": "A1",
         "domain": "TRAVEL",
         "subcategory": "Places",

@@ -4,9 +4,9 @@
     {
         "id": "A1-ADJ-COM-015",
         "word": "possible",
-        "emoji": "\u2705",
+        "emoji": "✅",
         "form": "adjective",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8p\u0252s\u0259bl | \ud83c\uddfa\ud83c\uddf8 \u02c8p\u0251\u02d0s\u0259bl",
+        "transcription": "🇬🇧 ˈpɒsəbl | 🇺🇸 ˈpɑːsəbl",
         "definitions": [
             {
                 "text": "Able to be done or achieved.",
@@ -36,7 +36,7 @@
     {
         "id": "A1-ADJ-COM-016",
         "word": "sure",
-        "emoji": "\u2705",
+        "emoji": "✅",
         "form": "adjective",
         "definitions": [
             {
@@ -53,7 +53,7 @@
         ],
         "comparative": "surer",
         "superlative": "the surest",
-        "transcription": "\u0283\u028ar",
+        "transcription": "ʃʊr",
         "lang": "en",
         "level": "starter",
         "theme": "giving_opinions",
@@ -71,7 +71,7 @@
     {
         "id": "A1-ADJ-COM-017",
         "word": "unsure",
-        "emoji": "\u2753",
+        "emoji": "❓",
         "form": "adjective",
         "subtext": "feel unsure / unsure about",
         "synonyms": [
@@ -87,7 +87,7 @@
         ],
         "comparative": "more unsure",
         "superlative": "the most unsure",
-        "transcription": "\u0259n\u02c8\u0283\u028ar",
+        "transcription": "ənˈʃʊr",
         "lang": "en",
         "level": "starter",
         "theme": "giving_opinions",
@@ -96,6 +96,72 @@
             "sure"
         ],
         "legacy_id": "A1-COMM-106",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Social",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Opinion_Phrases"
+    },
+    {
+        "id": "A1-ADJ-COM-021",
+        "word": "agreed",
+        "form": "adjective",
+        "transcription": "əˈɡriːd",
+        "emoji": "🤝",
+        "definitions": [
+            {
+                "text": "Settled or accepted by mutual consent.",
+                "examples": [
+                    "An agreed price for the car.",
+                    "The terms are agreed."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Social",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Opinion_Phrases"
+    },
+    {
+        "id": "A1-ADJ-COM-022",
+        "word": "best",
+        "form": "adjective",
+        "transcription": "best",
+        "emoji": "🏆",
+        "definitions": [
+            {
+                "text": "Of the most excellent quality.",
+                "examples": [
+                    "My best friend.",
+                    "The best food in town."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Social",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Opinion_Phrases"
+    },
+    {
+        "id": "A1-ADJ-COM-023",
+        "word": "better",
+        "form": "adjective",
+        "transcription": "ˈbetə",
+        "emoji": "👍",
+        "definitions": [
+            {
+                "text": "More desirable, satisfactory, or effective.",
+                "examples": [
+                    "I feel better today.",
+                    "A better idea."
+                ]
+            }
+        ],
+        "level": "starter",
         "level_code": "A1",
         "domain": "COMMUNICATION",
         "subcategory": "Social",

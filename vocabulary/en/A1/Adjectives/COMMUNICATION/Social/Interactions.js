@@ -8,7 +8,7 @@
         "level": "starter",
         "theme": "social",
         "language": "en",
-        "emoji": "\ud83d\ude47",
+        "emoji": "🙇",
         "form": "adjective",
         "definitions": [
             {
@@ -18,7 +18,7 @@
                 ]
             }
         ],
-        "transcription": "\u02c8s\u0251ri",
+        "transcription": "ˈsɑri",
         "lang": "en",
         "legacy_id": "A1-COMM-85",
         "level_code": "A1",

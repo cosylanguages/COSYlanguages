@@ -4,7 +4,7 @@
     {
         "id": "A1-NOUN-COM-041",
         "word": "film",
-        "emoji": "\ud83c\udfac",
+        "emoji": "🎬",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
                 ]
             }
         ],
-        "transcription": "f\u026alm",
+        "transcription": "fɪlm",
         "lang": "en",
         "level": "starter",
         "theme": "social",
@@ -33,7 +33,7 @@
     {
         "id": "A1-NOUN-COM-042",
         "word": "hobby",
-        "emoji": "\ud83c\udfa8",
+        "emoji": "🎨",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -47,7 +47,7 @@
             }
         ],
         "subtext": "related to hobbies interests",
-        "transcription": "\u02c8h\u0251bi",
+        "transcription": "ˈhɑbi",
         "lang": "en",
         "level": "starter",
         "theme": "social",
@@ -62,7 +62,7 @@
     {
         "id": "A1-NOUN-COM-043",
         "word": "movie",
-        "emoji": "\ud83c\udfac",
+        "emoji": "🎬",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -76,7 +76,7 @@
                 ]
             }
         ],
-        "transcription": "\u02c8muvi",
+        "transcription": "ˈmuvi",
         "lang": "en",
         "level": "starter",
         "theme": "social",
@@ -91,7 +91,7 @@
     {
         "id": "A1-NOUN-COM-044",
         "word": "photo",
-        "emoji": "\ud83d\udcf7",
+        "emoji": "📷",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -105,7 +105,7 @@
                 ]
             }
         ],
-        "transcription": "\u02c8fo\u028a\u02ccto\u028a",
+        "transcription": "ˈfoʊˌtoʊ",
         "lang": "en",
         "level": "starter",
         "theme": "social",
@@ -120,7 +120,7 @@
     {
         "id": "A1-NOUN-COM-045",
         "word": "picture",
-        "emoji": "\ud83d\uddbc\ufe0f",
+        "emoji": "🖼️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -134,12 +134,56 @@
                 ]
             }
         ],
-        "transcription": "\u02c8p\u026ak\u02a7\u0259r",
+        "transcription": "ˈpɪkʧər",
         "lang": "en",
         "level": "starter",
         "theme": "social",
         "sub_theme": null,
         "legacy_id": "A1-COMM-64",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Social",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Interactions"
+    },
+    {
+        "id": "A1-NOUN-COM-081",
+        "word": "name",
+        "form": "noun",
+        "transcription": "neɪm",
+        "emoji": "🏷️",
+        "definitions": [
+            {
+                "text": "A word by which a person or thing is known.",
+                "examples": [
+                    "What is your name?",
+                    "My name is John."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Social",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Interactions"
+    },
+    {
+        "id": "A1-NOUN-COM-084",
+        "word": "advice",
+        "form": "noun",
+        "transcription": "ədˈvaɪs",
+        "emoji": "💡",
+        "definitions": [
+            {
+                "text": "Guidance or recommendations about future actions.",
+                "examples": [
+                    "Ask the teacher for advice.",
+                    "Good advice from a friend."
+                ]
+            }
+        ],
+        "level": "starter",
         "level_code": "A1",
         "domain": "COMMUNICATION",
         "subcategory": "Social",

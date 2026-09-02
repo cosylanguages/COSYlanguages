@@ -4,7 +4,7 @@
     {
         "id": "A1-NOUN-SEL-032",
         "word": "list",
-        "emoji": "\ud83d\udcdd",
+        "emoji": "📝",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
                 ]
             }
         ],
-        "transcription": "l\u026ast",
+        "transcription": "lɪst",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -33,7 +33,7 @@
     {
         "id": "A1-NOUN-SEL-033",
         "word": "something",
-        "emoji": "\ud83d\udce6",
+        "emoji": "📦",
         "form": "pronoun",
         "definitions": [
             {
@@ -44,7 +44,7 @@
             }
         ],
         "subtext": "related to describing things",
-        "transcription": "\u02c8s\u0259m\u03b8\u026a\u014b",
+        "transcription": "ˈsəmθɪŋ",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -59,7 +59,7 @@
     {
         "id": "A1-NOUN-SEL-034",
         "word": "thing",
-        "emoji": "\ud83d\udce6",
+        "emoji": "📦",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -73,7 +73,7 @@
             }
         ],
         "subtext": "related to describing things",
-        "transcription": "\u03b8\u026a\u014b",
+        "transcription": "θɪŋ",
         "lang": "en",
         "level": "starter",
         "theme": "describing",

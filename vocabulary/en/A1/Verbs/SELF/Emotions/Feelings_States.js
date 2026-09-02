@@ -4,7 +4,7 @@
     {
         "id": "A1-VERB-SEL-021",
         "word": "dislike",
-        "emoji": "\ud83d\udc4e",
+        "emoji": "👎",
         "subtext": "not like / dislike doing",
         "form": "verb",
         "definitions": [
@@ -20,7 +20,7 @@
         "v2": "disliked",
         "v3": "disliked",
         "group": "regular",
-        "transcription": "d\u026as\u02c8la\u026ak",
+        "transcription": "dɪsˈlaɪk",
         "auxiliary": "have",
         "v4": "disliking",
         "lang": "en",
@@ -40,7 +40,7 @@
     {
         "id": "A1-VERB-SEL-022",
         "word": "enjoy",
-        "emoji": "\ud83d\ude0a",
+        "emoji": "😊",
         "subtext": "enjoy doing / enjoy a meal / enjoy your work / enjoy life",
         "form": "verb",
         "definitions": [
@@ -56,7 +56,7 @@
         "v2": "enjoyed",
         "v3": "enjoyed",
         "group": "regular",
-        "transcription": "\u02cc\u025bn\u02c8\u02a4\u0254\u026a",
+        "transcription": "ˌɛnˈʤɔɪ",
         "auxiliary": "have",
         "v4": "enjoying",
         "lang": "en",
@@ -76,7 +76,7 @@
     {
         "id": "A1-VERB-SEL-023",
         "word": "fight",
-        "emoji": "\u2694\ufe0f",
+        "emoji": "⚔️",
         "form": "verb",
         "subtext": "fight for / a big fight",
         "synonyms": [
@@ -95,7 +95,7 @@
         "v2": "fought",
         "v3": "fought",
         "group": "regular",
-        "transcription": "fa\u026at",
+        "transcription": "faɪt",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -114,7 +114,7 @@
     {
         "id": "A1-VERB-SEL-024",
         "word": "hate",
-        "emoji": "\ud83d\ude21",
+        "emoji": "😡",
         "subtext": "hate doing / hate someone / hate meetings / hate commuting",
         "form": "verb",
         "definitions": [
@@ -131,7 +131,7 @@
         "v2": "hated",
         "v3": "hated",
         "group": "regular",
-        "transcription": "he\u026at",
+        "transcription": "heɪt",
         "synonyms": [
             "dislike"
         ],
@@ -154,7 +154,7 @@
     {
         "id": "A1-VERB-SEL-025",
         "word": "hope",
-        "emoji": "\ud83e\udd1e",
+        "emoji": "🤞",
         "subtext": "hope for / hope to do / hope that / I hope so",
         "form": "verb",
         "definitions": [
@@ -171,7 +171,7 @@
         "v2": "hoped",
         "v3": "hoped",
         "group": "regular",
-        "transcription": "ho\u028ap",
+        "transcription": "hoʊp",
         "synonyms": [
             "wish"
         ],
@@ -194,7 +194,7 @@
     {
         "id": "A1-VERB-SEL-026",
         "word": "laugh",
-        "emoji": "\ud83d\ude02",
+        "emoji": "😂",
         "form": "verb",
         "subtext": "laugh at / laugh together",
         "synonyms": [
@@ -213,7 +213,7 @@
         "v2": "laughed",
         "v3": "laughed",
         "group": "regular",
-        "transcription": "l\u00e6f",
+        "transcription": "læf",
         "auxiliary": "have",
         "v4": "laughing",
         "lang": "en",
@@ -233,7 +233,7 @@
     {
         "id": "A1-VERB-SEL-027",
         "word": "like",
-        "emoji": "\ud83d\udc4d",
+        "emoji": "👍",
         "subtext": "like work / like to travel / like someone / like the idea",
         "form": "verb",
         "definitions": [
@@ -251,7 +251,7 @@
         "v2": "liked",
         "v3": "liked",
         "group": "regular",
-        "transcription": "la\u026ak",
+        "transcription": "laɪk",
         "synonyms": [
             "enjoy"
         ],
@@ -271,7 +271,7 @@
     {
         "id": "A1-VERB-SEL-028",
         "word": "love",
-        "emoji": "\u2764\ufe0f",
+        "emoji": "❤️",
         "subtext": "love someone / love doing / love a place / love the idea",
         "form": "verb",
         "definitions": [
@@ -288,7 +288,7 @@
         "v2": "loved",
         "v3": "loved",
         "group": "regular",
-        "transcription": "l\u0259v",
+        "transcription": "ləv",
         "synonyms": [
             "adore"
         ],
@@ -311,7 +311,7 @@
     {
         "id": "A1-VERB-SEL-029",
         "word": "need",
-        "emoji": "\ud83c\udd98",
+        "emoji": "🆘",
         "subtext": "need help / need time / need money / need to rest",
         "form": "verb",
         "definitions": [
@@ -352,7 +352,7 @@
     {
         "id": "A1-VERB-SEL-030",
         "word": "want",
-        "emoji": "\ud83d\ude4f",
+        "emoji": "🙏",
         "subtext": "want a job / want to leave / want more money / want help",
         "form": "verb",
         "definitions": [
@@ -370,7 +370,7 @@
         "v2": "wanted",
         "v3": "wanted",
         "group": "regular",
-        "transcription": "w\u0254nt",
+        "transcription": "wɔnt",
         "synonyms": [
             "desire"
         ],
@@ -393,7 +393,7 @@
     {
         "id": "A1-VERB-SEL-031",
         "word": "worry",
-        "emoji": "\ud83d\ude1f",
+        "emoji": "😟",
         "form": "verb",
         "subtext": "worry about / don't worry",
         "synonyms": [
@@ -412,7 +412,7 @@
         "v2": "worried",
         "v3": "worried",
         "group": "regular",
-        "transcription": "\u02c8w\u0259ri",
+        "transcription": "ˈwəri",
         "auxiliary": "have",
         "v4": "worrying",
         "lang": "en",
@@ -423,6 +423,50 @@
             "relax"
         ],
         "legacy_id": "A1-SELF-31",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Emotions",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Feelings_States"
+    },
+    {
+        "id": "A1-VERB-SEL-056",
+        "word": "fear",
+        "form": "verb",
+        "transcription": "fɪə",
+        "emoji": "😨",
+        "definitions": [
+            {
+                "text": "Be afraid of something.",
+                "examples": [
+                    "Children fear the dark.",
+                    "Do not fear failure."
+                ]
+            }
+        ],
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Emotions",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Feelings_States"
+    },
+    {
+        "id": "A1-VERB-SEL-057",
+        "word": "care",
+        "form": "verb",
+        "transcription": "keə",
+        "emoji": "🩵",
+        "definitions": [
+            {
+                "text": "Feel concern or interest.",
+                "examples": [
+                    "She cares about animals.",
+                    "I care for my family."
+                ]
+            }
+        ],
+        "level": "starter",
         "level_code": "A1",
         "domain": "SELF",
         "subcategory": "Emotions",

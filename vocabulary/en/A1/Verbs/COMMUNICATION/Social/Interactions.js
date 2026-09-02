@@ -4,10 +4,10 @@
     {
         "id": "A1-VERB-COM-069",
         "word": "be",
-        "emoji": "\ud83d\udc64",
+        "emoji": "👤",
         "subtext": "be tired / be happy / be at work / be ready",
         "form": "verb",
-        "transcription": "bi\u02d0",
+        "transcription": "biː",
         "definitions": [
             {
                 "text": "To exist; to have a quality or state.",
@@ -66,7 +66,7 @@
     {
         "id": "A1-VERB-COM-070",
         "word": "collect",
-        "emoji": "\ud83d\udce6",
+        "emoji": "📦",
         "form": "verb",
         "subtext": "collect things / collect stamps",
         "definitions": [
@@ -82,7 +82,7 @@
         "v2": "collected",
         "v3": "collected",
         "group": "regular",
-        "transcription": "k\u0259\u02c8l\u025bkt",
+        "transcription": "kəˈlɛkt",
         "lang": "en",
         "level": "starter",
         "theme": "social",
@@ -98,45 +98,9 @@
         "sub_subcategory": "Interactions"
     },
     {
-        "id": "A1-VERB-COM-071",
-        "word": "collect",
-        "emoji": "\ud83d\udce6",
-        "form": "verb",
-        "subtext": "collect things / collect stamps",
-        "definitions": [
-            {
-                "text": "To bring things together from different places.",
-                "examples": [
-                    "She collects stamps."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "collected",
-        "v3": "collected",
-        "group": "regular",
-        "transcription": "k\u0259\u02c8l\u025bkt",
-        "auxiliary": "have",
-        "v4": "collecting",
-        "lang": "en",
-        "level": "starter",
-        "theme": "social",
-        "sub_theme": null,
-        "antonyms": [
-            "scatter"
-        ],
-        "legacy_id": "A1-COMM-24",
-        "level_code": "A1",
-        "domain": "COMMUNICATION",
-        "subcategory": "Social",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Interactions"
-    },
-    {
         "id": "A1-VERB-COM-072",
         "word": "draw",
-        "emoji": "\ud83c\udfa8",
+        "emoji": "🎨",
         "subtext": "draw a picture / draw a conclusion / draw attention / draw a line",
         "form": "verb",
         "definitions": [
@@ -153,7 +117,7 @@
         "v2": "drew",
         "v3": "drawn",
         "group": "irregular",
-        "transcription": "dr\u0254",
+        "transcription": "drɔ",
         "lang": "en",
         "level": "starter",
         "theme": "social",
@@ -166,42 +130,9 @@
         "sub_subcategory": "Interactions"
     },
     {
-        "id": "A1-VERB-COM-073",
-        "word": "draw",
-        "emoji": "\ud83c\udfa8",
-        "subtext": "draw a picture / draw a conclusion / draw attention / draw a line",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To make a picture with a pen or pencil.",
-                "examples": [
-                    "I like to draw birds.",
-                    "Can you draw a map?"
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "drew",
-        "v3": "drawn",
-        "group": "regular",
-        "transcription": "dr\u0254",
-        "auxiliary": "have",
-        "lang": "en",
-        "level": "starter",
-        "theme": "social",
-        "sub_theme": null,
-        "legacy_id": "A1-COMM-35",
-        "level_code": "A1",
-        "domain": "COMMUNICATION",
-        "subcategory": "Social",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Interactions"
-    },
-    {
         "id": "A1-VERB-COM-074",
         "word": "introduce",
-        "emoji": "\ud83e\udd1d",
+        "emoji": "🤝",
         "subtext": "introduce yourself / introduce someone / introduce a topic",
         "form": "verb",
         "definitions": [
@@ -217,7 +148,7 @@
         "v2": "introduced",
         "v3": "introduced",
         "group": "regular",
-        "transcription": "\u02cc\u026antr\u0259\u02c8dus",
+        "transcription": "ˌɪntrəˈdus",
         "auxiliary": "have",
         "v4": "introducing",
         "lang": "en",
@@ -237,7 +168,7 @@
     {
         "id": "A1-VERB-COM-075",
         "word": "join",
-        "emoji": "\ud83e\udd1d",
+        "emoji": "🤝",
         "form": "verb",
         "subtext": "join a club / join us",
         "definitions": [
@@ -253,7 +184,7 @@
         "v2": "joined",
         "v3": "joined",
         "group": "regular",
-        "transcription": "\u02a4\u0254\u026an",
+        "transcription": "ʤɔɪn",
         "lang": "en",
         "level": "starter",
         "theme": "social",
@@ -269,45 +200,9 @@
         "sub_subcategory": "Interactions"
     },
     {
-        "id": "A1-VERB-COM-076",
-        "word": "join",
-        "emoji": "\ud83e\udd1d",
-        "form": "verb",
-        "subtext": "join a club / join us",
-        "definitions": [
-            {
-                "text": "To become a member of a group or organization.",
-                "examples": [
-                    "I want to join the tennis club."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "joined",
-        "v3": "joined",
-        "group": "regular",
-        "transcription": "\u02a4\u0254\u026an",
-        "auxiliary": "have",
-        "v4": "joining",
-        "lang": "en",
-        "level": "starter",
-        "theme": "social",
-        "sub_theme": null,
-        "antonyms": [
-            "leave"
-        ],
-        "legacy_id": "A1-COMM-49",
-        "level_code": "A1",
-        "domain": "COMMUNICATION",
-        "subcategory": "Social",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Interactions"
-    },
-    {
         "id": "A1-VERB-COM-077",
         "word": "paint",
-        "emoji": "\ud83c\udfa8",
+        "emoji": "🎨",
         "form": "verb",
         "subtext": "paint a picture",
         "synonyms": [
@@ -327,7 +222,7 @@
         "v2": "painted",
         "v3": "painted",
         "group": "regular",
-        "transcription": "pe\u026ant",
+        "transcription": "peɪnt",
         "lang": "en",
         "level": "starter",
         "theme": "social",
@@ -343,53 +238,13 @@
         "sub_subcategory": "Interactions"
     },
     {
-        "id": "A1-VERB-COM-078",
-        "word": "paint",
-        "emoji": "\ud83c\udfa8",
-        "form": "verb",
-        "subtext": "paint a picture",
-        "synonyms": [
-            "color",
-            "painting"
-        ],
-        "definitions": [
-            {
-                "text": "To make a picture using paint.",
-                "examples": [
-                    "I like to paint flowers."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "painted",
-        "v3": "painted",
-        "group": "regular",
-        "transcription": "pe\u026ant",
-        "auxiliary": "have",
-        "v4": "painting",
-        "lang": "en",
-        "level": "starter",
-        "theme": "social",
-        "sub_theme": null,
-        "antonyms": [
-            "erase"
-        ],
-        "legacy_id": "A1-COMM-62",
-        "level_code": "A1",
-        "domain": "COMMUNICATION",
-        "subcategory": "Social",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Interactions"
-    },
-    {
         "id": "A1-VERB-COM-079",
         "word": "please",
         "translation": "please",
         "level": "starter",
         "theme": "social",
         "language": "en",
-        "emoji": "\ud83d\ude4f",
+        "emoji": "🙏",
         "form": "adverb",
         "definitions": [
             {
@@ -411,7 +266,7 @@
     {
         "id": "A1-VERB-COM-080",
         "word": "say",
-        "emoji": "\ud83d\udde8\ufe0f",
+        "emoji": "🗨️",
         "subtext": "say hello / say yes / say no / say something",
         "form": "verb",
         "definitions": [
@@ -428,7 +283,7 @@
         "v2": "said",
         "v3": "said",
         "group": "regular",
-        "transcription": "se\u026a",
+        "transcription": "seɪ",
         "synonyms": [
             "tell",
             "state"
@@ -451,7 +306,7 @@
     {
         "id": "A1-VERB-COM-081",
         "word": "speak",
-        "emoji": "\ud83d\udde3\ufe0f",
+        "emoji": "🗣️",
         "subtext": "speak to / with, speak to someone / speak English / speak clearly / speak at a meeting",
         "form": "verb",
         "definitions": [
@@ -479,7 +334,7 @@
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "sprekan\u0105"
+            "origin_word": "sprekaną"
         },
         "antonyms": [
             "be silent"
@@ -494,7 +349,7 @@
     {
         "id": "A1-VERB-COM-082",
         "word": "thank",
-        "emoji": "\ud83d\ude4f",
+        "emoji": "🙏",
         "subtext": "thank someone / thank you for / many thanks",
         "form": "verb",
         "definitions": [
@@ -510,7 +365,7 @@
         "v2": "thanked",
         "v3": "thanked",
         "group": "regular",
-        "transcription": "\u03b8\u00e6\u014bk",
+        "transcription": "θæŋk",
         "auxiliary": "have",
         "v4": "thanking",
         "lang": "en",
@@ -530,7 +385,7 @@
     {
         "id": "A1-VERB-COM-083",
         "word": "wave",
-        "emoji": "\ud83d\udc4b",
+        "emoji": "👋",
         "form": "verb",
         "subtext": "wave at, wave goodbye / wave hello",
         "synonyms": [
@@ -549,7 +404,7 @@
         "v2": "waved",
         "v3": "waved",
         "group": "regular",
-        "transcription": "we\u026av",
+        "transcription": "weɪv",
         "auxiliary": "have",
         "v4": "waving",
         "lang": "en",
@@ -569,7 +424,7 @@
     {
         "id": "A1-VERB-COM-084",
         "word": "welcome",
-        "emoji": "\ud83d\udc4b",
+        "emoji": "👋",
         "form": "verb",
         "subtext": "welcome someone / welcome home",
         "definitions": [
@@ -585,7 +440,7 @@
         "v2": "welcomed",
         "v3": "welcomed",
         "group": "regular",
-        "transcription": "\u02c8w\u025blk\u0259m",
+        "transcription": "ˈwɛlkəm",
         "auxiliary": "have",
         "v4": "welcoming",
         "lang": "en",
@@ -605,7 +460,7 @@
     {
         "id": "A1-VERB-COM-085",
         "word": "wish",
-        "emoji": "\ud83e\udd1e",
+        "emoji": "🤞",
         "form": "verb",
         "subtext": "wish for / I wish",
         "definitions": [
@@ -621,7 +476,7 @@
         "v2": "wished",
         "v3": "wished",
         "group": "regular",
-        "transcription": "w\u026a\u0283",
+        "transcription": "wɪʃ",
         "auxiliary": "have",
         "v4": "wishing",
         "lang": "en",

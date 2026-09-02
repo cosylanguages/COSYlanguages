@@ -4,7 +4,7 @@
     {
         "id": "A1-VERB-COM-111",
         "word": "agree",
-        "emoji": "\ud83d\udc4d",
+        "emoji": "👍",
         "subtext": "agree with someone / agree to do / agree on / I agree",
         "form": "verb",
         "definitions": [
@@ -21,7 +21,7 @@
         "v2": "agreed",
         "v3": "agreed",
         "group": "regular",
-        "transcription": "\u0259\u02c8gri",
+        "transcription": "əˈgri",
         "auxiliary": "have",
         "v4": "agreeing",
         "lang": "en",
@@ -41,7 +41,7 @@
     {
         "id": "A1-VERB-COM-112",
         "word": "believe",
-        "emoji": "\ud83d\ude4f",
+        "emoji": "🙏",
         "form": "verb",
         "subtext": "believe in / I believe so",
         "synonyms": [
@@ -61,7 +61,7 @@
         "v2": "believed",
         "v3": "believed",
         "group": "regular",
-        "transcription": "b\u026a\u02c8liv",
+        "transcription": "bɪˈliv",
         "auxiliary": "have",
         "v4": "believing",
         "lang": "en",
@@ -81,9 +81,9 @@
     {
         "id": "A1-VERB-COM-113",
         "word": "can",
-        "emoji": "\ud83d\udcaa",
+        "emoji": "💪",
         "form": "verb",
-        "transcription": "k\u00e6n",
+        "transcription": "kæn",
         "definitions": [
             {
                 "text": "To be able to do something.",
@@ -114,7 +114,7 @@
     {
         "id": "A1-VERB-COM-114",
         "word": "choose",
-        "emoji": "\ud83d\udc49",
+        "emoji": "👉",
         "subtext": "choose between / choose to do / choose carefully / choose a career",
         "form": "verb",
         "definitions": [
@@ -130,7 +130,7 @@
         "v2": "chose",
         "v3": "chosen",
         "group": "regular",
-        "transcription": "\u02a7uz",
+        "transcription": "ʧuz",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -149,7 +149,7 @@
     {
         "id": "A1-VERB-COM-115",
         "word": "decide",
-        "emoji": "\u2696\ufe0f",
+        "emoji": "⚖️",
         "subtext": "decide to do / decide on / hard to decide",
         "synonyms": [
             "make a decision"
@@ -169,7 +169,7 @@
         "v2": "decided",
         "v3": "decided",
         "group": "regular",
-        "transcription": "\u02ccd\u026a\u02c8sa\u026ad",
+        "transcription": "ˌdɪˈsaɪd",
         "auxiliary": "have",
         "v4": "deciding",
         "lang": "en",
@@ -189,9 +189,9 @@
     {
         "id": "A1-VERB-COM-116",
         "word": "depend",
-        "emoji": "\u2696\ufe0f",
+        "emoji": "⚖️",
         "form": "verb",
-        "transcription": "d\u026a\u02c8pend",
+        "transcription": "dɪˈpend",
         "definitions": [
             {
                 "text": "To be decided by or to change according to something else.",
@@ -222,7 +222,7 @@
     {
         "id": "A1-VERB-COM-117",
         "word": "describe",
-        "emoji": "\ud83d\udcac",
+        "emoji": "💬",
         "form": "verb",
         "subtext": "describe something / describe a person",
         "definitions": [
@@ -238,7 +238,7 @@
         "v2": "described",
         "v3": "described",
         "group": "regular",
-        "transcription": "d\u026a\u02c8skra\u026ab",
+        "transcription": "dɪˈskraɪb",
         "auxiliary": "have",
         "v4": "describing",
         "lang": "en",
@@ -258,7 +258,7 @@
     {
         "id": "A1-VERB-COM-118",
         "word": "let",
-        "emoji": "\ud83d\udd13",
+        "emoji": "🔓",
         "subtext": "let someone go / let it be / let someone know",
         "form": "verb",
         "definitions": [
@@ -275,7 +275,7 @@
         "v2": "let",
         "v3": "let",
         "group": "regular",
-        "transcription": "l\u025bt",
+        "transcription": "lɛt",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -291,9 +291,9 @@
     {
         "id": "A1-VERB-COM-119",
         "word": "must",
-        "emoji": "\u26a0\ufe0f",
+        "emoji": "⚠️",
         "form": "verb",
-        "transcription": "m\u028cst",
+        "transcription": "mʌst",
         "definitions": [
             {
                 "text": "Used to say that something is necessary or very important.",
@@ -324,7 +324,7 @@
     {
         "id": "A1-VERB-COM-120",
         "word": "prefer",
-        "emoji": "\ud83d\udc49",
+        "emoji": "👉",
         "form": "verb",
         "subtext": "like better / prefer tea to coffee",
         "definitions": [
@@ -340,7 +340,7 @@
         "v2": "preferred",
         "v3": "preferred",
         "group": "regular",
-        "transcription": "pr\u026a\u02c8f\u0259r",
+        "transcription": "prɪˈfər",
         "auxiliary": "have",
         "v4": "prefering",
         "lang": "en",
@@ -360,7 +360,7 @@
     {
         "id": "A1-VERB-COM-121",
         "word": "sound",
-        "emoji": "\ud83d\udc42",
+        "emoji": "👂",
         "form": "verb",
         "subtext": "sound like / sound good",
         "synonyms": [
@@ -379,7 +379,7 @@
         "v2": "sounded",
         "v3": "sounded",
         "group": "regular",
-        "transcription": "sa\u028and",
+        "transcription": "saʊnd",
         "auxiliary": "have",
         "v4": "sounding",
         "lang": "en",
@@ -399,7 +399,7 @@
     {
         "id": "A1-VERB-COM-122",
         "word": "think",
-        "emoji": "\ud83d\udcad",
+        "emoji": "💭",
         "subtext": "think about someone/something / think about / of, think about / think of / think it is / think carefully",
         "form": "verb",
         "definitions": [
@@ -416,7 +416,7 @@
         "v2": "thought",
         "v3": "thought",
         "group": "regular",
-        "transcription": "\u03b8\u026a\u014bk",
+        "transcription": "θɪŋk",
         "synonyms": [
             "believe"
         ],
