@@ -5585,6 +5585,7 @@
 
         window.updateMobileNav();
         window.updateDailyDose();
+        document.addEventListener("cosyLanguageChanged", window.updateDailyDose);
         if (window.COSY && window.COSY.renderDict) window.COSY.renderDict();
         setupVocabPronunciation();
         setupEmbeddedVideoPlayers();
