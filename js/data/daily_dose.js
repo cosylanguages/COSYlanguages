@@ -1290,602 +1290,614 @@ window.COSY_DAILY_IDIOMS = {
     {
       "idiom": "C'est la vie",
       "level": "A1",
-      "meaning": "That's life / Tel est le cours des choses",
-      "example": "Mon train a du retard, c'est la vie !"
+      "meaning": "Tel est le cours des choses, acceptation d'une situation.",
+      "example": "Il pleut aujourd'hui, mais c'est la vie !"
+    },
+    {
+      "idiom": "Au fur et à mesure",
+      "level": "A1",
+      "meaning": "Progressivement, étape par étape.",
+      "example": "Vous apprendrez le vocabulaire au fur et à mesure des leçons."
+    },
+    {
+      "idiom": "Tout de suite",
+      "level": "A1",
+      "meaning": "Immédiatement, sans attendre.",
+      "example": "Viens ici tout de suite, s'il te plaît."
+    },
+    {
+      "idiom": "En tout cas",
+      "level": "A1",
+      "meaning": "De toute façon, quelles que soient les circonstances.",
+      "example": "En tout cas, merci beaucoup pour votre aide."
+    },
+    {
+      "idiom": "Du coup",
+      "level": "A1",
+      "meaning": "Par conséquent, ainsi.",
+      "example": "Il faisait beau, du coup nous sommes allés au parc."
+    },
+    {
+      "idiom": "Pas de problème",
+      "level": "A1",
+      "meaning": "Formule rassurante indiquant qu'il n'y a aucune difficulté.",
+      "example": "Merci pour le coup de main ! — Pas de problème !"
+    },
+    {
+      "idiom": "Tout à fait",
+      "level": "A1",
+      "meaning": "Absolument, entièrement d'accord.",
+      "example": "Vous avez tout à fait raison."
+    },
+    {
+      "idiom": "D'accord",
+      "level": "A1",
+      "meaning": "Indique l'approbation ou le consentement.",
+      "example": "On se rejoint à huit heures ? D'accord !"
+    },
+    {
+      "idiom": "En fait",
+      "level": "A1",
+      "meaning": "En réalité, à dire vrai.",
+      "example": "Je pensais être en retard, mais en fait je suis en avance."
+    },
+    {
+      "idiom": "Bien sûr",
+      "level": "A1",
+      "meaning": "Évidemment, sans aucun doute.",
+      "example": "Est-ce que tu viens à la fête ? Bien sûr !"
+    },
+    {
+      "idiom": "Quand même",
+      "level": "A1",
+      "meaning": "Malgré tout, tout de même.",
+      "example": "Il fait froid, mais nous allons nous promener quand même."
+    },
+    {
+      "idiom": "Avoir chaud",
+      "level": "A1",
+      "meaning": "Ressentir de la chaleur corporelle.",
+      "example": "Ouvre la fenêtre, j'ai très chaud."
+    },
+    {
+      "idiom": "Avoir faim",
+      "level": "A1",
+      "meaning": "Besoin ou envie de manger.",
+      "example": "À midi, nous avons tous très faim."
+    },
+    {
+      "idiom": "Avoir sommeil",
+      "level": "A1",
+      "meaning": "Ressentir le besoin de dormir.",
+      "example": "Les enfants ont sommeil après cette longue journée."
+    },
+    {
+      "idiom": "Faire beau",
+      "level": "A1",
+      "meaning": "Avoir un temps agréable et ensoleillé.",
+      "example": "Aujourd'hui il fait beau, profitons du jardin."
+    },
+    {
+      "idiom": "Être en retard",
+      "level": "A1",
+      "meaning": "Arriver après l'heure prévue.",
+      "example": "Dépêche-toi, nous sommes en retard pour le train."
+    },
+    {
+      "idiom": "Ça va",
+      "level": "A1",
+      "meaning": "Indique que tout va bien ou demande des nouvelles.",
+      "example": "Bonjour Marc, ça va aujourd'hui ?"
     },
     {
       "idiom": "Poser un lapin",
-      "level": "A1",
-      "meaning": "Ne pas se présenter à un rendez-vous",
-      "example": "Il ne vient pas ? Il m'a posé un lapin !"
+      "level": "A2",
+      "meaning": "Ne pas se présenter à un rendez-vous fixé.",
+      "example": "Je l'ai attendu une heure au café, il m'a posé un lapin."
     },
     {
       "idiom": "Avoir le cafard",
-      "level": "A1",
-      "meaning": "Se sentir triste ou déprimé",
-      "example": "Quand il pleut toute la journée, j'ai le cafard."
+      "level": "A2",
+      "meaning": "Se sentir triste ou dépressif.",
+      "example": "Pendant l'hiver, il a parfois le cafard."
     },
     {
       "idiom": "Coup de foudre",
-      "level": "A1",
-      "meaning": "Amour soudain et immédiat",
-      "example": "Entre Paul et Marie, ce fut le coup de foudre."
-    },
-    {
-      "idiom": "Comme un poisson dans l'eau",
-      "level": "A1",
-      "meaning": "Être très à l'aise dans un environnement",
-      "example": "Au volant de sa voiture, il est comme un poisson dans l'eau."
+      "level": "A2",
+      "meaning": "Amour ou engouement soudain et immédiat.",
+      "example": "Quand ils se sont rencontrés, ce fut le coup de foudre."
     },
     {
       "idiom": "Coûter les yeux de la tête",
       "level": "A2",
-      "meaning": "Être extrêmement cher",
+      "meaning": "Être extrêmement cher.",
       "example": "Ce nouveau téléphone coûte les yeux de la tête."
     },
     {
-      "idiom": "Mettre les pieds dans le plat",
+      "idiom": "Avoir le cœur sur la main",
       "level": "A2",
-      "meaning": "Parler maladroitement d'un sujet délicat",
-      "example": "En abordant ce sujet, il a mis les pieds dans le plat."
-    },
-    {
-      "idiom": "Donner sa langue au chat",
-      "level": "A2",
-      "meaning": "Abandonner une devinette",
-      "example": "Je ne trouve pas la réponse, je donne ma langue au chat."
-    },
-    {
-      "idiom": "Raconter des salades",
-      "level": "A2",
-      "meaning": "Raconter des mensonges ou des histoires",
-      "example": "Ne le crois pas, il raconte toujours des salades."
-    },
-    {
-      "idiom": "Avoir un poil dans la main",
-      "level": "A2",
-      "meaning": "Être très paresseux",
-      "example": "Il ne fait jamais le ménage, il a un poil dans la main !"
-    },
-    {
-      "idiom": "Tomber dans les pommes",
-      "level": "A2",
-      "meaning": "S'évanouir",
-      "example": "Sous cette chaleur intense, elle a failli tomber dans les pommes."
-    },
-    {
-      "idiom": "Au fur et à mesure",
-      "level": "A2",
-      "meaning": "Progressivement, étape par étape",
-      "example": "Les idées viennent au fur et à mesure de la discussion."
-    },
-    {
-      "idiom": "Avoir l'embarras du choix",
-      "level": "A2",
-      "meaning": "Avoir trop de possibilités",
-      "example": "Dans ce grand restaurant, on a l'embarras du choix."
-    },
-    {
-      "idiom": "Casser les pieds",
-      "level": "A2",
-      "meaning": "Embêter fortement quelqu'un",
-      "example": "Arrête de me casser les pieds avec tes questions !"
+      "meaning": "Être d'une très grande générosité.",
+      "example": "Elle aide toujours ses voisins, elle a vraiment le cœur sur la main."
     },
     {
       "idiom": "Faire la grasse matinée",
       "level": "A2",
-      "meaning": "Dormir tard le matin",
-      "example": "Le dimanche, nous aimons faire la grasse matinée."
+      "meaning": "Dormir tard le matin.",
+      "example": "Le dimanche, j'adore faire la grasse matinée."
+    },
+    {
+      "idiom": "Avoir l'embarras du choix",
+      "level": "A2",
+      "meaning": "Avoir trop de possibilités devant soi.",
+      "example": "Au restaurant, avec ce grand menu, on a l'embarras du choix."
+    },
+    {
+      "idiom": "Casser les pieds",
+      "level": "A2",
+      "meaning": "Embêter ou énerver fortement quelqu'un.",
+      "example": "Arrête de me casser les pieds avec tes remarques !"
+    },
+    {
+      "idiom": "Donner sa langue au chat",
+      "level": "A2",
+      "meaning": "Abandonner une devinette faute de réponse.",
+      "example": "Je ne trouve pas la solution, je donne ma langue au chat."
+    },
+    {
+      "idiom": "Raconter des salades",
+      "level": "A2",
+      "meaning": "Raconter des mensonges ou des histoires invraisemblables.",
+      "example": "Ne le crois pas, il raconte souvent des salades."
+    },
+    {
+      "idiom": "Tomber dans les pommes",
+      "level": "A2",
+      "meaning": "S'évanouir, perdre connaissance.",
+      "example": "Sous cette forte chaleur, elle est tombée dans les pommes."
+    },
+    {
+      "idiom": "Tourner la page",
+      "level": "A2",
+      "meaning": "Passer à autre chose après un événement marquant.",
+      "example": "Après sa démission, il a décidé de tourner la page."
+    },
+    {
+      "idiom": "Vider son sac",
+      "level": "A2",
+      "meaning": "Exprimer enfin tout ce qu'on retenait sur le cœur.",
+      "example": "Il avait besoin de parler et a enfin vidé son sac."
+    },
+    {
+      "idiom": "Avoir d'autres chats à fouetter",
+      "level": "A2",
+      "meaning": "Avoir des affaires plus importantes ou urgentes à régler.",
+      "example": "Je ne peux pas m'en occuper maintenant, j'ai d'autres chats à fouetter."
+    },
+    {
+      "idiom": "Mettre le doigt sur le problème",
+      "level": "A2",
+      "meaning": "Identifier exactement une difficulté.",
+      "example": "Son explication a permis de mettre le doigt sur le problème."
+    },
+    {
+      "idiom": "Prendre son temps",
+      "level": "A2",
+      "meaning": "Agir sans se presser.",
+      "example": "Prends ton temps pour bien lire les consignes."
+    },
+    {
+      "idiom": "Faire attention",
+      "level": "A2",
+      "meaning": "Être vigilant ou prudent.",
+      "example": "Fais attention en traversant la rue."
+    },
+    {
+      "idiom": "Comme un poisson dans l'eau",
+      "level": "B1",
+      "meaning": "Être parfaitement à l'aise dans un environnement.",
+      "example": "Dans son nouveau travail, elle est comme un poisson dans l'eau."
+    },
+    {
+      "idiom": "Mettre les pieds dans le plat",
+      "level": "B1",
+      "meaning": "Parler de manière trop directe d'un sujet délicat.",
+      "example": "Il a mis les pieds dans le plat en abordant le budget devant la direction."
+    },
+    {
+      "idiom": "Avoir un poil dans la main",
+      "level": "B1",
+      "meaning": "Être extrêmement paresseux.",
+      "example": "Il ne range jamais sa chambre, il a un poil dans la main."
     },
     {
       "idiom": "Jeter l'éponge",
       "level": "B1",
-      "meaning": "Abandonner un projet ou un combat",
-      "example": "Malgré les difficultés, l'équipe refuse de jeter l'éponge."
+      "meaning": "Abandonner définitivement un projet ou un effort.",
+      "example": "Face aux difficultés répétées, l'équipe faillit jeter l'éponge."
     },
     {
       "idiom": "Faire d'une pierre deux coups",
       "level": "B1",
-      "meaning": "Réussir deux objectifs en une seule action",
-      "example": "En allant à Paris pour le travail, j'ai fait d'une pierre deux coups en voyant mes amis."
-    },
-    {
-      "idiom": "Avoir le cœur sur la main",
-      "level": "B1",
-      "meaning": "Être très généreux",
-      "example": "Elle aide tout le monde, elle a le cœur sur la main."
-    },
-    {
-      "idiom": "Avoir d'autres chats à fouetter",
-      "level": "B1",
-      "meaning": "Avoir des affaires plus importantes à régler",
-      "example": "Je ne peux pas m'en occuper, j'ai d'autres chats à fouetter."
+      "meaning": "Atteindre deux objectifs au moyen d'une seule action.",
+      "example": "En allant faire mes courses à pied, je fais de l'exercice et je fais d'une pierre deux coups."
     },
     {
       "idiom": "Appeler un chat un chat",
       "level": "B1",
-      "meaning": "Parler avec une entière franchise",
-      "example": "Soyons honnêtes et appelons un chat un chat."
+      "meaning": "Parler avec une entière franchise sans adoucir la réalité.",
+      "example": "Il faut appeler un chat un chat : cette décision est une erreur."
     },
     {
       "idiom": "Mettre l'eau à la bouche",
       "level": "B1",
-      "meaning": "Donner très envie de manger ou tester",
-      "example": "L'odeur de ce gâteau met l'eau à la bouche."
+      "meaning": "Susciter un vif désir ou ouvrir l'appétit.",
+      "example": "La bonne odeur de la cuisine m'a mis l'eau à la bouche."
     },
     {
       "idiom": "Avoir la tête sur les épaules",
       "level": "B1",
-      "meaning": "Être réaliste et sensé",
-      "example": "C'est un jeune très responsable, il a la tête sur les épaules."
+      "meaning": "Être réaliste, pragmatique et posé.",
+      "example": "C'est une jeune femme très mûre qui a la tête sur les épaules."
     },
     {
       "idiom": "Prendre son courage à deux mains",
       "level": "B1",
-      "meaning": "Affronter une peur avec détermination",
-      "example": "Il a pris son courage à deux mains et a parlé à son patron."
+      "meaning": "Surmonter sa crainte pour accomplir une action difficile.",
+      "example": "Il a pris son courage à deux mains pour annoncer la nouvelle."
     },
     {
-      "idiom": "Tourner la page",
+      "idiom": "Faire la sourde oreille",
       "level": "B1",
-      "meaning": "Passer à autre chose après un événement",
-      "example": "Après l'échec, il a décidé de tourner la page."
-    },
-    {
-      "idiom": "Vider son sac",
-      "level": "B1",
-      "meaning": "Exprimer enfin tout ce qu'on retenait",
-      "example": "Pendant la réunion, il a décidé de vider son sac."
+      "meaning": "Faire semblant de ne pas entendre ou d'ignorer un avertissement.",
+      "example": "Malgré mes mises en garde, il continue de faire la sourde oreille."
     },
     {
       "idiom": "Tirer son épingle du jeu",
-      "level": "B2",
-      "meaning": "Se sortir habilement d'une situation difficile",
-      "example": "Dans cette crise économique, l'entreprise a su tirer son épingle du jeu."
+      "level": "B1",
+      "meaning": "Se sortir habilement d'une situation complexe.",
+      "example": "Malgré la crise, l'entreprise a réussi à tirer son épingle du jeu."
+    },
+    {
+      "idiom": "Rendre la monnaie de sa pièce",
+      "level": "B1",
+      "meaning": "Se venger d'un mauvais procédé par un procédé similaire.",
+      "example": "Il a refusé de m'aider hier, alors je lui ai rendu la monnaie de sa pièce."
+    },
+    {
+      "idiom": "Mettre les cartes sur table",
+      "level": "B1",
+      "meaning": "S'expliquer en toute franchise et sans dissimulation.",
+      "example": "Pour résoudre ce conflit, nous devons mettre les cartes sur table."
+    },
+    {
+      "idiom": "Prendre les devants",
+      "level": "B1",
+      "meaning": "Agir avant les autres pour anticiper un événement.",
+      "example": "Elle a pris les devants en réservant les billets un mois à l'avance."
+    },
+    {
+      "idiom": "Perdre le nord",
+      "level": "B1",
+      "meaning": "Être désorienté ou perdre son sang-froid.",
+      "example": "Face à cette question inattendue, il a un peu perdu le nord."
+    },
+    {
+      "idiom": "Avoir les nerfs solides",
+      "level": "B1",
+      "meaning": "Savoir garder son calme dans une situation stressante.",
+      "example": "Pour réussir ce concours, il faut avoir les nerfs solides."
+    },
+    {
+      "idiom": "Mettre la barre haut",
+      "level": "B1",
+      "meaning": "Fixer des exigences ou des objectifs ambitieux.",
+      "example": "Le professeur a mis la barre haut pour ce projet final."
     },
     {
       "idiom": "Mettre de l'eau dans son vin",
       "level": "B2",
-      "meaning": "Modérer ses exigences",
-      "example": "Pour parvenir à un accord, chacun doit mettre de l'eau dans son vin."
+      "meaning": "Modérer ses exigences ou ses prétentions.",
+      "example": "Après négociation, chaque partie a dû mettre de l'eau dans son vin."
     },
     {
       "idiom": "Passer du coq à l'âne",
       "level": "B2",
-      "meaning": "Changer brusquement de sujet de conversation",
-      "example": "En nous parlant, il passe constamment du coq à l'âne."
+      "meaning": "Changer brusquement et sans transition de sujet de conversation.",
+      "example": "Dans ses explications, il passe souvent du coq à l'âne."
     },
     {
       "idiom": "Avoir les yeux plus gros que le ventre",
       "level": "B2",
-      "meaning": "Commander ou prendre plus qu'on ne peut consommer",
-      "example": "J'ai trop servi sur mon assiette, j'ai eu les yeux plus gros que le ventre."
+      "meaning": "Superposer des ambitions ou des portions exagérées à ce qu'on peut gérer.",
+      "example": "J'ai pris trois desserts, j'ai eu les yeux plus gros que le ventre."
     },
     {
       "idiom": "Chercher midi à quatorze heures",
       "level": "B2",
-      "meaning": "Compliquer inutilement les choses",
-      "example": "La solution est simple, ne cherche pas midi à quatorze heures."
+      "meaning": "Compliquer inutilement une chose simple.",
+      "example": "La solution est évidente, inutile de chercher midi à quatorze heures."
     },
     {
       "idiom": "Couper les cheveux en quatre",
       "level": "B2",
-      "meaning": "Mener un raisonnement excessivement minutieux",
-      "example": "Arrêtons de couper les cheveux en quatre et décidons."
-    },
-    {
-      "idiom": "Faire la sourde oreille",
-      "level": "B2",
-      "meaning": "Faire semblant de ne pas entendre",
-      "example": "Malgré les conseils, il fait la sourde oreille."
+      "meaning": "Pinailler ou approfondir de façon excessivement minutieuse.",
+      "example": "Arrêtons de couper les cheveux en quatre et prenons une décision."
     },
     {
       "idiom": "Mettre les bouchées doubles",
       "level": "B2",
-      "meaning": "Accélérer considérablement son travail",
-      "example": "Pour finir avant ce soir, nous devons mettre les bouchées doubles."
+      "meaning": "Accélérer fortement son rythme de travail.",
+      "example": "Le projet doit être livré lundi, nous devons mettre les bouchées doubles."
     },
     {
-      "idiom": "Prendre des vessies pour des lanternes",
+      "idiom": "Brûler les étapes",
       "level": "B2",
-      "meaning": "Se faire des illusions grossières",
-      "example": "Attention à ne pas prendre des vessies pour des lanternes."
+      "meaning": "Agir trop précipitamment sans respecter l'ordre logique.",
+      "example": "Pour maîtriser cet instrument, il ne faut pas brûler les étapes."
     },
     {
-      "idiom": "Tirer les vers du nez",
+      "idiom": "Noyer le poisson",
       "level": "B2",
-      "meaning": "Faire parler quelqu'un adroitement",
-      "example": "La journaliste a réussi à lui tirer les vers du nez."
+      "meaning": "Créer de la confusion pour éluder une question gênante.",
+      "example": "Le porte-parole a noyé le poisson pour éviter de répondre."
+    },
+    {
+      "idiom": "Séparer le grain de l'ivraie",
+      "level": "B2",
+      "meaning": "Distinguer ce qui est bon ou utile de ce qui est mauvais.",
+      "example": "Cet tri minutieux permet de séparer le grain de l'ivraie."
+    },
+    {
+      "idiom": "Faire d'une mouche un éléphant",
+      "level": "B2",
+      "meaning": "Exagérer considérablement l'importance d'un incident minoritaire.",
+      "example": "Ne t'inquiète pas ainsi, tu fais d'une mouche un éléphant."
+    },
+    {
+      "idiom": "Avoir un chat dans la gorge",
+      "level": "B2",
+      "meaning": "Être enroué et éprouver de la difficulté à parler.",
+      "example": "Pardonnez ma voix grave, j'ai un chat dans la gorge aujourd'hui."
+    },
+    {
+      "idiom": "Mettre la charrue avant les bœufs",
+      "level": "B2",
+      "meaning": "Faire les choses dans un ordre inverse de la logique.",
+      "example": "Rédiger les conclusions avant l'analyse, c'est mettre la charrue avant les bœufs."
+    },
+    {
+      "idiom": "Avoir le bras long",
+      "level": "B2",
+      "meaning": "Jouir d'une influence ou de relations importantes.",
+      "example": "Grâce à son réseau professionnel, on peut dire qu'il a le bras long."
+    },
+    {
+      "idiom": "Prendre le taureau par les cornes",
+      "level": "B2",
+      "meaning": "Affronter une difficulté directement et avec détermination.",
+      "example": "Au lieu de fuir le problème, il a pris le taureau par les cornes."
+    },
+    {
+      "idiom": "Jeter de l'huile sur le feu",
+      "level": "B2",
+      "meaning": "Aggraver une dispute ou une tension déjà existante.",
+      "example": "Inutile d'ajouter des reproches, cela ne ferait que jeter de l'huile sur le feu."
+    },
+    {
+      "idiom": "Mettre son grain de sel",
+      "level": "B2",
+      "meaning": "S'immiscer sans invitation dans une conversation ou une affaire.",
+      "example": "Elle vient toujours mettre son grain de sel dans nos projets."
+    },
+    {
+      "idiom": "Remettre les pendules à l'heure",
+      "level": "B2",
+      "meaning": "Clarifier une situation en rétablissant la réalité des faits.",
+      "example": "Le directeur a réuni le personnel pour remettre les pendules à l'heure."
     },
     {
       "idiom": "Mettre sa main au feu",
       "level": "C1",
-      "meaning": "Être absolument certain d'une chose",
-      "example": "Je mettrais ma main au feu qu'il dit la vérité."
+      "meaning": "Être absolument convaincu de la véracité d'une affirmation.",
+      "example": "Je mettrais ma main au feu qu'il tiendra sa promesse."
     },
     {
       "idiom": "Avoir un violon d'Ingres",
       "level": "C1",
-      "meaning": "Avoir une passion ou un loisir favori",
-      "example": "La peinture est son véritable violon d'Ingres."
+      "meaning": "Posséder une passion ou une activité artistique favorite en dehors de son métier.",
+      "example": "La sculpture sur bois est son véritable violon d'Ingres."
     },
     {
       "idiom": "Bâtir des châteaux en Espagne",
       "level": "C1",
-      "meaning": "Faire des projets irréalistes",
-      "example": "Au lieu de bâtir des châteaux en Espagne, agissons."
-    },
-    {
-      "idiom": "Brûler les étapes",
-      "level": "C1",
-      "meaning": "Agir trop précipitamment",
-      "example": "Il veut réussir vite mais il ne faut pas brûler les étapes."
+      "meaning": "Concevoir des projets chimériques ou irréalistes.",
+      "example": "Plutôt que de bâtir des châteaux en Espagne, concentrons-nous sur ce projet."
     },
     {
       "idiom": "Découvrir le pot aux roses",
       "level": "C1",
-      "meaning": "Mettre au jour un secret dissimulé",
-      "example": "L'enquêteur a fini par découvrir le pot aux roses."
+      "meaning": "Découvrir un secret ou une manigance bien cachée.",
+      "example": "L'enquêteur a fini par découvrir le pot aux roses après des semaines de recherche."
     },
     {
       "idiom": "Faire chou blanc",
       "level": "C1",
-      "meaning": "Subir un échec complet",
-      "example": "Les recherches ont fait chou blanc toute la journée."
+      "meaning": "Échouer totalement dans une tentative ou une recherche.",
+      "example": "Les policiers ont fait chou blanc lors de leur première fouille."
     },
     {
-      "idiom": "Mettre le doigt sur le problème",
+      "idiom": "Prendre des vessies pour des lanternes",
       "level": "C1",
-      "meaning": "Identifier exactement la difficulté",
-      "example": "Son rapport a mis le doigt sur le problème financier."
-    },
-    {
-      "idiom": "Noyer le poisson",
-      "level": "C1",
-      "meaning": "Créer la confusion pour esquiver une question",
-      "example": "Quand on l'interroge sur les chiffres, il noie le poisson."
-    },
-    {
-      "idiom": "Rendre la monnaie de sa pièce",
-      "level": "C1",
-      "meaning": "Se venger d'un mauvais procédé",
-      "example": "Il lui a rendu la monnaie de sa pièce lors du débat."
-    },
-    {
-      "idiom": "Séparer le grain de l'ivraie",
-      "level": "C1",
-      "meaning": "Distinguer le bon du mauvais",
-      "example": "L'examen permet de séparer le grain de l'ivraie."
+      "meaning": "Se faire de lourdes illusions en se trompant grossièrement.",
+      "example": "Il s'imagine avoir gagné, mais il prend des vessies pour des lanternes."
     },
     {
       "idiom": "Avoir une épée de Damoclès sur la tête",
+      "level": "C1",
+      "meaning": "Être constamment menacé par un danger imminent.",
+      "example": "La menace de fermeture de l'usine est une véritable épée de Damoclès sur la région."
+    },
+    {
+      "idiom": "Tirer les marrons du feu",
+      "level": "C1",
+      "meaning": "Tirer profit d'une situation risquée au détriment de ceux qui l'ont créée.",
+      "example": "Dans cette rivalité commerciale, c'est le troisième concurrent qui a tiré les marrons du feu."
+    },
+    {
+      "idiom": "Apporter de l'eau au moulin",
+      "level": "C1",
+      "meaning": "Fournir involontairement ou volontairement des arguments à une thèse.",
+      "example": "Cette nouvelle étude apporte de l'eau au moulin des écologistes."
+    },
+    {
+      "idiom": "Se regarder en chiens de faïence",
+      "level": "C1",
+      "meaning": "Se regarder de manière hostile et silencieuse.",
+      "example": "Les deux rivaux se sont regardés en chiens de faïence durant toute la réunion."
+    },
+    {
+      "idiom": "Avoir le compas dans l'œil",
+      "level": "C1",
+      "meaning": "Juger des distances ou des dimensions avec une précision remarquable.",
+      "example": "Le menuisier a immédiatement mesuré la pièce sans mètre, il a le compas dans l'œil."
+    },
+    {
+      "idiom": "Renvoyer l'ascenseur",
+      "level": "C1",
+      "meaning": "Rendre un service en reconnaissance d'un service antérieurement reçu.",
+      "example": "Tu m'as beaucoup aidé le mois dernier, c'est à mon tour de te renvoyer l'ascenseur."
+    },
+    {
+      "idiom": "Donner carte blanche",
+      "level": "C1",
+      "meaning": "Accorder une entière liberté d'action à quelqu'un.",
+      "example": "Le client a donné carte blanche à l'architecte pour rénover la maison."
+    },
+    {
+      "idiom": "Prendre son mal en patience",
+      "level": "C1",
+      "meaning": "Supporter les désagréments d'une situation inévitable avec résignation.",
+      "example": "En raison du trafic saturé, les automobilistes doivent prendre leur mal en patience."
+    },
+    {
+      "idiom": "Rompre le glaive",
+      "level": "C1",
+      "meaning": "Mettre fin aux hostilités ou à un conflit.",
+      "example": "Après des négociations intenses, les deux pays ont décidé de rompre le glaive."
+    },
+    {
+      "idiom": "Prêcher dans le désert",
+      "level": "C1",
+      "meaning": "Avertir ou conseiller en vain sans être écouté.",
+      "example": "Les scientifiques ont l'impression de prêcher dans le désert face au changement climatique."
+    },
+    {
+      "idiom": "S'en mordre les doigts",
+      "level": "C1",
+      "meaning": "Regretter amèrement une décision ou une action passée.",
+      "example": "Il a refusé cette offre d'emploi et risque fort de s'en mordre les doigts."
+    },
+    {
+      "idiom": "Tirer les vers du nez",
       "level": "C2",
-      "meaning": "Être menacé d'un danger constant",
-      "example": "Cette dette fiscale est une épée de Damoclès sur l'entreprise."
+      "meaning": "Faire parler habilement une personne réticente pour lui arracher des confidences.",
+      "example": "La journaliste a réussi à lui tirer les vers du nez au sujet de sa démission."
     },
     {
       "idiom": "Clouer le bec à quelqu'un",
       "level": "C2",
-      "meaning": "Faire taire quelqu'un par un argument imparable",
-      "example": "Sa réplique brillante a cloué le bec à son opposant."
+      "meaning": "Faire taire net un contradicteur par une réplique décisive.",
+      "example": "Sa réponse factuelle et lumineuse a cloué le bec à son opposant."
     },
     {
       "idiom": "Faire contre mauvaise fortune bon cœur",
       "level": "C2",
-      "meaning": "Rester optimiste face aux épreuves",
-      "example": "Malgré les retards, il fait contre mauvaise fortune bon cœur."
+      "meaning": "Accepter l'adversité avec philosophie et optimisme.",
+      "example": "Privé de vacances par la tempête, il a fait contre mauvaise fortune bon cœur."
     },
     {
       "idiom": "Mettre les points sur les i",
       "level": "C2",
-      "meaning": "Préciser les choses de manière très nette",
-      "example": "Il est temps de mettre les points sur les i avec toute l'équipe."
+      "meaning": "Définir ou préciser des conditions sans équivoque possible.",
+      "example": "Avant de signer le contrat, la directrice a mis les points sur les i."
     },
     {
       "idiom": "Remuer le couteau dans la plaie",
       "level": "C2",
-      "meaning": "Rappeler un souvenir douloureux",
-      "example": "Ne remue pas le couteau dans la plaie en lui parlant de son échec."
+      "meaning": "Raviver cruellement un souvenir ou une souffrance morale.",
+      "example": "En évoquant son échec électoral, il n'a fait que remuer le couteau dans la plaie."
     },
     {
       "idiom": "Tirer le diable par la queue",
       "level": "C2",
-      "meaning": "Vivre dans de grandes difficultés financières",
-      "example": "À la fin du mois, beaucoup d'étudiants tirent le diable par la queue."
+      "meaning": "Lutter difficilement pour assurer sa subsistance matérielle.",
+      "example": "Pendant ses premières années d'artiste, il tirait le diable par la queue."
     },
     {
       "idiom": "Vendre la mèche",
       "level": "C2",
-      "meaning": "Révéler un secret ou un complot",
-      "example": "Qui a vendu la mèche aux journalistes ?"
+      "meaning": "Trahir un secret ou dévoiler prématurément un projet clandestin.",
+      "example": "L'un des complices a fini par vendre la mèche aux autorités."
     },
     {
       "idiom": "Voler de ses propres ailes",
       "level": "C2",
-      "meaning": "Devenir autonome",
-      "example": "Après ses études, elle a quitté le domicile familial pour voler de ses propres ailes."
+      "meaning": "Assumer sa pleine indépendance après une période de tutelle.",
+      "example": "Après avoir créé son entreprise, il vole désormais de ses propres ailes."
     },
     {
-      "idiom": "C'est la vie",
-      "level": "A2",
-      "meaning": "That's life / Tel est le cours des choses",
-      "example": "Mon train a du retard, c'est la vie !"
-    },
-    {
-      "idiom": "Poser un lapin",
-      "level": "B1",
-      "meaning": "Ne pas se présenter à un rendez-vous",
-      "example": "Il ne vient pas ? Il m'a posé un lapin !"
-    },
-    {
-      "idiom": "Avoir le cafard",
-      "level": "B2",
-      "meaning": "Se sentir triste ou déprimé",
-      "example": "Quand il pleut toute la journée, j'ai le cafard."
-    },
-    {
-      "idiom": "Coup de foudre",
-      "level": "C1",
-      "meaning": "Amour soudain et immédiat",
-      "example": "Entre Paul et Marie, ce fut le coup de foudre."
-    },
-    {
-      "idiom": "Comme un poisson dans l'eau",
+      "idiom": "Brûler le pavé",
       "level": "C2",
-      "meaning": "Être très à l'aise dans un environnement",
-      "example": "Au volant de sa voiture, il est comme un poisson dans l'eau."
+      "meaning": "Rouler ou courir à une vitesse extrême.",
+      "example": "La voiture de course brûlait le pavé sous les applaudissements du public."
     },
     {
-      "idiom": "Coûter les yeux de la tête",
-      "level": "A1",
-      "meaning": "Être extrêmement cher",
-      "example": "Ce nouveau téléphone coûte les yeux de la tête."
-    },
-    {
-      "idiom": "Mettre les pieds dans le plat",
-      "level": "A2",
-      "meaning": "Parler maladroitement d'un sujet délicat",
-      "example": "En abordant ce sujet, il a mis les pieds dans le plat."
-    },
-    {
-      "idiom": "Donner sa langue au chat",
-      "level": "B1",
-      "meaning": "Abandonner une devinette",
-      "example": "Je ne trouve pas la réponse, je donne ma langue au chat."
-    },
-    {
-      "idiom": "Raconter des salades",
-      "level": "B2",
-      "meaning": "Raconter des mensonges ou des histoires",
-      "example": "Ne le crois pas, il raconte toujours des salades."
-    },
-    {
-      "idiom": "Avoir un poil dans la main",
-      "level": "C1",
-      "meaning": "Être très paresseux",
-      "example": "Il ne fait jamais le ménage, il a un poil dans la main !"
-    },
-    {
-      "idiom": "Tomber dans les pommes",
+      "idiom": "Avoir voix au chapitre",
       "level": "C2",
-      "meaning": "S'évanouir",
-      "example": "Sous cette chaleur intense, elle a failli tomber dans les pommes."
+      "meaning": "Posséder le droit légitime d'exprimer son avis lors d'une décision.",
+      "example": "Dans ce conseil d'administration, seuls les actionnaires majeurs ont voix au chapitre."
     },
     {
-      "idiom": "Au fur et à mesure",
-      "level": "A1",
-      "meaning": "Progressivement, étape par étape",
-      "example": "Les idées viennent au fur et à mesure de la discussion."
-    },
-    {
-      "idiom": "Avoir l'embarras du choix",
-      "level": "A2",
-      "meaning": "Avoir trop de possibilités",
-      "example": "Dans ce grand restaurant, on a l'embarras du choix."
-    },
-    {
-      "idiom": "Casser les pieds",
-      "level": "B1",
-      "meaning": "Embêter fortement quelqu'un",
-      "example": "Arrête de me casser les pieds avec tes questions !"
-    },
-    {
-      "idiom": "Faire la grasse matinée",
-      "level": "B2",
-      "meaning": "Dormir tard le matin",
-      "example": "Le dimanche, nous aimons faire la grasse matinée."
-    },
-    {
-      "idiom": "Jeter l'éponge",
-      "level": "C1",
-      "meaning": "Abandonner un projet ou un combat",
-      "example": "Malgré les difficultés, l'équipe refuse de jeter l'éponge."
-    },
-    {
-      "idiom": "Faire d'une pierre deux coups",
+      "idiom": "Tirer à boulets rouges",
       "level": "C2",
-      "meaning": "Réussir deux objectifs en une seule action",
-      "example": "En allant à Paris pour le travail, j'ai fait d'une pierre deux coups en voyant mes amis."
+      "meaning": "Critiquer une personne ou une institution avec une extrême virulence.",
+      "example": "L'opposition a tiré à boulets rouges sur la nouvelle réforme."
     },
     {
-      "idiom": "Avoir le cœur sur la main",
-      "level": "A1",
-      "meaning": "Être très généreux",
-      "example": "Elle aide tout le monde, elle a le cœur sur la main."
-    },
-    {
-      "idiom": "Avoir d'autres chats à fouetter",
-      "level": "A2",
-      "meaning": "Avoir des affaires plus importantes à régler",
-      "example": "Je ne peux pas m'en occuper, j'ai d'autres chats à fouetter."
-    },
-    {
-      "idiom": "Appeler un chat un chat",
-      "level": "B1",
-      "meaning": "Parler avec une entière franchise",
-      "example": "Soyons honnêtes et appelons un chat un chat."
-    },
-    {
-      "idiom": "Mettre l'eau à la bouche",
-      "level": "B2",
-      "meaning": "Donner très envie de manger ou tester",
-      "example": "L'odeur de ce gâteau met l'eau à la bouche."
-    },
-    {
-      "idiom": "Avoir la tête sur les épaules",
-      "level": "C1",
-      "meaning": "Être réaliste et sensé",
-      "example": "C'est un jeune très responsable, il a la tête sur les épaules."
-    },
-    {
-      "idiom": "Prendre son courage à deux mains",
+      "idiom": "Prêcher le faux pour savoir le vrai",
       "level": "C2",
-      "meaning": "Affronter une peur avec détermination",
-      "example": "Il a pris son courage à deux mains et a parlé à son patron."
+      "meaning": "Dire intentionnellement une inexactitude pour amener l'interlocuteur à révéler la vérité.",
+      "example": "En prétendant connaître déjà la réponse, elle a prêché le faux pour savoir le vrai."
     },
     {
-      "idiom": "Tourner la page",
-      "level": "A1",
-      "meaning": "Passer à autre chose après un événement",
-      "example": "Après l'échec, il a décidé de tourner la page."
-    },
-    {
-      "idiom": "Vider son sac",
-      "level": "A2",
-      "meaning": "Exprimer enfin tout ce qu'on retenait",
-      "example": "Pendant la réunion, il a décidé de vider son sac."
-    },
-    {
-      "idiom": "Tirer son épingle du jeu",
-      "level": "B1",
-      "meaning": "Se sortir habilement d'une situation difficile",
-      "example": "Dans cette crise économique, l'entreprise a su tirer son épingle du jeu."
-    },
-    {
-      "idiom": "Mettre de l'eau dans son vin",
-      "level": "B2",
-      "meaning": "Modérer ses exigences",
-      "example": "Pour parvenir à un accord, chacun doit mettre de l'eau dans son vin."
-    },
-    {
-      "idiom": "Passer du coq à l'âne",
-      "level": "C1",
-      "meaning": "Changer brusquement de sujet de conversation",
-      "example": "En nous parlant, il passe constamment du coq à l'âne."
-    },
-    {
-      "idiom": "Avoir les yeux plus gros que le ventre",
+      "idiom": "Jeter le manche après la cognée",
       "level": "C2",
-      "meaning": "Commander ou prendre plus qu'on ne peut consommer",
-      "example": "J'ai trop servi sur mon assiette, j'ai eu les yeux plus gros que le ventre."
+      "meaning": "Renoncer brusquement par découragement complet.",
+      "example": "Submergé par le doute, il a pensé à jeter le manche après la cognée."
     },
     {
-      "idiom": "Chercher midi à quatorze heures",
-      "level": "A1",
-      "meaning": "Compliquer inutilement les choses",
-      "example": "La solution est simple, ne cherche pas midi à quatorze heures."
-    },
-    {
-      "idiom": "Couper les cheveux en quatre",
-      "level": "A2",
-      "meaning": "Mener un raisonnement excessivement minutieux",
-      "example": "Arrêtons de couper les cheveux en quatre et décidons."
-    },
-    {
-      "idiom": "Faire la sourde oreille",
-      "level": "B1",
-      "meaning": "Faire semblant de ne pas entendre",
-      "example": "Malgré les conseils, il fait la sourde oreille."
-    },
-    {
-      "idiom": "Mettre les bouchées doubles",
-      "level": "B2",
-      "meaning": "Accélérer considérablement son travail",
-      "example": "Pour finir avant ce soir, nous devons mettre les bouchées doubles."
-    },
-    {
-      "idiom": "Prendre des vessies pour des lanternes",
-      "level": "C1",
-      "meaning": "Se faire des illusions grossières",
-      "example": "Attention à ne pas prendre des vessies pour des lanternes."
-    },
-    {
-      "idiom": "Tirer les vers du nez",
+      "idiom": "Dormir sur ses deux oreilles",
       "level": "C2",
-      "meaning": "Faire parler quelqu'un adroitement",
-      "example": "La journaliste a réussi à lui tirer les vers du nez."
+      "meaning": "Être totalement en sécurité et exempt de tout souci.",
+      "example": "Le système d'alarme est activé, vous pouvez dormir sur vos deux oreilles."
     },
     {
-      "idiom": "Mettre sa main au feu",
-      "level": "A1",
-      "meaning": "Être absolument certain d'une chose",
-      "example": "Je mettrais ma main au feu qu'il dit la vérité."
-    },
-    {
-      "idiom": "Avoir un violon d'Ingres",
-      "level": "A2",
-      "meaning": "Avoir une passion ou un loisir favori",
-      "example": "La peinture est son véritable violon d'Ingres."
-    },
-    {
-      "idiom": "Bâtir des châteaux en Espagne",
-      "level": "B1",
-      "meaning": "Faire des projets irréalistes",
-      "example": "Au lieu de bâtir des châteaux en Espagne, agissons."
-    },
-    {
-      "idiom": "Brûler les étapes",
-      "level": "B2",
-      "meaning": "Agir trop précipitamment",
-      "example": "Il veut réussir vite mais il ne faut pas brûler les étapes."
-    },
-    {
-      "idiom": "Découvrir le pot aux roses",
-      "level": "C1",
-      "meaning": "Mettre au jour un secret dissimulé",
-      "example": "L'enquêteur a fini par découvrir le pot aux roses."
-    },
-    {
-      "idiom": "Faire chou blanc",
+      "idiom": "Rire jaune",
       "level": "C2",
-      "meaning": "Subir un échec complet",
-      "example": "Les recherches ont fait chou blanc toute la journée."
+      "meaning": "Forcer un rire pour dissimuler son dépit ou son embarras.",
+      "example": "Devant la moquerie de ses collègues, il s'est contenté de rire jaune."
     },
     {
-      "idiom": "Mettre le doigt sur le problème",
-      "level": "A1",
-      "meaning": "Identifier exactement la difficulté",
-      "example": "Son rapport a mis le doigt sur le problème financier."
-    },
-    {
-      "idiom": "Noyer le poisson",
-      "level": "A2",
-      "meaning": "Créer la confusion pour esquiver une question",
-      "example": "Quand on l'interroge sur les chiffres, il noie le poisson."
-    },
-    {
-      "idiom": "Rendre la monnaie de sa pièce",
-      "level": "B1",
-      "meaning": "Se venger d'un mauvais procédé",
-      "example": "Il lui a rendu la monnaie de sa pièce lors du débat."
-    },
-    {
-      "idiom": "Séparer le grain de l'ivraie",
-      "level": "B2",
-      "meaning": "Distinguer le bon du mauvais",
-      "example": "L'examen permet de séparer le grain de l'ivraie."
-    },
-    {
-      "idiom": "Avoir une épée de Damoclès sur la tête",
-      "level": "C1",
-      "meaning": "Être menacé d'un danger constant",
-      "example": "Cette dette fiscale est une épée de Damoclès sur l'entreprise."
-    },
-    {
-      "idiom": "Clouer le bec à quelqu'un",
+      "idiom": "Tailler une bavette",
       "level": "C2",
-      "meaning": "Faire taire quelqu'un par un argument imparable",
-      "example": "Sa réplique brillante a cloué le bec à son opposant."
+      "meaning": "S'engager dans une conversation familière et prolongée.",
+      "example": "Elles se sont croisées au marché et sont restées une heure à tailler une bavette."
+    },
+    {
+      "idiom": "Tourner autour du pot",
+      "level": "C2",
+      "meaning": "Hésiter à aborder franchement le nœud du problème.",
+      "example": "Cesse de tourner autour du pot et dis-moi clairement ce que tu veux."
     }
   ],
   "it": [
