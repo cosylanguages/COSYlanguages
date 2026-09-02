@@ -1,4 +1,31 @@
-/* ── Button and Component Tokens & Overrides ────────── */
+/* ─────────────────────────────────────────────────────────────────────────────
+   COSY BUTTON CLASS SYSTEM ARCHITECTURE
+
+   Core Base Classes (tokens defined in css/tokens.css - DO NOT OVERRIDE):
+   - .btn-primary   : Solid primary action button (Sage green theme background)
+   - .btn-secondary : Outlined secondary action button (Sage border/text)
+   - .btn-tertiary  : Minimal text link button (Sage text with underline hover)
+
+   Color Variant Base Classes & Data-Accent Tokens:
+   - .btn-card-white[data-accent="coral|plum|green|navy|relocation"] : White card CTA
+   - .btn-card-on-dark[data-variant="soft"]                          : Dark background CTA
+
+   Specialized Domain-Specific Button Utilities:
+   - .btn-ghost            : Translucent white overlay button for media hero banners
+   - .btn-outline          : Neutral subtle outline button for practice session options
+   - .btn-start            : Prominent dark pill button for session launching
+   - .btn-start-game, .btn-g-primary, .btn-g-secondary, .btn-g-danger, .btn-gender
+                           : Standalone game engine control buttons
+   - .btn-trailer, .btn-play-game : Event & multimedia card action links
+   - .btn-print, .btn-reset, .btn-verify, .btn-action-sm
+                           : Printable material action controls
+   - .btn-add-dict, .btn-pronounce, .btn-pronounce-card, .btn-remove-card,
+     .btn-save-manual, .btn-notebook-action
+                           : Dictionary, notebook, and pronunciation tools
+   - .btn-disabled-stub, .btn-flex-1, .btn-outline-top-spaced, .btn-submit-brown, .btn-submit-fit
+                           : Contextual layout and state utility modifiers
+   ───────────────────────────────────────────────────────────────────────────── */
+
 :root {
     /* Button System Variables */
     --btn-font-sans: var(--font-sans, 'Nunito', 'DM Sans', sans-serif);
@@ -278,11 +305,11 @@ body.theme-dark #cosy-nav {
   outline-offset: 2px;
 }
 
-.cc-btn { display: block; width: 100%; padding: 14px 24px; border-radius: 100px; font-size: .9rem; font-weight: 800; text-align: center; transition: all .2s; cursor: pointer; border: none; }
-.cc-btn.btn-coral { background: var(--coral); color: #fff; }
-.cc-btn.btn-plum { background: var(--plum); color: #fff; }
-.cc-btn.btn-green { background: var(--green); color: #fff; }
-.cc-btn.btn-navy { background: var(--navy); color: #fff; }
+.cc-btn { display: block; width: 100%; padding: 14px 24px; border-radius: 100px; font-size: .9rem; font-weight: 800; text-align: center; transition: all .2s; cursor: pointer; border: none; background: var(--btn-accent-color, var(--sage)); color: #fff; }
+.cc-btn[data-accent="coral"] { --btn-accent-color: var(--coral); }
+.cc-btn[data-accent="plum"] { --btn-accent-color: var(--plum); }
+.cc-btn[data-accent="green"] { --btn-accent-color: var(--green); }
+.cc-btn[data-accent="navy"] { --btn-accent-color: var(--navy); }
 .cc-btn:hover { opacity: .9; transform: scale(1.02); }
 
 .calc-book { background: var(--teal); color: #fff; font-weight: 700; padding: 16px 36px; border-radius: 100px; font-size: 1rem; transition: all .2s; }
@@ -292,29 +319,6 @@ body.theme-dark #cosy-nav {
 .cta-tg { background: rgba(255,255,255,.1); border: 1.5px solid rgba(255,255,255,.3); color: #fff; font-weight: 600; padding: 14px 34px; border-radius: 100px; font-size: 1rem; }
 
 .lead-submit { background: var(--ink); color: #fff; border: none; width: 32px; border-radius: 6px; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: .8rem; }
-
-.btn-primary-new {
-    background: linear-gradient(135deg, var(--sage-dark), var(--sage-deep));
-    color: #fff;
-    border: none;
-    padding: 12px 24px;
-    border-radius: 12px;
-    font-weight: 800;
-    cursor: pointer;
-    font-family: inherit;
-    transition: transform 0.2s, opacity 0.2s;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-}
-.btn-primary-new:hover {
-    opacity: 0.95;
-    transform: translateY(-1px);
-}
-.btn-primary-new:active {
-    transform: translateY(0);
-}
 
 /* ── Cards ─────────────────────────────────────────── */
 .course-card { background: var(--warm-white); border: 1px solid var(--border); border-radius: var(--r-xl); padding: 2.5rem 2rem; display: flex; flex-direction: column; transition: all .3s cubic-bezier(0.23, 1, 0.32, 1); position: relative; }
@@ -491,16 +495,6 @@ body.theme-dark #cosy-nav {
   font-size: 0.85rem;
   color: var(--ink-soft);
   line-height: 1.4;
-}
-.btn-delete-mnemonic {
-  position: absolute;
-  top: 0.75rem;
-  right: 0.75rem;
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-size: 1rem;
-  color: var(--coral);
 }
 .mnemonic-word-header {
   padding-right: 1.5rem;
@@ -2010,7 +2004,7 @@ body.theme-dark .session-mini-nav .sd-jump-link.active {
 .cc-desc-soft {
   color: rgba(255,255,255,0.85);
 }
-.btn-card-on-dark-soft {
+.btn-card-on-dark[data-variant="soft"] {
   background: rgba(255,255,255,0.15);
   color: white;
   border-color: rgba(255,255,255,0.3);
@@ -2054,10 +2048,6 @@ body.theme-dark .session-mini-nav .sd-jump-link.active {
   display: flex;
   align-items: center;
   gap: 8px;
-}
-.btn-chip-sm {
-  font-size: 11px;
-  padding: 2px 8px;
 }
 .transfer-tips-grid-list {
   display: grid;
@@ -2141,26 +2131,15 @@ body.theme-dark .session-mini-nav .sd-jump-link.active {
   font-size: 0.6em;
   vertical-align: middle;
 }
-.btn-card-white-coral {
+.btn-card-white {
   background: white;
-  color: var(--coral);
+  color: var(--btn-accent-color, var(--coral));
 }
-.btn-card-white-plum {
-  background: white;
-  color: var(--plum);
-}
-.btn-card-white-green {
-  background: white;
-  color: var(--green);
-}
-.btn-card-white-navy {
-  background: white;
-  color: var(--navy);
-}
-.btn-card-white-relocation {
-  background: white;
-  color: #d66161;
-}
+.btn-card-white[data-accent="coral"] { --btn-accent-color: var(--coral); }
+.btn-card-white[data-accent="plum"] { --btn-accent-color: var(--plum); }
+.btn-card-white[data-accent="green"] { --btn-accent-color: var(--green); }
+.btn-card-white[data-accent="navy"] { --btn-accent-color: var(--navy); }
+.btn-card-white[data-accent="relocation"] { --btn-accent-color: #d66161; }
 
 /* Coming Soon Clean CSS Classes */
 .coming-soon-cta-sec {
