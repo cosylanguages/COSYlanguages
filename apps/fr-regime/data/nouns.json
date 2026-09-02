@@ -4,23 +4,23 @@
     "prepositions": [
       "de"
     ],
-    "pattern": "besoin de [nom / verbe]",
+    "pattern": "nom + de + [complément / verbe]",
     "level": "A1",
-    "definition": "Exigence fondamentale ou nécessité vitale d'avoir quelque chose.",
-    "grammar_rule": "Le nom « besoin » prend la préposition « de » (besoin de repos). Se combine fréquemment avec l'auxiliaire « avoir » (avoir besoin de). Contractions du/des.",
-    "related_forms": "avoir besoin",
+    "definition": "Exigence fondamentale ou nécessité ressentie d'obtenir quelque chose.",
+    "grammar_rule": "Régime prépositionnel identique au verbe apparenté « avoir besoin » (de). Contraction obligatoire : de + le = du, de + les = des.",
+    "related_forms": "⚡ Nom : 'le besoin DE repos' ➜ Verbe apparenté : 'avoir besoin'",
     "examples": [
-      "Il ressent un grand besoin de repos après le travail.",
-      "Le besoin d'eau est vital pour tous."
+      "Elle ressent le besoin de prendre du repos.",
+      "Le besoin d'eau potable est urgent dans la région."
     ],
-    "common_mistake": "❌ Il a un besoin à dormir. ➜ ✅ Il a un besoin de dormir.",
+    "common_mistake": "❌ Le besoin pour manger. ➜ ✅ Le besoin de manger.",
     "synonyms": [
       "nécessité",
       "exigence"
     ],
     "antonyms": [
-      "superflu",
-      "luxe"
+      "luxe",
+      "superflu"
     ]
   },
   "envie": {
@@ -28,16 +28,16 @@
     "prepositions": [
       "de"
     ],
-    "pattern": "envie de [nom / verbe]",
+    "pattern": "nom + de + [complément / verbe]",
     "level": "A1",
-    "definition": "Désir spontané d'avoir ou de faire quelque chose.",
-    "grammar_rule": "Le nom « envie » exige la préposition « de » devant un nom ou un infinitif. Contractions du/des.",
-    "related_forms": "avoir envie",
+    "definition": "Désir vif ou souhait spontané d'avoir ou de faire quelque chose.",
+    "grammar_rule": "Régime prépositionnel identique au verbe apparenté « avoir envie » (de). Contractions obligatoires : de + le = du, de + les = des.",
+    "related_forms": "⚡ Nom : 'l'envie DE voyager' ➜ Verbe apparenté : 'avoir envie'",
     "examples": [
-      "J'ai une grande envie de voyager cet été.",
-      "Elle a envie d'un chocolat chaud."
+      "J'ai une grande envie de chocolat chaud.",
+      "Son envie de réussir l'encourage chaque jour."
     ],
-    "common_mistake": "❌ J'ai envie pour sortir. ➜ ✅ J'ai envie de sortir.",
+    "common_mistake": "❌ L'envie pour partir. ➜ ✅ L'envie de partir.",
     "synonyms": [
       "désir",
       "souhait"
@@ -52,23 +52,216 @@
     "prepositions": [
       "de"
     ],
-    "pattern": "peur de [nom / verbe]",
+    "pattern": "nom + de + [complément / verbe]",
     "level": "A1",
-    "definition": "Sentiment d'inquiétude ou d'effroi face à un danger réel ou imaginé.",
-    "grammar_rule": "Exige la préposition « de » devant le complément d'objet ou la proposition infinitive.",
-    "related_forms": "avoir peur",
+    "definition": "Émotion éprouvée face à un danger ou à une menace.",
+    "grammar_rule": "Régime prépositionnel identique au verbe apparenté « avoir peur » (de). Contractions obligatoires : de + le = du, de + les = des.",
+    "related_forms": "⚡ Nom : 'la peur DU noir' ➜ Verbe apparenté : 'avoir peur'",
     "examples": [
-      "Sa peur du noir diminue avec le temps.",
-      "Il a peur de rater son examen."
+      "La peur de l'échec ne doit pas vous arrêter.",
+      "Son petit frère a peur des chiens."
     ],
-    "common_mistake": "❌ Il a peur à l'obscurité. ➜ ✅ Il a peur de l'obscurité.",
+    "common_mistake": "❌ La peur à l'obscurité. ➜ ✅ La peur de l'obscurité.",
     "synonyms": [
       "crainte",
-      "frousse"
+      "frayeur"
     ],
     "antonyms": [
       "courage",
       "assurance"
+    ]
+  },
+  "la honte": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [complément / verbe]",
+    "level": "A1",
+    "definition": "Sentiment d'humiliation ou de culpabilité causé par une faute ou un échec.",
+    "grammar_rule": "Régime prépositionnel identique au verbe apparenté « avoir honte » (de). Contraction obligatoire : de + le = du, de + les = des.",
+    "related_forms": "⚡ Nom : 'la honte DE mentir' ➜ Verbe apparenté : 'avoir honte'",
+    "examples": [
+      "Il éprouve de la honte après ses déclarations.",
+      "La honte d'avoir échoué le rend très silencieux."
+    ],
+    "common_mistake": "❌ La honte pour parler. ➜ ✅ La honte de parler.",
+    "synonyms": [
+      "confusion",
+      "culpabilité"
+    ],
+    "antonyms": [
+      "fierté",
+      "honneur"
+    ]
+  },
+  "amour": {
+    "word_type": "noun",
+    "prepositions": [
+      "de",
+      "pour"
+    ],
+    "pattern": "nom + de / pour + [personne / activité]",
+    "level": "A1",
+    "definition": "Sentiment d'affection vive, de passion ou d'attachement profond.",
+    "grammar_rule": "Divergence marquée ! Le verbe apparenté « aimer » est transitif direct (J'aime le chocolat), tandis que le nom « amour » se construit avec « de » ou « pour » (L'amour de la musique / L'amour pour sa famille).",
+    "related_forms": "⚡ Nom : 'l'amour POUR la musique' ➜ Verbe apparenté : 'aimer'",
+    "examples": [
+      "Son amour pour la musique classique est immense.",
+      "L'amour de la vérité guide ses actions."
+    ],
+    "common_mistake": "❌ Son amour à sa famille. ➜ ✅ Son amour pour sa famille.",
+    "synonyms": [
+      "affection",
+      "passion"
+    ],
+    "antonyms": [
+      "haine",
+      "aversion"
+    ]
+  },
+  "réponse": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "nom + à + [question / personne / message]",
+    "level": "A1",
+    "definition": "Parole ou écrit fournissant une solution ou une réaction à une sollicitation.",
+    "grammar_rule": "Régime prépositionnel identique au verbe apparenté « répondre » (à). Contractions obligatoires : à + le = au, à + les = aux.",
+    "related_forms": "⚡ Nom : 'la réponse AU message' ➜ Verbe apparenté : 'répondre'",
+    "examples": [
+      "J'attends toujours une réponse à mon courriel.",
+      "Sa réponse à la question était très claire."
+    ],
+    "common_mistake": "❌ Une réponse pour la question. ➜ ✅ Une réponse à la question.",
+    "synonyms": [
+      "réplique",
+      "solution"
+    ],
+    "antonyms": [
+      "question",
+      "demande"
+    ]
+  },
+  "question": {
+    "word_type": "noun",
+    "prepositions": [
+      "sur",
+      "à propos de"
+    ],
+    "pattern": "nom + sur / à propos de + [sujet]",
+    "level": "A1",
+    "definition": "Demande d'information adressée à quelqu'un sur un sujet précis.",
+    "grammar_rule": "Régime prépositionnel préférentiel « sur » ou « à propos de » pour le sujet de la question. Ne pas confondre avec la personne posée (question à quelqu'un).",
+    "related_forms": "⚡ Nom : 'une question SUR la grammaire' ➜ Verbe apparenté : 'poser'",
+    "examples": [
+      "L'étudiant pose une question sur la règle de grammaire.",
+      "Avez-vous des questions à propos du projet ?"
+    ],
+    "common_mistake": "❌ Une question de l'examen (pour le sujet). ➜ ✅ Une question sur l'examen.",
+    "synonyms": [
+      "interrogation",
+      "demande"
+    ],
+    "antonyms": [
+      "réponse",
+      "solution"
+    ]
+  },
+  "façon": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [verbe / nom]",
+    "level": "A1",
+    "definition": "Manière particulière d'agir, de s'expressimer ou de faire quelque chose.",
+    "grammar_rule": "Se construit obligatoirement avec la préposition « de » devant l'infinitif (façon de parler / façon de faire).",
+    "related_forms": "⚡ Nom : 'la façon DE parler' ➜ Verbe apparenté : 'parler'",
+    "examples": [
+      "Chacun a sa propre façon de travailler.",
+      "Sa façon de s'exprimer est très polie."
+    ],
+    "common_mistake": "❌ La façon pour cuisiner. ➜ ✅ La façon de cuisiner.",
+    "synonyms": [
+      "manière",
+      "mode"
+    ],
+    "antonyms": [
+      "incapacité"
+    ]
+  },
+  "moyen": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [verbe / nom]",
+    "level": "A1",
+    "definition": "Procédé, ressource ou méthode permettant d'accomplir une action.",
+    "grammar_rule": "Le nom « moyen » exige la préposition « de » devant un infinitif (moyen de transport / moyen de réussir).",
+    "related_forms": "⚡ Nom : 'un moyen DE réussir' ➜ Verbe apparenté : 'réussir'",
+    "examples": [
+      "Le train est un bon moyen de voyager.",
+      "Il cherche un moyen de résoudre ce problème."
+    ],
+    "common_mistake": "❌ Un moyen pour contacter. ➜ ✅ Un moyen de contacter.",
+    "synonyms": [
+      "méthode",
+      "procédé"
+    ],
+    "antonyms": [
+      "obstacle",
+      "inconvénient"
+    ]
+  },
+  "souvenir": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [événement / personne / lieu]",
+    "level": "A1",
+    "definition": "Image ou impression conservée dans la mémoire.",
+    "grammar_rule": "Divergence majeure selon le verbe ! Le nom « souvenir » s'aligne sur le verbe pronominal « se souvenir » (de), contrairement au verbe transitif direct « se rappeler » (se rappeler quelque chose). Contractions du/des.",
+    "related_forms": "⚡ Nom : 'le souvenir DU voyage' ➜ Verbe apparenté : 'se souvenir'",
+    "examples": [
+      "Gardez un bon souvenir de votre séjour à Paris.",
+      "Le souvenir de son enfance lui donne le sourire."
+    ],
+    "common_mistake": "❌ Le souvenir sur l'été. ➜ ✅ Le souvenir de l'été.",
+    "synonyms": [
+      "mémoire",
+      "rappel"
+    ],
+    "antonyms": [
+      "oubli"
+    ]
+  },
+  "goût": {
+    "word_type": "noun",
+    "prepositions": [
+      "de",
+      "pour"
+    ],
+    "pattern": "nom + de / pour + [aliment / activité]",
+    "level": "A1",
+    "definition": "Saveur d'un aliment OU penchant naturel pour une activité.",
+    "grammar_rule": "Exige « de » pour la saveur (goût de fraise / goût du café) et « pour » pour le penchant/l'intérêt (goût pour les arts).",
+    "related_forms": "⚡ Nom : 'le goût DU café / le goût POUR la peinture' ➜ Verbe apparenté : 'aimer'",
+    "examples": [
+      "Ce gâteau a un délicieux goût de citron.",
+      "Il a développé un goût très vif pour la lecture."
+    ],
+    "common_mistake": "❌ Un goût à la vanille (pour la saveur). ➜ ✅ Un goût de vanille.",
+    "synonyms": [
+      "saveur",
+      "penchant"
+    ],
+    "antonyms": [
+      "dégoût",
+      "aversion"
     ]
   },
   "habitude": {
@@ -76,16 +269,16 @@
     "prepositions": [
       "de"
     ],
-    "pattern": "habitude de [nom / verbe]",
+    "pattern": "nom + de + [verbe / nom]",
     "level": "A1",
-    "definition": "Pratique fréquente et régulière d'un comportement.",
-    "grammar_rule": "Le nom « habitude » se construit avec « de » devant l'infinitif ou le nom.",
-    "related_forms": "s'habituer",
+    "definition": "Comportement acquis par une pratique fréquente et régulière.",
+    "grammar_rule": "Divergence prépositionnelle ! Le nom « habitude » s'emploie avec « de » (habitude de lire), tandis que le verbe pronominal « s'habituer » prend « à » (s'habituer au froid).",
+    "related_forms": "⚡ Nom : 'l'habitude DE se lever tôt' ➜ Verbe apparenté : 's'habituer'",
     "examples": [
-      "Elle a l'habitude de se lever tôt.",
-      "C'est une bonne habitude de boire de l'eau le matin."
+      "Prendre l'habitude de marcher est excellent pour la santé.",
+      "Il a l'habitude de boire du thé chaque matin."
     ],
-    "common_mistake": "❌ Il a l'habitude à marcher. ➜ ✅ Il a l'habitude de marcher.",
+    "common_mistake": "❌ L'habitude à se lever tôt. ➜ ✅ L'habitude de se lever tôt.",
     "synonyms": [
       "coutume",
       "routine"
@@ -95,52 +288,619 @@
       "exception"
     ]
   },
-  "intention": {
+  "aide": {
     "word_type": "noun",
     "prepositions": [
-      "de"
+      "à"
     ],
-    "pattern": "intention de [verbe]",
-    "level": "A2",
-    "definition": "Volonté délibérée d'accomplir une action future.",
-    "grammar_rule": "Le nom « intention » est toujours suivi de la préposition « de » devant un infinitif.",
-    "related_forms": "penser",
+    "pattern": "nom + à + [personne / secteur]",
+    "level": "A1",
+    "definition": "Assistance ou secours apporté à quelqu'un dans une tâche.",
+    "grammar_rule": "Se construit avec « à » devant le bénéficiaire (aide à la personne) ou « de » devant la provenance (l'aide du voisin). S'aligne sur « aider » (à).",
+    "related_forms": "⚡ Nom : 'l'aide À la recherche' ➜ Verbe apparenté : 'aider'",
     "examples": [
-      "Nous avons l'intention de déménager l'année prochaine.",
-      "Avez-vous l'intention de participer à la réunion ?"
+      "Cette association propose une aide aux personnes âgées.",
+      "Merci pour votre aide précieuse !"
     ],
-    "common_mistake": "❌ J'ai l'intention pour venir. ➜ ✅ J'ai l'intention de venir.",
+    "common_mistake": "❌ L'aide pour la personne. ➜ ✅ L'aide à la personne.",
     "synonyms": [
-      "projet",
-      "objectif"
+      "assistance",
+      "secours"
     ],
     "antonyms": [
-      "hésitation",
-      "doute"
+      "obstacle",
+      "entrave"
     ]
   },
-  "interdiction": {
+  "visite": {
+    "word_type": "noun",
+    "prepositions": [
+      "de",
+      "à"
+    ],
+    "pattern": "nom + de [lieu] / à [personne]",
+    "level": "A1",
+    "definition": "Action d'aller voir un lieu ou de rendre visite à une personne.",
+    "grammar_rule": "Divergence importante ! Pour un lieu : visite DE (la visite du musée - s'aligne sur le verbe transitif 'visiter'). Pour une personne : visite À (la visite à la grand-mère - s'aligne sur 'rendre visite à').",
+    "related_forms": "⚡ Nom : 'la visite DU musée / la visite À la famille' ➜ Verbe apparenté : 'visiter'",
+    "examples": [
+      "La visite du château de Versailles dure deux heures.",
+      "Nous faisons une courte visite à nos amis parisiens."
+    ],
+    "common_mistake": "❌ La visite de ma grand-mère (pour lui rendre visite). ➜ ✅ La visite à ma grand-mère.",
+    "synonyms": [
+      "exploration",
+      "rencontre"
+    ],
+    "antonyms": [
+      "départ"
+    ]
+  },
+  "appel": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "nom + à + [personne / calme / don]",
+    "level": "A1",
+    "definition": "Action de téléphoner ou de faire une demande pressante.",
+    "grammar_rule": "Exige la préposition « à » (appel au calme / un appel à la police). S'aligne sur « téléphoner » (à).",
+    "related_forms": "⚡ Nom : 'l'appel AU médecin' ➜ Verbe apparenté : 'téléphoner'",
+    "examples": [
+      "Le président lance un appel au calme.",
+      "J'ai manqué un appel important du bureau."
+    ],
+    "common_mistake": "❌ Un appel pour la police. ➜ ✅ Un appel à la police.",
+    "synonyms": [
+      "demande",
+      "convocation"
+    ],
+    "antonyms": [
+      "silence"
+    ]
+  },
+  "début": {
     "word_type": "noun",
     "prepositions": [
       "de"
     ],
-    "pattern": "interdiction de [verbe / nom]",
-    "level": "A2",
-    "definition": "Action de défendre ou d'empêcher une activité.",
-    "grammar_rule": "Exige « de » devant l'infinitif exprimant l'action défendue.",
-    "related_forms": "interdire",
+    "pattern": "nom + de + [période / événement]",
+    "level": "A1",
+    "definition": "Moment où une action ou une période commence.",
+    "grammar_rule": "Divergence ! Le nom « début » prend la préposition « de » (au début du cours), alors que le verbe « commencer » se construit avec « à » devant un infinitif.",
+    "related_forms": "⚡ Nom : 'le début DU cours' ➜ Verbe apparenté : 'commencer'",
     "examples": [
-      "L'interdiction de fumer est stricte dans les lieux publics.",
-      "Il y a une interdiction de stationner sur le trottoir."
+      "Le début du film est très captivant.",
+      "Nous partirons au début du mois de mai."
     ],
-    "common_mistake": "❌ Interdiction à stationner. ➜ ✅ Interdiction de stationner.",
+    "common_mistake": "❌ Au début au cours. ➜ ✅ Au début du cours.",
     "synonyms": [
-      "prohibition",
-      "défense"
+      "commencement",
+      "ouverture"
     ],
     "antonyms": [
-      "autorisation",
-      "permission"
+      "fin",
+      "terme"
+    ]
+  },
+  "fin": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [période / histoire]",
+    "level": "A1",
+    "definition": "Moment où se termine une période ou une action.",
+    "grammar_rule": "S'emploie avec la préposition « de » (la fin du mois / la fin du cours). S'aligne sur la construction verbale « finir de ».",
+    "related_forms": "⚡ Nom : 'la fin DU film' ➜ Verbe apparenté : 'finir'",
+    "examples": [
+      "C'est la fin des vacances d'été.",
+      "Rendez-vous à la fin de la journée !"
+    ],
+    "common_mistake": "❌ À la fin au spectacle. ➜ ✅ À la fin du spectacle.",
+    "synonyms": [
+      "terme",
+      "conclusion"
+    ],
+    "antonyms": [
+      "début",
+      "commencement"
+    ]
+  },
+  "prix": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [objet / service]",
+    "level": "A1",
+    "definition": "Valeur en argent d'un bien ou d'un service.",
+    "grammar_rule": "Se construit avec « de » devant la chose vendue (le prix du pain / le prix de la chambre). S'aligne sur « acheter » / « payer ».",
+    "related_forms": "⚡ Nom : 'le prix DU billet' ➜ Verbe apparenté : 'acheter'",
+    "examples": [
+      "Le prix du loyer a augmenté cette année.",
+      "Combien coûte le prix de l'abonnement ?"
+    ],
+    "common_mistake": "❌ Le prix pour le café. ➜ ✅ Le prix du café.",
+    "synonyms": [
+      "tarif",
+      "coût"
+    ],
+    "antonyms": [
+      "gratuité"
+    ]
+  },
+  "choix": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [options / verbe]",
+    "level": "A1",
+    "definition": "Action de choisir entre plusieurs personnes ou choses.",
+    "grammar_rule": "Se construit avec la préposition « de » devant l'option ou le verbe (le choix de la couleur / le choix de partir).",
+    "related_forms": "⚡ Nom : 'le choix DU menu' ➜ Verbe apparenté : 'préférer'",
+    "examples": [
+      "Vous avez le choix des dates pour votre voyage.",
+      "Son choix de carrière est très audacieux."
+    ],
+    "common_mistake": "❌ Le choix pour le modèle. ➜ ✅ Le choix du modèle.",
+    "synonyms": [
+      "sélection",
+      "décision"
+    ],
+    "antonyms": [
+      "imposition"
+    ]
+  },
+  "désir": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [verbe / nom]",
+    "level": "A1",
+    "definition": "Aspiration ferme à obtenir ou réaliser quelque chose.",
+    "grammar_rule": "Divergence ! Le verbe « désirer » est transitif direct (Je désire un café), mais le nom « désir » prend « de » (désir de réussir).",
+    "related_forms": "⚡ Nom : 'le désir DE réussir' ➜ Verbe apparenté : 'vouloir'",
+    "examples": [
+      "Son désir de voyager l'a poussé à étudier les langues.",
+      "Elle exprime le désir de rencontrer le responsable."
+    ],
+    "common_mistake": "❌ Un désir pour partir. ➜ ✅ Un désir de partir.",
+    "synonyms": [
+      "souhait",
+      "envie"
+    ],
+    "antonyms": [
+      "aversion",
+      "refus"
+    ]
+  },
+  "plaisir": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [verbe / nom]",
+    "level": "A1",
+    "definition": "Sentiment d'agrément ou de satisfaction physique/morale.",
+    "grammar_rule": "Exige la préposition « de » devant un infinitif (plaisir de lire / plaisir de vous revoir).",
+    "related_forms": "⚡ Nom : 'le plaisir DE lire' ➜ Verbe apparenté : 'aimer'",
+    "examples": [
+      "Quel plaisir de vous revoir après tout ce temps !",
+      "Elle trouve du plaisir à la lecture de ce roman."
+    ],
+    "common_mistake": "❌ Le plaisir pour voyager. ➜ ✅ Le plaisir de voyager.",
+    "synonyms": [
+      "joie",
+      "agrément"
+    ],
+    "antonyms": [
+      "déplaisir",
+      "peine"
+    ]
+  },
+  "invitation": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "nom + à + [événement / verbe]",
+    "level": "A1",
+    "definition": "Action de prier quelqu'un de venir à une fête ou un repas.",
+    "grammar_rule": "S'aligne parfaitement sur le régime du verbe apparenté « inviter » (à). Contractions obligatoires : à + le = au, à + les = aux.",
+    "related_forms": "⚡ Nom : 'l'invitation AU mariage' ➜ Verbe apparenté : 'inviter'",
+    "examples": [
+      "J'ai reçu une invitation au mariage de mon cousin.",
+      "C'est une belle invitation à la détente."
+    ],
+    "common_mistake": "❌ Une invitation pour la fête. ➜ ✅ Une invitation à la fête.",
+    "synonyms": [
+      "convocation",
+      "proposition"
+    ],
+    "antonyms": [
+      "exclusion"
+    ]
+  },
+  "lettre": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "nom + à + [destinataire]",
+    "level": "A1",
+    "definition": "Message écrit adressé à une personne par la poste ou en main propre.",
+    "grammar_rule": "Se construit avec « à » pour introduire le destinataire (une lettre à mes parents). S'aligne sur « parler » / « écrire » (à).",
+    "related_forms": "⚡ Nom : 'une lettre AU directeur' ➜ Verbe apparenté : 'demander'",
+    "examples": [
+      "Elle écrit une lettre à sa grand-mère.",
+      "J'ai posté une lettre au service client."
+    ],
+    "common_mistake": "❌ Une lettre pour le directeur (si destinataire). ➜ ✅ Une lettre au directeur.",
+    "synonyms": [
+      "courrier",
+      "message"
+    ],
+    "antonyms": [
+      "oral"
+    ]
+  },
+  "message": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "nom + à + [destinataire]",
+    "level": "A1",
+    "definition": "Information transmise par écrit ou oralement à une personne.",
+    "grammar_rule": "Introduit le destinataire par la préposition « à » (un message à la secrétaire / contractions au/aux).",
+    "related_forms": "⚡ Nom : 'un message AU client' ➜ Verbe apparenté : 'répondre'",
+    "examples": [
+      "Laissez un message au répondeur.",
+      "Il a envoyé un message à son ami."
+    ],
+    "common_mistake": "❌ Un message pour le voisin (destinataire direct). ➜ ✅ Un message au voisin.",
+    "synonyms": [
+      "texte",
+      "courriel"
+    ],
+    "antonyms": [
+      "silence"
+    ]
+  },
+  "cadeau": {
+    "word_type": "noun",
+    "prepositions": [
+      "à",
+      "pour"
+    ],
+    "pattern": "nom + à / pour + [destinataire]",
+    "level": "A1",
+    "definition": "Chose offerte à quelqu'un pour lui faire plaisir.",
+    "grammar_rule": "Utilise « à » ou « pour » pour introduire le destinataire de l'offre (un cadeau au professeur / un cadeau pour Marie).",
+    "related_forms": "⚡ Nom : 'un cadeau AU marié' ➜ Verbe apparenté : 'acheter'",
+    "examples": [
+      "J'ai acheté un cadeau à ma sœur.",
+      "C'est un cadeau pour ton anniversaire."
+    ],
+    "common_mistake": "❌ Un cadeau de Marie (pour dire à qui on l'offre). ➜ ✅ Un cadeau pour Marie.",
+    "synonyms": [
+      "présent",
+      "offrande"
+    ],
+    "antonyms": [
+      "amende"
+    ]
+  },
+  "pause": {
+    "word_type": "noun",
+    "prepositions": [
+      "dans"
+    ],
+    "pattern": "nom + dans + [activité / journée]",
+    "level": "A1",
+    "definition": "Arrêt temporaire dans le déroulement d'une tâche.",
+    "grammar_rule": "S'emploie avec « dans » pour indiquer le moment d'interruption ou « de » pour la durée/nature (pause café).",
+    "related_forms": "⚡ Nom : 'une pause DANS le travail' ➜ Verbe apparenté : 's'arrêter'",
+    "examples": [
+      "Faisons une courte pause dans nos révisions.",
+      "C'est l'heure de la pause café !"
+    ],
+    "common_mistake": "❌ Une pause à la réunion. ➜ ✅ Une pause dans la réunion.",
+    "synonyms": [
+      "interruption",
+      "halte"
+    ],
+    "antonyms": [
+      "reprise"
+    ]
+  },
+  "travail": {
+    "word_type": "noun",
+    "prepositions": [
+      "de",
+      "à"
+    ],
+    "pattern": "nom + de + [sujet] / à + [lieu]",
+    "level": "A1",
+    "definition": "Activité professionnelle ou effort physique/intellectuel fourni.",
+    "grammar_rule": "Exige « de » pour le domaine (le travail de bureau) et « à » pour le lieu (le travail à l'usine). S'aligne sur « travailler ».",
+    "related_forms": "⚡ Nom : 'le travail À la ferme' ➜ Verbe apparenté : 'travailler'",
+    "examples": [
+      "Son travail à l'hôpital exige beaucoup de patience.",
+      "C'est un travail de longue haleine."
+    ],
+    "common_mistake": "❌ Le travail dans l'hôpital (préférence pour à). ➜ ✅ Le travail à l'hôpital.",
+    "synonyms": [
+      "emploi",
+      "labeur"
+    ],
+    "antonyms": [
+      "repos",
+      "chômage"
+    ]
+  },
+  "jeu": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [type / cartes]",
+    "level": "A1",
+    "definition": "Activité de loisir soumise à des règles.",
+    "grammar_rule": "Divergence prépositionnelle ! Le nom « jeu » s'emploie avec « de » (un jeu de société / un jeu de cartes), tandis que le verbe « jouer » prend « à » pour un sport/jeu (jouer aux cartes).",
+    "related_forms": "⚡ Nom : 'un jeu DE cartes' ➜ Verbe apparenté : 'jouer'",
+    "examples": [
+      "Les enfants adorent les jeux de société.",
+      "Achetez un nouveau jeu de cartes pour ce soir."
+    ],
+    "common_mistake": "❌ Un jeu aux cartes. ➜ ✅ Un jeu de cartes.",
+    "synonyms": [
+      "divertissement",
+      "amusement"
+    ],
+    "antonyms": [
+      "travail",
+      "sérieux"
+    ]
+  },
+  "sourire": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [bienveillance / ironie]",
+    "level": "A1",
+    "definition": "Expression du visage marquant la joie ou la sympathie.",
+    "grammar_rule": "Se construit avec « de » devant la nuance ou le motif exprimé (un sourire de bienvenue). S'aligne sur la famille verbale.",
+    "related_forms": "⚡ Nom : 'un sourire DE bienvenue' ➜ Verbe apparenté : 'regarder'",
+    "examples": [
+      "Son sourire de bienvenue a rassuré les invités.",
+      "Elle avait un doux sourire aux lèvres."
+    ],
+    "common_mistake": "❌ Un sourire à bienvenue. ➜ ✅ Un sourire de bienvenue.",
+    "synonyms": [
+      "grimace",
+      "rire"
+    ],
+    "antonyms": [
+      "grimace",
+      "mine triste"
+    ]
+  },
+  "regard": {
+    "word_type": "noun",
+    "prepositions": [
+      "sur"
+    ],
+    "pattern": "nom + sur + [personne / sujet]",
+    "level": "A1",
+    "definition": "Mouvement des yeux porté sur une personne ou un objet.",
+    "grammar_rule": "Divergence ! Le verbe « regarder » est transitif direct (Regarder un film), mais le nom « regard » s'emploie avec « sur » (un regard sur l'avenir).",
+    "related_forms": "⚡ Nom : 'un regard SUR le paysage' ➜ Verbe apparenté : 'regarder'",
+    "examples": [
+      "Jette un regard sur ce document avant de partir.",
+      "Son regard sur la situation est très lucide."
+    ],
+    "common_mistake": "❌ Un regard à l'image. ➜ ✅ Un regard sur l'image.",
+    "synonyms": [
+      "coup d'œil",
+      "vision"
+    ],
+    "antonyms": [
+      "aveuglement"
+    ]
+  },
+  "adresse": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [personne / bâtiment]",
+    "level": "A1",
+    "definition": "Indication du lieu où habite ou travaille une personne.",
+    "grammar_rule": "Exige la préposition « de » pour la possession ou le lieu (l'adresse de l'hôtel). S'aligne sur « habiter ».",
+    "related_forms": "⚡ Nom : 'l'adresse DE l'hôtel' ➜ Verbe apparenté : 'habiter'",
+    "examples": [
+      "Donne-moi l'adresse de ton médecin.",
+      "Quelle est l'adresse de ce restaurant ?"
+    ],
+    "common_mistake": "❌ L'adresse pour l'hôtel. ➜ ✅ L'adresse de l'hôtel.",
+    "synonyms": [
+      "domicile",
+      "résidence"
+    ],
+    "antonyms": [
+      "nomadisme"
+    ]
+  },
+  "recherche": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [élément / personne]",
+    "level": "A1",
+    "definition": "Action de chercher à trouver quelqu'un ou quelque chose.",
+    "grammar_rule": "Divergence majeure ! Le verbe « chercher » est transitif direct sans préposition (Je cherche mes clés), mais le nom « recherche » exige la préposition « de » (la recherche de mes clés / contractions du/des).",
+    "related_forms": "⚡ Nom : 'la recherche D'un emploi' ➜ Verbe apparenté : 'chercher'",
+    "examples": [
+      "Elle est à la recherche d'un logement en centre-ville.",
+      "La recherche du bonheur motive chacun."
+    ],
+    "common_mistake": "❌ La recherche pour un travail. ➜ ✅ La recherche d'un travail.",
+    "synonyms": [
+      "quête",
+      "investigation"
+    ],
+    "antonyms": [
+      "abandon",
+      "perte"
+    ]
+  },
+  "attente": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [événement / personne]",
+    "level": "A1",
+    "definition": "Action de patienter jusqu'à l'arrivée de quelqu'un ou quelque chose.",
+    "grammar_rule": "Divergence majeure ! Le verbe « attendre » est transitif direct sans préposition (J'attends le bus), tandis que le nom « attente » prend obligatoirement la préposition « de » (L'attente du bus / contractions du/des).",
+    "related_forms": "⚡ Nom : 'l'attente DU train' ➜ Verbe apparenté : 'attendre'",
+    "examples": [
+      "L'attente du médecin a duré deux heures.",
+      "Nous sommes dans l'attente de votre réponse."
+    ],
+    "common_mistake": "❌ L'attente pour le bus. ➜ ✅ L'attente du bus.",
+    "synonyms": [
+      "patientement",
+      "espoir"
+    ],
+    "antonyms": [
+      "hâte",
+      "départ"
+    ]
+  },
+  "écoute": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [musique / personne]",
+    "level": "A1",
+    "definition": "Action de prêter attention aux sons ou à la parole.",
+    "grammar_rule": "Divergence majeure ! Le verbe « écouter » est transitif direct sans préposition (J'écoute la radio), mais le nom « écoute » exige la préposition « de » (L'écoute de la musique / contractions du/des).",
+    "related_forms": "⚡ Nom : 'l'écoute DE la radio' ➜ Verbe apparenté : 'écouter'",
+    "examples": [
+      "L'écoute de la musique aide à se détendre.",
+      "Ce psychologue est très à l'écoute de ses patients."
+    ],
+    "common_mistake": "❌ L'écoute à la musique. ➜ ✅ L'écoute de la musique.",
+    "synonyms": [
+      "attention",
+      "audition"
+    ],
+    "antonyms": [
+      "inattention"
+    ]
+  },
+  "mangeur": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [aliment]",
+    "level": "A1",
+    "definition": "Personne qui mange un type particulier d'aliment.",
+    "grammar_rule": "Se construit avec « de » devant le type de nourriture mangée (mangeur de viande). S'aligne sur l'article partitif associé à « manger ».",
+    "related_forms": "⚡ Nom : 'un mangeur DE viande' ➜ Verbe apparenté : 'manger'",
+    "examples": [
+      "Mon frère est un grand mangeur de pommes.",
+      "Ce restaurant accueille les mangeurs de poisson."
+    ],
+    "common_mistake": "❌ Mangeur pour légumes. ➜ ✅ Mangeur de légumes.",
+    "synonyms": [
+      "gourmand",
+      "consommateur"
+    ],
+    "antonyms": [
+      "jeûneur"
+    ]
+  },
+  "sommeil": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [qualité / nuit]",
+    "level": "A1",
+    "definition": "État physiologique naturel de repos de l'organisme.",
+    "grammar_rule": "Exige la préposition « de » pour en qualifier la durée ou le type (un manque de sommeil / sommeil de plomb).",
+    "related_forms": "⚡ Nom : 'le manque DE sommeil' ➜ Verbe apparenté : 'se lever'",
+    "examples": [
+      "Un bon sommeil de huit heures est réparateur.",
+      "Elle souffre d'un manque de sommeil."
+    ],
+    "common_mistake": "❌ Le sommeil pour la nuit. ➜ ✅ Le sommeil de la nuit.",
+    "synonyms": [
+      "repos",
+      "assoupissement"
+    ],
+    "antonyms": [
+      "éveil",
+      "insomnie"
+    ]
+  },
+  "rêve": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [domaine / accomplissement]",
+    "level": "A2",
+    "definition": "Production psychique durant le sommeil OU souhait le plus cher.",
+    "grammar_rule": "Se construit avec la préposition « de » devant l'objet du désir ou le verbe (rêve de gloire / rêve de voyager).",
+    "related_forms": "⚡ Nom : 'le rêve DE voyager' ➜ Verbe apparenté : 'espérer'",
+    "examples": [
+      "Son rêve de devenir médecin est devenu réalité.",
+      "J'ai fait un beau rêve de vacances cette nuit."
+    ],
+    "common_mistake": "❌ Le rêve pour partir. ➜ ✅ Le rêve de partir.",
+    "synonyms": [
+      "aspiration",
+      "souhait"
+    ],
+    "antonyms": [
+      "cauchemar",
+      "réalité"
+    ]
+  },
+  "droit": {
+    "word_type": "noun",
+    "prepositions": [
+      "à",
+      "de"
+    ],
+    "pattern": "nom + à [chose/droit] / de [verbe]",
+    "level": "A2",
+    "definition": "Faculté légale ou morale d'exiger une chose ou d'agir.",
+    "grammar_rule": "Règle clé : « droit à » devant un nom (droit à la parole, droit aux vacances) VS « droit de » devant un infinitif (droit de voter, droit de choisir).",
+    "related_forms": "⚡ Nom : 'le droit À l'éducation / le droit DE choisir' ➜ Verbe apparenté : 'permettre'",
+    "examples": [
+      "Chaque enfant a droit à l'éducation.",
+      "Vous avez le droit de garder le silence."
+    ],
+    "common_mistake": "❌ Le droit à voter. ➜ ✅ Le droit de voter.",
+    "synonyms": [
+      "privilège",
+      "autorisation"
+    ],
+    "antonyms": [
+      "interdiction",
+      "devoir"
     ]
   },
   "occasion": {
@@ -148,14 +908,14 @@
     "prepositions": [
       "de"
     ],
-    "pattern": "occasion de [verbe / nom]",
+    "pattern": "nom + de + [verbe / événement]",
     "level": "A2",
-    "definition": "Circonstance favorable pour faire quelque chose.",
-    "grammar_rule": "Se construit avec « de » devant un verbe à l'infinitif.",
-    "related_forms": "profiter",
+    "definition": "Circonstance favorable pour réaliser une action.",
+    "grammar_rule": "Le nom « occasion » s'emploie toujours avec « de » devant l'infinitif (occasion de célébrer / occasion de voyager).",
+    "related_forms": "⚡ Nom : 'une occasion DE fêter' ➜ Verbe apparenté : 'profiter'",
     "examples": [
-      "C'est une belle occasion de visiter la région.",
-      "J'ai eu l'occasion de le rencontrer hier."
+      "C'est une excellente occasion de pratiquer le français.",
+      "Il a manqué l'occasion de s'exprimer."
     ],
     "common_mistake": "❌ L'occasion pour voyager. ➜ ✅ L'occasion de voyager.",
     "synonyms": [
@@ -167,148 +927,1173 @@
       "empêchement"
     ]
   },
-  "droit": {
+  "raison": {
     "word_type": "noun",
     "prepositions": [
       "de"
     ],
-    "pattern": "droit de [verbe / nom]",
+    "pattern": "nom + de + [action / événement]",
     "level": "A2",
-    "definition": "Faculté légale ou morale d'agir ou d'exiger quelque chose.",
-    "grammar_rule": "Le nom « droit » s'emploie avec « de » devant un infinitif.",
-    "related_forms": "permettre",
+    "definition": "Motif ou explication qui justifie une décision ou une action.",
+    "grammar_rule": "Exige la préposition « de » devant l'infinitif (raison de vivre / raison de choisir) ou la cause introduite.",
+    "related_forms": "⚡ Nom : 'la raison DE partir' ➜ Verbe apparenté : 'décider'",
     "examples": [
-      "Chacun a le droit de donner son opinion.",
-      "Vous avez le droit de demander un remboursement."
+      "Quelle est la raison de votre retard ce matin ?",
+      "Il n'y a aucune raison de s'inquiéter."
     ],
-    "common_mistake": "❌ Le droit à voter (infinitif) ➜ ✅ Le droit de voter.",
+    "common_mistake": "❌ La raison pour venir. ➜ ✅ La raison de venir.",
     "synonyms": [
-      "pouvoir",
-      "privilège"
+      "motif",
+      "explication"
     ],
     "antonyms": [
-      "interdiction",
-      "devoir"
+      "conséquence",
+      "folie"
     ]
   },
-  "risque": {
+  "cause": {
     "word_type": "noun",
     "prepositions": [
       "de"
     ],
-    "pattern": "risque de [nom / verbe]",
+    "pattern": "nom + de + [phénomène / résultat]",
     "level": "A2",
-    "definition": "Possibilité de survenue d'un événement indésirable ou dangereux.",
-    "grammar_rule": "Prend la préposition « de » devant un infinitif ou un nom.",
-    "related_forms": "risquer",
+    "definition": "Origine, facteur ou fait qui produit un effet.",
+    "grammar_rule": "Exige la préposition « de » devant le phénomène produit (la cause de l'accident / contractions du/des).",
+    "related_forms": "⚡ Nom : 'la cause DE l'accident' ➜ Verbe apparenté : 'souffrir'",
     "examples": [
-      "Il y a un risque de pluie cet après-midi.",
-      "Prendre des décisions hâtives comporte le risque d'échouer."
+      "La vitesse est la cause principale de l'accident.",
+      "Quelle est la cause de ce problème technique ?"
     ],
-    "common_mistake": "❌ Risque à tomber. ➜ ✅ Risque de tomber.",
+    "common_mistake": "❌ La cause pour l'erreur. ➜ ✅ La cause de l'erreur.",
     "synonyms": [
-      "danger",
-      "menace"
+      "origine",
+      "source"
     ],
     "antonyms": [
-      "sécurité",
-      "certitude"
+      "effet",
+      "conséquence"
     ]
   },
-  "possibilité": {
+  "résultat": {
     "word_type": "noun",
     "prepositions": [
       "de"
     ],
-    "pattern": "possibilité de [verbe / nom]",
-    "level": "B1",
-    "definition": "Caractère de ce qui peut se produire ou être réalisé.",
-    "grammar_rule": "Se construit avec « de » devant l'infinitif.",
-    "related_forms": "pouvoir",
+    "pattern": "nom + de + [action / effort / examen]",
+    "level": "A2",
+    "definition": "Ce qui provient ou découle d'une action, d'une étude ou d'un concours.",
+    "grammar_rule": "Se construit avec « de » pour indiquer la source ou l'origine (le résultat du test / le résultat des efforts). S'aligne sur « réussir ».",
+    "related_forms": "⚡ Nom : 'le résultat DU concours' ➜ Verbe apparenté : 'réussir'",
     "examples": [
-      "Nous étudions la possibilité de développer ce projet.",
-      "Il n'y a aucune possibilité de se tromper."
+      "Ce succès est le résultat de son travail acharné.",
+      "Les résultats des examens seront publiés demain."
     ],
-    "common_mistake": "❌ La possibilité pour réussir. ➜ ✅ La possibilité de réussir.",
+    "common_mistake": "❌ Le résultat pour l'effort. ➜ ✅ Le résultat de l'effort.",
     "synonyms": [
-      "éventualité",
-      "opportunité"
+      "conséquence",
+      "issue"
     ],
     "antonyms": [
-      "impossibilité",
-      "incapacité"
+      "cause",
+      "origine"
     ]
   },
-  "souci": {
+  "manque": {
     "word_type": "noun",
     "prepositions": [
       "de"
     ],
-    "pattern": "souci de [nom / verbe]",
-    "level": "B1",
-    "definition": "Préoccupation constante ou soin apporté à la réalisation de quelque chose.",
-    "grammar_rule": "Se construit avec « de » devant un nom ou un infinitif.",
-    "related_forms": "se soucier",
+    "pattern": "nom + de + [élément absent]",
+    "level": "A2",
+    "definition": "Absence, insuffisance ou privation d'une chose nécessaire.",
+    "grammar_rule": "S'aligne parfaitement sur la construction verbale « manquer de » (manque de temps / manque d'argent). Contractions du/des.",
+    "related_forms": "⚡ Nom : 'le manque DE temps' ➜ Verbe apparenté : 'manquer de'",
     "examples": [
-      "Elle agit toujours dans le souci de bien faire.",
-      "Le souci du détail est essentiel dans ce métier."
+      "Le manque de sommeil nuit à la concentration.",
+      "Cette équipe souffre d'un manque d'expérience."
     ],
-    "common_mistake": "❌ Le souci pour aider. ➜ ✅ Le souci d'aider.",
+    "common_mistake": "❌ Le manque à temps. ➜ ✅ Le manque de temps.",
     "synonyms": [
-      "préoccupation",
-      "soin"
+      "pénurie",
+      "absence"
     ],
     "antonyms": [
-      "indifférence",
-      "désinvolture"
+      "abondance",
+      "excès"
     ]
   },
-  "responsabilité": {
+  "erreur": {
     "word_type": "noun",
     "prepositions": [
       "de"
     ],
-    "pattern": "responsabilité de [nom / verbe]",
-    "level": "B1",
-    "definition": "Obligation morale ou juridique de répondre de ses actes ou d'une tâche.",
-    "grammar_rule": "Prend la préposition « de » devant le verbe ou le nom régenté.",
-    "related_forms": "responsable",
+    "pattern": "nom + de + [domaine / calcul]",
+    "level": "A2",
+    "definition": "Fait d'adopter une opinion fausse ou de commettre une faute.",
+    "grammar_rule": "Divergence ! Le verbe pronominal « se tromper » s'emploie avec « de » (se tromper de numéro), et le nom « erreur » prend « de » pour qualifier la nature (erreur de calcul / erreur de numéro).",
+    "related_forms": "⚡ Nom : 'une erreur DE calcul' ➜ Verbe apparenté : 'se tromper'",
     "examples": [
-      "Il a pris la responsabilité de gérer l'équipe.",
-      "La responsabilité de cette décision lui incombe."
+      "Pardonnez-moi, c'est une erreur de ma part.",
+      "Cette faute est une erreur de inattention."
     ],
-    "common_mistake": "❌ La responsabilité pour organiser. ➜ ✅ La responsabilité d'organiser.",
+    "common_mistake": "❌ Une erreur sur la chiffre (quand type). ➜ ✅ Une erreur de chiffre.",
     "synonyms": [
-      "charge",
-      "devoir"
+      "faute",
+      "inexactitude"
     ],
     "antonyms": [
-      "irresponsabilité",
-      "décharge"
+      "vérité",
+      "exactitude"
     ]
   },
-  "solution": {
+  "décision": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [verbe / sujet]",
+    "level": "A2",
+    "definition": "Acte d'un jugement qui tranche un choix ou une orientation.",
+    "grammar_rule": "S'aligne sur le verbe apparenté « décider » (de). Exige la préposition « de » devant l'infinitif (décision de partir).",
+    "related_forms": "⚡ Nom : 'la décision DE partir' ➜ Verbe apparenté : 'décider'",
+    "examples": [
+      "Sa décision de changer de travail est courageuse.",
+      "Nous attendons la décision du juge."
+    ],
+    "common_mistake": "❌ La décision pour signer. ➜ ✅ La décision de signer.",
+    "synonyms": [
+      "choix",
+      "résolution"
+    ],
+    "antonyms": [
+      "hésitation",
+      "indécision"
+    ]
+  },
+  "promesse": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [action / soutien]",
+    "level": "A2",
+    "definition": "Engagement ferme donné par parole ou écrit à quelqu'un.",
+    "grammar_rule": "S'aligne sur le verbe apparenté « promettre » (de). Exige la préposition « de » devant l'action promise.",
+    "related_forms": "⚡ Nom : 'la promesse DE venir' ➜ Verbe apparenté : 'promettre'",
+    "examples": [
+      "Il a tenu sa promesse d'aider son frère.",
+      "C'est une promesse de réussite."
+    ],
+    "common_mistake": "❌ La promesse à venir. ➜ ✅ La promesse de venir.",
+    "synonyms": [
+      "engagement",
+      "serment"
+    ],
+    "antonyms": [
+      "trahison",
+      "refus"
+    ]
+  },
+  "proposition": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [verbe / offre]",
+    "level": "A2",
+    "definition": "Offre faite à quelqu'un pour qu'il l'accepte ou l'examine.",
+    "grammar_rule": "S'aligne sur le verbe apparenté « proposer » (de). Exige la préposition « de » devant l'infinitif proposé.",
+    "related_forms": "⚡ Nom : 'la proposition DE sortie' ➜ Verbe apparenté : 'proposer'",
+    "examples": [
+      "J'ai reçu une proposition d'emploi très intéressante.",
+      "Sa proposition de faire une pause a été acceptée."
+    ],
+    "common_mistake": "❌ Une proposition à travailler. ➜ ✅ Une proposition de travailler.",
+    "synonyms": [
+      "offre",
+      "suggestion"
+    ],
+    "antonyms": [
+      "refus",
+      "exigence"
+    ]
+  },
+  "refus": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [action / demande]",
+    "level": "A2",
+    "definition": "Action de ne pas accepter une offre, une demande ou un ordre.",
+    "grammar_rule": "S'aligne sur le verbe apparenté « refuser » (de). Exige la préposition « de » devant le verbe régenté.",
+    "related_forms": "⚡ Nom : 'le refus DE payer' ➜ Verbe apparenté : 'refuser'",
+    "examples": [
+      "Son refus de coopérer a surpris les policiers.",
+      "Le refus de la banque est définitif."
+    ],
+    "common_mistake": "❌ Le refus à signer. ➜ ✅ Le refusal de signer.",
+    "synonyms": [
+      "rejette",
+      "dénégatif"
+    ],
+    "antonyms": [
+      "acceptation",
+      "accord"
+    ]
+  },
+  "arrêt": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [activité / processus]",
+    "level": "A2",
+    "definition": "Action d'interrompre le mouvement ou le cours d'une chose.",
+    "grammar_rule": "S'aligne sur les verbes « arrêter » et « s'arrêter » (de). Exige la préposition « de » devant le complément.",
+    "related_forms": "⚡ Nom : 'l'arrêt DU travail' ➜ Verbe apparenté : 's'arrêter'",
+    "examples": [
+      "L'arrêt du tabac est bénéfique pour la santé.",
+      "Le train effectue un arrêt de dix minutes."
+    ],
+    "common_mistake": "❌ L'arrêt à fumer. ➜ ✅ L'arrêt de fumer.",
+    "synonyms": [
+      "interruption",
+      "pause"
+    ],
+    "antonyms": [
+      "reprise",
+      "poursuite"
+    ]
+  },
+  "changement": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [élément modifié]",
+    "level": "A2",
+    "definition": "Action de modifier ou de remplacer une chose par une autre.",
+    "grammar_rule": "S'aligne sur le régime du verbe apparenté « changer » (de). Exige la préposition « de » (changement de train / changement de vie).",
+    "related_forms": "⚡ Nom : 'un changement DE train' ➜ Verbe apparenté : 'changer'",
+    "examples": [
+      "Un changement de propriétaire est prévu le mois prochain.",
+      "Ce changement de programme nous oblige à adapter nos plans."
+    ],
+    "common_mistake": "❌ Un changement pour le train. ➜ ✅ Un changement de train.",
+    "synonyms": [
+      "modification",
+      "remplacement"
+    ],
+    "antonyms": [
+      "maintien",
+      "stabilité"
+    ]
+  },
+  "essai": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [tentative / produit]",
+    "level": "A2",
+    "definition": "Tentative faite pour vérifier la qualité ou réussir quelque chose.",
+    "grammar_rule": "S'aligne sur le verbe apparenté « essayer » (de). Exige la préposition « de » (un essai de rédaction).",
+    "related_forms": "⚡ Nom : 'l'essai DU produit' ➜ Verbe apparenté : 'essayer'",
+    "examples": [
+      "L'essai de ce nouveau médicament donne de bons résultats.",
+      "C'est son premier essai de roman."
+    ],
+    "common_mistake": "❌ Un essai pour conduire. ➜ ✅ Un essai de conduite.",
+    "synonyms": [
+      "tentative",
+      "test"
+    ],
+    "antonyms": [
+      "abandon"
+    ]
+  },
+  "oubli": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [chose / fait]",
+    "level": "A2",
+    "definition": "Perte du souvenir ou omission involontaire d'une tâche.",
+    "grammar_rule": "S'aligne sur le régime du verbe « oublier » (de) lorsqu'il introduit une action omise. Contractions du/des.",
+    "related_forms": "⚡ Nom : 'l'oubli DU mot de passe' ➜ Verbe apparenté : 'oublier'",
+    "examples": [
+      "Son oubli des clés a causé bien des soucis.",
+      "Pardonnez-moi pour cet oubli involontaire."
+    ],
+    "common_mistake": "❌ L'oubli à éteindre. ➜ ✅ L'oubli d'éteindre.",
+    "synonyms": [
+      "omission",
+      "Inattention"
+    ],
+    "antonyms": [
+      "souvenir",
+      "mémoire"
+    ]
+  },
+  "plainte": {
+    "word_type": "noun",
+    "prepositions": [
+      "de",
+      "contre"
+    ],
+    "pattern": "nom + de [douleur] / contre [personne]",
+    "level": "A2",
+    "definition": "Parole qui exprime la douleur OU démarche juridique contre quelqu'un.",
+    "grammar_rule": "Exige « de » pour la douleur (plainte du blessé) et « contre » pour l'accusé (plainte contre X). S'aligne sur « se plaindre ».",
+    "related_forms": "⚡ Nom : 'la plainte CONTRE le voisin' ➜ Verbe apparenté : 'se plaindre'",
+    "examples": [
+      "Le voisin a déposé une plainte contre le bruit.",
+      "Ses plaintes de douleur ont diminué."
+    ],
+    "common_mistake": "❌ Une plainte à la police contre. ➜ ✅ Une plainte contre le coupable.",
+    "synonyms": [
+      "grief",
+      "réclamation"
+    ],
+    "antonyms": [
+      "compliment",
+      "éloge"
+    ]
+  },
+  "préparation": {
     "word_type": "noun",
     "prepositions": [
       "à"
     ],
-    "pattern": "solution à [problème / question]",
-    "level": "B1",
-    "definition": "Moyen de résoudre une difficulté ou une question complexe.",
-    "grammar_rule": "Le nom « solution » s'associe à la préposition « à » (solution à un problème).",
-    "related_forms": "résoudre",
+    "pattern": "nom + à + [événement / concours]",
+    "level": "A2",
+    "definition": "Ensemble des actions entreprises pour être prêt à une épreuve.",
+    "grammar_rule": "S'aligne sur le verbe pronominal « se préparer » (à). Contractions obligatoires : à + le = au, à + les = aux.",
+    "related_forms": "⚡ Nom : 'la préparation AU concours' ➜ Verbe apparenté : 'se préparer'",
     "examples": [
-      "Ils recherchent une solution durable à la crise.",
-      "Cette proposition est une bonne solution au problème de logement."
+      "La préparation aux examens demande des semaines d'effort.",
+      "Elle suit une préparation intensive au marathon."
     ],
-    "common_mistake": "❌ Une solution pour le problème. ➜ ✅ Une solution au problème.",
+    "common_mistake": "❌ La préparation pour le concours. ➜ ✅ La préparation au concours.",
     "synonyms": [
-      "issue",
-      "remède"
+      "entraînement",
+      "apprêt"
     ],
     "antonyms": [
-      "problème",
-      "impasse"
+      "improvisation"
+    ]
+  },
+  "félicitation": {
+    "word_type": "noun",
+    "prepositions": [
+      "pour",
+      "de"
+    ],
+    "pattern": "nom + pour / de + [réussite]",
+    "level": "A2",
+    "definition": "Témoignage de joie transmis à quelqu'un à l'occasion de son succès.",
+    "grammar_rule": "S'aligne sur le verbe apparenté « féliciter » (de/pour). S'utilise presque toujours au pluriel : félicitations pour / de.",
+    "related_forms": "⚡ Nom : 'mes félicitations POUR le diplôme' ➜ Verbe apparenté : 'féliciter'",
+    "examples": [
+      "Toutes mes félicitations pour votre réussite !",
+      "Elle a reçu des félicitations de son directeur."
+    ],
+    "common_mistake": "❌ Félicitations à votre succès. ➜ ✅ Félicitations pour votre succès.",
+    "synonyms": [
+      "compliment",
+      "éloge"
+    ],
+    "antonyms": [
+      "blâme",
+      "critique"
+    ]
+  },
+  "remerciement": {
+    "word_type": "noun",
+    "prepositions": [
+      "pour"
+    ],
+    "pattern": "nom + pour + [service / cadeau]",
+    "level": "A2",
+    "definition": "Parole ou geste exprimant la gratitude envers quelqu'un.",
+    "grammar_rule": "S'aligne sur le verbe apparenté « remercier » (de/pour). S'emploie au pluriel avec « pour » devant le bien reçu.",
+    "related_forms": "⚡ Nom : 'des remerciements POUR l'aide' ➜ Verbe apparenté : 'remercier'",
+    "examples": [
+      "Adresse tes remerciements pour ce beau cadeau.",
+      "Nous leur adressons nos plus sincères remerciements."
+    ],
+    "common_mistake": "❌ Remerciements de votre cadeau (préférence pour pour). ➜ ✅ Remerciements pour votre cadeau.",
+    "synonyms": [
+      "gratitude",
+      "reconnaissance"
+    ],
+    "antonyms": [
+      "ingratitude"
+    ]
+  },
+  "profit": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [situation / commerce]",
+    "level": "A2",
+    "definition": "Avantage financier ou bénéfice tiré d'une opération.",
+    "grammar_rule": "S'aligne sur le régime prépositionnel du verbe « profiter » (de). Contractions obligatoires du/des.",
+    "related_forms": "⚡ Nom : 'le profit DU commerce' ➜ Verbe apparenté : 'profiter'",
+    "examples": [
+      "Cette entreprise réalise de grands profits de ses ventes.",
+      "Mettez cette pause au profit de votre repos."
+    ],
+    "common_mistake": "❌ Le profit sur l'affaire. ➜ ✅ Le profit de l'affaire.",
+    "synonyms": [
+      "bénéfice",
+      "gain"
+    ],
+    "antonyms": [
+      "perte",
+      "déficit"
+    ]
+  },
+  "réussite": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "nom + à + [examen / projet]",
+    "level": "A2",
+    "definition": "Obtention d'un résultat très favorable dans une entreprise.",
+    "grammar_rule": "S'aligne sur le verbe apparenté « réussir » (à). Contractions obligatoires : à + le = au, à + les = aux.",
+    "related_forms": "⚡ Nom : 'la réussite AU concours' ➜ Verbe apparenté : 'réussir'",
+    "examples": [
+      "Sa réussite à l'examen a été fêtée en famille.",
+      "Nous vous souhaitons une grande réussite dans vos projets."
+    ],
+    "common_mistake": "❌ La réussite dans le test (avec à). ➜ ✅ La réussite au test.",
+    "synonyms": [
+      "succès",
+      "victoire"
+    ],
+    "antonyms": [
+      "échec",
+      "fiasco"
+    ]
+  },
+  "service": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "nom + à + [personne / collectivité]",
+    "level": "A1",
+    "definition": "Aide rendue à une personne OU secteur de travail dans une structure.",
+    "grammar_rule": "S'aligne sur le verbe « servir » (à). Exige la préposition « à » pour le bénéficiaire (service à la personne).",
+    "related_forms": "⚡ Nom : 'un service À la personne' ➜ Verbe apparenté : 'servir'",
+    "examples": [
+      "Rendre un service à son voisin est un geste solidaire.",
+      "Il travaille dans le service après-vente."
+    ],
+    "common_mistake": "❌ Un service pour la personne (si structure/type). ➜ ✅ Un service à la personne.",
+    "synonyms": [
+      "faveur",
+      "assistance"
+    ],
+    "antonyms": [
+      "tort",
+      "nuisance"
+    ]
+  },
+  "étonnement": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [événement / fait]",
+    "level": "A2",
+    "definition": "Mouvement de surprise éprouvé face à quelque chose d'inattendu.",
+    "grammar_rule": "S'aligne sur le verbe pronominal « s'étonner » (de). Contractions obligatoires du/des.",
+    "related_forms": "⚡ Nom : 'l'étonnement DU public' ➜ Verbe apparenté : 's'étonner'",
+    "examples": [
+      "À l'étonnement de tous, le candidat a gagné la course.",
+      "Elle ne masque pas son étonnement devant cette décision."
+    ],
+    "common_mistake": "❌ L'étonnement à la réponse. ➜ ✅ L'étonnement de la réponse.",
+    "synonyms": [
+      "surprise",
+      "stupeur"
+    ],
+    "antonyms": [
+      "indifférence"
+    ]
+  },
+  "inquiétude": {
+    "word_type": "noun",
+    "prepositions": [
+      "de",
+      "pour"
+    ],
+    "pattern": "nom + de [sujet] / pour [personne]",
+    "level": "A2",
+    "definition": "Trouble de l'esprit causé par la crainte d'un danger.",
+    "grammar_rule": "S'aligne sur le verbe pronominal « s'inquiéter » (de/pour). Exige « de » pour un problème et « pour » pour une personne.",
+    "related_forms": "⚡ Nom : 'l'inquiétude DE la famille' ➜ Verbe apparenté : 's'inquiéter'",
+    "examples": [
+      "Son inquiétude pour l'avenir de son fils est compréhensible.",
+      "L'inquiétude des parents augmente avec les heures."
+    ],
+    "common_mistake": "❌ Inquiétude sur ses enfants. ➜ ✅ Inquiétude pour ses enfants.",
+    "synonyms": [
+      "anxiété",
+      "souci"
+    ],
+    "antonyms": [
+      "sérénité",
+      "calme"
+    ]
+  },
+  "excuse": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [faute / retard]",
+    "level": "A2",
+    "definition": "Raison donnée pour justifier ou faire pardonner un manquement.",
+    "grammar_rule": "S'aligne sur le verbe pronominal « s'excuser » (de). Exige la préposition « de » devant la faute.",
+    "related_forms": "⚡ Nom : 'des excuses DE retard' ➜ Verbe apparenté : 's'excuser'",
+    "examples": [
+      "Il a présenté ses excuses de son retard au réunion.",
+      "Cette faute est sans excuse."
+    ],
+    "common_mistake": "❌ Des excuses pour le retard (utilisable mais de très fréquent). ➜ ✅ Des excuses de son retard.",
+    "synonyms": [
+      "justification",
+      "pardon"
+    ],
+    "antonyms": [
+      "accusation"
+    ]
+  },
+  "interdiction": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [action / stationnement]",
+    "level": "A2",
+    "definition": "Décision officielle qui défend ou empêche une activité.",
+    "grammar_rule": "S'aligne sur le verbe apparenté « interdire » (de). Exige la préposition « de » devant l'infinitif.",
+    "related_forms": "⚡ Nom : 'l'interdiction DE stationner' ➜ Verbe apparenté : 'interdire'",
+    "examples": [
+      "Il y a une interdiction de fumer dans le bâtiment.",
+      "L'interdiction de circuler s'applique la nuit."
+    ],
+    "common_mistake": "❌ L'interdiction à stationner. ➜ ✅ L'interdiction de stationner.",
+    "synonyms": [
+      "prohibition",
+      "défense"
+    ],
+    "antonyms": [
+      "autorisation",
+      "permission"
+    ]
+  },
+  "permission": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [verbe / sortie]",
+    "level": "A2",
+    "definition": "Autorisation donnée à quelqu'un de faire une action.",
+    "grammar_rule": "S'aligne sur le verbe apparenté « permettre » (de). Exige la préposition « de » devant l'infinitif.",
+    "related_forms": "⚡ Nom : 'la permission DE sortir' ➜ Verbe apparenté : 'permettre'",
+    "examples": [
+      "As-tu demandé la permission de partir plus tôt ?",
+      "Il a obtenu la permission de construire son garage."
+    ],
+    "common_mistake": "❌ La permission pour sortir. ➜ ✅ La permission de sortir.",
+    "synonyms": [
+      "autorisation",
+      "accord"
+    ],
+    "antonyms": [
+      "interdiction",
+      "refus"
+    ]
+  },
+  "rappel": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [fait / rendez-vous]",
+    "level": "A2",
+    "definition": "Action de remettre en mémoire ou d'exiger une échéance.",
+    "grammar_rule": "S'aligne sur le verbe « rappeler » (de). Exige la préposition « de » devant la chose rappelée.",
+    "related_forms": "⚡ Nom : 'un rappel DU rendez-vous' ➜ Verbe apparenté : 'rappeler'",
+    "examples": [
+      "Vous recevrez un rappel de votre rendez-vous par SMS.",
+      "Ce tableau est un doux rappel de mon enfance."
+    ],
+    "common_mistake": "❌ Un rappel sur le rendez-vous. ➜ ✅ Un rappel du rendez-vous.",
+    "synonyms": [
+      "souvenir",
+      "mémoire"
+    ],
+    "antonyms": [
+      "oubli"
+    ]
+  },
+  "souffrance": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [maladie / perte]",
+    "level": "A2",
+    "definition": "Fait d'éprouver une vive douleur physique ou morale.",
+    "grammar_rule": "S'aligne sur le verbe apparenté « souffrir » (de). Contractions obligatoires du/des.",
+    "related_forms": "⚡ Nom : 'la souffrance DU malade' ➜ Verbe apparenté : 'souffrir'",
+    "examples": [
+      "Les médecins cherchent à soulager la souffrance du patient.",
+      "Sa souffrance morale est immense après ce drame."
+    ],
+    "common_mistake": "❌ La souffrance avec la maladie. ➜ ✅ La souffrance de la maladie.",
+    "synonyms": [
+      "douleur",
+      "peine"
+    ],
+    "antonyms": [
+      "soulagement",
+      "plaisir"
+    ]
+  },
+  "espoir": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [guérison / réussite]",
+    "level": "A2",
+    "definition": "Fait d'attendre avec confiance la réalisation d'un souhait.",
+    "grammar_rule": "Divergence ! Le verbe « espérer » est transitif direct (Espérer le succès), mais le nom « espoir » exige « de » devant l'infinitif (l'espoir de guérir).",
+    "related_forms": "⚡ Nom : 'l'espoir DE réussir' ➜ Verbe apparenté : 'espérer'",
+    "examples": [
+      "Il garde l'espoir de trouver une solution rapide.",
+      "L'espoir de guérir lui donne du courage."
+    ],
+    "common_mistake": "❌ L'espoir pour réussir. ➜ ✅ L'espoir de réussir.",
+    "synonyms": [
+      "espérance",
+      "optimisme"
+    ],
+    "antonyms": [
+      "désespoir"
+    ]
+  },
+  "rencontre": {
+    "word_type": "noun",
+    "prepositions": [
+      "avec"
+    ],
+    "pattern": "nom + avec + [personne]",
+    "level": "A2",
+    "definition": "Fait de se trouver en présence de quelqu'un.",
+    "grammar_rule": "Divergence ! Le verbe « rencontrer » est transitif direct (Rencontrer mon ami), mais le nom « rencontre » prend la préposition « avec » (une rencontre avec le directeur).",
+    "related_forms": "⚡ Nom : 'une rencontre AVEC le ministre' ➜ Verbe apparenté : 'rencontrer'",
+    "examples": [
+      "Ma rencontre avec cet auteur a changé ma carrière.",
+      "Il a organisé une rencontre avec les investisseurs."
+    ],
+    "common_mistake": "❌ Une rencontre de mon ami (pour voir mon ami). ➜ ✅ Une rencontre avec mon ami.",
+    "synonyms": [
+      "entretien",
+      "réunion"
+    ],
+    "antonyms": [
+      "séparation"
+    ]
+  },
+  "départ": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [lieu / moment]",
+    "level": "A2",
+    "definition": "Action de quitter un lieu ou de commencer un trajet.",
+    "grammar_rule": "Exige la préposition « de » pour indiquer le point de provenance (le départ de Paris / le départ du train).",
+    "related_forms": "⚡ Nom : 'le départ DU train' ➜ Verbe apparenté : 'aller'",
+    "examples": [
+      "Le départ du train est fixé à huit heures.",
+      "Son départ de l'entreprise a attristé ses collègues."
+    ],
+    "common_mistake": "❌ Le départ à Paris (pour la provenance). ➜ ✅ Le départ de Paris.",
+    "synonyms": [
+      "sortie",
+      "quitter"
+    ],
+    "antonyms": [
+      "arrivée"
+    ]
+  },
+  "arrivée": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "nom + à + [destination / heure]",
+    "level": "A2",
+    "definition": "Moment où l'on atteint le lieu où l'on se rendait.",
+    "grammar_rule": "Exige la préposition « à » pour la destination ou l'heure (l'arrivée à la gare / l'arrivée au sommet).",
+    "related_forms": "⚡ Nom : 'l'arrivée À la gare' ➜ Verbe apparenté : 'venir'",
+    "examples": [
+      "L'arrivée du vol est prévue dans vingt minutes.",
+      "Leur arrivée à l'hôtel s'est faite tardivement."
+    ],
+    "common_mistake": "❌ L'arrivée de la gare (destination). ➜ ✅ L'arrivée à la gare.",
+    "synonyms": [
+      "venue",
+      "entrée"
+    ],
+    "antonyms": [
+      "départ"
+    ]
+  },
+  "invité": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "nom + à + [événement]",
+    "level": "A2",
+    "definition": "Personne convenue de venir à une fête ou une réunion.",
+    "grammar_rule": "S'aligne sur le verbe « inviter » (à). Introduit l'événement par la préposition « à » (un invité au dîner).",
+    "related_forms": "⚡ Nom : 'un invité AU dîner' ➜ Verbe apparenté : 'inviter'",
+    "examples": [
+      "Les invités au mariage sont arrivés à l'heure.",
+      "Il est l'invité d'honneur de la soirée."
+    ],
+    "common_mistake": "❌ Un invité dans le dîner. ➜ ✅ Un invité au dîner.",
+    "synonyms": [
+      "convive",
+      "hôte"
+    ],
+    "antonyms": [
+      "intrus"
+    ]
+  },
+  "voyage": {
+    "word_type": "noun",
+    "prepositions": [
+      "en",
+      "à"
+    ],
+    "pattern": "nom + en [pays féminin] / à [ville]",
+    "level": "A2",
+    "definition": "Déplacement effectué vers un lieu éloigné.",
+    "grammar_rule": "S'emploie avec « en » devant les pays féminins (voyage en France) et « à » devant les villes (voyage à Rome). S'aligne sur « aller ».",
+    "related_forms": "⚡ Nom : 'un voyage EN Italie' ➜ Verbe apparenté : 'aller'",
+    "examples": [
+      "Son voyage en Italie a été inoubliable.",
+      "Nous préparons notre voyage à Londres."
+    ],
+    "common_mistake": "❌ Un voyage dans Paris. ➜ ✅ Un voyage à Paris.",
+    "synonyms": [
+      "séjour",
+      "excursion"
+    ],
+    "antonyms": [
+      "retour",
+      "immobilité"
+    ]
+  },
+  "intérêt": {
+    "word_type": "noun",
+    "prepositions": [
+      "pour"
+    ],
+    "pattern": "nom + pour + [sujet / domaine]",
+    "level": "B1",
+    "definition": "Attention curieuse, passion ou avantage qu'on trouve à un sujet.",
+    "grammar_rule": "Divergence classique ! Le verbe pronominal « s'intéresser » exige la préposition « à » (s'intéresser à l'art), alors que le nom « intérêt » s'emploie préférentiellement avec « pour » (un intérêt pour l'art).",
+    "related_forms": "⚡ Nom : 'un intérêt POUR l'art' ➜ Verbe apparenté : 's'intéresser'",
+    "examples": [
+      "Elle porte un grand intérêt pour la littérature moderne.",
+      "Quel est votre intérêt pour ce poste ?"
+    ],
+    "common_mistake": "❌ Son intérêt à la politique. ➜ ✅ Son intérêt pour la politique.",
+    "synonyms": [
+      "curiosité",
+      "passion"
+    ],
+    "antonyms": [
+      "désintérêt",
+      "indifférence"
+    ]
+  },
+  "confiance": {
+    "word_type": "noun",
+    "prepositions": [
+      "en"
+    ],
+    "pattern": "nom + en + [soi / Dieu]",
+    "level": "B1",
+    "definition": "Assurance intime d'une personne dans ses capacités.",
+    "grammar_rule": "S'aligne sur la foi personnelle (confiance en soi / confiance en Dieu).",
+    "related_forms": "⚡ Nom : 'la confiance EN ses capacités' ➜ Verbe apparenté : 'compter'",
+    "examples": [
+      "Avoir confiance en soi est la clé du succès.",
+      "Il a une confiance aveugle en son ami."
+    ],
+    "common_mistake": "❌ Confiance à ses amis. ➜ ✅ Confiance en ses amis.",
+    "synonyms": [
+      "assurance",
+      "foi"
+    ],
+    "antonyms": [
+      "doute",
+      "défiance"
+    ]
+  },
+  "doute": {
+    "word_type": "noun",
+    "prepositions": [
+      "sur"
+    ],
+    "pattern": "nom + sur + [sujet / avenir]",
+    "level": "B1",
+    "definition": "Incertitude sur la vérité d'un fait ou la valeur d'une décision.",
+    "grammar_rule": "Divergence prépositionnelle ! Le verbe « douter » prend la préposition « de » (douter du résultat), tandis que le nom « doute » s'emploie couramment avec « sur » (un doute sur ses intentions).",
+    "related_forms": "⚡ Nom : 'un doute SUR les chiffres' ➜ Verbe apparenté : 'douter'",
+    "examples": [
+      "J'ai un doute sur l'exactitude de ces résultats.",
+      "Le doute sur l'avenir paralyse les investissements."
+    ],
+    "common_mistake": "❌ Un doute de cette décision (quand sujet de contestation). ➜ ✅ Un doute sur cette décision.",
+    "synonyms": [
+      "incertitude",
+      "suspicion"
+    ],
+    "antonyms": [
+      "certitude",
+      "assurance"
+    ]
+  },
+  "participation": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "nom + à + [événement / débat]",
+    "level": "B1",
+    "definition": "Fait de prendre part à une réunion, un concours ou un travail.",
+    "grammar_rule": "S'aligne sur le verbe apparenté « participer » (à). Contractions obligatoires : à + le = au, à + les = aux.",
+    "related_forms": "⚡ Nom : 'la participation AU débat' ➜ Verbe apparenté : 'participer'",
+    "examples": [
+      "Merci pour votre participation active au séminaire.",
+      "Sa participation à la compétition est confirmée."
+    ],
+    "common_mistake": "❌ La participation dans la réunion. ➜ ✅ La participation à la réunion.",
+    "synonyms": [
+      "présence",
+      "implication"
+    ],
+    "antonyms": [
+      "abstention",
+      "absence"
+    ]
+  },
+  "influence": {
+    "word_type": "noun",
+    "prepositions": [
+      "sur"
+    ],
+    "pattern": "nom + sur + [personne / choix]",
+    "level": "B1",
+    "definition": "Action exercée par une personne ou une chose sur une autre.",
+    "grammar_rule": "Exige la préposition « sur » pour désigner la personne ou la chose modifiée (influence sur l'opinion).",
+    "related_forms": "⚡ Nom : 'l'influence SUR les jeunes' ➜ Verbe apparenté : 'inciter'",
+    "examples": [
+      "Les réseaux sociaux ont une grande influence sur les jeunes.",
+      "Son avis a eu une influence décisive sur mon choix."
+    ],
+    "common_mistake": "❌ Une influence à la décision. ➜ ✅ Une influence sur la décision.",
+    "synonyms": [
+      "impact",
+      "pression"
+    ],
+    "antonyms": [
+      "neutralité"
+    ]
+  },
+  "effet": {
+    "word_type": "noun",
+    "prepositions": [
+      "sur"
+    ],
+    "pattern": "nom + sur + [organisme / situation]",
+    "level": "B1",
+    "definition": "Résultat produit par une cause ou une action sur un objet.",
+    "grammar_rule": "Exige la préposition « sur » devant la cible touchée (effet sur la santé / effet sur les prix).",
+    "related_forms": "⚡ Nom : 'l'effet SUR la santé' ➜ Verbe apparenté : 'contribuer'",
+    "examples": [
+      "Ce médicament a un effet rapide sur la douleur.",
+      "La hausse des prix a un effet négatif sur la consommation."
+    ],
+    "common_mistake": "❌ Un effet à la santé. ➜ ✅ Un effet sur la santé.",
+    "synonyms": [
+      "impact",
+      "conséquence"
+    ],
+    "antonyms": [
+      "Inertie"
+    ]
+  },
+  "réaction": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "nom + à + [événement / propos]",
+    "level": "B1",
+    "definition": "Mouvement ou comportement provoqué par une action extérieure.",
+    "grammar_rule": "Exige la préposition « à » devant le stimulus declencheur (réaction à l'annonce / contractions au/aux). S'aligne sur la réponse.",
+    "related_forms": "⚡ Nom : 'la réaction À la nouvelle' ➜ Verbe apparenté : 'répondre'",
+    "examples": [
+      "Sa réaction à la nouvelle a été très vive.",
+      "C'est une réaction allergique au pollen."
+    ],
+    "common_mistake": "❌ Une réaction pour la remarque. ➜ ✅ Une réaction à la remarque.",
+    "synonyms": [
+      "réponse",
+      "comportement"
+    ],
+    "antonyms": [
+      "passivité",
+      "indifférence"
+    ]
+  },
+  "relation": {
+    "word_type": "noun",
+    "prepositions": [
+      "avec"
+    ],
+    "pattern": "nom + avec + [personne / pays]",
+    "level": "B1",
+    "definition": "Lien d'échange ou de commerce entre deux personnes ou groupes.",
+    "grammar_rule": "Exige la préposition « avec » pour désigner l'interlocuteur (relation avec le client).",
+    "related_forms": "⚡ Nom : 'une relation AVEC le partenaire' ➜ Verbe apparenté : 's'associer'",
+    "examples": [
+      "L'entreprise maintient de bonnes relations avec ses clients.",
+      "Sa relation avec son frère s'est améliorée."
+    ],
+    "common_mistake": "❌ Une relation à son voisin. ➜ ✅ Une relation avec son voisin.",
+    "synonyms": [
+      "lien",
+      "rapport"
+    ],
+    "antonyms": [
+      "rupture",
+      "isolement"
+    ]
+  },
+  "rapport": {
+    "word_type": "noun",
+    "prepositions": [
+      "avec"
+    ],
+    "pattern": "nom + avec + [sujet / fait]",
+    "level": "B1",
+    "definition": "Lien logique ou analogie entre deux éléments.",
+    "grammar_rule": "Exige la préposition « avec » dans l'expression 'avoir un rapport avec' (aucun rapport avec l'affaire).",
+    "related_forms": "⚡ Nom : 'un rapport AVEC l'affaire' ➜ Verbe apparenté : 'consister'",
+    "examples": [
+      "Cette remarque n'a aucun rapport avec notre sujet.",
+      "Quel est le rapport entre ces deux événements ?"
+    ],
+    "common_mistake": "❌ Aucun rapport à l'histoire. ➜ ✅ Aucun rapport avec l'histoire.",
+    "synonyms": [
+      "lien",
+      "connexion"
+    ],
+    "antonyms": [
+      "Divergence"
+    ]
+  },
+  "différence": {
+    "word_type": "noun",
+    "prepositions": [
+      "entre",
+      "avec"
+    ],
+    "pattern": "nom + entre [deux éléments] / avec [comparaison]",
+    "level": "B1",
+    "definition": "Caractère qui distingue une chose ou une personne d'une autre.",
+    "grammar_rule": "Exige « entre » pour lier deux éléments (différence entre A et B) et « avec » pour une comparaison directe. S'aligne sur l'adjectif « différent » (de).",
+    "related_forms": "⚡ Nom : 'la différence ENTRE les deux' ➜ Verbe apparenté : 'changer'",
+    "examples": [
+      "Quelle est la différence entre ces deux modèles ?",
+      "Sa méthode présente une différence avec la mienne."
+    ],
+    "common_mistake": "❌ La différence à l'autre. ➜ ✅ La différence avec l'autre.",
+    "synonyms": [
+      "distinction",
+      "écart"
+    ],
+    "antonyms": [
+      "ressemblance",
+      "identité"
+    ]
+  },
+  "ressemblance": {
+    "word_type": "noun",
+    "prepositions": [
+      "avec"
+    ],
+    "pattern": "nom + avec + [personne / chose]",
+    "level": "B1",
+    "definition": "Caractère commun ou analogie entre deux personnes ou choses.",
+    "grammar_rule": "Divergence marquée ! Le verbe « ressembler » exige la préposition « à » (Ressembler à son père), tandis que le nom « ressemblance » s'emploie avec « avec » (Sa ressemblance avec son père).",
+    "related_forms": "⚡ Nom : 'la ressemblance AVEC son père' ➜ Verbe apparenté : 'ressembler'",
+    "examples": [
+      "Sa ressemblance avec sa mère est frappante.",
+      "Il existe une forte ressemblance avec la peinture italienne."
+    ],
+    "common_mistake": "❌ Sa ressemblance à son frère. ➜ ✅ Sa ressemblance avec son frère.",
+    "synonyms": [
+      "analogie",
+      "similitude"
+    ],
+    "antonyms": [
+      "différence",
+      "dissemblance"
+    ]
+  },
+  "avantage": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [chose / action]",
+    "level": "B1",
+    "definition": "Ce qui constitue un bénéfice, un point fort ou un intérêt.",
+    "grammar_rule": "Exige la préposition « de » devant le complément ou l'infinitif (l'avantage de voyager).",
+    "related_forms": "⚡ Nom : 'l'avantage DE cette méthode' ➜ Verbe apparenté : 'profiter'",
+    "examples": [
+      "L'avantage de cette voiture est sa faible consommation.",
+      "Quel est l'avantage de cette offre ?"
+    ],
+    "common_mistake": "❌ L'avantage pour vivre en ville. ➜ ✅ L'avantage de vivre en ville.",
+    "synonyms": [
+      "atout",
+      "bénéfice"
+    ],
+    "antonyms": [
+      "inconvénient",
+      "désavantage"
+    ]
+  },
+  "inconvénient": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [chose / action]",
+    "level": "B1",
+    "definition": "Ce qui constitue un obstacle, un désavantage ou un aspect négatif.",
+    "grammar_rule": "Exige la préposition « de » devant le sujet ou le verbe (l'inconvénient de vivre loin).",
+    "related_forms": "⚡ Nom : 'l'inconvénient DU projet' ➜ Verbe apparenté : 'nuire'",
+    "examples": [
+      "Le principal inconvénient de ce logement est le bruit.",
+      "Chaque solution comporte ses avantages et ses inconvénients."
+    ],
+    "common_mistake": "❌ L'inconvénient pour travailler tard. ➜ ✅ L'inconvénient de travailler tard.",
+    "synonyms": [
+      "désavantage",
+      "point faible"
+    ],
+    "antonyms": [
+      "avantage",
+      "atout"
+    ]
+  },
+  "respect": {
+    "word_type": "noun",
+    "prepositions": [
+      "pour",
+      "envers"
+    ],
+    "pattern": "nom + pour / envers + [personne / règle]",
+    "level": "A2",
+    "definition": "Sentiment de considération élevée envers quelqu'un ou une règle.",
+    "grammar_rule": "Divergence ! Le verbe « respecter » est transitif direct (Respecter les règles), alors que le nom « respect » demande « pour » ou « envers » (le respect pour les anciens / envers la loi).",
+    "related_forms": "⚡ Nom : 'le respect POUR la loi' ➜ Verbe apparenté : 'obéir'",
+    "examples": [
+      "Il montre un profond respect pour ses professeurs.",
+      "Le respect envers les aînés est une valeur fondamentale."
+    ],
+    "common_mistake": "❌ Le respect à la loi. ➜ ✅ Le respect pour la loi.",
+    "synonyms": [
+      "considération",
+      "égard"
+    ],
+    "antonyms": [
+      "mépris",
+      "irrespect"
+    ]
+  },
+  "admiration": {
+    "word_type": "noun",
+    "prepositions": [
+      "pour"
+    ],
+    "pattern": "nom + pour + [personne / œuvre]",
+    "level": "B1",
+    "definition": "Sentiment d'étonnement joyeux et d'estime passionnée devant quelqu'un.",
+    "grammar_rule": "Divergence ! Le verbe « admirer » est transitif direct (J'admire cet artiste), mais le nom « admiration » s'emploie obligatoirement avec « pour » (mon admiration pour cet artiste).",
+    "related_forms": "⚡ Nom : 'l'admiration POUR l'artiste' ➜ Verbe apparenté : 'adorer'",
+    "examples": [
+      "Elle voue une grande admiration pour ce chercheur.",
+      "Son admiration pour la peinture se voit sur ses murs."
+    ],
+    "common_mistake": "❌ Mon admiration à ce poète. ➜ ✅ Mon admiration pour ce poète.",
+    "synonyms": [
+      "estime",
+      "fascination"
+    ],
+    "antonyms": [
+      "mépris",
+      "dédain"
+    ]
+  },
+  "critique": {
+    "word_type": "noun",
+    "prepositions": [
+      "de",
+      "sur"
+    ],
+    "pattern": "nom + de / sur + [politique / comportement]",
+    "level": "B2",
+    "definition": "Analyse sévère portant sur les faiblesses d'un système ou d'un projet.",
+    "grammar_rule": "S'emploie avec « de » ou « sur » devant l'objet jugé (une critique sévère de la réforme). S'aligne sur « reprocher ».",
+    "related_forms": "⚡ Nom : 'la critique DE la politique' ➜ Verbe apparenté : 'reprocher'",
+    "examples": [
+      "Ses critiques sur la gestion financière sont fondées.",
+      "La critique de cette décision est unanime."
+    ],
+    "common_mistake": "❌ Une critique à la loi. ➜ ✅ Une critique de la loi.",
+    "synonyms": [
+      "blâme",
+      "reproche"
+    ],
+    "antonyms": [
+      "éloge",
+      "approbation"
     ]
   },
   "accès": {
@@ -316,16 +2101,16 @@
     "prepositions": [
       "à"
     ],
-    "pattern": "accès à [lieu / ressource / service]",
+    "pattern": "nom + à + [lieu / données / réseau]",
     "level": "B1",
-    "definition": "Possibilité de pénétrer dans un lieu ou d'obtenir une information/ressource.",
-    "grammar_rule": "Le nom « accès » exige la préposition « à » devant son complément.",
-    "related_forms": "accéder",
+    "definition": "Droit ou moyen de pénétrer dans un lieu ou de consulter des données.",
+    "grammar_rule": "Exige la préposition « à » (accès au bâtiment / accès aux informations / contractions au/aux).",
+    "related_forms": "⚡ Nom : 'l'accès AU dossier' ➜ Verbe apparenté : 'permettre'",
     "examples": [
-      "L'accès aux données est strictement réglementé.",
-      "Cet établissement garantit un accès facile aux personnes à mobilité réduite."
+      "L'accès au musée est gratuit le premier dimanche du mois.",
+      "Vous n'avez pas accès à ces données confidentielles."
     ],
-    "common_mistake": "❌ L'accès de la bibliothèque. ➜ ✅ L'accès à la bibliothèque.",
+    "common_mistake": "❌ L'accès de la plateforme. ➜ ✅ L'accès à la plateforme.",
     "synonyms": [
       "entrée",
       "admission"
@@ -335,52 +2120,28 @@
       "exclusion"
     ]
   },
-  "confiance": {
-    "word_type": "noun",
-    "prepositions": [
-      "en"
-    ],
-    "pattern": "confiance en [quelqu'un / soi-même]",
-    "level": "B1",
-    "definition": "Sentiment de sécurité et de foi envers une personne ou soi-même.",
-    "grammar_rule": "Le nom « confiance » s'emploie avec « en » devant une personne (confiance en soi / en Dieu) ou « dans » devant des institutions/choses.",
-    "related_forms": "faire confiance",
-    "examples": [
-      "Elle a une totale confiance en son associé.",
-      "La confiance en soi est primordiale pour réussir."
-    ],
-    "common_mistake": "❌ Confiance à lui. ➜ ✅ Confiance en lui.",
-    "synonyms": [
-      "foi",
-      "assurance"
-    ],
-    "antonyms": [
-      "méfiance",
-      "défiance"
-    ]
-  },
   "obstacle": {
     "word_type": "noun",
     "prepositions": [
       "à"
     ],
-    "pattern": "obstacle à [projet / réussite / avancement]",
-    "level": "B2",
-    "definition": "Ce qui s'oppose à la réalisation d'une action ou d'un projet.",
-    "grammar_rule": "Le nom « obstacle » se construit avec la préposition « à » (obstacle à la paix).",
-    "related_forms": "empêcher",
+    "pattern": "nom + à + [projet / développement]",
+    "level": "B1",
+    "definition": "Élément qui s'oppose à la réalisation d'une volonté ou d'un projet.",
+    "grammar_rule": "Exige la préposition « à » devant le projet freiné (un obstacle au développement / obstacle à la paix). S'aligne sur « nuire ».",
+    "related_forms": "⚡ Nom : 'un obstacle AU progrès' ➜ Verbe apparenté : 'nuire'",
     "examples": [
-      "La bureaucratie représente un obstacle majeur au développement.",
-      "Ce désaccord constitue un obstacle à la signature du contrat."
+      "La bureaucratie est un obstacle au développement de l'entreprise.",
+      "Cette décision constitue un obstacle à la négociation."
     ],
-    "common_mistake": "❌ Un obstacle pour le progrès. ➜ ✅ Un obstacle au progrès.",
+    "common_mistake": "❌ Un obstacle pour la paix. ➜ ✅ Un obstacle à la paix.",
     "synonyms": [
       "frein",
       "entrave"
     ],
     "antonyms": [
       "tremplin",
-      "catalyseur"
+      "aide"
     ]
   },
   "attachement": {
@@ -388,47 +2149,1274 @@
     "prepositions": [
       "à"
     ],
-    "pattern": "attachement à [personne / cause / valeur]",
-    "level": "B2",
-    "definition": "Sentiment d'affection profonde ou d'adhésion forte envers quelque chose.",
-    "grammar_rule": "Se construit obligatoirement avec la préposition « à ».",
-    "related_forms": "s'attacher",
+    "pattern": "nom + à + [personne / pays / valeur]",
+    "level": "B1",
+    "definition": "Lien d'affection vive ou d'adhésion forte à une cause.",
+    "grammar_rule": "S'aligne sur le verbe pronominal « s'attacher » (à). Exige la préposition « à » (attachement à son pays).",
+    "related_forms": "⚡ Nom : 'l'attachement AUX traditions' ➜ Verbe apparenté : 's'attacher'",
     "examples": [
-      "Il a démontré un grand attachement à ses principes.",
-      "Son attachement à la région est très fort."
+      "Son attachement à ses racines est très profond.",
+      "Il montre un attachement sincère à ses amis."
     ],
-    "common_mistake": "❌ Son attachement pour cette cause. ➜ ✅ Son attachement à cette cause.",
+    "common_mistake": "❌ Son attachement pour sa région (utilisable mais à très classique). ➜ ✅ Son attachement à sa région.",
     "synonyms": [
-      "dévouement",
-      "affection"
+      "affection",
+      "dévouement"
     ],
     "antonyms": [
       "détachement",
       "indifférence"
     ]
   },
-  "filiation": {
+  "opposition": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "nom + à + [loi / projet]",
+    "level": "B1",
+    "definition": "Refus d'accepter une décision ou lutte contre une force.",
+    "grammar_rule": "S'aligne sur le verbe pronominal « s'opposer » (à). Contractions obligatoires : à + le = au, à + les = aux.",
+    "related_forms": "⚡ Nom : 'l'opposition AU gouvernement' ➜ Verbe apparenté : 's'opposer'",
+    "examples": [
+      "L'opposition au projet de loi se renforce dans la rue.",
+      "Il a exprimé son opposition à la fermeture de l'école."
+    ],
+    "common_mistake": "❌ L'opposition contre la loi. ➜ ✅ L'opposition à la loi.",
+    "synonyms": [
+      "contestation",
+      "résistance"
+    ],
+    "antonyms": [
+      "accord",
+      "soutien"
+    ]
+  },
+  "adaptation": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "nom + à + [climat / milieu]",
+    "level": "B1",
+    "definition": "Processus par lequel une personne s'ajuste à des conditions nouvelles.",
+    "grammar_rule": "S'aligne sur le verbe pronominal « s'adapter » (à). Contractions obligatoires au/aux.",
+    "related_forms": "⚡ Nom : 'l'adaptation AU rythme' ➜ Verbe apparenté : 's'adapter'",
+    "examples": [
+      "Son adaptation à son nouvel emploi a été très rapide.",
+      "L'adaptation au changement exige de la souplesse."
+    ],
+    "common_mistake": "❌ L'adaptation de la situation. ➜ ✅ L'adaptation à la situation.",
+    "synonyms": [
+      "intégration",
+      "ajustement"
+    ],
+    "antonyms": [
+      "inadaptation"
+    ]
+  },
+  "association": {
     "word_type": "noun",
     "prepositions": [
       "avec"
     ],
-    "pattern": "filiation avec [origine / tradition]",
-    "level": "C1",
-    "definition": "Lien de continuité, d'origine ou de parenté spirituelle ou historique.",
-    "grammar_rule": "S'emploie souvent avec la préposition « avec » ou « de » selon la tournure.",
-    "related_forms": "s'inscrire",
+    "pattern": "nom + avec + [partenaire]",
+    "level": "B1",
+    "definition": "Union de personnes ou de structures pour poursuivre un but commun.",
+    "grammar_rule": "S'aligne sur le verbe pronominal « s'associer » (à/avec). Utilise « avec » pour l'associé.",
+    "related_forms": "⚡ Nom : 'l'association AVEC le partenaire' ➜ Verbe apparenté : 's'associer'",
     "examples": [
-      "Ce mouvement revendique une filiation directe avec la philosophie des Lumières.",
-      "On observe une filiation évidente avec les travaux précédents."
+      "Leur association avec ce groupe industriel est fructueuse.",
+      "Cette association avec une ONG aide les démunis."
     ],
-    "common_mistake": "❌ Filiation à cette théorie. ➜ ✅ Filiation avec cette théorie.",
+    "common_mistake": "❌ Une association à l'entreprise (pour le partenaire). ➜ ✅ Une association avec l'entreprise.",
     "synonyms": [
-      "continuité",
-      "héritage"
+      "alliance",
+      "partenariat"
     ],
     "antonyms": [
-      "rupture",
-      "discontinuité"
+      "séparation"
+    ]
+  },
+  "contribution": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "nom + à + [œuvre / projet / frais]",
+    "level": "B1",
+    "definition": "Part d'effort ou d'argent apportée à une entreprise commune.",
+    "grammar_rule": "S'aligne sur le verbe apparenté « contribuer » (à). Contractions obligatoires au/aux.",
+    "related_forms": "⚡ Nom : 'la contribution AU projet' ➜ Verbe apparenté : 'contribuer'",
+    "examples": [
+      "Sa contribution à la recherche médicale est majeure.",
+      "Nous sollicitons votre contribution au financement de l'événement."
+    ],
+    "common_mistake": "❌ Une contribution de la cause. ➜ ✅ Une contribution à la cause.",
+    "synonyms": [
+      "apport",
+      "participation"
+    ],
+    "antonyms": [
+      "retrait"
+    ]
+  },
+  "solution": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "nom + à + [problème / crise]",
+    "level": "B1",
+    "definition": "Moyen qui permet de résoudre une difficulté ou une question.",
+    "grammar_rule": "Exige la préposition « à » (solution au problème / solution à la crise / contractions au/aux).",
+    "related_forms": "⚡ Nom : 'une solution AU problème' ➜ Verbe apparenté : 'remédier'",
+    "examples": [
+      "Les scientifiques cherchent une solution à la pollution.",
+      "Cette proposition offre une bonne solution au conflit."
+    ],
+    "common_mistake": "❌ Une solution pour le problème. ➜ ✅ Une solution au problème.",
+    "synonyms": [
+      "issue",
+      "remède"
+    ],
+    "antonyms": [
+      "impasse"
+    ]
+  },
+  "souci": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [qualité / avenir]",
+    "level": "B1",
+    "definition": "Préoccupation constante ou soin apporté à une tâche.",
+    "grammar_rule": "S'aligne sur le verbe pronominal « se soucier » (de). Contractions du/des.",
+    "related_forms": "⚡ Nom : 'le souci DE la qualité' ➜ Verbe apparenté : 'se soucier'",
+    "examples": [
+      "Il travaille toujours dans le souci du détail.",
+      "Son souci de bien faire honore son engagement."
+    ],
+    "common_mistake": "❌ Le souci pour aider. ➜ ✅ Le souci d'aider.",
+    "synonyms": [
+      "préoccupation",
+      "soin"
+    ],
+    "antonyms": [
+      "indifférence"
+    ]
+  },
+  "débarras": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [choses inutiles]",
+    "level": "B1",
+    "definition": "Action de se délivrer de ce qui encombre.",
+    "grammar_rule": "S'aligne sur le verbe pronominal « se débarrasser » (de). S'emploie souvent dans la formule 'bon débarras !'.",
+    "related_forms": "⚡ Nom : 'le débarras DES vieux meubles' ➜ Verbe apparenté : 'se débarrasser'",
+    "examples": [
+      "Le débarras de ces vieux papiers libère de la place.",
+      "Il a vidé la pièce qui sert de débarras."
+    ],
+    "common_mistake": "❌ Le débarras pour les cartons. ➜ ✅ Le débarras des cartons.",
+    "synonyms": [
+      "élimination",
+      "nettoyage"
+    ],
+    "antonyms": [
+      "encombrement"
+    ]
+  },
+  "moquerie": {
+    "word_type": "noun",
+    "prepositions": [
+      "sur",
+      "envers"
+    ],
+    "pattern": "nom + sur / envers + [personne]",
+    "level": "B1",
+    "definition": "Propos ou geste ironique qui tourne quelqu'un en dérision.",
+    "grammar_rule": "Divergence ! Le verbe pronominal « se moquer » exige « de » (se moquer du voisin), tandis que le nom « moquerie » s'emploie avec « sur » ou « envers ».",
+    "related_forms": "⚡ Nom : 'des moqueries ENVERS les élèves' ➜ Verbe apparenté : 'se moquer'",
+    "examples": [
+      "Ces moqueries envers son camarade sont inacceptables.",
+      "Il ne prête aucune attention aux moqueries."
+    ],
+    "common_mistake": "❌ Des moqueries à son frère. ➜ ✅ Des moqueries envers son frère.",
+    "synonyms": [
+      "raillerie",
+      "sarcasme"
+    ],
+    "antonyms": [
+      "compliment"
+    ]
+  },
+  "concentration": {
+    "word_type": "noun",
+    "prepositions": [
+      "sur"
+    ],
+    "pattern": "nom + sur + [tâche / sujet]",
+    "level": "B1",
+    "definition": "Action de fixer toute son attention sur un seul sujet.",
+    "grammar_rule": "S'aligne sur le verbe pronominal « se concentrer » (sur). Exige la préposition « sur ».",
+    "related_forms": "⚡ Nom : 'la concentration SUR le travail' ➜ Verbe apparenté : 'se concentrer'",
+    "examples": [
+      "Le bruit nuit à la concentration des étudiants.",
+      "Sa concentration sur le jeu est totale."
+    ],
+    "common_mistake": "❌ La concentration à l'examen. ➜ ✅ La concentration sur l'examen.",
+    "synonyms": [
+      "focalisation",
+      "attention"
+    ],
+    "antonyms": [
+      "distraction",
+      "dispersion"
+    ]
+  },
+  "engagement": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "nom + à + [action / promesse]",
+    "level": "B1",
+    "definition": "Promesse ferme de réaliser une tâche ou de respecter un contrat.",
+    "grammar_rule": "S'aligne sur le verbe pronominal « s'engager » (à). Exige la préposition « à » devant un infinitif.",
+    "related_forms": "⚡ Nom : 'un engagement À payer' ➜ Verbe apparenté : 's'engager'",
+    "examples": [
+      "Son engagement à respecter le contrat est clair.",
+      "L'entreprise prend un engagement fort pour l'environnement."
+    ],
+    "common_mistake": "❌ Un engagement de venir. ➜ ✅ Un engagement à venir.",
+    "synonyms": [
+      "promesse",
+      "contrat"
+    ],
+    "antonyms": [
+      "désengagement"
+    ]
+  },
+  "exposition": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "nom + à + [danger / soleil]",
+    "level": "B1",
+    "definition": "Fait d'être soumis à l'action d'un élément (soleil, risque).",
+    "grammar_rule": "S'aligne sur le verbe pronominal « s'exposer » (à). Contractions obligatoires : à + le = au, à + les = aux.",
+    "related_forms": "⚡ Nom : 'l'exposition AU danger' ➜ Verbe apparenté : 's'exposer'",
+    "examples": [
+      "Une exposition prolongée au soleil est dangereuse pour la peau.",
+      "L'exposition aux bruits forts abîme l'audition."
+    ],
+    "common_mistake": "❌ L'exposition dans le soleil. ➜ ✅ L'exposition au soleil.",
+    "synonyms": [
+      "soumission",
+      "contact"
+    ],
+    "antonyms": [
+      "protection",
+      "abri"
+    ]
+  },
+  "information": {
+    "word_type": "noun",
+    "prepositions": [
+      "sur"
+    ],
+    "pattern": "nom + sur + [sujet / tarif]",
+    "level": "B1",
+    "definition": "Renseignement donné sur une personne, un événement ou un produit.",
+    "grammar_rule": "S'aligne sur le verbe pronominal « s'informer » (sur/de). Utilise « sur » pour désigner le sujet.",
+    "related_forms": "⚡ Nom : 'une information SUR le prix' ➜ Verbe apparenté : 's'informer'",
+    "examples": [
+      "Demandez des informations sur les horaires d'ouverture.",
+      "Cette brochure fournit une information complète sur la ville."
+    ],
+    "common_mistake": "❌ Une information de la tarif (quand sujet). ➜ ✅ Une information sur le tarif.",
+    "synonyms": [
+      "renseignement",
+      "donnée"
+    ],
+    "antonyms": [
+      "désinformation"
+    ]
+  },
+  "avis": {
+    "word_type": "noun",
+    "prepositions": [
+      "sur"
+    ],
+    "pattern": "nom + sur + [sujet / livre]",
+    "level": "B1",
+    "definition": "Opinion exprimée sur la valeur d'une chose ou d'une personne.",
+    "grammar_rule": "Exige la préposition « sur » pour le sujet évalué (un avis sur le film). S'aligne sur « penser de ».",
+    "related_forms": "⚡ Nom : 'un avis SUR la question' ➜ Verbe apparenté : 'penser de'",
+    "examples": [
+      "Quel est votre avis sur ce nouveau projet ?",
+      "Il a donné un avis très favorable sur le candidat."
+    ],
+    "common_mistake": "❌ Un avis de ce livre (pour le sujet évalué). ➜ ✅ Un avis sur ce livre.",
+    "synonyms": [
+      "opinion",
+      "jugement"
+    ],
+    "antonyms": [
+      "Indifférence"
+    ]
+  },
+  "peine": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "nom + à + [verbe / effort]",
+    "level": "B1",
+    "definition": "Difficulté éprouvée à accomplir une tâche.",
+    "grammar_rule": "S'emploie dans l'expression 'avoir de la peine à' + infinitif (peine à s'exprimer).",
+    "related_forms": "⚡ Nom : 'de la peine À s'exprimer' ➜ Verbe apparenté : 'souffrir'",
+    "examples": [
+      "Il a beaucoup de peine à marcher aujourd'hui.",
+      "Elle éprouve de la peine à retenir ses larmes."
+    ],
+    "common_mistake": "❌ Peine de comprendre. ➜ ✅ Peine à comprendre.",
+    "synonyms": [
+      "difficulté",
+      "labeur"
+    ],
+    "antonyms": [
+      "facilité",
+      "aisance"
+    ]
+  },
+  "responsabilité": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [tâche / gestion]",
+    "level": "B1",
+    "definition": "Charge morale ou juridique d'assumer un rôle ou un acte.",
+    "grammar_rule": "Exige la préposition « de » devant la tâche gérée (la responsabilité de l'équipe).",
+    "related_forms": "⚡ Nom : 'la responsabilité DE la gestion' ➜ Verbe apparenté : 's'occuper'",
+    "examples": [
+      "Le directeur prend la responsabilité de cette erreur.",
+      "Elle a la responsabilité du service comptable."
+    ],
+    "common_mistake": "❌ La responsabilité pour organiser. ➜ ✅ La responsabilité d'organiser.",
+    "synonyms": [
+      "charge",
+      "devoir"
+    ],
+    "antonyms": [
+      "décharge",
+      "irresponsabilité"
+    ]
+  },
+  "accord": {
+    "word_type": "noun",
+    "prepositions": [
+      "sur"
+    ],
+    "pattern": "nom + sur + [sujet / prix]",
+    "level": "B1",
+    "definition": "Entente conclue entre deux parties sur un sujet.",
+    "grammar_rule": "S'aligne sur le verbe « accorder ». Exige « sur » pour le thème de l'entente (accord sur le prix).",
+    "related_forms": "⚡ Nom : 'un accord SUR le contrat' ➜ Verbe apparenté : 'accorder'",
+    "examples": [
+      "Les deux pays ont trouvé un accord sur les frontières.",
+      "Ils sont tombés d'accord sur le montant de la vente."
+    ],
+    "common_mistake": "❌ Un accord de la prix. ➜ ✅ Un accord sur le prix.",
+    "synonyms": [
+      "entente",
+      "compromis"
+    ],
+    "antonyms": [
+      "désaccord",
+      "conflit"
+    ]
+  },
+  "recours": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "nom + à + [moyen / justice / force]",
+    "level": "B2",
+    "definition": "Action de faire appel à un moyen ou une autorité pour régler un problème.",
+    "grammar_rule": "Exige la préposition « à » (recours à la force / recours à la justice / contractions au/aux).",
+    "related_forms": "⚡ Nom : 'le recours À la force' ➜ Verbe apparenté : 's'en remettre'",
+    "examples": [
+      "Le recours à la force doit rester exceptionnel.",
+      "L'avocat dépose un recours à la cour d'appel."
+    ],
+    "common_mistake": "❌ Le recours de la force. ➜ ✅ Le recours à la force.",
+    "synonyms": [
+      "appel",
+      "usage"
+    ],
+    "antonyms": [
+      "renoncement"
+    ]
+  },
+  "soumission": {
+    "word_type": "noun",
+    "prepositions": [
+      "aux",
+      "à"
+    ],
+    "pattern": "nom + à + [autorité / règle]",
+    "level": "B2",
+    "definition": "Action de se ranger sous l'autorité ou l'ordre de quelqu'un.",
+    "grammar_rule": "S'aligne sur les verbes « soumettre » et « se soumettre » (à). Contractions obligatoires : à + le = au, à + les = aux.",
+    "related_forms": "⚡ Nom : 'la soumission AUX règles' ➜ Verbe apparenté : 'soumettre'",
+    "examples": [
+      "Exiger une soumission aveugle est inacceptable.",
+      "Sa soumission aux lois de la République est totale."
+    ],
+    "common_mistake": "❌ La soumission vers la loi. ➜ ✅ La soumission à la loi.",
+    "synonyms": [
+      "obéissance",
+      "résignation"
+    ],
+    "antonyms": [
+      "révolte",
+      "insoumission"
+    ]
+  },
+  "incitation": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "nom + à + [action / haine / effort]",
+    "level": "B2",
+    "definition": "Action de pousser ou encourager vivement quelqu'un à agir.",
+    "grammar_rule": "S'aligne sur le verbe apparenté « inciter » (à). Exige la préposition « à » (incitation à la haine / incitation à la lecture).",
+    "related_forms": "⚡ Nom : 'l'incitation À l'effort' ➜ Verbe apparenté : 'inciter'",
+    "examples": [
+      "La loi punit sévèrement l'incitation à la haine.",
+      "Cette prime est une incitation à l'embauche."
+    ],
+    "common_mistake": "❌ L'incitation pour consommer. ➜ ✅ L'incitation à consommer.",
+    "synonyms": [
+      "encouragement",
+      "stimulation"
+    ],
+    "antonyms": [
+      "dissuasion"
+    ]
+  },
+  "abstention": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [vote / commentaire]",
+    "level": "B2",
+    "definition": "Fait de ne pas exercer un droit ou de ne pas exprimer son avis.",
+    "grammar_rule": "S'aligne sur le verbe pronominal « s'abstenir » (de). Exige la préposition « de » (abstention de tout jugement).",
+    "related_forms": "⚡ Nom : 'l'abstention DU juge' ➜ Verbe apparenté : 's'abstenir'",
+    "examples": [
+      "Son abstention de tout commentaire politique est remarquée.",
+      "Le taux d'abstention au vote est très élevé."
+    ],
+    "common_mistake": "❌ L'abstention à voter. ➜ ✅ L'abstention de voter.",
+    "synonyms": [
+      "réserve",
+      "retrait"
+    ],
+    "antonyms": [
+      "participation",
+      "vote"
+    ]
+  },
+  "reproche": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "nom + à + [personne]",
+    "level": "B2",
+    "definition": "Grief ou blâme adressé à une personne pour une faute.",
+    "grammar_rule": "S'aligne sur le verbe apparenté « reprocher » (de/à). Introduit le destinataire par la préposition « à ».",
+    "related_forms": "⚡ Nom : 'un reproche AU collègue' ➜ Verbe apparenté : 'reprocher'",
+    "examples": [
+      "Elle a adressé un reproche sévère à son employé.",
+      "Ses reproches à mon égard sont injustifiés."
+    ],
+    "common_mistake": "❌ Un reproche sur lui. ➜ ✅ Un reproche à son égard.",
+    "synonyms": [
+      "blâme",
+      "grief"
+    ],
+    "antonyms": [
+      "éloge",
+      "compliment"
+    ]
+  },
+  "résistance": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "nom + à + [force / ennemi / changement]",
+    "level": "B2",
+    "definition": "Capacité d'opposer de la force pour ne pas céder.",
+    "grammar_rule": "S'aligne sur le verbe apparenté « résister » (à). Contractions obligatoires : à + le = au, à + les = aux.",
+    "related_forms": "⚡ Nom : 'la résistance AU changement' ➜ Verbe apparenté : 'résister'",
+    "examples": [
+      "La résistance au changement est naturelle chez l'être humain.",
+      "Ce matériau offre une grande résistance à la chaleur."
+    ],
+    "common_mistake": "❌ La résistance contre le froid (avec à). ➜ ✅ La résistance au froid.",
+    "synonyms": [
+      "opposition",
+      "endurance"
+    ],
+    "antonyms": [
+      "soumission",
+      "Cession"
+    ]
+  },
+  "renonciation": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "nom + à + [droit / privilège]",
+    "level": "B2",
+    "definition": "Action d'abandonner de son plein gré un droit ou un titre.",
+    "grammar_rule": "S'aligne sur le verbe apparenté « renoncer » (à). Contractions obligatoires au/aux.",
+    "related_forms": "⚡ Nom : 'la renonciation AU droit' ➜ Verbe apparenté : 'renoncer'",
+    "examples": [
+      "Sa renonciation à la couronne a surpris le royaume.",
+      "La renonciation à ses privilèges exige du courage."
+    ],
+    "common_mistake": "❌ La renonciation de ses droits. ➜ ✅ La renonciation à ses droits.",
+    "synonyms": [
+      "abandon",
+      "abdication"
+    ],
+    "antonyms": [
+      "maintien",
+      "revendication"
+    ]
+  },
+  "imposition": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [taxe / règle]",
+    "level": "B2",
+    "definition": "Action d'établir une règle obligatoire ou un prélèvement.",
+    "grammar_rule": "S'aligne sur le verbe apparenté « imposer » (à). Exige la préposition « de » devant la taxe.",
+    "related_forms": "⚡ Nom : 'l'imposition DES taxes' ➜ Verbe apparenté : 'imposer'",
+    "examples": [
+      "L'imposition de nouvelles taxes suscite le mécontentement.",
+      "Cette mesure implique l'imposition de règles strictes."
+    ],
+    "common_mistake": "❌ L'imposition sur les règles (pour l'acte). ➜ ✅ L'imposition de règles.",
+    "synonyms": [
+      "prélèvement",
+      "exigence"
+    ],
+    "antonyms": [
+      "dispense",
+      "exonération"
+    ]
+  },
+  "imputation": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "nom + à + [personne / compte]",
+    "level": "B2",
+    "definition": "Fait d'attribuer la responsabilité d'un fait ou d'un coût.",
+    "grammar_rule": "S'aligne sur le verbe apparenté « imputer » (à). Contractions obligatoires au/aux.",
+    "related_forms": "⚡ Nom : 'l'imputation DU coût' ➜ Verbe apparenté : 'imputer'",
+    "examples": [
+      "L'imputation des pertes au directeur financier est contestée.",
+      "Cette ligne budgétaire est soumise à imputation."
+    ],
+    "common_mistake": "❌ L'imputation sur le gestionnaire. ➜ ✅ L'imputation au gestionnaire.",
+    "synonyms": [
+      "attribution",
+      "accusation"
+    ],
+    "antonyms": [
+      "disculpation"
+    ]
+  },
+  "ingérence": {
+    "word_type": "noun",
+    "prepositions": [
+      "dans"
+    ],
+    "pattern": "nom + dans + [affaires / politique]",
+    "level": "B2",
+    "definition": "Fait de s'immiscer sans droit dans les affaires d'autrui.",
+    "grammar_rule": "S'aligne sur le verbe pronominal « s'ingérer » (dans). Exige la préposition « dans ».",
+    "related_forms": "⚡ Nom : 'l'ingérence DANS les affaires' ➜ Verbe apparenté : 's'ingérer'",
+    "examples": [
+      "Ce pays dénonce l'ingérence étrangère dans ses élections.",
+      "C'est une ingérence inacceptable dans notre vie privée."
+    ],
+    "common_mistake": "❌ L'ingérence à la politique. ➜ ✅ L'ingérence dans la politique.",
+    "synonyms": [
+      "intrusion",
+      "immiction"
+    ],
+    "antonyms": [
+      "neutralité",
+      "réserve"
+    ]
+  },
+  "insurrection": {
+    "word_type": "noun",
+    "prepositions": [
+      "contre"
+    ],
+    "pattern": "nom + contre + [pouvoir / tyran]",
+    "level": "B2",
+    "definition": "Soulèvement armé ou révolte collective contre un pouvoir.",
+    "grammar_rule": "S'aligne sur le verbe pronominal « s'insurger » (contre). Exige la préposition « contre ».",
+    "related_forms": "⚡ Nom : 'l'insurrection CONTRE l'occupant' ➜ Verbe apparenté : 's'insurger'",
+    "examples": [
+      "L'insurrection contre le régime dictatorial s'est propagée.",
+      "Le peuple s'est levé lors de cette insurrection."
+    ],
+    "common_mistake": "❌ L'insurrection à l'occupant. ➜ ✅ L'insurrection contre l'occupant.",
+    "synonyms": [
+      "révolte",
+      "rebellion"
+    ],
+    "antonyms": [
+      "soumission",
+      "pacification"
+    ]
+  },
+  "aspiration": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "nom + à + [bonheur / idéal]",
+    "level": "B2",
+    "definition": "Désir profond et élevé d'atteindre un idéal.",
+    "grammar_rule": "S'aligne sur le verbe apparenté « aspirer » (à). Contractions obligatoires : à + le = au, à + les = aux.",
+    "related_forms": "⚡ Nom : 'l'aspiration AU bonheur' ➜ Verbe apparenté : 'aspirer'",
+    "examples": [
+      "Son aspiration à la justice guide son engagement.",
+      "Les aspirations de la jeunesse doivent être entendues."
+    ],
+    "common_mistake": "❌ L'aspiration de la liberté (mieux : à la). ➜ ✅ L'aspiration à la liberté.",
+    "synonyms": [
+      "ambition",
+      "souhait"
+    ],
+    "antonyms": [
+      "renoncement"
+    ]
+  },
+  "fuite": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [lieu / prison]",
+    "level": "B2",
+    "definition": "Fait de s'échapper rapidement pour fuir un danger.",
+    "grammar_rule": "S'aligne sur le verbe pronominal « s'enfuir » (de). Contractions obligatoires du/des.",
+    "related_forms": "⚡ Nom : 'la fuite DU prisonnier' ➜ Verbe apparenté : 's'enfuir'",
+    "examples": [
+      "La fuite du suspect a mobilisé les forces de l'ordre.",
+      "Il a organisé sa fuite de la prison."
+    ],
+    "common_mistake": "❌ La fuite à la cellule. ➜ ✅ La fuite de la cellule.",
+    "synonyms": [
+      "évasion",
+      "déguerpissement"
+    ],
+    "antonyms": [
+      "capture",
+      "retour"
+    ]
+  },
+  "écart": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [conduite / route]",
+    "level": "B2",
+    "definition": "Action de s'éloigner d'une norme, d'une règle ou d'une trajectoire.",
+    "grammar_rule": "S'aligne sur le verbe pronominal « s'écarter » (de). Exige la préposition « de » (un écart de conduite).",
+    "related_forms": "⚡ Nom : 'un écart DE conduite' ➜ Verbe apparenté : 's'écarter'",
+    "examples": [
+      "Cet écart de conduite lui a coûté son poste.",
+      "Le chauffeur a fait un écart de trajectoire pour éviter l'obstacle."
+    ],
+    "common_mistake": "❌ Un écart à la règle. ➜ ✅ Un écart de conduite.",
+    "synonyms": [
+      "déviation",
+      "faute"
+    ],
+    "antonyms": [
+      "conformité",
+      "alignement"
+    ]
+  },
+  "interrogation": {
+    "word_type": "noun",
+    "prepositions": [
+      "sur"
+    ],
+    "pattern": "nom + sur + [avenir / sens]",
+    "level": "B2",
+    "definition": "Action de se poser des questions approfondies sur un sujet.",
+    "grammar_rule": "S'aligne sur le verbe pronominal « s'interroger » (sur). Exige la préposition « sur ».",
+    "related_forms": "⚡ Nom : 'l'interrogation SUR le sens' ➜ Verbe apparenté : 's'interroger'",
+    "examples": [
+      "Les citoyens partagent de vives interrogations sur l'avenir.",
+      "C'est une interrogation légitime sur la pertinence de ce projet."
+    ],
+    "common_mistake": "❌ Une interrogation de ce problème (quand sujet de réflexion). ➜ ✅ Une interrogation sur ce problème.",
+    "synonyms": [
+      "doute",
+      "questionnement"
+    ],
+    "antonyms": [
+      "certitude"
+    ]
+  },
+  "sommation": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [payer / quitter]",
+    "level": "B2",
+    "definition": "Ordre formel et officiel d'exécuter un acte sous peine de sanction.",
+    "grammar_rule": "S'aligne sur le verbe apparenté « sommer » (de). Exige la préposition « de » devant l'infinitif.",
+    "related_forms": "⚡ Nom : 'une sommation DE payer' ➜ Verbe apparenté : 'sommer'",
+    "examples": [
+      "L'huissier a délivré une sommation de payer les dettes.",
+      "La police fait une dernière sommation de quitter les lieux."
+    ],
+    "common_mistake": "❌ Une sommation à payer. ➜ ✅ Une sommation de payer.",
+    "synonyms": [
+      "injonction",
+      "ordre"
+    ],
+    "antonyms": [
+      "prière",
+      "invitation"
+    ]
+  },
+  "suspension": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [séance / contrat]",
+    "level": "B2",
+    "definition": "Interruption temporaire d'une activité ou accrochage en hauteur.",
+    "grammar_rule": "S'aligne sur le verbe apparenté « suspendre » (à). Exige la préposition « de » pour l'arrêt d'une séance.",
+    "related_forms": "⚡ Nom : 'la suspension DE la séance' ➜ Verbe apparenté : 'suspendre'",
+    "examples": [
+      "Le président prononce la suspension de la séance.",
+      "La suspension de son permis de conduire dure six mois."
+    ],
+    "common_mistake": "❌ La suspension à la séance. ➜ ✅ La suspension de la séance.",
+    "synonyms": [
+      "interruption",
+      "arrêt"
+    ],
+    "antonyms": [
+      "reprise",
+      "continuation"
+    ]
+  },
+  "dépendance": {
+    "word_type": "noun",
+    "prepositions": [
+      "de",
+      "vis-à-vis de"
+    ],
+    "pattern": "nom + de / vis-à-vis de + [facteur / drogue]",
+    "level": "B2",
+    "definition": "Éventualité d'être soumis à l'action ou au contrôle de quelqu'un.",
+    "grammar_rule": "S'aligne sur le verbe apparenté « dépendre » (de). Exige la préposition « de » (la dépendance de l'étranger).",
+    "related_forms": "⚡ Nom : 'la dépendance DE l'extérieur' ➜ Verbe apparenté : 'dépendre'",
+    "examples": [
+      "Réduire la dépendance énergétique du pays est vital.",
+      "Elle lutte contre sa dépendance aux écrans."
+    ],
+    "common_mistake": "❌ La dépendance sur la météo. ➜ ✅ La dépendance de la météo.",
+    "synonyms": [
+      "soumission",
+      "assujettissement"
+    ],
+    "antonyms": [
+      "indépendance",
+      "autonomie"
+    ]
+  },
+  "opinion": {
+    "word_type": "noun",
+    "prepositions": [
+      "sur"
+    ],
+    "pattern": "nom + sur + [sujet / livre]",
+    "level": "B2",
+    "definition": "Jugement de valeur porté sur un fait, une idée ou une personne.",
+    "grammar_rule": "S'aligne sur le verbe « penser de ». Exige la préposition « sur » pour le sujet évalué (une opinion sur le projet).",
+    "related_forms": "⚡ Nom : 'une opinion SUR la crise' ➜ Verbe apparenté : 'penser de'",
+    "examples": [
+      "Quelle est votre opinion sur la situation économique ?",
+      "Il exprime une opinion bien tranchée sur la question."
+    ],
+    "common_mistake": "❌ Une opinion de ce sujet (pour l'évaluation). ➜ ✅ Une opinion sur ce sujet.",
+    "synonyms": [
+      "avis",
+      "jugement"
+    ],
+    "antonyms": [
+      "Indifférence"
+    ]
+  },
+  "nuisance": {
+    "word_type": "noun",
+    "prepositions": [
+      "pour",
+      "à"
+    ],
+    "pattern": "nom + pour [santé] / au [voisinage]",
+    "level": "B2",
+    "definition": "Chose ou comportement qui nuit à la tranquillité ou à la santé.",
+    "grammar_rule": "S'aligne sur le verbe apparenté « nuire » (à). Exige la préposition « à » pour la victime (nuisance au voisinage).",
+    "related_forms": "⚡ Nom : 'une nuisance AU voisinage' ➜ Verbe apparenté : 'nuire'",
+    "examples": [
+      "Les bruits nocturnes constituent une nuisance sonore.",
+      "Cette usine cause des nuisances graves à l'environnement."
+    ],
+    "common_mistake": "❌ Une nuisance sur la santé. ➜ ✅ Une nuisance à la santé.",
+    "synonyms": [
+      "dommage",
+      "gêne"
+    ],
+    "antonyms": [
+      "bienfait",
+      "utilité"
+    ]
+  },
+  "tendance": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "nom + à + [évolution / verbe]",
+    "level": "B2",
+    "definition": "Inclination naturelle à se comporter d'une certaine façon.",
+    "grammar_rule": "S'aligne sur le verbe apparenté « tendre » (à). Exige la préposition « à » (une tendance à la hausse).",
+    "related_forms": "⚡ Nom : 'la tendance À la hausse' ➜ Verbe apparenté : 'tendre'",
+    "examples": [
+      "Les prix affichent une nette tendance à la hausse.",
+      "Il a tendance à exagérer ses succès."
+    ],
+    "common_mistake": "❌ Une tendance de baisser. ➜ ✅ Une tendance à baisser.",
+    "synonyms": [
+      "inclination",
+      "penchant"
+    ],
+    "antonyms": [
+      "aversion"
+    ]
+  },
+  "témoignage": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [fait / personne]",
+    "level": "B2",
+    "definition": "Déclaration solennelle ou marque manifeste d'un sentiment.",
+    "grammar_rule": "S'aligne sur le verbe apparenté « témoigner » (de). Contractions obligatoires du/des.",
+    "related_forms": "⚡ Nom : 'un témoignage DE respect' ➜ Verbe apparenté : 'témoigner'",
+    "examples": [
+      "Son discours est un beau témoignage d'amitié.",
+      "Le témoignage du voisin a éclairé les juges."
+    ],
+    "common_mistake": "❌ Un témoignage sur la sympathie (pour le sentiment). ➜ ✅ Un témoignage de sympathie.",
+    "synonyms": [
+      "preuve",
+      "attestation"
+    ],
+    "antonyms": [
+      "démenti"
+    ]
+  },
+  "suppléant": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "nom + de [personne] / à [poste]",
+    "level": "B2",
+    "definition": "Personne désignée pour remplacer un titulaire en cas d'absence.",
+    "grammar_rule": "S'aligne sur le verbe apparenté « suppléer » (à/COD). Exige « de » pour le titulaire (le suppléant du député).",
+    "related_forms": "⚡ Nom : 'le suppléant DU député' ➜ Verbe apparenté : 'suppléer'",
+    "examples": [
+      "Le suppléant du député prend la parole à l'Assemblée.",
+      "Il a été nommé comme suppléant."
+    ],
+    "common_mistake": "❌ Le suppléant à le professeur. ➜ ✅ Le suppléant du professeur.",
+    "synonyms": [
+      "remplaçant",
+      "substitut"
+    ],
+    "antonyms": [
+      "titulaire"
+    ]
+  },
+  "remède": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "nom + à + [mal / problème]",
+    "level": "B1",
+    "definition": "Substance ou moyen utilisé pour guérir un mal ou régler un souci.",
+    "grammar_rule": "S'aligne sur le verbe apparenté « remédier » (à). Exige la préposition « à » (un remède au problème).",
+    "related_forms": "⚡ Nom : 'un remède AU mal' ➜ Verbe apparenté : 'remédier'",
+    "examples": [
+      "La patience est un bon remède aux soucis.",
+      "Ce médicament est un remède efficace contre la grippe."
+    ],
+    "common_mistake": "❌ Un remède pour la crise (utilisable mais à classique). ➜ ✅ Un remède à la crise.",
+    "synonyms": [
+      "solution",
+      "traitement"
+    ],
+    "antonyms": [
+      "poison",
+      "aggravation"
+    ]
+  },
+  "appui": {
+    "word_type": "noun",
+    "prepositions": [
+      "sur"
+    ],
+    "pattern": "nom + sur + [support / fait]",
+    "level": "B2",
+    "definition": "Action de se soutenir ou de s'appuyer sur un argument.",
+    "grammar_rule": "S'aligne sur le verbe pronominal « s'appuyer » (sur). Exige la préposition « sur ».",
+    "related_forms": "⚡ Nom : 'l'appui DU dossier' ➜ Verbe apparenté : 's'appuyer'",
+    "examples": [
+      "Il cherche l'appui des députés pour sa loi.",
+      "Son argumentation prend appui sur des chiffres officiels."
+    ],
+    "common_mistake": "❌ L'appui à des rumeurs. ➜ ✅ L'appui sur des faits.",
+    "synonyms": [
+      "soutien",
+      "fondement"
+    ],
+    "antonyms": [
+      "rejet"
+    ]
+  },
+  "prévalence": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [phénomène]",
+    "level": "B2",
+    "definition": "Proportion d'un fait ou d'une maladie dans une population.",
+    "grammar_rule": "S'aligne sur le verbe apparenté « prévaloir » (sur). Exige « de » pour le phénomène comptabilisé.",
+    "related_forms": "⚡ Nom : 'la prévalence DE la maladie' ➜ Verbe apparenté : 'prévaloir'",
+    "examples": [
+      "La prévalence de cette maladie a diminué grâce au vaccin.",
+      "Les données montrent une forte prévalence de cette opinion."
+    ],
+    "common_mistake": "❌ La prévalence sur le cas (pour la fréquence). ➜ ✅ La prévalence de la maladie.",
+    "synonyms": [
+      "fréquence",
+      "prédominance"
+    ],
+    "antonyms": [
+      "rareté"
+    ]
+  },
+  "subsistance": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [moyens / besoins]",
+    "level": "B2",
+    "definition": "Ce qui est nécessaire à l'entretien de la vie.",
+    "grammar_rule": "S'aligne sur le verbe apparenté « subsister ». Exige la préposition « de ».",
+    "related_forms": "⚡ Nom : 'les moyens DE subsistance' ➜ Verbe apparenté : 'subsister'",
+    "examples": [
+      "La pêche assure la subsistance des habitants de l'île.",
+      "Ils manquent de moyens de subsistance."
+    ],
+    "common_mistake": "❌ La subsistance pour la famille. ➜ ✅ La subsistance de la famille.",
+    "synonyms": [
+      "survie",
+      "entretien"
+    ],
+    "antonyms": [
+      "famine"
+    ]
+  },
+  "agression": {
+    "word_type": "noun",
+    "prepositions": [
+      "contre"
+    ],
+    "pattern": "nom + contre + [personne / pays]",
+    "level": "B2",
+    "definition": "Attaque brutale et non provoquée contre une personne.",
+    "grammar_rule": "S'aligne sur la locution verbale « s'en prendre à ». Exige la préposition « contre ».",
+    "related_forms": "⚡ Nom : 'une agression CONTRE la victime' ➜ Verbe apparenté : 's'en prendre'",
+    "examples": [
+      "La police enquête sur cette agression contre un commerçant.",
+      "C'est une agression verbale inacceptable."
+    ],
+    "common_mistake": "❌ Une agression à le voisin. ➜ ✅ Une agression contre le voisin.",
+    "synonyms": [
+      "attaque",
+      "assaut"
+    ],
+    "antonyms": [
+      "défense",
+      "protection"
+    ]
+  },
+  "privation": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [droit / liberté]",
+    "level": "B2",
+    "definition": "Fait d'être dépossédé d'un bien, d'un droit ou d'une liberté.",
+    "grammar_rule": "S'aligne sur le verbe pronominal « se passer » (de). Exige la préposition « de ».",
+    "related_forms": "⚡ Nom : 'la privation DE liberté' ➜ Verbe apparenté : 'se passer'",
+    "examples": [
+      "La prison implique la privation de liberté.",
+      "Cette privation de nourriture affaiblit l'organisme."
+    ],
+    "common_mistake": "❌ La privation à la parole. ➜ ✅ La privation de parole.",
+    "synonyms": [
+      "perte",
+      "manque"
+    ],
+    "antonyms": [
+      "jouissance",
+      "possession"
+    ]
+  },
+  "charge": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [travail / preuve]",
+    "level": "B2",
+    "definition": "Poids, devoir ou responsabilité imposée à quelqu'un.",
+    "grammar_rule": "S'aligne sur le verbe « incomber ». Exige la préposition « de » (la charge du travail / la charge de la preuve).",
+    "related_forms": "⚡ Nom : 'la charge DE la preuve' ➜ Verbe apparenté : 'incomber'",
+    "examples": [
+      "La charge de la preuve incombe à l'accusateur.",
+      "Il supporte une lourde charge de travail."
+    ],
+    "common_mistake": "❌ La charge pour le travail. ➜ ✅ La charge de travail.",
+    "synonyms": [
+      "poids",
+      "responsabilité"
+    ],
+    "antonyms": [
+      "décharge",
+      "allègement"
+    ]
+  },
+  "adonnance": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "nom + à + [passion / étude]",
+    "level": "B2",
+    "definition": "Fait de se consacrer intensément à une activité.",
+    "grammar_rule": "S'aligne sur le verbe pronominal « s'adonner » (à). Exige la préposition « à ».",
+    "related_forms": "⚡ Nom : 'l'adonnance À la lecture' ➜ Verbe apparenté : 's'adonner'",
+    "examples": [
+      "Son adonnance à l'étude de la philosophie est remarquable.",
+      "L'adonnance au jeu comporte des risques."
+    ],
+    "common_mistake": "❌ Son adonnance de la peinture. ➜ ✅ Son adonnance à la peinture.",
+    "synonyms": [
+      "dévouement",
+      "passion"
+    ],
+    "antonyms": [
+      "délaissement"
+    ]
+  },
+  "offense": {
+    "word_type": "noun",
+    "prepositions": [
+      "à"
+    ],
+    "pattern": "nom + à + [règle / personne / pudeur]",
+    "level": "B2",
+    "definition": "Parole ou acte qui blesse l'honneur ou la dignité.",
+    "grammar_rule": "S'aligne sur le verbe pronominal « s'offenser » (de). Exige la préposition « à » pour désigner l'entité blessée (offense à la loi).",
+    "related_forms": "⚡ Nom : 'une offense À la dignité' ➜ Verbe apparenté : 's'offenser'",
+    "examples": [
+      "Ces propos constituent une offense à la vérité.",
+      "Il s'est excusé pour cette offense à la pudeur."
+    ],
+    "common_mistake": "❌ Une offense de le roi (si victime). ➜ ✅ Une offense au roi.",
+    "synonyms": [
+      "injure",
+      "insulte"
+    ],
+    "antonyms": [
+      "hommage",
+      "éloge"
+    ]
+  },
+  "surmontement": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [obstacle / épreuve]",
+    "level": "B2",
+    "definition": "Action de vaincre une difficulté ou une épreuve.",
+    "grammar_rule": "S'aligne sur le verbe apparenté « surmonter » (COD direct sans préposition). Exige « de » pour la difficulté vaincue.",
+    "related_forms": "⚡ Nom : 'le surmontement DE la peur' ➜ Verbe apparenté : 'surmonter'",
+    "examples": [
+      "Le surmontement de cette épreuve renforce le caractère.",
+      "Son surmontement des difficultés suscite l'admiration."
+    ],
+    "common_mistake": "❌ Le surmontement à l'obstacle. ➜ ✅ Le surmontement de l'obstacle.",
+    "synonyms": [
+      "victoire",
+      "dépassement"
+    ],
+    "antonyms": [
+      "échec"
+    ]
+  },
+  "enquête": {
+    "word_type": "noun",
+    "prepositions": [
+      "sur"
+    ],
+    "pattern": "nom + sur + [crime / affaire]",
+    "level": "B2",
+    "definition": "Ensemble de recherches menées pour faire la lumière sur un fait.",
+    "grammar_rule": "S'aligne sur le verbe pronominal « s'enquérir » (de). Exige la préposition « sur » pour l'affaire étudiée.",
+    "related_forms": "⚡ Nom : 'l'enquête SUR l'accident' ➜ Verbe apparenté : 's'enquérir'",
+    "examples": [
+      "La police mène une enquête sur ce vol à main armée.",
+      "L'enquête sur les causes du sinistre avance."
+    ],
+    "common_mistake": "❌ Une enquête de l'accident (mieux : sur). ➜ ✅ Une enquête sur l'accident.",
+    "synonyms": [
+      "investigation",
+      "recherche"
+    ],
+    "antonyms": [
+      "inattention"
+    ]
+  },
+  "vérité": {
+    "word_type": "noun",
+    "prepositions": [
+      "sur"
+    ],
+    "pattern": "nom + sur + [affaire / fait]",
+    "level": "B2",
+    "definition": "Caractère de ce qui est conforme à la réalité.",
+    "grammar_rule": "Exige la préposition « sur » pour désigner le sujet éclairé (la vérité sur l'affaire).",
+    "related_forms": "⚡ Nom : 'la vérité SUR ce drame' ➜ Verbe apparenté : 'voir'",
+    "examples": [
+      "Les familles exigent la vérité sur ce drame.",
+      "Elle veut connaître toute la vérité sur son passé."
+    ],
+    "common_mistake": "❌ La vérité de cette histoire (pour le sujet). ➜ ✅ La vérité sur cette histoire.",
+    "synonyms": [
+      "réalité",
+      "exactitude"
+    ],
+    "antonyms": [
+      "mensonge",
+      "erreur"
+    ]
+  },
+  "passion": {
+    "word_type": "noun",
+    "prepositions": [
+      "pour"
+    ],
+    "pattern": "nom + pour + [activité / sujet]",
+    "level": "B1",
+    "definition": "Intérêt exclusif, vif et enthousiaste pour un domaine ou une personne.",
+    "grammar_rule": "Exige la préposition « pour » (une passion pour la musique). S'aligne sur « aimer » / « adorer ».",
+    "related_forms": "⚡ Nom : 'une passion POUR le théâtre' ➜ Verbe apparenté : 'adorer'",
+    "examples": [
+      "Sa passion pour le théâtre l'a poussé à monter sur scène.",
+      "Il cultive une grande passion pour la cuisine française."
+    ],
+    "common_mistake": "❌ Une passion à la musique. ➜ ✅ Une passion pour la musique.",
+    "synonyms": [
+      "enthousiasme",
+      "amour"
+    ],
+    "antonyms": [
+      "dégoût",
+      "indifférence"
+    ]
+  },
+  "fierté": {
+    "word_type": "noun",
+    "prepositions": [
+      "de"
+    ],
+    "pattern": "nom + de + [réussite / personne]",
+    "level": "B1",
+    "definition": "Sentiment d'amour-propre ou de satisfaction éprouvé pour une réussite.",
+    "grammar_rule": "Exige la préposition « de » devant la cause ou la personne (la fierté de ses enfants / contractions du/des).",
+    "related_forms": "⚡ Nom : 'la fierté DU père' ➜ Verbe apparenté : 'se féliciter'",
+    "examples": [
+      "Ses parents éprouvent une grande fierté de ses résultats.",
+      "Sa fierté de réussir l'encourage dans ses efforts."
+    ],
+    "common_mistake": "❌ La fierté pour réussir. ➜ ✅ La fierté de réussir.",
+    "synonyms": [
+      "orgueil",
+      "satisfaction"
+    ],
+    "antonyms": [
+      "honte",
+      "humilité"
     ]
   }
 }
