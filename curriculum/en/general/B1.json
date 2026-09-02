@@ -37,7 +37,12 @@
           ],
           "speaking_percent": 50,
           "teacher_notes": "code: \"EN-B1-001\"\npronunciation: [{\"point\":\"Weak forms of auxiliary verbs\",\"explain\":\"Mastering weak forms of have/has/been in natural connected continuous tenses.\",\"examples\":[{\"pattern\":\"have been working\",\"ipa\":\"/həv bɪn ˈwɜː.kɪŋ/\",\"word\":\"been\"}],\"visual\":\"🎵\"}]\ncando: \"Can discuss personality nuances, character growth, and emotional state using present perfect continuous\"",
-          "recycled": "Foundational communication & basic level vocabulary"
+          "recycled": "Foundational communication & basic level vocabulary",
+          "word_ids": [
+            "en_advanced_emotions_adjective_resilient",
+            "en_upper_intermediate_critical_thinking_024"
+          ],
+          "theme": "adjectives"
         },
         {
           "lesson": 2,
@@ -68,7 +73,15 @@
           ],
           "speaking_percent": 50,
           "teacher_notes": "code: \"EN-B1-002\"\ncando: \"Can speculate about present situations and past behavior with varying degrees of certainty\"",
-          "recycled": "Present Perfect Simple for completed achievements and life results, State verbs vs action verbs in continuous tenses, Cope with"
+          "recycled": "Present Perfect Simple for completed achievements and life results, State verbs vs action verbs in continuous tenses, Cope with",
+          "word_ids": [
+            "en_upper_intermediate_critical_thinking_021",
+            "en_elementary_describing_026",
+            "en_upper_intermediate_describing_019",
+            "en_upper_intermediate_critical_thinking_013",
+            "en_advanced_language_adjective_plausible"
+          ],
+          "theme": "vocabulary"
         }
       ]
     },
@@ -106,7 +119,13 @@
           ],
           "speaking_percent": 50,
           "teacher_notes": "code: \"EN-B1-003\"\ncando: \"Can narrate detailed career progression and past professional milestones using past perfect forms\"",
-          "recycled": "Modals of present deduction (must be, can't be, might/could be), Modals of past deduction (must have been, can't have been, might have been), Interpret"
+          "recycled": "Modals of present deduction (must be, can't be, might/could be), Modals of past deduction (must have been, can't have been, might have been), Interpret",
+          "word_ids": [
+            "en_elementary_work_058",
+            "en_intermediate_work_065",
+            "en_elementary_job_apps_interviews_005"
+          ],
+          "theme": "vocabulary"
         },
         {
           "lesson": 2,
@@ -136,7 +155,11 @@
           ],
           "speaking_percent": 45,
           "teacher_notes": "code: \"EN-B1-004\"\ncando: \"Can describe delegated tasks, professional services, and quality control procedures\"",
-          "recycled": "Past Perfect Continuous for ongoing past duration prior to a past benchmark, Future in the Past (was going to, was due to, was about to), Work ethic"
+          "recycled": "Past Perfect Continuous for ongoing past duration prior to a past benchmark, Future in the Past (was going to, was due to, was about to), Work ethic",
+          "word_ids": [
+            "en_elementary_career_development_061"
+          ],
+          "theme": "verbs"
         }
       ]
     },
@@ -173,7 +196,13 @@
           ],
           "speaking_percent": 50,
           "teacher_notes": "code: \"EN-B1-005\"\ncando: \"Can analyze digital media trends, debate online privacy, and structure complex written arguments with connectors\"",
-          "recycled": "Have something done / Get something done for arranged professional services, Passive voice with modal verbs (must be completed, should be reviewed), Audit"
+          "recycled": "Have something done / Get something done for arranged professional services, Passive voice with modal verbs (must be completed, should be reviewed), Audit",
+          "word_ids": [
+            "en_intermediate_social_077",
+            "en_upper_intermediate_media_misinformation_002",
+            "en_upper_intermediate_technology_privacy_005"
+          ],
+          "theme": "vocabulary"
         },
         {
           "lesson": 2,
@@ -241,7 +270,16 @@
           ],
           "speaking_percent": 50,
           "teacher_notes": "code: \"EN-B1-007\"\ncando: \"Can evaluate environmental policies and hypothesize past and present climate outcomes using complex conditionals\"",
-          "recycled": "Embedded indirect questions (Do you happen to know whether... / I was wondering if you could clarify...), Polite register shifts in online customer service, Compliance"
+          "recycled": "Embedded indirect questions (Do you happen to know whether... / I was wondering if you could clarify...), Polite register shifts in online customer service, Compliance",
+          "word_ids": [
+            "en_elementary_environment_030",
+            "en_elementary_environment_025",
+            "en_elementary_environment_013",
+            "en_elementary_environment_012",
+            "en_elementary_environment_015",
+            "en_elementary_describing_018"
+          ],
+          "theme": "vocabulary"
         },
         {
           "lesson": 2,
@@ -272,7 +310,20 @@
           ],
           "speaking_percent": 55,
           "teacher_notes": "code: \"EN-B1-008\"\ncando: \"Can express environmental concerns, personal regrets, and policy desires using wish and if only\"",
-          "recycled": "Third conditional for past environmental decisions (If we had invested in solar...), Mixed conditional intro (If we had protected wetlands then, we would have less flooding now), Eco-friendly"
+          "recycled": "Third conditional for past environmental decisions (If we had invested in solar...), Mixed conditional intro (If we had protected wetlands then, we would have less flooding now), Eco-friendly",
+          "word_ids": [
+            "en_elementary_environment_020",
+            "en_upper_intermediate_politics_governance_012",
+            "en_advanced_work_verb_advocate"
+          ],
+          "theme": "vocabulary",
+          "grammar_refs": [
+            {
+              "layer": "morphology",
+              "category": "verbs",
+              "group_id": "past_simple"
+            }
+          ]
         }
       ]
     },
@@ -309,7 +360,15 @@
           ],
           "speaking_percent": 50,
           "teacher_notes": "code: \"EN-B1-009\"\ncando: \"Can discuss medical diagnoses, treatment options, and urgent health precautions\"",
-          "recycled": "Wish + Past Perfect for past regrets (If only we had acted sooner), Wish + Would for complaints about annoying habits, Urgency"
+          "recycled": "Wish + Past Perfect for past regrets (If only we had acted sooner), Wish + Would for complaints about annoying habits, Urgency",
+          "word_ids": [
+            "en_intermediate_health_medicine_018",
+            "en_intermediate_healthcare_systems_001",
+            "en_elementary_health_medicine_003",
+            "en_intermediate_health_medicine_020",
+            "en_intermediate_health_medicine_015"
+          ],
+          "theme": "vocabulary"
         },
         {
           "lesson": 2,
@@ -339,7 +398,20 @@
           ],
           "speaking_percent": 50,
           "teacher_notes": "code: \"EN-B1-010\"\ncando: \"Can describe physical sensations, emotional states, and stress recovery strategies\"",
-          "recycled": "Had better / had better not for urgent warnings, Needn't / didn't need to / needn't have done for lack of obligation, Therapy"
+          "recycled": "Had better / had better not for urgent warnings, Needn't / didn't need to / needn't have done for lack of obligation, Therapy",
+          "word_ids": [
+            "en_intermediate_health_medicine_017",
+            "en_intermediate_health_medicine_024",
+            "en_intermediate_health_medicine_021"
+          ],
+          "theme": "vocabulary",
+          "grammar_refs": [
+            {
+              "layer": "morphology",
+              "category": "adjectives",
+              "group_id": "adjectives"
+            }
+          ]
         }
       ]
     },
@@ -376,7 +448,18 @@
           ],
           "speaking_percent": 50,
           "teacher_notes": "code: \"EN-B1-011\"\ncando: \"Can explain travel schedules, visa processing deadlines, and international travel logistics\"",
-          "recycled": "-ed vs -ing adjectives for feelings vs sources (exhausted vs exhausting), Verbs of the senses + adjective / + as if + clause (look, sound, feel, taste, smell), Sensation"
+          "recycled": "-ed vs -ing adjectives for feelings vs sources (exhausted vs exhausting), Verbs of the senses + adjective / + as if + clause (look, sound, feel, taste, smell), Sensation",
+          "word_ids": [
+            "en_elementary_travel_050"
+          ],
+          "theme": "vocabulary",
+          "grammar_refs": [
+            {
+              "layer": "morphology",
+              "category": "verbs",
+              "group_id": "will"
+            }
+          ]
         },
         {
           "lesson": 2,
@@ -407,7 +490,22 @@
           ],
           "speaking_percent": 50,
           "teacher_notes": "code: \"EN-B1-012\"\ncando: \"Can describe travel destinations, expatriate experiences, and logistics using non-defining relative clauses\"",
-          "recycled": "Future Continuous (will be doing) for actions in progress at a future time, Future Perfect Simple (will have done) for actions completed before a future deadline, Relocation"
+          "recycled": "Future Continuous (will be doing) for actions in progress at a future time, Future Perfect Simple (will have done) for actions completed before a future deadline, Relocation",
+          "word_ids": [
+            "en_elementary_travel_028",
+            "en_advanced_science_tech_society_c1_noun_infrastructure",
+            "en_starter_public_transport_001",
+            "en_elementary_travel_040",
+            "en_elementary_travel_031"
+          ],
+          "theme": "vocabulary",
+          "grammar_refs": [
+            {
+              "layer": "syntax",
+              "category": "clauses",
+              "group_id": "relative_clauses"
+            }
+          ]
         }
       ]
     },
@@ -444,7 +542,16 @@
           ],
           "speaking_percent": 50,
           "teacher_notes": "code: \"EN-B1-013\"\ncando: \"Can evaluate financial products, compare interest rates, and discuss budgeting strategies\"",
-          "recycled": "Non-defining relative clauses with commas for supplementary detail, Possessive relative pronoun whose for people and organizations, Travel insurance"
+          "recycled": "Non-defining relative clauses with commas for supplementary detail, Possessive relative pronoun whose for people and organizations, Travel insurance",
+          "word_ids": [
+            "en_elementary_numbers_017",
+            "en_elementary_numbers_022",
+            "en_elementary_numbers_018",
+            "en_upper_intermediate_economy_labour_market_017",
+            "en_elementary_numbers_038",
+            "en_intermediate_work_087"
+          ],
+          "theme": "vocabulary"
         },
         {
           "lesson": 2,
@@ -474,7 +581,12 @@
           ],
           "speaking_percent": 50,
           "teacher_notes": "code: \"EN-B1-014\"\ncando: \"Can report banking transactions, advise against financial scams, and file dispute claims\"",
-          "recycled": "Modifying comparatives (substantially higher, far more expensive, slightly lower), Double comparatives (the more you invest, the higher the return), Overdraft"
+          "recycled": "Modifying comparatives (substantially higher, far more expensive, slightly lower), Double comparatives (the more you invest, the higher the return), Overdraft",
+          "word_ids": [
+            "en_elementary_numbers_039",
+            "en_upper_intermediate_formal_debate_vocab_022"
+          ],
+          "theme": "vocabulary"
         }
       ]
     },
@@ -511,7 +623,20 @@
           ],
           "speaking_percent": 45,
           "teacher_notes": "code: \"EN-B1-015\"\ncando: \"Can present scientific breakthroughs and technological innovations using passive voice structures\"",
-          "recycled": "Reporting verbs with specific patterns (advise to, warn against -ing, suggest that), Reported questions with word order shift and if/whether, Liability"
+          "recycled": "Reporting verbs with specific patterns (advise to, warn against -ing, suggest that), Reported questions with word order shift and if/whether, Liability",
+          "word_ids": [
+            "en_elementary_technology_014",
+            "en_upper_intermediate_applied_sciences_engineering_002",
+            "en_elementary_nature_010"
+          ],
+          "theme": "vocabulary",
+          "grammar_refs": [
+            {
+              "layer": "morphology",
+              "category": "verbs",
+              "group_id": "will"
+            }
+          ]
         },
         {
           "lesson": 2,
@@ -541,7 +666,14 @@
           ],
           "speaking_percent": 50,
           "teacher_notes": "code: \"EN-B1-016\"\ncando: \"Can explain scientific methods and technological troubleshooting using phrasal verb patterns\"",
-          "recycled": "Passive voice across tenses (is being developed, has been discovered, will be launched), Passive with modal verbs (must be tested, can be implemented), Biotechnology"
+          "recycled": "Passive voice across tenses (is being developed, has been discovered, will be launched), Passive with modal verbs (must be tested, can be implemented), Biotechnology",
+          "word_ids": [
+            "en_elementary_career_development_080",
+            "en_advanced_language_verb_bring_about",
+            "en_upper_intermediate_persuasion_rhetoric_005",
+            "en_intermediate_work_058"
+          ],
+          "theme": "verbs"
         }
       ]
     },
@@ -578,7 +710,14 @@
           ],
           "speaking_percent": 50,
           "teacher_notes": "code: \"EN-B1-017\"\ncando: \"Can critique cultural exhibitions and express aesthetic judgments using cleft sentences for emphasis\"",
-          "recycled": "Separable vs non-separable phrasal verbs (carry out research, set up a system), Three-part phrasal verbs (come up with, look forward to), Take over"
+          "recycled": "Separable vs non-separable phrasal verbs (carry out research, set up a system), Three-part phrasal verbs (come up with, look forward to), Take over",
+          "word_ids": [
+            "en_elementary_art_culture_007",
+            "en_elementary_describing_026",
+            "en_upper_intermediate_critical_thinking_013",
+            "en_elementary_art_culture_002"
+          ],
+          "theme": "vocabulary"
         },
         {
           "lesson": 2,
@@ -607,7 +746,11 @@
           ],
           "speaking_percent": 65,
           "teacher_notes": "code: \"EN-B1-018\"\ncando: \"Can manage conversational floor, express artistic opinions, and check agreement in discussions\"",
-          "recycled": "It-clefts for focus (It is the artistic expression that captivates...), Wh-clefts for emphasis (What I appreciate most about the exhibition is...), Sculpture"
+          "recycled": "It-clefts for focus (It is the artistic expression that captivates...), Wh-clefts for emphasis (What I appreciate most about the exhibition is...), Sculpture",
+          "word_ids": [
+            "en_upper_intermediate_critical_thinking_022"
+          ],
+          "theme": "vocabulary"
         }
       ]
     },
@@ -644,7 +787,12 @@
           ],
           "speaking_percent": 50,
           "teacher_notes": "code: \"EN-B1-019\"\ncando: \"Can evaluate ethical dilemmas, justify difficult decisions, and debate moral trade-offs\"",
-          "recycled": "Advanced question tags for checking assumptions and encouraging floor participation, Interrupting politely and clarifying points, Impression"
+          "recycled": "Advanced question tags for checking assumptions and encouraging floor participation, Interrupting politely and clarifying points, Impression",
+          "word_ids": [
+            "en_elementary_describing_047",
+            "en_upper_intermediate_identity_self_concept_007"
+          ],
+          "theme": "vocabulary"
         },
         {
           "lesson": 2,
