@@ -30,7 +30,39 @@
                 "vocabulary": { "type": "array", "items": { "type": "string" } },
                 "practice_types": { "type": "array", "items": { "type": "string" } },
                 "speaking_percent": { "type": "integer" },
-                "teacher_notes": { "type": "string" }
+                "teacher_notes": { "type": "string" },
+                "theme": { "type": "string" },
+                "word_ids": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                },
+                "grammar_refs": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["layer", "category", "group_id"],
+                    "properties": {
+                      "layer": { "type": "string" },
+                      "category": { "type": "string" },
+                      "group_id": { "type": "string" }
+                    }
+                  }
+                },
+                "cando": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                },
+                "bridges_to": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["course_type", "note"],
+                    "properties": {
+                      "course_type": { "type": "string" },
+                      "note": { "type": "string" }
+                    }
+                  }
+                }
               }
             }
           }
