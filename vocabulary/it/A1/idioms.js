@@ -2127,13 +2127,13 @@
   },
   {
     "id": "it_starter_idioms_119",
-    "word": "mai",
+    "word": "mai dire mai",
     "form": "idiom",
     "definitions": [
       {
-        "text": "In nessun momento o occasione.",
+        "text": "Non bisogna mai escludere alcuna possibilità per il futuro.",
         "examples": [
-          "Non è mai in ritardo agli appuntamenti."
+          "В жизнь può succedere di tutto, mai dire mai."
         ]
       }
     ],

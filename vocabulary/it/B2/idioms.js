@@ -1731,13 +1731,13 @@
   },
   {
     "id": "it_upper_intermediate_idioms_097",
-    "word": "avere",
+    "word": "avere un asso nella manica",
     "form": "idiom",
     "definitions": [
       {
-        "text": "Conservare una risorsa decisiva da sfoderare al momento opportuno.",
+        "text": "Conservare una mossa decisiva e segreta per il momento giusto.",
         "examples": [
-          "Nelle negoziazioni l'avvocato ha un asso nella manica."
+          "Nelle negoziazioni il manager ha sempre un asso nella manica."
         ]
       }
     ],

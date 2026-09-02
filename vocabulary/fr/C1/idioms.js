@@ -2277,7 +2277,7 @@
       {
         "text": "Regretter amèrement une décision néfaste.",
         "examples": [
-          "Il s'en mordre les doigts à belles dents d'avoir vendu trop tôt."
+          "Il s'en mord les doigts à belles dents d'avoir vendu trop tôt."
         ]
       }
     ],
@@ -2469,13 +2469,13 @@
   },
   {
     "id": "fr_advanced_idioms_138",
-    "word": "monter aux créneaux de la",
+    "word": "monter aux créneaux",
     "form": "idiom",
     "definitions": [
       {
-        "text": "S'engager avec fermeté dans un débat public.",
+        "text": "Intervenir énergiquement pour défendre une cause.",
         "examples": [
-          "Le député est monté aux créneaux de la politique."
+          "Le ministre est monté aux créneaux pour défendre le projet."
         ]
       }
     ],

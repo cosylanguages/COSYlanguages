@@ -459,7 +459,7 @@
       {
         "text": "Acquérir une immense expérience au fil des ans.",
         "examples": [
-          "Ce vieux général a blanchir sous le harnais lors de nombreuses campagnes."
+          "Ce vieux général a blanchi sous le harnais lors de nombreuses campagnes."
         ]
       }
     ],

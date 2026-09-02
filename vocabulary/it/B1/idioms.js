@@ -1425,13 +1425,13 @@
   },
   {
     "id": "it_intermediate_idioms_080",
-    "word": "avere la strada",
+    "word": "avere la strada spianata",
     "form": "idiom",
     "definitions": [
       {
-        "text": "Trovare condizioni favorevoli alla carriera.",
+        "text": "Avere tutte le condizioni favorevoli per ottenere un successo.",
         "examples": [
-          "Con i suoi titoli accademici ha la strada aperta."
+          "Con la sua ottima preparazione ha la strada spianata."
         ]
       }
     ],

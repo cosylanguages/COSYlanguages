@@ -1011,24 +1011,6 @@
   },
   {
     "id": "it_advanced_idioms_057",
-    "word": "avere un asso nella manica",
-    "form": "idiom",
-    "definitions": [
-      {
-        "text": "Tenere in serbo una mossa vincente per il momento decisivo.",
-        "examples": [
-          "Nello scontro verbale l'oratore aveva un asso nella manica per il finale."
-        ]
-      }
-    ],
-    "subtext": "espressione idiomatica",
-    "lang": "it",
-    "level": "advanced",
-    "theme": "idioms",
-    "sub_theme": "trump"
-  },
-  {
-    "id": "it_advanced_idioms_058",
     "word": "mantenere il punto",
     "form": "idiom",
     "definitions": [
@@ -1046,7 +1028,7 @@
     "sub_theme": "firmness"
   },
   {
-    "id": "it_advanced_idioms_059",
+    "id": "it_advanced_idioms_058",
     "word": "prendere la luna nel pozzo",
     "form": "idiom",
     "definitions": [
@@ -1064,7 +1046,7 @@
     "sub_theme": "unrealism"
   },
   {
-    "id": "it_advanced_idioms_060",
+    "id": "it_advanced_idioms_059",
     "word": "spostare l'asse del dibattito",
     "form": "idiom",
     "definitions": [
@@ -1082,7 +1064,7 @@
     "sub_theme": "shift"
   },
   {
-    "id": "it_advanced_idioms_061",
+    "id": "it_advanced_idioms_060",
     "word": "mettere sul piatto della bilancia",
     "form": "idiom",
     "definitions": [
@@ -1100,7 +1082,7 @@
     "sub_theme": "weight"
   },
   {
-    "id": "it_advanced_idioms_062",
+    "id": "it_advanced_idioms_061",
     "word": "passare la palla al successore",
     "form": "idiom",
     "definitions": [
@@ -1118,7 +1100,7 @@
     "sub_theme": "delegation"
   },
   {
-    "id": "it_advanced_idioms_063",
+    "id": "it_advanced_idioms_062",
     "word": "rompere gli indugi",
     "form": "idiom",
     "definitions": [
@@ -1136,7 +1118,7 @@
     "sub_theme": "action"
   },
   {
-    "id": "it_advanced_idioms_064",
+    "id": "it_advanced_idioms_063",
     "word": "essere in rotta di collisione",
     "form": "idiom",
     "definitions": [
@@ -1154,7 +1136,7 @@
     "sub_theme": "conflict"
   },
   {
-    "id": "it_advanced_idioms_065",
+    "id": "it_advanced_idioms_064",
     "word": "stendere un velo pietoso su",
     "form": "idiom",
     "definitions": [
@@ -1172,7 +1154,7 @@
     "sub_theme": "discretion"
   },
   {
-    "id": "it_advanced_idioms_066",
+    "id": "it_advanced_idioms_065",
     "word": "mettere a tacere le maldicenze",
     "form": "idiom",
     "definitions": [
@@ -1190,7 +1172,7 @@
     "sub_theme": "refutation"
   },
   {
-    "id": "it_advanced_idioms_067",
+    "id": "it_advanced_idioms_066",
     "word": "avere il vento in poppa nel mercato",
     "form": "idiom",
     "definitions": [
@@ -1208,7 +1190,7 @@
     "sub_theme": "flourishing"
   },
   {
-    "id": "it_advanced_idioms_068",
+    "id": "it_advanced_idioms_067",
     "word": "lasciare il segno nella storia",
     "form": "idiom",
     "definitions": [
@@ -1226,7 +1208,7 @@
     "sub_theme": "legacy"
   },
   {
-    "id": "it_advanced_idioms_069",
+    "id": "it_advanced_idioms_068",
     "word": "fare scuola nel settore",
     "form": "idiom",
     "definitions": [
@@ -1244,7 +1226,7 @@
     "sub_theme": "influence"
   },
   {
-    "id": "it_advanced_idioms_070",
+    "id": "it_advanced_idioms_069",
     "word": "mettere la testa nel sacco",
     "form": "idiom",
     "definitions": [
@@ -1262,7 +1244,7 @@
     "sub_theme": "gullibility"
   },
   {
-    "id": "it_advanced_idioms_071",
+    "id": "it_advanced_idioms_070",
     "word": "tirare la carretta",
     "form": "idiom",
     "definitions": [
@@ -1280,7 +1262,7 @@
     "sub_theme": "drudgery"
   },
   {
-    "id": "it_advanced_idioms_072",
+    "id": "it_advanced_idioms_071",
     "word": "mantenere un profilo basso",
     "form": "idiom",
     "definitions": [
@@ -1298,7 +1280,7 @@
     "sub_theme": "discretion"
   },
   {
-    "id": "it_advanced_idioms_073",
+    "id": "it_advanced_idioms_072",
     "word": "arrampicarsi sui vetri",
     "form": "idiom",
     "definitions": [
@@ -1316,7 +1298,7 @@
     "sub_theme": "desperation"
   },
   {
-    "id": "it_advanced_idioms_074",
+    "id": "it_advanced_idioms_073",
     "word": "essere un libro stampato",
     "form": "idiom",
     "definitions": [
@@ -1334,7 +1316,7 @@
     "sub_theme": "fluency"
   },
   {
-    "id": "it_advanced_idioms_075",
+    "id": "it_advanced_idioms_074",
     "word": "mettere la parola fine",
     "form": "idiom",
     "definitions": [
@@ -1352,7 +1334,7 @@
     "sub_theme": "resolution"
   },
   {
-    "id": "it_advanced_idioms_076",
+    "id": "it_advanced_idioms_075",
     "word": "prendere la parabola ascendente",
     "form": "idiom",
     "definitions": [
@@ -1370,7 +1352,7 @@
     "sub_theme": "rise"
   },
   {
-    "id": "it_advanced_idioms_077",
+    "id": "it_advanced_idioms_076",
     "word": "avere il fiato sul collo",
     "form": "idiom",
     "definitions": [
@@ -1388,7 +1370,7 @@
     "sub_theme": "pressure"
   },
   {
-    "id": "it_advanced_idioms_078",
+    "id": "it_advanced_idioms_077",
     "word": "fare tabula rasa",
     "form": "idiom",
     "definitions": [
@@ -1406,7 +1388,7 @@
     "sub_theme": "confutation"
   },
   {
-    "id": "it_advanced_idioms_079",
+    "id": "it_advanced_idioms_078",
     "word": "mettere l'accento",
     "form": "idiom",
     "definitions": [
@@ -1424,7 +1406,7 @@
     "sub_theme": "emphasis"
   },
   {
-    "id": "it_advanced_idioms_080",
+    "id": "it_advanced_idioms_079",
     "word": "prendere una cantonnata",
     "form": "idiom",
     "definitions": [
@@ -1442,7 +1424,7 @@
     "sub_theme": "blunder"
   },
   {
-    "id": "it_advanced_idioms_081",
+    "id": "it_advanced_idioms_080",
     "word": "sputare sentenza senza sapere",
     "form": "idiom",
     "definitions": [
@@ -1460,7 +1442,7 @@
     "sub_theme": "dogmatism"
   },
   {
-    "id": "it_advanced_idioms_082",
+    "id": "it_advanced_idioms_081",
     "word": "avere un animo nobile",
     "form": "idiom",
     "definitions": [
@@ -1478,7 +1460,7 @@
     "sub_theme": "nobility"
   },
   {
-    "id": "it_advanced_idioms_083",
+    "id": "it_advanced_idioms_082",
     "word": "battere i pugno sul tavolo",
     "form": "idiom",
     "definitions": [
@@ -1496,7 +1478,7 @@
     "sub_theme": "assertiveness"
   },
   {
-    "id": "it_advanced_idioms_084",
+    "id": "it_advanced_idioms_083",
     "word": "chiudere le porte in faccia a qualcuno",
     "form": "idiom",
     "definitions": [
@@ -1514,7 +1496,7 @@
     "sub_theme": "rejection"
   },
   {
-    "id": "it_advanced_idioms_085",
+    "id": "it_advanced_idioms_084",
     "word": "dare fondo alle proprie riserve",
     "form": "idiom",
     "definitions": [
@@ -1532,7 +1514,7 @@
     "sub_theme": "resilience"
   },
   {
-    "id": "it_advanced_idioms_086",
+    "id": "it_advanced_idioms_085",
     "word": "fare man bassa delle risorse",
     "form": "idiom",
     "definitions": [
@@ -1550,7 +1532,7 @@
     "sub_theme": "looting"
   },
   {
-    "id": "it_advanced_idioms_087",
+    "id": "it_advanced_idioms_086",
     "word": "gettare alle ortiche",
     "form": "idiom",
     "definitions": [
@@ -1568,7 +1550,7 @@
     "sub_theme": "folly"
   },
   {
-    "id": "it_advanced_idioms_088",
+    "id": "it_advanced_idioms_087",
     "word": "lasciare campo aperto",
     "form": "idiom",
     "definitions": [
@@ -1586,7 +1568,7 @@
     "sub_theme": "laissez-faire"
   },
   {
-    "id": "it_advanced_idioms_089",
+    "id": "it_advanced_idioms_088",
     "word": "mettere la mossa vincente",
     "form": "idiom",
     "definitions": [
@@ -1604,7 +1586,7 @@
     "sub_theme": "victory"
   },
   {
-    "id": "it_advanced_idioms_090",
+    "id": "it_advanced_idioms_089",
     "word": "perdere la bussola",
     "form": "idiom",
     "definitions": [
@@ -1622,7 +1604,7 @@
     "sub_theme": "disorientation"
   },
   {
-    "id": "it_advanced_idioms_091",
+    "id": "it_advanced_idioms_090",
     "word": "prendere le distanze dalle dichiarazioni",
     "form": "idiom",
     "definitions": [
@@ -1640,7 +1622,7 @@
     "sub_theme": "dissociation"
   },
   {
-    "id": "it_advanced_idioms_092",
+    "id": "it_advanced_idioms_091",
     "word": "rompere il silenzio",
     "form": "idiom",
     "definitions": [
@@ -1658,7 +1640,7 @@
     "sub_theme": "whistleblowing"
   },
   {
-    "id": "it_advanced_idioms_093",
+    "id": "it_advanced_idioms_092",
     "word": "stare sulla cresta dell'onda",
     "form": "idiom",
     "definitions": [
@@ -1676,7 +1658,7 @@
     "sub_theme": "fame"
   },
   {
-    "id": "it_advanced_idioms_094",
+    "id": "it_advanced_idioms_093",
     "word": "tirare fuori le unghie",
     "form": "idiom",
     "definitions": [
@@ -1694,7 +1676,7 @@
     "sub_theme": "fierce"
   },
   {
-    "id": "it_advanced_idioms_095",
+    "id": "it_advanced_idioms_094",
     "word": "trovare terreno fertile",
     "form": "idiom",
     "definitions": [
@@ -1712,7 +1694,7 @@
     "sub_theme": "receptivity"
   },
   {
-    "id": "it_advanced_idioms_096",
+    "id": "it_advanced_idioms_095",
     "word": "uscire indenne",
     "form": "idiom",
     "definitions": [
@@ -1730,7 +1712,7 @@
     "sub_theme": "survival"
   },
   {
-    "id": "it_advanced_idioms_097",
+    "id": "it_advanced_idioms_096",
     "word": "volgere a proprio favore",
     "form": "idiom",
     "definitions": [
@@ -1748,7 +1730,7 @@
     "sub_theme": "resourcefulness"
   },
   {
-    "id": "it_advanced_idioms_098",
+    "id": "it_advanced_idioms_097",
     "word": "avere il coltello tra i denti",
     "form": "idiom",
     "definitions": [
@@ -1766,7 +1748,7 @@
     "sub_theme": "aggressiveness"
   },
   {
-    "id": "it_advanced_idioms_099",
+    "id": "it_advanced_idioms_098",
     "word": "battere la grancassa promozionale",
     "form": "idiom",
     "definitions": [
@@ -1784,7 +1766,7 @@
     "sub_theme": "hype"
   },
   {
-    "id": "it_advanced_idioms_100",
+    "id": "it_advanced_idioms_099",
     "word": "chiudere il cerchio",
     "form": "idiom",
     "definitions": [
@@ -1802,7 +1784,7 @@
     "sub_theme": "completion"
   },
   {
-    "id": "it_advanced_idioms_101",
+    "id": "it_advanced_idioms_100",
     "word": "dare lustro",
     "form": "idiom",
     "definitions": [
@@ -1820,7 +1802,7 @@
     "sub_theme": "glory"
   },
   {
-    "id": "it_advanced_idioms_102",
+    "id": "it_advanced_idioms_101",
     "word": "fare di necessità virtù",
     "form": "idiom",
     "definitions": [
@@ -1838,7 +1820,7 @@
     "sub_theme": "adaptability"
   },
   {
-    "id": "it_advanced_idioms_103",
+    "id": "it_advanced_idioms_102",
     "word": "gettare la maschera",
     "form": "idiom",
     "definitions": [
@@ -1856,7 +1838,7 @@
     "sub_theme": "unmasking"
   },
   {
-    "id": "it_advanced_idioms_104",
+    "id": "it_advanced_idioms_103",
     "word": "lasciare in eredità un patrimonio",
     "form": "idiom",
     "definitions": [
@@ -1874,7 +1856,7 @@
     "sub_theme": "legacy"
   },
   {
-    "id": "it_advanced_idioms_105",
+    "id": "it_advanced_idioms_104",
     "word": "mettere i punti esclamativi",
     "form": "idiom",
     "definitions": [
@@ -1892,7 +1874,7 @@
     "sub_theme": "emphasis"
   },
   {
-    "id": "it_advanced_idioms_106",
+    "id": "it_advanced_idioms_105",
     "word": "perdere terreno",
     "form": "idiom",
     "definitions": [
@@ -1910,7 +1892,7 @@
     "sub_theme": "decline"
   },
   {
-    "id": "it_advanced_idioms_107",
+    "id": "it_advanced_idioms_106",
     "word": "prendere d'assalto la fortezza",
     "form": "idiom",
     "definitions": [
@@ -1928,7 +1910,7 @@
     "sub_theme": "assault"
   },
   {
-    "id": "it_advanced_idioms_108",
+    "id": "it_advanced_idioms_107",
     "word": "rompere il monopolio",
     "form": "idiom",
     "definitions": [
@@ -1946,7 +1928,7 @@
     "sub_theme": "competition"
   },
   {
-    "id": "it_advanced_idioms_109",
+    "id": "it_advanced_idioms_108",
     "word": "stare in cima alla graduatoria",
     "form": "idiom",
     "definitions": [
@@ -1964,7 +1946,7 @@
     "sub_theme": "primacy"
   },
   {
-    "id": "it_advanced_idioms_110",
+    "id": "it_advanced_idioms_109",
     "word": "tirare le somme del bilancio",
     "form": "idiom",
     "definitions": [
@@ -1982,7 +1964,7 @@
     "sub_theme": "reckoning"
   },
   {
-    "id": "it_advanced_idioms_111",
+    "id": "it_advanced_idioms_110",
     "word": "trovare pane per i propri denti",
     "form": "idiom",
     "definitions": [
@@ -2000,7 +1982,7 @@
     "sub_theme": "match"
   },
   {
-    "id": "it_advanced_idioms_112",
+    "id": "it_advanced_idioms_111",
     "word": "uscire dai binari",
     "form": "idiom",
     "definitions": [
@@ -2018,7 +2000,7 @@
     "sub_theme": "transgression"
   },
   {
-    "id": "it_advanced_idioms_113",
+    "id": "it_advanced_idioms_112",
     "word": "volare con le proprie ali",
     "form": "idiom",
     "definitions": [
@@ -2036,7 +2018,7 @@
     "sub_theme": "independence"
   },
   {
-    "id": "it_advanced_idioms_114",
+    "id": "it_advanced_idioms_113",
     "word": "avere l'ardimento di sfidare",
     "form": "idiom",
     "definitions": [
@@ -2054,7 +2036,7 @@
     "sub_theme": "audacity"
   },
   {
-    "id": "it_advanced_idioms_115",
+    "id": "it_advanced_idioms_114",
     "word": "cadere in contraddizione",
     "form": "idiom",
     "definitions": [
@@ -2072,7 +2054,7 @@
     "sub_theme": "inconsistency"
   },
   {
-    "id": "it_advanced_idioms_116",
+    "id": "it_advanced_idioms_115",
     "word": "gettare scompiglio",
     "form": "idiom",
     "definitions": [
@@ -2090,7 +2072,7 @@
     "sub_theme": "disruption"
   },
   {
-    "id": "it_advanced_idioms_117",
+    "id": "it_advanced_idioms_116",
     "word": "lasciare la porta aperta",
     "form": "idiom",
     "definitions": [
@@ -2108,7 +2090,7 @@
     "sub_theme": "negotiation"
   },
   {
-    "id": "it_advanced_idioms_118",
+    "id": "it_advanced_idioms_117",
     "word": "mettere a nudo le debolezze",
     "form": "idiom",
     "definitions": [
@@ -2126,7 +2108,7 @@
     "sub_theme": "exposure"
   },
   {
-    "id": "it_advanced_idioms_119",
+    "id": "it_advanced_idioms_118",
     "word": "perdere il primato",
     "form": "idiom",
     "definitions": [
@@ -2144,7 +2126,7 @@
     "sub_theme": "loss"
   },
   {
-    "id": "it_advanced_idioms_120",
+    "id": "it_advanced_idioms_119",
     "word": "prendere una piega",
     "form": "idiom",
     "definitions": [
@@ -2162,7 +2144,7 @@
     "sub_theme": "twist"
   },
   {
-    "id": "it_advanced_idioms_121",
+    "id": "it_advanced_idioms_120",
     "word": "risorgere",
     "form": "idiom",
     "definitions": [
@@ -2180,7 +2162,7 @@
     "sub_theme": "rebirth"
   },
   {
-    "id": "it_advanced_idioms_122",
+    "id": "it_advanced_idioms_121",
     "word": "stare a guardare",
     "form": "idiom",
     "definitions": [
@@ -2198,7 +2180,7 @@
     "sub_theme": "passivity"
   },
   {
-    "id": "it_advanced_idioms_123",
+    "id": "it_advanced_idioms_122",
     "word": "tirare fuori il coniglio",
     "form": "idiom",
     "definitions": [
@@ -2216,7 +2198,7 @@
     "sub_theme": "surprise"
   },
   {
-    "id": "it_advanced_idioms_124",
+    "id": "it_advanced_idioms_123",
     "word": "trovare un punto d'incontro",
     "form": "idiom",
     "definitions": [
@@ -2234,7 +2216,7 @@
     "sub_theme": "compromise"
   },
   {
-    "id": "it_advanced_idioms_125",
+    "id": "it_advanced_idioms_124",
     "word": "uscire dal tunnel",
     "form": "idiom",
     "definitions": [
@@ -2252,7 +2234,7 @@
     "sub_theme": "recovery"
   },
   {
-    "id": "it_advanced_idioms_126",
+    "id": "it_advanced_idioms_125",
     "word": "volgere lo sguardo",
     "form": "idiom",
     "definitions": [
@@ -2270,7 +2252,7 @@
     "sub_theme": "future"
   },
   {
-    "id": "it_advanced_idioms_127",
+    "id": "it_advanced_idioms_126",
     "word": "avere l'intuito di un segugio",
     "form": "idiom",
     "definitions": [
@@ -2288,7 +2270,7 @@
     "sub_theme": "insight"
   },
   {
-    "id": "it_advanced_idioms_128",
+    "id": "it_advanced_idioms_127",
     "word": "cadere nella trappola",
     "form": "idiom",
     "definitions": [
@@ -2306,7 +2288,7 @@
     "sub_theme": "pride"
   },
   {
-    "id": "it_advanced_idioms_129",
+    "id": "it_advanced_idioms_128",
     "word": "dare prova",
     "form": "idiom",
     "definitions": [
@@ -2324,7 +2306,7 @@
     "sub_theme": "resolution"
   },
   {
-    "id": "it_advanced_idioms_130",
+    "id": "it_advanced_idioms_129",
     "word": "fare terra bruciata",
     "form": "idiom",
     "definitions": [
@@ -2342,7 +2324,7 @@
     "sub_theme": "isolation"
   },
   {
-    "id": "it_advanced_idioms_131",
+    "id": "it_advanced_idioms_130",
     "word": "avere la spada di Damocle",
     "form": "idiom",
     "definitions": [
@@ -2360,7 +2342,7 @@
     "sub_theme": "threat"
   },
   {
-    "id": "it_advanced_idioms_132",
+    "id": "it_advanced_idioms_131",
     "word": "sputare rospi",
     "form": "idiom",
     "definitions": [
@@ -2378,7 +2360,7 @@
     "sub_theme": "acrimony"
   },
   {
-    "id": "it_advanced_idioms_133",
+    "id": "it_advanced_idioms_132",
     "word": "avere la lingua tagliente",
     "form": "idiom",
     "definitions": [
@@ -2396,7 +2378,7 @@
     "sub_theme": "sarcasm"
   },
   {
-    "id": "it_advanced_idioms_134",
+    "id": "it_advanced_idioms_133",
     "word": "gettare l'amo",
     "form": "idiom",
     "definitions": [
@@ -2414,7 +2396,7 @@
     "sub_theme": "probing"
   },
   {
-    "id": "it_advanced_idioms_135",
+    "id": "it_advanced_idioms_134",
     "word": "lasciare sul campo la vita",
     "form": "idiom",
     "definitions": [
@@ -2432,7 +2414,7 @@
     "sub_theme": "sacrifice"
   },
   {
-    "id": "it_advanced_idioms_136",
+    "id": "it_advanced_idioms_135",
     "word": "prendere la strada di non ritorno",
     "form": "idiom",
     "definitions": [
@@ -2450,7 +2432,7 @@
     "sub_theme": "irreversibility"
   },
   {
-    "id": "it_advanced_idioms_137",
+    "id": "it_advanced_idioms_136",
     "word": "tirare le fila",
     "form": "idiom",
     "definitions": [
@@ -2468,7 +2450,7 @@
     "sub_theme": "manipulation"
   },
   {
-    "id": "it_advanced_idioms_138",
+    "id": "it_advanced_idioms_137",
     "word": "mettere al bando",
     "form": "idiom",
     "definitions": [
@@ -2486,7 +2468,7 @@
     "sub_theme": "ban"
   },
   {
-    "id": "it_advanced_idioms_139",
+    "id": "it_advanced_idioms_138",
     "word": "avere la meglio",
     "form": "idiom",
     "definitions": [
@@ -2504,7 +2486,7 @@
     "sub_theme": "triumph"
   },
   {
-    "id": "it_advanced_idioms_140",
+    "id": "it_advanced_idioms_139",
     "word": "toccare con mano",
     "form": "idiom",
     "definitions": [
@@ -2522,7 +2504,7 @@
     "sub_theme": "experience"
   },
   {
-    "id": "it_advanced_idioms_141",
+    "id": "it_advanced_idioms_140",
     "word": "fare le scarpe",
     "form": "idiom",
     "definitions": [
@@ -2540,7 +2522,7 @@
     "sub_theme": "treachery"
   },
   {
-    "id": "it_advanced_idioms_142",
+    "id": "it_advanced_idioms_141",
     "word": "prendere sotto la propria ala",
     "form": "idiom",
     "definitions": [
@@ -2558,7 +2540,7 @@
     "sub_theme": "mentorship"
   },
   {
-    "id": "it_advanced_idioms_143",
+    "id": "it_advanced_idioms_142",
     "word": "stendere un velo pietoso",
     "form": "idiom",
     "definitions": [
@@ -2576,7 +2558,7 @@
     "sub_theme": "discretion"
   },
   {
-    "id": "it_advanced_idioms_144",
+    "id": "it_advanced_idioms_143",
     "word": "mettere a tacere",
     "form": "idiom",
     "definitions": [
@@ -2594,7 +2576,7 @@
     "sub_theme": "refutation"
   },
   {
-    "id": "it_advanced_idioms_145",
+    "id": "it_advanced_idioms_144",
     "word": "lasciare il segno",
     "form": "idiom",
     "definitions": [
@@ -2612,7 +2594,7 @@
     "sub_theme": "legacy"
   },
   {
-    "id": "it_advanced_idioms_146",
+    "id": "it_advanced_idioms_145",
     "word": "fare scuola",
     "form": "idiom",
     "definitions": [
@@ -2630,7 +2612,7 @@
     "sub_theme": "influence"
   },
   {
-    "id": "it_advanced_idioms_147",
+    "id": "it_advanced_idioms_146",
     "word": "battere i pugni sul tavolo",
     "form": "idiom",
     "definitions": [
@@ -2648,7 +2630,7 @@
     "sub_theme": "assertiveness"
   },
   {
-    "id": "it_advanced_idioms_148",
+    "id": "it_advanced_idioms_147",
     "word": "chiudere le porte in faccia",
     "form": "idiom",
     "definitions": [
@@ -2666,7 +2648,7 @@
     "sub_theme": "rejection"
   },
   {
-    "id": "it_advanced_idioms_149",
+    "id": "it_advanced_idioms_148",
     "word": "volgere lo sguardo al futuro",
     "form": "idiom",
     "definitions": [
@@ -2684,7 +2666,7 @@
     "sub_theme": "future"
   },
   {
-    "id": "it_advanced_idioms_150",
+    "id": "it_advanced_idioms_149",
     "word": "risorgere dalle proprie ceneri",
     "form": "idiom",
     "definitions": [
@@ -2702,7 +2684,7 @@
     "sub_theme": "rebirth"
   },
   {
-    "id": "it_advanced_idioms_151",
+    "id": "it_advanced_idioms_150",
     "word": "andare a caccia di streghe",
     "form": "idiom",
     "definitions": [
@@ -2720,7 +2702,7 @@
     "sub_theme": "persecution"
   },
   {
-    "id": "it_advanced_idioms_152",
+    "id": "it_advanced_idioms_151",
     "word": "scaldare i motori",
     "form": "idiom",
     "definitions": [
@@ -2738,7 +2720,7 @@
     "sub_theme": "preparation"
   },
   {
-    "id": "it_advanced_idioms_153",
+    "id": "it_advanced_idioms_152",
     "word": "avere la vista corta",
     "form": "idiom",
     "definitions": [
@@ -2756,7 +2738,7 @@
     "sub_theme": "shortsightedness"
   },
   {
-    "id": "it_advanced_idioms_154",
+    "id": "it_advanced_idioms_153",
     "word": "fare un passo indietro",
     "form": "idiom",
     "definitions": [
@@ -2774,7 +2756,7 @@
     "sub_theme": "compromise"
   },
   {
-    "id": "it_advanced_idioms_155",
+    "id": "it_advanced_idioms_154",
     "word": "fare il bello e il cattivo tempo",
     "form": "idiom",
     "definitions": [
@@ -2792,7 +2774,7 @@
     "sub_theme": "power"
   },
   {
-    "id": "it_advanced_idioms_156",
+    "id": "it_advanced_idioms_155",
     "word": "farsi strada",
     "form": "idiom",
     "definitions": [
@@ -2810,7 +2792,7 @@
     "sub_theme": "success"
   },
   {
-    "id": "it_advanced_idioms_157",
+    "id": "it_advanced_idioms_156",
     "word": "avere stoffa",
     "form": "idiom",
     "definitions": [
@@ -2828,7 +2810,7 @@
     "sub_theme": "talent"
   },
   {
-    "id": "it_advanced_idioms_158",
+    "id": "it_advanced_idioms_157",
     "word": "fare colpo",
     "form": "idiom",
     "definitions": [
@@ -2846,7 +2828,7 @@
     "sub_theme": "impression"
   },
   {
-    "id": "it_advanced_idioms_159",
+    "id": "it_advanced_idioms_158",
     "word": "avere carte in regola",
     "form": "idiom",
     "definitions": [
@@ -2864,7 +2846,7 @@
     "sub_theme": "qualification"
   },
   {
-    "id": "it_advanced_idioms_160",
+    "id": "it_advanced_idioms_159",
     "word": "mettere ordine",
     "form": "idiom",
     "definitions": [
