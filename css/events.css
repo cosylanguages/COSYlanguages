@@ -118,7 +118,6 @@ html[data-theme="dark"], body.theme-dark {
 .auth-zone { max-width: 960px; margin: 0 auto; padding: 0 2rem 2rem; }
 .role-bar { border-radius: 24px; padding: .9rem 1.4rem; display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; font-size: .87rem; border: 1px solid var(--border); background: #F5F0E8; box-shadow: var(--shadow-sm); }
 .role-bar-msg { flex: 1; min-width: 180px; color: var(--muted); }
-.btn-unlock-trigger { background: var(--teal); color: white; border: none; border-radius: 8px; padding: .45rem 1.2rem; font-weight: 500; cursor: pointer; font-family: inherit; }
 
 /* ── CLUBS index page ── */
 .clubs-section { max-width: 960px; margin: 0 auto; padding: 0 2rem 5rem; }
@@ -2655,12 +2654,15 @@ body.theme-dark .session-jump-link.active {
   color: var(--sage-deep);
   margin-bottom: 0.5rem;
 }
-.btn-launch-gold { background: var(--gold); }
-.btn-launch-coral { background: var(--coral); }
-.btn-launch-plum { background: var(--plum); }
-.btn-launch-blue { background: var(--blue); }
-.btn-launch-teal { background: var(--teal); }
-.btn-launch-pink { background: #d53f8c; }
+.btn-launch {
+  background: var(--btn-accent-color, var(--teal));
+}
+.btn-launch[data-accent="gold"] { --btn-accent-color: var(--gold); }
+.btn-launch[data-accent="coral"] { --btn-accent-color: var(--coral); }
+.btn-launch[data-accent="plum"] { --btn-accent-color: var(--plum); }
+.btn-launch[data-accent="blue"] { --btn-accent-color: var(--blue); }
+.btn-launch[data-accent="teal"] { --btn-accent-color: var(--teal); }
+.btn-launch[data-accent="pink"] { --btn-accent-color: #d53f8c; }
 
 .club-sidebar-box {
   background: var(--warm-white);

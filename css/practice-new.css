@@ -354,7 +354,7 @@
   max-width: 650px;
   margin: 0 0 1.5rem 0;
 }
-.btn-primary-white {
+.btn-primary[data-variant="white"] {
   display: inline-block;
   background: var(--warm-white);
   color: var(--sage-deep);

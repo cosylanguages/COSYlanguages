@@ -172,11 +172,6 @@ main.content, .main {
 .t-spoken { background: #f59e0b; }
 .t-srev { background: #ec4899; }
 .t-exam { background: #1a1714; }
-.btn-primary-new {
-    background: var(--cosy-green-dark); color: #fff; border: none; padding: 12px 24px; border-radius: 12px;
-    font-weight: 800; cursor: pointer; font-family: inherit; transition: opacity 0.2s;
-}
-.btn-primary-new:hover { opacity: 0.9; }
 
 /* LD (Lesson Detail) Panel */
 #ld {
