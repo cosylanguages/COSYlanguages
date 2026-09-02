@@ -76,19 +76,6 @@
     /* ── Homepage Note variables ── */
     --group-note-bg:       #fff8e7;
 
-    /* ── Grammar Hub (Teal Theme) ──────────────────────── */
-    --gh-teal:     #00B5A3;
-    --gh-teal-dk:  #008F80;
-    --gh-teal-lt:  #00CFC0;
-    --gh-black:    #111111;
-    --gh-white:    #FFFFFF;
-    --gh-yellow:   #FFE135;
-    --gh-red:      #FF4136;
-    --gh-orange:   #FF6B1A;
-    --gh-green:    #2ECC40;
-    --gh-blue:     #0074D9;
-    --gh-cream:    #FFFDF5;
-
     /* ── Cosy Button System ────────────────────────────── */
     --btn-font-sans: var(--font-sans);
     --btn-primary-bg: var(--sage);
@@ -162,8 +149,8 @@
     --font-serif: 'Fraunces', 'Lora', serif;
 
     /* ── Legacy Support ────────────────────────────────── */
-    --are-col: var(--gh-blue);
-    --ere-col: var(--gh-orange);
+    --are-col: var(--blue, #3a5298);
+    --ere-col: var(--coral, #B84318);
     --ire-col: #9B59B6;
 }
 
