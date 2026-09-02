@@ -2,12 +2,12 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-SEL-01",
+        "id": "A1-NOUN-SEL-094",
         "word": "nationality",
-        "emoji": "🏳️",
+        "emoji": "\ud83c\udff3\ufe0f",
         "form": "noun",
         "plural": "nationalities",
-        "transcription": "ˌnæʃəˈnæləti",
+        "transcription": "\u02ccn\u00e6\u0283\u0259\u02c8n\u00e6l\u0259ti",
         "definitions": [
             {
                 "text": "The legal right of belonging to a particular nation.",

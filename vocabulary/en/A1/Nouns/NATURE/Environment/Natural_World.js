@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-NAT-01",
+        "id": "A1-NOUN-NAT-031",
         "word": "ice",
-        "emoji": "🧊",
+        "emoji": "\ud83e\uddca",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -20,7 +20,7 @@
                 ]
             }
         ],
-        "transcription": "aɪs",
+        "transcription": "a\u026as",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -33,9 +33,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-NOUN-NAT-02",
+        "id": "A1-NOUN-NAT-032",
         "word": "rain",
-        "emoji": "🌧️",
+        "emoji": "\ud83c\udf27\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -49,14 +49,14 @@
                 ]
             }
         ],
-        "transcription": "reɪn",
+        "transcription": "re\u026an",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "rigną"
+            "origin_word": "rign\u0105"
         },
         "legacy_id": "A1-NAT-21",
         "level_code": "A1",
@@ -66,9 +66,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-NOUN-NAT-03",
+        "id": "A1-NOUN-NAT-033",
         "word": "snow",
-        "emoji": "❄️",
+        "emoji": "\u2744\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -83,7 +83,7 @@
             }
         ],
         "subtext": "related to weather",
-        "transcription": "snoʊ",
+        "transcription": "sno\u028a",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -96,9 +96,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-NOUN-NAT-04",
+        "id": "A1-NOUN-NAT-034",
         "word": "sun",
-        "emoji": "☀️",
+        "emoji": "\u2600\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -112,14 +112,14 @@
                 ]
             }
         ],
-        "transcription": "sən",
+        "transcription": "s\u0259n",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "sunnō",
+            "origin_word": "sunn\u014d",
             "origin_meaning": "sun"
         },
         "legacy_id": "A1-NAT-34",
@@ -130,9 +130,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-NOUN-NAT-05",
+        "id": "A1-NOUN-NAT-035",
         "word": "temperature",
-        "emoji": "🌡️",
+        "emoji": "\ud83c\udf21\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -147,7 +147,7 @@
                 ]
             }
         ],
-        "transcription": "ˈtemprətʃə(r)",
+        "transcription": "\u02c8tempr\u0259t\u0283\u0259(r)",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -160,9 +160,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-NOUN-NAT-06",
+        "id": "A1-NOUN-NAT-036",
         "word": "umbrella",
-        "emoji": "☂️",
+        "emoji": "\u2602\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -171,12 +171,12 @@
             {
                 "text": "A folding frame covered in cloth used to protect you from rain.",
                 "examples": [
-                    "Take an umbrella — it is raining."
+                    "Take an umbrella \u2014 it is raining."
                 ]
             }
         ],
         "subtext": "related to weather",
-        "transcription": "ˈəmˌbrɛlə",
+        "transcription": "\u02c8\u0259m\u02ccbr\u025bl\u0259",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -189,9 +189,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-NOUN-NAT-07",
+        "id": "A1-NOUN-NAT-037",
         "word": "weather",
-        "emoji": "🌤️",
+        "emoji": "\ud83c\udf24\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -206,7 +206,7 @@
                 ]
             }
         ],
-        "transcription": "ˈweðə(r)",
+        "transcription": "\u02c8we\u00f0\u0259(r)",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -219,9 +219,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-NOUN-NAT-08",
+        "id": "A1-NOUN-NAT-038",
         "word": "wind",
-        "emoji": "💨",
+        "emoji": "\ud83d\udca8",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -235,7 +235,7 @@
                 ]
             }
         ],
-        "transcription": "wɪnd",
+        "transcription": "w\u026and",
         "lang": "en",
         "level": "starter",
         "theme": "nature",

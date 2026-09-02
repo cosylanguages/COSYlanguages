@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-TIM-01",
+        "id": "A1-NOUN-TIM-015",
         "word": "calendar",
-        "emoji": "📅",
+        "emoji": "\ud83d\udcc5",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -21,7 +21,7 @@
         "synonyms": [
             "date planner"
         ],
-        "transcription": "ˈkæləndər",
+        "transcription": "\u02c8k\u00e6l\u0259nd\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "dates_years",
@@ -34,9 +34,9 @@
         "sub_subcategory": "Dates_Years"
     },
     {
-        "id": "A1-NOUN-TIM-02",
+        "id": "A1-NOUN-TIM-016",
         "word": "date",
-        "emoji": "📅",
+        "emoji": "\ud83d\udcc5",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -50,7 +50,7 @@
                 ]
             }
         ],
-        "transcription": "deɪt",
+        "transcription": "de\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "dates_years",
@@ -63,9 +63,9 @@
         "sub_subcategory": "Dates_Years"
     },
     {
-        "id": "A1-NOUN-TIM-03",
+        "id": "A1-NOUN-TIM-017",
         "word": "month",
-        "emoji": "📅",
+        "emoji": "\ud83d\udcc5",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -79,7 +79,7 @@
             }
         ],
         "subtext": "related to dates years",
-        "transcription": "mənθ",
+        "transcription": "m\u0259n\u03b8",
         "lang": "en",
         "level": "starter",
         "theme": "dates_years",
@@ -92,9 +92,9 @@
         "sub_subcategory": "Dates_Years"
     },
     {
-        "id": "A1-NOUN-TIM-04",
+        "id": "A1-NOUN-TIM-018",
         "word": "year",
-        "emoji": "📅",
+        "emoji": "\ud83d\udcc5",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -108,7 +108,7 @@
             }
         ],
         "subtext": "related to dates years",
-        "transcription": "jɪr",
+        "transcription": "j\u026ar",
         "lang": "en",
         "level": "starter",
         "theme": "dates_years",

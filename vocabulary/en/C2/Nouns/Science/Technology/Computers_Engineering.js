@@ -2,12 +2,12 @@
     const lang = "en";
     const data = [
     {
-        "id": "C2-NOUN-SCI-01",
+        "id": "C2-NOUN-SCI-001",
         "word": "blockchain",
         "lang": "en",
         "level": "proficiency",
         "theme": "technology",
-        "emoji": "⛓️",
+        "emoji": "\u26d3\ufe0f",
         "form": "noun",
         "classification": "regular",
         "plural": "blockchains",

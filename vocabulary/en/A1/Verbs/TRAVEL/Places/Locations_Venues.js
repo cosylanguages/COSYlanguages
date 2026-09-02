@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-TRA-01",
+        "id": "A1-VERB-TRA-001",
         "word": "live",
-        "emoji": "🏠",
+        "emoji": "\ud83c\udfe0",
         "subtext": "live in a flat / live alone / live with someone / live abroad",
         "form": "verb",
         "definitions": [
@@ -21,7 +21,7 @@
         "v2": "lived",
         "v3": "lived",
         "group": "regular",
-        "transcription": "lɪv",
+        "transcription": "l\u026av",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -37,9 +37,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-VERB-TRA-02",
+        "id": "A1-VERB-TRA-002",
         "word": "live",
-        "emoji": "🏠",
+        "emoji": "\ud83c\udfe0",
         "subtext": "live in a flat / live alone / live with someone / live abroad",
         "form": "verb",
         "definitions": [
@@ -56,7 +56,7 @@
         "v2": "lived",
         "v3": "lived",
         "group": "regular",
-        "transcription": "lɪv",
+        "transcription": "l\u026av",
         "synonyms": [
             "reside"
         ],

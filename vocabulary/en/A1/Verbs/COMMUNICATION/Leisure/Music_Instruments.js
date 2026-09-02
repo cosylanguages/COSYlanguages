@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-COM-01",
+        "id": "A1-VERB-COM-033",
         "word": "dance",
-        "emoji": "💃",
+        "emoji": "\ud83d\udc83",
         "subtext": "dance to music / dance together / slow dance",
         "synonyms": [
             "go dancing"
@@ -24,7 +24,7 @@
         "v2": "danced",
         "v3": "danced",
         "group": "regular",
-        "transcription": "dæns",
+        "transcription": "d\u00e6ns",
         "lang": "en",
         "level": "starter",
         "theme": "music",
@@ -40,9 +40,9 @@
         "sub_subcategory": "Music_Instruments"
     },
     {
-        "id": "A1-VERB-COM-02",
+        "id": "A1-VERB-COM-034",
         "word": "dance",
-        "emoji": "💃",
+        "emoji": "\ud83d\udc83",
         "subtext": "dance to music / dance together / slow dance",
         "synonyms": [
             "go dancing"
@@ -62,7 +62,7 @@
         "v2": "danced",
         "v3": "danced",
         "group": "regular",
-        "transcription": "dæns",
+        "transcription": "d\u00e6ns",
         "auxiliary": "have",
         "v4": "dancing",
         "lang": "en",
@@ -80,9 +80,9 @@
         "sub_subcategory": "Music_Instruments"
     },
     {
-        "id": "A1-VERB-COM-03",
+        "id": "A1-VERB-COM-035",
         "word": "sing",
-        "emoji": "🎤",
+        "emoji": "\ud83c\udfa4",
         "subtext": "sing a song / sing along / sing well",
         "synonyms": [
             "lead singer"
@@ -102,7 +102,7 @@
         "v2": "sang",
         "v3": "sung",
         "group": "irregular",
-        "transcription": "sɪŋ",
+        "transcription": "s\u026a\u014b",
         "lang": "en",
         "level": "starter",
         "theme": "music",
@@ -118,9 +118,9 @@
         "sub_subcategory": "Music_Instruments"
     },
     {
-        "id": "A1-VERB-COM-04",
+        "id": "A1-VERB-COM-036",
         "word": "sing",
-        "emoji": "🎤",
+        "emoji": "\ud83c\udfa4",
         "subtext": "sing a song / sing along / sing well",
         "synonyms": [
             "lead singer"
@@ -140,7 +140,7 @@
         "v2": "sang",
         "v3": "sung",
         "group": "regular",
-        "transcription": "sɪŋ",
+        "transcription": "s\u026a\u014b",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",

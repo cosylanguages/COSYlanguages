@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-TIM-01",
+        "id": "A1-NOUN-TIM-019",
         "word": "Friday",
-        "emoji": "📅",
+        "emoji": "\ud83d\udcc5",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -17,7 +17,7 @@
             }
         ],
         "subtext": "related to days week",
-        "transcription": "ˈfraɪˌdeɪ",
+        "transcription": "\u02c8fra\u026a\u02ccde\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "days_week",
@@ -30,9 +30,9 @@
         "sub_subcategory": "Days_Schedule"
     },
     {
-        "id": "A1-NOUN-TIM-02",
+        "id": "A1-NOUN-TIM-020",
         "word": "Monday",
-        "emoji": "📅",
+        "emoji": "\ud83d\udcc5",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -45,7 +45,7 @@
             }
         ],
         "subtext": "related to days week",
-        "transcription": "ˈmənˌdeɪ",
+        "transcription": "\u02c8m\u0259n\u02ccde\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "days_week",
@@ -58,9 +58,9 @@
         "sub_subcategory": "Days_Schedule"
     },
     {
-        "id": "A1-NOUN-TIM-03",
+        "id": "A1-NOUN-TIM-021",
         "word": "Saturday",
-        "emoji": "📅",
+        "emoji": "\ud83d\udcc5",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -73,7 +73,7 @@
             }
         ],
         "subtext": "related to days week",
-        "transcription": "ˈsæˌtɪˌdeɪ",
+        "transcription": "\u02c8s\u00e6\u02cct\u026a\u02ccde\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "days_week",
@@ -86,9 +86,9 @@
         "sub_subcategory": "Days_Schedule"
     },
     {
-        "id": "A1-NOUN-TIM-04",
+        "id": "A1-NOUN-TIM-022",
         "word": "Sunday",
-        "emoji": "📅",
+        "emoji": "\ud83d\udcc5",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -101,7 +101,7 @@
             }
         ],
         "subtext": "related to days week",
-        "transcription": "ˈsənˌdi",
+        "transcription": "\u02c8s\u0259n\u02ccdi",
         "lang": "en",
         "level": "starter",
         "theme": "days_week",
@@ -114,9 +114,9 @@
         "sub_subcategory": "Days_Schedule"
     },
     {
-        "id": "A1-NOUN-TIM-05",
+        "id": "A1-NOUN-TIM-023",
         "word": "Thursday",
-        "emoji": "📅",
+        "emoji": "\ud83d\udcc5",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -129,7 +129,7 @@
             }
         ],
         "subtext": "related to days week",
-        "transcription": "ˈθərzˌdeɪ",
+        "transcription": "\u02c8\u03b8\u0259rz\u02ccde\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "days_week",
@@ -142,9 +142,9 @@
         "sub_subcategory": "Days_Schedule"
     },
     {
-        "id": "A1-NOUN-TIM-06",
+        "id": "A1-NOUN-TIM-024",
         "word": "Tuesday",
-        "emoji": "📅",
+        "emoji": "\ud83d\udcc5",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -157,7 +157,7 @@
             }
         ],
         "subtext": "related to days week",
-        "transcription": "ˈtuzˌdeɪ",
+        "transcription": "\u02c8tuz\u02ccde\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "days_week",
@@ -170,9 +170,9 @@
         "sub_subcategory": "Days_Schedule"
     },
     {
-        "id": "A1-NOUN-TIM-07",
+        "id": "A1-NOUN-TIM-025",
         "word": "Wednesday",
-        "emoji": "📅",
+        "emoji": "\ud83d\udcc5",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -185,7 +185,7 @@
             }
         ],
         "subtext": "related to days week",
-        "transcription": "ˈwɛnzˌdeɪ",
+        "transcription": "\u02c8w\u025bnz\u02ccde\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "days_week",

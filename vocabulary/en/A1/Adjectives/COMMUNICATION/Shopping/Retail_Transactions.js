@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-ADJ-COM-01",
+        "id": "A1-ADJ-COM-001",
         "word": "cheap",
-        "emoji": "🏷️",
+        "emoji": "\ud83c\udff7\ufe0f",
         "form": "adjective",
         "subtext": "cheap flight / very cheap / cheap and cheerful",
         "synonyms": [
@@ -27,7 +27,7 @@
         ],
         "comparative": "cheaper",
         "superlative": "the cheapest",
-        "transcription": "ʧip",
+        "transcription": "\u02a7ip",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -43,9 +43,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-ADJ-COM-02",
+        "id": "A1-ADJ-COM-002",
         "word": "cheap",
-        "emoji": "🏷️",
+        "emoji": "\ud83c\udff7\ufe0f",
         "form": "adjective",
         "subtext": "cheap flight / very cheap / cheap and cheerful",
         "synonyms": [
@@ -68,7 +68,7 @@
         ],
         "comparative": "cheaper",
         "superlative": "the cheapest",
-        "transcription": "ʧip",
+        "transcription": "\u02a7ip",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -84,9 +84,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-ADJ-COM-03",
+        "id": "A1-ADJ-COM-003",
         "word": "closed",
-        "emoji": "🔒",
+        "emoji": "\ud83d\udd12",
         "form": "adjective",
         "subtext": "now closed, temporarily closed / closed for lunch / closed mind / closed door",
         "definitions": [
@@ -100,7 +100,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "kloʊzd",
+        "transcription": "klo\u028azd",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -116,9 +116,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-ADJ-COM-04",
+        "id": "A1-ADJ-COM-004",
         "word": "closed",
-        "emoji": "🔒",
+        "emoji": "\ud83d\udd12",
         "form": "adjective",
         "subtext": "now closed, temporarily closed / closed for lunch / closed mind / closed door",
         "definitions": [
@@ -132,7 +132,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "kloʊzd",
+        "transcription": "klo\u028azd",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -148,9 +148,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-ADJ-COM-05",
+        "id": "A1-ADJ-COM-005",
         "word": "expensive",
-        "emoji": "💎",
+        "emoji": "\ud83d\udc8e",
         "form": "adjective",
         "subtext": "very expensive / expensive taste / too expensive",
         "synonyms": [
@@ -173,7 +173,7 @@
         ],
         "comparative": "more expensive",
         "superlative": "the most expensive",
-        "transcription": "ɪkˈspɛnsɪv",
+        "transcription": "\u026ak\u02c8sp\u025bns\u026av",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -189,9 +189,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-ADJ-COM-06",
+        "id": "A1-ADJ-COM-006",
         "word": "expensive",
-        "emoji": "💎",
+        "emoji": "\ud83d\udc8e",
         "form": "adjective",
         "subtext": "very expensive / expensive taste / too expensive",
         "synonyms": [
@@ -214,7 +214,7 @@
         ],
         "comparative": "more expensive",
         "superlative": "the most expensive",
-        "transcription": "ɪkˈspɛnsɪv",
+        "transcription": "\u026ak\u02c8sp\u025bns\u026av",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -230,9 +230,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-ADJ-COM-07",
+        "id": "A1-ADJ-COM-007",
         "word": "free",
-        "emoji": "🎁",
+        "emoji": "\ud83c\udf81",
         "form": "adjective",
         "subtext": "free of charge, free gift / free time / free of charge / free to do",
         "definitions": [
@@ -267,9 +267,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-ADJ-COM-08",
+        "id": "A1-ADJ-COM-008",
         "word": "free",
-        "emoji": "🎁",
+        "emoji": "\ud83c\udf81",
         "form": "adjective",
         "subtext": "free of charge, free gift / free time / free of charge / free to do",
         "definitions": [
@@ -304,9 +304,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-ADJ-COM-09",
+        "id": "A1-ADJ-COM-009",
         "word": "open",
-        "emoji": "📖",
+        "emoji": "\ud83d\udcd6",
         "form": "adjective",
         "subtext": "now open, open for business / open door / open to ideas / wide open",
         "definitions": [
@@ -325,7 +325,7 @@
         ],
         "comparative": "opener",
         "superlative": "the openest",
-        "transcription": "ˈoʊpən",
+        "transcription": "\u02c8o\u028ap\u0259n",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -341,9 +341,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-ADJ-COM-10",
+        "id": "A1-ADJ-COM-010",
         "word": "poor",
-        "emoji": "🏚️",
+        "emoji": "\ud83c\udfda\ufe0f",
         "form": "adjective",
         "subtext": "poor family / feel poor",
         "synonyms": [
@@ -376,9 +376,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-ADJ-COM-11",
+        "id": "A1-ADJ-COM-011",
         "word": "poor",
-        "emoji": "🏚️",
+        "emoji": "\ud83c\udfda\ufe0f",
         "form": "adjective",
         "subtext": "poor family / feel poor",
         "synonyms": [
@@ -411,9 +411,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-ADJ-COM-12",
+        "id": "A1-ADJ-COM-012",
         "word": "rich",
-        "emoji": "💰",
+        "emoji": "\ud83d\udcb0",
         "form": "adjective",
         "subtext": "rich man / rich country / very rich",
         "synonyms": [
@@ -429,7 +429,7 @@
         ],
         "comparative": "richer",
         "superlative": "the richest",
-        "transcription": "rɪʧ",
+        "transcription": "r\u026a\u02a7",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
@@ -445,9 +445,9 @@
         "sub_subcategory": "Retail_Transactions"
     },
     {
-        "id": "A1-ADJ-COM-13",
+        "id": "A1-ADJ-COM-013",
         "word": "rich",
-        "emoji": "💰",
+        "emoji": "\ud83d\udcb0",
         "form": "adjective",
         "subtext": "rich man / rich country / very rich",
         "synonyms": [
@@ -463,7 +463,7 @@
         ],
         "comparative": "richer",
         "superlative": "the richest",
-        "transcription": "rɪʧ",
+        "transcription": "r\u026a\u02a7",
         "lang": "en",
         "level": "starter",
         "theme": "shopping",

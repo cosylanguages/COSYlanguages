@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-HOM-01",
+        "id": "A1-NOUN-HOM-001",
         "word": "bowl",
-        "emoji": "🥣",
+        "emoji": "\ud83e\udd63",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
             }
         ],
         "subtext": "related to kitchen items",
-        "transcription": "boʊl",
+        "transcription": "bo\u028al",
         "lang": "en",
         "level": "starter",
         "theme": "kitchen_items",
@@ -31,9 +31,9 @@
         "sub_subcategory": "Kitchen_Appliances"
     },
     {
-        "id": "A1-NOUN-HOM-02",
+        "id": "A1-NOUN-HOM-002",
         "word": "kettle",
-        "emoji": "🫖",
+        "emoji": "\ud83e\uded6",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -47,7 +47,7 @@
             }
         ],
         "subtext": "related to kitchen items",
-        "transcription": "ˈkɛtəl",
+        "transcription": "\u02c8k\u025bt\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "kitchen_items",
@@ -60,9 +60,9 @@
         "sub_subcategory": "Kitchen_Appliances"
     },
     {
-        "id": "A1-NOUN-HOM-03",
+        "id": "A1-NOUN-HOM-003",
         "word": "pan",
-        "emoji": "🍳",
+        "emoji": "\ud83c\udf73",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -76,7 +76,7 @@
             }
         ],
         "subtext": "related to kitchen items",
-        "transcription": "pæn",
+        "transcription": "p\u00e6n",
         "lang": "en",
         "level": "starter",
         "theme": "kitchen_items",
@@ -89,9 +89,9 @@
         "sub_subcategory": "Kitchen_Appliances"
     },
     {
-        "id": "A1-NOUN-HOM-04",
+        "id": "A1-NOUN-HOM-004",
         "word": "pot",
-        "emoji": "🍲",
+        "emoji": "\ud83c\udf72",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -105,7 +105,7 @@
             }
         ],
         "subtext": "related to kitchen items",
-        "transcription": "pɑt",
+        "transcription": "p\u0251t",
         "lang": "en",
         "level": "starter",
         "theme": "kitchen_items",

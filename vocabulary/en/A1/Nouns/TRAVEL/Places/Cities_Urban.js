@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-TRA-01",
+        "id": "A1-NOUN-TRA-001",
         "word": "city",
-        "emoji": "🏙️",
+        "emoji": "\ud83c\udfd9\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
             }
         ],
         "subtext": "related to cities towns",
-        "transcription": "ˈsɪti",
+        "transcription": "\u02c8s\u026ati",
         "lang": "en",
         "level": "starter",
         "theme": "cities_towns",
@@ -35,9 +35,9 @@
         "sub_subcategory": "Cities_Urban"
     },
     {
-        "id": "A1-NOUN-TRA-02",
+        "id": "A1-NOUN-TRA-002",
         "word": "town",
-        "emoji": "🏘️",
+        "emoji": "\ud83c\udfd8\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -51,14 +51,14 @@
             }
         ],
         "subtext": "related to cities towns",
-        "transcription": "taʊn",
+        "transcription": "ta\u028an",
         "lang": "en",
         "level": "starter",
         "theme": "cities_towns",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "tūnaz"
+            "origin_word": "t\u016bnaz"
         },
         "legacy_id": "A1-TRV-114",
         "level_code": "A1",
@@ -68,9 +68,9 @@
         "sub_subcategory": "Cities_Urban"
     },
     {
-        "id": "A1-NOUN-TRA-03",
+        "id": "A1-NOUN-TRA-003",
         "word": "village",
-        "emoji": "🏡",
+        "emoji": "\ud83c\udfe1",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -84,7 +84,7 @@
             }
         ],
         "subtext": "related to cities towns",
-        "transcription": "ˈvɪlɪʤ",
+        "transcription": "\u02c8v\u026al\u026a\u02a4",
         "lang": "en",
         "level": "starter",
         "theme": "cities_towns",

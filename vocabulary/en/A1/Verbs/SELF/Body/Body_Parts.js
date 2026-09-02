@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-SEL-01",
+        "id": "A1-VERB-SEL-009",
         "word": "breathe",
-        "emoji": "🫁",
+        "emoji": "\ud83e\udec1",
         "form": "verb",
         "definitions": [
             {
@@ -24,7 +24,7 @@
             "inhale",
             "exhale"
         ],
-        "transcription": "brið",
+        "transcription": "bri\u00f0",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -37,9 +37,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-VERB-SEL-02",
+        "id": "A1-VERB-SEL-010",
         "word": "breathe",
-        "emoji": "🫁",
+        "emoji": "\ud83e\udec1",
         "form": "verb",
         "definitions": [
             {
@@ -59,7 +59,7 @@
             "inhale",
             "exhale"
         ],
-        "transcription": "brið",
+        "transcription": "bri\u00f0",
         "auxiliary": "have",
         "v4": "breathing",
         "lang": "en",
@@ -74,9 +74,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-VERB-SEL-03",
+        "id": "A1-VERB-SEL-011",
         "word": "hear",
-        "emoji": "👂",
+        "emoji": "\ud83d\udc42",
         "subtext": "hear news / hear from someone / hear a sound / hear clearly",
         "form": "verb",
         "definitions": [
@@ -114,9 +114,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-VERB-SEL-04",
+        "id": "A1-VERB-SEL-012",
         "word": "hear",
-        "emoji": "👂",
+        "emoji": "\ud83d\udc42",
         "subtext": "hear news / hear from someone / hear a sound / hear clearly",
         "form": "verb",
         "definitions": [
@@ -155,9 +155,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-VERB-SEL-05",
+        "id": "A1-VERB-SEL-013",
         "word": "look",
-        "emoji": "👀",
+        "emoji": "\ud83d\udc40",
         "subtext": "look at something / look for something / look at / for, look at / look for / look like / look happy",
         "form": "verb",
         "definitions": [
@@ -174,7 +174,7 @@
         "v2": "looked",
         "v3": "looked",
         "group": "regular",
-        "transcription": "lʊk",
+        "transcription": "l\u028ak",
         "auxiliary": "have",
         "v4": "looking",
         "lang": "en",
@@ -192,9 +192,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-VERB-SEL-06",
+        "id": "A1-VERB-SEL-014",
         "word": "see",
-        "emoji": "👁️",
+        "emoji": "\ud83d\udc41\ufe0f",
         "subtext": "see a doctor / see friends / see the problem / see clearly",
         "form": "verb",
         "definitions": [
@@ -232,9 +232,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-VERB-SEL-07",
+        "id": "A1-VERB-SEL-015",
         "word": "see",
-        "emoji": "👁️",
+        "emoji": "\ud83d\udc41\ufe0f",
         "subtext": "see a doctor / see friends / see the problem / see clearly",
         "form": "verb",
         "definitions": [
@@ -273,9 +273,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-VERB-SEL-08",
+        "id": "A1-VERB-SEL-016",
         "word": "smell",
-        "emoji": "👃",
+        "emoji": "\ud83d\udc43",
         "form": "verb",
         "subtext": "smell good / smell the flowers",
         "synonyms": [
@@ -294,7 +294,7 @@
         "v2": "smelled / smelt",
         "v3": "smelled / smelt",
         "group": "both",
-        "transcription": "smɛl",
+        "transcription": "sm\u025bl",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -310,9 +310,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-VERB-SEL-09",
+        "id": "A1-VERB-SEL-017",
         "word": "smell",
-        "emoji": "👃",
+        "emoji": "\ud83d\udc43",
         "form": "verb",
         "subtext": "smell good / smell the flowers",
         "synonyms": [
@@ -331,7 +331,7 @@
         "v2": "smelled / smelt",
         "v3": "smelled / smelt",
         "group": "regular",
-        "transcription": "smɛl",
+        "transcription": "sm\u025bl",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -348,9 +348,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-VERB-SEL-10",
+        "id": "A1-VERB-SEL-018",
         "word": "smile",
-        "emoji": "😊",
+        "emoji": "\ud83d\ude0a",
         "subtext": "smile at someone / a big smile / smile broadly",
         "form": "verb",
         "definitions": [
@@ -367,7 +367,7 @@
         "v2": "smiled",
         "v3": "smiled",
         "group": "regular",
-        "transcription": "smaɪl",
+        "transcription": "sma\u026al",
         "auxiliary": "have",
         "v4": "smiling",
         "lang": "en",
@@ -385,9 +385,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-VERB-SEL-11",
+        "id": "A1-VERB-SEL-019",
         "word": "yawn",
-        "emoji": "🥱",
+        "emoji": "\ud83e\udd71",
         "form": "verb",
         "definitions": [
             {
@@ -406,7 +406,7 @@
         "synonyms": [
             "feel sleepy"
         ],
-        "transcription": "jɔn",
+        "transcription": "j\u0254n",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -419,9 +419,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-VERB-SEL-12",
+        "id": "A1-VERB-SEL-020",
         "word": "yawn",
-        "emoji": "🥱",
+        "emoji": "\ud83e\udd71",
         "form": "verb",
         "definitions": [
             {
@@ -440,7 +440,7 @@
         "synonyms": [
             "feel sleepy"
         ],
-        "transcription": "jɔn",
+        "transcription": "j\u0254n",
         "auxiliary": "have",
         "v4": "yawning",
         "lang": "en",

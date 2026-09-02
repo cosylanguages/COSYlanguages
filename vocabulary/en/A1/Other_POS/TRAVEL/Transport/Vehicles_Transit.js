@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-OTH-TRA-01",
+        "id": "A1-OTH-TRA-080",
         "word": "by",
         "form": "preposition",
         "definitions": [
@@ -14,8 +14,8 @@
                 ]
             }
         ],
-        "emoji": "🚌",
-        "transcription": "baɪ",
+        "emoji": "\ud83d\ude8c",
+        "transcription": "ba\u026a",
         "subtext": "by",
         "lang": "en",
         "level": "starter",

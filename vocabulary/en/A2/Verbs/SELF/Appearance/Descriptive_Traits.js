@@ -2,11 +2,11 @@
     const lang = "en";
     const data = [
     {
-        "id": "A2-VERB-SEL-01",
+        "id": "A2-VERB-SEL-001",
         "word": "admit",
-        "emoji": "🗣️",
+        "emoji": "\ud83d\udde3\ufe0f",
         "form": "verb",
-        "transcription": "ədˈmɪt",
+        "transcription": "\u0259d\u02c8m\u026at",
         "subtext": "confess, acknowledge",
         "synonyms": [
             "confess",
@@ -44,11 +44,11 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-02",
+        "id": "A2-VERB-SEL-002",
         "word": "advise",
-        "emoji": "👨‍🏫",
+        "emoji": "\ud83d\udc68\u200d\ud83c\udfeb",
         "form": "verb",
-        "transcription": "ədˈvaɪz",
+        "transcription": "\u0259d\u02c8va\u026az",
         "subtext": "counsel, suggest, recommend",
         "synonyms": [
             "counsel",
@@ -87,9 +87,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-03",
+        "id": "A2-VERB-SEL-003",
         "word": "announce",
-        "emoji": "📣",
+        "emoji": "\ud83d\udce3",
         "form": "verb",
         "subtext": "state, declare",
         "synonyms": [
@@ -108,7 +108,7 @@
         "aspect": "action",
         "v2": "announced",
         "v3": "announced",
-        "transcription": "əˈnaʊns",
+        "transcription": "\u0259\u02c8na\u028ans",
         "group": "regular",
         "auxiliary": "have",
         "v4": "announcing",
@@ -129,9 +129,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-04",
+        "id": "A2-VERB-SEL-004",
         "word": "argue",
-        "emoji": "🗣️",
+        "emoji": "\ud83d\udde3\ufe0f",
         "form": "verb",
         "subtext": "argue with someone / about something",
         "synonyms": [
@@ -150,7 +150,7 @@
         "aspect": "action",
         "v2": "argued",
         "v3": "argued",
-        "transcription": "ˈɑːrɡjuː",
+        "transcription": "\u02c8\u0251\u02d0r\u0261ju\u02d0",
         "group": "regular",
         "auxiliary": "have",
         "v4": "arguing",
@@ -166,9 +166,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-05",
+        "id": "A2-VERB-SEL-005",
         "word": "brush teeth",
-        "emoji": "🪥",
+        "emoji": "\ud83e\udea5",
         "form": "verb",
         "subtext": "brush my teeth, brush twice a day",
         "definitions": [
@@ -183,7 +183,7 @@
         "aspect": "action",
         "v2": "brushed teeth",
         "v3": "brushed teeth",
-        "transcription": "brʌʃ tiːθ",
+        "transcription": "br\u028c\u0283 ti\u02d0\u03b8",
         "group": "regular",
         "auxiliary": "have",
         "v4": "brush teething",
@@ -199,9 +199,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-06",
+        "id": "A2-VERB-SEL-006",
         "word": "compare",
-        "emoji": "⚖️",
+        "emoji": "\u2696\ufe0f",
         "form": "verb",
         "subtext": "compare prices / compare options",
         "synonyms": [
@@ -220,7 +220,7 @@
         "aspect": "action",
         "v2": "compared",
         "v3": "compared",
-        "transcription": "kəmˈpeər",
+        "transcription": "k\u0259m\u02c8pe\u0259r",
         "group": "regular",
         "auxiliary": "have",
         "v4": "comparing",
@@ -236,9 +236,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-07",
+        "id": "A2-VERB-SEL-007",
         "word": "complain",
-        "emoji": "😠",
+        "emoji": "\ud83d\ude20",
         "form": "verb",
         "subtext": "complain about something / to someone / complain about / complain to someone",
         "synonyms": [
@@ -257,7 +257,7 @@
         "aspect": "action",
         "v2": "complained",
         "v3": "complained",
-        "transcription": "kəmˈpleɪn",
+        "transcription": "k\u0259m\u02c8ple\u026an",
         "group": "regular",
         "auxiliary": "have",
         "v4": "complaining",
@@ -273,9 +273,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-08",
+        "id": "A2-VERB-SEL-008",
         "word": "compromise",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "form": "verb",
         "subtext": "compromise on something / reach a compromise / be willing to compromise",
         "definitions": [
@@ -290,7 +290,7 @@
         "aspect": "action",
         "v2": "compromised",
         "v3": "compromised",
-        "transcription": "🇬🇧 ˈkɒmprəmaɪz | 🇺🇸 ˈkɑːmprəmaɪz",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8k\u0252mpr\u0259ma\u026az | \ud83c\uddfa\ud83c\uddf8 \u02c8k\u0251\u02d0mpr\u0259ma\u026az",
         "group": "regular",
         "auxiliary": "have",
         "v4": "compromising",
@@ -306,9 +306,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-09",
+        "id": "A2-VERB-SEL-009",
         "word": "concentrate",
-        "emoji": "🧠",
+        "emoji": "\ud83e\udde0",
         "form": "verb",
         "subtext": "concentrate on something / concentrate on work / hard to concentrate",
         "definitions": [
@@ -323,7 +323,7 @@
         "aspect": "action",
         "v2": "concentrated",
         "v3": "concentrated",
-        "transcription": "🇬🇧 ˈkɒnsəntreɪt | 🇺🇸 ˈkɑːnsəntreɪt",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8k\u0252ns\u0259ntre\u026at | \ud83c\uddfa\ud83c\uddf8 \u02c8k\u0251\u02d0ns\u0259ntre\u026at",
         "group": "regular",
         "auxiliary": "have",
         "v4": "concentrating",
@@ -339,9 +339,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-10",
+        "id": "A2-VERB-SEL-010",
         "word": "confirm",
-        "emoji": "✅",
+        "emoji": "\u2705",
         "form": "verb",
         "subtext": "confirm a booking / confirm receipt / confirm in writing",
         "definitions": [
@@ -356,7 +356,7 @@
         "aspect": "action",
         "v2": "confirmed",
         "v3": "confirmed",
-        "transcription": "kənˈfɜːrm",
+        "transcription": "k\u0259n\u02c8f\u025c\u02d0rm",
         "synonyms": [
             "verify",
             "check"
@@ -376,9 +376,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-11",
+        "id": "A2-VERB-SEL-011",
         "word": "confuse",
-        "emoji": "😕",
+        "emoji": "\ud83d\ude15",
         "form": "verb",
         "subtext": "confuse someone",
         "synonyms": [
@@ -396,7 +396,7 @@
         "aspect": "action",
         "v2": "confused",
         "v3": "confused",
-        "transcription": "kənˈfjuːz",
+        "transcription": "k\u0259n\u02c8fju\u02d0z",
         "group": "regular",
         "auxiliary": "have",
         "v4": "confusing",
@@ -412,9 +412,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-12",
+        "id": "A2-VERB-SEL-012",
         "word": "consider",
-        "emoji": "🤔",
+        "emoji": "\ud83e\udd14",
         "form": "verb",
         "subtext": "consider an option, consider someone for a job",
         "definitions": [
@@ -429,7 +429,7 @@
         "aspect": "both",
         "v2": "considered",
         "v3": "considered",
-        "transcription": "kənˈsɪdər",
+        "transcription": "k\u0259n\u02c8s\u026ad\u0259r",
         "synonyms": [
             "think about"
         ],
@@ -448,9 +448,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-13",
+        "id": "A2-VERB-SEL-013",
         "word": "control",
-        "emoji": "🎮",
+        "emoji": "\ud83c\udfae",
         "form": "verb",
         "subtext": "lose control / under control",
         "definitions": [
@@ -465,7 +465,7 @@
         "aspect": "action",
         "v2": "controlled",
         "v3": "controlled",
-        "transcription": "kənˈtroʊl",
+        "transcription": "k\u0259n\u02c8tro\u028al",
         "synonyms": [
             "manage",
             "direct"
@@ -485,9 +485,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-14",
+        "id": "A2-VERB-SEL-014",
         "word": "convince",
-        "emoji": "🗣️",
+        "emoji": "\ud83d\udde3\ufe0f",
         "form": "verb",
         "subtext": "convince someone / convince yourself / hard to convince",
         "definitions": [
@@ -506,7 +506,7 @@
         "synonyms": [
             "persuade"
         ],
-        "transcription": "kənˈvɪns",
+        "transcription": "k\u0259n\u02c8v\u026ans",
         "group": "regular",
         "auxiliary": "have",
         "v4": "convincing",
@@ -522,9 +522,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-15",
+        "id": "A2-VERB-SEL-015",
         "word": "damage",
-        "emoji": "🔨",
+        "emoji": "\ud83d\udd28",
         "form": "verb",
         "subtext": "damage something / cause damage",
         "definitions": [
@@ -539,7 +539,7 @@
         "aspect": "action",
         "v2": "damaged",
         "v3": "damaged",
-        "transcription": "ˈdæmɪdʒ",
+        "transcription": "\u02c8d\u00e6m\u026ad\u0292",
         "synonyms": [
             "hurt",
             "break"
@@ -559,9 +559,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-16",
+        "id": "A2-VERB-SEL-016",
         "word": "decrease",
-        "emoji": "📉",
+        "emoji": "\ud83d\udcc9",
         "form": "verb",
         "subtext": "decrease in number / decrease gradually / significant decrease",
         "definitions": [
@@ -581,7 +581,7 @@
             "reduce",
             "go down"
         ],
-        "transcription": "dɪˈkriːs",
+        "transcription": "d\u026a\u02c8kri\u02d0s",
         "group": "regular",
         "auxiliary": "have",
         "v4": "decreasing",
@@ -597,9 +597,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-17",
+        "id": "A2-VERB-SEL-017",
         "word": "disagree",
-        "emoji": "👎",
+        "emoji": "\ud83d\udc4e",
         "form": "verb",
         "subtext": "disagree with someone / disagree with / I disagree",
         "definitions": [
@@ -614,7 +614,7 @@
         "aspect": "stative",
         "v2": "disagreed",
         "v3": "disagreed",
-        "transcription": "ˌdɪsəˈɡriː",
+        "transcription": "\u02ccd\u026as\u0259\u02c8\u0261ri\u02d0",
         "synonyms": [
             "differ",
             "argue"
@@ -634,9 +634,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-18",
+        "id": "A2-VERB-SEL-018",
         "word": "discuss",
-        "emoji": "🗣️",
+        "emoji": "\ud83d\udde3\ufe0f",
         "form": "verb",
         "subtext": "discuss something with someone / discuss a topic / discuss in detail / discuss with someone",
         "definitions": [
@@ -651,7 +651,7 @@
         "aspect": "action",
         "v2": "discussed",
         "v3": "discussed",
-        "transcription": "dɪˈskʌs",
+        "transcription": "d\u026a\u02c8sk\u028cs",
         "synonyms": [
             "talk about"
         ],
@@ -670,9 +670,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-19",
+        "id": "A2-VERB-SEL-019",
         "word": "doubt",
-        "emoji": "🤨",
+        "emoji": "\ud83e\udd28",
         "form": "verb",
         "subtext": "doubt it",
         "synonyms": [
@@ -690,7 +690,7 @@
         "aspect": "stative",
         "v2": "doubted",
         "v3": "doubted",
-        "transcription": "daʊt",
+        "transcription": "da\u028at",
         "group": "regular",
         "auxiliary": "have",
         "v4": "doubting",
@@ -706,9 +706,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-20",
+        "id": "A2-VERB-SEL-020",
         "word": "expand",
-        "emoji": "🎈",
+        "emoji": "\ud83c\udf88",
         "form": "verb",
         "subtext": "expand a business",
         "definitions": [
@@ -723,7 +723,7 @@
         "aspect": "action",
         "v2": "expanded",
         "v3": "expanded",
-        "transcription": "ɪkˈspænd",
+        "transcription": "\u026ak\u02c8sp\u00e6nd",
         "group": "regular",
         "auxiliary": "have",
         "v4": "expanding",
@@ -739,9 +739,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-21",
+        "id": "A2-VERB-SEL-021",
         "word": "expect",
-        "emoji": "💭",
+        "emoji": "\ud83d\udcad",
         "form": "verb",
         "subtext": "expect a baby, expect someone to arrive",
         "definitions": [
@@ -756,7 +756,7 @@
         "aspect": "stative",
         "v2": "expected",
         "v3": "expected",
-        "transcription": "ɪkˈspɛkt",
+        "transcription": "\u026ak\u02c8sp\u025bkt",
         "synonyms": [
             "wait for",
             "think"
@@ -776,9 +776,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-22",
+        "id": "A2-VERB-SEL-022",
         "word": "find out",
-        "emoji": "🔎",
+        "emoji": "\ud83d\udd0e",
         "form": "verb",
         "subtext": "find out about / find out the truth / find out later",
         "definitions": [
@@ -793,7 +793,7 @@
         "aspect": "action",
         "v2": "found out",
         "v3": "found out",
-        "transcription": "faɪnd aʊt",
+        "transcription": "fa\u026and a\u028at",
         "group": "regular",
         "auxiliary": "have",
         "lang": "en",
@@ -808,9 +808,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-23",
+        "id": "A2-VERB-SEL-023",
         "word": "greet",
-        "emoji": "👋",
+        "emoji": "\ud83d\udc4b",
         "form": "verb",
         "subtext": "greet someone",
         "synonyms": [
@@ -829,7 +829,7 @@
         "aspect": "action",
         "v2": "greeted",
         "v3": "greeted",
-        "transcription": "ɡriːt",
+        "transcription": "\u0261ri\u02d0t",
         "group": "regular",
         "auxiliary": "have",
         "v4": "greeting",
@@ -845,9 +845,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-24",
+        "id": "A2-VERB-SEL-024",
         "word": "guess",
-        "emoji": "🤔",
+        "emoji": "\ud83e\udd14",
         "form": "verb",
         "subtext": "guess what / can you guess? / I guess so",
         "definitions": [
@@ -863,7 +863,7 @@
         "aspect": "both",
         "v2": "guessed",
         "v3": "guessed",
-        "transcription": "ɡɛs",
+        "transcription": "\u0261\u025bs",
         "synonyms": [
             "estimate"
         ],
@@ -882,9 +882,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-25",
+        "id": "A2-VERB-SEL-025",
         "word": "happen",
-        "emoji": "⚡",
+        "emoji": "\u26a1",
         "form": "verb",
         "subtext": "happen to someone / if it happens",
         "synonyms": [
@@ -903,7 +903,7 @@
         "aspect": "action",
         "v2": "happened",
         "v3": "happened",
-        "transcription": "ˈhæpən",
+        "transcription": "\u02c8h\u00e6p\u0259n",
         "group": "regular",
         "auxiliary": "have",
         "v4": "happening",
@@ -919,9 +919,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-26",
+        "id": "A2-VERB-SEL-026",
         "word": "ignore",
-        "emoji": "🙈",
+        "emoji": "\ud83d\ude48",
         "form": "verb",
         "subtext": "completely ignore",
         "definitions": [
@@ -936,7 +936,7 @@
         "aspect": "action",
         "v2": "ignored",
         "v3": "ignored",
-        "transcription": "ɪɡˈnɔːr",
+        "transcription": "\u026a\u0261\u02c8n\u0254\u02d0r",
         "synonyms": [
             "not listen to"
         ],
@@ -955,9 +955,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-27",
+        "id": "A2-VERB-SEL-027",
         "word": "imagine",
-        "emoji": "💭",
+        "emoji": "\ud83d\udcad",
         "form": "verb",
         "subtext": "imagine that / can you imagine?",
         "definitions": [
@@ -972,7 +972,7 @@
         "aspect": "stative",
         "v2": "imagined",
         "v3": "imagined",
-        "transcription": "ɪˈmædʒɪn",
+        "transcription": "\u026a\u02c8m\u00e6d\u0292\u026an",
         "synonyms": [
             "think of"
         ],
@@ -991,9 +991,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-28",
+        "id": "A2-VERB-SEL-028",
         "word": "increase",
-        "emoji": "📈",
+        "emoji": "\ud83d\udcc8",
         "form": "verb",
         "subtext": "increase in price / increase by ten percent / steady increase",
         "definitions": [
@@ -1009,7 +1009,7 @@
         "aspect": "both",
         "v2": "increased",
         "v3": "increased",
-        "transcription": "ɪnˈkriːs",
+        "transcription": "\u026an\u02c8kri\u02d0s",
         "synonyms": [
             "grow",
             "go up"
@@ -1029,9 +1029,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-29",
+        "id": "A2-VERB-SEL-029",
         "word": "inform",
-        "emoji": "ℹ️",
+        "emoji": "\u2139\ufe0f",
         "form": "verb",
         "subtext": "inform someone",
         "synonyms": [
@@ -1050,7 +1050,7 @@
         "aspect": "action",
         "v2": "informed",
         "v3": "informed",
-        "transcription": "ɪnˈfɔːrm",
+        "transcription": "\u026an\u02c8f\u0254\u02d0rm",
         "group": "regular",
         "auxiliary": "have",
         "v4": "informing",
@@ -1066,9 +1066,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-30",
+        "id": "A2-VERB-SEL-030",
         "word": "insist",
-        "emoji": "🗣️",
+        "emoji": "\ud83d\udde3\ufe0f",
         "form": "verb",
         "definitions": [
             {
@@ -1087,7 +1087,7 @@
         "aspect": "action",
         "v2": "insisted",
         "v3": "insisted",
-        "transcription": "ɪnˈsɪst",
+        "transcription": "\u026an\u02c8s\u026ast",
         "group": "regular",
         "auxiliary": "have",
         "v4": "insisting",
@@ -1103,9 +1103,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-31",
+        "id": "A2-VERB-SEL-031",
         "word": "intend",
-        "emoji": "🎯",
+        "emoji": "\ud83c\udfaf",
         "form": "verb",
         "subtext": "intend to do",
         "definitions": [
@@ -1120,7 +1120,7 @@
         "aspect": "stative",
         "v2": "intended",
         "v3": "intended",
-        "transcription": "ɪnˈtɛnd",
+        "transcription": "\u026an\u02c8t\u025bnd",
         "synonyms": [
             "plan",
             "mean"
@@ -1140,9 +1140,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-32",
+        "id": "A2-VERB-SEL-032",
         "word": "involve",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "form": "verb",
         "definitions": [
             {
@@ -1161,7 +1161,7 @@
         "aspect": "stative",
         "v2": "involved",
         "v3": "involved",
-        "transcription": "🇬🇧 ɪnˈvɒlv | 🇺🇸 ɪnˈvɑːlv",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u026an\u02c8v\u0252lv | \ud83c\uddfa\ud83c\uddf8 \u026an\u02c8v\u0251\u02d0lv",
         "group": "regular",
         "auxiliary": "have",
         "v4": "involving",
@@ -1177,9 +1177,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-33",
+        "id": "A2-VERB-SEL-033",
         "word": "mention",
-        "emoji": "🗣️",
+        "emoji": "\ud83d\udde3\ufe0f",
         "form": "verb",
         "subtext": "mention something / don't mention it",
         "synonyms": [
@@ -1198,7 +1198,7 @@
         "aspect": "action",
         "v2": "mentioned",
         "v3": "mentioned",
-        "transcription": "ˈmɛnʃən",
+        "transcription": "\u02c8m\u025bn\u0283\u0259n",
         "group": "regular",
         "auxiliary": "have",
         "v4": "mentioning",
@@ -1214,9 +1214,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-34",
+        "id": "A2-VERB-SEL-034",
         "word": "notice",
-        "emoji": "👀",
+        "emoji": "\ud83d\udc40",
         "form": "verb",
         "subtext": "notice a difference / did you notice?",
         "synonyms": [
@@ -1235,7 +1235,7 @@
         "aspect": "both",
         "v2": "noticed",
         "v3": "noticed",
-        "transcription": "ˈnoʊtɪs",
+        "transcription": "\u02c8no\u028at\u026as",
         "group": "regular",
         "auxiliary": "have",
         "v4": "noticing",
@@ -1251,9 +1251,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-35",
+        "id": "A2-VERB-SEL-035",
         "word": "occur",
-        "emoji": "⚡",
+        "emoji": "\u26a1",
         "form": "verb",
         "definitions": [
             {
@@ -1272,7 +1272,7 @@
         "aspect": "action",
         "v2": "occurred",
         "v3": "occurred",
-        "transcription": "əˈkɜːr",
+        "transcription": "\u0259\u02c8k\u025c\u02d0r",
         "group": "regular",
         "auxiliary": "have",
         "v4": "occuring",
@@ -1288,9 +1288,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-36",
+        "id": "A2-VERB-SEL-036",
         "word": "persuade",
-        "emoji": "🗣️",
+        "emoji": "\ud83d\udde3\ufe0f",
         "form": "verb",
         "definitions": [
             {
@@ -1309,7 +1309,7 @@
         "aspect": "action",
         "v2": "persuaded",
         "v3": "persuaded",
-        "transcription": "pərˈsweɪd",
+        "transcription": "p\u0259r\u02c8swe\u026ad",
         "group": "regular",
         "auxiliary": "have",
         "v4": "persuading",
@@ -1325,9 +1325,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-37",
+        "id": "A2-VERB-SEL-037",
         "word": "publish",
-        "emoji": "📖",
+        "emoji": "\ud83d\udcd6",
         "form": "verb",
         "definitions": [
             {
@@ -1347,7 +1347,7 @@
         "aspect": "action",
         "v2": "published",
         "v3": "published",
-        "transcription": "ˈpʌblɪʃ",
+        "transcription": "\u02c8p\u028cbl\u026a\u0283",
         "group": "regular",
         "auxiliary": "have",
         "v4": "publishing",
@@ -1363,9 +1363,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-38",
+        "id": "A2-VERB-SEL-038",
         "word": "realize",
-        "emoji": "💡",
+        "emoji": "\ud83d\udca1",
         "form": "verb",
         "subtext": "suddenly realize",
         "definitions": [
@@ -1380,7 +1380,7 @@
         "aspect": "stative",
         "v2": "realized",
         "v3": "realized",
-        "transcription": "ˈriːəlaɪz",
+        "transcription": "\u02c8ri\u02d0\u0259la\u026az",
         "synonyms": [
             "understand",
             "know"
@@ -1400,9 +1400,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-39",
+        "id": "A2-VERB-SEL-039",
         "word": "recommend",
-        "emoji": "👍",
+        "emoji": "\ud83d\udc4d",
         "form": "verb",
         "subtext": "recommend a book / recommend a restaurant",
         "synonyms": [
@@ -1421,7 +1421,7 @@
         "aspect": "action",
         "v2": "recommended",
         "v3": "recommended",
-        "transcription": "ˌrɛkəˈmɛnd",
+        "transcription": "\u02ccr\u025bk\u0259\u02c8m\u025bnd",
         "group": "regular",
         "auxiliary": "have",
         "v4": "recommending",
@@ -1437,9 +1437,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-40",
+        "id": "A2-VERB-SEL-040",
         "word": "release",
-        "emoji": "🔓",
+        "emoji": "\ud83d\udd13",
         "form": "verb",
         "definitions": [
             {
@@ -1459,7 +1459,7 @@
         "aspect": "action",
         "v2": "released",
         "v3": "released",
-        "transcription": "rɪˈliːs",
+        "transcription": "r\u026a\u02c8li\u02d0s",
         "group": "regular",
         "auxiliary": "have",
         "v4": "releasing",
@@ -1475,9 +1475,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-41",
+        "id": "A2-VERB-SEL-041",
         "word": "rely",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "form": "verb",
         "definitions": [
             {
@@ -1496,7 +1496,7 @@
         "aspect": "stative",
         "v2": "relied",
         "v3": "relied",
-        "transcription": "rɪˈlaɪ",
+        "transcription": "r\u026a\u02c8la\u026a",
         "group": "regular",
         "auxiliary": "have",
         "v4": "relying",
@@ -1512,9 +1512,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-42",
+        "id": "A2-VERB-SEL-042",
         "word": "remain",
-        "emoji": "⏳",
+        "emoji": "\u23f3",
         "form": "verb",
         "subtext": "remain calm, remain at home",
         "definitions": [
@@ -1529,7 +1529,7 @@
         "aspect": "stative",
         "v2": "remained",
         "v3": "remained",
-        "transcription": "rɪˈmeɪn",
+        "transcription": "r\u026a\u02c8me\u026an",
         "synonyms": [
             "stay"
         ],
@@ -1548,9 +1548,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-43",
+        "id": "A2-VERB-SEL-043",
         "word": "remind",
-        "emoji": "🎗️",
+        "emoji": "\ud83c\udf97\ufe0f",
         "form": "verb",
         "definitions": [
             {
@@ -1569,7 +1569,7 @@
         "aspect": "action",
         "v2": "reminded",
         "v3": "reminded",
-        "transcription": "rɪˈmaɪnd",
+        "transcription": "r\u026a\u02c8ma\u026and",
         "group": "regular",
         "auxiliary": "have",
         "v4": "reminding",
@@ -1585,9 +1585,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-44",
+        "id": "A2-VERB-SEL-044",
         "word": "remove",
-        "emoji": "🗑️",
+        "emoji": "\ud83d\uddd1\ufe0f",
         "form": "verb",
         "definitions": [
             {
@@ -1607,7 +1607,7 @@
         "aspect": "action",
         "v2": "removed",
         "v3": "removed",
-        "transcription": "rɪˈmuːv",
+        "transcription": "r\u026a\u02c8mu\u02d0v",
         "group": "regular",
         "auxiliary": "have",
         "v4": "removing",
@@ -1623,9 +1623,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-45",
+        "id": "A2-VERB-SEL-045",
         "word": "repair",
-        "emoji": "🔧",
+        "emoji": "\ud83d\udd27",
         "form": "verb",
         "subtext": "repair something / carry out repairs / repair costs",
         "definitions": [
@@ -1640,7 +1640,7 @@
         "aspect": "action",
         "v2": "repaired",
         "v3": "repaired",
-        "transcription": "rɪˈpɛər",
+        "transcription": "r\u026a\u02c8p\u025b\u0259r",
         "synonyms": [
             "fix"
         ],
@@ -1659,9 +1659,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-46",
+        "id": "A2-VERB-SEL-046",
         "word": "require",
-        "emoji": "📜",
+        "emoji": "\ud83d\udcdc",
         "form": "verb",
         "subtext": "require help, require a passport",
         "definitions": [
@@ -1676,7 +1676,7 @@
         "aspect": "stative",
         "v2": "required",
         "v3": "required",
-        "transcription": "rɪˈkwaɪər",
+        "transcription": "r\u026a\u02c8kwa\u026a\u0259r",
         "synonyms": [
             "need"
         ],
@@ -1695,9 +1695,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-47",
+        "id": "A2-VERB-SEL-047",
         "word": "rescue",
-        "emoji": "🚁",
+        "emoji": "\ud83d\ude81",
         "form": "verb",
         "definitions": [
             {
@@ -1716,7 +1716,7 @@
         "aspect": "action",
         "v2": "rescued",
         "v3": "rescued",
-        "transcription": "ˈrɛskjuː",
+        "transcription": "\u02c8r\u025bskju\u02d0",
         "group": "regular",
         "auxiliary": "have",
         "v4": "rescuing",
@@ -1732,9 +1732,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-48",
+        "id": "A2-VERB-SEL-048",
         "word": "resolve",
-        "emoji": "🧩",
+        "emoji": "\ud83e\udde9",
         "form": "verb",
         "definitions": [
             {
@@ -1754,7 +1754,7 @@
         "aspect": "action",
         "v2": "resolved",
         "v3": "resolved",
-        "transcription": "🇬🇧 rɪˈzɒlv | 🇺🇸 rɪˈzɑːlv",
+        "transcription": "\ud83c\uddec\ud83c\udde7 r\u026a\u02c8z\u0252lv | \ud83c\uddfa\ud83c\uddf8 r\u026a\u02c8z\u0251\u02d0lv",
         "group": "regular",
         "auxiliary": "have",
         "v4": "resolving",
@@ -1770,9 +1770,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-49",
+        "id": "A2-VERB-SEL-049",
         "word": "seem",
-        "emoji": "🤔",
+        "emoji": "\ud83e\udd14",
         "form": "verb",
         "subtext": "seem happy, seem like a good idea, seem worried",
         "definitions": [
@@ -1788,7 +1788,7 @@
         "aspect": "stative",
         "v2": "seemed",
         "v3": "seemed",
-        "transcription": "siːm",
+        "transcription": "si\u02d0m",
         "synonyms": [
             "appear"
         ],
@@ -1807,9 +1807,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-50",
+        "id": "A2-VERB-SEL-050",
         "word": "suggest",
-        "emoji": "💡",
+        "emoji": "\ud83d\udca1",
         "form": "verb",
         "subtext": "suggest an idea / let me suggest",
         "definitions": [
@@ -1824,7 +1824,7 @@
         "aspect": "action",
         "v2": "suggested",
         "v3": "suggested",
-        "transcription": "səˈdʒɛst",
+        "transcription": "s\u0259\u02c8d\u0292\u025bst",
         "synonyms": [
             "recommend",
             "advise"
@@ -1844,9 +1844,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A2-VERB-SEL-51",
+        "id": "A2-VERB-SEL-051",
         "word": "wonder",
-        "emoji": "💭",
+        "emoji": "\ud83d\udcad",
         "form": "verb",
         "subtext": "I wonder why / wonder if",
         "synonyms": [
@@ -1865,7 +1865,7 @@
         "aspect": "stative",
         "v2": "wondered",
         "v3": "wondered",
-        "transcription": "ˈwʌndər",
+        "transcription": "\u02c8w\u028cnd\u0259r",
         "group": "regular",
         "auxiliary": "have",
         "v4": "wondering",

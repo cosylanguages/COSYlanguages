@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "B1-NOUN-SOC-01",
+        "id": "B1-NOUN-SOC-041",
         "word": "ambition",
         "lang": "en",
         "level": "intermediate",
@@ -18,8 +18,8 @@
                 ]
             }
         ],
-        "transcription": "æmˈbɪʃn",
-        "emoji": "🚀",
+        "transcription": "\u00e6m\u02c8b\u026a\u0283n",
+        "emoji": "\ud83d\ude80",
         "_legacy": {
             "classification": "regular",
             "plural": "ambitions",
@@ -34,7 +34,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-02",
+        "id": "B1-NOUN-SOC-042",
         "word": "annual leave",
         "lang": "en",
         "level": "intermediate",
@@ -48,8 +48,8 @@
                 ]
             }
         ],
-        "transcription": "ˈænjuəl liːv",
-        "emoji": "🏖️",
+        "transcription": "\u02c8\u00e6nju\u0259l li\u02d0v",
+        "emoji": "\ud83c\udfd6\ufe0f",
         "_legacy": {
             "plural": null,
             "countability": "uncountable",
@@ -63,7 +63,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-03",
+        "id": "B1-NOUN-SOC-043",
         "word": "appraisal",
         "lang": "en",
         "level": "intermediate",
@@ -77,8 +77,8 @@
                 ]
             }
         ],
-        "transcription": "əˈpreɪzl",
-        "emoji": "📋",
+        "transcription": "\u0259\u02c8pre\u026azl",
+        "emoji": "\ud83d\udccb",
         "_legacy": {
             "classification": "regular",
             "plural": "appraisals",
@@ -93,7 +93,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-04",
+        "id": "B1-NOUN-SOC-044",
         "word": "architect",
         "lang": "en",
         "level": "intermediate",
@@ -114,8 +114,8 @@
                 ]
             }
         ],
-        "transcription": "ˈɑːkɪtɛkt",
-        "emoji": "🏗️",
+        "transcription": "\u02c8\u0251\u02d0k\u026at\u025bkt",
+        "emoji": "\ud83c\udfd7\ufe0f",
         "_legacy": {
             "classification": "regular",
             "plural": "architects",
@@ -129,7 +129,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-05",
+        "id": "B1-NOUN-SOC-045",
         "word": "career",
         "lang": "en",
         "level": "intermediate",
@@ -144,8 +144,8 @@
                 ]
             }
         ],
-        "transcription": "🇬🇧 kəˈrɪə | 🇺🇸 kəˈrɪər",
-        "emoji": "📈",
+        "transcription": "\ud83c\uddec\ud83c\udde7 k\u0259\u02c8r\u026a\u0259 | \ud83c\uddfa\ud83c\uddf8 k\u0259\u02c8r\u026a\u0259r",
+        "emoji": "\ud83d\udcc8",
         "_legacy": {
             "classification": "regular",
             "plural": "careers",
@@ -160,15 +160,15 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-06",
+        "id": "B1-NOUN-SOC-046",
         "word": "colleague",
         "lang": "en",
         "level": "intermediate",
         "theme": "work",
         "form": "noun",
         "definitions": [],
-        "transcription": "🇬🇧 ˈkɒliːɡ | 🇺🇸 ˈkɑːliːɡ",
-        "emoji": "👥",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8k\u0252li\u02d0\u0261 | \ud83c\uddfa\ud83c\uddf8 \u02c8k\u0251\u02d0li\u02d0\u0261",
+        "emoji": "\ud83d\udc65",
         "_legacy": {
             "classification": "regular",
             "plural": "colleagues",
@@ -182,7 +182,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-07",
+        "id": "B1-NOUN-SOC-047",
         "word": "credit",
         "lang": "en",
         "level": "intermediate",
@@ -196,8 +196,8 @@
                 ]
             }
         ],
-        "transcription": "ˈkrɛdɪt",
-        "emoji": "💳",
+        "transcription": "\u02c8kr\u025bd\u026at",
+        "emoji": "\ud83d\udcb3",
         "_legacy": {
             "classification": "regular",
             "plural": null,
@@ -212,7 +212,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-08",
+        "id": "B1-NOUN-SOC-048",
         "word": "engineer",
         "lang": "en",
         "level": "intermediate",
@@ -233,8 +233,8 @@
                 ]
             }
         ],
-        "transcription": "🇬🇧 ˌɛndʒɪˈnɪə | 🇺🇸 ˌɛndʒɪˈnɪər",
-        "emoji": "👷",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02cc\u025bnd\u0292\u026a\u02c8n\u026a\u0259 | \ud83c\uddfa\ud83c\uddf8 \u02cc\u025bnd\u0292\u026a\u02c8n\u026a\u0259r",
+        "emoji": "\ud83d\udc77",
         "_legacy": {
             "classification": "regular",
             "plural": "engineers",
@@ -248,7 +248,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-09",
+        "id": "B1-NOUN-SOC-049",
         "word": "expenditure",
         "lang": "en",
         "level": "intermediate",
@@ -262,8 +262,8 @@
                 ]
             }
         ],
-        "transcription": "🇬🇧 ɪkˈspɛndɪtʃə | 🇺🇸 ɪkˈspɛndɪtʃər",
-        "emoji": "💸",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u026ak\u02c8sp\u025bnd\u026at\u0283\u0259 | \ud83c\uddfa\ud83c\uddf8 \u026ak\u02c8sp\u025bnd\u026at\u0283\u0259r",
+        "emoji": "\ud83d\udcb8",
         "_legacy": {
             "classification": "regular",
             "plural": "expenditures",
@@ -278,7 +278,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-10",
+        "id": "B1-NOUN-SOC-050",
         "word": "flexible hours",
         "lang": "en",
         "level": "intermediate",
@@ -292,8 +292,8 @@
                 ]
             }
         ],
-        "transcription": "ˈflɛksəbl ˈaʊəz",
-        "emoji": "⏰",
+        "transcription": "\u02c8fl\u025bks\u0259bl \u02c8a\u028a\u0259z",
+        "emoji": "\u23f0",
         "_legacy": {
             "plural": null,
             "countability": "uncountable",
@@ -307,7 +307,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-11",
+        "id": "B1-NOUN-SOC-051",
         "word": "flexible working",
         "lang": "en",
         "level": "intermediate",
@@ -322,8 +322,8 @@
                 ]
             }
         ],
-        "transcription": "ˈflɛksəbl ˈwɜːkɪŋ",
-        "emoji": "🏠",
+        "transcription": "\u02c8fl\u025bks\u0259bl \u02c8w\u025c\u02d0k\u026a\u014b",
+        "emoji": "\ud83c\udfe0",
         "_legacy": {
             "plural": null,
             "countability": "uncountable",
@@ -337,7 +337,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-12",
+        "id": "B1-NOUN-SOC-052",
         "word": "income",
         "lang": "en",
         "level": "intermediate",
@@ -353,8 +353,8 @@
                 ]
             }
         ],
-        "transcription": "ˈɪnkʌm",
-        "emoji": "💵",
+        "transcription": "\u02c8\u026ank\u028cm",
+        "emoji": "\ud83d\udcb5",
         "_legacy": {
             "classification": "regular",
             "plural": "incomes",
@@ -363,7 +363,7 @@
             "antonyms": [
                 "expense"
             ],
-            "oppositeEmoji": "💸"
+            "oppositeEmoji": "\ud83d\udcb8"
         },
         "legacy_id": "B1-SOC-46",
         "level_code": "B1",
@@ -373,7 +373,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-13",
+        "id": "B1-NOUN-SOC-053",
         "word": "insurance",
         "lang": "en",
         "level": "intermediate",
@@ -389,8 +389,8 @@
                 ]
             }
         ],
-        "transcription": "ɪnˈʃʊərəns",
-        "emoji": "🛡️",
+        "transcription": "\u026an\u02c8\u0283\u028a\u0259r\u0259ns",
+        "emoji": "\ud83d\udee1\ufe0f",
         "_legacy": {
             "classification": "regular",
             "plural": "insurances",
@@ -405,7 +405,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-14",
+        "id": "B1-NOUN-SOC-054",
         "word": "interest rate",
         "lang": "en",
         "level": "intermediate",
@@ -420,8 +420,8 @@
                 ]
             }
         ],
-        "transcription": "ˈɪntrəst reɪt",
-        "emoji": "📊",
+        "transcription": "\u02c8\u026antr\u0259st re\u026at",
+        "emoji": "\ud83d\udcca",
         "_legacy": {
             "plural": "interest rates",
             "countability": "countable",
@@ -435,7 +435,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-15",
+        "id": "B1-NOUN-SOC-055",
         "word": "investment",
         "lang": "en",
         "level": "intermediate",
@@ -451,8 +451,8 @@
                 ]
             }
         ],
-        "transcription": "ɪnˈvɛstmənt",
-        "emoji": "💰",
+        "transcription": "\u026an\u02c8v\u025bstm\u0259nt",
+        "emoji": "\ud83d\udcb0",
         "_legacy": {
             "classification": "regular",
             "plural": "investments",
@@ -467,7 +467,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-16",
+        "id": "B1-NOUN-SOC-056",
         "word": "leadership",
         "lang": "en",
         "level": "intermediate",
@@ -481,8 +481,8 @@
                 ]
             }
         ],
-        "transcription": "ˈliːdəʃɪp",
-        "emoji": "👑",
+        "transcription": "\u02c8li\u02d0d\u0259\u0283\u026ap",
+        "emoji": "\ud83d\udc51",
         "_legacy": {
             "classification": "regular",
             "plural": null,
@@ -497,7 +497,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-17",
+        "id": "B1-NOUN-SOC-057",
         "word": "maternity leave",
         "lang": "en",
         "level": "intermediate",
@@ -512,8 +512,8 @@
                 ]
             }
         ],
-        "transcription": "məˈtɜːnɪti liːv",
-        "emoji": "👶",
+        "transcription": "m\u0259\u02c8t\u025c\u02d0n\u026ati li\u02d0v",
+        "emoji": "\ud83d\udc76",
         "_legacy": {
             "plural": null,
             "countability": "uncountable",
@@ -527,7 +527,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-18",
+        "id": "B1-NOUN-SOC-058",
         "word": "networking",
         "lang": "en",
         "level": "intermediate",
@@ -543,8 +543,8 @@
                 ]
             }
         ],
-        "transcription": "ˈnɛtwɜːkɪŋ",
-        "emoji": "🤝",
+        "transcription": "\u02c8n\u025btw\u025c\u02d0k\u026a\u014b",
+        "emoji": "\ud83e\udd1d",
         "_legacy": {
             "classification": "regular",
             "plural": null,
@@ -559,7 +559,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-19",
+        "id": "B1-NOUN-SOC-059",
         "word": "paternity leave",
         "lang": "en",
         "level": "intermediate",
@@ -573,8 +573,8 @@
                 ]
             }
         ],
-        "transcription": "pəˈtɜːnɪti liːv",
-        "emoji": "🍼",
+        "transcription": "p\u0259\u02c8t\u025c\u02d0n\u026ati li\u02d0v",
+        "emoji": "\ud83c\udf7c",
         "_legacy": {
             "plural": null,
             "countability": "uncountable",
@@ -588,7 +588,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-20",
+        "id": "B1-NOUN-SOC-060",
         "word": "pension",
         "lang": "en",
         "level": "intermediate",
@@ -604,8 +604,8 @@
                 ]
             }
         ],
-        "transcription": "ˈpɛnʃn",
-        "emoji": "👴",
+        "transcription": "\u02c8p\u025bn\u0283n",
+        "emoji": "\ud83d\udc74",
         "_legacy": {
             "classification": "regular",
             "plural": "pensions",
@@ -620,7 +620,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-21",
+        "id": "B1-NOUN-SOC-061",
         "word": "pilot",
         "lang": "en",
         "level": "intermediate",
@@ -641,8 +641,8 @@
                 ]
             }
         ],
-        "transcription": "ˈpaɪlət",
-        "emoji": "🧑‍✈️",
+        "transcription": "\u02c8pa\u026al\u0259t",
+        "emoji": "\ud83e\uddd1\u200d\u2708\ufe0f",
         "_legacy": {
             "classification": "regular",
             "plural": "pilots",
@@ -656,7 +656,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-22",
+        "id": "B1-NOUN-SOC-062",
         "word": "promotion",
         "lang": "en",
         "level": "intermediate",
@@ -670,8 +670,8 @@
                 ]
             }
         ],
-        "transcription": "🇬🇧 prəˈməʊʃn | 🇺🇸 prəˈmoʊʃn",
-        "emoji": "📈",
+        "transcription": "\ud83c\uddec\ud83c\udde7 pr\u0259\u02c8m\u0259\u028a\u0283n | \ud83c\uddfa\ud83c\uddf8 pr\u0259\u02c8mo\u028a\u0283n",
+        "emoji": "\ud83d\udcc8",
         "_legacy": {
             "classification": "regular",
             "plural": "promotions",
@@ -686,7 +686,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-23",
+        "id": "B1-NOUN-SOC-063",
         "word": "redundancy",
         "lang": "en",
         "level": "intermediate",
@@ -702,8 +702,8 @@
                 ]
             }
         ],
-        "transcription": "rɪˈdʌndənsi",
-        "emoji": "📉",
+        "transcription": "r\u026a\u02c8d\u028cnd\u0259nsi",
+        "emoji": "\ud83d\udcc9",
         "_legacy": {
             "classification": "regular",
             "plural": "redundancies",
@@ -718,7 +718,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-24",
+        "id": "B1-NOUN-SOC-064",
         "word": "skill",
         "lang": "en",
         "level": "intermediate",
@@ -733,8 +733,8 @@
                 ]
             }
         ],
-        "transcription": "skɪl",
-        "emoji": "🛠️",
+        "transcription": "sk\u026al",
+        "emoji": "\ud83d\udee0\ufe0f",
         "_legacy": {
             "classification": "regular",
             "plural": "skills",
@@ -749,7 +749,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-25",
+        "id": "B1-NOUN-SOC-065",
         "word": "skill set",
         "lang": "en",
         "level": "intermediate",
@@ -763,8 +763,8 @@
                 ]
             }
         ],
-        "transcription": "skɪl sɛt",
-        "emoji": "🛠️",
+        "transcription": "sk\u026al s\u025bt",
+        "emoji": "\ud83d\udee0\ufe0f",
         "_legacy": {
             "classification": "regular",
             "plural": "skill sets",
@@ -779,7 +779,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-26",
+        "id": "B1-NOUN-SOC-066",
         "word": "software developer",
         "lang": "en",
         "level": "intermediate",
@@ -800,8 +800,8 @@
                 ]
             }
         ],
-        "transcription": "🇬🇧 ˈsɒftweə dɪˈvɛləpə | 🇺🇸 ˈsɑːftweə dɪˈvɛləpər",
-        "emoji": "💻",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8s\u0252ftwe\u0259 d\u026a\u02c8v\u025bl\u0259p\u0259 | \ud83c\uddfa\ud83c\uddf8 \u02c8s\u0251\u02d0ftwe\u0259 d\u026a\u02c8v\u025bl\u0259p\u0259r",
+        "emoji": "\ud83d\udcbb",
         "_legacy": {
             "explanation": "A software developer creates code, while the others are physical structures or objects.",
             "classification": "regular",
@@ -816,7 +816,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-27",
+        "id": "B1-NOUN-SOC-067",
         "word": "tax",
         "lang": "en",
         "level": "intermediate",
@@ -831,8 +831,8 @@
                 ]
             }
         ],
-        "transcription": "tæks",
-        "emoji": "🏛️",
+        "transcription": "t\u00e6ks",
+        "emoji": "\ud83c\udfdb\ufe0f",
         "_legacy": {
             "classification": "regular",
             "plural": "taxes",
@@ -847,7 +847,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-28",
+        "id": "B1-NOUN-SOC-068",
         "word": "tax return",
         "lang": "en",
         "level": "intermediate",
@@ -861,8 +861,8 @@
                 ]
             }
         ],
-        "transcription": "tæks rɪˈtɜːn",
-        "emoji": "📄",
+        "transcription": "t\u00e6ks r\u026a\u02c8t\u025c\u02d0n",
+        "emoji": "\ud83d\udcc4",
         "_legacy": {
             "classification": "regular",
             "plural": "tax returns",
@@ -877,7 +877,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-29",
+        "id": "B1-NOUN-SOC-069",
         "word": "teamwork",
         "lang": "en",
         "level": "intermediate",
@@ -892,8 +892,8 @@
                 ]
             }
         ],
-        "transcription": "ˈtiːmwɜːk",
-        "emoji": "👥",
+        "transcription": "\u02c8ti\u02d0mw\u025c\u02d0k",
+        "emoji": "\ud83d\udc65",
         "_legacy": {
             "classification": "regular",
             "plural": null,
@@ -908,7 +908,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-30",
+        "id": "B1-NOUN-SOC-070",
         "word": "workload",
         "lang": "en",
         "level": "intermediate",
@@ -924,8 +924,8 @@
                 ]
             }
         ],
-        "transcription": "🇬🇧 ˈwɜːkləʊd | 🇺🇸 ˈwɜːkloʊd",
-        "emoji": "📚",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8w\u025c\u02d0kl\u0259\u028ad | \ud83c\uddfa\ud83c\uddf8 \u02c8w\u025c\u02d0klo\u028ad",
+        "emoji": "\ud83d\udcda",
         "_legacy": {
             "classification": "regular",
             "plural": "workloads",
@@ -940,7 +940,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-31",
+        "id": "B1-NOUN-SOC-071",
         "word": "workplace",
         "lang": "en",
         "level": "intermediate",
@@ -954,8 +954,8 @@
                 ]
             }
         ],
-        "transcription": "ˈwɜːkpleɪs",
-        "emoji": "🏢",
+        "transcription": "\u02c8w\u025c\u02d0kple\u026as",
+        "emoji": "\ud83c\udfe2",
         "_legacy": {
             "classification": "regular",
             "plural": "workplaces",

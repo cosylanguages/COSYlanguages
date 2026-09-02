@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-COM-01",
+        "id": "A1-NOUN-COM-001",
         "word": "ball",
-        "emoji": "⚽",
+        "emoji": "\u26bd",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
             }
         ],
         "subtext": "related to sports equipment",
-        "transcription": "bɔl",
+        "transcription": "b\u0254l",
         "lang": "en",
         "level": "starter",
         "theme": "sports",
@@ -31,9 +31,9 @@
         "sub_subcategory": "Athletic_Sports"
     },
     {
-        "id": "A1-NOUN-COM-02",
+        "id": "A1-NOUN-COM-002",
         "word": "baseball",
-        "emoji": "⚾",
+        "emoji": "\u26be",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -47,7 +47,7 @@
             }
         ],
         "subtext": "related to common sports",
-        "transcription": "ˈbeɪsˈbɔl",
+        "transcription": "\u02c8be\u026as\u02c8b\u0254l",
         "lang": "en",
         "level": "starter",
         "theme": "sports",
@@ -60,9 +60,9 @@
         "sub_subcategory": "Athletic_Sports"
     },
     {
-        "id": "A1-NOUN-COM-03",
+        "id": "A1-NOUN-COM-003",
         "word": "basketball",
-        "emoji": "🏀",
+        "emoji": "\ud83c\udfc0",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -76,7 +76,7 @@
             }
         ],
         "subtext": "related to common sports",
-        "transcription": "ˈbæskətˌbɔl",
+        "transcription": "\u02c8b\u00e6sk\u0259t\u02ccb\u0254l",
         "lang": "en",
         "level": "starter",
         "theme": "sports",
@@ -89,9 +89,9 @@
         "sub_subcategory": "Athletic_Sports"
     },
     {
-        "id": "A1-NOUN-COM-04",
+        "id": "A1-NOUN-COM-004",
         "word": "bat",
-        "emoji": "🏏",
+        "emoji": "\ud83c\udfcf",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -105,7 +105,7 @@
             }
         ],
         "subtext": "related to sports equipment",
-        "transcription": "bæt",
+        "transcription": "b\u00e6t",
         "lang": "en",
         "level": "starter",
         "theme": "sports",
@@ -118,9 +118,9 @@
         "sub_subcategory": "Athletic_Sports"
     },
     {
-        "id": "A1-NOUN-COM-05",
+        "id": "A1-NOUN-COM-005",
         "word": "football",
-        "emoji": "⚽",
+        "emoji": "\u26bd",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -137,7 +137,7 @@
                 ]
             }
         ],
-        "transcription": "ˈfʊtˌbɔl",
+        "transcription": "\u02c8f\u028at\u02ccb\u0254l",
         "lang": "en",
         "level": "starter",
         "theme": "sports",
@@ -150,9 +150,9 @@
         "sub_subcategory": "Athletic_Sports"
     },
     {
-        "id": "A1-NOUN-COM-06",
+        "id": "A1-NOUN-COM-006",
         "word": "sport",
-        "emoji": "⚽",
+        "emoji": "\u26bd",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -166,7 +166,7 @@
             }
         ],
         "subtext": "related to common sports",
-        "transcription": "spɔrt",
+        "transcription": "sp\u0254rt",
         "lang": "en",
         "level": "starter",
         "theme": "sports",
@@ -179,9 +179,9 @@
         "sub_subcategory": "Athletic_Sports"
     },
     {
-        "id": "A1-NOUN-COM-07",
+        "id": "A1-NOUN-COM-007",
         "word": "tennis",
-        "emoji": "🎾",
+        "emoji": "\ud83c\udfbe",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -195,7 +195,7 @@
             }
         ],
         "subtext": "related to common sports",
-        "transcription": "ˈtɛnɪs",
+        "transcription": "\u02c8t\u025bn\u026as",
         "lang": "en",
         "level": "starter",
         "theme": "sports",

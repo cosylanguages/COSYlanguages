@@ -2,11 +2,11 @@
     const lang = "en";
     const data = [
     {
-        "id": "C2-ADJ-SOC-01",
+        "id": "C2-ADJ-SOC-001",
         "word": "anachronistic",
-        "emoji": "⌛",
+        "emoji": "\u231b",
         "form": "adjective",
-        "transcription": "əˌnækrəˈnɪstɪk",
+        "transcription": "\u0259\u02ccn\u00e6kr\u0259\u02c8n\u026ast\u026ak",
         "definitions": [
             {
                 "text": "Out of date; belonging to an earlier period.",
@@ -37,11 +37,11 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-ADJ-SOC-02",
+        "id": "C2-ADJ-SOC-002",
         "word": "circumspect",
-        "emoji": "🛡️",
+        "emoji": "\ud83d\udee1\ufe0f",
         "form": "adjective",
-        "transcription": "ˈsɜːkəmspekt",
+        "transcription": "\u02c8s\u025c\u02d0k\u0259mspekt",
         "definitions": [
             {
                 "text": "Careful to consider all circumstances; cautious.",
@@ -72,11 +72,11 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-ADJ-SOC-03",
+        "id": "C2-ADJ-SOC-003",
         "word": "cosmopolitan",
-        "emoji": "🏙️",
+        "emoji": "\ud83c\udfd9\ufe0f",
         "form": "adjective",
-        "transcription": "🇬🇧 ˌkɒzməˈpɒlɪtən | 🇺🇸 ˌkɑːzməˈpɑːlɪtən",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02cck\u0252zm\u0259\u02c8p\u0252l\u026at\u0259n | \ud83c\uddfa\ud83c\uddf8 \u02cck\u0251\u02d0zm\u0259\u02c8p\u0251\u02d0l\u026at\u0259n",
         "definitions": [
             {
                 "text": "Familiar with and at ease in many different countries and cultures; or relating to cosmopolitanism.",
@@ -98,11 +98,11 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-ADJ-SOC-04",
+        "id": "C2-ADJ-SOC-004",
         "word": "covert",
-        "emoji": "🕵️",
+        "emoji": "\ud83d\udd75\ufe0f",
         "form": "adjective",
-        "transcription": "ˈkʌvət",
+        "transcription": "\u02c8k\u028cv\u0259t",
         "definitions": [
             {
                 "text": "Hidden; secret; not openly acknowledged.",
@@ -133,11 +133,11 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-ADJ-SOC-05",
+        "id": "C2-ADJ-SOC-005",
         "word": "impartial",
-        "emoji": "⚖️",
+        "emoji": "\u2696\ufe0f",
         "form": "adjective",
-        "transcription": "ɪmˈpɑːʃl",
+        "transcription": "\u026am\u02c8p\u0251\u02d0\u0283l",
         "definitions": [
             {
                 "text": "Not favouring one side over another; fair.",
@@ -168,11 +168,11 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-ADJ-SOC-06",
+        "id": "C2-ADJ-SOC-006",
         "word": "insidious",
-        "emoji": "🐍",
+        "emoji": "\ud83d\udc0d",
         "form": "adjective",
-        "transcription": "ɪnˈsɪdiəs",
+        "transcription": "\u026an\u02c8s\u026adi\u0259s",
         "definitions": [
             {
                 "text": "Proceeding gradually in a harmful way.",
@@ -203,11 +203,11 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-ADJ-SOC-07",
+        "id": "C2-ADJ-SOC-007",
         "word": "multipolar",
-        "emoji": "🌐",
+        "emoji": "\ud83c\udf10",
         "form": "adjective",
-        "transcription": "🇬🇧 ˌmʌltiˈpəʊlər | 🇺🇸 ˌmʌltiˈpoʊlər",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02ccm\u028clti\u02c8p\u0259\u028al\u0259r | \ud83c\uddfa\ud83c\uddf8 \u02ccm\u028clti\u02c8po\u028al\u0259r",
         "definitions": [
             {
                 "text": "Describing a world order with several centres of power rather than one or two.",
@@ -229,11 +229,11 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-ADJ-SOC-08",
+        "id": "C2-ADJ-SOC-008",
         "word": "normative",
-        "emoji": "📏",
+        "emoji": "\ud83d\udccf",
         "form": "adjective",
-        "transcription": "ˈnɔːmətɪv",
+        "transcription": "\u02c8n\u0254\u02d0m\u0259t\u026av",
         "definitions": [
             {
                 "text": "Relating to a standard; prescribing what should be.",
@@ -264,11 +264,11 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-ADJ-SOC-09",
+        "id": "C2-ADJ-SOC-009",
         "word": "pervasive",
-        "emoji": "🌊",
+        "emoji": "\ud83c\udf0a",
         "form": "adjective",
-        "transcription": "pəˈveɪsɪv",
+        "transcription": "p\u0259\u02c8ve\u026as\u026av",
         "definitions": [
             {
                 "text": "Present throughout; spreading widely.",
@@ -299,11 +299,11 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-ADJ-SOC-10",
+        "id": "C2-ADJ-SOC-010",
         "word": "polarising",
-        "emoji": "🧲",
+        "emoji": "\ud83e\uddf2",
         "form": "adjective",
-        "transcription": "🇬🇧 ˈpəʊləraɪzɪŋ | 🇺🇸 ˈpoʊləraɪzɪŋ",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8p\u0259\u028al\u0259ra\u026az\u026a\u014b | \ud83c\uddfa\ud83c\uddf8 \u02c8po\u028al\u0259ra\u026az\u026a\u014b",
         "definitions": [
             {
                 "text": "Causing people to take opposing positions.",
@@ -334,11 +334,11 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-ADJ-SOC-11",
+        "id": "C2-ADJ-SOC-011",
         "word": "post-colonial",
-        "emoji": "🌍",
+        "emoji": "\ud83c\udf0d",
         "form": "adjective",
-        "transcription": "🇬🇧 ˌpəʊstkəˈləʊniəl | 🇺🇸 ˌpoʊstkəˈloʊniəl",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02ccp\u0259\u028astk\u0259\u02c8l\u0259\u028ani\u0259l | \ud83c\uddfa\ud83c\uddf8 \u02ccpo\u028astk\u0259\u02c8lo\u028ani\u0259l",
         "definitions": [
             {
                 "text": "Relating to the period after colonial rule, or to the critique of colonial legacies.",
@@ -360,11 +360,11 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-ADJ-SOC-12",
+        "id": "C2-ADJ-SOC-012",
         "word": "protracted",
-        "emoji": "⌛",
+        "emoji": "\u231b",
         "form": "adjective",
-        "transcription": "prəˈtræktɪd",
+        "transcription": "pr\u0259\u02c8tr\u00e6kt\u026ad",
         "definitions": [
             {
                 "text": "Lasting longer than expected; prolonged.",
@@ -395,11 +395,11 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-ADJ-SOC-13",
+        "id": "C2-ADJ-SOC-013",
         "word": "seminal",
-        "emoji": "🌱",
+        "emoji": "\ud83c\udf31",
         "form": "adjective",
-        "transcription": "ˈsemɪnl",
+        "transcription": "\u02c8sem\u026anl",
         "definitions": [
             {
                 "text": "Very important and influential; original.",
@@ -430,11 +430,11 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-ADJ-SOC-14",
+        "id": "C2-ADJ-SOC-014",
         "word": "subversive",
-        "emoji": "💣",
+        "emoji": "\ud83d\udca3",
         "form": "adjective",
-        "transcription": "səbˈvɜːsɪv",
+        "transcription": "s\u0259b\u02c8v\u025c\u02d0s\u026av",
         "definitions": [
             {
                 "text": "Intended to undermine an established system.",
@@ -465,11 +465,11 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-ADJ-SOC-15",
+        "id": "C2-ADJ-SOC-015",
         "word": "ubiquitous",
-        "emoji": "🌍",
+        "emoji": "\ud83c\udf0d",
         "form": "adjective",
-        "transcription": "juːˈbɪkwɪtəs",
+        "transcription": "ju\u02d0\u02c8b\u026akw\u026at\u0259s",
         "definitions": [
             {
                 "text": "Appearing everywhere; very common.",
@@ -500,11 +500,11 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-ADJ-SOC-16",
+        "id": "C2-ADJ-SOC-016",
         "word": "unprecedented",
-        "emoji": "🚀",
+        "emoji": "\ud83d\ude80",
         "form": "adjective",
-        "transcription": "ʌnˈpresɪdentɪd",
+        "transcription": "\u028cn\u02c8pres\u026adent\u026ad",
         "definitions": [
             {
                 "text": "Never having happened before.",

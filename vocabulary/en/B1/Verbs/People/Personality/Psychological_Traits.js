@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "B1-VERB-PEO-01",
+        "id": "B1-VERB-PEO-002",
         "word": "believe",
         "lang": "en",
         "level": "intermediate",
@@ -16,8 +16,8 @@
                 ]
             }
         ],
-        "transcription": "bɪˈliːv",
-        "emoji": "💭",
+        "transcription": "b\u026a\u02c8li\u02d0v",
+        "emoji": "\ud83d\udcad",
         "_legacy": {
             "subtext": "believe that / strongly believe / believe in something",
             "classification": "regular",

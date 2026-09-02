@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-HOM-01",
+        "id": "A1-VERB-HOM-007",
         "word": "clean",
-        "emoji": "🧹",
+        "emoji": "\ud83e\uddf9",
         "subtext": "clean the flat / clean the kitchen / clean up / clean regularly",
         "form": "verb",
         "definitions": [
@@ -36,9 +36,9 @@
         "sub_subcategory": "Daily_Chores"
     },
     {
-        "id": "A1-VERB-HOM-02",
+        "id": "A1-VERB-HOM-008",
         "word": "clean",
-        "emoji": "🧹",
+        "emoji": "\ud83e\uddf9",
         "subtext": "clean the flat / clean the kitchen / clean up / clean regularly",
         "form": "verb",
         "definitions": [
@@ -76,9 +76,9 @@
         "sub_subcategory": "Daily_Chores"
     },
     {
-        "id": "A1-VERB-HOM-03",
+        "id": "A1-VERB-HOM-009",
         "word": "fill",
-        "emoji": "🫗",
+        "emoji": "\ud83e\uded7",
         "form": "verb",
         "subtext": "fill a glass / fill in a form",
         "definitions": [
@@ -94,7 +94,7 @@
         "v2": "filled",
         "v3": "filled",
         "group": "regular",
-        "transcription": "fɪl",
+        "transcription": "f\u026al",
         "lang": "en",
         "level": "starter",
         "theme": "household_tasks",
@@ -110,9 +110,9 @@
         "sub_subcategory": "Daily_Chores"
     },
     {
-        "id": "A1-VERB-HOM-04",
+        "id": "A1-VERB-HOM-010",
         "word": "fill",
-        "emoji": "🫗",
+        "emoji": "\ud83e\uded7",
         "form": "verb",
         "subtext": "fill a glass / fill in a form",
         "definitions": [
@@ -128,7 +128,7 @@
         "v2": "filled",
         "v3": "filled",
         "group": "regular",
-        "transcription": "fɪl",
+        "transcription": "f\u026al",
         "auxiliary": "have",
         "v4": "filling",
         "lang": "en",
@@ -146,9 +146,9 @@
         "sub_subcategory": "Daily_Chores"
     },
     {
-        "id": "A1-VERB-HOM-05",
+        "id": "A1-VERB-HOM-011",
         "word": "fix",
-        "emoji": "🛠️",
+        "emoji": "\ud83d\udee0\ufe0f",
         "form": "verb",
         "subtext": "fix a problem / fix a computer",
         "synonyms": [
@@ -167,7 +167,7 @@
         "v2": "fixed",
         "v3": "fixed",
         "group": "regular",
-        "transcription": "fɪks",
+        "transcription": "f\u026aks",
         "lang": "en",
         "level": "starter",
         "theme": "household_tasks",
@@ -183,9 +183,9 @@
         "sub_subcategory": "Daily_Chores"
     },
     {
-        "id": "A1-VERB-HOM-06",
+        "id": "A1-VERB-HOM-012",
         "word": "fix",
-        "emoji": "🛠️",
+        "emoji": "\ud83d\udee0\ufe0f",
         "form": "verb",
         "subtext": "fix a problem / fix a computer",
         "synonyms": [
@@ -204,7 +204,7 @@
         "v2": "fixed",
         "v3": "fixed",
         "group": "regular",
-        "transcription": "fɪks",
+        "transcription": "f\u026aks",
         "auxiliary": "have",
         "v4": "fixing",
         "lang": "en",
@@ -222,9 +222,9 @@
         "sub_subcategory": "Daily_Chores"
     },
     {
-        "id": "A1-VERB-HOM-07",
+        "id": "A1-VERB-HOM-013",
         "word": "move",
-        "emoji": "📦",
+        "emoji": "\ud83d\udce6",
         "subtext": "move to a new place / move in / move out / move house",
         "form": "verb",
         "definitions": [
@@ -256,9 +256,9 @@
         "sub_subcategory": "Daily_Chores"
     },
     {
-        "id": "A1-VERB-HOM-08",
+        "id": "A1-VERB-HOM-014",
         "word": "move",
-        "emoji": "📦",
+        "emoji": "\ud83d\udce6",
         "subtext": "move to a new place / move in / move out / move house",
         "form": "verb",
         "definitions": [
@@ -292,9 +292,9 @@
         "sub_subcategory": "Daily_Chores"
     },
     {
-        "id": "A1-VERB-HOM-09",
+        "id": "A1-VERB-HOM-015",
         "word": "wash",
-        "emoji": "🧼",
+        "emoji": "\ud83e\uddfc",
         "subtext": "wash the dishes / wash clothes / wash your hands",
         "form": "verb",
         "definitions": [
@@ -311,7 +311,7 @@
         "v2": "washed",
         "v3": "washed",
         "group": "regular",
-        "transcription": "wɑʃ",
+        "transcription": "w\u0251\u0283",
         "lang": "en",
         "level": "starter",
         "theme": "household_tasks",
@@ -327,9 +327,9 @@
         "sub_subcategory": "Daily_Chores"
     },
     {
-        "id": "A1-VERB-HOM-10",
+        "id": "A1-VERB-HOM-016",
         "word": "wash",
-        "emoji": "🧼",
+        "emoji": "\ud83e\uddfc",
         "subtext": "wash the dishes / wash clothes / wash your hands",
         "form": "verb",
         "definitions": [
@@ -346,7 +346,7 @@
         "v2": "washed",
         "v3": "washed",
         "group": "regular",
-        "transcription": "wɑʃ",
+        "transcription": "w\u0251\u0283",
         "synonyms": [
             "clean"
         ],

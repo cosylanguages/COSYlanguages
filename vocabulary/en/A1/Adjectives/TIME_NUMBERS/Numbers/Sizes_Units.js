@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-ADJ-TIM-01",
+        "id": "A1-ADJ-TIM-066",
         "word": "narrow",
-        "emoji": "⬇️",
+        "emoji": "\u2b07\ufe0f",
         "form": "adjective",
         "subtext": "a narrow street / too narrow",
         "synonyms": [
@@ -20,7 +20,7 @@
         ],
         "comparative": "narrower",
         "superlative": "the narrowest",
-        "transcription": "ˈnɛroʊ",
+        "transcription": "\u02c8n\u025bro\u028a",
         "lang": "en",
         "level": "starter",
         "theme": "size_measurements",
@@ -36,9 +36,9 @@
         "sub_subcategory": "Sizes_Units"
     },
     {
-        "id": "A1-ADJ-TIM-02",
+        "id": "A1-ADJ-TIM-067",
         "word": "narrow",
-        "emoji": "⬇️",
+        "emoji": "\u2b07\ufe0f",
         "form": "adjective",
         "subtext": "a narrow street / too narrow",
         "synonyms": [
@@ -54,7 +54,7 @@
         ],
         "comparative": "narrower",
         "superlative": "the narrowest",
-        "transcription": "ˈnɛroʊ",
+        "transcription": "\u02c8n\u025bro\u028a",
         "lang": "en",
         "level": "starter",
         "theme": "size_measurements",
@@ -70,9 +70,9 @@
         "sub_subcategory": "Sizes_Units"
     },
     {
-        "id": "A1-ADJ-TIM-03",
+        "id": "A1-ADJ-TIM-068",
         "word": "wide",
-        "emoji": "↔️",
+        "emoji": "\u2194\ufe0f",
         "form": "adjective",
         "subtext": "a wide road / wide open",
         "synonyms": [
@@ -88,7 +88,7 @@
         ],
         "comparative": "wider",
         "superlative": "the widest",
-        "transcription": "waɪd",
+        "transcription": "wa\u026ad",
         "lang": "en",
         "level": "starter",
         "theme": "size_measurements",
@@ -104,9 +104,9 @@
         "sub_subcategory": "Sizes_Units"
     },
     {
-        "id": "A1-ADJ-TIM-04",
+        "id": "A1-ADJ-TIM-069",
         "word": "wide",
-        "emoji": "↔️",
+        "emoji": "\u2194\ufe0f",
         "form": "adjective",
         "subtext": "a wide road / wide open",
         "synonyms": [
@@ -122,7 +122,7 @@
         ],
         "comparative": "wider",
         "superlative": "the widest",
-        "transcription": "waɪd",
+        "transcription": "wa\u026ad",
         "lang": "en",
         "level": "starter",
         "theme": "size_measurements",

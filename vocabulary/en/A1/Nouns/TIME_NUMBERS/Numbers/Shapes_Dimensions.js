@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-TIM-01",
+        "id": "A1-NOUN-TIM-002",
         "word": "bottom",
-        "emoji": "⬇️",
+        "emoji": "\u2b07\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -17,7 +17,7 @@
             }
         ],
         "subtext": "related to size shape",
-        "transcription": "ˈbɑtəm",
+        "transcription": "\u02c8b\u0251t\u0259m",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -33,9 +33,9 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-NOUN-TIM-02",
+        "id": "A1-NOUN-TIM-003",
         "word": "top",
-        "emoji": "🔝",
+        "emoji": "\ud83d\udd1d",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -48,7 +48,7 @@
             }
         ],
         "subtext": "related to size shape",
-        "transcription": "tɔp",
+        "transcription": "t\u0254p",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",

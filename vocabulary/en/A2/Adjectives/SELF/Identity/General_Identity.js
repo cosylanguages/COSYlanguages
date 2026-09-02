@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A2-ADJ-SEL-01",
+        "id": "A2-ADJ-SEL-089",
         "word": "conscious",
-        "emoji": "🧠",
+        "emoji": "\ud83e\udde0",
         "form": "adjective",
         "definitions": [
             {
@@ -20,7 +20,7 @@
         ],
         "comparative": "more conscious",
         "superlative": "the most conscious",
-        "transcription": "🇬🇧 ˈkɒnʃəs | 🇺🇸 ˈkɑːnʃəs",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8k\u0252n\u0283\u0259s | \ud83c\uddfa\ud83c\uddf8 \u02c8k\u0251\u02d0n\u0283\u0259s",
         "lang": "en",
         "level": "elementary",
         "theme": "health_medicine",
@@ -33,9 +33,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-02",
+        "id": "A2-ADJ-SEL-090",
         "word": "guilty",
-        "emoji": "⚖️",
+        "emoji": "\u2696\ufe0f",
         "form": "adjective",
         "definitions": [
             {
@@ -51,7 +51,7 @@
         ],
         "comparative": "more guilty",
         "superlative": "the most guilty",
-        "transcription": "ˈɡɪlti",
+        "transcription": "\u02c8\u0261\u026alti",
         "lang": "en",
         "level": "elementary",
         "theme": "psychology",
@@ -64,9 +64,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-03",
+        "id": "A2-ADJ-SEL-091",
         "word": "illegal",
-        "emoji": "🚫",
+        "emoji": "\ud83d\udeab",
         "form": "adjective",
         "definitions": [
             {
@@ -82,7 +82,7 @@
         ],
         "comparative": "more illegal",
         "superlative": "the most illegal",
-        "transcription": "ɪˈliːɡl",
+        "transcription": "\u026a\u02c8li\u02d0\u0261l",
         "lang": "en",
         "level": "elementary",
         "theme": "psychology",
@@ -95,9 +95,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-04",
+        "id": "A2-ADJ-SEL-092",
         "word": "innocent",
-        "emoji": "😇",
+        "emoji": "\ud83d\ude07",
         "form": "adjective",
         "definitions": [
             {
@@ -113,7 +113,7 @@
         ],
         "comparative": "more innocent",
         "superlative": "the most innocent",
-        "transcription": "ˈɪnəsnt",
+        "transcription": "\u02c8\u026an\u0259snt",
         "lang": "en",
         "level": "elementary",
         "theme": "psychology",
@@ -126,9 +126,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-05",
+        "id": "A2-ADJ-SEL-093",
         "word": "legal",
-        "emoji": "⚖️",
+        "emoji": "\u2696\ufe0f",
         "form": "adjective",
         "definitions": [
             {
@@ -144,7 +144,7 @@
         ],
         "comparative": "more legal",
         "superlative": "the most legal",
-        "transcription": "ˈliːɡl",
+        "transcription": "\u02c8li\u02d0\u0261l",
         "lang": "en",
         "level": "elementary",
         "theme": "psychology",
@@ -157,9 +157,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-06",
+        "id": "A2-ADJ-SEL-094",
         "word": "medical",
-        "emoji": "🩺",
+        "emoji": "\ud83e\ude7a",
         "form": "adjective",
         "definitions": [
             {
@@ -176,7 +176,7 @@
         ],
         "comparative": "more medical",
         "superlative": "the most medical",
-        "transcription": "ˈmɛdɪkl",
+        "transcription": "\u02c8m\u025bd\u026akl",
         "lang": "en",
         "level": "elementary",
         "theme": "health_medicine",
@@ -189,9 +189,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-07",
+        "id": "A2-ADJ-SEL-095",
         "word": "mental",
-        "emoji": "🧠",
+        "emoji": "\ud83e\udde0",
         "form": "adjective",
         "definitions": [
             {
@@ -207,7 +207,7 @@
         ],
         "comparative": "more mental",
         "superlative": "the most mental",
-        "transcription": "ˈmɛntl",
+        "transcription": "\u02c8m\u025bntl",
         "lang": "en",
         "level": "elementary",
         "theme": "health_medicine",
@@ -220,9 +220,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A2-ADJ-SEL-08",
+        "id": "A2-ADJ-SEL-096",
         "word": "physical",
-        "emoji": "💪",
+        "emoji": "\ud83d\udcaa",
         "form": "adjective",
         "definitions": [
             {
@@ -238,7 +238,7 @@
         ],
         "comparative": "more physical",
         "superlative": "the most physical",
-        "transcription": "ˈfɪzɪkl",
+        "transcription": "\u02c8f\u026az\u026akl",
         "lang": "en",
         "level": "elementary",
         "theme": "health_medicine",

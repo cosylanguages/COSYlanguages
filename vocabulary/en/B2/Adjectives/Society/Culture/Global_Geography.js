@@ -2,11 +2,11 @@
     const lang = "en";
     const data = [
     {
-        "id": "B2-ADJ-SOC-01",
+        "id": "B2-ADJ-SOC-031",
         "word": "diverse",
-        "emoji": "🌍",
+        "emoji": "\ud83c\udf0d",
         "form": "adjective",
-        "transcription": "daɪˈvɜːs",
+        "transcription": "da\u026a\u02c8v\u025c\u02d0s",
         "subtext": "Neutral | very diverse / hugely diverse / ethnically diverse",
         "definitions": [
             {

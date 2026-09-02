@@ -2,12 +2,12 @@
     const lang = "en";
     const data = [
     {
-        "id": "C1-VERB-LAW-01",
+        "id": "C1-VERB-LAW-001",
         "word": "accelerate",
-        "emoji": "🚀",
+        "emoji": "\ud83d\ude80",
         "subtext": "accelerate growth / accelerate change / accelerate the process",
         "form": "verb",
-        "transcription": "əkˈseləreɪt",
+        "transcription": "\u0259k\u02c8sel\u0259re\u026at",
         "definitions": [
             {
                 "text": "To increase the speed of something; to cause to happen sooner.",
@@ -35,12 +35,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-02",
+        "id": "C1-VERB-LAW-002",
         "word": "adhere",
-        "emoji": "📎",
+        "emoji": "\ud83d\udcce",
         "subtext": "adhere to a rule / adhere to a principle / strict adherence",
         "form": "verb",
-        "transcription": "🇬🇧 ədˈhɪə | 🇺🇸 ədˈhɪər",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u0259d\u02c8h\u026a\u0259 | \ud83c\uddfa\ud83c\uddf8 \u0259d\u02c8h\u026a\u0259r",
         "definitions": [
             {
                 "text": "To follow or stick to a rule or principle.",
@@ -68,12 +68,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-03",
+        "id": "C1-VERB-LAW-003",
         "word": "articulate",
-        "emoji": "🗣️",
+        "emoji": "\ud83d\udde3\ufe0f",
         "subtext": "articulate an idea / well-articulated / articulate clearly",
         "form": "verb",
-        "transcription": "ɑːˈtɪkjuleɪt",
+        "transcription": "\u0251\u02d0\u02c8t\u026akjule\u026at",
         "definitions": [
             {
                 "text": "To express thoughts or feelings fluently and coherently.",
@@ -101,12 +101,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-04",
+        "id": "C1-VERB-LAW-004",
         "word": "assert",
-        "emoji": "‼️",
+        "emoji": "\u203c\ufe0f",
         "subtext": "assert a right / assert yourself / assertive communication",
         "form": "verb",
-        "transcription": "əˈsɜːt",
+        "transcription": "\u0259\u02c8s\u025c\u02d0t",
         "definitions": [
             {
                 "text": "To state something confidently and directly.",
@@ -134,12 +134,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-05",
+        "id": "C1-VERB-LAW-005",
         "word": "attain",
-        "emoji": "🏆",
+        "emoji": "\ud83c\udfc6",
         "subtext": "attain a qualification / attain a goal / attain a standard",
         "form": "verb",
-        "transcription": "əˈteɪn",
+        "transcription": "\u0259\u02c8te\u026an",
         "definitions": [
             {
                 "text": "To achieve something after effort.",
@@ -167,12 +167,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-06",
+        "id": "C1-VERB-LAW-006",
         "word": "bear out",
-        "emoji": "✅",
+        "emoji": "\u2705",
         "subtext": "bear out a theory / be borne out by evidence",
         "form": "verb",
-        "transcription": "beə aʊt",
+        "transcription": "be\u0259 a\u028at",
         "definitions": [
             {
                 "text": "To confirm or support a theory or claim.",
@@ -199,12 +199,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-07",
+        "id": "C1-VERB-LAW-007",
         "word": "bring about",
-        "emoji": "✨",
+        "emoji": "\u2728",
         "subtext": "bring about change / bring about a result / bring about reform",
         "form": "verb",
-        "transcription": "brɪŋ əˈbaʊt",
+        "transcription": "br\u026a\u014b \u0259\u02c8ba\u028at",
         "definitions": [
             {
                 "text": "To cause something to happen.",
@@ -231,12 +231,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-08",
+        "id": "C1-VERB-LAW-008",
         "word": "call into question",
-        "emoji": "❓",
+        "emoji": "\u2753",
         "subtext": "call into question / be called into question",
         "form": "verb",
-        "transcription": "kɔːl ˈɪntə ˈkwestʃən",
+        "transcription": "k\u0254\u02d0l \u02c8\u026ant\u0259 \u02c8kwest\u0283\u0259n",
         "definitions": [
             {
                 "text": "To cause doubt about something.",
@@ -264,12 +264,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-09",
+        "id": "C1-VERB-LAW-009",
         "word": "cease",
-        "emoji": "🛑",
+        "emoji": "\ud83d\uded1",
         "subtext": "cease operations / cease to exist / cease trading",
         "form": "verb",
-        "transcription": "siːs",
+        "transcription": "si\u02d0s",
         "definitions": [
             {
                 "text": "To stop doing something; to come to an end.",
@@ -297,12 +297,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-10",
+        "id": "C1-VERB-LAW-010",
         "word": "challenge",
-        "emoji": "🥊",
+        "emoji": "\ud83e\udd4a",
         "subtext": "challenge assumptions / challenge authority / challenge the status quo",
         "form": "verb",
-        "transcription": "ˈtʃælɪndʒ",
+        "transcription": "\u02c8t\u0283\u00e6l\u026and\u0292",
         "definitions": [
             {
                 "text": "To question the validity or truth of something.",
@@ -330,12 +330,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-11",
+        "id": "C1-VERB-LAW-011",
         "word": "characterise",
-        "emoji": "🖋️",
+        "emoji": "\ud83d\udd8b\ufe0f",
         "subtext": "characterise something as / be characterised by / characterise a period",
         "form": "verb",
-        "transcription": "ˈkærəktəraɪz",
+        "transcription": "\u02c8k\u00e6r\u0259kt\u0259ra\u026az",
         "definitions": [
             {
                 "text": "To describe the nature or key features of something.",
@@ -363,12 +363,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-12",
+        "id": "C1-VERB-LAW-012",
         "word": "commodify",
-        "emoji": "🏷️",
+        "emoji": "\ud83c\udff7\ufe0f",
         "subtext": "commodify relationships / commodify culture / process of commodification",
         "form": "verb",
-        "transcription": "🇬🇧 kəˈmɒdɪfaɪ | 🇺🇸 kəˈmɑːdɪfaɪ",
+        "transcription": "\ud83c\uddec\ud83c\udde7 k\u0259\u02c8m\u0252d\u026afa\u026a | \ud83c\uddfa\ud83c\uddf8 k\u0259\u02c8m\u0251\u02d0d\u026afa\u026a",
         "definitions": [
             {
                 "text": "To treat something as a commercial product, especially something that should not be.",
@@ -396,12 +396,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-13",
+        "id": "C1-VERB-LAW-013",
         "word": "comprise",
-        "emoji": "🧩",
+        "emoji": "\ud83e\udde9",
         "subtext": "comprise of / be comprised of / comprise several elements",
         "form": "verb",
-        "transcription": "kəmˈpraɪz",
+        "transcription": "k\u0259m\u02c8pra\u026az",
         "definitions": [
             {
                 "text": "To consist of or be made up of parts.",
@@ -429,12 +429,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-14",
+        "id": "C1-VERB-LAW-014",
         "word": "conceal",
-        "emoji": "🙈",
+        "emoji": "\ud83d\ude48",
         "subtext": "conceal information / conceal the truth / deliberately conceal",
         "form": "verb",
-        "transcription": "kənˈsiːl",
+        "transcription": "k\u0259n\u02c8si\u02d0l",
         "definitions": [
             {
                 "text": "To hide something or keep it secret.",
@@ -462,12 +462,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-15",
+        "id": "C1-VERB-LAW-015",
         "word": "contend",
-        "emoji": "🗣️",
+        "emoji": "\ud83d\udde3\ufe0f",
         "subtext": "contend that / strongly contend / the argument contends",
         "form": "verb",
-        "transcription": "kənˈtend",
+        "transcription": "k\u0259n\u02c8tend",
         "definitions": [
             {
                 "text": "To argue or assert something strongly.",
@@ -495,12 +495,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-16",
+        "id": "C1-VERB-LAW-016",
         "word": "contextualise",
-        "emoji": "🖼️",
+        "emoji": "\ud83d\uddbc\ufe0f",
         "subtext": "contextualise findings / contextualise within / contextualise an argument",
         "form": "verb",
-        "transcription": "kənˈtekstʃuəlaɪz",
+        "transcription": "k\u0259n\u02c8tekst\u0283u\u0259la\u026az",
         "definitions": [
             {
                 "text": "To place something in its broader context to aid understanding.",
@@ -528,12 +528,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-17",
+        "id": "C1-VERB-LAW-017",
         "word": "convey",
-        "emoji": "✉️",
+        "emoji": "\u2709\ufe0f",
         "subtext": "convey a message / convey information / convey clearly",
         "form": "verb",
-        "transcription": "kənˈveɪ",
+        "transcription": "k\u0259n\u02c8ve\u026a",
         "definitions": [
             {
                 "text": "To communicate or make known a message or idea.",
@@ -561,12 +561,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-18",
+        "id": "C1-VERB-LAW-018",
         "word": "cultivate",
-        "emoji": "🌱",
+        "emoji": "\ud83c\udf31",
         "subtext": "cultivate a skill / cultivate relationships / cultivate an interest",
         "form": "verb",
-        "transcription": "ˈkʌltɪveɪt",
+        "transcription": "\u02c8k\u028clt\u026ave\u026at",
         "definitions": [
             {
                 "text": "To develop and nurture a skill, relationship or attitude.",
@@ -594,12 +594,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-19",
+        "id": "C1-VERB-LAW-019",
         "word": "devote",
-        "emoji": "❤️",
+        "emoji": "\u2764\ufe0f",
         "subtext": "devote time to / devote yourself to / be devoted to",
         "form": "verb",
-        "transcription": "🇬🇧 dɪˈvəʊt | 🇺🇸 dɪˈvoʊt",
+        "transcription": "\ud83c\uddec\ud83c\udde7 d\u026a\u02c8v\u0259\u028at | \ud83c\uddfa\ud83c\uddf8 d\u026a\u02c8vo\u028at",
         "definitions": [
             {
                 "text": "To give time or effort exclusively to something.",
@@ -627,12 +627,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-20",
+        "id": "C1-VERB-LAW-020",
         "word": "elaborate",
-        "emoji": "➕",
+        "emoji": "\u2795",
         "subtext": "elaborate on / elaborate further / need to elaborate",
         "form": "verb",
-        "transcription": "ɪˈlæbəreɪt",
+        "transcription": "\u026a\u02c8l\u00e6b\u0259re\u026at",
         "definitions": [
             {
                 "text": "To add more detail or explanation to something said or written.",
@@ -660,12 +660,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-21",
+        "id": "C1-VERB-LAW-021",
         "word": "elide",
-        "emoji": "🌫️",
+        "emoji": "\ud83c\udf2b\ufe0f",
         "subtext": "elide distinctions / elide differences / elide details",
         "form": "verb",
-        "transcription": "ɪˈlaɪd",
+        "transcription": "\u026a\u02c8la\u026ad",
         "definitions": [
             {
                 "text": "To omit or ignore a distinction; to merge or obscure differences.",
@@ -693,12 +693,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-22",
+        "id": "C1-VERB-LAW-022",
         "word": "elucidate",
-        "emoji": "💡",
+        "emoji": "\ud83d\udca1",
         "subtext": "elucidate a point / elucidate the relationship / help elucidate",
         "form": "verb",
-        "transcription": "ɪˈluːsɪdeɪt",
+        "transcription": "\u026a\u02c8lu\u02d0s\u026ade\u026at",
         "definitions": [
             {
                 "text": "To make something clear by explaining it in detail.",
@@ -726,12 +726,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-23",
+        "id": "C1-VERB-LAW-023",
         "word": "embrace",
-        "emoji": "🤗",
+        "emoji": "\ud83e\udd17",
         "subtext": "embrace change / embrace an idea / embrace new technology",
         "form": "verb",
-        "transcription": "ɪmˈbreɪs",
+        "transcription": "\u026am\u02c8bre\u026as",
         "definitions": [
             {
                 "text": "To accept something enthusiastically.",
@@ -759,12 +759,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-24",
+        "id": "C1-VERB-LAW-024",
         "word": "extrapolate",
-        "emoji": "📈",
+        "emoji": "\ud83d\udcc8",
         "subtext": "extrapolate from / extrapolate data / extrapolate conclusions",
         "form": "verb",
-        "transcription": "ɪkˈstræpəleɪt",
+        "transcription": "\u026ak\u02c8str\u00e6p\u0259le\u026at",
         "definitions": [
             {
                 "text": "To extend conclusions from known data to unknown situations.",
@@ -792,12 +792,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-25",
+        "id": "C1-VERB-LAW-025",
         "word": "facilitate",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "subtext": "facilitate a process / facilitate communication / facilitate change",
         "form": "verb",
-        "transcription": "fəˈsɪlɪteɪt",
+        "transcription": "f\u0259\u02c8s\u026al\u026ate\u026at",
         "definitions": [
             {
                 "text": "To make something easier or help it happen.",
@@ -825,12 +825,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-26",
+        "id": "C1-VERB-LAW-026",
         "word": "generate",
-        "emoji": "⚡",
+        "emoji": "\u26a1",
         "subtext": "generate revenue / generate ideas / generate interest",
         "form": "verb",
-        "transcription": "ˈdʒenəreɪt",
+        "transcription": "\u02c8d\u0292en\u0259re\u026at",
         "definitions": [
             {
                 "text": "To produce something; to create.",
@@ -858,12 +858,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-27",
+        "id": "C1-VERB-LAW-027",
         "word": "give way to",
-        "emoji": "⬇️",
+        "emoji": "\u2b07\ufe0f",
         "subtext": "give way to pressure / give way to a trend",
         "form": "verb",
-        "transcription": "ɡɪv weɪ tuː",
+        "transcription": "\u0261\u026av we\u026a tu\u02d0",
         "definitions": [
             {
                 "text": "To be replaced by something else; to yield to pressure.",
@@ -890,12 +890,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-28",
+        "id": "C1-VERB-LAW-028",
         "word": "hinder",
-        "emoji": "🚧",
+        "emoji": "\ud83d\udea7",
         "subtext": "hinder progress / hinder growth / hinder someone from doing",
         "form": "verb",
-        "transcription": "🇬🇧 ˈhɪndə | 🇺🇸 ˈhɪndər",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8h\u026and\u0259 | \ud83c\uddfa\ud83c\uddf8 \u02c8h\u026and\u0259r",
         "definitions": [
             {
                 "text": "To slow down or make something difficult.",
@@ -923,12 +923,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-29",
+        "id": "C1-VERB-LAW-029",
         "word": "hypothesise",
-        "emoji": "🧪",
+        "emoji": "\ud83e\uddea",
         "subtext": "hypothesise that / hypothesise a connection / working hypothesis",
         "form": "verb",
-        "transcription": "🇬🇧 haɪˈpɒθəsaɪz | 🇺🇸 haɪˈpɑːθəsaɪz",
+        "transcription": "\ud83c\uddec\ud83c\udde7 ha\u026a\u02c8p\u0252\u03b8\u0259sa\u026az | \ud83c\uddfa\ud83c\uddf8 ha\u026a\u02c8p\u0251\u02d0\u03b8\u0259sa\u026az",
         "definitions": [
             {
                 "text": "To put forward a hypothesis or tentative explanation.",
@@ -956,12 +956,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-30",
+        "id": "C1-VERB-LAW-030",
         "word": "initiate",
-        "emoji": "▶️",
+        "emoji": "\u25b6\ufe0f",
         "subtext": "initiate a process / initiate a conversation / initiate change",
         "form": "verb",
-        "transcription": "ɪˈnɪʃieɪt",
+        "transcription": "\u026a\u02c8n\u026a\u0283ie\u026at",
         "definitions": [
             {
                 "text": "To cause something to begin.",
@@ -989,12 +989,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-31",
+        "id": "C1-VERB-LAW-031",
         "word": "interrogate",
-        "emoji": "🔍",
+        "emoji": "\ud83d\udd0d",
         "subtext": "interrogate assumptions / interrogate data / interrogate a text",
         "form": "verb",
-        "transcription": "ɪnˈterəɡeɪt",
+        "transcription": "\u026an\u02c8ter\u0259\u0261e\u026at",
         "definitions": [
             {
                 "text": "To question something very closely and critically.",
@@ -1022,12 +1022,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-32",
+        "id": "C1-VERB-LAW-032",
         "word": "mitigate",
-        "emoji": "🛡️",
+        "emoji": "\ud83d\udee1\ufe0f",
         "subtext": "mitigate risk / mitigate the impact / mitigate against",
         "form": "verb",
-        "transcription": "ˈmɪtɪɡeɪt",
+        "transcription": "\u02c8m\u026at\u026a\u0261e\u026at",
         "definitions": [
             {
                 "text": "To make something less severe or serious.",
@@ -1055,12 +1055,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-33",
+        "id": "C1-VERB-LAW-033",
         "word": "negotiate",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "subtext": "negotiate terms / negotiate a deal / negotiate a salary",
         "form": "verb",
-        "transcription": "🇬🇧 nɪˈɡəʊʃieɪt | 🇺🇸 nɪˈɡoʊʃieɪt",
+        "transcription": "\ud83c\uddec\ud83c\udde7 n\u026a\u02c8\u0261\u0259\u028a\u0283ie\u026at | \ud83c\uddfa\ud83c\uddf8 n\u026a\u02c8\u0261o\u028a\u0283ie\u026at",
         "definitions": [
             {
                 "text": "To discuss to reach an agreement.",
@@ -1088,12 +1088,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-34",
+        "id": "C1-VERB-LAW-034",
         "word": "normalise",
-        "emoji": "📏",
+        "emoji": "\ud83d\udccf",
         "subtext": "normalise a behaviour / normalise the idea / increasingly normalised",
         "form": "verb",
-        "transcription": "ˈnɔːməlaɪz",
+        "transcription": "\u02c8n\u0254\u02d0m\u0259la\u026az",
         "definitions": [
             {
                 "text": "To cause something unusual to be regarded as normal.",
@@ -1121,12 +1121,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-35",
+        "id": "C1-VERB-LAW-035",
         "word": "nuance",
-        "emoji": "🎨",
+        "emoji": "\ud83c\udfa8",
         "subtext": "nuance an argument / a nuanced position / lack nuance",
         "form": "verb",
-        "transcription": "ˈnjuːɑːns",
+        "transcription": "\u02c8nju\u02d0\u0251\u02d0ns",
         "definitions": [
             {
                 "text": "To give subtle and fine distinctions to an argument or position.",
@@ -1154,12 +1154,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-36",
+        "id": "C1-VERB-LAW-036",
         "word": "perpetuate",
-        "emoji": "🔄",
+        "emoji": "\ud83d\udd04",
         "subtext": "perpetuate a myth / perpetuate inequality / perpetuate a cycle",
         "form": "verb",
-        "transcription": "pəˈpetʃueɪt",
+        "transcription": "p\u0259\u02c8pet\u0283ue\u026at",
         "definitions": [
             {
                 "text": "To make something continue indefinitely, especially something bad.",
@@ -1187,12 +1187,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-37",
+        "id": "C1-VERB-LAW-037",
         "word": "posit",
-        "emoji": "📍",
+        "emoji": "\ud83d\udccd",
         "subtext": "posit a theory / posit that / posit the existence of",
         "form": "verb",
-        "transcription": "🇬🇧 ˈpɒzɪt | 🇺🇸 ˈpɑːzɪt",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8p\u0252z\u026at | \ud83c\uddfa\ud83c\uddf8 \u02c8p\u0251\u02d0z\u026at",
         "definitions": [
             {
                 "text": "To suggest or assume the existence of something as a basis for argument.",
@@ -1220,12 +1220,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-38",
+        "id": "C1-VERB-LAW-038",
         "word": "problematise",
-        "emoji": "❓",
+        "emoji": "\u2753",
         "subtext": "problematise a concept / problematise the idea / problematise assumptions",
         "form": "verb",
-        "transcription": "🇬🇧 ˈprɒbləmətaɪz | 🇺🇸 ˈprɑːbləmətaɪz",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8pr\u0252bl\u0259m\u0259ta\u026az | \ud83c\uddfa\ud83c\uddf8 \u02c8pr\u0251\u02d0bl\u0259m\u0259ta\u026az",
         "definitions": [
             {
                 "text": "To treat something as a problem worthy of critical analysis.",
@@ -1253,12 +1253,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-39",
+        "id": "C1-VERB-LAW-039",
         "word": "qualify",
-        "emoji": "🏷️",
+        "emoji": "\ud83c\udff7\ufe0f",
         "subtext": "qualify a statement / with the caveat / qualifying remark",
         "form": "verb",
-        "transcription": "🇬🇧 ˈkwɒlɪfaɪ | 🇺🇸 ˈkwɑːlɪfaɪ",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8kw\u0252l\u026afa\u026a | \ud83c\uddfa\ud83c\uddf8 \u02c8kw\u0251\u02d0l\u026afa\u026a",
         "definitions": [
             {
                 "text": "To modify a statement to limit its scope or add conditions.",
@@ -1286,12 +1286,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-40",
+        "id": "C1-VERB-LAW-040",
         "word": "reconcile",
-        "emoji": "⚖️",
+        "emoji": "\u2696\ufe0f",
         "subtext": "reconcile ideas / hard to reconcile / reconcile differences",
         "form": "verb",
-        "transcription": "ˈrekənsaɪl",
+        "transcription": "\u02c8rek\u0259nsa\u026al",
         "definitions": [
             {
                 "text": "To make two apparently conflicting things compatible.",
@@ -1319,12 +1319,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-41",
+        "id": "C1-VERB-LAW-041",
         "word": "reinforce",
-        "emoji": "🏗️",
+        "emoji": "\ud83c\udfd7\ufe0f",
         "subtext": "reinforce a belief / reinforce inequality / mutually reinforce",
         "form": "verb",
-        "transcription": "ˌriːɪnˈfɔːs",
+        "transcription": "\u02ccri\u02d0\u026an\u02c8f\u0254\u02d0s",
         "definitions": [
             {
                 "text": "To strengthen or support something already existing.",
@@ -1352,12 +1352,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-42",
+        "id": "C1-VERB-LAW-042",
         "word": "resist",
-        "emoji": "🛡️",
+        "emoji": "\ud83d\udee1\ufe0f",
         "subtext": "resist change / resist pressure / offer resistance",
         "form": "verb",
-        "transcription": "rɪˈzɪst",
+        "transcription": "r\u026a\u02c8z\u026ast",
         "definitions": [
             {
                 "text": "To oppose or struggle against something.",
@@ -1385,12 +1385,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-43",
+        "id": "C1-VERB-LAW-043",
         "word": "set out",
-        "emoji": "🗺️",
+        "emoji": "\ud83d\uddfa\ufe0f",
         "subtext": "set out a plan / set out to achieve / set out clearly",
         "form": "verb",
-        "transcription": "set aʊt",
+        "transcription": "set a\u028at",
         "definitions": [
             {
                 "text": "To begin a journey; to explain something in detail.",
@@ -1417,12 +1417,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-44",
+        "id": "C1-VERB-LAW-044",
         "word": "theorise",
-        "emoji": "🎓",
+        "emoji": "\ud83c\udf93",
         "subtext": "theorise about / theorise that / theorise a connection",
         "form": "verb",
-        "transcription": "ˈθɪəraɪz",
+        "transcription": "\u02c8\u03b8\u026a\u0259ra\u026az",
         "definitions": [
             {
                 "text": "To develop or propose a theory about something.",
@@ -1450,12 +1450,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-45",
+        "id": "C1-VERB-LAW-045",
         "word": "unpack",
-        "emoji": "📦",
+        "emoji": "\ud83d\udce6",
         "subtext": "unpack an idea / unpack assumptions / unpack the implications",
         "form": "verb",
-        "transcription": "ʌnˈpæk",
+        "transcription": "\u028cn\u02c8p\u00e6k",
         "definitions": [
             {
                 "text": "To examine the components or implications of something in detail.",
@@ -1483,12 +1483,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-VERB-LAW-46",
+        "id": "C1-VERB-LAW-046",
         "word": "valorise",
-        "emoji": "💎",
+        "emoji": "\ud83d\udc8e",
         "subtext": "valorise productivity / valorise tradition / valorise the individual",
         "form": "verb",
-        "transcription": "ˈvæləraɪz",
+        "transcription": "\u02c8v\u00e6l\u0259ra\u026az",
         "definitions": [
             {
                 "text": "To give or assign value to something, often in a cultural or ideological context.",

@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "B1-VERB-SCI-01",
+        "id": "B1-VERB-SCI-001",
         "word": "regret",
         "lang": "en",
         "level": "intermediate",
@@ -16,8 +16,8 @@
                 ]
             }
         ],
-        "transcription": "rɪˈɡrɛt",
-        "emoji": "😔",
+        "transcription": "r\u026a\u02c8\u0261r\u025bt",
+        "emoji": "\ud83d\ude14",
         "_legacy": {
             "subtext": "regret a decision / deeply regret / no regrets",
             "classification": "regular",
@@ -36,7 +36,7 @@
         "sub_subcategory": "Medical_Health"
     },
     {
-        "id": "B1-VERB-SCI-02",
+        "id": "B1-VERB-SCI-002",
         "word": "resent",
         "lang": "en",
         "level": "intermediate",
@@ -50,8 +50,8 @@
                 ]
             }
         ],
-        "transcription": "rɪˈzɛnt",
-        "emoji": "😠",
+        "transcription": "r\u026a\u02c8z\u025bnt",
+        "emoji": "\ud83d\ude20",
         "_legacy": {
             "subtext": "resent something / resent someone / feel resentment",
             "classification": "regular",

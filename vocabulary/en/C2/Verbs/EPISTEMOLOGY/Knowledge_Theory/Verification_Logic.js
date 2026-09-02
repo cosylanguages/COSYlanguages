@@ -2,10 +2,10 @@
     const lang = "en";
     const data = [
     {
-        "id": "C2-VERB-EPI-01",
+        "id": "C2-VERB-EPI-001",
         "word": "corroborate",
-        "emoji": "✅",
-        "transcription": "kəˈrɒbəreɪt",
+        "emoji": "\u2705",
+        "transcription": "k\u0259\u02c8r\u0252b\u0259re\u026at",
         "subtext": "corroborate a claim / corroborate evidence / be corroborated by",
         "form": "verb",
         "definitions": [
@@ -35,10 +35,10 @@
         "sub_subcategory": "Verification_Logic"
     },
     {
-        "id": "C2-VERB-EPI-02",
+        "id": "C2-VERB-EPI-002",
         "word": "gainsay",
-        "emoji": "🗣️",
-        "transcription": "ˌɡeɪnˈseɪ",
+        "emoji": "\ud83d\udde3\ufe0f",
+        "transcription": "\u02cc\u0261e\u026an\u02c8se\u026a",
         "subtext": "difficult to gainsay / no one can gainsay / gainsay a claim",
         "form": "verb",
         "definitions": [
@@ -67,10 +67,10 @@
         "sub_subcategory": "Verification_Logic"
     },
     {
-        "id": "C2-VERB-EPI-03",
+        "id": "C2-VERB-EPI-003",
         "word": "vindicate",
-        "emoji": "⚖️",
-        "transcription": "ˈvɪndɪkeɪt",
+        "emoji": "\u2696\ufe0f",
+        "transcription": "\u02c8v\u026and\u026ake\u026at",
         "subtext": "vindicate someone / vindicate a decision / feel vindicated",
         "form": "verb",
         "definitions": [
@@ -100,10 +100,10 @@
         "sub_subcategory": "Verification_Logic"
     },
     {
-        "id": "C2-VERB-EPI-04",
+        "id": "C2-VERB-EPI-004",
         "word": "vitiate",
-        "emoji": "🧪",
-        "transcription": "ˈvɪʃieɪt",
+        "emoji": "\ud83e\uddea",
+        "transcription": "\u02c8v\u026a\u0283ie\u026at",
         "subtext": "vitiate a claim / vitiate an argument / legally vitiated",
         "form": "verb",
         "definitions": [

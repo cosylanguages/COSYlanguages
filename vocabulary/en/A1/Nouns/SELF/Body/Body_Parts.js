@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-SEL-01",
+        "id": "A1-NOUN-SEL-035",
         "word": "arm",
-        "emoji": "💪",
+        "emoji": "\ud83d\udcaa",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
                 ]
             }
         ],
-        "transcription": "ɑrm",
+        "transcription": "\u0251rm",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -36,9 +36,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-NOUN-SEL-02",
+        "id": "A1-NOUN-SEL-036",
         "word": "back",
-        "emoji": "🚶",
+        "emoji": "\ud83d\udeb6",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -52,7 +52,7 @@
                 ]
             }
         ],
-        "transcription": "bæk",
+        "transcription": "b\u00e6k",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -65,9 +65,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-NOUN-SEL-03",
+        "id": "A1-NOUN-SEL-037",
         "word": "body",
-        "emoji": "👤",
+        "emoji": "\ud83d\udc64",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -81,7 +81,7 @@
             }
         ],
         "subtext": "related to health body",
-        "transcription": "ˈbɑdi",
+        "transcription": "\u02c8b\u0251di",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -94,9 +94,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-NOUN-SEL-04",
+        "id": "A1-NOUN-SEL-038",
         "word": "ear",
-        "emoji": "👂",
+        "emoji": "\ud83d\udc42",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -110,7 +110,7 @@
                 ]
             }
         ],
-        "transcription": "ɪr",
+        "transcription": "\u026ar",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -128,9 +128,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-NOUN-SEL-05",
+        "id": "A1-NOUN-SEL-039",
         "word": "eye",
-        "emoji": "👁️",
+        "emoji": "\ud83d\udc41\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -145,14 +145,14 @@
                 ]
             }
         ],
-        "transcription": "aɪ",
+        "transcription": "a\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "body",
         "sub_theme": "face",
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "augô",
+            "origin_word": "aug\u00f4",
             "origin_meaning": "eye"
         },
         "legacy_id": "A1-SELF-09",
@@ -163,9 +163,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-NOUN-SEL-06",
+        "id": "A1-NOUN-SEL-040",
         "word": "face",
-        "emoji": "👤",
+        "emoji": "\ud83d\udc64",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -179,7 +179,7 @@
             }
         ],
         "subtext": "related to body parts",
-        "transcription": "feɪs",
+        "transcription": "fe\u026as",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -192,9 +192,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-NOUN-SEL-07",
+        "id": "A1-NOUN-SEL-041",
         "word": "finger",
-        "emoji": "☝️",
+        "emoji": "\u261d\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -208,7 +208,7 @@
             }
         ],
         "subtext": "related to body parts",
-        "transcription": "ˈfɪŋgər",
+        "transcription": "\u02c8f\u026a\u014bg\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -221,11 +221,11 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-NOUN-SEL-08",
+        "id": "A1-NOUN-SEL-042",
         "word": "foot",
         "numberPlural": "2 foot",
         "answer": "two feet",
-        "emoji": "🦶",
+        "emoji": "\ud83e\uddb6",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -240,14 +240,14 @@
             }
         ],
         "subtext": "related to body parts",
-        "transcription": "fʊt",
+        "transcription": "f\u028at",
         "lang": "en",
         "level": "starter",
         "theme": "body",
         "sub_theme": "limbs",
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "fōts",
+            "origin_word": "f\u014dts",
             "origin_meaning": "foot"
         },
         "legacy_id": "A1-SELF-13",
@@ -258,9 +258,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-NOUN-SEL-09",
+        "id": "A1-NOUN-SEL-043",
         "word": "hair",
-        "emoji": "💇",
+        "emoji": "\ud83d\udc87",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -274,7 +274,7 @@
             }
         ],
         "subtext": "related to body parts",
-        "transcription": "heə(r)",
+        "transcription": "he\u0259(r)",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -287,9 +287,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-NOUN-SEL-10",
+        "id": "A1-NOUN-SEL-044",
         "word": "hand",
-        "emoji": "✋",
+        "emoji": "\u270b",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -304,7 +304,7 @@
                 ]
             }
         ],
-        "transcription": "hænd",
+        "transcription": "h\u00e6nd",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -322,9 +322,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-NOUN-SEL-11",
+        "id": "A1-NOUN-SEL-045",
         "word": "head",
-        "emoji": "👤",
+        "emoji": "\ud83d\udc64",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -339,14 +339,14 @@
                 ]
             }
         ],
-        "transcription": "hɛd",
+        "transcription": "h\u025bd",
         "lang": "en",
         "level": "starter",
         "theme": "body",
         "sub_theme": "face",
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "haubidą",
+            "origin_word": "haubid\u0105",
             "origin_meaning": "head"
         },
         "legacy_id": "A1-SELF-16",
@@ -357,9 +357,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-NOUN-SEL-12",
+        "id": "A1-NOUN-SEL-046",
         "word": "heart",
-        "emoji": "❤️",
+        "emoji": "\u2764\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -373,14 +373,14 @@
             }
         ],
         "subtext": "related to body parts",
-        "transcription": "hɑrt",
+        "transcription": "h\u0251rt",
         "lang": "en",
         "level": "starter",
         "theme": "body",
         "sub_theme": "organs",
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "hertō"
+            "origin_word": "hert\u014d"
         },
         "legacy_id": "A1-SELF-19",
         "level_code": "A1",
@@ -390,9 +390,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-NOUN-SEL-13",
+        "id": "A1-NOUN-SEL-047",
         "word": "knee",
-        "emoji": "🦵",
+        "emoji": "\ud83e\uddb5",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -419,9 +419,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-NOUN-SEL-14",
+        "id": "A1-NOUN-SEL-048",
         "word": "leg",
-        "emoji": "🦵",
+        "emoji": "\ud83e\uddb5",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -435,7 +435,7 @@
                 ]
             }
         ],
-        "transcription": "lɛg",
+        "transcription": "l\u025bg",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -448,9 +448,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-NOUN-SEL-15",
+        "id": "A1-NOUN-SEL-049",
         "word": "mouth",
-        "emoji": "👄",
+        "emoji": "\ud83d\udc44",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -464,14 +464,14 @@
                 ]
             }
         ],
-        "transcription": "maʊθ",
+        "transcription": "ma\u028a\u03b8",
         "lang": "en",
         "level": "starter",
         "theme": "body",
         "sub_theme": "face",
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "munþaz",
+            "origin_word": "mun\u00feaz",
             "origin_meaning": "mouth"
         },
         "legacy_id": "A1-SELF-23",
@@ -482,9 +482,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-NOUN-SEL-16",
+        "id": "A1-NOUN-SEL-050",
         "word": "neck",
-        "emoji": "🦒",
+        "emoji": "\ud83e\udd92",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -498,7 +498,7 @@
             }
         ],
         "subtext": "related to body parts",
-        "transcription": "nɛk",
+        "transcription": "n\u025bk",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -511,9 +511,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-NOUN-SEL-17",
+        "id": "A1-NOUN-SEL-051",
         "word": "nose",
-        "emoji": "👃",
+        "emoji": "\ud83d\udc43",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -527,14 +527,14 @@
             }
         ],
         "subtext": "related to body parts",
-        "transcription": "noʊz",
+        "transcription": "no\u028az",
         "lang": "en",
         "level": "starter",
         "theme": "body",
         "sub_theme": "face",
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "nasō",
+            "origin_word": "nas\u014d",
             "origin_meaning": "nose"
         },
         "legacy_id": "A1-SELF-25",
@@ -545,9 +545,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-NOUN-SEL-18",
+        "id": "A1-NOUN-SEL-052",
         "word": "shoulder",
-        "emoji": "👤",
+        "emoji": "\ud83d\udc64",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -561,7 +561,7 @@
             }
         ],
         "subtext": "related to body parts",
-        "transcription": "ˈʃoʊldər",
+        "transcription": "\u02c8\u0283o\u028ald\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -574,9 +574,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-NOUN-SEL-19",
+        "id": "A1-NOUN-SEL-053",
         "word": "stomach",
-        "emoji": "🤰",
+        "emoji": "\ud83e\udd30",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -590,7 +590,7 @@
             }
         ],
         "subtext": "related to body parts",
-        "transcription": "ˈstəmək",
+        "transcription": "\u02c8st\u0259m\u0259k",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -603,9 +603,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-NOUN-SEL-20",
+        "id": "A1-NOUN-SEL-054",
         "word": "toe",
-        "emoji": "🦶",
+        "emoji": "\ud83e\uddb6",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -619,7 +619,7 @@
             }
         ],
         "subtext": "related to body parts",
-        "transcription": "toʊ",
+        "transcription": "to\u028a",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -632,9 +632,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-NOUN-SEL-21",
+        "id": "A1-NOUN-SEL-055",
         "word": "tooth",
-        "emoji": "🦷",
+        "emoji": "\ud83e\uddb7",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -650,14 +650,14 @@
             }
         ],
         "subtext": "related to body parts",
-        "transcription": "tuːθ",
+        "transcription": "tu\u02d0\u03b8",
         "lang": "en",
         "level": "starter",
         "theme": "body",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "tanþs"
+            "origin_word": "tan\u00fes"
         },
         "legacy_id": "A1-SELF-36",
         "level_code": "A1",

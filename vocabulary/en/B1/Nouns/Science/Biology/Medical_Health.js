@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "B1-NOUN-SCI-01",
+        "id": "B1-NOUN-SCI-001",
         "word": "anxiety",
         "lang": "en",
         "level": "intermediate",
@@ -16,8 +16,8 @@
                 ]
             }
         ],
-        "transcription": "æŋˈzaɪəti",
-        "emoji": "😟",
+        "transcription": "\u00e6\u014b\u02c8za\u026a\u0259ti",
+        "emoji": "\ud83d\ude1f",
         "_legacy": {
             "classification": "regular",
             "plural": null,
@@ -32,7 +32,7 @@
         "sub_subcategory": "Medical_Health"
     },
     {
-        "id": "B1-NOUN-SCI-02",
+        "id": "B1-NOUN-SCI-002",
         "word": "burnout",
         "lang": "en",
         "level": "intermediate",
@@ -48,8 +48,8 @@
                 ]
             }
         ],
-        "transcription": "ˈbɜːnaʊt",
-        "emoji": "🔋",
+        "transcription": "\u02c8b\u025c\u02d0na\u028at",
+        "emoji": "\ud83d\udd0b",
         "_legacy": {
             "classification": "regular",
             "plural": null,
@@ -64,7 +64,7 @@
         "sub_subcategory": "Medical_Health"
     },
     {
-        "id": "B1-NOUN-SCI-03",
+        "id": "B1-NOUN-SCI-003",
         "word": "depression",
         "lang": "en",
         "level": "intermediate",
@@ -78,8 +78,8 @@
                 ]
             }
         ],
-        "transcription": "dɪˈprɛʃn",
-        "emoji": "😔",
+        "transcription": "d\u026a\u02c8pr\u025b\u0283n",
+        "emoji": "\ud83d\ude14",
         "_legacy": {
             "classification": "regular",
             "plural": null,
@@ -94,7 +94,7 @@
         "sub_subcategory": "Medical_Health"
     },
     {
-        "id": "B1-NOUN-SCI-04",
+        "id": "B1-NOUN-SCI-004",
         "word": "mental health",
         "lang": "en",
         "level": "intermediate",
@@ -109,8 +109,8 @@
                 ]
             }
         ],
-        "transcription": "ˈmɛntl hɛlθ",
-        "emoji": "🧠",
+        "transcription": "\u02c8m\u025bntl h\u025bl\u03b8",
+        "emoji": "\ud83e\udde0",
         "_legacy": {
             "plural": null,
             "countability": "uncountable",
@@ -124,7 +124,7 @@
         "sub_subcategory": "Medical_Health"
     },
     {
-        "id": "B1-NOUN-SCI-05",
+        "id": "B1-NOUN-SCI-005",
         "word": "mindfulness",
         "lang": "en",
         "level": "intermediate",
@@ -138,8 +138,8 @@
                 ]
             }
         ],
-        "transcription": "ˈmaɪndflnəs",
-        "emoji": "🧘",
+        "transcription": "\u02c8ma\u026andfln\u0259s",
+        "emoji": "\ud83e\uddd8",
         "_legacy": {
             "classification": "regular",
             "plural": null,
@@ -154,7 +154,7 @@
         "sub_subcategory": "Medical_Health"
     },
     {
-        "id": "B1-NOUN-SCI-06",
+        "id": "B1-NOUN-SCI-006",
         "word": "prevention",
         "lang": "en",
         "level": "intermediate",
@@ -169,8 +169,8 @@
                 ]
             }
         ],
-        "transcription": "prɪˈvɛnʃn",
-        "emoji": "🛡️",
+        "transcription": "pr\u026a\u02c8v\u025bn\u0283n",
+        "emoji": "\ud83d\udee1\ufe0f",
         "_legacy": {
             "classification": "regular",
             "plural": "preventions",
@@ -185,7 +185,7 @@
         "sub_subcategory": "Medical_Health"
     },
     {
-        "id": "B1-NOUN-SCI-07",
+        "id": "B1-NOUN-SCI-007",
         "word": "resilience",
         "lang": "en",
         "level": "intermediate",
@@ -199,8 +199,8 @@
                 ]
             }
         ],
-        "transcription": "rɪˈzɪliəns",
-        "emoji": "🌱",
+        "transcription": "r\u026a\u02c8z\u026ali\u0259ns",
+        "emoji": "\ud83c\udf31",
         "_legacy": {
             "classification": "regular",
             "plural": null,
@@ -215,7 +215,7 @@
         "sub_subcategory": "Medical_Health"
     },
     {
-        "id": "B1-NOUN-SCI-08",
+        "id": "B1-NOUN-SCI-008",
         "word": "self-care",
         "lang": "en",
         "level": "intermediate",
@@ -225,12 +225,12 @@
             {
                 "text": "Activities done deliberately to maintain physical or mental health.",
                 "examples": [
-                    "Self-care is not a luxury — it is a necessity."
+                    "Self-care is not a luxury \u2014 it is a necessity."
                 ]
             }
         ],
-        "transcription": "🇬🇧 sɛlf ˈkeə | 🇺🇸 sɛlf ˈkeər",
-        "emoji": "🛁",
+        "transcription": "\ud83c\uddec\ud83c\udde7 s\u025blf \u02c8ke\u0259 | \ud83c\uddfa\ud83c\uddf8 s\u025blf \u02c8ke\u0259r",
+        "emoji": "\ud83d\udec1",
         "_legacy": {
             "classification": "regular",
             "plural": null,
@@ -245,7 +245,7 @@
         "sub_subcategory": "Medical_Health"
     },
     {
-        "id": "B1-NOUN-SCI-09",
+        "id": "B1-NOUN-SCI-009",
         "word": "symptoms",
         "lang": "en",
         "level": "intermediate",
@@ -260,8 +260,8 @@
                 ]
             }
         ],
-        "transcription": "ˈsɪmptəmz",
-        "emoji": "🤒",
+        "transcription": "\u02c8s\u026ampt\u0259mz",
+        "emoji": "\ud83e\udd12",
         "_legacy": {
             "classification": "regular",
             "plural": "symptoms",
@@ -276,7 +276,7 @@
         "sub_subcategory": "Medical_Health"
     },
     {
-        "id": "B1-NOUN-SCI-10",
+        "id": "B1-NOUN-SCI-010",
         "word": "therapy",
         "lang": "en",
         "level": "intermediate",
@@ -292,8 +292,8 @@
                 ]
             }
         ],
-        "transcription": "ˈθɛrəpi",
-        "emoji": "🗣️",
+        "transcription": "\u02c8\u03b8\u025br\u0259pi",
+        "emoji": "\ud83d\udde3\ufe0f",
         "_legacy": {
             "classification": "regular",
             "plural": "therapies",
@@ -308,15 +308,15 @@
         "sub_subcategory": "Medical_Health"
     },
     {
-        "id": "B1-NOUN-SCI-11",
+        "id": "B1-NOUN-SCI-011",
         "word": "tooth",
         "lang": "en",
         "level": "intermediate",
         "theme": "health_medicine",
         "form": "noun",
         "definitions": [],
-        "transcription": "tuːθ",
-        "emoji": "🦷",
+        "transcription": "tu\u02d0\u03b8",
+        "emoji": "\ud83e\uddb7",
         "_legacy": {
             "numberPlural": "32 tooth",
             "answer": "thirty-two teeth",
@@ -325,7 +325,7 @@
             "countability": "countable",
             "etymology": {
                 "origin_lang": "Proto-Germanic",
-                "origin_word": "tanþs"
+                "origin_word": "tan\u00fes"
             }
         },
         "legacy_id": "B1-SCI-22",
@@ -336,7 +336,7 @@
         "sub_subcategory": "Medical_Health"
     },
     {
-        "id": "B1-NOUN-SCI-12",
+        "id": "B1-NOUN-SCI-012",
         "word": "wellbeing",
         "lang": "en",
         "level": "intermediate",
@@ -352,8 +352,8 @@
                 ]
             }
         ],
-        "transcription": "ˌwɛlˈbiːɪŋ",
-        "emoji": "🧘",
+        "transcription": "\u02ccw\u025bl\u02c8bi\u02d0\u026a\u014b",
+        "emoji": "\ud83e\uddd8",
         "_legacy": {
             "classification": "regular",
             "plural": null,

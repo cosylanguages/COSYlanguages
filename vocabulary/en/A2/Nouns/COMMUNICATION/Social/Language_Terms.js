@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "A2-NOUN-COM-01",
+        "id": "A2-NOUN-COM-024",
         "word": "anything",
         "form": "pronoun",
         "definitions": [
@@ -15,8 +15,8 @@
             }
         ],
         "subtext": "indefinite pronoun",
-        "emoji": "❓",
-        "transcription": "ˈeniθɪŋ",
+        "emoji": "\u2753",
+        "transcription": "\u02c8eni\u03b8\u026a\u014b",
         "lang": "en",
         "level": "elementary",
         "theme": "language",
@@ -32,7 +32,7 @@
         "word": "context",
         "level": "elementary",
         "theme": "language",
-        "emoji": "📖",
+        "emoji": "\ud83d\udcd6",
         "form": "noun",
         "classification": "regular",
         "definitions": [
@@ -50,10 +50,10 @@
             "setting"
         ],
         "countability": "uncountable",
-        "transcription": "🇬🇧 ˈkɒntɛkst | 🇺🇸 ˈkɑːntɛkst",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8k\u0252nt\u025bkst | \ud83c\uddfa\ud83c\uddf8 \u02c8k\u0251\u02d0nt\u025bkst",
         "language": "en",
         "lang": "en",
-        "id": "A2-NOUN-COM-02",
+        "id": "A2-NOUN-COM-025",
         "legacy_id": "A2-COMM-13",
         "level_code": "A2",
         "domain": "COMMUNICATION",
@@ -62,7 +62,7 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A2-NOUN-COM-03",
+        "id": "A2-NOUN-COM-026",
         "word": "someone",
         "form": "pronoun",
         "definitions": [
@@ -74,8 +74,8 @@
             }
         ],
         "subtext": "indefinite pronoun",
-        "emoji": "👤",
-        "transcription": "ˈsʌmwʌn",
+        "emoji": "\ud83d\udc64",
+        "transcription": "\u02c8s\u028cmw\u028cn",
         "lang": "en",
         "level": "elementary",
         "theme": "language",
@@ -91,7 +91,7 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A2-NOUN-COM-04",
+        "id": "A2-NOUN-COM-027",
         "word": "which",
         "form": "pronoun",
         "definitions": [
@@ -103,8 +103,8 @@
             }
         ],
         "subtext": "relative pronoun for things",
-        "emoji": "🔑",
-        "transcription": "wɪtʃ",
+        "emoji": "\ud83d\udd11",
+        "transcription": "w\u026at\u0283",
         "lang": "en",
         "level": "elementary",
         "theme": "language",
@@ -117,7 +117,7 @@
         "sub_subcategory": "Language_Terms"
     },
     {
-        "id": "A2-NOUN-COM-05",
+        "id": "A2-NOUN-COM-028",
         "word": "who",
         "form": "pronoun",
         "definitions": [
@@ -129,8 +129,8 @@
             }
         ],
         "subtext": "relative pronoun for people",
-        "emoji": "👤",
-        "transcription": "huː",
+        "emoji": "\ud83d\udc64",
+        "transcription": "hu\u02d0",
         "lang": "en",
         "level": "elementary",
         "theme": "language",

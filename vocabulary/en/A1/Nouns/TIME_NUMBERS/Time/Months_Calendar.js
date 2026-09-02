@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-TIM-01",
+        "id": "A1-NOUN-TIM-026",
         "word": "April",
-        "emoji": "🌧️",
+        "emoji": "\ud83c\udf27\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -17,7 +17,7 @@
             }
         ],
         "subtext": "related to months year",
-        "transcription": "ˈeɪprəl",
+        "transcription": "\u02c8e\u026apr\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -30,9 +30,9 @@
         "sub_subcategory": "Months_Calendar"
     },
     {
-        "id": "A1-NOUN-TIM-02",
+        "id": "A1-NOUN-TIM-027",
         "word": "August",
-        "emoji": "🏖️",
+        "emoji": "\ud83c\udfd6\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -45,7 +45,7 @@
             }
         ],
         "subtext": "related to months year",
-        "transcription": "ˈɔgəst",
+        "transcription": "\u02c8\u0254g\u0259st",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -58,9 +58,9 @@
         "sub_subcategory": "Months_Calendar"
     },
     {
-        "id": "A1-NOUN-TIM-03",
+        "id": "A1-NOUN-TIM-028",
         "word": "December",
-        "emoji": "🎄",
+        "emoji": "\ud83c\udf84",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -73,7 +73,7 @@
             }
         ],
         "subtext": "related to months year",
-        "transcription": "dɪˈsɛmbər",
+        "transcription": "d\u026a\u02c8s\u025bmb\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -86,9 +86,9 @@
         "sub_subcategory": "Months_Calendar"
     },
     {
-        "id": "A1-NOUN-TIM-04",
+        "id": "A1-NOUN-TIM-029",
         "word": "February",
-        "emoji": "❄️",
+        "emoji": "\u2744\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -101,7 +101,7 @@
             }
         ],
         "subtext": "related to months year",
-        "transcription": "ˈfɛbruˌɛri",
+        "transcription": "\u02c8f\u025bbru\u02cc\u025bri",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -114,9 +114,9 @@
         "sub_subcategory": "Months_Calendar"
     },
     {
-        "id": "A1-NOUN-TIM-05",
+        "id": "A1-NOUN-TIM-030",
         "word": "January",
-        "emoji": "❄️",
+        "emoji": "\u2744\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -129,7 +129,7 @@
             }
         ],
         "subtext": "related to months year",
-        "transcription": "ˈʤænjuˌɛri",
+        "transcription": "\u02c8\u02a4\u00e6nju\u02cc\u025bri",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -142,9 +142,9 @@
         "sub_subcategory": "Months_Calendar"
     },
     {
-        "id": "A1-NOUN-TIM-06",
+        "id": "A1-NOUN-TIM-031",
         "word": "July",
-        "emoji": "☀️",
+        "emoji": "\u2600\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -157,7 +157,7 @@
             }
         ],
         "subtext": "related to months year",
-        "transcription": "ˌʤuˈlaɪ",
+        "transcription": "\u02cc\u02a4u\u02c8la\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -170,9 +170,9 @@
         "sub_subcategory": "Months_Calendar"
     },
     {
-        "id": "A1-NOUN-TIM-07",
+        "id": "A1-NOUN-TIM-032",
         "word": "June",
-        "emoji": "☀️",
+        "emoji": "\u2600\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -185,7 +185,7 @@
             }
         ],
         "subtext": "related to months year",
-        "transcription": "ʤun",
+        "transcription": "\u02a4un",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -198,9 +198,9 @@
         "sub_subcategory": "Months_Calendar"
     },
     {
-        "id": "A1-NOUN-TIM-08",
+        "id": "A1-NOUN-TIM-033",
         "word": "March",
-        "emoji": "🌱",
+        "emoji": "\ud83c\udf31",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -213,7 +213,7 @@
             }
         ],
         "subtext": "related to months year",
-        "transcription": "mɑrʧ",
+        "transcription": "m\u0251r\u02a7",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -226,9 +226,9 @@
         "sub_subcategory": "Months_Calendar"
     },
     {
-        "id": "A1-NOUN-TIM-09",
+        "id": "A1-NOUN-TIM-034",
         "word": "May",
-        "emoji": "🌸",
+        "emoji": "\ud83c\udf38",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -241,7 +241,7 @@
             }
         ],
         "subtext": "related to months year",
-        "transcription": "meɪ",
+        "transcription": "me\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -254,9 +254,9 @@
         "sub_subcategory": "Months_Calendar"
     },
     {
-        "id": "A1-NOUN-TIM-10",
+        "id": "A1-NOUN-TIM-035",
         "word": "November",
-        "emoji": "🌫️",
+        "emoji": "\ud83c\udf2b\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -269,7 +269,7 @@
             }
         ],
         "subtext": "related to months year",
-        "transcription": "noʊˈvɛmbər",
+        "transcription": "no\u028a\u02c8v\u025bmb\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -282,9 +282,9 @@
         "sub_subcategory": "Months_Calendar"
     },
     {
-        "id": "A1-NOUN-TIM-11",
+        "id": "A1-NOUN-TIM-036",
         "word": "October",
-        "emoji": "🎃",
+        "emoji": "\ud83c\udf83",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -297,7 +297,7 @@
             }
         ],
         "subtext": "related to months year",
-        "transcription": "ɑkˈtoʊbər",
+        "transcription": "\u0251k\u02c8to\u028ab\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",
@@ -310,9 +310,9 @@
         "sub_subcategory": "Months_Calendar"
     },
     {
-        "id": "A1-NOUN-TIM-12",
+        "id": "A1-NOUN-TIM-037",
         "word": "September",
-        "emoji": "🍂",
+        "emoji": "\ud83c\udf42",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -325,7 +325,7 @@
             }
         ],
         "subtext": "related to months year",
-        "transcription": "sɛpˈtɛmbər",
+        "transcription": "s\u025bp\u02c8t\u025bmb\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "months_year",

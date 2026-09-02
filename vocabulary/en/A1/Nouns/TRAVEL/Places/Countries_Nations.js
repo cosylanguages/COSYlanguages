@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-TRA-01",
+        "id": "A1-NOUN-TRA-004",
         "word": "country",
-        "emoji": "🏳️",
+        "emoji": "\ud83c\udff3\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
             }
         ],
         "subtext": "related to countries capitals",
-        "transcription": "ˈkəntri",
+        "transcription": "\u02c8k\u0259ntri",
         "lang": "en",
         "level": "starter",
         "theme": "countries_capitals",
@@ -31,9 +31,9 @@
         "sub_subcategory": "Countries_Nations"
     },
     {
-        "id": "A1-NOUN-TRA-02",
+        "id": "A1-NOUN-TRA-005",
         "word": "world",
-        "emoji": "🌎",
+        "emoji": "\ud83c\udf0e",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -47,7 +47,7 @@
             }
         ],
         "subtext": "related to countries capitals",
-        "transcription": "wərld",
+        "transcription": "w\u0259rld",
         "lang": "en",
         "level": "starter",
         "theme": "countries_capitals",

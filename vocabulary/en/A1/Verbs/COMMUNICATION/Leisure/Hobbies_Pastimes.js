@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-COM-01",
+        "id": "A1-VERB-COM-015",
         "word": "act",
-        "emoji": "🎭",
+        "emoji": "\ud83c\udfad",
         "form": "verb",
         "subtext": "act in a play / act quickly",
         "definitions": [
@@ -20,7 +20,7 @@
         "v2": "acted",
         "v3": "acted",
         "group": "regular",
-        "transcription": "ækt",
+        "transcription": "\u00e6kt",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -36,9 +36,9 @@
         "sub_subcategory": "Hobbies_Pastimes"
     },
     {
-        "id": "A1-VERB-COM-02",
+        "id": "A1-VERB-COM-016",
         "word": "act",
-        "emoji": "🎭",
+        "emoji": "\ud83c\udfad",
         "form": "verb",
         "subtext": "act in a play / act quickly",
         "definitions": [
@@ -54,7 +54,7 @@
         "v2": "acted",
         "v3": "acted",
         "group": "regular",
-        "transcription": "ækt",
+        "transcription": "\u00e6kt",
         "auxiliary": "have",
         "v4": "acting",
         "lang": "en",
@@ -72,7 +72,7 @@
         "sub_subcategory": "Hobbies_Pastimes"
     },
     {
-        "id": "A1-VERB-COM-03",
+        "id": "A1-VERB-COM-017",
         "word": "celebrate",
         "definitions": [
             {
@@ -87,10 +87,10 @@
         "aspect": "action",
         "v2": "celebrated",
         "v3": "celebrated",
-        "emoji": "🎉",
+        "emoji": "\ud83c\udf89",
         "form": "verb",
         "group": "regular",
-        "transcription": "ˈsɛləˌbreɪt",
+        "transcription": "\u02c8s\u025bl\u0259\u02ccbre\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -106,7 +106,7 @@
         "sub_subcategory": "Hobbies_Pastimes"
     },
     {
-        "id": "A1-VERB-COM-04",
+        "id": "A1-VERB-COM-018",
         "word": "celebrate",
         "definitions": [
             {
@@ -121,10 +121,10 @@
         "aspect": "action",
         "v2": "celebrated",
         "v3": "celebrated",
-        "emoji": "🎉",
+        "emoji": "\ud83c\udf89",
         "form": "verb",
         "group": "regular",
-        "transcription": "ˈsɛləˌbreɪt",
+        "transcription": "\u02c8s\u025bl\u0259\u02ccbre\u026at",
         "auxiliary": "have",
         "v4": "celebrating",
         "lang": "en",
@@ -142,9 +142,9 @@
         "sub_subcategory": "Hobbies_Pastimes"
     },
     {
-        "id": "A1-VERB-COM-05",
+        "id": "A1-VERB-COM-019",
         "word": "exercise",
-        "emoji": "🏋️",
+        "emoji": "\ud83c\udfcb\ufe0f",
         "form": "verb",
         "definitions": [
             {
@@ -160,7 +160,7 @@
         "v3": "exercised",
         "subtext": "exercise regularly / exercise at the gym / exercise outdoors",
         "group": "regular",
-        "transcription": "ˈɛksərˌsaɪz",
+        "transcription": "\u02c8\u025bks\u0259r\u02ccsa\u026az",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -176,9 +176,9 @@
         "sub_subcategory": "Hobbies_Pastimes"
     },
     {
-        "id": "A1-VERB-COM-06",
+        "id": "A1-VERB-COM-020",
         "word": "exercise",
-        "emoji": "🏋️",
+        "emoji": "\ud83c\udfcb\ufe0f",
         "form": "verb",
         "definitions": [
             {
@@ -194,7 +194,7 @@
         "v3": "exercised",
         "subtext": "exercise regularly / exercise at the gym / exercise outdoors",
         "group": "regular",
-        "transcription": "ˈɛksərˌsaɪz",
+        "transcription": "\u02c8\u025bks\u0259r\u02ccsa\u026az",
         "auxiliary": "have",
         "v4": "exercising",
         "lang": "en",
@@ -212,9 +212,9 @@
         "sub_subcategory": "Hobbies_Pastimes"
     },
     {
-        "id": "A1-VERB-COM-07",
+        "id": "A1-VERB-COM-021",
         "word": "hop",
-        "emoji": "🐇",
+        "emoji": "\ud83d\udc07",
         "form": "verb",
         "subtext": "hop around / hop like a rabbit",
         "synonyms": [
@@ -233,7 +233,7 @@
         "v2": "hopped",
         "v3": "hopped",
         "group": "regular",
-        "transcription": "hɑp",
+        "transcription": "h\u0251p",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -249,9 +249,9 @@
         "sub_subcategory": "Hobbies_Pastimes"
     },
     {
-        "id": "A1-VERB-COM-08",
+        "id": "A1-VERB-COM-022",
         "word": "hop",
-        "emoji": "🐇",
+        "emoji": "\ud83d\udc07",
         "form": "verb",
         "subtext": "hop around / hop like a rabbit",
         "synonyms": [
@@ -270,7 +270,7 @@
         "v2": "hopped",
         "v3": "hopped",
         "group": "regular",
-        "transcription": "hɑp",
+        "transcription": "h\u0251p",
         "auxiliary": "have",
         "v4": "hoping",
         "lang": "en",
@@ -288,9 +288,9 @@
         "sub_subcategory": "Hobbies_Pastimes"
     },
     {
-        "id": "A1-VERB-COM-09",
+        "id": "A1-VERB-COM-023",
         "word": "play",
-        "emoji": "🎮",
+        "emoji": "\ud83c\udfae",
         "subtext": "play sport / play a game / play music / play a role",
         "form": "verb",
         "definitions": [
@@ -306,7 +306,7 @@
         "v2": "played",
         "v3": "played",
         "group": "regular",
-        "transcription": "pleɪ",
+        "transcription": "ple\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -322,9 +322,9 @@
         "sub_subcategory": "Hobbies_Pastimes"
     },
     {
-        "id": "A1-VERB-COM-10",
+        "id": "A1-VERB-COM-024",
         "word": "play",
-        "emoji": "🎮",
+        "emoji": "\ud83c\udfae",
         "subtext": "play sport / play a game / play music / play a role",
         "form": "verb",
         "definitions": [
@@ -340,7 +340,7 @@
         "v2": "played",
         "v3": "played",
         "group": "regular",
-        "transcription": "pleɪ",
+        "transcription": "ple\u026a",
         "auxiliary": "have",
         "v4": "playing",
         "lang": "en",
@@ -358,9 +358,9 @@
         "sub_subcategory": "Hobbies_Pastimes"
     },
     {
-        "id": "A1-VERB-COM-11",
+        "id": "A1-VERB-COM-025",
         "word": "relax",
-        "emoji": "🧘",
+        "emoji": "\ud83e\uddd8",
         "subtext": "relax at home / relax after work / relax on holiday",
         "form": "verb",
         "definitions": [
@@ -376,7 +376,7 @@
         "v2": "relaxed",
         "v3": "relaxed",
         "group": "regular",
-        "transcription": "rɪˈlæks",
+        "transcription": "r\u026a\u02c8l\u00e6ks",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -392,9 +392,9 @@
         "sub_subcategory": "Hobbies_Pastimes"
     },
     {
-        "id": "A1-VERB-COM-12",
+        "id": "A1-VERB-COM-026",
         "word": "relax",
-        "emoji": "🧘",
+        "emoji": "\ud83e\uddd8",
         "subtext": "relax at home / relax after work / relax on holiday",
         "form": "verb",
         "definitions": [
@@ -410,7 +410,7 @@
         "v2": "relaxed",
         "v3": "relaxed",
         "group": "regular",
-        "transcription": "rɪˈlæks",
+        "transcription": "r\u026a\u02c8l\u00e6ks",
         "auxiliary": "have",
         "v4": "relaxing",
         "lang": "en",
@@ -428,9 +428,9 @@
         "sub_subcategory": "Hobbies_Pastimes"
     },
     {
-        "id": "A1-VERB-COM-13",
+        "id": "A1-VERB-COM-027",
         "word": "skip",
-        "emoji": "🏃",
+        "emoji": "\ud83c\udfc3",
         "form": "verb",
         "subtext": "skip rope",
         "synonyms": [
@@ -450,7 +450,7 @@
         "v2": "skipped",
         "v3": "skipped",
         "group": "regular",
-        "transcription": "skɪp",
+        "transcription": "sk\u026ap",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -466,9 +466,9 @@
         "sub_subcategory": "Hobbies_Pastimes"
     },
     {
-        "id": "A1-VERB-COM-14",
+        "id": "A1-VERB-COM-028",
         "word": "skip",
-        "emoji": "🏃",
+        "emoji": "\ud83c\udfc3",
         "form": "verb",
         "subtext": "skip rope",
         "synonyms": [
@@ -488,7 +488,7 @@
         "v2": "skipped",
         "v3": "skipped",
         "group": "regular",
-        "transcription": "skɪp",
+        "transcription": "sk\u026ap",
         "auxiliary": "have",
         "v4": "skiping",
         "lang": "en",
@@ -506,9 +506,9 @@
         "sub_subcategory": "Hobbies_Pastimes"
     },
     {
-        "id": "A1-VERB-COM-15",
+        "id": "A1-VERB-COM-029",
         "word": "watch",
-        "emoji": "📺",
+        "emoji": "\ud83d\udcfa",
         "form": "verb",
         "subtext": "watch TV / watch a film / watch the news / watch closely",
         "definitions": [
@@ -524,7 +524,7 @@
         "v2": "watched",
         "v3": "watched",
         "group": "regular",
-        "transcription": "wɔʧ",
+        "transcription": "w\u0254\u02a7",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -540,9 +540,9 @@
         "sub_subcategory": "Hobbies_Pastimes"
     },
     {
-        "id": "A1-VERB-COM-16",
+        "id": "A1-VERB-COM-030",
         "word": "watch",
-        "emoji": "📺",
+        "emoji": "\ud83d\udcfa",
         "form": "verb",
         "subtext": "watch TV / watch a film / watch the news / watch closely",
         "definitions": [
@@ -558,7 +558,7 @@
         "v2": "watched",
         "v3": "watched",
         "group": "regular",
-        "transcription": "wɔʧ",
+        "transcription": "w\u0254\u02a7",
         "auxiliary": "have",
         "v4": "watching",
         "lang": "en",
@@ -576,9 +576,9 @@
         "sub_subcategory": "Hobbies_Pastimes"
     },
     {
-        "id": "A1-VERB-COM-17",
+        "id": "A1-VERB-COM-031",
         "word": "win",
-        "emoji": "🏆",
+        "emoji": "\ud83c\udfc6",
         "subtext": "win a game / win a prize / win an award / win a contract",
         "form": "verb",
         "definitions": [
@@ -594,7 +594,7 @@
         "v2": "won",
         "v3": "won",
         "group": "irregular",
-        "transcription": "wɪn",
+        "transcription": "w\u026an",
         "lang": "en",
         "level": "starter",
         "theme": "leisure_activities",
@@ -610,9 +610,9 @@
         "sub_subcategory": "Hobbies_Pastimes"
     },
     {
-        "id": "A1-VERB-COM-18",
+        "id": "A1-VERB-COM-032",
         "word": "win",
-        "emoji": "🏆",
+        "emoji": "\ud83c\udfc6",
         "subtext": "win a game / win a prize / win an award / win a contract",
         "form": "verb",
         "definitions": [
@@ -628,7 +628,7 @@
         "v2": "won",
         "v3": "won",
         "group": "regular",
-        "transcription": "wɪn",
+        "transcription": "w\u026an",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",

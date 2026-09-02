@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-TRA-01",
+        "id": "A1-NOUN-TRA-006",
         "word": "address",
-        "emoji": "🏠",
+        "emoji": "\ud83c\udfe0",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -19,7 +19,7 @@
                 ]
             }
         ],
-        "transcription": "əˈdres",
+        "transcription": "\u0259\u02c8dres",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -32,9 +32,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-NOUN-TRA-02",
+        "id": "A1-NOUN-TRA-007",
         "word": "area",
-        "emoji": "📍",
+        "emoji": "\ud83d\udccd",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -48,7 +48,7 @@
             }
         ],
         "subtext": "related to address location",
-        "transcription": "ˈɛriə",
+        "transcription": "\u02c8\u025bri\u0259",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -61,9 +61,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-NOUN-TRA-03",
+        "id": "A1-NOUN-TRA-008",
         "word": "art",
-        "emoji": "🎨",
+        "emoji": "\ud83c\udfa8",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -77,7 +77,7 @@
             }
         ],
         "subtext": "related to places culture leisure",
-        "transcription": "ɑrt",
+        "transcription": "\u0251rt",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -90,9 +90,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-NOUN-TRA-04",
+        "id": "A1-NOUN-TRA-009",
         "word": "bank",
-        "emoji": "🏦",
+        "emoji": "\ud83c\udfe6",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -106,7 +106,7 @@
                 ]
             }
         ],
-        "transcription": "bæŋk",
+        "transcription": "b\u00e6\u014bk",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -124,9 +124,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-NOUN-TRA-05",
+        "id": "A1-NOUN-TRA-010",
         "word": "bookshop",
-        "emoji": "📚",
+        "emoji": "\ud83d\udcda",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -143,7 +143,7 @@
                 ]
             }
         ],
-        "transcription": "ˈbʊkˌʃɑp",
+        "transcription": "\u02c8b\u028ak\u02cc\u0283\u0251p",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -156,9 +156,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-NOUN-TRA-06",
+        "id": "A1-NOUN-TRA-011",
         "word": "building",
-        "emoji": "🏢",
+        "emoji": "\ud83c\udfe2",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -172,7 +172,7 @@
             }
         ],
         "subtext": "related to address location",
-        "transcription": "ˈbɪldɪŋ",
+        "transcription": "\u02c8b\u026ald\u026a\u014b",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -185,9 +185,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-NOUN-TRA-07",
+        "id": "A1-NOUN-TRA-012",
         "word": "cafe",
-        "emoji": "☕",
+        "emoji": "\u2615",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -201,7 +201,7 @@
             }
         ],
         "subtext": "related to local places services",
-        "transcription": "kəˈfeɪ",
+        "transcription": "k\u0259\u02c8fe\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -214,9 +214,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-NOUN-TRA-08",
+        "id": "A1-NOUN-TRA-013",
         "word": "centre",
-        "emoji": "📍",
+        "emoji": "\ud83d\udccd",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -230,7 +230,7 @@
                 ]
             }
         ],
-        "transcription": "ˈsɛntər",
+        "transcription": "\u02c8s\u025bnt\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -243,9 +243,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-NOUN-TRA-09",
+        "id": "A1-NOUN-TRA-014",
         "word": "cinema",
-        "emoji": "🎬",
+        "emoji": "\ud83c\udfac",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -259,7 +259,7 @@
                 ]
             }
         ],
-        "transcription": "ˈsɪnəmə",
+        "transcription": "\u02c8s\u026an\u0259m\u0259",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -272,9 +272,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-NOUN-TRA-10",
+        "id": "A1-NOUN-TRA-015",
         "word": "farm",
-        "emoji": "🚜",
+        "emoji": "\ud83d\ude9c",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -291,7 +291,7 @@
                 ]
             }
         ],
-        "transcription": "fɑrm",
+        "transcription": "f\u0251rm",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -304,9 +304,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-NOUN-TRA-11",
+        "id": "A1-NOUN-TRA-016",
         "word": "garden",
-        "emoji": "🌳",
+        "emoji": "\ud83c\udf33",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -333,9 +333,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-NOUN-TRA-12",
+        "id": "A1-NOUN-TRA-017",
         "word": "hospital",
-        "emoji": "🏥",
+        "emoji": "\ud83c\udfe5",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -349,7 +349,7 @@
                 ]
             }
         ],
-        "transcription": "ˈhɑˌspɪtəl",
+        "transcription": "\u02c8h\u0251\u02ccsp\u026at\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -367,9 +367,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-NOUN-TRA-13",
+        "id": "A1-NOUN-TRA-018",
         "word": "library",
-        "emoji": "📚",
+        "emoji": "\ud83d\udcda",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -383,7 +383,7 @@
             }
         ],
         "subtext": "related to places culture leisure",
-        "transcription": "ˈlaɪbrɛˌri",
+        "transcription": "\u02c8la\u026abr\u025b\u02ccri",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -396,9 +396,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-NOUN-TRA-14",
+        "id": "A1-NOUN-TRA-019",
         "word": "market",
-        "emoji": "🛒",
+        "emoji": "\ud83d\uded2",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -412,7 +412,7 @@
             }
         ],
         "subtext": "related to local places services",
-        "transcription": "ˈmɑːkɪt",
+        "transcription": "\u02c8m\u0251\u02d0k\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -430,9 +430,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-NOUN-TRA-15",
+        "id": "A1-NOUN-TRA-020",
         "word": "museum",
-        "emoji": "🏛️",
+        "emoji": "\ud83c\udfdb\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -446,7 +446,7 @@
             }
         ],
         "subtext": "related to places culture leisure",
-        "transcription": "mˈjuziəm",
+        "transcription": "m\u02c8juzi\u0259m",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -459,9 +459,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-NOUN-TRA-16",
+        "id": "A1-NOUN-TRA-021",
         "word": "neighbour",
-        "emoji": "🏘️",
+        "emoji": "\ud83c\udfd8\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -475,7 +475,7 @@
                 ]
             }
         ],
-        "transcription": "ˈneɪbər",
+        "transcription": "\u02c8ne\u026ab\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -488,9 +488,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-NOUN-TRA-17",
+        "id": "A1-NOUN-TRA-022",
         "word": "painting",
-        "emoji": "🖼️",
+        "emoji": "\ud83d\uddbc\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -504,7 +504,7 @@
             }
         ],
         "subtext": "related to places culture leisure",
-        "transcription": "ˈpeɪnɪŋ",
+        "transcription": "\u02c8pe\u026an\u026a\u014b",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -517,9 +517,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-NOUN-TRA-18",
+        "id": "A1-NOUN-TRA-023",
         "word": "park",
-        "emoji": "🌳",
+        "emoji": "\ud83c\udf33",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -540,7 +540,7 @@
             }
         ],
         "subtext": "related to local places services",
-        "transcription": "pɑrk",
+        "transcription": "p\u0251rk",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -553,9 +553,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-NOUN-TRA-19",
+        "id": "A1-NOUN-TRA-024",
         "word": "place",
-        "emoji": "📍",
+        "emoji": "\ud83d\udccd",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -569,7 +569,7 @@
             }
         ],
         "subtext": "related to local places services",
-        "transcription": "pleɪs",
+        "transcription": "ple\u026as",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -582,9 +582,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-NOUN-TRA-20",
+        "id": "A1-NOUN-TRA-025",
         "word": "police",
-        "emoji": "👮",
+        "emoji": "\ud83d\udc6e",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -597,7 +597,7 @@
                 ]
             }
         ],
-        "transcription": "pəˈlis",
+        "transcription": "p\u0259\u02c8lis",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -610,9 +610,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-NOUN-TRA-21",
+        "id": "A1-NOUN-TRA-026",
         "word": "restaurant",
-        "emoji": "🍴",
+        "emoji": "\ud83c\udf74",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -626,7 +626,7 @@
                 ]
             }
         ],
-        "transcription": "ˈrɛˌstrɑnt",
+        "transcription": "\u02c8r\u025b\u02ccstr\u0251nt",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -644,9 +644,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-NOUN-TRA-22",
+        "id": "A1-NOUN-TRA-027",
         "word": "road",
-        "emoji": "🛣️",
+        "emoji": "\ud83d\udee3\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -660,7 +660,7 @@
                 ]
             }
         ],
-        "transcription": "roʊd",
+        "transcription": "ro\u028ad",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -673,9 +673,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-NOUN-TRA-23",
+        "id": "A1-NOUN-TRA-028",
         "word": "school",
-        "emoji": "🏫",
+        "emoji": "\ud83c\udfeb",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -707,9 +707,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-NOUN-TRA-24",
+        "id": "A1-NOUN-TRA-029",
         "word": "shop",
-        "emoji": "🛒",
+        "emoji": "\ud83d\uded2",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -723,7 +723,7 @@
                 ]
             }
         ],
-        "transcription": "ʃɑp",
+        "transcription": "\u0283\u0251p",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -736,9 +736,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-NOUN-TRA-25",
+        "id": "A1-NOUN-TRA-030",
         "word": "station",
-        "emoji": "🚉",
+        "emoji": "\ud83d\ude89",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -752,14 +752,14 @@
                 ]
             }
         ],
-        "transcription": "ˈsteɪʃən",
+        "transcription": "\u02c8ste\u026a\u0283\u0259n",
         "lang": "en",
         "level": "starter",
         "theme": "places",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "French",
-            "origin_word": "café",
+            "origin_word": "caf\u00e9",
             "entered_via": "Turkish kahve"
         },
         "legacy_id": "A1-TRV-108",
@@ -770,9 +770,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-NOUN-TRA-26",
+        "id": "A1-NOUN-TRA-031",
         "word": "street",
-        "emoji": "🛣️",
+        "emoji": "\ud83d\udee3\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -799,9 +799,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-NOUN-TRA-27",
+        "id": "A1-NOUN-TRA-032",
         "word": "supermarket",
-        "emoji": "🛒",
+        "emoji": "\ud83d\uded2",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -815,7 +815,7 @@
                 ]
             }
         ],
-        "transcription": "ˈsupərˌmɑrkɪt",
+        "transcription": "\u02c8sup\u0259r\u02ccm\u0251rk\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -833,9 +833,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-NOUN-TRA-28",
+        "id": "A1-NOUN-TRA-033",
         "word": "theatre",
-        "emoji": "🎭",
+        "emoji": "\ud83c\udfad",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -852,7 +852,7 @@
                 ]
             }
         ],
-        "transcription": "ˈθiətər",
+        "transcription": "\u02c8\u03b8i\u0259t\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -865,9 +865,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-NOUN-TRA-29",
+        "id": "A1-NOUN-TRA-034",
         "word": "zoo",
-        "emoji": "🦁",
+        "emoji": "\ud83e\udd81",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",

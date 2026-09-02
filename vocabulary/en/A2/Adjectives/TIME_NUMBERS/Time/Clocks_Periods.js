@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A2-ADJ-TIM-01",
+        "id": "A2-ADJ-TIM-010",
         "word": "brief",
-        "emoji": "⏱️",
+        "emoji": "\u23f1\ufe0f",
         "form": "adjective",
         "definitions": [
             {
@@ -23,7 +23,7 @@
         ],
         "comparative": "briefer",
         "superlative": "the briefest",
-        "transcription": "briːf",
+        "transcription": "bri\u02d0f",
         "lang": "en",
         "level": "elementary",
         "theme": "time",
@@ -36,9 +36,9 @@
         "sub_subcategory": "Clocks_Periods"
     },
     {
-        "id": "A2-ADJ-TIM-02",
+        "id": "A2-ADJ-TIM-011",
         "word": "current",
-        "emoji": "📍",
+        "emoji": "\ud83d\udccd",
         "form": "adjective",
         "definitions": [
             {
@@ -54,7 +54,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈkɜːrənt",
+        "transcription": "\u02c8k\u025c\u02d0r\u0259nt",
         "lang": "en",
         "level": "elementary",
         "theme": "time",
@@ -67,9 +67,9 @@
         "sub_subcategory": "Clocks_Periods"
     },
     {
-        "id": "A2-ADJ-TIM-03",
+        "id": "A2-ADJ-TIM-012",
         "word": "future",
-        "emoji": "🔮",
+        "emoji": "\ud83d\udd2e",
         "form": "adjective",
         "definitions": [
             {
@@ -85,7 +85,7 @@
         "synonyms": [
             "upcoming"
         ],
-        "transcription": "ˈfjuːtʃər",
+        "transcription": "\u02c8fju\u02d0t\u0283\u0259r",
         "lang": "en",
         "level": "elementary",
         "theme": "time",
@@ -98,9 +98,9 @@
         "sub_subcategory": "Clocks_Periods"
     },
     {
-        "id": "A2-ADJ-TIM-04",
+        "id": "A2-ADJ-TIM-013",
         "word": "previous",
-        "emoji": "🔙",
+        "emoji": "\ud83d\udd19",
         "form": "adjective",
         "definitions": [
             {
@@ -117,7 +117,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈpriːviəs",
+        "transcription": "\u02c8pri\u02d0vi\u0259s",
         "lang": "en",
         "level": "elementary",
         "theme": "time",
@@ -130,9 +130,9 @@
         "sub_subcategory": "Clocks_Periods"
     },
     {
-        "id": "A2-ADJ-TIM-05",
+        "id": "A2-ADJ-TIM-014",
         "word": "recent",
-        "emoji": "🕒",
+        "emoji": "\ud83d\udd52",
         "form": "adjective",
         "definitions": [
             {
@@ -149,7 +149,7 @@
             "new",
             "latest"
         ],
-        "transcription": "ˈriːsnt",
+        "transcription": "\u02c8ri\u02d0snt",
         "lang": "en",
         "level": "elementary",
         "theme": "time",
@@ -162,9 +162,9 @@
         "sub_subcategory": "Clocks_Periods"
     },
     {
-        "id": "A2-ADJ-TIM-06",
+        "id": "A2-ADJ-TIM-015",
         "word": "sudden",
-        "emoji": "⚡",
+        "emoji": "\u26a1",
         "form": "adjective",
         "definitions": [
             {
@@ -181,7 +181,7 @@
         ],
         "comparative": "more sudden",
         "superlative": "the most sudden",
-        "transcription": "ˈsʌdn",
+        "transcription": "\u02c8s\u028cdn",
         "lang": "en",
         "level": "elementary",
         "theme": "time",

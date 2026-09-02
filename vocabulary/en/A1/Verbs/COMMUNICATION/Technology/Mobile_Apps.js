@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-COM-01",
+        "id": "A1-VERB-COM-149",
         "word": "email",
-        "emoji": "📧",
+        "emoji": "\ud83d\udce7",
         "subtext": "email someone / send an email / reply by email",
         "form": "verb",
         "definitions": [
@@ -21,7 +21,7 @@
         "v2": "emailed",
         "v3": "emailed",
         "group": "regular",
-        "transcription": "iˈmeɪl",
+        "transcription": "i\u02c8me\u026al",
         "lang": "en",
         "level": "starter",
         "theme": "using_smartphone",
@@ -34,9 +34,9 @@
         "sub_subcategory": "Mobile_Apps"
     },
     {
-        "id": "A1-VERB-COM-02",
+        "id": "A1-VERB-COM-150",
         "word": "email",
-        "emoji": "📧",
+        "emoji": "\ud83d\udce7",
         "subtext": "email someone / send an email / reply by email",
         "form": "verb",
         "definitions": [
@@ -53,7 +53,7 @@
         "v2": "emailed",
         "v3": "emailed",
         "group": "regular",
-        "transcription": "iˈmeɪl",
+        "transcription": "i\u02c8me\u026al",
         "auxiliary": "have",
         "v4": "emailing",
         "lang": "en",
@@ -68,9 +68,9 @@
         "sub_subcategory": "Mobile_Apps"
     },
     {
-        "id": "A1-VERB-COM-03",
+        "id": "A1-VERB-COM-151",
         "word": "phone",
-        "emoji": "📞",
+        "emoji": "\ud83d\udcde",
         "subtext": "phone someone / phone back / on the phone",
         "form": "verb",
         "definitions": [
@@ -87,7 +87,7 @@
         "v2": "phoned",
         "v3": "phoned",
         "group": "regular",
-        "transcription": "foʊn",
+        "transcription": "fo\u028an",
         "lang": "en",
         "level": "starter",
         "theme": "using_smartphone",
@@ -103,9 +103,9 @@
         "sub_subcategory": "Mobile_Apps"
     },
     {
-        "id": "A1-VERB-COM-04",
+        "id": "A1-VERB-COM-152",
         "word": "phone",
-        "emoji": "📞",
+        "emoji": "\ud83d\udcde",
         "subtext": "phone someone / phone back / on the phone",
         "form": "verb",
         "definitions": [
@@ -122,7 +122,7 @@
         "v2": "phoned",
         "v3": "phoned",
         "group": "regular",
-        "transcription": "foʊn",
+        "transcription": "fo\u028an",
         "auxiliary": "have",
         "v4": "phoning",
         "lang": "en",
@@ -140,9 +140,9 @@
         "sub_subcategory": "Mobile_Apps"
     },
     {
-        "id": "A1-VERB-COM-05",
+        "id": "A1-VERB-COM-153",
         "word": "text",
-        "emoji": "📱",
+        "emoji": "\ud83d\udcf1",
         "form": "verb",
         "subtext": "text someone / send a text",
         "synonyms": [
@@ -161,7 +161,7 @@
         "v2": "texted",
         "v3": "texted",
         "group": "regular",
-        "transcription": "tɛkst",
+        "transcription": "t\u025bkst",
         "lang": "en",
         "level": "starter",
         "theme": "using_smartphone",
@@ -177,9 +177,9 @@
         "sub_subcategory": "Mobile_Apps"
     },
     {
-        "id": "A1-VERB-COM-06",
+        "id": "A1-VERB-COM-154",
         "word": "text",
-        "emoji": "📱",
+        "emoji": "\ud83d\udcf1",
         "form": "verb",
         "subtext": "text someone / send a text",
         "synonyms": [
@@ -198,7 +198,7 @@
         "v2": "texted",
         "v3": "texted",
         "group": "regular",
-        "transcription": "tɛkst",
+        "transcription": "t\u025bkst",
         "auxiliary": "have",
         "v4": "texting",
         "lang": "en",

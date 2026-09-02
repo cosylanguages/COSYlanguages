@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-ADJ-COM-01",
+        "id": "A1-ADJ-COM-018",
         "word": "offline",
-        "emoji": "📴",
+        "emoji": "\ud83d\udcf4",
         "form": "adjective",
         "subtext": "work offline / go offline",
         "synonyms": [
@@ -20,7 +20,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈɔˌflaɪn",
+        "transcription": "\u02c8\u0254\u02ccfla\u026an",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -36,9 +36,9 @@
         "sub_subcategory": "Digital_Devices"
     },
     {
-        "id": "A1-ADJ-COM-02",
+        "id": "A1-ADJ-COM-019",
         "word": "offline",
-        "emoji": "📴",
+        "emoji": "\ud83d\udcf4",
         "form": "adjective",
         "subtext": "work offline / go offline",
         "synonyms": [
@@ -54,7 +54,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈɔˌflaɪn",
+        "transcription": "\u02c8\u0254\u02ccfla\u026an",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -70,9 +70,9 @@
         "sub_subcategory": "Digital_Devices"
     },
     {
-        "id": "A1-ADJ-COM-03",
+        "id": "A1-ADJ-COM-020",
         "word": "online",
-        "emoji": "🌐",
+        "emoji": "\ud83c\udf10",
         "form": "adjective",
         "definitions": [
             {
@@ -85,7 +85,7 @@
         "subtext": "online shopping / online course / stay online",
         "comparative": "more online",
         "superlative": "the most online",
-        "transcription": "ˈɔnˌlaɪn",
+        "transcription": "\u02c8\u0254n\u02ccla\u026an",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -101,9 +101,9 @@
         "sub_subcategory": "Digital_Devices"
     },
     {
-        "id": "A1-ADJ-COM-04",
+        "id": "A1-ADJ-COM-021",
         "word": "online",
-        "emoji": "🌐",
+        "emoji": "\ud83c\udf10",
         "form": "adjective",
         "definitions": [
             {
@@ -116,7 +116,7 @@
         "subtext": "online shopping / online course / stay online",
         "comparative": "more online",
         "superlative": "the most online",
-        "transcription": "ˈɔnˌlaɪn",
+        "transcription": "\u02c8\u0254n\u02ccla\u026an",
         "lang": "en",
         "level": "starter",
         "theme": "technology",

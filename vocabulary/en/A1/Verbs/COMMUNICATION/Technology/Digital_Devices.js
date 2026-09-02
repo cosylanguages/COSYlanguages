@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-COM-01",
+        "id": "A1-VERB-COM-139",
         "word": "call",
-        "emoji": "📞",
+        "emoji": "\ud83d\udcde",
         "subtext": "call someone / call back / call a meeting / call in sick",
         "form": "verb",
         "definitions": [
@@ -20,7 +20,7 @@
         "v2": "called",
         "v3": "called",
         "group": "regular",
-        "transcription": "kɔl",
+        "transcription": "k\u0254l",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -36,9 +36,9 @@
         "sub_subcategory": "Digital_Devices"
     },
     {
-        "id": "A1-VERB-COM-02",
+        "id": "A1-VERB-COM-140",
         "word": "call",
-        "emoji": "📞",
+        "emoji": "\ud83d\udcde",
         "subtext": "call someone / call back / call a meeting / call in sick",
         "form": "verb",
         "definitions": [
@@ -54,7 +54,7 @@
         "v2": "called",
         "v3": "called",
         "group": "regular",
-        "transcription": "kɔl",
+        "transcription": "k\u0254l",
         "synonyms": [
             "phone"
         ],
@@ -75,9 +75,9 @@
         "sub_subcategory": "Digital_Devices"
     },
     {
-        "id": "A1-VERB-COM-03",
+        "id": "A1-VERB-COM-141",
         "word": "ring",
-        "emoji": "🔔",
+        "emoji": "\ud83d\udd14",
         "form": "verb",
         "subtext": "ring a bell",
         "synonyms": [
@@ -97,7 +97,7 @@
         "v2": "rang",
         "v3": "rung",
         "group": "irregular",
-        "transcription": "rɪŋ",
+        "transcription": "r\u026a\u014b",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -113,9 +113,9 @@
         "sub_subcategory": "Digital_Devices"
     },
     {
-        "id": "A1-VERB-COM-04",
+        "id": "A1-VERB-COM-142",
         "word": "ring",
-        "emoji": "🔔",
+        "emoji": "\ud83d\udd14",
         "form": "verb",
         "subtext": "ring a bell",
         "synonyms": [
@@ -135,7 +135,7 @@
         "v2": "rang",
         "v3": "rung",
         "group": "regular",
-        "transcription": "rɪŋ",
+        "transcription": "r\u026a\u014b",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -152,9 +152,9 @@
         "sub_subcategory": "Digital_Devices"
     },
     {
-        "id": "A1-VERB-COM-05",
+        "id": "A1-VERB-COM-143",
         "word": "turn off",
-        "emoji": "🌑",
+        "emoji": "\ud83c\udf11",
         "subtext": "turn off the light / turn off the computer / turn off your phone",
         "form": "verb",
         "definitions": [
@@ -171,7 +171,7 @@
         "v2": "turned off",
         "v3": "turned off",
         "group": "regular",
-        "transcription": "tərn ɔf",
+        "transcription": "t\u0259rn \u0254f",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -187,9 +187,9 @@
         "sub_subcategory": "Digital_Devices"
     },
     {
-        "id": "A1-VERB-COM-06",
+        "id": "A1-VERB-COM-144",
         "word": "turn off",
-        "emoji": "🌑",
+        "emoji": "\ud83c\udf11",
         "subtext": "turn off the light / turn off the computer / turn off your phone",
         "form": "verb",
         "definitions": [
@@ -206,7 +206,7 @@
         "v2": "turned off",
         "v3": "turned off",
         "group": "regular",
-        "transcription": "tərn ɔf",
+        "transcription": "t\u0259rn \u0254f",
         "auxiliary": "have",
         "v4": "turn offing",
         "lang": "en",
@@ -224,9 +224,9 @@
         "sub_subcategory": "Digital_Devices"
     },
     {
-        "id": "A1-VERB-COM-07",
+        "id": "A1-VERB-COM-145",
         "word": "turn on",
-        "emoji": "💡",
+        "emoji": "\ud83d\udca1",
         "subtext": "turn on the light / turn on the TV / turn on the radio",
         "form": "verb",
         "definitions": [
@@ -243,7 +243,7 @@
         "v2": "turned on",
         "v3": "turned on",
         "group": "regular",
-        "transcription": "tərn ɔn",
+        "transcription": "t\u0259rn \u0254n",
         "lang": "en",
         "level": "starter",
         "theme": "technology",
@@ -259,9 +259,9 @@
         "sub_subcategory": "Digital_Devices"
     },
     {
-        "id": "A1-VERB-COM-08",
+        "id": "A1-VERB-COM-146",
         "word": "turn on",
-        "emoji": "💡",
+        "emoji": "\ud83d\udca1",
         "subtext": "turn on the light / turn on the TV / turn on the radio",
         "form": "verb",
         "definitions": [
@@ -278,7 +278,7 @@
         "v2": "turned on",
         "v3": "turned on",
         "group": "regular",
-        "transcription": "tərn ɔn",
+        "transcription": "t\u0259rn \u0254n",
         "auxiliary": "have",
         "v4": "turn oning",
         "lang": "en",
@@ -296,9 +296,9 @@
         "sub_subcategory": "Digital_Devices"
     },
     {
-        "id": "A1-VERB-COM-09",
+        "id": "A1-VERB-COM-147",
         "word": "use",
-        "emoji": "🛠️",
+        "emoji": "\ud83d\udee0\ufe0f",
         "subtext": "use a phone / use public transport / use a computer / use time",
         "form": "verb",
         "definitions": [
@@ -331,9 +331,9 @@
         "sub_subcategory": "Digital_Devices"
     },
     {
-        "id": "A1-VERB-COM-10",
+        "id": "A1-VERB-COM-148",
         "word": "use",
-        "emoji": "🛠️",
+        "emoji": "\ud83d\udee0\ufe0f",
         "subtext": "use a phone / use public transport / use a computer / use time",
         "form": "verb",
         "definitions": [

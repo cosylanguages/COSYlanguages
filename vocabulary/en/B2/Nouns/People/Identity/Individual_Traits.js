@@ -2,12 +2,12 @@
     const lang = "en";
     const data = [
     {
-        "id": "B2-NOUN-PEO-01",
+        "id": "B2-NOUN-PEO-001",
         "lang": "en",
-        "transcription": "əˌkaʊntəˈbɪləti",
+        "transcription": "\u0259\u02ccka\u028ant\u0259\u02c8b\u026al\u0259ti",
         "level": "upper_intermediate",
         "theme": "people",
-        "emoji": "📑",
+        "emoji": "\ud83d\udcd1",
         "form": "noun",
         "classification": "regular",
         "plural": null,
@@ -26,15 +26,16 @@
         "domain": "People",
         "subcategory": "Identity",
         "pos_section": "Nouns",
-        "sub_subcategory": "Individual_Traits"
+        "sub_subcategory": "Individual_Traits",
+        "word": "accountability"
     },
     {
-        "id": "B2-NOUN-PEO-02",
+        "id": "B2-NOUN-PEO-002",
         "lang": "en",
-        "transcription": "ˈɪnfrəˌstrʌktʃə",
+        "transcription": "\u02c8\u026anfr\u0259\u02ccstr\u028ckt\u0283\u0259",
         "level": "upper_intermediate",
         "theme": "people",
-        "emoji": "🏗️",
+        "emoji": "\ud83c\udfd7\ufe0f",
         "form": "noun",
         "classification": "regular",
         "plural": "infrastructures",
@@ -53,15 +54,16 @@
         "domain": "People",
         "subcategory": "Identity",
         "pos_section": "Nouns",
-        "sub_subcategory": "Individual_Traits"
+        "sub_subcategory": "Individual_Traits",
+        "word": "infrastructure"
     },
     {
-        "id": "B2-NOUN-PEO-03",
+        "id": "B2-NOUN-PEO-003",
         "lang": "en",
-        "transcription": "ˈwɛlfeə steɪt",
+        "transcription": "\u02c8w\u025blfe\u0259 ste\u026at",
         "level": "upper_intermediate",
         "theme": "people",
-        "emoji": "🛡️🏛️",
+        "emoji": "\ud83d\udee1\ufe0f\ud83c\udfdb\ufe0f",
         "form": "noun phrase",
         "plural": "welfare states",
         "subtext": "social security, welfare benefits",
@@ -79,15 +81,16 @@
         "domain": "People",
         "subcategory": "Identity",
         "pos_section": "Nouns",
-        "sub_subcategory": "Individual_Traits"
+        "sub_subcategory": "Individual_Traits",
+        "word": "welfare state"
     },
     {
-        "id": "B2-NOUN-PEO-04",
+        "id": "B2-NOUN-PEO-004",
         "lang": "en",
-        "transcription": "ˌpəʊləraɪˈzeɪʃn",
+        "transcription": "\u02ccp\u0259\u028al\u0259ra\u026a\u02c8ze\u026a\u0283n",
         "level": "upper_intermediate",
         "theme": "people",
-        "emoji": "↔️❌",
+        "emoji": "\u2194\ufe0f\u274c",
         "form": "noun",
         "classification": "regular",
         "plural": null,
@@ -106,15 +109,16 @@
         "domain": "People",
         "subcategory": "Identity",
         "pos_section": "Nouns",
-        "sub_subcategory": "Individual_Traits"
+        "sub_subcategory": "Individual_Traits",
+        "word": "polarisation"
     },
     {
-        "id": "B2-NOUN-PEO-05",
+        "id": "B2-NOUN-PEO-005",
         "lang": "en",
-        "transcription": "ˈskruːtɪni",
+        "transcription": "\u02c8skru\u02d0t\u026ani",
         "level": "upper_intermediate",
         "theme": "people",
-        "emoji": "🔍",
+        "emoji": "\ud83d\udd0d",
         "form": "noun",
         "classification": "regular",
         "plural": null,
@@ -133,15 +137,16 @@
         "domain": "People",
         "subcategory": "Identity",
         "pos_section": "Nouns",
-        "sub_subcategory": "Individual_Traits"
+        "sub_subcategory": "Individual_Traits",
+        "word": "scrutiny"
     },
     {
-        "id": "B2-NOUN-PEO-06",
+        "id": "B2-NOUN-PEO-006",
         "lang": "en",
-        "transcription": "ˌlɛdʒɪsˈleɪʃn",
+        "transcription": "\u02ccl\u025bd\u0292\u026as\u02c8le\u026a\u0283n",
         "level": "upper_intermediate",
         "theme": "people",
-        "emoji": "📜",
+        "emoji": "\ud83d\udcdc",
         "form": "noun",
         "classification": "regular",
         "plural": null,
@@ -160,15 +165,16 @@
         "domain": "People",
         "subcategory": "Identity",
         "pos_section": "Nouns",
-        "sub_subcategory": "Individual_Traits"
+        "sub_subcategory": "Individual_Traits",
+        "word": "legislation"
     },
     {
-        "id": "B2-NOUN-PEO-07",
+        "id": "B2-NOUN-PEO-007",
         "lang": "en",
-        "transcription": "ˈdʒʌstɪs",
+        "transcription": "\u02c8d\u0292\u028cst\u026as",
         "level": "upper_intermediate",
         "theme": "people",
-        "emoji": "⚖️",
+        "emoji": "\u2696\ufe0f",
         "form": "noun",
         "classification": "regular",
         "plural": null,
@@ -190,15 +196,16 @@
         "domain": "People",
         "subcategory": "Identity",
         "pos_section": "Nouns",
-        "sub_subcategory": "Individual_Traits"
+        "sub_subcategory": "Individual_Traits",
+        "word": "justice"
     },
     {
-        "id": "B2-NOUN-PEO-08",
+        "id": "B2-NOUN-PEO-008",
         "lang": "en",
-        "transcription": "trænsˈpærənsi",
+        "transcription": "tr\u00e6ns\u02c8p\u00e6r\u0259nsi",
         "level": "upper_intermediate",
         "theme": "people",
-        "emoji": "🪟",
+        "emoji": "\ud83e\ude9f",
         "form": "noun",
         "classification": "regular",
         "plural": null,
@@ -220,18 +227,19 @@
         "domain": "People",
         "subcategory": "Identity",
         "pos_section": "Nouns",
-        "sub_subcategory": "Individual_Traits"
+        "sub_subcategory": "Individual_Traits",
+        "word": "transparency"
     },
     {
-        "id": "B2-NOUN-PEO-09",
+        "id": "B2-NOUN-PEO-009",
         "lang": "en",
         "word": "civil liberties",
         "level": "upper_intermediate",
         "theme": "people",
-        "emoji": "🗽",
+        "emoji": "\ud83d\uddfd",
         "form": "noun phrase",
         "plural": "civil liberties",
-        "transcription": "ˌsɪvl ˈlɪbətiz",
+        "transcription": "\u02ccs\u026avl \u02c8l\u026ab\u0259tiz",
         "subtext": "human rights, basic freedoms",
         "definitions": [
             {
@@ -249,16 +257,16 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-NOUN-PEO-10",
+        "id": "B2-NOUN-PEO-010",
         "lang": "en",
         "word": "democracy",
         "level": "upper_intermediate",
         "theme": "people",
-        "emoji": "🗳️",
+        "emoji": "\ud83d\uddf3\ufe0f",
         "form": "noun",
         "classification": "regular",
         "plural": "democracies",
-        "transcription": "🇬🇧 dɪˈmɒkrəsi | 🇺🇸 dɪˈmɑːkrəsi",
+        "transcription": "\ud83c\uddec\ud83c\udde7 d\u026a\u02c8m\u0252kr\u0259si | \ud83c\uddfa\ud83c\uddf8 d\u026a\u02c8m\u0251\u02d0kr\u0259si",
         "subtext": "democratic system, voting",
         "definitions": [
             {
@@ -276,16 +284,16 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-NOUN-PEO-11",
+        "id": "B2-NOUN-PEO-011",
         "lang": "en",
         "word": "discrimination",
         "level": "upper_intermediate",
         "theme": "people",
-        "emoji": "🚫",
+        "emoji": "\ud83d\udeab",
         "form": "noun",
         "classification": "regular",
         "plural": null,
-        "transcription": "dɪˌskrɪmɪˈneɪʃn",
+        "transcription": "d\u026a\u02ccskr\u026am\u026a\u02c8ne\u026a\u0283n",
         "subtext": "unfair treatment, prejudice",
         "definitions": [
             {
@@ -303,16 +311,16 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-NOUN-PEO-12",
+        "id": "B2-NOUN-PEO-012",
         "lang": "en",
         "word": "diversity",
         "level": "upper_intermediate",
         "theme": "people",
-        "emoji": "🌍",
+        "emoji": "\ud83c\udf0d",
         "form": "noun",
         "classification": "regular",
         "plural": null,
-        "transcription": "daɪˈvɜːsəti",
+        "transcription": "da\u026a\u02c8v\u025c\u02d0s\u0259ti",
         "subtext": "inclusion, variety",
         "definitions": [
             {
@@ -330,16 +338,16 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-NOUN-PEO-13",
+        "id": "B2-NOUN-PEO-013",
         "lang": "en",
         "word": "electorate",
         "level": "upper_intermediate",
         "theme": "people",
-        "emoji": "🗳️",
+        "emoji": "\ud83d\uddf3\ufe0f",
         "form": "noun",
         "classification": "regular",
         "plural": "electorates",
-        "transcription": "ɪˈlɛktərət",
+        "transcription": "\u026a\u02c8l\u025bkt\u0259r\u0259t",
         "subtext": "voters, voting population",
         "definitions": [
             {
@@ -357,15 +365,15 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-NOUN-PEO-14",
+        "id": "B2-NOUN-PEO-014",
         "lang": "en",
         "word": "gender pay gap",
         "level": "upper_intermediate",
         "theme": "people",
-        "emoji": "⚖️📉",
+        "emoji": "\u2696\ufe0f\ud83d\udcc9",
         "form": "noun phrase",
         "plural": "gender pay gaps",
-        "transcription": "ˈdʒɛndə peɪ ɡæp",
+        "transcription": "\u02c8d\u0292\u025bnd\u0259 pe\u026a \u0261\u00e6p",
         "subtext": "close the pay gap, pay inequality",
         "definitions": [
             {
@@ -384,16 +392,16 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-NOUN-PEO-15",
+        "id": "B2-NOUN-PEO-015",
         "lang": "en",
         "word": "integrity",
         "level": "upper_intermediate",
         "theme": "people",
-        "emoji": "💎",
+        "emoji": "\ud83d\udc8e",
         "form": "noun",
         "classification": "regular",
         "plural": null,
-        "transcription": "ɪnˈtɛɡrəti",
+        "transcription": "\u026an\u02c8t\u025b\u0261r\u0259ti",
         "subtext": "honesty, strong principles",
         "definitions": [
             {
@@ -411,16 +419,16 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-NOUN-PEO-16",
+        "id": "B2-NOUN-PEO-016",
         "lang": "en",
         "word": "lobbying",
         "level": "upper_intermediate",
         "theme": "people",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "form": "noun",
         "classification": "regular",
         "plural": null,
-        "transcription": "🇬🇧 ˈlɒbiɪŋ | 🇺🇸 ˈlɑːbiɪŋ",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8l\u0252bi\u026a\u014b | \ud83c\uddfa\ud83c\uddf8 \u02c8l\u0251\u02d0bi\u026a\u014b",
         "subtext": "political influence, advocacy",
         "definitions": [
             {
@@ -438,15 +446,15 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-NOUN-PEO-17",
+        "id": "B2-NOUN-PEO-017",
         "lang": "en",
         "word": "parental leave",
         "level": "upper_intermediate",
         "theme": "people",
-        "emoji": "👶",
+        "emoji": "\ud83d\udc76",
         "form": "noun phrase",
         "plural": null,
-        "transcription": "pəˈrɛntl liːv",
+        "transcription": "p\u0259\u02c8r\u025bntl li\u02d0v",
         "subtext": "maternity leave, paternity leave",
         "definitions": [
             {
@@ -464,16 +472,16 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-NOUN-PEO-18",
+        "id": "B2-NOUN-PEO-018",
         "lang": "en",
         "word": "regulation",
         "level": "upper_intermediate",
         "theme": "people",
-        "emoji": "📜",
+        "emoji": "\ud83d\udcdc",
         "form": "noun",
         "classification": "regular",
         "plural": "regulations",
-        "transcription": "ˌrɛɡjuˈleɪʃn",
+        "transcription": "\u02ccr\u025b\u0261ju\u02c8le\u026a\u0283n",
         "subtext": "official rules, compliance",
         "definitions": [
             {
@@ -491,16 +499,16 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-NOUN-PEO-19",
+        "id": "B2-NOUN-PEO-019",
         "lang": "en",
         "word": "representation",
         "level": "upper_intermediate",
         "theme": "people",
-        "emoji": "👥",
+        "emoji": "\ud83d\udc65",
         "form": "noun",
         "classification": "regular",
         "plural": null,
-        "transcription": "ˌrɛprɪzɛnˈteɪʃn",
+        "transcription": "\u02ccr\u025bpr\u026az\u025bn\u02c8te\u026a\u0283n",
         "subtext": "proportional representation, political voice",
         "definitions": [
             {
@@ -518,16 +526,16 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-NOUN-PEO-20",
+        "id": "B2-NOUN-PEO-020",
         "lang": "en",
         "word": "veto",
         "level": "upper_intermediate",
         "theme": "people",
-        "emoji": "🚫",
+        "emoji": "\ud83d\udeab",
         "form": "noun",
         "classification": "regular",
         "plural": "vetoes",
-        "transcription": "🇬🇧 ˈviːtəʊ | 🇺🇸 ˈviːtoʊ",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8vi\u02d0t\u0259\u028a | \ud83c\uddfa\ud83c\uddf8 \u02c8vi\u02d0to\u028a",
         "subtext": "power to reject, exercise a veto",
         "definitions": [
             {
@@ -545,16 +553,16 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-NOUN-PEO-21",
+        "id": "B2-NOUN-PEO-021",
         "lang": "en",
         "word": "whistleblower",
         "level": "upper_intermediate",
         "theme": "people",
-        "emoji": "📢",
+        "emoji": "\ud83d\udce2",
         "form": "noun",
         "classification": "regular",
         "plural": "whistleblowers",
-        "transcription": "🇬🇧 ˈwɪslbləʊə | 🇺🇸 ˈwɪslbloʊər",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8w\u026aslbl\u0259\u028a\u0259 | \ud83c\uddfa\ud83c\uddf8 \u02c8w\u026aslblo\u028a\u0259r",
         "subtext": "exposing wrongdoing, informant",
         "definitions": [
             {

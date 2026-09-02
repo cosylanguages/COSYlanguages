@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-SEL-01",
+        "id": "A1-NOUN-SEL-056",
         "word": "aunt",
-        "emoji": "👩",
+        "emoji": "\ud83d\udc69",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
             }
         ],
         "subtext": "related to extended family",
-        "transcription": "ɔnt",
+        "transcription": "\u0254nt",
         "lang": "en",
         "level": "starter",
         "theme": "extended_family",
@@ -31,9 +31,9 @@
         "sub_subcategory": "Extended_Family"
     },
     {
-        "id": "A1-NOUN-SEL-02",
+        "id": "A1-NOUN-SEL-057",
         "word": "cousin",
-        "emoji": "🧑",
+        "emoji": "\ud83e\uddd1",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -47,7 +47,7 @@
             }
         ],
         "subtext": "related to extended family",
-        "transcription": "ˈkəzən",
+        "transcription": "\u02c8k\u0259z\u0259n",
         "lang": "en",
         "level": "starter",
         "theme": "extended_family",
@@ -60,9 +60,9 @@
         "sub_subcategory": "Extended_Family"
     },
     {
-        "id": "A1-NOUN-SEL-03",
+        "id": "A1-NOUN-SEL-058",
         "word": "grandfather",
-        "emoji": "👴",
+        "emoji": "\ud83d\udc74",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -76,7 +76,7 @@
             }
         ],
         "subtext": "related to extended family",
-        "transcription": "ˈgrænˌfɑðər",
+        "transcription": "\u02c8gr\u00e6n\u02ccf\u0251\u00f0\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "extended_family",
@@ -89,9 +89,9 @@
         "sub_subcategory": "Extended_Family"
     },
     {
-        "id": "A1-NOUN-SEL-04",
+        "id": "A1-NOUN-SEL-059",
         "word": "grandmother",
-        "emoji": "👵",
+        "emoji": "\ud83d\udc75",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -105,7 +105,7 @@
             }
         ],
         "subtext": "related to extended family",
-        "transcription": "ˈgrændˌməðər",
+        "transcription": "\u02c8gr\u00e6nd\u02ccm\u0259\u00f0\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "extended_family",
@@ -118,9 +118,9 @@
         "sub_subcategory": "Extended_Family"
     },
     {
-        "id": "A1-NOUN-SEL-05",
+        "id": "A1-NOUN-SEL-060",
         "word": "nephew",
-        "emoji": "👦",
+        "emoji": "\ud83d\udc66",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -134,7 +134,7 @@
             }
         ],
         "subtext": "related to extended family",
-        "transcription": "ˈnɛfju",
+        "transcription": "\u02c8n\u025bfju",
         "lang": "en",
         "level": "starter",
         "theme": "extended_family",
@@ -147,9 +147,9 @@
         "sub_subcategory": "Extended_Family"
     },
     {
-        "id": "A1-NOUN-SEL-06",
+        "id": "A1-NOUN-SEL-061",
         "word": "niece",
-        "emoji": "👧",
+        "emoji": "\ud83d\udc67",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -176,9 +176,9 @@
         "sub_subcategory": "Extended_Family"
     },
     {
-        "id": "A1-NOUN-SEL-07",
+        "id": "A1-NOUN-SEL-062",
         "word": "uncle",
-        "emoji": "👨",
+        "emoji": "\ud83d\udc68",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -192,7 +192,7 @@
             }
         ],
         "subtext": "related to extended family",
-        "transcription": "ˈəŋkəl",
+        "transcription": "\u02c8\u0259\u014bk\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "extended_family",

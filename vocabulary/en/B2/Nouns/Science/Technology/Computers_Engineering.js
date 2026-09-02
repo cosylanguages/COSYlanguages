@@ -2,12 +2,12 @@
     const lang = "en";
     const data = [
     {
-        "id": "B2-NOUN-SCI-01",
+        "id": "B2-NOUN-SCI-006",
         "lang": "en",
-        "transcription": "ˌɔːtəˈmeɪʃn",
+        "transcription": "\u02cc\u0254\u02d0t\u0259\u02c8me\u026a\u0283n",
         "level": "upper_intermediate",
         "theme": "technology",
-        "emoji": "🤖",
+        "emoji": "\ud83e\udd16",
         "form": "noun",
         "classification": "regular",
         "plural": null,
@@ -26,15 +26,16 @@
         "domain": "Science",
         "subcategory": "Technology",
         "pos_section": "Nouns",
-        "sub_subcategory": "Computers_Engineering"
+        "sub_subcategory": "Computers_Engineering",
+        "word": "automation"
     },
     {
-        "id": "B2-NOUN-SCI-02",
+        "id": "B2-NOUN-SCI-007",
         "lang": "en",
-        "transcription": "ˈælɡərɪðəm",
+        "transcription": "\u02c8\u00e6l\u0261\u0259r\u026a\u00f0\u0259m",
         "level": "upper_intermediate",
         "theme": "technology",
-        "emoji": "💻",
+        "emoji": "\ud83d\udcbb",
         "form": "noun",
         "classification": "regular",
         "plural": "algorithms",
@@ -53,15 +54,16 @@
         "domain": "Science",
         "subcategory": "Technology",
         "pos_section": "Nouns",
-        "sub_subcategory": "Computers_Engineering"
+        "sub_subcategory": "Computers_Engineering",
+        "word": "algorithm"
     },
     {
-        "id": "B2-NOUN-SCI-03",
+        "id": "B2-NOUN-SCI-008",
         "lang": "en",
-        "transcription": "ˈdeɪtə ˈprɪvəsi",
+        "transcription": "\u02c8de\u026at\u0259 \u02c8pr\u026av\u0259si",
         "level": "upper_intermediate",
         "theme": "technology",
-        "emoji": "🔒",
+        "emoji": "\ud83d\udd12",
         "form": "noun phrase",
         "plural": null,
         "subtext": "data protection, privacy laws",
@@ -79,15 +81,16 @@
         "domain": "Science",
         "subcategory": "Technology",
         "pos_section": "Nouns",
-        "sub_subcategory": "Computers_Engineering"
+        "sub_subcategory": "Computers_Engineering",
+        "word": "data privacy"
     },
     {
-        "id": "B2-NOUN-SCI-04",
+        "id": "B2-NOUN-SCI-009",
         "lang": "en",
-        "transcription": "ˌmɪsɪnfəˈmeɪʃn",
+        "transcription": "\u02ccm\u026as\u026anf\u0259\u02c8me\u026a\u0283n",
         "level": "upper_intermediate",
         "theme": "technology",
-        "emoji": "🤥",
+        "emoji": "\ud83e\udd25",
         "form": "noun",
         "classification": "regular",
         "plural": null,
@@ -106,15 +109,16 @@
         "domain": "Science",
         "subcategory": "Technology",
         "pos_section": "Nouns",
-        "sub_subcategory": "Computers_Engineering"
+        "sub_subcategory": "Computers_Engineering",
+        "word": "misinformation"
     },
     {
-        "id": "B2-NOUN-SCI-05",
+        "id": "B2-NOUN-SCI-010",
         "lang": "en",
-        "transcription": "sɜːˈveɪləns",
+        "transcription": "s\u025c\u02d0\u02c8ve\u026al\u0259ns",
         "level": "upper_intermediate",
         "theme": "technology",
-        "emoji": "📹",
+        "emoji": "\ud83d\udcf9",
         "form": "noun",
         "classification": "regular",
         "plural": null,
@@ -133,18 +137,19 @@
         "domain": "Science",
         "subcategory": "Technology",
         "pos_section": "Nouns",
-        "sub_subcategory": "Computers_Engineering"
+        "sub_subcategory": "Computers_Engineering",
+        "word": "surveillance"
     },
     {
-        "id": "B2-NOUN-SCI-06",
+        "id": "B2-NOUN-SCI-011",
         "lang": "en",
         "word": "artificial intelligence",
         "level": "upper_intermediate",
         "theme": "technology",
-        "emoji": "🤖",
+        "emoji": "\ud83e\udd16",
         "form": "noun phrase",
         "plural": null,
-        "transcription": "ˌɑːtɪˈfɪʃl ɪnˈtɛlɪdʒəns",
+        "transcription": "\u02cc\u0251\u02d0t\u026a\u02c8f\u026a\u0283l \u026an\u02c8t\u025bl\u026ad\u0292\u0259ns",
         "subtext": "AI, machine learning",
         "definitions": [
             {
@@ -162,16 +167,16 @@
         "sub_subcategory": "Computers_Engineering"
     },
     {
-        "id": "B2-NOUN-SCI-07",
+        "id": "B2-NOUN-SCI-012",
         "lang": "en",
         "word": "cybersecurity",
         "level": "upper_intermediate",
         "theme": "technology",
-        "emoji": "🛡️",
+        "emoji": "\ud83d\udee1\ufe0f",
         "form": "noun",
         "classification": "regular",
         "plural": null,
-        "transcription": "ˌsaɪbə sɪˈkjʊərɪti",
+        "transcription": "\u02ccsa\u026ab\u0259 s\u026a\u02c8kj\u028a\u0259r\u026ati",
         "subtext": "online protection, network security",
         "definitions": [
             {
@@ -189,16 +194,16 @@
         "sub_subcategory": "Computers_Engineering"
     },
     {
-        "id": "B2-NOUN-SCI-08",
+        "id": "B2-NOUN-SCI-013",
         "lang": "en",
         "word": "data",
         "level": "upper_intermediate",
         "theme": "technology",
-        "emoji": "📊",
+        "emoji": "\ud83d\udcca",
         "form": "noun",
         "classification": "regular",
         "plural": "data",
-        "transcription": "ˈdeɪtə",
+        "transcription": "\u02c8de\u026at\u0259",
         "subtext": "information, statistics",
         "definitions": [
             {
@@ -216,16 +221,16 @@
         "sub_subcategory": "Computers_Engineering"
     },
     {
-        "id": "B2-NOUN-SCI-09",
+        "id": "B2-NOUN-SCI-014",
         "lang": "en",
         "word": "disinformation",
         "level": "upper_intermediate",
         "theme": "technology",
-        "emoji": "🤥",
+        "emoji": "\ud83e\udd25",
         "form": "noun",
         "classification": "regular",
         "plural": null,
-        "transcription": "ˌdɪsɪnfəˈmeɪʃn",
+        "transcription": "\u02ccd\u026as\u026anf\u0259\u02c8me\u026a\u0283n",
         "subtext": "deliberate lies, propaganda",
         "definitions": [
             {

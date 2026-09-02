@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-TIM-01",
+        "id": "A1-VERB-TIM-001",
         "word": "add",
-        "emoji": "➕",
+        "emoji": "\u2795",
         "subtext": "add some sugar / add to / add up / add a comment",
         "form": "verb",
         "definitions": [
@@ -21,7 +21,7 @@
         "v2": "added",
         "v3": "added",
         "group": "regular",
-        "transcription": "æd",
+        "transcription": "\u00e6d",
         "lang": "en",
         "level": "starter",
         "theme": "numbers",
@@ -37,9 +37,9 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A1-VERB-TIM-02",
+        "id": "A1-VERB-TIM-002",
         "word": "add",
-        "emoji": "➕",
+        "emoji": "\u2795",
         "subtext": "add some sugar / add to / add up / add a comment",
         "form": "verb",
         "definitions": [
@@ -56,7 +56,7 @@
         "v2": "added",
         "v3": "added",
         "group": "regular",
-        "transcription": "æd",
+        "transcription": "\u00e6d",
         "auxiliary": "have",
         "v4": "adding",
         "lang": "en",
@@ -74,9 +74,9 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A1-VERB-TIM-03",
+        "id": "A1-VERB-TIM-003",
         "word": "count",
-        "emoji": "🔢",
+        "emoji": "\ud83d\udd22",
         "form": "verb",
         "subtext": "count to ten / count numbers",
         "synonyms": [
@@ -95,7 +95,7 @@
         "v2": "counted",
         "v3": "counted",
         "group": "regular",
-        "transcription": "kaʊnt",
+        "transcription": "ka\u028ant",
         "lang": "en",
         "level": "starter",
         "theme": "numbers",
@@ -111,9 +111,9 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A1-VERB-TIM-04",
+        "id": "A1-VERB-TIM-004",
         "word": "count",
-        "emoji": "🔢",
+        "emoji": "\ud83d\udd22",
         "form": "verb",
         "subtext": "count to ten / count numbers",
         "synonyms": [
@@ -132,7 +132,7 @@
         "v2": "counted",
         "v3": "counted",
         "group": "regular",
-        "transcription": "kaʊnt",
+        "transcription": "ka\u028ant",
         "auxiliary": "have",
         "v4": "counting",
         "lang": "en",
@@ -150,9 +150,9 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A1-VERB-TIM-05",
+        "id": "A1-VERB-TIM-005",
         "word": "subtract",
-        "emoji": "➖",
+        "emoji": "\u2796",
         "subtext": "subtract from",
         "synonyms": [
             "minus"
@@ -171,7 +171,7 @@
         "v2": "subtracted",
         "v3": "subtracted",
         "group": "regular",
-        "transcription": "səbˈtrækt",
+        "transcription": "s\u0259b\u02c8tr\u00e6kt",
         "lang": "en",
         "level": "starter",
         "theme": "numbers",
@@ -187,9 +187,9 @@
         "sub_subcategory": "Cardinal_Ordinal"
     },
     {
-        "id": "A1-VERB-TIM-06",
+        "id": "A1-VERB-TIM-006",
         "word": "subtract",
-        "emoji": "➖",
+        "emoji": "\u2796",
         "subtext": "subtract from",
         "synonyms": [
             "minus"
@@ -208,7 +208,7 @@
         "v2": "subtracted",
         "v3": "subtracted",
         "group": "regular",
-        "transcription": "səbˈtrækt",
+        "transcription": "s\u0259b\u02c8tr\u00e6kt",
         "auxiliary": "have",
         "v4": "subtracting",
         "lang": "en",

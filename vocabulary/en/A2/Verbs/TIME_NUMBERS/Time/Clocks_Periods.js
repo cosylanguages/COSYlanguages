@@ -5,7 +5,7 @@
         "word": "eventually",
         "level": "elementary",
         "theme": "time",
-        "emoji": "🏁",
+        "emoji": "\ud83c\udfc1",
         "form": "adverb",
         "definitions": [
             {
@@ -21,10 +21,10 @@
             "finally",
             "in the end"
         ],
-        "transcription": "ɪˈvɛntʃuəli",
+        "transcription": "\u026a\u02c8v\u025bnt\u0283u\u0259li",
         "language": "en",
         "lang": "en",
-        "id": "A2-VERB-TIM-01",
+        "id": "A2-VERB-TIM-016",
         "legacy_id": "A2-NUM-03",
         "level_code": "A2",
         "domain": "TIME_NUMBERS",
@@ -36,7 +36,7 @@
         "word": "finally",
         "level": "elementary",
         "theme": "time",
-        "emoji": "🏁",
+        "emoji": "\ud83c\udfc1",
         "form": "adverb",
         "definitions": [
             {
@@ -52,10 +52,10 @@
             "lastly",
             "in the end"
         ],
-        "transcription": "ˈfaɪnəli",
+        "transcription": "\u02c8fa\u026an\u0259li",
         "language": "en",
         "lang": "en",
-        "id": "A2-VERB-TIM-02",
+        "id": "A2-VERB-TIM-017",
         "legacy_id": "A2-NUM-04",
         "level_code": "A2",
         "domain": "TIME_NUMBERS",
@@ -67,7 +67,7 @@
         "word": "firstly",
         "level": "elementary",
         "theme": "time",
-        "emoji": "1️⃣",
+        "emoji": "1\ufe0f\u20e3",
         "form": "adverb",
         "definitions": [
             {
@@ -83,10 +83,10 @@
             "first",
             "to begin with"
         ],
-        "transcription": "ˈfɜːrstli",
+        "transcription": "\u02c8f\u025c\u02d0rstli",
         "language": "en",
         "lang": "en",
-        "id": "A2-VERB-TIM-03",
+        "id": "A2-VERB-TIM-018",
         "legacy_id": "A2-NUM-05",
         "level_code": "A2",
         "domain": "TIME_NUMBERS",
@@ -98,7 +98,7 @@
         "word": "lately",
         "level": "elementary",
         "theme": "time",
-        "emoji": "🕒",
+        "emoji": "\ud83d\udd52",
         "form": "adverb",
         "definitions": [
             {
@@ -114,10 +114,10 @@
             "recently",
             "in recent times"
         ],
-        "transcription": "ˈleɪtli",
+        "transcription": "\u02c8le\u026atli",
         "language": "en",
         "lang": "en",
-        "id": "A2-VERB-TIM-04",
+        "id": "A2-VERB-TIM-019",
         "legacy_id": "A2-NUM-07",
         "level_code": "A2",
         "domain": "TIME_NUMBERS",
@@ -129,7 +129,7 @@
         "word": "secondly",
         "level": "elementary",
         "theme": "time",
-        "emoji": "2️⃣",
+        "emoji": "2\ufe0f\u20e3",
         "form": "adverb",
         "definitions": [
             {
@@ -145,10 +145,10 @@
             "second",
             "furthermore"
         ],
-        "transcription": "ˈsɛkəndli",
+        "transcription": "\u02c8s\u025bk\u0259ndli",
         "language": "en",
         "lang": "en",
-        "id": "A2-VERB-TIM-05",
+        "id": "A2-VERB-TIM-020",
         "legacy_id": "A2-NUM-10",
         "level_code": "A2",
         "domain": "TIME_NUMBERS",
@@ -160,7 +160,7 @@
         "word": "shortly",
         "level": "elementary",
         "theme": "time",
-        "emoji": "⏱️",
+        "emoji": "\u23f1\ufe0f",
         "form": "adverb",
         "definitions": [
             {
@@ -176,10 +176,10 @@
             "soon",
             "in a moment"
         ],
-        "transcription": "ˈʃɔːrtli",
+        "transcription": "\u02c8\u0283\u0254\u02d0rtli",
         "language": "en",
         "lang": "en",
-        "id": "A2-VERB-TIM-06",
+        "id": "A2-VERB-TIM-021",
         "legacy_id": "A2-NUM-11",
         "level_code": "A2",
         "domain": "TIME_NUMBERS",

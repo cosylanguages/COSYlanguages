@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-ADJ-TRA-01",
+        "id": "A1-ADJ-TRA-001",
         "word": "dangerous",
         "form": "adjective",
         "subtext": "dangerous situation / very dangerous / potentially dangerous",
@@ -19,8 +19,8 @@
         ],
         "comparative": "more dangerous",
         "superlative": "the most dangerous",
-        "emoji": "🧨",
-        "transcription": "ˈdeɪnʤərəs",
+        "emoji": "\ud83e\udde8",
+        "transcription": "\u02c8de\u026an\u02a4\u0259r\u0259s",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -36,7 +36,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-ADJ-TRA-02",
+        "id": "A1-ADJ-TRA-002",
         "word": "dangerous",
         "form": "adjective",
         "subtext": "dangerous situation / very dangerous / potentially dangerous",
@@ -53,8 +53,8 @@
         ],
         "comparative": "more dangerous",
         "superlative": "the most dangerous",
-        "emoji": "🧨",
-        "transcription": "ˈdeɪnʤərəs",
+        "emoji": "\ud83e\udde8",
+        "transcription": "\u02c8de\u026an\u02a4\u0259r\u0259s",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -70,7 +70,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-ADJ-TRA-03",
+        "id": "A1-ADJ-TRA-003",
         "word": "safe",
         "form": "adjective",
         "subtext": "safe area / safe to do / feel safe",
@@ -87,8 +87,8 @@
         ],
         "comparative": "safer",
         "superlative": "the safest",
-        "emoji": "🛡️",
-        "transcription": "seɪf",
+        "emoji": "\ud83d\udee1\ufe0f",
+        "transcription": "se\u026af",
         "lang": "en",
         "level": "starter",
         "theme": "places",
@@ -104,7 +104,7 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-ADJ-TRA-04",
+        "id": "A1-ADJ-TRA-004",
         "word": "safe",
         "form": "adjective",
         "subtext": "safe area / safe to do / feel safe",
@@ -121,8 +121,8 @@
         ],
         "comparative": "safer",
         "superlative": "the safest",
-        "emoji": "🛡️",
-        "transcription": "seɪf",
+        "emoji": "\ud83d\udee1\ufe0f",
+        "transcription": "se\u026af",
         "lang": "en",
         "level": "starter",
         "theme": "places",

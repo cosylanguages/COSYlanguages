@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "B1-ADJ-SOC-01",
+        "id": "B1-ADJ-SOC-016",
         "word": "cultural",
         "lang": "en",
         "level": "intermediate",
@@ -16,8 +16,8 @@
                 ]
             }
         ],
-        "transcription": "ˈkʌltʃərəl",
-        "emoji": "❓",
+        "transcription": "\u02c8k\u028clt\u0283\u0259r\u0259l",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "cultural differences / cultural event / culturally diverse"
         },
@@ -29,7 +29,7 @@
         "sub_subcategory": "Visual_Performing_Arts"
     },
     {
-        "id": "B1-ADJ-SOC-02",
+        "id": "B1-ADJ-SOC-017",
         "word": "original",
         "lang": "en",
         "level": "intermediate",
@@ -43,8 +43,8 @@
                 ]
             }
         ],
-        "transcription": "əˈrɪdʒənl",
-        "emoji": "❓",
+        "transcription": "\u0259\u02c8r\u026ad\u0292\u0259nl",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "very original / completely original / an original idea"
         },

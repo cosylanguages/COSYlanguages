@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A2-VERB-SEL-01",
+        "id": "A2-VERB-SEL-082",
         "word": "allow",
-        "emoji": "✅",
+        "emoji": "\u2705",
         "form": "verb",
         "subtext": "let, permit",
         "synonyms": [
@@ -23,7 +23,7 @@
         "aspect": "action",
         "v2": "allowed",
         "v3": "allowed",
-        "transcription": "əˈlaʊ",
+        "transcription": "\u0259\u02c8la\u028a",
         "group": "regular",
         "auxiliary": "have",
         "v4": "allowing",
@@ -44,9 +44,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-VERB-SEL-02",
+        "id": "A2-VERB-SEL-083",
         "word": "appear",
-        "emoji": "👻",
+        "emoji": "\ud83d\udc7b",
         "form": "verb",
         "subtext": "look like",
         "synonyms": [
@@ -64,7 +64,7 @@
         "aspect": "stative",
         "v2": "appeared",
         "v3": "appeared",
-        "transcription": "əˈpɪər",
+        "transcription": "\u0259\u02c8p\u026a\u0259r",
         "group": "regular",
         "auxiliary": "have",
         "v4": "appearing",
@@ -80,9 +80,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-VERB-SEL-03",
+        "id": "A2-VERB-SEL-084",
         "word": "attract",
-        "emoji": "🧲",
+        "emoji": "\ud83e\uddf2",
         "form": "verb",
         "subtext": "draw, pull, appeal to",
         "synonyms": [
@@ -103,7 +103,7 @@
         "aspect": "action",
         "v2": "attracted",
         "v3": "attracted",
-        "transcription": "əˈtrækt",
+        "transcription": "\u0259\u02c8tr\u00e6kt",
         "group": "regular",
         "auxiliary": "have",
         "v4": "attracting",
@@ -124,9 +124,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-VERB-SEL-04",
+        "id": "A2-VERB-SEL-085",
         "word": "behave",
-        "emoji": "😇",
+        "emoji": "\ud83d\ude07",
         "form": "verb",
         "subtext": "behave well / behave badly / behave yourself",
         "definitions": [
@@ -142,7 +142,7 @@
         "aspect": "action",
         "v2": "behaved",
         "v3": "behaved",
-        "transcription": "bɪˈheɪv",
+        "transcription": "b\u026a\u02c8he\u026av",
         "synonyms": [
             "act"
         ],
@@ -161,9 +161,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-VERB-SEL-05",
+        "id": "A2-VERB-SEL-086",
         "word": "break up",
-        "emoji": "💔",
+        "emoji": "\ud83d\udc94",
         "form": "verb",
         "v2": "broke up",
         "v3": "broken up",
@@ -182,7 +182,7 @@
             "separate"
         ],
         "classification": "irregular",
-        "transcription": "breɪk ʌp",
+        "transcription": "bre\u026ak \u028cp",
         "group": "regular",
         "auxiliary": "have",
         "lang": "en",
@@ -197,9 +197,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-VERB-SEL-06",
+        "id": "A2-VERB-SEL-087",
         "word": "identify",
-        "emoji": "🔎",
+        "emoji": "\ud83d\udd0e",
         "form": "verb",
         "subtext": "identify a problem / identify a suspect / identify as",
         "definitions": [
@@ -215,7 +215,7 @@
         "aspect": "action",
         "v2": "identified",
         "v3": "identified",
-        "transcription": "aɪˈdɛntɪfaɪ",
+        "transcription": "a\u026a\u02c8d\u025bnt\u026afa\u026a",
         "synonyms": [
             "recognize"
         ],
@@ -234,9 +234,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-VERB-SEL-07",
+        "id": "A2-VERB-SEL-088",
         "word": "look after",
-        "emoji": "👶",
+        "emoji": "\ud83d\udc76",
         "form": "verb",
         "subtext": "look after someone / look after yourself / look after a child",
         "definitions": [
@@ -251,7 +251,7 @@
         "aspect": "action",
         "v2": "looked after",
         "v3": "looked after",
-        "transcription": "lʊk ˈɑːftər",
+        "transcription": "l\u028ak \u02c8\u0251\u02d0ft\u0259r",
         "group": "regular",
         "auxiliary": "have",
         "v4": "look aftering",
@@ -267,9 +267,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-VERB-SEL-08",
+        "id": "A2-VERB-SEL-089",
         "word": "offer",
-        "emoji": "🤲",
+        "emoji": "\ud83e\udd32",
         "form": "verb",
         "subtext": "offer a job, offer help",
         "definitions": [
@@ -284,7 +284,7 @@
         "aspect": "action",
         "v2": "offered",
         "v3": "offered",
-        "transcription": "🇬🇧 ˈɒfər | 🇺🇸 ˈɑːfər",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8\u0252f\u0259r | \ud83c\uddfa\ud83c\uddf8 \u02c8\u0251\u02d0f\u0259r",
         "synonyms": [
             "give"
         ],
@@ -303,9 +303,9 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A2-VERB-SEL-09",
+        "id": "A2-VERB-SEL-090",
         "word": "recognize",
-        "emoji": "👁️",
+        "emoji": "\ud83d\udc41\ufe0f",
         "form": "verb",
         "definitions": [
             {
@@ -325,7 +325,7 @@
         "aspect": "stative",
         "v2": "recognized",
         "v3": "recognized",
-        "transcription": "ˈrɛkəɡnaɪz",
+        "transcription": "\u02c8r\u025bk\u0259\u0261na\u026az",
         "group": "regular",
         "auxiliary": "have",
         "v4": "recognizing",

@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-TIM-01",
+        "id": "A1-VERB-TIM-014",
         "word": "ago",
-        "emoji": "🕰️",
+        "emoji": "\ud83d\udd70\ufe0f",
         "form": "adverb",
         "definitions": [
             {
@@ -15,7 +15,7 @@
             }
         ],
         "subtext": "related to duration expressions",
-        "transcription": "əˈgoʊ",
+        "transcription": "\u0259\u02c8go\u028a",
         "lang": "en",
         "level": "starter",
         "theme": "duration_expressions",
@@ -28,9 +28,9 @@
         "sub_subcategory": "Duration_Spans"
     },
     {
-        "id": "A1-VERB-TIM-02",
+        "id": "A1-VERB-TIM-015",
         "word": "already",
-        "emoji": "⏳",
+        "emoji": "\u23f3",
         "form": "adverb",
         "definitions": [
             {
@@ -41,7 +41,7 @@
             }
         ],
         "subtext": "related to duration expressions",
-        "transcription": "ɔˈrɛdi",
+        "transcription": "\u0254\u02c8r\u025bdi",
         "lang": "en",
         "level": "starter",
         "theme": "duration_expressions",
@@ -54,9 +54,9 @@
         "sub_subcategory": "Duration_Spans"
     },
     {
-        "id": "A1-VERB-TIM-03",
+        "id": "A1-VERB-TIM-016",
         "word": "later",
-        "emoji": "🕙",
+        "emoji": "\ud83d\udd59",
         "form": "adverb",
         "definitions": [
             {
@@ -67,7 +67,7 @@
             }
         ],
         "subtext": "related to duration expressions",
-        "transcription": "ˈleɪtər",
+        "transcription": "\u02c8le\u026at\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "duration_expressions",
@@ -80,9 +80,9 @@
         "sub_subcategory": "Duration_Spans"
     },
     {
-        "id": "A1-VERB-TIM-04",
+        "id": "A1-VERB-TIM-017",
         "word": "now",
-        "emoji": "⏱️",
+        "emoji": "\u23f1\ufe0f",
         "form": "adverb",
         "definitions": [
             {
@@ -93,7 +93,7 @@
             }
         ],
         "subtext": "related to duration expressions",
-        "transcription": "naʊ",
+        "transcription": "na\u028a",
         "lang": "en",
         "level": "starter",
         "theme": "duration_expressions",
@@ -106,9 +106,9 @@
         "sub_subcategory": "Duration_Spans"
     },
     {
-        "id": "A1-VERB-TIM-05",
+        "id": "A1-VERB-TIM-018",
         "word": "soon",
-        "emoji": "🔜",
+        "emoji": "\ud83d\udd1c",
         "form": "adverb",
         "definitions": [
             {
@@ -132,9 +132,9 @@
         "sub_subcategory": "Duration_Spans"
     },
     {
-        "id": "A1-VERB-TIM-06",
+        "id": "A1-VERB-TIM-019",
         "word": "still",
-        "emoji": "🔄",
+        "emoji": "\ud83d\udd04",
         "form": "adverb",
         "definitions": [
             {
@@ -145,7 +145,7 @@
             }
         ],
         "subtext": "related to duration expressions",
-        "transcription": "stɪl",
+        "transcription": "st\u026al",
         "lang": "en",
         "level": "starter",
         "theme": "duration_expressions",
@@ -158,9 +158,9 @@
         "sub_subcategory": "Duration_Spans"
     },
     {
-        "id": "A1-VERB-TIM-07",
+        "id": "A1-VERB-TIM-020",
         "word": "yet",
-        "emoji": "❓",
+        "emoji": "\u2753",
         "form": "adverb",
         "definitions": [
             {
@@ -171,7 +171,7 @@
             }
         ],
         "subtext": "related to duration expressions",
-        "transcription": "jɛt",
+        "transcription": "j\u025bt",
         "lang": "en",
         "level": "starter",
         "theme": "duration_expressions",

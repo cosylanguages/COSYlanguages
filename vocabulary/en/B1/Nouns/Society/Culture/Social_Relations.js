@@ -2,31 +2,40 @@
     const lang = "en";
     const data = [
     {
-        "id": "B1-NOUN-SOC-01",
+        "id": "B1-NOUN-SOC-011",
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
         "form": "noun",
-        "definitions": [],
-        "transcription": "-",
-        "emoji": "❓",
+        "definitions": [
+            {
+                "text": "A smaller group of people within a larger group, often different in race, religion or opinion.",
+                "examples": [
+                    "The law protects the rights of ethnic minorities.",
+                    "Only a minority of students disagreed."
+                ]
+            }
+        ],
+        "transcription": "ma\u026a\u02c8n\u0252r\u0259ti",
+        "emoji": "\ud83e\uddd1\u200d\ud83e\udd1d\u200d\ud83e\uddd1",
         "legacy_id": "B1-SOC-01",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Culture",
         "pos_section": "Nouns",
-        "sub_subcategory": "Social_Relations"
+        "sub_subcategory": "Social_Relations",
+        "word": "minority"
     },
     {
-        "id": "B1-NOUN-SOC-02",
+        "id": "B1-NOUN-SOC-012",
         "word": "algorithm",
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
         "form": "noun",
         "definitions": [],
-        "transcription": "ˈælɡərɪðəm",
-        "emoji": "💻",
+        "transcription": "\u02c8\u00e6l\u0261\u0259r\u026a\u00f0\u0259m",
+        "emoji": "\ud83d\udcbb",
         "_legacy": {
             "classification": "regular",
             "plural": "algorithms",
@@ -40,7 +49,7 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-NOUN-SOC-03",
+        "id": "B1-NOUN-SOC-013",
         "word": "carrot",
         "lang": "en",
         "level": "intermediate",
@@ -61,8 +70,8 @@
                 ]
             }
         ],
-        "transcription": "ˈkærət",
-        "emoji": "🥕",
+        "transcription": "\u02c8k\u00e6r\u0259t",
+        "emoji": "\ud83e\udd55",
         "_legacy": {
             "explanation": "Carrot is a vegetable, the others are fruits.",
             "classification": "regular",
@@ -77,7 +86,7 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-NOUN-SOC-04",
+        "id": "B1-NOUN-SOC-014",
         "word": "charity",
         "lang": "en",
         "level": "intermediate",
@@ -91,8 +100,8 @@
                 ]
             }
         ],
-        "transcription": "ˈtʃærɪti",
-        "emoji": "🎗️",
+        "transcription": "\u02c8t\u0283\u00e6r\u026ati",
+        "emoji": "\ud83c\udf97\ufe0f",
         "_legacy": {
             "classification": "regular",
             "plural": "charities",
@@ -107,7 +116,7 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-NOUN-SOC-05",
+        "id": "B1-NOUN-SOC-015",
         "word": "child",
         "lang": "en",
         "level": "intermediate",
@@ -122,8 +131,8 @@
                 ]
             }
         ],
-        "transcription": "tʃaɪld",
-        "emoji": "🧒",
+        "transcription": "t\u0283a\u026ald",
+        "emoji": "\ud83e\uddd2",
         "_legacy": {
             "numberPlural": "5 child",
             "answer": "five children",
@@ -139,7 +148,7 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-NOUN-SOC-06",
+        "id": "B1-NOUN-SOC-016",
         "word": "community",
         "lang": "en",
         "level": "intermediate",
@@ -154,8 +163,8 @@
                 ]
             }
         ],
-        "transcription": "kəˈmjuːnɪti",
-        "emoji": "🏘️",
+        "transcription": "k\u0259\u02c8mju\u02d0n\u026ati",
+        "emoji": "\ud83c\udfd8\ufe0f",
         "_legacy": {
             "classification": "regular",
             "plural": "communities",
@@ -170,15 +179,15 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-NOUN-SOC-07",
+        "id": "B1-NOUN-SOC-017",
         "word": "democracy",
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
         "form": "noun",
         "definitions": [],
-        "transcription": "🇬🇧 dɪˈmɒkrəsi | 🇺🇸 dɪˈmɑːkrəsi",
-        "emoji": "🗳️",
+        "transcription": "\ud83c\uddec\ud83c\udde7 d\u026a\u02c8m\u0252kr\u0259si | \ud83c\uddfa\ud83c\uddf8 d\u026a\u02c8m\u0251\u02d0kr\u0259si",
+        "emoji": "\ud83d\uddf3\ufe0f",
         "_legacy": {
             "classification": "regular",
             "plural": "democracies",
@@ -192,15 +201,15 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-NOUN-SOC-08",
+        "id": "B1-NOUN-SOC-018",
         "word": "elephant",
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
         "form": "noun",
         "definitions": [],
-        "transcription": "ˈɛlɪfənt",
-        "emoji": "🐘",
+        "transcription": "\u02c8\u025bl\u026af\u0259nt",
+        "emoji": "\ud83d\udc18",
         "_legacy": {
             "classification": "regular",
             "plural": "elephants",
@@ -214,7 +223,7 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-NOUN-SOC-09",
+        "id": "B1-NOUN-SOC-019",
         "word": "equality",
         "lang": "en",
         "level": "intermediate",
@@ -230,8 +239,8 @@
                 ]
             }
         ],
-        "transcription": "🇬🇧 iˈkwɒlɪti | 🇺🇸 iˈkwɑːlɪti",
-        "emoji": "⚖️",
+        "transcription": "\ud83c\uddec\ud83c\udde7 i\u02c8kw\u0252l\u026ati | \ud83c\uddfa\ud83c\uddf8 i\u02c8kw\u0251\u02d0l\u026ati",
+        "emoji": "\u2696\ufe0f",
         "_legacy": {
             "classification": "regular",
             "plural": null,
@@ -249,7 +258,7 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-NOUN-SOC-10",
+        "id": "B1-NOUN-SOC-020",
         "word": "evidence",
         "lang": "en",
         "level": "intermediate",
@@ -263,8 +272,8 @@
                 ]
             }
         ],
-        "transcription": "ˈɛvɪdəns",
-        "emoji": "🔍",
+        "transcription": "\u02c8\u025bv\u026ad\u0259ns",
+        "emoji": "\ud83d\udd0d",
         "_legacy": {
             "classification": "regular",
             "plural": null,
@@ -279,15 +288,15 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-NOUN-SOC-11",
+        "id": "B1-NOUN-SOC-021",
         "word": "evolution",
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
         "form": "noun",
         "definitions": [],
-        "transcription": "ˌiːvəˈluːʃn",
-        "emoji": "🐒",
+        "transcription": "\u02cci\u02d0v\u0259\u02c8lu\u02d0\u0283n",
+        "emoji": "\ud83d\udc12",
         "_legacy": {
             "classification": "regular",
             "plural": "evolutions",
@@ -301,7 +310,7 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-NOUN-SOC-12",
+        "id": "B1-NOUN-SOC-022",
         "word": "freedom",
         "lang": "en",
         "level": "intermediate",
@@ -316,8 +325,8 @@
                 ]
             }
         ],
-        "transcription": "ˈfriːdəm",
-        "emoji": "🗽",
+        "transcription": "\u02c8fri\u02d0d\u0259m",
+        "emoji": "\ud83d\uddfd",
         "_legacy": {
             "classification": "regular",
             "plural": "freedoms",
@@ -335,7 +344,7 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-NOUN-SOC-13",
+        "id": "B1-NOUN-SOC-023",
         "word": "generation",
         "lang": "en",
         "level": "intermediate",
@@ -351,8 +360,8 @@
                 ]
             }
         ],
-        "transcription": "ˌdʒɛnəˈreɪʃn",
-        "emoji": "👪",
+        "transcription": "\u02ccd\u0292\u025bn\u0259\u02c8re\u026a\u0283n",
+        "emoji": "\ud83d\udc6a",
         "_legacy": {
             "classification": "regular",
             "plural": "generations",
@@ -367,7 +376,7 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-NOUN-SOC-14",
+        "id": "B1-NOUN-SOC-024",
         "word": "inequality",
         "lang": "en",
         "level": "intermediate",
@@ -383,8 +392,8 @@
                 ]
             }
         ],
-        "transcription": "🇬🇧 ˌɪnɪˈkwɒlɪti | 🇺🇸 ˌɪnɪˈkwɑːlɪti",
-        "emoji": "🚫⚖️",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02cc\u026an\u026a\u02c8kw\u0252l\u026ati | \ud83c\uddfa\ud83c\uddf8 \u02cc\u026an\u026a\u02c8kw\u0251\u02d0l\u026ati",
+        "emoji": "\ud83d\udeab\u2696\ufe0f",
         "_legacy": {
             "classification": "regular",
             "plural": "inequalities",
@@ -402,15 +411,15 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-NOUN-SOC-15",
+        "id": "B1-NOUN-SOC-025",
         "word": "laptop",
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
         "form": "noun",
         "definitions": [],
-        "transcription": "🇬🇧 ˈlæptɒp | 🇺🇸 ˈlæptɑːp",
-        "emoji": "💻",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8l\u00e6pt\u0252p | \ud83c\uddfa\ud83c\uddf8 \u02c8l\u00e6pt\u0251\u02d0p",
+        "emoji": "\ud83d\udcbb",
         "_legacy": {
             "classification": "regular",
             "plural": "laptops",
@@ -424,7 +433,7 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-NOUN-SOC-16",
+        "id": "B1-NOUN-SOC-026",
         "word": "milkshake",
         "lang": "en",
         "level": "intermediate",
@@ -445,8 +454,8 @@
                 ]
             }
         ],
-        "transcription": "ˈmɪlkʃeɪk",
-        "emoji": "🥤",
+        "transcription": "\u02c8m\u026alk\u0283e\u026ak",
+        "emoji": "\ud83e\udd64",
         "_legacy": {
             "classification": "regular",
             "plural": "milkshakes",
@@ -460,15 +469,15 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-NOUN-SOC-17",
+        "id": "B1-NOUN-SOC-027",
         "word": "mirror",
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
         "form": "noun",
         "definitions": [],
-        "transcription": "🇬🇧 ˈmɪrə | 🇺🇸 ˈmɪrər",
-        "emoji": "🪞",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8m\u026ar\u0259 | \ud83c\uddfa\ud83c\uddf8 \u02c8m\u026ar\u0259r",
+        "emoji": "\ud83e\ude9e",
         "_legacy": {
             "classification": "regular",
             "plural": "mirrors",
@@ -482,15 +491,15 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-NOUN-SOC-18",
+        "id": "B1-NOUN-SOC-028",
         "word": "monkey",
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
         "form": "noun",
         "definitions": [],
-        "transcription": "ˈmʌŋki",
-        "emoji": "🐒",
+        "transcription": "\u02c8m\u028c\u014bki",
+        "emoji": "\ud83d\udc12",
         "_legacy": {
             "classification": "regular",
             "plural": "monkeys",
@@ -504,7 +513,7 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-NOUN-SOC-19",
+        "id": "B1-NOUN-SOC-029",
         "word": "opinion",
         "lang": "en",
         "level": "intermediate",
@@ -518,8 +527,8 @@
                 ]
             }
         ],
-        "transcription": "əˈpɪnjən",
-        "emoji": "🗣️",
+        "transcription": "\u0259\u02c8p\u026anj\u0259n",
+        "emoji": "\ud83d\udde3\ufe0f",
         "_legacy": {
             "classification": "regular",
             "plural": "opinions",
@@ -534,7 +543,7 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-NOUN-SOC-20",
+        "id": "B1-NOUN-SOC-030",
         "word": "pancake",
         "lang": "en",
         "level": "intermediate",
@@ -555,8 +564,8 @@
                 ]
             }
         ],
-        "transcription": "ˈpænkeɪk",
-        "emoji": "🥞",
+        "transcription": "\u02c8p\u00e6nke\u026ak",
+        "emoji": "\ud83e\udd5e",
         "_legacy": {
             "classification": "regular",
             "plural": "pancakes",
@@ -570,7 +579,7 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-NOUN-SOC-21",
+        "id": "B1-NOUN-SOC-031",
         "word": "point of view",
         "lang": "en",
         "level": "intermediate",
@@ -584,8 +593,8 @@
                 ]
             }
         ],
-        "transcription": "pɔɪnt əv vjuː",
-        "emoji": "👁️",
+        "transcription": "p\u0254\u026ant \u0259v vju\u02d0",
+        "emoji": "\ud83d\udc41\ufe0f",
         "_legacy": {
             "plural": "points of view",
             "countability": "countable",
@@ -599,7 +608,7 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-NOUN-SOC-22",
+        "id": "B1-NOUN-SOC-032",
         "word": "remote work",
         "lang": "en",
         "level": "intermediate",
@@ -613,8 +622,8 @@
                 ]
             }
         ],
-        "transcription": "🇬🇧 rɪˈməʊt wɜːk | 🇺🇸 rɪˈmoʊt wɜːk",
-        "emoji": "💻",
+        "transcription": "\ud83c\uddec\ud83c\udde7 r\u026a\u02c8m\u0259\u028at w\u025c\u02d0k | \ud83c\uddfa\ud83c\uddf8 r\u026a\u02c8mo\u028at w\u025c\u02d0k",
+        "emoji": "\ud83d\udcbb",
         "_legacy": {
             "plural": null,
             "countability": "uncountable",
@@ -628,15 +637,15 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-NOUN-SOC-23",
+        "id": "B1-NOUN-SOC-033",
         "word": "scarf",
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
         "form": "noun",
         "definitions": [],
-        "transcription": "skɑːf",
-        "emoji": "🧣",
+        "transcription": "sk\u0251\u02d0f",
+        "emoji": "\ud83e\udde3",
         "_legacy": {
             "classification": "regular",
             "plural": "scarves",
@@ -650,15 +659,15 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-NOUN-SOC-24",
+        "id": "B1-NOUN-SOC-034",
         "word": "shelf",
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
         "form": "noun",
         "definitions": [],
-        "transcription": "ʃɛlf",
-        "emoji": "📚",
+        "transcription": "\u0283\u025blf",
+        "emoji": "\ud83d\udcda",
         "_legacy": {
             "classification": "regular",
             "plural": "shelves",
@@ -672,7 +681,7 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-NOUN-SOC-25",
+        "id": "B1-NOUN-SOC-035",
         "word": "sushi",
         "lang": "en",
         "level": "intermediate",
@@ -693,8 +702,8 @@
                 ]
             }
         ],
-        "transcription": "ˈsuːʃi",
-        "emoji": "🍣",
+        "transcription": "\u02c8su\u02d0\u0283i",
+        "emoji": "\ud83c\udf63",
         "_legacy": {
             "classification": "regular",
             "plural": "sushi",
@@ -708,15 +717,15 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-NOUN-SOC-26",
+        "id": "B1-NOUN-SOC-036",
         "word": "sweater",
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
         "form": "noun",
         "definitions": [],
-        "transcription": "🇬🇧 ˈswɛtə | 🇺🇸 ˈswɛtər",
-        "emoji": "🧶",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8sw\u025bt\u0259 | \ud83c\uddfa\ud83c\uddf8 \u02c8sw\u025bt\u0259r",
+        "emoji": "\ud83e\uddf6",
         "_legacy": {
             "classification": "regular",
             "plural": "sweaters",
@@ -730,7 +739,7 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-NOUN-SOC-27",
+        "id": "B1-NOUN-SOC-037",
         "word": "trust",
         "lang": "en",
         "level": "intermediate",
@@ -745,8 +754,8 @@
                 ]
             }
         ],
-        "transcription": "trʌst",
-        "emoji": "🤝",
+        "transcription": "tr\u028cst",
+        "emoji": "\ud83e\udd1d",
         "_legacy": {
             "classification": "regular",
             "plural": null,
@@ -764,15 +773,15 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-NOUN-SOC-28",
+        "id": "B1-NOUN-SOC-038",
         "word": "umbrella",
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
         "form": "noun",
         "definitions": [],
-        "transcription": "ʌmˈbrɛlə",
-        "emoji": "☂️",
+        "transcription": "\u028cm\u02c8br\u025bl\u0259",
+        "emoji": "\u2602\ufe0f",
         "_legacy": {
             "classification": "regular",
             "plural": "umbrellas",
@@ -786,7 +795,7 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-NOUN-SOC-29",
+        "id": "B1-NOUN-SOC-039",
         "word": "volunteer",
         "lang": "en",
         "level": "intermediate",
@@ -802,8 +811,8 @@
                 ]
             }
         ],
-        "transcription": "🇬🇧 ˌvɒlənˈtɪə | 🇺🇸 ˌvɑːlənˈtɪər",
-        "emoji": "🙋",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02ccv\u0252l\u0259n\u02c8t\u026a\u0259 | \ud83c\uddfa\ud83c\uddf8 \u02ccv\u0251\u02d0l\u0259n\u02c8t\u026a\u0259r",
+        "emoji": "\ud83d\ude4b",
         "_legacy": {
             "classification": "regular",
             "plural": "volunteers",
@@ -818,15 +827,15 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-NOUN-SOC-30",
+        "id": "B1-NOUN-SOC-040",
         "word": "wardrobe",
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
         "form": "noun",
         "definitions": [],
-        "transcription": "🇬🇧 ˈwɔːdrəʊb | 🇺🇸 ˈwɔːdroʊb",
-        "emoji": "👗",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8w\u0254\u02d0dr\u0259\u028ab | \ud83c\uddfa\ud83c\uddf8 \u02c8w\u0254\u02d0dro\u028ab",
+        "emoji": "\ud83d\udc57",
         "_legacy": {
             "classification": "regular",
             "plural": "wardrobes",

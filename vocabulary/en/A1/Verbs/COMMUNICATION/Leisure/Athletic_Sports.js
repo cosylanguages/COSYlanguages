@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-COM-01",
+        "id": "A1-VERB-COM-001",
         "word": "bounce",
-        "emoji": "🏀",
+        "emoji": "\ud83c\udfc0",
         "form": "verb",
         "subtext": "bounce a ball",
         "synonyms": [
@@ -24,7 +24,7 @@
         "v2": "bounced",
         "v3": "bounced",
         "group": "regular",
-        "transcription": "baʊns",
+        "transcription": "ba\u028ans",
         "lang": "en",
         "level": "starter",
         "theme": "sports",
@@ -40,9 +40,9 @@
         "sub_subcategory": "Athletic_Sports"
     },
     {
-        "id": "A1-VERB-COM-02",
+        "id": "A1-VERB-COM-002",
         "word": "bounce",
-        "emoji": "🏀",
+        "emoji": "\ud83c\udfc0",
         "form": "verb",
         "subtext": "bounce a ball",
         "synonyms": [
@@ -62,7 +62,7 @@
         "v2": "bounced",
         "v3": "bounced",
         "group": "regular",
-        "transcription": "baʊns",
+        "transcription": "ba\u028ans",
         "auxiliary": "have",
         "v4": "bouncing",
         "lang": "en",
@@ -80,9 +80,9 @@
         "sub_subcategory": "Athletic_Sports"
     },
     {
-        "id": "A1-VERB-COM-03",
+        "id": "A1-VERB-COM-003",
         "word": "kick",
-        "emoji": "🦶",
+        "emoji": "\ud83e\uddb6",
         "form": "verb",
         "subtext": "kick a ball / kick hard",
         "synonyms": [
@@ -101,7 +101,7 @@
         "v2": "kicked",
         "v3": "kicked",
         "group": "regular",
-        "transcription": "kɪk",
+        "transcription": "k\u026ak",
         "lang": "en",
         "level": "starter",
         "theme": "sports",
@@ -117,9 +117,9 @@
         "sub_subcategory": "Athletic_Sports"
     },
     {
-        "id": "A1-VERB-COM-04",
+        "id": "A1-VERB-COM-004",
         "word": "kick",
-        "emoji": "🦶",
+        "emoji": "\ud83e\uddb6",
         "form": "verb",
         "subtext": "kick a ball / kick hard",
         "synonyms": [
@@ -138,7 +138,7 @@
         "v2": "kicked",
         "v3": "kicked",
         "group": "regular",
-        "transcription": "kɪk",
+        "transcription": "k\u026ak",
         "auxiliary": "have",
         "v4": "kicking",
         "lang": "en",
@@ -156,9 +156,9 @@
         "sub_subcategory": "Athletic_Sports"
     },
     {
-        "id": "A1-VERB-COM-05",
+        "id": "A1-VERB-COM-005",
         "word": "run",
-        "emoji": "🏃",
+        "emoji": "\ud83c\udfc3",
         "subtext": "run a race / run a business / run out of / run late",
         "form": "verb",
         "definitions": [
@@ -175,7 +175,7 @@
         "v2": "ran",
         "v3": "run",
         "group": "irregular",
-        "transcription": "rən",
+        "transcription": "r\u0259n",
         "lang": "en",
         "level": "starter",
         "theme": "sports",
@@ -191,9 +191,9 @@
         "sub_subcategory": "Athletic_Sports"
     },
     {
-        "id": "A1-VERB-COM-06",
+        "id": "A1-VERB-COM-006",
         "word": "run",
-        "emoji": "🏃",
+        "emoji": "\ud83c\udfc3",
         "subtext": "run a race / run a business / run out of / run late",
         "form": "verb",
         "definitions": [
@@ -210,7 +210,7 @@
         "v2": "ran",
         "v3": "run",
         "group": "regular",
-        "transcription": "rən",
+        "transcription": "r\u0259n",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -227,9 +227,9 @@
         "sub_subcategory": "Athletic_Sports"
     },
     {
-        "id": "A1-VERB-COM-07",
+        "id": "A1-VERB-COM-007",
         "word": "swim",
-        "emoji": "🏊",
+        "emoji": "\ud83c\udfca",
         "subtext": "swim across / swim laps / swim well",
         "synonyms": [
             "go swimming"
@@ -249,7 +249,7 @@
         "v2": "swam",
         "v3": "swum",
         "group": "irregular",
-        "transcription": "swɪm",
+        "transcription": "sw\u026am",
         "lang": "en",
         "level": "starter",
         "theme": "sports",
@@ -265,9 +265,9 @@
         "sub_subcategory": "Athletic_Sports"
     },
     {
-        "id": "A1-VERB-COM-08",
+        "id": "A1-VERB-COM-008",
         "word": "swim",
-        "emoji": "🏊",
+        "emoji": "\ud83c\udfca",
         "subtext": "swim across / swim laps / swim well",
         "synonyms": [
             "go swimming"
@@ -287,7 +287,7 @@
         "v2": "swam",
         "v3": "swum",
         "group": "regular",
-        "transcription": "swɪm",
+        "transcription": "sw\u026am",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -304,9 +304,9 @@
         "sub_subcategory": "Athletic_Sports"
     },
     {
-        "id": "A1-VERB-COM-09",
+        "id": "A1-VERB-COM-009",
         "word": "throw",
-        "emoji": "⚾",
+        "emoji": "\u26be",
         "form": "verb",
         "subtext": "throw a ball / throw away",
         "synonyms": [
@@ -325,7 +325,7 @@
         "v2": "threw",
         "v3": "thrown",
         "group": "irregular",
-        "transcription": "θroʊ",
+        "transcription": "\u03b8ro\u028a",
         "lang": "en",
         "level": "starter",
         "theme": "sports",
@@ -341,9 +341,9 @@
         "sub_subcategory": "Athletic_Sports"
     },
     {
-        "id": "A1-VERB-COM-10",
+        "id": "A1-VERB-COM-010",
         "word": "throw",
-        "emoji": "⚾",
+        "emoji": "\u26be",
         "form": "verb",
         "subtext": "throw a ball / throw away",
         "synonyms": [
@@ -362,7 +362,7 @@
         "v2": "threw",
         "v3": "thrown",
         "group": "regular",
-        "transcription": "θroʊ",
+        "transcription": "\u03b8ro\u028a",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",

@@ -5,11 +5,11 @@
         "word": "dialectic",
         "level": "advanced",
         "theme": "knowledge_epistemology_c1",
-        "emoji": "☯️",
+        "emoji": "\u262f\ufe0f",
         "subtext": "Hegelian dialectic / historical dialectic / internal dialectic",
         "form": "noun",
         "classification": "regular",
-        "transcription": "ˌdaɪəˈlektɪk",
+        "transcription": "\u02ccda\u026a\u0259\u02c8lekt\u026ak",
         "definitions": [
             {
                 "text": "The art of investigating or discussing the truth of opinions by resolving contradictions.",
@@ -19,7 +19,7 @@
             }
         ],
         "lang": "en",
-        "id": "C1-NOUN-EPI-01",
+        "id": "C1-NOUN-EPI-001",
         "legacy_id": "C1-EPIST-01",
         "level_code": "C1",
         "domain": "EPISTEMOLOGY",
@@ -31,11 +31,11 @@
         "word": "empirical evidence",
         "level": "advanced",
         "theme": "knowledge_epistemology_c1",
-        "emoji": "🧪",
+        "emoji": "\ud83e\uddea",
         "subtext": "strong empirical evidence / lack of empirical evidence / gather empirical evidence",
         "form": "noun",
         "classification": "regular",
-        "transcription": "ɪmˈpɪrɪkl ˈevɪdəns",
+        "transcription": "\u026am\u02c8p\u026ar\u026akl \u02c8ev\u026ad\u0259ns",
         "definitions": [
             {
                 "text": "Information received by means of observation or experimentation.",
@@ -45,7 +45,7 @@
             }
         ],
         "lang": "en",
-        "id": "C1-NOUN-EPI-02",
+        "id": "C1-NOUN-EPI-002",
         "legacy_id": "C1-EPIST-02",
         "level_code": "C1",
         "domain": "EPISTEMOLOGY",
@@ -57,11 +57,11 @@
         "word": "epistemology",
         "level": "advanced",
         "theme": "knowledge_epistemology_c1",
-        "emoji": "📚",
+        "emoji": "\ud83d\udcda",
         "subtext": "feminist epistemology / social epistemology / epistemological break",
         "form": "noun",
         "classification": "regular",
-        "transcription": "🇬🇧 ɪˌpɪstəˈmɒlədʒi | 🇺🇸 ɪˌpɪstəˈmɑːlədʒi",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u026a\u02ccp\u026ast\u0259\u02c8m\u0252l\u0259d\u0292i | \ud83c\uddfa\ud83c\uddf8 \u026a\u02ccp\u026ast\u0259\u02c8m\u0251\u02d0l\u0259d\u0292i",
         "definitions": [
             {
                 "text": "The theory of knowledge, especially with regard to its methods, validity, and scope.",
@@ -71,7 +71,7 @@
             }
         ],
         "lang": "en",
-        "id": "C1-NOUN-EPI-03",
+        "id": "C1-NOUN-EPI-003",
         "legacy_id": "C1-EPIST-04",
         "level_code": "C1",
         "domain": "EPISTEMOLOGY",
@@ -83,11 +83,11 @@
         "word": "objectivity",
         "level": "advanced",
         "theme": "knowledge_epistemology_c1",
-        "emoji": "⚖️",
+        "emoji": "\u2696\ufe0f",
         "subtext": "maintain objectivity / lack of objectivity / objective reality",
         "form": "noun",
         "classification": "regular",
-        "transcription": "🇬🇧 ˌɒbdʒekˈtɪvəti | 🇺🇸 ˌɑːbdʒekˈtɪvəti",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02cc\u0252bd\u0292ek\u02c8t\u026av\u0259ti | \ud83c\uddfa\ud83c\uddf8 \u02cc\u0251\u02d0bd\u0292ek\u02c8t\u026av\u0259ti",
         "definitions": [
             {
                 "text": "The quality of being impartial and based on facts rather than feelings or opinions.",
@@ -97,7 +97,7 @@
             }
         ],
         "lang": "en",
-        "id": "C1-NOUN-EPI-04",
+        "id": "C1-NOUN-EPI-004",
         "legacy_id": "C1-EPIST-05",
         "level_code": "C1",
         "domain": "EPISTEMOLOGY",
@@ -109,11 +109,11 @@
         "word": "ontology",
         "level": "advanced",
         "theme": "knowledge_epistemology_c1",
-        "emoji": "🌌",
+        "emoji": "\ud83c\udf0c",
         "subtext": "ontological status / social ontology / ontological security",
         "form": "noun",
         "classification": "regular",
-        "transcription": "🇬🇧 ɒnˈtɒlədʒi | 🇺🇸 ɑːnˈtɑːlədʒi",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u0252n\u02c8t\u0252l\u0259d\u0292i | \ud83c\uddfa\ud83c\uddf8 \u0251\u02d0n\u02c8t\u0251\u02d0l\u0259d\u0292i",
         "definitions": [
             {
                 "text": "The branch of metaphysics dealing with the nature of being.",
@@ -123,7 +123,7 @@
             }
         ],
         "lang": "en",
-        "id": "C1-NOUN-EPI-05",
+        "id": "C1-NOUN-EPI-005",
         "legacy_id": "C1-EPIST-06",
         "level_code": "C1",
         "domain": "EPISTEMOLOGY",
@@ -135,11 +135,11 @@
         "word": "subjectivity",
         "level": "advanced",
         "theme": "knowledge_epistemology_c1",
-        "emoji": "👁️",
+        "emoji": "\ud83d\udc41\ufe0f",
         "subtext": "inherent subjectivity / collective subjectivity / embrace subjectivity",
         "form": "noun",
         "classification": "regular",
-        "transcription": "ˌsʌbdʒekˈtɪvəti",
+        "transcription": "\u02ccs\u028cbd\u0292ek\u02c8t\u026av\u0259ti",
         "definitions": [
             {
                 "text": "The quality of being based on or influenced by personal feelings, tastes, or opinions.",
@@ -149,7 +149,7 @@
             }
         ],
         "lang": "en",
-        "id": "C1-NOUN-EPI-06",
+        "id": "C1-NOUN-EPI-006",
         "legacy_id": "C1-EPIST-07",
         "level_code": "C1",
         "domain": "EPISTEMOLOGY",
@@ -161,12 +161,12 @@
         "word": "synthesis",
         "level": "advanced",
         "theme": "knowledge_epistemology_c1",
-        "emoji": "🧪",
+        "emoji": "\ud83e\uddea",
         "subtext": "creative synthesis / final synthesis / synthesis of ideas",
         "form": "noun",
         "classification": "regular",
         "plural": "syntheses",
-        "transcription": "ˈsɪnθəsɪs",
+        "transcription": "\u02c8s\u026an\u03b8\u0259s\u026as",
         "definitions": [
             {
                 "text": "The combination of components or elements to form a connected whole.",
@@ -176,7 +176,7 @@
             }
         ],
         "lang": "en",
-        "id": "C1-NOUN-EPI-07",
+        "id": "C1-NOUN-EPI-007",
         "legacy_id": "C1-EPIST-08",
         "level_code": "C1",
         "domain": "EPISTEMOLOGY",

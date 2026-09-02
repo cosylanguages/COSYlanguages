@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A2-VERB-COM-01",
+        "id": "A2-VERB-COM-001",
         "word": "beat",
-        "emoji": "🥊",
+        "emoji": "\ud83e\udd4a",
         "form": "verb",
         "subtext": "beat a record / beat an opponent",
         "definitions": [
@@ -19,7 +19,7 @@
         "aspect": "action",
         "v2": "beat",
         "v3": "beaten",
-        "transcription": "biːt",
+        "transcription": "bi\u02d0t",
         "synonyms": [
             "win against",
             "defeat"
@@ -38,9 +38,9 @@
         "sub_subcategory": "Athletic_Sports"
     },
     {
-        "id": "A2-VERB-COM-02",
+        "id": "A2-VERB-COM-002",
         "word": "compete",
-        "emoji": "🏃",
+        "emoji": "\ud83c\udfc3",
         "form": "verb",
         "subtext": "compete in a race",
         "synonyms": [
@@ -58,7 +58,7 @@
         "aspect": "action",
         "v2": "competed",
         "v3": "competed",
-        "transcription": "kəmˈpiːt",
+        "transcription": "k\u0259m\u02c8pi\u02d0t",
         "group": "regular",
         "auxiliary": "have",
         "v4": "competing",

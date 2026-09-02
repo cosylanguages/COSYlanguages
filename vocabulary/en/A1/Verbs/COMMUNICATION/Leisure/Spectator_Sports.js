@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-COM-01",
+        "id": "A1-VERB-COM-037",
         "word": "jump",
-        "emoji": "🦘",
+        "emoji": "\ud83e\udd98",
         "subtext": "jump high / jump over / jump up / jump in",
         "form": "verb",
         "definitions": [
@@ -21,7 +21,7 @@
         "v2": "jumped",
         "v3": "jumped",
         "group": "regular",
-        "transcription": "ʤəmp",
+        "transcription": "\u02a4\u0259mp",
         "lang": "en",
         "level": "starter",
         "theme": "playing_watching_sport",
@@ -37,9 +37,9 @@
         "sub_subcategory": "Spectator_Sports"
     },
     {
-        "id": "A1-VERB-COM-02",
+        "id": "A1-VERB-COM-038",
         "word": "jump",
-        "emoji": "🦘",
+        "emoji": "\ud83e\udd98",
         "subtext": "jump high / jump over / jump up / jump in",
         "form": "verb",
         "definitions": [
@@ -56,7 +56,7 @@
         "v2": "jumped",
         "v3": "jumped",
         "group": "regular",
-        "transcription": "ʤəmp",
+        "transcription": "\u02a4\u0259mp",
         "auxiliary": "have",
         "v4": "jumping",
         "lang": "en",

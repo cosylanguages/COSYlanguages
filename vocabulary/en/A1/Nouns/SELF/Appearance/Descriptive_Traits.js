@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-SEL-01",
+        "id": "A1-NOUN-SEL-032",
         "word": "list",
-        "emoji": "📝",
+        "emoji": "\ud83d\udcdd",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
                 ]
             }
         ],
-        "transcription": "lɪst",
+        "transcription": "l\u026ast",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -31,9 +31,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-NOUN-SEL-02",
+        "id": "A1-NOUN-SEL-033",
         "word": "something",
-        "emoji": "📦",
+        "emoji": "\ud83d\udce6",
         "form": "pronoun",
         "definitions": [
             {
@@ -44,7 +44,7 @@
             }
         ],
         "subtext": "related to describing things",
-        "transcription": "ˈsəmθɪŋ",
+        "transcription": "\u02c8s\u0259m\u03b8\u026a\u014b",
         "lang": "en",
         "level": "starter",
         "theme": "describing",
@@ -57,9 +57,9 @@
         "sub_subcategory": "Descriptive_Traits"
     },
     {
-        "id": "A1-NOUN-SEL-03",
+        "id": "A1-NOUN-SEL-034",
         "word": "thing",
-        "emoji": "📦",
+        "emoji": "\ud83d\udce6",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -73,7 +73,7 @@
             }
         ],
         "subtext": "related to describing things",
-        "transcription": "θɪŋ",
+        "transcription": "\u03b8\u026a\u014b",
         "lang": "en",
         "level": "starter",
         "theme": "describing",

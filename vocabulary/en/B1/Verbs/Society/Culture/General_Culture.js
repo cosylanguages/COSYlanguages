@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "B1-VERB-SOC-01",
+        "id": "B1-VERB-SOC-001",
         "word": "argue",
         "lang": "en",
         "level": "intermediate",
@@ -16,8 +16,8 @@
                 ]
             }
         ],
-        "transcription": "ˈɑːɡjuː",
-        "emoji": "🗣️",
+        "transcription": "\u02c8\u0251\u02d0\u0261ju\u02d0",
+        "emoji": "\ud83d\udde3\ufe0f",
         "_legacy": {
             "subtext": "argue about, argue for",
             "classification": "regular",
@@ -36,7 +36,7 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B1-VERB-SOC-02",
+        "id": "B1-VERB-SOC-002",
         "word": "claim",
         "lang": "en",
         "level": "intermediate",
@@ -50,8 +50,8 @@
                 ]
             }
         ],
-        "transcription": "kleɪm",
-        "emoji": "📢",
+        "transcription": "kle\u026am",
+        "emoji": "\ud83d\udce2",
         "_legacy": {
             "subtext": "claim that / make a claim / claim responsibility",
             "classification": "regular",
@@ -70,7 +70,7 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B1-VERB-SOC-03",
+        "id": "B1-VERB-SOC-003",
         "word": "doubt",
         "lang": "en",
         "level": "intermediate",
@@ -84,8 +84,8 @@
                 ]
             }
         ],
-        "transcription": "daʊt",
-        "emoji": "❓",
+        "transcription": "da\u028at",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "doubt that / have doubts / seriously doubt",
             "classification": "regular",
@@ -104,7 +104,7 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B1-VERB-SOC-04",
+        "id": "B1-VERB-SOC-004",
         "word": "however",
         "lang": "en",
         "level": "intermediate",
@@ -119,8 +119,8 @@
                 ]
             }
         ],
-        "transcription": "🇬🇧 haʊˈɛvə | 🇺🇸 haʊˈɛvər",
-        "emoji": "🤔",
+        "transcription": "\ud83c\uddec\ud83c\udde7 ha\u028a\u02c8\u025bv\u0259 | \ud83c\uddfa\ud83c\uddf8 ha\u028a\u02c8\u025bv\u0259r",
+        "emoji": "\ud83e\udd14",
         "_legacy": {
             "subtext": "nevertheless, on the other hand"
         },
@@ -132,7 +132,7 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B1-VERB-SOC-05",
+        "id": "B1-VERB-SOC-005",
         "word": "increase",
         "lang": "en",
         "level": "intermediate",
@@ -146,8 +146,8 @@
                 ]
             }
         ],
-        "transcription": "ɪnˈkriːs",
-        "emoji": "📈",
+        "transcription": "\u026an\u02c8kri\u02d0s",
+        "emoji": "\ud83d\udcc8",
         "_legacy": {
             "subtext": "increase productivity / increase costs / dramatically increase",
             "classification": "regular",
@@ -166,7 +166,7 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B1-VERB-SOC-06",
+        "id": "B1-VERB-SOC-006",
         "word": "reduce",
         "lang": "en",
         "level": "intermediate",
@@ -180,8 +180,8 @@
                 ]
             }
         ],
-        "transcription": "rɪˈdjuːs",
-        "emoji": "📉",
+        "transcription": "r\u026a\u02c8dju\u02d0s",
+        "emoji": "\ud83d\udcc9",
         "_legacy": {
             "subtext": "reduce costs / reduce stress / significantly reduce",
             "classification": "regular",
@@ -200,7 +200,7 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B1-VERB-SOC-07",
+        "id": "B1-VERB-SOC-007",
         "word": "run out",
         "lang": "en",
         "level": "intermediate",
@@ -214,8 +214,8 @@
                 ]
             }
         ],
-        "transcription": "rʌn aʊt",
-        "emoji": "📉",
+        "transcription": "r\u028cn a\u028at",
+        "emoji": "\ud83d\udcc9",
         "_legacy": {
             "subtext": "run out of money / run out of time / run out of ideas",
             "classification": "phrasal",

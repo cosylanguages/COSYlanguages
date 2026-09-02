@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-ADJ-SEL-01",
+        "id": "A1-ADJ-SEL-211",
         "word": "dead",
-        "emoji": "💀",
+        "emoji": "\ud83d\udc80",
         "form": "adjective",
         "definitions": [
             {
@@ -20,7 +20,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "dɛd",
+        "transcription": "d\u025bd",
         "lang": "en",
         "level": "starter",
         "theme": "health_medicine",
@@ -36,9 +36,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-ADJ-SEL-02",
+        "id": "A1-ADJ-SEL-212",
         "word": "dead",
-        "emoji": "💀",
+        "emoji": "\ud83d\udc80",
         "form": "adjective",
         "definitions": [
             {
@@ -54,7 +54,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "dɛd",
+        "transcription": "d\u025bd",
         "lang": "en",
         "level": "starter",
         "theme": "health_medicine",
@@ -70,32 +70,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-ADJ-SEL-03",
-        "word": "epistemological",
-        "form": "adjective",
-        "transcription": "ɪˌpɪstəməˈlɑːdʒɪkl",
-        "definitions": [
-            {
-                "text": "Relating to the theory of knowledge and truth.",
-                "examples": [
-                    "They debated the epistemological foundations of science."
-                ]
-            }
-        ],
-        "emoji": "🧠",
-        "lang": "en",
-        "level": "c1",
-        "level_code": "A1",
-        "domain": "SELF",
-        "subcategory": "Identity",
-        "legacy_id": "C1-EPIST-03",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "General_Identity"
-    },
-    {
-        "id": "A1-ADJ-SEL-04",
+        "id": "A1-ADJ-SEL-213",
         "word": "exciting",
-        "emoji": "🤩",
+        "emoji": "\ud83e\udd29",
         "form": "adjective",
         "subtext": "an exciting trip / very exciting",
         "synonyms": [
@@ -112,7 +89,7 @@
         ],
         "comparative": "more exciting",
         "superlative": "the most exciting",
-        "transcription": "ɪkˈsaɪtɪŋ",
+        "transcription": "\u026ak\u02c8sa\u026at\u026a\u014b",
         "lang": "en",
         "level": "starter",
         "theme": "surprise_interest",
@@ -128,7 +105,7 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-ADJ-SEL-05",
+        "id": "A1-ADJ-SEL-214",
         "word": "fit",
         "form": "adjective",
         "definitions": [
@@ -146,8 +123,8 @@
         ],
         "comparative": "fitter",
         "superlative": "the fittest",
-        "emoji": "🏋️",
-        "transcription": "fɪt",
+        "emoji": "\ud83c\udfcb\ufe0f",
+        "transcription": "f\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "health_medicine",
@@ -163,7 +140,7 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-ADJ-SEL-06",
+        "id": "A1-ADJ-SEL-215",
         "word": "fit",
         "form": "adjective",
         "definitions": [
@@ -181,8 +158,8 @@
         ],
         "comparative": "fitter",
         "superlative": "the fittest",
-        "emoji": "🏋️",
-        "transcription": "fɪt",
+        "emoji": "\ud83c\udfcb\ufe0f",
+        "transcription": "f\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "health_medicine",
@@ -198,9 +175,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-ADJ-SEL-07",
+        "id": "A1-ADJ-SEL-216",
         "word": "ill",
-        "emoji": "🤒",
+        "emoji": "\ud83e\udd12",
         "form": "adjective",
         "subtext": "sick, feel ill",
         "definitions": [
@@ -213,7 +190,7 @@
         ],
         "comparative": "more ill",
         "superlative": "the most ill",
-        "transcription": "ɪl",
+        "transcription": "\u026al",
         "lang": "en",
         "level": "starter",
         "theme": "health_medicine",
@@ -229,9 +206,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-ADJ-SEL-08",
+        "id": "A1-ADJ-SEL-217",
         "word": "ill",
-        "emoji": "🤒",
+        "emoji": "\ud83e\udd12",
         "form": "adjective",
         "subtext": "sick, feel ill",
         "definitions": [
@@ -244,7 +221,7 @@
         ],
         "comparative": "more ill",
         "superlative": "the most ill",
-        "transcription": "ɪl",
+        "transcription": "\u026al",
         "lang": "en",
         "level": "starter",
         "theme": "health_medicine",
@@ -260,9 +237,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-ADJ-SEL-09",
+        "id": "A1-ADJ-SEL-218",
         "word": "interested",
-        "emoji": "🧐",
+        "emoji": "\ud83e\uddd0",
         "form": "adjective",
         "definitions": [
             {
@@ -278,7 +255,7 @@
         ],
         "comparative": "more interested",
         "superlative": "the most interested",
-        "transcription": "ˈɪntəˌrɛstɪd",
+        "transcription": "\u02c8\u026ant\u0259\u02ccr\u025bst\u026ad",
         "lang": "en",
         "level": "starter",
         "theme": "surprise_interest",
@@ -294,9 +271,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-ADJ-SEL-10",
+        "id": "A1-ADJ-SEL-219",
         "word": "unfit",
-        "emoji": "🛋️",
+        "emoji": "\ud83d\udecb\ufe0f",
         "form": "adjective",
         "subtext": "unhealthy, out of shape / feel unfit",
         "definitions": [
@@ -309,7 +286,7 @@
         ],
         "comparative": "more unfit",
         "superlative": "the most unfit",
-        "transcription": "ənˈfɪt",
+        "transcription": "\u0259n\u02c8f\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "health_medicine",
@@ -325,9 +302,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-ADJ-SEL-11",
+        "id": "A1-ADJ-SEL-220",
         "word": "unfit",
-        "emoji": "🛋️",
+        "emoji": "\ud83d\udecb\ufe0f",
         "form": "adjective",
         "subtext": "unhealthy, out of shape / feel unfit",
         "definitions": [
@@ -340,7 +317,7 @@
         ],
         "comparative": "more unfit",
         "superlative": "the most unfit",
-        "transcription": "ənˈfɪt",
+        "transcription": "\u0259n\u02c8f\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "health_medicine",
@@ -356,9 +333,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-ADJ-SEL-12",
+        "id": "A1-ADJ-SEL-221",
         "word": "well",
-        "emoji": "💪",
+        "emoji": "\ud83d\udcaa",
         "form": "adjective",
         "subtext": "feel well / get well soon",
         "synonyms": [
@@ -376,7 +353,7 @@
         ],
         "comparative": "better",
         "superlative": "the best",
-        "transcription": "wɛl",
+        "transcription": "w\u025bl",
         "lang": "en",
         "level": "starter",
         "theme": "health_medicine",
@@ -392,9 +369,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-ADJ-SEL-13",
+        "id": "A1-ADJ-SEL-222",
         "word": "well",
-        "emoji": "💪",
+        "emoji": "\ud83d\udcaa",
         "form": "adjective",
         "subtext": "feel well / get well soon",
         "synonyms": [
@@ -412,7 +389,7 @@
         ],
         "comparative": "better",
         "superlative": "the best",
-        "transcription": "wɛl",
+        "transcription": "w\u025bl",
         "lang": "en",
         "level": "starter",
         "theme": "health_medicine",

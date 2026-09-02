@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-ADJ-TIM-01",
+        "id": "A1-ADJ-TIM-006",
         "word": "bad",
-        "emoji": "👎",
+        "emoji": "\ud83d\udc4e",
         "form": "adjective",
         "subtext": "bad news / bad luck / bad decision",
         "synonyms": [
@@ -28,7 +28,7 @@
         ],
         "comparative": "worse",
         "superlative": "the worst",
-        "transcription": "bæd",
+        "transcription": "b\u00e6d",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -48,9 +48,9 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-02",
+        "id": "A1-ADJ-TIM-007",
         "word": "bad",
-        "emoji": "👎",
+        "emoji": "\ud83d\udc4e",
         "form": "adjective",
         "subtext": "bad news / bad luck / bad decision",
         "synonyms": [
@@ -74,7 +74,7 @@
         ],
         "comparative": "worse",
         "superlative": "the worst",
-        "transcription": "bæd",
+        "transcription": "b\u00e6d",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -94,9 +94,9 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-03",
+        "id": "A1-ADJ-TIM-008",
         "word": "big",
-        "emoji": "🐘",
+        "emoji": "\ud83d\udc18",
         "form": "adjective",
         "subtext": "a big house / a big problem / big enough",
         "synonyms": [
@@ -119,7 +119,7 @@
         ],
         "comparative": "bigger",
         "superlative": "the biggest",
-        "transcription": "bɪg",
+        "transcription": "b\u026ag",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -139,9 +139,9 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-04",
+        "id": "A1-ADJ-TIM-009",
         "word": "big",
-        "emoji": "🐘",
+        "emoji": "\ud83d\udc18",
         "form": "adjective",
         "subtext": "a big house / a big problem / big enough",
         "synonyms": [
@@ -164,7 +164,7 @@
         ],
         "comparative": "bigger",
         "superlative": "the biggest",
-        "transcription": "bɪg",
+        "transcription": "b\u026ag",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -184,9 +184,9 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-05",
+        "id": "A1-ADJ-TIM-010",
         "word": "deep",
-        "emoji": "🕳️",
+        "emoji": "\ud83d\udd73\ufe0f",
         "form": "adjective",
         "subtext": "deep water / a deep hole",
         "synonyms": [
@@ -218,9 +218,9 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-06",
+        "id": "A1-ADJ-TIM-011",
         "word": "deep",
-        "emoji": "🕳️",
+        "emoji": "\ud83d\udd73\ufe0f",
         "form": "adjective",
         "subtext": "deep water / a deep hole",
         "synonyms": [
@@ -252,9 +252,9 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-07",
+        "id": "A1-ADJ-TIM-012",
         "word": "difficult",
-        "emoji": "❌",
+        "emoji": "\u274c",
         "form": "adjective",
         "definitions": [
             {
@@ -273,7 +273,7 @@
         "subtext": "difficult to do / very difficult / find it difficult",
         "comparative": "more difficult",
         "superlative": "the most difficult",
-        "transcription": "ˈdɪfəkəlt",
+        "transcription": "\u02c8d\u026af\u0259k\u0259lt",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -289,9 +289,9 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-08",
+        "id": "A1-ADJ-TIM-013",
         "word": "difficult",
-        "emoji": "❌",
+        "emoji": "\u274c",
         "form": "adjective",
         "definitions": [
             {
@@ -310,7 +310,7 @@
         "subtext": "difficult to do / very difficult / find it difficult",
         "comparative": "more difficult",
         "superlative": "the most difficult",
-        "transcription": "ˈdɪfəkəlt",
+        "transcription": "\u02c8d\u026af\u0259k\u0259lt",
         "synonyms": [
             "hard",
             "tough"
@@ -330,9 +330,9 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-09",
+        "id": "A1-ADJ-TIM-014",
         "word": "easy",
-        "emoji": "✅",
+        "emoji": "\u2705",
         "form": "adjective",
         "definitions": [
             {
@@ -346,7 +346,7 @@
         "subtext": "easy to do / nice and easy / not easy",
         "comparative": "easier",
         "superlative": "the easiest",
-        "transcription": "ˈizi",
+        "transcription": "\u02c8izi",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -362,9 +362,9 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-10",
+        "id": "A1-ADJ-TIM-015",
         "word": "easy",
-        "emoji": "✅",
+        "emoji": "\u2705",
         "form": "adjective",
         "definitions": [
             {
@@ -378,7 +378,7 @@
         "subtext": "easy to do / nice and easy / not easy",
         "comparative": "easier",
         "superlative": "the easiest",
-        "transcription": "ˈizi",
+        "transcription": "\u02c8izi",
         "synonyms": [
             "simple"
         ],
@@ -397,7 +397,7 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-11",
+        "id": "A1-ADJ-TIM-016",
         "word": "empty",
         "form": "adjective",
         "subtext": "an empty flat / an empty room / nearly empty",
@@ -411,8 +411,8 @@
         ],
         "comparative": "emptier",
         "superlative": "the emptiest",
-        "emoji": "🫙",
-        "transcription": "ˈɛmti",
+        "emoji": "\ud83e\uded9",
+        "transcription": "\u02c8\u025bmti",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -428,7 +428,7 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-12",
+        "id": "A1-ADJ-TIM-017",
         "word": "empty",
         "form": "adjective",
         "subtext": "an empty flat / an empty room / nearly empty",
@@ -442,8 +442,8 @@
         ],
         "comparative": "emptier",
         "superlative": "the emptiest",
-        "emoji": "🫙",
-        "transcription": "ˈɛmti",
+        "emoji": "\ud83e\uded9",
+        "transcription": "\u02c8\u025bmti",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -459,7 +459,7 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-13",
+        "id": "A1-ADJ-TIM-018",
         "word": "fast",
         "form": "adjective",
         "subtext": "fast food / fast train / very fast",
@@ -477,8 +477,8 @@
         ],
         "comparative": "faster",
         "superlative": "the fastest",
-        "emoji": "🏎️",
-        "transcription": "fæst",
+        "emoji": "\ud83c\udfce\ufe0f",
+        "transcription": "f\u00e6st",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -494,7 +494,7 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-14",
+        "id": "A1-ADJ-TIM-019",
         "word": "fast",
         "form": "adjective",
         "subtext": "fast food / fast train / very fast",
@@ -512,8 +512,8 @@
         ],
         "comparative": "faster",
         "superlative": "the fastest",
-        "emoji": "🏎️",
-        "transcription": "fæst",
+        "emoji": "\ud83c\udfce\ufe0f",
+        "transcription": "f\u00e6st",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -529,7 +529,7 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-15",
+        "id": "A1-ADJ-TIM-020",
         "word": "full",
         "form": "adjective",
         "subtext": "full time / a full day / full of people",
@@ -543,8 +543,8 @@
         ],
         "comparative": "fuller",
         "superlative": "the fullest",
-        "emoji": "🥛",
-        "transcription": "fʊl",
+        "emoji": "\ud83e\udd5b",
+        "transcription": "f\u028al",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -560,7 +560,7 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-16",
+        "id": "A1-ADJ-TIM-021",
         "word": "full",
         "form": "adjective",
         "subtext": "full time / a full day / full of people",
@@ -574,8 +574,8 @@
         ],
         "comparative": "fuller",
         "superlative": "the fullest",
-        "emoji": "🥛",
-        "transcription": "fʊl",
+        "emoji": "\ud83e\udd5b",
+        "transcription": "f\u028al",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -591,9 +591,9 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-17",
+        "id": "A1-ADJ-TIM-022",
         "word": "good",
-        "emoji": "👍",
+        "emoji": "\ud83d\udc4d",
         "form": "adjective",
         "subtext": "good idea / good luck / good value",
         "synonyms": [
@@ -617,14 +617,14 @@
         ],
         "comparative": "better",
         "superlative": "the best",
-        "transcription": "gʊd",
+        "transcription": "g\u028ad",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "gōdaz"
+            "origin_word": "g\u014ddaz"
         },
         "antonyms": [
             "bad"
@@ -637,9 +637,9 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-18",
+        "id": "A1-ADJ-TIM-023",
         "word": "good",
-        "emoji": "👍",
+        "emoji": "\ud83d\udc4d",
         "form": "adjective",
         "subtext": "good idea / good luck / good value",
         "synonyms": [
@@ -663,14 +663,14 @@
         ],
         "comparative": "better",
         "superlative": "the best",
-        "transcription": "gʊd",
+        "transcription": "g\u028ad",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "gōdaz"
+            "origin_word": "g\u014ddaz"
         },
         "antonyms": [
             "bad"
@@ -683,7 +683,7 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-19",
+        "id": "A1-ADJ-TIM-024",
         "word": "hard",
         "form": "adjective",
         "subtext": "hard work / a hard decision / too hard",
@@ -702,8 +702,8 @@
         ],
         "comparative": "harder",
         "superlative": "the hardest",
-        "emoji": "🧱",
-        "transcription": "hɑrd",
+        "emoji": "\ud83e\uddf1",
+        "transcription": "h\u0251rd",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -719,7 +719,7 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-20",
+        "id": "A1-ADJ-TIM-025",
         "word": "hard",
         "form": "adjective",
         "subtext": "hard work / a hard decision / too hard",
@@ -738,8 +738,8 @@
         ],
         "comparative": "harder",
         "superlative": "the hardest",
-        "emoji": "🧱",
-        "transcription": "hɑrd",
+        "emoji": "\ud83e\uddf1",
+        "transcription": "h\u0251rd",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -755,7 +755,7 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-21",
+        "id": "A1-ADJ-TIM-026",
         "word": "heavy",
         "form": "adjective",
         "subtext": "heavy traffic / heavy rain / too heavy",
@@ -772,8 +772,8 @@
         ],
         "comparative": "heavier",
         "superlative": "the heaviest",
-        "emoji": "🏋️",
-        "transcription": "ˈhɛvi",
+        "emoji": "\ud83c\udfcb\ufe0f",
+        "transcription": "\u02c8h\u025bvi",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -789,7 +789,7 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-22",
+        "id": "A1-ADJ-TIM-027",
         "word": "heavy",
         "form": "adjective",
         "subtext": "heavy traffic / heavy rain / too heavy",
@@ -806,8 +806,8 @@
         ],
         "comparative": "heavier",
         "superlative": "the heaviest",
-        "emoji": "🏋️",
-        "transcription": "ˈhɛvi",
+        "emoji": "\ud83c\udfcb\ufe0f",
+        "transcription": "\u02c8h\u025bvi",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -823,7 +823,7 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-23",
+        "id": "A1-ADJ-TIM-028",
         "word": "high",
         "form": "adjective",
         "subtext": "high price / high rent / high quality",
@@ -837,8 +837,8 @@
         ],
         "comparative": "higher",
         "superlative": "the highest",
-        "emoji": "🏔️",
-        "transcription": "haɪ",
+        "emoji": "\ud83c\udfd4\ufe0f",
+        "transcription": "ha\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -854,7 +854,7 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-24",
+        "id": "A1-ADJ-TIM-029",
         "word": "high",
         "form": "adjective",
         "subtext": "high price / high rent / high quality",
@@ -868,8 +868,8 @@
         ],
         "comparative": "higher",
         "superlative": "the highest",
-        "emoji": "🏔️",
-        "transcription": "haɪ",
+        "emoji": "\ud83c\udfd4\ufe0f",
+        "transcription": "ha\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -885,7 +885,7 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-25",
+        "id": "A1-ADJ-TIM-030",
         "word": "large",
         "form": "adjective",
         "subtext": "a large city / a large company / a large amount",
@@ -899,8 +899,8 @@
         ],
         "comparative": "larger",
         "superlative": "the largest",
-        "emoji": "🐘",
-        "transcription": "lɑrʤ",
+        "emoji": "\ud83d\udc18",
+        "transcription": "l\u0251r\u02a4",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -916,7 +916,7 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-26",
+        "id": "A1-ADJ-TIM-031",
         "word": "large",
         "form": "adjective",
         "subtext": "a large city / a large company / a large amount",
@@ -930,8 +930,8 @@
         ],
         "comparative": "larger",
         "superlative": "the largest",
-        "emoji": "🐘",
-        "transcription": "lɑrʤ",
+        "emoji": "\ud83d\udc18",
+        "transcription": "l\u0251r\u02a4",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -947,7 +947,7 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-27",
+        "id": "A1-ADJ-TIM-032",
         "word": "light",
         "form": "adjective",
         "subtext": "light rain / light traffic / a light meal",
@@ -965,8 +965,8 @@
         ],
         "comparative": "lighter",
         "superlative": "the lightest",
-        "emoji": "🪶",
-        "transcription": "laɪt",
+        "emoji": "\ud83e\udeb6",
+        "transcription": "la\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -982,7 +982,7 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-28",
+        "id": "A1-ADJ-TIM-033",
         "word": "light",
         "form": "adjective",
         "subtext": "light rain / light traffic / a light meal",
@@ -1000,8 +1000,8 @@
         ],
         "comparative": "lighter",
         "superlative": "the lightest",
-        "emoji": "🪶",
-        "transcription": "laɪt",
+        "emoji": "\ud83e\udeb6",
+        "transcription": "la\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -1017,7 +1017,7 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-29",
+        "id": "A1-ADJ-TIM-034",
         "word": "little",
         "form": "adjective",
         "subtext": "a little bit / a little money / too little",
@@ -1031,8 +1031,8 @@
         ],
         "comparative": "smaller",
         "superlative": "the smallest",
-        "emoji": "🐭",
-        "transcription": "ˈlɪtəl",
+        "emoji": "\ud83d\udc2d",
+        "transcription": "\u02c8l\u026at\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -1048,7 +1048,7 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-30",
+        "id": "A1-ADJ-TIM-035",
         "word": "little",
         "form": "adjective",
         "subtext": "a little bit / a little money / too little",
@@ -1062,8 +1062,8 @@
         ],
         "comparative": "smaller",
         "superlative": "the smallest",
-        "emoji": "🐭",
-        "transcription": "ˈlɪtəl",
+        "emoji": "\ud83d\udc2d",
+        "transcription": "\u02c8l\u026at\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -1079,7 +1079,7 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-31",
+        "id": "A1-ADJ-TIM-036",
         "word": "long",
         "form": "adjective",
         "subtext": "a long journey / a long day / a long time",
@@ -1093,8 +1093,8 @@
         ],
         "comparative": "longer",
         "superlative": "the longest",
-        "emoji": "📏",
-        "transcription": "lɔŋ",
+        "emoji": "\ud83d\udccf",
+        "transcription": "l\u0254\u014b",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -1114,7 +1114,7 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-32",
+        "id": "A1-ADJ-TIM-037",
         "word": "long",
         "form": "adjective",
         "subtext": "a long journey / a long day / a long time",
@@ -1128,8 +1128,8 @@
         ],
         "comparative": "longer",
         "superlative": "the longest",
-        "emoji": "📏",
-        "transcription": "lɔŋ",
+        "emoji": "\ud83d\udccf",
+        "transcription": "l\u0254\u014b",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -1149,7 +1149,7 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-33",
+        "id": "A1-ADJ-TIM-038",
         "word": "low",
         "form": "adjective",
         "subtext": "low price / low salary / low quality",
@@ -1163,8 +1163,8 @@
         ],
         "comparative": "lower",
         "superlative": "the lowest",
-        "emoji": "⬇️",
-        "transcription": "loʊ",
+        "emoji": "\u2b07\ufe0f",
+        "transcription": "lo\u028a",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -1180,7 +1180,7 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-34",
+        "id": "A1-ADJ-TIM-039",
         "word": "low",
         "form": "adjective",
         "subtext": "low price / low salary / low quality",
@@ -1194,8 +1194,8 @@
         ],
         "comparative": "lower",
         "superlative": "the lowest",
-        "emoji": "⬇️",
-        "transcription": "loʊ",
+        "emoji": "\u2b07\ufe0f",
+        "transcription": "lo\u028a",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -1211,7 +1211,7 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-35",
+        "id": "A1-ADJ-TIM-040",
         "word": "new",
         "form": "adjective",
         "subtext": "new job / brand new / completely new",
@@ -1229,7 +1229,7 @@
         ],
         "comparative": "newer",
         "superlative": "the newest",
-        "emoji": "🆕",
+        "emoji": "\ud83c\udd95",
         "transcription": "nu",
         "lang": "en",
         "level": "starter",
@@ -1250,7 +1250,7 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-36",
+        "id": "A1-ADJ-TIM-041",
         "word": "new",
         "form": "adjective",
         "subtext": "new job / brand new / completely new",
@@ -1268,7 +1268,7 @@
         ],
         "comparative": "newer",
         "superlative": "the newest",
-        "emoji": "🆕",
+        "emoji": "\ud83c\udd95",
         "transcription": "nu",
         "lang": "en",
         "level": "starter",
@@ -1289,10 +1289,10 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-37",
+        "id": "A1-ADJ-TIM-042",
         "word": "old",
         "form": "adjective",
-        "emoji": "👴",
+        "emoji": "\ud83d\udc74",
         "definitions": [
             {
                 "text": "Having lived or existed for a long time.",
@@ -1314,7 +1314,7 @@
         ],
         "comparative": "older",
         "superlative": "the oldest",
-        "transcription": "oʊld",
+        "transcription": "o\u028ald",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -1330,10 +1330,10 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-38",
+        "id": "A1-ADJ-TIM-043",
         "word": "old",
         "form": "adjective",
-        "emoji": "👴",
+        "emoji": "\ud83d\udc74",
         "definitions": [
             {
                 "text": "Having lived or existed for a long time.",
@@ -1355,7 +1355,7 @@
         ],
         "comparative": "older",
         "superlative": "the oldest",
-        "transcription": "oʊld",
+        "transcription": "o\u028ald",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -1371,9 +1371,9 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-39",
+        "id": "A1-ADJ-TIM-044",
         "word": "quick",
-        "emoji": "⚡",
+        "emoji": "\u26a1",
         "form": "adjective",
         "definitions": [
             {
@@ -1389,7 +1389,7 @@
         ],
         "comparative": "quicker",
         "superlative": "the quickest",
-        "transcription": "kwɪk",
+        "transcription": "kw\u026ak",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -1405,9 +1405,9 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-40",
+        "id": "A1-ADJ-TIM-045",
         "word": "quick",
-        "emoji": "⚡",
+        "emoji": "\u26a1",
         "form": "adjective",
         "definitions": [
             {
@@ -1423,7 +1423,7 @@
         ],
         "comparative": "quicker",
         "superlative": "the quickest",
-        "transcription": "kwɪk",
+        "transcription": "kw\u026ak",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -1439,9 +1439,9 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-41",
+        "id": "A1-ADJ-TIM-046",
         "word": "round",
-        "emoji": "⭕",
+        "emoji": "\u2b55",
         "form": "adjective",
         "subtext": "a round table / round shape",
         "synonyms": [
@@ -1457,7 +1457,7 @@
         ],
         "comparative": "rounder",
         "superlative": "the roundest",
-        "transcription": "raʊnd",
+        "transcription": "ra\u028and",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -1473,9 +1473,9 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-42",
+        "id": "A1-ADJ-TIM-047",
         "word": "round",
-        "emoji": "⭕",
+        "emoji": "\u2b55",
         "form": "adjective",
         "subtext": "a round table / round shape",
         "synonyms": [
@@ -1491,7 +1491,7 @@
         ],
         "comparative": "rounder",
         "superlative": "the roundest",
-        "transcription": "raʊnd",
+        "transcription": "ra\u028and",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -1507,9 +1507,9 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-43",
+        "id": "A1-ADJ-TIM-048",
         "word": "shallow",
-        "emoji": "📏",
+        "emoji": "\ud83d\udccf",
         "form": "adjective",
         "subtext": "shallow water / a shallow end",
         "synonyms": [
@@ -1525,7 +1525,7 @@
         ],
         "comparative": "shallower",
         "superlative": "the shallowest",
-        "transcription": "ˈʃæloʊ",
+        "transcription": "\u02c8\u0283\u00e6lo\u028a",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -1541,9 +1541,9 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-44",
+        "id": "A1-ADJ-TIM-049",
         "word": "shallow",
-        "emoji": "📏",
+        "emoji": "\ud83d\udccf",
         "form": "adjective",
         "subtext": "shallow water / a shallow end",
         "synonyms": [
@@ -1559,7 +1559,7 @@
         ],
         "comparative": "shallower",
         "superlative": "the shallowest",
-        "transcription": "ˈʃæloʊ",
+        "transcription": "\u02c8\u0283\u00e6lo\u028a",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -1575,10 +1575,10 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-45",
+        "id": "A1-ADJ-TIM-050",
         "word": "short",
         "form": "adjective",
-        "emoji": "📏",
+        "emoji": "\ud83d\udccf",
         "definitions": [
             {
                 "text": "A person or thing that is not tall.",
@@ -1590,7 +1590,7 @@
             {
                 "text": "Of less than average height or length.",
                 "examples": [
-                    "He has a short commute — ten minutes by bike."
+                    "He has a short commute \u2014 ten minutes by bike."
                 ]
             }
         ],
@@ -1601,7 +1601,7 @@
         ],
         "comparative": "shorter",
         "superlative": "the shortest",
-        "transcription": "ʃɔrt",
+        "transcription": "\u0283\u0254rt",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -1617,10 +1617,10 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-46",
+        "id": "A1-ADJ-TIM-051",
         "word": "short",
         "form": "adjective",
-        "emoji": "📏",
+        "emoji": "\ud83d\udccf",
         "definitions": [
             {
                 "text": "A person or thing that is not tall.",
@@ -1632,7 +1632,7 @@
             {
                 "text": "Of less than average height or length.",
                 "examples": [
-                    "He has a short commute — ten minutes by bike."
+                    "He has a short commute \u2014 ten minutes by bike."
                 ]
             }
         ],
@@ -1643,7 +1643,7 @@
         ],
         "comparative": "shorter",
         "superlative": "the shortest",
-        "transcription": "ʃɔrt",
+        "transcription": "\u0283\u0254rt",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -1659,7 +1659,7 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-47",
+        "id": "A1-ADJ-TIM-052",
         "word": "slow",
         "form": "adjective",
         "subtext": "slow progress / slow internet / very slow",
@@ -1676,8 +1676,8 @@
         ],
         "comparative": "slower",
         "superlative": "the slowest",
-        "emoji": "🐢",
-        "transcription": "sloʊ",
+        "emoji": "\ud83d\udc22",
+        "transcription": "slo\u028a",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -1693,7 +1693,7 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-48",
+        "id": "A1-ADJ-TIM-053",
         "word": "slow",
         "form": "adjective",
         "subtext": "slow progress / slow internet / very slow",
@@ -1710,8 +1710,8 @@
         ],
         "comparative": "slower",
         "superlative": "the slowest",
-        "emoji": "🐢",
-        "transcription": "sloʊ",
+        "emoji": "\ud83d\udc22",
+        "transcription": "slo\u028a",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -1727,9 +1727,9 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-49",
+        "id": "A1-ADJ-TIM-054",
         "word": "small",
-        "emoji": "🐭",
+        "emoji": "\ud83d\udc2d",
         "form": "adjective",
         "subtext": "a small flat / a small salary / too small",
         "synonyms": [
@@ -1752,7 +1752,7 @@
         ],
         "comparative": "smaller",
         "superlative": "the smallest",
-        "transcription": "smɔl",
+        "transcription": "sm\u0254l",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -1772,9 +1772,9 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-50",
+        "id": "A1-ADJ-TIM-055",
         "word": "small",
-        "emoji": "🐭",
+        "emoji": "\ud83d\udc2d",
         "form": "adjective",
         "subtext": "a small flat / a small salary / too small",
         "synonyms": [
@@ -1797,7 +1797,7 @@
         ],
         "comparative": "smaller",
         "superlative": "the smallest",
-        "transcription": "smɔl",
+        "transcription": "sm\u0254l",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -1817,7 +1817,7 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-51",
+        "id": "A1-ADJ-TIM-056",
         "word": "soft",
         "form": "adjective",
         "subtext": "soft light / soft music / soft skills",
@@ -1835,8 +1835,8 @@
         ],
         "comparative": "softer",
         "superlative": "the softest",
-        "emoji": "☁️",
-        "transcription": "sɔft",
+        "emoji": "\u2601\ufe0f",
+        "transcription": "s\u0254ft",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -1852,7 +1852,7 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-52",
+        "id": "A1-ADJ-TIM-057",
         "word": "soft",
         "form": "adjective",
         "subtext": "soft light / soft music / soft skills",
@@ -1870,8 +1870,8 @@
         ],
         "comparative": "softer",
         "superlative": "the softest",
-        "emoji": "☁️",
-        "transcription": "sɔft",
+        "emoji": "\u2601\ufe0f",
+        "transcription": "s\u0254ft",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -1887,9 +1887,9 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-53",
+        "id": "A1-ADJ-TIM-058",
         "word": "square",
-        "emoji": "⬛",
+        "emoji": "\u2b1b",
         "form": "adjective",
         "subtext": "a square box / square shape",
         "synonyms": [
@@ -1905,7 +1905,7 @@
         ],
         "comparative": "squarer",
         "superlative": "the squarest",
-        "transcription": "skwɛr",
+        "transcription": "skw\u025br",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -1921,9 +1921,9 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-54",
+        "id": "A1-ADJ-TIM-059",
         "word": "square",
-        "emoji": "⬛",
+        "emoji": "\u2b1b",
         "form": "adjective",
         "subtext": "a square box / square shape",
         "synonyms": [
@@ -1939,7 +1939,7 @@
         ],
         "comparative": "squarer",
         "superlative": "the squarest",
-        "transcription": "skwɛr",
+        "transcription": "skw\u025br",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -1955,10 +1955,10 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-55",
+        "id": "A1-ADJ-TIM-060",
         "word": "tall",
         "form": "adjective",
-        "emoji": "🦒",
+        "emoji": "\ud83e\udd92",
         "definitions": [
             {
                 "text": "A person or thing that is big from bottom to top.",
@@ -1981,7 +1981,7 @@
         ],
         "comparative": "taller",
         "superlative": "the tallest",
-        "transcription": "tɔl",
+        "transcription": "t\u0254l",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -1997,10 +1997,10 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-56",
+        "id": "A1-ADJ-TIM-061",
         "word": "tall",
         "form": "adjective",
-        "emoji": "🦒",
+        "emoji": "\ud83e\udd92",
         "definitions": [
             {
                 "text": "A person or thing that is big from bottom to top.",
@@ -2023,7 +2023,7 @@
         ],
         "comparative": "taller",
         "superlative": "the tallest",
-        "transcription": "tɔl",
+        "transcription": "t\u0254l",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -2039,9 +2039,9 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-57",
+        "id": "A1-ADJ-TIM-062",
         "word": "thick",
-        "emoji": "📖",
+        "emoji": "\ud83d\udcd6",
         "form": "adjective",
         "definitions": [
             {
@@ -2057,7 +2057,7 @@
         ],
         "comparative": "thicker",
         "superlative": "the thickest",
-        "transcription": "θɪk",
+        "transcription": "\u03b8\u026ak",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -2073,9 +2073,9 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-58",
+        "id": "A1-ADJ-TIM-063",
         "word": "thick",
-        "emoji": "📖",
+        "emoji": "\ud83d\udcd6",
         "form": "adjective",
         "definitions": [
             {
@@ -2091,7 +2091,7 @@
         ],
         "comparative": "thicker",
         "superlative": "the thickest",
-        "transcription": "θɪk",
+        "transcription": "\u03b8\u026ak",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -2107,10 +2107,10 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-59",
+        "id": "A1-ADJ-TIM-064",
         "word": "young",
         "form": "adjective",
-        "emoji": "👶",
+        "emoji": "\ud83d\udc76",
         "definitions": [
             {
                 "text": "Having lived or existed for only a short time.",
@@ -2125,7 +2125,7 @@
         ],
         "comparative": "younger",
         "superlative": "the youngest",
-        "transcription": "jəŋ",
+        "transcription": "j\u0259\u014b",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
@@ -2141,10 +2141,10 @@
         "sub_subcategory": "Shapes_Dimensions"
     },
     {
-        "id": "A1-ADJ-TIM-60",
+        "id": "A1-ADJ-TIM-065",
         "word": "young",
         "form": "adjective",
-        "emoji": "👶",
+        "emoji": "\ud83d\udc76",
         "definitions": [
             {
                 "text": "Having lived or existed for only a short time.",
@@ -2159,7 +2159,7 @@
         ],
         "comparative": "younger",
         "superlative": "the youngest",
-        "transcription": "jəŋ",
+        "transcription": "j\u0259\u014b",
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",

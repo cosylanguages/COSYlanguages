@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "B1-ADJ-SOC-01",
+        "id": "B1-ADJ-SOC-018",
         "word": "educational",
         "lang": "en",
         "level": "intermediate",
@@ -16,8 +16,8 @@
                 ]
             }
         ],
-        "transcription": "ˌɛdʒuˈkeɪʃənl",
-        "emoji": "❓",
+        "transcription": "\u02cc\u025bd\u0292u\u02c8ke\u026a\u0283\u0259nl",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "educational value / an educational experience / highly educational"
         },

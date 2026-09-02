@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A2-VERB-NAT-01",
+        "id": "A2-VERB-NAT-001",
         "word": "bite",
-        "emoji": "🦷",
+        "emoji": "\ud83e\uddb7",
         "form": "verb",
         "subtext": "bite food / dog bite",
         "definitions": [
@@ -19,7 +19,7 @@
         "aspect": "action",
         "v2": "bit",
         "v3": "bitten",
-        "transcription": "baɪt",
+        "transcription": "ba\u026at",
         "group": "regular",
         "auxiliary": "have",
         "lang": "en",

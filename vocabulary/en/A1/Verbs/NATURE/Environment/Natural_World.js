@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-NAT-01",
+        "id": "A1-VERB-NAT-001",
         "word": "climb",
-        "emoji": "🧗",
+        "emoji": "\ud83e\uddd7",
         "subtext": "climb a mountain / climb a hill / climb stairs / climb up",
         "form": "verb",
         "definitions": [
@@ -21,7 +21,7 @@
         "v2": "climbed",
         "v3": "climbed",
         "group": "regular",
-        "transcription": "klaɪm",
+        "transcription": "kla\u026am",
         "auxiliary": "have",
         "v4": "climbing",
         "lang": "en",
@@ -39,9 +39,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-VERB-NAT-02",
+        "id": "A1-VERB-NAT-002",
         "word": "pick",
-        "emoji": "🧺",
+        "emoji": "\ud83e\uddfa",
         "form": "verb",
         "subtext": "pick flowers / pick up",
         "definitions": [
@@ -57,7 +57,7 @@
         "v2": "picked",
         "v3": "picked",
         "group": "regular",
-        "transcription": "pɪk",
+        "transcription": "p\u026ak",
         "auxiliary": "have",
         "v4": "picking",
         "lang": "en",

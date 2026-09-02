@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-COM-01",
+        "id": "A1-NOUN-COM-008",
         "word": "alien",
-        "emoji": "👽",
+        "emoji": "\ud83d\udc7d",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
             }
         ],
         "subtext": "related to toys games",
-        "transcription": "ˈeɪliən",
+        "transcription": "\u02c8e\u026ali\u0259n",
         "lang": "en",
         "level": "starter",
         "theme": "toys_games",
@@ -31,9 +31,9 @@
         "sub_subcategory": "Games_Play"
     },
     {
-        "id": "A1-NOUN-COM-02",
+        "id": "A1-NOUN-COM-009",
         "word": "balloon",
-        "emoji": "🎈",
+        "emoji": "\ud83c\udf88",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -47,7 +47,7 @@
             }
         ],
         "subtext": "related to toys games",
-        "transcription": "bəˈlun",
+        "transcription": "b\u0259\u02c8lun",
         "lang": "en",
         "level": "starter",
         "theme": "toys_games",
@@ -60,9 +60,9 @@
         "sub_subcategory": "Games_Play"
     },
     {
-        "id": "A1-NOUN-COM-03",
+        "id": "A1-NOUN-COM-010",
         "word": "doll",
-        "emoji": "🪆",
+        "emoji": "\ud83e\ude86",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -76,7 +76,7 @@
             }
         ],
         "subtext": "related to toys games",
-        "transcription": "dɑl",
+        "transcription": "d\u0251l",
         "lang": "en",
         "level": "starter",
         "theme": "toys_games",
@@ -89,9 +89,9 @@
         "sub_subcategory": "Games_Play"
     },
     {
-        "id": "A1-NOUN-COM-04",
+        "id": "A1-NOUN-COM-011",
         "word": "kite",
-        "emoji": "🪁",
+        "emoji": "\ud83e\ude81",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -105,7 +105,7 @@
             }
         ],
         "subtext": "related to toys games",
-        "transcription": "kaɪt",
+        "transcription": "ka\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "toys_games",
@@ -118,9 +118,9 @@
         "sub_subcategory": "Games_Play"
     },
     {
-        "id": "A1-NOUN-COM-05",
+        "id": "A1-NOUN-COM-012",
         "word": "monster",
-        "emoji": "👹",
+        "emoji": "\ud83d\udc79",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -134,7 +134,7 @@
             }
         ],
         "subtext": "related to toys games",
-        "transcription": "ˈmɑnstər",
+        "transcription": "\u02c8m\u0251nst\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "toys_games",
@@ -147,9 +147,9 @@
         "sub_subcategory": "Games_Play"
     },
     {
-        "id": "A1-NOUN-COM-06",
+        "id": "A1-NOUN-COM-013",
         "word": "robot",
-        "emoji": "🤖",
+        "emoji": "\ud83e\udd16",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -163,7 +163,7 @@
             }
         ],
         "subtext": "related to toys games",
-        "transcription": "ˈroʊˌbət",
+        "transcription": "\u02c8ro\u028a\u02ccb\u0259t",
         "lang": "en",
         "level": "starter",
         "theme": "toys_games",
@@ -176,9 +176,9 @@
         "sub_subcategory": "Games_Play"
     },
     {
-        "id": "A1-NOUN-COM-07",
+        "id": "A1-NOUN-COM-014",
         "word": "toy",
-        "emoji": "🧸",
+        "emoji": "\ud83e\uddf8",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -192,7 +192,7 @@
             }
         ],
         "subtext": "related to toys games",
-        "transcription": "tɔɪ",
+        "transcription": "t\u0254\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "toys_games",

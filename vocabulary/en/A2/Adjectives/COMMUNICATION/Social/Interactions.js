@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A2-ADJ-COM-01",
+        "id": "A2-ADJ-COM-001",
         "word": "cultural",
-        "emoji": "🎨",
+        "emoji": "\ud83c\udfa8",
         "form": "adjective",
         "definitions": [
             {
@@ -20,7 +20,7 @@
         ],
         "comparative": "more cultural",
         "superlative": "the most cultural",
-        "transcription": "ˈkʌltʃərəl",
+        "transcription": "\u02c8k\u028clt\u0283\u0259r\u0259l",
         "lang": "en",
         "level": "elementary",
         "theme": "social",
@@ -33,9 +33,9 @@
         "sub_subcategory": "Interactions"
     },
     {
-        "id": "A2-ADJ-COM-02",
+        "id": "A2-ADJ-COM-002",
         "word": "digital",
-        "emoji": "💻",
+        "emoji": "\ud83d\udcbb",
         "form": "adjective",
         "definitions": [
             {
@@ -51,7 +51,7 @@
         ],
         "comparative": "more digital",
         "superlative": "the most digital",
-        "transcription": "ˈdɪdʒɪtl",
+        "transcription": "\u02c8d\u026ad\u0292\u026atl",
         "lang": "en",
         "level": "elementary",
         "theme": "social",
@@ -64,9 +64,9 @@
         "sub_subcategory": "Interactions"
     },
     {
-        "id": "A2-ADJ-COM-03",
+        "id": "A2-ADJ-COM-003",
         "word": "political",
-        "emoji": "🏛️",
+        "emoji": "\ud83c\udfdb\ufe0f",
         "form": "adjective",
         "definitions": [
             {
@@ -82,7 +82,7 @@
         ],
         "comparative": "more political",
         "superlative": "the most political",
-        "transcription": "pəˈlɪtɪkl",
+        "transcription": "p\u0259\u02c8l\u026at\u026akl",
         "lang": "en",
         "level": "elementary",
         "theme": "social",
@@ -95,9 +95,9 @@
         "sub_subcategory": "Interactions"
     },
     {
-        "id": "A2-ADJ-COM-04",
+        "id": "A2-ADJ-COM-004",
         "word": "social",
-        "emoji": "👥",
+        "emoji": "\ud83d\udc65",
         "form": "adjective",
         "definitions": [
             {
@@ -113,7 +113,7 @@
         ],
         "comparative": "more social",
         "superlative": "the most social",
-        "transcription": "ˈsoʊʃl",
+        "transcription": "\u02c8so\u028a\u0283l",
         "lang": "en",
         "level": "elementary",
         "theme": "social",

@@ -2,11 +2,11 @@
     const lang = "en";
     const data = [
     {
-        "id": "C2-ADJ-LAW-01",
+        "id": "C2-ADJ-LAW-001",
         "word": "abrupt",
-        "emoji": "⏱️",
+        "emoji": "\u23f1\ufe0f",
         "form": "adjective",
-        "transcription": "əˈbrʌpt",
+        "transcription": "\u0259\u02c8br\u028cpt",
         "definitions": [
             {
                 "text": "Sudden and unexpected; short and rude in manner.",
@@ -37,11 +37,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-02",
+        "id": "C2-ADJ-LAW-002",
         "word": "abstruse",
-        "emoji": "🧐",
+        "emoji": "\ud83e\uddd0",
         "form": "adjective",
-        "transcription": "əbˈstruːs",
+        "transcription": "\u0259b\u02c8stru\u02d0s",
         "definitions": [
             {
                 "text": "Difficult to understand; obscure.",
@@ -72,11 +72,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-03",
+        "id": "C2-ADJ-LAW-003",
         "word": "antithetical",
-        "emoji": "⚖️",
+        "emoji": "\u2696\ufe0f",
         "form": "adjective",
-        "transcription": "ˌæntɪˈθetɪkl",
+        "transcription": "\u02cc\u00e6nt\u026a\u02c8\u03b8et\u026akl",
         "definitions": [
             {
                 "text": "Directly opposed or contrary to something.",
@@ -107,11 +107,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-04",
+        "id": "C2-ADJ-LAW-004",
         "word": "arcane",
-        "emoji": "🔮",
+        "emoji": "\ud83d\udd2e",
         "form": "adjective",
-        "transcription": "ɑːˈkeɪn",
+        "transcription": "\u0251\u02d0\u02c8ke\u026an",
         "definitions": [
             {
                 "text": "Known by only a few people; mysterious and secret.",
@@ -142,11 +142,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-05",
+        "id": "C2-ADJ-LAW-005",
         "word": "atypical",
-        "emoji": "🦄",
+        "emoji": "\ud83e\udd84",
         "form": "adjective",
-        "transcription": "ˌeɪˈtɪpɪkl",
+        "transcription": "\u02cce\u026a\u02c8t\u026ap\u026akl",
         "definitions": [
             {
                 "text": "Not typical; not normal or usual.",
@@ -177,11 +177,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-06",
+        "id": "C2-ADJ-LAW-006",
         "word": "binary",
-        "emoji": "🔢",
+        "emoji": "\ud83d\udd22",
         "form": "adjective",
-        "transcription": "ˈbaɪnəri",
+        "transcription": "\u02c8ba\u026an\u0259ri",
         "definitions": [
             {
                 "text": "Consisting of two things; based on either/or.",
@@ -212,11 +212,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-07",
+        "id": "C2-ADJ-LAW-007",
         "word": "categorical",
-        "emoji": "❗",
+        "emoji": "\u2757",
         "form": "adjective",
-        "transcription": "🇬🇧 ˌkætəˈɡɒrɪkl | 🇺🇸 ˌkætəˈɡɑːrɪkl",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02cck\u00e6t\u0259\u02c8\u0261\u0252r\u026akl | \ud83c\uddfa\ud83c\uddf8 \u02cck\u00e6t\u0259\u02c8\u0261\u0251\u02d0r\u026akl",
         "definitions": [
             {
                 "text": "Absolute; expressed without any exceptions or conditions.",
@@ -247,11 +247,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-08",
+        "id": "C2-ADJ-LAW-008",
         "word": "dialectical",
-        "emoji": "⚖️",
+        "emoji": "\u2696\ufe0f",
         "form": "adjective",
-        "transcription": "ˌdaɪəˈlektɪkl",
+        "transcription": "\u02ccda\u026a\u0259\u02c8lekt\u026akl",
         "definitions": [
             {
                 "text": "Relating to the logical discussion of ideas through opposites.",
@@ -279,11 +279,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-09",
+        "id": "C2-ADJ-LAW-009",
         "word": "diffuse",
-        "emoji": "🌫️",
+        "emoji": "\ud83c\udf2b\ufe0f",
         "form": "adjective",
-        "transcription": "dɪˈfjuːs",
+        "transcription": "d\u026a\u02c8fju\u02d0s",
         "definitions": [
             {
                 "text": "Spread over a wide area; lacking clarity.",
@@ -314,11 +314,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-10",
+        "id": "C2-ADJ-LAW-010",
         "word": "elusive",
-        "emoji": "🌬️",
+        "emoji": "\ud83c\udf2c\ufe0f",
         "form": "adjective",
-        "transcription": "ɪˈluːsɪv",
+        "transcription": "\u026a\u02c8lu\u02d0s\u026av",
         "definitions": [
             {
                 "text": "Difficult to find, catch or achieve.",
@@ -355,11 +355,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-11",
+        "id": "C2-ADJ-LAW-011",
         "word": "esoteric",
-        "emoji": "🗝️",
+        "emoji": "\ud83d\udddd\ufe0f",
         "form": "adjective",
-        "transcription": "ˌesəˈterɪk",
+        "transcription": "\u02cces\u0259\u02c8ter\u026ak",
         "definitions": [
             {
                 "text": "Understood by or intended for only a small group.",
@@ -390,11 +390,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-12",
+        "id": "C2-ADJ-LAW-012",
         "word": "fallacious",
-        "emoji": "❌",
+        "emoji": "\u274c",
         "form": "adjective",
-        "transcription": "fəˈleɪʃəs",
+        "transcription": "f\u0259\u02c8le\u026a\u0283\u0259s",
         "definitions": [
             {
                 "text": "Based on false reasoning; misleading.",
@@ -425,11 +425,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-13",
+        "id": "C2-ADJ-LAW-013",
         "word": "hermeneutic",
-        "emoji": "📜",
+        "emoji": "\ud83d\udcdc",
         "form": "adjective",
-        "transcription": "ˌhɜːmɪˈnjuːtɪk",
+        "transcription": "\u02cch\u025c\u02d0m\u026a\u02c8nju\u02d0t\u026ak",
         "definitions": [
             {
                 "text": "Relating to the interpretation of texts or meaning.",
@@ -451,11 +451,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-14",
+        "id": "C2-ADJ-LAW-014",
         "word": "heterodox",
-        "emoji": "🚩",
+        "emoji": "\ud83d\udea9",
         "form": "adjective",
-        "transcription": "🇬🇧 ˈhetərədɒks | 🇺🇸 ˈhetərədɑːks",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8het\u0259r\u0259d\u0252ks | \ud83c\uddfa\ud83c\uddf8 \u02c8het\u0259r\u0259d\u0251\u02d0ks",
         "definitions": [
             {
                 "text": "Contrary to established or accepted beliefs or doctrine.",
@@ -477,11 +477,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-15",
+        "id": "C2-ADJ-LAW-015",
         "word": "heuristic",
-        "emoji": "💡",
+        "emoji": "\ud83d\udca1",
         "form": "adjective",
-        "transcription": "hjuˈrɪstɪk",
+        "transcription": "hju\u02c8r\u026ast\u026ak",
         "definitions": [
             {
                 "text": "A problem-solving approach based on experience rather than guaranteed proof.",
@@ -503,11 +503,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-16",
+        "id": "C2-ADJ-LAW-016",
         "word": "immanent",
-        "emoji": "⚛️",
+        "emoji": "\u269b\ufe0f",
         "form": "adjective",
-        "transcription": "ˈɪmənənt",
+        "transcription": "\u02c8\u026am\u0259n\u0259nt",
         "definitions": [
             {
                 "text": "Existing or operating within something; not transcendent.",
@@ -529,16 +529,16 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-17",
+        "id": "C2-ADJ-LAW-017",
         "word": "immutable",
-        "emoji": "🧱",
+        "emoji": "\ud83e\uddf1",
         "form": "adjective",
-        "transcription": "ɪˈmjuːtəbl",
+        "transcription": "\u026a\u02c8mju\u02d0t\u0259bl",
         "definitions": [
             {
                 "text": "Not able to be changed; fixed and permanent.",
                 "examples": [
-                    "Language is not immutable — it constantly evolves."
+                    "Language is not immutable \u2014 it constantly evolves."
                 ]
             }
         ],
@@ -564,11 +564,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-18",
+        "id": "C2-ADJ-LAW-018",
         "word": "incidental",
-        "emoji": "🍃",
+        "emoji": "\ud83c\udf43",
         "form": "adjective",
-        "transcription": "ˌɪnsɪˈdentl",
+        "transcription": "\u02cc\u026ans\u026a\u02c8dentl",
         "definitions": [
             {
                 "text": "Happening as a minor part of something else.",
@@ -599,11 +599,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-19",
+        "id": "C2-ADJ-LAW-019",
         "word": "inherent",
-        "emoji": "⚛️",
+        "emoji": "\u269b\ufe0f",
         "form": "adjective",
-        "transcription": "ɪnˈhɪərənt",
+        "transcription": "\u026an\u02c8h\u026a\u0259r\u0259nt",
         "definitions": [
             {
                 "text": "Existing in something as a natural and permanent quality.",
@@ -634,9 +634,9 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-20",
+        "id": "C2-ADJ-LAW-020",
         "word": "interdisciplinary",
-        "emoji": "🧪",
+        "emoji": "\ud83e\uddea",
         "form": "adjective",
         "definitions": [
             {
@@ -657,11 +657,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-21",
+        "id": "C2-ADJ-LAW-021",
         "word": "irreconcilable",
-        "emoji": "🚫",
+        "emoji": "\ud83d\udeab",
         "form": "adjective",
-        "transcription": "ɪˌrekənˈsaɪləbl",
+        "transcription": "\u026a\u02ccrek\u0259n\u02c8sa\u026al\u0259bl",
         "definitions": [
             {
                 "text": "Not able to be made to agree or be compatible.",
@@ -692,11 +692,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-22",
+        "id": "C2-ADJ-LAW-022",
         "word": "liminal",
-        "emoji": "🚪",
+        "emoji": "\ud83d\udeaa",
         "form": "adjective",
-        "transcription": "ˈlɪmɪnl",
+        "transcription": "\u02c8l\u026am\u026anl",
         "definitions": [
             {
                 "text": "Relating to a transitional or in-between state.",
@@ -724,11 +724,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-23",
+        "id": "C2-ADJ-LAW-023",
         "word": "manifold",
-        "emoji": "🔢",
+        "emoji": "\ud83d\udd22",
         "form": "adjective",
-        "transcription": "🇬🇧 ˈmænɪfəʊld | 🇺🇸 ˈmænɪfoʊld",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8m\u00e6n\u026af\u0259\u028ald | \ud83c\uddfa\ud83c\uddf8 \u02c8m\u00e6n\u026afo\u028ald",
         "definitions": [
             {
                 "text": "Many and of several different kinds.",
@@ -759,11 +759,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-24",
+        "id": "C2-ADJ-LAW-024",
         "word": "narcissistic",
-        "emoji": "🪞",
+        "emoji": "\ud83e\ude9e",
         "form": "adjective",
-        "transcription": "ˌnɑːrsɪˈsɪstɪk",
+        "transcription": "\u02ccn\u0251\u02d0rs\u026a\u02c8s\u026ast\u026ak",
         "definitions": [
             {
                 "text": "Having excessive interest in oneself and one's appearance or achievements.",
@@ -785,11 +785,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-25",
+        "id": "C2-ADJ-LAW-025",
         "word": "nebulous",
-        "emoji": "☁️",
+        "emoji": "\u2601\ufe0f",
         "form": "adjective",
-        "transcription": "ˈnebjələs",
+        "transcription": "\u02c8nebj\u0259l\u0259s",
         "definitions": [
             {
                 "text": "Not clear; vague and ill-defined.",
@@ -820,11 +820,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-26",
+        "id": "C2-ADJ-LAW-026",
         "word": "nuanced",
-        "emoji": "🌗",
+        "emoji": "\ud83c\udf17",
         "form": "adjective",
-        "transcription": "ˈnjuːɑːnst",
+        "transcription": "\u02c8nju\u02d0\u0251\u02d0nst",
         "definitions": [
             {
                 "text": "Showing subtle distinctions; not simple or extreme.",
@@ -855,11 +855,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-27",
+        "id": "C2-ADJ-LAW-027",
         "word": "oblique",
-        "emoji": "↗️",
+        "emoji": "\u2197\ufe0f",
         "form": "adjective",
-        "transcription": "əˈbliːk",
+        "transcription": "\u0259\u02c8bli\u02d0k",
         "definitions": [
             {
                 "text": "Not straight; indirect; not direct or open.",
@@ -890,11 +890,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-28",
+        "id": "C2-ADJ-LAW-028",
         "word": "opaque",
-        "emoji": "🌑",
+        "emoji": "\ud83c\udf11",
         "form": "adjective",
-        "transcription": "🇬🇧 əʊˈpeɪk | 🇺🇸 oʊˈpeɪk",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u0259\u028a\u02c8pe\u026ak | \ud83c\uddfa\ud83c\uddf8 o\u028a\u02c8pe\u026ak",
         "definitions": [
             {
                 "text": "Not transparent; difficult to understand.",
@@ -925,11 +925,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-29",
+        "id": "C2-ADJ-LAW-029",
         "word": "ostensible",
-        "emoji": "🎭",
+        "emoji": "\ud83c\udfad",
         "form": "adjective",
-        "transcription": "🇬🇧 ɒˈstensəbl | 🇺🇸 ɑːˈstensəbl",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u0252\u02c8stens\u0259bl | \ud83c\uddfa\ud83c\uddf8 \u0251\u02d0\u02c8stens\u0259bl",
         "definitions": [
             {
                 "text": "Appearing to be something; stated as real or true.",
@@ -960,11 +960,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-30",
+        "id": "C2-ADJ-LAW-030",
         "word": "paradoxical",
-        "emoji": "🔄",
+        "emoji": "\ud83d\udd04",
         "form": "adjective",
-        "transcription": "🇬🇧 ˌpærəˈdɒksɪkl | 🇺🇸 ˌpærəˈdɑːksɪkl",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02ccp\u00e6r\u0259\u02c8d\u0252ks\u026akl | \ud83c\uddfa\ud83c\uddf8 \u02ccp\u00e6r\u0259\u02c8d\u0251\u02d0ks\u026akl",
         "definitions": [
             {
                 "text": "Contradicting itself while containing truth.",
@@ -995,11 +995,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-31",
+        "id": "C2-ADJ-LAW-031",
         "word": "reductive",
-        "emoji": "📉",
+        "emoji": "\ud83d\udcc9",
         "form": "adjective",
-        "transcription": "rɪˈdʌktɪv",
+        "transcription": "r\u026a\u02c8d\u028ckt\u026av",
         "definitions": [
             {
                 "text": "Oversimplifying something complex.",
@@ -1030,11 +1030,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-32",
+        "id": "C2-ADJ-LAW-032",
         "word": "specious",
-        "emoji": "🤥",
+        "emoji": "\ud83e\udd25",
         "form": "adjective",
-        "transcription": "ˈspiːʃəs",
+        "transcription": "\u02c8spi\u02d0\u0283\u0259s",
         "definitions": [
             {
                 "text": "Seeming right but actually wrong; misleading.",
@@ -1065,11 +1065,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-33",
+        "id": "C2-ADJ-LAW-033",
         "word": "spurious",
-        "emoji": "🤡",
+        "emoji": "\ud83e\udd21",
         "form": "adjective",
-        "transcription": "ˈspjʊəriəs",
+        "transcription": "\u02c8spj\u028a\u0259ri\u0259s",
         "definitions": [
             {
                 "text": "Not genuine; based on false reasoning.",
@@ -1100,11 +1100,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-34",
+        "id": "C2-ADJ-LAW-034",
         "word": "tacit",
-        "emoji": "🤫",
+        "emoji": "\ud83e\udd2b",
         "form": "adjective",
-        "transcription": "ˈtæsɪt",
+        "transcription": "\u02c8t\u00e6s\u026at",
         "definitions": [
             {
                 "text": "Understood or agreed without being stated.",
@@ -1135,11 +1135,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-35",
+        "id": "C2-ADJ-LAW-035",
         "word": "tautological",
-        "emoji": "🔄",
+        "emoji": "\ud83d\udd04",
         "form": "adjective",
-        "transcription": "🇬🇧 ˌtɔːtəˈlɒdʒɪkl | 🇺🇸 ˌtɔːtəˈlɑːdʒɪkl",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02cct\u0254\u02d0t\u0259\u02c8l\u0252d\u0292\u026akl | \ud83c\uddfa\ud83c\uddf8 \u02cct\u0254\u02d0t\u0259\u02c8l\u0251\u02d0d\u0292\u026akl",
         "definitions": [
             {
                 "text": "Saying the same thing twice in different words; circular in reasoning.",
@@ -1161,11 +1161,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-36",
+        "id": "C2-ADJ-LAW-036",
         "word": "tenuous",
-        "emoji": "🕸️",
+        "emoji": "\ud83d\udd78\ufe0f",
         "form": "adjective",
-        "transcription": "ˈtenjuəs",
+        "transcription": "\u02c8tenju\u0259s",
         "definitions": [
             {
                 "text": "Very weak or slight; not firmly established.",
@@ -1196,11 +1196,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-37",
+        "id": "C2-ADJ-LAW-037",
         "word": "transient",
-        "emoji": "🌅",
+        "emoji": "\ud83c\udf05",
         "form": "adjective",
-        "transcription": "ˈtrænziənt",
+        "transcription": "\u02c8tr\u00e6nzi\u0259nt",
         "definitions": [
             {
                 "text": "Not permanent; passing quickly.",
@@ -1231,11 +1231,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-38",
+        "id": "C2-ADJ-LAW-038",
         "word": "unequivocal",
-        "emoji": "📢",
+        "emoji": "\ud83d\udce2",
         "form": "adjective",
-        "transcription": "ˌʌnɪˈkwɪvəkl",
+        "transcription": "\u02cc\u028cn\u026a\u02c8kw\u026av\u0259kl",
         "definitions": [
             {
                 "text": "Leaving no doubt; completely clear.",
@@ -1266,11 +1266,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-39",
+        "id": "C2-ADJ-LAW-039",
         "word": "untenable",
-        "emoji": "🏗️",
+        "emoji": "\ud83c\udfd7\ufe0f",
         "form": "adjective",
-        "transcription": "ʌnˈtenəbl",
+        "transcription": "\u028cn\u02c8ten\u0259bl",
         "definitions": [
             {
                 "text": "Not able to be maintained or defended.",
@@ -1301,11 +1301,11 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-ADJ-LAW-40",
+        "id": "C2-ADJ-LAW-040",
         "word": "unwieldy",
-        "emoji": "📦",
+        "emoji": "\ud83d\udce6",
         "form": "adjective",
-        "transcription": "ʌnˈwiːldi",
+        "transcription": "\u028cn\u02c8wi\u02d0ldi",
         "definitions": [
             {
                 "text": "Difficult to handle or manage because of size.",

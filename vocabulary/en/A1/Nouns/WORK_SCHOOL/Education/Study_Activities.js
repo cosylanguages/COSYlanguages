@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-WOR-01",
+        "id": "A1-NOUN-WOR-020",
         "word": "alphabet",
-        "emoji": "🔤",
+        "emoji": "\ud83d\udd24",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -17,7 +17,7 @@
             }
         ],
         "subtext": "letters",
-        "transcription": "ˈælfəˌbɛt",
+        "transcription": "\u02c8\u00e6lf\u0259\u02ccb\u025bt",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -34,9 +34,9 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-NOUN-WOR-02",
+        "id": "A1-NOUN-WOR-021",
         "word": "class",
-        "emoji": "🏫",
+        "emoji": "\ud83c\udfeb",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -50,7 +50,7 @@
                 ]
             }
         ],
-        "transcription": "klæs",
+        "transcription": "kl\u00e6s",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -63,9 +63,9 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-NOUN-WOR-03",
+        "id": "A1-NOUN-WOR-022",
         "word": "classmate",
-        "emoji": "🧑‍🤝‍🧑",
+        "emoji": "\ud83e\uddd1\u200d\ud83e\udd1d\u200d\ud83e\uddd1",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -79,7 +79,7 @@
             }
         ],
         "subtext": "related to learning studying",
-        "transcription": "ˈklæsˌmeɪt",
+        "transcription": "\u02c8kl\u00e6s\u02ccme\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -92,9 +92,9 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-NOUN-WOR-04",
+        "id": "A1-NOUN-WOR-023",
         "word": "exam",
-        "emoji": "📝",
+        "emoji": "\ud83d\udcdd",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -108,7 +108,7 @@
                 ]
             }
         ],
-        "transcription": "ɪgˈzæm",
+        "transcription": "\u026ag\u02c8z\u00e6m",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -121,9 +121,9 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-NOUN-WOR-05",
+        "id": "A1-NOUN-WOR-024",
         "word": "homework",
-        "emoji": "📝",
+        "emoji": "\ud83d\udcdd",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -137,7 +137,7 @@
             }
         ],
         "subtext": "related to learning studying",
-        "transcription": "ˈhoʊmˌwərk",
+        "transcription": "\u02c8ho\u028am\u02ccw\u0259rk",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -150,9 +150,9 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-NOUN-WOR-06",
+        "id": "A1-NOUN-WOR-025",
         "word": "lesson",
-        "emoji": "📚",
+        "emoji": "\ud83d\udcda",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -166,7 +166,7 @@
             }
         ],
         "subtext": "related to learning studying",
-        "transcription": "ˈlɛsən",
+        "transcription": "\u02c8l\u025bs\u0259n",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -184,9 +184,9 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-NOUN-WOR-07",
+        "id": "A1-NOUN-WOR-026",
         "word": "skill",
-        "emoji": "🧠",
+        "emoji": "\ud83e\udde0",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -200,7 +200,7 @@
                 ]
             }
         ],
-        "transcription": "skɪl",
+        "transcription": "sk\u026al",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -213,9 +213,9 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-NOUN-WOR-08",
+        "id": "A1-NOUN-WOR-027",
         "word": "student",
-        "emoji": "🧑‍🎓",
+        "emoji": "\ud83e\uddd1\u200d\ud83c\udf93",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -229,7 +229,7 @@
             }
         ],
         "subtext": "related to learning studying",
-        "transcription": "ˈstudənt",
+        "transcription": "\u02c8stud\u0259nt",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
@@ -247,9 +247,9 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-NOUN-WOR-09",
+        "id": "A1-NOUN-WOR-028",
         "word": "test",
-        "emoji": "📝",
+        "emoji": "\ud83d\udcdd",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -263,7 +263,7 @@
                 ]
             }
         ],
-        "transcription": "tɛst",
+        "transcription": "t\u025bst",
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",

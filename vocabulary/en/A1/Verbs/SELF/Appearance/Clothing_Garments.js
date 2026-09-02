@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-SEL-01",
+        "id": "A1-VERB-SEL-001",
         "word": "fit",
-        "emoji": "👕",
+        "emoji": "\ud83d\udc55",
         "form": "verb",
         "subtext": "fit well / does it fit?",
         "definitions": [
@@ -20,7 +20,7 @@
         "v2": "fitted",
         "v3": "fitted",
         "group": "regular",
-        "transcription": "fɪt",
+        "transcription": "f\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -36,9 +36,9 @@
         "sub_subcategory": "Clothing_Garments"
     },
     {
-        "id": "A1-VERB-SEL-02",
+        "id": "A1-VERB-SEL-002",
         "word": "fit",
-        "emoji": "👕",
+        "emoji": "\ud83d\udc55",
         "form": "verb",
         "subtext": "fit well / does it fit?",
         "definitions": [
@@ -54,7 +54,7 @@
         "v2": "fitted",
         "v3": "fitted",
         "group": "regular",
-        "transcription": "fɪt",
+        "transcription": "f\u026at",
         "auxiliary": "have",
         "v4": "fiting",
         "lang": "en",
@@ -72,9 +72,9 @@
         "sub_subcategory": "Clothing_Garments"
     },
     {
-        "id": "A1-VERB-SEL-03",
+        "id": "A1-VERB-SEL-003",
         "word": "wear",
-        "emoji": "👕",
+        "emoji": "\ud83d\udc55",
         "subtext": "wear a suit / wear glasses / wear casual clothes",
         "form": "verb",
         "definitions": [
@@ -91,7 +91,7 @@
         "v2": "wore",
         "v3": "worn",
         "group": "irregular",
-        "transcription": "wɛr",
+        "transcription": "w\u025br",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -107,9 +107,9 @@
         "sub_subcategory": "Clothing_Garments"
     },
     {
-        "id": "A1-VERB-SEL-04",
+        "id": "A1-VERB-SEL-004",
         "word": "wear",
-        "emoji": "👕",
+        "emoji": "\ud83d\udc55",
         "subtext": "wear a suit / wear glasses / wear casual clothes",
         "form": "verb",
         "definitions": [
@@ -126,7 +126,7 @@
         "v2": "wore",
         "v3": "worn",
         "group": "regular",
-        "transcription": "wɛr",
+        "transcription": "w\u025br",
         "synonyms": [
             "have on"
         ],

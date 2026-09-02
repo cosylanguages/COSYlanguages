@@ -2,10 +2,10 @@
     const lang = "en";
     const data = [
     {
-        "id": "C2-VERB-SOC-01",
+        "id": "C2-VERB-SOC-001",
         "word": "abrogate",
-        "emoji": "🔨",
-        "transcription": "ˈæbrəɡeɪt",
+        "emoji": "\ud83d\udd28",
+        "transcription": "\u02c8\u00e6br\u0259\u0261e\u026at",
         "subtext": "abrogate an agreement / abrogate a treaty / unilateral abrogation",
         "form": "verb",
         "definitions": [
@@ -35,10 +35,10 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-VERB-SOC-02",
+        "id": "C2-VERB-SOC-002",
         "word": "acquiesce",
-        "emoji": "🤝",
-        "transcription": "ˌækwiˈes",
+        "emoji": "\ud83e\udd1d",
+        "transcription": "\u02cc\u00e6kwi\u02c8es",
         "subtext": "acquiesce to / acquiesce in / reluctant acquiescence",
         "form": "verb",
         "definitions": [
@@ -68,10 +68,10 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-VERB-SOC-03",
+        "id": "C2-VERB-SOC-003",
         "word": "alienate",
-        "emoji": "⛓️",
-        "transcription": "ˈeɪliəneɪt",
+        "emoji": "\u26d3\ufe0f",
+        "transcription": "\u02c8e\u026ali\u0259ne\u026at",
         "subtext": "alienate someone / feel alienated / Marxist alienation",
         "form": "verb",
         "definitions": [
@@ -101,10 +101,10 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-VERB-SOC-04",
+        "id": "C2-VERB-SOC-004",
         "word": "alleviate",
-        "emoji": "🩹",
-        "transcription": "əˈliːvieɪt",
+        "emoji": "\ud83e\ude79",
+        "transcription": "\u0259\u02c8li\u02d0vie\u026at",
         "subtext": "alleviate suffering / alleviate poverty / alleviate pressure",
         "form": "verb",
         "definitions": [
@@ -134,10 +134,10 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-VERB-SOC-05",
+        "id": "C2-VERB-SOC-005",
         "word": "circumvent",
-        "emoji": "🔄",
-        "transcription": "ˌsɜːkəmˈvent",
+        "emoji": "\ud83d\udd04",
+        "transcription": "\u02ccs\u025c\u02d0k\u0259m\u02c8vent",
         "subtext": "circumvent the rules / circumvent a problem / circumvent embassy",
         "form": "verb",
         "definitions": [
@@ -167,12 +167,12 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-VERB-SOC-06",
+        "id": "C2-VERB-SOC-006",
         "word": "commodify",
-        "emoji": "🏷️",
+        "emoji": "\ud83c\udff7\ufe0f",
         "subtext": "commodify labour / commodify care / commodification of attention",
         "form": "verb",
-        "transcription": "kəˈmɒdɪfaɪ",
+        "transcription": "k\u0259\u02c8m\u0252d\u026afa\u026a",
         "definitions": [
             {
                 "text": "To treat something that is not a product as a commercial commodity.",
@@ -200,10 +200,10 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-VERB-SOC-07",
+        "id": "C2-VERB-SOC-007",
         "word": "contravene",
-        "emoji": "📜",
-        "transcription": "ˌkɒntrəˈviːn",
+        "emoji": "\ud83d\udcdc",
+        "transcription": "\u02cck\u0252ntr\u0259\u02c8vi\u02d0n",
         "subtext": "contravene a law / contravene regulations / contravene an agreement",
         "form": "verb",
         "definitions": [
@@ -233,12 +233,12 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-VERB-SOC-08",
+        "id": "C2-VERB-SOC-008",
         "word": "destabilise",
-        "emoji": "🌪️",
+        "emoji": "\ud83c\udf2a\ufe0f",
         "subtext": "destabilise a regime / destabilise assumptions / deliberately destabilise",
         "form": "verb",
-        "transcription": "ˌdiːˈsteɪbəlaɪz",
+        "transcription": "\u02ccdi\u02d0\u02c8ste\u026ab\u0259la\u026az",
         "definitions": [
             {
                 "text": "To undermine the stability of a system, concept or position.",
@@ -266,10 +266,10 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-VERB-SOC-09",
+        "id": "C2-VERB-SOC-009",
         "word": "engender",
-        "emoji": "🌱",
-        "transcription": "ɪnˈdʒendə",
+        "emoji": "\ud83c\udf31",
+        "transcription": "\u026an\u02c8d\u0292end\u0259",
         "subtext": "engender trust / engender conflict / engender resentment",
         "form": "verb",
         "definitions": [
@@ -299,10 +299,10 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-VERB-SOC-10",
+        "id": "C2-VERB-SOC-010",
         "word": "exacerbate",
-        "emoji": "📈",
-        "transcription": "ɪɡˈzæsəbeɪt",
+        "emoji": "\ud83d\udcc8",
+        "transcription": "\u026a\u0261\u02c8z\u00e6s\u0259be\u026at",
         "subtext": "exacerbate a problem / exacerbate tensions / exacerbate inequality",
         "form": "verb",
         "definitions": [
@@ -332,10 +332,10 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-VERB-SOC-11",
+        "id": "C2-VERB-SOC-011",
         "word": "fetishise",
-        "emoji": "🧿",
-        "transcription": "ˈfetɪʃaɪz",
+        "emoji": "\ud83e\uddff",
+        "transcription": "\u02c8fet\u026a\u0283a\u026az",
         "subtext": "fetishise an idea / commodity fetishism / fetishise growth",
         "form": "verb",
         "definitions": [
@@ -365,10 +365,10 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-VERB-SOC-12",
+        "id": "C2-VERB-SOC-012",
         "word": "hegemonise",
-        "emoji": "👑",
-        "transcription": "hɪˈdʒemənaɪz",
+        "emoji": "\ud83d\udc51",
+        "transcription": "h\u026a\u02c8d\u0292em\u0259na\u026az",
         "subtext": "hegemonise discourse / hegemonising tendency / resist hegemonisation",
         "form": "verb",
         "definitions": [
@@ -398,10 +398,10 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-VERB-SOC-13",
+        "id": "C2-VERB-SOC-013",
         "word": "impede",
-        "emoji": "🛑",
-        "transcription": "ɪmˈpiːd",
+        "emoji": "\ud83d\uded1",
+        "transcription": "\u026am\u02c8pi\u02d0d",
         "subtext": "impede progress / impede growth / impede someone from doing",
         "form": "verb",
         "definitions": [
@@ -431,10 +431,10 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-VERB-SOC-14",
+        "id": "C2-VERB-SOC-014",
         "word": "instrumentalise",
-        "emoji": "🛠️",
-        "transcription": "ˌɪnstrəˈmentəlaɪz",
+        "emoji": "\ud83d\udee0\ufe0f",
+        "transcription": "\u02cc\u026anstr\u0259\u02c8ment\u0259la\u026az",
         "subtext": "instrumentalise people / instrumentalise an idea / reduce to an instrument",
         "form": "verb",
         "definitions": [
@@ -464,12 +464,12 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-VERB-SOC-15",
+        "id": "C2-VERB-SOC-015",
         "word": "invoke",
-        "emoji": "📜",
+        "emoji": "\ud83d\udcdc",
         "subtext": "invoke a right / invoke precedent / invoke an argument",
         "form": "verb",
-        "transcription": "ɪnˈvəʊk",
+        "transcription": "\u026an\u02c8v\u0259\u028ak",
         "definitions": [
             {
                 "text": "To call upon or cite something to support an argument.",
@@ -497,10 +497,10 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-VERB-SOC-16",
+        "id": "C2-VERB-SOC-016",
         "word": "militate",
-        "emoji": "⚖️",
-        "transcription": "ˈmɪlɪteɪt",
+        "emoji": "\u2696\ufe0f",
+        "transcription": "\u02c8m\u026al\u026ate\u026at",
         "subtext": "militate against / strongly militate / militate in favour of",
         "form": "verb",
         "definitions": [
@@ -530,10 +530,10 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-VERB-SOC-17",
+        "id": "C2-VERB-SOC-017",
         "word": "mitigate",
-        "emoji": "🛡️",
-        "transcription": "ˈmɪtɪɡeɪt",
+        "emoji": "\ud83d\udee1\ufe0f",
+        "transcription": "\u02c8m\u026at\u026a\u0261e\u026at",
         "subtext": "mitigate risk / mitigate the impact / mitigate against",
         "form": "verb",
         "definitions": [
@@ -563,10 +563,10 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-VERB-SOC-18",
+        "id": "C2-VERB-SOC-018",
         "word": "oblige",
-        "emoji": "📜",
-        "transcription": "əˈblaɪdʒ",
+        "emoji": "\ud83d\udcdc",
+        "transcription": "\u0259\u02c8bla\u026ad\u0292",
         "subtext": "be obliged to / oblige someone to / feel obliged",
         "form": "verb",
         "definitions": [
@@ -596,10 +596,10 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-VERB-SOC-19",
+        "id": "C2-VERB-SOC-019",
         "word": "pervade",
-        "emoji": "🌊",
-        "transcription": "pəˈveɪd",
+        "emoji": "\ud83c\udf0a",
+        "transcription": "p\u0259\u02c8ve\u026ad",
         "subtext": "pervade the organisation / be pervaded by / all-pervading",
         "form": "verb",
         "definitions": [
@@ -629,12 +629,12 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-VERB-SOC-20",
+        "id": "C2-VERB-SOC-020",
         "word": "predicate",
-        "emoji": "🏗️",
+        "emoji": "\ud83c\udfd7\ufe0f",
         "subtext": "predicate on / predicate a claim / predicated on the assumption",
         "form": "verb",
-        "transcription": "ˈpredɪkeɪt",
+        "transcription": "\u02c8pred\u026ake\u026at",
         "definitions": [
             {
                 "text": "To base a statement or action on a particular condition; to assert.",
@@ -662,12 +662,12 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-VERB-SOC-21",
+        "id": "C2-VERB-SOC-021",
         "word": "recuperate",
-        "emoji": "🧽",
+        "emoji": "\ud83e\uddfd",
         "subtext": "recuperate a movement / be recuperated by / cultural recuperation",
         "form": "verb",
-        "transcription": "rɪˈkuːpəreɪt",
+        "transcription": "r\u026a\u02c8ku\u02d0p\u0259re\u026at",
         "definitions": [
             {
                 "text": "To absorb and neutralise subversive ideas within a dominant system.",
@@ -695,10 +695,10 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-VERB-SOC-22",
+        "id": "C2-VERB-SOC-022",
         "word": "supersede",
-        "emoji": "🚀",
-        "transcription": "ˌsuːpəˈsiːd",
+        "emoji": "\ud83d\ude80",
+        "transcription": "\u02ccsu\u02d0p\u0259\u02c8si\u02d0d",
         "subtext": "supersede a law / supersede previous guidelines / be superseded by",
         "form": "verb",
         "definitions": [
@@ -728,10 +728,10 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "C2-VERB-SOC-23",
+        "id": "C2-VERB-SOC-023",
         "word": "valorise",
-        "emoji": "🎖️",
-        "transcription": "ˈvæləraɪz",
+        "emoji": "\ud83c\udf96\ufe0f",
+        "transcription": "\u02c8v\u00e6l\u0259ra\u026az",
         "subtext": "valorise labour / valorise a concept / be valorised by culture",
         "form": "verb",
         "definitions": [

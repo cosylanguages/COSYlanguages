@@ -2,12 +2,12 @@
     const lang = "en";
     const data = [
     {
-        "id": "B2-OTH-SOC-01",
+        "id": "B2-OTH-SOC-001",
         "lang": "en",
-        "transcription": "ˌwɛərˈæz",
+        "transcription": "\u02ccw\u025b\u0259r\u02c8\u00e6z",
         "level": "upper_intermediate",
         "theme": "language",
-        "emoji": "⚖️",
+        "emoji": "\u2696\ufe0f",
         "form": "conjunction",
         "definitions": [
             {
@@ -23,15 +23,16 @@
         "domain": "Society",
         "subcategory": "Culture",
         "pos_section": "Other_POS",
-        "sub_subcategory": "General_Culture"
+        "sub_subcategory": "General_Culture",
+        "word": "whereas"
     },
     {
-        "id": "B2-OTH-SOC-02",
+        "id": "B2-OTH-SOC-002",
         "lang": "en",
-        "transcription": "tuː wɒt ɪkˈstɛnt",
+        "transcription": "tu\u02d0 w\u0252t \u026ak\u02c8st\u025bnt",
         "level": "upper_intermediate",
         "theme": "language",
-        "emoji": "📏",
+        "emoji": "\ud83d\udccf",
         "form": "phrase",
         "definitions": [
             {
@@ -47,15 +48,16 @@
         "domain": "Society",
         "subcategory": "Culture",
         "pos_section": "Other_POS",
-        "sub_subcategory": "General_Culture"
+        "sub_subcategory": "General_Culture",
+        "word": "to what extent"
     },
     {
-        "id": "B2-OTH-SOC-03",
+        "id": "B2-OTH-SOC-003",
         "lang": "en",
-        "transcription": "baɪ ˈkɒntrɑːst",
+        "transcription": "ba\u026a \u02c8k\u0252ntr\u0251\u02d0st",
         "level": "upper_intermediate",
         "theme": "language",
-        "emoji": "🌓",
+        "emoji": "\ud83c\udf13",
         "form": "phrase",
         "definitions": [
             {
@@ -71,7 +73,8 @@
         "domain": "Society",
         "subcategory": "Culture",
         "pos_section": "Other_POS",
-        "sub_subcategory": "General_Culture"
+        "sub_subcategory": "General_Culture",
+        "word": "by contrast"
     }
 ];
     window.vocabularyData = window.vocabularyData || {};

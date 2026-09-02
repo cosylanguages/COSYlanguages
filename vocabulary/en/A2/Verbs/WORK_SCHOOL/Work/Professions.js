@@ -2,11 +2,11 @@
     const lang = "en";
     const data = [
     {
-        "id": "A2-VERB-WOR-01",
+        "id": "A2-VERB-WOR-007",
         "word": "accept",
-        "emoji": "✅",
+        "emoji": "\u2705",
         "form": "verb",
-        "transcription": "əkˈsept",
+        "transcription": "\u0259k\u02c8sept",
         "subtext": "agree to, take, receive",
         "synonyms": [
             "agree to",
@@ -45,11 +45,11 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-02",
+        "id": "A2-VERB-WOR-008",
         "word": "achieve",
-        "emoji": "🎯",
+        "emoji": "\ud83c\udfaf",
         "form": "verb",
-        "transcription": "əˈtʃiːv",
+        "transcription": "\u0259\u02c8t\u0283i\u02d0v",
         "subtext": "succeed, reach, accomplish",
         "synonyms": [
             "succeed",
@@ -89,9 +89,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-03",
+        "id": "A2-VERB-WOR-009",
         "word": "apply",
-        "emoji": "📝",
+        "emoji": "\ud83d\udcdd",
         "form": "verb",
         "subtext": "apply for a job / apply to university",
         "definitions": [
@@ -106,7 +106,7 @@
         "aspect": "action",
         "v2": "applied",
         "v3": "applied",
-        "transcription": "əˈplaɪ",
+        "transcription": "\u0259\u02c8pla\u026a",
         "synonyms": [
             "request"
         ],
@@ -130,9 +130,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-04",
+        "id": "A2-VERB-WOR-010",
         "word": "apply for",
-        "emoji": "📝",
+        "emoji": "\ud83d\udcdd",
         "form": "verb",
         "subtext": "apply for a job / apply for a position",
         "synonyms": [
@@ -150,7 +150,7 @@
         "aspect": "action",
         "v2": "applied for",
         "v3": "applied for",
-        "transcription": "əˈplaɪ fɔːr",
+        "transcription": "\u0259\u02c8pla\u026a f\u0254\u02d0r",
         "group": "regular",
         "auxiliary": "have",
         "v4": "apply foring",
@@ -166,9 +166,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-05",
+        "id": "A2-VERB-WOR-011",
         "word": "assist",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "form": "verb",
         "subtext": "help, support, aid",
         "synonyms": [
@@ -188,7 +188,7 @@
         "aspect": "action",
         "v2": "assisted",
         "v3": "assisted",
-        "transcription": "əˈsɪst",
+        "transcription": "\u0259\u02c8s\u026ast",
         "group": "regular",
         "auxiliary": "have",
         "v4": "assisting",
@@ -209,9 +209,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-06",
+        "id": "A2-VERB-WOR-012",
         "word": "build",
-        "emoji": "🏗️",
+        "emoji": "\ud83c\udfd7\ufe0f",
         "form": "verb",
         "subtext": "build a career / build a team / build experience / build trust",
         "definitions": [
@@ -227,7 +227,7 @@
         "aspect": "action",
         "v2": "built",
         "v3": "built",
-        "transcription": "bɪld",
+        "transcription": "b\u026ald",
         "group": "regular",
         "auxiliary": "have",
         "lang": "en",
@@ -242,9 +242,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-07",
+        "id": "A2-VERB-WOR-013",
         "word": "carry on",
-        "emoji": "⏩",
+        "emoji": "\u23e9",
         "form": "verb",
         "subtext": "carry on working / carry on regardless / carry on with something",
         "definitions": [
@@ -259,7 +259,7 @@
         "aspect": "action",
         "v2": "carried on",
         "v3": "carried on",
-        "transcription": "🇬🇧 ˈkæri ɒn | 🇺🇸 ˈkæri ɑːn",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8k\u00e6ri \u0252n | \ud83c\uddfa\ud83c\uddf8 \u02c8k\u00e6ri \u0251\u02d0n",
         "group": "regular",
         "auxiliary": "have",
         "v4": "carry oning",
@@ -275,9 +275,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-08",
+        "id": "A2-VERB-WOR-014",
         "word": "challenge",
-        "emoji": "🏔️",
+        "emoji": "\ud83c\udfd4\ufe0f",
         "form": "verb",
         "subtext": "challenge yourself / difficult challenge",
         "definitions": [
@@ -292,7 +292,7 @@
         "aspect": "action",
         "v2": "challenged",
         "v3": "challenged",
-        "transcription": "ˈtʃælɪndʒ",
+        "transcription": "\u02c8t\u0283\u00e6l\u026and\u0292",
         "group": "regular",
         "auxiliary": "have",
         "v4": "challenging",
@@ -308,9 +308,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-09",
+        "id": "A2-VERB-WOR-015",
         "word": "collaborate",
-        "emoji": "👥",
+        "emoji": "\ud83d\udc65",
         "form": "verb",
         "subtext": "collaborate with / collaborate on a project",
         "synonyms": [
@@ -328,7 +328,7 @@
         "aspect": "action",
         "v2": "collaborated",
         "v3": "collaborated",
-        "transcription": "kəˈlæbəreɪt",
+        "transcription": "k\u0259\u02c8l\u00e6b\u0259re\u026at",
         "group": "regular",
         "auxiliary": "have",
         "v4": "collaborating",
@@ -349,9 +349,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-10",
+        "id": "A2-VERB-WOR-016",
         "word": "contract",
-        "emoji": "📄",
+        "emoji": "\ud83d\udcc4",
         "form": "verb",
         "subtext": "contract with",
         "synonyms": [
@@ -369,7 +369,7 @@
         "aspect": "action",
         "v2": "contracted",
         "v3": "contracted",
-        "transcription": "🇬🇧 ˈkɒntrækt | 🇺🇸 ˈkɑːntrækt",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8k\u0252ntr\u00e6kt | \ud83c\uddfa\ud83c\uddf8 \u02c8k\u0251\u02d0ntr\u00e6kt",
         "group": "regular",
         "auxiliary": "have",
         "v4": "contracting",
@@ -385,9 +385,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-11",
+        "id": "A2-VERB-WOR-017",
         "word": "delegate",
-        "emoji": "📋",
+        "emoji": "\ud83d\udccb",
         "form": "verb",
         "subtext": "delegate a task / delegate responsibility / delegate to a colleague",
         "definitions": [
@@ -402,7 +402,7 @@
         "aspect": "action",
         "v2": "delegated",
         "v3": "delegated",
-        "transcription": "ˈdɛlɪɡeɪt",
+        "transcription": "\u02c8d\u025bl\u026a\u0261e\u026at",
         "group": "regular",
         "auxiliary": "have",
         "v4": "delegating",
@@ -418,9 +418,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-12",
+        "id": "A2-VERB-WOR-018",
         "word": "destroy",
-        "emoji": "💣",
+        "emoji": "\ud83d\udca3",
         "form": "verb",
         "subtext": "destroy a file / destroy completely",
         "synonyms": [
@@ -438,7 +438,7 @@
         "aspect": "action",
         "v2": "destroyed",
         "v3": "destroyed",
-        "transcription": "dɪˈstrɔɪ",
+        "transcription": "d\u026a\u02c8str\u0254\u026a",
         "group": "regular",
         "auxiliary": "have",
         "v4": "destroying",
@@ -454,9 +454,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-13",
+        "id": "A2-VERB-WOR-019",
         "word": "develop",
-        "emoji": "💻",
+        "emoji": "\ud83d\udcbb",
         "form": "verb",
         "subtext": "develop a product / develop a skill",
         "synonyms": [
@@ -475,7 +475,7 @@
         "aspect": "action",
         "v2": "developed",
         "v3": "developed",
-        "transcription": "dɪˈvɛləp",
+        "transcription": "d\u026a\u02c8v\u025bl\u0259p",
         "group": "regular",
         "auxiliary": "have",
         "v4": "developing",
@@ -491,9 +491,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-14",
+        "id": "A2-VERB-WOR-020",
         "word": "dismiss",
-        "emoji": "❌",
+        "emoji": "\u274c",
         "form": "verb",
         "subtext": "dismiss an employee",
         "synonyms": [
@@ -512,7 +512,7 @@
         "aspect": "action",
         "v2": "dismissed",
         "v3": "dismissed",
-        "transcription": "dɪsˈmɪs",
+        "transcription": "d\u026as\u02c8m\u026as",
         "group": "regular",
         "auxiliary": "have",
         "v4": "dismissing",
@@ -528,9 +528,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-15",
+        "id": "A2-VERB-WOR-021",
         "word": "dream",
-        "emoji": "💭",
+        "emoji": "\ud83d\udcad",
         "form": "verb",
         "subtext": "dream about / have a dream",
         "definitions": [
@@ -545,7 +545,7 @@
         "aspect": "action",
         "v2": "dreamed / dreamt",
         "v3": "dreamed / dreamt",
-        "transcription": "driːm",
+        "transcription": "dri\u02d0m",
         "synonyms": [
             "imagine"
         ],
@@ -563,9 +563,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-16",
+        "id": "A2-VERB-WOR-022",
         "word": "evaluate",
-        "emoji": "📊",
+        "emoji": "\ud83d\udcca",
         "form": "verb",
         "subtext": "evaluate performance / evaluate results / evaluate a proposal",
         "definitions": [
@@ -580,7 +580,7 @@
         "aspect": "action",
         "v2": "evaluated",
         "v3": "evaluated",
-        "transcription": "ɪˈvæljueɪt",
+        "transcription": "\u026a\u02c8v\u00e6ljue\u026at",
         "group": "regular",
         "auxiliary": "have",
         "v4": "evaluating",
@@ -596,9 +596,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-17",
+        "id": "A2-VERB-WOR-023",
         "word": "give up",
-        "emoji": "🏳️",
+        "emoji": "\ud83c\udff3\ufe0f",
         "form": "verb",
         "subtext": "give up a job / give up smoking / give up trying",
         "definitions": [
@@ -613,7 +613,7 @@
         "aspect": "action",
         "v2": "gave up",
         "v3": "given up",
-        "transcription": "ɡɪv ʌp",
+        "transcription": "\u0261\u026av \u028cp",
         "group": "regular",
         "auxiliary": "have",
         "lang": "en",
@@ -628,9 +628,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-18",
+        "id": "A2-VERB-WOR-024",
         "word": "hire",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "form": "verb",
         "subtext": "hire someone / hire a team / hire for a role",
         "definitions": [
@@ -645,7 +645,7 @@
         "aspect": "action",
         "v2": "hired",
         "v3": "hired",
-        "transcription": "ˈhaɪər",
+        "transcription": "\u02c8ha\u026a\u0259r",
         "synonyms": [
             "rent",
             "employ"
@@ -665,9 +665,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-19",
+        "id": "A2-VERB-WOR-025",
         "word": "improve",
-        "emoji": "📈",
+        "emoji": "\ud83d\udcc8",
         "form": "verb",
         "subtext": "improve performance, improve health, room for improvement",
         "synonyms": [
@@ -687,7 +687,7 @@
         "aspect": "action",
         "v2": "improved",
         "v3": "improved",
-        "transcription": "ɪmˈpruːv",
+        "transcription": "\u026am\u02c8pru\u02d0v",
         "group": "regular",
         "auxiliary": "have",
         "v4": "improving",
@@ -703,9 +703,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-20",
+        "id": "A2-VERB-WOR-026",
         "word": "interview",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "form": "verb",
         "subtext": "interview someone",
         "synonyms": [
@@ -723,7 +723,7 @@
         "aspect": "action",
         "v2": "interviewed",
         "v3": "interviewed",
-        "transcription": "ˈɪntərvjuː",
+        "transcription": "\u02c8\u026ant\u0259rvju\u02d0",
         "group": "regular",
         "auxiliary": "have",
         "v4": "interviewing",
@@ -739,9 +739,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-21",
+        "id": "A2-VERB-WOR-027",
         "word": "look for",
-        "emoji": "🔍",
+        "emoji": "\ud83d\udd0d",
         "form": "verb",
         "subtext": "look for a job / look for something / look for a solution",
         "definitions": [
@@ -756,7 +756,7 @@
         "aspect": "action",
         "v2": "looked for",
         "v3": "looked for",
-        "transcription": "lʊk fɔːr",
+        "transcription": "l\u028ak f\u0254\u02d0r",
         "group": "regular",
         "auxiliary": "have",
         "v4": "look foring",
@@ -772,9 +772,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-22",
+        "id": "A2-VERB-WOR-028",
         "word": "negotiate",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "form": "verb",
         "subtext": "negotiate a salary / negotiate terms / negotiate a deal",
         "definitions": [
@@ -789,7 +789,7 @@
         "aspect": "action",
         "v2": "negotiated",
         "v3": "negotiated",
-        "transcription": "nəˈɡoʊʃieɪt",
+        "transcription": "n\u0259\u02c8\u0261o\u028a\u0283ie\u026at",
         "synonyms": [
             "discuss"
         ],
@@ -808,9 +808,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-23",
+        "id": "A2-VERB-WOR-029",
         "word": "obtain",
-        "emoji": "📥",
+        "emoji": "\ud83d\udce5",
         "form": "verb",
         "definitions": [
             {
@@ -830,7 +830,7 @@
         "aspect": "action",
         "v2": "obtained",
         "v3": "obtained",
-        "transcription": "əbˈteɪn",
+        "transcription": "\u0259b\u02c8te\u026an",
         "group": "regular",
         "auxiliary": "have",
         "v4": "obtaining",
@@ -846,9 +846,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-24",
+        "id": "A2-VERB-WOR-030",
         "word": "operate",
-        "emoji": "⚙️",
+        "emoji": "\u2699\ufe0f",
         "form": "verb",
         "definitions": [
             {
@@ -868,7 +868,7 @@
         "aspect": "action",
         "v2": "operated",
         "v3": "operated",
-        "transcription": "🇬🇧 ˈɒpəreɪt | 🇺🇸 ˈɑːpəreɪt",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8\u0252p\u0259re\u026at | \ud83c\uddfa\ud83c\uddf8 \u02c8\u0251\u02d0p\u0259re\u026at",
         "group": "regular",
         "auxiliary": "have",
         "v4": "operating",
@@ -884,9 +884,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-25",
+        "id": "A2-VERB-WOR-031",
         "word": "organize",
-        "emoji": "📂",
+        "emoji": "\ud83d\udcc2",
         "form": "verb",
         "subtext": "organize a meeting / organize a trip",
         "synonyms": [
@@ -906,7 +906,7 @@
         "aspect": "action",
         "v2": "organized",
         "v3": "organized",
-        "transcription": "ˈɔːrɡənaɪz",
+        "transcription": "\u02c8\u0254\u02d0r\u0261\u0259na\u026az",
         "group": "regular",
         "auxiliary": "have",
         "v4": "organizing",
@@ -922,9 +922,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-26",
+        "id": "A2-VERB-WOR-032",
         "word": "produce",
-        "emoji": "🏭",
+        "emoji": "\ud83c\udfed",
         "form": "verb",
         "subtext": "produce energy, produce goods / produce results",
         "definitions": [
@@ -939,7 +939,7 @@
         "aspect": "action",
         "v2": "produced",
         "v3": "produced",
-        "transcription": "prəˈdjuːs",
+        "transcription": "pr\u0259\u02c8dju\u02d0s",
         "synonyms": [
             "make",
             "create"
@@ -959,9 +959,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-27",
+        "id": "A2-VERB-WOR-033",
         "word": "promote",
-        "emoji": "📈",
+        "emoji": "\ud83d\udcc8",
         "form": "verb",
         "subtext": "promote someone / promote from within",
         "synonyms": [
@@ -979,7 +979,7 @@
         "aspect": "action",
         "v2": "promoted",
         "v3": "promoted",
-        "transcription": "prəˈmoʊt",
+        "transcription": "pr\u0259\u02c8mo\u028at",
         "group": "regular",
         "auxiliary": "have",
         "v4": "promoting",
@@ -995,9 +995,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-28",
+        "id": "A2-VERB-WOR-034",
         "word": "provide",
-        "emoji": "🤲",
+        "emoji": "\ud83e\udd32",
         "form": "verb",
         "subtext": "provide support / provide information / provide a service",
         "definitions": [
@@ -1012,7 +1012,7 @@
         "aspect": "action",
         "v2": "provided",
         "v3": "provided",
-        "transcription": "prəˈvaɪd",
+        "transcription": "pr\u0259\u02c8va\u026ad",
         "synonyms": [
             "give",
             "supply"
@@ -1032,9 +1032,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-29",
+        "id": "A2-VERB-WOR-035",
         "word": "put off",
-        "emoji": "⏳",
+        "emoji": "\u23f3",
         "form": "verb",
         "subtext": "put off a meeting / put off a decision / stop putting things off",
         "definitions": [
@@ -1049,7 +1049,7 @@
         "aspect": "action",
         "v2": "put off",
         "v3": "put off",
-        "transcription": "🇬🇧 pʊt ɒf | 🇺🇸 pʊt ɑːf",
+        "transcription": "\ud83c\uddec\ud83c\udde7 p\u028at \u0252f | \ud83c\uddfa\ud83c\uddf8 p\u028at \u0251\u02d0f",
         "group": "regular",
         "auxiliary": "have",
         "lang": "en",
@@ -1064,9 +1064,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-30",
+        "id": "A2-VERB-WOR-036",
         "word": "reduce",
-        "emoji": "📉",
+        "emoji": "\ud83d\udcc9",
         "form": "verb",
         "subtext": "reduce costs / reduce stress / significantly reduce",
         "definitions": [
@@ -1081,7 +1081,7 @@
         "aspect": "action",
         "v2": "reduced",
         "v3": "reduced",
-        "transcription": "rɪˈdjuːs",
+        "transcription": "r\u026a\u02c8dju\u02d0s",
         "synonyms": [
             "decrease",
             "cut"
@@ -1101,9 +1101,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-31",
+        "id": "A2-VERB-WOR-037",
         "word": "refuse",
-        "emoji": "❌",
+        "emoji": "\u274c",
         "form": "verb",
         "subtext": "refuse an offer / refuse to do / refuse permission",
         "definitions": [
@@ -1118,7 +1118,7 @@
         "aspect": "action",
         "v2": "refused",
         "v3": "refused",
-        "transcription": "rɪˈfjuːz",
+        "transcription": "r\u026a\u02c8fju\u02d0z",
         "synonyms": [
             "say no",
             "reject"
@@ -1138,9 +1138,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-32",
+        "id": "A2-VERB-WOR-038",
         "word": "replace",
-        "emoji": "🔄",
+        "emoji": "\ud83d\udd04",
         "form": "verb",
         "subtext": "replace something / replace someone",
         "synonyms": [
@@ -1158,7 +1158,7 @@
         "aspect": "action",
         "v2": "replaced",
         "v3": "replaced",
-        "transcription": "rɪˈpleɪs",
+        "transcription": "r\u026a\u02c8ple\u026as",
         "group": "regular",
         "auxiliary": "have",
         "v4": "replacing",
@@ -1174,9 +1174,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-33",
+        "id": "A2-VERB-WOR-039",
         "word": "resign",
-        "emoji": "🚪",
+        "emoji": "\ud83d\udeaa",
         "form": "verb",
         "subtext": "resign from a job / resign formally / hand in your resignation",
         "definitions": [
@@ -1191,7 +1191,7 @@
         "aspect": "action",
         "v2": "resigned",
         "v3": "resigned",
-        "transcription": "rɪˈzaɪn",
+        "transcription": "r\u026a\u02c8za\u026an",
         "synonyms": [
             "quit",
             "leave"
@@ -1211,9 +1211,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-34",
+        "id": "A2-VERB-WOR-040",
         "word": "retire",
-        "emoji": "👴",
+        "emoji": "\ud83d\udc74",
         "form": "verb",
         "subtext": "retire from work, early retirement",
         "definitions": [
@@ -1228,7 +1228,7 @@
         "aspect": "action",
         "v2": "retired",
         "v3": "retired",
-        "transcription": "rɪˈtaɪər",
+        "transcription": "r\u026a\u02c8ta\u026a\u0259r",
         "synonyms": [
             "stop working"
         ],
@@ -1247,9 +1247,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-35",
+        "id": "A2-VERB-WOR-041",
         "word": "schedule",
-        "emoji": "📅",
+        "emoji": "\ud83d\udcc5",
         "form": "verb",
         "subtext": "schedule a meeting / schedule time / schedule a call",
         "definitions": [
@@ -1264,7 +1264,7 @@
         "aspect": "action",
         "v2": "scheduled",
         "v3": "scheduled",
-        "transcription": "ˈskɛdʒuːl",
+        "transcription": "\u02c8sk\u025bd\u0292u\u02d0l",
         "group": "regular",
         "auxiliary": "have",
         "v4": "scheduling",
@@ -1280,9 +1280,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-36",
+        "id": "A2-VERB-WOR-042",
         "word": "set up",
-        "emoji": "🏗️",
+        "emoji": "\ud83c\udfd7\ufe0f",
         "form": "verb",
         "subtext": "set up a business / set up a meeting / set up an account",
         "definitions": [
@@ -1297,7 +1297,7 @@
         "aspect": "action",
         "v2": "set up",
         "v3": "set up",
-        "transcription": "sɛt ʌp",
+        "transcription": "s\u025bt \u028cp",
         "group": "regular",
         "auxiliary": "have",
         "lang": "en",
@@ -1312,9 +1312,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-37",
+        "id": "A2-VERB-WOR-043",
         "word": "solve",
-        "emoji": "🧩",
+        "emoji": "\ud83e\udde9",
         "form": "verb",
         "subtext": "solve a problem / solve a riddle",
         "synonyms": [
@@ -1334,7 +1334,7 @@
         "aspect": "action",
         "v2": "solved",
         "v3": "solved",
-        "transcription": "🇬🇧 sɒlv | 🇺🇸 sɑːlv",
+        "transcription": "\ud83c\uddec\ud83c\udde7 s\u0252lv | \ud83c\uddfa\ud83c\uddf8 s\u0251\u02d0lv",
         "group": "regular",
         "auxiliary": "have",
         "v4": "solving",
@@ -1350,9 +1350,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-38",
+        "id": "A2-VERB-WOR-044",
         "word": "sort out",
-        "emoji": "🔧",
+        "emoji": "\ud83d\udd27",
         "form": "verb",
         "subtext": "sort out a problem / sort out a situation",
         "synonyms": [
@@ -1370,7 +1370,7 @@
         "aspect": "action",
         "v2": "sorted out",
         "v3": "sorted out",
-        "transcription": "sɔːrt aʊt",
+        "transcription": "s\u0254\u02d0rt a\u028at",
         "group": "regular",
         "auxiliary": "have",
         "v4": "sort outing",
@@ -1386,9 +1386,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-39",
+        "id": "A2-VERB-WOR-045",
         "word": "succeed",
-        "emoji": "🏆",
+        "emoji": "\ud83c\udfc6",
         "form": "verb",
         "subtext": "succeed in doing / succeed at something / succeed against the odds",
         "definitions": [
@@ -1403,7 +1403,7 @@
         "aspect": "action",
         "v2": "succeeded",
         "v3": "succeeded",
-        "transcription": "səkˈsiːd",
+        "transcription": "s\u0259k\u02c8si\u02d0d",
         "synonyms": [
             "win",
             "do well"
@@ -1423,9 +1423,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-40",
+        "id": "A2-VERB-WOR-046",
         "word": "take on",
-        "emoji": "💪",
+        "emoji": "\ud83d\udcaa",
         "form": "verb",
         "subtext": "take on responsibility / take on extra work / take on a project",
         "definitions": [
@@ -1440,7 +1440,7 @@
         "aspect": "action",
         "v2": "took on",
         "v3": "taken on",
-        "transcription": "🇬🇧 teɪk ɒn | 🇺🇸 teɪk ɑːn",
+        "transcription": "\ud83c\uddec\ud83c\udde7 te\u026ak \u0252n | \ud83c\uddfa\ud83c\uddf8 te\u026ak \u0251\u02d0n",
         "group": "regular",
         "auxiliary": "have",
         "lang": "en",
@@ -1455,9 +1455,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-VERB-WOR-41",
+        "id": "A2-VERB-WOR-047",
         "word": "turn down",
-        "emoji": "👎",
+        "emoji": "\ud83d\udc4e",
         "form": "verb",
         "subtext": "turn down an offer / turn down a job / turn down a request",
         "definitions": [
@@ -1472,7 +1472,7 @@
         "aspect": "action",
         "v2": "turned down",
         "v3": "turned down",
-        "transcription": "tɜːrn daʊn",
+        "transcription": "t\u025c\u02d0rn da\u028an",
         "group": "regular",
         "auxiliary": "have",
         "v4": "turn downing",

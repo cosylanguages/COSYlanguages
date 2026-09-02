@@ -2,12 +2,12 @@
     const lang = "en";
     const data = [
     {
-        "id": "C1-VERB-SOC-01",
+        "id": "C1-VERB-SOC-001",
         "word": "abolish",
-        "emoji": "🚫",
+        "emoji": "\ud83d\udeab",
         "subtext": "abolish a law / abolish the death penalty / be abolished",
         "form": "verb",
-        "transcription": "🇬🇧 əˈbɒlɪʃ | 🇺🇸 əˈbɑːlɪʃ",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u0259\u02c8b\u0252l\u026a\u0283 | \ud83c\uddfa\ud83c\uddf8 \u0259\u02c8b\u0251\u02d0l\u026a\u0283",
         "definitions": [
             {
                 "text": "To formally put an end to a law, system or institution.",
@@ -35,12 +35,12 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "C1-VERB-SOC-02",
+        "id": "C1-VERB-SOC-002",
         "word": "advocate",
-        "emoji": "📢",
+        "emoji": "\ud83d\udce2",
         "subtext": "advocate for / advocate a position / be an advocate of",
         "form": "verb",
-        "transcription": "ˈædvəkeɪt",
+        "transcription": "\u02c8\u00e6dv\u0259ke\u026at",
         "definitions": [
             {
                 "text": "To publicly support or recommend a policy or cause.",
@@ -68,12 +68,12 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "C1-VERB-SOC-03",
+        "id": "C1-VERB-SOC-003",
         "word": "allocate",
-        "emoji": "💰",
+        "emoji": "\ud83d\udcb0",
         "subtext": "allocate resources / allocate funding / be allocated to",
         "form": "verb",
-        "transcription": "ˈæləkeɪt",
+        "transcription": "\u02c8\u00e6l\u0259ke\u026at",
         "definitions": [
             {
                 "text": "To decide that something is to be used for a purpose.",
@@ -101,12 +101,12 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "C1-VERB-SOC-04",
+        "id": "C1-VERB-SOC-004",
         "word": "amend",
-        "emoji": "📝",
+        "emoji": "\ud83d\udcdd",
         "subtext": "amend a law / amend a contract / propose an amendment",
         "form": "verb",
-        "transcription": "əˈmend",
+        "transcription": "\u0259\u02c8mend",
         "definitions": [
             {
                 "text": "To change a law, document or statement slightly.",
@@ -134,12 +134,12 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "C1-VERB-SOC-05",
+        "id": "C1-VERB-SOC-005",
         "word": "co-opt",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "subtext": "co-opt a movement / co-opt language / be co-opted by",
         "form": "verb",
-        "transcription": "🇬🇧 kəʊˈɒpt | 🇺🇸 koʊˈɑːpt",
+        "transcription": "\ud83c\uddec\ud83c\udde7 k\u0259\u028a\u02c8\u0252pt | \ud83c\uddfa\ud83c\uddf8 ko\u028a\u02c8\u0251\u02d0pt",
         "definitions": [
             {
                 "text": "To absorb someone or something into a group, often to neutralise opposition.",
@@ -167,12 +167,12 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "C1-VERB-SOC-06",
+        "id": "C1-VERB-SOC-006",
         "word": "coerce",
-        "emoji": "⛓️",
+        "emoji": "\u26d3\ufe0f",
         "subtext": "coerce someone into / coercive pressure / coerce compliance",
         "form": "verb",
-        "transcription": "🇬🇧 kəʊˈɜːs | 🇺🇸 koʊˈɜːs",
+        "transcription": "\ud83c\uddec\ud83c\udde7 k\u0259\u028a\u02c8\u025c\u02d0s | \ud83c\uddfa\ud83c\uddf8 ko\u028a\u02c8\u025c\u02d0s",
         "definitions": [
             {
                 "text": "To force someone to do something by using threats or pressure.",
@@ -200,12 +200,12 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "C1-VERB-SOC-07",
+        "id": "C1-VERB-SOC-007",
         "word": "commission",
-        "emoji": "📜",
+        "emoji": "\ud83d\udcdc",
         "subtext": "commission a report / commission research / be commissioned to",
         "form": "verb",
-        "transcription": "kəˈmɪʃn",
+        "transcription": "k\u0259\u02c8m\u026a\u0283n",
         "definitions": [
             {
                 "text": "To formally order or authorise someone to produce something.",
@@ -233,12 +233,12 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "C1-VERB-SOC-08",
+        "id": "C1-VERB-SOC-008",
         "word": "compel",
-        "emoji": "⚖️",
+        "emoji": "\u2696\ufe0f",
         "subtext": "compel someone to / feel compelled / compelling evidence",
         "form": "verb",
-        "transcription": "kəmˈpel",
+        "transcription": "k\u0259m\u02c8pel",
         "definitions": [
             {
                 "text": "To force someone to do something.",
@@ -266,12 +266,12 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "C1-VERB-SOC-09",
+        "id": "C1-VERB-SOC-009",
         "word": "consolidate",
-        "emoji": "🧱",
+        "emoji": "\ud83e\uddf1",
         "subtext": "consolidate power / consolidate a position / consolidate gains",
         "form": "verb",
-        "transcription": "🇬🇧 kənˈsɒlɪdeɪt | 🇺🇸 kənˈsɑːlɪdeɪt",
+        "transcription": "\ud83c\uddec\ud83c\udde7 k\u0259n\u02c8s\u0252l\u026ade\u026at | \ud83c\uddfa\ud83c\uddf8 k\u0259n\u02c8s\u0251\u02d0l\u026ade\u026at",
         "definitions": [
             {
                 "text": "To combine things to make them stronger or more secure.",
@@ -299,12 +299,12 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "C1-VERB-SOC-10",
+        "id": "C1-VERB-SOC-010",
         "word": "denounce",
-        "emoji": "👎",
+        "emoji": "\ud83d\udc4e",
         "subtext": "denounce something / publicly denounce / denounce as unacceptable",
         "form": "verb",
-        "transcription": "dɪˈnaʊns",
+        "transcription": "d\u026a\u02c8na\u028ans",
         "definitions": [
             {
                 "text": "To publicly criticise or condemn something.",
@@ -332,12 +332,12 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "C1-VERB-SOC-11",
+        "id": "C1-VERB-SOC-011",
         "word": "endorse",
-        "emoji": "👍",
+        "emoji": "\ud83d\udc4d",
         "subtext": "endorse a position / endorse a candidate / officially endorse",
         "form": "verb",
-        "transcription": "ɪnˈdɔːs",
+        "transcription": "\u026an\u02c8d\u0254\u02d0s",
         "definitions": [
             {
                 "text": "To officially approve or support something.",
@@ -365,12 +365,12 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "C1-VERB-SOC-12",
+        "id": "C1-VERB-SOC-012",
         "word": "exert",
-        "emoji": "💪",
+        "emoji": "\ud83d\udcaa",
         "subtext": "exert pressure / exert influence / exert control",
         "form": "verb",
-        "transcription": "ɪɡˈzɜːt",
+        "transcription": "\u026a\u0261\u02c8z\u025c\u02d0t",
         "definitions": [
             {
                 "text": "To apply force, influence or pressure.",
@@ -398,12 +398,12 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "C1-VERB-SOC-13",
+        "id": "C1-VERB-SOC-013",
         "word": "legitimise",
-        "emoji": "✅",
+        "emoji": "\u2705",
         "subtext": "legitimise a position / legitimise violence / lend legitimacy",
         "form": "verb",
-        "transcription": "lɪˈdʒɪtɪmaɪz",
+        "transcription": "l\u026a\u02c8d\u0292\u026at\u026ama\u026az",
         "definitions": [
             {
                 "text": "To make something appear acceptable or lawful.",
@@ -431,12 +431,12 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "C1-VERB-SOC-14",
+        "id": "C1-VERB-SOC-014",
         "word": "manipulate",
-        "emoji": "🕹️",
+        "emoji": "\ud83d\udd79\ufe0f",
         "subtext": "manipulate data / manipulate someone / feel manipulated",
         "form": "verb",
-        "transcription": "məˈnɪpjuleɪt",
+        "transcription": "m\u0259\u02c8n\u026apjule\u026at",
         "definitions": [
             {
                 "text": "To control someone or something cleverly and dishonestly.",
@@ -464,12 +464,12 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "C1-VERB-SOC-15",
+        "id": "C1-VERB-SOC-015",
         "word": "undermine",
-        "emoji": "⛏️",
+        "emoji": "\u26cf\ufe0f",
         "subtext": "undermine confidence / undermine authority / undermine a position",
         "form": "verb",
-        "transcription": "ˌʌndəˈmaɪn",
+        "transcription": "\u02cc\u028cnd\u0259\u02c8ma\u026an",
         "definitions": [
             {
                 "text": "To weaken or damage something gradually or insidiously.",

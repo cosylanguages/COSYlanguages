@@ -2,11 +2,11 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-OTH-SEL-01",
+        "id": "A1-OTH-SEL-001",
         "word": "his",
-        "emoji": "👨",
+        "emoji": "\ud83d\udc68",
         "form": "determiner",
-        "transcription": "hɪz",
+        "transcription": "h\u026az",
         "definitions": [
             {
                 "text": "Belonging to him.",
@@ -32,11 +32,11 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-OTH-SEL-02",
+        "id": "A1-OTH-SEL-002",
         "word": "its",
-        "emoji": "📦",
+        "emoji": "\ud83d\udce6",
         "form": "determiner",
-        "transcription": "ɪts",
+        "transcription": "\u026ats",
         "definitions": [
             {
                 "text": "Belonging to it.",
@@ -59,11 +59,11 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-OTH-SEL-03",
+        "id": "A1-OTH-SEL-003",
         "word": "my",
-        "emoji": "🙋",
+        "emoji": "\ud83d\ude4b",
         "form": "determiner",
-        "transcription": "maɪ",
+        "transcription": "ma\u026a",
         "definitions": [
             {
                 "text": "Belonging to me.",
@@ -86,11 +86,11 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-OTH-SEL-04",
+        "id": "A1-OTH-SEL-004",
         "word": "our",
-        "emoji": "👥",
+        "emoji": "\ud83d\udc65",
         "form": "determiner",
-        "transcription": "ˈaʊə(r)",
+        "transcription": "\u02c8a\u028a\u0259(r)",
         "definitions": [
             {
                 "text": "Belonging to us.",
@@ -116,11 +116,11 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-OTH-SEL-05",
+        "id": "A1-OTH-SEL-005",
         "word": "their",
-        "emoji": "👥",
+        "emoji": "\ud83d\udc65",
         "form": "determiner",
-        "transcription": "ðeə(r)",
+        "transcription": "\u00f0e\u0259(r)",
         "definitions": [
             {
                 "text": "Belonging to them.",
@@ -146,11 +146,11 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-OTH-SEL-06",
+        "id": "A1-OTH-SEL-006",
         "word": "your",
-        "emoji": "🫵",
+        "emoji": "\ud83e\udef5",
         "form": "determiner",
-        "transcription": "jɔː(r)",
+        "transcription": "j\u0254\u02d0(r)",
         "definitions": [
             {
                 "text": "Belonging to you.",

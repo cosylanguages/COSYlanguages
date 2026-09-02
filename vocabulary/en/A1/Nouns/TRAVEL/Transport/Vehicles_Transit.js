@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-TRA-01",
+        "id": "A1-NOUN-TRA-048",
         "word": "bicycle",
-        "emoji": "🚲",
+        "emoji": "\ud83d\udeb2",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
                 ]
             }
         ],
-        "transcription": "ˈbaɪsɪkəl",
+        "transcription": "\u02c8ba\u026as\u026ak\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -31,9 +31,9 @@
         "sub_subcategory": "Vehicles_Transit"
     },
     {
-        "id": "A1-NOUN-TRA-02",
+        "id": "A1-NOUN-TRA-049",
         "word": "bike",
-        "emoji": "🚲",
+        "emoji": "\ud83d\udeb2",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -47,7 +47,7 @@
                 ]
             }
         ],
-        "transcription": "baɪk",
+        "transcription": "ba\u026ak",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -60,9 +60,9 @@
         "sub_subcategory": "Vehicles_Transit"
     },
     {
-        "id": "A1-NOUN-TRA-03",
+        "id": "A1-NOUN-TRA-050",
         "word": "boat",
-        "emoji": "⛵",
+        "emoji": "\u26f5",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -76,7 +76,7 @@
             }
         ],
         "subtext": "related to modes of transport",
-        "transcription": "boʊt",
+        "transcription": "bo\u028at",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -89,9 +89,9 @@
         "sub_subcategory": "Vehicles_Transit"
     },
     {
-        "id": "A1-NOUN-TRA-04",
+        "id": "A1-NOUN-TRA-051",
         "word": "bus",
-        "emoji": "🚌",
+        "emoji": "\ud83d\ude8c",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -105,7 +105,7 @@
                 ]
             }
         ],
-        "transcription": "bəs",
+        "transcription": "b\u0259s",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -118,9 +118,9 @@
         "sub_subcategory": "Vehicles_Transit"
     },
     {
-        "id": "A1-NOUN-TRA-05",
+        "id": "A1-NOUN-TRA-052",
         "word": "car",
-        "emoji": "🚗",
+        "emoji": "\ud83d\ude97",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -134,7 +134,7 @@
                 ]
             }
         ],
-        "transcription": "kɑr",
+        "transcription": "k\u0251r",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -147,9 +147,9 @@
         "sub_subcategory": "Vehicles_Transit"
     },
     {
-        "id": "A1-NOUN-TRA-06",
+        "id": "A1-NOUN-TRA-053",
         "word": "motorbike",
-        "emoji": "🏍️",
+        "emoji": "\ud83c\udfcd\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -163,7 +163,7 @@
             }
         ],
         "subtext": "related to modes of transport",
-        "transcription": "ˈmoʊtərˌbaɪk",
+        "transcription": "\u02c8mo\u028at\u0259r\u02ccba\u026ak",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -176,9 +176,9 @@
         "sub_subcategory": "Vehicles_Transit"
     },
     {
-        "id": "A1-NOUN-TRA-07",
+        "id": "A1-NOUN-TRA-054",
         "word": "plane",
-        "emoji": "✈️",
+        "emoji": "\u2708\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -192,7 +192,7 @@
                 ]
             }
         ],
-        "transcription": "pleɪn",
+        "transcription": "ple\u026an",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -205,9 +205,9 @@
         "sub_subcategory": "Vehicles_Transit"
     },
     {
-        "id": "A1-NOUN-TRA-08",
+        "id": "A1-NOUN-TRA-055",
         "word": "scooter",
-        "emoji": "🛴",
+        "emoji": "\ud83d\udef4",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -221,7 +221,7 @@
             }
         ],
         "subtext": "related to modes of transport",
-        "transcription": "ˈskutər",
+        "transcription": "\u02c8skut\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -234,9 +234,9 @@
         "sub_subcategory": "Vehicles_Transit"
     },
     {
-        "id": "A1-NOUN-TRA-09",
+        "id": "A1-NOUN-TRA-056",
         "word": "taxi",
-        "emoji": "🚕",
+        "emoji": "\ud83d\ude95",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -250,7 +250,7 @@
             }
         ],
         "subtext": "related to modes of transport",
-        "transcription": "ˈtæksi",
+        "transcription": "\u02c8t\u00e6ksi",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -263,9 +263,9 @@
         "sub_subcategory": "Vehicles_Transit"
     },
     {
-        "id": "A1-NOUN-TRA-10",
+        "id": "A1-NOUN-TRA-057",
         "word": "train",
-        "emoji": "🚆",
+        "emoji": "\ud83d\ude86",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -279,7 +279,7 @@
                 ]
             }
         ],
-        "transcription": "treɪn",
+        "transcription": "tre\u026an",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",
@@ -292,16 +292,16 @@
         "sub_subcategory": "Vehicles_Transit"
     },
     {
-        "id": "A1-NOUN-TRA-11",
+        "id": "A1-NOUN-TRA-058",
         "word": "truck",
-        "emoji": "🚚",
+        "emoji": "\ud83d\ude9a",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
         "plural": "trucks",
         "subtext": "related to modes of transport",
         "synonyms": [
-            "🇬🇧 lorry"
+            "\ud83c\uddec\ud83c\udde7 lorry"
         ],
         "definitions": [
             {
@@ -311,7 +311,7 @@
                 ]
             }
         ],
-        "transcription": "trək",
+        "transcription": "tr\u0259k",
         "lang": "en",
         "level": "starter",
         "theme": "modes_of_transport",

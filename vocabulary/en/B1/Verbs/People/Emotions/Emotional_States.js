@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "B1-VERB-PEO-01",
+        "id": "B1-VERB-PEO-001",
         "word": "worry",
         "lang": "en",
         "level": "intermediate",
@@ -16,8 +16,8 @@
                 ]
             }
         ],
-        "transcription": "ˈwʌri",
-        "emoji": "😟",
+        "transcription": "\u02c8w\u028cri",
+        "emoji": "\ud83d\ude1f",
         "_legacy": {
             "subtext": "worry about / stop worrying / cause worry",
             "classification": "regular",

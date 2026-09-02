@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-SEL-01",
+        "id": "A1-VERB-SEL-032",
         "word": "cough",
-        "emoji": "😷",
+        "emoji": "\ud83d\ude37",
         "form": "verb",
         "definitions": [
             {
@@ -20,7 +20,7 @@
         "v3": "coughed",
         "group": "regular",
         "subtext": "have a cough",
-        "transcription": "kɔf",
+        "transcription": "k\u0254f",
         "lang": "en",
         "level": "starter",
         "theme": "health_medicine",
@@ -33,9 +33,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-VERB-SEL-02",
+        "id": "A1-VERB-SEL-033",
         "word": "cough",
-        "emoji": "😷",
+        "emoji": "\ud83d\ude37",
         "form": "verb",
         "definitions": [
             {
@@ -51,7 +51,7 @@
         "v3": "coughed",
         "group": "regular",
         "subtext": "have a cough",
-        "transcription": "kɔf",
+        "transcription": "k\u0254f",
         "auxiliary": "have",
         "v4": "coughing",
         "lang": "en",
@@ -66,9 +66,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-VERB-SEL-03",
+        "id": "A1-VERB-SEL-034",
         "word": "cry",
-        "emoji": "😢",
+        "emoji": "\ud83d\ude22",
         "subtext": "cry for help / cry out / cry about something",
         "synonyms": [
             "start crying"
@@ -88,7 +88,7 @@
         "v2": "cried",
         "v3": "cried",
         "group": "regular",
-        "transcription": "kraɪ",
+        "transcription": "kra\u026a",
         "auxiliary": "have",
         "v4": "crying",
         "lang": "en",
@@ -106,9 +106,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-VERB-SEL-04",
+        "id": "A1-VERB-SEL-035",
         "word": "die",
-        "emoji": "⚰️",
+        "emoji": "\u26b0\ufe0f",
         "subtext": "die of / die for / die from / die out",
         "form": "verb",
         "definitions": [
@@ -124,7 +124,7 @@
         "v2": "died",
         "v3": "died",
         "group": "regular",
-        "transcription": "daɪ",
+        "transcription": "da\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "health_medicine",
@@ -140,9 +140,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-VERB-SEL-05",
+        "id": "A1-VERB-SEL-036",
         "word": "die",
-        "emoji": "⚰️",
+        "emoji": "\u26b0\ufe0f",
         "subtext": "die of / die for / die from / die out",
         "form": "verb",
         "definitions": [
@@ -158,7 +158,7 @@
         "v2": "died",
         "v3": "died",
         "group": "regular",
-        "transcription": "daɪ",
+        "transcription": "da\u026a",
         "auxiliary": "have",
         "v4": "diing",
         "lang": "en",
@@ -176,12 +176,12 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-VERB-SEL-06",
+        "id": "A1-VERB-SEL-037",
         "word": "feel",
-        "emoji": "🌡️",
+        "emoji": "\ud83c\udf21\ufe0f",
         "subtext": "feel tired / feel better / feel ill / feel stressed",
         "form": "verb",
-        "transcription": "fiːl",
+        "transcription": "fi\u02d0l",
         "definitions": [
             {
                 "text": "To experience a physical or emotional state.",
@@ -210,12 +210,12 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-VERB-SEL-07",
+        "id": "A1-VERB-SEL-038",
         "word": "feel",
-        "emoji": "🌡️",
+        "emoji": "\ud83c\udf21\ufe0f",
         "subtext": "feel tired / feel better / feel ill / feel stressed",
         "form": "verb",
-        "transcription": "fiːl",
+        "transcription": "fi\u02d0l",
         "definitions": [
             {
                 "text": "To experience a physical or emotional state.",
@@ -245,7 +245,7 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-VERB-SEL-08",
+        "id": "A1-VERB-SEL-039",
         "word": "hurt",
         "definitions": [
             {
@@ -260,10 +260,10 @@
         "aspect": "both",
         "v2": "hurt",
         "v3": "hurt",
-        "emoji": "🤕",
+        "emoji": "\ud83e\udd15",
         "form": "verb",
         "group": "irregular",
-        "transcription": "hərt",
+        "transcription": "h\u0259rt",
         "lang": "en",
         "level": "starter",
         "theme": "health_medicine",
@@ -279,7 +279,7 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-VERB-SEL-09",
+        "id": "A1-VERB-SEL-040",
         "word": "hurt",
         "definitions": [
             {
@@ -294,10 +294,10 @@
         "aspect": "both",
         "v2": "hurt",
         "v3": "hurt",
-        "emoji": "🤕",
+        "emoji": "\ud83e\udd15",
         "form": "verb",
         "group": "regular",
-        "transcription": "hərt",
+        "transcription": "h\u0259rt",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -314,9 +314,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-VERB-SEL-10",
+        "id": "A1-VERB-SEL-041",
         "word": "sneeze",
-        "emoji": "🤧",
+        "emoji": "\ud83e\udd27",
         "form": "verb",
         "definitions": [
             {
@@ -348,9 +348,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-VERB-SEL-11",
+        "id": "A1-VERB-SEL-042",
         "word": "sneeze",
-        "emoji": "🤧",
+        "emoji": "\ud83e\udd27",
         "form": "verb",
         "definitions": [
             {
@@ -384,9 +384,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-VERB-SEL-12",
+        "id": "A1-VERB-SEL-043",
         "word": "touch",
-        "emoji": "🫱",
+        "emoji": "\ud83e\udef1",
         "form": "verb",
         "subtext": "don't touch / touch screen",
         "synonyms": [
@@ -405,7 +405,7 @@
         "v2": "touched",
         "v3": "touched",
         "group": "regular",
-        "transcription": "təʧ",
+        "transcription": "t\u0259\u02a7",
         "lang": "en",
         "level": "starter",
         "theme": "five_senses",
@@ -418,9 +418,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-VERB-SEL-13",
+        "id": "A1-VERB-SEL-044",
         "word": "touch",
-        "emoji": "🫱",
+        "emoji": "\ud83e\udef1",
         "form": "verb",
         "subtext": "don't touch / touch screen",
         "synonyms": [
@@ -439,7 +439,7 @@
         "v2": "touched",
         "v3": "touched",
         "group": "regular",
-        "transcription": "təʧ",
+        "transcription": "t\u0259\u02a7",
         "auxiliary": "have",
         "v4": "touching",
         "lang": "en",

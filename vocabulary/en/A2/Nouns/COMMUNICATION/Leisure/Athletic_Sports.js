@@ -5,7 +5,7 @@
         "word": "workout",
         "level": "elementary",
         "theme": "sports",
-        "emoji": "💪",
+        "emoji": "\ud83d\udcaa",
         "form": "noun",
         "classification": "regular",
         "definitions": [
@@ -23,10 +23,10 @@
             "training"
         ],
         "countability": "countable",
-        "transcription": "ˈwɜːrkaʊt",
+        "transcription": "\u02c8w\u025c\u02d0rka\u028at",
         "language": "en",
         "lang": "en",
-        "id": "A2-NOUN-COM-01",
+        "id": "A2-NOUN-COM-001",
         "legacy_id": "A2-COMM-03",
         "level_code": "A2",
         "domain": "COMMUNICATION",
@@ -38,7 +38,7 @@
         "word": "yoga",
         "level": "elementary",
         "theme": "sports",
-        "emoji": "🧘",
+        "emoji": "\ud83e\uddd8",
         "form": "noun",
         "classification": "regular",
         "definitions": [
@@ -55,10 +55,10 @@
             "stretching exercise"
         ],
         "countability": "uncountable",
-        "transcription": "ˈjoʊɡə",
+        "transcription": "\u02c8jo\u028a\u0261\u0259",
         "language": "en",
         "lang": "en",
-        "id": "A2-NOUN-COM-02",
+        "id": "A2-NOUN-COM-002",
         "legacy_id": "A2-COMM-04",
         "level_code": "A2",
         "domain": "COMMUNICATION",

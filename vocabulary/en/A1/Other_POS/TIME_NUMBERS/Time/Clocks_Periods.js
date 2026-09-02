@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-OTH-TIM-01",
+        "id": "A1-OTH-TIM-001",
         "word": "about",
         "form": "preposition",
         "definitions": [
@@ -14,8 +14,8 @@
                 ]
             }
         ],
-        "emoji": "📖",
-        "transcription": "əˈbaʊt",
+        "emoji": "\ud83d\udcd6",
+        "transcription": "\u0259\u02c8ba\u028at",
         "subtext": "about",
         "lang": "en",
         "level": "starter",
@@ -29,7 +29,7 @@
         "sub_subcategory": "Clocks_Periods"
     },
     {
-        "id": "A1-OTH-TIM-02",
+        "id": "A1-OTH-TIM-002",
         "word": "after",
         "form": "preposition",
         "definitions": [
@@ -41,8 +41,8 @@
             }
         ],
         "subtext": "related to prepositions time",
-        "emoji": "⏭️",
-        "transcription": "ˈæftər",
+        "emoji": "\u23ed\ufe0f",
+        "transcription": "\u02c8\u00e6ft\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -58,7 +58,7 @@
         "sub_subcategory": "Clocks_Periods"
     },
     {
-        "id": "A1-OTH-TIM-03",
+        "id": "A1-OTH-TIM-003",
         "word": "before",
         "form": "preposition",
         "definitions": [
@@ -70,8 +70,8 @@
             }
         ],
         "subtext": "related to prepositions time",
-        "emoji": "⏮️",
-        "transcription": "ˌbiˈfɔr",
+        "emoji": "\u23ee\ufe0f",
+        "transcription": "\u02ccbi\u02c8f\u0254r",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -87,7 +87,7 @@
         "sub_subcategory": "Clocks_Periods"
     },
     {
-        "id": "A1-OTH-TIM-04",
+        "id": "A1-OTH-TIM-004",
         "word": "during",
         "form": "preposition",
         "definitions": [
@@ -99,8 +99,8 @@
             }
         ],
         "subtext": "related to prepositions time",
-        "emoji": "⌛",
-        "transcription": "ˈdʊrɪŋ",
+        "emoji": "\u231b",
+        "transcription": "\u02c8d\u028ar\u026a\u014b",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -113,7 +113,7 @@
         "sub_subcategory": "Clocks_Periods"
     },
     {
-        "id": "A1-OTH-TIM-05",
+        "id": "A1-OTH-TIM-005",
         "word": "for",
         "form": "preposition",
         "definitions": [
@@ -125,8 +125,8 @@
             }
         ],
         "subtext": "related to prepositions time",
-        "emoji": "🎁",
-        "transcription": "fər",
+        "emoji": "\ud83c\udf81",
+        "transcription": "f\u0259r",
         "lang": "en",
         "level": "starter",
         "theme": "time",

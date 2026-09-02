@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-ADJ-TRA-01",
+        "id": "A1-ADJ-TRA-005",
         "word": "close",
-        "emoji": "📍",
+        "emoji": "\ud83d\udccd",
         "form": "adjective",
         "definitions": [
             {
@@ -20,7 +20,7 @@
         ],
         "comparative": "closer",
         "superlative": "the closest",
-        "transcription": "kloʊz",
+        "transcription": "klo\u028az",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -36,9 +36,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-ADJ-TRA-02",
+        "id": "A1-ADJ-TRA-006",
         "word": "close",
-        "emoji": "📍",
+        "emoji": "\ud83d\udccd",
         "form": "adjective",
         "definitions": [
             {
@@ -54,7 +54,7 @@
         ],
         "comparative": "closer",
         "superlative": "the closest",
-        "transcription": "kloʊz",
+        "transcription": "klo\u028az",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -70,7 +70,7 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-ADJ-TRA-03",
+        "id": "A1-ADJ-TRA-007",
         "word": "far",
         "form": "adjective",
         "subtext": "far away / far from",
@@ -87,8 +87,8 @@
         ],
         "comparative": "farther",
         "superlative": "the farthest",
-        "emoji": "🔭",
-        "transcription": "fɑr",
+        "emoji": "\ud83d\udd2d",
+        "transcription": "f\u0251r",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -104,7 +104,7 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-ADJ-TRA-04",
+        "id": "A1-ADJ-TRA-008",
         "word": "far",
         "form": "adjective",
         "subtext": "far away / far from",
@@ -121,8 +121,8 @@
         ],
         "comparative": "farther",
         "superlative": "the farthest",
-        "emoji": "🔭",
-        "transcription": "fɑr",
+        "emoji": "\ud83d\udd2d",
+        "transcription": "f\u0251r",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -138,7 +138,7 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-ADJ-TRA-05",
+        "id": "A1-ADJ-TRA-009",
         "word": "near",
         "form": "adjective",
         "subtext": "near here / near the station",
@@ -155,8 +155,8 @@
         ],
         "comparative": "nearer",
         "superlative": "the nearest",
-        "emoji": "📍",
-        "transcription": "nɪr",
+        "emoji": "\ud83d\udccd",
+        "transcription": "n\u026ar",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -172,7 +172,7 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-ADJ-TRA-06",
+        "id": "A1-ADJ-TRA-010",
         "word": "near",
         "form": "adjective",
         "subtext": "near here / near the station",
@@ -189,8 +189,8 @@
         ],
         "comparative": "nearer",
         "superlative": "the nearest",
-        "emoji": "📍",
-        "transcription": "nɪr",
+        "emoji": "\ud83d\udccd",
+        "transcription": "n\u026ar",
         "lang": "en",
         "level": "starter",
         "theme": "travel",

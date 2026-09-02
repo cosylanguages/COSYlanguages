@@ -2,11 +2,11 @@
     const lang = "en";
     const data = [
     {
-        "id": "B2-ADJ-PEO-01",
+        "id": "B2-ADJ-PEO-019",
         "word": "sympathetic",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "form": "adjective",
-        "transcription": "ˌsɪmpəˈθɛtɪk",
+        "transcription": "\u02ccs\u026amp\u0259\u02c8\u03b8\u025bt\u026ak",
         "subtext": "Neutral | very sympathetic / quite sympathetic / a sympathetic ear",
         "definitions": [
             {

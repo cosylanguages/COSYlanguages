@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-TRA-01",
+        "id": "A1-VERB-TRA-003",
         "word": "there",
-        "emoji": "👉",
+        "emoji": "\ud83d\udc49",
         "form": "adverb",
         "definitions": [
             {
@@ -15,7 +15,7 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "transcription": "ðɛr",
+        "transcription": "\u00f0\u025br",
         "lang": "en",
         "level": "starter",
         "theme": "prepositions_place",

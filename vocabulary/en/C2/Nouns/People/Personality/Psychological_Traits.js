@@ -2,15 +2,15 @@
     const lang = "en";
     const data = [
     {
-        "id": "C2-NOUN-PEO-01",
+        "id": "C2-NOUN-PEO-001",
         "word": "apophenia",
         "lang": "en",
         "level": "proficiency",
         "theme": "psychology",
-        "emoji": "🕸️",
+        "emoji": "\ud83d\udd78\ufe0f",
         "form": "noun",
         "classification": "regular",
-        "transcription": "ˌæpəˈfiːniə",
+        "transcription": "\u02cc\u00e6p\u0259\u02c8fi\u02d0ni\u0259",
         "definitions": [
             {
                 "text": "The tendency to perceive meaningful connections between unrelated things.",
@@ -29,14 +29,14 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "C2-NOUN-PEO-02",
+        "id": "C2-NOUN-PEO-002",
         "word": "bad faith",
         "lang": "en",
         "level": "proficiency",
         "theme": "psychology",
-        "emoji": "🎭",
+        "emoji": "\ud83c\udfad",
         "form": "noun phrase",
-        "transcription": "bæd feɪθ",
+        "transcription": "b\u00e6d fe\u026a\u03b8",
         "definitions": [
             {
                 "text": "In Sartrean existentialism, self-deception about one's freedom and responsibility.",
@@ -54,15 +54,15 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "C2-NOUN-PEO-03",
+        "id": "C2-NOUN-PEO-003",
         "word": "displacement",
         "lang": "en",
         "level": "proficiency",
         "theme": "psychology",
-        "emoji": "🏹",
+        "emoji": "\ud83c\udff9",
         "form": "noun",
         "classification": "regular",
-        "transcription": "dɪsˈpleɪsmənt",
+        "transcription": "d\u026as\u02c8ple\u026asm\u0259nt",
         "definitions": [
             {
                 "text": "The unconscious shifting of feelings from one object to a safer one.",
@@ -81,12 +81,12 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "C2-NOUN-PEO-04",
+        "id": "C2-NOUN-PEO-004",
         "word": "existentialism",
         "lang": "en",
         "level": "proficiency",
         "theme": "psychology",
-        "emoji": "👤",
+        "emoji": "\ud83d\udc64",
         "form": "noun",
         "classification": "regular",
         "countability": "uncountable",
@@ -107,16 +107,16 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "C2-NOUN-PEO-05",
+        "id": "C2-NOUN-PEO-005",
         "word": "heuristic",
         "lang": "en",
         "level": "proficiency",
         "theme": "psychology",
-        "emoji": "💡",
+        "emoji": "\ud83d\udca1",
         "form": "noun",
         "classification": "regular",
         "plural": "heuristics",
-        "transcription": "hjuˈrɪstɪk",
+        "transcription": "hju\u02c8r\u026ast\u026ak",
         "definitions": [
             {
                 "text": "A problem-solving approach based on experience rather than guaranteed proof.",
@@ -135,20 +135,20 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "C2-NOUN-PEO-06",
+        "id": "C2-NOUN-PEO-006",
         "word": "jouissance",
         "lang": "en",
         "level": "proficiency",
         "theme": "psychology",
-        "emoji": "🔥",
+        "emoji": "\ud83d\udd25",
         "form": "noun",
         "classification": "regular",
-        "transcription": "🇬🇧 ˌʒwiːsɒ̃s | 🇺🇸 ˌʒwiːsɑː̃s",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02cc\u0292wi\u02d0s\u0252\u0303s | \ud83c\uddfa\ud83c\uddf8 \u02cc\u0292wi\u02d0s\u0251\u02d0\u0303s",
         "definitions": [
             {
                 "text": "In psychoanalytic theory, an excessive or transgressive form of enjoyment.",
                 "examples": [
-                    "Žižek uses the concept of jouissance to explain ideological attachment."
+                    "\u017di\u017eek uses the concept of jouissance to explain ideological attachment."
                 ]
             }
         ],
@@ -162,15 +162,15 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "C2-NOUN-PEO-07",
+        "id": "C2-NOUN-PEO-007",
         "word": "motivated cognition",
         "lang": "en",
         "level": "proficiency",
         "theme": "psychology",
-        "emoji": "🧠",
+        "emoji": "\ud83e\udde0",
         "form": "noun",
         "classification": "regular",
-        "transcription": "🇬🇧 ˈməʊtɪveɪtɪd kɒɡˈnɪʃn | 🇺🇸 ˈmoʊtɪveɪtɪd kɑːɡˈnɪʃn",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8m\u0259\u028at\u026ave\u026at\u026ad k\u0252\u0261\u02c8n\u026a\u0283n | \ud83c\uddfa\ud83c\uddf8 \u02c8mo\u028at\u026ave\u026at\u026ad k\u0251\u02d0\u0261\u02c8n\u026a\u0283n",
         "definitions": [
             {
                 "text": "The influence of desires and emotions on reasoning and belief formation.",
@@ -189,12 +189,12 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "C2-NOUN-PEO-08",
+        "id": "C2-NOUN-PEO-008",
         "word": "paradigm shift",
         "lang": "en",
         "level": "proficiency",
         "theme": "psychology",
-        "emoji": "🔄",
+        "emoji": "\ud83d\udd04",
         "form": "noun",
         "classification": "regular",
         "plural": "paradigm shifts",
@@ -215,12 +215,12 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "C2-NOUN-PEO-09",
+        "id": "C2-NOUN-PEO-009",
         "word": "philosopher",
         "lang": "en",
         "level": "proficiency",
         "theme": "psychology",
-        "emoji": "🧐",
+        "emoji": "\ud83e\uddd0",
         "form": "noun",
         "classification": "regular",
         "plural": "philosophers",
@@ -248,15 +248,15 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "C2-NOUN-PEO-10",
+        "id": "C2-NOUN-PEO-010",
         "word": "precautionary principle",
         "lang": "en",
         "level": "proficiency",
         "theme": "psychology",
-        "emoji": "🛡️",
+        "emoji": "\ud83d\udee1\ufe0f",
         "form": "noun",
         "classification": "regular",
-        "transcription": "prɪˈkɔːʃənəri ˈprɪnsəpl",
+        "transcription": "pr\u026a\u02c8k\u0254\u02d0\u0283\u0259n\u0259ri \u02c8pr\u026ans\u0259pl",
         "definitions": [
             {
                 "text": "The view that actions with unknown but potentially harmful consequences should be avoided.",
@@ -275,15 +275,15 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "C2-NOUN-PEO-11",
+        "id": "C2-NOUN-PEO-011",
         "word": "proactionary principle",
         "lang": "en",
         "level": "proficiency",
         "theme": "psychology",
-        "emoji": "🚀",
+        "emoji": "\ud83d\ude80",
         "form": "noun",
         "classification": "regular",
-        "transcription": "🇬🇧 prəʊˈækʃənəri ˈprɪnsəpl | 🇺🇸 proʊˈækʃənəri ˈprɪnsəpl",
+        "transcription": "\ud83c\uddec\ud83c\udde7 pr\u0259\u028a\u02c8\u00e6k\u0283\u0259n\u0259ri \u02c8pr\u026ans\u0259pl | \ud83c\uddfa\ud83c\uddf8 pro\u028a\u02c8\u00e6k\u0283\u0259n\u0259ri \u02c8pr\u026ans\u0259pl",
         "definitions": [
             {
                 "text": "The view that the risks of inaction should be weighed against the risks of action when evaluating new technologies.",
@@ -302,20 +302,20 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "C2-NOUN-PEO-12",
+        "id": "C2-NOUN-PEO-012",
         "word": "repression",
         "lang": "en",
         "level": "proficiency",
         "theme": "psychology",
-        "emoji": "🤐",
+        "emoji": "\ud83e\udd10",
         "form": "noun",
         "classification": "regular",
-        "transcription": "rɪˈpreʃn",
+        "transcription": "r\u026a\u02c8pre\u0283n",
         "definitions": [
             {
                 "text": "The unconscious suppression of thoughts or desires too painful to acknowledge.",
                 "examples": [
-                    "Repression does not eliminate conflict — it delays it."
+                    "Repression does not eliminate conflict \u2014 it delays it."
                 ]
             }
         ],
@@ -329,15 +329,15 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "C2-NOUN-PEO-13",
+        "id": "C2-NOUN-PEO-013",
         "word": "sublimation",
         "lang": "en",
         "level": "proficiency",
         "theme": "psychology",
-        "emoji": "🎨",
+        "emoji": "\ud83c\udfa8",
         "form": "noun",
         "classification": "regular",
-        "transcription": "ˌsʌblɪˈmeɪʃn",
+        "transcription": "\u02ccs\u028cbl\u026a\u02c8me\u026a\u0283n",
         "definitions": [
             {
                 "text": "The redirection of a primitive impulse into a socially acceptable activity.",
@@ -356,15 +356,15 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "C2-NOUN-PEO-14",
+        "id": "C2-NOUN-PEO-014",
         "word": "thanatos",
         "lang": "en",
         "level": "proficiency",
         "theme": "psychology",
-        "emoji": "💀",
+        "emoji": "\ud83d\udc80",
         "form": "noun",
         "classification": "regular",
-        "transcription": "🇬🇧 ˈθænətɒs | 🇺🇸 ˈθænətɑːs",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8\u03b8\u00e6n\u0259t\u0252s | \ud83c\uddfa\ud83c\uddf8 \u02c8\u03b8\u00e6n\u0259t\u0251\u02d0s",
         "definitions": [
             {
                 "text": "In Freudian theory, the death drive; an instinct towards self-destruction.",
@@ -383,14 +383,14 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "C2-NOUN-PEO-15",
+        "id": "C2-NOUN-PEO-015",
         "word": "the banality of evil",
         "lang": "en",
         "level": "proficiency",
         "theme": "psychology",
-        "emoji": "🏢",
+        "emoji": "\ud83c\udfe2",
         "form": "noun phrase",
-        "transcription": "ðə bəˈnæləti əv ˈiːvl",
+        "transcription": "\u00f0\u0259 b\u0259\u02c8n\u00e6l\u0259ti \u0259v \u02c8i\u02d0vl",
         "definitions": [
             {
                 "text": "Hannah Arendt's concept that great evil is often carried out by ordinary, unthinking individuals.",
@@ -408,14 +408,14 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "C2-NOUN-PEO-16",
+        "id": "C2-NOUN-PEO-016",
         "word": "the uncanny",
         "lang": "en",
         "level": "proficiency",
         "theme": "psychology",
-        "emoji": "🧟",
+        "emoji": "\ud83e\udddf",
         "form": "noun phrase",
-        "transcription": "ði ʌnˈkæni",
+        "transcription": "\u00f0i \u028cn\u02c8k\u00e6ni",
         "definitions": [
             {
                 "text": "Something familiar made strange in a way that produces unease.",

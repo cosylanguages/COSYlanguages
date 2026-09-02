@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-ADJ-NAT-01",
+        "id": "A1-ADJ-NAT-001",
         "word": "alive",
-        "emoji": "🌱",
+        "emoji": "\ud83c\udf31",
         "form": "adjective",
         "subtext": "stay alive / still alive",
         "synonyms": [
@@ -20,7 +20,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "əˈlaɪv",
+        "transcription": "\u0259\u02c8la\u026av",
         "lang": "en",
         "level": "starter",
         "theme": "plants_natural_world",
@@ -36,9 +36,9 @@
         "sub_subcategory": "Flora_Plants"
     },
     {
-        "id": "A1-ADJ-NAT-02",
+        "id": "A1-ADJ-NAT-002",
         "word": "natural",
-        "emoji": "🌱",
+        "emoji": "\ud83c\udf31",
         "form": "adjective",
         "subtext": "natural light / natural products",
         "synonyms": [
@@ -54,7 +54,7 @@
         ],
         "comparative": "more natural",
         "superlative": "the most natural",
-        "transcription": "ˈnæʧərəl",
+        "transcription": "\u02c8n\u00e6\u02a7\u0259r\u0259l",
         "lang": "en",
         "level": "starter",
         "theme": "plants_natural_world",

@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "B1-ADJ-SOC-01",
+        "id": "B1-ADJ-SOC-011",
         "word": "global",
         "lang": "en",
         "level": "intermediate",
@@ -16,8 +16,8 @@
                 ]
             }
         ],
-        "transcription": "🇬🇧 ˈɡləʊbl | 🇺🇸 ˈɡloʊbl",
-        "emoji": "❓",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8\u0261l\u0259\u028abl | \ud83c\uddfa\ud83c\uddf8 \u02c8\u0261lo\u028abl",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "global issue / global market / on a global scale"
         },
@@ -29,7 +29,7 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-ADJ-SOC-02",
+        "id": "B1-ADJ-SOC-012",
         "word": "local",
         "lang": "en",
         "level": "intermediate",
@@ -43,8 +43,8 @@
                 ]
             }
         ],
-        "transcription": "🇬🇧 ˈləʊkl | 🇺🇸 ˈloʊkl",
-        "emoji": "❓",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8l\u0259\u028akl | \ud83c\uddfa\ud83c\uddf8 \u02c8lo\u028akl",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "local area / local community / at a local level"
         },
@@ -56,7 +56,7 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-ADJ-SOC-03",
+        "id": "B1-ADJ-SOC-013",
         "word": "national",
         "lang": "en",
         "level": "intermediate",
@@ -70,8 +70,8 @@
                 ]
             }
         ],
-        "transcription": "ˈnæʃnəl",
-        "emoji": "❓",
+        "transcription": "\u02c8n\u00e6\u0283n\u0259l",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "national interest / national policy / on a national level"
         },
@@ -83,7 +83,7 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-ADJ-SOC-04",
+        "id": "B1-ADJ-SOC-014",
         "word": "social",
         "lang": "en",
         "level": "intermediate",
@@ -97,8 +97,8 @@
                 ]
             }
         ],
-        "transcription": "🇬🇧 ˈsəʊʃl | 🇺🇸 ˈsoʊʃl",
-        "emoji": "❓",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8s\u0259\u028a\u0283l | \ud83c\uddfa\ud83c\uddf8 \u02c8so\u028a\u0283l",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "social media / social skills / socially responsible"
         },
@@ -110,7 +110,7 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-ADJ-SOC-05",
+        "id": "B1-ADJ-SOC-015",
         "word": "thin",
         "lang": "en",
         "level": "intermediate",
@@ -122,8 +122,8 @@
                 "examples": []
             }
         ],
-        "transcription": "θɪn",
-        "emoji": "❓",
+        "transcription": "\u03b8\u026an",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "paper thin / exceptionally thin / growing thin"
         },

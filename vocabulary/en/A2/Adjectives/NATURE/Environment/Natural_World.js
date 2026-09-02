@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A2-ADJ-NAT-01",
+        "id": "A2-ADJ-NAT-003",
         "word": "biological",
-        "emoji": "🧬",
+        "emoji": "\ud83e\uddec",
         "form": "adjective",
         "definitions": [
             {
@@ -20,7 +20,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "🇬🇧 ˌbaɪəˈlɒdʒɪkl | 🇺🇸 ˌbaɪəˈlɑːdʒɪkl",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02ccba\u026a\u0259\u02c8l\u0252d\u0292\u026akl | \ud83c\uddfa\ud83c\uddf8 \u02ccba\u026a\u0259\u02c8l\u0251\u02d0d\u0292\u026akl",
         "lang": "en",
         "level": "elementary",
         "theme": "nature",
@@ -38,9 +38,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A2-ADJ-NAT-02",
+        "id": "A2-ADJ-NAT-004",
         "word": "chemical",
-        "emoji": "🧪",
+        "emoji": "\ud83e\uddea",
         "form": "adjective",
         "definitions": [
             {
@@ -53,7 +53,7 @@
         "subtext": "chemical substance",
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈkɛmɪkl",
+        "transcription": "\u02c8k\u025bm\u026akl",
         "lang": "en",
         "level": "elementary",
         "theme": "nature",
@@ -66,9 +66,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A2-ADJ-NAT-03",
+        "id": "A2-ADJ-NAT-005",
         "word": "chilly",
-        "emoji": "❄️",
+        "emoji": "\u2744\ufe0f",
         "form": "adjective",
         "definitions": [
             {
@@ -86,7 +86,7 @@
         ],
         "comparative": "chillier",
         "superlative": "the chilliest",
-        "transcription": "ˈtʃɪli",
+        "transcription": "\u02c8t\u0283\u026ali",
         "lang": "en",
         "level": "elementary",
         "theme": "nature",
@@ -99,9 +99,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A2-ADJ-NAT-04",
+        "id": "A2-ADJ-NAT-006",
         "word": "environmental",
-        "emoji": "🌳",
+        "emoji": "\ud83c\udf33",
         "form": "adjective",
         "definitions": [
             {
@@ -117,7 +117,7 @@
         ],
         "comparative": "more environmental",
         "superlative": "the most environmental",
-        "transcription": "ɪnˌvaɪrənˈmɛntl",
+        "transcription": "\u026an\u02ccva\u026ar\u0259n\u02c8m\u025bntl",
         "lang": "en",
         "level": "elementary",
         "theme": "nature",
@@ -130,9 +130,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A2-ADJ-NAT-05",
+        "id": "A2-ADJ-NAT-007",
         "word": "humid",
-        "emoji": "💦",
+        "emoji": "\ud83d\udca6",
         "form": "adjective",
         "definitions": [
             {
@@ -150,7 +150,7 @@
         ],
         "comparative": "more humid",
         "superlative": "the most humid",
-        "transcription": "ˈhjuːmɪd",
+        "transcription": "\u02c8hju\u02d0m\u026ad",
         "lang": "en",
         "level": "elementary",
         "theme": "nature",
@@ -163,9 +163,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A2-ADJ-NAT-06",
+        "id": "A2-ADJ-NAT-008",
         "word": "mild",
-        "emoji": "⛅",
+        "emoji": "\u26c5",
         "form": "adjective",
         "definitions": [
             {
@@ -182,7 +182,7 @@
         ],
         "comparative": "milder",
         "superlative": "the mildest",
-        "transcription": "maɪld",
+        "transcription": "ma\u026ald",
         "lang": "en",
         "level": "elementary",
         "theme": "nature",
@@ -195,9 +195,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A2-ADJ-NAT-07",
+        "id": "A2-ADJ-NAT-009",
         "word": "scientific",
-        "emoji": "🔬",
+        "emoji": "\ud83d\udd2c",
         "form": "adjective",
         "definitions": [
             {
@@ -213,7 +213,7 @@
         ],
         "comparative": "more scientific",
         "superlative": "the most scientific",
-        "transcription": "ˌsaɪənˈtɪfɪk",
+        "transcription": "\u02ccsa\u026a\u0259n\u02c8t\u026af\u026ak",
         "lang": "en",
         "level": "elementary",
         "theme": "nature",
@@ -226,9 +226,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A2-ADJ-NAT-08",
+        "id": "A2-ADJ-NAT-010",
         "word": "sustainable",
-        "emoji": "♻️",
+        "emoji": "\u267b\ufe0f",
         "form": "adjective",
         "definitions": [
             {
@@ -244,7 +244,7 @@
         ],
         "comparative": "more sustainable",
         "superlative": "the most sustainable",
-        "transcription": "səˈsteɪnəbl",
+        "transcription": "s\u0259\u02c8ste\u026an\u0259bl",
         "lang": "en",
         "level": "elementary",
         "theme": "nature",

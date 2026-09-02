@@ -2,11 +2,11 @@
     const lang = "en";
     const data = [
     {
-        "id": "C2-ADJ-PHI-01",
+        "id": "C2-ADJ-PHI-001",
         "word": "precarious",
-        "emoji": "🧗",
+        "emoji": "\ud83e\uddd7",
         "form": "adjective",
-        "transcription": "prɪˈkeəriəs",
+        "transcription": "pr\u026a\u02c8ke\u0259ri\u0259s",
         "definitions": [
             {
                 "text": "Not safe or certain; dependent on chance.",

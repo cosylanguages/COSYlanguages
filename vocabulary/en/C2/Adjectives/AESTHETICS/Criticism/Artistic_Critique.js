@@ -2,11 +2,11 @@
     const lang = "en";
     const data = [
     {
-        "id": "C2-ADJ-AES-01",
+        "id": "C2-ADJ-AES-001",
         "word": "inimitable",
-        "emoji": "🌟",
+        "emoji": "\ud83c\udf1f",
         "form": "adjective",
-        "transcription": "ɪˈnɪmɪtəbl",
+        "transcription": "\u026a\u02c8n\u026am\u026at\u0259bl",
         "definitions": [
             {
                 "text": "So good or unusual as to be impossible to copy.",

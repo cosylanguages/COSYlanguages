@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-ADJ-SEL-01",
+        "id": "A1-ADJ-SEL-191",
         "word": "afraid",
         "form": "adjective",
         "subtext": "afraid of / feel afraid / deeply afraid",
@@ -21,8 +21,8 @@
         ],
         "comparative": "more afraid",
         "superlative": "the most afraid",
-        "emoji": "😨",
-        "transcription": "əˈfreɪd",
+        "emoji": "\ud83d\ude28",
+        "transcription": "\u0259\u02c8fre\u026ad",
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
@@ -38,7 +38,7 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A1-ADJ-SEL-02",
+        "id": "A1-ADJ-SEL-192",
         "word": "angry",
         "form": "adjective",
         "subtext": "feel angry / angry with someone / very angry",
@@ -57,8 +57,8 @@
         ],
         "comparative": "angrier",
         "superlative": "the angriest",
-        "emoji": "😠",
-        "transcription": "ˈæŋgri",
+        "emoji": "\ud83d\ude20",
+        "transcription": "\u02c8\u00e6\u014bgri",
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
@@ -74,7 +74,7 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A1-ADJ-SEL-03",
+        "id": "A1-ADJ-SEL-193",
         "word": "bored",
         "form": "adjective",
         "subtext": "feel bored / bored with / easily bored",
@@ -92,8 +92,8 @@
         ],
         "comparative": "more bored",
         "superlative": "the most bored",
-        "emoji": "😴",
-        "transcription": "bɔrd",
+        "emoji": "\ud83d\ude34",
+        "transcription": "b\u0254rd",
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
@@ -109,9 +109,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A1-ADJ-SEL-04",
+        "id": "A1-ADJ-SEL-194",
         "word": "calm",
-        "emoji": "😌",
+        "emoji": "\ud83d\ude0c",
         "form": "adjective",
         "subtext": "stay calm / a calm sea",
         "synonyms": [
@@ -129,7 +129,7 @@
         ],
         "comparative": "calmer",
         "superlative": "the calmest",
-        "transcription": "kɑm",
+        "transcription": "k\u0251m",
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
@@ -145,7 +145,7 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A1-ADJ-SEL-05",
+        "id": "A1-ADJ-SEL-195",
         "word": "disappointed",
         "form": "adjective",
         "definitions": [
@@ -163,8 +163,8 @@
         ],
         "comparative": "more disappointed",
         "superlative": "the most disappointed",
-        "emoji": "😞",
-        "transcription": "ˌdɪsəˈpɔɪnɪd",
+        "emoji": "\ud83d\ude1e",
+        "transcription": "\u02ccd\u026as\u0259\u02c8p\u0254\u026an\u026ad",
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
@@ -180,7 +180,7 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A1-ADJ-SEL-06",
+        "id": "A1-ADJ-SEL-196",
         "word": "excited",
         "form": "adjective",
         "subtext": "feel excited / excited about / very excited",
@@ -194,8 +194,8 @@
         ],
         "comparative": "more excited",
         "superlative": "the most excited",
-        "emoji": "🤩",
-        "transcription": "ɪkˈsaɪtɪd",
+        "emoji": "\ud83e\udd29",
+        "transcription": "\u026ak\u02c8sa\u026at\u026ad",
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
@@ -211,9 +211,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A1-ADJ-SEL-07",
+        "id": "A1-ADJ-SEL-197",
         "word": "glad",
-        "emoji": "😊",
+        "emoji": "\ud83d\ude0a",
         "form": "adjective",
         "definitions": [
             {
@@ -230,7 +230,7 @@
         ],
         "comparative": "gladder",
         "superlative": "the gladdest",
-        "transcription": "glæd",
+        "transcription": "gl\u00e6d",
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
@@ -246,9 +246,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A1-ADJ-SEL-08",
+        "id": "A1-ADJ-SEL-198",
         "word": "happy",
-        "emoji": "😊",
+        "emoji": "\ud83d\ude0a",
         "form": "adjective",
         "subtext": "feel happy / happy with something / a happy day",
         "synonyms": [
@@ -272,7 +272,7 @@
         ],
         "comparative": "happier",
         "superlative": "the happiest",
-        "transcription": "ˈhæpi",
+        "transcription": "\u02c8h\u00e6pi",
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
@@ -288,7 +288,7 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A1-ADJ-SEL-09",
+        "id": "A1-ADJ-SEL-199",
         "word": "hungry",
         "form": "adjective",
         "subtext": "feel hungry / very hungry / go hungry",
@@ -300,14 +300,14 @@
             {
                 "text": "Needing food.",
                 "examples": [
-                    "I am hungry — it is already two o'clock."
+                    "I am hungry \u2014 it is already two o'clock."
                 ]
             }
         ],
         "comparative": "hungrier",
         "superlative": "the hungriest",
-        "emoji": "🍔",
-        "transcription": "ˈhəŋgri",
+        "emoji": "\ud83c\udf54",
+        "transcription": "\u02c8h\u0259\u014bgri",
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
@@ -323,9 +323,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A1-ADJ-SEL-10",
+        "id": "A1-ADJ-SEL-200",
         "word": "lucky",
-        "emoji": "🍀",
+        "emoji": "\ud83c\udf40",
         "form": "adjective",
         "subtext": "a lucky person / feel lucky",
         "synonyms": [
@@ -341,7 +341,7 @@
         ],
         "comparative": "luckier",
         "superlative": "the luckiest",
-        "transcription": "ˈləki",
+        "transcription": "\u02c8l\u0259ki",
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
@@ -357,7 +357,7 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A1-ADJ-SEL-11",
+        "id": "A1-ADJ-SEL-201",
         "word": "nervous",
         "form": "adjective",
         "subtext": "feel nervous / nervous about / very nervous",
@@ -375,8 +375,8 @@
         ],
         "comparative": "more nervous",
         "superlative": "the most nervous",
-        "emoji": "😟",
-        "transcription": "ˈnərvəs",
+        "emoji": "\ud83d\ude1f",
+        "transcription": "\u02c8n\u0259rv\u0259s",
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
@@ -392,9 +392,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A1-ADJ-SEL-12",
+        "id": "A1-ADJ-SEL-202",
         "word": "relaxed",
-        "emoji": "😌",
+        "emoji": "\ud83d\ude0c",
         "form": "adjective",
         "subtext": "feeling relaxed",
         "synonyms": [
@@ -412,7 +412,7 @@
         ],
         "comparative": "more relaxed",
         "superlative": "the most relaxed",
-        "transcription": "rɪˈlækst",
+        "transcription": "r\u026a\u02c8l\u00e6kst",
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
@@ -428,7 +428,7 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A1-ADJ-SEL-13",
+        "id": "A1-ADJ-SEL-203",
         "word": "sad",
         "form": "adjective",
         "subtext": "feel sad / a sad situation / deeply sad",
@@ -447,8 +447,8 @@
         ],
         "comparative": "sadder",
         "superlative": "the saddest",
-        "emoji": "😢",
-        "transcription": "sæd",
+        "emoji": "\ud83d\ude22",
+        "transcription": "s\u00e6d",
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
@@ -464,7 +464,7 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A1-ADJ-SEL-14",
+        "id": "A1-ADJ-SEL-204",
         "word": "scared",
         "form": "adjective",
         "definitions": [
@@ -482,8 +482,8 @@
         ],
         "comparative": "more scared",
         "superlative": "the most scared",
-        "emoji": "😨",
-        "transcription": "skɛrd",
+        "emoji": "\ud83d\ude28",
+        "transcription": "sk\u025brd",
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
@@ -499,7 +499,7 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A1-ADJ-SEL-15",
+        "id": "A1-ADJ-SEL-205",
         "word": "sorry",
         "form": "adjective",
         "subtext": "feel sorry / sorry for / sorry about",
@@ -513,8 +513,8 @@
         ],
         "comparative": "sorrier",
         "superlative": "the sorriest",
-        "emoji": "🙏",
-        "transcription": "ˈsɑri",
+        "emoji": "\ud83d\ude4f",
+        "transcription": "\u02c8s\u0251ri",
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
@@ -530,7 +530,7 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A1-ADJ-SEL-16",
+        "id": "A1-ADJ-SEL-206",
         "word": "surprised",
         "form": "adjective",
         "definitions": [
@@ -548,8 +548,8 @@
         ],
         "comparative": "more surprised",
         "superlative": "the most surprised",
-        "emoji": "😲",
-        "transcription": "səˈpraɪzd",
+        "emoji": "\ud83d\ude32",
+        "transcription": "s\u0259\u02c8pra\u026azd",
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
@@ -565,15 +565,15 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A1-ADJ-SEL-17",
+        "id": "A1-ADJ-SEL-207",
         "word": "thirsty",
-        "emoji": "🥤",
+        "emoji": "\ud83e\udd64",
         "form": "adjective",
         "definitions": [
             {
                 "text": "Needing or wanting to drink.",
                 "examples": [
-                    "I am thirsty — can I have some water?"
+                    "I am thirsty \u2014 can I have some water?"
                 ]
             }
         ],
@@ -584,7 +584,7 @@
         ],
         "comparative": "thirstier",
         "superlative": "the thirstiest",
-        "transcription": "ˈθərsti",
+        "transcription": "\u02c8\u03b8\u0259rsti",
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
@@ -600,9 +600,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A1-ADJ-SEL-18",
+        "id": "A1-ADJ-SEL-208",
         "word": "tired",
-        "emoji": "😫",
+        "emoji": "\ud83d\ude2b",
         "form": "adjective",
         "subtext": "sleepy, exhausted, feel tired / feel tired / tired of something / very tired",
         "definitions": [
@@ -616,7 +616,7 @@
         ],
         "comparative": "more tired",
         "superlative": "the most tired",
-        "transcription": "taɪərd",
+        "transcription": "ta\u026a\u0259rd",
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
@@ -632,7 +632,7 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A1-ADJ-SEL-19",
+        "id": "A1-ADJ-SEL-209",
         "word": "unhappy",
         "form": "adjective",
         "subtext": "feel unhappy / very unhappy / unhappy about",
@@ -650,8 +650,8 @@
         ],
         "comparative": "unhappier",
         "superlative": "the unhappiest",
-        "emoji": "😢",
-        "transcription": "ənˈhæpi",
+        "emoji": "\ud83d\ude22",
+        "transcription": "\u0259n\u02c8h\u00e6pi",
         "lang": "en",
         "level": "starter",
         "theme": "emotions",
@@ -667,9 +667,9 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A1-ADJ-SEL-20",
+        "id": "A1-ADJ-SEL-210",
         "word": "worried",
-        "emoji": "😟",
+        "emoji": "\ud83d\ude1f",
         "form": "adjective",
         "subtext": "worried about / deeply worried",
         "synonyms": [
@@ -687,7 +687,7 @@
         ],
         "comparative": "more worried",
         "superlative": "the most worried",
-        "transcription": "ˈwərid",
+        "transcription": "\u02c8w\u0259rid",
         "lang": "en",
         "level": "starter",
         "theme": "emotions",

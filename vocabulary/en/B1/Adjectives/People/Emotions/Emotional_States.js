@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "B1-ADJ-PEO-01",
+        "id": "B1-ADJ-PEO-001",
         "word": "anxious",
         "lang": "en",
         "level": "intermediate",
@@ -16,8 +16,8 @@
                 ]
             }
         ],
-        "transcription": "ˈæŋkʃəs",
-        "emoji": "❓",
+        "transcription": "\u02c8\u00e6\u014bk\u0283\u0259s",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "feel anxious / very anxious / anxious about"
         },
@@ -29,7 +29,7 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B1-ADJ-PEO-02",
+        "id": "B1-ADJ-PEO-002",
         "word": "calm",
         "lang": "en",
         "level": "intermediate",
@@ -43,8 +43,8 @@
                 ]
             }
         ],
-        "transcription": "kɑːm",
-        "emoji": "❓",
+        "transcription": "k\u0251\u02d0m",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "stay calm / very calm / keep calm"
         },
@@ -56,7 +56,7 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B1-ADJ-PEO-03",
+        "id": "B1-ADJ-PEO-003",
         "word": "disappointed",
         "lang": "en",
         "level": "intermediate",
@@ -70,8 +70,8 @@
                 ]
             }
         ],
-        "transcription": "ˌdɪsəˈpɔɪntɪd",
-        "emoji": "❓",
+        "transcription": "\u02ccd\u026as\u0259\u02c8p\u0254\u026ant\u026ad",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "feel disappointed / bitterly disappointed / disappointed with"
         },
@@ -83,7 +83,7 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B1-ADJ-PEO-04",
+        "id": "B1-ADJ-PEO-004",
         "word": "embarrassed",
         "lang": "en",
         "level": "intermediate",
@@ -97,8 +97,8 @@
                 ]
             }
         ],
-        "transcription": "ɪmˈbærəst",
-        "emoji": "❓",
+        "transcription": "\u026am\u02c8b\u00e6r\u0259st",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "feel embarrassed / deeply embarrassed / easily embarrassed"
         },
@@ -110,7 +110,7 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B1-ADJ-PEO-05",
+        "id": "B1-ADJ-PEO-005",
         "word": "frustrated",
         "lang": "en",
         "level": "intermediate",
@@ -124,8 +124,8 @@
                 ]
             }
         ],
-        "transcription": "frʌˈstreɪtɪd",
-        "emoji": "❓",
+        "transcription": "fr\u028c\u02c8stre\u026at\u026ad",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "feel frustrated / very frustrated / deeply frustrated"
         },
@@ -137,7 +137,7 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B1-ADJ-PEO-06",
+        "id": "B1-ADJ-PEO-006",
         "word": "jealous",
         "lang": "en",
         "level": "intermediate",
@@ -151,8 +151,8 @@
                 ]
             }
         ],
-        "transcription": "ˈdʒɛləs",
-        "emoji": "❓",
+        "transcription": "\u02c8d\u0292\u025bl\u0259s",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "feel jealous / very jealous / jealous of"
         },
@@ -164,7 +164,7 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B1-ADJ-PEO-07",
+        "id": "B1-ADJ-PEO-007",
         "word": "miserable",
         "lang": "en",
         "level": "intermediate",
@@ -178,8 +178,8 @@
                 ]
             }
         ],
-        "transcription": "ˈmɪzrəbl",
-        "emoji": "❓",
+        "transcription": "\u02c8m\u026azr\u0259bl",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "feel miserable / absolutely miserable / make someone miserable"
         },
@@ -191,7 +191,7 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B1-ADJ-PEO-08",
+        "id": "B1-ADJ-PEO-008",
         "word": "nervous",
         "lang": "en",
         "level": "intermediate",
@@ -205,8 +205,8 @@
                 ]
             }
         ],
-        "transcription": "ˈnɜːvəs",
-        "emoji": "❓",
+        "transcription": "\u02c8n\u025c\u02d0v\u0259s",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "feel nervous / terribly nervous / nervous about"
         },
@@ -218,7 +218,7 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B1-ADJ-PEO-09",
+        "id": "B1-ADJ-PEO-009",
         "word": "relieved",
         "lang": "en",
         "level": "intermediate",
@@ -232,8 +232,8 @@
                 ]
             }
         ],
-        "transcription": "rɪˈliːvd",
-        "emoji": "❓",
+        "transcription": "r\u026a\u02c8li\u02d0vd",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "feel relieved / greatly relieved / relieved to hear"
         },
@@ -245,7 +245,7 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B1-ADJ-PEO-10",
+        "id": "B1-ADJ-PEO-010",
         "word": "shocked",
         "lang": "en",
         "level": "intermediate",
@@ -259,8 +259,8 @@
                 ]
             }
         ],
-        "transcription": "🇬🇧 ʃɒkt | 🇺🇸 ʃɑːkt",
-        "emoji": "❓",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u0283\u0252kt | \ud83c\uddfa\ud83c\uddf8 \u0283\u0251\u02d0kt",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "feel shocked / absolutely shocked / shocked by"
         },
@@ -272,7 +272,7 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B1-ADJ-PEO-11",
+        "id": "B1-ADJ-PEO-011",
         "word": "surprising",
         "lang": "en",
         "level": "intermediate",
@@ -286,8 +286,8 @@
                 ]
             }
         ],
-        "transcription": "səˈpraɪzɪŋ",
-        "emoji": "❓",
+        "transcription": "s\u0259\u02c8pra\u026az\u026a\u014b",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "very surprising / quite surprising / not at all surprising"
         },

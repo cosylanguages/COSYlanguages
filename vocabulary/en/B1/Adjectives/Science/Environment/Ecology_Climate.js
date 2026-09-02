@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "B1-ADJ-SCI-01",
+        "id": "B1-ADJ-SCI-010",
         "word": "environmental",
         "lang": "en",
         "level": "intermediate",
@@ -16,8 +16,8 @@
                 ]
             }
         ],
-        "transcription": "ɪnˌvaɪrənˈmɛntl",
-        "emoji": "❓",
+        "transcription": "\u026an\u02ccva\u026ar\u0259n\u02c8m\u025bntl",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "environmental impact / environmental policy / environmentally friendly"
         },
@@ -29,7 +29,7 @@
         "sub_subcategory": "Ecology_Climate"
     },
     {
-        "id": "B1-ADJ-SCI-02",
+        "id": "B1-ADJ-SCI-011",
         "word": "stormy",
         "lang": "en",
         "level": "intermediate",
@@ -41,8 +41,8 @@
                 "examples": []
             }
         ],
-        "transcription": "ˈstɔːmi",
-        "emoji": "⛈️",
+        "transcription": "\u02c8st\u0254\u02d0mi",
+        "emoji": "\u26c8\ufe0f",
         "_legacy": {
             "subtext": "stormy weather / a stormy relationship / stormy skies"
         },
@@ -54,7 +54,7 @@
         "sub_subcategory": "Ecology_Climate"
     },
     {
-        "id": "B1-ADJ-SCI-03",
+        "id": "B1-ADJ-SCI-012",
         "word": "sustainable",
         "lang": "en",
         "level": "intermediate",
@@ -70,8 +70,8 @@
                 ]
             }
         ],
-        "transcription": "səˈsteɪnəbl",
-        "emoji": "♻️",
+        "transcription": "s\u0259\u02c8ste\u026an\u0259bl",
+        "emoji": "\u267b\ufe0f",
         "_legacy": {
             "subtext": "sustainable development, eco-friendly"
         },

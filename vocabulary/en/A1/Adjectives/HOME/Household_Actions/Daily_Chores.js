@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-ADJ-HOM-01",
+        "id": "A1-ADJ-HOM-005",
         "word": "clean",
-        "emoji": "✨",
+        "emoji": "\u2728",
         "form": "adjective",
         "subtext": "tidy, not dirty, keep it clean / clean clothes / a clean room / keep clean",
         "definitions": [
@@ -38,7 +38,7 @@
         "sub_subcategory": "Daily_Chores"
     },
     {
-        "id": "A1-ADJ-HOM-02",
+        "id": "A1-ADJ-HOM-006",
         "word": "dirty",
         "form": "adjective",
         "subtext": "dirty hands / dirty clothes / get dirty",
@@ -52,8 +52,8 @@
         ],
         "comparative": "dirtier",
         "superlative": "the dirtiest",
-        "emoji": "💩",
-        "transcription": "ˈdərti",
+        "emoji": "\ud83d\udca9",
+        "transcription": "\u02c8d\u0259rti",
         "lang": "en",
         "level": "starter",
         "theme": "household_tasks",
@@ -69,7 +69,7 @@
         "sub_subcategory": "Daily_Chores"
     },
     {
-        "id": "A1-ADJ-HOM-03",
+        "id": "A1-ADJ-HOM-007",
         "word": "dirty",
         "form": "adjective",
         "subtext": "dirty hands / dirty clothes / get dirty",
@@ -83,8 +83,8 @@
         ],
         "comparative": "dirtier",
         "superlative": "the dirtiest",
-        "emoji": "💩",
-        "transcription": "ˈdərti",
+        "emoji": "\ud83d\udca9",
+        "transcription": "\u02c8d\u0259rti",
         "synonyms": [
             "messy"
         ],

@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-OTH-TRA-01",
+        "id": "A1-OTH-TRA-001",
         "word": "down",
-        "emoji": "⬇️",
+        "emoji": "\u2b07\ufe0f",
         "form": "preposition",
         "definitions": [
             {
@@ -15,7 +15,7 @@
             }
         ],
         "subtext": "related to prepositions movement",
-        "transcription": "daʊn",
+        "transcription": "da\u028an",
         "lang": "en",
         "level": "starter",
         "theme": "prepositions_movement",
@@ -31,7 +31,7 @@
         "sub_subcategory": "Direction_Markers"
     },
     {
-        "id": "A1-OTH-TRA-02",
+        "id": "A1-OTH-TRA-002",
         "word": "to",
         "form": "preposition",
         "definitions": [
@@ -43,8 +43,8 @@
             }
         ],
         "subtext": "related to prepositions movement",
-        "emoji": "➡️",
-        "transcription": "tɪ",
+        "emoji": "\u27a1\ufe0f",
+        "transcription": "t\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "prepositions_movement",
@@ -57,9 +57,9 @@
         "sub_subcategory": "Direction_Markers"
     },
     {
-        "id": "A1-OTH-TRA-03",
+        "id": "A1-OTH-TRA-003",
         "word": "up",
-        "emoji": "⬆️",
+        "emoji": "\u2b06\ufe0f",
         "form": "preposition",
         "definitions": [
             {
@@ -70,7 +70,7 @@
             }
         ],
         "subtext": "related to prepositions movement",
-        "transcription": "əp",
+        "transcription": "\u0259p",
         "lang": "en",
         "level": "starter",
         "theme": "prepositions_movement",

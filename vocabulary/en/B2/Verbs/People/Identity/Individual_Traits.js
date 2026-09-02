@@ -2,11 +2,11 @@
     const lang = "en";
     const data = [
     {
-        "id": "B2-VERB-PEO-01",
+        "id": "B2-VERB-PEO-001",
         "word": "allocate",
-        "emoji": "💰",
+        "emoji": "\ud83d\udcb0",
         "form": "verb",
-        "transcription": "ˈæləkeɪt",
+        "transcription": "\u02c8\u00e6l\u0259ke\u026at",
         "subtext": "Formal | allocate resources / allocate funding / allocate responsibility",
         "definitions": [
             {
@@ -35,11 +35,11 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-VERB-PEO-02",
+        "id": "B2-VERB-PEO-002",
         "word": "ban",
-        "emoji": "🚫",
+        "emoji": "\ud83d\udeab",
         "form": "verb",
-        "transcription": "bæn",
+        "transcription": "b\u00e6n",
         "subtext": "Neutral | ban something / ban the use of / impose a ban",
         "definitions": [
             {
@@ -68,11 +68,11 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-VERB-PEO-03",
+        "id": "B2-VERB-PEO-003",
         "word": "enforce",
-        "emoji": "👮",
+        "emoji": "\ud83d\udc6e",
         "form": "verb",
-        "transcription": "ɪnˈfɔːs",
+        "transcription": "\u026an\u02c8f\u0254\u02d0s",
         "subtext": "Formal | enforce a law / strictly enforce / difficult to enforce",
         "definitions": [
             {
@@ -101,11 +101,11 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-VERB-PEO-04",
+        "id": "B2-VERB-PEO-004",
         "word": "implement",
-        "emoji": "⚙️",
+        "emoji": "\u2699\ufe0f",
         "form": "verb",
-        "transcription": "ˈɪmplɪmɛnt",
+        "transcription": "\u02c8\u026ampl\u026am\u025bnt",
         "subtext": "Formal | implement a policy / implement changes / implementation plan",
         "definitions": [
             {
@@ -134,11 +134,11 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-VERB-PEO-05",
+        "id": "B2-VERB-PEO-005",
         "word": "introduce",
-        "emoji": "✨",
+        "emoji": "\u2728",
         "form": "verb",
-        "transcription": "ˌɪntrəˈdjuːs",
+        "transcription": "\u02cc\u026antr\u0259\u02c8dju\u02d0s",
         "subtext": "Neutral | introduce a policy / introduce changes / introduce someone to",
         "definitions": [
             {
@@ -167,11 +167,11 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-VERB-PEO-06",
+        "id": "B2-VERB-PEO-006",
         "word": "reform",
-        "emoji": "🛠️",
+        "emoji": "\ud83d\udee0\ufe0f",
         "form": "verb",
-        "transcription": "rɪˈfɔːm",
+        "transcription": "r\u026a\u02c8f\u0254\u02d0m",
         "subtext": "Formal | reform a system / structural reform / reform the law",
         "definitions": [
             {
@@ -200,11 +200,11 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-VERB-PEO-07",
+        "id": "B2-VERB-PEO-007",
         "word": "regulate",
-        "emoji": "⚖️",
+        "emoji": "\u2696\ufe0f",
         "form": "verb",
-        "transcription": "ˈrɛɡjuleɪt",
+        "transcription": "\u02c8r\u025b\u0261jule\u026at",
         "subtext": "Formal | regulate an industry / tightly regulated / self-regulation",
         "definitions": [
             {
@@ -233,11 +233,11 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-VERB-PEO-08",
+        "id": "B2-VERB-PEO-008",
         "word": "restrict",
-        "emoji": "🚫",
+        "emoji": "\ud83d\udeab",
         "form": "verb",
-        "transcription": "rɪˈstrɪkt",
+        "transcription": "r\u026a\u02c8str\u026akt",
         "subtext": "Formal | restrict access / impose restrictions / tightly restricted",
         "definitions": [
             {
@@ -266,11 +266,11 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-VERB-PEO-09",
+        "id": "B2-VERB-PEO-009",
         "word": "subsidise",
-        "emoji": "💸",
+        "emoji": "\ud83d\udcb8",
         "form": "verb",
-        "transcription": "ˈsʌbsɪdaɪz",
+        "transcription": "\u02c8s\u028cbs\u026ada\u026az",
         "subtext": "Formal | subsidise an industry / heavily subsidised / public subsidy",
         "definitions": [
             {
@@ -299,11 +299,11 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B2-VERB-PEO-10",
+        "id": "B2-VERB-PEO-010",
         "word": "veto",
-        "emoji": "🚫",
+        "emoji": "\ud83d\udeab",
         "form": "verb",
-        "transcription": "🇬🇧 ˈviːtəʊ | 🇺🇸 ˈviːtoʊ",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8vi\u02d0t\u0259\u028a | \ud83c\uddfa\ud83c\uddf8 \u02c8vi\u02d0to\u028a",
         "subtext": "veto legislation, exercise a veto",
         "definitions": [
             {

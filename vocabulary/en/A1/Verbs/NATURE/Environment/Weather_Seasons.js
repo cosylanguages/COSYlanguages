@@ -2,13 +2,13 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-NAT-01",
+        "id": "A1-VERB-NAT-003",
         "word": "fall",
-        "emoji": "🍂",
+        "emoji": "\ud83c\udf42",
         "subtext": "fall down / fall off / fall in love / fall asleep",
         "form": "verb",
         "synonyms": [
-            "🇬🇧 autumn"
+            "\ud83c\uddec\ud83c\udde7 autumn"
         ],
         "definitions": [
             {
@@ -24,7 +24,7 @@
         "v2": "fell",
         "v3": "fallen",
         "group": "irregular",
-        "transcription": "fɔl",
+        "transcription": "f\u0254l",
         "lang": "en",
         "level": "starter",
         "theme": "seasons_climate",
@@ -40,13 +40,13 @@
         "sub_subcategory": "Weather_Seasons"
     },
     {
-        "id": "A1-VERB-NAT-02",
+        "id": "A1-VERB-NAT-004",
         "word": "fall",
-        "emoji": "🍂",
+        "emoji": "\ud83c\udf42",
         "subtext": "fall down / fall off / fall in love / fall asleep",
         "form": "verb",
         "synonyms": [
-            "🇬🇧 autumn"
+            "\ud83c\uddec\ud83c\udde7 autumn"
         ],
         "definitions": [
             {
@@ -62,7 +62,7 @@
         "v2": "fell",
         "v3": "fallen",
         "group": "regular",
-        "transcription": "fɔl",
+        "transcription": "f\u0254l",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -79,9 +79,9 @@
         "sub_subcategory": "Weather_Seasons"
     },
     {
-        "id": "A1-VERB-NAT-03",
+        "id": "A1-VERB-NAT-005",
         "word": "rise",
-        "emoji": "🌅",
+        "emoji": "\ud83c\udf05",
         "subtext": "rise up / sun rise / price rise",
         "form": "verb",
         "definitions": [
@@ -98,7 +98,7 @@
         "v2": "rose",
         "v3": "risen",
         "group": "irregular",
-        "transcription": "raɪz",
+        "transcription": "ra\u026az",
         "lang": "en",
         "level": "starter",
         "theme": "seasons_climate",
@@ -114,9 +114,9 @@
         "sub_subcategory": "Weather_Seasons"
     },
     {
-        "id": "A1-VERB-NAT-04",
+        "id": "A1-VERB-NAT-006",
         "word": "rise",
-        "emoji": "🌅",
+        "emoji": "\ud83c\udf05",
         "subtext": "rise up / sun rise / price rise",
         "form": "verb",
         "definitions": [
@@ -133,7 +133,7 @@
         "v2": "rose",
         "v3": "risen",
         "group": "regular",
-        "transcription": "raɪz",
+        "transcription": "ra\u026az",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",

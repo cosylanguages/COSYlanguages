@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-TRA-01",
+        "id": "A1-NOUN-TRA-035",
         "word": "airport",
-        "emoji": "✈️",
+        "emoji": "\u2708\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
             }
         ],
         "subtext": "related to public transport",
-        "transcription": "ˈɛrˌpɔrt",
+        "transcription": "\u02c8\u025br\u02ccp\u0254rt",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -31,9 +31,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-NOUN-TRA-02",
+        "id": "A1-NOUN-TRA-036",
         "word": "commute",
-        "emoji": "🚆",
+        "emoji": "\ud83d\ude86",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -47,7 +47,7 @@
             }
         ],
         "subtext": "related to public transport",
-        "transcription": "kəmˈjut",
+        "transcription": "k\u0259m\u02c8jut",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -60,9 +60,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-NOUN-TRA-03",
+        "id": "A1-NOUN-TRA-037",
         "word": "east",
-        "emoji": "➡️",
+        "emoji": "\u27a1\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -91,9 +91,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-NOUN-TRA-04",
+        "id": "A1-NOUN-TRA-038",
         "word": "hotel",
-        "emoji": "🏨",
+        "emoji": "\ud83c\udfe8",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -107,7 +107,7 @@
             }
         ],
         "subtext": "related to public transport",
-        "transcription": "hoʊˈtɛl",
+        "transcription": "ho\u028a\u02c8t\u025bl",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -120,9 +120,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-NOUN-TRA-05",
+        "id": "A1-NOUN-TRA-039",
         "word": "north",
-        "emoji": "⬆️",
+        "emoji": "\u2b06\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -135,7 +135,7 @@
             }
         ],
         "subtext": "related to directions navigation",
-        "transcription": "nɔrθ",
+        "transcription": "n\u0254r\u03b8",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -151,9 +151,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-NOUN-TRA-06",
+        "id": "A1-NOUN-TRA-040",
         "word": "passport",
-        "emoji": "🛂",
+        "emoji": "\ud83d\udec2",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -167,7 +167,7 @@
             }
         ],
         "subtext": "related to travel vocabulary basics",
-        "transcription": "ˈpæˌspɔrt",
+        "transcription": "\u02c8p\u00e6\u02ccsp\u0254rt",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -180,9 +180,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-NOUN-TRA-07",
+        "id": "A1-NOUN-TRA-041",
         "word": "south",
-        "emoji": "⬇️",
+        "emoji": "\u2b07\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -195,7 +195,7 @@
             }
         ],
         "subtext": "related to directions navigation",
-        "transcription": "saʊθ",
+        "transcription": "sa\u028a\u03b8",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -211,9 +211,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-NOUN-TRA-08",
+        "id": "A1-NOUN-TRA-042",
         "word": "suitcase",
-        "emoji": "🧳",
+        "emoji": "\ud83e\uddf3",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -227,7 +227,7 @@
             }
         ],
         "subtext": "related to travel vocabulary basics",
-        "transcription": "ˈsutˌkeɪs",
+        "transcription": "\u02c8sut\u02ccke\u026as",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -240,9 +240,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-NOUN-TRA-09",
+        "id": "A1-NOUN-TRA-043",
         "word": "ticket",
-        "emoji": "🎫",
+        "emoji": "\ud83c\udfab",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -256,7 +256,7 @@
             }
         ],
         "subtext": "related to travel vocabulary basics",
-        "transcription": "ˈtɪkɪt",
+        "transcription": "\u02c8t\u026ak\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -269,9 +269,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-NOUN-TRA-10",
+        "id": "A1-NOUN-TRA-044",
         "word": "traffic",
-        "emoji": "🚗",
+        "emoji": "\ud83d\ude97",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -288,7 +288,7 @@
                 ]
             }
         ],
-        "transcription": "ˈtræfɪk",
+        "transcription": "\u02c8tr\u00e6f\u026ak",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -301,9 +301,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-NOUN-TRA-11",
+        "id": "A1-NOUN-TRA-045",
         "word": "trip",
-        "emoji": "🎒",
+        "emoji": "\ud83c\udf92",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -317,7 +317,7 @@
             }
         ],
         "subtext": "related to travel vocabulary basics",
-        "transcription": "trɪp",
+        "transcription": "tr\u026ap",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -330,9 +330,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-NOUN-TRA-12",
+        "id": "A1-NOUN-TRA-046",
         "word": "way",
-        "emoji": "🛣️",
+        "emoji": "\ud83d\udee3\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -347,7 +347,7 @@
             }
         ],
         "subtext": "related to directions navigation",
-        "transcription": "weɪ",
+        "transcription": "we\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "travel",
@@ -360,9 +360,9 @@
         "sub_subcategory": "Travel_Journeys"
     },
     {
-        "id": "A1-NOUN-TRA-13",
+        "id": "A1-NOUN-TRA-047",
         "word": "west",
-        "emoji": "⬅️",
+        "emoji": "\u2b05\ufe0f",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -375,7 +375,7 @@
             }
         ],
         "subtext": "related to directions navigation",
-        "transcription": "wɛst",
+        "transcription": "w\u025bst",
         "lang": "en",
         "level": "starter",
         "theme": "travel",

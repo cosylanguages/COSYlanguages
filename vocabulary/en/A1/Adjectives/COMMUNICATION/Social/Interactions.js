@@ -2,13 +2,13 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-ADJ-COM-01",
+        "id": "A1-ADJ-COM-014",
         "word": "sorry",
         "translation": "sorry",
         "level": "starter",
         "theme": "social",
         "language": "en",
-        "emoji": "🙇",
+        "emoji": "\ud83d\ude47",
         "form": "adjective",
         "definitions": [
             {
@@ -18,7 +18,7 @@
                 ]
             }
         ],
-        "transcription": "ˈsɑri",
+        "transcription": "\u02c8s\u0251ri",
         "lang": "en",
         "legacy_id": "A1-COMM-85",
         "level_code": "A1",

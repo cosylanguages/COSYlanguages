@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-OTH-TRA-01",
+        "id": "A1-OTH-TRA-071",
         "word": "above",
         "form": "preposition",
         "definitions": [
@@ -14,8 +14,8 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "emoji": "⬆️",
-        "transcription": "əˈbəv",
+        "emoji": "\u2b06\ufe0f",
+        "transcription": "\u0259\u02c8b\u0259v",
         "lang": "en",
         "level": "starter",
         "theme": "prepositions_place",
@@ -31,7 +31,7 @@
         "sub_subcategory": "Position_Markers"
     },
     {
-        "id": "A1-OTH-TRA-02",
+        "id": "A1-OTH-TRA-072",
         "word": "around",
         "form": "preposition",
         "definitions": [
@@ -43,8 +43,8 @@
                 ]
             }
         ],
-        "emoji": "⭕",
-        "transcription": "əˈraʊnd",
+        "emoji": "\u2b55",
+        "transcription": "\u0259\u02c8ra\u028and",
         "subtext": "around",
         "lang": "en",
         "level": "starter",
@@ -58,7 +58,7 @@
         "sub_subcategory": "Position_Markers"
     },
     {
-        "id": "A1-OTH-TRA-03",
+        "id": "A1-OTH-TRA-073",
         "word": "below",
         "form": "preposition",
         "definitions": [
@@ -70,8 +70,8 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "emoji": "⬇️",
-        "transcription": "bɪˈloʊ",
+        "emoji": "\u2b07\ufe0f",
+        "transcription": "b\u026a\u02c8lo\u028a",
         "lang": "en",
         "level": "starter",
         "theme": "prepositions_place",
@@ -87,7 +87,7 @@
         "sub_subcategory": "Position_Markers"
     },
     {
-        "id": "A1-OTH-TRA-04",
+        "id": "A1-OTH-TRA-074",
         "word": "from",
         "form": "preposition",
         "definitions": [
@@ -99,8 +99,8 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "emoji": "⬅️",
-        "transcription": "frəm",
+        "emoji": "\u2b05\ufe0f",
+        "transcription": "fr\u0259m",
         "lang": "en",
         "level": "starter",
         "theme": "prepositions_place",
@@ -113,7 +113,7 @@
         "sub_subcategory": "Position_Markers"
     },
     {
-        "id": "A1-OTH-TRA-05",
+        "id": "A1-OTH-TRA-075",
         "word": "inside",
         "form": "preposition",
         "definitions": [
@@ -125,8 +125,8 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "emoji": "🏠",
-        "transcription": "ˌɪnˈsaɪd",
+        "emoji": "\ud83c\udfe0",
+        "transcription": "\u02cc\u026an\u02c8sa\u026ad",
         "lang": "en",
         "level": "starter",
         "theme": "prepositions_place",
@@ -142,7 +142,7 @@
         "sub_subcategory": "Position_Markers"
     },
     {
-        "id": "A1-OTH-TRA-06",
+        "id": "A1-OTH-TRA-076",
         "word": "of",
         "form": "preposition",
         "definitions": [
@@ -154,8 +154,8 @@
                 ]
             }
         ],
-        "emoji": "🔗",
-        "transcription": "🇬🇧 ɒv | 🇺🇸 ɑːv",
+        "emoji": "\ud83d\udd17",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u0252v | \ud83c\uddfa\ud83c\uddf8 \u0251\u02d0v",
         "subtext": "of",
         "lang": "en",
         "level": "starter",
@@ -169,7 +169,7 @@
         "sub_subcategory": "Position_Markers"
     },
     {
-        "id": "A1-OTH-TRA-07",
+        "id": "A1-OTH-TRA-077",
         "word": "outside",
         "form": "preposition",
         "definitions": [
@@ -181,8 +181,8 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "emoji": "🌳",
-        "transcription": "ˈaʊtˈsaɪd",
+        "emoji": "\ud83c\udf33",
+        "transcription": "\u02c8a\u028at\u02c8sa\u026ad",
         "lang": "en",
         "level": "starter",
         "theme": "prepositions_place",
@@ -198,7 +198,7 @@
         "sub_subcategory": "Position_Markers"
     },
     {
-        "id": "A1-OTH-TRA-08",
+        "id": "A1-OTH-TRA-078",
         "word": "with",
         "form": "preposition",
         "definitions": [
@@ -210,8 +210,8 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "emoji": "➕",
-        "transcription": "wɪθ",
+        "emoji": "\u2795",
+        "transcription": "w\u026a\u03b8",
         "lang": "en",
         "level": "starter",
         "theme": "prepositions_place",
@@ -224,7 +224,7 @@
         "sub_subcategory": "Position_Markers"
     },
     {
-        "id": "A1-OTH-TRA-09",
+        "id": "A1-OTH-TRA-079",
         "word": "without",
         "form": "preposition",
         "definitions": [
@@ -236,8 +236,8 @@
             }
         ],
         "subtext": "related to prepositions place",
-        "emoji": "➖",
-        "transcription": "wɪˈθaʊt",
+        "emoji": "\u2796",
+        "transcription": "w\u026a\u02c8\u03b8a\u028at",
         "lang": "en",
         "level": "starter",
         "theme": "prepositions_place",

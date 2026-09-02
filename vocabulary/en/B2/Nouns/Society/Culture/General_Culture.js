@@ -2,12 +2,12 @@
     const lang = "en";
     const data = [
     {
-        "id": "B2-NOUN-SOC-01",
+        "id": "B2-NOUN-SOC-001",
         "lang": "en",
-        "transcription": "ˌdʒɛntrɪfɪˈkeɪʃn",
+        "transcription": "\u02ccd\u0292\u025bntr\u026af\u026a\u02c8ke\u026a\u0283n",
         "level": "upper_intermediate",
         "theme": "furniture",
-        "emoji": "🏘️📈",
+        "emoji": "\ud83c\udfd8\ufe0f\ud83d\udcc8",
         "form": "noun",
         "classification": "regular",
         "plural": null,
@@ -26,15 +26,16 @@
         "domain": "Society",
         "subcategory": "Culture",
         "pos_section": "Nouns",
-        "sub_subcategory": "General_Culture"
+        "sub_subcategory": "General_Culture",
+        "word": "gentrification"
     },
     {
-        "id": "B2-NOUN-SOC-02",
+        "id": "B2-NOUN-SOC-002",
         "lang": "en",
-        "transcription": "əˈfɔːdəbl ˈhaʊzɪŋ",
+        "transcription": "\u0259\u02c8f\u0254\u02d0d\u0259bl \u02c8ha\u028az\u026a\u014b",
         "level": "upper_intermediate",
         "theme": "furniture",
-        "emoji": "🏠💰",
+        "emoji": "\ud83c\udfe0\ud83d\udcb0",
         "form": "noun phrase",
         "plural": null,
         "subtext": "social housing, lack of affordable housing",
@@ -52,15 +53,16 @@
         "domain": "Society",
         "subcategory": "Culture",
         "pos_section": "Nouns",
-        "sub_subcategory": "General_Culture"
+        "sub_subcategory": "General_Culture",
+        "word": "affordable housing"
     },
     {
-        "id": "B2-NOUN-SOC-03",
+        "id": "B2-NOUN-SOC-003",
         "lang": "en",
-        "transcription": "ˈɜːbən sprɔːl",
+        "transcription": "\u02c8\u025c\u02d0b\u0259n spr\u0254\u02d0l",
         "level": "upper_intermediate",
         "theme": "furniture",
-        "emoji": "🏙️↔️",
+        "emoji": "\ud83c\udfd9\ufe0f\u2194\ufe0f",
         "form": "noun phrase",
         "plural": null,
         "subtext": "uncontrolled growth, city sprawl",
@@ -78,15 +80,16 @@
         "domain": "Society",
         "subcategory": "Culture",
         "pos_section": "Nouns",
-        "sub_subcategory": "General_Culture"
+        "sub_subcategory": "General_Culture",
+        "word": "urban sprawl"
     },
     {
-        "id": "B2-NOUN-SOC-04",
+        "id": "B2-NOUN-SOC-004",
         "lang": "en",
-        "transcription": "ˈdɪskɔːs",
+        "transcription": "\u02c8d\u026ask\u0254\u02d0s",
         "level": "upper_intermediate",
         "theme": "language",
-        "emoji": "🗣️",
+        "emoji": "\ud83d\udde3\ufe0f",
         "form": "noun",
         "classification": "regular",
         "plural": "discourses",
@@ -105,15 +108,16 @@
         "domain": "Society",
         "subcategory": "Culture",
         "pos_section": "Nouns",
-        "sub_subcategory": "General_Culture"
+        "sub_subcategory": "General_Culture",
+        "word": "discourse"
     },
     {
-        "id": "B2-NOUN-SOC-05",
+        "id": "B2-NOUN-SOC-005",
         "lang": "en",
-        "transcription": "kənˈsɛnsəs",
+        "transcription": "k\u0259n\u02c8s\u025bns\u0259s",
         "level": "upper_intermediate",
         "theme": "language",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "form": "noun",
         "classification": "regular",
         "plural": "consensuses",
@@ -132,18 +136,19 @@
         "domain": "Society",
         "subcategory": "Culture",
         "pos_section": "Nouns",
-        "sub_subcategory": "General_Culture"
+        "sub_subcategory": "General_Culture",
+        "word": "consensus"
     },
     {
-        "id": "B2-NOUN-SOC-06",
+        "id": "B2-NOUN-SOC-006",
         "lang": "en",
         "word": "commuter belt",
         "level": "upper_intermediate",
         "theme": "furniture",
-        "emoji": "🚆",
+        "emoji": "\ud83d\ude86",
         "form": "noun phrase",
         "plural": "commuter belts",
-        "transcription": "kəˈmjuːtə bɛlt",
+        "transcription": "k\u0259\u02c8mju\u02d0t\u0259 b\u025blt",
         "subtext": "suburban area, travel to work",
         "definitions": [
             {
@@ -161,15 +166,15 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-NOUN-SOC-07",
+        "id": "B2-NOUN-SOC-007",
         "lang": "en",
         "word": "implicit bias",
         "level": "upper_intermediate",
         "theme": "language",
-        "emoji": "⚖️❌",
+        "emoji": "\u2696\ufe0f\u274c",
         "form": "noun phrase",
         "plural": "implicit biases",
-        "transcription": "ɪmˈplɪsɪt ˈbaɪəs",
+        "transcription": "\u026am\u02c8pl\u026as\u026at \u02c8ba\u026a\u0259s",
         "subtext": "unconscious bias, cognitive bias",
         "definitions": [
             {
@@ -188,15 +193,15 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-NOUN-SOC-08",
+        "id": "B2-NOUN-SOC-008",
         "lang": "en",
         "word": "urban planning",
         "level": "upper_intermediate",
         "theme": "furniture",
-        "emoji": "🏗️",
+        "emoji": "\ud83c\udfd7\ufe0f",
         "form": "noun phrase",
         "plural": null,
-        "transcription": "ˈɜːbən ˈplænɪŋ",
+        "transcription": "\u02c8\u025c\u02d0b\u0259n \u02c8pl\u00e6n\u026a\u014b",
         "subtext": "city development, land use",
         "definitions": [
             {

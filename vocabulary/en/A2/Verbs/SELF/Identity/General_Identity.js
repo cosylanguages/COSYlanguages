@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A2-VERB-SEL-01",
+        "id": "A2-VERB-SEL-063",
         "word": "applaud",
-        "emoji": "👏",
+        "emoji": "\ud83d\udc4f",
         "form": "verb",
         "v2": "applauded",
         "v3": "applauded",
@@ -23,7 +23,7 @@
             "cheer"
         ],
         "classification": "regular",
-        "transcription": "əˈplɔːd",
+        "transcription": "\u0259\u02c8pl\u0254\u02d0d",
         "group": "regular",
         "auxiliary": "have",
         "v4": "applauding",
@@ -39,9 +39,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A2-VERB-SEL-02",
+        "id": "A2-VERB-SEL-064",
         "word": "arrest",
-        "emoji": "👮",
+        "emoji": "\ud83d\udc6e",
         "form": "verb",
         "subtext": "be under arrest",
         "synonyms": [
@@ -59,7 +59,7 @@
         "aspect": "action",
         "v2": "arrested",
         "v3": "arrested",
-        "transcription": "əˈrɛst",
+        "transcription": "\u0259\u02c8r\u025bst",
         "group": "regular",
         "auxiliary": "have",
         "v4": "arresting",
@@ -75,9 +75,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A2-VERB-SEL-03",
+        "id": "A2-VERB-SEL-065",
         "word": "blame",
-        "emoji": "👈",
+        "emoji": "\ud83d\udc48",
         "form": "verb",
         "subtext": "blame someone / take the blame",
         "definitions": [
@@ -92,7 +92,7 @@
         "aspect": "action",
         "v2": "blamed",
         "v3": "blamed",
-        "transcription": "bleɪm",
+        "transcription": "ble\u026am",
         "group": "regular",
         "auxiliary": "have",
         "v4": "blaming",
@@ -108,9 +108,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A2-VERB-SEL-04",
+        "id": "A2-VERB-SEL-066",
         "word": "create",
-        "emoji": "🎨",
+        "emoji": "\ud83c\udfa8",
         "form": "verb",
         "subtext": "create something new",
         "synonyms": [
@@ -128,7 +128,7 @@
         "aspect": "action",
         "v2": "created",
         "v3": "created",
-        "transcription": "kriˈeɪt",
+        "transcription": "kri\u02c8e\u026at",
         "group": "regular",
         "auxiliary": "have",
         "v4": "creating",
@@ -144,9 +144,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A2-VERB-SEL-05",
+        "id": "A2-VERB-SEL-067",
         "word": "cure",
-        "emoji": "💊",
+        "emoji": "\ud83d\udc8a",
         "form": "verb",
         "subtext": "cure a disease",
         "definitions": [
@@ -164,7 +164,7 @@
         "synonyms": [
             "heal"
         ],
-        "transcription": "kjʊər",
+        "transcription": "kj\u028a\u0259r",
         "group": "regular",
         "auxiliary": "have",
         "v4": "curing",
@@ -180,9 +180,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A2-VERB-SEL-06",
+        "id": "A2-VERB-SEL-068",
         "word": "design",
-        "emoji": "📐",
+        "emoji": "\ud83d\udcd0",
         "form": "verb",
         "subtext": "design a website / graphic design",
         "definitions": [
@@ -197,7 +197,7 @@
         "aspect": "action",
         "v2": "designed",
         "v3": "designed",
-        "transcription": "dɪˈzaɪn",
+        "transcription": "d\u026a\u02c8za\u026an",
         "synonyms": [
             "plan",
             "create"
@@ -217,9 +217,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A2-VERB-SEL-07",
+        "id": "A2-VERB-SEL-069",
         "word": "entertain",
-        "emoji": "🎭",
+        "emoji": "\ud83c\udfad",
         "form": "verb",
         "subtext": "entertain people",
         "synonyms": [
@@ -237,7 +237,7 @@
         "aspect": "action",
         "v2": "entertained",
         "v3": "entertained",
-        "transcription": "ˌɛntərˈteɪn",
+        "transcription": "\u02cc\u025bnt\u0259r\u02c8te\u026an",
         "group": "regular",
         "auxiliary": "have",
         "v4": "entertaining",
@@ -253,9 +253,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A2-VERB-SEL-08",
+        "id": "A2-VERB-SEL-070",
         "word": "escape",
-        "emoji": "🏃",
+        "emoji": "\ud83c\udfc3",
         "form": "verb",
         "subtext": "escape from prison / lucky escape",
         "definitions": [
@@ -270,7 +270,7 @@
         "aspect": "action",
         "v2": "escaped",
         "v3": "escaped",
-        "transcription": "ɪˈskeɪp",
+        "transcription": "\u026a\u02c8ske\u026ap",
         "group": "regular",
         "auxiliary": "have",
         "v4": "escaping",
@@ -286,9 +286,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A2-VERB-SEL-09",
+        "id": "A2-VERB-SEL-071",
         "word": "exhale",
-        "emoji": "🌬️",
+        "emoji": "\ud83c\udf2c\ufe0f",
         "form": "verb",
         "subtext": "exhale slowly",
         "definitions": [
@@ -303,7 +303,7 @@
         "aspect": "action",
         "v2": "exhaled",
         "v3": "exhaled",
-        "transcription": "ɛksˈheɪl",
+        "transcription": "\u025bks\u02c8he\u026al",
         "group": "regular",
         "auxiliary": "have",
         "v4": "exhaling",
@@ -319,9 +319,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A2-VERB-SEL-10",
+        "id": "A2-VERB-SEL-072",
         "word": "inhale",
-        "emoji": "🫁",
+        "emoji": "\ud83e\udec1",
         "form": "verb",
         "subtext": "inhale deeply",
         "definitions": [
@@ -336,7 +336,7 @@
         "aspect": "action",
         "v2": "inhaled",
         "v3": "inhaled",
-        "transcription": "ɪnˈheɪl",
+        "transcription": "\u026an\u02c8he\u026al",
         "group": "regular",
         "auxiliary": "have",
         "v4": "inhaling",
@@ -352,9 +352,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A2-VERB-SEL-11",
+        "id": "A2-VERB-SEL-073",
         "word": "injure",
-        "emoji": "🤕",
+        "emoji": "\ud83e\udd15",
         "form": "verb",
         "subtext": "get injured, injury",
         "synonyms": [
@@ -373,7 +373,7 @@
         "aspect": "action",
         "v2": "injured",
         "v3": "injured",
-        "transcription": "ˈɪndʒər",
+        "transcription": "\u02c8\u026and\u0292\u0259r",
         "group": "regular",
         "auxiliary": "have",
         "v4": "injuring",
@@ -389,9 +389,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A2-VERB-SEL-12",
+        "id": "A2-VERB-SEL-074",
         "word": "kill",
-        "emoji": "⚔️",
+        "emoji": "\u2694\ufe0f",
         "form": "verb",
         "subtext": "kill time, kill an insect",
         "definitions": [
@@ -406,7 +406,7 @@
         "aspect": "action",
         "v2": "killed",
         "v3": "killed",
-        "transcription": "kɪl",
+        "transcription": "k\u026al",
         "synonyms": [
             "die"
         ],
@@ -425,9 +425,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A2-VERB-SEL-13",
+        "id": "A2-VERB-SEL-075",
         "word": "perform",
-        "emoji": "🎭",
+        "emoji": "\ud83c\udfad",
         "form": "verb",
         "subtext": "perform on stage / perform well / perform a task",
         "definitions": [
@@ -443,7 +443,7 @@
         "aspect": "action",
         "v2": "performed",
         "v3": "performed",
-        "transcription": "pərˈfɔːrm",
+        "transcription": "p\u0259r\u02c8f\u0254\u02d0rm",
         "synonyms": [
             "act",
             "do"
@@ -463,9 +463,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A2-VERB-SEL-14",
+        "id": "A2-VERB-SEL-076",
         "word": "prohibit",
-        "emoji": "🚫",
+        "emoji": "\ud83d\udeab",
         "form": "verb",
         "subtext": "stop, not allow",
         "synonyms": [
@@ -484,7 +484,7 @@
         "aspect": "action",
         "v2": "prohibited",
         "v3": "prohibited",
-        "transcription": "prəˈhɪbɪt",
+        "transcription": "pr\u0259\u02c8h\u026ab\u026at",
         "group": "regular",
         "auxiliary": "have",
         "v4": "prohibiting",
@@ -500,9 +500,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A2-VERB-SEL-15",
+        "id": "A2-VERB-SEL-077",
         "word": "recover",
-        "emoji": "🩹",
+        "emoji": "\ud83e\ude79",
         "form": "verb",
         "subtext": "recover from illness / recover quickly / recover fully",
         "definitions": [
@@ -517,7 +517,7 @@
         "aspect": "action",
         "v2": "recovered",
         "v3": "recovered",
-        "transcription": "rɪˈkʌvər",
+        "transcription": "r\u026a\u02c8k\u028cv\u0259r",
         "synonyms": [
             "get well",
             "get better"
@@ -537,9 +537,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A2-VERB-SEL-16",
+        "id": "A2-VERB-SEL-078",
         "word": "reflect",
-        "emoji": "🪞",
+        "emoji": "\ud83e\ude9e",
         "form": "verb",
         "definitions": [
             {
@@ -558,7 +558,7 @@
         "aspect": "action",
         "v2": "reflected",
         "v3": "reflected",
-        "transcription": "rɪˈflɛkt",
+        "transcription": "r\u026a\u02c8fl\u025bkt",
         "group": "regular",
         "auxiliary": "have",
         "v4": "reflecting",
@@ -574,9 +574,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A2-VERB-SEL-17",
+        "id": "A2-VERB-SEL-079",
         "word": "rehearse",
-        "emoji": "🎭",
+        "emoji": "\ud83c\udfad",
         "form": "verb",
         "v2": "rehearsed",
         "v3": "rehearsed",
@@ -594,7 +594,7 @@
             "practice"
         ],
         "classification": "regular",
-        "transcription": "rɪˈhɜːrs",
+        "transcription": "r\u026a\u02c8h\u025c\u02d0rs",
         "group": "regular",
         "auxiliary": "have",
         "v4": "rehearsing",
@@ -610,9 +610,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A2-VERB-SEL-18",
+        "id": "A2-VERB-SEL-080",
         "word": "suffer",
-        "emoji": "🤕",
+        "emoji": "\ud83e\udd15",
         "form": "verb",
         "subtext": "suffer from / suffer pain / suffer stress",
         "definitions": [
@@ -627,7 +627,7 @@
         "aspect": "action",
         "v2": "suffered",
         "v3": "suffered",
-        "transcription": "ˈsʌfər",
+        "transcription": "\u02c8s\u028cf\u0259r",
         "synonyms": [
             "be in pain"
         ],
@@ -646,9 +646,9 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A2-VERB-SEL-19",
+        "id": "A2-VERB-SEL-081",
         "word": "swallow",
-        "emoji": "👅",
+        "emoji": "\ud83d\udc45",
         "form": "verb",
         "subtext": "hard to swallow",
         "definitions": [
@@ -663,7 +663,7 @@
         "aspect": "action",
         "v2": "swallowed",
         "v3": "swallowed",
-        "transcription": "🇬🇧 ˈswɒloʊ | 🇺🇸 ˈswɑːloʊ",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8sw\u0252lo\u028a | \ud83c\uddfa\ud83c\uddf8 \u02c8sw\u0251\u02d0lo\u028a",
         "synonyms": [
             "eat"
         ],

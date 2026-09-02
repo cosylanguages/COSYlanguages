@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-COM-01",
+        "id": "A1-VERB-COM-011",
         "word": "hide",
-        "emoji": "🙈",
+        "emoji": "\ud83d\ude48",
         "subtext": "hide and seek / hide from someone / hide something",
         "form": "verb",
         "definitions": [
@@ -20,7 +20,7 @@
         "v2": "hid",
         "v3": "hidden",
         "group": "irregular",
-        "transcription": "haɪd",
+        "transcription": "ha\u026ad",
         "lang": "en",
         "level": "starter",
         "theme": "toys_games",
@@ -36,9 +36,9 @@
         "sub_subcategory": "Games_Play"
     },
     {
-        "id": "A1-VERB-COM-02",
+        "id": "A1-VERB-COM-012",
         "word": "hide",
-        "emoji": "🙈",
+        "emoji": "\ud83d\ude48",
         "subtext": "hide and seek / hide from someone / hide something",
         "form": "verb",
         "definitions": [
@@ -54,7 +54,7 @@
         "v2": "hid",
         "v3": "hidden",
         "group": "regular",
-        "transcription": "haɪd",
+        "transcription": "ha\u026ad",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
@@ -71,9 +71,9 @@
         "sub_subcategory": "Games_Play"
     },
     {
-        "id": "A1-VERB-COM-03",
+        "id": "A1-VERB-COM-013",
         "word": "seek",
-        "emoji": "🔍",
+        "emoji": "\ud83d\udd0d",
         "form": "verb",
         "subtext": "hide and seek / seek help",
         "synonyms": [
@@ -108,9 +108,9 @@
         "sub_subcategory": "Games_Play"
     },
     {
-        "id": "A1-VERB-COM-04",
+        "id": "A1-VERB-COM-014",
         "word": "seek",
-        "emoji": "🔍",
+        "emoji": "\ud83d\udd0d",
         "form": "verb",
         "subtext": "hide and seek / seek help",
         "synonyms": [

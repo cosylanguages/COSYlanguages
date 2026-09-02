@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "B1-ADJ-PEO-01",
+        "id": "B1-ADJ-PEO-012",
         "word": "equal",
         "lang": "en",
         "level": "intermediate",
@@ -16,8 +16,8 @@
                 ]
             }
         ],
-        "transcription": "ˈiːkwəl",
-        "emoji": "❓",
+        "transcription": "\u02c8i\u02d0kw\u0259l",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "equal pay / equal rights / completely equal"
         },
@@ -29,7 +29,7 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B1-ADJ-PEO-02",
+        "id": "B1-ADJ-PEO-013",
         "word": "fair",
         "lang": "en",
         "level": "intermediate",
@@ -43,8 +43,8 @@
                 ]
             }
         ],
-        "transcription": "🇬🇧 feə | 🇺🇸 feər",
-        "emoji": "❓",
+        "transcription": "\ud83c\uddec\ud83c\udde7 fe\u0259 | \ud83c\uddfa\ud83c\uddf8 fe\u0259r",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "very fair / completely fair / perfectly fair"
         },
@@ -56,7 +56,7 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B1-ADJ-PEO-03",
+        "id": "B1-ADJ-PEO-014",
         "word": "political",
         "lang": "en",
         "level": "intermediate",
@@ -70,8 +70,8 @@
                 ]
             }
         ],
-        "transcription": "pəˈlɪtɪkl",
-        "emoji": "❓",
+        "transcription": "p\u0259\u02c8l\u026at\u026akl",
+        "emoji": "\u2753",
         "_legacy": {
             "subtext": "political decision / very political / highly political"
         },

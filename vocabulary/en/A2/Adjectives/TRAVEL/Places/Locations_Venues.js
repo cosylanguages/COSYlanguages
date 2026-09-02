@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A2-ADJ-TRA-01",
+        "id": "A2-ADJ-TRA-001",
         "word": "central",
-        "emoji": "📍",
+        "emoji": "\ud83d\udccd",
         "form": "adjective",
         "definitions": [
             {
@@ -21,7 +21,7 @@
         ],
         "comparative": "more central",
         "superlative": "the most central",
-        "transcription": "ˈsɛntrəl",
+        "transcription": "\u02c8s\u025bntr\u0259l",
         "lang": "en",
         "level": "elementary",
         "theme": "places",
@@ -34,9 +34,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A2-ADJ-TRA-02",
+        "id": "A2-ADJ-TRA-002",
         "word": "foreign",
-        "emoji": "🌍",
+        "emoji": "\ud83c\udf0d",
         "form": "adjective",
         "definitions": [
             {
@@ -54,7 +54,7 @@
         ],
         "comparative": "more foreign",
         "superlative": "the most foreign",
-        "transcription": "🇬🇧 ˈfɒrən | 🇺🇸 ˈfɑːrən",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8f\u0252r\u0259n | \ud83c\uddfa\ud83c\uddf8 \u02c8f\u0251\u02d0r\u0259n",
         "lang": "en",
         "level": "elementary",
         "theme": "places",
@@ -67,9 +67,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A2-ADJ-TRA-03",
+        "id": "A2-ADJ-TRA-003",
         "word": "global",
-        "emoji": "🌍",
+        "emoji": "\ud83c\udf0d",
         "form": "adjective",
         "definitions": [
             {
@@ -85,7 +85,7 @@
         ],
         "comparative": "more global",
         "superlative": "the most global",
-        "transcription": "ˈɡloʊbl",
+        "transcription": "\u02c8\u0261lo\u028abl",
         "lang": "en",
         "level": "elementary",
         "theme": "places",
@@ -98,9 +98,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A2-ADJ-TRA-04",
+        "id": "A2-ADJ-TRA-004",
         "word": "local",
-        "emoji": "🏘️",
+        "emoji": "\ud83c\udfd8\ufe0f",
         "form": "adjective",
         "definitions": [
             {
@@ -118,7 +118,7 @@
         ],
         "comparative": "more local",
         "superlative": "the most local",
-        "transcription": "ˈloʊkl",
+        "transcription": "\u02c8lo\u028akl",
         "lang": "en",
         "level": "elementary",
         "theme": "places",
@@ -131,9 +131,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A2-ADJ-TRA-05",
+        "id": "A2-ADJ-TRA-005",
         "word": "nearby",
-        "emoji": "📍",
+        "emoji": "\ud83d\udccd",
         "form": "adjective",
         "definitions": [
             {
@@ -151,7 +151,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˌnɪərˈbaɪ",
+        "transcription": "\u02ccn\u026a\u0259r\u02c8ba\u026a",
         "lang": "en",
         "level": "elementary",
         "theme": "places",
@@ -164,9 +164,9 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A2-ADJ-TRA-06",
+        "id": "A2-ADJ-TRA-006",
         "word": "remote",
-        "emoji": "🏔️",
+        "emoji": "\ud83c\udfd4\ufe0f",
         "form": "adjective",
         "definitions": [
             {
@@ -182,7 +182,7 @@
         ],
         "comparative": "remoter",
         "superlative": "the remotest",
-        "transcription": "rɪˈmoʊt",
+        "transcription": "r\u026a\u02c8mo\u028at",
         "lang": "en",
         "level": "elementary",
         "theme": "places",

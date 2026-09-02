@@ -2,11 +2,11 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-SEL-01",
+        "id": "A1-VERB-SEL-045",
         "word": "belong",
-        "emoji": "🏠",
+        "emoji": "\ud83c\udfe0",
         "form": "verb",
-        "transcription": "🇬🇧 bɪˈlɒŋ | 🇺🇸 bɪˈlɑːŋ",
+        "transcription": "\ud83c\uddec\ud83c\udde7 b\u026a\u02c8l\u0252\u014b | \ud83c\uddfa\ud83c\uddf8 b\u026a\u02c8l\u0251\u02d0\u014b",
         "definitions": [
             {
                 "text": "To be the property of someone.",

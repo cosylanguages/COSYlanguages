@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-ADJ-SEL-01",
+        "id": "A1-ADJ-SEL-185",
         "word": "blonde",
         "form": "adjective",
         "subtext": "blonde hair / a blonde woman",
@@ -19,8 +19,8 @@
         ],
         "comparative": "blonder",
         "superlative": "the blondest",
-        "emoji": "👱‍♀️",
-        "transcription": "blɑnd",
+        "emoji": "\ud83d\udc71\u200d\u2640\ufe0f",
+        "transcription": "bl\u0251nd",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -36,9 +36,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-ADJ-SEL-02",
+        "id": "A1-ADJ-SEL-186",
         "word": "curly",
-        "emoji": "🌀",
+        "emoji": "\ud83c\udf00",
         "form": "adjective",
         "subtext": "curly hair / short curly hair",
         "synonyms": [
@@ -54,7 +54,7 @@
         ],
         "comparative": "curlier",
         "superlative": "the curliest",
-        "transcription": "ˈkərli",
+        "transcription": "\u02c8k\u0259rli",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -70,9 +70,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-ADJ-SEL-03",
+        "id": "A1-ADJ-SEL-187",
         "word": "fat",
-        "emoji": "🍔",
+        "emoji": "\ud83c\udf54",
         "form": "adjective",
         "subtext": "a fat cat",
         "synonyms": [
@@ -89,7 +89,7 @@
         ],
         "comparative": "fatter",
         "superlative": "the fattest",
-        "transcription": "fæt",
+        "transcription": "f\u00e6t",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -105,9 +105,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-ADJ-SEL-04",
+        "id": "A1-ADJ-SEL-188",
         "word": "straight",
-        "emoji": "📏",
+        "emoji": "\ud83d\udccf",
         "form": "adjective",
         "subtext": "straight hair / long straight hair",
         "synonyms": [
@@ -123,7 +123,7 @@
         ],
         "comparative": "straighter",
         "superlative": "the straightest",
-        "transcription": "streɪt",
+        "transcription": "stre\u026at",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -139,9 +139,9 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-ADJ-SEL-05",
+        "id": "A1-ADJ-SEL-189",
         "word": "thin",
-        "emoji": "🥬",
+        "emoji": "\ud83e\udd6c",
         "form": "adjective",
         "subtext": "he is thin / thin legs",
         "synonyms": [
@@ -158,7 +158,7 @@
         ],
         "comparative": "thinner",
         "superlative": "the thinnest",
-        "transcription": "θɪn",
+        "transcription": "\u03b8\u026an",
         "lang": "en",
         "level": "starter",
         "theme": "body",
@@ -174,7 +174,7 @@
         "sub_subcategory": "Body_Parts"
     },
     {
-        "id": "A1-ADJ-SEL-06",
+        "id": "A1-ADJ-SEL-190",
         "word": "ugly",
         "form": "adjective",
         "subtext": "ugly building / ugly duckling",
@@ -191,8 +191,8 @@
         ],
         "comparative": "uglier",
         "superlative": "the ugliest",
-        "emoji": "👹",
-        "transcription": "ˈəgli",
+        "emoji": "\ud83d\udc79",
+        "transcription": "\u02c8\u0259gli",
         "lang": "en",
         "level": "starter",
         "theme": "body",

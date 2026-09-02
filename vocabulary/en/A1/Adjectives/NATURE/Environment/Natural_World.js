@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-ADJ-NAT-01",
+        "id": "A1-ADJ-NAT-003",
         "word": "cloudy",
-        "emoji": "☁️",
+        "emoji": "\u2601\ufe0f",
         "form": "adjective",
         "subtext": "a cloudy sky / cloudy weather",
         "synonyms": [
@@ -20,7 +20,7 @@
         ],
         "comparative": "cloudier",
         "superlative": "the cloudiest",
-        "transcription": "ˈklaʊdi",
+        "transcription": "\u02c8kla\u028adi",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -36,9 +36,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-ADJ-NAT-02",
+        "id": "A1-ADJ-NAT-004",
         "word": "cloudy",
-        "emoji": "☁️",
+        "emoji": "\u2601\ufe0f",
         "form": "adjective",
         "subtext": "a cloudy sky / cloudy weather",
         "synonyms": [
@@ -54,7 +54,7 @@
         ],
         "comparative": "cloudier",
         "superlative": "the cloudiest",
-        "transcription": "ˈklaʊdi",
+        "transcription": "\u02c8kla\u028adi",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -70,9 +70,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-ADJ-NAT-03",
+        "id": "A1-ADJ-NAT-005",
         "word": "cold",
-        "emoji": "❄️",
+        "emoji": "\u2744\ufe0f",
         "form": "adjective",
         "subtext": "very cold, cold morning / cold weather / a cold drink / too cold",
         "definitions": [
@@ -86,13 +86,13 @@
             {
                 "text": "Having a low temperature; not warm.",
                 "examples": [
-                    "I need a coat — it is very cold outside."
+                    "I need a coat \u2014 it is very cold outside."
                 ]
             }
         ],
         "comparative": "colder",
         "superlative": "the coldest",
-        "transcription": "koʊld",
+        "transcription": "ko\u028ald",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -112,9 +112,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-ADJ-NAT-04",
+        "id": "A1-ADJ-NAT-006",
         "word": "cold",
-        "emoji": "❄️",
+        "emoji": "\u2744\ufe0f",
         "form": "adjective",
         "subtext": "very cold, cold morning / cold weather / a cold drink / too cold",
         "definitions": [
@@ -128,13 +128,13 @@
             {
                 "text": "Having a low temperature; not warm.",
                 "examples": [
-                    "I need a coat — it is very cold outside."
+                    "I need a coat \u2014 it is very cold outside."
                 ]
             }
         ],
         "comparative": "colder",
         "superlative": "the coldest",
-        "transcription": "koʊld",
+        "transcription": "ko\u028ald",
         "synonyms": [
             "chilly",
             "cool"
@@ -158,7 +158,7 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-ADJ-NAT-05",
+        "id": "A1-ADJ-NAT-007",
         "word": "cool",
         "form": "adjective",
         "subtext": "cool weather / a cool drink / stay cool",
@@ -172,7 +172,7 @@
         ],
         "comparative": "cooler",
         "superlative": "the coolest",
-        "emoji": "🌬️",
+        "emoji": "\ud83c\udf2c\ufe0f",
         "transcription": "kul",
         "lang": "en",
         "level": "starter",
@@ -189,7 +189,7 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-ADJ-NAT-06",
+        "id": "A1-ADJ-NAT-008",
         "word": "cool",
         "form": "adjective",
         "subtext": "cool weather / a cool drink / stay cool",
@@ -203,7 +203,7 @@
         ],
         "comparative": "cooler",
         "superlative": "the coolest",
-        "emoji": "🌬️",
+        "emoji": "\ud83c\udf2c\ufe0f",
         "transcription": "kul",
         "lang": "en",
         "level": "starter",
@@ -220,7 +220,7 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-ADJ-NAT-07",
+        "id": "A1-ADJ-NAT-009",
         "word": "dry",
         "form": "adjective",
         "subtext": "dry weather / dry skin / keep dry",
@@ -234,8 +234,8 @@
         ],
         "comparative": "dryer",
         "superlative": "the dryest",
-        "emoji": "🏜️",
-        "transcription": "draɪ",
+        "emoji": "\ud83c\udfdc\ufe0f",
+        "transcription": "dra\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -251,7 +251,7 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-ADJ-NAT-08",
+        "id": "A1-ADJ-NAT-010",
         "word": "dry",
         "form": "adjective",
         "subtext": "dry weather / dry skin / keep dry",
@@ -265,8 +265,8 @@
         ],
         "comparative": "dryer",
         "superlative": "the dryest",
-        "emoji": "🏜️",
-        "transcription": "draɪ",
+        "emoji": "\ud83c\udfdc\ufe0f",
+        "transcription": "dra\u026a",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -282,9 +282,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-ADJ-NAT-09",
+        "id": "A1-ADJ-NAT-011",
         "word": "foggy",
-        "emoji": "🌫️",
+        "emoji": "\ud83c\udf2b\ufe0f",
         "form": "adjective",
         "subtext": "foggy morning / very foggy",
         "synonyms": [
@@ -300,7 +300,7 @@
         ],
         "comparative": "foggier",
         "superlative": "the foggiest",
-        "transcription": "ˈfɑgi",
+        "transcription": "\u02c8f\u0251gi",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -316,9 +316,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-ADJ-NAT-10",
+        "id": "A1-ADJ-NAT-012",
         "word": "foggy",
-        "emoji": "🌫️",
+        "emoji": "\ud83c\udf2b\ufe0f",
         "form": "adjective",
         "subtext": "foggy morning / very foggy",
         "synonyms": [
@@ -334,7 +334,7 @@
         ],
         "comparative": "foggier",
         "superlative": "the foggiest",
-        "transcription": "ˈfɑgi",
+        "transcription": "\u02c8f\u0251gi",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -350,9 +350,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-ADJ-NAT-11",
+        "id": "A1-ADJ-NAT-013",
         "word": "hot",
-        "emoji": "🔥",
+        "emoji": "\ud83d\udd25",
         "form": "adjective",
         "subtext": "very hot, hot weather / hot weather / a hot drink / too hot",
         "definitions": [
@@ -367,7 +367,7 @@
         ],
         "comparative": "hotter",
         "superlative": "the hottest",
-        "transcription": "hɑt",
+        "transcription": "h\u0251t",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -383,9 +383,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-ADJ-NAT-12",
+        "id": "A1-ADJ-NAT-014",
         "word": "hot",
-        "emoji": "🔥",
+        "emoji": "\ud83d\udd25",
         "form": "adjective",
         "subtext": "very hot, hot weather / hot weather / a hot drink / too hot",
         "definitions": [
@@ -400,7 +400,7 @@
         ],
         "comparative": "hotter",
         "superlative": "the hottest",
-        "transcription": "hɑt",
+        "transcription": "h\u0251t",
         "synonyms": [
             "warm"
         ],
@@ -419,9 +419,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-ADJ-NAT-13",
+        "id": "A1-ADJ-NAT-015",
         "word": "rainy",
-        "emoji": "🌧️",
+        "emoji": "\ud83c\udf27\ufe0f",
         "form": "adjective",
         "definitions": [
             {
@@ -439,7 +439,7 @@
         ],
         "comparative": "rainier",
         "superlative": "the rainiest",
-        "transcription": "ˈreɪni",
+        "transcription": "\u02c8re\u026ani",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -455,9 +455,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-ADJ-NAT-14",
+        "id": "A1-ADJ-NAT-016",
         "word": "rainy",
-        "emoji": "🌧️",
+        "emoji": "\ud83c\udf27\ufe0f",
         "form": "adjective",
         "definitions": [
             {
@@ -475,7 +475,7 @@
         ],
         "comparative": "rainier",
         "superlative": "the rainiest",
-        "transcription": "ˈreɪni",
+        "transcription": "\u02c8re\u026ani",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -491,9 +491,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-ADJ-NAT-15",
+        "id": "A1-ADJ-NAT-017",
         "word": "snowy",
-        "emoji": "❄️",
+        "emoji": "\u2744\ufe0f",
         "form": "adjective",
         "subtext": "snowy mountains / a snowy winter",
         "synonyms": [
@@ -509,7 +509,7 @@
         ],
         "comparative": "snowier",
         "superlative": "the snowiest",
-        "transcription": "snoʊi",
+        "transcription": "sno\u028ai",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -525,9 +525,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-ADJ-NAT-16",
+        "id": "A1-ADJ-NAT-018",
         "word": "snowy",
-        "emoji": "❄️",
+        "emoji": "\u2744\ufe0f",
         "form": "adjective",
         "subtext": "snowy mountains / a snowy winter",
         "synonyms": [
@@ -543,7 +543,7 @@
         ],
         "comparative": "snowier",
         "superlative": "the snowiest",
-        "transcription": "snoʊi",
+        "transcription": "sno\u028ai",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -559,9 +559,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-ADJ-NAT-17",
+        "id": "A1-ADJ-NAT-019",
         "word": "stormy",
-        "emoji": "⛈️",
+        "emoji": "\u26c8\ufe0f",
         "form": "adjective",
         "subtext": "stormy weather / a stormy night",
         "synonyms": [
@@ -577,7 +577,7 @@
         ],
         "comparative": "stormier",
         "superlative": "the stormiest",
-        "transcription": "ˈstɔrmi",
+        "transcription": "\u02c8st\u0254rmi",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -593,9 +593,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-ADJ-NAT-18",
+        "id": "A1-ADJ-NAT-020",
         "word": "stormy",
-        "emoji": "⛈️",
+        "emoji": "\u26c8\ufe0f",
         "form": "adjective",
         "subtext": "stormy weather / a stormy night",
         "synonyms": [
@@ -611,7 +611,7 @@
         ],
         "comparative": "stormier",
         "superlative": "the stormiest",
-        "transcription": "ˈstɔrmi",
+        "transcription": "\u02c8st\u0254rmi",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -627,9 +627,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-ADJ-NAT-19",
+        "id": "A1-ADJ-NAT-021",
         "word": "sunny",
-        "emoji": "☀️",
+        "emoji": "\u2600\ufe0f",
         "form": "adjective",
         "definitions": [
             {
@@ -647,7 +647,7 @@
         ],
         "comparative": "sunnier",
         "superlative": "the sunniest",
-        "transcription": "ˈsəni",
+        "transcription": "\u02c8s\u0259ni",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -663,9 +663,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-ADJ-NAT-20",
+        "id": "A1-ADJ-NAT-022",
         "word": "sunny",
-        "emoji": "☀️",
+        "emoji": "\u2600\ufe0f",
         "form": "adjective",
         "definitions": [
             {
@@ -683,7 +683,7 @@
         ],
         "comparative": "sunnier",
         "superlative": "the sunniest",
-        "transcription": "ˈsəni",
+        "transcription": "\u02c8s\u0259ni",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -699,7 +699,7 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-ADJ-NAT-21",
+        "id": "A1-ADJ-NAT-023",
         "word": "warm",
         "form": "adjective",
         "subtext": "warm weather / a warm welcome / keep warm",
@@ -713,8 +713,8 @@
         ],
         "comparative": "warmer",
         "superlative": "the warmest",
-        "emoji": "☀️",
-        "transcription": "wɔrm",
+        "emoji": "\u2600\ufe0f",
+        "transcription": "w\u0254rm",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -730,7 +730,7 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-ADJ-NAT-22",
+        "id": "A1-ADJ-NAT-024",
         "word": "warm",
         "form": "adjective",
         "subtext": "warm weather / a warm welcome / keep warm",
@@ -744,8 +744,8 @@
         ],
         "comparative": "warmer",
         "superlative": "the warmest",
-        "emoji": "☀️",
-        "transcription": "wɔrm",
+        "emoji": "\u2600\ufe0f",
+        "transcription": "w\u0254rm",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -761,7 +761,7 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-ADJ-NAT-23",
+        "id": "A1-ADJ-NAT-025",
         "word": "wet",
         "form": "adjective",
         "subtext": "wet weather / wet clothes / get wet",
@@ -775,8 +775,8 @@
         ],
         "comparative": "wetter",
         "superlative": "the wettest",
-        "emoji": "💦",
-        "transcription": "wɛt",
+        "emoji": "\ud83d\udca6",
+        "transcription": "w\u025bt",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -792,7 +792,7 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-ADJ-NAT-24",
+        "id": "A1-ADJ-NAT-026",
         "word": "wet",
         "form": "adjective",
         "subtext": "wet weather / wet clothes / get wet",
@@ -806,8 +806,8 @@
         ],
         "comparative": "wetter",
         "superlative": "the wettest",
-        "emoji": "💦",
-        "transcription": "wɛt",
+        "emoji": "\ud83d\udca6",
+        "transcription": "w\u025bt",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -823,9 +823,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-ADJ-NAT-25",
+        "id": "A1-ADJ-NAT-027",
         "word": "windy",
-        "emoji": "💨",
+        "emoji": "\ud83d\udca8",
         "form": "adjective",
         "subtext": "a windy day / very windy",
         "synonyms": [
@@ -841,7 +841,7 @@
         ],
         "comparative": "windier",
         "superlative": "the windiest",
-        "transcription": "ˈwɪndi",
+        "transcription": "\u02c8w\u026andi",
         "lang": "en",
         "level": "starter",
         "theme": "nature",
@@ -857,9 +857,9 @@
         "sub_subcategory": "Natural_World"
     },
     {
-        "id": "A1-ADJ-NAT-26",
+        "id": "A1-ADJ-NAT-028",
         "word": "windy",
-        "emoji": "💨",
+        "emoji": "\ud83d\udca8",
         "form": "adjective",
         "subtext": "a windy day / very windy",
         "synonyms": [
@@ -875,7 +875,7 @@
         ],
         "comparative": "windier",
         "superlative": "the windiest",
-        "transcription": "ˈwɪndi",
+        "transcription": "\u02c8w\u026andi",
         "lang": "en",
         "level": "starter",
         "theme": "nature",

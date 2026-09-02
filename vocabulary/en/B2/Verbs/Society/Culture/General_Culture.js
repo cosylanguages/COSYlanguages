@@ -2,12 +2,12 @@
     const lang = "en";
     const data = [
     {
-        "id": "B2-VERB-SOC-01",
+        "id": "B2-VERB-SOC-001",
         "lang": "en",
-        "transcription": "ˌnɛvəðəˈlɛs",
+        "transcription": "\u02ccn\u025bv\u0259\u00f0\u0259\u02c8l\u025bs",
         "level": "upper_intermediate",
         "theme": "language",
-        "emoji": "🏃‍♂️",
+        "emoji": "\ud83c\udfc3\u200d\u2642\ufe0f",
         "form": "adverb",
         "subtext": "",
         "synonyms": [
@@ -28,14 +28,15 @@
         "domain": "Society",
         "subcategory": "Culture",
         "pos_section": "Verbs",
-        "sub_subcategory": "General_Culture"
+        "sub_subcategory": "General_Culture",
+        "word": "nevertheless"
     },
     {
-        "id": "B2-VERB-SOC-02",
+        "id": "B2-VERB-SOC-002",
         "word": "account for",
-        "emoji": "📝",
+        "emoji": "\ud83d\udcdd",
         "form": "verb",
-        "transcription": "əˈkaʊnt fɔː",
+        "transcription": "\u0259\u02c8ka\u028ant f\u0254\u02d0",
         "subtext": "Neutral | account for something / account for the difference / hard to account for",
         "definitions": [
             {
@@ -64,11 +65,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-03",
+        "id": "B2-VERB-SOC-003",
         "word": "acknowledge",
-        "emoji": "✅",
+        "emoji": "\u2705",
         "form": "verb",
-        "transcription": "🇬🇧 əkˈnɒlɪdʒ | 🇺🇸 əkˈnɑːlɪdʒ",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u0259k\u02c8n\u0252l\u026ad\u0292 | \ud83c\uddfa\ud83c\uddf8 \u0259k\u02c8n\u0251\u02d0l\u026ad\u0292",
         "subtext": "Neutral | acknowledge a weakness / acknowledge that / widely acknowledged",
         "definitions": [
             {
@@ -97,11 +98,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-04",
+        "id": "B2-VERB-SOC-004",
         "word": "adopt",
-        "emoji": "✅",
+        "emoji": "\u2705",
         "form": "verb",
-        "transcription": "🇬🇧 əˈdɒpt | 🇺🇸 əˈdɑːpt",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u0259\u02c8d\u0252pt | \ud83c\uddfa\ud83c\uddf8 \u0259\u02c8d\u0251\u02d0pt",
         "subtext": "Neutral | adopt a policy / adopt an approach / adopt a new system",
         "definitions": [
             {
@@ -130,11 +131,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-05",
+        "id": "B2-VERB-SOC-005",
         "word": "affect",
-        "emoji": "✨",
+        "emoji": "\u2728",
         "form": "verb",
-        "transcription": "əˈfɛkt",
+        "transcription": "\u0259\u02c8f\u025bkt",
         "subtext": "Neutral | affect someone / negatively affect / affect the result",
         "definitions": [
             {
@@ -163,11 +164,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-06",
+        "id": "B2-VERB-SOC-006",
         "word": "argue",
-        "emoji": "🗣️",
+        "emoji": "\ud83d\udde3\ufe0f",
         "form": "verb",
-        "transcription": "ˈɑːɡjuː",
+        "transcription": "\u02c8\u0251\u02d0\u0261ju\u02d0",
         "subtext": "Neutral | argue that / argue for / argue against / strongly argue",
         "definitions": [
             {
@@ -196,11 +197,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-07",
+        "id": "B2-VERB-SOC-007",
         "word": "assert",
-        "emoji": "📣",
+        "emoji": "\ud83d\udce3",
         "form": "verb",
-        "transcription": "əˈsɜːt",
+        "transcription": "\u0259\u02c8s\u025c\u02d0t",
         "subtext": "Formal | assert that / assert a right / boldly assert",
         "definitions": [
             {
@@ -229,11 +230,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-08",
+        "id": "B2-VERB-SOC-008",
         "word": "assume",
-        "emoji": "🤔",
+        "emoji": "\ud83e\udd14",
         "form": "verb",
-        "transcription": "əˈsjuːm",
+        "transcription": "\u0259\u02c8sju\u02d0m",
         "subtext": "Neutral | assume that / dangerous to assume / underlying assumption",
         "definitions": [
             {
@@ -262,11 +263,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-09",
+        "id": "B2-VERB-SOC-009",
         "word": "attribute",
-        "emoji": "🏷️",
+        "emoji": "\ud83c\udff7\ufe0f",
         "form": "verb",
-        "transcription": "əˈtrɪbjuːt",
+        "transcription": "\u0259\u02c8tr\u026abju\u02d0t",
         "subtext": "Formal | attribute to / be attributed to / wrongly attribute",
         "definitions": [
             {
@@ -295,11 +296,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-10",
+        "id": "B2-VERB-SOC-010",
         "word": "build on",
-        "emoji": "🏗️",
+        "emoji": "\ud83c\udfd7\ufe0f",
         "form": "verb",
-        "transcription": "🇬🇧 bɪld ɒn | 🇺🇸 bɪld ɑːn",
+        "transcription": "\ud83c\uddec\ud83c\udde7 b\u026ald \u0252n | \ud83c\uddfa\ud83c\uddf8 b\u026ald \u0251\u02d0n",
         "subtext": "Neutral | build on success / build on experience / build on foundations",
         "definitions": [
             {
@@ -327,11 +328,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-11",
+        "id": "B2-VERB-SOC-011",
         "word": "challenge",
-        "emoji": "❓",
+        "emoji": "\u2753",
         "form": "verb",
-        "transcription": "ˈtʃælɪndʒ",
+        "transcription": "\u02c8t\u0283\u00e6l\u026and\u0292",
         "subtext": "Neutral | challenge an assumption / challenge a claim / challenge the status quo",
         "definitions": [
             {
@@ -360,11 +361,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-12",
+        "id": "B2-VERB-SOC-012",
         "word": "concede",
-        "emoji": "🏳️",
+        "emoji": "\ud83c\udff3\ufe0f",
         "form": "verb",
-        "transcription": "kənˈsiːd",
+        "transcription": "k\u0259n\u02c8si\u02d0d",
         "subtext": "Formal | concede a point / concede that / forced to concede",
         "definitions": [
             {
@@ -393,11 +394,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-13",
+        "id": "B2-VERB-SOC-013",
         "word": "constitute",
-        "emoji": "🧱",
+        "emoji": "\ud83e\uddf1",
         "form": "verb",
-        "transcription": "🇬🇧 ˈkɒnstɪtjuːt | 🇺🇸 ˈkɑːnstɪtjuːt",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8k\u0252nst\u026atju\u02d0t | \ud83c\uddfa\ud83c\uddf8 \u02c8k\u0251\u02d0nst\u026atju\u02d0t",
         "subtext": "Formal | constitute a breach / constitute evidence / constitute a problem",
         "definitions": [
             {
@@ -426,11 +427,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-14",
+        "id": "B2-VERB-SOC-014",
         "word": "contend",
-        "emoji": "🗣️",
+        "emoji": "\ud83d\udde3\ufe0f",
         "form": "verb",
-        "transcription": "kənˈtɛnd",
+        "transcription": "k\u0259n\u02c8t\u025bnd",
         "subtext": "Formal | contend that / strongly contend / the argument contends",
         "definitions": [
             {
@@ -459,11 +460,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-15",
+        "id": "B2-VERB-SOC-015",
         "word": "contribute",
-        "emoji": "🤝",
+        "emoji": "\ud83e\udd1d",
         "form": "verb",
-        "transcription": "kənˈtrɪbjuːt",
+        "transcription": "k\u0259n\u02c8tr\u026abju\u02d0t",
         "subtext": "Neutral | contribute to / contribute to success / make a contribution",
         "definitions": [
             {
@@ -492,11 +493,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-16",
+        "id": "B2-VERB-SOC-016",
         "word": "counter",
-        "emoji": "🛡️",
+        "emoji": "\ud83d\udee1\ufe0f",
         "form": "verb",
-        "transcription": "🇬🇧 ˈkaʊntə | 🇺🇸 ˈkaʊntər",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8ka\u028ant\u0259 | \ud83c\uddfa\ud83c\uddf8 \u02c8ka\u028ant\u0259r",
         "subtext": "Formal | counter an argument / counter a claim / offer a counter",
         "definitions": [
             {
@@ -525,11 +526,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-17",
+        "id": "B2-VERB-SOC-017",
         "word": "demonstrate",
-        "emoji": "📊",
+        "emoji": "\ud83d\udcca",
         "form": "verb",
-        "transcription": "ˈdɛmənstreɪt",
+        "transcription": "\u02c8d\u025bm\u0259nstre\u026at",
         "subtext": "Neutral | demonstrate a skill / demonstrate that / demonstrate commitment",
         "definitions": [
             {
@@ -558,11 +559,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-18",
+        "id": "B2-VERB-SOC-018",
         "word": "dispute",
-        "emoji": "🚫",
+        "emoji": "\ud83d\udeab",
         "form": "verb",
-        "transcription": "dɪˈspjuːt",
+        "transcription": "d\u026a\u02c8spju\u02d0t",
         "subtext": "Formal | dispute a claim / dispute findings / hotly disputed",
         "definitions": [
             {
@@ -591,11 +592,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-19",
+        "id": "B2-VERB-SOC-019",
         "word": "draw on",
-        "emoji": "📚",
+        "emoji": "\ud83d\udcda",
         "form": "verb",
-        "transcription": "🇬🇧 drɔː ɒn | 🇺🇸 drɔː ɑːn",
+        "transcription": "\ud83c\uddec\ud83c\udde7 dr\u0254\u02d0 \u0252n | \ud83c\uddfa\ud83c\uddf8 dr\u0254\u02d0 \u0251\u02d0n",
         "subtext": "Neutral | draw on experience / draw on resources / draw on expertise",
         "definitions": [
             {
@@ -623,11 +624,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-20",
+        "id": "B2-VERB-SOC-020",
         "word": "emerge",
-        "emoji": "🌱",
+        "emoji": "\ud83c\udf31",
         "form": "verb",
-        "transcription": "ɪˈmɜːdʒ",
+        "transcription": "\u026a\u02c8m\u025c\u02d0d\u0292",
         "subtext": "Formal | emerge from / emerge as / emerge as a leader",
         "definitions": [
             {
@@ -656,11 +657,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-21",
+        "id": "B2-VERB-SOC-021",
         "word": "emphasise",
-        "emoji": "🎯",
+        "emoji": "\ud83c\udfaf",
         "form": "verb",
-        "transcription": "ˈɛmfəsaɪz",
+        "transcription": "\u02c8\u025bmf\u0259sa\u026az",
         "subtext": "Formal | emphasise the importance / emphasise a point / strongly emphasise",
         "definitions": [
             {
@@ -689,11 +690,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-22",
+        "id": "B2-VERB-SOC-022",
         "word": "enable",
-        "emoji": "🔓",
+        "emoji": "\ud83d\udd13",
         "form": "verb",
-        "transcription": "ɪˈneɪbl",
+        "transcription": "\u026a\u02c8ne\u026abl",
         "subtext": "Formal | enable someone to / enable growth / enable change",
         "definitions": [
             {
@@ -722,11 +723,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-23",
+        "id": "B2-VERB-SOC-023",
         "word": "enhance",
-        "emoji": "✨",
+        "emoji": "\u2728",
         "form": "verb",
-        "transcription": "ɪnˈhɑːns",
+        "transcription": "\u026an\u02c8h\u0251\u02d0ns",
         "subtext": "Formal | enhance performance / enhance the quality / enhance productivity",
         "definitions": [
             {
@@ -755,11 +756,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-24",
+        "id": "B2-VERB-SOC-024",
         "word": "ensure",
-        "emoji": "✅",
+        "emoji": "\u2705",
         "form": "verb",
-        "transcription": "🇬🇧 ɪnˈʃʊə | 🇺🇸 ɪnˈʃʊər",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u026an\u02c8\u0283\u028a\u0259 | \ud83c\uddfa\ud83c\uddf8 \u026an\u02c8\u0283\u028a\u0259r",
         "subtext": "Formal | ensure that / ensure quality / ensure compliance",
         "definitions": [
             {
@@ -788,11 +789,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-25",
+        "id": "B2-VERB-SOC-025",
         "word": "expose",
-        "emoji": "🔓",
+        "emoji": "\ud83d\udd13",
         "form": "verb",
-        "transcription": "🇬🇧 ɪkˈspəʊz | 🇺🇸 ɪkˈspoʊz",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u026ak\u02c8sp\u0259\u028az | \ud83c\uddfa\ud83c\uddf8 \u026ak\u02c8spo\u028az",
         "subtext": "Neutral | expose wrongdoing / expose someone to risk / be exposed to",
         "definitions": [
             {
@@ -821,11 +822,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-26",
+        "id": "B2-VERB-SOC-026",
         "word": "extend",
-        "emoji": "↔️",
+        "emoji": "\u2194\ufe0f",
         "form": "verb",
-        "transcription": "ɪkˈstɛnd",
+        "transcription": "\u026ak\u02c8st\u025bnd",
         "subtext": "Neutral | extend a contract / extend a deadline / extend beyond",
         "definitions": [
             {
@@ -854,11 +855,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-27",
+        "id": "B2-VERB-SOC-027",
         "word": "give rise to",
-        "emoji": "🌱",
+        "emoji": "\ud83c\udf31",
         "form": "verb",
-        "transcription": "ɡɪv raɪz tuː",
+        "transcription": "\u0261\u026av ra\u026az tu\u02d0",
         "subtext": "Formal | give rise to problems / give rise to debate / give rise to concerns",
         "definitions": [
             {
@@ -886,11 +887,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-28",
+        "id": "B2-VERB-SOC-028",
         "word": "highlight",
-        "emoji": "🖍️",
+        "emoji": "\ud83d\udd8d\ufe0f",
         "form": "verb",
-        "transcription": "ˈhaɪlaɪt",
+        "transcription": "\u02c8ha\u026ala\u026at",
         "subtext": "Neutral | highlight an issue / highlight a point / highlight the importance",
         "definitions": [
             {
@@ -919,11 +920,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-29",
+        "id": "B2-VERB-SOC-029",
         "word": "indicate",
-        "emoji": "👉",
+        "emoji": "\ud83d\udc49",
         "form": "verb",
-        "transcription": "ˈɪndɪkeɪt",
+        "transcription": "\u02c8\u026and\u026ake\u026at",
         "subtext": "Formal | indicate that / indicate a trend / clearly indicate",
         "definitions": [
             {
@@ -952,11 +953,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-30",
+        "id": "B2-VERB-SOC-030",
         "word": "infer",
-        "emoji": "💡",
+        "emoji": "\ud83d\udca1",
         "form": "verb",
-        "transcription": "ɪnˈfɜː",
+        "transcription": "\u026an\u02c8f\u025c\u02d0",
         "subtext": "Formal | infer from / reasonably infer / draw an inference",
         "definitions": [
             {
@@ -985,11 +986,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-31",
+        "id": "B2-VERB-SOC-031",
         "word": "justify",
-        "emoji": "✅",
+        "emoji": "\u2705",
         "form": "verb",
-        "transcription": "ˈdʒʌstɪfaɪ",
+        "transcription": "\u02c8d\u0292\u028cst\u026afa\u026a",
         "subtext": "Neutral | justify a decision / justify costs / hard to justify",
         "definitions": [
             {
@@ -1018,11 +1019,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-32",
+        "id": "B2-VERB-SOC-032",
         "word": "maintain",
-        "emoji": "🧱",
+        "emoji": "\ud83e\uddf1",
         "form": "verb",
-        "transcription": "meɪnˈteɪn",
+        "transcription": "me\u026an\u02c8te\u026an",
         "subtext": "Formal | maintain that / firmly maintain / maintain a position",
         "definitions": [
             {
@@ -1051,11 +1052,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-33",
+        "id": "B2-VERB-SOC-033",
         "word": "obtain",
-        "emoji": "📥",
+        "emoji": "\ud83d\udce5",
         "form": "verb",
-        "transcription": "əbˈteɪn",
+        "transcription": "\u0259b\u02c8te\u026an",
         "subtext": "Formal | obtain permission / obtain a qualification / obtain information",
         "definitions": [
             {
@@ -1084,11 +1085,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-34",
+        "id": "B2-VERB-SOC-034",
         "word": "overcome",
-        "emoji": "🏆",
+        "emoji": "\ud83c\udfc6",
         "form": "verb",
-        "transcription": "🇬🇧 ˌəʊvəˈkʌm | 🇺🇸 ˌoʊvəˈkʌm",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02cc\u0259\u028av\u0259\u02c8k\u028cm | \ud83c\uddfa\ud83c\uddf8 \u02cco\u028av\u0259\u02c8k\u028cm",
         "subtext": "Neutral | overcome a challenge / overcome obstacles / overcome fear",
         "definitions": [
             {
@@ -1116,11 +1117,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-35",
+        "id": "B2-VERB-SOC-035",
         "word": "overlook",
-        "emoji": "🙈",
+        "emoji": "\ud83d\ude48",
         "form": "verb",
-        "transcription": "🇬🇧 ˌəʊvəˈlʊk | 🇺🇸 ˌoʊvəˈlʊk",
+        "transcription": "\ud83c\uddec\ud83c\udde7 \u02cc\u0259\u028av\u0259\u02c8l\u028ak | \ud83c\uddfa\ud83c\uddf8 \u02cco\u028av\u0259\u02c8l\u028ak",
         "subtext": "Neutral | overlook a detail / easy to overlook / overlook a problem",
         "definitions": [
             {
@@ -1149,11 +1150,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-36",
+        "id": "B2-VERB-SOC-036",
         "word": "perceive",
-        "emoji": "👁️",
+        "emoji": "\ud83d\udc41\ufe0f",
         "form": "verb",
-        "transcription": "pəˈsiːv",
+        "transcription": "p\u0259\u02c8si\u02d0v",
         "subtext": "Formal | perceive something / be perceived as / widely perceived",
         "definitions": [
             {
@@ -1182,11 +1183,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-37",
+        "id": "B2-VERB-SOC-037",
         "word": "phase out",
-        "emoji": "📉",
+        "emoji": "\ud83d\udcc9",
         "form": "verb",
-        "transcription": "feɪz aʊt",
+        "transcription": "fe\u026az a\u028at",
         "subtext": "Neutral | phase out a product / phase out gradually / be phased out",
         "definitions": [
             {
@@ -1215,11 +1216,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-38",
+        "id": "B2-VERB-SOC-038",
         "word": "propose",
-        "emoji": "💡",
+        "emoji": "\ud83d\udca1",
         "form": "verb",
-        "transcription": "🇬🇧 prəˈpəʊz | 🇺🇸 prəˈpoʊz",
+        "transcription": "\ud83c\uddec\ud83c\udde7 pr\u0259\u02c8p\u0259\u028az | \ud83c\uddfa\ud83c\uddf8 pr\u0259\u02c8po\u028az",
         "subtext": "Neutral | propose a solution / propose a change / propose that",
         "definitions": [
             {
@@ -1248,11 +1249,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-39",
+        "id": "B2-VERB-SOC-039",
         "word": "pursue",
-        "emoji": "🏃",
+        "emoji": "\ud83c\udfc3",
         "form": "verb",
-        "transcription": "pəˈsjuː",
+        "transcription": "p\u0259\u02c8sju\u02d0",
         "subtext": "Neutral | pursue a goal / pursue a career / pursue a claim",
         "definitions": [
             {
@@ -1281,11 +1282,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-40",
+        "id": "B2-VERB-SOC-040",
         "word": "reflect",
-        "emoji": "🪞",
+        "emoji": "\ud83e\ude9e",
         "form": "verb",
-        "transcription": "rɪˈflɛkt",
+        "transcription": "r\u026a\u02c8fl\u025bkt",
         "subtext": "Neutral | reflect on / reflect a view / reflect badly on / time to reflect",
         "definitions": [
             {
@@ -1314,11 +1315,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-41",
+        "id": "B2-VERB-SOC-041",
         "word": "refute",
-        "emoji": "❌",
+        "emoji": "\u274c",
         "form": "verb",
-        "transcription": "rɪˈfjuːt",
+        "transcription": "r\u026a\u02c8fju\u02d0t",
         "subtext": "Formal | refute a claim / refute an argument / difficult to refute",
         "definitions": [
             {
@@ -1347,11 +1348,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-42",
+        "id": "B2-VERB-SOC-042",
         "word": "retain",
-        "emoji": "📦",
+        "emoji": "\ud83d\udce6",
         "form": "verb",
-        "transcription": "rɪˈteɪn",
+        "transcription": "r\u026a\u02c8te\u026an",
         "subtext": "Formal | retain staff / retain customers / retain information",
         "definitions": [
             {
@@ -1380,11 +1381,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-43",
+        "id": "B2-VERB-SOC-043",
         "word": "stand out",
-        "emoji": "🌟",
+        "emoji": "\ud83c\udf1f",
         "form": "verb",
-        "transcription": "stænd aʊt",
+        "transcription": "st\u00e6nd a\u028at",
         "subtext": "Neutral | stand out from the crowd / stand out as / make something stand out",
         "definitions": [
             {
@@ -1412,11 +1413,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-44",
+        "id": "B2-VERB-SOC-044",
         "word": "stem from",
-        "emoji": "🌱",
+        "emoji": "\ud83c\udf31",
         "form": "verb",
-        "transcription": "stɛm frəm",
+        "transcription": "st\u025bm fr\u0259m",
         "subtext": "Formal | stem from a cause / problems stem from / stem from a decision",
         "definitions": [
             {
@@ -1445,11 +1446,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-45",
+        "id": "B2-VERB-SOC-045",
         "word": "substantiate",
-        "emoji": "📄",
+        "emoji": "\ud83d\udcc4",
         "form": "verb",
-        "transcription": "səbˈstænʃieɪt",
+        "transcription": "s\u0259b\u02c8st\u00e6n\u0283ie\u026at",
         "subtext": "Formal | substantiate a claim / substantiate allegations / require substantiation",
         "definitions": [
             {
@@ -1478,11 +1479,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-46",
+        "id": "B2-VERB-SOC-046",
         "word": "take into account",
-        "emoji": "🤔",
+        "emoji": "\ud83e\udd14",
         "form": "verb",
-        "transcription": "teɪk ˈɪntə əˈkaʊnt",
+        "transcription": "te\u026ak \u02c8\u026ant\u0259 \u0259\u02c8ka\u028ant",
         "subtext": "Formal | take into account / fail to take into account / be taken into account",
         "definitions": [
             {

@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-VERB-HOM-01",
+        "id": "A1-VERB-HOM-005",
         "word": "put",
-        "emoji": "📥",
+        "emoji": "\ud83d\udce5",
         "subtext": "put on / put away / put the phone down / put money aside",
         "form": "verb",
         "definitions": [
@@ -21,7 +21,7 @@
         "v2": "put",
         "v3": "put",
         "group": "irregular",
-        "transcription": "pʊt",
+        "transcription": "p\u028at",
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
@@ -37,9 +37,9 @@
         "sub_subcategory": "Living_Furniture"
     },
     {
-        "id": "A1-VERB-HOM-02",
+        "id": "A1-VERB-HOM-006",
         "word": "put",
-        "emoji": "📥",
+        "emoji": "\ud83d\udce5",
         "subtext": "put on / put away / put the phone down / put money aside",
         "form": "verb",
         "definitions": [
@@ -56,7 +56,7 @@
         "v2": "put",
         "v3": "put",
         "group": "regular",
-        "transcription": "pʊt",
+        "transcription": "p\u028at",
         "auxiliary": "have",
         "lang": "en",
         "level": "starter",
