@@ -390,6 +390,230 @@
         "subcategory": "Leisure",
         "pos_section": "Nouns",
         "sub_subcategory": "Athletic_Sports"
+    },
+    {
+        "id": "A1-NOUN-COM-168",
+        "word": "Seat",
+        "emoji": "\ud83d\udcd6",
+        "form": "noun",
+        "subtext": "a place to sit in a vehicle or room.",
+        "definitions": [
+            {
+                "text": "a place to sit in a vehicle or room.",
+                "examples": [
+                    "I prefer a window seat on the plane."
+                ]
+            }
+        ],
+        "transcription": "s\u02c8it",
+        "lang": "en",
+        "level": "starter",
+        "theme": "leisure",
+        "sub_theme": "athletic_sports",
+        "antonyms": [
+            "aisle"
+        ],
+        "legacy_id": "EVENT-celebrate-cheap-flight-day",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Leisure",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Athletic_Sports"
+    },
+    {
+        "id": "A1-NOUN-COM-169",
+        "word": "Care",
+        "emoji": "\ud83d\udcd6",
+        "form": "noun",
+        "subtext": "the process of keeping someone or something safe and healthy.",
+        "definitions": [
+            {
+                "text": "the process of keeping someone or something safe and healthy.",
+                "examples": [
+                    "Pets need love, water, and daily care."
+                ]
+            }
+        ],
+        "transcription": "k\u02c8\u025b\u0279",
+        "lang": "en",
+        "level": "starter",
+        "theme": "leisure",
+        "sub_theme": "athletic_sports",
+        "antonyms": [
+            "neglect"
+        ],
+        "legacy_id": "EVENT-celebrate-international-homeless-animals-day",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Leisure",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Athletic_Sports"
+    },
+    {
+        "id": "A1-NOUN-COM-170",
+        "word": "Shelter",
+        "emoji": "\ud83d\udcd6",
+        "form": "noun",
+        "subtext": "a place that gives protection to homeless animals.",
+        "definitions": [
+            {
+                "text": "a place that gives protection to homeless animals.",
+                "examples": [
+                    "The animal shelter has thirty dogs."
+                ]
+            }
+        ],
+        "transcription": "\u0283\u02c8\u025blt\u0259r",
+        "lang": "en",
+        "level": "starter",
+        "theme": "leisure",
+        "sub_theme": "athletic_sports",
+        "antonyms": [
+            "street"
+        ],
+        "legacy_id": "EVENT-celebrate-international-homeless-animals-day",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Leisure",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Athletic_Sports"
+    },
+    {
+        "id": "A1-NOUN-COM-171",
+        "word": "Cover",
+        "emoji": "\ud83d\udcd6",
+        "form": "noun",
+        "subtext": "the outside part of a book.",
+        "definitions": [
+            {
+                "text": "the outside part of a book.",
+                "examples": [
+                    "The book has a bright blue cover."
+                ]
+            }
+        ],
+        "transcription": "k\u02c8\u028cv\u0259r",
+        "lang": "en",
+        "level": "starter",
+        "theme": "leisure",
+        "sub_theme": "athletic_sports",
+        "antonyms": [
+            "inside"
+        ],
+        "legacy_id": "EVENT-celebrate-national-book-lovers-day",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Leisure",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Athletic_Sports"
+    },
+    {
+        "id": "A1-NOUN-COM-172",
+        "word": "Bookmark",
+        "emoji": "\ud83d\udcd6",
+        "form": "noun",
+        "subtext": "a piece of paper used to mark your place in a book.",
+        "definitions": [
+            {
+                "text": "a piece of paper used to mark your place in a book.",
+                "examples": [
+                    "I use a colorful paper bookmark."
+                ]
+            }
+        ],
+        "transcription": "b\u02c8\u028akm\u0251\u0279k",
+        "lang": "en",
+        "level": "starter",
+        "theme": "leisure",
+        "sub_theme": "athletic_sports",
+        "antonyms": [],
+        "legacy_id": "EVENT-celebrate-national-book-lovers-day",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Leisure",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Athletic_Sports"
+    },
+    {
+        "id": "A1-NOUN-COM-173",
+        "word": "Relaxation",
+        "emoji": "\ud83d\udcd6",
+        "form": "noun",
+        "subtext": "time to rest and feel calm.",
+        "definitions": [
+            {
+                "text": "time to rest and feel calm.",
+                "examples": [
+                    "Reading a book is my favorite relaxation."
+                ]
+            }
+        ],
+        "transcription": "\u0279\u02ccil\u00e6ks\u02c8e\u026a\u0283\u0259n",
+        "lang": "en",
+        "level": "starter",
+        "theme": "leisure",
+        "sub_theme": "athletic_sports",
+        "antonyms": [],
+        "legacy_id": "EVENT-celebrate-national-workaholics-day",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Leisure",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Athletic_Sports"
+    },
+    {
+        "id": "A1-NOUN-COM-174",
+        "word": "Stress",
+        "emoji": "\ud83d\udcd6",
+        "form": "noun",
+        "subtext": "a feeling of worry or pressure.",
+        "definitions": [
+            {
+                "text": "a feeling of worry or pressure.",
+                "examples": [
+                    "Too much work can cause a lot of stress."
+                ]
+            }
+        ],
+        "transcription": "st\u0279\u02c8\u025bs",
+        "lang": "en",
+        "level": "starter",
+        "theme": "leisure",
+        "sub_theme": "athletic_sports",
+        "antonyms": [],
+        "legacy_id": "EVENT-celebrate-national-workaholics-day",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Leisure",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Athletic_Sports"
+    },
+    {
+        "id": "A1-NOUN-COM-175",
+        "word": "Task",
+        "emoji": "\ud83d\udcd6",
+        "form": "noun",
+        "subtext": "a small job that you must do.",
+        "definitions": [
+            {
+                "text": "a small job that you must do.",
+                "examples": [
+                    "Cleaning the kitchen is my daily task."
+                ]
+            }
+        ],
+        "transcription": "t\u02c8\u00e6sk",
+        "lang": "en",
+        "level": "starter",
+        "theme": "leisure",
+        "sub_theme": "athletic_sports",
+        "antonyms": [],
+        "legacy_id": "EVENT-celebrate-national-workaholics-day",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Leisure",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Athletic_Sports"
     }
 ];
 
@@ -397,5 +621,8 @@
         if (!window.vocabularyData) window.vocabularyData = {};
         if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
         window.vocabularyData[lang].push(...data);
+    }
+    if (typeof module !== "undefined" && module.exports) {
+        module.exports = data;
     }
 })();

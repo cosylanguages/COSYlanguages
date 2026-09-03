@@ -185,6 +185,35 @@
         "subcategory": "Leisure",
         "pos_section": "Verbs",
         "sub_subcategory": "Athletic_Sports"
+    },
+    {
+        "id": "A1-VERB-COM-172",
+        "word": "Feed",
+        "emoji": "\ud83d\udcd6",
+        "form": "verb",
+        "subtext": "to give food to an animal or person.",
+        "definitions": [
+            {
+                "text": "to give food to an animal or person.",
+                "examples": [
+                    "Volunteers feed stray cats in the park."
+                ]
+            }
+        ],
+        "transcription": "f\u02c8id",
+        "lang": "en",
+        "level": "starter",
+        "theme": "leisure",
+        "sub_theme": "athletic_sports",
+        "antonyms": [
+            "starve"
+        ],
+        "legacy_id": "EVENT-celebrate-international-homeless-animals-day",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Leisure",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Athletic_Sports"
     }
 ];
 
@@ -192,5 +221,8 @@
         if (!window.vocabularyData) window.vocabularyData = {};
         if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
         window.vocabularyData[lang].push(...data);
+    }
+    if (typeof module !== "undefined" && module.exports) {
+        module.exports = data;
     }
 })();

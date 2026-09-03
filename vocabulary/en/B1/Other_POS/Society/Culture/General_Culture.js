@@ -84,8 +84,42 @@
         "subcategory": "Culture",
         "pos_section": "Other_POS",
         "sub_subcategory": "General_Culture"
+    },
+    {
+        "id": "B1-OTH-SOC-007",
+        "word": "shop daily",
+        "emoji": "\ud83d\udcd6",
+        "form": "adverb",
+        "subtext": "to buy food every day.",
+        "definitions": [
+            {
+                "text": "to buy food every day.",
+                "examples": [
+                    "Without a fridge, people must shop daily."
+                ]
+            }
+        ],
+        "transcription": "\u0283\u02c8\u0251p d\u02c8e\u026ali",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "culture",
+        "sub_theme": "general_culture",
+        "antonyms": [],
+        "legacy_id": "EVENT-life-fridge-life",
+        "level_code": "B1",
+        "domain": "Society",
+        "subcategory": "Culture",
+        "pos_section": "Other_POS",
+        "sub_subcategory": "General_Culture"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
+    if (typeof module !== "undefined" && module.exports) {
+        module.exports = data;
+    }
 })();
