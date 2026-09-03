@@ -1187,7 +1187,30 @@
         "subcategory": "Education",
         "pos_section": "Nouns",
         "sub_subcategory": "School_Classroom"
-    }
+    },
+    {
+        "id": "A1-NOUN-WOR-157",
+        "word": "mark",
+        "form": "noun",
+        "transcription": "mɑːrk",
+        "emoji": "📝",
+        "definitions": [
+                {
+                        "text": "A score or grade given for schoolwork.",
+                        "examples": [
+                                "She got a good mark on the test.",
+                                "The teacher gives high marks."
+                        ]
+                }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "School_Classroom"
+}
 ];
 
     if (typeof window !== "undefined") {

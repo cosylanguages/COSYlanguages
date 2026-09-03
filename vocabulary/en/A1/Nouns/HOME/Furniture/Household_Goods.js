@@ -1282,7 +1282,30 @@
         "subcategory": "Furniture",
         "pos_section": "Nouns",
         "sub_subcategory": "Household_Goods"
-    }
+    },
+    {
+        "id": "A1-NOUN-HOM-124",
+        "word": "cottage",
+        "form": "noun",
+        "transcription": "ˈkɑːtɪdʒ",
+        "emoji": "🏡",
+        "definitions": [
+                {
+                        "text": "A small house, usually in the countryside.",
+                        "examples": [
+                                "They live in a small cottage.",
+                                "The cottage has a pretty garden."
+                        ]
+                }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "HOME",
+        "subcategory": "Furniture",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Household_Goods"
+}
 ];
 
     if (typeof window !== "undefined") {

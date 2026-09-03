@@ -2105,7 +2105,30 @@
         "subcategory": "Places",
         "pos_section": "Nouns",
         "sub_subcategory": "Locations_Venues"
-    }
+    },
+    {
+        "id": "A1-NOUN-TRA-156",
+        "word": "store",
+        "form": "noun",
+        "transcription": "stɔːr",
+        "emoji": "🏬",
+        "definitions": [
+                {
+                        "text": "A place where goods are sold.",
+                        "examples": [
+                                "The clothing store is open.",
+                                "She buys food at the store."
+                        ]
+                }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+}
 ];
 
     if (typeof window !== "undefined") {

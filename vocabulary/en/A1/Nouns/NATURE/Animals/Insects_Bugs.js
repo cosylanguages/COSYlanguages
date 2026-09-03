@@ -108,7 +108,30 @@
         "subcategory": "Animals",
         "pos_section": "Nouns",
         "sub_subcategory": "Insects_Bugs"
-    }
+    },
+    {
+        "id": "A1-NOUN-NAT-098",
+        "word": "frog",
+        "form": "noun",
+        "transcription": "frɑːɡ",
+        "emoji": "🐸",
+        "definitions": [
+                {
+                        "text": "A small green animal that lives in water and jumps on land.",
+                        "examples": [
+                                "The frog jumps into the water.",
+                                "Green frogs live near ponds."
+                        ]
+                }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "NATURE",
+        "subcategory": "Animals",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Insects_Bugs"
+}
 ];
 
     if (typeof window !== "undefined") {

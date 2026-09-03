@@ -899,7 +899,99 @@
         "subcategory": "Work",
         "pos_section": "Nouns",
         "sub_subcategory": "Professions"
-    }
+    },
+    {
+        "id": "A1-NOUN-WOR-153",
+        "word": "guide",
+        "form": "noun",
+        "transcription": "ɡaɪd",
+        "emoji": "🚩",
+        "definitions": [
+                {
+                        "text": "A person who shows tourists around a place.",
+                        "examples": [
+                                "Our guide showed us the museum.",
+                                "The guide knows the city well."
+                        ]
+                }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Professions"
+},
+    {
+        "id": "A1-NOUN-WOR-154",
+        "word": "reporter",
+        "form": "noun",
+        "transcription": "rɪˈpɔːrtər",
+        "emoji": "🎙️",
+        "definitions": [
+                {
+                        "text": "A person who writes or tells news stories.",
+                        "examples": [
+                                "The reporter asks questions on TV.",
+                                "She works as a news reporter."
+                        ]
+                }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Professions"
+},
+    {
+        "id": "A1-NOUN-WOR-155",
+        "word": "singer",
+        "form": "noun",
+        "transcription": "ˈsɪŋər",
+        "emoji": "🎤",
+        "definitions": [
+                {
+                        "text": "A person who sings songs.",
+                        "examples": [
+                                "He is a famous singer.",
+                                "The singer has a beautiful voice."
+                        ]
+                }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Professions"
+},
+    {
+        "id": "A1-NOUN-WOR-156",
+        "word": "businessman",
+        "form": "noun",
+        "transcription": "ˈbɪznəsmæn",
+        "emoji": "💼",
+        "definitions": [
+                {
+                        "text": "A man who works in commercial or industrial business.",
+                        "examples": [
+                                "The businessman travels for work.",
+                                "He is a successful businessman."
+                        ]
+                }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Professions"
+}
 ];
 
     if (typeof window !== "undefined") {

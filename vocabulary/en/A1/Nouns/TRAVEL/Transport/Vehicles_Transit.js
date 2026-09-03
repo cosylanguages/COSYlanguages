@@ -391,7 +391,76 @@
         "subcategory": "Transport",
         "pos_section": "Nouns",
         "sub_subcategory": "Vehicles_Transit"
-    }
+    },
+    {
+        "id": "A1-NOUN-TRA-153",
+        "word": "airplane",
+        "form": "noun",
+        "transcription": "ˈeərpleɪn",
+        "emoji": "✈️",
+        "definitions": [
+                {
+                        "text": "A vehicle with wings that flies through the air.",
+                        "examples": [
+                                "The airplane flies high in the sky.",
+                                "We travel by airplane."
+                        ]
+                }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Transport",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Vehicles_Transit"
+},
+    {
+        "id": "A1-NOUN-TRA-154",
+        "word": "subway",
+        "form": "noun",
+        "transcription": "ˈsʌbweɪ",
+        "emoji": "🚇",
+        "definitions": [
+                {
+                        "text": "An underground railway system in a city.",
+                        "examples": [
+                                "I take the subway to work.",
+                                "The subway train arrives quickly."
+                        ]
+                }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Transport",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Vehicles_Transit"
+},
+    {
+        "id": "A1-NOUN-TRA-155",
+        "word": "metro",
+        "form": "noun",
+        "transcription": "ˈmetroʊ",
+        "emoji": "🚊",
+        "definitions": [
+                {
+                        "text": "An underground train system.",
+                        "examples": [
+                                "The metro station is near my house.",
+                                "We ride the metro every day."
+                        ]
+                }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Transport",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Vehicles_Transit"
+}
 ];
 
     if (typeof window !== "undefined") {

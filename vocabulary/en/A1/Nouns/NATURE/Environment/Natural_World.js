@@ -1308,7 +1308,30 @@
         "subcategory": "Environment",
         "pos_section": "Nouns",
         "sub_subcategory": "Natural_World"
-    }
+    },
+    {
+        "id": "A1-NOUN-NAT-099",
+        "word": "air",
+        "form": "noun",
+        "transcription": "eər",
+        "emoji": "💨",
+        "definitions": [
+                {
+                        "text": "The gas around us that we breathe.",
+                        "examples": [
+                                "Fresh air is clean and nice.",
+                                "Open the window to let air in."
+                        ]
+                }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "NATURE",
+        "subcategory": "Environment",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Natural_World"
+}
 ];
 
     if (typeof window !== "undefined") {

@@ -1603,7 +1603,30 @@
         "subcategory": "Furniture",
         "pos_section": "Nouns",
         "sub_subcategory": "Living_Furniture"
-    }
+    },
+    {
+        "id": "A1-NOUN-HOM-125",
+        "word": "garage",
+        "form": "noun",
+        "transcription": "ɡəˈrɑːʒ",
+        "emoji": "🚘",
+        "definitions": [
+                {
+                        "text": "A building where a car is kept.",
+                        "examples": [
+                                "The car is in the garage.",
+                                "He parked near the garage."
+                        ]
+                }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "HOME",
+        "subcategory": "Furniture",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Living_Furniture"
+}
 ];
 
     if (typeof window !== "undefined") {
