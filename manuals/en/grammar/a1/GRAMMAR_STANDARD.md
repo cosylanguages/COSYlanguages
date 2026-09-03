@@ -1,5 +1,7 @@
 # COSYlanguages Grammar Standard v1.0, v2.0 & v3.0 (Russian Revision)
 
+> **Note on Architecture:** For an overview of how the CEFR HTML manuals interlock with the machine-readable JSON reference layer (`reference-grammar/`), see `CONTENT_ARCHITECTURE.md` at the repository root.
+
 This document defines the strict, unified standards for all digital and print grammar materials across COSYlanguages. Every lesson, manual, reference page, and printable sheet must adhere 100% to this specification.
 
 ---
