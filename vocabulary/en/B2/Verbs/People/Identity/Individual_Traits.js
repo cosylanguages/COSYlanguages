@@ -330,8 +330,478 @@
         "subcategory": "Identity",
         "pos_section": "Verbs",
         "sub_subcategory": "Individual_Traits"
+    },
+    {
+        "id": "B2-VERB-PEO-021",
+        "word": "Assimilate",
+        "emoji": "\ud83d\udcd6",
+        "form": "verb",
+        "subtext": "take in and fully understand information or ideas.",
+        "definitions": [
+            {
+                "text": "take in and fully understand information or ideas.",
+                "examples": [
+                    "It takes years of practice to properly assimilate the nuances of a foreign language."
+                ]
+            }
+        ],
+        "transcription": "\u0259s\u02c8\u026am\u0259l\u02cce\u026at",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "identity",
+        "sub_theme": "individual_traits",
+        "antonyms": [],
+        "legacy_id": "EVENT-quotes-feynman-knowledge-isnt-free-upper-intermediate",
+        "level_code": "B2",
+        "domain": "People",
+        "subcategory": "Identity",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Individual_Traits"
+    },
+    {
+        "id": "B2-VERB-PEO-022",
+        "word": "Prescribed",
+        "emoji": "\ud83d\udcd6",
+        "form": "verb",
+        "subtext": "recommended, laid down as a rule, or officially required by a course syllabus.",
+        "definitions": [
+            {
+                "text": "recommended, laid down as a rule, or officially required by a course syllabus.",
+                "examples": [
+                    "He quickly finished the prescribed textbook and started reading advanced research papers."
+                ]
+            }
+        ],
+        "transcription": "p\u0279isk\u0279\u02c8a\u026abd",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "identity",
+        "sub_theme": "individual_traits",
+        "antonyms": [],
+        "legacy_id": "EVENT-quotes-feynman-study-hard",
+        "level_code": "B2",
+        "domain": "People",
+        "subcategory": "Identity",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Individual_Traits"
+    },
+    {
+        "id": "B2-VERB-PEO-023",
+        "word": "Obey",
+        "emoji": "\ud83d\udcd6",
+        "form": "verb",
+        "subtext": "to submit to the authority of or comply with the orders of someone.",
+        "definitions": [
+            {
+                "text": "to submit to the authority of or comply with the orders of someone.",
+                "examples": [
+                    "Children who are forced to obey every single order without question might lose their sense of autonomy."
+                ]
+            }
+        ],
+        "transcription": "o\u028ab\u02c8e\u026a",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "identity",
+        "sub_theme": "individual_traits",
+        "antonyms": [],
+        "legacy_id": "EVENT-quotes-langle-suppressed-child-quote",
+        "level_code": "B2",
+        "domain": "People",
+        "subcategory": "Identity",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Individual_Traits"
+    },
+    {
+        "id": "B2-VERB-PEO-024",
+        "word": "Simulate",
+        "emoji": "\ud83d\udcd6",
+        "form": "verb",
+        "subtext": "imitate the appearance or character of.",
+        "definitions": [
+            {
+                "text": "imitate the appearance or character of.",
+                "examples": [
+                    "It is incredibly exhausting to simulate a cheerful mood when feeling sad."
+                ]
+            }
+        ],
+        "transcription": "s\u02c8\u026amj\u0259l\u0259t",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "identity",
+        "sub_theme": "individual_traits",
+        "antonyms": [],
+        "legacy_id": "EVENT-quotes-robin-williams-quote-upper-intermediate",
+        "level_code": "B2",
+        "domain": "People",
+        "subcategory": "Identity",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Individual_Traits"
+    },
+    {
+        "id": "B2-VERB-PEO-025",
+        "word": "Shroud",
+        "emoji": "\ud83d\udcd6",
+        "form": "verb",
+        "subtext": "to cover or hide from view.",
+        "definitions": [
+            {
+                "text": "to cover or hide from view.",
+                "examples": [
+                    "He preferred to shroud his personal life in absolute mystery."
+                ]
+            }
+        ],
+        "transcription": "\u0283\u0279\u02c8a\u028ad",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "identity",
+        "sub_theme": "individual_traits",
+        "antonyms": [],
+        "legacy_id": "EVENT-quotes-robin-williams-quote-upper-intermediate",
+        "level_code": "B2",
+        "domain": "People",
+        "subcategory": "Identity",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Individual_Traits"
+    },
+    {
+        "id": "B2-VERB-PEO-026",
+        "word": "Reciprocate",
+        "emoji": "\ud83d\udcd6",
+        "form": "verb",
+        "subtext": "to respond to a gesture or action by making a corresponding one.",
+        "definitions": [
+            {
+                "text": "to respond to a gesture or action by making a corresponding one.",
+                "examples": [
+                    "When someone does you a favor, it is natural to want to reciprocate their kindness in the future."
+                ]
+            }
+        ],
+        "transcription": "\u0279\u026as\u02c8\u026ap\u0279\u0259k\u02cce\u026at",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "identity",
+        "sub_theme": "individual_traits",
+        "antonyms": [],
+        "legacy_id": "EVENT-celebrate-national-someone-day-upper-intermediate",
+        "level_code": "B2",
+        "domain": "People",
+        "subcategory": "Identity",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Individual_Traits"
+    },
+    {
+        "id": "B2-VERB-PEO-027",
+        "word": "Distorted",
+        "emoji": "\ud83d\udcd6",
+        "form": "verb",
+        "subtext": "pulled or twisted out of shape; giving a misleading or false account or impression.",
+        "definitions": [
+            {
+                "text": "pulled or twisted out of shape; giving a misleading or false account or impression.",
+                "examples": [
+                    "His view of the event was distorted by his anger."
+                ]
+            }
+        ],
+        "transcription": "d\u026ast\u02c8\u0254\u0279t\u0259d",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "identity",
+        "sub_theme": "individual_traits",
+        "antonyms": [],
+        "legacy_id": "EVENT-kus-ai-reality-delusion",
+        "level_code": "B2",
+        "domain": "People",
+        "subcategory": "Identity",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Individual_Traits"
+    },
+    {
+        "id": "B2-VERB-PEO-028",
+        "word": "Flourish",
+        "emoji": "\ud83d\udcd6",
+        "form": "verb",
+        "subtext": "to grow or develop in a healthy or vigorous way.",
+        "definitions": [
+            {
+                "text": "to grow or develop in a healthy or vigorous way.",
+                "examples": [
+                    "With constant validation, false beliefs can easily flourish and take root."
+                ]
+            }
+        ],
+        "transcription": "fl\u02c8\u025d\u026a\u0283",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "identity",
+        "sub_theme": "individual_traits",
+        "antonyms": [],
+        "legacy_id": "EVENT-kus-ai-reality-delusion",
+        "level_code": "B2",
+        "domain": "People",
+        "subcategory": "Identity",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Individual_Traits"
+    },
+    {
+        "id": "B2-VERB-PEO-029",
+        "word": "Haunting",
+        "emoji": "\ud83d\udcd6",
+        "form": "verb",
+        "subtext": "poignant and evocative; difficult to forget.",
+        "definitions": [
+            {
+                "text": "poignant and evocative; difficult to forget.",
+                "examples": [
+                    "Her haunting vocal melody stayed in the audience's mind."
+                ]
+            }
+        ],
+        "transcription": "h\u02c8\u0254nt\u026a\u014b",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "identity",
+        "sub_theme": "individual_traits",
+        "antonyms": [],
+        "legacy_id": "EVENT-karaoke-club-one-of-the-greats",
+        "level_code": "B2",
+        "domain": "People",
+        "subcategory": "Identity",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Individual_Traits"
+    },
+    {
+        "id": "B2-VERB-PEO-030",
+        "word": "exploit",
+        "emoji": "\ud83d\udcd6",
+        "form": "verb",
+        "subtext": "to make use of a situation or a person's vulnerabilities in an unfair or selfish way.",
+        "definitions": [
+            {
+                "text": "to make use of a situation or a person's vulnerabilities in an unfair or selfish way.",
+                "examples": [
+                    "Designers build notification badges in bright red to exploit our natural biological urgency."
+                ]
+            }
+        ],
+        "transcription": "\u02c8\u025bkspl\u02cc\u0254\u026at",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "identity",
+        "sub_theme": "individual_traits",
+        "antonyms": [],
+        "legacy_id": "EVENT-long-reads-attention-economy",
+        "level_code": "B2",
+        "domain": "People",
+        "subcategory": "Identity",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Individual_Traits"
+    },
+    {
+        "id": "B2-VERB-PEO-031",
+        "word": "multitask",
+        "emoji": "\ud83d\udcd6",
+        "form": "verb",
+        "subtext": "to attempt to perform several different activities or tasks at the exact same time \u2260 to concentrate entirely on a single task.",
+        "definitions": [
+            {
+                "text": "to attempt to perform several different activities or tasks at the exact same time \u2260 to concentrate entirely on a single task.",
+                "examples": [
+                    "When we try to multitask, our brain actually switches rapidly between tasks instead of maintaining deep focus."
+                ]
+            }
+        ],
+        "transcription": "m\u02c8\u028cltit\u02cc\u00e6sk",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "identity",
+        "sub_theme": "individual_traits",
+        "antonyms": [
+            "focus"
+        ],
+        "legacy_id": "EVENT-long-reads-attention-economy",
+        "level_code": "B2",
+        "domain": "People",
+        "subcategory": "Identity",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Individual_Traits"
+    },
+    {
+        "id": "B2-VERB-PEO-032",
+        "word": "flee",
+        "emoji": "\ud83d\udcd6",
+        "form": "verb",
+        "subtext": "to run away or escape from a situation of danger, discomfort, or emotional difficulty.",
+        "definitions": [
+            {
+                "text": "to run away or escape from a situation of danger, discomfort, or emotional difficulty.",
+                "examples": [
+                    "We often flee our quiet, boring thoughts by immediately reaching for our phone's lock screen."
+                ]
+            }
+        ],
+        "transcription": "fl\u02c8i",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "identity",
+        "sub_theme": "individual_traits",
+        "antonyms": [],
+        "legacy_id": "EVENT-long-reads-attention-economy",
+        "level_code": "B2",
+        "domain": "People",
+        "subcategory": "Identity",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Individual_Traits"
+    },
+    {
+        "id": "B2-VERB-PEO-033",
+        "word": "degrade",
+        "emoji": "\ud83d\udcd6",
+        "form": "verb",
+        "subtext": "to lower the quality, strength, or physical condition of something over time \u2260 to make it better or elevate its value.",
+        "definitions": [
+            {
+                "text": "to lower the quality, strength, or physical condition of something over time \u2260 to make it better or elevate its value.",
+                "examples": [
+                    "Continuous digital alerts degrade our working memory, whereas active reading exercises improve our baseline concentration."
+                ]
+            }
+        ],
+        "transcription": "d\u026a\u0261\u0279\u02c8e\u026ad",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "identity",
+        "sub_theme": "individual_traits",
+        "antonyms": [
+            "improve"
+        ],
+        "legacy_id": "EVENT-long-reads-changing-our-brains",
+        "level_code": "B2",
+        "domain": "People",
+        "subcategory": "Identity",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Individual_Traits"
+    },
+    {
+        "id": "B2-VERB-PEO-034",
+        "word": "sustain",
+        "emoji": "\ud83d\udcd6",
+        "form": "verb",
+        "subtext": "to support, hold up, or maintain something physically or mentally for an extended period.",
+        "definitions": [
+            {
+                "text": "to support, hold up, or maintain something physically or mentally for an extended period.",
+                "examples": [
+                    "Without an alarm, it is highly challenging to sustain undivided attention on a difficult book."
+                ]
+            }
+        ],
+        "transcription": "s\u0259st\u02c8e\u026an",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "identity",
+        "sub_theme": "individual_traits",
+        "antonyms": [],
+        "legacy_id": "EVENT-long-reads-changing-our-brains",
+        "level_code": "B2",
+        "domain": "People",
+        "subcategory": "Identity",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Individual_Traits"
+    },
+    {
+        "id": "B2-VERB-PEO-035",
+        "word": "crave",
+        "emoji": "\ud83d\udcd6",
+        "form": "verb",
+        "subtext": "to feel a powerful, deep desire for something, often driven by habit or physical need.",
+        "definitions": [
+            {
+                "text": "to feel a powerful, deep desire for something, often driven by habit or physical need.",
+                "examples": [
+                    "When the screen goes dark, we begin to crave the next burst of colorful digital feedback."
+                ]
+            }
+        ],
+        "transcription": "k\u0279\u02c8e\u026av",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "identity",
+        "sub_theme": "individual_traits",
+        "antonyms": [],
+        "legacy_id": "EVENT-long-reads-designed-to-addict",
+        "level_code": "B2",
+        "domain": "People",
+        "subcategory": "Identity",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Individual_Traits"
+    },
+    {
+        "id": "B2-VERB-PEO-036",
+        "word": "drip-feed",
+        "emoji": "\ud83d\udcd6",
+        "form": "verb",
+        "subtext": "to supply or provide something to someone in very small, gradual quantities over time.",
+        "definitions": [
+            {
+                "text": "to supply or provide something to someone in very small, gradual quantities over time.",
+                "examples": [
+                    "Social networks choose to drip-feed likes to your profile to maximize your total daily usage."
+                ]
+            }
+        ],
+        "transcription": "d\u0279\u02c8\u026ap f\u02c8id",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "identity",
+        "sub_theme": "individual_traits",
+        "antonyms": [],
+        "legacy_id": "EVENT-long-reads-designed-to-addict",
+        "level_code": "B2",
+        "domain": "People",
+        "subcategory": "Identity",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Individual_Traits"
+    },
+    {
+        "id": "B2-VERB-PEO-037",
+        "word": "nourish",
+        "emoji": "\ud83d\udcd6",
+        "form": "verb",
+        "subtext": "to provide with the substance, energy, or support necessary for growth, physical health, and general life.",
+        "definitions": [
+            {
+                "text": "to provide with the substance, energy, or support necessary for growth, physical health, and general life.",
+                "examples": [
+                    "We must find analog hobbies that nourish our creative spirit instead of consuming our time passively."
+                ]
+            }
+        ],
+        "transcription": "n\u02c8\u025d\u026a\u0283",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "identity",
+        "sub_theme": "individual_traits",
+        "antonyms": [],
+        "legacy_id": "EVENT-long-reads-the-30-day-breakup",
+        "level_code": "B2",
+        "domain": "People",
+        "subcategory": "Identity",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Individual_Traits"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
+    if (typeof module !== "undefined" && module.exports) {
+        module.exports = data;
+    }
 })();

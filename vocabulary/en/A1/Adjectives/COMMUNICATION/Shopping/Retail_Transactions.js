@@ -257,6 +257,33 @@
         "subcategory": "Shopping",
         "pos_section": "Adjectives",
         "sub_subcategory": "Retail_Transactions"
+    },
+    {
+        "id": "A1-ADJ-COM-021",
+        "word": "Thankful",
+        "emoji": "\ud83d\udcd6",
+        "form": "adjective",
+        "subtext": "feeling or showing thanks; grateful.",
+        "definitions": [
+            {
+                "text": "feeling or showing thanks; grateful.",
+                "examples": [
+                    "I am thankful for my healthy life."
+                ]
+            }
+        ],
+        "transcription": "\u03b8\u02c8\u00e6\u014bkf\u0259l",
+        "lang": "en",
+        "level": "starter",
+        "theme": "shopping",
+        "sub_theme": "retail_transactions",
+        "antonyms": [],
+        "legacy_id": "EVENT-celebrate-national-simplicity-day",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Shopping",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Retail_Transactions"
     }
 ];
 
@@ -264,5 +291,8 @@
         if (!window.vocabularyData) window.vocabularyData = {};
         if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
         window.vocabularyData[lang].push(...data);
+    }
+    if (typeof module !== "undefined" && module.exports) {
+        module.exports = data;
     }
 })();
