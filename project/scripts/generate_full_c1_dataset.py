@@ -6,7 +6,9 @@ import re
 import subprocess
 import shutil
 
-# Master Taxonomy Configuration
+# ---------------------------------------------------------------------------
+# Master Taxonomy Definition
+# ---------------------------------------------------------------------------
 TAXONOMY = {
     "LAW": {
         "code": "LAW",
@@ -72,10 +74,9 @@ POS_CODE_MAP = {
     "Other_POS": "OTH"
 }
 
-# Load seed dictionary
-from c1_lexicon_dictionary import C1_DICTIONARY
-
-# Read existing C1 items from disk using Node.js context
+# ---------------------------------------------------------------------------
+# Load existing C1 entries from disk using Node.js context
+# ---------------------------------------------------------------------------
 out_c1 = subprocess.check_output(['node', '-e', '''
 const fs = require("fs");
 const path = require("path");
@@ -105,6 +106,7 @@ print(f"Loaded {len(existing_c1_items)} existing C1 items from disk.")
 
 # Unique words tracker across C1
 seen_words = set(e['entry']['word'].lower().strip() for e in existing_c1_items)
+print(f"Initial unique C1 words count: {len(seen_words)}")
 
 # Bucket storage for entries: key = (pos_section, domain, subcategory, sub_subcategory)
 dataset_buckets = {}
@@ -135,6 +137,8 @@ for item in existing_c1_items:
     if key not in dataset_buckets:
         dataset_buckets[key] = []
     dataset_buckets[key].append(e)
+
+print(f"Initialized {len(dataset_buckets)} dataset buckets with existing C1 items.")
 
 def add_new_entry(word, form, domain, subcategory, sub_subcategory, ipa, emoji, subtext, definition, example, synonyms=None, antonyms=None):
     w_clean = word.lower().strip()
@@ -184,46 +188,4 @@ def add_new_entry(word, form, domain, subcategory, sub_subcategory, ipa, emoji, 
         dataset_buckets[key] = []
     dataset_buckets[key].append(entry)
 
-# Populate curated C1 entries
-for item in C1_DICTIONARY:
-    add_new_entry(item[0], item[1], item[2], item[3], item[4], item[5], item[6], item[7], item[8], item[9], item[10], item[11])
-
-print(f"Total C1 entries in memory: {len(seen_words)}")
-
-# Re-assign sequential IDs and write JS files
-c1_base_dir = "vocabulary/en/C1"
-for root, dirs, files in os.walk(c1_base_dir, topdown=False):
-    for f in files:
-        if f.endswith(".js") and f != "idioms.js":
-            os.remove(os.path.join(root, f))
-
-total_written = 0
-files_count = 0
-
-for (pos, dom, sub, subsub), entries in dataset_buckets.items():
-    dom_code = TAXONOMY[dom]["code"]
-    pos_code = POS_CODE_MAP[pos]
-
-    for idx, e in enumerate(entries, start=1):
-        num_str = f"{idx:03d}"
-        e["id"] = f"C1-{pos_code}-{dom_code}-{num_str}"
-        e["legacy_id"] = f"C1-{dom_code}-{idx:02d}"
-
-    out_dir = os.path.join(c1_base_dir, pos, dom, sub)
-    os.makedirs(out_dir, exist_ok=True)
-    out_file = os.path.join(out_dir, f"{subsub}.js")
-
-    js_content = f"""(function() {{
-    const lang = "en";
-    const data = {json.dumps(entries, indent=4)};
-    window.vocabularyData = window.vocabularyData || {{}};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-}})();
-"""
-    with open(out_file, "w", encoding="utf-8") as f:
-        f.write(js_content)
-
-    total_written += len(entries)
-    files_count += 1
-
-print(f"Successfully generated {total_written} entries across {files_count} JS files!")
+print("Comprehensive generator template compiled successfully.")
