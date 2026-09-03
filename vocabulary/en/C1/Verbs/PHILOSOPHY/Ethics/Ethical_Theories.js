@@ -27,7 +27,7 @@
         "level": "advanced",
         "theme": "moral_philosophy",
         "sub_theme": null,
-        "legacy_id": "C1-PHIL-01",
+        "legacy_id": "C1-PHI-01",
         "level_code": "C1",
         "domain": "PHILOSOPHY",
         "subcategory": "Ethics",

@@ -54612,7 +54612,7 @@
   },
   {
     "word_id": "en-word-c1-epistemic_analysis-epistemological",
-    "legacy_id": "A1-ADJ-SEL-241",
+    "legacy_id": "C1-ADJ-EPI-001",
     "word": "epistemological",
     "pos": "adjective",
     "level": "C1",
@@ -54620,6 +54620,32 @@
       "file": "vocabulary/en/C1/Adjectives/EPISTEMOLOGY/Knowledge_Theory/Epistemic_Analysis.js",
       "topic": "Epistemic_Analysis",
       "path_detail": "Adjectives/EPISTEMOLOGY/Knowledge_Theory"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-legislation-statutory",
+    "legacy_id": "C1-ADJ-LAW-001",
+    "word": "statutory",
+    "pos": "adjective",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Adjectives/LAW/Constitutional_Law/Legislation.js",
+      "topic": "Legislation",
+      "path_detail": "Adjectives/LAW/Constitutional_Law"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-liability_obligations-compensatory",
+    "legacy_id": "C1-ADJ-LAW-001",
+    "word": "compensatory",
+    "pos": "adjective",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Adjectives/LAW/Contracts/Liability_Obligations.js",
+      "topic": "Liability_Obligations",
+      "path_detail": "Adjectives/LAW/Contracts"
     },
     "grammar_refs": []
   },
@@ -55235,6 +55261,110 @@
     "grammar_refs": []
   },
   {
+    "word_id": "en-word-c1-general_law-punitive",
+    "legacy_id": "C1-ADJ-LAW-048",
+    "word": "punitive",
+    "pos": "adjective",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Adjectives/LAW/Legal_System/General_Law.js",
+      "topic": "General_Law",
+      "path_detail": "Adjectives/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-general_law-actionable",
+    "legacy_id": "C1-ADJ-LAW-049",
+    "word": "actionable",
+    "pos": "adjective",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Adjectives/LAW/Legal_System/General_Law.js",
+      "topic": "General_Law",
+      "path_detail": "Adjectives/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-general_law-litigious",
+    "legacy_id": "C1-ADJ-LAW-050",
+    "word": "litigious",
+    "pos": "adjective",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Adjectives/LAW/Legal_System/General_Law.js",
+      "topic": "General_Law",
+      "path_detail": "Adjectives/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-judicial_process-judicial",
+    "legacy_id": "C1-ADJ-LAW-001",
+    "word": "judicial",
+    "pos": "adjective",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Adjectives/LAW/Legal_System/Judicial_Process.js",
+      "topic": "Judicial_Process",
+      "path_detail": "Adjectives/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-judicial_process-custodial",
+    "legacy_id": "C1-ADJ-LAW-002",
+    "word": "custodial",
+    "pos": "adjective",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Adjectives/LAW/Legal_System/Judicial_Process.js",
+      "topic": "Judicial_Process",
+      "path_detail": "Adjectives/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-judicial_process-forensic",
+    "legacy_id": "C1-ADJ-LAW-003",
+    "word": "forensic",
+    "pos": "adjective",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Adjectives/LAW/Legal_System/Judicial_Process.js",
+      "topic": "Judicial_Process",
+      "path_detail": "Adjectives/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-judicial_process-incriminating",
+    "legacy_id": "C1-ADJ-LAW-004",
+    "word": "incriminating",
+    "pos": "adjective",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Adjectives/LAW/Legal_System/Judicial_Process.js",
+      "topic": "Judicial_Process",
+      "path_detail": "Adjectives/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-judicial_process-procedural",
+    "legacy_id": "C1-ADJ-LAW-005",
+    "word": "procedural",
+    "pos": "adjective",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Adjectives/LAW/Legal_System/Judicial_Process.js",
+      "topic": "Judicial_Process",
+      "path_detail": "Adjectives/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
     "word_id": "en-word-c1-emotions-cynical",
     "legacy_id": "C1-ADJ-PEO-001",
     "word": "cynical",
@@ -55548,7 +55678,7 @@
   },
   {
     "word_id": "en-word-c1-work-charismatic",
-    "legacy_id": "C1-ADJ-SOC-010",
+    "legacy_id": "C1-ADJ-SOC-001",
     "word": "charismatic",
     "pos": "adjective",
     "level": "C1",
@@ -55561,7 +55691,7 @@
   },
   {
     "word_id": "en-word-c1-work-illegitimate",
-    "legacy_id": "C1-ADJ-SOC-011",
+    "legacy_id": "C1-ADJ-SOC-002",
     "word": "illegitimate",
     "pos": "adjective",
     "level": "C1",
@@ -55574,7 +55704,7 @@
   },
   {
     "word_id": "en-word-c1-work-legitimate",
-    "legacy_id": "C1-ADJ-SOC-012",
+    "legacy_id": "C1-ADJ-SOC-003",
     "word": "legitimate",
     "pos": "adjective",
     "level": "C1",
@@ -55587,7 +55717,7 @@
   },
   {
     "word_id": "en-word-c1-work-regulatory",
-    "legacy_id": "C1-ADJ-SOC-013",
+    "legacy_id": "C1-ADJ-SOC-004",
     "word": "regulatory",
     "pos": "adjective",
     "level": "C1",
@@ -55712,6 +55842,32 @@
       "file": "vocabulary/en/C1/Nouns/EPISTEMOLOGY/Knowledge_Theory/Epistemic_Analysis.js",
       "topic": "knowledge_epistemology_c1",
       "path_detail": "Nouns/EPISTEMOLOGY/Knowledge_Theory"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-legislation-statute",
+    "legacy_id": "C1-NOUN-LAW-001",
+    "word": "statute",
+    "pos": "noun",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Nouns/LAW/Constitutional_Law/Legislation.js",
+      "topic": "Legislation",
+      "path_detail": "Nouns/LAW/Constitutional_Law"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-liability_obligations-restitution",
+    "legacy_id": "C1-NOUN-LAW-001",
+    "word": "restitution",
+    "pos": "noun",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Nouns/LAW/Contracts/Liability_Obligations.js",
+      "topic": "Liability_Obligations",
+      "path_detail": "Nouns/LAW/Contracts"
     },
     "grammar_refs": []
   },
@@ -56562,13 +56718,247 @@
   },
   {
     "word_id": "en-word-c1-general_law-jurisdiction",
-    "legacy_id": "A1-NOUN-SEL-097",
+    "legacy_id": "C1-NOUN-LAW-066",
     "word": "jurisdiction",
     "pos": "noun",
     "level": "C1",
     "vocab": {
       "file": "vocabulary/en/C1/Nouns/LAW/Legal_System/General_Law.js",
       "topic": "General_Law",
+      "path_detail": "Nouns/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-general_law-malfeasance",
+    "legacy_id": "C1-NOUN-LAW-067",
+    "word": "malfeasance",
+    "pos": "noun",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Nouns/LAW/Legal_System/General_Law.js",
+      "topic": "General_Law",
+      "path_detail": "Nouns/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-judicial_process-adjudication",
+    "legacy_id": "C1-NOUN-LAW-001",
+    "word": "adjudication",
+    "pos": "noun",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Nouns/LAW/Legal_System/Judicial_Process.js",
+      "topic": "Judicial_Process",
+      "path_detail": "Nouns/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-judicial_process-indictment",
+    "legacy_id": "C1-NOUN-LAW-002",
+    "word": "indictment",
+    "pos": "noun",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Nouns/LAW/Legal_System/Judicial_Process.js",
+      "topic": "Judicial_Process",
+      "path_detail": "Nouns/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-judicial_process-subpoena",
+    "legacy_id": "C1-NOUN-LAW-003",
+    "word": "subpoena",
+    "pos": "noun",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Nouns/LAW/Legal_System/Judicial_Process.js",
+      "topic": "Judicial_Process",
+      "path_detail": "Nouns/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-judicial_process-affidavit",
+    "legacy_id": "C1-NOUN-LAW-004",
+    "word": "affidavit",
+    "pos": "noun",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Nouns/LAW/Legal_System/Judicial_Process.js",
+      "topic": "Judicial_Process",
+      "path_detail": "Nouns/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-judicial_process-plaintiff",
+    "legacy_id": "C1-NOUN-LAW-005",
+    "word": "plaintiff",
+    "pos": "noun",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Nouns/LAW/Legal_System/Judicial_Process.js",
+      "topic": "Judicial_Process",
+      "path_detail": "Nouns/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-judicial_process-litigation",
+    "legacy_id": "C1-NOUN-LAW-006",
+    "word": "litigation",
+    "pos": "noun",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Nouns/LAW/Legal_System/Judicial_Process.js",
+      "topic": "Judicial_Process",
+      "path_detail": "Nouns/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-judicial_process-injunction",
+    "legacy_id": "C1-NOUN-LAW-007",
+    "word": "injunction",
+    "pos": "noun",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Nouns/LAW/Legal_System/Judicial_Process.js",
+      "topic": "Judicial_Process",
+      "path_detail": "Nouns/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-judicial_process-arbitration",
+    "legacy_id": "C1-NOUN-LAW-008",
+    "word": "arbitration",
+    "pos": "noun",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Nouns/LAW/Legal_System/Judicial_Process.js",
+      "topic": "Judicial_Process",
+      "path_detail": "Nouns/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-judicial_process-appellant",
+    "legacy_id": "C1-NOUN-LAW-009",
+    "word": "appellant",
+    "pos": "noun",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Nouns/LAW/Legal_System/Judicial_Process.js",
+      "topic": "Judicial_Process",
+      "path_detail": "Nouns/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-judicial_process-deposition",
+    "legacy_id": "C1-NOUN-LAW-010",
+    "word": "deposition",
+    "pos": "noun",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Nouns/LAW/Legal_System/Judicial_Process.js",
+      "topic": "Judicial_Process",
+      "path_detail": "Nouns/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-judicial_process-arraignment",
+    "legacy_id": "C1-NOUN-LAW-011",
+    "word": "arraignment",
+    "pos": "noun",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Nouns/LAW/Legal_System/Judicial_Process.js",
+      "topic": "Judicial_Process",
+      "path_detail": "Nouns/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-judicial_process-docket",
+    "legacy_id": "C1-NOUN-LAW-012",
+    "word": "docket",
+    "pos": "noun",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Nouns/LAW/Legal_System/Judicial_Process.js",
+      "topic": "Judicial_Process",
+      "path_detail": "Nouns/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-judicial_process-extradition",
+    "legacy_id": "C1-NOUN-LAW-013",
+    "word": "extradition",
+    "pos": "noun",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Nouns/LAW/Legal_System/Judicial_Process.js",
+      "topic": "Judicial_Process",
+      "path_detail": "Nouns/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-judicial_process-acquittal",
+    "legacy_id": "C1-NOUN-LAW-014",
+    "word": "acquittal",
+    "pos": "noun",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Nouns/LAW/Legal_System/Judicial_Process.js",
+      "topic": "Judicial_Process",
+      "path_detail": "Nouns/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-judicial_process-recusal",
+    "legacy_id": "C1-NOUN-LAW-015",
+    "word": "recusal",
+    "pos": "noun",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Nouns/LAW/Legal_System/Judicial_Process.js",
+      "topic": "Judicial_Process",
+      "path_detail": "Nouns/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-judicial_process-perjury",
+    "legacy_id": "C1-NOUN-LAW-016",
+    "word": "perjury",
+    "pos": "noun",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Nouns/LAW/Legal_System/Judicial_Process.js",
+      "topic": "Judicial_Process",
+      "path_detail": "Nouns/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-jurisprudence-jurisconsult",
+    "legacy_id": "C1-NOUN-LAW-001",
+    "word": "jurisconsult",
+    "pos": "noun",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Nouns/LAW/Legal_System/Jurisprudence.js",
+      "topic": "Jurisprudence",
       "path_detail": "Nouns/LAW/Legal_System"
     },
     "grammar_refs": []
@@ -56596,6 +56986,58 @@
       "file": "vocabulary/en/C1/Other_POS/People/Identity/Individual_Traits.js",
       "topic": "people",
       "path_detail": "Other_POS/People/Identity"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-legislation-ratify",
+    "legacy_id": "C1-VERB-LAW-001",
+    "word": "ratify",
+    "pos": "verb",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Verbs/LAW/Constitutional_Law/Legislation.js",
+      "topic": "Legislation",
+      "path_detail": "Verbs/LAW/Constitutional_Law"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-contractual_terms-nullify",
+    "legacy_id": "C1-VERB-LAW-001",
+    "word": "nullify",
+    "pos": "verb",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Verbs/LAW/Contracts/Contractual_Terms.js",
+      "topic": "Contractual_Terms",
+      "path_detail": "Verbs/LAW/Contracts"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-contractual_terms-rescind",
+    "legacy_id": "C1-VERB-LAW-002",
+    "word": "rescind",
+    "pos": "verb",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Verbs/LAW/Contracts/Contractual_Terms.js",
+      "topic": "Contractual_Terms",
+      "path_detail": "Verbs/LAW/Contracts"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-liability_obligations-indemnify",
+    "legacy_id": "C1-VERB-LAW-001",
+    "word": "indemnify",
+    "pos": "verb",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Verbs/LAW/Contracts/Liability_Obligations.js",
+      "topic": "Liability_Obligations",
+      "path_detail": "Verbs/LAW/Contracts"
     },
     "grammar_refs": []
   },
@@ -57193,6 +57635,84 @@
     "vocab": {
       "file": "vocabulary/en/C1/Verbs/LAW/Legal_System/General_Law.js",
       "topic": "sociology_structures_c1",
+      "path_detail": "Verbs/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-general_law-sanction",
+    "legacy_id": "C1-VERB-LAW-047",
+    "word": "sanction",
+    "pos": "verb",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Verbs/LAW/Legal_System/General_Law.js",
+      "topic": "General_Law",
+      "path_detail": "Verbs/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-judicial_process-adjudicate",
+    "legacy_id": "C1-VERB-LAW-001",
+    "word": "adjudicate",
+    "pos": "verb",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Verbs/LAW/Legal_System/Judicial_Process.js",
+      "topic": "Judicial_Process",
+      "path_detail": "Verbs/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-judicial_process-exonerate",
+    "legacy_id": "C1-VERB-LAW-002",
+    "word": "exonerate",
+    "pos": "verb",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Verbs/LAW/Legal_System/Judicial_Process.js",
+      "topic": "Judicial_Process",
+      "path_detail": "Verbs/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-judicial_process-incriminate",
+    "legacy_id": "C1-VERB-LAW-003",
+    "word": "incriminate",
+    "pos": "verb",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Verbs/LAW/Legal_System/Judicial_Process.js",
+      "topic": "Judicial_Process",
+      "path_detail": "Verbs/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-judicial_process-extradite",
+    "legacy_id": "C1-VERB-LAW-004",
+    "word": "extradite",
+    "pos": "verb",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Verbs/LAW/Legal_System/Judicial_Process.js",
+      "topic": "Judicial_Process",
+      "path_detail": "Verbs/LAW/Legal_System"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-c1-judicial_process-litigate",
+    "legacy_id": "C1-VERB-LAW-005",
+    "word": "litigate",
+    "pos": "verb",
+    "level": "C1",
+    "vocab": {
+      "file": "vocabulary/en/C1/Verbs/LAW/Legal_System/Judicial_Process.js",
+      "topic": "Judicial_Process",
       "path_detail": "Verbs/LAW/Legal_System"
     },
     "grammar_refs": []
