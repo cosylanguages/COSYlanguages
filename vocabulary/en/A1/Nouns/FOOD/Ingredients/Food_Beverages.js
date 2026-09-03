@@ -3849,7 +3849,53 @@
         "subcategory": "Ingredients",
         "pos_section": "Nouns",
         "sub_subcategory": "Food_Beverages"
-    }
+    },
+    {
+        "id": "A1-NOUN-FOO-156",
+        "word": "pea",
+        "form": "noun",
+        "transcription": "piː",
+        "emoji": "🫛",
+        "definitions": [
+                {
+                        "text": "A small round green vegetable.",
+                        "examples": [
+                                "I eat peas with dinner.",
+                                "Green peas are good for you."
+                        ]
+                }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+},
+    {
+        "id": "A1-NOUN-FOO-157",
+        "word": "menu",
+        "form": "noun",
+        "transcription": "ˈmenjuː",
+        "emoji": "📜",
+        "definitions": [
+                {
+                        "text": "A list of food and drinks in a restaurant.",
+                        "examples": [
+                                "Can I see the menu, please?",
+                                "The menu has many options."
+                        ]
+                }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+}
 ];
 
     if (typeof window !== "undefined") {

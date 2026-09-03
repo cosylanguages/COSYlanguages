@@ -75,7 +75,53 @@
         "subcategory": "Rooms",
         "pos_section": "Nouns",
         "sub_subcategory": "Indoor_Rooms"
-    }
+    },
+    {
+        "id": "A1-NOUN-HOM-126",
+        "word": "hall",
+        "form": "noun",
+        "transcription": "hɔːl",
+        "emoji": "🚪",
+        "definitions": [
+                {
+                        "text": "A passage inside a building with doors leading into rooms.",
+                        "examples": [
+                                "Walk down the hall to the left.",
+                                "The hall is clean and bright."
+                        ]
+                }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "HOME",
+        "subcategory": "Rooms",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Indoor_Rooms"
+},
+    {
+        "id": "A1-NOUN-HOM-127",
+        "word": "ceiling",
+        "form": "noun",
+        "transcription": "ˈsiːlɪŋ",
+        "emoji": "🏠",
+        "definitions": [
+                {
+                        "text": "The top inside surface of a room.",
+                        "examples": [
+                                "The ceiling is painted white.",
+                                "A lamp hangs from the ceiling."
+                        ]
+                }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "HOME",
+        "subcategory": "Rooms",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Indoor_Rooms"
+}
 ];
 
     if (typeof window !== "undefined") {

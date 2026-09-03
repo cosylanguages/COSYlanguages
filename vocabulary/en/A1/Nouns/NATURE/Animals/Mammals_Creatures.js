@@ -906,7 +906,30 @@
         "subcategory": "Animals",
         "pos_section": "Nouns",
         "sub_subcategory": "Mammals_Creatures"
-    }
+    },
+    {
+        "id": "A1-NOUN-NAT-097",
+        "word": "rat",
+        "form": "noun",
+        "transcription": "ræt",
+        "emoji": "🐀",
+        "definitions": [
+                {
+                        "text": "A small animal like a large mouse with a long tail.",
+                        "examples": [
+                                "The rat runs across the floor.",
+                                "Rats eat small seeds."
+                        ]
+                }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "NATURE",
+        "subcategory": "Animals",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Mammals_Creatures"
+}
 ];
 
     if (typeof window !== "undefined") {

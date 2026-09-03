@@ -320,7 +320,30 @@
         "subcategory": "Education",
         "pos_section": "Nouns",
         "sub_subcategory": "Study_Activities"
-    }
+    },
+    {
+        "id": "A1-NOUN-WOR-158",
+        "word": "task",
+        "form": "noun",
+        "transcription": "tæsk",
+        "emoji": "📋",
+        "definitions": [
+                {
+                        "text": "A piece of work that needs to be done.",
+                        "examples": [
+                                "This task is very simple.",
+                                "We finish our daily tasks."
+                        ]
+                }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Study_Activities"
+}
 ];
 
     if (typeof window !== "undefined") {

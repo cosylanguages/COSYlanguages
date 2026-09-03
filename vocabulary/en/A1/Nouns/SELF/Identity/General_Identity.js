@@ -1291,7 +1291,53 @@
         "subcategory": "Identity",
         "pos_section": "Nouns",
         "sub_subcategory": "General_Identity"
-    }
+    },
+    {
+        "id": "A1-NOUN-SEL-186",
+        "word": "sir",
+        "form": "noun",
+        "transcription": "sɜːr",
+        "emoji": "🎩",
+        "definitions": [
+                {
+                        "text": "A polite word used to address a man.",
+                        "examples": [
+                                "Good morning, sir.",
+                                "Can I help you, sir?"
+                        ]
+                }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Identity",
+        "pos_section": "Nouns",
+        "sub_subcategory": "General_Identity"
+},
+    {
+        "id": "A1-NOUN-SEL-187",
+        "word": "madam",
+        "form": "noun",
+        "transcription": "ˈmædəm",
+        "emoji": "👑",
+        "definitions": [
+                {
+                        "text": "A polite word used to address a woman.",
+                        "examples": [
+                                "Thank you, madam.",
+                                "May I take your order, madam?"
+                        ]
+                }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Identity",
+        "pos_section": "Nouns",
+        "sub_subcategory": "General_Identity"
+}
 ];
 
     if (typeof window !== "undefined") {
