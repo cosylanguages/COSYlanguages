@@ -241,7 +241,7 @@ LANGUAGES = {
         "v_url": "fr/vocabulary/a2/index.html",
     },
     "it": {
-        "filename": "italiano-a0-a1.html",
+        "filename": "it/index.html",
         "lang_code": "it",
         "name_en": "Italian (Level A0–A1)",
         "native_name": "Italiano A0–A1",
@@ -280,7 +280,7 @@ LANGUAGES = {
         "portal_url": "../languages/it.html",
         "portal_label": "← Hub COSYitaliano",
         "manifesto_title": "★ COME FUNZIONA IL SISTEMA",
-        "manifesto_text": "Il livello A2 consolida le tue basi. Usa la <strong>Grammatica Italiana A2</strong> per i racconti al passato ed ipotesi, e il <strong>Lessico Italiano A2</strong> per esprimere ricordi e progetti futuri. Torna al <a href='italiano-a0-a1.html'>Livello A0–A1</a>.",
+        "manifesto_text": "Il livello A2 consolida le tue basi. Usa la <strong>Grammatica Italiana A2</strong> per i racconti al passato ed ipotesi, e il <strong>Lessico Italiano A2</strong> per esprimere ricordi e progetti futuri. Torna al <a href='it/index.html'>Livello A0–A1</a>.",
         "g_badge": "LIBRO 1 · MANUALE DI GRAMMATICA",
         "g_title": "Grammatica Italiana (A2)",
         "g_desc": "Passato prossimo vs imperfetto, futuro semplice, condizionale, ipotesi, pronomi diretti/indiretti, ci e ne, comparativi e dovere/bisogna.",
@@ -293,7 +293,7 @@ LANGUAGES = {
         "v_url": "it/vocabulary/a2/index.html",
     },
     "es": {
-        "filename": "espanol-a0-a1.html",
+        "filename": "es/index.html",
         "lang_code": "es",
         "name_en": "Spanish (Level A0–A1)",
         "native_name": "Español A0–A1",
@@ -332,7 +332,7 @@ LANGUAGES = {
         "portal_url": "../languages/es.html",
         "portal_label": "← Hub COSYespañol",
         "manifesto_title": "★ CÓMO FUNCIONA EL SISTEMA",
-        "manifesto_text": "El nivel A2 consolida tus bases. Usa la <strong>Gramática Española A2</strong> para relatos en pasado e hipótesis, y el <strong>Vocabulario Español A2</strong> para expresar recuerdos y proyectos futuros. Volver al <a href='espanol-a0-a1.html'>Nivel A0–A1</a>.",
+        "manifesto_text": "El nivel A2 consolida tus bases. Usa la <strong>Gramática Española A2</strong> para relatos en pasado e hipótesis, y el <strong>Vocabulario Español A2</strong> para expresar recuerdos y proyectos futuros. Volver al <a href='es/index.html'>Nivel A0–A1</a>.",
         "g_badge": "LIBRO 1 · MANUAL DE GRAMÁTICA",
         "g_title": "Gramática Española (A2)",
         "g_desc": "Pretérito indefinido vs imperfecto, futuro simple, condicional de cortesía, pronombres de objeto, comparaciones, obligación e introducción al subjuntivo.",
@@ -345,7 +345,7 @@ LANGUAGES = {
         "v_url": "es/vocabulary/a2/index.html",
     },
     "de": {
-        "filename": "deutsch-a0-a1.html",
+        "filename": "de/index.html",
         "lang_code": "de",
         "name_en": "German",
         "native_name": "Deutsch",
@@ -397,7 +397,7 @@ LANGUAGES = {
         "v_url": "de/vocabulary/a2/index.html",
     },
     "pt": {
-        "filename": "portugues-a0-a1.html",
+        "filename": "pt/index.html",
         "lang_code": "pt",
         "name_en": "Portuguese (Level A0–A1)",
         "native_name": "Português A0–A1",
@@ -436,7 +436,7 @@ LANGUAGES = {
         "portal_url": "../languages/pt.html",
         "portal_label": "← Hub COSYportuguês",
         "manifesto_title": "★ COMO FUNCIONA O SISTEMA",
-        "manifesto_text": "O nível A2 consolida as suas bases. Utilize a <strong>Gramática Portuguesa A2</strong> para narrativas no passado e hipóteses, e o <strong>Vocabulário Português A2</strong> para expressar memórias e projetos futuros. Voltar ao <a href='portugues-a0-a1.html'>Nível A0–A1</a>.",
+        "manifesto_text": "O nível A2 consolida as suas bases. Utilize a <strong>Gramática Portuguesa A2</strong> para narrativas no passado e hipóteses, e o <strong>Vocabulário Português A2</strong> para expressar memórias e projetos futuros. Voltar ao <a href='pt/index.html'>Nível A0–A1</a>.",
         "g_badge": "LIVRO 1 · MANUAL DE GRAMÁTICA",
         "g_title": "Gramática Portuguesa (A2)",
         "g_desc": "Pretérito perfeito vs imperfeito, futuro com ir, condicional de cortesia, pronomes complemento, comparações, obrigação e introdução ao subjuntivo.",
@@ -683,7 +683,7 @@ LANGUAGES = {
         "v_url": "hy/vocabulary/a2/index.html",
     },
     "tt": {
-        "filename": "tatar-a0-a1.html",
+        "filename": "tt/index.html",
         "lang_code": "tt",
         "name_en": "Tatar",
         "native_name": "Татар теле",
@@ -709,7 +709,7 @@ LANGUAGES = {
         "v_url": "tt/vocabulary/index.html",
     },
     "ba": {
-        "filename": "bashqort-a0-a1.html",
+        "filename": "ba/index.html",
         "lang_code": "ba",
         "name_en": "Bashkir",
         "native_name": "Башҡорт теле",
@@ -735,7 +735,7 @@ LANGUAGES = {
         "v_url": "ba/vocabulary/index.html",
     },
     "cv": {
-        "filename": "chavash-a0-a1.html",
+        "filename": "cv/index.html",
         "lang_code": "cv",
         "name_en": "Chuvash",
         "native_name": "Чăваш пĕлĕвĕ",
@@ -761,7 +761,7 @@ LANGUAGES = {
         "v_url": "cv/vocabulary/index.html",
     },
     "hy": {
-        "filename": "hayots-a0-a1.html",
+        "filename": "hy/index.html",
         "lang_code": "hy",
         "name_en": "Armenian",
         "native_name": "Հայոց լեզու",
@@ -787,7 +787,7 @@ LANGUAGES = {
         "v_url": "hy/vocabulary/index.html",
     },
     "ka": {
-        "filename": "qartuli-a0-a1.html",
+        "filename": "ka/index.html",
         "lang_code": "ka",
         "name_en": "Georgian",
         "native_name": "ქართული ენა",
@@ -1168,7 +1168,7 @@ def generate_hubs():
             "portal": "../languages/it.html",
             "desc": "Monolingual grammar structures and thematic vocabulary manuals for mastering Italian.",
             "levels": [
-                {"level": "A0–A1", "hub": "italiano-a0-a1.html", "grammar": "it/grammar/index.html", "vocab": "../lessico-italiano/index.html"},
+                {"level": "A0–A1", "hub": "it/index.html", "grammar": "it/grammar/index.html", "vocab": "../lessico-italiano/index.html"},
                 {"level": "A2", "hub": "italiano-a2.html", "grammar": "it/grammar/a2/index.html", "vocab": "it/vocabulary/a2/index.html"}
             ]
         },
@@ -1180,7 +1180,7 @@ def generate_hubs():
             "portal": "../languages/es.html",
             "desc": "Integral Spanish learning system with structured grammar rules and contextual vocabulary.",
             "levels": [
-                {"level": "A0–A1", "hub": "espanol-a0-a1.html", "grammar": "../gramatica-espanola/index.html", "vocab": "../vocabulario-espanol/index.html"},
+                {"level": "A0–A1", "hub": "es/index.html", "grammar": "../gramatica-espanola/index.html", "vocab": "../vocabulario-espanol/index.html"},
                 {"level": "A2", "hub": "espanol-a2.html", "grammar": "es/grammar/a2/index.html", "vocab": "es/vocabulary/a2/index.html"}
             ]
         },
@@ -1192,7 +1192,7 @@ def generate_hubs():
             "portal": "../languages/de.html",
             "desc": "Coordinated German grammar and thematic vocabulary manuals built for practical fluency.",
             "levels": [
-                {"level": "A0–A1", "hub": "deutsch-a0-a1.html", "grammar": "../deutsche-grammatik/index.html"},
+                {"level": "A0–A1", "hub": "de/index.html", "grammar": "../deutsche-grammatik/index.html"},
                 {"level": "A2", "hub": "deutsch-a2.html"}
             ]
         },
@@ -1204,7 +1204,7 @@ def generate_hubs():
             "portal": "../languages/pt.html",
             "desc": "Complementary Portuguese grammar and vocabulary manuals for foundational and elementary progress.",
             "levels": [
-                {"level": "A0–A1", "hub": "portugues-a0-a1.html", "grammar": "../gramatica-portuguesa/index.html"},
+                {"level": "A0–A1", "hub": "pt/index.html", "grammar": "../gramatica-portuguesa/index.html"},
                 {"level": "A2", "hub": "portugues-a2.html", "grammar": "pt/grammar/a2/index.html", "vocab": "pt/vocabulary/a2/index.html"}
             ]
         },
@@ -1240,7 +1240,7 @@ def generate_hubs():
             "portal": "../languages/tt.html",
             "desc": "Interactive Tatar language manuals covering agglutinative grammar patterns and thematic vocabulary.",
             "levels": [
-                {"level": "A0–A1", "hub": "tatar-a0-a1.html", "grammar": "tt/grammar/index.html", "vocab": "tt/vocabulary/index.html"},
+                {"level": "A0–A1", "hub": "tt/index.html", "grammar": "tt/grammar/index.html", "vocab": "tt/vocabulary/index.html"},
                 {"level": "A2", "hub": "tatar-a2.html", "grammar": "tt/grammar/a2/index.html", "vocab": "tt/vocabulary/a2/index.html"}
             ]
         },
@@ -1252,7 +1252,7 @@ def generate_hubs():
             "portal": "../languages/ba.html",
             "desc": "Structured Bashkir grammar and thematic vocabulary manuals for comprehensive study.",
             "levels": [
-                {"level": "A0–A1", "hub": "bashqort-a0-a1.html", "grammar": "../bashqort-tele-grammatikahy/index.html"},
+                {"level": "A0–A1", "hub": "ba/index.html", "grammar": "../bashqort-tele-grammatikahy/index.html"},
                 {"level": "A2", "hub": "bashqort-a2.html", "grammar": "ba/grammar/a2/index.html", "vocab": "ba/vocabulary/a2/index.html"}
             ]
         },
@@ -1264,7 +1264,7 @@ def generate_hubs():
             "portal": "../languages/coming-soon.html",
             "desc": "Chuvash grammar and vocabulary reference manuals with interactive exercises.",
             "levels": [
-                {"level": "A0–A1", "hub": "chavash-a0-a1.html", "grammar": "../chavash-grammatika/index.html"},
+                {"level": "A0–A1", "hub": "cv/index.html", "grammar": "../chavash-grammatika/index.html"},
                 {"level": "A2", "hub": "chavash-a2.html", "grammar": "cv/grammar/a2/index.html", "vocab": "cv/vocabulary/a2/index.html"}
             ]
         },
@@ -1276,7 +1276,7 @@ def generate_hubs():
             "portal": "../languages/ka.html",
             "desc": "Monolingual Georgian manuals covering the 7-case system, verb screeves, and essential vocabulary.",
             "levels": [
-                {"level": "A0–A1", "hub": "qartuli-a0-a1.html", "grammar": "../qartuli-gramatika/index.html"},
+                {"level": "A0–A1", "hub": "ka/index.html", "grammar": "../qartuli-gramatika/index.html"},
                 {"level": "A2", "hub": "qartuli-a2.html", "grammar": "ka/grammar/a2/index.html", "vocab": "ka/vocabulary/a2/index.html"}
             ]
         },
@@ -1288,7 +1288,7 @@ def generate_hubs():
             "portal": "../languages/hy.html",
             "desc": "Structured Armenian grammar and vocabulary manuals covering nominal declensions and core lexicon.",
             "levels": [
-                {"level": "A0–A1", "hub": "hayots-a0-a1.html", "grammar": "../hayots-lezvi-kerakanutyun/index.html"},
+                {"level": "A0–A1", "hub": "hy/index.html", "grammar": "../hayots-lezvi-kerakanutyun/index.html"},
                 {"level": "A2", "hub": "hayots-a2.html", "grammar": "hy/grammar/a2/index.html", "vocab": "hy/vocabulary/a2/index.html"}
             ]
         },
