@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "C1-ADJ-SOC-010",
+        "id": "C1-ADJ-SOC-001",
         "word": "charismatic",
         "emoji": "\u2728",
         "subtext": "charismatic leader / charismatic authority / charismatic personality",
@@ -29,7 +29,7 @@
         "level": "advanced",
         "theme": "work",
         "sub_theme": null,
-        "legacy_id": "C1-SOC-07",
+        "legacy_id": "C1-SOC-01",
         "level_code": "C1",
         "domain": "Society",
         "subcategory": "Work",
@@ -37,7 +37,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "C1-ADJ-SOC-011",
+        "id": "C1-ADJ-SOC-002",
         "word": "illegitimate",
         "emoji": "\u274c",
         "subtext": "completely illegitimate / deemed illegitimate / an illegitimate claim",
@@ -64,7 +64,7 @@
         "level": "advanced",
         "theme": "work",
         "sub_theme": null,
-        "legacy_id": "C1-SOC-18",
+        "legacy_id": "C1-SOC-02",
         "level_code": "C1",
         "domain": "Society",
         "subcategory": "Work",
@@ -72,7 +72,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "C1-ADJ-SOC-012",
+        "id": "C1-ADJ-SOC-003",
         "word": "legitimate",
         "emoji": "\u2696\ufe0f",
         "subtext": "entirely legitimate / wholly legitimate / a legitimate concern",
@@ -99,7 +99,7 @@
         "level": "advanced",
         "theme": "work",
         "sub_theme": null,
-        "legacy_id": "C1-SOC-19",
+        "legacy_id": "C1-SOC-03",
         "level_code": "C1",
         "domain": "Society",
         "subcategory": "Work",
@@ -107,7 +107,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "C1-ADJ-SOC-013",
+        "id": "C1-ADJ-SOC-004",
         "word": "regulatory",
         "emoji": "\ud83d\udec2",
         "subtext": "strict regulatory / a regulatory framework / regulatory approval",
@@ -129,7 +129,7 @@
         "level": "advanced",
         "theme": "work",
         "sub_theme": null,
-        "legacy_id": "C1-SOC-25",
+        "legacy_id": "C1-SOC-04",
         "level_code": "C1",
         "domain": "Society",
         "subcategory": "Work",
