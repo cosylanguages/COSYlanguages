@@ -2,641 +2,973 @@
     const lang = "en";
     const data = [
     {
-        "word": "balcony",
-        "level": "elementary",
-        "theme": "places",
-        "emoji": "\ud83c\udfd8\ufe0f",
-        "form": "noun",
-        "classification": "regular",
-        "plural": "balconies",
-        "definitions": [
-            {
-                "text": "An area with a wall or bars around it that is joined to the outside wall of a building on an upper level.",
-                "examples": [
-                    "We have flowers on our balcony."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to rooms of a home",
-        "transcription": "\u02c8b\u00e6lk\u0259ni",
-        "etymology": {
-            "origin_lang": "Italian",
-            "origin_word": "balcone",
-            "origin_meaning": "scaffold"
-        },
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-TRA-001",
-        "legacy_id": "A2-TRV-01",
-        "level_code": "A2",
-        "domain": "TRAVEL",
-        "subcategory": "Places",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Locations_Venues"
+            "word": "balcony",
+            "level": "elementary",
+            "theme": "places",
+            "emoji": "🏘️",
+            "form": "noun",
+            "classification": "regular",
+            "plural": "balconies",
+            "definitions": [
+                    {
+                            "text": "An area with a wall or bars around it that is joined to the outside wall of a building on an upper level.",
+                            "examples": [
+                                    "We have flowers on our balcony."
+                            ]
+                    }
+            ],
+            "countability": "countable",
+            "subtext": "related to rooms of a home",
+            "transcription": "ˈbælkəni",
+            "etymology": {
+                    "origin_lang": "Italian",
+                    "origin_word": "balcone",
+                    "origin_meaning": "scaffold"
+            },
+            "language": "en",
+            "lang": "en",
+            "id": "A2-NOUN-TRA-001",
+            "legacy_id": "A2-TRV-01",
+            "level_code": "A2",
+            "domain": "TRAVEL",
+            "subcategory": "Places",
+            "pos_section": "Nouns",
+            "sub_subcategory": "Locations_Venues"
     },
     {
-        "word": "border",
-        "level": "elementary",
-        "theme": "places",
-        "emoji": "\ud83d\udea7",
-        "form": "noun",
-        "classification": "regular",
-        "definitions": [
-            {
-                "text": "The line that separates two countries.",
-                "examples": [
-                    "We crossed the border into Spain.",
-                    "The river forms the border between the two nations."
-                ]
-            }
-        ],
-        "subtext": "boundary, frontier",
-        "synonyms": [
-            "boundary",
-            "frontier"
-        ],
-        "countability": "countable",
-        "transcription": "\u02c8b\u0254\u02d0rd\u0259r",
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-TRA-002",
-        "legacy_id": "A2-TRV-02",
-        "level_code": "A2",
-        "domain": "TRAVEL",
-        "subcategory": "Places",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Locations_Venues"
+            "word": "border",
+            "level": "elementary",
+            "theme": "places",
+            "emoji": "🚧",
+            "form": "noun",
+            "classification": "regular",
+            "definitions": [
+                    {
+                            "text": "The line that separates two countries.",
+                            "examples": [
+                                    "We crossed the border into Spain.",
+                                    "The river forms the border between the two nations."
+                            ]
+                    }
+            ],
+            "subtext": "boundary, frontier",
+            "synonyms": [
+                    "boundary",
+                    "frontier"
+            ],
+            "countability": "countable",
+            "transcription": "ˈbɔːrdər",
+            "language": "en",
+            "lang": "en",
+            "id": "A2-NOUN-TRA-002",
+            "legacy_id": "A2-TRV-02",
+            "level_code": "A2",
+            "domain": "TRAVEL",
+            "subcategory": "Places",
+            "pos_section": "Nouns",
+            "sub_subcategory": "Locations_Venues"
     },
     {
-        "word": "capital",
-        "level": "elementary",
-        "theme": "places",
-        "emoji": "\ud83c\udfdb\ufe0f",
-        "form": "noun",
-        "classification": "regular",
-        "definitions": [
-            {
-                "text": "The city where the government of a country is located.",
-                "examples": [
-                    "Paris is the capital of France.",
-                    "London is a major capital city."
-                ]
-            }
-        ],
-        "subtext": "main city, government seat",
-        "synonyms": [
-            "main city",
-            "government seat"
-        ],
-        "countability": "countable",
-        "transcription": "\u02c8k\u00e6p\u026atl",
-        "etymology": {
-            "origin_lang": "Latin",
-            "origin_word": "capitalis",
-            "origin_meaning": "of the head"
-        },
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-TRA-003",
-        "legacy_id": "A2-TRV-03",
-        "level_code": "A2",
-        "domain": "TRAVEL",
-        "subcategory": "Places",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Locations_Venues"
+            "word": "capital",
+            "level": "elementary",
+            "theme": "places",
+            "emoji": "🏛️",
+            "form": "noun",
+            "classification": "regular",
+            "definitions": [
+                    {
+                            "text": "The city where the government of a country is located.",
+                            "examples": [
+                                    "Paris is the capital of France.",
+                                    "London is a major capital city."
+                            ]
+                    }
+            ],
+            "subtext": "main city, government seat",
+            "synonyms": [
+                    "main city",
+                    "government seat"
+            ],
+            "countability": "countable",
+            "transcription": "ˈkæpɪtl",
+            "etymology": {
+                    "origin_lang": "Latin",
+                    "origin_word": "capitalis",
+                    "origin_meaning": "of the head"
+            },
+            "language": "en",
+            "lang": "en",
+            "id": "A2-NOUN-TRA-003",
+            "legacy_id": "A2-TRV-03",
+            "level_code": "A2",
+            "domain": "TRAVEL",
+            "subcategory": "Places",
+            "pos_section": "Nouns",
+            "sub_subcategory": "Locations_Venues"
     },
     {
-        "word": "ceiling",
-        "level": "elementary",
-        "theme": "places",
-        "emoji": "\ud83c\udfe0",
-        "form": "noun",
-        "classification": "regular",
-        "plural": "ceilings",
-        "definitions": [
-            {
-                "text": "The top surface of a room.",
-                "examples": [
-                    "There is a light on the ceiling."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to rooms of a home",
-        "transcription": "\u02c8si\u02d0l\u026a\u014b",
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-TRA-004",
-        "legacy_id": "A2-TRV-04",
-        "level_code": "A2",
-        "domain": "TRAVEL",
-        "subcategory": "Places",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Locations_Venues"
+            "word": "ceiling",
+            "level": "elementary",
+            "theme": "places",
+            "emoji": "🏠",
+            "form": "noun",
+            "classification": "regular",
+            "plural": "ceilings",
+            "definitions": [
+                    {
+                            "text": "The top surface of a room.",
+                            "examples": [
+                                    "There is a light on the ceiling."
+                            ]
+                    }
+            ],
+            "countability": "countable",
+            "subtext": "related to rooms of a home",
+            "transcription": "ˈsiːlɪŋ",
+            "language": "en",
+            "lang": "en",
+            "id": "A2-NOUN-TRA-004",
+            "legacy_id": "A2-TRV-04",
+            "level_code": "A2",
+            "domain": "TRAVEL",
+            "subcategory": "Places",
+            "pos_section": "Nouns",
+            "sub_subcategory": "Locations_Venues"
     },
     {
-        "word": "citizen",
-        "level": "elementary",
-        "theme": "places",
-        "emoji": "\ud83d\udc64",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "citizens",
-        "definitions": [
-            {
-                "text": "A person who is a member of a particular country.",
-                "examples": [
-                    "He is a British citizen.",
-                    "The government should help its citizens."
-                ]
-            }
-        ],
-        "subtext": "national, inhabitant",
-        "synonyms": [
-            "national",
-            "inhabitant"
-        ],
-        "transcription": "\u02c8s\u026at\u026azn",
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-TRA-005",
-        "legacy_id": "A2-TRV-06",
-        "level_code": "A2",
-        "domain": "TRAVEL",
-        "subcategory": "Places",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Locations_Venues"
+            "word": "citizen",
+            "level": "elementary",
+            "theme": "places",
+            "emoji": "👤",
+            "form": "noun",
+            "classification": "regular",
+            "countability": "countable",
+            "plural": "citizens",
+            "definitions": [
+                    {
+                            "text": "A person who is a member of a particular country.",
+                            "examples": [
+                                    "He is a British citizen.",
+                                    "The government should help its citizens."
+                            ]
+                    }
+            ],
+            "subtext": "national, inhabitant",
+            "synonyms": [
+                    "national",
+                    "inhabitant"
+            ],
+            "transcription": "ˈsɪtɪzn",
+            "language": "en",
+            "lang": "en",
+            "id": "A2-NOUN-TRA-005",
+            "legacy_id": "A2-TRV-06",
+            "level_code": "A2",
+            "domain": "TRAVEL",
+            "subcategory": "Places",
+            "pos_section": "Nouns",
+            "sub_subcategory": "Locations_Venues"
     },
     {
-        "word": "comfort",
-        "level": "elementary",
-        "theme": "places",
-        "emoji": "\ud83d\udecb\ufe0f",
-        "form": "noun",
-        "classification": "regular",
-        "definitions": [
-            {
-                "text": "A pleasant feeling of being relaxed and free from pain.",
-                "examples": [
-                    "The hotel provides high levels of comfort.",
-                    "I like to travel in comfort."
-                ]
-            }
-        ],
-        "subtext": "ease, relaxation",
-        "synonyms": [
-            "ease",
-            "relaxation"
-        ],
-        "countability": "uncountable",
-        "transcription": "\u02c8k\u028cmf\u0259rt",
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-TRA-006",
-        "legacy_id": "A2-TRV-07",
-        "level_code": "A2",
-        "domain": "TRAVEL",
-        "subcategory": "Places",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Locations_Venues"
+            "word": "comfort",
+            "level": "elementary",
+            "theme": "places",
+            "emoji": "🛋️",
+            "form": "noun",
+            "classification": "regular",
+            "definitions": [
+                    {
+                            "text": "A pleasant feeling of being relaxed and free from pain.",
+                            "examples": [
+                                    "The hotel provides high levels of comfort.",
+                                    "I like to travel in comfort."
+                            ]
+                    }
+            ],
+            "subtext": "ease, relaxation",
+            "synonyms": [
+                    "ease",
+                    "relaxation"
+            ],
+            "countability": "uncountable",
+            "transcription": "ˈkʌmfərt",
+            "language": "en",
+            "lang": "en",
+            "id": "A2-NOUN-TRA-006",
+            "legacy_id": "A2-TRV-07",
+            "level_code": "A2",
+            "domain": "TRAVEL",
+            "subcategory": "Places",
+            "pos_section": "Nouns",
+            "sub_subcategory": "Locations_Venues"
     },
     {
-        "word": "community",
-        "level": "elementary",
-        "theme": "places",
-        "emoji": "\ud83d\udc65",
-        "form": "noun",
-        "classification": "regular",
-        "plural": "communities",
-        "definitions": [
-            {
-                "text": "A group of people who live in the same area or share interests.",
-                "examples": [
-                    "She is active in her local community."
-                ]
-            }
-        ],
-        "subtext": "local community",
-        "synonyms": [
-            "share interests"
-        ],
-        "countability": "countable",
-        "transcription": "k\u0259\u02c8mju\u02d0n\u0259ti",
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-TRA-007",
-        "legacy_id": "A2-TRV-08",
-        "level_code": "A2",
-        "domain": "TRAVEL",
-        "subcategory": "Places",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Locations_Venues"
+            "word": "community",
+            "level": "elementary",
+            "theme": "places",
+            "emoji": "👥",
+            "form": "noun",
+            "classification": "regular",
+            "plural": "communities",
+            "definitions": [
+                    {
+                            "text": "A group of people who live in the same area or share interests.",
+                            "examples": [
+                                    "She is active in her local community."
+                            ]
+                    }
+            ],
+            "subtext": "local community",
+            "synonyms": [
+                    "share interests"
+            ],
+            "countability": "countable",
+            "transcription": "kəˈmjuːnəti",
+            "language": "en",
+            "lang": "en",
+            "id": "A2-NOUN-TRA-007",
+            "legacy_id": "A2-TRV-08",
+            "level_code": "A2",
+            "domain": "TRAVEL",
+            "subcategory": "Places",
+            "pos_section": "Nouns",
+            "sub_subcategory": "Locations_Venues"
     },
     {
-        "word": "curtain",
-        "level": "elementary",
-        "theme": "places",
-        "emoji": "\ud83c\udfd8\ufe0f",
-        "form": "noun",
-        "classification": "regular",
-        "plural": "curtains",
-        "definitions": [
-            {
-                "text": "A piece of cloth that hangs across a window.",
-                "examples": [
-                    "Close the curtains, please."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to household items",
-        "transcription": "\u02c8k\u025c\u02d0rtn",
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-TRA-008",
-        "legacy_id": "A2-TRV-09",
-        "level_code": "A2",
-        "domain": "TRAVEL",
-        "subcategory": "Places",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Locations_Venues"
+            "word": "curtain",
+            "level": "elementary",
+            "theme": "places",
+            "emoji": "🏘️",
+            "form": "noun",
+            "classification": "regular",
+            "plural": "curtains",
+            "definitions": [
+                    {
+                            "text": "A piece of cloth that hangs across a window.",
+                            "examples": [
+                                    "Close the curtains, please."
+                            ]
+                    }
+            ],
+            "countability": "countable",
+            "subtext": "related to household items",
+            "transcription": "ˈkɜːrtn",
+            "language": "en",
+            "lang": "en",
+            "id": "A2-NOUN-TRA-008",
+            "legacy_id": "A2-TRV-09",
+            "level_code": "A2",
+            "domain": "TRAVEL",
+            "subcategory": "Places",
+            "pos_section": "Nouns",
+            "sub_subcategory": "Locations_Venues"
     },
     {
-        "word": "dishwasher",
-        "level": "elementary",
-        "theme": "places",
-        "emoji": "\ud83e\uddfc",
-        "form": "noun",
-        "classification": "regular",
-        "plural": "dishwashers",
-        "definitions": [
-            {
-                "text": "A machine that washes dishes.",
-                "examples": [
-                    "Load the dishwasher after dinner."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to household items",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8d\u026a\u0283w\u0252\u0283\u0259r | \ud83c\uddfa\ud83c\uddf8 \u02c8d\u026a\u0283w\u0251\u02d0\u0283\u0259r",
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-TRA-009",
-        "legacy_id": "A2-TRV-11",
-        "level_code": "A2",
-        "domain": "TRAVEL",
-        "subcategory": "Places",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Locations_Venues"
+            "word": "dishwasher",
+            "level": "elementary",
+            "theme": "places",
+            "emoji": "🧼",
+            "form": "noun",
+            "classification": "regular",
+            "plural": "dishwashers",
+            "definitions": [
+                    {
+                            "text": "A machine that washes dishes.",
+                            "examples": [
+                                    "Load the dishwasher after dinner."
+                            ]
+                    }
+            ],
+            "countability": "countable",
+            "subtext": "related to household items",
+            "transcription": "🇬🇧 ˈdɪʃwɒʃər | 🇺🇸 ˈdɪʃwɑːʃər",
+            "language": "en",
+            "lang": "en",
+            "id": "A2-NOUN-TRA-009",
+            "legacy_id": "A2-TRV-11",
+            "level_code": "A2",
+            "domain": "TRAVEL",
+            "subcategory": "Places",
+            "pos_section": "Nouns",
+            "sub_subcategory": "Locations_Venues"
     },
     {
-        "word": "estate agent",
-        "level": "elementary",
-        "theme": "places",
-        "emoji": "\ud83c\udfe0",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "estate agents",
-        "definitions": [
-            {
-                "text": "A person whose job is to sell or rent houses and land for other people.",
-                "examples": [
-                    "We talked to the estate agent about viewing the house.",
-                    "The estate agent showed us several flats."
-                ]
-            }
-        ],
-        "subtext": "realtor, property agent",
-        "synonyms": [
-            "realtor",
-            "property agent"
-        ],
-        "transcription": "\u026a\u02c8ste\u026at \u02c8e\u026ad\u0292\u0259nt",
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-TRA-010",
-        "legacy_id": "A2-TRV-12",
-        "level_code": "A2",
-        "domain": "TRAVEL",
-        "subcategory": "Places",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Locations_Venues"
+            "word": "estate agent",
+            "level": "elementary",
+            "theme": "places",
+            "emoji": "🏠",
+            "form": "noun",
+            "classification": "regular",
+            "countability": "countable",
+            "plural": "estate agents",
+            "definitions": [
+                    {
+                            "text": "A person whose job is to sell or rent houses and land for other people.",
+                            "examples": [
+                                    "We talked to the estate agent about viewing the house.",
+                                    "The estate agent showed us several flats."
+                            ]
+                    }
+            ],
+            "subtext": "realtor, property agent",
+            "synonyms": [
+                    "realtor",
+                    "property agent"
+            ],
+            "transcription": "ɪˈsteɪt ˈeɪdʒənt",
+            "language": "en",
+            "lang": "en",
+            "id": "A2-NOUN-TRA-010",
+            "legacy_id": "A2-TRV-12",
+            "level_code": "A2",
+            "domain": "TRAVEL",
+            "subcategory": "Places",
+            "pos_section": "Nouns",
+            "sub_subcategory": "Locations_Venues"
     },
     {
-        "word": "facility",
-        "level": "elementary",
-        "theme": "places",
-        "emoji": "\ud83c\udfe2",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "facilities",
-        "definitions": [
-            {
-                "text": "A place or building used for a particular purpose.",
-                "examples": [
-                    "The sports facility is very modern.",
-                    "The town needs more child care facilities."
-                ]
-            }
-        ],
-        "subtext": "amenity, service",
-        "synonyms": [
-            "amenity",
-            "service"
-        ],
-        "transcription": "f\u0259\u02c8s\u026al\u0259ti",
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-TRA-011",
-        "legacy_id": "A2-TRV-13",
-        "level_code": "A2",
-        "domain": "TRAVEL",
-        "subcategory": "Places",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Locations_Venues"
+            "word": "facility",
+            "level": "elementary",
+            "theme": "places",
+            "emoji": "🏢",
+            "form": "noun",
+            "classification": "regular",
+            "countability": "countable",
+            "plural": "facilities",
+            "definitions": [
+                    {
+                            "text": "A place or building used for a particular purpose.",
+                            "examples": [
+                                    "The sports facility is very modern.",
+                                    "The town needs more child care facilities."
+                            ]
+                    }
+            ],
+            "subtext": "amenity, service",
+            "synonyms": [
+                    "amenity",
+                    "service"
+            ],
+            "transcription": "fəˈsɪləti",
+            "language": "en",
+            "lang": "en",
+            "id": "A2-NOUN-TRA-011",
+            "legacy_id": "A2-TRV-13",
+            "level_code": "A2",
+            "domain": "TRAVEL",
+            "subcategory": "Places",
+            "pos_section": "Nouns",
+            "sub_subcategory": "Locations_Venues"
     },
     {
-        "word": "garage",
-        "level": "elementary",
-        "theme": "places",
-        "emoji": "\ud83d\ude97",
-        "form": "noun",
-        "classification": "regular",
-        "plural": "garages",
-        "definitions": [
-            {
-                "text": "A building where you keep a car.",
-                "examples": [
-                    "The car is in the garage."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to rooms of a home",
-        "transcription": "\u02c8\u0261\u00e6r\u0251\u02d0\u0292",
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-TRA-012",
-        "legacy_id": "A2-TRV-15",
-        "level_code": "A2",
-        "domain": "TRAVEL",
-        "subcategory": "Places",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Locations_Venues"
+            "word": "garage",
+            "level": "elementary",
+            "theme": "places",
+            "emoji": "🚗",
+            "form": "noun",
+            "classification": "regular",
+            "plural": "garages",
+            "definitions": [
+                    {
+                            "text": "A building where you keep a car.",
+                            "examples": [
+                                    "The car is in the garage."
+                            ]
+                    }
+            ],
+            "countability": "countable",
+            "subtext": "related to rooms of a home",
+            "transcription": "ˈɡærɑːʒ",
+            "language": "en",
+            "lang": "en",
+            "id": "A2-NOUN-TRA-012",
+            "legacy_id": "A2-TRV-15",
+            "level_code": "A2",
+            "domain": "TRAVEL",
+            "subcategory": "Places",
+            "pos_section": "Nouns",
+            "sub_subcategory": "Locations_Venues"
     },
     {
-        "word": "garden",
-        "level": "elementary",
-        "theme": "places",
-        "emoji": "\ud83c\udf33",
-        "form": "noun",
-        "classification": "regular",
-        "definitions": [
-            {
-                "text": "A public garden or large green area in a city for everyone to use.",
-                "examples": []
-            }
-        ],
-        "countability": "countable",
-        "language": "en",
-        "lang": "en",
-        "transcription": "\u02c8\u0261\u0251\u02d0rdn",
-        "id": "A2-NOUN-TRA-013",
-        "legacy_id": "A2-TRV-16",
-        "level_code": "A2",
-        "domain": "TRAVEL",
-        "subcategory": "Places",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Locations_Venues"
+            "word": "garden",
+            "level": "elementary",
+            "theme": "places",
+            "emoji": "🌳",
+            "form": "noun",
+            "classification": "regular",
+            "definitions": [
+                    {
+                            "text": "A public garden or large green area in a city for everyone to use.",
+                            "examples": []
+                    }
+            ],
+            "countability": "countable",
+            "language": "en",
+            "lang": "en",
+            "transcription": "ˈɡɑːrdn",
+            "id": "A2-NOUN-TRA-013",
+            "legacy_id": "A2-TRV-16",
+            "level_code": "A2",
+            "domain": "TRAVEL",
+            "subcategory": "Places",
+            "pos_section": "Nouns",
+            "sub_subcategory": "Locations_Venues"
     },
     {
-        "word": "microwave",
-        "level": "elementary",
-        "theme": "places",
-        "emoji": "\ud83d\udd25",
-        "form": "noun",
-        "classification": "regular",
-        "plural": "microwaves",
-        "definitions": [
-            {
-                "text": "An electric oven that uses waves of energy to cook or heat food very quickly.",
-                "examples": [
-                    "Put the soup in the microwave."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to household items",
-        "transcription": "\u02c8ma\u026akr\u0259we\u026av",
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-TRA-014",
-        "legacy_id": "A2-TRV-19",
-        "level_code": "A2",
-        "domain": "TRAVEL",
-        "subcategory": "Places",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Locations_Venues"
+            "word": "microwave",
+            "level": "elementary",
+            "theme": "places",
+            "emoji": "🔥",
+            "form": "noun",
+            "classification": "regular",
+            "plural": "microwaves",
+            "definitions": [
+                    {
+                            "text": "An electric oven that uses waves of energy to cook or heat food very quickly.",
+                            "examples": [
+                                    "Put the soup in the microwave."
+                            ]
+                    }
+            ],
+            "countability": "countable",
+            "subtext": "related to household items",
+            "transcription": "ˈmaɪkrəweɪv",
+            "language": "en",
+            "lang": "en",
+            "id": "A2-NOUN-TRA-014",
+            "legacy_id": "A2-TRV-19",
+            "level_code": "A2",
+            "domain": "TRAVEL",
+            "subcategory": "Places",
+            "pos_section": "Nouns",
+            "sub_subcategory": "Locations_Venues"
     },
     {
-        "word": "neighbourhood",
-        "level": "elementary",
-        "theme": "places",
-        "emoji": "\ud83c\udfd8\ufe0f",
-        "form": "noun",
-        "classification": "regular",
-        "plural": "neighbourhoods",
-        "definitions": [
-            {
-                "text": "The area around your home.",
-                "examples": [
-                    "We live in a safe neighbourhood."
-                ]
-            }
-        ],
-        "subtext": "friendly neighbourhood",
-        "synonyms": [
-            "local area"
-        ],
-        "countability": "countable",
-        "transcription": "\u02c8ne\u026ab\u0259rh\u028ad",
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-TRA-015",
-        "legacy_id": "A2-TRV-21",
-        "level_code": "A2",
-        "domain": "TRAVEL",
-        "subcategory": "Places",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Locations_Venues"
+            "word": "neighbourhood",
+            "level": "elementary",
+            "theme": "places",
+            "emoji": "🏘️",
+            "form": "noun",
+            "classification": "regular",
+            "plural": "neighbourhoods",
+            "definitions": [
+                    {
+                            "text": "The area around your home.",
+                            "examples": [
+                                    "We live in a safe neighbourhood."
+                            ]
+                    }
+            ],
+            "subtext": "friendly neighbourhood",
+            "synonyms": [
+                    "local area"
+            ],
+            "countability": "countable",
+            "transcription": "ˈneɪbərhʊd",
+            "language": "en",
+            "lang": "en",
+            "id": "A2-NOUN-TRA-015",
+            "legacy_id": "A2-TRV-21",
+            "level_code": "A2",
+            "domain": "TRAVEL",
+            "subcategory": "Places",
+            "pos_section": "Nouns",
+            "sub_subcategory": "Locations_Venues"
     },
     {
-        "word": "pharmacy",
-        "level": "elementary",
-        "theme": "places",
-        "emoji": "\ud83d\udc8a",
-        "form": "noun",
-        "classification": "regular",
-        "plural": "pharmacies",
-        "synonyms": [
-            "\ud83c\uddec\ud83c\udde7 chemist"
-        ],
-        "definitions": [
-            {
-                "text": "A shop where you can buy medicine.",
-                "examples": [
-                    "I need to go to the pharmacy for some aspirin."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to local places services",
-        "transcription": "\u02c8f\u0251\u02d0rm\u0259si",
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-TRA-016",
-        "legacy_id": "A2-TRV-23",
-        "level_code": "A2",
-        "domain": "TRAVEL",
-        "subcategory": "Places",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Locations_Venues"
+            "word": "pharmacy",
+            "level": "elementary",
+            "theme": "places",
+            "emoji": "💊",
+            "form": "noun",
+            "classification": "regular",
+            "plural": "pharmacies",
+            "synonyms": [
+                    "🇬🇧 chemist"
+            ],
+            "definitions": [
+                    {
+                            "text": "A shop where you can buy medicine.",
+                            "examples": [
+                                    "I need to go to the pharmacy for some aspirin."
+                            ]
+                    }
+            ],
+            "countability": "countable",
+            "subtext": "related to local places services",
+            "transcription": "ˈfɑːrməsi",
+            "language": "en",
+            "lang": "en",
+            "id": "A2-NOUN-TRA-016",
+            "legacy_id": "A2-TRV-23",
+            "level_code": "A2",
+            "domain": "TRAVEL",
+            "subcategory": "Places",
+            "pos_section": "Nouns",
+            "sub_subcategory": "Locations_Venues"
     },
     {
-        "word": "region",
-        "level": "elementary",
-        "theme": "places",
-        "emoji": "\ud83d\uddfa\ufe0f",
-        "form": "noun",
-        "classification": "regular",
-        "definitions": [
-            {
-                "text": "A particular area in a country or the world.",
-                "examples": [
-                    "This region is famous for its wine.",
-                    "The northern region of the country is very cold."
-                ]
-            }
-        ],
-        "subtext": "area, district",
-        "synonyms": [
-            "area",
-            "district"
-        ],
-        "countability": "countable",
-        "transcription": "\u02c8ri\u02d0d\u0292\u0259n",
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-TRA-017",
-        "legacy_id": "A2-TRV-24",
-        "level_code": "A2",
-        "domain": "TRAVEL",
-        "subcategory": "Places",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Locations_Venues"
+            "word": "region",
+            "level": "elementary",
+            "theme": "places",
+            "emoji": "🗺️",
+            "form": "noun",
+            "classification": "regular",
+            "definitions": [
+                    {
+                            "text": "A particular area in a country or the world.",
+                            "examples": [
+                                    "This region is famous for its wine.",
+                                    "The northern region of the country is very cold."
+                            ]
+                    }
+            ],
+            "subtext": "area, district",
+            "synonyms": [
+                    "area",
+                    "district"
+            ],
+            "countability": "countable",
+            "transcription": "ˈriːdʒən",
+            "language": "en",
+            "lang": "en",
+            "id": "A2-NOUN-TRA-017",
+            "legacy_id": "A2-TRV-24",
+            "level_code": "A2",
+            "domain": "TRAVEL",
+            "subcategory": "Places",
+            "pos_section": "Nouns",
+            "sub_subcategory": "Locations_Venues"
     },
     {
-        "word": "removal company",
-        "level": "elementary",
-        "theme": "places",
-        "emoji": "\ud83d\ude9a",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "removal companies",
-        "definitions": [
-            {
-                "text": "A company that helps people move their furniture and possessions to a new home.",
-                "examples": [
-                    "We hired a removal company to help us move.",
-                    "The removal company arrived at 8 am."
-                ]
-            }
-        ],
-        "subtext": "moving company, movers",
-        "synonyms": [
-            "moving company",
-            "movers"
-        ],
-        "transcription": "r\u026a\u02c8mu\u02d0vl \u02c8k\u028cmp\u0259ni",
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-TRA-018",
-        "legacy_id": "A2-TRV-26",
-        "level_code": "A2",
-        "domain": "TRAVEL",
-        "subcategory": "Places",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Locations_Venues"
+            "word": "removal company",
+            "level": "elementary",
+            "theme": "places",
+            "emoji": "🚚",
+            "form": "noun",
+            "classification": "regular",
+            "countability": "countable",
+            "plural": "removal companies",
+            "definitions": [
+                    {
+                            "text": "A company that helps people move their furniture and possessions to a new home.",
+                            "examples": [
+                                    "We hired a removal company to help us move.",
+                                    "The removal company arrived at 8 am."
+                            ]
+                    }
+            ],
+            "subtext": "moving company, movers",
+            "synonyms": [
+                    "moving company",
+                    "movers"
+            ],
+            "transcription": "rɪˈmuːvl ˈkʌmpəni",
+            "language": "en",
+            "lang": "en",
+            "id": "A2-NOUN-TRA-018",
+            "legacy_id": "A2-TRV-26",
+            "level_code": "A2",
+            "domain": "TRAVEL",
+            "subcategory": "Places",
+            "pos_section": "Nouns",
+            "sub_subcategory": "Locations_Venues"
     },
     {
-        "word": "vacuum cleaner",
-        "level": "elementary",
-        "theme": "places",
-        "emoji": "\ud83e\uddf9",
-        "form": "noun",
-        "classification": "regular",
-        "plural": "vacuum cleaners",
-        "definitions": [
-            {
-                "text": "A machine that cleans floors by sucking up dirt.",
-                "examples": [
-                    "I need to use the vacuum cleaner on the rug."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "related to household items",
-        "transcription": "\u02c8v\u00e6kju\u02d0m \u02c8kli\u02d0n\u0259r",
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-TRA-019",
-        "legacy_id": "A2-TRV-27",
-        "level_code": "A2",
-        "domain": "TRAVEL",
-        "subcategory": "Places",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Locations_Venues"
+            "word": "vacuum cleaner",
+            "level": "elementary",
+            "theme": "places",
+            "emoji": "🧹",
+            "form": "noun",
+            "classification": "regular",
+            "plural": "vacuum cleaners",
+            "definitions": [
+                    {
+                            "text": "A machine that cleans floors by sucking up dirt.",
+                            "examples": [
+                                    "I need to use the vacuum cleaner on the rug."
+                            ]
+                    }
+            ],
+            "countability": "countable",
+            "subtext": "related to household items",
+            "transcription": "ˈvækjuːm ˈkliːnər",
+            "language": "en",
+            "lang": "en",
+            "id": "A2-NOUN-TRA-019",
+            "legacy_id": "A2-TRV-27",
+            "level_code": "A2",
+            "domain": "TRAVEL",
+            "subcategory": "Places",
+            "pos_section": "Nouns",
+            "sub_subcategory": "Locations_Venues"
     },
     {
-        "word": "volunteer",
-        "level": "elementary",
-        "theme": "places",
-        "emoji": "\ud83d\ude4b",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "volunteers",
-        "definitions": [
-            {
-                "text": "A person who does work without being paid for it.",
-                "examples": [
-                    "She works as a volunteer for a local charity.",
-                    "The event needs more volunteers."
-                ]
-            }
-        ],
-        "subtext": "unpaid worker",
-        "synonyms": [
-            "unpaid worker"
-        ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02ccv\u0252l\u0259n\u02c8t\u026a\u0259r | \ud83c\uddfa\ud83c\uddf8 \u02ccv\u0251\u02d0l\u0259n\u02c8t\u026a\u0259r",
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-TRA-020",
-        "legacy_id": "A2-TRV-28",
-        "level_code": "A2",
-        "domain": "TRAVEL",
-        "subcategory": "Places",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Locations_Venues"
+            "word": "volunteer",
+            "level": "elementary",
+            "theme": "places",
+            "emoji": "🙋",
+            "form": "noun",
+            "classification": "regular",
+            "countability": "countable",
+            "plural": "volunteers",
+            "definitions": [
+                    {
+                            "text": "A person who does work without being paid for it.",
+                            "examples": [
+                                    "She works as a volunteer for a local charity.",
+                                    "The event needs more volunteers."
+                            ]
+                    }
+            ],
+            "subtext": "unpaid worker",
+            "synonyms": [
+                    "unpaid worker"
+            ],
+            "transcription": "🇬🇧 ˌvɒlənˈtɪər | 🇺🇸 ˌvɑːlənˈtɪər",
+            "language": "en",
+            "lang": "en",
+            "id": "A2-NOUN-TRA-020",
+            "legacy_id": "A2-TRV-28",
+            "level_code": "A2",
+            "domain": "TRAVEL",
+            "subcategory": "Places",
+            "pos_section": "Nouns",
+            "sub_subcategory": "Locations_Venues"
+    },
+    {
+            "id": "A2-NOUN-TRA-046",
+            "word": "accommodation",
+            "emoji": "🏨",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "A place to live or stay, especially on holiday.",
+                            "examples": [
+                                    "We booked hotel accommodation near the beach.",
+                                    "The price includes meals and accommodation."
+                            ]
+                    }
+            ],
+            "subtext": "lodging, housing",
+            "synonyms": [
+                    "lodging",
+                    "housing"
+            ],
+            "transcription": "əˌkɒməˈdeɪʃn",
+            "lang": "en",
+            "language": "en",
+            "level": "elementary",
+            "level_code": "A2",
+            "theme": "travel",
+            "domain": "TRAVEL",
+            "subcategory": "Places",
+            "pos_section": "Nouns",
+            "sub_subcategory": "Locations_Venues"
+    },
+    {
+            "id": "A2-NOUN-TRA-055",
+            "word": "excursion",
+            "emoji": "🚌",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "A short journey or trip, especially one taken for pleasure.",
+                            "examples": [
+                                    "We took a day excursion to the island.",
+                                    "The hotel arranges guided excursions."
+                            ]
+                    }
+            ],
+            "subtext": "day trip, outing",
+            "synonyms": [
+                    "day trip",
+                    "outing"
+            ],
+            "transcription": "ɪkˈskɜːʃn",
+            "lang": "en",
+            "language": "en",
+            "level": "elementary",
+            "level_code": "A2",
+            "theme": "travel",
+            "domain": "TRAVEL",
+            "subcategory": "Places",
+            "pos_section": "Nouns",
+            "sub_subcategory": "Locations_Venues"
+    },
+    {
+            "id": "A2-NOUN-TRA-056",
+            "word": "harbor",
+            "emoji": "⚓",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "A sheltered port where boats and ships can anchor.",
+                            "examples": [
+                                    "Sailing boats rested in the harbor.",
+                                    "We had dinner overlooking the old harbor."
+                            ]
+                    }
+            ],
+            "subtext": "port, haven",
+            "synonyms": [
+                    "port",
+                    "haven"
+            ],
+            "transcription": "ˈhɑːbə",
+            "lang": "en",
+            "language": "en",
+            "level": "elementary",
+            "level_code": "A2",
+            "theme": "travel",
+            "domain": "TRAVEL",
+            "subcategory": "Places",
+            "pos_section": "Nouns",
+            "sub_subcategory": "Locations_Venues"
+    },
+    {
+            "id": "A2-NOUN-TRA-057",
+            "word": "resort",
+            "emoji": "🏖️",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "A place visited for holidays or relaxation.",
+                            "examples": [
+                                    "They stayed at a luxury beach resort.",
+                                    "The ski resort opens in December."
+                            ]
+                    }
+            ],
+            "subtext": "holiday center",
+            "synonyms": [
+                    "holiday center"
+            ],
+            "transcription": "rɪˈzɔːt",
+            "lang": "en",
+            "language": "en",
+            "level": "elementary",
+            "level_code": "A2",
+            "theme": "travel",
+            "domain": "TRAVEL",
+            "subcategory": "Places",
+            "pos_section": "Nouns",
+            "sub_subcategory": "Locations_Venues"
+    },
+    {
+            "id": "A2-NOUN-TRA-064",
+            "word": "barrier",
+            "emoji": "🚧",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "A fence or obstacle that prevents movement or access.",
+                            "examples": [
+                                    "Language can be a barrier to communication.",
+                                    "Safety barriers lined the racetrack."
+                            ]
+                    }
+            ],
+            "subtext": "obstacle, block",
+            "synonyms": [
+                    "obstacle",
+                    "block"
+            ],
+            "transcription": "ˈbærɪə",
+            "lang": "en",
+            "language": "en",
+            "level": "elementary",
+            "level_code": "A2",
+            "theme": "travel",
+            "domain": "TRAVEL",
+            "subcategory": "Places",
+            "pos_section": "Nouns",
+            "sub_subcategory": "Locations_Venues"
+    },
+    {
+            "id": "A2-NOUN-TRA-065",
+            "word": "continent",
+            "emoji": "🌍",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "Any of the world's main continuous expanses of land.",
+                            "examples": [
+                                    "Africa is the second-largest continent.",
+                                    "They traveled across three continents."
+                            ]
+                    }
+            ],
+            "subtext": "landmass",
+            "synonyms": [
+                    "landmass"
+            ],
+            "transcription": "ˈkɒntɪnənt",
+            "lang": "en",
+            "language": "en",
+            "level": "elementary",
+            "level_code": "A2",
+            "theme": "travel",
+            "domain": "TRAVEL",
+            "subcategory": "Places",
+            "pos_section": "Nouns",
+            "sub_subcategory": "Locations_Venues"
+    },
+    {
+            "id": "A2-NOUN-TRA-066",
+            "word": "direction",
+            "emoji": "🧭",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "A course along which someone or something moves.",
+                            "examples": [
+                                    "Ask for directions if you get lost.",
+                                    "The wind changed direction."
+                            ]
+                    }
+            ],
+            "subtext": "way, course",
+            "synonyms": [
+                    "way",
+                    "course"
+            ],
+            "transcription": "dəˈrekʃn",
+            "lang": "en",
+            "language": "en",
+            "level": "elementary",
+            "level_code": "A2",
+            "theme": "travel",
+            "domain": "TRAVEL",
+            "subcategory": "Places",
+            "pos_section": "Nouns",
+            "sub_subcategory": "Locations_Venues"
+    },
+    {
+            "id": "A2-NOUN-TRA-071",
+            "word": "holiday",
+            "emoji": "🏖️",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "An extended period of leisure and recreation away from work.",
+                            "examples": [
+                                    "We are planning a beach holiday in Italy.",
+                                    "National holidays close public offices."
+                            ]
+                    }
+            ],
+            "subtext": "vacation, break",
+            "synonyms": [
+                    "vacation",
+                    "break"
+            ],
+            "transcription": "ˈhɒlədeɪ",
+            "lang": "en",
+            "language": "en",
+            "level": "elementary",
+            "level_code": "A2",
+            "theme": "travel",
+            "domain": "TRAVEL",
+            "subcategory": "Places",
+            "pos_section": "Nouns",
+            "sub_subcategory": "Locations_Venues"
+    },
+    {
+            "id": "A2-NOUN-TRA-072",
+            "word": "hotel",
+            "emoji": "🏨",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "An establishment providing accommodation, meals, and other services.",
+                            "examples": [
+                                    "They booked a four-star seaside hotel.",
+                                    "Call the hotel front desk for extra towels."
+                            ]
+                    }
+            ],
+            "subtext": "inn, resort",
+            "synonyms": [
+                    "inn",
+                    "resort"
+            ],
+            "transcription": "həʊˈtel",
+            "lang": "en",
+            "language": "en",
+            "level": "elementary",
+            "level_code": "A2",
+            "theme": "travel",
+            "domain": "TRAVEL",
+            "subcategory": "Places",
+            "pos_section": "Nouns",
+            "sub_subcategory": "Locations_Venues"
+    },
+    {
+            "id": "A2-NOUN-TRA-073",
+            "word": "island",
+            "emoji": "🏝️",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "A piece of land surrounded by water.",
+                            "examples": [
+                                    "They spent their holiday on a tropical island.",
+                                    "Ferries connect the island to the mainland."
+                            ]
+                    }
+            ],
+            "subtext": "isle",
+            "synonyms": [
+                    "isle"
+            ],
+            "transcription": "ˈaɪlənd",
+            "lang": "en",
+            "language": "en",
+            "level": "elementary",
+            "level_code": "A2",
+            "theme": "travel",
+            "domain": "TRAVEL",
+            "subcategory": "Places",
+            "pos_section": "Nouns",
+            "sub_subcategory": "Locations_Venues"
+    },
+    {
+            "id": "A2-NOUN-TRA-076",
+            "word": "camp",
+            "emoji": "🏕️",
+            "form": "noun",
+            "definitions": [
+                    {
+                            "text": "A place where tents or temporary shelters are set up.",
+                            "examples": [
+                                    "We set up camp near the riverbank.",
+                                    "Children enjoy summer camp activities."
+                            ]
+                    }
+            ],
+            "subtext": "tent site",
+            "synonyms": [
+                    "tent site"
+            ],
+            "transcription": "kæmp",
+            "lang": "en",
+            "language": "en",
+            "level": "elementary",
+            "level_code": "A2",
+            "theme": "travel",
+            "domain": "TRAVEL",
+            "subcategory": "Places",
+            "pos_section": "Nouns",
+            "sub_subcategory": "Locations_Venues"
     }
-];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    ];
+
+    if (typeof window !== 'undefined') {
+        window.vocabularyData = window.vocabularyData || {};
+        window.vocabularyData.en = (window.vocabularyData.en || []).concat(data);
+    }
+    if (typeof module !== 'undefined' && module.exports) {
+        module.exports = data;
+    }
 })();
