@@ -18,15 +18,15 @@
                 ]
             }
         ],
-        "transcription": "\u00e6m\u02c8b\u026a\u0283n",
-        "emoji": "\ud83d\ude80",
+        "transcription": "æmˈbɪʃn",
+        "emoji": "🚀",
         "_legacy": {
             "classification": "regular",
             "plural": "ambitions",
             "countability": "countable",
             "subtext": "high ambition, professional ambition"
         },
-        "legacy_id": "B1-SOC-05",
+        "legacy_id": "B1-NOUN-SOC-042",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -48,14 +48,14 @@
                 ]
             }
         ],
-        "transcription": "\u02c8\u00e6nju\u0259l li\u02d0v",
-        "emoji": "\ud83c\udfd6\ufe0f",
+        "transcription": "ˈænjuəl liːv",
+        "emoji": "🏖️",
         "_legacy": {
             "plural": null,
             "countability": "uncountable",
             "subtext": "take annual leave, annual leave entitlement"
         },
-        "legacy_id": "B1-SOC-07",
+        "legacy_id": "B1-NOUN-SOC-043",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -63,7 +63,34 @@
         "sub_subcategory": "Employment_Business"
     },
     {
+        "word": "applicant",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A noun referring to a person who formally applies for something, such as submitting a resume for a job.",
+                "examples": [
+                    "Over fifty applicants applied for the position."
+                ]
+            }
+        ],
+        "transcription": "ˈæplɪkənt",
+        "emoji": "👤",
+        "_legacy": {
+            "subtext": "job applicant / qualified applicant"
+        },
+        "level_code": "B1",
+        "domain": "Society",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Employment_Business",
         "id": "B1-NOUN-SOC-043",
+        "legacy_id": "B1-NOUN-SOC-044"
+    },
+    {
+        "id": "B1-NOUN-SOC-044",
         "word": "appraisal",
         "lang": "en",
         "level": "intermediate",
@@ -77,15 +104,15 @@
                 ]
             }
         ],
-        "transcription": "\u0259\u02c8pre\u026azl",
-        "emoji": "\ud83d\udccb",
+        "transcription": "əˈpreɪzl",
+        "emoji": "📋",
         "_legacy": {
             "classification": "regular",
             "plural": "appraisals",
             "countability": "countable",
             "subtext": "performance appraisal, annual appraisal"
         },
-        "legacy_id": "B1-SOC-08",
+        "legacy_id": "B1-NOUN-SOC-045",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -93,7 +120,34 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-044",
+        "word": "apprentice",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A noun referring to a person learning a trade from a skilled employer, such as an electrician in training.",
+                "examples": [
+                    "The young apprentice learned carpentry from a master craftsman."
+                ]
+            }
+        ],
+        "transcription": "əˈprentɪs",
+        "emoji": "🛠️",
+        "_legacy": {
+            "subtext": "trade apprentice / young apprentice"
+        },
+        "level_code": "B1",
+        "domain": "Society",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Employment_Business",
+        "id": "B1-NOUN-SOC-045",
+        "legacy_id": "B1-NOUN-SOC-046"
+    },
+    {
+        "id": "B1-NOUN-SOC-046",
         "word": "architect",
         "lang": "en",
         "level": "intermediate",
@@ -114,14 +168,14 @@
                 ]
             }
         ],
-        "transcription": "\u02c8\u0251\u02d0k\u026at\u025bkt",
-        "emoji": "\ud83c\udfd7\ufe0f",
+        "transcription": "ˈɑːkɪtɛkt",
+        "emoji": "🏗️",
         "_legacy": {
             "classification": "regular",
             "plural": "architects",
             "countability": "countable"
         },
-        "legacy_id": "B1-SOC-10",
+        "legacy_id": "B1-NOUN-SOC-047",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -129,7 +183,115 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-045",
+        "word": "benchmark",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A noun referring to a standard against which things may be measured or judged, such as quality tests.",
+                "examples": [
+                    "Customer satisfaction scores serve as a performance benchmark."
+                ]
+            }
+        ],
+        "transcription": "ˈbentʃmɑːrk",
+        "emoji": "📏",
+        "_legacy": {
+            "subtext": "industry benchmark / set a benchmark"
+        },
+        "level_code": "B1",
+        "domain": "Society",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Employment_Business",
+        "id": "B1-NOUN-SOC-047",
+        "legacy_id": "B1-NOUN-SOC-048"
+    },
+    {
+        "word": "bonus",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A noun referring to an extra sum of money given to an employee, such as a reward for high sales.",
+                "examples": [
+                    "Employees received a generous holiday bonus."
+                ]
+            }
+        ],
+        "transcription": "ˈboʊnəs",
+        "emoji": "💰",
+        "_legacy": {
+            "subtext": "annual bonus / performance bonus"
+        },
+        "level_code": "B1",
+        "domain": "Society",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Employment_Business",
+        "id": "B1-NOUN-SOC-048",
+        "legacy_id": "B1-NOUN-SOC-049"
+    },
+    {
+        "word": "budget",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A noun referring to an estimate of income and expenditure for a set period, such as planning department spending.",
+                "examples": [
+                    "The team managed to stay within the allocated project budget."
+                ]
+            }
+        ],
+        "transcription": "ˈbʌdʒɪt",
+        "emoji": "📊",
+        "_legacy": {
+            "subtext": "annual budget / tight budget"
+        },
+        "level_code": "B1",
+        "domain": "Society",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Employment_Business",
+        "id": "B1-NOUN-SOC-049",
+        "legacy_id": "B1-NOUN-SOC-050"
+    },
+    {
+        "word": "candidate",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A noun referring to a person being considered for a job or office, such as attending an interview.",
+                "examples": [
+                    "She was selected as the top candidate for the managerial role."
+                ]
+            }
+        ],
+        "transcription": "ˈkændɪdeɪt",
+        "emoji": "👔",
+        "_legacy": {
+            "subtext": "promising candidate / job candidate"
+        },
+        "level_code": "B1",
+        "domain": "Society",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Employment_Business",
+        "id": "B1-NOUN-SOC-050",
+        "legacy_id": "B1-NOUN-SOC-051"
+    },
+    {
+        "id": "B1-NOUN-SOC-051",
         "word": "career",
         "lang": "en",
         "level": "intermediate",
@@ -144,15 +306,15 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 k\u0259\u02c8r\u026a\u0259 | \ud83c\uddfa\ud83c\uddf8 k\u0259\u02c8r\u026a\u0259r",
-        "emoji": "\ud83d\udcc8",
+        "transcription": "🇬🇧 kəˈrɪə | 🇺🇸 kəˈrɪər",
+        "emoji": "📈",
         "_legacy": {
             "classification": "regular",
             "plural": "careers",
             "countability": "countable",
             "subtext": "career path, long-term career"
         },
-        "legacy_id": "B1-SOC-14",
+        "legacy_id": "B1-NOUN-SOC-052",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -160,21 +322,21 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-046",
+        "id": "B1-NOUN-SOC-052",
         "word": "colleague",
         "lang": "en",
         "level": "intermediate",
         "theme": "work",
         "form": "noun",
         "definitions": [],
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8k\u0252li\u02d0\u0261 | \ud83c\uddfa\ud83c\uddf8 \u02c8k\u0251\u02d0li\u02d0\u0261",
-        "emoji": "\ud83d\udc65",
+        "transcription": "🇬🇧 ˈkɒliːɡ | 🇺🇸 ˈkɑːliːɡ",
+        "emoji": "👥",
         "_legacy": {
             "classification": "regular",
             "plural": "colleagues",
             "countability": "countable"
         },
-        "legacy_id": "B1-SOC-16",
+        "legacy_id": "B1-NOUN-SOC-053",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -182,7 +344,61 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-047",
+        "word": "contract",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A noun referring to a written or spoken agreement that is intended to be enforceable by law, such as starting employment.",
+                "examples": [
+                    "Read the lease contract carefully before signing."
+                ]
+            }
+        ],
+        "transcription": "ˈkɑːntrækt",
+        "emoji": "📄",
+        "_legacy": {
+            "subtext": "employment contract / sign a contract"
+        },
+        "level_code": "B1",
+        "domain": "Society",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Employment_Business",
+        "id": "B1-NOUN-SOC-053",
+        "legacy_id": "B1-NOUN-SOC-054"
+    },
+    {
+        "word": "corporation",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A noun referring to a large company authorized to act as a single entity, such as an international firm.",
+                "examples": [
+                    "The corporation opened new regional offices across Asia."
+                ]
+            }
+        ],
+        "transcription": "ˌkɔːrpəˈreɪʃn",
+        "emoji": "🏢",
+        "_legacy": {
+            "subtext": "multinational corporation / global corporation"
+        },
+        "level_code": "B1",
+        "domain": "Society",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Employment_Business",
+        "id": "B1-NOUN-SOC-054",
+        "legacy_id": "B1-NOUN-SOC-055"
+    },
+    {
+        "id": "B1-NOUN-SOC-055",
         "word": "credit",
         "lang": "en",
         "level": "intermediate",
@@ -196,15 +412,15 @@
                 ]
             }
         ],
-        "transcription": "\u02c8kr\u025bd\u026at",
-        "emoji": "\ud83d\udcb3",
+        "transcription": "ˈkrɛdɪt",
+        "emoji": "💳",
         "_legacy": {
             "classification": "regular",
             "plural": null,
             "countability": "uncountable",
             "subtext": "credit card, buy on credit"
         },
-        "legacy_id": "B1-SOC-23",
+        "legacy_id": "B1-NOUN-SOC-056",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -212,7 +428,34 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-048",
+        "word": "deadline",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A noun referring to the latest time or date by which something should be completed, such as submitting an assignment.",
+                "examples": [
+                    "We worked overtime to meet the project deadline."
+                ]
+            }
+        ],
+        "transcription": "ˈdedlaɪn",
+        "emoji": "⏰",
+        "_legacy": {
+            "subtext": "tight deadline / meet a deadline"
+        },
+        "level_code": "B1",
+        "domain": "Society",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Employment_Business",
+        "id": "B1-NOUN-SOC-056",
+        "legacy_id": "B1-NOUN-SOC-057"
+    },
+    {
+        "id": "B1-NOUN-SOC-057",
         "word": "engineer",
         "lang": "en",
         "level": "intermediate",
@@ -233,14 +476,14 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02cc\u025bnd\u0292\u026a\u02c8n\u026a\u0259 | \ud83c\uddfa\ud83c\uddf8 \u02cc\u025bnd\u0292\u026a\u02c8n\u026a\u0259r",
-        "emoji": "\ud83d\udc77",
+        "transcription": "🇬🇧 ˌɛndʒɪˈnɪə | 🇺🇸 ˌɛndʒɪˈnɪər",
+        "emoji": "👷",
         "_legacy": {
             "classification": "regular",
             "plural": "engineers",
             "countability": "countable"
         },
-        "legacy_id": "B1-SOC-34",
+        "legacy_id": "B1-NOUN-SOC-058",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -248,7 +491,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-049",
+        "id": "B1-NOUN-SOC-058",
         "word": "expenditure",
         "lang": "en",
         "level": "intermediate",
@@ -262,15 +505,15 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u026ak\u02c8sp\u025bnd\u026at\u0283\u0259 | \ud83c\uddfa\ud83c\uddf8 \u026ak\u02c8sp\u025bnd\u026at\u0283\u0259r",
-        "emoji": "\ud83d\udcb8",
+        "transcription": "🇬🇧 ɪkˈspɛndɪtʃə | 🇺🇸 ɪkˈspɛndɪtʃər",
+        "emoji": "💸",
         "_legacy": {
             "classification": "regular",
             "plural": "expenditures",
             "countability": "uncountable",
             "subtext": "monthly expenditure, reduce expenditure"
         },
-        "legacy_id": "B1-SOC-36",
+        "legacy_id": "B1-NOUN-SOC-059",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -278,7 +521,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-050",
+        "id": "B1-NOUN-SOC-059",
         "word": "flexible hours",
         "lang": "en",
         "level": "intermediate",
@@ -292,14 +535,14 @@
                 ]
             }
         ],
-        "transcription": "\u02c8fl\u025bks\u0259bl \u02c8a\u028a\u0259z",
-        "emoji": "\u23f0",
+        "transcription": "ˈflɛksəbl ˈaʊəz",
+        "emoji": "⏰",
         "_legacy": {
             "plural": null,
             "countability": "uncountable",
             "subtext": "work flexible hours, offer flexible hours"
         },
-        "legacy_id": "B1-SOC-38",
+        "legacy_id": "B1-NOUN-SOC-060",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -307,7 +550,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-051",
+        "id": "B1-NOUN-SOC-060",
         "word": "flexible working",
         "lang": "en",
         "level": "intermediate",
@@ -322,14 +565,14 @@
                 ]
             }
         ],
-        "transcription": "\u02c8fl\u025bks\u0259bl \u02c8w\u025c\u02d0k\u026a\u014b",
-        "emoji": "\ud83c\udfe0",
+        "transcription": "ˈflɛksəbl ˈwɜːkɪŋ",
+        "emoji": "🏠",
         "_legacy": {
             "plural": null,
             "countability": "uncountable",
             "subtext": "work from home, flexitime"
         },
-        "legacy_id": "B1-SOC-39",
+        "legacy_id": "B1-NOUN-SOC-061",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -337,7 +580,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-052",
+        "id": "B1-NOUN-SOC-061",
         "word": "income",
         "lang": "en",
         "level": "intermediate",
@@ -353,8 +596,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8\u026ank\u028cm",
-        "emoji": "\ud83d\udcb5",
+        "transcription": "ˈɪnkʌm",
+        "emoji": "💵",
         "_legacy": {
             "classification": "regular",
             "plural": "incomes",
@@ -363,9 +606,9 @@
             "antonyms": [
                 "expense"
             ],
-            "oppositeEmoji": "\ud83d\udcb8"
+            "oppositeEmoji": "💸"
         },
-        "legacy_id": "B1-SOC-46",
+        "legacy_id": "B1-NOUN-SOC-062",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -373,7 +616,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-053",
+        "id": "B1-NOUN-SOC-062",
         "word": "insurance",
         "lang": "en",
         "level": "intermediate",
@@ -389,15 +632,15 @@
                 ]
             }
         ],
-        "transcription": "\u026an\u02c8\u0283\u028a\u0259r\u0259ns",
-        "emoji": "\ud83d\udee1\ufe0f",
+        "transcription": "ɪnˈʃʊərəns",
+        "emoji": "🛡️",
         "_legacy": {
             "classification": "regular",
             "plural": "insurances",
             "countability": "uncountable",
             "subtext": "health insurance, car insurance"
         },
-        "legacy_id": "B1-SOC-49",
+        "legacy_id": "B1-NOUN-SOC-063",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -405,7 +648,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-054",
+        "id": "B1-NOUN-SOC-063",
         "word": "interest rate",
         "lang": "en",
         "level": "intermediate",
@@ -420,14 +663,14 @@
                 ]
             }
         ],
-        "transcription": "\u02c8\u026antr\u0259st re\u026at",
-        "emoji": "\ud83d\udcca",
+        "transcription": "ˈɪntrəst reɪt",
+        "emoji": "📊",
         "_legacy": {
             "plural": "interest rates",
             "countability": "countable",
             "subtext": "high interest rate, low interest rate"
         },
-        "legacy_id": "B1-SOC-50",
+        "legacy_id": "B1-NOUN-SOC-064",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -435,7 +678,34 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-055",
+        "word": "interview",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A noun referring to a formal meeting in which one or more persons question an applicant, such as hiring staff.",
+                "examples": [
+                    "Her job interview went smoothly yesterday."
+                ]
+            }
+        ],
+        "transcription": "ˈɪntərvjuː",
+        "emoji": "🎙️",
+        "_legacy": {
+            "subtext": "job interview / conduct an interview"
+        },
+        "level_code": "B1",
+        "domain": "Society",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Employment_Business",
+        "id": "B1-NOUN-SOC-064",
+        "legacy_id": "B1-NOUN-SOC-065"
+    },
+    {
+        "id": "B1-NOUN-SOC-065",
         "word": "investment",
         "lang": "en",
         "level": "intermediate",
@@ -451,15 +721,15 @@
                 ]
             }
         ],
-        "transcription": "\u026an\u02c8v\u025bstm\u0259nt",
-        "emoji": "\ud83d\udcb0",
+        "transcription": "ɪnˈvɛstmənt",
+        "emoji": "💰",
         "_legacy": {
             "classification": "regular",
             "plural": "investments",
             "countability": "countable",
             "subtext": "long-term investment, return on investment"
         },
-        "legacy_id": "B1-SOC-51",
+        "legacy_id": "B1-NOUN-SOC-066",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -467,7 +737,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-056",
+        "id": "B1-NOUN-SOC-066",
         "word": "leadership",
         "lang": "en",
         "level": "intermediate",
@@ -481,15 +751,15 @@
                 ]
             }
         ],
-        "transcription": "\u02c8li\u02d0d\u0259\u0283\u026ap",
-        "emoji": "\ud83d\udc51",
+        "transcription": "ˈliːdəʃɪp",
+        "emoji": "👑",
         "_legacy": {
             "classification": "regular",
             "plural": null,
             "countability": "uncountable",
             "subtext": "strong leadership, leadership skills"
         },
-        "legacy_id": "B1-SOC-52",
+        "legacy_id": "B1-NOUN-SOC-067",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -497,7 +767,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-057",
+        "id": "B1-NOUN-SOC-067",
         "word": "maternity leave",
         "lang": "en",
         "level": "intermediate",
@@ -512,14 +782,14 @@
                 ]
             }
         ],
-        "transcription": "m\u0259\u02c8t\u025c\u02d0n\u026ati li\u02d0v",
-        "emoji": "\ud83d\udc76",
+        "transcription": "məˈtɜːnɪti liːv",
+        "emoji": "👶",
         "_legacy": {
             "plural": null,
             "countability": "uncountable",
             "subtext": "paternity leave, parental leave"
         },
-        "legacy_id": "B1-SOC-54",
+        "legacy_id": "B1-NOUN-SOC-068",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -527,7 +797,34 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-058",
+        "word": "negotiation",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A noun referring to discussion aimed at reaching an agreement, such as settling salary terms.",
+                "examples": [
+                    "Salary negotiations lasted for three hours."
+                ]
+            }
+        ],
+        "transcription": "nɪˌɡoʊʃiˈeɪʃn",
+        "emoji": "🤝",
+        "_legacy": {
+            "subtext": "contract negotiation / enter negotiations"
+        },
+        "level_code": "B1",
+        "domain": "Society",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Employment_Business",
+        "id": "B1-NOUN-SOC-068",
+        "legacy_id": "B1-NOUN-SOC-069"
+    },
+    {
+        "id": "B1-NOUN-SOC-069",
         "word": "networking",
         "lang": "en",
         "level": "intermediate",
@@ -543,15 +840,15 @@
                 ]
             }
         ],
-        "transcription": "\u02c8n\u025btw\u025c\u02d0k\u026a\u014b",
-        "emoji": "\ud83e\udd1d",
+        "transcription": "ˈnɛtwɜːkɪŋ",
+        "emoji": "🤝",
         "_legacy": {
             "classification": "regular",
             "plural": null,
             "countability": "uncountable",
             "subtext": "professional networking, networking event"
         },
-        "legacy_id": "B1-SOC-57",
+        "legacy_id": "B1-NOUN-SOC-070",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -559,7 +856,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-059",
+        "id": "B1-NOUN-SOC-070",
         "word": "paternity leave",
         "lang": "en",
         "level": "intermediate",
@@ -573,14 +870,14 @@
                 ]
             }
         ],
-        "transcription": "p\u0259\u02c8t\u025c\u02d0n\u026ati li\u02d0v",
-        "emoji": "\ud83c\udf7c",
+        "transcription": "pəˈtɜːnɪti liːv",
+        "emoji": "🍼",
         "_legacy": {
             "plural": null,
             "countability": "uncountable",
             "subtext": "take paternity leave, paid paternity leave"
         },
-        "legacy_id": "B1-SOC-60",
+        "legacy_id": "B1-NOUN-SOC-071",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -588,7 +885,34 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-060",
+        "word": "payroll",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A noun referring to a list of a company's employees and the amount of money to be paid to each, such as monthly wages.",
+                "examples": [
+                    "The accounting firm processes payroll every two weeks."
+                ]
+            }
+        ],
+        "transcription": "ˈpeɪroʊl",
+        "emoji": "🧾",
+        "_legacy": {
+            "subtext": "company payroll / process payroll"
+        },
+        "level_code": "B1",
+        "domain": "Society",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Employment_Business",
+        "id": "B1-NOUN-SOC-071",
+        "legacy_id": "B1-NOUN-SOC-072"
+    },
+    {
+        "id": "B1-NOUN-SOC-072",
         "word": "pension",
         "lang": "en",
         "level": "intermediate",
@@ -604,15 +928,15 @@
                 ]
             }
         ],
-        "transcription": "\u02c8p\u025bn\u0283n",
-        "emoji": "\ud83d\udc74",
+        "transcription": "ˈpɛnʃn",
+        "emoji": "👴",
         "_legacy": {
             "classification": "regular",
             "plural": "pensions",
             "countability": "countable",
             "subtext": "pension plan, retirement fund"
         },
-        "legacy_id": "B1-SOC-62",
+        "legacy_id": "B1-NOUN-SOC-073",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -620,7 +944,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-061",
+        "id": "B1-NOUN-SOC-073",
         "word": "pilot",
         "lang": "en",
         "level": "intermediate",
@@ -641,14 +965,14 @@
                 ]
             }
         ],
-        "transcription": "\u02c8pa\u026al\u0259t",
-        "emoji": "\ud83e\uddd1\u200d\u2708\ufe0f",
+        "transcription": "ˈpaɪlət",
+        "emoji": "🧑‍✈️",
         "_legacy": {
             "classification": "regular",
             "plural": "pilots",
             "countability": "countable"
         },
-        "legacy_id": "B1-SOC-63",
+        "legacy_id": "B1-NOUN-SOC-074",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -656,7 +980,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-062",
+        "id": "B1-NOUN-SOC-074",
         "word": "promotion",
         "lang": "en",
         "level": "intermediate",
@@ -670,15 +994,15 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 pr\u0259\u02c8m\u0259\u028a\u0283n | \ud83c\uddfa\ud83c\uddf8 pr\u0259\u02c8mo\u028a\u0283n",
-        "emoji": "\ud83d\udcc8",
+        "transcription": "🇬🇧 prəˈməʊʃn | 🇺🇸 prəˈmoʊʃn",
+        "emoji": "📈",
         "_legacy": {
             "classification": "regular",
             "plural": "promotions",
             "countability": "countable",
             "subtext": "get a promotion, job promotion"
         },
-        "legacy_id": "B1-SOC-66",
+        "legacy_id": "B1-NOUN-SOC-075",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -686,7 +1010,61 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-063",
+        "word": "qualification",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A noun referring to an official record of achievement awarded upon passing an exam, such as a degree.",
+                "examples": [
+                    "She holds professional qualifications in accountancy."
+                ]
+            }
+        ],
+        "transcription": "ˌkwɑːlɪfɪˈkeɪʃn",
+        "emoji": "🎓",
+        "_legacy": {
+            "subtext": "academic qualification / formal qualification"
+        },
+        "level_code": "B1",
+        "domain": "Society",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Employment_Business",
+        "id": "B1-NOUN-SOC-075",
+        "legacy_id": "B1-NOUN-SOC-076"
+    },
+    {
+        "word": "recruitment",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A noun referring to the process of finding and hiring candidates for jobs, such as advertising vacancies.",
+                "examples": [
+                    "The company launched a recruitment drive for software engineers."
+                ]
+            }
+        ],
+        "transcription": "rɪˈkruːtmənt",
+        "emoji": "🔍",
+        "_legacy": {
+            "subtext": "recruitment agency / staff recruitment"
+        },
+        "level_code": "B1",
+        "domain": "Society",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Employment_Business",
+        "id": "B1-NOUN-SOC-076",
+        "legacy_id": "B1-NOUN-SOC-077"
+    },
+    {
+        "id": "B1-NOUN-SOC-077",
         "word": "redundancy",
         "lang": "en",
         "level": "intermediate",
@@ -702,15 +1080,15 @@
                 ]
             }
         ],
-        "transcription": "r\u026a\u02c8d\u028cnd\u0259nsi",
-        "emoji": "\ud83d\udcc9",
+        "transcription": "rɪˈdʌndənsi",
+        "emoji": "📉",
         "_legacy": {
             "classification": "regular",
             "plural": "redundancies",
             "countability": "countable",
             "subtext": "voluntary redundancy, redundancy pay"
         },
-        "legacy_id": "B1-SOC-68",
+        "legacy_id": "B1-NOUN-SOC-078",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -718,7 +1096,88 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-064",
+        "word": "resignation",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A noun referring to an act of retiring or giving up a position, such as leaving a job.",
+                "examples": [
+                    "He handed in his letter of resignation to the director."
+                ]
+            }
+        ],
+        "transcription": "ˌrezɪɡˈneɪʃn",
+        "emoji": "✉️",
+        "_legacy": {
+            "subtext": "tender resignation / letter of resignation"
+        },
+        "level_code": "B1",
+        "domain": "Society",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Employment_Business",
+        "id": "B1-NOUN-SOC-078",
+        "legacy_id": "B1-NOUN-SOC-079"
+    },
+    {
+        "word": "resume",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A noun referring to a brief summary of a person's education and experience, such as a CV for a job application.",
+                "examples": [
+                    "Attach your updated resume to the online application."
+                ]
+            }
+        ],
+        "transcription": "ˈrezəmeɪ",
+        "emoji": "📄",
+        "_legacy": {
+            "subtext": "updated resume / submit a resume"
+        },
+        "level_code": "B1",
+        "domain": "Society",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Employment_Business",
+        "id": "B1-NOUN-SOC-079",
+        "legacy_id": "B1-NOUN-SOC-080"
+    },
+    {
+        "word": "salary",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A noun referring to a fixed regular payment made by an employer to an employee, such as monthly wages.",
+                "examples": [
+                    "She negotiated a competitive starting salary."
+                ]
+            }
+        ],
+        "transcription": "ˈsæləri",
+        "emoji": "💰",
+        "_legacy": {
+            "subtext": "annual salary / base salary"
+        },
+        "level_code": "B1",
+        "domain": "Society",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Employment_Business",
+        "id": "B1-NOUN-SOC-080",
+        "legacy_id": "B1-NOUN-SOC-081"
+    },
+    {
+        "id": "B1-NOUN-SOC-081",
         "word": "skill",
         "lang": "en",
         "level": "intermediate",
@@ -733,15 +1192,15 @@
                 ]
             }
         ],
-        "transcription": "sk\u026al",
-        "emoji": "\ud83d\udee0\ufe0f",
+        "transcription": "skɪl",
+        "emoji": "🛠️",
         "_legacy": {
             "classification": "regular",
             "plural": "skills",
             "countability": "countable",
             "subtext": "soft skills, hard skills, practical skills"
         },
-        "legacy_id": "B1-SOC-73",
+        "legacy_id": "B1-NOUN-SOC-082",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -749,7 +1208,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-065",
+        "id": "B1-NOUN-SOC-082",
         "word": "skill set",
         "lang": "en",
         "level": "intermediate",
@@ -763,15 +1222,15 @@
                 ]
             }
         ],
-        "transcription": "sk\u026al s\u025bt",
-        "emoji": "\ud83d\udee0\ufe0f",
+        "transcription": "skɪl sɛt",
+        "emoji": "🛠️",
         "_legacy": {
             "classification": "regular",
             "plural": "skill sets",
             "countability": "countable",
             "subtext": "diverse skill set, professional skill set"
         },
-        "legacy_id": "B1-SOC-74",
+        "legacy_id": "B1-NOUN-SOC-083",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -779,7 +1238,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-066",
+        "id": "B1-NOUN-SOC-083",
         "word": "software developer",
         "lang": "en",
         "level": "intermediate",
@@ -800,15 +1259,15 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8s\u0252ftwe\u0259 d\u026a\u02c8v\u025bl\u0259p\u0259 | \ud83c\uddfa\ud83c\uddf8 \u02c8s\u0251\u02d0ftwe\u0259 d\u026a\u02c8v\u025bl\u0259p\u0259r",
-        "emoji": "\ud83d\udcbb",
+        "transcription": "🇬🇧 ˈsɒftweə dɪˈvɛləpə | 🇺🇸 ˈsɑːftweə dɪˈvɛləpər",
+        "emoji": "💻",
         "_legacy": {
             "explanation": "A software developer creates code, while the others are physical structures or objects.",
             "classification": "regular",
             "plural": "software developers",
             "countability": "countable"
         },
-        "legacy_id": "B1-SOC-76",
+        "legacy_id": "B1-NOUN-SOC-084",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -816,7 +1275,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-067",
+        "id": "B1-NOUN-SOC-084",
         "word": "tax",
         "lang": "en",
         "level": "intermediate",
@@ -831,15 +1290,15 @@
                 ]
             }
         ],
-        "transcription": "t\u00e6ks",
-        "emoji": "\ud83c\udfdb\ufe0f",
+        "transcription": "tæks",
+        "emoji": "🏛️",
         "_legacy": {
             "classification": "regular",
             "plural": "taxes",
             "countability": "countable",
             "subtext": "income tax, value-added tax (VAT)"
         },
-        "legacy_id": "B1-SOC-80",
+        "legacy_id": "B1-NOUN-SOC-085",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -847,7 +1306,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-068",
+        "id": "B1-NOUN-SOC-085",
         "word": "tax return",
         "lang": "en",
         "level": "intermediate",
@@ -861,15 +1320,15 @@
                 ]
             }
         ],
-        "transcription": "t\u00e6ks r\u026a\u02c8t\u025c\u02d0n",
-        "emoji": "\ud83d\udcc4",
+        "transcription": "tæks rɪˈtɜːn",
+        "emoji": "📄",
         "_legacy": {
             "classification": "regular",
             "plural": "tax returns",
             "countability": "countable",
             "subtext": "submit a tax return, annual tax return"
         },
-        "legacy_id": "B1-SOC-81",
+        "legacy_id": "B1-NOUN-SOC-086",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -877,7 +1336,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-069",
+        "id": "B1-NOUN-SOC-086",
         "word": "teamwork",
         "lang": "en",
         "level": "intermediate",
@@ -892,15 +1351,15 @@
                 ]
             }
         ],
-        "transcription": "\u02c8ti\u02d0mw\u025c\u02d0k",
-        "emoji": "\ud83d\udc65",
+        "transcription": "ˈtiːmwɜːk",
+        "emoji": "👥",
         "_legacy": {
             "classification": "regular",
             "plural": null,
             "countability": "uncountable",
             "subtext": "effective teamwork, team spirit"
         },
-        "legacy_id": "B1-SOC-82",
+        "legacy_id": "B1-NOUN-SOC-087",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -908,7 +1367,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-070",
+        "id": "B1-NOUN-SOC-087",
         "word": "workload",
         "lang": "en",
         "level": "intermediate",
@@ -924,15 +1383,15 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8w\u025c\u02d0kl\u0259\u028ad | \ud83c\uddfa\ud83c\uddf8 \u02c8w\u025c\u02d0klo\u028ad",
-        "emoji": "\ud83d\udcda",
+        "transcription": "🇬🇧 ˈwɜːkləʊd | 🇺🇸 ˈwɜːkloʊd",
+        "emoji": "📚",
         "_legacy": {
             "classification": "regular",
             "plural": "workloads",
             "countability": "countable",
             "subtext": "heavy workload, manage workload"
         },
-        "legacy_id": "B1-SOC-84",
+        "legacy_id": "B1-NOUN-SOC-088",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -940,7 +1399,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-NOUN-SOC-071",
+        "id": "B1-NOUN-SOC-088",
         "word": "workplace",
         "lang": "en",
         "level": "intermediate",
@@ -954,15 +1413,15 @@
                 ]
             }
         ],
-        "transcription": "\u02c8w\u025c\u02d0kple\u026as",
-        "emoji": "\ud83c\udfe2",
+        "transcription": "ˈwɜːkpleɪs",
+        "emoji": "🏢",
         "_legacy": {
             "classification": "regular",
             "plural": "workplaces",
             "countability": "countable",
             "subtext": "modern workplace, workplace culture"
         },
-        "legacy_id": "B1-SOC-85",
+        "legacy_id": "B1-NOUN-SOC-089",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",

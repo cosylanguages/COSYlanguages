@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "B1-VERB-SOC-018",
+        "id": "B1-VERB-SOC-016",
         "word": "achieve",
         "lang": "en",
         "level": "intermediate",
@@ -16,8 +16,8 @@
                 ]
             }
         ],
-        "transcription": "\u0259\u02c8t\u0283i\u02d0v",
-        "emoji": "\ud83c\udfc6",
+        "transcription": "əˈtʃiːv",
+        "emoji": "🏆",
         "_legacy": {
             "subtext": "achieve a goal / achieve results / achieve success",
             "classification": "regular",
@@ -28,7 +28,7 @@
             "auxiliary": "have",
             "v4": "achieving"
         },
-        "legacy_id": "B1-SOC-01",
+        "legacy_id": "B1-VERB-SOC-018",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -36,7 +36,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-019",
+        "id": "B1-VERB-SOC-017",
         "word": "acknowledge",
         "lang": "en",
         "level": "intermediate",
@@ -50,8 +50,8 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u0259k\u02c8n\u0252l\u026ad\u0292 | \ud83c\uddfa\ud83c\uddf8 \u0259k\u02c8n\u0251\u02d0l\u026ad\u0292",
-        "emoji": "\ud83e\udd1d",
+        "transcription": "🇬🇧 əkˈnɒlɪdʒ | 🇺🇸 əkˈnɑːlɪdʒ",
+        "emoji": "🤝",
         "_legacy": {
             "subtext": "acknowledge a problem / acknowledge someone / acknowledge that",
             "classification": "regular",
@@ -62,7 +62,7 @@
             "auxiliary": "have",
             "v4": "acknowledging"
         },
-        "legacy_id": "B1-SOC-02",
+        "legacy_id": "B1-VERB-SOC-019",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -70,7 +70,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-020",
+        "id": "B1-VERB-SOC-018",
         "word": "adapt",
         "lang": "en",
         "level": "intermediate",
@@ -84,8 +84,8 @@
                 ]
             }
         ],
-        "transcription": "\u0259\u02c8d\u00e6pt",
-        "emoji": "\ud83d\udd04",
+        "transcription": "əˈdæpt",
+        "emoji": "🔄",
         "_legacy": {
             "subtext": "adapt to change / adapt a plan / be adaptable",
             "classification": "regular",
@@ -96,7 +96,7 @@
             "auxiliary": "have",
             "v4": "adapting"
         },
-        "legacy_id": "B1-SOC-03",
+        "legacy_id": "B1-VERB-SOC-020",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -104,7 +104,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-021",
+        "id": "B1-VERB-SOC-019",
         "word": "admit",
         "lang": "en",
         "level": "intermediate",
@@ -118,8 +118,8 @@
                 ]
             }
         ],
-        "transcription": "\u0259d\u02c8m\u026at",
-        "emoji": "\ud83d\ude4a",
+        "transcription": "ədˈmɪt",
+        "emoji": "🙊",
         "_legacy": {
             "subtext": "admit a mistake / admit to / reluctantly admit",
             "classification": "regular",
@@ -130,7 +130,7 @@
             "auxiliary": "have",
             "v4": "admiting"
         },
-        "legacy_id": "B1-SOC-04",
+        "legacy_id": "B1-VERB-SOC-021",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -138,7 +138,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-022",
+        "id": "B1-VERB-SOC-020",
         "word": "appreciate",
         "lang": "en",
         "level": "intermediate",
@@ -152,8 +152,8 @@
                 ]
             }
         ],
-        "transcription": "\u0259\u02c8pri\u02d0\u0283ie\u026at",
-        "emoji": "\ud83d\ude4f",
+        "transcription": "əˈpriːʃieɪt",
+        "emoji": "🙏",
         "_legacy": {
             "subtext": "appreciate something / appreciate someone's work / deeply appreciate",
             "classification": "regular",
@@ -164,7 +164,7 @@
             "auxiliary": "have",
             "v4": "appreciating"
         },
-        "legacy_id": "B1-SOC-09",
+        "legacy_id": "B1-VERB-SOC-022",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -172,7 +172,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-023",
+        "id": "B1-VERB-SOC-021",
         "word": "assume",
         "lang": "en",
         "level": "intermediate",
@@ -186,8 +186,8 @@
                 ]
             }
         ],
-        "transcription": "\u0259\u02c8sju\u02d0m",
-        "emoji": "\ud83d\udcad",
+        "transcription": "əˈsjuːm",
+        "emoji": "💭",
         "_legacy": {
             "subtext": "assume that / make an assumption / never assume",
             "classification": "regular",
@@ -198,7 +198,7 @@
             "auxiliary": "have",
             "v4": "assuming"
         },
-        "legacy_id": "B1-SOC-11",
+        "legacy_id": "B1-VERB-SOC-023",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -206,7 +206,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-024",
+        "id": "B1-VERB-SOC-022",
         "word": "blame",
         "lang": "en",
         "level": "intermediate",
@@ -220,8 +220,8 @@
                 ]
             }
         ],
-        "transcription": "ble\u026am",
-        "emoji": "\ud83d\udc48",
+        "transcription": "bleɪm",
+        "emoji": "👈",
         "_legacy": {
             "subtext": "blame someone / blame yourself / shift the blame",
             "classification": "regular",
@@ -232,7 +232,7 @@
             "auxiliary": "have",
             "v4": "blaming"
         },
-        "legacy_id": "B1-SOC-12",
+        "legacy_id": "B1-VERB-SOC-024",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -240,7 +240,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-025",
+        "id": "B1-VERB-SOC-023",
         "word": "build up",
         "lang": "en",
         "level": "intermediate",
@@ -254,8 +254,8 @@
                 ]
             }
         ],
-        "transcription": "b\u026ald \u028cp",
-        "emoji": "\ud83c\udfd7\ufe0f",
+        "transcription": "bɪld ʌp",
+        "emoji": "🏗️",
         "_legacy": {
             "subtext": "build up experience / build up savings / build up trust",
             "classification": "phrasal",
@@ -265,7 +265,7 @@
             "group": "regular",
             "auxiliary": "have"
         },
-        "legacy_id": "B1-SOC-13",
+        "legacy_id": "B1-VERB-SOC-025",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -273,40 +273,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-026",
-        "word": "come across",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "work",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To meet or find something unexpectedly; to make an impression.",
-                "examples": [
-                    "She came across as very confident in the interview."
-                ]
-            }
-        ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 k\u028cm \u0259\u02c8kr\u0252s | \ud83c\uddfa\ud83c\uddf8 k\u028cm \u0259\u02c8kr\u0251\u02d0s",
-        "emoji": "\ud83e\udd1d",
-        "_legacy": {
-            "subtext": "come across well / come across a problem / come across as",
-            "classification": "phrasal",
-            "aspect": "both",
-            "v2": "came across",
-            "v3": "come across",
-            "group": "regular",
-            "auxiliary": "have"
-        },
-        "legacy_id": "B1-SOC-17",
-        "level_code": "B1",
-        "domain": "Society",
-        "subcategory": "Work",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Employment_Business"
-    },
-    {
-        "id": "B1-VERB-SOC-027",
+        "id": "B1-VERB-SOC-024",
         "word": "confirm",
         "lang": "en",
         "level": "intermediate",
@@ -320,8 +287,8 @@
                 ]
             }
         ],
-        "transcription": "k\u0259n\u02c8f\u025c\u02d0m",
-        "emoji": "\u2705",
+        "transcription": "kənˈfɜːm",
+        "emoji": "✅",
         "_legacy": {
             "subtext": "confirm a booking / confirm receipt / confirm in writing",
             "classification": "regular",
@@ -332,7 +299,7 @@
             "auxiliary": "have",
             "v4": "confirming"
         },
-        "legacy_id": "B1-SOC-20",
+        "legacy_id": "B1-VERB-SOC-027",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -340,7 +307,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-028",
+        "id": "B1-VERB-SOC-025",
         "word": "consider",
         "lang": "en",
         "level": "intermediate",
@@ -354,8 +321,8 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 k\u0259n\u02c8s\u026ad\u0259 | \ud83c\uddfa\ud83c\uddf8 k\u0259n\u02c8s\u026ad\u0259r",
-        "emoji": "\ud83e\udd14",
+        "transcription": "🇬🇧 kənˈsɪdə | 🇺🇸 kənˈsɪdər",
+        "emoji": "🤔",
         "_legacy": {
             "subtext": "consider an option / consider carefully / consider someone for a role",
             "classification": "regular",
@@ -366,7 +333,7 @@
             "auxiliary": "have",
             "v4": "considering"
         },
-        "legacy_id": "B1-SOC-21",
+        "legacy_id": "B1-VERB-SOC-028",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -374,7 +341,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-029",
+        "id": "B1-VERB-SOC-026",
         "word": "contribute",
         "lang": "en",
         "level": "intermediate",
@@ -382,14 +349,14 @@
         "form": "verb",
         "definitions": [
             {
-                "text": "To give something \u2014 time, money or ideas \u2014 to a shared purpose.",
+                "text": "To give something — time, money or ideas — to a shared purpose.",
                 "examples": [
                     "She contributes valuable experience to every project."
                 ]
             }
         ],
-        "transcription": "k\u0259n\u02c8tr\u026abju\u02d0t",
-        "emoji": "\ud83e\udd1d",
+        "transcription": "kənˈtrɪbjuːt",
+        "emoji": "🤝",
         "_legacy": {
             "subtext": "contribute to / contribute ideas / make a contribution",
             "classification": "regular",
@@ -400,7 +367,7 @@
             "auxiliary": "have",
             "v4": "contributing"
         },
-        "legacy_id": "B1-SOC-22",
+        "legacy_id": "B1-VERB-SOC-029",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -408,7 +375,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-030",
+        "id": "B1-VERB-SOC-027",
         "word": "deal with",
         "lang": "en",
         "level": "intermediate",
@@ -422,8 +389,8 @@
                 ]
             }
         ],
-        "transcription": "di\u02d0l w\u026a\u00f0",
-        "emoji": "\ud83d\udee0\ufe0f",
+        "transcription": "diːl wɪð",
+        "emoji": "🛠️",
         "_legacy": {
             "subtext": "deal with a problem / deal with stress / hard to deal with",
             "classification": "phrasal",
@@ -433,7 +400,7 @@
             "group": "regular",
             "auxiliary": "have"
         },
-        "legacy_id": "B1-SOC-24",
+        "legacy_id": "B1-VERB-SOC-030",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -441,7 +408,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-031",
+        "id": "B1-VERB-SOC-028",
         "word": "deny",
         "lang": "en",
         "level": "intermediate",
@@ -455,8 +422,8 @@
                 ]
             }
         ],
-        "transcription": "d\u026a\u02c8na\u026a",
-        "emoji": "\ud83d\udeab",
+        "transcription": "dɪˈnaɪ",
+        "emoji": "🚫",
         "_legacy": {
             "subtext": "deny a claim / deny responsibility / flatly deny",
             "classification": "regular",
@@ -467,7 +434,7 @@
             "auxiliary": "have",
             "v4": "denying"
         },
-        "legacy_id": "B1-SOC-27",
+        "legacy_id": "B1-VERB-SOC-031",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -475,7 +442,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-032",
+        "id": "B1-VERB-SOC-029",
         "word": "describe",
         "lang": "en",
         "level": "intermediate",
@@ -489,8 +456,8 @@
                 ]
             }
         ],
-        "transcription": "d\u026a\u02c8skra\u026ab",
-        "emoji": "\ud83d\udcac",
+        "transcription": "dɪˈskraɪb",
+        "emoji": "💬",
         "_legacy": {
             "subtext": "describe a problem / describe a situation / describe someone",
             "classification": "regular",
@@ -501,7 +468,7 @@
             "auxiliary": "have",
             "v4": "describing"
         },
-        "legacy_id": "B1-SOC-28",
+        "legacy_id": "B1-VERB-SOC-032",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -509,7 +476,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-033",
+        "id": "B1-VERB-SOC-030",
         "word": "develop",
         "lang": "en",
         "level": "intermediate",
@@ -523,8 +490,8 @@
                 ]
             }
         ],
-        "transcription": "d\u026a\u02c8v\u025bl\u0259p",
-        "emoji": "\ud83d\udcc8",
+        "transcription": "dɪˈvɛləp",
+        "emoji": "📈",
         "_legacy": {
             "subtext": "develop a skill / develop a plan / develop over time",
             "classification": "regular",
@@ -535,7 +502,7 @@
             "auxiliary": "have",
             "v4": "developing"
         },
-        "legacy_id": "B1-SOC-30",
+        "legacy_id": "B1-VERB-SOC-033",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -543,7 +510,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-034",
+        "id": "B1-VERB-SOC-031",
         "word": "encourage",
         "lang": "en",
         "level": "intermediate",
@@ -557,8 +524,8 @@
                 ]
             }
         ],
-        "transcription": "\u026an\u02c8k\u028cr\u026ad\u0292",
-        "emoji": "\ud83d\ude4c",
+        "transcription": "ɪnˈkʌrɪdʒ",
+        "emoji": "🙌",
         "_legacy": {
             "subtext": "encourage someone / encourage a behaviour / be encouraging",
             "classification": "regular",
@@ -569,7 +536,7 @@
             "auxiliary": "have",
             "v4": "encouraging"
         },
-        "legacy_id": "B1-SOC-33",
+        "legacy_id": "B1-VERB-SOC-034",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -577,7 +544,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-035",
+        "id": "B1-VERB-SOC-032",
         "word": "explain",
         "lang": "en",
         "level": "intermediate",
@@ -591,8 +558,8 @@
                 ]
             }
         ],
-        "transcription": "\u026ak\u02c8sple\u026an",
-        "emoji": "\ud83d\udde3\ufe0f",
+        "transcription": "ɪkˈspleɪn",
+        "emoji": "🗣️",
         "_legacy": {
             "subtext": "explain a process / explain to someone / clearly explain",
             "classification": "regular",
@@ -603,7 +570,7 @@
             "auxiliary": "have",
             "v4": "explaining"
         },
-        "legacy_id": "B1-SOC-37",
+        "legacy_id": "B1-VERB-SOC-035",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -611,7 +578,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-036",
+        "id": "B1-VERB-SOC-033",
         "word": "freelance",
         "lang": "en",
         "level": "intermediate",
@@ -625,12 +592,12 @@
                 ]
             }
         ],
-        "transcription": "\u02c8fri\u02d0l\u0251\u02d0ns",
-        "emoji": "\ud83e\uddd1\u200d\ud83d\udcbb",
+        "transcription": "ˈfriːlɑːns",
+        "emoji": "🧑‍💻",
         "_legacy": {
             "subtext": "work freelance, freelance journalist"
         },
-        "legacy_id": "B1-SOC-40",
+        "legacy_id": "B1-VERB-SOC-036",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -638,7 +605,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-037",
+        "id": "B1-VERB-SOC-034",
         "word": "identify",
         "lang": "en",
         "level": "intermediate",
@@ -652,8 +619,8 @@
                 ]
             }
         ],
-        "transcription": "a\u026a\u02c8d\u025bnt\u026afa\u026a",
-        "emoji": "\ud83d\udd0d",
+        "transcription": "aɪˈdɛntɪfaɪ",
+        "emoji": "🔍",
         "_legacy": {
             "subtext": "identify a problem / identify a solution / identify risks",
             "classification": "regular",
@@ -664,7 +631,7 @@
             "auxiliary": "have",
             "v4": "identifying"
         },
-        "legacy_id": "B1-SOC-41",
+        "legacy_id": "B1-VERB-SOC-037",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -672,7 +639,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-038",
+        "id": "B1-VERB-SOC-035",
         "word": "implement",
         "lang": "en",
         "level": "intermediate",
@@ -686,8 +653,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8\u026ampl\u026am\u025bnt",
-        "emoji": "\u2699\ufe0f",
+        "transcription": "ˈɪmplɪmɛnt",
+        "emoji": "⚙️",
         "_legacy": {
             "subtext": "implement a policy / implement changes / implement a strategy",
             "classification": "regular",
@@ -698,7 +665,7 @@
             "auxiliary": "have",
             "v4": "implementing"
         },
-        "legacy_id": "B1-SOC-43",
+        "legacy_id": "B1-VERB-SOC-038",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -706,7 +673,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-039",
+        "id": "B1-VERB-SOC-036",
         "word": "improve",
         "lang": "en",
         "level": "intermediate",
@@ -720,8 +687,8 @@
                 ]
             }
         ],
-        "transcription": "\u026am\u02c8pru\u02d0v",
-        "emoji": "\u2728",
+        "transcription": "ɪmˈpruːv",
+        "emoji": "✨",
         "_legacy": {
             "subtext": "improve performance / improve health / room for improvement",
             "classification": "regular",
@@ -732,7 +699,7 @@
             "auxiliary": "have",
             "v4": "improving"
         },
-        "legacy_id": "B1-SOC-45",
+        "legacy_id": "B1-VERB-SOC-039",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -740,7 +707,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-040",
+        "id": "B1-VERB-SOC-037",
         "word": "insist",
         "lang": "en",
         "level": "intermediate",
@@ -754,8 +721,8 @@
                 ]
             }
         ],
-        "transcription": "\u026an\u02c8s\u026ast",
-        "emoji": "\ud83d\udde3\ufe0f",
+        "transcription": "ɪnˈsɪst",
+        "emoji": "🗣️",
         "_legacy": {
             "subtext": "insist on / insist that / strongly insist",
             "classification": "regular",
@@ -766,7 +733,7 @@
             "auxiliary": "have",
             "v4": "insisting"
         },
-        "legacy_id": "B1-SOC-48",
+        "legacy_id": "B1-VERB-SOC-040",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -774,7 +741,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-041",
+        "id": "B1-VERB-SOC-038",
         "word": "look into",
         "lang": "en",
         "level": "intermediate",
@@ -788,8 +755,8 @@
                 ]
             }
         ],
-        "transcription": "l\u028ak \u02c8\u026ant\u0259",
-        "emoji": "\ud83d\udd0d",
+        "transcription": "lʊk ˈɪntə",
+        "emoji": "🔍",
         "_legacy": {
             "subtext": "look into a matter / look into a complaint / look into options",
             "classification": "phrasal",
@@ -799,7 +766,7 @@
             "group": "regular",
             "auxiliary": "have"
         },
-        "legacy_id": "B1-SOC-53",
+        "legacy_id": "B1-VERB-SOC-041",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -807,7 +774,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-042",
+        "id": "B1-VERB-SOC-039",
         "word": "motivate",
         "lang": "en",
         "level": "intermediate",
@@ -821,8 +788,8 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8m\u0259\u028at\u026ave\u026at | \ud83c\uddfa\ud83c\uddf8 \u02c8mo\u028at\u026ave\u026at",
-        "emoji": "\ud83d\udd25",
+        "transcription": "🇬🇧 ˈməʊtɪveɪt | 🇺🇸 ˈmoʊtɪveɪt",
+        "emoji": "🔥",
         "_legacy": {
             "subtext": "motivate a team / feel motivated / self-motivated",
             "classification": "regular",
@@ -833,7 +800,7 @@
             "auxiliary": "have",
             "v4": "motivating"
         },
-        "legacy_id": "B1-SOC-55",
+        "legacy_id": "B1-VERB-SOC-042",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -841,7 +808,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-043",
+        "id": "B1-VERB-SOC-040",
         "word": "present",
         "lang": "en",
         "level": "intermediate",
@@ -855,8 +822,8 @@
                 ]
             }
         ],
-        "transcription": "pr\u026a\u02c8z\u025bnt",
-        "emoji": "\ud83d\udcca",
+        "transcription": "prɪˈzɛnt",
+        "emoji": "📊",
         "_legacy": {
             "subtext": "present data / present a proposal / present to a client",
             "classification": "regular",
@@ -867,7 +834,7 @@
             "auxiliary": "have",
             "v4": "presenting"
         },
-        "legacy_id": "B1-SOC-64",
+        "legacy_id": "B1-VERB-SOC-043",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -875,7 +842,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-044",
+        "id": "B1-VERB-SOC-041",
         "word": "prioritise",
         "lang": "en",
         "level": "intermediate",
@@ -889,8 +856,8 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 pra\u026a\u02c8\u0252r\u026ata\u026az | \ud83c\uddfa\ud83c\uddf8 pra\u026a\u02c8\u0251\u02d0r\u026ata\u026az",
-        "emoji": "\ud83d\udd1d",
+        "transcription": "🇬🇧 praɪˈɒrɪtaɪz | 🇺🇸 praɪˈɑːrɪtaɪz",
+        "emoji": "🔝",
         "_legacy": {
             "subtext": "prioritise work / prioritise health / set priorities",
             "classification": "regular",
@@ -901,7 +868,7 @@
             "auxiliary": "have",
             "v4": "prioritising"
         },
-        "legacy_id": "B1-SOC-65",
+        "legacy_id": "B1-VERB-SOC-044",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -909,7 +876,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-045",
+        "id": "B1-VERB-SOC-042",
         "word": "put off",
         "lang": "en",
         "level": "intermediate",
@@ -923,8 +890,8 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 p\u028at \u0252f | \ud83c\uddfa\ud83c\uddf8 p\u028at \u0251\u02d0f",
-        "emoji": "\u23f3",
+        "transcription": "🇬🇧 pʊt ɒf | 🇺🇸 pʊt ɑːf",
+        "emoji": "⏳",
         "_legacy": {
             "subtext": "put off a decision / stop putting things off / keep putting off",
             "classification": "phrasal",
@@ -934,7 +901,7 @@
             "group": "regular",
             "auxiliary": "have"
         },
-        "legacy_id": "B1-SOC-67",
+        "legacy_id": "B1-VERB-SOC-045",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -942,7 +909,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-046",
+        "id": "B1-VERB-SOC-043",
         "word": "replace",
         "lang": "en",
         "level": "intermediate",
@@ -956,8 +923,8 @@
                 ]
             }
         ],
-        "transcription": "r\u026a\u02c8ple\u026as",
-        "emoji": "\ud83d\udd04",
+        "transcription": "rɪˈpleɪs",
+        "emoji": "🔄",
         "_legacy": {
             "subtext": "replace something / replace someone / be replaced by",
             "classification": "regular",
@@ -968,7 +935,7 @@
             "auxiliary": "have",
             "v4": "replacing"
         },
-        "legacy_id": "B1-SOC-69",
+        "legacy_id": "B1-VERB-SOC-046",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -976,7 +943,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-047",
+        "id": "B1-VERB-SOC-044",
         "word": "report",
         "lang": "en",
         "level": "intermediate",
@@ -990,8 +957,8 @@
                 ]
             }
         ],
-        "transcription": "r\u026a\u02c8p\u0254\u02d0t",
-        "emoji": "\ud83d\udcc4",
+        "transcription": "rɪˈpɔːt",
+        "emoji": "📄",
         "_legacy": {
             "subtext": "report findings / report to someone / report a problem",
             "classification": "regular",
@@ -1002,7 +969,7 @@
             "auxiliary": "have",
             "v4": "reporting"
         },
-        "legacy_id": "B1-SOC-70",
+        "legacy_id": "B1-VERB-SOC-047",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -1010,7 +977,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-048",
+        "id": "B1-VERB-SOC-045",
         "word": "resolve",
         "lang": "en",
         "level": "intermediate",
@@ -1024,8 +991,8 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 r\u026a\u02c8z\u0252lv | \ud83c\uddfa\ud83c\uddf8 r\u026a\u02c8z\u0251\u02d0lv",
-        "emoji": "\u2705",
+        "transcription": "🇬🇧 rɪˈzɒlv | 🇺🇸 rɪˈzɑːlv",
+        "emoji": "✅",
         "_legacy": {
             "subtext": "resolve a conflict / resolve an issue / resolve quickly",
             "classification": "regular",
@@ -1036,7 +1003,7 @@
             "auxiliary": "have",
             "v4": "resolving"
         },
-        "legacy_id": "B1-SOC-71",
+        "legacy_id": "B1-VERB-SOC-048",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -1044,7 +1011,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-049",
+        "id": "B1-VERB-SOC-046",
         "word": "suggest",
         "lang": "en",
         "level": "intermediate",
@@ -1058,8 +1025,8 @@
                 ]
             }
         ],
-        "transcription": "s\u0259\u02c8d\u0292\u025bst",
-        "emoji": "\ud83d\udca1",
+        "transcription": "səˈdʒɛst",
+        "emoji": "💡",
         "_legacy": {
             "subtext": "suggest a change / suggest that / suggest an alternative",
             "classification": "regular",
@@ -1070,7 +1037,7 @@
             "auxiliary": "have",
             "v4": "suggesting"
         },
-        "legacy_id": "B1-SOC-78",
+        "legacy_id": "B1-VERB-SOC-049",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -1078,7 +1045,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-050",
+        "id": "B1-VERB-SOC-047",
         "word": "take on",
         "lang": "en",
         "level": "intermediate",
@@ -1092,8 +1059,8 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 te\u026ak \u0252n | \ud83c\uddfa\ud83c\uddf8 te\u026ak \u0251\u02d0n",
-        "emoji": "\ud83d\udccb",
+        "transcription": "🇬🇧 teɪk ɒn | 🇺🇸 teɪk ɑːn",
+        "emoji": "📋",
         "_legacy": {
             "subtext": "take on responsibility / take on more work / take on a role",
             "classification": "phrasal",
@@ -1103,7 +1070,7 @@
             "group": "regular",
             "auxiliary": "have"
         },
-        "legacy_id": "B1-SOC-79",
+        "legacy_id": "B1-VERB-SOC-050",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -1111,7 +1078,7 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-VERB-SOC-051",
+        "id": "B1-VERB-SOC-048",
         "word": "warn",
         "lang": "en",
         "level": "intermediate",
@@ -1125,8 +1092,8 @@
                 ]
             }
         ],
-        "transcription": "w\u0254\u02d0n",
-        "emoji": "\u26a0\ufe0f",
+        "transcription": "wɔːn",
+        "emoji": "⚠️",
         "_legacy": {
             "subtext": "warn someone / warn about a risk / issue a warning",
             "classification": "regular",
@@ -1137,7 +1104,7 @@
             "auxiliary": "have",
             "v4": "warning"
         },
-        "legacy_id": "B1-SOC-83",
+        "legacy_id": "B1-VERB-SOC-051",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",

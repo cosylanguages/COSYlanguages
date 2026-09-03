@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "B1-ADJ-PEO-012",
+        "id": "B1-ADJ-PEO-017",
         "word": "equal",
         "lang": "en",
         "level": "intermediate",
@@ -16,12 +16,12 @@
                 ]
             }
         ],
-        "transcription": "\u02c8i\u02d0kw\u0259l",
-        "emoji": "\u2753",
+        "transcription": "ˈiːkwəl",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "equal pay / equal rights / completely equal"
         },
-        "legacy_id": "B1-PPL-05",
+        "legacy_id": "B1-ADJ-PEO-012",
         "level_code": "B1",
         "domain": "People",
         "subcategory": "Identity",
@@ -29,7 +29,7 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B1-ADJ-PEO-013",
+        "id": "B1-ADJ-PEO-018",
         "word": "fair",
         "lang": "en",
         "level": "intermediate",
@@ -43,12 +43,12 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 fe\u0259 | \ud83c\uddfa\ud83c\uddf8 fe\u0259r",
-        "emoji": "\u2753",
+        "transcription": "🇬🇧 feə | 🇺🇸 feər",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "very fair / completely fair / perfectly fair"
         },
-        "legacy_id": "B1-PPL-07",
+        "legacy_id": "B1-ADJ-PEO-013",
         "level_code": "B1",
         "domain": "People",
         "subcategory": "Identity",
@@ -56,7 +56,7 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B1-ADJ-PEO-014",
+        "id": "B1-ADJ-PEO-019",
         "word": "political",
         "lang": "en",
         "level": "intermediate",
@@ -70,12 +70,12 @@
                 ]
             }
         ],
-        "transcription": "p\u0259\u02c8l\u026at\u026akl",
-        "emoji": "\u2753",
+        "transcription": "pəˈlɪtɪkl",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "political decision / very political / highly political"
         },
-        "legacy_id": "B1-PPL-08",
+        "legacy_id": "B1-ADJ-PEO-014",
         "level_code": "B1",
         "domain": "People",
         "subcategory": "Identity",

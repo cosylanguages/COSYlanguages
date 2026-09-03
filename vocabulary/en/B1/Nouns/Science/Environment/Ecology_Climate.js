@@ -18,8 +18,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8k\u0251\u02d0b\u0259n \u02c8f\u028atpr\u026ant",
-        "emoji": "\ud83d\udc63",
+        "transcription": "ˈkɑːbən ˈfʊtprɪnt",
+        "emoji": "👣",
         "_legacy": {
             "plural": "carbon footprints",
             "countability": "countable",
@@ -49,8 +49,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8kla\u026am\u0259t t\u0283e\u026and\u0292",
-        "emoji": "\ud83c\udf0d\ud83c\udf21\ufe0f",
+        "transcription": "ˈklaɪmət tʃeɪndʒ",
+        "emoji": "🌍🌡️",
         "_legacy": {
             "plural": null,
             "countability": "uncountable",
@@ -71,8 +71,8 @@
         "theme": "environment",
         "form": "noun",
         "definitions": [],
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8i\u02d0k\u0259\u028a\u02ccs\u026ast\u0259m | \ud83c\uddfa\ud83c\uddf8 \u02c8i\u02d0ko\u028a\u02ccs\u026ast\u0259m",
-        "emoji": "\ud83c\udf32",
+        "transcription": "🇬🇧 ˈiːkəʊˌsɪstəm | 🇺🇸 ˈiːkoʊˌsɪstəm",
+        "emoji": "🌲",
         "_legacy": {
             "classification": "regular",
             "plural": "ecosystems",
@@ -100,8 +100,8 @@
                 ]
             }
         ],
-        "transcription": "i\u02c8m\u026a\u0283nz",
-        "emoji": "\ud83d\udca8",
+        "transcription": "iˈmɪʃnz",
+        "emoji": "💨",
         "_legacy": {
             "classification": "regular",
             "plural": "emissions",
@@ -123,8 +123,8 @@
         "theme": "environment",
         "form": "noun phrase",
         "definitions": [],
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8\u0261l\u0259\u028abl \u02c8w\u0254\u02d0m\u026a\u014b | \ud83c\uddfa\ud83c\uddf8 \u02c8\u0261lo\u028abl \u02c8w\u0254\u02d0m\u026a\u014b",
-        "emoji": "\ud83c\udf21\ufe0f",
+        "transcription": "🇬🇧 ˈɡləʊbl ˈwɔːmɪŋ | 🇺🇸 ˈɡloʊbl ˈwɔːmɪŋ",
+        "emoji": "🌡️",
         "_legacy": {
             "plural": null,
             "countability": "uncountable"
@@ -144,8 +144,8 @@
         "theme": "environment",
         "form": "noun",
         "definitions": [],
-        "transcription": "li\u02d0f",
-        "emoji": "\ud83c\udf43",
+        "transcription": "liːf",
+        "emoji": "🍃",
         "_legacy": {
             "numberPlural": "many leaf",
             "answer": "many leaves",
@@ -154,7 +154,7 @@
             "countability": "countable",
             "etymology": {
                 "origin_lang": "Proto-Germanic",
-                "origin_word": "laub\u0105"
+                "origin_word": "laubą"
             }
         },
         "legacy_id": "B1-SCI-09",
@@ -181,8 +181,8 @@
                 ]
             }
         ],
-        "transcription": "r\u026a\u02c8nju\u02d0\u0259bl \u02c8\u025bn\u0259d\u0292i",
-        "emoji": "\u2600\ufe0f\ud83d\udca8",
+        "transcription": "rɪˈnjuːəbl ˈɛnədʒi",
+        "emoji": "☀️💨",
         "_legacy": {
             "plural": null,
             "countability": "uncountable",
@@ -214,8 +214,8 @@
                 ]
             }
         ],
-        "transcription": "we\u026ast",
-        "emoji": "\ud83d\uddd1\ufe0f",
+        "transcription": "weɪst",
+        "emoji": "🗑️",
         "_legacy": {
             "classification": "regular",
             "plural": null,

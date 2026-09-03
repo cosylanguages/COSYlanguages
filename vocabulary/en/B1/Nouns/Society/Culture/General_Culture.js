@@ -23,8 +23,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8e\u0259p\u0254\u02d0t",
-        "emoji": "\u2708\ufe0f",
+        "transcription": "ˈeəpɔːt",
+        "emoji": "✈️",
         "_legacy": {
             "classification": "regular",
             "plural": "airports",
@@ -59,8 +59,8 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 k\u0259\u02c8mju\u02d0t\u0259 | \ud83c\uddfa\ud83c\uddf8 k\u0259\u02c8mju\u02d0t\u0259r",
-        "emoji": "\ud83d\ude86",
+        "transcription": "🇬🇧 kəˈmjuːtə | 🇺🇸 kəˈmjuːtər",
+        "emoji": "🚆",
         "_legacy": {
             "classification": "regular",
             "plural": "commuters",
@@ -88,8 +88,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8\u025bkw\u026ati",
-        "emoji": "\ud83d\udcc8",
+        "transcription": "ˈɛkwɪti",
+        "emoji": "📈",
         "_legacy": {
             "classification": "regular",
             "plural": null,
@@ -117,7 +117,7 @@
             }
         ],
         "transcription": "-",
-        "emoji": "\ud83c\udf33",
+        "emoji": "🌳",
         "_legacy": {
             "image": "images/vocabulary/places/garden.png",
             "classification": "regular",
@@ -138,8 +138,8 @@
         "theme": "places",
         "form": "noun",
         "definitions": [],
-        "transcription": "\u02c8la\u026abr\u0259ri",
-        "emoji": "\ud83d\udcda",
+        "transcription": "ˈlaɪbrəri",
+        "emoji": "📚",
         "_legacy": {
             "explanation": "A library is a place for books, while the others might be related to food or travel.",
             "classification": "regular",
@@ -168,8 +168,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8m\u0254\u02d0\u0261\u026ad\u0292",
-        "emoji": "\ud83c\udfe0",
+        "transcription": "ˈmɔːɡɪdʒ",
+        "emoji": "🏠",
         "_legacy": {
             "classification": "regular",
             "plural": "mortgages",
@@ -191,8 +191,8 @@
         "theme": "places",
         "form": "noun",
         "definitions": [],
-        "transcription": "mju\u02c8zi\u02d0\u0259m",
-        "emoji": "\ud83c\udfdb\ufe0f",
+        "transcription": "mjuˈziːəm",
+        "emoji": "🏛️",
         "_legacy": {
             "classification": "regular",
             "plural": "museums",
@@ -220,8 +220,8 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8pr\u0252p\u0259ti | \ud83c\uddfa\ud83c\uddf8 \u02c8pr\u0251\u02d0p\u0259ti",
-        "emoji": "\ud83c\udfe1",
+        "transcription": "🇬🇧 ˈprɒpəti | 🇺🇸 ˈprɑːpəti",
+        "emoji": "🏡",
         "_legacy": {
             "classification": "regular",
             "plural": "properties",
@@ -250,8 +250,8 @@
                 ]
             }
         ],
-        "transcription": "\u02ccr\u025bn\u0259\u02c8ve\u026a\u0283n",
-        "emoji": "\ud83d\udd28",
+        "transcription": "ˌrɛnəˈveɪʃn",
+        "emoji": "🔨",
         "_legacy": {
             "classification": "regular",
             "plural": "renovations",
@@ -280,8 +280,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8s\u025c\u02d0ve\u026a",
-        "emoji": "\ud83d\udcdd",
+        "transcription": "ˈsɜːveɪ",
+        "emoji": "📝",
         "_legacy": {
             "classification": "regular",
             "plural": "surveys",

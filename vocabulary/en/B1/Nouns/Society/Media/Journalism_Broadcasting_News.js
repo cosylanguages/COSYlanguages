@@ -2,10 +2,10 @@
     const lang = "en";
     const data = [
     {
-        "id": "B1-NOUN-SOC-072",
+        "id": "B1-NOUN-SOC-040",
         "word": "journalism",
         "form": "noun",
-        "transcription": "\u02c8d\u0292\u025c\u02d0rn\u0259l\u026az\u0259m",
+        "transcription": "ˈdʒɜːrnəlɪzəm",
         "definitions": [
             {
                 "text": "The work of collecting and writing news stories.",
@@ -14,13 +14,13 @@
                 ]
             }
         ],
-        "emoji": "\ud83d\udcf0",
+        "emoji": "📰",
         "lang": "en",
-        "level": "b1",
+        "level": "intermediate",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Media",
-        "legacy_id": "B1-SOC-36",
+        "legacy_id": "B1-NOUN-SOC-041",
         "pos_section": "Nouns",
         "sub_subcategory": "Journalism_Broadcasting_News"
     }

@@ -16,8 +16,8 @@
                 ]
             }
         ],
-        "transcription": "\u00e6m\u02c8b\u026a\u0283\u0259s",
-        "emoji": "\u2753",
+        "transcription": "æmˈbɪʃəs",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "very ambitious / hugely ambitious / fiercely ambitious"
         },
@@ -43,8 +43,8 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 kl\u026a\u0259 | \ud83c\uddfa\ud83c\uddf8 kl\u026a\u0259r",
-        "emoji": "\u2753",
+        "transcription": "🇬🇧 klɪə | 🇺🇸 klɪər",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "crystal clear / very clear / make it clear"
         },
@@ -70,8 +70,8 @@
                 ]
             }
         ],
-        "transcription": "k\u0259m\u02c8p\u025bt\u0259t\u026av",
-        "emoji": "\u2753",
+        "transcription": "kəmˈpɛtətɪv",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "highly competitive / very competitive / a competitive salary"
         },
@@ -97,8 +97,8 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8k\u0252mpl\u026ake\u026at\u026ad | \ud83c\uddfa\ud83c\uddf8 \u02c8k\u0251\u02d0mpl\u026ake\u026at\u026ad",
-        "emoji": "\u2753",
+        "transcription": "🇬🇧 ˈkɒmplɪkeɪtɪd | 🇺🇸 ˈkɑːmplɪkeɪtɪd",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "very complicated / overly complicated / get complicated"
         },
@@ -124,8 +124,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8d\u025bd\u026ake\u026at\u026ad",
-        "emoji": "\u2753",
+        "transcription": "ˈdɛdɪkeɪtɪd",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "very dedicated / completely dedicated / dedicated to"
         },
@@ -151,8 +151,8 @@
                 ]
             }
         ],
-        "transcription": "d\u026a\u02c8m\u0251\u02d0nd\u026a\u014b",
-        "emoji": "\u2753",
+        "transcription": "dɪˈmɑːndɪŋ",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "very demanding / highly demanding / a demanding client"
         },
@@ -178,8 +178,8 @@
                 ]
             }
         ],
-        "transcription": "d\u026a\u02c8t\u025c\u02d0m\u026and",
-        "emoji": "\u2753",
+        "transcription": "dɪˈtɜːmɪnd",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "very determined / highly determined / absolutely determined"
         },
@@ -205,8 +205,8 @@
                 ]
             }
         ],
-        "transcription": "\u026a\u02c8f\u025bkt\u026av",
-        "emoji": "\u2753",
+        "transcription": "ɪˈfɛktɪv",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "highly effective / very effective / most effective"
         },
@@ -232,8 +232,8 @@
                 ]
             }
         ],
-        "transcription": "\u026a\u02c8f\u026a\u0283nt",
-        "emoji": "\u2753",
+        "transcription": "ɪˈfɪʃnt",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "highly efficient / very efficient / more efficient"
         },
@@ -259,8 +259,8 @@
                 ]
             }
         ],
-        "transcription": "\u026an\u02cc\u03b8ju\u02d0zi\u02c8\u00e6st\u026ak",
-        "emoji": "\u2753",
+        "transcription": "ɪnˌθjuːziˈæstɪk",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "very enthusiastic / enthusiastic about / hugely enthusiastic"
         },
@@ -286,8 +286,8 @@
                 ]
             }
         ],
-        "transcription": "\u026am\u02c8pe\u026a\u0283nt",
-        "emoji": "\u2753",
+        "transcription": "ɪmˈpeɪʃnt",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "very impatient / easily impatient / grow impatient"
         },
@@ -313,8 +313,8 @@
                 ]
             }
         ],
-        "transcription": "\u026am\u02c8pr\u025bs\u026av",
-        "emoji": "\u2753",
+        "transcription": "ɪmˈprɛsɪv",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "very impressive / deeply impressive / highly impressive"
         },
@@ -340,8 +340,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8\u026an\u0259v\u0259t\u026av",
-        "emoji": "\u2753",
+        "transcription": "ˈɪnəvətɪv",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "highly innovative / very innovative / an innovative solution"
         },
@@ -368,8 +368,8 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8m\u0259\u028at\u026ave\u026at\u026ad | \ud83c\uddfa\ud83c\uddf8 \u02c8mo\u028at\u026ave\u026at\u026ad",
-        "emoji": "\u2753",
+        "transcription": "🇬🇧 ˈməʊtɪveɪtɪd | 🇺🇸 ˈmoʊtɪveɪtɪd",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "highly motivated / self-motivated / strongly motivated"
         },
@@ -389,14 +389,14 @@
         "form": "adjective",
         "definitions": [
             {
-                "text": "Working beyond normal hours \u2014 used predicatively.",
+                "text": "Working beyond normal hours — used predicatively.",
                 "examples": [
                     "He has been working overtime for three months."
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8\u0259\u028av\u0259ta\u026am | \ud83c\uddfa\ud83c\uddf8 \u02c8o\u028av\u0259ta\u026am",
-        "emoji": "\u2753",
+        "transcription": "🇬🇧 ˈəʊvətaɪm | 🇺🇸 ˈoʊvətaɪm",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "work overtime / paid overtime / compulsory overtime"
         },
@@ -422,8 +422,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8p\u00e6\u0283\u0259n\u0259t",
-        "emoji": "\u2753",
+        "transcription": "ˈpæʃənət",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "very passionate / deeply passionate / passionate about"
         },
@@ -449,8 +449,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8pe\u026a\u0283nt",
-        "emoji": "\u2753",
+        "transcription": "ˈpeɪʃnt",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "very patient / patient with / extraordinarily patient"
         },
@@ -478,8 +478,8 @@
                 ]
             }
         ],
-        "transcription": "\u02ccs\u025blf \u026am\u02c8pl\u0254\u026ad",
-        "emoji": "\ud83e\uddd1\u200d\ud83d\udcbb",
+        "transcription": "ˌsɛlf ɪmˈplɔɪd",
+        "emoji": "🧑‍💻",
         "_legacy": {
             "subtext": "freelance, work for yourself",
             "antonyms": [
@@ -508,8 +508,8 @@
                 ]
             }
         ],
-        "transcription": "sk\u026ald",
-        "emoji": "\u2753",
+        "transcription": "skɪld",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "highly skilled / very skilled / skilled in"
         },
@@ -535,8 +535,8 @@
                 ]
             }
         ],
-        "transcription": "s\u0259k\u02c8s\u025bsfl",
-        "emoji": "\u2753",
+        "transcription": "səkˈsɛsfl",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "highly successful / very successful / enormously successful"
         },

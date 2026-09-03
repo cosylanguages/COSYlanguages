@@ -16,8 +16,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8\u0251\u02d0\u0261ju\u02d0",
-        "emoji": "\ud83d\udde3\ufe0f",
+        "transcription": "ˈɑːɡjuː",
+        "emoji": "🗣️",
         "_legacy": {
             "subtext": "argue about, argue for",
             "classification": "regular",
@@ -50,8 +50,8 @@
                 ]
             }
         ],
-        "transcription": "kle\u026am",
-        "emoji": "\ud83d\udce2",
+        "transcription": "kleɪm",
+        "emoji": "📢",
         "_legacy": {
             "subtext": "claim that / make a claim / claim responsibility",
             "classification": "regular",
@@ -84,8 +84,8 @@
                 ]
             }
         ],
-        "transcription": "da\u028at",
-        "emoji": "\u2753",
+        "transcription": "daʊt",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "doubt that / have doubts / seriously doubt",
             "classification": "regular",
@@ -119,8 +119,8 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 ha\u028a\u02c8\u025bv\u0259 | \ud83c\uddfa\ud83c\uddf8 ha\u028a\u02c8\u025bv\u0259r",
-        "emoji": "\ud83e\udd14",
+        "transcription": "🇬🇧 haʊˈɛvə | 🇺🇸 haʊˈɛvər",
+        "emoji": "🤔",
         "_legacy": {
             "subtext": "nevertheless, on the other hand"
         },
@@ -146,8 +146,8 @@
                 ]
             }
         ],
-        "transcription": "\u026an\u02c8kri\u02d0s",
-        "emoji": "\ud83d\udcc8",
+        "transcription": "ɪnˈkriːs",
+        "emoji": "📈",
         "_legacy": {
             "subtext": "increase productivity / increase costs / dramatically increase",
             "classification": "regular",
@@ -180,8 +180,8 @@
                 ]
             }
         ],
-        "transcription": "r\u026a\u02c8dju\u02d0s",
-        "emoji": "\ud83d\udcc9",
+        "transcription": "rɪˈdjuːs",
+        "emoji": "📉",
         "_legacy": {
             "subtext": "reduce costs / reduce stress / significantly reduce",
             "classification": "regular",
@@ -214,8 +214,8 @@
                 ]
             }
         ],
-        "transcription": "r\u028cn a\u028at",
-        "emoji": "\ud83d\udcc9",
+        "transcription": "rʌn aʊt",
+        "emoji": "📉",
         "_legacy": {
             "subtext": "run out of money / run out of time / run out of ideas",
             "classification": "phrasal",
