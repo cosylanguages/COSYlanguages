@@ -261,8 +261,127 @@
         "subcategory": "Appearance",
         "pos_section": "Nouns",
         "sub_subcategory": "Accessories_Fashion"
+    },
+    {
+        "id": "A1-NOUN-SEL-132",
+        "word": "cap",
+        "emoji": "\ud83e\udde2",
+        "form": "noun",
+        "transcription": "k\u00e6p",
+        "definitions": [
+            {
+                "text": "A soft flat hat with a visor.",
+                "examples": [
+                    "He wore a baseball cap.",
+                    "Put on your cap before going out."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Appearance",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Accessories_Fashion"
+    },
+    {
+        "id": "A1-NOUN-SEL-133",
+        "word": "earring",
+        "emoji": "\ud83d\udc8e",
+        "form": "noun",
+        "transcription": "\u02c8\u026ar\u026a\u014b",
+        "definitions": [
+            {
+                "text": "A piece of jewelry worn on the ear.",
+                "examples": [
+                    "She lost one silver earring.",
+                    "Her earrings matched her necklace."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Appearance",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Accessories_Fashion"
+    },
+    {
+        "id": "A1-NOUN-SEL-134",
+        "word": "glove",
+        "emoji": "\ud83e\udde4",
+        "form": "noun",
+        "transcription": "\u0261l\u028cv",
+        "definitions": [
+            {
+                "text": "A clothing item worn on the hand for warmth or protection.",
+                "examples": [
+                    "Put on your winter gloves.",
+                    "She left her gloves on the bus."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Appearance",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Accessories_Fashion"
+    },
+    {
+        "id": "A1-NOUN-SEL-135",
+        "word": "handbag",
+        "emoji": "\ud83d\udc5c",
+        "form": "noun",
+        "transcription": "\u02c8h\u00e6ndb\u00e6\u0261",
+        "definitions": [
+            {
+                "text": "A small bag used by women to carry personal items.",
+                "examples": [
+                    "She kept her keys in her handbag.",
+                    "Her handbag matched her shoes."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Appearance",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Accessories_Fashion"
+    },
+    {
+        "id": "A1-NOUN-SEL-136",
+        "word": "wallet",
+        "emoji": "\ud83d\udc5b",
+        "form": "noun",
+        "transcription": "\u02c8w\u0251\u02d0l\u0259t",
+        "definitions": [
+            {
+                "text": "A small flat folding case for holding money and cards.",
+                "examples": [
+                    "He left his wallet in his jacket.",
+                    "She took out her credit card from her wallet."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Appearance",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Accessories_Fashion"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

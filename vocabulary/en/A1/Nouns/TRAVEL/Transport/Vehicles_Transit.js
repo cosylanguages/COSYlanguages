@@ -322,8 +322,81 @@
         "subcategory": "Transport",
         "pos_section": "Nouns",
         "sub_subcategory": "Vehicles_Transit"
+    },
+    {
+        "id": "A1-NOUN-TRA-086",
+        "word": "helicopter",
+        "emoji": "\ud83d\ude81",
+        "form": "noun",
+        "transcription": "\u02c8h\u025bl\u026a\u02cck\u0251\u02d0pt\u0259r",
+        "definitions": [
+            {
+                "text": "A type of aircraft with revolving overhead blades.",
+                "examples": [
+                    "A rescue helicopter landed on the roof.",
+                    "The helicopter flew over the city."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Transport",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Vehicles_Transit"
+    },
+    {
+        "id": "A1-NOUN-TRA-087",
+        "word": "ship",
+        "emoji": "\ud83d\udea2",
+        "form": "noun",
+        "transcription": "\u0283\u026ap",
+        "definitions": [
+            {
+                "text": "A large boat for traveling on the sea.",
+                "examples": [
+                    "A cruise ship docked in the harbor.",
+                    "The cargo ship crossed the ocean."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Transport",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Vehicles_Transit"
+    },
+    {
+        "id": "A1-NOUN-TRA-088",
+        "word": "tram",
+        "emoji": "\ud83d\ude8a",
+        "form": "noun",
+        "transcription": "tr\u00e6m",
+        "definitions": [
+            {
+                "text": "A passenger vehicle powered by overhead electric cables on rails.",
+                "examples": [
+                    "Ride the tram through the town center.",
+                    "Trams are quiet and eco-friendly."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Transport",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Vehicles_Transit"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

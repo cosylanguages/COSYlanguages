@@ -36,40 +36,6 @@
         "sub_subcategory": "Clocks_Periods"
     },
     {
-        "id": "A1-ADJ-TIM-071",
-        "word": "early",
-        "emoji": "\ud83c\udf05",
-        "form": "adjective",
-        "subtext": "early morning / early riser",
-        "synonyms": [
-            "soon"
-        ],
-        "definitions": [
-            {
-                "text": "Happening or arriving before the usual or expected time.",
-                "examples": [
-                    "I had an early breakfast."
-                ]
-            }
-        ],
-        "comparative": "earlier",
-        "superlative": "the earliest",
-        "transcription": "\u02c8\u0259rli",
-        "lang": "en",
-        "level": "starter",
-        "theme": "time",
-        "sub_theme": null,
-        "antonyms": [
-            "late"
-        ],
-        "legacy_id": "A1-NUM-31",
-        "level_code": "A1",
-        "domain": "TIME_NUMBERS",
-        "subcategory": "Time",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Clocks_Periods"
-    },
-    {
         "id": "A1-ADJ-TIM-072",
         "word": "last",
         "emoji": "\ud83d\udd1a",
@@ -135,40 +101,6 @@
         "sub_subcategory": "Clocks_Periods"
     },
     {
-        "id": "A1-ADJ-TIM-074",
-        "word": "late",
-        "emoji": "\ud83c\udf19",
-        "form": "adjective",
-        "subtext": "late night / too late",
-        "synonyms": [
-            "tardy"
-        ],
-        "definitions": [
-            {
-                "text": "Happening or arriving after the usual or expected time.",
-                "examples": [
-                    "I had a late dinner."
-                ]
-            }
-        ],
-        "comparative": "later",
-        "superlative": "the latest",
-        "transcription": "le\u026at",
-        "lang": "en",
-        "level": "starter",
-        "theme": "time",
-        "sub_theme": null,
-        "antonyms": [
-            "early"
-        ],
-        "legacy_id": "A1-NUM-38",
-        "level_code": "A1",
-        "domain": "TIME_NUMBERS",
-        "subcategory": "Time",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Clocks_Periods"
-    },
-    {
         "id": "A1-ADJ-TIM-075",
         "word": "next",
         "emoji": "\u23ed\ufe0f",
@@ -200,6 +132,10 @@
         "sub_subcategory": "Clocks_Periods"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

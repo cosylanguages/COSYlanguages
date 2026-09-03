@@ -176,8 +176,58 @@
         "subcategory": "Technology",
         "pos_section": "Nouns",
         "sub_subcategory": "Mobile_Apps"
+    },
+    {
+        "id": "A1-NOUN-COM-118",
+        "word": "app",
+        "emoji": "\ud83d\udcf2",
+        "form": "noun",
+        "transcription": "\u00e6p",
+        "definitions": [
+            {
+                "text": "An application software program downloaded to a mobile device.",
+                "examples": [
+                    "Download the language learning app.",
+                    "This app tracks daily steps."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Technology",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Mobile_Apps"
+    },
+    {
+        "id": "A1-NOUN-COM-119",
+        "word": "email",
+        "emoji": "\ud83d\udce7",
+        "form": "noun",
+        "transcription": "\u02c8i\u02d0\u02ccme\u026al",
+        "definitions": [
+            {
+                "text": "Messages distributed by electronic means.",
+                "examples": [
+                    "Send me an email with details.",
+                    "Check your inbox for my email."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Technology",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Mobile_Apps"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

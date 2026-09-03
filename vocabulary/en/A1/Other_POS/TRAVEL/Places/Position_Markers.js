@@ -248,8 +248,58 @@
         "subcategory": "Places",
         "pos_section": "Other_POS",
         "sub_subcategory": "Position_Markers"
+    },
+    {
+        "id": "A1-OTH-TRA-081",
+        "word": "beside",
+        "emoji": "\u27a1\ufe0f",
+        "form": "preposition",
+        "transcription": "b\u026a\u02c8sa\u026ad",
+        "definitions": [
+            {
+                "text": "At the side of; next to.",
+                "examples": [
+                    "Sit beside me at lunch.",
+                    "A small table stands beside the sofa."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Other_POS",
+        "sub_subcategory": "Position_Markers"
+    },
+    {
+        "id": "A1-OTH-TRA-082",
+        "word": "near",
+        "emoji": "\ud83d\udccd",
+        "form": "preposition",
+        "transcription": "n\u026ar",
+        "definitions": [
+            {
+                "text": "At or to a short distance away in space.",
+                "examples": [
+                    "Our house is near the park.",
+                    "Do you live near the station?"
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Other_POS",
+        "sub_subcategory": "Position_Markers"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

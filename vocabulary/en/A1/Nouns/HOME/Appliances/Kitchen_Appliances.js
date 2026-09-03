@@ -2,35 +2,6 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-HOM-001",
-        "word": "bowl",
-        "emoji": "\ud83e\udd63",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "bowls",
-        "definitions": [
-            {
-                "text": "A round container that is open at the top and used for holding food or liquid.",
-                "examples": [
-                    "I eat soup from a bowl."
-                ]
-            }
-        ],
-        "subtext": "related to kitchen items",
-        "transcription": "bo\u028al",
-        "lang": "en",
-        "level": "starter",
-        "theme": "kitchen_items",
-        "sub_theme": null,
-        "legacy_id": "A1-HOME-01",
-        "level_code": "A1",
-        "domain": "HOME",
-        "subcategory": "Appliances",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Kitchen_Appliances"
-    },
-    {
         "id": "A1-NOUN-HOM-002",
         "word": "kettle",
         "emoji": "\ud83e\uded6",
@@ -116,8 +87,104 @@
         "subcategory": "Appliances",
         "pos_section": "Nouns",
         "sub_subcategory": "Kitchen_Appliances"
+    },
+    {
+        "id": "A1-NOUN-HOM-081",
+        "word": "cooker",
+        "emoji": "\ud83c\udf73",
+        "form": "noun",
+        "transcription": "\u02c8k\u028ak\u0259r",
+        "definitions": [
+            {
+                "text": "An appliance used for cooking food.",
+                "examples": [
+                    "Turn off the cooker when finished.",
+                    "She bought a new electric cooker."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "HOME",
+        "subcategory": "Appliances",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Kitchen_Appliances"
+    },
+    {
+        "id": "A1-NOUN-HOM-082",
+        "word": "freezer",
+        "emoji": "\ud83e\uddca",
+        "form": "noun",
+        "transcription": "\u02c8fri\u02d0z\u0259r",
+        "definitions": [
+            {
+                "text": "An appliance for keeping food frozen.",
+                "examples": [
+                    "Keep ice cream in the freezer.",
+                    "Stock the freezer with frozen peas."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "HOME",
+        "subcategory": "Appliances",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Kitchen_Appliances"
+    },
+    {
+        "id": "A1-NOUN-HOM-083",
+        "word": "microwave",
+        "emoji": "\ud83d\udcfb",
+        "form": "noun",
+        "transcription": "\u02c8ma\u026akro\u028a\u02ccwe\u026av",
+        "definitions": [
+            {
+                "text": "An oven that uses micro-radiation to cook food quickly.",
+                "examples": [
+                    "Heat your lunch in the microwave.",
+                    "The microwave beeped when done."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "HOME",
+        "subcategory": "Appliances",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Kitchen_Appliances"
+    },
+    {
+        "id": "A1-NOUN-HOM-084",
+        "word": "refrigerator",
+        "emoji": "\ud83e\uddca",
+        "form": "noun",
+        "transcription": "r\u026a\u02c8fr\u026a\u02a4\u0259\u02ccre\u026at\u0259r",
+        "definitions": [
+            {
+                "text": "An appliance used to keep food cold.",
+                "examples": [
+                    "Put milk back into the refrigerator.",
+                    "The refrigerator was full of groceries."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "HOME",
+        "subcategory": "Appliances",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Kitchen_Appliances"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

@@ -143,8 +143,104 @@
         "subcategory": "Environment",
         "pos_section": "Nouns",
         "sub_subcategory": "Weather_Seasons"
+    },
+    {
+        "id": "A1-NOUN-NAT-067",
+        "word": "climate",
+        "emoji": "\ud83c\udf21\ufe0f",
+        "form": "noun",
+        "transcription": "\u02c8kla\u026am\u0259t",
+        "definitions": [
+            {
+                "text": "The weather conditions prevailing in an area over a long period.",
+                "examples": [
+                    "The Mediterranean climate is warm and dry.",
+                    "Climate change affects wildlife."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "NATURE",
+        "subcategory": "Environment",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Weather_Seasons"
+    },
+    {
+        "id": "A1-NOUN-NAT-068",
+        "word": "cloud",
+        "emoji": "\u2601\ufe0f",
+        "form": "noun",
+        "transcription": "kla\u028ad",
+        "definitions": [
+            {
+                "text": "A visible mass of condensed water vapor floating in the atmosphere.",
+                "examples": [
+                    "Dark storm clouds gathered above.",
+                    "White fluffy clouds drifted in the sky."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "NATURE",
+        "subcategory": "Environment",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Weather_Seasons"
+    },
+    {
+        "id": "A1-NOUN-NAT-069",
+        "word": "fog",
+        "emoji": "\ud83c\udf2b\ufe0f",
+        "form": "noun",
+        "transcription": "f\u0251\u02d0\u0261",
+        "definitions": [
+            {
+                "text": "A thick mist that obscures visibility.",
+                "examples": [
+                    "Dense fog covered the morning highway.",
+                    "Thick fog delayed our flight."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "NATURE",
+        "subcategory": "Environment",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Weather_Seasons"
+    },
+    {
+        "id": "A1-NOUN-NAT-070",
+        "word": "storm",
+        "emoji": "\u26c8\ufe0f",
+        "form": "noun",
+        "transcription": "st\u0254\u02d0rm",
+        "definitions": [
+            {
+                "text": "A violent disturbance of the atmosphere with strong winds and rain.",
+                "examples": [
+                    "A loud thunder storm passed over the town.",
+                    "Secure outdoor furniture before the storm."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "NATURE",
+        "subcategory": "Environment",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Weather_Seasons"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

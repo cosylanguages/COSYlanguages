@@ -286,8 +286,58 @@
         "subcategory": "Meals",
         "pos_section": "Nouns",
         "sub_subcategory": "Prepared_Dishes"
+    },
+    {
+        "id": "A1-NOUN-FOO-086",
+        "word": "burger",
+        "emoji": "\ud83c\udf54",
+        "form": "noun",
+        "transcription": "\u02c8b\u025c\u02d0r\u0261\u0259r",
+        "definitions": [
+            {
+                "text": "A round patty of ground meat inside a sliced bun.",
+                "examples": [
+                    "He ordered a cheeseburger and fries.",
+                    "Cook burgers on the outdoor grill."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Meals",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Prepared_Dishes"
+    },
+    {
+        "id": "A1-NOUN-FOO-087",
+        "word": "steak",
+        "emoji": "\ud83e\udd69",
+        "form": "noun",
+        "transcription": "ste\u026ak",
+        "definitions": [
+            {
+                "text": "A high-quality beef slice grilled or fried.",
+                "examples": [
+                    "He likes his steak medium rare.",
+                    "Order steak with fries."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Meals",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Prepared_Dishes"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

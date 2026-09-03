@@ -304,35 +304,6 @@
         "sub_subcategory": "Locations_Venues"
     },
     {
-        "id": "A1-NOUN-TRA-016",
-        "word": "garden",
-        "emoji": "\ud83c\udf33",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "definitions": [
-            {
-                "text": "A public garden or large green area in a city for everyone to use.",
-                "examples": []
-            }
-        ],
-        "lang": "en",
-        "level": "starter",
-        "theme": "places",
-        "sub_theme": null,
-        "etymology": {
-            "origin_lang": "Old French",
-            "origin_word": "jardin"
-        },
-        "transcription": "",
-        "legacy_id": "A1-TRV-87",
-        "level_code": "A1",
-        "domain": "TRAVEL",
-        "subcategory": "Places",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Locations_Venues"
-    },
-    {
         "id": "A1-NOUN-TRA-017",
         "word": "hospital",
         "emoji": "\ud83c\udfe5",
@@ -892,8 +863,1254 @@
         "subcategory": "Places",
         "pos_section": "Nouns",
         "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-071",
+        "word": "beach",
+        "emoji": "\ud83c\udfd6\ufe0f",
+        "form": "noun",
+        "transcription": "bi\u02d0\u02a7",
+        "definitions": [
+            {
+                "text": "A pebbly or sandy shore by the sea.",
+                "examples": [
+                    "We relaxed on the sandy beach.",
+                    "Children built castles on the beach."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-072",
+        "word": "bridge",
+        "emoji": "\ud83c\udf09",
+        "form": "noun",
+        "transcription": "br\u026a\u02a4",
+        "definitions": [
+            {
+                "text": "A structure built to span a physical obstacle like water.",
+                "examples": [
+                    "Walk across the historic stone bridge.",
+                    "The bridge connects the two riverbanks."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-073",
+        "word": "castle",
+        "emoji": "\ud83c\udff0",
+        "form": "noun",
+        "transcription": "\u02c8k\u00e6s\u0259l",
+        "definitions": [
+            {
+                "text": "A large building fortified against attack.",
+                "examples": [
+                    "Tourists visited the ancient castle.",
+                    "The castle stands on top of the hill."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-074",
+        "word": "church",
+        "emoji": "\u26ea",
+        "form": "noun",
+        "transcription": "\u02a7\u025c\u02d0r\u02a7",
+        "definitions": [
+            {
+                "text": "A building used for public Christian worship.",
+                "examples": [
+                    "The village church clock chimed.",
+                    "They visited an old Gothic church."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-075",
+        "word": "club",
+        "emoji": "\u2663\ufe0f",
+        "form": "noun",
+        "transcription": "kl\u028cb",
+        "definitions": [
+            {
+                "text": "An association or venue dedicated to a particular interest.",
+                "examples": [
+                    "Join our weekend sports club.",
+                    "They danced at the music club."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-076",
+        "word": "pharmacy",
+        "emoji": "\ud83d\udc8a",
+        "form": "noun",
+        "transcription": "\u02c8f\u0251\u02d0rm\u0259si",
+        "definitions": [
+            {
+                "text": "A shop where medicinal drugs are dispensed.",
+                "examples": [
+                    "Buy aspirin at the local pharmacy.",
+                    "The pharmacy stays open late."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-077",
+        "word": "port",
+        "emoji": "\u2693",
+        "form": "noun",
+        "transcription": "p\u0254\u02d0rt",
+        "definitions": [
+            {
+                "text": "A town or city with a harbor where ships load.",
+                "examples": [
+                    "Ships docked in the busy port.",
+                    "The port city handles trade."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-078",
+        "word": "theater",
+        "emoji": "\ud83c\udfad",
+        "form": "noun",
+        "transcription": "\u02c8\u03b8i\u02d0\u0259t\u0259r",
+        "definitions": [
+            {
+                "text": "A building where plays and performances are given.",
+                "examples": [
+                    "We bought tickets for the theater.",
+                    "The classic theater has red velvet seats."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-089",
+        "word": "alley",
+        "emoji": "\ud83d\udee3\ufe0f",
+        "form": "noun",
+        "transcription": "\u02c8\u00e6li",
+        "definitions": [
+            {
+                "text": "A narrow pass or street between buildings.",
+                "examples": [
+                    "Walk down the cobbled alley.",
+                    "The quiet alley led to a hidden courtyard."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-090",
+        "word": "bar",
+        "emoji": "\ud83c\udf78",
+        "form": "noun",
+        "transcription": "b\u0251\u02d0r",
+        "definitions": [
+            {
+                "text": "An establishment where alcoholic drinks are served.",
+                "examples": [
+                    "Meet friends at the hotel bar.",
+                    "Listen to jazz in a small bar."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-091",
+        "word": "bay",
+        "emoji": "\ud83c\udf0a",
+        "form": "noun",
+        "transcription": "be\u026a",
+        "definitions": [
+            {
+                "text": "A broad inlet of the sea where the land curves inward.",
+                "examples": [
+                    "Boats anchored in the calm bay.",
+                    "Enjoy scenic views across the bay."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-092",
+        "word": "boardwalk",
+        "emoji": "\ud83c\udfd6\ufe0f",
+        "form": "noun",
+        "transcription": "\u02c8b\u0254\u02d0rd\u02ccw\u0254\u02d0k",
+        "definitions": [
+            {
+                "text": "A wooden footpath along a beach.",
+                "examples": [
+                    "Stroll along the ocean boardwalk.",
+                    "Vendors sell ice cream on the boardwalk."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-093",
+        "word": "canal",
+        "emoji": "\ud83d\udef6",
+        "form": "noun",
+        "transcription": "k\u0259\u02c8n\u00e6l",
+        "definitions": [
+            {
+                "text": "An artificial waterway constructed for navigation.",
+                "examples": [
+                    "Gondolas glided along the canal.",
+                    "Bicycles lined the Amsterdam canal."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-094",
+        "word": "harbor",
+        "emoji": "\u2693",
+        "form": "noun",
+        "transcription": "\u02c8h\u0251\u02d0rb\u0259r",
+        "definitions": [
+            {
+                "text": "A sheltered body of water where ships anchor.",
+                "examples": [
+                    "Fishing boats returned to harbor.",
+                    "The harbor lighthouse shone brightly."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-095",
+        "word": "hostel",
+        "emoji": "\ud83d\udecf\ufe0f",
+        "form": "noun",
+        "transcription": "ho\u028a\u02c8st\u025bl",
+        "definitions": [
+            {
+                "text": "An inexpensive lodging place for travelers.",
+                "examples": [
+                    "Backpackers stayed at the youth hostel.",
+                    "The hostel provides shared dorms."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-096",
+        "word": "inn",
+        "emoji": "\ud83c\udfe1",
+        "form": "noun",
+        "transcription": "\u026an",
+        "definitions": [
+            {
+                "text": "A small hotel, typically in the countryside.",
+                "examples": [
+                    "We stayed at a cozy countryside inn.",
+                    "The village inn served hot stew."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-097",
+        "word": "landmark",
+        "emoji": "\ud83c\udff0",
+        "form": "noun",
+        "transcription": "\u02c8l\u00e6nd\u02ccm\u0251\u02d0rk",
+        "definitions": [
+            {
+                "text": "An object or feature of a landscape easily recognized.",
+                "examples": [
+                    "Eiffel Tower is a famous landmark.",
+                    "Historical landmarks line the trail."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-098",
+        "word": "memorial",
+        "emoji": "\ud83c\udfdb\ufe0f",
+        "form": "noun",
+        "transcription": "m\u0259\u02c8m\u0254\u02d0ri\u0259l",
+        "definitions": [
+            {
+                "text": "A monument or statue built to commemorate a person or event.",
+                "examples": [
+                    "Visitors laid flowers at the memorial.",
+                    "The war memorial stands in square."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-099",
+        "word": "monument",
+        "emoji": "\ud83d\uddff",
+        "form": "noun",
+        "transcription": "\u02c8m\u0251\u02d0nj\u0259m\u0259nt",
+        "definitions": [
+            {
+                "text": "A statue or building erected to commemorate a person or event.",
+                "examples": [
+                    "An ancient stone monument stood on hill.",
+                    "Tourists photographed the monument."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-100",
+        "word": "resort",
+        "emoji": "\ud83c\udfd6\ufe0f",
+        "form": "noun",
+        "transcription": "r\u026a\u02c8z\u0254\u02d0rt",
+        "definitions": [
+            {
+                "text": "A place frequented for holidays or recreation.",
+                "examples": [
+                    "They booked a beach resort vacation.",
+                    "The mountain resort offers skiing."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-101",
+        "word": "stadium",
+        "emoji": "\ud83c\udfdf\ufe0f",
+        "form": "noun",
+        "transcription": "\u02c8ste\u026adi\u0259m",
+        "definitions": [
+            {
+                "text": "A sports arena with tiered seating for spectators.",
+                "examples": [
+                    "Cheer at the national football stadium.",
+                    "The music concert filled the stadium."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-102",
+        "word": "statue",
+        "emoji": "\ud83d\uddff",
+        "form": "noun",
+        "transcription": "\u02c8st\u00e6\u02a7u\u02d0",
+        "definitions": [
+            {
+                "text": "A carved or cast figure of a person or animal.",
+                "examples": [
+                    "A bronze statue stands in front of town hall.",
+                    "The statue honors the founder."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-103",
+        "word": "terminal",
+        "emoji": "\ud83d\udec4",
+        "form": "noun",
+        "transcription": "\u02c8t\u025c\u02d0rm\u0259n\u0259l",
+        "definitions": [
+            {
+                "text": "A building at an airport or station where journeys start.",
+                "examples": [
+                    "Check in at departure terminal two.",
+                    "The bus terminal was busy."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-104",
+        "word": "aquarium",
+        "emoji": "\ud83d\udc20",
+        "form": "noun",
+        "transcription": "\u0259\u02c8kw\u025bri\u0259m",
+        "definitions": [
+            {
+                "text": "A public building where aquatic animals and plants are displayed.",
+                "examples": [
+                    "See tropical fish at the ocean aquarium.",
+                    "The aquarium holds giant sea turtles."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-105",
+        "word": "art gallery",
+        "emoji": "\ud83d\uddbc\ufe0f",
+        "form": "noun",
+        "transcription": "\u0251\u02d0rt \u02c8\u0261\u00e6lri",
+        "definitions": [
+            {
+                "text": "A building or room where works of art are shown.",
+                "examples": [
+                    "Tourists visited the city art gallery.",
+                    "The art gallery opened an exhibition."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-106",
+        "word": "bakery",
+        "emoji": "\ud83e\udd56",
+        "form": "noun",
+        "transcription": "\u02c8be\u026ak\u0259ri",
+        "definitions": [
+            {
+                "text": "A place where bread and cakes are baked or sold.",
+                "examples": [
+                    "Buy warm fresh bread at the bakery.",
+                    "The smell of cakes filled the bakery."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-107",
+        "word": "bookstore",
+        "emoji": "\ud83d\udcda",
+        "form": "noun",
+        "transcription": "\u02c8b\u028ak\u02ccst\u0254\u02d0r",
+        "definitions": [
+            {
+                "text": "A shop where books are sold.",
+                "examples": [
+                    "Browse novels in the local bookstore.",
+                    "The bookstore opened a coffee corner."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-108",
+        "word": "botanical garden",
+        "emoji": "\ud83e\udeb4",
+        "form": "noun",
+        "transcription": "b\u0259\u02c8t\u00e6n\u026ak\u0259l \u02c8\u0261\u0251\u02d0rd\u0259n",
+        "definitions": [
+            {
+                "text": "A garden dedicated to the collection and display of plants.",
+                "examples": [
+                    "Walk through exotic plants in the botanical garden.",
+                    "Flowers bloomed in the botanical garden."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-109",
+        "word": "bus stop",
+        "emoji": "\ud83d\ude8f",
+        "form": "noun",
+        "transcription": "b\u028cs st\u0251\u02d0p",
+        "definitions": [
+            {
+                "text": "A designated place where buses stop for passengers.",
+                "examples": [
+                    "Wait for bus number four at the bus stop.",
+                    "A shelter stands at the bus stop."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-110",
+        "word": "cathedral",
+        "emoji": "\u26ea",
+        "form": "noun",
+        "transcription": "k\u0259\u02c8\u03b8i\u02d0dr\u0259l",
+        "definitions": [
+            {
+                "text": "The principal church of a diocese.",
+                "examples": [
+                    "The historic cathedral features stained glass.",
+                    "Tourists climbed the cathedral tower."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-111",
+        "word": "clinic",
+        "emoji": "\ud83c\udfe5",
+        "form": "noun",
+        "transcription": "\u02c8kl\u026an\u026ak",
+        "definitions": [
+            {
+                "text": "An establishment where patients receive medical treatment.",
+                "examples": [
+                    "Visit the health clinic for vaccinations.",
+                    "The dental clinic opens at eight."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-112",
+        "word": "fountain",
+        "emoji": "\u26f2",
+        "form": "noun",
+        "transcription": "\u02c8fa\u028ant\u0259n",
+        "definitions": [
+            {
+                "text": "A structure that jets water into the air.",
+                "examples": [
+                    "Coins glittered at the bottom of the town fountain.",
+                    "Water spouted high from the park fountain."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-131",
+        "word": "alleyway",
+        "emoji": "\ud83d\udee3\ufe0f",
+        "form": "noun",
+        "transcription": "\u02c8\u00e6li\u02ccwe\u026a",
+        "definitions": [
+            {
+                "text": "A narrow path between or behind buildings.",
+                "examples": [
+                    "Follow the cobbled alleyway to the square.",
+                    "The alleyway opened onto a garden."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-132",
+        "word": "boulevard",
+        "emoji": "\ud83d\udee3\ufe0f",
+        "form": "noun",
+        "transcription": "\u02c8b\u028al\u0259\u02ccv\u0251\u02d0rd",
+        "definitions": [
+            {
+                "text": "A wide street in a town or city, typically lined with trees.",
+                "examples": [
+                    "Stroll down the seaside boulevard.",
+                    "Palm trees line the city boulevard."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-133",
+        "word": "crossing",
+        "emoji": "\ud83d\udeb6",
+        "form": "noun",
+        "transcription": "\u02c8kr\u0254\u02d0s\u026a\u014b",
+        "definitions": [
+            {
+                "text": "A place where a road or river may be crossed.",
+                "examples": [
+                    "Use pedestrian crossing to cross street.",
+                    "A ferry crossing connects islands."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-134",
+        "word": "dock",
+        "emoji": "\u2693",
+        "form": "noun",
+        "transcription": "d\u0251\u02d0k",
+        "definitions": [
+            {
+                "text": "A structure extending into water for loading ships.",
+                "examples": [
+                    "Boats tied up at the wooden dock.",
+                    "Walk along the harbor dock."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-135",
+        "word": "driveway",
+        "emoji": "\ud83d\ude97",
+        "form": "noun",
+        "transcription": "\u02c8dra\u026av\u02ccwe\u026a",
+        "definitions": [
+            {
+                "text": "A short private road leading from a public street to a house.",
+                "examples": [
+                    "Park your car in the paved driveway.",
+                    "Leaves covered the home driveway."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-136",
+        "word": "expressway",
+        "emoji": "\ud83d\udee3\ufe0f",
+        "form": "noun",
+        "transcription": "\u026ak\u02c8spr\u025bs\u02ccwe\u026a",
+        "definitions": [
+            {
+                "text": "A wide highway designed for fast motor traffic.",
+                "examples": [
+                    "Drive on the multi-lane expressway.",
+                    "The expressway bypasses city center traffic."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-137",
+        "word": "highway",
+        "emoji": "\ud83d\udee3\ufe0f",
+        "form": "noun",
+        "transcription": "\u02c8ha\u026a\u02ccwe\u026a",
+        "definitions": [
+            {
+                "text": "A main public road connecting major towns.",
+                "examples": [
+                    "Follow the highway north toward the border.",
+                    "Highway traffic moved smoothly."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-138",
+        "word": "intersection",
+        "emoji": "\ud83d\udea6",
+        "form": "noun",
+        "transcription": "\u02cc\u026ant\u0259r\u02c8s\u025bk\u0283\u0259n",
+        "definitions": [
+            {
+                "text": "A point at which two or more roads meet or cross.",
+                "examples": [
+                    "Stop at the busy traffic light intersection.",
+                    "Turn right at the next street intersection."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-139",
+        "word": "lane",
+        "emoji": "\ud83d\udee3\ufe0f",
+        "form": "noun",
+        "transcription": "le\u026an",
+        "definitions": [
+            {
+                "text": "A narrow road in the countryside or city division.",
+                "examples": [
+                    "Walk along a quiet country lane.",
+                    "Stay inside the bicycle lane."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-140",
+        "word": "overpass",
+        "emoji": "\ud83c\udf09",
+        "form": "noun",
+        "transcription": "\u02c8o\u028av\u0259r\u02ccp\u00e6s",
+        "definitions": [
+            {
+                "text": "A bridge by which a road passes over another road.",
+                "examples": [
+                    "Drive under the highway overpass.",
+                    "Pedestrians crossed via the overpass."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-141",
+        "word": "path",
+        "emoji": "\ud83d\udeb6",
+        "form": "noun",
+        "transcription": "p\u00e6\u03b8",
+        "definitions": [
+            {
+                "text": "A track made by footprint walking.",
+                "examples": [
+                    "Follow the forest path to the waterfall.",
+                    "A stone path wound through the garden."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-142",
+        "word": "pathway",
+        "emoji": "\ud83d\udeb6",
+        "form": "noun",
+        "transcription": "\u02c8p\u00e6\u03b8\u02ccwe\u026a",
+        "definitions": [
+            {
+                "text": "A track or route forming a path.",
+                "examples": [
+                    "A paved pathway leads to the park lake.",
+                    "Walk along the lighted pathway."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-143",
+        "word": "pier",
+        "emoji": "\ud83c\udf09",
+        "form": "noun",
+        "transcription": "p\u026ar",
+        "definitions": [
+            {
+                "text": "A structure projecting into the sea used as a landing place.",
+                "examples": [
+                    "Walk to the end of the wooden pier.",
+                    "Fishermen cast lines off the pier."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-144",
+        "word": "roadway",
+        "emoji": "\ud83d\udee3\ufe0f",
+        "form": "noun",
+        "transcription": "\u02c8ro\u028ad\u02ccwe\u026a",
+        "definitions": [
+            {
+                "text": "The part of a road used by vehicles.",
+                "examples": [
+                    "Cross the roadway carefully.",
+                    "Roadway repairs caused slight delays."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-145",
+        "word": "route",
+        "emoji": "\ud83d\uddfa\ufe0f",
+        "form": "noun",
+        "transcription": "ru\u02d0t",
+        "definitions": [
+            {
+                "text": "A way or course taken in getting from a starting point.",
+                "examples": [
+                    "Map out your scenic driving route.",
+                    "The bus follows a fixed city route."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-146",
+        "word": "bus station",
+        "emoji": "\ud83d\ude89",
+        "form": "noun",
+        "transcription": "b\u028cs \u02c8ste\u026a\u0283\u0259n",
+        "definitions": [
+            {
+                "text": "A terminal where long-distance buses arrive and depart.",
+                "examples": [
+                    "Catch the regional coach at the central bus station.",
+                    "The bus station has a waiting room."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-147",
+        "word": "checkpoint",
+        "emoji": "\ud83d\udea7",
+        "form": "noun",
+        "transcription": "\u02c8\u02a7\u025bk\u02ccp\u0254\u026ant",
+        "definitions": [
+            {
+                "text": "A barrier where security or passport checks take place.",
+                "examples": [
+                    "Show travel documents at the border checkpoint.",
+                    "Guards manned the security checkpoint."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-148",
+        "word": "information desk",
+        "emoji": "\u2139\ufe0f",
+        "form": "noun",
+        "transcription": "\u02cc\u026anf\u0259r\u02c8me\u026a\u0283\u0259n d\u025bsk",
+        "definitions": [
+            {
+                "text": "A counter providing assistance and maps to visitors.",
+                "examples": [
+                    "Ask for a city map at the airport information desk.",
+                    "The information desk helper was courteous."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-149",
+        "word": "parking lot",
+        "emoji": "\ud83c\udd7f\ufe0f",
+        "form": "noun",
+        "transcription": "\u02c8p\u0251\u02d0rk\u026a\u014b l\u0251\u02d0t",
+        "definitions": [
+            {
+                "text": "An open area designated for parking cars.",
+                "examples": [
+                    "Park your car in the shopping mall parking lot.",
+                    "The hotel parking lot was full."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-150",
+        "word": "railway station",
+        "emoji": "\ud83d\ude89",
+        "form": "noun",
+        "transcription": "\u02c8re\u026al\u02ccwe\u026a \u02c8ste\u026a\u0283\u0259n",
+        "definitions": [
+            {
+                "text": "A station where passenger trains stop.",
+                "examples": [
+                    "Meet us outside the main railway station.",
+                    "Platform three handles regional railway station trains."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-151",
+        "word": "rest stop",
+        "emoji": "\u26fd",
+        "form": "noun",
+        "transcription": "r\u025bst st\u0251\u02d0p",
+        "definitions": [
+            {
+                "text": "A roadside area with petrol, food, and restrooms.",
+                "examples": [
+                    "Stop at a highway rest stop to stretch.",
+                    "The rest stop offered hot coffee."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
+    },
+    {
+        "id": "A1-NOUN-TRA-152",
+        "word": "subway station",
+        "emoji": "\ud83d\ude87",
+        "form": "noun",
+        "transcription": "\u02c8s\u028cb\u02ccwe\u026a \u02c8ste\u026a\u0283\u0259n",
+        "definitions": [
+            {
+                "text": "An underground railway station.",
+                "examples": [
+                    "Take the escalator down to the subway station.",
+                    "Subway station maps guide commuters."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TRAVEL",
+        "subcategory": "Places",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Locations_Venues"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

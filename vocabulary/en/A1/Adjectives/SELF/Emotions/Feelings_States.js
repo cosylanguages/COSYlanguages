@@ -499,37 +499,6 @@
         "sub_subcategory": "Feelings_States"
     },
     {
-        "id": "A1-ADJ-SEL-205",
-        "word": "sorry",
-        "form": "adjective",
-        "subtext": "feel sorry / sorry for / sorry about",
-        "definitions": [
-            {
-                "text": "Feeling regret or sadness.",
-                "examples": [
-                    "She is sorry for the delay."
-                ]
-            }
-        ],
-        "comparative": "sorrier",
-        "superlative": "the sorriest",
-        "emoji": "\ud83d\ude4f",
-        "transcription": "\u02c8s\u0251ri",
-        "lang": "en",
-        "level": "starter",
-        "theme": "emotions",
-        "sub_theme": null,
-        "antonyms": [
-            "unapologetic"
-        ],
-        "legacy_id": "A1-SELF-24",
-        "level_code": "A1",
-        "domain": "SELF",
-        "subcategory": "Emotions",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Feelings_States"
-    },
-    {
         "id": "A1-ADJ-SEL-206",
         "word": "surprised",
         "form": "adjective",
@@ -701,8 +670,564 @@
         "subcategory": "Emotions",
         "pos_section": "Adjectives",
         "sub_subcategory": "Feelings_States"
+    },
+    {
+        "id": "A1-ADJ-SEL-248",
+        "word": "anxious",
+        "emoji": "\ud83d\ude1f",
+        "form": "adjective",
+        "transcription": "\u02c8\u00e6\u014bk\u0283\u0259s",
+        "definitions": [
+            {
+                "text": "Feeling worried or nervous.",
+                "examples": [
+                    "He felt anxious before the test.",
+                    "She looked anxious when waiting."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Emotions",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Feelings_States"
+    },
+    {
+        "id": "A1-ADJ-SEL-249",
+        "word": "asleep",
+        "emoji": "\ud83d\ude34",
+        "form": "adjective",
+        "transcription": "\u0259\u02c8sli\u02d0p",
+        "definitions": [
+            {
+                "text": "In a state of sleep.",
+                "examples": [
+                    "The baby is fast asleep.",
+                    "He fell asleep on the train."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Emotions",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Feelings_States"
+    },
+    {
+        "id": "A1-ADJ-SEL-250",
+        "word": "cheerful",
+        "emoji": "\ud83d\ude0a",
+        "form": "adjective",
+        "transcription": "\u02c8\u02a7\u026arf\u0259l",
+        "definitions": [
+            {
+                "text": "Noticeably happy and optimistic.",
+                "examples": [
+                    "She gave a cheerful smile.",
+                    "He has a bright cheerful personality."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Emotions",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Feelings_States"
+    },
+    {
+        "id": "A1-ADJ-SEL-251",
+        "word": "confused",
+        "emoji": "\ud83d\ude15",
+        "form": "adjective",
+        "transcription": "k\u0259n\u02c8fju\u02d0zd",
+        "definitions": [
+            {
+                "text": "Unable to think clearly or understand.",
+                "examples": [
+                    "I am confused by these directions.",
+                    "He looked confused after the explanation."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Emotions",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Feelings_States"
+    },
+    {
+        "id": "A1-ADJ-SEL-252",
+        "word": "delighted",
+        "emoji": "\ud83d\ude03",
+        "form": "adjective",
+        "transcription": "d\u026a\u02c8la\u026at\u0259d",
+        "definitions": [
+            {
+                "text": "Feeling or showing great pleasure.",
+                "examples": [
+                    "We were delighted to meet you.",
+                    "She was delighted with her present."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Emotions",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Feelings_States"
+    },
+    {
+        "id": "A1-ADJ-SEL-253",
+        "word": "lonely",
+        "emoji": "\ud83e\udd7a",
+        "form": "adjective",
+        "transcription": "\u02c8lo\u028anli",
+        "definitions": [
+            {
+                "text": "Sad because one has no friends or company.",
+                "examples": [
+                    "He felt lonely in the big city.",
+                    "She gets lonely living by herself."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Emotions",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Feelings_States"
+    },
+    {
+        "id": "A1-ADJ-SEL-254",
+        "word": "satisfied",
+        "emoji": "\ud83d\ude0c",
+        "form": "adjective",
+        "transcription": "\u02c8s\u00e6t\u0259s\u02ccfa\u026ad",
+        "definitions": [
+            {
+                "text": "Contented and pleased.",
+                "examples": [
+                    "She was satisfied with her exam score.",
+                    "Are you satisfied with the service?"
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Emotions",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Feelings_States"
+    },
+    {
+        "id": "A1-ADJ-SEL-255",
+        "word": "sick",
+        "emoji": "\ud83e\udd12",
+        "form": "adjective",
+        "transcription": "s\u026ak",
+        "definitions": [
+            {
+                "text": "Affected by physical or mental illness.",
+                "examples": [
+                    "He stayed home because he felt sick.",
+                    "She was sick with a bad cold."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Emotions",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Feelings_States"
+    },
+    {
+        "id": "A1-ADJ-SEL-256",
+        "word": "upset",
+        "emoji": "\ud83d\ude22",
+        "form": "adjective",
+        "transcription": "\u028cp\u02c8s\u025bt",
+        "definitions": [
+            {
+                "text": "Unhappy, disappointed, or worried.",
+                "examples": [
+                    "Do not get upset over small things.",
+                    "She was upset when she lost her key."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Emotions",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Feelings_States"
+    },
+    {
+        "id": "A1-ADJ-SEL-257",
+        "word": "ashamed",
+        "emoji": "\ud83d\ude33",
+        "form": "adjective",
+        "transcription": "\u0259\u02c8\u0283e\u026amd",
+        "definitions": [
+            {
+                "text": "Embarrassed or guilty because of one's actions.",
+                "examples": [
+                    "He felt ashamed of his rude behavior.",
+                    "She was ashamed to admit her mistake."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Emotions",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Feelings_States"
+    },
+    {
+        "id": "A1-ADJ-SEL-258",
+        "word": "confident",
+        "emoji": "\ud83d\ude0a",
+        "form": "adjective",
+        "transcription": "\u02c8k\u0251\u02d0nf\u0259d\u0259nt",
+        "definitions": [
+            {
+                "text": "Feeling or showing certainty about something.",
+                "examples": [
+                    "She felt confident before her speech.",
+                    "He is confident in his abilities."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Emotions",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Feelings_States"
+    },
+    {
+        "id": "A1-ADJ-SEL-259",
+        "word": "eager",
+        "emoji": "\ud83e\udd29",
+        "form": "adjective",
+        "transcription": "\u02c8i\u02d0\u0261\u0259r",
+        "definitions": [
+            {
+                "text": "Strongly wanting to do or have something.",
+                "examples": [
+                    "The students were eager to learn.",
+                    "He was eager to start his new job."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Emotions",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Feelings_States"
+    },
+    {
+        "id": "A1-ADJ-SEL-260",
+        "word": "embarrassed",
+        "emoji": "\ud83d\ude33",
+        "form": "adjective",
+        "transcription": "\u026am\u02c8b\u00e6r\u0259st",
+        "definitions": [
+            {
+                "text": "Feeling awkward, self-conscious, or ashamed.",
+                "examples": [
+                    "She felt embarrassed when she spilled her drink.",
+                    "He got embarrassed in front of class."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Emotions",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Feelings_States"
+    },
+    {
+        "id": "A1-ADJ-SEL-261",
+        "word": "enthusiastic",
+        "emoji": "\ud83d\ude03",
+        "form": "adjective",
+        "transcription": "\u026an\u02cc\u03b8u\u02d0zi\u02c8\u00e6st\u026ak",
+        "definitions": [
+            {
+                "text": "Having or showing intense enjoyment or interest.",
+                "examples": [
+                    "The team gave an enthusiastic response.",
+                    "She is enthusiastic about music."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Emotions",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Feelings_States"
+    },
+    {
+        "id": "A1-ADJ-SEL-262",
+        "word": "envious",
+        "emoji": "\ud83d\ude12",
+        "form": "adjective",
+        "transcription": "\u02c8\u025bnvi\u0259s",
+        "definitions": [
+            {
+                "text": "Feeling or showing envy toward someone.",
+                "examples": [
+                    "Do not be envious of others' success.",
+                    "She felt envious of her friend's new car."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Emotions",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Feelings_States"
+    },
+    {
+        "id": "A1-ADJ-SEL-263",
+        "word": "frightened",
+        "emoji": "\ud83d\ude31",
+        "form": "adjective",
+        "transcription": "\u02c8fra\u026at\u0259nd",
+        "definitions": [
+            {
+                "text": "Afraid or anxious.",
+                "examples": [
+                    "The loud thunder made the cat frightened.",
+                    "She felt frightened in the dark."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Emotions",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Feelings_States"
+    },
+    {
+        "id": "A1-ADJ-SEL-264",
+        "word": "grateful",
+        "emoji": "\ud83d\ude4f",
+        "form": "adjective",
+        "transcription": "\u02c8\u0261re\u026atf\u0259l",
+        "definitions": [
+            {
+                "text": "Feeling or showing appreciation for kindness.",
+                "examples": [
+                    "I am grateful for your help.",
+                    "She expressed grateful thanks to her host."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Emotions",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Feelings_States"
+    },
+    {
+        "id": "A1-ADJ-SEL-265",
+        "word": "guilty",
+        "emoji": "\ud83d\ude14",
+        "form": "adjective",
+        "transcription": "\u02c8\u0261\u026alti",
+        "definitions": [
+            {
+                "text": "Feeling responsible for a specified wrong.",
+                "examples": [
+                    "He felt guilty for forgetting her birthday.",
+                    "She looked guilty after breaking the vase."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Emotions",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Feelings_States"
+    },
+    {
+        "id": "A1-ADJ-SEL-266",
+        "word": "hopeless",
+        "emoji": "\ud83d\ude1e",
+        "form": "adjective",
+        "transcription": "\u02c8ho\u028apl\u0259s",
+        "definitions": [
+            {
+                "text": "Feeling or causing despair.",
+                "examples": [
+                    "Do not feel hopeless about your progress.",
+                    "The situation seemed hopeless."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Emotions",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Feelings_States"
+    },
+    {
+        "id": "A1-ADJ-SEL-267",
+        "word": "impatient",
+        "emoji": "\ud83d\ude24",
+        "form": "adjective",
+        "transcription": "\u026am\u02c8pe\u026a\u0283\u0259nt",
+        "definitions": [
+            {
+                "text": "Tendency to be quickly irritated or provoked.",
+                "examples": [
+                    "He grew impatient waiting for the bus.",
+                    "She was impatient to hear the result."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Emotions",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Feelings_States"
+    },
+    {
+        "id": "A1-ADJ-SEL-268",
+        "word": "jealous",
+        "emoji": "\ud83d\ude12",
+        "form": "adjective",
+        "transcription": "\u02c8\u02a4\u025bl\u0259s",
+        "definitions": [
+            {
+                "text": "Feeling envious of someone or their achievements.",
+                "examples": [
+                    "He felt jealous when he saw his rival.",
+                    "Try not to be jealous."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Emotions",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Feelings_States"
+    },
+    {
+        "id": "A1-ADJ-SEL-269",
+        "word": "miserable",
+        "emoji": "\ud83d\ude2d",
+        "form": "adjective",
+        "transcription": "\u02c8m\u026az\u0259r\u0259b\u0259l",
+        "definitions": [
+            {
+                "text": "Wretchedly unhappy or uncomfortable.",
+                "examples": [
+                    "The cold rain made everyone feel miserable.",
+                    "She felt miserable with a bad cold."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Emotions",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Feelings_States"
+    },
+    {
+        "id": "A1-ADJ-SEL-270",
+        "word": "panicked",
+        "emoji": "\ud83d\ude31",
+        "form": "adjective",
+        "transcription": "\u02c8p\u00e6n\u026akt",
+        "definitions": [
+            {
+                "text": "Filled with sudden uncontrollable fear.",
+                "examples": [
+                    "The panicked crowd ran toward the exit.",
+                    "She felt panicked when she lost her passport."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Emotions",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Feelings_States"
+    },
+    {
+        "id": "A1-ADJ-SEL-271",
+        "word": "peaceful",
+        "emoji": "\ud83d\udd4a\ufe0f",
+        "form": "adjective",
+        "transcription": "\u02c8pi\u02d0sf\u0259l",
+        "definitions": [
+            {
+                "text": "Free from disturbance; tranquil.",
+                "examples": [
+                    "The quiet lake was calm and peaceful.",
+                    "Enjoy a peaceful evening at home."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Emotions",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Feelings_States"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

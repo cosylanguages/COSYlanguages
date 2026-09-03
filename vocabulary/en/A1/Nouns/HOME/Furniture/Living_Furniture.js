@@ -372,35 +372,6 @@
         "sub_subcategory": "Living_Furniture"
     },
     {
-        "id": "A1-NOUN-HOM-029",
-        "word": "cup",
-        "emoji": "\u2615",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "cups",
-        "subtext": "cup of tea, cup of coffee",
-        "definitions": [
-            {
-                "text": "A small container with a handle that you drink from.",
-                "examples": [
-                    "Would you like a cup of tea?"
-                ]
-            }
-        ],
-        "transcription": "k\u0259p",
-        "lang": "en",
-        "level": "starter",
-        "theme": "furniture",
-        "sub_theme": null,
-        "legacy_id": "A1-HOME-19",
-        "level_code": "A1",
-        "domain": "HOME",
-        "subcategory": "Furniture",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Living_Furniture"
-    },
-    {
         "id": "A1-NOUN-HOM-030",
         "word": "desk",
         "emoji": "\ud83d\udda5\ufe0f",
@@ -607,35 +578,6 @@
         "sub_subcategory": "Living_Furniture"
     },
     {
-        "id": "A1-NOUN-HOM-037",
-        "word": "fork",
-        "emoji": "\ud83c\udf74",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "forks",
-        "definitions": [
-            {
-                "text": "A tool with three or four points used for picking up and eating food.",
-                "examples": [
-                    "Eat your pasta with a fork."
-                ]
-            }
-        ],
-        "subtext": "related to furniture objects",
-        "transcription": "f\u0254rk",
-        "lang": "en",
-        "level": "starter",
-        "theme": "furniture",
-        "sub_theme": null,
-        "legacy_id": "A1-HOME-29",
-        "level_code": "A1",
-        "domain": "HOME",
-        "subcategory": "Furniture",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Living_Furniture"
-    },
-    {
         "id": "A1-NOUN-HOM-038",
         "word": "fridge",
         "emoji": "\ud83e\uddca",
@@ -749,35 +691,6 @@
         "theme": "furniture",
         "sub_theme": null,
         "legacy_id": "A1-HOME-33",
-        "level_code": "A1",
-        "domain": "HOME",
-        "subcategory": "Furniture",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Living_Furniture"
-    },
-    {
-        "id": "A1-NOUN-HOM-042",
-        "word": "glass",
-        "emoji": "\ud83e\udd5b",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "glasses",
-        "subtext": "glass of water, glass of wine",
-        "definitions": [
-            {
-                "text": "A container made of glass used for drinking.",
-                "examples": [
-                    "Can I have a glass of water, please?"
-                ]
-            }
-        ],
-        "transcription": "gl\u00e6s",
-        "lang": "en",
-        "level": "starter",
-        "theme": "furniture",
-        "sub_theme": null,
-        "legacy_id": "A1-HOME-34",
         "level_code": "A1",
         "domain": "HOME",
         "subcategory": "Furniture",
@@ -906,35 +819,6 @@
         "theme": "furniture",
         "sub_theme": null,
         "legacy_id": "A1-HOME-38",
-        "level_code": "A1",
-        "domain": "HOME",
-        "subcategory": "Furniture",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Living_Furniture"
-    },
-    {
-        "id": "A1-NOUN-HOM-047",
-        "word": "knife",
-        "emoji": "\ud83d\udd2a",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "knives",
-        "definitions": [
-            {
-                "text": "A tool with a sharp blade used for cutting food.",
-                "examples": [
-                    "Use a knife to cut the meat."
-                ]
-            }
-        ],
-        "subtext": "related to furniture objects",
-        "transcription": "na\u026af",
-        "lang": "en",
-        "level": "starter",
-        "theme": "furniture",
-        "sub_theme": null,
-        "legacy_id": "A1-HOME-39",
         "level_code": "A1",
         "domain": "HOME",
         "subcategory": "Furniture",
@@ -1139,35 +1023,6 @@
         "theme": "furniture",
         "sub_theme": null,
         "legacy_id": "A1-HOME-46",
-        "level_code": "A1",
-        "domain": "HOME",
-        "subcategory": "Furniture",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Living_Furniture"
-    },
-    {
-        "id": "A1-NOUN-HOM-055",
-        "word": "plate",
-        "emoji": "\ud83c\udf7d\ufe0f",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "plates",
-        "subtext": "clean plate, put food on a plate",
-        "definitions": [
-            {
-                "text": "A flat round dish that you put food on.",
-                "examples": [
-                    "Please put the sandwich on a plate."
-                ]
-            }
-        ],
-        "transcription": "ple\u026at",
-        "lang": "en",
-        "level": "starter",
-        "theme": "furniture",
-        "sub_theme": null,
-        "legacy_id": "A1-HOME-48",
         "level_code": "A1",
         "domain": "HOME",
         "subcategory": "Furniture",
@@ -1405,35 +1260,6 @@
         "theme": "furniture",
         "sub_theme": null,
         "legacy_id": "A1-HOME-61",
-        "level_code": "A1",
-        "domain": "HOME",
-        "subcategory": "Furniture",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Living_Furniture"
-    },
-    {
-        "id": "A1-NOUN-HOM-064",
-        "word": "spoon",
-        "emoji": "\ud83e\udd44",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "spoons",
-        "definitions": [
-            {
-                "text": "A tool with a shallow bowl at the end used for eating or stirring.",
-                "examples": [
-                    "Use a spoon for your soup."
-                ]
-            }
-        ],
-        "subtext": "related to furniture objects",
-        "transcription": "spun",
-        "lang": "en",
-        "level": "starter",
-        "theme": "furniture",
-        "sub_theme": null,
-        "legacy_id": "A1-HOME-62",
         "level_code": "A1",
         "domain": "HOME",
         "subcategory": "Furniture",
@@ -1708,8 +1534,81 @@
         "subcategory": "Furniture",
         "pos_section": "Nouns",
         "sub_subcategory": "Living_Furniture"
+    },
+    {
+        "id": "A1-NOUN-HOM-077",
+        "word": "cabinet",
+        "emoji": "\ud83d\uddc4\ufe0f",
+        "form": "noun",
+        "transcription": "\u02c8k\u00e6b\u0259n\u0259t",
+        "definitions": [
+            {
+                "text": "A cupboard with drawers or shelves.",
+                "examples": [
+                    "Store the dishes in the wooden cabinet.",
+                    "He locked his papers in the cabinet."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "HOME",
+        "subcategory": "Furniture",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Living_Furniture"
+    },
+    {
+        "id": "A1-NOUN-HOM-100",
+        "word": "couch",
+        "emoji": "\ud83d\udecb\ufe0f",
+        "form": "noun",
+        "transcription": "ka\u028a\u02a7",
+        "definitions": [
+            {
+                "text": "A long upholstered piece of furniture for sitting or reclining.",
+                "examples": [
+                    "Sit comfortably on the living room couch.",
+                    "He fell asleep on the couch."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "HOME",
+        "subcategory": "Furniture",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Living_Furniture"
+    },
+    {
+        "id": "A1-NOUN-HOM-101",
+        "word": "stool",
+        "emoji": "\ud83e\ude91",
+        "form": "noun",
+        "transcription": "stu\u02d0l",
+        "definitions": [
+            {
+                "text": "A backless and armless single seat.",
+                "examples": [
+                    "Sit on a tall bar stool.",
+                    "She pulled up a wooden stool."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "HOME",
+        "subcategory": "Furniture",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Living_Furniture"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

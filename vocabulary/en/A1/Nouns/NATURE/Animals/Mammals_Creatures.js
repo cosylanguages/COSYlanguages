@@ -883,8 +883,35 @@
         "subcategory": "Animals",
         "pos_section": "Nouns",
         "sub_subcategory": "Mammals_Creatures"
+    },
+    {
+        "id": "A1-NOUN-NAT-044",
+        "word": "tiger",
+        "emoji": "\ud83d\udc2f",
+        "form": "noun",
+        "transcription": "\u02c8ta\u026a\u0261\u0259r",
+        "definitions": [
+            {
+                "text": "A large wild cat with a yellow-brown coat with black stripes.",
+                "examples": [
+                    "Tigers are powerful solitary hunters.",
+                    "The zoo housed a Siberian tiger."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "NATURE",
+        "subcategory": "Animals",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Mammals_Creatures"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();
