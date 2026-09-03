@@ -27,7 +27,7 @@ subpage_data = {
     },
     'it': {
         'manuals': [
-            {'title': 'Manuale Italiano (A0–A1)', 'url': '../../manuals/italiano-a0-a1.html', 'desc': 'Libri di grammatica, vocabolario e comunicazione A0–A1.'},
+            {'title': 'Manuale Italiano (A0–A1)', 'url': '../../manuals/it/index.html', 'desc': 'Libri di grammatica, vocabolario e comunicazione A0–A1.'},
             {'title': 'Manuale Italiano (A2)', 'url': '../../manuals/italiano-a2.html', 'desc': 'Grammatica elementare, collocazioni e mappe di dialogo.'}
         ],
         'apps': [

@@ -23,7 +23,7 @@ hub_data = {
     },
     'it': {
         'code': 'it', 'ucode': 'IT', 'flag': '🇮🇹', 'name': 'Italian', 'native': 'Italiano',
-        'manual_a0_a1': '../../manuals/italiano-a0-a1.html', 'manual_a2': '../../manuals/italiano-a2.html',
+        'manual_a0_a1': '../../manuals/it/index.html', 'manual_a2': '../../manuals/italiano-a2.html',
         'roadmap': 'curriculum.html', 'practice_lang': 'IT',
         'apps': [
             {'name': 'Reggenza Verbale Italiana', 'url': '../../apps/it-reggenza/index.html', 'desc': 'Italian prepositional regime engine for verbs, nouns & adjectives.'},
@@ -52,37 +52,37 @@ hub_data = {
     },
     'es': {
         'code': 'es', 'ucode': 'ES', 'flag': '🇪🇸', 'name': 'Spanish', 'native': 'Español',
-        'manual_a0_a1': '../../manuals/espanol-a0-a1.html', 'manual_a2': '../../manuals/espanol-a2.html',
+        'manual_a0_a1': '../../manuals/es/index.html', 'manual_a2': '../../manuals/espanol-a2.html',
         'roadmap': '../../languages/es/index.html', 'practice_lang': 'ES', 'apps': []
     },
     'de': {
         'code': 'de', 'ucode': 'DE', 'flag': '🇩🇪', 'name': 'German', 'native': 'Deutsch',
-        'manual_a0_a1': '../../manuals/deutsch-a0-a1.html', 'manual_a2': '../../manuals/deutsch-a2.html',
+        'manual_a0_a1': '../../manuals/de/index.html', 'manual_a2': '../../manuals/deutsch-a2.html',
         'roadmap': '../../languages/de/index.html', 'practice_lang': 'DE', 'apps': []
     },
     'pt': {
         'code': 'pt', 'ucode': 'PT', 'flag': '🇵🇹', 'name': 'Portuguese', 'native': 'Português',
-        'manual_a0_a1': '../../manuals/portugues-a0-a1.html', 'manual_a2': '../../manuals/portugues-a2.html',
+        'manual_a0_a1': '../../manuals/pt/index.html', 'manual_a2': '../../manuals/portugues-a2.html',
         'roadmap': '../../languages/pt/index.html', 'practice_lang': 'PT', 'apps': []
     },
     'hy': {
         'code': 'hy', 'ucode': 'HY', 'flag': '🇦🇲', 'name': 'Armenian', 'native': 'Հայերեն',
-        'manual_a0_a1': '../../manuals/hayots-a0-a1.html', 'manual_a2': '../../manuals/hayots-a2.html',
+        'manual_a0_a1': '../../manuals/hy/index.html', 'manual_a2': '../../manuals/hayots-a2.html',
         'roadmap': '../../languages/hy/index.html', 'practice_lang': 'HY', 'apps': []
     },
     'ka': {
         'code': 'ka', 'ucode': 'KA', 'flag': '🇬🇪', 'name': 'Georgian', 'native': 'ქართული',
-        'manual_a0_a1': '../../manuals/qartuli-a0-a1.html', 'manual_a2': '../../manuals/qartuli-a2.html',
+        'manual_a0_a1': '../../manuals/ka/index.html', 'manual_a2': '../../manuals/qartuli-a2.html',
         'roadmap': '../../languages/ka/index.html', 'practice_lang': 'KA', 'apps': []
     },
     'tt': {
         'code': 'tt', 'ucode': 'TT', 'flag': '🏴', 'name': 'Tatar', 'native': 'Татарча',
-        'manual_a0_a1': '../../manuals/tatar-a0-a1.html', 'manual_a2': '../../manuals/tatar-a2.html',
+        'manual_a0_a1': '../../manuals/tt/index.html', 'manual_a2': '../../manuals/tatar-a2.html',
         'roadmap': '../../languages/tt/index.html', 'practice_lang': 'TT', 'apps': []
     },
     'ba': {
         'code': 'ba', 'ucode': 'BA', 'flag': '🏴', 'name': 'Bashkir', 'native': 'Башҡортса',
-        'manual_a0_a1': '../../manuals/bashqort-a0-a1.html', 'manual_a2': '../../manuals/bashqort-a2.html',
+        'manual_a0_a1': '../../manuals/ba/index.html', 'manual_a2': '../../manuals/bashqort-a2.html',
         'roadmap': '../../languages/ba/index.html', 'practice_lang': 'BA', 'apps': []
     },
     'br': {
