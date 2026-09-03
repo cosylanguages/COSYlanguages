@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-SEL-096",
+        "id": "B1-NOUN-SOC-072",
         "word": "journalism",
         "form": "noun",
         "transcription": "\u02c8d\u0292\u025c\u02d0rn\u0259l\u026az\u0259m",

@@ -2,7 +2,7 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-SEL-095",
+        "id": "B1-NOUN-SCI-021",
         "word": "algorithm",
         "form": "noun",
         "transcription": "\u02c8\u00e6l\u0261\u0259r\u026a\u00f0\u0259m",
