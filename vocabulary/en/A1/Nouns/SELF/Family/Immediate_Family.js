@@ -492,8 +492,35 @@
         "subcategory": "Family",
         "pos_section": "Nouns",
         "sub_subcategory": "Immediate_Family"
+    },
+    {
+        "id": "A1-NOUN-SEL-115",
+        "word": "twin",
+        "emoji": "\ud83d\udc6f",
+        "form": "noun",
+        "transcription": "tw\u026an",
+        "definitions": [
+            {
+                "text": "One of two children born at the same birth.",
+                "examples": [
+                    "She has a twin sister.",
+                    "The twins look almost identical."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Family",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Immediate_Family"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

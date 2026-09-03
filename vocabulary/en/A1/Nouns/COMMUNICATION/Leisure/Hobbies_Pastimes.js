@@ -240,8 +240,104 @@
         "subcategory": "Leisure",
         "pos_section": "Nouns",
         "sub_subcategory": "Hobbies_Pastimes"
+    },
+    {
+        "id": "A1-NOUN-COM-092",
+        "word": "camping",
+        "emoji": "\ud83c\udfd5\ufe0f",
+        "form": "noun",
+        "transcription": "\u02c8k\u00e6mp\u026a\u014b",
+        "definitions": [
+            {
+                "text": "The activity of spending a holiday living in a tent.",
+                "examples": [
+                    "We went camping in the mountains.",
+                    "Bring a sleeping bag for camping."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Leisure",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Hobbies_Pastimes"
+    },
+    {
+        "id": "A1-NOUN-COM-093",
+        "word": "dance",
+        "emoji": "\ud83d\udc83",
+        "form": "noun",
+        "transcription": "d\u00e6ns",
+        "definitions": [
+            {
+                "text": "A series of rhythmic steps and movements to music.",
+                "examples": [
+                    "They took a Latin dance class.",
+                    "The traditional dance was festive."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Leisure",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Hobbies_Pastimes"
+    },
+    {
+        "id": "A1-NOUN-COM-094",
+        "word": "drawing",
+        "emoji": "\u270f\ufe0f",
+        "form": "noun",
+        "transcription": "\u02c8dr\u0254\u02d0\u026a\u014b",
+        "definitions": [
+            {
+                "text": "A picture produced by drawing with pencil or pen.",
+                "examples": [
+                    "She made a pencil drawing of a cat.",
+                    "Framed drawings hung on the wall."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Leisure",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Hobbies_Pastimes"
+    },
+    {
+        "id": "A1-NOUN-COM-095",
+        "word": "photography",
+        "emoji": "\ud83d\udcf7",
+        "form": "noun",
+        "transcription": "f\u0259\u02c8t\u0251\u02d0\u0261r\u0259fi",
+        "definitions": [
+            {
+                "text": "The art or practice of taking photos.",
+                "examples": [
+                    "Nature photography takes patience.",
+                    "He bought a digital camera for photography."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Leisure",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Hobbies_Pastimes"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

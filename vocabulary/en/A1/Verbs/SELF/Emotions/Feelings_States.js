@@ -428,8 +428,104 @@
         "subcategory": "Emotions",
         "pos_section": "Verbs",
         "sub_subcategory": "Feelings_States"
+    },
+    {
+        "id": "A1-VERB-SEL-059",
+        "word": "admire",
+        "emoji": "\ud83e\udd29",
+        "form": "verb",
+        "transcription": "\u00e6d\u02c8ma\u026a\u0259r",
+        "definitions": [
+            {
+                "text": "Regard with respect or warm approval.",
+                "examples": [
+                    "I admire her dedication to learning.",
+                    "Many people admire his art."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Emotions",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Feelings_States"
+    },
+    {
+        "id": "A1-VERB-SEL-060",
+        "word": "fear",
+        "emoji": "\ud83d\ude28",
+        "form": "verb",
+        "transcription": "f\u026ar",
+        "definitions": [
+            {
+                "text": "Be afraid of someone or something.",
+                "examples": [
+                    "She fears high places.",
+                    "He feared missing his train."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Emotions",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Feelings_States"
+    },
+    {
+        "id": "A1-VERB-SEL-061",
+        "word": "mind",
+        "emoji": "\ud83e\udd14",
+        "form": "verb",
+        "transcription": "ma\u026and",
+        "definitions": [
+            {
+                "text": "Be distressed, annoyed, or worried by.",
+                "examples": [
+                    "Do you mind if I open the window?",
+                    "He does not mind working late."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Emotions",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Feelings_States"
+    },
+    {
+        "id": "A1-VERB-SEL-062",
+        "word": "regret",
+        "emoji": "\ud83d\ude14",
+        "form": "verb",
+        "transcription": "r\u026a\u02c8\u0261r\u025bt",
+        "definitions": [
+            {
+                "text": "Feel sad, repentant, or disappointed over.",
+                "examples": [
+                    "I regret leaving early.",
+                    "She regrets not calling her friend."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Emotions",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Feelings_States"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

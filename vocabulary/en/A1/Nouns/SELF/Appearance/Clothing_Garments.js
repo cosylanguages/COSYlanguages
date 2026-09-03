@@ -651,8 +651,104 @@
         "subcategory": "Appearance",
         "pos_section": "Nouns",
         "sub_subcategory": "Clothing_Garments"
+    },
+    {
+        "id": "A1-NOUN-SEL-137",
+        "word": "boot",
+        "emoji": "\ud83e\udd7e",
+        "form": "noun",
+        "transcription": "bu\u02d0t",
+        "definitions": [
+            {
+                "text": "A sturdy item of footwear covering the foot and ankle.",
+                "examples": [
+                    "Put on your hiking boots.",
+                    "She bought new leather boots."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Appearance",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Clothing_Garments"
+    },
+    {
+        "id": "A1-NOUN-SEL-138",
+        "word": "sock",
+        "emoji": "\ud83e\udde6",
+        "form": "noun",
+        "transcription": "s\u0251\u02d0k",
+        "definitions": [
+            {
+                "text": "A soft garment worn on the foot inside a shoe.",
+                "examples": [
+                    "He put on warm woolen socks.",
+                    "One sock was missing from the laundry."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Appearance",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Clothing_Garments"
+    },
+    {
+        "id": "A1-NOUN-SEL-139",
+        "word": "trousers",
+        "emoji": "\ud83d\udc56",
+        "form": "noun",
+        "transcription": "\u02c8tra\u028az\u0259rz",
+        "definitions": [
+            {
+                "text": "An outer garment covering the body from waist to ankles.",
+                "examples": [
+                    "He bought a pair of black trousers.",
+                    "Iron your trousers before the interview."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Appearance",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Clothing_Garments"
+    },
+    {
+        "id": "A1-NOUN-SEL-140",
+        "word": "uniform",
+        "emoji": "\ud83e\udd4b",
+        "form": "noun",
+        "transcription": "\u02c8ju\u02d0n\u0259\u02ccf\u0254\u02d0rm",
+        "definitions": [
+            {
+                "text": "Special clothing worn by members of an organization.",
+                "examples": [
+                    "School pupils wear a dark uniform.",
+                    "The police officer wore a crisp uniform."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Appearance",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Clothing_Garments"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

@@ -321,37 +321,6 @@
         "sub_subcategory": "Personal_Identity"
     },
     {
-        "id": "A1-ADJ-SEL-234",
-        "word": "alone",
-        "emoji": "\ud83d\udc64",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "Without other people; by yourself.",
-                "examples": [
-                    "She lives alone."
-                ]
-            }
-        ],
-        "subtext": "live alone / travel alone / feel alone",
-        "comparative": "more alone",
-        "superlative": "the most alone",
-        "transcription": "\u0259\u02c8lo\u028an",
-        "lang": "en",
-        "level": "starter",
-        "theme": "people",
-        "sub_theme": null,
-        "antonyms": [
-            "together"
-        ],
-        "legacy_id": "A1-SELF-12",
-        "level_code": "A1",
-        "domain": "SELF",
-        "subcategory": "Identity",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Personal_Identity"
-    },
-    {
         "id": "A1-ADJ-SEL-235",
         "word": "famous",
         "emoji": "\ud83c\udf1f",
@@ -555,6 +524,10 @@
         "sub_subcategory": "Personal_Identity"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

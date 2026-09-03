@@ -274,8 +274,58 @@
         "subcategory": "Education",
         "pos_section": "Nouns",
         "sub_subcategory": "Study_Activities"
+    },
+    {
+        "id": "A1-NOUN-WOR-084",
+        "word": "essay",
+        "emoji": "\ud83d\udcc4",
+        "form": "noun",
+        "transcription": "\u02c8\u025b\u02ccse\u026a",
+        "definitions": [
+            {
+                "text": "A short piece of writing on a particular subject.",
+                "examples": [
+                    "Submit your history essay on Friday.",
+                    "Write a two-page essay about summer."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Study_Activities"
+    },
+    {
+        "id": "A1-NOUN-WOR-085",
+        "word": "exercise",
+        "emoji": "\u270d\ufe0f",
+        "form": "noun",
+        "transcription": "\u02c8\u025bks\u0259r\u02ccsa\u026az",
+        "definitions": [
+            {
+                "text": "A task set to practice or test skill.",
+                "examples": [
+                    "Complete exercise three on page ten.",
+                    "Grammar exercises reinforce learning."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Study_Activities"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

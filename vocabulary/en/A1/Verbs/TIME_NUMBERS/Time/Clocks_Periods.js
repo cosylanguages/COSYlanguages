@@ -68,50 +68,6 @@
         "sub_subcategory": "Clocks_Periods"
     },
     {
-        "id": "A1-VERB-TIM-009",
-        "word": "sleep",
-        "emoji": "\ud83d\ude34",
-        "subtext": "sleep well / sleep badly / sleep eight hours / sleep late",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To rest with your eyes closed in a natural state of unconsciousness.",
-                "examples": [
-                    "He sleeps seven hours a night.",
-                    "I sleep badly."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "slept",
-        "v3": "slept",
-        "group": "regular",
-        "transcription": "slip",
-        "synonyms": [
-            "rest"
-        ],
-        "auxiliary": "have",
-        "lang": "en",
-        "level": "starter",
-        "theme": "time",
-        "sub_theme": null,
-        "etymology": {
-            "origin_lang": "Proto-Germanic",
-            "origin_word": "sl\u0113pan",
-            "origin_meaning": "to sleep"
-        },
-        "antonyms": [
-            "wake up"
-        ],
-        "legacy_id": "A1-NUM-48",
-        "level_code": "A1",
-        "domain": "TIME_NUMBERS",
-        "subcategory": "Time",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Clocks_Periods"
-    },
-    {
         "id": "A1-VERB-TIM-010",
         "word": "today",
         "emoji": "\ud83d\udcc5",
@@ -225,6 +181,10 @@
         "sub_subcategory": "Clocks_Periods"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

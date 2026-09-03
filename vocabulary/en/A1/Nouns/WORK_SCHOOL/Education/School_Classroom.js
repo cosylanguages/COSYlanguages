@@ -520,8 +520,679 @@
         "subcategory": "Education",
         "pos_section": "Nouns",
         "sub_subcategory": "School_Classroom"
+    },
+    {
+        "id": "A1-NOUN-WOR-076",
+        "word": "blackboard",
+        "emoji": "\ud83e\uddf1",
+        "form": "noun",
+        "transcription": "\u02c8bl\u00e6k\u02ccb\u0254\u02d0rd",
+        "definitions": [
+            {
+                "text": "A large dark board for writing on with chalk.",
+                "examples": [
+                    "The teacher wrote the date on the blackboard.",
+                    "Clean the blackboard after lesson."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "School_Classroom"
+    },
+    {
+        "id": "A1-NOUN-WOR-077",
+        "word": "chalk",
+        "emoji": "\ud83d\udd8d\ufe0f",
+        "form": "noun",
+        "transcription": "\u02a7\u0254\u02d0k",
+        "definitions": [
+            {
+                "text": "A soft white limestone stick for writing on boards.",
+                "examples": [
+                    "Draw a diagram with white chalk.",
+                    "The teacher picked up a piece of chalk."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "School_Classroom"
+    },
+    {
+        "id": "A1-NOUN-WOR-101",
+        "word": "binder",
+        "emoji": "\ud83d\udcc1",
+        "form": "noun",
+        "transcription": "\u02c8ba\u026and\u0259r",
+        "definitions": [
+            {
+                "text": "A hard cover with rings for holding loose papers.",
+                "examples": [
+                    "Keep your class notes in a ring binder.",
+                    "Organize subjects in separate binders."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "School_Classroom"
+    },
+    {
+        "id": "A1-NOUN-WOR-102",
+        "word": "clip",
+        "emoji": "\ud83d\udcce",
+        "form": "noun",
+        "transcription": "kl\u026ap",
+        "definitions": [
+            {
+                "text": "A small fastener holding sheets of paper together.",
+                "examples": [
+                    "Attach papers together with a paper clip.",
+                    "A binder clip keeps notes tidy."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "School_Classroom"
+    },
+    {
+        "id": "A1-NOUN-WOR-103",
+        "word": "folder",
+        "emoji": "\ud83d\udcc1",
+        "form": "noun",
+        "transcription": "\u02c8fo\u028ald\u0259r",
+        "definitions": [
+            {
+                "text": "A folding cover or holder for loose papers.",
+                "examples": [
+                    "File worksheets in a plastic folder.",
+                    "A yellow folder held the report."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "School_Classroom"
+    },
+    {
+        "id": "A1-NOUN-WOR-104",
+        "word": "highlighter",
+        "emoji": "\ud83d\udd8d\ufe0f",
+        "form": "noun",
+        "transcription": "\u02c8ha\u026a\u02ccla\u026at\u0259r",
+        "definitions": [
+            {
+                "text": "A bright felt-tip pen used to emphasize text.",
+                "examples": [
+                    "Highlight key vocabulary with a yellow highlighter.",
+                    "She marked main points with a pink highlighter."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "School_Classroom"
+    },
+    {
+        "id": "A1-NOUN-WOR-105",
+        "word": "marker",
+        "emoji": "\ud83d\udd8a\ufe0f",
+        "form": "noun",
+        "transcription": "\u02c8m\u0251\u02d0rk\u0259r",
+        "definitions": [
+            {
+                "text": "A felt-tip pen used for writing or drawing.",
+                "examples": [
+                    "Write on the whiteboard with a dry-erase marker.",
+                    "Pack colorful markers in your pencil case."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "School_Classroom"
+    },
+    {
+        "id": "A1-NOUN-WOR-106",
+        "word": "sharpener",
+        "emoji": "\u270f\ufe0f",
+        "form": "noun",
+        "transcription": "\u02c8\u0283\u0251\u02d0rp\u0259n\u0259r",
+        "definitions": [
+            {
+                "text": "A mechanical device for sharpening pencils.",
+                "examples": [
+                    "Sharpen your dull pencil with a sharpener.",
+                    "Keep a pencil sharpener in your desk."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "School_Classroom"
+    },
+    {
+        "id": "A1-NOUN-WOR-107",
+        "word": "agenda",
+        "emoji": "\ud83d\udccb",
+        "form": "noun",
+        "transcription": "\u0259\u02c8\u02a4\u025bnd\u0259",
+        "definitions": [
+            {
+                "text": "A list of items to be discussed at a formal meeting.",
+                "examples": [
+                    "Review meeting agenda beforehand.",
+                    "Place staff training on the agenda."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "School_Classroom"
+    },
+    {
+        "id": "A1-NOUN-WOR-108",
+        "word": "assignment",
+        "emoji": "\ud83d\udcdd",
+        "form": "noun",
+        "transcription": "\u0259\u02c8sa\u026anm\u0259nt",
+        "definitions": [
+            {
+                "text": "A piece of work assigned to a student or employee.",
+                "examples": [
+                    "Submit your writing assignment by Friday.",
+                    "The teacher assigned a math assignment."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "School_Classroom"
+    },
+    {
+        "id": "A1-NOUN-WOR-109",
+        "word": "briefing",
+        "emoji": "\ud83d\udde3\ufe0f",
+        "form": "noun",
+        "transcription": "\u02c8bri\u02d0f\u026a\u014b",
+        "definitions": [
+            {
+                "text": "A meeting for giving information or instructions.",
+                "examples": [
+                    "Attend morning staff briefing.",
+                    "The manager gave a quick safety briefing."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "School_Classroom"
+    },
+    {
+        "id": "A1-NOUN-WOR-110",
+        "word": "bulletin",
+        "emoji": "\ud83d\udcf0",
+        "form": "noun",
+        "transcription": "\u02c8b\u028al\u0259t\u0259n",
+        "definitions": [
+            {
+                "text": "A brief public notice or news report.",
+                "examples": [
+                    "Read school news bulletin on the board.",
+                    "A weather bulletin warned of rain."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "School_Classroom"
+    },
+    {
+        "id": "A1-NOUN-WOR-111",
+        "word": "checklist",
+        "emoji": "\u2705",
+        "form": "noun",
+        "transcription": "\u02c8\u02a7\u025bk\u02ccl\u026ast",
+        "definitions": [
+            {
+                "text": "A list of items to be checked or completed.",
+                "examples": [
+                    "Tick items off your packing checklist.",
+                    "Use a daily checklist to organize tasks."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "School_Classroom"
+    },
+    {
+        "id": "A1-NOUN-WOR-112",
+        "word": "curriculum",
+        "emoji": "\ud83d\udcda",
+        "form": "noun",
+        "transcription": "k\u0259\u02c8r\u026akj\u0259l\u0259m",
+        "definitions": [
+            {
+                "text": "The subjects comprising a course of study.",
+                "examples": [
+                    "The school curriculum covers science and arts.",
+                    "Teachers follow national curriculum guidelines."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "School_Classroom"
+    },
+    {
+        "id": "A1-NOUN-WOR-113",
+        "word": "deadline",
+        "emoji": "\u23f0",
+        "form": "noun",
+        "transcription": "\u02c8d\u025bd\u02ccla\u026an",
+        "definitions": [
+            {
+                "text": "The latest time or date by which something should be completed.",
+                "examples": [
+                    "Meet project submission deadline.",
+                    "The essay deadline is Friday noon."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "School_Classroom"
+    },
+    {
+        "id": "A1-NOUN-WOR-114",
+        "word": "diagram",
+        "emoji": "\ud83d\udcca",
+        "form": "noun",
+        "transcription": "\u02c8da\u026a\u0259\u02cc\u0261r\u00e6m",
+        "definitions": [
+            {
+                "text": "A simplified drawing showing structure or working.",
+                "examples": [
+                    "Draw a science diagram on board.",
+                    "The instruction booklet included clear diagrams."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "School_Classroom"
+    },
+    {
+        "id": "A1-NOUN-WOR-115",
+        "word": "guideline",
+        "emoji": "\ud83d\udcdc",
+        "form": "noun",
+        "transcription": "\u02c8\u0261a\u026ad\u02ccla\u026an",
+        "definitions": [
+            {
+                "text": "A general rule, principle, or piece of advice.",
+                "examples": [
+                    "Follow safety guidelines carefully.",
+                    "Guidelines help structure writing assignments."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "School_Classroom"
+    },
+    {
+        "id": "A1-NOUN-WOR-116",
+        "word": "handout",
+        "emoji": "\ud83d\udcc4",
+        "form": "noun",
+        "transcription": "\u02c8h\u00e6nd\u02cca\u028at",
+        "definitions": [
+            {
+                "text": "A document distributed to pupils or meeting attendees.",
+                "examples": [
+                    "The teacher passed out class handouts.",
+                    "Study summary notes on the handout."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "School_Classroom"
+    },
+    {
+        "id": "A1-NOUN-WOR-117",
+        "word": "lecture",
+        "emoji": "\ud83d\udde3\ufe0f",
+        "form": "noun",
+        "transcription": "\u02c8l\u025bk\u02a7\u0259r",
+        "definitions": [
+            {
+                "text": "An educational talk delivered to an audience.",
+                "examples": [
+                    "Students attended history lecture.",
+                    "The professor delivered a clear lecture."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "School_Classroom"
+    },
+    {
+        "id": "A1-NOUN-WOR-118",
+        "word": "module",
+        "emoji": "\ud83d\udce6",
+        "form": "noun",
+        "transcription": "\u02c8m\u0251\u02d0\u02a4u\u02d0l",
+        "definitions": [
+            {
+                "text": "Each of a set of standardized units or sections of study.",
+                "examples": [
+                    "Complete grammar module one first.",
+                    "The training course consists of four modules."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "School_Classroom"
+    },
+    {
+        "id": "A1-NOUN-WOR-119",
+        "word": "noticeboard",
+        "emoji": "\ud83d\udccc",
+        "form": "noun",
+        "transcription": "\u02c8no\u028at\u0259s\u02ccb\u0254\u02d0rd",
+        "definitions": [
+            {
+                "text": "A board on which notices are pinned.",
+                "examples": [
+                    "Check noticeboard for exam dates.",
+                    "Post announcements on the community noticeboard."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "School_Classroom"
+    },
+    {
+        "id": "A1-NOUN-WOR-120",
+        "word": "period",
+        "emoji": "\u23f1\ufe0f",
+        "form": "noun",
+        "transcription": "\u02c8p\u026ari\u0259d",
+        "definitions": [
+            {
+                "text": "A length or portion of time, especially a lesson duration.",
+                "examples": [
+                    "First period starts at eight thirty.",
+                    "We have history during third period."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "School_Classroom"
+    },
+    {
+        "id": "A1-NOUN-WOR-121",
+        "word": "presentation",
+        "emoji": "\ud83d\udcca",
+        "form": "noun",
+        "transcription": "\u02ccpr\u025bz\u0259n\u02c8te\u026a\u0283\u0259n",
+        "definitions": [
+            {
+                "text": "A speech or talk in which a new product or idea is shown.",
+                "examples": [
+                    "Give a ten-minute presentation.",
+                    "The slide presentation was informative."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "School_Classroom"
+    },
+    {
+        "id": "A1-NOUN-WOR-122",
+        "word": "quiz",
+        "emoji": "\u2753",
+        "form": "noun",
+        "transcription": "kw\u026az",
+        "definitions": [
+            {
+                "text": "A short test of knowledge.",
+                "examples": [
+                    "Take a weekly vocabulary quiz.",
+                    "The teacher gave a quick pop quiz."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "School_Classroom"
+    },
+    {
+        "id": "A1-NOUN-WOR-123",
+        "word": "schedule",
+        "emoji": "\ud83d\udcc5",
+        "form": "noun",
+        "transcription": "\u02c8sk\u025b\u02a4u\u02d0l",
+        "definitions": [
+            {
+                "text": "A plan for carrying out a process or procedure.",
+                "examples": [
+                    "Check your class schedule.",
+                    "Stick to your daily work schedule."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "School_Classroom"
+    },
+    {
+        "id": "A1-NOUN-WOR-124",
+        "word": "semester",
+        "emoji": "\ud83d\uddd3\ufe0f",
+        "form": "noun",
+        "transcription": "s\u0259\u02c8m\u025bst\u0259r",
+        "definitions": [
+            {
+                "text": "A half-year term in a school or university.",
+                "examples": [
+                    "Spring semester begins in January.",
+                    "Final exams occur at semester end."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "School_Classroom"
+    },
+    {
+        "id": "A1-NOUN-WOR-125",
+        "word": "syllabus",
+        "emoji": "\ud83d\udcc4",
+        "form": "noun",
+        "transcription": "\u02c8s\u026al\u0259b\u0259s",
+        "definitions": [
+            {
+                "text": "An outline of subjects in a course of study.",
+                "examples": [
+                    "Read course syllabus carefully.",
+                    "The syllabus lists required textbooks."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "School_Classroom"
+    },
+    {
+        "id": "A1-NOUN-WOR-126",
+        "word": "timetable",
+        "emoji": "\ud83d\udcc5",
+        "form": "noun",
+        "transcription": "\u02c8ta\u026am\u02ccte\u026ab\u0259l",
+        "definitions": [
+            {
+                "text": "A chart showing arrival and departure times or lesson hours.",
+                "examples": [
+                    "Consult railway timetable for train times.",
+                    "Check your school timetable."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "School_Classroom"
+    },
+    {
+        "id": "A1-NOUN-WOR-127",
+        "word": "worksheet",
+        "emoji": "\ud83d\udcdd",
+        "form": "noun",
+        "transcription": "\u02c8w\u025c\u02d0rk\u02cc\u0283i\u02d0t",
+        "definitions": [
+            {
+                "text": "A paper listing tasks or questions for students.",
+                "examples": [
+                    "Complete vocabulary worksheet in pairs.",
+                    "The teacher collected completed worksheets."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Nouns",
+        "sub_subcategory": "School_Classroom"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

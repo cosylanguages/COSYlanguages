@@ -34,41 +34,6 @@
         "sub_subcategory": "Living_Furniture"
     },
     {
-        "id": "A1-ADJ-HOM-002",
-        "word": "comfortable",
-        "emoji": "\ud83d\udecb\ufe0f",
-        "form": "adjective",
-        "subtext": "a comfortable chair / feel comfortable",
-        "synonyms": [
-            "relaxed",
-            "cozy"
-        ],
-        "definitions": [
-            {
-                "text": "Making you feel physically relaxed, without any pain or without being too hot, cold, etc.",
-                "examples": [
-                    "This chair is very comfortable."
-                ]
-            }
-        ],
-        "comparative": "more comfortable",
-        "superlative": "the most comfortable",
-        "transcription": "\u02c8k\u0259mf\u0259rt\u0259b\u0259l",
-        "lang": "en",
-        "level": "starter",
-        "theme": "furniture",
-        "sub_theme": null,
-        "antonyms": [
-            "uncomfortable"
-        ],
-        "legacy_id": "A1-HOME-18",
-        "level_code": "A1",
-        "domain": "HOME",
-        "subcategory": "Furniture",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Living_Furniture"
-    },
-    {
         "id": "A1-ADJ-HOM-003",
         "word": "uncomfortable",
         "emoji": "\ud83e\ude91",
@@ -99,43 +64,12 @@
         "subcategory": "Furniture",
         "pos_section": "Adjectives",
         "sub_subcategory": "Living_Furniture"
-    },
-    {
-        "id": "A1-ADJ-HOM-004",
-        "word": "uncomfortable",
-        "emoji": "\ud83e\ude91",
-        "form": "adjective",
-        "subtext": "feel uncomfortable / uncomfortable chair",
-        "synonyms": [
-            "awkward",
-            "painful"
-        ],
-        "definitions": [
-            {
-                "text": "Not comfortable; causing physical pain or feeling awkward.",
-                "examples": [
-                    "This chair is very uncomfortable."
-                ]
-            }
-        ],
-        "comparative": "more uncomfortable",
-        "superlative": "the most uncomfortable",
-        "transcription": "\u0259n\u02c8k\u0259mf\u0259rt\u0259b\u0259l",
-        "lang": "en",
-        "level": "starter",
-        "theme": "furniture",
-        "sub_theme": null,
-        "antonyms": [
-            "comfortable"
-        ],
-        "legacy_id": "A1-HOME-71",
-        "level_code": "A1",
-        "domain": "HOME",
-        "subcategory": "Furniture",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Living_Furniture"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

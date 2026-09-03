@@ -62,8 +62,58 @@
         "subcategory": "Animals",
         "pos_section": "Nouns",
         "sub_subcategory": "Insects_Bugs"
+    },
+    {
+        "id": "A1-NOUN-NAT-045",
+        "word": "fly",
+        "emoji": "\ud83e\udeb0",
+        "form": "noun",
+        "transcription": "fla\u026a",
+        "definitions": [
+            {
+                "text": "A two-winged insect.",
+                "examples": [
+                    "Close the window to keep out flies.",
+                    "A fly buzzed around the room."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "NATURE",
+        "subcategory": "Animals",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Insects_Bugs"
+    },
+    {
+        "id": "A1-NOUN-NAT-046",
+        "word": "mosquito",
+        "emoji": "\ud83e\udd9f",
+        "form": "noun",
+        "transcription": "m\u0259\u02c8ski\u02d0to\u028a",
+        "definitions": [
+            {
+                "text": "A small biting fly that transmits diseases.",
+                "examples": [
+                    "Apply bug spray to prevent mosquito bites.",
+                    "Mosquitoes buzz near water."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "NATURE",
+        "subcategory": "Animals",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Insects_Bugs"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

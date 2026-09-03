@@ -665,8 +665,633 @@
         "subcategory": "Body",
         "pos_section": "Nouns",
         "sub_subcategory": "Body_Parts"
+    },
+    {
+        "id": "A1-NOUN-SEL-119",
+        "word": "ankle",
+        "emoji": "\ud83e\uddb6",
+        "form": "noun",
+        "transcription": "\u02c8\u00e6\u014bk\u0259l",
+        "definitions": [
+            {
+                "text": "The joint connecting the foot with the leg.",
+                "examples": [
+                    "He hurt his ankle playing football.",
+                    "She twisted her ankle on the stairs."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Body",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Body_Parts"
+    },
+    {
+        "id": "A1-NOUN-SEL-120",
+        "word": "blood",
+        "emoji": "\ud83e\ude78",
+        "form": "noun",
+        "transcription": "bl\u028cd",
+        "definitions": [
+            {
+                "text": "The red liquid that circulates in the arteries and veins.",
+                "examples": [
+                    "Blood delivers oxygen to the body.",
+                    "The nurse took a blood test."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Body",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Body_Parts"
+    },
+    {
+        "id": "A1-NOUN-SEL-121",
+        "word": "bone",
+        "emoji": "\ud83e\uddb4",
+        "form": "noun",
+        "transcription": "bo\u028an",
+        "definitions": [
+            {
+                "text": "One of the hard pieces that make up the skeleton.",
+                "examples": [
+                    "He broke a bone in his arm.",
+                    "Milk helps build strong bones."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Body",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Body_Parts"
+    },
+    {
+        "id": "A1-NOUN-SEL-122",
+        "word": "brain",
+        "emoji": "\ud83e\udde0",
+        "form": "noun",
+        "transcription": "bre\u026an",
+        "definitions": [
+            {
+                "text": "The organ inside the head that controls thought and feeling.",
+                "examples": [
+                    "The brain uses energy continuously.",
+                    "Puzzles help keep the brain active."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Body",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Body_Parts"
+    },
+    {
+        "id": "A1-NOUN-SEL-123",
+        "word": "chin",
+        "emoji": "\ud83d\udde3\ufe0f",
+        "form": "noun",
+        "transcription": "\u02a7\u026an",
+        "definitions": [
+            {
+                "text": "The bottom part of the face below the mouth.",
+                "examples": [
+                    "He rested his chin on his hand.",
+                    "She has a small dimple on her chin."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Body",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Body_Parts"
+    },
+    {
+        "id": "A1-NOUN-SEL-124",
+        "word": "elbow",
+        "emoji": "\ud83d\udcaa",
+        "form": "noun",
+        "transcription": "\u02c8\u025blbo\u028a",
+        "definitions": [
+            {
+                "text": "The joint between the upper and lower arm.",
+                "examples": [
+                    "He leaned his elbows on the table.",
+                    "She bumped her elbow on the chair."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Body",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Body_Parts"
+    },
+    {
+        "id": "A1-NOUN-SEL-125",
+        "word": "lip",
+        "emoji": "\ud83d\udc44",
+        "form": "noun",
+        "transcription": "l\u026ap",
+        "definitions": [
+            {
+                "text": "Either of the two fleshy edges of the mouth.",
+                "examples": [
+                    "She bit her lower lip nervously.",
+                    "Apply balm if your lips are dry."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Body",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Body_Parts"
+    },
+    {
+        "id": "A1-NOUN-SEL-126",
+        "word": "muscle",
+        "emoji": "\ud83d\udcaa",
+        "form": "noun",
+        "transcription": "\u02c8m\u028cs\u0259l",
+        "definitions": [
+            {
+                "text": "Tissue in the body that produces movement.",
+                "examples": [
+                    "Lifting weights builds muscle.",
+                    "His leg muscles felt sore after the run."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Body",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Body_Parts"
+    },
+    {
+        "id": "A1-NOUN-SEL-127",
+        "word": "skin",
+        "emoji": "\u2728",
+        "form": "noun",
+        "transcription": "sk\u026an",
+        "definitions": [
+            {
+                "text": "The thin layer of tissue covering the body.",
+                "examples": [
+                    "Protect your skin from the sun.",
+                    "Her skin felt soft and warm."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Body",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Body_Parts"
+    },
+    {
+        "id": "A1-NOUN-SEL-128",
+        "word": "throat",
+        "emoji": "\ud83d\udde3\ufe0f",
+        "form": "noun",
+        "transcription": "\u03b8ro\u028at",
+        "definitions": [
+            {
+                "text": "The passage at the back of the mouth.",
+                "examples": [
+                    "Drink hot tea if you have a sore throat.",
+                    "The water felt cold in my throat."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Body",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Body_Parts"
+    },
+    {
+        "id": "A1-NOUN-SEL-129",
+        "word": "thumb",
+        "emoji": "\ud83d\udc4d",
+        "form": "noun",
+        "transcription": "\u03b8\u028cm",
+        "definitions": [
+            {
+                "text": "The short thick first digit of the human hand.",
+                "examples": [
+                    "He gave a thumbs-up sign.",
+                    "She held the glass with her thumb and fingers."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Body",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Body_Parts"
+    },
+    {
+        "id": "A1-NOUN-SEL-130",
+        "word": "waist",
+        "emoji": "\ud83d\udc56",
+        "form": "noun",
+        "transcription": "we\u026ast",
+        "definitions": [
+            {
+                "text": "The part of the body between the ribs and hips.",
+                "examples": [
+                    "The belt fits comfortably around my waist.",
+                    "She tied a jacket around her waist."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Body",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Body_Parts"
+    },
+    {
+        "id": "A1-NOUN-SEL-131",
+        "word": "wrist",
+        "emoji": "\u231a",
+        "form": "noun",
+        "transcription": "r\u026ast",
+        "definitions": [
+            {
+                "text": "The joint connecting the hand and the arm.",
+                "examples": [
+                    "He wears his watch on his left wrist.",
+                    "She twisted her wrist during tennis."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Body",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Body_Parts"
+    },
+    {
+        "id": "A1-NOUN-SEL-158",
+        "word": "beard",
+        "emoji": "\ud83e\uddd4",
+        "form": "noun",
+        "transcription": "b\u026ard",
+        "definitions": [
+            {
+                "text": "Growth of hair on the chin and cheeks.",
+                "examples": [
+                    "He grew a thick brown beard.",
+                    "Trim your beard regularly."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Body",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Body_Parts"
+    },
+    {
+        "id": "A1-NOUN-SEL-159",
+        "word": "breath",
+        "emoji": "\ud83c\udf2c\ufe0f",
+        "form": "noun",
+        "transcription": "br\u025bth",
+        "definitions": [
+            {
+                "text": "The air taken into or expelled from the lungs.",
+                "examples": [
+                    "Take a deep breath and relax.",
+                    "His breath was visible in cold air."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Body",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Body_Parts"
+    },
+    {
+        "id": "A1-NOUN-SEL-160",
+        "word": "chest",
+        "emoji": "\ud83e\udec1",
+        "form": "noun",
+        "transcription": "\u02a7\u025bst",
+        "definitions": [
+            {
+                "text": "The front surface of a person's body between neck and abdomen.",
+                "examples": [
+                    "He felt a slight pain in his chest.",
+                    "Cross your arms over your chest."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Body",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Body_Parts"
+    },
+    {
+        "id": "A1-NOUN-SEL-161",
+        "word": "flesh",
+        "emoji": "\ud83e\udd69",
+        "form": "noun",
+        "transcription": "fl\u025b\u0283",
+        "definitions": [
+            {
+                "text": "The soft substance consisting of muscle and fat.",
+                "examples": [
+                    "Apples have crisp white flesh.",
+                    "The thorn cut into his flesh."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Body",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Body_Parts"
+    },
+    {
+        "id": "A1-NOUN-SEL-162",
+        "word": "heel",
+        "emoji": "\ud83e\uddb6",
+        "form": "noun",
+        "transcription": "hi\u02d0l",
+        "definitions": [
+            {
+                "text": "The back part of the human foot below the ankle.",
+                "examples": [
+                    "Her shoes rubbed against her heel.",
+                    "He stood on his heels."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Body",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Body_Parts"
+    },
+    {
+        "id": "A1-NOUN-SEL-163",
+        "word": "jaw",
+        "emoji": "\ud83d\udde3\ufe0f",
+        "form": "noun",
+        "transcription": "\u02a4\u0254\u02d0",
+        "definitions": [
+            {
+                "text": "Each of the two bony structures framing the mouth.",
+                "examples": [
+                    "He clenched his jaw nervously.",
+                    "His jaw felt sore after the dentist."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Body",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Body_Parts"
+    },
+    {
+        "id": "A1-NOUN-SEL-164",
+        "word": "lung",
+        "emoji": "\ud83e\udec1",
+        "form": "noun",
+        "transcription": "l\u028c\u014b",
+        "definitions": [
+            {
+                "text": "Either of the pair of organs situated within the ribcage.",
+                "examples": [
+                    "Deep breathing expands your lungs.",
+                    "Smoking damages lung tissue."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Body",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Body_Parts"
+    },
+    {
+        "id": "A1-NOUN-SEL-165",
+        "word": "mustache",
+        "emoji": "\ud83d\udc68",
+        "form": "noun",
+        "transcription": "\u02c8m\u028cs\u02cct\u00e6\u0283",
+        "definitions": [
+            {
+                "text": "Hair grown on the upper lip.",
+                "examples": [
+                    "He shaved off his mustache.",
+                    "His grandfather had a handlebar mustache."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Body",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Body_Parts"
+    },
+    {
+        "id": "A1-NOUN-SEL-166",
+        "word": "nerve",
+        "emoji": "\ud83e\udde0",
+        "form": "noun",
+        "transcription": "n\u025c\u02d0rv",
+        "definitions": [
+            {
+                "text": "Fibers that transmit impulses of sensation in the body.",
+                "examples": [
+                    "Optic nerves transmit visual information.",
+                    "A pinched nerve caused pain."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Body",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Body_Parts"
+    },
+    {
+        "id": "A1-NOUN-SEL-167",
+        "word": "palm",
+        "emoji": "\u270b",
+        "form": "noun",
+        "transcription": "p\u0251\u02d0m",
+        "definitions": [
+            {
+                "text": "The inner surface of the hand.",
+                "examples": [
+                    "Hold the coin in your palm.",
+                    "Her palms felt sweaty before the test."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Body",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Body_Parts"
+    },
+    {
+        "id": "A1-NOUN-SEL-168",
+        "word": "rib",
+        "emoji": "\ud83e\uddb4",
+        "form": "noun",
+        "transcription": "r\u026ab",
+        "definitions": [
+            {
+                "text": "One of the curved bones attached to the spine.",
+                "examples": [
+                    "He cracked a rib playing rugby.",
+                    "Protect your ribs when boxing."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Body",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Body_Parts"
+    },
+    {
+        "id": "A1-NOUN-SEL-169",
+        "word": "skull",
+        "emoji": "\ud83d\udc80",
+        "form": "noun",
+        "transcription": "sk\u028cl",
+        "definitions": [
+            {
+                "text": "The bone framework enclosing the brain.",
+                "examples": [
+                    "A helmet protects your skull.",
+                    "The museum displayed an ancient skull."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Body",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Body_Parts"
+    },
+    {
+        "id": "A1-NOUN-SEL-170",
+        "word": "spine",
+        "emoji": "\ud83e\uddb4",
+        "form": "noun",
+        "transcription": "spa\u026an",
+        "definitions": [
+            {
+                "text": "The series of vertebrae extending from skull to pelvis.",
+                "examples": [
+                    "Sit up straight to support your spine.",
+                    "The spine protects the spinal cord."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Body",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Body_Parts"
+    },
+    {
+        "id": "A1-NOUN-SEL-171",
+        "word": "thigh",
+        "emoji": "\ud83e\uddb5",
+        "form": "noun",
+        "transcription": "\u03b8a\u026a",
+        "definitions": [
+            {
+                "text": "The part of the human leg between hip and knee.",
+                "examples": [
+                    "His thigh muscle felt strained.",
+                    "She rested her hands on her thighs."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "SELF",
+        "subcategory": "Body",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Body_Parts"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

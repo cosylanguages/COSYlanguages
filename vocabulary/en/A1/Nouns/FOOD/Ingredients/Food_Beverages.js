@@ -2193,8 +2193,1668 @@
         "subcategory": "Ingredients",
         "pos_section": "Nouns",
         "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-082",
+        "word": "candy",
+        "emoji": "\ud83c\udf6c",
+        "form": "noun",
+        "transcription": "\u02c8k\u00e6ndi",
+        "definitions": [
+            {
+                "text": "Sweet food made of sugar.",
+                "examples": [
+                    "Children love buying candy.",
+                    "Do not eat too much candy."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-083",
+        "word": "cream",
+        "emoji": "\ud83e\udd5b",
+        "form": "noun",
+        "transcription": "kri\u02d0m",
+        "definitions": [
+            {
+                "text": "The thick white fat taken from milk.",
+                "examples": [
+                    "Add cream to your coffee.",
+                    "Strawberries taste great with fresh cream."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-084",
+        "word": "noodle",
+        "emoji": "\ud83c\udf5c",
+        "form": "noun",
+        "transcription": "\u02c8nu\u02d0d\u0259l",
+        "definitions": [
+            {
+                "text": "A strip or ring of pasta dough cooked in soup.",
+                "examples": [
+                    "Cook egg noodles in chicken broth.",
+                    "She loves eating hot noodle soup."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-085",
+        "word": "peach",
+        "emoji": "\ud83c\udf51",
+        "form": "noun",
+        "transcription": "pi\u02d0\u02a7",
+        "definitions": [
+            {
+                "text": "A round fruit with juicy yellow flesh and downy skin.",
+                "examples": [
+                    "The ripe peach was sweet and soft.",
+                    "We picked peaches in the orchard."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-088",
+        "word": "almond",
+        "emoji": "\ud83e\udd5c",
+        "form": "noun",
+        "transcription": "\u02c8\u0251\u02d0m\u0259nd",
+        "definitions": [
+            {
+                "text": "An edible oval nut with a wooden shell.",
+                "examples": [
+                    "Eat raw almonds as a healthy snack.",
+                    "She added flaked almonds to the cake."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-089",
+        "word": "bean",
+        "emoji": "\ud83e\uded8",
+        "form": "noun",
+        "transcription": "bi\u02d0n",
+        "definitions": [
+            {
+                "text": "An edible seed produced in pods.",
+                "examples": [
+                    "Bake kidney beans in tomato sauce.",
+                    "Green beans taste fresh steamed."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-090",
+        "word": "berry",
+        "emoji": "\ud83e\uded0",
+        "form": "noun",
+        "transcription": "\u02c8b\u025bri",
+        "definitions": [
+            {
+                "text": "A small juicy pulpy fruit without a stone.",
+                "examples": [
+                    "Pick fresh wild berries in summer.",
+                    "Blueberries and raspberries are berries."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-091",
+        "word": "cabbage",
+        "emoji": "\ud83e\udd6c",
+        "form": "noun",
+        "transcription": "\u02c8k\u00e6b\u0259\u02a4",
+        "definitions": [
+            {
+                "text": "A cultivated plant with a leafy green or purple head.",
+                "examples": [
+                    "Chop cabbage finely for coleslaw.",
+                    "Boil green cabbage in soup."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-092",
+        "word": "cherry",
+        "emoji": "\ud83c\udf52",
+        "form": "noun",
+        "transcription": "\u02c8\u02a7\u025bri",
+        "definitions": [
+            {
+                "text": "A small round soft red fruit with a stone.",
+                "examples": [
+                    "Sweet dark cherries grow on our tree.",
+                    "She topped ice cream with a cherry."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-093",
+        "word": "cinnamon",
+        "emoji": "\ud83e\uded9",
+        "form": "noun",
+        "transcription": "\u02c8s\u026an\u0259m\u0259n",
+        "definitions": [
+            {
+                "text": "An aromatic spice made from the bark of a tree.",
+                "examples": [
+                    "Sprinkle cinnamon on warm oatmeal.",
+                    "Cinnamon rolls smell delicious."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-094",
+        "word": "coconut",
+        "emoji": "\ud83e\udd65",
+        "form": "noun",
+        "transcription": "\u02c8ko\u028ak\u0259\u02ccn\u028ct",
+        "definitions": [
+            {
+                "text": "A large oval brown nut with white edible flesh.",
+                "examples": [
+                    "Drink fresh coconut water.",
+                    "Shredded coconut tops the cake."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-095",
+        "word": "flour",
+        "emoji": "\ud83c\udf3e",
+        "form": "noun",
+        "transcription": "\u02c8fla\u028a\u0259r",
+        "definitions": [
+            {
+                "text": "A powder obtained by grinding grain, used to make bread.",
+                "examples": [
+                    "Sift wheat flour before baking.",
+                    "Mix flour and water into dough."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-096",
+        "word": "herb",
+        "emoji": "\ud83c\udf3f",
+        "form": "noun",
+        "transcription": "\u025c\u02d0rb",
+        "definitions": [
+            {
+                "text": "Any plant with leaves used for flavoring food.",
+                "examples": [
+                    "Add fresh green herbs to the sauce.",
+                    "Basil and oregano are common cooking herbs."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-097",
+        "word": "lemonade",
+        "emoji": "\ud83c\udf4b",
+        "form": "noun",
+        "transcription": "\u02ccl\u025bm\u0259\u02c8ne\u026ad",
+        "definitions": [
+            {
+                "text": "A drink made from lemon juice, sugar, and water.",
+                "examples": [
+                    "Drink cold lemonade on a hot day.",
+                    "She served pitchers of homemade lemonade."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-098",
+        "word": "lime",
+        "emoji": "\ud83d\udfe2",
+        "form": "noun",
+        "transcription": "la\u026am",
+        "definitions": [
+            {
+                "text": "A round green citrus fruit with sour juice.",
+                "examples": [
+                    "Squeeze lime wedge into cold water.",
+                    "Key lime pie tastes tart."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-099",
+        "word": "mustard",
+        "emoji": "\ud83e\uded9",
+        "form": "noun",
+        "transcription": "\u02c8m\u028cst\u0259rd",
+        "definitions": [
+            {
+                "text": "A pungent yellow condiment made from seeds.",
+                "examples": [
+                    "Spread yellow mustard on your hot dog.",
+                    "Dijon mustard adds flavor to dressing."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-100",
+        "word": "nut",
+        "emoji": "\ud83e\udd5c",
+        "form": "noun",
+        "transcription": "n\u028ct",
+        "definitions": [
+            {
+                "text": "A fruit consisting of a hard shell around an edible kernel.",
+                "examples": [
+                    "Walnuts and cashews are healthy nuts.",
+                    "A squirrel stored nuts for winter."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-101",
+        "word": "oatmeal",
+        "emoji": "\ud83e\udd63",
+        "form": "noun",
+        "transcription": "\u02c8o\u028at\u02ccmi\u02d0l",
+        "definitions": [
+            {
+                "text": "Meal made from ground oats, cooked as porridge.",
+                "examples": [
+                    "Eat a warm bowl of oatmeal.",
+                    "Add raisins to your morning oatmeal."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-102",
+        "word": "olive",
+        "emoji": "\ud83e\uded2",
+        "form": "noun",
+        "transcription": "\u02c8\u0251\u02d0l\u0259v",
+        "definitions": [
+            {
+                "text": "A small oval fruit eaten raw or pressed for oil.",
+                "examples": [
+                    "Add black olives to the pizza.",
+                    "Olive oil is healthy for cooking."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-103",
+        "word": "peanut",
+        "emoji": "\ud83e\udd5c",
+        "form": "noun",
+        "transcription": "\u02c8pi\u02d0\u02ccn\u028ct",
+        "definitions": [
+            {
+                "text": "The edible seed of a legume plant.",
+                "examples": [
+                    "Spread peanut butter on toast.",
+                    "Eat roasted salted peanuts."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-104",
+        "word": "pie",
+        "emoji": "\ud83e\udd67",
+        "form": "noun",
+        "transcription": "pa\u026a",
+        "definitions": [
+            {
+                "text": "A baked dish of fruit, meat, or vegetables with pastry.",
+                "examples": [
+                    "Bake an apple pie for dessert.",
+                    "She served a warm pumpkin pie."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-105",
+        "word": "plum",
+        "emoji": "\ud83e\uded0",
+        "form": "noun",
+        "transcription": "pl\u028cm",
+        "definitions": [
+            {
+                "text": "A sweet juicy fruit with reddish-purple skin.",
+                "examples": [
+                    "Pick ripe purple plums.",
+                    "Plum jam spreads nicely on toast."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-106",
+        "word": "raisin",
+        "emoji": "\ud83c\udf47",
+        "form": "noun",
+        "transcription": "\u02c8re\u026az\u0259n",
+        "definitions": [
+            {
+                "text": "A dried sweet grape.",
+                "examples": [
+                    "Add sweet raisins to oat cookies.",
+                    "Pack a small box of raisins."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-107",
+        "word": "salmon",
+        "emoji": "\ud83d\udc1f",
+        "form": "noun",
+        "transcription": "\u02c8s\u00e6m\u0259n",
+        "definitions": [
+            {
+                "text": "A large edible pink-fleshed fish.",
+                "examples": [
+                    "Grill fresh salmon fillet.",
+                    "Smoked salmon is popular on bagels."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-108",
+        "word": "seafood",
+        "emoji": "\ud83e\udd90",
+        "form": "noun",
+        "transcription": "\u02c8si\u02d0\u02ccfu\u02d0d",
+        "definitions": [
+            {
+                "text": "Fish and shellfish eaten as food.",
+                "examples": [
+                    "The coastal diner serves fresh seafood.",
+                    "Prawns and crabs are popular seafood."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-109",
+        "word": "spice",
+        "emoji": "\ud83c\udf36\ufe0f",
+        "form": "noun",
+        "transcription": "spa\u026as",
+        "definitions": [
+            {
+                "text": "An aromatic vegetable substance used to flavor food.",
+                "examples": [
+                    "Cinnamon and pepper are cooking spices.",
+                    "Add spice to flavor the stew."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-110",
+        "word": "toast",
+        "emoji": "\ud83c\udf5e",
+        "form": "noun",
+        "transcription": "to\u028ast",
+        "definitions": [
+            {
+                "text": "Sliced bread browned by heat.",
+                "examples": [
+                    "Butter two slices of warm toast.",
+                    "Eat toast with jam for breakfast."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-111",
+        "word": "tuna",
+        "emoji": "\ud83d\udc1f",
+        "form": "noun",
+        "transcription": "\u02c8tu\u02d0n\u0259",
+        "definitions": [
+            {
+                "text": "A large edible ocean fish.",
+                "examples": [
+                    "Make a tuna salad sandwich.",
+                    "Tuna steak is delicious grilled."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-112",
+        "word": "turkey",
+        "emoji": "\ud83e\udd83",
+        "form": "noun",
+        "transcription": "\u02c8t\u025c\u02d0rki",
+        "definitions": [
+            {
+                "text": "A large bird raised for its meat.",
+                "examples": [
+                    "Roast turkey is served at Thanksgiving.",
+                    "He ordered a turkey slice sandwich."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-113",
+        "word": "vanilla",
+        "emoji": "\ud83c\udf66",
+        "form": "noun",
+        "transcription": "v\u0259\u02c8n\u026al\u0259",
+        "definitions": [
+            {
+                "text": "A substance used as a sweet flavoring.",
+                "examples": [
+                    "Vanilla ice cream is a classic dessert.",
+                    "Add vanilla extract to the cake batter."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-114",
+        "word": "vinegar",
+        "emoji": "\ud83e\uded9",
+        "form": "noun",
+        "transcription": "\u02c8v\u026an\u0259\u0261\u0259r",
+        "definitions": [
+            {
+                "text": "A sour liquid used for dressing and seasoning food.",
+                "examples": [
+                    "Mix oil and vinegar for salad dressing.",
+                    "Pickles are preserved in vinegar."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-115",
+        "word": "avocado",
+        "emoji": "\ud83e\udd51",
+        "form": "noun",
+        "transcription": "\u02cc\u00e6v\u0259\u02c8k\u0251\u02d0do\u028a",
+        "definitions": [
+            {
+                "text": "A pear-shaped fruit with rough green skin and oily edible flesh.",
+                "examples": [
+                    "Slice fresh avocado into the salad.",
+                    "Guacamole is made from ripe avocado."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-116",
+        "word": "cauliflower",
+        "emoji": "\ud83e\udd6c",
+        "form": "noun",
+        "transcription": "\u02c8k\u0251\u02d0l\u0259\u02ccfla\u028a\u0259r",
+        "definitions": [
+            {
+                "text": "A cultivated plant with a large compact white flower head.",
+                "examples": [
+                    "Roast cauliflower with olive oil and spices.",
+                    "Cauliflower soup tastes creamy."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-117",
+        "word": "celery",
+        "emoji": "\ud83e\udd6c",
+        "form": "noun",
+        "transcription": "\u02c8s\u025bl\u0259ri",
+        "definitions": [
+            {
+                "text": "A cultivated plant with crisp juicy stalks.",
+                "examples": [
+                    "Dip celery stalks in peanut butter.",
+                    "Chop celery for the vegetable soup."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-118",
+        "word": "ginger",
+        "emoji": "\ud83e\udeda",
+        "form": "noun",
+        "transcription": "\u02c8\u02a4\u026an\u02a4\u0259r",
+        "definitions": [
+            {
+                "text": "A hot fragrant spice made from the rhizome of a plant.",
+                "examples": [
+                    "Add fresh ginger to hot tea.",
+                    "Ginger gives curry a spicy kick."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-119",
+        "word": "grapefruit",
+        "emoji": "\ud83c\udf4a",
+        "form": "noun",
+        "transcription": "\u02c8\u0261re\u026ap\u02ccfru\u02d0t",
+        "definitions": [
+            {
+                "text": "A large yellow or pink citrus fruit with sour juice.",
+                "examples": [
+                    "Eat half a pink grapefruit for breakfast.",
+                    "Grapefruit juice is tangy."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-120",
+        "word": "mango",
+        "emoji": "\ud83e\udd6d",
+        "form": "noun",
+        "transcription": "\u02c8m\u00e6\u014b\u0261o\u028a",
+        "definitions": [
+            {
+                "text": "A fleshy oval tropical fruit with yellow-orange flesh.",
+                "examples": [
+                    "Juicy ripe mangoes are sweet.",
+                    "Blend mango with yogurt into a smoothie."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-121",
+        "word": "melon",
+        "emoji": "\ud83c\udf48",
+        "form": "noun",
+        "transcription": "\u02c8m\u025bl\u0259n",
+        "definitions": [
+            {
+                "text": "A large round sweet fruit with smooth or ribbed skin.",
+                "examples": [
+                    "Slice sweet water melon on hot days.",
+                    "Fresh melon makes a great starter."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-122",
+        "word": "spinach",
+        "emoji": "\ud83e\udd6c",
+        "form": "noun",
+        "transcription": "\u02c8sp\u026an\u0259\u02a7",
+        "definitions": [
+            {
+                "text": "An edible plant with dark green leaves.",
+                "examples": [
+                    "Saute spinach with garlic.",
+                    "Fresh spinach salad is healthy."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-123",
+        "word": "walnut",
+        "emoji": "\ud83e\udd5c",
+        "form": "noun",
+        "transcription": "\u02c8w\u0254\u02d0l\u02ccn\u028ct",
+        "definitions": [
+            {
+                "text": "An edible wrinkled nut in a hard shell.",
+                "examples": [
+                    "Chop walnuts over your morning cereal.",
+                    "Walnut cake tastes delicious."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-124",
+        "word": "almonds",
+        "emoji": "\ud83e\udd5c",
+        "form": "noun",
+        "transcription": "\u02c8\u0251\u02d0m\u0259ndz",
+        "definitions": [
+            {
+                "text": "Plural of almond nut.",
+                "examples": [
+                    "Eat fresh almonds daily.",
+                    "Toasted almonds garnish the dish."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-125",
+        "word": "beverage",
+        "emoji": "\ud83e\udd64",
+        "form": "noun",
+        "transcription": "\u02c8b\u025bv\u0259r\u026a\u02a4",
+        "definitions": [
+            {
+                "text": "A drink other than water.",
+                "examples": [
+                    "Cold beverages are served at the bar.",
+                    "Hot beverages warm you in winter."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-126",
+        "word": "broth",
+        "emoji": "\ud83e\udd63",
+        "form": "noun",
+        "transcription": "br\u0254\u02d0th",
+        "definitions": [
+            {
+                "text": "Soup consisting of meat or vegetable stock.",
+                "examples": [
+                    "Drink hot chicken broth.",
+                    "Sip warm vegetable broth."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-127",
+        "word": "cocoa",
+        "emoji": "\u2615",
+        "form": "noun",
+        "transcription": "\u02c8ko\u028ako\u028a",
+        "definitions": [
+            {
+                "text": "A powder made from roasted cacao seeds.",
+                "examples": [
+                    "Drink hot cocoa on winter evenings.",
+                    "Add cocoa powder to cake mix."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-128",
+        "word": "crisps",
+        "emoji": "\ud83e\udd54",
+        "form": "noun",
+        "transcription": "kr\u026asps",
+        "definitions": [
+            {
+                "text": "Thin potato slices fried until crisp.",
+                "examples": [
+                    "Eat a bag of salted crisps.",
+                    "British crisps come in many flavors."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-129",
+        "word": "dough",
+        "emoji": "\ud83c\udf5e",
+        "form": "noun",
+        "transcription": "do\u028a",
+        "definitions": [
+            {
+                "text": "A thick malleable mixture of flour and liquid.",
+                "examples": [
+                    "Knead bread dough on the table.",
+                    "Roll pizza dough out flat."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-130",
+        "word": "dressing",
+        "emoji": "\ud83e\udd57",
+        "form": "noun",
+        "transcription": "\u02c8dr\u025bs\u026a\u014b",
+        "definitions": [
+            {
+                "text": "A sauce for salad, typically made of oil and vinegar.",
+                "examples": [
+                    "Pour lemon dressing on the salad.",
+                    "Italian dressing adds great flavor."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-131",
+        "word": "grain",
+        "emoji": "\ud83c\udf3e",
+        "form": "noun",
+        "transcription": "\u0261re\u026an",
+        "definitions": [
+            {
+                "text": "Wheat or cultivated cereal crop used as food.",
+                "examples": [
+                    "Whole grains are nutritious.",
+                    "Farmers harvested golden grain."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-132",
+        "word": "gravy",
+        "emoji": "\ud83c\udf72",
+        "form": "noun",
+        "transcription": "\u02c8\u0261re\u026avi",
+        "definitions": [
+            {
+                "text": "A sauce made from cooked meat juices.",
+                "examples": [
+                    "Pour hot gravy over roast potatoes.",
+                    "Thicken turkey gravy with flour."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-133",
+        "word": "hazelnut",
+        "emoji": "\ud83e\udd5c",
+        "form": "noun",
+        "transcription": "\u02c8he\u026az\u0259l\u02ccn\u028ct",
+        "definitions": [
+            {
+                "text": "A round edible nut with a hard brown shell.",
+                "examples": [
+                    "Chocolate spread with hazelnut tastes rich.",
+                    "Add chopped hazelnuts to oats."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-134",
+        "word": "ketchup",
+        "emoji": "\ud83c\udf45",
+        "form": "noun",
+        "transcription": "\u02c8k\u025b\u02a7\u0259p",
+        "definitions": [
+            {
+                "text": "A smooth sauce made chiefly from tomatoes and vinegar.",
+                "examples": [
+                    "Dip fries into tomato ketchup.",
+                    "Pass the ketchup bottle, please."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-135",
+        "word": "mayonnaise",
+        "emoji": "\ud83e\udd6b",
+        "form": "noun",
+        "transcription": "\u02c8me\u026a\u0259\u02ccne\u026az",
+        "definitions": [
+            {
+                "text": "A thick creamy dressing made of egg yolks and oil.",
+                "examples": [
+                    "Spread mayonnaise on your sandwich.",
+                    "Add a spoonful of mayonnaise to tuna."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-136",
+        "word": "meatball",
+        "emoji": "\ud83e\uddc6",
+        "form": "noun",
+        "transcription": "\u02c8mi\u02d0t\u02ccb\u0254\u02d0l",
+        "definitions": [
+            {
+                "text": "A small ball of ground meat seasoned and cooked.",
+                "examples": [
+                    "Spaghetti with meatballs is popular.",
+                    "Simmer meatballs in tomato sauce."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-137",
+        "word": "muffin",
+        "emoji": "\ud83e\uddc1",
+        "form": "noun",
+        "transcription": "\u02c8m\u028cf\u0259n",
+        "definitions": [
+            {
+                "text": "A small domed cake eaten for breakfast or afternoon tea.",
+                "examples": [
+                    "Eat a blueberry muffin with coffee.",
+                    "Fresh baked muffins smell delicious."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-138",
+        "word": "pancake",
+        "emoji": "\ud83e\udd5e",
+        "form": "noun",
+        "transcription": "\u02c8p\u00e6n\u02ccke\u026ak",
+        "definitions": [
+            {
+                "text": "A thin flat cake of batter fried on both sides.",
+                "examples": [
+                    "Serve hot pancakes with maple syrup.",
+                    "We cook pancakes on Sunday morning."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-139",
+        "word": "prawn",
+        "emoji": "\ud83e\udd90",
+        "form": "noun",
+        "transcription": "pr\u0254\u02d0n",
+        "definitions": [
+            {
+                "text": "A marine crustacean eaten as food.",
+                "examples": [
+                    "Grill prawns with garlic butter.",
+                    "Add fresh prawns to the paella."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-140",
+        "word": "almond milk",
+        "emoji": "\ud83e\udd5b",
+        "form": "noun",
+        "transcription": "\u02c8\u0251\u02d0m\u0259nd m\u026alk",
+        "definitions": [
+            {
+                "text": "A plant-based drink made from almonds.",
+                "examples": [
+                    "Pour almond milk over cereal.",
+                    "She prefers almond milk in her coffee."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-141",
+        "word": "appetizer",
+        "emoji": "\ud83e\udd57",
+        "form": "noun",
+        "transcription": "\u02c8\u00e6p\u0259\u02ccta\u026az\u0259r",
+        "definitions": [
+            {
+                "text": "A small dish served before a main meal.",
+                "examples": [
+                    "Order garlic bread as an appetizer.",
+                    "Spring rolls are a delicious appetizer."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-142",
+        "word": "bagel",
+        "emoji": "\ud83e\udd6f",
+        "form": "noun",
+        "transcription": "\u02c8be\u026a\u0261\u0259l",
+        "definitions": [
+            {
+                "text": "A dense ring-shaped bread roll.",
+                "examples": [
+                    "Toast a bagel with cream cheese.",
+                    "He bought sesame bagels at the bakery."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-143",
+        "word": "cheeseburger",
+        "emoji": "\ud83c\udf54",
+        "form": "noun",
+        "transcription": "\u02c8\u02a7i\u02d0z\u02ccb\u025c\u02d0r\u0261\u0259r",
+        "definitions": [
+            {
+                "text": "A hamburger topped with melted cheese.",
+                "examples": [
+                    "Order a cheeseburger with fries.",
+                    "Grill cheeseburgers for outdoor lunch."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-144",
+        "word": "cider",
+        "emoji": "\ud83c\udf4f",
+        "form": "noun",
+        "transcription": "\u02c8sa\u026ad\u0259r",
+        "definitions": [
+            {
+                "text": "An alcoholic or non-alcoholic drink made from apples.",
+                "examples": [
+                    "Drink warm spiced apple cider.",
+                    "Cold cider is refreshing in autumn."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-145",
+        "word": "espresso",
+        "emoji": "\u2615",
+        "form": "noun",
+        "transcription": "\u025b\u02c8spr\u025bso\u028a",
+        "definitions": [
+            {
+                "text": "Strong black coffee made under pressure.",
+                "examples": [
+                    "Drink a shot of hot espresso.",
+                    "Italian cafes serve great espresso."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-146",
+        "word": "hot dog",
+        "emoji": "\ud83c\udf2d",
+        "form": "noun",
+        "transcription": "h\u0251\u02d0t d\u0254\u02d0\u0261",
+        "definitions": [
+            {
+                "text": "A cooked sausage served in a sliced bun.",
+                "examples": [
+                    "Eat a hot dog at the baseball game.",
+                    "Top your hot dog with mustard."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-147",
+        "word": "muffins",
+        "emoji": "\ud83e\uddc1",
+        "form": "noun",
+        "transcription": "\u02c8m\u028cf\u0259nz",
+        "definitions": [
+            {
+                "text": "Plural of muffin.",
+                "examples": [
+                    "Bake fresh blueberry muffins.",
+                    "She brought sweet muffins to work."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-148",
+        "word": "noodle soup",
+        "emoji": "\ud83c\udf5c",
+        "form": "noun",
+        "transcription": "\u02c8nu\u02d0d\u0259l su\u02d0p",
+        "definitions": [
+            {
+                "text": "Soup made with noodles and broth.",
+                "examples": [
+                    "Hot chicken noodle soup comforts cold days.",
+                    "Order a bowl of beef noodle soup."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-149",
+        "word": "omelet",
+        "emoji": "\ud83c\udf73",
+        "form": "noun",
+        "transcription": "\u02c8\u0251\u02d0ml\u0259t",
+        "definitions": [
+            {
+                "text": "A dish of beaten eggs cooked in a frying pan.",
+                "examples": [
+                    "Make a cheese and spinach omelet.",
+                    "She ordered a mushroom omelet for breakfast."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-150",
+        "word": "waffle",
+        "emoji": "\ud83e\uddc7",
+        "form": "noun",
+        "transcription": "\u02c8w\u0251\u02d0f\u0259l",
+        "definitions": [
+            {
+                "text": "A crisp cake cooked in a waffle iron.",
+                "examples": [
+                    "Top warm waffles with maple syrup and berries.",
+                    "Belgian waffles are delicious."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-151",
+        "word": "black tea",
+        "emoji": "\ud83e\uded6",
+        "form": "noun",
+        "transcription": "bl\u00e6k ti\u02d0",
+        "definitions": [
+            {
+                "text": "Fully oxidized tea leaves brewed hot.",
+                "examples": [
+                    "Drink black tea with lemon or milk.",
+                    "British breakfast usually includes hot black tea."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-152",
+        "word": "green tea",
+        "emoji": "\ud83e\uded6",
+        "form": "noun",
+        "transcription": "\u0261ri\u02d0n ti\u02d0",
+        "definitions": [
+            {
+                "text": "Unfermented tea leaves rich in antioxidants.",
+                "examples": [
+                    "Sip warm green tea after meals.",
+                    "Green tea has a light fresh flavor."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-153",
+        "word": "herbal tea",
+        "emoji": "\ud83e\uded6",
+        "form": "noun",
+        "transcription": "\u02c8h\u025c\u02d0rb\u0259l ti\u02d0",
+        "definitions": [
+            {
+                "text": "An infusion of herbs or dried fruit in hot water.",
+                "examples": [
+                    "Chamomile is a popular soothing herbal tea.",
+                    "Drink herbal tea before bedtime."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-154",
+        "word": "iced tea",
+        "emoji": "\ud83e\uddca",
+        "form": "noun",
+        "transcription": "a\u026ast ti\u02d0",
+        "definitions": [
+            {
+                "text": "Chilled tea served over ice.",
+                "examples": [
+                    "Order sweet iced tea on hot summer days.",
+                    "A tall glass of lemon iced tea is refreshing."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
+    },
+    {
+        "id": "A1-NOUN-FOO-155",
+        "word": "sparkling water",
+        "emoji": "\ud83e\udee7",
+        "form": "noun",
+        "transcription": "\u02c8sp\u0251\u02d0rkl\u026a\u014b \u02c8w\u0251\u02d0t\u0259r",
+        "definitions": [
+            {
+                "text": "Carbonated water.",
+                "examples": [
+                    "Prefer sparkling water over still water with dinner.",
+                    "Add a lemon slice to sparkling water."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "FOOD",
+        "subcategory": "Ingredients",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Food_Beverages"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

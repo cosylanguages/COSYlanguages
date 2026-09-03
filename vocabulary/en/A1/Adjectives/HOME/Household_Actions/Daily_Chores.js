@@ -67,42 +67,12 @@
         "subcategory": "Household_Actions",
         "pos_section": "Adjectives",
         "sub_subcategory": "Daily_Chores"
-    },
-    {
-        "id": "A1-ADJ-HOM-007",
-        "word": "dirty",
-        "form": "adjective",
-        "subtext": "dirty hands / dirty clothes / get dirty",
-        "definitions": [
-            {
-                "text": "Covered in dirt or impurities.",
-                "examples": [
-                    "His hands are dirty after fixing the car."
-                ]
-            }
-        ],
-        "comparative": "dirtier",
-        "superlative": "the dirtiest",
-        "emoji": "\ud83d\udca9",
-        "transcription": "\u02c8d\u0259rti",
-        "synonyms": [
-            "messy"
-        ],
-        "lang": "en",
-        "level": "starter",
-        "theme": "household_tasks",
-        "sub_theme": null,
-        "antonyms": [
-            "clean"
-        ],
-        "legacy_id": "A1-HOME-05",
-        "level_code": "A1",
-        "domain": "HOME",
-        "subcategory": "Household_Actions",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Daily_Chores"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

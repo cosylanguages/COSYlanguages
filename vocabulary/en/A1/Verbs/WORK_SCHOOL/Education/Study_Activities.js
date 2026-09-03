@@ -37,42 +37,6 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-VERB-WOR-002",
-        "word": "forget",
-        "emoji": "\ud83e\udd14",
-        "subtext": "forget a name / forget to do / forget about / completely forget",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To fail to remember.",
-                "examples": [
-                    "Don't forget the meeting.",
-                    "He always forgets passwords."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "stative",
-        "v2": "forgot",
-        "v3": "forgotten",
-        "group": "regular",
-        "transcription": "f\u0259r\u02c8g\u025bt",
-        "auxiliary": "have",
-        "lang": "en",
-        "level": "starter",
-        "theme": "learning_studying",
-        "sub_theme": null,
-        "antonyms": [
-            "remember"
-        ],
-        "legacy_id": "A1-WORK-12",
-        "level_code": "A1",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
         "id": "A1-VERB-WOR-003",
         "word": "improve",
         "emoji": "\ud83d\udcc8",
@@ -146,46 +110,6 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-VERB-WOR-005",
-        "word": "know",
-        "emoji": "\ud83e\udde0",
-        "subtext": "know someone / know the answer / know a place / know how to",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To have information or awareness about something.",
-                "examples": [
-                    "I know his name.",
-                    "She knows the answer.",
-                    "Do you know him?"
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "stative",
-        "v2": "knew",
-        "v3": "known",
-        "group": "regular",
-        "transcription": "no\u028a",
-        "synonyms": [
-            "understand"
-        ],
-        "auxiliary": "have",
-        "lang": "en",
-        "level": "starter",
-        "theme": "learning_studying",
-        "sub_theme": null,
-        "antonyms": [
-            "wonder"
-        ],
-        "legacy_id": "A1-WORK-19",
-        "level_code": "A1",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
         "id": "A1-VERB-WOR-006",
         "word": "learn",
         "emoji": "\ud83d\udcda",
@@ -213,41 +137,6 @@
             "teach"
         ],
         "legacy_id": "A1-WORK-20",
-        "level_code": "A1",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A1-VERB-WOR-007",
-        "word": "learn",
-        "emoji": "\ud83d\udcda",
-        "subtext": "learn a language / learn a skill / learn from / learn how to",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To gain knowledge or skill.",
-                "examples": [
-                    "She is learning Spanish for her new job abroad."
-                ]
-            }
-        ],
-        "classification": "both",
-        "aspect": "action",
-        "v2": "learned / learnt",
-        "v3": "learned / learnt",
-        "group": "regular",
-        "transcription": "l\u0259rn",
-        "auxiliary": "have",
-        "lang": "en",
-        "level": "starter",
-        "theme": "learning_studying",
-        "sub_theme": null,
-        "antonyms": [
-            "teach"
-        ],
-        "legacy_id": "A1-WORK-21",
         "level_code": "A1",
         "domain": "WORK_SCHOOL",
         "subcategory": "Education",
@@ -290,46 +179,6 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-VERB-WOR-009",
-        "word": "listen",
-        "emoji": "\ud83c\udfa7",
-        "subtext": "listen to music / listen to someone / listen carefully / listen to a podcast",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To pay attention to sounds or speech.",
-                "examples": [
-                    "I listen to podcasts at work.",
-                    "She listens carefully."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "listened",
-        "v3": "listened",
-        "group": "regular",
-        "transcription": "\u02c8l\u026as\u0259n",
-        "synonyms": [
-            "hear"
-        ],
-        "auxiliary": "have",
-        "v4": "listening",
-        "lang": "en",
-        "level": "starter",
-        "theme": "learning_studying",
-        "sub_theme": null,
-        "antonyms": [
-            "say"
-        ],
-        "legacy_id": "A1-WORK-24",
-        "level_code": "A1",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
         "id": "A1-VERB-WOR-010",
         "word": "mean",
         "emoji": "\u2754",
@@ -357,41 +206,6 @@
             "nonsense"
         ],
         "legacy_id": "A1-WORK-26",
-        "level_code": "A1",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A1-VERB-WOR-011",
-        "word": "mean",
-        "emoji": "\u2754",
-        "subtext": "mean something / what does it mean / mean to do / I didn't mean to",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To have a particular meaning; to intend.",
-                "examples": [
-                    "What does this clause in the contract mean?"
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "stative",
-        "v2": "meant",
-        "v3": "meant",
-        "group": "regular",
-        "transcription": "min",
-        "auxiliary": "have",
-        "lang": "en",
-        "level": "starter",
-        "theme": "learning_studying",
-        "sub_theme": null,
-        "antonyms": [
-            "nonsense"
-        ],
-        "legacy_id": "A1-WORK-27",
         "level_code": "A1",
         "domain": "WORK_SCHOOL",
         "subcategory": "Education",
@@ -434,43 +248,6 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-VERB-WOR-013",
-        "word": "pass",
-        "emoji": "\ud83c\udfd4\ufe0f",
-        "subtext": "pass an exam / pass the ball / pass time / pass the sugar",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To go past something or to succeed in an exam.",
-                "examples": [
-                    "I pass the park on my way home.",
-                    "I hope I pass the test."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "passed",
-        "v3": "passed",
-        "group": "regular",
-        "transcription": "p\u00e6s",
-        "auxiliary": "have",
-        "v4": "passing",
-        "lang": "en",
-        "level": "starter",
-        "theme": "learning_studying",
-        "sub_theme": null,
-        "antonyms": [
-            "fail"
-        ],
-        "legacy_id": "A1-WORK-30",
-        "level_code": "A1",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
         "id": "A1-VERB-WOR-014",
         "word": "read",
         "emoji": "\ud83d\udcd6",
@@ -499,45 +276,6 @@
             "write"
         ],
         "legacy_id": "A1-WORK-32",
-        "level_code": "A1",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A1-VERB-WOR-015",
-        "word": "read",
-        "emoji": "\ud83d\udcd6",
-        "subtext": "read a book / read the news / read a contract / read carefully",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To look at and understand written words.",
-                "examples": [
-                    "She reads the news every morning.",
-                    "He reads contracts."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "read",
-        "v3": "read",
-        "group": "regular",
-        "transcription": "r\u025bd",
-        "synonyms": [
-            "look at"
-        ],
-        "auxiliary": "have",
-        "lang": "en",
-        "level": "starter",
-        "theme": "learning_studying",
-        "sub_theme": null,
-        "antonyms": [
-            "write"
-        ],
-        "legacy_id": "A1-WORK-33",
         "level_code": "A1",
         "domain": "WORK_SCHOOL",
         "subcategory": "Education",
@@ -580,43 +318,6 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-VERB-WOR-017",
-        "word": "remember",
-        "emoji": "\ud83e\udde0",
-        "subtext": "remember to do / remember a name / remember clearly",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To have a memory of; to not forget.",
-                "examples": [
-                    "Please remember the deadline.",
-                    "She remembers every client."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "remembered",
-        "v3": "remembered",
-        "group": "regular",
-        "transcription": "r\u026a\u02c8m\u025bmb\u0259r",
-        "auxiliary": "have",
-        "v4": "remembering",
-        "lang": "en",
-        "level": "starter",
-        "theme": "learning_studying",
-        "sub_theme": null,
-        "antonyms": [
-            "forget"
-        ],
-        "legacy_id": "A1-WORK-35",
-        "level_code": "A1",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
         "id": "A1-VERB-WOR-018",
         "word": "study",
         "emoji": "\ud83d\udcd6",
@@ -644,42 +345,6 @@
             "play"
         ],
         "legacy_id": "A1-WORK-42",
-        "level_code": "A1",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A1-VERB-WOR-019",
-        "word": "study",
-        "emoji": "\ud83d\udcd6",
-        "subtext": "study English / study for an exam / study hard / self-study",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To read and practise to gain knowledge.",
-                "examples": [
-                    "He is studying for a professional qualification."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "studied",
-        "v3": "studied",
-        "group": "regular",
-        "transcription": "\u02c8st\u0259di",
-        "auxiliary": "have",
-        "v4": "studying",
-        "lang": "en",
-        "level": "starter",
-        "theme": "learning_studying",
-        "sub_theme": null,
-        "antonyms": [
-            "play"
-        ],
-        "legacy_id": "A1-WORK-43",
         "level_code": "A1",
         "domain": "WORK_SCHOOL",
         "subcategory": "Education",
@@ -721,41 +386,6 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-VERB-WOR-021",
-        "word": "teach",
-        "emoji": "\ud83d\udc68\u200d\ud83c\udfeb",
-        "subtext": "teach someone / teach a subject / teach how to / teach a class",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To give instruction in a subject.",
-                "examples": [
-                    "She teaches communication skills to senior managers."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "taught",
-        "v3": "taught",
-        "group": "regular",
-        "transcription": "ti\u02a7",
-        "auxiliary": "have",
-        "lang": "en",
-        "level": "starter",
-        "theme": "learning_studying",
-        "sub_theme": null,
-        "antonyms": [
-            "learn"
-        ],
-        "legacy_id": "A1-WORK-46",
-        "level_code": "A1",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
         "id": "A1-VERB-WOR-022",
         "word": "try",
         "emoji": "\ud83c\udfaf",
@@ -783,45 +413,6 @@
             "give up"
         ],
         "legacy_id": "A1-WORK-49",
-        "level_code": "A1",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A1-VERB-WOR-023",
-        "word": "try",
-        "emoji": "\ud83c\udfaf",
-        "subtext": "try to do / try hard / try something new / give it a try",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To attempt to do something; to test something.",
-                "examples": [
-                    "I always try to reply to all messages within an hour."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "tried",
-        "v3": "tried",
-        "group": "regular",
-        "transcription": "tra\u026a",
-        "synonyms": [
-            "attempt"
-        ],
-        "auxiliary": "have",
-        "v4": "trying",
-        "lang": "en",
-        "level": "starter",
-        "theme": "learning_studying",
-        "sub_theme": null,
-        "antonyms": [
-            "give up"
-        ],
-        "legacy_id": "A1-WORK-50",
         "level_code": "A1",
         "domain": "WORK_SCHOOL",
         "subcategory": "Education",
@@ -864,38 +455,45 @@
         "sub_subcategory": "Study_Activities"
     },
     {
-        "id": "A1-VERB-WOR-025",
-        "word": "write",
-        "emoji": "\u270d\ufe0f",
-        "subtext": "write to, write an email / write a report / write a letter / write notes",
+        "id": "A1-VERB-WOR-122",
+        "word": "fail",
+        "emoji": "\u274c",
         "form": "verb",
+        "transcription": "fe\u026al",
         "definitions": [
             {
-                "text": "To put words on paper or screen.",
+                "text": "Be unsuccessful in achieving a goal or passing a test.",
                 "examples": [
-                    "I write emails all day.",
-                    "She writes a report every Friday."
+                    "Study so you do not fail the test.",
+                    "He passed math but failed chemistry."
                 ]
             }
         ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "wrote",
-        "v3": "written",
-        "group": "regular",
-        "transcription": "ra\u026at",
-        "synonyms": [
-            "note down"
-        ],
-        "auxiliary": "have",
         "lang": "en",
         "level": "starter",
-        "theme": "learning_studying",
-        "sub_theme": null,
-        "antonyms": [
-            "read"
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Education",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Study_Activities"
+    },
+    {
+        "id": "A1-VERB-WOR-123",
+        "word": "memorize",
+        "emoji": "\ud83e\udde0",
+        "form": "verb",
+        "transcription": "\u02c8m\u025bm\u0259\u02ccra\u026az",
+        "definitions": [
+            {
+                "text": "Commit to memory; learn by heart.",
+                "examples": [
+                    "Memorize ten new vocabulary words.",
+                    "She memorized the poem."
+                ]
+            }
         ],
-        "legacy_id": "A1-WORK-53",
+        "lang": "en",
+        "level": "starter",
         "level_code": "A1",
         "domain": "WORK_SCHOOL",
         "subcategory": "Education",
@@ -903,6 +501,10 @@
         "sub_subcategory": "Study_Activities"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

@@ -343,8 +343,173 @@
         "subcategory": "Time",
         "pos_section": "Nouns",
         "sub_subcategory": "Clocks_Periods"
+    },
+    {
+        "id": "A1-NOUN-TIM-038",
+        "word": "century",
+        "emoji": "\ud83c\udfdb\ufe0f",
+        "form": "noun",
+        "transcription": "\u02c8s\u025bn\u02a7\u0259ri",
+        "definitions": [
+            {
+                "text": "A period of one hundred years.",
+                "examples": [
+                    "The castle was built in the sixteenth century.",
+                    "Technology advanced rapidly last century."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TIME_NUMBERS",
+        "subcategory": "Time",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Clocks_Periods"
+    },
+    {
+        "id": "A1-NOUN-TIM-039",
+        "word": "moment",
+        "emoji": "\u23f1\ufe0f",
+        "form": "noun",
+        "transcription": "\u02c8mo\u028am\u0259nt",
+        "definitions": [
+            {
+                "text": "A very brief period of time.",
+                "examples": [
+                    "Just a moment, I will check.",
+                    "She paused for a moment."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TIME_NUMBERS",
+        "subcategory": "Time",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Clocks_Periods"
+    },
+    {
+        "id": "A1-NOUN-TIM-040",
+        "word": "noon",
+        "emoji": "\u2600\ufe0f",
+        "form": "noun",
+        "transcription": "nu\u02d0n",
+        "definitions": [
+            {
+                "text": "Twelve o'clock in the middle of the day.",
+                "examples": [
+                    "Let us meet for lunch at noon.",
+                    "The sun is highest at noon."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TIME_NUMBERS",
+        "subcategory": "Time",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Clocks_Periods"
+    },
+    {
+        "id": "A1-NOUN-TIM-041",
+        "word": "today",
+        "emoji": "\ud83d\udcc5",
+        "form": "noun",
+        "transcription": "t\u0259\u02c8de\u026a",
+        "definitions": [
+            {
+                "text": "On or during the present day.",
+                "examples": [
+                    "What are your plans for today?",
+                    "Today is sunny and warm."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TIME_NUMBERS",
+        "subcategory": "Time",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Clocks_Periods"
+    },
+    {
+        "id": "A1-NOUN-TIM-042",
+        "word": "tomorrow",
+        "emoji": "\ud83d\udcc5",
+        "form": "noun",
+        "transcription": "t\u0259\u02c8m\u0251\u02d0ro\u028a",
+        "definitions": [
+            {
+                "text": "On the day after today.",
+                "examples": [
+                    "See you tomorrow morning.",
+                    "Tomorrow is a public holiday."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TIME_NUMBERS",
+        "subcategory": "Time",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Clocks_Periods"
+    },
+    {
+        "id": "A1-NOUN-TIM-043",
+        "word": "tonight",
+        "emoji": "\ud83c\udf03",
+        "form": "noun",
+        "transcription": "t\u0259\u02c8na\u026at",
+        "definitions": [
+            {
+                "text": "On or during the present evening or night.",
+                "examples": [
+                    "Are you going out tonight?",
+                    "Let us watch a movie tonight."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TIME_NUMBERS",
+        "subcategory": "Time",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Clocks_Periods"
+    },
+    {
+        "id": "A1-NOUN-TIM-044",
+        "word": "yesterday",
+        "emoji": "\ud83d\udcc5",
+        "form": "noun",
+        "transcription": "\u02c8j\u025bst\u0259r\u02ccde\u026a",
+        "definitions": [
+            {
+                "text": "On the day before today.",
+                "examples": [
+                    "I saw him yesterday afternoon.",
+                    "Yesterday was rainy and cold."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "TIME_NUMBERS",
+        "subcategory": "Time",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Clocks_Periods"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

@@ -206,8 +206,196 @@
         "subcategory": "Leisure",
         "pos_section": "Nouns",
         "sub_subcategory": "Athletic_Sports"
+    },
+    {
+        "id": "A1-NOUN-COM-081",
+        "word": "athletics",
+        "emoji": "\ud83c\udfc3",
+        "form": "noun",
+        "transcription": "\u00e6\u03b8\u02c8l\u025bt\u026aks",
+        "definitions": [
+            {
+                "text": "Physical sports such as running, jumping, and throwing.",
+                "examples": [
+                    "She enjoys school athletics.",
+                    "The stadium hosts athletics competitions."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Leisure",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Athletic_Sports"
+    },
+    {
+        "id": "A1-NOUN-COM-082",
+        "word": "badminton",
+        "emoji": "\ud83c\udff8",
+        "form": "noun",
+        "transcription": "\u02c8b\u00e6d\u02ccm\u026ant\u0259n",
+        "definitions": [
+            {
+                "text": "A game played with rackets and a shuttlecock.",
+                "examples": [
+                    "We play badminton on Tuesday.",
+                    "She hit the shuttlecock over the badminton net."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Leisure",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Athletic_Sports"
+    },
+    {
+        "id": "A1-NOUN-COM-083",
+        "word": "cricket",
+        "emoji": "\ud83c\udfcf",
+        "form": "noun",
+        "transcription": "\u02c8kr\u026ak\u0259t",
+        "definitions": [
+            {
+                "text": "A outdoor game played with a bat and ball on a pitch.",
+                "examples": [
+                    "Cricket is very popular in England and India.",
+                    "He watches cricket matches."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Leisure",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Athletic_Sports"
+    },
+    {
+        "id": "A1-NOUN-COM-084",
+        "word": "golf",
+        "emoji": "\u26f3",
+        "form": "noun",
+        "transcription": "\u0261\u0251\u02d0lf",
+        "definitions": [
+            {
+                "text": "A game played on a large outdoor course with clubs.",
+                "examples": [
+                    "He plays golf on Sunday mornings.",
+                    "A golf course has eighteen holes."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Leisure",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Athletic_Sports"
+    },
+    {
+        "id": "A1-NOUN-COM-085",
+        "word": "hockey",
+        "emoji": "\ud83c\udfd2",
+        "form": "noun",
+        "transcription": "\u02c8h\u0251\u02d0ki",
+        "definitions": [
+            {
+                "text": "A game played on ice or field with curved sticks.",
+                "examples": [
+                    "Field hockey is popular in schools.",
+                    "He plays ice hockey in winter."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Leisure",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Athletic_Sports"
+    },
+    {
+        "id": "A1-NOUN-COM-086",
+        "word": "rugby",
+        "emoji": "\ud83c\udfc9",
+        "form": "noun",
+        "transcription": "\u02c8r\u028c\u0261bi",
+        "definitions": [
+            {
+                "text": "A team game played with an oval ball.",
+                "examples": [
+                    "Rugby requires strength and speed.",
+                    "They watched a international rugby match."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Leisure",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Athletic_Sports"
+    },
+    {
+        "id": "A1-NOUN-COM-087",
+        "word": "swimming",
+        "emoji": "\ud83c\udfca",
+        "form": "noun",
+        "transcription": "\u02c8sw\u026am\u026a\u014b",
+        "definitions": [
+            {
+                "text": "The sport or activity of propelling oneself through water.",
+                "examples": [
+                    "Swimming is great exercise.",
+                    "She goes swimming every morning."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Leisure",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Athletic_Sports"
+    },
+    {
+        "id": "A1-NOUN-COM-088",
+        "word": "volleyball",
+        "emoji": "\ud83c\udfd0",
+        "form": "noun",
+        "transcription": "\u02c8v\u0251\u02d0li\u02ccb\u0254\u02d0l",
+        "definitions": [
+            {
+                "text": "A game in which teams hit a large ball over a high net.",
+                "examples": [
+                    "Play beach volleyball in summer.",
+                    "Our volleyball team practiced served."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Leisure",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Athletic_Sports"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

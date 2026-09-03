@@ -98,42 +98,6 @@
         "sub_subcategory": "Interactions"
     },
     {
-        "id": "A1-VERB-COM-071",
-        "word": "collect",
-        "emoji": "\ud83d\udce6",
-        "form": "verb",
-        "subtext": "collect things / collect stamps",
-        "definitions": [
-            {
-                "text": "To bring things together from different places.",
-                "examples": [
-                    "She collects stamps."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "collected",
-        "v3": "collected",
-        "group": "regular",
-        "transcription": "k\u0259\u02c8l\u025bkt",
-        "auxiliary": "have",
-        "v4": "collecting",
-        "lang": "en",
-        "level": "starter",
-        "theme": "social",
-        "sub_theme": null,
-        "antonyms": [
-            "scatter"
-        ],
-        "legacy_id": "A1-COMM-24",
-        "level_code": "A1",
-        "domain": "COMMUNICATION",
-        "subcategory": "Social",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Interactions"
-    },
-    {
         "id": "A1-VERB-COM-072",
         "word": "draw",
         "emoji": "\ud83c\udfa8",
@@ -159,39 +123,6 @@
         "theme": "social",
         "sub_theme": null,
         "legacy_id": "A1-COMM-34",
-        "level_code": "A1",
-        "domain": "COMMUNICATION",
-        "subcategory": "Social",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Interactions"
-    },
-    {
-        "id": "A1-VERB-COM-073",
-        "word": "draw",
-        "emoji": "\ud83c\udfa8",
-        "subtext": "draw a picture / draw a conclusion / draw attention / draw a line",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To make a picture with a pen or pencil.",
-                "examples": [
-                    "I like to draw birds.",
-                    "Can you draw a map?"
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "drew",
-        "v3": "drawn",
-        "group": "regular",
-        "transcription": "dr\u0254",
-        "auxiliary": "have",
-        "lang": "en",
-        "level": "starter",
-        "theme": "social",
-        "sub_theme": null,
-        "legacy_id": "A1-COMM-35",
         "level_code": "A1",
         "domain": "COMMUNICATION",
         "subcategory": "Social",
@@ -269,42 +200,6 @@
         "sub_subcategory": "Interactions"
     },
     {
-        "id": "A1-VERB-COM-076",
-        "word": "join",
-        "emoji": "\ud83e\udd1d",
-        "form": "verb",
-        "subtext": "join a club / join us",
-        "definitions": [
-            {
-                "text": "To become a member of a group or organization.",
-                "examples": [
-                    "I want to join the tennis club."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "joined",
-        "v3": "joined",
-        "group": "regular",
-        "transcription": "\u02a4\u0254\u026an",
-        "auxiliary": "have",
-        "v4": "joining",
-        "lang": "en",
-        "level": "starter",
-        "theme": "social",
-        "sub_theme": null,
-        "antonyms": [
-            "leave"
-        ],
-        "legacy_id": "A1-COMM-49",
-        "level_code": "A1",
-        "domain": "COMMUNICATION",
-        "subcategory": "Social",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Interactions"
-    },
-    {
         "id": "A1-VERB-COM-077",
         "word": "paint",
         "emoji": "\ud83c\udfa8",
@@ -336,46 +231,6 @@
             "erase"
         ],
         "legacy_id": "A1-COMM-61",
-        "level_code": "A1",
-        "domain": "COMMUNICATION",
-        "subcategory": "Social",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Interactions"
-    },
-    {
-        "id": "A1-VERB-COM-078",
-        "word": "paint",
-        "emoji": "\ud83c\udfa8",
-        "form": "verb",
-        "subtext": "paint a picture",
-        "synonyms": [
-            "color",
-            "painting"
-        ],
-        "definitions": [
-            {
-                "text": "To make a picture using paint.",
-                "examples": [
-                    "I like to paint flowers."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "painted",
-        "v3": "painted",
-        "group": "regular",
-        "transcription": "pe\u026ant",
-        "auxiliary": "have",
-        "v4": "painting",
-        "lang": "en",
-        "level": "starter",
-        "theme": "social",
-        "sub_theme": null,
-        "antonyms": [
-            "erase"
-        ],
-        "legacy_id": "A1-COMM-62",
         "level_code": "A1",
         "domain": "COMMUNICATION",
         "subcategory": "Social",
@@ -637,8 +492,311 @@
         "subcategory": "Social",
         "pos_section": "Verbs",
         "sub_subcategory": "Interactions"
+    },
+    {
+        "id": "A1-VERB-COM-154",
+        "word": "chat",
+        "emoji": "\ud83d\udcac",
+        "form": "verb",
+        "transcription": "\u02a7\u00e6t",
+        "definitions": [
+            {
+                "text": "Talk in a friendly and informal way.",
+                "examples": [
+                    "We chatted over coffee.",
+                    "She chats with friends online."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Social",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Interactions"
+    },
+    {
+        "id": "A1-VERB-COM-160",
+        "word": "announce",
+        "emoji": "\ud83d\udce2",
+        "form": "verb",
+        "transcription": "\u0259\u02c8na\u028ans",
+        "definitions": [
+            {
+                "text": "Make a public and formal declaration about.",
+                "examples": [
+                    "Announce the test results on Monday.",
+                    "The airline announced a delay."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Social",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Interactions"
+    },
+    {
+        "id": "A1-VERB-COM-161",
+        "word": "argue",
+        "emoji": "\ud83d\udde3\ufe0f",
+        "form": "verb",
+        "transcription": "\u02c8\u0251\u02d0r\u0261ju\u02d0",
+        "definitions": [
+            {
+                "text": "Exchange or express diverging views heatedly.",
+                "examples": [
+                    "Do not argue over minor issues.",
+                    "They argued about who should drive."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Social",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Interactions"
+    },
+    {
+        "id": "A1-VERB-COM-162",
+        "word": "claim",
+        "emoji": "\ud83d\udcdd",
+        "form": "verb",
+        "transcription": "kle\u026am",
+        "definitions": [
+            {
+                "text": "State or assert that something is the case.",
+                "examples": [
+                    "He claimed he lost his key.",
+                    "She claimed the lost bag at station."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Social",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Interactions"
+    },
+    {
+        "id": "A1-VERB-COM-163",
+        "word": "complain",
+        "emoji": "\ud83d\ude24",
+        "form": "verb",
+        "transcription": "k\u0259m\u02c8ple\u026an",
+        "definitions": [
+            {
+                "text": "Express dissatisfaction or annoyance about something.",
+                "examples": [
+                    "Complain to the hotel manager.",
+                    "He complains when food is cold."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Social",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Interactions"
+    },
+    {
+        "id": "A1-VERB-COM-164",
+        "word": "confirm",
+        "emoji": "\u2705",
+        "form": "verb",
+        "transcription": "k\u0259n\u02c8f\u025c\u02d0rm",
+        "definitions": [
+            {
+                "text": "Establish the truth or correctness of.",
+                "examples": [
+                    "Confirm your hotel reservation by email.",
+                    "She confirmed her attendance."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Social",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Interactions"
+    },
+    {
+        "id": "A1-VERB-COM-165",
+        "word": "discuss",
+        "emoji": "\ud83d\udcac",
+        "form": "verb",
+        "transcription": "d\u026a\u02c8sk\u028cs",
+        "definitions": [
+            {
+                "text": "Talk about something with another person or group.",
+                "examples": [
+                    "Discuss the essay topic in pairs.",
+                    "We discussed plans for summer."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Social",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Interactions"
+    },
+    {
+        "id": "A1-VERB-COM-166",
+        "word": "inform",
+        "emoji": "\u2139\ufe0f",
+        "form": "verb",
+        "transcription": "\u026an\u02c8f\u0254\u02d0rm",
+        "definitions": [
+            {
+                "text": "Give facts or information to someone.",
+                "examples": [
+                    "Inform us if your plans change.",
+                    "The letter informed him of the date."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Social",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Interactions"
+    },
+    {
+        "id": "A1-VERB-COM-167",
+        "word": "mention",
+        "emoji": "\ud83d\udcac",
+        "form": "verb",
+        "transcription": "\u02c8m\u025bn\u0283\u0259n",
+        "definitions": [
+            {
+                "text": "Refer to briefly or casually.",
+                "examples": [
+                    "Mention your name at the desk.",
+                    "He mentioned that he lives nearby."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Social",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Interactions"
+    },
+    {
+        "id": "A1-VERB-COM-168",
+        "word": "promise",
+        "emoji": "\ud83e\udd1d",
+        "form": "verb",
+        "transcription": "\u02c8pr\u0251\u02d0m\u0259s",
+        "definitions": [
+            {
+                "text": "Tell someone that one will definitely do or not do something.",
+                "examples": [
+                    "Promise to call when you arrive.",
+                    "She promised to help us tomorrow."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Social",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Interactions"
+    },
+    {
+        "id": "A1-VERB-COM-169",
+        "word": "remind",
+        "emoji": "\u23f0",
+        "form": "verb",
+        "transcription": "r\u026a\u02c8ma\u026and",
+        "definitions": [
+            {
+                "text": "Cause someone to remember something.",
+                "examples": [
+                    "Remind me to buy milk.",
+                    "She reminded him about the meeting."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Social",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Interactions"
+    },
+    {
+        "id": "A1-VERB-COM-170",
+        "word": "suggest",
+        "emoji": "\ud83d\udca1",
+        "form": "verb",
+        "transcription": "s\u0259\u0261\u02c8\u02a4\u025bst",
+        "definitions": [
+            {
+                "text": "Put forward an idea or plan for consideration.",
+                "examples": [
+                    "I suggest meeting at six.",
+                    "She suggested taking the train."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Social",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Interactions"
+    },
+    {
+        "id": "A1-VERB-COM-171",
+        "word": "warn",
+        "emoji": "\u26a0\ufe0f",
+        "form": "verb",
+        "transcription": "w\u0254\u02d0rn",
+        "definitions": [
+            {
+                "text": "Inform someone of a possible danger or problem.",
+                "examples": [
+                    "Warn children about the hot stove.",
+                    "The guard warned us about ice."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Social",
+        "pos_section": "Verbs",
+        "sub_subcategory": "Interactions"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

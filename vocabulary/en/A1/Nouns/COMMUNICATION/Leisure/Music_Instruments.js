@@ -261,8 +261,58 @@
         "subcategory": "Leisure",
         "pos_section": "Nouns",
         "sub_subcategory": "Music_Instruments"
+    },
+    {
+        "id": "A1-NOUN-COM-100",
+        "word": "album",
+        "emoji": "\ud83d\udcbf",
+        "form": "noun",
+        "transcription": "\u02c8\u00e6lb\u0259m",
+        "definitions": [
+            {
+                "text": "A collection of audio recordings issued as a collection.",
+                "examples": [
+                    "The band released a new music album.",
+                    "Listen to their debut album."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Leisure",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Music_Instruments"
+    },
+    {
+        "id": "A1-NOUN-COM-101",
+        "word": "drum",
+        "emoji": "\ud83e\udd41",
+        "form": "noun",
+        "transcription": "dr\u028cm",
+        "definitions": [
+            {
+                "text": "A percussion instrument played with sticks.",
+                "examples": [
+                    "He beat the drum rhythmically.",
+                    "She took drum lessons."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Leisure",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Music_Instruments"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

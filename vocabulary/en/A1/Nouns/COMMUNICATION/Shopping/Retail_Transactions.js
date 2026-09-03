@@ -239,8 +239,196 @@
         "subcategory": "Shopping",
         "pos_section": "Nouns",
         "sub_subcategory": "Retail_Transactions"
+    },
+    {
+        "id": "A1-NOUN-COM-102",
+        "word": "bill",
+        "emoji": "\ud83e\uddfe",
+        "form": "noun",
+        "transcription": "b\u026al",
+        "definitions": [
+            {
+                "text": "A printed statement of money owed for goods or services.",
+                "examples": [
+                    "Ask the waiter for the dinner bill.",
+                    "Pay your electricity bill online."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Shopping",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Retail_Transactions"
+    },
+    {
+        "id": "A1-NOUN-COM-103",
+        "word": "change",
+        "emoji": "\ud83e\ude99",
+        "form": "noun",
+        "transcription": "\u02a7e\u026an\u02a4",
+        "definitions": [
+            {
+                "text": "Coins given back as the balance of a larger payment.",
+                "examples": [
+                    "Here is your receipt and change.",
+                    "Count your change carefully."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Shopping",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Retail_Transactions"
+    },
+    {
+        "id": "A1-NOUN-COM-104",
+        "word": "coin",
+        "emoji": "\ud83e\ude99",
+        "form": "noun",
+        "transcription": "k\u0254\u026an",
+        "definitions": [
+            {
+                "text": "A flat small piece of metal used as money.",
+                "examples": [
+                    "Put a coin in the parking meter.",
+                    "Ancient coins were made of gold."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Shopping",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Retail_Transactions"
+    },
+    {
+        "id": "A1-NOUN-COM-105",
+        "word": "cost",
+        "emoji": "\ud83c\udff7\ufe0f",
+        "form": "noun",
+        "transcription": "k\u0251\u02d0st",
+        "definitions": [
+            {
+                "text": "The price paid to buy something.",
+                "examples": [
+                    "What is the total cost of shipping?",
+                    "The cost of living rose slightly."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Shopping",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Retail_Transactions"
+    },
+    {
+        "id": "A1-NOUN-COM-106",
+        "word": "discount",
+        "emoji": "\ud83c\udff7\ufe0f",
+        "form": "noun",
+        "transcription": "\u02c8d\u026as\u02ccka\u028ant",
+        "definitions": [
+            {
+                "text": "A deduction from the usual price of something.",
+                "examples": [
+                    "Students get a ten percent discount.",
+                    "She bought the dress at a discount."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Shopping",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Retail_Transactions"
+    },
+    {
+        "id": "A1-NOUN-COM-107",
+        "word": "receipt",
+        "emoji": "\ud83e\uddfe",
+        "form": "noun",
+        "transcription": "r\u026a\u02c8si\u02d0t",
+        "definitions": [
+            {
+                "text": "A printed acknowledgment that payment has been received.",
+                "examples": [
+                    "Keep your receipt for returns.",
+                    "The cashier handed me the receipt."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Shopping",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Retail_Transactions"
+    },
+    {
+        "id": "A1-NOUN-COM-108",
+        "word": "sale",
+        "emoji": "\ud83c\udff7\ufe0f",
+        "form": "noun",
+        "transcription": "se\u026al",
+        "definitions": [
+            {
+                "text": "An event at which goods are sold at reduced prices.",
+                "examples": [
+                    "The winter sale starts today.",
+                    "Items were marked down for sale."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Shopping",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Retail_Transactions"
+    },
+    {
+        "id": "A1-NOUN-COM-109",
+        "word": "shopping",
+        "emoji": "\ud83d\uded2",
+        "form": "noun",
+        "transcription": "\u02c8\u0283\u0251\u02d0p\u026a\u014b",
+        "definitions": [
+            {
+                "text": "The activity of buying goods from shops.",
+                "examples": [
+                    "We go grocery shopping on Saturday.",
+                    "Do your holiday shopping early."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Shopping",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Retail_Transactions"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

@@ -413,8 +413,334 @@
         "subcategory": "Technology",
         "pos_section": "Nouns",
         "sub_subcategory": "Digital_Devices"
+    },
+    {
+        "id": "A1-NOUN-COM-117",
+        "word": "phone",
+        "emoji": "\ud83d\udcde",
+        "form": "noun",
+        "transcription": "fo\u028an",
+        "definitions": [
+            {
+                "text": "A telephone.",
+                "examples": [
+                    "Answer the ringing phone.",
+                    "She lost her smart phone."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Technology",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Digital_Devices"
+    },
+    {
+        "id": "A1-NOUN-COM-120",
+        "word": "cable",
+        "emoji": "\ud83d\udd0c",
+        "form": "noun",
+        "transcription": "\u02c8ke\u026ab\u0259l",
+        "definitions": [
+            {
+                "text": "A thick rope of wire or optical fibers for power.",
+                "examples": [
+                    "Plug the charging cable into the wall.",
+                    "HDMI cables connect laptop to TV."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Technology",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Digital_Devices"
+    },
+    {
+        "id": "A1-NOUN-COM-121",
+        "word": "device",
+        "emoji": "\ud83d\udcf1",
+        "form": "noun",
+        "transcription": "d\u026a\u02c8va\u026as",
+        "definitions": [
+            {
+                "text": "A piece of mechanical or electronic equipment.",
+                "examples": [
+                    "Connect smart devices to Wi-Fi.",
+                    "Keep electronic devices turned off during takeoff."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Technology",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Digital_Devices"
+    },
+    {
+        "id": "A1-NOUN-COM-122",
+        "word": "display",
+        "emoji": "\ud83d\udda5\ufe0f",
+        "form": "noun",
+        "transcription": "d\u026a\u02c8sple\u026a",
+        "definitions": [
+            {
+                "text": "An electronic screen showing visual output.",
+                "examples": [
+                    "The high-definition display looks crisp.",
+                    "Read messages on the digital display."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Technology",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Digital_Devices"
+    },
+    {
+        "id": "A1-NOUN-COM-123",
+        "word": "link",
+        "emoji": "\ud83d\udd17",
+        "form": "noun",
+        "transcription": "l\u026a\u014bk",
+        "definitions": [
+            {
+                "text": "A relationship or connection between web pages.",
+                "examples": [
+                    "Click the link to join the meeting.",
+                    "Send me a link to the article."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Technology",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Digital_Devices"
+    },
+    {
+        "id": "A1-NOUN-COM-124",
+        "word": "media",
+        "emoji": "\ud83d\udce1",
+        "form": "noun",
+        "transcription": "\u02c8mi\u02d0di\u0259",
+        "definitions": [
+            {
+                "text": "Main means of mass communication.",
+                "examples": [
+                    "Digital media reaches global audiences.",
+                    "She works in social media."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Technology",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Digital_Devices"
+    },
+    {
+        "id": "A1-NOUN-COM-125",
+        "word": "network",
+        "emoji": "\ud83c\udf10",
+        "form": "noun",
+        "transcription": "\u02c8n\u025bt\u02ccw\u025c\u02d0rk",
+        "definitions": [
+            {
+                "text": "A group or system of interconnected computers or people.",
+                "examples": [
+                    "Join the office wireless network.",
+                    "Mobile network signal was strong."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Technology",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Digital_Devices"
+    },
+    {
+        "id": "A1-NOUN-COM-126",
+        "word": "outlet",
+        "emoji": "\ud83d\udd0c",
+        "form": "noun",
+        "transcription": "\u02c8a\u028at\u02ccl\u025bt",
+        "definitions": [
+            {
+                "text": "A socket in a wall into which a plug is inserted.",
+                "examples": [
+                    "Plug the charger into the power outlet.",
+                    "Locate an outlet in the coffee shop."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Technology",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Digital_Devices"
+    },
+    {
+        "id": "A1-NOUN-COM-127",
+        "word": "password",
+        "emoji": "\ud83d\udd11",
+        "form": "noun",
+        "transcription": "\u02c8p\u00e6s\u02ccw\u025c\u02d0rd",
+        "definitions": [
+            {
+                "text": "A secret word or phrase that must be used to gain admission.",
+                "examples": [
+                    "Type a strong secure password.",
+                    "Do not share your password with anyone."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Technology",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Digital_Devices"
+    },
+    {
+        "id": "A1-NOUN-COM-128",
+        "word": "signal",
+        "emoji": "\ud83d\udce1",
+        "form": "noun",
+        "transcription": "\u02c8s\u026a\u0261n\u0259l",
+        "definitions": [
+            {
+                "text": "An electrical impulse or radio wave transmitted.",
+                "examples": [
+                    "Wi-Fi signal is strong here.",
+                    "The phone signal dropped in the tunnel."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Technology",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Digital_Devices"
+    },
+    {
+        "id": "A1-NOUN-COM-129",
+        "word": "site",
+        "emoji": "\ud83c\udf10",
+        "form": "noun",
+        "transcription": "sa\u026at",
+        "definitions": [
+            {
+                "text": "A website or location.",
+                "examples": [
+                    "Visit the school web site.",
+                    "Bookmark the educational site."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Technology",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Digital_Devices"
+    },
+    {
+        "id": "A1-NOUN-COM-130",
+        "word": "software",
+        "emoji": "\ud83d\udcbb",
+        "form": "noun",
+        "transcription": "\u02c8s\u0254\u02d0ft\u02ccw\u025br",
+        "definitions": [
+            {
+                "text": "Programs and operating information used by a computer.",
+                "examples": [
+                    "Update your computer software.",
+                    "The software is easy to install."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Technology",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Digital_Devices"
+    },
+    {
+        "id": "A1-NOUN-COM-131",
+        "word": "system",
+        "emoji": "\u2699\ufe0f",
+        "form": "noun",
+        "transcription": "\u02c8s\u026ast\u0259m",
+        "definitions": [
+            {
+                "text": "A set of computer equipment or connected things.",
+                "examples": [
+                    "The security system operates continuously.",
+                    "Restart the operating system."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Technology",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Digital_Devices"
+    },
+    {
+        "id": "A1-NOUN-COM-132",
+        "word": "user",
+        "emoji": "\ud83d\udc64",
+        "form": "noun",
+        "transcription": "\u02c8ju\u02d0z\u0259r",
+        "definitions": [
+            {
+                "text": "A person who uses or operates a computer or service.",
+                "examples": [
+                    "New users must register an account.",
+                    "User feedback improves the app."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Technology",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Digital_Devices"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

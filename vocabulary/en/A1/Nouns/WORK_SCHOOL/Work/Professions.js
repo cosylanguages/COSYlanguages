@@ -692,8 +692,219 @@
         "subcategory": "Work",
         "pos_section": "Nouns",
         "sub_subcategory": "Professions"
+    },
+    {
+        "id": "A1-NOUN-WOR-067",
+        "word": "builder",
+        "emoji": "\ud83d\udc77",
+        "form": "noun",
+        "transcription": "\u02c8b\u026ald\u0259r",
+        "definitions": [
+            {
+                "text": "A person who constructs or repairs buildings.",
+                "examples": [
+                    "The builder repaired our roof.",
+                    "Call a builder to fix the wall."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Professions"
+    },
+    {
+        "id": "A1-NOUN-WOR-068",
+        "word": "cleaner",
+        "emoji": "\ud83e\uddf9",
+        "form": "noun",
+        "transcription": "\u02c8kli\u02d0n\u0259r",
+        "definitions": [
+            {
+                "text": "A person employed to clean houses or offices.",
+                "examples": [
+                    "The cleaner comes every Tuesday.",
+                    "The office cleaner dusted all tables."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Professions"
+    },
+    {
+        "id": "A1-NOUN-WOR-069",
+        "word": "journalist",
+        "emoji": "\ud83d\udcf0",
+        "form": "noun",
+        "transcription": "\u02c8\u02a4\u025c\u02d0rn\u0259l\u0259st",
+        "definitions": [
+            {
+                "text": "A person who writes news reports for newspapers or TV.",
+                "examples": [
+                    "The journalist interviewed the mayor.",
+                    "She works as a TV journalist."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Professions"
+    },
+    {
+        "id": "A1-NOUN-WOR-070",
+        "word": "lawyer",
+        "emoji": "\u2696\ufe0f",
+        "form": "noun",
+        "transcription": "\u02c8l\u0254\u02d0j\u0259r",
+        "definitions": [
+            {
+                "text": "A person who practices law.",
+                "examples": [
+                    "She consulted a lawyer before signing.",
+                    "The lawyer represented his client."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Professions"
+    },
+    {
+        "id": "A1-NOUN-WOR-071",
+        "word": "musician",
+        "emoji": "\ud83c\udfb5",
+        "form": "noun",
+        "transcription": "mju\u02d0\u02c8z\u026a\u0283\u0259n",
+        "definitions": [
+            {
+                "text": "A person who plays a musical instrument or writes music.",
+                "examples": [
+                    "The street musician played violin.",
+                    "She is a talented musician."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Professions"
+    },
+    {
+        "id": "A1-NOUN-WOR-072",
+        "word": "officer",
+        "emoji": "\ud83d\udc6e",
+        "form": "noun",
+        "transcription": "\u02c8\u0251\u02d0f\u0259s\u0259r",
+        "definitions": [
+            {
+                "text": "A person holding a position of command or authority.",
+                "examples": [
+                    "The police officer directed traffic.",
+                    "A customs officer checked our bags."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Professions"
+    },
+    {
+        "id": "A1-NOUN-WOR-073",
+        "word": "painter",
+        "emoji": "\ud83d\udd8c\ufe0f",
+        "form": "noun",
+        "transcription": "\u02c8pe\u026ant\u0259r",
+        "definitions": [
+            {
+                "text": "An artist who paints pictures or decorates buildings.",
+                "examples": [
+                    "The painter decorated our living room.",
+                    "A landscape painter painted the valley."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Professions"
+    },
+    {
+        "id": "A1-NOUN-WOR-074",
+        "word": "photographer",
+        "emoji": "\ud83d\udcf7",
+        "form": "noun",
+        "transcription": "f\u0259\u02c8t\u0251\u02d0\u0261r\u0259f\u0259r",
+        "definitions": [
+            {
+                "text": "A person who takes photographs professionally.",
+                "examples": [
+                    "The photographer took wedding photos.",
+                    "She works as a fashion photographer."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Professions"
+    },
+    {
+        "id": "A1-NOUN-WOR-075",
+        "word": "secretary",
+        "emoji": "\u2328\ufe0f",
+        "form": "noun",
+        "transcription": "\u02c8s\u025bkr\u0259\u02cct\u025bri",
+        "definitions": [
+            {
+                "text": "An administrative assistant in an office.",
+                "examples": [
+                    "The secretary scheduled our appointment.",
+                    "Send your documents to the secretary."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "WORK_SCHOOL",
+        "subcategory": "Work",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Professions"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

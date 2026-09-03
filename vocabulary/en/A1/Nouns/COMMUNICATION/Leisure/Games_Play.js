@@ -203,8 +203,81 @@
         "subcategory": "Leisure",
         "pos_section": "Nouns",
         "sub_subcategory": "Games_Play"
+    },
+    {
+        "id": "A1-NOUN-COM-089",
+        "word": "board game",
+        "emoji": "\ud83c\udfb2",
+        "form": "noun",
+        "transcription": "b\u0254\u02d0rd \u0261e\u026am",
+        "definitions": [
+            {
+                "text": "A game played with counters or cards on a board.",
+                "examples": [
+                    "Chess is a strategic board game.",
+                    "We played board games on rainy days."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Leisure",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Games_Play"
+    },
+    {
+        "id": "A1-NOUN-COM-090",
+        "word": "chess",
+        "emoji": "\u265f\ufe0f",
+        "form": "noun",
+        "transcription": "\u02a7\u025bs",
+        "definitions": [
+            {
+                "text": "A two-player strategy board game.",
+                "examples": [
+                    "My father taught me to play chess.",
+                    "Chess requires careful concentration."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Leisure",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Games_Play"
+    },
+    {
+        "id": "A1-NOUN-COM-091",
+        "word": "puzzle",
+        "emoji": "\ud83e\udde9",
+        "form": "noun",
+        "transcription": "\u02c8p\u028cz\u0259l",
+        "definitions": [
+            {
+                "text": "A game or problem designed to test ingenuity.",
+                "examples": [
+                    "Solve the jigsaw puzzle.",
+                    "Crossword puzzles keep the mind active."
+                ]
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "level_code": "A1",
+        "domain": "COMMUNICATION",
+        "subcategory": "Leisure",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Games_Play"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();
