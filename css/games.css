@@ -428,3 +428,21 @@ body.theme-dark .btn-gender {
     font-size: 0.85rem;
     font-weight: 500;
 }
+
+/* ── Games Hub Hero & Card Theme Extensions ── */
+.hero-inner-centered {
+  display: block;
+  text-align: center;
+}
+
+.gc-teal { --card-accent: var(--teal); --card-bg: var(--teal-light); }
+.gc-coral { --card-accent: var(--coral); --card-bg: var(--coral-light); }
+.gc-plum { --card-accent: var(--plum); --card-bg: var(--plum-light); }
+.gc-rose { --card-accent: var(--rose); --card-bg: var(--rose-light); }
+.gc-sage { --card-accent: var(--sage-dark); --card-bg: var(--sage-light); }
+.gc-blue { --card-accent: var(--blue); --card-bg: var(--blue-light); }
+.gc-indigo { --card-accent: var(--indigo); --card-bg: rgba(79,70,229,0.08); }
+.gc-navy { --card-accent: var(--navy); --card-bg: var(--navy-light); }
+.gc-gold { --card-accent: var(--gold); --card-bg: var(--gold-light); }
+.gc-ink { --card-accent: var(--ink); --card-bg: var(--tan); }
+.gc-pink { --card-accent: #d53f8c; --card-bg: #fff5f7; }
