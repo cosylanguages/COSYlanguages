@@ -5,133 +5,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>COSYlanguages English Communication Manuals Hub (Levels A1–C1) · COSYlanguages</title>
 <meta name="description" content="The master directory for all English Communication Manuals across CEFR levels A1, A2, B1, B2, and C1.">
-<style>
-  :root {
-    --brand-teal: #0c3f38;
-    --brand-teal-light: #e4f4f0;
-    --paper-bg: #faf8f3;
-    --card-bg: #ffffff;
-    --text-ink: #132321;
-    --text-soft: #3c5450;
-    --line-border: #e6e2d8;
-  }
-  body {
-    background: var(--paper-bg);
-    color: var(--text-ink);
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
-    margin: 0;
-    line-height: 1.65;
-  }
-  .topbar {
-    background: var(--brand-teal);
-    color: #fff;
-    padding: 12px 24px;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-  }
-  .topbar-inner {
-    max-width: 1080px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .topbar a {
-    color: #eafaf5;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 14px;
-  }
-  .hero-hub {
-    background: linear-gradient(135deg, var(--brand-teal), #157c6c);
-    color: #fff;
-    padding: 60px 24px 50px;
-    text-align: center;
-  }
-  .hero-hub h1 {
-    font-family: 'Nunito', 'Poppins', system-ui, sans-serif;
-    font-size: clamp(32px, 5.5vw, 48px);
-    font-weight: 900;
-    margin: 10px 0;
-  }
-  .hero-hub p {
-    max-width: 680px;
-    margin: 0 auto 24px;
-    font-size: 18px;
-    opacity: 0.9;
-  }
-  .hub-container {
-    max-width: 1040px;
-    margin: -30px auto 60px;
-    padding: 0 24px;
-  }
-  .levels-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 20px;
-  }
-  .level-card {
-    background: var(--card-bg);
-    border: 1px solid var(--line-border);
-    border-radius: 18px;
-    padding: 24px;
-    box-shadow: 0 8px 24px -12px rgba(19, 35, 33, 0.15);
-    transition: transform 0.2s, box-shadow 0.2s;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .level-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 14px 32px -12px rgba(19, 35, 33, 0.25);
-  }
-  .level-card .badge {
-    display: inline-block;
-    padding: 4px 12px;
-    border-radius: 99px;
-    font-size: 11px;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    margin-bottom: 12px;
-    background: var(--brand-teal-light);
-    color: var(--brand-teal);
-  }
-  .level-card h2 {
-    font-family: 'Nunito', 'Poppins', system-ui, sans-serif;
-    font-size: 22px;
-    font-weight: 800;
-    margin: 0 0 8px;
-  }
-  .level-card p {
-    color: var(--text-soft);
-    font-size: 14.5px;
-    margin-bottom: 20px;
-  }
-  .level-card .btn-open {
-    display: inline-block;
-    text-align: center;
-    background: var(--brand-teal);
-    color: #fff;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 14.5px;
-    padding: 12px 20px;
-    border-radius: 12px;
-    transition: background 0.2s;
-  }
-  .level-card .btn-open:hover {
-    background: #157c6c;
-  }
-</style>
+<link rel="stylesheet" href="../../../css/tokens.css">
+<link rel="stylesheet" href="../../../css/base.css">
+<link rel="stylesheet" href="../../../css/components.css">
+<link rel="stylesheet" href="../../../css/layout.css">
 </head>
 <body>
 
-<header class="topbar">
-  <div class="topbar-inner">
-    <a href="../english-a0-a1.html">← English Ecosystem</a>
-    <a href="../index.html">All COSY Manuals</a>
+<nav id="cosy-nav"></nav>
+
+<!-- Sticky Header -->
+<header class="sd-sticky-header">
+  <div class="sd-header-inner">
+    <nav class="sd-jump-links" aria-label="In-page section navigation">
+
+    </nav>
   </div>
 </header>
 
