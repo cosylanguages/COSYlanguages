@@ -27,6 +27,11 @@
                 labels: { en: "🚪 Bedroom →", fr: "🚪 Chambre →", it: "🚪 Camera →", ru: "🚪 Спальня →", el: "🚪 Υπνοδωμάτιο →" }
             },
             {
+                targetSceneId: "bathroom",
+                x: 210, y: 140, width: 35, height: 120, labelX: 228, labelY: 125,
+                labels: { en: "🚪 Bathroom →", fr: "🚪 S. de bain →", it: "🚪 Bagno →", ru: "🚪 Ванная →", el: "🚪 Μπάνιο →" }
+            },
+            {
                 targetSceneId: "kitchen",
                 x: 750, y: 140, width: 35, height: 230, labelX: 768, labelY: 125,
                 labels: { en: "🚪 Kitchen →", fr: "🚪 Cuisine →", it: "🚪 Cucina →", ru: "🚪 Кухня →", el: "🚪 Κουζίνα →" }
