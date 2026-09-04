@@ -161,6 +161,30 @@
   }
 }
 
+/* Portrait Bounce Animation for Dialogue Engine */
+@keyframes portraitBounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+/* Typing Cursor Animation */
+@keyframes cursorBlink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.cw-portrait-bounce {
+  animation: portraitBounce 2s infinite ease-in-out;
+}
+
+.cw-typing-cursor {
+  display: inline-block;
+  font-weight: 800;
+  color: var(--teal, #10b981);
+  animation: cursorBlink 0.8s infinite;
+  margin-left: 2px;
+}
+
 .cw-hotspot-glow {
   animation: hotspotGlow 2s infinite ease-in-out;
 }
