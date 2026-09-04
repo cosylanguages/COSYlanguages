@@ -34,7 +34,7 @@
                     ${LANG_OPTS.map(l => `<option value="${l.code}" ${l.code === lang ? 'selected' : ''}>${l.label}</option>`).join('')}
                 </select>
               </div>
-              <button class="btn-start-game" onclick="COSY_GAME.start()">▶ Start game</button>
+              <button class="btn-start-game" type="button" onclick="COSY_GAME.start()">▶ Start game</button>
             </div>`;
     }
 
@@ -47,14 +47,16 @@
         selectedWordId: null,
         sceneMatches: {},
 
-        start(sceneId) {
+        async start(sceneId) {
             const langSelect = document.getElementById('sm-s-lang');
             if (langSelect && langSelect.value) {
+                this.activeLang = langSelect.value;
                 if (window.setLanguage) {
-                    window.setLanguage(langSelect.value);
+                    await window.setLanguage(langSelect.value);
                 }
+            } else {
+                this.activeLang = (window.COSY_I18N && window.COSY_I18N.currentLang) || 'en';
             }
-            this.activeLang = (window.COSY_I18N && window.COSY_I18N.currentLang) || 'en';
             this.activeSceneId = sceneId || 'apartment';
             this.sceneMatches = {
                 apartment: new Set(),
@@ -110,6 +112,8 @@
                         const sTotal = sData.hotspots.length;
                         return `
                           <button class="sm-tab-btn ${key === this.activeSceneId ? 'active' : ''}"
+                                  type="button"
+                                  aria-label="View scene ${sTitle}"
                                   onclick="COSY_GAME.switchScene('${key}')">
                              ${sTitle} (${sMatched}/${sTotal})
                           </button>`;
@@ -144,6 +148,7 @@
                         return `
                           <button class="sm-word-btn"
                                   id="word-btn-${w.id}"
+                                  type="button"
                                   ${matched ? 'disabled' : ''}
                                   onclick="COSY_GAME.selectWord('${w.id}')">
                             ${w.word}
@@ -169,17 +174,22 @@
             doorsGroup.innerHTML = data.doors.map(door => {
                 const labelText = door.labels[lang] || door.labels['en'] || 'Door';
                 const approxWidth = labelText.length * 7 + 16;
+                const targetTitle = (window.COSY_SCENE_DATA[door.targetSceneId] && window.COSY_SCENE_DATA[door.targetSceneId].title && window.COSY_SCENE_DATA[door.targetSceneId].title[lang]) || door.targetSceneId;
+                let bgX = door.labelX - approxWidth / 2;
+                let textX = door.labelX;
+                if (bgX < 4) { bgX = 4; textX = bgX + approxWidth / 2; }
+                if (bgX + approxWidth > 796) { bgX = 796 - approxWidth; textX = bgX + approxWidth / 2; }
                 return `
                   <g class="sm-door-hotspot"
                      tabindex="0"
                      role="button"
-                     aria-label="Walkway to ${door.targetSceneId}"
+                     aria-label="Walkway to ${targetTitle}"
                      onclick="COSY_GAME.switchScene('${door.targetSceneId}')"
                      onkeydown="COSY_GAME.handleDoorKey(event, '${door.targetSceneId}')">
                     <rect x="${door.x}" y="${door.y}" width="${door.width}" height="${door.height}" rx="4" />
                     <g>
-                      <rect class="sm-door-bg" x="${door.labelX - approxWidth / 2}" y="${door.labelY - 12}" width="${approxWidth}" height="20" />
-                      <text class="sm-door-label" x="${door.labelX}" y="${door.labelY + 2}" text-anchor="middle">${labelText}</text>
+                      <rect class="sm-door-bg" x="${bgX}" y="${door.labelY - 12}" width="${approxWidth}" height="20" />
+                      <text class="sm-door-label" x="${textX}" y="${door.labelY + 2}" text-anchor="middle">${labelText}</text>
                     </g>
                   </g>`;
             }).join('');
@@ -208,7 +218,7 @@
                      id="hs-${hs.id}"
                      tabindex="${isMatched ? '-1' : '0'}"
                      role="button"
-                     aria-label="Object hotspot"
+                     aria-label="${ariaName} hotspot"
                      onclick="COSY_GAME.handleHotspotClick('${hs.id}')"
                      onkeydown="COSY_GAME.handleHotspotKey(event, '${hs.id}')">
                     <rect class="hs-hit" x="${hs.x}" y="${hs.y}" width="${hs.width}" height="${hs.height}" rx="8" />
@@ -385,8 +395,8 @@
                     <div class="sm-completion-msg">${compMsg}</div>
                     ${best ? `<div class="game-sub" style="margin-bottom:1.5rem">Personal best: ${best.score} pts</div>` : ''}
                     <div class="re-actions">
-                        <button class="btn-g-primary" onclick="COSY_GAME.start('apartment')">${playAgainText}</button>
-                        <button class="btn-g-secondary" onclick="COSY_GAME.reset()">Setup</button>
+                        <button class="btn-g-primary" type="button" onclick="COSY_GAME.start('apartment')">${playAgainText}</button>
+                        <button class="btn-g-secondary" type="button" onclick="COSY_GAME.reset()">Setup</button>
                     </div>
                 </div>`;
         }
