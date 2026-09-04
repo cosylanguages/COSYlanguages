@@ -4,6 +4,7 @@
     window.COSY_SCENE_DATA = window.COSY_SCENE_DATA || {};
     window.COSY_SCENE_DATA['park_nature'] = {
         id: 'park_nature',
+        imageUrl: 'images/scenes/park_nature.jpg',
         title: {
             en: "Park & Nature",
             fr: "Parc et Nature",

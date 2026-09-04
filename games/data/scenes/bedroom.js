@@ -4,6 +4,7 @@
     window.COSY_SCENE_DATA = window.COSY_SCENE_DATA || {};
     window.COSY_SCENE_DATA['bedroom'] = {
         id: 'bedroom',
+        imageUrl: 'images/scenes/bedroom.jpg',
         title: {
             en: "Bedroom",
             fr: "Chambre",

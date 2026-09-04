@@ -11,6 +11,7 @@
 
     window.COSY_SCENE_DATA.seasons = {
         id: 'seasons',
+        imageUrl: 'images/scenes/seasons.jpg',
         title: {
             en: 'Four Seasons',
             fr: 'Quatre saisons',

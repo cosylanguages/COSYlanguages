@@ -144,6 +144,7 @@
 
                 <div class="sm-stage">
                   <svg class="sm-svg-scene" viewBox="${data.viewBox}" xmlns="http://www.w3.org/2000/svg">
+                    ${data.imageUrl ? `<image href="${data.imageUrl}" x="0" y="0" width="100%" height="100%" preserveAspectRatio="xMidYMid slice"/>` : ''}
                     ${data.svgBackground}
                     <g id="sm-cultural-overlay">${this.renderCulturalOverlay()}</g>
 

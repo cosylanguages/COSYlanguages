@@ -4,6 +4,7 @@
     window.COSY_SCENE_DATA = window.COSY_SCENE_DATA || {};
     window.COSY_SCENE_DATA['cafe'] = {
         id: 'cafe',
+        imageUrl: 'images/scenes/cafe.jpg',
         title: {
             en: "Café & Bistro",
             fr: "Café et Bistro",
