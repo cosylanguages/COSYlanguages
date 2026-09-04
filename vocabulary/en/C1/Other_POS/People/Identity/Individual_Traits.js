@@ -1,53 +1,10 @@
 (function() {
     const lang = "en";
-    const data = [
-    {
-        "id": "C1-OTH-PEO-001",
-        "word": "Elon Musk",
-        "form": "other",
-        "definitions": [
-            {
-                "text": "Elon Musk",
-                "examples": []
-            }
-        ],
-        "lang": "en",
-        "level": "advanced",
-        "theme": "people",
-        "sub_theme": null,
-        "transcription": "",
-        "emoji": "\u2728",
-        "legacy_id": "C1-PEO-01",
-        "level_code": "C1",
-        "domain": "People",
-        "subcategory": "Identity",
-        "pos_section": "Other_POS",
-        "sub_subcategory": "Individual_Traits"
-    },
-    {
-        "id": "C1-OTH-PEO-002",
-        "word": "Nelson Mandela",
-        "form": "other",
-        "definitions": [
-            {
-                "text": "Nelson Mandela",
-                "examples": []
-            }
-        ],
-        "lang": "en",
-        "level": "advanced",
-        "theme": "people",
-        "sub_theme": null,
-        "transcription": "",
-        "emoji": "\u2728",
-        "legacy_id": "C1-PEO-02",
-        "level_code": "C1",
-        "domain": "People",
-        "subcategory": "Identity",
-        "pos_section": "Other_POS",
-        "sub_subcategory": "Individual_Traits"
+    const data = [];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
     }
-];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

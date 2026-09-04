@@ -7,11 +7,11 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "emoji": "\u2696\ufe0f",
+        "emoji": "⚖️",
         "form": "noun",
         "classification": "regular",
         "plural": "antinomies",
-        "transcription": "\u00e6n\u02c8t\u026an\u0259mi",
+        "transcription": "ænˈtɪnəmi",
         "definitions": [
             {
                 "text": "A contradiction between two apparently reasonable principles.",
@@ -35,10 +35,10 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "emoji": "\ud83e\udd2b",
+        "emoji": "🤫",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u0259\u02c8p\u0252f\u0259s\u026as | \ud83c\uddfa\ud83c\uddf8 \u0259\u02c8p\u0251\u02d0f\u0259s\u026as",
+        "transcription": "🇬🇧 əˈpɒfəsɪs | 🇺🇸 əˈpɑːfəsɪs",
         "definitions": [
             {
                 "text": "A rhetorical device of drawing attention to something by claiming not to mention it.",
@@ -62,10 +62,10 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "emoji": "\ud83e\udd14",
+        "emoji": "🤔",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\u0259\u02c8p\u0254\u02d0ri\u0259",
+        "transcription": "əˈpɔːriə",
         "definitions": [
             {
                 "text": "A state of puzzlement or difficulty arising from contradictions in an argument.",
@@ -89,10 +89,10 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "emoji": "\ud83d\udce3",
+        "emoji": "📣",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\u02cck\u00e6t\u0259\u02c8kri\u02d0s\u026as",
+        "transcription": "ˌkætəˈkriːsɪs",
         "definitions": [
             {
                 "text": "The deliberate misuse or stretching of a word to create meaning.",
@@ -116,11 +116,11 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "emoji": "\u274c",
+        "emoji": "❌",
         "form": "noun",
         "classification": "regular",
         "plural": "chiasmi",
-        "transcription": "ka\u026a\u02c8\u00e6zm\u0259s",
+        "transcription": "kaɪˈæzməs",
         "definitions": [
             {
                 "text": "A rhetorical device in which the second part is a reversal of the first.",
@@ -144,16 +144,16 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "emoji": "\ud83c\udfb2",
+        "emoji": "🎲",
         "form": "noun",
         "classification": "regular",
         "plural": "contingencies",
-        "transcription": "k\u0259n\u02c8t\u026and\u0292\u0259nsi",
+        "transcription": "kənˈtɪndʒənsi",
         "definitions": [
             {
                 "text": "The quality of being possible but not certain; dependent on circumstances.",
                 "examples": [
-                    "History is full of contingency \u2014 it could always have gone otherwise."
+                    "History is full of contingency — it could always have gone otherwise."
                 ]
             }
         ],
@@ -167,43 +167,15 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-NOUN-LAW-007",
-        "word": "dialectic",
-        "lang": "en",
-        "level": "proficiency",
-        "theme": "language",
-        "emoji": "\u2696\ufe0f",
-        "form": "noun",
-        "classification": "regular",
-        "plural": "dialectics",
-        "transcription": "\u02ccda\u026a\u0259\u02c8lekt\u026ak",
-        "definitions": [
-            {
-                "text": "A method of argument involving contradiction and resolution; or the tension between opposing forces.",
-                "examples": [
-                    "The dialectic between freedom and security defines liberal thought."
-                ]
-            }
-        ],
-        "countability": "countable",
-        "subtext": "argument by contradiction",
-        "legacy_id": "C2-LAW-19",
-        "level_code": "C2",
-        "domain": "LAW",
-        "subcategory": "Legal_System",
-        "pos_section": "Nouns",
-        "sub_subcategory": "General_Law"
-    },
-    {
         "id": "C2-NOUN-LAW-008",
         "word": "entropy",
         "lang": "en",
         "level": "proficiency",
         "theme": "time",
-        "emoji": "\ud83c\udf2a\ufe0f",
+        "emoji": "🌪️",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\u02c8entr\u0259pi",
+        "transcription": "ˈentrəpi",
         "definitions": [
             {
                 "text": "The tendency of systems to move toward disorder; also used metaphorically for decline.",
@@ -227,9 +199,9 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "emoji": "\u2696\ufe0f",
+        "emoji": "⚖️",
         "form": "noun phrase",
-        "transcription": "\u02ccep\u026a\u02c8sti\u02d0m\u026ak \u026an\u02c8d\u0292\u028cst\u026as",
+        "transcription": "ˌepɪˈstiːmɪk ɪnˈdʒʌstɪs",
         "definitions": [
             {
                 "text": "A wrong done to someone in their capacity as a knower, such as dismissing their testimony.",
@@ -252,10 +224,10 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "time",
-        "emoji": "\ud83c\udf0b",
+        "emoji": "🌋",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02ccesk\u0259\u02c8t\u0252l\u0259d\u0292i | \ud83c\uddfa\ud83c\uddf8 \u02ccesk\u0259\u02c8t\u0251\u02d0l\u0259d\u0292i",
+        "transcription": "🇬🇧 ˌeskəˈtɒlədʒi | 🇺🇸 ˌeskəˈtɑːlədʒi",
         "definitions": [
             {
                 "text": "Theological or philosophical doctrine about the ultimate fate of the world or humanity.",
@@ -279,10 +251,10 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "time",
-        "emoji": "\u23f3",
+        "emoji": "⏳",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\u02c8f\u026an\u026atju\u02d0d",
+        "transcription": "ˈfɪnɪtjuːd",
         "definitions": [
             {
                 "text": "The state of having limits; especially the fact of being mortal.",
@@ -306,10 +278,10 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "emoji": "\ud83d\udcdc",
+        "emoji": "📜",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\u02cch\u025c\u02d0m\u026a\u02c8nju\u02d0t\u026aks",
+        "transcription": "ˌhɜːmɪˈnjuːtɪks",
         "definitions": [
             {
                 "text": "The theory and methodology of interpretation, especially of texts.",
@@ -333,10 +305,10 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "emoji": "\ud83d\udeaa",
+        "emoji": "🚪",
         "form": "noun phrase",
         "plural": "liminal spaces",
-        "transcription": "\u02c8l\u026am\u026anl spe\u026as",
+        "transcription": "ˈlɪmɪnl speɪs",
         "definitions": [
             {
                 "text": "A transitional phase or threshold moment between two states of being.",
@@ -359,10 +331,10 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "time",
-        "emoji": "\ud83d\udcfb",
+        "emoji": "📻",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\ud83c\uddec\ud83c\udde7 n\u0252\u02c8st\u00e6ld\u0292\u0259 | \ud83c\uddfa\ud83c\uddf8 n\u0251\u02d0\u02c8st\u00e6ld\u0292\u0259",
+        "transcription": "🇬🇧 nɒˈstældʒə | 🇺🇸 nɑːˈstældʒə",
         "definitions": [
             {
                 "text": "A sentimental longing for the past, sometimes idealised.",
@@ -381,42 +353,15 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-NOUN-LAW-015",
-        "word": "ontology",
-        "lang": "en",
-        "level": "proficiency",
-        "theme": "language",
-        "emoji": "\ud83d\udc7b",
-        "form": "noun",
-        "classification": "regular",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u0252n\u02c8t\u0252l\u0259d\u0292i | \ud83c\uddfa\ud83c\uddf8 \u0251\u02d0n\u02c8t\u0251\u02d0l\u0259d\u0292i",
-        "definitions": [
-            {
-                "text": "The branch of philosophy concerned with the nature of being or existence.",
-                "examples": [
-                    "Her ontological commitments shape her entire argument."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "nature of being",
-        "legacy_id": "C2-LAW-61",
-        "level_code": "C2",
-        "domain": "LAW",
-        "subcategory": "Legal_System",
-        "pos_section": "Nouns",
-        "sub_subcategory": "General_Law"
-    },
-    {
         "id": "C2-NOUN-LAW-016",
         "word": "paralepsis",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "emoji": "\ud83d\ude4a",
+        "emoji": "🙊",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\u02ccp\u00e6r\u0259\u02c8leps\u026as",
+        "transcription": "ˌpærəˈlepsɪs",
         "definitions": [
             {
                 "text": "Another term for apophasis; pretending to pass over something while actually emphasising it.",
@@ -440,10 +385,10 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "emoji": "\ud83e\udde0",
+        "emoji": "🧠",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\ud83c\uddec\ud83c\udde7 f\u0259\u02ccn\u0252m\u026a\u02c8n\u0252l\u0259d\u0292i | \ud83c\uddfa\ud83c\uddf8 f\u0259\u02ccn\u0251\u02d0m\u026a\u02c8n\u0251\u02d0l\u0259d\u0292i",
+        "transcription": "🇬🇧 fəˌnɒmɪˈnɒlədʒi | 🇺🇸 fəˌnɑːmɪˈnɑːlədʒi",
         "definitions": [
             {
                 "text": "The philosophical study of structures of experience and consciousness.",
@@ -467,10 +412,10 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "emoji": "\ud83d\udd20",
+        "emoji": "🔠",
         "form": "noun",
         "classification": "regular",
-        "transcription": "p\u0259\u02c8l\u026as\u026ami",
+        "transcription": "pəˈlɪsɪmi",
         "definitions": [
             {
                 "text": "The property of a word or phrase having multiple related meanings.",
@@ -489,43 +434,16 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C2-NOUN-LAW-019",
-        "word": "reification",
-        "lang": "en",
-        "level": "proficiency",
-        "theme": "language",
-        "emoji": "\ud83e\uddf1",
-        "form": "noun",
-        "classification": "regular",
-        "transcription": "\u02ccri\u02d0\u026af\u026a\u02c8ke\u026a\u0283n",
-        "definitions": [
-            {
-                "text": "The process of treating something abstract as if it were a concrete, real thing.",
-                "examples": [
-                    "Reification of market forces masks the human decisions behind them."
-                ]
-            }
-        ],
-        "countability": "uncountable",
-        "subtext": "making abstract concrete",
-        "legacy_id": "C2-LAW-74",
-        "level_code": "C2",
-        "domain": "LAW",
-        "subcategory": "Legal_System",
-        "pos_section": "Nouns",
-        "sub_subcategory": "General_Law"
-    },
-    {
         "id": "C2-NOUN-LAW-020",
         "word": "shibboleth",
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "emoji": "\ud83d\udd11",
+        "emoji": "🔑",
         "form": "noun",
         "classification": "regular",
         "plural": "shibboleths",
-        "transcription": "\u02c8\u0283\u026ab\u0259le\u03b8",
+        "transcription": "ˈʃɪbəleθ",
         "definitions": [
             {
                 "text": "A custom, phrase, or belief used to identify members of a particular group.",
@@ -549,10 +467,10 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "emoji": "\ud83c\udfaf",
+        "emoji": "🎯",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02ccti\u02d0li\u02c8\u0252l\u0259d\u0292i | \ud83c\uddfa\ud83c\uddf8 \u02ccti\u02d0li\u02c8\u0251\u02d0l\u0259d\u0292i",
+        "transcription": "🇬🇧 ˌtiːliˈɒlədʒi | 🇺🇸 ˌtiːliˈɑːlədʒi",
         "definitions": [
             {
                 "text": "The philosophical study of purpose or goal-directedness in nature or history.",
@@ -574,7 +492,7 @@
         "id": "A1-NOUN-SEL-098",
         "word": "jurisprudence",
         "form": "noun",
-        "transcription": "\u02ccd\u0292\u028ar\u026as\u02c8pru\u02d0dns",
+        "transcription": "ˌdʒʊrɪsˈpruːdns",
         "definitions": [
             {
                 "text": "The theory or philosophy of law.",
@@ -583,7 +501,7 @@
                 ]
             }
         ],
-        "emoji": "\ud83d\udcdc",
+        "emoji": "📜",
         "lang": "en",
         "level": "c2",
         "level_code": "C2",
@@ -594,6 +512,10 @@
         "sub_subcategory": "General_Law"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

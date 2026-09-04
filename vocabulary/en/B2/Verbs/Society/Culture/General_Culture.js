@@ -4,10 +4,10 @@
     {
         "id": "B2-VERB-SOC-001",
         "lang": "en",
-        "transcription": "\u02ccn\u025bv\u0259\u00f0\u0259\u02c8l\u025bs",
+        "transcription": "ˌnɛvəðəˈlɛs",
         "level": "upper_intermediate",
         "theme": "language",
-        "emoji": "\ud83c\udfc3\u200d\u2642\ufe0f",
+        "emoji": "🏃‍♂️",
         "form": "adverb",
         "subtext": "",
         "synonyms": [
@@ -34,9 +34,9 @@
     {
         "id": "B2-VERB-SOC-002",
         "word": "account for",
-        "emoji": "\ud83d\udcdd",
+        "emoji": "📝",
         "form": "verb",
-        "transcription": "\u0259\u02c8ka\u028ant f\u0254\u02d0",
+        "transcription": "əˈkaʊnt fɔː",
         "subtext": "Neutral | account for something / account for the difference / hard to account for",
         "definitions": [
             {
@@ -65,143 +65,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-003",
-        "word": "acknowledge",
-        "emoji": "\u2705",
-        "form": "verb",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u0259k\u02c8n\u0252l\u026ad\u0292 | \ud83c\uddfa\ud83c\uddf8 \u0259k\u02c8n\u0251\u02d0l\u026ad\u0292",
-        "subtext": "Neutral | acknowledge a weakness / acknowledge that / widely acknowledged",
-        "definitions": [
-            {
-                "text": "To recognise or accept the existence of something.",
-                "examples": [
-                    "He acknowledged the limitations of his own argument clearly."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "acknowledged",
-        "v3": "acknowledged",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "acknowledging",
-        "lang": "en",
-        "level": "upper_intermediate",
-        "theme": "describing",
-        "sub_theme": null,
-        "legacy_id": "B2-SOC-12",
-        "level_code": "B2",
-        "domain": "Society",
-        "subcategory": "Culture",
-        "pos_section": "Verbs",
-        "sub_subcategory": "General_Culture"
-    },
-    {
-        "id": "B2-VERB-SOC-004",
-        "word": "adopt",
-        "emoji": "\u2705",
-        "form": "verb",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u0259\u02c8d\u0252pt | \ud83c\uddfa\ud83c\uddf8 \u0259\u02c8d\u0251\u02d0pt",
-        "subtext": "Neutral | adopt a policy / adopt an approach / adopt a new system",
-        "definitions": [
-            {
-                "text": "To take on a new approach, idea or policy.",
-                "examples": [
-                    "The company adopted a fully remote working model in 2020."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "adopted",
-        "v3": "adopted",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "adopting",
-        "lang": "en",
-        "level": "upper_intermediate",
-        "theme": "describing",
-        "sub_theme": null,
-        "legacy_id": "B2-SOC-14",
-        "level_code": "B2",
-        "domain": "Society",
-        "subcategory": "Culture",
-        "pos_section": "Verbs",
-        "sub_subcategory": "General_Culture"
-    },
-    {
-        "id": "B2-VERB-SOC-005",
-        "word": "affect",
-        "emoji": "\u2728",
-        "form": "verb",
-        "transcription": "\u0259\u02c8f\u025bkt",
-        "subtext": "Neutral | affect someone / negatively affect / affect the result",
-        "definitions": [
-            {
-                "text": "To produce a change in someone or something.",
-                "examples": [
-                    "The merger affected every single department in the organisation."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "affected",
-        "v3": "affected",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "affecting",
-        "lang": "en",
-        "level": "upper_intermediate",
-        "theme": "describing",
-        "sub_theme": null,
-        "legacy_id": "B2-SOC-15",
-        "level_code": "B2",
-        "domain": "Society",
-        "subcategory": "Culture",
-        "pos_section": "Verbs",
-        "sub_subcategory": "General_Culture"
-    },
-    {
-        "id": "B2-VERB-SOC-006",
-        "word": "argue",
-        "emoji": "\ud83d\udde3\ufe0f",
-        "form": "verb",
-        "transcription": "\u02c8\u0251\u02d0\u0261ju\u02d0",
-        "subtext": "Neutral | argue that / argue for / argue against / strongly argue",
-        "definitions": [
-            {
-                "text": "To present reasons in support of a position.",
-                "examples": [
-                    "She argues that automation creates more jobs than it destroys."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "argued",
-        "v3": "argued",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "arguing",
-        "lang": "en",
-        "level": "upper_intermediate",
-        "theme": "language",
-        "sub_theme": null,
-        "legacy_id": "B2-SOC-17",
-        "level_code": "B2",
-        "domain": "Society",
-        "subcategory": "Culture",
-        "pos_section": "Verbs",
-        "sub_subcategory": "General_Culture"
-    },
-    {
         "id": "B2-VERB-SOC-007",
         "word": "assert",
-        "emoji": "\ud83d\udce3",
+        "emoji": "📣",
         "form": "verb",
-        "transcription": "\u0259\u02c8s\u025c\u02d0t",
+        "transcription": "əˈsɜːt",
         "subtext": "Formal | assert that / assert a right / boldly assert",
         "definitions": [
             {
@@ -230,44 +98,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-008",
-        "word": "assume",
-        "emoji": "\ud83e\udd14",
-        "form": "verb",
-        "transcription": "\u0259\u02c8sju\u02d0m",
-        "subtext": "Neutral | assume that / dangerous to assume / underlying assumption",
-        "definitions": [
-            {
-                "text": "To accept something as true without proof.",
-                "examples": [
-                    "Do not assume that everyone agrees with you on this."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "assumed",
-        "v3": "assumed",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "assuming",
-        "lang": "en",
-        "level": "upper_intermediate",
-        "theme": "describing",
-        "sub_theme": null,
-        "legacy_id": "B2-SOC-19",
-        "level_code": "B2",
-        "domain": "Society",
-        "subcategory": "Culture",
-        "pos_section": "Verbs",
-        "sub_subcategory": "General_Culture"
-    },
-    {
         "id": "B2-VERB-SOC-009",
         "word": "attribute",
-        "emoji": "\ud83c\udff7\ufe0f",
+        "emoji": "🏷️",
         "form": "verb",
-        "transcription": "\u0259\u02c8tr\u026abju\u02d0t",
+        "transcription": "əˈtrɪbjuːt",
         "subtext": "Formal | attribute to / be attributed to / wrongly attribute",
         "definitions": [
             {
@@ -298,9 +133,9 @@
     {
         "id": "B2-VERB-SOC-010",
         "word": "build on",
-        "emoji": "\ud83c\udfd7\ufe0f",
+        "emoji": "🏗️",
         "form": "verb",
-        "transcription": "\ud83c\uddec\ud83c\udde7 b\u026ald \u0252n | \ud83c\uddfa\ud83c\uddf8 b\u026ald \u0251\u02d0n",
+        "transcription": "🇬🇧 bɪld ɒn | 🇺🇸 bɪld ɑːn",
         "subtext": "Neutral | build on success / build on experience / build on foundations",
         "definitions": [
             {
@@ -330,9 +165,9 @@
     {
         "id": "B2-VERB-SOC-011",
         "word": "challenge",
-        "emoji": "\u2753",
+        "emoji": "❓",
         "form": "verb",
-        "transcription": "\u02c8t\u0283\u00e6l\u026and\u0292",
+        "transcription": "ˈtʃælɪndʒ",
         "subtext": "Neutral | challenge an assumption / challenge a claim / challenge the status quo",
         "definitions": [
             {
@@ -363,9 +198,9 @@
     {
         "id": "B2-VERB-SOC-012",
         "word": "concede",
-        "emoji": "\ud83c\udff3\ufe0f",
+        "emoji": "🏳️",
         "form": "verb",
-        "transcription": "k\u0259n\u02c8si\u02d0d",
+        "transcription": "kənˈsiːd",
         "subtext": "Formal | concede a point / concede that / forced to concede",
         "definitions": [
             {
@@ -396,9 +231,9 @@
     {
         "id": "B2-VERB-SOC-013",
         "word": "constitute",
-        "emoji": "\ud83e\uddf1",
+        "emoji": "🧱",
         "form": "verb",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8k\u0252nst\u026atju\u02d0t | \ud83c\uddfa\ud83c\uddf8 \u02c8k\u0251\u02d0nst\u026atju\u02d0t",
+        "transcription": "🇬🇧 ˈkɒnstɪtjuːt | 🇺🇸 ˈkɑːnstɪtjuːt",
         "subtext": "Formal | constitute a breach / constitute evidence / constitute a problem",
         "definitions": [
             {
@@ -429,9 +264,9 @@
     {
         "id": "B2-VERB-SOC-014",
         "word": "contend",
-        "emoji": "\ud83d\udde3\ufe0f",
+        "emoji": "🗣️",
         "form": "verb",
-        "transcription": "k\u0259n\u02c8t\u025bnd",
+        "transcription": "kənˈtɛnd",
         "subtext": "Formal | contend that / strongly contend / the argument contends",
         "definitions": [
             {
@@ -460,44 +295,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-015",
-        "word": "contribute",
-        "emoji": "\ud83e\udd1d",
-        "form": "verb",
-        "transcription": "k\u0259n\u02c8tr\u026abju\u02d0t",
-        "subtext": "Neutral | contribute to / contribute to success / make a contribution",
-        "definitions": [
-            {
-                "text": "To add to something; to help cause a result.",
-                "examples": [
-                    "Many factors contributed to the company's poor performance."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "contributed",
-        "v3": "contributed",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "contributing",
-        "lang": "en",
-        "level": "upper_intermediate",
-        "theme": "describing",
-        "sub_theme": null,
-        "legacy_id": "B2-SOC-30",
-        "level_code": "B2",
-        "domain": "Society",
-        "subcategory": "Culture",
-        "pos_section": "Verbs",
-        "sub_subcategory": "General_Culture"
-    },
-    {
         "id": "B2-VERB-SOC-016",
         "word": "counter",
-        "emoji": "\ud83d\udee1\ufe0f",
+        "emoji": "🛡️",
         "form": "verb",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8ka\u028ant\u0259 | \ud83c\uddfa\ud83c\uddf8 \u02c8ka\u028ant\u0259r",
+        "transcription": "🇬🇧 ˈkaʊntə | 🇺🇸 ˈkaʊntər",
         "subtext": "Formal | counter an argument / counter a claim / offer a counter",
         "definitions": [
             {
@@ -528,9 +330,9 @@
     {
         "id": "B2-VERB-SOC-017",
         "word": "demonstrate",
-        "emoji": "\ud83d\udcca",
+        "emoji": "📊",
         "form": "verb",
-        "transcription": "\u02c8d\u025bm\u0259nstre\u026at",
+        "transcription": "ˈdɛmənstreɪt",
         "subtext": "Neutral | demonstrate a skill / demonstrate that / demonstrate commitment",
         "definitions": [
             {
@@ -561,9 +363,9 @@
     {
         "id": "B2-VERB-SOC-018",
         "word": "dispute",
-        "emoji": "\ud83d\udeab",
+        "emoji": "🚫",
         "form": "verb",
-        "transcription": "d\u026a\u02c8spju\u02d0t",
+        "transcription": "dɪˈspjuːt",
         "subtext": "Formal | dispute a claim / dispute findings / hotly disputed",
         "definitions": [
             {
@@ -594,9 +396,9 @@
     {
         "id": "B2-VERB-SOC-019",
         "word": "draw on",
-        "emoji": "\ud83d\udcda",
+        "emoji": "📚",
         "form": "verb",
-        "transcription": "\ud83c\uddec\ud83c\udde7 dr\u0254\u02d0 \u0252n | \ud83c\uddfa\ud83c\uddf8 dr\u0254\u02d0 \u0251\u02d0n",
+        "transcription": "🇬🇧 drɔː ɒn | 🇺🇸 drɔː ɑːn",
         "subtext": "Neutral | draw on experience / draw on resources / draw on expertise",
         "definitions": [
             {
@@ -626,9 +428,9 @@
     {
         "id": "B2-VERB-SOC-020",
         "word": "emerge",
-        "emoji": "\ud83c\udf31",
+        "emoji": "🌱",
         "form": "verb",
-        "transcription": "\u026a\u02c8m\u025c\u02d0d\u0292",
+        "transcription": "ɪˈmɜːdʒ",
         "subtext": "Formal | emerge from / emerge as / emerge as a leader",
         "definitions": [
             {
@@ -659,9 +461,9 @@
     {
         "id": "B2-VERB-SOC-021",
         "word": "emphasise",
-        "emoji": "\ud83c\udfaf",
+        "emoji": "🎯",
         "form": "verb",
-        "transcription": "\u02c8\u025bmf\u0259sa\u026az",
+        "transcription": "ˈɛmfəsaɪz",
         "subtext": "Formal | emphasise the importance / emphasise a point / strongly emphasise",
         "definitions": [
             {
@@ -692,9 +494,9 @@
     {
         "id": "B2-VERB-SOC-022",
         "word": "enable",
-        "emoji": "\ud83d\udd13",
+        "emoji": "🔓",
         "form": "verb",
-        "transcription": "\u026a\u02c8ne\u026abl",
+        "transcription": "ɪˈneɪbl",
         "subtext": "Formal | enable someone to / enable growth / enable change",
         "definitions": [
             {
@@ -725,9 +527,9 @@
     {
         "id": "B2-VERB-SOC-023",
         "word": "enhance",
-        "emoji": "\u2728",
+        "emoji": "✨",
         "form": "verb",
-        "transcription": "\u026an\u02c8h\u0251\u02d0ns",
+        "transcription": "ɪnˈhɑːns",
         "subtext": "Formal | enhance performance / enhance the quality / enhance productivity",
         "definitions": [
             {
@@ -758,9 +560,9 @@
     {
         "id": "B2-VERB-SOC-024",
         "word": "ensure",
-        "emoji": "\u2705",
+        "emoji": "✅",
         "form": "verb",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u026an\u02c8\u0283\u028a\u0259 | \ud83c\uddfa\ud83c\uddf8 \u026an\u02c8\u0283\u028a\u0259r",
+        "transcription": "🇬🇧 ɪnˈʃʊə | 🇺🇸 ɪnˈʃʊər",
         "subtext": "Formal | ensure that / ensure quality / ensure compliance",
         "definitions": [
             {
@@ -791,9 +593,9 @@
     {
         "id": "B2-VERB-SOC-025",
         "word": "expose",
-        "emoji": "\ud83d\udd13",
+        "emoji": "🔓",
         "form": "verb",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u026ak\u02c8sp\u0259\u028az | \ud83c\uddfa\ud83c\uddf8 \u026ak\u02c8spo\u028az",
+        "transcription": "🇬🇧 ɪkˈspəʊz | 🇺🇸 ɪkˈspoʊz",
         "subtext": "Neutral | expose wrongdoing / expose someone to risk / be exposed to",
         "definitions": [
             {
@@ -824,9 +626,9 @@
     {
         "id": "B2-VERB-SOC-026",
         "word": "extend",
-        "emoji": "\u2194\ufe0f",
+        "emoji": "↔️",
         "form": "verb",
-        "transcription": "\u026ak\u02c8st\u025bnd",
+        "transcription": "ɪkˈstɛnd",
         "subtext": "Neutral | extend a contract / extend a deadline / extend beyond",
         "definitions": [
             {
@@ -857,9 +659,9 @@
     {
         "id": "B2-VERB-SOC-027",
         "word": "give rise to",
-        "emoji": "\ud83c\udf31",
+        "emoji": "🌱",
         "form": "verb",
-        "transcription": "\u0261\u026av ra\u026az tu\u02d0",
+        "transcription": "ɡɪv raɪz tuː",
         "subtext": "Formal | give rise to problems / give rise to debate / give rise to concerns",
         "definitions": [
             {
@@ -889,9 +691,9 @@
     {
         "id": "B2-VERB-SOC-028",
         "word": "highlight",
-        "emoji": "\ud83d\udd8d\ufe0f",
+        "emoji": "🖍️",
         "form": "verb",
-        "transcription": "\u02c8ha\u026ala\u026at",
+        "transcription": "ˈhaɪlaɪt",
         "subtext": "Neutral | highlight an issue / highlight a point / highlight the importance",
         "definitions": [
             {
@@ -922,9 +724,9 @@
     {
         "id": "B2-VERB-SOC-029",
         "word": "indicate",
-        "emoji": "\ud83d\udc49",
+        "emoji": "👉",
         "form": "verb",
-        "transcription": "\u02c8\u026and\u026ake\u026at",
+        "transcription": "ˈɪndɪkeɪt",
         "subtext": "Formal | indicate that / indicate a trend / clearly indicate",
         "definitions": [
             {
@@ -955,9 +757,9 @@
     {
         "id": "B2-VERB-SOC-030",
         "word": "infer",
-        "emoji": "\ud83d\udca1",
+        "emoji": "💡",
         "form": "verb",
-        "transcription": "\u026an\u02c8f\u025c\u02d0",
+        "transcription": "ɪnˈfɜː",
         "subtext": "Formal | infer from / reasonably infer / draw an inference",
         "definitions": [
             {
@@ -988,9 +790,9 @@
     {
         "id": "B2-VERB-SOC-031",
         "word": "justify",
-        "emoji": "\u2705",
+        "emoji": "✅",
         "form": "verb",
-        "transcription": "\u02c8d\u0292\u028cst\u026afa\u026a",
+        "transcription": "ˈdʒʌstɪfaɪ",
         "subtext": "Neutral | justify a decision / justify costs / hard to justify",
         "definitions": [
             {
@@ -1021,9 +823,9 @@
     {
         "id": "B2-VERB-SOC-032",
         "word": "maintain",
-        "emoji": "\ud83e\uddf1",
+        "emoji": "🧱",
         "form": "verb",
-        "transcription": "me\u026an\u02c8te\u026an",
+        "transcription": "meɪnˈteɪn",
         "subtext": "Formal | maintain that / firmly maintain / maintain a position",
         "definitions": [
             {
@@ -1052,44 +854,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-033",
-        "word": "obtain",
-        "emoji": "\ud83d\udce5",
-        "form": "verb",
-        "transcription": "\u0259b\u02c8te\u026an",
-        "subtext": "Formal | obtain permission / obtain a qualification / obtain information",
-        "definitions": [
-            {
-                "text": "To get or acquire something, especially with effort.",
-                "examples": [
-                    "She obtained her professional qualification after two years."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "obtained",
-        "v3": "obtained",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "obtaining",
-        "lang": "en",
-        "level": "upper_intermediate",
-        "theme": "describing",
-        "sub_theme": null,
-        "legacy_id": "B2-SOC-61",
-        "level_code": "B2",
-        "domain": "Society",
-        "subcategory": "Culture",
-        "pos_section": "Verbs",
-        "sub_subcategory": "General_Culture"
-    },
-    {
         "id": "B2-VERB-SOC-034",
         "word": "overcome",
-        "emoji": "\ud83c\udfc6",
+        "emoji": "🏆",
         "form": "verb",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02cc\u0259\u028av\u0259\u02c8k\u028cm | \ud83c\uddfa\ud83c\uddf8 \u02cco\u028av\u0259\u02c8k\u028cm",
+        "transcription": "🇬🇧 ˌəʊvəˈkʌm | 🇺🇸 ˌoʊvəˈkʌm",
         "subtext": "Neutral | overcome a challenge / overcome obstacles / overcome fear",
         "definitions": [
             {
@@ -1119,9 +888,9 @@
     {
         "id": "B2-VERB-SOC-035",
         "word": "overlook",
-        "emoji": "\ud83d\ude48",
+        "emoji": "🙈",
         "form": "verb",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02cc\u0259\u028av\u0259\u02c8l\u028ak | \ud83c\uddfa\ud83c\uddf8 \u02cco\u028av\u0259\u02c8l\u028ak",
+        "transcription": "🇬🇧 ˌəʊvəˈlʊk | 🇺🇸 ˌoʊvəˈlʊk",
         "subtext": "Neutral | overlook a detail / easy to overlook / overlook a problem",
         "definitions": [
             {
@@ -1152,9 +921,9 @@
     {
         "id": "B2-VERB-SOC-036",
         "word": "perceive",
-        "emoji": "\ud83d\udc41\ufe0f",
+        "emoji": "👁️",
         "form": "verb",
-        "transcription": "p\u0259\u02c8si\u02d0v",
+        "transcription": "pəˈsiːv",
         "subtext": "Formal | perceive something / be perceived as / widely perceived",
         "definitions": [
             {
@@ -1185,9 +954,9 @@
     {
         "id": "B2-VERB-SOC-037",
         "word": "phase out",
-        "emoji": "\ud83d\udcc9",
+        "emoji": "📉",
         "form": "verb",
-        "transcription": "fe\u026az a\u028at",
+        "transcription": "feɪz aʊt",
         "subtext": "Neutral | phase out a product / phase out gradually / be phased out",
         "definitions": [
             {
@@ -1218,9 +987,9 @@
     {
         "id": "B2-VERB-SOC-038",
         "word": "propose",
-        "emoji": "\ud83d\udca1",
+        "emoji": "💡",
         "form": "verb",
-        "transcription": "\ud83c\uddec\ud83c\udde7 pr\u0259\u02c8p\u0259\u028az | \ud83c\uddfa\ud83c\uddf8 pr\u0259\u02c8po\u028az",
+        "transcription": "🇬🇧 prəˈpəʊz | 🇺🇸 prəˈpoʊz",
         "subtext": "Neutral | propose a solution / propose a change / propose that",
         "definitions": [
             {
@@ -1251,9 +1020,9 @@
     {
         "id": "B2-VERB-SOC-039",
         "word": "pursue",
-        "emoji": "\ud83c\udfc3",
+        "emoji": "🏃",
         "form": "verb",
-        "transcription": "p\u0259\u02c8sju\u02d0",
+        "transcription": "pəˈsjuː",
         "subtext": "Neutral | pursue a goal / pursue a career / pursue a claim",
         "definitions": [
             {
@@ -1282,44 +1051,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-040",
-        "word": "reflect",
-        "emoji": "\ud83e\ude9e",
-        "form": "verb",
-        "transcription": "r\u026a\u02c8fl\u025bkt",
-        "subtext": "Neutral | reflect on / reflect a view / reflect badly on / time to reflect",
-        "definitions": [
-            {
-                "text": "To think carefully about something; to show.",
-                "examples": [
-                    "Her decision reflects a long period of careful thinking."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "both",
-        "v2": "reflected",
-        "v3": "reflected",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "reflecting",
-        "lang": "en",
-        "level": "upper_intermediate",
-        "theme": "describing",
-        "sub_theme": null,
-        "legacy_id": "B2-SOC-70",
-        "level_code": "B2",
-        "domain": "Society",
-        "subcategory": "Culture",
-        "pos_section": "Verbs",
-        "sub_subcategory": "General_Culture"
-    },
-    {
         "id": "B2-VERB-SOC-041",
         "word": "refute",
-        "emoji": "\u274c",
+        "emoji": "❌",
         "form": "verb",
-        "transcription": "r\u026a\u02c8fju\u02d0t",
+        "transcription": "rɪˈfjuːt",
         "subtext": "Formal | refute a claim / refute an argument / difficult to refute",
         "definitions": [
             {
@@ -1350,9 +1086,9 @@
     {
         "id": "B2-VERB-SOC-042",
         "word": "retain",
-        "emoji": "\ud83d\udce6",
+        "emoji": "📦",
         "form": "verb",
-        "transcription": "r\u026a\u02c8te\u026an",
+        "transcription": "rɪˈteɪn",
         "subtext": "Formal | retain staff / retain customers / retain information",
         "definitions": [
             {
@@ -1381,43 +1117,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-VERB-SOC-043",
-        "word": "stand out",
-        "emoji": "\ud83c\udf1f",
-        "form": "verb",
-        "transcription": "st\u00e6nd a\u028at",
-        "subtext": "Neutral | stand out from the crowd / stand out as / make something stand out",
-        "definitions": [
-            {
-                "text": "To be noticeably better or different from others.",
-                "examples": [
-                    "Her clear presentation stood out from all the other candidates."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "stative",
-        "v2": "stood out",
-        "v3": "stood out",
-        "group": "regular",
-        "auxiliary": "have",
-        "lang": "en",
-        "level": "upper_intermediate",
-        "theme": "persuasion_rhetoric",
-        "sub_theme": null,
-        "legacy_id": "B2-SOC-77",
-        "level_code": "B2",
-        "domain": "Society",
-        "subcategory": "Culture",
-        "pos_section": "Verbs",
-        "sub_subcategory": "General_Culture"
-    },
-    {
         "id": "B2-VERB-SOC-044",
         "word": "stem from",
-        "emoji": "\ud83c\udf31",
+        "emoji": "🌱",
         "form": "verb",
-        "transcription": "st\u025bm fr\u0259m",
+        "transcription": "stɛm frəm",
         "subtext": "Formal | stem from a cause / problems stem from / stem from a decision",
         "definitions": [
             {
@@ -1448,9 +1152,9 @@
     {
         "id": "B2-VERB-SOC-045",
         "word": "substantiate",
-        "emoji": "\ud83d\udcc4",
+        "emoji": "📄",
         "form": "verb",
-        "transcription": "s\u0259b\u02c8st\u00e6n\u0283ie\u026at",
+        "transcription": "səbˈstænʃieɪt",
         "subtext": "Formal | substantiate a claim / substantiate allegations / require substantiation",
         "definitions": [
             {
@@ -1481,9 +1185,9 @@
     {
         "id": "B2-VERB-SOC-046",
         "word": "take into account",
-        "emoji": "\ud83e\udd14",
+        "emoji": "🤔",
         "form": "verb",
-        "transcription": "te\u026ak \u02c8\u026ant\u0259 \u0259\u02c8ka\u028ant",
+        "transcription": "teɪk ˈɪntə əˈkaʊnt",
         "subtext": "Formal | take into account / fail to take into account / be taken into account",
         "definitions": [
             {
@@ -1511,6 +1215,10 @@
         "sub_subcategory": "General_Culture"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

@@ -4,7 +4,7 @@
     {
         "id": "A1-NOUN-HOM-005",
         "word": "armchair",
-        "emoji": "\ud83d\udecb\ufe0f",
+        "emoji": "🛋️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
             }
         ],
         "subtext": "related to household items",
-        "transcription": "\u02c8\u0251rm\u02cc\u02a7\u025br",
+        "transcription": "ˈɑrmˌʧɛr",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
@@ -33,7 +33,7 @@
     {
         "id": "A1-NOUN-HOM-006",
         "word": "blanket",
-        "emoji": "\ud83d\udecc",
+        "emoji": "🛌",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -51,7 +51,7 @@
             "bedding",
             "keep warm"
         ],
-        "transcription": "\u02c8bl\u00e6\u014bk\u026at",
+        "transcription": "ˈblæŋkɪt",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
@@ -66,7 +66,7 @@
     {
         "id": "A1-NOUN-HOM-007",
         "word": "bookcase",
-        "emoji": "\ud83d\udcda",
+        "emoji": "📚",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -80,7 +80,7 @@
             }
         ],
         "subtext": "related to household items",
-        "transcription": "\u02c8b\u028ak\u02ccke\u026as",
+        "transcription": "ˈbʊkˌkeɪs",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
@@ -95,7 +95,7 @@
     {
         "id": "A1-NOUN-HOM-008",
         "word": "carpet",
-        "emoji": "\ud83e\uddf6",
+        "emoji": "🧶",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -113,7 +113,7 @@
             "floor covering",
             "rug"
         ],
-        "transcription": "\u02c8k\u0251rp\u0259t",
+        "transcription": "ˈkɑrpət",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
@@ -128,7 +128,7 @@
     {
         "id": "A1-NOUN-HOM-009",
         "word": "cupboard",
-        "emoji": "\ud83d\udeaa",
+        "emoji": "🚪",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -142,7 +142,7 @@
             }
         ],
         "subtext": "related to household items",
-        "transcription": "\u02c8k\u0259b\u0259rd",
+        "transcription": "ˈkəbərd",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
@@ -157,7 +157,7 @@
     {
         "id": "A1-NOUN-HOM-010",
         "word": "drawer",
-        "emoji": "\ud83d\uddc4\ufe0f",
+        "emoji": "🗄️",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -171,7 +171,7 @@
             }
         ],
         "subtext": "related to household items",
-        "transcription": "dr\u0254r",
+        "transcription": "drɔr",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
@@ -186,7 +186,7 @@
     {
         "id": "A1-NOUN-HOM-011",
         "word": "pillow",
-        "emoji": "\ud83d\udecc",
+        "emoji": "🛌",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -203,7 +203,7 @@
         "synonyms": [
             "bedding"
         ],
-        "transcription": "\u02c8p\u026alo\u028a",
+        "transcription": "ˈpɪloʊ",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
@@ -218,7 +218,7 @@
     {
         "id": "A1-NOUN-HOM-012",
         "word": "remote control",
-        "emoji": "\ud83c\udfae",
+        "emoji": "🎮",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -232,7 +232,7 @@
             }
         ],
         "subtext": "related to household items",
-        "transcription": "r\u026a\u02c8mo\u028at k\u0259n\u02c8tro\u028al",
+        "transcription": "rɪˈmoʊt kənˈtroʊl",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
@@ -247,7 +247,7 @@
     {
         "id": "A1-NOUN-HOM-013",
         "word": "rug",
-        "emoji": "\ud83e\uddf6",
+        "emoji": "🧶",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -261,7 +261,7 @@
             }
         ],
         "subtext": "related to household items",
-        "transcription": "r\u0259g",
+        "transcription": "rəg",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
@@ -276,7 +276,7 @@
     {
         "id": "A1-NOUN-HOM-014",
         "word": "sheet",
-        "emoji": "\ud83d\udecc",
+        "emoji": "🛌",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -293,7 +293,7 @@
         "synonyms": [
             "linen"
         ],
-        "transcription": "\u0283it",
+        "transcription": "ʃit",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
@@ -308,7 +308,7 @@
     {
         "id": "A1-NOUN-HOM-015",
         "word": "toaster",
-        "emoji": "\ud83c\udf5e",
+        "emoji": "🍞",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -322,7 +322,7 @@
             }
         ],
         "subtext": "related to household items",
-        "transcription": "\u02c8to\u028ast\u0259r",
+        "transcription": "ˈtoʊstər",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
@@ -337,7 +337,7 @@
     {
         "id": "A1-NOUN-HOM-016",
         "word": "washing machine",
-        "emoji": "\ud83e\uddfa",
+        "emoji": "🧺",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -351,7 +351,7 @@
             }
         ],
         "subtext": "related to household items",
-        "transcription": "\u02c8w\u0251\u0283\u026a\u014b m\u0259\u02c8\u0283in",
+        "transcription": "ˈwɑʃɪŋ məˈʃin",
         "lang": "en",
         "level": "starter",
         "theme": "household_items",
@@ -366,9 +366,9 @@
     {
         "id": "A1-NOUN-HOM-078",
         "word": "curtain",
-        "emoji": "\ud83e\ude9f",
+        "emoji": "🪟",
         "form": "noun",
-        "transcription": "\u02c8k\u025c\u02d0rt\u0259n",
+        "transcription": "ˈkɜːrtən",
         "definitions": [
             {
                 "text": "A piece of material hung to screen a window.",
@@ -389,9 +389,9 @@
     {
         "id": "A1-NOUN-HOM-079",
         "word": "cushion",
-        "emoji": "\ud83d\udecb\ufe0f",
+        "emoji": "🛋️",
         "form": "noun",
-        "transcription": "\u02c8k\u028a\u0283\u0259n",
+        "transcription": "ˈkʊʃən",
         "definitions": [
             {
                 "text": "A soft bag filled with mass used for sitting or leaning on.",
@@ -412,9 +412,9 @@
     {
         "id": "A1-NOUN-HOM-080",
         "word": "mat",
-        "emoji": "\ud83e\uddb6",
+        "emoji": "🦶",
         "form": "noun",
-        "transcription": "m\u00e6t",
+        "transcription": "mæt",
         "definitions": [
             {
                 "text": "A piece of fabric placed on a floor.",
@@ -435,9 +435,9 @@
     {
         "id": "A1-NOUN-HOM-085",
         "word": "basin",
-        "emoji": "\ud83e\udd63",
+        "emoji": "🥣",
         "form": "noun",
-        "transcription": "\u02c8be\u026as\u0259n",
+        "transcription": "ˈbeɪsən",
         "definitions": [
             {
                 "text": "A bowl for washing, attached to a wall.",
@@ -458,9 +458,9 @@
     {
         "id": "A1-NOUN-HOM-086",
         "word": "broom",
-        "emoji": "\ud83e\uddf9",
+        "emoji": "🧹",
         "form": "noun",
-        "transcription": "bru\u02d0m",
+        "transcription": "bruːm",
         "definitions": [
             {
                 "text": "A long-handled brush used for sweeping floors.",
@@ -481,9 +481,9 @@
     {
         "id": "A1-NOUN-HOM-087",
         "word": "bucket",
-        "emoji": "\ud83e\udea3",
+        "emoji": "🪣",
         "form": "noun",
-        "transcription": "\u02c8b\u028ck\u0259t",
+        "transcription": "ˈbʌkət",
         "definitions": [
             {
                 "text": "A cylindrical open container with a handle.",
@@ -504,9 +504,9 @@
     {
         "id": "A1-NOUN-HOM-088",
         "word": "candle",
-        "emoji": "\ud83d\udd6f\ufe0f",
+        "emoji": "🕯️",
         "form": "noun",
-        "transcription": "\u02c8k\u00e6nd\u0259l",
+        "transcription": "ˈkændəl",
         "definitions": [
             {
                 "text": "A cylinder of wax with a central wick lit to give light.",
@@ -527,9 +527,9 @@
     {
         "id": "A1-NOUN-HOM-089",
         "word": "cloth",
-        "emoji": "\ud83e\uddfb",
+        "emoji": "🧻",
         "form": "noun",
-        "transcription": "kl\u0254\u02d0\u03b8",
+        "transcription": "klɔːθ",
         "definitions": [
             {
                 "text": "Woven fabric used for cleaning or wiping.",
@@ -550,9 +550,9 @@
     {
         "id": "A1-NOUN-HOM-090",
         "word": "dustbin",
-        "emoji": "\ud83d\uddd1\ufe0f",
+        "emoji": "🗑️",
         "form": "noun",
-        "transcription": "\u02c8d\u028cst\u02ccb\u026an",
+        "transcription": "ˈdʌstˌbɪn",
         "definitions": [
             {
                 "text": "A container for household refuse.",
@@ -573,9 +573,9 @@
     {
         "id": "A1-NOUN-HOM-091",
         "word": "frame",
-        "emoji": "\ud83d\uddbc\ufe0f",
+        "emoji": "🖼️",
         "form": "noun",
-        "transcription": "fre\u026am",
+        "transcription": "freɪm",
         "definitions": [
             {
                 "text": "A rigid structure that surrounds a picture or window.",
@@ -596,9 +596,9 @@
     {
         "id": "A1-NOUN-HOM-092",
         "word": "hammer",
-        "emoji": "\ud83d\udd28",
+        "emoji": "🔨",
         "form": "noun",
-        "transcription": "\u02c8h\u00e6m\u0259r",
+        "transcription": "ˈhæmər",
         "definitions": [
             {
                 "text": "A tool with a heavy metal head used for pounding nails.",
@@ -619,9 +619,9 @@
     {
         "id": "A1-NOUN-HOM-093",
         "word": "iron",
-        "emoji": "\ud83d\udc54",
+        "emoji": "👔",
         "form": "noun",
-        "transcription": "\u02c8a\u026a\u0259rn",
+        "transcription": "ˈaɪərn",
         "definitions": [
             {
                 "text": "An appliance with a flat heated surface used to press clothes.",
@@ -642,9 +642,9 @@
     {
         "id": "A1-NOUN-HOM-094",
         "word": "jug",
-        "emoji": "\ud83e\uded6",
+        "emoji": "🫖",
         "form": "noun",
-        "transcription": "\u02a4\u028c\u0261",
+        "transcription": "ʤʌɡ",
         "definitions": [
             {
                 "text": "A cylindrical container for holding and pouring liquids.",
@@ -665,9 +665,9 @@
     {
         "id": "A1-NOUN-HOM-095",
         "word": "ladder",
-        "emoji": "\ud83e\ude9c",
+        "emoji": "🪜",
         "form": "noun",
-        "transcription": "\u02c8l\u00e6d\u0259r",
+        "transcription": "ˈlædər",
         "definitions": [
             {
                 "text": "A structure consisting of two parallel sidepieces joined by rungs.",
@@ -688,9 +688,9 @@
     {
         "id": "A1-NOUN-HOM-096",
         "word": "mop",
-        "emoji": "\ud83e\uddf9",
+        "emoji": "🧹",
         "form": "noun",
-        "transcription": "m\u0251\u02d0p",
+        "transcription": "mɑːp",
         "definitions": [
             {
                 "text": "A implement with a sponge or bundle of thick strings for washing floors.",
@@ -711,9 +711,9 @@
     {
         "id": "A1-NOUN-HOM-097",
         "word": "needle",
-        "emoji": "\ud83e\udea1",
+        "emoji": "🪡",
         "form": "noun",
-        "transcription": "\u02c8ni\u02d0d\u0259l",
+        "transcription": "ˈniːdəl",
         "definitions": [
             {
                 "text": "A thin pointed steel instrument used for sewing.",
@@ -734,9 +734,9 @@
     {
         "id": "A1-NOUN-HOM-098",
         "word": "razor",
-        "emoji": "\ud83e\ude92",
+        "emoji": "🪒",
         "form": "noun",
-        "transcription": "\u02c8re\u026az\u0259r",
+        "transcription": "ˈreɪzər",
         "definitions": [
             {
                 "text": "An instrument with a sharp blade used for shaving hair.",
@@ -757,9 +757,9 @@
     {
         "id": "A1-NOUN-HOM-099",
         "word": "sponge",
-        "emoji": "\ud83e\uddfd",
+        "emoji": "🧽",
         "form": "noun",
-        "transcription": "sp\u028cn\u02a4",
+        "transcription": "spʌnʤ",
         "definitions": [
             {
                 "text": "A piece of absorbent porous material used for cleaning.",
@@ -778,34 +778,11 @@
         "sub_subcategory": "Household_Goods"
     },
     {
-        "id": "A1-NOUN-HOM-102",
-        "word": "curtains",
-        "emoji": "\ud83e\ude9f",
-        "form": "noun",
-        "transcription": "\u02c8k\u025c\u02d0rt\u0259nz",
-        "definitions": [
-            {
-                "text": "Fabric hung at windows to block light.",
-                "examples": [
-                    "Draw the curtains when it gets dark.",
-                    "Patterned curtains hung in the bedroom."
-                ]
-            }
-        ],
-        "lang": "en",
-        "level": "starter",
-        "level_code": "A1",
-        "domain": "HOME",
-        "subcategory": "Furniture",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Household_Goods"
-    },
-    {
         "id": "A1-NOUN-HOM-103",
         "word": "duvet",
-        "emoji": "\ud83d\udecc",
+        "emoji": "🛌",
         "form": "noun",
-        "transcription": "du\u02d0\u02c8ve\u026a",
+        "transcription": "duːˈveɪ",
         "definitions": [
             {
                 "text": "A soft quilt filled with down or synthetic fiber.",
@@ -826,9 +803,9 @@
     {
         "id": "A1-NOUN-HOM-104",
         "word": "mattress",
-        "emoji": "\ud83d\udecf\ufe0f",
+        "emoji": "🛏️",
         "form": "noun",
-        "transcription": "\u02c8m\u00e6t r\u0259s",
+        "transcription": "ˈmæt rəs",
         "definitions": [
             {
                 "text": "A fabric case filled with resilient material for sleeping on.",
@@ -849,9 +826,9 @@
     {
         "id": "A1-NOUN-HOM-105",
         "word": "vase",
-        "emoji": "\ud83c\udffa",
+        "emoji": "🏺",
         "form": "noun",
-        "transcription": "ve\u026as",
+        "transcription": "veɪs",
         "definitions": [
             {
                 "text": "A decorative vessel used as an ornament or for holding flowers.",
@@ -872,9 +849,9 @@
     {
         "id": "A1-NOUN-HOM-106",
         "word": "trashcan",
-        "emoji": "\ud83d\uddd1\ufe0f",
+        "emoji": "🗑️",
         "form": "noun",
-        "transcription": "\u02c8tr\u00e6\u0283\u02cck\u00e6n",
+        "transcription": "ˈtræʃˌkæn",
         "definitions": [
             {
                 "text": "A waste container.",
@@ -895,9 +872,9 @@
     {
         "id": "A1-NOUN-HOM-107",
         "word": "alarm",
-        "emoji": "\u23f0",
+        "emoji": "⏰",
         "form": "noun",
-        "transcription": "\u0259\u02c8l\u0251\u02d0rm",
+        "transcription": "əˈlɑːrm",
         "definitions": [
             {
                 "text": "A device that gives an audible warning signal.",
@@ -918,9 +895,9 @@
     {
         "id": "A1-NOUN-HOM-108",
         "word": "case",
-        "emoji": "\ud83e\uddf3",
+        "emoji": "🧳",
         "form": "noun",
-        "transcription": "ke\u026as",
+        "transcription": "keɪs",
         "definitions": [
             {
                 "text": "A container designed to hold or protect something.",
@@ -941,9 +918,9 @@
     {
         "id": "A1-NOUN-HOM-109",
         "word": "closet",
-        "emoji": "\ud83d\udeaa",
+        "emoji": "🚪",
         "form": "noun",
-        "transcription": "\u02c8kl\u0251\u02d0z\u0259t",
+        "transcription": "ˈklɑːzət",
         "definitions": [
             {
                 "text": "A tall cupboard or small room used for storage.",
@@ -964,9 +941,9 @@
     {
         "id": "A1-NOUN-HOM-110",
         "word": "fixture",
-        "emoji": "\ud83d\udca1",
+        "emoji": "💡",
         "form": "noun",
-        "transcription": "\u02c8f\u026aks\u02a7\u0259r",
+        "transcription": "ˈfɪksʧər",
         "definitions": [
             {
                 "text": "A piece of equipment that is fixed in position in a building.",
@@ -987,9 +964,9 @@
     {
         "id": "A1-NOUN-HOM-111",
         "word": "funnel",
-        "emoji": "\ud83d\udd3b",
+        "emoji": "🔻",
         "form": "noun",
-        "transcription": "\u02c8f\u028cn\u0259l",
+        "transcription": "ˈfʌnəl",
         "definitions": [
             {
                 "text": "A tube with a wide top used for pouring liquids into narrow openings.",
@@ -1010,9 +987,9 @@
     {
         "id": "A1-NOUN-HOM-112",
         "word": "furnishing",
-        "emoji": "\ud83e\ude91",
+        "emoji": "🪑",
         "form": "noun",
-        "transcription": "\u02c8f\u025c\u02d0rn\u026a\u0283\u026a\u014b",
+        "transcription": "ˈfɜːrnɪʃɪŋ",
         "definitions": [
             {
                 "text": "Furniture, fittings, and other decorative accessories in a room.",
@@ -1033,9 +1010,9 @@
     {
         "id": "A1-NOUN-HOM-113",
         "word": "jar",
-        "emoji": "\ud83e\uded9",
+        "emoji": "🫙",
         "form": "noun",
-        "transcription": "\u02a4\u0251\u02d0r",
+        "transcription": "ʤɑːr",
         "definitions": [
             {
                 "text": "A glass container with a wide mouth.",
@@ -1056,9 +1033,9 @@
     {
         "id": "A1-NOUN-HOM-114",
         "word": "blind",
-        "emoji": "\ud83e\ude9f",
+        "emoji": "🪟",
         "form": "noun",
-        "transcription": "bla\u026and",
+        "transcription": "blaɪnd",
         "definitions": [
             {
                 "text": "A window screen that pulls down or turns.",
@@ -1079,9 +1056,9 @@
     {
         "id": "A1-NOUN-HOM-115",
         "word": "dresser",
-        "emoji": "\ud83d\uddc4\ufe0f",
+        "emoji": "🗄️",
         "form": "noun",
-        "transcription": "\u02c8dr\u025bs\u0259r",
+        "transcription": "ˈdrɛsər",
         "definitions": [
             {
                 "text": "A chest of drawers for clothes.",
@@ -1102,9 +1079,9 @@
     {
         "id": "A1-NOUN-HOM-116",
         "word": "hanger",
-        "emoji": "\ud83d\udc54",
+        "emoji": "👔",
         "form": "noun",
-        "transcription": "\u02c8h\u00e6\u014b\u0259r",
+        "transcription": "ˈhæŋər",
         "definitions": [
             {
                 "text": "A curved piece of plastic or wood for hanging clothes.",
@@ -1125,9 +1102,9 @@
     {
         "id": "A1-NOUN-HOM-117",
         "word": "nightstand",
-        "emoji": "\ud83d\udecf\ufe0f",
+        "emoji": "🛏️",
         "form": "noun",
-        "transcription": "\u02c8na\u026at\u02ccst\u00e6nd",
+        "transcription": "ˈnaɪtˌstænd",
         "definitions": [
             {
                 "text": "A small bedside table.",
@@ -1148,9 +1125,9 @@
     {
         "id": "A1-NOUN-HOM-118",
         "word": "pillowcase",
-        "emoji": "\ud83d\udecc",
+        "emoji": "🛌",
         "form": "noun",
-        "transcription": "\u02c8p\u026alo\u028a\u02ccke\u026as",
+        "transcription": "ˈpɪloʊˌkeɪs",
         "definitions": [
             {
                 "text": "A removable cloth cover for a pillow.",
@@ -1171,9 +1148,9 @@
     {
         "id": "A1-NOUN-HOM-119",
         "word": "shutters",
-        "emoji": "\ud83e\ude9f",
+        "emoji": "🪟",
         "form": "noun",
-        "transcription": "\u02c8\u0283\u028ct\u0259rz",
+        "transcription": "ˈʃʌtərz",
         "definitions": [
             {
                 "text": "Wooden window covers.",
@@ -1194,9 +1171,9 @@
     {
         "id": "A1-NOUN-HOM-120",
         "word": "switch",
-        "emoji": "\ud83d\udca1",
+        "emoji": "💡",
         "form": "noun",
-        "transcription": "sw\u026a\u02a7",
+        "transcription": "swɪʧ",
         "definitions": [
             {
                 "text": "A device for turning electric current on or off.",
@@ -1217,9 +1194,9 @@
     {
         "id": "A1-NOUN-HOM-121",
         "word": "coat rack",
-        "emoji": "\ud83e\udde5",
+        "emoji": "🧥",
         "form": "noun",
-        "transcription": "ko\u028at r\u00e6k",
+        "transcription": "koʊt ræk",
         "definitions": [
             {
                 "text": "A stand with hooks for hanging coats and hats.",
@@ -1240,9 +1217,9 @@
     {
         "id": "A1-NOUN-HOM-122",
         "word": "doormat",
-        "emoji": "\ud83e\uddb6",
+        "emoji": "🦶",
         "form": "noun",
-        "transcription": "\u02c8d\u0254\u02d0r\u02ccm\u00e6t",
+        "transcription": "ˈdɔːrˌmæt",
         "definitions": [
             {
                 "text": "A mat placed outside an exterior door for wiping shoes.",
@@ -1263,9 +1240,9 @@
     {
         "id": "A1-NOUN-HOM-123",
         "word": "sideboard",
-        "emoji": "\ud83d\uddc4\ufe0f",
+        "emoji": "🗄️",
         "form": "noun",
-        "transcription": "\u02c8sa\u026ad\u02ccb\u0254\u02d0rd",
+        "transcription": "ˈsaɪdˌbɔːrd",
         "definitions": [
             {
                 "text": "A flat-topped piece of furniture with cupboards.",
@@ -1290,13 +1267,13 @@
         "transcription": "ˈkɑːtɪdʒ",
         "emoji": "🏡",
         "definitions": [
-                {
-                        "text": "A small house, usually in the countryside.",
-                        "examples": [
-                                "They live in a small cottage.",
-                                "The cottage has a pretty garden."
-                        ]
-                }
+            {
+                "text": "A small house, usually in the countryside.",
+                "examples": [
+                    "They live in a small cottage.",
+                    "The cottage has a pretty garden."
+                ]
+            }
         ],
         "lang": "en",
         "level": "starter",
@@ -1305,7 +1282,7 @@
         "subcategory": "Furniture",
         "pos_section": "Nouns",
         "sub_subcategory": "Household_Goods"
-}
+    }
 ];
 
     if (typeof window !== "undefined") {

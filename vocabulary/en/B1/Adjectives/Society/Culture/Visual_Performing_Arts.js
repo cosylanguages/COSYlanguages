@@ -2,33 +2,6 @@
     const lang = "en";
     const data = [
     {
-        "id": "B1-ADJ-SOC-016",
-        "word": "cultural",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "art_culture",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "Relating to the arts, ideas and customs of a society.",
-                "examples": [
-                    "She has a very strong cultural awareness."
-                ]
-            }
-        ],
-        "transcription": "ˈkʌltʃərəl",
-        "emoji": "❓",
-        "_legacy": {
-            "subtext": "cultural differences / cultural event / culturally diverse"
-        },
-        "legacy_id": "B1-SOC-16",
-        "level_code": "B1",
-        "domain": "Society",
-        "subcategory": "Culture",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Visual_Performing_Arts"
-    },
-    {
         "id": "B1-ADJ-SOC-017",
         "word": "original",
         "lang": "en",
@@ -56,6 +29,10 @@
         "sub_subcategory": "Visual_Performing_Arts"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

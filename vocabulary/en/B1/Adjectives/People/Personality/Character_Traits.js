@@ -132,32 +132,6 @@
         "id": "B1-ADJ-PEO-024"
     },
     {
-        "word": "cautious",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "personality",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "An adjective describing someone careful to avoid potential problems, such as checking traffic before crossing.",
-                "examples": [
-                    "Be cautious when investing money online."
-                ]
-            }
-        ],
-        "transcription": "ˈkɔːʃəs",
-        "emoji": "⚠️",
-        "_legacy": {
-            "subtext": "cautious driver / remain cautious"
-        },
-        "level_code": "B1",
-        "domain": "People",
-        "subcategory": "Personality",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Character_Traits",
-        "id": "B1-ADJ-PEO-025"
-    },
-    {
         "word": "charismatic",
         "lang": "en",
         "level": "intermediate",
@@ -182,32 +156,6 @@
         "pos_section": "Adjectives",
         "sub_subcategory": "Character_Traits",
         "id": "B1-ADJ-PEO-026"
-    },
-    {
-        "word": "charming",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "personality",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "An adjective describing someone very pleasant and attractive in manner, such as a warm host.",
-                "examples": [
-                    "The small bed and breakfast was run by a charming couple."
-                ]
-            }
-        ],
-        "transcription": "ˈtʃɑːrmɪŋ",
-        "emoji": "✨",
-        "_legacy": {
-            "subtext": "charming smile / polite and charming"
-        },
-        "level_code": "B1",
-        "domain": "People",
-        "subcategory": "Personality",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Character_Traits",
-        "id": "B1-ADJ-PEO-027"
     },
     {
         "word": "considerate",
@@ -366,84 +314,6 @@
         "id": "B1-ADJ-PEO-033"
     },
     {
-        "word": "energetic",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "personality",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "An adjective describing a person showing or involving great activity and vitality, such as running every morning.",
-                "examples": [
-                    "The energetic instructor led an intense aerobics class."
-                ]
-            }
-        ],
-        "transcription": "ˌenərˈdʒetɪk",
-        "emoji": "⚡",
-        "_legacy": {
-            "subtext": "energetic performer / stay energetic"
-        },
-        "level_code": "B1",
-        "domain": "People",
-        "subcategory": "Personality",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Character_Traits",
-        "id": "B1-ADJ-PEO-034"
-    },
-    {
-        "word": "friendly",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "personality",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "An adjective describing someone kind and pleasant toward others, such as welcoming new neighbors.",
-                "examples": [
-                    "The local residents were extremely friendly to tourists."
-                ]
-            }
-        ],
-        "transcription": "ˈfrendli",
-        "emoji": "👋",
-        "_legacy": {
-            "subtext": "friendly smile / warm and friendly"
-        },
-        "level_code": "B1",
-        "domain": "People",
-        "subcategory": "Personality",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Character_Traits",
-        "id": "B1-ADJ-PEO-035"
-    },
-    {
-        "word": "funny",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "personality",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "An adjective describing a person causing laughter and amusement, such as telling witty jokes.",
-                "examples": [
-                    "He told a funny joke that made everyone laugh."
-                ]
-            }
-        ],
-        "transcription": "ˈfʌni",
-        "emoji": "😂",
-        "_legacy": {
-            "subtext": "funny story / lighthearted and funny"
-        },
-        "level_code": "B1",
-        "domain": "People",
-        "subcategory": "Personality",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Character_Traits",
-        "id": "B1-ADJ-PEO-036"
-    },
-    {
         "word": "humorous",
         "lang": "en",
         "level": "intermediate",
@@ -468,84 +338,6 @@
         "pos_section": "Adjectives",
         "sub_subcategory": "Character_Traits",
         "id": "B1-ADJ-PEO-037"
-    },
-    {
-        "word": "kind",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "personality",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "An adjective describing someone having or showing a gentle and caring nature, such as helping an elder cross the street.",
-                "examples": [
-                    "It was very kind of you to assist us with the luggage."
-                ]
-            }
-        ],
-        "transcription": "kaɪnd",
-        "emoji": "💖",
-        "_legacy": {
-            "subtext": "kind heart / warm and kind"
-        },
-        "level_code": "B1",
-        "domain": "People",
-        "subcategory": "Personality",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Character_Traits",
-        "id": "B1-ADJ-PEO-038"
-    },
-    {
-        "word": "loyal",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "personality",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "An adjective describing a person giving firm and constant support, such as standing by a friend in hard times.",
-                "examples": [
-                    "She remained a loyal supporter of the team through every season."
-                ]
-            }
-        ],
-        "transcription": "ˈlɔɪəl",
-        "emoji": "🐕",
-        "_legacy": {
-            "subtext": "loyal friend / remain loyal"
-        },
-        "level_code": "B1",
-        "domain": "People",
-        "subcategory": "Personality",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Character_Traits",
-        "id": "B1-ADJ-PEO-039"
-    },
-    {
-        "word": "modest",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "personality",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "An adjective describing someone not boastful about their abilities or possessions, such as wearing simple clothes.",
-                "examples": [
-                    "He lived in a modest house near the countryside."
-                ]
-            }
-        ],
-        "transcription": "ˈmɑːdɪst",
-        "emoji": "🌿",
-        "_legacy": {
-            "subtext": "modest lifestyle / quiet and modest"
-        },
-        "level_code": "B1",
-        "domain": "People",
-        "subcategory": "Personality",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Character_Traits",
-        "id": "B1-ADJ-PEO-040"
     },
     {
         "word": "outgoing",
@@ -600,58 +392,6 @@
         "id": "B1-ADJ-PEO-042"
     },
     {
-        "word": "polite",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "personality",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "An adjective describing someone having good manners and respect for others, such as saying please and thank you.",
-                "examples": [
-                    "The child was taught to be polite to elders."
-                ]
-            }
-        ],
-        "transcription": "pəˈlaɪt",
-        "emoji": "🎩",
-        "_legacy": {
-            "subtext": "polite greeting / always polite"
-        },
-        "level_code": "B1",
-        "domain": "People",
-        "subcategory": "Personality",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Character_Traits",
-        "id": "B1-ADJ-PEO-043"
-    },
-    {
-        "word": "reliable",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "personality",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "An adjective describing a person or object that can be trusted consistently, such as a car that always starts.",
-                "examples": [
-                    "A reliable worker is valued by every employer."
-                ]
-            }
-        ],
-        "transcription": "rɪˈlaɪəbl",
-        "emoji": "🤝",
-        "_legacy": {
-            "subtext": "reliable friend / highly reliable"
-        },
-        "level_code": "B1",
-        "domain": "People",
-        "subcategory": "Personality",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Character_Traits",
-        "id": "B1-ADJ-PEO-044"
-    },
-    {
         "word": "scrupulous",
         "lang": "en",
         "level": "intermediate",
@@ -702,32 +442,6 @@
         "pos_section": "Adjectives",
         "sub_subcategory": "Character_Traits",
         "id": "B1-ADJ-PEO-046"
-    },
-    {
-        "word": "stubborn",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "personality",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "An adjective describing a person refusing to change their opinion or position, such as ignoring good advice.",
-                "examples": [
-                    "He was too stubborn to admit he was wrong."
-                ]
-            }
-        ],
-        "transcription": "ˈstʌbərn",
-        "emoji": "🐂",
-        "_legacy": {
-            "subtext": "stubborn attitude / remain stubborn"
-        },
-        "level_code": "B1",
-        "domain": "People",
-        "subcategory": "Personality",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Character_Traits",
-        "id": "B1-ADJ-PEO-047"
     },
     {
         "word": "tactful",
@@ -834,6 +548,10 @@
         "id": "B1-ADJ-PEO-051"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

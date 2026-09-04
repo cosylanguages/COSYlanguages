@@ -41,40 +41,6 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-VERB-SOC-009",
-        "word": "participate",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "social",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To take part in something.",
-                "examples": [
-                    "He participates actively in community meetings."
-                ]
-            }
-        ],
-        "transcription": "pɑːˈtɪsɪpeɪt",
-        "emoji": "🙋",
-        "_legacy": {
-            "subtext": "participate in / actively participate / participation rate",
-            "classification": "regular",
-            "aspect": "action",
-            "v2": "participated",
-            "v3": "participated",
-            "group": "regular",
-            "auxiliary": "have",
-            "v4": "participating"
-        },
-        "legacy_id": "B1-VERB-SOC-010",
-        "level_code": "B1",
-        "domain": "Society",
-        "subcategory": "Culture",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Social_Relations"
-    },
-    {
         "id": "B1-VERB-SOC-010",
         "word": "photograph",
         "lang": "en",
@@ -208,76 +174,12 @@
         "subcategory": "Culture",
         "pos_section": "Verbs",
         "sub_subcategory": "Social_Relations"
-    },
-    {
-        "id": "B1-VERB-SOC-014",
-        "word": "support",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "social",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To agree with and help a cause or person.",
-                "examples": [
-                    "She supports the campaign for better public transport."
-                ]
-            }
-        ],
-        "transcription": "səˈpɔːt",
-        "emoji": "🤝",
-        "_legacy": {
-            "subtext": "support a cause / support someone / show support",
-            "classification": "regular",
-            "aspect": "both",
-            "v2": "supported",
-            "v3": "supported",
-            "group": "regular",
-            "auxiliary": "have",
-            "v4": "supporting"
-        },
-        "legacy_id": "B1-VERB-SOC-015",
-        "level_code": "B1",
-        "domain": "Society",
-        "subcategory": "Culture",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Social_Relations"
-    },
-    {
-        "id": "B1-VERB-SOC-015",
-        "word": "vote",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "social",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To express a choice formally, especially in an election.",
-                "examples": [
-                    "She votes in every local and national election."
-                ]
-            }
-        ],
-        "transcription": "🇬🇧 vəʊt | 🇺🇸 voʊt",
-        "emoji": "🗳️",
-        "_legacy": {
-            "subtext": "vote for / vote against / vote in an election",
-            "classification": "regular",
-            "aspect": "action",
-            "v2": "voted",
-            "v3": "voted",
-            "group": "regular",
-            "auxiliary": "have",
-            "v4": "voting"
-        },
-        "legacy_id": "B1-VERB-SOC-017",
-        "level_code": "B1",
-        "domain": "Society",
-        "subcategory": "Culture",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Social_Relations"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

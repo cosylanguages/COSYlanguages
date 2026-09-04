@@ -54,37 +54,12 @@
         "subcategory": "Culture",
         "pos_section": "Other_POS",
         "sub_subcategory": "Social_Relations"
-    },
-    {
-        "id": "B1-OTH-SOC-006",
-        "word": "in my opinion",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "social",
-        "form": "phrase",
-        "definitions": [
-            {
-                "text": "Used to introduce your personal view.",
-                "examples": [
-                    "In my opinion, remote work is more productive.",
-                    "In my opinion, the movie was too long.",
-                    "In my opinion, working from home is more productive."
-                ]
-            }
-        ],
-        "transcription": "ɪn maɪ əˈpɪnjən",
-        "emoji": "🗣️",
-        "_legacy": {
-            "subtext": "from my perspective, I think"
-        },
-        "legacy_id": "B1-SOC-33",
-        "level_code": "B1",
-        "domain": "Society",
-        "subcategory": "Culture",
-        "pos_section": "Other_POS",
-        "sub_subcategory": "Social_Relations"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

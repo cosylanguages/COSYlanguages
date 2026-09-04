@@ -4,8 +4,8 @@
     {
         "word": "adjudicate",
         "form": "verb",
-        "transcription": "\u0259\u02c8d\u0292u\u02d0d\u026ake\u026at",
-        "emoji": "\u2696\ufe0f",
+        "transcription": "əˈdʒuːdɪkeɪt",
+        "emoji": "⚖️",
         "subtext": "adjudicate claims / adjudicate disputes",
         "definitions": [
             {
@@ -39,8 +39,8 @@
     {
         "word": "exonerate",
         "form": "verb",
-        "transcription": "\u026a\u0261\u02c8z\u0252n\u0259re\u026at",
-        "emoji": "\ud83d\udd4a\ufe0f",
+        "transcription": "ɪɡˈzɒnəreɪt",
+        "emoji": "🕊️",
         "subtext": "fully exonerate / exonerate from guilt",
         "definitions": [
             {
@@ -74,8 +74,8 @@
     {
         "word": "incriminate",
         "form": "verb",
-        "transcription": "\u026an\u02c8kr\u026am\u026ane\u026at",
-        "emoji": "\ud83d\udea8",
+        "transcription": "ɪnˈkrɪmɪneɪt",
+        "emoji": "🚨",
         "subtext": "incriminate oneself / incriminating evidence",
         "definitions": [
             {
@@ -107,43 +107,10 @@
         "legacy_id": "C1-LAW-03"
     },
     {
-        "word": "extradite",
-        "form": "verb",
-        "transcription": "\u02c8ekstr\u0259da\u026at",
-        "emoji": "\u2708\ufe0f",
-        "subtext": "extradite a suspect / extradition treaty",
-        "definitions": [
-            {
-                "text": "To hand over a person accused of a crime to the jurisdiction of the foreign state where it was committed.",
-                "examples": [
-                    "The government sought to extradite the suspect from the foreign capital."
-                ]
-            }
-        ],
-        "synonyms": [
-            "deport",
-            "surrender"
-        ],
-        "antonyms": [],
-        "lang": "en",
-        "level": "advanced",
-        "level_code": "C1",
-        "domain": "LAW",
-        "subcategory": "Legal_System",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Judicial_Process",
-        "classification": "regular",
-        "aspect": "action",
-        "group": "regular",
-        "auxiliary": "have",
-        "id": "C1-VERB-LAW-004",
-        "legacy_id": "C1-LAW-04"
-    },
-    {
         "word": "litigate",
         "form": "verb",
-        "transcription": "\u02c8l\u026at\u026a\u0261e\u026at",
-        "emoji": "\ud83e\uddd1\u200d\u2696\ufe0f",
+        "transcription": "ˈlɪtɪɡeɪt",
+        "emoji": "🧑‍⚖️",
         "subtext": "litigate a claim / aggressively litigate",
         "definitions": [
             {
@@ -175,6 +142,10 @@
         "legacy_id": "C1-LAW-05"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

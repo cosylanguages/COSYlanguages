@@ -2,32 +2,6 @@
     const lang = "en";
     const data = [
     {
-        "word": "character",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "personality",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A noun referring to the mental and moral qualities distinctive to an individual, such as honesty and courage.",
-                "examples": [
-                    "He is a person of strong moral character."
-                ]
-            }
-        ],
-        "transcription": "ˈkærəktər",
-        "emoji": "🎭",
-        "_legacy": {
-            "subtext": "strong character / noble character"
-        },
-        "level_code": "B1",
-        "domain": "People",
-        "subcategory": "Personality",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Character_Traits",
-        "id": "B1-NOUN-PEO-012"
-    },
-    {
         "word": "flaw",
         "lang": "en",
         "level": "intermediate",
@@ -132,6 +106,10 @@
         "id": "B1-NOUN-PEO-016"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

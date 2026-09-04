@@ -4,10 +4,10 @@
     {
         "id": "C1-ADJ-LAW-001",
         "word": "abstract",
-        "emoji": "\ud83c\udfa8",
+        "emoji": "🎨",
         "subtext": "very abstract / purely abstract / an abstract idea",
         "form": "adjective",
-        "transcription": "\u02c8\u00e6bstr\u00e6kt",
+        "transcription": "ˈæbstrækt",
         "definitions": [
             {
                 "text": "Existing as an idea; not concrete.",
@@ -37,47 +37,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-ADJ-LAW-002",
-        "word": "absurd",
-        "emoji": "\ud83e\udd21",
-        "subtext": "utterly absurd / completely absurd / sound absurd",
-        "form": "adjective",
-        "transcription": "\u0259b\u02c8s\u025c\u02d0d",
-        "definitions": [
-            {
-                "text": "Completely unreasonable; making no sense at all.",
-                "examples": [
-                    "The whole situation seemed utterly absurd."
-                ]
-            }
-        ],
-        "synonyms": [
-            "ridiculous",
-            "ludicrous",
-            "preposterous"
-        ],
-        "antonyms": [
-            "reasonable",
-            "logical"
-        ],
-        "lang": "en",
-        "level": "advanced",
-        "theme": "language",
-        "sub_theme": null,
-        "legacy_id": "C1-LAW-02",
-        "level_code": "C1",
-        "domain": "LAW",
-        "subcategory": "Legal_System",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "General_Law"
-    },
-    {
         "id": "C1-ADJ-LAW-003",
         "word": "acute",
-        "emoji": "\ud83d\udde1\ufe0f",
+        "emoji": "🗡️",
         "subtext": "an acute problem / very acute / acute shortage",
         "form": "adjective",
-        "transcription": "\u0259\u02c8kju\u02d0t",
+        "transcription": "əˈkjuːt",
         "definitions": [
             {
                 "text": "Very serious; strong and sharp.",
@@ -107,117 +72,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-ADJ-LAW-004",
-        "word": "applicable",
-        "emoji": "\ud83d\udcce",
-        "subtext": "fully applicable / directly applicable / applicable to",
-        "form": "adjective",
-        "transcription": "\u0259\u02c8pl\u026ak\u0259bl",
-        "definitions": [
-            {
-                "text": "Relevant; able to be applied to a situation.",
-                "examples": [
-                    "The new rules are applicable to all employees."
-                ]
-            }
-        ],
-        "synonyms": [
-            "relevant",
-            "appropriate",
-            "fitting"
-        ],
-        "antonyms": [
-            "inapplicable",
-            "irrelevant"
-        ],
-        "lang": "en",
-        "level": "advanced",
-        "theme": "language",
-        "sub_theme": null,
-        "legacy_id": "C1-LAW-04",
-        "level_code": "C1",
-        "domain": "LAW",
-        "subcategory": "Legal_System",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "General_Law"
-    },
-    {
-        "id": "C1-ADJ-LAW-005",
-        "word": "arbitrary",
-        "emoji": "\ud83c\udfb2",
-        "subtext": "entirely arbitrary / seemingly arbitrary / an arbitrary decision",
-        "form": "adjective",
-        "transcription": "\u02c8\u0251\u02d0b\u026atr\u0259ri",
-        "definitions": [
-            {
-                "text": "Based on random choice; not based on reason.",
-                "examples": [
-                    "The decision seemed completely arbitrary."
-                ]
-            }
-        ],
-        "synonyms": [
-            "random",
-            "chance",
-            "capricious"
-        ],
-        "antonyms": [
-            "rational",
-            "reasoned"
-        ],
-        "lang": "en",
-        "level": "advanced",
-        "theme": "language",
-        "sub_theme": null,
-        "legacy_id": "C1-LAW-05",
-        "level_code": "C1",
-        "domain": "LAW",
-        "subcategory": "Legal_System",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "General_Law"
-    },
-    {
-        "id": "C1-ADJ-LAW-006",
-        "word": "authentic",
-        "emoji": "\ud83d\udcdc",
-        "subtext": "truly authentic / completely authentic / an authentic voice",
-        "form": "adjective",
-        "transcription": "\u0254\u02d0\u02c8\u03b8ent\u026ak",
-        "definitions": [
-            {
-                "text": "Genuine; real; not a copy.",
-                "examples": [
-                    "The restaurant offers an authentic experience."
-                ]
-            }
-        ],
-        "synonyms": [
-            "genuine",
-            "real",
-            "true"
-        ],
-        "antonyms": [
-            "fake",
-            "counterfeit"
-        ],
-        "lang": "en",
-        "level": "advanced",
-        "theme": "language",
-        "sub_theme": null,
-        "legacy_id": "C1-LAW-06",
-        "level_code": "C1",
-        "domain": "LAW",
-        "subcategory": "Legal_System",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "General_Law"
-    },
-    {
         "id": "C1-ADJ-LAW-007",
         "word": "bizarre",
-        "emoji": "\ud83c\udf00",
+        "emoji": "🌀",
         "subtext": "very bizarre / quite bizarre / find bizarre",
         "form": "adjective",
-        "transcription": "b\u026a\u02c8z\u0251\u02d0",
+        "transcription": "bɪˈzɑː",
         "definitions": [
             {
                 "text": "Very strange and unusual.",
@@ -247,47 +107,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-ADJ-LAW-008",
-        "word": "chronic",
-        "emoji": "\u231b",
-        "subtext": "a chronic problem / chronically underfunded / chronic shortage",
-        "form": "adjective",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8kr\u0252n\u026ak | \ud83c\uddfa\ud83c\uddf8 \u02c8kr\u0251\u02d0n\u026ak",
-        "definitions": [
-            {
-                "text": "Lasting a long time; recurring.",
-                "examples": [
-                    "Chronic underfunding has damaged the public sector."
-                ]
-            }
-        ],
-        "synonyms": [
-            "persistent",
-            "long-standing",
-            "incurable"
-        ],
-        "antonyms": [
-            "acute",
-            "temporary"
-        ],
-        "lang": "en",
-        "level": "advanced",
-        "theme": "language",
-        "sub_theme": null,
-        "legacy_id": "C1-LAW-08",
-        "level_code": "C1",
-        "domain": "LAW",
-        "subcategory": "Legal_System",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "General_Law"
-    },
-    {
         "id": "C1-ADJ-LAW-009",
         "word": "cognitive",
-        "emoji": "\ud83e\udde0",
+        "emoji": "🧠",
         "subtext": "cognitive ability / cognitive bias / a cognitive approach",
         "form": "adjective",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8k\u0252\u0261n\u0259t\u026av | \ud83c\uddfa\ud83c\uddf8 \u02c8k\u0251\u02d0\u0261n\u0259t\u026av",
+        "transcription": "🇬🇧 ˈkɒɡnətɪv | 🇺🇸 ˈkɑːɡnətɪv",
         "definitions": [
             {
                 "text": "Relating to mental processes of understanding.",
@@ -310,10 +135,10 @@
     {
         "id": "C1-ADJ-LAW-010",
         "word": "comparable",
-        "emoji": "\u2194\ufe0f",
+        "emoji": "↔️",
         "subtext": "directly comparable / not really comparable / fully comparable",
         "form": "adjective",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8k\u0252mp\u0259r\u0259bl | \ud83c\uddfa\ud83c\uddf8 \u02c8k\u0251\u02d0mp\u0259r\u0259bl",
+        "transcription": "🇬🇧 ˈkɒmpərəbl | 🇺🇸 ˈkɑːmpərəbl",
         "definitions": [
             {
                 "text": "Similar enough to compare; of equivalent quality.",
@@ -345,10 +170,10 @@
     {
         "id": "C1-ADJ-LAW-011",
         "word": "compelling",
-        "emoji": "\ud83e\uddf2",
+        "emoji": "🧲",
         "subtext": "very compelling / highly compelling / a compelling argument",
         "form": "adjective",
-        "transcription": "k\u0259m\u02c8pel\u026a\u014b",
+        "transcription": "kəmˈpelɪŋ",
         "definitions": [
             {
                 "text": "Very convincing; creating a strong desire.",
@@ -380,10 +205,10 @@
     {
         "id": "C1-ADJ-LAW-012",
         "word": "credible",
-        "emoji": "\ud83e\udd1d",
+        "emoji": "🤝",
         "subtext": "very credible / a credible source / entirely credible",
         "form": "adjective",
-        "transcription": "\u02c8kred\u0259bl",
+        "transcription": "ˈkredəbl",
         "definitions": [
             {
                 "text": "Able to be believed; trustworthy.",
@@ -415,10 +240,10 @@
     {
         "id": "C1-ADJ-LAW-013",
         "word": "definitive",
-        "emoji": "\ud83c\udfc1",
+        "emoji": "🏁",
         "subtext": "truly definitive / the definitive guide / a definitive answer",
         "form": "adjective",
-        "transcription": "d\u026a\u02c8f\u026an\u0259t\u026av",
+        "transcription": "dɪˈfɪnətɪv",
         "definitions": [
             {
                 "text": "Final; clearly established and not in doubt.",
@@ -450,10 +275,10 @@
     {
         "id": "C1-ADJ-LAW-014",
         "word": "delicate",
-        "emoji": "\ud83c\udf38",
+        "emoji": "🌸",
         "subtext": "a delicate balance / very delicate / extremely delicate",
         "form": "adjective",
-        "transcription": "\u02c8del\u026ak\u0259t",
+        "transcription": "ˈdelɪkət",
         "definitions": [
             {
                 "text": "Requiring careful handling; sensitive.",
@@ -485,10 +310,10 @@
     {
         "id": "C1-ADJ-LAW-015",
         "word": "distinctive",
-        "emoji": "\ud83c\udd94",
+        "emoji": "🆔",
         "subtext": "very distinctive / highly distinctive / a distinctive feature",
         "form": "adjective",
-        "transcription": "d\u026a\u02c8st\u026a\u014bkt\u026av",
+        "transcription": "dɪˈstɪŋktɪv",
         "definitions": [
             {
                 "text": "Different from others in a noticeable way.",
@@ -520,10 +345,10 @@
     {
         "id": "C1-ADJ-LAW-016",
         "word": "eligible",
-        "emoji": "\u2705",
+        "emoji": "✅",
         "subtext": "fully eligible / not eligible / eligible for",
         "form": "adjective",
-        "transcription": "\u02c8el\u026ad\u0292\u0259bl",
+        "transcription": "ˈelɪdʒəbl",
         "definitions": [
             {
                 "text": "Having the right to receive or do something.",
@@ -555,10 +380,10 @@
     {
         "id": "C1-ADJ-LAW-017",
         "word": "empirical",
-        "emoji": "\ud83e\uddea",
+        "emoji": "🧪",
         "subtext": "purely empirical / strictly empirical / empirical research",
         "form": "adjective",
-        "transcription": "\u026am\u02c8p\u026ar\u026akl",
+        "transcription": "ɪmˈpɪrɪkl",
         "definitions": [
             {
                 "text": "Based on observation or experiment, not theory.",
@@ -588,47 +413,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-ADJ-LAW-018",
-        "word": "ethical",
-        "emoji": "\u2696\ufe0f",
-        "subtext": "deeply ethical / an ethical question / entirely ethical",
-        "form": "adjective",
-        "transcription": "\u02c8e\u03b8\u026akl",
-        "definitions": [
-            {
-                "text": "Relating to moral principles of right and wrong.",
-                "examples": [
-                    "The company is committed to ethical sourcing."
-                ]
-            }
-        ],
-        "synonyms": [
-            "moral",
-            "principled",
-            "virtuous"
-        ],
-        "antonyms": [
-            "unethical",
-            "immoral"
-        ],
-        "lang": "en",
-        "level": "advanced",
-        "theme": "language",
-        "sub_theme": null,
-        "legacy_id": "C1-LAW-18",
-        "level_code": "C1",
-        "domain": "LAW",
-        "subcategory": "Legal_System",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "General_Law"
-    },
-    {
         "id": "C1-ADJ-LAW-019",
         "word": "exceptional",
-        "emoji": "\ud83c\udf1f",
+        "emoji": "🌟",
         "subtext": "truly exceptional / quite exceptional / of exceptional quality",
         "form": "adjective",
-        "transcription": "\u026ak\u02c8sep\u0283\u0259nl",
+        "transcription": "ɪkˈsepʃənl",
         "definitions": [
             {
                 "text": "Unusually good; far above average.",
@@ -660,10 +450,10 @@
     {
         "id": "C1-ADJ-LAW-020",
         "word": "explicit",
-        "emoji": "\ud83d\udce2",
+        "emoji": "📢",
         "subtext": "very explicit / entirely explicit / make explicit",
         "form": "adjective",
-        "transcription": "\u026ak\u02c8spl\u026as\u026at",
+        "transcription": "ɪkˈsplɪsɪt",
         "definitions": [
             {
                 "text": "Clearly and fully expressed; nothing left out.",
@@ -695,10 +485,10 @@
     {
         "id": "C1-ADJ-LAW-021",
         "word": "favourable",
-        "emoji": "\ud83d\udcc8",
+        "emoji": "📈",
         "subtext": "very favourable / highly favourable / a favourable outcome",
         "form": "adjective",
-        "transcription": "\u02c8fe\u026av\u0259r\u0259bl",
+        "transcription": "ˈfeɪvərəbl",
         "definitions": [
             {
                 "text": "Showing approval; helpful or positive.",
@@ -730,10 +520,10 @@
     {
         "id": "C1-ADJ-LAW-022",
         "word": "fierce",
-        "emoji": "\ud83d\udd25",
+        "emoji": "🔥",
         "subtext": "fierce competition / very fierce / a fierce debate",
         "form": "adjective",
-        "transcription": "f\u026a\u0259s",
+        "transcription": "fɪəs",
         "definitions": [
             {
                 "text": "Very strong or intense; showing strong emotion.",
@@ -765,10 +555,10 @@
     {
         "id": "C1-ADJ-LAW-023",
         "word": "fragile",
-        "emoji": "\ud83d\udce6",
+        "emoji": "📦",
         "subtext": "very fragile / extremely fragile / a fragile situation",
         "form": "adjective",
-        "transcription": "\u02c8fr\u00e6d\u0292a\u026al",
+        "transcription": "ˈfrædʒaɪl",
         "definitions": [
             {
                 "text": "Easily broken or damaged; delicate.",
@@ -800,10 +590,10 @@
     {
         "id": "C1-ADJ-LAW-024",
         "word": "harsh",
-        "emoji": "\ud83c\udf35",
+        "emoji": "🌵",
         "subtext": "very harsh / extremely harsh / harsh criticism",
         "form": "adjective",
-        "transcription": "h\u0251\u02d0\u0283",
+        "transcription": "hɑːʃ",
         "definitions": [
             {
                 "text": "Cruel or unpleasant; very difficult.",
@@ -835,10 +625,10 @@
     {
         "id": "C1-ADJ-LAW-025",
         "word": "implicit",
-        "emoji": "\ud83e\udd2b",
+        "emoji": "🤫",
         "subtext": "largely implicit / an implicit assumption / implicit bias",
         "form": "adjective",
-        "transcription": "\u026am\u02c8pl\u026as\u026at",
+        "transcription": "ɪmˈplɪsɪt",
         "definitions": [
             {
                 "text": "Suggested though not directly expressed.",
@@ -870,10 +660,10 @@
     {
         "id": "C1-ADJ-LAW-026",
         "word": "inadequate",
-        "emoji": "\ud83d\udcc9",
+        "emoji": "📉",
         "subtext": "wholly inadequate / completely inadequate / deeply inadequate",
         "form": "adjective",
-        "transcription": "\u026an\u02c8\u00e6d\u026akw\u0259t",
+        "transcription": "ɪnˈædɪkwət",
         "definitions": [
             {
                 "text": "Not enough; below the required standard.",
@@ -903,47 +693,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-ADJ-LAW-027",
-        "word": "inherent",
-        "emoji": "\ud83e\uddec",
-        "subtext": "inherent risk / an inherent problem / naturally inherent",
-        "form": "adjective",
-        "transcription": "\u026an\u02c8h\u026a\u0259r\u0259nt",
-        "definitions": [
-            {
-                "text": "Existing in something as a permanent feature.",
-                "examples": [
-                    "There are inherent risks in any start-up business."
-                ]
-            }
-        ],
-        "synonyms": [
-            "intrinsic",
-            "innate",
-            "built-in"
-        ],
-        "antonyms": [
-            "extrinsic",
-            "acquired"
-        ],
-        "lang": "en",
-        "level": "advanced",
-        "theme": "language",
-        "sub_theme": null,
-        "legacy_id": "C1-LAW-27",
-        "level_code": "C1",
-        "domain": "LAW",
-        "subcategory": "Legal_System",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "General_Law"
-    },
-    {
         "id": "C1-ADJ-LAW-028",
         "word": "intriguing",
-        "emoji": "\ud83e\udd14",
+        "emoji": "🤔",
         "subtext": "very intriguing / quite intriguing / find intriguing",
         "form": "adjective",
-        "transcription": "\u026an\u02c8tri\u02d0\u0261\u026a\u014b",
+        "transcription": "ɪnˈtriːɡɪŋ",
         "definitions": [
             {
                 "text": "Very interesting; arousing curiosity.",
@@ -975,10 +730,10 @@
     {
         "id": "C1-ADJ-LAW-029",
         "word": "irrelevant",
-        "emoji": "\ud83d\uddd1\ufe0f",
+        "emoji": "🗑️",
         "subtext": "totally irrelevant / completely irrelevant / largely irrelevant",
         "form": "adjective",
-        "transcription": "\u026a\u02c8rel\u0259v\u0259nt",
+        "transcription": "ɪˈreləvənt",
         "definitions": [
             {
                 "text": "Not connected to the topic; not important now.",
@@ -1010,10 +765,10 @@
     {
         "id": "C1-ADJ-LAW-030",
         "word": "marginal",
-        "emoji": "\u2194\ufe0f",
+        "emoji": "↔️",
         "subtext": "very marginal / only marginal / a marginal difference",
         "form": "adjective",
-        "transcription": "\u02c8m\u0251\u02d0d\u0292\u026anl",
+        "transcription": "ˈmɑːdʒɪnl",
         "definitions": [
             {
                 "text": "Small and not very important; relating to the edges.",
@@ -1045,10 +800,10 @@
     {
         "id": "C1-ADJ-LAW-031",
         "word": "misleading",
-        "emoji": "\ud83e\udd25",
+        "emoji": "🤥",
         "subtext": "highly misleading / deeply misleading / potentially misleading",
         "form": "adjective",
-        "transcription": "\u02ccm\u026as\u02c8li\u02d0d\u026a\u014b",
+        "transcription": "ˌmɪsˈliːdɪŋ",
         "definitions": [
             {
                 "text": "Giving a false impression; deceptive.",
@@ -1078,47 +833,12 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-ADJ-LAW-032",
-        "word": "moderate",
-        "emoji": "\u2696\ufe0f",
-        "subtext": "quite moderate / fairly moderate / a moderate improvement",
-        "form": "adjective",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8m\u0252d\u0259r\u0259t | \ud83c\uddfa\ud83c\uddf8 \u02c8m\u0251\u02d0d\u0259r\u0259t",
-        "definitions": [
-            {
-                "text": "Not extreme; somewhere in the middle.",
-                "examples": [
-                    "The team achieved moderate success in the first quarter."
-                ]
-            }
-        ],
-        "synonyms": [
-            "average",
-            "modest",
-            "temperate"
-        ],
-        "antonyms": [
-            "extreme",
-            "excessive"
-        ],
-        "lang": "en",
-        "level": "advanced",
-        "theme": "language",
-        "sub_theme": null,
-        "legacy_id": "C1-LAW-32",
-        "level_code": "C1",
-        "domain": "LAW",
-        "subcategory": "Legal_System",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "General_Law"
-    },
-    {
         "id": "C1-ADJ-LAW-033",
         "word": "peculiar",
-        "emoji": "\ud83e\udd68",
+        "emoji": "🥨",
         "subtext": "very peculiar / quite peculiar / find peculiar",
         "form": "adjective",
-        "transcription": "\ud83c\uddec\ud83c\udde7 p\u026a\u02c8kju\u02d0li\u0259 | \ud83c\uddfa\ud83c\uddf8 p\u026a\u02c8kju\u02d0li\u0259r",
+        "transcription": "🇬🇧 pɪˈkjuːliə | 🇺🇸 pɪˈkjuːliər",
         "definitions": [
             {
                 "text": "Strange; unlike what is normal.",
@@ -1150,10 +870,10 @@
     {
         "id": "C1-ADJ-LAW-034",
         "word": "plausible",
-        "emoji": "\ud83e\udd28",
+        "emoji": "🤨",
         "subtext": "very plausible / quite plausible / a plausible explanation",
         "form": "adjective",
-        "transcription": "\u02c8pl\u0254\u02d0z\u0259bl",
+        "transcription": "ˈplɔːzəbl",
         "definitions": [
             {
                 "text": "Seeming reasonable or probable.",
@@ -1185,10 +905,10 @@
     {
         "id": "C1-ADJ-LAW-035",
         "word": "preliminary",
-        "emoji": "\ud83c\udd95",
+        "emoji": "🆕",
         "subtext": "very preliminary / purely preliminary / a preliminary finding",
         "form": "adjective",
-        "transcription": "pr\u026a\u02c8l\u026am\u026an\u0259ri",
+        "transcription": "prɪˈlɪmɪnəri",
         "definitions": [
             {
                 "text": "Coming before the main event; preparatory.",
@@ -1220,10 +940,10 @@
     {
         "id": "C1-ADJ-LAW-036",
         "word": "prevalent",
-        "emoji": "\ud83c\udf0d",
+        "emoji": "🌍",
         "subtext": "very prevalent / increasingly prevalent / remain prevalent",
         "form": "adjective",
-        "transcription": "\u02c8prev\u0259l\u0259nt",
+        "transcription": "ˈprevələnt",
         "definitions": [
             {
                 "text": "Widespread; commonly found.",
@@ -1255,10 +975,10 @@
     {
         "id": "C1-ADJ-LAW-037",
         "word": "problematic",
-        "emoji": "\u26a0\ufe0f",
+        "emoji": "⚠️",
         "subtext": "very problematic / highly problematic / deeply problematic",
         "form": "adjective",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02ccpr\u0252bl\u0259\u02c8m\u00e6t\u026ak | \ud83c\uddfa\ud83c\uddf8 \u02ccpr\u0251\u02d0bl\u0259\u02c8m\u00e6t\u026ak",
+        "transcription": "🇬🇧 ˌprɒbləˈmætɪk | 🇺🇸 ˌprɑːbləˈmætɪk",
         "definitions": [
             {
                 "text": "Involving or presenting a problem.",
@@ -1290,10 +1010,10 @@
     {
         "id": "C1-ADJ-LAW-038",
         "word": "prone",
-        "emoji": "\ud83d\udcc9",
+        "emoji": "📉",
         "subtext": "prone to / highly prone / be prone to errors",
         "form": "adjective",
-        "transcription": "\ud83c\uddec\ud83c\udde7 pr\u0259\u028an | \ud83c\uddfa\ud83c\uddf8 pro\u028an",
+        "transcription": "🇬🇧 prəʊn | 🇺🇸 proʊn",
         "definitions": [
             {
                 "text": "Likely to be affected by something negative.",
@@ -1325,10 +1045,10 @@
     {
         "id": "C1-ADJ-LAW-039",
         "word": "stagnant",
-        "emoji": "\ud83d\udca7",
+        "emoji": "💧",
         "subtext": "completely stagnant / remain stagnant / a stagnant market",
         "form": "adjective",
-        "transcription": "\u02c8st\u00e6\u0261n\u0259nt",
+        "transcription": "ˈstæɡnənt",
         "definitions": [
             {
                 "text": "Not growing or developing.",
@@ -1361,10 +1081,10 @@
     {
         "id": "C1-ADJ-LAW-040",
         "word": "structural",
-        "emoji": "\ud83c\udfd7\ufe0f",
+        "emoji": "🏗️",
         "subtext": "deep structural / a structural problem / structural change",
         "form": "adjective",
-        "transcription": "\u02c8str\u028ckt\u0283\u0259r\u0259l",
+        "transcription": "ˈstrʌktʃərəl",
         "definitions": [
             {
                 "text": "Relating to the way something is built or organised.",
@@ -1387,10 +1107,10 @@
     {
         "id": "C1-ADJ-LAW-041",
         "word": "superb",
-        "emoji": "\ud83d\udc8e",
+        "emoji": "💎",
         "subtext": "absolutely superb / truly superb / simply superb",
         "form": "adjective",
-        "transcription": "su\u02d0\u02c8p\u025c\u02d0b",
+        "transcription": "suːˈpɜːb",
         "definitions": [
             {
                 "text": "Excellent; of the best quality.",
@@ -1422,10 +1142,10 @@
     {
         "id": "C1-ADJ-LAW-042",
         "word": "symbolic",
-        "emoji": "\ud83d\udd4a\ufe0f",
+        "emoji": "🕊️",
         "subtext": "purely symbolic / deeply symbolic / a symbolic gesture",
         "form": "adjective",
-        "transcription": "\ud83c\uddec\ud83c\udde7 s\u026am\u02c8b\u0252l\u026ak | \ud83c\uddfa\ud83c\uddf8 s\u026am\u02c8b\u0251\u02d0l\u026ak",
+        "transcription": "🇬🇧 sɪmˈbɒlɪk | 🇺🇸 sɪmˈbɑːlɪk",
         "definitions": [
             {
                 "text": "Representing something; not having real significance.",
@@ -1457,10 +1177,10 @@
     {
         "id": "C1-ADJ-LAW-043",
         "word": "systematic",
-        "emoji": "\u2699\ufe0f",
+        "emoji": "⚙️",
         "subtext": "very systematic / highly systematic / a systematic review",
         "form": "adjective",
-        "transcription": "\u02ccs\u026ast\u0259\u02c8m\u00e6t\u026ak",
+        "transcription": "ˌsɪstəˈmætɪk",
         "definitions": [
             {
                 "text": "Done according to a plan; methodical.",
@@ -1492,15 +1212,15 @@
     {
         "id": "C1-ADJ-LAW-044",
         "word": "theoretical",
-        "emoji": "\ud83d\udcda",
+        "emoji": "📚",
         "subtext": "purely theoretical / very theoretical / a theoretical framework",
         "form": "adjective",
-        "transcription": "\u02cc\u03b8\u026a\u0259\u02c8ret\u026akl",
+        "transcription": "ˌθɪəˈretɪkl",
         "definitions": [
             {
                 "text": "Based on theory rather than practice.",
                 "examples": [
-                    "The problem is theoretical \u2014 it does not arise in practice."
+                    "The problem is theoretical — it does not arise in practice."
                 ]
             }
         ],
@@ -1527,10 +1247,10 @@
     {
         "id": "C1-ADJ-LAW-045",
         "word": "vicious",
-        "emoji": "\ud83e\udd82",
+        "emoji": "🦂",
         "subtext": "utterly vicious / a vicious circle / a vicious attack",
         "form": "adjective",
-        "transcription": "\u02c8v\u026a\u0283\u0259s",
+        "transcription": "ˈvɪʃəs",
         "definitions": [
             {
                 "text": "Deliberately cruel; savage.",
@@ -1562,10 +1282,10 @@
     {
         "id": "C1-ADJ-LAW-046",
         "word": "vulnerable",
-        "emoji": "\ud83d\udee1\ufe0f",
+        "emoji": "🛡️",
         "subtext": "very vulnerable / highly vulnerable / left vulnerable",
         "form": "adjective",
-        "transcription": "\u02c8v\u028cln\u0259r\u0259bl",
+        "transcription": "ˈvʌlnərəbl",
         "definitions": [
             {
                 "text": "Open to being harmed or attacked.",
@@ -1595,45 +1315,10 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "id": "C1-ADJ-LAW-047",
-        "word": "worthwhile",
-        "emoji": "\u2714\ufe0f",
-        "subtext": "very worthwhile / well worthwhile / prove worthwhile",
-        "form": "adjective",
-        "transcription": "\u02ccw\u025c\u02d0\u03b8\u02c8wa\u026al",
-        "definitions": [
-            {
-                "text": "Worth the time or effort involved.",
-                "examples": [
-                    "Learning another language is a worthwhile investment."
-                ]
-            }
-        ],
-        "synonyms": [
-            "valuable",
-            "beneficial",
-            "useful"
-        ],
-        "antonyms": [
-            "pointless",
-            "useless"
-        ],
-        "lang": "en",
-        "level": "advanced",
-        "theme": "language",
-        "sub_theme": null,
-        "legacy_id": "C1-LAW-47",
-        "level_code": "C1",
-        "domain": "LAW",
-        "subcategory": "Legal_System",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "General_Law"
-    },
-    {
         "word": "punitive",
         "form": "adjective",
-        "transcription": "\u02c8pju\u02d0n\u0259t\u026av",
-        "emoji": "\ud83d\udd28",
+        "transcription": "ˈpjuːnətɪv",
+        "emoji": "🔨",
         "subtext": "punitive damages / punitive measures",
         "definitions": [
             {
@@ -1663,8 +1348,8 @@
     {
         "word": "actionable",
         "form": "adjective",
-        "transcription": "\u02c8\u00e6k\u0283\u0259n\u0259bl",
-        "emoji": "\ud83d\udcdc",
+        "transcription": "ˈækʃənəbl",
+        "emoji": "📜",
         "subtext": "actionable claim / actionable breach",
         "definitions": [
             {
@@ -1694,8 +1379,8 @@
     {
         "word": "litigious",
         "form": "adjective",
-        "transcription": "l\u026a\u02c8t\u026ad\u0292\u0259s",
-        "emoji": "\ud83d\udcbc",
+        "transcription": "lɪˈtɪdʒəs",
+        "emoji": "💼",
         "subtext": "litigious climate / highly litigious",
         "definitions": [
             {
@@ -1723,6 +1408,10 @@
         "legacy_id": "C1-LAW-50"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

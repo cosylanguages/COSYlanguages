@@ -29,32 +29,6 @@
         "legacy_id": "B1-NOUN-PEO-012"
     },
     {
-        "word": "capacity",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "personality",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A noun referring to the maximum amount that something can contain or produce, such as human learning ability.",
-                "examples": [
-                    "She has an amazing capacity for retaining facts."
-                ]
-            }
-        ],
-        "transcription": "kəˈpæsəti",
-        "emoji": "💡",
-        "_legacy": {
-            "subtext": "intellectual capacity / mental capacity"
-        },
-        "level_code": "B1",
-        "domain": "People",
-        "subcategory": "Personality",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Psychological_Traits",
-        "id": "B1-NOUN-PEO-018"
-    },
-    {
         "word": "disposition",
         "lang": "en",
         "level": "intermediate",
@@ -185,6 +159,10 @@
         "id": "B1-NOUN-PEO-023"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

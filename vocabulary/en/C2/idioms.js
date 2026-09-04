@@ -2468,24 +2468,6 @@
         "sub_theme": "failure"
     },
     {
-        "id": "en_proficiency_idioms_138",
-        "word": "Whistleblower",
-        "form": "idiom",
-        "definitions": [
-            {
-                "text": "A person informing on illegal activities",
-                "examples": [
-                    "The whistleblower reported fraud to auditors."
-                ]
-            }
-        ],
-        "subtext": "idiomatic expression",
-        "lang": "en",
-        "level": "proficiency",
-        "theme": "idioms",
-        "sub_theme": "integrity"
-    },
-    {
         "id": "en_proficiency_idioms_139",
         "word": "Worth one's weight in gold",
         "form": "idiom",
@@ -2701,7 +2683,11 @@
         "theme": "idioms",
         "sub_theme": "advice"
     }
-    ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

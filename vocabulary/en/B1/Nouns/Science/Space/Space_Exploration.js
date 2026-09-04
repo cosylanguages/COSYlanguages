@@ -80,32 +80,6 @@
         "id": "B1-NOUN-SCI-036"
     },
     {
-        "word": "satellite",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "space",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A noun referring to an artificial body placed in orbit around Earth or moon, such as transmitting TV signals.",
-                "examples": [
-                    "Weather satellites monitor global hurricane patterns."
-                ]
-            }
-        ],
-        "transcription": "ˈsætəlaɪt",
-        "emoji": "🛰️",
-        "_legacy": {
-            "subtext": "weather satellite / orbit satellite"
-        },
-        "level_code": "B1",
-        "domain": "Science",
-        "subcategory": "Space",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Space_Exploration",
-        "id": "B1-NOUN-SCI-037"
-    },
-    {
         "word": "telescope",
         "lang": "en",
         "level": "intermediate",
@@ -132,6 +106,10 @@
         "id": "B1-NOUN-SCI-038"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

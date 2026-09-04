@@ -4,9 +4,9 @@
     {
         "id": "B2-VERB-PEO-011",
         "word": "analyse",
-        "emoji": "\ud83d\udd0d",
+        "emoji": "🔍",
         "form": "verb",
-        "transcription": "\u02c8\u00e6n\u0259la\u026az",
+        "transcription": "ˈænəlaɪz",
         "subtext": "Formal | analyse data / analyse a situation / detailed analysis",
         "definitions": [
             {
@@ -35,44 +35,11 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "B2-VERB-PEO-012",
-        "word": "assess",
-        "emoji": "\ud83d\udccb",
-        "form": "verb",
-        "transcription": "\u0259\u02c8s\u025bs",
-        "subtext": "Formal | assess risks / assess the situation / impact assessment",
-        "definitions": [
-            {
-                "text": "To evaluate the quality or importance of something.",
-                "examples": [
-                    "They assessed all risks carefully before launching the product."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "assessed",
-        "v3": "assessed",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "assessing",
-        "lang": "en",
-        "level": "upper_intermediate",
-        "theme": "psychology",
-        "sub_theme": null,
-        "legacy_id": "B2-PPL-21",
-        "level_code": "B2",
-        "domain": "People",
-        "subcategory": "Personality",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Psychological_Traits"
-    },
-    {
         "id": "B2-VERB-PEO-013",
         "word": "determine",
-        "emoji": "\ud83c\udfaf",
+        "emoji": "🎯",
         "form": "verb",
-        "transcription": "d\u026a\u02c8t\u025c\u02d0m\u026an",
+        "transcription": "dɪˈtɜːmɪn",
         "subtext": "Formal | determine the cause / determine whether / be determined by",
         "definitions": [
             {
@@ -103,9 +70,9 @@
     {
         "id": "B2-VERB-PEO-014",
         "word": "distinguish",
-        "emoji": "\ud83c\udf13",
+        "emoji": "🌓",
         "form": "verb",
-        "transcription": "d\u026a\u02c8st\u026a\u014b\u0261w\u026a\u0283",
+        "transcription": "dɪˈstɪŋɡwɪʃ",
         "subtext": "Formal | distinguish between / clearly distinguish / hard to distinguish",
         "definitions": [
             {
@@ -134,110 +101,11 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "B2-VERB-PEO-015",
-        "word": "evaluate",
-        "emoji": "\u2696\ufe0f",
-        "form": "verb",
-        "transcription": "\u026a\u02c8v\u00e6ljue\u026at",
-        "subtext": "Formal | evaluate performance / evaluate results / cost-benefit evaluation",
-        "definitions": [
-            {
-                "text": "To judge the value or effectiveness of something systematically.",
-                "examples": [
-                    "The government evaluated the scheme's effectiveness after a year."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "evaluated",
-        "v3": "evaluated",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "evaluating",
-        "lang": "en",
-        "level": "upper_intermediate",
-        "theme": "psychology",
-        "sub_theme": null,
-        "legacy_id": "B2-PPL-53",
-        "level_code": "B2",
-        "domain": "People",
-        "subcategory": "Personality",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Psychological_Traits"
-    },
-    {
-        "id": "B2-VERB-PEO-016",
-        "word": "examine",
-        "emoji": "\ud83d\udd2c",
-        "form": "verb",
-        "transcription": "\u026a\u0261\u02c8z\u00e6m\u026an",
-        "subtext": "Formal | examine evidence / examine the impact / examine closely",
-        "definitions": [
-            {
-                "text": "To look at something carefully to understand it.",
-                "examples": [
-                    "The committee examined the financial evidence thoroughly."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "examined",
-        "v3": "examined",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "examining",
-        "lang": "en",
-        "level": "upper_intermediate",
-        "theme": "psychology",
-        "sub_theme": null,
-        "legacy_id": "B2-PPL-54",
-        "level_code": "B2",
-        "domain": "People",
-        "subcategory": "Personality",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Psychological_Traits"
-    },
-    {
-        "id": "B2-VERB-PEO-017",
-        "word": "identify",
-        "emoji": "\ud83c\udd94",
-        "form": "verb",
-        "transcription": "a\u026a\u02c8d\u025bnt\u026afa\u026a",
-        "subtext": "Neutral | identify a problem / identify a solution / identify risks",
-        "definitions": [
-            {
-                "text": "To recognise or establish the identity of something.",
-                "examples": [
-                    "She identified three key weaknesses in the current system."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "identified",
-        "v3": "identified",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "identifying",
-        "lang": "en",
-        "level": "upper_intermediate",
-        "theme": "psychology",
-        "sub_theme": null,
-        "legacy_id": "B2-PPL-71",
-        "level_code": "B2",
-        "domain": "People",
-        "subcategory": "Personality",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Psychological_Traits"
-    },
-    {
         "id": "B2-VERB-PEO-018",
         "word": "interpret",
-        "emoji": "\ud83d\udde3\ufe0f",
+        "emoji": "🗣️",
         "form": "verb",
-        "transcription": "\u026an\u02c8t\u025c\u02d0pr\u026at",
+        "transcription": "ɪnˈtɜːprɪt",
         "subtext": "Formal | interpret data / interpret results / open to interpretation",
         "definitions": [
             {
@@ -268,9 +136,9 @@
     {
         "id": "B2-VERB-PEO-019",
         "word": "investigate",
-        "emoji": "\ud83d\udd75\ufe0f",
+        "emoji": "🕵️",
         "form": "verb",
-        "transcription": "\u026an\u02c8v\u025bst\u026a\u0261e\u026at",
+        "transcription": "ɪnˈvɛstɪɡeɪt",
         "subtext": "Formal | investigate a case / investigate claims / conduct an investigation",
         "definitions": [
             {
@@ -297,41 +165,12 @@
         "subcategory": "Personality",
         "pos_section": "Verbs",
         "sub_subcategory": "Psychological_Traits"
-    },
-    {
-        "id": "B2-VERB-PEO-020",
-        "word": "measure",
-        "emoji": "\ud83d\udccf",
-        "form": "verb",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8m\u025b\u0292\u0259 | \ud83c\uddfa\ud83c\uddf8 \u02c8m\u025b\u0292\u0259r",
-        "subtext": "Neutral | measure success / measure impact / difficult to measure",
-        "definitions": [
-            {
-                "text": "To determine the size, amount or extent of something.",
-                "examples": [
-                    "How do you actually measure the success of a flexible policy?"
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "measured",
-        "v3": "measured",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "measuring",
-        "lang": "en",
-        "level": "upper_intermediate",
-        "theme": "psychology",
-        "sub_theme": null,
-        "legacy_id": "B2-PPL-83",
-        "level_code": "B2",
-        "domain": "People",
-        "subcategory": "Personality",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Psychological_Traits"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

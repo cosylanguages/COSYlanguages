@@ -68,42 +68,12 @@
         "subcategory": "Environment",
         "pos_section": "Verbs",
         "sub_subcategory": "Ecology_Climate"
-    },
-    {
-        "id": "B1-VERB-SCI-005",
-        "word": "recycle",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "environment",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To convert waste into reusable material.",
-                "examples": [
-                    "They recycle glass, paper and plastic every week."
-                ]
-            }
-        ],
-        "transcription": "ˌriːˈsaɪkl",
-        "emoji": "♻️",
-        "_legacy": {
-            "subtext": "recycle plastic, recycling bin",
-            "classification": "regular",
-            "aspect": "action",
-            "v2": "recycled",
-            "v3": "recycled",
-            "group": "regular",
-            "auxiliary": "have",
-            "v4": "recycling"
-        },
-        "legacy_id": "B1-SCI-10",
-        "level_code": "B1",
-        "domain": "Science",
-        "subcategory": "Environment",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Ecology_Climate"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

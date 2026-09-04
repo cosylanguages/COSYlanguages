@@ -2,38 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A1-NOUN-SEL-010",
-        "word": "boots",
-        "emoji": "\ud83e\udd7e",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "boots",
-        "definitions": [
-            {
-                "text": "A type of strong shoe that covers your foot and part of your leg.",
-                "examples": [
-                    "I need some new winter boots."
-                ]
-            }
-        ],
-        "subtext": "related to items of clothing",
-        "transcription": "buts",
-        "lang": "en",
-        "level": "starter",
-        "theme": "items_of_clothing",
-        "sub_theme": null,
-        "legacy_id": "A1-SELF-20",
-        "level_code": "A1",
-        "domain": "SELF",
-        "subcategory": "Appearance",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Clothing_Garments"
-    },
-    {
         "id": "A1-NOUN-SEL-011",
         "word": "clothes",
-        "emoji": "\ud83d\udc55",
+        "emoji": "👕",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -48,7 +19,7 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 kl\u0259\u028a\u00f0z | \ud83c\uddfa\ud83c\uddf8 klo\u028a\u00f0z",
+        "transcription": "🇬🇧 kləʊðz | 🇺🇸 kloʊðz",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -63,7 +34,7 @@
     {
         "id": "A1-NOUN-SEL-012",
         "word": "coat",
-        "emoji": "\ud83e\udde5",
+        "emoji": "🧥",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -73,11 +44,11 @@
             {
                 "text": "A piece of clothing that you wear over other clothes to keep warm.",
                 "examples": [
-                    "Put on your coat \u2014 it's cold."
+                    "Put on your coat — it's cold."
                 ]
             }
         ],
-        "transcription": "ko\u028at",
+        "transcription": "koʊt",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -92,7 +63,7 @@
     {
         "id": "A1-NOUN-SEL-013",
         "word": "dress",
-        "emoji": "\ud83d\udc57",
+        "emoji": "👗",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -106,7 +77,7 @@
             }
         ],
         "subtext": "related to items of clothing",
-        "transcription": "dr\u025bs",
+        "transcription": "drɛs",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -121,7 +92,7 @@
     {
         "id": "A1-NOUN-SEL-014",
         "word": "hat",
-        "emoji": "\ud83d\udc52",
+        "emoji": "👒",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -135,7 +106,7 @@
                 ]
             }
         ],
-        "transcription": "h\u00e6t",
+        "transcription": "hæt",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -150,7 +121,7 @@
     {
         "id": "A1-NOUN-SEL-015",
         "word": "jacket",
-        "emoji": "\ud83e\udde5",
+        "emoji": "🧥",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -164,7 +135,7 @@
                 ]
             }
         ],
-        "transcription": "\u02c8d\u0292\u00e6k\u026at",
+        "transcription": "ˈdʒækɪt",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -183,7 +154,7 @@
     {
         "id": "A1-NOUN-SEL-016",
         "word": "jeans",
-        "emoji": "\ud83d\udc56",
+        "emoji": "👖",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -197,14 +168,14 @@
                 ]
             }
         ],
-        "transcription": "\u02a4inz",
+        "transcription": "ʤinz",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
         "sub_theme": "everyday",
         "etymology": {
             "origin_lang": "Old French",
-            "origin_word": "G\u00eanes",
+            "origin_word": "Gênes",
             "origin_meaning": "Genoa, Italy"
         },
         "legacy_id": "A1-SELF-95",
@@ -217,14 +188,14 @@
     {
         "id": "A1-NOUN-SEL-017",
         "word": "pants",
-        "emoji": "\ud83d\udc56",
+        "emoji": "👖",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
         "plural": "pants",
         "subtext": "related to items of clothing",
         "synonyms": [
-            "\ud83c\uddec\ud83c\udde7 trousers"
+            "🇬🇧 trousers"
         ],
         "definitions": [
             {
@@ -234,7 +205,7 @@
                 ]
             }
         ],
-        "transcription": "p\u00e6nts",
+        "transcription": "pænts",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -254,7 +225,7 @@
     {
         "id": "A1-NOUN-SEL-018",
         "word": "pocket",
-        "emoji": "\ud83d\udc56",
+        "emoji": "👖",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -268,7 +239,7 @@
             }
         ],
         "subtext": "related to items of clothing",
-        "transcription": "\u02c8p\u0251k\u0259t",
+        "transcription": "ˈpɑkət",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -283,7 +254,7 @@
     {
         "id": "A1-NOUN-SEL-019",
         "word": "pyjamas",
-        "emoji": "\ud83d\udecc",
+        "emoji": "🛌",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -297,15 +268,15 @@
             }
         ],
         "subtext": "related to items of clothing",
-        "transcription": "p\u0259\u02c8d\u0292\u0251\u02d0m\u0259z",
+        "transcription": "pəˈdʒɑːməz",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Hindi",
-            "origin_word": "p\u0101yj\u0101ma",
-            "entered_via": "Persian p\u0101y-j\u0101mah"
+            "origin_word": "pāyjāma",
+            "entered_via": "Persian pāy-jāmah"
         },
         "legacy_id": "A1-SELF-139",
         "level_code": "A1",
@@ -317,7 +288,7 @@
     {
         "id": "A1-NOUN-SEL-020",
         "word": "shirt",
-        "emoji": "\ud83d\udc54",
+        "emoji": "👔",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -331,14 +302,14 @@
                 ]
             }
         ],
-        "transcription": "\u0283\u025c\u02d0t",
+        "transcription": "ʃɜːt",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
         "sub_theme": "everyday",
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "skurtij\u01ed"
+            "origin_word": "skurtijǭ"
         },
         "legacy_id": "A1-SELF-166",
         "level_code": "A1",
@@ -350,7 +321,7 @@
     {
         "id": "A1-NOUN-SEL-021",
         "word": "shoe",
-        "emoji": "\ud83d\udc5f",
+        "emoji": "👟",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -364,14 +335,14 @@
                 ]
             }
         ],
-        "transcription": "\u0283u",
+        "transcription": "ʃu",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "sk\u014dhaz"
+            "origin_word": "skōhaz"
         },
         "legacy_id": "A1-SELF-167",
         "level_code": "A1",
@@ -381,38 +352,9 @@
         "sub_subcategory": "Clothing_Garments"
     },
     {
-        "id": "A1-NOUN-SEL-022",
-        "word": "shoes",
-        "emoji": "\ud83d\udc5f",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "shoes",
-        "subtext": "pair of shoes, wear shoes",
-        "definitions": [
-            {
-                "text": "A pair of coverings for your feet.",
-                "examples": [
-                    "Take off your shoes."
-                ]
-            }
-        ],
-        "transcription": "\u0283uz",
-        "lang": "en",
-        "level": "starter",
-        "theme": "items_of_clothing",
-        "sub_theme": null,
-        "legacy_id": "A1-SELF-168",
-        "level_code": "A1",
-        "domain": "SELF",
-        "subcategory": "Appearance",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Clothing_Garments"
-    },
-    {
         "id": "A1-NOUN-SEL-023",
         "word": "shorts",
-        "emoji": "\ud83e\ude73",
+        "emoji": "🩳",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -426,7 +368,7 @@
             }
         ],
         "subtext": "related to items of clothing",
-        "transcription": "\u0283\u0254rts",
+        "transcription": "ʃɔrts",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -441,7 +383,7 @@
     {
         "id": "A1-NOUN-SEL-024",
         "word": "skirt",
-        "emoji": "\ud83d\udc57",
+        "emoji": "👗",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -455,7 +397,7 @@
             }
         ],
         "subtext": "related to items of clothing",
-        "transcription": "sk\u0259rt",
+        "transcription": "skərt",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -468,43 +410,14 @@
         "sub_subcategory": "Clothing_Garments"
     },
     {
-        "id": "A1-NOUN-SEL-025",
-        "word": "socks",
-        "emoji": "\ud83e\udde6",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "plural": "socks",
-        "definitions": [
-            {
-                "text": "Clothing worn on the feet inside shoes.",
-                "examples": [
-                    "I need some new socks."
-                ]
-            }
-        ],
-        "subtext": "related to items of clothing",
-        "transcription": "s\u0251ks",
-        "lang": "en",
-        "level": "starter",
-        "theme": "items_of_clothing",
-        "sub_theme": null,
-        "legacy_id": "A1-SELF-179",
-        "level_code": "A1",
-        "domain": "SELF",
-        "subcategory": "Appearance",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Clothing_Garments"
-    },
-    {
         "id": "A1-NOUN-SEL-026",
         "word": "suit",
-        "emoji": "\ud83d\udc54",
+        "emoji": "👔",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
         "plural": "suits",
-        "transcription": "su\u02d0t",
+        "transcription": "suːt",
         "subtext": "wear a suit",
         "definitions": [
             {
@@ -533,14 +446,14 @@
     {
         "id": "A1-NOUN-SEL-027",
         "word": "sweater",
-        "emoji": "\ud83e\uddf6",
+        "emoji": "🧶",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
         "plural": "sweaters",
         "subtext": "related to items of clothing",
         "synonyms": [
-            "\ud83c\uddec\ud83c\udde7 jumper"
+            "🇬🇧 jumper"
         ],
         "definitions": [
             {
@@ -550,7 +463,7 @@
                 ]
             }
         ],
-        "transcription": "s\u02c8w\u025bt\u0259r",
+        "transcription": "sˈwɛtər",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -565,7 +478,7 @@
     {
         "id": "A1-NOUN-SEL-028",
         "word": "t-shirt",
-        "emoji": "\ud83d\udc55",
+        "emoji": "👕",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -579,7 +492,7 @@
                 ]
             }
         ],
-        "transcription": "\u02c8ti\u02ccs\u0259rt",
+        "transcription": "ˈtiˌsərt",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -594,7 +507,7 @@
     {
         "id": "A1-NOUN-SEL-029",
         "word": "tie",
-        "emoji": "\ud83d\udc54",
+        "emoji": "👔",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -608,7 +521,7 @@
             }
         ],
         "subtext": "related to items of clothing",
-        "transcription": "ta\u026a",
+        "transcription": "taɪ",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -623,14 +536,14 @@
     {
         "id": "A1-NOUN-SEL-030",
         "word": "trainers",
-        "emoji": "\ud83d\udc5f",
+        "emoji": "👟",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
         "plural": "trainers",
         "subtext": "related to items of clothing",
         "synonyms": [
-            "\ud83c\uddfa\ud83c\uddf8 sneakers"
+            "🇺🇸 sneakers"
         ],
         "definitions": [
             {
@@ -640,7 +553,7 @@
                 ]
             }
         ],
-        "transcription": "\u02c8tre\u026an\u0259rz",
+        "transcription": "ˈtreɪnərz",
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
@@ -655,9 +568,9 @@
     {
         "id": "A1-NOUN-SEL-137",
         "word": "boot",
-        "emoji": "\ud83e\udd7e",
+        "emoji": "🥾",
         "form": "noun",
-        "transcription": "bu\u02d0t",
+        "transcription": "buːt",
         "definitions": [
             {
                 "text": "A sturdy item of footwear covering the foot and ankle.",
@@ -678,9 +591,9 @@
     {
         "id": "A1-NOUN-SEL-138",
         "word": "sock",
-        "emoji": "\ud83e\udde6",
+        "emoji": "🧦",
         "form": "noun",
-        "transcription": "s\u0251\u02d0k",
+        "transcription": "sɑːk",
         "definitions": [
             {
                 "text": "A soft garment worn on the foot inside a shoe.",
@@ -701,9 +614,9 @@
     {
         "id": "A1-NOUN-SEL-139",
         "word": "trousers",
-        "emoji": "\ud83d\udc56",
+        "emoji": "👖",
         "form": "noun",
-        "transcription": "\u02c8tra\u028az\u0259rz",
+        "transcription": "ˈtraʊzərz",
         "definitions": [
             {
                 "text": "An outer garment covering the body from waist to ankles.",
@@ -724,9 +637,9 @@
     {
         "id": "A1-NOUN-SEL-140",
         "word": "uniform",
-        "emoji": "\ud83e\udd4b",
+        "emoji": "🥋",
         "form": "noun",
-        "transcription": "\u02c8ju\u02d0n\u0259\u02ccf\u0254\u02d0rm",
+        "transcription": "ˈjuːnəˌfɔːrm",
         "definitions": [
             {
                 "text": "Special clothing worn by members of an organization.",

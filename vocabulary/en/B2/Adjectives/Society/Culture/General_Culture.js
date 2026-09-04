@@ -2,73 +2,11 @@
     const lang = "en";
     const data = [
     {
-        "id": "B2-ADJ-SOC-001",
-        "word": "adequate",
-        "emoji": "\ud83c\udd97",
-        "form": "adjective",
-        "transcription": "\u02c8\u00e6d\u026akw\u0259t",
-        "subtext": "Formal | barely adequate / more than adequate / deemed adequate",
-        "definitions": [
-            {
-                "text": "Enough for the purpose; satisfactory.",
-                "examples": [
-                    "Critics argued the funding was not adequate to meet demand."
-                ]
-            }
-        ],
-        "comparative": "more adequate",
-        "superlative": "the most adequate",
-        "antonyms": [
-            "inadequate"
-        ],
-        "lang": "en",
-        "level": "upper_intermediate",
-        "theme": "language",
-        "sub_theme": null,
-        "legacy_id": "B2-SOC-13",
-        "level_code": "B2",
-        "domain": "Society",
-        "subcategory": "Culture",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "General_Culture"
-    },
-    {
-        "id": "B2-ADJ-SOC-002",
-        "word": "appropriate",
-        "emoji": "\u2705",
-        "form": "adjective",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u0259\u02c8pr\u0259\u028aprie\u026at | \ud83c\uddfa\ud83c\uddf8 \u0259\u02c8pro\u028aprie\u026at",
-        "subtext": "Neutral | entirely appropriate / wholly appropriate / deem appropriate",
-        "definitions": [
-            {
-                "text": "Suitable for a particular situation.",
-                "examples": [
-                    "The minister questioned whether the response was appropriate."
-                ]
-            }
-        ],
-        "comparative": "more appropriate",
-        "superlative": "the most appropriate",
-        "antonyms": [
-            "inappropriate"
-        ],
-        "lang": "en",
-        "level": "upper_intermediate",
-        "theme": "language",
-        "sub_theme": null,
-        "legacy_id": "B2-SOC-16",
-        "level_code": "B2",
-        "domain": "Society",
-        "subcategory": "Culture",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "General_Culture"
-    },
-    {
         "id": "B2-ADJ-SOC-003",
         "word": "complex",
-        "emoji": "\ud83e\udde9",
+        "emoji": "🧩",
         "form": "adjective",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8k\u0252mpl\u025bks | \ud83c\uddfa\ud83c\uddf8 \u02c8k\u0251\u02d0mpl\u025bks",
+        "transcription": "🇬🇧 ˈkɒmplɛks | 🇺🇸 ˈkɑːmplɛks",
         "subtext": "Formal | very complex / highly complex / increasingly complex",
         "definitions": [
             {
@@ -97,9 +35,9 @@
     {
         "id": "B2-ADJ-SOC-004",
         "word": "comprehensive",
-        "emoji": "\ud83d\udcda",
+        "emoji": "📚",
         "form": "adjective",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02cck\u0252mpr\u026a\u02c8h\u025bns\u026av | \ud83c\uddfa\ud83c\uddf8 \u02cck\u0251\u02d0mpr\u026a\u02c8h\u025bns\u026av",
+        "transcription": "🇬🇧 ˌkɒmprɪˈhɛnsɪv | 🇺🇸 ˌkɑːmprɪˈhɛnsɪv",
         "subtext": "Formal | truly comprehensive / very comprehensive / a comprehensive review",
         "definitions": [
             {
@@ -128,9 +66,9 @@
     {
         "id": "B2-ADJ-SOC-005",
         "word": "consistent",
-        "emoji": "\ud83d\udd04",
+        "emoji": "🔄",
         "form": "adjective",
-        "transcription": "k\u0259n\u02c8s\u026ast\u0259nt",
+        "transcription": "kənˈsɪstənt",
         "subtext": "Formal | highly consistent / very consistent / entirely consistent",
         "definitions": [
             {
@@ -159,9 +97,9 @@
     {
         "id": "B2-ADJ-SOC-006",
         "word": "controversial",
-        "emoji": "\ud83d\udde3\ufe0f",
+        "emoji": "🗣️",
         "form": "adjective",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02cck\u0252ntr\u0259\u02c8v\u025c\u02d0\u0283l | \ud83c\uddfa\ud83c\uddf8 \u02cck\u0251\u02d0ntr\u0259\u02c8v\u025c\u02d0\u0283l",
+        "transcription": "🇬🇧 ˌkɒntrəˈvɜːʃl | 🇺🇸 ˌkɑːntrəˈvɜːʃl",
         "subtext": "Formal | highly controversial / deeply controversial / spark controversy",
         "definitions": [
             {
@@ -190,9 +128,9 @@
     {
         "id": "B2-ADJ-SOC-007",
         "word": "conventional",
-        "emoji": "\ud83c\udfa9",
+        "emoji": "🎩",
         "form": "adjective",
-        "transcription": "k\u0259n\u02c8v\u025bn\u0283\u0259nl",
+        "transcription": "kənˈvɛnʃənl",
         "subtext": "Formal | very conventional / highly conventional / conventional thinking",
         "definitions": [
             {
@@ -221,9 +159,9 @@
     {
         "id": "B2-ADJ-SOC-008",
         "word": "distinct",
-        "emoji": "\ud83c\udf13",
+        "emoji": "🌓",
         "form": "adjective",
-        "transcription": "d\u026a\u02c8st\u026a\u014bkt",
+        "transcription": "dɪˈstɪŋkt",
         "subtext": "Formal | clearly distinct / quite distinct / a distinct difference",
         "definitions": [
             {
@@ -252,9 +190,9 @@
     {
         "id": "B2-ADJ-SOC-009",
         "word": "dominant",
-        "emoji": "\ud83e\udd81",
+        "emoji": "🦁",
         "form": "adjective",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8d\u0252m\u026an\u0259nt | \ud83c\uddfa\ud83c\uddf8 \u02c8d\u0251\u02d0m\u026an\u0259nt",
+        "transcription": "🇬🇧 ˈdɒmɪnənt | 🇺🇸 ˈdɑːmɪnənt",
         "subtext": "Formal | largely dominant / clearly dominant / the dominant force",
         "definitions": [
             {
@@ -283,9 +221,9 @@
     {
         "id": "B2-ADJ-SOC-010",
         "word": "enormous",
-        "emoji": "\ud83d\udc18",
+        "emoji": "🐘",
         "form": "adjective",
-        "transcription": "\u026a\u02c8n\u0254\u02d0m\u0259s",
+        "transcription": "ɪˈnɔːməs",
         "subtext": "Neutral | an enormous amount / enormous pressure / truly enormous",
         "definitions": [
             {
@@ -312,42 +250,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-ADJ-SOC-011",
-        "word": "extreme",
-        "emoji": "\ud83c\udf0b",
-        "form": "adjective",
-        "transcription": "\u026ak\u02c8stri\u02d0m",
-        "subtext": "Neutral | extremely well / at the extreme end / an extreme case",
-        "definitions": [
-            {
-                "text": "Very great in degree; going beyond normal limits.",
-                "examples": [
-                    "The work pressure reached an extreme level."
-                ]
-            }
-        ],
-        "comparative": "more extreme",
-        "superlative": "the most extreme",
-        "antonyms": [
-            "moderate"
-        ],
-        "lang": "en",
-        "level": "upper_intermediate",
-        "theme": "describing",
-        "sub_theme": null,
-        "legacy_id": "B2-SOC-48",
-        "level_code": "B2",
-        "domain": "Society",
-        "subcategory": "Culture",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "General_Culture"
-    },
-    {
         "id": "B2-ADJ-SOC-012",
         "word": "fundamental",
-        "emoji": "\ud83e\uddf1",
+        "emoji": "🧱",
         "form": "adjective",
-        "transcription": "\u02ccf\u028cnd\u0259\u02c8m\u025bntl",
+        "transcription": "ˌfʌndəˈmɛntl",
         "subtext": "Formal | absolutely fundamental / truly fundamental / a fundamental flaw",
         "definitions": [
             {
@@ -376,9 +283,9 @@
     {
         "id": "B2-ADJ-SOC-013",
         "word": "inherent",
-        "emoji": "\ud83e\uddec",
+        "emoji": "🧬",
         "form": "adjective",
-        "transcription": "\u026an\u02c8h\u026a\u0259r\u0259nt",
+        "transcription": "ɪnˈhɪərənt",
         "subtext": "Formal | inherent risk / inherent problem / naturally inherent",
         "definitions": [
             {
@@ -407,9 +314,9 @@
     {
         "id": "B2-ADJ-SOC-014",
         "word": "intense",
-        "emoji": "\ud83d\udd25",
+        "emoji": "🔥",
         "form": "adjective",
-        "transcription": "\u026an\u02c8t\u025bns",
+        "transcription": "ɪnˈtɛns",
         "subtext": "Neutral | very intense / highly intense / an intense debate",
         "definitions": [
             {
@@ -438,9 +345,9 @@
     {
         "id": "B2-ADJ-SOC-015",
         "word": "massive",
-        "emoji": "\ud83c\udfd4\ufe0f",
+        "emoji": "🏔️",
         "form": "adjective",
-        "transcription": "\u02c8m\u00e6s\u026av",
+        "transcription": "ˈmæsɪv",
         "subtext": "Neutral | a massive difference / truly massive / a massive problem",
         "definitions": [
             {
@@ -469,9 +376,9 @@
     {
         "id": "B2-ADJ-SOC-016",
         "word": "moderate",
-        "emoji": "\ud83c\udf21\ufe0f",
+        "emoji": "🌡️",
         "form": "adjective",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8m\u0252d\u0259r\u0259t | \ud83c\uddfa\ud83c\uddf8 \u02c8m\u0251\u02d0d\u0259r\u0259t",
+        "transcription": "🇬🇧 ˈmɒdərət | 🇺🇸 ˈmɑːdərət",
         "subtext": "Formal | very moderate / fairly moderate / a moderate improvement",
         "definitions": [
             {
@@ -500,9 +407,9 @@
     {
         "id": "B2-ADJ-SOC-017",
         "word": "outstanding",
-        "emoji": "\ud83c\udf1f",
+        "emoji": "🌟",
         "form": "adjective",
-        "transcription": "a\u028at\u02c8st\u00e6nd\u026a\u014b",
+        "transcription": "aʊtˈstændɪŋ",
         "subtext": "Formal | truly outstanding / outstanding work / an outstanding candidate",
         "definitions": [
             {
@@ -531,9 +438,9 @@
     {
         "id": "B2-ADJ-SOC-018",
         "word": "radical",
-        "emoji": "\ud83e\udde8",
+        "emoji": "🧨",
         "form": "adjective",
-        "transcription": "\u02c8r\u00e6d\u026akl",
+        "transcription": "ˈrædɪkl",
         "subtext": "Neutral | quite radical / deeply radical / a radical idea",
         "definitions": [
             {
@@ -560,42 +467,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-ADJ-SOC-019",
-        "word": "relevant",
-        "emoji": "\ud83d\udd17",
-        "form": "adjective",
-        "transcription": "\u02c8r\u025bl\u0259v\u0259nt",
-        "subtext": "Neutral | directly relevant / highly relevant / relevant to",
-        "definitions": [
-            {
-                "text": "Directly connected to the matter being discussed.",
-                "examples": [
-                    "Please only share relevant information in the meeting."
-                ]
-            }
-        ],
-        "comparative": "more relevant",
-        "superlative": "the most relevant",
-        "antonyms": [
-            "irrelevant"
-        ],
-        "lang": "en",
-        "level": "upper_intermediate",
-        "theme": "language",
-        "sub_theme": null,
-        "legacy_id": "B2-SOC-72",
-        "level_code": "B2",
-        "domain": "Society",
-        "subcategory": "Culture",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "General_Culture"
-    },
-    {
         "id": "B2-ADJ-SOC-020",
         "word": "remarkable",
-        "emoji": "\ud83d\ude32",
+        "emoji": "😲",
         "form": "adjective",
-        "transcription": "r\u026a\u02c8m\u0251\u02d0k\u0259bl",
+        "transcription": "rɪˈmɑːkəbl",
         "subtext": "Formal | truly remarkable / quite remarkable / a remarkable result",
         "definitions": [
             {
@@ -622,42 +498,11 @@
         "sub_subcategory": "General_Culture"
     },
     {
-        "id": "B2-ADJ-SOC-021",
-        "word": "severe",
-        "emoji": "\u26c8\ufe0f",
-        "form": "adjective",
-        "transcription": "\ud83c\uddec\ud83c\udde7 s\u026a\u02c8v\u026a\u0259 | \ud83c\uddfa\ud83c\uddf8 s\u026a\u02c8v\u026a\u0259r",
-        "subtext": "Formal | very severe / extremely severe / severe consequences",
-        "definitions": [
-            {
-                "text": "Very serious or intense.",
-                "examples": [
-                    "The company faced severe financial difficulties."
-                ]
-            }
-        ],
-        "comparative": "severer",
-        "superlative": "the severest",
-        "antonyms": [
-            "mild"
-        ],
-        "lang": "en",
-        "level": "upper_intermediate",
-        "theme": "describing",
-        "sub_theme": null,
-        "legacy_id": "B2-SOC-75",
-        "level_code": "B2",
-        "domain": "Society",
-        "subcategory": "Culture",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "General_Culture"
-    },
-    {
         "id": "B2-ADJ-SOC-022",
         "word": "significant",
-        "emoji": "\ud83d\udcc8",
+        "emoji": "📈",
         "form": "adjective",
-        "transcription": "s\u026a\u0261\u02c8n\u026af\u026ak\u0259nt",
+        "transcription": "sɪɡˈnɪfɪkənt",
         "subtext": "Formal | very significant / highly significant / statistically significant",
         "definitions": [
             {
@@ -686,9 +531,9 @@
     {
         "id": "B2-ADJ-SOC-023",
         "word": "straightforward",
-        "emoji": "\ud83d\udccf",
+        "emoji": "📏",
         "form": "adjective",
-        "transcription": "\u02ccstre\u026at\u02c8f\u0254\u02d0w\u0259d",
+        "transcription": "ˌstreɪtˈfɔːwəd",
         "subtext": "Neutral | very straightforward / quite straightforward / perfectly straightforward",
         "definitions": [
             {
@@ -717,9 +562,9 @@
     {
         "id": "B2-ADJ-SOC-024",
         "word": "substantial",
-        "emoji": "\ud83d\udcb0",
+        "emoji": "💰",
         "form": "adjective",
-        "transcription": "s\u0259b\u02c8st\u00e6n\u0283l",
+        "transcription": "səbˈstænʃl",
         "subtext": "Formal | very substantial / quite substantial / a substantial amount",
         "definitions": [
             {
@@ -748,9 +593,9 @@
     {
         "id": "B2-ADJ-SOC-025",
         "word": "subtle",
-        "emoji": "\ud83c\udf13",
+        "emoji": "🌓",
         "form": "adjective",
-        "transcription": "\u02c8s\u028ctl",
+        "transcription": "ˈsʌtl",
         "subtext": "Formal | very subtle / quite subtle / a subtle distinction",
         "definitions": [
             {
@@ -779,9 +624,9 @@
     {
         "id": "B2-ADJ-SOC-026",
         "word": "sufficient",
-        "emoji": "\ud83d\udcc8",
+        "emoji": "📈",
         "form": "adjective",
-        "transcription": "s\u0259\u02c8f\u026a\u0283nt",
+        "transcription": "səˈfɪʃnt",
         "subtext": "Formal | more than sufficient / quite sufficient / deemed sufficient",
         "definitions": [
             {
@@ -810,9 +655,9 @@
     {
         "id": "B2-ADJ-SOC-027",
         "word": "tough",
-        "emoji": "\ud83e\uddf1",
+        "emoji": "🧱",
         "form": "adjective",
-        "transcription": "t\u028cf",
+        "transcription": "tʌf",
         "subtext": "Neutral | very tough / a tough decision / incredibly tough",
         "definitions": [
             {
@@ -841,9 +686,9 @@
     {
         "id": "B2-ADJ-SOC-028",
         "word": "underlying",
-        "emoji": "\u2693",
+        "emoji": "⚓",
         "form": "adjective",
-        "transcription": "\u02cc\u028cnd\u0259\u02c8la\u026a\u026a\u014b",
+        "transcription": "ˌʌndəˈlaɪɪŋ",
         "subtext": "Formal | the underlying cause / underlying issue / underlying trend",
         "definitions": [
             {
@@ -872,9 +717,9 @@
     {
         "id": "B2-ADJ-SOC-029",
         "word": "valid",
-        "emoji": "\u2705",
+        "emoji": "✅",
         "form": "adjective",
-        "transcription": "\u02c8v\u00e6l\u026ad",
+        "transcription": "ˈvælɪd",
         "subtext": "Formal | entirely valid / perfectly valid / a valid argument",
         "definitions": [
             {
@@ -903,9 +748,9 @@
     {
         "id": "B2-ADJ-SOC-030",
         "word": "widespread",
-        "emoji": "\ud83c\udf0d",
+        "emoji": "🌍",
         "form": "adjective",
-        "transcription": "\u02c8wa\u026adspr\u025bd",
+        "transcription": "ˈwaɪdsprɛd",
         "subtext": "Formal | increasingly widespread / very widespread / extremely widespread",
         "definitions": [
             {
@@ -932,6 +777,10 @@
         "sub_subcategory": "General_Culture"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();
