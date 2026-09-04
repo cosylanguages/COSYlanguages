@@ -337,9 +337,16 @@
 
             <hr style="border-color: var(--panel-border);">
 
-            <div style="display: flex; justify-content: space-between; align-items: center;">
-                <h3>Generated JS Code</h3>
-                <button class="btn" type="button" id="btn-copy">📋 Copy JS</button>
+            <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <h3>Generated JS Code</h3>
+                    <button class="btn btn-secondary" type="button" id="btn-copy">📋 Copy JS</button>
+                </div>
+                <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                    <button class="btn" type="button" id="btn-save-disk">💾 Save to Disk (.js)</button>
+                    <button class="btn btn-secondary" type="button" id="btn-save-local" style="background:#4338ca;">⚡ LocalStorage Persist</button>
+                    <button class="btn btn-secondary" type="button" id="btn-clear-local" style="background:#475569; font-size:0.8rem;">🧹 Clear Overrides</button>
+                </div>
             </div>
             <pre class="code-preview" id="code-output"></pre>
         </div>
@@ -618,6 +625,88 @@
                 navigator.clipboard.writeText(codeOutput.textContent).then(() => {
                     alert('📋 JS Code copied to clipboard!');
                 });
+            });
+
+            // Save to Disk File button (File System Access API or Blob Download Fallback)
+            document.getElementById('btn-save-disk').addEventListener('click', async () => {
+                const sceneId = document.getElementById('meta-id').value || 'new_scene';
+                const fileName = `${sceneId}.js`;
+                const content = codeOutput.textContent;
+
+                if ('showSaveFilePicker' in window) {
+                    try {
+                        const handle = await window.showSaveFilePicker({
+                            suggestedName: fileName,
+                            types: [{
+                                description: 'JavaScript Scene File',
+                                accept: { 'text/javascript': ['.js'] }
+                            }]
+                        });
+                        const writable = await handle.createWritable();
+                        await writable.write(content);
+                        await writable.close();
+                        alert(`✅ Saved scene file ${fileName} directly to disk!`);
+                        return;
+                    } catch (err) {
+                        if (err.name === 'AbortError') return;
+                        console.warn('File System Access API fallback:', err);
+                    }
+                }
+
+                // Fallback blob download
+                const blob = new Blob([content], { type: 'text/javascript;charset=utf-8' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = fileName;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+                alert(`💾 Downloaded ${fileName} to your Downloads folder!`);
+            });
+
+            // Save to LocalStorage button
+            document.getElementById('btn-save-local').addEventListener('click', () => {
+                const sceneId = document.getElementById('meta-id').value || 'new_scene';
+                const level = document.getElementById('meta-level').value;
+                const titleEn = document.getElementById('meta-title-en').value;
+                const titleFr = document.getElementById('meta-title-fr').value;
+                const vbW = document.getElementById('vb-w').value || '800';
+                const vbH = document.getElementById('vb-h').value || '500';
+                const imgUrl = document.getElementById('inp-url').value || `images/scenes/${sceneId}.png`;
+
+                const cleanHotspots = hotspots.map(h => ({
+                    id: h.id,
+                    x: h.x,
+                    y: h.y,
+                    width: h.width,
+                    height: h.height,
+                    labelX: h.labelX,
+                    labelY: h.labelY,
+                    words: h.words
+                }));
+
+                const sceneObject = {
+                    id: sceneId,
+                    type: level === 'hub' ? 'hub' : 'room',
+                    level: level === 'hub' ? 'A1' : level,
+                    imageUrl: imgUrl,
+                    title: { en: titleEn, fr: titleFr },
+                    viewBox: `0 0 ${vbW} ${vbH}`,
+                    doors: [],
+                    hotspots: cleanHotspots
+                };
+
+                localStorage.setItem('COSY_SCENE_OVERRIDE_' + sceneId, JSON.stringify(sceneObject));
+                alert(`⚡ Scene "${sceneId}" persisted to LocalStorage! Open Scene Match to see live updates.`);
+            });
+
+            // Clear LocalStorage Overrides
+            document.getElementById('btn-clear-local').addEventListener('click', () => {
+                const sceneId = document.getElementById('meta-id').value || 'new_scene';
+                localStorage.removeItem('COSY_SCENE_OVERRIDE_' + sceneId);
+                alert(`🧹 LocalStorage override for "${sceneId}" cleared.`);
             });
 
             window.addEventListener('resize', renderHotspotsOnStage);

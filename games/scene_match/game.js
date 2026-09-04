@@ -129,6 +129,16 @@
 
         renderGame() {
             const body = document.getElementById('go-body');
+
+            // Apply developer LocalStorage override if available
+            try {
+                const overrideRaw = localStorage.getItem('COSY_SCENE_OVERRIDE_' + this.activeSceneId);
+                if (overrideRaw) {
+                    const overrideData = JSON.parse(overrideRaw);
+                    window.COSY_SCENE_DATA[this.activeSceneId] = Object.assign({}, window.COSY_SCENE_DATA[this.activeSceneId], overrideData);
+                }
+            } catch (e) { console.warn('LocalStorage scene override parse error:', e); }
+
             const data = window.COSY_SCENE_DATA[this.activeSceneId];
             const lang = this.activeLang;
 

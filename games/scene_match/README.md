@@ -18,7 +18,9 @@ An internal build-time web tool for content creators and developers to visually 
 1. **Image Loading**: Upload a local background image (`.png`, `.jpg`, `.webp`) or supply a path/URL to an image artifact.
 2. **Interactive Bounding Box Drawing**: Click and drag on the image canvas to draw rectangular hotspot bounds.
 3. **Hotspot Inspector**: Assign `id`, coordinates (`x`, `y`, `width`, `height`, `labelX`, `labelY`), and multilingual translations (`en`, `fr`, `it`, `ru`, `el`, `es`, `de`).
-4. **Live Code Generator**: Generates formatted JavaScript conforming to `window.COSY_SCENE_DATA['scene_id']` schema. Copy code directly with the "📋 Copy JS" button and save into `games/data/scenes/<scene_id>.js`.
+4. **Direct Disk File Saving**: Click "💾 Save to Disk (.js)" to write the generated scene code directly to disk via the File System Access API (`showSaveFilePicker`) or automatic file download fallback.
+5. **Live LocalStorage Persistence**: Click "⚡ LocalStorage Persist" to store local overrides (`COSY_SCENE_OVERRIDE_<scene_id>`). When running Scene Match, the engine dynamically applies these overrides in real time for immediate visual testing.
+6. **Live Code Generator**: Generates formatted JavaScript conforming to `window.COSY_SCENE_DATA['scene_id']` schema. Copy code directly with the "📋 Copy JS" button.
 
 *Note: This editor is an internal developer tool and is not linked from player-facing navigation.*
 
