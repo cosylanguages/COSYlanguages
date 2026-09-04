@@ -3,13 +3,13 @@
  * Core engine orchestrator that fetches JSON game datasets and coordinates components.
  *
  * Engine Capabilities Supported:
+ * - Hotspot Engine (glow, pulse, ARIA accessibility, keyboard & click interaction)
  * - Scene loading & transition (100% data-driven from JSON with lazy loading)
  * - Asset preloading & JSON configuration parsing
  * - Publish-subscribe event system
  * - RequestAnimationFrame game loop & delta time
  * - Axis-Aligned Bounding Box (AABB) collision detection
  * - Camera movement, pan/zoom, and bounds clamping
- * - Hotspot system & visual action pointers
  * - Click, keyboard, and touch mobile input interactions
  * - LocalStorage save/load state persistence
  * - Multi-lingual localization across 14 target languages
@@ -116,7 +116,6 @@ export class GameEngine {
     }
 
     update(dt) {
-        // Camera smoothly follows focus coordinates or keys
         if (this.keysPressed['ArrowLeft'] || this.keysPressed['a']) this.camera.x = Math.max(this.camera.x - 200 * dt, -50);
         if (this.keysPressed['ArrowRight'] || this.keysPressed['d']) this.camera.x = Math.min(this.camera.x + 200 * dt, 50);
         if (this.keysPressed['ArrowUp'] || this.keysPressed['w']) this.camera.y = Math.max(this.camera.y - 200 * dt, -50);
@@ -135,7 +134,6 @@ export class GameEngine {
             this.keysPressed[e.key] = false;
         });
 
-        // Touch gesture support for mobile devices
         let touchStartX = 0;
         let touchStartY = 0;
         window.addEventListener('touchstart', (e) => {
@@ -219,7 +217,6 @@ export class GameEngine {
         this.state.currentLocationId = locationId;
         this.saveState();
 
-        // Dynamically assign ambient sound preset if specified by JSON
         if (loc.music) {
             const soundSel = document.getElementById('cw-sound-sel');
             if (soundSel) soundSel.value = loc.music;
@@ -247,6 +244,7 @@ export class GameEngine {
             () => this.renderWorldViewport(),
             () => this.renderHudTab()
         );
+        this.emit('hotspotInspected', objId);
     }
 
     triggerActionChain(objId) {

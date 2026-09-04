@@ -1,8 +1,7 @@
 /**
  * games/cosy_world/js/scenes/scene_renderer.js
  * SVG scene and interactive stage rendering component for COSY World.
- * Renders roads, buildings, weather overlays, lighting filters, NPC spawns, and door portals completely dynamically from JSON data.
- * Supports asynchronous scene lazy-loading and transition animations.
+ * Hotspot Engine renders pulse/glow animations, accessibility focus rings, hover tooltips, and click feedback.
  */
 
 export class SceneRenderer {
@@ -16,13 +15,7 @@ export class SceneRenderer {
         const loc = gameData.districts[locationId];
         if (!loc) return null;
 
-        // Simulate lazy loading external location manifest assets if specified
-        if (loc.assets && loc.assets.scene) {
-            this.loadedSceneCache.set(locationId, loc);
-        } else {
-            this.loadedSceneCache.set(locationId, loc);
-        }
-
+        this.loadedSceneCache.set(locationId, loc);
         return loc;
     }
 
@@ -33,7 +26,6 @@ export class SceneRenderer {
 
         if (!svg || !gameData) return;
 
-        // Apply transition animation class
         svg.style.transition = 'opacity 0.25s ease, transform 0.25s ease';
         svg.style.opacity = '0.3';
 
@@ -44,7 +36,6 @@ export class SceneRenderer {
         if (titleEl) titleEl.textContent = `${loc.icon} ${loc.name[lang] || loc.name.en}`;
         if (districtEl) districtEl.textContent = loc.district;
 
-        // Time-of-Day Lighting Overlay
         const timeOfDayColors = {
             morning: 'rgba(254, 243, 199, 0.2)',
             afternoon: 'rgba(255, 255, 255, 0)',
@@ -92,7 +83,7 @@ export class SceneRenderer {
             loc.doors.forEach(d => {
                 const doorLabel = d.labels[lang] || d.labels.en || 'Door';
                 html += `
-                    <g class="cw-door-portal" onclick="COSY_WORLD.switchLocation('${d.targetId}')">
+                    <g class="cw-door-portal" tabindex="0" role="button" aria-label="Enter ${doorLabel}" onclick="COSY_WORLD.switchLocation('${d.targetId}')" onkeydown="if(event.key==='Enter'||event.key===' '){COSY_WORLD.switchLocation('${d.targetId}');}">
                         <rect x="${d.x}" y="${d.y}" width="${d.width}" height="${d.height}" rx="6" />
                         <rect x="${d.x + 5}" y="${d.labelY || d.y - 25}" width="${d.width - 10}" height="22" rx="4" fill="#1e293b" />
                         <text x="${d.x + d.width / 2}" y="${(d.labelY || d.y - 25) + 15}" fill="#ffffff" font-size="11" font-weight="bold" text-anchor="middle">${doorLabel}</text>
@@ -101,16 +92,17 @@ export class SceneRenderer {
             });
         }
 
-        // Render Objects dynamically from JSON
+        // Render Hotspots dynamically from JSON with Glow/Pulse animations & ARIA support
         if (loc.objects) {
             loc.objects.forEach((objId, idx) => {
                 const obj = gameData.objects[objId];
                 if (!obj) return;
                 const word = obj.words[lang] || obj.words.en || objId;
                 const isDiscovered = state.discoveredObjects.has(objId);
+                const animClass = obj.animation === 'pulse' ? 'cw-hotspot-pulse' : (obj.animation === 'glow' ? 'cw-hotspot-glow' : '');
 
                 html += `
-                    <g class="cw-obj-hotspot" onclick="COSY_WORLD.inspectObject('${objId}')">
+                    <g class="cw-obj-hotspot ${animClass}" tabindex="0" role="button" aria-label="Inspect ${word}" onclick="COSY_WORLD.inspectObject('${objId}')" onkeydown="if(event.key==='Enter'||event.key===' '){COSY_WORLD.inspectObject('${objId}');}">
                         <rect class="hit-box" x="${obj.x}" y="${obj.y}" width="${obj.width}" height="${obj.height}" />
                         <text x="${obj.x + obj.width / 2}" y="${obj.y + obj.height / 2 + 8}" font-size="28" text-anchor="middle">${obj.emoji}</text>
 
@@ -134,7 +126,7 @@ export class SceneRenderer {
             const posY = spawn.y;
 
             html += `
-                <g class="cw-npc-hotspot" onclick="COSY_WORLD.interactNPC('${spawn.npcId}')">
+                <g class="cw-npc-hotspot" tabindex="0" role="button" aria-label="Talk to ${npc.name}" onclick="COSY_WORLD.interactNPC('${spawn.npcId}')" onkeydown="if(event.key==='Enter'||event.key===' '){COSY_WORLD.interactNPC('${spawn.npcId}');}">
                     <circle class="npc-hit" cx="${posX}" cy="${posY}" r="32" />
                     <text x="${posX}" y="${posY + 10}" font-size="32" text-anchor="middle">${npc.avatar}</text>
 
@@ -148,7 +140,7 @@ export class SceneRenderer {
             `;
         });
 
-        // Weather Effect Overlay dynamically from JSON
+        // Weather Effect Overlay
         if (loc.weather === 'rain') {
             html += `
                 <g class="cw-weather-rain" opacity="0.4">
@@ -165,7 +157,6 @@ export class SceneRenderer {
 
         svg.innerHTML = html;
 
-        // Restore viewport opacity after rendering
         setTimeout(() => {
             svg.style.opacity = '1';
         }, 50);

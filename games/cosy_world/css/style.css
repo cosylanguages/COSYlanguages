@@ -142,6 +142,34 @@
   animation: floatPointer 1.5s infinite ease-in-out;
 }
 
+/* Hotspot Animations & Glow Effects */
+@keyframes hotspotGlow {
+  0%, 100% {
+    filter: drop-shadow(0 0 4px rgba(16, 185, 129, 0.4));
+  }
+  50% {
+    filter: drop-shadow(0 0 12px rgba(16, 185, 129, 0.9));
+  }
+}
+
+@keyframes hotspotPulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.cw-hotspot-glow {
+  animation: hotspotGlow 2s infinite ease-in-out;
+}
+
+.cw-hotspot-pulse {
+  animation: hotspotPulse 2s infinite ease-in-out;
+  transform-origin: center;
+}
+
 /* SVG Viewport & Hotspots */
 .cw-svg-view {
   width: 100%;
@@ -152,6 +180,7 @@
 .cw-obj-hotspot {
   cursor: pointer;
   transition: all 0.2s ease;
+  outline: none;
 }
 .cw-obj-hotspot rect.hit-box {
   fill: rgba(16, 185, 129, 0.08);
@@ -160,17 +189,24 @@
   stroke-dasharray: 4 3;
   rx: 8;
 }
-.cw-obj-hotspot:hover rect.hit-box {
+.cw-obj-hotspot:hover rect.hit-box,
+.cw-obj-hotspot:focus rect.hit-box {
   fill: rgba(16, 185, 129, 0.25);
   stroke-width: 3.5;
   stroke-dasharray: none;
-  filter: drop-shadow(0 0 8px rgba(16, 185, 129, 0.5));
+  filter: drop-shadow(0 0 10px rgba(16, 185, 129, 0.7));
 }
+.cw-obj-hotspot:active {
+  transform: scale(0.96);
+}
+
 .cw-npc-hotspot {
   cursor: pointer;
   transition: transform 0.2s ease;
+  outline: none;
 }
-.cw-npc-hotspot:hover {
+.cw-npc-hotspot:hover,
+.cw-npc-hotspot:focus {
   transform: scale(1.08);
 }
 .cw-npc-hotspot circle.npc-hit {
@@ -183,8 +219,10 @@
 .cw-door-portal {
   cursor: pointer;
   transition: transform 0.25s ease;
+  outline: none;
 }
-.cw-door-portal:hover {
+.cw-door-portal:hover,
+.cw-door-portal:focus {
   transform: perspective(600px) rotateY(-20deg);
 }
 .cw-door-portal rect {
@@ -193,7 +231,8 @@
   stroke-width: 2.5;
   stroke-dasharray: 6 3;
 }
-.cw-door-portal:hover rect {
+.cw-door-portal:hover rect,
+.cw-door-portal:focus rect {
   fill: rgba(59, 130, 246, 0.3);
   stroke-dasharray: none;
   filter: drop-shadow(0 0 10px rgba(59, 130, 246, 0.6));
