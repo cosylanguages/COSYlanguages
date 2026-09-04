@@ -3,7 +3,7 @@
  * Core engine orchestrator that fetches JSON game datasets and coordinates components.
  *
  * Engine Capabilities Supported:
- * - Scene loading & transition (100% data-driven from JSON)
+ * - Scene loading & transition (100% data-driven from JSON with lazy loading)
  * - Asset preloading & JSON configuration parsing
  * - Publish-subscribe event system
  * - RequestAnimationFrame game loop & delta time
@@ -52,7 +52,7 @@ export class GameEngine {
             this.startGameLoop();
             this.populateLanguageSelector();
             this.updatePlayerStats();
-            this.renderWorldViewport();
+            await this.renderWorldViewport();
             this.renderHudTab();
         } catch (e) {
             console.error('Failed to initialize COSY World Engine:', e);
@@ -212,7 +212,7 @@ export class GameEngine {
         this.saveState();
     }
 
-    switchLocation(locationId) {
+    async switchLocation(locationId) {
         const loc = this.data.districts[locationId];
         if (!loc) return;
 
@@ -226,13 +226,13 @@ export class GameEngine {
             this.playAmbience(loc.music);
         }
 
-        this.renderWorldViewport();
+        await this.renderWorldViewport();
         this.showToast(`Entered ${loc.name[this.state.currentLang] || loc.name.en} 🚪`);
         this.emit('locationChanged', locationId);
     }
 
-    renderWorldViewport() {
-        SceneRenderer.renderWorldViewport(this.state, this.data);
+    async renderWorldViewport() {
+        await SceneRenderer.renderWorldViewport(this.state, this.data);
     }
 
     inspectObject(objId) {

@@ -7,17 +7,24 @@
     "weather": "clear",
     "music": "piano",
     "timeOfDay": "afternoon",
+    "transition": "fade",
+    "assets": {
+      "scene": "data/scenes/districts.json",
+      "hotspots": "data/vocabulary/objects.json",
+      "npc": "data/npcs/npcs.json",
+      "quests": "data/quests/quests.json"
+    },
     "name": {
       "en": "Apartment Living Room",
       "fr": "Salon de l'appartement",
-      "it": "Salotto dell'appartamento",
+      "it": "Salotto dell'appartement",
       "es": "Salón del apartamento",
       "de": "Wohnzimmer der Wohnung",
       "ru": "Гостиная в квартире",
       "el": "Σαλόνι διαμερίσματος",
       "pt": "Sala de estar do apartamento",
       "hy": "Բնակարանի հյուրասենյակ",
-      "ka": "ბინის მისაღები ოთახի",
+      "ka": "ბინის მისაღები ოთախի",
       "br": "Prizon an ti",
       "tt": "Квартираның кунак бүлмәсе",
       "ba": "Квартираның кунаҡ бүлмәһе",
@@ -50,6 +57,13 @@
     "weather": "clear",
     "music": "cafe",
     "timeOfDay": "morning",
+    "transition": "slide",
+    "assets": {
+      "scene": "data/scenes/districts.json",
+      "hotspots": "data/vocabulary/objects.json",
+      "npc": "data/npcs/npcs.json",
+      "quests": "data/quests/quests.json"
+    },
     "name": { "en": "Kitchen", "fr": "Cuisine", "it": "Cucina", "es": "Cocina", "de": "Küche", "ru": "Кухня" },
     "viewBox": "0 0 800 500",
     "roads": [
@@ -73,6 +87,13 @@
     "weather": "rain",
     "music": "nature",
     "timeOfDay": "sunset",
+    "transition": "fade",
+    "assets": {
+      "scene": "data/scenes/districts.json",
+      "hotspots": "data/vocabulary/objects.json",
+      "npc": "data/npcs/npcs.json",
+      "quests": "data/quests/quests.json"
+    },
     "name": { "en": "Town Square", "fr": "Place de la ville", "it": "Piazza Centrale", "es": "Plaza Mayor", "de": "Stadtplatz", "ru": "Городская площадь" },
     "viewBox": "0 0 800 500",
     "roads": [
@@ -104,6 +125,13 @@
     "weather": "clear",
     "music": "piano",
     "timeOfDay": "morning",
+    "transition": "slide",
+    "assets": {
+      "scene": "data/scenes/districts.json",
+      "hotspots": "data/vocabulary/objects.json",
+      "npc": "data/npcs/npcs.json",
+      "quests": "data/quests/quests.json"
+    },
     "name": { "en": "Bakery", "fr": "Boulangerie", "it": "Panetteria", "es": "Panadería", "de": "Bäckerei", "ru": "Пекарня" },
     "viewBox": "0 0 800 500",
     "roads": [
@@ -129,6 +157,13 @@
     "weather": "clear",
     "music": "cafe",
     "timeOfDay": "afternoon",
+    "transition": "fade",
+    "assets": {
+      "scene": "data/scenes/districts.json",
+      "hotspots": "data/vocabulary/objects.json",
+      "npc": "data/npcs/npcs.json",
+      "quests": "data/quests/quests.json"
+    },
     "name": { "en": "Cafe", "fr": "Café", "it": "Caffè", "es": "Cafetería", "de": "Café", "ru": "Кафе" },
     "viewBox": "0 0 800 500",
     "roads": [
