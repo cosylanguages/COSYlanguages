@@ -20,13 +20,13 @@ Full architectural rationale, legacy synonym reconciliation, and Scene Match gam
 | food_drink       | Food & drink     | fruit · vegetables · drinks · cooking · meals · snacks · diet · breakfast · meat · sweets · spices_condiments · kitchen_utensils · packaging · dairy_fats |
 | furniture        | Furniture & home | rooms · furniture_items · appliances · household_items · doors_locks · garden · bedroom · bathroom · utility_room · house_structure · climate_control |
 | diy_construction | DIY & Construction | hand_tools · building_materials · carpentry · plumbing · electrical · masonry · soldering_welding · painting_upkeep |
-| health_medicine  | Health           | symptoms · treatment · hospital · wellbeing · sport_injury · medications · safety_equipment |
+| health_medicine  | Health           | symptoms · treatment · hospital · wellbeing · senior_care · sport_injury · medications · safety_equipment |
 | jobs             | Jobs             | professions · workplace · career · business_lang |
 | language         | Language         | grammar_terms · phonetics · discourse · learning · writing_system · alphabet · punctuation |
 | music            | Music            | instruments · genres · performance · listening · orchestra · notation |
 | nature           | Nature           | landscape · weather · plants · gardening · seasons · sky · sea · camping |
 | numbers          | Numbers          | cardinal · ordinal · fractions · money · shapes · geometry |
-| people           | People           | family · relationships · nationality · physical_desc · character · babies · kids · groups |
+| people           | People           | family · relationships · nationality · physical_desc · character · babies · kids · teens · seniors · groups |
 | places           | Places           | city · buildings · rooms · geography · landmarks · countryside · downtown |
 | geography        | Geography        | continents · europe · asia · geology · oceanography · landforms · cartography |
 | school           | School           | stationery · subjects · classroom · studying |
@@ -43,7 +43,7 @@ Full architectural rationale, legacy synonym reconciliation, and Scene Match gam
 | art_culture      | Art & culture    | art · literature · film · theatre · traditions · fine_arts · graphic_arts · crafts · photography · architecture |
 | psychology       | Psychology       | biases · cognitive_processes · behavior · psychoanalysis · concepts |
 | science          | Science          | physics_mechanics · optics · chemistry · laboratory · measuring_devices · biology · scientific_symbols |
-| astronomy        | Astronomy        | celestial_bodies · astronomical_observation · astronautics · solar_system |
+| astronomy        | Astronomy        | celestial_bodies · astronomical_observation · astronomical_space · solar_system |
 | energy           | Energy           | fossil_energy · hydroelectricity · nuclear_energy · solar_energy · wind_energy |
 | law_order        | Law & Order      | justice · prison · court · law_enforcement |
 | military         | Military         | weapons · armor · combat_vehicles · defense |

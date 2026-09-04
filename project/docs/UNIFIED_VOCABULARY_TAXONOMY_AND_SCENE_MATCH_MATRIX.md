@@ -6,10 +6,12 @@ This document provides a single, unified source of truth for all vocabulary meta
 
 ### Core Objectives
 1. **Multi-Tiered Taxonomy Standardization**: Establish a granular 4-tier tree structure (`macro_domain` -> `theme` -> `sub_theme` -> `micro_topic`) encompassing all CEFR levels (A0 through C2), visual dictionary categories, and specialized technical/academic fields.
-2. **Atomic Sub-Domain Isolation**: Divide broad vocabulary domains into discrete, self-contained atomic sub-domains (e.g., isolating `racket_sports`, `ball_sports`, `combat_sports`, `winter_sports`, `aquatic_sports`, `track_field`, `gymnastics`, `equestrian`, `motor_sports`, `cycling`, `precision_sports`, `strength_sports`, `sports_facilities` as standalone sub-domain units).
-3. **Deep Micro-Topic Specialization**: Break down every daily life, situational, and domain concept into atomic sub-domains (e.g. `routine` -> `morning_routine`, `afternoon_routine`, `evening_routine`, `night_routine`, `commute`, `household_chores`, `workday_vs_weekend`, `shopping_errands`).
-4. **Pedagogical Integrity for Visual Games**: Enforce strict CEFR tiering rules for the **Scene Match Game**, reserving 2D hotspot scene environments for concrete physical terms (A0–A2) and specialized physical environments (B1), while designating non-scene visual diagrams (Collocation Webs, System Maps, and Process Flow Diagrams) for abstract higher-level domains (B2–C2).
-5. **Cross-System Dynamic Scalability**: Ensure seamless querying and interoperability across the Vocabulary Database (`vocabulary/`), Curriculums (`curriculum/`), Monolingual Manuals (`manuals/`), Event Taxonomies (`speaking_club_theme_taxonomy.md`), and Game Engines (`games/scene_match/`).
+2. **Age-Demographic Adaptability (Life-Cycle Span)**: Adapt taxonomy coverage to serve learners of all age demographics—Children (nursery, toys, elementary school, fairytale lore), Teens (youth culture, gaming, social media, high school, puberty/identity), Adults (career, parenting, finance, DIY, real estate, legal/civic), and Seniors (retirement, memory care, genealogy, elder wellness, pension systems).
+3. **Multi-Lingual Parity (14 Target Languages)**: Ensure every sub-domain is universally applicable across all COSY target languages—English (`en`), French (`fr`), Italian (`it`), Russian (`ru`), Greek (`el`), Spanish (`es`), German (`de`), Portuguese (`pt`), Armenian (`hy`), Georgian (`ka`), Tatar (`tt`), Bashkir (`ba`), Breton (`br`), and Chuvash (`cv`).
+4. **Atomic Sub-Domain Isolation**: Divide broad vocabulary domains into discrete, self-contained atomic sub-domains (e.g., isolating `racket_sports`, `ball_sports`, `combat_sports`, `winter_sports`, `aquatic_sports`, `track_field`, `gymnastics`, `equestrian`, `motor_sports`, `cycling`, `precision_sports`, `strength_sports`, `sports_facilities` as standalone sub-domain units).
+5. **Deep Micro-Topic Specialization**: Break down every daily life, situational, and domain concept into atomic sub-domains (e.g. `routine` -> `morning_routine`, `afternoon_routine`, `evening_routine`, `night_routine`, `commute`, `household_chores`, `workday_vs_weekend`, `shopping_errands`).
+6. **Pedagogical Integrity for Visual Games**: Enforce strict CEFR tiering rules for the **Scene Match Game**, reserving 2D hotspot scene environments for concrete physical terms (A0–A2) and specialized physical environments (B1), while designating non-scene visual diagrams (Collocation Webs, System Maps, and Process Flow Diagrams) for abstract higher-level domains (B2–C2).
+7. **Cross-System Dynamic Scalability**: Ensure seamless querying and interoperability across the Vocabulary Database (`vocabulary/`), Curriculums (`curriculum/`), Monolingual Manuals (`manuals/`), Event Taxonomies (`speaking_club_theme_taxonomy.md`), and Game Engines (`games/scene_match/`).
 
 ---
 
@@ -34,14 +36,16 @@ All vocabulary across COSYlanguages is grouped into **12 Higher-Order Macro Doma
 Below is the complete taxonomy matrix registered in `window.COSY_THEME_TREE`. Theme slugs are lower_snake_case and permanent once assigned.
 
 ### 1. SELF_IDENTITY (People, Body, Clothing, Personal Life)
-* **`people` (People & Family)**
+* **`people` (People, Family & Age Demographics)**
   * `family`: nuclear_family · extended_family · in_laws · genealogy · ancestors · parenting
   * `relationships`: romance · dating · friendship · colleagues · acquaintances · social_bonds
   * `nationality`: citizenship · origins · ethnic_identity · migration · foreign_languages
   * `physical_desc`: height_build · hair_eyes · facial_features · age_groups · gestures
   * `character`: personality_traits · virtues · vices · moral_qualities · habits
-  * `babies`: infancy · newborn_care · nursery · milestones · baby_gear
-  * `kids`: childhood · play · adolescence · parenting_challenges
+  * `babies`: infancy · newborn_care · nursery · milestones · baby_gear · teething
+  * `kids`: childhood · play · playground · fairytales · primary_school · toys
+  * `teens`: youth_culture · adolescence · identity · peer_groups · high_school
+  * `seniors`: elderhood · retirement · grandparenting · life_reflection · legacy
   * `groups`: crowds · teams · associations · communities · subcultures
 * **`body` (Body, Anatomy & Physiology)**
   * `face`: eyes · nose · mouth_teeth · ears · cheeks_chin · forehead
@@ -239,11 +243,12 @@ Below is the complete taxonomy matrix registered in `window.COSY_THEME_TREE`. Th
   * `negative`: sadness · anger · fear · anxiety · guilt · shame · jealousy
   * `complex`: nostalgia · ambivalence · awe · grief · empathy
   * `expressing`: body_language · facial_expressions · vocal_tone · venting
-* **`health_medicine` (Health, Medicine & First Aid)**
+* **`health_medicine` (Health, Medicine & Senior Wellness)**
   * `symptoms`: fever · pain · fatigue · nausea · coughing · inflammation
   * `treatment`: surgeries · therapies · consultations · rehabilitation
   * `hospital`: emergency_rooms · wards · operating_theaters · intensive_care
-  * `wellbeing`: mental_health · fitness · sleep_hygiene · stress_management
+  * `wellbeing`: mental_health · fitness · sleep_hygiene · stress_management · senior_wellness
+  * `senior_care`: memory_care · assisted_living · elder_mobility · retirement_health
   * `sport_injury`: sprains · fractures · dislocations · physical_therapy
   * `medications`: prescriptions · antibiotics · painkillers · dosages · pharmacies · clinical_thermometers · blood_pressure_monitors
   * `safety_equipment`: first_aid_kits · ambulances · protective_gear · emergency_symbols · walking_aids · wheelchairs
@@ -314,7 +319,7 @@ Below is the complete taxonomy matrix registered in `window.COSY_THEME_TREE`. Th
 * **`astronomy` (Astronomy & Space Exploration)**
   * `celestial_bodies`: planets · moons · stars · galaxies · meteorites · comets · sun
   * `astronomical_observation`: telescopes · observatories · planetariums · refracting_reflecting_radio_telescopes · hubble_space_telescope
-  * `astronautics`: space_shuttles · space_stations · probes · spacesuits · space_launchers
+  * `astronomical_space`: space_shuttles · space_stations · probes · spacesuits · space_launchers
   * `solar_system`: sun · inner_planets · gas_giants · asteroid_belts
 
 ---
@@ -404,6 +409,7 @@ To maintain backwards compatibility while enforcing clean runtime querying, lega
 | `linguistics` | `language` | `phonetics` |
 | `media` | `technology` | `social_media` |
 | `tools` | `diy_construction` | `hand_tools` |
+| `astronautics` | `astronomy` | `astronomical_space` |
 
 ---
 
