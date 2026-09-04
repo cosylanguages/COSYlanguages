@@ -119,7 +119,7 @@
         white-space: nowrap;
       }
 
-      /* Scene Viewport */
+      /* Scene Viewport & Scene Load Transition */
       .sm-stage {
         position: relative;
         background: #faf7f2;
@@ -127,6 +127,11 @@
         border-radius: 16px;
         overflow: hidden;
         box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+        transition: opacity 0.28s cubic-bezier(0.16, 1, 0.3, 1), transform 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+      .sm-stage.scene-transitioning {
+        opacity: 0.15;
+        transform: translateY(8px) scale(0.99);
       }
       .sm-svg-scene {
         width: 100%;
@@ -134,7 +139,7 @@
         display: block;
       }
 
-      /* Hotspots */
+      /* Vocabulary Match Hotspots (Teal Theme) */
       .sm-hotspot {
         cursor: pointer;
         pointer-events: bounding-box;
@@ -142,17 +147,18 @@
       }
       .sm-hotspot rect.hs-hit {
         fill: rgba(255, 255, 255, 0.01);
-        stroke: rgba(16, 185, 129, 0.35);
+        stroke: rgba(16, 185, 129, 0.38);
         stroke-width: 2;
         stroke-dasharray: 6 4;
         transition: all 0.2s ease;
       }
       .sm-hotspot:hover rect.hs-hit,
       .sm-hotspot:focus rect.hs-hit {
-        fill: rgba(16, 185, 129, 0.18);
+        fill: rgba(16, 185, 129, 0.2);
         stroke: var(--teal, #10b981);
         stroke-width: 3;
         stroke-dasharray: none;
+        filter: drop-shadow(0 0 6px rgba(16, 185, 129, 0.4));
       }
       .sm-hotspot.matched {
         cursor: default;
@@ -168,15 +174,15 @@
         animation: hsShake 0.4s ease;
       }
 
-      /* Door & Portal Hotspots */
+      /* Navigation / Door / Portal Hotspots (Distinct Warm Amber / Gold Portal Theme) */
       .sm-door-hotspot {
         cursor: pointer;
         outline: none;
-        transform-origin: center left;
-        transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.2s;
+        transform-origin: left center;
+        transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1), filter 0.25s ease;
       }
       .sm-door-hotspot rect {
-        fill: rgba(251, 191, 36, 0.08);
+        fill: rgba(245, 158, 11, 0.12);
         stroke: #f59e0b;
         stroke-width: 2.5;
         stroke-dasharray: 6 3;
@@ -184,15 +190,15 @@
       }
       .sm-door-hotspot:hover,
       .sm-door-hotspot:focus {
-        transform: perspective(600px) rotateY(-35deg) scale(1.05);
+        transform: perspective(800px) rotateY(-36deg) translateY(-2px) scale(1.04);
+        filter: drop-shadow(0 0 12px rgba(245, 158, 11, 0.85));
       }
       .sm-door-hotspot:hover rect,
       .sm-door-hotspot:focus rect {
-        fill: rgba(245, 158, 11, 0.35);
+        fill: rgba(245, 158, 11, 0.38);
         stroke: #f59e0b;
         stroke-width: 3.5;
         stroke-dasharray: none;
-        filter: drop-shadow(0 0 10px rgba(245, 158, 11, 0.7));
       }
       .sm-door-hotspot:hover .sm-door-bg,
       .sm-door-hotspot:focus .sm-door-bg {

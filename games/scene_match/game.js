@@ -122,9 +122,19 @@
 
         switchScene(sceneId) {
             if (!window.COSY_SCENE_DATA[sceneId]) return;
-            this.activeSceneId = sceneId;
-            this.selectedWordId = null;
-            this.renderGame();
+            const stageEl = document.querySelector('.sm-stage');
+            if (stageEl) {
+                stageEl.classList.add('scene-transitioning');
+                setTimeout(() => {
+                    this.activeSceneId = sceneId;
+                    this.selectedWordId = null;
+                    this.renderGame();
+                }, 140);
+            } else {
+                this.activeSceneId = sceneId;
+                this.selectedWordId = null;
+                this.renderGame();
+            }
         },
 
         renderGame() {
@@ -237,6 +247,17 @@
             this.renderHotspots();
             this.renderExistingPinnedLabels();
             this.updateProgress();
+
+            // Trigger stage entrance transition
+            const stageEl = document.querySelector('.sm-stage');
+            if (stageEl) {
+                stageEl.classList.add('scene-transitioning');
+                requestAnimationFrame(() => {
+                    requestAnimationFrame(() => {
+                        stageEl.classList.remove('scene-transitioning');
+                    });
+                });
+            }
         },
 
         renderCulturalOverlay() {
