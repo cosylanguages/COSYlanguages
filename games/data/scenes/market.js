@@ -4,7 +4,6 @@
     window.COSY_SCENE_DATA = window.COSY_SCENE_DATA || {};
     window.COSY_SCENE_DATA['market'] = {
         id: 'market',
-        imageUrl: 'images/scenes/market.jpg',
         title: {
             en: "Fresh Market",
             fr: "Marché frais",

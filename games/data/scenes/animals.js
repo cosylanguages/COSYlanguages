@@ -11,7 +11,6 @@
 
     window.COSY_SCENE_DATA.animals = {
         id: 'animals',
-        imageUrl: 'images/scenes/animals.jpg',
         title: {
             en: 'Farm Animals',
             fr: 'Animaux de la ferme',

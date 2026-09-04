@@ -4,7 +4,6 @@
     window.COSY_SCENE_DATA = window.COSY_SCENE_DATA || {};
     window.COSY_SCENE_DATA['airport'] = {
         id: 'airport',
-        imageUrl: 'images/scenes/airport.jpg',
         title: {
             en: "Airport & Terminal",
             fr: "Aéroport et Terminal",
