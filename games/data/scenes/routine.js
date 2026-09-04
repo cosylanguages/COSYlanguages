@@ -11,6 +11,7 @@
 
     window.COSY_SCENE_DATA.routine = {
         id: 'routine',
+        level: 'A1',
         title: {
             en: 'Daily Routine',
             fr: 'Routine quotidienne',
@@ -19,7 +20,13 @@
             el: 'Καθημερινή ρουτίνα'
         },
         viewBox: '0 0 800 500',
-        doors: [],
+        doors: [
+            {
+                targetSceneId: "city",
+                x: 15, y: 140, width: 35, height: 230, labelX: 32, labelY: 125,
+                labels: { en: "🚪 City →", fr: "🚪 Ville →", it: "🚪 Città →", ru: "🚪 Город →", el: "🚪 Πόλη →" }
+            }
+        ],
         hotspots: [
             {
                 id: 'alarm_clock',

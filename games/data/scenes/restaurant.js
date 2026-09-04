@@ -4,6 +4,7 @@
     window.COSY_SCENE_DATA = window.COSY_SCENE_DATA || {};
     window.COSY_SCENE_DATA['restaurant'] = {
         id: 'restaurant',
+        level: 'A2',
         title: {
             en: "Restaurant & Dining",
             fr: "Restaurant et Repas",
@@ -21,6 +22,11 @@
                 targetSceneId: "cafe",
                 x: 15, y: 140, width: 35, height: 230, labelX: 32, labelY: 125,
                 labels: { en: "🚪 Café →", fr: "🚪 Café →", it: "🚪 Caffè →", ru: "🚪 Кафе →", el: "🚪 Καφέ →" }
+            },
+            {
+                targetSceneId: "city",
+                x: 750, y: 140, width: 35, height: 230, labelX: 768, labelY: 125,
+                labels: { en: "🚪 City →", fr: "🚪 Ville →", it: "🚪 Città →", ru: "🚪 Город →", el: "🚪 Πόλη →" }
             }
         ],
         svgBackground: `

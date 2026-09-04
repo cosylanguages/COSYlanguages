@@ -11,6 +11,7 @@
 
     window.COSY_SCENE_DATA.clothing = {
         id: 'clothing',
+        level: 'A1',
         title: {
             en: 'Wardrobe & Clothing',
             fr: 'Garde-robe',
@@ -19,7 +20,13 @@
             el: 'Ντουλάπα & Ρούχα'
         },
         viewBox: '0 0 800 500',
-        doors: [],
+        doors: [
+            {
+                targetSceneId: "city",
+                x: 15, y: 140, width: 35, height: 230, labelX: 32, labelY: 125,
+                labels: { en: "🚪 City →", fr: "🚪 Ville →", it: "🚪 Città →", ru: "🚪 Город →", el: "🚪 Πόλη →" }
+            }
+        ],
         hotspots: [
             {
                 id: 'shirt',

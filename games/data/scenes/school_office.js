@@ -4,6 +4,7 @@
     window.COSY_SCENE_DATA = window.COSY_SCENE_DATA || {};
     window.COSY_SCENE_DATA['school_office'] = {
         id: 'school_office',
+        level: 'A2',
         title: {
             en: "School & Office",
             fr: "École et Bureau",
@@ -18,8 +19,13 @@
         viewBox: "0 0 800 500",
         doors: [
             {
-                targetSceneId: "market",
+                targetSceneId: "city",
                 x: 15, y: 140, width: 35, height: 230, labelX: 32, labelY: 125,
+                labels: { en: "🚪 City →", fr: "🚪 Ville →", it: "🚪 Città →", ru: "🚪 Город →", el: "🚪 Πόλη →" }
+            },
+            {
+                targetSceneId: "market",
+                x: 380, y: 140, width: 35, height: 100, labelX: 398, labelY: 125,
                 labels: { en: "🚪 Market →", fr: "🚪 Marché →", it: "🚪 Mercato →", ru: "🚪 Рынок →", el: "🚪 Αγορά →" }
             },
             {

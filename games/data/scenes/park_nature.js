@@ -4,6 +4,7 @@
     window.COSY_SCENE_DATA = window.COSY_SCENE_DATA || {};
     window.COSY_SCENE_DATA['park_nature'] = {
         id: 'park_nature',
+        level: 'A2',
         title: {
             en: "Park & Nature",
             fr: "Parc et Nature",
@@ -21,6 +22,11 @@
                 targetSceneId: "city",
                 x: 15, y: 140, width: 35, height: 230, labelX: 32, labelY: 125,
                 labels: { en: "🚪 City →", fr: "🚪 Ville →", it: "🚪 Città →", ru: "🚪 Город →", el: "🚪 Πόλη →" }
+            },
+            {
+                targetSceneId: "animals",
+                x: 750, y: 140, width: 35, height: 230, labelX: 768, labelY: 125,
+                labels: { en: "🚪 Farm →", fr: "🚪 Ferme →", it: "🚪 Fattoria →", ru: "🚪 Ферма →", el: "🚪 Φάρμα →" }
             }
         ],
         svgBackground: `

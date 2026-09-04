@@ -4,6 +4,7 @@
     window.COSY_SCENE_DATA = window.COSY_SCENE_DATA || {};
     window.COSY_SCENE_DATA['airport'] = {
         id: 'airport',
+        level: 'B1',
         title: {
             en: "Airport & Terminal",
             fr: "Aéroport et Terminal",

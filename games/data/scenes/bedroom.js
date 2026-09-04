@@ -4,6 +4,7 @@
     window.COSY_SCENE_DATA = window.COSY_SCENE_DATA || {};
     window.COSY_SCENE_DATA['bedroom'] = {
         id: 'bedroom',
+        level: 'A1',
         title: {
             en: "Bedroom",
             fr: "Chambre",
@@ -25,6 +26,11 @@
                 targetSceneId: "apartment",
                 x: 750, y: 140, width: 35, height: 230, labelX: 768, labelY: 125,
                 labels: { en: "🚪 Living Room →", fr: "🚪 Salon →", it: "🚪 Soggiorno →", ru: "🚪 Гостиная →", el: "🚪 Σαλόνι →" }
+            },
+            {
+                targetSceneId: "seasons",
+                x: 350, y: 60, width: 160, height: 120, labelX: 430, labelY: 45,
+                labels: { en: "🪟 Seasons →", fr: "🪟 Saisons →", it: "🪟 Stagioni →", ru: "🪟 Времена года →", el: "🪟 Εποχές →" }
             }
         ],
         svgBackground: `

@@ -4,6 +4,7 @@
     window.COSY_SCENE_DATA = window.COSY_SCENE_DATA || {};
     window.COSY_SCENE_DATA['apartment'] = {
         id: 'apartment',
+        level: 'A1',
         imageUrl: 'images/scenes/apartment.png',
         title: {
             en: "Living Room",
@@ -36,6 +37,11 @@
                 targetSceneId: "kitchen",
                 x: 750, y: 140, width: 35, height: 230, labelX: 768, labelY: 125,
                 labels: { en: "🚪 Kitchen →", fr: "🚪 Cuisine →", it: "🚪 Cucina →", ru: "🚪 Кухня →", el: "🚪 Κουζίνα →" }
+            },
+            {
+                targetSceneId: "city",
+                x: 420, y: 140, width: 35, height: 120, labelX: 438, labelY: 125,
+                labels: { en: "🚪 City →", fr: "🚪 Ville →", it: "🚪 Città →", ru: "🚪 Город →", el: "🚪 Πόλη →" }
             }
         ],
         svgBackground: `

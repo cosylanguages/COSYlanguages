@@ -11,6 +11,7 @@
 
     window.COSY_SCENE_DATA.city = {
         id: 'city',
+        level: 'A2',
         title: {
             en: 'City Street',
             fr: 'Rue de la ville',
@@ -19,7 +20,48 @@
             el: 'Δρόμος της πόλης'
         },
         viewBox: '0 0 800 500',
-        doors: [],
+        doors: [
+            {
+                targetSceneId: "apartment",
+                x: 15, y: 140, width: 35, height: 220, labelX: 32, labelY: 125,
+                labels: { en: "🚪 Apartment →", fr: "🚪 Appartement →", it: "🚪 Appartamento →", ru: "🚪 Квартира →", el: "🚪 Διαμέρισμα →" }
+            },
+            {
+                targetSceneId: "school_office",
+                x: 135, y: 140, width: 35, height: 160, labelX: 152, labelY: 125,
+                labels: { en: "🚪 School →", fr: "🚪 École →", it: "🚪 Scuola →", ru: "🚪 Школа →", el: "🚪 Σχολείο →" }
+            },
+            {
+                targetSceneId: "hospital",
+                x: 305, y: 100, width: 35, height: 200, labelX: 322, labelY: 85,
+                labels: { en: "🚪 Hospital →", fr: "🚪 Hôpital →", it: "🚪 Ospedale →", ru: "🚪 Больница →", el: "🚪 Νοσοκομείο →" }
+            },
+            {
+                targetSceneId: "market",
+                x: 465, y: 140, width: 35, height: 160, labelX: 482, labelY: 125,
+                labels: { en: "🚪 Market →", fr: "🚪 Marché →", it: "🚪 Mercato →", ru: "🚪 Рынок →", el: "🚪 Αγορά →" }
+            },
+            {
+                targetSceneId: "cafe",
+                x: 660, y: 160, width: 35, height: 140, labelX: 678, labelY: 145,
+                labels: { en: "🚪 Cafe →", fr: "🚪 Café →", it: "🚪 Caffè →", ru: "🚪 Кафе →", el: "🚪 Καφέ →" }
+            },
+            {
+                targetSceneId: "clothing",
+                x: 745, y: 160, width: 35, height: 140, labelX: 762, labelY: 145,
+                labels: { en: "🚪 Boutique →", fr: "🚪 Boutique →", it: "🚪 Boutique →", ru: "🚪 Магазин →", el: "🚪 Μπουτίκ →" }
+            },
+            {
+                targetSceneId: "airport",
+                x: 80, y: 320, width: 80, height: 40, labelX: 120, labelY: 310,
+                labels: { en: "🚌 Airport →", fr: "🚌 Aéroport →", it: "🚌 Aeroporto →", ru: "🚌 Аэропорт →", el: "🚌 Αεροδρόμιο →" }
+            },
+            {
+                targetSceneId: "park_nature",
+                x: 445, y: 370, width: 35, height: 80, labelX: 462, labelY: 355,
+                labels: { en: "🚪 Park →", fr: "🚪 Parc →", it: "🚪 Parco →", ru: "🚪 Парк →", el: "🚪 Πάρκο →" }
+            }
+        ],
         hotspots: [
             {
                 id: 'school',

@@ -12,6 +12,28 @@ test.describe('Scene Match Game (/games/scene_match/)', () => {
     await expect(page.locator('.sm-tab-btn').first()).toHaveClass(/active/);
   });
 
+  test('CEFR Level selection filters visible room tabs on start', async ({ page }) => {
+    await page.selectOption('#sm-s-level', 'A2');
+    await page.click('.btn-start-game');
+
+    await expect(page.locator('.sm-container')).toBeVisible();
+    const activeTab = page.locator('.sm-tab-btn.active');
+    await expect(activeTab).toContainText('City');
+    await expect(activeTab).toContainText('[A2]');
+  });
+
+  test('Open World Door Navigation switches active scene', async ({ page }) => {
+    await page.click('.btn-start-game');
+
+    // On apartment scene, click door to kitchen or city
+    const doors = page.locator('.sm-door-hotspot');
+    await expect(doors.first()).toBeVisible();
+    await doors.first().click();
+
+    // Verify scene tab changes
+    await expect(page.locator('.sm-tab-btn.active')).toBeVisible();
+  });
+
   test('Correct match locks hotspot, pins label, and disables word button', async ({ page }) => {
     await page.click('.btn-start-game');
 
@@ -69,9 +91,10 @@ test.describe('Scene Match Game (/games/scene_match/)', () => {
   test('Completing all matches triggers completion overlay state at 100%', async ({ page }) => {
     await page.click('.btn-start-game');
 
-    // Fast-track match all items in all scenes
+    // Fast-track match all items in all active scenes
     await page.evaluate(() => {
-      Object.keys(window.COSY_SCENE_DATA).forEach(key => {
+      const activeKeys = window.COSY_GAME.getFilteredSceneKeys();
+      activeKeys.forEach(key => {
         const hsIds = window.COSY_SCENE_DATA[key].hotspots.map(h => h.id);
         window.COSY_GAME.sceneMatches[key] = new Set(hsIds);
       });

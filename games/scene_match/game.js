@@ -1,6 +1,6 @@
 /**
  * games/scene_match/game.js
- * Reusable engine logic for Scene Match activity across multiple rooms/scenes.
+ * Reusable engine logic for Scene Match activity across multiple rooms/scenes & CEFR levels.
  */
 (function() {
     'use strict';
@@ -25,6 +25,14 @@
             { code: 'el', label: 'Ελληνικά 🇬🇷' }
         ];
 
+        const LEVEL_OPTS = [
+            { code: 'ALL', label: 'All Levels (Full Cozy Town Map) 🌍' },
+            { code: 'A1', label: 'Level A1 · Starter Scenes 🏠' },
+            { code: 'A2', label: 'Level A2 · Elementary Scenes 🏙️' },
+            { code: 'B1', label: 'Level B1 · Intermediate Task Scenes ✈️' },
+            { code: 'B2-C2', label: 'Level B2-C2 · Advanced Systems & Concepts 🧠' }
+        ];
+
         body.innerHTML = `
             <div class="setup-screen">
               <h2>${titleText}</h2>
@@ -32,6 +40,11 @@
               <div class="setup-field"><label>Language</label>
                 <select class="styled-sel" id="sm-s-lang">
                     ${LANG_OPTS.map(l => `<option value="${l.code}" ${l.code === lang ? 'selected' : ''}>${l.label}</option>`).join('')}
+                </select>
+              </div>
+              <div class="setup-field"><label>CEFR Target Level</label>
+                <select class="styled-sel" id="sm-s-level">
+                    ${LEVEL_OPTS.map(lvl => `<option value="${lvl.code}">${lvl.label}</option>`).join('')}
                 </select>
               </div>
               <button class="btn-start-game" type="button" onclick="COSY_GAME.start()">▶ Start game</button>
@@ -44,10 +57,11 @@
 
     window.COSY_GAME = {
         activeSceneId: 'apartment',
+        activeLevel: 'ALL',
         selectedWordId: null,
         sceneMatches: {},
 
-        async start(sceneId) {
+        async start(sceneId, level) {
             const langSelect = document.getElementById('sm-s-lang');
             if (langSelect && langSelect.value) {
                 this.activeLang = langSelect.value;
@@ -57,29 +71,53 @@
             } else {
                 this.activeLang = (window.COSY_I18N && window.COSY_I18N.currentLang) || 'en';
             }
-            this.activeSceneId = sceneId || 'apartment';
-            this.sceneMatches = {
-                apartment: new Set(),
-                bedroom: new Set(),
-                kitchen: new Set(),
-                bathroom: new Set(),
-                routine: new Set(),
-                seasons: new Set(),
-                clothing: new Set(),
-                animals: new Set(),
-                city: new Set(),
-                cafe: new Set(),
-                market: new Set(),
-                school_office: new Set(),
-                airport: new Set(),
-                hospital: new Set(),
-                park_nature: new Set(),
-                restaurant: new Set()
-            };
+
+            const levelSelect = document.getElementById('sm-s-level');
+            this.activeLevel = level || (levelSelect && levelSelect.value) || 'ALL';
+
+            const allSceneKeys = Object.keys(window.COSY_SCENE_DATA);
+            this.sceneMatches = {};
+            allSceneKeys.forEach(key => {
+                this.sceneMatches[key] = new Set();
+            });
+
+            // Set initial default scene based on level
+            if (sceneId && window.COSY_SCENE_DATA[sceneId]) {
+                this.activeSceneId = sceneId;
+            } else if (this.activeLevel === 'A2') {
+                this.activeSceneId = 'city';
+            } else if (this.activeLevel === 'B1' || this.activeLevel === 'B2-C2') {
+                this.activeSceneId = 'hospital';
+            } else {
+                this.activeSceneId = 'apartment';
+            }
+
             this.selectedWordId = null;
 
-            COSYGame.init(GAME_ID, this.activeLang, 'A1');
+            COSYGame.init(GAME_ID, this.activeLang, this.activeLevel);
             this.renderGame();
+        },
+
+        getFilteredSceneKeys() {
+            const allSceneKeys = Object.keys(window.COSY_SCENE_DATA);
+            if (this.activeLevel === 'ALL') {
+                return allSceneKeys;
+            }
+
+            let filtered = allSceneKeys.filter(key => {
+                const s = window.COSY_SCENE_DATA[key];
+                if (this.activeLevel === 'B2-C2') {
+                    return s.level === 'B1' || s.level === 'B2' || s.level === 'C1' || s.level === 'C2';
+                }
+                return s.level === this.activeLevel;
+            });
+
+            // Ensure activeSceneId is always included if navigated via door
+            if (!filtered.includes(this.activeSceneId)) {
+                filtered.push(this.activeSceneId);
+            }
+
+            return filtered;
         },
 
         switchScene(sceneId) {
@@ -111,24 +149,25 @@
             const selectWordText = window.t('scene_match_select_word') || 'Select a word:';
             const progressLabel = window.t('scene_match_progress') || 'Matched';
 
-            const sceneKeys = Object.keys(window.COSY_SCENE_DATA);
+            const activeSceneKeys = this.getFilteredSceneKeys();
 
             body.innerHTML = `
               <div class="sm-container">
                 <div class="sm-header-card">
                   <!-- Room Switcher Tabs -->
                   <div class="sm-room-tabs">
-                    ${sceneKeys.map(key => {
+                    ${activeSceneKeys.map(key => {
                         const sData = window.COSY_SCENE_DATA[key];
                         const sTitle = (sData.title && sData.title[lang]) || (sData.title && sData.title['en']) || key;
                         const sMatched = (this.sceneMatches[key] || new Set()).size;
                         const sTotal = sData.hotspots.length;
+                        const sLvl = sData.level || 'A1';
                         return `
                           <button class="sm-tab-btn ${key === this.activeSceneId ? 'active' : ''}"
                                   type="button"
                                   aria-label="View scene ${sTitle}"
                                   onclick="COSY_GAME.switchScene('${key}')">
-                             ${sTitle} (${sMatched}/${sTotal})
+                             <span class="sm-tab-lvl">[${sLvl}]</span> ${sTitle} (${sMatched}/${sTotal})
                           </button>`;
                     }).join('')}
                   </div>
@@ -183,49 +222,41 @@
             const lang = this.activeLang;
             if (lang === 'fr') {
                 return `<g id="cult-fr" opacity="0.85">
-                    <!-- Paris Haussmann Window Silhouette -->
                     <path d="M720 100 L780 100 L750 20 Z" fill="#475569" opacity="0.3"/>
                     <text x="740" y="140" fill="#3b82f6" font-size="10" font-family="sans-serif">🗼 Paris</text>
                 </g>`;
             } else if (lang === 'it') {
                 return `<g id="cult-it" opacity="0.85">
-                    <!-- Rome Colosseum Silhouette -->
                     <path d="M710 120 Q740 90 770 120 Z" fill="#92400e" opacity="0.3"/>
                     <text x="730" y="140" fill="#10b981" font-size="10" font-family="sans-serif">🏛️ Roma</text>
                 </g>`;
             } else if (lang === 'ru') {
                 return `<g id="cult-ru" opacity="0.85">
-                    <!-- Moscow Kremlin Dome Silhouette -->
                     <path d="M720 110 Q740 70 760 110 Z" fill="#b91c1c" opacity="0.3"/>
                     <text x="725" y="140" fill="#ef4444" font-size="10" font-family="sans-serif">🕌 Москва</text>
                 </g>`;
             } else if (lang === 'el') {
                 return `<g id="cult-el" opacity="0.85">
-                    <!-- Athens Parthenon Pillars Silhouette -->
                     <rect x="720" y="100" width="50" height="30" fill="#0284c7" opacity="0.3"/>
                     <text x="725" y="140" fill="#0369a1" font-size="10" font-family="sans-serif">🏛️ Αθήνα</text>
                 </g>`;
             } else if (lang === 'es') {
                 return `<g id="cult-es" opacity="0.85">
-                    <!-- Madrid Plaza Mayor Arch Silhouette -->
                     <path d="M720 120 C720 90, 760 90, 760 120 Z" fill="#ea580c" opacity="0.3"/>
                     <text x="725" y="140" fill="#c2410c" font-size="10" font-family="sans-serif">🐻 Madrid</text>
                 </g>`;
             } else if (lang === 'de') {
                 return `<g id="cult-de" opacity="0.85">
-                    <!-- Berlin Brandenburg Gate Silhouette -->
                     <rect x="715" y="100" width="60" height="25" fill="#f59e0b" opacity="0.3"/>
                     <text x="720" y="140" fill="#d97706" font-size="10" font-family="sans-serif">🏛️ Berlin</text>
                 </g>`;
             } else if (lang === 'hy') {
                 return `<g id="cult-hy" opacity="0.85">
-                    <!-- Yerevan Mount Ararat Silhouette -->
                     <path d="M710 130 L740 90 L770 130 Z" fill="#0284c7" opacity="0.3"/>
-                    <text x="720" y="140" fill="#0369a1" font-size="10" font-family="sans-serif">🏔️ Ереван</text>
+                    <text x="720" y="140" fill="#0369a1" font-size="10" font-family="sans-serif">🏔️ Երևան</text>
                 </g>`;
             } else if (lang === 'ka') {
                 return `<g id="cult-ka" opacity="0.85">
-                    <!-- Tbilisi Narikala Fortress Silhouette -->
                     <rect x="720" y="105" width="50" height="20" fill="#16a34a" opacity="0.3"/>
                     <text x="720" y="140" fill="#15803d" font-size="10" font-family="sans-serif">🏰 თბილისი</text>
                 </g>`;
@@ -356,7 +387,7 @@
                 this.selectedWordId = null;
                 this.updateProgress();
 
-                // Check Completion across all rooms
+                // Check Completion across active scenes
                 this.checkOverallCompletion();
             } else {
                 // Wrong Match
@@ -418,26 +449,27 @@
             const text = document.getElementById('sm-p-text');
             const progressLabel = window.t('scene_match_progress') || 'Matched';
 
-            if (fill) fill.style.width = `${percent}%`;
+            if (fill && fill.style) fill.style.width = `${percent}%`;
             if (text) text.textContent = `${progressLabel}: ${current} / ${total}`;
 
             // Update tab badge texts if present
-            const sceneKeys = Object.keys(window.COSY_SCENE_DATA);
+            const activeSceneKeys = this.getFilteredSceneKeys();
             const tabBtns = document.querySelectorAll('.sm-tab-btn');
             tabBtns.forEach((btn, idx) => {
-                const sKey = sceneKeys[idx];
+                const sKey = activeSceneKeys[idx];
                 if (sKey) {
                     const sData = window.COSY_SCENE_DATA[sKey];
                     const sTitle = (sData.title && sData.title[this.activeLang]) || (sData.title && sData.title['en']) || sKey;
                     const sMatched = (this.sceneMatches[sKey] || new Set()).size;
-                    btn.textContent = `${sTitle} (${sMatched}/${sData.hotspots.length})`;
+                    const sLvl = sData.level || 'A1';
+                    btn.innerHTML = `<span class="sm-tab-lvl">[${sLvl}]</span> ${sTitle} (${sMatched}/${sData.hotspots.length})`;
                 }
             });
         },
 
         checkOverallCompletion() {
-            const sceneKeys = Object.keys(window.COSY_SCENE_DATA);
-            const allComplete = sceneKeys.every(k => {
+            const activeSceneKeys = this.getFilteredSceneKeys();
+            const allComplete = activeSceneKeys.every(k => {
                 const sData = window.COSY_SCENE_DATA[k];
                 const sMatched = this.sceneMatches[k] || new Set();
                 return sMatched.size === sData.hotspots.length;
@@ -452,11 +484,12 @@
 
         renderEnd() {
             const lang = this.activeLang;
-            COSYScores.save(GAME_ID, lang, 'A1', COSYGame.score);
+            const level = this.activeLevel;
+            COSYScores.save(GAME_ID, lang, level, COSYGame.score);
             const best = COSYScores.best(GAME_ID, lang);
 
-            const compTitle = window.t('scene_match_complete_title') || 'Apartment Walkthrough Complete! 🎉';
-            const compMsg = window.t('scene_match_complete_msg') || "Outstanding work! You've successfully identified all objects in the entire apartment.";
+            const compTitle = window.t('scene_match_complete_title') || 'Scene Match Complete! 🎉';
+            const compMsg = window.t('scene_match_complete_msg') || `Outstanding work! You've successfully identified all objects across all scenes in ${level === 'ALL' ? 'Cozy Town' : 'Level ' + level}.`;
             const playAgainText = window.t('scene_match_play_again') || 'Play Again ↺';
 
             document.getElementById('go-body').innerHTML = `
@@ -466,7 +499,7 @@
                     <div class="sm-completion-msg">${compMsg}</div>
                     ${best ? `<div class="game-sub" style="margin-bottom:1.5rem">Personal best: ${best.score} pts</div>` : ''}
                     <div class="re-actions">
-                        <button class="btn-g-primary" type="button" onclick="COSY_GAME.start('apartment')">${playAgainText}</button>
+                        <button class="btn-g-primary" type="button" onclick="COSY_GAME.start('${this.activeSceneId}', '${level}')">${playAgainText}</button>
                         <button class="btn-g-secondary" type="button" onclick="COSY_GAME.reset()">Setup</button>
                     </div>
                 </div>`;

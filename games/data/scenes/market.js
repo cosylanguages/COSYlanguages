@@ -4,6 +4,7 @@
     window.COSY_SCENE_DATA = window.COSY_SCENE_DATA || {};
     window.COSY_SCENE_DATA['market'] = {
         id: 'market',
+        level: 'A2',
         title: {
             en: "Fresh Market",
             fr: "Marché frais",
@@ -18,8 +19,13 @@
         viewBox: "0 0 800 500",
         doors: [
             {
-                targetSceneId: "cafe",
+                targetSceneId: "city",
                 x: 15, y: 140, width: 35, height: 230, labelX: 32, labelY: 125,
+                labels: { en: "🚪 City →", fr: "🚪 Ville →", it: "🚪 Città →", ru: "🚪 Город →", el: "🚪 Πόλη →" }
+            },
+            {
+                targetSceneId: "cafe",
+                x: 380, y: 140, width: 35, height: 100, labelX: 398, labelY: 125,
                 labels: { en: "🚪 Café →", fr: "🚪 Café →", it: "🚪 Caffè →", ru: "🚪 Кафе →", el: "🚪 Καφέ →" }
             },
             {

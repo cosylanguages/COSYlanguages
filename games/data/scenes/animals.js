@@ -11,6 +11,7 @@
 
     window.COSY_SCENE_DATA.animals = {
         id: 'animals',
+        level: 'A1',
         title: {
             en: 'Farm Animals',
             fr: 'Animaux de la ferme',
@@ -19,7 +20,18 @@
             el: 'Ζώα της φάρμας'
         },
         viewBox: '0 0 800 500',
-        doors: [],
+        doors: [
+            {
+                targetSceneId: "park_nature",
+                x: 15, y: 140, width: 35, height: 230, labelX: 32, labelY: 125,
+                labels: { en: "🚪 Park →", fr: "🚪 Parc →", it: "🚪 Parco →", ru: "🚪 Парк →", el: "🚪 Πάρκο →" }
+            },
+            {
+                targetSceneId: "city",
+                x: 745, y: 140, width: 35, height: 230, labelX: 762, labelY: 125,
+                labels: { en: "🚪 City →", fr: "🚪 Ville →", it: "🚪 Città →", ru: "🚪 Город →", el: "🚪 Πόλη →" }
+            }
+        ],
         hotspots: [
             {
                 id: 'cow',
