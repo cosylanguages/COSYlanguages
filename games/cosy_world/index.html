@@ -93,6 +93,21 @@
         color: var(--ink);
         cursor: pointer;
       }
+      .cw-btn-toggle {
+        padding: 0.4rem 0.8rem;
+        border-radius: 12px;
+        border: 2px solid var(--border);
+        background: var(--tan-light, #f8f6f0);
+        font-weight: 700;
+        font-size: 0.85rem;
+        color: var(--ink);
+        cursor: pointer;
+        transition: all 0.2s;
+      }
+      .cw-btn-toggle:hover {
+        background: white;
+        border-color: var(--teal, #10b981);
+      }
 
       /* Main Game Viewport Layout */
       .cw-viewport-layout {
@@ -134,6 +149,15 @@
         display: flex;
         align-items: center;
         gap: 0.5rem;
+      }
+
+      /* Animated Hand Pointers */
+      @keyframes floatPointer {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-8px); }
+      }
+      .cw-hand-pointer {
+        animation: floatPointer 1.5s infinite ease-in-out;
       }
 
       /* SVG Viewport & Hotspots */
@@ -303,7 +327,7 @@
         <button class="go-back" type="button" onclick="location.href='../index.html'">← Back to games</button>
         <div>
           <h1 class="go-title" id="go-title" style="margin:0; font-size:1.25rem;">COSY World 🌍</h1>
-          <div class="go-meta" id="go-meta">Open-World RPG · Multi-lingual Life Simulation</div>
+          <div class="go-meta" id="go-meta">Inductive Direct Immersion · Learn by Living</div>
         </div>
         <div id="go-topbar-right"></div>
       </div>
@@ -324,6 +348,9 @@
             </div>
 
             <div class="cw-controls">
+              <button class="cw-btn-toggle" type="button" onclick="COSY_WORLD.toggleGuidePointers()">👉 Guide Pointers</button>
+              <button class="cw-btn-toggle" type="button" onclick="COSY_WORLD.toggleTranslations()">🌐 Translation Mode</button>
+
               <label for="cw-lang-sel" style="font-size:0.85rem; font-weight:700;">Target Language:</label>
               <select class="cw-sel" id="cw-lang-sel" onchange="COSY_WORLD.changeLanguage(this.value)">
                 <!-- Generated dynamically -->

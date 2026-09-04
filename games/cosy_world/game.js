@@ -1,8 +1,8 @@
 /**
  * games/cosy_world/game.js
  * Game Engine for COSY World — Open-World Language Learning RPG
- * Handles state, district navigation, SVG viewport rendering, multi-language speech TTS,
- * NPC dialogue, quest triggers, vocabulary encyclopedia, grammar unlocks, and ambient audio synthesis.
+ * Built on "Learn by Living, Not by Translating" (Inductive Direct Immersion).
+ * Renders visual pointers, cause-and-effect sequences, gesture-rich dialogues, and speech TTS.
  */
 (function() {
     'use strict';
@@ -15,18 +15,18 @@
             citizenLvl: 1,
             discoveredObjects: new Set(),
             completedQuests: new Set(),
-            activeQuests: new Set(['q1_welcome']),
+            activeQuests: new Set(['q1_key_door']),
             unlockedGrammar: new Set(['gt_greetings']),
             npcRelationships: {
                 james_york: 0,
                 ella_bronx: 0,
                 anna: 0,
                 lucas_baker: 0,
-                sophie_librarian: 0,
-                marco_barista: 0,
-                dr_elena: 0
+                marco_barista: 0
             },
-            activeTab: 'quests'
+            activeTab: 'quests',
+            showGuidePointers: true,
+            showTranslations: false
         },
 
         audioCtx: null,
@@ -43,11 +43,10 @@
                     this.state.currentLang = parsed.currentLang || 'en';
                     this.state.discoveredObjects = new Set(parsed.discoveredObjects || []);
                     this.state.completedQuests = new Set(parsed.completedQuests || []);
-                    this.state.activeQuests = new Set(parsed.activeQuests || ['q1_welcome']);
+                    this.state.activeQuests = new Set(parsed.activeQuests || ['q1_key_door']);
                     this.state.unlockedGrammar = new Set(parsed.unlockedGrammar || ['gt_greetings']);
-                    if (parsed.npcRelationships) {
-                        this.state.npcRelationships = { ...this.state.npcRelationships, ...parsed.npcRelationships };
-                    }
+                    if (parsed.showGuidePointers !== undefined) this.state.showGuidePointers = parsed.showGuidePointers;
+                    if (parsed.showTranslations !== undefined) this.state.showTranslations = parsed.showTranslations;
                 } catch (e) {
                     console.warn('Could not parse saved COSY World state, using defaults');
                 }
@@ -69,9 +68,24 @@
                 completedQuests: Array.from(this.state.completedQuests),
                 activeQuests: Array.from(this.state.activeQuests),
                 unlockedGrammar: Array.from(this.state.unlockedGrammar),
-                npcRelationships: this.state.npcRelationships
+                showGuidePointers: this.state.showGuidePointers,
+                showTranslations: this.state.showTranslations
             };
             localStorage.setItem('COSY_WORLD_STATE', JSON.stringify(dataToSave));
+        },
+
+        toggleGuidePointers() {
+            this.state.showGuidePointers = !this.state.showGuidePointers;
+            this.saveState();
+            this.renderWorldViewport();
+            this.showToast(this.state.showGuidePointers ? 'Visual Guide Pointers ON 👉' : 'Visual Guide Pointers OFF 🕶️');
+        },
+
+        toggleTranslations() {
+            this.state.showTranslations = !this.state.showTranslations;
+            this.saveState();
+            this.renderHudTab();
+            this.showToast(this.state.showTranslations ? 'Translations ON (Accessibility) 🌐' : 'Direct Immersion Mode ON 🎯');
         },
 
         populateLanguageSelector() {
@@ -88,7 +102,7 @@
             this.saveState();
             this.renderWorldViewport();
             this.renderHudTab();
-            this.showToast(`Switched target language to ${code.toUpperCase()}! 🌍`);
+            this.showToast(`Target Language: ${code.toUpperCase()} 🌍`);
         },
 
         updatePlayerStats() {
@@ -157,9 +171,9 @@
                 });
             }
 
-            // Draw Objects
+            // Draw Objects with Action Pointers
             if (loc.objects) {
-                loc.objects.forEach(objId => {
+                loc.objects.forEach((objId, idx) => {
                     const obj = window.COSY_WORLD_DATA.objects[objId];
                     if (!obj) return;
                     const word = obj.words[lang] || obj.words.en || objId;
@@ -169,6 +183,11 @@
                         <g class="cw-obj-hotspot" onclick="COSY_WORLD.inspectObject('${objId}')">
                             <rect class="hit-box" x="${obj.x}" y="${obj.y}" width="${obj.width}" height="${obj.height}" />
                             <text x="${obj.x + obj.width / 2}" y="${obj.y + obj.height / 2 + 8}" font-size="28" text-anchor="middle">${obj.emoji}</text>
+
+                            ${this.state.showGuidePointers && idx === 0 && !isDiscovered ? `
+                                <text x="${obj.x + obj.width / 2}" y="${obj.y - 12}" font-size="20" text-anchor="middle" class="cw-hand-pointer">👇</text>
+                            ` : ''}
+
                             <rect x="${obj.labelX - word.length * 4 - 8}" y="${obj.labelY - 14}" width="${word.length * 8 + 16}" height="20" rx="10" fill="${isDiscovered ? '#10b981' : '#1e293b'}" opacity="0.9" />
                             <text x="${obj.labelX}" y="${obj.labelY}" fill="#ffffff" font-size="11" font-weight="bold" text-anchor="middle">${word}</text>
                         </g>
@@ -176,7 +195,7 @@
                 });
             }
 
-            // Draw NPCs
+            // Draw NPCs with Gestures
             if (loc.npcs) {
                 loc.npcs.forEach((npcId, idx) => {
                     const npc = window.COSY_WORLD_DATA.npcs[npcId];
@@ -188,6 +207,11 @@
                         <g class="cw-npc-hotspot" onclick="COSY_WORLD.interactNPC('${npcId}')">
                             <circle class="npc-hit" cx="${posX}" cy="${posY}" r="32" />
                             <text x="${posX}" y="${posY + 10}" font-size="32" text-anchor="middle">${npc.avatar}</text>
+
+                            ${this.state.showGuidePointers ? `
+                                <text x="${posX + 25}" y="${posY - 20}" font-size="18" text-anchor="middle">💬</text>
+                            ` : ''}
+
                             <rect x="${posX - 40}" y="${posY + 38}" width="80" height="20" rx="10" fill="#f59e0b" />
                             <text x="${posX}" y="${posY + 52}" fill="#ffffff" font-size="11" font-weight="bold" text-anchor="middle">${npc.name}</text>
                         </g>
@@ -204,9 +228,7 @@
 
             const lang = this.state.currentLang;
             const word = obj.words[lang] || obj.words.en || objId;
-            const phonetic = (obj.phonetics && obj.phonetics[lang]) || '';
-            const example = (obj.examples && obj.examples[lang]) || (obj.examples && obj.examples.en) || '';
-            const grammar = (obj.grammarNotes && obj.grammarNotes[lang]) || (obj.grammarNotes && obj.grammarNotes.en) || '';
+            const sequence = obj.visualSequence || `${obj.emoji} ${word}`;
 
             if (!this.state.discoveredObjects.has(objId)) {
                 this.state.discoveredObjects.add(objId);
@@ -214,23 +236,33 @@
                 this.checkQuests();
             }
 
+            // Auto-speak target word for natural auditory acquisition
+            this.speakText(word, lang);
+
             const body = document.getElementById('cw-modal-body');
             body.innerHTML = `
                 <div style="text-align:center;">
-                    <div style="font-size:3.5rem; margin-bottom:0.5rem;">${obj.emoji}</div>
-                    <h2 style="font-family:'Fraunces',serif; font-size:1.75rem; color:var(--ink); margin-bottom:0.25rem;">${word}</h2>
-                    ${phonetic ? `<div style="font-size:1rem; color:var(--teal); font-weight:700; margin-bottom:1rem;">${phonetic}</div>` : ''}
-                    <button class="btn-g-primary" type="button" style="margin-bottom:1.25rem;" onclick="COSY_WORLD.speakText('${word.replace(/'/g, "\\'")}', '${lang}')">🔊 Listen Pronunciation</button>
+                    <div style="font-size:4rem; margin-bottom:0.5rem;">${obj.emoji}</div>
+                    <h2 style="font-family:'Fraunces',serif; font-size:2rem; color:var(--ink); margin-bottom:0.25rem;">${word}</h2>
 
-                    <div class="cw-item-card" style="text-align:left;">
-                        <div class="cw-item-title">📝 Example Sentence</div>
-                        <div class="cw-item-desc">${example || 'Use this word in your daily conversations in COSY Town!'}</div>
+                    <button class="btn-g-primary" type="button" style="margin-bottom:1.25rem; font-size:1.1rem; padding:0.6rem 1.25rem;" onclick="COSY_WORLD.speakText('${word.replace(/'/g, "\\'")}', '${lang}')">
+                        🔊 Speak Target Word
+                    </button>
+
+                    <div class="cw-item-card" style="text-align:left; background:var(--tan-light); padding:1rem; border-radius:14px; margin-bottom:1rem;">
+                        <div class="cw-item-title" style="font-size:1rem; color:var(--teal);">🎬 Visual Action Chain</div>
+                        <div style="font-size:1.1rem; font-weight:700; color:var(--ink); margin-top:0.4rem;">${sequence}</div>
                     </div>
-                    ${grammar ? `
-                    <div class="cw-item-card" style="text-align:left;">
-                        <div class="cw-item-title">📐 Grammar & Structure</div>
-                        <div class="cw-item-desc">${grammar}</div>
-                    </div>` : ''}
+
+                    ${obj.actionChain ? `
+                        <button class="btn-g-secondary" type="button" style="width:100%; margin-top:0.5rem;" onclick="COSY_WORLD.triggerActionChain('${obj.id}')">
+                            ${obj.actionChain.actionIcon}
+                        </button>
+                    ` : ''}
+
+                    ${this.state.showTranslations && obj.words.en ? `
+                        <div style="font-size:0.85rem; color:var(--ink-muted); margin-top:1rem;">🌐 English Translation: ${obj.words.en}</div>
+                    ` : ''}
                 </div>
             `;
 
@@ -239,17 +271,25 @@
             this.renderHudTab();
         },
 
+        triggerActionChain(objId) {
+            const obj = window.COSY_WORLD_DATA.objects[objId];
+            if (!obj || !obj.actionChain) return;
+
+            this.showToast(`Action Triggered: ${obj.actionChain.actionIcon}! ✨`);
+            this.closeModal();
+
+            if (obj.actionChain.nextObject === 'door_lock') {
+                this.completeQuest('q1_key_door');
+            }
+        },
+
         interactNPC(npcId) {
             const npc = window.COSY_WORLD_DATA.npcs[npcId];
             if (!npc) return;
 
             const lang = this.state.currentLang;
             const dialogues = (npc.dialogues && npc.dialogues[lang]) || npc.dialogues.en || [];
-            const dlg = dialogues[0] || { text: 'Hello citizen!', options: [] };
-
-            // Increase relationship slightly
-            this.state.npcRelationships[npcId] = (this.state.npcRelationships[npcId] || 0) + 10;
-            this.saveState();
+            const dlg = dialogues[0] || { text: '👋 Hello!', options: [] };
 
             const body = document.getElementById('cw-modal-body');
             body.innerHTML = `
@@ -257,15 +297,23 @@
                     <div style="font-size:3rem; background:var(--tan-light); padding:0.5rem; border-radius:50%; border:2px solid var(--border);">${npc.avatar}</div>
                     <div>
                         <h2 style="font-family:'Fraunces',serif; font-size:1.5rem; color:var(--ink); margin:0;">${npc.name}</h2>
-                        <div style="font-size:0.85rem; color:var(--ink-muted); font-weight:700;">${npc.role}</div>
+                        <div style="font-size:0.85rem; color:var(--teal); font-weight:700;">${npc.role}</div>
                     </div>
                 </div>
-                <div class="cw-item-card" style="font-size:1.05rem; line-height:1.5; color:var(--ink); margin-bottom:1.25rem;">
+
+                <div class="cw-item-card" style="font-size:1.15rem; font-weight:600; line-height:1.5; color:var(--ink); margin-bottom:1rem; text-align:center;">
                     "${dlg.text}"
                 </div>
+
+                ${dlg.visualAction ? `
+                    <div style="text-align:center; font-size:1.5rem; margin-bottom:1.25rem; padding:0.5rem; background:#f0fdf4; border-radius:12px; border:1px solid #10b981;">
+                        ${dlg.visualAction}
+                    </div>
+                ` : ''}
+
                 <div>
                     ${dlg.options.map(opt => `
-                        <button class="btn-g-primary" type="button" style="width:100%; margin-bottom:0.5rem;" onclick="COSY_WORLD.handleDialogueOption('${npcId}', '${opt.questId || ''}')">
+                        <button class="btn-g-primary" type="button" style="width:100%; margin-bottom:0.5rem; font-size:1.05rem;" onclick="COSY_WORLD.handleDialogueOption('${npcId}', '${opt.questId || ''}')">
                             ${opt.label}
                         </button>
                     `).join('')}
@@ -306,9 +354,8 @@
             window.COSY_WORLD_DATA.quests.forEach(q => {
                 if (this.state.completedQuests.has(q.id)) return;
 
-                if (q.type === 'Vocabulary Hunt' && q.targetObjects) {
-                    const allFound = q.targetObjects.every(objId => this.state.discoveredObjects.has(objId));
-                    if (allFound) {
+                if (q.type === 'Vocabulary Hunt' && q.targetCount) {
+                    if (this.state.discoveredObjects.size >= q.targetCount) {
                         this.completeQuest(q.id);
                     }
                 }
@@ -355,7 +402,7 @@
             } else if (this.state.activeTab === 'vocab') {
                 const disc = Array.from(this.state.discoveredObjects);
                 if (disc.length === 0) {
-                    body.innerHTML = `<div style="text-align:center; padding:2rem; color:var(--ink-muted);">No objects discovered yet! Explore rooms to build your encyclopedia.</div>`;
+                    body.innerHTML = `<div style="text-align:center; padding:2rem; color:var(--ink-muted);">No objects discovered yet! Click items in rooms to build your visual encyclopedia.</div>`;
                     return;
                 }
                 body.innerHTML = disc.map(objId => {
@@ -366,7 +413,7 @@
                         <div class="cw-item-card" style="cursor:pointer;" onclick="COSY_WORLD.inspectObject('${objId}')">
                             <div class="cw-item-title">
                                 <span>${obj.emoji} ${word}</span>
-                                <span style="font-size:0.8rem; color:var(--teal);">🔊 Listen</span>
+                                <span style="font-size:0.8rem; color:var(--teal);">🔊 Speak</span>
                             </div>
                         </div>
                     `;
@@ -381,23 +428,17 @@
                                 <span style="font-size:0.75rem; background:var(--tan-light); padding:0.2rem 0.5rem; border-radius:10px;">${g.cefr}</span>
                             </div>
                             <div class="cw-item-desc">${g.desc}</div>
-                            <div style="font-size:0.8rem; font-weight:700; color:${isUnlocked ? '#10b981' : '#94a3b8'}; margin-top:0.4rem;">
-                                ${isUnlocked ? '🔓 Unlocked' : '🔒 Complete quests to unlock'}
-                            </div>
                         </div>
                     `;
                 }).join('');
             } else if (this.state.activeTab === 'npcs') {
                 body.innerHTML = Object.keys(window.COSY_WORLD_DATA.npcs).map(npcId => {
                     const npc = window.COSY_WORLD_DATA.npcs[npcId];
-                    const pts = this.state.npcRelationships[npcId] || 0;
-                    const tierIdx = Math.min(Math.floor(pts / 20), npc.relationshipTiers.length - 1);
-                    const tier = npc.relationshipTiers[tierIdx];
                     return `
-                        <div class="cw-item-card" style="cursor:pointer;" onclick="COSY_WORLD.switchLocation('${npc.schedule.morning}')">
+                        <div class="cw-item-card" style="cursor:pointer;" onclick="COSY_WORLD.switchLocation('town_square')">
                             <div class="cw-item-title">
                                 <span>${npc.avatar} ${npc.name}</span>
-                                <span style="font-size:0.8rem; color:var(--teal);">${tier}</span>
+                                <span style="font-size:0.8rem; color:var(--teal);">Talk 💬</span>
                             </div>
                             <div class="cw-item-desc">${npc.role}</div>
                         </div>
@@ -431,7 +472,7 @@
                 const osc = this.audioCtx.createOscillator();
                 const gain = this.audioCtx.createGain();
                 osc.type = 'sine';
-                osc.frequency.setValueAtTime(type === 'piano' ? 220 : type === 'cafe' ? 330 : 180, this.audioCtx.currentTime);
+                osc.frequency.setValueAtTime(type === 'piano' ? 220 : 330, this.audioCtx.currentTime);
                 gain.gain.setValueAtTime(0.02, this.audioCtx.currentTime);
                 osc.connect(gain);
                 gain.connect(this.audioCtx.destination);
