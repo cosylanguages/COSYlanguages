@@ -1,6 +1,7 @@
 /**
  * games/cosy_world/js/scenes/scene_renderer.js
  * SVG scene and interactive stage rendering component for COSY World.
+ * Renders roads, buildings, weather overlays, time-of-day lighting filters, NPC spawns, and door portals completely dynamically from JSON data.
  */
 
 export class SceneRenderer {
@@ -18,14 +19,50 @@ export class SceneRenderer {
         if (titleEl) titleEl.textContent = `${loc.icon} ${loc.name[lang] || loc.name.en}`;
         if (districtEl) districtEl.textContent = loc.district;
 
+        // Time-of-Day Lighting Overlay
+        const timeOfDayColors = {
+            morning: 'rgba(254, 243, 199, 0.2)',
+            afternoon: 'rgba(255, 255, 255, 0)',
+            sunset: 'rgba(251, 146, 60, 0.25)',
+            night: 'rgba(30, 41, 59, 0.5)'
+        };
+        const lightingFill = timeOfDayColors[loc.timeOfDay] || 'rgba(0,0,0,0)';
+
         let html = `
-            <!-- Background Wall & Floor -->
+            <!-- Background Wall & Base Floor -->
             <rect x="0" y="0" width="800" height="340" fill="#f5f0eb" />
             <rect x="0" y="340" width="800" height="160" fill="#e8ded1" />
             <line x1="0" y1="340" x2="800" y2="340" stroke="#d4c5b3" stroke-width="4" />
         `;
 
-        // Draw Doors / Portals
+        // Render Roads dynamically from JSON
+        if (loc.roads) {
+            loc.roads.forEach(r => {
+                const roadFills = {
+                    cobblestone: '#d1d5db',
+                    wooden_floor: '#e5e7eb',
+                    tile_floor: '#f3f4f6'
+                };
+                html += `
+                    <rect x="${r.x}" y="${r.y}" width="${r.width}" height="${r.height}" fill="${roadFills[r.type] || '#e8ded1'}" rx="4" />
+                    <line x1="${r.x}" y1="${r.y}" x2="${r.x + r.width}" y2="${r.y}" stroke="#9ca3af" stroke-width="2" stroke-dasharray="8 4" />
+                `;
+            });
+        }
+
+        // Render Buildings dynamically from JSON
+        if (loc.buildings) {
+            loc.buildings.forEach(b => {
+                html += `
+                    <g class="cw-building-group">
+                        <rect x="${b.x}" y="${b.y}" width="${b.width}" height="${b.height}" fill="${b.color}" rx="8" opacity="0.85" stroke="#1e293b" stroke-width="2" />
+                        <text x="${b.x + b.width / 2}" y="${b.y + b.height / 2}" fill="#ffffff" font-size="12" font-weight="bold" text-anchor="middle">${b.label}</text>
+                    </g>
+                `;
+            });
+        }
+
+        // Render Doors / Portals dynamically from JSON
         if (loc.doors) {
             loc.doors.forEach(d => {
                 const doorLabel = d.labels[lang] || d.labels.en || 'Door';
@@ -39,7 +76,7 @@ export class SceneRenderer {
             });
         }
 
-        // Draw Objects with Action Pointers
+        // Render Objects dynamically from JSON
         if (loc.objects) {
             loc.objects.forEach((objId, idx) => {
                 const obj = gameData.objects[objId];
@@ -63,29 +100,43 @@ export class SceneRenderer {
             });
         }
 
-        // Draw NPCs with Gestures
-        if (loc.npcs) {
-            loc.npcs.forEach((npcId, idx) => {
-                const npc = gameData.npcs[npcId];
-                if (!npc) return;
-                const posX = 200 + idx * 150;
-                const posY = 300;
+        // Render NPC Spawns dynamically from JSON
+        const npcList = loc.npcSpawns || (loc.npcs ? loc.npcs.map((id, idx) => ({ npcId: id, x: 200 + idx * 150, y: 300 })) : []);
+        npcList.forEach(spawn => {
+            const npc = gameData.npcs[spawn.npcId];
+            if (!npc) return;
+            const posX = spawn.x;
+            const posY = spawn.y;
 
-                html += `
-                    <g class="cw-npc-hotspot" onclick="COSY_WORLD.interactNPC('${npcId}')">
-                        <circle class="npc-hit" cx="${posX}" cy="${posY}" r="32" />
-                        <text x="${posX}" y="${posY + 10}" font-size="32" text-anchor="middle">${npc.avatar}</text>
+            html += `
+                <g class="cw-npc-hotspot" onclick="COSY_WORLD.interactNPC('${spawn.npcId}')">
+                    <circle class="npc-hit" cx="${posX}" cy="${posY}" r="32" />
+                    <text x="${posX}" y="${posY + 10}" font-size="32" text-anchor="middle">${npc.avatar}</text>
 
-                        ${state.showGuidePointers ? `
-                            <text x="${posX + 25}" y="${posY - 20}" font-size="18" text-anchor="middle">💬</text>
-                        ` : ''}
+                    ${state.showGuidePointers ? `
+                        <text x="${posX + 25}" y="${posY - 20}" font-size="18" text-anchor="middle">💬</text>
+                    ` : ''}
 
-                        <rect x="${posX - 40}" y="${posY + 38}" width="80" height="20" rx="10" fill="#f59e0b" />
-                        <text x="${posX}" y="${posY + 52}" fill="#ffffff" font-size="11" font-weight="bold" text-anchor="middle">${npc.name}</text>
-                    </g>
-                `;
-            });
+                    <rect x="${posX - 40}" y="${posY + 38}" width="80" height="20" rx="10" fill="#f59e0b" />
+                    <text x="${posX}" y="${posY + 52}" fill="#ffffff" font-size="11" font-weight="bold" text-anchor="middle">${npc.name}</text>
+                </g>
+            `;
+        });
+
+        // Weather Effect Overlay dynamically from JSON
+        if (loc.weather === 'rain') {
+            html += `
+                <g class="cw-weather-rain" opacity="0.4">
+                    <line x1="100" y1="20" x2="90" y2="120" stroke="#3b82f6" stroke-width="2" stroke-dasharray="10 20" />
+                    <line x1="250" y1="10" x2="240" y2="110" stroke="#3b82f6" stroke-width="2" stroke-dasharray="10 20" />
+                    <line x1="450" y1="30" x2="440" y2="130" stroke="#3b82f6" stroke-width="2" stroke-dasharray="10 20" />
+                    <line x1="650" y1="15" x2="640" y2="115" stroke="#3b82f6" stroke-width="2" stroke-dasharray="10 20" />
+                </g>
+            `;
         }
+
+        // Time of Day Lighting Filter
+        html += `<rect x="0" y="0" width="800" height="500" fill="${lightingFill}" pointer-events="none" />`;
 
         svg.innerHTML = html;
     }

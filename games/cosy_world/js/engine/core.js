@@ -3,7 +3,7 @@
  * Core engine orchestrator that fetches JSON game datasets and coordinates components.
  *
  * Engine Capabilities Supported:
- * - Scene loading & transition
+ * - Scene loading & transition (100% data-driven from JSON)
  * - Asset preloading & JSON configuration parsing
  * - Publish-subscribe event system
  * - RequestAnimationFrame game loop & delta time
@@ -13,6 +13,7 @@
  * - Click, keyboard, and touch mobile input interactions
  * - LocalStorage save/load state persistence
  * - Multi-lingual localization across 14 target languages
+ * - Dynamic World Manager (roads, buildings, weather, ambient music, time of day)
  */
 
 import { SaveSystem } from '../save/save_system.js';
@@ -217,6 +218,14 @@ export class GameEngine {
 
         this.state.currentLocationId = locationId;
         this.saveState();
+
+        // Dynamically assign ambient sound preset if specified by JSON
+        if (loc.music) {
+            const soundSel = document.getElementById('cw-sound-sel');
+            if (soundSel) soundSel.value = loc.music;
+            this.playAmbience(loc.music);
+        }
+
         this.renderWorldViewport();
         this.showToast(`Entered ${loc.name[this.state.currentLang] || loc.name.en} 🚪`);
         this.emit('locationChanged', locationId);
