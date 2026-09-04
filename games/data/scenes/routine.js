@@ -11,6 +11,7 @@
 
     window.COSY_SCENE_DATA.routine = {
         id: 'routine',
+        imageUrl: 'images/scenes/routine.jpg',
         title: {
             en: 'Daily Routine',
             fr: 'Routine quotidienne',

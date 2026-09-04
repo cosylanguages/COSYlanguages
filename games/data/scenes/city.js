@@ -11,6 +11,7 @@
 
     window.COSY_SCENE_DATA.city = {
         id: 'city',
+        imageUrl: 'images/scenes/city.jpg',
         title: {
             en: 'City Street',
             fr: 'Rue de la ville',

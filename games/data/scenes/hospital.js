@@ -4,6 +4,7 @@
     window.COSY_SCENE_DATA = window.COSY_SCENE_DATA || {};
     window.COSY_SCENE_DATA['hospital'] = {
         id: 'hospital',
+        imageUrl: 'images/scenes/hospital.jpg',
         title: {
             en: "Hospital & Pharmacy",
             fr: "Hôpital et Pharmacie",

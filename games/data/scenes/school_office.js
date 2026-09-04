@@ -4,6 +4,7 @@
     window.COSY_SCENE_DATA = window.COSY_SCENE_DATA || {};
     window.COSY_SCENE_DATA['school_office'] = {
         id: 'school_office',
+        imageUrl: 'images/scenes/school_office.jpg',
         title: {
             en: "School & Office",
             fr: "École et Bureau",
