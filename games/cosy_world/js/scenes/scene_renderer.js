@@ -1,7 +1,7 @@
 /**
  * games/cosy_world/js/scenes/scene_renderer.js
  * SVG scene and interactive stage rendering component for COSY World.
- * Hotspot Engine renders pulse/glow animations, accessibility focus rings, hover tooltips, and click feedback.
+ * Hotspot & NPC Engine renders pulse/glow animations, accessibility focus rings, relationship badges, and interactive NPC gesture states.
  */
 
 export class SceneRenderer {
@@ -92,7 +92,7 @@ export class SceneRenderer {
             });
         }
 
-        // Render Hotspots dynamically from JSON with Glow/Pulse animations & ARIA support
+        // Render Hotspots dynamically from JSON
         if (loc.objects) {
             loc.objects.forEach((objId, idx) => {
                 const obj = gameData.objects[objId];
@@ -117,25 +117,27 @@ export class SceneRenderer {
             });
         }
 
-        // Render NPC Spawns dynamically from JSON
+        // Render NPC Spawns dynamically with relationship level indicators
         const npcList = loc.npcSpawns || (loc.npcs ? loc.npcs.map((id, idx) => ({ npcId: id, x: 200 + idx * 150, y: 300 })) : []);
         npcList.forEach(spawn => {
             const npc = gameData.npcs[spawn.npcId];
             if (!npc) return;
-            const posX = spawn.x;
-            const posY = spawn.y;
+            const posX = spawn.x || (npc.position3D ? npc.position3D.x : 200);
+            const posY = spawn.y || (npc.position3D ? npc.position3D.y : 300);
+            const fp = state.npcRelationships[spawn.npcId] || 0;
+            const lvl = Math.floor(fp / 50) + 1;
 
             html += `
                 <g class="cw-npc-hotspot" tabindex="0" role="button" aria-label="Talk to ${npc.name}" onclick="COSY_WORLD.interactNPC('${spawn.npcId}')" onkeydown="if(event.key==='Enter'||event.key===' '){COSY_WORLD.interactNPC('${spawn.npcId}');}">
                     <circle class="npc-hit" cx="${posX}" cy="${posY}" r="32" />
-                    <text x="${posX}" y="${posY + 10}" font-size="32" text-anchor="middle">${npc.avatar}</text>
+                    <text x="${posX}" y="${posY + 10}" font-size="32" text-anchor="middle">${npc.portrait || npc.avatar}</text>
 
                     ${state.showGuidePointers ? `
                         <text x="${posX + 25}" y="${posY - 20}" font-size="18" text-anchor="middle">💬</text>
                     ` : ''}
 
                     <rect x="${posX - 40}" y="${posY + 38}" width="80" height="20" rx="10" fill="#f59e0b" />
-                    <text x="${posX}" y="${posY + 52}" fill="#ffffff" font-size="11" font-weight="bold" text-anchor="middle">${npc.name}</text>
+                    <text x="${posX}" y="${posY + 52}" fill="#ffffff" font-size="11" font-weight="bold" text-anchor="middle">${npc.name} Lvl ${lvl}</text>
                 </g>
             `;
         });

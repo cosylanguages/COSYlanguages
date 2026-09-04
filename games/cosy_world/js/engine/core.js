@@ -3,6 +3,7 @@
  * Core engine orchestrator that fetches JSON game datasets and coordinates components.
  *
  * Engine Capabilities Supported:
+ * - Professional Dialogue Engine (branching tree nodes, speech rate 0.8x/1.0x/1.3x, repeat, slow toggle, typing animation, history log, speech rec input)
  * - Hotspot Engine (glow, pulse, ARIA accessibility, keyboard & click interaction)
  * - Scene loading & transition (100% data-driven from JSON with lazy loading)
  * - Asset preloading & JSON configuration parsing
@@ -10,7 +11,6 @@
  * - RequestAnimationFrame game loop & delta time
  * - Axis-Aligned Bounding Box (AABB) collision detection
  * - Camera movement, pan/zoom, and bounds clamping
- * - Click, keyboard, and touch mobile input interactions
  * - LocalStorage save/load state persistence
  * - Multi-lingual localization across 14 target languages
  * - Dynamic World Manager (roads, buildings, weather, ambient music, time of day)
@@ -276,6 +276,30 @@ export class GameEngine {
             }
         }
         this.closeModal();
+    }
+
+    handleBranchNode(npcId, nextNode, questId, rewardXP) {
+        DialogueManager.handleBranchNode(npcId, nextNode, questId, rewardXP, this);
+    }
+
+    repeatSpeech() {
+        DialogueManager.repeatSpeech(this.state.currentLang);
+    }
+
+    toggleSlowSpeech() {
+        DialogueManager.toggleSlowSpeech(this.state.currentLang);
+    }
+
+    setSpeechSpeed(speed) {
+        DialogueManager.setSpeechSpeed(speed, this.state.currentLang);
+    }
+
+    toggleDialogueHistory() {
+        DialogueManager.toggleDialogueHistory();
+    }
+
+    startVoiceRecognition() {
+        DialogueManager.startVoiceRecognition();
     }
 
     completeQuest(questId) {
