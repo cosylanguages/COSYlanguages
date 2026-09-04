@@ -6,9 +6,10 @@ This document provides a single, unified source of truth for all vocabulary meta
 
 ### Core Objectives
 1. **Multi-Tiered Taxonomy Standardization**: Establish a granular 4-tier tree structure (`macro_domain` -> `theme` -> `sub_theme` -> `micro_topic`) encompassing all CEFR levels (A0 through C2), visual dictionary categories, and specialized technical/academic fields.
-2. **Deep Micro-Topic Specialization**: Break down every daily life, situational, and domain concept into atomic sub-domains (e.g. `routine` -> `morning_routine`, `afternoon_routine`, `evening_routine`, `night_routine`, `commute`, `household_chores`, `workday_vs_weekend`, `shopping_errands`).
-3. **Pedagogical Integrity for Visual Games**: Enforce strict CEFR tiering rules for the **Scene Match Game**, reserving 2D hotspot scene environments for concrete physical terms (A0–A2) and specialized physical environments (B1), while designating non-scene visual diagrams (Collocation Webs, System Maps, and Process Flow Diagrams) for abstract higher-level domains (B2–C2).
-4. **Cross-System Dynamic Scalability**: Ensure seamless querying and interoperability across the Vocabulary Database (`vocabulary/`), Curriculums (`curriculum/`), Monolingual Manuals (`manuals/`), Event Taxonomies (`speaking_club_theme_taxonomy.md`), and Game Engines (`games/scene_match/`).
+2. **Atomic Sub-Domain Isolation**: Divide broad vocabulary domains into discrete, self-contained atomic sub-domains (e.g., isolating `racket_sports`, `ball_sports`, `combat_sports`, `winter_sports`, `aquatic_sports`, `track_field`, `gymnastics`, `equestrian`, `motor_sports`, `cycling`, `precision_sports`, `strength_sports`, `sports_facilities` as standalone sub-domain units).
+3. **Deep Micro-Topic Specialization**: Break down every daily life, situational, and domain concept into atomic sub-domains (e.g. `routine` -> `morning_routine`, `afternoon_routine`, `evening_routine`, `night_routine`, `commute`, `household_chores`, `workday_vs_weekend`, `shopping_errands`).
+4. **Pedagogical Integrity for Visual Games**: Enforce strict CEFR tiering rules for the **Scene Match Game**, reserving 2D hotspot scene environments for concrete physical terms (A0–A2) and specialized physical environments (B1), while designating non-scene visual diagrams (Collocation Webs, System Maps, and Process Flow Diagrams) for abstract higher-level domains (B2–C2).
+5. **Cross-System Dynamic Scalability**: Ensure seamless querying and interoperability across the Vocabulary Database (`vocabulary/`), Curriculums (`curriculum/`), Monolingual Manuals (`manuals/`), Event Taxonomies (`speaking_club_theme_taxonomy.md`), and Game Engines (`games/scene_match/`).
 
 ---
 
@@ -50,7 +51,7 @@ Below is the complete taxonomy matrix registered in `window.COSY_THEME_TREE`. Th
   * `health`: hygiene · skincare · dental_care · grooming · posture
   * `appearance`: beauty · aesthetics · body_art · tattoos · piercings
   * `digestive_system`: esophagus · intestines · digestion_metabolism · enzymes
-  * `anatomy`: skeleton · muscles · nervous_system · endocrine_system · lymphatic_system
+  * `anatomy`: skeleton · muscles · nervous_system · endocrine_system · lymphatic_system · urinary_system · reproductive_system
 * **`clothes` (Clothing & Personal Articles)**
   * `everyday`: shirts_tops · pants_jeans · dresses_skirts · underwear · socks
   * `formal`: suits_tuxedos · evening_gowns · ties_bowties · formal_shoes
@@ -70,22 +71,26 @@ Below is the complete taxonomy matrix registered in `window.COSY_THEME_TREE`. Th
 
 ### 2. HOME_LIVING (House, DIY, Time, Schedule, Money)
 * **`furniture` (House, Furniture & Living Spaces)**
-  * `rooms`: living_room · dining_room · hallway · balcony · attic_cellar
+  * `rooms`: living_room · dining_room · hallway · balcony · attic_cellar · main_rooms
   * `furniture_items`: sofas_armchairs · tables_desks · beds_mattresses · storage_cabinets
-  * `appliances`: refrigerators · stoves_ovens · washing_machines · vacuum_cleaners · microwaves
+  * `appliances`: refrigerators · stoves_ovens · washing_machines · vacuum_cleaners · microwaves · domestic_appliances
   * `household_items`: cookware · tableware · linens_blankets · lighting_fixtures · decor
   * `doors_locks`: exterior_doors · locks_keys · windows_blinds · hinges
-  * `garden`: lawn · patio_deck · flowerbeds · greenhouse · outdoor_furniture
+  * `garden`: lawn · patio_deck · flowerbeds · greenhouse · outdoor_furniture · pleasure_garden
   * `bedroom`: bedding · wardrobes · nightstands · alarm_clocks · dressers
-  * `bathroom`: bathtub_shower · sink_faucets · toilet_plumbing · towels_toiletry
+  * `bathroom`: bathtub_shower · sink_faucets · toilet_plumbing · towels_toiletry · pedestal_sump_pump
   * `utility_room`: laundry_supplies · ironing · cleaning_agents · storage_racks
+  * `house_structure`: frame · foundation · roof_truss · wood_flooring · stairs_steps
+  * `climate_control`: forced_warm_air · forced_hot_water · heat_pump · auxiliary_heating · air_conditioning
 * **`diy_construction` (DIY, Tools & Home Maintenance)**
   * `hand_tools`: hammers · screwdrivers · pliers · wrenches · measuring_tapes
-  * `building_materials`: timber · concrete_masonry · insulation · drywalls · tiles
-  * `carpentry`: sawing · drilling · nailing · sanding · joining
-  * `plumbing`: pipes · fittings · valves · sump_pumps · drainage
-  * `electrical`: wiring · switches · outlets · circuit_breakers · distribution_panels
-  * `masonry`: bricks · mortar · trowels · plastering · foundations
+  * `building_materials`: timber · concrete_masonry · insulation · drywalls · tiles · covering_materials
+  * `carpentry`: sawing · drilling · nailing · sanding · joining · shaping_tools · gripping_tools · marking_tools
+  * `plumbing`: pipes · fittings · valves · sump_pumps · drainage · plumbing_tools
+  * `electrical`: wiring · switches · outlets · circuit_breakers · distribution_panels · electricity_tools
+  * `masonry`: bricks · mortar · trowels · plastering · foundations · masonry_tools
+  * `soldering_welding`: soldering_iron · welding_torch · flux · protective_mask
+  * `painting_upkeep`: brushes · rollers · ladders · stepladders
 * **`shopping` (Shopping, Retail & Commerce)**
   * `stores`: supermarkets · department_stores · boutiques · markets · pharmacies
   * `items`: groceries · consumer_goods · packaging · price_tags
@@ -121,11 +126,12 @@ Below is the complete taxonomy matrix registered in `window.COSY_THEME_TREE`. Th
   * `snacks`: pastries · nuts_seeds · chips_crisps · confectionery
   * `diet`: nutrition · vegetarian_vegan · allergies_intolerances · calorie_intake
   * `breakfast`: cereals · eggs_bacon · toast_jam · pastries_pancakes
-  * `meat`: poultry · beef_pork · lamb · game · cured_meats_delicatessen
+  * `meat`: poultry · beef_pork · lamb · game · cured_meats_delicatessen · variety_meat
   * `sweets`: chocolates · candies · cakes_pies · ice_cream
   * `spices_condiments`: herbs · spices · sauces_dressings · oils_vinegars
-  * `kitchen_utensils`: knives_cutlery · pots_pans · bowls_plates · glassware · gadgets
+  * `kitchen_utensils`: knives_cutlery · pots_pans · bowls_plates · glassware · gadgets · coffee_makers
   * `packaging`: cans_bottles · boxes_cartons · plastic_wraps · containers
+  * `dairy_fats`: milk_cheese · yogurt_butter · oils_fats
 
 ---
 
@@ -141,15 +147,15 @@ Below is the complete taxonomy matrix registered in `window.COSY_THEME_TREE`. Th
   * `sea_travel`: cruises · ferries · sailing_yachts · ports_harbors
   * `luggage`: suitcases · backpacks · carry_on · baggage_claim
 * **`transport_machinery` (Heavy Transport & Machinery)**
-  * `road_transport`: automobiles · buses · trucks · motorcycles · bicycles · electric_vehicles
-  * `rail_transport`: high_speed_trains · subways · locomotives · tracks_stations
-  * `maritime_transport`: cargo_ships · tankers · tugboats · navigation_buoys
-  * `air_transport`: commercial_jets · helicopters · turboprops · flight_decks
-  * `heavy_machinery`: bulldozers · excavators · cranes · tractors · dump_trucks
-  * `material_handling`: forklifts · conveyor_belts · loading_docks · containers
+  * `road_transport`: automobiles · buses · trucks · motorcycles · bicycles · electric_vehicles · service_stations · road_systems · bridges_tunnels
+  * `rail_transport`: high_speed_trains · subways · locomotives · tracks_stations · passenger_cars · yards
+  * `maritime_transport`: cargo_ships · tankers · tugboats · navigation_buoys · harbors · canal_locks · anchors · sails_rigs
+  * `air_transport`: commercial_jets · helicopters · turboprops · flight_decks · turbofan_engines
+  * `heavy_machinery`: bulldozers · excavators · cranes · tractors · dump_trucks · graders · agricultural_machinery
+  * `material_handling`: forklifts · conveyor_belts · loading_docks · containers · cranes_hoists
 * **`places` (Places, Urban Spaces & Architecture)**
-  * `city`: metropolitan_areas · downtown · suburbs · plazas · pedestrian_zones
-  * `buildings`: skyscrapers · office_towers · residential_blocks · civic_buildings
+  * `city`: metropolitan_areas · downtown · suburbs · plazas · pedestrian_zones · street_cross_sections
+  * `buildings`: skyscrapers · office_towers · residential_blocks · civic_buildings · convention_centers
   * `rooms`: public_spaces · private_chambers · auditoriums · corridors
   * `geography`: landforms · water_bodies · maps_globes · coordinates
   * `landmarks`: monuments · historic_sites · bridges · towers · fountains
@@ -160,8 +166,8 @@ Below is the complete taxonomy matrix registered in `window.COSY_THEME_TREE`. Th
   * `internet`: websites · search_engines · cloud_storage · cybersecurity
   * `software`: operating_systems · applications · databases · programming
   * `social_media`: messaging_apps · social_networks · content_creation · streaming
-  * `computers`: desktops · laptops · processors_memory · peripherals
-  * `office_automation`: printers_scanners · copiers · networking · ups_systems
+  * `computers`: desktops · laptops · processors_memory · peripherals · input_devices · output_devices
+  * `office_automation`: printers_scanners · copiers · networking · ups_systems · storage_devices
 
 ---
 
@@ -172,7 +178,7 @@ Below is the complete taxonomy matrix registered in `window.COSY_THEME_TREE`. Th
   * `career`: hiring_recruitment · promotions · resumes_cvs · retirement
   * `documents`: contracts · reports · spreadsheets · memos · invoices
   * `remote_work`: home_office · digital_nomadism · asynchronous_comm
-  * `finance`: banking · investments · stocks_bonds · accounting · taxation
+  * `finance`: banking · investments · stocks_bonds · accounting · taxation · currencies
   * `economy`: macroeconomics · trade · inflation · markets · supply_demand
 * **`jobs` (Professions & Careers)**
   * `professions`: medical_professionals · engineers · educators · creative_arts
@@ -190,7 +196,7 @@ Below is the complete taxonomy matrix registered in `window.COSY_THEME_TREE`. Th
   * `discourse`: rhetoric · pragmatics · conversation · public_speaking
   * `learning`: language_acquisition · vocabulary_building · fluency_drills
   * `writing_system`: alphabets · scripts · calligraphy · typography
-  * `punctuation`: periods_commas · quotation_marks · colons_semicolons · hyphens
+  * `punctuation`: periods_commas · quotation_marks · colons_semicolons · hyphens · diacritics
 
 ---
 
@@ -203,19 +209,20 @@ Below is the complete taxonomy matrix registered in `window.COSY_THEME_TREE`. Th
 * **`society` (Society, Institutions & Religion)**
   * `metropolitan`: urban_planning · public_services · civic_infrastructure
   * `education`: school_systems · universities · libraries · research_institutes
-  * `religion`: belief_systems · places_of_worship · sacred_texts · rituals
+  * `religion`: belief_systems · places_of_worship · sacred_texts · rituals · churches_mosques_synagogues
   * `politics`: government_branches · elections · diplomacy · public_policy
   * `heraldry`: flags · coats_of_arms · state_symbols · anthems
 * **`art_culture` (Arts, Architecture & Literature)**
   * `art`: painting · sculpture · drawing · galleries_museums
   * `literature`: fiction_nonfiction · poetry · drama · literary_criticism
-  * `film`: cinematography · directing · genres · film_sets
+  * `film`: cinematography · directing · genres · film_sets · movie_theaters
   * `theatre`: stagecraft · acting · musicals · opera
   * `traditions`: folklore · cultural_heritage · customs · rites_of_passage
-  * `fine_arts`: classical_arts · restoration · curation · aesthetics
-  * `graphic_arts`: printing_processes · lithography · bookbinding · graphic_design
-  * `crafts`: pottery · weaving · glassblowing · woodworking
+  * `fine_arts`: classical_arts · restoration · curation · aesthetics · wood_carving
+  * `graphic_arts`: printing_processes · lithography · bookbinding · graphic_design · intaglio
+  * `crafts`: pottery · weaving · glassblowing · woodworking · sewing_knitting · bobbin_lace · embroidery
   * `photography`: cameras_lenses · lighting · darkrooms · digital_editing
+  * `architecture`: pyramids · greek_temples · castles · cathedrals · pagodas · elevators_escalators
 * **`music` (Music, Audio & Performance)**
   * `instruments`: strings · woodwinds · brass · percussion · keyboards · electronic
   * `genres`: classical · jazz · rock_pop · traditional_folk · electronic_dance
@@ -238,8 +245,8 @@ Below is the complete taxonomy matrix registered in `window.COSY_THEME_TREE`. Th
   * `hospital`: emergency_rooms · wards · operating_theaters · intensive_care
   * `wellbeing`: mental_health · fitness · sleep_hygiene · stress_management
   * `sport_injury`: sprains · fractures · dislocations · physical_therapy
-  * `medications`: prescriptions · antibiotics · painkillers · dosages · pharmacies
-  * `safety_equipment`: first_aid_kits · ambulances · protective_gear · emergency_symbols
+  * `medications`: prescriptions · antibiotics · painkillers · dosages · pharmacies · clinical_thermometers · blood_pressure_monitors
+  * `safety_equipment`: first_aid_kits · ambulances · protective_gear · emergency_symbols · walking_aids · wheelchairs
 * **`psychology` (Psychology, Cognition & Mind)**
   * `biases`: cognitive_biases · heuristics · logical_fallacies · prejudice
   * `cognitive_processes`: memory · perception · reasoning · decision_making
@@ -263,31 +270,32 @@ Below is the complete taxonomy matrix registered in `window.COSY_THEME_TREE`. Th
   * `insects`: butterflies · bees_wasps · beetles · ants · spiders_arachnids
   * `birds`: songbirds · birds_of_prey · waterfowl · seabirds
   * `sea`: whales_dolphins · sharks · coral_reef_fish · sea_turtles
-  * `mammals`: ungulates · carnivores · rodents · marsupials · bats
+  * `mammals`: ungulates · carnivores · rodents · marsupials · bats · insectivorous_mammals · lagomorphs · flying_mammals
   * `reptiles_amphibians`: snakes · lizards · turtles · frogs_salamanders
   * `animal_groups`: herds · packs · flocks · schools · colonies
-  * `crustaceans_mollusks`: lobsters_crabs · snails_octopuses · bivalves
+  * `crustaceans_mollusks`: lobsters_crabs · snails_octopuses · bivalves · sponges · echinoderms
   * `fishes`: bony_fish · cartilaginous_fish · freshwater · saltwater
 * **`nature` (Nature, Weather & Outdoor Life)**
-  * `landscape`: mountains · forests · rivers_lakes · deserts · prairies
-  * `weather`: sunshine · rain_storms · snow_ice · wind · clouds
-  * `plants`: trees_conifers · flowers · mosses_ferns · fungi_mushrooms
+  * `landscape`: mountains · forests · rivers_lakes · deserts · prairies · caves · glaciers
+  * `weather`: sunshine · rain_storms · snow_ice · wind · clouds · tornadoes · tropical_cyclones · precipitation
+  * `plants`: trees_conifers · flowers · mosses_ferns · fungi_mushrooms · lichens · algae · cereals · grapes
+  * `gardening`: pleasure_gardens · seeding_planting_tools · loosening_tools · watering_tools · pruning_cutting_tools · lawn_care
   * `seasons`: seasonal_phenomena · foliage · hibernation · blooms
   * `sky`: atmosphere · clouds_types · rainbows · sunrise_sunset
-  * `sea`: ocean_currents · tides · waves · coastal_cliffs
-  * `camping`: tents · campfires · hiking_gear · survival_skills
+  * `sea`: ocean_currents · tides · waves · coastal_cliffs · ocean_floors_trenches
+  * `camping`: tents · campfires · hiking_gear · survival_skills · knots · fishing · hunting
 * **`environment` (Environment, Ecology & Earth Systems)**
   * `ecology`: ecosystems · food_chains · biodiversity · habitats
   * `climate`: global_warming · greenhouse_effect · microclimates
   * `recycling`: waste_sorting · composting · renewable_materials
-  * `natural_disasters`: earthquakes · tornadoes_hurricanes · floods · wildfires
-  * `pollution`: air_pollution · water_contamination · land_waste
-  * `biosphere`: conservation · national_parks · endangered_species
+  * `natural_disasters`: earthquakes · tornadoes_hurricanes · floods · wildfires · landslides
+  * `pollution`: air_pollution · water_contamination · land_waste · acid_rain
+  * `biosphere`: conservation · national_parks · endangered_species · hydrologic_cycle
 * **`geography` (Geography, Geology & Earth Sciences)**
   * `continents`: europe · asia · africa · americas · oceania · antarctica
   * `europe`: regions · mountain_ranges · major_rivers · capital_cities
   * `asia`: regions · mountain_ranges · major_rivers · capital_cities
-  * `geology`: plate_tectonics · volcanoes · caves · rock_types · erosion
+  * `geology`: plate_tectonics · volcanoes · caves · rock_types · erosion · earth_structure · section_earth_crust
   * `oceanography`: ocean_floors · trenches · ridges · marine_currents
   * `landforms`: peninsulas · islands · canyons · deltas · plateaus
   * `cartography`: remote_sensing · topographical_maps · coordinates · scales
@@ -296,27 +304,28 @@ Below is the complete taxonomy matrix registered in `window.COSY_THEME_TREE`. Th
 
 ### 9. SCIENCE_SPACE (Physics, Chemistry, Astronomy, Biology)
 * **`science` (Fundamental Sciences & Laboratory)**
-  * `physics_mechanics`: force_motion · gearing_systems · levers_pulleys
-  * `optics`: light_reflection · lenses · lasers · microscopes · binoculars
-  * `chemistry`: periodic_table · chemical_reactions · matter_states · solutions
-  * `laboratory`: glassware_beakers · Bunsen_burners · safety_goggles · scales
-  * `measuring_devices`: thermometers · barometers · callipers · voltmeters
-  * `biology`: genetics · cell_structures · evolution · microbiology
+  * `physics_mechanics`: force_motion · gearing_systems · levers_pulleys · double_pulley
+  * `optics`: light_reflection · lenses · lasers · microscopes · binoculars · electromagnetic_spectrum · color_synthesis · prisms
+  * `chemistry`: periodic_table · chemical_reactions · matter_states · solutions · chemistry_symbols
+  * `laboratory`: glassware_beakers · Bunsen_burners · safety_goggles · scales · lab_equipment
+  * `measuring_devices`: thermometers · barometers · callipers · voltmeters · temperature_time_weight_thickness_distance_angle_measures
+  * `biology`: genetics · cell_structures · evolution · microbiology · plant_cell · animal_cell · unicellulars
+  * `scientific_symbols`: international_system_units · geometry_shapes
 * **`astronomy` (Astronomy & Space Exploration)**
-  * `celestial_bodies`: planets · moons · stars · galaxies · meteorites · comets
-  * `astronomical_observation`: telescopes · observatories · planetariums
-  * `astronautics`: space_shuttles · space_stations · probes · spacesuits
+  * `celestial_bodies`: planets · moons · stars · galaxies · meteorites · comets · sun
+  * `astronomical_observation`: telescopes · observatories · planetariums · refracting_reflecting_radio_telescopes · hubble_space_telescope
+  * `astronautics`: space_shuttles · space_stations · probes · spacesuits · space_launchers
   * `solar_system`: sun · inner_planets · gas_giants · asteroid_belts
 
 ---
 
 ### 10. INDUSTRY_ENERGY (Energy Systems & Heavy Industry)
 * **`energy` (Energy Production & Power Grids)**
-  * `fossil_energy`: petroleum_refineries · coal_mining · natural_gas
-  * `hydroelectricity`: dams · turbines · power_generation · tidal_power
-  * `nuclear_energy`: nuclear_reactors · fuel_bundles · radiation_safety
-  * `solar_energy`: photovoltaic_cells · solar_panels · solar_furnaces
-  * `wind_energy`: wind_turbines · wind_farms · mechanical_conversion
+  * `fossil_energy`: petroleum_refineries · coal_mining · natural_gas · oil
+  * `hydroelectricity`: dams · turbines · power_generation · tidal_power · generator_units · electricity_transmission
+  * `nuclear_energy`: nuclear_reactors · fuel_bundles · radiation_safety · heavy_water_boiling_water_reactors
+  * `solar_energy`: photovoltaic_cells · solar_panels · solar_furnaces · flat_plate_collectors
+  * `wind_energy`: wind_turbines · wind_farms · mechanical_conversion · windmills
 
 ---
 
@@ -327,9 +336,9 @@ Below is the complete taxonomy matrix registered in `window.COSY_THEME_TREE`. Th
   * `court`: legal_procedures · testimony · evidence · sentencing
   * `law_enforcement`: police_patrols · crime_prevention · investigations
 * **`military` (Defense, Military & Arms)**
-  * `weapons`: firearms · artillery · edged_weapons · missiles
+  * `weapons`: firearms · artillery · edged_weapons · missiles · Stone_age_weapons · Roman_weapons · armor · bows_crossbows · revolvers_pistols · machine_guns · mortars · grenades · landmines
   * `armor`: historic_armor · body_armor · helmets · shielding
-  * `combat_vehicles`: tanks · fighter_jets · frigates · submarines
+  * `combat_vehicles`: tanks · fighter_jets · frigates · submarines · aircraft_carriers
   * `defense`: fortification · strategic_defense · radar_systems
 * **`history_fantasy` (History, Fantasy & Mythology)**
   * `ancient_history`: civilizations · archaeology · ancient_empires
@@ -340,33 +349,31 @@ Below is the complete taxonomy matrix registered in `window.COSY_THEME_TREE`. Th
 ---
 
 ### 12. SPORTS_LEISURE (Sports, Games, Outdoor Recreation)
-* **`sports` (Sports & Physical Athletics)**
-  * `team_sports`: soccer · basketball · volleyball · rugby · baseball
-  * `individual`: track_field · swimming · gymnastics · martial_arts
-  * `gym`: fitness_equipment · weightlifting · aerobics · bodybuilding
-  * `outdoor`: hiking · climbing · trail_running · camping
-  * `water_sports`: surfing · diving · rowing · kayaking · water_skiing
-  * `track_field`: sprinting · long_jump · shot_put · marathon · decathlon
-  * `ball_sports`: football · tennis · cricket · handball · netball
-  * `racket_sports`: badminton · table_tennis · squash · racquetball
-  * `gymnastics`: rhythmic_gymnastics · trampoline · artistic_vault
-  * `combat_sports`: boxing · wrestling · judo · karate · fencing · sumo
-  * `strength_sports`: powerlifting · bodybuilding · crossfit
-  * `equestrian`: show_jumping · dressage · horse_racing · polo
-  * `precision_sports`: archery · shooting · billiards · bowling · golf
-  * `cycling`: road_racing · mountain_biking · bmx · track_cycling
-  * `motor_sports`: car_racing · motorcycling · snowmobile · jet_ski
-  * `winter_sports`: alpine_skiing · snowboarding · figure_skating · ice_hockey · bobsled
-  * `aerial_sports`: skydiving · hang_gliding · paragliding · hot_air_balloons
+* **`sports` (Sports & Physical Athletics - Atomic Sub-Domains)**
+  * `sports_facilities`: fields · complexes · arenas · competition_scoreboards
+  * `track_field`: sprinting · long_jump · high_jump · shot_put · marathon · decathlon · heptathlon · speed_walking
+  * `ball_sports`: soccer · rugby · basketball · volleyball · handball · baseball · softball · cricket · field_hockey · netball · canadian_football
+  * `racket_sports`: tennis · table_tennis · badminton · squash · racquetball
+  * `gymnastics`: rhythmic_gymnastics · artistic_vault · trampoline · acrobatic · aquatic_gymnastics · stretching
+  * `aquatic_sports`: swimming · diving · water_polo · sailing · sailboard · whitewater_kayak · rowing · water_skiing · surfing · scuba_diving
+  * `combat_sports`: boxing · wrestling · judo · karate · kung_fu · jujitsu · aikido · kendo · sumo · fencing
+  * `strength_sports`: weightlifting · powerlifting · bodybuilding · fitness_equipment
+  * `equestrian`: show_jumping · dressage · horse_racing_turf · harness_racing · polo · riding
+  * `precision_sports`: archery · shotgun_shooting · rifle_shooting · pistol_shooting · billiards · lawn_bowling · petanque · bowling · golf
+  * `cycling`: road_racing · mountain_biking · track_cycling · bmx
+  * `motor_sports`: car_racing · motorcycling · snowmobile · personal_watercraft
+  * `winter_sports`: alpine_skiing · snowboarding · figure_skating · speed_skating · ice_hockey · curling · bobsled · luge · skeleton · ski_resorts · freestyle_skiing · ski_jumping · cross_country_skiing · biathlon · snowshoes
+  * `sports_on_wheels`: skateboarding · in_line_skating
+  * `aerial_sports`: skydiving · hang_gliding · gliders · ballooning · parachuting
   * `mountain_sports`: mountaineering · rock_climbing · ice_climbing
 * **`games` (Games, Hobbies & Tabletop)**
-  * `board_games`: chess · checkers · monopoly · strategy_games
+  * `board_games`: chess · checkers · monopoly · strategy_games · mah_jongg
   * `cards`: poker · bridge · traditional_deck · trading_cards
-  * `dice_dominoes`: dice_games · dominoes · mah_jongg
+  * `dice_dominoes`: dice_games · dominoes · roulette_table
   * `puzzles`: jigsaw_puzzles · crosswords · sudoku · brainteasers
-  * `video_games`: consoles · PC_gaming · esports · mobile_games
-  * `casino_games`: roulette · slot_machines · blackjack · craps
-  * `outdoor_leisure`: darts · lawn_bowling · petanque · frisbee · fishing · hunting
+  * `video_games`: consoles · PC_gaming · esports · mobile_games · video_entertainment_systems
+  * `casino_games`: roulette · slot_machines · blackjack · darts
+  * `outdoor_leisure`: darts · lawn_bowling · petanque · frisbee · fishing · hunting · camping · soccer_table
 
 ---
 

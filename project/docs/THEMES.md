@@ -17,14 +17,14 @@ Full architectural rationale, legacy synonym reconciliation, and Scene Match gam
 | describing       | Describing       | size_shape · texture · quality · quantity · comparing |
 | emotions         | Emotions         | positive · negative · complex · expressing |
 | environment      | Environment      | ecology · climate · recycling · natural_disasters · pollution · biosphere |
-| food_drink       | Food & drink     | fruit · vegetables · drinks · cooking · meals · snacks · diet · breakfast · meat · sweets · spices_condiments · kitchen_utensils · packaging |
-| furniture        | Furniture & home | rooms · furniture_items · appliances · household_items · doors_locks · garden · bedroom · bathroom · utility_room |
-| diy_construction | DIY & Construction | hand_tools · building_materials · carpentry · plumbing · electrical · masonry |
+| food_drink       | Food & drink     | fruit · vegetables · drinks · cooking · meals · snacks · diet · breakfast · meat · sweets · spices_condiments · kitchen_utensils · packaging · dairy_fats |
+| furniture        | Furniture & home | rooms · furniture_items · appliances · household_items · doors_locks · garden · bedroom · bathroom · utility_room · house_structure · climate_control |
+| diy_construction | DIY & Construction | hand_tools · building_materials · carpentry · plumbing · electrical · masonry · soldering_welding · painting_upkeep |
 | health_medicine  | Health           | symptoms · treatment · hospital · wellbeing · sport_injury · medications · safety_equipment |
 | jobs             | Jobs             | professions · workplace · career · business_lang |
 | language         | Language         | grammar_terms · phonetics · discourse · learning · writing_system · alphabet · punctuation |
 | music            | Music            | instruments · genres · performance · listening · orchestra · notation |
-| nature           | Nature           | landscape · weather · plants · seasons · sky · sea · camping |
+| nature           | Nature           | landscape · weather · plants · gardening · seasons · sky · sea · camping |
 | numbers          | Numbers          | cardinal · ordinal · fractions · money · shapes · geometry |
 | people           | People           | family · relationships · nationality · physical_desc · character · babies · kids · groups |
 | places           | Places           | city · buildings · rooms · geography · landmarks · countryside · downtown |
@@ -33,16 +33,16 @@ Full architectural rationale, legacy synonym reconciliation, and Scene Match gam
 | shopping         | Shopping         | stores · items · transactions · online |
 | social           | Social life      | celebrations · going_out · invitations · communication |
 | society          | Society          | metropolitan · education · religion · politics · heraldry |
-| sports           | Sports           | team_sports · individual · gym · outdoor · water_sports · track_field · ball_sports · racket_sports · gymnastics · combat_sports · strength_sports · equestrian · precision_sports · cycling · motor_sports · winter_sports · aerial_sports · mountain_sports |
+| sports           | Sports           | sports_facilities · track_field · ball_sports · racket_sports · gymnastics · aquatic_sports · combat_sports · strength_sports · equestrian · precision_sports · cycling · motor_sports · winter_sports · sports_on_wheels · aerial_sports · mountain_sports |
 | games           | Games            | board_games · cards · dice_dominoes · puzzles · video_games · casino_games · outdoor_leisure |
 | technology       | Technology       | devices · internet · software · social_media · computers · office_automation |
 | transport_machinery | Transport & Machinery | road_transport · rail_transport · maritime_transport · air_transport · heavy_machinery · material_handling |
 | time             | Time             | clock · days · months · seasons · periods · frequency · telling_time · schedule · hourglass |
 | travel           | Travel           | transport · accommodation · tourism · directions · documents · air_travel · land_travel · sea_travel · luggage |
 | work             | Work             | office · meetings · career · documents · remote_work · finance · economy |
-| art_culture      | Art & culture    | art · literature · film · theatre · traditions · fine_arts · graphic_arts · crafts · photography |
+| art_culture      | Art & culture    | art · literature · film · theatre · traditions · fine_arts · graphic_arts · crafts · photography · architecture |
 | psychology       | Psychology       | biases · cognitive_processes · behavior · psychoanalysis · concepts |
-| science          | Science          | physics_mechanics · optics · chemistry · laboratory · measuring_devices · biology |
+| science          | Science          | physics_mechanics · optics · chemistry · laboratory · measuring_devices · biology · scientific_symbols |
 | astronomy        | Astronomy        | celestial_bodies · astronomical_observation · astronautics · solar_system |
 | energy           | Energy           | fossil_energy · hydroelectricity · nuclear_energy · solar_energy · wind_energy |
 | law_order        | Law & Order      | justice · prison · court · law_enforcement |
