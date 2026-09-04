@@ -1,4 +1,14 @@
-| Theme slug       | Label            | Sub-theme slugs |
+# COSYlanguages — Standardized Theme & Sub-theme Taxonomy
+
+This document defines the canonical 2-tier vocabulary theme taxonomy (`theme` -> `sub_theme`) used across COSYlanguages databases (`vocabulary/`), curriculums (`curriculum/`), manuals (`manuals/`), event frameworks, and game engines (`games/scene_match/`).
+
+Full architectural rationale, legacy synonym reconciliation, and Scene Match game hotspot mappings are documented in `project/docs/UNIFIED_VOCABULARY_TAXONOMY_AND_SCENE_MATCH_MATRIX.md`.
+
+---
+
+## Canonical Theme Taxonomy Tree
+
+| Theme Slug       | Label            | Standard Sub-theme Slugs |
 |------------------|------------------|-----------------|
 | animals          | Animals          | pets · farm · wild · insects · birds · sea |
 | body             | Body             | face · limbs · organs · senses · health · appearance |
@@ -27,5 +37,8 @@
 | work             | Work             | office · meetings · career · documents · remote_work |
 | art_culture      | Art & culture    | art · literature · film · theatre · traditions |
 | psychology       | Psychology       | biases · cognitive_processes · behavior · psychoanalysis · concepts |
+| prepositions     | Prepositions     | prepositions_place · prepositions_time · prepositions_direction · dependent_prepositions |
+| contrast_pairs   | Contrast pairs   | ed_vs_ing_adjectives · comparative_vs_superlative |
+| grammar          | Grammar          | tenses_aspect · conditionals_moods · cases_declensions · articles_gender · syntax_word_order |
 
-Note: theme slugs are permanent once assigned; new sub-themes may be added at any time; sub_theme is optional metadata (a word only requires "theme" to be valid).
+Note: Theme slugs are permanent once assigned. Sub-themes provide optional granular metadata.
