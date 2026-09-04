@@ -24,7 +24,8 @@
       etymology: 'etymology_explorer/index.html',
       gender: 'what_gender_is_it/index.html',
       questions: 'hundred_questions/index.html',
-      storytelling: 'storytelling/index.html'
+      storytelling: 'storytelling/index.html',
+      scenematch: 'scene_match/index.html'
     };
 
     window.openGame = function(id) {
