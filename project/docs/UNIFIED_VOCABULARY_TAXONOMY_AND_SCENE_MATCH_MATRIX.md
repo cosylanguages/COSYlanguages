@@ -5,23 +5,25 @@
 This document provides a single, unified source of truth for all vocabulary metadata, thematic classification, curriculum roadmaps, manual structures, and interactive game integrations across COSYlanguages.
 
 ### Core Objectives
-1. **Unification of Disparate Taxonomies**: Reconcile legacy dataset tags (e.g. `food` vs `food_drink`, `culture` vs `art_culture`, `work_employment` vs `work`, `society` vs `society_politics`) into a standardized 2-tier tree structure (`theme` -> `sub_theme`) under 8 overarching Macro Domains.
-2. **Pedagogical Integrity for Visual Games**: Establish clear CEFR tiering rules for the **Scene Match Game**, reserving 2D hotspot scene environments for concrete physical terms (A0–A2) and specialized physical environments (B1), while designating non-scene visual diagrams (Collocation Webs & System Maps) for abstract higher-level domains (B2–C2).
-3. **Cross-System Dynamic Scalability**: Ensure seamless querying and interoperability across the Vocabulary Database (`vocabulary/`), Curriculums (`curriculum/`), Monolingual Manuals (`manuals/`), Event Taxonomies (`speaking_club_theme_taxonomy.md`), and Game Engines (`games/scene_match/`).
+1. **Unification of Disparate Taxonomies**: Reconcile legacy dataset tags (e.g. `food` vs `food_drink`, `culture` vs `art_culture`, `work_employment` vs `work`, `society` vs `society_politics`) into a standardized 2-tier tree structure (`theme` -> `sub_theme`) under 12 overarching Macro Domains spanning all CEFR levels (A0 through C2).
+2. **Comprehensive Visual Dictionary & Specialized Coverage**: Incorporate all encyclopedic and visual dictionary domain categories—including Sports & Games, Astronomy & Space, Earth & Geology, Plants & Gardening, Animal Kingdom, Human Body & Anatomy, Food & Culinary Arts, House & DIY Construction, Clothing & Personal Articles, Arts & Architecture, Communications & Office Automation, Transport & Heavy Machinery, Energy Systems, Fundamental Sciences, and Society & Institutions.
+3. **Pedagogical Integrity for Visual Games**: Establish clear CEFR tiering rules for the **Scene Match Game**, reserving 2D hotspot scene environments for concrete physical terms (A0–A2) and specialized physical environments (B1), while designating non-scene visual diagrams (Collocation Webs, System Maps, and Process Flow Diagrams) for abstract higher-level domains (B2–C2).
+4. **Cross-System Dynamic Scalability**: Ensure seamless querying and interoperability across the Vocabulary Database (`vocabulary/`), Curriculums (`curriculum/`), Monolingual Manuals (`manuals/`), Event Taxonomies (`speaking_club_theme_taxonomy.md`), and Game Engines (`games/scene_match/`).
 
 ---
 
 ## 2. Macro Domains & Higher-Order Taxonomy Architecture
 
-All vocabulary across COSYlanguages is grouped into **8 Higher-Order Macro Domains**. Each domain contains standardized top-level themes and sub-themes.
+All vocabulary across COSYlanguages is grouped into **12 Higher-Order Macro Domains**. Each domain contains standardized top-level themes and sub-themes.
 
 ```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                        COSY MACRO DOMAINS (8)                           │
-├──────────────────┬──────────────────┬──────────────────┬────────────────┤
-│ 1. SELF_IDENTITY │ 2. HOME_LIVING   │ 3. FOOD_DINING   │ 4. TRAVEL_COMM │
-│ 5. WORK_LEARNING │ 6. SOCIETY_CULTURE│ 7. MIND_HEALTH  │ 8. NATURE_ENV  │
-└──────────────────┴──────────────────┴──────────────────┴────────────────┘
+┌─────────────────────────────────────────────────────────────────────────────────────────┐
+│                           COSY MACRO DOMAINS (12)                                       │
+├────────────────────┬────────────────────┬────────────────────┬──────────────────────────┤
+│ 1. SELF_IDENTITY   │ 2. HOME_LIVING     │ 3. FOOD_DINING     │ 4. TRAVEL_COMM           │
+│ 5. WORK_LEARNING   │ 6. SOCIETY_CULTURE │ 7. MIND_HEALTH     │ 8. NATURE_ENV            │
+│ 9. SCIENCE_SPACE   │ 10. INDUSTRY_ENERGY│ 11. LAW_HISTORY    │ 12. SPORTS_LEISURE       │
+└────────────────────┴────────────────────┴────────────────────┴──────────────────────────┘
 ```
 
 ---
@@ -32,33 +34,44 @@ Below is the definitive taxonomy tree registered in `window.COSY_THEME_TREE`. Th
 
 | Macro Domain | Theme Slug | Theme Label | Standardized Sub-Theme Slugs |
 | :--- | :--- | :--- | :--- |
-| **1. SELF_IDENTITY** | `people` | People & Identity | `family`, `relationships`, `nationality`, `physical_desc`, `character` |
-| | `body` | Body & Appearance | `face`, `limbs`, `organs`, `senses`, `health`, `appearance` |
-| | `clothes` | Clothing & Accessories | `everyday`, `formal`, `accessories`, `weather_gear` |
+| **1. SELF_IDENTITY** | `people` | People & Family | `family`, `relationships`, `nationality`, `physical_desc`, `character`, `babies`, `kids`, `groups` |
+| | `body` | Body & Anatomy | `face`, `limbs`, `organs`, `senses`, `health`, `appearance`, `digestive_system`, `anatomy` |
+| | `clothes` | Clothing & Articles | `everyday`, `formal`, `accessories`, `weather_gear`, `winter_clothing`, `jewelry`, `sleepwear`, `sewing`, `traditional` |
 | | `colours` | Colours & Materials | `basic`, `shades`, `materials` |
-| **2. HOME_LIVING** | `furniture` | Furniture & Home | `rooms`, `furniture_items`, `appliances`, `household_items` |
+| **2. HOME_LIVING** | `furniture` | Furniture & House | `rooms`, `furniture_items`, `appliances`, `household_items`, `doors_locks`, `garden`, `bedroom`, `bathroom`, `utility_room` |
+| | `diy_construction` | DIY & Construction | `hand_tools`, `building_materials`, `carpentry`, `plumbing`, `electrical`, `masonry` |
 | | `shopping` | Shopping & Retail | `stores`, `items`, `transactions`, `online` |
-| | `time` | Time & Calendar | `clock`, `days`, `months`, `seasons`, `periods`, `frequency` |
-| | `numbers` | Numbers & Money | `cardinal`, `ordinal`, `fractions`, `money` |
-| **3. FOOD_DINING** | `food_drink` | Food & Beverages | `fruit`, `vegetables`, `drinks`, `cooking`, `meals`, `snacks`, `diet` |
-| **4. TRAVEL_COMM** | `travel` | Travel & Transport | `transport`, `accommodation`, `tourism`, `directions`, `documents` |
-| | `places` | Places & Geography | `city`, `buildings`, `rooms`, `geography`, `landmarks`, `countryside` |
-| | `technology` | Technology & Digital | `devices`, `internet`, `software`, `social_media` |
-| **5. WORK_LEARNING**| `work` | Work & Business | `office`, `meetings`, `career`, `documents`, `remote_work` |
+| | `time` | Time & Schedule | `clock`, `days`, `months`, `seasons`, `periods`, `frequency`, `telling_time`, `schedule`, `hourglass` |
+| | `numbers` | Numbers & Math | `cardinal`, `ordinal`, `fractions`, `money`, `shapes`, `geometry` |
+| **3. FOOD_DINING** | `food_drink` | Food & Kitchen | `fruit`, `vegetables`, `drinks`, `cooking`, `meals`, `snacks`, `diet`, `breakfast`, `meat`, `sweets`, `spices_condiments`, `kitchen_utensils`, `packaging` |
+| **4. TRAVEL_COMM** | `travel` | Travel & Transport | `transport`, `accommodation`, `tourism`, `directions`, `documents`, `air_travel`, `land_travel`, `sea_travel`, `luggage` |
+| | `transport_machinery`| Transport & Machinery| `road_transport`, `rail_transport`, `maritime_transport`, `air_transport`, `heavy_machinery`, `material_handling` |
+| | `places` | Places & Geography | `city`, `buildings`, `rooms`, `geography`, `landmarks`, `countryside`, `downtown` |
+| | `technology` | Technology & Office | `devices`, `internet`, `software`, `social_media`, `computers`, `office_automation` |
+| **5. WORK_LEARNING**| `work` | Work & Finance | `office`, `meetings`, `career`, `documents`, `remote_work`, `finance`, `economy` |
 | | `jobs` | Professions & Careers | `professions`, `workplace`, `career`, `business_lang` |
 | | `school` | School & Education | `stationery`, `subjects`, `classroom`, `studying` |
-| | `language` | Language & Linguistics| `grammar_terms`, `phonetics`, `discourse`, `learning` |
+| | `language` | Language & Writing | `grammar_terms`, `phonetics`, `discourse`, `learning`, `writing_system`, `alphabet`, `punctuation` |
 | **6. SOCIETY_CULTURE**| `social` | Social Life & Comm | `celebrations`, `going_out`, `invitations`, `communication` |
-| | `art_culture` | Art & Culture | `art`, `literature`, `film`, `theatre`, `traditions` |
-| | `music` | Music & Audio | `instruments`, `genres`, `performance`, `listening` |
-| | `sports` | Sports & Fitness | `team_sports`, `individual`, `gym`, `outdoor`, `water_sports` |
+| | `society` | Society & Institutions| `metropolitan`, `education`, `religion`, `politics`, `heraldry` |
+| | `art_culture` | Arts & Architecture | `art`, `literature`, `film`, `theatre`, `traditions`, `fine_arts`, `graphic_arts`, `crafts`, `photography` |
+| | `music` | Music & Audio | `instruments`, `genres`, `performance`, `listening`, `orchestra`, `notation` |
 | **7. MIND_HEALTH** | `emotions` | Emotions & Feelings | `positive`, `negative`, `complex`, `expressing` |
-| | `health_medicine`| Health & Medicine | `symptoms`, `treatment`, `hospital`, `wellbeing`, `sport_injury` |
+| | `health_medicine`| Health & Medicine | `symptoms`, `treatment`, `hospital`, `wellbeing`, `sport_injury`, `medications`, `safety_equipment` |
 | | `psychology` | Psychology & Mind | `biases`, `cognitive_processes`, `behavior`, `psychoanalysis`, `concepts` |
 | | `describing` | Describing & Quality | `size_shape`, `texture`, `quality`, `quantity`, `comparing` |
-| **8. NATURE_ENV** | `animals` | Animals & Wildlife | `pets`, `farm`, `wild`, `insects`, `birds`, `sea` |
-| | `nature` | Nature & Weather | `landscape`, `weather`, `plants`, `seasons`, `sky` |
-| | `environment` | Environment & Climate | `ecology`, `climate`, `recycling`, `natural_disasters` |
+| **8. NATURE_ENV** | `animals` | Animal Kingdom | `pets`, `farm`, `wild`, `insects`, `birds`, `sea`, `mammals`, `reptiles_amphibians`, `animal_groups`, `crustaceans_mollusks`, `fishes` |
+| | `nature` | Nature & Gardening | `landscape`, `weather`, `plants`, `seasons`, `sky`, `sea`, `camping` |
+| | `environment` | Environment & Earth | `ecology`, `climate`, `recycling`, `natural_disasters`, `pollution`, `biosphere` |
+| | `geography` | Geography & Geology | `continents`, `europe`, `asia`, `geology`, `oceanography`, `landforms`, `cartography` |
+| **9. SCIENCE_SPACE**| `science` | Fundamental Sciences | `physics_mechanics`, `optics`, `chemistry`, `laboratory`, `measuring_devices`, `biology` |
+| | `astronomy` | Astronomy & Space | `celestial_bodies`, `astronomical_observation`, `astronautics`, `solar_system` |
+| **10. INDUSTRY_ENERGY**| `energy` | Energy Systems | `fossil_energy`, `hydroelectricity`, `nuclear_energy`, `solar_energy`, `wind_energy` |
+| **11. LAW_HISTORY**| `law_order` | Law & Justice | `justice`, `prison`, `court`, `law_enforcement` |
+| | `military` | Defense & Weapons | `weapons`, `armor`, `combat_vehicles`, `defense` |
+| | `history_fantasy` | History & Fantasy | `ancient_history`, `modern_history`, `fantasy`, `mythology` |
+| **12. SPORTS_LEISURE**| `sports` | Sports & Athletics | `team_sports`, `individual`, `gym`, `outdoor`, `water_sports`, `track_field`, `ball_sports`, `racket_sports`, `gymnastics`, `combat_sports`, `strength_sports`, `equestrian`, `precision_sports`, `cycling`, `motor_sports`, `winter_sports`, `aerial_sports`, `mountain_sports` |
+| | `games` | Games & Recreation | `board_games`, `cards`, `dice_dominoes`, `puzzles`, `video_games`, `casino_games`, `outdoor_leisure` |
 
 ### Specialized Practice Categories
 * `prepositions`: `prepositions_place`, `prepositions_time`, `prepositions_direction`, `dependent_prepositions`
@@ -80,21 +93,20 @@ To maintain backwards compatibility while enforcing clean runtime querying, lega
 | `personal_identity` | `people` | `nationality` |
 | `feelings_emotions` | `emotions` | `positive` |
 | `daily_life` | `social` | `communication` |
-| `hobbies` | `social` | `going_out` |
+| `hobbies` | `games` | `outdoor_leisure` |
 | `lifestyle` | `social` | `going_out` |
 | `career` | `jobs` | `career` |
 | `work_employment` | `work` | `career` |
 | `education` | `school` | `studying` |
 | `culture` / `culture_arts` / `art` | `art_culture` | `art` |
-| `society` / `society_politics` / `politics` / `governance` | `social` | `communication` |
+| `society_politics` / `politics` / `governance` | `society` | `politics` |
 | `ethics` / `ethics_philosophy` / `philosophy` / `epistemology` | `psychology` | `concepts` |
 | `bioethics` / `transhumanism` | `psychology` | `concepts` |
 | `ecology` | `environment` | `ecology` |
-| `economy` / `economics` / `consumerism` | `work` | `business_lang` |
+| `economy` / `economics` / `consumerism` | `work` | `economy` |
 | `linguistics` | `language` | `phonetics` |
 | `media` | `technology` | `social_media` |
-| `science` | `school` | `subjects` |
-| `sociology` | `psychology` | `behavior` |
+| `tools` | `diy_construction` | `hand_tools` |
 
 ---
 
@@ -136,12 +148,12 @@ Below is the exact mapping of all 16 active Scene Match game environments (`game
   - `lamp` ➔ Theme: `furniture` | Sub-Theme: `furniture_items`
   - `rug` ➔ Theme: `furniture` | Sub-Theme: `household_items`
   - `painting` ➔ Theme: `art_culture` | Sub-Theme: `art`
-  - `door` ➔ Theme: `furniture` | Sub-Theme: `rooms`
+  - `door` ➔ Theme: `furniture` | Sub-Theme: `doors_locks`
 
 ### 2. Bedroom (`bedroom.js`)
 * **Macro Domain**: `HOME_LIVING`
 * **Primary Theme**: `furniture`
-* **Sub-Theme**: `rooms`
+* **Sub-Theme**: `bedroom`
 * **Hotspots & Taxonomy**:
   - `bed` ➔ Theme: `furniture` | Sub-Theme: `furniture_items`
   - `pillow` ➔ Theme: `furniture` | Sub-Theme: `household_items`
@@ -158,32 +170,32 @@ Below is the exact mapping of all 16 active Scene Match game environments (`game
   - `refrigerator` ➔ Theme: `furniture` | Sub-Theme: `appliances`
   - `stove` ➔ Theme: `food_drink` | Sub-Theme: `cooking`
   - `sink` ➔ Theme: `furniture` | Sub-Theme: `appliances`
-  - `frying_pan` ➔ Theme: `food_drink` | Sub-Theme: `cooking`
+  - `frying_pan` ➔ Theme: `food_drink` | Sub-Theme: `kitchen_utensils`
   - `table` ➔ Theme: `furniture` | Sub-Theme: `furniture_items`
   - `chair` ➔ Theme: `furniture` | Sub-Theme: `furniture_items`
 
 ### 4. Bathroom (`bathroom.js`)
 * **Macro Domain**: `HOME_LIVING` / `MIND_HEALTH`
 * **Primary Theme**: `furniture` / `body`
-* **Sub-Theme**: `household_items` / `health`
+* **Sub-Theme**: `bathroom` / `health`
 * **Hotspots & Taxonomy**:
-  - `bathtub` ➔ Theme: `furniture` | Sub-Theme: `appliances`
-  - `shower` ➔ Theme: `furniture` | Sub-Theme: `appliances`
+  - `bathtub` ➔ Theme: `furniture` | Sub-Theme: `bathroom`
+  - `shower` ➔ Theme: `furniture` | Sub-Theme: `bathroom`
   - `towel` ➔ Theme: `furniture` | Sub-Theme: `household_items`
   - `toothbrush` ➔ Theme: `body` | Sub-Theme: `health`
   - `soap` ➔ Theme: `body` | Sub-Theme: `health`
-  - `mirror_bath` ➔ Theme: `furniture` | Sub-Theme: `household_items`
+  - `mirror_bath` ➔ Theme: `furniture` | Sub-Theme: `bathroom`
 
 ### 5. Routine (`routine.js`)
 * **Macro Domain**: `HOME_LIVING` / `SELF_IDENTITY`
 * **Primary Theme**: `time` / `body`
-* **Sub-Theme**: `frequency` / `appearance`
+* **Sub-Theme**: `telling_time` / `schedule`
 * **Hotspots & Taxonomy**:
-  - `waking_up` ➔ Theme: `time` | Sub-Theme: `frequency`
-  - `breakfast` ➔ Theme: `food_drink` | Sub-Theme: `meals`
+  - `waking_up` ➔ Theme: `time` | Sub-Theme: `schedule`
+  - `breakfast` ➔ Theme: `food_drink` | Sub-Theme: `breakfast`
   - `brushing_teeth` ➔ Theme: `body` | Sub-Theme: `health`
   - `dressing` ➔ Theme: `clothes` | Sub-Theme: `everyday`
-  - `sleeping` ➔ Theme: `time` | Sub-Theme: `frequency`
+  - `sleeping` ➔ Theme: `time` | Sub-Theme: `schedule`
 
 ### 6. Clothing & Wardrobe (`clothing.js`)
 * **Macro Domain**: `SELF_IDENTITY`
@@ -215,16 +227,16 @@ Below is the exact mapping of all 16 active Scene Match game environments (`game
   - `cat` ➔ Theme: `animals` | Sub-Theme: `pets`
   - `cow` ➔ Theme: `animals` | Sub-Theme: `farm`
   - `bird` ➔ Theme: `animals` | Sub-Theme: `birds`
-  - `fish` ➔ Theme: `animals` | Sub-Theme: `sea`
+  - `fish` ➔ Theme: `animals` | Sub-Theme: `fishes`
 
 ### 9. City Street & Buildings (`city.js`)
 * **Macro Domain**: `TRAVEL_COMM`
 * **Primary Theme**: `places`
 * **Sub-Theme**: `city` / `buildings`
 * **Hotspots & Taxonomy**:
-  - `bus` ➔ Theme: `travel` | Sub-Theme: `transport`
+  - `bus` ➔ Theme: `travel` | Sub-Theme: `land_travel`
   - `traffic_light` ➔ Theme: `travel` | Sub-Theme: `directions`
-  - `bank` ➔ Theme: `places` | Sub-Theme: `buildings`
+  - `bank` ➔ Theme: `work` | Sub-Theme: `finance`
   - `supermarket` ➔ Theme: `shopping` | Sub-Theme: `stores`
   - `pedestrian` ➔ Theme: `people` | Sub-Theme: `physical_desc`
 
@@ -256,7 +268,7 @@ Below is the exact mapping of all 16 active Scene Match game environments (`game
 * **Hotspots & Taxonomy**:
   - `waiter` ➔ Theme: `jobs` | Sub-Theme: `professions`
   - `menu_card` ➔ Theme: `food_drink` | Sub-Theme: `meals`
-  - `plate` ➔ Theme: `food_drink` | Sub-Theme: `cooking`
+  - `plate` ➔ Theme: `food_drink` | Sub-Theme: `kitchen_utensils`
   - `bill_check` ➔ Theme: `numbers` | Sub-Theme: `money`
 
 ### 13. Park & Nature (`park_nature.js`)
@@ -275,19 +287,19 @@ Below is the exact mapping of all 16 active Scene Match game environments (`game
 * **Sub-Theme**: `stationery` / `office`
 * **Hotspots & Taxonomy**:
   - `whiteboard` ➔ Theme: `school` | Sub-Theme: `classroom`
-  - `laptop` ➔ Theme: `technology` | Sub-Theme: `devices`
+  - `laptop` ➔ Theme: `technology` | Sub-Theme: `computers`
   - `notebook` ➔ Theme: `school` | Sub-Theme: `stationery`
   - `pen` ➔ Theme: `school` | Sub-Theme: `stationery`
 
 ### 15. Airport & Terminal (`airport.js` - Selective B1)
 * **Macro Domain**: `TRAVEL_COMM`
 * **Primary Theme**: `travel`
-* **Sub-Theme**: `transport` / `documents`
+* **Sub-Theme**: `air_travel` / `documents`
 * **Hotspots & Taxonomy**:
-  - `airplane` ➔ Theme: `travel` | Sub-Theme: `transport`
+  - `airplane` ➔ Theme: `travel` | Sub-Theme: `air_travel`
   - `departure_board` ➔ Theme: `travel` | Sub-Theme: `tourism`
-  - `suitcase` ➔ Theme: `travel` | Sub-Theme: `accommodation`
-  - `conveyor_belt` ➔ Theme: `travel` | Sub-Theme: `transport`
+  - `suitcase` ➔ Theme: `travel` | Sub-Theme: `luggage`
+  - `conveyor_belt` ➔ Theme: `transport_machinery` | Sub-Theme: `material_handling`
 
 ### 16. Hospital Ward (`hospital.js` - Selective B1)
 * **Macro Domain**: `MIND_HEALTH`
@@ -297,7 +309,7 @@ Below is the exact mapping of all 16 active Scene Match game environments (`game
   - `hospital_bed` ➔ Theme: `health_medicine` | Sub-Theme: `hospital`
   - `stethoscope` ➔ Theme: `health_medicine` | Sub-Theme: `treatment`
   - `doctor` ➔ Theme: `jobs` | Sub-Theme: `professions`
-  - `medicine_bottle` ➔ Theme: `health_medicine` | Sub-Theme: `treatment`
+  - `medicine_bottle` ➔ Theme: `health_medicine` | Sub-Theme: `medications`
 
 ---
 
@@ -307,11 +319,11 @@ This taxonomy maps directly to international CEFR vocabulary criteria across 14 
 
 | Standard / Exam | Target Level | Aligned Macro Domains | Key CEFR Competency Focus |
 | :--- | :--- | :--- | :--- |
-| **Oxford 3000 / 5000** | A1–C1 | All 8 Macro Domains | High-frequency CEFR word bands, multi-part of speech coverage. |
-| **DELF / DALF (French)** | A1–C2 | `SELF_IDENTITY`, `TRAVEL_COMM`, `WORK_LEARNING` | Daily interactions, argumentation, professional discourse. |
+| **Oxford 3000 / 5000** | A1–C1 | All 12 Macro Domains | High-frequency CEFR word bands, multi-part of speech coverage. |
+| **DELF / DALF (French)** | A1–C2 | `SELF_IDENTITY`, `TRAVEL_COMM`, `WORK_LEARNING`, `LAW_HISTORY` | Daily interactions, argumentation, professional discourse. |
 | **DELE / SIELE (Spanish)** | A1–C2 | `HOME_LIVING`, `FOOD_DINING`, `SOCIETY_CULTURE` | Pan-Hispanic variants, formal/informal registers (tú/usted). |
-| **CELI / CILS (Italian)** | A1–C2 | `FOOD_DINING`, `ART_CULTURE`, `MIND_HEALTH` | Regional idioms, cultural heritage, social expressiveness. |
-| **TORFL (Russian)** | A1–C2 | `SELF_IDENTITY`, `WORK_LEARNING`, `NATURE_ENV` | Case government, motion verbs, register, academic discourse. |
+| **CELI / CILS (Italian)** | A1–C2 | `FOOD_DINING`, `SOCIETY_CULTURE`, `MIND_HEALTH` | Regional idioms, cultural heritage, social expressiveness. |
+| **TORFL (Russian)** | A1–C2 | `SELF_IDENTITY`, `WORK_LEARNING`, `NATURE_ENV`, `SCIENCE_SPACE` | Case government, motion verbs, register, academic discourse. |
 
 ---
 
