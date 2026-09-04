@@ -23,9 +23,24 @@
         viewBox: "0 0 800 500",
         doors: [
             {
+                targetSceneId: "routine_calendar",
+                x: 398, y: 18, width: 44, height: 44, labelX: 420, labelY: 8,
+                labels: { en: "⏰ Clock / Routine →", fr: "⏰ Horloge / Routine →", it: "⏰ Orologio / Routine →", ru: "⏰ Часы / Распорядок →", el: "⏰ Ρολόι / Ρουτίνα →" }
+            },
+            {
                 targetSceneId: "apartment",
                 x: 15, y: 140, width: 35, height: 230, labelX: 32, labelY: 125,
                 labels: { en: "🚪 Living Room →", fr: "🚪 Salon →", it: "🚪 Soggiorno →", ru: "🚪 Гостиная →", el: "🚪 Σαλόνι →" }
+            },
+            {
+                targetSceneId: "bedroom",
+                x: 750, y: 140, width: 35, height: 230, labelX: 768, labelY: 125,
+                labels: { en: "🚪 Bedroom →", fr: "🚪 Chambre →", it: "🚪 Camera →", ru: "🚪 Спальня →", el: "🚪 Υπνοδωμάτιο →" }
+            },
+            {
+                targetSceneId: "bathroom",
+                x: 620, y: 140, width: 35, height: 120, labelX: 638, labelY: 125,
+                labels: { en: "🚪 Bathroom →", fr: "🚪 S. de bain →", it: "🚪 Bagno →", ru: "🚪 Ванная →", el: "🚪 Μπάνιο →" }
             }
         ],
         svgBackground: `
@@ -56,6 +71,19 @@
             <rect x="10" y="130" width="45" height="245" fill="#451a03" rx="2" />
             <rect x="15" y="140" width="35" height="230" fill="#78350f" />
             <circle cx="42" cy="255" r="4" fill="#fbbf24" />
+
+            <!-- Right Doorway (to Bedroom) -->
+            <rect x="745" y="130" width="45" height="245" fill="#451a03" rx="2" />
+            <rect x="750" y="140" width="35" height="230" fill="#78350f" />
+            <circle cx="758" cy="255" r="4" fill="#fbbf24" />
+
+            <!-- Wall Clock (Link to Routine & Calendar Hub) -->
+            <g id="illustration-clock">
+              <circle cx="420" cy="40" r="20" fill="#ffffff" stroke="#1e293b" stroke-width="4"/>
+              <line x1="420" y1="40" x2="420" y2="28" stroke="#1e293b" stroke-width="3" stroke-linecap="round"/>
+              <line x1="420" y1="40" x2="430" y2="40" stroke="#1e293b" stroke-width="3" stroke-linecap="round"/>
+              <circle cx="420" cy="40" r="3" fill="#ef4444"/>
+            </g>
 
             <!-- Countertop Base -->
             <rect x="80" y="260" width="380" height="120" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2" />

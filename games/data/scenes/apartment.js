@@ -24,9 +24,9 @@
         viewBox: "0 0 800 500",
         doors: [
             {
-                targetSceneId: "apartment_plan",
-                x: 520, y: 20, width: 140, height: 40, labelX: 590, labelY: 35,
-                labels: { en: "📐 Blueprint →", fr: "📐 Plan →", it: "📐 Pianta →", ru: "📐 План →", el: "📐 Κάτοψη →" }
+                targetSceneId: "routine_calendar",
+                x: 178, y: 28, width: 44, height: 44, labelX: 200, labelY: 18,
+                labels: { en: "⏰ Clock / Routine →", fr: "⏰ Horloge / Routine →", it: "⏰ Orologio / Routine →", ru: "⏰ Часы / Распорядок →", el: "⏰ Ρολόι / Ρουτίνα →" }
             },
             {
                 targetSceneId: "bedroom",
@@ -80,6 +80,14 @@
 
             <!-- Sunbeam Ray Overlay -->
             <polygon points="260,210 460,210 580,500 180,500" fill="#fef08a" opacity="0.12" />
+
+            <!-- Wall Clock (Link to Routine & Calendar Hub) -->
+            <g id="illustration-clock">
+              <circle cx="200" cy="50" r="20" fill="#ffffff" stroke="#1e293b" stroke-width="4"/>
+              <line x1="200" y1="50" x2="200" y2="38" stroke="#1e293b" stroke-width="3" stroke-linecap="round"/>
+              <line x1="200" y1="50" x2="210" y2="50" stroke="#1e293b" stroke-width="3" stroke-linecap="round"/>
+              <circle cx="200" cy="50" r="3" fill="#ef4444"/>
+            </g>
 
             <!-- 1. Window -->
             <g id="illustration-window">
