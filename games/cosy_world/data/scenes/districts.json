@@ -1,0 +1,86 @@
+{
+  "apartment_living": {
+    "id": "apartment_living",
+    "district": "Residential District",
+    "level": "A0",
+    "icon": "🛋️",
+    "name": {
+      "en": "Apartment Living Room",
+      "fr": "Salon de l'appartement",
+      "it": "Salotto dell'appartamento",
+      "es": "Salón del apartamento",
+      "de": "Wohnzimmer der Wohnung",
+      "ru": "Гостиная в квартире",
+      "el": "Σαλόνι διαμερίσματος",
+      "pt": "Sala de estar do apartamento",
+      "hy": "Բնակարանի հյուրասենյակ",
+      "ka": "ბინის მისაღები ოთახი",
+      "br": "Prizon an ti",
+      "tt": "Квартираның кунак бүлмәсе",
+      "ba": "Квартираның кунаҡ бүлмәһе",
+      "cv": "Хваттерти хăна ҫуртчĕ"
+    },
+    "viewBox": "0 0 800 500",
+    "doors": [
+      { "targetId": "apartment_kitchen", "x": 20, "y": 180, "width": 70, "height": 220, "labelY": 160, "labels": { "en": "Kitchen 🍳", "fr": "Cuisine 🍳", "it": "Cucina 🍳", "es": "Cocina 🍳", "de": "Küche 🍳", "ru": "Кухня 🍳" } },
+      { "targetId": "apartment_bedroom", "x": 710, "y": 180, "width": 70, "height": 220, "labelY": 160, "labels": { "en": "Bedroom 🛏️", "fr": "Chambre 🛏️", "it": "Camera 🛏️", "es": "Dormitorio 🛏️", "de": "Schlafzimmer 🛏️", "ru": "Спальня 🛏️" } },
+      { "targetId": "town_square", "x": 360, "y": 400, "width": 80, "height": 80, "labelY": 380, "labels": { "en": "Town Square 🏛️", "fr": "Place de la ville 🏛️", "it": "Piazza 🏛️", "es": "Plaza Mayor 🏛️", "de": "Stadtplatz 🏛️", "ru": "Городская площадь 🏛️" } }
+    ],
+    "npcs": ["james_york"],
+    "objects": ["key", "door_lock", "sofa", "coffee_table", "tv", "bookshelf", "lamp"]
+  },
+  "apartment_kitchen": {
+    "id": "apartment_kitchen",
+    "district": "Residential District",
+    "level": "A0",
+    "icon": "🍳",
+    "name": { "en": "Kitchen", "fr": "Cuisine", "it": "Cucina", "es": "Cocina", "de": "Küche", "ru": "Кухня" },
+    "viewBox": "0 0 800 500",
+    "doors": [
+      { "targetId": "apartment_living", "x": 20, "y": 180, "width": 70, "height": 220, "labelY": 160, "labels": { "en": "Living Room 🛋️", "fr": "Salon 🛋️", "it": "Salotto 🛋️", "es": "Salón 🛋️", "de": "Wohnzimmer 🛋️", "ru": "Гостиная 🛋️" } }
+    ],
+    "npcs": [],
+    "objects": ["fridge", "kettle", "cup"]
+  },
+  "town_square": {
+    "id": "town_square",
+    "district": "City Centre",
+    "level": "A0",
+    "icon": "🏛️",
+    "name": { "en": "Town Square", "fr": "Place de la ville", "it": "Piazza Centrale", "es": "Plaza Mayor", "de": "Stadtplatz", "ru": "Городская площадь" },
+    "viewBox": "0 0 800 500",
+    "doors": [
+      { "targetId": "apartment_living", "x": 20, "y": 180, "width": 70, "height": 220, "labelY": 160, "labels": { "en": "Apartment 🛋️", "fr": "Appartement 🛋️", "it": "Appartamento 🛋️", "es": "Apartamento 🛋️", "de": "Wohnung 🛋️", "ru": "Квартира 🛋️" } },
+      { "targetId": "bakery", "x": 220, "y": 200, "width": 90, "height": 180, "labelY": 180, "labels": { "en": "Bakery 🥖", "fr": "Boulangerie 🥖", "it": "Panetteria 🥖", "es": "Panadería 🥖", "de": "Bäckerei 🥖", "ru": "Пекарня 🥖" } },
+      { "targetId": "cafe", "x": 380, "y": 200, "width": 90, "height": 180, "labelY": 180, "labels": { "en": "Cafe ☕", "fr": "Café ☕", "it": "Caffè ☕", "es": "Cafetería ☕", "de": "Café ☕", "ru": "Кафе ☕" } }
+    ],
+    "npcs": ["james_york", "ella_bronx", "anna"],
+    "objects": ["clock_tower", "fountain", "bench"]
+  },
+  "bakery": {
+    "id": "bakery",
+    "district": "City Centre",
+    "level": "A0",
+    "icon": "🥖",
+    "name": { "en": "Bakery", "fr": "Boulangerie", "it": "Panetteria", "es": "Panadería", "de": "Bäckerei", "ru": "Пекарня" },
+    "viewBox": "0 0 800 500",
+    "doors": [
+      { "targetId": "town_square", "x": 20, "y": 180, "width": 70, "height": 220, "labelY": 160, "labels": { "en": "Town Square 🏛️", "fr": "Place 🏛️", "it": "Piazza 🏛️", "es": "Plaza 🏛️", "de": "Stadtplatz 🏛️", "ru": "Площадь 🏛️" } }
+    ],
+    "npcs": ["lucas_baker"],
+    "objects": ["baguette", "croissant"]
+  },
+  "cafe": {
+    "id": "cafe",
+    "district": "City Centre",
+    "level": "A0",
+    "icon": "☕",
+    "name": { "en": "Cafe", "fr": "Café", "it": "Caffè", "es": "Cafetería", "de": "Café", "ru": "Кафе" },
+    "viewBox": "0 0 800 500",
+    "doors": [
+      { "targetId": "town_square", "x": 20, "y": 180, "width": 70, "height": 220, "labelY": 160, "labels": { "en": "Town Square 🏛️", "fr": "Place 🏛️", "it": "Piazza 🏛️", "es": "Plaza 🏛️", "de": "Stadtplatz 🏛️", "ru": "Площадь 🏛️" } }
+    ],
+    "npcs": ["marco_barista"],
+    "objects": ["espresso_machine", "coffee_cup"]
+  }
+}

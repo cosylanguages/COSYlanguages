@@ -1,0 +1,85 @@
+{
+  "james_york": {
+    "id": "james_york",
+    "name": "James York",
+    "role": "Explorer Mentor",
+    "avatar": "👨‍💼",
+    "gestures": { "wave": "👋 Waving welcomingly", "point": "👉 Pointing to key and door", "smile": "😊 Smiling warmly" },
+    "dialogues": {
+      "en": [
+        { "id": 1, "text": "👋 Look! 👉 🔑 Key ➔ 🚪 Door ➔ 🔓 Open!", "visualAction": "🔑 ➔ 🚪", "options": [{ "label": "👉 Try opening door!", "questId": "q1_key_door" }] }
+      ],
+      "fr": [
+        { "id": 1, "text": "👋 Regardez ! 👉 🔑 Clé ➔ 🚪 Porte ➔ 🔓 Ouvrir !", "visualAction": "🔑 ➔ 🚪", "options": [{ "label": "👉 Essayer d'ouvrir !", "questId": "q1_key_door" }] }
+      ],
+      "it": [
+        { "id": 1, "text": "👋 Guarda! 👉 🔑 Chiave ➔ 🚪 Porta ➔ 🔓 Aprire!", "visualAction": "🔑 ➔ 🚪", "options": [{ "label": "👉 Prova ad aprire!", "questId": "q1_key_door" }] }
+      ],
+      "es": [
+        { "id": 1, "text": "👋 ¡Mira! 👉 🔑 Llave ➔ 🚪 Puerta ➔ 🔓 Abrir!", "visualAction": "🔑 ➔ 🚪", "options": [{ "label": "👉 ¡Intentar abrir!", "questId": "q1_key_door" }] }
+      ],
+      "de": [
+        { "id": 1, "text": "👋 Schau! 👉 🔑 Schlüssel ➔ 🚪 Tür ➔ 🔓 Öffnen!", "visualAction": "🔑 ➔ 🚪", "options": [{ "label": "👉 Versuche zu öffnen!", "questId": "q1_key_door" }] }
+      ],
+      "ru": [
+        { "id": 1, "text": "👋 Смотри! 👉 🔑 Ключ ➔ 🚪 Дверь ➔ 🔓 Открыть!", "visualAction": "🔑 ➔ 🚪", "options": [{ "label": "👉 Попробовать открыть!", "questId": "q1_key_door" }] }
+      ]
+    }
+  },
+  "ella_bronx": {
+    "id": "ella_bronx",
+    "name": "Ella Bronx",
+    "role": "Pronunciation Teacher",
+    "avatar": "👩‍🏫",
+    "gestures": { "listen": "👂 Listening carefully", "repeat": "🗣️ Modeling pronunciation", "nod": "👍 Nodding encouragingly" },
+    "dialogues": {
+      "en": [
+        { "id": 1, "text": "👂 Listen... 🗣️ Repeat out loud!", "visualAction": "👂 ➔ 🗣️", "options": [{ "label": "🔊 Practice speaking!", "questId": "q2_pronunciation" }] }
+      ],
+      "fr": [
+        { "id": 1, "text": "👂 Écoutez... 🗣️ Répétez à voix haute !", "visualAction": "👂 ➔ 🗣️", "options": [{ "label": "🔊 Pratiquer l'oral !", "questId": "q2_pronunciation" }] }
+      ],
+      "ru": [
+        { "id": 1, "text": "👂 Слушай... 🗣️ Повторяй вслух!", "visualAction": "👂 ➔ 🗣️", "options": [{ "label": "🔊 Практиковать речь!", "questId": "q2_pronunciation" }] }
+      ]
+    }
+  },
+  "anna": {
+    "id": "anna",
+    "name": "Anna",
+    "role": "Friendly Competitor",
+    "avatar": "👩‍🎓",
+    "gestures": { "challenge": "⚡ Challenging gesture", "smile": "😄 Cheerful smile" },
+    "dialogues": {
+      "en": [
+        { "id": 1, "text": "⚡ 🔑 + 🥖 = 2 objects! Can you find 3?", "visualAction": "🔍 Find 3 items", "options": [{ "label": "⚡ Accept challenge!", "questId": "q3_anna_challenge" }] }
+      ],
+      "fr": [
+        { "id": 1, "text": "⚡ 🔑 + 🥖 = 2 objets ! Peux-tu en trouver 3 ?", "visualAction": "🔍 Trouver 3 objets", "options": [{ "label": "⚡ Relever le défi !", "questId": "q3_anna_challenge" }] }
+      ],
+      "ru": [
+        { "id": 1, "text": "⚡ 🔑 + 🥖 = 2 предмета! Сможешь найти 3?", "visualAction": "🔍 Найти 3 предмета", "options": [{ "label": "⚡ Принять вызов!", "questId": "q3_anna_challenge" }] }
+      ]
+    }
+  },
+  "lucas_baker": {
+    "id": "lucas_baker",
+    "name": "Lucas",
+    "role": "Artisan Baker",
+    "avatar": "👨‍🍳",
+    "gestures": { "offer": "🥖 Offering fresh bread", "smile": "😊 Friendly smile" },
+    "dialogues": {
+      "en": [{ "id": 1, "text": "🥖 Warm baguette! 😋 Yum!", "visualAction": "🥖 ➔ 😋", "options": [{ "label": "🥖 Take baguette!", "questId": "q4_bakery_bread" }] }]
+    }
+  },
+  "marco_barista": {
+    "id": "marco_barista",
+    "name": "Marco",
+    "role": "Master Barista",
+    "avatar": "☕",
+    "gestures": { "pour": "☕ Pouring espresso" },
+    "dialogues": {
+      "en": [{ "id": 1, "text": "☕ Fresh espresso! ♨️ Hot!", "visualAction": "☕ ➔ ♨️", "options": [{ "label": "☕ Sip coffee!", "next": 1 }] }]
+    }
+  }
+}

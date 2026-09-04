@@ -1,0 +1,300 @@
+/* COSY World — Open-World Language Learning RPG Stylesheet */
+
+.cw-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 1rem 4rem 1rem;
+}
+
+/* COSY World Topbar Controls */
+.cw-topbar-card {
+  background: white;
+  border: 2px solid var(--border);
+  border-radius: 16px;
+  padding: 1rem 1.25rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.cw-player-stats {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.cw-stat-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--tan-light, #f8f6f0);
+  border: 1.5px solid var(--border);
+  border-radius: 20px;
+  padding: 0.35rem 0.85rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--ink);
+}
+.cw-xp-bar-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 160px;
+}
+.cw-xp-track {
+  flex: 1;
+  height: 10px;
+  background: var(--border);
+  border-radius: 5px;
+  overflow: hidden;
+}
+.cw-xp-fill {
+  height: 100%;
+  background: var(--teal, #10b981);
+  width: 0%;
+  transition: width 0.3s ease;
+}
+
+.cw-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+.cw-sel {
+  padding: 0.4rem 0.8rem;
+  border-radius: 12px;
+  border: 2px solid var(--border);
+  background: white;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--ink);
+  cursor: pointer;
+}
+.cw-btn-toggle {
+  padding: 0.4rem 0.8rem;
+  border-radius: 12px;
+  border: 2px solid var(--border);
+  background: var(--tan-light, #f8f6f0);
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--ink);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.cw-btn-toggle:hover {
+  background: white;
+  border-color: var(--teal, #10b981);
+}
+
+/* Main Game Viewport Layout */
+.cw-viewport-layout {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 1.25rem;
+}
+@media (max-width: 900px) {
+  .cw-viewport-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Stage & Canvas Area */
+.cw-stage-card {
+  background: #faf7f2;
+  border: 2px solid var(--border);
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+  min-height: 480px;
+  display: flex;
+  flex-direction: column;
+}
+.cw-stage-header {
+  background: white;
+  padding: 0.85rem 1.25rem;
+  border-bottom: 2px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cw-district-title {
+  font-family: 'Fraunces', serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Animated Hand Pointers */
+@keyframes floatPointer {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+.cw-hand-pointer {
+  animation: floatPointer 1.5s infinite ease-in-out;
+}
+
+/* SVG Viewport & Hotspots */
+.cw-svg-view {
+  width: 100%;
+  height: auto;
+  display: block;
+  background: #fdfbf7;
+}
+.cw-obj-hotspot {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.cw-obj-hotspot rect.hit-box {
+  fill: rgba(16, 185, 129, 0.08);
+  stroke: var(--teal, #10b981);
+  stroke-width: 2;
+  stroke-dasharray: 4 3;
+  rx: 8;
+}
+.cw-obj-hotspot:hover rect.hit-box {
+  fill: rgba(16, 185, 129, 0.25);
+  stroke-width: 3.5;
+  stroke-dasharray: none;
+  filter: drop-shadow(0 0 8px rgba(16, 185, 129, 0.5));
+}
+.cw-npc-hotspot {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.cw-npc-hotspot:hover {
+  transform: scale(1.08);
+}
+.cw-npc-hotspot circle.npc-hit {
+  fill: rgba(245, 158, 11, 0.15);
+  stroke: #f59e0b;
+  stroke-width: 2.5;
+}
+
+/* Door Portals */
+.cw-door-portal {
+  cursor: pointer;
+  transition: transform 0.25s ease;
+}
+.cw-door-portal:hover {
+  transform: perspective(600px) rotateY(-20deg);
+}
+.cw-door-portal rect {
+  fill: rgba(59, 130, 246, 0.12);
+  stroke: #3b82f6;
+  stroke-width: 2.5;
+  stroke-dasharray: 6 3;
+}
+.cw-door-portal:hover rect {
+  fill: rgba(59, 130, 246, 0.3);
+  stroke-dasharray: none;
+  filter: drop-shadow(0 0 10px rgba(59, 130, 246, 0.6));
+}
+
+/* HUD Tabs & Sidebar */
+.cw-hud-card {
+  background: white;
+  border: 2px solid var(--border);
+  border-radius: 16px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.cw-hud-nav {
+  display: flex;
+  gap: 0.4rem;
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 0.75rem;
+  flex-wrap: wrap;
+}
+.cw-hud-btn {
+  padding: 0.4rem 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  background: var(--tan-light, #f8f6f0);
+  color: var(--ink);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.cw-hud-btn:hover {
+  background: white;
+  border-color: var(--teal, #10b981);
+  color: var(--teal, #10b981);
+}
+.cw-hud-btn.active {
+  background: var(--teal, #10b981);
+  color: white;
+  border-color: #047857;
+}
+.cw-hud-content {
+  max-height: 480px;
+  overflow-y: auto;
+}
+
+/* Card Items in HUD */
+.cw-item-card {
+  background: var(--tan-light, #fcfbfa);
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  padding: 0.85rem;
+  margin-bottom: 0.75rem;
+}
+.cw-item-title {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cw-item-desc {
+  font-size: 0.85rem;
+  color: var(--ink-muted);
+  margin-top: 0.35rem;
+}
+
+/* Modal Overlay for Conversations & Object Details */
+.cw-modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+  padding: 1rem;
+}
+.cw-modal-overlay.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+.cw-modal-card {
+  background: white;
+  border: 2px solid var(--border);
+  border-radius: 20px;
+  max-width: 540px;
+  width: 100%;
+  padding: 1.75rem;
+  box-shadow: 0 12px 32px rgba(0,0,0,0.2);
+  position: relative;
+}
+.cw-modal-close {
+  position: absolute;
+  top: 1rem; right: 1rem;
+  border: none; background: transparent;
+  font-size: 1.25rem; cursor: pointer; color: var(--ink-muted);
+}
