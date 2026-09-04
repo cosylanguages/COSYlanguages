@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A2-ADJ-WOR-004",
+        "id": "A2-ADJ-WOR-019",
         "word": "ambitious",
-        "emoji": "\ud83d\ude80",
+        "emoji": "🚀",
         "form": "adjective",
         "definitions": [
             {
@@ -21,7 +21,7 @@
         ],
         "comparative": "more ambitious",
         "superlative": "the most ambitious",
-        "transcription": "\u00e6m\u02c8b\u026a\u0283\u0259s",
+        "transcription": "æmˈbɪʃəs",
         "lang": "en",
         "level": "elementary",
         "theme": "jobs",
@@ -39,9 +39,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-ADJ-WOR-005",
+        "id": "A2-ADJ-WOR-020",
         "word": "available",
-        "emoji": "\ud83d\ude4b",
+        "emoji": "🙋",
         "form": "adjective",
         "definitions": [
             {
@@ -54,7 +54,7 @@
         "subtext": "widely available / freely available / available for",
         "comparative": "more available",
         "superlative": "the most available",
-        "transcription": "\u0259\u02c8ve\u026al\u0259bl",
+        "transcription": "əˈveɪləbl",
         "synonyms": [
             "free",
             "ready"
@@ -76,9 +76,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-ADJ-WOR-006",
+        "id": "A2-ADJ-WOR-021",
         "word": "competitive",
-        "emoji": "\ud83c\udfc3",
+        "emoji": "🏃",
         "form": "adjective",
         "definitions": [
             {
@@ -94,7 +94,7 @@
         ],
         "comparative": "more competitive",
         "superlative": "the most competitive",
-        "transcription": "k\u0259m\u02c8p\u025bt\u0259t\u026av",
+        "transcription": "kəmˈpɛtətɪv",
         "lang": "en",
         "level": "elementary",
         "theme": "jobs",
@@ -107,9 +107,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-ADJ-WOR-007",
+        "id": "A2-ADJ-WOR-022",
         "word": "efficient",
-        "emoji": "\u2699\ufe0f",
+        "emoji": "⚙️",
         "form": "adjective",
         "definitions": [
             {
@@ -126,7 +126,7 @@
         ],
         "comparative": "more efficient",
         "superlative": "the most efficient",
-        "transcription": "\u026a\u02c8f\u026a\u0283nt",
+        "transcription": "ɪˈfɪʃnt",
         "lang": "en",
         "level": "elementary",
         "theme": "jobs",
@@ -139,9 +139,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-ADJ-WOR-008",
+        "id": "A2-ADJ-WOR-023",
         "word": "experienced",
-        "emoji": "\ud83c\udf93",
+        "emoji": "🎓",
         "form": "adjective",
         "definitions": [
             {
@@ -154,7 +154,7 @@
         "subtext": "highly experienced / experienced in / experienced enough",
         "comparative": "more experienced",
         "superlative": "the most experienced",
-        "transcription": "\u026ak\u02c8sp\u026a\u0259ri\u0259nst",
+        "transcription": "ɪkˈspɪəriənst",
         "lang": "en",
         "level": "elementary",
         "theme": "jobs",
@@ -167,9 +167,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-ADJ-WOR-009",
+        "id": "A2-ADJ-WOR-024",
         "word": "flexible",
-        "emoji": "\ud83e\uddd8",
+        "emoji": "🧘",
         "form": "adjective",
         "definitions": [
             {
@@ -182,7 +182,7 @@
         "subtext": "flexible hours / flexible approach / very flexible",
         "comparative": "more flexible",
         "superlative": "the most flexible",
-        "transcription": "\u02c8fl\u025bks\u0259bl",
+        "transcription": "ˈflɛksəbl",
         "lang": "en",
         "level": "elementary",
         "theme": "jobs",
@@ -195,9 +195,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-ADJ-WOR-010",
+        "id": "A2-ADJ-WOR-025",
         "word": "industrial",
-        "emoji": "\ud83c\udfed",
+        "emoji": "🏭",
         "form": "adjective",
         "definitions": [
             {
@@ -213,7 +213,7 @@
         ],
         "comparative": "more industrial",
         "superlative": "the most industrial",
-        "transcription": "\u026an\u02c8d\u028cstri\u0259l",
+        "transcription": "ɪnˈdʌstriəl",
         "lang": "en",
         "level": "elementary",
         "theme": "jobs",
@@ -226,9 +226,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-ADJ-WOR-011",
+        "id": "A2-ADJ-WOR-026",
         "word": "junior",
-        "emoji": "\ud83d\udc76",
+        "emoji": "👶",
         "form": "adjective",
         "definitions": [
             {
@@ -246,7 +246,7 @@
         ],
         "comparative": "more junior",
         "superlative": "the most junior",
-        "transcription": "\u02c8d\u0292u\u02d0ni\u0259r",
+        "transcription": "ˈdʒuːniər",
         "lang": "en",
         "level": "elementary",
         "theme": "jobs",
@@ -259,9 +259,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-ADJ-WOR-012",
+        "id": "A2-ADJ-WOR-027",
         "word": "organised",
-        "emoji": "\ud83d\udcc1",
+        "emoji": "📁",
         "form": "adjective",
         "definitions": [
             {
@@ -274,7 +274,7 @@
         "subtext": "well organised / highly organised / stay organised",
         "comparative": "more organised",
         "superlative": "the most organised",
-        "transcription": "\u02c8\u0254\u02d0r\u0261\u0259na\u026azd",
+        "transcription": "ˈɔːrɡənaɪzd",
         "synonyms": [
             "tidy",
             "efficient"
@@ -291,9 +291,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-ADJ-WOR-013",
+        "id": "A2-ADJ-WOR-028",
         "word": "productive",
-        "emoji": "\u2699\ufe0f",
+        "emoji": "⚙️",
         "form": "adjective",
         "definitions": [
             {
@@ -306,7 +306,7 @@
         "subtext": "very productive / highly productive / a productive meeting",
         "comparative": "more productive",
         "superlative": "the most productive",
-        "transcription": "pr\u0259\u02c8d\u028ckt\u026av",
+        "transcription": "prəˈdʌktɪv",
         "synonyms": [
             "efficient"
         ],
@@ -322,9 +322,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-ADJ-WOR-014",
+        "id": "A2-ADJ-WOR-029",
         "word": "professional",
-        "emoji": "\ud83d\udc54",
+        "emoji": "👔",
         "form": "adjective",
         "definitions": [
             {
@@ -337,7 +337,7 @@
         "subtext": "professional advice / very professional / highly professional",
         "comparative": "more professional",
         "superlative": "the most professional",
-        "transcription": "pr\u0259\u02c8f\u025b\u0283\u0259nl",
+        "transcription": "prəˈfɛʃənl",
         "synonyms": [
             "expert"
         ],
@@ -353,9 +353,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-ADJ-WOR-015",
+        "id": "A2-ADJ-WOR-030",
         "word": "responsible",
-        "emoji": "\ud83d\udee1\ufe0f",
+        "emoji": "🛡️",
         "form": "adjective",
         "definitions": [
             {
@@ -368,7 +368,7 @@
         "subtext": "responsible for / very responsible / highly responsible",
         "comparative": "more responsible",
         "superlative": "the most responsible",
-        "transcription": "\ud83c\uddec\ud83c\udde7 r\u026a\u02c8sp\u0252ns\u0259bl | \ud83c\uddfa\ud83c\uddf8 r\u026a\u02c8sp\u0251\u02d0ns\u0259bl",
+        "transcription": "🇬🇧 rɪˈspɒnsəbl | 🇺🇸 rɪˈspɑːnsəbl",
         "synonyms": [
             "accountable"
         ],
@@ -384,9 +384,9 @@
         "sub_subcategory": "Professions"
     },
     {
-        "id": "A2-ADJ-WOR-016",
+        "id": "A2-ADJ-WOR-031",
         "word": "successful",
-        "emoji": "\ud83c\udfc6",
+        "emoji": "🏆",
         "form": "adjective",
         "definitions": [
             {
@@ -402,7 +402,7 @@
         "synonyms": [
             "effective"
         ],
-        "transcription": "s\u0259k\u02c8s\u025bsfl",
+        "transcription": "səkˈsɛsfl",
         "lang": "en",
         "level": "elementary",
         "theme": "jobs",
@@ -415,6 +415,12 @@
         "sub_subcategory": "Professions"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== 'undefined') {
+        window.vocabularyData = window.vocabularyData || {};
+        window.vocabularyData.en = (window.vocabularyData.en || []).concat(data);
+    }
+    if (typeof module !== 'undefined' && module.exports) {
+        module.exports = data;
+    }
 })();

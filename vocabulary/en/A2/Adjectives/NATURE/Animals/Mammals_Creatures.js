@@ -4,7 +4,7 @@
     {
         "id": "A2-ADJ-NAT-001",
         "word": "tame",
-        "emoji": "\ud83d\udc08",
+        "emoji": "🐈",
         "form": "adjective",
         "definitions": [
             {
@@ -20,7 +20,7 @@
         ],
         "comparative": "tamer",
         "superlative": "the tamest",
-        "transcription": "te\u026am",
+        "transcription": "teɪm",
         "lang": "en",
         "level": "elementary",
         "theme": "animals",
@@ -35,7 +35,7 @@
     {
         "id": "A2-ADJ-NAT-002",
         "word": "wild",
-        "emoji": "\ud83e\udd81",
+        "emoji": "🦁",
         "form": "adjective",
         "definitions": [
             {
@@ -51,7 +51,7 @@
         ],
         "comparative": "wilder",
         "superlative": "the wildest",
-        "transcription": "wa\u026ald",
+        "transcription": "waɪld",
         "lang": "en",
         "level": "elementary",
         "theme": "animals",
@@ -64,6 +64,12 @@
         "sub_subcategory": "Mammals_Creatures"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== 'undefined') {
+        window.vocabularyData = window.vocabularyData || {};
+        window.vocabularyData.en = (window.vocabularyData.en || []).concat(data);
+    }
+    if (typeof module !== 'undefined' && module.exports) {
+        module.exports = data;
+    }
 })();

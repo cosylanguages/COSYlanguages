@@ -2,9 +2,9 @@
     const lang = "en";
     const data = [
     {
-        "id": "A2-VERB-WOR-001",
+        "id": "A2-VERB-WOR-002",
         "word": "complete",
-        "emoji": "\u2705",
+        "emoji": "✅",
         "form": "verb",
         "subtext": "complete a task / complete a form",
         "synonyms": [
@@ -23,7 +23,7 @@
         "aspect": "action",
         "v2": "completed",
         "v3": "completed",
-        "transcription": "k\u0259m\u02c8pli\u02d0t",
+        "transcription": "kəmˈpliːt",
         "group": "regular",
         "auxiliary": "have",
         "v4": "completing",
@@ -39,9 +39,9 @@
         "sub_subcategory": "School_Classroom"
     },
     {
-        "id": "A2-VERB-WOR-002",
+        "id": "A2-VERB-WOR-003",
         "word": "continue",
-        "emoji": "\u27a1\ufe0f",
+        "emoji": "➡️",
         "form": "verb",
         "subtext": "continue working / continue the journey",
         "synonyms": [
@@ -61,7 +61,7 @@
         "aspect": "both",
         "v2": "continued",
         "v3": "continued",
-        "transcription": "k\u0259n\u02c8t\u026anju\u02d0",
+        "transcription": "kənˈtɪnjuː",
         "group": "regular",
         "auxiliary": "have",
         "v4": "continuing",
@@ -77,9 +77,9 @@
         "sub_subcategory": "School_Classroom"
     },
     {
-        "id": "A2-VERB-WOR-003",
+        "id": "A2-VERB-WOR-004",
         "word": "fail",
-        "emoji": "\u274c",
+        "emoji": "❌",
         "form": "verb",
         "subtext": "fail an exam / fail to do / fail a test / fail to meet a deadline",
         "definitions": [
@@ -95,7 +95,7 @@
         "aspect": "action",
         "v2": "failed",
         "v3": "failed",
-        "transcription": "fe\u026al",
+        "transcription": "feɪl",
         "synonyms": [
             "not pass"
         ],
@@ -114,9 +114,9 @@
         "sub_subcategory": "School_Classroom"
     },
     {
-        "id": "A2-VERB-WOR-004",
+        "id": "A2-VERB-WOR-005",
         "word": "graduate",
-        "emoji": "\ud83c\udf93",
+        "emoji": "🎓",
         "form": "verb",
         "subtext": "graduate from university / graduate high school / recent graduate",
         "definitions": [
@@ -132,7 +132,7 @@
         "aspect": "action",
         "v2": "graduated",
         "v3": "graduated",
-        "transcription": "\u02c8\u0261r\u00e6d\u0292ue\u026at",
+        "transcription": "ˈɡrædʒueɪt",
         "group": "regular",
         "auxiliary": "have",
         "v4": "graduating",
@@ -148,9 +148,9 @@
         "sub_subcategory": "School_Classroom"
     },
     {
-        "id": "A2-VERB-WOR-005",
+        "id": "A2-VERB-WOR-006",
         "word": "improve",
-        "emoji": "\ud83d\udcc8",
+        "emoji": "📈",
         "form": "verb",
         "subtext": "improve your English / improve performance",
         "synonyms": [
@@ -169,7 +169,7 @@
         "aspect": "both",
         "v2": "improved",
         "v3": "improved",
-        "transcription": "\u026am\u02c8pru\u02d0v",
+        "transcription": "ɪmˈpruːv",
         "group": "regular",
         "auxiliary": "have",
         "v4": "improving",
@@ -185,9 +185,9 @@
         "sub_subcategory": "School_Classroom"
     },
     {
-        "id": "A2-VERB-WOR-006",
+        "id": "A2-VERB-WOR-007",
         "word": "memorise",
-        "emoji": "\ud83e\udde0",
+        "emoji": "🧠",
         "form": "verb",
         "subtext": "memorise words",
         "definitions": [
@@ -202,7 +202,7 @@
         "aspect": "action",
         "v2": "memorised",
         "v3": "memorised",
-        "transcription": "\u02c8m\u025bm\u0259ra\u026az",
+        "transcription": "ˈmɛməraɪz",
         "synonyms": [
             "learn by heart"
         ],
@@ -221,6 +221,12 @@
         "sub_subcategory": "School_Classroom"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== 'undefined') {
+        window.vocabularyData = window.vocabularyData || {};
+        window.vocabularyData.en = (window.vocabularyData.en || []).concat(data);
+    }
+    if (typeof module !== 'undefined' && module.exports) {
+        module.exports = data;
+    }
 })();

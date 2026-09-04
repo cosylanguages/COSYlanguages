@@ -4,7 +4,7 @@
     {
         "id": "A2-ADJ-WOR-001",
         "word": "absent",
-        "emoji": "\u274c",
+        "emoji": "❌",
         "form": "adjective",
         "definitions": [
             {
@@ -22,7 +22,7 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "\u02c8\u00e6bs\u0259nt",
+        "transcription": "ˈæbsənt",
         "lang": "en",
         "level": "elementary",
         "theme": "school",
@@ -42,7 +42,7 @@
     {
         "id": "A2-ADJ-WOR-002",
         "word": "academic",
-        "emoji": "\ud83c\udf93",
+        "emoji": "🎓",
         "form": "adjective",
         "definitions": [
             {
@@ -58,14 +58,14 @@
         ],
         "comparative": "more academic",
         "superlative": "the most academic",
-        "transcription": "\u02cc\u00e6k\u0259\u02c8d\u025bm\u026ak",
+        "transcription": "ˌækəˈdɛmɪk",
         "lang": "en",
         "level": "elementary",
         "theme": "school",
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Greek",
-            "origin_word": "akad\u0113mia",
+            "origin_word": "akadēmia",
             "origin_meaning": "Plato's school"
         },
         "legacy_id": "A2-WORK-02",
@@ -78,7 +78,7 @@
     {
         "id": "A2-ADJ-WOR-003",
         "word": "qualified",
-        "emoji": "\u2705",
+        "emoji": "✅",
         "form": "adjective",
         "definitions": [
             {
@@ -94,7 +94,7 @@
         "synonyms": [
             "trained"
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8kw\u0252l\u026afa\u026ad | \ud83c\uddfa\ud83c\uddf8 \u02c8kw\u0251\u02d0l\u026afa\u026ad",
+        "transcription": "🇬🇧 ˈkwɒlɪfaɪd | 🇺🇸 ˈkwɑːlɪfaɪd",
         "lang": "en",
         "level": "elementary",
         "theme": "school",
@@ -107,6 +107,12 @@
         "sub_subcategory": "School_Classroom"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== 'undefined') {
+        window.vocabularyData = window.vocabularyData || {};
+        window.vocabularyData.en = (window.vocabularyData.en || []).concat(data);
+    }
+    if (typeof module !== 'undefined' && module.exports) {
+        module.exports = data;
+    }
 })();

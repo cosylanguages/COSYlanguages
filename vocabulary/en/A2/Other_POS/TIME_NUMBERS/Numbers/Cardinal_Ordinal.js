@@ -5,7 +5,7 @@
         "word": "minus",
         "level": "elementary",
         "theme": "numbers",
-        "emoji": "\u2796",
+        "emoji": "➖",
         "form": "preposition",
         "definitions": [
             {
@@ -21,7 +21,7 @@
             "subtraction",
             "less"
         ],
-        "transcription": "\u02c8ma\u026an\u0259s",
+        "transcription": "ˈmaɪnəs",
         "language": "en",
         "lang": "en",
         "id": "A2-OTH-TIM-001",
@@ -36,7 +36,7 @@
         "word": "plus",
         "level": "elementary",
         "theme": "numbers",
-        "emoji": "\u2795",
+        "emoji": "➕",
         "form": "preposition",
         "definitions": [
             {
@@ -52,7 +52,7 @@
             "addition",
             "and"
         ],
-        "transcription": "pl\u028cs",
+        "transcription": "plʌs",
         "language": "en",
         "lang": "en",
         "id": "A2-OTH-TIM-002",
@@ -64,6 +64,12 @@
         "sub_subcategory": "Cardinal_Ordinal"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== 'undefined') {
+        window.vocabularyData = window.vocabularyData || {};
+        window.vocabularyData.en = (window.vocabularyData.en || []).concat(data);
+    }
+    if (typeof module !== 'undefined' && module.exports) {
+        module.exports = data;
+    }
 })();
