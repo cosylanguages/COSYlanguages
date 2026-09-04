@@ -179,3 +179,16 @@ Example: `en_starter_food_drink_001`
 - `level`: Full ID (starter, elementary, etc.) from Section 2.
 
 Example: `fr_morphology_verbs_starter_001`
+
+## 8. Taxonomy-Driven Course Track Integration Matrix
+
+To ensure systematic pedagogical alignment, every course track applies specific weighting and cross-referencing across the three unified taxonomies (**Vocabulary**, **Grammar**, and **Communication**):
+
+| Track ID | Course Track | Primary Taxonomy Focus | Secondary Taxonomy Focus | Functional Register | Key Interlinking Objective |
+|----------|--------------|------------------------|--------------------------|---------------------|----------------------------|
+| `general` | General Course | Balanced 1:1:1 Tripartite Matrix | All 12 Macro Domains | Neutral & Informal | Complete 4-skill CEFR progression (A1–C2) with systematic grammar, vocabulary, and discourse mechanics. |
+| `spoken` | Spoken Course | Communication (10 Systems) | Vocabulary (`social`, `emotions`, `people`) | Informal & Neutral | Fluency, floor-management, repair strategies, and rapid-response conversational maps. |
+| `professional` | Professional Course | Vocabulary (`work`, `jobs`, `technology`) | Communication (`managing_floor`, `disagreeing_politely`) | Professional & Formal | Workplace negotiation, executive presentations, formal correspondence, and corporate jargon. |
+| `travelling` | Travelling Course | Vocabulary (`travel`, `food_drink`, `places`) | Communication (`clarifying`, `explaining`) | Practical Neutral | Transit navigation, emergency requests, lodging, dining dialogues, and cultural etiquette. |
+| `relocation` | Relocation Course | Vocabulary (`furniture`, `shopping`, `law_order`) | Communication (`clarifying`, `explaining`, `giving_opinions`) | Neutral & Formal | Housing administration, local civic bureaucracy, banking, medical visits, and community integration. |
+| `exam` | Exam Preparation | Grammar (`syntax`, `conditionals_moods`) | Communication (`giving_opinions`, `explaining`) | Formal & Academic | High-level argumentation, essay coherence, complex sentence structures, and academic register (DELF/DALF, CILS, TORFL, IELTS). |

@@ -67,3 +67,43 @@ This document consolidates future roadmap initiatives, platform specifications, 
 * Lightweight, privacy-preserving event analytics tracking:
   * Session completion rates and filter interactions.
   * Standardized usability test checklists for cross-device responsive verification.
+
+---
+
+## 6. Taxonomy-Driven Course Track Expansion Strategy
+
+### A. Tripartite Matrix Integration across Course Curriculums
+To maximize learning outcomes and knowledge retention across all 6 course tracks (`general`, `spoken`, `professional`, `travelling`, `relocation`, `exam`), all curriculum JSON datasets will be enriched using the mandatory `taxonomy_tags` metadata schema:
+
+1. **General Course (`general`)**:
+   - **Weighting**: 33% Vocabulary · 33% Grammar · 33% Communication.
+   - **Level Progression**: Full CEFR coverage A1–C2 (50 lessons/level A1–B2; 20–21 lessons C1–C2).
+   - **Taxonomy Integration**: Every lesson explicitly pairs a specific Vocabulary sub-theme (e.g., `food_drink` -> `meals`) with a structural Grammar rule (e.g., `partitive_articles`) and a Communication functional goal (e.g., `ordering_food` under `starting`).
+
+2. **Spoken Course (`spoken`)**:
+   - **Weighting**: 60% Communication · 25% Vocabulary · 15% Grammar.
+   - **Level Progression**: A1–C2 (30 spoken-weighted lessons per level).
+   - **Taxonomy Integration**: Prioritizes floor management, turn-taking, active listening, and conversational repair from **The 10 Communication Systems** using natural informal/neutral registers.
+
+3. **Professional Course (`professional`)**:
+   - **Weighting**: 45% Vocabulary · 35% Communication · 20% Grammar.
+   - **Level Progression**: B1–C2 (20 specialized business lessons per level).
+   - **Taxonomy Integration**: Focuses on `work`, `jobs`, `technology`, and `finance` vocabulary paired with formal register communication systems (`managing_floor`, `disagreeing_politely`).
+
+4. **Travelling Course (`travelling`)**:
+   - **Weighting**: 50% Vocabulary · 40% Communication · 10% Grammar.
+   - **Level Progression**: A1–B1 (20 situational travel lessons per level across 5 units).
+   - **Taxonomy Integration**: Centers on `travel`, `food_drink`, `places`, and `health_medicine` vocabulary paired with immediate pragmatic communication systems (`clarifying`, `explaining`).
+
+5. **Relocation Course (`relocation`)**:
+   - **Weighting**: 45% Vocabulary · 35% Communication · 20% Grammar.
+   - **Level Progression**: A2–C1 (20 administrative/life integration lessons per level).
+   - **Taxonomy Integration**: Targets `furniture`, `shopping`, `law_order`, `society`, and `health_medicine` vocabulary with neutral/formal registers for renting, banking, and bureaucracy.
+
+6. **Exam Preparation (`exam`)**:
+   - **Weighting**: 50% Grammar · 35% Communication · 15% Vocabulary.
+   - **Level Progression**: B1–C2 (20 exam-task-focused lessons per level).
+   - **Taxonomy Integration**: Rigorous focus on advanced `syntax`, `conditionals_moods`, and formal discourse markers paired with persuasive essay/oral presentation communication systems (`giving_opinions`, `explaining`).
+
+### B. Interconnected Knowledge Recycling Chains
+All course tracks enforce mandatory lesson-to-lesson knowledge recycling via the `recycled` schema field, ensuring newly introduced vocabulary items, grammar structures, and communication chips are re-applied across subsequent units.
