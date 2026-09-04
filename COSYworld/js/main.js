@@ -1,5 +1,5 @@
 /**
- * games/cosy_world/js/main.js
+ * COSYworld/js/main.js
  * Entry point module for COSY World. Initializes engine instance and attaches window.COSY_WORLD.
  */
 
