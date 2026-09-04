@@ -16,8 +16,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8k\u028clt\u0283\u0259r\u0259l",
-        "emoji": "\u2753",
+        "transcription": "ˈkʌltʃərəl",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "cultural differences / cultural event / culturally diverse"
         },
@@ -43,8 +43,8 @@
                 ]
             }
         ],
-        "transcription": "\u0259\u02c8r\u026ad\u0292\u0259nl",
-        "emoji": "\u2753",
+        "transcription": "əˈrɪdʒənl",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "very original / completely original / an original idea"
         },

@@ -16,8 +16,8 @@
                 ]
             }
         ],
-        "transcription": "f\u026a\u0283",
-        "emoji": "\ud83c\udfa3",
+        "transcription": "fɪʃ",
+        "emoji": "🎣",
         "_legacy": {
             "image": "images/vocabulary/actions/to fish.png",
             "subtext": "go fishing, fish for trout",
@@ -42,40 +42,6 @@
     },
     {
         "id": "B1-VERB-SOC-009",
-        "word": "garden",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "social",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To work in a garden, taking care of plants and flowers.",
-                "examples": [
-                    "My grandmother loves to garden in the morning."
-                ]
-            }
-        ],
-        "transcription": "\u02c8\u0261\u0251\u02d0dn",
-        "emoji": "\ud83e\udeb4",
-        "_legacy": {
-            "subtext": "garden on weekends, organic gardening",
-            "classification": "regular",
-            "aspect": "action",
-            "v2": "gardened",
-            "v3": "gardened",
-            "group": "regular",
-            "auxiliary": "have",
-            "v4": "gardening"
-        },
-        "legacy_id": "B1-SOC-28",
-        "level_code": "B1",
-        "domain": "Society",
-        "subcategory": "Culture",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Social_Relations"
-    },
-    {
-        "id": "B1-VERB-SOC-010",
         "word": "participate",
         "lang": "en",
         "level": "intermediate",
@@ -89,8 +55,8 @@
                 ]
             }
         ],
-        "transcription": "p\u0251\u02d0\u02c8t\u026as\u026ape\u026at",
-        "emoji": "\ud83d\ude4b",
+        "transcription": "pɑːˈtɪsɪpeɪt",
+        "emoji": "🙋",
         "_legacy": {
             "subtext": "participate in / actively participate / participation rate",
             "classification": "regular",
@@ -101,7 +67,7 @@
             "auxiliary": "have",
             "v4": "participating"
         },
-        "legacy_id": "B1-SOC-53",
+        "legacy_id": "B1-VERB-SOC-010",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Culture",
@@ -109,7 +75,7 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-VERB-SOC-011",
+        "id": "B1-VERB-SOC-010",
         "word": "photograph",
         "lang": "en",
         "level": "intermediate",
@@ -123,8 +89,8 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8f\u0259\u028at\u0259\u0261r\u0251\u02d0f | \ud83c\uddfa\ud83c\uddf8 \u02c8fo\u028at\u0259\u0261r\u0251\u02d0f",
-        "emoji": "\ud83d\udcf7",
+        "transcription": "🇬🇧 ˈfəʊtəɡrɑːf | 🇺🇸 ˈfoʊtəɡrɑːf",
+        "emoji": "📷",
         "_legacy": {
             "subtext": "photograph a wedding, photograph wildlife",
             "classification": "regular",
@@ -135,7 +101,7 @@
             "auxiliary": "have",
             "v4": "photographing"
         },
-        "legacy_id": "B1-SOC-54",
+        "legacy_id": "B1-VERB-SOC-011",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Culture",
@@ -143,7 +109,7 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-VERB-SOC-012",
+        "id": "B1-VERB-SOC-011",
         "word": "protest",
         "lang": "en",
         "level": "intermediate",
@@ -157,8 +123,8 @@
                 ]
             }
         ],
-        "transcription": "pr\u0259\u02c8t\u025bst",
-        "emoji": "\ud83d\udce2",
+        "transcription": "prəˈtɛst",
+        "emoji": "📢",
         "_legacy": {
             "subtext": "protest against / stage a protest / peaceful protest",
             "classification": "regular",
@@ -169,7 +135,7 @@
             "auxiliary": "have",
             "v4": "protesting"
         },
-        "legacy_id": "B1-SOC-57",
+        "legacy_id": "B1-VERB-SOC-012",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Culture",
@@ -177,7 +143,7 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-VERB-SOC-013",
+        "id": "B1-VERB-SOC-012",
         "word": "raise",
         "lang": "en",
         "level": "intermediate",
@@ -191,8 +157,8 @@
                 ]
             }
         ],
-        "transcription": "re\u026az",
-        "emoji": "\ud83d\udcc8",
+        "transcription": "reɪz",
+        "emoji": "📈",
         "_legacy": {
             "subtext": "raise awareness / raise a concern / raise an issue",
             "classification": "regular",
@@ -203,7 +169,7 @@
             "auxiliary": "have",
             "v4": "raising"
         },
-        "legacy_id": "B1-SOC-58",
+        "legacy_id": "B1-VERB-SOC-013",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Culture",
@@ -211,7 +177,7 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-VERB-SOC-014",
+        "id": "B1-VERB-SOC-013",
         "word": "stand for",
         "lang": "en",
         "level": "intermediate",
@@ -225,8 +191,8 @@
                 ]
             }
         ],
-        "transcription": "st\u00e6nd f\u0254\u02d0",
-        "emoji": "\ud83d\udee1\ufe0f",
+        "transcription": "stænd fɔː",
+        "emoji": "🛡️",
         "_legacy": {
             "subtext": "stand for something / not stand for / what does it stand for",
             "classification": "phrasal",
@@ -236,7 +202,7 @@
             "group": "regular",
             "auxiliary": "have"
         },
-        "legacy_id": "B1-SOC-67",
+        "legacy_id": "B1-VERB-SOC-014",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Culture",
@@ -244,7 +210,7 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-VERB-SOC-015",
+        "id": "B1-VERB-SOC-014",
         "word": "support",
         "lang": "en",
         "level": "intermediate",
@@ -258,8 +224,8 @@
                 ]
             }
         ],
-        "transcription": "s\u0259\u02c8p\u0254\u02d0t",
-        "emoji": "\ud83e\udd1d",
+        "transcription": "səˈpɔːt",
+        "emoji": "🤝",
         "_legacy": {
             "subtext": "support a cause / support someone / show support",
             "classification": "regular",
@@ -270,7 +236,7 @@
             "auxiliary": "have",
             "v4": "supporting"
         },
-        "legacy_id": "B1-SOC-68",
+        "legacy_id": "B1-VERB-SOC-015",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Culture",
@@ -278,43 +244,7 @@
         "sub_subcategory": "Social_Relations"
     },
     {
-        "id": "B1-VERB-SOC-016",
-        "word": "volunteer",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "social",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To offer to do something without being paid.",
-                "examples": [
-                    "She volunteers at the local food bank.",
-                    "I want to volunteer for the charity event.",
-                    "She volunteers at the local food bank every Saturday."
-                ]
-            }
-        ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02ccv\u0252l\u0259n\u02c8t\u026a\u0259 | \ud83c\uddfa\ud83c\uddf8 \u02ccv\u0251\u02d0l\u0259n\u02c8t\u026a\u0259r",
-        "emoji": "\ud83d\ude4b",
-        "_legacy": {
-            "subtext": "volunteer work, unpaid work",
-            "classification": "regular",
-            "aspect": "action",
-            "v2": "volunteered",
-            "v3": "volunteered",
-            "group": "regular",
-            "auxiliary": "have",
-            "v4": "volunteering"
-        },
-        "legacy_id": "B1-SOC-79",
-        "level_code": "B1",
-        "domain": "Society",
-        "subcategory": "Culture",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Social_Relations"
-    },
-    {
-        "id": "B1-VERB-SOC-017",
+        "id": "B1-VERB-SOC-015",
         "word": "vote",
         "lang": "en",
         "level": "intermediate",
@@ -328,8 +258,8 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 v\u0259\u028at | \ud83c\uddfa\ud83c\uddf8 vo\u028at",
-        "emoji": "\ud83d\uddf3\ufe0f",
+        "transcription": "🇬🇧 vəʊt | 🇺🇸 voʊt",
+        "emoji": "🗳️",
         "_legacy": {
             "subtext": "vote for / vote against / vote in an election",
             "classification": "regular",
@@ -340,7 +270,7 @@
             "auxiliary": "have",
             "v4": "voting"
         },
-        "legacy_id": "B1-SOC-80",
+        "legacy_id": "B1-VERB-SOC-017",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Culture",

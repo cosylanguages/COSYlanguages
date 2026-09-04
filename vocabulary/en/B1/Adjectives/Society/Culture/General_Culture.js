@@ -16,8 +16,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8\u00e6d\u026akw\u0259t",
-        "emoji": "\u2753",
+        "transcription": "ˈædɪkwət",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "barely adequate / more than adequate / quite adequate"
         },
@@ -43,8 +43,8 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u0259\u02c8pr\u0259\u028apri\u0259t | \ud83c\uddfa\ud83c\uddf8 \u0259\u02c8pro\u028apri\u0259t",
-        "emoji": "\u2753",
+        "transcription": "🇬🇧 əˈprəʊpriət | 🇺🇸 əˈproʊpriət",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "entirely appropriate / highly appropriate / deemed appropriate"
         },
@@ -70,8 +70,8 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02cci\u02d0k\u0259\u02c8n\u0252m\u026ak | \ud83c\uddfa\ud83c\uddf8 \u02cci\u02d0k\u0259\u02c8n\u0251\u02d0m\u026ak",
-        "emoji": "\u2753",
+        "transcription": "🇬🇧 ˌiːkəˈnɒmɪk | 🇺🇸 ˌiːkəˈnɑːmɪk",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "economic growth / economic crisis / economic policy"
         },
@@ -97,8 +97,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8la\u026akli",
-        "emoji": "\u2753",
+        "transcription": "ˈlaɪkli",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "very likely / highly likely / most likely"
         },
@@ -124,8 +124,8 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8l\u0252d\u0292\u026akl | \ud83c\uddfa\ud83c\uddf8 \u02c8l\u0251\u02d0d\u0292\u026akl",
-        "emoji": "\u2753",
+        "transcription": "🇬🇧 ˈlɒdʒɪkl | 🇺🇸 ˈlɑːdʒɪkl",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "perfectly logical / very logical / a logical conclusion"
         },
@@ -151,8 +151,8 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8\u0252bvi\u0259s | \ud83c\uddfa\ud83c\uddf8 \u02c8\u0251\u02d0bvi\u0259s",
-        "emoji": "\u2753",
+        "transcription": "🇬🇧 ˈɒbviəs | 🇺🇸 ˈɑːbviəs",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "perfectly obvious / very obvious / make obvious"
         },
@@ -178,8 +178,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8ri\u02d0zn\u0259bl",
-        "emoji": "\u2753",
+        "transcription": "ˈriːznəbl",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "very reasonable / perfectly reasonable / more than reasonable"
         },
@@ -205,8 +205,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8t\u026ap\u026akl",
-        "emoji": "\u2753",
+        "transcription": "ˈtɪpɪkl",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "very typical / typical of / a typical case"
         },
@@ -232,8 +232,8 @@
                 ]
             }
         ],
-        "transcription": "\u028cn\u02c8la\u026akli",
-        "emoji": "\u2753",
+        "transcription": "ʌnˈlaɪkli",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "very unlikely / highly unlikely / completely unlikely"
         },
@@ -259,8 +259,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8v\u00e6lju\u0259bl",
-        "emoji": "\u2753",
+        "transcription": "ˈvæljuəbl",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "very valuable / invaluable / highly valuable"
         },

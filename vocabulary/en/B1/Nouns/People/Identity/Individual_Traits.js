@@ -2,7 +2,33 @@
     const lang = "en";
     const data = [
     {
-        "id": "B1-NOUN-PEO-001",
+        "word": "analyst",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "identity",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "A noun referring to a person who examines information or data systematically, such as evaluating market trends.",
+                "examples": [
+                    "The financial analyst reviewed quarterly earnings."
+                ]
+            }
+        ],
+        "transcription": "ˈænəlɪst",
+        "emoji": "📊",
+        "_legacy": {
+            "subtext": "data analyst / financial analyst"
+        },
+        "level_code": "B1",
+        "domain": "People",
+        "subcategory": "Identity",
+        "pos_section": "Nouns",
+        "sub_subcategory": "Individual_Traits",
+        "id": "B1-NOUN-PEO-004"
+    },
+    {
+        "id": "B1-NOUN-PEO-005",
         "word": "boundary",
         "lang": "en",
         "level": "intermediate",
@@ -18,15 +44,15 @@
                 ]
             }
         ],
-        "transcription": "\u02c8ba\u028and\u0259ri",
-        "emoji": "\ud83d\udea7",
+        "transcription": "ˈbaʊndəri",
+        "emoji": "🚧",
         "_legacy": {
             "classification": "regular",
             "plural": "boundaries",
             "countability": "countable",
             "subtext": "set boundaries, personal boundaries"
         },
-        "legacy_id": "B1-PPL-01",
+        "legacy_id": "B1-NOUN-PEO-001",
         "level_code": "B1",
         "domain": "People",
         "subcategory": "Identity",
@@ -34,7 +60,7 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B1-NOUN-PEO-002",
+        "id": "B1-NOUN-PEO-006",
         "word": "childcare",
         "lang": "en",
         "level": "intermediate",
@@ -48,15 +74,15 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8t\u0283a\u026aldke\u0259 | \ud83c\uddfa\ud83c\uddf8 \u02c8t\u0283a\u026aldke\u0259r",
-        "emoji": "\ud83e\uddf8",
+        "transcription": "🇬🇧 ˈtʃaɪldkeə | 🇺🇸 ˈtʃaɪldkeər",
+        "emoji": "🧸",
         "_legacy": {
             "classification": "regular",
             "plural": null,
             "countability": "uncountable",
             "subtext": "childcare costs, professional childcare"
         },
-        "legacy_id": "B1-PPL-02",
+        "legacy_id": "B1-NOUN-PEO-002",
         "level_code": "B1",
         "domain": "People",
         "subcategory": "Identity",
@@ -64,7 +90,7 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B1-NOUN-PEO-003",
+        "id": "B1-NOUN-PEO-007",
         "word": "conflict",
         "lang": "en",
         "level": "intermediate",
@@ -79,8 +105,8 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8k\u0252nfl\u026akt | \ud83c\uddfa\ud83c\uddf8 \u02c8k\u0251\u02d0nfl\u026akt",
-        "emoji": "\u2694\ufe0f",
+        "transcription": "🇬🇧 ˈkɒnflɪkt | 🇺🇸 ˈkɑːnflɪkt",
+        "emoji": "⚔️",
         "_legacy": {
             "classification": "regular",
             "plural": "conflicts",
@@ -89,9 +115,9 @@
             "antonyms": [
                 "harmony"
             ],
-            "oppositeEmoji": "\ud83d\udd4a\ufe0f"
+            "oppositeEmoji": "🕊️"
         },
-        "legacy_id": "B1-PPL-03",
+        "legacy_id": "B1-NOUN-PEO-003",
         "level_code": "B1",
         "domain": "People",
         "subcategory": "Identity",
@@ -99,7 +125,7 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B1-NOUN-PEO-004",
+        "id": "B1-NOUN-PEO-008",
         "word": "divorce",
         "lang": "en",
         "level": "intermediate",
@@ -114,8 +140,8 @@
                 ]
             }
         ],
-        "transcription": "d\u026a\u02c8v\u0254\u02d0s",
-        "emoji": "\ud83d\udc94",
+        "transcription": "dɪˈvɔːs",
+        "emoji": "💔",
         "_legacy": {
             "classification": "regular",
             "plural": "divorces",
@@ -124,9 +150,9 @@
             "antonyms": [
                 "marriage"
             ],
-            "oppositeEmoji": "\ud83d\udc8d"
+            "oppositeEmoji": "💍"
         },
-        "legacy_id": "B1-PPL-04",
+        "legacy_id": "B1-NOUN-PEO-004",
         "level_code": "B1",
         "domain": "People",
         "subcategory": "Identity",
@@ -134,7 +160,7 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B1-NOUN-PEO-005",
+        "id": "B1-NOUN-PEO-009",
         "word": "expectation",
         "lang": "en",
         "level": "intermediate",
@@ -149,15 +175,15 @@
                 ]
             }
         ],
-        "transcription": "\u02cc\u025bksp\u025bk\u02c8te\u026a\u0283n",
-        "emoji": "\ud83d\udcad",
+        "transcription": "ˌɛkspɛkˈteɪʃn",
+        "emoji": "💭",
         "_legacy": {
             "classification": "regular",
             "plural": "expectations",
             "countability": "countable",
             "subtext": "high expectations, meet expectations"
         },
-        "legacy_id": "B1-PPL-06",
+        "legacy_id": "B1-NOUN-PEO-005",
         "level_code": "B1",
         "domain": "People",
         "subcategory": "Identity",
@@ -165,7 +191,7 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B1-NOUN-PEO-006",
+        "id": "B1-NOUN-PEO-010",
         "word": "responsibility",
         "lang": "en",
         "level": "intermediate",
@@ -181,15 +207,15 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 r\u026a\u02ccsp\u0252ns\u0259\u02c8b\u026al\u026ati | \ud83c\uddfa\ud83c\uddf8 r\u026a\u02ccsp\u0251\u02d0ns\u0259\u02c8b\u026al\u026ati",
-        "emoji": "\ud83e\udd32",
+        "transcription": "🇬🇧 rɪˌspɒnsəˈbɪlɪti | 🇺🇸 rɪˌspɑːnsəˈbɪlɪti",
+        "emoji": "🤲",
         "_legacy": {
             "classification": "regular",
             "plural": "responsibilities",
             "countability": "countable",
             "subtext": "take responsibility, a sense of responsibility"
         },
-        "legacy_id": "B1-PPL-09",
+        "legacy_id": "B1-NOUN-PEO-006",
         "level_code": "B1",
         "domain": "People",
         "subcategory": "Identity",
@@ -197,7 +223,7 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B1-NOUN-PEO-007",
+        "id": "B1-NOUN-PEO-011",
         "word": "upbringing",
         "lang": "en",
         "level": "intermediate",
@@ -211,15 +237,15 @@
                 ]
             }
         ],
-        "transcription": "\u02c8\u028cp\u02ccbr\u026a\u014b\u026a\u014b",
-        "emoji": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67",
+        "transcription": "ˈʌpˌbrɪŋɪŋ",
+        "emoji": "👨‍👩‍👧",
         "_legacy": {
             "classification": "regular",
             "plural": "upbringings",
             "countability": "countable",
             "subtext": "strict upbringing, childhood upbringing"
         },
-        "legacy_id": "B1-PPL-10",
+        "legacy_id": "B1-NOUN-PEO-007",
         "level_code": "B1",
         "domain": "People",
         "subcategory": "Identity",

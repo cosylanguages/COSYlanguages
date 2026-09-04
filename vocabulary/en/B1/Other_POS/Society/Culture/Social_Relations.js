@@ -16,8 +16,8 @@
                 ]
             }
         ],
-        "transcription": "\u0259\u02c8\u0261\u025bnst",
-        "emoji": "\ud83d\udeab",
+        "transcription": "əˈɡɛnst",
+        "emoji": "🚫",
         "_legacy": {
             "subtext": "be against, vote against"
         },
@@ -43,8 +43,8 @@
                 ]
             }
         ],
-        "transcription": "\u026an \u02c8fe\u026av\u0259r \u0259v",
-        "emoji": "\u2705",
+        "transcription": "ɪn ˈfeɪvər əv",
+        "emoji": "✅",
         "_legacy": {
             "subtext": "be in favour of, vote in favour of"
         },
@@ -72,8 +72,8 @@
                 ]
             }
         ],
-        "transcription": "\u026an ma\u026a \u0259\u02c8p\u026anj\u0259n",
-        "emoji": "\ud83d\udde3\ufe0f",
+        "transcription": "ɪn maɪ əˈpɪnjən",
+        "emoji": "🗣️",
         "_legacy": {
             "subtext": "from my perspective, I think"
         },

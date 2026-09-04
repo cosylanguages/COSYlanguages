@@ -16,8 +16,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8w\u028cri",
-        "emoji": "\ud83d\ude1f",
+        "transcription": "ˈwʌri",
+        "emoji": "😟",
         "_legacy": {
             "subtext": "worry about / stop worrying / cause worry",
             "classification": "regular",

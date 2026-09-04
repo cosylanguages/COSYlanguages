@@ -16,8 +16,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8t\u0283\u026a\u0259fl",
-        "emoji": "\u2753",
+        "transcription": "ˈtʃɪəfl",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "very cheerful / naturally cheerful / cheerful attitude"
         },
@@ -43,8 +43,8 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8kr\u0252n\u026ak | \ud83c\uddfa\ud83c\uddf8 \u02c8kr\u0251\u02d0n\u026ak",
-        "emoji": "\u2753",
+        "transcription": "🇬🇧 ˈkrɒnɪk | 🇺🇸 ˈkrɑːnɪk",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "chronic illness / chronic pain / chronic stress"
         },
@@ -70,8 +70,8 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8l\u0259\u028anli | \ud83c\uddfa\ud83c\uddf8 \u02c8lo\u028anli",
-        "emoji": "\u2753",
+        "transcription": "🇬🇧 ˈləʊnli | 🇺🇸 ˈloʊnli",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "feel lonely / very lonely / desperately lonely"
         },
@@ -97,8 +97,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8m\u025bntl",
-        "emoji": "\u2753",
+        "transcription": "ˈmɛntl",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "mental health / mental wellbeing / mental strength"
         },
@@ -124,8 +124,8 @@
                 ]
             }
         ],
-        "transcription": "ma\u026ald",
-        "emoji": "\u2753",
+        "transcription": "maɪld",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "very mild / relatively mild / a mild case"
         },
@@ -151,8 +151,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8n\u025b\u0261\u0259t\u026av",
-        "emoji": "\u2753",
+        "transcription": "ˈnɛɡətɪv",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "very negative / extremely negative / a negative outcome"
         },
@@ -178,8 +178,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8f\u026az\u026akl",
-        "emoji": "\u2753",
+        "transcription": "ˈfɪzɪkl",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "physical health / physical activity / physical condition"
         },
@@ -205,8 +205,8 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8p\u0252z\u0259t\u026av | \ud83c\uddfa\ud83c\uddf8 \u02c8p\u0251\u02d0z\u0259t\u026av",
-        "emoji": "\u2753",
+        "transcription": "🇬🇧 ˈpɒzətɪv | 🇺🇸 ˈpɑːzətɪv",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "very positive / extremely positive / stay positive"
         },
@@ -232,8 +232,8 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 s\u026a\u02c8v\u026a\u0259 | \ud83c\uddfa\ud83c\uddf8 s\u026a\u02c8v\u026a\u0259r",
-        "emoji": "\u2753",
+        "transcription": "🇬🇧 sɪˈvɪə | 🇺🇸 sɪˈvɪər",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "very severe / extremely severe / severe consequences"
         },

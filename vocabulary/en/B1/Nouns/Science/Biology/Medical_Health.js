@@ -16,8 +16,8 @@
                 ]
             }
         ],
-        "transcription": "\u00e6\u014b\u02c8za\u026a\u0259ti",
-        "emoji": "\ud83d\ude1f",
+        "transcription": "æŋˈzaɪəti",
+        "emoji": "😟",
         "_legacy": {
             "classification": "regular",
             "plural": null,
@@ -48,8 +48,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8b\u025c\u02d0na\u028at",
-        "emoji": "\ud83d\udd0b",
+        "transcription": "ˈbɜːnaʊt",
+        "emoji": "🔋",
         "_legacy": {
             "classification": "regular",
             "plural": null,
@@ -78,8 +78,8 @@
                 ]
             }
         ],
-        "transcription": "d\u026a\u02c8pr\u025b\u0283n",
-        "emoji": "\ud83d\ude14",
+        "transcription": "dɪˈprɛʃn",
+        "emoji": "😔",
         "_legacy": {
             "classification": "regular",
             "plural": null,
@@ -109,8 +109,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8m\u025bntl h\u025bl\u03b8",
-        "emoji": "\ud83e\udde0",
+        "transcription": "ˈmɛntl hɛlθ",
+        "emoji": "🧠",
         "_legacy": {
             "plural": null,
             "countability": "uncountable",
@@ -138,8 +138,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8ma\u026andfln\u0259s",
-        "emoji": "\ud83e\uddd8",
+        "transcription": "ˈmaɪndflnəs",
+        "emoji": "🧘",
         "_legacy": {
             "classification": "regular",
             "plural": null,
@@ -169,8 +169,8 @@
                 ]
             }
         ],
-        "transcription": "pr\u026a\u02c8v\u025bn\u0283n",
-        "emoji": "\ud83d\udee1\ufe0f",
+        "transcription": "prɪˈvɛnʃn",
+        "emoji": "🛡️",
         "_legacy": {
             "classification": "regular",
             "plural": "preventions",
@@ -199,8 +199,8 @@
                 ]
             }
         ],
-        "transcription": "r\u026a\u02c8z\u026ali\u0259ns",
-        "emoji": "\ud83c\udf31",
+        "transcription": "rɪˈzɪliəns",
+        "emoji": "🌱",
         "_legacy": {
             "classification": "regular",
             "plural": null,
@@ -225,12 +225,12 @@
             {
                 "text": "Activities done deliberately to maintain physical or mental health.",
                 "examples": [
-                    "Self-care is not a luxury \u2014 it is a necessity."
+                    "Self-care is not a luxury — it is a necessity."
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 s\u025blf \u02c8ke\u0259 | \ud83c\uddfa\ud83c\uddf8 s\u025blf \u02c8ke\u0259r",
-        "emoji": "\ud83d\udec1",
+        "transcription": "🇬🇧 sɛlf ˈkeə | 🇺🇸 sɛlf ˈkeər",
+        "emoji": "🛁",
         "_legacy": {
             "classification": "regular",
             "plural": null,
@@ -260,8 +260,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8s\u026ampt\u0259mz",
-        "emoji": "\ud83e\udd12",
+        "transcription": "ˈsɪmptəmz",
+        "emoji": "🤒",
         "_legacy": {
             "classification": "regular",
             "plural": "symptoms",
@@ -292,8 +292,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8\u03b8\u025br\u0259pi",
-        "emoji": "\ud83d\udde3\ufe0f",
+        "transcription": "ˈθɛrəpi",
+        "emoji": "🗣️",
         "_legacy": {
             "classification": "regular",
             "plural": "therapies",
@@ -315,8 +315,8 @@
         "theme": "health_medicine",
         "form": "noun",
         "definitions": [],
-        "transcription": "tu\u02d0\u03b8",
-        "emoji": "\ud83e\uddb7",
+        "transcription": "tuːθ",
+        "emoji": "🦷",
         "_legacy": {
             "numberPlural": "32 tooth",
             "answer": "thirty-two teeth",
@@ -325,7 +325,7 @@
             "countability": "countable",
             "etymology": {
                 "origin_lang": "Proto-Germanic",
-                "origin_word": "tan\u00fes"
+                "origin_word": "tanþs"
             }
         },
         "legacy_id": "B1-SCI-22",
@@ -352,8 +352,8 @@
                 ]
             }
         ],
-        "transcription": "\u02ccw\u025bl\u02c8bi\u02d0\u026a\u014b",
-        "emoji": "\ud83e\uddd8",
+        "transcription": "ˌwɛlˈbiːɪŋ",
+        "emoji": "🧘",
         "_legacy": {
             "classification": "regular",
             "plural": null,

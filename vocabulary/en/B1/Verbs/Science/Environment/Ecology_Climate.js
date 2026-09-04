@@ -16,8 +16,8 @@
                 ]
             }
         ],
-        "transcription": "\u0259\u02c8f\u025bkt",
-        "emoji": "\u2696\ufe0f",
+        "transcription": "əˈfɛkt",
+        "emoji": "⚖️",
         "_legacy": {
             "subtext": "affect someone / affect the result / negatively affect",
             "classification": "regular",
@@ -50,8 +50,8 @@
                 ]
             }
         ],
-        "transcription": "k\u0254\u02d0z",
-        "emoji": "\u26a1",
+        "transcription": "kɔːz",
+        "emoji": "⚡",
         "_legacy": {
             "subtext": "cause a problem / cause stress / cause damage",
             "classification": "regular",
@@ -84,8 +84,8 @@
                 ]
             }
         ],
-        "transcription": "\u02ccri\u02d0\u02c8sa\u026akl",
-        "emoji": "\u267b\ufe0f",
+        "transcription": "ˌriːˈsaɪkl",
+        "emoji": "♻️",
         "_legacy": {
             "subtext": "recycle plastic, recycling bin",
             "classification": "regular",

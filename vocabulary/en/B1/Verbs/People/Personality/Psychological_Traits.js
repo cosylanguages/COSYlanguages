@@ -16,8 +16,8 @@
                 ]
             }
         ],
-        "transcription": "b\u026a\u02c8li\u02d0v",
-        "emoji": "\ud83d\udcad",
+        "transcription": "bɪˈliːv",
+        "emoji": "💭",
         "_legacy": {
             "subtext": "believe that / strongly believe / believe in something",
             "classification": "regular",

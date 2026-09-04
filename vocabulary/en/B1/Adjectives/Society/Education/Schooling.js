@@ -16,8 +16,8 @@
                 ]
             }
         ],
-        "transcription": "\u02cc\u025bd\u0292u\u02c8ke\u026a\u0283\u0259nl",
-        "emoji": "\u2753",
+        "transcription": "ˌɛdʒuˈkeɪʃənl",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "educational value / an educational experience / highly educational"
         },

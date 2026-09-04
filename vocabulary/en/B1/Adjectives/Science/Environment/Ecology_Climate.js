@@ -16,8 +16,8 @@
                 ]
             }
         ],
-        "transcription": "\u026an\u02ccva\u026ar\u0259n\u02c8m\u025bntl",
-        "emoji": "\u2753",
+        "transcription": "ɪnˌvaɪrənˈmɛntl",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "environmental impact / environmental policy / environmentally friendly"
         },
@@ -41,8 +41,8 @@
                 "examples": []
             }
         ],
-        "transcription": "\u02c8st\u0254\u02d0mi",
-        "emoji": "\u26c8\ufe0f",
+        "transcription": "ˈstɔːmi",
+        "emoji": "⛈️",
         "_legacy": {
             "subtext": "stormy weather / a stormy relationship / stormy skies"
         },
@@ -70,8 +70,8 @@
                 ]
             }
         ],
-        "transcription": "s\u0259\u02c8ste\u026an\u0259bl",
-        "emoji": "\u267b\ufe0f",
+        "transcription": "səˈsteɪnəbl",
+        "emoji": "♻️",
         "_legacy": {
             "subtext": "sustainable development, eco-friendly"
         },

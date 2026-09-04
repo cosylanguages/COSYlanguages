@@ -2,7 +2,85 @@
     const lang = "en";
     const data = [
     {
-        "id": "B1-ADJ-PEO-001",
+        "word": "affectionate",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "emotions",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "An adjective describing someone showing gentle love and care, such as a pet greeting its owner.",
+                "examples": [
+                    "She is very affectionate toward her younger brother."
+                ]
+            }
+        ],
+        "transcription": "əˈfekʃənət",
+        "emoji": "🤗",
+        "_legacy": {
+            "subtext": "affectionate hug / warm and affectionate"
+        },
+        "level_code": "B1",
+        "domain": "People",
+        "subcategory": "Emotions",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Emotional_States",
+        "id": "B1-ADJ-PEO-001"
+    },
+    {
+        "word": "alarmed",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "emotions",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "An adjective describing someone feeling sudden fear or worry, such as hearing a loud smoke alarm at night.",
+                "examples": [
+                    "Residents were alarmed by the sudden police siren."
+                ]
+            }
+        ],
+        "transcription": "əˈlɑːrmd",
+        "emoji": "🚨",
+        "_legacy": {
+            "subtext": "alarmed by news / stay alarmed"
+        },
+        "level_code": "B1",
+        "domain": "People",
+        "subcategory": "Emotions",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Emotional_States",
+        "id": "B1-ADJ-PEO-002"
+    },
+    {
+        "word": "amused",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "emotions",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "An adjective describing someone finding something funny or entertaining, such as watching a humorous cartoon.",
+                "examples": [
+                    "The audience was amused by the comedian's witty story."
+                ]
+            }
+        ],
+        "transcription": "əˈmjuːzd",
+        "emoji": "😄",
+        "_legacy": {
+            "subtext": "amused smile / highly amused"
+        },
+        "level_code": "B1",
+        "domain": "People",
+        "subcategory": "Emotions",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Emotional_States",
+        "id": "B1-ADJ-PEO-003"
+    },
+    {
+        "id": "B1-ADJ-PEO-004",
         "word": "anxious",
         "lang": "en",
         "level": "intermediate",
@@ -16,12 +94,12 @@
                 ]
             }
         ],
-        "transcription": "\u02c8\u00e6\u014bk\u0283\u0259s",
-        "emoji": "\u2753",
+        "transcription": "ˈæŋkʃəs",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "feel anxious / very anxious / anxious about"
         },
-        "legacy_id": "B1-PPL-01",
+        "legacy_id": "B1-ADJ-PEO-001",
         "level_code": "B1",
         "domain": "People",
         "subcategory": "Emotions",
@@ -29,7 +107,59 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B1-ADJ-PEO-002",
+        "word": "apprehensive",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "emotions",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "An adjective describing someone anxious or fearful that something bad might happen, such as starting at a new school.",
+                "examples": [
+                    "She felt apprehensive about moving to a foreign city."
+                ]
+            }
+        ],
+        "transcription": "ˌæprɪˈhensɪv",
+        "emoji": "😰",
+        "_legacy": {
+            "subtext": "apprehensive mood / feel apprehensive"
+        },
+        "level_code": "B1",
+        "domain": "People",
+        "subcategory": "Emotions",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Emotional_States",
+        "id": "B1-ADJ-PEO-005"
+    },
+    {
+        "word": "astonished",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "emotions",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "An adjective describing someone greatly surprised or impressed, such as witnessing an incredible magic trick.",
+                "examples": [
+                    "We were astonished by the brilliant musical performance."
+                ]
+            }
+        ],
+        "transcription": "əˈstɑːnɪʃt",
+        "emoji": "😲",
+        "_legacy": {
+            "subtext": "astonished look / completely astonished"
+        },
+        "level_code": "B1",
+        "domain": "People",
+        "subcategory": "Emotions",
+        "pos_section": "Adjectives",
+        "sub_subcategory": "Emotional_States",
+        "id": "B1-ADJ-PEO-006"
+    },
+    {
+        "id": "B1-ADJ-PEO-007",
         "word": "calm",
         "lang": "en",
         "level": "intermediate",
@@ -43,12 +173,12 @@
                 ]
             }
         ],
-        "transcription": "k\u0251\u02d0m",
-        "emoji": "\u2753",
+        "transcription": "kɑːm",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "stay calm / very calm / keep calm"
         },
-        "legacy_id": "B1-PPL-02",
+        "legacy_id": "B1-ADJ-PEO-002",
         "level_code": "B1",
         "domain": "People",
         "subcategory": "Emotions",
@@ -56,7 +186,7 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B1-ADJ-PEO-003",
+        "id": "B1-ADJ-PEO-008",
         "word": "disappointed",
         "lang": "en",
         "level": "intermediate",
@@ -70,12 +200,12 @@
                 ]
             }
         ],
-        "transcription": "\u02ccd\u026as\u0259\u02c8p\u0254\u026ant\u026ad",
-        "emoji": "\u2753",
+        "transcription": "ˌdɪsəˈpɔɪntɪd",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "feel disappointed / bitterly disappointed / disappointed with"
         },
-        "legacy_id": "B1-PPL-03",
+        "legacy_id": "B1-ADJ-PEO-003",
         "level_code": "B1",
         "domain": "People",
         "subcategory": "Emotions",
@@ -83,7 +213,7 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B1-ADJ-PEO-004",
+        "id": "B1-ADJ-PEO-009",
         "word": "embarrassed",
         "lang": "en",
         "level": "intermediate",
@@ -97,12 +227,12 @@
                 ]
             }
         ],
-        "transcription": "\u026am\u02c8b\u00e6r\u0259st",
-        "emoji": "\u2753",
+        "transcription": "ɪmˈbærəst",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "feel embarrassed / deeply embarrassed / easily embarrassed"
         },
-        "legacy_id": "B1-PPL-04",
+        "legacy_id": "B1-ADJ-PEO-004",
         "level_code": "B1",
         "domain": "People",
         "subcategory": "Emotions",
@@ -110,7 +240,7 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B1-ADJ-PEO-005",
+        "id": "B1-ADJ-PEO-010",
         "word": "frustrated",
         "lang": "en",
         "level": "intermediate",
@@ -124,12 +254,12 @@
                 ]
             }
         ],
-        "transcription": "fr\u028c\u02c8stre\u026at\u026ad",
-        "emoji": "\u2753",
+        "transcription": "frʌˈstreɪtɪd",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "feel frustrated / very frustrated / deeply frustrated"
         },
-        "legacy_id": "B1-PPL-05",
+        "legacy_id": "B1-ADJ-PEO-005",
         "level_code": "B1",
         "domain": "People",
         "subcategory": "Emotions",
@@ -137,7 +267,7 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B1-ADJ-PEO-006",
+        "id": "B1-ADJ-PEO-011",
         "word": "jealous",
         "lang": "en",
         "level": "intermediate",
@@ -151,12 +281,12 @@
                 ]
             }
         ],
-        "transcription": "\u02c8d\u0292\u025bl\u0259s",
-        "emoji": "\u2753",
+        "transcription": "ˈdʒɛləs",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "feel jealous / very jealous / jealous of"
         },
-        "legacy_id": "B1-PPL-06",
+        "legacy_id": "B1-ADJ-PEO-006",
         "level_code": "B1",
         "domain": "People",
         "subcategory": "Emotions",
@@ -164,7 +294,7 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B1-ADJ-PEO-007",
+        "id": "B1-ADJ-PEO-012",
         "word": "miserable",
         "lang": "en",
         "level": "intermediate",
@@ -178,12 +308,12 @@
                 ]
             }
         ],
-        "transcription": "\u02c8m\u026azr\u0259bl",
-        "emoji": "\u2753",
+        "transcription": "ˈmɪzrəbl",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "feel miserable / absolutely miserable / make someone miserable"
         },
-        "legacy_id": "B1-PPL-07",
+        "legacy_id": "B1-ADJ-PEO-007",
         "level_code": "B1",
         "domain": "People",
         "subcategory": "Emotions",
@@ -191,7 +321,7 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B1-ADJ-PEO-008",
+        "id": "B1-ADJ-PEO-013",
         "word": "nervous",
         "lang": "en",
         "level": "intermediate",
@@ -205,12 +335,12 @@
                 ]
             }
         ],
-        "transcription": "\u02c8n\u025c\u02d0v\u0259s",
-        "emoji": "\u2753",
+        "transcription": "ˈnɜːvəs",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "feel nervous / terribly nervous / nervous about"
         },
-        "legacy_id": "B1-PPL-08",
+        "legacy_id": "B1-ADJ-PEO-008",
         "level_code": "B1",
         "domain": "People",
         "subcategory": "Emotions",
@@ -218,7 +348,7 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B1-ADJ-PEO-009",
+        "id": "B1-ADJ-PEO-014",
         "word": "relieved",
         "lang": "en",
         "level": "intermediate",
@@ -232,12 +362,12 @@
                 ]
             }
         ],
-        "transcription": "r\u026a\u02c8li\u02d0vd",
-        "emoji": "\u2753",
+        "transcription": "rɪˈliːvd",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "feel relieved / greatly relieved / relieved to hear"
         },
-        "legacy_id": "B1-PPL-09",
+        "legacy_id": "B1-ADJ-PEO-009",
         "level_code": "B1",
         "domain": "People",
         "subcategory": "Emotions",
@@ -245,7 +375,7 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B1-ADJ-PEO-010",
+        "id": "B1-ADJ-PEO-015",
         "word": "shocked",
         "lang": "en",
         "level": "intermediate",
@@ -259,12 +389,12 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u0283\u0252kt | \ud83c\uddfa\ud83c\uddf8 \u0283\u0251\u02d0kt",
-        "emoji": "\u2753",
+        "transcription": "🇬🇧 ʃɒkt | 🇺🇸 ʃɑːkt",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "feel shocked / absolutely shocked / shocked by"
         },
-        "legacy_id": "B1-PPL-10",
+        "legacy_id": "B1-ADJ-PEO-010",
         "level_code": "B1",
         "domain": "People",
         "subcategory": "Emotions",
@@ -272,7 +402,7 @@
         "sub_subcategory": "Emotional_States"
     },
     {
-        "id": "B1-ADJ-PEO-011",
+        "id": "B1-ADJ-PEO-016",
         "word": "surprising",
         "lang": "en",
         "level": "intermediate",
@@ -286,12 +416,12 @@
                 ]
             }
         ],
-        "transcription": "s\u0259\u02c8pra\u026az\u026a\u014b",
-        "emoji": "\u2753",
+        "transcription": "səˈpraɪzɪŋ",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "very surprising / quite surprising / not at all surprising"
         },
-        "legacy_id": "B1-PPL-11",
+        "legacy_id": "B1-ADJ-PEO-011",
         "level_code": "B1",
         "domain": "People",
         "subcategory": "Emotions",

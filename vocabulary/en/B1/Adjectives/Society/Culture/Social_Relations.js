@@ -16,8 +16,8 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8\u0261l\u0259\u028abl | \ud83c\uddfa\ud83c\uddf8 \u02c8\u0261lo\u028abl",
-        "emoji": "\u2753",
+        "transcription": "🇬🇧 ˈɡləʊbl | 🇺🇸 ˈɡloʊbl",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "global issue / global market / on a global scale"
         },
@@ -43,8 +43,8 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8l\u0259\u028akl | \ud83c\uddfa\ud83c\uddf8 \u02c8lo\u028akl",
-        "emoji": "\u2753",
+        "transcription": "🇬🇧 ˈləʊkl | 🇺🇸 ˈloʊkl",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "local area / local community / at a local level"
         },
@@ -70,8 +70,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8n\u00e6\u0283n\u0259l",
-        "emoji": "\u2753",
+        "transcription": "ˈnæʃnəl",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "national interest / national policy / on a national level"
         },
@@ -97,8 +97,8 @@
                 ]
             }
         ],
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8s\u0259\u028a\u0283l | \ud83c\uddfa\ud83c\uddf8 \u02c8so\u028a\u0283l",
-        "emoji": "\u2753",
+        "transcription": "🇬🇧 ˈsəʊʃl | 🇺🇸 ˈsoʊʃl",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "social media / social skills / socially responsible"
         },
@@ -122,8 +122,8 @@
                 "examples": []
             }
         ],
-        "transcription": "\u03b8\u026an",
-        "emoji": "\u2753",
+        "transcription": "θɪn",
+        "emoji": "❓",
         "_legacy": {
             "subtext": "paper thin / exceptionally thin / growing thin"
         },

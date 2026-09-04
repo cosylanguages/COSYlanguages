@@ -16,8 +16,8 @@
                 ]
             }
         ],
-        "transcription": "r\u026a\u02c8\u0261r\u025bt",
-        "emoji": "\ud83d\ude14",
+        "transcription": "rɪˈɡrɛt",
+        "emoji": "😔",
         "_legacy": {
             "subtext": "regret a decision / deeply regret / no regrets",
             "classification": "regular",
@@ -50,8 +50,8 @@
                 ]
             }
         ],
-        "transcription": "r\u026a\u02c8z\u025bnt",
-        "emoji": "\ud83d\ude20",
+        "transcription": "rɪˈzɛnt",
+        "emoji": "😠",
         "_legacy": {
             "subtext": "resent something / resent someone / feel resentment",
             "classification": "regular",

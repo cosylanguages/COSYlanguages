@@ -7540,6 +7540,32 @@
     "grammar_refs": []
   },
   {
+    "word_id": "en-word-a1-food_beverages-pea",
+    "legacy_id": "A1-NOUN-FOO-156",
+    "word": "pea",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/en/A1/Nouns/FOOD/Ingredients/Food_Beverages.js",
+      "topic": "Food_Beverages",
+      "path_detail": "Nouns/FOOD/Ingredients"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-a1-food_beverages-menu",
+    "legacy_id": "A1-NOUN-FOO-157",
+    "word": "menu",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/en/A1/Nouns/FOOD/Ingredients/Food_Beverages.js",
+      "topic": "Food_Beverages",
+      "path_detail": "Nouns/FOOD/Ingredients"
+    },
+    "grammar_refs": []
+  },
+  {
     "word_id": "en-word-a1-dishes-bowl",
     "legacy_id": "A1-NOUN-FOO-071",
     "word": "bowl",
@@ -8476,6 +8502,19 @@
     "grammar_refs": []
   },
   {
+    "word_id": "en-word-a1-household_goods-cottage",
+    "legacy_id": "A1-NOUN-HOM-124",
+    "word": "cottage",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/en/A1/Nouns/HOME/Furniture/Household_Goods.js",
+      "topic": "Household_Goods",
+      "path_detail": "Nouns/HOME/Furniture"
+    },
+    "grammar_refs": []
+  },
+  {
     "word_id": "en-word-a1-furniture-apartment",
     "legacy_id": "A1-NOUN-HOM-017",
     "word": "apartment",
@@ -9178,6 +9217,19 @@
     "grammar_refs": []
   },
   {
+    "word_id": "en-word-a1-living_furniture-garage",
+    "legacy_id": "A1-NOUN-HOM-125",
+    "word": "garage",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/en/A1/Nouns/HOME/Furniture/Living_Furniture.js",
+      "topic": "Living_Furniture",
+      "path_detail": "Nouns/HOME/Furniture"
+    },
+    "grammar_refs": []
+  },
+  {
     "word_id": "en-word-a1-rooms_indoor_spaces-office",
     "legacy_id": "A1-NOUN-HOM-074",
     "word": "office",
@@ -9207,6 +9259,32 @@
     "word_id": "en-word-a1-indoor_rooms-hallway",
     "legacy_id": "A1-NOUN-HOM-076",
     "word": "hallway",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/en/A1/Nouns/HOME/Rooms/Indoor_Rooms.js",
+      "topic": "Indoor_Rooms",
+      "path_detail": "Nouns/HOME/Rooms"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-a1-indoor_rooms-hall",
+    "legacy_id": "A1-NOUN-HOM-126",
+    "word": "hall",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/en/A1/Nouns/HOME/Rooms/Indoor_Rooms.js",
+      "topic": "Indoor_Rooms",
+      "path_detail": "Nouns/HOME/Rooms"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-a1-indoor_rooms-ceiling",
+    "legacy_id": "A1-NOUN-HOM-127",
+    "word": "ceiling",
     "pos": "noun",
     "level": "A1",
     "vocab": {
@@ -9259,6 +9337,19 @@
     "word_id": "en-word-a1-insects_bugs-mosquito",
     "legacy_id": "A1-NOUN-NAT-046",
     "word": "mosquito",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/en/A1/Nouns/NATURE/Animals/Insects_Bugs.js",
+      "topic": "Insects_Bugs",
+      "path_detail": "Nouns/NATURE/Animals"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-a1-insects_bugs-frog",
+    "legacy_id": "A1-NOUN-NAT-098",
+    "word": "frog",
     "pos": "noun",
     "level": "A1",
     "vocab": {
@@ -9636,6 +9727,19 @@
     "word_id": "en-word-a1-mammals_creatures-tiger",
     "legacy_id": "A1-NOUN-NAT-044",
     "word": "tiger",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/en/A1/Nouns/NATURE/Animals/Mammals_Creatures.js",
+      "topic": "Mammals_Creatures",
+      "path_detail": "Nouns/NATURE/Animals"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-a1-mammals_creatures-rat",
+    "legacy_id": "A1-NOUN-NAT-097",
+    "word": "rat",
     "pos": "noun",
     "level": "A1",
     "vocab": {
@@ -10338,6 +10442,19 @@
     "word_id": "en-word-a1-natural_world-woods",
     "legacy_id": "A1-NOUN-NAT-096",
     "word": "woods",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/en/A1/Nouns/NATURE/Environment/Natural_World.js",
+      "topic": "Natural_World",
+      "path_detail": "Nouns/NATURE/Environment"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-a1-natural_world-air",
+    "legacy_id": "A1-NOUN-NAT-099",
+    "word": "air",
     "pos": "noun",
     "level": "A1",
     "vocab": {
@@ -12753,6 +12870,32 @@
     "grammar_refs": []
   },
   {
+    "word_id": "en-word-a1-general_identity-sir",
+    "legacy_id": "A1-NOUN-SEL-186",
+    "word": "sir",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/en/A1/Nouns/SELF/Identity/General_Identity.js",
+      "topic": "General_Identity",
+      "path_detail": "Nouns/SELF/Identity"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-a1-general_identity-madam",
+    "legacy_id": "A1-NOUN-SEL-187",
+    "word": "madam",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/en/A1/Nouns/SELF/Identity/General_Identity.js",
+      "topic": "General_Identity",
+      "path_detail": "Nouns/SELF/Identity"
+    },
+    "grammar_refs": []
+  },
+  {
     "word_id": "en-word-a1-personal_identity-nationality",
     "legacy_id": "A1-NOUN-SEL-094",
     "word": "nationality",
@@ -14833,6 +14976,19 @@
     "grammar_refs": []
   },
   {
+    "word_id": "en-word-a1-locations_venues-store",
+    "legacy_id": "A1-NOUN-TRA-156",
+    "word": "store",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/en/A1/Nouns/TRAVEL/Places/Locations_Venues.js",
+      "topic": "Locations_Venues",
+      "path_detail": "Nouns/TRAVEL/Places"
+    },
+    "grammar_refs": []
+  },
+  {
     "word_id": "en-word-a1-travel-airport",
     "legacy_id": "A1-NOUN-TRA-035",
     "word": "airport",
@@ -15499,6 +15655,45 @@
     "word_id": "en-word-a1-vehicles_transit-tram",
     "legacy_id": "A1-NOUN-TRA-088",
     "word": "tram",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/en/A1/Nouns/TRAVEL/Transport/Vehicles_Transit.js",
+      "topic": "Vehicles_Transit",
+      "path_detail": "Nouns/TRAVEL/Transport"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-a1-vehicles_transit-airplane",
+    "legacy_id": "A1-NOUN-TRA-153",
+    "word": "airplane",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/en/A1/Nouns/TRAVEL/Transport/Vehicles_Transit.js",
+      "topic": "Vehicles_Transit",
+      "path_detail": "Nouns/TRAVEL/Transport"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-a1-vehicles_transit-subway",
+    "legacy_id": "A1-NOUN-TRA-154",
+    "word": "subway",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/en/A1/Nouns/TRAVEL/Transport/Vehicles_Transit.js",
+      "topic": "Vehicles_Transit",
+      "path_detail": "Nouns/TRAVEL/Transport"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-a1-vehicles_transit-metro",
+    "legacy_id": "A1-NOUN-TRA-155",
+    "word": "metro",
     "pos": "noun",
     "level": "A1",
     "vocab": {
@@ -16211,6 +16406,19 @@
     "grammar_refs": []
   },
   {
+    "word_id": "en-word-a1-school_classroom-mark",
+    "legacy_id": "A1-NOUN-WOR-157",
+    "word": "mark",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/en/A1/Nouns/WORK_SCHOOL/Education/School_Classroom.js",
+      "topic": "School_Classroom",
+      "path_detail": "Nouns/WORK_SCHOOL/Education"
+    },
+    "grammar_refs": []
+  },
+  {
     "word_id": "en-word-a1-learning_studying-alphabet",
     "legacy_id": "A1-NOUN-WOR-020",
     "word": "alphabet",
@@ -16344,6 +16552,19 @@
     "word_id": "en-word-a1-study_activities-exercise",
     "legacy_id": "A1-NOUN-WOR-085",
     "word": "exercise",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/en/A1/Nouns/WORK_SCHOOL/Education/Study_Activities.js",
+      "topic": "Study_Activities",
+      "path_detail": "Nouns/WORK_SCHOOL/Education"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-a1-study_activities-task",
+    "legacy_id": "A1-NOUN-WOR-158",
+    "word": "task",
     "pos": "noun",
     "level": "A1",
     "vocab": {
@@ -17475,6 +17696,58 @@
     "word_id": "en-word-a1-professions-secretary",
     "legacy_id": "A1-NOUN-WOR-075",
     "word": "secretary",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/en/A1/Nouns/WORK_SCHOOL/Work/Professions.js",
+      "topic": "Professions",
+      "path_detail": "Nouns/WORK_SCHOOL/Work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-a1-professions-guide",
+    "legacy_id": "A1-NOUN-WOR-153",
+    "word": "guide",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/en/A1/Nouns/WORK_SCHOOL/Work/Professions.js",
+      "topic": "Professions",
+      "path_detail": "Nouns/WORK_SCHOOL/Work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-a1-professions-reporter",
+    "legacy_id": "A1-NOUN-WOR-154",
+    "word": "reporter",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/en/A1/Nouns/WORK_SCHOOL/Work/Professions.js",
+      "topic": "Professions",
+      "path_detail": "Nouns/WORK_SCHOOL/Work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-a1-professions-singer",
+    "legacy_id": "A1-NOUN-WOR-155",
+    "word": "singer",
+    "pos": "noun",
+    "level": "A1",
+    "vocab": {
+      "file": "vocabulary/en/A1/Nouns/WORK_SCHOOL/Work/Professions.js",
+      "topic": "Professions",
+      "path_detail": "Nouns/WORK_SCHOOL/Work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-a1-professions-businessman",
+    "legacy_id": "A1-NOUN-WOR-156",
+    "word": "businessman",
     "pos": "noun",
     "level": "A1",
     "vocab": {
@@ -43913,8 +44186,47 @@
     "grammar_refs": []
   },
   {
-    "word_id": "en-word-b1-emotions-anxious",
+    "word_id": "en-word-b1-emotions-affectionate",
     "legacy_id": "B1-ADJ-PEO-001",
+    "word": "affectionate",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Emotions/Emotional_States.js",
+      "topic": "emotions",
+      "path_detail": "Adjectives/People/Emotions"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-emotions-alarmed",
+    "legacy_id": "B1-ADJ-PEO-002",
+    "word": "alarmed",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Emotions/Emotional_States.js",
+      "topic": "emotions",
+      "path_detail": "Adjectives/People/Emotions"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-emotions-amused",
+    "legacy_id": "B1-ADJ-PEO-003",
+    "word": "amused",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Emotions/Emotional_States.js",
+      "topic": "emotions",
+      "path_detail": "Adjectives/People/Emotions"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-emotions-anxious",
+    "legacy_id": "B1-ADJ-PEO-004",
     "word": "anxious",
     "pos": "adjective",
     "level": "B1",
@@ -43926,8 +44238,34 @@
     "grammar_refs": []
   },
   {
+    "word_id": "en-word-b1-emotions-apprehensive",
+    "legacy_id": "B1-ADJ-PEO-005",
+    "word": "apprehensive",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Emotions/Emotional_States.js",
+      "topic": "emotions",
+      "path_detail": "Adjectives/People/Emotions"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-emotions-astonished",
+    "legacy_id": "B1-ADJ-PEO-006",
+    "word": "astonished",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Emotions/Emotional_States.js",
+      "topic": "emotions",
+      "path_detail": "Adjectives/People/Emotions"
+    },
+    "grammar_refs": []
+  },
+  {
     "word_id": "en-word-b1-emotions-calm",
-    "legacy_id": "B1-ADJ-PEO-002",
+    "legacy_id": "B1-ADJ-PEO-007",
     "word": "calm",
     "pos": "adjective",
     "level": "B1",
@@ -43940,7 +44278,7 @@
   },
   {
     "word_id": "en-word-b1-emotions-disappointed",
-    "legacy_id": "B1-ADJ-PEO-003",
+    "legacy_id": "B1-ADJ-PEO-008",
     "word": "disappointed",
     "pos": "adjective",
     "level": "B1",
@@ -43953,7 +44291,7 @@
   },
   {
     "word_id": "en-word-b1-emotions-embarrassed",
-    "legacy_id": "B1-ADJ-PEO-004",
+    "legacy_id": "B1-ADJ-PEO-009",
     "word": "embarrassed",
     "pos": "adjective",
     "level": "B1",
@@ -43966,7 +44304,7 @@
   },
   {
     "word_id": "en-word-b1-emotions-frustrated",
-    "legacy_id": "B1-ADJ-PEO-005",
+    "legacy_id": "B1-ADJ-PEO-010",
     "word": "frustrated",
     "pos": "adjective",
     "level": "B1",
@@ -43979,7 +44317,7 @@
   },
   {
     "word_id": "en-word-b1-emotions-jealous",
-    "legacy_id": "B1-ADJ-PEO-006",
+    "legacy_id": "B1-ADJ-PEO-011",
     "word": "jealous",
     "pos": "adjective",
     "level": "B1",
@@ -43992,7 +44330,7 @@
   },
   {
     "word_id": "en-word-b1-emotions-miserable",
-    "legacy_id": "B1-ADJ-PEO-007",
+    "legacy_id": "B1-ADJ-PEO-012",
     "word": "miserable",
     "pos": "adjective",
     "level": "B1",
@@ -44005,7 +44343,7 @@
   },
   {
     "word_id": "en-word-b1-emotions-nervous",
-    "legacy_id": "B1-ADJ-PEO-008",
+    "legacy_id": "B1-ADJ-PEO-013",
     "word": "nervous",
     "pos": "adjective",
     "level": "B1",
@@ -44018,7 +44356,7 @@
   },
   {
     "word_id": "en-word-b1-emotions-relieved",
-    "legacy_id": "B1-ADJ-PEO-009",
+    "legacy_id": "B1-ADJ-PEO-014",
     "word": "relieved",
     "pos": "adjective",
     "level": "B1",
@@ -44031,7 +44369,7 @@
   },
   {
     "word_id": "en-word-b1-emotions-shocked",
-    "legacy_id": "B1-ADJ-PEO-010",
+    "legacy_id": "B1-ADJ-PEO-015",
     "word": "shocked",
     "pos": "adjective",
     "level": "B1",
@@ -44044,7 +44382,7 @@
   },
   {
     "word_id": "en-word-b1-emotions-surprising",
-    "legacy_id": "B1-ADJ-PEO-011",
+    "legacy_id": "B1-ADJ-PEO-016",
     "word": "surprising",
     "pos": "adjective",
     "level": "B1",
@@ -44057,7 +44395,7 @@
   },
   {
     "word_id": "en-word-b1-people-equal",
-    "legacy_id": "B1-ADJ-PEO-012",
+    "legacy_id": "B1-ADJ-PEO-017",
     "word": "equal",
     "pos": "adjective",
     "level": "B1",
@@ -44070,7 +44408,7 @@
   },
   {
     "word_id": "en-word-b1-people-fair",
-    "legacy_id": "B1-ADJ-PEO-013",
+    "legacy_id": "B1-ADJ-PEO-018",
     "word": "fair",
     "pos": "adjective",
     "level": "B1",
@@ -44083,7 +44421,7 @@
   },
   {
     "word_id": "en-word-b1-people-political",
-    "legacy_id": "B1-ADJ-PEO-014",
+    "legacy_id": "B1-ADJ-PEO-019",
     "word": "political",
     "pos": "adjective",
     "level": "B1",
@@ -44095,8 +44433,463 @@
     "grammar_refs": []
   },
   {
+    "word_id": "en-word-b1-personality-adventurous",
+    "legacy_id": "B1-ADJ-PEO-020",
+    "word": "adventurous",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-agreeable",
+    "legacy_id": "B1-ADJ-PEO-021",
+    "word": "agreeable",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-altruistic",
+    "legacy_id": "B1-ADJ-PEO-022",
+    "word": "altruistic",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-apologetic",
+    "legacy_id": "B1-ADJ-PEO-023",
+    "word": "apologetic",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-arrogant",
+    "legacy_id": "B1-ADJ-PEO-024",
+    "word": "arrogant",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-cautious",
+    "legacy_id": "B1-ADJ-PEO-025",
+    "word": "cautious",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-charismatic",
+    "legacy_id": "B1-ADJ-PEO-026",
+    "word": "charismatic",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-charming",
+    "legacy_id": "B1-ADJ-PEO-027",
+    "word": "charming",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-considerate",
+    "legacy_id": "B1-ADJ-PEO-028",
+    "word": "considerate",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-courageous",
+    "legacy_id": "B1-ADJ-PEO-029",
+    "word": "courageous",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-courteous",
+    "legacy_id": "B1-ADJ-PEO-030",
+    "word": "courteous",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-dependable",
+    "legacy_id": "B1-ADJ-PEO-031",
+    "word": "dependable",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-diplomatic",
+    "legacy_id": "B1-ADJ-PEO-032",
+    "word": "diplomatic",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-discreet",
+    "legacy_id": "B1-ADJ-PEO-033",
+    "word": "discreet",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-energetic",
+    "legacy_id": "B1-ADJ-PEO-034",
+    "word": "energetic",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-friendly",
+    "legacy_id": "B1-ADJ-PEO-035",
+    "word": "friendly",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-funny",
+    "legacy_id": "B1-ADJ-PEO-036",
+    "word": "funny",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-humorous",
+    "legacy_id": "B1-ADJ-PEO-037",
+    "word": "humorous",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-kind",
+    "legacy_id": "B1-ADJ-PEO-038",
+    "word": "kind",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-loyal",
+    "legacy_id": "B1-ADJ-PEO-039",
+    "word": "loyal",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-modest",
+    "legacy_id": "B1-ADJ-PEO-040",
+    "word": "modest",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-outgoing",
+    "legacy_id": "B1-ADJ-PEO-041",
+    "word": "outgoing",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-persevering",
+    "legacy_id": "B1-ADJ-PEO-042",
+    "word": "persevering",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-polite",
+    "legacy_id": "B1-ADJ-PEO-043",
+    "word": "polite",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-reliable",
+    "legacy_id": "B1-ADJ-PEO-044",
+    "word": "reliable",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-scrupulous",
+    "legacy_id": "B1-ADJ-PEO-045",
+    "word": "scrupulous",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-sincere",
+    "legacy_id": "B1-ADJ-PEO-046",
+    "word": "sincere",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-stubborn",
+    "legacy_id": "B1-ADJ-PEO-047",
+    "word": "stubborn",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-tactful",
+    "legacy_id": "B1-ADJ-PEO-048",
+    "word": "tactful",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-tenacious",
+    "legacy_id": "B1-ADJ-PEO-049",
+    "word": "tenacious",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-tolerant",
+    "legacy_id": "B1-ADJ-PEO-050",
+    "word": "tolerant",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-trustworthy",
+    "legacy_id": "B1-ADJ-PEO-051",
+    "word": "trustworthy",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-absurd",
+    "legacy_id": "B1-ADJ-PEO-052",
+    "word": "absurd",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-adaptable",
+    "legacy_id": "B1-ADJ-PEO-053",
+    "word": "adaptable",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-assertive",
+    "legacy_id": "B1-ADJ-PEO-054",
+    "word": "assertive",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
     "word_id": "en-word-b1-psychology-brave",
-    "legacy_id": "B1-ADJ-PEO-015",
+    "legacy_id": "B1-ADJ-PEO-055",
     "word": "brave",
     "pos": "adjective",
     "level": "B1",
@@ -44108,8 +44901,86 @@
     "grammar_refs": []
   },
   {
+    "word_id": "en-word-b1-personality-compassionate",
+    "legacy_id": "B1-ADJ-PEO-056",
+    "word": "compassionate",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-creative",
+    "legacy_id": "B1-ADJ-PEO-057",
+    "word": "creative",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-decisive",
+    "legacy_id": "B1-ADJ-PEO-058",
+    "word": "decisive",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-dynamic",
+    "legacy_id": "B1-ADJ-PEO-059",
+    "word": "dynamic",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-eccentric",
+    "legacy_id": "B1-ADJ-PEO-060",
+    "word": "eccentric",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-empathetic",
+    "legacy_id": "B1-ADJ-PEO-061",
+    "word": "empathetic",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
     "word_id": "en-word-b1-psychology-generous",
-    "legacy_id": "B1-ADJ-PEO-016",
+    "legacy_id": "B1-ADJ-PEO-062",
     "word": "generous",
     "pos": "adjective",
     "level": "B1",
@@ -44122,7 +44993,7 @@
   },
   {
     "word_id": "en-word-b1-psychology-gentle",
-    "legacy_id": "B1-ADJ-PEO-017",
+    "legacy_id": "B1-ADJ-PEO-063",
     "word": "gentle",
     "pos": "adjective",
     "level": "B1",
@@ -44135,7 +45006,7 @@
   },
   {
     "word_id": "en-word-b1-psychology-grateful",
-    "legacy_id": "B1-ADJ-PEO-018",
+    "legacy_id": "B1-ADJ-PEO-064",
     "word": "grateful",
     "pos": "adjective",
     "level": "B1",
@@ -44148,7 +45019,7 @@
   },
   {
     "word_id": "en-word-b1-psychology-honest",
-    "legacy_id": "B1-ADJ-PEO-019",
+    "legacy_id": "B1-ADJ-PEO-065",
     "word": "honest",
     "pos": "adjective",
     "level": "B1",
@@ -44161,7 +45032,7 @@
   },
   {
     "word_id": "en-word-b1-psychology-humble",
-    "legacy_id": "B1-ADJ-PEO-020",
+    "legacy_id": "B1-ADJ-PEO-066",
     "word": "humble",
     "pos": "adjective",
     "level": "B1",
@@ -44173,14 +45044,274 @@
     "grammar_refs": []
   },
   {
+    "word_id": "en-word-b1-personality-impartial",
+    "legacy_id": "B1-ADJ-PEO-067",
+    "word": "impartial",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-impulsive",
+    "legacy_id": "B1-ADJ-PEO-068",
+    "word": "impulsive",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-insightful",
+    "legacy_id": "B1-ADJ-PEO-069",
+    "word": "insightful",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-inventive",
+    "legacy_id": "B1-ADJ-PEO-070",
+    "word": "inventive",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-methodical",
+    "legacy_id": "B1-ADJ-PEO-071",
+    "word": "methodical",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-observant",
+    "legacy_id": "B1-ADJ-PEO-072",
+    "word": "observant",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-perceptive",
+    "legacy_id": "B1-ADJ-PEO-073",
+    "word": "perceptive",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-persuasive",
+    "legacy_id": "B1-ADJ-PEO-074",
+    "word": "persuasive",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-practical",
+    "legacy_id": "B1-ADJ-PEO-075",
+    "word": "practical",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-pragmatic",
+    "legacy_id": "B1-ADJ-PEO-076",
+    "word": "pragmatic",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-rational",
+    "legacy_id": "B1-ADJ-PEO-077",
+    "word": "rational",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-resilient",
+    "legacy_id": "B1-ADJ-PEO-078",
+    "word": "resilient",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-resourceful",
+    "legacy_id": "B1-ADJ-PEO-079",
+    "word": "resourceful",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-self-reliant",
+    "legacy_id": "B1-ADJ-PEO-080",
+    "word": "self-reliant",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
     "word_id": "en-word-b1-psychology-sensible",
-    "legacy_id": "B1-ADJ-PEO-021",
+    "legacy_id": "B1-ADJ-PEO-081",
     "word": "sensible",
     "pos": "adjective",
     "level": "B1",
     "vocab": {
       "file": "vocabulary/en/B1/Adjectives/People/Personality/Psychological_Traits.js",
       "topic": "psychology",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-sensitive",
+    "legacy_id": "B1-ADJ-PEO-082",
+    "word": "sensitive",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-smart",
+    "legacy_id": "B1-ADJ-PEO-083",
+    "word": "smart",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-sympathetic",
+    "legacy_id": "B1-ADJ-PEO-084",
+    "word": "sympathetic",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-thorough",
+    "legacy_id": "B1-ADJ-PEO-085",
+    "word": "thorough",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-versatile",
+    "legacy_id": "B1-ADJ-PEO-086",
+    "word": "versatile",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Adjectives/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-witty",
+    "legacy_id": "B1-ADJ-PEO-087",
+    "word": "witty",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
       "path_detail": "Adjectives/People/Personality"
     },
     "grammar_refs": []
@@ -44338,6 +45469,84 @@
       "file": "vocabulary/en/B1/Adjectives/Science/Environment/Ecology_Climate.js",
       "topic": "environment",
       "path_detail": "Adjectives/Science/Environment"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-space-celestial",
+    "legacy_id": "B1-ADJ-SCI-013",
+    "word": "celestial",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/Science/Space/Astronomy_Cosmos.js",
+      "topic": "space",
+      "path_detail": "Adjectives/Science/Space"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-space-cosmic",
+    "legacy_id": "B1-ADJ-SCI-014",
+    "word": "cosmic",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/Science/Space/Astronomy_Cosmos.js",
+      "topic": "space",
+      "path_detail": "Adjectives/Science/Space"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-space-gravitational",
+    "legacy_id": "B1-ADJ-SCI-015",
+    "word": "gravitational",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/Science/Space/Astronomy_Cosmos.js",
+      "topic": "space",
+      "path_detail": "Adjectives/Science/Space"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-space-lunar",
+    "legacy_id": "B1-ADJ-SCI-016",
+    "word": "lunar",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/Science/Space/Astronomy_Cosmos.js",
+      "topic": "space",
+      "path_detail": "Adjectives/Science/Space"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-space-planetary",
+    "legacy_id": "B1-ADJ-SCI-017",
+    "word": "planetary",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/Science/Space/Astronomy_Cosmos.js",
+      "topic": "space",
+      "path_detail": "Adjectives/Science/Space"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-space-solar",
+    "legacy_id": "B1-ADJ-SCI-018",
+    "word": "solar",
+    "pos": "adjective",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Adjectives/Science/Space/Astronomy_Cosmos.js",
+      "topic": "space",
+      "path_detail": "Adjectives/Science/Space"
     },
     "grammar_refs": []
   },
@@ -44836,8 +46045,60 @@
     "grammar_refs": []
   },
   {
-    "word_id": "en-word-b1-people-boundary",
+    "word_id": "en-word-b1-emotions-animosity",
     "legacy_id": "B1-NOUN-PEO-001",
+    "word": "animosity",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/People/Emotions/Emotional_States.js",
+      "topic": "emotions",
+      "path_detail": "Nouns/People/Emotions"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-emotions-anticipation",
+    "legacy_id": "B1-NOUN-PEO-002",
+    "word": "anticipation",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/People/Emotions/Emotional_States.js",
+      "topic": "emotions",
+      "path_detail": "Nouns/People/Emotions"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-identity-allegiance",
+    "legacy_id": "B1-NOUN-PEO-003",
+    "word": "allegiance",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/People/Identity/Identity_Concepts.js",
+      "topic": "identity",
+      "path_detail": "Nouns/People/Identity"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-identity-analyst",
+    "legacy_id": "B1-NOUN-PEO-004",
+    "word": "analyst",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/People/Identity/Individual_Traits.js",
+      "topic": "identity",
+      "path_detail": "Nouns/People/Identity"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-people-boundary",
+    "legacy_id": "B1-NOUN-PEO-005",
     "word": "boundary",
     "pos": "noun",
     "level": "B1",
@@ -44850,7 +46111,7 @@
   },
   {
     "word_id": "en-word-b1-people-childcare",
-    "legacy_id": "B1-NOUN-PEO-002",
+    "legacy_id": "B1-NOUN-PEO-006",
     "word": "childcare",
     "pos": "noun",
     "level": "B1",
@@ -44863,7 +46124,7 @@
   },
   {
     "word_id": "en-word-b1-people-conflict",
-    "legacy_id": "B1-NOUN-PEO-003",
+    "legacy_id": "B1-NOUN-PEO-007",
     "word": "conflict",
     "pos": "noun",
     "level": "B1",
@@ -44876,7 +46137,7 @@
   },
   {
     "word_id": "en-word-b1-people-divorce",
-    "legacy_id": "B1-NOUN-PEO-004",
+    "legacy_id": "B1-NOUN-PEO-008",
     "word": "divorce",
     "pos": "noun",
     "level": "B1",
@@ -44889,7 +46150,7 @@
   },
   {
     "word_id": "en-word-b1-people-expectation",
-    "legacy_id": "B1-NOUN-PEO-005",
+    "legacy_id": "B1-NOUN-PEO-009",
     "word": "expectation",
     "pos": "noun",
     "level": "B1",
@@ -44902,7 +46163,7 @@
   },
   {
     "word_id": "en-word-b1-people-responsibility",
-    "legacy_id": "B1-NOUN-PEO-006",
+    "legacy_id": "B1-NOUN-PEO-010",
     "word": "responsibility",
     "pos": "noun",
     "level": "B1",
@@ -44915,7 +46176,7 @@
   },
   {
     "word_id": "en-word-b1-people-upbringing",
-    "legacy_id": "B1-NOUN-PEO-007",
+    "legacy_id": "B1-NOUN-PEO-011",
     "word": "upbringing",
     "pos": "noun",
     "level": "B1",
@@ -44923,6 +46184,162 @@
       "file": "vocabulary/en/B1/Nouns/People/Identity/Individual_Traits.js",
       "topic": "people",
       "path_detail": "Nouns/People/Identity"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-character",
+    "legacy_id": "B1-NOUN-PEO-012",
+    "word": "character",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Nouns/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-flaw",
+    "legacy_id": "B1-NOUN-PEO-013",
+    "word": "flaw",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Nouns/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-integrity",
+    "legacy_id": "B1-NOUN-PEO-014",
+    "word": "integrity",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Nouns/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-principle",
+    "legacy_id": "B1-NOUN-PEO-015",
+    "word": "principle",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Nouns/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-virtue",
+    "legacy_id": "B1-NOUN-PEO-016",
+    "word": "virtue",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/People/Personality/Character_Traits.js",
+      "topic": "personality",
+      "path_detail": "Nouns/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-aspiration",
+    "legacy_id": "B1-NOUN-PEO-017",
+    "word": "aspiration",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Nouns/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-capacity",
+    "legacy_id": "B1-NOUN-PEO-018",
+    "word": "capacity",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Nouns/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-disposition",
+    "legacy_id": "B1-NOUN-PEO-019",
+    "word": "disposition",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Nouns/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-individuality",
+    "legacy_id": "B1-NOUN-PEO-020",
+    "word": "individuality",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Nouns/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-mindset",
+    "legacy_id": "B1-NOUN-PEO-021",
+    "word": "mindset",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Nouns/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-motivation",
+    "legacy_id": "B1-NOUN-PEO-022",
+    "word": "motivation",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Nouns/People/Personality"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-personality-temperament",
+    "legacy_id": "B1-NOUN-PEO-023",
+    "word": "temperament",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/People/Personality/Psychological_Traits.js",
+      "topic": "personality",
+      "path_detail": "Nouns/People/Personality"
     },
     "grammar_refs": []
   },
@@ -45187,8 +46604,242 @@
     "grammar_refs": []
   },
   {
-    "word_id": "en-word-b1-computers_software_engineering-algorithm",
+    "word_id": "en-word-b1-space-asteroid",
     "legacy_id": "B1-NOUN-SCI-021",
+    "word": "asteroid",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Science/Space/Astronomy_Cosmos.js",
+      "topic": "space",
+      "path_detail": "Nouns/Science/Space"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-space-astronomer",
+    "legacy_id": "B1-NOUN-SCI-022",
+    "word": "astronomer",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Science/Space/Astronomy_Cosmos.js",
+      "topic": "space",
+      "path_detail": "Nouns/Science/Space"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-space-atmosphere",
+    "legacy_id": "B1-NOUN-SCI-023",
+    "word": "atmosphere",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Science/Space/Astronomy_Cosmos.js",
+      "topic": "space",
+      "path_detail": "Nouns/Science/Space"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-space-comet",
+    "legacy_id": "B1-NOUN-SCI-024",
+    "word": "comet",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Science/Space/Astronomy_Cosmos.js",
+      "topic": "space",
+      "path_detail": "Nouns/Science/Space"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-space-constellation",
+    "legacy_id": "B1-NOUN-SCI-025",
+    "word": "constellation",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Science/Space/Astronomy_Cosmos.js",
+      "topic": "space",
+      "path_detail": "Nouns/Science/Space"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-space-cosmos",
+    "legacy_id": "B1-NOUN-SCI-026",
+    "word": "cosmos",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Science/Space/Astronomy_Cosmos.js",
+      "topic": "space",
+      "path_detail": "Nouns/Science/Space"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-space-eclipse",
+    "legacy_id": "B1-NOUN-SCI-027",
+    "word": "eclipse",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Science/Space/Astronomy_Cosmos.js",
+      "topic": "space",
+      "path_detail": "Nouns/Science/Space"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-space-galaxy",
+    "legacy_id": "B1-NOUN-SCI-028",
+    "word": "galaxy",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Science/Space/Astronomy_Cosmos.js",
+      "topic": "space",
+      "path_detail": "Nouns/Science/Space"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-space-gravity",
+    "legacy_id": "B1-NOUN-SCI-029",
+    "word": "gravity",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Science/Space/Astronomy_Cosmos.js",
+      "topic": "space",
+      "path_detail": "Nouns/Science/Space"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-space-horizon",
+    "legacy_id": "B1-NOUN-SCI-030",
+    "word": "horizon",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Science/Space/Astronomy_Cosmos.js",
+      "topic": "space",
+      "path_detail": "Nouns/Science/Space"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-space-meteor",
+    "legacy_id": "B1-NOUN-SCI-031",
+    "word": "meteor",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Science/Space/Astronomy_Cosmos.js",
+      "topic": "space",
+      "path_detail": "Nouns/Science/Space"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-space-nebula",
+    "legacy_id": "B1-NOUN-SCI-032",
+    "word": "nebula",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Science/Space/Astronomy_Cosmos.js",
+      "topic": "space",
+      "path_detail": "Nouns/Science/Space"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-space-universe",
+    "legacy_id": "B1-NOUN-SCI-033",
+    "word": "universe",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Science/Space/Astronomy_Cosmos.js",
+      "topic": "space",
+      "path_detail": "Nouns/Science/Space"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-space-astronaut",
+    "legacy_id": "B1-NOUN-SCI-034",
+    "word": "astronaut",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Science/Space/Space_Exploration.js",
+      "topic": "space",
+      "path_detail": "Nouns/Science/Space"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-space-observatory",
+    "legacy_id": "B1-NOUN-SCI-035",
+    "word": "observatory",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Science/Space/Space_Exploration.js",
+      "topic": "space",
+      "path_detail": "Nouns/Science/Space"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-space-rocket",
+    "legacy_id": "B1-NOUN-SCI-036",
+    "word": "rocket",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Science/Space/Space_Exploration.js",
+      "topic": "space",
+      "path_detail": "Nouns/Science/Space"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-space-satellite",
+    "legacy_id": "B1-NOUN-SCI-037",
+    "word": "satellite",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Science/Space/Space_Exploration.js",
+      "topic": "space",
+      "path_detail": "Nouns/Science/Space"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-space-telescope",
+    "legacy_id": "B1-NOUN-SCI-038",
+    "word": "telescope",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Science/Space/Space_Exploration.js",
+      "topic": "space",
+      "path_detail": "Nouns/Science/Space"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-computers_software_engineering-algorithm",
+    "legacy_id": "B1-NOUN-SCI-039",
     "word": "algorithm",
     "pos": "noun",
     "level": "B1",
@@ -45330,34 +46981,8 @@
     "grammar_refs": []
   },
   {
-    "word_id": "en-word-b1-social-minority",
-    "legacy_id": "B1-NOUN-SOC-011",
-    "word": "minority",
-    "pos": "noun",
-    "level": "B1",
-    "vocab": {
-      "file": "vocabulary/en/B1/Nouns/Society/Culture/Social_Relations.js",
-      "topic": "social",
-      "path_detail": "Nouns/Society/Culture"
-    },
-    "grammar_refs": []
-  },
-  {
-    "word_id": "en-word-b1-social-algorithm",
-    "legacy_id": "B1-NOUN-SOC-012",
-    "word": "algorithm",
-    "pos": "noun",
-    "level": "B1",
-    "vocab": {
-      "file": "vocabulary/en/B1/Nouns/Society/Culture/Social_Relations.js",
-      "topic": "social",
-      "path_detail": "Nouns/Society/Culture"
-    },
-    "grammar_refs": []
-  },
-  {
     "word_id": "en-word-b1-social-carrot",
-    "legacy_id": "B1-NOUN-SOC-013",
+    "legacy_id": "B1-NOUN-SOC-011",
     "word": "carrot",
     "pos": "noun",
     "level": "B1",
@@ -45370,7 +46995,7 @@
   },
   {
     "word_id": "en-word-b1-social-charity",
-    "legacy_id": "B1-NOUN-SOC-014",
+    "legacy_id": "B1-NOUN-SOC-012",
     "word": "charity",
     "pos": "noun",
     "level": "B1",
@@ -45383,7 +47008,7 @@
   },
   {
     "word_id": "en-word-b1-social-child",
-    "legacy_id": "B1-NOUN-SOC-015",
+    "legacy_id": "B1-NOUN-SOC-013",
     "word": "child",
     "pos": "noun",
     "level": "B1",
@@ -45396,7 +47021,7 @@
   },
   {
     "word_id": "en-word-b1-social-community",
-    "legacy_id": "B1-NOUN-SOC-016",
+    "legacy_id": "B1-NOUN-SOC-014",
     "word": "community",
     "pos": "noun",
     "level": "B1",
@@ -45409,7 +47034,7 @@
   },
   {
     "word_id": "en-word-b1-social-democracy",
-    "legacy_id": "B1-NOUN-SOC-017",
+    "legacy_id": "B1-NOUN-SOC-015",
     "word": "democracy",
     "pos": "noun",
     "level": "B1",
@@ -45422,7 +47047,7 @@
   },
   {
     "word_id": "en-word-b1-social-elephant",
-    "legacy_id": "B1-NOUN-SOC-018",
+    "legacy_id": "B1-NOUN-SOC-016",
     "word": "elephant",
     "pos": "noun",
     "level": "B1",
@@ -45435,7 +47060,7 @@
   },
   {
     "word_id": "en-word-b1-social-equality",
-    "legacy_id": "B1-NOUN-SOC-019",
+    "legacy_id": "B1-NOUN-SOC-017",
     "word": "equality",
     "pos": "noun",
     "level": "B1",
@@ -45448,7 +47073,7 @@
   },
   {
     "word_id": "en-word-b1-social-evidence",
-    "legacy_id": "B1-NOUN-SOC-020",
+    "legacy_id": "B1-NOUN-SOC-018",
     "word": "evidence",
     "pos": "noun",
     "level": "B1",
@@ -45461,7 +47086,7 @@
   },
   {
     "word_id": "en-word-b1-social-evolution",
-    "legacy_id": "B1-NOUN-SOC-021",
+    "legacy_id": "B1-NOUN-SOC-019",
     "word": "evolution",
     "pos": "noun",
     "level": "B1",
@@ -45474,7 +47099,7 @@
   },
   {
     "word_id": "en-word-b1-social-freedom",
-    "legacy_id": "B1-NOUN-SOC-022",
+    "legacy_id": "B1-NOUN-SOC-020",
     "word": "freedom",
     "pos": "noun",
     "level": "B1",
@@ -45487,7 +47112,7 @@
   },
   {
     "word_id": "en-word-b1-social-generation",
-    "legacy_id": "B1-NOUN-SOC-023",
+    "legacy_id": "B1-NOUN-SOC-021",
     "word": "generation",
     "pos": "noun",
     "level": "B1",
@@ -45500,7 +47125,7 @@
   },
   {
     "word_id": "en-word-b1-social-inequality",
-    "legacy_id": "B1-NOUN-SOC-024",
+    "legacy_id": "B1-NOUN-SOC-022",
     "word": "inequality",
     "pos": "noun",
     "level": "B1",
@@ -45513,7 +47138,7 @@
   },
   {
     "word_id": "en-word-b1-social-laptop",
-    "legacy_id": "B1-NOUN-SOC-025",
+    "legacy_id": "B1-NOUN-SOC-023",
     "word": "laptop",
     "pos": "noun",
     "level": "B1",
@@ -45526,7 +47151,7 @@
   },
   {
     "word_id": "en-word-b1-social-milkshake",
-    "legacy_id": "B1-NOUN-SOC-026",
+    "legacy_id": "B1-NOUN-SOC-024",
     "word": "milkshake",
     "pos": "noun",
     "level": "B1",
@@ -45538,8 +47163,21 @@
     "grammar_refs": []
   },
   {
+    "word_id": "en-word-b1-social-minority",
+    "legacy_id": "B1-NOUN-SOC-025",
+    "word": "minority",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Society/Culture/Social_Relations.js",
+      "topic": "social",
+      "path_detail": "Nouns/Society/Culture"
+    },
+    "grammar_refs": []
+  },
+  {
     "word_id": "en-word-b1-social-mirror",
-    "legacy_id": "B1-NOUN-SOC-027",
+    "legacy_id": "B1-NOUN-SOC-026",
     "word": "mirror",
     "pos": "noun",
     "level": "B1",
@@ -45552,7 +47190,7 @@
   },
   {
     "word_id": "en-word-b1-social-monkey",
-    "legacy_id": "B1-NOUN-SOC-028",
+    "legacy_id": "B1-NOUN-SOC-027",
     "word": "monkey",
     "pos": "noun",
     "level": "B1",
@@ -45565,7 +47203,7 @@
   },
   {
     "word_id": "en-word-b1-social-opinion",
-    "legacy_id": "B1-NOUN-SOC-029",
+    "legacy_id": "B1-NOUN-SOC-028",
     "word": "opinion",
     "pos": "noun",
     "level": "B1",
@@ -45578,7 +47216,7 @@
   },
   {
     "word_id": "en-word-b1-social-pancake",
-    "legacy_id": "B1-NOUN-SOC-030",
+    "legacy_id": "B1-NOUN-SOC-029",
     "word": "pancake",
     "pos": "noun",
     "level": "B1",
@@ -45591,7 +47229,7 @@
   },
   {
     "word_id": "en-word-b1-social-point-of-view",
-    "legacy_id": "B1-NOUN-SOC-031",
+    "legacy_id": "B1-NOUN-SOC-030",
     "word": "point of view",
     "pos": "noun phrase",
     "level": "B1",
@@ -45604,7 +47242,7 @@
   },
   {
     "word_id": "en-word-b1-social-remote-work",
-    "legacy_id": "B1-NOUN-SOC-032",
+    "legacy_id": "B1-NOUN-SOC-031",
     "word": "remote work",
     "pos": "noun phrase",
     "level": "B1",
@@ -45617,7 +47255,7 @@
   },
   {
     "word_id": "en-word-b1-social-scarf",
-    "legacy_id": "B1-NOUN-SOC-033",
+    "legacy_id": "B1-NOUN-SOC-032",
     "word": "scarf",
     "pos": "noun",
     "level": "B1",
@@ -45630,7 +47268,7 @@
   },
   {
     "word_id": "en-word-b1-social-shelf",
-    "legacy_id": "B1-NOUN-SOC-034",
+    "legacy_id": "B1-NOUN-SOC-033",
     "word": "shelf",
     "pos": "noun",
     "level": "B1",
@@ -45643,7 +47281,7 @@
   },
   {
     "word_id": "en-word-b1-social-sushi",
-    "legacy_id": "B1-NOUN-SOC-035",
+    "legacy_id": "B1-NOUN-SOC-034",
     "word": "sushi",
     "pos": "noun",
     "level": "B1",
@@ -45656,7 +47294,7 @@
   },
   {
     "word_id": "en-word-b1-social-sweater",
-    "legacy_id": "B1-NOUN-SOC-036",
+    "legacy_id": "B1-NOUN-SOC-035",
     "word": "sweater",
     "pos": "noun",
     "level": "B1",
@@ -45669,7 +47307,7 @@
   },
   {
     "word_id": "en-word-b1-social-trust",
-    "legacy_id": "B1-NOUN-SOC-037",
+    "legacy_id": "B1-NOUN-SOC-036",
     "word": "trust",
     "pos": "noun",
     "level": "B1",
@@ -45682,7 +47320,7 @@
   },
   {
     "word_id": "en-word-b1-social-umbrella",
-    "legacy_id": "B1-NOUN-SOC-038",
+    "legacy_id": "B1-NOUN-SOC-037",
     "word": "umbrella",
     "pos": "noun",
     "level": "B1",
@@ -45695,7 +47333,7 @@
   },
   {
     "word_id": "en-word-b1-social-volunteer",
-    "legacy_id": "B1-NOUN-SOC-039",
+    "legacy_id": "B1-NOUN-SOC-038",
     "word": "volunteer",
     "pos": "noun",
     "level": "B1",
@@ -45708,7 +47346,7 @@
   },
   {
     "word_id": "en-word-b1-social-wardrobe",
-    "legacy_id": "B1-NOUN-SOC-040",
+    "legacy_id": "B1-NOUN-SOC-039",
     "word": "wardrobe",
     "pos": "noun",
     "level": "B1",
@@ -45721,7 +47359,7 @@
   },
   {
     "word_id": "en-word-b1-journalism_broadcasting_news-journalism",
-    "legacy_id": "B1-NOUN-SOC-072",
+    "legacy_id": "B1-NOUN-SOC-040",
     "word": "journalism",
     "pos": "noun",
     "level": "B1",
@@ -45759,8 +47397,21 @@
     "grammar_refs": []
   },
   {
-    "word_id": "en-word-b1-work-appraisal",
+    "word_id": "en-word-b1-work-applicant",
     "legacy_id": "B1-NOUN-SOC-043",
+    "word": "applicant",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Society/Work/Employment_Business.js",
+      "topic": "work",
+      "path_detail": "Nouns/Society/Work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-work-appraisal",
+    "legacy_id": "B1-NOUN-SOC-044",
     "word": "appraisal",
     "pos": "noun",
     "level": "B1",
@@ -45772,8 +47423,21 @@
     "grammar_refs": []
   },
   {
+    "word_id": "en-word-b1-work-apprentice",
+    "legacy_id": "B1-NOUN-SOC-045",
+    "word": "apprentice",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Society/Work/Employment_Business.js",
+      "topic": "work",
+      "path_detail": "Nouns/Society/Work"
+    },
+    "grammar_refs": []
+  },
+  {
     "word_id": "en-word-b1-work-architect",
-    "legacy_id": "B1-NOUN-SOC-044",
+    "legacy_id": "B1-NOUN-SOC-046",
     "word": "architect",
     "pos": "noun",
     "level": "B1",
@@ -45785,8 +47449,60 @@
     "grammar_refs": []
   },
   {
+    "word_id": "en-word-b1-work-benchmark",
+    "legacy_id": "B1-NOUN-SOC-047",
+    "word": "benchmark",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Society/Work/Employment_Business.js",
+      "topic": "work",
+      "path_detail": "Nouns/Society/Work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-work-bonus",
+    "legacy_id": "B1-NOUN-SOC-048",
+    "word": "bonus",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Society/Work/Employment_Business.js",
+      "topic": "work",
+      "path_detail": "Nouns/Society/Work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-work-budget",
+    "legacy_id": "B1-NOUN-SOC-049",
+    "word": "budget",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Society/Work/Employment_Business.js",
+      "topic": "work",
+      "path_detail": "Nouns/Society/Work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-work-candidate",
+    "legacy_id": "B1-NOUN-SOC-050",
+    "word": "candidate",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Society/Work/Employment_Business.js",
+      "topic": "work",
+      "path_detail": "Nouns/Society/Work"
+    },
+    "grammar_refs": []
+  },
+  {
     "word_id": "en-word-b1-work-career",
-    "legacy_id": "B1-NOUN-SOC-045",
+    "legacy_id": "B1-NOUN-SOC-051",
     "word": "career",
     "pos": "noun",
     "level": "B1",
@@ -45799,7 +47515,7 @@
   },
   {
     "word_id": "en-word-b1-work-colleague",
-    "legacy_id": "B1-NOUN-SOC-046",
+    "legacy_id": "B1-NOUN-SOC-052",
     "word": "colleague",
     "pos": "noun",
     "level": "B1",
@@ -45811,8 +47527,34 @@
     "grammar_refs": []
   },
   {
+    "word_id": "en-word-b1-work-contract",
+    "legacy_id": "B1-NOUN-SOC-053",
+    "word": "contract",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Society/Work/Employment_Business.js",
+      "topic": "work",
+      "path_detail": "Nouns/Society/Work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-work-corporation",
+    "legacy_id": "B1-NOUN-SOC-054",
+    "word": "corporation",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Society/Work/Employment_Business.js",
+      "topic": "work",
+      "path_detail": "Nouns/Society/Work"
+    },
+    "grammar_refs": []
+  },
+  {
     "word_id": "en-word-b1-work-credit",
-    "legacy_id": "B1-NOUN-SOC-047",
+    "legacy_id": "B1-NOUN-SOC-055",
     "word": "credit",
     "pos": "noun",
     "level": "B1",
@@ -45824,8 +47566,21 @@
     "grammar_refs": []
   },
   {
+    "word_id": "en-word-b1-work-deadline",
+    "legacy_id": "B1-NOUN-SOC-056",
+    "word": "deadline",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Society/Work/Employment_Business.js",
+      "topic": "work",
+      "path_detail": "Nouns/Society/Work"
+    },
+    "grammar_refs": []
+  },
+  {
     "word_id": "en-word-b1-work-engineer",
-    "legacy_id": "B1-NOUN-SOC-048",
+    "legacy_id": "B1-NOUN-SOC-057",
     "word": "engineer",
     "pos": "noun",
     "level": "B1",
@@ -45838,7 +47593,7 @@
   },
   {
     "word_id": "en-word-b1-work-expenditure",
-    "legacy_id": "B1-NOUN-SOC-049",
+    "legacy_id": "B1-NOUN-SOC-058",
     "word": "expenditure",
     "pos": "noun",
     "level": "B1",
@@ -45851,7 +47606,7 @@
   },
   {
     "word_id": "en-word-b1-work-flexible-hours",
-    "legacy_id": "B1-NOUN-SOC-050",
+    "legacy_id": "B1-NOUN-SOC-059",
     "word": "flexible hours",
     "pos": "noun phrase",
     "level": "B1",
@@ -45864,7 +47619,7 @@
   },
   {
     "word_id": "en-word-b1-work-flexible-working",
-    "legacy_id": "B1-NOUN-SOC-051",
+    "legacy_id": "B1-NOUN-SOC-060",
     "word": "flexible working",
     "pos": "noun phrase",
     "level": "B1",
@@ -45877,7 +47632,7 @@
   },
   {
     "word_id": "en-word-b1-work-income",
-    "legacy_id": "B1-NOUN-SOC-052",
+    "legacy_id": "B1-NOUN-SOC-061",
     "word": "income",
     "pos": "noun",
     "level": "B1",
@@ -45890,7 +47645,7 @@
   },
   {
     "word_id": "en-word-b1-work-insurance",
-    "legacy_id": "B1-NOUN-SOC-053",
+    "legacy_id": "B1-NOUN-SOC-062",
     "word": "insurance",
     "pos": "noun",
     "level": "B1",
@@ -45903,7 +47658,7 @@
   },
   {
     "word_id": "en-word-b1-work-interest-rate",
-    "legacy_id": "B1-NOUN-SOC-054",
+    "legacy_id": "B1-NOUN-SOC-063",
     "word": "interest rate",
     "pos": "noun phrase",
     "level": "B1",
@@ -45915,8 +47670,21 @@
     "grammar_refs": []
   },
   {
+    "word_id": "en-word-b1-work-interview",
+    "legacy_id": "B1-NOUN-SOC-064",
+    "word": "interview",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Society/Work/Employment_Business.js",
+      "topic": "work",
+      "path_detail": "Nouns/Society/Work"
+    },
+    "grammar_refs": []
+  },
+  {
     "word_id": "en-word-b1-work-investment",
-    "legacy_id": "B1-NOUN-SOC-055",
+    "legacy_id": "B1-NOUN-SOC-065",
     "word": "investment",
     "pos": "noun",
     "level": "B1",
@@ -45929,7 +47697,7 @@
   },
   {
     "word_id": "en-word-b1-work-leadership",
-    "legacy_id": "B1-NOUN-SOC-056",
+    "legacy_id": "B1-NOUN-SOC-066",
     "word": "leadership",
     "pos": "noun",
     "level": "B1",
@@ -45942,7 +47710,7 @@
   },
   {
     "word_id": "en-word-b1-work-maternity-leave",
-    "legacy_id": "B1-NOUN-SOC-057",
+    "legacy_id": "B1-NOUN-SOC-067",
     "word": "maternity leave",
     "pos": "noun phrase",
     "level": "B1",
@@ -45954,8 +47722,21 @@
     "grammar_refs": []
   },
   {
+    "word_id": "en-word-b1-work-negotiation",
+    "legacy_id": "B1-NOUN-SOC-068",
+    "word": "negotiation",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Society/Work/Employment_Business.js",
+      "topic": "work",
+      "path_detail": "Nouns/Society/Work"
+    },
+    "grammar_refs": []
+  },
+  {
     "word_id": "en-word-b1-work-networking",
-    "legacy_id": "B1-NOUN-SOC-058",
+    "legacy_id": "B1-NOUN-SOC-069",
     "word": "networking",
     "pos": "noun",
     "level": "B1",
@@ -45968,7 +47749,7 @@
   },
   {
     "word_id": "en-word-b1-work-paternity-leave",
-    "legacy_id": "B1-NOUN-SOC-059",
+    "legacy_id": "B1-NOUN-SOC-070",
     "word": "paternity leave",
     "pos": "noun phrase",
     "level": "B1",
@@ -45980,8 +47761,21 @@
     "grammar_refs": []
   },
   {
+    "word_id": "en-word-b1-work-payroll",
+    "legacy_id": "B1-NOUN-SOC-071",
+    "word": "payroll",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Society/Work/Employment_Business.js",
+      "topic": "work",
+      "path_detail": "Nouns/Society/Work"
+    },
+    "grammar_refs": []
+  },
+  {
     "word_id": "en-word-b1-work-pension",
-    "legacy_id": "B1-NOUN-SOC-060",
+    "legacy_id": "B1-NOUN-SOC-072",
     "word": "pension",
     "pos": "noun",
     "level": "B1",
@@ -45994,7 +47788,7 @@
   },
   {
     "word_id": "en-word-b1-work-pilot",
-    "legacy_id": "B1-NOUN-SOC-061",
+    "legacy_id": "B1-NOUN-SOC-073",
     "word": "pilot",
     "pos": "noun",
     "level": "B1",
@@ -46007,7 +47801,7 @@
   },
   {
     "word_id": "en-word-b1-work-promotion",
-    "legacy_id": "B1-NOUN-SOC-062",
+    "legacy_id": "B1-NOUN-SOC-074",
     "word": "promotion",
     "pos": "noun",
     "level": "B1",
@@ -46019,8 +47813,34 @@
     "grammar_refs": []
   },
   {
+    "word_id": "en-word-b1-work-qualification",
+    "legacy_id": "B1-NOUN-SOC-075",
+    "word": "qualification",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Society/Work/Employment_Business.js",
+      "topic": "work",
+      "path_detail": "Nouns/Society/Work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-work-recruitment",
+    "legacy_id": "B1-NOUN-SOC-076",
+    "word": "recruitment",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Society/Work/Employment_Business.js",
+      "topic": "work",
+      "path_detail": "Nouns/Society/Work"
+    },
+    "grammar_refs": []
+  },
+  {
     "word_id": "en-word-b1-work-redundancy",
-    "legacy_id": "B1-NOUN-SOC-063",
+    "legacy_id": "B1-NOUN-SOC-077",
     "word": "redundancy",
     "pos": "noun",
     "level": "B1",
@@ -46032,8 +47852,47 @@
     "grammar_refs": []
   },
   {
+    "word_id": "en-word-b1-work-resignation",
+    "legacy_id": "B1-NOUN-SOC-078",
+    "word": "resignation",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Society/Work/Employment_Business.js",
+      "topic": "work",
+      "path_detail": "Nouns/Society/Work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-work-resume",
+    "legacy_id": "B1-NOUN-SOC-079",
+    "word": "resume",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Society/Work/Employment_Business.js",
+      "topic": "work",
+      "path_detail": "Nouns/Society/Work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-work-salary",
+    "legacy_id": "B1-NOUN-SOC-080",
+    "word": "salary",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Society/Work/Employment_Business.js",
+      "topic": "work",
+      "path_detail": "Nouns/Society/Work"
+    },
+    "grammar_refs": []
+  },
+  {
     "word_id": "en-word-b1-work-skill",
-    "legacy_id": "B1-NOUN-SOC-064",
+    "legacy_id": "B1-NOUN-SOC-081",
     "word": "skill",
     "pos": "noun",
     "level": "B1",
@@ -46046,7 +47905,7 @@
   },
   {
     "word_id": "en-word-b1-work-skill-set",
-    "legacy_id": "B1-NOUN-SOC-065",
+    "legacy_id": "B1-NOUN-SOC-082",
     "word": "skill set",
     "pos": "noun",
     "level": "B1",
@@ -46059,7 +47918,7 @@
   },
   {
     "word_id": "en-word-b1-work-software-developer",
-    "legacy_id": "B1-NOUN-SOC-066",
+    "legacy_id": "B1-NOUN-SOC-083",
     "word": "software developer",
     "pos": "noun",
     "level": "B1",
@@ -46072,7 +47931,7 @@
   },
   {
     "word_id": "en-word-b1-work-tax",
-    "legacy_id": "B1-NOUN-SOC-067",
+    "legacy_id": "B1-NOUN-SOC-084",
     "word": "tax",
     "pos": "noun",
     "level": "B1",
@@ -46085,7 +47944,7 @@
   },
   {
     "word_id": "en-word-b1-work-tax-return",
-    "legacy_id": "B1-NOUN-SOC-068",
+    "legacy_id": "B1-NOUN-SOC-085",
     "word": "tax return",
     "pos": "noun",
     "level": "B1",
@@ -46098,7 +47957,7 @@
   },
   {
     "word_id": "en-word-b1-work-teamwork",
-    "legacy_id": "B1-NOUN-SOC-069",
+    "legacy_id": "B1-NOUN-SOC-086",
     "word": "teamwork",
     "pos": "noun",
     "level": "B1",
@@ -46111,7 +47970,7 @@
   },
   {
     "word_id": "en-word-b1-work-workload",
-    "legacy_id": "B1-NOUN-SOC-070",
+    "legacy_id": "B1-NOUN-SOC-087",
     "word": "workload",
     "pos": "noun",
     "level": "B1",
@@ -46124,12 +47983,64 @@
   },
   {
     "word_id": "en-word-b1-work-workplace",
-    "legacy_id": "B1-NOUN-SOC-071",
+    "legacy_id": "B1-NOUN-SOC-088",
     "word": "workplace",
     "pos": "noun",
     "level": "B1",
     "vocab": {
       "file": "vocabulary/en/B1/Nouns/Society/Work/Employment_Business.js",
+      "topic": "work",
+      "path_detail": "Nouns/Society/Work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-work-executive",
+    "legacy_id": "B1-NOUN-SOC-089",
+    "word": "executive",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Society/Work/Professional_Roles.js",
+      "topic": "work",
+      "path_detail": "Nouns/Society/Work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-work-manager",
+    "legacy_id": "B1-NOUN-SOC-090",
+    "word": "manager",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Society/Work/Professional_Roles.js",
+      "topic": "work",
+      "path_detail": "Nouns/Society/Work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-work-occupation",
+    "legacy_id": "B1-NOUN-SOC-091",
+    "word": "occupation",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Society/Work/Professional_Roles.js",
+      "topic": "work",
+      "path_detail": "Nouns/Society/Work"
+    },
+    "grammar_refs": []
+  },
+  {
+    "word_id": "en-word-b1-work-supervisor",
+    "legacy_id": "B1-NOUN-SOC-092",
+    "word": "supervisor",
+    "pos": "noun",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Nouns/Society/Work/Professional_Roles.js",
       "topic": "work",
       "path_detail": "Nouns/Society/Work"
     },
@@ -46305,6 +48216,19 @@
     "grammar_refs": []
   },
   {
+    "word_id": "en-word-b1-space-orbit",
+    "legacy_id": "B1-VERB-SCI-006",
+    "word": "orbit",
+    "pos": "verb",
+    "level": "B1",
+    "vocab": {
+      "file": "vocabulary/en/B1/Verbs/Science/Space/Astronomy_Cosmos.js",
+      "topic": "space",
+      "path_detail": "Verbs/Science/Space"
+    },
+    "grammar_refs": []
+  },
+  {
     "word_id": "en-word-b1-language-argue",
     "legacy_id": "B1-VERB-SOC-001",
     "word": "argue",
@@ -46409,21 +48333,8 @@
     "grammar_refs": []
   },
   {
-    "word_id": "en-word-b1-social-garden",
-    "legacy_id": "B1-VERB-SOC-009",
-    "word": "garden",
-    "pos": "verb",
-    "level": "B1",
-    "vocab": {
-      "file": "vocabulary/en/B1/Verbs/Society/Culture/Social_Relations.js",
-      "topic": "social",
-      "path_detail": "Verbs/Society/Culture"
-    },
-    "grammar_refs": []
-  },
-  {
     "word_id": "en-word-b1-social-participate",
-    "legacy_id": "B1-VERB-SOC-010",
+    "legacy_id": "B1-VERB-SOC-009",
     "word": "participate",
     "pos": "verb",
     "level": "B1",
@@ -46436,7 +48347,7 @@
   },
   {
     "word_id": "en-word-b1-social-photograph",
-    "legacy_id": "B1-VERB-SOC-011",
+    "legacy_id": "B1-VERB-SOC-010",
     "word": "photograph",
     "pos": "verb",
     "level": "B1",
@@ -46449,7 +48360,7 @@
   },
   {
     "word_id": "en-word-b1-social-protest",
-    "legacy_id": "B1-VERB-SOC-012",
+    "legacy_id": "B1-VERB-SOC-011",
     "word": "protest",
     "pos": "verb",
     "level": "B1",
@@ -46462,7 +48373,7 @@
   },
   {
     "word_id": "en-word-b1-social-raise",
-    "legacy_id": "B1-VERB-SOC-013",
+    "legacy_id": "B1-VERB-SOC-012",
     "word": "raise",
     "pos": "verb",
     "level": "B1",
@@ -46475,7 +48386,7 @@
   },
   {
     "word_id": "en-word-b1-social-stand-for",
-    "legacy_id": "B1-VERB-SOC-014",
+    "legacy_id": "B1-VERB-SOC-013",
     "word": "stand for",
     "pos": "verb",
     "level": "B1",
@@ -46488,7 +48399,7 @@
   },
   {
     "word_id": "en-word-b1-social-support",
-    "legacy_id": "B1-VERB-SOC-015",
+    "legacy_id": "B1-VERB-SOC-014",
     "word": "support",
     "pos": "verb",
     "level": "B1",
@@ -46500,21 +48411,8 @@
     "grammar_refs": []
   },
   {
-    "word_id": "en-word-b1-social-volunteer-aeb162",
-    "legacy_id": "B1-VERB-SOC-016",
-    "word": "volunteer",
-    "pos": "verb",
-    "level": "B1",
-    "vocab": {
-      "file": "vocabulary/en/B1/Verbs/Society/Culture/Social_Relations.js",
-      "topic": "social",
-      "path_detail": "Verbs/Society/Culture"
-    },
-    "grammar_refs": []
-  },
-  {
     "word_id": "en-word-b1-social-vote",
-    "legacy_id": "B1-VERB-SOC-017",
+    "legacy_id": "B1-VERB-SOC-015",
     "word": "vote",
     "pos": "verb",
     "level": "B1",
@@ -46527,7 +48425,7 @@
   },
   {
     "word_id": "en-word-b1-work-achieve",
-    "legacy_id": "B1-VERB-SOC-018",
+    "legacy_id": "B1-VERB-SOC-016",
     "word": "achieve",
     "pos": "verb",
     "level": "B1",
@@ -46540,7 +48438,7 @@
   },
   {
     "word_id": "en-word-b1-work-acknowledge",
-    "legacy_id": "B1-VERB-SOC-019",
+    "legacy_id": "B1-VERB-SOC-017",
     "word": "acknowledge",
     "pos": "verb",
     "level": "B1",
@@ -46553,7 +48451,7 @@
   },
   {
     "word_id": "en-word-b1-work-adapt",
-    "legacy_id": "B1-VERB-SOC-020",
+    "legacy_id": "B1-VERB-SOC-018",
     "word": "adapt",
     "pos": "verb",
     "level": "B1",
@@ -46566,7 +48464,7 @@
   },
   {
     "word_id": "en-word-b1-work-admit",
-    "legacy_id": "B1-VERB-SOC-021",
+    "legacy_id": "B1-VERB-SOC-019",
     "word": "admit",
     "pos": "verb",
     "level": "B1",
@@ -46579,7 +48477,7 @@
   },
   {
     "word_id": "en-word-b1-work-appreciate",
-    "legacy_id": "B1-VERB-SOC-022",
+    "legacy_id": "B1-VERB-SOC-020",
     "word": "appreciate",
     "pos": "verb",
     "level": "B1",
@@ -46592,7 +48490,7 @@
   },
   {
     "word_id": "en-word-b1-work-assume",
-    "legacy_id": "B1-VERB-SOC-023",
+    "legacy_id": "B1-VERB-SOC-021",
     "word": "assume",
     "pos": "verb",
     "level": "B1",
@@ -46605,7 +48503,7 @@
   },
   {
     "word_id": "en-word-b1-work-blame",
-    "legacy_id": "B1-VERB-SOC-024",
+    "legacy_id": "B1-VERB-SOC-022",
     "word": "blame",
     "pos": "verb",
     "level": "B1",
@@ -46618,7 +48516,7 @@
   },
   {
     "word_id": "en-word-b1-work-build-up",
-    "legacy_id": "B1-VERB-SOC-025",
+    "legacy_id": "B1-VERB-SOC-023",
     "word": "build up",
     "pos": "verb",
     "level": "B1",
@@ -46630,21 +48528,8 @@
     "grammar_refs": []
   },
   {
-    "word_id": "en-word-b1-work-come-across",
-    "legacy_id": "B1-VERB-SOC-026",
-    "word": "come across",
-    "pos": "verb",
-    "level": "B1",
-    "vocab": {
-      "file": "vocabulary/en/B1/Verbs/Society/Work/Employment_Business.js",
-      "topic": "work",
-      "path_detail": "Verbs/Society/Work"
-    },
-    "grammar_refs": []
-  },
-  {
     "word_id": "en-word-b1-work-confirm",
-    "legacy_id": "B1-VERB-SOC-027",
+    "legacy_id": "B1-VERB-SOC-024",
     "word": "confirm",
     "pos": "verb",
     "level": "B1",
@@ -46657,7 +48542,7 @@
   },
   {
     "word_id": "en-word-b1-work-consider",
-    "legacy_id": "B1-VERB-SOC-028",
+    "legacy_id": "B1-VERB-SOC-025",
     "word": "consider",
     "pos": "verb",
     "level": "B1",
@@ -46670,7 +48555,7 @@
   },
   {
     "word_id": "en-word-b1-work-contribute",
-    "legacy_id": "B1-VERB-SOC-029",
+    "legacy_id": "B1-VERB-SOC-026",
     "word": "contribute",
     "pos": "verb",
     "level": "B1",
@@ -46683,7 +48568,7 @@
   },
   {
     "word_id": "en-word-b1-work-deal-with",
-    "legacy_id": "B1-VERB-SOC-030",
+    "legacy_id": "B1-VERB-SOC-027",
     "word": "deal with",
     "pos": "verb",
     "level": "B1",
@@ -46696,7 +48581,7 @@
   },
   {
     "word_id": "en-word-b1-work-deny",
-    "legacy_id": "B1-VERB-SOC-031",
+    "legacy_id": "B1-VERB-SOC-028",
     "word": "deny",
     "pos": "verb",
     "level": "B1",
@@ -46709,7 +48594,7 @@
   },
   {
     "word_id": "en-word-b1-work-describe",
-    "legacy_id": "B1-VERB-SOC-032",
+    "legacy_id": "B1-VERB-SOC-029",
     "word": "describe",
     "pos": "verb",
     "level": "B1",
@@ -46722,7 +48607,7 @@
   },
   {
     "word_id": "en-word-b1-work-develop",
-    "legacy_id": "B1-VERB-SOC-033",
+    "legacy_id": "B1-VERB-SOC-030",
     "word": "develop",
     "pos": "verb",
     "level": "B1",
@@ -46735,7 +48620,7 @@
   },
   {
     "word_id": "en-word-b1-work-encourage",
-    "legacy_id": "B1-VERB-SOC-034",
+    "legacy_id": "B1-VERB-SOC-031",
     "word": "encourage",
     "pos": "verb",
     "level": "B1",
@@ -46748,7 +48633,7 @@
   },
   {
     "word_id": "en-word-b1-work-explain",
-    "legacy_id": "B1-VERB-SOC-035",
+    "legacy_id": "B1-VERB-SOC-032",
     "word": "explain",
     "pos": "verb",
     "level": "B1",
@@ -46761,7 +48646,7 @@
   },
   {
     "word_id": "en-word-b1-work-freelance",
-    "legacy_id": "B1-VERB-SOC-036",
+    "legacy_id": "B1-VERB-SOC-033",
     "word": "freelance",
     "pos": "adjective / adverb",
     "level": "B1",
@@ -46774,7 +48659,7 @@
   },
   {
     "word_id": "en-word-b1-work-identify",
-    "legacy_id": "B1-VERB-SOC-037",
+    "legacy_id": "B1-VERB-SOC-034",
     "word": "identify",
     "pos": "verb",
     "level": "B1",
@@ -46787,7 +48672,7 @@
   },
   {
     "word_id": "en-word-b1-work-implement",
-    "legacy_id": "B1-VERB-SOC-038",
+    "legacy_id": "B1-VERB-SOC-035",
     "word": "implement",
     "pos": "verb",
     "level": "B1",
@@ -46800,7 +48685,7 @@
   },
   {
     "word_id": "en-word-b1-work-improve",
-    "legacy_id": "B1-VERB-SOC-039",
+    "legacy_id": "B1-VERB-SOC-036",
     "word": "improve",
     "pos": "verb",
     "level": "B1",
@@ -46813,7 +48698,7 @@
   },
   {
     "word_id": "en-word-b1-work-insist",
-    "legacy_id": "B1-VERB-SOC-040",
+    "legacy_id": "B1-VERB-SOC-037",
     "word": "insist",
     "pos": "verb",
     "level": "B1",
@@ -46826,7 +48711,7 @@
   },
   {
     "word_id": "en-word-b1-work-look-into",
-    "legacy_id": "B1-VERB-SOC-041",
+    "legacy_id": "B1-VERB-SOC-038",
     "word": "look into",
     "pos": "verb",
     "level": "B1",
@@ -46839,7 +48724,7 @@
   },
   {
     "word_id": "en-word-b1-work-motivate",
-    "legacy_id": "B1-VERB-SOC-042",
+    "legacy_id": "B1-VERB-SOC-039",
     "word": "motivate",
     "pos": "verb",
     "level": "B1",
@@ -46852,7 +48737,7 @@
   },
   {
     "word_id": "en-word-b1-work-present",
-    "legacy_id": "B1-VERB-SOC-043",
+    "legacy_id": "B1-VERB-SOC-040",
     "word": "present",
     "pos": "verb",
     "level": "B1",
@@ -46865,7 +48750,7 @@
   },
   {
     "word_id": "en-word-b1-work-prioritise",
-    "legacy_id": "B1-VERB-SOC-044",
+    "legacy_id": "B1-VERB-SOC-041",
     "word": "prioritise",
     "pos": "verb",
     "level": "B1",
@@ -46878,7 +48763,7 @@
   },
   {
     "word_id": "en-word-b1-work-put-off",
-    "legacy_id": "B1-VERB-SOC-045",
+    "legacy_id": "B1-VERB-SOC-042",
     "word": "put off",
     "pos": "verb",
     "level": "B1",
@@ -46891,7 +48776,7 @@
   },
   {
     "word_id": "en-word-b1-work-replace",
-    "legacy_id": "B1-VERB-SOC-046",
+    "legacy_id": "B1-VERB-SOC-043",
     "word": "replace",
     "pos": "verb",
     "level": "B1",
@@ -46904,7 +48789,7 @@
   },
   {
     "word_id": "en-word-b1-work-report",
-    "legacy_id": "B1-VERB-SOC-047",
+    "legacy_id": "B1-VERB-SOC-044",
     "word": "report",
     "pos": "verb",
     "level": "B1",
@@ -46917,7 +48802,7 @@
   },
   {
     "word_id": "en-word-b1-work-resolve",
-    "legacy_id": "B1-VERB-SOC-048",
+    "legacy_id": "B1-VERB-SOC-045",
     "word": "resolve",
     "pos": "verb",
     "level": "B1",
@@ -46930,7 +48815,7 @@
   },
   {
     "word_id": "en-word-b1-work-suggest",
-    "legacy_id": "B1-VERB-SOC-049",
+    "legacy_id": "B1-VERB-SOC-046",
     "word": "suggest",
     "pos": "verb",
     "level": "B1",
@@ -46943,7 +48828,7 @@
   },
   {
     "word_id": "en-word-b1-work-take-on",
-    "legacy_id": "B1-VERB-SOC-050",
+    "legacy_id": "B1-VERB-SOC-047",
     "word": "take on",
     "pos": "verb",
     "level": "B1",
@@ -46956,7 +48841,7 @@
   },
   {
     "word_id": "en-word-b1-work-warn",
-    "legacy_id": "B1-VERB-SOC-051",
+    "legacy_id": "B1-VERB-SOC-048",
     "word": "warn",
     "pos": "verb",
     "level": "B1",
