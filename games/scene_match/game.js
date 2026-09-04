@@ -70,7 +70,11 @@
                 city: new Set(),
                 cafe: new Set(),
                 market: new Set(),
-                school_office: new Set()
+                school_office: new Set(),
+                airport: new Set(),
+                hospital: new Set(),
+                park_nature: new Set(),
+                restaurant: new Set()
             };
             this.selectedWordId = null;
 
@@ -199,6 +203,30 @@
                     <!-- Athens Parthenon Pillars Silhouette -->
                     <rect x="720" y="100" width="50" height="30" fill="#0284c7" opacity="0.3"/>
                     <text x="725" y="140" fill="#0369a1" font-size="10" font-family="sans-serif">🏛️ Αθήνα</text>
+                </g>`;
+            } else if (lang === 'es') {
+                return `<g id="cult-es" opacity="0.85">
+                    <!-- Madrid Plaza Mayor Arch Silhouette -->
+                    <path d="M720 120 C720 90, 760 90, 760 120 Z" fill="#ea580c" opacity="0.3"/>
+                    <text x="725" y="140" fill="#c2410c" font-size="10" font-family="sans-serif">🐻 Madrid</text>
+                </g>`;
+            } else if (lang === 'de') {
+                return `<g id="cult-de" opacity="0.85">
+                    <!-- Berlin Brandenburg Gate Silhouette -->
+                    <rect x="715" y="100" width="60" height="25" fill="#f59e0b" opacity="0.3"/>
+                    <text x="720" y="140" fill="#d97706" font-size="10" font-family="sans-serif">🏛️ Berlin</text>
+                </g>`;
+            } else if (lang === 'hy') {
+                return `<g id="cult-hy" opacity="0.85">
+                    <!-- Yerevan Mount Ararat Silhouette -->
+                    <path d="M710 130 L740 90 L770 130 Z" fill="#0284c7" opacity="0.3"/>
+                    <text x="720" y="140" fill="#0369a1" font-size="10" font-family="sans-serif">🏔️ Ереван</text>
+                </g>`;
+            } else if (lang === 'ka') {
+                return `<g id="cult-ka" opacity="0.85">
+                    <!-- Tbilisi Narikala Fortress Silhouette -->
+                    <rect x="720" y="105" width="50" height="20" fill="#16a34a" opacity="0.3"/>
+                    <text x="720" y="140" fill="#15803d" font-size="10" font-family="sans-serif">🏰 თბილისი</text>
                 </g>`;
             }
             return `<g id="cult-en" opacity="0.85">
