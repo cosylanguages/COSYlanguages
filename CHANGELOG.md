@@ -51,7 +51,7 @@ Add an entry every time a stage is merged to main.
 - No code was changed in this stage
 
 ### [Unreleased] · 2027-02-23
-- Added Scene Match interactive activity (`games/scene_match/`) with 3 interconnected apartment scenes (living room, bedroom, kitchen), SVG illustrations, word bank matching, pinned labels, door navigation hotspots, and 5-language localization (`en`, `fr`, `it`, `ru`, `el`).
+- Added Scene Match interactive activity (`games/scene_match/`) covering 8 curriculum topics across 9 scenes (Living Room, Bedroom, Kitchen, Bathroom, Daily Routine, Four Seasons, Wardrobe & Clothing, Farm Animals, and City Street), SVG illustrations, word bank matching, pinned labels, door navigation hotspots, and 5-language localization (`en`, `fr`, `it`, `ru`, `el`).
 - Audited accessibility and mobile responsiveness: added landmark roles, detailed ARIA labels on hotspots, `@media (prefers-reduced-motion: reduce)` support, and 44x44px touch targets on mobile controls.
 - Created Playwright test suite `tests/scene_match.spec.ts` covering correct/wrong match logic, localized UI and vocabulary updates, and completion state.
 - Removed empty curriculum JSON stubs `curriculum/en/general/A2.json`, `B1.json`, `B2.json`, and `C2.json` as they were unreferenced by application/build code and avoided risk of silently loading empty curriculum data.

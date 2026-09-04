@@ -61,7 +61,13 @@
             this.sceneMatches = {
                 apartment: new Set(),
                 bedroom: new Set(),
-                kitchen: new Set()
+                kitchen: new Set(),
+                bathroom: new Set(),
+                routine: new Set(),
+                seasons: new Set(),
+                clothing: new Set(),
+                animals: new Set(),
+                city: new Set()
             };
             this.selectedWordId = null;
 
