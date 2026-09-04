@@ -21,7 +21,7 @@
         gap: 1.25rem;
         max-width: 960px;
         margin: 0 auto;
-        padding: 1rem;
+        padding: 1rem 1rem 4rem 1rem;
       }
       .sm-header-card {
         background: white;
@@ -47,6 +47,11 @@
         background: var(--tan-light, #f8f6f0);
         color: var(--ink);
         cursor: pointer;
+        min-height: 44px;
+        min-width: 44px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
         transition: all 0.2s ease;
       }
       .sm-tab-btn:hover {
@@ -169,6 +174,17 @@
         80% { transform: translate(4px, 0); }
       }
 
+      @media (prefers-reduced-motion: reduce) {
+        .sm-hotspot.shake rect.hs-hit {
+          animation: none !important;
+        }
+        .sm-tab-btn,
+        .sm-word-btn,
+        .sm-progress-fill {
+          transition: none !important;
+        }
+      }
+
       /* Pinned Labels */
       .sm-pinned-label {
         font-family: 'DM Sans', sans-serif;
@@ -224,6 +240,11 @@
         background: white;
         color: var(--ink);
         cursor: pointer;
+        min-height: 44px;
+        min-width: 44px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
         transition: all 0.2s ease;
       }
       .sm-word-btn:hover:not(:disabled) {
@@ -275,19 +296,19 @@
 <body class="game-standalone">
     <nav id="cosy-nav"></nav>
 
-    <div class="game-overlay open" id="game-overlay" style="position: relative; height: calc(100vh - 62px); z-index: 1;">
+    <main class="game-overlay open" id="game-overlay" style="position: relative; min-height: calc(100vh - 62px); z-index: 1;">
       <div class="go-topbar">
-        <button class="go-back" onclick="location.href='../index.html'">← Back to games</button>
+        <button class="go-back" type="button" onclick="location.href='../index.html'">← Back to games</button>
         <div>
-          <div class="go-title" id="go-title" data-i18n="scene_match_title">Scene Match 🖼️</div>
-          <div class="go-meta" id="go-meta" data-i18n="scene_match_meta">Vocab & Puzzles · Solo</div>
+          <h1 class="go-title" id="go-title" data-i18n="scene_match_title" style="margin:0; font-size:1.25rem;">Scene Match 🖼️</h1>
+          <div class="go-meta" id="go-meta" data-i18n="scene_match_meta">Vocab &amp; Puzzles · Solo</div>
         </div>
         <div id="go-topbar-right"></div>
       </div>
       <div class="go-body" id="go-body">
           <div id="game-loader" style="text-align:center; padding: 4rem;">Loading room scenes...</div>
       </div>
-    </div>
+    </main>
 
     <!-- Core Scripts -->
     <script src="../../js/data/languages.js"></script>
