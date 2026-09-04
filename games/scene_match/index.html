@@ -158,24 +158,36 @@
         animation: hsShake 0.4s ease;
       }
 
-      /* Door Hotspots */
+      /* Door & Portal Hotspots */
       .sm-door-hotspot {
         cursor: pointer;
         outline: none;
+        transform-origin: center left;
+        transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.2s;
       }
       .sm-door-hotspot rect {
-        fill: rgba(251, 191, 36, 0.05);
+        fill: rgba(251, 191, 36, 0.08);
         stroke: #f59e0b;
-        stroke-width: 2;
-        stroke-dasharray: 4 4;
-        transition: all 0.2s ease;
+        stroke-width: 2.5;
+        stroke-dasharray: 6 3;
+        transition: all 0.3s ease;
+      }
+      .sm-door-hotspot:hover,
+      .sm-door-hotspot:focus {
+        transform: perspective(600px) rotateY(-35deg) scale(1.05);
       }
       .sm-door-hotspot:hover rect,
       .sm-door-hotspot:focus rect {
-        fill: rgba(245, 158, 11, 0.25);
-        stroke: #d97706;
-        stroke-width: 3;
+        fill: rgba(245, 158, 11, 0.35);
+        stroke: #f59e0b;
+        stroke-width: 3.5;
         stroke-dasharray: none;
+        filter: drop-shadow(0 0 10px rgba(245, 158, 11, 0.7));
+      }
+      .sm-door-hotspot:hover .sm-door-bg,
+      .sm-door-hotspot:focus .sm-door-bg {
+        fill: #92400e;
+        transform: scale(1.1);
       }
 
       @keyframes hsShake {
@@ -335,6 +347,8 @@
 
     <!-- Scene Datasets -->
     <script src="../data/scenes/apartment.js"></script>
+    <script src="../data/scenes/apartment_plan.js"></script>
+    <script src="../data/scenes/calendar.js"></script>
     <script src="../data/scenes/bedroom.js"></script>
     <script src="../data/scenes/kitchen.js"></script>
     <script src="../data/scenes/bathroom.js"></script>
@@ -345,6 +359,9 @@
     <script src="../data/scenes/city.js"></script>
     <script src="../data/scenes/cafe.js"></script>
     <script src="../data/scenes/market.js"></script>
+    <script src="../data/scenes/market_fruit.js"></script>
+    <script src="../data/scenes/market_veg.js"></script>
+    <script src="../data/scenes/market_fish.js"></script>
     <script src="../data/scenes/school_office.js"></script>
     <script src="../data/scenes/airport.js"></script>
     <script src="../data/scenes/hospital.js"></script>

@@ -25,13 +25,40 @@ test.describe('Scene Match Game (/games/scene_match/)', () => {
   test('Open World Door Navigation switches active scene', async ({ page }) => {
     await page.click('.btn-start-game');
 
-    // On apartment scene, click door to kitchen or city
+    // On apartment scene, click door
     const doors = page.locator('.sm-door-hotspot');
     await expect(doors.first()).toBeVisible();
     await doors.first().click();
 
     // Verify scene tab changes
     await expect(page.locator('.sm-tab-btn.active')).toBeVisible();
+  });
+
+  test('Apartment Floor Plan and Calendar Hub scenes load and navigate', async ({ page }) => {
+    await page.click('.btn-start-game');
+
+    // Click Blueprint door to open Floor Plan
+    const blueprintDoor = page.locator("g.sm-door-hotspot[aria-label*='Blueprint']");
+    await expect(blueprintDoor).toBeVisible();
+    await blueprintDoor.click();
+
+    await expect(page.locator('.sm-tab-btn.active')).toContainText('Apartment Floor Plan');
+  });
+
+  test('Market Stall transitions navigate to specialized Fruit, Veg, and Fish stalls', async ({ page }) => {
+    await page.selectOption('#sm-s-level', 'A2');
+    await page.click('.btn-start-game');
+
+    // Switch to Market scene
+    await page.click("button.sm-tab-btn:has-text('Market')");
+    await expect(page.locator('.sm-tab-btn.active')).toContainText('Market');
+
+    // Click Fruit stall portal
+    const fruitStall = page.locator("g.sm-door-hotspot[aria-label*='Fruit']");
+    await expect(fruitStall).toBeVisible();
+    await fruitStall.click();
+
+    await expect(page.locator('.sm-tab-btn.active')).toContainText('Fruit Stall');
   });
 
   test('Correct match locks hotspot, pins label, and disables word button', async ({ page }) => {

@@ -25,6 +25,11 @@
                 targetSceneId: "city",
                 x: 15, y: 140, width: 35, height: 230, labelX: 32, labelY: 125,
                 labels: { en: "🚪 City →", fr: "🚪 Ville →", it: "🚪 Città →", ru: "🚪 Город →", el: "🚪 Πόλη →" }
+            },
+            {
+                targetSceneId: "calendar",
+                x: 745, y: 140, width: 35, height: 230, labelX: 762, labelY: 125,
+                labels: { en: "📅 Calendar →", fr: "📅 Calendrier →", it: "📅 Calendario →", ru: "📅 Календарь →", el: "📅 Ημερολόγιο →" }
             }
         ],
         hotspots: [

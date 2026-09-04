@@ -188,8 +188,8 @@
                     <g id="sm-cultural-overlay">${this.renderCulturalOverlay()}</g>
 
                     <!-- Hotspots overlay & labels container -->
-                    <g id="sm-hotspots-group"></g>
                     <g id="sm-doors-group"></g>
+                    <g id="sm-hotspots-group"></g>
                     <g id="sm-labels-group"></g>
                   </svg>
                 </div>

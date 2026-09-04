@@ -24,6 +24,11 @@
         viewBox: "0 0 800 500",
         doors: [
             {
+                targetSceneId: "apartment_plan",
+                x: 520, y: 20, width: 140, height: 40, labelX: 590, labelY: 35,
+                labels: { en: "📐 Blueprint →", fr: "📐 Plan →", it: "📐 Pianta →", ru: "📐 План →", el: "📐 Κάτοψη →" }
+            },
+            {
                 targetSceneId: "bedroom",
                 x: 15, y: 140, width: 35, height: 230, labelX: 32, labelY: 125,
                 labels: { en: "🚪 Bedroom →", fr: "🚪 Chambre →", it: "🚪 Camera →", ru: "🚪 Спальня →", el: "🚪 Υπνοδωμάτιο →" }
@@ -72,6 +77,9 @@
             <rect x="745" y="130" width="45" height="245" fill="#451a03" rx="2" />
             <rect x="750" y="140" width="35" height="230" fill="#78350f" />
             <circle cx="758" cy="255" r="4" fill="#fbbf24" />
+
+            <!-- Sunbeam Ray Overlay -->
+            <polygon points="260,210 460,210 580,500 180,500" fill="#fef08a" opacity="0.12" />
 
             <!-- 1. Window -->
             <g id="illustration-window">

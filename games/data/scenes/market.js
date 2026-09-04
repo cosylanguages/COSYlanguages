@@ -24,9 +24,19 @@
                 labels: { en: "🚪 City →", fr: "🚪 Ville →", it: "🚪 Città →", ru: "🚪 Город →", el: "🚪 Πόλη →" }
             },
             {
-                targetSceneId: "cafe",
-                x: 380, y: 140, width: 35, height: 100, labelX: 398, labelY: 125,
-                labels: { en: "🚪 Café →", fr: "🚪 Café →", it: "🚪 Caffè →", ru: "🚪 Кафе →", el: "🚪 Καφέ →" }
+                targetSceneId: "market_fruit",
+                x: 120, y: 240, width: 160, height: 120, labelX: 200, labelY: 225,
+                labels: { en: "🍎 Fruit Stall →", fr: "🍎 Étal de fruits →", it: "🍎 Banco della frutta →", ru: "🍎 Фруктовая лавка →", el: "🍎 Πάγκος φρούτων →" }
+            },
+            {
+                targetSceneId: "market_veg",
+                x: 320, y: 240, width: 160, height: 120, labelX: 400, labelY: 225,
+                labels: { en: "🥕 Veg Stall →", fr: "🥕 Étal de légumes →", it: "🥕 Banco della verdura →", ru: "🥕 Овощная лавка →", el: "🥕 Πάγκος λαχανικών →" }
+            },
+            {
+                targetSceneId: "market_fish",
+                x: 520, y: 240, width: 160, height: 120, labelX: 600, labelY: 225,
+                labels: { en: "🐟 Fish Stall →", fr: "🐟 Étal de poissons →", it: "🐟 Banco del pesce →", ru: "🐟 Рыбная лавка →", el: "🐟 Πάγκος ψαριών →" }
             },
             {
                 targetSceneId: "school_office",
