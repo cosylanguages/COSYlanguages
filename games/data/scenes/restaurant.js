@@ -4,7 +4,6 @@
     window.COSY_SCENE_DATA = window.COSY_SCENE_DATA || {};
     window.COSY_SCENE_DATA['restaurant'] = {
         id: 'restaurant',
-        imageUrl: 'images/scenes/restaurant.jpg',
         title: {
             en: "Restaurant & Dining",
             fr: "Restaurant et Repas",

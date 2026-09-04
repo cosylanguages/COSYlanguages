@@ -11,7 +11,6 @@
 
     window.COSY_SCENE_DATA.clothing = {
         id: 'clothing',
-        imageUrl: 'images/scenes/clothing.jpg',
         title: {
             en: 'Wardrobe & Clothing',
             fr: 'Garde-robe',

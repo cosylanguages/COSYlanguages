@@ -11,7 +11,6 @@
 
     window.COSY_SCENE_DATA.bathroom = {
         id: 'bathroom',
-        imageUrl: 'images/scenes/bathroom.jpg',
         title: {
             en: 'Bathroom',
             fr: 'Salle de bain',
