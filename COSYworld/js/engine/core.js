@@ -79,7 +79,7 @@ export class GameEngine {
     async loadData() {
         const basePath = 'data';
         const [languagesRes, districtsRes, objectsRes, npcsRes, questsRes, grammarRes] = await Promise.all([
-            fetch(`${basePath}/languages.json`).then(r => r.json()),
+            fetch(`${basePath}/languages/languages.json`).then(r => r.json()),
             fetch(`${basePath}/scenes/districts.json`).then(r => r.json()),
             fetch(`${basePath}/vocabulary/objects.json`).then(r => r.json()),
             fetch(`${basePath}/npcs/npcs.json`).then(r => r.json()),

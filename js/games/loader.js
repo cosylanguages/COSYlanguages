@@ -26,13 +26,18 @@
       questions: 'hundred_questions/index.html',
       storytelling: 'storytelling/index.html',
       scenematch: 'scene_match/index.html',
-      cosyworld: 'cosy_world/index.html'
+      cosyworld: 'https://cosylanguages.github.io/COSYworld/'
     };
 
     window.openGame = function(id) {
         const path = GAME_PATH_MAP[id];
         if (path) {
-            location.href = path;
+            // Check if browsing locally or on domain fallback
+            if (id === 'cosyworld' && (location.hostname === 'localhost' || location.hostname === '127.0.0.1')) {
+                location.href = '../COSYworld/index.html';
+            } else {
+                location.href = path;
+            }
         } else {
             console.error('Game not found in route map:', id);
         }
@@ -66,7 +71,7 @@
         const params = new URLSearchParams(window.location.search);
         const gameParam = params.get('game');
         if (gameParam && GAME_PATH_MAP[gameParam]) {
-            location.href = GAME_PATH_MAP[gameParam];
+            window.openGame(gameParam);
         }
     }
 
