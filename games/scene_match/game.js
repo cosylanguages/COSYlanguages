@@ -67,7 +67,10 @@
                 seasons: new Set(),
                 clothing: new Set(),
                 animals: new Set(),
-                city: new Set()
+                city: new Set(),
+                cafe: new Set(),
+                market: new Set(),
+                school_office: new Set()
             };
             this.selectedWordId = null;
 
@@ -138,6 +141,7 @@
                 <div class="sm-stage">
                   <svg class="sm-svg-scene" viewBox="${data.viewBox}" xmlns="http://www.w3.org/2000/svg">
                     ${data.svgBackground}
+                    <g id="sm-cultural-overlay">${this.renderCulturalOverlay()}</g>
 
                     <!-- Hotspots overlay & labels container -->
                     <g id="sm-hotspots-group"></g>
@@ -168,6 +172,38 @@
             this.renderHotspots();
             this.renderExistingPinnedLabels();
             this.updateProgress();
+        },
+
+        renderCulturalOverlay() {
+            const lang = this.activeLang;
+            if (lang === 'fr') {
+                return `<g id="cult-fr" opacity="0.85">
+                    <!-- Paris Haussmann Window Silhouette -->
+                    <path d="M720 100 L780 100 L750 20 Z" fill="#475569" opacity="0.3"/>
+                    <text x="740" y="140" fill="#3b82f6" font-size="10" font-family="sans-serif">🗼 Paris</text>
+                </g>`;
+            } else if (lang === 'it') {
+                return `<g id="cult-it" opacity="0.85">
+                    <!-- Rome Colosseum Silhouette -->
+                    <path d="M710 120 Q740 90 770 120 Z" fill="#92400e" opacity="0.3"/>
+                    <text x="730" y="140" fill="#10b981" font-size="10" font-family="sans-serif">🏛️ Roma</text>
+                </g>`;
+            } else if (lang === 'ru') {
+                return `<g id="cult-ru" opacity="0.85">
+                    <!-- Moscow Kremlin Dome Silhouette -->
+                    <path d="M720 110 Q740 70 760 110 Z" fill="#b91c1c" opacity="0.3"/>
+                    <text x="725" y="140" fill="#ef4444" font-size="10" font-family="sans-serif">🕌 Москва</text>
+                </g>`;
+            } else if (lang === 'el') {
+                return `<g id="cult-el" opacity="0.85">
+                    <!-- Athens Parthenon Pillars Silhouette -->
+                    <rect x="720" y="100" width="50" height="30" fill="#0284c7" opacity="0.3"/>
+                    <text x="725" y="140" fill="#0369a1" font-size="10" font-family="sans-serif">🏛️ Αθήνα</text>
+                </g>`;
+            }
+            return `<g id="cult-en" opacity="0.85">
+                <text x="725" y="140" fill="#64748b" font-size="10" font-family="sans-serif">🇬🇧 London</text>
+            </g>`;
         },
 
         renderDoors() {

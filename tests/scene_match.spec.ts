@@ -80,6 +80,9 @@ test.describe('Scene Match Game (/games/scene_match/)', () => {
       window.COSY_GAME.sceneMatches.clothing = new Set(['shirt', 'jacket', 'dress', 'trousers', 'skirt', 'shoes', 'socks', 'hat']);
       window.COSY_GAME.sceneMatches.animals = new Set(['cow', 'horse', 'sheep', 'pig', 'dog', 'cat', 'duck', 'bird']);
       window.COSY_GAME.sceneMatches.city = new Set(['school', 'hospital', 'supermarket', 'bank', 'restaurant', 'bus_stop', 'park', 'library']);
+      window.COSY_GAME.sceneMatches.cafe = new Set(['coffee_machine', 'menu_board', 'counter', 'croissant', 'cake', 'table', 'coffee_cup']);
+      window.COSY_GAME.sceneMatches.market = new Set(['apples', 'bananas', 'fish', 'scale', 'canopy']);
+      window.COSY_GAME.sceneMatches.school_office = new Set(['blackboard', 'laptop', 'desk', 'books', 'backpack']);
       window.COSY_GAME.updateProgress();
       window.COSY_GAME.checkOverallCompletion();
     });
