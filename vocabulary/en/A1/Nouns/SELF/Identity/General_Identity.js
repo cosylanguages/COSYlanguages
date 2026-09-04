@@ -4,9 +4,9 @@
     {
         "id": "A1-NOUN-SEL-078",
         "word": "I",
-        "emoji": "\ud83d\ude4b",
+        "emoji": "🙋",
         "form": "pronoun",
-        "transcription": "a\u026a",
+        "transcription": "aɪ",
         "definitions": [
             {
                 "text": "Used by a speaker to refer to himself or herself.",
@@ -32,7 +32,7 @@
         "id": "A1-NOUN-SEL-079",
         "word": "balcony",
         "form": "noun",
-        "transcription": "\u02c8b\u00e6lk\u0259ni",
+        "transcription": "ˈbælkəni",
         "definitions": [
             {
                 "text": "A platform outside an upper window of a building.",
@@ -41,7 +41,7 @@
                 ]
             }
         ],
-        "emoji": "\ud83c\udfd9\ufe0f",
+        "emoji": "🏙️",
         "lang": "en",
         "level": "a1",
         "level_code": "A1",
@@ -54,7 +54,7 @@
     {
         "id": "A1-NOUN-SEL-080",
         "word": "he",
-        "emoji": "\ud83d\udc68",
+        "emoji": "👨",
         "form": "pronoun",
         "transcription": "hi",
         "definitions": [
@@ -84,9 +84,9 @@
     {
         "id": "A1-NOUN-SEL-081",
         "word": "her",
-        "emoji": "\ud83d\udc69",
+        "emoji": "👩",
         "form": "pronoun",
-        "transcription": "h\u0259r",
+        "transcription": "hər",
         "definitions": [
             {
                 "text": "The object form of 'she'.",
@@ -114,9 +114,9 @@
     {
         "id": "A1-NOUN-SEL-082",
         "word": "him",
-        "emoji": "\ud83d\udc68",
+        "emoji": "👨",
         "form": "pronoun",
-        "transcription": "h\u026am",
+        "transcription": "hɪm",
         "definitions": [
             {
                 "text": "The object form of 'he'.",
@@ -144,9 +144,9 @@
     {
         "id": "A1-NOUN-SEL-083",
         "word": "it",
-        "emoji": "\ud83d\udce6",
+        "emoji": "📦",
         "form": "pronoun",
-        "transcription": "\u026at",
+        "transcription": "ɪt",
         "definitions": [
             {
                 "text": "Used to refer to a thing, animal, or situation already mentioned.",
@@ -171,7 +171,7 @@
     {
         "id": "A1-NOUN-SEL-084",
         "word": "me",
-        "emoji": "\ud83d\ude4b",
+        "emoji": "🙋",
         "form": "pronoun",
         "transcription": "mi",
         "definitions": [
@@ -199,7 +199,7 @@
         "id": "A1-NOUN-SEL-085",
         "word": "nickname",
         "form": "noun",
-        "transcription": "\u02c8n\u026akne\u026am",
+        "transcription": "ˈnɪkneɪm",
         "definitions": [
             {
                 "text": "An informal name used by family or friends.",
@@ -208,7 +208,7 @@
                 ]
             }
         ],
-        "emoji": "\ud83d\udcdb",
+        "emoji": "📛",
         "lang": "en",
         "level": "a1",
         "level_code": "A1",
@@ -221,9 +221,9 @@
     {
         "id": "A1-NOUN-SEL-086",
         "word": "she",
-        "emoji": "\ud83d\udc69",
+        "emoji": "👩",
         "form": "pronoun",
-        "transcription": "\u0283i",
+        "transcription": "ʃi",
         "definitions": [
             {
                 "text": "Used to refer to a female person or animal already mentioned.",
@@ -252,7 +252,7 @@
         "id": "A1-NOUN-SEL-087",
         "word": "sibling",
         "form": "noun",
-        "transcription": "\u02c8s\u026abl\u026a\u014b",
+        "transcription": "ˈsɪblɪŋ",
         "definitions": [
             {
                 "text": "A brother or sister.",
@@ -261,7 +261,7 @@
                 ]
             }
         ],
-        "emoji": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66",
+        "emoji": "👨‍👩‍👧‍👦",
         "lang": "en",
         "level": "a1",
         "level_code": "A1",
@@ -274,9 +274,9 @@
     {
         "id": "A1-NOUN-SEL-088",
         "word": "them",
-        "emoji": "\ud83d\udc65",
+        "emoji": "👥",
         "form": "pronoun",
-        "transcription": "\u00f0\u025bm",
+        "transcription": "ðɛm",
         "definitions": [
             {
                 "text": "The object form of 'they'.",
@@ -304,9 +304,9 @@
     {
         "id": "A1-NOUN-SEL-089",
         "word": "they",
-        "emoji": "\ud83d\udc65",
+        "emoji": "👥",
         "form": "pronoun",
-        "transcription": "\u00f0e\u026a",
+        "transcription": "ðeɪ",
         "definitions": [
             {
                 "text": "Used to refer to two or more people or things already mentioned.",
@@ -334,9 +334,9 @@
     {
         "id": "A1-NOUN-SEL-091",
         "word": "us",
-        "emoji": "\ud83d\udc65",
+        "emoji": "👥",
         "form": "pronoun",
-        "transcription": "\u0259s",
+        "transcription": "əs",
         "definitions": [
             {
                 "text": "The object form of 'we'.",
@@ -364,7 +364,7 @@
     {
         "id": "A1-NOUN-SEL-092",
         "word": "we",
-        "emoji": "\ud83d\udc65",
+        "emoji": "👥",
         "form": "pronoun",
         "transcription": "wi",
         "definitions": [
@@ -394,7 +394,7 @@
     {
         "id": "A1-NOUN-SEL-093",
         "word": "you",
-        "emoji": "\ud83e\udef5",
+        "emoji": "🫵",
         "form": "pronoun",
         "transcription": "ju",
         "definitions": [
@@ -421,9 +421,9 @@
     {
         "id": "A1-NOUN-SEL-095",
         "word": "adult",
-        "emoji": "\ud83e\uddd1",
+        "emoji": "🧑",
         "form": "noun",
-        "transcription": "\u02c8\u00e6d\u028clt",
+        "transcription": "ˈædʌlt",
         "definitions": [
             {
                 "text": "A fully grown person.",
@@ -444,9 +444,9 @@
     {
         "id": "A1-NOUN-SEL-096",
         "word": "beginner",
-        "emoji": "\ud83d\udd30",
+        "emoji": "🔰",
         "form": "noun",
-        "transcription": "b\u026a\u02c8\u0261\u026an\u0259r",
+        "transcription": "bɪˈɡɪnər",
         "definitions": [
             {
                 "text": "A person who is starting to learn or do something.",
@@ -467,9 +467,9 @@
     {
         "id": "A1-NOUN-SEL-097",
         "word": "fan",
-        "emoji": "\ud83d\udc4f",
+        "emoji": "👏",
         "form": "noun",
-        "transcription": "f\u00e6n",
+        "transcription": "fæn",
         "definitions": [
             {
                 "text": "A person who admires and supports a person, team, or sport.",
@@ -490,9 +490,9 @@
     {
         "id": "A1-NOUN-SEL-098",
         "word": "female",
-        "emoji": "\ud83d\udc69",
+        "emoji": "👩",
         "form": "noun",
-        "transcription": "\u02c8fi\u02d0me\u026al",
+        "transcription": "ˈfiːmeɪl",
         "definitions": [
             {
                 "text": "A female person or animal.",
@@ -513,9 +513,9 @@
     {
         "id": "A1-NOUN-SEL-099",
         "word": "gentleman",
-        "emoji": "\ud83c\udfa9",
+        "emoji": "🎩",
         "form": "noun",
-        "transcription": "\u02c8\u02a4\u025bntl\u00b7m\u0259n",
+        "transcription": "ˈʤɛntl·mən",
         "definitions": [
             {
                 "text": "A polite and courteous man.",
@@ -536,9 +536,9 @@
     {
         "id": "A1-NOUN-SEL-100",
         "word": "guy",
-        "emoji": "\ud83e\uddd1",
+        "emoji": "🧑",
         "form": "noun",
-        "transcription": "\u0261a\u026a",
+        "transcription": "ɡaɪ",
         "definitions": [
             {
                 "text": "A man or boy in informal speech.",
@@ -559,9 +559,9 @@
     {
         "id": "A1-NOUN-SEL-101",
         "word": "human",
-        "emoji": "\ud83d\udc64",
+        "emoji": "👤",
         "form": "noun",
-        "transcription": "\u02c8hju\u02d0m\u0259n",
+        "transcription": "ˈhjuːmən",
         "definitions": [
             {
                 "text": "A person rather than an animal or machine.",
@@ -582,9 +582,9 @@
     {
         "id": "A1-NOUN-SEL-102",
         "word": "kid",
-        "emoji": "\ud83e\uddd2",
+        "emoji": "🧒",
         "form": "noun",
-        "transcription": "k\u026ad",
+        "transcription": "kɪd",
         "definitions": [
             {
                 "text": "A child or young person.",
@@ -605,9 +605,9 @@
     {
         "id": "A1-NOUN-SEL-103",
         "word": "lady",
-        "emoji": "\ud83d\udc69",
+        "emoji": "👩",
         "form": "noun",
-        "transcription": "\u02c8le\u026adi",
+        "transcription": "ˈleɪdi",
         "definitions": [
             {
                 "text": "A polite term for a woman.",
@@ -628,9 +628,9 @@
     {
         "id": "A1-NOUN-SEL-104",
         "word": "male",
-        "emoji": "\ud83d\udc68",
+        "emoji": "👨",
         "form": "noun",
-        "transcription": "me\u026al",
+        "transcription": "meɪl",
         "definitions": [
             {
                 "text": "A male person or animal.",
@@ -651,9 +651,9 @@
     {
         "id": "A1-NOUN-SEL-105",
         "word": "person",
-        "emoji": "\ud83d\udc64",
+        "emoji": "👤",
         "form": "noun",
-        "transcription": "\u02c8p\u025c\u02d0rs\u0259n",
+        "transcription": "ˈpɜːrsən",
         "definitions": [
             {
                 "text": "A human being as an individual.",
@@ -674,9 +674,9 @@
     {
         "id": "A1-NOUN-SEL-106",
         "word": "stranger",
-        "emoji": "\u2753",
+        "emoji": "❓",
         "form": "noun",
-        "transcription": "\u02c8stre\u026an\u02a4\u0259r",
+        "transcription": "ˈstreɪnʤər",
         "definitions": [
             {
                 "text": "A person whom one does not know.",
@@ -697,9 +697,9 @@
     {
         "id": "A1-NOUN-SEL-107",
         "word": "youth",
-        "emoji": "\ud83e\uddd1",
+        "emoji": "🧑",
         "form": "noun",
-        "transcription": "ju\u02d0\u03b8",
+        "transcription": "juːθ",
         "definitions": [
             {
                 "text": "The period between childhood and adult age.",
@@ -720,9 +720,9 @@
     {
         "id": "A1-NOUN-SEL-141",
         "word": "adolescent",
-        "emoji": "\ud83e\uddd2",
+        "emoji": "🧒",
         "form": "noun",
-        "transcription": "\u02cc\u00e6d\u0259\u02c8l\u025bs\u0259nt",
+        "transcription": "ˌædəˈlɛsənt",
         "definitions": [
             {
                 "text": "A young person who is developing into an adult.",
@@ -741,34 +741,11 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-NOUN-SEL-142",
-        "word": "adults",
-        "emoji": "\ud83e\uddd1\u200d\ud83e\udd1d\u200d\ud83e\uddd1",
-        "form": "noun",
-        "transcription": "\u02c8\u00e6d\u028clts",
-        "definitions": [
-            {
-                "text": "Plural of adult.",
-                "examples": [
-                    "Adults pay full ticket price.",
-                    "Two adults entered the room."
-                ]
-            }
-        ],
-        "lang": "en",
-        "level": "starter",
-        "level_code": "A1",
-        "domain": "SELF",
-        "subcategory": "Identity",
-        "pos_section": "Nouns",
-        "sub_subcategory": "General_Identity"
-    },
-    {
         "id": "A1-NOUN-SEL-143",
         "word": "citizens",
-        "emoji": "\ud83d\udc65",
+        "emoji": "👥",
         "form": "noun",
-        "transcription": "\u02c8s\u026at\u0259z\u0259nz",
+        "transcription": "ˈsɪtəzənz",
         "definitions": [
             {
                 "text": "Legal members of a state or nation.",
@@ -789,9 +766,9 @@
     {
         "id": "A1-NOUN-SEL-144",
         "word": "crew",
-        "emoji": "\ud83d\udc65",
+        "emoji": "👥",
         "form": "noun",
-        "transcription": "kru\u02d0",
+        "transcription": "kruː",
         "definitions": [
             {
                 "text": "A group of people who work together on a ship or plane.",
@@ -812,9 +789,9 @@
     {
         "id": "A1-NOUN-SEL-145",
         "word": "crowds",
-        "emoji": "\ud83d\udc65",
+        "emoji": "👥",
         "form": "noun",
-        "transcription": "kra\u028adz",
+        "transcription": "kraʊdz",
         "definitions": [
             {
                 "text": "Large gatherings of people.",
@@ -835,9 +812,9 @@
     {
         "id": "A1-NOUN-SEL-146",
         "word": "fellow",
-        "emoji": "\ud83e\udd1d",
+        "emoji": "🤝",
         "form": "noun",
-        "transcription": "\u02c8f\u025blo\u028a",
+        "transcription": "ˈfɛloʊ",
         "definitions": [
             {
                 "text": "A man or boy; a companion.",
@@ -858,9 +835,9 @@
     {
         "id": "A1-NOUN-SEL-147",
         "word": "folk",
-        "emoji": "\ud83d\udc65",
+        "emoji": "👥",
         "form": "noun",
-        "transcription": "fo\u028ak",
+        "transcription": "foʊk",
         "definitions": [
             {
                 "text": "People in general.",
@@ -881,9 +858,9 @@
     {
         "id": "A1-NOUN-SEL-148",
         "word": "hero",
-        "emoji": "\ud83e\uddb8",
+        "emoji": "🦸",
         "form": "noun",
-        "transcription": "\u02c8h\u026aro\u028a",
+        "transcription": "ˈhɪroʊ",
         "definitions": [
             {
                 "text": "A person admired for courage or outstanding achievements.",
@@ -904,9 +881,9 @@
     {
         "id": "A1-NOUN-SEL-149",
         "word": "heroine",
-        "emoji": "\ud83e\uddb8\u200d\u2640\ufe0f",
+        "emoji": "🦸‍♀️",
         "form": "noun",
-        "transcription": "\u02c8h\u025bro\u028a\u0259n",
+        "transcription": "ˈhɛroʊən",
         "definitions": [
             {
                 "text": "A female hero admired for courage.",
@@ -927,9 +904,9 @@
     {
         "id": "A1-NOUN-SEL-150",
         "word": "ladies",
-        "emoji": "\ud83d\udc69\u200d\ud83e\uddb0",
+        "emoji": "👩‍🦰",
         "form": "noun",
-        "transcription": "\u02c8le\u026adiz",
+        "transcription": "ˈleɪdiz",
         "definitions": [
             {
                 "text": "Plural form of lady.",
@@ -948,57 +925,11 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-NOUN-SEL-151",
-        "word": "youths",
-        "emoji": "\ud83e\uddd1",
-        "form": "noun",
-        "transcription": "ju\u02d0\u00f0z",
-        "definitions": [
-            {
-                "text": "Young people.",
-                "examples": [
-                    "Local youths play football here.",
-                    "Youths attended the summer camp."
-                ]
-            }
-        ],
-        "lang": "en",
-        "level": "starter",
-        "level_code": "A1",
-        "domain": "SELF",
-        "subcategory": "Identity",
-        "pos_section": "Nouns",
-        "sub_subcategory": "General_Identity"
-    },
-    {
-        "id": "A1-NOUN-SEL-172",
-        "word": "ancestors",
-        "emoji": "\ud83d\udc74",
-        "form": "noun",
-        "transcription": "\u02c8\u00e6n\u02ccs\u025bst\u0259rz",
-        "definitions": [
-            {
-                "text": "Family members from past generations.",
-                "examples": [
-                    "Our ancestors lived in Scotland.",
-                    "They preserved their ancestors' traditions."
-                ]
-            }
-        ],
-        "lang": "en",
-        "level": "starter",
-        "level_code": "A1",
-        "domain": "SELF",
-        "subcategory": "Identity",
-        "pos_section": "Nouns",
-        "sub_subcategory": "General_Identity"
-    },
-    {
         "id": "A1-NOUN-SEL-173",
         "word": "bystander",
-        "emoji": "\ud83d\udc40",
+        "emoji": "👀",
         "form": "noun",
-        "transcription": "\u02c8ba\u026a\u02ccst\u00e6nd\u0259r",
+        "transcription": "ˈbaɪˌstændər",
         "definitions": [
             {
                 "text": "A person who is present at an event without participating.",
@@ -1019,9 +950,9 @@
     {
         "id": "A1-NOUN-SEL-174",
         "word": "citizenship",
-        "emoji": "\ud83e\udeaa",
+        "emoji": "🪪",
         "form": "noun",
-        "transcription": "\u02c8s\u026at\u0259z\u0259n\u02cc\u0283\u026ap",
+        "transcription": "ˈsɪtəzənˌʃɪp",
         "definitions": [
             {
                 "text": "The status of being a citizen of a country.",
@@ -1042,9 +973,9 @@
     {
         "id": "A1-NOUN-SEL-175",
         "word": "genius",
-        "emoji": "\ud83e\udde0",
+        "emoji": "🧠",
         "form": "noun",
-        "transcription": "\u02c8\u02a4i\u02d0nj\u0259s",
+        "transcription": "ˈʤiːnjəs",
         "definitions": [
             {
                 "text": "Exceptional intellectual or creative power.",
@@ -1065,9 +996,9 @@
     {
         "id": "A1-NOUN-SEL-176",
         "word": "infancy",
-        "emoji": "\ud83d\udc76",
+        "emoji": "👶",
         "form": "noun",
-        "transcription": "\u02c8\u026anf\u0259nsi",
+        "transcription": "ˈɪnfənsi",
         "definitions": [
             {
                 "text": "The state or period of early childhood.",
@@ -1088,9 +1019,9 @@
     {
         "id": "A1-NOUN-SEL-177",
         "word": "majority",
-        "emoji": "\ud83d\udcca",
+        "emoji": "📊",
         "form": "noun",
-        "transcription": "m\u0259\u02c8\u02a4\u0254\u02d0r\u0259ti",
+        "transcription": "məˈʤɔːrəti",
         "definitions": [
             {
                 "text": "The greater number or part of something.",
@@ -1111,9 +1042,9 @@
     {
         "id": "A1-NOUN-SEL-178",
         "word": "minority",
-        "emoji": "\ud83d\udcca",
+        "emoji": "📊",
         "form": "noun",
-        "transcription": "ma\u026a\u02c8n\u0254\u02d0r\u0259ti",
+        "transcription": "maɪˈnɔːrəti",
         "definitions": [
             {
                 "text": "The smaller number or part of something.",
@@ -1134,9 +1065,9 @@
     {
         "id": "A1-NOUN-SEL-179",
         "word": "neighbor",
-        "emoji": "\ud83c\udfe1",
+        "emoji": "🏡",
         "form": "noun",
-        "transcription": "\u02c8ne\u026ab\u0259r",
+        "transcription": "ˈneɪbər",
         "definitions": [
             {
                 "text": "A person living near or next door.",
@@ -1157,9 +1088,9 @@
     {
         "id": "A1-NOUN-SEL-180",
         "word": "personality",
-        "emoji": "\u2728",
+        "emoji": "✨",
         "form": "noun",
-        "transcription": "\u02ccp\u025c\u02d0rs\u0259\u02c8n\u00e6l\u0259ti",
+        "transcription": "ˌpɜːrsəˈnæləti",
         "definitions": [
             {
                 "text": "The combination of characteristics forming an individual's character.",
@@ -1180,9 +1111,9 @@
     {
         "id": "A1-NOUN-SEL-181",
         "word": "population",
-        "emoji": "\ud83d\udc65",
+        "emoji": "👥",
         "form": "noun",
-        "transcription": "\u02ccp\u0251\u02d0pj\u0259\u02c8le\u026a\u0283\u0259n",
+        "transcription": "ˌpɑːpjəˈleɪʃən",
         "definitions": [
             {
                 "text": "All the inhabitants of a particular place.",
@@ -1201,34 +1132,11 @@
         "sub_subcategory": "General_Identity"
     },
     {
-        "id": "A1-NOUN-SEL-182",
-        "word": "relatives",
-        "emoji": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66",
-        "form": "noun",
-        "transcription": "\u02c8r\u025bl\u0259t\u026avz",
-        "definitions": [
-            {
-                "text": "Members of one's family.",
-                "examples": [
-                    "All our relatives came to dinner.",
-                    "She visited relatives in Canada."
-                ]
-            }
-        ],
-        "lang": "en",
-        "level": "starter",
-        "level_code": "A1",
-        "domain": "SELF",
-        "subcategory": "Identity",
-        "pos_section": "Nouns",
-        "sub_subcategory": "General_Identity"
-    },
-    {
         "id": "A1-NOUN-SEL-183",
         "word": "resident",
-        "emoji": "\ud83c\udfe0",
+        "emoji": "🏠",
         "form": "noun",
-        "transcription": "\u02c8r\u025bz\u0259d\u0259nt",
+        "transcription": "ˈrɛzədənt",
         "definitions": [
             {
                 "text": "A person who lives somewhere permanently or on a long-term basis.",
@@ -1249,9 +1157,9 @@
     {
         "id": "A1-NOUN-SEL-184",
         "word": "senior",
-        "emoji": "\ud83d\udc74",
+        "emoji": "👴",
         "form": "noun",
-        "transcription": "\u02c8si\u02d0nj\u0259r",
+        "transcription": "ˈsiːnjər",
         "definitions": [
             {
                 "text": "An older person or someone of higher rank.",
@@ -1272,9 +1180,9 @@
     {
         "id": "A1-NOUN-SEL-185",
         "word": "society",
-        "emoji": "\ud83c\udf10",
+        "emoji": "🌐",
         "form": "noun",
-        "transcription": "s\u0259\u02c8sa\u026a\u0259ti",
+        "transcription": "səˈsaɪəti",
         "definitions": [
             {
                 "text": "People living together in an ordered community.",
@@ -1299,13 +1207,13 @@
         "transcription": "sɜːr",
         "emoji": "🎩",
         "definitions": [
-                {
-                        "text": "A polite word used to address a man.",
-                        "examples": [
-                                "Good morning, sir.",
-                                "Can I help you, sir?"
-                        ]
-                }
+            {
+                "text": "A polite word used to address a man.",
+                "examples": [
+                    "Good morning, sir.",
+                    "Can I help you, sir?"
+                ]
+            }
         ],
         "lang": "en",
         "level": "starter",
@@ -1314,7 +1222,7 @@
         "subcategory": "Identity",
         "pos_section": "Nouns",
         "sub_subcategory": "General_Identity"
-},
+    },
     {
         "id": "A1-NOUN-SEL-187",
         "word": "madam",
@@ -1322,13 +1230,13 @@
         "transcription": "ˈmædəm",
         "emoji": "👑",
         "definitions": [
-                {
-                        "text": "A polite word used to address a woman.",
-                        "examples": [
-                                "Thank you, madam.",
-                                "May I take your order, madam?"
-                        ]
-                }
+            {
+                "text": "A polite word used to address a woman.",
+                "examples": [
+                    "Thank you, madam.",
+                    "May I take your order, madam?"
+                ]
+            }
         ],
         "lang": "en",
         "level": "starter",
@@ -1337,7 +1245,7 @@
         "subcategory": "Identity",
         "pos_section": "Nouns",
         "sub_subcategory": "General_Identity"
-}
+    }
 ];
 
     if (typeof window !== "undefined") {

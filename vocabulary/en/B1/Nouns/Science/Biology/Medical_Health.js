@@ -2,36 +2,6 @@
     const lang = "en";
     const data = [
     {
-        "id": "B1-NOUN-SCI-001",
-        "word": "anxiety",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "health_medicine",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A feeling of worry, nervousness and unease about uncertain outcomes.",
-                "examples": [
-                    "He suffers from anxiety before presentations."
-                ]
-            }
-        ],
-        "transcription": "æŋˈzaɪəti",
-        "emoji": "😟",
-        "_legacy": {
-            "classification": "regular",
-            "plural": null,
-            "countability": "uncountable",
-            "subtext": "social anxiety, anxiety attack"
-        },
-        "legacy_id": "B1-SCI-01",
-        "level_code": "B1",
-        "domain": "Science",
-        "subcategory": "Biology",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Medical_Health"
-    },
-    {
         "id": "B1-NOUN-SCI-002",
         "word": "burnout",
         "lang": "en",
@@ -308,34 +278,6 @@
         "sub_subcategory": "Medical_Health"
     },
     {
-        "id": "B1-NOUN-SCI-011",
-        "word": "tooth",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "health_medicine",
-        "form": "noun",
-        "definitions": [],
-        "transcription": "tuːθ",
-        "emoji": "🦷",
-        "_legacy": {
-            "numberPlural": "32 tooth",
-            "answer": "thirty-two teeth",
-            "classification": "regular",
-            "plural": "teeth",
-            "countability": "countable",
-            "etymology": {
-                "origin_lang": "Proto-Germanic",
-                "origin_word": "tanþs"
-            }
-        },
-        "legacy_id": "B1-SCI-22",
-        "level_code": "B1",
-        "domain": "Science",
-        "subcategory": "Biology",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Medical_Health"
-    },
-    {
         "id": "B1-NOUN-SCI-012",
         "word": "wellbeing",
         "lang": "en",
@@ -368,6 +310,10 @@
         "sub_subcategory": "Medical_Health"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

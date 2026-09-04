@@ -17,8 +17,8 @@
                 ]
             }
         ],
-        "transcription": "\u02cce\u026a\u02c8a\u026a \u02c8l\u026at\u0259r\u0259si \u0261\u00e6p",
-        "emoji": "\ud83e\udd16",
+        "transcription": "ˌeɪˈaɪ ˈlɪtərəsi ɡæp",
+        "emoji": "🤖",
         "legacy_id": "B2-PPL-01",
         "level_code": "B2",
         "domain": "People",
@@ -42,8 +42,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8b\u0251\u02d0n\u0259m \u026a\u02c8f\u025bkt",
-        "emoji": "\ud83d\udd2e",
+        "transcription": "ˈbɑːnəm ɪˈfɛkt",
+        "emoji": "🔮",
         "legacy_id": "B2-PPL-02",
         "level_code": "B2",
         "domain": "People",
@@ -67,8 +67,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8b\u025bnd\u0292\u0259m\u026an \u02c8fr\u00e6\u014bkl\u026an \u026a\u02c8f\u025bkt",
-        "emoji": "\ud83d\udd6f\ufe0f",
+        "transcription": "ˈbɛndʒəmɪn ˈfræŋklɪn ɪˈfɛkt",
+        "emoji": "🕯️",
         "legacy_id": "B2-PPL-03",
         "level_code": "B2",
         "domain": "People",
@@ -92,8 +92,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8d\u025bkl\u026a\u02ccn\u026az\u0259m",
-        "emoji": "\ud83d\udcc9",
+        "transcription": "ˈdɛklɪˌnɪzəm",
+        "emoji": "📉",
         "legacy_id": "B2-PPL-04",
         "level_code": "B2",
         "domain": "People",
@@ -117,8 +117,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8d\u028cn\u026a\u014b \u02c8kru\u02d0\u0261\u0259r \u026a\u02c8f\u025bkt",
-        "emoji": "\ud83e\uddd7",
+        "transcription": "ˈdʌnɪŋ ˈkruːɡər ɪˈfɛkt",
+        "emoji": "🧗",
         "legacy_id": "B2-PPL-05",
         "level_code": "B2",
         "domain": "People",
@@ -142,8 +142,8 @@
                 ]
             }
         ],
-        "transcription": "a\u026a\u02c8ki\u02d0\u0259 \u026a\u02c8f\u025bkt",
-        "emoji": "\ud83d\udd27",
+        "transcription": "aɪˈkiːə ɪˈfɛkt",
+        "emoji": "🔧",
         "legacy_id": "B2-PPL-06",
         "level_code": "B2",
         "domain": "People",
@@ -167,8 +167,8 @@
                 ]
             }
         ],
-        "transcription": "\u026a\u02c8lu\u02d0\u0292n \u0259v \u026ak\u02c8spl\u00e6n\u0259t\u0259ri d\u025bp\u03b8",
-        "emoji": "\ud83c\udf0a\u2753",
+        "transcription": "ɪˈluːʒn əv ɪkˈsplænətəri dɛpθ",
+        "emoji": "🌊❓",
         "legacy_id": "B2-PPL-07",
         "level_code": "B2",
         "domain": "People",
@@ -192,8 +192,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8l\u025bvlz \u0259v \u02c8pr\u0259\u028as\u025bs\u026a\u014b \u026a\u02c8f\u025bkt",
-        "emoji": "\ud83e\udde0\ud83c\udf0a",
+        "transcription": "ˈlɛvlz əv ˈprəʊsɛsɪŋ ɪˈfɛkt",
+        "emoji": "🧠🌊",
         "legacy_id": "B2-PPL-08",
         "level_code": "B2",
         "domain": "People",
@@ -217,8 +217,8 @@
                 ]
             }
         ],
-        "transcription": "\u0259\u02ccka\u028ant\u0259\u02c8b\u026al\u0259ti d\u026a\u02c8fju\u02d0\u0292n",
-        "emoji": "\ud83c\udf2b\ufe0f",
+        "transcription": "əˌkaʊntəˈbɪləti dɪˈfjuːʒn",
+        "emoji": "🌫️",
         "legacy_id": "B2-PPL-10",
         "level_code": "B2",
         "domain": "People",
@@ -242,8 +242,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8\u00e6k\u0283n \u02c8ba\u026a\u0259s",
-        "emoji": "\ud83c\udfc3",
+        "transcription": "ˈækʃn ˈbaɪəs",
+        "emoji": "🏃",
         "legacy_id": "B2-PPL-12",
         "level_code": "B2",
         "domain": "People",
@@ -267,8 +267,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8\u00e6kt\u0259r \u0259b\u02c8z\u025c\u02d0v\u0259 \u02c8ba\u026a\u0259s",
-        "emoji": "\ud83c\udfad",
+        "transcription": "ˈæktər əbˈzɜːvə ˈbaɪəs",
+        "emoji": "🎭",
         "legacy_id": "B2-PPL-13",
         "level_code": "B2",
         "domain": "People",
@@ -292,8 +292,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8\u00e6f\u025bkt hju\u02c8r\u026ast\u026ak",
-        "emoji": "\ud83c\udf21\ufe0f",
+        "transcription": "ˈæfɛkt hjuˈrɪstɪk",
+        "emoji": "🌡️",
         "legacy_id": "B2-PPL-14",
         "level_code": "B2",
         "domain": "People",
@@ -317,8 +317,8 @@
                 ]
             }
         ],
-        "transcription": "\u0259\u02c8f\u025bkt\u026av \u02c8f\u0254\u02d0k\u0251\u02d0st\u026a\u014b",
-        "emoji": "\ud83d\udd2e",
+        "transcription": "əˈfɛktɪv ˈfɔːkɑːstɪŋ",
+        "emoji": "🔮",
         "legacy_id": "B2-PPL-15",
         "level_code": "B2",
         "domain": "People",
@@ -342,8 +342,8 @@
                 ]
             }
         ],
-        "transcription": "\u0259\u02c8f\u026an\u0259ti \u02c8ba\u026a\u0259s",
-        "emoji": "\ud83d\udc6f",
+        "transcription": "əˈfɪnəti ˈbaɪəs",
+        "emoji": "👯",
         "legacy_id": "B2-PPL-16",
         "level_code": "B2",
         "domain": "People",
@@ -367,8 +367,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8e\u026ad\u0292\u026az\u0259m",
-        "emoji": "\ud83d\udc74",
+        "transcription": "ˈeɪdʒɪzəm",
+        "emoji": "👴",
         "legacy_id": "B2-PPL-17",
         "level_code": "B2",
         "domain": "People",
@@ -392,8 +392,8 @@
                 ]
             }
         ],
-        "transcription": "\u02cc\u00e6mb\u026a\u02c8\u0261ju\u02d0\u0259ti \u026a\u02c8f\u025bkt",
-        "emoji": "\u2753",
+        "transcription": "ˌæmbɪˈɡjuːəti ɪˈfɛkt",
+        "emoji": "❓",
         "legacy_id": "B2-PPL-18",
         "level_code": "B2",
         "domain": "People",
@@ -417,8 +417,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8\u00e6\u014bk\u0259r\u026a\u014b \u02c8ba\u026a\u0259s",
-        "emoji": "\u2693",
+        "transcription": "ˈæŋkərɪŋ ˈbaɪəs",
+        "emoji": "⚓",
         "legacy_id": "B2-PPL-20",
         "level_code": "B2",
         "domain": "People",
@@ -432,11 +432,11 @@
         "word": "assumption",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "emoji": "\ud83e\udd14",
+        "emoji": "🤔",
         "form": "noun",
         "classification": "regular",
         "plural": "assumptions",
-        "transcription": "\u0259\u02c8s\u028cmp\u0283n",
+        "transcription": "əˈsʌmpʃn",
         "subtext": "presumption, belief",
         "definitions": [
             {
@@ -469,8 +469,8 @@
                 ]
             }
         ],
-        "transcription": "\u0259\u02c8t\u025bn\u0283\u0259nl \u02c8ba\u026a\u0259s",
-        "emoji": "\ud83c\udfaf",
+        "transcription": "əˈtɛnʃənl ˈbaɪəs",
+        "emoji": "🎯",
         "legacy_id": "B2-PPL-23",
         "level_code": "B2",
         "domain": "People",
@@ -494,8 +494,8 @@
                 ]
             }
         ],
-        "transcription": "\u0259\u02c8t\u025bn\u0283\u0259nl \u02c8bla\u026andn\u0259s",
-        "emoji": "\ud83d\ude48",
+        "transcription": "əˈtɛnʃənl ˈblaɪndnəs",
+        "emoji": "🙈",
         "legacy_id": "B2-PPL-24",
         "level_code": "B2",
         "domain": "People",
@@ -519,8 +519,8 @@
                 ]
             }
         ],
-        "transcription": "\u02cc\u00e6tr\u026a\u02c8bju\u02d0\u0283n \u02c8ba\u026a\u0259s",
-        "emoji": "\ud83d\udc48",
+        "transcription": "ˌætrɪˈbjuːʃn ˈbaɪəs",
+        "emoji": "👈",
         "legacy_id": "B2-PPL-25",
         "level_code": "B2",
         "domain": "People",
@@ -544,8 +544,8 @@
                 ]
             }
         ],
-        "transcription": "\u0254\u02d0\u02c8\u03b8\u0252r\u0259ti \u02c8ba\u026a\u0259s",
-        "emoji": "\ud83d\udc6e",
+        "transcription": "ɔːˈθɒrəti ˈbaɪəs",
+        "emoji": "👮",
         "legacy_id": "B2-PPL-26",
         "level_code": "B2",
         "domain": "People",
@@ -569,8 +569,8 @@
                 ]
             }
         ],
-        "transcription": "\u02cc\u0254\u02d0t\u0259\u02c8me\u026a\u0283n \u02c8ba\u026a\u0259s",
-        "emoji": "\ud83e\udd16",
+        "transcription": "ˌɔːtəˈmeɪʃn ˈbaɪəs",
+        "emoji": "🤖",
         "legacy_id": "B2-PPL-27",
         "level_code": "B2",
         "domain": "People",
@@ -594,8 +594,8 @@
                 ]
             }
         ],
-        "transcription": "\u0259\u02ccve\u026al\u0259\u02c8b\u026al\u0259ti hju\u02c8r\u026ast\u026ak",
-        "emoji": "\ud83e\udde0",
+        "transcription": "əˌveɪləˈbɪləti hjuˈrɪstɪk",
+        "emoji": "🧠",
         "legacy_id": "B2-PPL-28",
         "level_code": "B2",
         "domain": "People",
@@ -619,8 +619,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8b\u00e6nd\u02ccw\u00e6\u0261\u0259n \u026a\u02c8f\u025bkt",
-        "emoji": "\ud83d\ude9c",
+        "transcription": "ˈbændˌwæɡən ɪˈfɛkt",
+        "emoji": "🚜",
         "legacy_id": "B2-PPL-29",
         "level_code": "B2",
         "domain": "People",
@@ -644,8 +644,8 @@
                 ]
             }
         ],
-        "transcription": "be\u026as re\u026at \u02c8f\u00e6l\u0259si",
-        "emoji": "\ud83d\udcca",
+        "transcription": "beɪs reɪt ˈfæləsi",
+        "emoji": "📊",
         "legacy_id": "B2-PPL-30",
         "level_code": "B2",
         "domain": "People",
@@ -669,8 +669,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8bju\u02d0ti \u02c8ba\u026a\u0259s",
-        "emoji": "\ud83d\udc84",
+        "transcription": "ˈbjuːti ˈbaɪəs",
+        "emoji": "💄",
         "legacy_id": "B2-PPL-31",
         "level_code": "B2",
         "domain": "People",
@@ -694,8 +694,8 @@
                 ]
             }
         ],
-        "transcription": "b\u026a\u02c8li\u02d0f \u02ccp\u025c\u02d0s\u026a\u02c8v\u026a\u0259r\u0259ns",
-        "emoji": "\ud83e\uddf1",
+        "transcription": "bɪˈliːf ˌpɜːsɪˈvɪərəns",
+        "emoji": "🧱",
         "legacy_id": "B2-PPL-32",
         "level_code": "B2",
         "domain": "People",
@@ -719,8 +719,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8ba\u026ak\u02cc\u0283\u025bd\u026a\u014b",
-        "emoji": "\ud83d\udeb2",
+        "transcription": "ˈbaɪkˌʃɛdɪŋ",
+        "emoji": "🚲",
         "legacy_id": "B2-PPL-33",
         "level_code": "B2",
         "domain": "People",
@@ -744,8 +744,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8ba\u028and\u026ad \u02ccr\u00e6\u0283\u0259\u02c8n\u00e6l\u0259ti",
-        "emoji": "\ud83e\udde0",
+        "transcription": "ˈbaʊndɪd ˌræʃəˈnæləti",
+        "emoji": "🧠",
         "legacy_id": "B2-PPL-34",
         "level_code": "B2",
         "domain": "People",
@@ -769,8 +769,8 @@
                 ]
             }
         ],
-        "transcription": "t\u0283e\u026and\u0292 \u02c8bla\u026andn\u0259s",
-        "emoji": "\ud83c\udf13",
+        "transcription": "tʃeɪndʒ ˈblaɪndnəs",
+        "emoji": "🌓",
         "legacy_id": "B2-PPL-35",
         "level_code": "B2",
         "domain": "People",
@@ -794,8 +794,8 @@
                 ]
             }
         ],
-        "transcription": "t\u0283\u0254\u026as \u02c8\u0259\u028av\u0259l\u0259\u028ad",
-        "emoji": "\ud83e\udd2f",
+        "transcription": "tʃɔɪs ˈəʊvələʊd",
+        "emoji": "🤯",
         "legacy_id": "B2-PPL-36",
         "level_code": "B2",
         "domain": "People",
@@ -819,8 +819,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8k\u0252\u0261n\u0259t\u026av \u02c8ba\u026a\u0259s",
-        "emoji": "\ud83e\udde0\u274c",
+        "transcription": "ˈkɒɡnətɪv ˈbaɪəs",
+        "emoji": "🧠❌",
         "legacy_id": "B2-PPL-37",
         "level_code": "B2",
         "domain": "People",
@@ -844,8 +844,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8k\u0252\u0261n\u0259t\u026av \u02c8d\u026as\u0259n\u0259ns",
-        "emoji": "\ud83d\ude16",
+        "transcription": "ˈkɒɡnətɪv ˈdɪsənəns",
+        "emoji": "😖",
         "legacy_id": "B2-PPL-38",
         "level_code": "B2",
         "domain": "People",
@@ -869,8 +869,8 @@
                 ]
             }
         ],
-        "transcription": "\u02cck\u0252nf\u0259\u02c8me\u026a\u0283n \u02c8ba\u026a\u0259s",
-        "emoji": "\ud83e\uddd0",
+        "transcription": "ˌkɒnfəˈmeɪʃn ˈbaɪəs",
+        "emoji": "🧐",
         "legacy_id": "B2-PPL-39",
         "level_code": "B2",
         "domain": "People",
@@ -894,8 +894,8 @@
                 ]
             }
         ],
-        "transcription": "k\u0259n\u02c8f\u0254\u02d0m\u0259ti \u02c8ba\u026a\u0259s",
-        "emoji": "\ud83d\udc11",
+        "transcription": "kənˈfɔːməti ˈbaɪəs",
+        "emoji": "🐑",
         "legacy_id": "B2-PPL-40",
         "level_code": "B2",
         "domain": "People",
@@ -909,11 +909,11 @@
         "word": "consent",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "emoji": "\u2705",
+        "emoji": "✅",
         "form": "noun",
         "classification": "regular",
         "plural": null,
-        "transcription": "k\u0259n\u02c8s\u025bnt",
+        "transcription": "kənˈsɛnt",
         "subtext": "permission, agreement",
         "definitions": [
             {
@@ -946,8 +946,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8k\u0252ntr\u0251\u02d0st \u026a\u02c8f\u025bkt",
-        "emoji": "\ud83c\udf17",
+        "transcription": "ˈkɒntrɑːst ɪˈfɛkt",
+        "emoji": "🌗",
         "legacy_id": "B2-PPL-42",
         "level_code": "B2",
         "domain": "People",
@@ -961,11 +961,11 @@
         "word": "critique",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "emoji": "\u270d\ufe0f",
+        "emoji": "✍️",
         "form": "noun",
         "classification": "regular",
         "plural": "critiques",
-        "transcription": "kr\u026a\u02c8ti\u02d0k",
+        "transcription": "krɪˈtiːk",
         "subtext": "detailed assessment, review",
         "definitions": [
             {
@@ -998,8 +998,8 @@
                 ]
             }
         ],
-        "transcription": "d\u026a\u02c8s\u026a\u0292n f\u0259\u02c8ti\u02d0\u0261",
-        "emoji": "\ud83d\ude2b",
+        "transcription": "dɪˈsɪʒn fəˈtiːɡ",
+        "emoji": "😫",
         "legacy_id": "B2-PPL-46",
         "level_code": "B2",
         "domain": "People",
@@ -1023,8 +1023,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8di\u02d0k\u0254\u026a \u026a\u02c8f\u025bkt",
-        "emoji": "\ud83e\udd86",
+        "transcription": "ˈdiːkɔɪ ɪˈfɛkt",
+        "emoji": "🦆",
         "legacy_id": "B2-PPL-47",
         "level_code": "B2",
         "domain": "People",
@@ -1048,8 +1048,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8\u025bmp\u0259\u03b8i \u0261\u00e6p",
-        "emoji": "\ud83e\uddca",
+        "transcription": "ˈɛmpəθi ɡæp",
+        "emoji": "🧊",
         "legacy_id": "B2-PPL-50",
         "level_code": "B2",
         "domain": "People",
@@ -1073,8 +1073,8 @@
                 ]
             }
         ],
-        "transcription": "\u026an\u02c8da\u028am\u0259nt \u026a\u02c8f\u025bkt",
-        "emoji": "\ud83c\udf81",
+        "transcription": "ɪnˈdaʊmənt ɪˈfɛkt",
+        "emoji": "🎁",
         "legacy_id": "B2-PPL-51",
         "level_code": "B2",
         "domain": "People",
@@ -1098,8 +1098,8 @@
                 ]
             }
         ],
-        "transcription": "f\u0254\u02d0ls k\u0259n\u02c8s\u025bns\u0259s \u026a\u02c8f\u025bkt",
-        "emoji": "\ud83e\udd1d",
+        "transcription": "fɔːls kənˈsɛnsəs ɪˈfɛkt",
+        "emoji": "🤝",
         "legacy_id": "B2-PPL-55",
         "level_code": "B2",
         "domain": "People",
@@ -1123,8 +1123,8 @@
                 ]
             }
         ],
-        "transcription": "f\u0254\u02d0ls \u02c8m\u025bm\u0259riz",
-        "emoji": "\ud83c\udfad",
+        "transcription": "fɔːls ˈmɛməriz",
+        "emoji": "🎭",
         "legacy_id": "B2-PPL-56",
         "level_code": "B2",
         "domain": "People",
@@ -1138,11 +1138,11 @@
         "word": "framework",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "emoji": "\ud83c\udfd7\ufe0f",
+        "emoji": "🏗️",
         "form": "noun",
         "classification": "regular",
         "plural": "frameworks",
-        "transcription": "\u02c8fre\u026amw\u025c\u02d0k",
+        "transcription": "ˈfreɪmwɜːk",
         "subtext": "structure, set of principles",
         "definitions": [
             {
@@ -1175,8 +1175,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8fre\u026am\u026a\u014b \u026a\u02c8f\u025bkt",
-        "emoji": "\ud83d\uddbc\ufe0f",
+        "transcription": "ˈfreɪmɪŋ ɪˈfɛkt",
+        "emoji": "🖼️",
         "legacy_id": "B2-PPL-58",
         "level_code": "B2",
         "domain": "People",
@@ -1200,8 +1200,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8f\u028c\u014bk\u0283\u0259nl \u02c8f\u026aks\u026adn\u0259s",
-        "emoji": "\ud83d\udee0\ufe0f",
+        "transcription": "ˈfʌŋkʃənl ˈfɪksɪdnəs",
+        "emoji": "🛠️",
         "legacy_id": "B2-PPL-59",
         "level_code": "B2",
         "domain": "People",
@@ -1225,8 +1225,8 @@
                 ]
             }
         ],
-        "transcription": "\u02ccf\u028cnd\u0259\u02c8m\u025bntl \u02cc\u00e6tr\u026a\u02c8bju\u02d0\u0283n \u02c8\u025br\u0259",
-        "emoji": "\ud83d\udc4e",
+        "transcription": "ˌfʌndəˈmɛntl ˌætrɪˈbjuːʃn ˈɛrə",
+        "emoji": "👎",
         "legacy_id": "B2-PPL-60",
         "level_code": "B2",
         "domain": "People",
@@ -1250,8 +1250,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8\u0261\u00e6mbl\u0259z \u02c8f\u00e6l\u0259si",
-        "emoji": "\ud83c\udfb2",
+        "transcription": "ˈɡæmbləz ˈfæləsi",
+        "emoji": "🎲",
         "legacy_id": "B2-PPL-61",
         "level_code": "B2",
         "domain": "People",
@@ -1275,8 +1275,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8d\u0292\u025bnd\u0259 \u02c8ba\u026a\u0259s",
-        "emoji": "\u26a7\ufe0f",
+        "transcription": "ˈdʒɛndə ˈbaɪəs",
+        "emoji": "⚧️",
         "legacy_id": "B2-PPL-62",
         "level_code": "B2",
         "domain": "People",
@@ -1300,8 +1300,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8\u0261u\u02d0\u0261l \u026a\u02c8f\u025bkt",
-        "emoji": "\ud83d\udd0d",
+        "transcription": "ˈɡuːɡl ɪˈfɛkt",
+        "emoji": "🔍",
         "legacy_id": "B2-PPL-63",
         "level_code": "B2",
         "domain": "People",
@@ -1325,8 +1325,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8he\u026al\u0259\u028a \u026a\u02c8f\u025bkt",
-        "emoji": "\ud83d\ude07",
+        "transcription": "ˈheɪləʊ ɪˈfɛkt",
+        "emoji": "😇",
         "legacy_id": "B2-PPL-64",
         "level_code": "B2",
         "domain": "People",
@@ -1350,8 +1350,8 @@
                 ]
             }
         ],
-        "transcription": "h\u0251\u02d0d \u02c8i\u02d0zi \u026a\u02c8f\u025bkt",
-        "emoji": "\ud83e\uddd7\u200d\u2642\ufe0f",
+        "transcription": "hɑːd ˈiːzi ɪˈfɛkt",
+        "emoji": "🧗‍♂️",
         "legacy_id": "B2-PPL-65",
         "level_code": "B2",
         "domain": "People",
@@ -1375,8 +1375,8 @@
                 ]
             }
         ],
-        "transcription": "hju\u02c8r\u026ast\u026aks",
-        "emoji": "\ud83e\udde0",
+        "transcription": "hjuˈrɪstɪks",
+        "emoji": "🧠",
         "legacy_id": "B2-PPL-66",
         "level_code": "B2",
         "domain": "People",
@@ -1400,8 +1400,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8ha\u026andsa\u026at \u02c8ba\u026a\u0259s",
-        "emoji": "\ud83d\udd19",
+        "transcription": "ˈhaɪndsaɪt ˈbaɪəs",
+        "emoji": "🔙",
         "legacy_id": "B2-PPL-67",
         "level_code": "B2",
         "domain": "People",
@@ -1425,8 +1425,8 @@
                 ]
             }
         ],
-        "transcription": "h\u0252t h\u00e6nd \u02c8f\u00e6l\u0259si",
-        "emoji": "\ud83d\udd25",
+        "transcription": "hɒt hænd ˈfæləsi",
+        "emoji": "🔥",
         "legacy_id": "B2-PPL-68",
         "level_code": "B2",
         "domain": "People",
@@ -1450,8 +1450,8 @@
                 ]
             }
         ],
-        "transcription": "\u02ccha\u026ap\u0259\u02c8b\u0252l\u026ak d\u026as\u02c8ka\u028ant\u026a\u014b",
-        "emoji": "\ud83c\udf6a",
+        "transcription": "ˌhaɪpəˈbɒlɪk dɪsˈkaʊntɪŋ",
+        "emoji": "🍪",
         "legacy_id": "B2-PPL-69",
         "level_code": "B2",
         "domain": "People",
@@ -1475,8 +1475,8 @@
                 ]
             }
         ],
-        "transcription": "a\u026a\u02ccd\u025bnt\u026a\u02c8fa\u026a\u0259bl \u02c8v\u026akt\u026am \u026a\u02c8f\u025bkt",
-        "emoji": "\ud83e\uddd2",
+        "transcription": "aɪˌdɛntɪˈfaɪəbl ˈvɪktɪm ɪˈfɛkt",
+        "emoji": "🧒",
         "legacy_id": "B2-PPL-70",
         "level_code": "B2",
         "domain": "People",
@@ -1500,8 +1500,8 @@
                 ]
             }
         ],
-        "transcription": "\u026a\u02c8lu\u02d0\u0292n \u0259v k\u0259n\u02c8tr\u0259\u028al",
-        "emoji": "\ud83c\udfae",
+        "transcription": "ɪˈluːʒn əv kənˈtrəʊl",
+        "emoji": "🎮",
         "legacy_id": "B2-PPL-72",
         "level_code": "B2",
         "domain": "People",
@@ -1525,8 +1525,8 @@
                 ]
             }
         ],
-        "transcription": "\u026a\u02c8lu\u02d0s\u0259ri \u02cck\u0252r\u0259\u02c8le\u026a\u0283n",
-        "emoji": "\ud83d\udd17\u2753",
+        "transcription": "ɪˈluːsəri ˌkɒrəˈleɪʃn",
+        "emoji": "🔗❓",
         "legacy_id": "B2-PPL-73",
         "level_code": "B2",
         "domain": "People",
@@ -1550,8 +1550,8 @@
                 ]
             }
         ],
-        "transcription": "\u026a\u02c8lu\u02d0s\u0259ri tru\u02d0\u03b8 \u026a\u02c8f\u025bkt",
-        "emoji": "\ud83d\udd01",
+        "transcription": "ɪˈluːsəri truːθ ɪˈfɛkt",
+        "emoji": "🔁",
         "legacy_id": "B2-PPL-74",
         "level_code": "B2",
         "domain": "People",
@@ -1575,8 +1575,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8\u026amp\u00e6kt \u02c8ba\u026a\u0259s",
-        "emoji": "\ud83d\udca5",
+        "transcription": "ˈɪmpækt ˈbaɪəs",
+        "emoji": "💥",
         "legacy_id": "B2-PPL-75",
         "level_code": "B2",
         "domain": "People",
@@ -1590,11 +1590,11 @@
         "word": "implication",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "emoji": "\ud83d\udca1",
+        "emoji": "💡",
         "form": "noun",
         "classification": "regular",
         "plural": "implications",
-        "transcription": "\u02cc\u026ampl\u026a\u02c8ke\u026a\u0283n",
+        "transcription": "ˌɪmplɪˈkeɪʃn",
         "subtext": "consequence, suggestion",
         "definitions": [
             {
@@ -1627,8 +1627,8 @@
                 ]
             }
         ],
-        "transcription": "\u026an \u0261ru\u02d0p \u02c8ba\u026a\u0259s",
-        "emoji": "\ud83c\udfd8\ufe0f",
+        "transcription": "ɪn ɡruːp ˈbaɪəs",
+        "emoji": "🏘️",
         "legacy_id": "B2-PPL-77",
         "level_code": "B2",
         "domain": "People",
@@ -1652,8 +1652,8 @@
                 ]
             }
         ],
-        "transcription": "\u026an\u02ccs\u025bnt\u026ava\u026a\u02c8ze\u026a\u0283n",
-        "emoji": "\ud83e\udd55",
+        "transcription": "ɪnˌsɛntɪvaɪˈzeɪʃn",
+        "emoji": "🥕",
         "legacy_id": "B2-PPL-78",
         "level_code": "B2",
         "domain": "People",
@@ -1677,8 +1677,8 @@
                 ]
             }
         ],
-        "transcription": "d\u0292\u028cst w\u025c\u02d0ld ha\u026a\u02c8p\u0252\u03b8\u0259s\u026as",
-        "emoji": "\u2696\ufe0f",
+        "transcription": "dʒʌst wɜːld haɪˈpɒθəsɪs",
+        "emoji": "⚖️",
         "legacy_id": "B2-PPL-81",
         "level_code": "B2",
         "domain": "People",
@@ -1702,8 +1702,8 @@
                 ]
             }
         ],
-        "transcription": "l\u0252s \u0259\u02c8v\u025c\u02d0\u0283n",
-        "emoji": "\ud83d\udcc9",
+        "transcription": "lɒs əˈvɜːʃn",
+        "emoji": "📉",
         "legacy_id": "B2-PPL-82",
         "level_code": "B2",
         "domain": "People",
@@ -1723,12 +1723,12 @@
             {
                 "text": "A psychological phenomenon by which people tend to develop a preference for things merely because they are familiar with them.",
                 "examples": [
-                    "I didn't like the song at first, but after hearing it ten times, I love it \u2013 that's the mere exposure effect."
+                    "I didn't like the song at first, but after hearing it ten times, I love it – that's the mere exposure effect."
                 ]
             }
         ],
-        "transcription": "m\u026a\u0259r \u026ak\u02c8sp\u0259\u028a\u0292\u0259 \u026a\u02c8f\u025bkt",
-        "emoji": "\ud83d\udcfb",
+        "transcription": "mɪər ɪkˈspəʊʒə ɪˈfɛkt",
+        "emoji": "📻",
         "legacy_id": "B2-PPL-84",
         "level_code": "B2",
         "domain": "People",
@@ -1752,8 +1752,8 @@
                 ]
             }
         ],
-        "transcription": "\u02ccm\u026as\u026anf\u0259\u02c8me\u026a\u0283n \u026a\u02c8f\u025bkt",
-        "emoji": "\ud83d\udcfb",
+        "transcription": "ˌmɪsɪnfəˈmeɪʃn ɪˈfɛkt",
+        "emoji": "📻",
         "legacy_id": "B2-PPL-85",
         "level_code": "B2",
         "domain": "People",
@@ -1777,8 +1777,8 @@
                 ]
             }
         ],
-        "transcription": "mu\u02d0d k\u0259n\u02c8\u0261ru\u0259nt \u02c8m\u025bm\u0259ri",
-        "emoji": "\ud83c\udfad",
+        "transcription": "muːd kənˈɡruənt ˈmɛməri",
+        "emoji": "🎭",
         "legacy_id": "B2-PPL-86",
         "level_code": "B2",
         "domain": "People",
@@ -1802,8 +1802,8 @@
                 ]
             }
         ],
-        "transcription": "na\u026a\u02c8i\u02d0v \u02c8r\u026a\u0259l\u026az\u0259m",
-        "emoji": "\ud83d\udc41\ufe0f",
+        "transcription": "naɪˈiːv ˈrɪəlɪzəm",
+        "emoji": "👁️",
         "legacy_id": "B2-PPL-88",
         "level_code": "B2",
         "domain": "People",
@@ -1827,8 +1827,8 @@
                 ]
             }
         ],
-        "transcription": "ne\u026am \u02c8ba\u026a\u0259s",
-        "emoji": "\ud83d\udcdb",
+        "transcription": "neɪm ˈbaɪəs",
+        "emoji": "📛",
         "legacy_id": "B2-PPL-89",
         "level_code": "B2",
         "domain": "People",
@@ -1852,8 +1852,8 @@
                 ]
             }
         ],
-        "transcription": "\u02ccn\u025b\u0261\u0259\u02c8t\u026av\u0259ti \u02c8ba\u026a\u0259s",
-        "emoji": "\u2601\ufe0f",
+        "transcription": "ˌnɛɡəˈtɪvəti ˈbaɪəs",
+        "emoji": "☁️",
         "legacy_id": "B2-PPL-90",
         "level_code": "B2",
         "domain": "People",
@@ -1877,8 +1877,8 @@
                 ]
             }
         ],
-        "transcription": "n\u0252\u02c8st\u00e6ld\u0292\u0259 \u026a\u02c8f\u025bkt",
-        "emoji": "\ud83c\udf9e\ufe0f",
+        "transcription": "nɒˈstældʒə ɪˈfɛkt",
+        "emoji": "🎞️",
         "legacy_id": "B2-PPL-91",
         "level_code": "B2",
         "domain": "People",
@@ -1892,11 +1892,11 @@
         "word": "nuance",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "emoji": "\ud83c\udf13",
+        "emoji": "🌓",
         "form": "noun",
         "classification": "regular",
         "plural": "nuances",
-        "transcription": "\u02c8nju\u02d0\u0251\u02d0ns",
+        "transcription": "ˈnjuːɑːns",
         "subtext": "subtle difference, shade of meaning",
         "definitions": [
             {
@@ -1929,8 +1929,8 @@
                 ]
             }
         ],
-        "transcription": "\u0259\u028a\u02c8m\u026a\u0283n \u02c8ba\u026a\u0259s",
-        "emoji": "\u2796",
+        "transcription": "əʊˈmɪʃn ˈbaɪəs",
+        "emoji": "➖",
         "legacy_id": "B2-PPL-93",
         "level_code": "B2",
         "domain": "People",
@@ -1954,8 +1954,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8\u0252pt\u026am\u026az\u0259m \u02c8ba\u026a\u0259s",
-        "emoji": "\ud83c\udf1e",
+        "transcription": "ˈɒptɪmɪzəm ˈbaɪəs",
+        "emoji": "🌞",
         "legacy_id": "B2-PPL-94",
         "level_code": "B2",
         "domain": "People",
@@ -1979,8 +1979,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8\u0252str\u026at\u0283 \u026a\u02c8f\u025bkt",
-        "emoji": "\ud83d\udc26",
+        "transcription": "ˈɒstrɪtʃ ɪˈfɛkt",
+        "emoji": "🐦",
         "legacy_id": "B2-PPL-95",
         "level_code": "B2",
         "domain": "People",
@@ -2004,8 +2004,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8a\u028atk\u028cm \u02c8ba\u026a\u0259s",
-        "emoji": "\ud83c\udfc1",
+        "transcription": "ˈaʊtkʌm ˈbaɪəs",
+        "emoji": "🏁",
         "legacy_id": "B2-PPL-96",
         "level_code": "B2",
         "domain": "People",
@@ -2029,8 +2029,8 @@
                 ]
             }
         ],
-        "transcription": "\u02cc\u0259\u028av\u0259\u02c8k\u0252nf\u026ad\u0259ns \u02c8ba\u026a\u0259s",
-        "emoji": "\ud83e\udd81",
+        "transcription": "ˌəʊvəˈkɒnfɪdəns ˈbaɪəs",
+        "emoji": "🦁",
         "legacy_id": "B2-PPL-97",
         "level_code": "B2",
         "domain": "People",
@@ -2044,11 +2044,11 @@
         "word": "paradox",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "emoji": "\ud83e\udde9",
+        "emoji": "🧩",
         "form": "noun",
         "classification": "regular",
         "plural": "paradoxes",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8p\u00e6r\u0259d\u0252ks | \ud83c\uddfa\ud83c\uddf8 \u02c8p\u00e6r\u0259d\u0251\u02d0ks",
+        "transcription": "🇬🇧 ˈpærədɒks | 🇺🇸 ˈpærədɑːks",
         "subtext": "contradiction, puzzle",
         "definitions": [
             {
@@ -2081,8 +2081,8 @@
                 ]
             }
         ],
-        "transcription": "\u02ccp\u00e6r\u026a\u02c8d\u0259\u028ali\u0259",
-        "emoji": "\u2601\ufe0f",
+        "transcription": "ˌpærɪˈdəʊliə",
+        "emoji": "☁️",
         "legacy_id": "B2-PPL-99",
         "level_code": "B2",
         "domain": "People",
@@ -2106,36 +2106,9 @@
                 ]
             }
         ],
-        "transcription": "pi\u02d0k \u025bnd ru\u02d0l",
-        "emoji": "\u26f0\ufe0f",
+        "transcription": "piːk ɛnd ruːl",
+        "emoji": "⛰️",
         "legacy_id": "B2-PPL-100",
-        "level_code": "B2",
-        "domain": "People",
-        "subcategory": "Personality",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Psychological_Traits"
-    },
-    {
-        "id": "B2-NOUN-PEO-106",
-        "lang": "en",
-        "word": "perspective",
-        "level": "upper_intermediate",
-        "theme": "psychology",
-        "emoji": "\ud83d\udc41\ufe0f",
-        "form": "noun",
-        "classification": "regular",
-        "plural": "perspectives",
-        "transcription": "p\u0259\u02c8sp\u025bkt\u026av",
-        "subtext": "viewpoint, standpoint",
-        "definitions": [
-            {
-                "text": "A particular way of thinking about or viewing a situation.",
-                "examples": [
-                    "From a financial perspective, the decision makes sense."
-                ]
-            }
-        ],
-        "legacy_id": "B2-PPL-101",
         "level_code": "B2",
         "domain": "People",
         "subcategory": "Personality",
@@ -2158,8 +2131,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8p\u025bs\u026am\u026az\u0259m \u02c8ba\u026a\u0259s",
-        "emoji": "\u2614",
+        "transcription": "ˈpɛsɪmɪzəm ˈbaɪəs",
+        "emoji": "☔",
         "legacy_id": "B2-PPL-102",
         "level_code": "B2",
         "domain": "People",
@@ -2183,8 +2156,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8pl\u00e6n\u026a\u014b \u02c8f\u00e6l\u0259si",
-        "emoji": "\ud83d\udcc5",
+        "transcription": "ˈplænɪŋ ˈfæləsi",
+        "emoji": "📅",
         "legacy_id": "B2-PPL-103",
         "level_code": "B2",
         "domain": "People",
@@ -2208,8 +2181,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8pra\u026am\u0259si \u026a\u02c8f\u025bkt",
-        "emoji": "1\ufe0f\u20e3",
+        "transcription": "ˈpraɪməsi ɪˈfɛkt",
+        "emoji": "1️⃣",
         "legacy_id": "B2-PPL-104",
         "level_code": "B2",
         "domain": "People",
@@ -2233,8 +2206,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8pra\u026am\u026a\u014b",
-        "emoji": "\ud83d\udd2b",
+        "transcription": "ˈpraɪmɪŋ",
+        "emoji": "🔫",
         "legacy_id": "B2-PPL-105",
         "level_code": "B2",
         "domain": "People",
@@ -2258,8 +2231,8 @@
                 ]
             }
         ],
-        "transcription": "p\u026a\u0261\u02c8me\u026ali\u0259n \u026a\u02c8f\u025bkt",
-        "emoji": "\ud83d\udcc8",
+        "transcription": "pɪɡˈmeɪliən ɪˈfɛkt",
+        "emoji": "📈",
         "legacy_id": "B2-PPL-106",
         "level_code": "B2",
         "domain": "People",
@@ -2283,8 +2256,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8ri\u02d0snsi \u026a\u02c8f\u025bkt",
-        "emoji": "\ud83d\udd52",
+        "transcription": "ˈriːsnsi ɪˈfɛkt",
+        "emoji": "🕒",
         "legacy_id": "B2-PPL-108",
         "level_code": "B2",
         "domain": "People",
@@ -2308,8 +2281,8 @@
                 ]
             }
         ],
-        "transcription": "\u02ccr\u025bpr\u026a\u02ccz\u025bnt\u0259\u02c8t\u026avn\u0259s \u02c8ba\u026a\u0259s",
-        "emoji": "\ud83d\udc64",
+        "transcription": "ˌrɛprɪˌzɛntəˈtɪvnəs ˈbaɪəs",
+        "emoji": "👤",
         "legacy_id": "B2-PPL-109",
         "level_code": "B2",
         "domain": "People",
@@ -2333,8 +2306,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8r\u0259\u028azi \u02ccr\u025btr\u0259\u02c8sp\u025bk\u0283n",
-        "emoji": "\ud83c\udf39",
+        "transcription": "ˈrəʊzi ˌrɛtrəˈspɛkʃn",
+        "emoji": "🌹",
         "legacy_id": "B2-PPL-111",
         "level_code": "B2",
         "domain": "People",
@@ -2358,8 +2331,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8ske\u0259s\u0259ti \u026a\u02c8f\u025bkt",
-        "emoji": "\ud83d\udc8e",
+        "transcription": "ˈskeəsəti ɪˈfɛkt",
+        "emoji": "💎",
         "legacy_id": "B2-PPL-112",
         "level_code": "B2",
         "domain": "People",
@@ -2383,8 +2356,8 @@
                 ]
             }
         ],
-        "transcription": "s\u025blf \u02c8s\u025c\u02d0v\u026a\u014b \u02c8ba\u026a\u0259s",
-        "emoji": "\ud83c\udfc6",
+        "transcription": "sɛlf ˈsɜːvɪŋ ˈbaɪəs",
+        "emoji": "🏆",
         "legacy_id": "B2-PPL-113",
         "level_code": "B2",
         "domain": "People",
@@ -2408,8 +2381,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8s\u0259\u028a\u0283l n\u0254\u02d0mz",
-        "emoji": "\ud83c\udfd8\ufe0f",
+        "transcription": "ˈsəʊʃl nɔːmz",
+        "emoji": "🏘️",
         "legacy_id": "B2-PPL-114",
         "level_code": "B2",
         "domain": "People",
@@ -2433,8 +2406,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8sp\u0252tla\u026at \u026a\u02c8f\u025bkt",
-        "emoji": "\ud83d\udd26",
+        "transcription": "ˈspɒtlaɪt ɪˈfɛkt",
+        "emoji": "🔦",
         "legacy_id": "B2-PPL-115",
         "level_code": "B2",
         "domain": "People",
@@ -2458,8 +2431,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8ste\u026at\u0259s \u02c8kw\u0259\u028a \u02c8ba\u026a\u0259s",
-        "emoji": "\u23f8\ufe0f",
+        "transcription": "ˈsteɪtəs ˈkwəʊ ˈbaɪəs",
+        "emoji": "⏸️",
         "legacy_id": "B2-PPL-116",
         "level_code": "B2",
         "domain": "People",
@@ -2483,8 +2456,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8st\u025bri\u0259ta\u026ap \u03b8r\u025bt",
-        "emoji": "\ud83c\udff7\ufe0f",
+        "transcription": "ˈstɛriətaɪp θrɛt",
+        "emoji": "🏷️",
         "legacy_id": "B2-PPL-117",
         "level_code": "B2",
         "domain": "People",
@@ -2508,8 +2481,8 @@
                 ]
             }
         ],
-        "transcription": "s\u0259\u02ccd\u0292\u025bst\u0259\u02c8b\u026al\u0259ti",
-        "emoji": "\ud83d\udce2",
+        "transcription": "səˌdʒɛstəˈbɪləti",
+        "emoji": "📢",
         "legacy_id": "B2-PPL-118",
         "level_code": "B2",
         "domain": "People",
@@ -2533,8 +2506,8 @@
                 ]
             }
         ],
-        "transcription": "s\u028c\u014bk k\u0252st \u02c8f\u00e6l\u0259si",
-        "emoji": "\ud83d\udcb8",
+        "transcription": "sʌŋk kɒst ˈfæləsi",
+        "emoji": "💸",
         "legacy_id": "B2-PPL-119",
         "level_code": "B2",
         "domain": "People",
@@ -2558,8 +2531,8 @@
                 ]
             }
         ],
-        "transcription": "s\u0259\u02c8va\u026av\u0259\u0283\u026ap \u02c8ba\u026a\u0259s",
-        "emoji": "\ud83d\udea4",
+        "transcription": "səˈvaɪvəʃɪp ˈbaɪəs",
+        "emoji": "🚤",
         "legacy_id": "B2-PPL-120",
         "level_code": "B2",
         "domain": "People",
@@ -2583,8 +2556,8 @@
                 ]
             }
         ],
-        "transcription": "\u02c8z\u026a\u0259r\u0259\u028a r\u026ask \u02c8ba\u026a\u0259s",
-        "emoji": "\ud83d\udee1\ufe0f",
+        "transcription": "ˈzɪərəʊ rɪsk ˈbaɪəs",
+        "emoji": "🛡️",
         "legacy_id": "B2-PPL-122",
         "level_code": "B2",
         "domain": "People",
@@ -2593,6 +2566,10 @@
         "sub_subcategory": "Psychological_Traits"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

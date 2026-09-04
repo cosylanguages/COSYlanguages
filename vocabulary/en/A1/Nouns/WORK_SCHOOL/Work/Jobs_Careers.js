@@ -4,7 +4,7 @@
     {
         "id": "A1-NOUN-WOR-029",
         "word": "boss",
-        "emoji": "\ud83d\udcbc",
+        "emoji": "💼",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -18,7 +18,7 @@
                 ]
             }
         ],
-        "transcription": "b\u0254s",
+        "transcription": "bɔs",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -33,7 +33,7 @@
     {
         "id": "A1-NOUN-WOR-030",
         "word": "break",
-        "emoji": "\u2615",
+        "emoji": "☕",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -47,7 +47,7 @@
                 ]
             }
         ],
-        "transcription": "bre\u026ak",
+        "transcription": "breɪk",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -62,7 +62,7 @@
     {
         "id": "A1-NOUN-WOR-031",
         "word": "business",
-        "emoji": "\ud83d\udcbc",
+        "emoji": "💼",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -76,7 +76,7 @@
             }
         ],
         "subtext": "related to workplace basics",
-        "transcription": "\u02c8b\u026azn\u026as",
+        "transcription": "ˈbɪznɪs",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -91,7 +91,7 @@
     {
         "id": "A1-NOUN-WOR-032",
         "word": "colleague",
-        "emoji": "\ud83e\uddd1\u200d\ud83d\udcbc",
+        "emoji": "🧑‍💼",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -105,7 +105,7 @@
             }
         ],
         "subtext": "related to workplace basics",
-        "transcription": "\u02c8k\u0251lig",
+        "transcription": "ˈkɑlig",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -120,7 +120,7 @@
     {
         "id": "A1-NOUN-WOR-033",
         "word": "company",
-        "emoji": "\ud83c\udfe2",
+        "emoji": "🏢",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -134,7 +134,7 @@
             }
         ],
         "subtext": "related to workplace basics",
-        "transcription": "\u02c8k\u0259mp\u0259\u02ccni",
+        "transcription": "ˈkəmpəˌni",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -149,7 +149,7 @@
     {
         "id": "A1-NOUN-WOR-034",
         "word": "document",
-        "emoji": "\ud83d\udcc4",
+        "emoji": "📄",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -163,7 +163,7 @@
             }
         ],
         "subtext": "related to workplace basics",
-        "transcription": "\u02c8d\u0251kj\u0259m\u025bnt",
+        "transcription": "ˈdɑkjəmɛnt",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -178,7 +178,7 @@
     {
         "id": "A1-NOUN-WOR-035",
         "word": "factory",
-        "emoji": "\ud83c\udfed",
+        "emoji": "🏭",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -192,7 +192,7 @@
             }
         ],
         "subtext": "related to workplace basics",
-        "transcription": "\u02c8f\u00e6kt\u0259ri",
+        "transcription": "ˈfæktəri",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -207,7 +207,7 @@
     {
         "id": "A1-NOUN-WOR-036",
         "word": "file",
-        "emoji": "\ud83d\udcc1",
+        "emoji": "📁",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -221,7 +221,7 @@
             }
         ],
         "subtext": "related to workplace basics",
-        "transcription": "fa\u026al",
+        "transcription": "faɪl",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -236,7 +236,7 @@
     {
         "id": "A1-NOUN-WOR-037",
         "word": "group",
-        "emoji": "\ud83d\udc65",
+        "emoji": "👥",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -268,7 +268,7 @@
     {
         "id": "A1-NOUN-WOR-038",
         "word": "meeting",
-        "emoji": "\ud83e\udd1d",
+        "emoji": "🤝",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -283,7 +283,7 @@
                 ]
             }
         ],
-        "transcription": "\u02c8mit\u026a\u014b",
+        "transcription": "ˈmitɪŋ",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -298,7 +298,7 @@
     {
         "id": "A1-NOUN-WOR-039",
         "word": "report",
-        "emoji": "\ud83d\udcc4",
+        "emoji": "📄",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -312,7 +312,7 @@
                 ]
             }
         ],
-        "transcription": "r\u026a\u02c8p\u0254\u02d0t",
+        "transcription": "rɪˈpɔːt",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -327,7 +327,7 @@
     {
         "id": "A1-NOUN-WOR-040",
         "word": "sleep",
-        "emoji": "\ud83d\ude34",
+        "emoji": "😴",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -347,7 +347,7 @@
         "sub_theme": null,
         "etymology": {
             "origin_lang": "Proto-Germanic",
-            "origin_word": "sl\u0113pan",
+            "origin_word": "slēpan",
             "origin_meaning": "to sleep"
         },
         "antonyms": [
@@ -363,7 +363,7 @@
     {
         "id": "A1-NOUN-WOR-041",
         "word": "staff",
-        "emoji": "\ud83d\udc65",
+        "emoji": "👥",
         "form": "noun",
         "classification": "regular",
         "countability": "countable",
@@ -381,7 +381,7 @@
                 ]
             }
         ],
-        "transcription": "st\u00e6f",
+        "transcription": "stæf",
         "lang": "en",
         "level": "starter",
         "theme": "work",
@@ -396,9 +396,9 @@
     {
         "id": "A1-NOUN-WOR-065",
         "word": "artist",
-        "emoji": "\ud83c\udfa8",
+        "emoji": "🎨",
         "form": "noun",
-        "transcription": "\u02c8\u0251\u02d0rt\u0259st",
+        "transcription": "ˈɑːrtəst",
         "definitions": [
             {
                 "text": "A person who creates paintings, drawings, or sculpture.",
@@ -419,9 +419,9 @@
     {
         "id": "A1-NOUN-WOR-066",
         "word": "project",
-        "emoji": "\ud83d\udccb",
+        "emoji": "📋",
         "form": "noun",
-        "transcription": "\u02c8pr\u0251\u02d0\u02a4\u025bkt",
+        "transcription": "ˈprɑːʤɛkt",
         "definitions": [
             {
                 "text": "An individual or collaborative enterprise carefully planned.",
@@ -442,9 +442,9 @@
     {
         "id": "A1-NOUN-WOR-086",
         "word": "applicant",
-        "emoji": "\ud83d\udc64",
+        "emoji": "👤",
         "form": "noun",
-        "transcription": "\u02c8\u00e6pl\u0259k\u0259nt",
+        "transcription": "ˈæpləkənt",
         "definitions": [
             {
                 "text": "A person who applies for a job.",
@@ -465,9 +465,9 @@
     {
         "id": "A1-NOUN-WOR-087",
         "word": "application",
-        "emoji": "\ud83d\udccb",
+        "emoji": "📋",
         "form": "noun",
-        "transcription": "\u02cc\u00e6pl\u0259\u02c8ke\u026a\u0283\u0259n",
+        "transcription": "ˌæpləˈkeɪʃən",
         "definitions": [
             {
                 "text": "A formal request for a job or place.",
@@ -488,9 +488,9 @@
     {
         "id": "A1-NOUN-WOR-088",
         "word": "appointment",
-        "emoji": "\ud83d\udcc5",
+        "emoji": "📅",
         "form": "noun",
-        "transcription": "\u0259\u02c8p\u0254\u026antm\u0259nt",
+        "transcription": "əˈpɔɪntmənt",
         "definitions": [
             {
                 "text": "An arrangement to meet at a particular time.",
@@ -511,9 +511,9 @@
     {
         "id": "A1-NOUN-WOR-089",
         "word": "assistant",
-        "emoji": "\ud83d\udc64",
+        "emoji": "👤",
         "form": "noun",
-        "transcription": "\u0259\u02c8s\u026ast\u0259nt",
+        "transcription": "əˈsɪstənt",
         "definitions": [
             {
                 "text": "A person who helps in a particular work.",
@@ -534,9 +534,9 @@
     {
         "id": "A1-NOUN-WOR-090",
         "word": "candidate",
-        "emoji": "\ud83e\uddd1\u200d\ud83d\udcbc",
+        "emoji": "🧑‍💼",
         "form": "noun",
-        "transcription": "\u02c8k\u00e6nd\u0259d\u0259t",
+        "transcription": "ˈkændədət",
         "definitions": [
             {
                 "text": "A person who applies for or is nominated for a position.",
@@ -557,9 +557,9 @@
     {
         "id": "A1-NOUN-WOR-091",
         "word": "contract",
-        "emoji": "\ud83d\udcc4",
+        "emoji": "📄",
         "form": "noun",
-        "transcription": "\u02c8k\u0251\u02d0ntr\u00e6kt",
+        "transcription": "ˈkɑːntrækt",
         "definitions": [
             {
                 "text": "A written or spoken agreement.",
@@ -580,9 +580,9 @@
     {
         "id": "A1-NOUN-WOR-092",
         "word": "employer",
-        "emoji": "\ud83c\udfe2",
+        "emoji": "🏢",
         "form": "noun",
-        "transcription": "\u026am\u02c8pl\u0254\u026a\u0259r",
+        "transcription": "ɪmˈplɔɪər",
         "definitions": [
             {
                 "text": "A person or organization that employs people.",
@@ -603,9 +603,9 @@
     {
         "id": "A1-NOUN-WOR-093",
         "word": "employment",
-        "emoji": "\ud83d\udcbc",
+        "emoji": "💼",
         "form": "noun",
-        "transcription": "\u026am\u02c8pl\u0254\u026am\u0259nt",
+        "transcription": "ɪmˈplɔɪmənt",
         "definitions": [
             {
                 "text": "The state of having paid work.",
@@ -626,9 +626,9 @@
     {
         "id": "A1-NOUN-WOR-094",
         "word": "interview",
-        "emoji": "\ud83e\udd1d",
+        "emoji": "🤝",
         "form": "noun",
-        "transcription": "\u02c8\u026ant\u0259r\u02ccvju\u02d0",
+        "transcription": "ˈɪntərˌvjuː",
         "definitions": [
             {
                 "text": "A formal meeting in which an applicant is questioned.",
@@ -649,9 +649,9 @@
     {
         "id": "A1-NOUN-WOR-095",
         "word": "labor",
-        "emoji": "\ud83d\udd28",
+        "emoji": "🔨",
         "form": "noun",
-        "transcription": "\u02c8le\u026ab\u0259r",
+        "transcription": "ˈleɪbər",
         "definitions": [
             {
                 "text": "Work, especially hard physical work.",
@@ -672,9 +672,9 @@
     {
         "id": "A1-NOUN-WOR-096",
         "word": "promotion",
-        "emoji": "\ud83d\udcc8",
+        "emoji": "📈",
         "form": "noun",
-        "transcription": "pr\u0259\u02c8mo\u028a\u0283\u0259n",
+        "transcription": "prəˈmoʊʃən",
         "definitions": [
             {
                 "text": "Advance to a higher position.",
@@ -695,9 +695,9 @@
     {
         "id": "A1-NOUN-WOR-097",
         "word": "salary",
-        "emoji": "\ud83d\udcb0",
+        "emoji": "💰",
         "form": "noun",
-        "transcription": "\u02c8s\u00e6l\u0259ri",
+        "transcription": "ˈsæləri",
         "definitions": [
             {
                 "text": "A fixed regular payment made by an employer.",
@@ -718,9 +718,9 @@
     {
         "id": "A1-NOUN-WOR-098",
         "word": "shift",
-        "emoji": "\u23f1\ufe0f",
+        "emoji": "⏱️",
         "form": "noun",
-        "transcription": "\u0283\u026aft",
+        "transcription": "ʃɪft",
         "definitions": [
             {
                 "text": "A period of work time.",
@@ -739,34 +739,11 @@
         "sub_subcategory": "Jobs_Careers"
     },
     {
-        "id": "A1-NOUN-WOR-099",
-        "word": "wages",
-        "emoji": "\ud83d\udcb5",
-        "form": "noun",
-        "transcription": "\u02c8we\u026a\u02a4\u0259z",
-        "definitions": [
-            {
-                "text": "A fixed regular payment earned for work.",
-                "examples": [
-                    "Weekly wages are paid on Friday.",
-                    "Fair wages motivate workers."
-                ]
-            }
-        ],
-        "lang": "en",
-        "level": "starter",
-        "level_code": "A1",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Work",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Jobs_Careers"
-    },
-    {
         "id": "A1-NOUN-WOR-100",
         "word": "worker",
-        "emoji": "\ud83d\udc77",
+        "emoji": "👷",
         "form": "noun",
-        "transcription": "\u02c8w\u025c\u02d0rk\u0259r",
+        "transcription": "ˈwɜːrkər",
         "definitions": [
             {
                 "text": "A person who works, especially one who does physical work.",
@@ -787,9 +764,9 @@
     {
         "id": "A1-NOUN-WOR-128",
         "word": "accountant",
-        "emoji": "\ud83d\udcca",
+        "emoji": "📊",
         "form": "noun",
-        "transcription": "\u0259\u02c8ka\u028ant\u0259nt",
+        "transcription": "əˈkaʊntənt",
         "definitions": [
             {
                 "text": "A person who keeps or inspects financial accounts.",
@@ -810,9 +787,9 @@
     {
         "id": "A1-NOUN-WOR-129",
         "word": "architect",
-        "emoji": "\ud83c\udfdb\ufe0f",
+        "emoji": "🏛️",
         "form": "noun",
-        "transcription": "\u02c8\u0251\u02d0rk\u0259\u02cct\u025bkt",
+        "transcription": "ˈɑːrkəˌtɛkt",
         "definitions": [
             {
                 "text": "A person who designs buildings.",
@@ -833,9 +810,9 @@
     {
         "id": "A1-NOUN-WOR-130",
         "word": "cashier",
-        "emoji": "\ud83d\udcb5",
+        "emoji": "💵",
         "form": "noun",
-        "transcription": "k\u00e6\u02c8\u0283\u026ar",
+        "transcription": "kæˈʃɪr",
         "definitions": [
             {
                 "text": "A person handling payments in a shop or bank.",
@@ -856,9 +833,9 @@
     {
         "id": "A1-NOUN-WOR-131",
         "word": "counselor",
-        "emoji": "\ud83e\udd1d",
+        "emoji": "🤝",
         "form": "noun",
-        "transcription": "\u02c8ka\u028ans\u0259l\u0259r",
+        "transcription": "ˈkaʊnsələr",
         "definitions": [
             {
                 "text": "A person trained to give guidance or advice.",
@@ -879,9 +856,9 @@
     {
         "id": "A1-NOUN-WOR-132",
         "word": "designer",
-        "emoji": "\ud83c\udfa8",
+        "emoji": "🎨",
         "form": "noun",
-        "transcription": "d\u026a\u02c8za\u026an\u0259r",
+        "transcription": "dɪˈzaɪnər",
         "definitions": [
             {
                 "text": "A person who plans the look or markings of something.",
@@ -902,9 +879,9 @@
     {
         "id": "A1-NOUN-WOR-133",
         "word": "electrician",
-        "emoji": "\u26a1",
+        "emoji": "⚡",
         "form": "noun",
-        "transcription": "\u026a\u02ccl\u025bk\u02c8tr\u026a\u0283\u0259n",
+        "transcription": "ɪˌlɛkˈtrɪʃən",
         "definitions": [
             {
                 "text": "A person who installs and repairs electrical wiring.",
@@ -925,9 +902,9 @@
     {
         "id": "A1-NOUN-WOR-134",
         "word": "executive",
-        "emoji": "\ud83d\udcbc",
+        "emoji": "💼",
         "form": "noun",
-        "transcription": "\u026a\u0261\u02c8z\u025bkj\u0259t\u026av",
+        "transcription": "ɪɡˈzɛkjətɪv",
         "definitions": [
             {
                 "text": "A person with senior managerial responsibility.",
@@ -948,9 +925,9 @@
     {
         "id": "A1-NOUN-WOR-135",
         "word": "flight attendant",
-        "emoji": "\u2708\ufe0f",
+        "emoji": "✈️",
         "form": "noun",
-        "transcription": "fla\u026at \u0259\u02c8t\u025bnd\u0259nt",
+        "transcription": "flaɪt əˈtɛndənt",
         "definitions": [
             {
                 "text": "A steward or stewardess on an aircraft.",
@@ -971,9 +948,9 @@
     {
         "id": "A1-NOUN-WOR-136",
         "word": "gardener",
-        "emoji": "\ud83e\uddd1\u200d\ud83c\udf3e",
+        "emoji": "🧑‍🌾",
         "form": "noun",
-        "transcription": "\u02c8\u0261\u0251\u02d0rdn\u0259r",
+        "transcription": "ˈɡɑːrdnər",
         "definitions": [
             {
                 "text": "A person who tends and cultivates a garden.",
@@ -994,9 +971,9 @@
     {
         "id": "A1-NOUN-WOR-137",
         "word": "mechanic",
-        "emoji": "\ud83d\udd27",
+        "emoji": "🔧",
         "form": "noun",
-        "transcription": "m\u0259\u02c8k\u00e6n\u026ak",
+        "transcription": "məˈkænɪk",
         "definitions": [
             {
                 "text": "A person who repairs and maintains machinery or cars.",
@@ -1017,9 +994,9 @@
     {
         "id": "A1-NOUN-WOR-138",
         "word": "pharmacist",
-        "emoji": "\ud83d\udc8a",
+        "emoji": "💊",
         "form": "noun",
-        "transcription": "\u02c8f\u0251\u02d0rm\u0259s\u0259st",
+        "transcription": "ˈfɑːrməsəst",
         "definitions": [
             {
                 "text": "A person qualified to prepare and dispense drugs.",
@@ -1040,9 +1017,9 @@
     {
         "id": "A1-NOUN-WOR-139",
         "word": "plumber",
-        "emoji": "\ud83d\udd27",
+        "emoji": "🔧",
         "form": "noun",
-        "transcription": "\u02c8pl\u028cm\u0259r",
+        "transcription": "ˈplʌmər",
         "definitions": [
             {
                 "text": "A person who installs and repairs water pipes.",
@@ -1063,9 +1040,9 @@
     {
         "id": "A1-NOUN-WOR-140",
         "word": "receptionist",
-        "emoji": "\ud83d\udece\ufe0f",
+        "emoji": "🛎️",
         "form": "noun",
-        "transcription": "r\u026a\u02c8s\u025bp\u0283\u0259n\u0259st",
+        "transcription": "rɪˈsɛpʃənəst",
         "definitions": [
             {
                 "text": "A person who greets visitors at a hotel or office.",
@@ -1086,9 +1063,9 @@
     {
         "id": "A1-NOUN-WOR-141",
         "word": "salesperson",
-        "emoji": "\ud83d\udecd\ufe0f",
+        "emoji": "🛍️",
         "form": "noun",
-        "transcription": "\u02c8se\u026alz\u02ccp\u025c\u02d0rs\u0259n",
+        "transcription": "ˈseɪlzˌpɜːrsən",
         "definitions": [
             {
                 "text": "A person whose job is selling goods.",
@@ -1109,9 +1086,9 @@
     {
         "id": "A1-NOUN-WOR-142",
         "word": "surgeon",
-        "emoji": "\ud83d\udc68\u200d\u2695\ufe0f",
+        "emoji": "👨‍⚕️",
         "form": "noun",
-        "transcription": "\u02c8s\u025c\u02d0r\u02a4\u0259n",
+        "transcription": "ˈsɜːrʤən",
         "definitions": [
             {
                 "text": "A medical practitioner qualified to practice surgery.",
@@ -1132,9 +1109,9 @@
     {
         "id": "A1-NOUN-WOR-143",
         "word": "translator",
-        "emoji": "\ud83c\udf10",
+        "emoji": "🌐",
         "form": "noun",
-        "transcription": "tr\u00e6ns\u02c8le\u026at\u0259r",
+        "transcription": "trænsˈleɪtər",
         "definitions": [
             {
                 "text": "A person who translates written or spoken text.",
@@ -1155,9 +1132,9 @@
     {
         "id": "A1-NOUN-WOR-144",
         "word": "veterinarian",
-        "emoji": "\ud83d\udc3e",
+        "emoji": "🐾",
         "form": "noun",
-        "transcription": "\u02ccv\u025bt\u0259r\u0259\u02c8n\u025bri\u0259n",
+        "transcription": "ˌvɛtərəˈnɛriən",
         "definitions": [
             {
                 "text": "A person qualified to treat diseased or injured animals.",
@@ -1178,9 +1155,9 @@
     {
         "id": "A1-NOUN-WOR-145",
         "word": "administrator",
-        "emoji": "\ud83d\udda5\ufe0f",
+        "emoji": "🖥️",
         "form": "noun",
-        "transcription": "\u0259d\u02c8m\u026an\u0259\u02ccstre\u026at\u0259r",
+        "transcription": "ədˈmɪnəˌstreɪtər",
         "definitions": [
             {
                 "text": "A person responsible for running a business or organization.",
@@ -1201,9 +1178,9 @@
     {
         "id": "A1-NOUN-WOR-146",
         "word": "analyst",
-        "emoji": "\ud83d\udcca",
+        "emoji": "📊",
         "form": "noun",
-        "transcription": "\u02c8\u00e6n\u0259l\u0259st",
+        "transcription": "ˈænələst",
         "definitions": [
             {
                 "text": "A person who analyzes data or systems.",
@@ -1224,9 +1201,9 @@
     {
         "id": "A1-NOUN-WOR-147",
         "word": "consultant",
-        "emoji": "\ud83d\udcbc",
+        "emoji": "💼",
         "form": "noun",
-        "transcription": "k\u0259n\u02c8s\u028clt\u0259nt",
+        "transcription": "kənˈsʌltənt",
         "definitions": [
             {
                 "text": "A professional who provides expert advice.",
@@ -1247,9 +1224,9 @@
     {
         "id": "A1-NOUN-WOR-148",
         "word": "coordinator",
-        "emoji": "\ud83d\udccb",
+        "emoji": "📋",
         "form": "noun",
-        "transcription": "ko\u028a\u02c8\u0254\u02d0rd\u0259n\u02cce\u026at\u0259r",
+        "transcription": "koʊˈɔːrdənˌeɪtər",
         "definitions": [
             {
                 "text": "A person who organizes events or activities.",
@@ -1270,9 +1247,9 @@
     {
         "id": "A1-NOUN-WOR-149",
         "word": "director",
-        "emoji": "\ud83c\udfac",
+        "emoji": "🎬",
         "form": "noun",
-        "transcription": "d\u0259\u02c8r\u025bkt\u0259r",
+        "transcription": "dəˈrɛktər",
         "definitions": [
             {
                 "text": "A person who supervises the actors or film production.",
@@ -1293,9 +1270,9 @@
     {
         "id": "A1-NOUN-WOR-150",
         "word": "editor",
-        "emoji": "\u270d\ufe0f",
+        "emoji": "✍️",
         "form": "noun",
-        "transcription": "\u02c8\u025bd\u0259t\u0259r",
+        "transcription": "ˈɛdətər",
         "definitions": [
             {
                 "text": "A person who prepares written material for publication.",
@@ -1316,9 +1293,9 @@
     {
         "id": "A1-NOUN-WOR-151",
         "word": "instructor",
-        "emoji": "\ud83e\uddd1\u200d\ud83c\udfeb",
+        "emoji": "🧑‍🏫",
         "form": "noun",
-        "transcription": "\u026an\u02c8str\u028ckt\u0259r",
+        "transcription": "ɪnˈstrʌktər",
         "definitions": [
             {
                 "text": "A teacher or trainer.",
@@ -1339,9 +1316,9 @@
     {
         "id": "A1-NOUN-WOR-152",
         "word": "specialist",
-        "emoji": "\ud83d\udc68\u200d\u2695\ufe0f",
+        "emoji": "👨‍⚕️",
         "form": "noun",
-        "transcription": "\u02c8sp\u025b\u0283\u0259l\u0259st",
+        "transcription": "ˈspɛʃələst",
         "definitions": [
             {
                 "text": "A person who concentrates on a specific subject or medical field.",

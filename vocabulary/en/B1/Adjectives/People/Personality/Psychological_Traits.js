@@ -80,33 +80,6 @@
         "id": "B1-ADJ-PEO-054"
     },
     {
-        "id": "B1-ADJ-PEO-055",
-        "word": "brave",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "psychology",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "Willing to face danger or difficulty.",
-                "examples": [
-                    "It was brave of him to challenge the board's decision."
-                ]
-            }
-        ],
-        "transcription": "breɪv",
-        "emoji": "❓",
-        "_legacy": {
-            "subtext": "very brave / incredibly brave / a brave decision"
-        },
-        "legacy_id": "B1-ADJ-PEO-015",
-        "level_code": "B1",
-        "domain": "People",
-        "subcategory": "Personality",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Psychological_Traits"
-    },
-    {
         "word": "compassionate",
         "lang": "en",
         "level": "intermediate",
@@ -131,32 +104,6 @@
         "pos_section": "Adjectives",
         "sub_subcategory": "Psychological_Traits",
         "id": "B1-ADJ-PEO-056"
-    },
-    {
-        "word": "creative",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "personality",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "An adjective describing a person having or showing imagination and original ideas, such as painting landscape art.",
-                "examples": [
-                    "She found a creative solution to the design problem."
-                ]
-            }
-        ],
-        "transcription": "kriˈeɪtɪv",
-        "emoji": "🎨",
-        "_legacy": {
-            "subtext": "creative mind / highly creative"
-        },
-        "level_code": "B1",
-        "domain": "People",
-        "subcategory": "Personality",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Psychological_Traits",
-        "id": "B1-ADJ-PEO-057"
     },
     {
         "word": "decisive",
@@ -263,33 +210,6 @@
         "id": "B1-ADJ-PEO-061"
     },
     {
-        "id": "B1-ADJ-PEO-062",
-        "word": "generous",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "psychology",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "Willing to give time or money; more than expected.",
-                "examples": [
-                    "He is generous with his time and mentors junior staff."
-                ]
-            }
-        ],
-        "transcription": "ˈdʒɛnərəs",
-        "emoji": "❓",
-        "_legacy": {
-            "subtext": "very generous / extremely generous / generous with"
-        },
-        "legacy_id": "B1-ADJ-PEO-016",
-        "level_code": "B1",
-        "domain": "People",
-        "subcategory": "Personality",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Psychological_Traits"
-    },
-    {
         "id": "B1-ADJ-PEO-063",
         "word": "gentle",
         "lang": "en",
@@ -310,60 +230,6 @@
             "subtext": "very gentle / a gentle approach / gentle reminder"
         },
         "legacy_id": "B1-ADJ-PEO-017",
-        "level_code": "B1",
-        "domain": "People",
-        "subcategory": "Personality",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Psychological_Traits"
-    },
-    {
-        "id": "B1-ADJ-PEO-064",
-        "word": "grateful",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "psychology",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "Feeling or showing thanks for kindness received.",
-                "examples": [
-                    "He is very grateful for the support during his illness."
-                ]
-            }
-        ],
-        "transcription": "ˈɡreɪtfl",
-        "emoji": "❓",
-        "_legacy": {
-            "subtext": "very grateful / deeply grateful / grateful for"
-        },
-        "legacy_id": "B1-ADJ-PEO-018",
-        "level_code": "B1",
-        "domain": "People",
-        "subcategory": "Personality",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Psychological_Traits"
-    },
-    {
-        "id": "B1-ADJ-PEO-065",
-        "word": "honest",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "psychology",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "Telling the truth; not deceiving.",
-                "examples": [
-                    "He is known for being completely honest with everyone."
-                ]
-            }
-        ],
-        "transcription": "🇬🇧 ˈɒnɪst | 🇺🇸 ˈɑːnɪst",
-        "emoji": "❓",
-        "_legacy": {
-            "subtext": "brutally honest / completely honest / very honest"
-        },
-        "legacy_id": "B1-ADJ-PEO-019",
         "level_code": "B1",
         "domain": "People",
         "subcategory": "Personality",
@@ -606,32 +472,6 @@
         "id": "B1-ADJ-PEO-074"
     },
     {
-        "word": "practical",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "personality",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "An adjective describing a person concerned with actual doing and experience rather than theory, such as fixing household leaks.",
-                "examples": [
-                    "She gave practical advice on budgeting monthly expenses."
-                ]
-            }
-        ],
-        "transcription": "ˈpræktɪkl",
-        "emoji": "🛠️",
-        "_legacy": {
-            "subtext": "practical advice / sensible and practical"
-        },
-        "level_code": "B1",
-        "domain": "People",
-        "subcategory": "Personality",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Psychological_Traits",
-        "id": "B1-ADJ-PEO-075"
-    },
-    {
         "word": "pragmatic",
         "lang": "en",
         "level": "intermediate",
@@ -762,111 +602,6 @@
         "id": "B1-ADJ-PEO-080"
     },
     {
-        "id": "B1-ADJ-PEO-081",
-        "word": "sensible",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "psychology",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "Showing good judgement; practical and reasonable.",
-                "examples": [
-                    "He made a very sensible decision under pressure."
-                ]
-            }
-        ],
-        "transcription": "ˈsɛnsəbl",
-        "emoji": "❓",
-        "_legacy": {
-            "subtext": "very sensible / perfectly sensible / a sensible choice"
-        },
-        "legacy_id": "B1-ADJ-PEO-021",
-        "level_code": "B1",
-        "domain": "People",
-        "subcategory": "Personality",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Psychological_Traits"
-    },
-    {
-        "word": "sensitive",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "personality",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "An adjective describing someone quick to detect or respond to slight changes or feelings, such as comforting a sad friend.",
-                "examples": [
-                    "He is sensitive to the emotional needs of those around him."
-                ]
-            }
-        ],
-        "transcription": "ˈsensətɪv",
-        "emoji": "🌸",
-        "_legacy": {
-            "subtext": "sensitive nature / highly sensitive"
-        },
-        "level_code": "B1",
-        "domain": "People",
-        "subcategory": "Personality",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Psychological_Traits",
-        "id": "B1-ADJ-PEO-082"
-    },
-    {
-        "word": "smart",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "personality",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "An adjective describing a person having or showing quick intelligence, such as solving difficult puzzles.",
-                "examples": [
-                    "She is a smart student who excels in science."
-                ]
-            }
-        ],
-        "transcription": "smɑːrt",
-        "emoji": "🧠",
-        "_legacy": {
-            "subtext": "smart student / quick and smart"
-        },
-        "level_code": "B1",
-        "domain": "People",
-        "subcategory": "Personality",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Psychological_Traits",
-        "id": "B1-ADJ-PEO-083"
-    },
-    {
-        "word": "sympathetic",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "personality",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "An adjective describing someone expressing compassion and sorrow for others' misfortunes, such as writing a sympathy card.",
-                "examples": [
-                    "She gave a sympathetic ear to her worried friend."
-                ]
-            }
-        ],
-        "transcription": "ˌsɪmpəˈθetɪk",
-        "emoji": "🤝",
-        "_legacy": {
-            "subtext": "sympathetic friend / deeply sympathetic"
-        },
-        "level_code": "B1",
-        "domain": "People",
-        "subcategory": "Personality",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Psychological_Traits",
-        "id": "B1-ADJ-PEO-084"
-    },
-    {
         "word": "thorough",
         "lang": "en",
         "level": "intermediate",
@@ -945,6 +680,10 @@
         "id": "B1-ADJ-PEO-087"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

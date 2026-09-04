@@ -14,8 +14,8 @@
                 ]
             }
         ],
-        "emoji": "\ud83d\udcd6",
-        "transcription": "\u0259\u02c8ba\u028at",
+        "emoji": "📖",
+        "transcription": "əˈbaʊt",
         "subtext": "about",
         "lang": "en",
         "level": "starter",
@@ -41,8 +41,8 @@
             }
         ],
         "subtext": "related to prepositions time",
-        "emoji": "\u23ed\ufe0f",
-        "transcription": "\u02c8\u00e6ft\u0259r",
+        "emoji": "⏭️",
+        "transcription": "ˈæftər",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -70,8 +70,8 @@
             }
         ],
         "subtext": "related to prepositions time",
-        "emoji": "\u23ee\ufe0f",
-        "transcription": "\u02ccbi\u02c8f\u0254r",
+        "emoji": "⏮️",
+        "transcription": "ˌbiˈfɔr",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -99,8 +99,8 @@
             }
         ],
         "subtext": "related to prepositions time",
-        "emoji": "\u231b",
-        "transcription": "\u02c8d\u028ar\u026a\u014b",
+        "emoji": "⌛",
+        "transcription": "ˈdʊrɪŋ",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -125,8 +125,8 @@
             }
         ],
         "subtext": "related to prepositions time",
-        "emoji": "\ud83c\udf81",
-        "transcription": "f\u0259r",
+        "emoji": "🎁",
+        "transcription": "fər",
         "lang": "en",
         "level": "starter",
         "theme": "time",
@@ -139,34 +139,11 @@
         "sub_subcategory": "Clocks_Periods"
     },
     {
-        "id": "A1-OTH-TIM-006",
-        "word": "afterwards",
-        "emoji": "\u23f3",
-        "form": "adverb",
-        "transcription": "\u02c8\u00e6ft\u0259rw\u0259rdz",
-        "definitions": [
-            {
-                "text": "At a later or future time; subsequently.",
-                "examples": [
-                    "We ate dinner and went for a walk afterwards.",
-                    "She rested afterwards."
-                ]
-            }
-        ],
-        "lang": "en",
-        "level": "starter",
-        "level_code": "A1",
-        "domain": "TIME_NUMBERS",
-        "subcategory": "Time",
-        "pos_section": "Other_POS",
-        "sub_subcategory": "Clocks_Periods"
-    },
-    {
         "id": "A1-OTH-TIM-007",
         "word": "beforehand",
-        "emoji": "\u231b",
+        "emoji": "⌛",
         "form": "adverb",
-        "transcription": "b\u026a\u02c8f\u0254\u02d0r\u02cch\u00e6nd",
+        "transcription": "bɪˈfɔːrˌhænd",
         "definitions": [
             {
                 "text": "Before an action or event takes place.",
@@ -187,9 +164,9 @@
     {
         "id": "A1-OTH-TIM-008",
         "word": "currently",
-        "emoji": "\ud83d\udcc5",
+        "emoji": "📅",
         "form": "adverb",
-        "transcription": "\u02c8k\u025c\u02d0r\u0259ntli",
+        "transcription": "ˈkɜːrəntli",
         "definitions": [
             {
                 "text": "At the present time.",
@@ -210,9 +187,9 @@
     {
         "id": "A1-OTH-TIM-009",
         "word": "eventually",
-        "emoji": "\ud83c\udfaf",
+        "emoji": "🎯",
         "form": "adverb",
-        "transcription": "\u026a\u02c8v\u025bn\u02a7u\u0259li",
+        "transcription": "ɪˈvɛnʧuəli",
         "definitions": [
             {
                 "text": "In the end, especially after a long time.",
@@ -233,9 +210,9 @@
     {
         "id": "A1-OTH-TIM-010",
         "word": "finally",
-        "emoji": "\ud83c\udfc1",
+        "emoji": "🏁",
         "form": "adverb",
-        "transcription": "\u02c8fa\u026an\u0259li",
+        "transcription": "ˈfaɪnəli",
         "definitions": [
             {
                 "text": "After a long time; at last.",
@@ -256,9 +233,9 @@
     {
         "id": "A1-OTH-TIM-011",
         "word": "immediately",
-        "emoji": "\u26a1",
+        "emoji": "⚡",
         "form": "adverb",
-        "transcription": "\u026a\u02c8mi\u02d0di\u0259tli",
+        "transcription": "ɪˈmiːdiətli",
         "definitions": [
             {
                 "text": "At once; instantly.",
@@ -279,9 +256,9 @@
     {
         "id": "A1-OTH-TIM-012",
         "word": "initially",
-        "emoji": "\ud83c\udfc1",
+        "emoji": "🏁",
         "form": "adverb",
-        "transcription": "\u026a\u02c8n\u026a\u0283\u0259li",
+        "transcription": "ɪˈnɪʃəli",
         "definitions": [
             {
                 "text": "At first; at the beginning.",
@@ -302,9 +279,9 @@
     {
         "id": "A1-OTH-TIM-013",
         "word": "meanwhile",
-        "emoji": "\u23f1\ufe0f",
+        "emoji": "⏱️",
         "form": "adverb",
-        "transcription": "\u02c8mi\u02d0n\u02ccwa\u026al",
+        "transcription": "ˈmiːnˌwaɪl",
         "definitions": [
             {
                 "text": "In the intervening period of time.",
@@ -325,9 +302,9 @@
     {
         "id": "A1-OTH-TIM-014",
         "word": "nowadays",
-        "emoji": "\ud83d\udcc5",
+        "emoji": "📅",
         "form": "adverb",
-        "transcription": "\u02c8na\u028a\u0259\u02ccde\u026az",
+        "transcription": "ˈnaʊəˌdeɪz",
         "definitions": [
             {
                 "text": "At the present time, in contrast to the past.",
@@ -348,9 +325,9 @@
     {
         "id": "A1-OTH-TIM-015",
         "word": "recently",
-        "emoji": "\ud83d\udcc5",
+        "emoji": "📅",
         "form": "adverb",
-        "transcription": "\u02c8ri\u02d0s\u0259ntli",
+        "transcription": "ˈriːsəntli",
         "definitions": [
             {
                 "text": "At a recent time; not long ago.",
@@ -371,9 +348,9 @@
     {
         "id": "A1-OTH-TIM-016",
         "word": "shortly",
-        "emoji": "\u23f1\ufe0f",
+        "emoji": "⏱️",
         "form": "adverb",
-        "transcription": "\u02c8\u0283\u0254\u02d0rtli",
+        "transcription": "ˈʃɔːrtli",
         "definitions": [
             {
                 "text": "In a short time; soon.",
@@ -394,9 +371,9 @@
     {
         "id": "A1-OTH-TIM-017",
         "word": "afterward",
-        "emoji": "\u23f3",
+        "emoji": "⏳",
         "form": "adverb",
-        "transcription": "\u02c8\u00e6ft\u0259rw\u0259rd",
+        "transcription": "ˈæftərwərd",
         "definitions": [
             {
                 "text": "At a later or future time.",
@@ -417,9 +394,9 @@
     {
         "id": "A1-OTH-TIM-018",
         "word": "constantly",
-        "emoji": "\ud83d\udd04",
+        "emoji": "🔄",
         "form": "adverb",
-        "transcription": "\u02c8k\u0251\u02d0nst\u0259ntli",
+        "transcription": "ˈkɑːnstəntli",
         "definitions": [
             {
                 "text": "Continuous or frequent occurrence.",
@@ -440,9 +417,9 @@
     {
         "id": "A1-OTH-TIM-019",
         "word": "daily",
-        "emoji": "\ud83d\udcc5",
+        "emoji": "📅",
         "form": "adverb",
-        "transcription": "\u02c8de\u026ali",
+        "transcription": "ˈdeɪli",
         "definitions": [
             {
                 "text": "Every day or once a day.",
@@ -463,9 +440,9 @@
     {
         "id": "A1-OTH-TIM-020",
         "word": "frequently",
-        "emoji": "\ud83d\udd01",
+        "emoji": "🔁",
         "form": "adverb",
-        "transcription": "\u02c8fri\u02d0kw\u0259ntli",
+        "transcription": "ˈfriːkwəntli",
         "definitions": [
             {
                 "text": "Regularly or on many occasions.",
@@ -486,9 +463,9 @@
     {
         "id": "A1-OTH-TIM-021",
         "word": "hourly",
-        "emoji": "\u23f1\ufe0f",
+        "emoji": "⏱️",
         "form": "adverb",
-        "transcription": "\u02c8ha\u028a\u0259rli",
+        "transcription": "ˈhaʊərli",
         "definitions": [
             {
                 "text": "Every hour or once an hour.",
@@ -509,9 +486,9 @@
     {
         "id": "A1-OTH-TIM-022",
         "word": "monthly",
-        "emoji": "\ud83d\uddd3\ufe0f",
+        "emoji": "🗓️",
         "form": "adverb",
-        "transcription": "\u02c8m\u028cn\u03b8li",
+        "transcription": "ˈmʌnθli",
         "definitions": [
             {
                 "text": "Every month or once a month.",
@@ -532,9 +509,9 @@
     {
         "id": "A1-OTH-TIM-023",
         "word": "rarely",
-        "emoji": "\ud83d\udd39",
+        "emoji": "🔹",
         "form": "adverb",
-        "transcription": "\u02c8r\u025brli",
+        "transcription": "ˈrɛrli",
         "definitions": [
             {
                 "text": "Not often; seldom.",
@@ -555,9 +532,9 @@
     {
         "id": "A1-OTH-TIM-024",
         "word": "weekly",
-        "emoji": "\ud83d\udcc5",
+        "emoji": "📅",
         "form": "adverb",
-        "transcription": "\u02c8wi\u02d0kli",
+        "transcription": "ˈwiːkli",
         "definitions": [
             {
                 "text": "Every week or once a week.",
@@ -578,9 +555,9 @@
     {
         "id": "A1-OTH-TIM-025",
         "word": "annually",
-        "emoji": "\ud83d\uddd3\ufe0f",
+        "emoji": "🗓️",
         "form": "adverb",
-        "transcription": "\u02c8\u00e6nju\u0259li",
+        "transcription": "ˈænjuəli",
         "definitions": [
             {
                 "text": "Once every year.",
@@ -601,9 +578,9 @@
     {
         "id": "A1-OTH-TIM-026",
         "word": "occasionally",
-        "emoji": "\ud83d\udd00",
+        "emoji": "🔀",
         "form": "adverb",
-        "transcription": "\u0259\u02c8ke\u026a\u0292\u0259n\u0259li",
+        "transcription": "əˈkeɪʒənəli",
         "definitions": [
             {
                 "text": "At times; now and then.",
@@ -624,9 +601,9 @@
     {
         "id": "A1-OTH-TIM-027",
         "word": "seldom",
-        "emoji": "\ud83d\udd39",
+        "emoji": "🔹",
         "form": "adverb",
-        "transcription": "\u02c8s\u025bld\u0259m",
+        "transcription": "ˈsɛldəm",
         "definitions": [
             {
                 "text": "Not often; rarely.",
@@ -647,9 +624,9 @@
     {
         "id": "A1-OTH-TIM-028",
         "word": "briefly",
-        "emoji": "\u23f1\ufe0f",
+        "emoji": "⏱️",
         "form": "adverb",
-        "transcription": "\u02c8bri\u02d0fli",
+        "transcription": "ˈbriːfli",
         "definitions": [
             {
                 "text": "For a short time; fleetingly.",
@@ -670,9 +647,9 @@
     {
         "id": "A1-OTH-TIM-029",
         "word": "continuously",
-        "emoji": "\ud83d\udd04",
+        "emoji": "🔄",
         "form": "adverb",
-        "transcription": "k\u0259n\u02c8t\u026anju\u0259sli",
+        "transcription": "kənˈtɪnjuəsli",
         "definitions": [
             {
                 "text": "Without interruption; constantly.",
@@ -693,9 +670,9 @@
     {
         "id": "A1-OTH-TIM-030",
         "word": "gradually",
-        "emoji": "\ud83d\udcc8",
+        "emoji": "📈",
         "form": "adverb",
-        "transcription": "\u02c8\u0261r\u00e6\u02a4u\u0259li",
+        "transcription": "ˈɡræʤuəli",
         "definitions": [
             {
                 "text": "In a gradual way; slowly over time.",
@@ -716,9 +693,9 @@
     {
         "id": "A1-OTH-TIM-031",
         "word": "instantly",
-        "emoji": "\u26a1",
+        "emoji": "⚡",
         "form": "adverb",
-        "transcription": "\u02c8\u026anst\u0259ntli",
+        "transcription": "ˈɪnstəntli",
         "definitions": [
             {
                 "text": "At once; immediately.",
@@ -739,9 +716,9 @@
     {
         "id": "A1-OTH-TIM-032",
         "word": "permanently",
-        "emoji": "\ud83d\udd12",
+        "emoji": "🔒",
         "form": "adverb",
-        "transcription": "\u02c8p\u025c\u02d0rm\u0259n\u0259ntli",
+        "transcription": "ˈpɜːrmənəntli",
         "definitions": [
             {
                 "text": "In a way that lasts indefinitely without change.",

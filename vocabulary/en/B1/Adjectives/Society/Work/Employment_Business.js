@@ -2,114 +2,6 @@
     const lang = "en";
     const data = [
     {
-        "id": "B1-ADJ-SOC-019",
-        "word": "ambitious",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "work",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "Having a strong desire to succeed.",
-                "examples": [
-                    "She is highly ambitious and plans to be a director."
-                ]
-            }
-        ],
-        "transcription": "æmˈbɪʃəs",
-        "emoji": "❓",
-        "_legacy": {
-            "subtext": "very ambitious / hugely ambitious / fiercely ambitious"
-        },
-        "legacy_id": "B1-SOC-06",
-        "level_code": "B1",
-        "domain": "Society",
-        "subcategory": "Work",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Employment_Business"
-    },
-    {
-        "id": "B1-ADJ-SOC-020",
-        "word": "clear",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "work",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "Easy to understand; obvious.",
-                "examples": [
-                    "Her explanation was very clear and helpful."
-                ]
-            }
-        ],
-        "transcription": "🇬🇧 klɪə | 🇺🇸 klɪər",
-        "emoji": "❓",
-        "_legacy": {
-            "subtext": "crystal clear / very clear / make it clear"
-        },
-        "legacy_id": "B1-SOC-15",
-        "level_code": "B1",
-        "domain": "Society",
-        "subcategory": "Work",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Employment_Business"
-    },
-    {
-        "id": "B1-ADJ-SOC-021",
-        "word": "competitive",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "work",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "Trying hard to be better than others; involving competition.",
-                "examples": [
-                    "The industry is extremely competitive right now."
-                ]
-            }
-        ],
-        "transcription": "kəmˈpɛtətɪv",
-        "emoji": "❓",
-        "_legacy": {
-            "subtext": "highly competitive / very competitive / a competitive salary"
-        },
-        "legacy_id": "B1-SOC-18",
-        "level_code": "B1",
-        "domain": "Society",
-        "subcategory": "Work",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Employment_Business"
-    },
-    {
-        "id": "B1-ADJ-SOC-022",
-        "word": "complicated",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "work",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "Involving many parts; difficult to understand.",
-                "examples": [
-                    "The tax system is incredibly complicated."
-                ]
-            }
-        ],
-        "transcription": "🇬🇧 ˈkɒmplɪkeɪtɪd | 🇺🇸 ˈkɑːmplɪkeɪtɪd",
-        "emoji": "❓",
-        "_legacy": {
-            "subtext": "very complicated / overly complicated / get complicated"
-        },
-        "legacy_id": "B1-SOC-19",
-        "level_code": "B1",
-        "domain": "Society",
-        "subcategory": "Work",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Employment_Business"
-    },
-    {
         "id": "B1-ADJ-SOC-023",
         "word": "dedicated",
         "lang": "en",
@@ -211,87 +103,6 @@
             "subtext": "highly effective / very effective / most effective"
         },
         "legacy_id": "B1-SOC-31",
-        "level_code": "B1",
-        "domain": "Society",
-        "subcategory": "Work",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Employment_Business"
-    },
-    {
-        "id": "B1-ADJ-SOC-027",
-        "word": "efficient",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "work",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "Achieving maximum result with minimum waste of effort.",
-                "examples": [
-                    "She manages her time in a very efficient way."
-                ]
-            }
-        ],
-        "transcription": "ɪˈfɪʃnt",
-        "emoji": "❓",
-        "_legacy": {
-            "subtext": "highly efficient / very efficient / more efficient"
-        },
-        "legacy_id": "B1-SOC-32",
-        "level_code": "B1",
-        "domain": "Society",
-        "subcategory": "Work",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Employment_Business"
-    },
-    {
-        "id": "B1-ADJ-SOC-028",
-        "word": "enthusiastic",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "work",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "Feeling or showing great interest and excitement.",
-                "examples": [
-                    "He is enthusiastic about the new project direction."
-                ]
-            }
-        ],
-        "transcription": "ɪnˌθjuːziˈæstɪk",
-        "emoji": "❓",
-        "_legacy": {
-            "subtext": "very enthusiastic / enthusiastic about / hugely enthusiastic"
-        },
-        "legacy_id": "B1-SOC-35",
-        "level_code": "B1",
-        "domain": "Society",
-        "subcategory": "Work",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Employment_Business"
-    },
-    {
-        "id": "B1-ADJ-SOC-029",
-        "word": "impatient",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "work",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "Unable to wait calmly; easily irritated by delay.",
-                "examples": [
-                    "He becomes impatient when meetings go over time."
-                ]
-            }
-        ],
-        "transcription": "ɪmˈpeɪʃnt",
-        "emoji": "❓",
-        "_legacy": {
-            "subtext": "very impatient / easily impatient / grow impatient"
-        },
-        "legacy_id": "B1-SOC-42",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Work",
@@ -435,33 +246,6 @@
         "sub_subcategory": "Employment_Business"
     },
     {
-        "id": "B1-ADJ-SOC-035",
-        "word": "patient",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "work",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "Able to wait for a long time without getting annoyed.",
-                "examples": [
-                    "A good teacher needs to be very patient."
-                ]
-            }
-        ],
-        "transcription": "ˈpeɪʃnt",
-        "emoji": "❓",
-        "_legacy": {
-            "subtext": "very patient / patient with / extraordinarily patient"
-        },
-        "legacy_id": "B1-SOC-61",
-        "level_code": "B1",
-        "domain": "Society",
-        "subcategory": "Work",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Employment_Business"
-    },
-    {
         "id": "B1-ADJ-SOC-036",
         "word": "self-employed",
         "lang": "en",
@@ -519,35 +303,12 @@
         "subcategory": "Work",
         "pos_section": "Adjectives",
         "sub_subcategory": "Employment_Business"
-    },
-    {
-        "id": "B1-ADJ-SOC-038",
-        "word": "successful",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "work",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "Having achieved a desired result.",
-                "examples": [
-                    "The campaign was extremely successful."
-                ]
-            }
-        ],
-        "transcription": "səkˈsɛsfl",
-        "emoji": "❓",
-        "_legacy": {
-            "subtext": "highly successful / very successful / enormously successful"
-        },
-        "legacy_id": "B1-SOC-77",
-        "level_code": "B1",
-        "domain": "Society",
-        "subcategory": "Work",
-        "pos_section": "Adjectives",
-        "sub_subcategory": "Employment_Business"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

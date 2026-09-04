@@ -5,11 +5,11 @@
         "id": "C1-NOUN-LAW-001",
         "word": "AI literacy",
         "lang": "en",
-        "transcription": "\u02cce\u026a \u02c8a\u026a \u02c8l\u026at\u0259r\u0259si",
+        "transcription": "ˌeɪ ˈaɪ ˈlɪtərəsi",
         "level": "advanced",
         "theme": "language",
         "sub_theme": "learning",
-        "emoji": "\ud83e\udd16",
+        "emoji": "🤖",
         "form": "noun phrase",
         "definitions": [
             {
@@ -31,11 +31,11 @@
         "id": "C1-NOUN-LAW-002",
         "word": "Task-Based Learning",
         "lang": "en",
-        "transcription": "t\u0251\u02d0sk be\u026ast \u02c8l\u025c\u02d0n\u026a\u014b",
+        "transcription": "tɑːsk beɪst ˈlɜːnɪŋ",
         "level": "advanced",
         "theme": "language",
         "sub_theme": "learning",
-        "emoji": "\ud83d\udccb",
+        "emoji": "📋",
         "form": "noun phrase",
         "definitions": [
             {
@@ -57,11 +57,11 @@
         "id": "C1-NOUN-LAW-003",
         "word": "Total Physical Response",
         "lang": "en",
-        "transcription": "\u02c8t\u0259\u028atl \u02c8f\u026az\u026akl r\u026a\u02c8sp\u0252ns",
+        "transcription": "ˈtəʊtl ˈfɪzɪkl rɪˈspɒns",
         "level": "advanced",
         "theme": "language",
         "sub_theme": "learning",
-        "emoji": "\ud83c\udfc3",
+        "emoji": "🏃",
         "form": "noun phrase",
         "definitions": [
             {
@@ -83,11 +83,11 @@
         "word": "activism",
         "level": "advanced",
         "theme": "power_institutions_c1",
-        "emoji": "\ud83d\udce3",
+        "emoji": "📣",
         "subtext": "political activism / social activism / grassroots activism",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\u02c8\u00e6kt\u026av\u026az\u0259m",
+        "transcription": "ˈæktɪvɪzəm",
         "definitions": [
             {
                 "text": "The policy or action of using campaigning to bring about political or social change.",
@@ -109,11 +109,11 @@
         "word": "advocacy",
         "level": "advanced",
         "theme": "power_institutions_c1",
-        "emoji": "\ud83d\udce2",
+        "emoji": "📢",
         "subtext": "consumer advocacy / policy advocacy / advocacy group",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\u02c8\u00e6dv\u0259k\u0259si",
+        "transcription": "ˈædvəkəsi",
         "definitions": [
             {
                 "text": "Public support for or recommendation of a particular cause or policy.",
@@ -135,11 +135,11 @@
         "id": "C1-NOUN-LAW-006",
         "word": "affective filter",
         "lang": "en",
-        "transcription": "\u0259\u02c8fekt\u026av \u02c8f\u026alt\u0259",
+        "transcription": "əˈfektɪv ˈfɪltə",
         "level": "advanced",
         "theme": "language",
         "sub_theme": "learning",
-        "emoji": "\ud83d\udee1\ufe0f",
+        "emoji": "🛡️",
         "form": "noun phrase",
         "definitions": [
             {
@@ -161,11 +161,11 @@
         "word": "agency",
         "level": "advanced",
         "theme": "sociology_structures_c1",
-        "emoji": "\ud83c\udfc3",
+        "emoji": "🏃",
         "subtext": "human agency / exercise agency / sense of agency",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\u02c8e\u026ad\u0292\u0259nsi",
+        "transcription": "ˈeɪdʒənsi",
         "definitions": [
             {
                 "text": "The capacity of individuals to act independently and make free choices.",
@@ -187,11 +187,11 @@
         "word": "alienation",
         "level": "advanced",
         "theme": "sociology_structures_c1",
-        "emoji": "\ud83d\udc64",
+        "emoji": "👤",
         "subtext": "sense of alienation / social alienation / alienation of labor",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\u02cce\u026ali\u0259\u02c8ne\u026a\u0283n",
+        "transcription": "ˌeɪliəˈneɪʃn",
         "definitions": [
             {
                 "text": "The state or experience of being isolated from a group or an activity to which one should belong.",
@@ -213,12 +213,12 @@
         "word": "ambiguity",
         "level": "advanced",
         "theme": "language_persuasion_c1",
-        "emoji": "\ud83c\udf2b\ufe0f",
+        "emoji": "🌫️",
         "subtext": "moral ambiguity / legal ambiguity / avoid ambiguity",
         "form": "noun",
         "classification": "regular",
         "plural": "ambiguities",
-        "transcription": "\u02cc\u00e6mb\u026a\u02c8\u0261ju\u02d0\u0259ti",
+        "transcription": "ˌæmbɪˈɡjuːəti",
         "definitions": [
             {
                 "text": "The quality of being open to more than one interpretation; inexactness.",
@@ -240,12 +240,12 @@
         "word": "antithesis",
         "level": "advanced",
         "theme": "discourse_argument_c1",
-        "emoji": "\ud83d\udeab",
+        "emoji": "🚫",
         "subtext": "exact antithesis / complete antithesis / direct antithesis",
         "form": "noun",
         "classification": "regular",
         "plural": "antitheses",
-        "transcription": "\u00e6n\u02c8t\u026a\u03b8\u0259s\u026as",
+        "transcription": "ænˈtɪθəsɪs",
         "definitions": [
             {
                 "text": "A person or thing that is the direct opposite of someone or something else.",
@@ -267,11 +267,11 @@
         "id": "C1-NOUN-LAW-011",
         "word": "authentic assessment",
         "lang": "en",
-        "transcription": "\u0254\u02d0\u02c8\u03b8ent\u026ak \u0259\u02c8sesm\u0259nt",
+        "transcription": "ɔːˈθentɪk əˈsesmənt",
         "level": "advanced",
         "theme": "language",
         "sub_theme": "learning",
-        "emoji": "\ud83d\udee0\ufe0f",
+        "emoji": "🛠️",
         "form": "noun phrase",
         "definitions": [
             {
@@ -293,11 +293,11 @@
         "word": "authenticity",
         "level": "advanced",
         "theme": "psychological_states_c1",
-        "emoji": "\ud83d\udcaf",
+        "emoji": "💯",
         "subtext": "emotional authenticity / search for authenticity / lack of authenticity",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\u02cc\u0254\u02d0\u03b8en\u02c8t\u026as\u0259ti",
+        "transcription": "ˌɔːθenˈtɪsəti",
         "definitions": [
             {
                 "text": "The quality of being authentic, genuine, or true to oneself.",
@@ -316,41 +316,15 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "word": "biodiversity",
-        "level": "advanced",
-        "theme": "science_tech_society_c1",
-        "emoji": "\ud83e\udd8b",
-        "subtext": "loss of biodiversity / conserve biodiversity / promote biodiversity",
-        "form": "noun",
-        "classification": "regular",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02ccba\u026a\u0259\u028ada\u026a\u02c8v\u025c\u02d0s\u0259ti | \ud83c\uddfa\ud83c\uddf8 \u02ccba\u026ao\u028ada\u026a\u02c8v\u025c\u02d0s\u0259ti",
-        "definitions": [
-            {
-                "text": "The variety of plant and animal life in the world or in a particular habitat.",
-                "examples": [
-                    "The destruction of the rainforest is a major threat to global biodiversity."
-                ]
-            }
-        ],
-        "lang": "en",
-        "id": "C1-NOUN-LAW-013",
-        "legacy_id": "C1-LAW-13",
-        "level_code": "C1",
-        "domain": "LAW",
-        "subcategory": "Legal_System",
-        "pos_section": "Nouns",
-        "sub_subcategory": "General_Law"
-    },
-    {
         "word": "bureaucracy",
         "level": "advanced",
         "theme": "power_institutions_c1",
-        "emoji": "\ud83d\udcc1",
+        "emoji": "📁",
         "subtext": "government bureaucracy / cut through bureaucracy / excessive bureaucracy",
         "form": "noun",
         "classification": "regular",
         "plural": "bureaucracies",
-        "transcription": "\ud83c\uddec\ud83c\udde7 bj\u028a\u0259\u02c8r\u0252kr\u0259si | \ud83c\uddfa\ud83c\uddf8 bj\u028a\u0259\u02c8r\u0251\u02d0kr\u0259si",
+        "transcription": "🇬🇧 bjʊəˈrɒkrəsi | 🇺🇸 bjʊəˈrɑːkrəsi",
         "definitions": [
             {
                 "text": "A system of government where decisions are made by state officials rather than elected representatives.",
@@ -372,11 +346,11 @@
         "word": "centralization",
         "level": "advanced",
         "theme": "power_institutions_c1",
-        "emoji": "\ud83c\udfaf",
+        "emoji": "🎯",
         "subtext": "administrative centralization / political centralization",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\u02ccsentr\u0259la\u026a\u02c8ze\u026a\u0283n",
+        "transcription": "ˌsentrəlaɪˈzeɪʃn",
         "definitions": [
             {
                 "text": "The concentration of control of an activity or organization under a single authority.",
@@ -398,11 +372,11 @@
         "id": "C1-NOUN-LAW-016",
         "word": "classroom management",
         "lang": "en",
-        "transcription": "\u02c8kl\u0251\u02d0sru\u02d0m \u02c8m\u00e6n\u026ad\u0292m\u0259nt",
+        "transcription": "ˈklɑːsruːm ˈmænɪdʒmənt",
         "level": "advanced",
         "theme": "language",
         "sub_theme": "learning",
-        "emoji": "\ud83c\udfeb",
+        "emoji": "🏫",
         "form": "noun phrase",
         "definitions": [
             {
@@ -424,11 +398,11 @@
         "word": "commodity fetishism",
         "level": "advanced",
         "theme": "power_institutions_c1",
-        "emoji": "\ud83c\udff7\ufe0f",
+        "emoji": "🏷️",
         "subtext": "concept of commodity fetishism / critique of commodity fetishism",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\ud83c\uddec\ud83c\udde7 k\u0259\u02c8m\u0252d\u0259ti \u02c8fet\u026a\u0283\u026az\u0259m | \ud83c\uddfa\ud83c\uddf8 k\u0259\u02c8m\u0251\u02d0d\u0259ti \u02c8fet\u026a\u0283\u026az\u0259m",
+        "transcription": "🇬🇧 kəˈmɒdəti ˈfetɪʃɪzəm | 🇺🇸 kəˈmɑːdəti ˈfetɪʃɪzəm",
         "definitions": [
             {
                 "text": "The perception of social relationships involved in production as economic relationships among money and commodities.",
@@ -450,11 +424,11 @@
         "id": "C1-NOUN-LAW-018",
         "word": "comprehensible input",
         "lang": "en",
-        "transcription": "\u02cck\u0252mpr\u026a\u02c8hens\u0259bl \u02c8\u026anp\u028at",
+        "transcription": "ˌkɒmprɪˈhensəbl ˈɪnpʊt",
         "level": "advanced",
         "theme": "language",
         "sub_theme": "learning",
-        "emoji": "\ud83d\udc42",
+        "emoji": "👂",
         "form": "noun phrase",
         "definitions": [
             {
@@ -473,40 +447,14 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "word": "consensus",
-        "level": "advanced",
-        "theme": "language_persuasion_c1",
-        "emoji": "\ud83e\udd1d",
-        "subtext": "reach a consensus / general consensus / build a consensus",
-        "form": "noun",
-        "classification": "regular",
-        "transcription": "k\u0259n\u02c8sens\u0259s",
-        "definitions": [
-            {
-                "text": "A general agreement among a group of people.",
-                "examples": [
-                    "There is no consensus among scientists on the cause of the phenomenon."
-                ]
-            }
-        ],
-        "lang": "en",
-        "id": "C1-NOUN-LAW-019",
-        "legacy_id": "C1-LAW-19",
-        "level_code": "C1",
-        "domain": "LAW",
-        "subcategory": "Legal_System",
-        "pos_section": "Nouns",
-        "sub_subcategory": "General_Law"
-    },
-    {
         "word": "cultural capital",
         "level": "advanced",
         "theme": "sociology_structures_c1",
-        "emoji": "\ud83c\udfad",
+        "emoji": "🎭",
         "subtext": "possess cultural capital / accumulate cultural capital / lack of cultural capital",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\u02c8k\u028clt\u0283\u0259r\u0259l \u02c8k\u00e6p\u026atl",
+        "transcription": "ˈkʌltʃərəl ˈkæpɪtl",
         "definitions": [
             {
                 "text": "The social assets of a person that promote social mobility in a stratified society.",
@@ -528,11 +476,11 @@
         "word": "decentralization",
         "level": "advanced",
         "theme": "power_institutions_c1",
-        "emoji": "\ud83d\udce1",
+        "emoji": "📡",
         "subtext": "fiscal decentralization / process of decentralization",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\u02ccdi\u02d0sentr\u0259la\u026a\u02c8ze\u026a\u0283n",
+        "transcription": "ˌdiːsentrəlaɪˈzeɪʃn",
         "definitions": [
             {
                 "text": "The transfer of authority from central to local government or organizations.",
@@ -554,11 +502,11 @@
         "word": "deviance",
         "level": "advanced",
         "theme": "sociology_structures_c1",
-        "emoji": "\ud83d\udc7a",
+        "emoji": "👺",
         "subtext": "social deviance / criminal deviance / primary deviance",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\u02c8di\u02d0vi\u0259ns",
+        "transcription": "ˈdiːviəns",
         "definitions": [
             {
                 "text": "Behaviour that departs from usual or accepted standards, especially in social matters.",
@@ -580,12 +528,12 @@
         "word": "dichotomy",
         "level": "advanced",
         "theme": "discourse_argument_c1",
-        "emoji": "\ud83c\udf13",
+        "emoji": "🌓",
         "subtext": "false dichotomy / clear dichotomy / sharp dichotomy",
         "form": "noun",
         "classification": "regular",
         "plural": "dichotomies",
-        "transcription": "\ud83c\uddec\ud83c\udde7 da\u026a\u02c8k\u0252t\u0259mi | \ud83c\uddfa\ud83c\uddf8 da\u026a\u02c8k\u0251\u02d0t\u0259mi",
+        "transcription": "🇬🇧 daɪˈkɒtəmi | 🇺🇸 daɪˈkɑːtəmi",
         "definitions": [
             {
                 "text": "A division or contrast between two things that are opposed or entirely different.",
@@ -607,11 +555,11 @@
         "id": "C1-NOUN-LAW-024",
         "word": "differentiated instruction",
         "lang": "en",
-        "transcription": "\u02ccd\u026af\u0259\u02c8ren\u0283ie\u026at\u026ad \u026an\u02c8str\u028ck\u0283n",
+        "transcription": "ˌdɪfəˈrenʃieɪtɪd ɪnˈstrʌkʃn",
         "level": "advanced",
         "theme": "language",
         "sub_theme": "learning",
-        "emoji": "\ud83e\udde9",
+        "emoji": "🧩",
         "form": "noun phrase",
         "definitions": [
             {
@@ -630,40 +578,14 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "word": "discourse",
-        "level": "advanced",
-        "theme": "discourse_argument_c1",
-        "emoji": "\ud83d\udde3\ufe0f",
-        "subtext": "academic discourse / public discourse / dominant discourse",
-        "form": "noun",
-        "classification": "regular",
-        "transcription": "\u02c8d\u026ask\u0254\u02d0s",
-        "definitions": [
-            {
-                "text": "Written or spoken communication or debate, often within a particular field.",
-                "examples": [
-                    "We need to change the public discourse surrounding mental health."
-                ]
-            }
-        ],
-        "lang": "en",
-        "id": "C1-NOUN-LAW-025",
-        "legacy_id": "C1-LAW-25",
-        "level_code": "C1",
-        "domain": "LAW",
-        "subcategory": "Legal_System",
-        "pos_section": "Nouns",
-        "sub_subcategory": "General_Law"
-    },
-    {
         "word": "dissent",
         "level": "advanced",
         "theme": "power_institutions_c1",
-        "emoji": "\ud83d\ude45",
+        "emoji": "🙅",
         "subtext": "suppress dissent / public dissent / political dissent",
         "form": "noun",
         "classification": "regular",
-        "transcription": "d\u026a\u02c8sent",
+        "transcription": "dɪˈsent",
         "definitions": [
             {
                 "text": "The expression or holding of opinions at variance with those commonly held.",
@@ -685,12 +607,12 @@
         "word": "ecological footprint",
         "level": "advanced",
         "theme": "science_tech_society_c1",
-        "emoji": "\ud83d\udc63",
+        "emoji": "👣",
         "subtext": "large ecological footprint / measure ecological footprint",
         "form": "noun",
         "classification": "regular",
         "plural": "ecological footprints",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02cci\u02d0k\u0259\u02c8l\u0252d\u0292\u026akl \u02c8f\u028atpr\u026ant | \ud83c\uddfa\ud83c\uddf8 \u02cci\u02d0k\u0259\u02c8l\u0251\u02d0d\u0292\u026akl \u02c8f\u028atpr\u026ant",
+        "transcription": "🇬🇧 ˌiːkəˈlɒdʒɪkl ˈfʊtprɪnt | 🇺🇸 ˌiːkəˈlɑːdʒɪkl ˈfʊtprɪnt",
         "definitions": [
             {
                 "text": "The impact of a person or community on the environment, expressed as land required.",
@@ -712,11 +634,11 @@
         "id": "C1-NOUN-LAW-028",
         "word": "formative assessment",
         "lang": "en",
-        "transcription": "\u02c8f\u0254\u02d0m\u0259t\u026av \u0259\u02c8sesm\u0259nt",
+        "transcription": "ˈfɔːmətɪv əˈsesmənt",
         "level": "advanced",
         "theme": "language",
         "sub_theme": "learning",
-        "emoji": "\ud83d\udcdd",
+        "emoji": "📝",
         "form": "noun phrase",
         "definitions": [
             {
@@ -741,11 +663,11 @@
         "id": "C1-NOUN-LAW-029",
         "word": "fossilization",
         "lang": "en",
-        "transcription": "\u02ccf\u0252s\u0259la\u026a\u02c8ze\u026a\u0283n",
+        "transcription": "ˌfɒsəlaɪˈzeɪʃn",
         "level": "advanced",
         "theme": "language",
         "sub_theme": "learning",
-        "emoji": "\ud83e\uddb4",
+        "emoji": "🦴",
         "form": "noun",
         "definitions": [
             {
@@ -767,11 +689,11 @@
         "word": "globalization",
         "level": "advanced",
         "theme": "power_institutions_c1",
-        "emoji": "\ud83c\udf10",
+        "emoji": "🌐",
         "subtext": "economic globalization / cultural globalization / impact of globalization",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02cc\u0261l\u0259\u028ab\u0259la\u026a\u02c8ze\u026a\u0283n | \ud83c\uddfa\ud83c\uddf8 \u02cc\u0261lo\u028ab\u0259la\u026a\u02c8ze\u026a\u0283n",
+        "transcription": "🇬🇧 ˌɡləʊbəlaɪˈzeɪʃn | 🇺🇸 ˌɡloʊbəlaɪˈzeɪʃn",
         "definitions": [
             {
                 "text": "The process by which organizations develop international influence or start operating globally.",
@@ -793,11 +715,11 @@
         "id": "C1-NOUN-LAW-031",
         "word": "growth mindset",
         "lang": "en",
-        "transcription": "\u0261r\u0259\u028a\u03b8 \u02c8ma\u026andset",
+        "transcription": "ɡrəʊθ ˈmaɪndset",
         "level": "advanced",
         "theme": "language",
         "sub_theme": "learning",
-        "emoji": "\ud83c\udf31",
+        "emoji": "🌱",
         "form": "noun phrase",
         "definitions": [
             {
@@ -819,11 +741,11 @@
         "word": "hegemony",
         "level": "advanced",
         "theme": "power_institutions_c1",
-        "emoji": "\ud83d\udc51",
+        "emoji": "👑",
         "subtext": "cultural hegemony / challenge hegemony / establish hegemony",
         "form": "noun",
         "classification": "regular",
-        "transcription": "h\u026a\u02c8d\u0292em\u0259ni",
+        "transcription": "hɪˈdʒeməni",
         "definitions": [
             {
                 "text": "The dominance of one group over others, often through cultural or political means.",
@@ -845,11 +767,11 @@
         "id": "C1-NOUN-LAW-033",
         "word": "higher-order thinking skills",
         "lang": "en",
-        "transcription": "\u02c8ha\u026a\u0259r \u02c8\u0254\u02d0d\u0259 \u02c8\u03b8\u026a\u014bk\u026a\u014b sk\u026alz",
+        "transcription": "ˈhaɪər ˈɔːdə ˈθɪŋkɪŋ skɪlz",
         "level": "advanced",
         "theme": "language",
         "sub_theme": "learning",
-        "emoji": "\ud83d\udd1d",
+        "emoji": "🔝",
         "form": "noun phrase",
         "definitions": [
             {
@@ -871,12 +793,12 @@
         "word": "ideology",
         "level": "advanced",
         "theme": "power_institutions_c1",
-        "emoji": "\ud83e\udde0",
+        "emoji": "🧠",
         "subtext": "prevailing ideology / political ideology / dominant ideology",
         "form": "noun",
         "classification": "regular",
         "plural": "ideologies",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02cca\u026adi\u02c8\u0252l\u0259d\u0292i | \ud83c\uddfa\ud83c\uddf8 \u02cca\u026adi\u02c8\u0251\u02d0l\u0259d\u0292i",
+        "transcription": "🇬🇧 ˌaɪdiˈɒlədʒi | 🇺🇸 ˌaɪdiˈɑːlədʒi",
         "definitions": [
             {
                 "text": "A system of ideas and ideals, especially one which forms the basis of economic or political theory.",
@@ -895,45 +817,18 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "word": "infrastructure",
-        "level": "advanced",
-        "theme": "science_tech_society_c1",
-        "emoji": "\ud83c\udfd7\ufe0f",
-        "subtext": "aging infrastructure / critical infrastructure / digital infrastructure",
-        "form": "noun",
-        "classification": "regular",
-        "plural": "infrastructures",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8\u026anfr\u0259\u02ccstr\u028ckt\u0283\u0259 | \ud83c\uddfa\ud83c\uddf8 \u02c8\u026anfr\u0259\u02ccstr\u028ckt\u0283\u0259r",
-        "definitions": [
-            {
-                "text": "The basic physical and organizational structures needed for the operation of a society.",
-                "examples": [
-                    "The government has promised to invest heavily in the country's infrastructure."
-                ]
-            }
-        ],
-        "lang": "en",
-        "id": "C1-NOUN-LAW-035",
-        "legacy_id": "C1-LAW-35",
-        "level_code": "C1",
-        "domain": "LAW",
-        "subcategory": "Legal_System",
-        "pos_section": "Nouns",
-        "sub_subcategory": "General_Law"
-    },
-    {
         "id": "C1-NOUN-LAW-036",
         "word": "inquiry-based learning",
         "lang": "en",
-        "transcription": "\u026an\u02c8kwa\u026a\u0259ri be\u026ast \u02c8l\u025c\u02d0n\u026a\u014b",
+        "transcription": "ɪnˈkwaɪəri beɪst ˈlɜːnɪŋ",
         "level": "advanced",
         "theme": "language",
         "sub_theme": "learning",
-        "emoji": "\ud83d\udd0d",
+        "emoji": "🔍",
         "form": "noun phrase",
         "definitions": [
             {
-                "text": "A form of active learning that starts by posing questions, problems or scenarios\u2014rather than simply presenting established facts.",
+                "text": "A form of active learning that starts by posing questions, problems or scenarios—rather than simply presenting established facts.",
                 "examples": [
                     "Inquiry-based learning encourages students to conduct their own research and find solutions.",
                     "The science fair project is a classic example of inquiry-based learning."
@@ -951,11 +846,11 @@
         "id": "C1-NOUN-LAW-037",
         "word": "interlanguage",
         "lang": "en",
-        "transcription": "\u02cc\u026ant\u0259\u02c8l\u00e6\u014b\u0261w\u026ad\u0292",
+        "transcription": "ˌɪntəˈlæŋɡwɪdʒ",
         "level": "advanced",
         "theme": "language",
         "sub_theme": "learning",
-        "emoji": "\ud83c\udf09",
+        "emoji": "🌉",
         "form": "noun",
         "definitions": [
             {
@@ -977,11 +872,11 @@
         "word": "intersectionality",
         "level": "advanced",
         "theme": "sociology_structures_c1",
-        "emoji": "\ud83d\udd78\ufe0f",
+        "emoji": "🕸️",
         "subtext": "intersectional lens / adopt intersectionality / intersectional approach",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\u02cc\u026ant\u0259sek\u0283\u0259\u02c8n\u00e6l\u0259ti",
+        "transcription": "ˌɪntəsekʃəˈnæləti",
         "definitions": [
             {
                 "text": "The interconnected nature of social categorizations such as race, class, and gender.",
@@ -1003,11 +898,11 @@
         "word": "isolationism",
         "level": "advanced",
         "theme": "power_institutions_c1",
-        "emoji": "\ud83c\udfdd\ufe0f",
+        "emoji": "🏝️",
         "subtext": "political isolationism / economic isolationism",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\u02cca\u026as\u0259\u02c8le\u026a\u0283\u0259n\u026az\u0259m",
+        "transcription": "ˌaɪsəˈleɪʃənɪzəm",
         "definitions": [
             {
                 "text": "A policy of remaining apart from the affairs or interests of other groups or countries.",
@@ -1029,11 +924,11 @@
         "word": "liminality",
         "level": "advanced",
         "theme": "psychological_states_c1",
-        "emoji": "\ud83d\udeaa",
+        "emoji": "🚪",
         "subtext": "sense of liminality / liminal space / experience liminality",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\u02ccl\u026am\u026a\u02c8n\u00e6l\u0259ti",
+        "transcription": "ˌlɪmɪˈnæləti",
         "definitions": [
             {
                 "text": "The quality of ambiguity or disorientation that occurs in the middle stage of a transition.",
@@ -1055,12 +950,12 @@
         "word": "meritocracy",
         "level": "advanced",
         "theme": "power_institutions_c1",
-        "emoji": "\ud83c\udfc6",
+        "emoji": "🏆",
         "subtext": "belief in meritocracy / myth of meritocracy / move toward meritocracy",
         "form": "noun",
         "classification": "regular",
         "plural": "meritocracies",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02ccmer\u026a\u02c8t\u0252kr\u0259si | \ud83c\uddfa\ud83c\uddf8 \u02ccmer\u026a\u02c8t\u0251\u02d0kr\u0259si",
+        "transcription": "🇬🇧 ˌmerɪˈtɒkrəsi | 🇺🇸 ˌmerɪˈtɑːkrəsi",
         "definitions": [
             {
                 "text": "A system where power and privilege are based on individual ability and effort.",
@@ -1082,11 +977,11 @@
         "id": "C1-NOUN-LAW-042",
         "word": "metacognition",
         "lang": "en",
-        "transcription": "\u02ccmet\u0259k\u0252\u0261\u02c8n\u026a\u0283n",
+        "transcription": "ˌmetəkɒɡˈnɪʃn",
         "level": "advanced",
         "theme": "language",
         "sub_theme": "learning",
-        "emoji": "\ud83e\udde0",
+        "emoji": "🧠",
         "form": "noun",
         "definitions": [
             {
@@ -1108,11 +1003,11 @@
         "word": "neoliberalism",
         "level": "advanced",
         "theme": "power_institutions_c1",
-        "emoji": "\ud83d\udcb9",
+        "emoji": "💹",
         "subtext": "rise of neoliberalism / neoliberal policies / neoliberal agenda",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02ccni\u02d0\u0259\u028a\u02c8l\u026ab\u0259r\u0259\u02ccl\u026az\u0259m | \ud83c\uddfa\ud83c\uddf8 \u02ccni\u02d0o\u028a\u02c8l\u026ab\u0259r\u0259\u02ccl\u026az\u0259m",
+        "transcription": "🇬🇧 ˌniːəʊˈlɪbərəˌlɪzəm | 🇺🇸 ˌniːoʊˈlɪbərəˌlɪzəm",
         "definitions": [
             {
                 "text": "A political approach that favors free-market capitalism, deregulation, and reduction in government spending.",
@@ -1134,11 +1029,11 @@
         "id": "C1-NOUN-LAW-044",
         "word": "neurodiversity",
         "lang": "en",
-        "transcription": "\u02ccnj\u028a\u0259r\u0259\u028ada\u026a\u02c8v\u025c\u02d0s\u0259ti",
+        "transcription": "ˌnjʊərəʊdaɪˈvɜːsəti",
         "level": "advanced",
         "theme": "language",
         "sub_theme": "learning",
-        "emoji": "\ud83e\udde0",
+        "emoji": "🧠",
         "form": "noun",
         "definitions": [
             {
@@ -1160,12 +1055,12 @@
         "word": "norm",
         "level": "advanced",
         "theme": "sociology_structures_c1",
-        "emoji": "\ud83d\udccf",
+        "emoji": "📏",
         "subtext": "social norm / cultural norm / conform to norms",
         "form": "noun",
         "classification": "regular",
         "plural": "norms",
-        "transcription": "n\u0254\u02d0m",
+        "transcription": "nɔːm",
         "definitions": [
             {
                 "text": "A standard or pattern, especially of social behaviour, that is typical or expected of a group.",
@@ -1184,42 +1079,15 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "word": "nuance",
-        "level": "advanced",
-        "theme": "language_persuasion_c1",
-        "emoji": "\ud83c\udfa8",
-        "subtext": "capture the nuance / subtle nuance / lack of nuance",
-        "form": "noun",
-        "classification": "regular",
-        "plural": "nuances",
-        "transcription": "\u02c8nju\u02d0\u0251\u02d0ns",
-        "definitions": [
-            {
-                "text": "A subtle difference in or shade of meaning, expression, or sound.",
-                "examples": [
-                    "The translator managed to capture every nuance of the original poem."
-                ]
-            }
-        ],
-        "lang": "en",
-        "id": "C1-NOUN-LAW-046",
-        "legacy_id": "C1-LAW-46",
-        "level_code": "C1",
-        "domain": "LAW",
-        "subcategory": "Legal_System",
-        "pos_section": "Nouns",
-        "sub_subcategory": "General_Law"
-    },
-    {
         "word": "paradigm",
         "level": "advanced",
         "theme": "science_tech_society_c1",
-        "emoji": "\ud83d\udc8e",
+        "emoji": "💎",
         "subtext": "shifting paradigm / dominant paradigm / existing paradigm",
         "form": "noun",
         "classification": "regular",
         "plural": "paradigms",
-        "transcription": "\u02c8p\u00e6r\u0259da\u026am",
+        "transcription": "ˈpærədaɪm",
         "definitions": [
             {
                 "text": "A typical example or pattern of something; a model or worldview.",
@@ -1241,12 +1109,12 @@
         "word": "paradigm shift",
         "level": "advanced",
         "theme": "science_tech_society_c1",
-        "emoji": "\ud83d\udd04",
+        "emoji": "🔄",
         "subtext": "undergo a paradigm shift / cause a paradigm shift / major paradigm shift",
         "form": "noun",
         "classification": "regular",
         "plural": "paradigm shifts",
-        "transcription": "\u02c8p\u00e6r\u0259da\u026am \u0283\u026aft",
+        "transcription": "ˈpærədaɪm ʃɪft",
         "definitions": [
             {
                 "text": "A fundamental change in approach or underlying assumptions.",
@@ -1265,41 +1133,14 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "word": "paradox",
-        "level": "advanced",
-        "theme": "discourse_argument_c1",
-        "emoji": "\ud83c\udf00",
-        "subtext": "central paradox / apparent paradox / solve a paradox",
-        "form": "noun",
-        "classification": "regular",
-        "plural": "paradoxes",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8p\u00e6r\u0259d\u0252ks | \ud83c\uddfa\ud83c\uddf8 \u02c8p\u00e6r\u0259d\u0251\u02d0ks",
-        "definitions": [
-            {
-                "text": "A seemingly absurd or self-contradictory statement that may prove to be true.",
-                "examples": [
-                    "The paradox of thrift suggests that saving more can lead to lower total savings."
-                ]
-            }
-        ],
-        "lang": "en",
-        "id": "C1-NOUN-LAW-049",
-        "legacy_id": "C1-LAW-49",
-        "level_code": "C1",
-        "domain": "LAW",
-        "subcategory": "Legal_System",
-        "pos_section": "Nouns",
-        "sub_subcategory": "General_Law"
-    },
-    {
         "id": "C1-NOUN-LAW-050",
         "word": "pedagogy",
         "lang": "en",
-        "transcription": "\u02c8ped\u0259\u0261\u0252d\u0292i",
+        "transcription": "ˈpedəɡɒdʒi",
         "level": "advanced",
         "theme": "language",
         "sub_theme": "learning",
-        "emoji": "\ud83d\udc69\u200d\ud83c\udfeb",
+        "emoji": "👩‍🏫",
         "form": "noun",
         "definitions": [
             {
@@ -1326,11 +1167,11 @@
         "word": "protectionism",
         "level": "advanced",
         "theme": "power_institutions_c1",
-        "emoji": "\ud83d\udee1\ufe0f",
+        "emoji": "🛡️",
         "subtext": "trade protectionism / rise of protectionism / economic protectionism",
         "form": "noun",
         "classification": "regular",
-        "transcription": "pr\u0259\u02c8tek\u0283\u0259n\u026az\u0259m",
+        "transcription": "prəˈtekʃənɪzəm",
         "definitions": [
             {
                 "text": "The theory or practice of shielding domestic industries from foreign competition.",
@@ -1352,10 +1193,10 @@
         "word": "quantum mechanics",
         "level": "advanced",
         "theme": "science_tech_society_c1",
-        "emoji": "\u269b\ufe0f",
+        "emoji": "⚛️",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8kw\u0252nt\u0259m m\u026a\u02c8k\u00e6n\u026aks | \ud83c\uddfa\ud83c\uddf8 \u02c8kw\u0251\u02d0nt\u0259m m\u026a\u02c8k\u00e6n\u026aks",
+        "transcription": "🇬🇧 ˈkwɒntəm mɪˈkænɪks | 🇺🇸 ˈkwɑːntəm mɪˈkænɪks",
         "definitions": [
             {
                 "text": "The branch of mechanics that deals with the mathematical description of the motion and interaction of subatomic particles.",
@@ -1378,11 +1219,11 @@
         "word": "reification",
         "level": "advanced",
         "theme": "power_institutions_c1",
-        "emoji": "\ud83e\uddf1",
+        "emoji": "🧱",
         "subtext": "reification of ideas / process of reification / reification of power",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\u02ccri\u02d0\u026af\u026a\u02c8ke\u026a\u0283n",
+        "transcription": "ˌriːɪfɪˈkeɪʃn",
         "definitions": [
             {
                 "text": "The process of making something abstract more concrete or real.",
@@ -1401,40 +1242,14 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "word": "renewable energy",
-        "level": "advanced",
-        "theme": "science_tech_society_c1",
-        "emoji": "\u2600\ufe0f",
-        "subtext": "transition to renewable energy / sources of renewable energy",
-        "form": "noun",
-        "classification": "regular",
-        "transcription": "r\u026a\u02c8nju\u02d0\u0259bl \u02c8en\u0259d\u0292i",
-        "definitions": [
-            {
-                "text": "Energy from a source that is not depleted when used, such as wind or solar power.",
-                "examples": [
-                    "The government is investing in renewable energy to reduce dependence on fossil fuels."
-                ]
-            }
-        ],
-        "lang": "en",
-        "id": "C1-NOUN-LAW-054",
-        "legacy_id": "C1-LAW-54",
-        "level_code": "C1",
-        "domain": "LAW",
-        "subcategory": "Legal_System",
-        "pos_section": "Nouns",
-        "sub_subcategory": "General_Law"
-    },
-    {
         "word": "rhetoric",
         "level": "advanced",
         "theme": "rhetoric_persuasion_c1",
-        "emoji": "\ud83c\udf99\ufe0f",
+        "emoji": "🎙️",
         "subtext": "political rhetoric / empty rhetoric / use of rhetoric",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\u02c8ret\u0259r\u026ak",
+        "transcription": "ˈretərɪk",
         "definitions": [
             {
                 "text": "The art of effective or persuasive speaking or writing.",
@@ -1456,11 +1271,11 @@
         "id": "C1-NOUN-LAW-056",
         "word": "scaffolding",
         "lang": "en",
-        "transcription": "\u02c8sk\u00e6f\u0259ld\u026a\u014b",
+        "transcription": "ˈskæfəldɪŋ",
         "level": "advanced",
         "theme": "language",
         "sub_theme": "learning",
-        "emoji": "\ud83c\udfd7\ufe0f",
+        "emoji": "🏗️",
         "form": "noun",
         "definitions": [
             {
@@ -1487,11 +1302,11 @@
         "word": "social mobility",
         "level": "advanced",
         "theme": "sociology_structures_c1",
-        "emoji": "\ud83e\ude9c",
+        "emoji": "🪜",
         "subtext": "upward social mobility / lack of social mobility / facilitate social mobility",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02ccs\u0259\u028a\u0283l m\u0259\u028a\u02c8b\u026al\u0259ti | \ud83c\uddfa\ud83c\uddf8 \u02ccso\u028a\u0283l mo\u028a\u02c8b\u026al\u0259ti",
+        "transcription": "🇬🇧 ˌsəʊʃl məʊˈbɪləti | 🇺🇸 ˌsoʊʃl moʊˈbɪləti",
         "definitions": [
             {
                 "text": "The movement of individuals or groups between different social layers or statuses.",
@@ -1513,12 +1328,12 @@
         "word": "spectrum",
         "level": "advanced",
         "theme": "discourse_argument_c1",
-        "emoji": "\ud83c\udf08",
+        "emoji": "🌈",
         "subtext": "broad spectrum / across the spectrum / full spectrum",
         "form": "noun",
         "classification": "regular",
         "plural": "spectrums",
-        "transcription": "\u02c8spektr\u0259m",
+        "transcription": "ˈspektrəm",
         "definitions": [
             {
                 "text": "A scale used to classify something in terms of its position between two extreme points.",
@@ -1540,11 +1355,11 @@
         "word": "stratification",
         "level": "advanced",
         "theme": "sociology_structures_c1",
-        "emoji": "\ud83c\udfd9\ufe0f",
+        "emoji": "🏙️",
         "subtext": "social stratification / vertical stratification / economic stratification",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\u02ccstr\u00e6t\u026af\u026a\u02c8ke\u026a\u0283n",
+        "transcription": "ˌstrætɪfɪˈkeɪʃn",
         "definitions": [
             {
                 "text": "The arrangement or classification of something into different groups or layers.",
@@ -1566,11 +1381,11 @@
         "id": "C1-NOUN-LAW-060",
         "word": "summative assessment",
         "lang": "en",
-        "transcription": "\u02c8s\u028cm\u0259t\u026av \u0259\u02c8sesm\u0259nt",
+        "transcription": "ˈsʌmətɪv əˈsesmənt",
         "level": "advanced",
         "theme": "language",
         "sub_theme": "learning",
-        "emoji": "\ud83c\udfc1",
+        "emoji": "🏁",
         "form": "noun phrase",
         "definitions": [
             {
@@ -1595,12 +1410,12 @@
         "word": "superstructure",
         "level": "advanced",
         "theme": "sociology_structures_c1",
-        "emoji": "\ud83c\udfdb\ufe0f",
+        "emoji": "🏛️",
         "subtext": "ideological superstructure / social superstructure",
         "form": "noun",
         "classification": "regular",
         "plural": "superstructures",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8su\u02d0p\u0259\u02ccstr\u028ckt\u0283\u0259 | \ud83c\uddfa\ud83c\uddf8 \u02c8su\u02d0p\u0259\u02ccstr\u028ckt\u0283\u0259r",
+        "transcription": "🇬🇧 ˈsuːpəˌstrʌktʃə | 🇺🇸 ˈsuːpəˌstrʌktʃər",
         "definitions": [
             {
                 "text": "The institutions and culture built on an economic base in Marxist theory.",
@@ -1619,41 +1434,15 @@
         "sub_subcategory": "General_Law"
     },
     {
-        "word": "sustainability",
-        "level": "advanced",
-        "theme": "science_tech_society_c1",
-        "emoji": "\ud83c\udf31",
-        "subtext": "environmental sustainability / long-term sustainability",
-        "form": "noun",
-        "classification": "regular",
-        "transcription": "s\u0259\u02ccste\u026an\u0259\u02c8b\u026al\u0259ti",
-        "definitions": [
-            {
-                "text": "The ability to be maintained at a certain rate or level; avoidance of resource depletion.",
-                "examples": [
-                    "The company is committed to improving the sustainability of its operations."
-                ]
-            }
-        ],
-        "lang": "en",
-        "id": "C1-NOUN-LAW-062",
-        "legacy_id": "C1-LAW-62",
-        "level_code": "C1",
-        "domain": "LAW",
-        "subcategory": "Legal_System",
-        "pos_section": "Nouns",
-        "sub_subcategory": "General_Law"
-    },
-    {
         "word": "thesis",
         "level": "advanced",
         "theme": "discourse_argument_c1",
-        "emoji": "\ud83d\udcc4",
+        "emoji": "📄",
         "subtext": "central thesis / support a thesis / defend a thesis",
         "form": "noun",
         "classification": "regular",
         "plural": "theses",
-        "transcription": "\u02c8\u03b8i\u02d0s\u026as",
+        "transcription": "ˈθiːsɪs",
         "definitions": [
             {
                 "text": "A statement or theory that is put forward as a premise to be maintained or proved.",
@@ -1675,11 +1464,11 @@
         "id": "C1-NOUN-LAW-064",
         "word": "translanguaging",
         "lang": "en",
-        "transcription": "tr\u00e6nz\u02c8l\u00e6\u014b\u0261w\u026ad\u0292\u026a\u014b",
+        "transcription": "trænzˈlæŋɡwɪdʒɪŋ",
         "level": "advanced",
         "theme": "language",
         "sub_theme": "learning",
-        "emoji": "\ud83d\udd04",
+        "emoji": "🔄",
         "form": "noun",
         "definitions": [
             {
@@ -1701,11 +1490,11 @@
         "word": "virtual reality",
         "level": "advanced",
         "theme": "science_tech_society_c1",
-        "emoji": "\ud83e\udd7d",
+        "emoji": "🥽",
         "form": "noun",
         "classification": "regular",
         "plural": "virtual realities",
-        "transcription": "\u02ccv\u025c\u02d0t\u0283u\u0259l ri\u02c8\u00e6l\u0259ti",
+        "transcription": "ˌvɜːtʃuəl riˈæləti",
         "definitions": [
             {
                 "text": "The computer-generated simulation of a three-dimensional image or environment.",
@@ -1728,7 +1517,7 @@
         "id": "C1-NOUN-LAW-066",
         "word": "jurisdiction",
         "form": "noun",
-        "transcription": "\u02ccd\u0292\u028ar\u026as\u02c8d\u026ak\u0283n",
+        "transcription": "ˌdʒʊrɪsˈdɪkʃn",
         "definitions": [
             {
                 "text": "The official power to make legal decisions and judgments.",
@@ -1737,7 +1526,7 @@
                 ]
             }
         ],
-        "emoji": "\u2696\ufe0f",
+        "emoji": "⚖️",
         "lang": "en",
         "level": "advanced",
         "level_code": "C1",
@@ -1750,8 +1539,8 @@
     {
         "word": "malfeasance",
         "form": "noun",
-        "transcription": "m\u00e6l\u02c8fi\u02d0z\u0259ns",
-        "emoji": "\u26a0\ufe0f",
+        "transcription": "mælˈfiːzəns",
+        "emoji": "⚠️",
         "subtext": "official malfeasance / corporate malfeasance / guilty of malfeasance",
         "definitions": [
             {
@@ -1781,6 +1570,10 @@
         "legacy_id": "C1-LAW-67"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

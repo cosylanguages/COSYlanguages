@@ -2,32 +2,6 @@
     const lang = "en";
     const data = [
     {
-        "word": "analyst",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "identity",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A noun referring to a person who examines information or data systematically, such as evaluating market trends.",
-                "examples": [
-                    "The financial analyst reviewed quarterly earnings."
-                ]
-            }
-        ],
-        "transcription": "ˈænəlɪst",
-        "emoji": "📊",
-        "_legacy": {
-            "subtext": "data analyst / financial analyst"
-        },
-        "level_code": "B1",
-        "domain": "People",
-        "subcategory": "Identity",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Individual_Traits",
-        "id": "B1-NOUN-PEO-004"
-    },
-    {
         "id": "B1-NOUN-PEO-005",
         "word": "boundary",
         "lang": "en",
@@ -90,41 +64,6 @@
         "sub_subcategory": "Individual_Traits"
     },
     {
-        "id": "B1-NOUN-PEO-007",
-        "word": "conflict",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "people",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A serious disagreement or argument.",
-                "examples": [
-                    "They had a conflict about money.",
-                    "The managers are trying to avoid conflict."
-                ]
-            }
-        ],
-        "transcription": "🇬🇧 ˈkɒnflɪkt | 🇺🇸 ˈkɑːnflɪkt",
-        "emoji": "⚔️",
-        "_legacy": {
-            "classification": "regular",
-            "plural": "conflicts",
-            "countability": "countable",
-            "subtext": "resolve conflict, armed conflict",
-            "antonyms": [
-                "harmony"
-            ],
-            "oppositeEmoji": "🕊️"
-        },
-        "legacy_id": "B1-NOUN-PEO-003",
-        "level_code": "B1",
-        "domain": "People",
-        "subcategory": "Identity",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Individual_Traits"
-    },
-    {
         "id": "B1-NOUN-PEO-008",
         "word": "divorce",
         "lang": "en",
@@ -153,37 +92,6 @@
             "oppositeEmoji": "💍"
         },
         "legacy_id": "B1-NOUN-PEO-004",
-        "level_code": "B1",
-        "domain": "People",
-        "subcategory": "Identity",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Individual_Traits"
-    },
-    {
-        "id": "B1-NOUN-PEO-009",
-        "word": "expectation",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "people",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A belief about what will happen or should happen.",
-                "examples": [
-                    "She has high expectations of her partner.",
-                    "The results exceeded our expectations."
-                ]
-            }
-        ],
-        "transcription": "ˌɛkspɛkˈteɪʃn",
-        "emoji": "💭",
-        "_legacy": {
-            "classification": "regular",
-            "plural": "expectations",
-            "countability": "countable",
-            "subtext": "high expectations, meet expectations"
-        },
-        "legacy_id": "B1-NOUN-PEO-005",
         "level_code": "B1",
         "domain": "People",
         "subcategory": "Identity",
@@ -253,6 +161,10 @@
         "sub_subcategory": "Individual_Traits"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

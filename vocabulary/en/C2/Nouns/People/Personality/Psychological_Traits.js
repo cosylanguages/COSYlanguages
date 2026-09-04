@@ -7,10 +7,10 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "psychology",
-        "emoji": "\ud83d\udd78\ufe0f",
+        "emoji": "🕸️",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\u02cc\u00e6p\u0259\u02c8fi\u02d0ni\u0259",
+        "transcription": "ˌæpəˈfiːniə",
         "definitions": [
             {
                 "text": "The tendency to perceive meaningful connections between unrelated things.",
@@ -34,9 +34,9 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "psychology",
-        "emoji": "\ud83c\udfad",
+        "emoji": "🎭",
         "form": "noun phrase",
-        "transcription": "b\u00e6d fe\u026a\u03b8",
+        "transcription": "bæd feɪθ",
         "definitions": [
             {
                 "text": "In Sartrean existentialism, self-deception about one's freedom and responsibility.",
@@ -59,10 +59,10 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "psychology",
-        "emoji": "\ud83c\udff9",
+        "emoji": "🏹",
         "form": "noun",
         "classification": "regular",
-        "transcription": "d\u026as\u02c8ple\u026asm\u0259nt",
+        "transcription": "dɪsˈpleɪsmənt",
         "definitions": [
             {
                 "text": "The unconscious shifting of feelings from one object to a safer one.",
@@ -86,7 +86,7 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "psychology",
-        "emoji": "\ud83d\udc64",
+        "emoji": "👤",
         "form": "noun",
         "classification": "regular",
         "countability": "uncountable",
@@ -112,11 +112,11 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "psychology",
-        "emoji": "\ud83d\udca1",
+        "emoji": "💡",
         "form": "noun",
         "classification": "regular",
         "plural": "heuristics",
-        "transcription": "hju\u02c8r\u026ast\u026ak",
+        "transcription": "hjuˈrɪstɪk",
         "definitions": [
             {
                 "text": "A problem-solving approach based on experience rather than guaranteed proof.",
@@ -140,15 +140,15 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "psychology",
-        "emoji": "\ud83d\udd25",
+        "emoji": "🔥",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02cc\u0292wi\u02d0s\u0252\u0303s | \ud83c\uddfa\ud83c\uddf8 \u02cc\u0292wi\u02d0s\u0251\u02d0\u0303s",
+        "transcription": "🇬🇧 ˌʒwiːsɒ̃s | 🇺🇸 ˌʒwiːsɑː̃s",
         "definitions": [
             {
                 "text": "In psychoanalytic theory, an excessive or transgressive form of enjoyment.",
                 "examples": [
-                    "\u017di\u017eek uses the concept of jouissance to explain ideological attachment."
+                    "Žižek uses the concept of jouissance to explain ideological attachment."
                 ]
             }
         ],
@@ -167,10 +167,10 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "psychology",
-        "emoji": "\ud83e\udde0",
+        "emoji": "🧠",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8m\u0259\u028at\u026ave\u026at\u026ad k\u0252\u0261\u02c8n\u026a\u0283n | \ud83c\uddfa\ud83c\uddf8 \u02c8mo\u028at\u026ave\u026at\u026ad k\u0251\u02d0\u0261\u02c8n\u026a\u0283n",
+        "transcription": "🇬🇧 ˈməʊtɪveɪtɪd kɒɡˈnɪʃn | 🇺🇸 ˈmoʊtɪveɪtɪd kɑːɡˈnɪʃn",
         "definitions": [
             {
                 "text": "The influence of desires and emotions on reasoning and belief formation.",
@@ -189,38 +189,12 @@
         "sub_subcategory": "Psychological_Traits"
     },
     {
-        "id": "C2-NOUN-PEO-008",
-        "word": "paradigm shift",
-        "lang": "en",
-        "level": "proficiency",
-        "theme": "psychology",
-        "emoji": "\ud83d\udd04",
-        "form": "noun",
-        "classification": "regular",
-        "plural": "paradigm shifts",
-        "definitions": [
-            {
-                "text": "A fundamental change in approach or underlying assumptions.",
-                "examples": [
-                    "The discovery of DNA caused a paradigm shift in biological research."
-                ]
-            }
-        ],
-        "transcription": "",
-        "legacy_id": "C2-PPL-09",
-        "level_code": "C2",
-        "domain": "People",
-        "subcategory": "Personality",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Psychological_Traits"
-    },
-    {
         "id": "C2-NOUN-PEO-009",
         "word": "philosopher",
         "lang": "en",
         "level": "proficiency",
         "theme": "psychology",
-        "emoji": "\ud83e\uddd0",
+        "emoji": "🧐",
         "form": "noun",
         "classification": "regular",
         "plural": "philosophers",
@@ -253,10 +227,10 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "psychology",
-        "emoji": "\ud83d\udee1\ufe0f",
+        "emoji": "🛡️",
         "form": "noun",
         "classification": "regular",
-        "transcription": "pr\u026a\u02c8k\u0254\u02d0\u0283\u0259n\u0259ri \u02c8pr\u026ans\u0259pl",
+        "transcription": "prɪˈkɔːʃənəri ˈprɪnsəpl",
         "definitions": [
             {
                 "text": "The view that actions with unknown but potentially harmful consequences should be avoided.",
@@ -280,10 +254,10 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "psychology",
-        "emoji": "\ud83d\ude80",
+        "emoji": "🚀",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\ud83c\uddec\ud83c\udde7 pr\u0259\u028a\u02c8\u00e6k\u0283\u0259n\u0259ri \u02c8pr\u026ans\u0259pl | \ud83c\uddfa\ud83c\uddf8 pro\u028a\u02c8\u00e6k\u0283\u0259n\u0259ri \u02c8pr\u026ans\u0259pl",
+        "transcription": "🇬🇧 prəʊˈækʃənəri ˈprɪnsəpl | 🇺🇸 proʊˈækʃənəri ˈprɪnsəpl",
         "definitions": [
             {
                 "text": "The view that the risks of inaction should be weighed against the risks of action when evaluating new technologies.",
@@ -307,15 +281,15 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "psychology",
-        "emoji": "\ud83e\udd10",
+        "emoji": "🤐",
         "form": "noun",
         "classification": "regular",
-        "transcription": "r\u026a\u02c8pre\u0283n",
+        "transcription": "rɪˈpreʃn",
         "definitions": [
             {
                 "text": "The unconscious suppression of thoughts or desires too painful to acknowledge.",
                 "examples": [
-                    "Repression does not eliminate conflict \u2014 it delays it."
+                    "Repression does not eliminate conflict — it delays it."
                 ]
             }
         ],
@@ -334,10 +308,10 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "psychology",
-        "emoji": "\ud83c\udfa8",
+        "emoji": "🎨",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\u02ccs\u028cbl\u026a\u02c8me\u026a\u0283n",
+        "transcription": "ˌsʌblɪˈmeɪʃn",
         "definitions": [
             {
                 "text": "The redirection of a primitive impulse into a socially acceptable activity.",
@@ -361,10 +335,10 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "psychology",
-        "emoji": "\ud83d\udc80",
+        "emoji": "💀",
         "form": "noun",
         "classification": "regular",
-        "transcription": "\ud83c\uddec\ud83c\udde7 \u02c8\u03b8\u00e6n\u0259t\u0252s | \ud83c\uddfa\ud83c\uddf8 \u02c8\u03b8\u00e6n\u0259t\u0251\u02d0s",
+        "transcription": "🇬🇧 ˈθænətɒs | 🇺🇸 ˈθænətɑːs",
         "definitions": [
             {
                 "text": "In Freudian theory, the death drive; an instinct towards self-destruction.",
@@ -388,9 +362,9 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "psychology",
-        "emoji": "\ud83c\udfe2",
+        "emoji": "🏢",
         "form": "noun phrase",
-        "transcription": "\u00f0\u0259 b\u0259\u02c8n\u00e6l\u0259ti \u0259v \u02c8i\u02d0vl",
+        "transcription": "ðə bəˈnæləti əv ˈiːvl",
         "definitions": [
             {
                 "text": "Hannah Arendt's concept that great evil is often carried out by ordinary, unthinking individuals.",
@@ -413,9 +387,9 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "psychology",
-        "emoji": "\ud83e\udddf",
+        "emoji": "🧟",
         "form": "noun phrase",
-        "transcription": "\u00f0i \u028cn\u02c8k\u00e6ni",
+        "transcription": "ði ʌnˈkæni",
         "definitions": [
             {
                 "text": "Something familiar made strange in a way that produces unease.",
@@ -433,6 +407,10 @@
         "sub_subcategory": "Psychological_Traits"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

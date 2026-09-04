@@ -54,32 +54,6 @@
         "id": "B1-NOUN-SCI-022"
     },
     {
-        "word": "atmosphere",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "space",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A noun referring to the layer of gases surrounding a planet, such as Earth's protective air layer.",
-                "examples": [
-                    "Oxygen makes up a vital part of Earth's atmosphere."
-                ]
-            }
-        ],
-        "transcription": "ˈætməsfɪr",
-        "emoji": "🌍",
-        "_legacy": {
-            "subtext": "dense atmosphere / planetary atmosphere"
-        },
-        "level_code": "B1",
-        "domain": "Science",
-        "subcategory": "Space",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Astronomy_Cosmos",
-        "id": "B1-NOUN-SCI-023"
-    },
-    {
         "word": "comet",
         "lang": "en",
         "level": "intermediate",
@@ -184,84 +158,6 @@
         "id": "B1-NOUN-SCI-027"
     },
     {
-        "word": "galaxy",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "space",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A noun referring to a system of millions or billions of stars, such as the Milky Way.",
-                "examples": [
-                    "Our solar system resides in the Milky Way galaxy."
-                ]
-            }
-        ],
-        "transcription": "ˈɡæləksi",
-        "emoji": "🌌",
-        "_legacy": {
-            "subtext": "spiral galaxy / distant galaxy"
-        },
-        "level_code": "B1",
-        "domain": "Science",
-        "subcategory": "Space",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Astronomy_Cosmos",
-        "id": "B1-NOUN-SCI-028"
-    },
-    {
-        "word": "gravity",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "space",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A noun referring to the universal force pulling objects toward one another, such as keeping people on the ground.",
-                "examples": [
-                    "Without gravity, objects would float freely into space."
-                ]
-            }
-        ],
-        "transcription": "ˈɡrævəti",
-        "emoji": "🍏",
-        "_legacy": {
-            "subtext": "zero gravity / force of gravity"
-        },
-        "level_code": "B1",
-        "domain": "Science",
-        "subcategory": "Space",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Astronomy_Cosmos",
-        "id": "B1-NOUN-SCI-029"
-    },
-    {
-        "word": "horizon",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "space",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A noun referring to the line at which Earth's surface and the sky appear to meet, such as watching a sunrise.",
-                "examples": [
-                    "The sun sank slowly below the ocean horizon."
-                ]
-            }
-        ],
-        "transcription": "həˈraɪzn",
-        "emoji": "🌅",
-        "_legacy": {
-            "subtext": "distant horizon / cosmic horizon"
-        },
-        "level_code": "B1",
-        "domain": "Science",
-        "subcategory": "Space",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Astronomy_Cosmos",
-        "id": "B1-NOUN-SCI-030"
-    },
-    {
         "word": "meteor",
         "lang": "en",
         "level": "intermediate",
@@ -340,6 +236,10 @@
         "id": "B1-NOUN-SCI-033"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

@@ -4,8 +4,8 @@
     {
         "word": "adjudication",
         "form": "noun",
-        "transcription": "\u0259\u02ccd\u0292u\u02d0d\u026a\u02c8ke\u026a\u0283n",
-        "emoji": "\u2696\ufe0f",
+        "transcription": "əˌdʒuːdɪˈkeɪʃn",
+        "emoji": "⚖️",
         "subtext": "formal adjudication / binding adjudication / subject to adjudication",
         "definitions": [
             {
@@ -36,8 +36,8 @@
     {
         "word": "indictment",
         "form": "noun",
-        "transcription": "\u026an\u02c8da\u026atm\u0259nt",
-        "emoji": "\ud83c\udfdb\ufe0f",
+        "transcription": "ɪnˈdaɪtmənt",
+        "emoji": "🏛️",
         "subtext": "criminal indictment / formal indictment / secure an indictment",
         "definitions": [
             {
@@ -69,8 +69,8 @@
     {
         "word": "subpoena",
         "form": "noun",
-        "transcription": "s\u0259\u02c8pi\u02d0n\u0259",
-        "emoji": "\ud83d\udcd1",
+        "transcription": "səˈpiːnə",
+        "emoji": "📑",
         "subtext": "issue a subpoena / comply with a subpoena / congressional subpoena",
         "definitions": [
             {
@@ -99,8 +99,8 @@
     {
         "word": "affidavit",
         "form": "noun",
-        "transcription": "\u02cc\u00e6f\u0259\u02c8de\u026av\u026at",
-        "emoji": "\u270d\ufe0f",
+        "transcription": "ˌæfəˈdeɪvɪt",
+        "emoji": "✍️",
         "subtext": "sworn affidavit / submit an affidavit / signed affidavit",
         "definitions": [
             {
@@ -129,8 +129,8 @@
     {
         "word": "plaintiff",
         "form": "noun",
-        "transcription": "\u02c8ple\u026ant\u026af",
-        "emoji": "\ud83e\uddd1\u200d\u2696\ufe0f",
+        "transcription": "ˈpleɪntɪf",
+        "emoji": "🧑‍⚖️",
         "subtext": "plaintiff's attorney / individual plaintiff / lead plaintiff",
         "definitions": [
             {
@@ -161,8 +161,8 @@
     {
         "word": "litigation",
         "form": "noun",
-        "transcription": "\u02ccl\u026at\u026a\u02c8\u0261e\u026a\u0283n",
-        "emoji": "\ud83d\udcbc",
+        "transcription": "ˌlɪtɪˈɡeɪʃn",
+        "emoji": "💼",
         "subtext": "civil litigation / pending litigation / avoid litigation",
         "definitions": [
             {
@@ -194,8 +194,8 @@
     {
         "word": "injunction",
         "form": "noun",
-        "transcription": "\u026an\u02c8d\u0292\u028c\u014bk\u0283n",
-        "emoji": "\ud83d\uded1",
+        "transcription": "ɪnˈdʒʌŋkʃn",
+        "emoji": "🛑",
         "subtext": "court injunction / seek an injunction / issue an injunction",
         "definitions": [
             {
@@ -224,8 +224,8 @@
     {
         "word": "arbitration",
         "form": "noun",
-        "transcription": "\u02cc\u0251\u02d0b\u026a\u02c8tre\u026a\u0283n",
-        "emoji": "\ud83e\udd1d",
+        "transcription": "ˌɑːbɪˈtreɪʃn",
+        "emoji": "🤝",
         "subtext": "binding arbitration / international arbitration / seek arbitration",
         "definitions": [
             {
@@ -254,8 +254,8 @@
     {
         "word": "appellant",
         "form": "noun",
-        "transcription": "\u0259\u02c8pel\u0259nt",
-        "emoji": "\ud83c\udfdb\ufe0f",
+        "transcription": "əˈpelənt",
+        "emoji": "🏛️",
         "subtext": "appellant's brief / successful appellant / primary appellant",
         "definitions": [
             {
@@ -286,8 +286,8 @@
     {
         "word": "deposition",
         "form": "noun",
-        "transcription": "\u02ccdep\u0259\u02c8z\u026a\u0283n",
-        "emoji": "\ud83d\udcdc",
+        "transcription": "ˌdepəˈzɪʃn",
+        "emoji": "📜",
         "subtext": "take a deposition / sworn deposition / oral deposition",
         "definitions": [
             {
@@ -316,8 +316,8 @@
     {
         "word": "arraignment",
         "form": "noun",
-        "transcription": "\u0259\u02c8re\u026anm\u0259nt",
-        "emoji": "\ud83c\udfdb\ufe0f",
+        "transcription": "əˈreɪnmənt",
+        "emoji": "🏛️",
         "subtext": "formal arraignment / schedule an arraignment / plead at arraignment",
         "definitions": [
             {
@@ -345,8 +345,8 @@
     {
         "word": "docket",
         "form": "noun",
-        "transcription": "\u02c8d\u0252k\u026at",
-        "emoji": "\ud83d\udccb",
+        "transcription": "ˈdɒkɪt",
+        "emoji": "📋",
         "subtext": "crowded docket / court docket / cleared from docket",
         "definitions": [
             {
@@ -373,40 +373,10 @@
         "legacy_id": "C1-LAW-12"
     },
     {
-        "word": "extradition",
-        "form": "noun",
-        "transcription": "\u02ccekstr\u0259\u02c8d\u026a\u0283n",
-        "emoji": "\u2708\ufe0f",
-        "subtext": "extradition treaty / face extradition / seek extradition",
-        "definitions": [
-            {
-                "text": "The action of extraditing a person accused or convicted of a crime.",
-                "examples": [
-                    "The suspect contested her extradition to face trial in Europe."
-                ]
-            }
-        ],
-        "synonyms": [
-            "deportation",
-            "surrender",
-            "expulsion"
-        ],
-        "antonyms": [],
-        "lang": "en",
-        "level": "advanced",
-        "level_code": "C1",
-        "domain": "LAW",
-        "subcategory": "Legal_System",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Judicial_Process",
-        "id": "C1-NOUN-LAW-013",
-        "legacy_id": "C1-LAW-13"
-    },
-    {
         "word": "acquittal",
         "form": "noun",
-        "transcription": "\u0259\u02c8kw\u026atl",
-        "emoji": "\ud83d\udd4a\ufe0f",
+        "transcription": "əˈkwɪtl",
+        "emoji": "🕊️",
         "subtext": "full acquittal / secure an acquittal / demand acquittal",
         "definitions": [
             {
@@ -437,8 +407,8 @@
     {
         "word": "recusal",
         "form": "noun",
-        "transcription": "r\u026a\u02c8kju\u02d0zl",
-        "emoji": "\u2696\ufe0f",
+        "transcription": "rɪˈkjuːzl",
+        "emoji": "⚖️",
         "subtext": "demand recusal / judicial recusal / voluntary recusal",
         "definitions": [
             {
@@ -466,8 +436,8 @@
     {
         "word": "perjury",
         "form": "noun",
-        "transcription": "\u02c8p\u025c\u02d0d\u0292\u0259ri",
-        "emoji": "\ud83e\udd25",
+        "transcription": "ˈpɜːdʒəri",
+        "emoji": "🤥",
         "subtext": "commit perjury / charge with perjury / guilty of perjury",
         "definitions": [
             {
@@ -495,6 +465,10 @@
         "legacy_id": "C1-LAW-16"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();

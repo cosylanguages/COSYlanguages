@@ -2,42 +2,6 @@
     const lang = "en";
     const data = [
     {
-        "id": "B1-NOUN-SOC-001",
-        "word": "airport",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "travel",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A place where planes land and take off.",
-                "examples": [
-                    "I am going to the airport.",
-                    "The airport is very big."
-                ]
-            },
-            {
-                "text": "This is the place where you go to catch a flight.",
-                "examples": [
-                    "We need to be at the airport two hours before the flight."
-                ]
-            }
-        ],
-        "transcription": "ˈeəpɔːt",
-        "emoji": "✈️",
-        "_legacy": {
-            "classification": "regular",
-            "plural": "airports",
-            "countability": "countable"
-        },
-        "legacy_id": "B1-SOC-04",
-        "level_code": "B1",
-        "domain": "Society",
-        "subcategory": "Culture",
-        "pos_section": "Nouns",
-        "sub_subcategory": "General_Culture"
-    },
-    {
         "id": "B1-NOUN-SOC-002",
         "word": "commuter",
         "lang": "en",
@@ -97,108 +61,6 @@
             "subtext": "home equity, negative equity"
         },
         "legacy_id": "B1-SOC-22",
-        "level_code": "B1",
-        "domain": "Society",
-        "subcategory": "Culture",
-        "pos_section": "Nouns",
-        "sub_subcategory": "General_Culture"
-    },
-    {
-        "id": "B1-NOUN-SOC-004",
-        "word": "garden",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "places",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A public garden or large green area in a city for everyone to use.",
-                "examples": []
-            }
-        ],
-        "transcription": "-",
-        "emoji": "🌳",
-        "_legacy": {
-            "image": "images/vocabulary/places/garden.png",
-            "classification": "regular",
-            "countability": "countable"
-        },
-        "legacy_id": "B1-SOC-27",
-        "level_code": "B1",
-        "domain": "Society",
-        "subcategory": "Culture",
-        "pos_section": "Nouns",
-        "sub_subcategory": "General_Culture"
-    },
-    {
-        "id": "B1-NOUN-SOC-005",
-        "word": "library",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "places",
-        "form": "noun",
-        "definitions": [],
-        "transcription": "ˈlaɪbrəri",
-        "emoji": "📚",
-        "_legacy": {
-            "explanation": "A library is a place for books, while the others might be related to food or travel.",
-            "classification": "regular",
-            "plural": "libraries",
-            "countability": "countable"
-        },
-        "legacy_id": "B1-SOC-38",
-        "level_code": "B1",
-        "domain": "Society",
-        "subcategory": "Culture",
-        "pos_section": "Nouns",
-        "sub_subcategory": "General_Culture"
-    },
-    {
-        "id": "B1-NOUN-SOC-006",
-        "word": "mortgage",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "places",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A bank loan secured against a property, repaid over many years.",
-                "examples": [
-                    "The mortgage is spread over twenty-five years."
-                ]
-            }
-        ],
-        "transcription": "ˈmɔːɡɪdʒ",
-        "emoji": "🏠",
-        "_legacy": {
-            "classification": "regular",
-            "plural": "mortgages",
-            "countability": "countable",
-            "subtext": "take out a mortgage, pay off a mortgage"
-        },
-        "legacy_id": "B1-SOC-45",
-        "level_code": "B1",
-        "domain": "Society",
-        "subcategory": "Culture",
-        "pos_section": "Nouns",
-        "sub_subcategory": "General_Culture"
-    },
-    {
-        "id": "B1-NOUN-SOC-007",
-        "word": "museum",
-        "lang": "en",
-        "level": "intermediate",
-        "theme": "places",
-        "form": "noun",
-        "definitions": [],
-        "transcription": "mjuˈziːəm",
-        "emoji": "🏛️",
-        "_legacy": {
-            "classification": "regular",
-            "plural": "museums",
-            "countability": "countable"
-        },
-        "legacy_id": "B1-SOC-46",
         "level_code": "B1",
         "domain": "Society",
         "subcategory": "Culture",
@@ -296,6 +158,10 @@
         "sub_subcategory": "General_Culture"
     }
 ];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+
+    if (typeof window !== "undefined") {
+        if (!window.vocabularyData) window.vocabularyData = {};
+        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
+        window.vocabularyData[lang].push(...data);
+    }
 })();
