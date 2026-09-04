@@ -137,15 +137,19 @@
                 return;
             }
 
+            const isHub = data.type === 'hub';
+            const hotspots = data.hotspots || [];
             const currentMatched = this.sceneMatches[this.activeSceneId] || new Set();
 
             // Word bank words (shuffled)
-            const wordsList = shuffle(data.hotspots.map(hs => ({
+            const wordsList = shuffle(hotspots.map(hs => ({
                 id: hs.id,
                 word: hs.words[lang] || hs.words['en'] || hs.id
             })));
 
-            const instructionText = window.t('scene_match_instruction') || 'Select a word from the bank, then click or press Enter on the matching object in the room!';
+            const instructionText = isHub
+                ? (window.t('scene_match_hub_instruction') || '🧭 Hub Navigation Map: Click any region or doorway on the map to explore rooms or stalls!')
+                : (window.t('scene_match_instruction') || 'Select a word from the bank, then click or press Enter on the matching object in the room!');
             const selectWordText = window.t('scene_match_select_word') || 'Select a word:';
             const progressLabel = window.t('scene_match_progress') || 'Matched';
 
@@ -159,15 +163,17 @@
                     ${activeSceneKeys.map(key => {
                         const sData = window.COSY_SCENE_DATA[key];
                         const sTitle = (sData.title && sData.title[lang]) || (sData.title && sData.title['en']) || key;
+                        const sIsHub = sData.type === 'hub';
                         const sMatched = (this.sceneMatches[key] || new Set()).size;
                         const sTotal = sData.hotspots.length;
-                        const sLvl = sData.level || 'A1';
+                        const sLvl = sIsHub ? 'HUB' : (sData.level || 'A1');
+                        const sMetaStr = sIsHub ? `${sData.doors ? sData.doors.length : 0} portals` : `${sMatched}/${sTotal}`;
                         return `
                           <button class="sm-tab-btn ${key === this.activeSceneId ? 'active' : ''}"
                                   type="button"
                                   aria-label="View scene ${sTitle}"
                                   onclick="COSY_GAME.switchScene('${key}')">
-                             <span class="sm-tab-lvl">[${sLvl}]</span> ${sTitle} (${sMatched}/${sTotal})
+                             <span class="sm-tab-lvl ${sIsHub ? 'hub' : ''}">[${sLvl}]</span> ${sTitle} (${sMetaStr})
                           </button>`;
                     }).join('')}
                   </div>
@@ -175,16 +181,16 @@
                   <div class="sm-instruction">${instructionText}</div>
                   <div class="sm-progress-bar-wrap">
                     <div class="sm-progress-track">
-                      <div class="sm-progress-fill" id="sm-p-fill" style="width: 0%"></div>
+                      <div class="sm-progress-fill" id="sm-p-fill" style="width: ${isHub ? '100%' : '0%'}"></div>
                     </div>
-                    <div class="sm-progress-text" id="sm-p-text">${progressLabel}: 0 / ${data.hotspots.length}</div>
+                    <div class="sm-progress-text" id="sm-p-text">${isHub ? 'Navigation Hub Map 🧭' : `${progressLabel}: 0 / ${hotspots.length}`}</div>
                   </div>
                 </div>
 
                 <div class="sm-stage">
                   <svg class="sm-svg-scene" viewBox="${data.viewBox}" xmlns="http://www.w3.org/2000/svg">
                     ${data.imageUrl ? `<image href="${data.imageUrl}" x="0" y="0" width="100%" height="100%" preserveAspectRatio="xMidYMid slice"/>` : ''}
-                    ${data.svgBackground}
+                    ${data.svgBackground || ''}
                     <g id="sm-cultural-overlay">${this.renderCulturalOverlay()}</g>
 
                     <!-- Hotspots overlay & labels container -->
@@ -194,6 +200,11 @@
                   </svg>
                 </div>
 
+                ${isHub ? `
+                <div class="sm-word-bank-card sm-hub-card">
+                  <div class="sm-bank-title">🧭 Hub Map Navigation</div>
+                  <div class="sm-hub-hint">Select any of the ${data.doors ? data.doors.length : 0} interactive destinations above on the map or use the tabs to enter a scene.</div>
+                </div>` : `
                 <div class="sm-word-bank-card">
                   <div class="sm-bank-title">${selectWordText}</div>
                   <div class="sm-words-grid" id="sm-words-grid">
@@ -209,7 +220,7 @@
                           </button>`;
                     }).join('')}
                   </div>
-                </div>
+                </div>`}
               </div>`;
 
             this.renderDoors();
@@ -309,6 +320,10 @@
             if (!hsGroup) return;
 
             const data = window.COSY_SCENE_DATA[this.activeSceneId];
+            if (!data.hotspots || data.type === 'hub') {
+                hsGroup.innerHTML = '';
+                return;
+            }
             const currentMatched = this.sceneMatches[this.activeSceneId] || new Set();
             const lang = this.activeLang;
 
@@ -440,17 +455,19 @@
             const data = window.COSY_SCENE_DATA[this.activeSceneId];
             if (!data) return;
 
+            const isHub = data.type === 'hub';
+            const hotspots = data.hotspots || [];
             const currentMatched = this.sceneMatches[this.activeSceneId] || new Set();
-            const total = data.hotspots.length;
+            const total = hotspots.length;
             const current = currentMatched.size;
-            const percent = Math.round((current / total) * 100);
+            const percent = total > 0 ? Math.round((current / total) * 100) : 100;
 
             const fill = document.getElementById('sm-p-fill');
             const text = document.getElementById('sm-p-text');
             const progressLabel = window.t('scene_match_progress') || 'Matched';
 
-            if (fill && fill.style) fill.style.width = `${percent}%`;
-            if (text) text.textContent = `${progressLabel}: ${current} / ${total}`;
+            if (fill && fill.style) fill.style.width = isHub ? '100%' : `${percent}%`;
+            if (text) text.textContent = isHub ? 'Navigation Hub Map 🧭' : `${progressLabel}: ${current} / ${total}`;
 
             // Update tab badge texts if present
             const activeSceneKeys = this.getFilteredSceneKeys();
@@ -460,16 +477,24 @@
                 if (sKey) {
                     const sData = window.COSY_SCENE_DATA[sKey];
                     const sTitle = (sData.title && sData.title[this.activeLang]) || (sData.title && sData.title['en']) || sKey;
+                    const sIsHub = sData.type === 'hub';
                     const sMatched = (this.sceneMatches[sKey] || new Set()).size;
-                    const sLvl = sData.level || 'A1';
-                    btn.innerHTML = `<span class="sm-tab-lvl">[${sLvl}]</span> ${sTitle} (${sMatched}/${sData.hotspots.length})`;
+                    const sTotal = sData.hotspots ? sData.hotspots.length : 0;
+                    const sLvl = sIsHub ? 'HUB' : (sData.level || 'A1');
+                    const sMetaStr = sIsHub ? `${sData.doors ? sData.doors.length : 0} portals` : `${sMatched}/${sTotal}`;
+                    btn.innerHTML = `<span class="sm-tab-lvl ${sIsHub ? 'hub' : ''}">[${sLvl}]</span> ${sTitle} (${sMetaStr})`;
                 }
             });
         },
 
         checkOverallCompletion() {
             const activeSceneKeys = this.getFilteredSceneKeys();
-            const allComplete = activeSceneKeys.every(k => {
+            const playableScenes = activeSceneKeys.filter(k => {
+                const sData = window.COSY_SCENE_DATA[k];
+                return sData && sData.type !== 'hub' && sData.hotspots && sData.hotspots.length > 0;
+            });
+
+            const allComplete = playableScenes.length > 0 && playableScenes.every(k => {
                 const sData = window.COSY_SCENE_DATA[k];
                 const sMatched = this.sceneMatches[k] || new Set();
                 return sMatched.size === sData.hotspots.length;

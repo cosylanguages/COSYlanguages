@@ -22,6 +22,11 @@
         viewBox: '0 0 800 500',
         doors: [
             {
+                targetSceneId: "routine_calendar",
+                x: 198, y: 38, width: 44, height: 44, labelX: 220, labelY: 28,
+                labels: { en: "⏰ Clock / Routine →", fr: "⏰ Horloge / Routine →", it: "⏰ Orologio / Routine →", ru: "⏰ Часы / Распорядок →", el: "⏰ Ρολόι / Ρουτίνα →" }
+            },
+            {
                 targetSceneId: 'apartment',
                 x: 710,
                 y: 120,
@@ -35,6 +40,38 @@
                     it: 'Soggiorno',
                     ru: 'Гостиная',
                     el: 'Σαλόνι'
+                }
+            },
+            {
+                targetSceneId: 'bedroom',
+                x: 610,
+                y: 120,
+                width: 70,
+                height: 310,
+                labelX: 645,
+                labelY: 100,
+                labels: {
+                    en: 'Bedroom',
+                    fr: 'Chambre',
+                    it: 'Camera',
+                    ru: 'Спальня',
+                    el: 'Υπνοδωμάτιο'
+                }
+            },
+            {
+                targetSceneId: 'kitchen',
+                x: 510,
+                y: 120,
+                width: 70,
+                height: 310,
+                labelX: 545,
+                labelY: 100,
+                labels: {
+                    en: 'Kitchen',
+                    fr: 'Cuisine',
+                    it: 'Cucina',
+                    ru: 'Кухня',
+                    el: 'Κουζίνα'
                 }
             }
         ],
@@ -220,6 +257,14 @@
                     <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-opacity="0.5"/>
                 </pattern>
             </defs>
+
+            <!-- Wall Clock (Link to Routine & Calendar Hub) -->
+            <g id="illustration-clock">
+              <circle cx="220" cy="60" r="20" fill="#ffffff" stroke="#1e293b" stroke-width="4"/>
+              <line x1="220" y1="60" x2="220" y2="48" stroke="#1e293b" stroke-width="3" stroke-linecap="round"/>
+              <line x1="220" y1="60" x2="230" y2="60" stroke="#1e293b" stroke-width="3" stroke-linecap="round"/>
+              <circle cx="220" cy="60" r="3" fill="#ef4444"/>
+            </g>
 
             <!-- Wall with Tiles -->
             <rect x="0" y="0" width="800" height="390" fill="url(#br-wall)"/>

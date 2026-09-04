@@ -23,14 +23,24 @@
         viewBox: "0 0 800 500",
         doors: [
             {
+                targetSceneId: "routine_calendar",
+                x: 598, y: 38, width: 44, height: 44, labelX: 620, labelY: 28,
+                labels: { en: "⏰ Clock / Routine →", fr: "⏰ Horloge / Routine →", it: "⏰ Orologio / Routine →", ru: "⏰ Часы / Распорядок →", el: "⏰ Ρολόι / Ρουτίνα →" }
+            },
+            {
                 targetSceneId: "apartment",
                 x: 750, y: 140, width: 35, height: 230, labelX: 768, labelY: 125,
                 labels: { en: "🚪 Living Room →", fr: "🚪 Salon →", it: "🚪 Soggiorno →", ru: "🚪 Гостиная →", el: "🚪 Σαλόνι →" }
             },
             {
-                targetSceneId: "seasons",
-                x: 350, y: 60, width: 160, height: 120, labelX: 430, labelY: 45,
-                labels: { en: "🪟 Seasons →", fr: "🪟 Saisons →", it: "🪟 Stagioni →", ru: "🪟 Времена года →", el: "🪟 Εποχές →" }
+                targetSceneId: "kitchen",
+                x: 15, y: 140, width: 35, height: 230, labelX: 32, labelY: 125,
+                labels: { en: "🚪 Kitchen →", fr: "🚪 Cuisine →", it: "🚪 Cucina →", ru: "🚪 Кухня →", el: "🚪 Κουζίνα →" }
+            },
+            {
+                targetSceneId: "bathroom",
+                x: 210, y: 140, width: 35, height: 120, labelX: 228, labelY: 125,
+                labels: { en: "🚪 Bathroom →", fr: "🚪 S. de bain →", it: "🚪 Bagno →", ru: "🚪 Ванная →", el: "🚪 Μπάνιο →" }
             }
         ],
         svgBackground: `
@@ -52,10 +62,23 @@
             <line x1="0" y1="410" x2="800" y2="410" stroke="#94a3b8" stroke-width="1" opacity="0.5" />
             <line x1="0" y1="450" x2="800" y2="450" stroke="#94a3b8" stroke-width="1" opacity="0.5" />
 
+            <!-- Left Doorway (to Kitchen) -->
+            <rect x="10" y="130" width="45" height="245" fill="#451a03" rx="2" />
+            <rect x="15" y="140" width="35" height="230" fill="#78350f" />
+            <circle cx="42" cy="255" r="4" fill="#fbbf24" />
+
             <!-- Right Doorway (Back to Living Room) -->
             <rect x="745" y="130" width="45" height="245" fill="#451a03" rx="2" />
             <rect x="750" y="140" width="35" height="230" fill="#78350f" />
             <circle cx="758" cy="255" r="4" fill="#fbbf24" />
+
+            <!-- Wall Clock (Link to Routine & Calendar Hub) -->
+            <g id="illustration-clock">
+              <circle cx="620" cy="60" r="20" fill="#ffffff" stroke="#1e293b" stroke-width="4"/>
+              <line x1="620" y1="60" x2="620" y2="48" stroke="#1e293b" stroke-width="3" stroke-linecap="round"/>
+              <line x1="620" y1="60" x2="630" y2="60" stroke="#1e293b" stroke-width="3" stroke-linecap="round"/>
+              <circle cx="620" cy="60" r="3" fill="#ef4444"/>
+            </g>
 
             <!-- 1. Wardrobe -->
             <g id="illustration-wardrobe">
