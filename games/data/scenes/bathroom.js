@@ -11,6 +11,7 @@
 
     window.COSY_SCENE_DATA.bathroom = {
         id: 'bathroom',
+        level: 'A1',
         title: {
             en: 'Bathroom',
             fr: 'Salle de bain',

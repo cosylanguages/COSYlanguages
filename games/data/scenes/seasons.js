@@ -11,6 +11,7 @@
 
     window.COSY_SCENE_DATA.seasons = {
         id: 'seasons',
+        level: 'A1',
         title: {
             en: 'Four Seasons',
             fr: 'Quatre saisons',
@@ -19,7 +20,13 @@
             el: 'Τέσσερις εποχές'
         },
         viewBox: '0 0 800 500',
-        doors: [],
+        doors: [
+            {
+                targetSceneId: "bedroom",
+                x: 15, y: 140, width: 35, height: 230, labelX: 32, labelY: 125,
+                labels: { en: "🚪 Bedroom →", fr: "🚪 Chambre →", it: "🚪 Camera →", ru: "🚪 Спальня →", el: "🚪 Υπνοδωμάτιο →" }
+            }
+        ],
         hotspots: [
             {
                 id: 'spring',

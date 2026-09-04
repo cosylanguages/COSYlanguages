@@ -4,6 +4,7 @@
     window.COSY_SCENE_DATA = window.COSY_SCENE_DATA || {};
     window.COSY_SCENE_DATA['hospital'] = {
         id: 'hospital',
+        level: 'B1',
         title: {
             en: "Hospital & Pharmacy",
             fr: "Hôpital et Pharmacie",
