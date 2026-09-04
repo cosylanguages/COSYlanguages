@@ -2,19 +2,19 @@
 
 ## 1. Executive Summary & Pedagogical Directives
 
-This document provides a single, unified source of truth for all vocabulary metadata, thematic classification, curriculum roadmaps, manual structures, and interactive game integrations across COSYlanguages.
+This document provides a single, unified source of truth for all vocabulary metadata, thematic classification, curriculum roadmaps, manual structures, visual dictionary specifications, and interactive game integrations across COSYlanguages.
 
 ### Core Objectives
-1. **Unification of Disparate Taxonomies**: Reconcile legacy dataset tags (e.g. `food` vs `food_drink`, `culture` vs `art_culture`, `work_employment` vs `work`, `society` vs `society_politics`) into a standardized 2-tier tree structure (`theme` -> `sub_theme`) under 12 overarching Macro Domains spanning all CEFR levels (A0 through C2).
-2. **Comprehensive Visual Dictionary & Specialized Coverage**: Incorporate all encyclopedic and visual dictionary domain categories—including Sports & Games, Astronomy & Space, Earth & Geology, Plants & Gardening, Animal Kingdom, Human Body & Anatomy, Food & Culinary Arts, House & DIY Construction, Clothing & Personal Articles, Arts & Architecture, Communications & Office Automation, Transport & Heavy Machinery, Energy Systems, Fundamental Sciences, and Society & Institutions.
-3. **Pedagogical Integrity for Visual Games**: Establish clear CEFR tiering rules for the **Scene Match Game**, reserving 2D hotspot scene environments for concrete physical terms (A0–A2) and specialized physical environments (B1), while designating non-scene visual diagrams (Collocation Webs, System Maps, and Process Flow Diagrams) for abstract higher-level domains (B2–C2).
+1. **Multi-Tiered Taxonomy Standardization**: Establish a granular 4-tier tree structure (`macro_domain` -> `theme` -> `sub_theme` -> `micro_topic`) encompassing all CEFR levels (A0 through C2), visual dictionary categories, and specialized technical/academic fields.
+2. **Deep Micro-Topic Specialization**: Break down every daily life, situational, and domain concept into atomic sub-domains (e.g. `routine` -> `morning_routine`, `afternoon_routine`, `evening_routine`, `night_routine`, `commute`, `household_chores`, `workday_vs_weekend`, `shopping_errands`).
+3. **Pedagogical Integrity for Visual Games**: Enforce strict CEFR tiering rules for the **Scene Match Game**, reserving 2D hotspot scene environments for concrete physical terms (A0–A2) and specialized physical environments (B1), while designating non-scene visual diagrams (Collocation Webs, System Maps, and Process Flow Diagrams) for abstract higher-level domains (B2–C2).
 4. **Cross-System Dynamic Scalability**: Ensure seamless querying and interoperability across the Vocabulary Database (`vocabulary/`), Curriculums (`curriculum/`), Monolingual Manuals (`manuals/`), Event Taxonomies (`speaking_club_theme_taxonomy.md`), and Game Engines (`games/scene_match/`).
 
 ---
 
 ## 2. Macro Domains & Higher-Order Taxonomy Architecture
 
-All vocabulary across COSYlanguages is grouped into **12 Higher-Order Macro Domains**. Each domain contains standardized top-level themes and sub-themes.
+All vocabulary across COSYlanguages is grouped into **12 Higher-Order Macro Domains**. Each domain contains standardized top-level themes, sub-themes, and micro-topics.
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────────────────┐
@@ -28,55 +28,345 @@ All vocabulary across COSYlanguages is grouped into **12 Higher-Order Macro Doma
 
 ---
 
-## 3. Canonical Top-Level Theme & Sub-Theme Taxonomy Matrix
+## 3. Comprehensive Granular Taxonomy Matrix (4-Tier Tree)
 
-Below is the definitive taxonomy tree registered in `window.COSY_THEME_TREE`. Theme slugs are lower_snake_case and permanent once assigned.
+Below is the complete taxonomy matrix registered in `window.COSY_THEME_TREE`. Theme slugs are lower_snake_case and permanent once assigned.
 
-| Macro Domain | Theme Slug | Theme Label | Standardized Sub-Theme Slugs |
-| :--- | :--- | :--- | :--- |
-| **1. SELF_IDENTITY** | `people` | People & Family | `family`, `relationships`, `nationality`, `physical_desc`, `character`, `babies`, `kids`, `groups` |
-| | `body` | Body & Anatomy | `face`, `limbs`, `organs`, `senses`, `health`, `appearance`, `digestive_system`, `anatomy` |
-| | `clothes` | Clothing & Articles | `everyday`, `formal`, `accessories`, `weather_gear`, `winter_clothing`, `jewelry`, `sleepwear`, `sewing`, `traditional` |
-| | `colours` | Colours & Materials | `basic`, `shades`, `materials` |
-| **2. HOME_LIVING** | `furniture` | Furniture & House | `rooms`, `furniture_items`, `appliances`, `household_items`, `doors_locks`, `garden`, `bedroom`, `bathroom`, `utility_room` |
-| | `diy_construction` | DIY & Construction | `hand_tools`, `building_materials`, `carpentry`, `plumbing`, `electrical`, `masonry` |
-| | `shopping` | Shopping & Retail | `stores`, `items`, `transactions`, `online` |
-| | `time` | Time & Schedule | `clock`, `days`, `months`, `seasons`, `periods`, `frequency`, `telling_time`, `schedule`, `hourglass` |
-| | `numbers` | Numbers & Math | `cardinal`, `ordinal`, `fractions`, `money`, `shapes`, `geometry` |
-| **3. FOOD_DINING** | `food_drink` | Food & Kitchen | `fruit`, `vegetables`, `drinks`, `cooking`, `meals`, `snacks`, `diet`, `breakfast`, `meat`, `sweets`, `spices_condiments`, `kitchen_utensils`, `packaging` |
-| **4. TRAVEL_COMM** | `travel` | Travel & Transport | `transport`, `accommodation`, `tourism`, `directions`, `documents`, `air_travel`, `land_travel`, `sea_travel`, `luggage` |
-| | `transport_machinery`| Transport & Machinery| `road_transport`, `rail_transport`, `maritime_transport`, `air_transport`, `heavy_machinery`, `material_handling` |
-| | `places` | Places & Geography | `city`, `buildings`, `rooms`, `geography`, `landmarks`, `countryside`, `downtown` |
-| | `technology` | Technology & Office | `devices`, `internet`, `software`, `social_media`, `computers`, `office_automation` |
-| **5. WORK_LEARNING**| `work` | Work & Finance | `office`, `meetings`, `career`, `documents`, `remote_work`, `finance`, `economy` |
-| | `jobs` | Professions & Careers | `professions`, `workplace`, `career`, `business_lang` |
-| | `school` | School & Education | `stationery`, `subjects`, `classroom`, `studying` |
-| | `language` | Language & Writing | `grammar_terms`, `phonetics`, `discourse`, `learning`, `writing_system`, `alphabet`, `punctuation` |
-| **6. SOCIETY_CULTURE**| `social` | Social Life & Comm | `celebrations`, `going_out`, `invitations`, `communication` |
-| | `society` | Society & Institutions| `metropolitan`, `education`, `religion`, `politics`, `heraldry` |
-| | `art_culture` | Arts & Architecture | `art`, `literature`, `film`, `theatre`, `traditions`, `fine_arts`, `graphic_arts`, `crafts`, `photography` |
-| | `music` | Music & Audio | `instruments`, `genres`, `performance`, `listening`, `orchestra`, `notation` |
-| **7. MIND_HEALTH** | `emotions` | Emotions & Feelings | `positive`, `negative`, `complex`, `expressing` |
-| | `health_medicine`| Health & Medicine | `symptoms`, `treatment`, `hospital`, `wellbeing`, `sport_injury`, `medications`, `safety_equipment` |
-| | `psychology` | Psychology & Mind | `biases`, `cognitive_processes`, `behavior`, `psychoanalysis`, `concepts` |
-| | `describing` | Describing & Quality | `size_shape`, `texture`, `quality`, `quantity`, `comparing` |
-| **8. NATURE_ENV** | `animals` | Animal Kingdom | `pets`, `farm`, `wild`, `insects`, `birds`, `sea`, `mammals`, `reptiles_amphibians`, `animal_groups`, `crustaceans_mollusks`, `fishes` |
-| | `nature` | Nature & Gardening | `landscape`, `weather`, `plants`, `seasons`, `sky`, `sea`, `camping` |
-| | `environment` | Environment & Earth | `ecology`, `climate`, `recycling`, `natural_disasters`, `pollution`, `biosphere` |
-| | `geography` | Geography & Geology | `continents`, `europe`, `asia`, `geology`, `oceanography`, `landforms`, `cartography` |
-| **9. SCIENCE_SPACE**| `science` | Fundamental Sciences | `physics_mechanics`, `optics`, `chemistry`, `laboratory`, `measuring_devices`, `biology` |
-| | `astronomy` | Astronomy & Space | `celestial_bodies`, `astronomical_observation`, `astronautics`, `solar_system` |
-| **10. INDUSTRY_ENERGY**| `energy` | Energy Systems | `fossil_energy`, `hydroelectricity`, `nuclear_energy`, `solar_energy`, `wind_energy` |
-| **11. LAW_HISTORY**| `law_order` | Law & Justice | `justice`, `prison`, `court`, `law_enforcement` |
-| | `military` | Defense & Weapons | `weapons`, `armor`, `combat_vehicles`, `defense` |
-| | `history_fantasy` | History & Fantasy | `ancient_history`, `modern_history`, `fantasy`, `mythology` |
-| **12. SPORTS_LEISURE**| `sports` | Sports & Athletics | `team_sports`, `individual`, `gym`, `outdoor`, `water_sports`, `track_field`, `ball_sports`, `racket_sports`, `gymnastics`, `combat_sports`, `strength_sports`, `equestrian`, `precision_sports`, `cycling`, `motor_sports`, `winter_sports`, `aerial_sports`, `mountain_sports` |
-| | `games` | Games & Recreation | `board_games`, `cards`, `dice_dominoes`, `puzzles`, `video_games`, `casino_games`, `outdoor_leisure` |
+### 1. SELF_IDENTITY (People, Body, Clothing, Personal Life)
+* **`people` (People & Family)**
+  * `family`: nuclear_family · extended_family · in_laws · genealogy · ancestors · parenting
+  * `relationships`: romance · dating · friendship · colleagues · acquaintances · social_bonds
+  * `nationality`: citizenship · origins · ethnic_identity · migration · foreign_languages
+  * `physical_desc`: height_build · hair_eyes · facial_features · age_groups · gestures
+  * `character`: personality_traits · virtues · vices · moral_qualities · habits
+  * `babies`: infancy · newborn_care · nursery · milestones · baby_gear
+  * `kids`: childhood · play · adolescence · parenting_challenges
+  * `groups`: crowds · teams · associations · communities · subcultures
+* **`body` (Body, Anatomy & Physiology)**
+  * `face`: eyes · nose · mouth_teeth · ears · cheeks_chin · forehead
+  * `limbs`: arms_hands · legs_feet · joints · fingers_toes · shoulders
+  * `organs`: heart · lungs · brain · liver_kidneys · stomach · circulatory_system
+  * `senses`: sight · hearing · smell · taste · touch · proprioception
+  * `health`: hygiene · skincare · dental_care · grooming · posture
+  * `appearance`: beauty · aesthetics · body_art · tattoos · piercings
+  * `digestive_system`: esophagus · intestines · digestion_metabolism · enzymes
+  * `anatomy`: skeleton · muscles · nervous_system · endocrine_system · lymphatic_system
+* **`clothes` (Clothing & Personal Articles)**
+  * `everyday`: shirts_tops · pants_jeans · dresses_skirts · underwear · socks
+  * `formal`: suits_tuxedos · evening_gowns · ties_bowties · formal_shoes
+  * `accessories`: belts · scarves_gloves · hats_caps · sunglasses · umbrellas · leather_goods
+  * `weather_gear`: raincoats · heavy_jackets · windbreakers · boots
+  * `winter_clothing`: thermal_layers · overcoats · parkas · woolen_hats
+  * `jewelry`: rings · necklaces · bracelets · earrings · watches · cufflinks
+  * `sleepwear`: pajamas · robes · nightgowns · slippers
+  * `sewing`: fabrics · needles_thread · tailoring · knitting_embroidery · care_symbols
+  * `traditional`: folk_costumes · ceremonial_attire · vestments · historical_costume
+* **`colours` (Colours, Shades & Materials)**
+  * `basic`: primary_colours · secondary_colours · neutral_tones
+  * `shades`: pastel_shades · vibrant_tones · dark_tints · metallic_colours
+  * `materials`: fabrics_textiles · metals · woods · plastics · ceramics · glass
 
-### Specialized Practice Categories
-* `prepositions`: `prepositions_place`, `prepositions_time`, `prepositions_direction`, `dependent_prepositions`
-* `contrast_pairs`: `ed_vs_ing_adjectives`, `comparative_vs_superlative`
-* `grammar`: `tenses_aspect`, `conditionals_moods`, `cases_declensions`, `articles_gender`, `syntax_word_order`
+---
+
+### 2. HOME_LIVING (House, DIY, Time, Schedule, Money)
+* **`furniture` (House, Furniture & Living Spaces)**
+  * `rooms`: living_room · dining_room · hallway · balcony · attic_cellar
+  * `furniture_items`: sofas_armchairs · tables_desks · beds_mattresses · storage_cabinets
+  * `appliances`: refrigerators · stoves_ovens · washing_machines · vacuum_cleaners · microwaves
+  * `household_items`: cookware · tableware · linens_blankets · lighting_fixtures · decor
+  * `doors_locks`: exterior_doors · locks_keys · windows_blinds · hinges
+  * `garden`: lawn · patio_deck · flowerbeds · greenhouse · outdoor_furniture
+  * `bedroom`: bedding · wardrobes · nightstands · alarm_clocks · dressers
+  * `bathroom`: bathtub_shower · sink_faucets · toilet_plumbing · towels_toiletry
+  * `utility_room`: laundry_supplies · ironing · cleaning_agents · storage_racks
+* **`diy_construction` (DIY, Tools & Home Maintenance)**
+  * `hand_tools`: hammers · screwdrivers · pliers · wrenches · measuring_tapes
+  * `building_materials`: timber · concrete_masonry · insulation · drywalls · tiles
+  * `carpentry`: sawing · drilling · nailing · sanding · joining
+  * `plumbing`: pipes · fittings · valves · sump_pumps · drainage
+  * `electrical`: wiring · switches · outlets · circuit_breakers · distribution_panels
+  * `masonry`: bricks · mortar · trowels · plastering · foundations
+* **`shopping` (Shopping, Retail & Commerce)**
+  * `stores`: supermarkets · department_stores · boutiques · markets · pharmacies
+  * `items`: groceries · consumer_goods · packaging · price_tags
+  * `transactions`: cash · credit_cards · digital_payments · receipts · refunds · discounts
+  * `online`: e_commerce · shopping_carts · deliveries · order_tracking
+* **`time` (Time, Calendar & Daily Routines)**
+  * `clock`: hours_minutes · seconds · analogue_digital · timers
+  * `days`: weekdays · weekends · yesterday_today_tomorrow
+  * `months`: seasons · annual_dates · leap_years · calendar_years
+  * `seasons`: spring · summer · autumn · winter · seasonal_changes
+  * `periods`: decades · centuries · eras · duration · intervals
+  * `frequency`: daily · weekly · monthly · rarely · always · never
+  * `telling_time`: o_clock · half_past · quarter_to · am_pm
+  * `schedule`: morning_routine · afternoon_routine · evening_routine · night_routine · workday_flow · weekend_leisure · commute · chores
+  * `hourglass`: passage_of_time · punctuality · deadlines · delays
+* **`numbers` (Numbers, Math & Geometry)**
+  * `cardinal`: basic_counting · large_numbers · decimals
+  * `ordinal`: first_second · rankings · centuries
+  * `fractions`: halves_quarters · percentages · ratios
+  * `money`: currencies · banknotes_coins · exchange_rates · savings
+  * `shapes`: 2d_shapes · 3d_solids · symmetry · angles
+  * `geometry`: lines_points · area_volume · perimeter · theorems
+
+---
+
+### 3. FOOD_DINING (Food, Cooking, Culinary Arts, Drinks)
+* **`food_drink` (Food, Beverages & Gastronomy)**
+  * `fruit`: citrus · berries · tropical_fruits · stone_fruits · melons
+  * `vegetables`: root_vegetables · leafy_greens · legumes · mushrooms · nightshades
+  * `drinks`: water_juices · hot_beverages · alcoholic_drinks · sodas · teas_coffees
+  * `cooking`: baking · frying · boiling_steaming · roasting_grilling · culinary_techniques
+  * `meals`: breakfast · lunch · dinner · snacks · appetizers · desserts
+  * `snacks`: pastries · nuts_seeds · chips_crisps · confectionery
+  * `diet`: nutrition · vegetarian_vegan · allergies_intolerances · calorie_intake
+  * `breakfast`: cereals · eggs_bacon · toast_jam · pastries_pancakes
+  * `meat`: poultry · beef_pork · lamb · game · cured_meats_delicatessen
+  * `sweets`: chocolates · candies · cakes_pies · ice_cream
+  * `spices_condiments`: herbs · spices · sauces_dressings · oils_vinegars
+  * `kitchen_utensils`: knives_cutlery · pots_pans · bowls_plates · glassware · gadgets
+  * `packaging`: cans_bottles · boxes_cartons · plastic_wraps · containers
+
+---
+
+### 4. TRAVEL_COMM (Travel, Transport, Geography, Technology)
+* **`travel` (Travel, Tourism & Hospitality)**
+  * `transport`: public_transit · personal_vehicles · long_distance · fares_tickets
+  * `accommodation`: hotels · hostels · vacation_rentals · camping · check_in
+  * `tourism`: sightseeing · guided_tours · landmarks · souvenirs · itineraries
+  * `directions`: navigation · maps_gps · lost_found · street_signs
+  * `documents`: passports · visas · boarding_passes · custom_forms
+  * `air_travel`: airport_terminals · flight_checkin · security_screening · inflight
+  * `land_travel`: road_trips · train_journeys · bus_routes · highway_driving
+  * `sea_travel`: cruises · ferries · sailing_yachts · ports_harbors
+  * `luggage`: suitcases · backpacks · carry_on · baggage_claim
+* **`transport_machinery` (Heavy Transport & Machinery)**
+  * `road_transport`: automobiles · buses · trucks · motorcycles · bicycles · electric_vehicles
+  * `rail_transport`: high_speed_trains · subways · locomotives · tracks_stations
+  * `maritime_transport`: cargo_ships · tankers · tugboats · navigation_buoys
+  * `air_transport`: commercial_jets · helicopters · turboprops · flight_decks
+  * `heavy_machinery`: bulldozers · excavators · cranes · tractors · dump_trucks
+  * `material_handling`: forklifts · conveyor_belts · loading_docks · containers
+* **`places` (Places, Urban Spaces & Architecture)**
+  * `city`: metropolitan_areas · downtown · suburbs · plazas · pedestrian_zones
+  * `buildings`: skyscrapers · office_towers · residential_blocks · civic_buildings
+  * `rooms`: public_spaces · private_chambers · auditoriums · corridors
+  * `geography`: landforms · water_bodies · maps_globes · coordinates
+  * `landmarks`: monuments · historic_sites · bridges · towers · fountains
+  * `countryside`: villages · farmland · forests · mountains · valleys
+  * `downtown`: commercial_districts · shopping_malls · financial_centers
+* **`technology` (Technology, Electronics & Office Automation)**
+  * `devices`: smartphones · tablets · smartwatches · audio_equipment
+  * `internet`: websites · search_engines · cloud_storage · cybersecurity
+  * `software`: operating_systems · applications · databases · programming
+  * `social_media`: messaging_apps · social_networks · content_creation · streaming
+  * `computers`: desktops · laptops · processors_memory · peripherals
+  * `office_automation`: printers_scanners · copiers · networking · ups_systems
+
+---
+
+### 5. WORK_LEARNING (Work, Business, Education, Language)
+* **`work` (Workplace, Business & Economics)**
+  * `office`: corporate_culture · cubicles · conference_rooms · executive_suites
+  * `meetings`: presentations · negotiations · video_calls · agendas_minutes
+  * `career`: hiring_recruitment · promotions · resumes_cvs · retirement
+  * `documents`: contracts · reports · spreadsheets · memos · invoices
+  * `remote_work`: home_office · digital_nomadism · asynchronous_comm
+  * `finance`: banking · investments · stocks_bonds · accounting · taxation
+  * `economy`: macroeconomics · trade · inflation · markets · supply_demand
+* **`jobs` (Professions & Careers)**
+  * `professions`: medical_professionals · engineers · educators · creative_arts
+  * `workplace`: factory_floor · office_building · outdoor_site · retail_floor
+  * `career`: vocational_training · mentorship · career_ladder · freelancing
+  * `business_lang`: jargon · corporate_terms · client_relations · sales_marketing
+* **`school` (School & Academic Education)**
+  * `stationery`: pens_pencils · notebooks_binders · rulers_erasers · backpacks
+  * `subjects`: mathematics · literature · history · sciences · arts · physical_ed
+  * `classroom`: desks_chairs · whiteboards · projectors · lab_benches
+  * `studying`: exams_tests · homework · research · tutoring · graduation
+* **`language` (Language, Linguistics & Writing Systems)**
+  * `grammar_terms`: parts_of_speech · tenses · syntax · morphology · semantics
+  * `phonetics`: vowels_consonants · pronunciation · accents · intonation
+  * `discourse`: rhetoric · pragmatics · conversation · public_speaking
+  * `learning`: language_acquisition · vocabulary_building · fluency_drills
+  * `writing_system`: alphabets · scripts · calligraphy · typography
+  * `punctuation`: periods_commas · quotation_marks · colons_semicolons · hyphens
+
+---
+
+### 6. SOCIETY_CULTURE (Social Life, Arts, Music, Institutions)
+* **`social` (Social Life & Human Communication)**
+  * `celebrations`: birthdays · weddings · anniversaries · holidays · festivals
+  * `going_out`: dining_out · nightlife · concerts · cinema_theater
+  * `invitations`: host_guest · RSVP · etiquette · party_planning
+  * `communication`: small_talk · debate · active_listening · body_language
+* **`society` (Society, Institutions & Religion)**
+  * `metropolitan`: urban_planning · public_services · civic_infrastructure
+  * `education`: school_systems · universities · libraries · research_institutes
+  * `religion`: belief_systems · places_of_worship · sacred_texts · rituals
+  * `politics`: government_branches · elections · diplomacy · public_policy
+  * `heraldry`: flags · coats_of_arms · state_symbols · anthems
+* **`art_culture` (Arts, Architecture & Literature)**
+  * `art`: painting · sculpture · drawing · galleries_museums
+  * `literature`: fiction_nonfiction · poetry · drama · literary_criticism
+  * `film`: cinematography · directing · genres · film_sets
+  * `theatre`: stagecraft · acting · musicals · opera
+  * `traditions`: folklore · cultural_heritage · customs · rites_of_passage
+  * `fine_arts`: classical_arts · restoration · curation · aesthetics
+  * `graphic_arts`: printing_processes · lithography · bookbinding · graphic_design
+  * `crafts`: pottery · weaving · glassblowing · woodworking
+  * `photography`: cameras_lenses · lighting · darkrooms · digital_editing
+* **`music` (Music, Audio & Performance)**
+  * `instruments`: strings · woodwinds · brass · percussion · keyboards · electronic
+  * `genres`: classical · jazz · rock_pop · traditional_folk · electronic_dance
+  * `performance`: concerts · recitals · rehearsals · stage_lighting
+  * `listening`: audio_players · headphones · acoustics · sound_systems
+  * `orchestra`: symphony_conductors · section_seating · scores
+  * `notation`: sheet_music · clefs_notes · rhythm_tempo · scales_chords
+
+---
+
+### 7. MIND_HEALTH (Psychology, Health, Emotions, Describing)
+* **`emotions` (Emotions & Expressive States)**
+  * `positive`: joy · contentment · enthusiasm · love · hope · gratitude
+  * `negative`: sadness · anger · fear · anxiety · guilt · shame · jealousy
+  * `complex`: nostalgia · ambivalence · awe · grief · empathy
+  * `expressing`: body_language · facial_expressions · vocal_tone · venting
+* **`health_medicine` (Health, Medicine & First Aid)**
+  * `symptoms`: fever · pain · fatigue · nausea · coughing · inflammation
+  * `treatment`: surgeries · therapies · consultations · rehabilitation
+  * `hospital`: emergency_rooms · wards · operating_theaters · intensive_care
+  * `wellbeing`: mental_health · fitness · sleep_hygiene · stress_management
+  * `sport_injury`: sprains · fractures · dislocations · physical_therapy
+  * `medications`: prescriptions · antibiotics · painkillers · dosages · pharmacies
+  * `safety_equipment`: first_aid_kits · ambulances · protective_gear · emergency_symbols
+* **`psychology` (Psychology, Cognition & Mind)**
+  * `biases`: cognitive_biases · heuristics · logical_fallacies · prejudice
+  * `cognitive_processes`: memory · perception · reasoning · decision_making
+  * `behavior`: habits · motivation · personality_development · social_behavior
+  * `psychoanalysis`: subconscious · dreams · defense_mechanisms · therapy
+  * `concepts`: epistemology · consciousness · ethics · free_will
+* **`describing` (Describing, Texture, Quality & Comparison)**
+  * `size_shape`: dimensions · weights · geometric_profiles · scale
+  * `texture`: rough_smooth · hard_soft · sticky · slippery · flexible
+  * `quality`: durability · excellence · flaws · purity · authenticity
+  * `quantity`: abundance · scarcity · measurements · estimates
+  * `comparing`: similarities · differences · superlatives · contrasts
+
+---
+
+### 8. NATURE_ENV (Animals, Plants, Earth, Climate)
+* **`animals` (Animal Kingdom)**
+  * `pets`: dogs · cats · rodents · caged_birds · aquariums
+  * `farm`: cattle · horses · sheep_goats · poultry · swine
+  * `wild`: big_cats · bears · wolves · elephants · primates
+  * `insects`: butterflies · bees_wasps · beetles · ants · spiders_arachnids
+  * `birds`: songbirds · birds_of_prey · waterfowl · seabirds
+  * `sea`: whales_dolphins · sharks · coral_reef_fish · sea_turtles
+  * `mammals`: ungulates · carnivores · rodents · marsupials · bats
+  * `reptiles_amphibians`: snakes · lizards · turtles · frogs_salamanders
+  * `animal_groups`: herds · packs · flocks · schools · colonies
+  * `crustaceans_mollusks`: lobsters_crabs · snails_octopuses · bivalves
+  * `fishes`: bony_fish · cartilaginous_fish · freshwater · saltwater
+* **`nature` (Nature, Weather & Outdoor Life)**
+  * `landscape`: mountains · forests · rivers_lakes · deserts · prairies
+  * `weather`: sunshine · rain_storms · snow_ice · wind · clouds
+  * `plants`: trees_conifers · flowers · mosses_ferns · fungi_mushrooms
+  * `seasons`: seasonal_phenomena · foliage · hibernation · blooms
+  * `sky`: atmosphere · clouds_types · rainbows · sunrise_sunset
+  * `sea`: ocean_currents · tides · waves · coastal_cliffs
+  * `camping`: tents · campfires · hiking_gear · survival_skills
+* **`environment` (Environment, Ecology & Earth Systems)**
+  * `ecology`: ecosystems · food_chains · biodiversity · habitats
+  * `climate`: global_warming · greenhouse_effect · microclimates
+  * `recycling`: waste_sorting · composting · renewable_materials
+  * `natural_disasters`: earthquakes · tornadoes_hurricanes · floods · wildfires
+  * `pollution`: air_pollution · water_contamination · land_waste
+  * `biosphere`: conservation · national_parks · endangered_species
+* **`geography` (Geography, Geology & Earth Sciences)**
+  * `continents`: europe · asia · africa · americas · oceania · antarctica
+  * `europe`: regions · mountain_ranges · major_rivers · capital_cities
+  * `asia`: regions · mountain_ranges · major_rivers · capital_cities
+  * `geology`: plate_tectonics · volcanoes · caves · rock_types · erosion
+  * `oceanography`: ocean_floors · trenches · ridges · marine_currents
+  * `landforms`: peninsulas · islands · canyons · deltas · plateaus
+  * `cartography`: remote_sensing · topographical_maps · coordinates · scales
+
+---
+
+### 9. SCIENCE_SPACE (Physics, Chemistry, Astronomy, Biology)
+* **`science` (Fundamental Sciences & Laboratory)**
+  * `physics_mechanics`: force_motion · gearing_systems · levers_pulleys
+  * `optics`: light_reflection · lenses · lasers · microscopes · binoculars
+  * `chemistry`: periodic_table · chemical_reactions · matter_states · solutions
+  * `laboratory`: glassware_beakers · Bunsen_burners · safety_goggles · scales
+  * `measuring_devices`: thermometers · barometers · callipers · voltmeters
+  * `biology`: genetics · cell_structures · evolution · microbiology
+* **`astronomy` (Astronomy & Space Exploration)**
+  * `celestial_bodies`: planets · moons · stars · galaxies · meteorites · comets
+  * `astronomical_observation`: telescopes · observatories · planetariums
+  * `astronautics`: space_shuttles · space_stations · probes · spacesuits
+  * `solar_system`: sun · inner_planets · gas_giants · asteroid_belts
+
+---
+
+### 10. INDUSTRY_ENERGY (Energy Systems & Heavy Industry)
+* **`energy` (Energy Production & Power Grids)**
+  * `fossil_energy`: petroleum_refineries · coal_mining · natural_gas
+  * `hydroelectricity`: dams · turbines · power_generation · tidal_power
+  * `nuclear_energy`: nuclear_reactors · fuel_bundles · radiation_safety
+  * `solar_energy`: photovoltaic_cells · solar_panels · solar_furnaces
+  * `wind_energy`: wind_turbines · wind_farms · mechanical_conversion
+
+---
+
+### 11. LAW_HISTORY (Law, Military, History, Fantasy)
+* **`law_order` (Law, Justice & Enforcement)**
+  * `justice`: courtrooms · judges_lawyers · trials · verdicts
+  * `prison`: correctional_facilities · security · rehabilitation
+  * `court`: legal_procedures · testimony · evidence · sentencing
+  * `law_enforcement`: police_patrols · crime_prevention · investigations
+* **`military` (Defense, Military & Arms)**
+  * `weapons`: firearms · artillery · edged_weapons · missiles
+  * `armor`: historic_armor · body_armor · helmets · shielding
+  * `combat_vehicles`: tanks · fighter_jets · frigates · submarines
+  * `defense`: fortification · strategic_defense · radar_systems
+* **`history_fantasy` (History, Fantasy & Mythology)**
+  * `ancient_history`: civilizations · archaeology · ancient_empires
+  * `modern_history`: industrial_revolution · world_wars · space_age
+  * `fantasy`: mythical_creatures · magic · legendary_kingdoms
+  * `mythology`: pantheons · folklore_tales · epic_sagas
+
+---
+
+### 12. SPORTS_LEISURE (Sports, Games, Outdoor Recreation)
+* **`sports` (Sports & Physical Athletics)**
+  * `team_sports`: soccer · basketball · volleyball · rugby · baseball
+  * `individual`: track_field · swimming · gymnastics · martial_arts
+  * `gym`: fitness_equipment · weightlifting · aerobics · bodybuilding
+  * `outdoor`: hiking · climbing · trail_running · camping
+  * `water_sports`: surfing · diving · rowing · kayaking · water_skiing
+  * `track_field`: sprinting · long_jump · shot_put · marathon · decathlon
+  * `ball_sports`: football · tennis · cricket · handball · netball
+  * `racket_sports`: badminton · table_tennis · squash · racquetball
+  * `gymnastics`: rhythmic_gymnastics · trampoline · artistic_vault
+  * `combat_sports`: boxing · wrestling · judo · karate · fencing · sumo
+  * `strength_sports`: powerlifting · bodybuilding · crossfit
+  * `equestrian`: show_jumping · dressage · horse_racing · polo
+  * `precision_sports`: archery · shooting · billiards · bowling · golf
+  * `cycling`: road_racing · mountain_biking · bmx · track_cycling
+  * `motor_sports`: car_racing · motorcycling · snowmobile · jet_ski
+  * `winter_sports`: alpine_skiing · snowboarding · figure_skating · ice_hockey · bobsled
+  * `aerial_sports`: skydiving · hang_gliding · paragliding · hot_air_balloons
+  * `mountain_sports`: mountaineering · rock_climbing · ice_climbing
+* **`games` (Games, Hobbies & Tabletop)**
+  * `board_games`: chess · checkers · monopoly · strategy_games
+  * `cards`: poker · bridge · traditional_deck · trading_cards
+  * `dice_dominoes`: dice_games · dominoes · mah_jongg
+  * `puzzles`: jigsaw_puzzles · crosswords · sudoku · brainteasers
+  * `video_games`: consoles · PC_gaming · esports · mobile_games
+  * `casino_games`: roulette · slot_machines · blackjack · craps
+  * `outdoor_leisure`: darts · lawn_bowling · petanque · frisbee · fishing · hunting
 
 ---
 
@@ -92,7 +382,7 @@ To maintain backwards compatibility while enforcing clean runtime querying, lega
 | `countries_capitals` | `people` | `nationality` |
 | `personal_identity` | `people` | `nationality` |
 | `feelings_emotions` | `emotions` | `positive` |
-| `daily_life` | `social` | `communication` |
+| `daily_life` | `time` | `schedule` |
 | `hobbies` | `games` | `outdoor_leisure` |
 | `lifestyle` | `social` | `going_out` |
 | `career` | `jobs` | `career` |
