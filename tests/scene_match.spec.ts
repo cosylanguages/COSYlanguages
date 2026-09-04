@@ -71,18 +71,10 @@ test.describe('Scene Match Game (/games/scene_match/)', () => {
 
     // Fast-track match all items in all scenes
     await page.evaluate(() => {
-      window.COSY_GAME.sceneMatches.apartment = new Set(['sofa', 'tv', 'coffee_table', 'plant', 'armchair', 'bookshelf', 'rug', 'window', 'lamp', 'painting']);
-      window.COSY_GAME.sceneMatches.bedroom = new Set(['bed', 'wardrobe', 'pillow', 'blanket', 'mirror', 'nightstand', 'lamp', 'curtains']);
-      window.COSY_GAME.sceneMatches.kitchen = new Set(['fridge', 'oven', 'sink', 'cupboard', 'kettle', 'table', 'chair', 'pot']);
-      window.COSY_GAME.sceneMatches.bathroom = new Set(['bathtub', 'shower', 'sink', 'toilet', 'mirror', 'towel', 'soap', 'toothbrush', 'hairdryer']);
-      window.COSY_GAME.sceneMatches.routine = new Set(['alarm_clock', 'wake_up', 'breakfast', 'bus_stop', 'office', 'dinner', 'relax', 'sleep']);
-      window.COSY_GAME.sceneMatches.seasons = new Set(['spring', 'summer', 'autumn', 'winter', 'flower', 'sun', 'rain', 'snow']);
-      window.COSY_GAME.sceneMatches.clothing = new Set(['shirt', 'jacket', 'dress', 'trousers', 'skirt', 'shoes', 'socks', 'hat']);
-      window.COSY_GAME.sceneMatches.animals = new Set(['cow', 'horse', 'sheep', 'pig', 'dog', 'cat', 'duck', 'bird']);
-      window.COSY_GAME.sceneMatches.city = new Set(['school', 'hospital', 'supermarket', 'bank', 'restaurant', 'bus_stop', 'park', 'library']);
-      window.COSY_GAME.sceneMatches.cafe = new Set(['coffee_machine', 'menu_board', 'counter', 'croissant', 'cake', 'table', 'coffee_cup']);
-      window.COSY_GAME.sceneMatches.market = new Set(['apples', 'bananas', 'fish', 'scale', 'canopy']);
-      window.COSY_GAME.sceneMatches.school_office = new Set(['blackboard', 'laptop', 'desk', 'books', 'backpack']);
+      Object.keys(window.COSY_SCENE_DATA).forEach(key => {
+        const hsIds = window.COSY_SCENE_DATA[key].hotspots.map(h => h.id);
+        window.COSY_GAME.sceneMatches[key] = new Set(hsIds);
+      });
       window.COSY_GAME.updateProgress();
       window.COSY_GAME.checkOverallCompletion();
     });
