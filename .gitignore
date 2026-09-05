@@ -12,7 +12,6 @@ results/
 audit_screenshots/
 verification/screenshots/
 verification/videos/
-project/tests/verification/screenshots/
 failure-*.png
 .DS_Store
 Thumbs.db
