@@ -36,16 +36,23 @@ The multi-user system (student/teacher portals) has been deprecated in favor of 
 
 COSYlanguages is organized as a distributed ecosystem of specialized sub-products, with this repository (`COSYlanguages`) serving as the primary hub, orchestrator, and textbook portal:
 
-### Decoupled Ecosystem Repositories
+### Active Decoupled Standalone Repositories
 1. **[COSYworld](https://github.com/cosylanguages/COSYworld):** Interactive 2D/3D visual environments, Scene Match games, and exploratory visual learning spaces.
-2. **[COSYtools](https://github.com/cosylanguages/COSYtools):** Standalone offline linguistic reference engines (conjugators, gender trainers, and prepositional regime tools across French, Italian, Russian, Greek, and English).
+2. **[COSYtools](https://github.com/cosylanguages/COSYtools):** Standalone offline linguistic reference engines (12 micro-apps for verb conjugators, gender trainers, and prepositional regime tools across French, Italian, Russian, Greek, and English).
 
-### Central Platform Hub (`COSYlanguages`)
-- **Free Platform (`apps/free-portal/`):** Public self-study resources including CEFR HTML Grammar & Vocabulary Manuals, Practice Hub, Placement Quiz, and interactive games.
-- **Premium Courses (`apps/premium-courses/`):** Structured level paths across 6 distinct tracks (*General*, *Spoken*, *Professional*, *Travelling*, *Relocation*, *Exam Prep*).
-- **Premium Events (`apps/premium-events/`):** Conversational experiences including Thematic Speaking Clubs (7 themes) and Multimedia Nights (5 formats).
+### Roadmap Standalone Repositories (Extraction Candidates)
+- **`COSYevents`:** Thematic Speaking Clubs and Multimedia Event Nights web app (`apps/premium-events/` and `events/`).
+- **`COSYgames`:** Suite of 22+ interactive vocabulary/grammar minigames (`games/`).
+- **`COSYstudio`:** Pedagogical print studio, zine builder, boardgames, and flashcard box generator (`apps/print-studio/` and `print-*.html`).
+- **`COSYcourses`:** Structured CEFR syllabus course experience across 6 tracks (`apps/premium-courses/` and `curriculum/`).
+- **`COSYclassroom`:** Teacher live screen sync and presentation tool (`classroom-sync.html`).
 
-For detailed architecture standards, candidate repos for future extraction, and taxonomy specifications, refer to [`docs/ECOSYSTEM_ARCHITECTURE.md`](docs/ECOSYSTEM_ARCHITECTURE.md) and `apps/README.md`.
+### Central Ecosystem Hub (`COSYlanguages`)
+- **Unified Master Portal & Gateway:** Central directory, multi-product switcher, and global diagnostic placement quiz (`placement-quiz.html`).
+- **Interactive CEFR Web Textbooks (`manuals/`):** Core HTML grammar and vocabulary textbooks across all 13 supported languages.
+- **Language Hubs (`languages/{iso}/index.html`):** Portal pages featuring daily dose facts, idioms, and level roadmaps.
+
+For a detailed analysis of repository candidates and ecosystem architecture, see [`docs/ECOSYSTEM_ARCHITECTURE.md`](docs/ECOSYSTEM_ARCHITECTURE.md).
 
 ## Running locally
 Open `index.html` directly in a browser, or use a local server:
