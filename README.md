@@ -32,23 +32,29 @@ No translation fallback. If the platform is in Greek, everything is in Greek. If
 ## Platform Status
 The multi-user system (student/teacher portals) has been deprecated in favor of a visitor-first, public-access learning platform. All resources, including practice hubs and events, are now accessible without an account.
 
-## Ecosystem Taxonomy
+## Ecosystem Taxonomy & Repositories
 
-COSYlanguages is structured as a collection of independent, specialized sub-products under a unified micro-frontend monorepo workspace:
+COSYlanguages is organized as a distributed ecosystem of specialized sub-products, with this repository (`COSYlanguages`) serving as the primary hub, orchestrator, and textbook portal:
 
-1. **Free Platform (`apps/free-portal/`):** Public self-study resources including Grammar Manuals, Practice Hub, Placement Quiz, and 22 Vocabulary/Word Games.
-2. **Premium Courses (`apps/premium-courses/`):** Structured, syllabus-driven, level-calibrated curriculums with 6 distinct tracks:
-   - General (Forest Green/Sage)
-   - Spoken (Terracotta/Coral)
-   - Professional (Credible Navy)
-   - Travelling (Practical Fresh Green)
-   - Relocation (Warm Rust/Amber)
-   - Exam Prep (Scholarly Plum)
-3. **Premium Events (`apps/premium-events/`):** Highly interactive conversational experiences:
-   - *Thematic Speaking Clubs:* I Couldn't Help But Wonder, Keeping Up with Science, Mind Matters, Debatable & Relatable, Let's Celebrate, My Life With/Without, and The Greatest Quotes.
-   - *Interactive Multimedia Nights:* Cinema Club, Karaoke Club, Game Evening, Long Reads, and If You Were.
+### Active Decoupled Standalone Repositories
+1. **[COSYworld](https://github.com/cosylanguages/COSYworld):** Interactive 2D/3D visual environments, Scene Match games, and exploratory visual learning spaces.
+2. **[COSYtools](https://github.com/cosylanguages/COSYtools):** Standalone offline linguistic reference engines (12 micro-apps for verb conjugators, gender trainers, and prepositional regime tools across French, Italian, Russian, Greek, and English).
 
-For detailed taxonomy standards, refer to `project/docs/CONTENT_ARCHITECTURE.md` or `apps/README.md`.
+### Standalone Repositories Prepared for Copy-Paste Migration
+- **[`COSYevents/`](COSYevents/):** Pre-packaged, self-contained folder ready to be copied into [`https://github.com/cosylanguages/COSYevents`](https://github.com/cosylanguages/COSYevents) (includes thematic speaking clubs, multimedia event nights, assets, and shared platform core).
+- **[`COSYgames/`](COSYgames/):** Pre-packaged, self-contained folder ready to be copied into [`https://github.com/cosylanguages/COSYgames`](https://github.com/cosylanguages/COSYgames) (includes 22+ interactive minigames, scene matching engine, card decks, and shared platform core).
+
+### Future Extraction Candidates
+- **`COSYstudio`:** Pedagogical print studio, zine builder, boardgame generator (`apps/print-studio/` and `print-*.html`).
+- **`COSYcourses`:** Structured CEFR syllabus course experience across 6 tracks (`apps/premium-courses/` and `curriculum/`).
+- **`COSYclassroom`:** Teacher live screen sync and presentation tool (`classroom-sync.html`).
+
+### Central Ecosystem Hub (`COSYlanguages`)
+- **Unified Master Portal & Gateway:** Central directory, multi-product switcher, and global diagnostic placement quiz (`placement-quiz.html`).
+- **Interactive CEFR Web Textbooks (`manuals/`):** Core HTML grammar and vocabulary textbooks across all 13 supported languages.
+- **Language Hubs (`languages/{iso}/index.html`):** Portal pages featuring daily dose facts, idioms, and level roadmaps.
+
+For a detailed analysis of repository candidates and ecosystem architecture, see [`docs/ECOSYSTEM_ARCHITECTURE.md`](docs/ECOSYSTEM_ARCHITECTURE.md).
 
 ## Running locally
 Open `index.html` directly in a browser, or use a local server:
