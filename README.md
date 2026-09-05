@@ -40,10 +40,12 @@ COSYlanguages is organized as a distributed ecosystem of specialized sub-product
 1. **[COSYworld](https://github.com/cosylanguages/COSYworld):** Interactive 2D/3D visual environments, Scene Match games, and exploratory visual learning spaces.
 2. **[COSYtools](https://github.com/cosylanguages/COSYtools):** Standalone offline linguistic reference engines (12 micro-apps for verb conjugators, gender trainers, and prepositional regime tools across French, Italian, Russian, Greek, and English).
 
-### Roadmap Standalone Repositories (Extraction Candidates)
-- **`COSYevents`:** Thematic Speaking Clubs and Multimedia Event Nights web app (`apps/premium-events/` and `events/`).
-- **`COSYgames`:** Suite of 22+ interactive vocabulary/grammar minigames (`games/`).
-- **`COSYstudio`:** Pedagogical print studio, zine builder, boardgames, and flashcard box generator (`apps/print-studio/` and `print-*.html`).
+### Standalone Repositories Prepared for Copy-Paste Migration
+- **[`COSYevents/`](COSYevents/):** Pre-packaged, self-contained folder ready to be copied into [`https://github.com/cosylanguages/COSYevents`](https://github.com/cosylanguages/COSYevents) (includes thematic speaking clubs, multimedia event nights, assets, and shared platform core).
+- **[`COSYgames/`](COSYgames/):** Pre-packaged, self-contained folder ready to be copied into [`https://github.com/cosylanguages/COSYgames`](https://github.com/cosylanguages/COSYgames) (includes 22+ interactive minigames, scene matching engine, card decks, and shared platform core).
+
+### Future Extraction Candidates
+- **`COSYstudio`:** Pedagogical print studio, zine builder, boardgame generator (`apps/print-studio/` and `print-*.html`).
 - **`COSYcourses`:** Structured CEFR syllabus course experience across 6 tracks (`apps/premium-courses/` and `curriculum/`).
 - **`COSYclassroom`:** Teacher live screen sync and presentation tool (`classroom-sync.html`).
 

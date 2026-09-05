@@ -39,16 +39,18 @@ To make each product modular, independently deployable, and easy to maintain, th
 └───────────────┘ └───────────────┘ └───────────────┘ └─────────────┘ └─────────────┘
 ```
 
-### Candidate 1: `COSYevents` (`github.com/cosylanguages/COSYevents`)
-* **What it is:** The complete interactive conversational event platform (`events/` and `apps/premium-events/`).
+### 1. `COSYevents` (`github.com/cosylanguages/COSYevents`)
+* **Migration Status:** Pre-packaged into root folder **[`COSYevents/`](../COSYevents/)** for easy copy-paste migration into its standalone GitHub repository.
 * **Sub-products included:**
-  - *Thematic Speaking Clubs:* I Couldn't Help But Wonder, Keeping Up with Science, Mind Matters, Debatable & Relatable, Let's Celebrate, My Life With/Without, and The Greatest Quotes.
-  - *Multimedia Event Nights:* Cinema Club, Karaoke Club, Game Evening, Long Reads, and If You Were.
-* **Why extract to a separate repo:** It functions as its own web application for session facilitators and participants, featuring interactive slide decks, debate cards, media players, and vocabulary cards.
+  - *Thematic Speaking Clubs:* I Couldn't Help But Wonder, Keeping Up with Science, Mind Matters, Debatable & Relatable, Let's Celebrate, My Life With/Without, and The Greatest Quotes (`premium-events/clubs/`).
+  - *Multimedia Event Nights:* Cinema Club, Karaoke Club, Game Evening, Long Reads (`premium-events/nights/`).
+  - Public events hubs, browse filters, and session guides (`sessions/`).
 
-### Candidate 2: `COSYgames` (`github.com/cosylanguages/COSYgames`)
-* **What it is:** The suite of 22+ interactive language learning minigames (`games/`: Word Search, Crosswords, Flashcards, Speed Drills, Memory Cards, Quiz engines).
-* **Why extract to a separate repo:** Interactive minigames form a dedicated casual practice web app with custom sound triggers, scoreboards, and game engine mechanics.
+### 2. `COSYgames` (`github.com/cosylanguages/COSYgames`)
+* **Migration Status:** Pre-packaged into root folder **[`COSYgames/`](../COSYgames/)** for easy copy-paste migration into its standalone GitHub repository.
+* **Sub-products included:**
+  - 22+ interactive minigames including Scene Match, COSY Crossword, Action Hero, Battle of Wits, Critics Corner, Emoji Odyssey, Fluency Flow, Hot Seat, 100 Questions, Story Chain, What Gender Is It, and Word Linker.
+  - Game engine drivers (`_engine/`) and scene datasets (`data/`).
 
 ### Candidate 3: `COSYstudio` (`github.com/cosylanguages/COSYstudio`)
 * **What it is:** The pedagogical print studio and physical resource builder (`apps/print-studio/`, `print-boardgame.html`, `print-cards.html`, `print-grammar.html`, `print-zine.html`, `print-box.html`).
