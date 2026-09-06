@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://cosylanguages.com/schemas/ccq.schema.json",
+  "title": "Concept Checking Question (CCQ)",
+  "description": "Schema for Concept Checking Questions. The ccq field must be answerable yes/no or with a short factual answer, and must never ask the learner to translate.",
+  "type": "object",
+  "required": [
+    "targetItem",
+    "language",
+    "ccq",
+    "answer"
+  ],
+  "properties": {
+    "targetItem": {
+      "type": "string",
+      "description": "The word, phrase, or target grammar/vocabulary structure being checked."
+    },
+    "language": {
+      "type": "string",
+      "description": "The ISO language code or language name for the target item."
+    },
+    "ccq": {
+      "type": "string",
+      "description": "The concept checking question. Must be answerable yes/no or with a short factual answer, and must never ask the learner to translate."
+    },
+    "answer": {
+      "type": "string",
+      "description": "The expected answer (e.g. 'Yes', 'No', or a short factual response)."
+    },
+    "distractor": {
+      "type": "string",
+      "description": "An optional incorrect or distractor response for multiple-choice checks."
+    }
+  },
+  "additionalProperties": false
+}

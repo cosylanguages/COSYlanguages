@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://cosylanguages.com/schemas/lesson-stage.schema.json",
+  "title": "CELTA-Style Lesson Unit Stage",
+  "description": "Schema for CELTA-style lesson units covering presentation, practice, and production stages.",
+  "type": "object",
+  "required": [
+    "unitId",
+    "leadIn",
+    "meaningCheck",
+    "form",
+    "controlledPractice",
+    "freerPractice",
+    "production"
+  ],
+  "properties": {
+    "unitId": {
+      "type": "string",
+      "description": "Unique identifier for the lesson stage unit."
+    },
+    "leadIn": {
+      "type": "string",
+      "description": "Lead-in activity description to engage context and schema."
+    },
+    "meaningCheck": {
+      "type": "array",
+      "description": "List of CCQ references or inline CCQ objects used for checking meaning.",
+      "items": {
+        "oneOf": [
+          {
+            "type": "string",
+            "description": "Reference to a CCQ target item or CCQ ID."
+          },
+          {
+            "$ref": "ccq.schema.json"
+          }
+        ]
+      }
+    },
+    "form": {
+      "type": "string",
+      "description": "Explanation or clarification of the grammatical / lexical form."
+    },
+    "pronunciationDrill": {
+      "type": "string",
+      "description": "Optional pronunciation drill notes (intonation, stress, phonetics)."
+    },
+    "controlledPractice": {
+      "type": "array",
+      "description": "References to COSYtools or COSYgames practice items.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "freerPractice": {
+      "type": "array",
+      "description": "References to COSYgames or COSYevents practice items.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "production": {
+      "type": "array",
+      "description": "References to COSYworld quests or COSYevents club sessions.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "feedbackNotes": {
+      "type": "string",
+      "description": "Optional notes for post-activity feedback or error correction."
+    }
+  },
+  "additionalProperties": false
+}
