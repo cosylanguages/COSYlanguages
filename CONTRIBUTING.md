@@ -1,71 +1,45 @@
-# Contributing to COSYlanguages
+# Contributing to COSYtools
 
-Thank you for your interest in contributing to **COSYlanguages**! We are building a visitor-first, public-access language learning platform focused on genuine learning over monetisation, guided by our core principle: **no translation fallback**.
+Thank you for your interest in contributing to **COSYtools**! We are building a suite of 12 offline reference engines (conjugation, gender & cases, prepositional regimes, and syntax) for language learners.
 
 ---
 
 ## 🛠️ Contribution Guidelines
 
 ### 1. Allowed & Welcomed Contributions
-You are warmly invited to submit Pull Requests for:
-
-- **Vocabulary & Lexicon (`vocabulary/`):** Add new vocabulary entries, idioms, or collocations across target languages.
-- **Grammar Content (`reference-grammar/` & `manuals/`):** Add machine-readable JSON rules in `reference-grammar/` or rich human-facing CEFR HTML manual topics in `manuals/`.
-- **Syllabus & Curriculum (`curriculum/`):** Expand CEFR course lesson units across progressive tracks (`general`, `spoken`, `professional`, `travelling`, `relocation`, `exam`).
-- **Interactive Minigames & Scenes (`games/`, `COSYgames/`):** Add interactive practice minigames or Scene Match concrete noun environment scenes.
-- **Speaking Clubs & Events (`events/`, `COSYevents/`):** Expand thematic speaking club decks and multimedia event night session materials.
-- **Linguistic Micro-Apps (`apps/`, `COSYtools/`):** Improve or build standalone offline linguistic reference engines (verb conjugators, gender trainers, prepositional regime engines).
-- **UI & Accessibility Improvements (`css/`):** Improve responsive design, dark mode contrast, screen reader support, or keyboard navigation.
+You can freely submit Pull Requests without prior maintainer approval for:
+- **New Data & Vocabulary Entries**: Expand verb conjugation databases, noun gender tables, or preposition regime datasets within an existing tool's JSON schema (e.g., `apps/fr-conjugeur/data/`, `apps/en-verb-prep/data/`, etc.).
+- **Data Corrections & Enhancements**: Fix definitions, stress accent marks, grammatical rules, or example sentences across supported tools.
+- **UI & Accessibility Bug Fixes**: Improve CSS accessibility, responsive layout behavior, keyboard navigation, or offline PWA capabilities.
+- **Translations & Localized Strings**: Improve interface strings and helper labels.
 
 ### 2. Requiring Review & Maintainer Approval
-Please open an issue to discuss before submitting Pull Requests that modify:
-
-- Core JavaScript platform logic or engine loaders (`js/core/`).
-- Automated search cross-reference index generation scripts or unified index outputs (`data/index/`).
-- Schema definitions or breaking data shape modifications (`project/docs/SCHEMA.md`, `curriculum/_schema/`).
-- Central design system tokens (`css/cosy-tokens.css`).
+Please open an issue to discuss before submitting PRs that affect:
+- **New Tool Folders**: Adding a new reference application directory under `apps/`.
+- **Core Engine Architecture**: Major refactoring of shared primitives (`shared/`) or app engines (`js/engine.js`).
+- **Data Schema Changes**: Structural alterations to existing JSON schemas or database fields.
 
 ---
 
-## 📖 Sources of Truth for Data Shape, Taxonomy & Styling
+## 🎨 Design Tokens Linking Policy
 
-Before creating or editing content, please consult our primary specifications:
+> **CRITICAL POLICY:**
+> All HTML entry points and tools **MUST** import or link `css/cosy-tokens.css` via a `raw.githubusercontent.com` URL **pinned to a specific commit SHA or release tag**.
+>
+> **NEVER** reference `main` directly in consumer imports.
 
-1. **Data Shape & Entry Schema ([`project/docs/SCHEMA.md`](project/docs/SCHEMA.md)):**
-   - Defines mandatory fields (`id`, `word`, `lang`, `level`, `theme`, `form`, `definitions`, `transcription`, `emoji`).
-   - Mandates globally unique, permanent canonical entry IDs in `{lang}_{level}_{theme_slug}_{sequence}` format.
-   - Prohibits legacy fields (such as "opposite" string or "imageUrl").
-
-2. **Grammar System & Course Taxonomy ([`CONTENT_ARCHITECTURE.md`](CONTENT_ARCHITECTURE.md)):**
-   - Details the dual-system grammar architecture: Machine-Readable JSON (`reference-grammar/`) and Human-Facing CEFR HTML Manuals (`manuals/`).
-   - Specifies the canonical bidirectional linkage protocol between JSON entries and HTML manuals.
-   - Outlines the 6 premium course track taxonomies (`general`, `spoken`, `professional`, `travelling`, `relocation`, `exam`).
-
-3. **Design Tokens & Styling Guidelines ([`docs/design-tokens.md`](docs/design-tokens.md)):**
-   - Details CSS custom properties defined in `css/cosy-tokens.css`.
-   - Defines the six premium track color signatures, base surface/ink palette, typography scales, spacing scales, border radiuses, and elevation shadows.
-   - Mandates that consumer repos link `css/cosy-tokens.css` via `raw.githubusercontent.com` pinned to a specific commit or release tag (never `main`).
+### Example Valid Direct CSS `<link>` Tag
+```html
+<link rel="stylesheet" href="https://raw.githubusercontent.com/cosylanguages/COSYlanguages/ba14a13d3c32e84f5c8ebbabd2d8b85c060d04a4/css/cosy-tokens.css">
+```
 
 ---
 
-## 📋 Local Development & How to Submit a Pull Request
+## 📋 How to Submit a Pull Request
 
-1. **Fork the Repository:** Create a fork of `COSYlanguages` on GitHub.
-2. **Create a Feature Branch:**
-   ```bash
-   git checkout -b feature/add-greek-a2-vocabulary
-   ```
-3. **Run Local Server:**
-   Serve the repository locally using any standard static HTTP server:
-   ```bash
-   npx serve .
-   ```
-   Or open `index.html` directly in your web browser.
-4. **Validate Data Integrity & Links:**
-   Run the project verification scripts to ensure no broken links or schema collisions:
-   ```bash
-   python3 project/scripts/verify_language_pages.py
-   python3 scripts/verify_index_and_ids.py
-   ```
-5. **Commit & Push:** Commit your changes with concise, descriptive commit messages and push to your fork.
-6. **Open a Pull Request:** Submit a Pull Request targeting the `main` branch of `COSYlanguages`.
+1. Fork the `COSYtools` repository.
+2. Create a feature branch (`git checkout -b feature/expand-fr-verbs`).
+3. Validate your changes locally in a browser.
+4. Ensure all JSON data files conform to valid JSON formatting.
+5. Commit your changes with clear, descriptive commit messages.
+6. Push to your fork and submit a Pull Request.

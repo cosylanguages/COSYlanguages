@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/cosylanguages/COSYlanguages/ba14a13d3c32e84f5c8ebbabd2d8b85c060d04a4/css/cosy-tokens.css">
     <link rel="stylesheet" href="../css/tokens.css">
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/components.css">
@@ -190,6 +191,11 @@
             <p class="hero-hub-subtext">
                 12 offline interactive tools for instant verb conjugations, noun genders, case declensions, and prepositional regimes with pattern-recognition color coding and game practice.
             </p>
+            <div class="passport-actions" style="margin-top: 1rem; display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap;">
+                <button id="export-passport-btn" class="fpill" style="background: var(--sage, #2d6a4f); color: white; border: none; padding: 8px 16px; font-weight: 700; cursor: pointer; border-radius: 99px;">📥 Export progress</button>
+                <button id="import-passport-btn" class="fpill" style="background: var(--warm-white, #fdfbf7); color: var(--sage-dark, #1c4d32); border: 1px solid var(--border-color, #e0dcd5); padding: 8px 16px; font-weight: 700; cursor: pointer; border-radius: 99px;">📤 Import progress</button>
+                <input type="file" id="passport-file-input" accept=".json" style="display: none;">
+            </div>
         </div>
       </div>
 
@@ -541,9 +547,91 @@
       </div>
     </div>
 
+    <script type="module">
+        import { exportPassport, importPassport, downloadPassport, loadPassportFromFile } from "https://raw.githubusercontent.com/cosylanguages/COSYlanguages/ba14a13d3c32e84f5c8ebbabd2d8b85c060d04a4/shared/js/passport.js";
+        window.COSYPassportModule = { exportPassport, importPassport, downloadPassport, loadPassportFromFile };
+    </script>
     <script>
         let currentLangFilter = 'all';
         let currentCatFilter = 'all';
+
+        function handlePassportExport() {
+            if (!window.COSYPassportModule) {
+                alert("Passport module is still loading. Please try again in a moment.");
+                return;
+            }
+            const { exportPassport, downloadPassport } = window.COSYPassportModule;
+            const progressEntries = [];
+
+            // Read all localStorage keys related to COSYtools
+            for (let i = 0; i < localStorage.length; i++) {
+                const key = localStorage.key(i);
+                if (key && (key.startsWith("cosy-") || key.includes("-progress") || key.includes("-streak") || key.includes("-goal"))) {
+                    let val = localStorage.getItem(key);
+                    try {
+                        val = JSON.parse(val);
+                    } catch (e) {
+                        // keep raw string if not JSON
+                    }
+                    progressEntries.push({
+                        source: "COSYtools",
+                        item: key,
+                        value: val
+                    });
+                }
+            }
+
+            const updatedPassport = exportPassport(null, {
+                source: "COSYtools",
+                progress: progressEntries
+            }, "en");
+
+            downloadPassport(updatedPassport, "cosy-passport.json");
+        }
+
+        function handlePassportImport(event) {
+            if (!window.COSYPassportModule) {
+                alert("Passport module is still loading. Please try again in a moment.");
+                return;
+            }
+            const { importPassport, loadPassportFromFile } = window.COSYPassportModule;
+            const file = event.target.files[0];
+            if (!file) return;
+
+            loadPassportFromFile(file).then(json => {
+                const result = importPassport(json, "COSYtools");
+                if (!result.valid) {
+                    alert("Invalid passport file: " + (result.error || "Unable to parse JSON"));
+                    return;
+                }
+
+                let updatedKeysCount = 0;
+                // Apply only entries with source "COSYtools"
+                for (const entry of result.progress) {
+                    if (entry && entry.source === "COSYtools" && entry.item) {
+                        const valStr = typeof entry.value === "object" ? JSON.stringify(entry.value) : String(entry.value);
+                        localStorage.setItem(entry.item, valStr);
+                        updatedKeysCount++;
+                    }
+                }
+
+                alert(`Passport imported successfully! ${updatedKeysCount} COSYtools progress entries restored.`);
+            }).catch(err => {
+                alert("Error reading passport file: " + err.message);
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const exportBtn = document.getElementById("export-passport-btn");
+            const importBtn = document.getElementById("import-passport-btn");
+            const fileInput = document.getElementById("passport-file-input");
+
+            if (exportBtn) exportBtn.addEventListener("click", handlePassportExport);
+            if (importBtn && fileInput) {
+                importBtn.addEventListener("click", () => fileInput.click());
+                fileInput.addEventListener("change", handlePassportImport);
+            }
+        });
 
         function filterEngines(type, val, btn) {
             if (type === 'lang') {

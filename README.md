@@ -32,6 +32,13 @@ No translation fallback. If the platform is in Greek, everything is in Greek. If
 ## Platform Status
 The multi-user system (student/teacher portals) has been deprecated in favor of a visitor-first, public-access learning platform. All resources, including practice hubs and events, are now accessible without an account.
 
+## COSY Passport (Progress Backup & Sync)
+
+COSYtools supports the unified, accountless **COSY Passport** format. Learners can easily backup, export, and restore their learning progress across all 12 reference engines (such as spaced-repetition streaks, SRS Leitner mastery levels, and daily goals) directly on the tools hub page:
+
+- **Export progress:** Click "📥 Export progress" on the reference engines hub to download your `cosy-passport.json` backup file.
+- **Import progress:** Click "📤 Import progress" and select a valid passport JSON file to restore your progress. Only entries with source `"COSYtools"` are applied locally, keeping data from other COSY ecosystem apps completely safe and intact.
+
 ## Ecosystem Taxonomy & Repositories
 
 COSYlanguages is organized as a distributed ecosystem of specialized sub-products, with this repository (`COSYlanguages`) serving as the primary hub, orchestrator, and textbook portal.
