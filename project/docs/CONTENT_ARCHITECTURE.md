@@ -75,24 +75,30 @@ This document serves as the master reference for all universal distinctions, cod
 Common categories used in data files:
 - `verbs`, `nouns`, `adjectives`, `determiners`, `pronouns`, `adverbs`, `prepositions`, `conjunctions`, `numerals`.
 
-## 5. Product & Sub-Product Taxonomy
+## 5. Product & Ecosystem Sub-Product Taxonomy
 
-This taxonomy outlines the definitive organization and owners of the COSYlanguages ecosystem, separating the Free Platform from Paid/Premium Products.
+This taxonomy outlines the organization of the COSYlanguages ecosystem. All resources operate as a visitor-first, public-access platform without mandatory accounts or paywalls.
 
-### 5.1 Free Platform (No Gate)
-*   **Path:** Root directory `/` (served via `cosylanguages.github.io`)
-*   **Target Audience:** Public visitors and autonomous self-study learners.
+### 5.1 Central Ecosystem Portal (`COSYlanguages`)
+*   **Path:** Root directory `/` (served via `cosylanguages.github.io/COSYlanguages/`)
+*   **Target Audience:** Public visitors, autonomous self-study learners, and structured course students.
 *   **Core Offerings:**
-    *   **Grammar Manuals:** High-contrast color-coded grammar references aligned with COSYlanguages Grammar Standards.
-    *   **Practice Hub:** Interactive vocabulary and syntax training engine.
-    *   **Vocabulary/Word Games:** 22 standalone solo games (Word Linker, Lucky Numbers, Action Hero, Battle of Wits, etc.).
-    *   **Placement Quiz:** Adaptive progressive CEFR-aligned assessment.
-    *   **Print Tools:** High-utility PDF card generators, zines, and box models.
+    *   **Interactive CEFR Web Textbooks (`manuals/`):** High-contrast color-coded grammar and vocabulary references aligned with COSYlanguages Grammar Standards.
+    *   **Curriculum-Integrated Courses (`curriculum/`, `apps/premium-courses/`):** CEFR-level syllabus progression across 6 progressive course tracks.
+    *   **Practice Hub & Engines (`practice/`):** Interactive vocabulary, grammar, speaking, and remediation drills.
+    *   **Placement Quiz (`placement-quiz.html`):** Adaptive progressive CEFR-aligned diagnostic assessment.
+    *   **Print Studio:** PDF card generators, zines, and box models (`print-*.html`).
 
-### 5.2 Paid Product: Courses (`apps/premium-courses/`)
-*   **Path:** `/courses/` (served via `courses.cosylanguages.com`)
-*   **Target Audience:** Syllabus-driven structured academies for progressive language learning.
-*   **Sub-Product / Track Taxonomy:**
+### 5.2 Companion Repositories & Relationship Model
+Ecosystem companion repositories host specialized standalone, accountless web-based applications:
+1. **[`COSYtools`](https://github.com/cosylanguages/COSYtools):** Standalone offline reference engines (12 micro-apps for verb conjugators, gender trainers, and prepositional regimes).
+2. **[`COSYworld`](https://github.com/cosylanguages/COSYworld):** Interactive 2D/3D direct immersion environments and Scene Match spaces.
+3. **[`COSYgames`](https://github.com/cosylanguages/COSYgames):** Standalone practice minigames hub and card decks.
+4. **[`COSYevents`](https://github.com/cosylanguages/COSYevents):** Standalone thematic speaking club decks and multimedia event night session guides.
+
+**Ecosystem Linkage Protocol:** While `COSYlanguages` hosts curriculum-integrated games, events, and practice tools directly tied to course tracks and CEFR levels, companion repositories host standalone accountless versions. All applications are connected seamlessly via standard URL query parameter handoffs ([`docs/url-handoff.md`](../../docs/url-handoff.md)) and the unified COSY Passport progress exchange format ([`docs/passport-schema.md`](../../docs/passport-schema.md)).
+
+### 5.3 Courses Sub-Product / Track Taxonomy (`curriculum/`, `apps/premium-courses/`)
 
 | Track ID | Label | Pedagogical Focus / Primary Themes | Accent Theme |
 |----------|-------|------------------------------------|--------------|
@@ -103,9 +109,9 @@ This taxonomy outlines the definitive organization and owners of the COSYlanguag
 | `relocation` | Relocation Course | Practical integration, renting flats, bureaucracy, building local social circles. | Warm Rust / Amber |
 | `exam` | Exam Preparation | Targeted preparation focusing on oral components of IELTS, DELF, DALF, etc. | Scholarly Plum |
 
-### 5.3 Paid Product: Events (`apps/premium-events/`)
-*   **Path:** `/events/` (served via `events.cosylanguages.com`)
-*   **Target Audience:** Highly interactive, conversational speaking clubs and multi-sensory immersive group events.
+### 5.4 Events & Speaking Clubs Architecture (`events/`, `apps/premium-events/`)
+*   **Path:** `/events/`
+*   **Target Audience:** Interactive, conversational speaking clubs and multi-sensory immersive group events.
 
 #### 5.3.1 Sub-brand Family: Thematic Speaking Clubs
 Conversational clubs designed around novelty, deep atmosphere, and community.

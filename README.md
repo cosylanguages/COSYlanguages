@@ -34,15 +34,15 @@ The multi-user system (student/teacher portals) has been deprecated in favor of 
 
 ## Ecosystem Taxonomy & Repositories
 
-COSYlanguages is organized as a distributed ecosystem of specialized sub-products, with this repository (`COSYlanguages`) serving as the primary hub, orchestrator, and textbook portal:
+COSYlanguages is organized as a distributed ecosystem of specialized sub-products, with this repository (`COSYlanguages`) serving as the primary hub, orchestrator, and textbook portal.
 
-### Active Decoupled Standalone Repositories
-1. **[COSYworld](https://github.com/cosylanguages/COSYworld):** Interactive 2D/3D visual environments, Scene Match games, and exploratory visual learning spaces.
-2. **[COSYtools](https://github.com/cosylanguages/COSYtools):** Standalone offline linguistic reference engines (12 micro-apps for verb conjugators, gender trainers, and prepositional regime tools across French, Italian, Russian, Greek, and English).
+### Companion Repositories
+1. **[COSYtools](https://github.com/cosylanguages/COSYtools):** Standalone offline linguistic reference engines (12 micro-apps for verb conjugators, gender trainers, and prepositional regime tools across French, Italian, Russian, Greek, and English).
+2. **[COSYworld](https://github.com/cosylanguages/COSYworld):** Interactive 2D/3D visual environments, Scene Match games, and exploratory visual learning spaces.
+3. **[COSYgames](https://github.com/cosylanguages/COSYgames):** Interactive practice minigames hub, card decks, and standalone vocabulary practice engines.
+4. **[COSYevents](https://github.com/cosylanguages/COSYevents):** Thematic speaking club session decks, multimedia event night guides, and group conversation materials.
 
-### Standalone Repositories Prepared for Copy-Paste Migration
-- **[`COSYevents/`](COSYevents/):** Pre-packaged, self-contained folder ready to be copied into [`https://github.com/cosylanguages/COSYevents`](https://github.com/cosylanguages/COSYevents) (includes thematic speaking clubs, multimedia event nights, assets, and shared platform core).
-- **[`COSYgames/`](COSYgames/):** Pre-packaged, self-contained folder ready to be copied into [`https://github.com/cosylanguages/COSYgames`](https://github.com/cosylanguages/COSYgames) (includes 22+ interactive minigames, scene matching engine, card decks, and shared platform core).
+**Ecosystem Relationship Model:** This repository (`COSYlanguages`) hosts curriculum-integrated games, events, and practice tools directly tied to course tracks and CEFR levels. Meanwhile, companion repositories (`COSYtools`, `COSYworld`, `COSYgames`, `COSYevents`) host standalone, accountless web-based versions. All applications are connected seamlessly via standard URL query parameter handoffs ([`docs/url-handoff.md`](docs/url-handoff.md)) and the unified COSY Passport progress exchange format ([`docs/passport-schema.md`](docs/passport-schema.md)).
 
 ### Future Extraction Candidates
 - **`COSYstudio`:** Pedagogical print studio, zine builder, boardgame generator (`apps/print-studio/` and `print-*.html`).
