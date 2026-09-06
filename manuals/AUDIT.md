@@ -89,3 +89,36 @@ Across all modern manuals, topic files follow a uniform 4-part pedagogical seque
 - **Manuals (`manuals/`)**: Offer explanatory lesson pages, grammar rules, native speaker mental models, and structured reading paths.
 - **Tools (`apps/` / `COSYtools`)**: Offer standalone, accountless reference lookup engines (e.g. `fr-conjugeur`, `it-reggenza`, `el-klisi-rimaton`, `en-verb-prep`).
 - **Recommendation for Follow-Up Work**: Link manual verb and grammar topic pages directly to corresponding `COSYtools` reference engines via explicit callout banners.
+
+---
+
+## Clarity Notes & Skyeng-Style Comparative Analysis
+
+Skyeng's language explanation methodology emphasizes **concise, example-first presentation, visual scannability, and minimal dense prose**. Below is an evaluation comparing representative existing manuals against these principles with concrete before/after suggestions for human review.
+
+### 1. English A1 Grammar Manual (`manuals/en/grammar/a1/topics/to-be.html`)
+- **Current State**:
+  - Contains ~720 words of text.
+  - Starts with introductory banners ("👀 What do you notice?", "★ Why this matters") followed by explanatory rule paragraphs before introducing full sentence examples in tabular form.
+- **Scannability / Dense Prose Assessment**: Moderate prose density. Explanations are broken up into card boxes, but the user must read through introductory meta-text before seeing concrete usage examples in context.
+- **Skyeng-Style Recommendation**:
+  - *Before*: Banner explaining abstract grammatical roles -> 150 words on pronoun matching -> Example table.
+  - *After*: Lead immediately with 2–3 visual, color-coded example sentences (*"I am a teacher. She is happy."*), followed by a 2-line summary formula box `[Subject + am/is/are]`, eliminating ~100 words of introductory meta-prose.
+
+### 2. French A2 Grammar Manual (`manuals/fr/grammar/a2/topics/passe-compose-avoir-etre.html`)
+- **Current State**:
+  - Contains ~520 words of text.
+  - Leads with a communication objective banner, summary rule, and table comparing *avoir* vs *être*, followed by the "Maison des 14 verbes" diagram/list and mnemonic callouts (*DR & MRS VANDERTRAMPP*).
+- **Scannability / Dense Prose Assessment**: Highly scannable. Bullet points, color-coded examples, and mnemonic boxes effectively reduce block prose.
+- **Skyeng-Style Recommendation**:
+  - *Before*: Outcome banner -> Summary paragraph -> 14-verb list -> Mnemonic callout.
+  - *After*: Convert the 14-verb list into a 2-column visual grid showing side-by-side contrast pairs (*"Elle est arrivée (état)"* vs *"Elle a mangé (action)"*) before explaining the underlying grammar rule.
+
+### 3. Russian A1 Grammar Manual (`manuals/ru/grammar/a1/topics/to-be.html`)
+- **Current State**:
+  - Contains ~780 words of text.
+  - Features substantial introductory prose explaining the zero-copula in present tense Russian ("быть") and comparing present zero-verb structures with past/future forms.
+- **Scannability / Dense Prose Assessment**: High prose density. Requires learners to read several paragraphs of linguistic context before seeing simple present tense examples.
+- **Skyeng-Style Recommendation**:
+  - *Before*: ~200 words of prose explaining zero-copula syntax -> Rule formula -> Examples.
+  - *After*: Lead with a 2-row side-by-side comparison card (*English: "I am a student" ➔ Russian: "Я студент" [No verb!]*), reducing preamble prose by 80% and making zero-copula syntax immediately intuitive.
