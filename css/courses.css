@@ -1,48 +1,49 @@
+@import url("cosy-tokens.css");
 
 /* Shared styles for Course pages */
 
 /* ─── Courses Restrained Credible Brand Identity ───────── */
 :root {
-    --course-accent: var(--sage, #416b49);
-    --course-accent-light: var(--sage-light, #e8f0e9);
-    --course-hero-bg: linear-gradient(135deg, var(--sage-deep, #233827), #1a2a1d);
+    --course-accent: var(--cosy-track-general, var(--sage, #416b49));
+    --course-accent-light: var(--cosy-track-general-light, var(--sage-light, #e8f0e9));
+    --course-hero-bg: linear-gradient(135deg, var(--cosy-track-general-deep, var(--sage-deep, #233827)), #1a2a1d);
 }
 
 /* Track Accent Overrides */
 body.theme-course-general {
-    --course-accent: var(--sage, #416b49);
-    --course-accent-light: var(--sage-light, #e8f0e9);
-    --course-hero-bg: linear-gradient(135deg, var(--sage-deep, #233827), #1a2a1d);
+    --course-accent: var(--cosy-track-general, var(--sage, #416b49));
+    --course-accent-light: var(--cosy-track-general-light, var(--sage-light, #e8f0e9));
+    --course-hero-bg: linear-gradient(135deg, var(--cosy-track-general-deep, var(--sage-deep, #233827)), #1a2a1d);
 }
 
 body.theme-course-spoken {
-    --course-accent: var(--coral, #B84318);
-    --course-accent-light: var(--coral-light, #faeee8);
-    --course-hero-bg: linear-gradient(135deg, var(--coral, #B84318), #8a3a1d);
+    --course-accent: var(--cosy-track-spoken, var(--coral, #B84318));
+    --course-accent-light: var(--cosy-track-spoken-light, var(--coral-light, #faeee8));
+    --course-hero-bg: linear-gradient(135deg, var(--cosy-track-spoken, var(--coral, #B84318)), #8a3a1d);
 }
 
 body.theme-course-exam {
-    --course-accent: var(--plum, #7a5c3a);
-    --course-accent-light: var(--plum-light, #f5ede0);
-    --course-hero-bg: linear-gradient(135deg, var(--plum, #7a5c3a), #4a3a2a);
+    --course-accent: var(--cosy-track-exam, var(--plum, #7a5c3a));
+    --course-accent-light: var(--cosy-track-exam-light, var(--plum-light, #f5ede0));
+    --course-hero-bg: linear-gradient(135deg, var(--cosy-track-exam, var(--plum, #7a5c3a)), #4a3a2a);
 }
 
 body.theme-course-travelling {
-    --course-accent: var(--green, #4a6b50);
-    --course-accent-light: var(--green-light, #e5f4ec);
-    --course-hero-bg: linear-gradient(135deg, var(--green, #4a6b50), #2a4a33);
+    --course-accent: var(--cosy-track-travelling, var(--green, #4a6b50));
+    --course-accent-light: var(--cosy-track-travelling-light, var(--green-light, #e5f4ec));
+    --course-hero-bg: linear-gradient(135deg, var(--cosy-track-travelling, var(--green, #4a6b50)), #2a4a33);
 }
 
 body.theme-course-professional {
-    --course-accent: var(--navy, #1e2f6b);
-    --course-accent-light: var(--navy-light, #e8ecf5);
-    --course-hero-bg: linear-gradient(135deg, var(--navy, #1e2f6b), #0a112b);
+    --course-accent: var(--cosy-track-professional, var(--navy, #1e2f6b));
+    --course-accent-light: var(--cosy-track-professional-light, var(--navy-light, #e8ecf5));
+    --course-hero-bg: linear-gradient(135deg, var(--cosy-track-professional, var(--navy, #1e2f6b)), #0a112b);
 }
 
 body.theme-course-relocation {
-    --course-accent: #d66161;
-    --course-accent-light: #fcebeb;
-    --course-hero-bg: linear-gradient(135deg, #d66161, #8a2a2a);
+    --course-accent: var(--cosy-track-relocation, #d66161);
+    --course-accent-light: var(--cosy-track-relocation-light, #fcebeb);
+    --course-hero-bg: linear-gradient(135deg, var(--cosy-track-relocation, #d66161), #8a2a2a);
 }
 
 .course-page {
