@@ -31,6 +31,38 @@
         }
         selectedLang = val;
         localStorage.setItem('cosy_practice_last_lang', selectedLang);
+        updateHandoffLinks();
+    }
+
+    function updateHandoffLinks() {
+        const levelSelect = document.getElementById('level-filter');
+        const themeSelect = document.getElementById('theme-filter');
+
+        const currentLang = selectedLang || 'en';
+        const currentLevel = (levelSelect && levelSelect.value) ? levelSelect.value : 'all';
+        const currentTheme = (themeSelect && themeSelect.value) ? themeSelect.value : 'all';
+
+        const links = document.querySelectorAll('a[href*="COSYtools"], a[href*="COSYgames"], .cosy-tools-link, .cosy-games-link');
+        links.forEach(a => {
+            let baseUrl = a.getAttribute('data-base-href');
+            if (!baseUrl) {
+                baseUrl = a.getAttribute('href');
+                a.setAttribute('data-base-href', baseUrl);
+            }
+            baseUrl = baseUrl.split('?')[0];
+
+            const queryParams = new URLSearchParams();
+            queryParams.set('lang', currentLang);
+            if (currentLevel && currentLevel !== 'all') {
+                queryParams.set('level', currentLevel);
+            }
+            if (currentTheme && currentTheme !== 'all') {
+                queryParams.set('topic', currentTheme);
+            }
+
+            const queryString = queryParams.toString();
+            a.href = queryString ? `${baseUrl}?${queryString}` : baseUrl;
+        });
     }
 
     function selectCat(el) {
@@ -66,6 +98,7 @@
             });
         }
         updateSubThemes();
+        updateHandoffLinks();
     }
 
     function updateSubThemes() {
@@ -476,6 +509,7 @@
 
             levelSelect.addEventListener('change', (e) => {
                 localStorage.setItem('cosy_practice_last_level', e.target.value);
+                updateHandoffLinks();
             });
         }
 
@@ -483,6 +517,7 @@
         document.getElementById('spin-btn')?.addEventListener('click', spinWheel);
         updateThemes();
         generateDailyChallenge();
+        updateHandoffLinks();
     }
 
     // Expose progress rendering globally
