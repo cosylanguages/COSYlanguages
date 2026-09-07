@@ -1,0 +1,11 @@
+{
+  "infinitive": "outdo",
+  "language": "en",
+  "forms": [
+    "outdid",
+    "outdone"
+  ],
+  "patternGroup": "did_done_family",
+  "patternDescription": "Base ends in -o, past participle ends in -one (suppletive past).",
+  "rhymeFamily": "do-outdo-undo-overgo"
+}

@@ -1,0 +1,11 @@
+{
+  "infinitive": "build",
+  "language": "en",
+  "forms": [
+    "built",
+    "built"
+  ],
+  "patternGroup": "base_past_past",
+  "patternDescription": "A-B-B pattern: past simple equals the past participle.",
+  "rhymeFamily": "find-hold-bind"
+}

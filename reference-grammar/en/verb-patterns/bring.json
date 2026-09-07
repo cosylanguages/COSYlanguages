@@ -1,0 +1,11 @@
+{
+  "infinitive": "bring",
+  "language": "en",
+  "forms": [
+    "brought",
+    "brought"
+  ],
+  "patternGroup": "ought_aught",
+  "patternDescription": "Past and past participle both end in -ought/-aught.",
+  "rhymeFamily": "think-bring-buy-teach"
+}

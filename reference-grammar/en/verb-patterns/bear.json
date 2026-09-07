@@ -1,0 +1,11 @@
+{
+  "infinitive": "bear",
+  "language": "en",
+  "forms": [
+    "bore",
+    "borne"
+  ],
+  "patternGroup": "ore_orne",
+  "patternDescription": "Past ends in -ore, past participle ends in -orne.",
+  "rhymeFamily": "bear"
+}

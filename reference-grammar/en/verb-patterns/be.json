@@ -1,0 +1,11 @@
+{
+  "infinitive": "be",
+  "language": "en",
+  "forms": [
+    "was/were",
+    "been"
+  ],
+  "patternGroup": "totally_irregular",
+  "patternDescription": "Suppletive or no recoverable vowel pattern.",
+  "rhymeFamily": "be-go-do"
+}

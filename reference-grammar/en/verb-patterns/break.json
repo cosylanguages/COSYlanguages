@@ -1,0 +1,11 @@
+{
+  "infinitive": "break",
+  "language": "en",
+  "forms": [
+    "broke",
+    "broken"
+  ],
+  "patternGroup": "ablaut_plus_en",
+  "patternDescription": "Vowel change in past plus -en past participle.",
+  "rhymeFamily": "speak-write-break-steal"
+}

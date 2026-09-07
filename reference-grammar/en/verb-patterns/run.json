@@ -1,0 +1,11 @@
+{
+  "infinitive": "run",
+  "language": "en",
+  "forms": [
+    "ran",
+    "run"
+  ],
+  "patternGroup": "base_past_base",
+  "patternDescription": "A-B-A pattern: past participle equals the base form.",
+  "rhymeFamily": "run-sit-win"
+}

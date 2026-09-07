@@ -1,0 +1,11 @@
+{
+  "infinitive": "become",
+  "language": "en",
+  "forms": [
+    "became",
+    "become"
+  ],
+  "patternGroup": "a_ou_a_come_family",
+  "patternDescription": "Vowel pattern a -> ou -> a; base and participle are identical.",
+  "rhymeFamily": "come-become-overcome"
+}
