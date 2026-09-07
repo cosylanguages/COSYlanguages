@@ -518,6 +518,7 @@
             <div class="results-actions">
                 <a href="index.html" class="btn btn-primary" id="btn-results-home">Go to Homepage 🏡</a>
                 <a href="practice/index.html" class="btn btn-secondary" id="btn-results-practice">Try Free Practice 💡</a>
+                <a href="#" class="btn btn-secondary" id="btn-results-curriculum">View Your Curriculum Plan 📋</a>
                 <button onclick="resetQuiz()" class="btn btn-secondary" id="btn-results-retake">Retake Quiz 🔄</button>
             </div>
         </div>
@@ -529,27 +530,32 @@
         en: {
             home: "Go to Homepage 🏡",
             practice: "Try Free Practice 💡",
-            retake: "Retake Quiz 🔄"
+            retake: "Retake Quiz 🔄",
+            curriculum: "View Your Curriculum Plan 📋"
         },
         fr: {
             home: "Aller à l'accueil 🏡",
             practice: "Essayer l'entraînement gratuit 💡",
-            retake: "Refaire le test 🔄"
+            retake: "Refaire le test 🔄",
+            curriculum: "Voir votre programme 📋"
         },
         it: {
             home: "Vai alla Homepage 🏡",
             practice: "Prova la pratica gratuita 💡",
-            retake: "Rifai il quiz 🔄"
+            retake: "Rifai il quiz 🔄",
+            curriculum: "Vedi il tuo piano di studio 📋"
         },
         ru: {
             home: "На главную 🏡",
             practice: "Бесплатная практика 💡",
-            retake: "Пройти еще раз 🔄"
+            retake: "Пройти еще раз 🔄",
+            curriculum: "Открыть учебный план 📋"
         },
         el: {
             home: "Αρχική Σελίδα 🏡",
             practice: "Δωρεάν Εξάσκηση 💡",
-            retake: "Επανάληψη Τεστ 🔄"
+            retake: "Επανάληψη Τεστ 🔄",
+            curriculum: "Δείτε το πρόγραμμα σπουδών 📋"
         }
     };
 
@@ -1054,6 +1060,22 @@
         document.getElementById('btn-results-home').innerHTML = btns.home;
         document.getElementById('btn-results-practice').innerHTML = btns.practice;
         document.getElementById('btn-results-retake').innerHTML = btns.retake;
+
+        // Deep-link the recommended course+level into the curriculum (gap-analysis A2).
+        // Maps the calibrated CEFR level to a curriculum file the learner can open.
+        // Falls back to the language hub if that exact level file doesn't exist yet.
+        const LEVEL_TO_FILE = { a1: 'A1', a2: 'A2', b1: 'B1', b2: 'B2', c1: 'C1', c2: 'C2' };
+        const levelFile = LEVEL_TO_FILE[finalLevelCode] || 'A1';
+        const curriculumHref = `curriculum/${selectedLang}/general/${levelFile}.json`;
+        const fallbackHref = `languages/${selectedLang}.html`;
+        const curriculumBtn = document.getElementById('btn-results-curriculum');
+        if (curriculumBtn) {
+            curriculumBtn.innerHTML = `${btns.curriculum} (${finalLevelCode.toUpperCase()})`;
+            curriculumBtn.href = fallbackHref; // safe default while we check
+            fetch(curriculumHref, { method: 'HEAD' })
+                .then(r => { if (r.ok) curriculumBtn.href = curriculumHref; })
+                .catch(() => { /* keep fallback */ });
+        }
 
         // Custom speaking gap / balanced communicative warning block
         let gapHtml = '';
