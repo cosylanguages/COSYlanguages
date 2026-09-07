@@ -1,0 +1,11 @@
+{
+  "infinitive": "saw",
+  "language": "en",
+  "forms": [
+    "sawed",
+    "sawn"
+  ],
+  "patternGroup": "regular_past_n_participle",
+  "patternDescription": "Regular -ed past form with an irregular -wn past participle.",
+  "rhymeFamily": "saw-sew-sow-hew"
+}

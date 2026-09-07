@@ -1,0 +1,11 @@
+{
+  "infinitive": "fly",
+  "language": "en",
+  "forms": [
+    "flew",
+    "flown"
+  ],
+  "patternGroup": "ew_own",
+  "patternDescription": "Past ends in -ew, past participle ends in -own.",
+  "rhymeFamily": "blow-grow-throw-fly"
+}

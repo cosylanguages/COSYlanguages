@@ -1,0 +1,11 @@
+{
+  "infinitive": "wear",
+  "language": "en",
+  "forms": [
+    "wore",
+    "worn"
+  ],
+  "patternGroup": "ore_orn_family",
+  "patternDescription": "Past ends in -ore, past participle ends in -orn.",
+  "rhymeFamily": "wear-swear-shear"
+}

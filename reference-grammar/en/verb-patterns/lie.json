@@ -1,0 +1,11 @@
+{
+  "infinitive": "lie",
+  "language": "en",
+  "forms": [
+    "lay",
+    "lain"
+  ],
+  "patternGroup": "other",
+  "patternDescription": "Does not match a known subgroup.",
+  "rhymeFamily": "lie-slay-dive"
+}

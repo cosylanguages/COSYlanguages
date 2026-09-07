@@ -1,0 +1,11 @@
+{
+  "infinitive": "begin",
+  "language": "en",
+  "forms": [
+    "began",
+    "begun"
+  ],
+  "patternGroup": "i_a_u_ablaut",
+  "patternDescription": "Vowel alternation i -> a -> u in past simple and past participle.",
+  "rhymeFamily": "sing-ring-sink-drink"
+}
