@@ -93,3 +93,38 @@ End major milestones by celebrating exactly what skills have been unlocked (e.g.
 - `🧩` Language Pattern (Signature)
 - `🇷🇺` Language Rational / Why does Russian do this?
 - `🎉` Progress Celebration
+
+---
+
+## 4. CELTA Lesson-Stage Alignment (Phase 4 Standard)
+
+The 14-step page rhythm (Section 1, Principle 2) is the **authoring** rhythm — it tells a writer how to lay out a topic page. The CELTA lesson-stage model is the **pedagogical** rhythm — it tells a teacher how to run the lesson. They are complementary, not competing. Every topic page should be **stageable**: its 14 authoring steps must map cleanly onto the 6 CELTA stages so the same page serves both self-study readers and classroom teachers.
+
+### The 6 CELTA Stages
+
+1. **Lead-in / Context** — engage schema, introduce the target item in a real context.
+2. **Meaning Check (CCQs)** — verify understanding of meaning with concept checking questions (yes/no or short factual), never translation.
+3. **Form** — structural formulas, tables, conjugation patterns ("Think like a native speaker").
+4. **Pronunciation** — stress, weak forms, liaison, intonation.
+5. **Controlled → Freer Practice** — accuracy-first drills moving toward fluency.
+6. **Production & Feedback** — communicative use + delayed error correction.
+
+### How the 14 Steps Map onto the 6 Stages
+
+| CELTA Stage | Authoring steps (Section 1) |
+|:---|:---|
+| 1. Lead-in / Context | 1 Vocabulary Theme, 2 Grammar Title, 3 One-Line Summary, 4 Why it matters, 5 Main Visual, 6 Colour Example |
+| 2. Meaning Check (CCQs) | 7 Guided Observation (👀 Notice) |
+| 3. Form | 8 Think like [Language], 9 Language Signature / Why does [Language] do this? |
+| 4. Pronunciation | (add a pronunciation note block where relevant — see `manuals/_TEMPLATE.md` Stage 4) |
+| 5. Controlled → Freer Practice | 10 Common Mistakes (❌/✅), 11 Memory Trick, 12 Connects to... |
+| 6. Production & Feedback | 13 Can you already use this?, 14 Progress Celebration |
+
+### Canonical Implementation
+
+- **Human-facing HTML**: every topic page in `manuals/{lang}/grammar/{level}/topics/*.html` follows the 6-stage markup blueprint in `manuals/_TEMPLATE.md`, which bakes in a standardized `💡 Check your understanding (CCQs)` block (Stage 2).
+- **Machine-readable JSON**: every lesson unit is structured as `schema/lesson-stage.schema.json` data under `reference-grammar/{lang}/lessons/*.json`. The `meaningCheck` array holds inline CCQ objects (`schema/ccq.schema.json`), and `controlledPractice` / `freerPractice` / `production` link out to the COSY ecosystem (`COSYtools`, `COSYgames`, `COSYevents`, `COSYworld`).
+- **Validation**: `scripts/validate-schema.js` validates all live lesson-stage and CCQ data files; `scripts/build_unified_index.py` cross-references them into `data/index/{lang}_index.json`.
+
+### Authoring Rule
+When adding or editing a topic, satisfy **both** rhythms: lay the page out using the 14 authoring steps, and make sure each of the 6 CELTA stages is explicitly present and labelled. The 6-stage structure is the contract a teacher can rely on; the 14 steps are how you fill it in beautifully.
