@@ -1,0 +1,54 @@
+{
+  "unitId": "EN-A1-TO-BE-01",
+  "leadIn": "Show photos of different people (a doctor, two students, a tired traveller). Ask learners to say who these people are. The target structure 'to be' emerges naturally from describing identity, origin, and state.",
+  "meaningCheck": [
+    {
+      "targetItem": "is",
+      "language": "en",
+      "ccq": "Is she a doctor now?",
+      "answer": "Yes"
+    },
+    {
+      "targetItem": "is",
+      "language": "en",
+      "ccq": "Am I talking about one person or many people?",
+      "answer": "One person"
+    },
+    {
+      "targetItem": "are",
+      "language": "en",
+      "ccq": "Are they students?",
+      "answer": "Yes"
+    },
+    {
+      "targetItem": "are",
+      "language": "en",
+      "ccq": "Is this about one person or many people?",
+      "answer": "Many people"
+    },
+    {
+      "targetItem": "am",
+      "language": "en",
+      "ccq": "Am I talking about myself?",
+      "answer": "Yes"
+    },
+    {
+      "targetItem": "am",
+      "language": "en",
+      "ccq": "Is this about now or the past?",
+      "answer": "Now"
+    }
+  ],
+  "form": "Subject + am / is / are (+ complement). 'am' with I; 'is' with he / she / it; 'are' with you / we / they.",
+  "pronunciationDrill": "Drill the weak/contracted forms: /əm/ (I'm), /ɪz/ (he's, she's), /ə(r)/ (they're, we're). Stress falls on the complement, not the auxiliary: 'She's a DOCtor.'",
+  "controlledPractice": [
+    "practice/index.html?lang=en&cat=Grammar&level=starter&theme=to-be"
+  ],
+  "freerPractice": [
+    "COSYgames/hot-seat"
+  ],
+  "production": [
+    "COSYevents/speaking-clubs/introductions"
+  ],
+  "feedbackNotes": "Monitor for subject–verb agreement errors ('he are', 'they is'). Delayed correction: board the most frequent agreement mistakes and elicit the correct form. Watch for full-form overuse where contractions are natural ('I am tired' vs natural 'I'm tired')."
+}

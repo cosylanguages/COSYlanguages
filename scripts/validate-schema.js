@@ -104,8 +104,94 @@ if (fs.existsSync(readmePath)) {
   }
 }
 
-// 3. Scan for any future target JSON files if present in schema-linked data directories
-// Currently no existing content files are modified, but if content JSON files exist in future, validate them.
+// 3. Scan live schema-linked data directories for real content files.
+//    Conventions:
+//      reference-grammar/<lang>/lessons/*.json      -> lesson-stage.schema.json
+//      reference-grammar/<lang>/ccq/*.json          -> ccq.schema.json
+//      reference-grammar/<lang>/verb-patterns/*.json -> verb-pattern.schema.json
+//    Files are matched by data shape, not path alone, so a lesson-stage
+//    file with inline CCQs validates both the outer unit and each inline CCQ.
+function walkDir(dir) {
+  const results = [];
+  if (!fs.existsSync(dir)) return results;
+  for (const entry of fs.readdirSync(dir)) {
+    const full = path.join(dir, entry);
+    const stat = fs.statSync(full);
+    if (stat.isDirectory()) {
+      results.push(...walkDir(full));
+    } else if (entry.endsWith('.json')) {
+      results.push(full);
+    }
+  }
+  return results;
+}
+
+const lessonStageValidator = ajv.getSchema('lesson-stage.schema.json');
+const ccqValidator = ajv.getSchema('ccq.schema.json');
+const verbPatternValidator = ajv.getSchema('verb-pattern.schema.json');
+
+let scanned = 0;
+for (const dataDir of [path.join(ROOT_DIR, 'reference-grammar')]) {
+  const jsonFiles = walkDir(dataDir).filter((f) => {
+    const parts = f.split(path.sep);
+    return parts.includes('lessons') || parts.includes('ccq') || parts.includes('verb-patterns');
+  });
+  for (const file of jsonFiles) {
+    const rel = path.relative(ROOT_DIR, file);
+    let parsed;
+    try {
+      parsed = JSON.parse(fs.readFileSync(file, 'utf8'));
+    } catch (e) {
+      console.error(`✗ ${rel}: failed to parse JSON: ${e.message}`);
+      hasErrors = true;
+      continue;
+    }
+    scanned++;
+    if (parsed.unitId !== undefined) {
+      if (lessonStageValidator && !lessonStageValidator(parsed)) {
+        console.error(`✗ ${rel}: failed lesson-stage.schema.json`);
+        console.error(lessonStageValidator.errors);
+        hasErrors = true;
+      } else {
+        console.log(`✓ ${rel}: validated against lesson-stage.schema.json`);
+      }
+      const meaningChecks = Array.isArray(parsed.meaningCheck) ? parsed.meaningCheck : [];
+      meaningChecks.forEach((mc, i) => {
+        if (mc && typeof mc === 'object' && mc.targetItem !== undefined) {
+          if (ccqValidator && !ccqValidator(mc)) {
+            console.error(`✗ ${rel}: inline meaningCheck[${i}] failed ccq.schema.json`);
+            console.error(ccqValidator.errors);
+            hasErrors = true;
+          }
+        }
+      });
+    } else if (parsed.targetItem !== undefined) {
+      if (ccqValidator && !ccqValidator(parsed)) {
+        console.error(`✗ ${rel}: failed ccq.schema.json`);
+        console.error(ccqValidator.errors);
+        hasErrors = true;
+      } else {
+        console.log(`✓ ${rel}: validated against ccq.schema.json`);
+      }
+    } else if (parsed.infinitive !== undefined) {
+      if (verbPatternValidator && !verbPatternValidator(parsed)) {
+        console.error(`✗ ${rel}: failed verb-pattern.schema.json`);
+        console.error(verbPatternValidator.errors);
+        hasErrors = true;
+      } else {
+        console.log(`✓ ${rel}: validated against verb-pattern.schema.json`);
+      }
+    } else {
+      console.warn(`! ${rel}: did not match a known schema type, skipped`);
+    }
+  }
+}
+
+if (scanned > 0) {
+  console.log(`Scanned ${scanned} live schema-linked data file(s).`);
+} else {
+  console.log('No live schema-linked data files found yet (conventions: reference-grammar/<lang>/lessons, /ccq, /verb-patterns).');
+}
 
 if (hasErrors) {
   console.error('\nSchema validation failed.');
