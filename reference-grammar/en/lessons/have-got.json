@@ -1,0 +1,42 @@
+{
+  "unitId": "EN-A1-HAVE-GOT-01",
+  "leadIn": "Show pictures of people holding or owning things — a girl with a dog, a boy with a new bike, a family with a big house. Ask learners what these people have. The target structure 'have got' emerges from talking about possession, relationships, and physical attributes.",
+  "meaningCheck": [
+    {
+      "targetItem": "has got",
+      "language": "en",
+      "ccq": "Does he own a bike now?",
+      "answer": "Yes"
+    },
+    {
+      "targetItem": "has got",
+      "language": "en",
+      "ccq": "Is this about one person or many people?",
+      "answer": "One person"
+    },
+    {
+      "targetItem": "have got",
+      "language": "en",
+      "ccq": "Do they own the house?",
+      "answer": "Yes"
+    },
+    {
+      "targetItem": "have got",
+      "language": "en",
+      "ccq": "Is this about now or the past?",
+      "answer": "Now"
+    }
+  ],
+  "form": "Subject + have/has got (+ noun). 'have got' with I/you/we/they; 'has got' with he/she/it. Negative: haven't/hasn't got. Question: Have/Has + subject + got?",
+  "pronunciationDrill": "Drill the weak form of 'have' /həv/ and the contraction 'I've got' /aɪv ɡɒt/. The 't' in 'got' is often unreleased in connected speech: /ɡɒt̚/. Stress the possessed noun: 'She's got a new BIKE.'",
+  "controlledPractice": [
+    "practice/index.html?lang=en&cat=Grammar&level=starter&theme=have-got"
+  ],
+  "freerPractice": [
+    "COSYgames/object_quest"
+  ],
+  "production": [
+    "COSYevents/speaking-clubs/introductions"
+  ],
+  "feedbackNotes": "Note the British vs American distinction: 'have got' (possession, mainly UK) vs 'have' (possession, US). Monitor for 'he have got' (✗) → 'he has got' (✓). Don't confuse possession 'have got' with present perfect 'have got (to do something)' = must."
+}
