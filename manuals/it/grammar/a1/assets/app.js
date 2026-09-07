@@ -1,25 +1,35 @@
-// COSYlanguages A0-A1 Grammar Interactive App JS
+// COSYlanguages Monolingual Grammar Manual Interactivity Engine
 document.addEventListener('DOMContentLoaded', () => {
-  document.querySelectorAll('.quiz-option').forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      const isCorrect = btn.dataset.correct === 'true';
-      const parent = btn.closest('.quiz-panel');
-      parent.querySelectorAll('.quiz-option').forEach(b => {
-        b.style.pointerEvents = 'none';
-        if (b.dataset.correct === 'true') {
-          b.style.background = '#eaf6f1';
-          b.style.borderColor = '#1c9483';
-          b.style.color = '#0f5c50';
-        } else {
-          b.style.opacity = '0.6';
-        }
+  document.querySelectorAll('.mflip').forEach(card => {
+    card.addEventListener('click', () => card.classList.toggle('revealed'));
+  });
+
+  document.querySelectorAll('.quiz-panel').forEach(panel => {
+    const quizData = JSON.parse(panel.dataset.quiz || '[]');
+
+    panel.querySelectorAll('.qitem').forEach((qitem, qidx) => {
+      const opts = qitem.querySelectorAll('.qopt');
+      const explain = qitem.querySelector('.qexplain');
+      opts.forEach((opt, oidx) => {
+        opt.addEventListener('click', () => {
+          opts.forEach(o => o.classList.remove('correct', 'wrong'));
+          if (oidx === quizData[qidx].correct) {
+            opt.classList.add('correct');
+          } else {
+            opt.classList.add('wrong');
+            opts[quizData[qidx].correct].classList.add('correct');
+          }
+          if (explain) explain.style.display = 'block';
+        });
       });
-      if (!isCorrect) {
-        btn.style.background = '#fdf0f0';
-        btn.style.borderColor = '#e55353';
-        btn.style.color = '#9c1c1c';
-        btn.style.opacity = '1';
-      }
     });
+
+    const resetBtn = panel.querySelector('.quiz-reset');
+    if (resetBtn) {
+      resetBtn.addEventListener('click', () => {
+        panel.querySelectorAll('.qopt').forEach(o => o.classList.remove('correct', 'wrong'));
+        panel.querySelectorAll('.qexplain').forEach(e => e.style.display = 'none');
+      });
+    }
   });
 });
