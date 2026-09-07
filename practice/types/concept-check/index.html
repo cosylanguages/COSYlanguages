@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concept Check (CCQ) Practice — COSYlanguages</title>
+    <meta name="description" content="Interactive concept checking questions (CCQs) that verify your understanding of meaning — no translation, just yes/no and short factual checks.">
+    <link rel="icon" href="../../../images/logos/cosylanguages.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:ital,wght@0;600;700;1;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../../css/tokens.css">
+    <link rel="stylesheet" href="../../../css/base.css">
+    <link rel="stylesheet" href="../../../css/components.css">
+    <link rel="stylesheet" href="concept-check.css">
+</head>
+<body class="practice-page-new">
+    <a href="#main-content" class="skip-link">Skip to Content</a>
+    <main id="main-content" class="ccq-app">
+        <header class="ccq-header">
+            <a href="../../index.html" class="ccq-back">← Back to Practice</a>
+            <h1>💡 Concept Check Practice</h1>
+            <p class="ccq-subtitle" id="ccq-unit-label">Loading lesson…</p>
+        </header>
+
+        <!-- Lead-in / context -->
+        <section class="box ccq-lead-in" id="ccq-lead-in" hidden>
+            <h3>👀 Context &amp; Lead-in</h3>
+            <p id="ccq-lead-in-text"></p>
+        </section>
+
+        <!-- CCQ deck -->
+        <section id="ccq-deck" class="ccq-deck" aria-live="polite"></section>
+
+        <!-- Progress -->
+        <footer class="ccq-progress">
+            <span id="ccq-score">Score: 0 / 0</span>
+            <a href="#" id="ccq-restart" class="btn btn-secondary">Restart 🔄</a>
+        </footer>
+
+        <p class="ccq-error" id="ccq-error" hidden></p>
+    </main>
+
+    <script src="concept-check.js"></script>
+</body>
+</html>
