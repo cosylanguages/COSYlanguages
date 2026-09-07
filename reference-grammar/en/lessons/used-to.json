@@ -1,0 +1,25 @@
+{
+  "unitId": "EN-B1-PAST-HABITS-01",
+  "leadIn": "Show two photos of the same street — one from 1990, one from today. Ask learners what people did there in the past and whether they still do it now. The target structure 'used to' emerges from contrasting past routine with present change.",
+  "meaningCheck": [
+    {
+      "targetItem": "used to play",
+      "language": "en",
+      "ccq": "Did I play chess regularly in the past?",
+      "answer": "Yes"
+    },
+    "used-to-past-now"
+  ],
+  "form": "Subject + used to + infinitive (without 'to'). Negative: didn't use to + infinitive. Question: Did + subject + use to + infinitive? Note: the 'd' is dropped in negative and question forms.",
+  "pronunciationDrill": "Drill the weak form /ˈjuːst tə/ — the 'used' is pronounced with a /t/ not /ˈd/. Contrast with the past of 'use' (/ˈjuːzd/) which means 'utilised'. Stress the main verb: 'I used to PLAY chess.'",
+  "controlledPractice": [
+    "practice/index.html?lang=en&cat=Grammar&level=intermediate&theme=past-habits"
+  ],
+  "freerPractice": [
+    "COSYgames/story-chain"
+  ],
+  "production": [
+    "COSYevents/speaking-clubs/childhood-stories"
+  ],
+  "feedbackNotes": "Monitor for the spelling/pronunciation trap: 'didn't used to' (✗) vs 'didn't use to' (✓). Also watch for overuse of 'used to' for single past events — it only describes repeated past habits/states, not one-off actions."
+}
