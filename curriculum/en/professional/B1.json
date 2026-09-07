@@ -492,6 +492,173 @@
           "teacher_notes": "code: \"EN-PRO-B1-024\"\ncando: \"Can discuss job performance, set future professional goals, and participate in annual reviews.\"\ndomain_hints: \"Education: Teacher evaluations; Legal: Associate reviews; Medical: Clinical appraisals; IT: Peer code reviews; Business: Annual appraisals; Manual Trades: Safety reviews; Crafts: Exhibition feedback.\"",
           "recycled": "Past Simple vs Present Perfect for discussing career history, Strength"
         }
+      ],
+      "vertical": "career"
+    },
+    {
+      "unit": 7,
+      "vertical": "it",
+      "title": "IT: Support, Tickets & Technical Walkthroughs",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "IT Support & Helpdesk Language",
+          "grammar": [
+            "Present Simple for routine tech tasks",
+            "Modals for troubleshooting steps (should, might)"
+          ],
+          "vocabulary": [
+            "Ticket",
+            "Issue",
+            "Troubleshoot",
+            "Restart",
+            "Update",
+            "Password"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B1-IT-001\"\ncando: \"Can log and describe routine IT support issues and troubleshooting steps.\"\ndomain_hints: \"Education: LMS access; Medical: EHR login; Business: SaaS accounts; Crafts: design software.\"",
+          "recycled": "Formal request phrasing, Present Simple"
+        },
+        {
+          "lesson": 2,
+          "type": "gv",
+          "title": "Explaining Software & System Issues",
+          "grammar": [
+            "Passive voice for system errors (The server was restarted)",
+            "Cause/effect connectors (because, due to, so)"
+          ],
+          "vocabulary": [
+            "Error",
+            "Crash",
+            "Recover",
+            "Backup",
+            "Restart",
+            "Log"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B1-IT-002\"\ncando: \"Can explain a software problem, its cause, and the recovery steps taken.\"\ndomain_hints: \"Education: Platform outage; Legal: Case system; Business: App downtime.\"",
+          "recycled": "Passive voice, Cause/effect connectors"
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Walkthroughs: Guiding Users Through Steps",
+          "grammar": [
+            "Imperatives and sequencers for instructions (First, click, then select)",
+            "Modal verbs for polite guidance (you may, you can)"
+          ],
+          "vocabulary": [
+            "Click",
+            "Select",
+            "Menu",
+            "Settings",
+            "Confirm",
+            "Apply"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B1-IT-003\"\ncando: \"Can guide a non-technical user step-by-step through a simple software procedure.\"\ndomain_hints: \"Education: Guiding students to submit work; Business: Onboarding clients.\"",
+          "recycled": "Imperatives, Sequencers"
+        },
+        {
+          "lesson": 4,
+          "type": "gv",
+          "title": "IT Documentation & Change Notes",
+          "grammar": [
+            "Present Perfect for recent changes (The system has been updated)",
+            "Bullet-point structures for release notes"
+          ],
+          "vocabulary": [
+            "Release",
+            "Patch",
+            "Version",
+            "Deploy",
+            "Note",
+            "Changelog"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B1-IT-004\"\ncando: \"Can write concise change notes and release documentation for an IT update.\"\ndomain_hints: \"Education: LMS update; Medical: System upgrade; Business: Feature rollout.\"",
+          "recycled": "Present Perfect, Bullet-point structures"
+        }
+      ]
+    },
+    {
+      "unit": 8,
+      "vertical": "marketing",
+      "title": "Marketing: Campaigns, Content & Customer Outreach",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Marketing Campaign Vocabulary & Brand Messaging",
+          "grammar": [
+            "Present Simple for brand facts",
+            "Adjective order for product descriptions"
+          ],
+          "vocabulary": [
+            "Campaign",
+            "Brand",
+            "Target",
+            "Audience",
+            "Launch",
+            "Message"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B1-MKT-001\"\ncando: \"Can describe a marketing campaign, its target audience, and core message.\"\ndomain_hints: \"Business: Product launch; Crafts: Handmade goods; Education: Course promotion.\"",
+          "recycled": "Present Simple, Adjective order"
+        },
+        {
+          "lesson": 2,
+          "type": "gv",
+          "title": "Writing Promotional Copy & Product Descriptions",
+          "grammar": [
+            "Imperatives and persuasive modals for calls to action (Discover, You can, Try)",
+            "Comparative adjectives (better, faster, more affordable)"
+          ],
+          "vocabulary": [
+            "Feature",
+            "Benefit",
+            "Discount",
+            "Offer",
+            "Limited",
+            "Exclusive"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B1-MKT-002\"\ncando: \"Can write short promotional copy highlighting product benefits and a call to action.\"\ndomain_hints: \"Business: Sales copy; Crafts: Etsy listings; Education: Program ads.\"",
+          "recycled": "Imperatives, Comparatives"
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Pitching Ideas & Presenting Campaign Concepts",
+          "grammar": [
+            "Present Continuous for ongoing campaigns (We are launching)",
+            "Future arrangements (We will roll out)"
+          ],
+          "vocabulary": [
+            "Pitch",
+            "Concept",
+            "Strategy",
+            "Reach",
+            "Engagement",
+            "Goal"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B1-MKT-003\"\ncando: \"Can pitch a simple marketing concept and describe its goals and expected reach.\"\ndomain_hints: \"Business: Internal pitch; Education: Funding proposal.\"",
+          "recycled": "Present Continuous, Future arrangements"
+        },
+        {
+          "lesson": 4,
+          "type": "gv",
+          "title": "Social Media Posts & Customer Engagement",
+          "grammar": [
+            "Question tags and direct address for engagement (Isn't it?, You)",
+            "Present Perfect for results (We have reached)"
+          ],
+          "vocabulary": [
+            "Post",
+            "Follower",
+            "Comment",
+            "Share",
+            "Trend",
+            "Feedback"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B1-MKT-004\"\ncando: \"Can draft social media posts and respond to basic customer comments.\"\ndomain_hints: \"Business: Brand social; Crafts: Maker accounts; Education: School page.\"",
+          "recycled": "Question tags, Present Perfect"
+        }
       ]
     }
   ]

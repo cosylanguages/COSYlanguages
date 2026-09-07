@@ -493,6 +493,173 @@
           "teacher_notes": "code: \"EN-PRO-B2-024\"\ncando: \"Can lead or participate in performance appraisals, setting clear KPIs, teaching goals, or research benchmarks.\"\ndomain_hints: \"Education: Peer teaching observations; Legal: Associate performance reviews; Medical: Clinical competency evaluations; IT: Engineering level reviews; Business: Annual KPI reviews; Manual Trades: Quality & safety audits; Crafts: Studio output evaluations.\"",
           "recycled": "Conditionals and hedging in compensation discussions, Remuneration"
         }
+      ],
+      "vertical": "career"
+    },
+    {
+      "unit": 7,
+      "vertical": "it",
+      "title": "IT: Systems, Security & Technical Communication",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "gv",
+          "title": "Describing System Architecture & Infrastructure",
+          "grammar": [
+            "Passive voice and relative clauses for technical descriptions (which is used to, that connects)",
+            "Present Simple for established architecture"
+          ],
+          "vocabulary": [
+            "Infrastructure",
+            "Server",
+            "Database",
+            "Network",
+            "Firewall",
+            "Cloud"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-IT-001\"\ncando: \"Can describe a system's architecture and the role of its main components.\"\ndomain_hints: \"Business: SaaS infra; Medical: Health systems; Education: EdTech platform.\"",
+          "recycled": "Relative clauses, Passive voice"
+        },
+        {
+          "lesson": 2,
+          "type": "spoken",
+          "title": "Explaining Technical Issues to Non-Technical Stakeholders",
+          "grammar": [
+            "Hedging and analogies (It's like..., essentially)",
+            "Modal verbs for possibility (may, could)"
+          ],
+          "vocabulary": [
+            "Stakeholder",
+            "Simplify",
+            "Analogy",
+            "Risk",
+            "Impact",
+            "Mitigation"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-IT-002\"\ncando: \"Can explain a technical issue and its business impact to non-technical stakeholders.\"\ndomain_hints: \"Business: Executive briefings; Legal: Tech evidence; Medical: Clinician update.\"",
+          "recycled": "Hedging, Modals of possibility"
+        },
+        {
+          "lesson": 3,
+          "type": "gv",
+          "title": "Security Incidents & Incident Response",
+          "grammar": [
+            "Past Simple / Present Perfect for incident reporting (occurred, has been contained)",
+            "Conditional for response (If detected, we would)"
+          ],
+          "vocabulary": [
+            "Breach",
+            "Vulnerability",
+            "Incident",
+            "Contain",
+            "Investigate",
+            "Patch"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-IT-003\"\ncando: \"Can report a security incident, the response taken, and preventive next steps.\"\ndomain_hints: \"Legal: Compliance; Medical: Data protection; Business: Customer comms.\"",
+          "recycled": "Past Simple/Present Perfect, Conditionals"
+        },
+        {
+          "lesson": 4,
+          "type": "gv",
+          "title": "Technical Specs & Requirements Documentation",
+          "grammar": [
+            "Modal verbs for requirements (must, shall, should)",
+            "Passive voice for specifications"
+          ],
+          "vocabulary": [
+            "Requirement",
+            "Specification",
+            "Constraint",
+            "Interface",
+            "Comply",
+            "Validate"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-IT-004\"\ncando: \"Can write clear technical requirements and specifications for a feature or system.\"\ndomain_hints: \"Business: Vendor specs; Education: LMS requirements; Legal: Compliance specs.\"",
+          "recycled": "Modals for requirements, Passive voice"
+        }
+      ]
+    },
+    {
+      "unit": 8,
+      "vertical": "marketing",
+      "title": "Marketing: Strategy, Analytics & Positioning",
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "gv",
+          "title": "Market Analysis & Competitor Positioning",
+          "grammar": [
+            "Comparatives and superlatives for positioning (more established, the leading)",
+            "Present Perfect for trends (have shifted)"
+          ],
+          "vocabulary": [
+            "Segment",
+            "Competitor",
+            "Positioning",
+            "Share",
+            "Trend",
+            "Differentiator"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-MKT-001\"\ncando: \"Can analyze a market segment and position a product against key competitors.\"\ndomain_hints: \"Business: Strategy; Crafts: Niche positioning; Education: Course market.\"",
+          "recycled": "Comparatives/superlatives, Present Perfect"
+        },
+        {
+          "lesson": 2,
+          "type": "spoken",
+          "title": "Presenting Campaign Performance & KPIs",
+          "grammar": [
+            "Verbs of change and degree (rose steadily, declined slightly)",
+            "Percentages and fractions"
+          ],
+          "vocabulary": [
+            "Conversion",
+            "Retention",
+            "Funnel",
+            "Metric",
+            "ROI",
+            "Target"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-MKT-002\"\ncando: \"Can present campaign performance metrics and interpret key results.\"\ndomain_hints: \"Business: Stakeholder review; Education: Program outcomes.\"",
+          "recycled": "Verbs of change, Percentages"
+        },
+        {
+          "lesson": 3,
+          "type": "gv",
+          "title": "Content Strategy & SEO Basics",
+          "grammar": [
+            "Infinitive of purpose (in order to rank, to attract)",
+            "Passive for optimization (is optimized, are targeted)"
+          ],
+          "vocabulary": [
+            "Keyword",
+            "Ranking",
+            "Organic",
+            "Content",
+            "Optimize",
+            "Traffic"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-MKT-003\"\ncando: \"Can outline a content strategy with SEO goals and target keywords.\"\ndomain_hints: \"Business: Blog strategy; Crafts: Shop SEO; Education: Course discoverability.\"",
+          "recycled": "Infinitive of purpose, Passive voice"
+        },
+        {
+          "lesson": 4,
+          "type": "gv",
+          "title": "Email Marketing & Lead Nurturing",
+          "grammar": [
+            "Conditional structures for nurture flows (If they click, they receive)",
+            "Sequence adverbs (then, subsequently)"
+          ],
+          "vocabulary": [
+            "Lead",
+            "Nurture",
+            "Subscribe",
+            "Sequence",
+            "Open rate",
+            "Convert"
+          ],
+          "teacher_notes": "code: \"EN-PRO-B2-MKT-004\"\ncando: \"Can design a simple email nurture sequence and describe its conversion goals.\"\ndomain_hints: \"Business: CRM; Education: Prospect nurture; Crafts: Newsletter growth.\"",
+          "recycled": "Conditionals, Sequence adverbs"
+        }
       ]
     }
   ]
