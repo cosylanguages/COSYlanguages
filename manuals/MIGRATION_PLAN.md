@@ -44,8 +44,8 @@ These files reside outside `manuals/` and will break if `manuals/` paths change:
 - `comparative/data/language-meta.json` (1 reference)
 - `comparative/index.html` (1 reference)
 
-#### `create_migration_plan_doc.py/` (1 files, 31 link references)
-- `create_migration_plan_doc.py` (31 references)
+#### `create_migration_plan_doc.py/` (1 files, 36 link references)
+- `create_migration_plan_doc.py` (36 references)
 
 #### `docs/` (2 files, 4 link references)
 - `docs/ECOSYSTEM_ARCHITECTURE.md` (2 references)
@@ -152,10 +152,14 @@ manuals/
             └── topics/                  # Topic Modules (e.g. greetings.html, ordering-food.html)
 ```
 
-### Standardized Naming Rules
+### Standardized Naming Rules & Target Path Corrections
 1. **Level Directory Hubs**: Root files like `manuals/english-a0-a1.html` move to `manuals/en/index-a0-a1.html`.
 2. **Legacy Monolingual Folders**: Folders like `manuals/grammaire-francaise/` move to `manuals/fr/grammar/a1/` and `manuals/lexique-francais/` move to `manuals/fr/vocabulary/a1/`.
 3. **Legacy English Folders**: `manuals/grammar-a2/` moves to `manuals/en/grammar/a2/`, `manuals/vocabulary-manual/` moves to `manuals/en/vocabulary/a1/`, and `manuals/communication-manual/` moves to `manuals/en/communication/a1/`.
+4. **Explicit Correction Note (Tatar `tt/` A1 Level Depth Standard)**:
+   - **Observation**: Tatar manual files at `manuals/tt/grammar/` (`bulek-1.html`..`bulek-4.html`, `index.html`, `topics/*.html`, `assets/`) and `manuals/tt/vocabulary/` (`bulek-1.html`..`bulek-6.html`, `index.html`, `topics/*.html`, `assets/`) were previously located directly under `tt/grammar/` and `tt/vocabulary/` without an explicit level directory segment, unlike `tt/grammar/a2/` and `tt/vocabulary/a2/` which do have one.
+   - **CEFR Verification**: Verification of HTML titles (`<title>Татар теле грамматикасы (A0–A1)</title>`, `<title>Татар теле лексикасы (A0–A1)</title>`) and hero kickers (`COSYlanguages · A0–A1`) confirms that these topics are indeed the **A0–A1 tier**.
+   - **Target Path Correction**: In this migration plan, their target paths are explicitly corrected from `manuals/tt/grammar/...` and `manuals/tt/vocabulary/...` to **`manuals/tt/grammar/a1/...`** and **`manuals/tt/vocabulary/a1/...`**, enforcing 100% architectural parity with all other 13 target languages.
 
 ---
 
@@ -165,6 +169,7 @@ The table below lists all **2,213 files** currently in `manuals/`, detailing cur
 | Current Path | Language | Format | Size | Content Type | Proposed Target Path |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | `AUDIT.md` | Repository Meta Documentation (`meta`) | MD | 10836 B (10.6 KB) | Markdown Documentation / Template | `manuals/AUDIT.md` |
+| `MIGRATION_PLAN.md` | Unknown (`unknown`) | MD | 383359 B (374.4 KB) | Markdown Documentation / Template | `manuals/unknown/MIGRATION_PLAN.md` |
 | `_TEMPLATE.md` | Repository Meta Documentation (`meta`) | MD | 2665 B (2.6 KB) | Markdown Documentation / Template | `manuals/_TEMPLATE.md` |
 | `bashqort-a0-a1.html` | Bashkir (`ba`) | HTML | 1315 B (1.3 KB) | Level Directory Hub | `manuals/ba/index-a0-a1.html` |
 | `bashqort-a2.html` | Bashkir (`ba`) | HTML | 6697 B (6.5 KB) | Level Directory Hub | `manuals/ba/index-a2.html` |
@@ -2300,80 +2305,80 @@ The table below lists all **2,213 files** currently in `manuals/`, detailing cur
 | `chavash-leksiki/assets/app.js` | Chuvash (`cv`) | JS | 1737 B (1.7 KB) | JavaScript Application Logic | `manuals/cv/vocabulary/a1/assets/app.js` |
 | `chavash-leksiki/assets/style.css` | Chuvash (`cv`) | CSS | 4677 B (4.6 KB) | CSS Stylesheet | `manuals/cv/vocabulary/a1/assets/style.css` |
 | `tt/index.html` | Tatar (`tt`) | HTML | 4490 B (4.4 KB) | Hub / Section Index | `manuals/tt/index.html` |
-| `tt/vocabulary/bulek-1.html` | Tatar (`tt`) | HTML | 3448 B (3.4 KB) | Hub / Section Index | `manuals/tt/vocabulary/bulek-1.html` |
-| `tt/vocabulary/bulek-2.html` | Tatar (`tt`) | HTML | 2885 B (2.8 KB) | Hub / Section Index | `manuals/tt/vocabulary/bulek-2.html` |
-| `tt/vocabulary/bulek-3.html` | Tatar (`tt`) | HTML | 2886 B (2.8 KB) | Hub / Section Index | `manuals/tt/vocabulary/bulek-3.html` |
-| `tt/vocabulary/bulek-4.html` | Tatar (`tt`) | HTML | 2923 B (2.9 KB) | Hub / Section Index | `manuals/tt/vocabulary/bulek-4.html` |
-| `tt/vocabulary/bulek-5.html` | Tatar (`tt`) | HTML | 3086 B (3.0 KB) | Hub / Section Index | `manuals/tt/vocabulary/bulek-5.html` |
-| `tt/vocabulary/bulek-6.html` | Tatar (`tt`) | HTML | 2381 B (2.3 KB) | Hub / Section Index | `manuals/tt/vocabulary/bulek-6.html` |
-| `tt/vocabulary/index.html` | Tatar (`tt`) | HTML | 4433 B (4.3 KB) | Hub / Section Index | `manuals/tt/vocabulary/index.html` |
-| `tt/vocabulary/topics/ashamlyklar-hem-eshchelekler.html` | Tatar (`tt`) | HTML | 4084 B (4.0 KB) | Topic Manual Module | `manuals/tt/vocabulary/topics/ashamlyklar-hem-eshchelekler.html` |
-| `tt/vocabulary/topics/ashlar-hem-ashanu.html` | Tatar (`tt`) | HTML | 4155 B (4.1 KB) | Topic Manual Module | `manuals/tt/vocabulary/topics/ashlar-hem-ashanu.html` |
-| `tt/vocabulary/topics/aytu-nigeshlere.html` | Tatar (`tt`) | HTML | 4332 B (4.2 KB) | Topic Manual Module | `manuals/tt/vocabulary/topics/aytu-nigeshlere.html` |
-| `tt/vocabulary/topics/bayleuche-sozler-hem-sorular.html` | Tatar (`tt`) | HTML | 4339 B (4.2 KB) | Topic Manual Module | `manuals/tt/vocabulary/topics/bayleuche-sozler-hem-sorular.html` |
-| `tt/vocabulary/topics/bush-vakyt-hem-kobbiler.html` | Tatar (`tt`) | HTML | 4184 B (4.1 KB) | Topic Manual Module | `manuals/tt/vocabulary/topics/bush-vakyt-hem-kobbiler.html` |
-| `tt/vocabulary/topics/gaila.html` | Tatar (`tt`) | HTML | 4006 B (3.9 KB) | Topic Manual Module | `manuals/tt/vocabulary/topics/gaila.html` |
-| `tt/vocabulary/topics/hava-toroshy-hem-el-fasyllary.html` | Tatar (`tt`) | HTML | 4104 B (4.0 KB) | Topic Manual Module | `manuals/tt/vocabulary/topics/hava-toroshy-hem-el-fasyllary.html` |
-| `tt/vocabulary/topics/his-kochler-hem-emotsiyalar.html` | Tatar (`tt`) | HTML | 4080 B (4.0 KB) | Topic Manual Module | `manuals/tt/vocabulary/topics/his-kochler-hem-emotsiyalar.html` |
-| `tt/vocabulary/topics/honerler-hem-esh.html` | Tatar (`tt`) | HTML | 4144 B (4.0 KB) | Topic Manual Module | `manuals/tt/vocabulary/topics/honerler-hem-esh.html` |
-| `tt/vocabulary/topics/isenleshuh-hem-tanyshu.html` | Tatar (`tt`) | HTML | 4204 B (4.1 KB) | Topic Manual Module | `manuals/tt/vocabulary/topics/isenleshuh-hem-tanyshu.html` |
-| `tt/vocabulary/topics/keshe-bedene.html` | Tatar (`tt`) | HTML | 3897 B (3.8 KB) | Topic Manual Module | `manuals/tt/vocabulary/topics/keshe-bedene.html` |
-| `tt/vocabulary/topics/kiem-salym.html` | Tatar (`tt`) | HTML | 4008 B (3.9 KB) | Topic Manual Module | `manuals/tt/vocabulary/topics/kiem-salym.html` |
-| `tt/vocabulary/topics/maktap-hem-synyf.html` | Tatar (`tt`) | HTML | 4100 B (4.0 KB) | Topic Manual Module | `manuals/tt/vocabulary/topics/maktap-hem-synyf.html` |
-| `tt/vocabulary/topics/restoran-hem-kafe.html` | Tatar (`tt`) | HTML | 4064 B (4.0 KB) | Topic Manual Module | `manuals/tt/vocabulary/topics/restoran-hem-kafe.html` |
-| `tt/vocabulary/topics/salametlek-hem-apteka.html` | Tatar (`tt`) | HTML | 4173 B (4.1 KB) | Topic Manual Module | `manuals/tt/vocabulary/topics/salametlek-hem-apteka.html` |
-| `tt/vocabulary/topics/sannar.html` | Tatar (`tt`) | HTML | 3910 B (3.8 KB) | Topic Manual Module | `manuals/tt/vocabulary/topics/sannar.html` |
-| `tt/vocabulary/topics/satybalular-hem-akcha.html` | Tatar (`tt`) | HTML | 4120 B (4.0 KB) | Topic Manual Module | `manuals/tt/vocabulary/topics/satybalular-hem-akcha.html` |
-| `tt/vocabulary/topics/shekhsi-maglumatlar.html` | Tatar (`tt`) | HTML | 4187 B (4.1 KB) | Topic Manual Module | `manuals/tt/vocabulary/topics/shekhsi-maglumatlar.html` |
-| `tt/vocabulary/topics/tekhnologiya-hem-telefon.html` | Tatar (`tt`) | HTML | 4357 B (4.3 KB) | Topic Manual Module | `manuals/tt/vocabulary/topics/tekhnologiya-hem-telefon.html` |
-| `tt/vocabulary/topics/tep-figyller-a1.html` | Tatar (`tt`) | HTML | 4124 B (4.0 KB) | Topic Manual Module | `manuals/tt/vocabulary/topics/tep-figyller-a1.html` |
-| `tt/vocabulary/topics/tosler.html` | Tatar (`tt`) | HTML | 3968 B (3.9 KB) | Topic Manual Module | `manuals/tt/vocabulary/topics/tosler.html` |
-| `tt/vocabulary/topics/transport-hem-sayahat.html` | Tatar (`tt`) | HTML | 4177 B (4.1 KB) | Topic Manual Module | `manuals/tt/vocabulary/topics/transport-hem-sayahat.html` |
-| `tt/vocabulary/topics/vakyt-hem-kondalek-tormysh.html` | Tatar (`tt`) | HTML | 4100 B (4.0 KB) | Topic Manual Module | `manuals/tt/vocabulary/topics/vakyt-hem-kondalek-tormysh.html` |
-| `tt/vocabulary/topics/yort-hem-bulemler.html` | Tatar (`tt`) | HTML | 4026 B (3.9 KB) | Topic Manual Module | `manuals/tt/vocabulary/topics/yort-hem-bulemler.html` |
-| `tt/vocabulary/topics/yunesheshler-hem-urinnar.html` | Tatar (`tt`) | HTML | 4071 B (4.0 KB) | Topic Manual Module | `manuals/tt/vocabulary/topics/yunesheshler-hem-urinnar.html` |
+| `tt/vocabulary/bulek-1.html` | Tatar (`tt`) | HTML | 3448 B (3.4 KB) | Hub / Section Index | `manuals/tt/vocabulary/a1/bulek-1.html` |
+| `tt/vocabulary/bulek-2.html` | Tatar (`tt`) | HTML | 2885 B (2.8 KB) | Hub / Section Index | `manuals/tt/vocabulary/a1/bulek-2.html` |
+| `tt/vocabulary/bulek-3.html` | Tatar (`tt`) | HTML | 2886 B (2.8 KB) | Hub / Section Index | `manuals/tt/vocabulary/a1/bulek-3.html` |
+| `tt/vocabulary/bulek-4.html` | Tatar (`tt`) | HTML | 2923 B (2.9 KB) | Hub / Section Index | `manuals/tt/vocabulary/a1/bulek-4.html` |
+| `tt/vocabulary/bulek-5.html` | Tatar (`tt`) | HTML | 3086 B (3.0 KB) | Hub / Section Index | `manuals/tt/vocabulary/a1/bulek-5.html` |
+| `tt/vocabulary/bulek-6.html` | Tatar (`tt`) | HTML | 2381 B (2.3 KB) | Hub / Section Index | `manuals/tt/vocabulary/a1/bulek-6.html` |
+| `tt/vocabulary/index.html` | Tatar (`tt`) | HTML | 4433 B (4.3 KB) | Hub / Section Index | `manuals/tt/vocabulary/a1/index.html` |
+| `tt/vocabulary/topics/ashamlyklar-hem-eshchelekler.html` | Tatar (`tt`) | HTML | 4084 B (4.0 KB) | Topic Manual Module | `manuals/tt/vocabulary/a1/topics/ashamlyklar-hem-eshchelekler.html` |
+| `tt/vocabulary/topics/ashlar-hem-ashanu.html` | Tatar (`tt`) | HTML | 4155 B (4.1 KB) | Topic Manual Module | `manuals/tt/vocabulary/a1/topics/ashlar-hem-ashanu.html` |
+| `tt/vocabulary/topics/aytu-nigeshlere.html` | Tatar (`tt`) | HTML | 4332 B (4.2 KB) | Topic Manual Module | `manuals/tt/vocabulary/a1/topics/aytu-nigeshlere.html` |
+| `tt/vocabulary/topics/bayleuche-sozler-hem-sorular.html` | Tatar (`tt`) | HTML | 4339 B (4.2 KB) | Topic Manual Module | `manuals/tt/vocabulary/a1/topics/bayleuche-sozler-hem-sorular.html` |
+| `tt/vocabulary/topics/bush-vakyt-hem-kobbiler.html` | Tatar (`tt`) | HTML | 4184 B (4.1 KB) | Topic Manual Module | `manuals/tt/vocabulary/a1/topics/bush-vakyt-hem-kobbiler.html` |
+| `tt/vocabulary/topics/gaila.html` | Tatar (`tt`) | HTML | 4006 B (3.9 KB) | Topic Manual Module | `manuals/tt/vocabulary/a1/topics/gaila.html` |
+| `tt/vocabulary/topics/hava-toroshy-hem-el-fasyllary.html` | Tatar (`tt`) | HTML | 4104 B (4.0 KB) | Topic Manual Module | `manuals/tt/vocabulary/a1/topics/hava-toroshy-hem-el-fasyllary.html` |
+| `tt/vocabulary/topics/his-kochler-hem-emotsiyalar.html` | Tatar (`tt`) | HTML | 4080 B (4.0 KB) | Topic Manual Module | `manuals/tt/vocabulary/a1/topics/his-kochler-hem-emotsiyalar.html` |
+| `tt/vocabulary/topics/honerler-hem-esh.html` | Tatar (`tt`) | HTML | 4144 B (4.0 KB) | Topic Manual Module | `manuals/tt/vocabulary/a1/topics/honerler-hem-esh.html` |
+| `tt/vocabulary/topics/isenleshuh-hem-tanyshu.html` | Tatar (`tt`) | HTML | 4204 B (4.1 KB) | Topic Manual Module | `manuals/tt/vocabulary/a1/topics/isenleshuh-hem-tanyshu.html` |
+| `tt/vocabulary/topics/keshe-bedene.html` | Tatar (`tt`) | HTML | 3897 B (3.8 KB) | Topic Manual Module | `manuals/tt/vocabulary/a1/topics/keshe-bedene.html` |
+| `tt/vocabulary/topics/kiem-salym.html` | Tatar (`tt`) | HTML | 4008 B (3.9 KB) | Topic Manual Module | `manuals/tt/vocabulary/a1/topics/kiem-salym.html` |
+| `tt/vocabulary/topics/maktap-hem-synyf.html` | Tatar (`tt`) | HTML | 4100 B (4.0 KB) | Topic Manual Module | `manuals/tt/vocabulary/a1/topics/maktap-hem-synyf.html` |
+| `tt/vocabulary/topics/restoran-hem-kafe.html` | Tatar (`tt`) | HTML | 4064 B (4.0 KB) | Topic Manual Module | `manuals/tt/vocabulary/a1/topics/restoran-hem-kafe.html` |
+| `tt/vocabulary/topics/salametlek-hem-apteka.html` | Tatar (`tt`) | HTML | 4173 B (4.1 KB) | Topic Manual Module | `manuals/tt/vocabulary/a1/topics/salametlek-hem-apteka.html` |
+| `tt/vocabulary/topics/sannar.html` | Tatar (`tt`) | HTML | 3910 B (3.8 KB) | Topic Manual Module | `manuals/tt/vocabulary/a1/topics/sannar.html` |
+| `tt/vocabulary/topics/satybalular-hem-akcha.html` | Tatar (`tt`) | HTML | 4120 B (4.0 KB) | Topic Manual Module | `manuals/tt/vocabulary/a1/topics/satybalular-hem-akcha.html` |
+| `tt/vocabulary/topics/shekhsi-maglumatlar.html` | Tatar (`tt`) | HTML | 4187 B (4.1 KB) | Topic Manual Module | `manuals/tt/vocabulary/a1/topics/shekhsi-maglumatlar.html` |
+| `tt/vocabulary/topics/tekhnologiya-hem-telefon.html` | Tatar (`tt`) | HTML | 4357 B (4.3 KB) | Topic Manual Module | `manuals/tt/vocabulary/a1/topics/tekhnologiya-hem-telefon.html` |
+| `tt/vocabulary/topics/tep-figyller-a1.html` | Tatar (`tt`) | HTML | 4124 B (4.0 KB) | Topic Manual Module | `manuals/tt/vocabulary/a1/topics/tep-figyller-a1.html` |
+| `tt/vocabulary/topics/tosler.html` | Tatar (`tt`) | HTML | 3968 B (3.9 KB) | Topic Manual Module | `manuals/tt/vocabulary/a1/topics/tosler.html` |
+| `tt/vocabulary/topics/transport-hem-sayahat.html` | Tatar (`tt`) | HTML | 4177 B (4.1 KB) | Topic Manual Module | `manuals/tt/vocabulary/a1/topics/transport-hem-sayahat.html` |
+| `tt/vocabulary/topics/vakyt-hem-kondalek-tormysh.html` | Tatar (`tt`) | HTML | 4100 B (4.0 KB) | Topic Manual Module | `manuals/tt/vocabulary/a1/topics/vakyt-hem-kondalek-tormysh.html` |
+| `tt/vocabulary/topics/yort-hem-bulemler.html` | Tatar (`tt`) | HTML | 4026 B (3.9 KB) | Topic Manual Module | `manuals/tt/vocabulary/a1/topics/yort-hem-bulemler.html` |
+| `tt/vocabulary/topics/yunesheshler-hem-urinnar.html` | Tatar (`tt`) | HTML | 4071 B (4.0 KB) | Topic Manual Module | `manuals/tt/vocabulary/a1/topics/yunesheshler-hem-urinnar.html` |
 | `tt/vocabulary/a2/index.html` | Tatar (`tt`) | HTML | 1520 B (1.5 KB) | Hub / Section Index | `manuals/tt/vocabulary/a2/index.html` |
 | `tt/vocabulary/a2/module-1.html` | Tatar (`tt`) | HTML | 1782 B (1.7 KB) | Hub / Section Index | `manuals/tt/vocabulary/a2/module-1.html` |
 | `tt/vocabulary/a2/topics/sxyaxat-xem-transport.html` | Tatar (`tt`) | HTML | 1823 B (1.8 KB) | Topic Manual Module | `manuals/tt/vocabulary/a2/topics/sxyaxat-xem-transport.html` |
 | `tt/vocabulary/a2/topics/xezmet-xem-honomnar.html` | Tatar (`tt`) | HTML | 1831 B (1.8 KB) | Topic Manual Module | `manuals/tt/vocabulary/a2/topics/xezmet-xem-honomnar.html` |
 | `tt/vocabulary/a2/assets/app.js` | Tatar (`tt`) | JS | 1200 B (1.2 KB) | JavaScript Application Logic | `manuals/tt/vocabulary/a2/assets/app.js` |
 | `tt/vocabulary/a2/assets/style.css` | Tatar (`tt`) | CSS | 4750 B (4.6 KB) | CSS Stylesheet | `manuals/tt/vocabulary/a2/assets/style.css` |
-| `tt/vocabulary/assets/app.js` | Tatar (`tt`) | JS | 1737 B (1.7 KB) | JavaScript Application Logic | `manuals/tt/vocabulary/assets/app.js` |
-| `tt/vocabulary/assets/style.css` | Tatar (`tt`) | CSS | 4677 B (4.6 KB) | CSS Stylesheet | `manuals/tt/vocabulary/assets/style.css` |
-| `tt/grammar/bulek-1.html` | Tatar (`tt`) | HTML | 4830 B (4.7 KB) | Hub / Section Index | `manuals/tt/grammar/bulek-1.html` |
-| `tt/grammar/bulek-2.html` | Tatar (`tt`) | HTML | 3231 B (3.2 KB) | Hub / Section Index | `manuals/tt/grammar/bulek-2.html` |
-| `tt/grammar/bulek-3.html` | Tatar (`tt`) | HTML | 2850 B (2.8 KB) | Hub / Section Index | `manuals/tt/grammar/bulek-3.html` |
-| `tt/grammar/bulek-4.html` | Tatar (`tt`) | HTML | 2934 B (2.9 KB) | Hub / Section Index | `manuals/tt/grammar/bulek-4.html` |
-| `tt/grammar/index.html` | Tatar (`tt`) | HTML | 3774 B (3.7 KB) | Hub / Section Index | `manuals/tt/grammar/index.html` |
-| `tt/grammar/topics/bar-yuk.html` | Tatar (`tt`) | HTML | 4054 B (4.0 KB) | Topic Manual Module | `manuals/tt/grammar/topics/bar-yuk.html` |
-| `tt/grammar/topics/bash-kilesh.html` | Tatar (`tt`) | HTML | 4864 B (4.8 KB) | Topic Manual Module | `manuals/tt/grammar/topics/bash-kilesh.html` |
-| `tt/grammar/topics/chagyshtyru-darajese.html` | Tatar (`tt`) | HTML | 5002 B (4.9 KB) | Topic Manual Module | `manuals/tt/grammar/topics/chagyshtyru-darajese.html` |
-| `tt/grammar/topics/chygysh-kileshe.html` | Tatar (`tt`) | HTML | 4816 B (4.7 KB) | Topic Manual Module | `manuals/tt/grammar/topics/chygysh-kileshe.html` |
-| `tt/grammar/topics/hazierge-zaman.html` | Tatar (`tt`) | HTML | 4682 B (4.6 KB) | Topic Manual Module | `manuals/tt/grammar/topics/hazierge-zaman.html` |
-| `tt/grammar/topics/iyalek-kileshe.html` | Tatar (`tt`) | HTML | 4936 B (4.8 KB) | Topic Manual Module | `manuals/tt/grammar/topics/iyalek-kileshe.html` |
-| `tt/grammar/topics/iyalek-kushymchalary.html` | Tatar (`tt`) | HTML | 4274 B (4.2 KB) | Topic Manual Module | `manuals/tt/grammar/topics/iyalek-kushymchalary.html` |
-| `tt/grammar/topics/kilechak-zaman.html` | Tatar (`tt`) | HTML | 4559 B (4.5 KB) | Topic Manual Module | `manuals/tt/grammar/topics/kilechak-zaman.html` |
-| `tt/grammar/topics/kileshlar.html` | Tatar (`tt`) | HTML | 5220 B (5.1 KB) | Topic Manual Module | `manuals/tt/grammar/topics/kileshlar.html` |
-| `tt/grammar/topics/kire-kagu.html` | Tatar (`tt`) | HTML | 4690 B (4.6 KB) | Topic Manual Module | `manuals/tt/grammar/topics/kire-kagu.html` |
-| `tt/grammar/topics/korsatu-alyshmalary.html` | Tatar (`tt`) | HTML | 4571 B (4.5 KB) | Topic Manual Module | `manuals/tt/grammar/topics/korsatu-alyshmalary.html` |
-| `tt/grammar/topics/kyuplek-hem-azlyk.html` | Tatar (`tt`) | HTML | 4181 B (4.1 KB) | Topic Manual Module | `manuals/tt/grammar/topics/kyuplek-hem-azlyk.html` |
-| `tt/grammar/topics/sannar-ham-kileshlar.html` | Tatar (`tt`) | HTML | 4922 B (4.8 KB) | Topic Manual Module | `manuals/tt/grammar/topics/sannar-ham-kileshlar.html` |
-| `tt/grammar/topics/sannar-ham-vaqyt.html` | Tatar (`tt`) | HTML | 4676 B (4.6 KB) | Topic Manual Module | `manuals/tt/grammar/topics/sannar-ham-vaqyt.html` |
-| `tt/grammar/topics/singarmonizm.html` | Tatar (`tt`) | HTML | 4203 B (4.1 KB) | Topic Manual Module | `manuals/tt/grammar/topics/singarmonizm.html` |
-| `tt/grammar/topics/sonardashlar.html` | Tatar (`tt`) | HTML | 4868 B (4.8 KB) | Topic Manual Module | `manuals/tt/grammar/topics/sonardashlar.html` |
-| `tt/grammar/topics/sorau-formashy.html` | Tatar (`tt`) | HTML | 4546 B (4.4 KB) | Topic Manual Module | `manuals/tt/grammar/topics/sorau-formashy.html` |
-| `tt/grammar/topics/sozlar-tartibe.html` | Tatar (`tt`) | HTML | 4512 B (4.4 KB) | Topic Manual Module | `manuals/tt/grammar/topics/sozlar-tartibe.html` |
-| `tt/grammar/topics/syjfatlar.html` | Tatar (`tt`) | HTML | 4728 B (4.6 KB) | Topic Manual Module | `manuals/tt/grammar/topics/syjfatlar.html` |
-| `tt/grammar/topics/toshem-kilesh.html` | Tatar (`tt`) | HTML | 4699 B (4.6 KB) | Topic Manual Module | `manuals/tt/grammar/topics/toshem-kilesh.html` |
-| `tt/grammar/topics/uryn-vakyt-kileshe.html` | Tatar (`tt`) | HTML | 4797 B (4.7 KB) | Topic Manual Module | `manuals/tt/grammar/topics/uryn-vakyt-kileshe.html` |
-| `tt/grammar/topics/utkan-zaman.html` | Tatar (`tt`) | HTML | 4439 B (4.3 KB) | Topic Manual Module | `manuals/tt/grammar/topics/utkan-zaman.html` |
-| `tt/grammar/topics/yuneshesh-kileshe.html` | Tatar (`tt`) | HTML | 4873 B (4.8 KB) | Topic Manual Module | `manuals/tt/grammar/topics/yuneshesh-kileshe.html` |
-| `tt/grammar/topics/zat-alyshmalary.html` | Tatar (`tt`) | HTML | 4393 B (4.3 KB) | Topic Manual Module | `manuals/tt/grammar/topics/zat-alyshmalary.html` |
+| `tt/vocabulary/assets/app.js` | Tatar (`tt`) | JS | 1737 B (1.7 KB) | JavaScript Application Logic | `manuals/tt/vocabulary/a1/assets/app.js` |
+| `tt/vocabulary/assets/style.css` | Tatar (`tt`) | CSS | 4677 B (4.6 KB) | CSS Stylesheet | `manuals/tt/vocabulary/a1/assets/style.css` |
+| `tt/grammar/bulek-1.html` | Tatar (`tt`) | HTML | 4830 B (4.7 KB) | Hub / Section Index | `manuals/tt/grammar/a1/bulek-1.html` |
+| `tt/grammar/bulek-2.html` | Tatar (`tt`) | HTML | 3231 B (3.2 KB) | Hub / Section Index | `manuals/tt/grammar/a1/bulek-2.html` |
+| `tt/grammar/bulek-3.html` | Tatar (`tt`) | HTML | 2850 B (2.8 KB) | Hub / Section Index | `manuals/tt/grammar/a1/bulek-3.html` |
+| `tt/grammar/bulek-4.html` | Tatar (`tt`) | HTML | 2934 B (2.9 KB) | Hub / Section Index | `manuals/tt/grammar/a1/bulek-4.html` |
+| `tt/grammar/index.html` | Tatar (`tt`) | HTML | 3774 B (3.7 KB) | Hub / Section Index | `manuals/tt/grammar/a1/index.html` |
+| `tt/grammar/topics/bar-yuk.html` | Tatar (`tt`) | HTML | 4054 B (4.0 KB) | Topic Manual Module | `manuals/tt/grammar/a1/topics/bar-yuk.html` |
+| `tt/grammar/topics/bash-kilesh.html` | Tatar (`tt`) | HTML | 4864 B (4.8 KB) | Topic Manual Module | `manuals/tt/grammar/a1/topics/bash-kilesh.html` |
+| `tt/grammar/topics/chagyshtyru-darajese.html` | Tatar (`tt`) | HTML | 5002 B (4.9 KB) | Topic Manual Module | `manuals/tt/grammar/a1/topics/chagyshtyru-darajese.html` |
+| `tt/grammar/topics/chygysh-kileshe.html` | Tatar (`tt`) | HTML | 4816 B (4.7 KB) | Topic Manual Module | `manuals/tt/grammar/a1/topics/chygysh-kileshe.html` |
+| `tt/grammar/topics/hazierge-zaman.html` | Tatar (`tt`) | HTML | 4682 B (4.6 KB) | Topic Manual Module | `manuals/tt/grammar/a1/topics/hazierge-zaman.html` |
+| `tt/grammar/topics/iyalek-kileshe.html` | Tatar (`tt`) | HTML | 4936 B (4.8 KB) | Topic Manual Module | `manuals/tt/grammar/a1/topics/iyalek-kileshe.html` |
+| `tt/grammar/topics/iyalek-kushymchalary.html` | Tatar (`tt`) | HTML | 4274 B (4.2 KB) | Topic Manual Module | `manuals/tt/grammar/a1/topics/iyalek-kushymchalary.html` |
+| `tt/grammar/topics/kilechak-zaman.html` | Tatar (`tt`) | HTML | 4559 B (4.5 KB) | Topic Manual Module | `manuals/tt/grammar/a1/topics/kilechak-zaman.html` |
+| `tt/grammar/topics/kileshlar.html` | Tatar (`tt`) | HTML | 5220 B (5.1 KB) | Topic Manual Module | `manuals/tt/grammar/a1/topics/kileshlar.html` |
+| `tt/grammar/topics/kire-kagu.html` | Tatar (`tt`) | HTML | 4690 B (4.6 KB) | Topic Manual Module | `manuals/tt/grammar/a1/topics/kire-kagu.html` |
+| `tt/grammar/topics/korsatu-alyshmalary.html` | Tatar (`tt`) | HTML | 4571 B (4.5 KB) | Topic Manual Module | `manuals/tt/grammar/a1/topics/korsatu-alyshmalary.html` |
+| `tt/grammar/topics/kyuplek-hem-azlyk.html` | Tatar (`tt`) | HTML | 4181 B (4.1 KB) | Topic Manual Module | `manuals/tt/grammar/a1/topics/kyuplek-hem-azlyk.html` |
+| `tt/grammar/topics/sannar-ham-kileshlar.html` | Tatar (`tt`) | HTML | 4922 B (4.8 KB) | Topic Manual Module | `manuals/tt/grammar/a1/topics/sannar-ham-kileshlar.html` |
+| `tt/grammar/topics/sannar-ham-vaqyt.html` | Tatar (`tt`) | HTML | 4676 B (4.6 KB) | Topic Manual Module | `manuals/tt/grammar/a1/topics/sannar-ham-vaqyt.html` |
+| `tt/grammar/topics/singarmonizm.html` | Tatar (`tt`) | HTML | 4203 B (4.1 KB) | Topic Manual Module | `manuals/tt/grammar/a1/topics/singarmonizm.html` |
+| `tt/grammar/topics/sonardashlar.html` | Tatar (`tt`) | HTML | 4868 B (4.8 KB) | Topic Manual Module | `manuals/tt/grammar/a1/topics/sonardashlar.html` |
+| `tt/grammar/topics/sorau-formashy.html` | Tatar (`tt`) | HTML | 4546 B (4.4 KB) | Topic Manual Module | `manuals/tt/grammar/a1/topics/sorau-formashy.html` |
+| `tt/grammar/topics/sozlar-tartibe.html` | Tatar (`tt`) | HTML | 4512 B (4.4 KB) | Topic Manual Module | `manuals/tt/grammar/a1/topics/sozlar-tartibe.html` |
+| `tt/grammar/topics/syjfatlar.html` | Tatar (`tt`) | HTML | 4728 B (4.6 KB) | Topic Manual Module | `manuals/tt/grammar/a1/topics/syjfatlar.html` |
+| `tt/grammar/topics/toshem-kilesh.html` | Tatar (`tt`) | HTML | 4699 B (4.6 KB) | Topic Manual Module | `manuals/tt/grammar/a1/topics/toshem-kilesh.html` |
+| `tt/grammar/topics/uryn-vakyt-kileshe.html` | Tatar (`tt`) | HTML | 4797 B (4.7 KB) | Topic Manual Module | `manuals/tt/grammar/a1/topics/uryn-vakyt-kileshe.html` |
+| `tt/grammar/topics/utkan-zaman.html` | Tatar (`tt`) | HTML | 4439 B (4.3 KB) | Topic Manual Module | `manuals/tt/grammar/a1/topics/utkan-zaman.html` |
+| `tt/grammar/topics/yuneshesh-kileshe.html` | Tatar (`tt`) | HTML | 4873 B (4.8 KB) | Topic Manual Module | `manuals/tt/grammar/a1/topics/yuneshesh-kileshe.html` |
+| `tt/grammar/topics/zat-alyshmalary.html` | Tatar (`tt`) | HTML | 4393 B (4.3 KB) | Topic Manual Module | `manuals/tt/grammar/a1/topics/zat-alyshmalary.html` |
 | `tt/grammar/a2/index.html` | Tatar (`tt`) | HTML | 1559 B (1.5 KB) | Hub / Section Index | `manuals/tt/grammar/a2/index.html` |
 | `tt/grammar/a2/part-1.html` | Tatar (`tt`) | HTML | 1847 B (1.8 KB) | Hub / Section Index | `manuals/tt/grammar/a2/part-1.html` |
 | `tt/grammar/a2/topics/tartym-kushymchalary-chylbyry.html` | Tatar (`tt`) | HTML | 4419 B (4.3 KB) | Topic Manual Module | `manuals/tt/grammar/a2/topics/tartym-kushymchalary-chylbyry.html` |
 | `tt/grammar/a2/topics/xal-figyllar-xem-kileshler.html` | Tatar (`tt`) | HTML | 4323 B (4.2 KB) | Topic Manual Module | `manuals/tt/grammar/a2/topics/xal-figyllar-xem-kileshler.html` |
 | `tt/grammar/a2/assets/app.js` | Tatar (`tt`) | JS | 1200 B (1.2 KB) | JavaScript Application Logic | `manuals/tt/grammar/a2/assets/app.js` |
 | `tt/grammar/a2/assets/style.css` | Tatar (`tt`) | CSS | 4750 B (4.6 KB) | CSS Stylesheet | `manuals/tt/grammar/a2/assets/style.css` |
-| `tt/grammar/assets/app.js` | Tatar (`tt`) | JS | 1352 B (1.3 KB) | JavaScript Application Logic | `manuals/tt/grammar/assets/app.js` |
-| `tt/grammar/assets/style.css` | Tatar (`tt`) | CSS | 5391 B (5.3 KB) | CSS Stylesheet | `manuals/tt/grammar/assets/style.css` |
+| `tt/grammar/assets/app.js` | Tatar (`tt`) | JS | 1352 B (1.3 KB) | JavaScript Application Logic | `manuals/tt/grammar/a1/assets/app.js` |
+| `tt/grammar/assets/style.css` | Tatar (`tt`) | CSS | 5391 B (5.3 KB) | CSS Stylesheet | `manuals/tt/grammar/a1/assets/style.css` |
