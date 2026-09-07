@@ -123,7 +123,7 @@
               <a href="${prefix}placement-quiz.html">Placement Quiz 📝</a>
               <a href="${prefix}hybrid/index.html">Hybrid &amp; Community 🌿</a>
               <a href="${prefix}notebook/index.html">My Notebook 📓</a>
-              <a href="${prefix}events/index.html" data-i18n="nav.events">Events 🎉</a>
+              <a href="${prefix}https://cosylanguages.github.io/COSYevents/" data-i18n="nav.events">Events 🎉</a>
               <a href="${prefix}games/index.html" data-i18n="nav.games">Games 🎮</a>
             </div>
             <div class="footer-links-col">

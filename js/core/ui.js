@@ -597,7 +597,7 @@
       mobileNav.innerHTML = `
         <a href="${p}practice/index.html" class="mobile-nav-item" id="mnav-practice"><span class="mn-icon">💡</span><span>Practice</span></a>
         <a href="${p}games/index.html" class="mobile-nav-item" id="mnav-games"><span class="mn-icon">🎮</span><span>Games</span></a>
-        <a href="${p}events/index.html" class="mobile-nav-item" id="mnav-events"><span class="mn-icon">🎉</span><span>Events</span></a>
+        <a href="${p}https://cosylanguages.github.io/COSYevents/" class="mobile-nav-item" id="mnav-events"><span class="mn-icon">🎉</span><span>Events</span></a>
         <a href="${p}index.html" class="mobile-nav-item" id="mnav-home"><span class="mn-icon">🏡</span><span>Home</span></a>`;
 
       const path = window.location.pathname;
@@ -619,7 +619,7 @@
             active = (item.id === 'mnav-practice');
         } else if (path.includes('/games/')) {
             active = (item.id === 'mnav-games');
-        } else if (path.includes('/events/')) {
+        } else if (path.includes('https://cosylanguages.github.io/COSYevents/')) {
             active = (item.id === 'mnav-events');
         }
 
@@ -2250,7 +2250,7 @@
             context = 'games';
         } else if (pathname.includes('/practice/')) {
             context = 'practice';
-        } else if (pathname.includes('/events/')) {
+        } else if (pathname.includes('https://cosylanguages.github.io/COSYevents/')) {
             context = 'events';
         }
 
@@ -2312,7 +2312,7 @@
                         <div class="ctm-map-item">
                             <span class="cmi-icon">🎉</span>
                             <div class="cmi-content">
-                                <strong><a href="${p}events/index.html">${getTourText('events_title')}</a></strong>
+                                <strong><a href="${p}https://cosylanguages.github.io/COSYevents/">${getTourText('events_title')}</a></strong>
                                 <p>${getTourText('events_desc')}</p>
                             </div>
                         </div>
@@ -5589,7 +5589,7 @@
             nav.innerHTML = `
                 <a href="${prefix}practice/index.html" class="mobile-nav-item" id="mnav-practice"><span class="mn-icon">💡</span><span>Practice</span></a>
                 <a href="${prefix}games/index.html" class="mobile-nav-item" id="mnav-games"><span class="mn-icon">🎮</span><span>Games</span></a>
-                <a href="${prefix}events/index.html" class="mobile-nav-item" id="mnav-events"><span class="mn-icon">🎉</span><span>Events</span></a>
+                <a href="${prefix}https://cosylanguages.github.io/COSYevents/" class="mobile-nav-item" id="mnav-events"><span class="mn-icon">🎉</span><span>Events</span></a>
                 <a href="${prefix}index.html" class="mobile-nav-item" id="mnav-home"><span class="mn-icon">🏡</span><span>Home</span></a>`;
             document.body.appendChild(nav);
         }

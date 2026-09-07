@@ -108,7 +108,7 @@ const NAV_CONFIG = {
         { key: 'atlas',    href: 'comparative/index.html', icon: '🌐' },
         { key: 'notebook', href: 'notebook/index.html',  icon: '📓' },
         { key: 'games',    href: 'games/index.html',     icon: '🎮' },
-        { key: 'events',   href: 'events/index.html',    icon: '🎉' },
+        { key: 'events',   href: 'https://cosylanguages.github.io/COSYevents/',    icon: '🎉' },
         { key: 'hybrid',   href: 'hybrid/index.html',    icon: '🌿' }
     ]
 };
@@ -352,7 +352,7 @@ function mobileMenuHTML (mode) {
       <a href="${p}practice/index.html" data-translate-key="nav_practice" data-i18n="nav.practice">💡 Practice</a>
       <a href="${p}notebook/index.html" data-translate-key="nav_notebook" data-i18n="nav.notebook">📓 Notebook</a>
       <a href="${p}games/index.html" data-translate-key="nav_games" data-i18n="nav.games">🎮 Games</a>
-      <a href="${p}events/index.html" data-translate-key="nav_events" data-i18n="nav.events">🎉 Events</a>
+      <a href="${p}https://cosylanguages.github.io/COSYevents/" data-translate-key="nav_events" data-i18n="nav.events">🎉 Events</a>
       <a href="${p}hybrid/index.html" data-translate-key="nav_hybrid" data-i18n="nav.hybrid">🌿 Hybrid</a>
       <a href="#" onclick="event.preventDefault(); COSY.toggleTheme();" class="mobile-theme-toggle-a" style="display: flex; align-items: center; gap: 8px;">🌓 Toggle Dark Mode</a>
       <div style="padding: 12px 16px; display: flex; align-items: center; gap: 8px;">
@@ -894,7 +894,7 @@ window.COSY = {
                 // Register scoped service worker for Courses
                 navigator.serviceWorker.register(p + 'apps/premium-courses/sw.js', { scope: p + 'apps/premium-courses/' })
                     .catch(e => console.log('SW (Courses):', e));
-            } else if (path.includes('/events/') || path.includes('/apps/premium-events/')) {
+            } else if (path.includes('https://cosylanguages.github.io/COSYevents/') || path.includes('/apps/premium-events/')) {
                 // Register scoped service worker for Events
                 navigator.serviceWorker.register(p + 'apps/premium-events/sw.js', { scope: p + 'apps/premium-events/' })
                     .catch(e => console.log('SW (Events):', e));

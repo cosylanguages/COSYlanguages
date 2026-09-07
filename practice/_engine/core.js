@@ -955,7 +955,7 @@
                 } else {
                     bridgeTitleEl.textContent = "Join a Live COSY Speaking Club Event 🎉";
                     if (bridgeDescEl) bridgeDescEl.textContent = "Practice your new vocabulary in live C1/C2 conversations!";
-                    bridgeLinkEl.href = "../events/index.html";
+                    bridgeLinkEl.href = "https://cosylanguages.github.io/COSYevents/";
                 }
             }
         },
