@@ -73,13 +73,13 @@
  }
 
  function initQuizzes(){
-   document.querySelectorAll('.quiz-panel[data-quiz], .ccq-panel[data-quiz]').forEach(function(panel){
+   document.querySelectorAll('.quiz-panel[data-quiz]').forEach(function(panel){
      var data;
      try{ data = JSON.parse(panel.getAttribute('data-quiz')); }catch(e){ return; }
      var scoreEl = panel.querySelector('.quiz-score');
      var score = 0, answered = 0;
      function refreshScore(){
-       if(scoreEl) scoreEl.textContent = 'Score: ' + score + ' / ' + data.length;
+       scoreEl.textContent = 'Score: ' + score + ' / ' + data.length;
      }
      panel.querySelectorAll('.qitem').forEach(function(qEl, qi){
        var opts = qEl.querySelectorAll('.qopt');
@@ -90,7 +90,7 @@
            if(qLocked) return;
            qLocked = true;
            answered++;
-           var correctIdx = data[qi] ? data[qi].correct : 0;
+           var correctIdx = data[qi].correct;
            opts.forEach(function(o, idx){
              o.disabled = true;
              if(idx === correctIdx) o.classList.add('correct');
@@ -98,10 +98,7 @@
            });
            if(oi === correctIdx) score++;
            refreshScore();
-           if(explain){
-             explain.classList.add('show');
-             explain.style.display = 'block';
-           }
+           if(explain){ explain.classList.add('show'); }
          });
        });
      });
@@ -109,20 +106,7 @@
      var resetBtn = panel.querySelector('.quiz-reset');
      if(resetBtn){
        resetBtn.addEventListener('click', function(){
-         score = 0;
-         answered = 0;
-         refreshScore();
-         panel.querySelectorAll('.qitem').forEach(function(qEl){
-           qEl.querySelectorAll('.qopt').forEach(function(o){
-             o.disabled = false;
-             o.classList.remove('correct', 'incorrect', 'wrong');
-           });
-           var explain = qEl.querySelector('.qexplain');
-           if(explain){
-             explain.classList.remove('show');
-             explain.style.display = 'none';
-           }
-         });
+         location.reload();
        });
      }
    });
