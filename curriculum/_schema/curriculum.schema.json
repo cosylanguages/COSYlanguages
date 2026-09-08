@@ -27,6 +27,7 @@
                 "recycled": { "type": ["string", "null"] },
                 "duration_minutes": { "type": "integer" },
                 "grammar": { "type": "array", "items": { "type": "string" } },
+                "discourse": { "type": "array", "items": { "type": "string" } },
                 "vocabulary": { "type": "array", "items": { "type": "string" } },
                 "practice_types": { "type": "array", "items": { "type": "string" } },
                 "speaking_percent": { "type": "integer" },

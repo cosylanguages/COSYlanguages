@@ -24,9 +24,9 @@
     "relocation": ["A2", "B1", "B2", "C1"]
   },
   "it": {
-    "general": ["A1", "A2", "B1", "B2"]
+    "general": ["A1"]
   },
   "el": {
-    "general": ["A1", "A2", "B1"]
+    "general": ["A1"]
   }
 }
