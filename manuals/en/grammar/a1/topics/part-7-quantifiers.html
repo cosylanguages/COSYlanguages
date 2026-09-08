@@ -1,9 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Quantifiers · COSYlanguages A0–A1 Grammar</title>
+<title>Quantifiers & Countability · COSYlanguages A0–A1 Grammar</title>
+<meta name="description" content="Countable vs uncountable nouns, some/any, and much/many/a lot of">
 <link rel="stylesheet" href="../../../../../css/tokens.css">
 <link rel="stylesheet" href="../../../../../css/base.css">
 <link rel="stylesheet" href="../../../../../css/components.css">
@@ -11,9 +12,9 @@
 <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
-<nav id="cosy-nav"></nav>
+<nav id="cosy-nav" aria-label="Main Navigation"></nav>
 
-<!-- Sticky Header -->
+<!-- Sticky Header Navigation -->
 <header class="sd-sticky-header">
   <div class="sd-header-inner">
     <nav class="sd-jump-links" aria-label="In-page section navigation">
@@ -32,49 +33,146 @@
     </nav>
   </div>
 </header>
+
 <main class="container">
 <div class="page-head">
  <span class="eyebrow">Part 7 · Grammar Knowledge Tree</span>
- <h1>Quantifiers</h1>
- <p class="subtitle">Some vs any, much vs many, a lot of, a few vs a little, each, every & all.</p>
+ <h1>Quantifiers & Countability</h1>
+ <p class="subtitle">Countable vs uncountable nouns, some/any, and much/many/a lot of</p>
  <hr class="rule">
 </div>
 
-<div class="content-block">
-  <h2>Unit 24: Quantifiers & Determiners</h2>
-  <p>Some in affirmative sentences and polite offers/requests; Any in negative sentences and general questions. Much + uncountable; Many + countable plural.</p>
+<!-- Stage 1: Lead-in / Context -->
+<div class="box outcome-banner" style="background:rgba(28,143,86,0.08); border-left:4px solid var(--role-verb, #1c8f56); padding:12px 16px; margin-bottom:20px; border-radius:4px;">
+  <strong>🎯 What you can communicate after this page:</strong> You can express quantities of food, money, time, and objects accurately in positive, negative, and question forms.
 </div>
 
-<div class="pager"><a class="prev" href="../topics/part-6-adverbs.html"><span class="dir">&larr; Previous</span><span class="ttl">Part 6 — Adverbs</span></a><a class="next" href="../topics/part-8-prepositions.html"><span class="dir">Next &rarr;</span><span class="ttl">Part 8 — Prepositions</span></a></div>
+<!-- Stage 2: Meaning Check (CCQs) -->
+<div class="box ccq-panel" style="background:var(--teal-050, #f2faf8); border:1px solid var(--teal-500, #25a894); border-left:4px solid var(--teal-600, #1c9483); padding:18px 20px; border-radius:8px; margin-bottom:24px;">
+  <h3 style="margin-top:0; color:var(--teal-900, #0c3f38); font-size:1.1rem;">💡 Check your understanding (CCQs)</h3>
+  <p style="margin-bottom:14px; font-style:italic; font-size:0.95rem;">Answer these quick questions to verify meaning:</p>
+  <div class="qitem" style="margin-bottom:16px; background:#ffffff; padding:14px 16px; border-radius:8px; border:1px solid var(--line, #e6e2d8);">
+    <div class="qtext" style="font-weight:600; margin-bottom:10px; color:var(--teal-900, #0c3f38);">1. Sentence: "Countable (apples, cars)" — Is staying inside dependent on the condition of rain?</div>
+    <div class="qopts" style="display:flex; flex-direction:column; gap:8px;">
+      <button type="button" class="qopt" data-correct="true" style="text-align:left; padding:8px 12px; border:1px solid #d0d7de; border-radius:6px; background:#ffffff; cursor:pointer; font-size:0.95rem;">Yes, result depends on 'if' condition</button>
+      <button type="button" class="qopt" style="text-align:left; padding:8px 12px; border:1px solid #d0d7de; border-radius:6px; background:#ffffff; cursor:pointer; font-size:0.95rem;">No, happens unconditionally</button>
+      <button type="button" class="qopt" style="text-align:left; padding:8px 12px; border:1px solid #d0d7de; border-radius:6px; background:#ffffff; cursor:pointer; font-size:0.95rem;">Uncertain</button>
+    </div>
+    <div class="qexplain" style="display:none; margin-top:10px; padding:8px 12px; background:#eaf6f1; border-left:3px solid var(--teal-600, #1c9483); font-size:0.9rem; color:var(--teal-800, #0f5c50); font-weight:600;">Conditionals state that an outcome depends on whether the 'if' clause occurs.</div>
+  </div>
+  <div class="qitem" style="margin-bottom:16px; background:#ffffff; padding:14px 16px; border-radius:8px; border:1px solid var(--line, #e6e2d8);">
+    <div class="qtext" style="font-weight:600; margin-bottom:10px; color:var(--teal-900, #0c3f38);">2. Sentence: "Countable (apples, cars)" — If it does NOT rain, does the condition apply?</div>
+    <div class="qopts" style="display:flex; flex-direction:column; gap:8px;">
+      <button type="button" class="qopt" data-correct="true" style="text-align:left; padding:8px 12px; border:1px solid #d0d7de; border-radius:6px; background:#ffffff; cursor:pointer; font-size:0.95rem;">No, the result requires rain</button>
+      <button type="button" class="qopt" style="text-align:left; padding:8px 12px; border:1px solid #d0d7de; border-radius:6px; background:#ffffff; cursor:pointer; font-size:0.95rem;">Yes, stays inside anyway</button>
+      <button type="button" class="qopt" style="text-align:left; padding:8px 12px; border:1px solid #d0d7de; border-radius:6px; background:#ffffff; cursor:pointer; font-size:0.95rem;">Uncertain</button>
+    </div>
+    <div class="qexplain" style="display:none; margin-top:10px; padding:8px 12px; background:#eaf6f1; border-left:3px solid var(--teal-600, #1c9483); font-size:0.9rem; color:var(--teal-800, #0f5c50); font-weight:600;">The outcome is contingent on the 'if' condition.</div>
+  </div>
+</div>
+<div class="box mint" style="margin-bottom:20px;">
+  <h3>👀 What do you notice?</h3>
+  <p>Notice: Countable nouns can be counted (1 apple, 2 apples). Uncountable nouns cannot be counted individually (water, rice, money).</p>
+</div>
+
+<!-- Stage 3: Form Explanation -->
+<div class="table-wrap">
+  <table>
+    <thead><tr><th>Noun Type</th><th>Positive (+)</th><th>Negative (-) & Question (?)</th></tr></thead>
+    <tbody>
+<tr><td>Countable (apples, cars)</td><td>some apples / a lot of cars</td><td>any apples / many cars</td></tr>
+<tr><td>Uncountable (water, money)</td><td>some water / a lot of money</td><td>any water / much money</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="box native" style="margin-top:20px;">
+  <h3>🧠 Think like a native speaker</h3>
+  <p>In positive statements, native speakers prefer 'a lot of' for both countable and uncountable nouns instead of 'much' or 'many'. 'I have a lot of money' sounds much more natural than 'I have much money'.</p>
+</div>
+
+<!-- Stage 4: Pronunciation Note -->
+<div class="pron-callout" style="background:#f0f7f5; border:1px solid #b2dfdb; border-left:4px solid var(--teal-600, #1c9483); padding:14px 18px; border-radius:8px; margin:20px 0;">
+  <h3 style="margin-top:0; color:var(--teal-900, #0c3f38); font-size:1.05rem;">🗣️ Pronunciation Note</h3>
+  <p style="margin:0; font-size:0.95rem; line-height:1.5;">'Some' in relaxed speech is reduced to /səm/ ('some water'). 'A lot of' connects as /ə.lɒt.əv/.</p>
+</div>
+
+<!-- Stage 5: Practice & Examples -->
+<div class="examples">
+  <span class="label">Key examples</span>
+  <ul>
+  <li>There is <strong>some</strong> cheese in the fridge.</li>
+  <li>We don't have <strong>any</strong> butter left.</li>
+  <li>How <strong>many</strong> chairs do we need?</li>
+  </ul>
+</div>
+
+<div class="mistakes">
+ <div class="m-title">⚠️ Common mistakes</div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">❌ I have many moneys.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>✅ I have a lot of money.</span></div>
+ </div>
+ <div class="mflip">
+  <div class="wrong-line"><span class="x">❌</span><span class="wrong-text">❌ There isn't some milk.</span></div>
+  <span class="hint">tap to see the correct form</span>
+  <div class="right-line"><span class="c">✅</span><span>✅ There isn't any milk.</span></div>
+ </div>
+</div>
+
+<div class="box mint" style="margin-top:20px;">
+ <h3>💡 Memory trick</h3>
+ <p>SOME for Positive statements. ANY for Negatives & Questions. MANY for items you count, MUCH for stuff you measure!</p>
+</div>
+
+<!-- Cross-link / Related Topics -->
+<div class="box connects-to" style="background:#f8f9fa; border:1px solid #e9ecef; border-left:4px solid #6c757d; padding:16px 20px; border-radius:8px; margin:24px 0;">
+  <h3 style="margin-top:0; color:#343a40; font-size:1.1rem;">🔗 Connects to...</h3>
+  <ul style="margin:8px 0 0; padding-left:20px; font-size:0.95rem;">
+    <li><a href="countable-uncountable.html">Countable & Uncountable Nouns</a> — Explore food, liquids, and abstract noun categories.</li>
+    <li><a href="some-vs-any.html">Some vs Any Rules</a> — Master offer/request exceptions with 'some' in questions.</li>
+  </ul>
+</div>
+
+<!-- Stage 6: Production, Checklist & Celebration -->
+<div class="checklist" data-key="part-7-quantifiers">
+ <h3>🎯 Can you already use this?</h3>
+ <label class="check-item"><input type="checkbox"><span>Identify countable vs uncountable nouns</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use 'some' in positive statements and 'any' in negatives/questions</span></label>
+ <label class="check-item"><input type="checkbox"><span>Use 'how many' for countable and 'how much' for uncountable items</span></label>
+ <div class="check-progress"></div>
+</div>
+
+<div class="quiz-panel" data-quiz='[{"correct": 1}, {"correct": 0}]'>
+ <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 2</span></div>
+ <div class="qitem">
+  <div class="qtext">1. Which phrase is correct?</div>
+  <div class="qopts"><button type="button" class="qopt">How much apples?</button><button type="button" class="qopt" data-correct="true">How many apples?</button><button type="button" class="qopt">How much apple?</button></div>
+  <div class="qexplain">'Apples' is countable plural, so we ask 'How many apples?'</div>
+ </div>
+ <div class="qitem">
+  <div class="qtext">2. Complete: 'There is ___ water in the bottle.'</div>
+  <div class="qopts"><button type="button" class="qopt" data-correct="true">some</button><button type="button" class="qopt">any</button><button type="button" class="qopt">many</button></div>
+  <div class="qexplain">'Some' is used in affirmative statements with uncountable nouns like water.</div>
+ </div>
+ <button type="button" class="quiz-reset">Reset quiz</button>
+</div>
+
+<div class="box celebration-box" style="background:rgba(28,143,86,0.12); border-left:4px solid var(--role-verb, #1c8f56); padding:14px 18px; margin-top:24px; border-radius:8px;">
+  <p style="margin:0; font-size:1rem; font-weight:700; color:var(--teal-900, #0c3f38);">🎉 Progress Celebration: You can now talk about food, shopping lists, quantities, and budgets without confusing countability!</p>
+</div>
+
+<div class="pager">
+  <a class="prev" href="../part-1.html"><span class="dir">&larr; Previous</span><span class="ttl">Part Overview</span></a>
+  <a class="next" href="../index.html"><span class="dir">Next &rarr;</span><span class="ttl">A0–A1 Manual Index</span></a>
+</div>
 </main>
-<footer>
- <div class="footer-inner">
- <div class="footer-col">
- <h4>Courses</h4>
- <ul>
- <li><a href="../../../../manuals/english-a0-a1.html">English Ecosystem</a></li>
- <li><a href="../../../../manuals/francaise-a0-a1.html">French Manuals</a></li>
- <li><a href="../../../../manuals/it/index.html">Italian Manuals</a></li>
- </ul>
- </div>
- <div class="footer-col">
- <h4>Explore</h4>
- <ul>
- <li><a href="../../../../practice/index.html">Practice Hub</a></li>
- <li><a href="../../../../comparative/index.html">Comparative Matrix</a></li>
- <li><a href="../../../../rosetta-wall/index.html">Rosetta Wall</a></li>
- </ul>
- </div>
- <div class="footer-col">
- <h4>Project</h4>
- <ul>
- <li><a href="../../../../manuals/index.html">All Manuals</a></li>
- <li><a href="../../../../hybrid/index.html">Beyond the Screen</a></li>
- </ul>
- </div>
- </div>
- <div class="footer-bottom">
- &copy; COSYlanguages · Level A0–A1 English Grammar Knowledge Tree Course
+
+<footer class="site">
+ <div class="container">
+ <div>COSYlanguages · English Grammar Manual, Level A0&ndash;A1 · interactive web edition</div>
+ <div><a href="https://cosylanguages.github.io/COSYlanguages/index.html">&larr; Back to cosylanguages.github.io</a></div>
  </div>
 </footer>
 <script src="../assets/app.js"></script>

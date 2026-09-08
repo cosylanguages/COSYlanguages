@@ -1,4 +1,4 @@
-// COSYlanguages B2 Grammar Manual · shared interactivity
+// COSYlanguages Grammar Manual · shared interactivity
 (function(){
  "use strict";
 
@@ -30,7 +30,7 @@
 
  function initChecklists(){
    document.querySelectorAll('.checklist[data-key]').forEach(function(box){
-     var key = 'cosy-b2-check-' + box.getAttribute('data-key');
+     var key = 'cosy-check-' + box.getAttribute('data-key');
      var stored = {};
      try{ stored = JSON.parse(localStorage.getItem(key) || '{}'); }catch(e){}
      var items = box.querySelectorAll('.check-item');
@@ -59,50 +59,60 @@
      card.addEventListener('click', function(){
        card.classList.toggle('flipped');
      });
-     card.setAttribute('tabindex','0');
-     card.setAttribute('role','button');
-     card.setAttribute('aria-expanded', 'false');
-     card.addEventListener('keydown', function(e){
-       if(e.key === 'Enter' || e.key === ' '){
-         e.preventDefault();
-         card.classList.toggle('flipped');
-         card.setAttribute('aria-expanded', card.classList.contains('flipped') ? 'true' : 'false');
-       }
-     });
    });
  }
 
  function initQuizzes(){
-   document.querySelectorAll('.quiz-panel[data-quiz]').forEach(function(panel){
-     var data;
-     try{ data = JSON.parse(panel.getAttribute('data-quiz')); }catch(e){ return; }
+   document.querySelectorAll('.quiz-panel, .ccq-panel').forEach(function(panel){
+     var data = null;
+     try{ data = JSON.parse(panel.getAttribute('data-quiz')); }catch(e){}
      var scoreEl = panel.querySelector('.quiz-score');
-     var score = 0, answered = 0;
-     function refreshScore(){
-       scoreEl.textContent = 'Score: ' + score + ' / ' + data.length;
-     }
+     var score = 0;
+
      panel.querySelectorAll('.qitem').forEach(function(qEl, qi){
-       var opts = qEl.querySelectorAll('.qopt');
+       var opts = qEl.querySelectorAll('.qopt, .quiz-option');
        var explain = qEl.querySelector('.qexplain');
        var qLocked = false;
+
        opts.forEach(function(optEl, oi){
          optEl.addEventListener('click', function(){
            if(qLocked) return;
            qLocked = true;
-           answered++;
-           var correctIdx = data[qi].correct;
+
+           var isCorrect = optEl.getAttribute('data-correct') === 'true' || (data && data[qi] && data[qi].correct === oi);
+
            opts.forEach(function(o, idx){
              o.disabled = true;
-             if(idx === correctIdx) o.classList.add('correct');
-             else if(idx === oi) o.classList.add('incorrect');
+             o.style.pointerEvents = 'none';
+             var oIsCorrect = o.getAttribute('data-correct') === 'true' || (data && data[qi] && data[qi].correct === idx);
+             if(oIsCorrect){
+               o.classList.add('correct');
+               o.style.background = '#eaf6f1';
+               o.style.borderColor = '#1c9483';
+               o.style.color = '#0f5c50';
+               o.style.fontWeight = '700';
+             } else if(idx === oi){
+               o.classList.add('incorrect', 'wrong');
+               o.style.background = '#fdf0f0';
+               o.style.borderColor = '#e55353';
+               o.style.color = '#9c1c1c';
+             } else {
+               o.style.opacity = '0.6';
+             }
            });
-           if(oi === correctIdx) score++;
-           refreshScore();
-           if(explain){ explain.classList.add('show'); }
+
+           if(isCorrect) score++;
+           if(scoreEl && data){
+             scoreEl.textContent = 'Score: ' + score + ' / ' + data.length;
+           }
+           if(explain){
+             explain.classList.add('show');
+             explain.style.display = 'block';
+           }
          });
        });
      });
-     refreshScore();
+
      var resetBtn = panel.querySelector('.quiz-reset');
      if(resetBtn){
        resetBtn.addEventListener('click', function(){
