@@ -13,8 +13,8 @@
           "title": "Spontaneous High-Level Debate & Keynote Monologue",
           "duration_minutes": 60,
           "grammar": [
-            "Complex multi-clause synthesis",
-            "Unrestricted stylistic variation"
+            "Complex Clause Linkage and Clause Stacking in Spontaneous Monologue",
+            "Flexible Morphosyntactic Variations"
           ],
           "vocabulary": [
             "Impromptu",
@@ -29,7 +29,10 @@
           ],
           "speaking_percent": 90,
           "teacher_notes": "code: \"EN-SPK-C2-001\"\ncando: \"Can present keynotes and participate in spontaneous debates with native-level fluency and precision.\"\ntask: \"Keynote monologue: deliver an unscripted 4-minute keynote on global trends with native pitch control.\"\nspeaking_focus: \"Flawless, unrestricted multi-clause prosody and commanding presence.\"",
-          "recycled": "Foundational communication & basic level vocabulary"
+          "recycled": "Foundational communication & basic level vocabulary",
+          "discourse": [
+            "Unrestricted Stylistic Variation and Keynote Delivery"
+          ]
         },
         {
           "lesson": 2,
@@ -37,8 +40,8 @@
           "title": "Subversive Humor, Wit & Satire in Spoken Discourse",
           "duration_minutes": 60,
           "grammar": [
-            "Subversive inversion and ironical framing",
-            "Deadpan intonation mechanics"
+            "Subversive Inversion and Irony-Marked Clauses",
+            "Prosodic Intonation Shifts in Satire"
           ],
           "vocabulary": [
             "Satire",
@@ -53,7 +56,10 @@
           ],
           "speaking_percent": 85,
           "teacher_notes": "code: \"EN-SPK-C2-002\"\ncando: \"Can deploy sophisticated satire, intellectual wit, and deadpan irony in public speeches.\"\ntask: \"Satirical speech workshop: deliver a 3-minute satirical commentary on corporate buzzwords.\"\nspeaking_focus: \"Deadpan vocal delivery, subtle pauses, and precise ironic emphasis.\"",
-          "recycled": "Complex multi-clause synthesis, Impromptu, Spontaneity, Command"
+          "recycled": "Complex multi-clause synthesis, Impromptu, Spontaneity, Command",
+          "discourse": [
+            "Subversive Humor, Wit, and Sarcasm in Spoken Discourse"
+          ]
         },
         {
           "lesson": 3,
@@ -61,8 +67,8 @@
           "title": "Advanced Prosody, Intonation & Emotional Resonance",
           "duration_minutes": 60,
           "grammar": [
-            "Mastery of nuclear tone placement and pitch contouring",
-            "Rhythmic pauses for emotional weight"
+            "Prosodic Stress Placement and Intonation Contour Mechanics (IK-1 to IK-7 equivalents)",
+            "Rhythmic Pause Mechanics for Emotional Weight"
           ],
           "vocabulary": [
             "Prosody",
@@ -85,8 +91,8 @@
           "title": "Mastering Unscripted Keynotes & Public Addresses",
           "duration_minutes": 60,
           "grammar": [
-            "Unscripted speech structuring (Hook, Dual Argument, Synthesis, Peroration)",
-            "Mastery of rhetorical devices"
+            "Spontaneous Peroration Structure (Hook, Thesis, Escalation, Climax, Cadence)",
+            "Rhetorical Amplification Devices"
           ],
           "vocabulary": [
             "Peroration",
@@ -109,7 +115,7 @@
           "title": "Keynote Address & Master Public Speaking Review",
           "duration_minutes": 60,
           "grammar": [
-            "Synthesis of multi-clause prosody, satirical framing, pitch contours, and unscripted peroration"
+            "Synthesis of Prosodic Contours, Satirical Tone, and Peroration Mechanics"
           ],
           "vocabulary": [
             "Mastery",
@@ -138,8 +144,8 @@
           "title": "Boardroom Mediation & Multi-Party Crisis Steering",
           "duration_minutes": 60,
           "grammar": [
-            "Diplomatic mandate framing in high-stakes crises",
-            "Syntactic fronting for multi-party arbitration"
+            "Syntactic Fronting for Boardroom Arbitration",
+            "Diplomatic Subjunctive and Conditional Framing"
           ],
           "vocabulary": [
             "Boardroom",
@@ -154,7 +160,10 @@
           ],
           "speaking_percent": 85,
           "teacher_notes": "code: \"EN-SPK-C2-006\"\ncando: \"Can steer hostile executive boardrooms through severe corporate or legal deadlocks.\"\ntask: \"Hostile board meeting roleplay: break a severe deadlock between rival investor factions.\"\nspeaking_focus: \"Unshakable executive authority and calm, objective arbitration phrasing.\"",
-          "recycled": "Synthesis of master rhetoric, Charisma, Eloquence"
+          "recycled": "Synthesis of master rhetoric, Charisma, Eloquence",
+          "discourse": [
+            "Crisis Mediation Framing in Boardroom Deadlocks"
+          ]
         },
         {
           "lesson": 2,
@@ -162,8 +171,8 @@
           "title": "Nuanced Psychological Tactics in Spoken Bargaining",
           "duration_minutes": 60,
           "grammar": [
-            "Psychological mirroring and tactical labeling (It seems like you feel...)",
-            "Calibrated questions for negotiation leverage"
+            "Tactical Rephrasing Clauses (It gives the impression that..., One might infer)",
+            "Calibrated Questioning Syntax"
           ],
           "vocabulary": [
             "Tactical empathy",
@@ -186,8 +195,8 @@
           "title": "Live Press Conference & Hostile Q&A Management",
           "duration_minutes": 60,
           "grammar": [
-            "Instant message reframing under aggressive pressure",
-            "Subtle deflection without sounding evasive"
+            "Instantaneous Message Pivot Syntax",
+            "Evasive Passive and Impersonal Formulations"
           ],
           "vocabulary": [
             "Press conference",
@@ -202,7 +211,10 @@
           ],
           "speaking_percent": 90,
           "teacher_notes": "code: \"EN-SPK-C2-008\"\ncando: \"Can manage hostile media press conferences under extreme public pressure fluently.\"\ntask: \"Crisis press conference: field 8 hostile journalist questions on a severe corporate breach.\"\nspeaking_focus: \"Reframing aggressive traps effortlessly back to strategic core messages.\"",
-          "recycled": "Tactical empathy, Mirroring, Labeling, Leverage"
+          "recycled": "Tactical empathy, Mirroring, Labeling, Leverage",
+          "discourse": [
+            "Live Broadcast Press Interrogation Navigation"
+          ]
         },
         {
           "lesson": 4,
@@ -210,8 +222,8 @@
           "title": "Diplomatic Crisis Communication & Damage Control",
           "duration_minutes": 60,
           "grammar": [
-            "Mitigated language of responsibility (While regrettable, the circumstances dictate...)",
-            "Mandative Subjunctive in formal crisis directives"
+            "Softened Responsibility Modals in Official Notes",
+            "Mandative Subjunctive in Diplomatic Protocol"
           ],
           "vocabulary": [
             "Communique",
@@ -234,7 +246,7 @@
           "title": "Boardroom Crisis Simulation & Press Briefing Review",
           "duration_minutes": 60,
           "grammar": [
-            "Synthesis of deadlock arbitration, tactical empathy, press reframing, and crisis mitigation"
+            "Synthesis of Boardroom Arbitration, Tactical Empathy Syntax, and Softened Responsibility Formulations"
           ],
           "vocabulary": [
             "Crisis steering",
@@ -264,8 +276,8 @@
           "title": "Deconstructing Intellectual Concepts On the Fly",
           "duration_minutes": 60,
           "grammar": [
-            "Spontaneous conceptual decomposition",
-            "Complex parenthetical commentary and lexical substitution"
+            "Authorial Parenthetical Clauses and Lexical Substitution",
+            "Spontaneous Concept Deconstruction Syntax"
           ],
           "vocabulary": [
             "Deconstruct",
@@ -288,8 +300,8 @@
           "title": "Debating Abstract Epistemology, Truth & Cognition",
           "duration_minutes": 60,
           "grammar": [
-            "Epistemic modality (Must inherently be, Could conceivably imply)",
-            "Conditionals of philosophical concession"
+            "Epistemic Modality Expressions (Ought inherently to be..., Could conceivably signify)",
+            "Complex Subordinate Conditionals in Philosophical Debates"
           ],
           "vocabulary": [
             "Epistemology",
@@ -312,8 +324,8 @@
           "title": "Philosophical Dialogue & Dialectical Debate",
           "duration_minutes": 60,
           "grammar": [
-            "Socratic questioning frameworks",
-            "Dialectical synthesis (Thesis, Antithesis, Synthesis)"
+            "Socratic Interrogative Syntax",
+            "Dialectical Triad Structures (Thesis, Antithesis, Synthesis)"
           ],
           "vocabulary": [
             "Dialectic",
@@ -336,8 +348,8 @@
           "title": "Spontaneous Critique of Socio-Economic Models",
           "duration_minutes": 60,
           "grammar": [
-            "Inverted conditional forecasting (Had macroeconomic policy prioritized X, Y would have resulted)",
-            "Syntactic fronting in policy analysis"
+            "Conditional Inversion in Macroeconomic Forecasting (Were this model applied..., we would yield)",
+            "Syntactic Fronting in Global Analysis"
           ],
           "vocabulary": [
             "Macroeconomic",
@@ -360,7 +372,7 @@
           "title": "Intellectual Symposium & Dialectical Debate Review",
           "duration_minutes": 60,
           "grammar": [
-            "Synthesis of conceptual deconstruction, epistemic modality, Socratic dialogue, and economic forecasting"
+            "Synthesis of Epistemic Modality, Socratic Syntax, and Macro-Analysis Fronting"
           ],
           "vocabulary": [
             "Intellectual rigor",
@@ -389,8 +401,8 @@
           "title": "Rare Idioms, Allusions & Literary Metaphors",
           "duration_minutes": 60,
           "grammar": [
-            "Literary allusion in spoken discourse",
-            "Rare idiomatic expressions and cultural metaphors"
+            "Literary Allusions and Reminiscence Clauses in Oral Monologue",
+            "Rare Fixed Expressions and Idiomatic Subordinating Structures"
           ],
           "vocabulary": [
             "Achilles' heel",
@@ -413,8 +425,8 @@
           "title": "Subtext, Implicit Meaning & Reading Between Lines",
           "duration_minutes": 60,
           "grammar": [
-            "Pragmatic implication and conversational implicature",
-            "Understated pitch drops for subtext"
+            "Subtext Intonation Drops and Understated Clause Structures",
+            "Implicit Clause Ellipsis in Oral Subtext"
           ],
           "vocabulary": [
             "Subtext",
@@ -430,7 +442,10 @@
           ],
           "speaking_percent": 85,
           "teacher_notes": "code: \"EN-SPK-C2-017\"\ncando: \"Can convey complex implicit meaning and subtext through intonation without saying it explicitly.\"\ntask: \"Subtext roleplay: conduct a diplomatic conversation where the true message is conveyed entirely via subtext.\"\nspeaking_focus: \"Mastering pitch drops and pregnant pauses to signal conversational implicature.\"",
-          "recycled": "Literary allusion, Achilles' heel, Pandora's box, Pyrrhic victory"
+          "recycled": "Literary allusion, Achilles' heel, Pandora's box, Pyrrhic victory",
+          "discourse": [
+            "Understated Pitch Drops for Subtext and Implicit Meaning"
+          ]
         },
         {
           "lesson": 3,
@@ -438,8 +453,8 @@
           "title": "Expressing Emotional Subtlety & Psychological Depth",
           "duration_minutes": 60,
           "grammar": [
-            "Complex adjectival and adverbial modifiers for inner states",
-            "Reflective sentence cadence"
+            "Adjectival and Adverbial Stacking for Emotional Nuance",
+            "Deliberative Reflective Cadence Structures"
           ],
           "vocabulary": [
             "Poignancy",
@@ -462,8 +477,8 @@
           "title": "Storytelling Through Micro-Details & Narrative Arc",
           "duration_minutes": 60,
           "grammar": [
-            "Micro-detail imagery and sensory narrative pacing",
-            "Ellipsis and dramatic suspense"
+            "Sensory Micro-Detail Adverbial Modifiers",
+            "Aposiopesis and Rhetorical Pause Mechanics"
           ],
           "vocabulary": [
             "Narrative arc",
@@ -486,7 +501,7 @@
           "title": "Literary Salon & Subtext Masterclass Review",
           "duration_minutes": 60,
           "grammar": [
-            "Synthesis of literary allusion, conversational subtext, psychological depth, and sensory narration"
+            "Synthesis of Allusive Syntax, Subtext Drops, Emotional Stacking, and Sensory Modifiers"
           ],
           "vocabulary": [
             "Literary agility",
@@ -515,8 +530,8 @@
           "title": "Navigating Subtle Regional Accents & Sociolects",
           "duration_minutes": 60,
           "grammar": [
-            "Decoding regional grammar variations (Received Pronunciation, General American, AAVE, Hiberno-English)",
-            "Acoustic adaptability"
+            "Phonological and Morphosyntactic Variations across Global English Dialects",
+            "Acoustic Flexibility and Auditory Adaptation"
           ],
           "vocabulary": [
             "Sociolect",
@@ -539,8 +554,8 @@
           "title": "Conversational Wit, Banter & Instant Comebacks",
           "duration_minutes": 60,
           "grammar": [
-            "Immediate spoken turn-taking and witty repartee",
-            "Playful hyperbole and linguistic humor"
+            "Rapid Retort Syntax and Rhetorical Repartee",
+            "Hyperbolic Clause Structures and Wordplay Mechanics"
           ],
           "vocabulary": [
             "Repartee",
@@ -564,8 +579,8 @@
           "title": "Mastering Understatement & Hyperbole",
           "duration_minutes": 60,
           "grammar": [
-            "Spoken understatement formulas (It's not entirely without merit...)",
-            "Hyperbolic intensification"
+            "Litotes and Double Negative Formulations (Not unmindful of..., Far from unwise)",
+            "Hyperbolic Rhetorical Structures"
           ],
           "vocabulary": [
             "Understatement",
@@ -588,8 +603,8 @@
           "title": "High-Level Cross-Cultural Diplomacy & Etiquette",
           "duration_minutes": 60,
           "grammar": [
-            "Diplomatic protocol phrasing",
-            "Indirect politeness and strategic deference"
+            "High Diplomatic Etiquette Formulations",
+            "Indirect Politeness and Strategic Deference Modals"
           ],
           "vocabulary": [
             "Diplomacy",
@@ -612,7 +627,7 @@
           "title": "High-Society Banter & Register Mastery Review",
           "duration_minutes": 60,
           "grammar": [
-            "Synthesis of dialect adaptability, rapid banter, litotes understatement, and diplomatic etiquette"
+            "Synthesis of Dialect Adaptation, Rapid Retort Syntax, Litotes, and Diplomatic Etiquette"
           ],
           "vocabulary": [
             "Versatility",
@@ -642,8 +657,8 @@
           "title": "Unrestricted Conversational Agility Across All Domains",
           "duration_minutes": 60,
           "grammar": [
-            "Unrestricted morphosyntactic variation and spontaneous stylistic blending",
-            "Mastery of native idiomatic flow"
+            "Absolute Morphosyntactic Agility and Multi-Register Variation",
+            "Natural Language Flow Control"
           ],
           "vocabulary": [
             "Agility",
@@ -666,8 +681,8 @@
           "title": "Spontaneous Multi-Perspective Synthesis Monologue",
           "duration_minutes": 60,
           "grammar": [
-            "Multi-perspective synthesis structures",
-            "Cohesive oral argument synthesis"
+            "Synthetic Multi-Dimensional Argument Structures",
+            "Oral Argument Cohesion Mechanics"
           ],
           "vocabulary": [
             "Synthesis",
@@ -690,8 +705,8 @@
           "title": "Mastering Micro-Nuances of Native Speech",
           "duration_minutes": 60,
           "grammar": [
-            "Native micro-nuances (pragmatic markers, breath control, subtle hesitation, self-correction phrasing)",
-            "Acoustic perfection"
+            "Native-Like Micro-Nuances (Filler particles, breathing cadence, pauses, self-correction)",
+            "Acoustic Precision"
           ],
           "vocabulary": [
             "Micro-nuance",
@@ -714,8 +729,8 @@
           "title": "Unscripted Moderation & Panel Leadership",
           "duration_minutes": 60,
           "grammar": [
-            "Mastery of unscripted debate moderation",
-            "Real-time synthesis and diplomatic floor control"
+            "Impromptu Moderation Syntax and Steering Formulations",
+            "Live Synthesis and Diplomatic Control Structures"
           ],
           "vocabulary": [
             "Moderation",
@@ -738,7 +753,7 @@
           "title": "C2 Spoken Master Capstone & Native Proficiency Assessment",
           "duration_minutes": 60,
           "grammar": [
-            "Complete C2 mastery of all spoken registers, rhetoric, negotiation, debate, and native micro-nuances"
+            "Grand Showcase C2: Absolute Synthesis of All Spoken Rhetorical, Diplomatic, and Syntactic Skills"
           ],
           "vocabulary": [
             "Native-level proficiency",

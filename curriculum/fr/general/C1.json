@@ -40,9 +40,8 @@
           "title": "Science, Tech et Société - Grammaire Avancée",
           "duration_minutes": 60,
           "grammar": [
-            "La précaution oratoire et le conditionnel de réserve (Il semblerait que, Les données permettraient de conclure)",
-            "L'inversion du sujet et les structures clivées pour la mise en relief du propos scientifique",
-            "Subjonctif et modalisation dans l'hypothèse académique"
+            "Propositions relatives complexes avec prépositions composées (auquel, duquel, pour lesquelles)",
+            "Subjonctif passé et tournures d’atténuation académique"
           ],
           "practice_types": [
             "writing",
@@ -59,8 +58,8 @@
           "title": "Science, Tech et Société - Séminaire & Débat",
           "duration_minutes": 90,
           "grammar": [
-            "Inversion stylistique après les adverbes négatifs et de restriction (Non seulement l'IA automatise..., mais...)",
-            "Réfutation diplomatique et refradage de position"
+            "Inversion du sujet après les adverbes de tête (À peine..., Peut-être..., Aussi...)",
+            "Expression de la concession au conditionnel"
           ],
           "vocabulary": [
             "Comité d'éthique",
@@ -75,7 +74,10 @@
           ],
           "speaking_percent": 80,
           "teacher_notes": "code: \"FR-C1-003\"\ncando: \"Peut animer et participer de façon fluide à des séminaires académiques débattant de l'éthique technologique et des politiques scientifiques\"",
-          "recycled": "La précaution oratoire et le conditionnel de réserve, L'inversion du sujet et les structures clivées, Étayer"
+          "recycled": "La précaution oratoire et le conditionnel de réserve, L'inversion du sujet et les structures clivées, Étayer",
+          "discourse": [
+            "Désaccord diplomatique et cadrage du débat académique"
+          ]
         }
       ]
     },
@@ -116,8 +118,8 @@
           "title": "Pouvoir et Institutions - Grammaire Avancée",
           "duration_minutes": 60,
           "grammar": [
-            "Passif de distanciation et tournures de rapport institutionnel (Il est fait état de..., Les textes auraient été votés)",
-            "Subjonctif dans les subordonnées relatives à valeur d'exigence réglementaire (Il convient que la loi soit ratifiée)"
+            "Tournures passives pronominales et impersonnelles (Il appert que..., Se voir + infinitif)",
+            "Subjonctif dans les textes réglementaires et juridiques"
           ],
           "practice_types": [
             "writing",
@@ -134,8 +136,8 @@
           "title": "Pouvoir et Institutions - Séminaire & Débat",
           "duration_minutes": 90,
           "grammar": [
-            "Phrases clivées et pseudo-clivées pour le renforcement de l'argument (Ce que le comité préconise, c'est... / C'est le ministre qui...)",
-            "Questions rhétoriques et structures du débat parlementaire"
+            "Mise en relief et phrases clivées (C’est... qui/que, Ce qui..., c’est...)",
+            "Inversion littéraire et poétique du sujet"
           ],
           "vocabulary": [
             "Note d'orientation",
@@ -191,8 +193,8 @@
           "title": "Structures Sociales - Grammaire Avancée",
           "duration_minutes": 60,
           "grammar": [
-            "Cohésion textuelle, ellipse et substitution lexicale pour éliminer les redondances dans les essais sociologiques",
-            "Participe présent et gérondif complexes pour l'apport d'informations contextuelles (Ayant analysé la mutation démographique, les chercheurs...)"
+            "Nominalisation et condensation syntaxique dans le discours sociologique",
+            "Proposition participiale absolue et gérondif complexe (L’accord ayant été signé...)"
           ],
           "practice_types": [
             "writing",
@@ -209,8 +211,8 @@
           "title": "Structures Sociales - Séminaire & Débat",
           "duration_minutes": 90,
           "grammar": [
-            "Conditionnel de concession et d'hypothèse (Quand bien même la politique sociale serait appliquée...)",
-            "Gestion nuancée du temps de parole et régulation du débat"
+            "Propositions conditionnelles et hypothétiques complexes (Quand bien même..., Si tant est que...)",
+            "Adverbes et locutions conjonctives de proportion"
           ],
           "vocabulary": [
             "Gentrification",
@@ -266,8 +268,8 @@
           "title": "Connaissance et Vérité - Grammaire Avancée",
           "duration_minutes": 60,
           "grammar": [
-            "Expressions de modalité pour exprimer divers degrés de certitude et de spéculation (Il ne saurait être question de, Il est bien probable que, Il va sans dire que)",
-            "Ponctuation stylistique et parenthèses énonciatives (tirés cadratins, point-virgule pour la prise de position)"
+            "Ne explétif et ne littéraire après les verbes de crainte et les locutions (à moins que, avant que)",
+            "Moyents morphosyntaxiques de l’expression du doute et de la certitude"
           ],
           "practice_types": [
             "writing",
@@ -284,8 +286,8 @@
           "title": "Connaissance et Vérité - Séminaire & Débat",
           "duration_minutes": 90,
           "grammar": [
-            "Réfutation et contre-argumentation (Admettons que X, il n'en demeure pas moins que Y)",
-            "Détection et déconstruction en direct des sophismes logiques"
+            "Propositions subordonnées concessives (Bien que, Quoique, En dépit du fait que)",
+            "Inversion du sujet dans les propositions hypothétiques"
           ],
           "vocabulary": [
             "Chambre d'écho",
@@ -341,8 +343,8 @@
           "title": "Discours et Argumentation - Grammaire Avancée",
           "duration_minutes": 60,
           "grammar": [
-            "Variété de la structure de la phrase : phrases périodiques, équilibrées et parallèles pour l'impact stylistique",
-            "Connecteurs de discours de niveau soutenu (Nonobstant, Pour autant que, En tant que de besoin, Au fur et à mesure que)"
+            "Concordance des temps complexes à l’indicatif et au subjonctif",
+            "Connecteurs logiques et articulateurs du discours soutenu (Nonobstant, Bien que, Dans la mesure où)"
           ],
           "practice_types": [
             "writing",
@@ -359,8 +361,8 @@
           "title": "Discours et Argumentation - Séminaire & Débat",
           "duration_minutes": 90,
           "grammar": [
-            "Négociation avancée, précaution oratoire et gestion de la parole lors de tables rondes formelles",
-            "Discours liminaire et allocution d'ouverture improvisée"
+            "Formes surcomposées et conditionnel passé 2e forme (eût été, eût fallu)",
+            "Tournures passives et factitives (Faire + infinitif, Laisser + infinitif)"
           ],
           "vocabulary": [
             "Discours d'ouverture",
@@ -416,8 +418,8 @@
           "title": "Économie et Marchés Globaux - Grammaire Avancée",
           "duration_minutes": 60,
           "grammar": [
-            "Inversion de l'hypothèse dans la prévision économique (Dussent les banques centrales intervenir..., La taxe vint-elle à augmenter...)",
-            "Anticipation (fronting) et principe du poids final dans l'analyse financière"
+            "Conditionnel passé 2e forme dans le discours économique et prévisionnel",
+            "Inversion du sujet et antéposition de l’adjectif ou du participe"
           ],
           "practice_types": [
             "writing",
@@ -434,8 +436,8 @@
           "title": "Économie et Marchés Globaux - Séminaire & Débat",
           "duration_minutes": 90,
           "grammar": [
-            "Mise en avant syntaxique et tournures passives dans les notes de synthèse géopolitiques",
-            "Concession diplomatique et cadrage des positions adverses"
+            "Style indirect libre et discours rapporté complexe",
+            "Pronoms démonstratifs et possessifs complexes de substitution"
           ],
           "vocabulary": [
             "Traité bilatéral",
@@ -491,8 +493,8 @@
           "title": "Esthétique et Critique Culturelle - Grammaire Avancée",
           "duration_minutes": 60,
           "grammar": [
-            "Nominalisation stylistique et rythme de la phrase dans les essais d'analyse culturelle",
-            "Place des adjectifs et modificateurs adverbiaux pour la nuance esthétique"
+            "Nominalisation stylistique et cadence de la phrase dans l’essai critique",
+            "Placement des adverbes modificateurs pour exprimer les nuances esthétiques"
           ],
           "practice_types": [
             "writing",
@@ -509,7 +511,7 @@
           "title": "Examen Bilan de Maîtrise du Niveau C1",
           "duration_minutes": 90,
           "grammar": [
-            "Examen de synthèse des piliers C1 : précaution oratoire, structures clivées, subjonctif administratif, phrase périodique, et inversions soutenues"
+            "Synthèse générale de la grammaire C1 : subjonctif soutenu, ne explétif, inversion littéraire, participiales et phrases clivées"
           ],
           "vocabulary": [
             "TOUT le lexique C1 spécialisé",

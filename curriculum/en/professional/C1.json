@@ -12,8 +12,8 @@
           "type": "vocab",
           "title": "Strategic Whitepapers & Academic Monograph Writing",
           "grammar": [
-            "Dense nominal structures",
-            "Formal academic/corporate register"
+            "Dense Nominal Structures in Executive White Papers",
+            "Formal Academic and Corporate Register Switching"
           ],
           "vocabulary": [
             "Disruption",
@@ -30,8 +30,8 @@
           "type": "gv",
           "title": "Drafting Board Documents & Academic Directives",
           "grammar": [
-            "Passive voice with modal nuance (It is recommended that..., It shall be enacted...)",
-            "Subjunctive structures in corporate policy formulation"
+            "Passive Voice with Modal Nuance (It is recommended that..., It shall be enacted...)",
+            "Subjunctive Structures in Corporate Policy Formulation"
           ],
           "vocabulary": [
             "Fiduciary",
@@ -49,8 +49,8 @@
           "type": "gv",
           "title": "Crisis Management Communications & Stakeholder Briefs",
           "grammar": [
-            "Advanced hedging and de-escalation syntax",
-            "Conditional structures for risk mitigation scenarios"
+            "Advanced Hedging and De-escalation Syntax",
+            "Conditional Structures for Risk Mitigation Scenarios"
           ],
           "vocabulary": [
             "Contingency",
@@ -68,8 +68,8 @@
           "type": "spoken",
           "title": "Executive Press Releases & Public Statements",
           "grammar": [
-            "Inversion for dramatic emphasis in public statements (Not only has the enterprise expanded...)",
-            "Precision in high-level corporate vocabulary"
+            "Inversion for Dramatic Emphasis in Executive Statements (Not only has the enterprise expanded...)",
+            "Precision in High-Level Corporate Terminology"
           ],
           "vocabulary": [
             "Spokesperson",
@@ -93,8 +93,8 @@
           "type": "spoken",
           "title": "Executive Communication & Boardroom Mediation",
           "grammar": [
-            "Advanced diplomatic phrasing",
-            "Subtleties of tone and emphasis"
+            "Advanced Diplomatic Phrasing and Subtleties of Tone",
+            "Modals of Politeness and Distance"
           ],
           "vocabulary": [
             "Governance",
@@ -105,15 +105,18 @@
             "Alignment"
           ],
           "teacher_notes": "code: \"EN-PRO-C1-005\"\ncando: \"Can mediate boardroom or faculty senate conflicts and align stakeholder interests.\"\ndomain_hints: \"Education: Faculty senate mediation; Legal: Senior partner mediation; Medical: Clinical department alignment; IT: CTO/CIO strategy mediation; Business: Boardroom dispute mediation; Manual Trades: General contractor arbitration; Crafts: Foundation board alignment.\"",
-          "recycled": "Inversion for dramatic emphasis in public statements, Restructuring"
+          "recycled": "Inversion for dramatic emphasis in public statements, Restructuring",
+          "discourse": [
+            "Boardroom Floor Steering and Disagreements Management"
+          ]
         },
         {
           "lesson": 2,
           "type": "spoken",
           "title": "Steering Board Discussions & Managing Dissent",
           "grammar": [
-            "Steering phrases for executive floor control",
-            "Diplomatic counter-arguments (While I appreciate the financial rationale, we must consider...)"
+            "Steering Phrases for Executive Floor Control",
+            "Diplomatic Counter-Arguments (While I appreciate the financial rationale, we must consider...)"
           ],
           "vocabulary": [
             "Dissent",
@@ -131,8 +134,8 @@
           "type": "gv",
           "title": "Navigating Corporate Governance & Institutional Compliance",
           "grammar": [
-            "Formal deontic modality (must comply, is obligated to uphold, shall be subjected to)",
-            "Complex conditionality in regulatory frameworks"
+            "Formal Deontic Modality (must comply, is obligated to uphold, shall be subjected to)",
+            "Complex Conditionality in Regulatory Frameworks"
           ],
           "vocabulary": [
             "Compliance",
@@ -150,8 +153,8 @@
           "type": "vocab",
           "title": "Aligning Multi-Stakeholder Priorities & Strategic Frameworks",
           "grammar": [
-            "Cleft constructions for strategic prioritization (What matters most to our investors is...)",
-            "Discourse connectors of concession and synthesis"
+            "Cleft Constructions for Strategic Prioritization (What matters most to our investors is...)",
+            "Discourse Connectors of Concession and Synthesis"
           ],
           "vocabulary": [
             "Framework",
@@ -175,8 +178,8 @@
           "type": "spoken",
           "title": "Delivering Keynote Speeches & University Professorial Lectures",
           "grammar": [
-            "Rhetorical devices (triad/rule of three, repetition, rhetorical questioning)",
-            "Flawless register control and vocal cadence"
+            "Rhetorical Devices (Triad/Rule of Three, Repetition, Emphatic Clauses)",
+            "Flawless Register Control and Vocal Cadence"
           ],
           "vocabulary": [
             "Visionary",
@@ -194,8 +197,8 @@
           "type": "spoken",
           "title": "High-Stakes Investor Presentations & Venture Pitches",
           "grammar": [
-            "Financial persuasion phrasing",
-            "Hypothetical projections with advanced conditionals (Were we to scale into region X, ROI would exceed...)"
+            "Financial Persuasion Phrasing and Modal Assertions",
+            "Hypothetical Projections with Advanced Conditionals (Were we to scale into region X, ROI would exceed...)"
           ],
           "vocabulary": [
             "Valuation",
@@ -213,8 +216,8 @@
           "type": "gv",
           "title": "Mastering Press Conferences & Hostile Media Q&A",
           "grammar": [
-            "Bridging techniques in media interviews (That is an important point, but what really matters is...)",
-            "Advanced non-committal phrasing"
+            "Bridging Syntax in Media Interviews (That is an important point, but what really matters is...)",
+            "Advanced Non-Committal Modal Phrasing"
           ],
           "vocabulary": [
             "Hostile",
@@ -232,8 +235,8 @@
           "type": "spoken",
           "title": "Moderating Executive Panels & Academic Symposia",
           "grammar": [
-            "Panel moderation framing phrases",
-            "Synthesizing complex panelist contributions live"
+            "Panel Moderation Framing Phrases",
+            "Synthesizing Complex Contributions Live"
           ],
           "vocabulary": [
             "Panelist",
@@ -257,8 +260,8 @@
           "type": "spoken",
           "title": "Mergers, Acquisitions & Academic Research Mergers",
           "grammar": [
-            "Inverted conditionals in contractual bargaining (Had the audit revealed liability, we would have...)",
-            "Subtle hedging in financial valuations"
+            "Inverted Conditionals in Contractual Bargaining (Had the audit revealed liability, we would have...)",
+            "Subtle Hedging in Financial Valuations"
           ],
           "vocabulary": [
             "Acquisition",
@@ -276,8 +279,8 @@
           "type": "gv",
           "title": "Breaking Negotiation Deadlocks & Institutional Mediation",
           "grammar": [
-            "Phrasing for reframing stalemates (Let us reframe this deadlock as an opportunity to...)",
-            "Hypothetical concessions with conditional nuance"
+            "Phrasing for Reframing Stalemates (Let us reframe this deadlock as an opportunity to...)",
+            "Hypothetical Concessions with Conditional Nuance"
           ],
           "vocabulary": [
             "Deadlock",
@@ -295,8 +298,8 @@
           "type": "gv",
           "title": "Tactical Persuasion, Framing & Influence Architecture",
           "grammar": [
-            "Advanced rhetorical framing syntax",
-            "Metaphorical and figurative language in business/academic strategy"
+            "Advanced Rhetorical Framing Syntax",
+            "Metaphorical and Figurative Language in Business Strategy"
           ],
           "vocabulary": [
             "Leverage",
@@ -314,8 +317,8 @@
           "type": "spoken",
           "title": "Drafting & Negotiating International Joint Ventures & Grants",
           "grammar": [
-            "Formal legal register for cross-border contracts",
-            "Precision in defining scope and liability"
+            "Formal Legal Register for Cross-Border Contracts",
+            "Precision in Defining Scope and Liability Clauses"
           ],
           "vocabulary": [
             "Joint venture",
@@ -339,8 +342,8 @@
           "type": "spoken",
           "title": "Executive Networking & High-Net-Worth Relationships",
           "grammar": [
-            "Sophisticated small talk register",
-            "Subtle inquiry into strategic alignment without direct questioning"
+            "Sophisticated Corporate Social Register",
+            "Indirect Inquiries into Strategic Alignment"
           ],
           "vocabulary": [
             "High-net-worth",
@@ -358,8 +361,8 @@
           "type": "spoken",
           "title": "Cross-Cultural Diplomacy & Global Stakeholder Relations",
           "grammar": [
-            "High-context vs low-context communicative register shifts",
-            "Nuanced expressions of respect and authority"
+            "High-Context vs Low-Context Communicative Register Shifts",
+            "Nuanced Expressions of Respect and Authority"
           ],
           "vocabulary": [
             "Diplomacy",
@@ -377,8 +380,8 @@
           "type": "vocab",
           "title": "Managing Advisory Boards & Academic / Industry Think Tanks",
           "grammar": [
-            "Framing advisory input (We value your strategic oversight on...)",
-            "Complex prepositional structures in formal invitations"
+            "Framing Advisory Input (We value your strategic oversight on...)",
+            "Complex Prepositional Structures in Formal Invitations"
           ],
           "vocabulary": [
             "Advisory",
@@ -396,8 +399,8 @@
           "type": "spoken",
           "title": "Hosting Strategic Retreats & Executive / Academic Summits",
           "grammar": [
-            "Executive host discourse markers",
-            "Facilitating high-level strategic alignment conversations"
+            "Executive Host Discourse Markers",
+            "Facilitating High-Level Strategic Alignment Conversations"
           ],
           "vocabulary": [
             "Retreat",
@@ -421,8 +424,8 @@
           "type": "vocab",
           "title": "Executive Dossiers, Board Profiles & Academic Dossiers",
           "grammar": [
-            "Dense, high-impact nominalization in executive bios",
-            "Framing governance experience and fiduciary achievements"
+            "Dense, High-Impact Nominalization in Executive Bios",
+            "Framing Governance Experience and Fiduciary Achievements"
           ],
           "vocabulary": [
             "Dossier",
@@ -440,8 +443,8 @@
           "type": "gv",
           "title": "Executive Search & Boardroom / Chairmanship Interviews",
           "grammar": [
-            "Advanced hypothetical discourse in executive vision questioning",
-            "Articulating strategic philosophy with precise rhetorical structure"
+            "Advanced Hypothetical Discourse in Executive Vision Questioning",
+            "Articulating Strategic Philosophy with Precise Rhetorical Structure"
           ],
           "vocabulary": [
             "Executive search",
@@ -459,8 +462,8 @@
           "type": "spoken",
           "title": "Executive Compensation & Equity Package Negotiations",
           "grammar": [
-            "Nuanced negotiation phrasing for non-salary compensation",
-            "Conditional structures in equity, vesting, and performance bonuses"
+            "Nuanced Negotiation Phrasing for Compensation",
+            "Conditional Structures in Equity, Vesting, and Performance Bonuses"
           ],
           "vocabulary": [
             "Equity",
@@ -478,8 +481,8 @@
           "type": "srev",
           "title": "Conducting 360-Degree Executive Reviews & Institutional Audits",
           "grammar": [
-            "Sophisticated feedback delivery syntax (While leadership agility is demonstrated, institutionalizing process will...)",
-            "Formulating long-term organizational development goals"
+            "Sophisticated Feedback Delivery Syntax (While leadership agility is demonstrated, process will...)",
+            "Formulating Long-Term Organizational Development Goals"
           ],
           "vocabulary": [
             "360-degree",
