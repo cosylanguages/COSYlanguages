@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
-<nav id="cosy-nav"></nav>
+<nav id="cosy-nav" aria-label="Main navigation"></nav>
 
 <!-- Sticky Header -->
 <header class="sd-sticky-header">
@@ -54,20 +54,37 @@
   <p>What word comes after Julia, Tanya, and John? Is it the same word every time?</p>
 </div>
 
-<div class="box mint ccq-section" style="margin-bottom:20px;" data-lesson-unit="reference-grammar/en/lessons/to-be.json">
-  <h3>💡 Check your understanding (CCQs)</h3>
-  <p><i>Answer these quick questions to verify meaning:</i></p>
-  <div class="ccq-item" data-target="Julia is a teacher.">
-    <p><strong>Sentence:</strong> "Julia is a teacher."</p>
-    <p><strong>Q1:</strong> Is Julia a teacher now? <span class="ccq-answer">Yes</span></p>
+<div class="ccq-panel" data-quiz='[{"correct": 0}, {"correct": 1}, {"correct": 1}]' data-lesson-unit="reference-grammar/en/lessons/to-be.json">
+  <div class="quiz-head">
+    <h3>💡 Check your understanding</h3>
+    <span class="quiz-score">Score: 0 / 3</span>
   </div>
-  <div class="ccq-item" data-target="John is a doctor.">
-    <p><strong>Sentence:</strong> "John is a doctor."</p>
-    <p><strong>Q2:</strong> Is John a teacher? <span class="ccq-answer">No, he is a doctor</span></p>
+  <div class="qitem">
+    <div class="qtext">1. "Julia is a teacher." — Is Julia a teacher now?</div>
+    <div class="qopts">
+      <button type="button" class="qopt">Yes</button>
+      <button type="button" class="qopt">No, only in the past</button>
+      <button type="button" class="qopt">We can't tell</button>
+    </div>
+    <div class="qexplain">Yes · 'Is' describes a current state or job in the present simple.</div>
   </div>
-  <div class="ccq-item" data-target="Julia are a teacher.">
-    <p><strong>Sentence:</strong> "Julia are a teacher."</p>
-    <p><strong>Q3:</strong> Can you say 'Julia are a teacher'? <span class="ccq-answer">No</span></p>
+  <div class="qitem">
+    <div class="qtext">2. "John is a doctor." — Is John a teacher?</div>
+    <div class="qopts">
+      <button type="button" class="qopt">Yes</button>
+      <button type="button" class="qopt">No, he is a doctor</button>
+      <button type="button" class="qopt">Yes, he teaches at school</button>
+    </div>
+    <div class="qexplain">No, he is a doctor · The sentence explicitly states his profession is a doctor.</div>
+  </div>
+  <div class="qitem">
+    <div class="qtext">3. Sentence check: Can you say "Julia are a teacher"?</div>
+    <div class="qopts">
+      <button type="button" class="qopt">Yes</button>
+      <button type="button" class="qopt">No</button>
+      <button type="button" class="qopt">Yes, in informal speech</button>
+    </div>
+    <div class="qexplain">No · Singular subject 'Julia' (she) requires 'is', not 'are'.</div>
   </div>
 </div>
 
@@ -115,18 +132,18 @@
  <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 3</span></div>
  <div class="qitem">
  <div class="qtext">1. &#x27;They ___ doctors.&#x27;</div>
- <div class="qopts"><button class="qopt">is</button><button class="qopt">am</button><button class="qopt">are</button></div>
+ <div class="qopts"><button type="button" class="qopt">is</button><button type="button" class="qopt">am</button><button type="button" class="qopt">are</button></div>
  <div class="qexplain">They pairs with 'are': They are doctors.</div>
 </div><div class="qitem">
  <div class="qtext">2. Which is the correct negative of &#x27;She is happy&#x27;?</div>
- <div class="qopts"><button class="qopt">She not is happy.</button><button class="qopt">She isn&#x27;t happy.</button><button class="qopt">She don&#x27;t happy.</button></div>
+ <div class="qopts"><button type="button" class="qopt">She not is happy.</button><button type="button" class="qopt">She isn&#x27;t happy.</button><button type="button" class="qopt">She don&#x27;t happy.</button></div>
  <div class="qexplain">To be forms its own negative: is + not &rarr; isn't.</div>
 </div><div class="qitem">
  <div class="qtext">3. &#x27;___ it Monday today?&#x27;</div>
- <div class="qopts"><button class="qopt">Is</button><button class="qopt">Are</button><button class="qopt">Do</button></div>
+ <div class="qopts"><button type="button" class="qopt">Is</button><button type="button" class="qopt">Are</button><button type="button" class="qopt">Do</button></div>
  <div class="qexplain">'It' takes 'is', and questions with to be invert subject and verb: Is it&hellip;?</div>
 </div>
- <button class="quiz-reset">Reset quiz</button>
+ <button type="button" class="quiz-reset">Reset quiz</button>
 </div><div class="pager"><a class="prev" href="../topics/pronouns.html"><span class="dir">&larr; Previous</span><span class="ttl">Pronouns</span></a><a class="next" href="../topics/there-is-are.html"><span class="dir">Next &rarr;</span><span class="ttl">There is / There are</span></a></div></main><footer class="site">
  <div class="container">
  <div>COSYlanguages · English Grammar Manual, Level A0&ndash;A1 · interactive web edition</div>
