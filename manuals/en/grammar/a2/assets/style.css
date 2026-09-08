@@ -194,6 +194,24 @@ tbody tr:nth-child(even) { background: var(--teal-050); }
 .check-item.done span { text-decoration: line-through; color: var(--ink-soft); opacity: .8; }
 .check-progress { font-family: var(--font-mono); font-size: 12px; color: var(--mint-ink); font-weight: 600; margin-top: 12px; }
 
+/* ---------- ccq panel (stage 2) ---------- */
+.ccq-panel {
+  background: rgba(235, 243, 250, 0.7);
+  border: 1px solid rgba(42, 111, 151, 0.25);
+  border-left: 4px solid var(--teal-600);
+  border-radius: var(--radius-m);
+  padding: 24px;
+  margin: 24px 0;
+  box-shadow: var(--shadow-card);
+}
+.ccq-panel .quiz-head h3 {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 800;
+  margin: 0;
+  color: var(--teal-900);
+}
+
 /* ---------- quiz ---------- */
 .quiz-panel {
   background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius-l);
