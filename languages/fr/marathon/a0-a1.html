@@ -202,8 +202,6 @@
     padding: 1.25rem 1.5rem;
   }
 
-  .star-rating { color: #f59e0b; }
-
   .level-nav-bar {
     display: flex;
     justify-content: space-between;
@@ -220,15 +218,6 @@
     font-weight: 700;
     text-decoration: none;
   }
-
-  .vocab-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 0.8rem 0;
-    font-size: 0.9rem;
-  }
-  .vocab-table th { background: #e8f5e9; color: #1b4332; padding: 0.5rem; text-align: left; }
-  .vocab-table td { border: 1px solid #e2e8f0; padding: 0.5rem; }
 
   .alphabet-grid {
     display: grid;
@@ -270,7 +259,7 @@
     <span class="mp-badge">🟢 CECRL A0-A1</span>
     <span class="mp-badge">Débutant absolu</span>
     <span class="mp-badge">Recettes physiques de sons</span>
-    <span class="mp-badge">8 Parties Fondamentales</span>
+    <span class="mp-badge">8 Unités Complètes</span>
   </div>
   <h1>🟢 NIVEAU A0-A1 — Lecture et Prononciation du Français Moderne</h1>
   <p class="subtitle">Toutes les règles indispensables pour déchiffrer et prononcer le français sans aucune hésitation.</p>
@@ -281,7 +270,7 @@
   <div class="beginner-notice">
     <h4>💡 Vous débutez en français ? (Welcome Beginners!)</h4>
     <p style="margin: 0; font-size: 0.95rem; color: #1e3a8a;">
-      Ce niveau est votre guide complet étape par étape. Chaque leçon contient une <strong>recette de son physique</strong> (comment placer votre bouche et votre langue) et une structure explicative à 12 champs.
+      Ce niveau est votre guide complet étape par étape. Chaque leçon contient une <strong>recette de son physique</strong> (comment placer votre bouche et votre langue) et notre structure fixe à 14 champs avec visuel dédié.
     </p>
   </div>
 
@@ -297,9 +286,9 @@
     </ul>
   </div>
 
-  <!-- PARTIE 1 -->
+  <!-- UNITE 1 -->
   <section class="mp-section">
-    <h2>Partie 1 — L'Alphabet et ses catégories</h2>
+    <h2>Unité 1 — L'Alphabet et les sons purs</h2>
     <div class="alphabet-grid">
       <div class="alphabet-card"><div class="letter">A</div><div class="ipa">[a]</div><div class="example">ami</div></div>
       <div class="alphabet-card"><div class="letter">B</div><div class="ipa">[be]</div><div class="example">bon</div></div>
@@ -330,131 +319,60 @@
     </div>
   </section>
 
-  <!-- PARTIE 2 -->
+  <!-- UNITE 5 LES NASALES -->
   <section class="mp-section">
-    <h2>Partie 2 — Les Accents (é, è, à, ù, â, ê, î, ô, û, ë, ï, ç)</h2>
-    <div class="mp-12field-grid">
-      <div class="mp-field-box full-width">
-        <span class="mp-field-tag">Accent Aigu (é)</span>
-        <div class="mp-field-content">
-          <strong>Rôle :</strong> Ferme la voyelle 'e' en son [e].<br>
-          <strong>Logique :</strong> Souvent dérivé d'un 's' latin tombé (ex: <em>école</em> &lt; <em>schola</em>).<br>
-          <strong>Exemples :</strong> café, été, école, télévision.
-        </div>
-      </div>
-      <div class="mp-field-box full-width">
-        <span class="mp-field-tag">Accent Grave (è, à, ù)</span>
-        <div class="mp-field-content">
-          <strong>Rôle :</strong> Sur 'e' = son ouvert [ɛ] (<em>mère</em>). Sur 'a' et 'u' = distingue des homonymes (<em>a</em> vs <em>à</em>, <em>ou</em> vs <em>où</em>).<br>
-          <strong>Exemples :</strong> père, très, à Paris, où vas-tu ?
-        </div>
-      </div>
-      <div class="mp-field-box full-width">
-        <span class="mp-field-tag">Accent Circonflexe & Tréma & Cédille</span>
-        <div class="mp-field-content">
-          • <strong>Circonflexe (â, ê, î, ô, û) :</strong> Allonge la voyelle ou indique la chute d'un anciens 's' (<em>fête, hôpital, château</em>).<br>
-          • <strong>Tréma (ë, ï, ü, ÿ) :</strong> Force la prononciation séparée de deux voyelles (<em>Noël, maïs, citroën</em>).<br>
-          • <strong>Cédille (ç) :</strong> Donne au C le son doux [s] devant A, O, U (<em>garçon, français, leçon</em>).
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- PARTIE 3 -->
-  <section class="mp-section">
-    <h2>Partie 3 — Les Voyelles fondamentales (A, E, I, O, U, Y)</h2>
+    <h2>Unité 5 — Les Nasales de Base (AN / AM / EN / EM)</h2>
     <div class="lesson-sample">
       <div class="lesson-sample-header">
-        <h3>12-Field Schema — Voyelle U [y] vs Digramme OU [u]</h3>
+        <h3>Gabarit 14 Champs — Leçon 5.1 : Les Nasales AN / AM / EN / EM</h3>
       </div>
       <div class="lesson-sample-body">
-        <div class="visual-frame" data-visual='{"type":"contrast","leftLabel":"U","leftIpa":"[y]","leftWords":["tu","lune"],"rightLabel":"OU","rightIpa":"[u]","rightWords":["tout","loup"]}'></div>
+        <div class="visual-frame" data-visual='{"type":"grapheme","main":"AN / EN","ipa":"[ɑ̃]","words":["enfant","temps","grand"]}'></div>
         <div class="mp-12field-grid">
-          <div class="mp-field-box full-width"><span class="mp-field-tag">Définition</span><div class="mp-field-content">Le son U [y] est une voyelle antérieure fermée arrondie, absente de l'anglais.</div></div>
-          <div class="mp-field-box full-width"><span class="mp-field-tag">Règle</span><div class="mp-field-content">La lettre 'u' seule se lit toujours [y] (<em>tu, du, rue</em>). La combinaison 'ou' se lit [u] (<em>tout, doux, roue</em>).</div></div>
-          <div class="mp-field-box"><span class="mp-field-tag">Pourquoi ?</span><div class="mp-field-content">Évolution phonétique du latin vers l'ancien français.</div></div>
-          <div class="mp-field-box"><span class="mp-field-tag">Comment reconnaître ?</span><div class="mp-field-content">U sans 'o' avant = [y]. OU ensemble = [u].</div></div>
-          <div class="mp-field-box"><span class="mp-field-tag">Exemples courants</span><div class="mp-field-content">tu, lune, vu, musique, voiture</div></div>
-          <div class="mp-field-box"><span class="mp-field-tag">Contre-exemples</span><div class="mp-field-content">vous, loup, jour (son OU)</div></div>
-          <div class="mp-field-box"><span class="mp-field-tag">Exceptions</span><div class="mp-field-content">Mots empruntés (ex: <em>club</em> [klœb]).</div></div>
-          <div class="mp-field-box"><span class="mp-field-tag">Erreurs fréquentes</span><div class="mp-field-content">Prononcer 'tu' comme 'too' [tu].</div></div>
-          <div class="mp-field-box"><span class="mp-field-tag">Astuce</span><div class="mp-field-content">Dites « i » avec un sourire puis avancez les lèvres en cul-de-poule sans bouger la langue !</div></div>
+          <div class="mp-field-box full-width"><span class="mp-field-tag">Définition</span><div class="mp-field-content">Une voyelle nasale est un son où l'air passe simultanément par la bouche et le nez.</div></div>
+          <div class="mp-field-box full-width"><span class="mp-field-tag">Règle</span><div class="mp-field-content">a ou e, suivi de n ou m en fin de syllabe (non suivi d'une voyelle), se lit [ɑ̃].</div></div>
+          <div class="mp-field-box"><span class="mp-field-tag">Pourquoi ?</span><div class="mp-field-content">Le n/m ne se prononce plus lui-même depuis des siècles : il a transféré sa nasalité à la voyelle précédente.</div></div>
+          <div class="mp-field-box"><span class="mp-field-tag">Comment reconnaître ?</span><div class="mp-field-content">Repérer an/am/en/em quand ils sont suivis d'une consonne ou en fin de mot.</div></div>
+          <div class="mp-field-box"><span class="mp-field-tag">Exemples courants</span><div class="mp-field-content">enfant, temps, grand, champ, entrer, novembre, chambre, ensemble</div></div>
+          <div class="mp-field-box"><span class="mp-field-tag">Contre-exemples</span><div class="mp-field-content">ami (n/m suivi d'une voyelle ➔ non nasal), année</div></div>
+          <div class="mp-field-box"><span class="mp-field-tag">Exceptions</span><div class="mp-field-content">femme se lit [fam], pas [fɑ̃m] — cas isolé à mémoriser.</div></div>
+          <div class="mp-field-box"><span class="mp-field-tag">Erreurs fréquentes</span><div class="mp-field-content">Prononcer le n/m comme en anglais avec un vrai [n] consonne final.</div></div>
+          <div class="mp-field-box"><span class="mp-field-tag">Astuce mémorisation</span><div class="mp-field-content">« Le n et le m ferment la bouche mais ouvrent le nez ».</div></div>
+          <div class="mp-field-box"><span class="mp-field-tag">Vocabulaire clé</span><div class="mp-field-content">enfant, temps, grand, champ, chambre, novembre, ensemble, dimanche</div></div>
           <div class="mp-field-box"><span class="mp-field-tag">Fréquence</span><div class="mp-field-content">★★★★★ (Indispensable)</div></div>
           <div class="mp-field-box"><span class="mp-field-tag">Niveau CECRL</span><div class="mp-field-content">🟢 A0-A1</div></div>
-          <div class="mp-field-box full-width"><span class="mp-field-tag">À retenir</span><div class="mp-field-content">U = lèvres avancées sur un son 'i'. OU = le son du loup.</div></div>
+          <div class="mp-field-box full-width"><span class="mp-field-tag">Visuel associé (Famille)</span><div class="mp-field-content">🗣️ 1. Schéma articulatoire : coupe de la bouche montrant le voile du palais abaissé, l'air se divisant entre bouche et nez.</div></div>
+          <div class="mp-field-box full-width"><span class="mp-field-tag">À retenir</span><div class="mp-field-content">Une voyelle + n/m sans voyelle après = son nasal [ɑ̃], jamais un vrai N ou M prononcé.</div></div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- PARTIE 4 -->
+  <!-- UNITE 8 LOGIQUE DES MOTS -->
   <section class="mp-section">
-    <h2>Partie 4 — Les Consonnes (B à Z)</h2>
+    <h2>Unité 8 — Logique des Mots (A1)</h2>
     <div class="mp-12field-grid">
-      <div class="mp-field-box"><span class="mp-field-tag">C et G</span><div class="mp-field-content">Devant A, O, U = dur ([k] / [g]). Devant E, I, Y = doux ([s] / [ʒ]). (<em>café, ceci, gare, girafe</em>)</div></div>
-      <div class="mp-field-box"><span class="mp-field-tag">S entre voyelles</span><div class="mp-field-content">S entre deux voyelles vibre [z] (<em>maison, rose</em>). SS = [s] (<em>poisson</em>).</div></div>
-      <div class="mp-field-box"><span class="mp-field-tag">H muet</span><div class="mp-field-content">La lettre H ne se prononce JAMAIS en français moderne (<em>homme, hôtel</em>).</div></div>
-      <div class="mp-field-box"><span class="mp-field-tag">R français</span><div class="mp-field-content">R guttural / uvulaire [ʁ] produit au fond de la gorge (<em>rue, Paris, merci</em>).</div></div>
-    </div>
-  </section>
-
-  <!-- PARTIE 5 -->
-  <section class="mp-section">
-    <h2>Partie 5 — Les premiers groupes de lettres (Digrammes & Trigrammes)</h2>
-    <table class="mp-table">
-      <thead>
-        <tr><th>Groupe</th><th>Son IPA</th><th>Exemples</th><th>Règle & Astuce</th></tr>
-      </thead>
-      <tbody>
-        <tr><td><strong>AI / EI</strong></td><td>[ɛ]</td><td>faire, neige, maison</td><td>Se lit comme le 'è' ouvert.</td></tr>
-        <tr><td><strong>AU / EAU</strong></td><td>[o]</td><td>auto, eau, bateau</td><td>Se lit 'o' fermé.</td></tr>
-        <tr><td><strong>OI</strong></td><td>[wa]</td><td>moi, toi, roi, voiture</td><td>Combinaison [w] + [a].</td></tr>
-        <tr><td><strong>OU</strong></td><td>[u]</td><td>nous, vous, loup</td><td>Son doux [u].</td></tr>
-        <tr><td><strong>EU / ŒU</strong></td><td>[ø] / [œ]</td><td>bleu, fleur, œuf</td><td>Lèvres rondes sur un 'e'.</td></tr>
-        <tr><td><strong>AN / AM / EN / EM</strong></td><td>[ɑ̃]</td><td>enfant, temps, ensemble</td><td>Nasale A : bouche ouverte.</td></tr>
-        <tr><td><strong>IN / IM / AIN / EIN</strong></td><td>[ɛ̃]</td><td>matin, timbre, pain, plein</td><td>Nasale I : sourire léger.</td></tr>
-        <tr><td><strong>ON / OM</strong></td><td>[ɔ̃]</td><td>bonbon, nom, maison</td><td>Nasale O : lèvres rondes.</td></tr>
-        <tr><td><strong>GN</strong></td><td>[ɲ]</td><td>montagne, espagnol</td><td>Son 'ni' mouillé.</td></tr>
-        <tr><td><strong>PH / CH / QU</strong></td><td>[f] / [ʃ] / [k]</td><td>photo, chat, qui</td><td>Consonnes composées.</td></tr>
-      </tbody>
-    </table>
-  </section>
-
-  <!-- PARTIE 6 -->
-  <section class="mp-section">
-    <h2>Partie 6 — Les Lettres Muettes Finales</h2>
-    <div class="mnemonic-box">
-      <h4> Mnémonique des muettes : « Sale Table De Petit Xylo Zéro »</h4>
-      <p style="margin: 0;">Les consonnes finales <strong>-s, -t, -d, -p, -x, -z, -g</strong> ne se prononcent pas en fin de mot isolé !<br>
-      <em>Exemples :</em> petit [pəti], grand [gʁɑ̃], trop [tʁo], prix [pʁi], chez [ʃe].</p>
-    </div>
-  </section>
-
-  <!-- PARTIE 7 -->
-  <section class="mp-section">
-    <h2>Partie 7 — Les Consonnes Doubles (mm, nn, tt, pp, ll, ff)</h2>
-    <div class="mp-field-box full-width">
-      <span class="mp-field-tag">Règle des consonnes doubles</span>
-      <div class="mp-field-content">
-        En français, une consonne double ne se prononce PAS plus longuement qu'une consonne simple. Son rôle principal est d'<strong>annuler la nasalisation</strong> (<em>bon</em> [bɔ̃] vs <em>bonne</em> [bɔn]) ou de **modifier la voyelle précédente** (<em>e</em> devant consonne double = [ɛ] : <em>terre, belle, pomme</em>).
+      <div class="mp-field-box full-width">
+        <span class="mp-field-tag">8.1 Mots « internationaux » transparents</span>
+        <div class="mp-field-content">
+          Sans traduire, observez la ressemblance de forme : <em>hôtel, taxi, restaurant, téléphone, musique, théâtre, bus, café, train</em>.
+        </div>
+      </div>
+      <div class="mp-field-box full-width">
+        <span class="mp-field-tag">8.2 Suffixes universels (-tion, -ique, -al)</span>
+        <div class="mp-field-content">
+          • <strong>-tion</strong> [sjɔ̃] : <em>nation, station, attention, information</em>.<br>
+          • <strong>-ique</strong> [ik] : <em>musique, fantastique, automatique</em>.<br>
+          • <strong>-al</strong> [al] : <em>national, général, spécial</em>.
+        </div>
+      </div>
+      <div class="mp-field-box full-width">
+        <span class="mp-field-tag">8.3 Verbes fondamentaux à l'infinitif (-er, -ir, -re)</span>
+        <div class="mp-field-content">
+          <em>parler</em> [paʁle], <em>manger</em> [mɑ̃ʒe], <em>aller</em> [ale], <em>être</em> [ɛtʁ], <em>avoir</em> [avwaʁ].
+        </div>
       </div>
     </div>
-  </section>
-
-  <!-- PARTIE 8 -->
-  <section class="mp-section">
-    <h2>Partie 8 — Les Finales Courantes (-er, -ez, -ent, -tion, -ment)</h2>
-    <table class="mp-table">
-      <thead>
-        <tr><th>Finale</th><th>Prononciation</th><th>Exemples</th><th>Note</th></tr>
-      </thead>
-      <tbody>
-        <tr><td><strong>-er / -ez</strong></td><td>[e]</td><td>parler, manger, chez, vous allez</td><td>R et Z sont muets.</td></tr>
-        <tr><td><strong>-ent (verbes)</strong></td><td>muet [ə]</td><td>ils parlent, ils mangent</td><td>Les lettres -ent de la 3e personne du pluriel ne parlent PAS !</td></tr>
-        <tr><td><strong>-tion / -sion</strong></td><td>[sjɔ̃] / [zjɔ̃]</td><td>attention, vision</td><td>Suffixe de nom très fréquent.</td></tr>
-        <tr><td><strong>-ment</strong></td><td>[mɑ̃]</td><td>rapidement, appartement</td><td>Suffixe d'adverbe ou nom.</td></tr>
-      </tbody>
-    </table>
   </section>
 
   <div class="level-nav-bar">

@@ -210,8 +210,8 @@ function initMarathonProgress() {
   updateUI();
 }
 
-/* Helper to dynamically build 12-field lesson markup if needed */
-function render12FieldLesson(data) {
+/* Helper to dynamically build 14-field lesson markup */
+function render14FieldLesson(data) {
   if (!data) return "";
   const fields = [
     { key: "definition", label: "Définition", full: true },
@@ -223,8 +223,10 @@ function render12FieldLesson(data) {
     { key: "exceptions", label: "Exceptions", full: false },
     { key: "frequentErrors", label: "Erreurs fréquentes", full: false },
     { key: "tip", label: "Astuce mémorisation", full: false },
+    { key: "vocabKey", label: "Vocabulaire clé", full: false },
     { key: "frequency", label: "Fréquence", full: false },
     { key: "level", label: "Niveau CECRL", full: false },
+    { key: "visualDesc", label: "Visuel associé (Famille)", full: true },
     { key: "takeaway", label: "À retenir", full: true }
   ];
 
@@ -241,6 +243,11 @@ function render12FieldLesson(data) {
   });
   html += `</div>`;
   return html;
+}
+
+/* Alias for backward compatibility */
+function render12FieldLesson(data) {
+  return render14FieldLesson(data);
 }
 
 document.addEventListener("DOMContentLoaded", initMarathonProgress);
