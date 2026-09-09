@@ -340,3 +340,47 @@ body.theme-dark .sd-jump-link:hover, body.theme-dark .sd-jump-link.active {
   .hero h1{font-size:1.7rem;}
   .country-tabs{gap:.4rem;}
 }
+
+/* 12-Field Marathon Lesson Schema Styles */
+.mp-12field-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0;
+}
+
+.mp-field-box {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 1rem 1.1rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.mp-field-box.full-width {
+  grid-column: 1 / -1;
+}
+
+.mp-field-tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--sage-dark);
+  background: var(--sage-pale);
+  padding: 0.2rem 0.55rem;
+  border-radius: 4px;
+  margin-bottom: 0.4rem;
+}
+
+html[data-theme="dark"] .mp-field-tag, body.theme-dark .mp-field-tag {
+  color: #86efac;
+  background: var(--sage-pale);
+}
+
+.mp-field-content {
+  font-size: 0.92rem;
+  color: var(--card-text);
+  line-height: 1.6;
+}

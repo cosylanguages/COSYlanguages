@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>⚫ Marathon de Prononciation — Niveau C2 Expertise Linguistique · COSY</title>
-<meta name="description" content="Marathon de prononciation française C2 : réforme orthographique de 1990, lettres fantômes, étymologie et évolutions historiques.">
+<title>⚫ Marathon de Prononciation — Niveau C2 Expertise & Évolution · COSY</title>
+<meta name="description" content="Marathon de prononciation française C2 : histoire de la langue, réformes orthographiques de 1835, 1901 et 1990, lettres fantômes, exceptions historiques et règles probabilistes.">
 <link rel="stylesheet" href="../../../css/tokens.css">
 <link rel="stylesheet" href="../../../css/base.css">
 <link rel="stylesheet" href="../../../css/components.css">
@@ -13,207 +13,21 @@
 <link rel="stylesheet" href="../../../css/lang-accents.css">
 <link rel="stylesheet" href="../../../css/mobile.css">
 <style>
-  :root {
-    --mp-primary: #18181b;
-    --mp-primary-light: #f4f4f5;
-    --mp-accent: #27272a;
-    --mp-border: #e4e4e7;
-  }
-
-  body {
-    font-family: 'Nunito', system-ui, -apple-system, sans-serif;
-    color: #2c3e50;
-    background-color: #fcfdfc;
-    line-height: 1.65;
-  }
-
-  .mp-hero {
-    background: linear-gradient(135deg, #09090b 0%, #18181b 50%, #27272a 100%);
-    color: #ffffff;
-    padding: 3rem 1.5rem 2rem;
-    border-bottom: 4px solid #a1a1aa;
-    text-align: center;
-  }
-
-  .mp-hero h1 {
-    font-family: 'Lora', Georgia, serif;
-    font-size: 2.2rem;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-    color: #ffffff;
-  }
-
-  .mp-hero p.subtitle {
-    font-size: 1.14rem;
-    color: #f4f4f5;
-    max-width: 800px;
-    margin: 0 auto 1.25rem;
-  }
-
-  .mp-badges {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.5rem;
-    margin-top: 0.75rem;
-  }
-
-  .mp-badge {
-    background: rgba(255, 255, 255, 0.18);
-    backdrop-filter: blur(4px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    color: #ffffff;
-    padding: 0.3rem 0.75rem;
-    border-radius: 50px;
-    font-size: 0.85rem;
-    font-weight: 600;
-  }
-
-  .sd-sticky-header {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    background: #ffffff;
-    border-bottom: 1px solid #e2e8f0;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  }
-
-  .sd-jump-links {
-    display: flex;
-    gap: 0.5rem;
-    overflow-x: auto;
-    padding: 0.75rem 1.5rem;
-    white-space: nowrap;
-    max-width: 1100px;
-    margin: 0 auto;
-  }
-
-  .sd-jump-link {
-    color: #18181b;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 0.88rem;
-    padding: 0.3rem 0.7rem;
-    border-radius: 6px;
-    background: #f4f4f5;
-    transition: background 0.2s, color 0.2s;
-  }
-
-  .sd-jump-link:hover, .sd-jump-link.active {
-    background: #18181b;
-    color: #ffffff;
-  }
-
-  .mp-container {
-    max-width: 1100px;
-    margin: 2rem auto;
-    padding: 0 1.5rem;
-  }
-
-  .mp-section {
-    background: #ffffff;
-    border-radius: 12px;
-    border: 1px solid #e2e8f0;
-    padding: 2rem;
-    margin-bottom: 2.5rem;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
-  }
-
-  .mp-section h2 {
-    color: #09090b;
-    font-family: 'Lora', Georgia, serif;
-    font-size: 1.7rem;
-    margin-top: 0;
-    padding-bottom: 0.75rem;
-    border-bottom: 2px solid #e4e4e7;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
-
-  .mp-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 1.25rem 0;
-    font-size: 0.95rem;
-  }
-
-  .mp-table th, .mp-table td {
-    padding: 0.85rem 1rem;
-    border: 1px solid #e2e8f0;
-    text-align: left;
-    vertical-align: top;
-  }
-
-  .mp-table th {
-    background-color: #f4f4f5;
-    color: #09090b;
-    font-weight: 700;
-  }
-
-  .mp-table tr:nth-child(even) {
-    background-color: #fafafa;
-  }
-
-  .mnemonic-box {
-    background: #fff8e1;
-    border-left: 4px solid #f57f17;
-    border-radius: 6px;
-    padding: 1rem 1.25rem;
-    margin: 1rem 0;
-  }
-
-  .lesson-sample {
-    background: #ffffff;
-    border: 2px solid #a1a1aa;
-    border-radius: 12px;
-    margin-bottom: 2rem;
-    overflow: hidden;
-  }
-
-  .lesson-sample-header {
-    background: #18181b;
-    color: #ffffff;
-    padding: 1rem 1.5rem;
-  }
-
-  .lesson-sample-header h3 {
-    margin: 0;
-    color: #ffffff;
-    font-size: 1.25rem;
-  }
-
-  .lesson-sample-body {
-    padding: 1.25rem 1.5rem;
-  }
-
-  .star-rating { color: #f59e0b; }
-
-  .level-nav-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #f4f4f5;
-    border: 1px solid #e4e4e7;
-    border-radius: 8px;
-    padding: 1rem 1.5rem;
-    margin-top: 2rem;
-  }
-
-  .level-nav-bar a {
-    color: #09090b;
-    font-weight: 700;
-    text-decoration: none;
-  }
-
-  .vocab-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 0.8rem 0;
-    font-size: 0.9rem;
-  }
-  .vocab-table th { background: #f4f4f5; color: #09090b; padding: 0.5rem; text-align: left; }
-  .vocab-table td { border: 1px solid #e2e8f0; padding: 0.5rem; }
+  body { font-family: 'Nunito', system-ui, sans-serif; color: #2c3e50; background: #fcfdfc; line-height: 1.65; }
+  .mp-hero { background: linear-gradient(135deg, #18181b 0%, #27272a 50%, #3f3f46 100%); color: #fff; padding: 3rem 1.5rem 2rem; border-bottom: 4px solid #e4e4e7; text-align: center; }
+  .mp-hero h1 { font-family: 'Lora', Georgia, serif; font-size: 2.2rem; margin-bottom: 0.5rem; color: #fff; }
+  .mp-hero p.subtitle { font-size: 1.14rem; color: #e4e4e7; max-width: 800px; margin: 0 auto 1.25rem; }
+  .sd-sticky-header { position: sticky; top: 0; z-index: 100; background: #fff; border-bottom: 1px solid #e2e8f0; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+  .sd-jump-links { display: flex; gap: 0.5rem; overflow-x: auto; padding: 0.75rem 1.5rem; white-space: nowrap; max-width: 1100px; margin: 0 auto; }
+  .sd-jump-link { color: #18181b; font-weight: 700; font-size: 0.88rem; padding: 0.3rem 0.7rem; border-radius: 6px; background: #f4f4f5; }
+  .sd-jump-link.active { background: #18181b; color: #fff; }
+  .mp-container { max-width: 1100px; margin: 2rem auto; padding: 0 1.5rem; }
+  .mp-section { background: #fff; border-radius: 12px; border: 1px solid #e2e8f0; padding: 2rem; margin-bottom: 2.5rem; }
+  .mp-section h2 { color: #18181b; font-family: 'Lora', Georgia, serif; font-size: 1.6rem; border-bottom: 2px solid #e4e4e7; padding-bottom: 0.5rem; }
+  .mp-table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.92rem; }
+  .mp-table th, .mp-table td { padding: 0.75rem 1rem; border: 1px solid #e2e8f0; text-align: left; }
+  .mp-table th { background: #f4f4f5; color: #18181b; }
+  .level-nav-bar { display: flex; justify-content: space-between; align-items: center; background: #f4f4f5; border: 1px solid #e4e4e7; border-radius: 8px; padding: 1rem 1.5rem; margin-top: 2rem; }
 </style>
 </head>
 <body data-lang-theme="fr">
@@ -221,7 +35,7 @@
 <nav id="cosy-nav"></nav>
 
 <header class="sd-sticky-header">
-  <nav class="sd-jump-links" aria-label="Navigation Marathon">
+  <nav class="sd-jump-links">
     <a href="../marathon-prononciation.html" class="sd-jump-link">← Hub Marathon</a>
     <a href="a0-a1.html" class="sd-jump-link">🟢 A0-A1 Fondations</a>
     <a href="a2.html" class="sd-jump-link">🟡 A2 Structures</a>
@@ -233,73 +47,60 @@
 </header>
 
 <header class="mp-hero">
-  <div class="mp-badges">
-    <span class="mp-badge">⚫ CECRL C2</span>
-    <span class="mp-badge">Réforme Orthographique 1990</span>
-    <span class="mp-badge">Étymologie & Lettres Fantômes</span>
-  </div>
-  <h1>⚫ NIVEAU C2 — Expertise & Analyse Historique</h1>
-  <p class="subtitle">Comprenez la coexistence des graphies, les réformes orthographiques, les lettres étymologiques et les archaïsmes phonétiques.</p>
+  <h1>⚫ NIVEAU C2 — Histoire, Réformes & Maîtrise Diachronique</h1>
+  <p class="subtitle">Évolutions historiques du latin au français moderne, réformes orthographiques (1835, 1990), lettres étymologiques et règles probabilistes.</p>
 </header>
 
 <main class="mp-container">
 
-  <div class="mnemonic-box">
-    <h4>💡 Principes clés du niveau C2</h4>
-    <ul style="margin: 0.5rem 0 0 1.2rem; padding: 0;">
-      <li><strong>1. Réforme de 1990 :</strong> Tolérance des deux graphies : la suppression facultative de l'accent circonflexe sur I/U (<em>coût → cout</em>, sauf homonymes comme <em>sûr/sur</em>) et soudure des mots composés.</li>
-      <li><strong>2. Lettres fantômes étymologiques :</strong> Le P dans <em>sept</em> ou le H dans <em>théâtre</em> sont des vestiges érudits réintroduits à la Renaissance.</li>
-      <li><strong>3. Traces archaïques :</strong> La graphie OI se prononçait [ɛ] historiquement, conservée dans <em>je faisais</em> [ʒə fəzɛ].</li>
-    </ul>
-  </div>
+  <!-- 1. HISTOIRE DE LA PRONONCIATION -->
+  <section class="mp-section">
+    <h2>1. Histoire de la Prononciation du Latin au Français Moderne</h2>
+    <div class="mp-12field-grid">
+      <div class="mp-field-box full-width"><span class="mp-field-tag">Évolution diachronique des graphies complexes</span><div class="mp-field-content">
+        • <strong>EAU / AUX :</strong> Du latin <em>aqua</em> ➔ ancien français <em>ewe</em> ➔ moyen français <em>eau</em> [eo] ➔ moderne [o].<br>
+        • <strong>OI :</strong> Prononcé [oi] au Moyen Âge, puis [uɛ] au XVIIe siècle, et enfin fixé en [wa] après la Révolution française (popularisé par le peuple parisien).<br>
+        • <strong>OI dans l'imparfait :</strong> La réforme de 1835 a remplacé la graphie <em>oi</em> par <em>ai</em> pour les verbes (ex: <em>j'étois</em> ➔ <em>j'étais</em>).
+      </div></div>
+    </div>
+  </section>
 
-  <section id="c2-content" class="mp-section">
-    <h2>Unité 1 — Réformes, Étymologie & Vestiges Historiques</h2>
+  <!-- 2. REFORMES ORTHOGRAPHIQUES -->
+  <section class="mp-section">
+    <h2>2. Les Réformes Orthographiques Majeures (1835, 1901, 1990)</h2>
+    <table class="mp-table">
+      <thead><tr><th>Mots concernés</th><th>Graphie traditionnelle</th><th>Graphie rectifiée (1990)</th><th>Prononciation</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Oignon</strong></td><td>oignon</td><td><strong>ognon</strong></td><td>[ɔɲɔ̃] (Suppression du I muet trompeur)</td></tr>
+        <tr><td><strong>Nénuphar</strong></td><td>nénuphar</td><td><strong>nénufar</strong></td><td>[ne.ny.faʁ] (Correction de la fausse origine grecque)</td></tr>
+        <tr><td><strong>Coût / Paraître</strong></td><td>coût, paraître</td><td><strong>cout, paraitre</strong></td><td>[ku], [pa.ʁɛtʁ] (Suppression des circonflexes inutiles sur U/I)</td></tr>
+        <tr><td><strong>Événement</strong></td><td>événement</td><td><strong>évènement</strong></td><td>[e.vɛn.mɑ̃] (Alignement sur la prononciation réelle)</td></tr>
+      </tbody>
+    </table>
+  </section>
 
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 1.1 — La réforme orthographique de 1990 et tolérances</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <div class="visual-frame" data-visual='{"type":"contrast","leftLabel":"Traditionnelle","leftIpa":"[oɲɔ̃]","leftWords":["oignon"],"rightLabel":"Rectifiée (1990)","rightIpa":"[oɲɔ̃]","rightWords":["ognon"]}'></div>
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Coexistence officielle</th><td>
-              • Suppression facultative de l'accent circonflexe sur I et U quand il n'évite pas de confusion (<em>cout, paraitre</em> vs <em>sûr/sur, mûr/mur</em>).<br>
-              • Soudure de mots composés (<em>nénuphar → nénufar, week-end → weekend</em>).<br>
-              • Les deux orthographes sont reconnues exactes par l'Académie française.
-            </td></tr>
-            <tr><th>Un peu de vocabulaire</th><td>
-              <table class="vocab-table">
-                <tr><th>Graphie traditionnelle</th><th>Graphie rectifiée</th><th>Prononciation</th></tr>
-                <tr><td>oignon</td><td>ognon</td><td>[oɲɔ̃]</td></tr>
-                <tr><td>coût</td><td>cout</td><td>[ku]</td></tr>
-              </table>
-            </td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★☆☆☆</span></td></tr>
-          </tbody>
-        </table>
+  <!-- 3. LETTRES FANTOMES ET ETYMOLOGIE -->
+  <section class="mp-section">
+    <h2>3. Lettres Fantômes & Éléments Étylogiques Muets</h2>
+    <div class="mp-12field-grid">
+      <div class="mp-field-box"><span class="mp-field-tag">sept (7)</span><div class="mp-field-content">P muet conservé par les érudits de la Renaissance pour rappeler le latin <em>septem</em>.</div></div>
+      <div class="mp-field-box"><span class="mp-field-tag">doigt</span><div class="mp-field-content">G et T muets réintroduits artificiellement d'après le latin <em>digitum</em>.</div></div>
+      <div class="mp-field-box"><span class="mp-field-tag">poids</span><div class="mp-field-content">D inséré par erreur au Moyen Âge en croyant qu'il dérivait de <em>pondus</em> (il vient de <em>pensum</em> !).</div></div>
+      <div class="mp-field-box"><span class="mp-field-tag">vingt (20)</span><div class="mp-field-content">G et T finaux rappelant le latin <em>viginti</em>.</div></div>
+    </div>
+  </section>
+
+  <!-- 4. REGLES PROBABILISTES POUR MOTS INCONNUS -->
+  <section class="mp-section">
+    <h2>4. Règles Probabilistes de Lecture des Mots Inconnus</h2>
+    <div class="mp-field-box full-width">
+      <span class="mp-field-tag">Algorithme d'orthographe inverse et devinette phonétique</span>
+      <div class="mp-field-content">
+        1. Tout mot se terminant par une consonne autre que C, R, F, L a 95% de chances de voir sa consonne finale muette.<br>
+        2. Tout 'e' suivi de deux consonnes identiques est prononcé [ɛ] ouvert (<em>terrasse, belle, nette</em>).<br>
+        3. Tout mot d'origine grecque comprenant CH se lit [k] s'il est suivi d'une consonne ou d'une voyelle dans un contexte scientifique (<em>chlorophylle, psychisme</em>).
       </div>
     </div>
-
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 1.2 — Lettres fantômes, Étymologie & Archaïsmes (je faisais)</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <div class="visual-frame" data-visual='{"type":"grapheme","main":"Lettres muettes","ipa":"Étymologie latine","words":["sept (p)","doigt (g)","faisais [fəzɛ]"]}'></div>
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Explication historique</th><td>
-              • Lettres silencieuses internes (ex: P dans <em>sept</em> [sɛt], G dans <em>doigt</em> [dwa]) réintroduites par les scribes de la Renaissance pour rappeler le latin (<em>septem, digitum</em>).<br>
-              • <em>Je faisais</em> se prononce [ʒə fəzɛ] malgré l'écriture "ai" : vestige de l'ancienne prononciation du Moyen Âge !
-            </td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★☆☆☆</span></td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
   </section>
 
   <div class="level-nav-bar">
@@ -309,7 +110,7 @@
 
 </main>
 
-<footer class="site-footer" style="background: #09090b; color: #f4f4f5; padding: 2rem 1.5rem; text-align: center; margin-top: 3rem;">
+<footer class="site-footer" style="background: #18181b; color: #e4e4e7; padding: 2rem 1.5rem; text-align: center; margin-top: 3rem;">
   <p>© 2026 COSYlanguages · Marathon de Prononciation Française C2</p>
 </footer>
 

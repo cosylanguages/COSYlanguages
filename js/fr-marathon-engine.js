@@ -210,4 +210,37 @@ function initMarathonProgress() {
   updateUI();
 }
 
+/* Helper to dynamically build 12-field lesson markup if needed */
+function render12FieldLesson(data) {
+  if (!data) return "";
+  const fields = [
+    { key: "definition", label: "Définition", full: true },
+    { key: "rule", label: "Règle", full: true },
+    { key: "why", label: "Pourquoi ? (Logique)", full: false },
+    { key: "howToRecognize", label: "Comment reconnaître ?", full: false },
+    { key: "examples", label: "Exemples courants", full: false },
+    { key: "counterExamples", label: "Contre-exemples", full: false },
+    { key: "exceptions", label: "Exceptions", full: false },
+    { key: "frequentErrors", label: "Erreurs fréquentes", full: false },
+    { key: "tip", label: "Astuce mémorisation", full: false },
+    { key: "frequency", label: "Fréquence", full: false },
+    { key: "level", label: "Niveau CECRL", full: false },
+    { key: "takeaway", label: "À retenir", full: true }
+  ];
+
+  let html = `<div class="mp-12field-grid">`;
+  fields.forEach(f => {
+    if (data[f.key]) {
+      html += `
+        <div class="mp-field-box ${f.full ? 'full-width' : ''}">
+          <span class="mp-field-tag">${escSvg(f.label)}</span>
+          <div class="mp-field-content">${data[f.key]}</div>
+        </div>
+      `;
+    }
+  });
+  html += `</div>`;
+  return html;
+}
+
 document.addEventListener("DOMContentLoaded", initMarathonProgress);

@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>🟡 Marathon de Prononciation — Niveau A2 Structures · COSY</title>
-<meta name="description" content="Marathon de prononciation française A2 : digrammes, semi-voyelles, nasales complètes, e caduc, féminin et élisions.">
+<meta name="description" content="Marathon de prononciation française A2 : liaisons, enchaînements, e caduc, chiffres, sigles, mots grammaticaux et abréviations.">
 <link rel="stylesheet" href="../../../css/tokens.css">
 <link rel="stylesheet" href="../../../css/base.css">
 <link rel="stylesheet" href="../../../css/components.css">
@@ -13,207 +13,21 @@
 <link rel="stylesheet" href="../../../css/lang-accents.css">
 <link rel="stylesheet" href="../../../css/mobile.css">
 <style>
-  :root {
-    --mp-primary: #854d0e;
-    --mp-primary-light: #fef9c3;
-    --mp-accent: #a16207;
-    --mp-border: #fef08a;
-  }
-
-  body {
-    font-family: 'Nunito', system-ui, -apple-system, sans-serif;
-    color: #2c3e50;
-    background-color: #fcfdfc;
-    line-height: 1.65;
-  }
-
-  .mp-hero {
-    background: linear-gradient(135deg, #713f12 0%, #a16207 50%, #ca8a04 100%);
-    color: #ffffff;
-    padding: 3rem 1.5rem 2rem;
-    border-bottom: 4px solid #fde047;
-    text-align: center;
-  }
-
-  .mp-hero h1 {
-    font-family: 'Lora', Georgia, serif;
-    font-size: 2.2rem;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-    color: #ffffff;
-  }
-
-  .mp-hero p.subtitle {
-    font-size: 1.14rem;
-    color: #fef9c3;
-    max-width: 800px;
-    margin: 0 auto 1.25rem;
-  }
-
-  .mp-badges {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.5rem;
-    margin-top: 0.75rem;
-  }
-
-  .mp-badge {
-    background: rgba(255, 255, 255, 0.18);
-    backdrop-filter: blur(4px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    color: #ffffff;
-    padding: 0.3rem 0.75rem;
-    border-radius: 50px;
-    font-size: 0.85rem;
-    font-weight: 600;
-  }
-
-  .sd-sticky-header {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    background: #ffffff;
-    border-bottom: 1px solid #e2e8f0;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  }
-
-  .sd-jump-links {
-    display: flex;
-    gap: 0.5rem;
-    overflow-x: auto;
-    padding: 0.75rem 1.5rem;
-    white-space: nowrap;
-    max-width: 1100px;
-    margin: 0 auto;
-  }
-
-  .sd-jump-link {
-    color: #854d0e;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 0.88rem;
-    padding: 0.3rem 0.7rem;
-    border-radius: 6px;
-    background: #fef9c3;
-    transition: background 0.2s, color 0.2s;
-  }
-
-  .sd-jump-link:hover, .sd-jump-link.active {
-    background: #854d0e;
-    color: #ffffff;
-  }
-
-  .mp-container {
-    max-width: 1100px;
-    margin: 2rem auto;
-    padding: 0 1.5rem;
-  }
-
-  .mp-section {
-    background: #ffffff;
-    border-radius: 12px;
-    border: 1px solid #e2e8f0;
-    padding: 2rem;
-    margin-bottom: 2.5rem;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
-  }
-
-  .mp-section h2 {
-    color: #713f12;
-    font-family: 'Lora', Georgia, serif;
-    font-size: 1.7rem;
-    margin-top: 0;
-    padding-bottom: 0.75rem;
-    border-bottom: 2px solid #fef08a;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
-
-  .mp-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 1.25rem 0;
-    font-size: 0.95rem;
-  }
-
-  .mp-table th, .mp-table td {
-    padding: 0.85rem 1rem;
-    border: 1px solid #e2e8f0;
-    text-align: left;
-    vertical-align: top;
-  }
-
-  .mp-table th {
-    background-color: #fef9c3;
-    color: #713f12;
-    font-weight: 700;
-  }
-
-  .mp-table tr:nth-child(even) {
-    background-color: #fefce8;
-  }
-
-  .mnemonic-box {
-    background: #fff8e1;
-    border-left: 4px solid #f57f17;
-    border-radius: 6px;
-    padding: 1rem 1.25rem;
-    margin: 1rem 0;
-  }
-
-  .lesson-sample {
-    background: #ffffff;
-    border: 2px solid #fde047;
-    border-radius: 12px;
-    margin-bottom: 2rem;
-    overflow: hidden;
-  }
-
-  .lesson-sample-header {
-    background: #a16207;
-    color: #ffffff;
-    padding: 1rem 1.5rem;
-  }
-
-  .lesson-sample-header h3 {
-    margin: 0;
-    color: #ffffff;
-    font-size: 1.25rem;
-  }
-
-  .lesson-sample-body {
-    padding: 1.25rem 1.5rem;
-  }
-
-  .star-rating { color: #f59e0b; }
-
-  .level-nav-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #fef9c3;
-    border: 1px solid #fef08a;
-    border-radius: 8px;
-    padding: 1rem 1.5rem;
-    margin-top: 2rem;
-  }
-
-  .level-nav-bar a {
-    color: #713f12;
-    font-weight: 700;
-    text-decoration: none;
-  }
-
-  .vocab-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 0.8rem 0;
-    font-size: 0.9rem;
-  }
-  .vocab-table th { background: #fef9c3; color: #713f12; padding: 0.5rem; text-align: left; }
-  .vocab-table td { border: 1px solid #e2e8f0; padding: 0.5rem; }
+  body { font-family: 'Nunito', system-ui, sans-serif; color: #2c3e50; background: #fcfdfc; line-height: 1.65; }
+  .mp-hero { background: linear-gradient(135deg, #854d0e 0%, #ca8a04 50%, #eab308 100%); color: #fff; padding: 3rem 1.5rem 2rem; border-bottom: 4px solid #fde047; text-align: center; }
+  .mp-hero h1 { font-family: 'Lora', Georgia, serif; font-size: 2.2rem; margin-bottom: 0.5rem; color: #fff; }
+  .mp-hero p.subtitle { font-size: 1.14rem; color: #fef08a; max-width: 800px; margin: 0 auto 1.25rem; }
+  .sd-sticky-header { position: sticky; top: 0; z-index: 100; background: #fff; border-bottom: 1px solid #e2e8f0; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+  .sd-jump-links { display: flex; gap: 0.5rem; overflow-x: auto; padding: 0.75rem 1.5rem; white-space: nowrap; max-width: 1100px; margin: 0 auto; }
+  .sd-jump-link { color: #854d0e; font-weight: 700; font-size: 0.88rem; padding: 0.3rem 0.7rem; border-radius: 6px; background: #fefce8; }
+  .sd-jump-link.active { background: #854d0e; color: #fff; }
+  .mp-container { max-width: 1100px; margin: 2rem auto; padding: 0 1.5rem; }
+  .mp-section { background: #fff; border-radius: 12px; border: 1px solid #e2e8f0; padding: 2rem; margin-bottom: 2.5rem; }
+  .mp-section h2 { color: #854d0e; font-family: 'Lora', Georgia, serif; font-size: 1.6rem; border-bottom: 2px solid #fef08a; padding-bottom: 0.5rem; }
+  .mp-table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.92rem; }
+  .mp-table th, .mp-table td { padding: 0.75rem 1rem; border: 1px solid #e2e8f0; text-align: left; }
+  .mp-table th { background: #fefce8; color: #854d0e; }
+  .level-nav-bar { display: flex; justify-content: space-between; align-items: center; background: #fefce8; border: 1px solid #fef08a; border-radius: 8px; padding: 1rem 1.5rem; margin-top: 2rem; }
 </style>
 </head>
 <body data-lang-theme="fr">
@@ -221,7 +35,7 @@
 <nav id="cosy-nav"></nav>
 
 <header class="sd-sticky-header">
-  <nav class="sd-jump-links" aria-label="Navigation Marathon">
+  <nav class="sd-jump-links">
     <a href="../marathon-prononciation.html" class="sd-jump-link">← Hub Marathon</a>
     <a href="a0-a1.html" class="sd-jump-link">🟢 A0-A1 Fondations</a>
     <a href="a2.html" class="sd-jump-link active">🟡 A2 Structures</a>
@@ -233,170 +47,77 @@
 </header>
 
 <header class="mp-hero">
-  <div class="mp-badges">
-    <span class="mp-badge">🟡 CECRL A2</span>
-    <span class="mp-badge">Structures & Digrammes</span>
-    <span class="mp-badge">Règles contextuelles</span>
-  </div>
-  <h1>🟡 NIVEAU A2 — Complexités Contextuelles</h1>
-  <p class="subtitle">Maîtrisez les groupes de voyelles, les semi-consonnes, la loi des trois consonnes et les accords audibles du français.</p>
+  <h1>🟡 NIVEAU A2 — Les Structures du Français Parlé</h1>
+  <p class="subtitle">Liaisons, enchaînements, e caduc, chiffres complets, sigles et mots irréguliers du quotidien.</p>
 </header>
 
 <main class="mp-container">
 
-  <div class="mnemonic-box">
-    <h4>💡 Principes clés du niveau A2</h4>
-    <ul style="margin: 0.5rem 0 0 1.2rem; padding: 0;">
-      <li><strong>1. Digrammes vocaliques :</strong> Plusieurs lettres écrites = un seul son (ex: <em>au, eau, ai, eu, oi</em>).</li>
-      <li><strong>2. M devant B et P :</strong> Dans les voyelles nasales, N devient M devant B et P (<em>jambe, temps, important</em>).</li>
-      <li><strong>3. Mnémonique des exceptions ILL :</strong> « Ville, mille, tranquille » gardent le son [l] !</li>
-      <li><strong>4. Accord du féminin :</strong> L'ajout d'un E au féminin réactive la consonne finale muette (<em>petit</em> [pəti] → <em>petite</em> [pətit]).</li>
-    </ul>
-  </div>
+  <!-- 1. LIAISONS ET ENCHAÎNEMENT -->
+  <section class="mp-section">
+    <h2>1. Les Liaisons & L'Enchaînement</h2>
+    <div class="mp-12field-grid">
+      <div class="mp-field-box full-width"><span class="mp-field-tag">Liaisons obligatoires</span><div class="mp-field-content">Article + nom (<em>les_amis</em> [le.zami]), Pronome + verbe (<em>nous_avons</em> [nu.zavɔ̃]), Adjectif + nom (<em>un petit_enfant</em> [ɛ̃.pə.ti.tɑ̃.fɑ̃]).</div></div>
+      <div class="mp-field-box full-width"><span class="mp-field-tag">Liaisons interdites</span><div class="mp-field-content">Après la conjonction <strong>ET</strong> (<em>un homme // et un enfant</em>), Nom singulier + adjectif (<em>un étudiant // américain</em>), Devant un H aspiré (<em>les // héros</em>).</div></div>
+      <div class="mp-field-box full-width"><span class="mp-field-tag">L'enchaînement vocalique et consonantique</span><div class="mp-field-content">Une consonne toujours prononcée se lie naturellement à la voyelle suivante : <em>elle aime</em> [ɛ.lɛm], <em>avec elle</em> [a.vɛ.kɛl].</div></div>
+    </div>
+  </section>
 
-  <section id="a2-content" class="mp-section">
-    <h2>Unité 1 — Digrammes vocaliques & Semi-voyelles</h2>
-
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 1.1 — Digrammes vocaliques (AI, AU, EAU, EU, OI, OIN)</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <div class="visual-frame" data-visual='{"type":"grapheme","main":"AU / EAU / OI","ipa":"[o] / [wa]","words":["eau","jaune","moi"]}'></div>
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Recette physique</th><td>
-              • AI / EI = [ɛ] (<em>mais, neige</em>)<br>
-              • AU / EAU = [o] (<em>eau, jaune</em>)<br>
-              • EU / ŒU = [ø] ou [œ] (<em>peu, sœur</em>)<br>
-              • OI = [wa] (<em>moi, roi</em>) ; OIN = [wɛ̃] (<em>loin</em>)
-            </td></tr>
-            <tr><th>Règle</th><td>En français, un groupe de 2 ou 3 voyelles collées fait presque toujours un seul son fusionné.</td></tr>
-            <tr><th>Exemples courants</th><td>mais, eau, château, peu, fleur, moi, coin</td></tr>
-            <tr><th>Un peu de vocabulaire</th><td>
-              <table class="vocab-table">
-                <tr><th>Mot</th><th>Prononciation</th><th>Traduction (EN)</th></tr>
-                <tr><td>eau</td><td>[o]</td><td>water</td></tr>
-                <tr><td>moi</td><td>[mwa]</td><td>me / myself</td></tr>
-                <tr><td>fleur</td><td>[flœʁ]</td><td>flower</td></tr>
-              </table>
-            </td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-          </tbody>
-        </table>
+  <!-- 2. LE E CADUC -->
+  <section class="mp-section">
+    <h2>2. Le E Caduc (Schwa [ə])</h2>
+    <div class="mp-field-box full-width">
+      <span class="mp-field-tag">Règle des 3 consonnes</span>
+      <div class="mp-field-content">
+        Le 'e' tombe en français courant s'il est précédé d'une seule consonne prononcée (<em>samedi</em> = sam'di [samdi], <em>je sais</em> = ch'sais). Mais il EST MAINTENU s'il est précédé de 2 consonnes ou plus pour éviter une suite de 3 consonnes imprononçable (<em>mercredi</em> = mer-cre-di).
       </div>
     </div>
+  </section>
 
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 1.2 — Les Semi-voyelles ([j], [w], [ɥ]) & Le groupe ILL</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <div class="visual-frame" data-visual='{"type":"grapheme","main":"ILL","ipa":"[j] (exceptions: [il])","words":["fille","soleil","ville"]}'></div>
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Recette physique</th><td>
-              • I + voyelle = [j] (yod : <em>pied, yeux</em>)<br>
-              • OU + voyelle = [w] (<em>oui, jouet</em>)<br>
-              • U + voyelle = [ɥ] (<em>huit, nuage</em>)<br>
-              • ILL après voyelle = [j] (<em>fille, travail, soleil</em>).
-            </td></tr>
-            <tr><th>Mnémonique des exceptions</th><td>« Ville, mille, tranquille, mon village n'est pas si bien tranquille » (se prononcent avec un [l] normal : [vil], [mil], [tʁɑ̃kil]).</td></tr>
-            <tr><th>Un peu de vocabulaire</th><td>
-              <table class="vocab-table">
-                <tr><th>Mot</th><th>Prononciation</th><th>Traduction (EN)</th></tr>
-                <tr><td>fille</td><td>[fij]</td><td>girl / daughter</td></tr>
-                <tr><td>huit</td><td>[ɥit]</td><td>eight</td></tr>
-                <tr><td>ville (exception)</td><td>[vil]</td><td>city / town</td></tr>
-              </table>
-            </td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-          </tbody>
-        </table>
-      </div>
+  <!-- 3. MOTS IRREGULIERS -->
+  <section class="mp-section">
+    <h2>3. Mots fréquents irréguliers</h2>
+    <table class="mp-table">
+      <thead><tr><th>Mot</th><th>Prononciation</th><th>Piège</th></tr></thead>
+      <tbody>
+        <tr><td><strong>monsieur</strong></td><td>[məsjø]</td><td>Le 'on' se lit 'e' [ə].</td></tr>
+        <tr><td><strong>femme</strong></td><td>[fam]</td><td>Le 'e' se lit 'a' !</td></tr>
+        <tr><td><strong>oignon</strong></td><td>[ɔɲɔ̃]</td><td>Le 'i' est totalement muet.</td></tr>
+        <tr><td><strong>second / seconde</strong></td><td>[səgɔ̃] / [səgɔ̃d]</td><td>Le 'c' se lit 'g' [g].</td></tr>
+        <tr><td><strong>gentil / fils</strong></td><td>[ʒɑ̃ti] / [fis]</td><td>L final muet dans gentil ; L muet mais S prononcé dans fils !</td></tr>
+        <tr><td><strong>plus / tous</strong></td><td>Variable</td><td><em>Plus de</em> [ply də], <em>moi non plus</em> [ply], <em>3 de plus</em> [plys] ; <em>tous les amis</em> [tu], <em>nous sommes tous là</em> [tus].</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- 4. CHIFFRES ET NOMBRES -->
+  <section class="mp-section">
+    <h2>4. Lecture complète des Chiffres et Nombres</h2>
+    <div class="mp-12field-grid">
+      <div class="mp-field-box"><span class="mp-field-tag">Chiffres de 0 à 9</span><div class="mp-field-content">0 (zéro), 1 (un/une), 2 (deux), 3 (trois), 4 (quatre), 5 (cinq), 6 (six [sis]), 7 (sept [sɛt]), 8 (huit [ɥit]), 9 (neuf [nœf]).</div></div>
+      <div class="mp-field-box"><span class="mp-field-tag">Nombres 10 à 99</span><div class="mp-field-content">10 (dix [dis]), 20 (vingt [vɛ̃]), 21 (vingt et un), 70 (soixante-dix), 80 (quatre-vingts - S muet devant nom : 80 euros [katʁə.vɛ̃.zøʁo]), 90 (quatre-vingt-dix).</div></div>
+      <div class="mp-field-box full-width"><span class="mp-field-tag">Dates, Heures, Pourcentages & Décimaux</span><div class="mp-field-content">
+        • <strong>Heures :</strong> 8h30 = huit heures trente [ɥi.tœʁ.tʁɑ̃t].<br>
+        • <strong>Dates :</strong> le 1er mai = le premier mai, le 14 juillet = le quatorze juillet.<br>
+        • <strong>Décimaux :</strong> 3,5 = trois virgule cinq.<br>
+        • <strong>Pourcentages :</strong> 50 % = cinquante pour cent [puv.sɑ̃].
+      </div></div>
     </div>
+  </section>
 
-    <h2>Unité 2 — Consonnes composées, E Caduc & Accords</h2>
-
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 2.1 — Consonnes composées (CH, GN, PH, TH, QU)</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <div class="visual-frame" data-visual='{"type":"grapheme","main":"CH / GN / TH","ipa":"[ʃ] / [ɲ] / [t]","words":["chat","montagne","thé"]}'></div>
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Recette physique</th><td>
-              • CH = [ʃ] (sh anglais : <em>chat</em>)<br>
-              • GN = [ɲ] (son ny : <em>montagne</em>)<br>
-              • PH = [f] (<em>photo</em>)<br>
-              • TH = [t] toujours ! Le H est totalement muet (<em>thé, théâtre</em>). Ne prononcez jamais 'th' anglais !<br>
-              • QU = [k] (<em>qui, quoi</em>).
-            </td></tr>
-            <tr><th>Logique interlinguistique</th><td>En anglais TH se prononce [θ]/[ð]. En français, TH est simplement [t] !</td></tr>
-            <tr><th>Un peu de vocabulaire</th><td>
-              <table class="vocab-table">
-                <tr><th>Mot</th><th>Prononciation</th><th>Traduction (EN)</th></tr>
-                <tr><td>thé</td><td>[te]</td><td>tea</td></tr>
-                <tr><td>montagne</td><td>[mɔ̃taɲ]</td><td>mountain</td></tr>
-              </table>
-            </td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 2.2 — Le E Caduc & La Loi des 3 Consonnes</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <div class="visual-frame" data-visual='{"type":"flow","words":["samedi","porte-clé"],"ipa":"[samdi] / [pɔʁtəkle]"}'></div>
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Recette physique</th><td>Le 'e' instable (sans accent) peut disparaître à l'oral pour accélérer la parole (<em>samedi</em> [samdi]). Cependant, si sa disparition crée un groupe de 3 consonnes consécutives, ON LE GARDE (<em>porte-clé</em> [pɔʁtəkle]).</td></tr>
-            <tr><th>Règle des 3 consonnes</th><td>2 consonnes côte à côte = le E tombe (<em>petit</em> → p'tit). 3 consonnes = le E reste pour protéger la fluidité !</td></tr>
-            <tr><th>Un peu de vocabulaire</th><td>
-              <table class="vocab-table">
-                <tr><th>Mot</th><th>Prononciation</th><th>Traduction (EN)</th></tr>
-                <tr><td>samedi</td><td>[samdi]</td><td>Saturday</td></tr>
-                <tr><td>vendredi</td><td>[vɑ̃dʁədi]</td><td>Friday</td></tr>
-              </table>
-            </td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★☆</span></td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 2.3 — Accords du Féminin, Pluriels & Élisions (H muet vs H aspiré)</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <div class="visual-frame" data-visual='{"type":"contrast","leftLabel":"H muet","leftIpa":"[lɔm]","leftWords":["l&#39;homme"],"rightLabel":"H aspiré","rightIpa":"[lə.eʁo]","rightWords":["le héros"]}'></div>
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Recette physique</th><td>
-              • <strong>Féminin :</strong> L'ajout d'un E muet fait résonner la consonne finale (<em>grand</em> [gʁɑ̃] → <em>grande</em> [gʁɑ̃d]).<br>
-              • <strong>Pluriel :</strong> Le -S ou -X du pluriel est muet. L'oral ne distingue le pluriel que par l'article (<em>le chat / les chats</em>).<br>
-              • <strong>H muet :</strong> Accepte l'élision et la liaison (<em>l'homme, les_hommes</em>).<br>
-              • <strong>H aspiré :</strong> Bloque l'élision et la liaison (<em>le héros, les / héros</em>).
-            </td></tr>
-            <tr><th>Un peu de vocabulaire</th><td>
-              <table class="vocab-table">
-                <tr><th>Expression</th><th>Prononciation</th><th>Traduction (EN)</th></tr>
-                <tr><td>l'homme (H muet)</td><td>[lɔm]</td><td>the man</td></tr>
-                <tr><td>le héros (H aspiré)</td><td>[lə eʁo]</td><td>the hero</td></tr>
-              </table>
-            </td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
+  <!-- 5. SIGLES ET ABREVIATIONS -->
+  <section class="mp-section">
+    <h2>5. Sigles & Abréviations courantes</h2>
+    <table class="mp-table">
+      <thead><tr><th>Sigle / Abréviation</th><th>Lecture</th><th>Signification</th></tr></thead>
+      <tbody>
+        <tr><td><strong>SNCF</strong></td><td>[ɛs.ɛn.se.ɛf]</td><td>Société Nationale des Chemins de fer Français</td></tr>
+        <tr><td><strong>RATP</strong></td><td>[ɛʁ.a.te.pe]</td><td>Transports parisiens</td></tr>
+        <tr><td><strong>ONU / OTAN</strong></td><td>[ɔny] / [ɔtɑ̃]</td><td>Organisations internationales (lues comme des mots !)</td></tr>
+        <tr><td><strong>M. / Mme / Mlle</strong></td><td>monsieur / madame / mademoiselle</td><td>Titres de civilité</td></tr>
+        <tr><td><strong>Dr / Pr</strong></td><td>docteur / professeur</td><td>Titres académiques / médicaux</td></tr>
+      </tbody>
+    </table>
   </section>
 
   <div class="level-nav-bar">
@@ -406,7 +127,7 @@
 
 </main>
 
-<footer class="site-footer" style="background: #713f12; color: #fef9c3; padding: 2rem 1.5rem; text-align: center; margin-top: 3rem;">
+<footer class="site-footer" style="background: #854d0e; color: #fef08a; padding: 2rem 1.5rem; text-align: center; margin-top: 3rem;">
   <p>© 2026 COSYlanguages · Marathon de Prononciation Française A2</p>
 </footer>
 

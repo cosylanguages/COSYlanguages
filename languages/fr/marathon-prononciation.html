@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>🇫🇷 Marathon de Prononciation Française — Hub Général (A0 → C2) · COSY</title>
-<meta name="description" content="Hub général du Marathon de Prononciation Française : choisissez votre niveau (A0-A1 à C2), découvrez la philosophie 1 règle = 1 image et explorez nos recettes de sons simples.">
+<title>🇫🇷 Marathon de Prononciation Française — Hub Général & Annexes (A0 → C2) · COSY</title>
+<meta name="description" content="Hub général du Marathon de Prononciation Française : choisissez votre niveau (A0-A1 à C2), découvrez la philosophie 1 règle = 1 image et explorez nos annexes complètes de fréquence.">
 <link rel="stylesheet" href="../../css/tokens.css">
 <link rel="stylesheet" href="../../css/base.css">
 <link rel="stylesheet" href="../../css/components.css">
@@ -218,6 +218,10 @@
   .btn-c2 { background: #37474f; color: #ffffff; }
   .btn-c2:hover { background: #263238; }
 
+  .mp-table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.92rem; }
+  .mp-table th, .mp-table td { padding: 0.75rem 1rem; border: 1px solid #e2e8f0; text-align: left; }
+  .mp-table th { background: #f0fdf4; color: #1b4332; }
+
   /* Mnemonic Box */
   .mnemonic-box {
     background: #fff8e1;
@@ -272,7 +276,7 @@
     <a href="pronunciation.html" class="sd-jump-link">← Prononciation</a>
     <a href="#niveaux" class="sd-jump-link">🎯 Choisir son Niveau</a>
     <a href="#principes" class="sd-jump-link">💡 Philosophie & Astuces</a>
-    <a href="#visuels" class="sd-jump-link">🎨 5 Familles Visuelles</a>
+    <a href="#annexes" class="sd-jump-link">📊 Annexes de Fréquence</a>
   </nav>
 </header>
 
@@ -405,33 +409,40 @@
     </div>
   </section>
 
-  <!-- 5 FAMILLES VISUELLES -->
-  <section id="visuels" class="mp-section">
-    <h2>🎨 Les 5 familles de visuels</h2>
-    <p>Chaque leçon du marathon est associée à un visuel appartenant à l'une de nos 5 familles standardisées :</p>
+  <!-- ANNEXES DE FREQUENCE -->
+  <section id="annexes" class="mp-section">
+    <h2>📊 Annexes de Fréquence & Répertoire Général</h2>
+    <p>Tables de référence indispensables classées par fréquence d'utilisation dans la langue française :</p>
 
-    <div class="families-grid">
-      <div class="family-card">
-        <h4>🗣️ 1. Schéma articulatoire</h4>
-        <p>Coupe simple de la bouche, des lèvres et de la langue (ex: position du « u » vs « ou »).</p>
-      </div>
-      <div class="family-card">
-        <h4>🕸️ 2. Carte des graphies</h4>
-        <p>Un son au centre, ses orthographes possibles autour (ex. le son [o] ← eau, au, ô, o).</p>
-      </div>
-      <div class="family-card">
-        <h4>🌳 3. Arbre de famille de mots</h4>
-        <p>Un mot-racine au centre, ses dérivés autour avec le changement de son en couleur.</p>
-      </div>
-      <div class="family-card">
-        <h4>➡️ 4. Flux de liaison</h4>
-        <p>Deux mots reliés par une flèche montrant la consonne muette qui « saute » vers la voyelle.</p>
-      </div>
-      <div class="family-card">
-        <h4>📊 5. Échelle de registre</h4>
-        <p>Un curseur horizontal (Oral familier → Oral soigné / soutenu) montrant les variations.</p>
-      </div>
-    </div>
+    <h3>1. Tableau complet des Graphèmes et Phonèmes principaux</h3>
+    <table class="mp-table">
+      <thead>
+        <tr><th>Graphème</th><th>Phonème principal</th><th>Condition</th><th>Fréquence</th><th>Exemples</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>e</strong></td><td>[ə] / [ɛ]</td><td>[ə] en syllabe ouverte ; [ɛ] devant consonne double.</td><td>★★★★★</td><td>le, chemin, belle</td></tr>
+        <tr><td><strong>a / au / eau</strong></td><td>[a] / [o]</td><td>a = [a] ; au/eau = [o] fermé.</td><td>★★★★★</td><td>ami, auto, bateau</td></tr>
+        <tr><td><strong>i / y</strong></td><td>[i]</td><td>Voyelle seule.</td><td>★★★★★</td><td>ici, lit, stylo</td></tr>
+        <tr><td><strong>ou</strong></td><td>[u]</td><td>Toujours [u].</td><td>★★★★★</td><td>nous, loup, vous</td></tr>
+        <tr><td><strong>an / en</strong></td><td>[ɑ̃]</td><td>En fin de syllabe sans voyelle suivante.</td><td>★★★★★</td><td>enfant, ensemble</td></tr>
+        <tr><td><strong>in / ain / ein</strong></td><td>[ɛ̃]</td><td>En fin de syllabe.</td><td>★★★★☆</td><td>matin, pain, plein</td></tr>
+        <tr><td><strong>on</strong></td><td>[ɔ̃]</td><td>En fin de syllabe.</td><td>★★★★☆</td><td>bonbon, maison</td></tr>
+      </tbody>
+    </table>
+
+    <h3>2. Top Exceptions Orthographiques du Français</h3>
+    <table class="mp-table">
+      <thead>
+        <tr><th>Mot</th><th>Prononciation réelle</th><th>Piège principal</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>monsieur</strong></td><td>[məsjø]</td><td>La syllabe 'mon' se lit 'me'.</td></tr>
+        <tr><td><strong>femme</strong></td><td>[fam]</td><td>La voyelle 'e' se lit 'a'.</td></tr>
+        <tr><td><strong>oignon</strong></td><td>[ɔɲɔ̃]</td><td>La lettre 'i' est totalement muette.</td></tr>
+        <tr><td><strong>second</strong></td><td>[səgɔ̃]</td><td>La lettre 'c' se lit [g].</td></tr>
+        <tr><td><strong>faisons / faisais</strong></td><td>[fəzɔ̃] / [fəzɛ]</td><td>Le digramme 'ai' se lit 'e' [ə].</td></tr>
+      </tbody>
+    </table>
   </section>
 
 </main>
