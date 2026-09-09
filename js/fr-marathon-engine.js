@@ -248,6 +248,84 @@ function initMarathonProgress() {
   updateUI();
 }
 
+/* Interactive Unit Tab Filtering to prevent long scrolling */
+function initUnitTabs() {
+  const sections = document.querySelectorAll("main.mp-container .mp-section");
+  if (sections.length <= 1) return;
+
+  const header = document.querySelector(".sd-sticky-header");
+  if (!header) return;
+
+  const tabsNav = document.createElement("div");
+  tabsNav.className = "mp-unit-tabs-nav";
+  tabsNav.style.cssText = "display:flex; gap:0.4rem; overflow-x:auto; padding:0.5rem 1.5rem; background:#f7faf8; border-bottom:1px solid #e2e8f0; scrollbar-width:none;";
+
+  const allBtn = document.createElement("button");
+  allBtn.className = "mp-unit-tab active";
+  allBtn.textContent = "🔍 Voir Tout";
+  allBtn.style.cssText = "font-weight:700; font-size:0.82rem; padding:0.3rem 0.8rem; border-radius:20px; border:1px solid #2d6a4f; background:#2d6a4f; color:#fff; cursor:pointer; white-space:nowrap;";
+
+  tabsNav.appendChild(allBtn);
+
+  const tabButtons = [allBtn];
+
+  sections.forEach((sec, idx) => {
+    const h2 = sec.querySelector("h2");
+    if (!h2) return;
+
+    sec.dataset.unitIdx = idx;
+
+    const titleText = h2.textContent.replace(/^🟢|^🟡|^🟠|^🔴|^🟣|^⚫/, "").trim();
+    const shortTitle = titleText.length > 22 ? titleText.substring(0, 20) + "…" : titleText;
+
+    const btn = document.createElement("button");
+    btn.className = "mp-unit-tab";
+    btn.textContent = shortTitle;
+    btn.style.cssText = "font-weight:700; font-size:0.82rem; padding:0.3rem 0.8rem; border-radius:20px; border:1px solid #c8e6c9; background:#fff; color:#2d6a4f; cursor:pointer; white-space:nowrap;";
+
+    btn.addEventListener("click", () => {
+      tabButtons.forEach(b => {
+        b.style.background = "#fff";
+        b.style.color = "#2d6a4f";
+        b.style.borderColor = "#c8e6c9";
+        b.classList.remove("active");
+      });
+      btn.style.background = "#2d6a4f";
+      btn.style.color = "#fff";
+      btn.style.borderColor = "#2d6a4f";
+      btn.classList.add("active");
+
+      sections.forEach(s => {
+        if (s.dataset.unitIdx == idx) {
+          s.style.display = "block";
+        } else {
+          s.style.display = "none";
+        }
+      });
+    });
+
+    tabButtons.push(btn);
+    tabsNav.appendChild(btn);
+  });
+
+  allBtn.addEventListener("click", () => {
+    tabButtons.forEach(b => {
+      b.style.background = "#fff";
+      b.style.color = "#2d6a4f";
+      b.style.borderColor = "#c8e6c9";
+      b.classList.remove("active");
+    });
+    allBtn.style.background = "#2d6a4f";
+    allBtn.style.color = "#fff";
+    allBtn.style.borderColor = "#2d6a4f";
+    allBtn.classList.add("active");
+
+    sections.forEach(s => s.style.display = "block");
+  });
+
+  header.appendChild(tabsNav);
+}
+
 /* Helper to dynamically build 14-field lesson markup */
 function render14FieldLesson(data) {
   if (!data) return "";
@@ -288,4 +366,7 @@ function render12FieldLesson(data) {
   return render14FieldLesson(data);
 }
 
-document.addEventListener("DOMContentLoaded", initMarathonProgress);
+document.addEventListener("DOMContentLoaded", () => {
+  initMarathonProgress();
+  initUnitTabs();
+});

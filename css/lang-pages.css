@@ -341,6 +341,36 @@ body.theme-dark .sd-jump-link:hover, body.theme-dark .sd-jump-link.active {
   .country-tabs{gap:.4rem;}
 }
 
+/* Interactive Unit Navigation Tabs */
+.mp-unit-tabs-nav {
+  display: flex;
+  gap: 0.4rem;
+  overflow-x: auto;
+  padding: 0.5rem 1.5rem;
+  background: var(--card-bg);
+  border-bottom: 1px solid var(--border);
+  scrollbar-width: none;
+}
+
+.mp-unit-tab {
+  font-weight: 700;
+  font-size: 0.82rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--sage-dark);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.18s ease;
+}
+
+.mp-unit-tab:hover, .mp-unit-tab.active {
+  background: var(--sage);
+  color: #ffffff;
+  border-color: var(--sage);
+}
+
 /* Cozy Marathon Decision Tree & Visual Styles */
 .mp-cozy-callout {
   background: linear-gradient(135deg, #f0fdf4 0%, #d8f3dc 100%);
