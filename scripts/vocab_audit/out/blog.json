@@ -1,0 +1,2462 @@
+[
+  {
+    "word": "Morning",
+    "level": "A1",
+    "lex_theme": "Time Evolution",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Afternoon",
+    "level": "A1",
+    "lex_theme": "Time Evolution",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Evening",
+    "level": "A1",
+    "lex_theme": "Time Evolution",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Night",
+    "level": "A1",
+    "lex_theme": "Time Evolution",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Baby",
+    "level": "A1",
+    "lex_theme": "Life Progression",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Child",
+    "level": "A1",
+    "lex_theme": "Life Progression",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Teenager",
+    "level": "A1",
+    "lex_theme": "Life Progression",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Adult",
+    "level": "A1",
+    "lex_theme": "Life Progression",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "School",
+    "level": "A1",
+    "lex_theme": "Education Journey",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "University",
+    "level": "A1",
+    "lex_theme": "Education Journey",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Workplace",
+    "level": "A1",
+    "lex_theme": "Education Journey",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Breakfast",
+    "level": "A1",
+    "lex_theme": "Meal Progression",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Lunch",
+    "level": "A1",
+    "lex_theme": "Meal Progression",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Snack",
+    "level": "A1",
+    "lex_theme": "Meal Progression",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Dinner",
+    "level": "A1",
+    "lex_theme": "Meal Progression",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Spring",
+    "level": "A1",
+    "lex_theme": "Seasons Evolution",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Summer",
+    "level": "A1",
+    "lex_theme": "Seasons Evolution",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Autumn",
+    "level": "A1",
+    "lex_theme": "Seasons Evolution",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Winter",
+    "level": "A1",
+    "lex_theme": "Seasons Evolution",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Yesterday",
+    "level": "A1",
+    "lex_theme": "Days Sequence",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Today",
+    "level": "A1",
+    "lex_theme": "Days Sequence",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Tonight",
+    "level": "A1",
+    "lex_theme": "Days Sequence",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Tomorrow",
+    "level": "A1",
+    "lex_theme": "Days Sequence",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Door",
+    "level": "A1",
+    "lex_theme": "Building Progression",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Hallway",
+    "level": "A1",
+    "lex_theme": "Building Progression",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Room",
+    "level": "A1",
+    "lex_theme": "Building Progression",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Ticket",
+    "level": "A1",
+    "lex_theme": "Travel Journey",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Station",
+    "level": "A1",
+    "lex_theme": "Travel Journey",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Train",
+    "level": "A1",
+    "lex_theme": "Travel Journey",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Recipe",
+    "level": "A1",
+    "lex_theme": "Culinary Progression",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Kitchen",
+    "level": "A1",
+    "lex_theme": "Culinary Progression",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Dish",
+    "level": "A1",
+    "lex_theme": "Culinary Progression",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Cloud",
+    "level": "A1",
+    "lex_theme": "Weather Sequence",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Rain",
+    "level": "A1",
+    "lex_theme": "Weather Sequence",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Puddle",
+    "level": "A1",
+    "lex_theme": "Weather Sequence",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Rainbow",
+    "level": "A1",
+    "lex_theme": "Weather Sequence",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Mother",
+    "level": "A1",
+    "lex_theme": "People & Family",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Father",
+    "level": "A1",
+    "lex_theme": "People & Family",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Son",
+    "level": "A1",
+    "lex_theme": "People & Family",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Daughter",
+    "level": "A1",
+    "lex_theme": "People & Family",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Brother",
+    "level": "A1",
+    "lex_theme": "People & Family",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Sister",
+    "level": "A1",
+    "lex_theme": "People & Family",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Grandfather",
+    "level": "A1",
+    "lex_theme": "People & Family",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Grandmother",
+    "level": "A1",
+    "lex_theme": "People & Family",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Uncle",
+    "level": "A1",
+    "lex_theme": "People & Family",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Aunt",
+    "level": "A1",
+    "lex_theme": "People & Family",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Husband",
+    "level": "A1",
+    "lex_theme": "People & Family",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Wife",
+    "level": "A1",
+    "lex_theme": "People & Family",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Friend",
+    "level": "A1",
+    "lex_theme": "People & Family",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Enemy",
+    "level": "A1",
+    "lex_theme": "People & Family",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Man",
+    "level": "A1",
+    "lex_theme": "People & Family",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Woman",
+    "level": "A1",
+    "lex_theme": "People & Family",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Boy",
+    "level": "A1",
+    "lex_theme": "People & Family",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Girl",
+    "level": "A1",
+    "lex_theme": "People & Family",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "House",
+    "level": "A1",
+    "lex_theme": "Home & Objects",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Street",
+    "level": "A1",
+    "lex_theme": "Home & Objects",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Room",
+    "level": "A1",
+    "lex_theme": "Home & Objects",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Garden",
+    "level": "A1",
+    "lex_theme": "Home & Objects",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Table",
+    "level": "A1",
+    "lex_theme": "Home & Objects",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Floor",
+    "level": "A1",
+    "lex_theme": "Home & Objects",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Chair",
+    "level": "A1",
+    "lex_theme": "Home & Objects",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Bed",
+    "level": "A1",
+    "lex_theme": "Home & Objects",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Door",
+    "level": "A1",
+    "lex_theme": "Home & Objects",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Window",
+    "level": "A1",
+    "lex_theme": "Home & Objects",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Ceiling",
+    "level": "A1",
+    "lex_theme": "Home & Objects",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Floor",
+    "level": "A1",
+    "lex_theme": "Home & Objects",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Key",
+    "level": "A1",
+    "lex_theme": "Home & Objects",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Lock",
+    "level": "A1",
+    "lex_theme": "Home & Objects",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Bag",
+    "level": "A1",
+    "lex_theme": "Home & Objects",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Box",
+    "level": "A1",
+    "lex_theme": "Home & Objects",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Cup",
+    "level": "A1",
+    "lex_theme": "Home & Objects",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Glass",
+    "level": "A1",
+    "lex_theme": "Home & Objects",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Plate",
+    "level": "A1",
+    "lex_theme": "Home & Objects",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Bowl",
+    "level": "A1",
+    "lex_theme": "Home & Objects",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Tea",
+    "level": "A1",
+    "lex_theme": "Food & Drink",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Coffee",
+    "level": "A1",
+    "lex_theme": "Food & Drink",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Water",
+    "level": "A1",
+    "lex_theme": "Food & Drink",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Juice",
+    "level": "A1",
+    "lex_theme": "Food & Drink",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Bread",
+    "level": "A1",
+    "lex_theme": "Food & Drink",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Butter",
+    "level": "A1",
+    "lex_theme": "Food & Drink",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Meat",
+    "level": "A1",
+    "lex_theme": "Food & Drink",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Fish",
+    "level": "A1",
+    "lex_theme": "Food & Drink",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Fruit",
+    "level": "A1",
+    "lex_theme": "Food & Drink",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Vegetable",
+    "level": "A1",
+    "lex_theme": "Food & Drink",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Apple",
+    "level": "A1",
+    "lex_theme": "Food & Drink",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Banana",
+    "level": "A1",
+    "lex_theme": "Food & Drink",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Sugar",
+    "level": "A1",
+    "lex_theme": "Food & Drink",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Salt",
+    "level": "A1",
+    "lex_theme": "Food & Drink",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Breakfast",
+    "level": "A1",
+    "lex_theme": "Food & Drink",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Dinner",
+    "level": "A1",
+    "lex_theme": "Food & Drink",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Soup",
+    "level": "A1",
+    "lex_theme": "Food & Drink",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Salad",
+    "level": "A1",
+    "lex_theme": "Food & Drink",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Milk",
+    "level": "A1",
+    "lex_theme": "Food & Drink",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Cheese",
+    "level": "A1",
+    "lex_theme": "Food & Drink",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "City",
+    "level": "A1",
+    "lex_theme": "City & Places",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Village",
+    "level": "A1",
+    "lex_theme": "City & Places",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "School",
+    "level": "A1",
+    "lex_theme": "City & Places",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Hospital",
+    "level": "A1",
+    "lex_theme": "City & Places",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Store",
+    "level": "A1",
+    "lex_theme": "City & Places",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Market",
+    "level": "A1",
+    "lex_theme": "City & Places",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Park",
+    "level": "A1",
+    "lex_theme": "City & Places",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Square",
+    "level": "A1",
+    "lex_theme": "City & Places",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Airport",
+    "level": "A1",
+    "lex_theme": "City & Places",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Station",
+    "level": "A1",
+    "lex_theme": "City & Places",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Hotel",
+    "level": "A1",
+    "lex_theme": "City & Places",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Restaurant",
+    "level": "A1",
+    "lex_theme": "City & Places",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Library",
+    "level": "A1",
+    "lex_theme": "City & Places",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Museum",
+    "level": "A1",
+    "lex_theme": "City & Places",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Bank",
+    "level": "A1",
+    "lex_theme": "City & Places",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Post Office",
+    "level": "A1",
+    "lex_theme": "City & Places",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Bridge",
+    "level": "A1",
+    "lex_theme": "City & Places",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "River",
+    "level": "A1",
+    "lex_theme": "City & Places",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Sea",
+    "level": "A1",
+    "lex_theme": "City & Places",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Mountain",
+    "level": "A1",
+    "lex_theme": "City & Places",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Sun",
+    "level": "A1",
+    "lex_theme": "Nature & World",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Moon",
+    "level": "A1",
+    "lex_theme": "Nature & World",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Sky",
+    "level": "A1",
+    "lex_theme": "Nature & World",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Earth",
+    "level": "A1",
+    "lex_theme": "Nature & World",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Tree",
+    "level": "A1",
+    "lex_theme": "Nature & World",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Flower",
+    "level": "A1",
+    "lex_theme": "Nature & World",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Forest",
+    "level": "A1",
+    "lex_theme": "Nature & World",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Field",
+    "level": "A1",
+    "lex_theme": "Nature & World",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Dog",
+    "level": "A1",
+    "lex_theme": "Nature & World",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Cat",
+    "level": "A1",
+    "lex_theme": "Nature & World",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Bird",
+    "level": "A1",
+    "lex_theme": "Nature & World",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Fish",
+    "level": "A1",
+    "lex_theme": "Nature & World",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Horse",
+    "level": "A1",
+    "lex_theme": "Nature & World",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Cow",
+    "level": "A1",
+    "lex_theme": "Nature & World",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Rain",
+    "level": "A1",
+    "lex_theme": "Nature & World",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Snow",
+    "level": "A1",
+    "lex_theme": "Nature & World",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Wind",
+    "level": "A1",
+    "lex_theme": "Nature & World",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Storm",
+    "level": "A1",
+    "lex_theme": "Nature & World",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Star",
+    "level": "A1",
+    "lex_theme": "Nature & World",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Planet",
+    "level": "A1",
+    "lex_theme": "Nature & World",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Head",
+    "level": "A1",
+    "lex_theme": "Body & Health",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Heart",
+    "level": "A1",
+    "lex_theme": "Body & Health",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Hand",
+    "level": "A1",
+    "lex_theme": "Body & Health",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Foot",
+    "level": "A1",
+    "lex_theme": "Body & Health",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Eye",
+    "level": "A1",
+    "lex_theme": "Body & Health",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Ear",
+    "level": "A1",
+    "lex_theme": "Body & Health",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Mouth",
+    "level": "A1",
+    "lex_theme": "Body & Health",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Nose",
+    "level": "A1",
+    "lex_theme": "Body & Health",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Arm",
+    "level": "A1",
+    "lex_theme": "Body & Health",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Leg",
+    "level": "A1",
+    "lex_theme": "Body & Health",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Work",
+    "level": "A1",
+    "lex_theme": "Work & Tech",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Rest",
+    "level": "A1",
+    "lex_theme": "Work & Tech",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Phone",
+    "level": "A1",
+    "lex_theme": "Work & Tech",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Computer",
+    "level": "A1",
+    "lex_theme": "Work & Tech",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Paper",
+    "level": "A1",
+    "lex_theme": "Work & Tech",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Pen",
+    "level": "A1",
+    "lex_theme": "Work & Tech",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Question",
+    "level": "A1",
+    "lex_theme": "Work & Tech",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Answer",
+    "level": "A1",
+    "lex_theme": "Work & Tech",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Problem",
+    "level": "A1",
+    "lex_theme": "Work & Tech",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Solution",
+    "level": "A1",
+    "lex_theme": "Work & Tech",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Wake up",
+    "level": "A1",
+    "lex_theme": "Morning Routine",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Get up",
+    "level": "A1",
+    "lex_theme": "Morning Routine",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Brush teeth",
+    "level": "A1",
+    "lex_theme": "Morning Routine",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Eat breakfast",
+    "level": "A1",
+    "lex_theme": "Morning Routine",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Open book",
+    "level": "A1",
+    "lex_theme": "Study Cycle",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Read chapter",
+    "level": "A1",
+    "lex_theme": "Study Cycle",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Write notes",
+    "level": "A1",
+    "lex_theme": "Study Cycle",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Understand concept",
+    "level": "A1",
+    "lex_theme": "Study Cycle",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Pack bag",
+    "level": "A1",
+    "lex_theme": "Travel Process",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Leave house",
+    "level": "A1",
+    "lex_theme": "Travel Process",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Board train",
+    "level": "A1",
+    "lex_theme": "Travel Process",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Arrive",
+    "level": "A1",
+    "lex_theme": "Travel Process",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Wash food",
+    "level": "A1",
+    "lex_theme": "Cooking Steps",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Cut ingredients",
+    "level": "A1",
+    "lex_theme": "Cooking Steps",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Cook meal",
+    "level": "A1",
+    "lex_theme": "Cooking Steps",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Serve dish",
+    "level": "A1",
+    "lex_theme": "Cooking Steps",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Think thought",
+    "level": "A1",
+    "lex_theme": "Communication Flow",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Speak message",
+    "level": "A1",
+    "lex_theme": "Communication Flow",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Listen response",
+    "level": "A1",
+    "lex_theme": "Communication Flow",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Reply back",
+    "level": "A1",
+    "lex_theme": "Communication Flow",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Choose item",
+    "level": "A1",
+    "lex_theme": "Shopping Flow",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Pay money",
+    "level": "A1",
+    "lex_theme": "Shopping Flow",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Take receipt",
+    "level": "A1",
+    "lex_theme": "Shopping Flow",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Use product",
+    "level": "A1",
+    "lex_theme": "Shopping Flow",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Plan task",
+    "level": "A1",
+    "lex_theme": "Work Cycle",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Start work",
+    "level": "A1",
+    "lex_theme": "Work Cycle",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Check progress",
+    "level": "A1",
+    "lex_theme": "Work Cycle",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Finish project",
+    "level": "A1",
+    "lex_theme": "Work Cycle",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Return home",
+    "level": "A1",
+    "lex_theme": "Evening Routine",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Eat dinner",
+    "level": "A1",
+    "lex_theme": "Evening Routine",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Relax mind",
+    "level": "A1",
+    "lex_theme": "Evening Routine",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Sleep deep",
+    "level": "A1",
+    "lex_theme": "Evening Routine",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Notice issue",
+    "level": "A1",
+    "lex_theme": "Problem Solving",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Ask help",
+    "level": "A1",
+    "lex_theme": "Problem Solving",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Find answer",
+    "level": "A1",
+    "lex_theme": "Problem Solving",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Solve problem",
+    "level": "A1",
+    "lex_theme": "Problem Solving",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Warm up",
+    "level": "A1",
+    "lex_theme": "Fitness Sequence",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Run fast",
+    "level": "A1",
+    "lex_theme": "Fitness Sequence",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Drink water",
+    "level": "A1",
+    "lex_theme": "Fitness Sequence",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Rest body",
+    "level": "A1",
+    "lex_theme": "Fitness Sequence",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Start",
+    "level": "A1",
+    "lex_theme": "Core Actions",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Finish",
+    "level": "A1",
+    "lex_theme": "Core Actions",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Open",
+    "level": "A1",
+    "lex_theme": "Core Actions",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Close",
+    "level": "A1",
+    "lex_theme": "Core Actions",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Buy",
+    "level": "A1",
+    "lex_theme": "Core Actions",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Sell",
+    "level": "A1",
+    "lex_theme": "Core Actions",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Come",
+    "level": "A1",
+    "lex_theme": "Core Actions",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Go",
+    "level": "A1",
+    "lex_theme": "Core Actions",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Ask",
+    "level": "A1",
+    "lex_theme": "Core Actions",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Answer",
+    "level": "A1",
+    "lex_theme": "Core Actions",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Give",
+    "level": "A1",
+    "lex_theme": "Core Actions",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Take",
+    "level": "A1",
+    "lex_theme": "Core Actions",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Push",
+    "level": "A1",
+    "lex_theme": "Core Actions",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Pull",
+    "level": "A1",
+    "lex_theme": "Core Actions",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Love",
+    "level": "A1",
+    "lex_theme": "Core Actions",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Hate",
+    "level": "A1",
+    "lex_theme": "Core Actions",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Remember",
+    "level": "A1",
+    "lex_theme": "Core Actions",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Forget",
+    "level": "A1",
+    "lex_theme": "Core Actions",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Win",
+    "level": "A1",
+    "lex_theme": "Core Actions",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Lose",
+    "level": "A1",
+    "lex_theme": "Core Actions",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Arrive",
+    "level": "A1",
+    "lex_theme": "Movement",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Depart",
+    "level": "A1",
+    "lex_theme": "Movement",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Enter",
+    "level": "A1",
+    "lex_theme": "Movement",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Exit",
+    "level": "A1",
+    "lex_theme": "Movement",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Go up",
+    "level": "A1",
+    "lex_theme": "Movement",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Go down",
+    "level": "A1",
+    "lex_theme": "Movement",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Fly",
+    "level": "A1",
+    "lex_theme": "Movement",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Land",
+    "level": "A1",
+    "lex_theme": "Movement",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Run",
+    "level": "A1",
+    "lex_theme": "Movement",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Walk",
+    "level": "A1",
+    "lex_theme": "Movement",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Stand",
+    "level": "A1",
+    "lex_theme": "Movement",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Sit",
+    "level": "A1",
+    "lex_theme": "Movement",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Lead",
+    "level": "A1",
+    "lex_theme": "Movement",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Follow",
+    "level": "A1",
+    "lex_theme": "Movement",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Bring",
+    "level": "A1",
+    "lex_theme": "Movement",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Take away",
+    "level": "A1",
+    "lex_theme": "Movement",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Go forward",
+    "level": "A1",
+    "lex_theme": "Movement",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Go back",
+    "level": "A1",
+    "lex_theme": "Movement",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Catch",
+    "level": "A1",
+    "lex_theme": "Movement",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Throw",
+    "level": "A1",
+    "lex_theme": "Movement",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Teach",
+    "level": "A1",
+    "lex_theme": "Cognition & Speech",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Learn",
+    "level": "A1",
+    "lex_theme": "Cognition & Speech",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Speak",
+    "level": "A1",
+    "lex_theme": "Cognition & Speech",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Listen",
+    "level": "A1",
+    "lex_theme": "Cognition & Speech",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Read",
+    "level": "A1",
+    "lex_theme": "Cognition & Speech",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Write",
+    "level": "A1",
+    "lex_theme": "Cognition & Speech",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Agree",
+    "level": "A1",
+    "lex_theme": "Cognition & Speech",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Disagree",
+    "level": "A1",
+    "lex_theme": "Cognition & Speech",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Speak well",
+    "level": "A1",
+    "lex_theme": "Cognition & Speech",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Speak ill",
+    "level": "A1",
+    "lex_theme": "Cognition & Speech",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Understand",
+    "level": "A1",
+    "lex_theme": "Cognition & Speech",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Not understand",
+    "level": "A1",
+    "lex_theme": "Cognition & Speech",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Show",
+    "level": "A1",
+    "lex_theme": "Cognition & Speech",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Hide",
+    "level": "A1",
+    "lex_theme": "Cognition & Speech",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Say yes",
+    "level": "A1",
+    "lex_theme": "Cognition & Speech",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Say no",
+    "level": "A1",
+    "lex_theme": "Cognition & Speech",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Keep promise",
+    "level": "A1",
+    "lex_theme": "Cognition & Speech",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Break promise",
+    "level": "A1",
+    "lex_theme": "Cognition & Speech",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Shout",
+    "level": "A1",
+    "lex_theme": "Cognition & Speech",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Whisper",
+    "level": "A1",
+    "lex_theme": "Cognition & Speech",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Live",
+    "level": "A1",
+    "lex_theme": "Life & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Die",
+    "level": "A1",
+    "lex_theme": "Life & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Create",
+    "level": "A1",
+    "lex_theme": "Life & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Destroy",
+    "level": "A1",
+    "lex_theme": "Life & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Build",
+    "level": "A1",
+    "lex_theme": "Life & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Break",
+    "level": "A1",
+    "lex_theme": "Life & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Save",
+    "level": "A1",
+    "lex_theme": "Life & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Waste",
+    "level": "A1",
+    "lex_theme": "Life & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Help",
+    "level": "A1",
+    "lex_theme": "Life & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Hurt",
+    "level": "A1",
+    "lex_theme": "Life & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Protect",
+    "level": "A1",
+    "lex_theme": "Life & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Attack",
+    "level": "A1",
+    "lex_theme": "Life & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Allow",
+    "level": "A1",
+    "lex_theme": "Life & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Not allow",
+    "level": "A1",
+    "lex_theme": "Life & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Find",
+    "level": "A1",
+    "lex_theme": "Life & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Lose",
+    "level": "A1",
+    "lex_theme": "Life & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Connect",
+    "level": "A1",
+    "lex_theme": "Life & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Disconnect",
+    "level": "A1",
+    "lex_theme": "Life & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Increase",
+    "level": "A1",
+    "lex_theme": "Life & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Decrease",
+    "level": "A1",
+    "lex_theme": "Life & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Freezing",
+    "level": "A1",
+    "lex_theme": "Temperature Scale",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Cold",
+    "level": "A1",
+    "lex_theme": "Temperature Scale",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Warm",
+    "level": "A1",
+    "lex_theme": "Temperature Scale",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Hot",
+    "level": "A1",
+    "lex_theme": "Temperature Scale",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Tiny",
+    "level": "A1",
+    "lex_theme": "Size Progression",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Small",
+    "level": "A1",
+    "lex_theme": "Size Progression",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Large",
+    "level": "A1",
+    "lex_theme": "Size Progression",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Huge",
+    "level": "A1",
+    "lex_theme": "Size Progression",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Slow",
+    "level": "A1",
+    "lex_theme": "Speed Scale",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Fast",
+    "level": "A1",
+    "lex_theme": "Speed Scale",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Sad",
+    "level": "A1",
+    "lex_theme": "Mood Spectrum",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Calm",
+    "level": "A1",
+    "lex_theme": "Mood Spectrum",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Happy",
+    "level": "A1",
+    "lex_theme": "Mood Spectrum",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Easy",
+    "level": "A1",
+    "lex_theme": "Difficulty Scale",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Hard",
+    "level": "A1",
+    "lex_theme": "Difficulty Scale",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Impossible",
+    "level": "A1",
+    "lex_theme": "Difficulty Scale",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Free",
+    "level": "A1",
+    "lex_theme": "Price Spectrum",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Cheap",
+    "level": "A1",
+    "lex_theme": "Price Spectrum",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Moderate",
+    "level": "A1",
+    "lex_theme": "Price Spectrum",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Expensive",
+    "level": "A1",
+    "lex_theme": "Price Spectrum",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "New",
+    "level": "A1",
+    "lex_theme": "Age Spectrum",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Modern",
+    "level": "A1",
+    "lex_theme": "Age Spectrum",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Old",
+    "level": "A1",
+    "lex_theme": "Age Spectrum",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Ancient",
+    "level": "A1",
+    "lex_theme": "Age Spectrum",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Dark",
+    "level": "A1",
+    "lex_theme": "Light Intensity",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Bright",
+    "level": "A1",
+    "lex_theme": "Light Intensity",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Dirty",
+    "level": "A1",
+    "lex_theme": "Cleanliness Spectrum",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Clean",
+    "level": "A1",
+    "lex_theme": "Cleanliness Spectrum",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Weak",
+    "level": "A1",
+    "lex_theme": "Strength Spectrum",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Strong",
+    "level": "A1",
+    "lex_theme": "Strength Spectrum",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Big",
+    "level": "A1",
+    "lex_theme": "Physical Qualities",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Small",
+    "level": "A1",
+    "lex_theme": "Physical Qualities",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Hot",
+    "level": "A1",
+    "lex_theme": "Physical Qualities",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Cold",
+    "level": "A1",
+    "lex_theme": "Physical Qualities",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Tall",
+    "level": "A1",
+    "lex_theme": "Physical Qualities",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Short",
+    "level": "A1",
+    "lex_theme": "Physical Qualities",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Long",
+    "level": "A1",
+    "lex_theme": "Physical Qualities",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Short",
+    "level": "A1",
+    "lex_theme": "Physical Qualities",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Wide",
+    "level": "A1",
+    "lex_theme": "Physical Qualities",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Narrow",
+    "level": "A1",
+    "lex_theme": "Physical Qualities",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Heavy",
+    "level": "A1",
+    "lex_theme": "Physical Qualities",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Light",
+    "level": "A1",
+    "lex_theme": "Physical Qualities",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Hard",
+    "level": "A1",
+    "lex_theme": "Physical Qualities",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Soft",
+    "level": "A1",
+    "lex_theme": "Physical Qualities",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Smooth",
+    "level": "A1",
+    "lex_theme": "Physical Qualities",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Rough",
+    "level": "A1",
+    "lex_theme": "Physical Qualities",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Thick",
+    "level": "A1",
+    "lex_theme": "Physical Qualities",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Thin",
+    "level": "A1",
+    "lex_theme": "Physical Qualities",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Dry",
+    "level": "A1",
+    "lex_theme": "Physical Qualities",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Wet",
+    "level": "A1",
+    "lex_theme": "Physical Qualities",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Good",
+    "level": "A1",
+    "lex_theme": "Personality & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Bad",
+    "level": "A1",
+    "lex_theme": "Personality & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Happy",
+    "level": "A1",
+    "lex_theme": "Personality & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Sad",
+    "level": "A1",
+    "lex_theme": "Personality & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Kind",
+    "level": "A1",
+    "lex_theme": "Personality & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Unkind",
+    "level": "A1",
+    "lex_theme": "Personality & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Brave",
+    "level": "A1",
+    "lex_theme": "Personality & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Scared",
+    "level": "A1",
+    "lex_theme": "Personality & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Polite",
+    "level": "A1",
+    "lex_theme": "Personality & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Rude",
+    "level": "A1",
+    "lex_theme": "Personality & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Generous",
+    "level": "A1",
+    "lex_theme": "Personality & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Greedy",
+    "level": "A1",
+    "lex_theme": "Personality & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Honest",
+    "level": "A1",
+    "lex_theme": "Personality & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Dishonest",
+    "level": "A1",
+    "lex_theme": "Personality & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Patient",
+    "level": "A1",
+    "lex_theme": "Personality & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Impatient",
+    "level": "A1",
+    "lex_theme": "Personality & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Calm",
+    "level": "A1",
+    "lex_theme": "Personality & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Angry",
+    "level": "A1",
+    "lex_theme": "Personality & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Smart",
+    "level": "A1",
+    "lex_theme": "Personality & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Foolish",
+    "level": "A1",
+    "lex_theme": "Personality & State",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Easy",
+    "level": "A1",
+    "lex_theme": "Evaluation & Value",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Difficult",
+    "level": "A1",
+    "lex_theme": "Evaluation & Value",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Fast",
+    "level": "A1",
+    "lex_theme": "Evaluation & Value",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Slow",
+    "level": "A1",
+    "lex_theme": "Evaluation & Value",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "New",
+    "level": "A1",
+    "lex_theme": "Evaluation & Value",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Old",
+    "level": "A1",
+    "lex_theme": "Evaluation & Value",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Clean",
+    "level": "A1",
+    "lex_theme": "Evaluation & Value",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Dirty",
+    "level": "A1",
+    "lex_theme": "Evaluation & Value",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Cheap",
+    "level": "A1",
+    "lex_theme": "Evaluation & Value",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Expensive",
+    "level": "A1",
+    "lex_theme": "Evaluation & Value",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Safe",
+    "level": "A1",
+    "lex_theme": "Evaluation & Value",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Dangerous",
+    "level": "A1",
+    "lex_theme": "Evaluation & Value",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "True",
+    "level": "A1",
+    "lex_theme": "Evaluation & Value",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "False",
+    "level": "A1",
+    "lex_theme": "Evaluation & Value",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Right",
+    "level": "A1",
+    "lex_theme": "Evaluation & Value",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Wrong",
+    "level": "A1",
+    "lex_theme": "Evaluation & Value",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Useful",
+    "level": "A1",
+    "lex_theme": "Evaluation & Value",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Useless",
+    "level": "A1",
+    "lex_theme": "Evaluation & Value",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Important",
+    "level": "A1",
+    "lex_theme": "Evaluation & Value",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Unimportant",
+    "level": "A1",
+    "lex_theme": "Evaluation & Value",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Sweet",
+    "level": "A1",
+    "lex_theme": "Senses & Texture",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Sour",
+    "level": "A1",
+    "lex_theme": "Senses & Texture",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Loud",
+    "level": "A1",
+    "lex_theme": "Senses & Texture",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Quiet",
+    "level": "A1",
+    "lex_theme": "Senses & Texture",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Bright",
+    "level": "A1",
+    "lex_theme": "Senses & Texture",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Dark",
+    "level": "A1",
+    "lex_theme": "Senses & Texture",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Fresh",
+    "level": "A1",
+    "lex_theme": "Senses & Texture",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Old",
+    "level": "A1",
+    "lex_theme": "Senses & Texture",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Sharp",
+    "level": "A1",
+    "lex_theme": "Senses & Texture",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Blunt",
+    "level": "A1",
+    "lex_theme": "Senses & Texture",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Hello, good morning!",
+    "level": "A1",
+    "lex_theme": "Greetings & Courtesy",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Goodbye, see you tomorrow!",
+    "level": "A1",
+    "lex_theme": "Greetings & Courtesy",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Please and thank you.",
+    "level": "A1",
+    "lex_theme": "Greetings & Courtesy",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "You are welcome!",
+    "level": "A1",
+    "lex_theme": "Greetings & Courtesy",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Excuse me, sorry!",
+    "level": "A1",
+    "lex_theme": "Greetings & Courtesy",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "No problem at all!",
+    "level": "A1",
+    "lex_theme": "Greetings & Courtesy",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "My name is Anna.",
+    "level": "A1",
+    "lex_theme": "Identity & Introductions",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Nice to meet you!",
+    "level": "A1",
+    "lex_theme": "Identity & Introductions",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "I am from London.",
+    "level": "A1",
+    "lex_theme": "Identity & Introductions",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Where are you from?",
+    "level": "A1",
+    "lex_theme": "Identity & Introductions",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "I am a student.",
+    "level": "A1",
+    "lex_theme": "Identity & Introductions",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "I work as a teacher.",
+    "level": "A1",
+    "lex_theme": "Identity & Introductions",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Can I have water, please?",
+    "level": "A1",
+    "lex_theme": "Needs & Requests",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Here you are!",
+    "level": "A1",
+    "lex_theme": "Needs & Requests",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "How much is this?",
+    "level": "A1",
+    "lex_theme": "Needs & Requests",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "It costs ten dollars.",
+    "level": "A1",
+    "lex_theme": "Needs & Requests",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Where is the bathroom?",
+    "level": "A1",
+    "lex_theme": "Needs & Requests",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "It is straight ahead.",
+    "level": "A1",
+    "lex_theme": "Needs & Requests",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "I understand.",
+    "level": "A1",
+    "lex_theme": "Understanding & Communication",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "I don't understand.",
+    "level": "A1",
+    "lex_theme": "Understanding & Communication",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Do you speak English?",
+    "level": "A1",
+    "lex_theme": "Understanding & Communication",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Yes, a little bit.",
+    "level": "A1",
+    "lex_theme": "Understanding & Communication",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Speak slowly, please.",
+    "level": "A1",
+    "lex_theme": "Understanding & Communication",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "I speak clearly.",
+    "level": "A1",
+    "lex_theme": "Understanding & Communication",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "I need help.",
+    "level": "A1",
+    "lex_theme": "Daily Life & Survival",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Can I help you?",
+    "level": "A1",
+    "lex_theme": "Daily Life & Survival",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "What time is it?",
+    "level": "A1",
+    "lex_theme": "Daily Life & Survival",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "It is three o'clock.",
+    "level": "A1",
+    "lex_theme": "Daily Life & Survival",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "I am hungry and thirsty.",
+    "level": "A1",
+    "lex_theme": "Daily Life & Survival",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Let us eat dinner!",
+    "level": "A1",
+    "lex_theme": "Daily Life & Survival",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Today is Monday",
+    "level": "A1",
+    "lex_theme": "Time Sequences",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Tomorrow is Tuesday",
+    "level": "A1",
+    "lex_theme": "Time Sequences",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Yesterday was Sunday",
+    "level": "A1",
+    "lex_theme": "Time Sequences",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "One, two, three",
+    "level": "A1",
+    "lex_theme": "Numbers Sequence",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Four, five, six",
+    "level": "A1",
+    "lex_theme": "Numbers Sequence",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  },
+  {
+    "word": "Seven, eight, nine",
+    "level": "A1",
+    "lex_theme": "Numbers Sequence",
+    "source_file": "blog/top-100-a0-a1-english.html"
+  }
+]
