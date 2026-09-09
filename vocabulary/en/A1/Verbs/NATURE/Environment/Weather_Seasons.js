@@ -1,84 +1,56 @@
-(function() {
-    const lang = "en";
-    const data = [
-    {
-        "id": "A1-VERB-NAT-003",
-        "word": "fall",
-        "emoji": "\ud83c\udf42",
-        "subtext": "fall down / fall off / fall in love / fall asleep",
-        "form": "verb",
-        "synonyms": [
-            "\ud83c\uddec\ud83c\udde7 autumn"
-        ],
-        "definitions": [
-            {
-                "text": "To move down toward the ground.",
-                "examples": [
-                    "Leaves fall in autumn.",
-                    "Be careful, don't fall."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "fell",
-        "v3": "fallen",
-        "group": "irregular",
-        "transcription": "f\u0254l",
-        "lang": "en",
-        "level": "starter",
-        "theme": "seasons_climate",
-        "sub_theme": null,
-        "antonyms": [
-            "rise"
-        ],
-        "legacy_id": "A1-NAT-12",
-        "level_code": "A1",
-        "domain": "NATURE",
-        "subcategory": "Environment",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Weather_Seasons"
-    },
-    {
-        "id": "A1-VERB-NAT-005",
-        "word": "rise",
-        "emoji": "\ud83c\udf05",
-        "subtext": "rise up / sun rise / price rise",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To move upwards; to increase in amount or level.",
-                "examples": [
-                    "The sun rises in the east.",
-                    "Prices are rising every year."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "rose",
-        "v3": "risen",
-        "group": "irregular",
-        "transcription": "ra\u026az",
-        "lang": "en",
-        "level": "starter",
-        "theme": "seasons_climate",
-        "sub_theme": null,
-        "antonyms": [
-            "fall"
-        ],
-        "legacy_id": "A1-NAT-24",
-        "level_code": "A1",
-        "domain": "NATURE",
-        "subcategory": "Environment",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Weather_Seasons"
-    }
+(function () {
+  const data = [
+  {
+    "id": "A1-VERB-NAT-003",
+    "word": "fall",
+    "emoji": "🍂",
+    "subtext": "fall down / fall off / fall in love / fall asleep",
+    "form": "verb",
+    "synonyms": [
+      "🇬🇧 autumn"
+    ],
+    "definitions": [
+      {
+        "text": "To move down toward the ground.",
+        "examples": [
+          "Leaves fall in autumn.",
+          "Be careful, don't fall."
+        ]
+      }
+    ],
+    "classification": "irregular",
+    "aspect": "action",
+    "v2": "fell",
+    "v3": "fallen",
+    "group": "irregular",
+    "transcription": "fɔl",
+    "lang": "en",
+    "level": "starter",
+    "theme": "seasons_climate",
+    "sub_theme": null,
+    "antonyms": [
+      "rise"
+    ],
+    "legacy_id": "A1-NAT-12",
+    "level_code": "A1",
+    "domain": "NATURE",
+    "subcategory": "Environment",
+    "pos_section": "Verbs",
+    "sub_subcategory": "Weather_Seasons"
+  }
 ];
 
-    if (typeof window !== "undefined") {
-        if (!window.vocabularyData) window.vocabularyData = {};
-        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
-        window.vocabularyData[lang].push(...data);
+  if (typeof window !== "undefined") {
+    if (!window.vocabularyData) {
+      window.vocabularyData = {};
     }
+    if (!window.vocabularyData.en) {
+      window.vocabularyData.en = [];
+    }
+    window.vocabularyData.en.push(...data);
+  }
+
+  if (typeof module !== "undefined" && module.exports) {
+    module.exports = data;
+  }
 })();

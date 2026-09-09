@@ -1,246 +1,233 @@
-(function() {
-    const lang = "en";
-    const data = [
-    {
-        "id": "A1-NOUN-NAT-039",
-        "word": "autumn",
-        "emoji": "\ud83c\udf42",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "subtext": "related to seasons climate",
-        "synonyms": [
-            "\ud83c\uddfa\ud83c\uddf8 fall"
-        ],
-        "definitions": [
-            {
-                "text": "The season between summer and winter.",
-                "examples": [
-                    "Leaves fall in autumn."
-                ]
-            }
-        ],
-        "transcription": "\u02c8\u0254t\u0259m",
-        "lang": "en",
-        "level": "starter",
-        "theme": "seasons_climate",
-        "sub_theme": null,
-        "legacy_id": "A1-NAT-02",
-        "level_code": "A1",
-        "domain": "NATURE",
-        "subcategory": "Environment",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Weather_Seasons"
-    },
-    {
-        "id": "A1-NOUN-NAT-040",
-        "word": "season",
-        "emoji": "\ud83d\udcc5",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "definitions": [
-            {
-                "text": "One of the four periods of the year (spring, summer, autumn, winter).",
-                "examples": [
-                    "Winter is my favorite season."
-                ]
-            }
-        ],
-        "subtext": "time of year",
-        "transcription": "\u02c8siz\u0259n",
-        "lang": "en",
-        "level": "starter",
-        "theme": "seasons_climate",
-        "sub_theme": null,
-        "legacy_id": "A1-NAT-26",
-        "level_code": "A1",
-        "domain": "NATURE",
-        "subcategory": "Environment",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Weather_Seasons"
-    },
-    {
-        "id": "A1-NOUN-NAT-041",
-        "word": "spring",
-        "emoji": "\ud83c\udf31",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "definitions": [
-            {
-                "text": "The season between winter and summer.",
-                "examples": [
-                    "Flowers grow in spring."
-                ]
-            }
-        ],
-        "subtext": "related to seasons climate",
-        "transcription": "sp\u0259r\u026a\u014b",
-        "lang": "en",
-        "level": "starter",
-        "theme": "seasons_climate",
-        "sub_theme": null,
-        "legacy_id": "A1-NAT-30",
-        "level_code": "A1",
-        "domain": "NATURE",
-        "subcategory": "Environment",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Weather_Seasons"
-    },
-    {
-        "id": "A1-NOUN-NAT-042",
-        "word": "summer",
-        "emoji": "\u2600\ufe0f",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "definitions": [
-            {
-                "text": "The hottest season of the year.",
-                "examples": [
-                    "I love swimming in summer."
-                ]
-            }
-        ],
-        "subtext": "related to seasons climate",
-        "transcription": "\u02c8s\u0259m\u0259r",
-        "lang": "en",
-        "level": "starter",
-        "theme": "seasons_climate",
-        "sub_theme": null,
-        "legacy_id": "A1-NAT-33",
-        "level_code": "A1",
-        "domain": "NATURE",
-        "subcategory": "Environment",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Weather_Seasons"
-    },
-    {
-        "id": "A1-NOUN-NAT-043",
-        "word": "winter",
-        "emoji": "\u2744\ufe0f",
-        "form": "noun",
-        "classification": "regular",
-        "countability": "countable",
-        "definitions": [
-            {
-                "text": "The coldest season of the year.",
-                "examples": [
-                    "It snows in winter."
-                ]
-            }
-        ],
-        "subtext": "related to seasons climate",
-        "transcription": "\u02c8w\u026ant\u0259r",
-        "lang": "en",
-        "level": "starter",
-        "theme": "seasons_climate",
-        "sub_theme": null,
-        "legacy_id": "A1-NAT-47",
-        "level_code": "A1",
-        "domain": "NATURE",
-        "subcategory": "Environment",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Weather_Seasons"
-    },
-    {
-        "id": "A1-NOUN-NAT-067",
-        "word": "climate",
-        "emoji": "\ud83c\udf21\ufe0f",
-        "form": "noun",
-        "transcription": "\u02c8kla\u026am\u0259t",
-        "definitions": [
-            {
-                "text": "The weather conditions prevailing in an area over a long period.",
-                "examples": [
-                    "The Mediterranean climate is warm and dry.",
-                    "Climate change affects wildlife."
-                ]
-            }
-        ],
-        "lang": "en",
-        "level": "starter",
-        "level_code": "A1",
-        "domain": "NATURE",
-        "subcategory": "Environment",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Weather_Seasons"
-    },
-    {
-        "id": "A1-NOUN-NAT-068",
-        "word": "cloud",
-        "emoji": "\u2601\ufe0f",
-        "form": "noun",
-        "transcription": "kla\u028ad",
-        "definitions": [
-            {
-                "text": "A visible mass of condensed water vapor floating in the atmosphere.",
-                "examples": [
-                    "Dark storm clouds gathered above.",
-                    "White fluffy clouds drifted in the sky."
-                ]
-            }
-        ],
-        "lang": "en",
-        "level": "starter",
-        "level_code": "A1",
-        "domain": "NATURE",
-        "subcategory": "Environment",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Weather_Seasons"
-    },
-    {
-        "id": "A1-NOUN-NAT-069",
-        "word": "fog",
-        "emoji": "\ud83c\udf2b\ufe0f",
-        "form": "noun",
-        "transcription": "f\u0251\u02d0\u0261",
-        "definitions": [
-            {
-                "text": "A thick mist that obscures visibility.",
-                "examples": [
-                    "Dense fog covered the morning highway.",
-                    "Thick fog delayed our flight."
-                ]
-            }
-        ],
-        "lang": "en",
-        "level": "starter",
-        "level_code": "A1",
-        "domain": "NATURE",
-        "subcategory": "Environment",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Weather_Seasons"
-    },
-    {
-        "id": "A1-NOUN-NAT-070",
-        "word": "storm",
-        "emoji": "\u26c8\ufe0f",
-        "form": "noun",
-        "transcription": "st\u0254\u02d0rm",
-        "definitions": [
-            {
-                "text": "A violent disturbance of the atmosphere with strong winds and rain.",
-                "examples": [
-                    "A loud thunder storm passed over the town.",
-                    "Secure outdoor furniture before the storm."
-                ]
-            }
-        ],
-        "lang": "en",
-        "level": "starter",
-        "level_code": "A1",
-        "domain": "NATURE",
-        "subcategory": "Environment",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Weather_Seasons"
-    }
+(function () {
+  const data = [
+  {
+    "id": "A1-NOUN-NAT-039",
+    "word": "autumn",
+    "emoji": "🍂",
+    "form": "noun",
+    "classification": "regular",
+    "countability": "countable",
+    "subtext": "related to seasons climate",
+    "synonyms": [
+      "🇺🇸 fall"
+    ],
+    "definitions": [
+      {
+        "text": "The season between summer and winter.",
+        "examples": [
+          "Leaves fall in autumn."
+        ]
+      }
+    ],
+    "transcription": "ˈɔtəm",
+    "lang": "en",
+    "level": "starter",
+    "theme": "seasons_climate",
+    "sub_theme": null,
+    "legacy_id": "A1-NAT-02",
+    "level_code": "A1",
+    "domain": "NATURE",
+    "subcategory": "Environment",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Weather_Seasons"
+  },
+  {
+    "id": "A1-NOUN-NAT-040",
+    "word": "season",
+    "emoji": "📅",
+    "form": "noun",
+    "classification": "regular",
+    "countability": "countable",
+    "definitions": [
+      {
+        "text": "One of the four periods of the year (spring, summer, autumn, winter).",
+        "examples": [
+          "Winter is my favorite season."
+        ]
+      }
+    ],
+    "subtext": "time of year",
+    "transcription": "ˈsizən",
+    "lang": "en",
+    "level": "starter",
+    "theme": "seasons_climate",
+    "sub_theme": null,
+    "legacy_id": "A1-NAT-26",
+    "level_code": "A1",
+    "domain": "NATURE",
+    "subcategory": "Environment",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Weather_Seasons"
+  },
+  {
+    "id": "A1-NOUN-NAT-041",
+    "word": "spring",
+    "emoji": "🌱",
+    "form": "noun",
+    "classification": "regular",
+    "countability": "countable",
+    "definitions": [
+      {
+        "text": "The season between winter and summer.",
+        "examples": [
+          "Flowers grow in spring."
+        ]
+      }
+    ],
+    "subtext": "related to seasons climate",
+    "transcription": "spərɪŋ",
+    "lang": "en",
+    "level": "starter",
+    "theme": "seasons_climate",
+    "sub_theme": null,
+    "legacy_id": "A1-NAT-30",
+    "level_code": "A1",
+    "domain": "NATURE",
+    "subcategory": "Environment",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Weather_Seasons"
+  },
+  {
+    "id": "A1-NOUN-NAT-042",
+    "word": "summer",
+    "emoji": "☀️",
+    "form": "noun",
+    "classification": "regular",
+    "countability": "countable",
+    "definitions": [
+      {
+        "text": "The hottest season of the year.",
+        "examples": [
+          "I love swimming in summer."
+        ]
+      }
+    ],
+    "subtext": "related to seasons climate",
+    "transcription": "ˈsəmər",
+    "lang": "en",
+    "level": "starter",
+    "theme": "seasons_climate",
+    "sub_theme": null,
+    "legacy_id": "A1-NAT-33",
+    "level_code": "A1",
+    "domain": "NATURE",
+    "subcategory": "Environment",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Weather_Seasons"
+  },
+  {
+    "id": "A1-NOUN-NAT-043",
+    "word": "winter",
+    "emoji": "❄️",
+    "form": "noun",
+    "classification": "regular",
+    "countability": "countable",
+    "definitions": [
+      {
+        "text": "The coldest season of the year.",
+        "examples": [
+          "It snows in winter."
+        ]
+      }
+    ],
+    "subtext": "related to seasons climate",
+    "transcription": "ˈwɪntər",
+    "lang": "en",
+    "level": "starter",
+    "theme": "seasons_climate",
+    "sub_theme": null,
+    "legacy_id": "A1-NAT-47",
+    "level_code": "A1",
+    "domain": "NATURE",
+    "subcategory": "Environment",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Weather_Seasons"
+  },
+  {
+    "id": "A1-NOUN-NAT-067",
+    "word": "climate",
+    "emoji": "🌡️",
+    "form": "noun",
+    "transcription": "ˈklaɪmət",
+    "definitions": [
+      {
+        "text": "The weather conditions prevailing in an area over a long period.",
+        "examples": [
+          "The Mediterranean climate is warm and dry.",
+          "Climate change affects wildlife."
+        ]
+      }
+    ],
+    "lang": "en",
+    "level": "starter",
+    "level_code": "A1",
+    "domain": "NATURE",
+    "subcategory": "Environment",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Weather_Seasons",
+    "theme": "weather_environment"
+  },
+  {
+    "id": "A1-NOUN-NAT-068",
+    "word": "cloud",
+    "emoji": "☁️",
+    "form": "noun",
+    "transcription": "klaʊd",
+    "definitions": [
+      {
+        "text": "A visible mass of condensed water vapor floating in the atmosphere.",
+        "examples": [
+          "Dark storm clouds gathered above.",
+          "White fluffy clouds drifted in the sky."
+        ]
+      }
+    ],
+    "lang": "en",
+    "level": "starter",
+    "level_code": "A1",
+    "domain": "NATURE",
+    "subcategory": "Environment",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Weather_Seasons",
+    "theme": "weather_environment"
+  },
+  {
+    "id": "A1-NOUN-NAT-070",
+    "word": "storm",
+    "emoji": "⛈️",
+    "form": "noun",
+    "transcription": "stɔːrm",
+    "definitions": [
+      {
+        "text": "A violent disturbance of the atmosphere with strong winds and rain.",
+        "examples": [
+          "A loud thunder storm passed over the town.",
+          "Secure outdoor furniture before the storm."
+        ]
+      }
+    ],
+    "lang": "en",
+    "level": "starter",
+    "level_code": "A1",
+    "domain": "NATURE",
+    "subcategory": "Environment",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Weather_Seasons",
+    "theme": "weather_environment"
+  }
 ];
 
-    if (typeof window !== "undefined") {
-        if (!window.vocabularyData) window.vocabularyData = {};
-        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
-        window.vocabularyData[lang].push(...data);
+  if (typeof window !== "undefined") {
+    if (!window.vocabularyData) {
+      window.vocabularyData = {};
     }
+    if (!window.vocabularyData.en) {
+      window.vocabularyData.en = [];
+    }
+    window.vocabularyData.en.push(...data);
+  }
+
+  if (typeof module !== "undefined" && module.exports) {
+    module.exports = data;
+  }
 })();

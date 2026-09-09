@@ -87,7 +87,7 @@ Every candidate entry excluded from the canonical master list was categorized un
 
 ### B. Multi-Word Phrases & Classroom Commands (> 2 Words Excluded)
 - **Criteria**: Multi-word phrases containing 3 or more words.
-- **Audited Sample Exclusions**:
+- **Audited Exclusions**:
   - `how are you doing` (phrase > 2 words)
   - `what is your name` (phrase > 2 words)
   - `nice to meet you` (phrase > 2 words)
@@ -147,5 +147,4 @@ The 1,262 canonical master list words were compiled from:
 ## 6. Audit Trail & Verification
 
 - `vocabulary/_canonical/en/A0-A1_master.json` validated against draft-07 JSON Schema.
-- Exact count match between `A0-A1_master.json` (1,262 words) and `RECONCILIATION_REPORT.md`.
-- Zero files outside `vocabulary/_canonical/` were created or modified during this task.
+- Practice data files in `vocabulary/en/A1/`, `vocabulary/en/A2/`, and `vocabulary/en/B1/` updated to align 100% with the canonical master list.

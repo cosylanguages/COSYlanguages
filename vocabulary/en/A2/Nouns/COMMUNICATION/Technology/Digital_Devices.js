@@ -1,619 +1,937 @@
-(function() {
-    const lang = "en";
-    const data = [
-    {
-        "word": "browser",
-        "level": "elementary",
-        "theme": "technology",
-        "emoji": "🌐",
-        "form": "noun",
-        "classification": "regular",
-        "plural": "browsers",
-        "definitions": [
-            {
-                "text": "A computer program that you use to look at pages on the internet.",
-                "examples": [
-                    "Which web browser do you use?"
-                ]
-            }
-        ],
-        "subtext": "web program",
-        "synonyms": [
-            "web program"
-        ],
-        "countability": "countable",
-        "transcription": "ˈbraʊzər",
-        "etymology": {
-            "origin_lang": "Old French",
-            "origin_word": "brocier",
-            "origin_meaning": "to feed on leaves, browse",
-            "entered_via": "Middle English"
-        },
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-COM-029",
-        "legacy_id": "A2-COMM-01",
-        "level_code": "A2",
-        "domain": "COMMUNICATION",
-        "subcategory": "Technology",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Digital_Devices"
+(function () {
+  const data = [
+  {
+    "word": "browser",
+    "level": "elementary",
+    "theme": "technology",
+    "emoji": "🌐",
+    "form": "noun",
+    "classification": "regular",
+    "plural": "browsers",
+    "definitions": [
+      {
+        "text": "A computer program that you use to look at pages on the internet.",
+        "examples": [
+          "Which web browser do you use?"
+        ]
+      }
+    ],
+    "subtext": "web program",
+    "synonyms": [
+      "web program"
+    ],
+    "countability": "countable",
+    "transcription": "ˈbraʊzər",
+    "etymology": {
+      "origin_lang": "Old French",
+      "origin_word": "brocier",
+      "origin_meaning": "to feed on leaves, browse",
+      "entered_via": "Middle English"
     },
-    {
-        "word": "communication",
-        "level": "elementary",
-        "theme": "technology",
-        "emoji": "🗣️",
-        "form": "noun",
-        "classification": "regular",
-        "definitions": [
-            {
-                "text": "The act of sharing information with others.",
-                "examples": [
-                    "Good communication is important in a team."
-                ]
-            }
-        ],
-        "subtext": "sharing info",
-        "synonyms": [
-            "sharing info"
-        ],
-        "countability": "uncountable",
-        "transcription": "kəˌmjuːnɪˈkeɪʃn",
-        "etymology": {
-            "origin_lang": "Latin",
-            "origin_word": "communicatio",
-            "origin_meaning": "sharing, imparting"
-        },
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-COM-030",
-        "legacy_id": "A2-COMM-02",
-        "level_code": "A2",
-        "domain": "COMMUNICATION",
-        "subcategory": "Technology",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Digital_Devices"
+    "language": "en",
+    "lang": "en",
+    "id": "A2-NOUN-COM-029",
+    "legacy_id": "A2-COMM-01",
+    "level_code": "A2",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  },
+  {
+    "word": "communication",
+    "level": "elementary",
+    "theme": "technology",
+    "emoji": "🗣️",
+    "form": "noun",
+    "classification": "regular",
+    "definitions": [
+      {
+        "text": "The act of sharing information with others.",
+        "examples": [
+          "Good communication is important in a team."
+        ]
+      }
+    ],
+    "subtext": "sharing info",
+    "synonyms": [
+      "sharing info"
+    ],
+    "countability": "uncountable",
+    "transcription": "kəˌmjuːnɪˈkeɪʃn",
+    "etymology": {
+      "origin_lang": "Latin",
+      "origin_word": "communicatio",
+      "origin_meaning": "sharing, imparting"
     },
-    {
-        "word": "connection",
-        "level": "elementary",
-        "theme": "technology",
-        "emoji": "🔗",
-        "form": "noun",
-        "classification": "regular",
-        "definitions": [
-            {
-                "text": "The act of joining two or more things together.",
-                "examples": [
-                    "The internet connection is very slow today.",
-                    "There is a connection between health and exercise."
-                ]
-            }
-        ],
-        "subtext": "link, join",
-        "synonyms": [
-            "link",
-            "join"
-        ],
-        "countability": "countable",
-        "transcription": "kəˈnɛkʃn",
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-COM-031",
-        "legacy_id": "A2-COMM-03",
-        "level_code": "A2",
-        "domain": "COMMUNICATION",
-        "subcategory": "Technology",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Digital_Devices"
-    },
-    {
-        "word": "data",
-        "level": "elementary",
-        "theme": "technology",
-        "emoji": "📊",
-        "form": "noun",
-        "classification": "regular",
-        "definitions": [
-            {
-                "text": "Information, especially facts or numbers, collected to be examined.",
-                "examples": [
-                    "We are still collecting data for the report."
-                ]
-            }
-        ],
-        "subtext": "information, facts",
-        "synonyms": [
-            "information",
-            "facts"
-        ],
-        "countability": "uncountable",
-        "transcription": "ˈdeɪtə",
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-COM-032",
-        "legacy_id": "A2-COMM-04",
-        "level_code": "A2",
-        "domain": "COMMUNICATION",
-        "subcategory": "Technology",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Digital_Devices"
-    },
-    {
-        "word": "database",
-        "level": "elementary",
-        "theme": "technology",
-        "emoji": "🗄️",
-        "form": "noun",
-        "classification": "regular",
-        "plural": "databases",
-        "definitions": [
-            {
-                "text": "A large amount of information stored on a computer system.",
-                "examples": [
-                    "The names of all customers are in the database."
-                ]
-            }
-        ],
-        "subtext": "data storage",
-        "synonyms": [
-            "data storage"
-        ],
-        "countability": "countable",
-        "transcription": "ˈdeɪtəbeɪs",
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-COM-033",
-        "legacy_id": "A2-COMM-05",
-        "level_code": "A2",
-        "domain": "COMMUNICATION",
-        "subcategory": "Technology",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Digital_Devices"
-    },
-    {
-        "word": "download",
-        "level": "elementary",
-        "theme": "technology",
-        "emoji": "📥",
-        "form": "noun",
-        "classification": "regular",
-        "definitions": [
-            {
-                "text": "The process of receiving data from the internet to a computer.",
-                "examples": [
-                    "The download is complete.",
-                    "You can find the file in your downloads folder."
-                ]
-            }
-        ],
-        "subtext": "offline download",
-        "synonyms": [
-            "receive data"
-        ],
-        "countability": "countable",
-        "transcription": "ˌdaʊnˈloʊd",
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-COM-034",
-        "legacy_id": "A2-COMM-06",
-        "level_code": "A2",
-        "domain": "COMMUNICATION",
-        "subcategory": "Technology",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Digital_Devices"
-    },
-    {
-        "word": "hardware",
-        "level": "elementary",
-        "theme": "technology",
-        "emoji": "🖱️",
-        "form": "noun",
-        "classification": "regular",
-        "definitions": [
-            {
-                "text": "The physical and electronic parts of a computer, rather than the programs it uses.",
-                "examples": [
-                    "Computer hardware includes the monitor and the mouse.",
-                    "We need to upgrade the hardware."
-                ]
-            }
-        ],
-        "subtext": "computer parts",
-        "synonyms": [
-            "computer parts"
-        ],
-        "countability": "uncountable",
-        "transcription": "ˈhɑːrdwɛər",
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-COM-035",
-        "legacy_id": "A2-COMM-07",
-        "level_code": "A2",
-        "domain": "COMMUNICATION",
-        "subcategory": "Technology",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Digital_Devices"
-    },
-    {
-        "word": "innovation",
-        "level": "elementary",
-        "theme": "technology",
-        "emoji": "💡",
-        "form": "noun",
-        "classification": "regular",
-        "definitions": [
-            {
-                "text": "A new idea or method.",
-                "examples": [
-                    "The company is known for its technological innovation."
-                ]
-            }
-        ],
-        "subtext": "new idea",
-        "synonyms": [
-            "new idea"
-        ],
-        "countability": "countable",
-        "transcription": "ˌɪnəˈveɪʃn",
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-COM-036",
-        "legacy_id": "A2-COMM-08",
-        "level_code": "A2",
-        "domain": "COMMUNICATION",
-        "subcategory": "Technology",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Digital_Devices"
-    },
-    {
-        "word": "monitor",
-        "level": "elementary",
-        "theme": "technology",
-        "emoji": "🖥️",
-        "form": "noun",
-        "classification": "regular",
-        "plural": "monitors",
-        "definitions": [
-            {
-                "text": "A computer screen.",
-                "examples": [
-                    "The graphic designer needs a large monitor."
-                ]
-            }
-        ],
-        "subtext": "screen",
-        "synonyms": [
-            "screen"
-        ],
-        "countability": "countable",
-        "transcription": "🇬🇧 ˈmɒnɪtər | 🇺🇸 ˈmɑːnɪtər",
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-COM-037",
-        "legacy_id": "A2-COMM-09",
-        "level_code": "A2",
-        "domain": "COMMUNICATION",
-        "subcategory": "Technology",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Digital_Devices"
-    },
-    {
-        "word": "privacy",
-        "level": "elementary",
-        "theme": "technology",
-        "emoji": "🔒",
-        "form": "noun",
-        "classification": "regular",
-        "definitions": [
-            {
-                "text": "The state of being alone and not watched or disturbed by other people.",
-                "examples": [
-                    "Online privacy is very important.",
-                    "I need some privacy."
-                ]
-            }
-        ],
-        "subtext": "personal space, secrecy",
-        "synonyms": [
-            "personal space",
-            "secrecy"
-        ],
-        "countability": "uncountable",
-        "transcription": "ˈpraɪvəsi",
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-COM-040",
-        "legacy_id": "A2-COMM-12",
-        "level_code": "A2",
-        "domain": "COMMUNICATION",
-        "subcategory": "Technology",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Digital_Devices"
-    },
-    {
-        "word": "streaming",
-        "level": "elementary",
-        "theme": "technology",
-        "emoji": "📺",
-        "form": "noun",
-        "classification": "regular",
-        "definitions": [
-            {
-                "text": "Watching or listening to content online without downloading.",
-                "examples": [
-                    "Streaming music is very convenient.",
-                    "I use several streaming services."
-                ]
-            }
-        ],
-        "subtext": "live streaming",
-        "synonyms": [
-            "online video"
-        ],
-        "countability": "uncountable",
-        "transcription": "ˈstriːmɪŋ",
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-COM-042",
-        "legacy_id": "A2-COMM-14",
-        "level_code": "A2",
-        "domain": "COMMUNICATION",
-        "subcategory": "Technology",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Digital_Devices"
-    },
-    {
-        "word": "technology",
-        "level": "elementary",
-        "theme": "technology",
-        "emoji": "💻",
-        "form": "noun",
-        "classification": "regular",
-        "definitions": [
-            {
-                "text": "Knowledge, equipment, and methods that are used in science and industry.",
-                "examples": [
-                    "Modern technology is changing our lives.",
-                    "He is interested in computer technology."
-                ]
-            }
-        ],
-        "subtext": "tech, high-tech",
-        "synonyms": [
-            "tech",
-            "high-tech"
-        ],
-        "countability": "uncountable",
-        "transcription": "🇬🇧 tɛkˈnɒlədʒi | 🇺🇸 tɛkˈnɑːlədʒi",
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-COM-043",
-        "legacy_id": "A2-COMM-15",
-        "level_code": "A2",
-        "domain": "COMMUNICATION",
-        "subcategory": "Technology",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Digital_Devices"
-    },
-    {
-        "word": "upload",
-        "level": "elementary",
-        "theme": "technology",
-        "emoji": "📤",
-        "form": "noun",
-        "classification": "regular",
-        "definitions": [
-            {
-                "text": "The process of sending data from a computer to the internet.",
-                "examples": [
-                    "The upload took a long time.",
-                    "I'm waiting for the video upload to finish."
-                ]
-            }
-        ],
-        "subtext": "online upload",
-        "synonyms": [
-            "send data"
-        ],
-        "countability": "countable",
-        "transcription": "ˌʌpˈloʊd",
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-COM-044",
-        "legacy_id": "A2-COMM-16",
-        "level_code": "A2",
-        "domain": "COMMUNICATION",
-        "subcategory": "Technology",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Digital_Devices"
-    },
-    {
-        "word": "virus",
-        "level": "elementary",
-        "theme": "technology",
-        "emoji": "🦠",
-        "form": "noun",
-        "classification": "regular",
-        "plural": "viruses",
-        "definitions": [
-            {
-                "text": "A computer program that is designed to cause problems for other computers.",
-                "examples": [
-                    "My computer has a virus."
-                ]
-            }
-        ],
-        "subtext": "harmful program",
-        "synonyms": [
-            "harmful program"
-        ],
-        "countability": "countable",
-        "transcription": "ˈvaɪrəs",
-        "language": "en",
-        "lang": "en",
-        "id": "A2-NOUN-COM-045",
-        "legacy_id": "A2-COMM-17",
-        "level_code": "A2",
-        "domain": "COMMUNICATION",
-        "subcategory": "Technology",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Digital_Devices"
-    },
-    {
-        "id": "A2-NOUN-COM-046",
-        "word": "username",
-        "emoji": "👤",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "An identification name used by a person for a computer or site.",
-                "examples": [
-                    "Type your username and password.",
-                    "I forgot my website username."
-                ]
-            }
-        ],
-        "subtext": "login ID",
-        "synonyms": [
-            "login ID"
-        ],
-        "transcription": "ˈjuːzəneɪm",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "technology",
-        "domain": "COMMUNICATION",
-        "subcategory": "Technology",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Digital_Devices"
-    },
-    {
-        "id": "A2-NOUN-COM-047",
-        "word": "attachment",
-        "emoji": "📎",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A computer file sent along with an email message.",
-                "examples": [
-                    "Please find the invoice in the email attachment.",
-                    "Do not open suspicious email attachments."
-                ]
-            }
-        ],
-        "subtext": "enclosed file",
-        "synonyms": [
-            "enclosed file"
-        ],
-        "transcription": "əˈtætʃmənt",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "technology",
-        "domain": "COMMUNICATION",
-        "subcategory": "Technology",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Digital_Devices"
-    },
-    {
-        "id": "A2-NOUN-COM-070",
-        "word": "coverage",
-        "emoji": "📡",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The extent to which something is dealt with or reported.",
-                "examples": [
-                    "Live news coverage began at noon.",
-                    "Mobile network coverage is spotty in the hills."
-                ]
-            }
-        ],
-        "subtext": "reportage, range",
-        "synonyms": [
-            "reportage",
-            "range"
-        ],
-        "transcription": "ˈkʌvərɪdʒ",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "technology",
-        "domain": "COMMUNICATION",
-        "subcategory": "Technology",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Digital_Devices"
-    },
-    {
-        "id": "A2-NOUN-COM-081",
-        "word": "feature",
-        "emoji": "✨",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A distinctive attribute or aspect of something.",
-                "examples": [
-                    "The smartphone has many new camera features.",
-                    "Read the special feature in the magazine."
-                ]
-            }
-        ],
-        "subtext": "attribute, detail",
-        "synonyms": [
-            "attribute",
-            "detail"
-        ],
-        "transcription": "ˈfiːtʃə",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "technology",
-        "domain": "COMMUNICATION",
-        "subcategory": "Technology",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Digital_Devices"
-    },
-    {
-        "id": "A2-NOUN-COM-095",
-        "word": "image",
-        "emoji": "🖼️",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A representation of the external form of a person or thing.",
-                "examples": [
-                    "Upload a high-resolution image file.",
-                    "The mirror reflected his image."
-                ]
-            }
-        ],
-        "subtext": "picture, photo",
-        "synonyms": [
-            "picture",
-            "photo"
-        ],
-        "transcription": "ˈɪmɪdʒ",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "technology",
-        "domain": "COMMUNICATION",
-        "subcategory": "Technology",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Digital_Devices"
-    }
+    "language": "en",
+    "lang": "en",
+    "id": "A2-NOUN-COM-030",
+    "legacy_id": "A2-COMM-02",
+    "level_code": "A2",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  },
+  {
+    "word": "connection",
+    "level": "elementary",
+    "theme": "technology",
+    "emoji": "🔗",
+    "form": "noun",
+    "classification": "regular",
+    "definitions": [
+      {
+        "text": "The act of joining two or more things together.",
+        "examples": [
+          "The internet connection is very slow today.",
+          "There is a connection between health and exercise."
+        ]
+      }
+    ],
+    "subtext": "link, join",
+    "synonyms": [
+      "link",
+      "join"
+    ],
+    "countability": "countable",
+    "transcription": "kəˈnɛkʃn",
+    "language": "en",
+    "lang": "en",
+    "id": "A2-NOUN-COM-031",
+    "legacy_id": "A2-COMM-03",
+    "level_code": "A2",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  },
+  {
+    "word": "data",
+    "level": "elementary",
+    "theme": "technology",
+    "emoji": "📊",
+    "form": "noun",
+    "classification": "regular",
+    "definitions": [
+      {
+        "text": "Information, especially facts or numbers, collected to be examined.",
+        "examples": [
+          "We are still collecting data for the report."
+        ]
+      }
+    ],
+    "subtext": "information, facts",
+    "synonyms": [
+      "information",
+      "facts"
+    ],
+    "countability": "uncountable",
+    "transcription": "ˈdeɪtə",
+    "language": "en",
+    "lang": "en",
+    "id": "A2-NOUN-COM-032",
+    "legacy_id": "A2-COMM-04",
+    "level_code": "A2",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  },
+  {
+    "word": "database",
+    "level": "elementary",
+    "theme": "technology",
+    "emoji": "🗄️",
+    "form": "noun",
+    "classification": "regular",
+    "plural": "databases",
+    "definitions": [
+      {
+        "text": "A large amount of information stored on a computer system.",
+        "examples": [
+          "The names of all customers are in the database."
+        ]
+      }
+    ],
+    "subtext": "data storage",
+    "synonyms": [
+      "data storage"
+    ],
+    "countability": "countable",
+    "transcription": "ˈdeɪtəbeɪs",
+    "language": "en",
+    "lang": "en",
+    "id": "A2-NOUN-COM-033",
+    "legacy_id": "A2-COMM-05",
+    "level_code": "A2",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  },
+  {
+    "word": "download",
+    "level": "elementary",
+    "theme": "technology",
+    "emoji": "📥",
+    "form": "noun",
+    "classification": "regular",
+    "definitions": [
+      {
+        "text": "The process of receiving data from the internet to a computer.",
+        "examples": [
+          "The download is complete.",
+          "You can find the file in your downloads folder."
+        ]
+      }
+    ],
+    "subtext": "offline download",
+    "synonyms": [
+      "receive data"
+    ],
+    "countability": "countable",
+    "transcription": "ˌdaʊnˈloʊd",
+    "language": "en",
+    "lang": "en",
+    "id": "A2-NOUN-COM-034",
+    "legacy_id": "A2-COMM-06",
+    "level_code": "A2",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  },
+  {
+    "word": "hardware",
+    "level": "elementary",
+    "theme": "technology",
+    "emoji": "🖱️",
+    "form": "noun",
+    "classification": "regular",
+    "definitions": [
+      {
+        "text": "The physical and electronic parts of a computer, rather than the programs it uses.",
+        "examples": [
+          "Computer hardware includes the monitor and the mouse.",
+          "We need to upgrade the hardware."
+        ]
+      }
+    ],
+    "subtext": "computer parts",
+    "synonyms": [
+      "computer parts"
+    ],
+    "countability": "uncountable",
+    "transcription": "ˈhɑːrdwɛər",
+    "language": "en",
+    "lang": "en",
+    "id": "A2-NOUN-COM-035",
+    "legacy_id": "A2-COMM-07",
+    "level_code": "A2",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  },
+  {
+    "word": "innovation",
+    "level": "elementary",
+    "theme": "technology",
+    "emoji": "💡",
+    "form": "noun",
+    "classification": "regular",
+    "definitions": [
+      {
+        "text": "A new idea or method.",
+        "examples": [
+          "The company is known for its technological innovation."
+        ]
+      }
+    ],
+    "subtext": "new idea",
+    "synonyms": [
+      "new idea"
+    ],
+    "countability": "countable",
+    "transcription": "ˌɪnəˈveɪʃn",
+    "language": "en",
+    "lang": "en",
+    "id": "A2-NOUN-COM-036",
+    "legacy_id": "A2-COMM-08",
+    "level_code": "A2",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  },
+  {
+    "word": "monitor",
+    "level": "elementary",
+    "theme": "technology",
+    "emoji": "🖥️",
+    "form": "noun",
+    "classification": "regular",
+    "plural": "monitors",
+    "definitions": [
+      {
+        "text": "A computer screen.",
+        "examples": [
+          "The graphic designer needs a large monitor."
+        ]
+      }
+    ],
+    "subtext": "screen",
+    "synonyms": [
+      "screen"
+    ],
+    "countability": "countable",
+    "transcription": "🇬🇧 ˈmɒnɪtər | 🇺🇸 ˈmɑːnɪtər",
+    "language": "en",
+    "lang": "en",
+    "id": "A2-NOUN-COM-037",
+    "legacy_id": "A2-COMM-09",
+    "level_code": "A2",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  },
+  {
+    "word": "privacy",
+    "level": "elementary",
+    "theme": "technology",
+    "emoji": "🔒",
+    "form": "noun",
+    "classification": "regular",
+    "definitions": [
+      {
+        "text": "The state of being alone and not watched or disturbed by other people.",
+        "examples": [
+          "Online privacy is very important.",
+          "I need some privacy."
+        ]
+      }
+    ],
+    "subtext": "personal space, secrecy",
+    "synonyms": [
+      "personal space",
+      "secrecy"
+    ],
+    "countability": "uncountable",
+    "transcription": "ˈpraɪvəsi",
+    "language": "en",
+    "lang": "en",
+    "id": "A2-NOUN-COM-040",
+    "legacy_id": "A2-COMM-12",
+    "level_code": "A2",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  },
+  {
+    "word": "streaming",
+    "level": "elementary",
+    "theme": "technology",
+    "emoji": "📺",
+    "form": "noun",
+    "classification": "regular",
+    "definitions": [
+      {
+        "text": "Watching or listening to content online without downloading.",
+        "examples": [
+          "Streaming music is very convenient.",
+          "I use several streaming services."
+        ]
+      }
+    ],
+    "subtext": "live streaming",
+    "synonyms": [
+      "online video"
+    ],
+    "countability": "uncountable",
+    "transcription": "ˈstriːmɪŋ",
+    "language": "en",
+    "lang": "en",
+    "id": "A2-NOUN-COM-042",
+    "legacy_id": "A2-COMM-14",
+    "level_code": "A2",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  },
+  {
+    "word": "technology",
+    "level": "elementary",
+    "theme": "technology",
+    "emoji": "💻",
+    "form": "noun",
+    "classification": "regular",
+    "definitions": [
+      {
+        "text": "Knowledge, equipment, and methods that are used in science and industry.",
+        "examples": [
+          "Modern technology is changing our lives.",
+          "He is interested in computer technology."
+        ]
+      }
+    ],
+    "subtext": "tech, high-tech",
+    "synonyms": [
+      "tech",
+      "high-tech"
+    ],
+    "countability": "uncountable",
+    "transcription": "🇬🇧 tɛkˈnɒlədʒi | 🇺🇸 tɛkˈnɑːlədʒi",
+    "language": "en",
+    "lang": "en",
+    "id": "A2-NOUN-COM-043",
+    "legacy_id": "A2-COMM-15",
+    "level_code": "A2",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  },
+  {
+    "word": "upload",
+    "level": "elementary",
+    "theme": "technology",
+    "emoji": "📤",
+    "form": "noun",
+    "classification": "regular",
+    "definitions": [
+      {
+        "text": "The process of sending data from a computer to the internet.",
+        "examples": [
+          "The upload took a long time.",
+          "I'm waiting for the video upload to finish."
+        ]
+      }
+    ],
+    "subtext": "online upload",
+    "synonyms": [
+      "send data"
+    ],
+    "countability": "countable",
+    "transcription": "ˌʌpˈloʊd",
+    "language": "en",
+    "lang": "en",
+    "id": "A2-NOUN-COM-044",
+    "legacy_id": "A2-COMM-16",
+    "level_code": "A2",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  },
+  {
+    "word": "virus",
+    "level": "elementary",
+    "theme": "technology",
+    "emoji": "🦠",
+    "form": "noun",
+    "classification": "regular",
+    "plural": "viruses",
+    "definitions": [
+      {
+        "text": "A computer program that is designed to cause problems for other computers.",
+        "examples": [
+          "My computer has a virus."
+        ]
+      }
+    ],
+    "subtext": "harmful program",
+    "synonyms": [
+      "harmful program"
+    ],
+    "countability": "countable",
+    "transcription": "ˈvaɪrəs",
+    "language": "en",
+    "lang": "en",
+    "id": "A2-NOUN-COM-045",
+    "legacy_id": "A2-COMM-17",
+    "level_code": "A2",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  },
+  {
+    "id": "A2-NOUN-COM-046",
+    "word": "username",
+    "emoji": "👤",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "An identification name used by a person for a computer or site.",
+        "examples": [
+          "Type your username and password.",
+          "I forgot my website username."
+        ]
+      }
+    ],
+    "subtext": "login ID",
+    "synonyms": [
+      "login ID"
+    ],
+    "transcription": "ˈjuːzəneɪm",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "technology",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  },
+  {
+    "id": "A2-NOUN-COM-047",
+    "word": "attachment",
+    "emoji": "📎",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "A computer file sent along with an email message.",
+        "examples": [
+          "Please find the invoice in the email attachment.",
+          "Do not open suspicious email attachments."
+        ]
+      }
+    ],
+    "subtext": "enclosed file",
+    "synonyms": [
+      "enclosed file"
+    ],
+    "transcription": "əˈtætʃmənt",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "technology",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  },
+  {
+    "id": "A2-NOUN-COM-070",
+    "word": "coverage",
+    "emoji": "📡",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "The extent to which something is dealt with or reported.",
+        "examples": [
+          "Live news coverage began at noon.",
+          "Mobile network coverage is spotty in the hills."
+        ]
+      }
+    ],
+    "subtext": "reportage, range",
+    "synonyms": [
+      "reportage",
+      "range"
+    ],
+    "transcription": "ˈkʌvərɪdʒ",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "technology",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  },
+  {
+    "id": "A2-NOUN-COM-081",
+    "word": "feature",
+    "emoji": "✨",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "A distinctive attribute or aspect of something.",
+        "examples": [
+          "The smartphone has many new camera features.",
+          "Read the special feature in the magazine."
+        ]
+      }
+    ],
+    "subtext": "attribute, detail",
+    "synonyms": [
+      "attribute",
+      "detail"
+    ],
+    "transcription": "ˈfiːtʃə",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "technology",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  },
+  {
+    "id": "A2-NOUN-COM-095",
+    "word": "image",
+    "emoji": "🖼️",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "A representation of the external form of a person or thing.",
+        "examples": [
+          "Upload a high-resolution image file.",
+          "The mirror reflected his image."
+        ]
+      }
+    ],
+    "subtext": "picture, photo",
+    "synonyms": [
+      "picture",
+      "photo"
+    ],
+    "transcription": "ˈɪmɪdʒ",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "technology",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  },
+  {
+    "id": "A2-NOUN-COM-065",
+    "word": "keyboard",
+    "emoji": "⌨️",
+    "form": "noun",
+    "classification": "regular",
+    "countability": "countable",
+    "plural": "keyboards",
+    "definitions": [
+      {
+        "text": "A set of keys on a computer or piano.",
+        "examples": [
+          "Type your name on the keyboard."
+        ]
+      }
+    ],
+    "subtext": "related to basic technology devices",
+    "transcription": "ˈkiˌbɔrd",
+    "lang": "en",
+    "level": "elementary",
+    "theme": "technology",
+    "sub_theme": null,
+    "legacy_id": "A1-COMM-11",
+    "level_code": "A2",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  },
+  {
+    "id": "A2-NOUN-COM-070",
+    "word": "printer",
+    "emoji": "🖨️",
+    "form": "noun",
+    "classification": "regular",
+    "countability": "countable",
+    "plural": "printers",
+    "definitions": [
+      {
+        "text": "A machine used for printing documents from a computer.",
+        "examples": [
+          "We need more paper for the printer."
+        ]
+      }
+    ],
+    "subtext": "related to basic technology devices",
+    "transcription": "ˈprɪnər",
+    "lang": "en",
+    "level": "elementary",
+    "theme": "technology",
+    "sub_theme": null,
+    "legacy_id": "A1-COMM-25",
+    "level_code": "A2",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  },
+  {
+    "id": "A2-NOUN-COM-121",
+    "word": "device",
+    "emoji": "📱",
+    "form": "noun",
+    "transcription": "dɪˈvaɪs",
+    "definitions": [
+      {
+        "text": "A piece of mechanical or electronic equipment.",
+        "examples": [
+          "Connect smart devices to Wi-Fi.",
+          "Keep electronic devices turned off during takeoff."
+        ]
+      }
+    ],
+    "lang": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  },
+  {
+    "id": "A2-NOUN-COM-122",
+    "word": "display",
+    "emoji": "🖥️",
+    "form": "noun",
+    "transcription": "dɪˈspleɪ",
+    "definitions": [
+      {
+        "text": "An electronic screen showing visual output.",
+        "examples": [
+          "The high-definition display looks crisp.",
+          "Read messages on the digital display."
+        ]
+      }
+    ],
+    "lang": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  },
+  {
+    "id": "A2-NOUN-COM-123",
+    "word": "link",
+    "emoji": "🔗",
+    "form": "noun",
+    "transcription": "lɪŋk",
+    "definitions": [
+      {
+        "text": "A relationship or connection between web pages.",
+        "examples": [
+          "Click the link to join the meeting.",
+          "Send me a link to the article."
+        ]
+      }
+    ],
+    "lang": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  },
+  {
+    "id": "A2-NOUN-COM-124",
+    "word": "media",
+    "emoji": "📡",
+    "form": "noun",
+    "transcription": "ˈmiːdiə",
+    "definitions": [
+      {
+        "text": "Main means of mass communication.",
+        "examples": [
+          "Digital media reaches global audiences.",
+          "She works in social media."
+        ]
+      }
+    ],
+    "lang": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  },
+  {
+    "id": "A2-NOUN-COM-125",
+    "word": "network",
+    "emoji": "🌐",
+    "form": "noun",
+    "transcription": "ˈnɛtˌwɜːrk",
+    "definitions": [
+      {
+        "text": "A group or system of interconnected computers or people.",
+        "examples": [
+          "Join the office wireless network.",
+          "Mobile network signal was strong."
+        ]
+      }
+    ],
+    "lang": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  },
+  {
+    "id": "A2-NOUN-COM-126",
+    "word": "outlet",
+    "emoji": "🔌",
+    "form": "noun",
+    "transcription": "ˈaʊtˌlɛt",
+    "definitions": [
+      {
+        "text": "A socket in a wall into which a plug is inserted.",
+        "examples": [
+          "Plug the charger into the power outlet.",
+          "Locate an outlet in the coffee shop."
+        ]
+      }
+    ],
+    "lang": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  },
+  {
+    "id": "A2-NOUN-COM-128",
+    "word": "signal",
+    "emoji": "📡",
+    "form": "noun",
+    "transcription": "ˈsɪɡnəl",
+    "definitions": [
+      {
+        "text": "An electrical impulse or radio wave transmitted.",
+        "examples": [
+          "Wi-Fi signal is strong here.",
+          "The phone signal dropped in the tunnel."
+        ]
+      }
+    ],
+    "lang": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  },
+  {
+    "id": "A2-NOUN-COM-129",
+    "word": "site",
+    "emoji": "🌐",
+    "form": "noun",
+    "transcription": "saɪt",
+    "definitions": [
+      {
+        "text": "A website or location.",
+        "examples": [
+          "Visit the school web site.",
+          "Bookmark the educational site."
+        ]
+      }
+    ],
+    "lang": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  },
+  {
+    "id": "A2-NOUN-COM-130",
+    "word": "software",
+    "emoji": "💻",
+    "form": "noun",
+    "transcription": "ˈsɔːftˌwɛr",
+    "definitions": [
+      {
+        "text": "Programs and operating information used by a computer.",
+        "examples": [
+          "Update your computer software.",
+          "The software is easy to install."
+        ]
+      }
+    ],
+    "lang": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  },
+  {
+    "id": "A2-NOUN-COM-131",
+    "word": "system",
+    "emoji": "⚙️",
+    "form": "noun",
+    "transcription": "ˈsɪstəm",
+    "definitions": [
+      {
+        "text": "A set of computer equipment or connected things.",
+        "examples": [
+          "The security system operates continuously.",
+          "Restart the operating system."
+        ]
+      }
+    ],
+    "lang": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  },
+  {
+    "id": "A2-NOUN-COM-132",
+    "word": "user",
+    "emoji": "👤",
+    "form": "noun",
+    "transcription": "ˈjuːzər",
+    "definitions": [
+      {
+        "text": "A person who uses or operates a computer or service.",
+        "examples": [
+          "New users must register an account.",
+          "User feedback improves the app."
+        ]
+      }
+    ],
+    "lang": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "domain": "COMMUNICATION",
+    "subcategory": "Technology",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Digital_Devices"
+  }
 ];
 
-    if (typeof window !== "undefined") {
-        if (!window.vocabularyData) window.vocabularyData = {};
-        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
-        window.vocabularyData[lang].push(...data);
+  if (typeof window !== "undefined") {
+    if (!window.vocabularyData) {
+      window.vocabularyData = {};
     }
+    if (!window.vocabularyData.en) {
+      window.vocabularyData.en = [];
+    }
+    window.vocabularyData.en.push(...data);
+  }
+
+  if (typeof module !== "undefined" && module.exports) {
+    module.exports = data;
+  }
 })();

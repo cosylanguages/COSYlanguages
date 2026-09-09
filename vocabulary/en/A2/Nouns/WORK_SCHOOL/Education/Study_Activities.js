@@ -1,967 +1,1133 @@
-(function() {
-    const lang = "en";
-    const data = [
-    {
-        "id": "A2-NOUN-WOR-082",
-        "word": "ability",
-        "emoji": "🧠",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The power or skill to do something.",
-                "examples": [
-                    "She has a remarkable ability in mathematics.",
-                    "The test measures reading ability."
-                ]
-            }
-        ],
-        "subtext": "skill, talent",
-        "synonyms": [
-            "skill",
-            "talent"
-        ],
-        "transcription": "əˈbɪləti",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
+(function () {
+  const data = [
+  {
+    "id": "A2-NOUN-WOR-082",
+    "word": "ability",
+    "emoji": "🧠",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "The power or skill to do something.",
+        "examples": [
+          "She has a remarkable ability in mathematics.",
+          "The test measures reading ability."
+        ]
+      }
+    ],
+    "subtext": "skill, talent",
+    "synonyms": [
+      "skill",
+      "talent"
+    ],
+    "transcription": "əˈbɪləti",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-083",
+    "word": "activity",
+    "emoji": "🎨",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "A thing that a person or group does or enjoys.",
+        "examples": [
+          "Outdoor activities include hiking and cycling.",
+          "The school offers after-school activities."
+        ]
+      }
+    ],
+    "subtext": "action, exercise",
+    "synonyms": [
+      "action",
+      "exercise"
+    ],
+    "transcription": "ækˈtɪvəti",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-086",
+    "word": "analysis",
+    "emoji": "🔬",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "A detailed examination of elements or structure.",
+        "examples": [
+          "The scientist completed her data analysis.",
+          "Further analysis is required to confirm results."
+        ]
+      }
+    ],
+    "subtext": "study, examination",
+    "synonyms": [
+      "study",
+      "examination"
+    ],
+    "transcription": "əˈnæləsɪs",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-088",
+    "word": "aspect",
+    "emoji": "🔍",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "A particular part or feature of something.",
+        "examples": [
+          "Safety is an important aspect of driving.",
+          "Consider every aspect of the problem."
+        ]
+      }
+    ],
+    "subtext": "feature, side",
+    "synonyms": [
+      "feature",
+      "side"
+    ],
+    "transcription": "ˈæspekt",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-090",
+    "word": "attempt",
+    "emoji": "🎯",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "An act of trying to achieve or complete something.",
+        "examples": [
+          "She passed the exam on her second attempt.",
+          "His first attempt at baking was successful."
+        ]
+      }
+    ],
+    "subtext": "try, effort",
+    "synonyms": [
+      "try",
+      "effort"
+    ],
+    "transcription": "əˈtempt",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-097",
+    "word": "complexity",
+    "emoji": "🧩",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "The state or quality of being intricate or complicated.",
+        "examples": [
+          "The complexity of the task surprised us.",
+          "Software complexity increases with features."
+        ]
+      }
+    ],
+    "subtext": "intricacy",
+    "synonyms": [
+      "intricacy"
+    ],
+    "transcription": "kəmˈpleksəti",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-099",
+    "word": "concentration",
+    "emoji": "🧠",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "The action or power of focusing one's attention.",
+        "examples": [
+          "Loud noise ruined my concentration.",
+          "Meditation improves mental concentration."
+        ]
+      }
+    ],
+    "subtext": "focus, attention",
+    "synonyms": [
+      "focus",
+      "attention"
+    ],
+    "transcription": "ˌkɒnsnˈtreɪʃn",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-100",
+    "word": "concept",
+    "emoji": "💡",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "An abstract idea or general notion.",
+        "examples": [
+          "The teacher explained the basic concepts of physics.",
+          "Their business concept proved successful."
+        ]
+      }
+    ],
+    "subtext": "idea, notion",
+    "synonyms": [
+      "idea",
+      "notion"
+    ],
+    "transcription": "ˈkɒnsept",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-101",
+    "word": "conclusion",
+    "emoji": "🏁",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "The end or finish of an event or process.",
+        "examples": [
+          "Write a brief conclusion for your essay.",
+          "In conclusion, the experiment succeeded."
+        ]
+      }
+    ],
+    "subtext": "end, summary",
+    "synonyms": [
+      "end",
+      "summary"
+    ],
+    "transcription": "kənˈkluːʒn",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-110",
+    "word": "difficulty",
+    "emoji": "🧩",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "The state or condition of being difficult.",
+        "examples": [
+          "We solved the problem without difficulty.",
+          "He experienced difficulty climbing the steep hill."
+        ]
+      }
+    ],
+    "subtext": "hardship, trouble",
+    "synonyms": [
+      "hardship",
+      "trouble"
+    ],
+    "transcription": "ˈdɪfɪkəlti",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-117",
+    "word": "effort",
+    "emoji": "💪",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "Vigorous or determined attempt.",
+        "examples": [
+          "It took a lot of effort to climb the hill.",
+          "She put great effort into her homework."
+        ]
+      }
+    ],
+    "subtext": "try, endeavor",
+    "synonyms": [
+      "try",
+      "endeavor"
+    ],
+    "transcription": "ˈefət",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-118",
+    "word": "element",
+    "emoji": "⚛️",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "An essential or characteristic part of something.",
+        "examples": [
+          "Trust is a key element in friendship.",
+          "Water and air are basic elements."
+        ]
+      }
+    ],
+    "subtext": "part, factor",
+    "synonyms": [
+      "part",
+      "factor"
+    ],
+    "transcription": "ˈelɪmənt",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-119",
+    "word": "emphasis",
+    "emoji": "🔍",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "Special importance, value, or prominence given to something.",
+        "examples": [
+          "The course places emphasis on speaking skills.",
+          "He put emphasis on punctuality."
+        ]
+      }
+    ],
+    "subtext": "stress, priority",
+    "synonyms": [
+      "stress",
+      "priority"
+    ],
+    "transcription": "ˈemfəsɪs",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-123",
+    "word": "error",
+    "emoji": "❌",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "A mistake or accuracy flaw.",
+        "examples": [
+          "Correct any spelling errors in your text.",
+          "The computer displayed a system error."
+        ]
+      }
+    ],
+    "subtext": "mistake, fault",
+    "synonyms": [
+      "mistake",
+      "fault"
+    ],
+    "transcription": "ˈerə",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-124",
+    "word": "evaluation",
+    "emoji": "📊",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "The making of a judgment about the amount or value.",
+        "examples": [
+          "Regular evaluation improves teaching quality.",
+          "The performance evaluation was positive."
+        ]
+      }
+    ],
+    "subtext": "assessment, appraisal",
+    "synonyms": [
+      "assessment",
+      "appraisal"
+    ],
+    "transcription": "ɪˌvæljuˈeɪʃn",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-126",
+    "word": "exception",
+    "emoji": "⚠️",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "A person or thing that is excluded or does not follow a rule.",
+        "examples": [
+          "We make an exception for emergencies.",
+          "There are no exceptions to the rule."
+        ]
+      }
+    ],
+    "subtext": "exclusion",
+    "synonyms": [
+      "exclusion"
+    ],
+    "transcription": "ɪkˈsepʃn",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-129",
+    "word": "factor",
+    "emoji": "🔢",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "A circumstance, fact, or influence that contributes to a result.",
+        "examples": [
+          "Price is an important factor when buying a car.",
+          "Stress is a major factor in illness."
+        ]
+      }
+    ],
+    "subtext": "element, cause",
+    "synonyms": [
+      "element",
+      "cause"
+    ],
+    "transcription": "ˈfæktə",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-134",
+    "word": "focus",
+    "emoji": "🔍",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "The center of interest or activity.",
+        "examples": [
+          "Main focus of the lesson was grammar.",
+          "Keep your focus on the road while driving."
+        ]
+      }
+    ],
+    "subtext": "center, target",
+    "synonyms": [
+      "center",
+      "target"
+    ],
+    "transcription": "ˈfəʊkəs",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-138",
+    "word": "graph",
+    "emoji": "📊",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "A diagram showing the relation between variable quantities.",
+        "examples": [
+          "The line graph illustrates temperature changes.",
+          "Draw a bar graph in your math notebook."
+        ]
+      }
+    ],
+    "subtext": "chart, diagram",
+    "synonyms": [
+      "chart",
+      "diagram"
+    ],
+    "transcription": "ɡrɑːf",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-141",
+    "word": "guidance",
+    "emoji": "🧭",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "Advice or information aimed at resolving a problem.",
+        "examples": [
+          "Seek career guidance from counselors.",
+          "Under the teacher's guidance, students excelled."
+        ]
+      }
+    ],
+    "subtext": "advice, direction",
+    "synonyms": [
+      "advice",
+      "direction"
+    ],
+    "transcription": "ˈɡaɪdns",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-146",
+    "word": "hypothesis",
+    "emoji": "🔬",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "A proposed explanation made on the basis of limited evidence.",
+        "examples": [
+          "Test the scientific hypothesis through experiments.",
+          "Formulate a clear research hypothesis."
+        ]
+      }
+    ],
+    "subtext": "theory, premise",
+    "synonyms": [
+      "theory",
+      "premise"
+    ],
+    "transcription": "haɪˈpɒθəsɪs",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-148",
+    "word": "illustration",
+    "emoji": "🖼️",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "A picture illustrating a book or newspaper article.",
+        "examples": [
+          "The book features colorful botanical illustrations.",
+          "Look at the diagram illustration on page 5."
+        ]
+      }
+    ],
+    "subtext": "drawing, picture",
+    "synonyms": [
+      "drawing",
+      "picture"
+    ],
+    "transcription": "ˌɪləˈstreɪʃn",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-149",
+    "word": "imagination",
+    "emoji": "🎨",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "The faculty or action of forming new ideas.",
+        "examples": [
+          "Children possess vivid creative imagination.",
+          "Use your imagination when writing stories."
+        ]
+      }
+    ],
+    "subtext": "creativity, vision",
+    "synonyms": [
+      "creativity",
+      "vision"
+    ],
+    "transcription": "ɪˌmædʒɪˈneɪʃn",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-150",
+    "word": "importance",
+    "emoji": "⭐",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "The state or fact of being of great significance.",
+        "examples": [
+          "She stressed the importance of regular study.",
+          "The topic is of global importance."
+        ]
+      }
+    ],
+    "subtext": "significance, value",
+    "synonyms": [
+      "significance",
+      "value"
+    ],
+    "transcription": "ɪmˈpɔːtns",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-151",
+    "word": "improvement",
+    "emoji": "📈",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "An instance of improving or being improved.",
+        "examples": [
+          "Her grades showed dramatic improvement.",
+          "Make minor improvements to the report."
+        ]
+      }
+    ],
+    "subtext": "progress, gain",
+    "synonyms": [
+      "progress",
+      "gain"
+    ],
+    "transcription": "ɪmˈpruːvmənt",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-156",
+    "word": "insight",
+    "emoji": "💡",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "An accurate and deep understanding of someone or something.",
+        "examples": [
+          "The book offers valuable insights into history.",
+          "Her research gave new insight into the problem."
+        ]
+      }
+    ],
+    "subtext": "understanding, vision",
+    "synonyms": [
+      "understanding",
+      "vision"
+    ],
+    "transcription": "ˈɪnsaɪt",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-160",
+    "word": "instruction",
+    "emoji": "📖",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "Detailed information telling how something should be done.",
+        "examples": [
+          "Follow the assembly instructions carefully.",
+          "The teacher gave clear instructions."
+        ]
+      }
+    ],
+    "subtext": "guidance, direction",
+    "synonyms": [
+      "guidance",
+      "direction"
+    ],
+    "transcription": "ɪnˈstrʌkʃn",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-169",
+    "word": "knowledge",
+    "emoji": "🧠",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "Facts, information, and skills acquired through experience or education.",
+        "examples": [
+          "Reading expands your general knowledge.",
+          "He has extensive knowledge of history."
+        ]
+      }
+    ],
+    "subtext": "understanding, wisdom",
+    "synonyms": [
+      "understanding",
+      "wisdom"
+    ],
+    "transcription": "ˈnɒlɪdʒ",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-171",
+    "word": "laser",
+    "emoji": "⚡",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "A device that generates an intense beam of coherent light.",
+        "examples": [
+          "Surgeons use lasers for precise operations.",
+          "The laser printer printed thirty pages per minute."
+        ]
+      }
+    ],
+    "subtext": "light beam",
+    "synonyms": [
+      "light beam"
+    ],
+    "transcription": "ˈleɪzə",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-173",
+    "word": "learning",
+    "emoji": "📚",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "The acquisition of knowledge or skills through study.",
+        "examples": [
+          "Online learning provides flexible study schedules.",
+          "Lifelong learning keeps the mind active."
+        ]
+      }
+    ],
+    "subtext": "education, study",
+    "synonyms": [
+      "education",
+      "study"
+    ],
+    "transcription": "ˈlɜːnɪŋ",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-175",
+    "word": "breakthrough",
+    "emoji": "💡",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "A sudden, dramatic, and important discovery or development.",
+        "examples": [
+          "Scientists achieved a major medical breakthrough.",
+          "The invention was a technological breakthrough."
+        ]
+      }
+    ],
+    "subtext": "discovery, advance",
+    "synonyms": [
+      "discovery",
+      "advance"
+    ],
+    "transcription": "ˈbreɪkθruː",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-181",
+    "word": "calculation",
+    "emoji": "🧮",
+    "form": "noun",
+    "definitions": [
+      {
+        "text": "A mathematical determination of the amount or number.",
+        "examples": [
+          "Double-check your mathematical calculations.",
+          "His calculation proved correct."
+        ]
+      }
+    ],
+    "subtext": "computation",
+    "synonyms": [
+      "computation"
+    ],
+    "transcription": "ˌkælkjuˈleɪʃn",
+    "lang": "en",
+    "language": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "theme": "school",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-020",
+    "word": "alphabet",
+    "emoji": "🔤",
+    "form": "noun",
+    "classification": "regular",
+    "countability": "countable",
+    "definitions": [
+      {
+        "text": "A set of letters used for writing a language.",
+        "examples": [
+          "The English alphabet has 26 letters."
+        ]
+      }
+    ],
+    "subtext": "letters",
+    "transcription": "ˈælfəˌbɛt",
+    "lang": "en",
+    "level": "elementary",
+    "theme": "learning_studying",
+    "sub_theme": null,
+    "etymology": {
+      "origin_lang": "Greek",
+      "origin_word": "alpha + beta"
     },
-    {
-        "id": "A2-NOUN-WOR-083",
-        "word": "activity",
-        "emoji": "🎨",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A thing that a person or group does or enjoys.",
-                "examples": [
-                    "Outdoor activities include hiking and cycling.",
-                    "The school offers after-school activities."
-                ]
-            }
-        ],
-        "subtext": "action, exercise",
-        "synonyms": [
-            "action",
-            "exercise"
-        ],
-        "transcription": "ækˈtɪvəti",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A2-NOUN-WOR-086",
-        "word": "analysis",
-        "emoji": "🔬",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A detailed examination of elements or structure.",
-                "examples": [
-                    "The scientist completed her data analysis.",
-                    "Further analysis is required to confirm results."
-                ]
-            }
-        ],
-        "subtext": "study, examination",
-        "synonyms": [
-            "study",
-            "examination"
-        ],
-        "transcription": "əˈnæləsɪs",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A2-NOUN-WOR-088",
-        "word": "aspect",
-        "emoji": "🔍",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A particular part or feature of something.",
-                "examples": [
-                    "Safety is an important aspect of driving.",
-                    "Consider every aspect of the problem."
-                ]
-            }
-        ],
-        "subtext": "feature, side",
-        "synonyms": [
-            "feature",
-            "side"
-        ],
-        "transcription": "ˈæspekt",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A2-NOUN-WOR-090",
-        "word": "attempt",
-        "emoji": "🎯",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "An act of trying to achieve or complete something.",
-                "examples": [
-                    "She passed the exam on her second attempt.",
-                    "His first attempt at baking was successful."
-                ]
-            }
-        ],
-        "subtext": "try, effort",
-        "synonyms": [
-            "try",
-            "effort"
-        ],
-        "transcription": "əˈtempt",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A2-NOUN-WOR-097",
-        "word": "complexity",
-        "emoji": "🧩",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The state or quality of being intricate or complicated.",
-                "examples": [
-                    "The complexity of the task surprised us.",
-                    "Software complexity increases with features."
-                ]
-            }
-        ],
-        "subtext": "intricacy",
-        "synonyms": [
-            "intricacy"
-        ],
-        "transcription": "kəmˈpleksəti",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A2-NOUN-WOR-099",
-        "word": "concentration",
-        "emoji": "🧠",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The action or power of focusing one's attention.",
-                "examples": [
-                    "Loud noise ruined my concentration.",
-                    "Meditation improves mental concentration."
-                ]
-            }
-        ],
-        "subtext": "focus, attention",
-        "synonyms": [
-            "focus",
-            "attention"
-        ],
-        "transcription": "ˌkɒnsnˈtreɪʃn",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A2-NOUN-WOR-100",
-        "word": "concept",
-        "emoji": "💡",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "An abstract idea or general notion.",
-                "examples": [
-                    "The teacher explained the basic concepts of physics.",
-                    "Their business concept proved successful."
-                ]
-            }
-        ],
-        "subtext": "idea, notion",
-        "synonyms": [
-            "idea",
-            "notion"
-        ],
-        "transcription": "ˈkɒnsept",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A2-NOUN-WOR-101",
-        "word": "conclusion",
-        "emoji": "🏁",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The end or finish of an event or process.",
-                "examples": [
-                    "Write a brief conclusion for your essay.",
-                    "In conclusion, the experiment succeeded."
-                ]
-            }
-        ],
-        "subtext": "end, summary",
-        "synonyms": [
-            "end",
-            "summary"
-        ],
-        "transcription": "kənˈkluːʒn",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A2-NOUN-WOR-110",
-        "word": "difficulty",
-        "emoji": "🧩",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The state or condition of being difficult.",
-                "examples": [
-                    "We solved the problem without difficulty.",
-                    "He experienced difficulty climbing the steep hill."
-                ]
-            }
-        ],
-        "subtext": "hardship, trouble",
-        "synonyms": [
-            "hardship",
-            "trouble"
-        ],
-        "transcription": "ˈdɪfɪkəlti",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A2-NOUN-WOR-117",
-        "word": "effort",
-        "emoji": "💪",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Vigorous or determined attempt.",
-                "examples": [
-                    "It took a lot of effort to climb the hill.",
-                    "She put great effort into her homework."
-                ]
-            }
-        ],
-        "subtext": "try, endeavor",
-        "synonyms": [
-            "try",
-            "endeavor"
-        ],
-        "transcription": "ˈefət",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A2-NOUN-WOR-118",
-        "word": "element",
-        "emoji": "⚛️",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "An essential or characteristic part of something.",
-                "examples": [
-                    "Trust is a key element in friendship.",
-                    "Water and air are basic elements."
-                ]
-            }
-        ],
-        "subtext": "part, factor",
-        "synonyms": [
-            "part",
-            "factor"
-        ],
-        "transcription": "ˈelɪmənt",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A2-NOUN-WOR-119",
-        "word": "emphasis",
-        "emoji": "🔍",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Special importance, value, or prominence given to something.",
-                "examples": [
-                    "The course places emphasis on speaking skills.",
-                    "He put emphasis on punctuality."
-                ]
-            }
-        ],
-        "subtext": "stress, priority",
-        "synonyms": [
-            "stress",
-            "priority"
-        ],
-        "transcription": "ˈemfəsɪs",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A2-NOUN-WOR-123",
-        "word": "error",
-        "emoji": "❌",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A mistake or accuracy flaw.",
-                "examples": [
-                    "Correct any spelling errors in your text.",
-                    "The computer displayed a system error."
-                ]
-            }
-        ],
-        "subtext": "mistake, fault",
-        "synonyms": [
-            "mistake",
-            "fault"
-        ],
-        "transcription": "ˈerə",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A2-NOUN-WOR-124",
-        "word": "evaluation",
-        "emoji": "📊",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The making of a judgment about the amount or value.",
-                "examples": [
-                    "Regular evaluation improves teaching quality.",
-                    "The performance evaluation was positive."
-                ]
-            }
-        ],
-        "subtext": "assessment, appraisal",
-        "synonyms": [
-            "assessment",
-            "appraisal"
-        ],
-        "transcription": "ɪˌvæljuˈeɪʃn",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A2-NOUN-WOR-126",
-        "word": "exception",
-        "emoji": "⚠️",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A person or thing that is excluded or does not follow a rule.",
-                "examples": [
-                    "We make an exception for emergencies.",
-                    "There are no exceptions to the rule."
-                ]
-            }
-        ],
-        "subtext": "exclusion",
-        "synonyms": [
-            "exclusion"
-        ],
-        "transcription": "ɪkˈsepʃn",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A2-NOUN-WOR-129",
-        "word": "factor",
-        "emoji": "🔢",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A circumstance, fact, or influence that contributes to a result.",
-                "examples": [
-                    "Price is an important factor when buying a car.",
-                    "Stress is a major factor in illness."
-                ]
-            }
-        ],
-        "subtext": "element, cause",
-        "synonyms": [
-            "element",
-            "cause"
-        ],
-        "transcription": "ˈfæktə",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A2-NOUN-WOR-134",
-        "word": "focus",
-        "emoji": "🔍",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The center of interest or activity.",
-                "examples": [
-                    "Main focus of the lesson was grammar.",
-                    "Keep your focus on the road while driving."
-                ]
-            }
-        ],
-        "subtext": "center, target",
-        "synonyms": [
-            "center",
-            "target"
-        ],
-        "transcription": "ˈfəʊkəs",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A2-NOUN-WOR-138",
-        "word": "graph",
-        "emoji": "📊",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A diagram showing the relation between variable quantities.",
-                "examples": [
-                    "The line graph illustrates temperature changes.",
-                    "Draw a bar graph in your math notebook."
-                ]
-            }
-        ],
-        "subtext": "chart, diagram",
-        "synonyms": [
-            "chart",
-            "diagram"
-        ],
-        "transcription": "ɡrɑːf",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A2-NOUN-WOR-141",
-        "word": "guidance",
-        "emoji": "🧭",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Advice or information aimed at resolving a problem.",
-                "examples": [
-                    "Seek career guidance from counselors.",
-                    "Under the teacher's guidance, students excelled."
-                ]
-            }
-        ],
-        "subtext": "advice, direction",
-        "synonyms": [
-            "advice",
-            "direction"
-        ],
-        "transcription": "ˈɡaɪdns",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A2-NOUN-WOR-146",
-        "word": "hypothesis",
-        "emoji": "🔬",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A proposed explanation made on the basis of limited evidence.",
-                "examples": [
-                    "Test the scientific hypothesis through experiments.",
-                    "Formulate a clear research hypothesis."
-                ]
-            }
-        ],
-        "subtext": "theory, premise",
-        "synonyms": [
-            "theory",
-            "premise"
-        ],
-        "transcription": "haɪˈpɒθəsɪs",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A2-NOUN-WOR-148",
-        "word": "illustration",
-        "emoji": "🖼️",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A picture illustrating a book or newspaper article.",
-                "examples": [
-                    "The book features colorful botanical illustrations.",
-                    "Look at the diagram illustration on page 5."
-                ]
-            }
-        ],
-        "subtext": "drawing, picture",
-        "synonyms": [
-            "drawing",
-            "picture"
-        ],
-        "transcription": "ˌɪləˈstreɪʃn",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A2-NOUN-WOR-149",
-        "word": "imagination",
-        "emoji": "🎨",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The faculty or action of forming new ideas.",
-                "examples": [
-                    "Children possess vivid creative imagination.",
-                    "Use your imagination when writing stories."
-                ]
-            }
-        ],
-        "subtext": "creativity, vision",
-        "synonyms": [
-            "creativity",
-            "vision"
-        ],
-        "transcription": "ɪˌmædʒɪˈneɪʃn",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A2-NOUN-WOR-150",
-        "word": "importance",
-        "emoji": "⭐",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The state or fact of being of great significance.",
-                "examples": [
-                    "She stressed the importance of regular study.",
-                    "The topic is of global importance."
-                ]
-            }
-        ],
-        "subtext": "significance, value",
-        "synonyms": [
-            "significance",
-            "value"
-        ],
-        "transcription": "ɪmˈpɔːtns",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A2-NOUN-WOR-151",
-        "word": "improvement",
-        "emoji": "📈",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "An instance of improving or being improved.",
-                "examples": [
-                    "Her grades showed dramatic improvement.",
-                    "Make minor improvements to the report."
-                ]
-            }
-        ],
-        "subtext": "progress, gain",
-        "synonyms": [
-            "progress",
-            "gain"
-        ],
-        "transcription": "ɪmˈpruːvmənt",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A2-NOUN-WOR-156",
-        "word": "insight",
-        "emoji": "💡",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "An accurate and deep understanding of someone or something.",
-                "examples": [
-                    "The book offers valuable insights into history.",
-                    "Her research gave new insight into the problem."
-                ]
-            }
-        ],
-        "subtext": "understanding, vision",
-        "synonyms": [
-            "understanding",
-            "vision"
-        ],
-        "transcription": "ˈɪnsaɪt",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A2-NOUN-WOR-160",
-        "word": "instruction",
-        "emoji": "📖",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Detailed information telling how something should be done.",
-                "examples": [
-                    "Follow the assembly instructions carefully.",
-                    "The teacher gave clear instructions."
-                ]
-            }
-        ],
-        "subtext": "guidance, direction",
-        "synonyms": [
-            "guidance",
-            "direction"
-        ],
-        "transcription": "ɪnˈstrʌkʃn",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A2-NOUN-WOR-169",
-        "word": "knowledge",
-        "emoji": "🧠",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "Facts, information, and skills acquired through experience or education.",
-                "examples": [
-                    "Reading expands your general knowledge.",
-                    "He has extensive knowledge of history."
-                ]
-            }
-        ],
-        "subtext": "understanding, wisdom",
-        "synonyms": [
-            "understanding",
-            "wisdom"
-        ],
-        "transcription": "ˈnɒlɪdʒ",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A2-NOUN-WOR-171",
-        "word": "laser",
-        "emoji": "⚡",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A device that generates an intense beam of coherent light.",
-                "examples": [
-                    "Surgeons use lasers for precise operations.",
-                    "The laser printer printed thirty pages per minute."
-                ]
-            }
-        ],
-        "subtext": "light beam",
-        "synonyms": [
-            "light beam"
-        ],
-        "transcription": "ˈleɪzə",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A2-NOUN-WOR-173",
-        "word": "learning",
-        "emoji": "📚",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "The acquisition of knowledge or skills through study.",
-                "examples": [
-                    "Online learning provides flexible study schedules.",
-                    "Lifelong learning keeps the mind active."
-                ]
-            }
-        ],
-        "subtext": "education, study",
-        "synonyms": [
-            "education",
-            "study"
-        ],
-        "transcription": "ˈlɜːnɪŋ",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A2-NOUN-WOR-175",
-        "word": "breakthrough",
-        "emoji": "💡",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A sudden, dramatic, and important discovery or development.",
-                "examples": [
-                    "Scientists achieved a major medical breakthrough.",
-                    "The invention was a technological breakthrough."
-                ]
-            }
-        ],
-        "subtext": "discovery, advance",
-        "synonyms": [
-            "discovery",
-            "advance"
-        ],
-        "transcription": "ˈbreɪkθruː",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
-    },
-    {
-        "id": "A2-NOUN-WOR-181",
-        "word": "calculation",
-        "emoji": "🧮",
-        "form": "noun",
-        "definitions": [
-            {
-                "text": "A mathematical determination of the amount or number.",
-                "examples": [
-                    "Double-check your mathematical calculations.",
-                    "His calculation proved correct."
-                ]
-            }
-        ],
-        "subtext": "computation",
-        "synonyms": [
-            "computation"
-        ],
-        "transcription": "ˌkælkjuˈleɪʃn",
-        "lang": "en",
-        "language": "en",
-        "level": "elementary",
-        "level_code": "A2",
-        "theme": "school",
-        "domain": "WORK_SCHOOL",
-        "subcategory": "Education",
-        "pos_section": "Nouns",
-        "sub_subcategory": "Study_Activities"
-    }
+    "legacy_id": "A1-WORK-01",
+    "level_code": "A2",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-022",
+    "word": "classmate",
+    "emoji": "🧑‍🤝‍🧑",
+    "form": "noun",
+    "classification": "regular",
+    "countability": "countable",
+    "plural": "classmates",
+    "definitions": [
+      {
+        "text": "A person who is in the same class as you at school.",
+        "examples": [
+          "She is my classmate."
+        ]
+      }
+    ],
+    "subtext": "related to learning studying",
+    "transcription": "ˈklæsˌmeɪt",
+    "lang": "en",
+    "level": "elementary",
+    "theme": "learning_studying",
+    "sub_theme": null,
+    "legacy_id": "A1-WORK-06",
+    "level_code": "A2",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-026",
+    "word": "skill",
+    "emoji": "🧠",
+    "form": "noun",
+    "classification": "regular",
+    "countability": "countable",
+    "plural": "skills",
+    "subtext": "language skills",
+    "definitions": [
+      {
+        "text": "The ability to do something well.",
+        "examples": [
+          "She has good communication skills."
+        ]
+      }
+    ],
+    "transcription": "skɪl",
+    "lang": "en",
+    "level": "elementary",
+    "theme": "learning_studying",
+    "sub_theme": null,
+    "legacy_id": "A1-WORK-38",
+    "level_code": "A2",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-084",
+    "word": "essay",
+    "emoji": "📄",
+    "form": "noun",
+    "transcription": "ˈɛˌseɪ",
+    "definitions": [
+      {
+        "text": "A short piece of writing on a particular subject.",
+        "examples": [
+          "Submit your history essay on Friday.",
+          "Write a two-page essay about summer."
+        ]
+      }
+    ],
+    "lang": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-085",
+    "word": "exercise",
+    "emoji": "✍️",
+    "form": "noun",
+    "transcription": "ˈɛksərˌsaɪz",
+    "definitions": [
+      {
+        "text": "A task set to practice or test skill.",
+        "examples": [
+          "Complete exercise three on page ten.",
+          "Grammar exercises reinforce learning."
+        ]
+      }
+    ],
+    "lang": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  },
+  {
+    "id": "A2-NOUN-WOR-158",
+    "word": "task",
+    "form": "noun",
+    "transcription": "tæsk",
+    "emoji": "📋",
+    "definitions": [
+      {
+        "text": "A piece of work that needs to be done.",
+        "examples": [
+          "This task is very simple.",
+          "We finish our daily tasks."
+        ]
+      }
+    ],
+    "lang": "en",
+    "level": "elementary",
+    "level_code": "A2",
+    "domain": "WORK_SCHOOL",
+    "subcategory": "Education",
+    "pos_section": "Nouns",
+    "sub_subcategory": "Study_Activities"
+  }
 ];
 
-    if (typeof window !== "undefined") {
-        if (!window.vocabularyData) window.vocabularyData = {};
-        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
-        window.vocabularyData[lang].push(...data);
+  if (typeof window !== "undefined") {
+    if (!window.vocabularyData) {
+      window.vocabularyData = {};
     }
+    if (!window.vocabularyData.en) {
+      window.vocabularyData.en = [];
+    }
+    window.vocabularyData.en.push(...data);
+  }
+
+  if (typeof module !== "undefined" && module.exports) {
+    module.exports = data;
+  }
 })();
