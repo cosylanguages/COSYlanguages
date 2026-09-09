@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>🔴 Marathon de Prononciation — Niveau B2 Registres & Lettres internes · COSY</title>
-<meta name="description" content="Marathon de prononciation française B2 : consonnes muettes internes, contractions de l'oral rapide, assimilation et accents régionaux.">
+<title>🔴 Marathon de Prononciation — Niveau B2 Registres & Subtilités · COSY</title>
+<meta name="description" content="Marathon de prononciation française B2 : contractions orales, pièges de liaisons populaires, anglicismes, variations régionales et paronymes.">
 <link rel="stylesheet" href="../../../css/tokens.css">
 <link rel="stylesheet" href="../../../css/base.css">
 <link rel="stylesheet" href="../../../css/components.css">
@@ -14,9 +14,10 @@
 <link rel="stylesheet" href="../../../css/mobile.css">
 <style>
   :root {
-    --mp-primary: #bf360c;
-    --mp-primary-light: #fbe9e7;
-    --mp-accent: #d84315;
+    --mp-primary: #9f1239;
+    --mp-primary-light: #ffe4e6;
+    --mp-accent: #e11d48;
+    --mp-border: #fecdd3;
   }
 
   body {
@@ -27,10 +28,10 @@
   }
 
   .mp-hero {
-    background: linear-gradient(135deg, #bf360c 0%, #d84315 50%, #e64a19 100%);
+    background: linear-gradient(135deg, #881337 0%, #9f1239 50%, #e11d48 100%);
     color: #ffffff;
     padding: 3rem 1.5rem 2rem;
-    border-bottom: 4px solid #ffccbc;
+    border-bottom: 4px solid #fda4af;
     text-align: center;
   }
 
@@ -44,7 +45,7 @@
 
   .mp-hero p.subtitle {
     font-size: 1.14rem;
-    color: #fbe9e7;
+    color: #ffe4e6;
     max-width: 800px;
     margin: 0 auto 1.25rem;
   }
@@ -88,18 +89,18 @@
   }
 
   .sd-jump-link {
-    color: #bf360c;
+    color: #9f1239;
     text-decoration: none;
     font-weight: 700;
     font-size: 0.88rem;
     padding: 0.3rem 0.7rem;
     border-radius: 6px;
-    background: #fbe9e7;
+    background: #ffe4e6;
     transition: background 0.2s, color 0.2s;
   }
 
   .sd-jump-link:hover, .sd-jump-link.active {
-    background: #bf360c;
+    background: #9f1239;
     color: #ffffff;
   }
 
@@ -119,12 +120,15 @@
   }
 
   .mp-section h2 {
-    color: #bf360c;
+    color: #881337;
     font-family: 'Lora', Georgia, serif;
     font-size: 1.7rem;
     margin-top: 0;
     padding-bottom: 0.75rem;
-    border-bottom: 2px solid #ffccbc;
+    border-bottom: 2px solid #fecdd3;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
   }
 
   .mp-table {
@@ -142,35 +146,33 @@
   }
 
   .mp-table th {
-    background-color: #fbe9e7;
-    color: #bf360c;
+    background-color: #ffe4e6;
+    color: #881337;
     font-weight: 700;
   }
 
-  .unit-card {
-    background: #fffafa;
-    border-left: 4px solid #d84315;
-    border-radius: 0 8px 8px 0;
-    padding: 1rem 1.25rem;
-    margin-bottom: 1.25rem;
+  .mp-table tr:nth-child(even) {
+    background-color: #fff1f2;
   }
 
-  .unit-card h4 {
-    margin: 0 0 0.5rem;
-    color: #bf360c;
-    font-size: 1.1rem;
+  .mnemonic-box {
+    background: #fff8e1;
+    border-left: 4px solid #f57f17;
+    border-radius: 6px;
+    padding: 1rem 1.25rem;
+    margin: 1rem 0;
   }
 
   .lesson-sample {
     background: #ffffff;
-    border: 2px solid #d84315;
+    border: 2px solid #fda4af;
     border-radius: 12px;
     margin-bottom: 2rem;
     overflow: hidden;
   }
 
   .lesson-sample-header {
-    background: #d84315;
+    background: #9f1239;
     color: #ffffff;
     padding: 1rem 1.5rem;
   }
@@ -191,18 +193,27 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #fbe9e7;
-    border: 1px solid #ffccbc;
+    background: #ffe4e6;
+    border: 1px solid #fecdd3;
     border-radius: 8px;
     padding: 1rem 1.5rem;
     margin-top: 2rem;
   }
 
   .level-nav-bar a {
-    color: #bf360c;
+    color: #881337;
     font-weight: 700;
     text-decoration: none;
   }
+
+  .vocab-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0.8rem 0;
+    font-size: 0.9rem;
+  }
+  .vocab-table th { background: #ffe4e6; color: #881337; padding: 0.5rem; text-align: left; }
+  .vocab-table td { border: 1px solid #e2e8f0; padding: 0.5rem; }
 </style>
 </head>
 <body data-lang-theme="fr">
@@ -224,80 +235,116 @@
 <header class="mp-hero">
   <div class="mp-badges">
     <span class="mp-badge">🔴 CECRL B2</span>
-    <span class="mp-badge">Registres & Oral Rapide</span>
-    <span class="mp-badge">Consonnes Internes & Assimilation</span>
+    <span class="mp-badge">Contractions Familiales</span>
+    <span class="mp-badge">Accents Régionaux & Anglicismes</span>
   </div>
-  <h1>🔴 NIVEAU B2 — Registres et Lettres Internes Silencieuses</h1>
-  <p class="subtitle">Comprenez le français parlé spontané, domptez les pièges orthographiques internes et découvrez la richesse des accents francophones.</p>
+  <h1>🔴 NIVEAU B2 — Registres, Contractions & Variations</h1>
+  <p class="subtitle">Comprenez le français parlé spontané, repérez les pièges de liaisons populaires et maîtrisez l'intonation complexe.</p>
 </header>
 
 <main class="mp-container">
 
-  <section class="mp-section">
-    <h2>Unité 1 — Les consonnes muettes internes</h2>
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 1.1 — Lettres internes silencieuses étymologiques</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <div class="visual-frame" data-visual='{"type":"grapheme","main":"P / M / B","ipa":"muettes","words":["sculpture","sept","compter","automne"]}'></div>
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Règle P muet</th><td>Le P est totalement muet dans : <em>scul<strong>p</strong>ture</em> [skyltyʁ], <em>com<strong>p</strong>ter</em> [kɔ̃te], <em>se<strong>p</strong>t</em> [sɛt], <em>cor<strong>p</strong>s</em> [kɔʁ].</td></tr>
-            <tr><th>Règle M muet</th><td>Le M ne se prononce pas dans : <em>auto<strong>m</strong>ne</em> [otɔn], <em>condam<strong>n</strong>er</em> [kɔ̃dane].</td></tr>
-            <tr><th>Règle B / G muets</th><td>Le B est muet dans <em>plom<strong>b</strong></em> [plɔ̃] ; le G est muet dans <em>san<strong>g</strong></em> [sɑ̃], <em>lon<strong>g</strong></em> [lɔ̃].</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« Sept p'tits sculpteurs comptent leur corps sans prononcer leur P ! »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>sculpture, compter, sept, corps, automne, condamner, plomb, sang</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★☆</span></td></tr>
-            <tr><th>À retenir</th><td>Le p de sculpture, compte, sept et le m d'automne sont silencieux.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
+  <div class="mnemonic-box">
+    <h4>💡 Principes clés du niveau B2</h4>
+    <ul style="margin: 0.5rem 0 0 1.2rem; padding: 0;">
+      <li><strong>1. Chute du E et de NE :</strong> En français familier rapide, la négation <em>ne</em> disparaît et le <em>e</em> initial saute (<em>je ne sais pas</em> → <em>ch'sais pas</em>).</li>
+      <li><strong>2. Anglicismes francisés :</strong> Les emprunts anglais gardent leurs sons originaux mais adoptent l'accent tonique français sur la dernière syllabe (ex: <em>week-END</em>).</li>
+      <li><strong>3. Variations régionales :</strong> Le sud prononce les E finaux ; le Québec diphtongue certaines voyelles.</li>
+      <li><strong>4. Paronymes :</strong> Attention aux mots très proches comme <em>conjoncture</em> vs <em>conjecture</em> !</li>
+    </ul>
+  </div>
 
-    <h2>Unité 2 — Contractions de l'oral rapide</h2>
+  <section id="b2-content" class="mp-section">
+    <h2>Unité 1 — Contractions Orales & Pièges de Liaisons</h2>
+
     <div class="lesson-sample">
       <div class="lesson-sample-header">
-        <h3>Leçon 2.1 — Effacement du « ne » et réduction des pronoms</h3>
+        <h3>Leçon 1.1 — Contractions de l'oral rapide (ch'sais pas, t'as vu)</h3>
       </div>
       <div class="lesson-sample-body" style="overflow-x: auto;">
-        <div class="visual-frame" data-visual='{"type":"flow","steps":["Je ne sais pas (style soutenu)","J&#39;sais pas (style courant)","Ch&#39;sais pas (style oral rapide)"]}'></div>
+        <div class="visual-frame" data-visual='{"type":"flow","words":["je ne sais pas"],"ipa":"[ʃsɛpa]"}'></div>
         <table class="mp-table">
           <tbody>
-            <tr><th style="width: 25%;">Contractions courantes</th><td>• « Je ne sais pas » → [ʃsɛpa] (ch'sais pas) <br>• « Tu es » → [tɛ] (t'es) <br>• Suppression du « ne » : <em>J'sais pas, il vient pas</em></td></tr>
-            <tr><th>Pourquoi ?</th><td>Économie musculaire et accélération du débit à l'oral spontané.</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« À l'oral rapide : le NE s'envole, le JE devient CH devant S ! »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>ch'sais pas, t'es, y a, c'est pas, il vient pas</td></tr>
+            <tr><th style="width: 25%;">Mécanisme oral</th><td>
+              À l'oral courant/familier :<br>
+              • <em>Je ne sais pas</em> devient <strong>"ch'sais pas"</strong> [ʃsɛpa].<br>
+              • <em>Tu as</em> devient <strong>"t'as"</strong> (<em>t'as vu ?</em>).<br>
+              • <em>Il y a</em> devient <strong>"y a"</strong> [ja].
+            </td></tr>
+            <tr><th>Un peu de vocabulaire</th><td>
+              <table class="vocab-table">
+                <tr><th>Ecrit soutenu</th><th>Oral courant</th><th>Traduction (EN)</th></tr>
+                <tr><td>Je ne sais pas</td><td>ch'sais pas</td><td>I don't know</td></tr>
+                <tr><td>Il y a un problème</td><td>y a un problème</td><td>There is a problem</td></tr>
+              </table>
+            </td></tr>
             <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>À retenir</th><td>L'oral spontané compresse la phrase en blocs consonantiques denses.</td></tr>
           </tbody>
         </table>
       </div>
     </div>
 
-    <div class="unit-card">
-      <h4>Unité 3 — Accentuation des mots d'emprunt</h4>
-      <ul>
-        <li><strong>3.1 Digestion phonétique :</strong> Les mots empruntés à l'anglais (<em>week-end, parking, smartphone</em>) prennent <strong>l'accent tonique français sur la dernière syllabe</strong> (ex. <em>week-END</em>).</li>
-      </ul>
+    <div class="lesson-sample">
+      <div class="lesson-sample-header">
+        <h3>Leçon 1.2 — Liaisons populaires et pièges d'écoute</h3>
+      </div>
+      <div class="lesson-sample-body" style="overflow-x: auto;">
+        <div class="visual-frame" data-visual='{"type":"grapheme","main":"Liaisons fautives","ipa":"Usage populaire","words":["je vais-t-à Paris","pataquès"]}'></div>
+        <table class="mp-table">
+          <tbody>
+            <tr><th style="width: 25%;">Explication</th><td>Certains locuteurs natifs insèrent des T ou Z fantômes à l'oral populaire (ex: <em>"je vais-t-à Paris"</em> ou <em>"ils ont-z-été"</em>). Ces liaisons appelées "cuirs" ou "pataquès" sont fréquentes à l'écoute mais à éviter à l'écrit et en oral soigné.</td></tr>
+            <tr><th>Un peu de vocabulaire</th><td>
+              <table class="vocab-table">
+                <tr><th>Forme populaire</th><th>Forme correcte</th></tr>
+                <tr><td>moi-z-aussi</td><td>moi aussi [mwa osi]</td></tr>
+                <tr><td>il a-t-été</td><td>il a été [il a ete]</td></tr>
+              </table>
+            </td></tr>
+            <tr><th>Fréquence</th><td><span class="star-rating">★★★☆☆</span></td></tr>
+          </tbody>
+        </table>
+      </div>
     </div>
 
-    <div class="unit-card">
-      <h4>Unité 4 — Phénomènes d'assimilation et sonorisation</h4>
-      <ul>
-        <li>• <em>obtenir</em> → le <em>b</em> sonore devant <em>t</em> se dévoise en [p] : [ɔptəniʁ].</li>
-        <li>• <em>absurde</em> → le <em>b</em> devant <em>s</em> se lit [p] : [apsyʁd].</li>
-        <li>• <em>anecdote</em> → le <em>c</em> [k] devant <em>d</em> se sonorise en [ɡ] : [anɛɡdɔt].</li>
-      </ul>
+    <h2>Unité 2 — Accents, Anglicismes & Paronymes</h2>
+
+    <div class="lesson-sample">
+      <div class="lesson-sample-header">
+        <h3>Leçon 2.1 — Prononciation des anglicismes & Variations régionales</h3>
+      </div>
+      <div class="lesson-sample-body" style="overflow-x: auto;">
+        <div class="visual-frame" data-visual='{"type":"contrast","leftLabel":"Anglicisme","leftIpa":"[wikɛnd]","leftWords":["week-end"],"rightLabel":"Sud","rightIpa":"[pɔʁtə]","rightWords":["porte (avec e)"]}'></div>
+        <table class="mp-table">
+          <tbody>
+            <tr><th style="width: 25%;">Règles d'intégration</th><td>
+              • <strong>Anglicismes :</strong> <em>week-end, parking, smartphone</em> conservent une sonorité proche de l'anglais mais subissent l'accent tonique français sur la dernière syllabe (week-END).<br>
+              • <strong>Accent méridional (Sud) :</strong> Prononce presque tous les E caducs finaux (<em>la rose</em> = [la ʁozə]).<br>
+              • <strong>Québec :</strong> Affrication du T/D devant I/U (<em>tu</em> se prononce [tsy]).
+            </td></tr>
+            <tr><th>Fréquence</th><td><span class="star-rating">★★★★☆</span></td></tr>
+          </tbody>
+        </table>
+      </div>
     </div>
 
-    <div class="unit-card">
-      <h4>Unité 5 — Aperçu des accents régionaux et de la francophonie</h4>
-      <ul>
-        <li><strong>5.1 Accent méridional (Sud de la France) :</strong> Prononciation régulière des <em>e</em> muets finaux (ex. <em>une maison-ne</em>).</li>
-        <li><strong>5.2 Français du Québec :</strong> Affrication du <em>t/d</em> devant <em>i/u</em> (ex. <em>tu</em> prononcé proche de <em>tsu</em>).</li>
-      </ul>
+    <div class="lesson-sample">
+      <div class="lesson-sample-header">
+        <h3>Leçon 2.2 — Paronymes et pièges de confusion</h3>
+      </div>
+      <div class="lesson-sample-body" style="overflow-x: auto;">
+        <div class="visual-frame" data-visual='{"type":"contrast","leftLabel":"Conjoncture","leftIpa":"[kɔ̃ʒɔ̃ktyʁ]","leftWords":["économie"],"rightLabel":"Conjecture","rightIpa":"[kɔ̃ʒɛktyʁ]","rightWords":["hypothèse"]}'></div>
+        <table class="mp-table">
+          <tbody>
+            <tr><th style="width: 25%;">Exemples de paronymes</th><td>
+              • <strong>Conjoncture</strong> [kɔ̃ʒɔ̃ktyʁ] (situation économique) vs <strong>Conjecture</strong> [kɔ̃ʒɛktyʁ] (hypothèse).<br>
+              • <strong>Éminent</strong> [eminɑ̃] (remarquable) vs <strong>Imminent</strong> [iminɑ̃] (très proche dans le temps).
+            </td></tr>
+            <tr><th>Fréquence</th><td><span class="star-rating">★★★★☆</span></td></tr>
+          </tbody>
+        </table>
+      </div>
     </div>
+
   </section>
 
   <div class="level-nav-bar">
@@ -307,7 +354,7 @@
 
 </main>
 
-<footer class="site-footer" style="background: #bf360c; color: #fbe9e7; padding: 2rem 1.5rem; text-align: center; margin-top: 3rem;">
+<footer class="site-footer" style="background: #881337; color: #ffe4e6; padding: 2rem 1.5rem; text-align: center; margin-top: 3rem;">
   <p>© 2026 COSYlanguages · Marathon de Prononciation Française B2</p>
 </footer>
 

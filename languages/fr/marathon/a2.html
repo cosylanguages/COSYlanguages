@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>🟡 Marathon de Prononciation — Niveau A2 Structures · COSY</title>
-<meta name="description" content="Marathon de prononciation française A2 : structures, digrammes, semi-voyelles, H muet/aspiré et groupe ILL.">
+<meta name="description" content="Marathon de prononciation française A2 : digrammes, semi-voyelles, nasales complètes, e caduc, féminin et élisions.">
 <link rel="stylesheet" href="../../../css/tokens.css">
 <link rel="stylesheet" href="../../../css/base.css">
 <link rel="stylesheet" href="../../../css/components.css">
@@ -14,11 +14,10 @@
 <link rel="stylesheet" href="../../../css/mobile.css">
 <style>
   :root {
-    --mp-primary: #1b5e20;
-    --mp-primary-light: #e8f5e9;
-    --mp-accent: #2e7d32;
-    --mp-gold: #d4af37;
-    --mp-border: #c8e6c9;
+    --mp-primary: #854d0e;
+    --mp-primary-light: #fef9c3;
+    --mp-accent: #a16207;
+    --mp-border: #fef08a;
   }
 
   body {
@@ -29,10 +28,10 @@
   }
 
   .mp-hero {
-    background: linear-gradient(135deg, #1b5e20 0%, #2e7d32 50%, #43a047 100%);
+    background: linear-gradient(135deg, #713f12 0%, #a16207 50%, #ca8a04 100%);
     color: #ffffff;
     padding: 3rem 1.5rem 2rem;
-    border-bottom: 4px solid #81c784;
+    border-bottom: 4px solid #fde047;
     text-align: center;
   }
 
@@ -46,7 +45,7 @@
 
   .mp-hero p.subtitle {
     font-size: 1.14rem;
-    color: #e8f5e9;
+    color: #fef9c3;
     max-width: 800px;
     margin: 0 auto 1.25rem;
   }
@@ -90,18 +89,18 @@
   }
 
   .sd-jump-link {
-    color: #1b5e20;
+    color: #854d0e;
     text-decoration: none;
     font-weight: 700;
     font-size: 0.88rem;
     padding: 0.3rem 0.7rem;
     border-radius: 6px;
-    background: #f0fdf4;
+    background: #fef9c3;
     transition: background 0.2s, color 0.2s;
   }
 
   .sd-jump-link:hover, .sd-jump-link.active {
-    background: #1b5e20;
+    background: #854d0e;
     color: #ffffff;
   }
 
@@ -121,12 +120,15 @@
   }
 
   .mp-section h2 {
-    color: #1b5e20;
+    color: #713f12;
     font-family: 'Lora', Georgia, serif;
     font-size: 1.7rem;
     margin-top: 0;
     padding-bottom: 0.75rem;
-    border-bottom: 2px solid #c8e6c9;
+    border-bottom: 2px solid #fef08a;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
   }
 
   .mp-table {
@@ -144,35 +146,33 @@
   }
 
   .mp-table th {
-    background-color: #f0fdf4;
-    color: #1b5e20;
+    background-color: #fef9c3;
+    color: #713f12;
     font-weight: 700;
   }
 
-  .unit-card {
-    background: #fafdfb;
-    border-left: 4px solid #2e7d32;
-    border-radius: 0 8px 8px 0;
-    padding: 1rem 1.25rem;
-    margin-bottom: 1.25rem;
+  .mp-table tr:nth-child(even) {
+    background-color: #fefce8;
   }
 
-  .unit-card h4 {
-    margin: 0 0 0.5rem;
-    color: #1b5e20;
-    font-size: 1.1rem;
+  .mnemonic-box {
+    background: #fff8e1;
+    border-left: 4px solid #f57f17;
+    border-radius: 6px;
+    padding: 1rem 1.25rem;
+    margin: 1rem 0;
   }
 
   .lesson-sample {
     background: #ffffff;
-    border: 2px solid #81c784;
+    border: 2px solid #fde047;
     border-radius: 12px;
     margin-bottom: 2rem;
     overflow: hidden;
   }
 
   .lesson-sample-header {
-    background: #1b5e20;
+    background: #a16207;
     color: #ffffff;
     padding: 1rem 1.5rem;
   }
@@ -193,18 +193,27 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #f0fdf4;
-    border: 1px solid #b7e4c7;
+    background: #fef9c3;
+    border: 1px solid #fef08a;
     border-radius: 8px;
     padding: 1rem 1.5rem;
     margin-top: 2rem;
   }
 
   .level-nav-bar a {
-    color: #1b5e20;
+    color: #713f12;
     font-weight: 700;
     text-decoration: none;
   }
+
+  .vocab-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0.8rem 0;
+    font-size: 0.9rem;
+  }
+  .vocab-table th { background: #fef9c3; color: #713f12; padding: 0.5rem; text-align: left; }
+  .vocab-table td { border: 1px solid #e2e8f0; padding: 0.5rem; }
 </style>
 </head>
 <body data-lang-theme="fr">
@@ -226,133 +235,168 @@
 <header class="mp-hero">
   <div class="mp-badges">
     <span class="mp-badge">🟡 CECRL A2</span>
-    <span class="mp-badge">Structures & Contextes</span>
-    <span class="mp-badge">Semi-voyelles & Digrammes</span>
+    <span class="mp-badge">Structures & Digrammes</span>
+    <span class="mp-badge">Règles contextuelles</span>
   </div>
-  <h1>🟡 NIVEAU A2 — Structures et Complexités Contextuelles</h1>
-  <p class="subtitle">Accélérez votre lecture, maîtrisez les mariages de voyelles et comprenez la logique du H muet et du groupe ILL.</p>
+  <h1>🟡 NIVEAU A2 — Complexités Contextuelles</h1>
+  <p class="subtitle">Maîtrisez les groupes de voyelles, les semi-consonnes, la loi des trois consonnes et les accords audibles du français.</p>
 </header>
 
 <main class="mp-container">
 
-  <section class="mp-section">
-    <h2>Unité 0 — Digrammes et trigrammes vocaliques</h2>
-    <div class="unit-card">
-      <h4>Les mariages de voyelles essentiels</h4>
-      <div style="overflow-x: auto; margin-top: 0.5rem;">
-        <table class="mp-table">
-          <thead>
-            <tr>
-              <th>Mariage écrit</th>
-              <th>Son (API)</th>
-              <th>Exemple clair</th>
-              <th>Astuce / Règle de lecture</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr><td><strong>ai, ei</strong></td><td>[ɛ]</td><td>m<strong>ai</strong>s, n<strong>ei</strong>ge, ch<strong>ai</strong>se</td><td>Se lit comme un <em>e</em> ouvert (è).</td></tr>
-            <tr><td><strong>au, eau</strong></td><td>[o]</td><td>j<strong>au</strong>ne, <strong>eau</strong>, ch<strong>â</strong>t<strong>eau</strong></td><td>Se lit toujours comme un <em>o</em> fermé et pur.</td></tr>
-            <tr><td><strong>eu, œu</strong></td><td>[ø] / [œ]</td><td>p<strong>eu</strong>, s<strong>œu</strong>r, c<strong>œu</strong>r</td><td>Lèvres très arrondies en avant.</td></tr>
-            <tr><td><strong>oi</strong></td><td>[wa]</td><td>m<strong>oi</strong>, t<strong>oi</strong>, r<strong>oi</strong>, b<strong>oi</strong>s</td><td>Impulsion « wa ».</td></tr>
-            <tr><td><strong>oin</strong></td><td>[wɛ̃]</td><td>l<strong>oin</strong>, c<strong>oin</strong>, shamp<strong>oin</strong>g</td><td>« wa » + son nasal IN [ɛ̃].</td></tr>
-            <tr><td><strong>ou</strong></td><td>[u]</td><td>j<strong>ou</strong>r, r<strong>ou</strong>ge, v<strong>ou</strong>s</td><td>Son « oo » classique. Ne pas confondre avec <em>u</em> [y] !</td></tr>
-            <tr><td><strong>ui</strong></td><td>[ɥi]</td><td>h<strong>ui</strong>t, n<strong>ui</strong>t, fr<strong>ui</strong>t</td><td>Glissement rapide de <em>u</em> vers <em>i</em>.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
+  <div class="mnemonic-box">
+    <h4>💡 Principes clés du niveau A2</h4>
+    <ul style="margin: 0.5rem 0 0 1.2rem; padding: 0;">
+      <li><strong>1. Digrammes vocaliques :</strong> Plusieurs lettres écrites = un seul son (ex: <em>au, eau, ai, eu, oi</em>).</li>
+      <li><strong>2. M devant B et P :</strong> Dans les voyelles nasales, N devient M devant B et P (<em>jambe, temps, important</em>).</li>
+      <li><strong>3. Mnémonique des exceptions ILL :</strong> « Ville, mille, tranquille » gardent le son [l] !</li>
+      <li><strong>4. Accord du féminin :</strong> L'ajout d'un E au féminin réactive la consonne finale muette (<em>petit</em> [pəti] → <em>petite</em> [pətit]).</li>
+    </ul>
+  </div>
+
+  <section id="a2-content" class="mp-section">
+    <h2>Unité 1 — Digrammes vocaliques & Semi-voyelles</h2>
 
     <div class="lesson-sample">
       <div class="lesson-sample-header">
-        <h3>Unité 1 — Les semi-voyelles ([j], [w], [ɥ])</h3>
+        <h3>Leçon 1.1 — Digrammes vocaliques (AI, AU, EAU, EU, OI, OIN)</h3>
       </div>
       <div class="lesson-sample-body" style="overflow-x: auto;">
+        <div class="visual-frame" data-visual='{"type":"grapheme","main":"AU / EAU / OI","ipa":"[o] / [wa]","words":["eau","jaune","moi"]}'></div>
         <table class="mp-table">
           <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>Une voyelle (i, ou, u) compressée devant une autre voyelle prononcée.</td></tr>
-            <tr><th>Règle</th><td>• i/y + voyelle → [j] (yod) : <em>pied, fille, yeux</em> <br>• ou + voyelle → [w] : <em>oui, jouer, moi</em> <br>• u + voyelle → [ɥ] : <em>huit, nuit, nuage</em></td></tr>
-            <tr><th>Exemples courants</th><td>p<strong>i</strong>ed [pje], f<strong>i</strong>lle [fij], <strong>ou</strong>i [wi], j<strong>ou</strong>er [zwe], h<strong>u</strong>it [ɥit], n<strong>u</strong>age [nɥaʒ]</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« I, OU et U se glissent comme des patineurs devant une autre voyelle ! »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>pied, fille, yeux, oui, jouer, moi, huit, nuit, nuage</td></tr>
+            <tr><th style="width: 25%;">Recette physique</th><td>
+              • AI / EI = [ɛ] (<em>mais, neige</em>)<br>
+              • AU / EAU = [o] (<em>eau, jaune</em>)<br>
+              • EU / ŒU = [ø] ou [œ] (<em>peu, sœur</em>)<br>
+              • OI = [wa] (<em>moi, roi</em>) ; OIN = [wɛ̃] (<em>loin</em>)
+            </td></tr>
+            <tr><th>Règle</th><td>En français, un groupe de 2 ou 3 voyelles collées fait presque toujours un seul son fusionné.</td></tr>
+            <tr><th>Exemples courants</th><td>mais, eau, château, peu, fleur, moi, coin</td></tr>
+            <tr><th>Un peu de vocabulaire</th><td>
+              <table class="vocab-table">
+                <tr><th>Mot</th><th>Prononciation</th><th>Traduction (EN)</th></tr>
+                <tr><td>eau</td><td>[o]</td><td>water</td></tr>
+                <tr><td>moi</td><td>[mwa]</td><td>me / myself</td></tr>
+                <tr><td>fleur</td><td>[flœʁ]</td><td>flower</td></tr>
+              </table>
+            </td></tr>
             <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>À retenir</th><td>i, ou, u + voyelle = glissement immédiat en une seule syllabe.</td></tr>
           </tbody>
         </table>
       </div>
     </div>
 
-    <div class="unit-card">
-      <h4>Unité 2 — Consonnes composées et digrammes</h4>
-      <ul>
-        <li><strong>2.1 CH :</strong> Se lit toujours [ʃ] comme « sh » (ex. <em><strong>ch</strong>at, <strong>ch</strong>âteau</em>).</li>
-        <li><strong>2.2 GN :</strong> Son palatal doux [ɲ] (ex. <em>mon<strong>gn</strong>e, campa<strong>gn</strong>e</em>).</li>
-        <li><strong>2.3 PH :</strong> Se lit [f] (ex. <em><strong>ph</strong>oto, <strong>ph</strong>onétique</em>).</li>
-        <li><strong>2.4 TH :</strong> Le <em>h</em> est muet, se lit un simple [t] (ex. <em><strong>th</strong>é, <strong>th</strong>éâtre</em>).</li>
-        <li><strong>2.5 QU :</strong> Se lit un simple [k] (ex. <em><strong>qu</strong>i, <strong>qu</strong>estion</em>).</li>
-      </ul>
-    </div>
-
     <div class="lesson-sample">
       <div class="lesson-sample-header">
-        <h3>Unité 3 — Le groupe ILL et ses 4 exceptions</h3>
+        <h3>Leçon 1.2 — Les Semi-voyelles ([j], [w], [ɥ]) & Le groupe ILL</h3>
       </div>
       <div class="lesson-sample-body" style="overflow-x: auto;">
+        <div class="visual-frame" data-visual='{"type":"grapheme","main":"ILL","ipa":"[j] (exceptions: [il])","words":["fille","soleil","ville"]}'></div>
         <table class="mp-table">
           <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>Le groupe -ill se lit [j] après voyelle, mais connaît 4 exceptions majeures.</td></tr>
-            <tr><th>Règle générale</th><td>Après voyelle, <em>ill</em> = [j] (ex. <em>f<strong>ill</strong>e</em> [fij], <em>trava<strong>il</strong></em> [tʁavaj], <em>sole<strong>il</strong></em> [sɔlɛj]).</td></tr>
-            <tr><th>Exceptions majeures en [il]</th><td><strong>Ville, mille, tranquille, Lille</strong> (et leurs dérivés : village, million, tranquillité).</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« <strong>Ville, mille, tranquille</strong>, mon village à <strong>Lille</strong> n'est pas si tranquille »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>fille, famille, soleil, ville, mille, tranquille, Lille, village</td></tr>
+            <tr><th style="width: 25%;">Recette physique</th><td>
+              • I + voyelle = [j] (yod : <em>pied, yeux</em>)<br>
+              • OU + voyelle = [w] (<em>oui, jouet</em>)<br>
+              • U + voyelle = [ɥ] (<em>huit, nuage</em>)<br>
+              • ILL après voyelle = [j] (<em>fille, travail, soleil</em>).
+            </td></tr>
+            <tr><th>Mnémonique des exceptions</th><td>« Ville, mille, tranquille, mon village n'est pas si bien tranquille » (se prononcent avec un [l] normal : [vil], [mil], [tʁɑ̃kil]).</td></tr>
+            <tr><th>Un peu de vocabulaire</th><td>
+              <table class="vocab-table">
+                <tr><th>Mot</th><th>Prononciation</th><th>Traduction (EN)</th></tr>
+                <tr><td>fille</td><td>[fij]</td><td>girl / daughter</td></tr>
+                <tr><td>huit</td><td>[ɥit]</td><td>eight</td></tr>
+                <tr><td>ville (exception)</td><td>[vil]</td><td>city / town</td></tr>
+              </table>
+            </td></tr>
             <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>À retenir</th><td>ill = [j] partout, sauf dans Ville, mille, tranquille, Lille.</td></tr>
           </tbody>
         </table>
       </div>
     </div>
 
-    <div class="unit-card">
-      <h4>Unité 4 — Le e caduc et la loi des 3 consonnes</h4>
-      <ul>
-        <li><strong>4.1 Règle simplifiée :</strong> On garde le <em>e</em> instable s'il évite de prononcer 3 consonnes consécutives à l'oral. Sinon, il tombe ! (ex. <em>je ne sais pas</em> → <em>j'n'sais pas</em>).</li>
-      </ul>
+    <h2>Unité 2 — Consonnes composées, E Caduc & Accords</h2>
+
+    <div class="lesson-sample">
+      <div class="lesson-sample-header">
+        <h3>Leçon 2.1 — Consonnes composées (CH, GN, PH, TH, QU)</h3>
+      </div>
+      <div class="lesson-sample-body" style="overflow-x: auto;">
+        <div class="visual-frame" data-visual='{"type":"grapheme","main":"CH / GN / TH","ipa":"[ʃ] / [ɲ] / [t]","words":["chat","montagne","thé"]}'></div>
+        <table class="mp-table">
+          <tbody>
+            <tr><th style="width: 25%;">Recette physique</th><td>
+              • CH = [ʃ] (sh anglais : <em>chat</em>)<br>
+              • GN = [ɲ] (son ny : <em>montagne</em>)<br>
+              • PH = [f] (<em>photo</em>)<br>
+              • TH = [t] toujours ! Le H est totalement muet (<em>thé, théâtre</em>). Ne prononcez jamais 'th' anglais !<br>
+              • QU = [k] (<em>qui, quoi</em>).
+            </td></tr>
+            <tr><th>Logique interlinguistique</th><td>En anglais TH se prononce [θ]/[ð]. En français, TH est simplement [t] !</td></tr>
+            <tr><th>Un peu de vocabulaire</th><td>
+              <table class="vocab-table">
+                <tr><th>Mot</th><th>Prononciation</th><th>Traduction (EN)</th></tr>
+                <tr><td>thé</td><td>[te]</td><td>tea</td></tr>
+                <tr><td>montagne</td><td>[mɔ̃taɲ]</td><td>mountain</td></tr>
+              </table>
+            </td></tr>
+            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
+          </tbody>
+        </table>
+      </div>
     </div>
 
     <div class="lesson-sample">
       <div class="lesson-sample-header">
-        <h3>Unité 5 — Le H muet vs H aspiré</h3>
+        <h3>Leçon 2.2 — Le E Caduc & La Loi des 3 Consonnes</h3>
       </div>
       <div class="lesson-sample-body" style="overflow-x: auto;">
-        <div class="visual-frame" data-visual='{"type":"contrast","leftLabel":"H muet","leftIpa":"liaison","leftWords":["l&#39;homme","les_hommes"],"rightLabel":"H aspiré","rightIpa":"pas de liaison","rightWords":["le héros","les / héros"]}'></div>
+        <div class="visual-frame" data-visual='{"type":"flow","words":["samedi","porte-clé"],"ipa":"[samdi] / [pɔʁtəkle]"}'></div>
         <table class="mp-table">
           <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>Deux catégories de H invisibles à l'oreille mais aux effets opposés.</td></tr>
-            <tr><th>Règle H muet</th><td>Vitre transparente : élision et liaison obligatoires (<em>l'homme, l'histoire, les_hommes</em>).</td></tr>
-            <tr><th>Règle H aspiré</th><td>Mur de brique : bloque l'élision et la liaison (<em>le héros, la honte, les / héros</em>).</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« H muet = vitre transparente ; H aspiré = mur de brique »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>l'homme, l'histoire, l'hôtel, l'heure, le héros, la honte</td></tr>
+            <tr><th style="width: 25%;">Recette physique</th><td>Le 'e' instable (sans accent) peut disparaître à l'oral pour accélérer la parole (<em>samedi</em> [samdi]). Cependant, si sa disparition crée un groupe de 3 consonnes consécutives, ON LE GARDE (<em>porte-clé</em> [pɔʁtəkle]).</td></tr>
+            <tr><th>Règle des 3 consonnes</th><td>2 consonnes côte à côte = le E tombe (<em>petit</em> → p'tit). 3 consonnes = le E reste pour protéger la fluidité !</td></tr>
+            <tr><th>Un peu de vocabulaire</th><td>
+              <table class="vocab-table">
+                <tr><th>Mot</th><th>Prononciation</th><th>Traduction (EN)</th></tr>
+                <tr><td>samedi</td><td>[samdi]</td><td>Saturday</td></tr>
+                <tr><td>vendredi</td><td>[vɑ̃dʁədi]</td><td>Friday</td></tr>
+              </table>
+            </td></tr>
             <tr><th>Fréquence</th><td><span class="star-rating">★★★★☆</span></td></tr>
-            <tr><th>À retenir</th><td>H muet laisse passer la liaison ; H aspiré la bloque net.</td></tr>
           </tbody>
         </table>
       </div>
     </div>
 
-    <div class="unit-card">
-      <h4>Unité 6 — Impact sonore du genre et du nombre</h4>
-      <ul>
-        <li><strong>6.1 Féminin :</strong> L'ajout du <em>-e</em> féminin réveille la consonne muette précédente (<em>peti<strong>t</strong></em> [pəti] → <em>peti<strong>te</strong></em> [pətit]).</li>
-        <li><strong>6.2 Pluriel :</strong> Le <em>-s</em> ou <em>-x</em> reste muet à l'oral. C'est l'article (<em>le/les, un/des</em>) qui indique le nombre.</li>
-      </ul>
+    <div class="lesson-sample">
+      <div class="lesson-sample-header">
+        <h3>Leçon 2.3 — Accords du Féminin, Pluriels & Élisions (H muet vs H aspiré)</h3>
+      </div>
+      <div class="lesson-sample-body" style="overflow-x: auto;">
+        <div class="visual-frame" data-visual='{"type":"contrast","leftLabel":"H muet","leftIpa":"[lɔm]","leftWords":["l&#39;homme"],"rightLabel":"H aspiré","rightIpa":"[lə.eʁo]","rightWords":["le héros"]}'></div>
+        <table class="mp-table">
+          <tbody>
+            <tr><th style="width: 25%;">Recette physique</th><td>
+              • <strong>Féminin :</strong> L'ajout d'un E muet fait résonner la consonne finale (<em>grand</em> [gʁɑ̃] → <em>grande</em> [gʁɑ̃d]).<br>
+              • <strong>Pluriel :</strong> Le -S ou -X du pluriel est muet. L'oral ne distingue le pluriel que par l'article (<em>le chat / les chats</em>).<br>
+              • <strong>H muet :</strong> Accepte l'élision et la liaison (<em>l'homme, les_hommes</em>).<br>
+              • <strong>H aspiré :</strong> Bloque l'élision et la liaison (<em>le héros, les / héros</em>).
+            </td></tr>
+            <tr><th>Un peu de vocabulaire</th><td>
+              <table class="vocab-table">
+                <tr><th>Expression</th><th>Prononciation</th><th>Traduction (EN)</th></tr>
+                <tr><td>l'homme (H muet)</td><td>[lɔm]</td><td>the man</td></tr>
+                <tr><td>le héros (H aspiré)</td><td>[lə eʁo]</td><td>the hero</td></tr>
+              </table>
+            </td></tr>
+            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
+          </tbody>
+        </table>
+      </div>
     </div>
 
-    <div class="unit-card">
-      <h4>Unité 7 — Mots fréquents irréguliers et abréviations</h4>
-      <ul>
-        <li><strong>7.1 Mots irréguliers indispensables :</strong> <em>monsieur</em> [məsjø], <em>femme</em> [fam], <em>oignon</em> [ɔɲɔ̃], <em>second</em> [səɡɔ̃], <em>gentil</em> [ʒɑ̃ti], <em>fils</em> [fis], <em>œuf/œufs</em> [œf / ø].</li>
-        <li><strong>7.2 Sigles :</strong> SNCF [ɛs-ɛn-se-ɛf], TGV [te-ʒe-ve], OTAN [ɔtɑ̃].</li>
-      </ul>
-    </div>
   </section>
 
   <div class="level-nav-bar">
@@ -362,7 +406,7 @@
 
 </main>
 
-<footer class="site-footer" style="background: #1b5e20; color: #e8f5e9; padding: 2rem 1.5rem; text-align: center; margin-top: 3rem;">
+<footer class="site-footer" style="background: #713f12; color: #fef9c3; padding: 2rem 1.5rem; text-align: center; margin-top: 3rem;">
   <p>© 2026 COSYlanguages · Marathon de Prononciation Française A2</p>
 </footer>
 

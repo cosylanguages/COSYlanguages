@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>🟣 Marathon de Prononciation — Niveau C1 Style & Poésie · COSY</title>
-<meta name="description" content="Marathon de prononciation française C1 : versification, le e muet en poésie, diérèse, synérèse et prosodie.">
+<title>🟣 Marathon de Prononciation — Niveau C1 Poésie & Éloquence · COSY</title>
+<meta name="description" content="Marathon de prononciation française C1 : le e muet en poésie classique, diérèse et synérèse, liaisons oratoires et prosodie.">
 <link rel="stylesheet" href="../../../css/tokens.css">
 <link rel="stylesheet" href="../../../css/base.css">
 <link rel="stylesheet" href="../../../css/components.css">
@@ -14,9 +14,10 @@
 <link rel="stylesheet" href="../../../css/mobile.css">
 <style>
   :root {
-    --mp-primary: #4a148c;
-    --mp-primary-light: #f3e5f5;
-    --mp-accent: #6a1b9a;
+    --mp-primary: #6b21a8;
+    --mp-primary-light: #f3e8ff;
+    --mp-accent: #7e22ce;
+    --mp-border: #e9d5ff;
   }
 
   body {
@@ -27,10 +28,10 @@
   }
 
   .mp-hero {
-    background: linear-gradient(135deg, #4a148c 0%, #6a1b9a 50%, #8e24aa 100%);
+    background: linear-gradient(135deg, #581c87 0%, #6b21a8 50%, #7e22ce 100%);
     color: #ffffff;
     padding: 3rem 1.5rem 2rem;
-    border-bottom: 4px solid #e1bee7;
+    border-bottom: 4px solid #c084fc;
     text-align: center;
   }
 
@@ -44,7 +45,7 @@
 
   .mp-hero p.subtitle {
     font-size: 1.14rem;
-    color: #f3e5f5;
+    color: #f3e8ff;
     max-width: 800px;
     margin: 0 auto 1.25rem;
   }
@@ -88,18 +89,18 @@
   }
 
   .sd-jump-link {
-    color: #4a148c;
+    color: #6b21a8;
     text-decoration: none;
     font-weight: 700;
     font-size: 0.88rem;
     padding: 0.3rem 0.7rem;
     border-radius: 6px;
-    background: #f3e5f5;
+    background: #f3e8ff;
     transition: background 0.2s, color 0.2s;
   }
 
   .sd-jump-link:hover, .sd-jump-link.active {
-    background: #4a148c;
+    background: #6b21a8;
     color: #ffffff;
   }
 
@@ -119,12 +120,15 @@
   }
 
   .mp-section h2 {
-    color: #4a148c;
+    color: #581c87;
     font-family: 'Lora', Georgia, serif;
     font-size: 1.7rem;
     margin-top: 0;
     padding-bottom: 0.75rem;
-    border-bottom: 2px solid #e1bee7;
+    border-bottom: 2px solid #e9d5ff;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
   }
 
   .mp-table {
@@ -142,35 +146,33 @@
   }
 
   .mp-table th {
-    background-color: #f3e5f5;
-    color: #4a148c;
+    background-color: #f3e8ff;
+    color: #581c87;
     font-weight: 700;
   }
 
-  .unit-card {
-    background: #fcf8ff;
-    border-left: 4px solid #6a1b9a;
-    border-radius: 0 8px 8px 0;
-    padding: 1rem 1.25rem;
-    margin-bottom: 1.25rem;
+  .mp-table tr:nth-child(even) {
+    background-color: #faf5ff;
   }
 
-  .unit-card h4 {
-    margin: 0 0 0.5rem;
-    color: #4a148c;
-    font-size: 1.1rem;
+  .mnemonic-box {
+    background: #fff8e1;
+    border-left: 4px solid #f57f17;
+    border-radius: 6px;
+    padding: 1rem 1.25rem;
+    margin: 1rem 0;
   }
 
   .lesson-sample {
     background: #ffffff;
-    border: 2px solid #8e24aa;
+    border: 2px solid #c084fc;
     border-radius: 12px;
     margin-bottom: 2rem;
     overflow: hidden;
   }
 
   .lesson-sample-header {
-    background: #4a148c;
+    background: #6b21a8;
     color: #ffffff;
     padding: 1rem 1.5rem;
   }
@@ -191,18 +193,27 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #f3e5f5;
-    border: 1px solid #e1bee7;
+    background: #f3e8ff;
+    border: 1px solid #e9d5ff;
     border-radius: 8px;
     padding: 1rem 1.5rem;
     margin-top: 2rem;
   }
 
   .level-nav-bar a {
-    color: #4a148c;
+    color: #581c87;
     font-weight: 700;
     text-decoration: none;
   }
+
+  .vocab-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0.8rem 0;
+    font-size: 0.9rem;
+  }
+  .vocab-table th { background: #f3e8ff; color: #581c87; padding: 0.5rem; text-align: left; }
+  .vocab-table td { border: 1px solid #e2e8f0; padding: 0.5rem; }
 </style>
 </head>
 <body data-lang-theme="fr">
@@ -224,48 +235,72 @@
 <header class="mp-hero">
   <div class="mp-badges">
     <span class="mp-badge">🟣 CECRL C1</span>
-    <span class="mp-badge">Style & Poésie</span>
-    <span class="mp-badge">Scansion & Prosodie</span>
+    <span class="mp-badge">Poésie & Métrique</span>
+    <span class="mp-badge">Éloquence Oratoire</span>
   </div>
-  <h1>🟣 NIVEAU C1 — Finesse Stylistique, Poésie et Prosodie</h1>
-  <p class="subtitle">Explorez les règles métriques de la versification classique, la scansion alexandrine, la diérèse et les doublets étymologiques.</p>
+  <h1>🟣 NIVEAU C1 — Poésie, Métrique & Éloquence</h1>
+  <p class="subtitle">Découvrez les règles métriques de la poésie classique, la scansion, la diérèse et la haute prononciation oratoire.</p>
 </header>
 
 <main class="mp-container">
 
-  <section class="mp-section">
-    <h2>Unité 1 — Le e muet en poésie classique et scansion</h2>
+  <div class="mnemonic-box">
+    <h4>💡 Principes clés du niveau C1</h4>
+    <ul style="margin: 0.5rem 0 0 1.2rem; padding: 0;">
+      <li><strong>1. Le E métrique poétique :</strong> Devant une consonne, le E muet compte comme une vraie syllabe poétique. Devant une voyelle ou en fin de vers, il s'élide.</li>
+      <li><strong>2. Diérèse vs Synérèse :</strong> La diérèse sépare un groupe en 2 syllabes pour respecter le mètre (ex: <em>li-on</em> en 2 syllabes dans un alexandrin).</li>
+      <li><strong>3. Liaisons oratoires :</strong> Le registre de la comédie classique et du discours solennel rétablit toutes les liaisons facultatives.</li>
+      <li><strong>4. Doublets étymologiques :</strong> Distinguez la forme populaire usée (<em>frêle</em>) de la forme savante proche du latin (<em>fragile</em>).</li>
+    </ul>
+  </div>
+
+  <section id="c1-content" class="mp-section">
+    <h2>Unité 1 — Poésie Classique, Scansion & Éloquence</h2>
+
     <div class="lesson-sample">
       <div class="lesson-sample-header">
-        <h3>Leçon 1.1 — La règle métrique du e muet</h3>
+        <h3>Leçon 1.1 — La règle métrique du E muet et l'Alexandrin</h3>
       </div>
       <div class="lesson-sample-body" style="overflow-x: auto;">
-        <div class="visual-frame" data-visual='{"type":"flow","steps":["E + consonne → prononcé (chante)","E + voyelle → élidé (effacé)","E final de vers → jamais compté"]}'></div>
+        <div class="visual-frame" data-visual='{"type":"flow","words":["Toujours","aimer,","toujours","souffrir,","toujours","mourir."],"ipa":"Scansion 12 syllabes"}'></div>
         <table class="mp-table">
           <tbody>
-            <tr><th style="width: 25%;">Règle générale</th><td>• Devant consonne → le <em>e</em> compte pour une vraie syllabe prononcée. <br>• Devant voyelle ou en fin de vers → le <em>e</em> s'élide et ne compte pas.</td></tr>
-            <tr><th>Pourquoi ?</th><td>Fixé au XVIIe siècle pour maintenir le nombre exact de pieds dans l'alexandrin (12 syllabes).</td></tr>
-            <tr><th>Exemple classique</th><td><em>« La vi / e_est / brè / ve »</em> vs <em>« Un / pe / ti / t_en / fan / t_ap / por / te / son / li / vre »</em></td></tr>
-            <tr><th>💡 Astuce</th><td>« En poésie : E devant consonne se chante ; E devant voyelle s'efface ! »</td></tr>
-            <tr><th>À retenir</th><td>En vers classique, le e muet retrouve sa valeur syllabique pleine devant consonne.</td></tr>
+            <tr><th style="width: 25%;">Règles de scansion poétique</th><td>
+              • Le E muet suivi d'une consonne = 1 syllabe entière comptée ! (<em>"Toujour(s) aime(r), toujour(s) souffri(r)..."</em>).<br>
+              • Le E muet suivi d'une voyelle = 0 syllabe (il s'élide).<br>
+              • Le E muet en toute fin de vers = 0 syllabe (syllabe féminine).
+            </td></tr>
+            <tr><th>Un peu de vocabulaire</th><td>
+              <table class="vocab-table">
+                <tr><th>Vers poétique</th><th>Syllabes comptées</th></tr>
+                <tr><td>"La vie est brève"</td><td>La / vi(e)_est / brè / ve (4 syllabes avec E final)</td></tr>
+              </table>
+            </td></tr>
+            <tr><th>Fréquence</th><td><span class="star-rating">★★★☆☆</span></td></tr>
           </tbody>
         </table>
       </div>
     </div>
 
-    <div class="unit-card">
-      <h4>Unité 2 — Diérèse et synérèse</h4>
-      <ul>
-        <li><strong>2.1 Diérèse stylistique :</strong> Prononciation poétique en deux syllabes distinctes d'un groupe habituellement fondu (ex. <em>li-on</em> en 2 syllabes au lieu d'une) pour respecter la métrique du vers.</li>
-      </ul>
+    <div class="lesson-sample">
+      <div class="lesson-sample-header">
+        <h3>Leçon 1.2 — Diérèse, Synérèse & Prosody fine des groupes de souffle</h3>
+      </div>
+      <div class="lesson-sample-body" style="overflow-x: auto;">
+        <div class="visual-frame" data-visual='{"type":"contrast","leftLabel":"Diérèse","leftIpa":"[li-ɔ̃] (2 syllabes)","leftWords":["li-on"],"rightLabel":"Synérèse","rightIpa":"[ljɔ̃] (1 syllabe)","rightWords":["lion"]}'></div>
+        <table class="mp-table">
+          <tbody>
+            <tr><th style="width: 25%;">Définition</th><td>
+              • <strong>Diérèse :</strong> Prononciation en 2 syllabes d'une séquence vocalique (<em>pas-si-on</em>) pour atteindre 12 syllabes dans un alexandrin.<br>
+              • <strong>Synérèse :</strong> Fusion normale en 1 seule syllabe (<em>pas-sion</em>).<br>
+              • <strong>Liaisons oratoires :</strong> Dans le théâtre classique, on prononce toutes les liaisons secondaires (<em>"ils sont_arrivés"</em>).
+            </td></tr>
+            <tr><th>Fréquence</th><td><span class="star-rating">★★★☆☆</span></td></tr>
+          </tbody>
+        </table>
+      </div>
     </div>
 
-    <div class="unit-card">
-      <h4>Unité 3 — Doublets étymologiques</h4>
-      <ul>
-        <li><strong>3.1 Évolution populaire vs savante :</strong> Un même mot latin a donné deux formes en français : une populaire usée à l'oral (<em>frêle</em>) et une savante plus proche du latin (<em>fragile</em>).</li>
-      </ul>
-    </div>
   </section>
 
   <div class="level-nav-bar">
@@ -275,7 +310,7 @@
 
 </main>
 
-<footer class="site-footer" style="background: #4a148c; color: #f3e5f5; padding: 2rem 1.5rem; text-align: center; margin-top: 3rem;">
+<footer class="site-footer" style="background: #581c87; color: #f3e8ff; padding: 2rem 1.5rem; text-align: center; margin-top: 3rem;">
   <p>© 2026 COSYlanguages · Marathon de Prononciation Française C1</p>
 </footer>
 

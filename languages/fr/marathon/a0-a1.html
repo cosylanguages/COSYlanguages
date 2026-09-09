@@ -230,6 +230,24 @@
   .level-nav-bar a:hover {
     text-decoration: underline;
   }
+
+  .vocab-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0.8rem 0;
+    font-size: 0.9rem;
+  }
+  .vocab-table th { background: #e8f5e9; color: #1b4332; padding: 0.5rem; text-align: left; }
+  .vocab-table td { border: 1px solid #e2e8f0; padding: 0.5rem; }
+
+  .interlingual-box {
+    background: #f3e5f5;
+    border-left: 4px solid #8e24aa;
+    padding: 0.8rem 1rem;
+    margin: 0.8rem 0;
+    border-radius: 4px;
+    font-size: 0.92rem;
+  }
 </style>
 </head>
 <body data-lang-theme="fr">
@@ -276,31 +294,36 @@
       <li><strong>1. Règle CaReFuL (Consonnes finales) :</strong> En fin de mot, <strong>-t, -d, -s, -x, -p</strong> sont silencieuses (<em>petit, chat, grands</em>). Seules <strong>C, R, F, L</strong> parlent presque toujours (<em>ba<strong>c</strong>, me<strong>r</strong>, che<strong>f</strong>, ba<strong>l</strong></em>).</li>
       <li><strong>2. Le son U français [y] :</strong> Dites « i » avec un grand sourire, puis arrondissez fortement les lèvres sans bouger la langue ! Vous obtenez le <em>u</em> de <em>tu</em>.</li>
       <li><strong>3. C et G :</strong> Devant A, O, U = son dur [k] / [g] (<em>café, gare</em>). Devant E, I, Y = son doux [s] / [ʒ] (<em>ceci, girafe</em>).</li>
-      <li><strong>4. Nasales simples :</strong> Une voyelle suivie de N ou M en fin de syllabe passe par le nez (<em>an, on, in</em>).</li>
+      <li><strong>4. Nasales simples :</strong> Une voyelle suivie de N ou M en fin de syllabe passe par le nez (<em>an, on, in</em>). Si N/M est suivi d'une voyelle, la nasalisation s'annule (<em>ami</em> n'est pas nasal) !</li>
     </ul>
   </div>
 
   <!-- LEÇONS A0-A1 -->
   <section id="a0-a1-content" class="mp-section">
-    <h2>Unité 1 — L'alphabet et les sons purs</h2>
+    <h2>Unité 1 — L'alphabet et les voyelles de base</h2>
 
     <!-- 1.1 -->
     <div class="lesson-sample">
       <div class="lesson-sample-header">
-        <h3>Leçon 1.1 — La voyelle A</h3>
+        <h3>Leçon 1.1 — L'alphabet et les sons purs (A, E, I, O, U)</h3>
       </div>
       <div class="lesson-sample-body" style="overflow-x: auto;">
-        <div class="visual-frame" data-visual='{"type":"grapheme","main":"A","ipa":"[a]","words":["ami","table","chat"]}'></div>
+        <div class="visual-frame" data-visual='{"type":"alphabet","main":"A, E, I, O, U","ipa":"Voyelles","words":["ami","le","ici","mot","tu"]}'></div>
         <table class="mp-table">
           <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>A est la voyelle la plus ouverte du français : la bouche s'ouvre largement, la langue reste basse.</td></tr>
-            <tr><th>Règle</th><td>La lettre a se lit presque toujours [a], quelle que soit sa position dans le mot.</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>Un a isolé, sans accent, sans lettre nasale (n/m) juste après.</td></tr>
-            <tr><th>Exemples courants</th><td>ami, table, chat, salade, avion, banane</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« A comme dans "Ah!" » — la bouche grande ouverte, sans bouger</td></tr>
-            <tr><th>Vocabulaire clé</th><td>ami, table, chat, salade, avion, banane, papa, gare</td></tr>
+            <tr><th style="width: 25%;">Recette physique</th><td>L'alphabet a 26 lettres. Le W se prononce [v] comme dans <em>wagon</em>. Les 5 voyelles fondamentales ont chacune une position buccale fixe : A (bouche grande ouverte), E (lèvres relâchées), I (grand sourire), O (lèvres rondes), U (langue sur I + lèvres en cul-de-poule).</td></tr>
+            <tr><th>Règle</th><td>Le 'u' français n'existe pas en anglais. Ne le confondez jamais avec 'ou' !</td></tr>
+            <tr><th>Exemples courants</th><td>chat, le, ici, mot, tu, wagon</td></tr>
+            <tr><th>Un peu de vocabulaire</th><td>
+              <table class="vocab-table">
+                <tr><th>Mot</th><th>Prononciation</th><th>Traduction (EN)</th></tr>
+                <tr><td>chat</td><td>[ʃa]</td><td>cat</td></tr>
+                <tr><td>tu</td><td>[ty]</td><td>you (informal)</td></tr>
+                <tr><td>ici</td><td>[isi]</td><td>here</td></tr>
+              </table>
+            </td></tr>
+            <tr><th>Logique interlinguistique</th><td>Contrairement à l'anglais où le 'u' fait souvent [ju:] (cute), en français 'u' est toujours un son pur [y].</td></tr>
             <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>À retenir</th><td>Le a français est toujours ouvert et net.</td></tr>
           </tbody>
         </table>
       </div>
@@ -309,41 +332,166 @@
     <!-- 1.2 -->
     <div class="lesson-sample">
       <div class="lesson-sample-header">
-        <h3>Leçon 1.2 — La voyelle E (sans accent)</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <div class="visual-frame" data-visual='{"type":"grapheme","main":"E","ipa":"[ə] / [ɛ]","words":["le","petit","avec"]}'></div>
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>Le e sans accent est la voyelle la plus instable du français : selon sa position, il change de son ou disparaît.</td></tr>
-            <tr><th>Règle</th><td>En syllabe ouverte non finale, il se lit [ə] (le, ce, petit) ; en syllabe fermée, il se lit [ɛ] (avec, sept) ; en fin de mot, il est muet (table, porte).</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>Regarder ce qui suit le e : une seule consonne + voyelle → [ə] ; une consonne + fin de mot → [ɛ] ; rien après (fin de mot) → muet.</td></tr>
-            <tr><th>Exemples courants</th><td>le [lə], petit [pəti], avec [avɛk], porte [pɔʁt] (e final muet)</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« Le e sans accent est un caméléon : il change selon son entourage »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>le, ce, petit, avec, porte, table, robe, septembre</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>À retenir</th><td>Le e nu n'a pas un son fixe : sa position dans le mot décide tout.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <!-- 1.5 -->
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 1.5 — La voyelle U (Son signature du français)</h3>
+        <h3>Leçon 1.2 — La voyelle U [y] vs Digramme OU [u]</h3>
       </div>
       <div class="lesson-sample-body" style="overflow-x: auto;">
         <div class="visual-frame" data-visual='{"type":"contrast","leftLabel":"U","leftIpa":"[y]","leftWords":["tu","lune","vu"],"rightLabel":"OU","rightIpa":"[u]","rightWords":["tout","vous","jour"]}'></div>
         <table class="mp-table">
           <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>U est un son propre au français : il n'existe pas en anglais.</td></tr>
-            <tr><th>Règle</th><td>La lettre u seule se lit toujours [y], jamais [u].</td></tr>
-            <tr><th>Exemples courants</th><td>tu, lune, sur, rue, mur, une, du, sucre</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« Dites "i", puis arrondissez les lèvres sans bouger la langue »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>tu, lune, sur, rue, mur, une, du, sucre, musique</td></tr>
+            <tr><th style="width: 25%;">Recette physique</th><td>Pour [y] (U) : dites « i » et poussez les lèvres vers l'avant. Pour [u] (OU) : dites « ou » comme le hululement du hibou.</td></tr>
+            <tr><th>Règle</th><td>U seul = [y] (<em>tu, lune</em>). OU ensemble = [u] (<em>vous, jour</em>).</td></tr>
+            <tr><th>Exemples courants</th><td>tu / tout, vu / vous, du / doux, rue / roue</td></tr>
+            <tr><th>Un peu de vocabulaire</th><td>
+              <table class="vocab-table">
+                <tr><th>Mot</th><th>Prononciation</th><th>Traduction (EN)</th></tr>
+                <tr><td>tu (U)</td><td>[ty]</td><td>you</td></tr>
+                <tr><td>tout (OU)</td><td>[tu]</td><td>all / everything</td></tr>
+                <tr><td>vous (OU)</td><td>[vu]</td><td>you (formal/plural)</td></tr>
+              </table>
+            </td></tr>
+            <tr><th>Logique interlinguistique</th><td>En anglais, "you" ressemble à "OU", pas à "U" français ! Attention au piège.</td></tr>
             <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>À retenir</th><td>u ≠ ou : deux sons totalement différents, à ne jamais confondre.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <h2>Unité 2 — Consonnes changeantes & Mnémoniques</h2>
+
+    <!-- 2.1 -->
+    <div class="lesson-sample">
+      <div class="lesson-sample-header">
+        <h3>Leçon 2.1 — Les lettres C et G (Son dur vs Son doux) & Le S entre voyelles</h3>
+      </div>
+      <div class="lesson-sample-body" style="overflow-x: auto;">
+        <div class="visual-frame" data-visual='{"type":"grapheme","main":"C / G / S","ipa":"[k]/[s] - [g]/[ʒ] - [z]","words":["café","ceci","gare","girafe","maison"]}'></div>
+        <table class="mp-table">
+          <tbody>
+            <tr><th style="width: 25%;">Recette physique</th><td>
+              • C + A, O, U = [k] (dur : <em>café</em>). C + E, I, Y = [s] (doux : <em>ceci</em>).<br>
+              • G + A, O, U = [g] (dur : <em>gare</em>). G + E, I, Y = [ʒ] (doux : <em>girafe</em>).<br>
+              • S entre deux voyelles vibre comme une abeille [z] (<em>maison</em>). En début de mot = [s] (<em>sac</em>).
+            </td></tr>
+            <tr><th>Mnémonique</th><td>« CA-CO-CU dur, CE-CI-CY doux » & « GA-GO-GU dur, GE-GI-GY doux ».</td></tr>
+            <tr><th>Exemples courants</th><td>café, cinéma, gare, gâteau, zéro, maison, sac</td></tr>
+            <tr><th>Un peu de vocabulaire</th><td>
+              <table class="vocab-table">
+                <tr><th>Mot</th><th>Prononciation</th><th>Traduction (EN)</th></tr>
+                <tr><td>café</td><td>[kafe]</td><td>coffee / cafe</td></tr>
+                <tr><td>cinéma</td><td>[sinema]</td><td>cinema</td></tr>
+                <tr><td>maison</td><td>[mɛzɔ̃]</td><td>house</td></tr>
+              </table>
+            </td></tr>
+            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- 2.2 -->
+    <div class="lesson-sample">
+      <div class="lesson-sample-header">
+        <h3>Leçon 2.2 — Règle CaReFuL (Consonnes finales muettes)</h3>
+      </div>
+      <div class="lesson-sample-body" style="overflow-x: auto;">
+        <div class="visual-frame" data-visual='{"type":"grapheme","main":"CaReFuL","ipa":"C, R, F, L = OUI","words":["bac","mer","chef","bal"]}'></div>
+        <table class="mp-table">
+          <tbody>
+            <tr><th style="width: 25%;">Recette physique</th><td>Les lettres finales -t, -d, -s, -x, -p, -g sont silencieuses en français. Seules les consonnes de CaReFuL (C, R, F, L) se prononcent à la fin des mots.</td></tr>
+            <tr><th>Exceptions notables</th><td>Les infinitifs en -er ont un R muet (<em>parler</em> [paʁle]), ainsi que le mot <em>monsieur</em>.</td></tr>
+            <tr><th>Exemples courants</th><td>chat (t muet), grand (d muet), petit (t muet) VS bac, mer, chef, bal (prononcés)</td></tr>
+            <tr><th>Un peu de vocabulaire</th><td>
+              <table class="vocab-table">
+                <tr><th>Mot</th><th>Prononciation</th><th>Traduction (EN)</th></tr>
+                <tr><td>chat</td><td>[ʃa]</td><td>cat</td></tr>
+                <tr><td>mer</td><td>[mɛʁ]</td><td>sea</td></tr>
+                <tr><td>parler</td><td>[paʁle]</td><td>to speak</td></tr>
+              </table>
+            </td></tr>
+            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <h2>Unité 3 — Accents, Nasales de base & Première Liaison</h2>
+
+    <!-- 3.1 -->
+    <div class="lesson-sample">
+      <div class="lesson-sample-header">
+        <h3>Leçon 3.1 — Les Accents graphiques (é, è, ê, ë, ç)</h3>
+      </div>
+      <div class="lesson-sample-body" style="overflow-x: auto;">
+        <div class="visual-frame" data-visual='{"type":"grapheme","main":"é / è / ç","ipa":"[e] / [ɛ] / [s]","words":["été","mère","garçon"]}'></div>
+        <table class="mp-table">
+          <tbody>
+            <tr><th style="width: 25%;">Recette physique</th><td>
+              • <strong>é (accent aigu)</strong> : bouche mi-fermée, sourire [e] (<em>été</em>).<br>
+              • <strong>è / ê (accent grave / circonflexe)</strong> : bouche ouverte [ɛ] (<em>mère, forêt</em>).<br>
+              • <strong>ë / ï (tréma)</strong> : sépare 2 voyelles (<em>Noël</em> = No-ël, pas 'neu').<br>
+              • <strong>ç (cédille)</strong> : transforme le C dur devant A, O, U en son doux [s] (<em>garçon</em>).
+            </td></tr>
+            <tr><th>Exemples courants</th><td>été, café, père, mère, tête, garçon, Noël</td></tr>
+            <tr><th>Un peu de vocabulaire</th><td>
+              <table class="vocab-table">
+                <tr><th>Mot</th><th>Prononciation</th><th>Traduction (EN)</th></tr>
+                <tr><td>été</td><td>[ete]</td><td>summer</td></tr>
+                <tr><td>mère</td><td>[mɛʁ]</td><td>mother</td></tr>
+                <tr><td>garçon</td><td>[gaʁsɔ̃]</td><td>boy / waiter</td></tr>
+              </table>
+            </td></tr>
+            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- 3.2 -->
+    <div class="lesson-sample">
+      <div class="lesson-sample-header">
+        <h3>Leçon 3.2 — Les Voyelles Nasales Élémentaires & La Règle d'annulation</h3>
+      </div>
+      <div class="lesson-sample-body" style="overflow-x: auto;">
+        <div class="visual-frame" data-visual='{"type":"grapheme","main":"AN / ON / IN","ipa":"[ɑ̃] / [ɔ̃] / [ɛ̃]","words":["enfant","bonbon","matin"]}'></div>
+        <table class="mp-table">
+          <tbody>
+            <tr><th style="width: 25%;">Recette physique</th><td>L'air sort par la bouche ET le nez en même temps. Les lettres N et M ne se prononcent PAS comme consonnes, elles indiquent juste la nasalisation.</td></tr>
+            <tr><th>Règle d'annulation</th><td>Si N ou M est suivi d'une voyelle ou est doublé, le son NE PASSE PLUS par le nez ! (<em>ami, animal, bonne</em> ne sont PAS nasaux).</td></tr>
+            <tr><th>Sons fondamentaux</th><td>AN/EN = [ɑ̃] (<em>enfant</em>), ON = [ɔ̃] (<em>bonbon</em>), IN/UN = [ɛ̃] (<em>matin, un</em>).</td></tr>
+            <tr><th>Un peu de vocabulaire</th><td>
+              <table class="vocab-table">
+                <tr><th>Mot</th><th>Prononciation</th><th>Traduction (EN)</th></tr>
+                <tr><td>enfant</td><td>[ɑ̃fɑ̃]</td><td>child</td></tr>
+                <tr><td>bonbon</td><td>[bɔ̃bɔ̃]</td><td>candy</td></tr>
+                <tr><td>ami (non nasal)</td><td>[ami]</td><td>friend</td></tr>
+              </table>
+            </td></tr>
+            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- 3.3 -->
+    <div class="lesson-sample">
+      <div class="lesson-sample-header">
+        <h3>Leçon 3.3 — Première approche de la Liaison (les_enfants)</h3>
+      </div>
+      <div class="lesson-sample-body" style="overflow-x: auto;">
+        <div class="visual-frame" data-visual='{"type":"flow","words":["les","enfants"],"ipa":"[le.zɑ̃.fɑ̃]"}'></div>
+        <table class="mp-table">
+          <tbody>
+            <tr><th style="width: 25%;">Recette physique</th><td>Quand un mot se termine par une consonne muette (ex: S, T, D) et que le mot suivant commence par une voyelle, la consonne "se réveille" et se colle à la voyelle suivante !</td></tr>
+            <tr><th>Transformations de sons</th><td>S/X devient [z] (<em>les_enfants</em> = lé-Z-enfants) ; D devient [t] (<em>un grand_arbre</em> = un gran-T-arbre).</td></tr>
+            <tr><th>Exemples courants</th><td>les enfants, un grand ami, nous avons, vous avez</td></tr>
+            <tr><th>Un peu de vocabulaire</th><td>
+              <table class="vocab-table">
+                <tr><th>Groupe</th><th>Prononciation</th><th>Traduction (EN)</th></tr>
+                <tr><td>les enfants</td><td>[le.zɑ̃.fɑ̃]</td><td>the children</td></tr>
+                <tr><td>nous avons</td><td>[nu.zavɔ̃]</td><td>we have</td></tr>
+              </table>
+            </td></tr>
+            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
           </tbody>
         </table>
       </div>
