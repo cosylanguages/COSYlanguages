@@ -272,6 +272,65 @@
   .star-rating {
     color: #f59e0b;
   }
+
+  /* Cozy Interactive Level Tabs */
+  .cozy-level-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin: 1.5rem 0 2rem;
+    justify-content: center;
+  }
+
+  .cozy-tab-btn {
+    padding: 0.6rem 1.25rem;
+    border-radius: 50px;
+    border: 2px solid #c8e6c9;
+    background: #ffffff;
+    color: #1b4332;
+    font-weight: 700;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+  }
+
+  .cozy-tab-btn:hover, .cozy-tab-btn.active {
+    background: #2d6a4f;
+    color: #ffffff;
+    border-color: #2d6a4f;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(45, 106, 79, 0.2);
+  }
+
+  .level-tab-content {
+    display: none;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+
+  .level-tab-content.active {
+    display: block;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .cozy-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1.25rem;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.03);
+    transition: transform 0.2s ease, border-color 0.2s ease;
+  }
+
+  .cozy-card:hover {
+    border-color: #74c69d;
+    transform: translateY(-2px);
+  }
 </style>
 </head>
 <body data-lang-theme="fr">
@@ -380,6 +439,18 @@
     </div>
   </section>
 
+  <!-- INTERACTIVE LEVEL NAVIGATION SELECTOR -->
+  <div class="cozy-level-tabs" aria-label="Sélection de niveau CECRL">
+    <button class="cozy-tab-btn active" data-tab="a0a1">🟢 Level A0-A1</button>
+    <button class="cozy-tab-btn" data-tab="a2">🟡 Level A2</button>
+    <button class="cozy-tab-btn" data-tab="b1">🟠 Level B1</button>
+    <button class="cozy-tab-btn" data-tab="b2">🔴 Level B2</button>
+    <button class="cozy-tab-btn" data-tab="c1">🟣 Level C1</button>
+    <button class="cozy-tab-btn" data-tab="c2">🟤 Level C2</button>
+  </div>
+
+  <!-- LEVEL CONTENT CONTAINERS -->
+  <div id="tab-a0a1" class="level-tab-content active">
   <!-- NIVEAU A0-A1 FULL LESSONS -->
   <section id="a0-a1" class="mp-section">
     <h2><span class="level-tag lvl-a0a1">A0-A1</span> NIVEAU A0-A1 — « Les fondations » (Leçons complètes 1.1 à 8.3)</h2>
@@ -1142,6 +1213,7 @@
 
   </section>
 
+  <div id="tab-a2" class="level-tab-content">
   <!-- NIVEAU A2 -->
   <section id="a2" class="mp-section">
     <h2><span class="level-tag lvl-a2">A2</span> NIVEAU A2 — « Structures et enchaînements »</h2>
@@ -1224,7 +1296,9 @@
       </ul>
     </div>
   </section>
+  </div>
 
+  <div id="tab-b1" class="level-tab-content">
   <!-- NIVEAU B1 -->
   <section id="b1" class="mp-section">
     <h2><span class="level-tag lvl-b1">B1</span> NIVEAU B1 — « Finesse et exceptions »</h2>
@@ -1294,7 +1368,9 @@
       </ul>
     </div>
   </section>
+  </div>
 
+  <div id="tab-b2" class="level-tab-content">
   <!-- NIVEAU B2 -->
   <section id="b2" class="mp-section">
     <h2><span class="level-tag lvl-b2">B2</span> NIVEAU B2 — « Registres et nuances »</h2>
@@ -1356,7 +1432,9 @@
       </ul>
     </div>
   </section>
+  </div>
 
+  <div id="tab-c1" class="level-tab-content">
   <!-- NIVEAU C1 -->
   <section id="c1" class="mp-section">
     <h2><span class="level-tag lvl-c1">C1</span> NIVEAU C1 — « Style et littérature »</h2>
@@ -1398,7 +1476,9 @@
       </ul>
     </div>
   </section>
+  </div>
 
+  <div id="tab-c2" class="level-tab-content">
   <!-- NIVEAU C2 -->
   <section id="c2" class="mp-section">
     <h2><span class="level-tag lvl-c2">C2</span> NIVEAU C2 — « Expertise »</h2>
@@ -1434,6 +1514,7 @@
       </ul>
     </div>
   </section>
+  </div>
 
   <!-- SECTION 1: TROIS LEÇONS ENTIÈREMENT RÉDIGÉES (ÉCHANTILLONS NIVEAUX AVANCÉS) -->
   <section id="exemples" class="mp-section">
@@ -1532,5 +1613,26 @@
 <script src="../../js/core/engine.js"></script>
 <script src="../../js/core/i18n.js"></script>
 <script src="../../js/core/ui.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const tabBtns = document.querySelectorAll(".cozy-tab-btn");
+    const tabContents = document.querySelectorAll(".level-tab-content");
+
+    tabBtns.forEach(btn => {
+      btn.addEventListener("click", function() {
+        const targetLevel = this.getAttribute("data-tab");
+
+        tabBtns.forEach(b => b.classList.remove("active"));
+        tabContents.forEach(c => c.classList.remove("active"));
+
+        this.classList.add("active");
+        const targetEl = document.getElementById(`tab-${targetLevel}`);
+        if (targetEl) {
+          targetEl.classList.add("active");
+        }
+      });
+    });
+  });
+</script>
 </body>
 </html>
