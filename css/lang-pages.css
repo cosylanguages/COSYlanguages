@@ -340,3 +340,96 @@ body.theme-dark .sd-jump-link:hover, body.theme-dark .sd-jump-link.active {
   .hero h1{font-size:1.7rem;}
   .country-tabs{gap:.4rem;}
 }
+
+/* Interactive Unit Navigation Tabs */
+.mp-unit-tabs-nav {
+  display: flex;
+  gap: 0.4rem;
+  overflow-x: auto;
+  padding: 0.5rem 1.5rem;
+  background: var(--card-bg);
+  border-bottom: 1px solid var(--border);
+  scrollbar-width: none;
+}
+
+.mp-unit-tab {
+  font-weight: 700;
+  font-size: 0.82rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--sage-dark);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.18s ease;
+}
+
+.mp-unit-tab:hover, .mp-unit-tab.active {
+  background: var(--sage);
+  color: #ffffff;
+  border-color: var(--sage);
+}
+
+/* Cozy Marathon Decision Tree & Visual Styles */
+.mp-cozy-callout {
+  background: linear-gradient(135deg, #f0fdf4 0%, #d8f3dc 100%);
+  border-left: 5px solid #2d6a4f;
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+  box-shadow: var(--shadow-sm);
+}
+
+.mp-tree-card {
+  background: #ffffff;
+  border: 2px solid #74c69d;
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin: 1.5rem 0;
+  box-shadow: var(--shadow);
+}
+
+/* 12-Field Marathon Lesson Schema Styles */
+.mp-12field-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0;
+}
+
+.mp-field-box {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 1rem 1.1rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.mp-field-box.full-width {
+  grid-column: 1 / -1;
+}
+
+.mp-field-tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--sage-dark);
+  background: var(--sage-pale);
+  padding: 0.2rem 0.55rem;
+  border-radius: 4px;
+  margin-bottom: 0.4rem;
+}
+
+html[data-theme="dark"] .mp-field-tag, body.theme-dark .mp-field-tag {
+  color: #86efac;
+  background: var(--sage-pale);
+}
+
+.mp-field-content {
+  font-size: 0.92rem;
+  color: var(--card-text);
+  line-height: 1.6;
+}
