@@ -1,445 +1,314 @@
-(function() {
-    const lang = "en";
-    const data = [
-    {
-        "id": "A1-VERB-COM-111",
-        "word": "agree",
-        "emoji": "\ud83d\udc4d",
-        "subtext": "agree with someone / agree to do / agree on / I agree",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To have the same opinion as someone.",
-                "examples": [
-                    "I agree with you.",
-                    "We agree on the plan."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "agreed",
-        "v3": "agreed",
-        "group": "regular",
-        "transcription": "\u0259\u02c8gri",
-        "auxiliary": "have",
-        "v4": "agreeing",
-        "lang": "en",
-        "level": "starter",
-        "theme": "giving_opinions",
-        "sub_theme": null,
-        "antonyms": [
-            "disagree"
-        ],
-        "legacy_id": "A1-COMM-03",
-        "level_code": "A1",
-        "domain": "COMMUNICATION",
-        "subcategory": "Social",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Opinion_Phrases"
-    },
-    {
-        "id": "A1-VERB-COM-112",
-        "word": "believe",
-        "emoji": "\ud83d\ude4f",
-        "form": "verb",
-        "subtext": "believe in / I believe so",
-        "synonyms": [
-            "think",
-            "trust"
-        ],
-        "definitions": [
-            {
-                "text": "To think that something is true.",
-                "examples": [
-                    "I believe you."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "believed",
-        "v3": "believed",
-        "group": "regular",
-        "transcription": "b\u026a\u02c8liv",
-        "auxiliary": "have",
-        "v4": "believing",
-        "lang": "en",
-        "level": "starter",
-        "theme": "giving_opinions",
-        "sub_theme": null,
-        "antonyms": [
-            "doubt"
-        ],
-        "legacy_id": "A1-COMM-17",
-        "level_code": "A1",
-        "domain": "COMMUNICATION",
-        "subcategory": "Social",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Opinion_Phrases"
-    },
-    {
-        "id": "A1-VERB-COM-113",
-        "word": "can",
-        "emoji": "\ud83d\udcaa",
-        "form": "verb",
-        "transcription": "k\u00e6n",
-        "definitions": [
-            {
-                "text": "To be able to do something.",
-                "examples": [
-                    "I can speak English.",
-                    "Can you help me?"
-                ]
-            }
-        ],
-        "v2": "could",
-        "v3": "been able to",
-        "classification": "irregular",
-        "aspect": "stative",
-        "group": "regular",
-        "subtext": "ability, permission",
-        "auxiliary": "have",
-        "lang": "en",
-        "level": "starter",
-        "theme": "giving_opinions",
-        "sub_theme": null,
-        "legacy_id": "A1-COMM-20",
-        "level_code": "A1",
-        "domain": "COMMUNICATION",
-        "subcategory": "Social",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Opinion_Phrases"
-    },
-    {
-        "id": "A1-VERB-COM-114",
-        "word": "choose",
-        "emoji": "\ud83d\udc49",
-        "subtext": "choose between / choose to do / choose carefully / choose a career",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To select from options.",
-                "examples": [
-                    "He chose to work part-time to spend more time with family."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "chose",
-        "v3": "chosen",
-        "group": "regular",
-        "transcription": "\u02a7uz",
-        "auxiliary": "have",
-        "lang": "en",
-        "level": "starter",
-        "theme": "giving_opinions",
-        "sub_theme": null,
-        "antonyms": [
-            "reject"
-        ],
-        "legacy_id": "A1-COMM-21",
-        "level_code": "A1",
-        "domain": "COMMUNICATION",
-        "subcategory": "Social",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Opinion_Phrases"
-    },
-    {
-        "id": "A1-VERB-COM-115",
-        "word": "decide",
-        "emoji": "\u2696\ufe0f",
-        "subtext": "decide to do / decide on / hard to decide",
-        "synonyms": [
-            "make a decision"
-        ],
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To make a choice.",
-                "examples": [
-                    "She decided to change careers.",
-                    "He decides quickly."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "decided",
-        "v3": "decided",
-        "group": "regular",
-        "transcription": "\u02ccd\u026a\u02c8sa\u026ad",
-        "auxiliary": "have",
-        "v4": "deciding",
-        "lang": "en",
-        "level": "starter",
-        "theme": "giving_opinions",
-        "sub_theme": null,
-        "antonyms": [
-            "hesitate"
-        ],
-        "legacy_id": "A1-COMM-30",
-        "level_code": "A1",
-        "domain": "COMMUNICATION",
-        "subcategory": "Social",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Opinion_Phrases"
-    },
-    {
-        "id": "A1-VERB-COM-116",
-        "word": "depend",
-        "emoji": "\u2696\ufe0f",
-        "form": "verb",
-        "transcription": "d\u026a\u02c8pend",
-        "definitions": [
-            {
-                "text": "To be decided by or to change according to something else.",
-                "examples": [
-                    "It depends on the weather.",
-                    "Our plans depend on your answer."
-                ]
-            }
-        ],
-        "v2": "depended",
-        "v3": "depended",
-        "classification": "regular",
-        "group": "regular",
-        "subtext": "depend ON someone/something",
-        "auxiliary": "have",
-        "v4": "depending",
-        "lang": "en",
-        "level": "starter",
-        "theme": "giving_opinions",
-        "sub_theme": null,
-        "legacy_id": "A1-COMM-31",
-        "level_code": "A1",
-        "domain": "COMMUNICATION",
-        "subcategory": "Social",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Opinion_Phrases"
-    },
-    {
-        "id": "A1-VERB-COM-117",
-        "word": "describe",
-        "emoji": "\ud83d\udcac",
-        "form": "verb",
-        "subtext": "describe something / describe a person",
-        "definitions": [
-            {
-                "text": "To say or write what someone or something is like.",
-                "examples": [
-                    "Can you describe your house?"
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "described",
-        "v3": "described",
-        "group": "regular",
-        "transcription": "d\u026a\u02c8skra\u026ab",
-        "auxiliary": "have",
-        "v4": "describing",
-        "lang": "en",
-        "level": "starter",
-        "theme": "giving_opinions",
-        "sub_theme": null,
-        "antonyms": [
-            "summarize"
-        ],
-        "legacy_id": "A1-COMM-32",
-        "level_code": "A1",
-        "domain": "COMMUNICATION",
-        "subcategory": "Social",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Opinion_Phrases"
-    },
-    {
-        "id": "A1-VERB-COM-118",
-        "word": "let",
-        "emoji": "\ud83d\udd13",
-        "subtext": "let someone go / let it be / let someone know",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To allow something to happen or someone to do something.",
-                "examples": [
-                    "Let me help you with those bags.",
-                    "She let the dog out into the garden."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "let",
-        "v3": "let",
-        "group": "regular",
-        "transcription": "l\u025bt",
-        "auxiliary": "have",
-        "lang": "en",
-        "level": "starter",
-        "theme": "giving_opinions",
-        "sub_theme": null,
-        "legacy_id": "A1-COMM-50",
-        "level_code": "A1",
-        "domain": "COMMUNICATION",
-        "subcategory": "Social",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Opinion_Phrases"
-    },
-    {
-        "id": "A1-VERB-COM-119",
-        "word": "must",
-        "emoji": "\u26a0\ufe0f",
-        "form": "verb",
-        "transcription": "m\u028cst",
-        "definitions": [
-            {
-                "text": "Used to say that something is necessary or very important.",
-                "examples": [
-                    "I must go now.",
-                    "You must finish your work."
-                ]
-            }
-        ],
-        "v2": "had to",
-        "v3": "had to",
-        "classification": "irregular",
-        "aspect": "stative",
-        "group": "regular",
-        "subtext": "necessity, obligation",
-        "auxiliary": "have",
-        "lang": "en",
-        "level": "starter",
-        "theme": "giving_opinions",
-        "sub_theme": null,
-        "legacy_id": "A1-COMM-53",
-        "level_code": "A1",
-        "domain": "COMMUNICATION",
-        "subcategory": "Social",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Opinion_Phrases"
-    },
-    {
-        "id": "A1-VERB-COM-120",
-        "word": "prefer",
-        "emoji": "\ud83d\udc49",
-        "form": "verb",
-        "subtext": "like better / prefer tea to coffee",
-        "definitions": [
-            {
-                "text": "To like one thing more than another.",
-                "examples": [
-                    "I prefer tea to coffee."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "preferred",
-        "v3": "preferred",
-        "group": "regular",
-        "transcription": "pr\u026a\u02c8f\u0259r",
-        "auxiliary": "have",
-        "v4": "prefering",
-        "lang": "en",
-        "level": "starter",
-        "theme": "giving_opinions",
-        "sub_theme": null,
-        "antonyms": [
-            "dislike"
-        ],
-        "legacy_id": "A1-COMM-70",
-        "level_code": "A1",
-        "domain": "COMMUNICATION",
-        "subcategory": "Social",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Opinion_Phrases"
-    },
-    {
-        "id": "A1-VERB-COM-121",
-        "word": "sound",
-        "emoji": "\ud83d\udc42",
-        "form": "verb",
-        "subtext": "sound like / sound good",
-        "synonyms": [
-            "seem"
-        ],
-        "definitions": [
-            {
-                "text": "To seem like something from what you have heard or read.",
-                "examples": [
-                    "That sounds like a good idea."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "sounded",
-        "v3": "sounded",
-        "group": "regular",
-        "transcription": "sa\u028and",
-        "auxiliary": "have",
-        "v4": "sounding",
-        "lang": "en",
-        "level": "starter",
-        "theme": "giving_opinions",
-        "sub_theme": null,
-        "antonyms": [
-            "silence"
-        ],
-        "legacy_id": "A1-COMM-86",
-        "level_code": "A1",
-        "domain": "COMMUNICATION",
-        "subcategory": "Social",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Opinion_Phrases"
-    },
-    {
-        "id": "A1-VERB-COM-122",
-        "word": "think",
-        "emoji": "\ud83d\udcad",
-        "subtext": "think about someone/something / think about / of, think about / think of / think it is / think carefully",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To have a belief or opinion; to use the mind.",
-                "examples": [
-                    "I think it is a good idea.",
-                    "She thinks about her job."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "both",
-        "v2": "thought",
-        "v3": "thought",
-        "group": "regular",
-        "transcription": "\u03b8\u026a\u014bk",
-        "synonyms": [
-            "believe"
-        ],
-        "auxiliary": "have",
-        "lang": "en",
-        "level": "starter",
-        "theme": "giving_opinions",
-        "sub_theme": null,
-        "antonyms": [
-            "feel"
-        ],
-        "legacy_id": "A1-COMM-98",
-        "level_code": "A1",
-        "domain": "COMMUNICATION",
-        "subcategory": "Social",
-        "pos_section": "Verbs",
-        "sub_subcategory": "Opinion_Phrases"
-    }
+(function () {
+  const data = [
+  {
+    "id": "A1-VERB-COM-111",
+    "word": "agree",
+    "emoji": "👍",
+    "subtext": "agree with someone / agree to do / agree on / I agree",
+    "form": "verb",
+    "definitions": [
+      {
+        "text": "To have the same opinion as someone.",
+        "examples": [
+          "I agree with you.",
+          "We agree on the plan."
+        ]
+      }
+    ],
+    "classification": "regular",
+    "aspect": "stative",
+    "v2": "agreed",
+    "v3": "agreed",
+    "group": "regular",
+    "transcription": "əˈgri",
+    "auxiliary": "have",
+    "v4": "agreeing",
+    "lang": "en",
+    "level": "starter",
+    "theme": "giving_opinions",
+    "sub_theme": null,
+    "antonyms": [
+      "disagree"
+    ],
+    "legacy_id": "A1-COMM-03",
+    "level_code": "A1",
+    "domain": "COMMUNICATION",
+    "subcategory": "Social",
+    "pos_section": "Verbs",
+    "sub_subcategory": "Opinion_Phrases"
+  },
+  {
+    "id": "A1-VERB-COM-112",
+    "word": "believe",
+    "emoji": "🙏",
+    "form": "verb",
+    "subtext": "believe in / I believe so",
+    "synonyms": [
+      "think",
+      "trust"
+    ],
+    "definitions": [
+      {
+        "text": "To think that something is true.",
+        "examples": [
+          "I believe you."
+        ]
+      }
+    ],
+    "classification": "regular",
+    "aspect": "stative",
+    "v2": "believed",
+    "v3": "believed",
+    "group": "regular",
+    "transcription": "bɪˈliv",
+    "auxiliary": "have",
+    "v4": "believing",
+    "lang": "en",
+    "level": "starter",
+    "theme": "giving_opinions",
+    "sub_theme": null,
+    "antonyms": [
+      "doubt"
+    ],
+    "legacy_id": "A1-COMM-17",
+    "level_code": "A1",
+    "domain": "COMMUNICATION",
+    "subcategory": "Social",
+    "pos_section": "Verbs",
+    "sub_subcategory": "Opinion_Phrases"
+  },
+  {
+    "id": "A1-VERB-COM-113",
+    "word": "can",
+    "emoji": "💪",
+    "form": "verb",
+    "transcription": "kæn",
+    "definitions": [
+      {
+        "text": "To be able to do something.",
+        "examples": [
+          "I can speak English.",
+          "Can you help me?"
+        ]
+      }
+    ],
+    "v2": "could",
+    "v3": "been able to",
+    "classification": "irregular",
+    "aspect": "stative",
+    "group": "regular",
+    "subtext": "ability, permission",
+    "auxiliary": "have",
+    "lang": "en",
+    "level": "starter",
+    "theme": "giving_opinions",
+    "sub_theme": null,
+    "legacy_id": "A1-COMM-20",
+    "level_code": "A1",
+    "domain": "COMMUNICATION",
+    "subcategory": "Social",
+    "pos_section": "Verbs",
+    "sub_subcategory": "Opinion_Phrases"
+  },
+  {
+    "id": "A1-VERB-COM-114",
+    "word": "choose",
+    "emoji": "👉",
+    "subtext": "choose between / choose to do / choose carefully / choose a career",
+    "form": "verb",
+    "definitions": [
+      {
+        "text": "To select from options.",
+        "examples": [
+          "He chose to work part-time to spend more time with family."
+        ]
+      }
+    ],
+    "classification": "irregular",
+    "aspect": "action",
+    "v2": "chose",
+    "v3": "chosen",
+    "group": "regular",
+    "transcription": "ʧuz",
+    "auxiliary": "have",
+    "lang": "en",
+    "level": "starter",
+    "theme": "giving_opinions",
+    "sub_theme": null,
+    "antonyms": [
+      "reject"
+    ],
+    "legacy_id": "A1-COMM-21",
+    "level_code": "A1",
+    "domain": "COMMUNICATION",
+    "subcategory": "Social",
+    "pos_section": "Verbs",
+    "sub_subcategory": "Opinion_Phrases"
+  },
+  {
+    "id": "A1-VERB-COM-115",
+    "word": "decide",
+    "emoji": "⚖️",
+    "subtext": "decide to do / decide on / hard to decide",
+    "synonyms": [
+      "make a decision"
+    ],
+    "form": "verb",
+    "definitions": [
+      {
+        "text": "To make a choice.",
+        "examples": [
+          "She decided to change careers.",
+          "He decides quickly."
+        ]
+      }
+    ],
+    "classification": "regular",
+    "aspect": "stative",
+    "v2": "decided",
+    "v3": "decided",
+    "group": "regular",
+    "transcription": "ˌdɪˈsaɪd",
+    "auxiliary": "have",
+    "v4": "deciding",
+    "lang": "en",
+    "level": "starter",
+    "theme": "giving_opinions",
+    "sub_theme": null,
+    "antonyms": [
+      "hesitate"
+    ],
+    "legacy_id": "A1-COMM-30",
+    "level_code": "A1",
+    "domain": "COMMUNICATION",
+    "subcategory": "Social",
+    "pos_section": "Verbs",
+    "sub_subcategory": "Opinion_Phrases"
+  },
+  {
+    "id": "A1-VERB-COM-119",
+    "word": "must",
+    "emoji": "⚠️",
+    "form": "verb",
+    "transcription": "mʌst",
+    "definitions": [
+      {
+        "text": "Used to say that something is necessary or very important.",
+        "examples": [
+          "I must go now.",
+          "You must finish your work."
+        ]
+      }
+    ],
+    "v2": "had to",
+    "v3": "had to",
+    "classification": "irregular",
+    "aspect": "stative",
+    "group": "regular",
+    "subtext": "necessity, obligation",
+    "auxiliary": "have",
+    "lang": "en",
+    "level": "starter",
+    "theme": "giving_opinions",
+    "sub_theme": null,
+    "legacy_id": "A1-COMM-53",
+    "level_code": "A1",
+    "domain": "COMMUNICATION",
+    "subcategory": "Social",
+    "pos_section": "Verbs",
+    "sub_subcategory": "Opinion_Phrases"
+  },
+  {
+    "id": "A1-VERB-COM-121",
+    "word": "sound",
+    "emoji": "👂",
+    "form": "verb",
+    "subtext": "sound like / sound good",
+    "synonyms": [
+      "seem"
+    ],
+    "definitions": [
+      {
+        "text": "To seem like something from what you have heard or read.",
+        "examples": [
+          "That sounds like a good idea."
+        ]
+      }
+    ],
+    "classification": "regular",
+    "aspect": "stative",
+    "v2": "sounded",
+    "v3": "sounded",
+    "group": "regular",
+    "transcription": "saʊnd",
+    "auxiliary": "have",
+    "v4": "sounding",
+    "lang": "en",
+    "level": "starter",
+    "theme": "giving_opinions",
+    "sub_theme": null,
+    "antonyms": [
+      "silence"
+    ],
+    "legacy_id": "A1-COMM-86",
+    "level_code": "A1",
+    "domain": "COMMUNICATION",
+    "subcategory": "Social",
+    "pos_section": "Verbs",
+    "sub_subcategory": "Opinion_Phrases"
+  },
+  {
+    "id": "A1-VERB-COM-122",
+    "word": "think",
+    "emoji": "💭",
+    "subtext": "think about someone/something / think about / of, think about / think of / think it is / think carefully",
+    "form": "verb",
+    "definitions": [
+      {
+        "text": "To have a belief or opinion; to use the mind.",
+        "examples": [
+          "I think it is a good idea.",
+          "She thinks about her job."
+        ]
+      }
+    ],
+    "classification": "irregular",
+    "aspect": "both",
+    "v2": "thought",
+    "v3": "thought",
+    "group": "regular",
+    "transcription": "θɪŋk",
+    "synonyms": [
+      "believe"
+    ],
+    "auxiliary": "have",
+    "lang": "en",
+    "level": "starter",
+    "theme": "giving_opinions",
+    "sub_theme": null,
+    "antonyms": [
+      "feel"
+    ],
+    "legacy_id": "A1-COMM-98",
+    "level_code": "A1",
+    "domain": "COMMUNICATION",
+    "subcategory": "Social",
+    "pos_section": "Verbs",
+    "sub_subcategory": "Opinion_Phrases"
+  }
 ];
 
-    if (typeof window !== "undefined") {
-        if (!window.vocabularyData) window.vocabularyData = {};
-        if (!window.vocabularyData[lang]) window.vocabularyData[lang] = [];
-        window.vocabularyData[lang].push(...data);
+  if (typeof window !== "undefined") {
+    if (!window.vocabularyData) {
+      window.vocabularyData = {};
     }
+    if (!window.vocabularyData.en) {
+      window.vocabularyData.en = [];
+    }
+    window.vocabularyData.en.push(...data);
+  }
+
+  if (typeof module !== "undefined" && module.exports) {
+    module.exports = data;
+  }
 })();
