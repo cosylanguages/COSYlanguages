@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🟣 Marathon de Prononciation — Niveau C1 Style & Poésie · COSY</title>
+<meta name="description" content="Marathon de prononciation française C1 : versification, le e muet en poésie, diérèse, synérèse et prosodie.">
+<link rel="stylesheet" href="../../../css/tokens.css">
+<link rel="stylesheet" href="../../../css/base.css">
+<link rel="stylesheet" href="../../../css/components.css">
+<link rel="stylesheet" href="../../../css/layout.css">
+<link rel="stylesheet" href="../../../css/lang-pages.css">
+<link rel="stylesheet" href="../../../css/lang-accents.css">
+<link rel="stylesheet" href="../../../css/mobile.css">
+<style>
+  :root {
+    --mp-primary: #4a148c;
+    --mp-primary-light: #f3e5f5;
+    --mp-accent: #6a1b9a;
+  }
+
+  body {
+    font-family: 'Nunito', system-ui, -apple-system, sans-serif;
+    color: #2c3e50;
+    background-color: #fcfdfc;
+    line-height: 1.65;
+  }
+
+  .mp-hero {
+    background: linear-gradient(135deg, #4a148c 0%, #6a1b9a 50%, #8e24aa 100%);
+    color: #ffffff;
+    padding: 3rem 1.5rem 2rem;
+    border-bottom: 4px solid #e1bee7;
+    text-align: center;
+  }
+
+  .mp-hero h1 {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+  }
+
+  .mp-hero p.subtitle {
+    font-size: 1.14rem;
+    color: #f3e5f5;
+    max-width: 800px;
+    margin: 0 auto 1.25rem;
+  }
+
+  .mp-badges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+  }
+
+  .mp-badge {
+    background: rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    padding: 0.3rem 0.75rem;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+
+  .sd-sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+
+  .sd-jump-links {
+    display: flex;
+    gap: 0.5rem;
+    overflow-x: auto;
+    padding: 0.75rem 1.5rem;
+    white-space: nowrap;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .sd-jump-link {
+    color: #4a148c;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.88rem;
+    padding: 0.3rem 0.7rem;
+    border-radius: 6px;
+    background: #f3e5f5;
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .sd-jump-link:hover, .sd-jump-link.active {
+    background: #4a148c;
+    color: #ffffff;
+  }
+
+  .mp-container {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+  }
+
+  .mp-section {
+    background: #ffffff;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    padding: 2rem;
+    margin-bottom: 2.5rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+  }
+
+  .mp-section h2 {
+    color: #4a148c;
+    font-family: 'Lora', Georgia, serif;
+    font-size: 1.7rem;
+    margin-top: 0;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #e1bee7;
+  }
+
+  .mp-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.25rem 0;
+    font-size: 0.95rem;
+  }
+
+  .mp-table th, .mp-table td {
+    padding: 0.85rem 1rem;
+    border: 1px solid #e2e8f0;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .mp-table th {
+    background-color: #f3e5f5;
+    color: #4a148c;
+    font-weight: 700;
+  }
+
+  .unit-card {
+    background: #fcf8ff;
+    border-left: 4px solid #6a1b9a;
+    border-radius: 0 8px 8px 0;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .unit-card h4 {
+    margin: 0 0 0.5rem;
+    color: #4a148c;
+    font-size: 1.1rem;
+  }
+
+  .lesson-sample {
+    background: #ffffff;
+    border: 2px solid #8e24aa;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    overflow: hidden;
+  }
+
+  .lesson-sample-header {
+    background: #4a148c;
+    color: #ffffff;
+    padding: 1rem 1.5rem;
+  }
+
+  .lesson-sample-header h3 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 1.25rem;
+  }
+
+  .lesson-sample-body {
+    padding: 1.25rem 1.5rem;
+  }
+
+  .star-rating { color: #f59e0b; }
+
+  .level-nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f3e5f5;
+    border: 1px solid #e1bee7;
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .level-nav-bar a {
+    color: #4a148c;
+    font-weight: 700;
+    text-decoration: none;
+  }
+</style>
+</head>
+<body data-lang-theme="fr">
+
+<nav id="cosy-nav"></nav>
+
+<header class="sd-sticky-header">
+  <nav class="sd-jump-links" aria-label="Navigation Marathon">
+    <a href="../marathon-prononciation.html" class="sd-jump-link">← Hub Marathon</a>
+    <a href="a0-a1.html" class="sd-jump-link">🟢 A0-A1 Fondations</a>
+    <a href="a2.html" class="sd-jump-link">🟡 A2 Structures</a>
+    <a href="b1.html" class="sd-jump-link">🟠 B1 Liaisons</a>
+    <a href="b2.html" class="sd-jump-link">🔴 B2 Registres</a>
+    <a href="c1.html" class="sd-jump-link active">🟣 C1 Poésie</a>
+    <a href="c2.html" class="sd-jump-link">⚫ C2 Expertise</a>
+  </nav>
+</header>
+
+<header class="mp-hero">
+  <div class="mp-badges">
+    <span class="mp-badge">🟣 CECRL C1</span>
+    <span class="mp-badge">Style & Poésie</span>
+    <span class="mp-badge">Scansion & Prosodie</span>
+  </div>
+  <h1>🟣 NIVEAU C1 — Finesse Stylistique, Poésie et Prosodie</h1>
+  <p class="subtitle">Explorez les règles métriques de la versification classique, la scansion alexandrine, la diérèse et les doublets étymologiques.</p>
+</header>
+
+<main class="mp-container">
+
+  <section class="mp-section">
+    <h2>Unité 1 — Le e muet en poésie classique et scansion</h2>
+    <div class="lesson-sample">
+      <div class="lesson-sample-header">
+        <h3>Leçon 1.1 — La règle métrique du e muet</h3>
+      </div>
+      <div class="lesson-sample-body" style="overflow-x: auto;">
+        <table class="mp-table">
+          <tbody>
+            <tr><th style="width: 25%;">Règle générale</th><td>• Devant consonne → le <em>e</em> compte pour une vraie syllabe prononcée. <br>• Devant voyelle ou en fin de vers → le <em>e</em> s'élide et ne compte pas.</td></tr>
+            <tr><th>Pourquoi ?</th><td>Fixé au XVIIe siècle pour maintenir le nombre exact de pieds dans l'alexandrin (12 syllabes).</td></tr>
+            <tr><th>Exemple classique</th><td><em>« La vi / e_est / brè / ve »</em> vs <em>« Un / pe / ti / t_en / fan / t_ap / por / te / son / li / vre »</em></td></tr>
+            <tr><th>💡 Astuce</th><td>« En poésie : E devant consonne se chante ; E devant voyelle s'efface ! »</td></tr>
+            <tr><th>À retenir</th><td>En vers classique, le e muet retrouve sa valeur syllabique pleine devant consonne.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 2 — Diérèse et synérèse</h4>
+      <ul>
+        <li><strong>2.1 Diérèse stylistique :</strong> Prononciation poétique en deux syllabes distinctes d'un groupe habituellement fondu (ex. <em>li-on</em> en 2 syllabes au lieu d'une) pour respecter la métrique du vers.</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 3 — Doublets étymologiques</h4>
+      <ul>
+        <li><strong>3.1 Évolution populaire vs savante :</strong> Un même mot latin a donné deux formes en français : une populaire usée à l'oral (<em>frêle</em>) et une savante plus proche du latin (<em>fragile</em>).</li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="level-nav-bar">
+    <a href="b2.html">← Niveau B2 Registres</a>
+    <a href="c2.html">Niveau C2 Expertise →</a>
+  </div>
+
+</main>
+
+<footer class="site-footer" style="background: #4a148c; color: #f3e5f5; padding: 2rem 1.5rem; text-align: center; margin-top: 3rem;">
+  <p>© 2026 COSYlanguages · Marathon de Prononciation Française C1</p>
+</footer>
+
+<script src="../../../js/data/languages.js"></script>
+<script src="../../../js/core/engine.js"></script>
+<script src="../../../js/core/i18n.js"></script>
+<script src="../../../js/core/ui.js"></script>
+</body>
+</html>

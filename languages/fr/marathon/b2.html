@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🔴 Marathon de Prononciation — Niveau B2 Registres & Lettres internes · COSY</title>
+<meta name="description" content="Marathon de prononciation française B2 : consonnes muettes internes, contractions de l'oral rapide, assimilation et accents régionaux.">
+<link rel="stylesheet" href="../../../css/tokens.css">
+<link rel="stylesheet" href="../../../css/base.css">
+<link rel="stylesheet" href="../../../css/components.css">
+<link rel="stylesheet" href="../../../css/layout.css">
+<link rel="stylesheet" href="../../../css/lang-pages.css">
+<link rel="stylesheet" href="../../../css/lang-accents.css">
+<link rel="stylesheet" href="../../../css/mobile.css">
+<style>
+  :root {
+    --mp-primary: #bf360c;
+    --mp-primary-light: #fbe9e7;
+    --mp-accent: #d84315;
+  }
+
+  body {
+    font-family: 'Nunito', system-ui, -apple-system, sans-serif;
+    color: #2c3e50;
+    background-color: #fcfdfc;
+    line-height: 1.65;
+  }
+
+  .mp-hero {
+    background: linear-gradient(135deg, #bf360c 0%, #d84315 50%, #e64a19 100%);
+    color: #ffffff;
+    padding: 3rem 1.5rem 2rem;
+    border-bottom: 4px solid #ffccbc;
+    text-align: center;
+  }
+
+  .mp-hero h1 {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+  }
+
+  .mp-hero p.subtitle {
+    font-size: 1.14rem;
+    color: #fbe9e7;
+    max-width: 800px;
+    margin: 0 auto 1.25rem;
+  }
+
+  .mp-badges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+  }
+
+  .mp-badge {
+    background: rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    padding: 0.3rem 0.75rem;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+
+  .sd-sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+
+  .sd-jump-links {
+    display: flex;
+    gap: 0.5rem;
+    overflow-x: auto;
+    padding: 0.75rem 1.5rem;
+    white-space: nowrap;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .sd-jump-link {
+    color: #bf360c;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.88rem;
+    padding: 0.3rem 0.7rem;
+    border-radius: 6px;
+    background: #fbe9e7;
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .sd-jump-link:hover, .sd-jump-link.active {
+    background: #bf360c;
+    color: #ffffff;
+  }
+
+  .mp-container {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+  }
+
+  .mp-section {
+    background: #ffffff;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    padding: 2rem;
+    margin-bottom: 2.5rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+  }
+
+  .mp-section h2 {
+    color: #bf360c;
+    font-family: 'Lora', Georgia, serif;
+    font-size: 1.7rem;
+    margin-top: 0;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #ffccbc;
+  }
+
+  .mp-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.25rem 0;
+    font-size: 0.95rem;
+  }
+
+  .mp-table th, .mp-table td {
+    padding: 0.85rem 1rem;
+    border: 1px solid #e2e8f0;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .mp-table th {
+    background-color: #fbe9e7;
+    color: #bf360c;
+    font-weight: 700;
+  }
+
+  .unit-card {
+    background: #fffafa;
+    border-left: 4px solid #d84315;
+    border-radius: 0 8px 8px 0;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .unit-card h4 {
+    margin: 0 0 0.5rem;
+    color: #bf360c;
+    font-size: 1.1rem;
+  }
+
+  .lesson-sample {
+    background: #ffffff;
+    border: 2px solid #d84315;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    overflow: hidden;
+  }
+
+  .lesson-sample-header {
+    background: #d84315;
+    color: #ffffff;
+    padding: 1rem 1.5rem;
+  }
+
+  .lesson-sample-header h3 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 1.25rem;
+  }
+
+  .lesson-sample-body {
+    padding: 1.25rem 1.5rem;
+  }
+
+  .star-rating { color: #f59e0b; }
+
+  .level-nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fbe9e7;
+    border: 1px solid #ffccbc;
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .level-nav-bar a {
+    color: #bf360c;
+    font-weight: 700;
+    text-decoration: none;
+  }
+</style>
+</head>
+<body data-lang-theme="fr">
+
+<nav id="cosy-nav"></nav>
+
+<header class="sd-sticky-header">
+  <nav class="sd-jump-links" aria-label="Navigation Marathon">
+    <a href="../marathon-prononciation.html" class="sd-jump-link">← Hub Marathon</a>
+    <a href="a0-a1.html" class="sd-jump-link">🟢 A0-A1 Fondations</a>
+    <a href="a2.html" class="sd-jump-link">🟡 A2 Structures</a>
+    <a href="b1.html" class="sd-jump-link">🟠 B1 Liaisons</a>
+    <a href="b2.html" class="sd-jump-link active">🔴 B2 Registres</a>
+    <a href="c1.html" class="sd-jump-link">🟣 C1 Poésie</a>
+    <a href="c2.html" class="sd-jump-link">⚫ C2 Expertise</a>
+  </nav>
+</header>
+
+<header class="mp-hero">
+  <div class="mp-badges">
+    <span class="mp-badge">🔴 CECRL B2</span>
+    <span class="mp-badge">Registres & Oral Rapide</span>
+    <span class="mp-badge">Consonnes Internes & Assimilation</span>
+  </div>
+  <h1>🔴 NIVEAU B2 — Registres et Lettres Internes Silencieuses</h1>
+  <p class="subtitle">Comprenez le français parlé spontané, domptez les pièges orthographiques internes et découvrez la richesse des accents francophones.</p>
+</header>
+
+<main class="mp-container">
+
+  <section class="mp-section">
+    <h2>Unité 1 — Les consonnes muettes internes</h2>
+    <div class="lesson-sample">
+      <div class="lesson-sample-header">
+        <h3>Leçon 1.1 — Lettres internes silencieuses étymologiques</h3>
+      </div>
+      <div class="lesson-sample-body" style="overflow-x: auto;">
+        <table class="mp-table">
+          <tbody>
+            <tr><th style="width: 25%;">Règle P muet</th><td>Le P est totalement muet dans : <em>scul<strong>p</strong>ture</em> [skyltyʁ], <em>com<strong>p</strong>ter</em> [kɔ̃te], <em>se<strong>p</strong>t</em> [sɛt], <em>cor<strong>p</strong>s</em> [kɔʁ].</td></tr>
+            <tr><th>Règle M muet</th><td>Le M ne se prononce pas dans : <em>auto<strong>m</strong>ne</em> [otɔn], <em>condam<strong>n</strong>er</em> [kɔ̃dane].</td></tr>
+            <tr><th>Règle B / G muets</th><td>Le B est muet dans <em>plom<strong>b</strong></em> [plɔ̃] ; le G est muet dans <em>san<strong>g</strong></em> [sɑ̃], <em>lon<strong>g</strong></em> [lɔ̃].</td></tr>
+            <tr><th>💡 Astuce mnémotechnique</th><td>« Sept p'tits sculpteurs comptent leur corps sans prononcer leur P ! »</td></tr>
+            <tr><th>Vocabulaire clé</th><td>sculpture, compter, sept, corps, automne, condamner, plomb, sang</td></tr>
+            <tr><th>Fréquence</th><td><span class="star-rating">★★★★☆</span></td></tr>
+            <tr><th>À retenir</th><td>Le p de sculpture, compte, sept et le m d'automne sont silencieux.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <h2>Unité 2 — Contractions de l'oral rapide</h2>
+    <div class="lesson-sample">
+      <div class="lesson-sample-header">
+        <h3>Leçon 2.1 — Effacement du « ne » et réduction des pronoms</h3>
+      </div>
+      <div class="lesson-sample-body" style="overflow-x: auto;">
+        <table class="mp-table">
+          <tbody>
+            <tr><th style="width: 25%;">Contractions courantes</th><td>• « Je ne sais pas » → [ʃsɛpa] (ch'sais pas) <br>• « Tu es » → [tɛ] (t'es) <br>• Suppression du « ne » : <em>J'sais pas, il vient pas</em></td></tr>
+            <tr><th>Pourquoi ?</th><td>Économie musculaire et accélération du débit à l'oral spontané.</td></tr>
+            <tr><th>💡 Astuce mnémotechnique</th><td>« À l'oral rapide : le NE s'envole, le JE devient CH devant S ! »</td></tr>
+            <tr><th>Vocabulaire clé</th><td>ch'sais pas, t'es, y a, c'est pas, il vient pas</td></tr>
+            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
+            <tr><th>À retenir</th><td>L'oral spontané compresse la phrase en blocs consonantiques denses.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 3 — Accentuation des mots d'emprunt</h4>
+      <ul>
+        <li><strong>3.1 Digestion phonétique :</strong> Les mots empruntés à l'anglais (<em>week-end, parking, smartphone</em>) prennent <strong>l'accent tonique français sur la dernière syllabe</strong> (ex. <em>week-END</em>).</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 4 — Phénomènes d'assimilation et sonorisation</h4>
+      <ul>
+        <li>• <em>obtenir</em> → le <em>b</em> sonore devant <em>t</em> se dévoise en [p] : [ɔptəniʁ].</li>
+        <li>• <em>absurde</em> → le <em>b</em> devant <em>s</em> se lit [p] : [apsyʁd].</li>
+        <li>• <em>anecdote</em> → le <em>c</em> [k] devant <em>d</em> se sonorise en [ɡ] : [anɛɡdɔt].</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 5 — Aperçu des accents régionaux et de la francophonie</h4>
+      <ul>
+        <li><strong>5.1 Accent méridional (Sud de la France) :</strong> Prononciation régulière des <em>e</em> muets finaux (ex. <em>une maison-ne</em>).</li>
+        <li><strong>5.2 Français du Québec :</strong> Affrication du <em>t/d</em> devant <em>i/u</em> (ex. <em>tu</em> prononcé proche de <em>tsu</em>).</li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="level-nav-bar">
+    <a href="b1.html">← Niveau B1 Liaisons</a>
+    <a href="c1.html">Niveau C1 Poésie →</a>
+  </div>
+
+</main>
+
+<footer class="site-footer" style="background: #bf360c; color: #fbe9e7; padding: 2rem 1.5rem; text-align: center; margin-top: 3rem;">
+  <p>© 2026 COSYlanguages · Marathon de Prononciation Française B2</p>
+</footer>
+
+<script src="../../../js/data/languages.js"></script>
+<script src="../../../js/core/engine.js"></script>
+<script src="../../../js/core/i18n.js"></script>
+<script src="../../../js/core/ui.js"></script>
+</body>
+</html>

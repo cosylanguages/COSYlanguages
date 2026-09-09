@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🟡 Marathon de Prononciation — Niveau A2 Structures · COSY</title>
+<meta name="description" content="Marathon de prononciation française A2 : structures, digrammes, semi-voyelles, H muet/aspiré et groupe ILL.">
+<link rel="stylesheet" href="../../../css/tokens.css">
+<link rel="stylesheet" href="../../../css/base.css">
+<link rel="stylesheet" href="../../../css/components.css">
+<link rel="stylesheet" href="../../../css/layout.css">
+<link rel="stylesheet" href="../../../css/lang-pages.css">
+<link rel="stylesheet" href="../../../css/lang-accents.css">
+<link rel="stylesheet" href="../../../css/mobile.css">
+<style>
+  :root {
+    --mp-primary: #1b5e20;
+    --mp-primary-light: #e8f5e9;
+    --mp-accent: #2e7d32;
+    --mp-gold: #d4af37;
+    --mp-border: #c8e6c9;
+  }
+
+  body {
+    font-family: 'Nunito', system-ui, -apple-system, sans-serif;
+    color: #2c3e50;
+    background-color: #fcfdfc;
+    line-height: 1.65;
+  }
+
+  .mp-hero {
+    background: linear-gradient(135deg, #1b5e20 0%, #2e7d32 50%, #43a047 100%);
+    color: #ffffff;
+    padding: 3rem 1.5rem 2rem;
+    border-bottom: 4px solid #81c784;
+    text-align: center;
+  }
+
+  .mp-hero h1 {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+  }
+
+  .mp-hero p.subtitle {
+    font-size: 1.14rem;
+    color: #e8f5e9;
+    max-width: 800px;
+    margin: 0 auto 1.25rem;
+  }
+
+  .mp-badges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+  }
+
+  .mp-badge {
+    background: rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    padding: 0.3rem 0.75rem;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+
+  .sd-sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+
+  .sd-jump-links {
+    display: flex;
+    gap: 0.5rem;
+    overflow-x: auto;
+    padding: 0.75rem 1.5rem;
+    white-space: nowrap;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .sd-jump-link {
+    color: #1b5e20;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.88rem;
+    padding: 0.3rem 0.7rem;
+    border-radius: 6px;
+    background: #f0fdf4;
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .sd-jump-link:hover, .sd-jump-link.active {
+    background: #1b5e20;
+    color: #ffffff;
+  }
+
+  .mp-container {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+  }
+
+  .mp-section {
+    background: #ffffff;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    padding: 2rem;
+    margin-bottom: 2.5rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+  }
+
+  .mp-section h2 {
+    color: #1b5e20;
+    font-family: 'Lora', Georgia, serif;
+    font-size: 1.7rem;
+    margin-top: 0;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #c8e6c9;
+  }
+
+  .mp-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.25rem 0;
+    font-size: 0.95rem;
+  }
+
+  .mp-table th, .mp-table td {
+    padding: 0.85rem 1rem;
+    border: 1px solid #e2e8f0;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .mp-table th {
+    background-color: #f0fdf4;
+    color: #1b5e20;
+    font-weight: 700;
+  }
+
+  .unit-card {
+    background: #fafdfb;
+    border-left: 4px solid #2e7d32;
+    border-radius: 0 8px 8px 0;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .unit-card h4 {
+    margin: 0 0 0.5rem;
+    color: #1b5e20;
+    font-size: 1.1rem;
+  }
+
+  .lesson-sample {
+    background: #ffffff;
+    border: 2px solid #81c784;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    overflow: hidden;
+  }
+
+  .lesson-sample-header {
+    background: #1b5e20;
+    color: #ffffff;
+    padding: 1rem 1.5rem;
+  }
+
+  .lesson-sample-header h3 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 1.25rem;
+  }
+
+  .lesson-sample-body {
+    padding: 1.25rem 1.5rem;
+  }
+
+  .star-rating { color: #f59e0b; }
+
+  .level-nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f0fdf4;
+    border: 1px solid #b7e4c7;
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .level-nav-bar a {
+    color: #1b5e20;
+    font-weight: 700;
+    text-decoration: none;
+  }
+</style>
+</head>
+<body data-lang-theme="fr">
+
+<nav id="cosy-nav"></nav>
+
+<header class="sd-sticky-header">
+  <nav class="sd-jump-links" aria-label="Navigation Marathon">
+    <a href="../marathon-prononciation.html" class="sd-jump-link">← Hub Marathon</a>
+    <a href="a0-a1.html" class="sd-jump-link">🟢 A0-A1 Fondations</a>
+    <a href="a2.html" class="sd-jump-link active">🟡 A2 Structures</a>
+    <a href="b1.html" class="sd-jump-link">🟠 B1 Liaisons</a>
+    <a href="b2.html" class="sd-jump-link">🔴 B2 Registres</a>
+    <a href="c1.html" class="sd-jump-link">🟣 C1 Poésie</a>
+    <a href="c2.html" class="sd-jump-link">⚫ C2 Expertise</a>
+  </nav>
+</header>
+
+<header class="mp-hero">
+  <div class="mp-badges">
+    <span class="mp-badge">🟡 CECRL A2</span>
+    <span class="mp-badge">Structures & Contextes</span>
+    <span class="mp-badge">Semi-voyelles & Digrammes</span>
+  </div>
+  <h1>🟡 NIVEAU A2 — Structures et Complexités Contextuelles</h1>
+  <p class="subtitle">Accélérez votre lecture, maîtrisez les mariages de voyelles et comprenez la logique du H muet et du groupe ILL.</p>
+</header>
+
+<main class="mp-container">
+
+  <section class="mp-section">
+    <h2>Unité 0 — Digrammes et trigrammes vocaliques</h2>
+    <div class="unit-card">
+      <h4>Les mariages de voyelles essentiels</h4>
+      <div style="overflow-x: auto; margin-top: 0.5rem;">
+        <table class="mp-table">
+          <thead>
+            <tr>
+              <th>Mariage écrit</th>
+              <th>Son (API)</th>
+              <th>Exemple clair</th>
+              <th>Astuce / Règle de lecture</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td><strong>ai, ei</strong></td><td>[ɛ]</td><td>m<strong>ai</strong>s, n<strong>ei</strong>ge, ch<strong>ai</strong>se</td><td>Se lit comme un <em>e</em> ouvert (è).</td></tr>
+            <tr><td><strong>au, eau</strong></td><td>[o]</td><td>j<strong>au</strong>ne, <strong>eau</strong>, ch<strong>â</strong>t<strong>eau</strong></td><td>Se lit toujours comme un <em>o</em> fermé et pur.</td></tr>
+            <tr><td><strong>eu, œu</strong></td><td>[ø] / [œ]</td><td>p<strong>eu</strong>, s<strong>œu</strong>r, c<strong>œu</strong>r</td><td>Lèvres très arrondies en avant.</td></tr>
+            <tr><td><strong>oi</strong></td><td>[wa]</td><td>m<strong>oi</strong>, t<strong>oi</strong>, r<strong>oi</strong>, b<strong>oi</strong>s</td><td>Impulsion « wa ».</td></tr>
+            <tr><td><strong>oin</strong></td><td>[wɛ̃]</td><td>l<strong>oin</strong>, c<strong>oin</strong>, shamp<strong>oin</strong>g</td><td>« wa » + son nasal IN [ɛ̃].</td></tr>
+            <tr><td><strong>ou</strong></td><td>[u]</td><td>j<strong>ou</strong>r, r<strong>ou</strong>ge, v<strong>ou</strong>s</td><td>Son « oo » classique. Ne pas confondre avec <em>u</em> [y] !</td></tr>
+            <tr><td><strong>ui</strong></td><td>[ɥi]</td><td>h<strong>ui</strong>t, n<strong>ui</strong>t, fr<strong>ui</strong>t</td><td>Glissement rapide de <em>u</em> vers <em>i</em>.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="lesson-sample">
+      <div class="lesson-sample-header">
+        <h3>Unité 1 — Les semi-voyelles ([j], [w], [ɥ])</h3>
+      </div>
+      <div class="lesson-sample-body" style="overflow-x: auto;">
+        <table class="mp-table">
+          <tbody>
+            <tr><th style="width: 25%;">Définition</th><td>Une voyelle (i, ou, u) compressée devant une autre voyelle prononcée.</td></tr>
+            <tr><th>Règle</th><td>• i/y + voyelle → [j] (yod) : <em>pied, fille, yeux</em> <br>• ou + voyelle → [w] : <em>oui, jouer, moi</em> <br>• u + voyelle → [ɥ] : <em>huit, nuit, nuage</em></td></tr>
+            <tr><th>Exemples courants</th><td>p<strong>i</strong>ed [pje], f<strong>i</strong>lle [fij], <strong>ou</strong>i [wi], j<strong>ou</strong>er [zwe], h<strong>u</strong>it [ɥit], n<strong>u</strong>age [nɥaʒ]</td></tr>
+            <tr><th>💡 Astuce mnémotechnique</th><td>« I, OU et U se glissent comme des patineurs devant une autre voyelle ! »</td></tr>
+            <tr><th>Vocabulaire clé</th><td>pied, fille, yeux, oui, jouer, moi, huit, nuit, nuage</td></tr>
+            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
+            <tr><th>À retenir</th><td>i, ou, u + voyelle = glissement immédiat en une seule syllabe.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 2 — Consonnes composées et digrammes</h4>
+      <ul>
+        <li><strong>2.1 CH :</strong> Se lit toujours [ʃ] comme « sh » (ex. <em><strong>ch</strong>at, <strong>ch</strong>âteau</em>).</li>
+        <li><strong>2.2 GN :</strong> Son palatal doux [ɲ] (ex. <em>mon<strong>gn</strong>e, campa<strong>gn</strong>e</em>).</li>
+        <li><strong>2.3 PH :</strong> Se lit [f] (ex. <em><strong>ph</strong>oto, <strong>ph</strong>onétique</em>).</li>
+        <li><strong>2.4 TH :</strong> Le <em>h</em> est muet, se lit un simple [t] (ex. <em><strong>th</strong>é, <strong>th</strong>éâtre</em>).</li>
+        <li><strong>2.5 QU :</strong> Se lit un simple [k] (ex. <em><strong>qu</strong>i, <strong>qu</strong>estion</em>).</li>
+      </ul>
+    </div>
+
+    <div class="lesson-sample">
+      <div class="lesson-sample-header">
+        <h3>Unité 3 — Le groupe ILL et ses 4 exceptions</h3>
+      </div>
+      <div class="lesson-sample-body" style="overflow-x: auto;">
+        <table class="mp-table">
+          <tbody>
+            <tr><th style="width: 25%;">Définition</th><td>Le groupe -ill se lit [j] après voyelle, mais connaît 4 exceptions majeures.</td></tr>
+            <tr><th>Règle générale</th><td>Après voyelle, <em>ill</em> = [j] (ex. <em>f<strong>ill</strong>e</em> [fij], <em>trava<strong>il</strong></em> [tʁavaj], <em>sole<strong>il</strong></em> [sɔlɛj]).</td></tr>
+            <tr><th>Exceptions majeures en [il]</th><td><strong>Ville, mille, tranquille, Lille</strong> (et leurs dérivés : village, million, tranquillité).</td></tr>
+            <tr><th>💡 Astuce mnémotechnique</th><td>« <strong>Ville, mille, tranquille</strong>, mon village à <strong>Lille</strong> n'est pas si tranquille »</td></tr>
+            <tr><th>Vocabulaire clé</th><td>fille, famille, soleil, ville, mille, tranquille, Lille, village</td></tr>
+            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
+            <tr><th>À retenir</th><td>ill = [j] partout, sauf dans Ville, mille, tranquille, Lille.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 4 — Le e caduc et la loi des 3 consonnes</h4>
+      <ul>
+        <li><strong>4.1 Règle simplifiée :</strong> On garde le <em>e</em> instable s'il évite de prononcer 3 consonnes consécutives à l'oral. Sinon, il tombe ! (ex. <em>je ne sais pas</em> → <em>j'n'sais pas</em>).</li>
+      </ul>
+    </div>
+
+    <div class="lesson-sample">
+      <div class="lesson-sample-header">
+        <h3>Unité 5 — Le H muet vs H aspiré</h3>
+      </div>
+      <div class="lesson-sample-body" style="overflow-x: auto;">
+        <table class="mp-table">
+          <tbody>
+            <tr><th style="width: 25%;">Définition</th><td>Deux catégories de H invisibles à l'oreille mais aux effets opposés.</td></tr>
+            <tr><th>Règle H muet</th><td>Vitre transparente : élision et liaison obligatoires (<em>l'homme, l'histoire, les_hommes</em>).</td></tr>
+            <tr><th>Règle H aspiré</th><td>Mur de brique : bloque l'élision et la liaison (<em>le héros, la honte, les / héros</em>).</td></tr>
+            <tr><th>💡 Astuce mnémotechnique</th><td>« H muet = vitre transparente ; H aspiré = mur de brique »</td></tr>
+            <tr><th>Vocabulaire clé</th><td>l'homme, l'histoire, l'hôtel, l'heure, le héros, la honte</td></tr>
+            <tr><th>Fréquence</th><td><span class="star-rating">★★★★☆</span></td></tr>
+            <tr><th>À retenir</th><td>H muet laisse passer la liaison ; H aspiré la bloque net.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 6 — Impact sonore du genre et du nombre</h4>
+      <ul>
+        <li><strong>6.1 Féminin :</strong> L'ajout du <em>-e</em> féminin réveille la consonne muette précédente (<em>peti<strong>t</strong></em> [pəti] → <em>peti<strong>te</strong></em> [pətit]).</li>
+        <li><strong>6.2 Pluriel :</strong> Le <em>-s</em> ou <em>-x</em> reste muet à l'oral. C'est l'article (<em>le/les, un/des</em>) qui indique le nombre.</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 7 — Mots fréquents irréguliers et abréviations</h4>
+      <ul>
+        <li><strong>7.1 Mots irréguliers indispensables :</strong> <em>monsieur</em> [məsjø], <em>femme</em> [fam], <em>oignon</em> [ɔɲɔ̃], <em>second</em> [səɡɔ̃], <em>gentil</em> [ʒɑ̃ti], <em>fils</em> [fis], <em>œuf/œufs</em> [œf / ø].</li>
+        <li><strong>7.2 Sigles :</strong> SNCF [ɛs-ɛn-se-ɛf], TGV [te-ʒe-ve], OTAN [ɔtɑ̃].</li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="level-nav-bar">
+    <a href="a0-a1.html">← Niveau A0-A1 Fondations</a>
+    <a href="b1.html">Niveau B1 Liaisons →</a>
+  </div>
+
+</main>
+
+<footer class="site-footer" style="background: #1b5e20; color: #e8f5e9; padding: 2rem 1.5rem; text-align: center; margin-top: 3rem;">
+  <p>© 2026 COSYlanguages · Marathon de Prononciation Française A2</p>
+</footer>
+
+<script src="../../../js/data/languages.js"></script>
+<script src="../../../js/core/engine.js"></script>
+<script src="../../../js/core/i18n.js"></script>
+<script src="../../../js/core/ui.js"></script>
+</body>
+</html>

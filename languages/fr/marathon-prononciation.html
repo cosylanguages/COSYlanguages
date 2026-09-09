@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>🇫🇷 Marathon de Prononciation Française — Curriculum complet (A0 → C2) · COSY</title>
-<meta name="description" content="Curriculum complet du Marathon de Prononciation Française A0 à C2 : principes simples, leçons rédigées sans jargon, astuces mnémotechniques et gabarits visuels.">
+<title>🇫🇷 Marathon de Prononciation Française — Hub Général (A0 → C2) · COSY</title>
+<meta name="description" content="Hub général du Marathon de Prononciation Française : choisissez votre niveau (A0-A1 à C2), découvrez la philosophie 1 règle = 1 image et explorez nos recettes de sons simples.">
 <link rel="stylesheet" href="../../css/tokens.css">
 <link rel="stylesheet" href="../../css/base.css">
 <link rel="stylesheet" href="../../css/components.css">
@@ -105,35 +105,6 @@
     color: #ffffff;
   }
 
-  /* Level Tabs */
-  .mp-tabs-bar {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin: 1.5rem auto 1rem;
-    max-width: 1100px;
-    padding: 0 1rem;
-  }
-
-  .mp-tab-btn {
-    background: #ffffff;
-    border: 2px solid #2d6a4f;
-    color: #2d6a4f;
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-    font-size: 0.92rem;
-    font-weight: 700;
-    cursor: pointer;
-    transition: all 0.2s ease;
-  }
-
-  .mp-tab-btn:hover, .mp-tab-btn.active {
-    background: #2d6a4f;
-    color: #ffffff;
-    box-shadow: 0 4px 10px rgba(45, 106, 79, 0.25);
-  }
-
   .mp-container {
     max-width: 1100px;
     margin: 2rem auto;
@@ -147,7 +118,6 @@
     padding: 2rem;
     margin-bottom: 2.5rem;
     box-shadow: 0 4px 12px rgba(0,0,0,0.03);
-    transition: opacity 0.3s ease;
   }
 
   .mp-section h2 {
@@ -157,61 +127,98 @@
     margin-top: 0;
     padding-bottom: 0.75rem;
     border-bottom: 2px solid #d8f3dc;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
   }
 
-  .mp-section h3 {
-    color: #2d6a4f;
-    font-size: 1.3rem;
-    margin-top: 1.75rem;
+  /* Level Cards Grid */
+  .level-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .level-card {
+    background: #ffffff;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.25s ease;
+  }
+
+  .level-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  }
+
+  .level-card.card-a0a1 { border-color: #90caf9; }
+  .level-card.card-a2 { border-color: #a5d6a7; }
+  .level-card.card-b1 { border-color: #ffe082; }
+  .level-card.card-b2 { border-color: #ffab91; }
+  .level-card.card-c1 { border-color: #ce93d8; }
+  .level-card.card-c2 { border-color: #b0bec5; }
+
+  .level-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-bottom: 0.75rem;
   }
 
-  /* Table styles */
-  .mp-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 1.25rem 0;
-    font-size: 0.95rem;
-  }
-
-  .mp-table th, .mp-table td {
-    padding: 0.85rem 1rem;
-    border: 1px solid #e2e8f0;
-    text-align: left;
-    vertical-align: top;
-  }
-
-  .mp-table th {
-    background-color: #f0fdf4;
-    color: #1b4332;
+  .level-card-title {
+    font-size: 1.25rem;
     font-weight: 700;
-  }
-
-  .mp-table tr:nth-child(even) {
-    background-color: #f9fbf9;
-  }
-
-  /* Sound Recipe Box */
-  .sound-recipe {
-    background: #f0fdf4;
-    border-left: 4px solid #2d6a4f;
-    border-radius: 6px;
-    padding: 1rem 1.25rem;
-    margin: 1rem 0;
-  }
-
-  .sound-recipe h4 {
-    margin: 0 0 0.4rem 0;
     color: #1b4332;
-    font-size: 1.05rem;
-    display: flex;
-    align-items: center;
-    gap: 0.4rem;
+    margin: 0;
   }
 
+  .level-badge-pill {
+    padding: 0.25rem 0.65rem;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    font-weight: 800;
+  }
+
+  .pill-a0a1 { background: #e3f2fd; color: #0d47a1; }
+  .pill-a2 { background: #e8f5e9; color: #1b5e20; }
+  .pill-b1 { background: #fff8e1; color: #f57f17; }
+  .pill-b2 { background: #fbe9e7; color: #bf360c; }
+  .pill-c1 { background: #f3e5f5; color: #4a148c; }
+  .pill-c2 { background: #eceff1; color: #263238; }
+
+  .level-card-desc {
+    font-size: 0.95rem;
+    color: #4a5568;
+    margin-bottom: 1.25rem;
+    flex-grow: 1;
+  }
+
+  .level-card-btn {
+    display: block;
+    text-align: center;
+    padding: 0.65rem 1rem;
+    border-radius: 8px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background 0.2s ease;
+  }
+
+  .btn-a0a1 { background: #1976d2; color: #ffffff; }
+  .btn-a0a1:hover { background: #0d47a1; }
+  .btn-a2 { background: #2e7d32; color: #ffffff; }
+  .btn-a2:hover { background: #1b5e20; }
+  .btn-b1 { background: #f57f17; color: #ffffff; }
+  .btn-b1:hover { background: #e65100; }
+  .btn-b2 { background: #d84315; color: #ffffff; }
+  .btn-b2:hover { background: #bf360c; }
+  .btn-c1 { background: #6a1b9a; color: #ffffff; }
+  .btn-c1:hover { background: #4a148c; }
+  .btn-c2 { background: #37474f; color: #ffffff; }
+  .btn-c2:hover { background: #263238; }
+
+  /* Mnemonic Box */
   .mnemonic-box {
     background: #fff8e1;
     border-left: 4px solid #f57f17;
@@ -239,21 +246,12 @@
     border: 1px solid #c8e6c9;
     border-radius: 10px;
     padding: 1.25rem;
-    transition: transform 0.2s, box-shadow 0.2s;
-  }
-
-  .family-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 16px rgba(45, 106, 79, 0.12);
   }
 
   .family-card h4 {
     margin: 0 0 0.5rem 0;
     color: #1b4332;
     font-size: 1.1rem;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
   }
 
   .family-card p {
@@ -261,162 +259,135 @@
     font-size: 0.92rem;
     color: #4a5568;
   }
-
-  /* Curriculum Units List */
-  .unit-card {
-    background: #fafdfb;
-    border-left: 4px solid #40916c;
-    border-radius: 0 8px 8px 0;
-    padding: 1rem 1.25rem;
-    margin-bottom: 1rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
-  }
-
-  .unit-card h4 {
-    margin: 0 0 0.5rem;
-    color: #1b4332;
-    font-size: 1.1rem;
-  }
-
-  .unit-card ul {
-    margin: 0;
-    padding-left: 1.2rem;
-    color: #2d3748;
-  }
-
-  .unit-card li {
-    margin-bottom: 0.35rem;
-    font-size: 0.95rem;
-  }
-
-  /* Level Badge pill */
-  .level-tag {
-    display: inline-block;
-    padding: 0.2rem 0.6rem;
-    border-radius: 4px;
-    font-size: 0.8rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    margin-right: 0.5rem;
-  }
-  .lvl-a0a1 { background: #e3f2fd; color: #0d47a1; }
-  .lvl-a2 { background: #e8f5e9; color: #1b5e20; }
-  .lvl-b1 { background: #fff8e1; color: #f57f17; }
-  .lvl-b2 { background: #ffe0b2; color: #e65100; }
-  .lvl-c1 { background: #f3e5f5; color: #4a148c; }
-  .lvl-c2 { background: #fbe9e7; color: #bf360c; }
-
-  /* Redacted Lesson Sample */
-  .lesson-sample {
-    background: #ffffff;
-    border: 2px solid #74c69d;
-    border-radius: 12px;
-    margin-bottom: 2rem;
-    overflow: hidden;
-  }
-
-  .lesson-sample-header {
-    background: #2d6a4f;
-    color: #ffffff;
-    padding: 1rem 1.5rem;
-  }
-
-  .lesson-sample-header h3 {
-    margin: 0;
-    color: #ffffff;
-    font-size: 1.3rem;
-  }
-
-  .lesson-sample-body {
-    padding: 1.25rem 1.5rem;
-  }
-
-  .star-rating {
-    color: #f59e0b;
-  }
-
-  .icon-tag {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.3rem;
-    font-weight: 700;
-  }
-
-  .tips-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 1rem;
-    margin-top: 1rem;
-  }
-
-  .tip-card {
-    background: #f0fdf4;
-    border: 1px solid #b7e4c7;
-    border-radius: 8px;
-    padding: 1rem;
-  }
-
-  .tip-card h5 {
-    margin: 0 0 0.3rem 0;
-    color: #1b4332;
-    font-size: 1rem;
-  }
-
-  .tip-card p {
-    margin: 0;
-    font-size: 0.88rem;
-    color: #2d6a4f;
-  }
 </style>
 </head>
 <body data-lang-theme="fr">
 
 <nav id="cosy-nav"></nav>
 
-<!-- Sticky Top Navigation -->
+<!-- Sticky Navigation -->
 <header class="sd-sticky-header">
   <nav class="sd-jump-links" aria-label="Sommaire du marathon">
     <a href="index.html" class="sd-jump-link">← Hub FR</a>
     <a href="pronunciation.html" class="sd-jump-link">← Prononciation</a>
-    <a href="#principes" class="sd-jump-link">0. Principes & Astuces</a>
-    <a href="#a0-a1" class="sd-jump-link">🟢 A0-A1</a>
-    <a href="#a2" class="sd-jump-link">🟡 A2</a>
-    <a href="#b1" class="sd-jump-link">🟠 B1</a>
-    <a href="#b2" class="sd-jump-link">🔴 B2</a>
-    <a href="#c1" class="sd-jump-link">🟣 C1</a>
-    <a href="#c2" class="sd-jump-link">⚫ C2</a>
-    <a href="#exemples" class="sd-jump-link">1. Leçons rédigées</a>
-    <a href="#portee" class="sd-jump-link">2. Portée visuelle</a>
+    <a href="#niveaux" class="sd-jump-link">🎯 Choisir son Niveau</a>
+    <a href="#principes" class="sd-jump-link">💡 Philosophie & Astuces</a>
+    <a href="#visuels" class="sd-jump-link">🎨 5 Familles Visuelles</a>
   </nav>
 </header>
 
 <header class="mp-hero">
   <div class="mp-badges">
     <span class="mp-badge">🇫🇷 Français Monolingue Accessible</span>
-    <span class="mp-badge">📐 1 Leçon = 1 Règle = 1 Image = 1 Astuce</span>
+    <span class="mp-badge">📐 1 Leçon = 1 Règle = 1 Image</span>
     <span class="mp-badge">🎯 Sans jargon linguistique</span>
     <span class="mp-badge">CECRL A0 → C2</span>
   </div>
   <h1>🇫🇷 MARATHON DE PRONONCIATION FRANÇAISE</h1>
-  <p class="subtitle">Guide complet de lecture, prononciation et orthographe : des recettes de sons intuitives aux pièges de l'oral spontané.</p>
+  <p class="subtitle">Guide complet de lecture, prononciation et orthographe : des recettes de sons physiques aux pièges du français parlé spontané.</p>
 </header>
-
-<!-- Interactive Level Selector Tabs -->
-<div class="mp-tabs-bar">
-  <button class="mp-tab-btn active" data-level="all" onclick="filterLevel('all')">Tous les niveaux</button>
-  <button class="mp-tab-btn" data-level="a0-a1" onclick="filterLevel('a0-a1')">🟢 A0-A1 Fondations</button>
-  <button class="mp-tab-btn" data-level="a2" onclick="filterLevel('a2')">🟡 A2 Structures</button>
-  <button class="mp-tab-btn" data-level="b1" onclick="filterLevel('b1')">🟠 B1 Liaisons & Nombres</button>
-  <button class="mp-tab-btn" data-level="b2" onclick="filterLevel('b2')">🔴 B2 Registres & Lettres internes</button>
-  <button class="mp-tab-btn" data-level="c1" onclick="filterLevel('c1')">🟣 C1 Style & Poésie</button>
-  <button class="mp-tab-btn" data-level="c2" onclick="filterLevel('c2')">⚫ C2 Expertise & Réforme</button>
-</div>
 
 <main class="mp-container">
 
-  <!-- SECTION 0: PRINCIPES DE CONCEPTION -->
+  <!-- CHOIX DU NIVEAU -->
+  <section id="niveaux" class="mp-section">
+    <h2>🎯 Sélectionnez votre niveau de marathon</h2>
+    <p>
+      Pour une expérience d'apprentissage fluide et adaptée à vos compétences, chaque niveau possède sa propre page dédiée. Les débutants A0 et A1 sont réunis sur une même page avec un accompagnement visuel renforcé.
+    </p>
+
+    <div class="level-cards-grid">
+
+      <!-- Card A0-A1 -->
+      <div class="level-card card-a0a1">
+        <div>
+          <div class="level-card-header">
+            <h3 class="level-card-title">Fondations Absolues</h3>
+            <span class="level-badge-pill pill-a0a1">A0 - A1</span>
+          </div>
+          <p class="level-card-desc">
+            Pour les débutants complets. L'alphabet, les accents, les consonnes finales muettes (CaReFuL), le son U français et les nasales de base sans jargon.
+          </p>
+        </div>
+        <a href="marathon/a0-a1.html" class="level-card-btn btn-a0a1">Accéder au Niveau A0-A1 →</a>
+      </div>
+
+      <!-- Card A2 -->
+      <div class="level-card card-a2">
+        <div>
+          <div class="level-card-header">
+            <h3 class="level-card-title">Structures Contextuelles</h3>
+            <span class="level-badge-pill pill-a2">A2</span>
+          </div>
+          <p class="level-card-desc">
+            Digrammes, trigrammes, semi-voyelles ([j], [w], [ɥ]), le H muet vs aspiré, et le groupe ILL avec ses 4 exceptions célèbres.
+          </p>
+        </div>
+        <a href="marathon/a2.html" class="level-card-btn btn-a2">Accéder au Niveau A2 →</a>
+      </div>
+
+      <!-- Card B1 -->
+      <div class="level-card card-b1">
+        <div>
+          <div class="level-card-header">
+            <h3 class="level-card-title">Liaisons & Nombres</h3>
+            <span class="level-badge-pill pill-b1">B1</span>
+          </div>
+          <p class="level-card-desc">
+            Les 3 catégories de liaisons, les secrets du mot PLUS, la prononciation des chiffres (6, 10, 9) et la dénasalisation.
+          </p>
+        </div>
+        <a href="marathon/b1.html" class="level-card-btn btn-b1">Accéder au Niveau B1 →</a>
+      </div>
+
+      <!-- Card B2 -->
+      <div class="level-card card-b2">
+        <div>
+          <div class="level-card-header">
+            <h3 class="level-card-title">Registres & Lettres Internes</h3>
+            <span class="level-badge-pill pill-b2">B2</span>
+          </div>
+          <p class="level-card-desc">
+            Les consonnes muettes internes (sculpture, sept), les réductions du français parlé spontané (ch'sais pas) et l'assimilation.
+          </p>
+        </div>
+        <a href="marathon/b2.html" class="level-card-btn btn-b2">Accéder au Niveau B2 →</a>
+      </div>
+
+      <!-- Card C1 -->
+      <div class="level-card card-c1">
+        <div>
+          <div class="level-card-header">
+            <h3 class="level-card-title">Style & Poésie</h3>
+            <span class="level-badge-pill pill-c1">C1</span>
+          </div>
+          <p class="level-card-desc">
+            Le e muet en versification classique, la scansion alexandrine, la diérèse stylistique et les doublets étymologiques.
+          </p>
+        </div>
+        <a href="marathon/c1.html" class="level-card-btn btn-c1">Accéder au Niveau C1 →</a>
+      </div>
+
+      <!-- Card C2 -->
+      <div class="level-card card-c2">
+        <div>
+          <div class="level-card-header">
+            <h3 class="level-card-title">Expertise & Réformes</h3>
+            <span class="level-badge-pill pill-c2">C2</span>
+          </div>
+          <p class="level-card-desc">
+            La réforme orthographique de 1990, les règles probabilistes de lecture et l'orthographe inverse pour écrire ce qu'on entend.
+          </p>
+        </div>
+        <a href="marathon/c2.html" class="level-card-btn btn-c2">Accéder au Niveau C2 →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PHILOSOPHIE -->
   <section id="principes" class="mp-section">
-    <h2>0. Principes de conception et philosophie pédagogique</h2>
+    <h2>💡 Principes de conception et philosophie</h2>
     <p>
       Ce curriculum est <strong>entièrement monolingue et accessible à tous</strong>. Il est conçu spécifiquement pour être compris par des apprenants <em>qui ne sont pas linguistes</em>. Nous évitons le jargon académique pour privilégier des <strong>recettes de sons physiques et intuitives</strong>, des repères visuels clairs et des astuces mnémotechniques mémorables.
     </p>
@@ -424,47 +395,20 @@
     <div class="mnemonic-box">
       <h4>💡 Les Mnémotechniques Essentielles du Marathon</h4>
       <ul style="margin: 0.5rem 0 0 1.2rem; padding: 0;">
-        <li><strong>1. Consonnes finales sonores (« CaReFuL » ou « Car Fabien Le Normand ») :</strong> En français, les consonnes finales <strong>-t, -d, -s, -x, -p, -g</strong> sont généralement muettes (<em>petit, chat, grands, deux</em>). Seules <strong>C, R, F, L, N</strong> se prononcent le plus souvent en fin de mot (<em>ba<strong>c</strong>, me<strong>r</strong>, che<strong>f</strong>, ba<strong>l</strong>, bo<strong>n</strong></em>).</li>
+        <li><strong>1. Consonnes finales sonores (« CaReFuL ») :</strong> En français, -t, -d, -s, -x, -p, -g sont muettes (<em>petit, chat, grands</em>). Seules <strong>C, R, F, L</strong> se prononcent le plus souvent en fin de mot (<em>ba<strong>c</strong>, me<strong>r</strong>, che<strong>f</strong>, ba<strong>l</strong></em>).</li>
         <li><strong>2. Consonnes C et G :</strong>
-          <br>• <strong>CA-CO-CU = son dur [k]</strong> (<em>cave</em>) / <strong>CE-CI-CY = son doux [s]</strong> (<em>ceci</em>). La cédille <strong>ç</strong> force le son doux devant A, O, U (<em>garçon</em>).
-          <br>• <strong>GA-GO-GU = son dur [g]</strong> (<em>gare</em>) / <strong>GE-GI-GY = son doux [ʒ]</strong> (<em>girafe</em>). Un <strong>u</strong> muet est inséré pour garder le son dur devant E et I (<em>guerre, guitare</em>).
+          <br>• CA-CO-CU = son dur [k] / CE-CI-CY = son doux [s].
+          <br>• GA-GO-GU = son dur [g] / GE-GI-GY = son doux [ʒ].
         </li>
-        <li><strong>3. Règle absolue des Voyelles Nasales :</strong> Une voyelle suivie de <em>n</em> ou <em>m</em> devient nasale <strong>uniquement si n/m est en fin de syllabe</strong> (non suivi d'une autre voyelle). Si une voyelle suit, la nasalisation s'annule immédiatement (ex. <em>u<strong>n</strong></em> [œ̃] est nasal, mais <em>u<strong>n</strong>e</em> [yn] ou <em>a<strong>m</strong>i</em> [ami] ne sont PAS nasals).</li>
-        <li><strong>4. Recette du son U français [y] :</strong> Le <em>u</em> français n'existe pas en anglais. Recette simple : dites <strong>« i »</strong> avec un grand sourire, puis <strong>arrondissez fortement les lèvres</strong> sans bouger la langue ! Vous obtenez le <em>u</em> de <em>tu</em>, très différent du <em>ou</em> [u] de <em>vous</em>.</li>
+        <li><strong>3. Recette du son U français [y] :</strong> Dites <strong>« i »</strong> avec un grand sourire, puis <strong>arrondissez fortement les lèvres</strong> sans bouger la langue ! Vous obtenez le <em>u</em> de <em>tu</em>.</li>
       </ul>
     </div>
+  </section>
 
-    <h3>Conseils pratiques pour s'entraîner efficacement</h3>
-    <div class="tips-grid">
-      <div class="tip-card">
-        <h5>🎧 1. Écouter et répéter</h5>
-        <p>Associez toujours la règle écrite à la voix des locuteurs natifs et pratiquez le shadowing (répétition en écho).</p>
-      </div>
-      <div class="tip-card">
-        <h5>🎙️ 2. S'enregistrer</h5>
-        <p>Comparez votre voix au modèle audio pour repérer les consonnes trop prononcées ou les vocalismes relâchés.</p>
-      </div>
-      <div class="tip-card">
-        <h5>🗣️ 3. Penser par blocs</h5>
-        <p>Ne lisez pas mot par mot : découpez les phrases en groupes rythmiques avec allongement sur la dernière syllabe.</p>
-      </div>
-      <div class="tip-card">
-        <h5>💡 4. Utiliser l'API</h5>
-        <p>L'Alphabet Phonétique International donne la vraie boussole sonore sous chaque orthographe piège.</p>
-      </div>
-    </div>
-
-    <h3 style="margin-top: 1.5rem;">Structure d'une fiche de leçon (Gabarit fixe)</h3>
-    <p>Chaque règle du marathon utilise les icônes suivantes pour une clarté visuelle maximale :</p>
-    <ul style="list-style: none; padding-left: 0;">
-      <li style="margin-bottom: 0.35rem;"><span class="icon-tag">👂 <strong>Son (Recette) :</strong></span> Comment placer ses lèvres, sa langue ou sa voix pour produire le son sans jargon.</li>
-      <li style="margin-bottom: 0.35rem;"><span class="icon-tag">👁️ <strong>À l'écrit :</strong></span> Comment repérer la règle du premier coup d'œil dans un texte.</li>
-      <li style="margin-bottom: 0.35rem;"><span class="icon-tag">💡 <strong>Astuce :</strong></span> La phrase ou l'image mentale pour ne jamais oublier.</li>
-      <li style="margin-bottom: 0.35rem;"><span class="icon-tag">⚠️ <strong>Piège :</strong></span> L'erreur classique à éviter à l'oral.</li>
-    </ul>
-
-    <h3>Les 5 familles de visuels (gabarits réutilisables)</h3>
-    <p>Pour que le marathon reste cohérent visuellement du début à la fin, chaque image appartient à une des 5 familles suivantes :</p>
+  <!-- 5 FAMILLES VISUELLES -->
+  <section id="visuels" class="mp-section">
+    <h2>🎨 Les 5 familles de visuels</h2>
+    <p>Chaque leçon du marathon est associée à un visuel appartenant à l'une de nos 5 familles standardisées :</p>
 
     <div class="families-grid">
       <div class="family-card">
@@ -485,1231 +429,8 @@
       </div>
       <div class="family-card">
         <h4>📊 5. Échelle de registre</h4>
-        <p>Un curseur horizontal (Oral courant / familier → Oral soigné / soutenu) montrant les variations.</p>
+        <p>Un curseur horizontal (Oral familier → Oral soigné / soutenu) montrant les variations.</p>
       </div>
-    </div>
-  </section>
-
-  <!-- NIVEAU A0-A1 FULL LESSONS -->
-  <section id="a0-a1" class="mp-section">
-    <h2><span class="level-tag lvl-a0a1">A0-A1</span> NIVEAU A0-A1 — « Les fondations absolues » (Leçons complètes 1.1 à 8.3)</h2>
-    <p>Ce niveau pose toutes les bases indispensables pour lire et prononcer correctement n'importe quel mot français courant.</p>
-
-    <h3 style="border-bottom: 2px solid #74c69d; padding-bottom: 0.3rem;">UNITÉ 1 — L'alphabet et les sons purs</h3>
-
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 1.1 — La voyelle A</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>A est la voyelle la plus ouverte du français : la bouche s'ouvre largement, la langue reste basse.</td></tr>
-            <tr><th>Règle</th><td>La lettre a se lit presque toujours [a], quelle que soit sa position dans le mot.</td></tr>
-            <tr><th>Pourquoi ?</th><td>C'est la voyelle de référence : toutes les autres voyelles se définissent par leur écart avec elle (plus fermées, plus arrondies).</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>Un a isolé, sans accent, sans lettre nasale (n/m) juste après.</td></tr>
-            <tr><th>Exemples courants</th><td>ami, table, chat, salade, avion, banane</td></tr>
-            <tr><th>Contre-exemples</th><td>an, dans, chambre (le a est ici nasalisé, voir Unité 5)</td></tr>
-            <tr><th>Exceptions</th><td>quasiment aucune : le a est l'une des lettres les plus stables du français</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Prononcer un a trop fermé, comme dans certaines langues où il ressemble à [ʌ] ou [ə]</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« A comme dans "Ah!" » — la bouche grande ouverte, sans bouger</td></tr>
-            <tr><th>Vocabulaire clé</th><td>ami, table, chat, salade, avion, banane, papa, gare</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Schéma articulatoire :</strong> bouche grande ouverte, langue basse et en arrière</td></tr>
-            <tr><th>À retenir</th><td>Le a français est toujours ouvert et net, jamais réduit.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 1.2 — La voyelle E (sans accent)</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>Le e sans accent est la voyelle la plus instable du français : selon sa position, il change de son ou disparaît.</td></tr>
-            <tr><th>Règle</th><td>En syllabe ouverte non finale, il se lit [ə] (le, ce, petit) ; en syllabe fermée, il se lit [ɛ] (avec, sept) ; en fin de mot, il est muet (table, porte).</td></tr>
-            <tr><th>Pourquoi ?</th><td>Historiquement, ce e représentait une voyelle latine pleine, aujourd'hui affaiblie à l'oral.</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>Regarder ce qui suit le e : une seule consonne + voyelle → [ə] ; une consonne + fin de mot → [ɛ] ; rien après (fin de mot) → muet.</td></tr>
-            <tr><th>Exemples courants</th><td>le [lə], petit [pəti], avec [avɛk], porte [pɔʁt] (e final muet)</td></tr>
-            <tr><th>Contre-exemples</th><td>été (le e initial porte un accent, donc ce n'est plus ce cas)</td></tr>
-            <tr><th>Exceptions</th><td>quelques mots monosyllabiques gardent le [ə] même en style rapide (je, ne)</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Prononcer systématiquement le e final comme dans « le » anglais</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« Le e sans accent est un caméléon : il change selon son entourage »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>le, ce, petit, avec, porte, table, robe, septembre</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Carte des graphies :</strong> un e central avec trois flèches menant à [ə], [ɛ], et « muet »</td></tr>
-            <tr><th>À retenir</th><td>Le e nu n'a pas un son fixe : sa position dans le mot décide tout.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 1.3 — La voyelle I</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>I est la voyelle la plus fermée et la plus antérieure du français.</td></tr>
-            <tr><th>Règle</th><td>La lettre i se lit [i], sauf devant une autre voyelle prononcée dans la même syllabe (où elle devient une semi-voyelle [j]).</td></tr>
-            <tr><th>Pourquoi ?</th><td>Le son [i] correspond à la position la plus haute et la plus avancée de la langue dans la bouche.</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>Un i seul, sans voyelle immédiatement après lui dans la même syllabe.</td></tr>
-            <tr><th>Exemples courants</th><td>ici, vie, livre, ami, midi, tapis</td></tr>
-            <tr><th>Contre-exemples</th><td>fille, pied (i + voyelle = semi-voyelle [j], pas [i] pur)</td></tr>
-            <tr><th>Exceptions</th><td>aucune notable à ce niveau</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Relâcher le son i comme un [ɪ] anglais au lieu d'un [i] tendu</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« I comme un sourire » — les lèvres s'étirent horizontalement</td></tr>
-            <tr><th>Vocabulaire clé</th><td>ici, vie, livre, ami, midi, tapis, ville, lit</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Schéma articulatoire :</strong> langue très haute et avancée, lèvres étirées</td></tr>
-            <tr><th>À retenir</th><td>Le i français est toujours tendu, jamais relâché.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 1.4 — La voyelle O (ouvert / fermé)</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>O possède deux sons voisins selon la position dans le mot : un o fermé et un o ouvert.</td></tr>
-            <tr><th>Règle</th><td>En syllabe ouverte (finissant par une voyelle), o se lit [o] fermé (mot, vélo) ; en syllabe fermée, il se lit [ɔ] ouvert (homme, botte).</td></tr>
-            <tr><th>Pourquoi ?</th><td>La longueur de la syllabe influence l'aperture de la voyelle : une syllabe ouverte laisse le son se fermer naturellement.</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>Compter ce qui suit le o dans la même syllabe : rien → fermé ; une consonne prononcée → ouvert.</td></tr>
-            <tr><th>Exemples courants</th><td>mot [mo], vélo [velo], homme [ɔm], botte [bɔt], porte [pɔʁt]</td></tr>
-            <tr><th>Contre-exemples</th><td>rose (le o est suivi d'un s + e muet, donc reste en syllabe ouverte → [o] fermé)</td></tr>
-            <tr><th>Exceptions</th><td>quelques mots suivent l'usage plutôt que la règle stricte</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Confondre les deux o et les prononcer identiquement</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« O ouvert, syllabe fermée ; o fermé, syllabe ouverte »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>mot, vélo, homme, botte, porte, rose, moto, hôtel</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★☆</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Carte des graphies :</strong> deux colonnes « syllabe ouverte → [o] » et « syllabe fermée → [ɔ] »</td></tr>
-            <tr><th>À retenir</th><td>La forme de la syllabe (ouverte/fermée) décide du son du o.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 1.5 — La voyelle U (Son signature du français)</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>U est un son propre au français : il n'existe pas en anglais.</td></tr>
-            <tr><th>Règle</th><td>La lettre u seule se lit toujours [y], jamais [u].</td></tr>
-            <tr><th>Pourquoi ?</th><td>Le [y] se forme en gardant la position de langue du [i] tout en arrondissant les lèvres comme pour [u].</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>Un u seul, non précédé ni suivi d'un autre o (sinon → digramme « ou »).</td></tr>
-            <tr><th>Exemples courants</th><td>tu, lune, sur, rue, mur, une, du, sucre</td></tr>
-            <tr><th>Contre-exemples</th><td>vous, tout (ici c'est le digramme « ou » → [u], pas le u seul)</td></tr>
-            <tr><th>Exceptions</th><td>aucune à ce niveau</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>La confusion n°1 des débutants : prononcer u comme « ou » (tu → « tou »)</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« Dites "i", puis arrondissez les lèvres sans bouger la langue »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>tu, lune, sur, rue, mur, une, du, sucre, musique</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Schéma articulatoire :</strong> langue en position de [i], lèvres arrondies comme pour [u]</td></tr>
-            <tr><th>À retenir</th><td>u ≠ ou : deux sons totalement différents, à ne jamais confondre.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 1.6 — La voyelle Y</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>Y se comporte comme un i dans la plupart des mots français.</td></tr>
-            <tr><th>Règle</th><td>Entre consonnes, y se lit [i] ; entre deux voyelles, il vaut deux i (un qui ferme la syllabe précédente, un qui ouvre la suivante).</td></tr>
-            <tr><th>Pourquoi ?</th><td>Le y (« i grec ») a hérité en français du rôle du i, avec un usage étymologique (mots grecs).</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>Repérer sa position : isolé entre consonnes vs entre deux voyelles.</td></tr>
-            <tr><th>Exemples courants</th><td>style [stil], type [tip], pays [pei-i], moyen [mwa-jɛ̃]</td></tr>
-            <tr><th>Contre-exemples</th><td>aucun cas où y se lit autrement dans le vocabulaire courant</td></tr>
-            <tr><th>Exceptions</th><td>quelques noms propres et emprunts récents (Yves, yoga)</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Oublier le dédoublement du y entre voyelles (pays lu comme « pè » au lieu de « pé-i »)</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« Y = deux i collés »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>style, type, pays, moyen, cycle, syllabe</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★☆☆</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Carte des graphies :</strong> le y au centre, deux flèches vers « [i] simple » et « [i-j] dédoublé entre voyelles »</td></tr>
-            <tr><th>À retenir</th><td>Le y suit presque toujours la logique du i, parfois doublé.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 1.7 — Les consonnes stables (B, D, F, J, K, L, M, N, P, R, T, V, W, Z)</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>La majorité des consonnes françaises se lisent de façon fixe, quelle que soit la voyelle qui suit.</td></tr>
-            <tr><th>Règle</th><td>B, D, F, J, K, L, M, N, P, R, T, V, W, Z gardent le même son partout : [b], [d], [f], [ʒ], [k], [l], [m], [n], [p], [ʁ], [t], [v], [v]/[w], [z].</td></tr>
-            <tr><th>Pourquoi ?</th><td>Contrairement à C, G, S, ces lettres n'ont pas de double lecture selon la voyelle suivante.</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>Ce sont, par élimination, toutes les consonnes qui ne sont ni C, ni G, ni S, ni H, ni Q, ni X.</td></tr>
-            <tr><th>Exemples courants</th><td>bébé, dame, fête, jardin, kilo, livre, mère, nuit, papa, radio, tante, vélo</td></tr>
-            <tr><th>Contre-exemples</th><td>aucun : ces lettres sont justement choisies pour leur stabilité</td></tr>
-            <tr><th>Exceptions</th><td>le W se lit [v] dans wagon mais [w] dans week-end</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Chercher une règle de position pour ces lettres alors qu'il n'y en a pas besoin</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« Pas de piège ici : ces lettres se lisent comme elles s'écrivent »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>bébé, dame, fête, jardin, kilo, livre, mère, nuit</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Carte des graphies :</strong> une rangée de 14 lettres stables, chacune reliée directement à un seul son</td></tr>
-            <tr><th>À retenir</th><td>Ces consonnes n'ont aucun piège de lecture — l'attention se concentre ailleurs.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <h3 style="border-bottom: 2px solid #74c69d; padding-bottom: 0.3rem;">UNITÉ 2 — Les accents graphiques</h3>
-
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 2.1 — L'accent aigu (é)</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>L'accent aigu ne se pose que sur le e et indique un son fermé.</td></tr>
-            <tr><th>Règle</th><td>é se lit toujours [e], un son fermé et tendu, jamais [ɛ].</td></tr>
-            <tr><th>Pourquoi ?</th><td>Il marque un e qui, en ancien français, était suivi d'une consonne aujourd'hui disparue à l'oral.</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>La présence visuelle de l'accent orienté vers la droite : é.</td></tr>
-            <tr><th>Exemples courants</th><td>été, café, école, éléphant, musée, vérité</td></tr>
-            <tr><th>Contre-exemples</th><td>père, mère (accent grave → son ouvert)</td></tr>
-            <tr><th>Exceptions</th><td>aucune : é est l'une des graphies les plus régulières du français</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Confondre é et è à l'oreille</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« L'accent aigu pointe vers le haut = son fermé et joyeux [e] »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>été, café, école, éléphant, musée, vérité, thé, bébé</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Schéma articulatoire :</strong> é [e] vs è [ɛ] montrant l'ouverture de la mâchoire</td></tr>
-            <tr><th>À retenir</th><td>é = son fermé, toujours [e], sans exception.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 2.2 — L'accent grave (è, à, ù)</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>L'accent grave a deux fonctions distinctes selon la lettre qu'il porte.</td></tr>
-            <tr><th>Règle</th><td>Sur le e, il ouvre le son : è = [ɛ]. Sur le a et le u, il ne change aucun son : à et ù se prononcent comme a et u (distinction visuelle de sens).</td></tr>
-            <tr><th>Pourquoi ?</th><td>Le français a réutilisé le même signe graphique pour deux besoins : phonétique (è) et grammatical (à, ù).</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>Sur un e → changement de son ; sur un a ou un u → simple étiquette grammaticale.</td></tr>
-            <tr><th>Exemples courants</th><td>père, mère, très, après (è) ; à Paris, il a (à) ; où, ou bien (ù)</td></tr>
-            <tr><th>Contre-exemples</th><td>la (article) vs là (adverbe de lieu)</td></tr>
-            <tr><th>Exceptions</th><td>aucune</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Croire que à et ù changent la prononciation</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« Sur le e, l'accent grave ouvre la bouche ; sur a et u, il ouvre seulement le sens »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>père, mère, très, après, à, où, déjà, voilà</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Carte des graphies :</strong> deux branches — sur e → [ɛ] / sur a/u → distinction de sens</td></tr>
-            <tr><th>À retenir</th><td>Le même accent, deux rôles : phonétique sur e, purement grammatical sur a et u.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 2.3 — L'accent circonflexe (â, ê, î, ô, û)</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>L'accent circonflexe marque presque toujours la disparition historique d'un s.</td></tr>
-            <tr><th>Règle</th><td>Sur â, ê, ô, il ouvre légèrement et allonge parfois le son (forêt, hôte) ; sur î et û, il ne change généralement rien à l'oral moderne.</td></tr>
-            <tr><th>Pourquoi ?</th><td>forêt vient de l'ancien forest, hôpital de hospital : le s s'est effacé à l'oral.</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>Chercher un mot apparenté en anglais avec un s à la même place (forest/forêt, hospital/hôpital, island/île).</td></tr>
-            <tr><th>Exemples courants</th><td>forêt, hôpital, île, fenêtre, château, coût</td></tr>
-            <tr><th>Contre-exemples</th><td>mêler ne vient pas d'un s disparu dans tous les cas</td></tr>
-            <tr><th>Exceptions</th><td>la réforme de 1990 autorise de supprimer l'accent circonflexe sur i et u (coût/cout)</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Chercher à allonger fortement chaque voyelle circonflexe</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« Le chapeau (^) est l'endroit où un s est tombé »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>forêt, hôpital, île, fenêtre, château, coût, âge, fête</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★☆☆</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Arbre de famille de mots :</strong> forest → forêt et hospital → hôpital</td></tr>
-            <tr><th>À retenir</th><td>Le circonflexe est souvent la trace visible d'un s qu'on n'entend plus.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 2.4 — Le tréma (ë, ï)</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>Le tréma empêche deux voyelles voisines de fusionner en un seul son.</td></tr>
-            <tr><th>Règle</th><td>Placé sur la seconde de deux voyelles consécutives, il impose de les prononcer séparément, en deux syllabes.</td></tr>
-            <tr><th>Pourquoi ?</th><td>Sans lui, des groupes comme "ai" ou "oe" se liraient automatiquement comme un digramme.</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>Deux points au-dessus d'un e ou d'un i, dans un mot où ces lettres suivent une autre voyelle.</td></tr>
-            <tr><th>Exemples courants</th><td>Noël [nɔ.ɛl], naïf [na.if], maïs [ma.is], haïr [a.iʁ]</td></tr>
-            <tr><th>Contre-exemples</th><td>mais [mɛ] (sans tréma, se lit en un seul son)</td></tr>
-            <tr><th>Exceptions</th><td>aucune à signaler</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Lire Noël comme un seul son « neul » au lieu de deux syllabes distinctes</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« Le tréma dit : séparez-nous ! »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>Noël, naïf, maïs, haïr, égoïste, Israël</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★☆☆☆</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Carte des graphies :</strong> le groupe « ai » avec et sans tréma</td></tr>
-            <tr><th>À retenir</th><td>Le tréma casse la fusion automatique de deux voyelles.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 2.5 — La cédille (ç)</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>La cédille adoucit le son dur du c devant certaines voyelles.</td></tr>
-            <tr><th>Règle</th><td>Devant a, o, u, le c se lit normalement [k] ; avec une cédille (ç), il se lit [s].</td></tr>
-            <tr><th>Pourquoi ?</th><td>Devant e, i, y, le c est déjà doux naturellement ; la cédille sert uniquement à obtenir ce même son doux devant a, o, u.</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>Un petit crochet sous le c, uniquement devant a, o ou u.</td></tr>
-            <tr><th>Exemples courants</th><td>garçon, français, leçon, façade, reçu, ça</td></tr>
-            <tr><th>Contre-exemples</th><td>ceci, cycle (c devant e/i/y : pas besoin de cédille)</td></tr>
-            <tr><th>Exceptions</th><td>aucune : la règle est parfaitement régulière</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Oublier la cédille à l'écrit et lire alors [k] au lieu de [s]</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« La cédille est un petit serpent S accroché sous le C devant A, O, U »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>garçon, français, leçon, façade, reçu, ça, glaçon, maçon</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★☆</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Carte des graphies :</strong> ca/co/cu [k] vs ça/ço/çu [s]</td></tr>
-            <tr><th>À retenir</th><td>Pas de cédille sans a, o, u juste après.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <h3 style="border-bottom: 2px solid #74c69d; padding-bottom: 0.3rem;">UNITÉ 3 — Les consonnes qui changent de son</h3>
-
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 3.1 — Le C dur / doux</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>La lettre c possède deux prononciations selon la voyelle qui suit.</td></tr>
-            <tr><th>Règle</th><td>Devant a, o, u → [k] dur (carte, corps, cube) ; devant e, i, y → [s] doux (ceci, cinéma, cygne).</td></tr>
-            <tr><th>Pourquoi ?</th><td>Héritage direct du latin : l'évolution du français a adouci ce son devant les voyelles antérieures (e, i, y).</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>Regarder uniquement la lettre juste après le c.</td></tr>
-            <tr><th>Exemples courants</th><td>carte [k], corps [k], cube [k] / ceci [s], cinéma [s], cygne [s]</td></tr>
-            <tr><th>Contre-exemples</th><td>garçon (le c serait dur devant o sans la cédille)</td></tr>
-            <tr><th>Exceptions</th><td>aucune dans le vocabulaire courant</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Lire « cinéma » avec un [k] par réflexe</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« CA-CO-CU dur, CE-CI-CY doux »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>carte, corps, cube, ceci, cinéma, cygne, cadeau, cerise</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Carte des graphies :</strong> c au centre, embranchements a/o/u [k] vs e/i/y [s]</td></tr>
-            <tr><th>À retenir</th><td>La voyelle qui suit le c décide toujours de son son.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 3.2 — Le G dur / doux</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>La lettre g suit exactement la même logique que le c.</td></tr>
-            <tr><th>Règle</th><td>Devant a, o, u → [g] dur (gare, gomme, aigu) ; devant e, i, y → [ʒ] doux, comme le j (girafe, gilet, gymnase).</td></tr>
-            <tr><th>Pourquoi ?</th><td>Même évolution historique que pour le c : adoucissement devant les voyelles antérieures.</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>Regarder la lettre juste après le g.</td></tr>
-            <tr><th>Exemples courants</th><td>gare [g], gomme [g], aigu [g] / girafe [ʒ], gilet [ʒ], gymnase [ʒ]</td></tr>
-            <tr><th>Contre-exemples</th><td>guerre, guide (le u sert à forcer le son dur devant e/i)</td></tr>
-            <tr><th>Exceptions</th><td>pour garder le son [g] devant e ou i, le français insère un u muet (guerre, guitare)</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Lire « guitare » avec un [ʒ] par erreur</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« GA-GO-GU dur, GE-GI-GY doux — et un U caché protège le son dur devant E/I »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>gare, gomme, aigu, girafe, gilet, gymnase, guerre, guitare</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★☆</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Carte des graphies :</strong> g au centre, embranchements + bulle protection gu</td></tr>
-            <tr><th>À retenir</th><td>Le g suit le c, avec le u muet en béquille de protection.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 3.3 — Le S simple et le S entre voyelles</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>La lettre s a deux valeurs selon sa position exacte dans le mot.</td></tr>
-            <tr><th>Règle</th><td>En début de mot ou après consonne → [s] (sac, danse) ; entre deux voyelles → [z] (maison, rose).</td></tr>
-            <tr><th>Pourquoi ?</th><td>La position entre deux voyelles favorise naturellement la sonorisation.</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>Vérifier ce qu'il y a immédiatement avant et après le s.</td></tr>
-            <tr><th>Exemples courants</th><td>sac [s], danse [s], salade [s] / maison [z], rose [z], oiseau [z]</td></tr>
-            <tr><th>Contre-exemples</th><td>poisson, dessert (le s doublé « ss » redonne toujours [s])</td></tr>
-            <tr><th>Exceptions</th><td>le double ss annule la sonorisation : poisson [s]</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Confondre poison [pwazɔ̃] et poisson [pwasɔ̃]</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« Un seul s entre deux voyelles chuchote [z] ; deux s crient [s] »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>sac, danse, salade, maison, rose, oiseau, poison, poisson</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Carte des graphies :</strong> s entre voyelles [z] vs ss entre voyelles [s]</td></tr>
-            <tr><th>À retenir</th><td>Entre deux voyelles, un s isolé se sonorise en [z].</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <h3 style="border-bottom: 2px solid #74c69d; padding-bottom: 0.3rem;">UNITÉ 4 — Les finales muettes et sonores</h3>
-
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 4.1 — Les finales muettes (-e, -s, -t, -d, -x, -p, -g)</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>La plupart des consonnes finales du français ne se prononcent pas.</td></tr>
-            <tr><th>Règle</th><td>-e, -s, -t, -d, -x, -p, -g en fin de mot sont généralement muets.</td></tr>
-            <tr><th>Pourquoi ?</th><td>Ces consonnes se prononçaient en ancien français et ont été abandonnées à l'oral tout en restant à l'écrit.</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>La consonne se trouve en toute dernière position du mot isolé.</td></tr>
-            <tr><th>Exemples courants</th><td>chats [ʃa], petit [pəti], grand [gʁɑ̃], deux [dø], trop [tʁo], long [lɔ̃]</td></tr>
-            <tr><th>Contre-exemples</th><td>chat au singulier se prononce déjà [ʃa] sans le t</td></tr>
-            <tr><th>Exceptions</th><td>les consonnes finales CaReFuL (voir 4.2)</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Vouloir prononcer chaque lettre écrite en fin de mot</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« Sale Table De Petit Xylo Zéro Grand » — les finales muettes habituelles</td></tr>
-            <tr><th>Vocabulaire clé</th><td>chats, petit, grand, deux, trop, long, chaud, beaucoup</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Carte des graphies :</strong> consonnes finales muettes barrées en rouge</td></tr>
-            <tr><th>À retenir</th><td>Ce qu'on écrit à la fin d'un mot français n'est presque jamais ce qu'on entend.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 4.2 — Les finales sonores : C, R, F, L (CaReFuL)</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>Quatre consonnes finales échappent à la règle du silence et se prononcent normalement.</td></tr>
-            <tr><th>Règle</th><td>C, R, F, L en fin de mot se prononcent, sauf exceptions isolées.</td></tr>
-            <tr><th>Pourquoi ?</th><td>Ces quatre lettres n'ont pas suivi la même évolution d'effacement en position finale.</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>Le mot se termine directement par C, R, F ou L.</td></tr>
-            <tr><th>Exemples courants</th><td>sac [k], mer [ʁ], chef [f], sol [l], bac, mur, neuf, avril</td></tr>
-            <tr><th>Contre-exemples</th><td>infinitifs en -er : parler, manger → le r y est exceptionnellement muet !</td></tr>
-            <tr><th>Exceptions</th><td>monsieur (r muet) et les infinitifs en -er (r muet)</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Appliquer la règle du -er muet aux noms comme hiver ou cancer (r sonore !)</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« CaReFuL ou Car Fabien Le Normand : C, R, F, L parlent à la fin ! »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>sac, mer, chef, sol, bac, mur, neuf, avril, hiver</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Carte des graphies :</strong> C-R-F-L en vert brillant vs muettes en rouge</td></tr>
-            <tr><th>À retenir</th><td>C, R, F, L : les quatre exceptions qui confirment la règle du silence final.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <h3 style="border-bottom: 2px solid #74c69d; padding-bottom: 0.3rem;">UNITÉ 5 — Les nasales élémentaires</h3>
-
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 5.1 — AN / AM / EN / EM [ɑ̃]</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>Une voyelle nasale se prononce en laissant l'air passer aussi par le nez.</td></tr>
-            <tr><th>Règle</th><td>a ou e, suivi de n/m en fin de syllabe (pas suivi d'une voyelle), se lit [ɑ̃].</td></tr>
-            <tr><th>Pourquoi ?</th><td>Le n/m ne se prononce plus par lui-même : sa nasalité a migré vers la voyelle précédente.</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>an/am/en/em suivis d'une consonne ou en fin de mot.</td></tr>
-            <tr><th>Exemples courants</th><td>enfant, temps, grand, champ, chambre, novembre</td></tr>
-            <tr><th>Contre-exemples</th><td>ami (pas de n après le a), année (n suivi d'un e → pas nasal)</td></tr>
-            <tr><th>Exceptions</th><td>femme se lit [fam], cas isolé</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Vouloir prononcer un vrai [n] ou [m] à la fin</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« Le n et le m ferment la bouche mais ouvrent le nez »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>enfant, temps, grand, champ, chambre, novembre, ensemble, dimanche</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Schéma articulatoire :</strong> voile du palais abaissé, air passant par le nez</td></tr>
-            <tr><th>À retenir</th><td>Une voyelle + n/m sans voyelle après = son nasal, jamais un n/m prononcé.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 5.2 — ON / OM [ɔ̃]</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>Deuxième voyelle nasale du français, formée à partir du o.</td></tr>
-            <tr><th>Règle</th><td>on/om, suivis d'une consonne ou en fin de mot, se lisent [ɔ̃].</td></tr>
-            <tr><th>Pourquoi ?</th><td>Même mécanisme : nasalisation de la voyelle orale de base o.</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>on/om non suivis d'une voyelle dans la même syllabe.</td></tr>
-            <tr><th>Exemples courants</th><td>bon, mon, ton, nombre, ombre, maison, garçon, oncle</td></tr>
-            <tr><th>Contre-exemples</th><td>donne (le n est suivi d'un e → pas nasal)</td></tr>
-            <tr><th>Exceptions</th><td>aucune notable à ce niveau</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Confondre [ɔ̃] avec [ɑ̃]</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« On fait un rond avec la bouche pour dire [ɔ̃] »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>bon, mon, ton, nombre, ombre, maison, garçon, oncle</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Schéma articulatoire :</strong> lèvres arrondies, voile du palais abaissé</td></tr>
-            <tr><th>À retenir</th><td>[ɔ̃] se distingue de [ɑ̃] avant tout par l'arrondissement des lèvres.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 5.3 — IN / IM / AIN / EIN [ɛ̃]</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>Troisième voyelle nasale de base, formée à partir du i.</td></tr>
-            <tr><th>Règle</th><td>in/im/ain/ein, suivis d'une consonne ou en fin de mot, se lisent [ɛ̃].</td></tr>
-            <tr><th>Pourquoi ?</th><td>Plusieurs graphies historiques différentes ont convergé vers le même son nasal.</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>Repérer ces quatre groupes non suivis d'une voyelle dans la même syllabe.</td></tr>
-            <tr><th>Exemples courants</th><td>vin, matin, important, pain, main, plein, frein</td></tr>
-            <tr><th>Contre-exemples</th><td>fine (n suivi d'un e → pas nasal), image (m suivi d'une voyelle)</td></tr>
-            <tr><th>Exceptions</th><td>aucune à ce stade</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Confondre [ɛ̃] avec [ɑ̃]</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« Quatre graphies, un seul son : in, im, ain, ein sonnent pareil »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>vin, matin, important, pain, main, plein, frein, demain</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Carte des graphies :</strong> in, im, ain, ein convergeant vers [ɛ̃]</td></tr>
-            <tr><th>À retenir</th><td>Beaucoup d'écritures différentes, un seul son nasal : [ɛ̃].</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <h3 style="border-bottom: 2px solid #74c69d; padding-bottom: 0.3rem;">UNITÉ 6 — Les premiers digrammes vocaliques</h3>
-
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 6.1 — OU [u]</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>Le digramme ou représente un son unique, fermé et arrondi.</td></tr>
-            <tr><th>Règle</th><td>Les deux lettres o et u placées côte à côte se lisent toujours [u].</td></tr>
-            <tr><th>Pourquoi ?</th><td>Convention graphique fixée depuis des siècles.</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>La séquence o-u dans cet ordre, hors accent ou tréma.</td></tr>
-            <tr><th>Exemples courants</th><td>vous, tout, jour, amour, rouge, bonjour</td></tr>
-            <tr><th>Contre-exemples</th><td>ne pas confondre avec u seul [y] (tu ≠ tou)</td></tr>
-            <tr><th>Exceptions</th><td>aucune</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Confondre ou [u] et u [y]</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« OU fait la bouche en O, comme pour souffler »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>vous, tout, jour, amour, rouge, bonjour, toujours, nous</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Schéma articulatoire :</strong> comparaison u [y] vs ou [u]</td></tr>
-            <tr><th>À retenir</th><td>ou = toujours [u], jamais [y] : deux graphies, deux sons bien distincts.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 6.2 — OI [wa]</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>Le digramme oi combine une semi-voyelle et une voyelle en un seul mouvement.</td></tr>
-            <tr><th>Règle</th><td>oi se lit [wa] dans la quasi-totalité des mots français.</td></tr>
-            <tr><th>Pourquoi ?</th><td>Historiquement, ce groupe notait un son qui a évolué en glissement [w] + [a].</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>La séquence o-i, dans cet ordre.</td></tr>
-            <tr><th>Exemples courants</th><td>moi, toi, roi, voiture, noir, trois</td></tr>
-            <tr><th>Contre-exemples</th><td>oignon (prononcé [ɔɲɔ̃], exception isolée)</td></tr>
-            <tr><th>Exceptions</th><td>oignon et quelques mots en -oigt (doigt)</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Lire oi comme en anglais (oil) au lieu de [wa]</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« OI se prononce toujours OUA »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>moi, toi, roi, voiture, noir, trois, mois, soir</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Carte des graphies :</strong> oi → [wa] avec oignon en bulle d'exception</td></tr>
-            <tr><th>À retenir</th><td>oi = [wa] presque sans exception : la lecture la plus fiable.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 6.3 — EAU / AU [o]</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>Deux graphies différentes convergent vers le même son fermé [o].</td></tr>
-            <tr><th>Règle</th><td>eau et au se lisent tous les deux [o].</td></tr>
-            <tr><th>Pourquoi ?</th><td>eau vient d'une évolution du latin aqua ; au partage la même issue phonétique.</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>Les séquences e-a-u ou a-u, dans cet ordre.</td></tr>
-            <tr><th>Exemples courants</th><td>eau, beau, château, gâteau, chaud, aussi, jaune</td></tr>
-            <tr><th>Contre-exemples</th><td>aucun dans le vocabulaire courant</td></tr>
-            <tr><th>Exceptions</th><td>aucune notable</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Vouloir prononcer chaque lettre du groupe eau séparément</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« Trois lettres, un seul son : eau se dit comme au, comme o »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>eau, beau, château, gâteau, chaud, aussi, jaune, oiseau</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Carte des graphies :</strong> o, au, eau convergeant vers [o]</td></tr>
-            <tr><th>À retenir</th><td>En français, plusieurs orthographes mènent au même son.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 6.4 — AI / EI [ɛ]</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>Ces deux digrammes se lisent comme un è ouvert.</td></tr>
-            <tr><th>Règle</th><td>ai et ei se lisent [ɛ], sauf le ai final de certains mots qui se lit [e] fermé.</td></tr>
-            <tr><th>Pourquoi ?</th><td>Ils notent historiquement une diphtongue qui s'est simplifiée en un seul son.</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>La séquence a-i ou e-i à l'intérieur d'un mot.</td></tr>
-            <tr><th>Exemples courants</th><td>mais, fait, plaie, neige, treize, maison</td></tr>
-            <tr><th>Contre-exemples</th><td>j'ai, vrai (ai en toute fin de mot → [e] fermé)</td></tr>
-            <tr><th>Exceptions</th><td>ai final de mot → [e] au lieu de [ɛ] (j'ai, gai, vrai)</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Oublier la nuance du ai final de mot</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« ai/ei à l'intérieur = è ouvert ; ai à la toute fin = é fermé »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>mais, fait, plaie, neige, treize, maison, j'ai, vrai</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★☆</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Carte des graphies :</strong> ai/ei interne [ɛ] vs ai final [e]</td></tr>
-            <tr><th>À retenir</th><td>La position du ai dans le mot (interne ou finale) change son son.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <h3 style="border-bottom: 2px solid #74c69d; padding-bottom: 0.3rem;">UNITÉ 7 — Liaison, premiers repères</h3>
-
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 7.1 — Reconnaître une liaison (Niveau A0-A1)</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>Une liaison est le réveil d'une consonne finale muette devant une voyelle.</td></tr>
-            <tr><th>Règle</th><td>Après un déterminant (les, un, mon) ou un pronom (nous, ils), si le mot suivant commence par une voyelle, la consonne muette se prononce.</td></tr>
-            <tr><th>Pourquoi ?</th><td>Le français évite d'enchaîner deux voyelles sans transition.</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>Un mot fini par une consonne muette suivi d'un mot commençant par a, e, i, o, u ou h muet.</td></tr>
-            <tr><th>Exemples courants</th><td>les_amis [lezami], un_ami [œ̃nami], nous_avons [nuzavɔ̃], ils_ont [ilzɔ̃]</td></tr>
-            <tr><th>Contre-exemples</th><td>les chats (chats commence par une consonne → pas de liaison)</td></tr>
-            <tr><th>Exceptions</th><td>voir niveau B1 pour le détail complet</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Oublier la liaison après les déterminants au pluriel</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« La consonne muette se réveille devant une voyelle, comme une porte qui s'ouvre »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>les amis, un ami, nous avons, ils ont, mes enfants, deux heures</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Flux de liaison :</strong> les + amis avec flèche réveillant le s en [z]</td></tr>
-            <tr><th>À retenir</th><td>Une consonne finale muette se réveille au contact de la voyelle suivante.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <h3 style="border-bottom: 2px solid #74c69d; padding-bottom: 0.3rem;">UNITÉ 8 — Logique des mots (Transparence et suffixes)</h3>
-
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 8.1 — Les mots « internationaux » évidents</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>Certains mots français ont une forme très proche de mots d'autres langues.</td></tr>
-            <tr><th>Règle</th><td>Beaucoup de noms de lieux publics, technologies ou culture partagent une racine commune.</td></tr>
-            <tr><th>Pourquoi ?</th><td>Héritage grec ou latin partagé à travers plusieurs langues.</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>Chercher la racine visible sous l'orthographe française.</td></tr>
-            <tr><th>Exemples courants</th><td>hôtel, taxi, restaurant, téléphone, musique, théâtre, université, hôpital</td></tr>
-            <tr><th>Contre-exemples</th><td>des mots comme « chose » ou « donc » sont purement français</td></tr>
-            <tr><th>Exceptions</th><td>la ressemblance de forme ne garantit jamais une prononciation identique</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Croire qu'un mot transparent se prononce comme dans sa propre langue</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« Repérer la racine pour le sens, utiliser le rythme français pour la prononciation »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>hôtel, taxi, restaurant, téléphone, musique, théâtre, université, hôpital</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★☆</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Arbre de famille de mots :</strong> téléphone au centre avec racines tēle et phōnē</td></tr>
-            <tr><th>À retenir</th><td>Reconnaître une racine internationale aide à deviner le sens, pas la prononciation.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 8.2 — Les suffixes universels (-tion, -ique, -al)</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>Certaines terminaisons françaises se retrouvent sous une forme proche dans d'autres langues.</td></tr>
-            <tr><th>Règle</th><td>-tion se lit [sjɔ̃] en français et sert à former des noms abstraits.</td></tr>
-            <tr><th>Pourquoi ?</th><td>Suffixes directement hérités du latin (-tio, -icus, -alis).</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>Repérer la terminaison -tion, -ique ou -al à la fin d'un mot.</td></tr>
-            <tr><th>Exemples courants</th><td>nation, situation, attention, question, musique, logique, animal, national</td></tr>
-            <tr><th>Contre-exemples</th><td>station désigne un lieu concret mais garde la même forme</td></tr>
-            <tr><th>Exceptions</th><td>si le t est précédé d'un s, -tion se lit [tjɔ̃] (ex. question)</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Prononcer -tion comme [ʃ] ou [tsj] au lieu du [sjɔ̃] français</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« -tion en français se dit toujours [sjɔ̃], sauf après s »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>nation, situation, attention, question, musique, logique, animal, national</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Arbre de famille de mots :</strong> suffixe latin -tio reliant différentes langues</td></tr>
-            <tr><th>À retenir</th><td>Une terminaison reconnaissable aide à comprendre, sa prononciation reste française.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div class="lesson-sample">
-      <div class="lesson-sample-header">
-        <h3>Leçon 8.3 — Les verbes de base à l'infinitif (-er, -ir, -re)</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>Les verbes français à l'infinitif se répartissent en groupes selon leur terminaison.</td></tr>
-            <tr><th>Règle</th><td>Infinitifs en -er (parler, manger) : le r final ne se prononce jamais ! Infinitifs en -ir / -re gardent leur logique propre.</td></tr>
-            <tr><th>Pourquoi ?</th><td>-er est la terminaison la plus fréquente et la plus régulière du français.</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>Vérifier si l'infinitif se termine par -er : r systématiquement muet.</td></tr>
-            <tr><th>Exemples courants</th><td>parler, manger, aller, chanter, regarder, écouter</td></tr>
-            <tr><th>Contre-exemples</th><td>être, avoir (verbes irréguliers indispensables)</td></tr>
-            <tr><th>Exceptions</th><td>aucune pour les infinitifs réguliers en -er</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Prononcer le r final d'un verbe en -er comme dans un nom (hiver)</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« Tous les verbes en -ER perdent leur R à l'oral »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>parler, manger, aller, chanter, regarder, écouter, aimer, travailler</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Carte des graphies :</strong> verbe en -er avec r barré vs nom en -er (hiver) avec r actif</td></tr>
-            <tr><th>À retenir</th><td>Le -er des infinitifs est une des finales les plus prévisibles du français.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </section>
-
-  <!-- NIVEAU A2 -->
-    <!-- NIVEAU A2 -->
-  <section id="a2" class="mp-section">
-    <h2><span class="level-tag lvl-a2">A2</span> NIVEAU A2 — « Structures et complexités contextuelles »</h2>
-    <p>Au niveau A2, la lecture s'accélère et intègre les combinaisons de sons et la dynamique des phrases.</p>
-
-    <div class="unit-card">
-      <h4>Unité 0 — Digrammes et trigrammes vocaliques (Les mariages de voyelles)</h4>
-      <div style="overflow-x: auto; margin-top: 0.5rem;">
-        <table class="mp-table">
-          <thead>
-            <tr>
-              <th>Mariage écrit</th>
-              <th>Son (API)</th>
-              <th>Exemple clair</th>
-              <th>Astuce / Règle de lecture</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr><td><strong>ai, ei</strong></td><td>[ɛ]</td><td>m<strong>ai</strong>s, n<strong>ei</strong>ge, ch<strong>ai</strong>se</td><td>Se lit comme un <em>e</em> ouvert (è).</td></tr>
-            <tr><td><strong>au, eau</strong></td><td>[o]</td><td>j<strong>au</strong>ne, <strong>eau</strong>, ch<strong>â</strong>t<strong>eau</strong></td><td>Se lit toujours comme un <em>o</em> fermé et pur.</td></tr>
-            <tr><td><strong>eu, œu</strong></td><td>[ø] / [œ]</td><td>p<strong>eu</strong>, s<strong>œu</strong>r, c<strong>œu</strong>r</td><td>Lèvres très arrondies en avant.</td></tr>
-            <tr><td><strong>oi</strong></td><td>[wa]</td><td>m<strong>oi</strong>, t<strong>oi</strong>, r<strong>oi</strong>, b<strong>oi</strong>s</td><td>Combinaison [o] + [a] prononcée en une seule impulsion « wa ».</td></tr>
-            <tr><td><strong>oin</strong></td><td>[wɛ̃]</td><td>l<strong>oin</strong>, c<strong>oin</strong>, shamp<strong>oin</strong>g</td><td>Son « wa » suivi du son nasal IN [ɛ̃].</td></tr>
-            <tr><td><strong>ou</strong></td><td>[u]</td><td>j<strong>ou</strong>r, r<strong>ou</strong>ge, v<strong>ou</strong>s</td><td>Le son « oo » classique, bouche bien fermée. Ne pas confondre avec <em>u</em> seul [y] !</td></tr>
-            <tr><td><strong>ui</strong></td><td>[ɥi]</td><td>h<strong>ui</strong>t, n<strong>ui</strong>t, fr<strong>ui</strong>t</td><td>Glissement rapide du <em>u</em> français vers le <em>i</em>.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <div class="lesson-sample">
-      <div class="lesson-sample-header" style="background: #1b5e20;">
-        <h3>🟡 A2 — Unité 1, leçon 1.1 : Les semi-voyelles ([j], [w], [ɥ])</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>Une voyelle (i, ou, u) compressée devant une autre voyelle prononcée.</td></tr>
-            <tr><th>Règle</th><td>• i/y + voyelle → [j] (yod) : <em>pied, fille, yeux</em> <br>• ou + voyelle → [w] : <em>oui, jouer, moi</em> <br>• u + voyelle → [ɥ] : <em>huit, nuit, nuage</em></td></tr>
-            <tr><th>Pourquoi ?</th><td>Le français glisse rapidement de la voyelle fermée vers la voyelle suivante sans interruption.</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>Une voyelle haute (i, ou, u) placée juste devant une autre voyelle dans la même syllabe.</td></tr>
-            <tr><th>Exemples courants</th><td>p<strong>i</strong>ed [pje], f<strong>i</strong>lle [fij], <strong>ou</strong>i [wi], j<strong>ou</strong>er [zwe], h<strong>u</strong>it [ɥit], n<strong>u</strong>age [nɥaʒ]</td></tr>
-            <tr><th>Contre-exemples</th><td>vie [vi] (le e est muet, donc i reste une vraie voyelle [i])</td></tr>
-            <tr><th>Exceptions</th><td>mots d'emprunt ou diérèse poétique (voir C1)</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Prononcer en deux syllabes séparées (ex. « ou-i » au lieu de « oui » [wi])</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« I, OU et U se glissent comme des patineurs devant une autre voyelle ! »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>pied, fille, yeux, oui, jouer, moi, huit, nuit, nuage</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Schéma articulatoire :</strong> flèche de glissement rapide des voyelles hautes</td></tr>
-            <tr><th>À retenir</th><td>i, ou, u + voyelle = glissement immédiat en une seule syllabe.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <div class="unit-card">
-      <h4>Unité 2 — Consonnes composées et digrammes</h4>
-      <ul>
-        <li><strong>2.1 CH :</strong> Se lit toujours [ʃ] comme « sh » (ex. <em><strong>ch</strong>at, <strong>ch</strong>âteau</em>).</li>
-        <li><strong>2.2 GN :</strong> Son palatal doux [ɲ] (ex. <em>mon<strong>gn</strong>e, campa<strong>gn</strong>e</em>).</li>
-        <li><strong>2.3 PH :</strong> Se lit [f] (ex. <em><strong>ph</strong>oto, <strong>ph</strong>onétique</em>).</li>
-        <li><strong>2.4 TH :</strong> Le <em>h</em> est muet, se lit toujours un simple [t] (ex. <em><strong>th</strong>é, <strong>th</strong>éâtre</em> — jamais de son anglais !).</li>
-        <li><strong>2.5 QU :</strong> Se lit un simple [k] (ex. <em><strong>qu</strong>i, <strong>qu</strong>estion</em>).</li>
-      </ul>
-    </div>
-
-    <div class="lesson-sample">
-      <div class="lesson-sample-header" style="background: #1b5e20;">
-        <h3>🟡 A2 — Unité 3, leçon 3.2 : Le groupe ILL et ses exceptions</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>Le groupe -ill se lit [j] après voyelle, mais connaît 4 exceptions majeures.</td></tr>
-            <tr><th>Règle générale</th><td>Après voyelle, <em>ill</em> = [j] (ex. <em>f<strong>ill</strong>e</em> [fij], <em>trava<strong>il</strong></em> [tʁavaj], <em>sole<strong>il</strong></em> [sɔlɛj]).</td></tr>
-            <tr><th>Pourquoi ?</th><td>Évolution du L mouillé latin vers le son yod moderne.</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>Chercher si ill est précédé d'une voyelle ou d'une consonne.</td></tr>
-            <tr><th>Exemples généraux</th><td>fille [fij], travail [tʁavaj], soleil [sɔlɛj], famille [famij]</td></tr>
-            <tr><th>Contre-exemples</th><td>fil [fil] (un seul l = son l classique)</td></tr>
-            <tr><th>Exceptions majeures en [il]</th><td><strong>Ville, mille, tranquille, Lille</strong> (et leurs dérivés : village, million, tranquillité)</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Prononcer « vi-ye » pour ville ou « tran-ki-ye » pour tranquille</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« <strong>Ville, mille, tranquille</strong>, mon village à <strong>Lille</strong> n'est pas si tranquille »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>fille, famille, soleil, ville, mille, tranquille, Lille, village</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Carte des graphies :</strong> ill → [j] avec bulle « 4 exceptions en [il] »</td></tr>
-            <tr><th>À retenir</th><td>ill = [j] partout, sauf dans Ville, mille, tranquille, Lille.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <div class="unit-card">
-      <h4>Unité 4 — Le e caduc et la loi des 3 consonnes</h4>
-      <ul>
-        <li><strong>4.1 Règle simplifiée :</strong> On garde le <em>e</em> instable s'il évite de prononcer 3 consonnes consécutives à l'oral. Sinon, il tombe ! (ex. <em>je ne sais pas</em> → oral rapide : <em>j'n'sais pas</em>).</li>
-      </ul>
-    </div>
-
-    <div class="lesson-sample">
-      <div class="lesson-sample-header" style="background: #1b5e20;">
-        <h3>🟡 A2 — Unité 5, leçon 5.1 : Le H muet vs H aspiré</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>Deux catégories de H invisibles à l'oreille mais aux effets opposés.</td></tr>
-            <tr><th>Règle H muet</th><td>Vitre transparente : élision et liaison obligatoires (<em>l'homme, l'histoire, les_hommes</em>).</td></tr>
-            <tr><th>Règle H aspiré</th><td>Mur de brique : bloque l'élision et la liaison (<em>le héros, la honte, les / héros</em>).</td></tr>
-            <tr><th>Pourquoi ?</th><td>Le H muet est d'origine latine ; le H aspiré est historiquement d'origine germanique.</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>Le dictionnaire indique le H aspiré avec un astérisque (*) ou une marque.</td></tr>
-            <tr><th>Exemples H muet</th><td>l'<strong>h</strong>omme, l'<strong>h</strong>istoire, l'<strong>h</strong>ôtel, l'<strong>h</strong>eure, les_<strong>h</strong>ommes [lezɔm]</td></tr>
-            <tr><th>Exemples H aspiré</th><td>le <strong>h</strong>éros, la <strong>h</strong>onte, le <strong>h</strong>ardis, les / <strong>h</strong>éros [le eʁo]</td></tr>
-            <tr><th>Exceptions</th><td>le héros (H aspiré) vs l'héroïne (H muet !)</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Faire la liaison « les-z-héros » (faute très fréquente)</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« H muet = vitre transparente ; H aspiré = mur de brique »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>l'homme, l'histoire, l'hôtel, l'heure, le héros, la honte, le haricot</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★☆</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Flux de liaison :</strong> vitre transparente vs mur rouge brique</td></tr>
-            <tr><th>À retenir</th><td>H muet laisse passer la liaison ; H aspiré la bloque net.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <div class="unit-card">
-      <h4>Unité 6 — Impact sonore du genre et du nombre</h4>
-      <ul>
-        <li><strong>6.1 Féminin :</strong> L'ajout du <em>-e</em> féminin réveille la consonne muette précédente ! (ex. <em>peti<strong>t</strong></em> [pəti] → <em>peti<strong>te</strong></em> [pətit]).</li>
-        <li><strong>6.2 Pluriel :</strong> Le <em>-s</em> ou <em>-x</em> reste muet à l'oral. C'est l'article (<em>le/les, un/des</em>) qui indique le nombre à l'oreille !</li>
-      </ul>
-    </div>
-
-    <div class="unit-card">
-      <h4>Unité 7 — Mots fréquents irréguliers, sigles et abréviations</h4>
-      <ul>
-        <li><strong>7.1 Mots irréguliers indispensables :</strong>
-          <br>• <em>monsieur</em> [məsjø] (le <em>on</em> se lit [ə], le <em>r</em> est muet)
-          <br>• <em>femme</em> [fam] (le <em>e</em> se lit [a])
-          <br>• <em>oignon</em> [ɔɲɔ̃] (le <em>i</em> est totalement muet)
-          <br>• <em>second / seconde</em> [səɡɔ̃ / səɡɔ̃d] (le <em>c</em> se lit [g])
-          <br>• <em>gentil</em> [ʒɑ̃ti] (le <em>l</em> final est muet)
-          <br>• <em>fils</em> [fis] (le <em>l</em> est muet, le <em>s</em> final s'entend)
-          <br>• <em>œuf / œufs</em> [œf] au singulier (f prononcé) → [ø] au pluriel (f et s muets)
-          <br>• <em>bœuf / bœufs</em> [bœf] au singulier → [bø] au pluriel
-        </li>
-        <li><strong>7.2 Sigles et abréviations :</strong>
-          <br>• Sigles épelés lettre par lettre : <em>SNCF</em> [ɛs-ɛn-se-ɛf], <em>RATP</em> [ɛʁ-a-te-pe], <em>TGV</em> [te-ʒe-ve].
-          <br>• Acronymes lus comme des mots : <em>OTAN</em> [ɔtɑ̃], <em>ONU</em> [ɔny].
-          <br>• Abréviations courantes : <em>Mme</em> = Madame, <em>M.</em> = Monsieur, <em>Dr</em> = Docteur, <em>Pr</em> = Professeur.
-        </li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- NIVEAU B1 -->
-    <!-- NIVEAU B1 -->
-  <section id="b1" class="mp-section">
-    <h2><span class="level-tag lvl-b1">B1</span> NIVEAU B1 — « Liaisons, homophones, nombres et dénasalisation »</h2>
-
-    <div class="lesson-sample">
-      <div class="lesson-sample-header" style="background: #f57f17;">
-        <h3>🟠 B1 — Unité 1, leçon 1.1 : Les trois catégories de liaisons</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>Le réveil d'une consonne finale muette enchaînée sur la voyelle suivante.</td></tr>
-            <tr><th>1. Liaison obligatoire</th><td>Toujours faite : déterminant + nom (<em>les_amis</em>), pronom + verbe (<em>nous_avons</em>), adjectif + nom (<em>un grand_homme</em>).</td></tr>
-            <tr><th>2. Liaison interdite</th><td>Jamais faite : après « et » (<em>et / il</em>), devant H aspiré (<em>les / héros</em>), après un nom au singulier (<em>un étudiant / intelligent</em>).</td></tr>
-            <tr><th>3. Liaison facultative</th><td>Selon le registre : verbe + complément (<em>je suis(-)allé</em>), adverbe + adjectif (<em>très(-)intéressant</em>).</td></tr>
-            <tr><th>Pourquoi ?</th><td>Éviter l'hiatus vocalique et assurer la fluidité du groupe rythmique.</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>Distinguer le bloc grammatical (obligatoire) des séparations de sens (interdite).</td></tr>
-            <tr><th>Exemples obligatoires</th><td>les_amis [lezami], un_ami [œ̃nami], mon_enfant [mɔ̃nɑ̃fɑ̃], chez_eux [ʃezø]</td></tr>
-            <tr><th>Exemples interdits</th><td>et / il [e il], un garçon / intelligent [œ̃ gaʁsɔ̃ ɛ̃tɛliʒɑ̃], les / héros [le eʁo]</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Faire la liaison après « et » (ex. « et-t-il »)</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« Après "ET", liaison jamais ! Entre mot outil et mot clé, liaison obligatoire ! »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>les amis, un ami, nous avons, et il, un étudiant intelligent, les héros</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Flux de liaison :</strong> 3 voyants (vert = obligatoire, rouge = interdite, orange = facultative)</td></tr>
-            <tr><th>À retenir</th><td>L'outil grammatical crée la liaison ; la pause sémantique la bloque.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <div class="lesson-sample">
-      <div class="lesson-sample-header" style="background: #f57f17;">
-        <h3>🟠 B1 — Unité 2, leçon 2.1 : Nombres et la prononciation du mot PLUS</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>Le mot PLUS et les chiffres (6, 10, 9) changent de son selon le contexte.</td></tr>
-            <tr><th>PLUS négatif</th><td>[ply] sans S : <em>Je ne veux plus venir</em> [ply].</td></tr>
-            <tr><th>PLUS positif / math</th><td>[plys] avec S : <em>Deux plus deux</em> [plys], <em>J'en veux plus !</em> [plys].</td></tr>
-            <tr><th>PLUS + voyelle</th><td>[plyz] en liaison : <em>Plus_utile</em> [plyzytil].</td></tr>
-            <tr><th>Règle pour 6 (six) & 10 (dix)</th><td>• Isolé / fin de phrase → [sis] / [dis] <br>• Devant consonne → [si] / [di] (<em>six chats</em>) <br>• Devant voyelle → [siz] / [diz] (<em>six_amis</em>)</td></tr>
-            <tr><th>Règle pour 9 (neuf)</th><td>Devant <em>ans</em> et <em>heures</em> → f devient [v] (<em>neuf_ans</em> [nœvɑ̃], <em>neuf_heures</em> [nœvœʁ]).</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Prononcer le s de PLUS dans une négation (ex. « je veux plys venir »)</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« Négation = PLUS silencieux ; Addition = PLUS sonore S ! »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>plus, six, dix, neuf, six chats, six amis, neuf ans, neuf heures</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Carte des graphies :</strong> la balance +/- du mot PLUS et les 3 visages de SIX/DIX</td></tr>
-            <tr><th>À retenir</th><td>Le sens (négation vs quantité) gouverne le S de PLUS.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <div class="unit-card">
-      <h4>Unité 3 — Dénasalisation & Enchaînement nasal</h4>
-      <ul>
-        <li><strong>3.1 Dénasalisation de l'adjectif masculin :</strong> Quand un adjectif masculin nasal se lie à un nom commençant par une voyelle, la voyelle se dénasalise partiellement ou complètement et le <em>n</em> devient la consonne d'attaque du mot suivant :
-          <br>• <em>bon</em> [bɔ̃] → <em>un bon_ami</em> [bɔ.na.mi]
-          <br>• <em>ancien</em> [ɑ̃sjɛ̃] → <em>un_ancien_élève</em> [ɑ̃.sjɛ.ne.lɛv]
-        </li>
-      </ul>
-    </div>
-
-    <div class="unit-card">
-      <h4>Unité 4 — Terminaisons verbales silencieuses à l'oral</h4>
-      <ul>
-        <li><strong>4.1 La terminaison -ent :</strong> À la 3e personne du pluriel des verbes au présent, <em>-ent</em> est <strong>100% muet</strong> ! (ex. <em>il parle</em> [il paʁl] et <em>ils parlent</em> [il paʁl] ont exactement le même son).</li>
-        <li><strong>4.2 Le rôle du pronom :</strong> C'est le pronom ou le contexte qui indique le pluriel à l'oral, pas la terminaison écrite du verbe.</li>
-      </ul>
-    </div>
-
-    <div class="lesson-sample">
-      <div class="lesson-sample-header" style="background: #f57f17;">
-        <h3>🟠 B1 — Unité 5, leçon 5.1 : Homophones a / à et test de substitution</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>Deux mots identiques à l'oral, mais différents à l'écrit.</td></tr>
-            <tr><th>Règle</th><td><strong>a</strong> (sans accent) = verbe avoir ; <strong>à</strong> (avec accent grave) = préposition.</td></tr>
-            <tr><th>👂 Recette sonore</th><td>Les deux se prononcent exactement [a]. Seul le sens et le test de substitution permettent de trancher !</td></tr>
-            <tr><th>👁️ Test magique</th><td>Remplacer mentalement par <strong>« avait »</strong> : si la phrase reste correcte → c'est le verbe <strong>a</strong> ! Sinon → c'est la préposition <strong>à</strong>.</td></tr>
-            <tr><th>Exemples courants</th><td>Il <strong>a</strong> un chat (→ Il <em>avait</em> un chat ✅) / Il va <strong>à</strong> Paris (→ Il va <em>avait</em> Paris ❌)</td></tr>
-            <tr><th>💡 Astuce</th><td>« Si tu peux dire <em>avait</em>, n'mets pas d'accent sur ton A ! »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>avoir, aller, penser à, à Paris, à demain, à bientôt</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Carte des graphies :</strong> la balance de substitution « avait » penchant vers A ou À</td></tr>
-            <tr><th>À retenir</th><td>Le test « avait » tranche immédiatement entre a et à.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <div class="unit-card">
-      <h4>Unité 6 — Familles de mots (La consonne muette cachée)</h4>
-      <ul>
-        <li><strong>6.1 Révéler la consonne finale :</strong> La consonne finale muette d'un mot masculin se révèle grâce au féminin ou aux mots dérivés de la même famille :
-          <br>• <em>gran<strong>d</strong></em> [ɡʁɑ̃] → <em>gran<strong>de</strong></em> [ɡʁɑ̃d] / <em>gran<strong>deur</strong></em> [ɡʁɑ̃dœʁ] (le <strong>d</strong> apparaît).
-          <br>• <em>peti<strong>t</strong></em> [pəti] → <em>peti<strong>te</strong></em> [pətit] / <em>peti<strong>tesse</strong></em> [pətitɛs] (le <strong>t</strong> apparaît).
-          <br>• <em>blan<strong>c</strong></em> [blɑ̃] → <em>blan<strong>che</strong></em> [blɑ̃ʃ] / <em>blan<strong>chir</strong></em> [blɑ̃ʃiʁ] (le <strong>c</strong> devient <strong>ch</strong>).
-          <br>• <em>plom<strong>b</strong></em> [plɔ̃] → <em>plom<strong>bier</strong></em> [plɔ̃bje] (le <strong>b</strong> apparaît).
-        </li>
-      </ul>
-    </div>
-
-    <div class="unit-card">
-      <h4>Unité 7 — Homographes à double prononciation</h4>
-      <ul>
-        <li><strong>7.1 Mots identiques à l'écrit, différents à l'oral :</strong>
-          <br>• <em>est</em> : verbe être = [ɛ] (<em>Il <strong>est</strong> ici</em>) vs point cardinal = [ɛst] (<em>L'<strong>Est</strong> de la France</em>).
-          <br>• <em>fils</em> : le fils (enfant) = [fis] vs les fils (de couture) = [fil].
-          <br>• <em>couvent</em> : un couvent (nom) = [kuvɑ̃] vs ils couvent (verbe couver) = [kuv].
-          <br>• <em>président</em> : le président (nom) = [pʁezidɑ̃] vs ils président (verbe présider) = [pʁezid].
-        </li>
-      </ul>
-    </div>
-
-    <div class="unit-card">
-      <h4>Unité 8 — Rythme et accent tonique du français</h4>
-      <ul>
-        <li><strong>8.1 Accent de groupe rythmique :</strong> Contrairement à l'anglais ou au russe, le français n'a <strong>pas d'accent tonique fixe à l'intérieur des mots isolés</strong>.</li>
-        <li><strong>8.2 L'allongement final :</strong> L'accent tonique tombe toujours uniquement sur la <strong>dernière syllabe prononcée du groupe de mots</strong> (ex. <em>Un petit chat <strong>BLANC</strong></em>). C'est ce qui donne au français son rythme mélodique fluide et régulier.</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- NIVEAU B2 -->
-    <!-- NIVEAU B2 -->
-  <section id="b2" class="mp-section">
-    <h2><span class="level-tag lvl-b2">B2</span> NIVEAU B2 — « Lettres internes silencieuses, assimilation & oral familier »</h2>
-
-    <div class="lesson-sample">
-      <div class="lesson-sample-header" style="background: #e65100;">
-        <h3>🔴 B2 — Unité 1, leçon 1.1 : Les consonnes muettes internes</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>Des consonnes écrites à l'intérieur des mots mais muettes à l'oral.</td></tr>
-            <tr><th>Règle P muet</th><td>Le P est totalement muet dans : <em>scul<strong>p</strong>ture</em> [skyltyʁ], <em>com<strong>p</strong>ter</em> [kɔ̃te], <em>se<strong>p</strong>t</em> [sɛt], <em>cor<strong>p</strong>s</em> [kɔʁ].</td></tr>
-            <tr><th>Règle M muet</th><td>Le M ne se prononce pas dans : <em>auto<strong>m</strong>ne</em> [otɔn], <em>condam<strong>n</strong>er</em> [kɔ̃dane].</td></tr>
-            <tr><th>Règle B / G muets</th><td>Le B est muet dans <em>plom<strong>b</strong></em> [plɔ̃] (mais réapparaît dans <em>plombier</em>). Le G est muet dans <em>san<strong>g</strong></em> [sɑ̃], <em>lon<strong>g</strong></em> [lɔ̃].</td></tr>
-            <tr><th>Pourquoi ?</th><td>Consonnes étymologiques réintroduites par les érudits de la Renaissance (du latin <em>sculptura, computare, septem</em>).</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>Apprendre ces familles de mots pour éviter la sur-prononciation orthographique.</td></tr>
-            <tr><th>Exemples courants</th><td>sculpture, compter, compte, sept, corps, automne, condamner, plomb, sang</td></tr>
-            <tr><th>Contre-exemples</th><td>septembre (ici le p est prononcé [sɛptɑ̃bʁ] !)</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Prononcer le p de « sculpture » ou de « sept »</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« Sept p'tits sculpteurs comptent leur corps sans prononcer leur P ! »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>sculpture, compter, sept, corps, automne, condamner, plomb, sang</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★☆</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Arbre de famille de mots :</strong> le mot latin d'origine et la consonne muette en grisé</td></tr>
-            <tr><th>À retenir</th><td>Le p de sculpture, compte, sept et le m d'automne sont muets.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <div class="lesson-sample">
-      <div class="lesson-sample-header" style="background: #e65100;">
-        <h3>🔴 B2 — Unité 2, leçon 2.1 : Contractions et réductions de l'oral rapide</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>Chute massive du e caduc et effacement du « ne » en français parlé spontané.</td></tr>
-            <tr><th>Règle</th><td>• « Je ne sais pas » → [ʃsɛpa] (ch'sais pas) <br>• « Tu es » → [tɛ] (t'es) <br>• Suppression du « ne » : <em>J'sais pas, il vient pas</em></td></tr>
-            <tr><th>Pourquoi ?</th><td>Recherche d'économie musculaire et accélération du débit rythmique à l'oral spontané.</td></tr>
-            <tr><th>Comment reconnaître ?</th><td>Fréquent dans les conversations informelles, films, chansons et médias courants.</td></tr>
-            <tr><th>Exemples courants</th><td>Ch'sais pas, T'es où ?, Y a pas de quoi, C'est pas vrai</td></tr>
-            <tr><th>Contre-exemples</th><td>Discours officiel ou lecture formelle où tous les e et ne sont maintenus.</td></tr>
-            <tr><th>Erreurs fréquentes</th><td>Bloquer sur la compréhension orale en cherchant chaque mot séparé.</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« À l'oral rapide : le NE s'envole, le JE devient CH devant S ! »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>ch'sais pas, t'es, y a, c'est pas, il vient pas</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Échelle de registre :</strong> du style soutenu au style familier spontané</td></tr>
-            <tr><th>À retenir</th><td>L'oral spontané compresse la phrase en blocs consonantiques denses.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <div class="unit-card">
-      <h4>Unité 3 — Accentuation des mots d'emprunt et anglicismes</h4>
-      <ul>
-        <li><strong>3.1 Digestion phonétique :</strong> Les mots empruntés à l'anglais (<em>week-end, parking, smartphone</em>) gardent une prononciation proche mais adoptent <strong>l'accent tonique français sur la dernière syllabe</strong> (ex. <em>week-END</em>, pas <em>WEEK-end</em>).</li>
-      </ul>
-    </div>
-
-    <div class="unit-card">
-      <h4>Unité 4 — Phénomènes d'assimilation et sonorisation</h4>
-      <ul>
-        <li><strong>4.1 Sonorisation / Dévoisement en contexte :</strong> À débit rapide, deux consonnes voisines s'influencent mutuellement :
-          <br>• <em>obtenir</em> → le <em>b</em> sonore devant le <em>t</em> sourd se dévoise en [p] : [ɔptəniʁ].
-          <br>• <em>absurde</em> → le <em>b</em> devant <em>s</em> se lit [p] : [apsyʁd].
-          <br>• <em>anecdote</em> → le <em>c</em> [k] devant <em>d</em> se sonorise en [ɡ] : [anɛɡdɔt].
-        </li>
-      </ul>
-    </div>
-
-    <div class="unit-card">
-      <h4>Unité 5 — Aperçu des accents régionaux et de la francophonie</h4>
-      <ul>
-        <li><strong>5.1 Accent méridional (Sud de la France) :</strong> Prononciation régulière des <em>e</em> muets finaux (ex. <em>une maison-ne</em>) et voyelles nasales plus ouvertes.</li>
-        <li><strong>5.2 Français du Québec :</strong> Affrication du <em>t/d</em> devant <em>i/u</em> (ex. <em>tu</em> prononcé proche de <em>tsu</em>) et maintien de distinctions de longueurs vocaliques anciennes.</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- NIVEAU C1 -->
-    <!-- NIVEAU C1 -->
-  <section id="c1" class="mp-section">
-    <h2><span class="level-tag lvl-c1">C1</span> NIVEAU C1 — « Finesse stylistique, poésie et prosodie »</h2>
-
-    <div class="lesson-sample">
-      <div class="lesson-sample-header" style="background: #4a148c;">
-        <h3>🟣 C1 — Unité 1, leçon 1.1 : Le e muet en poésie classique et scansion</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>La règle métrique du e muet dans la versification française classique.</td></tr>
-            <tr><th>Règle générale</th><td>• Devant consonne → le <em>e</em> compte pour une vraie syllabe prononcée. <br>• Devant voyelle ou en fin de vers → le <em>e</em> s'élide et ne compte pas.</td></tr>
-            <tr><th>Pourquoi ?</th><td>Fixé au XVIIe siècle pour maintenir le nombre exact de pieds (ex. 12 syllabes dans un alexandrin).</td></tr>
-            <tr><th>Exemple classique</th><td><em>« La vi / e_est / brè / ve »</em> vs <em>« Un / pe / ti / t_en / fan / t_ap / por / te / son / li / vre »</em></td></tr>
-            <tr><th>💡 Astuce</th><td>« En poésie : E devant consonne se chante ; E devant voyelle s'efface ! »</td></tr>
-            <tr><th>Visuel associé</th><td><strong>Échelle de registre / Scansion :</strong> découpage syllabique d'un alexandrin</td></tr>
-            <tr><th>À retenir</th><td>En vers classique, le e muet retrouve sa valeur syllabique pleine devant consonne.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <div class="unit-card">
-      <h4>Unité 2 — Diérèse et synérèse</h4>
-      <ul>
-        <li><strong>2.1 Diérèse stylistique :</strong> Prononciation poétique en deux syllabes distinctes d'un groupe habituellement fondu (ex. <em>li-on</em> en 2 syllabes au lieu d'une) pour respecter le nombre de pieds du vers.</li>
-      </ul>
-    </div>
-
-    <div class="unit-card">
-      <h4>Unité 3 — Doublets étymologiques (Formes populaires vs savantes)</h4>
-      <ul>
-        <li><strong>3.1 Évolution parallèle :</strong> Comprendre pourquoi un même mot latin a donné deux formes en français : une forme populaire usée à l'oral (<em>frêle</em>) et une forme savante plus proche du latin (<em>fragile</em>).</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- NIVEAU C2 -->
-  <section id="c2" class="mp-section">
-    <h2><span class="level-tag lvl-c2">C2</span> NIVEAU C2 — « Expertise, règles probabilistes & orthographe inverse »</h2>
-
-    <div class="lesson-sample">
-      <div class="lesson-sample-header" style="background: #bf360c;">
-        <h3>⚫ C2 — Unité 1, leçon 1.1 : La réforme orthographique de 1990</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>Régularisations officielles de l'orthographe française tolérées et admises.</td></tr>
-            <tr><th>Règles clés</th><td>• Circonflexe optionnel sur I et U (<em>coût → cout, connaître → connaitre</em>), sauf mots différenciateurs (<em>sûr/sur, mûr/mur</em>). <br>• Soudure de mots composés (<em>week-end → weekend</em>). <br>• Simplification de graphies anciennes (<em>oignon → ognon, nénuphar → nénufar</em>).</td></tr>
-            <tr><th>Coexistence</th><td>Les deux orthographes (traditionnelle et rectifiée) sont toutes deux officielles et correctes.</td></tr>
-            <tr><th>💡 Astuce</th><td>« Un expert C2 reconnaît les deux formes sans juger l'une comme fautive ! »</td></tr>
-            <tr><th>Visuel associé</th><td><strong>Carte des graphies :</strong> tableau comparatif Graphie 1990 vs Graphie traditionnelle</td></tr>
-            <tr><th>À retenir</th><td>Les rectifications de 1990 coexistent avec l'orthographe traditionnelle.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <div class="unit-card">
-      <h4>Unité 2 — Les règles probabilistes de lecture</h4>
-      <ul>
-        <li><strong>2.1 Deviner la prononciation d'un mot inconnu :</strong> Un locuteur expert applique des probabilités graphématiques :
-          <br>• Voyelle + consonne double + <em>e</em> → la voyelle précédente est toujours ouverte ou fermée sans accent (ex. <em>b<strong>e</strong>lle</em> [bɛl], <em>p<strong>a</strong>sser</em> [pase]).
-          <br>• Suffixe <em>-tion</em> → lu [sjɔ̃] à 99 % (seul <em>s + tion</em> fait [tjɔ̃], ex. <em>ques<strong>tion</strong></em>).
-        </li>
-      </ul>
-    </div>
-
-    <div class="unit-card">
-      <h4>Unité 3 — L'orthographe inverse (Écrire correctement ce qu'on entend)</h4>
-      <ul>
-        <li><strong>3.1 Du son à la bonne graphie :</strong> Choisir l'orthographe exacte d'un son entendu :
-          <br>• Son [o] en fin de mot → choisir entre <em>o</em>, <em>au</em>, <em>eau</em> en s'appuyant sur la grammaire (ex. noms d'objets ou d'eau souvent en <em>eau</em> : <em>château, gâteau, bateau</em>).
-          <br>• Son [ɛ̃] → vérifier s'il s'agit d'un mot de famille avec <em>am/an</em> ou <em>in/ain</em> (ex. <em>pain → panification</em> vs <em>fin → finition</em>).
-        </li>
-      </ul>
-    </div>
-
-    <div class="unit-card">
-      <h4>Unité 4 — Lettres fantômes et consonnes étymologiques</h4>
-      <ul>
-        <li><strong>4.1 L'héritage historique :</strong> Comprendre les lettres muettes historiques conservées pour des raisons d'étymologie ou d'homophonie : le <em>p</em> de <em>sept</em> (latin <em>septem</em>), le <em>g</em> de <em>doigt</em> (latin <em>digitum</em>), le <em>h</em> de <em>théâtre</em>.</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- SECTION 1: TROIS LEÇONS ENTIÈREMENT RÉDIGÉES (ÉCHANTILLONS NIVEAUX AVANCÉS) -->
-  <section id="exemples" class="mp-section">
-    <h2>1. Leçons modèles des niveaux A2 et B1</h2>
-    <p>Exemples de leçons rédigées suivant le même gabarit fixe sans jargon :</p>
-
-    <!-- LESSON SAMPLE 2 -->
-    <div class="lesson-sample">
-      <div class="lesson-sample-header" style="background: #1b5e20;">
-        <h3>🟡 A2 — Unité 5, leçon 5.1 : Le H muet (Porte ouverte)</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>Un H invisible à l'oreille qui laisse passer l'élision et la liaison.</td></tr>
-            <tr><th>Règle</th><td>Devant un H muet, le mot se comporte exactement comme s'il commençait par une voyelle.</td></tr>
-            <tr><th>👂 Recette du son</th><td>Ignorez totalement le H et liez directement le mot précédent à la voyelle suivante.</td></tr>
-            <tr><th>👁️ À l'écrit</th><td>Élision obligatoire de l'article : <em>l'homme, l'histoire, l'hôtel</em>.</td></tr>
-            <tr><th>Exemples courants</th><td>l'<strong>h</strong>omme, l'<strong>h</strong>istoire, l'<strong>h</strong>ôtel, les_<strong>h</strong>ommes [lezɔm], l'<strong>h</strong>eure</td></tr>
-            <tr><th>⚠️ Piège</th><td>Ne pas le confondre avec le H aspiré de <em>le héros</em> ou <em>la honte</em> où la liaison est interdite.</td></tr>
-            <tr><th>💡 Astuce</th><td>« Le H muet est une vitre transparente : la liaison passe au travers ! »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>l'homme, l'histoire, l'hôtel, l'heure, l'habitude, l'hiver</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★☆</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Flux de liaison :</strong> le mot <em>les</em> relié par une flèche traversant le H transparent jusqu'à <em>hommes</em></td></tr>
-            <tr><th>À retenir</th><td>H muet = vitre transparente (élision & liaison actives).</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <!-- LESSON SAMPLE 3 -->
-    <div class="lesson-sample">
-      <div class="lesson-sample-header" style="background: #f57f17;">
-        <h3>🟠 B1 — Unité 3, leçon 3.1 : Distinguer a et à</h3>
-      </div>
-      <div class="lesson-sample-body" style="overflow-x: auto;">
-        <table class="mp-table">
-          <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>Deux mots strictly identiques à l'oral, mais différents à l'écrit.</td></tr>
-            <tr><th>Règle</th><td><strong>a</strong> (sans accent) = verbe avoir ; <strong>à</strong> (avec accent grave) = préposition.</td></tr>
-            <tr><th>👂 Recette sonore</th><td>Les deux se prononcent exactement [a]. Seul le sens et le test de substitution permettent de trancher !</td></tr>
-            <tr><th>👁️ Test magique</th><td>Remplacer mentalement par <strong>« avait »</strong> : si la phrase reste correcte → c'est le verbe <strong>a</strong> ! Sinon → c'est la préposition <strong>à</strong>.</td></tr>
-            <tr><th>Exemples courants</th><td>Il <strong>a</strong> un chat (→ Il <em>avait</em> un chat ✅) / Il va <strong>à</strong> Paris (→ Il va <em>avait</em> Paris ❌)</td></tr>
-            <tr><th>💡 Astuce</th><td>« Si tu peux dire <em>avait</em>, n'mets pas d'accent sur ton A ! »</td></tr>
-            <tr><th>Vocabulaire clé</th><td>avoir, aller, penser à, à Paris, à demain, à bientôt</td></tr>
-            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
-            <tr><th>Visuel associé</th><td><strong>Carte des graphies :</strong> la balance de substitution « avait » penchant vers A ou À</td></tr>
-            <tr><th>À retenir</th><td>Le test « avait » tranche immédiatement entre a et à.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </section>
-
-  <!-- SECTION 2: PORTÉE DU CHANTIER VISUEL -->
-  <section id="portee" class="mp-section">
-    <h2>2. Portée du chantier visuel et intégration dans COSYlanguages</h2>
-    <p>
-      Ce marathon regroupe l'ensemble des règles de phonétique et de lecture du français sur les 6 niveaux CECRL. Chaque règle est associée à une illustration dédiée selon l'une des 5 familles de visuels (schéma articulatoire, carte des graphies, arbre de famille de mots, flux de liaison, échelle de registre).
-    </p>
-    <div style="background: #f0fdf4; border: 1px dashed #2d6a4f; border-radius: 8px; padding: 1.25rem;">
-      <h4 style="margin: 0 0 0.5rem; color: #1b4332;">🎨 Garanties visuelles & accessibilité</h4>
-      <p style="margin: 0; font-size: 0.95rem; color: #2d3748;">
-        Toutes les règles sont présentées avec des explications claires, des exemples vivants du vocabulaire quotidien et des repères mnémotechniques universels.
-      </p>
     </div>
   </section>
 
@@ -1727,29 +448,5 @@
 <script src="../../js/core/engine.js"></script>
 <script src="../../js/core/i18n.js"></script>
 <script src="../../js/core/ui.js"></script>
-<script>
-  function filterLevel(level) {
-    // Update active tab styling
-    const tabs = document.querySelectorAll('.mp-tab-btn');
-    tabs.forEach(tab => {
-      if (tab.dataset.level === level) {
-        tab.classList.add('active');
-      } else {
-        tab.classList.remove('active');
-      }
-    });
-
-    // Show/hide sections or scroll to section
-    if (level === 'all') {
-      const section = document.getElementById('a0-a1');
-      if (section) section.scrollIntoView({ behavior: 'smooth' });
-    } else {
-      const section = document.getElementById(level);
-      if (section) {
-        section.scrollIntoView({ behavior: 'smooth' });
-      }
-    }
-  }
-</script>
 </body>
 </html>
