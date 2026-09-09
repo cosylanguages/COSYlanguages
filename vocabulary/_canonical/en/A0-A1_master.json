@@ -15106,6 +15106,402 @@
         "practice"
       ],
       "definition": "Basic A1 English noun: 'zoo'."
+    },
+    {
+      "word": "app",
+      "word_id": "en_noun_app",
+      "pos": "noun",
+      "topic": "technology_communication",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "A software program designed for mobile devices or computers."
+    },
+    {
+      "word": "backpack",
+      "word_id": "en_noun_backpack",
+      "pos": "noun",
+      "topic": "school_education",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "A bag used to carry things on your back."
+    },
+    {
+      "word": "cafe",
+      "word_id": "en_noun_cafe",
+      "pos": "noun",
+      "topic": "food_drink",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "A small restaurant where you can buy drinks and light meals."
+    },
+    {
+      "word": "cereal",
+      "word_id": "en_noun_cereal",
+      "pos": "noun",
+      "topic": "food_drink",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "A food made from grain, usually eaten with milk for breakfast."
+    },
+    {
+      "word": "classmate",
+      "word_id": "en_noun_classmate",
+      "pos": "noun",
+      "topic": "family_people",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "A member of the same class in a school or college."
+    },
+    {
+      "word": "colleague",
+      "word_id": "en_noun_colleague",
+      "pos": "noun",
+      "topic": "family_people",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "A person that you work with."
+    },
+    {
+      "word": "email address",
+      "word_id": "en_noun_email_address",
+      "pos": "noun",
+      "topic": "technology_communication",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "The address used to send and receive electronic mail."
+    },
+    {
+      "word": "first name",
+      "word_id": "en_noun_first_name",
+      "pos": "noun",
+      "topic": "greetings_phrases",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "The personal name given to a person at birth."
+    },
+    {
+      "word": "flour",
+      "word_id": "en_noun_flour",
+      "pos": "noun",
+      "topic": "food_drink",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "A powder made by grinding grain, used to make bread and cakes."
+    },
+    {
+      "word": "garlic",
+      "word_id": "en_noun_garlic",
+      "pos": "noun",
+      "topic": "food_drink",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "A plant with a strong taste and smell used in cooking."
+    },
+    {
+      "word": "get up",
+      "word_id": "en_verb_get_up",
+      "pos": "verb",
+      "topic": "common_verbs_actions",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "To rise from bed after sleeping."
+    },
+    {
+      "word": "gym",
+      "word_id": "en_noun_gym",
+      "pos": "noun",
+      "topic": "sports_hobbies",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "A place where people go to exercise and stay fit."
+    },
+    {
+      "word": "honey",
+      "word_id": "en_noun_honey",
+      "pos": "noun",
+      "topic": "food_drink",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "A sweet yellow liquid made by bees."
+    },
+    {
+      "word": "keyboard",
+      "word_id": "en_noun_keyboard",
+      "pos": "noun",
+      "topic": "technology_communication",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "A set of keys used to type text on a computer or typewriter."
+    },
+    {
+      "word": "last name",
+      "word_id": "en_noun_last_name",
+      "pos": "noun",
+      "topic": "greetings_phrases",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "The family name that you share with other members of your family."
+    },
+    {
+      "word": "parents",
+      "word_id": "en_noun_parents",
+      "pos": "noun",
+      "topic": "family_people",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "A mother and a father."
+    },
+    {
+      "word": "partner",
+      "word_id": "en_noun_partner",
+      "pos": "noun",
+      "topic": "family_people",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "A person with whom you live or share a relationship."
+    },
+    {
+      "word": "passport",
+      "word_id": "en_noun_passport",
+      "pos": "noun",
+      "topic": "places_transport",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "An official document for travelling to foreign countries."
+    },
+    {
+      "word": "phone number",
+      "word_id": "en_noun_phone_number",
+      "pos": "noun",
+      "topic": "technology_communication",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "The number used to contact someone by telephone."
+    },
+    {
+      "word": "printer",
+      "word_id": "en_noun_printer",
+      "pos": "noun",
+      "topic": "technology_communication",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "A machine for printing text or pictures onto paper."
+    },
+    {
+      "word": "put on",
+      "word_id": "en_verb_put_on",
+      "pos": "verb",
+      "topic": "clothes_accessories",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "To dress oneself in a piece of clothing."
+    },
+    {
+      "word": "sandals",
+      "word_id": "en_noun_sandals",
+      "pos": "noun",
+      "topic": "clothes_accessories",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "Light open shoes worn in warm weather."
+    },
+    {
+      "word": "shorts",
+      "word_id": "en_noun_shorts",
+      "pos": "noun",
+      "topic": "clothes_accessories",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "Short trousers that end above the knee."
+    },
+    {
+      "word": "suit",
+      "word_id": "en_noun_suit",
+      "pos": "noun",
+      "topic": "clothes_accessories",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "A set of clothes made of the same cloth, including a jacket and trousers or skirt."
+    },
+    {
+      "word": "take off",
+      "word_id": "en_verb_take_off",
+      "pos": "verb",
+      "topic": "clothes_accessories",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "To remove a piece of clothing from your body."
+    },
+    {
+      "word": "tie",
+      "word_id": "en_noun_tie",
+      "pos": "noun",
+      "topic": "clothes_accessories",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "A long piece of cloth worn around the neck under a collar."
+    },
+    {
+      "word": "toilet",
+      "word_id": "en_noun_toilet",
+      "pos": "noun",
+      "topic": "house_furniture",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "A bowl fitted with a seat, used for getting rid of body waste."
+    },
+    {
+      "word": "toothpaste",
+      "word_id": "en_noun_toothpaste",
+      "pos": "noun",
+      "topic": "house_furniture",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "A substance used for cleaning teeth."
+    },
+    {
+      "word": "train station",
+      "word_id": "en_noun_train_station",
+      "pos": "noun",
+      "topic": "places_transport",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "A place where trains stop for passengers to get on or off."
+    },
+    {
+      "word": "try on",
+      "word_id": "en_verb_try_on",
+      "pos": "verb",
+      "topic": "clothes_accessories",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "To put on a piece of clothing to see if it fits."
+    },
+    {
+      "word": "volleyball",
+      "word_id": "en_noun_volleyball",
+      "pos": "noun",
+      "topic": "sports_hobbies",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "A game in which two teams hit a ball over a net using their hands."
+    },
+    {
+      "word": "wake up",
+      "word_id": "en_verb_wake_up",
+      "pos": "verb",
+      "topic": "common_verbs_actions",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "To stop sleeping and become awake."
+    },
+    {
+      "word": "yoga",
+      "word_id": "en_noun_yoga",
+      "pos": "noun",
+      "topic": "sports_hobbies",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "A system of physical exercises and breath control."
+    },
+    {
+      "word": "yoghurt",
+      "word_id": "en_noun_yoghurt",
+      "pos": "noun",
+      "topic": "food_drink",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "A thick liquid food made from milk."
+    },
+    {
+      "word": "united kingdom",
+      "word_id": "en_noun_united_kingdom",
+      "pos": "noun",
+      "topic": "countries_languages",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "A country in northwestern Europe comprising England, Scotland, Wales, and Northern Ireland."
+    },
+    {
+      "word": "united states",
+      "word_id": "en_noun_united_states",
+      "pos": "noun",
+      "topic": "countries_languages",
+      "sources": [
+        "manual",
+        "canon"
+      ],
+      "definition": "A country in North America."
     }
   ]
 }
