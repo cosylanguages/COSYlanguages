@@ -7,11 +7,11 @@ This document provides a comprehensive inventory and baseline analysis of all En
 | CEFR Level | Vocab JS (Files) | Manuals (HTML) | Curriculum (JSON) | Blog (A0-A1) | COSYgames (Gender) | Total Unique Words |
 |---|---|---|---|---|---|---|
 | **A1** | 1898 | 493 | 437 | 378 | 119 | **2313** |
-| **A2** | 1168 | 0 | 188 | 0 | 18 | **1307** |
-| **B1** | 329 | 0 | 189 | 0 | 18 | **519** |
-| **B2** | 404 | 0 | 192 | 0 | 18 | **603** |
-| **C1** | 373 | 0 | 103 | 0 | 18 | **485** |
-| **C2** | 301 | 0 | 103 | 0 | 18 | **415** |
+| **A2** | 1168 | 213 | 188 | 0 | 18 | **1456** |
+| **B1** | 329 | 261 | 189 | 0 | 18 | **734** |
+| **B2** | 404 | 187 | 192 | 0 | 18 | **757** |
+| **C1** | 373 | 49 | 103 | 0 | 18 | **523** |
+| **C2** | 301 | 12 | 103 | 0 | 18 | **424** |
 
 ## 2. Pairwise Source Overlap & Orphan Words
 
@@ -36,51 +36,66 @@ This document provides a comprehensive inventory and baseline analysis of all En
 
 | Source A | Source B | Overlap Count | % of Smaller Source |
 |---|---|---|---|
+| `vocab_js` | `manuals` | 44 | 20.7% |
 | `vocab_js` | `curriculum` | 67 | 35.6% |
 | `vocab_js` | `gender_games` | 0 | 0.0% |
+| `manuals` | `curriculum` | 36 | 19.1% |
+| `manuals` | `gender_games` | 0 | 0.0% |
 | `curriculum` | `gender_games` | 0 | 0.0% |
 
-- **Orphan Words (present in exactly 1 source)**: 1240 / 1307 unique words (94.9%)
+- **Orphan Words (present in exactly 1 source)**: 1341 / 1456 unique words (92.1%)
 
 ### Level B1
 
 | Source A | Source B | Overlap Count | % of Smaller Source |
 |---|---|---|---|
+| `vocab_js` | `manuals` | 13 | 5.0% |
 | `vocab_js` | `curriculum` | 17 | 9.0% |
 | `vocab_js` | `gender_games` | 0 | 0.0% |
+| `manuals` | `curriculum` | 39 | 20.6% |
+| `manuals` | `gender_games` | 0 | 0.0% |
 | `curriculum` | `gender_games` | 0 | 0.0% |
 
-- **Orphan Words (present in exactly 1 source)**: 502 / 519 unique words (96.7%)
+- **Orphan Words (present in exactly 1 source)**: 677 / 734 unique words (92.2%)
 
 ### Level B2
 
 | Source A | Source B | Overlap Count | % of Smaller Source |
 |---|---|---|---|
+| `vocab_js` | `manuals` | 15 | 8.0% |
 | `vocab_js` | `curriculum` | 11 | 5.7% |
 | `vocab_js` | `gender_games` | 0 | 0.0% |
+| `manuals` | `curriculum` | 18 | 9.6% |
+| `manuals` | `gender_games` | 0 | 0.0% |
 | `curriculum` | `gender_games` | 0 | 0.0% |
 
-- **Orphan Words (present in exactly 1 source)**: 592 / 603 unique words (98.2%)
+- **Orphan Words (present in exactly 1 source)**: 713 / 757 unique words (94.2%)
 
 ### Level C1
 
 | Source A | Source B | Overlap Count | % of Smaller Source |
 |---|---|---|---|
+| `vocab_js` | `manuals` | 4 | 8.2% |
 | `vocab_js` | `curriculum` | 9 | 8.7% |
 | `vocab_js` | `gender_games` | 0 | 0.0% |
+| `manuals` | `curriculum` | 8 | 16.3% |
+| `manuals` | `gender_games` | 0 | 0.0% |
 | `curriculum` | `gender_games` | 0 | 0.0% |
 
-- **Orphan Words (present in exactly 1 source)**: 476 / 485 unique words (98.1%)
+- **Orphan Words (present in exactly 1 source)**: 504 / 523 unique words (96.4%)
 
 ### Level C2
 
 | Source A | Source B | Overlap Count | % of Smaller Source |
 |---|---|---|---|
+| `vocab_js` | `manuals` | 1 | 8.3% |
 | `vocab_js` | `curriculum` | 7 | 6.8% |
 | `vocab_js` | `gender_games` | 0 | 0.0% |
+| `manuals` | `curriculum` | 2 | 16.7% |
+| `manuals` | `gender_games` | 0 | 0.0% |
 | `curriculum` | `gender_games` | 0 | 0.0% |
 
-- **Orphan Words (present in exactly 1 source)**: 408 / 415 unique words (98.3%)
+- **Orphan Words (present in exactly 1 source)**: 414 / 424 unique words (97.6%)
 
 ## 3. Metadata Completeness Audit (Vocabulary JS)
 

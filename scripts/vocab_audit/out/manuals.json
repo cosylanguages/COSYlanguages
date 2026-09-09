@@ -3652,83 +3652,5278 @@
       "source_file": "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html"
     }
   ],
-  "manuals/en/vocabulary/a2/topics/culture-society-and-celebrations.html": [],
-  "manuals/en/vocabulary/a2/topics/daily-life-free-time-and-entertainment.html": [],
-  "manuals/en/vocabulary/a2/topics/describing-change-and-comparison.html": [],
-  "manuals/en/vocabulary/a2/topics/emergencies-and-accidents.html": [],
+  "manuals/en/vocabulary/a2/topics/culture-society-and-celebrations.html": [
+    {
+      "word": "custom",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/culture-society-and-celebrations.html"
+    },
+    {
+      "word": "tradition",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/culture-society-and-celebrations.html"
+    },
+    {
+      "word": "social norms",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/culture-society-and-celebrations.html"
+    },
+    {
+      "word": "eye contact",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/culture-society-and-celebrations.html"
+    },
+    {
+      "word": "handshake",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/culture-society-and-celebrations.html"
+    },
+    {
+      "word": "greeting",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/culture-society-and-celebrations.html"
+    },
+    {
+      "word": "festival",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/culture-society-and-celebrations.html"
+    },
+    {
+      "word": "anniversary",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/culture-society-and-celebrations.html"
+    },
+    {
+      "word": "wedding",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/culture-society-and-celebrations.html"
+    },
+    {
+      "word": "birthday",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/culture-society-and-celebrations.html"
+    },
+    {
+      "word": "party host",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/culture-society-and-celebrations.html"
+    },
+    {
+      "word": "toast",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/culture-society-and-celebrations.html"
+    },
+    {
+      "word": "invitation",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/culture-society-and-celebrations.html"
+    },
+    {
+      "word": "gift wrap",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/culture-society-and-celebrations.html"
+    },
+    {
+      "word": "present",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/culture-society-and-celebrations.html"
+    },
+    {
+      "word": "gathering",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/culture-society-and-celebrations.html"
+    },
+    {
+      "word": "congratulate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/culture-society-and-celebrations.html"
+    }
+  ],
+  "manuals/en/vocabulary/a2/topics/daily-life-free-time-and-entertainment.html": [
+    {
+      "word": "series",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/daily-life-free-time-and-entertainment.html"
+    },
+    {
+      "word": "episode",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/daily-life-free-time-and-entertainment.html"
+    },
+    {
+      "word": "playlist",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/daily-life-free-time-and-entertainment.html"
+    },
+    {
+      "word": "stream",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/daily-life-free-time-and-entertainment.html"
+    },
+    {
+      "word": "channel",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/daily-life-free-time-and-entertainment.html"
+    },
+    {
+      "word": "cycling",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/daily-life-free-time-and-entertainment.html"
+    },
+    {
+      "word": "photography",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/daily-life-free-time-and-entertainment.html"
+    },
+    {
+      "word": "gym",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/daily-life-free-time-and-entertainment.html"
+    },
+    {
+      "word": "board games",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/daily-life-free-time-and-entertainment.html"
+    },
+    {
+      "word": "\"It was the first time I...\"",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/daily-life-free-time-and-entertainment.html"
+    },
+    {
+      "word": "\"I've never tried...\"",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/daily-life-free-time-and-entertainment.html"
+    }
+  ],
+  "manuals/en/vocabulary/a2/topics/describing-change-and-comparison.html": [
+    {
+      "word": "improve",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/describing-change-and-comparison.html"
+    },
+    {
+      "word": "get better/worse",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/describing-change-and-comparison.html"
+    },
+    {
+      "word": "increase",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/describing-change-and-comparison.html"
+    },
+    {
+      "word": "decrease",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/describing-change-and-comparison.html"
+    },
+    {
+      "word": "more and more",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/describing-change-and-comparison.html"
+    },
+    {
+      "word": "slightly better",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/describing-change-and-comparison.html"
+    },
+    {
+      "word": "far more",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/describing-change-and-comparison.html"
+    },
+    {
+      "word": "however",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/describing-change-and-comparison.html"
+    },
+    {
+      "word": "although",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/describing-change-and-comparison.html"
+    },
+    {
+      "word": "because of",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/describing-change-and-comparison.html"
+    },
+    {
+      "word": "so that",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/describing-change-and-comparison.html"
+    }
+  ],
+  "manuals/en/vocabulary/a2/topics/emergencies-and-accidents.html": [
+    {
+      "word": "ambulance",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/emergencies-and-accidents.html"
+    },
+    {
+      "word": "police officer",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/emergencies-and-accidents.html"
+    },
+    {
+      "word": "firefighter",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/emergencies-and-accidents.html"
+    },
+    {
+      "word": "first aid",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/emergencies-and-accidents.html"
+    },
+    {
+      "word": "emergency call",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/emergencies-and-accidents.html"
+    },
+    {
+      "word": "accident",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/emergencies-and-accidents.html"
+    },
+    {
+      "word": "collision",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/emergencies-and-accidents.html"
+    },
+    {
+      "word": "theft",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/emergencies-and-accidents.html"
+    },
+    {
+      "word": "burglary",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/emergencies-and-accidents.html"
+    },
+    {
+      "word": "injury",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/emergencies-and-accidents.html"
+    },
+    {
+      "word": "lost property",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/emergencies-and-accidents.html"
+    },
+    {
+      "word": "flood",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/emergencies-and-accidents.html"
+    },
+    {
+      "word": "earthquake",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/emergencies-and-accidents.html"
+    },
+    {
+      "word": "storm damage",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/emergencies-and-accidents.html"
+    },
+    {
+      "word": "fire alarm",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/emergencies-and-accidents.html"
+    },
+    {
+      "word": "evacuation",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/emergencies-and-accidents.html"
+    }
+  ],
   "manuals/en/vocabulary/a2/topics/encyclopedic-a2-vocabulary-reference-tables.html": [],
-  "manuals/en/vocabulary/a2/topics/expanded-transport-and-driving.html": [],
-  "manuals/en/vocabulary/a2/topics/food-health-and-the-body.html": [],
-  "manuals/en/vocabulary/a2/topics/functional-english-masterclass.html": [],
-  "manuals/en/vocabulary/a2/topics/home-neighbourhood-and-environment.html": [],
+  "manuals/en/vocabulary/a2/topics/expanded-transport-and-driving.html": [
+    {
+      "word": "driver's license",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/expanded-transport-and-driving.html"
+    },
+    {
+      "word": "seatbelt",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/expanded-transport-and-driving.html"
+    },
+    {
+      "word": "speed limit",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/expanded-transport-and-driving.html"
+    },
+    {
+      "word": "traffic light",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/expanded-transport-and-driving.html"
+    },
+    {
+      "word": "roundabout",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/expanded-transport-and-driving.html"
+    },
+    {
+      "word": "motorway",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/expanded-transport-and-driving.html"
+    },
+    {
+      "word": "steering wheel",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/expanded-transport-and-driving.html"
+    },
+    {
+      "word": "brakes",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/expanded-transport-and-driving.html"
+    },
+    {
+      "word": "engine",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/expanded-transport-and-driving.html"
+    },
+    {
+      "word": "tyre",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/expanded-transport-and-driving.html"
+    },
+    {
+      "word": "windscreen",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/expanded-transport-and-driving.html"
+    },
+    {
+      "word": "fuel tank",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/expanded-transport-and-driving.html"
+    },
+    {
+      "word": "timetable",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/expanded-transport-and-driving.html"
+    },
+    {
+      "word": "platform",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/expanded-transport-and-driving.html"
+    },
+    {
+      "word": "conductor",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/expanded-transport-and-driving.html"
+    },
+    {
+      "word": "fare",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/expanded-transport-and-driving.html"
+    },
+    {
+      "word": "single/return ticket",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/expanded-transport-and-driving.html"
+    }
+  ],
+  "manuals/en/vocabulary/a2/topics/food-health-and-the-body.html": [
+    {
+      "word": "headache",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/food-health-and-the-body.html"
+    },
+    {
+      "word": "fever",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/food-health-and-the-body.html"
+    },
+    {
+      "word": "sore throat",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/food-health-and-the-body.html"
+    },
+    {
+      "word": "cough",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/food-health-and-the-body.html"
+    },
+    {
+      "word": "allergy",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/food-health-and-the-body.html"
+    },
+    {
+      "word": "prescription",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/food-health-and-the-body.html"
+    },
+    {
+      "word": "painkillers",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/food-health-and-the-body.html"
+    },
+    {
+      "word": "appointment",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/food-health-and-the-body.html"
+    },
+    {
+      "word": "doctor",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/food-health-and-the-body.html"
+    },
+    {
+      "word": "vegetarian",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/food-health-and-the-body.html"
+    },
+    {
+      "word": "ingredients",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/food-health-and-the-body.html"
+    },
+    {
+      "word": "calories",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/food-health-and-the-body.html"
+    },
+    {
+      "word": "balanced diet",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/food-health-and-the-body.html"
+    }
+  ],
+  "manuals/en/vocabulary/a2/topics/functional-english-masterclass.html": [
+    {
+      "word": "\"Lovely to see you!\"",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/functional-english-masterclass.html"
+    },
+    {
+      "word": "\"How was your weekend?\"",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/functional-english-masterclass.html"
+    },
+    {
+      "word": "\"Nice weather today!\"",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/functional-english-masterclass.html"
+    },
+    {
+      "word": "\"I'd like to make an appointment...\"",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/functional-english-masterclass.html"
+    },
+    {
+      "word": "\"Would Tuesday suit you?\"",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/functional-english-masterclass.html"
+    },
+    {
+      "word": "\"Hello",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/functional-english-masterclass.html"
+    },
+    {
+      "word": "this is... speaking\"",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/functional-english-masterclass.html"
+    },
+    {
+      "word": "\"Could I speak to...\"",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/functional-english-masterclass.html"
+    },
+    {
+      "word": "\"You're on mute!\"",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/functional-english-masterclass.html"
+    },
+    {
+      "word": "\"I'm calling to complain about...\"",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/functional-english-masterclass.html"
+    },
+    {
+      "word": "\"We will offer a full refund.\"",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/functional-english-masterclass.html"
+    },
+    {
+      "word": "\"Could you repeat that?\"",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/functional-english-masterclass.html"
+    },
+    {
+      "word": "\"What does this mean?\"",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/functional-english-masterclass.html"
+    },
+    {
+      "word": "\"Could you speak slower?\"",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/functional-english-masterclass.html"
+    },
+    {
+      "word": "\"In my opinion...\"",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/functional-english-masterclass.html"
+    },
+    {
+      "word": "\"I completely agree!\"",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/functional-english-masterclass.html"
+    },
+    {
+      "word": "\"I see your point",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/functional-english-masterclass.html"
+    },
+    {
+      "word": "but...\"",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/functional-english-masterclass.html"
+    }
+  ],
+  "manuals/en/vocabulary/a2/topics/home-neighbourhood-and-environment.html": [
+    {
+      "word": "flat",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/home-neighbourhood-and-environment.html"
+    },
+    {
+      "word": "landlord",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/home-neighbourhood-and-environment.html"
+    },
+    {
+      "word": "rent",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/home-neighbourhood-and-environment.html"
+    },
+    {
+      "word": "deposit",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/home-neighbourhood-and-environment.html"
+    },
+    {
+      "word": "balcony",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/home-neighbourhood-and-environment.html"
+    },
+    {
+      "word": "suburb",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/home-neighbourhood-and-environment.html"
+    },
+    {
+      "word": "pedestrian area",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/home-neighbourhood-and-environment.html"
+    },
+    {
+      "word": "park",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/home-neighbourhood-and-environment.html"
+    },
+    {
+      "word": "local shop",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/home-neighbourhood-and-environment.html"
+    },
+    {
+      "word": "pollution",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/home-neighbourhood-and-environment.html"
+    },
+    {
+      "word": "litter",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/home-neighbourhood-and-environment.html"
+    },
+    {
+      "word": "recycling",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/home-neighbourhood-and-environment.html"
+    },
+    {
+      "word": "climate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/home-neighbourhood-and-environment.html"
+    },
+    {
+      "word": "storm",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/home-neighbourhood-and-environment.html"
+    },
+    {
+      "word": "flood",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/home-neighbourhood-and-environment.html"
+    },
+    {
+      "word": "drought",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/home-neighbourhood-and-environment.html"
+    },
+    {
+      "word": "fog",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/home-neighbourhood-and-environment.html"
+    },
+    {
+      "word": "heavy rain",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/home-neighbourhood-and-environment.html"
+    }
+  ],
   "manuals/en/vocabulary/a2/topics/master-collocations-dictionary.html": [],
-  "manuals/en/vocabulary/a2/topics/opinions-feelings-and-social-language.html": [],
-  "manuals/en/vocabulary/a2/topics/people-relationships-and-life-stages.html": [],
-  "manuals/en/vocabulary/a2/topics/personal-development-and-goals.html": [],
-  "manuals/en/vocabulary/a2/topics/school-work-and-technology.html": [],
-  "manuals/en/vocabulary/a2/topics/shopping-and-services.html": [],
-  "manuals/en/vocabulary/a2/topics/travel-and-getting-around.html": [],
-  "manuals/en/vocabulary/a2/topics/vocabulary-building-toolkit.html": [],
-  "manuals/en/vocabulary/b1/topics/advanced-computing-cybersecurity-and-ai.html": [],
-  "manuals/en/vocabulary/b1/topics/arts-culture-and-performing-arts.html": [],
-  "manuals/en/vocabulary/b1/topics/business-english-leadership-and-negotiation.html": [],
-  "manuals/en/vocabulary/b1/topics/current-affairs-and-global-economy.html": [],
-  "manuals/en/vocabulary/b1/topics/ecology-climate-and-sustainability.html": [],
-  "manuals/en/vocabulary/b1/topics/education-academic-integrity-and-research.html": [],
-  "manuals/en/vocabulary/b1/topics/environment-disasters-and-conservation.html": [],
-  "manuals/en/vocabulary/b1/topics/health-medicine-and-lifestyle.html": [],
-  "manuals/en/vocabulary/b1/topics/housing-homeownership-and-diy.html": [],
-  "manuals/en/vocabulary/b1/topics/law-crime-and-judicial-system.html": [],
-  "manuals/en/vocabulary/b1/topics/life-skills-decision-making-and-critical-thinking.html": [],
-  "manuals/en/vocabulary/b1/topics/media-digital-life-and-cybersecurity.html": [],
-  "manuals/en/vocabulary/b1/topics/money-personal-finance-and-consumer-rights.html": [],
-  "manuals/en/vocabulary/b1/topics/personality-psychology-and-emotions.html": [],
-  "manuals/en/vocabulary/b1/topics/philosophy-values-and-moral-ethics.html": [],
-  "manuals/en/vocabulary/b1/topics/phrasal-verbs-everyday-non-literal-meanings.html": [],
-  "manuals/en/vocabulary/b1/topics/professional-gastronomy-and-culinary-arts.html": [],
-  "manuals/en/vocabulary/b1/topics/science-innovation-and-future-tech.html": [],
-  "manuals/en/vocabulary/b1/topics/society-civics-and-human-rights.html": [],
-  "manuals/en/vocabulary/b1/topics/travel-immigration-and-global-mobility.html": [],
-  "manuals/en/vocabulary/b1/topics/work-career-and-business-communication.html": [],
-  "manuals/en/vocabulary/b2/topics/advanced-vocabulary-toolkit.html": [],
-  "manuals/en/vocabulary/b2/topics/business-strategy-management-and-leadership.html": [],
-  "manuals/en/vocabulary/b2/topics/culture-arts-and-heritage.html": [],
-  "manuals/en/vocabulary/b2/topics/daily-professional-life-and-workplace-dynamics.html": [],
-  "manuals/en/vocabulary/b2/topics/economics-trade-and-finance.html": [],
-  "manuals/en/vocabulary/b2/topics/environment-sustainability-and-circular-economy.html": [],
-  "manuals/en/vocabulary/b2/topics/healthcare-systems-and-preventive-medicine.html": [],
-  "manuals/en/vocabulary/b2/topics/higher-education-and-academic-inquiry.html": [],
-  "manuals/en/vocabulary/b2/topics/international-relations-and-geopolitics.html": [],
-  "manuals/en/vocabulary/b2/topics/law-justice-and-civil-rights.html": [],
-  "manuals/en/vocabulary/b2/topics/media-journalism-and-public-discourse.html": [],
-  "manuals/en/vocabulary/b2/topics/philosophy-ethics-and-moral-logic.html": [],
-  "manuals/en/vocabulary/b2/topics/psychology-cognition-and-behavior.html": [],
-  "manuals/en/vocabulary/b2/topics/science-research-and-empirical-methodology.html": [],
-  "manuals/en/vocabulary/b2/topics/society-government-and-public-life.html": [],
-  "manuals/en/vocabulary/b2/topics/technology-ai-and-cybernetics.html": [],
-  "manuals/en/vocabulary/c1/topics/academic-genres-and-research-publications.html": [],
-  "manuals/en/vocabulary/c1/topics/academic-literacy-assessment-and-pedagogy.html": [],
-  "manuals/en/vocabulary/c1/topics/aesthetics-literature-and-architectural-heritage.html": [],
-  "manuals/en/vocabulary/c1/topics/artificial-intelligence-machine-learning-and-robotics.html": [],
-  "manuals/en/vocabulary/c1/topics/banking-investment-cryptocurrencies-and-crises.html": [],
-  "manuals/en/vocabulary/c1/topics/civil-law-contracts-and-torts.html": [],
-  "manuals/en/vocabulary/c1/topics/climate-adaptation-biodiversity-and-green-tech.html": [],
-  "manuals/en/vocabulary/c1/topics/cognitive-biases-mental-disorders-and-therapy.html": [],
-  "manuals/en/vocabulary/c1/topics/constitutional-and-international-law.html": [],
-  "manuals/en/vocabulary/c1/topics/criminal-law-and-judicial-proceedings.html": [],
-  "manuals/en/vocabulary/c1/topics/cybersecurity-big-data-and-digital-ethics.html": [],
-  "manuals/en/vocabulary/c1/topics/diagnostics-clinical-trials-and-specialties.html": [],
+  "manuals/en/vocabulary/a2/topics/opinions-feelings-and-social-language.html": [
+    {
+      "word": "relieved",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/opinions-feelings-and-social-language.html"
+    },
+    {
+      "word": "disappointed",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/opinions-feelings-and-social-language.html"
+    },
+    {
+      "word": "proud",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/opinions-feelings-and-social-language.html"
+    },
+    {
+      "word": "nervous",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/opinions-feelings-and-social-language.html"
+    },
+    {
+      "word": "\"Why don't you...\"",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/opinions-feelings-and-social-language.html"
+    },
+    {
+      "word": "\"You should try...\"",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/opinions-feelings-and-social-language.html"
+    },
+    {
+      "word": "in my opinion",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/opinions-feelings-and-social-language.html"
+    },
+    {
+      "word": "personally",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/opinions-feelings-and-social-language.html"
+    },
+    {
+      "word": "I reckon",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/opinions-feelings-and-social-language.html"
+    }
+  ],
+  "manuals/en/vocabulary/a2/topics/people-relationships-and-life-stages.html": [
+    {
+      "word": "colleague",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/people-relationships-and-life-stages.html"
+    },
+    {
+      "word": "neighbour",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/people-relationships-and-life-stages.html"
+    },
+    {
+      "word": "in-laws",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/people-relationships-and-life-stages.html"
+    },
+    {
+      "word": "step-brother",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/people-relationships-and-life-stages.html"
+    },
+    {
+      "word": "friendly",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/people-relationships-and-life-stages.html"
+    },
+    {
+      "word": "shy",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/people-relationships-and-life-stages.html"
+    },
+    {
+      "word": "generous",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/people-relationships-and-life-stages.html"
+    },
+    {
+      "word": "stubborn",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/people-relationships-and-life-stages.html"
+    },
+    {
+      "word": "reliable",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/people-relationships-and-life-stages.html"
+    },
+    {
+      "word": "childhood",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/people-relationships-and-life-stages.html"
+    },
+    {
+      "word": "teenager",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/people-relationships-and-life-stages.html"
+    },
+    {
+      "word": "adulthood",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/people-relationships-and-life-stages.html"
+    },
+    {
+      "word": "retirement",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/people-relationships-and-life-stages.html"
+    },
+    {
+      "word": "curly hair",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/people-relationships-and-life-stages.html"
+    },
+    {
+      "word": "slim",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/people-relationships-and-life-stages.html"
+    },
+    {
+      "word": "middle-aged",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/people-relationships-and-life-stages.html"
+    },
+    {
+      "word": "handsome",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/people-relationships-and-life-stages.html"
+    }
+  ],
+  "manuals/en/vocabulary/a2/topics/personal-development-and-goals.html": [
+    {
+      "word": "goal",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/personal-development-and-goals.html"
+    },
+    {
+      "word": "target",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/personal-development-and-goals.html"
+    },
+    {
+      "word": "achievement",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/personal-development-and-goals.html"
+    },
+    {
+      "word": "failure",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/personal-development-and-goals.html"
+    },
+    {
+      "word": "study habit",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/personal-development-and-goals.html"
+    },
+    {
+      "word": "self-improvement",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/personal-development-and-goals.html"
+    },
+    {
+      "word": "priority",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/personal-development-and-goals.html"
+    },
+    {
+      "word": "schedule",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/personal-development-and-goals.html"
+    },
+    {
+      "word": "procrastination",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/personal-development-and-goals.html"
+    },
+    {
+      "word": "delay",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/personal-development-and-goals.html"
+    },
+    {
+      "word": "time management",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/personal-development-and-goals.html"
+    },
+    {
+      "word": "decision",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/personal-development-and-goals.html"
+    },
+    {
+      "word": "option",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/personal-development-and-goals.html"
+    },
+    {
+      "word": "pros and cons",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/personal-development-and-goals.html"
+    },
+    {
+      "word": "choose",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/personal-development-and-goals.html"
+    },
+    {
+      "word": "evaluate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/personal-development-and-goals.html"
+    }
+  ],
+  "manuals/en/vocabulary/a2/topics/school-work-and-technology.html": [
+    {
+      "word": "job interview",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/school-work-and-technology.html"
+    },
+    {
+      "word": "qualification",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/school-work-and-technology.html"
+    },
+    {
+      "word": "manager",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/school-work-and-technology.html"
+    },
+    {
+      "word": "salary",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/school-work-and-technology.html"
+    },
+    {
+      "word": "password",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/school-work-and-technology.html"
+    },
+    {
+      "word": "download",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/school-work-and-technology.html"
+    },
+    {
+      "word": "attachment",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/school-work-and-technology.html"
+    },
+    {
+      "word": "Wi-Fi network",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/school-work-and-technology.html"
+    },
+    {
+      "word": "subject",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/school-work-and-technology.html"
+    },
+    {
+      "word": "degree",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/school-work-and-technology.html"
+    },
+    {
+      "word": "fluent",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/school-work-and-technology.html"
+    },
+    {
+      "word": "certificate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/school-work-and-technology.html"
+    }
+  ],
+  "manuals/en/vocabulary/a2/topics/shopping-and-services.html": [
+    {
+      "word": "receipt",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/shopping-and-services.html"
+    },
+    {
+      "word": "refund",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/shopping-and-services.html"
+    },
+    {
+      "word": "discount",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/shopping-and-services.html"
+    },
+    {
+      "word": "special offer",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/shopping-and-services.html"
+    },
+    {
+      "word": "fitting room",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/shopping-and-services.html"
+    },
+    {
+      "word": "account",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/shopping-and-services.html"
+    },
+    {
+      "word": "parcel",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/shopping-and-services.html"
+    },
+    {
+      "word": "postage stamp",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/shopping-and-services.html"
+    },
+    {
+      "word": "transfer",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/shopping-and-services.html"
+    },
+    {
+      "word": "delivery",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/shopping-and-services.html"
+    },
+    {
+      "word": "basket",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/shopping-and-services.html"
+    },
+    {
+      "word": "checkout",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/shopping-and-services.html"
+    },
+    {
+      "word": "track order",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/shopping-and-services.html"
+    }
+  ],
+  "manuals/en/vocabulary/a2/topics/travel-and-getting-around.html": [
+    {
+      "word": "boarding pass",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/travel-and-getting-around.html"
+    },
+    {
+      "word": "gate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/travel-and-getting-around.html"
+    },
+    {
+      "word": "luggage",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/travel-and-getting-around.html"
+    },
+    {
+      "word": "check-in desk",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/travel-and-getting-around.html"
+    },
+    {
+      "word": "reservation",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/travel-and-getting-around.html"
+    },
+    {
+      "word": "single/double room",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/travel-and-getting-around.html"
+    },
+    {
+      "word": "air conditioning",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/travel-and-getting-around.html"
+    },
+    {
+      "word": "delayed",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/travel-and-getting-around.html"
+    },
+    {
+      "word": "cancelled",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/travel-and-getting-around.html"
+    },
+    {
+      "word": "lost luggage",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/travel-and-getting-around.html"
+    },
+    {
+      "word": "missed connection",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/travel-and-getting-around.html"
+    }
+  ],
+  "manuals/en/vocabulary/a2/topics/vocabulary-building-toolkit.html": [
+    {
+      "word": "get up",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/vocabulary-building-toolkit.html"
+    },
+    {
+      "word": "look for",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/vocabulary-building-toolkit.html"
+    },
+    {
+      "word": "turn on/off",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/vocabulary-building-toolkit.html"
+    },
+    {
+      "word": "give up",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/vocabulary-building-toolkit.html"
+    },
+    {
+      "word": "unhappy",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/vocabulary-building-toolkit.html"
+    },
+    {
+      "word": "rewrite",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/vocabulary-building-toolkit.html"
+    },
+    {
+      "word": "disagree",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/vocabulary-building-toolkit.html"
+    },
+    {
+      "word": "helpful",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/vocabulary-building-toolkit.html"
+    },
+    {
+      "word": "hopeless",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/vocabulary-building-toolkit.html"
+    },
+    {
+      "word": "make a decision",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/vocabulary-building-toolkit.html"
+    },
+    {
+      "word": "take a photo",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/vocabulary-building-toolkit.html"
+    },
+    {
+      "word": "have a shower",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/vocabulary-building-toolkit.html"
+    },
+    {
+      "word": "fairly",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/vocabulary-building-toolkit.html"
+    },
+    {
+      "word": "quite",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/vocabulary-building-toolkit.html"
+    },
+    {
+      "word": "extremely",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/vocabulary-building-toolkit.html"
+    },
+    {
+      "word": "a bit",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "A2",
+      "source_file": "manuals/en/vocabulary/a2/topics/vocabulary-building-toolkit.html"
+    }
+  ],
+  "manuals/en/vocabulary/b1/topics/advanced-computing-cybersecurity-and-ai.html": [
+    {
+      "word": "cloud storage",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/advanced-computing-cybersecurity-and-ai.html"
+    },
+    {
+      "word": "network infrastructure",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/advanced-computing-cybersecurity-and-ai.html"
+    },
+    {
+      "word": "user interface (UI)",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/advanced-computing-cybersecurity-and-ai.html"
+    },
+    {
+      "word": "scalable",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/advanced-computing-cybersecurity-and-ai.html"
+    },
+    {
+      "word": "machine learning",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/advanced-computing-cybersecurity-and-ai.html"
+    },
+    {
+      "word": "data breach",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/advanced-computing-cybersecurity-and-ai.html"
+    },
+    {
+      "word": "software update",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/advanced-computing-cybersecurity-and-ai.html"
+    },
+    {
+      "word": "deploy",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/advanced-computing-cybersecurity-and-ai.html"
+    },
+    {
+      "word": "hack into",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/advanced-computing-cybersecurity-and-ai.html"
+    },
+    {
+      "word": "back up",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/advanced-computing-cybersecurity-and-ai.html"
+    },
+    {
+      "word": "shut down",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/advanced-computing-cybersecurity-and-ai.html"
+    },
+    {
+      "word": "set up",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/advanced-computing-cybersecurity-and-ai.html"
+    },
+    {
+      "word": "log into",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/advanced-computing-cybersecurity-and-ai.html"
+    }
+  ],
+  "manuals/en/vocabulary/b1/topics/arts-culture-and-performing-arts.html": [
+    {
+      "word": "symphony",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/arts-culture-and-performing-arts.html"
+    },
+    {
+      "word": "theatrical play",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/arts-culture-and-performing-arts.html"
+    },
+    {
+      "word": "choreography",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/arts-culture-and-performing-arts.html"
+    },
+    {
+      "word": "soundtrack",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/arts-culture-and-performing-arts.html"
+    },
+    {
+      "word": "venue",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/arts-culture-and-performing-arts.html"
+    },
+    {
+      "word": "art gallery",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/arts-culture-and-performing-arts.html"
+    },
+    {
+      "word": "exhibition",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/arts-culture-and-performing-arts.html"
+    },
+    {
+      "word": "architectural heritage",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/arts-culture-and-performing-arts.html"
+    },
+    {
+      "word": "aesthetics",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/arts-culture-and-performing-arts.html"
+    },
+    {
+      "word": "put on",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/arts-culture-and-performing-arts.html"
+    },
+    {
+      "word": "show off",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/arts-culture-and-performing-arts.html"
+    },
+    {
+      "word": "act out",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/arts-culture-and-performing-arts.html"
+    },
+    {
+      "word": "draw on",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/arts-culture-and-performing-arts.html"
+    },
+    {
+      "word": "compose of",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/arts-culture-and-performing-arts.html"
+    }
+  ],
+  "manuals/en/vocabulary/b1/topics/business-english-leadership-and-negotiation.html": [
+    {
+      "word": "corporate strategy",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/business-english-leadership-and-negotiation.html"
+    },
+    {
+      "word": "KPI",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/business-english-leadership-and-negotiation.html"
+    },
+    {
+      "word": "stakeholder",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/business-english-leadership-and-negotiation.html"
+    },
+    {
+      "word": "executive leadership",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/business-english-leadership-and-negotiation.html"
+    },
+    {
+      "word": "trade-off",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/business-english-leadership-and-negotiation.html"
+    },
+    {
+      "word": "compromise",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/business-english-leadership-and-negotiation.html"
+    },
+    {
+      "word": "agenda",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/business-english-leadership-and-negotiation.html"
+    },
+    {
+      "word": "chair a meeting",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/business-english-leadership-and-negotiation.html"
+    },
+    {
+      "word": "contract",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/business-english-leadership-and-negotiation.html"
+    },
+    {
+      "word": "work out",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/business-english-leadership-and-negotiation.html"
+    },
+    {
+      "word": "deal with",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/business-english-leadership-and-negotiation.html"
+    },
+    {
+      "word": "bring forward",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/business-english-leadership-and-negotiation.html"
+    },
+    {
+      "word": "put off",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/business-english-leadership-and-negotiation.html"
+    },
+    {
+      "word": "close down",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/business-english-leadership-and-negotiation.html"
+    }
+  ],
+  "manuals/en/vocabulary/b1/topics/current-affairs-and-global-economy.html": [
+    {
+      "word": "economic recession",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/current-affairs-and-global-economy.html"
+    },
+    {
+      "word": "inflation",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/current-affairs-and-global-economy.html"
+    },
+    {
+      "word": "trade agreement",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/current-affairs-and-global-economy.html"
+    },
+    {
+      "word": "fluctuate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/current-affairs-and-global-economy.html"
+    },
+    {
+      "word": "policy reform",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/current-affairs-and-global-economy.html"
+    },
+    {
+      "word": "election campaign",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/current-affairs-and-global-economy.html"
+    },
+    {
+      "word": "socio-economic trend",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/current-affairs-and-global-economy.html"
+    },
+    {
+      "word": "bring about",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/current-affairs-and-global-economy.html"
+    },
+    {
+      "word": "point out",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/current-affairs-and-global-economy.html"
+    },
+    {
+      "word": "lead to",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/current-affairs-and-global-economy.html"
+    },
+    {
+      "word": "report on",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/current-affairs-and-global-economy.html"
+    },
+    {
+      "word": "carry out",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/current-affairs-and-global-economy.html"
+    }
+  ],
+  "manuals/en/vocabulary/b1/topics/ecology-climate-and-sustainability.html": [
+    {
+      "word": "renewable energy",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/ecology-climate-and-sustainability.html"
+    },
+    {
+      "word": "carbon footprint",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/ecology-climate-and-sustainability.html"
+    },
+    {
+      "word": "phase out",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/ecology-climate-and-sustainability.html"
+    },
+    {
+      "word": "emissions",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/ecology-climate-and-sustainability.html"
+    },
+    {
+      "word": "biodiversity",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/ecology-climate-and-sustainability.html"
+    },
+    {
+      "word": "ecosystem",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/ecology-climate-and-sustainability.html"
+    },
+    {
+      "word": "endangered species",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/ecology-climate-and-sustainability.html"
+    },
+    {
+      "word": "habitat",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/ecology-climate-and-sustainability.html"
+    },
+    {
+      "word": "biodegradable",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/ecology-climate-and-sustainability.html"
+    },
+    {
+      "word": "depletion",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/ecology-climate-and-sustainability.html"
+    },
+    {
+      "word": "eco-friendly",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/ecology-climate-and-sustainability.html"
+    },
+    {
+      "word": "green energy",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/ecology-climate-and-sustainability.html"
+    }
+  ],
+  "manuals/en/vocabulary/b1/topics/education-academic-integrity-and-research.html": [
+    {
+      "word": "plagiarism",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/education-academic-integrity-and-research.html"
+    },
+    {
+      "word": "citation",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/education-academic-integrity-and-research.html"
+    },
+    {
+      "word": "academic honesty",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/education-academic-integrity-and-research.html"
+    },
+    {
+      "word": "peer review",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/education-academic-integrity-and-research.html"
+    },
+    {
+      "word": "dissertation",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/education-academic-integrity-and-research.html"
+    },
+    {
+      "word": "thesis",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/education-academic-integrity-and-research.html"
+    },
+    {
+      "word": "seminar",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/education-academic-integrity-and-research.html"
+    },
+    {
+      "word": "lecture hall",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/education-academic-integrity-and-research.html"
+    },
+    {
+      "word": "faculty",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/education-academic-integrity-and-research.html"
+    },
+    {
+      "word": "methodology",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/education-academic-integrity-and-research.html"
+    },
+    {
+      "word": "empirical data",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/education-academic-integrity-and-research.html"
+    },
+    {
+      "word": "hypothesis",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/education-academic-integrity-and-research.html"
+    },
+    {
+      "word": "evaluate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/education-academic-integrity-and-research.html"
+    }
+  ],
+  "manuals/en/vocabulary/b1/topics/environment-disasters-and-conservation.html": [
+    {
+      "word": "natural disaster",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/environment-disasters-and-conservation.html"
+    },
+    {
+      "word": "evacuation order",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/environment-disasters-and-conservation.html"
+    },
+    {
+      "word": "relief effort",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/environment-disasters-and-conservation.html"
+    },
+    {
+      "word": "hurricane",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/environment-disasters-and-conservation.html"
+    },
+    {
+      "word": "habitat destruction",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/environment-disasters-and-conservation.html"
+    },
+    {
+      "word": "endangered species",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/environment-disasters-and-conservation.html"
+    },
+    {
+      "word": "national reserve",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/environment-disasters-and-conservation.html"
+    },
+    {
+      "word": "wipe out",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/environment-disasters-and-conservation.html"
+    },
+    {
+      "word": "die out",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/environment-disasters-and-conservation.html"
+    },
+    {
+      "word": "clean up",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/environment-disasters-and-conservation.html"
+    },
+    {
+      "word": "evacuate from",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/environment-disasters-and-conservation.html"
+    },
+    {
+      "word": "die off",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/environment-disasters-and-conservation.html"
+    }
+  ],
+  "manuals/en/vocabulary/b1/topics/health-medicine-and-lifestyle.html": [
+    {
+      "word": "diagnosis",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/health-medicine-and-lifestyle.html"
+    },
+    {
+      "word": "prescription",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/health-medicine-and-lifestyle.html"
+    },
+    {
+      "word": "painkillers",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/health-medicine-and-lifestyle.html"
+    },
+    {
+      "word": "side effects",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/health-medicine-and-lifestyle.html"
+    },
+    {
+      "word": "GP",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/health-medicine-and-lifestyle.html"
+    },
+    {
+      "word": "caloric intake",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/health-medicine-and-lifestyle.html"
+    },
+    {
+      "word": "processed food",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/health-medicine-and-lifestyle.html"
+    },
+    {
+      "word": "organic produce",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/health-medicine-and-lifestyle.html"
+    },
+    {
+      "word": "label",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/health-medicine-and-lifestyle.html"
+    },
+    {
+      "word": "come down with",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/health-medicine-and-lifestyle.html"
+    },
+    {
+      "word": "get over",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/health-medicine-and-lifestyle.html"
+    },
+    {
+      "word": "pass out",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/health-medicine-and-lifestyle.html"
+    },
+    {
+      "word": "cut down on",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/health-medicine-and-lifestyle.html"
+    }
+  ],
+  "manuals/en/vocabulary/b1/topics/housing-homeownership-and-diy.html": [
+    {
+      "word": "real estate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/housing-homeownership-and-diy.html"
+    },
+    {
+      "word": "tenancy agreement",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/housing-homeownership-and-diy.html"
+    },
+    {
+      "word": "maintenance fee",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/housing-homeownership-and-diy.html"
+    },
+    {
+      "word": "lease",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/housing-homeownership-and-diy.html"
+    },
+    {
+      "word": "renovation",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/housing-homeownership-and-diy.html"
+    },
+    {
+      "word": "DIY project",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/housing-homeownership-and-diy.html"
+    },
+    {
+      "word": "electrician",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/housing-homeownership-and-diy.html"
+    },
+    {
+      "word": "plumber",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/housing-homeownership-and-diy.html"
+    },
+    {
+      "word": "assemble",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/housing-homeownership-and-diy.html"
+    },
+    {
+      "word": "move in",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/housing-homeownership-and-diy.html"
+    },
+    {
+      "word": "move out",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/housing-homeownership-and-diy.html"
+    },
+    {
+      "word": "fix up",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/housing-homeownership-and-diy.html"
+    },
+    {
+      "word": "put up",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/housing-homeownership-and-diy.html"
+    },
+    {
+      "word": "do up",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/housing-homeownership-and-diy.html"
+    }
+  ],
+  "manuals/en/vocabulary/b1/topics/law-crime-and-judicial-system.html": [
+    {
+      "word": "prosecute",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/law-crime-and-judicial-system.html"
+    },
+    {
+      "word": "defense attorney",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/law-crime-and-judicial-system.html"
+    },
+    {
+      "word": "verdict",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/law-crime-and-judicial-system.html"
+    },
+    {
+      "word": "witness",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/law-crime-and-judicial-system.html"
+    },
+    {
+      "word": "evidence",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/law-crime-and-judicial-system.html"
+    },
+    {
+      "word": "legally binding",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/law-crime-and-judicial-system.html"
+    },
+    {
+      "word": "breach of contract",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/law-crime-and-judicial-system.html"
+    },
+    {
+      "word": "liability",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/law-crime-and-judicial-system.html"
+    },
+    {
+      "word": "clause",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/law-crime-and-judicial-system.html"
+    },
+    {
+      "word": "break in",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/law-crime-and-judicial-system.html"
+    },
+    {
+      "word": "cover up",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/law-crime-and-judicial-system.html"
+    },
+    {
+      "word": "lock up",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/law-crime-and-judicial-system.html"
+    },
+    {
+      "word": "stand trial",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/law-crime-and-judicial-system.html"
+    },
+    {
+      "word": "testify to",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/law-crime-and-judicial-system.html"
+    }
+  ],
+  "manuals/en/vocabulary/b1/topics/life-skills-decision-making-and-critical-thinking.html": [
+    {
+      "word": "critical thinking",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/life-skills-decision-making-and-critical-thinking.html"
+    },
+    {
+      "word": "action plan",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/life-skills-decision-making-and-critical-thinking.html"
+    },
+    {
+      "word": "risk factor",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/life-skills-decision-making-and-critical-thinking.html"
+    },
+    {
+      "word": "long-term vision",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/life-skills-decision-making-and-critical-thinking.html"
+    },
+    {
+      "word": "time management",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/life-skills-decision-making-and-critical-thinking.html"
+    },
+    {
+      "word": "prioritize",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/life-skills-decision-making-and-critical-thinking.html"
+    },
+    {
+      "word": "self-reflection",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/life-skills-decision-making-and-critical-thinking.html"
+    },
+    {
+      "word": "narrow down",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/life-skills-decision-making-and-critical-thinking.html"
+    },
+    {
+      "word": "think over",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/life-skills-decision-making-and-critical-thinking.html"
+    },
+    {
+      "word": "map out",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/life-skills-decision-making-and-critical-thinking.html"
+    },
+    {
+      "word": "work out",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/life-skills-decision-making-and-critical-thinking.html"
+    }
+  ],
+  "manuals/en/vocabulary/b1/topics/media-digital-life-and-cybersecurity.html": [
+    {
+      "word": "media bias",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/media-digital-life-and-cybersecurity.html"
+    },
+    {
+      "word": "objective",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/media-digital-life-and-cybersecurity.html"
+    },
+    {
+      "word": "broadcast",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/media-digital-life-and-cybersecurity.html"
+    },
+    {
+      "word": "fact-check",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/media-digital-life-and-cybersecurity.html"
+    },
+    {
+      "word": "sensational",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/media-digital-life-and-cybersecurity.html"
+    },
+    {
+      "word": "algorithm",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/media-digital-life-and-cybersecurity.html"
+    },
+    {
+      "word": "digital footprint",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/media-digital-life-and-cybersecurity.html"
+    },
+    {
+      "word": "engagement",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/media-digital-life-and-cybersecurity.html"
+    },
+    {
+      "word": "subscriber",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/media-digital-life-and-cybersecurity.html"
+    },
+    {
+      "word": "encryption",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/media-digital-life-and-cybersecurity.html"
+    },
+    {
+      "word": "data breach",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/media-digital-life-and-cybersecurity.html"
+    },
+    {
+      "word": "malware",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/media-digital-life-and-cybersecurity.html"
+    },
+    {
+      "word": "firewall",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/media-digital-life-and-cybersecurity.html"
+    },
+    {
+      "word": "backup",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/media-digital-life-and-cybersecurity.html"
+    }
+  ],
+  "manuals/en/vocabulary/b1/topics/money-personal-finance-and-consumer-rights.html": [
+    {
+      "word": "savings account",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/money-personal-finance-and-consumer-rights.html"
+    },
+    {
+      "word": "interest rate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/money-personal-finance-and-consumer-rights.html"
+    },
+    {
+      "word": "mortgage",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/money-personal-finance-and-consumer-rights.html"
+    },
+    {
+      "word": "loan",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/money-personal-finance-and-consumer-rights.html"
+    },
+    {
+      "word": "expenditure",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/money-personal-finance-and-consumer-rights.html"
+    },
+    {
+      "word": "consumer rights",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/money-personal-finance-and-consumer-rights.html"
+    },
+    {
+      "word": "refund policy",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/money-personal-finance-and-consumer-rights.html"
+    },
+    {
+      "word": "fraudulent",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/money-personal-finance-and-consumer-rights.html"
+    },
+    {
+      "word": "phishing scam",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/money-personal-finance-and-consumer-rights.html"
+    },
+    {
+      "word": "save up",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/money-personal-finance-and-consumer-rights.html"
+    },
+    {
+      "word": "pay off",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/money-personal-finance-and-consumer-rights.html"
+    },
+    {
+      "word": "cut back",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/money-personal-finance-and-consumer-rights.html"
+    },
+    {
+      "word": "rip off",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/money-personal-finance-and-consumer-rights.html"
+    },
+    {
+      "word": "fall for",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/money-personal-finance-and-consumer-rights.html"
+    }
+  ],
+  "manuals/en/vocabulary/b1/topics/personality-psychology-and-emotions.html": [
+    {
+      "word": "conscientious",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/personality-psychology-and-emotions.html"
+    },
+    {
+      "word": "level-headed",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/personality-psychology-and-emotions.html"
+    },
+    {
+      "word": "charismatic",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/personality-psychology-and-emotions.html"
+    },
+    {
+      "word": "empathetic",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/personality-psychology-and-emotions.html"
+    },
+    {
+      "word": "resilience",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/personality-psychology-and-emotions.html"
+    },
+    {
+      "word": "burnout",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/personality-psychology-and-emotions.html"
+    },
+    {
+      "word": "mindfulness",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/personality-psychology-and-emotions.html"
+    },
+    {
+      "word": "coping mechanism",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/personality-psychology-and-emotions.html"
+    },
+    {
+      "word": "bounce back",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/personality-psychology-and-emotions.html"
+    },
+    {
+      "word": "cope with",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/personality-psychology-and-emotions.html"
+    },
+    {
+      "word": "come across as",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/personality-psychology-and-emotions.html"
+    },
+    {
+      "word": "open up",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/personality-psychology-and-emotions.html"
+    }
+  ],
+  "manuals/en/vocabulary/b1/topics/philosophy-values-and-moral-ethics.html": [
+    {
+      "word": "moral dilemma",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/philosophy-values-and-moral-ethics.html"
+    },
+    {
+      "word": "integrity",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/philosophy-values-and-moral-ethics.html"
+    },
+    {
+      "word": "core values",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/philosophy-values-and-moral-ethics.html"
+    },
+    {
+      "word": "ethical standard",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/philosophy-values-and-moral-ethics.html"
+    },
+    {
+      "word": "morality",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/philosophy-values-and-moral-ethics.html"
+    },
+    {
+      "word": "belief system",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/philosophy-values-and-moral-ethics.html"
+    },
+    {
+      "word": "free will",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/philosophy-values-and-moral-ethics.html"
+    },
+    {
+      "word": "purpose in life",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/philosophy-values-and-moral-ethics.html"
+    },
+    {
+      "word": "stand for",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/philosophy-values-and-moral-ethics.html"
+    },
+    {
+      "word": "abide by",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/philosophy-values-and-moral-ethics.html"
+    },
+    {
+      "word": "live by",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/philosophy-values-and-moral-ethics.html"
+    },
+    {
+      "word": "believe in",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/philosophy-values-and-moral-ethics.html"
+    },
+    {
+      "word": "reflect on",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/philosophy-values-and-moral-ethics.html"
+    }
+  ],
+  "manuals/en/vocabulary/b1/topics/phrasal-verbs-everyday-non-literal-meanings.html": [
+    {
+      "word": "look forward to",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/phrasal-verbs-everyday-non-literal-meanings.html"
+    },
+    {
+      "word": "put up with",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/phrasal-verbs-everyday-non-literal-meanings.html"
+    },
+    {
+      "word": "come up with",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/phrasal-verbs-everyday-non-literal-meanings.html"
+    },
+    {
+      "word": "get on with",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/phrasal-verbs-everyday-non-literal-meanings.html"
+    },
+    {
+      "word": "run out of",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/phrasal-verbs-everyday-non-literal-meanings.html"
+    }
+  ],
+  "manuals/en/vocabulary/b1/topics/professional-gastronomy-and-culinary-arts.html": [
+    {
+      "word": "marinate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/professional-gastronomy-and-culinary-arts.html"
+    },
+    {
+      "word": "simmer",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/professional-gastronomy-and-culinary-arts.html"
+    },
+    {
+      "word": "poach",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/professional-gastronomy-and-culinary-arts.html"
+    },
+    {
+      "word": "garnish",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/professional-gastronomy-and-culinary-arts.html"
+    },
+    {
+      "word": "season",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/professional-gastronomy-and-culinary-arts.html"
+    },
+    {
+      "word": "gastronomy",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/professional-gastronomy-and-culinary-arts.html"
+    },
+    {
+      "word": "food safety",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/professional-gastronomy-and-culinary-arts.html"
+    },
+    {
+      "word": "kitchen hygiene",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/professional-gastronomy-and-culinary-arts.html"
+    },
+    {
+      "word": "sommelier",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/professional-gastronomy-and-culinary-arts.html"
+    },
+    {
+      "word": "chop up",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/professional-gastronomy-and-culinary-arts.html"
+    },
+    {
+      "word": "boil down",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/professional-gastronomy-and-culinary-arts.html"
+    },
+    {
+      "word": "slice off",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/professional-gastronomy-and-culinary-arts.html"
+    },
+    {
+      "word": "dish out",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/professional-gastronomy-and-culinary-arts.html"
+    },
+    {
+      "word": "warm up",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/professional-gastronomy-and-culinary-arts.html"
+    }
+  ],
+  "manuals/en/vocabulary/b1/topics/science-innovation-and-future-tech.html": [
+    {
+      "word": "breakthrough",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/science-innovation-and-future-tech.html"
+    },
+    {
+      "word": "discovery",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/science-innovation-and-future-tech.html"
+    },
+    {
+      "word": "research",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/science-innovation-and-future-tech.html"
+    },
+    {
+      "word": "conduct experiments",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/science-innovation-and-future-tech.html"
+    },
+    {
+      "word": "Artificial Intelligence (AI)",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/science-innovation-and-future-tech.html"
+    },
+    {
+      "word": "smart device",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/science-innovation-and-future-tech.html"
+    },
+    {
+      "word": "automation",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/science-innovation-and-future-tech.html"
+    },
+    {
+      "word": "robot",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/science-innovation-and-future-tech.html"
+    },
+    {
+      "word": "firewall",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/science-innovation-and-future-tech.html"
+    },
+    {
+      "word": "antivirus",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/science-innovation-and-future-tech.html"
+    },
+    {
+      "word": "cyber threat",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/science-innovation-and-future-tech.html"
+    },
+    {
+      "word": "digital privacy",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/science-innovation-and-future-tech.html"
+    }
+  ],
+  "manuals/en/vocabulary/b1/topics/society-civics-and-human-rights.html": [
+    {
+      "word": "citizenship",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/society-civics-and-human-rights.html"
+    },
+    {
+      "word": "human rights",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/society-civics-and-human-rights.html"
+    },
+    {
+      "word": "civic duty",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/society-civics-and-human-rights.html"
+    },
+    {
+      "word": "equality",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/society-civics-and-human-rights.html"
+    },
+    {
+      "word": "NGO",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/society-civics-and-human-rights.html"
+    },
+    {
+      "word": "non-profit",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/society-civics-and-human-rights.html"
+    },
+    {
+      "word": "volunteering",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/society-civics-and-human-rights.html"
+    },
+    {
+      "word": "advocacy",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/society-civics-and-human-rights.html"
+    },
+    {
+      "word": "integration",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/society-civics-and-human-rights.html"
+    },
+    {
+      "word": "stand up for",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/society-civics-and-human-rights.html"
+    },
+    {
+      "word": "speak out",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/society-civics-and-human-rights.html"
+    },
+    {
+      "word": "pitch in",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/society-civics-and-human-rights.html"
+    },
+    {
+      "word": "give back",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/society-civics-and-human-rights.html"
+    }
+  ],
+  "manuals/en/vocabulary/b1/topics/travel-immigration-and-global-mobility.html": [
+    {
+      "word": "customs clearance",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/travel-immigration-and-global-mobility.html"
+    },
+    {
+      "word": "immigration control",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/travel-immigration-and-global-mobility.html"
+    },
+    {
+      "word": "valid visa",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/travel-immigration-and-global-mobility.html"
+    },
+    {
+      "word": "declare",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/travel-immigration-and-global-mobility.html"
+    },
+    {
+      "word": "itinerary",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/travel-immigration-and-global-mobility.html"
+    },
+    {
+      "word": "travel insurance",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/travel-immigration-and-global-mobility.html"
+    },
+    {
+      "word": "luggage claim",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/travel-immigration-and-global-mobility.html"
+    },
+    {
+      "word": "stopover",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/travel-immigration-and-global-mobility.html"
+    },
+    {
+      "word": "set off",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/travel-immigration-and-global-mobility.html"
+    },
+    {
+      "word": "check in",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/travel-immigration-and-global-mobility.html"
+    },
+    {
+      "word": "drop off",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/travel-immigration-and-global-mobility.html"
+    },
+    {
+      "word": "pick up",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/travel-immigration-and-global-mobility.html"
+    },
+    {
+      "word": "stop over",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/travel-immigration-and-global-mobility.html"
+    }
+  ],
+  "manuals/en/vocabulary/b1/topics/work-career-and-business-communication.html": [
+    {
+      "word": "cover letter",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/work-career-and-business-communication.html"
+    },
+    {
+      "word": "probation period",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/work-career-and-business-communication.html"
+    },
+    {
+      "word": "remuneration",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/work-career-and-business-communication.html"
+    },
+    {
+      "word": "portfolio",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/work-career-and-business-communication.html"
+    },
+    {
+      "word": "deadline",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/work-career-and-business-communication.html"
+    },
+    {
+      "word": "bottleneck",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/work-career-and-business-communication.html"
+    },
+    {
+      "word": "delegate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/work-career-and-business-communication.html"
+    },
+    {
+      "word": "streamline",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/work-career-and-business-communication.html"
+    },
+    {
+      "word": "scope",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/work-career-and-business-communication.html"
+    },
+    {
+      "word": "escalate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/work-career-and-business-communication.html"
+    },
+    {
+      "word": "customer satisfaction",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/work-career-and-business-communication.html"
+    },
+    {
+      "word": "issue a refund",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/work-career-and-business-communication.html"
+    },
+    {
+      "word": "feedback",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B1",
+      "source_file": "manuals/en/vocabulary/b1/topics/work-career-and-business-communication.html"
+    }
+  ],
+  "manuals/en/vocabulary/b2/topics/advanced-vocabulary-toolkit.html": [
+    {
+      "word": "beneficial / advantageous",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/advanced-vocabulary-toolkit.html"
+    },
+    {
+      "word": "substantial / significant",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/advanced-vocabulary-toolkit.html"
+    },
+    {
+      "word": "commence / initiate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/advanced-vocabulary-toolkit.html"
+    }
+  ],
+  "manuals/en/vocabulary/b2/topics/business-strategy-management-and-leadership.html": [
+    {
+      "word": "spearhead",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/business-strategy-management-and-leadership.html"
+    },
+    {
+      "word": "venture capital",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/business-strategy-management-and-leadership.html"
+    },
+    {
+      "word": "stakeholder",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/business-strategy-management-and-leadership.html"
+    },
+    {
+      "word": "risk management",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/business-strategy-management-and-leadership.html"
+    },
+    {
+      "word": "market segmentation",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/business-strategy-management-and-leadership.html"
+    },
+    {
+      "word": "brand loyalty",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/business-strategy-management-and-leadership.html"
+    },
+    {
+      "word": "acquisition cost",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/business-strategy-management-and-leadership.html"
+    },
+    {
+      "word": "funnel",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/business-strategy-management-and-leadership.html"
+    },
+    {
+      "word": "merger",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/business-strategy-management-and-leadership.html"
+    },
+    {
+      "word": "acquisition",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/business-strategy-management-and-leadership.html"
+    },
+    {
+      "word": "pitch",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/business-strategy-management-and-leadership.html"
+    },
+    {
+      "word": "diversify",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/business-strategy-management-and-leadership.html"
+    },
+    {
+      "word": "positioning",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/business-strategy-management-and-leadership.html"
+    }
+  ],
+  "manuals/en/vocabulary/b2/topics/culture-arts-and-heritage.html": [
+    {
+      "word": "sculpture",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/culture-arts-and-heritage.html"
+    },
+    {
+      "word": "choreography",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/culture-arts-and-heritage.html"
+    },
+    {
+      "word": "aesthetics",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/culture-arts-and-heritage.html"
+    },
+    {
+      "word": "curatorial design",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/culture-arts-and-heritage.html"
+    },
+    {
+      "word": "architectural landmark",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/culture-arts-and-heritage.html"
+    },
+    {
+      "word": "cultural heritage site",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/culture-arts-and-heritage.html"
+    },
+    {
+      "word": "symphony",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/culture-arts-and-heritage.html"
+    },
+    {
+      "word": "exhibit",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/culture-arts-and-heritage.html"
+    },
+    {
+      "word": "compose",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/culture-arts-and-heritage.html"
+    },
+    {
+      "word": "sculpt",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/culture-arts-and-heritage.html"
+    },
+    {
+      "word": "choreograph",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/culture-arts-and-heritage.html"
+    },
+    {
+      "word": "preserve",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/culture-arts-and-heritage.html"
+    }
+  ],
+  "manuals/en/vocabulary/b2/topics/daily-professional-life-and-workplace-dynamics.html": [
+    {
+      "word": "hybrid work environment",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/daily-professional-life-and-workplace-dynamics.html"
+    },
+    {
+      "word": "remote work",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/daily-professional-life-and-workplace-dynamics.html"
+    },
+    {
+      "word": "team dynamic",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/daily-professional-life-and-workplace-dynamics.html"
+    },
+    {
+      "word": "annual performance review",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/daily-professional-life-and-workplace-dynamics.html"
+    },
+    {
+      "word": "negotiation strategy",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/daily-professional-life-and-workplace-dynamics.html"
+    },
+    {
+      "word": "productivity",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/daily-professional-life-and-workplace-dynamics.html"
+    },
+    {
+      "word": "evaluate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/daily-professional-life-and-workplace-dynamics.html"
+    },
+    {
+      "word": "balance",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/daily-professional-life-and-workplace-dynamics.html"
+    },
+    {
+      "word": "negotiate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/daily-professional-life-and-workplace-dynamics.html"
+    },
+    {
+      "word": "adapt",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/daily-professional-life-and-workplace-dynamics.html"
+    },
+    {
+      "word": "collaborate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/daily-professional-life-and-workplace-dynamics.html"
+    }
+  ],
+  "manuals/en/vocabulary/b2/topics/economics-trade-and-finance.html": [
+    {
+      "word": "Gross Domestic Product (GDP)",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/economics-trade-and-finance.html"
+    },
+    {
+      "word": "inflation",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/economics-trade-and-finance.html"
+    },
+    {
+      "word": "recession",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/economics-trade-and-finance.html"
+    },
+    {
+      "word": "fiscal",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/economics-trade-and-finance.html"
+    },
+    {
+      "word": "tariff",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/economics-trade-and-finance.html"
+    },
+    {
+      "word": "trade deficit",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/economics-trade-and-finance.html"
+    },
+    {
+      "word": "liquidity",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/economics-trade-and-finance.html"
+    },
+    {
+      "word": "stock market",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/economics-trade-and-finance.html"
+    },
+    {
+      "word": "export",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/economics-trade-and-finance.html"
+    },
+    {
+      "word": "fluctuate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/economics-trade-and-finance.html"
+    },
+    {
+      "word": "stabilize",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/economics-trade-and-finance.html"
+    },
+    {
+      "word": "stagnate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/economics-trade-and-finance.html"
+    },
+    {
+      "word": "stimulate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/economics-trade-and-finance.html"
+    },
+    {
+      "word": "curb",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/economics-trade-and-finance.html"
+    }
+  ],
+  "manuals/en/vocabulary/b2/topics/environment-sustainability-and-circular-economy.html": [
+    {
+      "word": "circular economy",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/environment-sustainability-and-circular-economy.html"
+    },
+    {
+      "word": "carbon credit trading",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/environment-sustainability-and-circular-economy.html"
+    },
+    {
+      "word": "zero emissions",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/environment-sustainability-and-circular-economy.html"
+    },
+    {
+      "word": "urban sustainability",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/environment-sustainability-and-circular-economy.html"
+    },
+    {
+      "word": "water management",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/environment-sustainability-and-circular-economy.html"
+    },
+    {
+      "word": "biodiversity",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/environment-sustainability-and-circular-economy.html"
+    },
+    {
+      "word": "conserve",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/environment-sustainability-and-circular-economy.html"
+    },
+    {
+      "word": "reduce",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/environment-sustainability-and-circular-economy.html"
+    },
+    {
+      "word": "mitigate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/environment-sustainability-and-circular-economy.html"
+    },
+    {
+      "word": "preserve",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/environment-sustainability-and-circular-economy.html"
+    },
+    {
+      "word": "recycle",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/environment-sustainability-and-circular-economy.html"
+    }
+  ],
+  "manuals/en/vocabulary/b2/topics/healthcare-systems-and-preventive-medicine.html": [
+    {
+      "word": "public health policy",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/healthcare-systems-and-preventive-medicine.html"
+    },
+    {
+      "word": "universal coverage",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/healthcare-systems-and-preventive-medicine.html"
+    },
+    {
+      "word": "epidemiology",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/healthcare-systems-and-preventive-medicine.html"
+    },
+    {
+      "word": "preventive medicine",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/healthcare-systems-and-preventive-medicine.html"
+    },
+    {
+      "word": "clinical trial",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/healthcare-systems-and-preventive-medicine.html"
+    },
+    {
+      "word": "medical ethics committee",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/healthcare-systems-and-preventive-medicine.html"
+    },
+    {
+      "word": "vaccinate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/healthcare-systems-and-preventive-medicine.html"
+    },
+    {
+      "word": "prevent",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/healthcare-systems-and-preventive-medicine.html"
+    },
+    {
+      "word": "treat",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/healthcare-systems-and-preventive-medicine.html"
+    },
+    {
+      "word": "administer",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/healthcare-systems-and-preventive-medicine.html"
+    },
+    {
+      "word": "regulate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/healthcare-systems-and-preventive-medicine.html"
+    }
+  ],
+  "manuals/en/vocabulary/b2/topics/higher-education-and-academic-inquiry.html": [
+    {
+      "word": "dissertation",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/higher-education-and-academic-inquiry.html"
+    },
+    {
+      "word": "thesis defense",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/higher-education-and-academic-inquiry.html"
+    },
+    {
+      "word": "academic integrity",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/higher-education-and-academic-inquiry.html"
+    },
+    {
+      "word": "citation",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/higher-education-and-academic-inquiry.html"
+    },
+    {
+      "word": "peer-reviewed journal",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/higher-education-and-academic-inquiry.html"
+    },
+    {
+      "word": "symposium",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/higher-education-and-academic-inquiry.html"
+    },
+    {
+      "word": "faculty",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/higher-education-and-academic-inquiry.html"
+    },
+    {
+      "word": "methodology",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/higher-education-and-academic-inquiry.html"
+    },
+    {
+      "word": "defend",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/higher-education-and-academic-inquiry.html"
+    },
+    {
+      "word": "publish",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/higher-education-and-academic-inquiry.html"
+    },
+    {
+      "word": "cite",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/higher-education-and-academic-inquiry.html"
+    },
+    {
+      "word": "evaluate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/higher-education-and-academic-inquiry.html"
+    },
+    {
+      "word": "lecture",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/higher-education-and-academic-inquiry.html"
+    }
+  ],
+  "manuals/en/vocabulary/b2/topics/international-relations-and-geopolitics.html": [
+    {
+      "word": "diplomacy",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/international-relations-and-geopolitics.html"
+    },
+    {
+      "word": "multilateral treaty",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/international-relations-and-geopolitics.html"
+    },
+    {
+      "word": "diplomatic immunity",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/international-relations-and-geopolitics.html"
+    },
+    {
+      "word": "ambassador",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/international-relations-and-geopolitics.html"
+    },
+    {
+      "word": "international sanctions",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/international-relations-and-geopolitics.html"
+    },
+    {
+      "word": "peacekeeping",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/international-relations-and-geopolitics.html"
+    },
+    {
+      "word": "summit",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/international-relations-and-geopolitics.html"
+    },
+    {
+      "word": "bilateral",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/international-relations-and-geopolitics.html"
+    },
+    {
+      "word": "negotiate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/international-relations-and-geopolitics.html"
+    },
+    {
+      "word": "ratify",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/international-relations-and-geopolitics.html"
+    },
+    {
+      "word": "impose",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/international-relations-and-geopolitics.html"
+    },
+    {
+      "word": "mediate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/international-relations-and-geopolitics.html"
+    },
+    {
+      "word": "execute",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/international-relations-and-geopolitics.html"
+    }
+  ],
+  "manuals/en/vocabulary/b2/topics/law-justice-and-civil-rights.html": [
+    {
+      "word": "prosecution",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/law-justice-and-civil-rights.html"
+    },
+    {
+      "word": "defense",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/law-justice-and-civil-rights.html"
+    },
+    {
+      "word": "verdict",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/law-justice-and-civil-rights.html"
+    },
+    {
+      "word": "acquit",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/law-justice-and-civil-rights.html"
+    },
+    {
+      "word": "jurisdiction",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/law-justice-and-civil-rights.html"
+    },
+    {
+      "word": "intellectual property",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/law-justice-and-civil-rights.html"
+    },
+    {
+      "word": "copyright infringement",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/law-justice-and-civil-rights.html"
+    },
+    {
+      "word": "audit",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/law-justice-and-civil-rights.html"
+    },
+    {
+      "word": "stand trial",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/law-justice-and-civil-rights.html"
+    },
+    {
+      "word": "bring against",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/law-justice-and-civil-rights.html"
+    },
+    {
+      "word": "rule on",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/law-justice-and-civil-rights.html"
+    },
+    {
+      "word": "lock up",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/law-justice-and-civil-rights.html"
+    },
+    {
+      "word": "call upon",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/law-justice-and-civil-rights.html"
+    }
+  ],
+  "manuals/en/vocabulary/b2/topics/media-journalism-and-public-discourse.html": [
+    {
+      "word": "investigative reporting",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/media-journalism-and-public-discourse.html"
+    },
+    {
+      "word": "press freedom",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/media-journalism-and-public-discourse.html"
+    },
+    {
+      "word": "whistleblower",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/media-journalism-and-public-discourse.html"
+    },
+    {
+      "word": "source",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/media-journalism-and-public-discourse.html"
+    },
+    {
+      "word": "disinformation",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/media-journalism-and-public-discourse.html"
+    },
+    {
+      "word": "echo chamber",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/media-journalism-and-public-discourse.html"
+    },
+    {
+      "word": "clickbait",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/media-journalism-and-public-discourse.html"
+    },
+    {
+      "word": "debunk",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/media-journalism-and-public-discourse.html"
+    },
+    {
+      "word": "manipulate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/media-journalism-and-public-discourse.html"
+    },
+    {
+      "word": "investigate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/media-journalism-and-public-discourse.html"
+    },
+    {
+      "word": "expose",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/media-journalism-and-public-discourse.html"
+    },
+    {
+      "word": "leak",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/media-journalism-and-public-discourse.html"
+    },
+    {
+      "word": "distort",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/media-journalism-and-public-discourse.html"
+    },
+    {
+      "word": "sensationalize",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/media-journalism-and-public-discourse.html"
+    }
+  ],
+  "manuals/en/vocabulary/b2/topics/philosophy-ethics-and-moral-logic.html": [
+    {
+      "word": "utilitarianism",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/philosophy-ethics-and-moral-logic.html"
+    },
+    {
+      "word": "deontology",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/philosophy-ethics-and-moral-logic.html"
+    },
+    {
+      "word": "moral dilemma",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/philosophy-ethics-and-moral-logic.html"
+    },
+    {
+      "word": "free will",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/philosophy-ethics-and-moral-logic.html"
+    },
+    {
+      "word": "epistemology",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/philosophy-ethics-and-moral-logic.html"
+    },
+    {
+      "word": "ethical framework",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/philosophy-ethics-and-moral-logic.html"
+    },
+    {
+      "word": "fundamental principles",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/philosophy-ethics-and-moral-logic.html"
+    },
+    {
+      "word": "deliberate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/philosophy-ethics-and-moral-logic.html"
+    },
+    {
+      "word": "justify",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/philosophy-ethics-and-moral-logic.html"
+    },
+    {
+      "word": "uphold",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/philosophy-ethics-and-moral-logic.html"
+    },
+    {
+      "word": "deduce",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/philosophy-ethics-and-moral-logic.html"
+    },
+    {
+      "word": "ponder",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/philosophy-ethics-and-moral-logic.html"
+    }
+  ],
+  "manuals/en/vocabulary/b2/topics/psychology-cognition-and-behavior.html": [
+    {
+      "word": "cognitive bias",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/psychology-cognition-and-behavior.html"
+    },
+    {
+      "word": "subconscious",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/psychology-cognition-and-behavior.html"
+    },
+    {
+      "word": "perception",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/psychology-cognition-and-behavior.html"
+    },
+    {
+      "word": "internalize",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/psychology-cognition-and-behavior.html"
+    },
+    {
+      "word": "emotional intelligence",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/psychology-cognition-and-behavior.html"
+    },
+    {
+      "word": "psychological resilience",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/psychology-cognition-and-behavior.html"
+    },
+    {
+      "word": "coping",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/psychology-cognition-and-behavior.html"
+    },
+    {
+      "word": "perceive",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/psychology-cognition-and-behavior.html"
+    },
+    {
+      "word": "process",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/psychology-cognition-and-behavior.html"
+    },
+    {
+      "word": "cope",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/psychology-cognition-and-behavior.html"
+    },
+    {
+      "word": "adapt",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/psychology-cognition-and-behavior.html"
+    }
+  ],
+  "manuals/en/vocabulary/b2/topics/science-research-and-empirical-methodology.html": [
+    {
+      "word": "empirical data",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/science-research-and-empirical-methodology.html"
+    },
+    {
+      "word": "hypothesis",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/science-research-and-empirical-methodology.html"
+    },
+    {
+      "word": "control group",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/science-research-and-empirical-methodology.html"
+    },
+    {
+      "word": "double-blind study",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/science-research-and-empirical-methodology.html"
+    },
+    {
+      "word": "orbital trajectory",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/science-research-and-empirical-methodology.html"
+    },
+    {
+      "word": "payload",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/science-research-and-empirical-methodology.html"
+    },
+    {
+      "word": "propulsion",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/science-research-and-empirical-methodology.html"
+    },
+    {
+      "word": "satellite",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/science-research-and-empirical-methodology.html"
+    },
+    {
+      "word": "rover",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/science-research-and-empirical-methodology.html"
+    },
+    {
+      "word": "replicate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/science-research-and-empirical-methodology.html"
+    },
+    {
+      "word": "peer review",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/science-research-and-empirical-methodology.html"
+    },
+    {
+      "word": "formulate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/science-research-and-empirical-methodology.html"
+    },
+    {
+      "word": "transmit",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/science-research-and-empirical-methodology.html"
+    },
+    {
+      "word": "observe",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/science-research-and-empirical-methodology.html"
+    }
+  ],
+  "manuals/en/vocabulary/b2/topics/society-government-and-public-life.html": [
+    {
+      "word": "legislation",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/society-government-and-public-life.html"
+    },
+    {
+      "word": "parliament",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/society-government-and-public-life.html"
+    },
+    {
+      "word": "civil servant",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/society-government-and-public-life.html"
+    },
+    {
+      "word": "bureaucracy",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/society-government-and-public-life.html"
+    },
+    {
+      "word": "manifesto",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/society-government-and-public-life.html"
+    },
+    {
+      "word": "candidate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/society-government-and-public-life.html"
+    },
+    {
+      "word": "turnout",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/society-government-and-public-life.html"
+    },
+    {
+      "word": "ballot",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/society-government-and-public-life.html"
+    },
+    {
+      "word": "coalition",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/society-government-and-public-life.html"
+    },
+    {
+      "word": "step down",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/society-government-and-public-life.html"
+    },
+    {
+      "word": "call for",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/society-government-and-public-life.html"
+    },
+    {
+      "word": "carry out",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/society-government-and-public-life.html"
+    },
+    {
+      "word": "rule out",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/society-government-and-public-life.html"
+    },
+    {
+      "word": "stand down",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/society-government-and-public-life.html"
+    }
+  ],
+  "manuals/en/vocabulary/b2/topics/technology-ai-and-cybernetics.html": [
+    {
+      "word": "Machine Learning (ML)",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/technology-ai-and-cybernetics.html"
+    },
+    {
+      "word": "neural network",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/technology-ai-and-cybernetics.html"
+    },
+    {
+      "word": "predictive analytics",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/technology-ai-and-cybernetics.html"
+    },
+    {
+      "word": "cloud storage",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/technology-ai-and-cybernetics.html"
+    },
+    {
+      "word": "blockchain",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/technology-ai-and-cybernetics.html"
+    },
+    {
+      "word": "digital ethics",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/technology-ai-and-cybernetics.html"
+    },
+    {
+      "word": "end-to-end encryption",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/technology-ai-and-cybernetics.html"
+    },
+    {
+      "word": "automate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/technology-ai-and-cybernetics.html"
+    },
+    {
+      "word": "optimize",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/technology-ai-and-cybernetics.html"
+    },
+    {
+      "word": "simulate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/technology-ai-and-cybernetics.html"
+    },
+    {
+      "word": "virtualize",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/technology-ai-and-cybernetics.html"
+    },
+    {
+      "word": "authenticate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "B2",
+      "source_file": "manuals/en/vocabulary/b2/topics/technology-ai-and-cybernetics.html"
+    }
+  ],
+  "manuals/en/vocabulary/c1/topics/academic-genres-and-research-publications.html": [
+    {
+      "word": "systematic review",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/academic-genres-and-research-publications.html"
+    },
+    {
+      "word": "meta-analysis",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/academic-genres-and-research-publications.html"
+    },
+    {
+      "word": "monograph",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/academic-genres-and-research-publications.html"
+    },
+    {
+      "word": "substantiate",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/academic-genres-and-research-publications.html"
+    }
+  ],
+  "manuals/en/vocabulary/c1/topics/academic-literacy-assessment-and-pedagogy.html": [
+    {
+      "word": "formative assessment",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/academic-literacy-assessment-and-pedagogy.html"
+    },
+    {
+      "word": "academic literacy",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/academic-literacy-assessment-and-pedagogy.html"
+    },
+    {
+      "word": "scholastic achievement",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/academic-literacy-assessment-and-pedagogy.html"
+    }
+  ],
+  "manuals/en/vocabulary/c1/topics/aesthetics-literature-and-architectural-heritage.html": [
+    {
+      "word": "fine art curation",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/aesthetics-literature-and-architectural-heritage.html"
+    },
+    {
+      "word": "literary critique",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/aesthetics-literature-and-architectural-heritage.html"
+    },
+    {
+      "word": "architectural landmark",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/aesthetics-literature-and-architectural-heritage.html"
+    }
+  ],
+  "manuals/en/vocabulary/c1/topics/artificial-intelligence-machine-learning-and-robotics.html": [
+    {
+      "word": "deep learning",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/artificial-intelligence-machine-learning-and-robotics.html"
+    },
+    {
+      "word": "natural language processing (NLP)",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/artificial-intelligence-machine-learning-and-robotics.html"
+    },
+    {
+      "word": "neural network optimization",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/artificial-intelligence-machine-learning-and-robotics.html"
+    }
+  ],
+  "manuals/en/vocabulary/c1/topics/banking-investment-cryptocurrencies-and-crises.html": [
+    {
+      "word": "financial contagion",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/banking-investment-cryptocurrencies-and-crises.html"
+    },
+    {
+      "word": "inflation hedge",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/banking-investment-cryptocurrencies-and-crises.html"
+    },
+    {
+      "word": "liquidity crisis",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/banking-investment-cryptocurrencies-and-crises.html"
+    }
+  ],
+  "manuals/en/vocabulary/c1/topics/civil-law-contracts-and-torts.html": [
+    {
+      "word": "tort",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/civil-law-contracts-and-torts.html"
+    },
+    {
+      "word": "indemnification clause",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/civil-law-contracts-and-torts.html"
+    },
+    {
+      "word": "compensatory damages",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/civil-law-contracts-and-torts.html"
+    }
+  ],
+  "manuals/en/vocabulary/c1/topics/climate-adaptation-biodiversity-and-green-tech.html": [
+    {
+      "word": "circular economy",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/climate-adaptation-biodiversity-and-green-tech.html"
+    },
+    {
+      "word": "carbon offset scheme",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/climate-adaptation-biodiversity-and-green-tech.html"
+    },
+    {
+      "word": "climate adaptation",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/climate-adaptation-biodiversity-and-green-tech.html"
+    }
+  ],
+  "manuals/en/vocabulary/c1/topics/cognitive-biases-mental-disorders-and-therapy.html": [
+    {
+      "word": "confirmation bias",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/cognitive-biases-mental-disorders-and-therapy.html"
+    },
+    {
+      "word": "cognitive dissonance",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/cognitive-biases-mental-disorders-and-therapy.html"
+    },
+    {
+      "word": "cognitive behavioral therapy (CBT)",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/cognitive-biases-mental-disorders-and-therapy.html"
+    }
+  ],
+  "manuals/en/vocabulary/c1/topics/constitutional-and-international-law.html": [
+    {
+      "word": "ratify",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/constitutional-and-international-law.html"
+    },
+    {
+      "word": "sovereignty",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/constitutional-and-international-law.html"
+    },
+    {
+      "word": "unconstitutional",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/constitutional-and-international-law.html"
+    }
+  ],
+  "manuals/en/vocabulary/c1/topics/criminal-law-and-judicial-proceedings.html": [
+    {
+      "word": "indictment",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/criminal-law-and-judicial-proceedings.html"
+    },
+    {
+      "word": "plea bargain",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/criminal-law-and-judicial-proceedings.html"
+    },
+    {
+      "word": "subpoena",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/criminal-law-and-judicial-proceedings.html"
+    }
+  ],
+  "manuals/en/vocabulary/c1/topics/cybersecurity-big-data-and-digital-ethics.html": [
+    {
+      "word": "zero-trust architecture",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/cybersecurity-big-data-and-digital-ethics.html"
+    },
+    {
+      "word": "quantum-resistant encryption",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/cybersecurity-big-data-and-digital-ethics.html"
+    },
+    {
+      "word": "Big Data analytics",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/cybersecurity-big-data-and-digital-ethics.html"
+    }
+  ],
+  "manuals/en/vocabulary/c1/topics/diagnostics-clinical-trials-and-specialties.html": [
+    {
+      "word": "Phase III trial",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/diagnostics-clinical-trials-and-specialties.html"
+    },
+    {
+      "word": "palliative care",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/diagnostics-clinical-trials-and-specialties.html"
+    },
+    {
+      "word": "bioethics committee",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/diagnostics-clinical-trials-and-specialties.html"
+    }
+  ],
   "manuals/en/vocabulary/c1/topics/executive-leadership-operations-and-hr.html": [],
-  "manuals/en/vocabulary/c1/topics/geopolitics-soft-power-and-peacekeeping.html": [],
+  "manuals/en/vocabulary/c1/topics/geopolitics-soft-power-and-peacekeeping.html": [
+    {
+      "word": "soft power",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/geopolitics-soft-power-and-peacekeeping.html"
+    },
+    {
+      "word": "territorial integrity",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/geopolitics-soft-power-and-peacekeeping.html"
+    },
+    {
+      "word": "multilateral treaty",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/geopolitics-soft-power-and-peacekeeping.html"
+    }
+  ],
   "manuals/en/vocabulary/c1/topics/investigative-journalism-and-press-freedom.html": [],
   "manuals/en/vocabulary/c1/topics/microeconomics-macroeconomics-and-behavioural-economics.html": [],
   "manuals/en/vocabulary/c1/topics/morality-existentialism-and-epistemology.html": [],
   "manuals/en/vocabulary/c1/topics/physics-chemistry-biology-and-genetics.html": [],
-  "manuals/en/vocabulary/c1/topics/research-ethics-peer-review-and-methodology.html": [],
-  "manuals/en/vocabulary/c1/topics/risk-management-change-and-entrepreneurship.html": [],
-  "manuals/en/vocabulary/c1/topics/statistical-analysis-and-empirical-data-interpretation.html": [],
-  "manuals/en/vocabulary/c2/topics/collocations-at-native-density.html": [],
-  "manuals/en/vocabulary/c2/topics/cross-domain-specialist-vocabulary.html": [],
-  "manuals/en/vocabulary/c2/topics/idiomatic-and-figurative-fluency.html": [],
+  "manuals/en/vocabulary/c1/topics/research-ethics-peer-review-and-methodology.html": [
+    {
+      "word": "Institutional Review Board (IRB)",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/research-ethics-peer-review-and-methodology.html"
+    },
+    {
+      "word": "replication crisis",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/research-ethics-peer-review-and-methodology.html"
+    },
+    {
+      "word": "double-blind study",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/research-ethics-peer-review-and-methodology.html"
+    }
+  ],
+  "manuals/en/vocabulary/c1/topics/risk-management-change-and-entrepreneurship.html": [
+    {
+      "word": "disruptive innovation",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/risk-management-change-and-entrepreneurship.html"
+    },
+    {
+      "word": "venture capital",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/risk-management-change-and-entrepreneurship.html"
+    },
+    {
+      "word": "contingency plan",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/risk-management-change-and-entrepreneurship.html"
+    }
+  ],
+  "manuals/en/vocabulary/c1/topics/statistical-analysis-and-empirical-data-interpretation.html": [
+    {
+      "word": "regression analysis",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/statistical-analysis-and-empirical-data-interpretation.html"
+    },
+    {
+      "word": "inverse correlation",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/statistical-analysis-and-empirical-data-interpretation.html"
+    },
+    {
+      "word": "outlier",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C1",
+      "source_file": "manuals/en/vocabulary/c1/topics/statistical-analysis-and-empirical-data-interpretation.html"
+    }
+  ],
+  "manuals/en/vocabulary/c2/topics/collocations-at-native-density.html": [
+    {
+      "word": "Irrevocably committed",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C2",
+      "source_file": "manuals/en/vocabulary/c2/topics/collocations-at-native-density.html"
+    },
+    {
+      "word": "Exercise restraint",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C2",
+      "source_file": "manuals/en/vocabulary/c2/topics/collocations-at-native-density.html"
+    },
+    {
+      "word": "Unmitigated disaster",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C2",
+      "source_file": "manuals/en/vocabulary/c2/topics/collocations-at-native-density.html"
+    },
+    {
+      "word": "Cast doubt on",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C2",
+      "source_file": "manuals/en/vocabulary/c2/topics/collocations-at-native-density.html"
+    }
+  ],
+  "manuals/en/vocabulary/c2/topics/cross-domain-specialist-vocabulary.html": [
+    {
+      "word": "Jurisprudence",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C2",
+      "source_file": "manuals/en/vocabulary/c2/topics/cross-domain-specialist-vocabulary.html"
+    },
+    {
+      "word": "Epistemology",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C2",
+      "source_file": "manuals/en/vocabulary/c2/topics/cross-domain-specialist-vocabulary.html"
+    },
+    {
+      "word": "Stagflation",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C2",
+      "source_file": "manuals/en/vocabulary/c2/topics/cross-domain-specialist-vocabulary.html"
+    },
+    {
+      "word": "Somatic gene editing",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C2",
+      "source_file": "manuals/en/vocabulary/c2/topics/cross-domain-specialist-vocabulary.html"
+    }
+  ],
+  "manuals/en/vocabulary/c2/topics/idiomatic-and-figurative-fluency.html": [
+    {
+      "word": "Damoclean sword",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C2",
+      "source_file": "manuals/en/vocabulary/c2/topics/idiomatic-and-figurative-fluency.html"
+    },
+    {
+      "word": "Pyrrhic victory",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C2",
+      "source_file": "manuals/en/vocabulary/c2/topics/idiomatic-and-figurative-fluency.html"
+    },
+    {
+      "word": "Gordian knot",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C2",
+      "source_file": "manuals/en/vocabulary/c2/topics/idiomatic-and-figurative-fluency.html"
+    },
+    {
+      "word": "Parting shot",
+      "vocab_pos": null,
+      "vocab_def": null,
+      "level": "C2",
+      "source_file": "manuals/en/vocabulary/c2/topics/idiomatic-and-figurative-fluency.html"
+    }
+  ],
   "manuals/en/vocabulary/c2/topics/precision-and-near-synonym-discrimination.html": []
 }

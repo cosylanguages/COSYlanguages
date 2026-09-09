@@ -74,11 +74,12 @@ class ManualHTMLParser(HTMLParser):
         classes = attr_dict.get("class", "").split()
 
         if "vocab-item" in classes or "vocab-card" in classes:
-            if self.current_entry and self.current_entry.get("word", "").strip():
-                self._flush_current()
+            self._flush_current()
             self.current_entry = {"word": "", "vocab_pos": None, "vocab_def": None}
 
         if "vocab-word" in classes:
+            if self.current_entry and self.current_entry.get("word", "").strip():
+                self._flush_current()
             self.in_word = True
             if self.current_entry is None:
                 self.current_entry = {"word": "", "vocab_pos": None, "vocab_def": None}
@@ -110,8 +111,7 @@ class ManualHTMLParser(HTMLParser):
         if self.tag_stack:
             popped_tag, popped_classes = self.tag_stack.pop()
             if "vocab-item" in popped_classes or "vocab-card" in popped_classes:
-                if self.current_entry and self.current_entry.get("word", "").strip():
-                    self._flush_current()
+                self._flush_current()
 
     def handle_data(self, data):
         if self.current_entry is not None:
@@ -143,13 +143,16 @@ def extract_manuals():
         parts = rel_path.split(os.sep)
         level = parts[3].upper() if len(parts) > 3 else "A1"
 
-        parser = ManualHTMLParser()
         with open(filepath, "r", encoding="utf-8") as f:
-            parser.feed(f.read())
-        # Flush any trailing entry
-        parser._flush_current()
+            html = f.read()
 
         file_entries = []
+
+        # 1. HTML Parser for .vocab-word elements
+        parser = ManualHTMLParser()
+        parser.feed(html)
+        parser._flush_current()
+
         for item in parser.entries:
             file_entries.append({
                 "word": item["word"],
@@ -158,6 +161,42 @@ def extract_manuals():
                 "level": level,
                 "source_file": rel_path
             })
+
+        # 2. Extract vocabulary terms from table rows for topic files
+        tables = re.findall(r'<table[^>]*>(.*?)</table>', html, re.DOTALL)
+        for table in tables:
+            headers = [re.sub(r'<[^>]+>', '', h).strip().lower() for h in re.findall(r'<th[^>]*>(.*?)</th>', table, re.DOTALL)]
+
+            vocab_col_idx = None
+            keywords = [
+                'vocabulary', 'key terms', 'term', 'phrasal verb', 'native collocation',
+                'specialist term', 'figurative idiom', 'core term', 'educational term',
+                'ai term', 'legal term', 'medical term', 'diplomatic term', 'statistical concept',
+                'psychological concept', 'register upgrade', 'words', 'expressions', 'set phrases'
+            ]
+            for idx, h in enumerate(headers):
+                if any(k == h or h.startswith(k) or h.endswith(k) for k in keywords):
+                    vocab_col_idx = idx
+                    break
+
+            if vocab_col_idx is not None:
+                rows = re.findall(r'<tr[^>]*>(.*?)</tr>', table, re.DOTALL)
+                for r in rows:
+                    cols = [re.sub(r'<[^>]+>', '', c).strip() for c in re.findall(r'<td[^>]*>(.*?)</td>', r, re.DOTALL)]
+                    if cols and vocab_col_idx < len(cols):
+                        cell_text = cols[vocab_col_idx]
+                        if cell_text and not cell_text.lower().startswith('example') and len(cell_text) < 120:
+                            terms = [t.strip() for t in cell_text.split(',') if t.strip()]
+                            for term in terms:
+                                if term and not any(e["word"].lower() == term.lower() for e in file_entries):
+                                    file_entries.append({
+                                        "word": term,
+                                        "vocab_pos": None,
+                                        "vocab_def": None,
+                                        "level": level,
+                                        "source_file": rel_path
+                                    })
+
         grouped_manuals[rel_path] = file_entries
 
     return grouped_manuals
