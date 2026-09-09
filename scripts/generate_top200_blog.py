@@ -18,126 +18,6 @@ LANGUAGES = {
         'phrases_title': '💬 4. Top 200 Essential English Phrases & Sentence Patterns',
         'sub': '200 items in pairs & sequences',
         'intro': 'Planning to start learning English? Here is the complete, obligatory beginner blueprint: 200 essential nouns across real-life themes, 200 action verbs grouped in antonym pairs and step-by-step evolutions, 200 descriptive adjectives in opposite pairs and intensity scales, and 200 conversational phrase patterns (with A, B, C collocations and contrasts).'
-    },
-    'fr': {
-        'name': 'French',
-        'flag': '🇫🇷',
-        'nouns_title': '🏛️ 1. Top 200 Essential French Nouns (A0–A1)',
-        'verbs_title': '⚡ 2. Top 200 Essential French Verbs (Antonyms & Progression Sequences)',
-        'adj_title': '🎨 3. Top 200 Essential French Adjectives (Opposites & Intensity Scales)',
-        'phrases_title': '💬 4. Top 200 Essential French Phrases & Sentence Patterns',
-        'sub': '200 items in pairs & sequences',
-        'intro': 'Planning to start learning French? Here is the complete beginner blueprint: 200 essential nouns, 200 action verbs with antonyms & process evolutions, 200 adjectives in opposite pairs, and 200 conversational phrase patterns.'
-    },
-    'it': {
-        'name': 'Italian',
-        'flag': '🇮🇹',
-        'nouns_title': '🏛️ 1. Top 200 Essential Italian Nouns (A0–A1)',
-        'verbs_title': '⚡ 2. Top 200 Essential Italian Verbs (Antonyms & Progression Sequences)',
-        'adj_title': '🎨 3. Top 200 Essential Italian Adjectives (Opposites & Intensity Scales)',
-        'phrases_title': '💬 4. Top 200 Essential Italian Phrases & Sentence Patterns',
-        'sub': '200 items in pairs & sequences',
-        'intro': 'Planning to start learning Italian? Here is the complete beginner blueprint: 200 essential nouns, 200 action verbs, 200 adjectives, and 200 conversational phrase patterns.'
-    },
-    'ru': {
-        'name': 'Russian',
-        'flag': '🇷🇺',
-        'nouns_title': '🏛️ 1. Top 200 Essential Russian Nouns (A0–A1)',
-        'verbs_title': '⚡ 2. Top 200 Essential Russian Verbs (Antonyms & Progression Sequences)',
-        'adj_title': '🎨 3. Top 200 Essential Russian Adjectives (Opposites & Intensity Scales)',
-        'phrases_title': '💬 4. Top 200 Essential Russian Phrases & Sentence Patterns',
-        'sub': '200 items in pairs & sequences',
-        'intro': 'Planning to start learning Russian? Here is the complete beginner blueprint: 200 essential nouns, 200 action verbs, 200 adjectives, and 200 conversational phrase patterns.'
-    },
-    'el': {
-        'name': 'Greek',
-        'flag': '🇬🇷',
-        'nouns_title': '🏛️ 1. Top 200 Essential Greek Nouns (A0–A1)',
-        'verbs_title': '⚡ 2. Top 200 Essential Greek Verbs (Antonyms & Progression Sequences)',
-        'adj_title': '🎨 3. Top 200 Essential Greek Adjectives (Opposites & Intensity Scales)',
-        'phrases_title': '💬 4. Top 200 Essential Greek Phrases & Sentence Patterns',
-        'sub': '200 items in pairs & sequences',
-        'intro': 'Planning to start learning Greek? Here is the complete beginner blueprint: 200 essential nouns, 200 action verbs, 200 adjectives, and 200 conversational phrase patterns.'
-    },
-    'es': {
-        'name': 'Spanish',
-        'flag': '🇪🇸',
-        'nouns_title': '🏛️ 1. Top 200 Essential Spanish Nouns (A0–A1)',
-        'verbs_title': '⚡ 2. Top 200 Essential Spanish Verbs (Antonyms & Progression Sequences)',
-        'adj_title': '🎨 3. Top 200 Essential Spanish Adjectives (Opposites & Intensity Scales)',
-        'phrases_title': '💬 4. Top 200 Essential Spanish Phrases & Sentence Patterns',
-        'sub': '200 items in pairs & sequences',
-        'intro': 'Planning to start learning Spanish? Here is the complete beginner blueprint: 200 essential nouns, 200 action verbs, 200 adjectives, and 200 conversational phrase patterns.'
-    },
-    'de': {
-        'name': 'German',
-        'flag': '🇩🇪',
-        'nouns_title': '🏛️ 1. Top 200 Essential German Nouns (A0–A1)',
-        'verbs_title': '⚡ 2. Top 200 Essential German Verbs (Antonyms & Progression Sequences)',
-        'adj_title': '🎨 3. Top 200 Essential German Adjectives (Opposites & Intensity Scales)',
-        'phrases_title': '💬 4. Top 200 Essential German Phrases & Sentence Patterns',
-        'sub': '200 items in pairs & sequences',
-        'intro': 'Planning to start learning German? Here is the complete beginner blueprint: 200 essential nouns, 200 action verbs, 200 adjectives, and 200 conversational phrase patterns.'
-    },
-    'pt': {
-        'name': 'Portuguese',
-        'flag': '🇵🇹',
-        'nouns_title': '🏛️ 1. Top 200 Essential Portuguese Nouns (A0–A1)',
-        'verbs_title': '⚡ 2. Top 200 Essential Portuguese Verbs (Antonyms & Progression Sequences)',
-        'adj_title': '🎨 3. Top 200 Essential Portuguese Adjectives (Opposites & Intensity Scales)',
-        'phrases_title': '💬 4. Top 200 Essential Portuguese Phrases & Sentence Patterns',
-        'sub': '200 items in pairs & sequences',
-        'intro': 'Planning to start learning Portuguese? Here is the complete beginner blueprint: 200 essential nouns, 200 action verbs, 200 adjectives, and 200 conversational phrase patterns.'
-    },
-    'hy': {
-        'name': 'Armenian',
-        'flag': '🇦🇲',
-        'nouns_title': '🏛️ 1. Top 200 Essential Armenian Nouns (A0–A1)',
-        'verbs_title': '⚡ 2. Top 200 Essential Armenian Verbs (Antonyms & Progression Sequences)',
-        'adj_title': '🎨 3. Top 200 Essential Armenian Adjectives (Opposites & Intensity Scales)',
-        'phrases_title': '💬 4. Top 200 Essential Armenian Phrases & Sentence Patterns',
-        'sub': '200 items in pairs & sequences',
-        'intro': 'Planning to start learning Armenian? Here is the complete beginner blueprint: 200 essential nouns, 200 action verbs, 200 adjectives, and 200 conversational phrase patterns.'
-    },
-    'ka': {
-        'name': 'Georgian',
-        'flag': '🇬🇪',
-        'nouns_title': '🏛️ 1. Top 200 Essential Georgian Nouns (A0–A1)',
-        'verbs_title': '⚡ 2. Top 200 Essential Georgian Verbs (Antonyms & Progression Sequences)',
-        'adj_title': '🎨 3. Top 200 Essential Georgian Adjectives (Opposites & Intensity Scales)',
-        'phrases_title': '💬 4. Top 200 Essential Georgian Phrases & Sentence Patterns',
-        'sub': '200 items in pairs & sequences',
-        'intro': 'Planning to start learning Georgian? Here is the complete beginner blueprint: 200 essential nouns, 200 action verbs, 200 adjectives, and 200 conversational phrase patterns.'
-    },
-    'tt': {
-        'name': 'Tatar',
-        'flag': '⬜',
-        'nouns_title': '🏛️ 1. Top 200 Essential Tatar Nouns (A0–A1)',
-        'verbs_title': '⚡ 2. Top 200 Essential Tatar Verbs (Antonyms & Progression Sequences)',
-        'adj_title': '🎨 3. Top 200 Essential Tatar Adjectives (Opposites & Intensity Scales)',
-        'phrases_title': '💬 4. Top 200 Essential Tatar Phrases & Sentence Patterns',
-        'sub': '200 items in pairs & sequences',
-        'intro': 'Planning to start learning Tatar? Here is the complete beginner blueprint: 200 essential nouns, 200 action verbs, 200 adjectives, and 200 conversational phrase patterns.'
-    },
-    'ba': {
-        'name': 'Bashkir',
-        'flag': '⬜',
-        'nouns_title': '🏛️ 1. Top 200 Essential Bashkir Nouns (A0–A1)',
-        'verbs_title': '⚡ 2. Top 200 Essential Bashkir Verbs (Antonyms & Progression Sequences)',
-        'adj_title': '🎨 3. Top 200 Essential Bashkir Adjectives (Opposites & Intensity Scales)',
-        'phrases_title': '💬 4. Top 200 Essential Bashkir Phrases & Sentence Patterns',
-        'sub': '200 items in pairs & sequences',
-        'intro': 'Planning to start learning Bashkir? Here is the complete beginner blueprint: 200 essential nouns, 200 action verbs, 200 adjectives, and 200 conversational phrase patterns.'
-    },
-    'br': {
-        'name': 'Breton',
-        'flag': '🏴‍☠️',
-        'nouns_title': '🏛️ 1. Top 200 Essential Breton Nouns (A0–A1)',
-        'verbs_title': '⚡ 2. Top 200 Essential Breton Verbs (Antonyms & Progression Sequences)',
-        'adj_title': '🎨 3. Top 200 Essential Breton Adjectives (Opposites & Intensity Scales)',
-        'phrases_title': '💬 4. Top 200 Essential Breton Phrases & Sentence Patterns',
-        'sub': '200 items in pairs & sequences',
-        'intro': 'Planning to start learning Breton? Here is the complete beginner blueprint: 200 essential nouns, 200 action verbs, 200 adjectives, and 200 conversational phrase patterns.'
     }
 }
 
@@ -531,7 +411,7 @@ def generate_page(lang_code, lang_info):
             <section class="list-section">
                 <div class="sec-head">
                     <h2>{nouns_title}</h2>
-                    <span style="font-weight:800; color:var(--teal);">200 Items</span>
+                    <span style="font-weight:800; color:var(--teal);">{len(EN_DATA['nouns'])} Structured Sets</span>
                 </div>
                 <div class="cards-grid">
 {nouns_html}
@@ -542,7 +422,7 @@ def generate_page(lang_code, lang_info):
             <section class="list-section">
                 <div class="sec-head">
                     <h2>{verbs_title}</h2>
-                    <span style="font-weight:800; color:var(--teal);">200 Items</span>
+                    <span style="font-weight:800; color:var(--teal);">{len(EN_DATA['verbs'])} Structured Sets</span>
                 </div>
                 <div class="cards-grid">
 {verbs_html}
@@ -553,7 +433,7 @@ def generate_page(lang_code, lang_info):
             <section class="list-section">
                 <div class="sec-head">
                     <h2>{adj_title}</h2>
-                    <span style="font-weight:800; color:var(--teal);">200 Items</span>
+                    <span style="font-weight:800; color:var(--teal);">{len(EN_DATA['adjectives'])} Structured Sets</span>
                 </div>
                 <div class="cards-grid">
 {adj_html}
@@ -564,7 +444,7 @@ def generate_page(lang_code, lang_info):
             <section class="list-section">
                 <div class="sec-head">
                     <h2>{phrases_title}</h2>
-                    <span style="font-weight:800; color:var(--teal);">200 Items</span>
+                    <span style="font-weight:800; color:var(--teal);">{len(EN_DATA['phrases'])} Structured Sets</span>
                 </div>
                 <div class="cards-grid">
 {phrases_html}

@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """
 generate_top200_a2_b1_b2_blog.py
-Generates English A2, B1, and B2 Top 200 Master Curriculum List blog pages.
-Focuses on intermediate plateau breaking for B2, nuanced collocations for B1, and
-everyday adult situations for A2.
+Generates English A2, B1, B2, C1, and C2 Top 200 Master Curriculum List blog pages.
+Focuses on intermediate plateau breaking for B2, academic precision for C1, and native-like stylistic mastery for C2.
 """
 
 import os
@@ -26,6 +25,18 @@ LEVELS_CONFIG = {
         'title': '🇬🇧 Top 200 English B2 Upper-Intermediate (Plateau Breaker) Master List',
         'badge': 'B2 Upper-Intermediate',
         'intro': 'Stuck on the B1-B2 intermediate plateau? This master list is designed specifically to break through hesitation: 200 precision nouns for professional & debate contexts, 200 sophisticated verbs with nuanced evolution scales (e.g. hint ➔ suggest ➔ imply ➔ stipulate), 200 high-register adjectives, and 200 persuasive phrase collocations.'
+    },
+    'C1': {
+        'code': 'c1',
+        'title': '🇬🇧 Top 200 English C1 Advanced Master List',
+        'badge': 'C1 Advanced',
+        'intro': 'Refining advanced professional and academic command? The C1 Advanced blueprint presents 200 high-precision academic nouns, 200 analytical verbs in antonym pairs and discourse evolutions, 200 nuanced adjectives, and 200 sophisticated rhetorical sentence patterns.'
+    },
+    'C2': {
+        'code': 'c2',
+        'title': '🇬🇧 Top 200 English C2 Mastery Master List',
+        'badge': 'C2 Mastery',
+        'intro': 'Achieving native-like stylistic elegance and effortless precision? The C2 Mastery blueprint unlocks 200 philosophical & epistemological nouns, 200 subtle verbs with delicate register scales, 200 high-register adjectives, and 200 mastery-level rhetorical collocations.'
     }
 }
 
@@ -124,10 +135,62 @@ B2_DATA = {
     ]
 }
 
+# C1 Level Datasets (Advanced Academic & Analytical Precision)
+C1_DATA = {
+    'nouns': [
+        {"theme": "Analytical Inquiry Flow", "type": "seq", "items": ["Observation", "Hypothesis", "Empirical Testing", "Theory Formulation"], "ex": "Observation ➔ Hypothesis ➔ Empirical Testing ➔ Theory Formulation"},
+        {"theme": "Discourse Architecture", "type": "seq", "items": ["Contention", "Counter-argument", "Rebuttal", "Resolution"], "ex": "Contention ➔ Counter-argument ➔ Rebuttal ➔ Resolution"},
+        {"theme": "Academic Domain", "type": "pair", "items": ["Acumen", "Impediment"], "ex": "Linguistic acumen overcomes cognitive impediment."},
+        {"theme": "Epistemological Focus", "type": "pair", "items": ["Dichotomy", "Juxtaposition"], "ex": "Examine the dichotomy through subtle juxtaposition."},
+        {"theme": "Academic Domain", "type": "pair", "items": ["Catalyst", "Inertia"], "ex": "Active usage acts as a catalyst against mental inertia."}
+    ],
+    'verbs': [
+        {"theme": "Academic Rigor Sequence", "type": "seq", "items": ["Posit", "Elucidate", "Corroborate", "Promulgate"], "ex": "Posit ➔ Elucidate ➔ Corroborate ➔ Promulgate"},
+        {"theme": "Critical Analysis", "type": "pair", "items": ["Exacerbate", "Alleviate"], "ex": "Exacerbate confusion vs alleviate doubts."},
+        {"theme": "Discourse Action", "type": "pair", "items": ["Endorse", "Repudiate"], "ex": "Endorse empirical evidence and repudiate unfounded assumptions."},
+        {"theme": "Analytical Speech", "type": "pair", "items": ["Amplify", "Attenuate"], "ex": "Amplify core findings while attenuating minor noise."}
+    ],
+    'adjectives': [
+        {"theme": "Analytical Rigor Spectrum", "type": "seq", "items": ["Speculative", "Plausible", "Rigorous", "Irrefutable"], "ex": "Speculative ➔ Plausible ➔ Rigorous ➔ Irrefutable"},
+        {"theme": "Clarity & Depth", "type": "pair", "items": ["Explicit", "Implicit"], "ex": "Explicit criteria vs implicit understanding."},
+        {"theme": "Philosophical Depth", "type": "pair", "items": ["Profound", "Superficial"], "ex": "Profound transformation over superficial memorization."}
+    ],
+    'phrases': [
+        {"theme": "Sophisticated Argumentation", "type": "seq", "items": ["Far from being a drawback A...", "Precisely because of this B...", "It follows that C holds"], "ex": "Far from being a drawback A ➔ It follows that C holds"},
+        {"theme": "Rhetorical Contrast", "type": "pair", "items": ["One cannot overstate the value of A...", "Conversely, one must avoid exaggerating B."], "ex": "One cannot overstate the value of immersion."}
+    ]
+}
+
+# C2 Level Datasets (Mastery & Native-Like Stylistic Elegance)
+C2_DATA = {
+    'nouns': [
+        {"theme": "Mastery Evolution", "type": "seq", "items": ["Intuition", "Fluency", "Elegance", "Virtuosity"], "ex": "Intuition ➔ Fluency ➔ Elegance ➔ Virtuosity"},
+        {"theme": "Epistemological Virtuosity", "type": "pair", "items": ["Verisimilitude", "Vicissitude"], "ex": "Achieve high verisimilitude despite life's vicissitudes."},
+        {"theme": "Philosophical Inquiry", "type": "pair", "items": ["Equanimity", "Tenacity"], "ex": "Handle complex debates with equanimity and tenacity."},
+        {"theme": "Epistemological Virtuosity", "type": "pair", "items": ["Panacea", "Paucity"], "ex": "Immersion is no total panacea for a paucity of effort."}
+    ],
+    'verbs': [
+        {"theme": "Stylistic Refinement Scale", "type": "seq", "items": ["Convey", "Articulate", "Enunciate", "Exemplify"], "ex": "Convey ➔ Articulate ➔ Enunciate ➔ Exemplify"},
+        {"theme": "Philosophical Mastery", "type": "pair", "items": ["Bolster", "Undermine"], "ex": "Bolster rigorous claims or undermine weak premises."},
+        {"theme": "High Speech Action", "type": "pair", "items": ["Vindicate", "Impugn"], "ex": "Vindicate long-held theories when opponents impugn them."}
+    ],
+    'adjectives': [
+        {"theme": "Elegance Spectrum", "type": "seq", "items": ["Fluent", "Polished", "Exquisite", "Sublime"], "ex": "Fluent ➔ Polished ➔ Exquisite ➔ Sublime"},
+        {"theme": "Stylistic Register", "type": "pair", "items": ["Ephemeral", "Enduring"], "ex": "Ephemeral jargon vs enduring prose."},
+        {"theme": "Quality Mastery", "type": "pair", "items": ["Authentic", "Spurious"], "ex": "Authentic expression vs spurious claims."}
+    ],
+    'phrases': [
+        {"theme": "Native-Like Eloquence", "type": "seq", "items": ["Without loss of generality A...", "Assuming for argument's sake B...", "We arrive at C"], "ex": "Without loss of generality A ➔ We arrive at C"},
+        {"theme": "Mastery Contrast", "type": "pair", "items": ["To advocate for A is to embrace progress.", "To repudiate B is to reject stagnation."], "ex": "To advocate for immersion is to embrace progress."}
+    ]
+}
+
 LEVEL_DATA_MAP = {
     'A2': A2_DATA,
     'B1': B1_DATA,
-    'B2': B2_DATA
+    'B2': B2_DATA,
+    'C1': C1_DATA,
+    'C2': C2_DATA
 }
 
 def generate_cards_html(items_list):
@@ -375,7 +438,7 @@ def generate_page(level_key):
     print(f"Generated {filepath}")
 
 def main():
-    for lv in ['A2', 'B1', 'B2']:
+    for lv in ['A2', 'B1', 'B2', 'C1', 'C2']:
         generate_page(lv)
 
 if __name__ == "__main__":
