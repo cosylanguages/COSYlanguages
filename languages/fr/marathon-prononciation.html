@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🇫🇷 Marathon de Prononciation Française — Curriculum complet (A0 → C2) · COSY</title>
+<meta name="description" content="Curriculum complet du Marathon de Prononciation Française A0 à C2 : principes, leçons rédigées, gabarit pédagogique et 5 familles de visuels.">
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/layout.css">
+<link rel="stylesheet" href="../../css/lang-pages.css">
+<link rel="stylesheet" href="../../css/lang-accents.css">
+<link rel="stylesheet" href="../../css/mobile.css">
+<style>
+  :root {
+    --mp-primary: #1e5631;
+    --mp-primary-light: #e8f5e9;
+    --mp-accent: #2e7d32;
+    --mp-gold: #d4af37;
+    --mp-border: #c8e6c9;
+  }
+
+  body {
+    font-family: 'Nunito', system-ui, -apple-system, sans-serif;
+    color: #2c3e50;
+    background-color: #fcfdfc;
+    line-height: 1.65;
+  }
+
+  .mp-hero {
+    background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 50%, #40916c 100%);
+    color: #ffffff;
+    padding: 3.5rem 1.5rem 2.5rem;
+    border-bottom: 4px solid #74c69d;
+    text-align: center;
+  }
+
+  .mp-hero h1 {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    color: #ffffff;
+  }
+
+  .mp-hero p.subtitle {
+    font-size: 1.2rem;
+    color: #d8f3dc;
+    max-width: 800px;
+    margin: 0 auto 1.5rem;
+  }
+
+  .mp-badges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .mp-badge {
+    background: rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    padding: 0.35rem 0.85rem;
+    border-radius: 50px;
+    font-size: 0.88rem;
+    font-weight: 600;
+  }
+
+  .sd-sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+
+  .sd-jump-links {
+    display: flex;
+    gap: 0.75rem;
+    overflow-x: auto;
+    padding: 0.75rem 1.5rem;
+    white-space: nowrap;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .sd-jump-link {
+    color: #2d6a4f;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 0.3rem 0.75rem;
+    border-radius: 6px;
+    background: #f0fdf4;
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .sd-jump-link:hover {
+    background: #2d6a4f;
+    color: #ffffff;
+  }
+
+  .mp-container {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+  }
+
+  .mp-section {
+    background: #ffffff;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    padding: 2rem;
+    margin-bottom: 2.5rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+  }
+
+  .mp-section h2 {
+    color: #1b4332;
+    font-family: 'Lora', Georgia, serif;
+    font-size: 1.8rem;
+    margin-top: 0;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #d8f3dc;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .mp-section h3 {
+    color: #2d6a4f;
+    font-size: 1.3rem;
+    margin-top: 1.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  /* Table styles */
+  .mp-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.25rem 0;
+    font-size: 0.95rem;
+  }
+
+  .mp-table th, .mp-table td {
+    padding: 0.85rem 1rem;
+    border: 1px solid #e2e8f0;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .mp-table th {
+    background-color: #f0fdf4;
+    color: #1b4332;
+    font-weight: 700;
+
+  }
+
+  .mp-table tr:nth-child(even) {
+    background-color: #f9fbf9;
+  }
+
+  /* 5 Families grid */
+  .families-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.25rem;
+    margin-top: 1.25rem;
+  }
+
+  .family-card {
+    background: #f7fcf8;
+    border: 1px solid #c8e6c9;
+    border-radius: 10px;
+    padding: 1.25rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .family-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(45, 106, 79, 0.12);
+  }
+
+  .family-card h4 {
+    margin: 0 0 0.5rem 0;
+    color: #1b4332;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .family-card p {
+    margin: 0;
+    font-size: 0.92rem;
+    color: #4a5568;
+  }
+
+  /* Curriculum Units List */
+  .unit-card {
+    background: #fafdfb;
+    border-left: 4px solid #40916c;
+    border-radius: 0 8px 8px 0;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+  }
+
+  .unit-card h4 {
+    margin: 0 0 0.5rem;
+    color: #1b4332;
+    font-size: 1.1rem;
+  }
+
+  .unit-card ul {
+    margin: 0;
+    padding-left: 1.2rem;
+    color: #2d3748;
+  }
+
+  .unit-card li {
+    margin-bottom: 0.35rem;
+    font-size: 0.95rem;
+  }
+
+  /* Level Badge pill */
+  .level-tag {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-right: 0.5rem;
+  }
+  .lvl-a0a1 { background: #e3f2fd; color: #0d47a1; }
+  .lvl-a2 { background: #e8f5e9; color: #1b5e20; }
+  .lvl-b1 { background: #fff8e1; color: #f57f17; }
+  .lvl-b2 { background: #ffe0b2; color: #e65100; }
+  .lvl-c1 { background: #f3e5f5; color: #4a148c; }
+  .lvl-c2 { background: #fbe9e7; color: #bf360c; }
+
+  /* Redacted Lesson Sample */
+  .lesson-sample {
+    background: #ffffff;
+    border: 2px solid #74c69d;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    overflow: hidden;
+  }
+
+  .lesson-sample-header {
+    background: #2d6a4f;
+    color: #ffffff;
+    padding: 1rem 1.5rem;
+  }
+
+  .lesson-sample-header h3 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 1.3rem;
+  }
+
+  .lesson-sample-body {
+    padding: 1.25rem 1.5rem;
+  }
+
+  .star-rating {
+    color: #f59e0b;
+  }
+</style>
+</head>
+<body data-lang-theme="fr">
+
+<nav id="cosy-nav"></nav>
+
+<!-- Sticky Top Navigation -->
+<header class="sd-sticky-header">
+  <nav class="sd-jump-links" aria-label="Sommaire du marathon">
+    <a href="index.html" class="sd-jump-link">← Hub FR</a>
+    <a href="pronunciation.html" class="sd-jump-link">← Prononciation</a>
+    <a href="#principes" class="sd-jump-link">0. Principes</a>
+    <a href="#a0-a1" class="sd-jump-link">A0-A1</a>
+    <a href="#a2" class="sd-jump-link">A2</a>
+    <a href="#b1" class="sd-jump-link">B1</a>
+    <a href="#b2" class="sd-jump-link">B2</a>
+    <a href="#c1" class="sd-jump-link">C1</a>
+    <a href="#c2" class="sd-jump-link">C2</a>
+    <a href="#exemples" class="sd-jump-link">1. Leçons rédigées</a>
+    <a href="#portee" class="sd-jump-link">2. Portée visuelle</a>
+  </nav>
+</header>
+
+<header class="mp-hero">
+  <div class="mp-badges">
+    <span class="mp-badge">🇫🇷 Français Monolingue</span>
+    <span class="mp-badge">📐 1 Leçon = 1 Règle = 1 Image</span>
+    <span class="mp-badge">🎯 CECRL A0 → C2</span>
+  </div>
+  <h1>🇫🇷 MARATHON DE PRONONCIATION FRANÇAISE</h1>
+  <p class="subtitle">Curriculum complet, de la phonétique de base à l'expertise sociophonétique et prosodique.</p>
+</header>
+
+<main class="mp-container">
+
+  <!-- SECTION 0: PRINCIPES DE CONCEPTION -->
+  <section id="principes" class="mp-section">
+    <h2>0. Principes de conception</h2>
+    <p>
+      Ce curriculum est <strong>entièrement monolingue</strong> : aucune traduction n'est utilisée pour expliquer une règle — tout est expliqué <em>en français</em>, avec des exemples, des schémas et des repères visuels. La compréhension passe par la logique, la répétition et l'image, pas par la traduction.
+    </p>
+    <p>
+      Chaque <strong>leçon = une règle = une image</strong>. Une règle sans image n'est pas considérée comme terminée dans ce programme.
+    </p>
+    <p>Trois couches sont tissées ensemble à chaque niveau :</p>
+    <ol>
+      <li><strong>La règle de prononciation/lecture</strong> (le cœur du marathon).</li>
+      <li><strong>Le vocabulaire de base</strong> qui illustre cette règle (chaque leçon apporte 6 à 10 mots utiles, jamais une liste gratuite).</li>
+      <li><strong>La logique des mots</strong> — une unité spéciale, à la fin de chaque niveau, qui montre comment le français construit ses mots (préfixes, suffixes, familles) et signale, <em>en français</em>, quand un mot français ressemble fortement à un mot d'une autre langue (anglais, russe, italien, grec) parce qu'ils partagent une racine commune. On ne traduit jamais ; on observe une ressemblance de forme, ce qui aide à deviner le sens sans jamais quitter le français.</li>
+    </ol>
+
+    <h3>Gabarit fixe de chaque leçon</h3>
+    <p>Chaque règle du marathon suit exactement cette structure pédagogique :</p>
+
+    <div style="overflow-x: auto;">
+      <table class="mp-table">
+        <thead>
+          <tr>
+            <th>Champ</th>
+            <th>Contenu</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Définition</strong></td><td>Une phrase simple qui nomme le phénomène</td></tr>
+          <tr><td><strong>Règle</strong></td><td>L'énoncé précis, formulable en une ou deux lignes</td></tr>
+          <tr><td><strong>Pourquoi ?</strong></td><td>Logique phonétique, morphologique ou historique</td></tr>
+          <tr><td><strong>Comment reconnaître ?</strong></td><td>Les indices visuels/écrits qui signalent la règle</td></tr>
+          <tr><td><strong>Exemples courants</strong></td><td>5 à 8 mots réels et fréquents</td></tr>
+          <tr><td><strong>Contre-exemples</strong></td><td>Des mots qui <em>semblent</em> suivre la règle mais n'y obéissent pas</td></tr>
+          <tr><td><strong>Exceptions</strong></td><td>Les cas irréguliers à mémoriser à part</td></tr>
+          <tr><td><strong>Erreurs fréquentes</strong></td><td>Ce que les apprenants confondent en général</td></tr>
+          <tr><td><strong>Astuce mnémotechnique</strong></td><td>Une phrase, un moyen mnémotechnique, une image mentale</td></tr>
+          <tr><td><strong>Vocabulaire clé</strong></td><td>6 à 10 mots qui appliquent la règle, réutilisables en contexte</td></tr>
+          <tr><td><strong>Fréquence</strong></td><td>★★★★★ à ★☆☆☆☆ (utilité pratique)</td></tr>
+          <tr><td><strong>Niveau CECRL</strong></td><td>A0 → C2</td></tr>
+          <tr><td><strong>Visuel associé</strong></td><td>Description de l'image pédagogique liée à la règle</td></tr>
+          <tr><td><strong>À retenir</strong></td><td>Synthèse en une phrase</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Les 5 familles de visuels (gabarits réutilisables)</h3>
+    <p>Pour que le marathon reste cohérent visuellement du début à la fin, chaque image appartient à une des 5 familles suivantes :</p>
+
+    <div class="families-grid">
+      <div class="family-card">
+        <h4>🗣️ 1. Schéma articulatoire</h4>
+        <p>Coupe de la bouche / langue / lèvres (voyelles, semi-voyelles, nasales).</p>
+      </div>
+      <div class="family-card">
+        <h4>🕸️ 2. Carte des graphies</h4>
+        <p>Un son au centre, ses graphies possibles autour comme des rayons (ex. le son [o] ← eau, au, ô, o).</p>
+      </div>
+      <div class="family-card">
+        <h4>🌳 3. Arbre de famille de mots</h4>
+        <p>Un mot-racine au centre, ses dérivés autour, avec le changement de son marqué en couleur.</p>
+      </div>
+      <div class="family-card">
+        <h4>➡️ 4. Flux de liaison</h4>
+        <p>Deux mots avec une flèche montrant la consonne qui « saute » vers la voyelle suivante.</p>
+      </div>
+      <div class="family-card">
+        <h4>📊 5. Échelle de registre</h4>
+        <p>Un curseur horizontal familier → soutenu, montrant comment la même règle varie selon le style.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- NIVEAU A0-A1 -->
+  <section id="a0-a1" class="mp-section">
+    <h2><span class="level-tag lvl-a0a1">A0-A1</span> NIVEAU A0-A1 — « Les fondations »</h2>
+
+    <div class="unit-card">
+      <h4>Unité 1 — L'alphabet et les sons purs</h4>
+      <ul>
+        <li>1.1 Les 26 lettres et leur nom</li>
+        <li>1.2 Les voyelles orales simples : A · E · I · O · U · Y (une leçon par lettre)</li>
+        <li>1.3 Les consonnes stables : B D F J K L M N P R T V W Z (lecture normale)</li>
+        <li>1.4 Vocabulaire clé : salutations de base (bonjour, merci, s'il vous plaît, au revoir)</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 2 — Les accents graphiques</h4>
+      <ul>
+        <li>2.1 L'accent aigu (é)</li>
+        <li>2.2 L'accent grave (è, à, ù)</li>
+        <li>2.3 L'accent circonflexe (â, ê, î, ô, û)</li>
+        <li>2.4 Le tréma (ë, ï)</li>
+        <li>2.5 La cédille (ç)</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 3 — Les consonnes qui changent de son</h4>
+      <ul>
+        <li>3.1 Le C dur / doux (ca-co-cu vs ce-ci-cy)</li>
+        <li>3.2 Le G dur / doux (ga-go-gu vs ge-gi-gy)</li>
+        <li>3.3 Le S simple / le S entre voyelles ([s] vs [z])</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 4 — Les finales muettes et sonores</h4>
+      <ul>
+        <li>4.1 Les finales muettes : -e, -s, -t, -d, -x, -p, -g</li>
+        <li>4.2 Les finales sonores : C · R · F · L (« CaReFuL »)</li>
+        <li>4.3 Vocabulaire clé : la famille, les objets du quotidien</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 5 — Les nasales de base</h4>
+      <ul>
+        <li>5.1 an / am / en / em → [ɑ̃]</li>
+        <li>5.2 on / om → [ɔ̃]</li>
+        <li>5.3 in / im / ain / ein → [ɛ̃]</li>
+        <li>5.4 Pourquoi une voyelle qui suit bloque la nasalisation</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 6 — Les premiers digrammes vocaliques</h4>
+      <ul>
+        <li>6.1 OU → [u]</li>
+        <li>6.2 OI → [wa]</li>
+        <li>6.3 EAU / AU → [o]</li>
+        <li>6.4 AI / EI → [ɛ]</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 7 — Liaison, premiers repères</h4>
+      <ul>
+        <li>7.1 Reconnaître une liaison (les_amis, un_ami)</li>
+        <li>7.2 Vocabulaire clé : les nombres 0–20, les jours de la semaine</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 8 — Logique des mots (niveau A1)</h4>
+      <ul>
+        <li>8.1 Les mots « internationaux » évidents en français : hôtel, taxi, restaurant, téléphone, musique, théâtre — repérer une ressemblance de forme avec d'autres langues sans traduire</li>
+        <li>8.2 Les suffixes qui voyagent : -tion, -ique, -al — une même terminaison reconnaissable dans beaucoup de langues</li>
+        <li>8.3 Vocabulaire clé : verbes de base à l'infinitif (parler, manger, aller, être, avoir)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- NIVEAU A2 -->
+  <section id="a2" class="mp-section">
+    <h2><span class="level-tag lvl-a2">A2</span> NIVEAU A2 — « Structures et enchaînements »</h2>
+
+    <div class="unit-card">
+      <h4>Unité 1 — Les semi-voyelles</h4>
+      <ul>
+        <li>1.1 [j] : i/y devant voyelle (fille, yeux, pied)</li>
+        <li>1.2 [w] : ou devant voyelle (oui, moi)</li>
+        <li>1.3 [ɥ] : u devant voyelle (huit, nuit)</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 2 — Les consonnes composées</h4>
+      <ul>
+        <li>2.1 CH → [ʃ]</li>
+        <li>2.2 GN → [ɲ]</li>
+        <li>2.3 PH → [f]</li>
+        <li>2.4 TH → [t] (jamais comme en anglais)</li>
+        <li>2.5 QU → [k]</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 3 — Le groupe ILL</h4>
+      <ul>
+        <li>3.1 ILL après voyelle → [j] (fille, travail)</li>
+        <li>3.2 Les exceptions en -ille = [il] (ville, mille, tranquille, Lille)</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 4 — Le e caduc, première approche</h4>
+      <ul>
+        <li>4.1 Le e instable en syllabe</li>
+        <li>4.2 La règle des trois consonnes</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 5 — Liaison et enchaînement</h4>
+      <ul>
+        <li>5.1 La liaison obligatoire, en détail</li>
+        <li>5.2 L'enchaînement (différence avec la liaison)</li>
+        <li>5.3 Vocabulaire clé : au restaurant, faire les courses</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 6 — H muet vs H aspiré</h4>
+      <ul>
+        <li>6.1 Le H muet (élision et liaison actives)</li>
+        <li>6.2 Le H aspiré (élision et liaison bloquées)</li>
+        <li>6.3 Liste des H aspirés les plus fréquents</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 7 — Pluriel et féminin : impact sonore</h4>
+      <ul>
+        <li>7.1 Le -s et le -x du pluriel restent muets</li>
+        <li>7.2 Le -e du féminin réveille la consonne précédente (petit/petite)</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 8 — Élision</h4>
+      <ul>
+        <li>8.1 Les mots grammaticaux qui s'élident (le/la/je/ne/de/que → l'/j'/n'/d'/qu')</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 9 — Logique des mots (niveau A2)</h4>
+      <ul>
+        <li>9.1 Le suffixe -ment (adverbes) et sa régularité</li>
+        <li>9.2 Le suffixe -eur/-euse (métiers, machines)</li>
+        <li>9.3 Vocabulaire clé : la ville, les transports, les directions</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- NIVEAU B1 -->
+  <section id="b1" class="mp-section">
+    <h2><span class="level-tag lvl-b1">B1</span> NIVEAU B1 — « Finesse et exceptions »</h2>
+
+    <div class="unit-card">
+      <h4>Unité 1 — Les trois liaisons</h4>
+      <ul>
+        <li>1.1 Liaison obligatoire (récapitulatif complet)</li>
+        <li>1.2 Liaison interdite (après « et », après h aspiré, sujet-verbe inversé)</li>
+        <li>1.3 Liaison facultative (registre soutenu vs courant)</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 2 — Terminaisons verbales silencieuses</h4>
+      <ul>
+        <li>2.1 -ent (3e pers. pluriel), toujours muet</li>
+        <li>2.2 -es / -e (2e/1re pers.), muets</li>
+        <li>2.3 Comment l'oral distingue quand même le sens (rôle du pronom)</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 3 — Homophones grammaticaux</h4>
+      <ul>
+        <li>3.1 a / à</li>
+        <li>3.2 ou / où</li>
+        <li>3.3 ce / se</li>
+        <li>3.4 ces / ses / c'est / s'est</li>
+        <li>3.5 et / est</li>
+        <li>3.6 son / sont</li>
+        <li>3.7 Astuce de substitution pour trancher à l'écrit</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 4 — Alternances consonantiques</h4>
+      <ul>
+        <li>4.1 g / gu (devant e, i)</li>
+        <li>4.2 c / ç (devant a, o, u)</li>
+        <li>4.3 e / è (verbes en -eler, -eter)</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 5 — Doublement des consonnes et dérivation</h4>
+      <ul>
+        <li>5.1 Les verbes en -eler / -eter (deux stratégies : doublement ou accent grave)</li>
+        <li>5.2 Vocabulaire clé : la maison, les meubles, la cuisine</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 6 — Rythme et accent tonique</h4>
+      <ul>
+        <li>6.1 L'accent toujours final (groupe rythmique)</li>
+        <li>6.2 Différence avec l'anglais/le russe/l'italien (accent mobile ailleurs)</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 7 — Logique des mots (niveau B1)</h4>
+      <ul>
+        <li>7.1 Familles lexicales et consonne finale cachée (grand/grande, blanc/blanche, long/longue)</li>
+        <li>7.2 Les emprunts récents et leur adaptation phonétique</li>
+        <li>7.3 Vocabulaire clé : le travail, les études, les sentiments</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- NIVEAU B2 -->
+  <section id="b2" class="mp-section">
+    <h2><span class="level-tag lvl-b2">B2</span> NIVEAU B2 — « Registres et nuances »</h2>
+
+    <div class="unit-card">
+      <h4>Unité 1 — Le e caduc selon le registre</h4>
+      <ul>
+        <li>1.1 Chute du e en style familier/rapide</li>
+        <li>1.2 Maintien du e en style soutenu</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 2 — Liaisons non standard</h4>
+      <ul>
+        <li>2.1 Les liaisons dites « populaires » (je vais-t-à Paris)</li>
+        <li>2.2 Pourquoi les éviter à l'écrit soigné</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 3 — Emprunts et anglicismes</h4>
+      <ul>
+        <li>3.1 Prononciation « à l'anglaise » adaptée (week-end, parking, smartphone)</li>
+        <li>3.2 L'accentuation reste toujours française (accent final)</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 4 — Variation régionale standard</h4>
+      <ul>
+        <li>4.1 France (accent dit « de référence »)</li>
+        <li>4.2 Belgique</li>
+        <li>4.3 Suisse</li>
+        <li>4.4 Québec</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 5 — Paronymes</h4>
+      <ul>
+        <li>5.1 conjoncture / conjecture, éminent / imminent, collision / collusion</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 6 — Ponctuation et intonation</h4>
+      <ul>
+        <li>6.1 La virgule (montée légère) / le point (descente franche)</li>
+        <li>6.2 L'interrogation : montée mélodique vs inversion soutenue</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 7 — Logique des mots (niveau B2)</h4>
+      <ul>
+        <li>7.1 Les emprunts savants gréco-latins (termes scientifiques, médicaux, juridiques)</li>
+        <li>7.2 Vocabulaire clé : l'actualité, la politique, l'économie</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- NIVEAU C1 -->
+  <section id="c1" class="mp-section">
+    <h2><span class="level-tag lvl-c1">C1</span> NIVEAU C1 — « Style et littérature »</h2>
+
+    <div class="unit-card">
+      <h4>Unité 1 — Le e muet en poésie classique</h4>
+      <ul>
+        <li>1.1 Comptage syllabique dans l'alexandrin</li>
+        <li>1.2 Différence avec la prose orale courante</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 2 — Diérèse et synérèse</h4>
+      <ul>
+        <li>2.1 Diérèse (li-on en deux syllabes)</li>
+        <li>2.2 Synérèse (fusion en une syllabe)</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 3 — Liaisons stylistiques soutenues</h4>
+      <ul>
+        <li>3.1 Discours officiel, théâtre classique, présentateur JT</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 4 — Doublets savants / populaires</h4>
+      <ul>
+        <li>4.1 frêle / fragile, et autres paires issues du même mot latin</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 5 — Prosodie fine : groupes de souffle</h4>
+      <ul>
+        <li>5.1 Segmenter un texte au-delà de la ponctuation écrite</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- NIVEAU C2 -->
+  <section id="c2" class="mp-section">
+    <h2><span class="level-tag lvl-c2">C2</span> NIVEAU C2 — « Expertise »</h2>
+
+    <div class="unit-card">
+      <h4>Unité 1 — Variation sociophonétique fine</h4>
+      <ul>
+        <li>1.1 Registres sociolectaux d'une même ville</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 2 — Réforme orthographique de 1990</h4>
+      <ul>
+        <li>2.1 Graphies rectifiées vs graphies traditionnelles (coexistence officielle)</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 3 — Cas limites et débats en cours</h4>
+      <ul>
+        <li>3.1 La liaison en t dite « malencontreuse »</li>
+        <li>3.2 Le recul du e caduc chez les jeunes générations</li>
+        <li>3.3 Les graphies « fantômes » (sept, théâtre)</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 4 — Lecture experte de textes anciens</h4>
+      <ul>
+        <li>4.1 Restituer une prononciation historique probable</li>
+        <li>4.2 Survivances dans des mots figés (je faisais)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- SECTION 1: TROIS LEÇONS ENTIÈREMENT RÉDIGÉES -->
+  <section id="exemples" class="mp-section">
+    <h2>1. Trois leçons entièrement rédigées (modèle du gabarit)</h2>
+    <p>Voici l'illustration exacte de notre gabarit fixe appliqué à trois niveaux différents :</p>
+
+    <!-- LESSON SAMPLE 1 -->
+    <div class="lesson-sample">
+      <div class="lesson-sample-header">
+        <h3>🟢 A0-A1 — Unité 5, leçon 5.1 : Les nasales AN / AM / EN / EM</h3>
+      </div>
+      <div class="lesson-sample-body" style="overflow-x: auto;">
+        <table class="mp-table">
+          <tbody>
+            <tr><th style="width: 25%;">Définition</th><td>Une voyelle nasale est un son où l'air passe en partie par le nez.</td></tr>
+            <tr><th>Règle</th><td>a ou e, suivi de n ou m en fin de syllabe (donc pas suivi d'une voyelle), se lit [ɑ̃].</td></tr>
+            <tr><th>Pourquoi ?</th><td>Le n/m ne se prononce plus lui-même depuis des siècles : il a « transféré » sa nasalité à la voyelle précédente.</td></tr>
+            <tr><th>Comment reconnaître ?</th><td>Repérer an/am/en/em quand ils sont suivis d'une consonne ou en fin de mot.</td></tr>
+            <tr><th>Exemples courants</th><td>enfant, temps, grand, champ, entrer, novembre, chambre, ensemble</td></tr>
+            <tr><th>Contre-exemples</th><td>ami (le n serait suivi d'une voyelle : ici il n'y a même pas de n avant le i, donc pas nasal) ; année (le n est suivi d'un e, donc suivi d'une voyelle → pas nasal)</td></tr>
+            <tr><th>Exceptions</th><td>femme se lit [fam], pas [fɑ̃m] — cas isolé à mémoriser</td></tr>
+            <tr><th>Erreurs fréquentes</th><td>Prononcer le n/m comme en anglais (« an » avec un vrai [n] final)</td></tr>
+            <tr><th>Astuce mnémotechnique</th><td>« Le n et le m ferment la bouche mais ouvrent le nez »</td></tr>
+            <tr><th>Vocabulaire clé</th><td>enfant, temps, grand, champ, chambre, novembre, ensemble, dimanche</td></tr>
+            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
+            <tr><th>Niveau CECRL</th><td><span class="level-tag lvl-a0a1">A0-A1</span></td></tr>
+            <tr><th>Visuel associé</th><td><strong>Schéma articulatoire :</strong> coupe de la bouche montrant le voile du palais abaissé, l'air se divisant entre bouche et nez, légende [ɑ̃]</td></tr>
+            <tr><th>À retenir</th><td>Une voyelle + n/m sans voyelle après = son nasal, jamais un vrai n/m prononcé.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- LESSON SAMPLE 2 -->
+    <div class="lesson-sample">
+      <div class="lesson-sample-header" style="background: #1b5e20;">
+        <h3>🟡 A2 — Unité 6, leçon 6.1 : Le H muet</h3>
+      </div>
+      <div class="lesson-sample-body" style="overflow-x: auto;">
+        <table class="mp-table">
+          <tbody>
+            <tr><th style="width: 25%;">Définition</th><td>Le H muet est un h qui ne bloque ni l'élision ni la liaison.</td></tr>
+            <tr><th>Règle</th><td>Devant un h muet, le mot se comporte comme s'il commençait par une voyelle.</td></tr>
+            <tr><th>Pourquoi ?</th><td>Ces mots viennent souvent du latin, où le h ne s'est jamais prononcé en français.</td></tr>
+            <tr><th>Comment reconnaître ?</th><td>Aucun signe visuel fiable : cela s'apprend mot par mot, par la pratique.</td></tr>
+            <tr><th>Exemples courants</th><td>l'homme, l'histoire, l'hôtel, les_hommes, l'heure, l'habitude</td></tr>
+            <tr><th>Contre-exemples</th><td>le héros, la honte (h aspiré : pas d'élision, pas de liaison)</td></tr>
+            <tr><th>Exceptions</th><td>quelques doublets existent selon les régions ou les époques (usage parfois hésitant)</td></tr>
+            <tr><th>Erreurs fréquentes</th><td>Faire la liaison devant un h aspiré (les / héros prononcé à tort « lézéros »)</td></tr>
+            <tr><th>Astuce mnémotechnique</th><td>Le h muet est « transparent » : on regarde à travers lui comme s'il n'existait pas</td></tr>
+            <tr><th>Vocabulaire clé</th><td>l'homme, l'histoire, l'hôtel, l'heure, l'habitude, l'hiver</td></tr>
+            <tr><th>Fréquence</th><td><span class="star-rating">★★★★☆</span></td></tr>
+            <tr><th>Niveau CECRL</th><td><span class="level-tag lvl-a2">A2</span></td></tr>
+            <tr><th>Visuel associé</th><td><strong>Flux de liaison :</strong> le mot « les » avec une flèche traversant le h transparent pour toucher la voyelle suivante</td></tr>
+            <tr><th>À retenir</th><td>H muet = porte ouverte ; h aspiré = porte fermée.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- LESSON SAMPLE 3 -->
+    <div class="lesson-sample">
+      <div class="lesson-sample-header" style="background: #f57f17;">
+        <h3>🟠 B1 — Unité 3, leçon 3.1 : a / à</h3>
+      </div>
+      <div class="lesson-sample-body" style="overflow-x: auto;">
+        <table class="mp-table">
+          <tbody>
+            <tr><th style="width: 25%;">Définition</th><td>Deux mots identiques à l'oral, différents à l'écrit et en fonction.</td></tr>
+            <tr><th>Règle</th><td>a = verbe avoir, conjugué à la 3e personne du singulier ; à = préposition invariable.</td></tr>
+            <tr><th>Pourquoi ?</th><td>L'accent grave sert uniquement à distinguer deux mots homophones, sans changer le son.</td></tr>
+            <tr><th>Comment reconnaître ?</th><td>Remplacer mentalement par « avait » : si la phrase fonctionne encore, c'est le verbe (a) ; sinon, c'est la préposition (à).</td></tr>
+            <tr><th>Exemples courants</th><td>il a un chat / il va à Paris / elle a fini / je pense à toi</td></tr>
+            <tr><th>Contre-exemples</th><td>« il à un chat » — erreur fréquente : le test avec « avait » échoue ici</td></tr>
+            <tr><th>Exceptions</th><td>aucune : la règle est stable à 100 %</td></tr>
+            <tr><th>Erreurs fréquentes</th><td>Oublier l'accent sur à, ou en mettre un sur a par réflexe</td></tr>
+            <tr><th>Astuce mnémotechnique</th><td>« à » a un accent parce qu'il ne peut pas se transformer, contrairement à « a » qui devient « avait »</td></tr>
+            <tr><th>Vocabulaire clé</th><td>avoir, aller, penser à, à Paris, à demain, à bientôt</td></tr>
+            <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
+            <tr><th>Niveau CECRL</th><td><span class="level-tag lvl-b1">B1</span></td></tr>
+            <tr><th>Visuel associé</th><td><strong>Carte des graphies :</strong> deux étiquettes « a » et « à » avec le test « avait » comme balance qui penche d'un côté ou de l'autre</td></tr>
+            <tr><th>À retenir</th><td>Le test « avait » tranche toujours entre a et à.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 2: PORTÉE DU CHANTIER VISUEL -->
+  <section id="portee" class="mp-section">
+    <h2>2. Portée du chantier visuel</h2>
+    <p>
+      Ce marathon compte, une fois toutes les sous-unités développées, environ <strong>150 à 220 leçons/règles</strong> sur les six niveaux. Chaque leçon doit recevoir une image dans l'une des 5 familles définies plus haut (schéma articulatoire, carte des graphies, arbre de famille de mots, flux de liaison, échelle de registre).
+    </p>
+    <p>
+      Produire l'intégralité de ce jeu d'images dépasse ce qu'on peut livrer en un seul lot : c'est un travail de production par niveau. La méthode proposée :
+    </p>
+    <ol style="margin-bottom: 1.5rem; padding-left: 1.25rem;">
+      <li style="margin-bottom: 0.5rem;"><strong>Valider ce plan</strong> (unités / sous-unités / leçons) — ajuster ce qui doit l'être.</li>
+      <li style="margin-bottom: 0.5rem;"><strong>Produire les images niveau par niveau</strong> (A0-A1 d'abord, ~35 leçons), en respectant les 5 gabarits visuels pour garder une cohérence graphique du premier au dernier niveau.</li>
+      <li style="margin-bottom: 0.5rem;"><strong>Empaqueter chaque niveau</strong> (texte + images) au format HTML/JSON conforme à l'architecture de <code>COSYlanguages/curriculum</code>.</li>
+    </ol>
+
+    <div style="background: #f0fdf4; border: 1px dashed #2d6a4f; border-radius: 8px; padding: 1.25rem;">
+      <h4 style="margin: 0 0 0.5rem; color: #1b4332;">🎨 Échantillon des 5 gabarits visuels</h4>
+      <p style="margin: 0; font-size: 0.95rem; color: #2d3748;">
+        Chaque illustration est conçue spécifiquement pour son niveau et son domaine d'application afin d'assurer une compréhension immédiate sans passer par la traduction interlingue.
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer" style="background: #1b4332; color: #d8f3dc; padding: 2.5rem 1.5rem; text-align: center; margin-top: 3rem;">
+  <div style="max-width: 1100px; margin: 0 auto;">
+    <p style="margin-bottom: 0.5rem; font-weight: 700; color: #ffffff;">COSYlanguages · Marathon de Prononciation Française</p>
+    <p style="margin-bottom: 1rem; font-size: 0.9rem;"><a href="index.html" style="color: #74c69d; text-decoration: none;">← Retour au Hub Français</a> | <a href="pronunciation.html" style="color: #74c69d; text-decoration: none;">Guide de Prononciation</a></p>
+    <p style="font-size: 0.8rem; color: #b7e4c7;">© 2026 COSYlanguages. Tous droits réservés.</p>
+  </div>
+</footer>
+
+<script src="../../js/data/languages.js"></script>
+<script src="../../js/core/engine.js"></script>
+<script src="../../js/core/i18n.js"></script>
+<script src="../../js/core/ui.js"></script>
+</body>
+</html>
