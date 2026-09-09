@@ -107,6 +107,7 @@ const NAV_CONFIG = {
         { key: 'practice', href: 'practice/index.html',  icon: '💡' },
         { key: 'atlas',    href: 'comparative/index.html', icon: '🌐' },
         { key: 'notebook', href: 'notebook/index.html',  icon: '📓' },
+        { key: 'blog',     href: 'blog/index.html',      icon: '📝' },
         { key: 'games',    href: 'games/index.html',     icon: '🎮' },
         { key: 'events',   href: 'https://cosylanguages.github.io/COSYevents/',    icon: '🎉' },
         { key: 'hybrid',   href: 'hybrid/index.html',    icon: '🌿' }
