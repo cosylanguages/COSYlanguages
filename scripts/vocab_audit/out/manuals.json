@@ -1,0 +1,3734 @@
+{
+  "manuals/en/vocabulary/a1/topics/part-1-about-me.html": [
+    {
+      "word": "name",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for name.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "first name",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for first name.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "last name",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for last name.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "hello",
+      "vocab_pos": "interjection",
+      "vocab_def": "Used as a greeting when you meet someone.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "hi",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for hi.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "good morning",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for good morning.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "goodbye",
+      "vocab_pos": "interjection",
+      "vocab_def": "Used when you are leaving someone.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "bye",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for bye.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "meet",
+      "vocab_pos": "verb",
+      "vocab_def": "To come together with someone, especially for a planned reason.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "call",
+      "vocab_pos": "verb",
+      "vocab_def": "To telephone someone.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "spell",
+      "vocab_pos": "verb",
+      "vocab_def": "To say or write the letters of a word in the correct order.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "wave",
+      "vocab_pos": "verb",
+      "vocab_def": "To move your hand from side to side in the air to say hello or goodbye.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "age",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for age.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "birthday",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for birthday.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "date of birth",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for date of birth.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "address",
+      "vocab_pos": "noun",
+      "vocab_def": "The details of where a person lives or where a building is.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "street",
+      "vocab_pos": "noun",
+      "vocab_def": "A road in a town or city that has houses or other buildings along it.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "postcode",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for postcode.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "phone number",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for phone number.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "email address",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for email address.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "passport",
+      "vocab_pos": "noun",
+      "vocab_def": "An official document you need to travel to other countries.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "id card",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for id card.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "driver's licence",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for driver's licence.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "United Kingdom",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for United Kingdom.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "British",
+      "vocab_pos": "adjective",
+      "vocab_def": "From or connected with Great Britain.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "United States",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for United States.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "American",
+      "vocab_pos": "adjective",
+      "vocab_def": "From or connected with the United States of America.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "Canada",
+      "vocab_pos": "other",
+      "vocab_def": "A very large country in North America, north of the USA.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "Canadian",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for Canadian.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "France",
+      "vocab_pos": "other",
+      "vocab_def": "A large country in Western Europe, famous for its food and wine.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "French",
+      "vocab_pos": "adjective",
+      "vocab_def": "From or connected with France.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "Germany",
+      "vocab_pos": "other",
+      "vocab_def": "A large country in Central Europe, known for its cars.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "German",
+      "vocab_pos": "adjective",
+      "vocab_def": "From or connected with Germany.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "Spain",
+      "vocab_pos": "other",
+      "vocab_def": "A country in Southern Europe, famous for its sunny weather.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "Spanish",
+      "vocab_pos": "adjective",
+      "vocab_def": "From or connected with Spain.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "mother",
+      "vocab_pos": "noun",
+      "vocab_def": "A woman who is your parent.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "mum",
+      "vocab_pos": "noun",
+      "vocab_def": "A mother.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "dad",
+      "vocab_pos": "noun",
+      "vocab_def": "A father.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "parents",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for parents.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "brother",
+      "vocab_pos": "noun",
+      "vocab_def": "A boy or man who has the same parents as another person.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "sister",
+      "vocab_pos": "noun",
+      "vocab_def": "A girl or woman who has the same parents as another person.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "twin",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for twin.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "grandmother",
+      "vocab_pos": "noun",
+      "vocab_def": "The mother of your father or mother.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "grandfather",
+      "vocab_pos": "noun",
+      "vocab_def": "The father of your father or mother.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "uncle",
+      "vocab_pos": "noun",
+      "vocab_def": "The brother of your mother or father, or the husband of your aunt.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "aunt",
+      "vocab_pos": "noun",
+      "vocab_def": "The sister of your mother or father, or the wife of your uncle.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "cousin",
+      "vocab_pos": "noun",
+      "vocab_def": "The child of your aunt or uncle.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "single",
+      "vocab_pos": "adjective",
+      "vocab_def": "Not married or in a serious relationship.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "married",
+      "vocab_pos": "adjective",
+      "vocab_def": "Having a husband or wife.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "friend",
+      "vocab_pos": "noun",
+      "vocab_def": "A person you like and know well.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "best friend",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for best friend.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "neighbour",
+      "vocab_pos": "noun",
+      "vocab_def": "A person who lives next to you or near you.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "colleague",
+      "vocab_pos": "noun",
+      "vocab_def": "A person you work with.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "classmate",
+      "vocab_pos": "noun",
+      "vocab_def": "A person who is in the same class as you at school.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "roommate",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for roommate.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "partner",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for partner.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "boyfriend",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for boyfriend.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "girlfriend",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for girlfriend.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "husband",
+      "vocab_pos": "noun",
+      "vocab_def": "A married man, in relation to his wife.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "wife",
+      "vocab_pos": "noun",
+      "vocab_def": "A married woman, in relation to her husband.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "head",
+      "vocab_pos": "noun",
+      "vocab_def": "The top part of your body that has your eyes, mouth, and brain.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "hair",
+      "vocab_pos": "noun",
+      "vocab_def": "The mass of things like threads that grows on your head.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "eye",
+      "vocab_pos": "noun",
+      "vocab_def": "The part of your body that you use for seeing.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "nose",
+      "vocab_pos": "noun",
+      "vocab_def": "The part of the face that you use for smelling.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "mouth",
+      "vocab_pos": "noun",
+      "vocab_def": "The part of the face that you use for eating and speaking.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "shoulder",
+      "vocab_pos": "noun",
+      "vocab_def": "The part of the body where the arm joins the trunk.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "arm",
+      "vocab_pos": "noun",
+      "vocab_def": "The part of the body from the shoulder to the hand.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "hand",
+      "vocab_pos": "noun",
+      "vocab_def": "The part of your arm that has fingers.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "finger",
+      "vocab_pos": "noun",
+      "vocab_def": "One of the five long parts at the end of your hand.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "leg",
+      "vocab_pos": "noun",
+      "vocab_def": "The long part of the body that you use for walking.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "knee",
+      "vocab_pos": "noun",
+      "vocab_def": "The part in the middle of your leg where it bends.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "foot",
+      "vocab_pos": "noun",
+      "vocab_def": "The part of the body at the bottom of the leg.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "toe",
+      "vocab_pos": "noun",
+      "vocab_def": "One of the five parts at the end of your foot.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "heart",
+      "vocab_pos": "noun",
+      "vocab_def": "The organ in your chest that sends blood around your body.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "stomach",
+      "vocab_pos": "noun",
+      "vocab_def": "The part of your body where food goes after you eat it.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "happy",
+      "vocab_pos": "adjective",
+      "vocab_def": "Feeling pleasure or joy.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "sad",
+      "vocab_pos": "adjective",
+      "vocab_def": "Feeling unhappy or sorrowful.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "angry",
+      "vocab_pos": "adjective",
+      "vocab_def": "Feeling strong displeasure.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "tired",
+      "vocab_pos": "adjective",
+      "vocab_def": "Needing rest or sleep.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "exhausted",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for exhausted.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "hungry",
+      "vocab_pos": "adjective",
+      "vocab_def": "Needing food.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "thirsty",
+      "vocab_pos": "adjective",
+      "vocab_def": "Needing or wanting to drink.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "sick",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for sick.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "headache",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for headache.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "medicine",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for medicine.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "doctor",
+      "vocab_pos": "noun",
+      "vocab_def": "A person who helps people when they are sick.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    },
+    {
+      "word": "nurse",
+      "vocab_pos": "noun",
+      "vocab_def": "A person whose job is to care for people who are ill or injured, especially in a hospital.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-1-about-me.html"
+    }
+  ],
+  "manuals/en/vocabulary/a1/topics/part-10-primitives.html": [
+    {
+      "word": "zero",
+      "vocab_pos": "noun",
+      "vocab_def": "The numerical symbol 0.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "one",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for one.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "two",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for two.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "three",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for three.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "twenty",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for twenty.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "thirty",
+      "vocab_pos": "noun",
+      "vocab_def": "The number 30.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "forty",
+      "vocab_pos": "noun",
+      "vocab_def": "The number 40.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "fifty",
+      "vocab_pos": "noun",
+      "vocab_def": "The number 50.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "hundred",
+      "vocab_pos": "noun",
+      "vocab_def": "The number 100.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "thousand",
+      "vocab_pos": "noun",
+      "vocab_def": "The number 1000.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "million",
+      "vocab_pos": "noun",
+      "vocab_def": "The number 1,000,000.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "first",
+      "vocab_pos": "adjective",
+      "vocab_def": "Coming before all others in time or order.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "second",
+      "vocab_pos": "noun",
+      "vocab_def": "One of the sixty parts that a minute is divided into.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "third",
+      "vocab_pos": "adjective",
+      "vocab_def": "Coming immediately after the second.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "red",
+      "vocab_pos": "adjective",
+      "vocab_def": "Having the colour of blood or a ripe tomato.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "blue",
+      "vocab_pos": "adjective",
+      "vocab_def": "Having the colour of a clear sky.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "yellow",
+      "vocab_pos": "adjective",
+      "vocab_def": "Having the colour of the sun or a lemon.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "green",
+      "vocab_pos": "adjective",
+      "vocab_def": "Having the colour of grass or leaves.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "orange",
+      "vocab_pos": "adjective",
+      "vocab_def": "Having the colour of an orange fruit.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "purple",
+      "vocab_pos": "adjective",
+      "vocab_def": "A color between blue and red.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "pink",
+      "vocab_pos": "adjective",
+      "vocab_def": "Having a pale red colour.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "brown",
+      "vocab_pos": "adjective",
+      "vocab_def": "Having the colour of wood or earth.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "black",
+      "vocab_pos": "adjective",
+      "vocab_def": "Having the darkest colour, like the night sky.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "white",
+      "vocab_pos": "adjective",
+      "vocab_def": "Having the colour of snow or milk.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "grey",
+      "vocab_pos": "adjective",
+      "vocab_def": "Having a colour between black and white.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "light blue",
+      "vocab_pos": "adjective",
+      "vocab_def": "Having a pale shade of blue.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "dark green",
+      "vocab_pos": "adjective",
+      "vocab_def": "Having a deep or dark shade of green.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "bright red",
+      "vocab_pos": "adjective",
+      "vocab_def": "Having a vibrant, vivid red colour.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "circle",
+      "vocab_pos": "noun",
+      "vocab_def": "A completely round flat shape.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "square",
+      "vocab_pos": "adjective",
+      "vocab_def": "Having four equal sides and four 90-degree angles.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "triangle",
+      "vocab_pos": "noun",
+      "vocab_def": "A geometric shape with three straight sides and three angles.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "rectangle",
+      "vocab_pos": "noun",
+      "vocab_def": "A shape with four straight sides and four right angles.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "oval",
+      "vocab_pos": "adjective",
+      "vocab_def": "Shaped like an egg.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "heart",
+      "vocab_pos": "noun",
+      "vocab_def": "The organ in your chest that sends blood around your body.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "star",
+      "vocab_pos": "noun",
+      "vocab_def": "A shape with five or six points.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "diamond",
+      "vocab_pos": "noun",
+      "vocab_def": "A shape with four equal straight sides forming two acute angles.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "cube",
+      "vocab_pos": "noun",
+      "vocab_def": "A solid three-dimensional square shape with six equal faces.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "sphere",
+      "vocab_pos": "noun",
+      "vocab_def": "A round three-dimensional shape like a ball.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "cylinder",
+      "vocab_pos": "noun",
+      "vocab_def": "A solid geometric shape with straight parallel sides and circular ends.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "cone",
+      "vocab_pos": "noun",
+      "vocab_def": "A solid object that tapers smoothly from a circular base to a point.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "round",
+      "vocab_pos": "adjective",
+      "vocab_def": "Shaped like a circle.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "straight",
+      "vocab_pos": "adjective",
+      "vocab_def": "Not curving or bending.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    },
+    {
+      "word": "curved",
+      "vocab_pos": "adjective",
+      "vocab_def": "Having a bending line without straight angles.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-10-primitives.html"
+    }
+  ],
+  "manuals/en/vocabulary/a1/topics/part-2-clothes.html": [
+    {
+      "word": "shirt",
+      "vocab_pos": "noun",
+      "vocab_def": "A piece of clothing worn on the upper part of the body.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "t-shirt",
+      "vocab_pos": "noun",
+      "vocab_def": "A casual shirt with short sleeves and no collar.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "polo shirt",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for polo shirt.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "sweater",
+      "vocab_pos": "noun",
+      "vocab_def": "A warm piece of clothing with long sleeves.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "hoodie",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for hoodie.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "jacket",
+      "vocab_pos": "noun",
+      "vocab_def": "A short coat.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "coat",
+      "vocab_pos": "noun",
+      "vocab_def": "A piece of clothing that you wear over other clothes to keep warm.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "trousers",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for trousers.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "jeans",
+      "vocab_pos": "noun",
+      "vocab_def": "Trousers made of strong blue cotton cloth.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "shorts",
+      "vocab_pos": "noun",
+      "vocab_def": "Short trousers that end above the knees.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "skirt",
+      "vocab_pos": "noun",
+      "vocab_def": "A piece of clothing for a woman or girl that hangs from the waist.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "dress",
+      "vocab_pos": "noun",
+      "vocab_def": "A piece of clothing for a woman or girl that covers the top of the body and part of the legs.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "tracksuit",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for tracksuit.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "pajamas",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for pajamas.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "shoes",
+      "vocab_pos": "noun",
+      "vocab_def": "A pair of coverings for your feet.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "boots",
+      "vocab_pos": "noun",
+      "vocab_def": "A type of strong shoe that covers your foot and part of your leg.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "trainers",
+      "vocab_pos": "noun",
+      "vocab_def": "Soft shoes that you wear for sport or as casual clothes.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "sandals",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for sandals.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "slippers",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for slippers.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "high heels",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for high heels.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "socks",
+      "vocab_pos": "noun",
+      "vocab_def": "Clothing worn on the feet inside shoes.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "tights",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for tights.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "raincoat",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for raincoat.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "winter coat",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for winter coat.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "scarf",
+      "vocab_pos": "noun",
+      "vocab_def": "A piece of cloth that you wear around your neck to keep warm.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "gloves",
+      "vocab_pos": "noun",
+      "vocab_def": "Pieces of clothing that you wear on your hands to keep them warm.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "mittens",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for mittens.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "beanie",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for beanie.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "sun hat",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for sun hat.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "swimsuit",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for swimsuit.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "sunglasses",
+      "vocab_pos": "noun",
+      "vocab_def": "Dark glasses that you wear to protect your eyes from the sun.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "belt",
+      "vocab_pos": "noun",
+      "vocab_def": "A long thin piece of leather or cloth that you wear around your waist.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "tie",
+      "vocab_pos": "noun",
+      "vocab_def": "A long, thin piece of cloth that a man wears around his neck with a shirt.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "watch",
+      "vocab_pos": "noun",
+      "vocab_def": "A small clock that you wear on your wrist.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "ring",
+      "vocab_pos": "noun",
+      "vocab_def": "A small circular piece of jewelry that you wear on your finger.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "necklace",
+      "vocab_pos": "noun",
+      "vocab_def": "A piece of jewelry that you wear around your neck.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "bracelet",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for bracelet.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "earrings",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for earrings.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "wallet",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for wallet.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "purse",
+      "vocab_pos": "noun",
+      "vocab_def": "A small container for money, usually used by a woman.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "handbag",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for handbag.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "backpack",
+      "vocab_pos": "noun",
+      "vocab_def": "A bag that you carry on your back.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "suitcase",
+      "vocab_pos": "noun",
+      "vocab_def": "A large case that you use to carry your clothes and other things when you are traveling.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "wear",
+      "vocab_pos": "verb",
+      "vocab_def": "To have clothing or accessories on your body.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "put on",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for put on.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "take off",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for take off.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "try on",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for try on.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "change",
+      "vocab_pos": "verb",
+      "vocab_def": "To become different; to make something different.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "wash",
+      "vocab_pos": "verb",
+      "vocab_def": "To clean something with water.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "iron",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for iron.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "fit",
+      "vocab_pos": "adjective",
+      "vocab_def": "In good physical condition through exercise.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    },
+    {
+      "word": "suit",
+      "vocab_pos": "noun",
+      "vocab_def": "A set of clothes made from the same cloth.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-2-clothes.html"
+    }
+  ],
+  "manuals/en/vocabulary/a1/topics/part-3-home.html": [
+    {
+      "word": "house",
+      "vocab_pos": "noun",
+      "vocab_def": "A building where a family lives.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "cottage",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for cottage.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "flat",
+      "vocab_pos": "noun",
+      "vocab_def": "A set of rooms on one floor of a building.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "apartment",
+      "vocab_pos": "noun",
+      "vocab_def": "A set of rooms for living in, especially on one floor of a building.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "skyscraper",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for skyscraper.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "ground floor",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for ground floor.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "top floor",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for top floor.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "balcony",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for balcony.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "garden",
+      "vocab_pos": "noun",
+      "vocab_def": "An area of land next to a house where flowers and plants are grown.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "yard",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for yard.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "garage",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for garage.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "sofa",
+      "vocab_pos": "noun",
+      "vocab_def": "A long soft seat for more than one person.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "armchair",
+      "vocab_pos": "noun",
+      "vocab_def": "A large comfortable chair with parts for you to rest your arms on.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "coffee table",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for coffee table.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "television",
+      "vocab_pos": "noun",
+      "vocab_def": "A device with a screen for watching programs.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "bookshelf",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for bookshelf.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "carpet",
+      "vocab_pos": "noun",
+      "vocab_def": "A thick material that covers the whole floor of a room.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "curtain",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for curtain.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "lamp",
+      "vocab_pos": "noun",
+      "vocab_def": "An object that produces light.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "bed",
+      "vocab_pos": "noun",
+      "vocab_def": "A piece of furniture that you sleep on.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "mattress",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for mattress.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "pillow",
+      "vocab_pos": "noun",
+      "vocab_def": "A soft object that you rest your head on when you sleep.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "blanket",
+      "vocab_pos": "noun",
+      "vocab_def": "A large piece of warm cloth that you use on a bed.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "duvet",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for duvet.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "wardrobe",
+      "vocab_pos": "noun",
+      "vocab_def": "A large cupboard for hanging or storing clothes.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "chest of drawers",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for chest of drawers.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "fridge",
+      "vocab_pos": "noun",
+      "vocab_def": "A large piece of electrical equipment used for keeping food and drink cold.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "freezer",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for freezer.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "cooker",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for cooker.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "oven",
+      "vocab_pos": "noun",
+      "vocab_def": "A piece of kitchen equipment used for baking or heating food.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "microwave",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for microwave.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "kettle",
+      "vocab_pos": "noun",
+      "vocab_def": "A container with a lid, handle, and spout, used for boiling water.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "toaster",
+      "vocab_pos": "noun",
+      "vocab_def": "A piece of electrical equipment used for making toast.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "dishwasher",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for dishwasher.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "plate",
+      "vocab_pos": "noun",
+      "vocab_def": "A flat dish used for eating food.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "bowl",
+      "vocab_pos": "noun",
+      "vocab_def": "A round, deep dish used for soup or cereal.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "cup",
+      "vocab_pos": "noun",
+      "vocab_def": "A small container with a handle, used for tea or coffee.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "mug",
+      "vocab_pos": "noun",
+      "vocab_def": "A large cup with a handle, often used for hot drinks.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "knife",
+      "vocab_pos": "noun",
+      "vocab_def": "A tool with a blade used for cutting food.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "fork",
+      "vocab_pos": "noun",
+      "vocab_def": "A tool with prongs used for picking up food.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "spoon",
+      "vocab_pos": "noun",
+      "vocab_def": "A tool with a shallow bowl used for eating soup or stirring drinks.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "toilet",
+      "vocab_pos": "noun",
+      "vocab_def": "A large bowl that you sit on to get rid of waste from your body.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "sink",
+      "vocab_pos": "noun",
+      "vocab_def": "A bowl that is fixed to the wall in a kitchen or bathroom for washing.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "bathtub",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for bathtub.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "shower",
+      "vocab_pos": "noun",
+      "vocab_def": "A piece of equipment that you stand under to wash your whole body.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "towel",
+      "vocab_pos": "noun",
+      "vocab_def": "A piece of cloth used for drying your body or a surface.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "soap",
+      "vocab_pos": "noun",
+      "vocab_def": "A substance that you use with water to wash your body.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "shampoo",
+      "vocab_pos": "noun",
+      "vocab_def": "A liquid soap used for washing your hair.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "toothbrush",
+      "vocab_pos": "noun",
+      "vocab_def": "A small brush used for cleaning your teeth.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "toothpaste",
+      "vocab_pos": "noun",
+      "vocab_def": "A substance that you put on your toothbrush to clean your teeth.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    },
+    {
+      "word": "hairdryer",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for hairdryer.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-3-home.html"
+    }
+  ],
+  "manuals/en/vocabulary/a1/topics/part-4-food.html": [
+    {
+      "word": "apple",
+      "vocab_pos": "noun",
+      "vocab_def": "A round fruit that can be red or green.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "banana",
+      "vocab_pos": "noun",
+      "vocab_def": "A long yellow fruit.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "orange",
+      "vocab_pos": "adjective",
+      "vocab_def": "Having the colour of an orange fruit.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "lemon",
+      "vocab_pos": "noun",
+      "vocab_def": "A yellow fruit that tastes sour.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "strawberry",
+      "vocab_pos": "noun",
+      "vocab_def": "A small red fruit.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "raspberry",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for raspberry.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "blueberry",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for blueberry.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "potato",
+      "vocab_pos": "noun",
+      "vocab_def": "A round white vegetable with a brown skin that grows underground.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "tomato",
+      "vocab_pos": "noun",
+      "vocab_def": "A soft red fruit with a lot of seeds, eaten as a vegetable.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "onion",
+      "vocab_pos": "noun",
+      "vocab_def": "A round vegetable with a strong smell and taste.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "garlic",
+      "vocab_pos": "noun",
+      "vocab_def": "A vegetable with a very strong smell and taste.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "beef",
+      "vocab_pos": "noun",
+      "vocab_def": "Meat from a cow.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "pork",
+      "vocab_pos": "noun",
+      "vocab_def": "Meat from a pig.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "chicken",
+      "vocab_pos": "noun",
+      "vocab_def": "A common type of meat from a bird.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "turkey",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for turkey.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "ham",
+      "vocab_pos": "noun",
+      "vocab_def": "Meat from the leg of a pig.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "bacon",
+      "vocab_pos": "noun",
+      "vocab_def": "Meat from a pig that is cut into long thin slices.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "fish",
+      "vocab_pos": "noun",
+      "vocab_def": "An animal that lives and breathes in water.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "salmon",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for salmon.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "tuna",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for tuna.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "milk",
+      "vocab_pos": "noun",
+      "vocab_def": "A white liquid produced by cows.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "butter",
+      "vocab_pos": "noun",
+      "vocab_def": "A soft yellow food made from milk.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "cheese",
+      "vocab_pos": "noun",
+      "vocab_def": "A food made from milk, usually white or yellow.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "yoghurt",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for yoghurt.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "egg",
+      "vocab_pos": "noun",
+      "vocab_def": "An oval object laid by a hen.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "bread",
+      "vocab_pos": "noun",
+      "vocab_def": "A common food made from flour and water.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "rice",
+      "vocab_pos": "noun",
+      "vocab_def": "Small white grains that we cook and eat.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "pasta",
+      "vocab_pos": "noun",
+      "vocab_def": "A food made from flour and eggs, often served with sauce.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "cereal",
+      "vocab_pos": "noun",
+      "vocab_def": "A food made from grain that people often eat for breakfast with milk.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "flour",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for flour.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "sugar",
+      "vocab_pos": "noun",
+      "vocab_def": "A sweet substance used in food and drinks.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "salt",
+      "vocab_pos": "noun",
+      "vocab_def": "A white substance used to give flavor to food.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "pepper",
+      "vocab_pos": "noun",
+      "vocab_def": "A black or white powder with a strong hot taste used in cooking.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "olive oil",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for olive oil.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "vinegar",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for vinegar.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "ketchup",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for ketchup.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "mustard",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for mustard.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "honey",
+      "vocab_pos": "noun",
+      "vocab_def": "A sweet, sticky yellow substance made by bees.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "breakfast",
+      "vocab_pos": "noun",
+      "vocab_def": "The first meal of the day.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "lunch",
+      "vocab_pos": "noun",
+      "vocab_def": "A meal eaten in the middle of the day.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "dinner",
+      "vocab_pos": "noun",
+      "vocab_def": "The main meal of the day, usually in the evening.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "snack",
+      "vocab_pos": "noun",
+      "vocab_def": "A small amount of food eaten between meals.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "cook",
+      "vocab_pos": "verb",
+      "vocab_def": "To prepare food by heating it.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "bake",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for bake.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "boil",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for boil.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "fry",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for fry.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "grill",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for grill.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "roast",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for roast.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "chop",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for chop.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "slice",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for slice.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    },
+    {
+      "word": "mix",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for mix.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-4-food.html"
+    }
+  ],
+  "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html": [
+    {
+      "word": "wake up",
+      "vocab_pos": "verb",
+      "vocab_def": "To stop sleeping; to become conscious after sleep.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "get up",
+      "vocab_pos": "verb",
+      "vocab_def": "To rise from bed after waking.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "shower",
+      "vocab_pos": "noun",
+      "vocab_def": "A piece of equipment that you stand under to wash your whole body.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "brush",
+      "vocab_pos": "verb",
+      "vocab_def": "To clean something with a brush.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "breakfast",
+      "vocab_pos": "noun",
+      "vocab_def": "The first meal of the day.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "coffee",
+      "vocab_pos": "noun",
+      "vocab_def": "A hot brown drink made from coffee beans.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "eat",
+      "vocab_pos": "verb",
+      "vocab_def": "To put food in your mouth and swallow it.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "drink",
+      "vocab_pos": "verb",
+      "vocab_def": "To take liquid into your mouth and swallow it.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "dress",
+      "vocab_pos": "noun",
+      "vocab_def": "A piece of clothing for a woman or girl that covers the top of the body and part of the legs.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "wash",
+      "vocab_pos": "verb",
+      "vocab_def": "To clean something with water.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "leave",
+      "vocab_pos": "verb",
+      "vocab_def": "To go away from a place.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "bus",
+      "vocab_pos": "noun",
+      "vocab_def": "A large vehicle that carries many people.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "train",
+      "vocab_pos": "noun",
+      "vocab_def": "A vehicle that runs on rails.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "drive",
+      "vocab_pos": "verb",
+      "vocab_def": "To operate a vehicle.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "work",
+      "vocab_pos": "verb",
+      "vocab_def": "To do tasks as part of a job.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "arrive",
+      "vocab_pos": "verb",
+      "vocab_def": "To reach a destination.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "email",
+      "vocab_pos": "verb",
+      "vocab_def": "To send a message using the internet.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "meeting",
+      "vocab_pos": "noun",
+      "vocab_def": "A time when people come together to talk about something.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "lunch",
+      "vocab_pos": "noun",
+      "vocab_def": "A meal eaten in the middle of the day.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "finish",
+      "vocab_pos": "verb",
+      "vocab_def": "To complete something.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "home",
+      "vocab_pos": "noun",
+      "vocab_def": "The place where you live.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "relax",
+      "vocab_pos": "verb",
+      "vocab_def": "To stop working and rest; to become less tense.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "cook",
+      "vocab_pos": "verb",
+      "vocab_def": "To prepare food by heating it.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "dinner",
+      "vocab_pos": "noun",
+      "vocab_def": "The main meal of the day, usually in the evening.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "watch",
+      "vocab_pos": "noun",
+      "vocab_def": "A small clock that you wear on your wrist.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "read",
+      "vocab_pos": "verb",
+      "vocab_def": "To look at and understand written words.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "book",
+      "vocab_pos": "noun",
+      "vocab_def": "Many pages with words and pictures that you read.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "sleep",
+      "vocab_pos": "noun",
+      "vocab_def": "The natural rest your body needs each night.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "clean",
+      "vocab_pos": "adjective",
+      "vocab_def": "Free from dirt.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "friend",
+      "vocab_pos": "noun",
+      "vocab_def": "A person you like and know well.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "clock",
+      "vocab_pos": "noun",
+      "vocab_def": "A device that shows the time.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "watch",
+      "vocab_pos": "noun",
+      "vocab_def": "A small clock that you wear on your wrist.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "hour",
+      "vocab_pos": "noun",
+      "vocab_def": "A period of sixty minutes.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "minute",
+      "vocab_pos": "noun",
+      "vocab_def": "A period of sixty seconds.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "second",
+      "vocab_pos": "noun",
+      "vocab_def": "One of the sixty parts that a minute is divided into.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "o'clock",
+      "vocab_pos": "adverb",
+      "vocab_def": "Used after a number from one to twelve to say what time it is.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "half past",
+      "vocab_pos": "phrase",
+      "vocab_def": "Thirty minutes after the hour.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "quarter past",
+      "vocab_pos": "phrase",
+      "vocab_def": "Fifteen minutes after the hour.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "quarter to",
+      "vocab_pos": "phrase",
+      "vocab_def": "Fifteen minutes before the hour.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "morning",
+      "vocab_pos": "noun",
+      "vocab_def": "The part of the day before 12 o'clock.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "afternoon",
+      "vocab_pos": "noun",
+      "vocab_def": "The part of the day from noon until the evening.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "evening",
+      "vocab_pos": "noun",
+      "vocab_def": "The part of the day after afternoon and before night.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "night",
+      "vocab_pos": "noun",
+      "vocab_def": "The period of darkness between evening and morning.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "midnight",
+      "vocab_pos": "noun",
+      "vocab_def": "Twelve o'clock at night.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "time",
+      "vocab_pos": "noun",
+      "vocab_def": "What is measured in minutes, hours, days, etc.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "Monday",
+      "vocab_pos": "noun",
+      "vocab_def": "The first day of the week.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "Tuesday",
+      "vocab_pos": "noun",
+      "vocab_def": "The second day of the week.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "Wednesday",
+      "vocab_pos": "noun",
+      "vocab_def": "The third day of the week.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "Thursday",
+      "vocab_pos": "noun",
+      "vocab_def": "The fourth day of the week.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "Friday",
+      "vocab_pos": "noun",
+      "vocab_def": "The fifth day of the week.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "Saturday",
+      "vocab_pos": "noun",
+      "vocab_def": "The sixth day of the week.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "Sunday",
+      "vocab_pos": "noun",
+      "vocab_def": "The seventh day of the week.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "January",
+      "vocab_pos": "noun",
+      "vocab_def": "The first month of the year.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "February",
+      "vocab_pos": "noun",
+      "vocab_def": "The second month of the year.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "March",
+      "vocab_pos": "noun",
+      "vocab_def": "The third month of the year.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "April",
+      "vocab_pos": "noun",
+      "vocab_def": "The fourth month of the year.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "May",
+      "vocab_pos": "noun",
+      "vocab_def": "The fifth month of the year.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "June",
+      "vocab_pos": "noun",
+      "vocab_def": "The sixth month of the year.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "July",
+      "vocab_pos": "noun",
+      "vocab_def": "The seventh month of the year.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "August",
+      "vocab_pos": "noun",
+      "vocab_def": "The eighth month of the year.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "September",
+      "vocab_pos": "noun",
+      "vocab_def": "The ninth month of the year.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "October",
+      "vocab_pos": "noun",
+      "vocab_def": "The tenth month of the year.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "November",
+      "vocab_pos": "noun",
+      "vocab_def": "The eleventh month of the year.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "December",
+      "vocab_pos": "noun",
+      "vocab_def": "The twelfth month of the year.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "spring",
+      "vocab_pos": "noun",
+      "vocab_def": "The season between winter and summer.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "summer",
+      "vocab_pos": "noun",
+      "vocab_def": "The hottest season of the year.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "autumn",
+      "vocab_pos": "noun",
+      "vocab_def": "The season between summer and winter.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    },
+    {
+      "word": "winter",
+      "vocab_pos": "noun",
+      "vocab_def": "The coldest season of the year.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-5-daily-routine.html"
+    }
+  ],
+  "manuals/en/vocabulary/a1/topics/part-6-city-transport.html": [
+    {
+      "word": "supermarket",
+      "vocab_pos": "noun",
+      "vocab_def": "A large shop selling food and other household goods.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "bakery",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for bakery.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "pharmacy",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for pharmacy.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "bookshop",
+      "vocab_pos": "noun",
+      "vocab_def": "A shop where you can buy books.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "bank",
+      "vocab_pos": "noun",
+      "vocab_def": "A place where people keep money and do financial transactions.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "post office",
+      "vocab_pos": "noun",
+      "vocab_def": "A place where you can buy stamps and send letters.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "police station",
+      "vocab_pos": "noun",
+      "vocab_def": "A building for police officers in a town.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "hospital",
+      "vocab_pos": "noun",
+      "vocab_def": "A place where sick or injured people receive medical care.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "library",
+      "vocab_pos": "noun",
+      "vocab_def": "A place where you can read or borrow books.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "school",
+      "vocab_pos": "noun",
+      "vocab_def": "A place where children go to learn.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "town hall",
+      "vocab_pos": "noun",
+      "vocab_def": "A public building used for town administration and meetings.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "park",
+      "vocab_pos": "noun",
+      "vocab_def": "A public garden where people go to walk and relax.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "square",
+      "vocab_pos": "adjective",
+      "vocab_def": "Having four equal sides and four 90-degree angles.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "cinema",
+      "vocab_pos": "noun",
+      "vocab_def": "A place where you go to watch films.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "theatre",
+      "vocab_pos": "noun",
+      "vocab_def": "A building with a stage where people go to watch plays.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "museum",
+      "vocab_pos": "noun",
+      "vocab_def": "A building where you can look at important objects.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "art gallery",
+      "vocab_pos": "noun",
+      "vocab_def": "A building or room where works of art are shown.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "restaurant",
+      "vocab_pos": "noun",
+      "vocab_def": "A place where you pay to eat meals.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "cafe",
+      "vocab_pos": "noun",
+      "vocab_def": "A place where you can buy drinks and simple meals.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "gym",
+      "vocab_pos": "noun",
+      "vocab_def": "A room or building with equipment for doing physical exercise.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "swimming pool",
+      "vocab_pos": "noun",
+      "vocab_def": "An artificial area of water for swimming.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "stadium",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for stadium.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "zoo",
+      "vocab_pos": "noun",
+      "vocab_def": "A place where many kinds of wild animals are kept so that people can look at them.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "car",
+      "vocab_pos": "noun",
+      "vocab_def": "A vehicle with four wheels and an engine.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "bus",
+      "vocab_pos": "noun",
+      "vocab_def": "A large vehicle that carries many people.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "train",
+      "vocab_pos": "noun",
+      "vocab_def": "A vehicle that runs on rails.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "metro",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for metro.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "subway",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for subway.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "tram",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for tram.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "taxi",
+      "vocab_pos": "noun",
+      "vocab_def": "A car with a driver that you pay to take you somewhere.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "bicycle",
+      "vocab_pos": "noun",
+      "vocab_def": "A vehicle with two wheels that you sit on and move by turning pedals.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "plane",
+      "vocab_pos": "noun",
+      "vocab_def": "A vehicle with wings that flies through the air.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "boat",
+      "vocab_pos": "noun",
+      "vocab_def": "A vehicle used for traveling on water.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "ferry",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for ferry.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "train station",
+      "vocab_pos": "noun",
+      "vocab_def": "A building where trains stop for passengers.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "bus stop",
+      "vocab_pos": "noun",
+      "vocab_def": "A place on a road where buses stop to let passengers on or off.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "airport",
+      "vocab_pos": "noun",
+      "vocab_def": "A place where planes land and take off.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "terminal",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for terminal.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "platform",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for platform.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "ticket",
+      "vocab_pos": "noun",
+      "vocab_def": "A piece of paper that shows you have paid for a journey.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "single ticket",
+      "vocab_pos": "noun",
+      "vocab_def": "A ticket for a journey in one direction only.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "return ticket",
+      "vocab_pos": "noun",
+      "vocab_def": "A ticket for a journey to a place and back again.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "boarding pass",
+      "vocab_pos": "noun",
+      "vocab_def": "A pass that gives a passenger permission to board a plane or ship.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "luggage",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for luggage.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "suitcase",
+      "vocab_pos": "noun",
+      "vocab_def": "A large case that you use to carry your clothes and other things when you are traveling.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "delay",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for delay.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    },
+    {
+      "word": "flight",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for flight.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-6-city-transport.html"
+    }
+  ],
+  "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html": [
+    {
+      "word": "desk",
+      "vocab_pos": "noun",
+      "vocab_def": "A type of table that you sit at to write or work.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "chair",
+      "vocab_pos": "noun",
+      "vocab_def": "A piece of furniture for one person to sit on.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "whiteboard",
+      "vocab_pos": "noun",
+      "vocab_def": "A large smooth white board for writing on with markers.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "textbook",
+      "vocab_pos": "noun",
+      "vocab_def": "A book that contains information about a subject that people study.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "notebook",
+      "vocab_pos": "noun",
+      "vocab_def": "A book with empty pages that you write in.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "pencil",
+      "vocab_pos": "noun",
+      "vocab_def": "A long thin object used for writing or drawing.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "pen",
+      "vocab_pos": "noun",
+      "vocab_def": "An object used for writing with ink.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "backpack",
+      "vocab_pos": "noun",
+      "vocab_def": "A bag that you carry on your back.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "maths",
+      "vocab_pos": "noun",
+      "vocab_def": "The study of numbers, shapes, and quantities.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "science",
+      "vocab_pos": "noun",
+      "vocab_def": "The study of the natural world based on facts learned through experiments.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "English",
+      "vocab_pos": "adjective",
+      "vocab_def": "From or connected with England.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "history",
+      "vocab_pos": "noun",
+      "vocab_def": "The study of past events.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "geography",
+      "vocab_pos": "noun",
+      "vocab_def": "The study of the systems and processes that involve the Earth's surfaces.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "art",
+      "vocab_pos": "noun",
+      "vocab_def": "The creation of works such as paintings or sculptures.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "music",
+      "vocab_pos": "noun",
+      "vocab_def": "The sound of people singing or playing instruments.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "pe",
+      "vocab_pos": "noun",
+      "vocab_def": "Physical education lessons at school.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "teacher",
+      "vocab_pos": "noun",
+      "vocab_def": "A person who helps you learn new things.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "doctor",
+      "vocab_pos": "noun",
+      "vocab_def": "A person who helps people when they are sick.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "nurse",
+      "vocab_pos": "noun",
+      "vocab_def": "A person whose job is to care for people who are ill or injured, especially in a hospital.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "engineer",
+      "vocab_pos": "noun",
+      "vocab_def": "A person whose job involves designing and building machines, systems, or structures.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "manager",
+      "vocab_pos": "noun",
+      "vocab_def": "A person who is in charge of a team or business.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "programmer",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for programmer.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "designer",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for designer.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "lawyer",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for lawyer.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "office",
+      "vocab_pos": "noun",
+      "vocab_def": "A room or building where people work.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "laptop",
+      "vocab_pos": "noun",
+      "vocab_def": "A small computer that you can carry.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "printer",
+      "vocab_pos": "noun",
+      "vocab_def": "A machine used for printing documents from a computer.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "meeting",
+      "vocab_pos": "noun",
+      "vocab_def": "A time when people come together to talk about something.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "email",
+      "vocab_pos": "verb",
+      "vocab_def": "To send a message using the internet.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "salary",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for salary.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "smartphone",
+      "vocab_pos": "noun",
+      "vocab_def": "A mobile phone that can also connect to the internet.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "tablet",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for tablet.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "laptop",
+      "vocab_pos": "noun",
+      "vocab_def": "A small computer that you can carry.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "computer",
+      "vocab_pos": "noun",
+      "vocab_def": "An electronic machine that can store and find information.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "screen",
+      "vocab_pos": "noun",
+      "vocab_def": "The flat part of a television or computer where you see the pictures.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "keyboard",
+      "vocab_pos": "noun",
+      "vocab_def": "A set of keys on a computer or piano.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "mouse",
+      "vocab_pos": "noun",
+      "vocab_def": "A small animal with a long tail.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "headphones",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for headphones.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "charger",
+      "vocab_pos": "noun",
+      "vocab_def": "A device used to put electricity into a battery.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "website",
+      "vocab_pos": "noun",
+      "vocab_def": "A set of pages on the internet with information about a subject.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "app",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for app.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "password",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for password.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    },
+    {
+      "word": "video call",
+      "vocab_pos": "noun",
+      "vocab_def": "A phone call in which you can see the person you are talking to.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-7-school-work-tech.html"
+    }
+  ],
+  "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html": [
+    {
+      "word": "nature",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for nature.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "mountain",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for mountain.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "hill",
+      "vocab_pos": "noun",
+      "vocab_def": "A naturally raised area of land, lower than a mountain.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "valley",
+      "vocab_pos": "noun",
+      "vocab_def": "A low area of land between hills or mountains.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "forest",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for forest.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "jungle",
+      "vocab_pos": "noun",
+      "vocab_def": "An area of land overgrown with dense forest and vegetation.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "river",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for river.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "lake",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for lake.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "sea",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for sea.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "ocean",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for ocean.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "beach",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for beach.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "island",
+      "vocab_pos": "noun",
+      "vocab_def": "A piece of land surrounded by water.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "desert",
+      "vocab_pos": "noun",
+      "vocab_def": "A dry, barren area of land with little water.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "field",
+      "vocab_pos": "noun",
+      "vocab_def": "An area of open land, especially one used for crops or pasture.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "tree",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for tree.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "flower",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for flower.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "grass",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for grass.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "sun",
+      "vocab_pos": "noun",
+      "vocab_def": "The star that gives light and heat during the day.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "cloud",
+      "vocab_pos": "noun",
+      "vocab_def": "Essential A1 vocabulary term for cloud.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "rain",
+      "vocab_pos": "noun",
+      "vocab_def": "Water that falls from clouds in drops.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "snow",
+      "vocab_pos": "noun",
+      "vocab_def": "Soft white pieces of frozen water that fall from the sky when it is very cold.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "wind",
+      "vocab_pos": "noun",
+      "vocab_def": "Air that moves, sometimes strongly.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "fog",
+      "vocab_pos": "noun",
+      "vocab_def": "A thick cloud of water droplets suspended in the air.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "sunny",
+      "vocab_pos": "adjective",
+      "vocab_def": "Having a lot of light from the sun.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "rainy",
+      "vocab_pos": "adjective",
+      "vocab_def": "Having a lot of rain.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "snowy",
+      "vocab_pos": "adjective",
+      "vocab_def": "With a lot of snow.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "windy",
+      "vocab_pos": "adjective",
+      "vocab_def": "With a lot of wind.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "warm",
+      "vocab_pos": "adjective",
+      "vocab_def": "Slightly hot; pleasantly heated.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "hot",
+      "vocab_pos": "adjective",
+      "vocab_def": "Having a high temperature.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "cold",
+      "vocab_pos": "adjective",
+      "vocab_def": "Having a low temperature.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "freezing",
+      "vocab_pos": "adjective",
+      "vocab_def": "Extremely cold.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "dog",
+      "vocab_pos": "noun",
+      "vocab_def": "An animal that is often called 'man's best friend'.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "cat",
+      "vocab_pos": "noun",
+      "vocab_def": "A small animal with fur that many people keep at home.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "rabbit",
+      "vocab_pos": "noun",
+      "vocab_def": "A small animal with long ears.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "cow",
+      "vocab_pos": "noun",
+      "vocab_def": "A large farm animal that gives milk.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "horse",
+      "vocab_pos": "noun",
+      "vocab_def": "A large animal that people can ride.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "sheep",
+      "vocab_pos": "noun",
+      "vocab_def": "A farm animal with thick wool.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "pig",
+      "vocab_pos": "noun",
+      "vocab_def": "A pink farm animal.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "chicken",
+      "vocab_pos": "noun",
+      "vocab_def": "A common type of meat from a bird.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "lion",
+      "vocab_pos": "noun",
+      "vocab_def": "A large wild cat that lives in Africa.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "tiger",
+      "vocab_pos": "noun",
+      "vocab_def": "A large wild cat with black stripes.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "elephant",
+      "vocab_pos": "noun",
+      "vocab_def": "A very large animal with a long trunk.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "bear",
+      "vocab_pos": "noun",
+      "vocab_def": "A large strong wild animal with thick fur.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "monkey",
+      "vocab_pos": "noun",
+      "vocab_def": "A wild animal that can climb trees and has a long tail.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "dolphin",
+      "vocab_pos": "noun",
+      "vocab_def": "A very intelligent sea animal that looks like a large fish with a pointed mouth.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "shark",
+      "vocab_pos": "noun",
+      "vocab_def": "A large fish that has sharp teeth and a pointed fin on its back.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "bird",
+      "vocab_pos": "noun",
+      "vocab_def": "An animal that has feathers and wings, and usually can fly.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    },
+    {
+      "word": "butterfly",
+      "vocab_pos": "noun",
+      "vocab_def": "An insect with four large, usually brightly colored wings.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-8-nature-animals.html"
+    }
+  ],
+  "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html": [
+    {
+      "word": "music",
+      "vocab_pos": "noun",
+      "vocab_def": "The sound of people singing or playing instruments.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html"
+    },
+    {
+      "word": "reading",
+      "vocab_pos": "noun",
+      "vocab_def": "The action or skill of reading books or texts.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html"
+    },
+    {
+      "word": "drawing",
+      "vocab_pos": "noun",
+      "vocab_def": "A picture made with a pencil or pen.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html"
+    },
+    {
+      "word": "painting",
+      "vocab_pos": "noun",
+      "vocab_def": "A picture made with paint.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html"
+    },
+    {
+      "word": "gardening",
+      "vocab_pos": "noun",
+      "vocab_def": "The activity of tending and cultivating a garden.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html"
+    },
+    {
+      "word": "fishing",
+      "vocab_pos": "noun",
+      "vocab_def": "The activity of catching fish.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html"
+    },
+    {
+      "word": "camping",
+      "vocab_pos": "noun",
+      "vocab_def": "The activity of spending a holiday living in a tent.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html"
+    },
+    {
+      "word": "travelling",
+      "vocab_pos": "noun",
+      "vocab_def": "The activity of visiting different places and countries.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html"
+    },
+    {
+      "word": "gaming",
+      "vocab_pos": "noun",
+      "vocab_def": "The activity of playing video games.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html"
+    },
+    {
+      "word": "dancing",
+      "vocab_pos": "noun",
+      "vocab_def": "Moving your body to music.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html"
+    },
+    {
+      "word": "singing",
+      "vocab_pos": "noun",
+      "vocab_def": "Making musical sounds with the voice.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html"
+    },
+    {
+      "word": "football",
+      "vocab_pos": "noun",
+      "vocab_def": "A game played by two teams of eleven players who kick a ball.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html"
+    },
+    {
+      "word": "soccer",
+      "vocab_pos": "noun",
+      "vocab_def": "A game played by two teams who kick a ball into a goal (football).",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html"
+    },
+    {
+      "word": "basketball",
+      "vocab_pos": "noun",
+      "vocab_def": "A game where two teams try to throw a ball through a high net.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html"
+    },
+    {
+      "word": "volleyball",
+      "vocab_pos": "noun",
+      "vocab_def": "A game in which two teams hit a ball over a high net.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html"
+    },
+    {
+      "word": "tennis",
+      "vocab_pos": "noun",
+      "vocab_def": "A game played by two or four players with rackets and a ball.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html"
+    },
+    {
+      "word": "swimming",
+      "vocab_pos": "noun",
+      "vocab_def": "Moving through water by moving body limbs.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html"
+    },
+    {
+      "word": "running",
+      "vocab_pos": "noun",
+      "vocab_def": "Moving fast on foot as a sport or exercise.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html"
+    },
+    {
+      "word": "cycling",
+      "vocab_pos": "noun",
+      "vocab_def": "The activity of riding a bicycle.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html"
+    },
+    {
+      "word": "skiing",
+      "vocab_pos": "noun",
+      "vocab_def": "The sport or activity of moving over snow on skis.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html"
+    },
+    {
+      "word": "yoga",
+      "vocab_pos": "noun",
+      "vocab_def": "A system of exercises for body and breath control.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html"
+    },
+    {
+      "word": "gym",
+      "vocab_pos": "noun",
+      "vocab_def": "A room or building with equipment for doing physical exercise.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html"
+    },
+    {
+      "word": "pitch",
+      "vocab_pos": "noun",
+      "vocab_def": "An area grounded for playing a sport such as football.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html"
+    },
+    {
+      "word": "court",
+      "vocab_pos": "noun",
+      "vocab_def": "An area marked for playing games such as tennis or basketball.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html"
+    },
+    {
+      "word": "match",
+      "vocab_pos": "noun",
+      "vocab_def": "A contest in which people or teams compete against each other.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html"
+    },
+    {
+      "word": "team",
+      "vocab_pos": "noun",
+      "vocab_def": "A group of players forming one side in a competitive game.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html"
+    },
+    {
+      "word": "win",
+      "vocab_pos": "verb",
+      "vocab_def": "To be the best in a game or competition.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html"
+    },
+    {
+      "word": "lose",
+      "vocab_pos": "verb",
+      "vocab_def": "To no longer have something.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html"
+    },
+    {
+      "word": "score a goal",
+      "vocab_pos": "phrase",
+      "vocab_def": "To kick or hit the ball into the net to get a point.",
+      "level": "A1",
+      "source_file": "manuals/en/vocabulary/a1/topics/part-9-hobbies-sports.html"
+    }
+  ],
+  "manuals/en/vocabulary/a2/topics/culture-society-and-celebrations.html": [],
+  "manuals/en/vocabulary/a2/topics/daily-life-free-time-and-entertainment.html": [],
+  "manuals/en/vocabulary/a2/topics/describing-change-and-comparison.html": [],
+  "manuals/en/vocabulary/a2/topics/emergencies-and-accidents.html": [],
+  "manuals/en/vocabulary/a2/topics/encyclopedic-a2-vocabulary-reference-tables.html": [],
+  "manuals/en/vocabulary/a2/topics/expanded-transport-and-driving.html": [],
+  "manuals/en/vocabulary/a2/topics/food-health-and-the-body.html": [],
+  "manuals/en/vocabulary/a2/topics/functional-english-masterclass.html": [],
+  "manuals/en/vocabulary/a2/topics/home-neighbourhood-and-environment.html": [],
+  "manuals/en/vocabulary/a2/topics/master-collocations-dictionary.html": [],
+  "manuals/en/vocabulary/a2/topics/opinions-feelings-and-social-language.html": [],
+  "manuals/en/vocabulary/a2/topics/people-relationships-and-life-stages.html": [],
+  "manuals/en/vocabulary/a2/topics/personal-development-and-goals.html": [],
+  "manuals/en/vocabulary/a2/topics/school-work-and-technology.html": [],
+  "manuals/en/vocabulary/a2/topics/shopping-and-services.html": [],
+  "manuals/en/vocabulary/a2/topics/travel-and-getting-around.html": [],
+  "manuals/en/vocabulary/a2/topics/vocabulary-building-toolkit.html": [],
+  "manuals/en/vocabulary/b1/topics/advanced-computing-cybersecurity-and-ai.html": [],
+  "manuals/en/vocabulary/b1/topics/arts-culture-and-performing-arts.html": [],
+  "manuals/en/vocabulary/b1/topics/business-english-leadership-and-negotiation.html": [],
+  "manuals/en/vocabulary/b1/topics/current-affairs-and-global-economy.html": [],
+  "manuals/en/vocabulary/b1/topics/ecology-climate-and-sustainability.html": [],
+  "manuals/en/vocabulary/b1/topics/education-academic-integrity-and-research.html": [],
+  "manuals/en/vocabulary/b1/topics/environment-disasters-and-conservation.html": [],
+  "manuals/en/vocabulary/b1/topics/health-medicine-and-lifestyle.html": [],
+  "manuals/en/vocabulary/b1/topics/housing-homeownership-and-diy.html": [],
+  "manuals/en/vocabulary/b1/topics/law-crime-and-judicial-system.html": [],
+  "manuals/en/vocabulary/b1/topics/life-skills-decision-making-and-critical-thinking.html": [],
+  "manuals/en/vocabulary/b1/topics/media-digital-life-and-cybersecurity.html": [],
+  "manuals/en/vocabulary/b1/topics/money-personal-finance-and-consumer-rights.html": [],
+  "manuals/en/vocabulary/b1/topics/personality-psychology-and-emotions.html": [],
+  "manuals/en/vocabulary/b1/topics/philosophy-values-and-moral-ethics.html": [],
+  "manuals/en/vocabulary/b1/topics/phrasal-verbs-everyday-non-literal-meanings.html": [],
+  "manuals/en/vocabulary/b1/topics/professional-gastronomy-and-culinary-arts.html": [],
+  "manuals/en/vocabulary/b1/topics/science-innovation-and-future-tech.html": [],
+  "manuals/en/vocabulary/b1/topics/society-civics-and-human-rights.html": [],
+  "manuals/en/vocabulary/b1/topics/travel-immigration-and-global-mobility.html": [],
+  "manuals/en/vocabulary/b1/topics/work-career-and-business-communication.html": [],
+  "manuals/en/vocabulary/b2/topics/advanced-vocabulary-toolkit.html": [],
+  "manuals/en/vocabulary/b2/topics/business-strategy-management-and-leadership.html": [],
+  "manuals/en/vocabulary/b2/topics/culture-arts-and-heritage.html": [],
+  "manuals/en/vocabulary/b2/topics/daily-professional-life-and-workplace-dynamics.html": [],
+  "manuals/en/vocabulary/b2/topics/economics-trade-and-finance.html": [],
+  "manuals/en/vocabulary/b2/topics/environment-sustainability-and-circular-economy.html": [],
+  "manuals/en/vocabulary/b2/topics/healthcare-systems-and-preventive-medicine.html": [],
+  "manuals/en/vocabulary/b2/topics/higher-education-and-academic-inquiry.html": [],
+  "manuals/en/vocabulary/b2/topics/international-relations-and-geopolitics.html": [],
+  "manuals/en/vocabulary/b2/topics/law-justice-and-civil-rights.html": [],
+  "manuals/en/vocabulary/b2/topics/media-journalism-and-public-discourse.html": [],
+  "manuals/en/vocabulary/b2/topics/philosophy-ethics-and-moral-logic.html": [],
+  "manuals/en/vocabulary/b2/topics/psychology-cognition-and-behavior.html": [],
+  "manuals/en/vocabulary/b2/topics/science-research-and-empirical-methodology.html": [],
+  "manuals/en/vocabulary/b2/topics/society-government-and-public-life.html": [],
+  "manuals/en/vocabulary/b2/topics/technology-ai-and-cybernetics.html": [],
+  "manuals/en/vocabulary/c1/topics/academic-genres-and-research-publications.html": [],
+  "manuals/en/vocabulary/c1/topics/academic-literacy-assessment-and-pedagogy.html": [],
+  "manuals/en/vocabulary/c1/topics/aesthetics-literature-and-architectural-heritage.html": [],
+  "manuals/en/vocabulary/c1/topics/artificial-intelligence-machine-learning-and-robotics.html": [],
+  "manuals/en/vocabulary/c1/topics/banking-investment-cryptocurrencies-and-crises.html": [],
+  "manuals/en/vocabulary/c1/topics/civil-law-contracts-and-torts.html": [],
+  "manuals/en/vocabulary/c1/topics/climate-adaptation-biodiversity-and-green-tech.html": [],
+  "manuals/en/vocabulary/c1/topics/cognitive-biases-mental-disorders-and-therapy.html": [],
+  "manuals/en/vocabulary/c1/topics/constitutional-and-international-law.html": [],
+  "manuals/en/vocabulary/c1/topics/criminal-law-and-judicial-proceedings.html": [],
+  "manuals/en/vocabulary/c1/topics/cybersecurity-big-data-and-digital-ethics.html": [],
+  "manuals/en/vocabulary/c1/topics/diagnostics-clinical-trials-and-specialties.html": [],
+  "manuals/en/vocabulary/c1/topics/executive-leadership-operations-and-hr.html": [],
+  "manuals/en/vocabulary/c1/topics/geopolitics-soft-power-and-peacekeeping.html": [],
+  "manuals/en/vocabulary/c1/topics/investigative-journalism-and-press-freedom.html": [],
+  "manuals/en/vocabulary/c1/topics/microeconomics-macroeconomics-and-behavioural-economics.html": [],
+  "manuals/en/vocabulary/c1/topics/morality-existentialism-and-epistemology.html": [],
+  "manuals/en/vocabulary/c1/topics/physics-chemistry-biology-and-genetics.html": [],
+  "manuals/en/vocabulary/c1/topics/research-ethics-peer-review-and-methodology.html": [],
+  "manuals/en/vocabulary/c1/topics/risk-management-change-and-entrepreneurship.html": [],
+  "manuals/en/vocabulary/c1/topics/statistical-analysis-and-empirical-data-interpretation.html": [],
+  "manuals/en/vocabulary/c2/topics/collocations-at-native-density.html": [],
+  "manuals/en/vocabulary/c2/topics/cross-domain-specialist-vocabulary.html": [],
+  "manuals/en/vocabulary/c2/topics/idiomatic-and-figurative-fluency.html": [],
+  "manuals/en/vocabulary/c2/topics/precision-and-near-synonym-discrimination.html": []
+}

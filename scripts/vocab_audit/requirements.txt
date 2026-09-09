@@ -1,0 +1,2 @@
+# Python dependencies for vocab_audit
+# All extractor and reporting tools use Python 3 standard library modules.
