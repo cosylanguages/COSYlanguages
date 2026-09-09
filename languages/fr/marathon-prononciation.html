@@ -341,6 +341,32 @@
     gap: 0.3rem;
     font-weight: 700;
   }
+
+  .tips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .tip-card {
+    background: #f0fdf4;
+    border: 1px solid #b7e4c7;
+    border-radius: 8px;
+    padding: 1rem;
+  }
+
+  .tip-card h5 {
+    margin: 0 0 0.3rem 0;
+    color: #1b4332;
+    font-size: 1rem;
+  }
+
+  .tip-card p {
+    margin: 0;
+    font-size: 0.88rem;
+    color: #2d6a4f;
+  }
 </style>
 </head>
 <body data-lang-theme="fr">
@@ -372,18 +398,18 @@
     <span class="mp-badge">CECRL A0 → C2</span>
   </div>
   <h1>🇫🇷 MARATHON DE PRONONCIATION FRANÇAISE</h1>
-  <p class="subtitle">Guide complet de lecture et prononciation : des recettes de sons intuitives aux nuances du français parlé.</p>
+  <p class="subtitle">Guide complet de lecture, prononciation et orthographe : des recettes de sons intuitives aux pièges de l'oral spontané.</p>
 </header>
 
 <!-- Interactive Level Selector Tabs -->
 <div class="mp-tabs-bar">
-  <button class="mp-tab-btn active" onclick="filterLevel('all')">Tous les niveaux</button>
-  <button class="mp-tab-btn" onclick="filterLevel('a0-a1')">🟢 A0-A1 Fondations</button>
-  <button class="mp-tab-btn" onclick="filterLevel('a2')">🟡 A2 Structures</button>
-  <button class="mp-tab-btn" onclick="filterLevel('b1')">🟠 B1 Liaisons & Finesse</button>
-  <button class="mp-tab-btn" onclick="filterLevel('b2')">🔴 B2 Registres & Oral</button>
-  <button class="mp-tab-btn" onclick="filterLevel('c1')">🟣 C1 Style & Poésie</button>
-  <button class="mp-tab-btn" onclick="filterLevel('c2')">⚫ C2 Expertise & Réforme</button>
+  <button class="mp-tab-btn active" data-level="all" onclick="filterLevel('all')">Tous les niveaux</button>
+  <button class="mp-tab-btn" data-level="a0-a1" onclick="filterLevel('a0-a1')">🟢 A0-A1 Fondations</button>
+  <button class="mp-tab-btn" data-level="a2" onclick="filterLevel('a2')">🟡 A2 Structures</button>
+  <button class="mp-tab-btn" data-level="b1" onclick="filterLevel('b1')">🟠 B1 Liaisons & Nombres</button>
+  <button class="mp-tab-btn" data-level="b2" onclick="filterLevel('b2')">🔴 B2 Registres & Lettres internes</button>
+  <button class="mp-tab-btn" data-level="c1" onclick="filterLevel('c1')">🟣 C1 Style & Poésie</button>
+  <button class="mp-tab-btn" data-level="c2" onclick="filterLevel('c2')">⚫ C2 Expertise & Réforme</button>
 </div>
 
 <main class="mp-container">
@@ -396,9 +422,9 @@
     </p>
 
     <div class="mnemonic-box">
-      <h4>💡 Les 4 Piliers Mnémotechniques Essentiels du Marathon</h4>
+      <h4>💡 Les Mnémotechniques Essentielles du Marathon</h4>
       <ul style="margin: 0.5rem 0 0 1.2rem; padding: 0;">
-        <li><strong>1. Consonnes finales sonores (Règle « CaReFuL ») :</strong> En français, les consonnes finales <strong>-t, -d, -s, -x, -p, -g</strong> sont généralement muettes (<em>petit, chat, grands, deux</em>). Seules <strong>C, R, F, L</strong> se prononcent presque toujours en fin de mot (<em>ba<strong>c</strong>, me<strong>r</strong>, che<strong>f</strong>, ba<strong>l</strong></em>).</li>
+        <li><strong>1. Consonnes finales sonores (« CaReFuL » ou « Car Fabien Le Normand ») :</strong> En français, les consonnes finales <strong>-t, -d, -s, -x, -p, -g</strong> sont généralement muettes (<em>petit, chat, grands, deux</em>). Seules <strong>C, R, F, L, N</strong> se prononcent le plus souvent en fin de mot (<em>ba<strong>c</strong>, me<strong>r</strong>, che<strong>f</strong>, ba<strong>l</strong>, bo<strong>n</strong></em>).</li>
         <li><strong>2. Consonnes C et G :</strong>
           <br>• <strong>CA-CO-CU = son dur [k]</strong> (<em>cave</em>) / <strong>CE-CI-CY = son doux [s]</strong> (<em>ceci</em>). La cédille <strong>ç</strong> force le son doux devant A, O, U (<em>garçon</em>).
           <br>• <strong>GA-GO-GU = son dur [g]</strong> (<em>gare</em>) / <strong>GE-GI-GY = son doux [ʒ]</strong> (<em>girafe</em>). Un <strong>u</strong> muet est inséré pour garder le son dur devant E et I (<em>guerre, guitare</em>).
@@ -408,7 +434,27 @@
       </ul>
     </div>
 
-    <h3>Structure d'une fiche de leçon (Gabarit fixe)</h3>
+    <h3>Conseils pratiques pour s'entraîner efficacement</h3>
+    <div class="tips-grid">
+      <div class="tip-card">
+        <h5>🎧 1. Écouter et répéter</h5>
+        <p>Associez toujours la règle écrite à la voix des locuteurs natifs et pratiquez le shadowing (répétition en écho).</p>
+      </div>
+      <div class="tip-card">
+        <h5>🎙️ 2. S'enregistrer</h5>
+        <p>Comparez votre voix au modèle audio pour repérer les consonnes trop prononcées ou les vocalismes relâchés.</p>
+      </div>
+      <div class="tip-card">
+        <h5>🗣️ 3. Penser par blocs</h5>
+        <p>Ne lisez pas mot par mot : découpez les phrases en groupes rythmiques avec allongement sur la dernière syllabe.</p>
+      </div>
+      <div class="tip-card">
+        <h5>💡 4. Utiliser l'API</h5>
+        <p>L'Alphabet Phonétique International donne la vraie boussole sonore sous chaque orthographe piège.</p>
+      </div>
+    </div>
+
+    <h3 style="margin-top: 1.5rem;">Structure d'une fiche de leçon (Gabarit fixe)</h3>
     <p>Chaque règle du marathon utilise les icônes suivantes pour une clarté visuelle maximale :</p>
     <ul style="list-style: none; padding-left: 0;">
       <li style="margin-bottom: 0.35rem;"><span class="icon-tag">👂 <strong>Son (Recette) :</strong></span> Comment placer ses lèvres, sa langue ou sa voix pour produire le son sans jargon.</li>
@@ -450,7 +496,48 @@
     <p>Ce niveau pose toutes les bases indispensables pour lire et prononcer correctement n'importe quel mot français courant.</p>
 
     <!-- UNIT 1 -->
-    <h3 style="border-bottom: 2px solid #74c69d; padding-bottom: 0.3rem;">UNITÉ 1 — L'alphabet et les voyelles de base</h3>
+    <h3 style="border-bottom: 2px solid #74c69d; padding-bottom: 0.3rem;">UNITÉ 1 — L'alphabet complet et le nom des lettres</h3>
+
+    <div style="overflow-x: auto; margin-bottom: 1.5rem;">
+      <table class="mp-table">
+        <thead>
+          <tr>
+            <th>Lettre</th>
+            <th>Nom de la lettre (API)</th>
+            <th>Son habituel</th>
+            <th>Exemple clair</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>A</td><td>[a]</td><td>[a]</td><td>ami</td></tr>
+          <tr><td>B</td><td>[be]</td><td>[b]</td><td>bon</td></tr>
+          <tr><td>C</td><td>[se]</td><td>[k] ou [s]</td><td>chat, ceci</td></tr>
+          <tr><td>D</td><td>[de]</td><td>[d]</td><td>dans</td></tr>
+          <tr><td>E</td><td>[ə]</td><td>[ə], [ɛ], muet</td><td>le, porte</td></tr>
+          <tr><td>F</td><td>[ɛf]</td><td>[f]</td><td>fille</td></tr>
+          <tr><td>G</td><td>[ʒe]</td><td>[g] ou [ʒ]</td><td>gare, girafe</td></tr>
+          <tr><td>H</td><td>[aʃ]</td><td>muet</td><td>homme, héros</td></tr>
+          <tr><td>I</td><td>[i]</td><td>[i]</td><td>ici</td></tr>
+          <tr><td>J</td><td>[ʒi]</td><td>[ʒ]</td><td>jour</td></tr>
+          <tr><td>K</td><td>[ka]</td><td>[k]</td><td>kilo</td></tr>
+          <tr><td>L</td><td>[ɛl]</td><td>[l]</td><td>livre</td></tr>
+          <tr><td>M</td><td>[ɛm]</td><td>[m]</td><td>main</td></tr>
+          <tr><td>N</td><td>[ɛn]</td><td>[n]</td><td>nuit</td></tr>
+          <tr><td>O</td><td>[o]</td><td>[o] ou [ɔ]</td><td>mot, botte</td></tr>
+          <tr><td>P</td><td>[pe]</td><td>[p]</td><td>pain</td></tr>
+          <tr><td>Q</td><td>[ky]</td><td>[k]</td><td>qui</td></tr>
+          <tr><td>R</td><td>[ɛʁ]</td><td>[ʁ]</td><td>rue</td></tr>
+          <tr><td>S</td><td>[ɛs]</td><td>[s] ou [z]</td><td>sac, maison</td></tr>
+          <tr><td>T</td><td>[te]</td><td>[t]</td><td>table</td></tr>
+          <tr><td>U</td><td>[y]</td><td>[y]</td><td>une</td></tr>
+          <tr><td>V</td><td>[ve]</td><td>[v]</td><td>vélo</td></tr>
+          <tr><td>W</td><td>[dubləve]</td><td>[v] ou [w]</td><td>wagon, week-end</td></tr>
+          <tr><td>X</td><td>[iks]</td><td>[ks], [ɡz] ou muet</td><td>taxi, deux</td></tr>
+          <tr><td>Y</td><td>[igrɛk]</td><td>[i] ou [j]</td><td>style, yeux</td></tr>
+          <tr><td>Z</td><td>[zɛd]</td><td>[z]</td><td>zéro</td></tr>
+        </tbody>
+      </table>
+    </div>
 
     <div class="lesson-sample">
       <div class="lesson-sample-header">
@@ -464,7 +551,7 @@
             <tr><th>👂 Recette du son</th><td>Ouvrez la bouche franchement comme chez le médecin (« Ah! »), la langue reste basse.</td></tr>
             <tr><th>👁️ À l'écrit</th><td>Un <em>a</em> seul, sans <em>n</em> ou <em>m</em> juste après dans la même syllabe.</td></tr>
             <tr><th>Exemples courants</th><td>a<strong>m</strong>i, ta<strong>b</strong>le, ch<strong>a</strong>t, s<strong>a</strong>l<strong>a</strong>de, <strong>a</strong>vion, b<strong>a</strong>n<strong>a</strong>ne</td></tr>
-            <tr><th>⚠️ Piège</th><td>Ne pas nasaliser le <em>a</em> quand il est suivi d'une consonnes normale (ex. <em>ami</em> se lit [a-mi], pas nasal).</td></tr>
+            <tr><th>⚠️ Piège</th><td>Ne pas nasaliser le <em>a</em> quand il est suivi d'une consonne normale (ex. <em>ami</em> se lit [a-mi], pas nasal).</td></tr>
             <tr><th>💡 Astuce</th><td>« A comme Ah! » — une seule position claire.</td></tr>
             <tr><th>Vocabulaire clé</th><td>ami, table, chat, salade, avion, banane, papa, gare</td></tr>
             <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
@@ -638,7 +725,7 @@
     </div>
 
     <!-- UNIT 3 -->
-    <h3 style="border-bottom: 2px solid #74c69d; padding-bottom: 0.3rem;">UNITÉ 3 — Règle capitale des consonnes finales (CaReFuL)</h3>
+    <h3 style="border-bottom: 2px solid #74c69d; padding-bottom: 0.3rem;">UNITÉ 3 — Règle capitale des consonnes finales (CaReFuL / Car Fabien Le Normand)</h3>
 
     <div class="lesson-sample">
       <div class="lesson-sample-header">
@@ -648,12 +735,12 @@
         <table class="mp-table">
           <tbody>
             <tr><th style="width: 25%;">Définition</th><td>LA règle la plus importante pour lire les mots français sans hésiter.</td></tr>
-            <tr><th>Règle</th><td>1. Les consonnes finales <strong>-d, -t, -p, -s, -x, -z, -g, -e</strong> sont <strong>MUEETTES</strong> en fin de mot. <br>2. Seules les consonnes du mot <strong>C-R-F-L (« CaReFuL »)</strong> se prononcent en fin de mot !</td></tr>
+            <tr><th>Règle</th><td>1. Les consonnes finales <strong>-d, -t, -p, -s, -x, -z, -g, -e</strong> sont <strong>MUEETTES</strong> en fin de mot. <br>2. Seules les consonnes du mot <strong>C-R-F-L (« CaReFuL »)</strong> ou de la phrase <strong>« Car Fabien Le Normand » (C-R-F-L-N)</strong> se prononcent en fin de mot !</td></tr>
             <tr><th>👁️ À l'écrit</th><td>Consonne tout à la fin d'un mot isolé.</td></tr>
             <tr><th>Exemples consonnes muettes</th><td>peti<strong>t</strong> [pəti], cha<strong>t</strong> [ʃa], gran<strong>d</strong> [gʁɑ̃], deu<strong>x</strong> [dø], tro<strong>p</strong> [tʁo], françai<strong>s</strong> [fʁɑ̃sɛ]</td></tr>
-            <tr><th>Exemples CaReFuL (prononcées)</th><td>ba<strong>c</strong> [bak], me<strong>r</strong> [mɛʁ], che<strong>f</strong> [ʃɛf], ba<strong>l</strong> [bal], sa<strong>c</strong>, mu<strong>r</strong>, neu<strong>f</strong>, avi<strong>l</strong></td></tr>
+            <tr><th>Exemples CaReFuL (prononcées)</th><td>ba<strong>c</strong> [bak], me<strong>r</strong> [mɛʁ], che<strong>f</strong> [ʃɛf], ba<strong>l</strong> [bal], sa<strong>c</strong>, mu<strong>r</strong>, neu<strong>f</strong>, avi<strong>l</strong>, bo<strong>n</strong></td></tr>
             <tr><th>⚠️ Pièges & Exceptions</th><td>• Les verbes à l'infinitif en <em>-er</em> (ex. <em>parl<strong>er</strong>, mang<strong>er</strong></em>) : le <em>r</em> y est <strong>exceptionnellement muet</strong> ! <br>• Le mot <em>monsieu<strong>r</strong></em>.</td></tr>
-            <tr><th>💡 Astuce mnémotechnique</th><td>« Souvenez-vous de Mr CaReFuL : seules C, R, F, L parlent à la fin ! »</td></tr>
+            <tr><th>💡 Astuce mnémotechnique</th><td>« Souvenez-vous de Mr CaReFuL ou de Car Fabien Le Normand : C, R, F, L, N parlent à la fin ! »</td></tr>
             <tr><th>Vocabulaire clé</th><td>petit, chat, grand, deux, trop, bac, mer, chef, bal, sac, mur</td></tr>
             <tr><th>Fréquence</th><td><span class="star-rating">★★★★★</span></td></tr>
             <tr><th>Visuel associé</th><td><strong>Carte des graphies :</strong> consonnes C-R-F-L en vert brillant vs d, t, p, s, x barrées en rouge</td></tr>
@@ -703,8 +790,8 @@
         <tbody>
           <tr><td><span class="level-tag lvl-a0a1">A0-A1</span></td><td>Alphabet, voyelles pures, accents, cédille, consonnes finales CaReFuL, 4 voyelles nasales, premiers digrammes (ou, oi, eau, ai).</td><td>Sait lire à haute voix n'importe quel mot simple sans hésitation.</td></tr>
           <tr><td><span class="level-tag lvl-a2">A2</span></td><td>Semi-voyelles ([j], [w], [ɥ]), consonnes composées (ch, gn, ph, th, qu), groupe ILL, e caduc, élision, H muet vs H aspiré, accord sonore féminin/pluriel.</td><td>Développe un débit fluide et enchaîne les mots naturellement.</td></tr>
-          <tr><td><span class="level-tag lvl-b1">B1</span></td><td>Les 3 liaisons (Obligatoire, Interdite, Facultative), terminaisons verbales muettes (-ent), homophones grammaticaux (a/à, ce/se, et/est), rythme & accent tonique de groupe.</td><td>Comprend l'oral rapide et évite les pièges orthographiques/sonores.</td></tr>
-          <tr><td><span class="level-tag lvl-b2">B2</span></td><td>Chute du e caduc en style familier (« ch'sais pas »), liaisons populaires, anglicismes francisés, variations régionales (Méridional, Québec, Suisse), paronymes.</td><td>Comprend les locuteurs natifs de toutes régions et adapte son registre.</td></tr>
+          <tr><td><span class="level-tag lvl-b1">B1</span></td><td>Les 3 liaisons, terminaisons -ent, homophones, nombres pièges (6, 10, 9, plus), dénasalisation & enchaînement, accent tonique de groupe.</td><td>Comprend l'oral rapide et évite les pièges orthographiques/sonores.</td></tr>
+          <tr><td><span class="level-tag lvl-b2">B2</span></td><td>Chute du e caduc (« ch'sais pas »), consonnes internes muettes (sept, sculpture, automne), anglicismes francisés, variations régionales (Méridional, Québec).</td><td>Comprend les locuteurs natifs de toutes régions et adapte son registre.</td></tr>
           <tr><td><span class="level-tag lvl-c1">C1</span></td><td>Compte du e muet en poésie classique, diérèse/synérèse, liaisons soutenues du discours officiel, doublets savants/populaires, prosodie des groupes de souffle.</td><td>Maîtrise la lecture expressive de beaux textes et le discours public.</td></tr>
           <tr><td><span class="level-tag lvl-c2">C2</span></td><td>Variation sociophonétique fine, réforme orthographique de 1990 (coexistence des graphies), graphies fantômes historiques, prononciation des textes anciens.</td><td>Expertise globale sur l'histoire et l'évolution vivante de la langue.</td></tr>
         </tbody>
@@ -772,7 +859,7 @@
 
   <!-- NIVEAU B1 -->
   <section id="b1" class="mp-section">
-    <h2><span class="level-tag lvl-b1">B1</span> NIVEAU B1 — « Liaisons, homophones et rythme »</h2>
+    <h2><span class="level-tag lvl-b1">B1</span> NIVEAU B1 — « Liaisons, homophones, nombres et dénasalisation »</h2>
 
     <div class="unit-card">
       <h4>Unité 1 — Les trois catégories de liaisons</h4>
@@ -784,56 +871,94 @@
     </div>
 
     <div class="unit-card">
-      <h4>Unité 2 — Terminaisons verbales silencieuses à l'oral</h4>
+      <h4>Unité 2 — La prononciation des nombres et du mot PLUS</h4>
       <ul>
-        <li><strong>2.1 La terminaison -ent :</strong> À la 3e personne du pluriel des verbes au présent, <em>-ent</em> est <strong>100% muet</strong> ! (ex. <em>il parle</em> [il paʁl] et <em>ils parlent</em> [il paʁl] ont exactement le même son).</li>
-        <li><strong>2.2 Le rôle du pronom :</strong> C'est le pronom ou le contexte qui indique le pluriel à l'oral, pas la terminaison écrite du verbe.</li>
+        <li><strong>2.1 Le mot PLUS :</strong>
+          <br>• Négation (ne ... plus) → <em>plus</em> = [ply] (ex. <em>Je ne veux **plus** venir</em> [ply]).
+          <br>• Comparatif / Addition (+) → <em>plus</em> = [plys] (ex. <em>Deux **plus** deux</em> [plys], <em>J'en veux **plus**</em> [plys]).
+          <br>• Devant voyelle → liaison en [z] (ex. <em>**Plus**_utile</em> [plyzytil]).
+        </li>
+        <li><strong>2.2 Les chiffres 6 (six) et 10 (dix) :</strong>
+          <br>• Isolés / fin de phrase → [sis] / [dis] (ex. <em>J'en ai **six**</em> [sis]).
+          <br>• Devant consonne → [si] / [di] (ex. <em>**Six** chats</em> [si ʃa]).
+          <br>• Devant voyelle → liaison [siz] / [diz] (ex. <em>**Six**_amis</em> [sizami]).
+        </li>
+        <li><strong>2.3 Le chiffre 9 (neuf) :</strong>
+          <br>• Devant <em>ans</em> et <em>heures</em> → le <em>f</em> devient [v] (ex. <em>**neuf**_ans</em> [nœvɑ̃], <em>**neuf**_heures</em> [nœvœʁ]).
+        </li>
       </ul>
     </div>
 
     <div class="unit-card">
-      <h4>Unité 3 — Homophones grammaticaux (Les pièges de l'écrit)</h4>
+      <h4>Unité 3 — Dénasalisation & Enchaînement nasal</h4>
       <ul>
-        <li><strong>3.1 a / à :</strong> Test de substitution : remplacez par <em>avait</em>. Si la phrase reste correcte → c'est le verbe <strong>a</strong> (<em>il a un chat → il avait un chat</em>). Sinon → préposition <strong>à</strong>.</li>
-        <li><strong>3.2 ou / où :</strong> <em>ou</em> = choix (remplaçable par <em>ou bien</em>) ; <em>où</em> = lieu ou temps.</li>
-        <li><strong>3.3 ce / se :</strong> <em>ce</em> = démonstratif (<em>ce livre</em>) ; <em>se</em> = pronom réfléchi (<em>il se lave</em>).</li>
-        <li><strong>3.4 et / est :</strong> <em>et</em> = conjonction (remplaçable par <em>et puis</em>) ; <em>est</em> = verbe être (remplaçable par <em>était</em>).</li>
+        <li><strong>3.1 Dénasalisation de l'adjectif masculin :</strong> Quand un adjectif masculin nasal se lie à un nom commençant par une voyelle, la voyelle se dénasalise partiellement ou complètement et le <em>n</em> devient la consonne d'attaque du mot suivant :
+          <br>• <em>bon</em> [bɔ̃] → <em>un bon_ami</em> [bɔ.na.mi]
+          <br>• <em>ancien</em> [ɑ̃sjɛ̃] → <em>un_ancien_élève</em> [ɑ̃.sjɛ.ne.lɛv]
+        </li>
       </ul>
     </div>
 
     <div class="unit-card">
-      <h4>Unité 4 — Rythme et accent tonique du français</h4>
+      <h4>Unité 4 — Terminaisons verbales silencieuses à l'oral</h4>
       <ul>
-        <li><strong>4.1 Accent de groupe rythmique :</strong> Contrairement à l'anglais ou au russe, le français n'a <strong>pas d'accent tonique fixe à l'intérieur des mots isolés</strong>.</li>
-        <li><strong>4.2 L'allongement final :</strong> L'accent tonique tombe toujours uniquement sur la <strong>dernière syllabe prononcée du groupe de mots</strong> (ex. <em>Un petit chat <strong>BLANC</strong></em>). C'est ce qui donne au français son rythme mélodique fluide et régulier.</li>
+        <li><strong>4.1 La terminaison -ent :</strong> À la 3e personne du pluriel des verbes au présent, <em>-ent</em> est <strong>100% muet</strong> ! (ex. <em>il parle</em> [il paʁl] et <em>ils parlent</em> [il paʁl] ont exactement le même son).</li>
+        <li><strong>4.2 Le rôle du pronom :</strong> C'est le pronom ou le contexte qui indique le pluriel à l'oral, pas la terminaison écrite du verbe.</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 5 — Homophones grammaticaux (Les pièges de l'écrit)</h4>
+      <ul>
+        <li><strong>5.1 a / à :</strong> Test de substitution : remplacez par <em>avait</em>. Si la phrase reste correcte → c'est le verbe <strong>a</strong> (<em>il a un chat → il avait un chat</em>). Sinon → préposition <strong>à</strong>.</li>
+        <li><strong>5.2 ou / où :</strong> <em>ou</em> = choix (remplaçable par <em>ou bien</em>) ; <em>où</em> = lieu ou temps.</li>
+        <li><strong>5.3 ce / se :</strong> <em>ce</em> = démonstratif (<em>ce livre</em>) ; <em>se</em> = pronom réfléchi (<em>il se lave</em>).</li>
+        <li><strong>5.4 et / est :</strong> <em>et</em> = conjonction (remplaçable par <em>et puis</em>) ; <em>est</em> = verbe être (remplaçable par <em>était</em>).</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 6 — Rythme et accent tonique du français</h4>
+      <ul>
+        <li><strong>6.1 Accent de groupe rythmique :</strong> Contrairement à l'anglais ou au russe, le français n'a <strong>pas d'accent tonique fixe à l'intérieur des mots isolés</strong>.</li>
+        <li><strong>6.2 L'allongement final :</strong> L'accent tonique tombe toujours uniquement sur la <strong>dernière syllabe prononcée du groupe de mots</strong> (ex. <em>Un petit chat <strong>BLANC</strong></em>). C'est ce qui donne au français son rythme mélodique fluide et régulier.</li>
       </ul>
     </div>
   </section>
 
   <!-- NIVEAU B2 -->
   <section id="b2" class="mp-section">
-    <h2><span class="level-tag lvl-b2">B2</span> NIVEAU B2 — « Registres, variations et oral spontané »</h2>
+    <h2><span class="level-tag lvl-b2">B2</span> NIVEAU B2 — « Lettres internes silencieuses & oral familier »</h2>
 
     <div class="unit-card">
-      <h4>Unité 1 — Contractions et réductions de l'oral rapide</h4>
+      <h4>Unité 1 — Les consonnes muettes internes</h4>
       <ul>
-        <li><strong>1.1 Chute du e caduc :</strong> En oral familier spontané, les <em>e</em> faibles tombent massivement : <em>« Je ne sais pas »</em> devient <em>« Ch'sais pas »</em> [ʃsɛpa] ; <em>« Tu es »</em> devient <em>« T'es »</em>.</li>
-        <li><strong>1.2 Suppression du « ne » de négation :</strong> En français parlé naturel, le <em>ne</em> disparaît presque systématiquement (ex. <em>« J'sais pas »</em>, <em>« Il vient pas »</em>).</li>
+        <li><strong>1.1 P muet :</strong> Le <em>p</em> ne se prononce pas dans : <em>scul**p**ture</em> [skyltyʁ], <em>com**p**ter</em> [kɔ̃te], <em>com**p**te</em>, <em>se**p**t</em> [sɛt], <em>cor**p**s</em> [kɔʁ].</li>
+        <li><strong>1.2 M muet :</strong> Le <em>m</em> ne se prononce pas dans : <em>auto**m**ne</em> [otɔn], <em>condam**n**er</em> [kɔ̃dane].</li>
+        <li><strong>1.3 B et G muets :</strong> Le <em>b</em> dans <em>plom**b**ier</em> [plɔ̃bje] est audible, mais dans <em>plom**b**</em> [plɔ̃] il est muet. Le <em>g</em> dans <em>san**g**</em> [sɑ̃] et <em>lon**g**</em> [lɔ̃] est muet.</li>
       </ul>
     </div>
 
     <div class="unit-card">
-      <h4>Unité 2 — Accentuation des mots d'emprunt et anglicismes</h4>
+      <h4>Unité 2 — Contractions et réductions de l'oral rapide</h4>
       <ul>
-        <li><strong>2.1 Digestion phonétique :</strong> Les mots empruntés à l'anglais (<em>week-end, parking, smartphone</em>) gardent une prononciation proche mais adoptent <strong>l'accent tonique français sur la dernière syllabe</strong> (ex. <em>week-END</em>, pas <em>WEEK-end</em>).</li>
+        <li><strong>2.1 Chute du e caduc :</strong> En oral familier spontané, les <em>e</em> faibles tombent massivement : <em>« Je ne sais pas »</em> devient <em>« Ch'sais pas »</em> [ʃsɛpa] ; <em>« Tu es »</em> devient <em>« T'es »</em>.</li>
+        <li><strong>2.2 Suppression du « ne » de négation :</strong> En français parlé naturel, le <em>ne</em> disparaît presque systématiquement (ex. <em>« J'sais pas »</em>, <em>« Il vient pas »</em>).</li>
       </ul>
     </div>
 
     <div class="unit-card">
-      <h4>Unité 3 — Aperçu des accents régionaux et de la francophonie</h4>
+      <h4>Unité 3 — Accentuation des mots d'emprunt et anglicismes</h4>
       <ul>
-        <li><strong>3.1 Accent méridional (Sud de la France) :</strong> Prononciation régulière des <em>e</em> muets finaux (ex. <em>une maison-ne</em>) et voyelles nasales plus ouvertes.</li>
-        <li><strong>3.2 Français du Québec :</strong> Affrication du <em>t/d</em> devant <em>i/u</em> (ex. <em>tu</em> prononcé proche de <em>tsu</em>) et maintien de distinctions de longueurs vocaliques anciennes.</li>
+        <li><strong>3.1 Digestion phonétique :</strong> Les mots empruntés à l'anglais (<em>week-end, parking, smartphone</em>) gardent une prononciation proche mais adoptent <strong>l'accent tonique français sur la dernière syllabe</strong> (ex. <em>week-END</em>, pas <em>WEEK-end</em>).</li>
+      </ul>
+    </div>
+
+    <div class="unit-card">
+      <h4>Unité 4 — Aperçu des accents régionaux et de la francophonie</h4>
+      <ul>
+        <li><strong>4.1 Accent méridional (Sud de la France) :</strong> Prononciation régulière des <em>e</em> muets finaux (ex. <em>une maison-ne</em>) et voyelles nasales plus ouvertes.</li>
+        <li><strong>4.2 Français du Québec :</strong> Affrication du <em>t/d</em> devant <em>i/u</em> (ex. <em>tu</em> prononcé proche de <em>tsu</em>) et maintien de distinctions de longueurs vocaliques anciennes.</li>
       </ul>
     </div>
   </section>
@@ -923,7 +1048,7 @@
       <div class="lesson-sample-body" style="overflow-x: auto;">
         <table class="mp-table">
           <tbody>
-            <tr><th style="width: 25%;">Définition</th><td>Deux mots strictement identiques à l'oral, mais différents à l'écrit.</td></tr>
+            <tr><th style="width: 25%;">Définition</th><td>Deux mots strictly identiques à l'oral, mais différents à l'écrit.</td></tr>
             <tr><th>Règle</th><td><strong>a</strong> (sans accent) = verbe avoir ; <strong>à</strong> (avec accent grave) = préposition.</td></tr>
             <tr><th>👂 Recette sonore</th><td>Les deux se prononcent exactement [a]. Seul le sens et le test de substitution permettent de trancher !</td></tr>
             <tr><th>👁️ Test magique</th><td>Remplacer mentalement par <strong>« avait »</strong> : si la phrase reste correcte → c'est le verbe <strong>a</strong> ! Sinon → c'est la préposition <strong>à</strong>.</td></tr>
@@ -971,14 +1096,13 @@
   function filterLevel(level) {
     // Update active tab styling
     const tabs = document.querySelectorAll('.mp-tab-btn');
-    tabs.forEach(tab => tab.classList.remove('active'));
-
-    // Find clicked tab button
-    const activeTab = Array.from(tabs).find(btn => {
-      if (level === 'all') return btn.getAttribute('onclick').includes("'all'");
-      return btn.getAttribute('onclick').includes("'" + level + "'");
+    tabs.forEach(tab => {
+      if (tab.dataset.level === level) {
+        tab.classList.add('active');
+      } else {
+        tab.classList.remove('active');
+      }
     });
-    if (activeTab) activeTab.classList.add('active');
 
     // Show/hide sections or scroll to section
     if (level === 'all') {
