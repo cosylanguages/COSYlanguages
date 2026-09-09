@@ -422,7 +422,7 @@ def generate_page(lang_code, lang_info):
     <style>
         .blog-post-hero {{
             background: linear-gradient(135deg, #1e2f6b 0%, #0d7a5f 100%);
-            color: #fff;
+            color: #ffffff;
             padding: 3.5rem 2rem;
             border-radius: var(--r-xl);
             margin-bottom: 2.5rem;
@@ -431,11 +431,12 @@ def generate_page(lang_code, lang_info):
             font-family: 'Fraunces', serif;
             font-size: 2.5rem;
             margin-bottom: 1rem;
-            color: #fff;
+            color: #ffffff !important;
         }}
         .blog-post-hero p {{
             font-size: 1.1rem;
-            opacity: 0.9;
+            color: #ffffff !important;
+            opacity: 0.95;
             max-width: 800px;
             line-height: 1.6;
         }}
@@ -444,7 +445,7 @@ def generate_page(lang_code, lang_info):
             font-size: 0.9rem;
         }}
         .post-breadcrumb a {{
-            color: rgba(255,255,255,0.8);
+            color: #ffffff !important;
             text-decoration: underline;
         }}
         .list-section {{
