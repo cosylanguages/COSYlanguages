@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate-key="blog_title">COSY Blog & Educational Hub — Top 100 English Master Resource</title>
+    <meta name="description" content="Explore personal teacher notes, language learning stories, and comprehensive Top 100 English lists across Nouns, Verbs, Adjectives, and Opposite Phrases from A1 to C2.">
+    <link rel="icon" href="../images/logos/cosylanguages.png">
+    <link rel="manifest" href="../apps/free-portal/manifest.json">
+    <meta name="theme-color" content="#FAF7F2">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/tokens.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/practice-new.css">
+
+    <style>
+        .blog-page {
+            background: var(--cream);
+        }
+        .blog-hero {
+            background: linear-gradient(135deg, #1e2f6b 0%, #2c3e50 100%);
+            color: #fff;
+            padding: 3.5rem 2rem 3rem;
+            border-radius: var(--r-xl);
+            margin-bottom: 2.5rem;
+            box-shadow: 0 10px 30px rgba(30, 47, 107, 0.15);
+        }
+        .blog-hero h1 {
+            font-family: 'Fraunces', serif;
+            font-size: 2.6rem;
+            margin-bottom: 0.75rem;
+            color: #fff;
+        }
+        .blog-hero p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 750px;
+            line-height: 1.6;
+        }
+        .section-nav-tabs {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 2rem;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 1rem;
+        }
+        .sec-tab-btn {
+            background: var(--warm-white);
+            border: 1px solid var(--border);
+            padding: 0.75rem 1.5rem;
+            border-radius: 100px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            color: var(--ink-muted);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .sec-tab-btn.active {
+            background: var(--ink);
+            color: #fff;
+            border-color: var(--ink);
+        }
+        .blog-content-section {
+            display: none;
+            animation: fadeIn 0.3s ease-in-out;
+        }
+        .blog-content-section.active {
+            display: block;
+        }
+
+        /* Personal Corner Cards */
+        .personal-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.75rem;
+            margin-bottom: 3rem;
+        }
+        .post-card {
+            background: #fff;
+            border: 1px solid var(--border);
+            border-radius: var(--r-lg);
+            padding: 2rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .post-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.06);
+        }
+        .post-tag {
+            display: inline-block;
+            background: var(--teal-light, #e6f4f1);
+            color: var(--teal, #0d7a5f);
+            font-size: 0.75rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            padding: 4px 10px;
+            border-radius: 100px;
+            margin-bottom: 1rem;
+        }
+        .post-title {
+            font-family: 'Fraunces', serif;
+            font-size: 1.4rem;
+            margin-bottom: 0.75rem;
+            color: var(--ink);
+        }
+        .post-meta {
+            font-size: 0.8rem;
+            color: var(--ink-faint);
+            margin-bottom: 1rem;
+        }
+        .post-excerpt {
+            font-size: 0.95rem;
+            color: var(--ink-muted);
+            line-height: 1.6;
+        }
+
+        /* Educational Corner Lists */
+        .edu-controls {
+            background: var(--warm-white);
+            border: 1px solid var(--border);
+            border-radius: var(--r-lg);
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .level-pills {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+        .level-pill {
+            padding: 6px 14px;
+            border-radius: 100px;
+            border: 1px solid var(--border);
+            background: #fff;
+            font-size: 0.8rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .level-pill.active {
+            background: var(--teal, #0d7a5f);
+            color: #fff;
+            border-color: var(--teal, #0d7a5f);
+        }
+        .search-box {
+            position: relative;
+            min-width: 260px;
+        }
+        .search-input {
+            width: 100%;
+            padding: 8px 14px 8px 36px;
+            border-radius: 100px;
+            border: 1px solid var(--border);
+            font-size: 0.9rem;
+        }
+        .search-icon {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            opacity: 0.5;
+        }
+
+        .list-category-section {
+            margin-bottom: 3.5rem;
+            background: #fff;
+            border: 1px solid var(--border);
+            border-radius: var(--r-xl);
+            padding: 2rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+        }
+        .cat-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid var(--cream);
+            padding-bottom: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        .cat-title {
+            font-family: 'Fraunces', serif;
+            font-size: 1.6rem;
+            color: var(--ink);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .cat-badge {
+            background: var(--gold, #d97706);
+            color: #fff;
+            font-size: 0.75rem;
+            font-weight: 800;
+            padding: 4px 10px;
+            border-radius: 100px;
+        }
+
+        /* Items Grid */
+        .items-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 1.25rem;
+        }
+        .item-card {
+            background: var(--warm-white);
+            border: 1px solid var(--border);
+            border-radius: var(--r-md);
+            padding: 1.25rem;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            transition: border-color 0.2s;
+        }
+        .item-card:hover {
+            border-color: var(--teal, #0d7a5f);
+        }
+        .item-level {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            font-size: 0.7rem;
+            font-weight: 800;
+            padding: 2px 8px;
+            border-radius: 100px;
+            background: #e2e8f0;
+            color: #334155;
+        }
+        .item-level.a1 { background: #dcfce7; color: #166534; }
+        .item-level.a2 { background: #bbf7d0; color: #15803d; }
+        .item-level.b1 { background: #e0f2fe; color: #0369a1; }
+        .item-level.b2 { background: #bae6fd; color: #0284c7; }
+        .item-level.c1 { background: #fef3c7; color: #b45309; }
+        .item-level.c2 { background: #fde68a; color: #92400e; }
+
+        .item-word {
+            font-family: 'Fraunces', serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--ink);
+            padding-right: 40px;
+        }
+        .item-opposite-pair {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-family: 'Fraunces', serif;
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--ink);
+            margin-bottom: 4px;
+        }
+        .opposite-arrow {
+            color: var(--coral, #e05638);
+            font-weight: 800;
+        }
+        .item-def {
+            font-size: 0.88rem;
+            color: var(--ink-muted);
+            line-height: 1.4;
+        }
+        .item-ex {
+            font-size: 0.85rem;
+            font-style: italic;
+            color: var(--ink);
+            background: rgba(255,255,255,0.7);
+            padding: 6px 10px;
+            border-radius: 6px;
+            border-left: 3px solid var(--teal, #0d7a5f);
+        }
+        .item-audio-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            opacity: 0.7;
+            transition: opacity 0.2s;
+            padding: 0;
+            margin-left: 6px;
+        }
+        .item-audio-btn:hover { opacity: 1; }
+
+        @media (max-width: 768px) {
+            .items-grid {
+                grid-template-columns: 1fr;
+            }
+            .edu-controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+        }
+    </style>
+</head>
+<body class="practice-page-new blog-page">
+
+    <nav id="cosy-nav"></nav>
+
+    <div class="page">
+        <header class="blog-hero">
+            <h1>COSY Blog & Educational Corner 📝</h1>
+            <p>Welcome to our editorial room! Here we share personal teacher insights, language learning stories, and essential curriculum resources — starting with our Master Top 100 Lists across all CEFR levels (A1 to C2).</p>
+        </header>
+
+        <main id="blog-main">
+            <div class="section-nav-tabs">
+                <button class="sec-tab-btn active" onclick="switchBlogTab('edu')">🎓 Educational Corner (Top 100 Lists)</button>
+                <button class="sec-tab-btn" onclick="switchBlogTab('personal')">👤 Personal Corner (Teacher Notes)</button>
+            </div>
+
+            <!-- Tab 1: Educational Corner (Top 100 Lists) -->
+            <div id="tab-edu" class="blog-content-section active">
+                <div class="edu-controls">
+                    <div>
+                        <span style="font-size:0.85rem; font-weight:700; color:var(--ink-muted); margin-right:8px;">Filter by CEFR Level:</span>
+                        <div class="level-pills">
+                            <button class="level-pill active" onclick="filterLevel('all', this)">All Levels</button>
+                            <button class="level-pill" onclick="filterLevel('A1', this)">A1 Starter</button>
+                            <button class="level-pill" onclick="filterLevel('A2', this)">A2 Elementary</button>
+                            <button class="level-pill" onclick="filterLevel('B1', this)">B1 Intermediate</button>
+                            <button class="level-pill" onclick="filterLevel('B2', this)">B2 Upper-Int</button>
+                            <button class="level-pill" onclick="filterLevel('C1', this)">C1 Advanced</button>
+                            <button class="level-pill" onclick="filterLevel('C2', this)">C2 Mastery</button>
+                        </div>
+                    </div>
+                    <div class="search-box">
+                        <span class="search-icon">🔍</span>
+                        <input type="text" id="blog-search" class="search-input" placeholder="Search words, phrases, opposites..." oninput="handleSearch()">
+                    </div>
+                </div>
+
+                <!-- 1. TOP 100 NOUNS -->
+                <section class="list-category-section" id="sec-nouns">
+                    <div class="cat-header">
+                        <h2 class="cat-title">🏛️ 1. Top 100 Essential Nouns (A1–C2) <span class="cat-badge">100 items</span></h2>
+                        <span style="font-size:0.85rem; color:var(--ink-muted);">Key building blocks of communication</span>
+                    </div>
+                    <div class="items-grid" id="grid-nouns"></div>
+                </section>
+
+                <!-- 2. TOP 100 VERBS -->
+                <section class="list-category-section" id="sec-verbs">
+                    <div class="cat-header">
+                        <h2 class="cat-title">⚡ 2. Top 100 Essential Verbs & Antonyms (A1–C2) <span class="cat-badge">50 Opposite Pairs</span></h2>
+                        <span style="font-size:0.85rem; color:var(--ink-muted);">Action verbs paired with direct opposites</span>
+                    </div>
+                    <div class="items-grid" id="grid-verbs"></div>
+                </section>
+
+                <!-- 3. TOP 100 ADJECTIVES -->
+                <section class="list-category-section" id="sec-adjectives">
+                    <div class="cat-header">
+                        <h2 class="cat-title">🎨 3. Top 100 Essential Adjectives & Antonyms (A1–C2) <span class="cat-badge">50 Opposite Pairs</span></h2>
+                        <span style="font-size:0.85rem; color:var(--ink-muted);">Descriptive terms in direct contrast</span>
+                    </div>
+                    <div class="items-grid" id="grid-adjectives"></div>
+                </section>
+
+                <!-- 4. TOP 100 PHRASES -->
+                <section class="list-category-section" id="sec-phrases">
+                    <div class="cat-header">
+                        <h2 class="cat-title">💬 4. Top 100 Essential Phrases & Sentence Patterns (A1–C2) <span class="cat-badge">50 Opposite Pairs</span></h2>
+                        <span style="font-size:0.85rem; color:var(--ink-muted);">Conversational patterns with opposite expressions</span>
+                    </div>
+                    <div class="items-grid" id="grid-phrases"></div>
+                </section>
+            </div>
+
+            <!-- Tab 2: Personal Corner -->
+            <div id="tab-personal" class="blog-content-section">
+                <div class="personal-grid">
+                    <article class="post-card">
+                        <span class="post-tag">Philosophy</span>
+                        <h2 class="post-title">Why Speaking-First is the Only Way to True Fluency</h2>
+                        <div class="post-meta">By COSY Team · Published 2026</div>
+                        <p class="post-excerpt">When you start learning a language, grammar tables feel safe. But true confidence comes when you open your mouth in lesson one and embrace mistakes as stepping stones.</p>
+                    </article>
+
+                    <article class="post-card">
+                        <span class="post-tag">Teacher Journal</span>
+                        <h2 class="post-title">Overcoming the Intermediate Plateau (B1 to B2)</h2>
+                        <div class="post-meta">By COSY Team · Published 2026</div>
+                        <p class="post-excerpt">Many students feel stuck when moving from basic conversations to expressing nuanced opinions. Here is how active contrast learning and collocation practice break the wall.</p>
+                    </article>
+
+                    <article class="post-card">
+                        <span class="post-tag">Ecosystem Update</span>
+                        <h2 class="post-title">How We Built the COSY Master Curriculum Across 13 Languages</h2>
+                        <div class="post-meta">By COSY Team · Published 2026</div>
+                        <p class="post-excerpt">Inside our pedagogical framework: combining CELTA-staged communicative frameworks, spaced practice, and authentic real-world language tasks.</p>
+                    </article>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="fb-logo">
+                    <img src="../images/logos/cosylanguages.png" alt="COSYlanguages logo">
+                    <span class="fb-name">COSYlanguages</span>
+                </div>
+                <p>Your friendly corner to master new languages and connect with the world. 🌍</p>
+            </div>
+            <div class="footer-links-col">
+                <h5>Courses</h5>
+                <a href="../apps/premium-courses/general/">General Course 📖</a>
+                <a href="../apps/premium-courses/spoken/">Spoken Course 🗣️</a>
+                <a href="../apps/premium-courses/exam/">Exam Preparation 📝</a>
+            </div>
+            <div class="footer-links-col">
+                <h5>Explore</h5>
+                <a href="../#languages">Languages 🌍</a>
+                <a href="../practice/index.html">Free Practice 💡</a>
+                <a href="../blog/index.html">Blog & Top 100 📝</a>
+            </div>
+            <div class="footer-links-col">
+                <h5>Project</h5>
+                <a href="../privacy.html">Privacy &amp; Safety 🛡️</a>
+            </div>
+            <div class="footer-links-col">
+                <h5>Contact</h5>
+                <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+                <a href="mailto:cosylanguages@gmail.com">Email ✉️</a>
+            </div>
+        </div>
+        <div class="footer-bottom">© 2026 COSYlanguages — All rights reserved</div>
+    </footer>
+
+    <script src="../js/data/languages.js"></script>
+    <script src="../js/core/engine.js"></script>
+    <script src="../js/core/i18n.js"></script>
+    <script src="../js/core/ui.js"></script>
+
+    <script>
+        // DATASETS FOR TOP 100 LISTS ACROSS CEFR LEVELS A1-C2
+
+        // 1. TOP 100 NOUNS (100 distinct essential nouns, 20 per CEFR band)
+        const NOUNS_DATA = [
+            // A1
+            { level: 'A1', word: 'Time', def: 'The indefinite continued progress of existence.', ex: 'What time is it?' },
+            { level: 'A1', word: 'Person', def: 'A human being regarded as an individual.', ex: 'She is a very kind person.' },
+            { level: 'A1', word: 'Day', def: 'A period of twenty-four hours.', ex: 'Have a wonderful day!' },
+            { level: 'A1', word: 'Way', def: 'A method, style, or manner of doing something.', ex: 'This is the best way to learn.' },
+            { level: 'A1', word: 'Thing', def: 'An object or item.', ex: 'What is that thing on the table?' },
+            { level: 'A1', word: 'World', def: 'The earth, together with all its countries and people.', ex: 'He wants to travel around the world.' },
+            { level: 'A1', word: 'House', def: 'A building for human habitation.', ex: 'They live in a beautiful house.' },
+            { level: 'A1', word: 'Family', def: 'A group of one or more parents and their children.', ex: 'Family is the most important thing.' },
+            { level: 'A1', word: 'Friend', def: 'A person with whom one has a bond of mutual affection.', ex: 'She met her best friend at school.' },
+            { level: 'A1', word: 'Water', def: 'A clear liquid essential for life.', ex: 'Please drink plenty of water.' },
+            { level: 'A1', word: 'Food', def: 'Any nutritious substance that people or animals eat.', ex: 'The Italian food was delicious.' },
+            { level: 'A1', word: 'City', def: 'A large human settlement.', ex: 'Paris is a famous city.' },
+            { level: 'A1', word: 'Book', def: 'A written or printed work consisting of pages.', ex: 'I am reading a great book.' },
+            { level: 'A1', word: 'Work', def: 'Activity involving mental or physical effort.', ex: 'He starts work at nine.' },
+            { level: 'A1', word: 'Money', def: 'Current medium of exchange in the form of coins and banknotes.', ex: 'She saved money for her trip.' },
+            { level: 'A1', word: 'Name', def: 'A word or set of words by which a person is known.', ex: 'My name is Alexander.' },
+            { level: 'A1', word: 'Car', def: 'A road vehicle powered by an engine.', ex: 'We drove our new car.' },
+            { level: 'A1', word: 'Place', def: 'A particular position, point, or area.', ex: 'This is a peaceful place.' },
+            { level: 'A1', word: 'Job', def: 'A paid position of regular employment.', ex: 'She landed a job as an engineer.' },
+            { level: 'A1', word: 'School', def: 'An institution for educating children.', ex: 'The children go to school every morning.' },
+
+            // A2
+            { level: 'A2', word: 'Advice', def: 'Guidance or recommendations offered with regard to prudent action.', ex: 'She gave me excellent advice.' },
+            { level: 'A2', word: 'Journey', def: 'An act of traveling from one place to another.', ex: 'The train journey took three hours.' },
+            { level: 'A2', word: 'Health', def: 'The state of being free from illness or injury.', ex: 'Eating well is good for your health.' },
+            { level: 'A2', word: 'Environment', def: 'The surroundings or conditions in which a person lives.', ex: 'We must protect the natural environment.' },
+            { level: 'A2', word: 'Language', def: 'A system of communication used by a particular country or community.', ex: 'English is a global language.' },
+            { level: 'A2', word: 'Knowledge', def: 'Facts, information, and skills acquired through experience.', ex: 'Knowledge is power.' },
+            { level: 'A2', word: 'Opportunity', def: 'A set of circumstances that makes it possible to do something.', ex: 'Take this opportunity to practice.' },
+            { level: 'A2', word: 'Decision', def: 'A conclusion or resolution reached after consideration.', ex: 'Making a decision took some time.' },
+            { level: 'A2', word: 'Experience', def: 'Practical contact with and observation of facts or events.', ex: 'She has ten years of teaching experience.' },
+            { level: 'A2', word: 'Goal', def: 'An aim or desired result.', ex: 'Her main goal is to achieve fluency.' },
+            { level: 'A2', word: 'Reason', def: 'A cause, explanation, or justification for an action.', ex: 'What was the reason for your choice?' },
+            { level: 'A2', word: 'Solution', def: 'A means of solving a problem or dealing with a difficult situation.', ex: 'We found a quick solution to the problem.' },
+            { level: 'A2', word: 'Habit', def: 'A settled or regular tendency or practice.', ex: 'Reading daily is a good habit.' },
+            { level: 'A2', word: 'Opinion', def: 'A view or judgment formed about something.', ex: 'In my opinion, practice makes perfect.' },
+            { level: 'A2', word: 'Skill', def: 'The ability to do something well.', ex: 'Speaking is an essential language skill.' },
+            { level: 'A2', word: 'Rule', def: 'One of a set of explicit regulations governing conduct.', ex: 'Follow the safety rules at all times.' },
+            { level: 'A2', word: 'Mistake', def: 'An action or judgment that is misguided or wrong.', ex: 'Don't be afraid to make mistakes.' },
+            { level: 'A2', word: 'Relationship', def: 'The way in which two or more concepts, objects, or people are connected.', ex: 'They have a strong working relationship.' },
+            { level: 'A2', word: 'Community', def: 'A group of people living in the same place or having a particular characteristic in common.', ex: 'Our online community is supportive.' },
+            { level: 'A2', word: 'Culture', def: 'The arts and other manifestations of human intellectual achievement.', ex: 'Learning a language reveals a new culture.' },
+
+            // B1
+            { level: 'B1', word: 'Advantage', def: 'A condition or circumstance that puts one in a favorable position.', ex: 'Bilingualism offers a significant advantage.' },
+            { level: 'B1', word: 'Challenge', def: 'A task or situation that tests someone's abilities.', ex: 'Mastering grammar is a rewarding challenge.' },
+            { level: 'B1', word: 'Impact', def: 'The action of one object coming forcibly into contact with another; strong effect.', ex: 'Technology has a major impact on education.' },
+            { level: 'B1', word: 'Resource', def: 'A stock or supply of money, materials, staff, or assets.', ex: 'The library is a rich learning resource.' },
+            { level: 'B1', word: 'Strategy', def: 'A plan of action designed to achieve a long-term goal.', ex: 'Spaced repetition is an effective study strategy.' },
+            { level: 'B1', word: 'Attitude', def: 'A settled way of thinking or feeling about someone or something.', ex: 'A positive attitude accelerates progress.' },
+            { level: 'B1', word: 'Concept', def: 'An abstract idea or general notion.', ex: 'The teacher explained the grammatical concept clearly.' },
+            { level: 'B1', word: 'Development', def: 'The process of developing or being developed.', ex: 'Continuous feedback supports personal development.' },
+            { level: 'B1', word: 'Evidence', def: 'The available body of facts or information indicating whether a belief is true.', ex: 'There is clear evidence of improvement.' },
+            { level: 'B1', word: 'Inspiration', def: 'The process of being mentally stimulated to do or feel something creative.', ex: 'Her success was an inspiration to us all.' },
+            { level: 'B1', word: 'Method', def: 'A particular form of procedure for accomplishing something.', ex: 'Communicative methodology focuses on interaction.' },
+            { level: 'B1', word: 'Perspective', def: 'A particular attitude toward or way of regarding something.', ex: 'Travel broadens your perspective.' },
+            { level: 'B1', word: 'Priority', def: 'A thing that is regarded as more important than another.', ex: 'Speaking practice is our top priority.' },
+            { level: 'B1', word: 'Process', def: 'A series of actions or steps taken in order to achieve a particular end.', ex: 'Language acquisition is a gradual process.' },
+            { level: 'B1', word: 'Purpose', def: 'The reason for which something is done or created.', ex: 'The main purpose of this lesson is activation.' },
+            { level: 'B1', word: 'Responsibility', def: 'The state or fact of having a duty to deal with something.', ex: 'Learners take responsibility for their study routine.' },
+            { level: 'B1', word: 'Value', def: 'The regard that something is held to deserve; the importance or worth.', ex: 'We place high value on authentic conversation.' },
+            { level: 'B1', word: 'Assessment', def: 'The evaluation or estimation of the nature, quality, or ability of someone.', ex: 'Continuous assessment tracks real progress.' },
+            { level: 'B1', word: 'Context', def: 'The circumstances that form the setting for an event or statement.', ex: 'Always learn new words in context.' },
+            { level: 'B1', word: 'Feedback', def: 'Information about reactions to a product, a person's performance of a task, etc.', ex: 'Constructive feedback helps you refine your speech.' },
+
+            // B2
+            { level: 'B2', word: 'Ambiguity', def: 'The quality of being open to more than one interpretation.', ex: 'Clear communication eliminates ambiguity.' },
+            { level: 'B2', word: 'Consensus', def: 'A general agreement among a group.', ex: 'The committee reached a consensus after discussion.' },
+            { level: 'B2', word: 'Dilemma', def: 'A situation in which a difficult choice has to be made between two alternatives.', ex: 'He faced an ethical dilemma in his research.' },
+            { level: 'B2', word: 'Discrepancy', def: 'An illogical or surprising lack of compatibility between two facts.', ex: 'They noticed a discrepancy in the financial report.' },
+            { level: 'B2', word: 'Framework', def: 'A basic structure underlying a system, concept, or text.', ex: 'The CEFR provides a standard framework for languages.' },
+            { level: 'B2', word: 'Implication', def: 'The conclusion that can be drawn from something although it is not explicitly stated.', ex: 'We must consider the long-term implications.' },
+            { level: 'B2', word: 'Incentive', def: 'A thing that motivates or encourages one to do something.', ex: 'Gamified streak tracking acts as a powerful incentive.' },
+            { level: 'B2', word: 'Integration', def: 'The action or process of integrating multi-faceted components into a whole.', ex: 'Seamless integration of tools enhances learning.' },
+            { level: 'B2', word: 'Nuance', def: 'A subtle difference in or shade of meaning, expression, or sound.', ex: 'Advanced students appreciate emotional nuance.' },
+            { level: 'B2', word: 'Paradigm', def: 'A typical example or pattern of something; a model.', ex: 'The digital shift created a new paradigm in education.' },
+            { level: 'B2', word: 'Prerequisite', def: 'A thing that is required as a prior condition for something else.', ex: 'Consistency is a prerequisite for language mastery.' },
+            { level: 'B2', word: 'Proportion', def: 'A part, share, or number considered in comparative relation to a whole.', ex: 'A large proportion of students prefer live practice.' },
+            { level: 'B2', word: 'Rationale', def: 'A set of reasons or a logical basis for a course of action or a particular belief.', ex: 'The teacher explained the pedagogical rationale.' },
+            { level: 'B2', word: 'Scrutiny', def: 'Critical observation or examination.', ex: 'The policy was subjected to close scrutiny.' },
+            { level: 'B2', word: 'Threshold', def: 'A point of entry or a degree or level of bottleneck/start.', ex: 'Crossing the intermediate threshold requires dedication.' },
+            { level: 'B2', word: 'Transformation', def: 'A thorough or dramatic change in form or appearance.', ex: 'Her transformation into a fluent speaker was inspiring.' },
+            { level: 'B2', word: 'Trend', def: 'A general direction in which something is developing or changing.', ex: 'Micro-learning is a growing trend.' },
+            { level: 'B2', word: 'Uncertainty', def: 'The state of being uncertain or unpredictable.', ex: 'Embracing uncertainty builds resilience in conversation.' },
+            { level: 'B2', word: 'Validity', def: 'The quality of being logically or factually sound.', ex: 'Research confirmed the validity of the methodology.' },
+            { level: 'B2', word: 'Vulnerability', def: 'The quality or state of being exposed to the possibility of mistake or flaw.', ex: 'Showing vulnerability allows authentic communication.' },
+
+            // C1-C2
+            { level: 'C1', word: 'Acumen', def: 'The ability to make good judgments and quick decisions.', ex: 'Linguistic acumen develops through deep immersion.' },
+            { level: 'C1', word: 'Catalyst', def: 'A person or thing that precipitates an event or change.', ex: 'Interactive speaking acts as a catalyst for cognitive growth.' },
+            { level: 'C1', word: 'Dichotomy', def: 'A division or contrast between two things that are or are represented as being opposed.', ex: 'There is no rigid dichotomy between grammar and fluency.' },
+            { level: 'C1', word: 'Eloquence', def: 'Fluent or persuasive speaking or writing.', ex: 'Her eloquence captivated the entire audience.' },
+            { level: 'C1', word: 'Epistemology', def: 'The theory of knowledge, especially with regard to its methods and scope.', ex: 'Linguistics explores the epistemology of language comprehension.' },
+            { level: 'C1', word: 'Heuristic', def: 'Enabling a person to discover or learn something for themselves.', ex: 'Trial-and-error serves as a effective heuristic.' },
+            { level: 'C1', word: 'Impediment', def: 'A hindrance or obstruction in doing something.', ex: 'Fear of failure is the primary impediment to fluency.' },
+            { level: 'C1', word: 'Juxtaposition', def: 'The fact of two things being seen or placed close together with contrasting effect.', ex: 'The juxtaposition of modern slang and classical prose was striking.' },
+            { level: 'C1', word: 'Manifestation', def: 'An event, action, or object that clearly shows or embodies something.', ex: 'Hesitation is often a natural manifestation of sentence construction.' },
+            { level: 'C1', word: 'Paradigmatic shift', def: 'A fundamental change in approach or underlying assumptions.', ex: 'AI tools represent a paradigmatic shift in self-study.' },
+            { level: 'C2', word: 'Verisimilitude', def: 'The appearance of being true or real.', ex: 'Authentic dialogue gives learning materials high verisimilitude.' },
+            { level: 'C2', word: 'Vicissitude', def: 'A change of circumstances or fortune, typically one that is unwelcome or unpleasant.', ex: 'He persevered through the vicissitudes of study.' },
+            { level: 'C2', word: 'Panacea', def: 'A solution or remedy for all difficulties or diseases.', ex: 'No single app is a panacea; varied practice is key.' },
+            { level: 'C2', word: 'Paucity', def: 'The presence of something only in small or insufficient quantities or amounts.', ex: 'A paucity of practice impedes rapid progress.' },
+            { level: 'C2', word: 'Equanimity', def: 'Mental calmness, composure, and evenness of temper, especially in a difficult situation.', ex: 'He handled native conversation speed with equanimity.' },
+            { level: 'C2', word: 'Reciprocity', def: 'The practice of exchanging things with others for mutual benefit.', ex: 'Language exchange thrives on genuine reciprocity.' },
+            { level: 'C2', word: 'Pragmatism', def: 'An approach that assesses the truth of meaning of theories in terms of practical applications.', ex: 'Our communicative focus is rooted in educational pragmatism.' },
+            { level: 'C2', word: 'Sovereignty', def: 'Supreme power or authority; complete autonomy.', ex: 'Autonomous learners maintain sovereignty over their study schedule.' },
+            { level: 'C2', word: 'Synthesis', def: 'The combination of ideas to form a theory or system.', ex: 'Fluency represents a seamless synthesis of vocabulary and syntax.' },
+            { level: 'C2', word: 'Tenacity', def: 'The quality or fact of being able to grip something firmly; determination.', ex: 'Her tenacity enabled her to reach native-like mastery.' }
+        ];
+
+        // 2. TOP 100 VERBS & ANTONYMS (50 Pairs = 100 Verbs across CEFR levels A1-C2)
+        const VERBS_DATA = [
+            // A1
+            { level: 'A1', v1: 'Start', v2: 'Finish', def1: 'Begin an activity or process.', def2: 'Bring a task or activity to an end.', ex: 'We start the lesson at 9:00 and finish at 10:00.' },
+            { level: 'A1', v1: 'Open', v2: 'Close', def1: 'Allow access or unfasten.', def2: 'Move so as to cover an opening.', ex: 'Please open your textbook and close your laptop.' },
+            { level: 'A1', v1: 'Buy', v2: 'Sell', def1: 'Obtain in exchange for payment.', def2: 'Hand over in exchange for money.', ex: 'I buy groceries here, and they sell fresh bread.' },
+            { level: 'A1', v1: 'Love', v2: 'Hate', def1: 'Feel deep affection or enjoyment.', def2: 'Feel intense dislike for.', ex: 'I love learning languages, but I hate exams.' },
+            { level: 'A1', v1: 'Come', v2: 'Go', def1: 'Move toward a place.', def2: 'Move from one place to another.', ex: 'Come inside before you go home.' },
+            { level: 'A1', v1: 'Ask', v2: 'Answer', def1: 'Say something to obtain information.', def2: 'Say or write something in response.', ex: 'Ask a question, and the teacher will answer.' },
+            { level: 'A1', v1: 'Remember', v2: 'Forget', def1: 'Retain in memory.', def2: 'Fail to remember.', ex: 'I remember new words easily, but I forget dates.' },
+            { level: 'A1', v1: 'Win', v2: 'Lose', def1: 'Be victorious in a contest.', def2: 'Be deprived of or fail to keep.', ex: 'If you win the game, you won't lose points.' },
+            { level: 'A1', v1: 'Give', v2: 'Take', def1: 'Freely transfer possession of.', def2: 'Lay hold of with one's hands.', ex: 'Give feedback kindly when you take notes.' },
+            { level: 'A1', v1: 'Push', v2: 'Pull', def1: 'Exert force away from oneself.', def2: 'Exert force toward oneself.', ex: 'Push the door to enter, or pull to leave.' },
+
+            // A2
+            { level: 'A2', v1: 'Accept', v2: 'Refuse', def1: 'Consent to receive or agree to.', def2: 'Indicate unwillingness to accept.', ex: 'She accepted the invitation but refused the gift.' },
+            { level: 'A2', v1: 'Build', v2: 'Destroy', def1: 'Construct by putting parts together.', def2: 'Put an end to the existence of.', ex: 'It takes time to build confidence, but doubt can destroy it.' },
+            { level: 'A2', v1: 'Teach', v2: 'Learn', def1: 'Impart knowledge or skill to.', def2: 'Gain knowledge or skill by study.', ex: 'Teachers teach strategies so students learn faster.' },
+            { level: 'A2', v1: 'Lend', v2: 'Borrow', def1: 'Grant temporary use of.', def2: 'Take and use something belonging to someone else.', ex: 'I will lend you my dictionary if you don't borrow another.' },
+            { level: 'A2', v1: 'Save', v2: 'Waste', def1: 'Keep safe or store for future use.', def2: 'Use carelessly or extravagantly.', ex: 'Save your study energy; don't waste time on rote drills.' },
+            { level: 'A2', v1: 'Arrive', v2: 'Depart', def1: 'Reach a destination.', def2: 'Leave, especially on a journey.', ex: 'Trains arrive on time and depart promptly.' },
+            { level: 'A2', v1: 'Succeed', v2: 'Fail', def1: 'Achieve the desired aim or result.', def2: 'Be unsuccessful in achieving a goal.', ex: 'With steady practice you succeed where others fail.' },
+            { level: 'A2', v1: 'Allow', v2: 'Forbid', def1: 'Give permission to do something.', def2: 'Order someone not to do something.', ex: 'We allow self-correction but forbid harsh judgment.' },
+            { level: 'A2', v1: 'Create', v2: 'Destroy', def1: 'Bring something into existence.', def2: 'Demolish or ruin.', ex: 'Create constructive habits to destroy fear.' },
+            { level: 'A2', v1: 'Enter', v2: 'Exit', def1: 'Come or go into a place.', def2: 'Go out of or leave a place.', ex: 'Enter the classroom quietly and exit when finished.' },
+
+            // B1
+            { level: 'B1', v1: 'Admit', v2: 'Deny', def1: 'Concede or confess to be true.', def2: 'State that one refuses to admit the truth of.', ex: 'He admitted making a mistake rather than trying to deny it.' },
+            { level: 'B1', v1: 'Encourage', v2: 'Discourage', def1: 'Give support, confidence, or hope to.', def2: 'Cause someone to lose confidence or enthusiasm.', ex: 'Teachers encourage speaking and discourage silent hesitation.' },
+            { level: 'B1', v1: 'Increase', v2: 'Decrease', def1: 'Become or make greater in size or amount.', def2: 'Make or become smaller or fewer.', ex: 'Regular practice increases vocabulary and decreases errors.' },
+            { level: 'B1', v1: 'Protect', v2: 'Attack', def1: 'Keep safe from harm or injury.', def2: 'Take aggressive action against.', ex: 'Protect your focus and attack complex topics directly.' },
+            { level: 'B1', v1: 'Appear', v2: 'Disappear', def1: 'Become visible or noticeability.', def2: 'Cease to be visible.', ex: 'New words appear in context before hesitation disappears.' },
+            { level: 'B1', v1: 'Expand', v2: 'Contract', def1: 'Become or make larger or more extensive.', def2: 'Decrease in size, number, or range.', ex: 'Your active vocabulary expands while anxieties contract.' },
+            { level: 'B1', v1: 'Include', v2: 'Exclude', def1: 'Comprise or contain as part of a whole.', def2: 'Deny access to or bar from.', ex: 'Include all team members and exclude non-constructive feedback.' },
+            { level: 'B1', v1: 'Attract', v2: 'Repel', def1: 'Draw toward oneself by appealing qualities.', def2: 'Drive back or cause distaste.', ex: 'Engaging topics attract attention and repel boredom.' },
+            { level: 'B1', v1: 'Gather', v2: 'Scatter', def1: 'Bring together and collect.', def2: 'Throw or drop in various directions.', ex: 'Gather your notes carefully so you don't scatter your thoughts.' },
+            { level: 'B1', v1: 'Strengthen', v2: 'Weaken', def1: 'Make or become stronger.', def2: 'Make or become weaker.', ex: 'Daily activation strengthens memory and weakens forgetting curves.' },
+
+            // B2
+            { level: 'B2', v1: 'Advocate', v2: 'Oppose', def1: 'Publicly recommend or support.', def2: 'Disapprove of and attempt to prevent.', ex: 'We advocate communicative immersion and oppose passive memorization.' },
+            { level: 'B2', v1: 'Approve', v2: 'Condemn', def1: 'Accept as satisfactory or valid.', def2: 'Express complete disapproval of.', ex: 'The board approved the research but condemned shortcut methods.' },
+            { level: 'B2', v1: 'Confirm', v2: 'Refute', def1: 'Establish the truth or correctness of.', def2: 'Prove a statement or theory to be wrong.', ex: 'Empirical data confirmed the hypothesis and refuted critics.' },
+            { level: 'B2', v1: 'Accelerate', v2: 'Decelerate', def1: 'Increase speed or rate of occurrence.', def2: 'Reduce speed or slow down.', ex: 'Targeted feedback accelerates learning and decelerates decline.' },
+            { level: 'B2', v1: 'Emphasize', v2: 'Play down', def1: 'Give special importance or prominence to.', def2: 'Represent something as being less important.', ex: 'We emphasize practical usage and play down minor slips.' },
+            { level: 'B2', v1: 'Enhance', v2: 'Diminish', def1: 'Intensify, increase, or improve quality.', def2: 'Make or become less or reduce.', ex: 'Contextual practice enhances understanding and diminishes anxiety.' },
+            { level: 'B2', v1: 'Reveal', v2: 'Conceal', def1: 'Make previously secret information known.', def2: 'Keep secret or hide from view.', ex: 'Diagnostic tests reveal strengths and conceal nothing.' },
+            { level: 'B2', v1: 'Comply', v2: 'Violate', def1: 'Act in accordance with a wish or command.', def2: 'Fail to respect or act in breakdown of.', ex: 'Speakers comply with grammar rules without violating natural flow.' },
+            { level: 'B2', v1: 'Consolidate', v2: 'Fragment', def1: 'Combine into a single more effective whole.', def2: 'Break or cause to break into fragments.', ex: 'Consolidate your learning rather than fragmenting your focus.' },
+            { level: 'B2', v1: 'Substantiate', v2: 'Disprove', def1: 'Provide evidence to support or prove the truth of.', def2: 'Prove that something is false or incorrect.', ex: 'Clear metrics substantiate progress and disprove doubts.' },
+
+            // C1-C2
+            { level: 'C1', v1: 'Exacerbate', v2: 'Alleviate', def1: 'Make a problem or negative feeling worse.', def2: 'Make suffering or a problem less severe.', ex: 'Overthinking exacerbates anxiety, whereas practice alleviates it.' },
+            { level: 'C1', v1: 'Endorse', v2: 'Repudiate', def1: 'Declare one's public approval or support of.', def2: 'Refuse to accept or be associated with.', ex: 'Scholars endorse interactive learning and repudiate rigid rote learning.' },
+            { level: 'C1', v1: 'Validate', v2: 'Invalidate', def1: 'Check or prove the validity or accuracy of.', def2: 'Make soundless or deprive of official force.', ex: 'Real-world tests validate fluency and invalidate guesswork.' },
+            { level: 'C1', v1: 'Amplify', v2: 'Attenuate', def1: 'Increase the volume, intensity, or scope of.', def2: 'Reduce the force, effect, or value of.', ex: 'Immersion amplifies vocabulary retention and attenuates forgetting.' },
+            { level: 'C1', v1: 'Cultivate', v2: 'Eradicate', def1: 'Try to acquire or develop a quality or skill.', def2: 'Destroy completely; put an end to.', ex: 'Cultivate precision in speech to eradicate recurring errors.' },
+            { level: 'C1', v1: 'Provoke', v2: 'Pacify', def1: 'Stimulate or give rise to a reaction.', def2: 'Quell the anger, agitation, or excitement of.', ex: 'Challenging prompts provoke discussion and pacify hesitation.' },
+            { level: 'C1', v1: 'Aggregate', v2: 'Segregate', def1: 'Form or group into a class or cluster.', def2: 'Set apart from the rest or isolate.', ex: 'Analytics aggregate student progress rather than segregating skills.' },
+            { level: 'C2', v1: 'Bolster', v2: 'Undermine', def1: 'Support or strengthen.', def2: 'Erode the base or foundation of.', ex: 'Consistent feedback bolsters confidence, while harsh criticism undermines it.' },
+            { level: 'C2', v1: 'Vindicate', v2: 'Impugn', def1: 'Clear someone of blame or suspicion.', def2: 'Call into question the truth or validity of.', ex: 'Results vindicated the strategy when critics impugned it.' },
+            { level: 'C2', v1: 'Promulgate', v2: 'Suppress', def1: 'Promote or make widely known an idea or cause.', def2: 'Forcibly put an end to or prevent disclosure.', ex: 'Pioneers promulgate open access and suppress outdated gatekeeping.' }
+        ];
+
+        // 3. TOP 100 ADJECTIVES & ANTONYMS (50 Pairs = 100 Adjectives across A1-C2)
+        const ADJECTIVES_DATA = [
+            // A1
+            { level: 'A1', a1: 'Hot', a2: 'Cold', def1: 'Having a high temperature.', def2: 'Having a low temperature.', ex: 'In summer it is hot; in winter it is cold.' },
+            { level: 'A1', a1: 'Big', a2: 'Small', def1: 'Of considerable size or extent.', def2: 'Of limited size or extent.', ex: 'A city is big, but a village is small.' },
+            { level: 'A1', a1: 'Happy', a2: 'Sad', def1: 'Feeling or showing pleasure or contentment.', def2: 'Feeling or showing sorrow or unhappiness.', ex: 'Good news makes us happy, bad news makes us sad.' },
+            { level: 'A1', a1: 'Fast', a2: 'Slow', def1: 'Moving or capable of moving at high speed.', def2: 'Moving at a low speed.', ex: 'Car is fast; walking is slow.' },
+            { level: 'A1', a1: 'Easy', a2: 'Difficult', def1: 'Achieved without great effort.', def2: 'Needing much effort or skill to accomplish.', ex: 'A1 lessons are easy; C2 topics are difficult.' },
+            { level: 'A1', a1: 'Good', a2: 'Bad', def1: 'To be desired or approved of.', def2: 'Of poor quality or a low standard.', ex: 'A good habit replaces a bad habit.' },
+            { level: 'A1', a1: 'Young', a2: 'Old', def1: 'Having lived or existed for only a short time.', def2: 'Having lived for a long time.', ex: 'Children are young; grandparents are old.' },
+            { level: 'A1', a1: 'Cheap', a2: 'Expensive', def1: 'Low in price or cost.', def2: 'Costing a lot of money.', ex: 'Public transport is cheap; buying a sports car is expensive.' },
+            { level: 'A1', a1: 'Rich', a2: 'Poor', def1: 'Having a great deal of money or assets.', def2: 'Lacking sufficient money to live comfortably.', ex: 'Knowledge makes you rich even if you feel poor in resources.' },
+            { level: 'A1', a1: 'New', a2: 'Old', def1: 'Not existing before; recently made or introduced.', def2: 'Having existed for a long time.', ex: 'Try new methods instead of old drills.' },
+
+            // A2
+            { level: 'A2', a1: 'Strong', a2: 'Weak', def1: 'Having physical or mental power.', def2: 'Lacking physical or mental strength.', ex: 'Her argument was strong, not weak.' },
+            { level: 'A2', a1: 'Safe', a2: 'Dangerous', def1: 'Protected from danger or risk.', def2: 'Able or likely to cause harm or injury.', ex: 'Classrooms are safe places to make dangerous mistakes.' },
+            { level: 'A2', a1: 'Clean', a2: 'Dirty', def1: 'Free from dirt, marks, or stains.', def2: 'Covered or marked with an unclean substance.', ex: 'Keep a clean workspace, not a dirty one.' },
+            { level: 'A2', a1: 'Quiet', a2: 'Noisy', def1: 'Making little or no noise.', def2: 'Making a lot of loud or unpleasant noise.', ex: 'Libraries are quiet, whereas markets are noisy.' },
+            { level: 'A2', a1: 'Polite', a2: 'Rude', def1: 'Having or showing respectful behaviour.', def2: 'Offensively impolite or ill-mannered.', ex: 'Always be polite to conversation partners; don't be rude.' },
+            { level: 'A2', a1: 'Full', a2: 'Empty', def1: 'Containing as much or as many as possible.', def2: 'Containing nothing; not filled or occupied.', ex: 'Her schedule was full, leaving no empty slots.' },
+            { level: 'A2', a1: 'Heavy', a2: 'Light', def1: 'Of great weight; difficult to lift.', def2: 'Of little weight; easy to lift.', ex: 'Grammar books can feel heavy, but digital flashcards are light.' },
+            { level: 'A2', a1: 'Dark', a2: 'Bright', def1: 'With little or no light.', def2: 'Giving out or reflecting much light.', ex: 'After a dark night comes a bright morning.' },
+            { level: 'A2', a1: 'Soft', a2: 'Hard', def1: 'Easy to mold, cut, or compress.', def2: 'Solid, firm, and resistant to pressure.', ex: 'A soft pillow vs a hard wooden chair.' },
+            { level: 'A2', a1: 'Early', a2: 'Late', def1: 'Done or happening before the expected time.', def2: 'Doing something after the expected or usual time.', ex: 'Arrive early to prepare; do not be late.' },
+
+            // B1
+            { level: 'B1', a1: 'Active', a2: 'Passive', def1: 'Engaging or ready to engage in physically or mentally energetic pursuit.', def2: 'Accepting or allowing what happens without active response.', ex: 'Active speaking builds fluency much faster than passive listening.' },
+            { level: 'B1', a1: 'Smooth', a2: 'Rough', def1: 'Having an even and regular surface or flow.', def2: 'Having an uneven or irregular surface or execution.', ex: 'Her pronunciation became smooth after weeks of rough attempts.' },
+            { level: 'B1', a1: 'Broad', a2: 'Narrow', def1: 'Having a distance larger than usual from side to side; wide.', def2: 'Of small width in relation to length.', ex: 'Travel gives you a broad perspective rather than a narrow mindset.' },
+            { level: 'B1', a1: 'Calm', a2: 'Anxious', def1: 'Not showing or feeling nervousness or agitation.', def2: 'Feeling or showing worry or nervousness.', ex: 'Stay calm during oral tests; don't become anxious.' },
+            { level: 'B1', a1: 'Generous', a2: 'Selfish', def1: 'Showing a readiness to give more of something than is expected.', def2: 'Lacking consideration for other people; concerned chiefly with oneself.', ex: 'Share study resources generously; don't be selfish.' },
+            { level: 'B1', a1: 'Honest', a2: 'Dishonest', def1: 'Free of deceit; truthful and sincere.', def2: 'Behaving or prone to behave in an untruthful or deceitful way.', ex: 'Give honest feedback to help fellow students.' },
+            { level: 'B1', a1: 'Permanent', a2: 'Temporary', def1: 'Lasting or intended to remain unchanged indefinitely.', def2: 'Lasting for only a limited period of time.', ex: 'Mistakes are temporary, but knowledge becomes permanent.' },
+            { level: 'B1', a1: 'Simple', a2: 'Complex', def1: 'Easily understood or done; presenting no difficulty.', def2: 'Consisting of many different and connected parts.', ex: 'Start with simple structures before tackling complex syntax.' },
+            { level: 'B1', a1: 'Useful', a2: 'Useless', def1: 'Able to be used for a practical purpose or in several ways.', def2: 'Serving no useful purpose; having no utility.', ex: 'Real phrases are useful; memorizing rare exceptions is useless early on.' },
+            { level: 'B1', a1: 'Common', a2: 'Rare', def1: 'Occurring, found, or done often.', def2: 'Not occurred or found often.', ex: 'Focus on common expressions rather than rare archaisms.' },
+
+            // B2
+            { level: 'B2', a1: 'Accurate', a2: 'Inaccurate', def1: 'Correct in all details; exact.', def2: 'Not accurate or correct.', ex: 'Strive for accurate grammar without fearing minor inaccurate slips.' },
+            { level: 'B2', a1: 'Dynamic', a2: 'Static', def1: 'Constant activity, change, or progress.', def2: 'Lacking in movement, action, or change.', ex: 'Language learning is a dynamic process, not a static state.' },
+            { level: 'B2', a1: 'Flexible', a2: 'Rigid', def1: 'Capable of bending easily without breaking; adaptable.', def2: 'Unable to bend or be forced out of shape; inflexible.', ex: 'Be flexible with learning strategies; avoid rigid, outdated routines.' },
+            { level: 'B2', a1: 'Genuine', a2: 'Fake', def1: 'Truly what something is said to be; authentic.', def2: 'Not genuine; counterfeit.', ex: 'Genuine effort leads to real skill, while fake hacks fail.' },
+            { level: 'B2', a1: 'Optional', a2: 'Mandatory', def1: 'Available to be chosen but not obligatory.', def2: 'Required by law or rules; compulsory.', ex: 'Vocabulary expansion is optional, but core speaking is mandatory.' },
+            { level: 'B2', a1: 'Precise', a2: 'Vague', def1: 'Marked by exactness and accuracy.', def2: 'Of uncertain, indefinite, or unclear character.', ex: 'Give precise instructions rather than vague guidance.' },
+            { level: 'B2', a1: 'Rational', a2: 'Irrational', def1: 'Based on or in accordance with reason or logic.', def2: 'Not logical or reasonable.', ex: 'A rational approach balances grammar rules with speaking practice.' },
+            { level: 'B2', a1: 'Subtle', a2: 'Obvious', def1: 'So delicate or precise as to be difficult to analyze.', def2: 'Easily perceived or understood; clear.', ex: 'B2 students notice subtle nuances that A2 students find obvious.' },
+            { level: 'B2', a1: 'Superior', a2: 'Inferior', def1: 'Higher in quality, rank, or status.', def2: 'Lower in quality, rank, or status.', ex: 'Communicative practice produces superior retention.' },
+            { level: 'B2', a1: 'Abundant', a2: 'Scarce', def1: 'Existing or available in large quantities; plentiful.', def2: 'Insufficient for the demand.', ex: 'Online resources are abundant, though time is often scarce.' },
+
+            // C1-C2
+            { level: 'C1', a1: 'Ephemeral', a2: 'Enduring', def1: 'Lasting for a very short time.', def2: 'Continuing or long-lasting.', ex: 'Trends are ephemeral, but core linguistic principles are enduring.' },
+            { level: 'C1', a1: 'Explicit', a2: 'Implicit', def1: 'Stated clearly and in detail.', def2: 'Suggested though not directly expressed.', ex: 'The teacher gave explicit grammar notes alongside implicit immersion.' },
+            { level: 'C1', a1: 'Plausible', a2: 'Implausible', def1: 'Seeming reasonable or probable.', def2: 'Not seeming reasonable or probable.', ex: 'Her explanation was plausible, while his excuse sounded implausible.' },
+            { level: 'C1', a1: 'Profound', a2: 'Superficial', def1: 'Very great or intense; having deep insight.', def2: 'Existing or occurring at or on the surface.', ex: 'Deep reading leads to profound understanding, not superficial knowledge.' },
+            { level: 'C1', a1: 'Rigorous', a2: 'Lenient', def1: 'Extremely thorough and careful.', def2: 'More merciful or tolerant than expected.', ex: 'Rigorous feedback produces top results, though teachers remain encouraging.' },
+            { level: 'C1', a1: 'Transparent', a2: 'Opaque', def1: 'Easy to perceive or understand; clear.', def2: 'Not transparent or clear; hard to understand.', ex: 'Clear explanations make grammar transparent rather than opaque.' },
+            { level: 'C1', a1: 'Volatile', a2: 'Stable', def1: 'Liable to change rapidly and unpredictably.', def2: 'Not likely to change or fail; firmly established.', ex: 'Confidence can be volatile at first, but practice makes it stable.' },
+            { level: 'C2', a1: 'Authentic', a2: 'Spurious', def1: 'Of undisputed origin; genuine.', def2: 'Not being what it purports to be; false or fake.', ex: 'Authentic texts build real competence, debunking spurious shortcuts.' },
+            { level: 'C2', a1: 'Benevolent', a2: 'Malevolent', def1: 'Well-meaning and kindly.', def2: 'Having or showing a wish to do evil to others.', ex: 'A benevolent mentor guides learners away from malevolent self-doubt.' },
+            { level: 'C2', a1: 'Indispensable', a2: 'Redundant', def1: 'Absolutely necessary.', def2: 'Not or no longer needed or useful; superfluous.', ex: 'Active activation is indispensable; repetitive drills become redundant.' }
+        ];
+
+        // 4. TOP 100 PHRASES & OPPOSITE EXPRESSIONS (50 Pairs = 100 Phrases across A1-C2)
+        const PHRASES_DATA = [
+            // A1
+            { level: 'A1', p1: 'I like X.', p2: 'I don't like Y.', def1: 'Expressing positive preference or enjoyment.', def2: 'Expressing negative preference or dislike.', ex: 'I like coffee, but I don't like tea.' },
+            { level: 'A1', p1: 'I want to study.', p2: 'I don't want to give up.', def1: 'Expressing desire to do something.', def2: 'Expressing unwillingness or rejection.', ex: 'I want to study English today, and I don't want to give up.' },
+            { level: 'A1', p1: 'I can speak a little.', p2: 'I can't speak fluently yet.', def1: 'Expressing ability.', def2: 'Expressing current limitation.', ex: 'I can speak a little French, but I can't speak fluently yet.' },
+            { level: 'A1', p1: 'I agree with you.', p2: 'I disagree with that.', def1: 'Expressing shared opinion.', def2: 'Expressing difference of opinion.', ex: 'I agree with you on this point, but I disagree with that rule.' },
+            { level: 'A1', p1: 'This is easy.', p2: 'This is difficult.', def1: 'Describing low complexity.', def2: 'Describing high complexity.', ex: 'The word order is easy, but pronunciation is difficult.' },
+            { level: 'A1', p1: 'I am happy about this.', p2: 'I am sorry about that.', def1: 'Expressing joy or satisfaction.', def2: 'Expressing apology or regret.', ex: 'I am happy about my score, but I am sorry about my delay.' },
+            { level: 'A1', p1: 'I need help.', p2: 'I don't need anything.', def1: 'Requesting assistance.', def2: 'Declining assistance.', ex: 'I need help with prepositions, but I don't need help with vocabulary.' },
+            { level: 'A1', p1: 'I love reading.', p2: 'I hate waiting.', def1: 'Expressing strong passion.', def2: 'Expressing strong aversion.', ex: 'I love reading stories, but I hate waiting in long lines.' },
+            { level: 'A1', p1: 'I am good at listening.', p2: 'I am bad at spelling.', def1: 'Claiming competence.', def2: 'Acknowledging weakness.', ex: 'I am good at listening comprehension, but I am bad at spelling.' },
+            { level: 'A1', p1: 'There is a problem.', p2: 'There is no problem.', def1: 'Identifying an issue.', def2: 'Confirming absence of issue.', ex: 'There is a problem with the connection, but there is no problem with the sound.' },
+
+            // A2
+            { level: 'A2', p1: 'I prefer X to Y.', p2: 'I avoid X whenever possible.', def1: 'Stating a favorable choice.', def2: 'Stating deliberate avoidance.', ex: 'I prefer live lessons to recordings, and I avoid passive drills.' },
+            { level: 'A2', p1: 'I am interested in art.', p2: 'I am bored by politics.', def1: 'Showing curiosity.', def2: 'Showing lack of interest.', ex: 'I am interested in foreign art, but I am bored by local politics.' },
+            { level: 'A2', p1: 'It is important to practice.', p2: 'It is useless to worry.', def1: 'Highlighting necessity.', def2: 'Highlighting futility.', ex: 'It is important to practice daily; it is useless to worry about mistakes.' },
+            { level: 'A2', p1: 'I usually study at night.', p2: 'I rarely study in the morning.', def1: 'Indicating frequent habit.', def2: 'Indicating infrequent habit.', ex: 'I usually study at night, and I rarely study in the morning.' },
+            { level: 'A2', p1: 'I am sure about the answer.', p2: 'I doubt that this is correct.', def1: 'Expressing certainty.', def2: 'Expressing uncertainty.', ex: 'I am sure about the verb form, but I doubt that the spelling is right.' },
+            { level: 'A2', p1: 'It is better to speak early.', p2: 'It is worse to stay silent.', def1: 'Recommending positive action.', def2: 'Warning against negative choice.', ex: 'It is better to speak early; it is worse to stay silent out of fear.' },
+            { level: 'A2', p1: 'I enjoy group activities.', p2: 'I dislike solitary memorization.', def1: 'Expressing positive experience.', def2: 'Expressing negative experience.', ex: 'I enjoy group speaking clubs, while I dislike solitary memorization.' },
+            { level: 'A2', p1: 'I recommend this course.', p2: 'I advise against skipping lessons.', def1: 'Offering endorsement.', def2: 'Offering caution.', ex: 'I recommend this course to everyone, and I advise against skipping lessons.' },
+            { level: 'A2', p1: 'It is allowed to use notes.', p2: 'It is forbidden to cheat.', def1: 'Stating permission.', def2: 'Stating prohibition.', ex: 'It is allowed to look at vocabulary notes, but it is forbidden to copy answers.' },
+            { level: 'A2', p1: 'I remember my first lesson.', p2: 'I forgot the rule.', def1: 'Recalling past experience.', def2: 'Failing to recall information.', ex: 'I remember my first lesson clearly, even though I forgot the exact rule.' },
+
+            // B1
+            { level: 'B1', p1: 'On one hand, it is fast...', p2: 'On the other hand, it takes effort...', def1: 'Introducing a supportive perspective.', def2: 'Introducing a contrasting perspective.', ex: 'On one hand, online apps are fast; on the other hand, real fluency takes personal effort.' },
+            { level: 'B1', p1: 'In my opinion, fluency comes first.', p2: 'From an alternative viewpoint, accuracy matters.', def1: 'Expressing personal perspective.', def2: 'Introducing a counter-perspective.', ex: 'In my opinion, fluency comes first; from an alternative viewpoint, accuracy is crucial.' },
+            { level: 'B1', p1: 'I strongly believe that practice pays off.', p2: 'I am skeptical that shortcuts work.', def1: 'Asserting strong conviction.', def2: 'Expressing doubt toward a claim.', ex: 'I strongly believe that practice pays off, and I am skeptical that shortcuts work.' },
+            { level: 'B1', p1: 'This method leads to progress.', p2: 'This habit prevents development.', def1: 'Stating positive cause-effect.', def2: 'Stating restrictive cause-effect.', ex: 'Active activation leads to progress, while fear of making mistakes prevents development.' },
+            { level: 'B1', p1: 'I am looking forward to the event.', p2: 'I am dreading the final exam.', def1: 'Anticipating with pleasure.', def2: 'Anticipating with apprehension.', ex: 'I am looking forward to the speaking club, but I am dreading the final exam.' },
+            { level: 'B1', p1: 'It is likely that we will succeed.', p2: 'It is unlikely that we will fail.', def1: 'Predicting high probability.', def2: 'Predicting low probability.', ex: 'It is likely that we will succeed if we practice, and unlikely that we will fail.' },
+            { level: 'B1', p1: 'To begin with, let us define our goals.', p2: 'To conclude, consistency is key.', def1: 'Opening a discourse.', def2: 'Closing a discourse.', ex: 'To begin with, let us define our goals; to conclude, consistency is key.' },
+            { level: 'B1', p1: 'I agree up to a point, but...', p2: 'I completely disagree because...', def1: 'Partial agreement with reservation.', def2: 'Full disagreement with rationale.', ex: 'I agree up to a point, but we must also consider grammar; I completely disagree because rules alone aren't enough.' },
+            { level: 'B1', p1: 'The main advantage is flexibility.', p2: 'The primary drawback is lack of structure.', def1: 'Highlighting a benefit.', def2: 'Highlighting a disadvantage.', ex: 'The main advantage is flexibility; the primary drawback is lack of structure.' },
+            { level: 'B1', p1: 'This causes rapid improvement.', p2: 'This results from inconsistent effort.', def1: 'Stating direct forward causation.', def2: 'Stating underlying root origin.', ex: 'Daily engagement causes rapid improvement, whereas lingering confusion results from inconsistent effort.' },
+
+            // B2
+            { level: 'B2', p1: 'I strongly support this policy.', p2: 'I firmly oppose this proposal.', def1: 'Declaring enthusiastic endorsement.', def2: 'Declaring resolute objection.', ex: 'I strongly support this policy, whereas my colleague firmly opposes this proposal.' },
+            { level: 'B2', p1: 'It plays a key role in acquisition.', p2: 'It has no bearing on final outcomes.', def1: 'Claiming central importance.', def2: 'Claiming irrelevance.', ex: 'Motivation plays a key role in acquisition, while age has no bearing on final outcomes.' },
+            { level: 'B2', p1: 'This argument holds weight.', p2: 'This argument lacks evidence.', def1: 'Validating logical strength.', def2: 'Exposing logical weakness.', ex: 'Her argument holds weight, while his counter-claim lacks evidence.' },
+            { level: 'B2', p1: 'It is widely accepted that practice works.', p2: 'It is fiercely contested whether rules suffice.', def1: 'Stating broad consensus.', def2: 'Stating active debate.', ex: 'It is widely accepted that practice works, but it is fiercely contested whether rules alone suffice.' },
+            { level: 'B2', p1: 'To put it simply, immersion accelerates skill.', p2: 'To elaborate further, neurological pathways adapt.', def1: 'Simplifying complex idea.', def2: 'Adding detailed explanation.', ex: 'To put it simply, immersion accelerates skill; to elaborate further, neurological pathways adapt.' },
+            { level: 'B2', p1: 'Notwithstanding initial difficulties...', p2: 'Consequently, mastery was achieved.', def1: 'Conceding a minor hurdle.', def2: 'Stating logical outcome.', ex: 'Notwithstanding initial difficulties, she practiced daily; consequently, mastery was achieved.' },
+            { level: 'B2', p1: 'This highlights the core issue.', p2: 'This overshadows minor details.', def1: 'Drawing focus to main point.', def2: 'Obscuring secondary factors.', ex: 'The study highlights the core issue, though it overshadows minor details.' },
+            { level: 'B2', p1: 'In light of recent data...', p2: 'Irrespective of past mistakes...', def1: 'Considering new evidence.', def2: 'Disregarding previous issues.', ex: 'In light of recent data, we updated our method, irrespective of past mistakes.' },
+            { level: 'B2', p1: 'We should prioritize active speaking.', p2: 'We should deprioritize passive translation.', def1: 'Promoting focus.', def2: 'Lowering focus.', ex: 'We should prioritize active speaking and deprioritize passive translation.' },
+            { level: 'B2', p1: 'It poses a threat to fluency.', p2: 'It ensures the safety of learning.', def1: 'Identifying potential harm.', def2: 'Confirming protection.', ex: 'Hesitation poses a threat to fluency, but structured scaffolding ensures the safety of learning.' },
+
+            // C1-C2
+            { level: 'C1', p1: 'It is paramount that we act now.', p2: 'It is trivial compared to the main goal.', def1: 'Asserting supreme urgency/importance.', def2: 'Dismissing as insignificant.', ex: 'It is paramount that we practice daily; individual mistakes are trivial compared to the main goal.' },
+            { level: 'C1', p1: 'This underscores the necessity of practice.', p2: 'This downplays the role of grammar.', def1: 'Emphasizing importance.', def2: 'Minimizing significance.', ex: 'Research underscores the necessity of practice and downplays pure rote memorization.' },
+            { level: 'C1', p1: 'Far from being a drawback, it is a strength.', p2: 'Precisely because of this, it demands attention.', def1: 'Reframing apparent negative into positive.', def2: 'Using feature as primary reason for focus.', ex: 'Far from being a drawback, making mistakes is a strength; precisely because of this, it demands attention.' },
+            { level: 'C1', p1: 'One cannot overstate the value of immersion.', p2: 'One should not exaggerate minor errors.', def1: 'Affirming maximum significance.', def2: 'Cautioning against over-dramatization.', ex: 'One cannot overstate the value of immersion, yet one should not exaggerate minor errors.' },
+            { level: 'C1', p1: 'Contrary to popular belief, age is no barrier.', p2: 'In line with conventional wisdom, practice yields mastery.', def1: 'Challenging common myth.', def2: 'Confirming established truth.', ex: 'Contrary to popular belief, age is no barrier; in line with conventional wisdom, practice yields mastery.' },
+            { level: 'C2', p1: 'This serves as a testament to dedication.', p2: 'This exposes a fundamental flaw in the theory.', def1: 'Providing strong proof of excellence.', def2: 'Revealing core weakness.', ex: 'Her fluency serves as a testament to dedication, while rote systems expose a fundamental flaw in traditional teaching.' },
+            { level: 'C2', p1: 'It is inextricably linked to cognitive growth.', p2: 'It is entirely detached from real usage.', def1: 'Asserting unbreakable connection.', def2: 'Asserting complete disconnect.', ex: 'Language activation is inextricably linked to cognitive growth, whereas isolated grammar drills are entirely detached from real usage.' },
+            { level: 'C2', p1: 'Without loss of generality, we can assume X.', p2: 'Specific to this unique context, we observe Y.', def1: 'Applying broad universally valid logic.', def2: 'Restricting analysis to exact scenario.', ex: 'Without loss of generality, practice improves skills; specific to this unique context, interactive feedback yields fastest results.' },
+            { level: 'C2', p1: 'To advocate for X is to embrace progress.', p2: 'To repudiate Y is to reject stagnation.', def1: 'Linking advocacy with positive growth.', def2: 'Linking rejection with overcoming negative states.', ex: 'To advocate for communicative teaching is to embrace progress; to repudiate outdated drills is to reject stagnation.' },
+            { level: 'C2', p1: 'Assuming for the sake of argument that X holds...', p2: 'Rejecting the premise that Y is unavoidable...', def1: 'Hypothetically accepting a premise.', def2: 'Fundamentally denying a premise.', ex: 'Assuming for the sake of argument that grammar is complex, rejecting the premise that speaking must wait creates immediate confidence.' }
+        ];
+
+        let activeTab = 'edu';
+        let selectedLevel = 'all';
+
+        document.addEventListener('DOMContentLoaded', () => {
+            renderAllGrids();
+        });
+
+        function switchBlogTab(tab) {
+            activeTab = tab;
+            const buttons = document.querySelectorAll('.sec-tab-btn');
+            buttons.forEach(b => b.classList.remove('active'));
+            document.querySelectorAll('.blog-content-section').forEach(s => s.classList.remove('active'));
+
+            if (tab === 'edu') {
+                buttons[0].classList.add('active');
+                document.getElementById('tab-edu').classList.add('active');
+            } else {
+                buttons[1].classList.add('active');
+                document.getElementById('tab-personal').classList.add('active');
+            }
+        }
+
+        function filterLevel(level, btnEl) {
+            selectedLevel = level;
+            document.querySelectorAll('.level-pill').forEach(p => p.classList.remove('active'));
+            if (btnEl) btnEl.classList.add('active');
+            renderAllGrids();
+        }
+
+        function handleSearch() {
+            renderAllGrids();
+        }
+
+        function speakWord(text) {
+            if (!window.speechSynthesis) return;
+            window.speechSynthesis.cancel();
+            const utterance = new SpeechSynthesisUtterance(text);
+            utterance.lang = 'en-US';
+            window.speechSynthesis.speak(utterance);
+        }
+
+        function renderAllGrids() {
+            const query = (document.getElementById('blog-search') ? document.getElementById('blog-search').value : '').toLowerCase().trim();
+
+            // 1. Render Nouns
+            const gridNouns = document.getElementById('grid-nouns');
+            if (gridNouns) {
+                let items = NOUNS_DATA;
+                if (selectedLevel !== 'all') {
+                    items = items.filter(i => i.level.startsWith(selectedLevel));
+                }
+                if (query) {
+                    items = items.filter(i => i.word.toLowerCase().includes(query) || i.def.toLowerCase().includes(query) || i.ex.toLowerCase().includes(query));
+                }
+                gridNouns.innerHTML = items.length === 0 ? '<p style="color:var(--ink-muted); font-style:italic;">No nouns match the filter.</p>' :
+                    items.map(i => `
+                        <div class="item-card">
+                            <span class="item-level ${i.level.toLowerCase()}">${i.level}</span>
+                            <div class="item-word">${i.word} <button class="item-audio-btn" onclick="speakWord('${i.word.replace(/'/g, "\'")}')" title="Listen pronunciation">🔊</button></div>
+                            <div class="item-def">${i.def}</div>
+                            <div class="item-ex">"${i.ex}"</div>
+                        </div>
+                    `).join('');
+            }
+
+            // 2. Render Verbs
+            const gridVerbs = document.getElementById('grid-verbs');
+            if (gridVerbs) {
+                let items = VERBS_DATA;
+                if (selectedLevel !== 'all') {
+                    items = items.filter(i => i.level.startsWith(selectedLevel));
+                }
+                if (query) {
+                    items = items.filter(i => i.v1.toLowerCase().includes(query) || i.v2.toLowerCase().includes(query) || i.ex.toLowerCase().includes(query));
+                }
+                gridVerbs.innerHTML = items.length === 0 ? '<p style="color:var(--ink-muted); font-style:italic;">No verbs match the filter.</p>' :
+                    items.map(i => `
+                        <div class="item-card">
+                            <span class="item-level ${i.level.toLowerCase()}">${i.level}</span>
+                            <div class="item-opposite-pair">
+                                <span>${i.v1}</span>
+                                <span class="opposite-arrow">↔</span>
+                                <span>${i.v2}</span>
+                                <button class="item-audio-btn" onclick="speakWord('${i.v1.replace(/'/g, "\'")} and ${i.v2.replace(/'/g, "\'")}')" title="Listen pronunciation">🔊</button>
+                            </div>
+                            <div class="item-def"><strong>${i.v1}:</strong> ${i.def1}<br><strong>${i.v2}:</strong> ${i.def2}</div>
+                            <div class="item-ex">"${i.ex}"</div>
+                        </div>
+                    `).join('');
+            }
+
+            // 3. Render Adjectives
+            const gridAdj = document.getElementById('grid-adjectives');
+            if (gridAdj) {
+                let items = ADJECTIVES_DATA;
+                if (selectedLevel !== 'all') {
+                    items = items.filter(i => i.level.startsWith(selectedLevel));
+                }
+                if (query) {
+                    items = items.filter(i => i.a1.toLowerCase().includes(query) || i.a2.toLowerCase().includes(query) || i.ex.toLowerCase().includes(query));
+                }
+                gridAdj.innerHTML = items.length === 0 ? '<p style="color:var(--ink-muted); font-style:italic;">No adjectives match the filter.</p>' :
+                    items.map(i => `
+                        <div class="item-card">
+                            <span class="item-level ${i.level.toLowerCase()}">${i.level}</span>
+                            <div class="item-opposite-pair">
+                                <span>${i.a1}</span>
+                                <span class="opposite-arrow">↔</span>
+                                <span>${i.a2}</span>
+                                <button class="item-audio-btn" onclick="speakWord('${i.a1.replace(/'/g, "\'")} and ${i.a2.replace(/'/g, "\'")}')" title="Listen pronunciation">🔊</button>
+                            </div>
+                            <div class="item-def"><strong>${i.a1}:</strong> ${i.def1}<br><strong>${i.a2}:</strong> ${i.def2}</div>
+                            <div class="item-ex">"${i.ex}"</div>
+                        </div>
+                    `).join('');
+            }
+
+            // 4. Render Phrases
+            const gridPhrases = document.getElementById('grid-phrases');
+            if (gridPhrases) {
+                let items = PHRASES_DATA;
+                if (selectedLevel !== 'all') {
+                    items = items.filter(i => i.level.startsWith(selectedLevel));
+                }
+                if (query) {
+                    items = items.filter(i => i.p1.toLowerCase().includes(query) || i.p2.toLowerCase().includes(query) || i.ex.toLowerCase().includes(query));
+                }
+                gridPhrases.innerHTML = items.length === 0 ? '<p style="color:var(--ink-muted); font-style:italic;">No phrases match the filter.</p>' :
+                    items.map(i => `
+                        <div class="item-card">
+                            <span class="item-level ${i.level.toLowerCase()}">${i.level}</span>
+                            <div class="item-opposite-pair" style="font-size:1.05rem; flex-wrap:wrap;">
+                                <span style="color:var(--teal, #0d7a5f);">${i.p1}</span>
+                                <span class="opposite-arrow">↔</span>
+                                <span style="color:var(--coral, #e05638);">${i.p2}</span>
+                                <button class="item-audio-btn" onclick="speakWord('${i.p1.replace(/'/g, "\'")} versus ${i.p2.replace(/'/g, "\'")}')" title="Listen pronunciation">🔊</button>
+                            </div>
+                            <div class="item-def"><strong>(+)</strong> ${i.def1}<br><strong>(-)</strong> ${i.def2}</div>
+                            <div class="item-ex">"${i.ex}"</div>
+                        </div>
+                    `).join('');
+            }
+        }
+    </script>
+</body>
+</html>
