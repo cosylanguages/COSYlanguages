@@ -29,7 +29,7 @@
                 const defPart = parts[1] ? parts[1].replace(/"/g, '') : '...';
                 return `"<span class="q-word">${item.word}</span>" <span class="q-symbol">=</span> "<span class="q-definition">${defPart}</span>"`;
             } else if (form === 'type') {
-                const definition = item.definitions?.[0]?.text || item.definition || item.translation || '...';
+                const definition = item.definitions?.[0]?.text || item.definition || item.subtext || '...';
                 return `"<span class="q-definition">${definition}</span>" <span class="q-symbol">=</span> <span class="q-target">?</span>`;
             } else if (form === 'sc') {
                 return `<span class="q-symbol">🧩</span> <span class="q-theme">(${item.word})</span>`;
@@ -174,7 +174,7 @@
                     .sort(() => Math.random() - 0.5)
                     .slice(0, 2)
                     .map(v => v.definitions[0].text);
-                const correctDef = q.item.definitions?.[0]?.text || q.item.translation || "Correct";
+                const correctDef = q.item.definitions?.[0]?.text || q.item.definition || q.item.subtext || "Correct";
                 finalOpts = [correctDef, ...distractors].sort(() => Math.random() - 0.5);
                 q.dynamicAns = finalOpts.indexOf(correctDef);
             }

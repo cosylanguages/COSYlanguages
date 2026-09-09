@@ -373,7 +373,7 @@
             }
             const qs = engine.state.mistakes.map(m => ({
                 type: 'type',
-                q: `Review: "${m.definitions?.[0]?.text || m.translation || m.word}"`,
+                q: `Review: "${m.definitions?.[0]?.text || m.definition || m.subtext || m.word}"`,
                 item: m,
                 ans: m.word,
                 ruleHint: m.usage_hint || m.collocation || (m.preposition ? `Preposition: ${m.word} ${m.preposition}` : null)

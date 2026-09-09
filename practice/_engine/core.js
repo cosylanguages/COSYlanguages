@@ -1022,7 +1022,7 @@
             const q = this.session?.sessionQueue[this.session?.currentIndex];
             if (!q) return;
 
-            const answer = q?.item?.translation || q?.ans || '';
+            const answer = q?.ans || q?.item?.word || '';
             if (!answer) return;
 
             const words = answer.toString().split(' ');
@@ -1480,7 +1480,7 @@
         if (!inp) return;
 
         const userAnswer = inp.value.trim().toLowerCase();
-        const correctAnswer = (q.ans || q.item?.translation || "").toString().trim().toLowerCase();
+        const correctAnswer = (q.ans || q.item?.word || "").toString().trim().toLowerCase();
         const fb = document.getElementById('pe-fb');
         const isReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
