@@ -240,14 +240,22 @@
   .vocab-table th { background: #e8f5e9; color: #1b4332; padding: 0.5rem; text-align: left; }
   .vocab-table td { border: 1px solid #e2e8f0; padding: 0.5rem; }
 
-  .interlingual-box {
-    background: #f3e5f5;
-    border-left: 4px solid #8e24aa;
-    padding: 0.8rem 1rem;
-    margin: 0.8rem 0;
-    border-radius: 4px;
-    font-size: 0.92rem;
+  .alphabet-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    gap: 0.6rem;
+    margin: 1rem 0;
   }
+  .alphabet-card {
+    background: #f0fdf4;
+    border: 1px solid #c8e6c9;
+    border-radius: 8px;
+    padding: 0.6rem;
+    text-align: center;
+  }
+  .alphabet-card .letter { font-size: 1.4rem; font-weight: 800; color: #1b4332; }
+  .alphabet-card .ipa { font-size: 0.85rem; color: #2e7d32; font-weight: 600; }
+  .alphabet-card .example { font-size: 0.8rem; color: #555; margin-top: 0.2rem; }
 </style>
 </head>
 <body data-lang-theme="fr">
@@ -289,18 +297,53 @@
 
   <!-- MNEMOTECHNIQUES A0-A1 -->
   <div class="mnemonic-box">
-    <h4>💡 Les 4 règles d'or du niveau A0-A1</h4>
+    <h4>💡 Les règles d'or du niveau A0-A1</h4>
     <ul style="margin: 0.5rem 0 0 1.2rem; padding: 0;">
-      <li><strong>1. Règle CaReFuL (Consonnes finales) :</strong> En fin de mot, <strong>-t, -d, -s, -x, -p</strong> sont silencieuses (<em>petit, chat, grands</em>). Seules <strong>C, R, F, L</strong> parlent presque toujours (<em>ba<strong>c</strong>, me<strong>r</strong>, che<strong>f</strong>, ba<strong>l</strong></em>).</li>
-      <li><strong>2. Le son U français [y] :</strong> Dites « i » avec un grand sourire, puis arrondissez fortement les lèvres sans bouger la langue ! Vous obtenez le <em>u</em> de <em>tu</em>.</li>
-      <li><strong>3. C et G :</strong> Devant A, O, U = son dur [k] / [g] (<em>café, gare</em>). Devant E, I, Y = son doux [s] / [ʒ] (<em>ceci, girafe</em>).</li>
-      <li><strong>4. Nasales simples :</strong> Une voyelle suivie de N ou M en fin de syllabe passe par le nez (<em>an, on, in</em>). Si N/M est suivi d'une voyelle, la nasalisation s'annule (<em>ami</em> n'est pas nasal) !</li>
+      <li><strong>1. Consonnes finales muettes :</strong> Mnémonique « <strong>S</strong>ale <strong>T</strong>able <strong>D</strong>e <strong>P</strong>etit <strong>X</strong>ylo <strong>Z</strong>éro » (-s, -t, -d, -p, -x, -z sont muettes : <em>petit, chat, grands</em>).</li>
+      <li><strong>2. Consonnes finales prononcées :</strong> Mnémonique « <strong>CaReFuL</strong> » / « <strong>C</strong>ar <strong>F</strong>abien <strong>L</strong>e <strong>N</strong>ormand » (-c, -r, -f, -l, -n parlent : <em>bac, mer, chef, bal, bon</em>).</li>
+      <li><strong>3. Le son U français [y] :</strong> Dites « i » avec un grand sourire, puis arrondissez fortement les lèvres sans bouger la langue ! Vous obtenez le <em>u</em> de <em>tu</em>.</li>
+      <li><strong>4. C et G :</strong> Devant A, O, U = son dur [k] / [g] (<em>café, gare</em>). Devant E, I, Y = son doux [s] / [ʒ] (<em>ceci, girafe</em>).</li>
+      <li><strong>5. Nasales simples :</strong> Une voyelle suivie de N ou M en fin de syllabe passe par le nez (<em>an, on, in</em>). Si N/M est suivi d'une voyelle, la nasalisation s'annule (<em>ami</em> n'est pas nasal) !</li>
     </ul>
   </div>
 
   <!-- LEÇONS A0-A1 -->
   <section id="a0-a1-content" class="mp-section">
-    <h2>Unité 1 — L'alphabet et les voyelles de base</h2>
+    <h2>Unité 1 — L'alphabet complet et les voyelles de base</h2>
+
+    <!-- Tableau Alphabet -->
+    <div style="background: #f0fdf4; border: 1px solid #c8e6c9; border-radius: 10px; padding: 1.25rem; margin-bottom: 2rem;">
+      <h3 style="margin-top: 0; color: #1b4332;">🔤 L'Alphabet Français (26 lettres)</h3>
+      <p style="font-size: 0.9rem; margin-bottom: 1rem;">Voici le nom phonétique de chaque lettre en français pour savoir épeler votre nom dès le premier jour :</p>
+      <div class="alphabet-grid">
+        <div class="alphabet-card"><div class="letter">A</div><div class="ipa">[a]</div><div class="example">ami</div></div>
+        <div class="alphabet-card"><div class="letter">B</div><div class="ipa">[be]</div><div class="example">bon</div></div>
+        <div class="alphabet-card"><div class="letter">C</div><div class="ipa">[se]</div><div class="example">chat</div></div>
+        <div class="alphabet-card"><div class="letter">D</div><div class="ipa">[de]</div><div class="example">dans</div></div>
+        <div class="alphabet-card"><div class="letter">E</div><div class="ipa">[ə]</div><div class="example">eau</div></div>
+        <div class="alphabet-card"><div class="letter">F</div><div class="ipa">[ɛf]</div><div class="example">fille</div></div>
+        <div class="alphabet-card"><div class="letter">G</div><div class="ipa">[ʒe]</div><div class="example">garçon</div></div>
+        <div class="alphabet-card"><div class="letter">H</div><div class="ipa">[aʃ]</div><div class="example">héros</div></div>
+        <div class="alphabet-card"><div class="letter">I</div><div class="ipa">[i]</div><div class="example">ici</div></div>
+        <div class="alphabet-card"><div class="letter">J</div><div class="ipa">[ʒi]</div><div class="example">jour</div></div>
+        <div class="alphabet-card"><div class="letter">K</div><div class="ipa">[ka]</div><div class="example">kilo</div></div>
+        <div class="alphabet-card"><div class="letter">L</div><div class="ipa">[ɛl]</div><div class="example">livre</div></div>
+        <div class="alphabet-card"><div class="letter">M</div><div class="ipa">[ɛm]</div><div class="example">main</div></div>
+        <div class="alphabet-card"><div class="letter">N</div><div class="ipa">[ɛn]</div><div class="example">nuit</div></div>
+        <div class="alphabet-card"><div class="letter">O</div><div class="ipa">[o]</div><div class="example">où</div></div>
+        <div class="alphabet-card"><div class="letter">P</div><div class="ipa">[pe]</div><div class="example">pain</div></div>
+        <div class="alphabet-card"><div class="letter">Q</div><div class="ipa">[ky]</div><div class="example">qui</div></div>
+        <div class="alphabet-card"><div class="letter">R</div><div class="ipa">[ɛʁ]</div><div class="example">rue</div></div>
+        <div class="alphabet-card"><div class="letter">S</div><div class="ipa">[ɛs]</div><div class="example">sac</div></div>
+        <div class="alphabet-card"><div class="letter">T</div><div class="ipa">[te]</div><div class="example">table</div></div>
+        <div class="alphabet-card"><div class="letter">U</div><div class="ipa">[y]</div><div class="example">uni</div></div>
+        <div class="alphabet-card"><div class="letter">V</div><div class="ipa">[ve]</div><div class="example">vélo</div></div>
+        <div class="alphabet-card"><div class="letter">W</div><div class="ipa">[dubləve]</div><div class="example">wagon</div></div>
+        <div class="alphabet-card"><div class="letter">X</div><div class="ipa">[iks]</div><div class="example">xylo</div></div>
+        <div class="alphabet-card"><div class="letter">Y</div><div class="ipa">[igrɛk]</div><div class="example">yeux</div></div>
+        <div class="alphabet-card"><div class="letter">Z</div><div class="ipa">[zɛd]</div><div class="example">zéro</div></div>
+      </div>
+    </div>
 
     <!-- 1.1 -->
     <div class="lesson-sample">
@@ -391,13 +434,16 @@
     <!-- 2.2 -->
     <div class="lesson-sample">
       <div class="lesson-sample-header">
-        <h3>Leçon 2.2 — Règle CaReFuL (Consonnes finales muettes)</h3>
+        <h3>Leçon 2.2 — Consonnes finales muettes & Mnémoniques (CaReFuL vs Sale Table De Petit Xylo Zéro)</h3>
       </div>
       <div class="lesson-sample-body" style="overflow-x: auto;">
-        <div class="visual-frame" data-visual='{"type":"grapheme","main":"CaReFuL","ipa":"C, R, F, L = OUI","words":["bac","mer","chef","bal"]}'></div>
+        <div class="visual-frame" data-visual='{"type":"grapheme","main":"Consonnes finales","ipa":"Muettes vs Prononcées","words":["petit (t muet)","bac (c prononcé)"]}'></div>
         <table class="mp-table">
           <tbody>
-            <tr><th style="width: 25%;">Recette physique</th><td>Les lettres finales -t, -d, -s, -x, -p, -g sont silencieuses en français. Seules les consonnes de CaReFuL (C, R, F, L) se prononcent à la fin des mots.</td></tr>
+            <tr><th style="width: 25%;">Recette physique</th><td>
+              • <strong>Lettres muettes (-s, -t, -d, -p, -x, -z) :</strong> Mnémonique « <strong>S</strong>ale <strong>T</strong>able <strong>D</strong>e <strong>P</strong>etit <strong>X</strong>ylo <strong>Z</strong>éro » (<em>mois, petit, grand, trop, prix, chez</em>).<br>
+              • <strong>Lettres prononcées (-c, -r, -f, -l, -n) :</strong> Mnémoniques « <strong>CaReFuL</strong> » et « <strong>C</strong>ar <strong>F</strong>abien <strong>L</strong>e <strong>N</strong>ormand » (<em>sac, mer, chef, bal, bon</em>).
+            </td></tr>
             <tr><th>Exceptions notables</th><td>Les infinitifs en -er ont un R muet (<em>parler</em> [paʁle]), ainsi que le mot <em>monsieur</em>.</td></tr>
             <tr><th>Exemples courants</th><td>chat (t muet), grand (d muet), petit (t muet) VS bac, mer, chef, bal (prononcés)</td></tr>
             <tr><th>Un peu de vocabulaire</th><td>
