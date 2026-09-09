@@ -599,7 +599,7 @@ def main():
                         def_text = d0
 
                 if not def_text:
-                    def_text = item.get("translation") or item.get("subtext") or ""
+                    def_text = item.get("subtext") or item.get("definition") or ""
                 if not ex_text and item.get("examples") and isinstance(item["examples"], list) and len(item["examples"]) > 0:
                     ex_first = item["examples"][0]
                     if isinstance(ex_first, dict):
@@ -634,7 +634,7 @@ def main():
                 d = first_item["definitions"][0]
                 q_def = d.get("text", "") if isinstance(d, dict) else d
             if not q_def:
-                q_def = first_item.get("translation") or first_item.get("subtext") or ""
+                q_def = first_item.get("subtext") or first_item.get("definition") or ""
 
             quiz_q = f"Каково главное значение или употребление слова «{q_word}»?"
             clean_topic_title = tp['title'].replace("&amp;", "&")

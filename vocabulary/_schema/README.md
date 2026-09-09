@@ -2,6 +2,20 @@
 
 Organised by: language → CEFR level → topic file.
 
+## Directory & Hierarchy Architecture: English (`vocabulary/en/`) vs. Other Target Languages
+The dataset directory structure intentionally differs between English and other target languages:
+
+1. **Non-English Datasets (`fr`, `it`, `ru`, `el`, `ba`, `tt`, `br`, `ka`, `hy`, `cv`):**
+   - **Flat Thematic Hierarchy:** `vocabulary/{lang}/{LEVEL}/{theme}.js` (e.g., `vocabulary/fr/A1/greetings.js`, `vocabulary/it/A1/colours.js`).
+   - Single JS array per file loaded directly into `window.vocabularyData[lang]` arrays for rapid CEFR level loading and monolingual manual generation.
+
+2. **English Dataset (`vocabulary/en/`):**
+   - **POS-Tree Deep Hierarchy:** `vocabulary/en/{LEVEL}/{POS}/{DOMAIN}/{Subcategory}/{Sub_subcategory}.js` (e.g., `vocabulary/en/A1/Nouns/FOOD/Meals/Prepared_Dishes.js`).
+   - Structured across 111+ category JS files under POS subdirectories (`Nouns`, `Verbs`, `Adjectives`, `Other_POS`).
+   - Rationale: English is the core reference curriculum on COSYlanguages and contains 1,800+ granular vocabulary items mapped against Oxford 3000 taxonomy standards (`macro_domain` -> `POS` -> `subcategory`).
+
+> **Note for Contributors:** Do NOT attempt to mechanically reorganize `vocabulary/en/` into flat thematic files or convert non-English datasets into POS trees. The difference is intentional and supported by the platform's unified index builder (`scripts/build_unified_index.py`).
+
 ## File naming
 Topic files use lowercase with underscores: `topic_food.json`, `topic_family.json`.
 

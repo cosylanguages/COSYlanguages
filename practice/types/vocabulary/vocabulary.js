@@ -295,7 +295,7 @@
             targetText = item.antonyms?.[0] || item.opposite;
             qText = `"${itemWord}" ≠ ?`;
         } else {
-            targetText = item.definitions?.[0]?.text || item.definition || item.translation || itemWord || '...';
+            targetText = item.definitions?.[0]?.text || item.definition || item.subtext || itemWord || '...';
             qText = `"${itemWord}" = ?`;
         }
 
@@ -304,7 +304,7 @@
         if (matchType === 'definition') {
             distractors = pool
                 .filter(p => (p.id ? p.id !== item.id : p !== item))
-                .map(p => p.definitions?.[0]?.text || p.definition || p.translation)
+                .map(p => p.definitions?.[0]?.text || p.definition || p.subtext)
                 .filter(Boolean)
                 .sort(() => Math.random() - 0.5);
         } else {
@@ -323,7 +323,7 @@
                 .filter(p => (p.id ? p.id !== item.id : p !== item))
                 .sort(() => Math.random() - 0.5)[0];
             const fallbackVal = matchType === 'definition'
-                ? (fallback?.definitions?.[0]?.text || fallback?.definition || fallback?.translation || 'none')
+                ? (fallback?.definitions?.[0]?.text || fallback?.definition || fallback?.subtext || 'none')
                 : (fallback?.word || fallback?.topic || fallback?.phrase || 'none');
             if (fallbackVal && fallbackVal.toLowerCase() !== targetText.toLowerCase()) {
                 distractors.push(fallbackVal);
@@ -347,7 +347,6 @@
             level: mappedLevel,
             theme: item.theme,
             sub_theme: item.sub_theme || null,
-            translation: item.translation || itemWord,
             practice_links: item.practice_links,
             ruleHint: item.usage_hint || item.collocation || (item.preposition ? `Preposition: ${itemWord} ${item.preposition}` : null)
         };
@@ -607,11 +606,11 @@
                     if (type === 'type' && !item.word) type = 'mc';
 
                     let qText = '', ans = null, opts = null;
-                    const definition = item.definitions?.[0]?.text || item.definition || item.translation || item.word || "...";
+                    const definition = item.definitions?.[0]?.text || item.definition || item.subtext || item.word || "...";
 
                     if (type === 'mp') {
                         const otherItems = pool
-                            .filter(p => p.id !== item.id && p.word && (p.definitions?.[0]?.text || p.definition || p.translation))
+                            .filter(p => p.id !== item.id && p.word && (p.definitions?.[0]?.text || p.definition || p.subtext))
                             .sort(() => Math.random() - 0.5);
 
                         const selectedPairs = [item, ...otherItems.slice(0, 3)];
@@ -645,7 +644,7 @@
                             } else if (selectedMode === 'antonym') {
                                 matchValue = p.opposite || p.antonyms?.[0] || `≠ ${p.word}`;
                             } else {
-                                matchValue = p.definitions?.[0]?.text || p.definition || p.translation || p.word;
+                                matchValue = p.definitions?.[0]?.text || p.definition || p.subtext || p.word;
                             }
 
                             return {
@@ -768,7 +767,6 @@
                         level: LEVEL_MAP[item.level] || item.level || 'a1',
                         theme: item.theme,
                         sub_theme: item.sub_theme || null,
-                        translation: item.translation || item.word,
                         practice_links: item.practice_links,
                         ruleHint: item.usage_hint || item.collocation || (item.preposition ? `Collocation / Preposition: ${item.word} ${item.preposition}` : morphologicalHint)
                     };
