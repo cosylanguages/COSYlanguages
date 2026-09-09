@@ -121,6 +121,43 @@ function visualMorph(v) {
   `);
 }
 
+function visualTree(v) {
+  const w = 640, h = 260;
+  const title = v.title || "Arbre de Décision Phonétique";
+  const root = v.root || "Question ?";
+  const left = v.left || { label: "Option A", result: "Résultat A", color: MP_PALETTE.green };
+  const right = v.right || { label: "Option B", result: "Résultat B", color: MP_PALETTE.red };
+
+  return svgWrap(w, h, `
+    <!-- Title -->
+    <text x="${w / 2}" y="30" text-anchor="middle" font-family="'Lora', Georgia, serif" font-size="18" font-weight="700" fill="${MP_PALETTE.ink}">${escSvg(title)}</text>
+
+    <!-- Root Node -->
+    <rect x="${w / 2 - 120}" y="45" width="240" height="42" rx="21" fill="${MP_PALETTE.paper}" stroke="${MP_PALETTE.ink}" stroke-width="2"/>
+    <text x="${w / 2}" y="71" text-anchor="middle" font-size="15" font-weight="800" fill="${MP_PALETTE.ink}">${escSvg(root)}</text>
+
+    <!-- Branch Left -->
+    <line x1="${w / 2 - 60}" y1="87" x2="160" y2="135" stroke="${MP_PALETTE.green}" stroke-width="2"/>
+    <rect x="70" y="100" width="100" height="22" rx="4" fill="#e8f5e9"/>
+    <text x="120" y="115" text-anchor="middle" font-size="12" font-weight="800" fill="${MP_PALETTE.green}">${escSvg(left.label)}</text>
+
+    <!-- Branch Right -->
+    <line x1="${w / 2 + 60}" y1="87" x2="480" y2="135" stroke="${MP_PALETTE.red}" stroke-width="2"/>
+    <rect x="470" y="100" width="100" height="22" rx="4" fill="#fde8e8"/>
+    <text x="520" y="115" text-anchor="middle" font-size="12" font-weight="800" fill="${MP_PALETTE.red}">${escSvg(right.label)}</text>
+
+    <!-- Left Result Box -->
+    <rect x="50" y="135" width="220" height="85" rx="10" fill="#ffffff" stroke="${MP_PALETTE.green}" stroke-width="2"/>
+    <text x="160" y="170" text-anchor="middle" font-size="16" font-weight="800" fill="${MP_PALETTE.green}">${escSvg(left.result)}</text>
+    <text x="160" y="195" text-anchor="middle" font-size="13" font-weight="600" fill="${MP_PALETTE.inkSoft}">${escSvg(left.sub || "")}</text>
+
+    <!-- Right Result Box -->
+    <rect x="370" y="135" width="220" height="85" rx="10" fill="#ffffff" stroke="${MP_PALETTE.red}" stroke-width="2"/>
+    <text x="480" y="170" text-anchor="middle" font-size="16" font-weight="800" fill="${MP_PALETTE.red}">${escSvg(right.result)}</text>
+    <text x="480" y="195" text-anchor="middle" font-size="13" font-weight="600" fill="${MP_PALETTE.inkSoft}">${escSvg(right.sub || "")}</text>
+  `);
+}
+
 function buildVisual(v) {
   if (!v) return "";
   switch (v.type) {
@@ -129,6 +166,7 @@ function buildVisual(v) {
     case "contrast": return visualContrast(v);
     case "flow": return visualFlow(v);
     case "morph": return visualMorph(v);
+    case "tree": return visualTree(v);
     default: return "";
   }
 }

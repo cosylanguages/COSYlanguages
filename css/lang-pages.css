@@ -341,6 +341,25 @@ body.theme-dark .sd-jump-link:hover, body.theme-dark .sd-jump-link.active {
   .country-tabs{gap:.4rem;}
 }
 
+/* Cozy Marathon Decision Tree & Visual Styles */
+.mp-cozy-callout {
+  background: linear-gradient(135deg, #f0fdf4 0%, #d8f3dc 100%);
+  border-left: 5px solid #2d6a4f;
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+  box-shadow: var(--shadow-sm);
+}
+
+.mp-tree-card {
+  background: #ffffff;
+  border: 2px solid #74c69d;
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin: 1.5rem 0;
+  box-shadow: var(--shadow);
+}
+
 /* 12-Field Marathon Lesson Schema Styles */
 .mp-12field-grid {
   display: grid;
