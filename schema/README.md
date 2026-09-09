@@ -5,17 +5,21 @@ This directory contains JSON Schema (Draft-07) specifications for structured ped
 ## Schemas Overview
 
 ### 1. Concept Checking Questions (`ccq.schema.json`)
-- **Purpose**: Defines structured Concept Checking Questions (CCQs) used to verify understanding of target vocabulary and grammar concepts without translation.
-- **Rule**: The `ccq` field must be answerable with yes/no or a short factual answer, and must **never** ask the learner to translate into another language.
+- **Purpose**: Defines structured choice-based Concept Checking Questions (CCQs) and practice items used to verify understanding of target vocabulary and grammar concepts without translation.
+- **Rule**: Every CCQ must be a choice item containing `question`, `targetStructure`, `options` (2–3 choices), `correctOptionIndex` (integer index), and `explanation`. It must **never** ask the learner to translate into another language and does not use free-text `correctAnswer` fields.
 
 #### Example (`ccq`)
 ```json
 {
-  "targetItem": "used to live",
-  "language": "en",
-  "ccq": "Do I live there now?",
-  "answer": "No",
-  "distractor": "Yes"
+  "question": "\"Julia is a teacher.\" — Is Julia a teacher now?",
+  "targetStructure": "to-be",
+  "options": [
+    "Yes",
+    "No, only in the past",
+    "We can't tell"
+  ],
+  "correctOptionIndex": 0,
+  "explanation": "Yes · 'Is' describes a current state or job in the present simple."
 }
 ```
 
@@ -47,33 +51,61 @@ This directory contains JSON Schema (Draft-07) specifications for structured ped
 #### Example (`lesson-stage`)
 ```json
 {
-  "unitId": "EN-B1-PAST-HABITS-01",
-  "leadIn": "Teacher shows pictures of childhood hobbies and asks students to discuss past routines.",
+  "unitId": "EN-A1-TO-BE-01",
+  "title": "The Verb 'To Be'",
+  "level": "A1",
+  "language": "en",
+  "leadIn": {
+    "title": "Context Examples & Observation",
+    "content": "Julia is a teacher. Tanya is a student. John is a doctor."
+  },
   "meaningCheck": [
     {
-      "targetItem": "used to play",
-      "language": "en",
-      "ccq": "Did I play chess regularly in the past?",
-      "answer": "Yes"
-    },
-    {
-      "targetItem": "used to play",
-      "language": "en",
-      "ccq": "Do I play chess now?",
-      "answer": "No"
+      "question": "\"Julia is a teacher.\" — Is Julia a teacher now?",
+      "targetStructure": "to-be",
+      "options": [
+        "Yes",
+        "No, only in the past",
+        "We can't tell"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Yes · 'Is' describes a current state or job in the present simple."
     }
   ],
-  "form": "Subject + used to + infinitive verb",
-  "pronunciationDrill": "Drill weak form pronunciation /juːst tə/ with stress on the main verb.",
+  "form": {
+    "title": "Form & Conjugation Rules",
+    "content": "Subject + am/is/are. I am (I'm), You/We/They are (You're), He/She/It is (He's)."
+  },
+  "pronunciation": {
+    "title": "Pronunciation Notes",
+    "content": "Contracted forms in speech: I'm /aɪm/, he's /hiːz/, they're /ðeə/."
+  },
   "controlledPractice": [
-    "COSYtools/en-verb-prep/past-habits-fill-in"
+    {
+      "question": "'They ___ doctors.'",
+      "targetStructure": "to-be",
+      "options": [
+        "is",
+        "am",
+        "are"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "They pairs with 'are': They are doctors."
+    }
   ],
-  "freerPractice": [
-    "COSYgames/past-memories-card-matching"
-  ],
-  "production": [
-    "COSYevents/speaking-club-childhood-stories"
-  ],
-  "feedbackNotes": "Monitor for misuse of 'used to' for present habits; board mispronounced /juːzd tuː/ vs /juːst tə/."
+  "freerPractice": {
+    "title": "Freer Practice & Memory Trick",
+    "content": "Practice stating your name, nationality, and job with partners.",
+    "links": [
+      "COSYgames/scene_match"
+    ]
+  },
+  "production": {
+    "title": "Communicative Production",
+    "content": "Introduce yourself and describe team members in a roleplay.",
+    "links": [
+      "COSYevents/speaking-club-introductions"
+    ]
+  }
 }
 ```
