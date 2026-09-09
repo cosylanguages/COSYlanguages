@@ -1216,8 +1216,12 @@ def generate_hubs():
             "portal": "../languages/ru.html",
             "desc": "Comprehensive Russian reference suite covering case declensions, verb aspects, and thematic lexicon.",
             "levels": [
-                {"level": "A0–A1", "hub": "russkiy-a0-a1.html", "grammar": "ru/grammar/index.html"},
-                {"level": "A2", "hub": "russkiy-a2.html"}
+                {"level": "A0–A1", "hub": "russkiy-a0-a1.html", "grammar": "ru/grammar/index.html", "comm": "ru/communication/a1/index.html"},
+                {"level": "A2", "hub": "russkiy-a2.html", "comm": "ru/communication/a2/index.html"},
+                {"level": "B1", "comm": "ru/communication/b1/index.html"},
+                {"level": "B2", "comm": "ru/communication/b2/index.html"},
+                {"level": "C1", "comm": "ru/communication/c1/index.html"},
+                {"level": "C2", "comm": "ru/communication/c2/index.html"}
             ]
         },
         {
