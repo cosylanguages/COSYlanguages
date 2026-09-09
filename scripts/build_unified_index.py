@@ -180,18 +180,17 @@ def main():
         if lang not in indexes_by_lang:
             indexes_by_lang[lang] = []
 
-        groups = gram_data.get("groups", [])
-        for idx, grp in enumerate(groups):
-            grp_id = grp.get("id") or "group"
-            grp_level = normalize_level(grp.get("level", "a1"))
-            grp_title = grp.get("title") or grp.get("name") or grp_id
-            grp_slug = slugify(grp_title)[:40] or slugify(grp_id)
+        if layer == "lessons":
+            unit_id = gram_data.get("unitId") or category
+            unit_level = normalize_level(gram_data.get("level", "a1"))
+            unit_title = gram_data.get("title") or unit_id
+            unit_slug = slugify(unit_title)[:40] or slugify(category)
 
-            base_id = f"{lang}-gram-{grp_level}-{slugify(category)}-{grp_slug}"
+            base_id = f"{lang}-gram-{unit_level}-lesson-{unit_slug}"
             canonical_id = base_id
             counter = 1
             while canonical_id in global_ids:
-                h = hashlib.md5(f"{rel_path}:{grp_id}:{idx}:{counter}".encode('utf-8')).hexdigest()[:6]
+                h = hashlib.md5(f"{rel_path}:{unit_id}:{counter}".encode('utf-8')).hexdigest()[:6]
                 canonical_id = f"{base_id}-{h}"
                 counter += 1
 
@@ -199,19 +198,52 @@ def main():
 
             entry = {
                 "word_id": canonical_id,
-                "legacy_id": grp_id,
-                "word": grp_title,
-                "pos": "grammar_rule",
-                "level": grp_level.upper(),
+                "legacy_id": unit_id,
+                "word": unit_title,
+                "pos": "lesson_unit",
+                "level": unit_level.upper(),
                 "grammar": {
                     "file": rel_path,
                     "layer": layer,
                     "category": category,
-                    "group_id": grp_id
+                    "group_id": unit_id
                 },
                 "grammar_refs": []
             }
             indexes_by_lang[lang].append(entry)
+        else:
+            groups = gram_data.get("groups", [])
+            for idx, grp in enumerate(groups):
+                grp_id = grp.get("id") or "group"
+                grp_level = normalize_level(grp.get("level", "a1"))
+                grp_title = grp.get("title") or grp.get("name") or grp_id
+                grp_slug = slugify(grp_title)[:40] or slugify(grp_id)
+
+                base_id = f"{lang}-gram-{grp_level}-{slugify(category)}-{grp_slug}"
+                canonical_id = base_id
+                counter = 1
+                while canonical_id in global_ids:
+                    h = hashlib.md5(f"{rel_path}:{grp_id}:{idx}:{counter}".encode('utf-8')).hexdigest()[:6]
+                    canonical_id = f"{base_id}-{h}"
+                    counter += 1
+
+                global_ids.add(canonical_id)
+
+                entry = {
+                    "word_id": canonical_id,
+                    "legacy_id": grp_id,
+                    "word": grp_title,
+                    "pos": "grammar_rule",
+                    "level": grp_level.upper(),
+                    "grammar": {
+                        "file": rel_path,
+                        "layer": layer,
+                        "category": category,
+                        "group_id": grp_id
+                    },
+                    "grammar_refs": []
+                }
+                indexes_by_lang[lang].append(entry)
 
     # 3. Write index files under data/index/[lang]_index.json
     output_dir = os.path.join(PROJECT_ROOT, "data", "index")

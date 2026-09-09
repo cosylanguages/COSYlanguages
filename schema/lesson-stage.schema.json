@@ -1,14 +1,18 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://cosylanguages.com/schemas/lesson-stage.schema.json",
-  "title": "CELTA-Style Lesson Unit Stage",
-  "description": "Schema for CELTA-style lesson units covering presentation, practice, and production stages.",
+  "title": "CELTA-Style 6-Stage Lesson Unit",
+  "description": "Schema for CELTA-style lesson units covering leadIn, meaningCheck, form, pronunciation, controlledPractice, freerPractice, and production stages.",
   "type": "object",
   "required": [
     "unitId",
+    "title",
+    "level",
+    "language",
     "leadIn",
     "meaningCheck",
     "form",
+    "pronunciation",
     "controlledPractice",
     "freerPractice",
     "production"
@@ -16,59 +20,85 @@
   "properties": {
     "unitId": {
       "type": "string",
-      "description": "Unique identifier for the lesson stage unit."
+      "description": "Unique identifier for the lesson unit."
+    },
+    "title": {
+      "type": "string",
+      "description": "The title of the grammar topic or lesson."
+    },
+    "level": {
+      "type": "string",
+      "description": "CEFR level code, e.g., A1, A2, B1."
+    },
+    "language": {
+      "type": "string",
+      "description": "ISO language code, e.g., en, fr, ru."
     },
     "leadIn": {
-      "type": "string",
-      "description": "Lead-in activity description to engage context and schema."
+      "type": "object",
+      "required": ["title", "content"],
+      "properties": {
+        "title": { "type": "string" },
+        "content": { "type": "string" },
+        "mediaRefs": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": false
     },
     "meaningCheck": {
       "type": "array",
-      "description": "List of CCQ references or inline CCQ objects used for checking meaning.",
+      "description": "Array of choice-based CCQ objects.",
       "items": {
-        "oneOf": [
-          {
-            "type": "string",
-            "description": "Reference to a CCQ target item or CCQ ID."
-          },
-          {
-            "$ref": "ccq.schema.json"
-          }
-        ]
+        "$ref": "ccq.schema.json"
       }
     },
     "form": {
-      "type": "string",
-      "description": "Explanation or clarification of the grammatical / lexical form."
+      "type": "object",
+      "required": ["title", "content"],
+      "properties": {
+        "title": { "type": "string" },
+        "content": { "type": "string" },
+        "mediaRefs": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": false
     },
-    "pronunciationDrill": {
-      "type": "string",
-      "description": "Optional pronunciation drill notes (intonation, stress, phonetics)."
+    "pronunciation": {
+      "type": "object",
+      "required": ["title", "content"],
+      "properties": {
+        "title": { "type": "string" },
+        "content": { "type": "string" },
+        "mediaRefs": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": false
     },
     "controlledPractice": {
       "type": "array",
-      "description": "References to COSYtools or COSYgames practice items.",
+      "description": "Array of choice-based controlled practice items using the same shape as CCQs.",
       "items": {
-        "type": "string"
+        "$ref": "ccq.schema.json"
       }
     },
     "freerPractice": {
-      "type": "array",
-      "description": "References to COSYgames or COSYevents practice items.",
-      "items": {
-        "type": "string"
-      }
+      "type": "object",
+      "required": ["title", "content"],
+      "properties": {
+        "title": { "type": "string" },
+        "content": { "type": "string" },
+        "links": { "type": "array", "items": { "type": "string" } },
+        "mediaRefs": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": false
     },
     "production": {
-      "type": "array",
-      "description": "References to COSYworld quests or COSYevents club sessions.",
-      "items": {
-        "type": "string"
-      }
-    },
-    "feedbackNotes": {
-      "type": "string",
-      "description": "Optional notes for post-activity feedback or error correction."
+      "type": "object",
+      "required": ["title", "content"],
+      "properties": {
+        "title": { "type": "string" },
+        "content": { "type": "string" },
+        "links": { "type": "array", "items": { "type": "string" } },
+        "mediaRefs": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": false
     }
   },
   "additionalProperties": false

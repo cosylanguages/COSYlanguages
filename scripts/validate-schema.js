@@ -47,6 +47,32 @@ if (hasErrors) {
   process.exit(1);
 }
 
+// Custom runtime validator function for CCQ choice constraints
+function validateCCQChoiceItem(item, pathPrefix) {
+  let itemErrors = false;
+  if (!item || typeof item !== 'object') {
+    console.error(`✗ ${pathPrefix}: CCQ item is not an object`);
+    return false;
+  }
+  if (!item.question || typeof item.question !== 'string') {
+    console.error(`✗ ${pathPrefix}: CCQ item missing required 'question' string`);
+    itemErrors = true;
+  }
+  if (!Array.isArray(item.options) || item.options.length < 2) {
+    console.error(`✗ ${pathPrefix}: CCQ item requires options array with at least 2 items`);
+    itemErrors = true;
+  }
+  if (typeof item.correctOptionIndex !== 'number' || item.correctOptionIndex < 0 || (Array.isArray(item.options) && item.correctOptionIndex >= item.options.length)) {
+    console.error(`✗ ${pathPrefix}: correctOptionIndex (${item.correctOptionIndex}) is out of bounds for options length (${item.options ? item.options.length : 0})`);
+    itemErrors = true;
+  }
+  if (item.correctAnswer !== undefined || item.ccq !== undefined) {
+    console.error(`✗ ${pathPrefix}: free-text fields ('correctAnswer' / 'ccq') are not permitted on choice-based CCQs`);
+    itemErrors = true;
+  }
+  return !itemErrors;
+}
+
 // 2. Extract and validate embedded examples from schema/README.md if present
 const readmePath = path.join(SCHEMA_DIR, 'README.md');
 if (fs.existsSync(readmePath)) {
@@ -58,14 +84,15 @@ if (fs.existsSync(readmePath)) {
       const cleanJson = block.replace(/^```json\n/, '').replace(/\n```$/, '');
       try {
         const parsed = JSON.parse(cleanJson);
-        // Determine which schema matches
         let validated = false;
 
-        if (parsed.ccq !== undefined) {
+        if (parsed.question !== undefined || parsed.ccq !== undefined || parsed.correctAnswer !== undefined) {
           const validate = ajv.getSchema('ccq.schema.json');
           if (validate && !validate(parsed)) {
             console.error(`✗ README Example #${index + 1} failed ccq.schema.json validation:`);
             console.error(validate.errors);
+            hasErrors = true;
+          } else if (!validateCCQChoiceItem(parsed, `README Example #${index + 1}`)) {
             hasErrors = true;
           } else {
             console.log(`✓ README Example #${index + 1} validated against ccq.schema.json`);
@@ -105,12 +132,6 @@ if (fs.existsSync(readmePath)) {
 }
 
 // 3. Scan live schema-linked data directories for real content files.
-//    Conventions:
-//      reference-grammar/<lang>/lessons/*.json      -> lesson-stage.schema.json
-//      reference-grammar/<lang>/ccq/*.json          -> ccq.schema.json
-//      reference-grammar/<lang>/verb-patterns/*.json -> verb-pattern.schema.json
-//    Files are matched by data shape, not path alone, so a lesson-stage
-//    file with inline CCQs validates both the outer unit and each inline CCQ.
 function walkDir(dir) {
   const results = [];
   if (!fs.existsSync(dir)) return results;
@@ -155,20 +176,40 @@ for (const dataDir of [path.join(ROOT_DIR, 'reference-grammar')]) {
       } else {
         console.log(`✓ ${rel}: validated against lesson-stage.schema.json`);
       }
+
       const meaningChecks = Array.isArray(parsed.meaningCheck) ? parsed.meaningCheck : [];
       meaningChecks.forEach((mc, i) => {
-        if (mc && typeof mc === 'object' && mc.targetItem !== undefined) {
+        if (mc && typeof mc === 'object') {
           if (ccqValidator && !ccqValidator(mc)) {
             console.error(`✗ ${rel}: inline meaningCheck[${i}] failed ccq.schema.json`);
             console.error(ccqValidator.errors);
             hasErrors = true;
           }
+          if (!validateCCQChoiceItem(mc, `${rel} inline meaningCheck[${i}]`)) {
+            hasErrors = true;
+          }
         }
       });
-    } else if (parsed.targetItem !== undefined) {
+
+      const controlledPractice = Array.isArray(parsed.controlledPractice) ? parsed.controlledPractice : [];
+      controlledPractice.forEach((cp, i) => {
+        if (cp && typeof cp === 'object') {
+          if (ccqValidator && !ccqValidator(cp)) {
+            console.error(`✗ ${rel}: inline controlledPractice[${i}] failed ccq.schema.json`);
+            console.error(ccqValidator.errors);
+            hasErrors = true;
+          }
+          if (!validateCCQChoiceItem(cp, `${rel} inline controlledPractice[${i}]`)) {
+            hasErrors = true;
+          }
+        }
+      });
+    } else if (parsed.question !== undefined || parsed.ccq !== undefined || parsed.correctAnswer !== undefined) {
       if (ccqValidator && !ccqValidator(parsed)) {
         console.error(`✗ ${rel}: failed ccq.schema.json`);
         console.error(ccqValidator.errors);
+        hasErrors = true;
+      } else if (!validateCCQChoiceItem(parsed, rel)) {
         hasErrors = true;
       } else {
         console.log(`✓ ${rel}: validated against ccq.schema.json`);

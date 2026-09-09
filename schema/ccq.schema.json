@@ -1,35 +1,41 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://cosylanguages.com/schemas/ccq.schema.json",
-  "title": "Concept Checking Question (CCQ)",
-  "description": "Schema for Concept Checking Questions. The ccq field must be answerable yes/no or with a short factual answer, and must never ask the learner to translate.",
+  "title": "Concept Checking Question / Choice Item",
+  "description": "Schema for interactive choice-based concept checking questions and practice items. Every CCQ must be a choice item with options, correctOptionIndex, and explanation.",
   "type": "object",
   "required": [
-    "targetItem",
-    "language",
-    "ccq",
-    "answer"
+    "question",
+    "targetStructure",
+    "options",
+    "correctOptionIndex",
+    "explanation"
   ],
   "properties": {
-    "targetItem": {
+    "question": {
+      "type": "string",
+      "description": "The question text checking concept or target structure."
+    },
+    "targetStructure": {
       "type": "string",
       "description": "The word, phrase, or target grammar/vocabulary structure being checked."
     },
-    "language": {
-      "type": "string",
-      "description": "The ISO language code or language name for the target item."
+    "options": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 2,
+      "description": "2-3 short option choices matching the .qopt buttons on the page."
     },
-    "ccq": {
-      "type": "string",
-      "description": "The concept checking question. Must be answerable yes/no or with a short factual answer, and must never ask the learner to translate."
+    "correctOptionIndex": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Zero-based index of the correct answer in the options array."
     },
-    "answer": {
+    "explanation": {
       "type": "string",
-      "description": "The expected answer (e.g. 'Yes', 'No', or a short factual response)."
-    },
-    "distractor": {
-      "type": "string",
-      "description": "An optional incorrect or distractor response for multiple-choice checks."
+      "description": "Explanation text displayed after answering."
     }
   },
   "additionalProperties": false
