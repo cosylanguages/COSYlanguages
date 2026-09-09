@@ -18,10 +18,6 @@ LANGUAGES = {
         'name': 'English',
         'flag': '🇬🇧',
         'slug': 'english',
-        'nouns_title': '🏛️ 1. Essential English Nouns (A0–A1)',
-        'verbs_title': '⚡ 2. Essential English Verbs (Antonyms & Progression Sequences)',
-        'adj_title': '🎨 3. Essential English Adjectives (Opposites & Intensity Scales)',
-        'phrases_title': '💬 4. Essential English Survival Phrases & Expressions',
         'sub': 'A0–A1 Master Curriculum',
         'intro': 'Planning to start learning English? Here is the complete, obligatory beginner blueprint: essential nouns across real-life themes, action verbs grouped in antonym pairs and step-by-step evolutions, descriptive adjectives in opposite pairs and intensity scales, and essential conversational survival phrase patterns.'
     },
@@ -29,10 +25,6 @@ LANGUAGES = {
         'name': 'French',
         'flag': '🇫🇷',
         'slug': 'french',
-        'nouns_title': '🏛️ 1. Essential French Nouns (A0–A1)',
-        'verbs_title': '⚡ 2. Essential French Verbs (A0–A1)',
-        'adj_title': '🎨 3. Essential French Adjectives (A0–A1)',
-        'phrases_title': '💬 4. Essential French Expressions & Survival Phrases',
         'sub': 'A0–A1 Master Curriculum',
         'intro': 'Planning to start learning French? Here is the complete beginner blueprint extracted directly from our native A1 curriculum: essential nouns, action verbs, descriptive adjectives, and conversational expressions with monolingual definitions and examples.'
     },
@@ -40,10 +32,6 @@ LANGUAGES = {
         'name': 'Italian',
         'flag': '🇮🇹',
         'slug': 'italian',
-        'nouns_title': '🏛️ 1. Essential Italian Nouns (A0–A1)',
-        'verbs_title': '⚡ 2. Essential Italian Verbs (A0–A1)',
-        'adj_title': '🎨 3. Essential Italian Adjectives (A0–A1)',
-        'phrases_title': '💬 4. Essential Italian Expressions & Survival Phrases',
         'sub': 'A0–A1 Master Curriculum',
         'intro': 'Planning to start learning Italian? Here is the complete beginner blueprint: essential nouns, action verbs, adjectives, and conversational phrase patterns with monolingual Italian definitions.'
     },
@@ -51,10 +39,6 @@ LANGUAGES = {
         'name': 'Russian',
         'flag': '🇷🇺',
         'slug': 'russian',
-        'nouns_title': '🏛️ 1. Essential Russian Nouns (A0–A1)',
-        'verbs_title': '⚡ 2. Essential Russian Verbs (A0–A1)',
-        'adj_title': '🎨 3. Essential Russian Adjectives (A0–A1)',
-        'phrases_title': '💬 4. Essential Russian Expressions & Idioms',
         'sub': 'A0–A1 Master Curriculum',
         'intro': 'Planning to start learning Russian? Here is the complete beginner blueprint in Cyrillic with Latin transliterations: essential nouns, action verbs, adjectives, and expressions with monolingual definitions.'
     },
@@ -62,10 +46,6 @@ LANGUAGES = {
         'name': 'Greek',
         'flag': '🇬🇷',
         'slug': 'greek',
-        'nouns_title': '🏛️ 1. Essential Greek Nouns (A0–A1)',
-        'verbs_title': '⚡ 2. Essential Greek Verbs (A0–A1)',
-        'adj_title': '🎨 3. Essential Greek Adjectives (A0–A1)',
-        'phrases_title': '💬 4. Essential Greek Expressions & Phrases',
         'sub': 'A0–A1 Master Curriculum',
         'intro': 'Planning to start learning Greek? Here is the complete beginner blueprint in Greek script with Latin transliterations: essential nouns, action verbs, adjectives, and everyday expressions.'
     },
@@ -73,10 +53,6 @@ LANGUAGES = {
         'name': 'Spanish',
         'flag': '🇪🇸',
         'slug': 'spanish',
-        'nouns_title': '🏛️ 1. Essential Spanish Nouns (A0–A1)',
-        'verbs_title': '⚡ 2. Essential Spanish Verbs (A0–A1)',
-        'adj_title': '🎨 3. Essential Spanish Adjectives (A0–A1)',
-        'phrases_title': '💬 4. Essential Spanish Expressions & Phrases',
         'sub': 'A0–A1 Master Curriculum',
         'intro': 'Planning to start learning Spanish? Here is the complete beginner blueprint: essential nouns, action verbs, descriptive adjectives, and conversational phrase patterns.'
     },
@@ -84,10 +60,6 @@ LANGUAGES = {
         'name': 'German',
         'flag': '🇩🇪',
         'slug': 'german',
-        'nouns_title': '🏛️ 1. Essential German Nouns (A0–A1)',
-        'verbs_title': '⚡ 2. Essential German Verbs (A0–A1)',
-        'adj_title': '🎨 3. Essential German Adjectives (A0–A1)',
-        'phrases_title': '💬 4. Essential German Expressions & Phrases',
         'sub': 'A0–A1 Master Curriculum',
         'intro': 'Planning to start learning German? Here is the complete beginner blueprint: essential nouns, action verbs, adjectives, and conversational phrase patterns.'
     },
@@ -95,10 +67,6 @@ LANGUAGES = {
         'name': 'Portuguese',
         'flag': '🇵🇹',
         'slug': 'portuguese',
-        'nouns_title': '🏛️ 1. Essential Portuguese Nouns (A0–A1)',
-        'verbs_title': '⚡ 2. Essential Portuguese Verbs (A0–A1)',
-        'adj_title': '🎨 3. Essential Portuguese Adjectives (A0–A1)',
-        'phrases_title': '💬 4. Essential Portuguese Expressions & Phrases',
         'sub': 'A0–A1 Master Curriculum',
         'intro': 'Planning to start learning Portuguese? Here is the complete beginner blueprint: essential nouns, action verbs, adjectives, and conversational phrase patterns.'
     },
@@ -106,10 +74,6 @@ LANGUAGES = {
         'name': 'Armenian',
         'flag': '🇦🇲',
         'slug': 'armenian',
-        'nouns_title': '🏛️ 1. Essential Armenian Nouns (A0–A1)',
-        'verbs_title': '⚡ 2. Essential Armenian Verbs (A0–A1)',
-        'adj_title': '🎨 3. Essential Armenian Adjectives (A0–A1)',
-        'phrases_title': '💬 4. Essential Armenian Expressions & Phrases',
         'sub': 'A0–A1 Master Curriculum',
         'intro': 'Planning to start learning Armenian? Here is the complete beginner blueprint in Armenian script with Latin transliterations: essential nouns, action verbs, adjectives, and everyday expressions.'
     },
@@ -117,10 +81,6 @@ LANGUAGES = {
         'name': 'Georgian',
         'flag': '🇬🇪',
         'slug': 'georgian',
-        'nouns_title': '🏛️ 1. Essential Georgian Nouns (A0–A1)',
-        'verbs_title': '⚡ 2. Essential Georgian Verbs (A0–A1)',
-        'adj_title': '🎨 3. Essential Georgian Adjectives (A0–A1)',
-        'phrases_title': '💬 4. Essential Georgian Expressions & Phrases',
         'sub': 'A0–A1 Master Curriculum',
         'intro': 'Planning to start learning Georgian? Here is the complete beginner blueprint in Mkhedruli script with Latin transliterations: essential nouns, action verbs, adjectives, and conversational expressions.'
     },
@@ -128,10 +88,6 @@ LANGUAGES = {
         'name': 'Tatar',
         'flag': '⬜',
         'slug': 'tatar',
-        'nouns_title': '🏛️ 1. Essential Tatar Nouns (A0–A1)',
-        'verbs_title': '⚡ 2. Essential Tatar Verbs (A0–A1)',
-        'adj_title': '🎨 3. Essential Tatar Adjectives (A0–A1)',
-        'phrases_title': '💬 4. Essential Tatar Expressions & Phrases',
         'sub': 'A0–A1 Master Curriculum',
         'intro': 'Planning to start learning Tatar? Here is the complete beginner blueprint in Tatar script with Latin transliterations: essential nouns, action verbs, adjectives, and expressions.'
     },
@@ -139,10 +95,6 @@ LANGUAGES = {
         'name': 'Bashkir',
         'flag': '⬜',
         'slug': 'bashkir',
-        'nouns_title': '🏛️ 1. Essential Bashkir Nouns (A0–A1)',
-        'verbs_title': '⚡ 2. Essential Bashkir Verbs (A0–A1)',
-        'adj_title': '🎨 3. Essential Bashkir Adjectives (A0–A1)',
-        'phrases_title': '💬 4. Essential Bashkir Expressions & Phrases',
         'sub': 'A0–A1 Master Curriculum',
         'intro': 'Planning to start learning Bashkir? Here is the complete beginner blueprint in Bashkir script with Latin transliterations: essential nouns, action verbs, adjectives, and expressions.'
     },
@@ -150,10 +102,6 @@ LANGUAGES = {
         'name': 'Breton',
         'flag': '🏴‍☠️',
         'slug': 'breton',
-        'nouns_title': '🏛️ 1. Essential Breton Nouns (A0–A1)',
-        'verbs_title': '⚡ 2. Essential Breton Verbs (A0–A1)',
-        'adj_title': '🎨 3. Essential Breton Adjectives (A0–A1)',
-        'phrases_title': '💬 4. Essential Breton Expressions & Phrases',
         'sub': 'A0–A1 Master Curriculum',
         'intro': 'Planning to start learning Breton? Here is the complete beginner blueprint: essential nouns, action verbs, adjectives, and conversational phrase patterns.'
     }
@@ -544,10 +492,6 @@ def generate_cards_html_target(lang_code, items_list):
 def generate_page(lang_code, lang_info):
     name = lang_info['name']
     flag = lang_info['flag']
-    nouns_title = lang_info['nouns_title']
-    verbs_title = lang_info['verbs_title']
-    adj_title = lang_info['adj_title']
-    phrases_title = lang_info['phrases_title']
     intro = lang_info['intro']
 
     if lang_code == 'en':
@@ -585,13 +529,19 @@ def generate_page(lang_code, lang_info):
         adj_count = len(adj_list)
         phrases_count = len(phrases_list)
 
+    total_count = nouns_count + verbs_count + adj_count + phrases_count
+    nouns_title = f"🏛️ 1. Top 100 ({nouns_count}) Essential {name} Nouns (A0–A1)"
+    verbs_title = f"⚡ 2. Top 100 ({verbs_count}) Essential {name} Verbs (A0–A1)"
+    adj_title = f"🎨 3. Top 100 ({adj_count}) Essential {name} Adjectives (A0–A1)"
+    phrases_title = f"💬 4. Top 100 ({phrases_count}) Essential {name} Expressions & Phrases (A0–A1)"
+
     html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Essential {name} A0-A1 Master List (Nouns, Verbs, Adjectives & Phrases) — COSY Blog</title>
-    <meta name="description" content="The ultimate A0-A1 {name} vocabulary blueprint: essential nouns, action verbs, descriptive adjectives, and survival phrase patterns for beginners.">
+    <title>Top 100 ({total_count}) {name} A0-A1 Master List (Nouns, Verbs, Adjectives & Phrases) — COSY Blog</title>
+    <meta name="description" content="The ultimate Top 100 ({total_count}) A0-A1 {name} vocabulary blueprint: essential nouns, action verbs, descriptive adjectives, and survival phrase patterns for beginners.">
     <link rel="icon" href="../images/logos/cosylanguages.png">
     <link rel="manifest" href="../apps/free-portal/manifest.json">
     <meta name="theme-color" content="#FAF7F2">
@@ -707,7 +657,7 @@ def generate_page(lang_code, lang_info):
             <div class="post-breadcrumb">
                 <a href="index.html">← Back to Blog Hub</a>
             </div>
-            <h1>{flag} Essential {name} A0-A1 Master Curriculum List</h1>
+            <h1>{flag} Top 100 ({total_count}) {name} A0-A1 Master List</h1>
             <p>{intro}</p>
         </header>
 
@@ -788,7 +738,7 @@ def generate_page(lang_code, lang_info):
     filepath = os.path.join("blog", filename)
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(html)
-    print(f"Generated {filepath} (Nouns: {nouns_count}, Verbs: {verbs_count}, Adj: {adj_count}, Phrases: {phrases_count})")
+    print(f"Generated {filepath} (Total: {total_count} -> Nouns: {nouns_count}, Verbs: {verbs_count}, Adj: {adj_count}, Phrases: {phrases_count})")
 
 def main():
     for lang_code, lang_info in LANGUAGES.items():
