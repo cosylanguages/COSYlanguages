@@ -12,8 +12,8 @@
           "type": "spoken",
           "title": "Allocution de direction générale, rectorat et grandes orientations",
           "grammar": [
-            "Changement de registre fluide et maîtrise des figures de style",
-            "Aisance oratoire face aux marchés, universitaires et analystes"
+            "Alternance de registres et maîtrise des figures rhétoriques dans les discours de direction",
+            "Assurance oratoire devant les institutions financières internationales"
           ],
           "vocabulary": [
             "Visionnaire",
@@ -30,8 +30,8 @@
           "type": "vocab",
           "title": "Rédiger des notes de cadrage réglementaire et gouvernemental",
           "grammar": [
-            "Nominalisation administrative dense",
-            "Style juridique et réglementaire de haut niveau"
+            "Nominalisation administrative et juridique dense",
+            "Style officiel et juridique élevé"
           ],
           "vocabulary": [
             "Jurisprudence",
@@ -49,8 +49,8 @@
           "type": "gv",
           "title": "Gestion de crise grave et protection de la réputation",
           "grammar": [
-            "Syntaxe de désamorçage et précision juridique absolue",
-            "Maîtrise du discours sous haute pression contradictoire"
+            "Syntaxe de désescalade et précision juridique des formulations",
+            "Maîtrise du discours sous contradiction ferme"
           ],
           "vocabulary": [
             "Passif",
@@ -68,8 +68,8 @@
           "type": "spoken",
           "title": "Assemblée générale des actionnaires & Discours du président",
           "grammar": [
-            "Maîtrise du rythme oratoire et de la cadence",
-            "Formulations rhétoriques de présentation des comptes et risques"
+            "Gestion du rythme et de la cadence du discours officiel",
+            "Formulations rhétoriques de présentation des rapports et risques"
           ],
           "vocabulary": [
             "Actionnaire",
@@ -93,8 +93,8 @@
           "type": "spoken",
           "title": "Gouvernance du conseil et responsabilité fiduciaire",
           "grammar": [
-            "Modalité déontique dans les statuts (Le conseil veille à, Les administrateurs sont tenus de...)",
-            "Précision du droit des sociétés"
+            "Modalité déontique des statuts d’entreprise (Le Conseil contrôle, Les membres sont tenus de)",
+            "Précision de la base notionnelle du droit des sociétés"
           ],
           "vocabulary": [
             "Fiduciaire",
@@ -112,8 +112,8 @@
           "type": "spoken",
           "title": "Arbitrer les conflits d'actionnaires et investisseurs activistes",
           "grammar": [
-            "Syntaxe de maîtrise des débats et gestion des ordres du jour complexes",
-            "Formulations de neutralisation des tentatives de prise de contrôle"
+            "Syntaxe de maintien de l’ordre du jour et de neutralisation des attaques",
+            "Formulations de réplique aux tentatives d’OPA hostile"
           ],
           "vocabulary": [
             "Activiste",
@@ -131,8 +131,8 @@
           "type": "gv",
           "title": "Naviguer le droit de la concurrence et régulations mondiales",
           "grammar": [
-            "Conditionnalité juridique des réglementations antitrust",
-            "Subtilités d'expression des exemptions et dérogations"
+            "Subordonnées complexes du droit de la concurrence",
+            "Formulations des clauses d’exception et d’exemption"
           ],
           "vocabulary": [
             "Antitrust",
@@ -150,8 +150,8 @@
           "type": "vocab",
           "title": "Éthique de direction, alerte éthique et intégrité institutionnelle",
           "grammar": [
-            "Rhétorique de l'intégrité morale et des valeurs d'entreprise",
-            "Constructions infinitives dans la mise en œuvre des chartes éthiques"
+            "Rhétorique de la réputation d’affaires et de la responsabilité morale",
+            "Constructions infinitives dans les codes d’éthique"
           ],
           "vocabulary": [
             "Intégrité",
@@ -175,8 +175,8 @@
           "type": "spoken",
           "title": "Allocutions lors de sommets internationaux et forums économiques",
           "grammar": [
-            "Registre oratoire soutenu avec résonance métaphorique",
-            "Maîtrise de la persuasion (éthos, pathos, logos)"
+            "Registre oratoire élevé avec utilisation de métaphores",
+            "Maîtrise de la triade rhétorique (Éthos, Pathos, Logos)"
           ],
           "vocabulary": [
             "Géopolitique",
@@ -194,8 +194,8 @@
           "type": "spoken",
           "title": "Interviews télévisées en direct et gestion de crise sur le plateau",
           "grammar": [
-            "Techniques immédiates de recadrage et de réorientation de question",
-            "Démonstration de sérénité absolue sous les projecteurs"
+            "Syntaxe de recadrage instantané des questions en direct",
+            "Formulations impersonnelles et passives d’esquive"
           ],
           "vocabulary": [
             "Interrogatoire",
@@ -213,8 +213,8 @@
           "type": "gv",
           "title": "Rédiger des ouvrages de référence et essais d'économie",
           "grammar": [
-            "Style littéraire et analytique pour essais d'entreprise",
-            "Moyens de cohésion textuelle sur des écrits longs"
+            "Style littéraire et publicistique combiné à la profondeur analytique",
+            "Moyens de cohésion inter-paragraphes dans les textes longs"
           ],
           "vocabulary": [
             "Monographie",
@@ -232,8 +232,8 @@
           "type": "spoken",
           "title": "Présider des commissions d'experts et conseils de sages",
           "grammar": [
-            "Conduite de réunion d'experts de haut niveau",
-            "Synthèse de positions divergentes en un rapport unifié"
+            "Syntaxe de conduite des discussions entre experts",
+            "Synthèse de positions opposées dans un document conceptuel"
           ],
           "vocabulary": [
             "Commission",
@@ -257,8 +257,8 @@
           "type": "spoken",
           "title": "Négociations commerciales avec des entités souveraines",
           "grammar": [
-            "Registre protocolaire diplomatique pour l'échange avec les États",
-            "Précision des engagements politico-juridiques"
+            "Style protocolaire et diplomatique de niveau souverain",
+            "Formulations juridiquement irréprochables des engagements internationaux"
           ],
           "vocabulary": [
             "Souverain",
@@ -276,8 +276,8 @@
           "type": "gv",
           "title": "Accords internationaux multipartites et grands consortiums",
           "grammar": [
-            "Cadres conditionnels complexes dans les contrats multilatéraux",
-            "Formulations pour concilier des intérêts nationaux divergents"
+            "Réseaux syntaxiques hypothétiques complexes des accords multilatéraux",
+            "Équilibrage des intérêts géopolitiques"
           ],
           "vocabulary": [
             "Consortium",
@@ -295,8 +295,8 @@
           "type": "gv",
           "title": "Défense contre les OPA hostiles et impasses majeures",
           "grammar": [
-            "Formulations de moyens de pression tactique",
-            "Désemparer l'adversaire dans les moments de blocage"
+            "Syntaxe du levier tactique de pression",
+            "Neutralisation des pressions dans les points de blocage"
           ],
           "vocabulary": [
             "Hostile",
@@ -314,8 +314,8 @@
           "type": "spoken",
           "title": "Finaliser les grandes fusions et ratifier les accords d'État",
           "grammar": [
-            "Maîtrise de la langue de ratification juridique",
-            "Style solennel des cérémonies de signature"
+            "Langage de la ratification juridique et de l’entrée en vigueur",
+            "Style solennel et cérémonial"
           ],
           "vocabulary": [
             "Ratifier",
@@ -339,8 +339,8 @@
           "type": "spoken",
           "title": "Entretenir des réseaux décisionnels mondiaux et grands cercles",
           "grammar": [
-            "Aisance conversationnelle de très haut niveau",
-            "Gestion des rapports de pouvoir dans les cercles décisionnels"
+            "Style de conversation mondaine de la haute société des affaires",
+            "Gestion des signaux non-verbaux et sous-textuels de statut"
           ],
           "vocabulary": [
             "Élite",
@@ -358,8 +358,8 @@
           "type": "spoken",
           "title": "Mécénat international, fondations et responsabilité d'entreprise",
           "grammar": [
-            "Phrasé de la transmission et de l'impact sociétal",
-            "Concilier réussite économique et engagement éthique mondial"
+            "Langage de la responsabilité sociale et de la philanthropie",
+            "Alliance de la réussite commerciale et de la mission sociale"
           ],
           "vocabulary": [
             "Mécénat",
@@ -377,8 +377,8 @@
           "type": "vocab",
           "title": "Parrainage d'événements culturels et sportifs majeurs",
           "grammar": [
-            "Syntaxe d'alignement des valeurs de marque",
-            "Finesses des contrats de partenariat de prestige"
+            "Formulation du partenariat de valeurs de marque",
+            "Nuances juridiques des contrats de sponsoring de prestige"
           ],
           "vocabulary": [
             "Parrainage",
@@ -396,8 +396,8 @@
           "type": "spoken",
           "title": "Présider des alliances sectorielles et organisations patronales",
           "grammar": [
-            "Marqueurs de consensus inter-entreprises concurrentes",
-            "Représentation diplomatique du patronat auprès des gouvernements"
+            "Syntaxe d’élaboration de consensus entre géants concurrents",
+            "Lobbying des intérêts de la branche auprès des autorités"
           ],
           "vocabulary": [
             "Alliance",
@@ -421,8 +421,8 @@
           "type": "vocab",
           "title": "Constituer un portfolio d'administrateur et dossiers exécutifs",
           "grammar": [
-            "Style synthétique et prestigieux des biographies de dirigeants",
-            "Mise en valeur d'une carrière de gouvernance"
+            "Style condensé des biographies de haut dirigeants",
+            "Valorisation de l’expérience d’administration"
           ],
           "vocabulary": [
             "Portfolio",
@@ -440,8 +440,8 @@
           "type": "gv",
           "title": "Recrutement du président du conseil et succession du CEO",
           "grammar": [
-            "Techniques d'entretien d'évaluation de la vision des futurs dirigeants",
-            "Formulation de critères de succession de haute direction"
+            "Techniques d’interrogation sur la philosophie de gestion",
+            "Élaboration des critères de succession de la direction générale"
           ],
           "vocabulary": [
             "Succession",
@@ -459,8 +459,8 @@
           "type": "spoken",
           "title": "Négocier les contrats de dirigeants, parachutes et indemnités",
           "grammar": [
-            "Inviolabilité contractuelle en droit de la rémunération des dirigeants",
-            "Négociation des clauses d'indemnité, de non-concurrence et de restitution"
+            "Formulations juridiques strictes des contrats de rémunération",
+            "Conditions de réalisation des parachutes dorés et clauses de non-concurrence"
           ],
           "vocabulary": [
             "Parachute doré",
@@ -478,8 +478,8 @@
           "type": "srev",
           "title": "Audits de gouvernance et évaluation du conseil d'administration",
           "grammar": [
-            "Maîtrise du discours d'audit institutionnel",
-            "Formulation d'objectifs de transformation de la gouvernance"
+            "Maîtrise de l’analyse institutionnelle et des rapports",
+            "Formulation des objectifs de transformation de la gouvernance"
           ],
           "vocabulary": [
             "Évaluation",

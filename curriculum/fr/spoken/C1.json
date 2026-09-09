@@ -13,8 +13,8 @@
           "title": "Procédés rhétoriques & Monologues persuasifs",
           "duration_minutes": 60,
           "grammar": [
-            "Inversion pour l'emphase (Non seulement devons-nous..., Rarement a-t-on vu)",
-            "Phrases clivées avancées (Ce qui nous importe le plus, c'est...)"
+            "Inversion du sujet pour effet d’insistance orale",
+            "Phrases clivées complexes à l’oral (Ce qui nous importe le plus, c’est...)"
           ],
           "vocabulary": [
             "Convaincant",
@@ -37,8 +37,8 @@
           "title": "Humour nuancé, ironie & Cadrage discret des débats",
           "duration_minutes": 60,
           "grammar": [
-            "Formes du subjonctif dans le discours diplomatique",
-            "Métaphores et tournures imagées soutenues"
+            "Subjonctif de politesse et tournures atténuées",
+            "Tournures modales d’atténuation"
           ],
           "vocabulary": [
             "Nuance",
@@ -53,7 +53,10 @@
           ],
           "speaking_percent": 85,
           "teacher_notes": "code: \"FR-SPK-C1-002\"\ncando: \"Peut utiliser un humour subtil et une ironie diplomatique pour désamorcer les échanges oraux tendus.\"\ntask: \"Modération de débat : apaiser un échange vif en ayant recours à une litote et à une pointe d'esprit.\"\nspeaking_focus: \"Mise en œuvre d'une prosodie contrôlée et d'un ton pince-sans-rire.\"",
-          "recycled": "Inversion pour l'emphase, Phrases clivées avancées, Éloquence, Résonner"
+          "recycled": "Inversion pour l'emphase, Phrases clivées avancées, Éloquence, Résonner",
+          "discourse": [
+            "Humour subversif, ironie et atténuation dans le débat oral"
+          ]
         },
         {
           "lesson": 3,
@@ -61,8 +64,8 @@
           "title": "Anticipation syntaxique & Effets de style oratoires",
           "duration_minutes": 60,
           "grammar": [
-            "Inversion après adverbes négatifs ou restrictifs (À peine avions-nous..., Rarement...)",
-            "Mise en relief prépositionnelle pour effet dramatique"
+            "Inversion après adverbes restrictifs à l’oral (À peine..., À aucun moment...)",
+            "Antéposition du complément prépositionnel pour effet dramatique"
           ],
           "vocabulary": [
             "Assertion",
@@ -85,8 +88,8 @@
           "title": "Discours inaugural & Pitch d'enjeux stratégiques",
           "duration_minutes": 60,
           "grammar": [
-            "Parallélisme et tricolon (Règle de trois dans la cadence oratoire)",
-            "Emphase par l'auxiliaire et la répétition"
+            "Parallélisme syntaxique et rythme ternaire (Règle de trois en oratoire)",
+            "Formes emphatiques et répétitions stylisées à l’oral"
           ],
           "vocabulary": [
             "Discours inaugural",
@@ -109,7 +112,7 @@
           "title": "Rhétorique d'entreprise & Bilan d'éloquence orale",
           "duration_minutes": 60,
           "grammar": [
-            "Synthèse de l'inversion d'emphase, de l'humour subtil, du tricolon et de la mise en relief"
+            "Synthèse de l’inversion, de l’antéposition, des clivées et du rythme ternaire"
           ],
           "vocabulary": [
             "Carisme",
@@ -138,8 +141,8 @@
           "title": "Réfutation instantanée & Déconstruction des sophismes",
           "duration_minutes": 60,
           "grammar": [
-            "Cadres de contre-argumentation (Bien que l'on puisse prétendre X, il n'en reste pas moins Y)",
-            "Challenger les failles logiques en direct"
+            "Propositions concessives (Bien que + subjonctif, Quoique + subjonctif)",
+            "Conditionnel de réserve dans les débats"
           ],
           "vocabulary": [
             "Épouvantail",
@@ -162,8 +165,8 @@
           "title": "Concessions stratégiques & Compromis en négociation",
           "duration_minutes": 60,
           "grammar": [
-            "Inversion conditionnelle économique (Eussions-nous su X, nous aurions proposé Y)",
-            "Formules de concession diplomatique"
+            "Inversion hypothétique dans la négociation (Eussions-nous su X, nous aurions proposé Y)",
+            "Subordonnées concessives d’accord partiel"
           ],
           "vocabulary": [
             "Bilatéral",
@@ -186,8 +189,8 @@
           "title": "Cadrage institutionnel & Langage diplomatique",
           "duration_minutes": 60,
           "grammar": [
-            "Subjonctif subordonné dans les mandats officiels (Il est impératif que le comité ratifie...)",
-            "Tournures passives de distanciation"
+            "Subjonctif obligatoire dans les déclarations officielles (Il est indispensable que le conseil ratifie...)",
+            "Passif de distanciation dans les rapports officiels"
           ],
           "vocabulary": [
             "Institutionnel",
@@ -210,8 +213,8 @@
           "title": "Arbitrage de tables rondes & Réunions multi-parties",
           "duration_minutes": 60,
           "grammar": [
-            "Mise en relief pour résumer des positions divergentes",
-            "Arbitrage des temps de parole"
+            "Antéposition du thème pour le résumé de positions",
+            "Propositions participiales dans les synthèses orales"
           ],
           "vocabulary": [
             "Arbitrage",
@@ -234,7 +237,7 @@
           "title": "Simulation de négociation internationale & Bilan",
           "duration_minutes": 60,
           "grammar": [
-            "Synthèse de la réfutation, de la négociation, du langage institutionnel et de l'arbitrage"
+            "Synthèse de l’inversion conditionnelle, du subjonctif obligatoire et du passif de distanciation"
           ],
           "vocabulary": [
             "Diplomatie",
@@ -264,8 +267,8 @@
           "title": "Animer des séminaires & Exposer la recherche",
           "duration_minutes": 60,
           "grammar": [
-            "Organisation de l'information Thème-Propos (Tournures passives et clivées universitaires)",
-            "Propositions participiales pour le contexte scientifique"
+            "Organisation Thème-Rème (Passif et structures clivées)",
+            "Propositions participiales pour la présentation de recherches"
           ],
           "vocabulary": [
             "Preuve empirique",
@@ -288,8 +291,8 @@
           "title": "Nuancer les hypothèses & Spéculation académique",
           "duration_minutes": 60,
           "grammar": [
-            "Tournures de réserve scientifique (Il est communément admis que..., tendrait à montrer)",
-            "Modalités d'incertitude dans les conclusions"
+            "Locutions modales de prudence académique (Il semblerait que..., Il est permis de penser que...)",
+            "Modalités de certitude et de conjecture dans la science"
           ],
           "vocabulary": [
             "Émettre l'hypothèse",
@@ -312,8 +315,8 @@
           "title": "Débattre de bioéthique & de singularité technologique",
           "duration_minutes": 60,
           "grammar": [
-            "Inversion après adverbes restrictifs (Non seulement l'IA automatise..., mais elle...)",
-            "Conditionnels de concession dans les débats éthiques"
+            "Inversion après adverbes négatifs et restrictifs",
+            "Conditionnel d’hypothèse dans les débats éthiques"
           ],
           "vocabulary": [
             "Bioéthique",
@@ -336,8 +339,8 @@
           "title": "Synthétiser oralement des thèses scientifiques",
           "duration_minutes": 60,
           "grammar": [
-            "Cohésion, ellipse et substitution lexicale dans la synthèse orale",
-            "Propositions d'opposition soutenue"
+            "Cohésion, ellipse et substitution pronominale à l’oral",
+            "Propositions adverbiales de concession"
           ],
           "vocabulary": [
             "Synthèse",
@@ -360,7 +363,7 @@
           "title": "Colloque scientifique & Débat éthique : Bilan",
           "duration_minutes": 60,
           "grammar": [
-            "Synthèse du cadrage scientifique, des réserves académiques, de la bioéthique et de la synthèse orale"
+            "Synthèse de l’organisation Thème-Rème, de la prudence modale et de l’inversion éthique"
           ],
           "vocabulary": [
             "Colloque",
@@ -389,8 +392,8 @@
           "title": "Critique artistique & Analyse d'œuvres d'art",
           "duration_minutes": 60,
           "grammar": [
-            "Nominalisation pour le rythme du compte-rendu culturel",
-            "Position des modificateurs adverbiaux pour la nuance esthétique"
+            "Nominalisation stylistique pour le rythme des critiques",
+            "Position des adverbes modificateurs pour la nuance esthétique"
           ],
           "vocabulary": [
             "Évaluation esthétique",
@@ -413,8 +416,8 @@
           "title": "Analyser thèmes littéraires & Cinématographiques",
           "duration_minutes": 60,
           "grammar": [
-            "Incises de commentaire (mises en valeur entre virgules ou pauses)",
-            "Propositions relatives explicatives complexes"
+            "Incises et propositions parenthétiques de commentaire",
+            "Propositions relatives complexes de commentaire"
           ],
           "vocabulary": [
             "Analyse herméneutique",
@@ -437,8 +440,8 @@
           "title": "Concepts philosophiques & Épistémologie",
           "duration_minutes": 60,
           "grammar": [
-            "Modalités de la certitude et de la spéculation philosophique",
-            "Connecteurs logiques érudits (Nonobstant, Dans la mesure où)"
+            "Modale de spéculation philosophique et d’incertitude",
+            "Connecteurs de discours avancés (Nonobstant, Pour autant que)"
           ],
           "vocabulary": [
             "Épistémologie",
@@ -461,8 +464,8 @@
           "title": "Jugements esthétiques & Nuances du goût",
           "duration_minutes": 60,
           "grammar": [
-            "Structures de phrases équilibrées pour l'effet de style",
-            "Adverbes de degré au service de l'appréciation"
+            "Phrases équilibrées pour l’impact stylistique",
+            "Adverbes d’intensité au service du jugement esthétique"
           ],
           "vocabulary": [
             "Subtilité",
@@ -485,7 +488,7 @@
           "title": "Cercle des critiques culturels : Bilan d'unité",
           "duration_minutes": 60,
           "grammar": [
-            "Synthèse de la nominalisation, des incises, des connecteurs érudits et des phrases équilibrées"
+            "Synthèse de la nominalisation, des incises parenthétiques et des phrases équilibrées"
           ],
           "vocabulary": [
             "Critique culturelle",
@@ -514,8 +517,8 @@
           "title": "Changer de registre selon le contexte social",
           "duration_minutes": 60,
           "grammar": [
-            "Agilité de registre (soutenu diplomatique, exécutif, courant, familier)",
-            "Règles d'alternance de code linguistique"
+            "Variations morphosyntaxiques selon le registre (soutenu, professionnel, familier)",
+            "Adverbes modificateurs de registre"
           ],
           "vocabulary": [
             "Registre",
@@ -538,8 +541,8 @@
           "title": "Gérer les malentendus interculturels & la sensibilité",
           "duration_minutes": 60,
           "grammar": [
-            "Politesse indirecte et euphémismes",
-            "Formules de reformulation pour la clarté interculturelle"
+            "Politesse indirecte et modaux d’atténuation",
+            "Subjonctif et conditionnel de courtoisie"
           ],
           "vocabulary": [
             "Sensibilité",
@@ -563,8 +566,8 @@
           "title": "Politesse pragmatique, indirectivité & Euphémisme",
           "duration_minutes": 60,
           "grammar": [
-            "Tournures euphémiques soutenues (Ce serait pour le moins regrettable..., On pourrait suggérer)",
-            "Adoucissement des vérités délicates dans les rapports oraux"
+            "Locutions euphémiques et modales (Il serait pour le moins prématuré de..., On pourrait suggérer)",
+            "Passif impersonnel dans les compte-rendus oraux"
           ],
           "vocabulary": [
             "Euphémisme",
@@ -587,8 +590,8 @@
           "title": "Variations francophones & Accents régionaux",
           "duration_minutes": 60,
           "grammar": [
-            "Compréhension des particularités de la francophonie (Québec, Belgique, Suisse, Afrique francophone)",
-            "Phonétique acoustique"
+            "Variations syntaxiques régionales du français parlé (France, Canada, Suisse, Belgique, Afrique francophone)",
+            "Phonétique acoustique et marqueurs prosodiques"
           ],
           "vocabulary": [
             "Francophonie",
@@ -611,7 +614,7 @@
           "title": "Négociation interculturelle : Bilan d'unité",
           "duration_minutes": 60,
           "grammar": [
-            "Synthèse de l'agilité de registre, de la sensibilité interculturelle, de l'euphémisme et des accents"
+            "Synthèse du changement de registre, de la modalité euphémique et de l’adaptation aux accents"
           ],
           "vocabulary": [
             "Interculturel",
@@ -641,8 +644,8 @@
           "title": "Monologues impromptus sur sujets complexes",
           "duration_minutes": 60,
           "grammar": [
-            "Invention de plan instantané (Accroche, Thèse, Deux piliers, Synthèse, Envoi)",
-            "Cohésion spontanée"
+            "Structuration syntaxique spontanée et chaînes de cohésion",
+            "Propositions participiales dans les exposés improvisés"
           ],
           "vocabulary": [
             "Impromptu",
@@ -665,8 +668,8 @@
           "title": "Communication de crise & Désamorçage public",
           "duration_minutes": 60,
           "grammar": [
-            "Langage passif d'information sous pression",
-            "Cadrage de crise et formules rassurantes"
+            "Tournures passives d’information sous pression",
+            "Verbes modaux de réassurance et de gestion de crise"
           ],
           "vocabulary": [
             "Crise",
@@ -689,8 +692,8 @@
           "title": "Récits complexes à métaphores filées",
           "duration_minutes": 60,
           "grammar": [
-            "Emploi de la métaphore filée dans le récit oral",
-            "Cadence de la phrase périodique"
+            "Cadence de la phrase périodique dans le récit oral",
+            "Constructions métaphoriques et figurées complexes"
           ],
           "vocabulary": [
             "Métaphore",
@@ -713,8 +716,8 @@
           "title": "Mener une séance de Q&R hostile sous pression",
           "duration_minutes": 60,
           "grammar": [
-            "Synthèse rapide de questions agressives du public",
-            "Techniques de pivot avancé (Bien que votre remarque pose la question X, l'enjeu réel est Y)"
+            "Syntaxe de recadrage concessif (Bien que votre remarque soit pertinente, l’enjeu principal reste...)",
+            "Inversion conditionnelle de réfutation"
           ],
           "vocabulary": [
             "Q&R hostile",
@@ -737,7 +740,7 @@
           "title": "Grand oral C1 : Maîtrise opérationnelle & Éloquence",
           "duration_minutes": 60,
           "grammar": [
-            "Synthèse de la rhétorique, de la diplomatie, du discours académique et de l'impromptu C1"
+            "Examen de synthèse C1 de toutes les structures orales rhétoriques, diplomatiques et académiques"
           ],
           "vocabulary": [
             "Aisance opérationnelle",

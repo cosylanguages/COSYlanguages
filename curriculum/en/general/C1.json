@@ -42,7 +42,7 @@
           "grammar": [
             "Advanced Hedging & Academic Stance Devices (It is widely acknowledged that..., would appear to indicate)",
             "Theme-Rheme and Information Packaging (Passive & Cleft structures for focus)",
-            "Modal verbs of speculation and deduction in scientific claims"
+            "Modal Verbs of Speculation and Deduction in Scientific Claims"
           ],
           "practice_types": [
             "writing",
@@ -59,8 +59,8 @@
           "title": "Science, Tech & Society - Seminar & Debate",
           "duration_minutes": 90,
           "grammar": [
-            "Inversion after negative adverbials (Not only does AI automate..., but...)",
-            "Diplomatic disagreement and stance reframing"
+            "Inversion after Negative and Limiting Adverbials (Not only does AI automate..., but...)",
+            "Mixed Conditionals for Past-Present Hypothesizing"
           ],
           "vocabulary": [
             "Ethics committee",
@@ -75,7 +75,10 @@
           ],
           "speaking_percent": 80,
           "teacher_notes": "code: \"EN-C1-003\"\ncando: \"Can lead and participate fluently in academic seminars debating technological ethics and scientific policy\"",
-          "recycled": "Theme-Rheme and Information Packaging (Passive & Cleft structures for focus), Modal verbs of speculation and deduction in scientific claims, Substantiate"
+          "recycled": "Theme-Rheme and Information Packaging (Passive & Cleft structures for focus), Modal verbs of speculation and deduction in scientific claims, Substantiate",
+          "discourse": [
+            "Diplomatic Disagreement and Stance Reframing"
+          ]
         }
       ]
     },
@@ -116,8 +119,8 @@
           "title": "Power & Institutions - Advanced Grammar",
           "duration_minutes": 60,
           "grammar": [
-            "Distancing passives and reporting structures (It is reported to have been enacted..., Allegedly...)",
-            "Mandative Subjunctive in formal legislation and mandates (It is imperative that the law be ratified)"
+            "Distancing Passives and Reporting Structures (It is reported to have been enacted..., Allegedly...)",
+            "Mandative Subjunctive in Formal Legislation and Mandates (It is imperative that the law be ratified)"
           ],
           "practice_types": [
             "writing",
@@ -134,8 +137,8 @@
           "title": "Power & Institutions - Seminar & Debate",
           "duration_minutes": 90,
           "grammar": [
-            "Cleft sentences for emphasis (What the committee proposed was... / It was the minister who...)",
-            "Rhetorical questions and parliamentary debate structures"
+            "Cleft Sentences for Emphasis (What the committee proposed was... / It was the minister who...)",
+            "Inverted Conditionals for Formal Argumentation"
           ],
           "vocabulary": [
             "Policy brief",
@@ -150,7 +153,10 @@
           ],
           "speaking_percent": 80,
           "teacher_notes": "code: \"EN-C1-006\"\ncando: \"Can debate institutional governance and policy proposals using advanced rhetorical emphasis\"",
-          "recycled": "Distancing passives and reporting structures (It is reported to have been enacted..., Allegedly...), Mandative Subjunctive in formal legislation and mandates (It is imperative that the law be ratified), Consolidated power"
+          "recycled": "Distancing passives and reporting structures (It is reported to have been enacted..., Allegedly...), Mandative Subjunctive in formal legislation and mandates (It is imperative that the law be ratified), Consolidated power",
+          "discourse": [
+            "Rhetorical Questions and Parliamentary Debate Structures"
+          ]
         }
       ]
     },
@@ -192,7 +198,7 @@
           "duration_minutes": 60,
           "grammar": [
             "Cohesion, Ellipsis & Lexical Substitution to eliminate redundancy in sociological texts",
-            "Participle clauses for background information (Having examined the demographic shift, researchers...)"
+            "Participle Clauses for Background Information (Having examined the demographic shift, researchers...)"
           ],
           "practice_types": [
             "writing",
@@ -209,8 +215,8 @@
           "title": "Social Structures - Seminar & Debate",
           "duration_minutes": 90,
           "grammar": [
-            "Conditionals of concession and hypothesis (Even if socio-economic policy were implemented...)",
-            "Nuanced turn-taking and topic management"
+            "Conditionals of Concession and Hypothesis (Even if socio-economic policy were implemented...)",
+            "Adverbial Clauses of Concession and Proportion (In proportion as..., Inasmuch as...)"
           ],
           "vocabulary": [
             "Gentrification",
@@ -225,7 +231,10 @@
           ],
           "speaking_percent": 80,
           "teacher_notes": "code: \"EN-C1-009\"\ncando: \"Can articulate and defend complex viewpoints on societal change and social justice\"",
-          "recycled": "Cohesion, Ellipsis & Lexical Substitution to eliminate redundancy in sociological texts, Participle clauses for background information (Having examined the demographic shift, researchers...), Disparity"
+          "recycled": "Cohesion, Ellipsis & Lexical Substitution to eliminate redundancy in sociological texts, Participle clauses for background information (Having examined the demographic shift, researchers...), Disparity",
+          "discourse": [
+            "Nuanced Turn-Taking and Floor Management"
+          ]
         }
       ]
     },
@@ -266,8 +275,8 @@
           "title": "Knowledge & Truth - Advanced Grammar",
           "duration_minutes": 60,
           "grammar": [
-            "Modality for degrees of certainty and speculation (must have been, could arguably be, is bound to)",
-            "Advanced punctuation mechanics (semicolons, em-dashes for parenthetical stance)"
+            "Modality for Degrees of Certainty and Speculation (must have been, could arguably be, is bound to)",
+            "Advanced Punctuation Mechanics for Syntactic Focus (semicolons, em-dashes for parenthetical stance)"
           ],
           "practice_types": [
             "writing",
@@ -284,8 +293,8 @@
           "title": "Knowledge & Truth - Seminar & Debate",
           "duration_minutes": 90,
           "grammar": [
-            "Counter-argumentation and rebuttal structures (Granted that X, it nevertheless follows that Y)",
-            "Challenging logical fallacies in real-time debate"
+            "Counter-Argumentation and Concessive Rebuttal Clauses (Granted that X, it nevertheless follows that Y)",
+            "Inverted Conditionals with Should, Were, Had"
           ],
           "vocabulary": [
             "Echo chamber",
@@ -300,7 +309,10 @@
           ],
           "speaking_percent": 80,
           "teacher_notes": "code: \"EN-C1-012\"\ncando: \"Can critically challenge logical fallacies and examine post-truth phenomena in academic discourse\"",
-          "recycled": "Modality for degrees of certainty and speculation (must have been, could arguably be, is bound to), Advanced punctuation mechanics (semicolons, em-dashes for parenthetical stance), Veracity"
+          "recycled": "Modality for degrees of certainty and speculation (must have been, could arguably be, is bound to), Advanced punctuation mechanics (semicolons, em-dashes for parenthetical stance), Veracity",
+          "discourse": [
+            "Challenging Logical Fallacies in Real-Time Debate"
+          ]
         }
       ]
     },
@@ -341,8 +353,8 @@
           "title": "Discourse & Argument - Advanced Grammar",
           "duration_minutes": 60,
           "grammar": [
-            "Sentence Variety: Periodic, Loose, and Balanced sentence structures for stylistic impact",
-            "Advanced discourse connectors (Notwithstanding, Albeit, Insofar as, In Light of)"
+            "Sentence Variety: Periodic, Loose, and Balanced Sentence Structures for stylistic impact",
+            "Advanced Discourse Connectors and Subordinators (Notwithstanding, Albeit, Insofar as, In light of)"
           ],
           "practice_types": [
             "writing",
@@ -359,8 +371,8 @@
           "title": "Discourse & Argument - Seminar & Debate",
           "duration_minutes": 90,
           "grammar": [
-            "Advanced negotiation, hedging, and floor management in formal panel discussions",
-            "Spontaneous keynote presentation delivery"
+            "Formulaic Subjunctive and Formal Hedging Structures",
+            "Advanced Passive and Causative Constructions"
           ],
           "vocabulary": [
             "Keynote address",
@@ -375,7 +387,11 @@
           ],
           "speaking_percent": 80,
           "teacher_notes": "code: \"EN-C1-015\"\ncando: \"Can deliver structured keynote presentations and lead high-stakes professional debates fluently\"",
-          "recycled": "Sentence Variety: Periodic, Loose, and Balanced sentence structures for stylistic impact, Advanced discourse connectors (Notwithstanding, Albeit, Insofar as, In Light of), Coherent"
+          "recycled": "Sentence Variety: Periodic, Loose, and Balanced sentence structures for stylistic impact, Advanced discourse connectors (Notwithstanding, Albeit, Insofar as, In Light of), Coherent",
+          "discourse": [
+            "Advanced Negotiation, Hedging, and Floor Management in Formal Panel Discussions",
+            "Spontaneous Keynote Presentation Delivery"
+          ]
         }
       ]
     },
@@ -435,7 +451,7 @@
           "duration_minutes": 90,
           "grammar": [
             "Syntactic Fronting & Passive Reporting in Geopolitical Briefings",
-            "Diplomatic Concession & Counter-Stance Framing"
+            "Concessive Conditional Clauses in Geopolitical Strategy"
           ],
           "vocabulary": [
             "Bilateral treaty",
@@ -450,7 +466,10 @@
           ],
           "speaking_percent": 80,
           "teacher_notes": "code: \"EN-C1-018\"\ncando: \"Can lead strategic debates on international trade policy, economic sanctions, and geopolitical stability\"",
-          "recycled": "Conditional Inversion in Economic Forecasting (Had central banks intervened earlier..., Were tariff rates to rise...), Fronting and End-Weight Principle in Market Analysis, Sovereign debt"
+          "recycled": "Conditional Inversion in Economic Forecasting (Had central banks intervened earlier..., Were tariff rates to rise...), Fronting and End-Weight Principle in Market Analysis, Sovereign debt",
+          "discourse": [
+            "Diplomatic Concession & Counter-Stance Framing"
+          ]
         }
       ]
     },
@@ -509,7 +528,7 @@
           "title": "C1 Master Proficiency Examination & Consolidation",
           "duration_minutes": 90,
           "grammar": [
-            "Comprehensive review of all C1 architectural pillars: academic hedging, theme-rheme packaging, mandative subjunctive, periodic sentence structure, and inverted conditionals"
+            "Comprehensive Review of all C1 Architectural Pillars: Academic Hedging, Theme-Rheme Packaging, Mandative Subjunctive, Periodic Sentence Structure, and Inverted Conditionals"
           ],
           "vocabulary": [
             "ALL Unit 1-7 Advanced C1 Lexicon",

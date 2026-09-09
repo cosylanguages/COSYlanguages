@@ -13,8 +13,8 @@
           "title": "Rhetorical Devices & Persuasive Monologues",
           "duration_minutes": 60,
           "grammar": [
-            "Inversion for emphasis (Not only should we..., Seldom do we see)",
-            "Advanced cleft sentences (What concerns us most is...)"
+            "Inversion for Emphasis (Not only should we..., Seldom do we see)",
+            "Advanced Cleft Sentences for Oral Focus (What concerns us most is...)"
           ],
           "vocabulary": [
             "Compelling",
@@ -37,8 +37,8 @@
           "title": "Nuanced Humor, Irony & Subtle Floor Steering",
           "duration_minutes": 60,
           "grammar": [
-            "Subjunctive forms in diplomatic discourse",
-            "Idiomatic phrasing and metaphor"
+            "Mandative Subjunctive in Diplomatic Discourse",
+            "Advanced Modal Expressions for Nuanced Stance"
           ],
           "vocabulary": [
             "Nuance",
@@ -53,7 +53,10 @@
           ],
           "speaking_percent": 85,
           "teacher_notes": "code: \"EN-SPK-C1-002\"\ncando: \"Can use subtle humor, irony, and diplomatic de-escalation in high-stakes spoken exchanges.\"\ntask: \"Panel steering roleplay: defuse a tense debate using witty understatement and gentle irony.\"\nspeaking_focus: \"Controlled prosody and dry intonation characteristic of C1 spoken irony.\"",
-          "recycled": "Inversion for emphasis, Advanced cleft sentences, Resonate, Eloquence"
+          "recycled": "Inversion for emphasis, Advanced cleft sentences, Resonate, Eloquence",
+          "discourse": [
+            "Subversive Humor, Irony, and Softened Rebuttal in Debate"
+          ]
         },
         {
           "lesson": 3,
@@ -61,8 +64,8 @@
           "title": "Inversion & Stylistic Fronting for Spoken Impact",
           "duration_minutes": 60,
           "grammar": [
-            "Negative adverbial inversion (Barely had we launched..., Little did they suspect)",
-            "Prepositional fronting for descriptive dramatic effect"
+            "Negative Adverbial Inversion (Barely had we launched..., Little did they suspect)",
+            "Prepositional Fronting for Descriptive Dramatic Effect"
           ],
           "vocabulary": [
             "Assertion",
@@ -85,8 +88,8 @@
           "title": "Keynote Delivery & High-Stakes Pitching",
           "duration_minutes": 60,
           "grammar": [
-            "Parallelism and tricolon (Rule of three in spoken cadence)",
-            "Emphatic do/does/did in executive statements"
+            "Syntactic Parallelism and Triadic Clause Balance (Rule of Three in Cadence)",
+            "Emphatic Do/Does/Did in Executive Statements"
           ],
           "vocabulary": [
             "Keynote",
@@ -109,7 +112,7 @@
           "title": "Executive Rhetoric & Spoken Delivery Review",
           "duration_minutes": 60,
           "grammar": [
-            "Synthesis of inversion, subtle humor, fronting, clefting, and tricolon rhetoric"
+            "Synthesis of Inversion, Fronting, Clefting, and Triadic Rhetorical Cadence"
           ],
           "vocabulary": [
             "Charisma",
@@ -138,8 +141,8 @@
           "title": "Real-Time Rebuttal & Challenging Fallacies",
           "duration_minutes": 60,
           "grammar": [
-            "Counter-argumentation frameworks (Granted that X, it nevertheless follows that Y)",
-            "Challenging logical fallacies in real time"
+            "Concessive Adverbial Clauses (Granted that X, it nevertheless follows that Y)",
+            "Conditionals of Hypothesis and Rebuttal"
           ],
           "vocabulary": [
             "Straw man",
@@ -154,7 +157,10 @@
           ],
           "speaking_percent": 85,
           "teacher_notes": "code: \"EN-SPK-C1-006\"\ncando: \"Can dismantle logical fallacies spontaneously during live high-stakes debates.\"\ntask: \"Debate sparring: identify fallacies in an opponent's speech and deliver immediate incisive rebuttals.\"\nspeaking_focus: \"Surgical linguistic precision and calm composure while refuting arguments.\"",
-          "recycled": "Synthesis of executive rhetoric, Charisma, Oratory"
+          "recycled": "Synthesis of executive rhetoric, Charisma, Oratory",
+          "discourse": [
+            "Instantaneous Reframing and Fallacy Deconstruction in Real Time"
+          ]
         },
         {
           "lesson": 2,
@@ -162,8 +168,8 @@
           "title": "Strategic Concessions & Trade-offs in Negotiation",
           "duration_minutes": 60,
           "grammar": [
-            "Conditional inversion in economic bargaining (Had we known X, we would have offered Y)",
-            "Diplomatic concession formulas"
+            "Conditional Inversion in Bargaining (Had we known X, we would have offered Y)",
+            "Concessive Subordinate Clauses"
           ],
           "vocabulary": [
             "Bilateral",
@@ -178,7 +184,10 @@
           ],
           "speaking_percent": 85,
           "teacher_notes": "code: \"EN-SPK-C1-007\"\ncando: \"Can execute high-stakes commercial negotiations making calculated strategic concessions.\"\ntask: \"Merger & acquisition negotiation: negotiate valuation, leadership roles, and trade-offs.\"\nspeaking_focus: \"Calculated pause and precise pitch modulation during concession offers.\"",
-          "recycled": "Counter-argumentation frameworks, Straw man, Refutation, Incisive"
+          "recycled": "Counter-argumentation frameworks, Straw man, Refutation, Incisive",
+          "discourse": [
+            "Diplomatic Concession Formulas in High-Stakes Negotiations"
+          ]
         },
         {
           "lesson": 3,
@@ -186,8 +195,8 @@
           "title": "Diplomatic Stance Framing & Institutional Language",
           "duration_minutes": 60,
           "grammar": [
-            "Mandative Subjunctive in formal mandates (It is imperative that the committee ratify...)",
-            "Distancing passives in policy statements"
+            "Mandative Subjunctive in Policy Documents (It is imperative that the committee ratify...)",
+            "Distancing Passives in Policy Statements"
           ],
           "vocabulary": [
             "Institutional",
@@ -210,8 +219,8 @@
           "title": "Steering Multi-Party Panel Discussions",
           "duration_minutes": 60,
           "grammar": [
-            "Syntactic fronting for summarizing multi-party stance",
-            "Advanced turn-taking and floor arbitration"
+            "Syntactic Fronting for Stance Summarization",
+            "Participle Clauses for Executive Summaries"
           ],
           "vocabulary": [
             "Arbitration",
@@ -226,7 +235,10 @@
           ],
           "speaking_percent": 85,
           "teacher_notes": "code: \"EN-SPK-C1-009\"\ncando: \"Can chair complex multi-party panel discussions and resolve procedural deadlocks.\"\ntask: \"International treaty summit: chair a 4-nation panel debate and synthesize conflicting positions.\"\nspeaking_focus: \"Authoritative moderation, diplomatic neutrality, and effective floor arbitration.\"",
-          "recycled": "Mandative Subjunctive, Distancing passives, Mandate, Governance"
+          "recycled": "Mandative Subjunctive, Distancing passives, Mandate, Governance",
+          "discourse": [
+            "Advanced Turn-Taking and Panel Steering"
+          ]
         },
         {
           "lesson": 5,
@@ -234,7 +246,7 @@
           "title": "High-Stakes Policy Negotiation Simulation",
           "duration_minutes": 60,
           "grammar": [
-            "Synthesis of fallacies rebuttal, conditional bargaining, mandative subjunctive, and panel steering"
+            "Synthesis of Conditional Inversion, Mandative Subjunctive, and Passive Distancing"
           ],
           "vocabulary": [
             "Diplomacy",
@@ -264,8 +276,8 @@
           "title": "Leading Academic Seminars & Research Talks",
           "duration_minutes": 60,
           "grammar": [
-            "Theme-Rheme information packaging (Passive & cleft structures for academic focus)",
-            "Participle clauses for background research"
+            "Theme-Rheme Information Packaging (Passive & Cleft Structures)",
+            "Participle Clauses for Background Research (Having evaluated the trials, we conclude...)"
           ],
           "vocabulary": [
             "Empirical evidence",
@@ -288,8 +300,8 @@
           "title": "Advanced Hedging & Academic Speculation",
           "duration_minutes": 60,
           "grammar": [
-            "Advanced hedging devices (It is widely acknowledged that..., would appear to indicate)",
-            "Modality for degrees of certainty in scientific claims"
+            "Advanced Hedging Devices (It is widely acknowledged that..., would appear to indicate)",
+            "Modality for Degrees of Certainty in Scientific Claims"
           ],
           "vocabulary": [
             "Hypothesize",
@@ -312,8 +324,8 @@
           "title": "Debating Bioethics & Technological Singularity",
           "duration_minutes": 60,
           "grammar": [
-            "Inversion after negative adverbials (Not only does AI automate..., but it...)",
-            "Conditionals of concession in bioethical debates"
+            "Inversion after Negative Adverbials (Not only does AI automate..., but...)",
+            "Conditionals of Concession in Bioethical Debates"
           ],
           "vocabulary": [
             "Bioethics",
@@ -336,8 +348,8 @@
           "title": "Synthesizing Conflicting Scientific Arguments",
           "duration_minutes": 60,
           "grammar": [
-            "Cohesion, ellipsis & lexical substitution in oral synthesis",
-            "Adverbial clauses of concession"
+            "Cohesion, Ellipsis & Lexical Substitution in Synthesis",
+            "Adverbial Clauses of Concession and Proportion"
           ],
           "vocabulary": [
             "Synthesis",
@@ -360,7 +372,7 @@
           "title": "Scientific Symposium & Ethical Debate Review",
           "duration_minutes": 60,
           "grammar": [
-            "Synthesis of Theme-Rheme packaging, hedging devices, bioethical inversion, and comparative synthesis"
+            "Synthesis of Theme-Rheme Packaging, Hedging Devices, and Bioethical Inversion"
           ],
           "vocabulary": [
             "Symposium",
@@ -389,8 +401,8 @@
           "title": "Delivering Spoken Cultural & Artistic Critiques",
           "duration_minutes": 60,
           "grammar": [
-            "Nominalization for stylistic cadence in reviews",
-            "Adverbial modifier placement for subtle aesthetic nuance"
+            "Nominalization for Stylistic Cadence",
+            "Adverbial Modifier Placement for Subtle Aesthetic Nuance"
           ],
           "vocabulary": [
             "Aesthetic evaluation",
@@ -413,8 +425,8 @@
           "title": "Analyzing Literary & Cinematic Themes",
           "duration_minutes": 60,
           "grammar": [
-            "Parenthetical stance commentary (set off by dashes or pauses)",
-            "Complex relative clauses of commentary"
+            "Parenthetical Stance Clauses (set off by dashes or pauses)",
+            "Complex Relative Clauses of Commentary"
           ],
           "vocabulary": [
             "Hermeneutic analysis",
@@ -437,8 +449,8 @@
           "title": "Discussing Philosophical Concepts & Epistemology",
           "duration_minutes": 60,
           "grammar": [
-            "Modality for degrees of certainty and philosophical speculation",
-            "Advanced discourse connectors (Notwithstanding, Insofar as)"
+            "Modality for Degrees of Certainty and Philosophical Speculation",
+            "Advanced Discourse Connectors (Notwithstanding, Insofar as)"
           ],
           "vocabulary": [
             "Epistemology",
@@ -461,8 +473,8 @@
           "title": "Aesthetic Preferences & Subtle Nuance",
           "duration_minutes": 60,
           "grammar": [
-            "Balanced sentence structures for stylistic impact",
-            "Adverbs of degree for aesthetic nuance"
+            "Balanced Sentence Structures for Stylistic Impact",
+            "Adverbs of Degree for Aesthetic Nuance"
           ],
           "vocabulary": [
             "Subtlety",
@@ -485,7 +497,7 @@
           "title": "Cultural Critics Roundtable & Review",
           "duration_minutes": 60,
           "grammar": [
-            "Synthesis of nominalization, parenthetical commentary, philosophical connectors, and balanced sentences"
+            "Synthesis of Nominalization, Parenthetical Commentary, and Balanced Sentences"
           ],
           "vocabulary": [
             "Cultural critique",
@@ -514,8 +526,8 @@
           "title": "Shifting Registers Across Social Contexts",
           "duration_minutes": 60,
           "grammar": [
-            "Register agility (formal diplomatic, corporate executive, casual social, colloquial banter)",
-            "Code-switching rules"
+            "Register-Specific Morphosyntactic Variations (Formal, Corporate, Casual)",
+            "Adverbial Modifiers of Register"
           ],
           "vocabulary": [
             "Register",
@@ -530,7 +542,10 @@
           ],
           "speaking_percent": 85,
           "teacher_notes": "code: \"EN-SPK-C1-021\"\ncando: \"Can shift register instantly from formal executive to informal conversational without hesitation.\"\ntask: \"Register shift exercise: deliver the same news item in 3 distinct registers (boardroom, TV, pub chat).\"\nspeaking_focus: \"Immediate vocal tone, posture, and lexical adjustment across social registers.\"",
-          "recycled": "Synthesis of cultural critique skills, Intellectual, Insight"
+          "recycled": "Synthesis of cultural critique skills, Intellectual, Insight",
+          "discourse": [
+            "Register Agility and Code-Switching Conventions"
+          ]
         },
         {
           "lesson": 2,
@@ -538,8 +553,8 @@
           "title": "Handling Cultural Miscommunications & Sensitivity",
           "duration_minutes": 60,
           "grammar": [
-            "Indirect politeness and euphemism",
-            "Restater formulas for intercultural clarity"
+            "Indirect Politeness Structures and Softened Modals",
+            "Subjunctive and Conditionals of Politeness"
           ],
           "vocabulary": [
             "Sensitivity",
@@ -555,7 +570,10 @@
           ],
           "speaking_percent": 85,
           "teacher_notes": "code: \"EN-SPK-C1-022\"\ncando: \"Can navigate delicate cross-cultural communication gaps and de-escalate sensitivity issues.\"\ntask: \"Intercultural negotiation simulation: resolve a cross-cultural business deadlock caused by directness vs indirectness.\"\nspeaking_focus: \"Soft, tactful vocal delivery when handling high-sensitivity cultural topics.\"",
-          "recycled": "Register agility, Contextual, Sociolect"
+          "recycled": "Register agility, Contextual, Sociolect",
+          "discourse": [
+            "Indirect Politeness, Euphemism, and Restater Formulas"
+          ]
         },
         {
           "lesson": 3,
@@ -563,8 +581,8 @@
           "title": "Pragmatic Politeness, Indirectness & Euphemism",
           "duration_minutes": 60,
           "grammar": [
-            "Advanced hedging and euphemistic phrasing (It would be less than ideal..., One might suggest)",
-            "Softening harsh realities in spoken reports"
+            "Advanced Hedging and Euphemistic Phrasing (It would be less than ideal..., One might suggest)",
+            "Distancing Passives in Oral Reports"
           ],
           "vocabulary": [
             "Euphemism",
@@ -587,8 +605,8 @@
           "title": "Regional Spoken Variations & Accents",
           "duration_minutes": 60,
           "grammar": [
-            "Recognizing and adapting to major regional spoken structures (UK, US, Aus, Can, Global English)",
-            "Acoustic phonetics"
+            "Morphosyntactic Variations in Regional Standard Dialects",
+            "Acoustic Phonetics and Prosodic Markers"
           ],
           "vocabulary": [
             "Dialect",
@@ -603,7 +621,10 @@
           ],
           "speaking_percent": 85,
           "teacher_notes": "code: \"EN-SPK-C1-024\"\ncando: \"Can comprehend and adapt to diverse global English accents and regional spoken conventions.\"\ntask: \"Global team meeting roleplay: communicate effectively across diverse regional English accents.\"\nspeaking_focus: \"Clear international enunciation and adjusting speech rate for global clarity.\"",
-          "recycled": "Euphemistic phrasing, Mitigation, Pragmatics"
+          "recycled": "Euphemistic phrasing, Mitigation, Pragmatics",
+          "discourse": [
+            "Recognizing and Adapting to Major Regional Spoken Structures"
+          ]
         },
         {
           "lesson": 5,
@@ -611,7 +632,7 @@
           "title": "Intercultural Negotiation & Communication Review",
           "duration_minutes": 60,
           "grammar": [
-            "Synthesis of register agility, intercultural sensitivity, euphemism, and accent adaptation"
+            "Synthesis of Register Shifts, Euphemistic Modality, and Accent Adaptation"
           ],
           "vocabulary": [
             "Intercultural",
@@ -641,8 +662,8 @@
           "title": "Impromptu Monologues on Complex Topics",
           "duration_minutes": 60,
           "grammar": [
-            "Advanced impromptu structuring (Hook, Thesis, Dual Pillar, Synthesis, Punchline)",
-            "Spontaneous cohesion"
+            "Spontaneous Syntactic Packaging and Cohesive Chains",
+            "Participle Clauses in Impromptu Monologues"
           ],
           "vocabulary": [
             "Impromptu",
@@ -657,7 +678,10 @@
           ],
           "speaking_percent": 90,
           "teacher_notes": "code: \"EN-SPK-C1-026\"\ncando: \"Can deliver a polished 3-minute structured monologue on an unfamiliar abstract topic with zero prep.\"\ntask: \"Master table topics: draw an abstract topic (e.g. 'The burden of memory') and present a 3-minute speech immediately.\"\nspeaking_focus: \"Flawless immediate cognitive structuring, eloquent vocabulary, and complete absence of hesitation.\"",
-          "recycled": "Synthesis of intercultural skills, Intercultural, Adaptability"
+          "recycled": "Synthesis of intercultural skills, Intercultural, Adaptability",
+          "discourse": [
+            "Advanced Impromptu Presentation Structuring"
+          ]
         },
         {
           "lesson": 2,
@@ -665,8 +689,8 @@
           "title": "Crisis Communication & Spoken De-escalation",
           "duration_minutes": 60,
           "grammar": [
-            "Passive reporting under pressure",
-            "Crisis framing and reassuring modal structures"
+            "Passive Reporting Under Pressure",
+            "Modal Verbs of Reassurance and Risk Mitigation"
           ],
           "vocabulary": [
             "Crisis",
@@ -681,7 +705,10 @@
           ],
           "speaking_percent": 85,
           "teacher_notes": "code: \"EN-SPK-C1-027\"\ncando: \"Can lead public crisis press conferences and de-escalate high-pressure public relations incidents.\"\ntask: \"Corporate crisis simulation: conduct a press conference addressing a severe product safety recall.\"\nspeaking_focus: \"Unshakeable vocal composure, empathetic tone, and authoritative crisis framing.\"",
-          "recycled": "Impromptu structuring, Eloquence, Spontaneity, Command"
+          "recycled": "Impromptu structuring, Eloquence, Spontaneity, Command",
+          "discourse": [
+            "Crisis Framing and Stakeholder Reassurance"
+          ]
         },
         {
           "lesson": 3,
@@ -689,8 +716,8 @@
           "title": "Complex Storytelling with Metaphor & Nuance",
           "duration_minutes": 60,
           "grammar": [
-            "Extended metaphor in oral narratives",
-            "Periodic sentence cadence in storytelling"
+            "Periodic Sentence Cadence in Narrative Discourse",
+            "Extended Figurative and Metaphorical Constructions"
           ],
           "vocabulary": [
             "Metaphor",
@@ -713,8 +740,8 @@
           "title": "Leading Spontaneous Q&A Under Pressure",
           "duration_minutes": 60,
           "grammar": [
-            "Rapid synthesis of hostile audience questions",
-            "Advanced pivot techniques (While that is a concern, the underlying issue is...)"
+            "Concessive Pivoting Syntax (While that is a concern, the underlying issue is...)",
+            "Inverted Conditional Rebuttals"
           ],
           "vocabulary": [
             "Hostile Q&A",
@@ -729,7 +756,10 @@
           ],
           "speaking_percent": 90,
           "teacher_notes": "code: \"EN-SPK-C1-029\"\ncando: \"Can lead hostile Q&A sessions under pressure, pivoting deftly back to core strategic messages.\"\ntask: \"Press grill challenge: answer 8 aggressive media questions on short notice without losing composure.\"\nspeaking_focus: \"Instant reframing, calm poise, and seamless pivot techniques under media pressure.\"",
-          "recycled": "Extended metaphor, Periodic sentence cadence, Resonance, Evocative"
+          "recycled": "Extended metaphor, Periodic sentence cadence, Resonance, Evocative",
+          "discourse": [
+            "Rapid Synthesis and Pivoting Under Hostile Questioning"
+          ]
         },
         {
           "lesson": 5,
@@ -737,7 +767,7 @@
           "title": "C1 Spoken Capstone: Executive Operational Mastery",
           "duration_minutes": 60,
           "grammar": [
-            "Comprehensive review of all C1 spoken rhetorical, diplomatic, academic, and impromptu structures"
+            "Comprehensive Review of all C1 Spoken Rhetorical, Diplomatic, Academic, and Impromptu Structures"
           ],
           "vocabulary": [
             "Effective operational proficiency",
