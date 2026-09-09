@@ -8,7 +8,8 @@ Do not scatter TODO comments in HTML files: put them here.
 |------|--------|-------|
 | grammar.html | placeholder | Grammar browser not yet built |
 | vocabulary.html | placeholder | Vocabulary browser not yet built |
-| pronunciation.html | placeholder | Pronunciation guide not yet built |
+| pronunciation.html | ready | Pronunciation guide built with link to Marathon de Prononciation |
+| marathon-prononciation.html | active | Complete French Pronunciation Marathon curriculum (A0 → C2) |
 
 ## Planned content
 | Content type | Level | Status | Notes |
