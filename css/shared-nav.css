@@ -1,0 +1,169 @@
+/* ── COSYlanguages Shared Navigation Styling ────────────────── */
+.cosy-navbar {
+  background: rgba(250, 248, 245, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border, rgba(74, 107, 80, 0.12));
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  font-family: var(--font-sans, 'Nunito', 'DM Sans', sans-serif);
+  gap: 1rem;
+}
+
+html[data-theme="dark"] .cosy-navbar,
+body.theme-dark .cosy-navbar {
+  background: rgba(22, 26, 23, 0.95) !important;
+  border-color: #323A34 !important;
+}
+
+.cosy-nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--ink, #2a2a2a);
+  flex-shrink: 0;
+}
+
+.cosy-nav-logo img {
+  height: 32px;
+  width: auto;
+}
+
+.cosy-nav-logo span {
+  font-family: var(--font-serif, 'Fraunces', serif);
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--ink, #2a2a2a);
+}
+
+.cosy-nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cosy-nav-link {
+  text-decoration: none;
+  color: var(--ink-soft, #4a4a4a);
+  font-size: 0.88rem;
+  padding: 8px 12px;
+  border-radius: var(--r-sm, 8px);
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.cosy-nav-link:hover {
+  background: var(--sage-pale, #e8f0e9);
+  color: var(--sage-dark, #375742);
+}
+
+.cosy-nav-link.active {
+  background: var(--sage-mist, #f0f5f1);
+  color: var(--sage-deep, #233827);
+  font-weight: 800;
+}
+
+.cosy-nav-lock {
+  font-size: 0.85em;
+  opacity: 0.8;
+  margin-left: 2px;
+}
+
+.cosy-nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.cosy-nav-cta {
+  background: var(--sage, #416b49);
+  color: #ffffff;
+  border-radius: 100px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 8px 18px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.cosy-nav-cta:hover {
+  background: var(--sage-dark, #375742);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(46, 74, 51, 0.18);
+}
+
+/* Mobile Hamburger Button */
+.cosy-hamburger-btn {
+  display: none;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--ink, #2a2a2a);
+  cursor: pointer;
+  padding: 6px;
+  line-height: 1;
+  border-radius: var(--r-sm, 8px);
+}
+
+.cosy-hamburger-btn:hover {
+  background: var(--sage-pale, #e8f0e9);
+}
+
+/* Mobile Drawer Overlay */
+.cosy-mobile-drawer {
+  display: none;
+  position: fixed;
+  top: 64px;
+  left: 0;
+  right: 0;
+  background: var(--warm-white, #FFFEFB);
+  border-bottom: 1px solid var(--border, rgba(74, 107, 80, 0.12));
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 1rem 1.5rem 1.5rem;
+  flex-direction: column;
+  gap: 8px;
+  z-index: 999;
+}
+
+html[data-theme="dark"] .cosy-mobile-drawer,
+body.theme-dark .cosy-mobile-drawer {
+  background: #1a1f1a;
+  border-color: #323A34;
+}
+
+.cosy-mobile-drawer.open {
+  display: flex;
+}
+
+.cosy-mobile-drawer .cosy-nav-link {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 0.95rem;
+  justify-content: flex-start;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 900px) {
+  .cosy-nav-menu {
+    display: none;
+  }
+  .cosy-hamburger-btn {
+    display: block;
+  }
+}
