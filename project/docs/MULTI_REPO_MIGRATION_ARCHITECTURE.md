@@ -11,7 +11,7 @@ The COSY ecosystem is divided into **6 specialized GitHub repositories** under t
 1. **`COSYlanguages` (https://github.com/cosylanguages/COSYlanguages)**: The primary public portal, landing page, placement quiz, structured courses, and practice hub.
 2. **`COSYmanuals` (https://github.com/cosylanguages/COSYmanuals)**: Web textbooks, detailed curriculums, and linguistic datasets. Restricted access for contracted teachers/students via direct links.
 3. **`COSYevents` (https://github.com/cosylanguages/COSYevents)**: Public events, speaking clubs, multimedia nights, and group conversation session decks.
-4. **`COSYworld` (https://github.com/cosylanguages/COSYworld)**: Self-study open-world RPG adventure game, spatial scene maps, and visual learning environments.
+4. **`COSYworld` (https://github.com/cosylanguages/COSYworld)**: Independent self-study open-world RPG adventure game. Completely separate from `COSYmanuals`, traditional curriculums, and paid courses/education.
 5. **`COSYgames` (https://github.com/cosylanguages/COSYgames)**: Interactive language practice games hub and 22+ minigame drivers for classrooms and self-study.
 6. **`COSYtools` (https://github.com/cosylanguages/COSYtools)**: Offline-first reference encyclopedia (verb conjugators, gender trainers, prepositional regimes, case declensions) and COSY Passport progress backup/sync.
 

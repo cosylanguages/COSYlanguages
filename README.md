@@ -46,7 +46,7 @@ COSYlanguages is organized as a distributed ecosystem of specialized sub-product
 ### Companion Repositories
 1. **[COSYmanuals](https://github.com/cosylanguages/COSYmanuals):** Restricted web textbooks (`manuals/`), CEFR curriculums (`curriculum/`), and datasets (`vocabulary/`, `reference-grammar/`, `communication/`) accessible to contracted teachers and students.
 2. **[COSYevents](https://github.com/cosylanguages/COSYevents):** Public speaking club session decks, multimedia event night guides, and group conversation materials.
-3. **[COSYworld](https://github.com/cosylanguages/COSYworld):** Interactive open-world RPG adventure learning environment and spatial scene match environments.
+3. **[COSYworld](https://github.com/cosylanguages/COSYworld):** Independent, self-study open-world RPG adventure game. Completely separate from manuals and paid traditional courses, focusing on informal exploratory learning.
 4. **[COSYgames](https://github.com/cosylanguages/COSYgames):** Interactive practice minigames hub (22+ games) for self-study and live online/offline classroom teaching.
 5. **[COSYtools](https://github.com/cosylanguages/COSYtools):** Standalone offline linguistic encyclopedia (12 micro-apps for verb conjugators, gender trainers, case systems, and prepositional regime tools).
 
