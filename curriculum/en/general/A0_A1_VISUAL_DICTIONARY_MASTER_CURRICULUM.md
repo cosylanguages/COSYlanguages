@@ -4,10 +4,18 @@
 
 ---
 
+## Scope Note
+
+> **Target CEFR Scope & Canonical Alignment Note:**
+> The primary vocabulary target for learners in this A0–A1 course is strictly defined by the canonical master list (`vocabulary/_canonical/en/A0-A1_master.json`), which contains **1,298 unique words**, along with **218 collocations** and **182 set phrases** documented across the foundational units.
+> Any extended or domain-specific vocabulary appearing in later reference sections or sub-modules of this document that is not present in the canonical A0–A1 master list should be treated as **A2+ reference material embedded for contextual enrichment**, not as content this level's learners are expected to acquire at A1.
+
+---
+
 ## Executive Overview & Architectural System
 
 This master specification defines the ultimate pedagogical specification for the COSYlanguages A0–A1 English ecosystem. It seamlessly unifies two monumental frameworks into a single synchronized syllabus:
-1. **The Complete A0–A1 English Visual Dictionary & Vocabulary Course** (10 Major Parts, 16 Foundational Units, 120+ Sub-Modules, 4,000+ Words, 2,000+ Collocations, 1,200+ Set Phrases, 300+ Micro-Dialogues).
+1. **The Complete A0–A1 English Visual Dictionary & Vocabulary Course** (10 Major Parts, 16 Foundational Units, 120+ Sub-Modules, 1,298 Unique Words, 218 Collocations, 182 Set Phrases, 300+ Micro-Dialogues).
 2. **The Complete A0–A1 English Grammar Knowledge Tree** (11 Major Structural Parts, 28 Complete Grammar Units, 1,500+ Examples, 500+ Mini Dialogues, Substitution Tables, Common Mistake Diagnostics, and Speaking/Writing Production Frames).
 
 ---
