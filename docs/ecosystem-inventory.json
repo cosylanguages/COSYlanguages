@@ -1,0 +1,725 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-03-10",
+  "workspace_summary": {
+    "total_files": 6978,
+    "repositories_audited": [
+      "COSYlanguages",
+      "COSYmanuals",
+      "COSYevents",
+      "COSYworld",
+      "COSYgames",
+      "COSYtools"
+    ]
+  },
+  "repositories": {
+    "COSYlanguages": {
+      "role": "Central Hub, Portal Gateway, & Web Textbooks Entry Point",
+      "framework_and_tech_stack": {
+        "languages": [
+          "JavaScript (ES6+)",
+          "TypeScript (v6.0.3)",
+          "HTML5",
+          "CSS3",
+          "Python 3.12"
+        ],
+        "framework": "Vanilla JS / Web Components / Progressive Web App (PWA)",
+        "package_manager": "npm v11.11.0 (Workspace Root)",
+        "build_system": "Custom Node.js & Python scripts (e.g. generate_all_blog_pages.py, build_nouns_dataset.py, validate-schema.js)",
+        "deployment": "GitHub Pages static hosting via .github/workflows/deploy.yml"
+      },
+      "routes_and_pages": [
+        {
+          "route": "/index.html",
+          "description": "Master Gateway Landing Page",
+          "type": "Static HTML"
+        },
+        {
+          "route": "/about/index.html",
+          "description": "About & Methodology Page",
+          "type": "Static HTML"
+        },
+        {
+          "route": "/privacy.html",
+          "description": "Privacy Policy & Data Sovereignty Statement",
+          "type": "Static HTML"
+        },
+        {
+          "route": "/placement-quiz.html",
+          "description": "Diagnostic Placement Quiz",
+          "type": "Static HTML / Web Component"
+        },
+        {
+          "route": "/classroom-sync.html",
+          "description": "Live Classroom Presentation Sync Utility",
+          "type": "Static HTML / WebSockets / Storage"
+        },
+        {
+          "route": "/404.html",
+          "description": "Custom Standard Error Page",
+          "type": "Static HTML"
+        },
+        {
+          "route": "/blog/index.html",
+          "description": "COSY Blog & Educational Hub Main Page",
+          "type": "Static HTML"
+        },
+        {
+          "route": "/blog/top-100-a0-a1-*.html",
+          "description": "Top 100 Essential Master Curriculum Blog Guides (13 languages)",
+          "type": "Static HTML (13 pages)"
+        },
+        {
+          "route": "/blog/top-200-*-english.html",
+          "description": "Top 200 Level English Guides (A2, B1, B2)",
+          "type": "Static HTML (3 pages)"
+        },
+        {
+          "route": "/blog/top-100-very-words-english.html",
+          "description": "Top 100 'Very' Adjective Alternatives Guide",
+          "type": "Static HTML"
+        },
+        {
+          "route": "/languages/index.html",
+          "description": "Languages Hub Portal Directory",
+          "type": "Static HTML"
+        },
+        {
+          "route": "/languages/{iso}/index.html",
+          "description": "Language Specific Hubs (13 languages: en, fr, it, ru, el, es, de, pt, hy, ka, tt, ba, br)",
+          "type": "Static HTML (13 pages)"
+        },
+        {
+          "route": "/practice/index.html",
+          "description": "Practice Hub Central Dashboard",
+          "type": "Static HTML"
+        },
+        {
+          "route": "/practice/hub.html",
+          "description": "Interactive Practice Selection Hub",
+          "type": "Static HTML"
+        },
+        {
+          "route": "/notebook/index.html",
+          "description": "Interactive Grammar & Vocabulary Notebook",
+          "type": "Static HTML"
+        },
+        {
+          "route": "/hybrid/index.html",
+          "description": "Hybrid Learning Integration Hub",
+          "type": "Static HTML"
+        }
+      ],
+      "components": [
+        {
+          "name": "#cosy-nav",
+          "filepath": "js/core/engine.js",
+          "description": "Site-wide top navigation bar component"
+        },
+        {
+          "name": "UI Daily Dose",
+          "filepath": "js/core/ui.js",
+          "description": "Daily fact & idiom updater component"
+        },
+        {
+          "name": "i18n Engine",
+          "filepath": "js/i18n/i18n.js",
+          "description": "Zero-fallback client-side internationalization manager"
+        },
+        {
+          "name": "Placement Engine",
+          "filepath": "placement-quiz.html",
+          "description": "Client-side diagnostic test engine"
+        },
+        {
+          "name": "Classroom Sync Engine",
+          "filepath": "classroom-sync.html",
+          "description": "Teacher presentation and student view synchronization module"
+        }
+      ],
+      "content_and_datasets": [
+        {
+          "path": "data/index/{lang}_index.json",
+          "description": "Language search & cross-reference index files for 13 languages"
+        },
+        {
+          "path": "data/a0_a1_benchmark.json",
+          "description": "Canonical 24-topic A0-A1 English benchmark dataset"
+        },
+        {
+          "path": "data/a2_benchmark.json",
+          "description": "Canonical 21-topic A2 English benchmark dataset"
+        },
+        {
+          "path": "data/b1_benchmark.json",
+          "description": "Canonical 15-topic B1 English benchmark dataset"
+        },
+        {
+          "path": "data/js/daily_dose.js",
+          "description": "Repo-wide daily facts & idioms dictionary across 13 languages"
+        },
+        {
+          "path": "vocabulary/{lang}/{level}/*.js",
+          "description": "Modular vocabulary JavaScript data files (A1-C2) across 13 languages"
+        },
+        {
+          "path": "vocabulary/_canonical/en/A0-A1_master.json",
+          "description": "Master canonical 1,262-word A0-A1 vocabulary database"
+        }
+      ],
+      "assets": [
+        {
+          "type": "Stylesheets",
+          "paths": [
+            "css/cosy-tokens.css",
+            "css/base.css",
+            "css/components.css",
+            "css/layout.css",
+            "css/tokens.css",
+            "css/courses.css"
+          ]
+        },
+        {
+          "type": "Flags",
+          "paths": [
+            "images/flags/*.svg"
+          ]
+        },
+        {
+          "type": "Logos & Icons",
+          "paths": [
+            "images/logos/*.png",
+            "images/ui/*.svg"
+          ]
+        },
+        {
+          "type": "Audio Files",
+          "paths": [
+            "sounds/music/*.mp3",
+            "sounds/reactions/*.mp3"
+          ]
+        }
+      ]
+    },
+    "COSYmanuals": {
+      "role": "Restricted Access Interactive Web Textbooks, Grammar Manuals, & Detailed Curricula",
+      "framework_and_tech_stack": {
+        "languages": [
+          "HTML5",
+          "CSS3",
+          "JavaScript (ES6)"
+        ],
+        "framework": "Static HTML Web Textbooks / Standardized Manual Layout System",
+        "package_manager": "None (Included in monorepo npm workspace root)",
+        "build_system": "Python automation scripts (project/scripts/update_language_hubs.py, chrome_swap.py)",
+        "deployment": "Restricted GitHub Pages / Web Textbook Directory"
+      },
+      "routes_and_pages": [
+        {
+          "route": "/manuals/index.html",
+          "description": "Master Manuals Index Directory",
+          "type": "Static HTML"
+        },
+        {
+          "route": "/manuals/{lang}/index.html",
+          "description": "Language Specific Manual Portals (13 languages)",
+          "type": "Static HTML (13 pages)"
+        },
+        {
+          "route": "/manuals/{lang}/grammar/index.html",
+          "description": "Grammar Manual Index Pages per language",
+          "type": "Static HTML"
+        },
+        {
+          "route": "/manuals/{lang}/grammar/a1/topics/*.html",
+          "description": "A1 Grammar Lesson Pages (e.g. irregular-verbs.html, to-be.html)",
+          "type": "Static HTML (hundreds of pages)"
+        },
+        {
+          "route": "/manuals/{lang}/vocabulary/index.html",
+          "description": "Vocabulary Manual Index Pages per language",
+          "type": "Static HTML"
+        },
+        {
+          "route": "/manuals/{lang}/vocabulary/topics/*.html",
+          "description": "Vocabulary Manual Lesson Pages per language",
+          "type": "Static HTML (hundreds of pages)"
+        },
+        {
+          "route": "/curriculum/{lang}/{track}/*.html",
+          "description": "Syllabus & Curriculum Topic Pages across General, Spoken, Travelling, Professional, Relocation, and Exam Prep",
+          "type": "Static HTML (~3,000 pages)"
+        },
+        {
+          "route": "/reference-grammar/{lang}/index.html",
+          "description": "Comprehensive Linguistic Reference Manuals (13 languages)",
+          "type": "Static HTML"
+        },
+        {
+          "route": "/communication/{lang}/index.html",
+          "description": "Communicative Situations & Dialogue Manuals",
+          "type": "Static HTML"
+        },
+        {
+          "route": "/comparative/index.html",
+          "description": "Cross-Linguistic Comparative Grammar Module",
+          "type": "Static HTML"
+        }
+      ],
+      "components": [
+        {
+          "name": "Manual Sticky Header",
+          "filepath": "css/layout.css",
+          "description": "Sticky header with jump links (.sd-sticky-header, .sd-jump-link)"
+        },
+        {
+          "name": "CCQ Concept Check Block",
+          "filepath": "schema/ccq.schema.json",
+          "description": "Structured Concept Check Question card block inside grammar lessons"
+        },
+        {
+          "name": "Verb Conjugation Pattern Table",
+          "filepath": "schema/verb-pattern.schema.json",
+          "description": "Formatted verb tense and paradigm table"
+        }
+      ],
+      "content_and_datasets": [
+        {
+          "path": "manuals/{lang}/grammar/*",
+          "description": "Grammar lesson texts, CCQs, form rules, and example banks"
+        },
+        {
+          "path": "manuals/{lang}/vocabulary/*",
+          "description": "Thematic vocabulary manual guides with monolingual explanations"
+        },
+        {
+          "path": "curriculum/_schema/*",
+          "description": "Curriculum unit schemas and lesson stage definitions"
+        },
+        {
+          "path": "reference-grammar/*",
+          "description": "Exhaustive reference grammar databases and structural topic pages"
+        }
+      ],
+      "assets": [
+        {
+          "type": "Stylesheets",
+          "paths": [
+            "manuals/*/assets/*.css",
+            "css/components.css"
+          ]
+        },
+        {
+          "type": "Images",
+          "paths": [
+            "images/grammar/*.png",
+            "images/languages/*.jpg"
+          ]
+        }
+      ]
+    },
+    "COSYevents": {
+      "role": "Public Speaking Clubs, Multimedia Event Nights, and Cinema/Karaoke Sessions",
+      "framework_and_tech_stack": {
+        "languages": [
+          "HTML5",
+          "CSS3",
+          "JavaScript (ES6)"
+        ],
+        "framework": "Static HTML Session Guides & Multimedia Presentation Views",
+        "package_manager": "None (Pre-packaged in root directory / standalone target repo)",
+        "build_system": "Python event session audit & generator scripts (audit_cinema_vocabulary.py, double_check_debatable_sessions.py)",
+        "deployment": "Public GitHub Pages / Standalone COSYevents Web Application"
+      },
+      "routes_and_pages": [
+        {
+          "route": "/templates/events/index.html",
+          "description": "Events Hub & Speaking Clubs Landing Page",
+          "type": "Static HTML"
+        },
+        {
+          "route": "/templates/events/wonder-session-template.html",
+          "description": "I Couldn't Help But Wonder Club Session Guide",
+          "type": "Static HTML"
+        },
+        {
+          "route": "/templates/events/science-session-template.html",
+          "description": "Keeping Up with Science Club Session Guide",
+          "type": "Static HTML"
+        },
+        {
+          "route": "/templates/events/mind-session-template.html",
+          "description": "Mind Matters Club Session Guide",
+          "type": "Static HTML"
+        },
+        {
+          "route": "/templates/events/debate-session-template.html",
+          "description": "Debatable & Relatable Club Session Guide",
+          "type": "Static HTML"
+        },
+        {
+          "route": "/templates/events/celebrate-session-template.html",
+          "description": "Let's Celebrate Club Session Guide",
+          "type": "Static HTML"
+        },
+        {
+          "route": "/templates/events/life-session-template.html",
+          "description": "My Life With/Without Club Session Guide",
+          "type": "Static HTML"
+        },
+        {
+          "route": "/templates/events/quotes-session-template.html",
+          "description": "The Greatest Quotes Club Session Guide",
+          "type": "Static HTML"
+        },
+        {
+          "route": "/templates/events/karaoke-session-template.html",
+          "description": "Karaoke Night Session Guide",
+          "type": "Static HTML"
+        },
+        {
+          "route": "/templates/events/long-reads-session-template.html",
+          "description": "Long Reads Club Session Guide",
+          "type": "Static HTML"
+        }
+      ],
+      "components": [
+        {
+          "name": "Vocab Card Component",
+          "filepath": "templates/events/session-template.html",
+          "description": "Interactive vocabulary card with CEFR level tag and usage examples"
+        },
+        {
+          "name": "Discussion Stage Timer",
+          "filepath": "templates/events/session-template.html",
+          "description": "Session round timer and prompt display"
+        }
+      ],
+      "content_and_datasets": [
+        {
+          "path": "templates/events/*.html",
+          "description": "Speaking club discussion guides, vocabulary sets, and debate prompts"
+        },
+        {
+          "path": "project/scripts/audits/audit_debatable_vocabulary.py",
+          "description": "Debate session vocabulary verification scripts"
+        }
+      ],
+      "assets": [
+        {
+          "type": "Logos & Branding",
+          "paths": [
+            "images/logos/speaking clubs/*/*.png",
+            "images/logos/speaking clubs/*/*.jpg"
+          ]
+        }
+      ]
+    },
+    "COSYworld": {
+      "role": "Self-Study Open-World RPG Adventure Game & Spatial Scene Environments",
+      "framework_and_tech_stack": {
+        "languages": [
+          "JavaScript (ES6+ / WebGL / Canvas)",
+          "HTML5",
+          "CSS3"
+        ],
+        "framework": "Spatial Canvas Rendering Engine & 3D Scene Viewer",
+        "package_manager": "Extracted to standalone repo (COSYworld)",
+        "build_system": "Standalone repository build process",
+        "deployment": "Standalone GitHub Pages (https://cosylanguages.github.io/COSYworld)"
+      },
+      "routes_and_pages": [
+        {
+          "route": "https://cosylanguages.github.io/COSYworld/",
+          "description": "External COSYworld Standalone Application",
+          "type": "External SPA"
+        }
+      ],
+      "components": [
+        {
+          "name": "Spatial Room / Scene Canvas",
+          "filepath": "images/scenes/*",
+          "description": "Spatial room environment assets and coordinate layers"
+        },
+        {
+          "name": "Passport Handoff Sync",
+          "filepath": "shared/js/passport.js",
+          "description": "COSY Passport progress integration module"
+        }
+      ],
+      "content_and_datasets": [
+        {
+          "path": "docs/gemini_scene_match_image_prompts.md",
+          "description": "16 Scene environment generative background prompts"
+        },
+        {
+          "path": "images/scenes/*.jpg",
+          "description": "Spatial background environments (e.g. cozy_living_room.jpg, kitchen.jpg)"
+        }
+      ],
+      "assets": [
+        {
+          "type": "Scene Background Images",
+          "paths": [
+            "images/scenes/*.jpg",
+            "images/scenes/*.png"
+          ]
+        }
+      ]
+    },
+    "COSYgames": {
+      "role": "Reusable Interactive Practice Minigames Hub (22+ Minigames)",
+      "framework_and_tech_stack": {
+        "languages": [
+          "JavaScript (ES6+)",
+          "HTML5",
+          "CSS3"
+        ],
+        "framework": "Vanilla JS Minigame Engines / Dynamic Canvas & DOM UI",
+        "package_manager": "Extracted to standalone repo (COSYgames / COSYgames root folder)",
+        "build_system": "Playwright automated tests (tests/scene_match.spec.ts)",
+        "deployment": "Standalone GitHub Pages (https://cosylanguages.github.io/COSYgames)"
+      },
+      "routes_and_pages": [
+        {
+          "route": "/games/index.html",
+          "description": "Minigames Hub Main Directory (symlinked to COSYgames/index.html)",
+          "type": "Static HTML"
+        },
+        {
+          "route": "/games/scene_match/index.html",
+          "description": "Scene Match Interactive Environment Game",
+          "type": "Interactive Minigame"
+        },
+        {
+          "route": "/games/cosy_crossword/index.html",
+          "description": "COSY Crossword Puzzle Game",
+          "type": "Interactive Minigame"
+        },
+        {
+          "route": "/games/action_hero/index.html",
+          "description": "Action Hero Grammar Game",
+          "type": "Interactive Minigame"
+        },
+        {
+          "route": "/games/battle_of_wits/index.html",
+          "description": "Battle of Wits Vocabulary Game",
+          "type": "Interactive Minigame"
+        },
+        {
+          "route": "/games/what_gender_is_it/index.html",
+          "description": "What Gender Is It Game",
+          "type": "Interactive Minigame"
+        }
+      ],
+      "components": [
+        {
+          "name": "Game Loader Engine",
+          "filepath": "js/games/loader.js",
+          "description": "Minigame dynamic loader and path mapping registry"
+        },
+        {
+          "name": "Scene Match Game Driver",
+          "filepath": "js/games/scene_match.js",
+          "description": "Scene Match interactive spatial game engine"
+        },
+        {
+          "name": "Cultural Overlay Renderer",
+          "filepath": "js/games/scene_match.js",
+          "description": "Capital city visual overlay dynamic renderer"
+        }
+      ],
+      "content_and_datasets": [
+        {
+          "path": "js/data/games/scenes/*.js",
+          "description": "Scene dataset files with multi-language target translations"
+        },
+        {
+          "path": "js/data/games/*.json",
+          "description": "Minigame vocabulary and grammar item banks"
+        }
+      ],
+      "assets": [
+        {
+          "type": "Game Sounds",
+          "paths": [
+            "sounds/reactions/*.mp3"
+          ]
+        },
+        {
+          "type": "UI Icons",
+          "paths": [
+            "images/ui/vocabulary/*.svg"
+          ]
+        }
+      ]
+    },
+    "COSYtools": {
+      "role": "Offline-First Linguistic Reference Tools, Dictionary & Conjugator Applications",
+      "framework_and_tech_stack": {
+        "languages": [
+          "JavaScript (ES6+ / PWA)",
+          "HTML5",
+          "CSS3",
+          "JSON"
+        ],
+        "framework": "Progressive Web App (PWA) / Service Worker / Offline LocalStorage",
+        "package_manager": "npm Workspace (apps/free-portal, apps/print-studio, apps/premium-courses)",
+        "build_system": "Standalone Reference Apps CI Workflow (.github/workflows/build-standalone-apps.yml) generating mobile tar.gz bundles",
+        "deployment": "GitHub Pages & Capacitor APK / Release tar.gz Packages"
+      },
+      "routes_and_pages": [
+        {
+          "route": "/apps/index.html",
+          "description": "COSYtools Standalone Reference Engines Hub",
+          "type": "PWA Landing Page"
+        },
+        {
+          "route": "/apps/fr-conjugeur/index.html",
+          "description": "French Verb Conjugator Tool",
+          "type": "Offline PWA"
+        },
+        {
+          "route": "/apps/it-coniugatore/index.html",
+          "description": "Italian Verb Conjugator Tool",
+          "type": "Offline PWA"
+        },
+        {
+          "route": "/apps/ru-spryazhenie/index.html",
+          "description": "Russian Verb Conjugator Tool",
+          "type": "Offline PWA"
+        },
+        {
+          "route": "/apps/el-klisi-rimaton/index.html",
+          "description": "Greek Verb Conjugator Tool",
+          "type": "Offline PWA"
+        },
+        {
+          "route": "/apps/fr-genre/index.html",
+          "description": "French Noun Gender Trainer",
+          "type": "Offline PWA"
+        },
+        {
+          "route": "/apps/it-genere/index.html",
+          "description": "Italian Noun Gender Trainer",
+          "type": "Offline PWA"
+        },
+        {
+          "route": "/apps/ru-rod-padezhi/index.html",
+          "description": "Russian Gender & Case Trainer",
+          "type": "Offline PWA"
+        },
+        {
+          "route": "/apps/el-genos-ptoseis/index.html",
+          "description": "Greek Gender & Case Trainer",
+          "type": "Offline PWA"
+        },
+        {
+          "route": "/apps/en-verb-prep/index.html",
+          "description": "English Verb Preposition Regime Tool",
+          "type": "Offline PWA"
+        },
+        {
+          "route": "/apps/fr-regime/index.html",
+          "description": "French Prepositional Regime Tool",
+          "type": "Offline PWA"
+        },
+        {
+          "route": "/apps/it-reggenza/index.html",
+          "description": "Italian Prepositional Regime Tool",
+          "type": "Offline PWA"
+        },
+        {
+          "route": "/apps/el-syntaxi/index.html",
+          "description": "Greek Noun Syntax & Government Tool",
+          "type": "Offline PWA"
+        },
+        {
+          "route": "/apps/print-studio/index.html",
+          "description": "Print Studio Resource Builder",
+          "type": "Static HTML Web App"
+        },
+        {
+          "route": "/print-boardgame.html",
+          "description": "Printable Board Game Builder",
+          "type": "Static HTML"
+        },
+        {
+          "route": "/print-cards.html",
+          "description": "Printable Flashcard Generator",
+          "type": "Static HTML"
+        },
+        {
+          "route": "/print-grammar.html",
+          "description": "Printable Grammar Cheatsheet Builder",
+          "type": "Static HTML"
+        },
+        {
+          "route": "/print-zine.html",
+          "description": "Printable Zine Builder",
+          "type": "Static HTML"
+        },
+        {
+          "route": "/print-box.html",
+          "description": "Printable Flashcard Box Builder",
+          "type": "Static HTML"
+        }
+      ],
+      "components": [
+        {
+          "name": "Conjugation Table Generator",
+          "filepath": "apps/fr-conjugeur/js/app.js",
+          "description": "Dynamic tense conjugation table generator"
+        },
+        {
+          "name": "Spaced Repetition Manager",
+          "filepath": "apps/it-reggenza/js/spaced_repetition.js",
+          "description": "0-5 Leitner box spaced repetition learning engine"
+        },
+        {
+          "name": "Regime Practice Manager",
+          "filepath": "apps/it-reggenza/js/practice.js",
+          "description": "Preposition practice manager with contraction awareness"
+        },
+        {
+          "name": "Dashboard Manager",
+          "filepath": "apps/it-reggenza/js/dashboard.js",
+          "description": "CEFR level & word type progress analytics view"
+        },
+        {
+          "name": "Service Worker Cache",
+          "filepath": "apps/*/sw.js",
+          "description": "Offline cache manager for standalone PWAs"
+        }
+      ],
+      "content_and_datasets": [
+        {
+          "path": "apps/el-syntaxi/data/nouns.json",
+          "description": "Greek prepositional and case-government noun entries"
+        },
+        {
+          "path": "apps/el-klisi-rimaton/data/verbs.json",
+          "description": "Greek accented verb conjugation data database"
+        },
+        {
+          "path": "apps/it-reggenza/data/*.json",
+          "description": "Italian verb regime and preposizioni articolate datasets"
+        }
+      ],
+      "assets": [
+        {
+          "type": "PWA Manifests",
+          "paths": [
+            "apps/*/manifest.json"
+          ]
+        },
+        {
+          "type": "Icons & Logos",
+          "paths": [
+            "apps/*/images/*.png"
+          ]
+        }
+      ]
+    }
+  }
+}

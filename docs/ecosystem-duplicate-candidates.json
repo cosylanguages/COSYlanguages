@@ -1,0 +1,88 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-03-10",
+  "summary": {
+    "total_duplicate_candidates": 5,
+    "categories": [
+      "Overlapping Grammar Reference vs Manuals",
+      "Duplicate UI Navigation Engine Script",
+      "Misplaced Print Studio Sub-Application",
+      "Misplaced Premium Course Application",
+      "Hardcoded Role Access Control Dataset"
+    ]
+  },
+  "candidates": [
+    {
+      "id": "DUP-001",
+      "title": "Overlapping Reference Grammar and Manual Grammar Systems",
+      "source_repository": "COSYmanuals",
+      "target_repository": "COSYmanuals",
+      "files_affected": [
+        "manuals/{lang}/grammar/*",
+        "reference-grammar/{lang}/*"
+      ],
+      "severity": "high",
+      "description": "Two parallel grammar systems exist across all 13 languages: step-by-step communicative manual pages in manuals/{lang}/grammar/ and exhaustive reference grammar pages in reference-grammar/{lang}/. This creates double-maintenance overhead and duplicate topic definitions.",
+      "recommendation": "Consolidate reference-grammar/ into manuals/{lang}/grammar/ as reference tabs or extract reference-grammar to an appendix section in COSYtools/COSYmanuals.",
+      "safe_to_automate": false
+    },
+    {
+      "id": "DUP-002",
+      "title": "Duplicate Navigation Bar JS File",
+      "source_repository": "COSYlanguages",
+      "target_repository": "COSYlanguages",
+      "files_affected": [
+        "js/core/engine.js",
+        "shared/js/core/engine.js"
+      ],
+      "severity": "medium",
+      "description": "The top navigation bar implementation exists in both js/core/engine.js and shared/js/core/engine.js with minor divergence in link mappings.",
+      "recommendation": "Remove js/core/engine.js and standardize on shared/js/core/engine.js across all pages.",
+      "safe_to_automate": true
+    },
+    {
+      "id": "DUP-003",
+      "title": "Misplaced Print Studio Sub-Application (COSYstudio Candidate)",
+      "source_repository": "COSYlanguages",
+      "target_repository": "COSYstudio",
+      "files_affected": [
+        "apps/print-studio/*",
+        "print-boardgame.html",
+        "print-cards.html",
+        "print-grammar.html",
+        "print-zine.html",
+        "print-box.html"
+      ],
+      "severity": "high",
+      "description": "Print studio builders and physical resource generators are scattered across root directory (print-*.html) and apps/print-studio/, violating repository isolation principles.",
+      "recommendation": "Consolidate all print tools into a dedicated repository COSYstudio or move under apps/print-studio/ inside COSYtools.",
+      "safe_to_automate": true
+    },
+    {
+      "id": "DUP-004",
+      "title": "Misplaced Premium Course Application (COSYcourses Candidate)",
+      "source_repository": "COSYlanguages",
+      "target_repository": "COSYcourses",
+      "files_affected": [
+        "apps/premium-courses/*"
+      ],
+      "severity": "high",
+      "description": "Syllabus-driven course paths reside inside apps/premium-courses/ on COSYlanguages while curriculum materials are in COSYmanuals/curriculum/.",
+      "recommendation": "Extract apps/premium-courses/ into a dedicated repository COSYcourses as defined in docs/ECOSYSTEM_ARCHITECTURE.md.",
+      "safe_to_automate": true
+    },
+    {
+      "id": "DUP-005",
+      "title": "Insecure Hardcoded Role Access Dataset",
+      "source_repository": "COSYlanguages",
+      "target_repository": "COSYlanguages",
+      "files_affected": [
+        "data/access/codes.json"
+      ],
+      "severity": "critical",
+      "description": "Hardcoded access codes for admin, teacher, and student roles stored in plain text inside a publicly served static JSON file.",
+      "recommendation": "Remove data/access/codes.json from public version control immediately and replace with serverless token verification or client-side COSY Passport cryptographic session verification.",
+      "safe_to_automate": false
+    }
+  ]
+}
