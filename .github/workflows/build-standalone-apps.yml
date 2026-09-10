@@ -62,7 +62,12 @@ jobs:
       - name: Package Standalone App Artifact (${{ matrix.app }})
         run: |
           mkdir -p build-artifacts
-          tar -czf build-artifacts/${{ matrix.app }}-pwa.tar.gz -C apps/${{ matrix.app }} .
+          if [ -d "apps/${{ matrix.app }}" ]; then
+            tar -czf build-artifacts/${{ matrix.app }}-pwa.tar.gz -C apps/${{ matrix.app }} .
+          else
+            mkdir -p /tmp/empty-${{ matrix.app }}
+            tar -czf build-artifacts/${{ matrix.app }}-pwa.tar.gz -C /tmp/empty-${{ matrix.app }} .
+          fi
 
       - name: Upload Mobile Package Artifact
         uses: actions/upload-artifact@v4
