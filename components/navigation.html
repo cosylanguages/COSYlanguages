@@ -1,0 +1,35 @@
+<!-- COSYlanguages Navigation Component -->
+<nav class="cosy-navbar" aria-label="Main Navigation">
+  <a href="index.html" class="cosy-nav-logo" aria-label="COSYlanguages Home">
+    <img src="images/logos/cosylanguages.png" alt="COSYlanguages logo" onerror="this.src='../images/logos/cosylanguages.png'">
+    <span>COSYlanguages</span>
+  </a>
+
+  <ul class="cosy-nav-menu" role="menubar">
+    <li role="none"><a href="index.html" class="cosy-nav-link" role="menuitem">Home</a></li>
+    <li role="none"><a href="index.html#courses" class="cosy-nav-link" role="menuitem">Courses</a></li>
+    <li role="none"><a href="https://cosylanguages.github.io/COSYgames/" class="cosy-nav-link" target="_blank" rel="noopener" role="menuitem">Games 🎮</a></li>
+    <li role="none"><a href="https://cosylanguages.github.io/COSYworld/" class="cosy-nav-link" target="_blank" rel="noopener" role="menuitem">World 🌍</a></li>
+    <li role="none"><a href="https://cosylanguages.github.io/COSYtools/" class="cosy-nav-link" target="_blank" rel="noopener" role="menuitem">Tools 🔎</a></li>
+    <li role="none"><a href="https://cosylanguages.github.io/COSYevents/" class="cosy-nav-link" target="_blank" rel="noopener" role="menuitem">Events 🎉</a></li>
+    <li role="none"><a href="https://cosylanguages.github.io/COSYmanuals/" class="cosy-nav-link" target="_blank" rel="noopener" role="menuitem">Manuals <span class="cosy-nav-lock" role="img" aria-label="restricted access">🔒</span></a></li>
+  </ul>
+
+  <div class="cosy-nav-actions">
+    <a href="https://wa.me/330766784195" class="cosy-nav-cta" target="_blank" rel="noopener">💬 Contact Us</a>
+    <button type="button" class="cosy-hamburger-btn" aria-label="Toggle Navigation Menu" aria-expanded="false" onclick="const d=document.getElementById('cosy-nav-drawer'); if(d){ d.classList.toggle('open'); this.setAttribute('aria-expanded', d.classList.contains('open')); }">
+      ☰
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile Navigation Drawer -->
+<nav id="cosy-nav-drawer" class="cosy-mobile-drawer" aria-label="Mobile Navigation Drawer">
+  <a href="index.html" class="cosy-nav-link">Home</a>
+  <a href="index.html#courses" class="cosy-nav-link">Courses</a>
+  <a href="https://cosylanguages.github.io/COSYgames/" class="cosy-nav-link" target="_blank" rel="noopener">Games 🎮</a>
+  <a href="https://cosylanguages.github.io/COSYworld/" class="cosy-nav-link" target="_blank" rel="noopener">World 🌍</a>
+  <a href="https://cosylanguages.github.io/COSYtools/" class="cosy-nav-link" target="_blank" rel="noopener">Tools 🔎</a>
+  <a href="https://cosylanguages.github.io/COSYevents/" class="cosy-nav-link" target="_blank" rel="noopener">Events 🎉</a>
+  <a href="https://cosylanguages.github.io/COSYmanuals/" class="cosy-nav-link" target="_blank" rel="noopener">Manuals <span class="cosy-nav-lock" role="img" aria-label="restricted access">🔒</span></a>
+</nav>

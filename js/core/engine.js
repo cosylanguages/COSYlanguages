@@ -103,14 +103,12 @@ function getPrefixedKey(key) {
 const NAV_CONFIG = {
     free: [
         { key: 'home',     href: 'index.html',           icon: ''   },
-        { key: 'about',    href: 'about/index.html',     icon: '🏡' },
-        { key: 'practice', href: 'practice/index.html',  icon: '💡' },
-        { key: 'atlas',    href: 'comparative/index.html', icon: '🌐' },
-        { key: 'notebook', href: 'notebook/index.html',  icon: '📓' },
-        { key: 'blog',     href: 'blog/index.html',      icon: '📝' },
+        { key: 'courses',  href: 'index.html#courses',   icon: ''   },
         { key: 'games',    href: 'https://cosylanguages.github.io/COSYgames/', icon: '🎮' },
+        { key: 'world',    href: 'https://cosylanguages.github.io/COSYworld/', icon: '🌍' },
+        { key: 'tools',    href: 'https://cosylanguages.github.io/COSYtools/', icon: '🔎' },
         { key: 'events',   href: 'https://cosylanguages.github.io/COSYevents/',    icon: '🎉' },
-        { key: 'hybrid',   href: 'hybrid/index.html',    icon: '🌿' }
+        { key: 'manuals',  href: 'https://cosylanguages.github.io/COSYmanuals/',  icon: '🔒' }
     ]
 };
 
@@ -245,7 +243,10 @@ function renderNavLinks(mode) {
     return config.map(item => {
         const label = getNavLabel(item.key, item.key[0].toUpperCase() + item.key.slice(1));
         const key = `nav_${item.key}`;
-        return `<li role="none"><a href="${p}${item.href}" ${isActive(item.href)} data-translate-key="${key}" data-i18n="nav.${item.key}" role="menuitem">${item.icon ? item.icon + ' ' : ''}${label}</a></li>`;
+        const isExternal = item.href.startsWith('http');
+        const targetAttr = isExternal ? ' target="_blank" rel="noopener"' : '';
+        const href = isExternal ? item.href : `${p}${item.href}`;
+        return `<li role="none"><a href="${href}" ${isActive(item.href)} data-translate-key="${key}" data-i18n="nav.${item.key}" role="menuitem"${targetAttr}>${item.icon ? item.icon + ' ' : ''}${label}</a></li>`;
     }).join('');
 }
 
@@ -350,11 +351,12 @@ function mobileMenuHTML (mode) {
 
     return `
       <a href="${p}index.html" data-translate-key="nav_home" data-i18n="nav.home">Home</a>
-      <a href="${p}practice/index.html" data-translate-key="nav_practice" data-i18n="nav.practice">💡 Practice</a>
-      <a href="${p}notebook/index.html" data-translate-key="nav_notebook" data-i18n="nav.notebook">📓 Notebook</a>
-      <a href="https://cosylanguages.github.io/COSYgames/" data-translate-key="nav_games" data-i18n="nav.games">🎮 Games</a>
-      <a href="https://cosylanguages.github.io/COSYevents/" data-translate-key="nav_events" data-i18n="nav.events">🎉 Events</a>
-      <a href="${p}hybrid/index.html" data-translate-key="nav_hybrid" data-i18n="nav.hybrid">🌿 Hybrid</a>
+      <a href="${p}index.html#courses" data-translate-key="nav_courses" data-i18n="nav.courses">Courses</a>
+      <a href="https://cosylanguages.github.io/COSYgames/" target="_blank" rel="noopener" data-translate-key="nav_games" data-i18n="nav.games">🎮 Games</a>
+      <a href="https://cosylanguages.github.io/COSYworld/" target="_blank" rel="noopener" data-translate-key="nav_world" data-i18n="nav.world">🌍 World</a>
+      <a href="https://cosylanguages.github.io/COSYtools/" target="_blank" rel="noopener" data-translate-key="nav_tools" data-i18n="nav.tools">🔎 Tools</a>
+      <a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" data-translate-key="nav_events" data-i18n="nav.events">🎉 Events</a>
+      <a href="https://cosylanguages.github.io/COSYmanuals/" target="_blank" rel="noopener" data-translate-key="nav_manuals" data-i18n="nav.manuals">🔒 Manuals</a>
       <a href="#" onclick="event.preventDefault(); COSY.toggleTheme();" class="mobile-theme-toggle-a" style="display: flex; align-items: center; gap: 8px;">🌓 Toggle Dark Mode</a>
       <div style="padding: 12px 16px; display: flex; align-items: center; gap: 8px;">
          <span style="font-size: 0.9rem; color: var(--ink-soft);" data-i18n="label.language">Language 🌍</span>
