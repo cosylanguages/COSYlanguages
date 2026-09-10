@@ -143,6 +143,18 @@
     </section>
 
     <section class="privacy-section">
+        <h2>Audience Preferences &amp; Zero Age Collection</h2>
+        <p>COSYlanguages includes a lightweight <strong>Audience Preference System</strong> (supporting <em>Children</em>, <em>Teens</em>, <em>Adults</em>, and <em>Seniors</em> mode, as well as an unselected safe default).</p>
+        <p>To uphold strict privacy and child safety principles:</p>
+        <ul>
+            <li><strong>Zero Age Collection:</strong> We never ask for your date of birth, precise age, or identity details.</li>
+            <li><strong>No Behavioral Profiling:</strong> We do not infer sensitive demographic information from your interactions or browsing habits.</li>
+            <li><strong>Safe Defaults:</strong> The site operates seamlessly in neutral standard mode without choosing any preference.</li>
+            <li><strong>Local Storage Only:</strong> Audience preferences (`cosy_audience_preference`) and independent accessibility choices (`cosy_accessibility_text_scale`, `cosy_accessibility_reduced_motion`) are stored strictly in your local browser storage and never sent to remote servers.</li>
+        </ul>
+    </section>
+
+    <section class="privacy-section">
         <h2>How to Manage Your Data Locally</h2>
         <p>Because your data is stored client-side inside your browser, clearing your browser's site cookies/local storage will reset your statistics. To prevent this, always use our <strong>Export Data 📥</strong> feature located on your Personal Notebook page to download a lightweight backup file (`.json`). You can import this file anytime to restore your progress on any browser or device.</p>
 
@@ -216,6 +228,9 @@
         const container = document.getElementById('storage-list');
         container.innerHTML = '';
         const keys = [
+            'cosy_audience_preference',
+            'cosy_accessibility_text_scale',
+            'cosy_accessibility_reduced_motion',
             'cosy-dict',
             'cosy-mistakes',
             'cosy-streak',
