@@ -10,24 +10,24 @@
 
 This document presents the detailed cross-check of game content in `COSYgames` against the canonical A0–A1 English vocabulary master database (`vocabulary/_canonical/en/A0-A1_master.json`).
 
+> **Note on Gender Games:** The standalone minigame *What Gender Is It?* (`what_gender_is_it/`) and its corresponding dataset (`COSYgames/data/gender/`) have been removed from `COSYgames`. Noun gender practice is served by dedicated COSYtools reference engines under `apps/` (`fr-genre`, `it-genere`, `ru-rod-padezhi`, `el-genos-ptoseis`). The original Gender A1 audit results are retained below for historical reference.
+
 The audit covers two primary datasets:
-1. **Gender A1 Dataset** (`COSYgames/data/gender/a1.js`): 119 core noun concepts used in the *What Gender Is It?* minigame for gendered target languages (FR, ES, IT, DE, RU, EL, BR).
+1. **Gender A1 Dataset (Legacy Audit):** 119 core noun concepts previously used in the *What Gender Is It?* minigame for gendered target languages (FR, ES, IT, DE, RU, EL, BR).
 2. **English Game Data** (`COSYgames/data/en/game_data.js`): All categories and level tiers across *Action Hero*, *Fluency Flow*, *Battle of Wits*, *Identity Mystery*, and *Word Linker*.
 
 ### Key Metrics
 - **Gender A1 Exact Match Rate:** 104 / 119 concepts (**87.4%**) match the canonical A1 master list directly.
 - **Action Hero Starter Match Rate:** 18 / 18 words (**100%**) match the canonical A1 master list directly.
 - **Total Flagged A1-Tier Non-Canonical Items:**
-  - 13 missing single-word concepts in Gender A1.
-  - 2 compound concepts in Gender A1 whose component words exist in canon.
+  - 13 missing single-word concepts in Gender A1 dataset.
+  - 2 compound concepts in Gender A1 dataset whose component words exist in canon.
   - 4 non-canonical A1 words in *Fluency Flow* starter prompts.
   - 3 non-canonical words in *Battle of Wits* options.
 
-No game content was deleted during this audit. All findings are logged below for editorial review (to determine whether to add terms to canon or relevel prompts to A2).
-
 ---
 
-## 2. Gender A1 Audit (`COSYgames/data/gender/a1.js`)
+## 2. Gender A1 Audit (Legacy Reference)
 
 **Total Concepts Audited:** 119
 **Exact Canon Matches:** 104
@@ -38,11 +38,11 @@ These 2 multi-word concepts are composed of words already present in `A0-A1_mast
 
 | Index | Concept | Constituent Words in A1 Canon | Recommendation |
 |---|---|---|---|
-| 73 | `Dining room` | `dining` (A1), `room` (A1) | Keep in A1; optionally add compound entry `"dining room"` to canon |
-| 103 | `Washing machine` | `washing` (A1), `machine` (A1) | Keep in A1; optionally add compound entry `"washing machine"` to canon |
+| 73 | `Dining room` | `dining` (A1), `room` (A1) | Optionally add compound entry `"dining room"` to canon |
+| 103 | `Washing machine` | `washing` (A1), `machine` (A1) | Optionally add compound entry `"washing machine"` to canon |
 
 ### B. Single-Word Concepts Missing from A1 Canon Master - Count: 13
-These 13 English words are used as A1 gender concepts in the game, but do not appear in `vocabulary/_canonical/en/A0-A1_master.json`.
+These 13 English words appeared in the A1 gender dataset, but do not appear in `vocabulary/_canonical/en/A0-A1_master.json`.
 
 | Index | Concept Word | CEFR / Pedagogical Category | Recommendation |
 |---|---|---|---|
@@ -112,8 +112,5 @@ All 18 Starter-level action hero vocabulary words (`Cat`, `Dog`, `House`, `Car`,
    - Compound entries: `"dining room"`, `"washing machine"`.
    - Add UK spelling variant alias `"favourite"` alongside `"favorite"`.
 
-2. **Consider Releveling (Gender A1 -> Gender A2):**
-   - Move non-core or specialized nouns (`commute`, `occupation`, `broccoli`, `toaster`, `tray`, `calendar`) from `a1.js` to `a2.js` in a future major data migration.
-
-3. **Game Content Preserved:**
-   - 0 words or game prompts were deleted in this maintenance cycle, maintaining full functionality across all 22 minigames.
+2. **Game Content Preserved:**
+   - All active minigames maintain full functionality across `COSYgames`. Gender practice is provided in COSYtools reference engines.
