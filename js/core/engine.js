@@ -100,19 +100,114 @@ function getPrefixedKey(key) {
    1. CONSTANTS & KEYS
    ═══════════════════════════════════════════════════════════════ */
 
+const DEFAULT_ECOSYSTEM_URLS = {
+    home: 'index.html',
+    courses: 'index.html#courses',
+    practice: 'practice/index.html',
+    tools: 'https://cosylanguages.github.io/COSYtools/',
+    games: 'https://cosylanguages.github.io/COSYgames/',
+    world: 'https://cosylanguages.github.io/COSYworld/',
+    events: 'https://cosylanguages.github.io/COSYevents/',
+    blog: 'blog/index.html',
+    teacher: 'https://cosylanguages.github.io/COSYmanuals/'
+};
+
+function getConfigModule() {
+    if (typeof window !== 'undefined' && window.COSY_CONFIG_MODULE) {
+        return window.COSY_CONFIG_MODULE;
+    }
+    if (typeof require === 'function') {
+        try {
+            return require('./config.js');
+        } catch (e) {}
+    }
+    return null;
+}
+
+function getEcosystemUrls(env, overrides) {
+    const cfg = getConfigModule();
+    if (cfg && typeof cfg.getEcosystemConfig === 'function') {
+        const repoConfig = cfg.getEcosystemConfig({ env: env, overrides: overrides });
+        return {
+            home: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'index.html' : 'index.html',
+            courses: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'index.html#courses' : 'index.html#courses',
+            practice: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'practice/index.html' : 'practice/index.html',
+            tools: repoConfig.COSYtools,
+            games: repoConfig.COSYgames,
+            world: repoConfig.COSYworld,
+            events: repoConfig.COSYevents,
+            blog: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'blog/index.html' : 'blog/index.html',
+            teacher: repoConfig.COSYmanuals || (repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'manuals/index.html' : 'manuals/index.html')
+        };
+    }
+
+    // Fallback if config module is absent
+    const processEnv = (typeof process !== 'undefined' && process.env) ? process.env : {};
+    const winConfig = (typeof window !== 'undefined' && window.COSY_CONFIG) ? window.COSY_CONFIG : {};
+    const winUrls = (typeof window !== 'undefined' && window.COSY_ECOSYSTEM_URLS) ? window.COSY_ECOSYSTEM_URLS : {};
+
+    let localSavedUrls = {};
+    if (typeof localStorage !== 'undefined') {
+        try {
+            const raw = localStorage.getItem('cosy_ecosystem_urls');
+            if (raw) localSavedUrls = JSON.parse(raw);
+        } catch (e) {}
+    }
+
+    const activeEnv = env ||
+        winConfig.env ||
+        (typeof window !== 'undefined' && window.COSY_ENV) ||
+        processEnv.COSY_ENV ||
+        ((typeof location !== 'undefined' && location.hostname && (location.hostname === 'localhost' || location.hostname === '127.0.0.1')) ? 'development' : 'production');
+
+    const envDefaults = Object.assign({}, DEFAULT_ECOSYSTEM_URLS);
+
+    if (activeEnv === 'development') {
+        envDefaults.home = 'index.html';
+        envDefaults.courses = 'index.html#courses';
+        envDefaults.practice = 'practice/index.html';
+        envDefaults.blog = 'blog/index.html';
+        envDefaults.teacher = 'manuals/index.html';
+    }
+
+    const procEnvUrls = {};
+    if (processEnv.COSY_HOME_URL) procEnvUrls.home = processEnv.COSY_HOME_URL;
+    if (processEnv.COSY_COURSES_URL) procEnvUrls.courses = processEnv.COSY_COURSES_URL;
+    if (processEnv.COSY_PRACTICE_URL) procEnvUrls.practice = processEnv.COSY_PRACTICE_URL;
+    if (processEnv.COSY_TOOLS_URL) procEnvUrls.tools = processEnv.COSY_TOOLS_URL;
+    if (processEnv.COSY_GAMES_URL) procEnvUrls.games = processEnv.COSY_GAMES_URL;
+    if (processEnv.COSY_WORLD_URL) procEnvUrls.world = processEnv.COSY_WORLD_URL;
+    if (processEnv.COSY_EVENTS_URL) procEnvUrls.events = processEnv.COSY_EVENTS_URL;
+    if (processEnv.COSY_BLOG_URL) procEnvUrls.blog = processEnv.COSY_BLOG_URL;
+    if (processEnv.COSY_TEACHER_URL || processEnv.COSY_MANUALS_URL) procEnvUrls.teacher = processEnv.COSY_TEACHER_URL || processEnv.COSY_MANUALS_URL;
+
+    return Object.assign({}, envDefaults, procEnvUrls, localSavedUrls, winUrls, winConfig.urls, overrides);
+}
+
+function getNavHref(itemKey) {
+    const urls = getEcosystemUrls();
+    const rawHref = urls[itemKey] || DEFAULT_ECOSYSTEM_URLS[itemKey] || 'index.html';
+    if (!rawHref) return 'index.html';
+    const isAbsolute = rawHref.startsWith('http://') || rawHref.startsWith('https://') || rawHref.startsWith('//');
+    if (isAbsolute) return rawHref;
+    const p = getPrefix();
+    return `${p}${rawHref.replace(/^\/+/, '')}`;
+}
+
 const NAV_CONFIG = {
     free: [
-        { key: 'home',     href: 'index.html',           icon: ''   },
-        { key: 'courses',  href: 'index.html#courses',   icon: ''   },
-        { key: 'games',    href: 'https://cosylanguages.github.io/COSYgames/', icon: '🎮' },
-        { key: 'world',    href: 'https://cosylanguages.github.io/COSYworld/', icon: '🌍' },
-        { key: 'tools',    href: 'https://cosylanguages.github.io/COSYtools/', icon: '🔎' },
-        { key: 'events',   href: 'https://cosylanguages.github.io/COSYevents/',    icon: '🎉' },
-        { key: 'manuals',  href: 'https://cosylanguages.github.io/COSYmanuals/',  icon: '🔒' }
+        { key: 'courses',  hrefKey: 'courses',  icon: '' },
+        { key: 'practice', hrefKey: 'practice', icon: '💡' },
+        { key: 'tools',    hrefKey: 'tools',    icon: '🔎' },
+        { key: 'games',    hrefKey: 'games',    icon: '🎮' },
+        { key: 'world',    hrefKey: 'world',    icon: '🌍' },
+        { key: 'events',   hrefKey: 'events',   icon: '🎉' },
+        { key: 'blog',     hrefKey: 'blog',     icon: '📰' },
+        { key: 'teacher',  hrefKey: 'teacher',  icon: '👩‍🏫' }
     ]
 };
 
-const BASE_URL = (window.location.pathname.startsWith('/COSYlanguages/') || window.location.pathname === '/COSYlanguages')
+const BASE_URL = (typeof window !== 'undefined' && (window.location.pathname.startsWith('/COSYlanguages/') || window.location.pathname === '/COSYlanguages'))
     ? '/COSYlanguages/'
     : '/';
 
@@ -221,45 +316,50 @@ function updateNavActiveState() {
 }
 
 const NAV_FALLBACKS = {
-    ba: { home: 'Баш бит', about: 'О нас', practice: 'Практика', hybrid: 'Гибрид', games: 'Уйындар', events: 'Чаралар', contact: 'Бәйләнеш' },
-    tt: { home: 'Төп бит', about: 'О нас', practice: 'Практика', hybrid: 'Гибрид', games: 'Уеннар', events: 'Чаралар', contact: 'Бәйләнеш' },
-    ru: { home: 'Главная', about: 'О нас', practice: 'Практика', hybrid: 'Гибрид', games: 'Игры', events: 'Мероприятия', contact: 'Связь' }
+    en: { home: 'Home', courses: 'Courses', practice: 'Practice', tools: 'Tools', games: 'Games', world: 'World', events: 'Events', blog: 'Blog', teacher: 'Teacher resources', contact: 'Contact us' },
+    fr: { home: 'Accueil', courses: 'Cours', practice: 'Entraînement', tools: 'Outils', games: 'Jeux', world: 'Monde', events: 'Événements', blog: 'Blog', teacher: 'Ressources enseignants', contact: 'Contact' },
+    it: { home: 'Home', courses: 'Corsi', practice: 'Pratica', tools: 'Strumenti', games: 'Giochi', world: 'Mondo', events: 'Eventi', blog: 'Blog', teacher: 'Risorse per insegnanti', contact: 'Contatti' },
+    es: { home: 'Inicio', courses: 'Cursos', practice: 'Práctica', tools: 'Herramientas', games: 'Juegos', world: 'Mundo', events: 'Eventos', blog: 'Blog', teacher: 'Recursos para profesores', contact: 'Contacto' },
+    ru: { home: 'Главная', courses: 'Курсы', practice: 'Практика', tools: 'Инструменты', games: 'Игры', world: 'Мир', events: 'Мероприятия', blog: 'Блог', teacher: 'Учителям', contact: 'Связь' },
+    ba: { home: 'Баш бит', courses: 'Курстар', practice: 'Практика', tools: 'Ҡоралдар', games: 'Уйындар', world: 'Донъя', events: 'Чаралар', blog: 'Блог', teacher: 'Уҡытыусыларға', contact: 'Бәйләнеш' },
+    tt: { home: 'Төп бит', courses: 'Курслар', practice: 'Практика', tools: 'Кораллар', games: 'Уеннар', world: 'Дөнья', events: 'Чаралар', blog: 'Блог', teacher: 'Укытучыларга', contact: 'Бәйләнеш' },
+    el: { home: 'Αρχική', courses: 'Μαθήματα', practice: 'Εξάσκηση', tools: 'Εργαλεία', games: 'Παιχνίδια', world: 'Κόσμος', events: 'Εκδηλώσεις', blog: 'Ιστολόγιο', teacher: 'Πόροι καθηγητών', contact: 'Επικοινωνία' }
 };
 
 function getNavLabel(key, fallback) {
     const cleanKey = key.replace(/^nav\./, '');
-    if (window.t) {
+    if (typeof window !== 'undefined' && window.t) {
         const val = window.t('nav.' + cleanKey) || window.t('nav_' + cleanKey) || window.t(cleanKey);
         if (val) return val;
     }
-    const lang = (document.documentElement.lang || 'en').toLowerCase();
-    if (NAV_FALLBACKS[lang] && NAV_FALLBACKS[lang][cleanKey]) return NAV_FALLBACKS[lang][cleanKey];
+    const docLang = (typeof document !== 'undefined' && document.documentElement && document.documentElement.lang) ? document.documentElement.lang.toLowerCase() : 'en';
+    if (NAV_FALLBACKS[docLang] && NAV_FALLBACKS[docLang][cleanKey]) return NAV_FALLBACKS[docLang][cleanKey];
+    if (NAV_FALLBACKS.en[cleanKey]) return NAV_FALLBACKS.en[cleanKey];
     return fallback;
 }
 
 function renderNavLinks(mode) {
-    const p = getPrefix();
     const config = NAV_CONFIG[mode] || [];
     return config.map(item => {
-        const label = getNavLabel(item.key, item.key[0].toUpperCase() + item.key.slice(1));
+        const fallbackLabel = item.key === 'teacher' ? 'Teacher resources' : item.key[0].toUpperCase() + item.key.slice(1);
+        const label = getNavLabel(item.key, fallbackLabel);
         const key = `nav_${item.key}`;
-        const isExternal = item.href.startsWith('http');
+        const href = getNavHref(item.hrefKey || item.key);
+        const isExternal = href.startsWith('http://') || href.startsWith('https://');
         const targetAttr = isExternal ? ' target="_blank" rel="noopener"' : '';
-        const href = isExternal ? item.href : `${p}${item.href}`;
-        return `<li role="none"><a href="${href}" ${isActive(item.href)} data-translate-key="${key}" data-i18n="nav.${item.key}" role="menuitem"${targetAttr}>${item.icon ? item.icon + ' ' : ''}${label}</a></li>`;
+        return `<li role="none"><a href="${href}" ${isActive(href)} data-translate-key="${key}" data-i18n="nav.${item.key}" role="menuitem"${targetAttr}>${item.icon ? item.icon + ' ' : ''}${label}</a></li>`;
     }).join('');
 }
 
 function navFree () {
-    const p = getPrefix();
     const t = getNavLabel;
-    const isDark = (localStorage.getItem('cosy_theme') || 'light') === 'dark';
+    const homeHref = getNavHref('home');
+    const isDark = (typeof localStorage !== 'undefined' && (localStorage.getItem('cosy_theme') || 'light') === 'dark');
     const activeProfile = window.COSY_PROFILES ? window.COSY_PROFILES.getActiveProfile() : 'Guest';
     const profiles = window.COSY_PROFILES ? window.COSY_PROFILES.getProfileList() : ['Guest'];
     const profileOptions = profiles.map(prof => `<option value="${prof}" ${prof === activeProfile ? 'selected' : ''}>👤 ${prof}</option>`).join('');
 
-    // Global language switcher (flag picker) state and options
-    const currentLang = localStorage.getItem('cosy_ui_lang') || localStorage.getItem('cosy_last_language') || 'en';
+    const currentLang = (typeof localStorage !== 'undefined' && (localStorage.getItem('cosy_ui_lang') || localStorage.getItem('cosy_last_language'))) || 'en';
     const langOptions = [
         { code: 'en', flag: '🇬🇧', label: 'EN' },
         { code: 'fr', flag: '🇫🇷', label: 'FR' },
@@ -269,9 +369,11 @@ function navFree () {
         { code: 'es', flag: '🇪🇸', label: 'ES' }
     ].map(l => `<option value="${l.code}" ${l.code === currentLang ? 'selected' : ''}>${l.flag} ${l.label}</option>`).join('');
 
+    const logoPrefix = getPrefix();
+
     return `
-      <a class="nav-logo" href="${p}index.html" aria-label="${t('home_aria', 'COSYlanguages Home')}">
-        <img src="${p}images/logos/cosylanguages.png" alt="COSYlanguages logo" onerror="this.style.display='none'">
+      <a class="nav-logo" href="${homeHref}" aria-label="${t('home_aria', 'COSYlanguages Home')}">
+        <img src="${logoPrefix}images/logos/cosylanguages.png" alt="COSYlanguages logo" onerror="this.style.display='none'">
         <span>COSYlanguages</span>
       </a>
       <ul class="nav-links" role="menubar">
@@ -290,7 +392,7 @@ function navFree () {
             ${isDark ? '☀️' : '🌙'}
         </button>
         <a class="nav-cta" href="https://wa.me/330766784195?text=Hi!" target="_blank" data-translate-key="nav_contact" data-i18n="nav.contact">${t('contact', '💬 Contact us')}</a>
-        <button class="nav-menu-btn" onclick="COSY.toggleMobileMenu()" aria-label="Toggle Menu" aria-expanded="false">☰</button>
+        <button class="nav-menu-btn" onclick="COSY.toggleMobileMenu()" aria-label="Toggle Menu" aria-expanded="false" aria-controls="cosy-mobile-menu">☰</button>
       </div>`
 }
 
@@ -298,48 +400,101 @@ function navFree () {
    5. UI CORE (Templates)
    ═══════════════════════════════════════════════════════════════ */
 
+function bindNavKeyboardHandlers() {
+    const nav = document.getElementById('cosy-nav');
+    if (nav && !nav.dataset.kbdBound) {
+        nav.dataset.kbdBound = 'true';
+        nav.addEventListener('keydown', (e) => {
+            const menuItems = Array.from(nav.querySelectorAll('[role="menuitem"]'));
+            if (menuItems.length === 0) return;
+            const currentIndex = menuItems.indexOf(document.activeElement);
+
+            if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+                if (currentIndex !== -1) {
+                    e.preventDefault();
+                    const nextIndex = (currentIndex + 1) % menuItems.length;
+                    menuItems[nextIndex].focus();
+                }
+            } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+                if (currentIndex !== -1) {
+                    e.preventDefault();
+                    const prevIndex = (currentIndex - 1 + menuItems.length) % menuItems.length;
+                    menuItems[prevIndex].focus();
+                }
+            } else if (e.key === 'Home') {
+                e.preventDefault();
+                menuItems[0].focus();
+            } else if (e.key === 'End') {
+                e.preventDefault();
+                menuItems[menuItems.length - 1].focus();
+            }
+        });
+    }
+
+    if (typeof document !== 'undefined' && !window.cosyMobileMenuEscapeHandlerSetup) {
+        window.cosyMobileMenuEscapeHandlerSetup = true;
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                const mm = document.getElementById('cosy-mobile-menu');
+                if (mm && mm.classList.contains('open')) {
+                    mm.classList.remove('open');
+                    const btn = document.querySelector('.nav-menu-btn');
+                    if (btn) {
+                        btn.setAttribute('aria-expanded', 'false');
+                        btn.focus();
+                    }
+                }
+            }
+        });
+    }
+}
+
 function applyMode () {
     const { mode } = STATE;
-    document.body.className = document.body.className.replace(/mode-\w+/g, '').trim();
-    document.body.classList.add('mode-free');
+    if (typeof document !== 'undefined' && document.body) {
+        document.body.className = document.body.className.replace(/mode-\w+/g, '').trim();
+        document.body.classList.add('mode-free');
+    }
 
-    const nav = document.getElementById('cosy-nav');
+    const nav = typeof document !== 'undefined' ? document.getElementById('cosy-nav') : null;
     if (nav) {
         nav.className = 'nav-container';
         const t = getNavLabel;
         nav.setAttribute('aria-label', t('main_aria', 'Main Navigation'));
         nav.innerHTML = navFree();
+        bindNavKeyboardHandlers();
 
         // Restore context if any
-        if (COSY._navContext) {
+        if (typeof COSY !== 'undefined' && COSY._navContext) {
             const ctx = document.getElementById('cosy-nav-context');
             if (ctx) ctx.innerHTML = COSY._navContext;
         }
     }
 
-    const mm = document.getElementById('cosy-mobile-menu');
+    const mm = typeof document !== 'undefined' ? document.getElementById('cosy-mobile-menu') : null;
     if (mm) mm.innerHTML = mobileMenuHTML(mode);
 
-    if (window.COSY_UI && typeof window.COSY_UI.updateMobileNav === 'function') {
+    if (typeof window !== 'undefined' && window.COSY_UI && typeof window.COSY_UI.updateMobileNav === 'function') {
         window.COSY_UI.updateMobileNav(mode);
     }
 
-    document.dispatchEvent(new CustomEvent('cosyModeChanged', { detail: STATE }));
+    if (typeof document !== 'undefined') {
+        document.dispatchEvent(new CustomEvent('cosyModeChanged', { detail: STATE }));
+    }
 
     // Re-apply translations if i18n is available
-    if (window.COSY_I18N && typeof window.COSY_I18N.refresh === 'function') {
+    if (typeof window !== 'undefined' && window.COSY_I18N && typeof window.COSY_I18N.refresh === 'function') {
         window.COSY_I18N.refresh();
     }
 }
 
 function mobileMenuHTML (mode) {
-    const p = getPrefix();
+    const t = getNavLabel;
     const activeProfile = window.COSY_PROFILES ? window.COSY_PROFILES.getActiveProfile() : 'Guest';
     const profiles = window.COSY_PROFILES ? window.COSY_PROFILES.getProfileList() : ['Guest'];
     const profileOptions = profiles.map(prof => `<option value="${prof}" ${prof === activeProfile ? 'selected' : ''}>👤 ${prof}</option>`).join('');
 
-    // Global language switcher (flag picker) state and options for mobile menu
-    const currentLang = localStorage.getItem('cosy_ui_lang') || localStorage.getItem('cosy_last_language') || 'en';
+    const currentLang = (typeof localStorage !== 'undefined' && (localStorage.getItem('cosy_ui_lang') || localStorage.getItem('cosy_last_language'))) || 'en';
     const langOptions = [
         { code: 'en', flag: '🇬🇧', label: 'EN' },
         { code: 'fr', flag: '🇫🇷', label: 'FR' },
@@ -349,14 +504,19 @@ function mobileMenuHTML (mode) {
         { code: 'es', flag: '🇪🇸', label: 'ES' }
     ].map(l => `<option value="${l.code}" ${l.code === currentLang ? 'selected' : ''}>${l.flag} ${l.label}</option>`).join('');
 
+    const items = NAV_CONFIG.free || [];
+    const linksHtml = items.map(item => {
+        const fallbackLabel = item.key === 'teacher' ? 'Teacher resources' : item.key[0].toUpperCase() + item.key.slice(1);
+        const label = t(item.key, fallbackLabel);
+        const href = getNavHref(item.hrefKey || item.key);
+        const isExternal = href.startsWith('http://') || href.startsWith('https://');
+        const targetAttr = isExternal ? ' target="_blank" rel="noopener"' : '';
+        return `<a href="${href}" ${targetAttr} data-translate-key="nav_${item.key}" data-i18n="nav.${item.key}">${item.icon ? item.icon + ' ' : ''}${label}</a>`;
+    }).join('\n      ');
+
     return `
-      <a href="${p}index.html" data-translate-key="nav_home" data-i18n="nav.home">Home</a>
-      <a href="${p}index.html#courses" data-translate-key="nav_courses" data-i18n="nav.courses">Courses</a>
-      <a href="https://cosylanguages.github.io/COSYgames/" target="_blank" rel="noopener" data-translate-key="nav_games" data-i18n="nav.games">🎮 Games</a>
-      <a href="https://cosylanguages.github.io/COSYworld/" target="_blank" rel="noopener" data-translate-key="nav_world" data-i18n="nav.world">🌍 World</a>
-      <a href="https://cosylanguages.github.io/COSYtools/" target="_blank" rel="noopener" data-translate-key="nav_tools" data-i18n="nav.tools">🔎 Tools</a>
-      <a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" data-translate-key="nav_events" data-i18n="nav.events">🎉 Events</a>
-      <a href="https://cosylanguages.github.io/COSYmanuals/" target="_blank" rel="noopener" data-translate-key="nav_manuals" data-i18n="nav.manuals">🔒 Manuals</a>
+      <a href="${getNavHref('home')}" data-translate-key="nav_home" data-i18n="nav.home">🏡 ${t('home', 'Home')}</a>
+      ${linksHtml}
       <a href="#" onclick="event.preventDefault(); COSY.toggleTheme();" class="mobile-theme-toggle-a" style="display: flex; align-items: center; gap: 8px;">🌓 Toggle Dark Mode</a>
       <div style="padding: 12px 16px; display: flex; align-items: center; gap: 8px;">
          <span style="font-size: 0.9rem; color: var(--ink-soft);" data-i18n="label.language">Language 🌍</span>
@@ -653,9 +813,23 @@ window.COSY = {
     },
 
     toggleMobileMenu () {
-      const mm = document.getElementById('cosy-mobile-menu')
-      if (mm) mm.classList.toggle('open')
+      const mm = typeof document !== 'undefined' ? document.getElementById('cosy-mobile-menu') : null;
+      const btn = typeof document !== 'undefined' ? document.querySelector('.nav-menu-btn') : null;
+      if (mm) {
+        mm.classList.toggle('open');
+        const isOpen = mm.classList.contains('open');
+        if (btn) btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+        if (isOpen) {
+            const firstLink = mm.querySelector('a');
+            if (firstLink) firstLink.focus();
+        }
+      }
     },
+    getEcosystemUrls,
+    getNavHref,
+    DEFAULT_ECOSYSTEM_URLS,
+    NAV_CONFIG,
+    NAV_FALLBACKS,
     // Dictionary
     async addToDict(wordData, maybeDef, btnEl) {
         let word, data;
@@ -909,20 +1083,34 @@ window.COSY = {
     }
 };
 
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => {
+if (typeof document !== 'undefined') {
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', () => {
+            COSY.initTheme();
+            inject();
+            COSY.registerSW();
+            updateNavActiveState();
+        });
+    } else {
         COSY.initTheme();
         inject();
         COSY.registerSW();
         updateNavActiveState();
-    });
-} else {
-    COSY.initTheme();
-    inject();
-    COSY.registerSW();
-    updateNavActiveState();
+    }
 }
-window.addEventListener('hashchange', updateNavActiveState);
-window.addEventListener('popstate', updateNavActiveState);
+if (typeof window !== 'undefined') {
+    window.addEventListener('hashchange', updateNavActiveState);
+    window.addEventListener('popstate', updateNavActiveState);
+}
 
 })();
+
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = {
+        getEcosystemUrls,
+        getNavHref,
+        DEFAULT_ECOSYSTEM_URLS,
+        NAV_CONFIG,
+        NAV_FALLBACKS
+    };
+}
