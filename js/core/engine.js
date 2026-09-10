@@ -108,7 +108,7 @@ const NAV_CONFIG = {
         { key: 'atlas',    href: 'comparative/index.html', icon: '🌐' },
         { key: 'notebook', href: 'notebook/index.html',  icon: '📓' },
         { key: 'blog',     href: 'blog/index.html',      icon: '📝' },
-        { key: 'games',    href: 'games/index.html',     icon: '🎮' },
+        { key: 'games',    href: 'https://cosylanguages.github.io/COSYgames/', icon: '🎮' },
         { key: 'events',   href: 'https://cosylanguages.github.io/COSYevents/',    icon: '🎉' },
         { key: 'hybrid',   href: 'hybrid/index.html',    icon: '🌿' }
     ]
@@ -352,8 +352,8 @@ function mobileMenuHTML (mode) {
       <a href="${p}index.html" data-translate-key="nav_home" data-i18n="nav.home">Home</a>
       <a href="${p}practice/index.html" data-translate-key="nav_practice" data-i18n="nav.practice">💡 Practice</a>
       <a href="${p}notebook/index.html" data-translate-key="nav_notebook" data-i18n="nav.notebook">📓 Notebook</a>
-      <a href="${p}games/index.html" data-translate-key="nav_games" data-i18n="nav.games">🎮 Games</a>
-      <a href="${p}https://cosylanguages.github.io/COSYevents/" data-translate-key="nav_events" data-i18n="nav.events">🎉 Events</a>
+      <a href="https://cosylanguages.github.io/COSYgames/" data-translate-key="nav_games" data-i18n="nav.games">🎮 Games</a>
+      <a href="https://cosylanguages.github.io/COSYevents/" data-translate-key="nav_events" data-i18n="nav.events">🎉 Events</a>
       <a href="${p}hybrid/index.html" data-translate-key="nav_hybrid" data-i18n="nav.hybrid">🌿 Hybrid</a>
       <a href="#" onclick="event.preventDefault(); COSY.toggleTheme();" class="mobile-theme-toggle-a" style="display: flex; align-items: center; gap: 8px;">🌓 Toggle Dark Mode</a>
       <div style="padding: 12px 16px; display: flex; align-items: center; gap: 8px;">

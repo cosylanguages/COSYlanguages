@@ -596,8 +596,8 @@
 
       mobileNav.innerHTML = `
         <a href="${p}practice/index.html" class="mobile-nav-item" id="mnav-practice"><span class="mn-icon">💡</span><span>Practice</span></a>
-        <a href="${p}games/index.html" class="mobile-nav-item" id="mnav-games"><span class="mn-icon">🎮</span><span>Games</span></a>
-        <a href="${p}https://cosylanguages.github.io/COSYevents/" class="mobile-nav-item" id="mnav-events"><span class="mn-icon">🎉</span><span>Events</span></a>
+        <a href="https://cosylanguages.github.io/COSYgames/" class="mobile-nav-item" id="mnav-games"><span class="mn-icon">🎮</span><span>Games</span></a>
+        <a href="https://cosylanguages.github.io/COSYevents/" class="mobile-nav-item" id="mnav-events"><span class="mn-icon">🎉</span><span>Events</span></a>
         <a href="${p}index.html" class="mobile-nav-item" id="mnav-home"><span class="mn-icon">🏡</span><span>Home</span></a>`;
 
       const path = window.location.pathname;
@@ -2305,7 +2305,7 @@
                         <div class="ctm-map-item">
                             <span class="cmi-icon">🎮</span>
                             <div class="cmi-content">
-                                <strong><a href="${p}games/index.html">${getTourText('games_title')}</a></strong>
+                                <strong><a href="https://cosylanguages.github.io/COSYgames/">${getTourText('games_title')}</a></strong>
                                 <p>${getTourText('games_desc')}</p>
                             </div>
                         </div>
@@ -5588,8 +5588,8 @@
             nav.className = 'mobile-nav';
             nav.innerHTML = `
                 <a href="${prefix}practice/index.html" class="mobile-nav-item" id="mnav-practice"><span class="mn-icon">💡</span><span>Practice</span></a>
-                <a href="${prefix}games/index.html" class="mobile-nav-item" id="mnav-games"><span class="mn-icon">🎮</span><span>Games</span></a>
-                <a href="${prefix}https://cosylanguages.github.io/COSYevents/" class="mobile-nav-item" id="mnav-events"><span class="mn-icon">🎉</span><span>Events</span></a>
+                <a href="https://cosylanguages.github.io/COSYgames/" class="mobile-nav-item" id="mnav-games"><span class="mn-icon">🎮</span><span>Games</span></a>
+                <a href="https://cosylanguages.github.io/COSYevents/" class="mobile-nav-item" id="mnav-events"><span class="mn-icon">🎉</span><span>Events</span></a>
                 <a href="${prefix}index.html" class="mobile-nav-item" id="mnav-home"><span class="mn-icon">🏡</span><span>Home</span></a>`;
             document.body.appendChild(nav);
         }
