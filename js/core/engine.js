@@ -112,7 +112,36 @@ const DEFAULT_ECOSYSTEM_URLS = {
     teacher: 'https://cosylanguages.github.io/COSYmanuals/'
 };
 
+function getConfigModule() {
+    if (typeof window !== 'undefined' && window.COSY_CONFIG_MODULE) {
+        return window.COSY_CONFIG_MODULE;
+    }
+    if (typeof require === 'function') {
+        try {
+            return require('./config.js');
+        } catch (e) {}
+    }
+    return null;
+}
+
 function getEcosystemUrls(env, overrides) {
+    const cfg = getConfigModule();
+    if (cfg && typeof cfg.getEcosystemConfig === 'function') {
+        const repoConfig = cfg.getEcosystemConfig({ env: env, overrides: overrides });
+        return {
+            home: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'index.html' : 'index.html',
+            courses: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'index.html#courses' : 'index.html#courses',
+            practice: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'practice/index.html' : 'practice/index.html',
+            tools: repoConfig.COSYtools,
+            games: repoConfig.COSYgames,
+            world: repoConfig.COSYworld,
+            events: repoConfig.COSYevents,
+            blog: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'blog/index.html' : 'blog/index.html',
+            teacher: repoConfig.COSYmanuals || (repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'manuals/index.html' : 'manuals/index.html')
+        };
+    }
+
+    // Fallback if config module is absent
     const processEnv = (typeof process !== 'undefined' && process.env) ? process.env : {};
     const winConfig = (typeof window !== 'undefined' && window.COSY_CONFIG) ? window.COSY_CONFIG : {};
     const winUrls = (typeof window !== 'undefined' && window.COSY_ECOSYSTEM_URLS) ? window.COSY_ECOSYSTEM_URLS : {};
@@ -158,6 +187,7 @@ function getEcosystemUrls(env, overrides) {
 function getNavHref(itemKey) {
     const urls = getEcosystemUrls();
     const rawHref = urls[itemKey] || DEFAULT_ECOSYSTEM_URLS[itemKey] || 'index.html';
+    if (!rawHref) return 'index.html';
     const isAbsolute = rawHref.startsWith('http://') || rawHref.startsWith('https://') || rawHref.startsWith('//');
     if (isAbsolute) return rawHref;
     const p = getPrefix();
