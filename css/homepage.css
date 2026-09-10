@@ -1,0 +1,672 @@
+/* ── COSYlanguages Homepage Redesign Stylesheet ────────────────── */
+
+/* ── Hero Section ───────────────────────────────────────────── */
+.hp-hero {
+  background: linear-gradient(135deg, #FAF7F2 0%, #E8F0E9 100%);
+  padding: 4rem 2rem 5rem;
+  border-bottom: 1px solid var(--border, rgba(74,107,80,0.12));
+  position: relative;
+  overflow: hidden;
+}
+
+html[data-theme="dark"] .hp-hero,
+body.theme-dark .hp-hero {
+  background: linear-gradient(135deg, #182019 0%, #0F1410 100%);
+}
+
+.hp-hero-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.hp-hero-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--sage-mist, #f0f5f1);
+  color: var(--sage-dark, #375742);
+  padding: 6px 14px;
+  border-radius: 100px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--border);
+}
+
+.hp-hero-title {
+  font-family: var(--font-serif, 'Fraunces', serif);
+  font-size: 2.8rem;
+  line-height: 1.15;
+  color: var(--ink, #2a2a2a);
+  margin-bottom: 1.25rem;
+  font-weight: 700;
+}
+
+.hp-hero-title em {
+  color: var(--sage, #416b49);
+  font-style: italic;
+}
+
+.hp-hero-sub {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: var(--ink-soft, #4a4a4a);
+  margin-bottom: 2rem;
+  max-width: 580px;
+}
+
+.hp-hero-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 2.5rem;
+}
+
+.hp-btn-primary {
+  background: var(--sage, #416b49);
+  color: #ffffff;
+  padding: 14px 28px;
+  border-radius: 100px;
+  font-weight: 800;
+  font-size: 0.98rem;
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(46,74,51,0.2);
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hp-btn-primary:hover {
+  background: var(--sage-dark, #375742);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(46,74,51,0.3);
+}
+
+.hp-btn-secondary {
+  background: transparent;
+  color: var(--sage-dark, #375742);
+  border: 2px solid var(--sage-soft, #6b9474);
+  padding: 12px 24px;
+  border-radius: 100px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.hp-btn-secondary:hover {
+  background: var(--sage-pale, #e8f0e9);
+  color: var(--sage-deep, #233827);
+}
+
+.hp-trust-row {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.hp-trust-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.hp-trust-num {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--sage-dark);
+}
+
+.hp-trust-lbl {
+  font-size: 0.78rem;
+  color: var(--ink-faint);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.hp-hero-card {
+  background: var(--warm-white, #FFFEFB);
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg, 22px);
+  padding: 2rem;
+  box-shadow: var(--shadow, 0 6px 28px rgba(46,74,51,0.1));
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+html[data-theme="dark"] .hp-hero-card,
+body.theme-dark .hp-hero-card {
+  background: #222b22;
+}
+
+/* ── Section Header General ──────────────────────────────────── */
+.hp-section {
+  padding: 4.5rem 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hp-section-header {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto 3rem;
+}
+
+.hp-sec-tag {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--sage, #416b49);
+  background: var(--sage-mist);
+  padding: 4px 12px;
+  border-radius: 100px;
+  margin-bottom: 0.75rem;
+}
+
+.hp-sec-h2 {
+  font-family: var(--font-serif, 'Fraunces', serif);
+  font-size: 2.2rem;
+  color: var(--ink);
+  margin-bottom: 0.75rem;
+}
+
+.hp-sec-p {
+  font-size: 1.05rem;
+  color: var(--ink-soft);
+  line-height: 1.5;
+}
+
+/* ── How It Works ────────────────────────────────────────────── */
+.hp-steps-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  position: relative;
+}
+
+.hp-step-card {
+  background: var(--warm-white);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md, 14px);
+  padding: 2rem 1.5rem;
+  text-align: center;
+  transition: all 0.25s ease;
+  position: relative;
+}
+
+.hp-step-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+}
+
+.hp-step-num {
+  width: 48px;
+  height: 48px;
+  background: var(--sage, #416b49);
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.25rem;
+}
+
+.hp-step-title {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--ink);
+  margin-bottom: 0.75rem;
+}
+
+.hp-step-desc {
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+  line-height: 1.5;
+}
+
+/* ── Languages Grid ───────────────────────────────────────────── */
+.hp-lang-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.25rem;
+}
+
+.hp-lang-card {
+  background: var(--warm-white);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  padding: 1.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hp-lang-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--sage-soft);
+  box-shadow: var(--shadow-sm);
+}
+
+.hp-lang-flag {
+  font-size: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.hp-lang-name {
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: var(--ink);
+  margin-bottom: 0.5rem;
+}
+
+.hp-lang-badges {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 0.75rem;
+}
+
+.hp-badge {
+  background: var(--sage-pale);
+  color: var(--sage-dark);
+  font-size: 0.7rem;
+  font-weight: 800;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.hp-lang-cta {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--sage);
+}
+
+/* ── Courses Preview ──────────────────────────────────────────── */
+.hp-tabs-nav {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.hp-tab-btn {
+  background: var(--warm-white);
+  border: 1px solid var(--border);
+  padding: 10px 20px;
+  border-radius: 100px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.hp-tab-btn.active {
+  background: var(--sage, #416b49);
+  color: #ffffff;
+  border-color: var(--sage);
+}
+
+.hp-courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.hp-course-card {
+  background: var(--warm-white);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.25s ease;
+}
+
+.hp-course-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
+}
+
+.hp-course-card.popular {
+  border: 2px solid var(--sage);
+  position: relative;
+}
+
+.hp-popular-badge {
+  position: absolute;
+  top: -12px;
+  right: 20px;
+  background: var(--honey, #945e05);
+  color: #ffffff;
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 4px 12px;
+  border-radius: 100px;
+  text-transform: uppercase;
+}
+
+/* ── Features Showcase ────────────────────────────────────────── */
+.hp-features-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.hp-feature-card {
+  background: var(--warm-white);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  padding: 1.5rem;
+  transition: all 0.25s ease;
+}
+
+.hp-feature-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--sage-soft);
+}
+
+.hp-feature-icon {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.hp-feature-title {
+  font-weight: 800;
+  font-size: 1.05rem;
+  color: var(--ink);
+  margin-bottom: 0.5rem;
+}
+
+.hp-feature-desc {
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+  line-height: 1.45;
+}
+
+/* ── Practice Tools Preview ────────────────────────────────────── */
+.hp-tools-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.25rem;
+}
+
+.hp-tool-card {
+  background: var(--warm-white);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  padding: 1.5rem 1rem;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hp-tool-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+}
+
+.hp-tool-icon {
+  font-size: 2.2rem;
+  margin-bottom: 0.75rem;
+}
+
+.hp-tool-title {
+  font-weight: 800;
+  font-size: 1rem;
+  color: var(--ink);
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.hp-tool-desc {
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+.hp-tool-cta {
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: var(--sage);
+}
+
+/* ── Testimonials Section ──────────────────────────────────────── */
+.hp-testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.hp-testimonial-card {
+  background: var(--warm-white);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hp-test-stars {
+  color: #f59e0b;
+  margin-bottom: 0.75rem;
+}
+
+.hp-test-quote {
+  font-size: 0.95rem;
+  color: var(--ink);
+  line-height: 1.55;
+  font-style: italic;
+  margin-bottom: 1.25rem;
+}
+
+.hp-test-user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.hp-test-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--sage-pale);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  color: var(--sage-dark);
+}
+
+.hp-test-name {
+  font-weight: 800;
+  font-size: 0.92rem;
+  color: var(--ink);
+}
+
+.hp-test-meta {
+  font-size: 0.78rem;
+  color: var(--ink-faint);
+}
+
+/* ── Pricing Preview ──────────────────────────────────────────── */
+.hp-pricing-box {
+  background: var(--warm-white);
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  padding: 2.5rem;
+  box-shadow: var(--shadow-sm);
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* ── Blog Preview ─────────────────────────────────────────────── */
+.hp-blog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.hp-blog-card {
+  background: var(--warm-white);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  overflow: hidden;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.hp-blog-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
+}
+
+.hp-blog-content {
+  padding: 1.25rem;
+}
+
+.hp-blog-tag {
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--sage);
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.hp-blog-title {
+  font-weight: 800;
+  font-size: 1.05rem;
+  color: var(--ink);
+  margin-bottom: 0.5rem;
+  line-height: 1.35;
+}
+
+.hp-blog-excerpt {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  line-height: 1.45;
+}
+
+/* ── Final CTA Banner ─────────────────────────────────────────── */
+.hp-final-cta {
+  background: var(--sage-dark, #375742);
+  color: #ffffff;
+  padding: 4.5rem 1.5rem;
+  text-align: center;
+}
+
+.hp-final-cta-inner {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.hp-final-cta h2 {
+  font-family: var(--font-serif, 'Fraunces', serif);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hp-final-cta p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin-bottom: 2rem;
+}
+
+.hp-final-btns {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.hp-btn-wa {
+  background: #25D366;
+  color: #ffffff;
+  padding: 14px 28px;
+  border-radius: 100px;
+  font-weight: 800;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.hp-btn-wa:hover {
+  background: #1eb957;
+  transform: translateY(-2px);
+}
+
+.hp-btn-tg {
+  background: #0088cc;
+  color: #ffffff;
+  padding: 14px 28px;
+  border-radius: 100px;
+  font-weight: 800;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.hp-btn-tg:hover {
+  background: #0077b5;
+  transform: translateY(-2px);
+}
+
+/* ── Responsive Breakpoints ───────────────────────────────────── */
+@media (max-width: 1024px) {
+  .hp-hero-inner {
+    grid-template-columns: 1fr;
+  }
+  .hp-lang-grid,
+  .hp-tools-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .hp-features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .hp-steps-grid,
+  .hp-testimonials-grid,
+  .hp-blog-grid {
+    grid-template-columns: 1fr;
+  }
+  .hp-lang-grid,
+  .hp-tools-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .hp-features-grid {
+    grid-template-columns: 1fr;
+  }
+  .hp-hero-title {
+    font-size: 2.2rem;
+  }
+}
