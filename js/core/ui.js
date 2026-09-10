@@ -592,16 +592,24 @@
       const mobileNav = document.querySelector('.mobile-nav');
       if (!mobileNav) return;
 
-      const p = (window.COSY && typeof window.COSY.getPrefix === 'function') ? window.COSY.getPrefix() : '';
+      const getNavHref = (window.COSY && typeof window.COSY.getNavHref === 'function')
+          ? window.COSY.getNavHref
+          : (key => (key === 'home' ? 'index.html' : key === 'practice' ? 'practice/index.html' : key === 'courses' ? 'index.html#courses' : key === 'blog' ? 'blog/index.html' : `https://cosylanguages.github.io/COSY${key}/`));
+
+      const homeHref = getNavHref('home');
+      const practiceHref = getNavHref('practice');
+      const gamesHref = getNavHref('games');
+      const eventsHref = getNavHref('events');
+      const coursesHref = getNavHref('courses');
 
       mobileNav.innerHTML = `
-        <a href="${p}practice/index.html" class="mobile-nav-item" id="mnav-practice"><span class="mn-icon">💡</span><span>Practice</span></a>
-        <a href="https://cosylanguages.github.io/COSYgames/" class="mobile-nav-item" id="mnav-games"><span class="mn-icon">🎮</span><span>Games</span></a>
-        <a href="https://cosylanguages.github.io/COSYevents/" class="mobile-nav-item" id="mnav-events"><span class="mn-icon">🎉</span><span>Events</span></a>
-        <a href="${p}index.html" class="mobile-nav-item" id="mnav-home"><span class="mn-icon">🏡</span><span>Home</span></a>`;
+        <a href="${practiceHref}" class="mobile-nav-item" id="mnav-practice"><span class="mn-icon">💡</span><span>Practice</span></a>
+        <a href="${gamesHref}" ${gamesHref.startsWith('http') ? 'target="_blank" rel="noopener"' : ''} class="mobile-nav-item" id="mnav-games"><span class="mn-icon">🎮</span><span>Games</span></a>
+        <a href="${eventsHref}" ${eventsHref.startsWith('http') ? 'target="_blank" rel="noopener"' : ''} class="mobile-nav-item" id="mnav-events"><span class="mn-icon">🎉</span><span>Events</span></a>
+        <a href="${coursesHref}" class="mobile-nav-item" id="mnav-courses"><span class="mn-icon">📚</span><span>Courses</span></a>
+        <a href="${homeHref}" class="mobile-nav-item" id="mnav-home"><span class="mn-icon">🏡</span><span>Home</span></a>`;
 
       const path = window.location.pathname;
-      const hash = window.location.hash || '';
       const currentFilename = path.split('/').pop() || 'index.html';
       const items = document.querySelectorAll('.mobile-nav-item');
 
@@ -610,16 +618,15 @@
         const linkFilename = href.split('#')[0].split('/').pop() || 'index.html';
         let active = (currentFilename === linkFilename);
 
-        // Special case for home
         if (currentFilename === 'index.html' || currentFilename === '/') {
             active = (item.id === 'mnav-home');
         }
 
         if (path.includes('/practice/')) {
             active = (item.id === 'mnav-practice');
-        } else if (path.includes('/games/')) {
+        } else if (path.includes('/games/') || path.includes('COSYgames')) {
             active = (item.id === 'mnav-games');
-        } else if (path.includes('https://cosylanguages.github.io/COSYevents/')) {
+        } else if (path.includes('/events/') || path.includes('COSYevents')) {
             active = (item.id === 'mnav-events');
         }
 
@@ -2291,36 +2298,64 @@
                         <div class="ctm-map-item">
                             <span class="cmi-icon">🏡</span>
                             <div class="cmi-content">
-                                <strong><a href="${p}index.html">${getTourText('home_title')}</a></strong>
+                                <strong><a href="${(window.COSY && window.COSY.getNavHref) ? window.COSY.getNavHref('home') : p + 'index.html'}">${getTourText('home_title')}</a></strong>
                                 <p>${getTourText('home_desc')}</p>
+                            </div>
+                        </div>
+                        <div class="ctm-map-item">
+                            <span class="cmi-icon">📚</span>
+                            <div class="cmi-content">
+                                <strong><a href="${(window.COSY && window.COSY.getNavHref) ? window.COSY.getNavHref('courses') : p + 'index.html#courses'}">Courses</a></strong>
+                                <p>Syllabus tracks and personalized lessons.</p>
                             </div>
                         </div>
                         <div class="ctm-map-item">
                             <span class="cmi-icon">💡</span>
                             <div class="cmi-content">
-                                <strong><a href="${p}practice/index.html">${getTourText('practice_title')}</a></strong>
+                                <strong><a href="${(window.COSY && window.COSY.getNavHref) ? window.COSY.getNavHref('practice') : p + 'practice/index.html'}">${getTourText('practice_title')}</a></strong>
                                 <p>${getTourText('practice_desc')}</p>
+                            </div>
+                        </div>
+                        <div class="ctm-map-item">
+                            <span class="cmi-icon">🔎</span>
+                            <div class="cmi-content">
+                                <strong><a href="${(window.COSY && window.COSY.getNavHref) ? window.COSY.getNavHref('tools') : 'https://cosylanguages.github.io/COSYtools/'}" target="_blank" rel="noopener">Tools</a></strong>
+                                <p>Linguistic conjugation and grammar reference engines.</p>
                             </div>
                         </div>
                         <div class="ctm-map-item">
                             <span class="cmi-icon">🎮</span>
                             <div class="cmi-content">
-                                <strong><a href="https://cosylanguages.github.io/COSYgames/">${getTourText('games_title')}</a></strong>
+                                <strong><a href="${(window.COSY && window.COSY.getNavHref) ? window.COSY.getNavHref('games') : 'https://cosylanguages.github.io/COSYgames/'}" target="_blank" rel="noopener">${getTourText('games_title')}</a></strong>
                                 <p>${getTourText('games_desc')}</p>
+                            </div>
+                        </div>
+                        <div class="ctm-map-item">
+                            <span class="cmi-icon">🌍</span>
+                            <div class="cmi-content">
+                                <strong><a href="${(window.COSY && window.COSY.getNavHref) ? window.COSY.getNavHref('world') : 'https://cosylanguages.github.io/COSYworld/'}" target="_blank" rel="noopener">World</a></strong>
+                                <p>Interactive language quest worlds and exploration.</p>
                             </div>
                         </div>
                         <div class="ctm-map-item">
                             <span class="cmi-icon">🎉</span>
                             <div class="cmi-content">
-                                <strong><a href="${p}https://cosylanguages.github.io/COSYevents/">${getTourText('events_title')}</a></strong>
+                                <strong><a href="${(window.COSY && window.COSY.getNavHref) ? window.COSY.getNavHref('events') : 'https://cosylanguages.github.io/COSYevents/'}" target="_blank" rel="noopener">${getTourText('events_title')}</a></strong>
                                 <p>${getTourText('events_desc')}</p>
                             </div>
                         </div>
                         <div class="ctm-map-item">
-                            <span class="cmi-icon">📖</span>
+                            <span class="cmi-icon">📰</span>
                             <div class="cmi-content">
-                                <strong>${getTourText('dict_title')}</strong>
-                                <p>${getTourText('dict_desc')}</p>
+                                <strong><a href="${(window.COSY && window.COSY.getNavHref) ? window.COSY.getNavHref('blog') : p + 'blog/index.html'}">Blog</a></strong>
+                                <p>Pedagogical guides, top vocabulary lists, and articles.</p>
+                            </div>
+                        </div>
+                        <div class="ctm-map-item">
+                            <span class="cmi-icon">👩‍🏫</span>
+                            <div class="cmi-content">
+                                <strong><a href="${(window.COSY && window.COSY.getNavHref) ? window.COSY.getNavHref('teacher') : 'https://cosylanguages.github.io/COSYmanuals/'}" target="_blank" rel="noopener">Teacher resources</a></strong>
+                                <p>Comprehensive language manuals and lesson guides.</p>
                             </div>
                         </div>
                     </div>
