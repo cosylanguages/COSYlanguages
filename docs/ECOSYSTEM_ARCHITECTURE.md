@@ -8,15 +8,26 @@ This document outlines the architecture for decoupling the **COSYlanguages** pla
 
 The project has already begun extracting specialized sub-products into standalone GitHub repositories under the `cosylanguages` organization:
 
-1. **[COSYworld](https://github.com/cosylanguages/COSYworld):**
-   - **Role:** Interactive 2D/3D visual environments, Scene Match games, and exploratory visual learning spaces.
-   - **Features:** High-performance spatial rendering, interactive room/city scenes, and cultural visual overlays.
+1. **[COSYmanuals](https://github.com/cosylanguages/COSYmanuals):**
+   - **Role:** Interactive HTML web textbooks, detailed curriculums, marathons, and structured linguistic datasets.
+   - **Access:** Restricted access for contracted teachers and students via direct links.
 
-2. **[COSYtools](https://github.com/cosylanguages/COSYtools):**
-   - **Role:** Standalone, offline-first linguistic reference engines and micro-apps.
+2. **[COSYevents](https://github.com/cosylanguages/COSYevents):**
+   - **Role:** Public speaking clubs, multimedia event nights, cinema club, karaoke, and session guides.
+   - **Access:** Public free access.
+
+3. **[COSYworld](https://github.com/cosylanguages/COSYworld):**
+   - **Role:** Self-study open-world RPG adventure game and spatial scene environments.
+   - **Features:** High-performance spatial rendering, interactive room/city scenes, and visual exploration.
+
+4. **[COSYgames](https://github.com/cosylanguages/COSYgames):**
+   - **Role:** Interactive practice minigames hub (22+ games) for online/offline classroom teaching and self-study.
+
+5. **[COSYtools](https://github.com/cosylanguages/COSYtools):**
+   - **Role:** Offline-first linguistic encyclopedia and reference tools (gender, case systems, verb conjugations, prepositions).
    - **Features:** 12 specialized tools across 5 languages:
      - *Verb Conjugators:* `fr-conjugeur`, `it-coniugatore`, `ru-spryazhenie`, `el-klisi-rimaton`
-     - *Gender Trainers:* `fr-genre`, `it-genere`, `ru-rod-padezhi`, `el-genos-ptoseis`
+     - *Gender & Case Trainers:* `fr-genre`, `it-genere`, `ru-rod-padezhi`, `el-genos-ptoseis`
      - *Prepositional Regimes:* `en-verb-prep`, `fr-regime`, `it-reggenza`, `el-syntaxi`
 
 ---
