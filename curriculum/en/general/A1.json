@@ -121,8 +121,7 @@
             "seniors": "Structured conversational practice simulating community club greetings with audio-supported repetition and ample thinking time."
           },
           "growingTask": {
-            "selfPortrait": "Welcome! Excuse me, take care and see you later.",
-            "dialogue": "A: Welcome! Excuse me, pardon?\nB: See you later, take care!"
+            "dialogue": "A: Welcome! Excuse me, is this the English class?\nB: Yes, it is! Take care and see you later."
           }
         },
         {
@@ -146,10 +145,6 @@
             "teens": "Gamified digital quiz competition with instant leaderboard feedback covering alphabet, greetings, and 'to be' questions.",
             "adults": "Self-assessment check-grid with targeted error-analysis exercise and practical written/spoken grammar review tasks.",
             "seniors": "Unhurried paper-based or group review session with clear visual layouts, reviewing core Unit 1 concepts through shared recall."
-          },
-          "growingTask": {
-            "selfPortrait": "A, B, C are letters of the alphabet: consonants and vowels.",
-            "dialogue": "A: Spell a greeting letter by letter.\nB: H-E-L-L-O."
           }
         }
       ]

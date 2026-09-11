@@ -126,5 +126,9 @@ The 14-step page rhythm (Section 1, Principle 2) is the **authoring** rhythm —
 - **Machine-readable JSON**: every lesson unit is structured as `schema/lesson-stage.schema.json` data under `reference-grammar/{lang}/lessons/*.json`. The `meaningCheck` array holds inline CCQ objects (`schema/ccq.schema.json`), and `controlledPractice` / `freerPractice` / `production` link out to the COSY ecosystem (`COSYtools`, `COSYgames`, `COSYevents`, `COSYworld`).
 - **Validation**: `scripts/validate-schema.js` validates all live lesson-stage and CCQ data files; `scripts/build_unified_index.py` cross-references them into `data/index/{lang}_index.json`.
 
+### GrowingTask Monologue & Dialogue Policies
+- **Policy A (Review & Exam Scope)**: Review and exam lessons (identified by lesson title containing "review" or "exam", or type `"srev"` / `"exam"`) never receive a `growingTask` entry.
+- **Policy B (Self-Portrait Monologue Thread)**: `growingTask.selfPortrait` is optional. Include `selfPortrait` only when a natural, coherent first-person monologue sentence can be constructed using target language items learned up to that lesson. For functional/conversational lessons (greetings, politeness formulas, phone openers), omit `selfPortrait` and provide `growingTask.dialogue` only.
+
 ### Authoring Rule
 When adding or editing a topic, satisfy **both** rhythms: lay the page out using the 14 authoring steps, and make sure each of the 6 CELTA stages is explicitly present and labelled. The 6-stage structure is the contract a teacher can rely on; the 14 steps are how you fill it in beautifully.

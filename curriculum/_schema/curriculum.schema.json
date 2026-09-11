@@ -44,6 +44,7 @@
                 },
                 "growingTask": {
                   "type": "object",
+                  "description": "Cumulative task artifact. Policy A: Review/exam lessons (title containing 'review'/'exam' or type 'srev'/'exam') never receive growingTask. Policy B: selfPortrait is optional; omit for purely functional/conversational lessons (greetings, politeness formulas) and include dialogue only.",
                   "properties": {
                     "selfPortrait": { "type": "string" },
                     "dialogue": { "type": "string" }
