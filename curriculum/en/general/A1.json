@@ -121,8 +121,7 @@
             "seniors": "Structured conversational practice simulating community club greetings with audio-supported repetition and ample thinking time."
           },
           "growingTask": {
-            "selfPortrait": "Welcome! Excuse me, take care and see you later.",
-            "dialogue": "A: Welcome! Excuse me, pardon?\nB: See you later, take care!"
+            "dialogue": "A: Welcome! Excuse me, is this the English class?\nB: Yes, it is! Take care and see you later."
           }
         },
         {
@@ -146,10 +145,6 @@
             "teens": "Gamified digital quiz competition with instant leaderboard feedback covering alphabet, greetings, and 'to be' questions.",
             "adults": "Self-assessment check-grid with targeted error-analysis exercise and practical written/spoken grammar review tasks.",
             "seniors": "Unhurried paper-based or group review session with clear visual layouts, reviewing core Unit 1 concepts through shared recall."
-          },
-          "growingTask": {
-            "selfPortrait": "A, B, C are letters of the alphabet: consonants and vowels.",
-            "dialogue": "A: Spell a greeting letter by letter.\nB: H-E-L-L-O."
           }
         }
       ]
@@ -181,7 +176,17 @@
             "Chinese"
           ],
           "teacher_notes": "code: \"A1-006\"\npronunciation: [{\"point\":\"Nationality word stress\",\"explain\":\"Note stress shifts: Chi-na -> Chi-NESE, I-ta-ly -> I-TA-li-an\",\"visual\":\"🌍\"}]\ncando: \"Can name major countries, nationalities, and languages\"\nhw: \"List 10 countries and their corresponding nationality adjectives\"",
-          "recycled": "Review of verb \"to be\" (I am / you are), Question formation with \"to be\", letter"
+          "recycled": "Review of verb \"to be\" (I am / you are), Question formation with \"to be\", letter",
+          "ageAdaptation": {
+            "children": "World map flag-matching game with physical country tag racing and chant drills for nationalities.",
+            "teens": "Digital map quiz racing peers to identify flag icons and spell nationality adjectives online.",
+            "adults": "Business origin introductions and travel document reading exercises focusing on capital letter capitalization rules.",
+            "seniors": "Large-print geographical card sorting with steady pronunciation practice for country and language pairs."
+          },
+          "growingTask": {
+            "selfPortrait": "I am from France. I speak French and English.",
+            "dialogue": "A: Where are you from?\nB: I am from France. I speak French."
+          }
         },
         {
           "lesson": 2,
@@ -205,7 +210,17 @@
             "capital"
           ],
           "teacher_notes": "code: \"A1-007\"\npronunciation: [{\"point\":\"Weak forms of is/are\",\"explain\":\"He's / She's / They're pronunciation\",\"visual\":\"📌\"}]\ncando: \"Can ask and answer questions about origin using third person to be forms\"\nhw: \"Write 5 Q&A pairs asking where famous people are from\"",
-          "recycled": "Question formation with \"to be\", Capital letters for countries, nationalities & languages, German"
+          "recycled": "Question formation with \"to be\", Capital letters for countries, nationalities & languages, German",
+          "ageAdaptation": {
+            "children": "Famous cartoon character guessing game using 'Where is he/she from?' card prompts and movement responses.",
+            "teens": "Avatar celebrity origin trivia challenge with digital polls and timed third-person question rounds.",
+            "adults": "International team profile review practicing third-person singular and plural 'to be' origin statements.",
+            "seniors": "Paired picture inquiry using clear pronoun visual charts ('he is' / 'they are') in a calm, structured dialogue."
+          },
+          "growingTask": {
+            "selfPortrait": "My friend is from Italy. She is Italian.",
+            "dialogue": "A: Where is she from?\nB: She is from Italy. She is Italian."
+          }
         },
         {
           "lesson": 3,
@@ -224,7 +239,17 @@
             "nationality"
           ],
           "teacher_notes": "code: \"A1-008\"\ncando: \"Can state origin, residence, and spoken languages\"\nhw: \"Write a short paragraph describing where you and a friend come from\"",
-          "recycled": "To be — he/she/it/they, Questions: Where is he from?, city"
+          "recycled": "To be — he/she/it/they, Questions: Where is he from?, city",
+          "ageAdaptation": {
+            "children": "Roleplay passport stamp activity where kids 'fly' between classroom stations and state where they live.",
+            "teens": "Interactive messaging simulation filling out student profile bios with residence and spoken language details.",
+            "adults": "Expat relocation profile workshop contrasting 'come from' (origin) and 'live in' (current residence).",
+            "seniors": "Guided interview exercise sharing life background, native languages, and current city residence with steady repetition."
+          },
+          "growingTask": {
+            "selfPortrait": "I come from France, but I live in London.",
+            "dialogue": "A: Where do you live?\nB: I live in London, but I come from France."
+          }
         },
         {
           "lesson": 4,
@@ -240,7 +265,16 @@
             "How interesting!"
           ],
           "teacher_notes": "code: \"A1-009\"\ncando: \"Can converse comfortably about origin, city of residence, and languages spoken\"\nhw: \"Record a roleplay dialogue asking a partner about their origin\"",
-          "recycled": "Questions: Where is he from?, Present simple \"live in\" / \"come from\" vs \"to be from\", come from"
+          "recycled": "Questions: Where is he from?, Present simple \"live in\" / \"come from\" vs \"to be from\", come from",
+          "ageAdaptation": {
+            "children": "Exclamatory reaction game practicing 'Really?' and 'How interesting!' with expressive facial gestures.",
+            "teens": "Pair audio recording challenge demonstrating falling intonation on Wh- questions in speed conversations.",
+            "adults": "Conversational networking drill practicing warm conversational reactions during origin exchanges.",
+            "seniors": "Unhurried partner exchanges focusing on polite question intonation and active listening responses."
+          },
+          "growingTask": {
+            "dialogue": "A: Where do you live?\nB: I live in London. I speak a little English.\nA: Really? How interesting!"
+          }
         },
         {
           "lesson": 5,
@@ -258,7 +292,13 @@
           "teacher_notes": "code: \"A1-010\"\ncando: \"Can demonstrate mastery of Unit 2 country/nationality vocabulary and origin questions\"\nhw: \"Complete Unit 2 review assessment\"",
           "recycled": "Present simple \"live in\" / \"come from\" vs \"to be from\", Wh- question intonation (Where are you from?), I speak a little English",
           "bigSpiralReview": true,
-          "bigSpiralScope": "Units 1-2"
+          "bigSpiralScope": "Units 1-2",
+          "ageAdaptation": {
+            "children": "Team-based world map review game identifying countries, capital cities, and flags.",
+            "teens": "Gamified online review contest covering third-person 'to be' and origin questions.",
+            "adults": "Structured written assessment and spoken self-check grid on origin and language forms.",
+            "seniors": "Clear paper review worksheet reviewing country, capital, and nationality concepts together."
+          }
         }
       ]
     },
@@ -291,7 +331,17 @@
             "years old"
           ],
           "teacher_notes": "code: \"A1-011\"\npronunciation: [{\"point\":\"Plural -s sounds\",\"explain\":\"/s/, /z/, and /ɪz/ plural endings (e.g., cats /s/, dogs /z/, buses /ɪz/)\",\"visual\":\"👨‍👩‍👧‍👦\"}]\ncando: \"Can name family members and state their ages\"\nhw: \"Draw a simple family tree with names and ages\"",
-          "recycled": "Wh- question intonation (Where are you from?), Review of \"to be\" (all persons) & origin questions, capital"
+          "recycled": "Wh- question intonation (Where are you from?), Review of \"to be\" (all persons) & origin questions, capital",
+          "ageAdaptation": {
+            "children": "Drawing a cartoon family tree with puppet roleplays stating ages and family titles.",
+            "teens": "Digital photo story creation building a family tree slideshow with ages and names.",
+            "adults": "Practical family background introductions focusing on numbers 1–100 and plural noun forms.",
+            "seniors": "Sharing family photographs in pairs with comfortable turn-taking and large-print age cards."
+          },
+          "growingTask": {
+            "selfPortrait": "My mother is 50 years old. I have one brother and one sister.",
+            "dialogue": "A: How old is your mother?\nB: She is 50 years old."
+          }
         },
         {
           "lesson": 2,
@@ -315,7 +365,17 @@
             "aunt"
           ],
           "teacher_notes": "code: \"A1-012\"\npronunciation: [{\"point\":\"Possessive 's vs is\",\"explain\":\"John's car (possession) vs John's tall (is)\",\"visual\":\"🔑\"}]\ncando: \"Can express ownership and family relationships using possessive adjectives and 's\"\nhw: \"Write 6 sentences using my, his, her, our, their, and possessive 's\"",
-          "recycled": "Numbers 1–100, Singular and plural nouns (-s, -es, irregular children), children"
+          "recycled": "Numbers 1–100, Singular and plural nouns (-s, -es, irregular children), children",
+          "ageAdaptation": {
+            "children": "Object-matching game with physical tags identifying 'his car' / 'her hat' / 'their toys'.",
+            "teens": "Whiteboard team race matching possessive adjectives to celebrity family trees.",
+            "adults": "Structural possessive breakdown contrasting possessive 's ('John's father') vs verb 'to be' ('John's tall').",
+            "seniors": "Guided visual chart practice clarifying 'his' vs 'her' through structured picture prompts."
+          },
+          "growingTask": {
+            "selfPortrait": "My brother's name is Mark. His wife is my aunt's daughter.",
+            "dialogue": "A: What is your brother's name?\nB: His name is Mark."
+          }
         },
         {
           "lesson": 3,
@@ -334,7 +394,17 @@
             "photo"
           ],
           "teacher_notes": "code: \"A1-013\"\ncando: \"Can describe family relationships, marital status, and physical traits\"\nhw: \"Write a 5-sentence description of your family\"",
-          "recycled": "Possessive adjectives, 's for possession, cousin"
+          "recycled": "Possessive adjectives, 's for possession, cousin",
+          "ageAdaptation": {
+            "children": "Flashcard comparison game describing older vs younger siblings using funny avatar drawings.",
+            "teens": "Pair-matching activity creating digital profiles describing marital status and family closeness.",
+            "adults": "Structured writing task building a 5-sentence family description with 'have/has got'.",
+            "seniors": "Conversational photo-sharing circle discussing family members and who looks like whom."
+          },
+          "growingTask": {
+            "selfPortrait": "My younger sister is single. We live together in a close family.",
+            "dialogue": "A: Is your sister married?\nB: No, she is single. We live together."
+          }
         },
         {
           "lesson": 4,
@@ -350,7 +420,16 @@
             "We are close"
           ],
           "teacher_notes": "code: \"A1-014\"\ncando: \"Can discuss family members and their occupations in spoken dialogue\"\nhw: \"Record a short monologue introducing your family\"",
-          "recycled": "'s for possession, Describing people with \"to be\" + adjective and \"have/has got\" / \"have/has\", live together"
+          "recycled": "'s for possession, Describing people with \"to be\" + adjective and \"have/has got\" / \"have/has\", live together",
+          "ageAdaptation": {
+            "children": "Ball-pass interviewing game asking 'How many brothers do you have?' with energetic verbal responses.",
+            "teens": "Short audio recording task interviewing a classmate about family members and their jobs.",
+            "adults": "Pair roleplays practicing open-ended family questions in friendly social conversations.",
+            "seniors": "Structured partner dialogues asking clear 'How many...?' questions with supportive prompts."
+          },
+          "growingTask": {
+            "dialogue": "A: Tell me about your family. How many brothers do you have?\nB: I have one brother. He is very nice."
+          }
         },
         {
           "lesson": 5,
@@ -366,7 +445,13 @@
             "family tree"
           ],
           "teacher_notes": "code: \"A1-015\"\ncando: \"Can demonstrate mastery of Unit 3 family terms, numbers, and possessives\"\nhw: \"Complete Unit 3 review assessment\"",
-          "recycled": "Describing people with \"to be\" + adjective and \"have/has got\" / \"have/has\", Wh- questions about family (\"How many brothers do you have?\"), She is very nice"
+          "recycled": "Describing people with \"to be\" + adjective and \"have/has got\" / \"have/has\", Wh- questions about family (\"How many brothers do you have?\"), She is very nice",
+          "ageAdaptation": {
+            "children": "Board game review station solving family tree puzzles and possessive challenge cards.",
+            "teens": "Interactive quiz game reviewing family terms, numbers, and possessive 's.",
+            "adults": "Self-checking grammar and vocabulary worksheet covering Unit 3 family concepts.",
+            "seniors": "Group review session discussing generations and family tree diagrams at a relaxed pace."
+          }
         }
       ]
     },
@@ -404,7 +489,17 @@
             "in front of"
           ],
           "teacher_notes": "code: \"A1-016\"\npronunciation: [{\"point\":\"Preposition stress\",\"explain\":\"Prepositions are usually unstressed in connected speech\",\"visual\":\"🏡\"}]\ncando: \"Can name rooms, basic furniture, and describe location using prepositions of place\"\nhw: \"Describe the positions of 5 objects in your bedroom\"",
-          "recycled": "Wh- questions about family (\"How many brothers do you have?\"), Review of possessive adjectives, possessive 's, and plurals, relative"
+          "recycled": "Wh- questions about family (\"How many brothers do you have?\"), Review of possessive adjectives, possessive 's, and plurals, relative",
+          "ageAdaptation": {
+            "children": "Building a toy house with block furniture and hiding toy animals under/on/next to objects.",
+            "teens": "Designing a digital floorplan using interactive interior design tools and labeling furniture locations.",
+            "adults": "Real estate location description drills placing furniture accurately using prepositions of place.",
+            "seniors": "Describing room arrangements from memory using clear preposition cards in unhurried pair work."
+          },
+          "growingTask": {
+            "selfPortrait": "My desk is in front of the window in my bedroom.",
+            "dialogue": "A: Where is the table?\nB: The table is in the kitchen next to the door."
+          }
         },
         {
           "lesson": 2,
@@ -426,7 +521,17 @@
             "carpet"
           ],
           "teacher_notes": "code: \"A1-017\"\npronunciation: [{\"point\":\"There's contraction\",\"explain\":\"There is -> There's /ðeəz/\",\"visual\":\"🛋️\"}]\ncando: \"Can describe contents of a room using there is / there are\"\nhw: \"Write 5 sentences about what is in your living room\"",
-          "recycled": "Review of possessive adjectives, possessive 's, and plurals, Prepositions of place (in, on, under, next to, behind, in front of), next to"
+          "recycled": "Review of possessive adjectives, possessive 's, and plurals, Prepositions of place (in, on, under, next to, behind, in front of), next to",
+          "ageAdaptation": {
+            "children": "Memory game observing a room illustration for 10 seconds, then stating 'There is a...' / 'There are two...'.",
+            "teens": "Digital room inspection quiz identifying differences between two photo interiors using 'there is/are'.",
+            "adults": "Rental apartment verification roleplay listing amenities using 'there is/are' positive and negative forms.",
+            "seniors": "Guided visual checklists describing living room contents using large-print contrast charts."
+          },
+          "growingTask": {
+            "selfPortrait": "There is a sofa and a television in my living room.",
+            "dialogue": "A: Is there a balcony in the flat?\nB: Yes, there is. There are two rooms."
+          }
         },
         {
           "lesson": 3,
@@ -448,7 +553,17 @@
             "live"
           ],
           "teacher_notes": "code: \"A1-018\"\ncando: \"Can evaluate and describe characteristics of living spaces\"\nhw: \"Write a short email describing your home to a penpal\"",
-          "recycled": "There is / there are, singular vs plural, wardrobe"
+          "recycled": "There is / there are, singular vs plural, wardrobe",
+          "ageAdaptation": {
+            "children": "Drawing a 'cozy' or 'big' dream house and presenting descriptive adjectives with visual gestures.",
+            "teens": "Writing a social media post evaluating a living space using opinion and size adjectives.",
+            "adults": "Writing a descriptive email to a penpal detailing apartment rental features, size, and environment.",
+            "seniors": "Pair exchanges comparing quiet vs noisy neighborhoods and cozy home features using clear adjective scales."
+          },
+          "growingTask": {
+            "selfPortrait": "I live in a small, quiet flat. It is very cozy and clean.",
+            "dialogue": "A: Is your house big?\nB: No, it is small, but it is comfortable and quiet."
+          }
         },
         {
           "lesson": 4,
@@ -467,7 +582,16 @@
             "near the park"
           ],
           "teacher_notes": "code: \"A1-019\"\ncando: \"Can describe a dream home and express spatial preferences in conversation\"\nhw: \"Describe your dream home in a spoken recording\"",
-          "recycled": "singular vs plural, Adjectives for opinion and size with \"to be\" and \"there is/are\", clean"
+          "recycled": "singular vs plural, Adjectives for opinion and size with \"to be\" and \"there is/are\", clean",
+          "ageAdaptation": {
+            "children": "Fantasy home presentation describing an ideal room with a view of a park or garden.",
+            "teens": "Recording a 1-minute video blog pitching a dream house design with spatial preferences.",
+            "adults": "Conversational roleplays discussing housing choices, views, and proximity to amenities.",
+            "seniors": "Structured conversation sharing ideal living preferences with audio-supported repetition."
+          },
+          "growingTask": {
+            "dialogue": "A: What is your dream house like?\nB: I like a cozy house near the park. It has got a beautiful view."
+          }
         },
         {
           "lesson": 5,
@@ -485,7 +609,13 @@
           "teacher_notes": "code: \"A1-020\"\ncando: \"Can demonstrate mastery of Unit 4 home vocabulary, prepositions, and there is/are\"\nhw: \"Complete Unit 4 review assessment\"",
           "recycled": "Adjectives for opinion and size with \"to be\" and \"there is/are\", Expressing basic preferences (\"I like...\", \"It has got...\"), I like",
           "bigSpiralReview": true,
-          "bigSpiralScope": "Units 1-4"
+          "bigSpiralScope": "Units 1-4",
+          "ageAdaptation": {
+            "children": "Interactive board game reviewing home items, prepositions, and 'there is/are'.",
+            "teens": "Online leaderboard challenge reviewing floorplans, furniture, and location prepositions.",
+            "adults": "Written self-check and floorplan description worksheet evaluating Unit 4 mastery.",
+            "seniors": "Group review session identifying home appliances and location terms at a comfortable pace."
+          }
         }
       ]
     },
@@ -517,7 +647,17 @@
             "go to bed"
           ],
           "teacher_notes": "code: \"A1-021\"\npronunciation: [{\"point\":\"Verb linking in daily routines\",\"explain\":\"get up -> /ɡet.ʌp/, wake up -> /weɪk.ʌp/\",\"visual\":\"⏰\"}]\ncando: \"Can describe morning and evening routine actions and tell time\"\nhw: \"Write down your daily timetable with times\"",
-          "recycled": "Expressing basic preferences (\"I like...\", \"It has got...\"), Review of there is/are, prepositions of place, and home vocabulary, residence"
+          "recycled": "Expressing basic preferences (\"I like...\", \"It has got...\"), Review of there is/are, prepositions of place, and home vocabulary, residence",
+          "ageAdaptation": {
+            "children": "Pantomime action game acting out morning routines ('brush teeth', 'wake up') with clock face practice.",
+            "teens": "Digital routine timeline creation mapping daily schedules with clock icons.",
+            "adults": "Work-life balance timetable analysis practicing precise time prepositions ('at 7 o'clock').",
+            "seniors": "Daily activity recall in pairs using large clock visual aids and clear verb repetition."
+          },
+          "growingTask": {
+            "selfPortrait": "I wake up at 7 o'clock in the morning. I go to bed at 11 o'clock.",
+            "dialogue": "A: What time do you wake up?\nB: I wake up at 7 o'clock."
+          }
         },
         {
           "lesson": 2,
@@ -538,7 +678,17 @@
             "at weekends"
           ],
           "teacher_notes": "code: \"A1-022\"\npronunciation: [{\"point\":\"Frequency adverb position\",\"explain\":\"Adverbs of frequency go BEFORE main verbs, but AFTER verb to be\",\"visual\":\"📅\"}]\ncando: \"Can describe habits and routine frequency using Present Simple I/you/we/they forms\"\nhw: \"Write 5 sentences about your weekly habits using frequency adverbs\"",
-          "recycled": "Telling the time (o'clock, half past, quarter to/past), Time prepositions (at 7 o'clock, in the morning), have dinner"
+          "recycled": "Telling the time (o'clock, half past, quarter to/past), Time prepositions (at 7 o'clock, in the morning), have dinner",
+          "ageAdaptation": {
+            "children": "Habit frequency scale activity placing cards ('always', 'never') on a weekly chart with physical actions.",
+            "teens": "Interactive poll rating daily habits (gaming, studying) with frequency adverbs.",
+            "adults": "Grammar position drill placing adverbs of frequency correctly before main verbs.",
+            "seniors": "Pair discussion on weekly routines using clear percentage frequency charts."
+          },
+          "growingTask": {
+            "selfPortrait": "I usually drink coffee in the morning. On weekdays, I always start work at 9.",
+            "dialogue": "A: Do you always drink coffee in the morning?\nB: Yes, I always do."
+          }
         },
         {
           "lesson": 3,
@@ -559,7 +709,17 @@
             "day off"
           ],
           "teacher_notes": "code: \"A1-023\"\ncando: \"Can connect routine events chronologically using sequence markers\"\nhw: \"Write a 6-sentence paragraph describing a typical weekday\"",
-          "recycled": "Present simple, Frequency adverbs: always, usually, sometimes, never, in the morning"
+          "recycled": "Present simple, Frequency adverbs: always, usually, sometimes, never, in the morning",
+          "ageAdaptation": {
+            "children": "Comic strip sequencing task using 'first, then, after that, finally' to arrange a daily story.",
+            "teens": "Creating a vlog script connecting daily activities chronologically with transition words.",
+            "adults": "Paragraph construction exercise describing a typical busy workday using sequence markers.",
+            "seniors": "Structured recall sharing weekend habits chronologically with gentle prompt cards."
+          },
+          "growingTask": {
+            "selfPortrait": "First, I have breakfast. Then, I go to work. After that, I go home.",
+            "dialogue": "A: What do you do on your day off?\nB: First I wake up late. Then I meet friends."
+          }
         },
         {
           "lesson": 4,
@@ -575,7 +735,16 @@
             "After that"
           ],
           "teacher_notes": "code: \"A1-024\"\ncando: \"Can interview a partner about their daily schedule and present a summary\"\nhw: \"Record a monologue describing a day in your life\"",
-          "recycled": "Prepositions of time (at, in, on), Sequence words (first, then, after that, finally), weekend"
+          "recycled": "Prepositions of time (at, in, on), Sequence words (first, then, after that, finally), weekend",
+          "ageAdaptation": {
+            "children": "Interviewer roleplay holding a toy microphone and asking classmates about their schedules.",
+            "teens": "Pair interview recording activity presenting a summary of a partner's daily routine.",
+            "adults": "Communicative interview simulation asking precise Present Simple routine questions.",
+            "seniors": "Pair interview exchanges sharing daily habits at a relaxed pace with structured guides."
+          },
+          "growingTask": {
+            "dialogue": "A: What time do you usually wake up?\nB: I usually wake up at 7. What do you do after that?\nA: Then I have breakfast."
+          }
         },
         {
           "lesson": 5,
@@ -591,7 +760,13 @@
             "schedule"
           ],
           "teacher_notes": "code: \"A1-025\"\ncando: \"Can demonstrate mastery of Unit 5 Present Simple routines and time expressions\"\nhw: \"Complete Unit 5 review assessment\"",
-          "recycled": "Sequence words (first, then, after that, finally), Wh- questions in Present Simple (\"What time do you wake up?\"), On weekends I..."
+          "recycled": "Sequence words (first, then, after that, finally), Wh- questions in Present Simple (\"What time do you wake up?\"), On weekends I...",
+          "ageAdaptation": {
+            "children": "Timetable board game review matching routines, times, and adverbs.",
+            "teens": "Digital speed review quiz testing frequency adverbs and Present Simple forms.",
+            "adults": "Self-assessment checklist and written error-correction exercise on routines.",
+            "seniors": "Paper-based review exercise summarizing daily schedule concepts calmly."
+          }
         }
       ]
     },
@@ -629,7 +804,17 @@
             "salt"
           ],
           "teacher_notes": "code: \"A1-026\"\npronunciation: [{\"point\":\"Some/any pronunciation\",\"explain\":\"Unstressed /səm/ and /'eni/ in sentences\",\"visual\":\"🍎\"}]\ncando: \"Can list food and drink items and use some/any correctly with countables/uncountables\"\nhw: \"Categorize 15 food items into countable vs uncountable\"",
-          "recycled": "Wh- questions in Present Simple (\"What time do you wake up?\"), Review of Present Simple I/you/we/they, frequency adverbs, and time prepositions, frequency"
+          "recycled": "Wh- questions in Present Simple (\"What time do you wake up?\"), Review of Present Simple I/you/we/they, frequency adverbs, and time prepositions, frequency",
+          "ageAdaptation": {
+            "children": "Play grocery store roleplay sorting toy food items into 'countable' (apples) and 'uncountable' (milk).",
+            "teens": "Interactive recipe builder choosing ingredients with 'some' and 'any'.",
+            "adults": "Grocery list preparation and budget practice contrasting 'how much' vs 'how many'.",
+            "seniors": "Guided sorting exercise classifying food cards into countable and uncountable groups."
+          },
+          "growingTask": {
+            "selfPortrait": "I eat bread and cheese for breakfast. I drink some tea.",
+            "dialogue": "A: Is there any milk in the fridge?\nB: Yes, there is some milk and two apples."
+          }
         },
         {
           "lesson": 2,
@@ -651,7 +836,17 @@
             "enjoys"
           ],
           "teacher_notes": "code: \"A1-027\"\npronunciation: [{\"point\":\"3rd person -s endings\",\"explain\":\"/s/, /z/, /ɪz/ (e.g. cooks /s/, plays /z/, teaches /ɪz/)\",\"visual\":\"🍳\"}]\ncando: \"Can describe someone else's food habits using 3rd person Present Simple -s rules\"\nhw: \"Write 5 sentences about what a friend or family member eats and drinks\"",
-          "recycled": "Countable and uncountable nouns (a/an, some, any), How much / How many intro, tomato"
+          "recycled": "Countable and uncountable nouns (a/an, some, any), How much / How many intro, tomato",
+          "ageAdaptation": {
+            "children": "Cooking puppet show describing what chef animals eat ('He eats fish', 'She drinks milk').",
+            "teens": "Digital partner profile task describing a friend's food preferences with 3rd-person -s.",
+            "adults": "Grammar transformation drill converting 'I eat' to 'She eats' and 'He cooks'.",
+            "seniors": "Third-person habit description pairing picture cards with clear verb -s endings."
+          },
+          "growingTask": {
+            "selfPortrait": "My father cooks dinner. He drinks coffee, but he prefers tea.",
+            "dialogue": "A: What does he eat for lunch?\nB: He eats chicken and rice."
+          }
         },
         {
           "lesson": 3,
@@ -676,7 +871,17 @@
             "pay"
           ],
           "teacher_notes": "code: \"A1-028\"\ncando: \"Can express likes, dislikes, and food preferences with reasons\"\nhw: \"Write 5 sentences about foods you love, like, and hate\"",
-          "recycled": "Present simple: 3rd person singular, Spelling rules: -es, -ies, needs"
+          "recycled": "Present simple: 3rd person singular, Spelling rules: -es, -ies, needs",
+          "ageAdaptation": {
+            "children": "Taste-test card game rating foods as 'delicious', 'sweet', or 'spicy' with thumbs up/down.",
+            "teens": "Restaurant review post on a digital board rating menu items with taste adjectives.",
+            "adults": "Menu evaluation and preference roleplay expressing likes and dislikes with reasons.",
+            "seniors": "Sharing favorite recipes and dietary preferences in a calm conversational format."
+          },
+          "growingTask": {
+            "selfPortrait": "I love eating fresh fruit. I don't like spicy food.",
+            "dialogue": "A: Do you like fast food?\nB: No, I prefer healthy food. I love fresh salad."
+          }
         },
         {
           "lesson": 4,
@@ -693,7 +898,16 @@
             "Bon appetit!"
           ],
           "teacher_notes": "code: \"A1-029\"\ncando: \"Can order food and drink politely in a restaurant or café dialogue\"\nhw: \"Record a café ordering dialogue with a partner\"",
-          "recycled": "Like / love / hate + noun / -ing, Adjectives for taste and food quality, order"
+          "recycled": "Like / love / hate + noun / -ing, Adjectives for taste and food quality, order",
+          "ageAdaptation": {
+            "children": "Play cafe ordering game taking orders with toy menus and 'Can I have...?' prompts.",
+            "teens": "Audio recording roleplay simulating ordering a meal at a trendy cafe with polite requests.",
+            "adults": "Restaurant ordering simulation practicing 'I would like' and requesting the bill.",
+            "seniors": "Pair roleplays ordering drinks and snacks with clear visual menus."
+          },
+          "growingTask": {
+            "dialogue": "A: Can I have a cup of coffee, please?\nB: Sure! Anything else?\nA: I would like a chocolate cake. How much is it?"
+          }
         },
         {
           "lesson": 5,
@@ -711,7 +925,13 @@
           "teacher_notes": "code: \"A1-030\"\ncando: \"Can demonstrate mastery of Unit 6 food vocabulary, 3rd person Present Simple, and ordering phrases\"\nhw: \"Complete Unit 6 review assessment\"",
           "recycled": "Adjectives for taste and food quality, Polite requests with \"Would like\" / \"Can I have\" in café/restaurant contexts, How much is it?",
           "bigSpiralReview": true,
-          "bigSpiralScope": "Units 1-6"
+          "bigSpiralScope": "Units 1-6",
+          "ageAdaptation": {
+            "children": "Food bingo and restaurant review board game.",
+            "teens": "Interactive quiz on food categories, 3rd-person verbs, and ordering phrases.",
+            "adults": "Written review and cafe conversation self-assessment.",
+            "seniors": "Group review session discussing mealtimes and food preferences."
+          }
         }
       ]
     },
@@ -745,7 +965,17 @@
             "university"
           ],
           "teacher_notes": "code: \"A1-031\"\npronunciation: [{\"point\":\"Article a/an before jobs\",\"explain\":\"a doctor /ə ˈdɒk.tə/ vs an engineer /ən ˌen.dʒɪˈnɪə/\",\"visual\":\"💼\"}]\ncando: \"Can state occupations, workplaces, and study subjects\"\nhw: \"List 10 occupations with a or an correctly applied\"",
-          "recycled": "Polite requests with \"Would like\" / \"Can I have\" in café/restaurant contexts, Review of 3rd person Present Simple, countable/uncountable, and some/any, beverage"
+          "recycled": "Polite requests with \"Would like\" / \"Can I have\" in café/restaurant contexts, Review of 3rd person Present Simple, countable/uncountable, and some/any, beverage",
+          "ageAdaptation": {
+            "children": "Costume dress-up game matching professions to workplaces ('a doctor in a hospital').",
+            "teens": "Digital career survey creating online profile cards with job titles and articles 'a/an'.",
+            "adults": "Professional networking drill stating occupations and workplaces accurately.",
+            "seniors": "Sharing past career roles and workplaces using clear job title flashcards."
+          },
+          "growingTask": {
+            "selfPortrait": "I work as a programmer in an office.",
+            "dialogue": "A: What is your job?\nB: I am a programmer. I work in an office."
+          }
         },
         {
           "lesson": 2,
@@ -768,7 +998,17 @@
             "speak English"
           ],
           "teacher_notes": "code: \"A1-032\"\npronunciation: [{\"point\":\"Can vs can't stress\",\"explain\":\"Unstressed can /kən/ vs stressed can't /kɑːnt/ or /kænt/\",\"visual\":\"💪\"}]\ncando: \"Can express physical and technical abilities using can and can't\"\nhw: \"Write 5 sentences about what you can do and 3 things you can't do\"",
-          "recycled": "Indefinite articles a/an with jobs, Present Simple for professions (\"I work as a...\", \"She works in...\"), factory"
+          "recycled": "Indefinite articles a/an with jobs, Present Simple for professions (\"I work as a...\", \"She works in...\"), factory",
+          "ageAdaptation": {
+            "children": "Talent show pantomime demonstrating physical abilities ('I can swim', 'I can't fly').",
+            "teens": "Skill matrix survey checking off tech and language abilities with classmates.",
+            "adults": "Workplace skill inventory listing technical and practical abilities using 'can/can't'.",
+            "seniors": "Pair exchanges discussing hobbies and practical skills with clear stress patterns."
+          },
+          "growingTask": {
+            "selfPortrait": "I can use a computer and speak English. I can't play the piano.",
+            "dialogue": "A: Can you drive a car?\nB: Yes, I can drive, but I can't fix it."
+          }
         },
         {
           "lesson": 3,
@@ -791,7 +1031,17 @@
             "responsible for"
           ],
           "teacher_notes": "code: \"A1-033\"\ncando: \"Can describe work tasks, responsibilities, and skill sets\"\nhw: \"Write a short profile describing your job or ideal career\"",
-          "recycled": "Can / can't for ability, Infinitive after modal verbs, fix"
+          "recycled": "Can / can't for ability, Infinitive after modal verbs, fix",
+          "ageAdaptation": {
+            "children": "Team-building puzzle activity learning collocations ('have a meeting', 'take notes').",
+            "teens": "Digital project pitch stating what tasks students are 'good at' and 'interested in'.",
+            "adults": "Writing a short professional bio describing responsibilities and skills.",
+            "seniors": "Guided discussion sharing career experiences and skills in a friendly setting."
+          },
+          "growingTask": {
+            "selfPortrait": "I am good at my job. I am responsible for a big project.",
+            "dialogue": "A: Are you interested in this project?\nB: Yes, I am. I am good at computer work."
+          }
         },
         {
           "lesson": 4,
@@ -807,7 +1057,16 @@
             "I am good at..."
           ],
           "teacher_notes": "code: \"A1-034\"\ncando: \"Can discuss career, workplace, and skills during a job intro dialogue\"\nhw: \"Record a 1-minute audio response introducing your job and skills\"",
-          "recycled": "Work collocations (do + work, make + plans, have + meeting, take + notes), Adjective + preposition (good at, interested in), interesting"
+          "recycled": "Work collocations (do + work, make + plans, have + meeting, take + notes), Adjective + preposition (good at, interested in), interesting",
+          "ageAdaptation": {
+            "children": "Interview roleplay asking friends 'What is your job?' with fun character cards.",
+            "teens": "Audio recording task introducing job skills and answering interview questions.",
+            "adults": "Job interview simulation answering questions about career and capabilities.",
+            "seniors": "Structured conversation practicing career introduction phrases peacefully."
+          },
+          "growingTask": {
+            "dialogue": "A: What do you do? Where do you work?\nB: I am a programmer. I work in a company. I am good at my work."
+          }
         },
         {
           "lesson": 5,
@@ -823,7 +1082,13 @@
             "ability"
           ],
           "teacher_notes": "code: \"A1-035\"\ncando: \"Can demonstrate mastery of Unit 7 job vocabulary, modal can/can't, and workplace phrases\"\nhw: \"Complete Unit 7 review assessment\"",
-          "recycled": "Adjective + preposition (good at, interested in), Questions about work and abilities (\"What do you do?\", \"Can you...?\"), Do you like your work?"
+          "recycled": "Adjective + preposition (good at, interested in), Questions about work and abilities (\"What do you do?\", \"Can you...?\"), Do you like your work?",
+          "ageAdaptation": {
+            "children": "Career path board game reviewing jobs, abilities, and 'can/can't'.",
+            "teens": "Gamified skills assessment covering modal verbs and work collocations.",
+            "adults": "Self-assessment checklist evaluating workplace communication skills.",
+            "seniors": "Unpressured group review summarizing occupations and abilities."
+          }
         }
       ]
     },
@@ -855,7 +1120,17 @@
             "walk"
           ],
           "teacher_notes": "code: \"A1-036\"\npronunciation: [{\"point\":\"Compound noun stress in city places\",\"explain\":\"SUPER-market, BUS stop, TRAIN station\",\"visual\":\"🚌\"}]\ncando: \"Can identify city locations and modes of transport\"\nhw: \"Draw a neighborhood map and label 8 public places\"",
-          "recycled": "Questions about work and abilities (\"What do you do?\", \"Can you...?\"), Review of can/can't, job articles, and work collocations, skill"
+          "recycled": "Questions about work and abilities (\"What do you do?\", \"Can you...?\"), Review of can/can't, job articles, and work collocations, skill",
+          "ageAdaptation": {
+            "children": "Neighborhood map activity moving toy cars and buses between the bank, park, and supermarket.",
+            "teens": "Digital transit route challenge choosing between train, bus, or bicycle to reach city locations.",
+            "adults": "City navigation drills practicing prepositions of motion ('walk past the museum to the station').",
+            "seniors": "Large-print city map navigation exercises identifying key services like pharmacy and bank."
+          },
+          "growingTask": {
+            "selfPortrait": "I take the bus to the supermarket near the park.",
+            "dialogue": "A: How do you go to work?\nB: I go by train, but I walk to the station."
+          }
         },
         {
           "lesson": 2,
@@ -877,7 +1152,17 @@
             "Excuse me"
           ],
           "teacher_notes": "code: \"A1-037\"\npronunciation: [{\"point\":\"Directional imperative intonation\",\"explain\":\"Clear, decisive stress on verb and direction (Turn LEFT, Go STRAIGHT)\",\"visual\":\"🗺️\"}]\ncando: \"Can give and follow simple directional instructions using imperatives\"\nhw: \"Write directions from your house to the nearest bus stop\"",
-          "recycled": "Review of can/can't, job articles, and work collocations, Prepositions of motion & direction (to, from, across, past, through), car"
+          "recycled": "Review of can/can't, job articles, and work collocations, Prepositions of motion & direction (to, from, across, past, through), car",
+          "ageAdaptation": {
+            "children": "Blindfolded obstacle course game where a partner calls 'Turn left!', 'Stop!', 'Go straight ahead!'.",
+            "teens": "Digital GPS navigation challenge writing direction steps for a friend.",
+            "adults": "Street map direction-giving roleplay utilizing imperatives and location terms.",
+            "seniors": "Clear diagrammatic direction practice giving simple instructions turn-by-turn."
+          },
+          "growingTask": {
+            "selfPortrait": "To go to my office, turn right and go straight ahead.",
+            "dialogue": "A: Excuse me, where is the bank?\nB: Turn left and go straight ahead. It is opposite the park."
+          }
         },
         {
           "lesson": 3,
@@ -899,7 +1184,17 @@
             "cost"
           ],
           "teacher_notes": "code: \"A1-038\"\ncando: \"Can inquire about transport prices, travel times, and ticket purchases\"\nhw: \"Write a 5-exchange dialogue buying a train ticket\"",
-          "recycled": "Imperatives, Question words: What/Where/Who/When/How..., near"
+          "recycled": "Imperatives, Question words: What/Where/Who/When/How..., near",
+          "ageAdaptation": {
+            "children": "Ticket booth roleplay buying bus passes with toy money and asking 'How much is it?'.",
+            "teens": "Online transit schedule lookup calculating travel time and ticket costs.",
+            "adults": "Ticket office simulation asking travel questions ('How far is it?', 'How long does it take?').",
+            "seniors": "Train station info desk roleplays inquiring about platform schedules and ticket fares."
+          },
+          "growingTask": {
+            "selfPortrait": "I buy a train ticket at the station. It is not far.",
+            "dialogue": "A: How much does a ticket cost?\nB: It costs ten pounds. The train leaves from platform 2."
+          }
         },
         {
           "lesson": 4,
@@ -914,7 +1209,16 @@
             "Thank you very much!"
           ],
           "teacher_notes": "code: \"A1-039\"\ncando: \"Can perform spoken direction-asking dialogues with natural fluency\"\nhw: \"Record a directions dialogue roleplay\"",
-          "recycled": "How much does it cost? / How far is it? / How long does it take?, Modal verbs for travel info, departure"
+          "recycled": "How much does it cost? / How far is it? / How long does it take?, Modal verbs for travel info, departure",
+          "ageAdaptation": {
+            "children": "Street maze roleplay asking politely 'Excuse me, how do I get to the zoo?'.",
+            "teens": "Audio recording task simulating asking a pedestrian for directions in a foreign city.",
+            "adults": "Polite street direction simulations with natural conversational intonation.",
+            "seniors": "Pair roleplay practicing direction inquiry phrases with clear audio support."
+          },
+          "growingTask": {
+            "dialogue": "A: Excuse me, how do I get to the museum? Is it near here?\nB: Take the first turning on the right.\nA: Thank you very much!"
+          }
         },
         {
           "lesson": 5,
@@ -932,7 +1236,13 @@
           "teacher_notes": "code: \"A1-040\"\ncando: \"Can demonstrate mastery of Unit 8 city places, transport terms, and direction imperatives\"\nhw: \"Complete Unit 8 review assessment\"",
           "recycled": "Modal verbs for travel info, Functional dialogue language for asking and giving directions politely, Is it near here?",
           "bigSpiralReview": true,
-          "bigSpiralScope": "Units 1-8"
+          "bigSpiralScope": "Units 1-8",
+          "ageAdaptation": {
+            "children": "City navigation map game reviewing places, directions, and transport.",
+            "teens": "Digital city quest quiz testing imperatives, prepositions, and travel expressions.",
+            "adults": "Self-assessment checklist evaluating city navigation and direction giving.",
+            "seniors": "Group review session discussing city maps and transit routes at a comfortable pace."
+          }
         }
       ]
     },
@@ -963,7 +1273,17 @@
             "guitar"
           ],
           "teacher_notes": "code: \"A1-041\"\npronunciation: [{\"point\":\"-ing suffix pronunciation\",\"explain\":\"Soft /ɪŋ/ ending without hard /ɡ/ sound\",\"visual\":\"⚽\"}]\ncando: \"Can talk about hobbies and sports using verb + -ing forms\"\nhw: \"Write 5 sentences about your hobbies using love, like, don't mind, hate\"",
-          "recycled": "Functional dialogue language for asking and giving directions politely, Review of imperatives, prepositions of movement, and city question forms, route"
+          "recycled": "Functional dialogue language for asking and giving directions politely, Review of imperatives, prepositions of movement, and city question forms, route",
+          "ageAdaptation": {
+            "children": "Hobby charades acting out sports and painting with -ing verb chants.",
+            "teens": "Digital polling task ranking favorite free-time activities (gaming, music, football).",
+            "adults": "Conversational preference scale exercises using 'love/enjoy/hate + -ing'.",
+            "seniors": "Sharing leisure interests (reading, cooking, gardening) with supportive verb flashcards."
+          },
+          "growingTask": {
+            "selfPortrait": "I love playing tennis and listening to music. I enjoy reading.",
+            "dialogue": "A: What do you like doing in your free time?\nB: I love swimming and playing guitar."
+          }
         },
         {
           "lesson": 2,
@@ -986,7 +1306,17 @@
             "sleeping"
           ],
           "teacher_notes": "code: \"A1-042\"\npronunciation: [{\"point\":\"Auxiliary be in Present Continuous\",\"explain\":\"I'm working, She's reading, They're playing\",\"visual\":\"📸\"}]\ncando: \"Can describe actions happening right now using Present Continuous\"\nhw: \"Look out the window and write 5 sentences about what people are doing now\"",
-          "recycled": "Love / like / enjoy / don't mind / hate + -ing, Gradable scale of interest, gaming"
+          "recycled": "Love / like / enjoy / don't mind / hate + -ing, Gradable scale of interest, gaming",
+          "ageAdaptation": {
+            "children": "Freeze-frame freeze game describing what classmates are doing 'right now'.",
+            "teens": "Photo commentary activity captioning social media images in Present Continuous.",
+            "adults": "Real-time action description task observing immediate surroundings.",
+            "seniors": "Pair photo observations describing what people in pictures are doing at the moment."
+          },
+          "growingTask": {
+            "selfPortrait": "Right now, I am studying English and listening to music.",
+            "dialogue": "A: What are you doing right now?\nB: I am reading a book at the moment."
+          }
         },
         {
           "lesson": 3,
@@ -1008,7 +1338,17 @@
             "competition"
           ],
           "teacher_notes": "code: \"A1-043\"\ncando: \"Can distinguish between routine hobbies and immediate activities in discourse\"\nhw: \"Write 4 contrast sentences (e.g., I usually play tennis, but today I am swimming)\"",
-          "recycled": "Present continuous, Present simple vs continuous contrast, doing"
+          "recycled": "Present continuous, Present simple vs continuous contrast, doing",
+          "ageAdaptation": {
+            "children": "Contrast game contrasting 'I usually play football, but today I am swimming'.",
+            "teens": "Digital blog writing task explaining habits vs current activities with 'because/so/but'.",
+            "adults": "Discourse analysis exercise contrasting routine habits with temporary actions.",
+            "seniors": "Pair conversation comparing usual hobbies with today's activities."
+          },
+          "growingTask": {
+            "selfPortrait": "I usually play football on Saturdays, but today I am relaxing because it is raining.",
+            "dialogue": "A: Do you usually play tennis on weekends?\nB: Yes, but today I am reading a book because it is cold."
+          }
         },
         {
           "lesson": 4,
@@ -1024,7 +1364,16 @@
             "Do you agree?"
           ],
           "teacher_notes": "code: \"A1-044\"\ncando: \"Can exchange opinions on hobbies and leisure activities in conversation\"\nhw: \"Record a 1-minute audio discussing your favorite hobbies\"",
-          "recycled": "Present Simple (habits) vs Present Continuous (now) contrast, Connecting words (because, so, but), fan"
+          "recycled": "Present Simple (habits) vs Present Continuous (now) contrast, Connecting words (because, so, but), fan",
+          "ageAdaptation": {
+            "children": "Opinion circle sharing 'I think football is fun!' with agreement cheers.",
+            "teens": "Debate activity expressing opinions on sports and gaming with 'In my opinion...'.",
+            "adults": "Discussion group exchanging viewpoints on free-time activities and agreement phrases.",
+            "seniors": "Conversational opinion sharing about hobbies and relaxing activities."
+          },
+          "growingTask": {
+            "dialogue": "A: What do you do for fun? In my opinion, swimming is exciting.\nB: I think so too! I agree."
+          }
         },
         {
           "lesson": 5,
@@ -1040,7 +1389,13 @@
             "opinion"
           ],
           "teacher_notes": "code: \"A1-045\"\ncando: \"Can demonstrate mastery of Unit 9 hobbies, Present Continuous, and opinion phrases\"\nhw: \"Complete Unit 9 review assessment\"",
-          "recycled": "Connecting words (because, so, but), Basic opinion phrases (\"I think that...\", \"In my opinion...\"), I think..."
+          "recycled": "Connecting words (because, so, but), Basic opinion phrases (\"I think that...\", \"In my opinion...\"), I think...",
+          "ageAdaptation": {
+            "children": "Hobby board game review matching actions, sports, and opinion cards.",
+            "teens": "Online review quiz testing Present Continuous and opinion phrases.",
+            "adults": "Self-assessment review task evaluating free-time vocabulary and continuous forms.",
+            "seniors": "Group review session discussing leisure activities and opinions at a gentle pace."
+          }
         }
       ]
     },
@@ -1070,7 +1425,17 @@
             "childhood"
           ],
           "teacher_notes": "code: \"A1-046\"\npronunciation: [{\"point\":\"Was vs Were pronunciation\",\"explain\":\"Was /wɒz/ or /wəz/, Were /wɜː/ or /wə/\",\"visual\":\"⏳\"}]\ncando: \"Can talk about past states, dates, and locations using was/were\"\nhw: \"Write 5 sentences about where you were yesterday and last week\"",
-          "recycled": "Basic opinion phrases (\"I think that...\", \"In my opinion...\"), Review of Present Continuous, like + -ing, and opinion structures, leisure"
+          "recycled": "Basic opinion phrases (\"I think that...\", \"In my opinion...\"), Review of Present Continuous, like + -ing, and opinion structures, leisure",
+          "ageAdaptation": {
+            "children": "Time travel game stating where toys and students were 'yesterday' and 'last week'.",
+            "teens": "Digital photo flashback activity captioning past locations with 'was/were'.",
+            "adults": "Historical timeline exercise describing past states and birthplaces.",
+            "seniors": "Sharing memory stories about childhood locations using clear 'was/were' prompts."
+          },
+          "growingTask": {
+            "selfPortrait": "I was born in France. Last year, I was a student in London.",
+            "dialogue": "A: Where were you yesterday?\nB: I was at home last night."
+          }
         },
         {
           "lesson": 2,
@@ -1095,7 +1460,17 @@
             "met"
           ],
           "teacher_notes": "code: \"A1-047\"\npronunciation: [{\"point\":\"Past simple -ed pronunciation\",\"explain\":\"/t/ worked, /d/ lived, /ɪd/ visited\",\"visual\":\"📖\"}]\ncando: \"Can narrate completed past events using Past Simple regular and irregular verbs\"\nhw: \"Write a 5-sentence diary entry about what you did yesterday\"",
-          "recycled": "Was / were, Past time expressions (yesterday, last week, ago, in 2020), weren't"
+          "recycled": "Was / were, Past time expressions (yesterday, last week, ago, in 2020), weren't",
+          "ageAdaptation": {
+            "children": "Storybook comic strip ordering past actions ('visited', 'went', 'saw') with cartoon cards.",
+            "teens": "Interactive vlog diary recording completed weekend events in Past Simple.",
+            "adults": "Writing a 5-sentence journal entry narrating yesterday's completed activities.",
+            "seniors": "Sharing past travel experiences in pair interviews using clear verb forms."
+          },
+          "growingTask": {
+            "selfPortrait": "Yesterday, I visited a museum and bought a book. I went home and had dinner.",
+            "dialogue": "A: Did you go out yesterday?\nB: Yes, I went to the park and met a friend."
+          }
         },
         {
           "lesson": 3,
@@ -1118,7 +1493,17 @@
             "study"
           ],
           "teacher_notes": "code: \"A1-048\"\npronunciation: [{\"point\":\"Going to reduction\",\"explain\":\"Going to -> /ˈɡən.ə/ in casual spoken speech\",\"visual\":\"🔮\"}]\ncando: \"Can articulate future plans and personal intentions using be going to\"\nhw: \"Write 5 sentences about your plans for next weekend and next year\"",
-          "recycled": "Past Simple affirmative, negative (didn't) & questions (Did you...?), Time expressions for completed past events, made"
+          "recycled": "Past Simple affirmative, negative (didn't) & questions (Did you...?), Time expressions for completed past events, made",
+          "ageAdaptation": {
+            "children": "Fortune teller card game predicting 'next week I am going to travel to the beach'.",
+            "teens": "Digital vision board creation presenting future plans and intentions with 'be going to'.",
+            "adults": "Planning workshop drafting personal and career goals for next year.",
+            "seniors": "Conversational planning circle sharing upcoming weekend activities gently."
+          },
+          "growingTask": {
+            "selfPortrait": "Next year, I am going to travel to Italy. I plan to study Italian.",
+            "dialogue": "A: What are you going to do tomorrow?\nB: I am going to visit a friend next week."
+          }
         },
         {
           "lesson": 4,
@@ -1137,7 +1522,17 @@
             "I plan to..."
           ],
           "teacher_notes": "code: \"A1-049\"\ncando: \"Can synthesize past background, current routine, and future goals in a coherent personal story\"\nhw: \"Record a 2-minute personal story video or audio recording\"",
-          "recycled": "Going to for future plans, Will for spontaneous decisions / future predictions intro, hope"
+          "recycled": "Going to for future plans, Will for spontaneous decisions / future predictions intro, hope",
+          "ageAdaptation": {
+            "children": "Life timeline presentation sharing past, present, and future dreams with drawings.",
+            "teens": "Video story recording combining past background, present routine, and future goals.",
+            "adults": "Synthesis monologue incorporating past simple, present simple, and future 'going to'.",
+            "seniors": "Personal story sharing circle synthesizing life background and future hopes peacefully."
+          },
+          "growingTask": {
+            "selfPortrait": "First, I lived in France. Now, I live in London. In the future, my dream is to travel the world.",
+            "dialogue": "A: What is your dream for the future?\nB: My dream is to travel to Italy. I plan to learn the language."
+          }
         },
         {
           "lesson": 5,
@@ -1155,7 +1550,13 @@
           "teacher_notes": "code: \"A1-050\"\ncando: \"Can demonstrate comprehensive A1 CEFR mastery across listening, speaking, reading, and grammar\"\nhw: \"Complete A1 Final Comprehensive Examination\"",
           "recycled": "Will for spontaneous decisions / future predictions intro, Telling your story — past, present and future (combining tenses), my dream is...",
           "bigSpiralReview": true,
-          "bigSpiralScope": "Units 1-10"
+          "bigSpiralScope": "Units 1-10",
+          "ageAdaptation": {
+            "children": "Comprehensive A1 graduation board game and celebration certificate.",
+            "teens": "Final online challenge and digital badge certification.",
+            "adults": "Comprehensive written and spoken final assessment for level certification.",
+            "seniors": "Unhurried level completion review celebrating A1 progress."
+          }
         }
       ]
     }

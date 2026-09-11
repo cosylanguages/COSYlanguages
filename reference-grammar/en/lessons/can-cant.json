@@ -7,6 +7,13 @@
     "title": "Lead-In & Context: Can / Can't",
     "content": "Contextual introduction and guided observation for Can / Can't."
   },
+  "instructionCheck": [
+    {
+      "question": "Are you interviewing a partner about 5 abilities or working alone?",
+      "expectedAnswer": "Interviewing a partner",
+      "attachedTo": "freerPractice"
+    }
+  ],
   "meaningCheck": [
     {
       "question": "Function check: What is the primary purpose of using Can / Can't?",

@@ -7,6 +7,13 @@
     "title": "Lead-In & Context: Imperatives",
     "content": "Contextual introduction and guided observation for Imperatives."
   },
+  "instructionCheck": [
+    {
+      "question": "Do you give directions turn-by-turn to your partner using imperatives?",
+      "expectedAnswer": "Yes, turn-by-turn directions",
+      "attachedTo": "freerPractice"
+    }
+  ],
   "meaningCheck": [
     {
       "question": "Function check: What is the primary purpose of using Imperatives?",
