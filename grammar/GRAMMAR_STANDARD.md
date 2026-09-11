@@ -117,7 +117,7 @@ The 14-step page rhythm (Section 1, Principle 2) is the **authoring** rhythm —
 | 2. Meaning Check (CCQs) | 7 Guided Observation (👀 Notice) |
 | 3. Form | 8 Think like [Language], 9 Language Signature / Why does [Language] do this? |
 | 4. Pronunciation | (add a pronunciation note block where relevant — see `manuals/_TEMPLATE.md` Stage 4) |
-| 5. Controlled → Freer Practice | 10 Common Mistakes (❌/✅), 11 Memory Trick, 12 Connects to... |
+| 5. Controlled → Freer Practice | 10 Common Mistakes (❌/✅), 11 Memory Trick, 12 Connects to... (Include ICQs when practice activity mechanics are non-obvious, e.g. pair work, timed tasks, role-play) |
 | 6. Production & Feedback | 13 Can you already use this?, 14 Progress Celebration |
 
 ### Canonical Implementation

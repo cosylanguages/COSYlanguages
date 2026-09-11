@@ -51,6 +51,22 @@
         "$ref": "ccq.schema.json"
       }
     },
+    "instructionCheck": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "question": { "type": "string" },
+          "expectedAnswer": { "type": "string" },
+          "attachedTo": {
+            "type": "string",
+            "enum": ["controlledPractice", "freerPractice", "production"]
+          }
+        },
+        "required": ["question", "attachedTo"],
+        "additionalProperties": false
+      }
+    },
     "form": {
       "type": "object",
       "required": ["title", "content"],
