@@ -27,7 +27,13 @@
             "spell"
           ],
           "teacher_notes": "code: \"A1-001\"\npronunciation: [{\"point\":\"The English Alphabet\",\"explain\":\"English has 26 letters but many more sounds. Start with the names of the letters.\",\"visual\":\"🔤\"}]\ncando: \"Can greet people, say goodbye, and spell name aloud\"\nhw: \"Learn the alphabet song and practice spelling your full name\"",
-          "recycled": "Foundational communication & basic level vocabulary"
+          "recycled": "Foundational communication & basic level vocabulary",
+          "ageAdaptation": {
+            "children": "Learn the alphabet song with gestures and TPR body movements for each letter, followed by a fast-paced flashcard greeting game.",
+            "teens": "Interactive digital spell-off competition using smartphones/tablets and online group polls to race spelling names aloud.",
+            "adults": "Focus on real-life transactional workplace introductions, business card exchange roleplays, and explicit phonics/spelling rules.",
+            "seniors": "Practice greetings in familiar concrete social contexts with large-print letter cards, a deliberate pace, and comfortable acoustic repetition."
+          }
         },
         {
           "lesson": 2,
@@ -49,7 +55,13 @@
             "friend"
           ],
           "teacher_notes": "code: \"A1-002\"\npronunciation: [{\"point\":\"Contractions\",\"explain\":\"I am -> I'm, You are -> You're\",\"visual\":\"💬\"}]\ncando: \"Can introduce oneself and state identity using I am / You are\"\nhw: \"Write 5 sentences using I am and You are\"",
-          "recycled": "Alphabet & Spelling rules, Verb \"to be\" positive intro, good night"
+          "recycled": "Alphabet & Spelling rules, Verb \"to be\" positive intro, good night",
+          "ageAdaptation": {
+            "children": "Puppet roleplay and matching game linking pronoun/verb cards ('I am' / 'You are') with physical movements and high-fives.",
+            "teens": "Competitive pair-matching game on digital whiteboards creating avatar profile cards with positive/negative identity statements.",
+            "adults": "Explicit grammar rule breakdown of contractions ('I'm' vs 'I am') applied directly to professional self-introductions and identity forms.",
+            "seniors": "Guided turn-taking dialogue practice in a quiet setting using clear visual contrast charts for affirmative and negative forms."
+          }
         },
         {
           "lesson": 3,
@@ -66,7 +78,13 @@
             "What's your name?"
           ],
           "teacher_notes": "code: \"A1-003\"\npronunciation: [{\"point\":\"Rising/falling intonation in questions\",\"explain\":\"How are you? (falling), Are you OK? (rising)\",\"visual\":\"🗣️\"}]\ncando: \"Can engage in a basic first-meeting dialogue\"\nhw: \"Practice first-meeting dialogue with a study partner\"",
-          "recycled": "To be — I am, you are, Apostrophe for contractions, student"
+          "recycled": "To be — I am, you are, Apostrophe for contractions, student",
+          "ageAdaptation": {
+            "children": "Circle greeting game passing a ball while singing 'How are you?' and practicing handshakes with funny character voices.",
+            "teens": "Speed-friending rotation activity and digital messaging roleplay using polite first-meeting phrases and peer feedback.",
+            "adults": "Formal vs informal context comparison (networking event vs casual meetup) with explicit intonation practice for polite inquiries.",
+            "seniors": "Pair dialogues focused on daily neighborhood encounters, emphasizing clear pronunciation, steady pacing, and gentle repetition."
+          }
         },
         {
           "lesson": 4,
@@ -83,7 +101,13 @@
             "take care"
           ],
           "teacher_notes": "code: \"A1-004\"\npronunciation: [{\"point\":\"Polite intonation\",\"explain\":\"Expressing warmth in greetings\",\"visual\":\"🎙️\"}]\ncando: \"Can fluently exchange spontaneous greetings in spoken English\"\nhw: \"Record a 30-second greeting audio message\"",
-          "recycled": "Subject pronouns (I, you), To be in simple greetings, I'm fine, thanks"
+          "recycled": "Subject pronouns (I, you), To be in simple greetings, I'm fine, thanks",
+          "ageAdaptation": {
+            "children": "TPR action story game responding to spoken imperatives ('listen', 'repeat') with energetic physical gestures and rhythm chants.",
+            "teens": "Peer video recording challenge creating short greeting clips and voting on the best polite spoken expressions.",
+            "adults": "Transactional spoken simulations (arriving at a reception desk or customer service counter) focusing on natural polite intonation.",
+            "seniors": "Structured conversational practice simulating community club greetings with audio-supported repetition and ample thinking time."
+          }
         },
         {
           "lesson": 5,
@@ -100,7 +124,13 @@
             "vowel"
           ],
           "teacher_notes": "code: \"A1-005\"\ncando: \"Can demonstrate mastery of Unit 1 greetings, alphabet, and I/you to be forms\"\nhw: \"Complete Unit 1 review worksheet\"",
-          "recycled": "Conversational greetings & polite responses, Imperatives (listen, repeat), pardon"
+          "recycled": "Conversational greetings & polite responses, Imperatives (listen, repeat), pardon",
+          "ageAdaptation": {
+            "children": "Interactive review board game with visual station challenges for spelling, greeting puppets, and 'to be' chant rewards.",
+            "teens": "Gamified digital quiz competition with instant leaderboard feedback covering alphabet, greetings, and 'to be' questions.",
+            "adults": "Self-assessment check-grid with targeted error-analysis exercise and practical written/spoken grammar review tasks.",
+            "seniors": "Unhurried paper-based or group review session with clear visual layouts, reviewing core Unit 1 concepts through shared recall."
+          }
         }
       ]
     },

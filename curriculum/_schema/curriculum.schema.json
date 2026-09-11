@@ -31,7 +31,17 @@
                 "vocabulary": { "type": "array", "items": { "type": "string" } },
                 "practice_types": { "type": "array", "items": { "type": "string" } },
                 "speaking_percent": { "type": "integer" },
-                "teacher_notes": { "type": "string" }
+                "teacher_notes": { "type": "string" },
+                "ageAdaptation": {
+                  "type": "object",
+                  "properties": {
+                    "children": { "type": "string" },
+                    "teens": { "type": "string" },
+                    "adults": { "type": "string" },
+                    "seniors": { "type": "string" }
+                  },
+                  "additionalProperties": false
+                }
               }
             }
           }
