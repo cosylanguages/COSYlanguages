@@ -27,9 +27,9 @@ Update this table as vocabulary files are created in Stage 12:
 |----------|---------------|----------------|-----------------|
 | en | 25 / 25* | 0 | 0 |
 | fr | 0 / 12 | 0 | 0 |
-
-> **Note on English Vocabulary Taxonomy:**
-> English uses a unified 25-topic flat taxonomy in `vocabulary/_canonical/en/A0-A1_master.json` (containing 1,298 unique A0–A1 words across 25 flat topics compliant with `vocab.schema.json`, mapped in `vocabulary/_canonical/en/TAXONOMY_MAPPING.md`), rather than the 12 individual topic files defined in the legacy reference table above.
 | it | 0 / 12 | 0 | 0 |
 | ru | 0 / 12 | 0 | 0 |
 | el | 0 / 12 | 0 | 0 |
+
+> **Note on English Vocabulary Taxonomy:**
+> English uses a unified 25-topic flat taxonomy in `vocabulary/_canonical/en/A0-A1_master.json` (containing 1,298 unique A0–A1 words across 25 flat topics compliant with `vocab.schema.json`, mapped in `vocabulary/_canonical/en/TAXONOMY_MAPPING.md`), rather than the 12 individual topic files defined in the legacy reference table above.
