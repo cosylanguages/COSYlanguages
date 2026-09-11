@@ -4,7 +4,24 @@ This report summarizes the triage audit for open Pull Requests on `cosylanguages
 
 ---
 
-## 1. Summary of PR Categorization
+## 1. Summary of September 10, 2026 Commit (`b4615fdba5b143447143dc15f5d5568a0b6f9f23`)
+
+On **September 10, 2026**, commit `b4615fdba5b143447143dc15f5d5568a0b6f9f23` titled `Feat/public cross repo navigation 15702105974120438669 (#1402)` was pushed as a single root commit with zero parent history.
+
+### Plain-Language Summary of What Changed:
+1. **Public Cross-Repository Ecosystem Navigation System:**
+   - Established environment-aware cross-repository navigation routing (`js/core/engine.js`) connecting 8 core ecosystem destinations: **Courses**, **Practice**, **Tools** (`COSYtools`), **Games** (`COSYgames`), **World** (`COSYworld`), **Events** (`COSYevents`), **Blog**, and **Teacher resources**, plus a persistent home link.
+   - Handled URL resolution across local dev, preview branches, and production domains with WCAG 2.2 AA accessibility support.
+2. **Ecosystem Repository Modularization:**
+   - Extracted sub-applications (`games/` and `events/`) out of the `COSYlanguages` core repository root and into companion repositories (`COSYgames`, `COSYevents`, `COSYtools`, `COSYworld`).
+   - Cleaned up broken root symlinks (such as root `games` symlink).
+3. **Current Top-Level Directory Audit:**
+   - `manuals/` (3,925 files), `vocabulary/` (1,198 files), `curriculum/` (122 files), `grammar/` (55 files), `templates/` (27 files) **EXIST**.
+   - `events/` and `games/` **DO NOT EXIST** at repo root (extracted to `COSYevents` and `COSYgames`).
+
+---
+
+## 2. Summary of PR Categorization
 
 From the repository audit (`project/docs/archive/repo-audit.md`), 15 open PRs were evaluated:
 
@@ -17,18 +34,18 @@ From the repository audit (`project/docs/archive/repo-audit.md`), 15 open PRs we
 
 ---
 
-## 2. Category (a) Evaluation & Status
+## 3. Category (a) Evaluation & Status
 
 - **PR #812** — *Fix Practice Hub Start Buttons and Curriculum Parsing*
 - **PR #803** — *Speaking Clubs Active Application Audit Complete*
 - **PR #761** — *Investigate Karaoke Club Generator*
 
 **Status:** Held for manual conflict resolution.
-**Reason:** Dry-run merging against the current `main` branch produces `fatal: refusing to merge unrelated histories` due to major repository restructuring (e.g., modularization of `COSYtools`, `COSYgames`, `COSYevents`, and `COSYworld`). Per the safety rules, no PR is force-merged when git conflicts or branch history mismatches occur.
+**Reason:** Dry-run merging against the current `main` branch produces `fatal: refusing to merge unrelated histories` due to major repository restructuring (e.g., modularization of `COSYtools`, `COSYgames`, `COSYevents`, and `COSYworld`). Per safety rules, no PR is force-merged when git conflicts or branch history mismatches occur.
 
 ---
 
-## 3. Category (c) Verification & Closure Evidence
+## 4. Category (c) Verification & Closure Evidence
 
 The following PRs have been verified as superseded by commits and architectural refactors on `main`:
 
@@ -43,7 +60,7 @@ The following PRs have been verified as superseded by commits and architectural 
   > "Closing PR #772 as stale/abandoned. Superseded on `main` by commit `eedc857f87c37cd489c9cb93512b166eb75bad83` and the universal language directory refactor for Karaoke sessions."
 
 ### PR #769: `Complete Pedagogical Upgrade of Italian Karaoke Club Sessions`
-- **Verification Rationale:** Italian Karaoke sessions were updated natively in localized directories during the recent Speaking Clubs and Karaoke remediation passes (`events/sessions/karaoke-club/it/`).
+- **Verification Rationale:** Italian Karaoke sessions were updated natively in localized directories during recent Speaking Clubs and Karaoke remediation passes (`events/sessions/karaoke-club/it/`).
 - **Closing Comment:**
   > "Closing PR #769 as stale/abandoned. Fully superseded on `main` by comprehensive pedagogical and relative path updates across `events/sessions/karaoke-club/it/`."
 
@@ -54,61 +71,38 @@ The following PRs have been verified as superseded by commits and architectural 
 
 ---
 
-## 4. Remaining Open PRs: Conflict Types & Recommended Resolution Order
+## 5. Main State Audit & Per-PR Verdicts for All 10 Open PRs
+
+A detailed state comparison of current `main` against pending open PR requirements was performed:
+
+| PR # | PR Title | Audit Verdict | Recommended Action / Plain-Language Rationale |
+| :--- | :--- | :--- | :--- |
+| **#812** | Fix Practice Hub Start Buttons and Curriculum Parsing | **still needed as-is** | Apply via targeted file patch to `js/core/engine.js` and `practice/types/vocabulary/vocabulary.js`. The start-button fallback logic is missing on current `main`. |
+| **#803** | Speaking Clubs Active Application Audit Complete | **partially redundant — only documentation part needed** | The audit report content is valid, but file paths target `events/`. Move audit document into `project/docs/` on `COSYlanguages` or submit to `COSYevents`. |
+| **#761** | Investigate Karaoke Club Generator | **still needed as-is** | Read-only investigation report. Apply file patch to save audit document into `project/docs/archive/`. |
+| **#754** | Fix Wonder Club Session Templates & Structure Alignment | **conflicts with current main — needs human decision** | Target directory `events/` was moved to `COSYevents`. Session alignment fixes should be transferred to the `COSYevents` repository. |
+| **#793** | Add "If You Were" Speaking Club Brainstorming Roadmap | **still needed as-is** | Documentation roadmap for new speaking club. Move markdown file into `project/docs/` on `COSYlanguages`. |
+| **#775** | Curated Pinned Batches for Speaking Clubs | **conflicts with current main — needs human decision** | Targets `events/index.html` which no longer exists in this repo. Pinned batch metadata should be ported to `COSYevents`. |
+| **#766** | Karaoke Club Structural, Visual, & CEFR Calibration Engine | **conflicts with current main — needs human decision** | Visual engine tokens and templates target `events/`. CSS tokens should be ported to `css/cosy-tokens.css` and event templates to `COSYevents`. |
+| **#762** | Fix Russian Karaoke sessions | **conflicts with current main — needs human decision** | Targets `events/sessions/karaoke-club/ru/`. Fixes should be transferred to `COSYevents`. |
+| **#783** | Add new Zazie and Mple songs and challenges to Karaoke Club | **conflicts with current main — needs human decision** | Targets `events/sessions/karaoke-club/fr/` and `.../el/`. Port content to `COSYevents`. |
+| **#790** | Implement 'If You Were' Speaking Club and Handcrafted Sessions | **conflicts with current main — needs human decision** | Targets `events/`. Full club implementation should be ported to `COSYevents`. |
+| **#749** | Speaking Club Templates Compliance Audit | **conflicts with current main — needs human decision** | Large compliance audit overlapping `events/` standalone session updates. Maintainer review required. |
+
+---
+
+## 6. Recommended Resolution Order for Open PRs
 
 To resolve the remaining open PRs safely without risk to product code, follow this prioritized order (smallest/lowest-risk conflicts first):
 
-### 1. PR #761 — *Investigate Karaoke Club Generator* (Category a / Low Risk)
-- **Conflict Type:** Unrelated branch history / index path mismatch.
-- **Plain Rationale:** Read-only audit report with zero code side-effects.
-- **Action:** Cherry-pick or rebase audit document onto current `main`.
-
-### 2. PR #803 — *Speaking Clubs Active Application Audit Complete* (Category a / Low Risk)
-- **Conflict Type:** Unrelated branch history / root index path mismatch.
-- **Plain Rationale:** Read-only audit of active speaking club applications.
-- **Action:** Cherry-pick audit findings into `project/docs/`.
-
-### 3. PR #812 — *Fix Practice Hub Start Buttons and Curriculum Parsing* (Category a / Medium Risk)
-- **Conflict Type:** Unrelated branch history / `js/core/engine.js` & `practice/` paths.
-- **Plain Rationale:** Contains practice launching fixes and fallback logic.
-- **Action:** Manually rebase onto current `main` and test practice hub launching.
-
-### 4. PR #754 — *Fix Wonder Club Session Templates & Structure Alignment* (Category b / Low Risk)
-- **Conflict Type:** Simple structural merge conflict on event index pages (`events/index.html`).
-- **Plain Rationale:** Clean template alignment; conflict is isolated to navigation/list entries.
-- **Action:** Rebase on `main` and accept `main` index markup while appending template links.
-
-### 5. PR #793 — *Add "If You Were" Speaking Club Brainstorming Roadmap* (Category b / Low Risk)
-- **Conflict Type:** Markdown layout / path conflicts in documentation directories.
-- **Plain Rationale:** Documentation-only PR detailing the brainstorming roadmap for the new club.
-- **Action:** Rebase branch on `main` and move file to `project/docs/`.
-
-### 6. PR #775 — *Curated Pinned Batches for Speaking Clubs* (Category b / Medium Risk)
-- **Conflict Type:** Conflict on Speaking Club index files and session metadata listings.
-- **Plain Rationale:** Updates pinned session batches; conflicts with recent Speaking Club overview refactors.
-- **Action:** Rebase on `main` and merge batch metadata into current `events/` schemas.
-
-### 7. PR #766 — *Karaoke Club Structural, Visual, & CEFR Calibration Engine* (Category b / Medium Risk)
-- **Conflict Type:** Minor CSS token and layout stylesheet conflict.
-- **Plain Rationale:** Calibrates CEFR visuals for Karaoke sessions.
-- **Action:** Rebase on `main`, resolving CSS token conflicts against `css/cosy-tokens.css`.
-
-### 8. PR #762 — *Fix Russian Karaoke sessions: translation, placeholders, song-specific lyrics, and duration consistency* (Category b / Medium Risk)
-- **Conflict Type:** Path conflicts (`events/ru/sessions/` vs `events/sessions/karaoke-club/ru/`).
-- **Plain Rationale:** Fixes Russian Karaoke translations; paths shifted during directory reorganization.
-- **Action:** Rebase on `main` and move updated Russian session HTML files into localized folders.
-
-### 9. PR #783 — *Add new Zazie and Mple songs and challenges to Karaoke Club* (Category b / Medium-High Risk)
-- **Conflict Type:** Directory structure reorganization conflicts (flat paths vs `el/` and `fr/` subdirectories).
-- **Plain Rationale:** Adds new songs and challenges for French (Zazie) and Greek (Mple).
-- **Action:** Rebase on `main` and place new HTML/JS files into `events/sessions/karaoke-club/fr/` and `events/sessions/karaoke-club/el/`.
-
-### 10. PR #790 — *Implement 'If You Were' Speaking Club and Handcrafted Sessions* (Category b / High Risk)
-- **Conflict Type:** Major merge conflict across shared index pages and new session directories.
-- **Plain Rationale:** Full implementation of new speaking club track.
-- **Action:** Resolve index conflicts after PR #793 is merged, aligning with `events/` schema standards.
-
-### 11. PR #749 — *Speaking Club Templates Compliance Audit* (Category d / Human Decision Required)
-- **Conflict Type:** Extensive architectural and template overlap across all Speaking Club sessions.
-- **Plain Rationale:** Unclear scope — large-scale compliance audit that overlaps heavily with recent standalone session updates.
-- **Action:** Maintainer review required to decide whether to adopt proposed template rules or reject in favor of current session structure.
+1. **PR #761 — *Investigate Karaoke Club Generator*** (*still needed as-is*): Apply audit patch to `project/docs/archive/`.
+2. **PR #803 — *Speaking Clubs Active Application Audit Complete*** (*partially redundant*): Move audit findings into `project/docs/`.
+3. **PR #812 — *Fix Practice Hub Start Buttons and Curriculum Parsing*** (*still needed as-is*): Patch `js/core/engine.js` and `practice/types/vocabulary/vocabulary.js`.
+4. **PR #793 — *Add "If You Were" Speaking Club Brainstorming Roadmap*** (*still needed as-is*): Move roadmap markdown into `project/docs/`.
+5. **PR #754 — *Fix Wonder Club Session Templates & Structure Alignment*** (*conflicts with main*): Transfer template fixes to `COSYevents`.
+6. **PR #775 — *Curated Pinned Batches for Speaking Clubs*** (*conflicts with main*): Port batch metadata to `COSYevents`.
+7. **PR #766 — *Karaoke Club Structural, Visual, & CEFR Calibration Engine*** (*conflicts with main*): Add tokens to `css/cosy-tokens.css` and port engine to `COSYevents`.
+8. **PR #762 — *Fix Russian Karaoke sessions*** (*conflicts with main*): Port Russian sessions to `COSYevents`.
+9. **PR #783 — *Add new Zazie and Mple songs and challenges to Karaoke Club*** (*conflicts with main*): Port French/Greek songs to `COSYevents`.
+10. **PR #790 — *Implement 'If You Were' Speaking Club and Handcrafted Sessions*** (*conflicts with main*): Port club implementation to `COSYevents`.
+11. **PR #749 — *Speaking Club Templates Compliance Audit*** (*conflicts with main*): Maintainer decision on template rules vs `COSYevents` structure.
