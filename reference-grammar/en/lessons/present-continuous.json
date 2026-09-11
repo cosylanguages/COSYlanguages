@@ -5,7 +5,7 @@
   "language": "en",
   "leadIn": {
     "title": "Lead-In & Context: Present Continuous",
-    "content": "Contextual introduction and guided observation for Present Continuous."
+    "content": "Actions happening right now: Look! It is raining outside, and Marco is drinking tea by the window."
   },
   "instructionCheck": [
     {
@@ -40,7 +40,7 @@
   ],
   "form": {
     "title": "Form & Structure: Present Continuous",
-    "content": "Grammatical formulation, usage rules, and structural tables for Present Continuous."
+    "content": "Subject + am/is/are + verb-ing. Negative: am/is/are + not + verb-ing. Question: Am/Is/Are + subject + verb-ing?"
   },
   "pronunciation": {
     "title": "Pronunciation Notes: Present Continuous",

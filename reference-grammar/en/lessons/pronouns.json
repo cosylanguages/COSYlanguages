@@ -5,7 +5,7 @@
   "language": "en",
   "leadIn": {
     "title": "Lead-In & Context: Pronouns",
-    "content": "Contextual introduction and guided observation for Pronouns."
+    "content": "Replacing nouns in a sentence: John bought flowers for Mary. He gave them to her yesterday."
   },
   "meaningCheck": [
     {
@@ -33,7 +33,7 @@
   ],
   "form": {
     "title": "Form & Structure: Pronouns",
-    "content": "Grammatical formulation, usage rules, and structural tables for Pronouns."
+    "content": "Subject pronouns (I, you, he, she, it, we, they) do the action. Object pronouns (me, you, him, her, it, us, them) receive the action."
   },
   "pronunciation": {
     "title": "Pronunciation Notes: Pronouns",

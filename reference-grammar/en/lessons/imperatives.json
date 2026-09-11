@@ -5,7 +5,7 @@
   "language": "en",
   "leadIn": {
     "title": "Lead-In & Context: Imperatives",
-    "content": "Contextual introduction and guided observation for Imperatives."
+    "content": "Giving instructions or directions: Open your books, listen carefully, and do not talk during the test."
   },
   "instructionCheck": [
     {
@@ -40,7 +40,7 @@
   ],
   "form": {
     "title": "Form & Structure: Imperatives",
-    "content": "Grammatical formulation, usage rules, and structural tables for Imperatives."
+    "content": "Affirmative: Base verb (Open the door!). Negative: Don't + base verb (Don't touch that!)."
   },
   "pronunciation": {
     "title": "Pronunciation Notes: Imperatives",

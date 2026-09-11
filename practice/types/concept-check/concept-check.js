@@ -168,8 +168,12 @@
     function renderUnit(data) {
         unitLabel.textContent = (data.unitId || unit) + ' — Concept Check';
         if (data.leadIn) {
-            leadInText.textContent = data.leadIn;
-            leadIn.hidden = false;
+            if (typeof data.leadIn === 'object') {
+                leadInText.textContent = data.leadIn.content || data.leadIn.title || '';
+            } else {
+                leadInText.textContent = data.leadIn;
+            }
+            leadIn.hidden = !leadInText.textContent;
         }
         resolveCcqs(data.meaningCheck).then(function (ccqs) {
             ccqs = ccqs.filter(Boolean);

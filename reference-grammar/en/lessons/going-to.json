@@ -5,7 +5,7 @@
   "language": "en",
   "leadIn": {
     "title": "Lead-In & Context: Going To",
-    "content": "Contextual introduction and guided observation for Going To."
+    "content": "Future plans: Look at the dark clouds! It is going to rain. Next weekend, Sarah is going to visit her grandmother."
   },
   "instructionCheck": [
     {
@@ -40,7 +40,7 @@
   ],
   "form": {
     "title": "Form & Structure: Going To",
-    "content": "Grammatical formulation, usage rules, and structural tables for Going To."
+    "content": "Subject + am/is/are + going to + base verb. Negative: am/is/are + not + going to + base verb."
   },
   "pronunciation": {
     "title": "Pronunciation Notes: Going To",
