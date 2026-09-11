@@ -35,7 +35,19 @@
               }
             }
           },
-          "practice_types": { "type": "array", "items": { "type": "string" } }
+          "practice_types": { "type": "array", "items": { "type": "string" } },
+          "collocations": {
+            "type": "array",
+            "description": "Basic light-verb collocations (chunks and example sentences)",
+            "items": {
+              "type": "object",
+              "required": ["chunk", "example"],
+              "properties": {
+                "chunk": { "type": "string", "description": "The collocation chunk, e.g. 'have breakfast'" },
+                "example": { "type": "string", "description": "An example sentence using the collocation" }
+              }
+            }
+          }
         }
       }
     }

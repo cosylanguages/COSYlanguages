@@ -148,3 +148,41 @@ The 1,262 canonical master list words were compiled from:
 
 - `vocabulary/_canonical/en/A0-A1_master.json` validated against draft-07 JSON Schema.
 - Practice data files in `vocabulary/en/A1/`, `vocabulary/en/A2/`, and `vocabulary/en/B1/` updated to align 100% with the canonical master list.
+
+---
+
+## 7. Post-Upload Residual Diff Audit
+
+This section details the audit of residual word tokens from input sources `general_course_a.txt` (1,158 total unique tokens) and `general_course_b.txt` (882 total unique tokens) that were not matched in `A0-A1_master.json` and not present in `B1_idioms_candidates.json`.
+
+### A. Residual Word Audit & Classification Summary
+
+Each residual token was classified into one of three categories:
+- **(a)** Genuinely missing (should be added to `A0-A1_master.json` following `vocab.schema.json`)
+- **(b)** Duplicate/variant of an existing entry
+- **(c)** Correctly excluded (redundant regular plural, phrase > 2 words, abstract term, etc.)
+
+| Source Input File | Candidate Word / Phrase | Classification | Audit Rationale & Disposition |
+|---|---|---|---|
+| `general_course_a.txt` | `animals` | **(c) Excluded** | Redundant regular plural of singular noun lemma `animal` (present in master). |
+| `general_course_a.txt` | `arms` | **(c) Excluded** | Redundant regular plural of singular noun lemma `arm` (present in master). |
+| `general_course_a.txt` | `ears` | **(c) Excluded** | Redundant regular plural of singular noun lemma `ear` (present in master). |
+| `general_course_a.txt` | `eyes` | **(c) Excluded** | Redundant regular plural of singular noun lemma `eye` (present in master). |
+| `general_course_a.txt` | `fingers` | **(c) Excluded** | Redundant regular plural of singular noun lemma `finger` (present in master). |
+| `general_course_a.txt` | `keys` | **(c) Excluded** | Redundant regular plural of singular noun lemma `key` (present in master). |
+| `general_course_a.txt` | `legs` | **(c) Excluded** | Redundant regular plural of singular noun lemma `leg` (present in master). |
+| `general_course_a.txt` | `matches` | **(c) Excluded** | Redundant regular plural of singular noun lemma `match` (present in master). |
+| `general_course_a.txt` | `rooms` | **(c) Excluded** | Redundant regular plural of singular noun lemma `room` (present in master). |
+| `general_course_a.txt` | `toes` | **(c) Excluded** | Redundant regular plural of singular noun lemma `toe` (present in master). |
+| `general_course_a.txt` | `toys` | **(c) Excluded** | Redundant regular plural of singular noun lemma `toy` (present in master). |
+| `general_course_a.txt` | `vegetables` | **(c) Excluded** | Redundant regular plural of singular noun lemma `vegetable` (present in master). |
+| `general_course_b.txt` | `eyes` | **(c) Excluded** | Redundant regular plural of singular noun lemma `eye` (present in master). |
+| `general_course_b.txt` | `how are you` | **(c) Excluded** | Multi-word conversational phrase containing > 2 words (component tokens `how`, `are`, `you` present in master). |
+| `general_course_b.txt` | `in front of` | **(c) Excluded** | Multi-word prepositional phrase containing > 2 words (component tokens `in`, `front`, `of` present in master). |
+| `general_course_b.txt` | `nice to meet you` | **(c) Excluded** | Multi-word conversational phrase containing > 2 words (component tokens `nice`, `to`, `meet`, `you` present in master). |
+| `general_course_b.txt` | `see you later` | **(c) Excluded** | Multi-word conversational phrase containing > 2 words (component tokens `see`, `you`, `later` present in master). |
+
+### B. Audit Outcome & Master List Reconciliation
+
+- **Genuinely Missing Words Added**: `0`
+- **Master File Modifications**: None required (`A0-A1_master.json` remains intact and 100% compliant with `vocabulary/_schema/vocab.schema.json`).
