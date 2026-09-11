@@ -40,8 +40,8 @@ From the repository audit (`project/docs/archive/repo-audit.md`), 15 open PRs we
 - **PR #803** — *Speaking Clubs Active Application Audit Complete*
 - **PR #761** — *Investigate Karaoke Club Generator*
 
-**Status:** Held for manual conflict resolution.
-**Reason:** Dry-run merging against the current `main` branch produces `fatal: refusing to merge unrelated histories` due to major repository restructuring (e.g., modularization of `COSYtools`, `COSYgames`, `COSYevents`, and `COSYworld`). Per safety rules, no PR is force-merged when git conflicts or branch history mismatches occur.
+**Status:** Recreated on new branch `recreate-pr-812-practice-hub-fallbacks` via targeted diff-apply.
+**Reason:** Dry-run merging against current `main` produces `fatal: refusing to merge unrelated histories` due to the Sep 10 repository history re-initialization.
 
 ---
 
@@ -77,7 +77,7 @@ A detailed state comparison of current `main` against pending open PR requiremen
 
 | PR # | PR Title | Audit Verdict | Recommended Action / Plain-Language Rationale |
 | :--- | :--- | :--- | :--- |
-| **#812** | Fix Practice Hub Start Buttons and Curriculum Parsing | **still needed as-is** | Apply via targeted file patch to `js/core/engine.js` and `practice/types/vocabulary/vocabulary.js`. The start-button fallback logic is missing on current `main`. |
+| **#812** | Fix Practice Hub Start Buttons and Curriculum Parsing | **recreated via diff-apply** | Recreated in new PR branch `recreate-pr-812-practice-hub-fallbacks`. Reconciled `teacher_notes` YAML parsing into `js/core/engine.js` without touching `NAV_CONFIG.free` or `NAV_FALLBACKS`. Original PR #812 left open with linking comment. |
 | **#803** | Speaking Clubs Active Application Audit Complete | **partially redundant — only documentation part needed** | The audit report content is valid, but file paths target `events/`. Move audit document into `project/docs/` on `COSYlanguages` or submit to `COSYevents`. |
 | **#761** | Investigate Karaoke Club Generator | **still needed as-is** | Read-only investigation report. Apply file patch to save audit document into `project/docs/archive/`. |
 | **#754** | Fix Wonder Club Session Templates & Structure Alignment | **conflicts with current main — needs human decision** | Target directory `events/` was moved to `COSYevents`. Session alignment fixes should be transferred to the `COSYevents` repository. |
@@ -97,7 +97,7 @@ To resolve the remaining open PRs safely without risk to product code, follow th
 
 1. **PR #761 — *Investigate Karaoke Club Generator*** (*still needed as-is*): Apply audit patch to `project/docs/archive/`.
 2. **PR #803 — *Speaking Clubs Active Application Audit Complete*** (*partially redundant*): Move audit findings into `project/docs/`.
-3. **PR #812 — *Fix Practice Hub Start Buttons and Curriculum Parsing*** (*still needed as-is*): Patch `js/core/engine.js` and `practice/types/vocabulary/vocabulary.js`.
+3. **PR #812 — *Fix Practice Hub Start Buttons and Curriculum Parsing*** (*recreated via manual diff-apply*): Recreated on `recreate-pr-812-practice-hub-fallbacks` reconciling `teacher_notes` YAML parsing into `js/core/engine.js`.
 4. **PR #793 — *Add "If You Were" Speaking Club Brainstorming Roadmap*** (*still needed as-is*): Move roadmap markdown into `project/docs/`.
 5. **PR #754 — *Fix Wonder Club Session Templates & Structure Alignment*** (*conflicts with main*): Transfer template fixes to `COSYevents`.
 6. **PR #775 — *Curated Pinned Batches for Speaking Clubs*** (*conflicts with main*): Port batch metadata to `COSYevents`.
