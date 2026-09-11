@@ -49,7 +49,9 @@
                     "dialogue": { "type": "string" }
                   },
                   "additionalProperties": false
-                }
+                },
+                "bigSpiralReview": { "type": "boolean" },
+                "bigSpiralScope": { "type": "string" }
               }
             }
           }
