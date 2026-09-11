@@ -3407,7 +3407,25 @@
         "general_course_b",
         "practice"
       ],
-      "definition": "Basic A1 English verb: 'do'."
+      "definition": "Basic A1 English verb: 'do'.",
+      "collocations": [
+        {
+          "chunk": "do homework",
+          "example": "The student does homework after school."
+        },
+        {
+          "chunk": "do the shopping",
+          "example": "We do the shopping on Saturday."
+        },
+        {
+          "chunk": "do sport",
+          "example": "Children do sport at school."
+        },
+        {
+          "chunk": "do work",
+          "example": "I do my work at the office."
+        }
+      ]
     },
     {
       "word": "doctor",
@@ -5133,7 +5151,25 @@
         "general_course_b",
         "practice"
       ],
-      "definition": "Basic A1 English verb: 'get'."
+      "definition": "Basic A1 English verb: 'get'.",
+      "collocations": [
+        {
+          "chunk": "get up",
+          "example": "I get up at six o'clock."
+        },
+        {
+          "chunk": "get married",
+          "example": "They get married in summer."
+        },
+        {
+          "chunk": "get home",
+          "example": "We get home in the evening."
+        },
+        {
+          "chunk": "get a job",
+          "example": "She wants a new job in town."
+        }
+      ]
     },
     {
       "word": "giant",
@@ -5252,7 +5288,29 @@
         "practice",
         "blog"
       ],
-      "definition": "Basic A1 English verb: 'go'."
+      "definition": "Basic A1 English verb: 'go'.",
+      "collocations": [
+        {
+          "chunk": "go home",
+          "example": "I go home after school."
+        },
+        {
+          "chunk": "go shopping",
+          "example": "She goes shopping on Friday."
+        },
+        {
+          "chunk": "go to bed",
+          "example": "Children go to bed early."
+        },
+        {
+          "chunk": "go swimming",
+          "example": "We go swimming in summer."
+        },
+        {
+          "chunk": "go to school",
+          "example": "They go to school on Monday."
+        }
+      ]
     },
     {
       "word": "gold",
@@ -5740,7 +5798,29 @@
         "general_course_b",
         "practice"
       ],
-      "definition": "Basic A1 English verb: 'have'."
+      "definition": "Basic A1 English verb: 'have'.",
+      "collocations": [
+        {
+          "chunk": "have breakfast",
+          "example": "I have breakfast at seven o'clock."
+        },
+        {
+          "chunk": "have lunch",
+          "example": "We have lunch at school."
+        },
+        {
+          "chunk": "have dinner",
+          "example": "They have dinner at home."
+        },
+        {
+          "chunk": "have a shower",
+          "example": "I have a shower in the morning."
+        },
+        {
+          "chunk": "have fun",
+          "example": "Children have fun at the park."
+        }
+      ]
     },
     {
       "word": "he",
@@ -7506,7 +7586,29 @@
         "general_course_b",
         "practice"
       ],
-      "definition": "Basic A1 English verb: 'make'."
+      "definition": "Basic A1 English verb: 'make'.",
+      "collocations": [
+        {
+          "chunk": "make breakfast",
+          "example": "He can make breakfast for the family."
+        },
+        {
+          "chunk": "make dinner",
+          "example": "She makes dinner in the evening."
+        },
+        {
+          "chunk": "make tea",
+          "example": "I make tea for my friend."
+        },
+        {
+          "chunk": "make coffee",
+          "example": "He makes coffee in the morning."
+        },
+        {
+          "chunk": "make a mistake",
+          "example": "It is fine to make a mistake when learning."
+        }
+      ]
     },
     {
       "word": "mall",
@@ -9634,7 +9736,25 @@
         "general_course_b",
         "practice"
       ],
-      "definition": "Basic A1 English verb: 'play'."
+      "definition": "Basic A1 English verb: 'play'.",
+      "collocations": [
+        {
+          "chunk": "play football",
+          "example": "Children play football in the park."
+        },
+        {
+          "chunk": "play soccer",
+          "example": "We play soccer after school."
+        },
+        {
+          "chunk": "play tennis",
+          "example": "She plays tennis on Saturday."
+        },
+        {
+          "chunk": "play games",
+          "example": "Children play games at home."
+        }
+      ]
     },
     {
       "word": "player",
@@ -9996,7 +10116,17 @@
         "general_course_b",
         "practice"
       ],
-      "definition": "Basic A1 English verb: 'put'."
+      "definition": "Basic A1 English verb: 'put'.",
+      "collocations": [
+        {
+          "chunk": "put on",
+          "example": "Put on your coat — it is cold."
+        },
+        {
+          "chunk": "put down",
+          "example": "Put down your bag, please."
+        }
+      ]
     },
     {
       "word": "quarter",
@@ -12721,7 +12851,29 @@
         "practice",
         "blog"
       ],
-      "definition": "Basic A1 English verb: 'take'."
+      "definition": "Basic A1 English verb: 'take'.",
+      "collocations": [
+        {
+          "chunk": "take a photo",
+          "example": "Can you take a photo of my family?"
+        },
+        {
+          "chunk": "take a picture",
+          "example": "She takes a picture of the garden."
+        },
+        {
+          "chunk": "take a shower",
+          "example": "I take a shower before bed."
+        },
+        {
+          "chunk": "take a bus",
+          "example": "He takes a bus to work."
+        },
+        {
+          "chunk": "take medicine",
+          "example": "Take medicine when you are sick."
+        }
+      ]
     },
     {
       "word": "talk",
@@ -13756,7 +13908,25 @@
         "general_course_b",
         "practice"
       ],
-      "definition": "Basic A1 English verb: 'turn'."
+      "definition": "Basic A1 English verb: 'turn'.",
+      "collocations": [
+        {
+          "chunk": "turn on",
+          "example": "Turn on the light, please."
+        },
+        {
+          "chunk": "turn off",
+          "example": "Turn off the TV before bed."
+        },
+        {
+          "chunk": "turn left",
+          "example": "Turn left at the corner."
+        },
+        {
+          "chunk": "turn right",
+          "example": "Turn right at the bank."
+        }
+      ]
     },
     {
       "word": "tv",
