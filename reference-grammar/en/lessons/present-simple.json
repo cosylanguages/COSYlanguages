@@ -7,6 +7,13 @@
     "title": "Lead-In & Context: Present Simple",
     "content": "Contextual introduction and guided observation for Present Simple."
   },
+  "instructionCheck": [
+    {
+      "question": "Do you select one correct option or write full sentences in this quiz?",
+      "expectedAnswer": "Select one correct option",
+      "attachedTo": "controlledPractice"
+    }
+  ],
   "meaningCheck": [
     {
       "question": "\"She works in a bank.\" — Is she working in the bank right now at this exact second, or is it her regular job?",

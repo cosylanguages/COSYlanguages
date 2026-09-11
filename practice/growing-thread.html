@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Growing Thread Preview · COSYlanguages</title>
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <style>
+    .gt-container {
+      max-width: 900px;
+      margin: 32px auto;
+      padding: 0 16px;
+    }
+    .gt-card {
+      background: #ffffff;
+      border: 1px solid rgba(74, 107, 80, 0.2);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+    }
+    .gt-controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      align-items: center;
+      margin-bottom: 24px;
+    }
+    .gt-select {
+      padding: 8px 12px;
+      font-size: 1rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      background: #fff;
+    }
+    .gt-thread-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #1e2f6b;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .gt-text-box {
+      background: #f8faf9;
+      border-left: 4px solid #416b49;
+      padding: 16px;
+      border-radius: 4px;
+      white-space: pre-line;
+      font-size: 1.05rem;
+      line-height: 1.6;
+      color: #222;
+    }
+    .gt-entry {
+      margin-bottom: 12px;
+      padding-bottom: 12px;
+      border-bottom: 1px dashed #e0e0e0;
+    }
+    .gt-entry:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+    .gt-lesson-badge {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: #416b49;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 4px;
+    }
+  </style>
+</head>
+<body>
+  <nav id="cosy-nav" aria-label="Main navigation"></nav>
+
+  <main class="gt-container">
+    <div class="page-head">
+      <span class="eyebrow">A1 English Course Artifact</span>
+      <h1>Cumulative Growing Thread Viewer</h1>
+      <p class="subtitle">Watch self-portrait monologues and dialogues expand lesson by lesson using only target language content learned so far.</p>
+      <hr class="rule">
+    </div>
+
+    <div class="gt-card">
+      <div class="gt-controls">
+        <label for="unit-select"><strong>Unit:</strong></label>
+        <select id="unit-select" class="gt-select"></select>
+
+        <label for="lesson-select"><strong>Up to Lesson:</strong></label>
+        <select id="lesson-select" class="gt-select"></select>
+      </div>
+      <div id="active-lesson-info" style="font-size: 0.95rem; color: #555;"></div>
+    </div>
+
+    <div class="gt-card">
+      <div class="gt-thread-title">👤 Self-Portrait Thread (Monologue)</div>
+      <div id="self-portrait-output" class="gt-text-box">Select a unit and lesson above...</div>
+    </div>
+
+    <div class="gt-card">
+      <div class="gt-thread-title">💬 Dialogue Thread (Two-Person Exchange)</div>
+      <div id="dialogue-output" class="gt-text-box">Select a unit and lesson above...</div>
+    </div>
+  </main>
+
+  <footer class="site">
+    <div class="container">
+      <div>COSYlanguages · Standalone Cumulative Growing Thread Viewer</div>
+      <div><a href="../index.html">&larr; Back to Home</a></div>
+    </div>
+  </footer>
+
+  <script>
+    let curriculumData = null;
+
+    async function loadCurriculum() {
+      try {
+        const response = await fetch('../curriculum/en/general/A1.json');
+        curriculumData = await response.json();
+        initControls();
+      } catch (err) {
+        document.getElementById('self-portrait-output').textContent = 'Failed to load curriculum data.';
+        document.getElementById('dialogue-output').textContent = 'Failed to load curriculum data.';
+      }
+    }
+
+    function initControls() {
+      const unitSelect = document.getElementById('unit-select');
+      unitSelect.innerHTML = '';
+      curriculumData.units.forEach((u) => {
+        const opt = document.createElement('option');
+        opt.value = u.unit;
+        opt.textContent = `Unit ${u.unit}: ${u.title}`;
+        unitSelect.appendChild(opt);
+      });
+
+      unitSelect.addEventListener('change', () => updateLessonOptions());
+      document.getElementById('lesson-select').addEventListener('change', () => renderThreads());
+
+      updateLessonOptions();
+    }
+
+    function updateLessonOptions() {
+      const unitSelect = document.getElementById('unit-select');
+      const lessonSelect = document.getElementById('lesson-select');
+      const selectedUnitNum = parseInt(unitSelect.value, 10);
+      const unit = curriculumData.units.find(u => u.unit === selectedUnitNum);
+
+      lessonSelect.innerHTML = '';
+      if (unit && unit.lessons) {
+        unit.lessons.forEach((l) => {
+          const opt = document.createElement('option');
+          opt.value = l.lesson;
+          opt.textContent = `Lesson ${l.lesson}: ${l.title}`;
+          lessonSelect.appendChild(opt);
+        });
+      }
+      renderThreads();
+    }
+
+    function renderThreads() {
+      const unitSelect = document.getElementById('unit-select');
+      const lessonSelect = document.getElementById('lesson-select');
+      const selectedUnitNum = parseInt(unitSelect.value, 10);
+      const selectedLessonNum = parseInt(lessonSelect.value, 10);
+
+      const unit = curriculumData.units.find(u => u.unit === selectedUnitNum);
+      if (!unit || !unit.lessons) return;
+
+      const activeLessons = unit.lessons.filter(l => l.lesson <= selectedLessonNum);
+      const currentLesson = unit.lessons.find(l => l.lesson === selectedLessonNum);
+
+      document.getElementById('active-lesson-info').innerHTML =
+        `Displaying cumulative growing thread for <strong>Unit ${selectedUnitNum}, Lesson 1 through ${selectedLessonNum}</strong> (${currentLesson ? currentLesson.title : ''}).`;
+
+      let spHTML = '';
+      let diagHTML = '';
+
+      activeLessons.forEach((l) => {
+        if (l.growingTask) {
+          if (l.growingTask.selfPortrait) {
+            spHTML += `<div class="gt-entry"><div class="gt-lesson-badge">Lesson ${l.lesson}: ${l.title}</div>${escapeHTML(l.growingTask.selfPortrait)}</div>`;
+          }
+          if (l.growingTask.dialogue) {
+            diagHTML += `<div class="gt-entry"><div class="gt-lesson-badge">Lesson ${l.lesson}: ${l.title}</div>${escapeHTML(l.growingTask.dialogue)}</div>`;
+          }
+        }
+      });
+
+      document.getElementById('self-portrait-output').innerHTML = spHTML || '<em>No growing task data available for selected lessons.</em>';
+      document.getElementById('dialogue-output').innerHTML = diagHTML || '<em>No growing task data available for selected lessons.</em>';
+    }
+
+    function escapeHTML(str) {
+      return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    }
+
+    loadCurriculum();
+  </script>
+</body>
+</html>

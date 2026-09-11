@@ -150,6 +150,9 @@ This template defines the standard internal structure for all COSYlanguages manu
 </div>
 
 <!-- Step 14: Controlled Practice & Progress Celebration -->
+<div class="icq-note">
+  <strong>ICQ:</strong> [Short question confirming task mechanics, e.g. "Do you work alone or with a partner?"]
+</div>
 <div class="quiz-panel" data-quiz='[{"correct": 0}]'>
  <div class="quiz-head"><h2>Quick check</h2><span class="quiz-score">Score: 0 / 1</span></div>
  <div class="qitem">...</div>
