@@ -41,6 +41,14 @@
                     "seniors": { "type": "string" }
                   },
                   "additionalProperties": false
+                },
+                "growingTask": {
+                  "type": "object",
+                  "properties": {
+                    "selfPortrait": { "type": "string" },
+                    "dialogue": { "type": "string" }
+                  },
+                  "additionalProperties": false
                 }
               }
             }

@@ -33,6 +33,10 @@
             "teens": "Interactive digital spell-off competition using smartphones/tablets and online group polls to race spelling names aloud.",
             "adults": "Focus on real-life transactional workplace introductions, business card exchange roleplays, and explicit phonics/spelling rules.",
             "seniors": "Practice greetings in familiar concrete social contexts with large-print letter cards, a deliberate pace, and comfortable acoustic repetition."
+          },
+          "growingTask": {
+            "selfPortrait": "Hello, good morning! My name is Alex, A-L-E-X.",
+            "dialogue": "A: Hello, good morning!\nB: Hi! Good morning!"
           }
         },
         {
@@ -61,6 +65,10 @@
             "teens": "Competitive pair-matching game on digital whiteboards creating avatar profile cards with positive/negative identity statements.",
             "adults": "Explicit grammar rule breakdown of contractions ('I'm' vs 'I am') applied directly to professional self-introductions and identity forms.",
             "seniors": "Guided turn-taking dialogue practice in a quiet setting using clear visual contrast charts for affirmative and negative forms."
+          },
+          "growingTask": {
+            "selfPortrait": "I am a student. I am not a teacher.",
+            "dialogue": "A: Are you a student?\nB: Yes, I am. You are a friend."
           }
         },
         {
@@ -84,6 +92,10 @@
             "teens": "Speed-friending rotation activity and digital messaging roleplay using polite first-meeting phrases and peer feedback.",
             "adults": "Formal vs informal context comparison (networking event vs casual meetup) with explicit intonation practice for polite inquiries.",
             "seniors": "Pair dialogues focused on daily neighborhood encounters, emphasizing clear pronunciation, steady pacing, and gentle repetition."
+          },
+          "growingTask": {
+            "selfPortrait": "Nice to meet you! I'm fine, thanks.",
+            "dialogue": "A: What's your name?\nB: I'm Alex. How are you?\nA: I'm fine, thanks. And you?"
           }
         },
         {
@@ -107,6 +119,10 @@
             "teens": "Peer video recording challenge creating short greeting clips and voting on the best polite spoken expressions.",
             "adults": "Transactional spoken simulations (arriving at a reception desk or customer service counter) focusing on natural polite intonation.",
             "seniors": "Structured conversational practice simulating community club greetings with audio-supported repetition and ample thinking time."
+          },
+          "growingTask": {
+            "selfPortrait": "Welcome! Excuse me, take care and see you later.",
+            "dialogue": "A: Welcome! Excuse me, pardon?\nB: See you later, take care!"
           }
         },
         {
@@ -130,6 +146,10 @@
             "teens": "Gamified digital quiz competition with instant leaderboard feedback covering alphabet, greetings, and 'to be' questions.",
             "adults": "Self-assessment check-grid with targeted error-analysis exercise and practical written/spoken grammar review tasks.",
             "seniors": "Unhurried paper-based or group review session with clear visual layouts, reviewing core Unit 1 concepts through shared recall."
+          },
+          "growingTask": {
+            "selfPortrait": "A, B, C are letters of the alphabet: consonants and vowels.",
+            "dialogue": "A: Spell a greeting letter by letter.\nB: H-E-L-L-O."
           }
         }
       ]
