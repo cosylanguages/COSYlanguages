@@ -5,7 +5,7 @@
   "language": "en",
   "leadIn": {
     "title": "Lead-In & Context: Basic Word Order",
-    "content": "Contextual introduction and guided observation for Basic Word Order."
+    "content": "Building standard English sentences: Subject comes first, followed by the verb, the object, and finally place or time."
   },
   "meaningCheck": [
     {
@@ -33,7 +33,7 @@
   ],
   "form": {
     "title": "Form & Structure: Basic Word Order",
-    "content": "Grammatical formulation, usage rules, and structural tables for Basic Word Order."
+    "content": "Subject + Verb + Object + Place + Time (e.g. She [S] bought [V] a coat [O] at the mall [P] yesterday [T])."
   },
   "pronunciation": {
     "title": "Pronunciation Notes: Basic Word Order",

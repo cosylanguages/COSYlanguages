@@ -5,7 +5,7 @@
   "language": "en",
   "leadIn": {
     "title": "Lead-In & Context: Some vs Any",
-    "content": "Contextual introduction and guided observation for Some vs Any."
+    "content": "Checking ingredients: We have some apples in the fridge, but we don't have any milk. Do we have any cheese?"
   },
   "meaningCheck": [
     {
@@ -33,7 +33,7 @@
   ],
   "form": {
     "title": "Form & Structure: Some vs Any",
-    "content": "Grammatical formulation, usage rules, and structural tables for Some vs Any."
+    "content": "Some: used in positive statements (+ uncountable/plural nouns). Any: used in negative statements and general questions."
   },
   "pronunciation": {
     "title": "Pronunciation Notes: Some vs Any",

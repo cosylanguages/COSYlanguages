@@ -5,7 +5,7 @@
   "language": "en",
   "leadIn": {
     "title": "Lead-In & Context: This, That, These, Those",
-    "content": "Contextual introduction and guided observation for This, That, These, Those."
+    "content": "Pointing at objects: This is my phone here, but that is your coat over there. These are my keys, and those are your shoes."
   },
   "meaningCheck": [
     {
@@ -33,7 +33,7 @@
   ],
   "form": {
     "title": "Form & Structure: This, That, These, Those",
-    "content": "Grammatical formulation, usage rules, and structural tables for This, That, These, Those."
+    "content": "Near: This (singular), These (plural). Far: That (singular), Those (plural) + noun or verb 'be'."
   },
   "pronunciation": {
     "title": "Pronunciation Notes: This, That, These, Those",

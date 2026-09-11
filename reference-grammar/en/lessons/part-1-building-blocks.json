@@ -5,7 +5,7 @@
   "language": "en",
   "leadIn": {
     "title": "Lead-In & Context: The Building Blocks of English",
-    "content": "Contextual introduction and guided observation for The Building Blocks of English."
+    "content": "Every English sentence is built from basic word classes: nouns for things, verbs for actions, and adjectives for descriptions."
   },
   "meaningCheck": [
     {
@@ -33,7 +33,7 @@
   ],
   "form": {
     "title": "Form & Structure: The Building Blocks of English",
-    "content": "Grammatical formulation, usage rules, and structural tables for The Building Blocks of English."
+    "content": "Subject + Verb + Object (e.g. The girl [subject] reads [verb] a book [object])."
   },
   "pronunciation": {
     "title": "Pronunciation Notes: The Building Blocks of English",

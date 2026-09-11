@@ -5,7 +5,7 @@
   "language": "en",
   "leadIn": {
     "title": "Lead-In & Context: Present Simple",
-    "content": "Contextual introduction and guided observation for Present Simple."
+    "content": "Daily routines and facts: Every day, Anna drinks coffee, works at a bank, and walks her dog in the evening."
   },
   "instructionCheck": [
     {
@@ -40,7 +40,7 @@
   ],
   "form": {
     "title": "Form & Structure: Present Simple",
-    "content": "Grammatical formulation, usage rules, and structural tables for Present Simple."
+    "content": "I/you/we/they + base verb. He/she/it + verb-s. Negative: don't/doesn't + base verb. Question: Do/Does + subject + base verb?"
   },
   "pronunciation": {
     "title": "Pronunciation Notes: Present Simple",

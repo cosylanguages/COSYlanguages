@@ -5,7 +5,7 @@
   "language": "en",
   "leadIn": {
     "title": "Lead-In & Context: Can / Can't",
-    "content": "Contextual introduction and guided observation for Can / Can't."
+    "content": "What can you do? Maria can swim and drive a car, but she can't play the guitar. 'Can' expresses ability and possibility."
   },
   "instructionCheck": [
     {
@@ -40,7 +40,7 @@
   ],
   "form": {
     "title": "Form & Structure: Can / Can't",
-    "content": "Grammatical formulation, usage rules, and structural tables for Can / Can't."
+    "content": "Subject + can / can't + base verb (no 'to', no '-s'). Question: Can + subject + base verb?"
   },
   "pronunciation": {
     "title": "Pronunciation Notes: Can / Can't",
