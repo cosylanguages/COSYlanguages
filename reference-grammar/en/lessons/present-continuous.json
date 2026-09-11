@@ -7,6 +7,13 @@
     "title": "Lead-In & Context: Present Continuous",
     "content": "Contextual introduction and guided observation for Present Continuous."
   },
+  "instructionCheck": [
+    {
+      "question": "Do you describe actions happening right now or what people did yesterday?",
+      "expectedAnswer": "Actions happening right now",
+      "attachedTo": "controlledPractice"
+    }
+  ],
   "meaningCheck": [
     {
       "question": "\"He is cooking dinner.\" — Is he cooking right now in this current moment?",

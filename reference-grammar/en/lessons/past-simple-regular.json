@@ -7,6 +7,13 @@
     "title": "Lead-In & Context: Past Simple: Regular Verbs",
     "content": "Contextual introduction and guided observation for Past Simple: Regular Verbs."
   },
+  "instructionCheck": [
+    {
+      "question": "Do you write a diary entry using past simple -ed or present continuous?",
+      "expectedAnswer": "Past simple -ed",
+      "attachedTo": "production"
+    }
+  ],
   "meaningCheck": [
     {
       "question": "\"I visited Paris in 2019.\" — Is the trip to Paris completely finished?",

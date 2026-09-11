@@ -7,6 +7,13 @@
     "title": "Lead-In & Context: Going To",
     "content": "Contextual introduction and guided observation for Going To."
   },
+  "instructionCheck": [
+    {
+      "question": "How many minutes do you have to present your weekend plans to your group?",
+      "expectedAnswer": "2 minutes",
+      "attachedTo": "production"
+    }
+  ],
   "meaningCheck": [
     {
       "question": "Function check: What is the primary purpose of using Going To?",
