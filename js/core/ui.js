@@ -3457,32 +3457,8 @@
             return;
         }
 
-        // Dynamically load passcodes.js for Wonder and KUS if not present
-        if ((isWonderSession || isKusSession) && !window.COSY_PASSCODES) {
-            const segments = currentPathname.replace(/^\//, '').replace(/\/$/, '').split('/').length;
-            const prefix = segments <= 1 ? "./" : "../".repeat(segments - 1);
-            const script = document.createElement('script');
-            script.src = prefix + "js/core/passcodes.js";
-            script.onload = () => {
-                setupWonderModeRouter();
-                setupSessionMiniNav();
-            };
-            document.head.appendChild(script);
-            return;
-        }
-
         const params = new URLSearchParams(window.location.search);
         const mode = params.get('mode') || 'big';
-
-        if (mode === 'mini' || mode === 'private') {
-            if (window.COSY_PASSCODES) {
-                const isAuthorized = window.COSY_PASSCODES.isAuthorized(mode);
-                if (!isAuthorized) {
-                    window.COSY_PASSCODES.showLockOverlay(mode);
-                    return;
-                }
-            }
-        }
 
         document.body.setAttribute('data-active-mode', mode);
 
@@ -3539,7 +3515,6 @@
                     mainContainer.setAttribute('data-redesigned', 'true');
 
                     const filename = currentPathname.split('/').pop();
-                    const specimenKey = window.COSY_PASSCODES ? window.COSY_PASSCODES.KUS_SPECIMEN_MAPPING[filename] : null;
                     const dbKey = filename.replace('.html', '').replace(/-(elementary|intermediate|upper-intermediate|upper)$/, '');
                     const specimenData = window.COSY_SCIENCE_DB ? window.COSY_SCIENCE_DB[dbKey] : null;
 
@@ -4859,13 +4834,8 @@
         const draftNum = WONDER_DRAFT_MAPPING[filename];
         if (!draftNum) return;
 
-        // Bypass session audio autoplay if page is locked by passcode gate
         const params = new URLSearchParams(window.location.search);
         const mode = params.get('mode') || 'big';
-        const isLobbyAuthorized = (mode === 'big') || (window.COSY_PASSCODES && window.COSY_PASSCODES.isAuthorized(mode));
-        if (!isLobbyAuthorized) {
-            return;
-        }
 
         const prefix = window.COSY && typeof window.COSY.getPrefix === 'function' ? window.COSY.getPrefix() : '/';
         const audioUrl = prefix + "sounds/draft" + draftNum + ".mp3";
@@ -5192,13 +5162,8 @@
         const draftNum = KUS_DRAFT_MAPPING[filename];
         if (!draftNum) return;
 
-        // Bypass session audio autoplay if page is locked by passcode gate
         const params = new URLSearchParams(window.location.search);
         const mode = params.get('mode') || 'big';
-        const isLobbyAuthorized = (mode === 'big') || !!(window.COSY_PASSCODES && window.COSY_PASSCODES.isAuthorized(mode));
-        if (!isLobbyAuthorized) {
-            return;
-        }
 
         const prefix = window.COSY && typeof window.COSY.getPrefix === 'function' ? window.COSY.getPrefix() : '/';
         const audioUrl = prefix + "sounds/keeping-up-with-science/draft" + draftNum + "/draft" + draftNum + ".mp3";

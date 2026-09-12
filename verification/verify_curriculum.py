@@ -13,14 +13,14 @@ def run_cuj():
         )
         page = context.new_page()
         try:
-            page.goto("http://localhost:8080/apps/premium-courses/index.html")
+            page.goto("http://localhost:8080/index.html")
             page.wait_for_timeout(1000)
-            page.screenshot(path="verification/screenshots/courses_index_desktop.png")
+            page.screenshot(path="verification/screenshots/home_index_desktop.png")
 
             # Mobile viewport
             page.set_viewport_size({"width": 375, "height": 812})
             page.wait_for_timeout(500)
-            page.screenshot(path="verification/screenshots/courses_index_mobile.png")
+            page.screenshot(path="verification/screenshots/home_index_mobile.png")
         finally:
             context.close()
             browser.close()

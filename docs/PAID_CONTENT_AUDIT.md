@@ -1,3 +1,5 @@
+RESOLVED [2026-09-12]: apps/premium-courses/ and entitlements.js were removed once COSYplatform's dual-view app went live. Kept here for history.
+
 # Paid Content & Repo Boundary Audit
 
 ## Executive Summary
