@@ -1061,16 +1061,26 @@
         document.getElementById('btn-results-practice').innerHTML = btns.practice;
         document.getElementById('btn-results-retake').innerHTML = btns.retake;
 
+        // Append url-handoff query parameters (?lang=&level=&topic=) to outbound links
+        const finalLevelUpper = finalLevelCode.toUpperCase();
+        const handoffQuery = `?lang=${selectedLang}&level=${finalLevelUpper}&topic=general`;
+
+        const homeBtn = document.getElementById('btn-results-home');
+        if (homeBtn) homeBtn.href = `index.html${handoffQuery}`;
+
+        const practiceBtn = document.getElementById('btn-results-practice');
+        if (practiceBtn) practiceBtn.href = `practice/index.html${handoffQuery}`;
+
         // Deep-link the recommended course+level into the curriculum (gap-analysis A2).
         // Maps the calibrated CEFR level to a curriculum file the learner can open.
         // Falls back to the language hub if that exact level file doesn't exist yet.
         const LEVEL_TO_FILE = { a1: 'A1', a2: 'A2', b1: 'B1', b2: 'B2', c1: 'C1', c2: 'C2' };
         const levelFile = LEVEL_TO_FILE[finalLevelCode] || 'A1';
-        const curriculumHref = `curriculum/${selectedLang}/general/${levelFile}.json`;
-        const fallbackHref = `languages/${selectedLang}.html`;
+        const curriculumHref = `curriculum/${selectedLang}/general/${levelFile}.json${handoffQuery}`;
+        const fallbackHref = `languages/${selectedLang}.html${handoffQuery}`;
         const curriculumBtn = document.getElementById('btn-results-curriculum');
         if (curriculumBtn) {
-            curriculumBtn.innerHTML = `${btns.curriculum} (${finalLevelCode.toUpperCase()})`;
+            curriculumBtn.innerHTML = `${btns.curriculum} (${finalLevelUpper})`;
             curriculumBtn.href = fallbackHref; // safe default while we check
             fetch(curriculumHref, { method: 'HEAD' })
                 .then(r => { if (r.ok) curriculumBtn.href = curriculumHref; })
@@ -1322,7 +1332,7 @@
                 actionItems.push("Χτίστε γερές βάσεις με τα διαδραστικά μας παιχνίδια για απλές προτάσεις.");
                 actionItems.push("Κάντε επαναλήψεις στο βασικό λεξιλόγιο.");
             }
-            ctaButtonHtml += `<a href="practice/index.html" class="action-cta-btn action-cta-primary">${t.practice}</a>`;
+            ctaButtonHtml += `<a href="practice/index.html?lang=${selectedLang}&level=${finalLevelUpper}&topic=foundation" class="action-cta-btn action-cta-primary">${t.practice}</a>`;
         } else if (finalLevelCode === 'b1' || finalLevelCode === 'b2') {
             if (selectedLang === 'en') {
                 actionItems.push("Join cozy, introspective intermediate speaking sessions like 'I Couldn't Help But Wonder' or 'Mind Matters' to start conversational adaptation.");
@@ -1340,7 +1350,7 @@
                 actionItems.push("Συμμετάσχετε σε φιλικά intermediate speaking sessions όπως το 'I Couldn't Help But Wonder' ή το 'Mind Matters' για να συνηθίσετε τη συνομιλία.");
                 actionItems.push("Εστιάστε σε collocations και προθέσεις για να μειώσετε τα γραμματικά λάθη.");
             }
-            ctaButtonHtml += `<a href="events/search.html" class="action-cta-btn action-cta-primary">${t.finder}</a>`;
+            ctaButtonHtml += `<a href="https://cosylanguages.github.io/COSYevents/?lang=${selectedLang}&level=${finalLevelUpper}&topic=conversational" class="action-cta-btn action-cta-primary">${t.finder}</a>`;
         } else {
             if (selectedLang === 'en') {
                 actionItems.push("Participate in fast-paced debates in 'Debatable & Relatable' and explore intellectual coffee debates in 'The Greatest Quotes'.");
@@ -1358,7 +1368,7 @@
                 actionItems.push("Συμμετάσχετε σε γρήγορα debates στο 'Debatable & Relatable' ή σε φιλοσοφικές συζητήσεις στο 'The Greatest Quotes'.");
                 actionItems.push("Βελτιώστε το ύφος σας και μάθετε αυθεντικούς ιδιωματισμούς.");
             }
-            ctaButtonHtml += `<a href="https://cosylanguages.github.io/COSYevents/" class="action-cta-btn action-cta-primary">${t.clubs}</a>`;
+            ctaButtonHtml += `<a href="https://cosylanguages.github.io/COSYevents/?lang=${selectedLang}&level=${finalLevelUpper}&topic=advanced_debate" class="action-cta-btn action-cta-primary">${t.clubs}</a>`;
         }
 
         // Add additional immersive recommendation if gap was detected
@@ -1374,7 +1384,7 @@
             } else {
                 actionItems.unshift("<strong>ΕΞΑΣΚΗΣΗ ΕΓΚΕΦΑΛΟΥ:</strong> Χρησιμοποιήστε το <strong>Cognitive & Immersion Accelerator</strong> για να μειώσετε τον χρόνο αντίδρασης και να σταματήσετε να μεταφράζετε από μέσα σας.");
             }
-            ctaButtonHtml += `<a href="practice/cognitive-immersion.html" class="action-cta-btn action-cta-secondary">${t.immersion}</a>`;
+            ctaButtonHtml += `<a href="practice/cognitive-immersion.html?lang=${selectedLang}&level=${finalLevelUpper}&topic=fluency_accelerator" class="action-cta-btn action-cta-secondary">${t.immersion}</a>`;
         }
 
         actionListHtml = actionItems.map(item => `
