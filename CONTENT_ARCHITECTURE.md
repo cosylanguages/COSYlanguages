@@ -1,6 +1,8 @@
 # Content Architecture: Dual Grammar Systems & Linkage Protocol
 
-This document defines the dual-system architecture for grammar content across **COSYlanguages**. Both systems serve active, complementary roles and are designed to stay synchronized.
+> **Repository Note:** `COSYlanguages` is the 100% FREE, public entry point to the COSY ecosystem. All grammar systems, manuals, practice engines, and reference data in this repository are strictly free and open-access. Paid courses and gated portals belong exclusively in sibling repositories (`COSYplatform`, `COSYmanuals`).
+
+This document defines the dual-system architecture for free grammar content across **COSYlanguages**. Both systems serve active, complementary roles and are designed to stay synchronized.
 
 ---
 
