@@ -1,7 +1,0 @@
-{
-  "name": "@cosy/premium-courses",
-  "version": "1.0.0",
-  "description": "Premium Syllabus Courses for COSYlanguages",
-  "private": true,
-  "dependencies": {}
-}

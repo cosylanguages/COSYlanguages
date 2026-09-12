@@ -1065,20 +1065,9 @@ window.COSY = {
 
     registerSW() {
         if ('serviceWorker' in navigator) {
-            const path = window.location.pathname;
             const p = getPrefix();
-            if (path.includes('/apps/premium-courses/')) {
-                // Register scoped service worker for Courses
-                navigator.serviceWorker.register(p + 'apps/premium-courses/sw.js', { scope: p + 'apps/premium-courses/' })
-                    .catch(e => console.log('SW (Courses):', e));
-            } else if (path.includes('https://cosylanguages.github.io/COSYevents/') || path.includes('/apps/premium-events/')) {
-                // Register scoped service worker for Events
-                navigator.serviceWorker.register(p + 'apps/premium-events/sw.js', { scope: p + 'apps/premium-events/' })
-                    .catch(e => console.log('SW (Events):', e));
-            } else {
-                // Register root service worker for Free Portal
-                navigator.serviceWorker.register(p + 'sw.js').catch(e => console.log('SW (Root):', e));
-            }
+            // Register root service worker for Free Portal
+            navigator.serviceWorker.register(p + 'sw.js').catch(e => console.log('SW (Root):', e));
         }
     }
 };

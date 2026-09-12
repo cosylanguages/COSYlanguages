@@ -9,7 +9,7 @@ COSYlanguages operates under a "Slow-Tech" language learning philosophy. We reje
 *   **100% Client-Side Persistence** (via `localStorage` and `sessionStorage`)
 *   **Fully Monolingual Immersion** (learning contents remain strictly in their target languages)
 
-Paid courses and events are built and hosted in COSYplatform and COSYevents respectively. This repo stays 100% free.
+Paid courses live at COSYplatform (https://cosylanguages.github.io/COSYplatform/); paid/converted events live at COSYevents (https://cosylanguages.github.io/COSYevents/).
 
 This document serves as the canonical Architecture Decision Record (ADR) establishing the **`/apps/`** monorepo workspace structure. Moving forward, all new features, sub-products, and brand styles must strictly respect these boundaries to prevent architectural degradation, asset bloat, or namespace collisions.
 

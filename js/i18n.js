@@ -109,12 +109,8 @@
             </div>
             <div class="footer-links-col">
               <h3 data-i18n="footer.courses">Courses</h3>
-              <a href="${prefix}apps/premium-courses/general/" data-i18n="course_general">General Course 📖</a>
-              <a href="${prefix}apps/premium-courses/spoken/" data-i18n="course_spoken">Spoken Course 🗣️</a>
-              <a href="${prefix}apps/premium-courses/exam/" data-i18n="course_exam">Exam Preparation 📝</a>
-              <a href="${prefix}apps/premium-courses/travelling/" data-i18n="course_travelling">Travelling Course ✈️</a>
-              <a href="${prefix}apps/premium-courses/professional/" data-i18n="course_professional">Professional Course 💼</a>
-              <a href="${prefix}apps/premium-courses/relocation/" data-i18n="course_relocation">Relocation Course 🏡</a>
+              <a href="https://cosylanguages.github.io/COSYplatform/" data-i18n="course_general">Paid Courses (COSYplatform) 🎓</a>
+              <a href="https://cosylanguages.github.io/COSYevents/" data-i18n="nav.events">Speaking Events (COSYevents) 🗣️</a>
             </div>
             <div class="footer-links-col">
               <h3 data-i18n="footer.explore">Explore</h3>
