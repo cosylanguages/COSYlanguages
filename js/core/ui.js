@@ -5684,6 +5684,12 @@
                 { idiom: "Piece of cake", level: "A1", meaning: "Very easy to do", example: "Don't worry, learning languages is a piece of cake with practice!" }
             ];
             const item = idiomList[dayOfYear % idiomList.length];
+
+            // Resolve proper relative or absolute practice URL based on page depth
+            const isSubPage = window.location.pathname.includes('/languages/');
+            const practiceBase = isSubPage ? '../../practice/index.html' : 'practice/index.html';
+            const practiceUrl = `${practiceBase}?lang=${lang.toUpperCase()}&topic=idioms`;
+
             idiom.innerHTML = `
                 <div class="idiom-box">
                     <div class="idiom-header">
@@ -5692,6 +5698,9 @@
                     </div>
                     <div class="idiom-meaning"><strong>Meaning:</strong> ${item.meaning}</div>
                     <div class="idiom-example">💬 "${item.example}"</div>
+                    <div class="idiom-footer">
+                        <a href="${practiceUrl}" class="idiom-practice-btn">Practice this Idiom 💡 →</a>
+                    </div>
                 </div>
             `;
         }
