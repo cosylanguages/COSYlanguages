@@ -77,6 +77,7 @@
             else if (text.includes('gramm')) val = 'grammar';
             else if (text.includes('speak')) val = 'speaking';
             else if (text.includes('pronun')) val = 'pronunciation';
+            else if (text.includes('concept') || text.includes('ccq')) val = 'concept-check';
             else val = 'vocab';
         }
         selectedCat = val.toLowerCase();
@@ -86,6 +87,26 @@
     function updateThemes() {
         const themeSelect = document.getElementById('theme-filter');
         if (!themeSelect) return;
+
+        if (selectedCat === 'concept-check' || selectedCat === 'concept_check') {
+            themeSelect.innerHTML = `
+                <option value="to-be">Verb To Be</option>
+                <option value="present-simple">Present Simple</option>
+                <option value="present-continuous">Present Continuous</option>
+                <option value="past-simple-regular">Past Simple Regular</option>
+                <option value="past-simple-be">Past Simple Be</option>
+                <option value="going-to">Going To Future</option>
+                <option value="can-cant">Can / Can't</option>
+                <option value="comparative-adjectives">Comparative Adjectives</option>
+                <option value="prepositions-place">Prepositions of Place</option>
+                <option value="prepositions-time">Prepositions of Time</option>
+                <option value="word-order">Word Order</option>
+                <option value="question-words">Question Words</option>
+            `;
+            updateSubThemes();
+            updateHandoffLinks();
+            return;
+        }
 
         themeSelect.innerHTML = '<option value="all">All Themes</option>';
         if (window.COSY_THEME_TREE) {
@@ -280,6 +301,12 @@
 
             if (errorMsg) errorMsg.style.display = 'none';
 
+            if (selectedCat === 'concept-check' || selectedCat === 'concept_check') {
+                const themeVal = theme !== 'all' ? theme : 'to-be';
+                window.location.href = `types/concept-check/index.html?lang=${selectedLang}&unit=${themeVal}`;
+                return;
+            }
+
             if (startBtn) {
                 startBtn.disabled = true;
                 startBtn.textContent = 'Loading... ⏳';
@@ -323,6 +350,11 @@
             const lp = document.querySelector(`.lang-pill[data-value="${l}"]`);
             if (lp) selectLang(lp);
             else selectLang(l);
+
+            if (cat && (cat.toLowerCase().includes('concept') || cat.toLowerCase().includes('ccq'))) {
+                window.location.href = `types/concept-check/index.html?lang=${l}&unit=${theme || 'to-be'}`;
+                return;
+            }
 
             if (cat) {
                 const cp = Array.from(document.querySelectorAll('.cat-pill')).find(p =>
@@ -594,7 +626,7 @@
 
         if (catParam) {
             const normCat = catParam.toLowerCase().trim();
-            const validCats = ['vocab', 'vocabulary', 'grammar', 'speaking', 'pronunciation'];
+            const validCats = ['vocab', 'vocabulary', 'grammar', 'speaking', 'pronunciation', 'concept-check', 'concept_check', 'ccq'];
             if (!validCats.includes(normCat)) {
                 console.warn('[Practice Hub] Unknown cat URL parameter:', catParam);
                 isValid = false;
