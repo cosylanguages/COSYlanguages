@@ -829,7 +829,7 @@
     "theme": "countries_languages"
   }
 ];
-  if (typeof module !== undefined && module.exports) {
+  if (typeof module !== 'undefined' && module.exports) {
     module.exports = data;
   } else {
     window.A1_MANUAL_CANON_ADDITIONS = data;

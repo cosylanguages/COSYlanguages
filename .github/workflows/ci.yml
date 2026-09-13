@@ -25,6 +25,10 @@ jobs:
         run: |
           node scripts/validate-schema.js
 
+      - name: Verify Vocabulary Pool Minimum Thresholds
+        run: |
+          node scripts/verify_vocab_pool.js
+
       - name: Validate HTML templates/core
         run: |
           npx html-validate "*.html" "practice/*.html" "games/*.html" "vocabulary/*.html" "grammar/*.html" || true

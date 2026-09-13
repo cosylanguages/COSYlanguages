@@ -208,7 +208,8 @@
     };
 
     function getQuestions(lang, cat, level, theme, subTheme) {
-        const pool = (QUESTIONS[lang] && QUESTIONS[lang][cat]) || QUESTIONS['EN']['Vocabulary'];
+        const pool = (QUESTIONS[lang] && QUESTIONS[lang][cat]) || [];
+        if (!pool || !pool.length) return [];
         if (window.gameUtils && window.gameUtils.filterVocabulary) {
             return window.gameUtils.filterVocabulary(pool, { lang, level, theme, subTheme, category: cat });
         }
@@ -838,4 +839,5 @@
     // Export functions to global scope
     window.ensureDataLoaded = ensureDataLoaded;
     window.beginSession = beginSession;
+    window.getQuestions = getQuestions;
 })();
