@@ -1028,29 +1028,19 @@ body.embedded-mode main {
   background: #ffeb3b !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --cream: #1a1f1a;
-    --cream-dark: #141914;
-    --sage-pale: #1e2b1f;
-    --sage-mist: #1a241b;
-    --honey-pale: #2a2010;
-    --ink: #e8f0e9;
-    --ink-soft: #c8d8c9;
-    --muted: #8a9e8b;
-    --border: rgba(107,143,113,.2);
-  }
-
-  body { background: var(--cream); color: var(--ink); }
-  .question-card-mobile,
-  .game-card,
-  .game-setup-sheet,
-  .ff-topic-card,
-  .oa-statement,
-  .le-card { background: #222b22 !important; }
-  nav { background: rgba(26,31,26,.96) !important; }
-  .mobile-nav { background: rgba(26,31,26,.97) !important; }
-}
+/* NOTE: automatic dark mode via prefers-color-scheme was removed here.
+   It only redefined a partial set of tokens (--cream/--ink/etc.) on a bare
+   :root selector, so it fired regardless of the explicit data-theme="light"
+   attribute that js/core/engine.js's initTheme() always sets on load.
+   Result: dark page background with light-mode card/heading colors
+   (--card-bg, --sec-title, --card-sub) left unchanged -> low-contrast text
+   whenever a visitor's OS was in dark mode but hadn't toggled the site's
+   own theme switch. The site's dark mode is now driven solely by the
+   complete html[data-theme="dark"]/body.theme-dark rule below and in
+   lang-pages.css, which covers every token consistently. If auto-matching
+   the OS preference is wanted again, initTheme() should read
+   matchMedia('(prefers-color-scheme: dark)') as its default instead of
+   'light', so a single source of truth sets data-theme on load. */
 
 html[data-theme="dark"], body.theme-dark {
   --cream: #1a1f1a;
