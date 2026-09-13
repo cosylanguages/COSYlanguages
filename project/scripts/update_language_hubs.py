@@ -8,7 +8,7 @@ hub_data = {
         'manual_c1': '../../manuals/english-c1.html', 'manual_c2': '../../manuals/english-c2.html',
         'roadmap': 'curriculum.html', 'practice_lang': 'EN',
         'apps': [
-            {'name': 'English Verbs & Prepositions', 'url': '../../apps/en-verb-prep/index.html', 'desc': 'Interactive engine for dependent prepositions & phrasal verbs.'}
+            {'name': 'English Verbs & Prepositions', 'url': 'https://cosylanguages.github.io/COSYtools/en-verb-prep/index.html', 'desc': 'Interactive engine for dependent prepositions & phrasal verbs.'}
         ]
     },
     'fr': {
@@ -16,9 +16,9 @@ hub_data = {
         'manual_a0_a1': '../../manuals/francaise-a0-a1.html', 'manual_a2': '../../manuals/francaise-a2.html',
         'roadmap': 'curriculum.html', 'practice_lang': 'FR',
         'apps': [
-            {'name': 'Régime Prépositionnel Français', 'url': '../../apps/fr-regime/index.html', 'desc': 'Engine for French verb, noun & adjective prepositional regimes.'},
-            {'name': 'Le Conjugeur Français', 'url': '../../apps/fr-conjugeur/index.html', 'desc': 'Complete verb conjugation & tense reference.'},
-            {'name': 'Genre des Noms Français', 'url': '../../apps/fr-genre/index.html', 'desc': 'Interactive French noun gender & rule finder.'}
+            {'name': 'Régime Prépositionnel Français', 'url': 'https://cosylanguages.github.io/COSYtools/fr-regime/index.html', 'desc': 'Engine for French verb, noun & adjective prepositional regimes.'},
+            {'name': 'Le Conjugeur Français', 'url': 'https://cosylanguages.github.io/COSYtools/fr-conjugeur/index.html', 'desc': 'Complete verb conjugation & tense reference.'},
+            {'name': 'Genre des Noms Français', 'url': 'https://cosylanguages.github.io/COSYtools/fr-genre/index.html', 'desc': 'Interactive French noun gender & rule finder.'}
         ]
     },
     'it': {
@@ -26,9 +26,9 @@ hub_data = {
         'manual_a0_a1': '../../manuals/it/index.html', 'manual_a2': '../../manuals/italiano-a2.html',
         'roadmap': 'curriculum.html', 'practice_lang': 'IT',
         'apps': [
-            {'name': 'Reggenza Verbale Italiana', 'url': '../../apps/it-reggenza/index.html', 'desc': 'Italian prepositional regime engine for verbs, nouns & adjectives.'},
-            {'name': 'Il Coniugatore Italiano', 'url': '../../apps/it-coniugatore/index.html', 'desc': 'Verb conjugation database & tense reference.'},
-            {'name': 'Genere dei Nomi Italiani', 'url': '../../apps/it-genere/index.html', 'desc': 'Italian noun gender classification & irregular patterns.'}
+            {'name': 'Reggenza Verbale Italiana', 'url': 'https://cosylanguages.github.io/COSYtools/it-reggenza/index.html', 'desc': 'Italian prepositional regime engine for verbs, nouns & adjectives.'},
+            {'name': 'Il Coniugatore Italiano', 'url': 'https://cosylanguages.github.io/COSYtools/it-coniugatore/index.html', 'desc': 'Verb conjugation database & tense reference.'},
+            {'name': 'Genere dei Nomi Italiani', 'url': 'https://cosylanguages.github.io/COSYtools/it-genere/index.html', 'desc': 'Italian noun gender classification & irregular patterns.'}
         ]
     },
     'ru': {
@@ -36,8 +36,8 @@ hub_data = {
         'manual_a0_a1': '../../manuals/russkiy-a0-a1.html', 'manual_a2': '../../manuals/russkiy-a2.html',
         'roadmap': 'curriculum.html', 'practice_lang': 'RU',
         'apps': [
-            {'name': 'Спряжение русских глаголов', 'url': '../../apps/ru-spryazhenie/index.html', 'desc': 'Russian verb conjugation & aspect pairs.'},
-            {'name': 'Род и падежи существительных', 'url': '../../apps/ru-rod-padezhi/index.html', 'desc': 'Russian noun gender & 6-case declension engine.'}
+            {'name': 'Спряжение русских глаголов', 'url': 'https://cosylanguages.github.io/COSYtools/ru-spryazhenie/index.html', 'desc': 'Russian verb conjugation & aspect pairs.'},
+            {'name': 'Род и падежи существительных', 'url': 'https://cosylanguages.github.io/COSYtools/ru-rod-padezhi/index.html', 'desc': 'Russian noun gender & 6-case declension engine.'}
         ]
     },
     'el': {
@@ -45,9 +45,9 @@ hub_data = {
         'manual_a0_a1': '../../manuals/ellinika-a0-a1.html', 'manual_a2': '../../manuals/ellinika-a2.html',
         'roadmap': 'curriculum.html', 'practice_lang': 'EL',
         'apps': [
-            {'name': 'Σύνταξη Ρημάτων & Ουσιαστικών', 'url': '../../apps/el-syntaxi/index.html', 'desc': 'Greek verb & noun syntax government engine.'},
-            {'name': 'Κλίση Ρημάτων', 'url': '../../apps/el-klisi-rimaton/index.html', 'desc': 'Greek verb conjugation reference.'},
-            {'name': 'Γένος & Πτώσεις Ουσιαστικών', 'url': '../../apps/el-genos-ptoseis/index.html', 'desc': 'Greek noun gender & case inflection reference.'}
+            {'name': 'Σύνταξη Ρημάτων & Ουσιαστικών', 'url': 'https://cosylanguages.github.io/COSYtools/el-syntaxi/index.html', 'desc': 'Greek verb & noun syntax government engine.'},
+            {'name': 'Κλίση Ρημάτων', 'url': 'https://cosylanguages.github.io/COSYtools/el-klisi-rimaton/index.html', 'desc': 'Greek verb conjugation reference.'},
+            {'name': 'Γένος & Πτώσεις Ουσιαστικών', 'url': 'https://cosylanguages.github.io/COSYtools/el-genos-ptoseis/index.html', 'desc': 'Greek noun gender & case inflection reference.'}
         ]
     },
     'es': {

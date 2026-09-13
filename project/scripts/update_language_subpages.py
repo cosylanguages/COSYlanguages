@@ -10,7 +10,7 @@ subpage_data = {
             {'title': 'English 3-Book Manual (C1)', 'url': '../../manuals/english-c1.html', 'desc': 'Advanced precision & academic/professional register.'},
             {'title': 'English 3-Book Manual (C2)', 'url': '../../manuals/english-c2.html', 'desc': 'Mastery & native-level idiomatic fluency.'}
         ],
-        'apps': [{'title': 'English Verbs & Prepositions App', 'url': '../../apps/en-verb-prep/index.html', 'desc': 'Interactive engine for dependent prepositions & phrasal verbs.'}],
+        'apps': [{'title': 'English Verbs & Prepositions App', 'url': 'https://cosylanguages.github.io/COSYtools/en-verb-prep/index.html', 'desc': 'Interactive engine for dependent prepositions & phrasal verbs.'}],
         'practice': '../../practice/index.html?lang=EN', 'games': '../../games/index.html?lang=EN', 'hub': 'index.html', 'lang': 'en'
     },
     'fr': {
@@ -19,9 +19,9 @@ subpage_data = {
             {'title': 'Manuel Français (A2)', 'url': '../../manuals/francaise-a2.html', 'desc': 'Grammaire élémentaire, lexique thématique et dialogues.'}
         ],
         'apps': [
-            {'title': 'Régime Prépositionnel Français', 'url': '../../apps/fr-regime/index.html', 'desc': 'Moteur interactif pour les régimes des verbes, noms et adjectifs.'},
-            {'title': 'Le Conjugeur Français', 'url': '../../apps/fr-conjugeur/index.html', 'desc': 'Référence complète des conjugaisons et temps.'},
-            {'title': 'Genre des Noms Français', 'url': '../../apps/fr-genre/index.html', 'desc': 'Guide interactif du genre des noms et règles de terminaisons.'}
+            {'title': 'Régime Prépositionnel Français', 'url': 'https://cosylanguages.github.io/COSYtools/fr-regime/index.html', 'desc': 'Moteur interactif pour les régimes des verbes, noms et adjectifs.'},
+            {'title': 'Le Conjugeur Français', 'url': 'https://cosylanguages.github.io/COSYtools/fr-conjugeur/index.html', 'desc': 'Référence complète des conjugaisons et temps.'},
+            {'title': 'Genre des Noms Français', 'url': 'https://cosylanguages.github.io/COSYtools/fr-genre/index.html', 'desc': 'Guide interactif du genre des noms et règles de terminaisons.'}
         ],
         'practice': '../../practice/index.html?lang=FR', 'games': '../../games/index.html?lang=FR', 'hub': 'index.html', 'lang': 'fr'
     },
@@ -31,9 +31,9 @@ subpage_data = {
             {'title': 'Manuale Italiano (A2)', 'url': '../../manuals/italiano-a2.html', 'desc': 'Grammatica elementare, collocazioni e mappe di dialogo.'}
         ],
         'apps': [
-            {'title': 'Reggenza Verbale Italiana', 'url': '../../apps/it-reggenza/index.html', 'desc': 'Engine interattivo per la reggenza di verbi, nomi e aggettivi.'},
-            {'title': 'Il Coniugatore Italiano', 'url': '../../apps/it-coniugatore/index.html', 'desc': 'Database completo delle coniugazioni verbali.'},
-            {'title': 'Genere dei Nomi Italiani', 'url': '../../apps/it-genere/index.html', 'desc': 'Guida interattiva al genere dei sostantivi.'}
+            {'title': 'Reggenza Verbale Italiana', 'url': 'https://cosylanguages.github.io/COSYtools/it-reggenza/index.html', 'desc': 'Engine interattivo per la reggenza di verbi, nomi e aggettivi.'},
+            {'title': 'Il Coniugatore Italiano', 'url': 'https://cosylanguages.github.io/COSYtools/it-coniugatore/index.html', 'desc': 'Database completo delle coniugazioni verbali.'},
+            {'title': 'Genere dei Nomi Italiani', 'url': 'https://cosylanguages.github.io/COSYtools/it-genere/index.html', 'desc': 'Guida interattiva al genere dei sostantivi.'}
         ],
         'practice': '../../practice/index.html?lang=IT', 'games': '../../games/index.html?lang=IT', 'hub': 'index.html', 'lang': 'it'
     },
@@ -43,8 +43,8 @@ subpage_data = {
             {'title': 'Учебник русского языка (A2)', 'url': '../../manuals/russkiy-a2.html', 'desc': 'Элементарная грамматика и тематический словарь.'}
         ],
         'apps': [
-            {'title': 'Спряжение русских глаголов', 'url': '../../apps/ru-spryazhenie/index.html', 'desc': 'База спряжения и видовых пар глаголов.'},
-            {'title': 'Род и падежи существительных', 'url': '../../apps/ru-rod-padezhi/index.html', 'desc': 'Интерактивная система падежей и рода.'}
+            {'title': 'Спряжение русских глаголов', 'url': 'https://cosylanguages.github.io/COSYtools/ru-spryazhenie/index.html', 'desc': 'База спряжения и видовых пар глаголов.'},
+            {'title': 'Род и падежи существительных', 'url': 'https://cosylanguages.github.io/COSYtools/ru-rod-padezhi/index.html', 'desc': 'Интерактивная система падежей и рода.'}
         ],
         'practice': '../../practice/index.html?lang=RU', 'games': '../../games/index.html?lang=RU', 'hub': 'index.html', 'lang': 'ru'
     },
@@ -54,9 +54,9 @@ subpage_data = {
             {'title': 'Εγχειρίδιο Ελληνικών (A2)', 'url': '../../manuals/ellinika-a2.html', 'desc': 'Βασική γραμματική, θεματικό λεξιλόγιο και διάλογοι.'}
         ],
         'apps': [
-            {'title': 'Σύνταξη Ρημάτων & Ουσιαστικών', 'url': '../../apps/el-syntaxi/index.html', 'desc': 'Εφαρμογή σύνταξης και συντακτικής κυβέρνησης.'},
-            {'title': 'Κλίση Ρημάτων', 'url': '../../apps/el-klisi-rimaton/index.html', 'desc': 'Πλήρης οδηγός κλίσης ρημάτων.'},
-            {'title': 'Γένος & Πτώσεις Ουσιαστικών', 'url': '../../apps/el-genos-ptoseis/index.html', 'desc': 'Οδηγός γένους και πτώσεων ουσιαστικών.'}
+            {'title': 'Σύνταξη Ρημάτων & Ουσιαστικών', 'url': 'https://cosylanguages.github.io/COSYtools/el-syntaxi/index.html', 'desc': 'Εφαρμογή σύνταξης και συντακτικής κυβέρνησης.'},
+            {'title': 'Κλίση Ρημάτων', 'url': 'https://cosylanguages.github.io/COSYtools/el-klisi-rimaton/index.html', 'desc': 'Πλήρης οδηγός κλίσης ρημάτων.'},
+            {'title': 'Γένος & Πτώσεις Ουσιαστικών', 'url': 'https://cosylanguages.github.io/COSYtools/el-genos-ptoseis/index.html', 'desc': 'Οδηγός γένους και πτώσεων ουσιαστικών.'}
         ],
         'practice': '../../practice/index.html?lang=EL', 'games': '../../games/index.html?lang=EL', 'hub': 'index.html', 'lang': 'el'
     }
