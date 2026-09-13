@@ -54,6 +54,8 @@ Inside every grammar topic page under `manuals/{lang}/grammar/{level}/topics/*.h
   </div>
   <a href="../../../../../practice/index.html?lang=en&cat=Grammar&level=starter&theme=to-be" class="btn-practice-link">🎯 Practice this →</a>
 </div>
+
+> **Engine Routing Note:** All grammar practice drills are handled unifiedly through `practice/hub.js` and `practice/types/vocabulary/vocabulary.js` via the `cat=Grammar` parameter and category selector. Separate `practice/types/grammar/` redirect stubs have been removed in favor of this single unified practice engine route.
 ```
 
 ---
