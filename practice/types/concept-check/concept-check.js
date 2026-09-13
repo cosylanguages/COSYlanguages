@@ -70,14 +70,18 @@
         card.className = 'ccq-card';
         card.setAttribute('data-index', index);
 
+        var targetText = ccq.targetItem || ccq.targetStructure || '—';
+        var questionText = ccq.ccq || ccq.question || ccq.targetItem || '';
+        var answerText = ccq.answer || (Array.isArray(ccq.options) && ccq.correctOptionIndex != null ? ccq.options[ccq.correctOptionIndex] : '');
+
         var target = document.createElement('div');
         target.className = 'ccq-target';
-        target.textContent = 'Target: ' + (ccq.targetItem || '—');
+        target.textContent = 'Target: ' + targetText;
         card.appendChild(target);
 
         var q = document.createElement('p');
         q.className = 'ccq-question';
-        q.textContent = (index + 1) + '. ' + ccq.ccq;
+        q.textContent = (index + 1) + '. ' + questionText;
         card.appendChild(q);
 
         var actions = document.createElement('div');
@@ -88,7 +92,7 @@
         feedback.hidden = true;
 
         var answered = false;
-        var answer = ccq.answer || '';
+        var answer = answerText;
 
         function markCorrect() {
             card.classList.add('is-correct');
