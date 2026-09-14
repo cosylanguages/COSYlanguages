@@ -821,6 +821,11 @@
   background: linear-gradient(90deg, var(--blue), #5e8dd1);
   box-shadow: 0 0 8px rgba(46, 95, 163, 0.6);
 }
+.practice-engine.cat-concept-check .pe-progress-fill,
+.practice-engine.cat-concept_check .pe-progress-fill {
+  background: linear-gradient(90deg, var(--gold), #d49319);
+  box-shadow: 0 0 8px rgba(148, 94, 5, 0.6);
+}
 .pe-progress-fill::after {
   content: '';
   position: absolute;
