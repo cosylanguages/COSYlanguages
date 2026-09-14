@@ -821,6 +821,11 @@
   background: linear-gradient(90deg, var(--blue), #5e8dd1);
   box-shadow: 0 0 8px rgba(46, 95, 163, 0.6);
 }
+.practice-engine.cat-concept-check .pe-progress-fill,
+.practice-engine.cat-concept_check .pe-progress-fill {
+  background: linear-gradient(90deg, var(--gold), #d49319);
+  box-shadow: 0 0 8px rgba(148, 94, 5, 0.6);
+}
 .pe-progress-fill::after {
   content: '';
   position: absolute;
@@ -1029,12 +1034,21 @@
 }
 
 @media(max-width:680px) {
+  .page { padding: 1rem 1rem 4rem; }
   .dash-hero { grid-template-columns: 1fr; }
   .streak-ring-wrap { flex-direction: row; align-items: center; }
   .setup-grid, .two-col { grid-template-columns: 1fr; }
   .setup-full { grid-column: 1; }
   .mc-options { grid-template-columns: 1fr; }
   .sum-stats { gap: 1rem; }
+  .pe-body { padding: 1.25rem 1rem; }
+  .pe-question { font-size: 1.25rem; margin: 1rem 0 1.25rem; }
+  .pe-question-card { max-width: 100%; padding: 1rem; }
+  .pe-card-emoji { font-size: 2.8rem; }
+  .pe-card-word { font-size: 1.35rem; }
+  .speaking-widget-container { max-width: 100%; padding: 1rem; }
+  .type-wrap { flex-direction: column; }
+  .btn-start { width: 100%; justify-content: center; }
 }
 
 /* ── MONOLINGUAL FORMULA LAYOUTS ── */
@@ -1887,4 +1901,138 @@
   .practice-page-new.has-active-bottom-bar .page {
     padding-bottom: 13rem !important;
   }
+}
+
+/* ── PROJECTOR / CLASSROOM PRESENTATION MODE (📺) ── */
+body.projector-mode {
+  font-size: 1.15rem;
+}
+
+body.projector-mode .page {
+  max-width: 1280px;
+  padding: 1.5rem 2rem 6rem;
+}
+
+body.projector-mode .practice-engine {
+  border-width: 2px;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.12);
+}
+
+body.projector-mode .pe-topbar {
+  padding: 1.25rem 2rem;
+}
+
+body.projector-mode .pe-session-title {
+  font-size: 1.3rem;
+}
+
+body.projector-mode .pec-val {
+  font-size: 1.5rem;
+}
+
+body.projector-mode .pe-task-type {
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+body.projector-mode .pe-question {
+  font-size: 2.2rem;
+  margin: 1.8rem 0 2.5rem;
+}
+
+body.projector-mode .pe-question .q-word {
+  font-size: 2rem;
+  padding: 6px 18px;
+}
+
+body.projector-mode .pe-question .q-definition {
+  font-size: 1.8rem;
+}
+
+body.projector-mode .pe-question-card {
+  max-width: 520px;
+  padding: 2rem;
+}
+
+body.projector-mode .pe-card-emoji {
+  font-size: 5rem;
+}
+
+body.projector-mode .pe-card-word {
+  font-size: 2.4rem;
+}
+
+body.projector-mode .pe-card-transcription {
+  font-size: 1.2rem;
+}
+
+body.projector-mode .pe-card-speak-btn {
+  font-size: 1.1rem !important;
+  padding: 8px 22px !important;
+}
+
+body.projector-mode .mc-options {
+  gap: 14px;
+}
+
+body.projector-mode .mc-opt {
+  padding: 1.25rem 1.5rem;
+  font-size: 1.25rem;
+  border-width: 2px;
+}
+
+body.projector-mode .tf-btn {
+  padding: 1.5rem;
+  font-size: 1.35rem;
+  border-width: 2px;
+}
+
+body.projector-mode .type-input {
+  font-size: 1.4rem;
+  padding: 16px 20px;
+  border-width: 2px;
+}
+
+body.projector-mode .keycap-badge {
+  width: 26px;
+  height: 26px;
+  font-size: 0.9rem;
+  border-width: 2px;
+  border-bottom-width: 4px;
+  margin-right: 12px;
+}
+
+body.projector-mode .scramble-assembly {
+  min-height: 90px;
+  padding: 18px;
+}
+
+body.projector-mode .sc-tile {
+  padding: 12px 22px;
+  font-size: 1.25rem;
+  border-width: 2px;
+}
+
+body.projector-mode .mp-item {
+  padding: 1.35rem 1rem;
+  font-size: 1.15rem;
+  border-width: 2px;
+}
+
+body.projector-mode .pe-bottom-bar {
+  padding: 2rem 3rem;
+}
+
+body.projector-mode .pe-bb-title {
+  font-size: 1.5rem;
+}
+
+body.projector-mode .pe-bb-desc {
+  font-size: 1.15rem;
+}
+
+body.projector-mode .pe-bb-action-btn {
+  font-size: 1.25rem;
+  padding: 16px 42px;
 }
