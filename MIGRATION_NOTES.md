@@ -132,8 +132,8 @@ This checklist identifies every file in the repository that reads, fetches, or s
   - **Access Mechanism:** Calls `window.gameUtils.getVocabPool()` to extract loaded vocabulary entries from `window.vocabularyData` to build dynamic distractors and option lists.
 
 ### 2.4 Offline Print Studio Tools (`print-studio/`)
-- [ ] **`print-studio/print-cards.html`**
-  - **Access Mechanism:** Dynamically constructs script tags `script.src = 'vocabulary/${lang}/${level}/${topic}.js'` and reads from `window.vocabularyData[lang]`.
+- [x] **`print-studio/print-cards.html`** *(Migrated - Pilot)*
+  - **Access Mechanism:** Includes `shared/vocab-resolver.js` from COSYdata (`https://cosylanguages.github.io/COSYdata/shared/vocab-resolver.js`) via `<script type="module">`. Fetches category datasets asynchronously from COSYdata endpoints (`https://cosylanguages.github.io/COSYdata/vocabulary/${lang}/${topic}.json`).
 - [ ] **`print-studio/print-zine.html`**
   - **Access Mechanism:** Dynamically constructs script tags `script.src = 'vocabulary/${lang}/${level}/${topic}.js'` and reads from `window.vocabularyData[lang]`.
 - [ ] **`print-studio/print-boardgame.html`**
@@ -182,7 +182,20 @@ The following files contain the word "vocabulary" in user interface text, naviga
 
 ---
 
-## 4. Migration Plan Summary for Future Task
+## 4. Pilot Migration Status & Audit Findings (`print-studio/print-cards.html`)
+
+As part of the initial pilot migration to validate remote COSYdata integration:
+* **Consumer Migrated:** `print-studio/print-cards.html` (Printable Leitner Cards Generator).
+* **Resolver Included:** Included `https://cosylanguages.github.io/COSYdata/shared/vocab-resolver.js` via `<script type="module">` to expose `resolveVocab` and `hydrateVocabElements` on `window.COSYdataResolver`.
+* **Data Fetching:** Updated `loadCategoryData()` to fetch remote JSON datasets directly from `https://cosylanguages.github.io/COSYdata/vocabulary/${lang}/${topic}.json`. Added `animals` (`🐶 Animals`) to the topic selection dropdown.
+* **Findings & Data Mismatches:**
+  1. **Directory Structure Mismatch:** Local datasets used `vocabulary/<lang>/<LEVEL>/<topic>.js` (nested by level and topic), whereas COSYdata uses flat theme files per language (`vocabulary/<lang>/<theme>.json`, e.g., `animals.json`).
+  2. **Data Shape Differences:** Entries in COSYdata store definitions as an array of strings (`definitions: ["Definition text..."]`) rather than objects (`definitions: [{ text: "..." }]`). Card back rendering in `print-cards.html` was updated to support both string array definitions/examples and legacy object definitions cleanly.
+  3. **Missing Themes in COSYdata:** COSYdata currently contains only `animals.json` under `vocabulary/en/`. Topics like `adjectives`, `verbs`, `locations`, `people`, `dishes`, and non-English target languages need to be exported to COSYdata before full migration of all consuming tools.
+
+---
+
+## 5. Migration Plan Summary for Future Task
 
 When centralizing vocabulary data to **COSYdata** ([`https://cosylanguages.github.io/COSYdata/`](https://cosylanguages.github.io/COSYdata/)):
 

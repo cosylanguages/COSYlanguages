@@ -177,6 +177,7 @@
     </select>
 
     <select id="sel-topic" onchange="loadCategoryData()" class="styled-sel print-select-compact">
+        <option value="animals">🐶 Animals</option>
         <option value="adjectives">🏷️ Adjectives</option>
         <option value="verbs">🏃 Verbs</option>
         <option value="vocabulary">📖 General Vocab</option>
@@ -216,16 +217,19 @@
     </div>
 </main>
 
-<script>
-    window.vocabularyData = window.vocabularyData || {};
+<script type="module">
+    import { resolveVocab, hydrateVocabElements } from 'https://cosylanguages.github.io/COSYdata/shared/vocab-resolver.js';
+    window.COSYdataResolver = { resolveVocab, hydrateVocabElements };
+</script>
 
+<script>
     let currentCards = [
-        { word: "tall", emoji: "🦒", definitions: [{ text: "Of greater than average height.", examples: ["He is very tall."] }] },
-        { word: "short", emoji: "📏", definitions: [{ text: "Of less than average height or length.", examples: ["The pencil is short."] }] },
-        { word: "young", emoji: "👶", definitions: [{ text: "Having lived or existed for only a short time.", examples: ["He is a young man."] }] },
-        { word: "old", emoji: "👴", definitions: [{ text: "Having lived or existed for a long time.", examples: ["This is an old book."] }] },
-        { word: "sunny", emoji: "☀️", definitions: [{ text: "Having a lot of light from the sun.", examples: ["It is a sunny day."] }] },
-        { word: "rainy", emoji: "🌧️", definitions: [{ text: "Having a lot of rain.", examples: ["It is a rainy day."] }] }
+        { word: "cat", emoji: "🐱", definitions: ["A small domesticated carnivorous mammal with soft fur, a short snout, and retractile claws."], examples: ["The cat slept peacefully on the sunny windowsill."] },
+        { word: "dog", emoji: "🐶", definitions: ["A domesticated carnivorous mammal that typically has a long snout, an acute sense of smell, and a barking voice."], examples: ["My dog loves running after tennis balls in the park."] },
+        { word: "cow", emoji: "🐮", definitions: ["A fully grown female animal of a bovine farm species, kept for producing milk or meat."], examples: ["The cow was grazing peacefully in the green field."] },
+        { word: "horse", emoji: "🐴", definitions: ["A large plant-eating domesticated mammal with solid hooves and a flowing mane and tail."], examples: ["He rode his horse along the mountain trail."] },
+        { word: "bird", emoji: "🐦", definitions: ["A warm-blooded egg-laying vertebrate animal distinguished by feathers, wings, and a beak."], examples: ["A colourful bird sang sweet songs in the oak tree."] },
+        { word: "fish", emoji: "🐟", definitions: ["A limbless cold-blooded vertebrate animal with gills and fins living wholly in water."], examples: ["We saw bright gold fish swimming in the garden pond."] }
     ];
 
     function handleFileUpload(event) {
@@ -249,11 +253,10 @@
         reader.readAsText(file);
     }
 
-    function loadCategoryData() {
+    async function loadCategoryData() {
         const lang = document.getElementById('sel-lang').value;
         const level = document.getElementById('sel-level').value;
         const topic = document.getElementById('sel-topic').value;
-        const scriptId = 'cards-vocab-script';
 
         if (topic === 'notebook_dict') {
             const key = window.COSY_PROFILES ? window.COSY_PROFILES.getPrefixedKey('cosy_dict_free_guest') : 'cosy_dict_free_guest';
@@ -264,37 +267,41 @@
                 currentCards = list.slice(0, 6);
             } else {
                 currentCards = [
-                    { word: "My Notebook", emoji: "📓", definitions: [{ text: "Harvest words from speaking clubs by double-clicking them!" }] }
+                    { word: "My Notebook", emoji: "📓", definitions: ["Harvest words from speaking clubs by double-clicking them!"] }
                 ];
             }
             renderCards();
             return;
         }
 
-        const oldScript = document.getElementById(scriptId);
-        if (oldScript) oldScript.remove();
-
-        const script = document.createElement('script');
-        script.id = scriptId;
-        script.src = `vocabulary/${lang}/${level}/${topic}.js`;
-        script.onload = () => {
-            const list = window.vocabularyData[lang] || [];
-            if (list.length > 0) {
-                currentCards = list.slice(0, 6);
+        try {
+            // Fetch remote dataset from COSYdata repository
+            const response = await fetch(`https://cosylanguages.github.io/COSYdata/vocabulary/${lang}/${topic}.json`);
+            if (response.ok) {
+                const data = await response.json();
+                const list = Array.isArray(data) ? data : (typeof data === 'object' && data !== null ? Object.values(data) : []);
+                const filtered = list.filter(item => !item.level || item.level.toUpperCase() === level.toUpperCase() || level === 'A1');
+                const finalList = filtered.length > 0 ? filtered : list;
+                if (finalList.length > 0) {
+                    currentCards = finalList.slice(0, 6);
+                } else {
+                    currentCards = [
+                        { word: "Category empty", emoji: "⚠️", definitions: ["No vocabulary entries found for this category in COSYdata."] }
+                    ];
+                }
             } else {
                 currentCards = [
-                    { word: "Category not found", emoji: "⚠️", definitions: [{ text: "This language/level doesn't have this category yet." }] }
+                    { word: "Data not available", emoji: "⚠️", definitions: [`Category '${topic}' is not yet available in COSYdata for ${lang.toUpperCase()}.`] }
                 ];
             }
-            renderCards();
-        };
-        script.onerror = () => {
+        } catch (err) {
+            console.warn('[COSYdata] Error loading category data from COSYdata:', err);
             currentCards = [
-                { word: "Data not available", emoji: "⚠️", definitions: [{ text: "This category/level is not available in this language." }] }
+                { word: "Data not available", emoji: "⚠️", definitions: ["Unable to load data from COSYdata endpoint."] }
             ];
-            renderCards();
-        };
-        document.head.appendChild(script);
+        }
+
+        renderCards();
     }
 
     function renderCards() {
@@ -336,8 +343,16 @@
                 backsGrid.innerHTML += `<div class="leitner-card-back print-dashed-placeholder"></div>`;
                 return;
             }
-            const defText = card.definition || (card.definitions && card.definitions[0] ? card.definitions[0].text : '');
-            const examples = card.example ? [card.example] : (card.definitions && card.definitions[0] && card.definitions[0].examples ? card.definitions[0].examples : []);
+
+            const defText = typeof card.definition === 'string'
+                ? card.definition
+                : (card.definitions && typeof card.definitions[0] === 'string'
+                    ? card.definitions[0]
+                    : (card.definitions && card.definitions[0] && card.definitions[0].text ? card.definitions[0].text : ''));
+
+            const examples = Array.isArray(card.examples) && card.examples.length > 0
+                ? card.examples
+                : (card.example ? [card.example] : (card.definitions && card.definitions[0] && card.definitions[0].examples ? card.definitions[0].examples : []));
 
             backsGrid.innerHTML += `
                 <div class="leitner-card-back">
