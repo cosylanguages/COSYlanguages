@@ -163,6 +163,9 @@
 
     <div class="start-bar">
       <button onclick="window.cosyPractice.startPractice()" class="btn-start" data-translate-key="start_practice" data-i18n="practice.startPractice">Start Practice 🚀</button>
+      <button onclick="cosyPracticeEngine.toggleProjectorMode()" class="btn-outline" id="projector-setup-toggle" title="Toggle Projector / Classroom Presentation Mode (Key: P)" style="display: inline-flex; align-items: center; gap: 6px;">
+        <span>📺</span> <span class="proj-label">Projector Mode</span>
+      </button>
     </div>
   </div>
 
@@ -172,6 +175,9 @@
       <div class="pe-info">
         <div class="pe-session-label">Current Session</div>
         <div id="pe-session-title" class="pe-session-title">Practice</div>
+      </div>
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <button id="pe-projector-toggle" onclick="cosyPracticeEngine.toggleProjectorMode()" class="btn-outline" style="color:#fff; border-color:rgba(255,255,255,0.3); padding: 5px 12px; font-size: 0.8rem;" title="Toggle Projector / Classroom Presentation Mode (Key: P)">📺 Projector</button>
       </div>
       <div class="pe-counters pe-counters-rel">
         <div class="pe-counter combo-wrap-hidden" id="combo-wrap">

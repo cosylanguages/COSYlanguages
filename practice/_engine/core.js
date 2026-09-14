@@ -220,6 +220,7 @@
     const KEY_STREAK = 'practice_streak';
     const KEY_LAST_DATE = 'last_practice_date';
     const KEY_SRS = 'cosy_srs_data';
+    const KEY_PROJECTOR_MODE = 'cosy_projector_mode';
 
     function loadState() {
         try {
@@ -382,13 +383,29 @@
                 }
                 s.todayCorrect = 0;
             }
+            // Restore Projector / Classroom Mode state if enabled
+            if (localStorage.getItem(KEY_PROJECTOR_MODE) === 'true') {
+                document.body.classList.add('projector-mode');
+                this.updateProjectorModeUI(true);
+            }
+
             this.save();
             this.updateUI();
             this.populateRecentAndMistakes();
 
-            // Global interactive keyboard controls & shortcuts
+            // Global interactive keyboard controls & shortcuts (supports Presenter Remotes & Classroom Keyboards)
             document.addEventListener('keydown', (e) => {
-                if (e.key !== 'Enter' && !['1', '2', '3', '4'].includes(e.key)) return;
+                // Toggle Projector Mode with 'P' key
+                if ((e.key === 'p' || e.key === 'P') && !e.ctrlKey && !e.metaKey && !e.altKey) {
+                    if (document.activeElement && (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'TEXTAREA')) {
+                        return;
+                    }
+                    e.preventDefault();
+                    this.toggleProjectorMode();
+                    return;
+                }
+
+                if (e.key !== 'Enter' && e.key !== 'PageDown' && e.key !== 'PageUp' && !['1', '2', '3', '4', '5', '6', '7', '8', '9'].includes(e.key) && e.key !== 's' && e.key !== 'S' && e.key !== 'c' && e.key !== 'C') return;
 
                 // 1. If Summary Modal is open, Enter closes it
                 const summaryModal = document.getElementById('summary-modal');
@@ -423,7 +440,7 @@
                     const bar = document.getElementById('pe-bottom-bar');
                     const isBarActive = bar && bar.classList.contains('active');
 
-                    if (e.key === 'Enter' && isBarActive) {
+                    if ((e.key === 'Enter' || e.key === 'PageDown') && isBarActive) {
                         e.preventDefault();
                         this.nextQuestion();
                         return;
@@ -456,7 +473,7 @@
                         return;
                     }
 
-                    if (e.key === 'Enter') {
+                    if (e.key === 'Enter' || e.key === 'PageDown') {
                         const nextBtn = document.getElementById('pe-next');
                         const isNextVisible = nextBtn && nextBtn.style.display !== 'none';
                         if (isNextVisible) {
@@ -517,6 +534,41 @@
                     window.cosyPractice.startPractice();
                 }
             });
+        },
+
+        toggleProjectorMode() {
+            const isEnabled = document.body.classList.toggle('projector-mode');
+            localStorage.setItem(KEY_PROJECTOR_MODE, isEnabled ? 'true' : 'false');
+            this.updateProjectorModeUI(isEnabled);
+            const msg = isEnabled ? "📺 Projector / Classroom Mode Enabled (Scaled Up Text & Contrast)" : "📺 Projector Mode Disabled";
+            if (window.COSY && window.COSY.showToast) window.COSY.showToast(msg, false);
+        },
+
+        updateProjectorModeUI(isEnabled) {
+            const setupBtn = document.getElementById('projector-setup-toggle');
+            const peBtn = document.getElementById('pe-projector-toggle');
+            if (setupBtn) {
+                if (isEnabled) {
+                    setupBtn.classList.add('active');
+                    setupBtn.style.background = 'var(--teal)';
+                    setupBtn.style.color = '#fff';
+                } else {
+                    setupBtn.classList.remove('active');
+                    setupBtn.style.background = 'none';
+                    setupBtn.style.color = 'var(--ink-muted)';
+                }
+            }
+            if (peBtn) {
+                if (isEnabled) {
+                    peBtn.style.background = 'var(--teal)';
+                    peBtn.style.color = '#fff';
+                    peBtn.style.borderColor = 'var(--teal)';
+                } else {
+                    peBtn.style.background = 'none';
+                    peBtn.style.color = '#fff';
+                    peBtn.style.borderColor = 'rgba(255,255,255,0.3)';
+                }
+            }
         },
 
         save() {
