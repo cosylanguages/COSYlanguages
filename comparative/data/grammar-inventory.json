@@ -24,11 +24,11 @@
     ],
     "verified": true,
     "links": {
-      "el": "../grammar/el-pronouns.html",
-      "en": "../grammar/topics/pronouns.html",
+      "el": "../elliniki-grammatiki/topics/prosopikes-antonymies.html",
+      "en": "../manuals/en/grammar/a1/topics/pronouns.html",
       "fr": "../grammaire-francaise/topics/les-pronoms.html",
-      "it": "../grammar/it-pronomi.html",
-      "ru": "../grammar/ru-pronouns.html"
+      "it": "../grammatica-italiana/topics/pronomi-personali.html",
+      "ru": "../manuals/ru/grammar/a1/topics/part-1-building-blocks.html"
     }
   },
   {
@@ -51,10 +51,10 @@
     ],
     "verified": true,
     "links": {
-      "el": "../grammar/el-articles.html",
-      "en": "../grammar/topics/articles.html",
+      "el": "../elliniki-grammatiki/topics/arthra-oristiko-kai-aoristo.html",
+      "en": "../manuals/en/grammar/a1/topics/articles.html",
       "fr": "../grammaire-francaise/topics/articles-partitifs.html",
-      "it": "../grammar/it-articoli.html"
+      "it": "../grammatica-italiana/topics/articoli-determinativi.html"
     }
   },
   {
@@ -96,7 +96,7 @@
     "verified": true,
     "links": {
       "fr": "../grammaire-francaise/topics/genre-des-noms-2.html",
-      "ru": "../grammar/ru-nouns-gender.html"
+      "ru": "../manuals/ru/grammar/a1/topics/noun-gender.html"
     }
   },
   {
@@ -124,9 +124,9 @@
     ],
     "verified": true,
     "links": {
-      "en": "../grammar/topics/plurals-irregular.html",
+      "en": "../manuals/en/grammar/a1/topics/plurals-irregular.html",
       "fr": "../grammaire-francaise/topics/pluriel-des-noms.html",
-      "it": "../grammar/it-plurali.html"
+      "it": "../grammatica-italiana/topics/singolare-plurale.html"
     }
   },
   {
@@ -150,11 +150,11 @@
     ],
     "verified": true,
     "links": {
-      "el": "../grammar/el-be.html",
-      "en": "../grammar/topics/to-be.html",
+      "el": "../elliniki-grammatiki/topics/to-rima-eimai.html",
+      "en": "../manuals/en/grammar/a1/topics/to-be.html",
       "fr": "../grammaire-francaise/topics/etre.html",
-      "it": "../grammar/it-essere-1.html",
-      "ru": "../grammar/ru-be.html"
+      "it": "../grammatica-italiana/topics/essere-avere.html",
+      "ru": "../manuals/ru/grammar/a1/topics/to-be.html"
     }
   },
   {
@@ -177,9 +177,9 @@
     ],
     "verified": true,
     "links": {
-      "en": "../grammar/topics/have-got.html",
+      "en": "../manuals/en/grammar/a1/topics/have-got.html",
       "fr": "../grammaire-francaise/topics/avoir.html",
-      "it": "../grammar/it-avere.html"
+      "it": "../grammatica-italiana/topics/essere-avere.html"
     }
   },
   {
@@ -257,7 +257,7 @@
     ],
     "verified": true,
     "links": {
-      "en": "../grammar/topics/word-order.html"
+      "en": "../manuals/en/grammar/a1/topics/word-order.html"
     }
   },
   {
@@ -303,7 +303,7 @@
     ],
     "verified": true,
     "links": {
-      "en": "../grammar/en-possessives.html",
+      "en": "../manuals/en/grammar/a1/topics/possessive-s.html",
       "fr": "../grammaire-francaise/topics/adjectifs-possessifs.html"
     }
   },
@@ -332,7 +332,7 @@
     ],
     "verified": true,
     "links": {
-      "en": "../grammar/topics/demonstratives.html",
+      "en": "../manuals/en/grammar/a1/topics/demonstratives.html",
       "fr": "../grammaire-francaise/topics/ce-cet-cette-ces.html"
     }
   },
@@ -375,7 +375,7 @@
     ],
     "verified": true,
     "links": {
-      "en": "../grammar/topics/adjectives.html",
+      "en": "../manuals/en/grammar/a1/topics/adjectives.html",
       "fr": "../grammaire-francaise/topics/accord-des-adjectifs.html"
     }
   },
@@ -1152,7 +1152,7 @@
     ],
     "verified": true,
     "links": {
-      "en": "../grammar/topics/present-continuous.html"
+      "en": "../manuals/en/grammar/a1/topics/present-continuous.html"
     }
   },
   {
@@ -1171,7 +1171,7 @@
     ],
     "verified": true,
     "links": {
-      "en": "../grammar/topics/going-to.html",
+      "en": "../manuals/en/grammar/a1/topics/going-to.html",
       "fr": "../grammaire-francaise/topics/futur-proche.html"
     }
   },
@@ -1228,7 +1228,7 @@
     ],
     "verified": true,
     "links": {
-      "en": "../grammar/topics/comparative-adjectives.html",
+      "en": "../manuals/en/grammar/a1/topics/comparative-adjectives.html",
       "fr": "../grammaire-francaise/topics/comparatif.html"
     }
   },
@@ -1257,7 +1257,7 @@
     ],
     "verified": true,
     "links": {
-      "en": "../grammar/topics/superlative-adjectives.html",
+      "en": "../manuals/en/grammar/a1/topics/superlative-adjectives.html",
       "fr": "../grammaire-francaise/topics/superlatif.html"
     }
   },
