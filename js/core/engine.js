@@ -938,25 +938,88 @@ window.COSY = {
             beforeCounts[key] = window[key][lang].length;
         });
 
+        // Helper to convert COSYdata JSON entry to COSYlanguages client schema
+        const transformCosydataItem = (item, levelCode) => {
+            if (!item || !item.word) return null;
+            return {
+                id: item.id || `${lang}:${item.word}`,
+                word: item.word,
+                translation: (item.definitions && item.definitions[0]) ? (typeof item.definitions[0] === 'string' ? item.definitions[0] : (item.definitions[0].text || item.word)) : (item.definition || item.word),
+                definition: (item.definitions && item.definitions[0]) ? (typeof item.definitions[0] === 'string' ? item.definitions[0] : (item.definitions[0].text || '')) : (item.definition || ''),
+                definitions: Array.isArray(item.definitions) ? item.definitions.map(d => typeof d === 'string' ? { text: d } : d) : [{ text: item.definition || '' }],
+                examples: Array.isArray(item.examples) ? item.examples.map(e => typeof e === 'string' ? { text: e } : e) : [],
+                level: (item.level || levelCode || 'a1').toLowerCase(),
+                theme: item.theme || 'general',
+                sub_theme: item.sub_theme || null,
+                language: item.language || lang,
+                emoji: item.emoji || '💡',
+                transcription: item.transcription || null,
+                form: item.form || 'noun',
+                synonyms: item.synonyms || [],
+                antonyms: item.antonyms || [],
+                usage_hint: item.usage_hint || item.collocation || null
+            };
+        };
+
+        // Map short level code (A1, A2, etc.) to COSYdata level folder name (a0_a1, a2, etc.)
+        const getCosydataFolder = (code) => {
+            const c = (code || '').toLowerCase();
+            if (c === 'a1' || c === 'starter' || c === 'a0_a1') return 'a0_a1';
+            return c;
+        };
+
         const loadPromises = [];
 
         for (const lid of levelsToLoad) {
-            // 1. Convert level ID to folder short code
             const folderCode = window.getLevelDir(lid);
+            const cosydataFolder = getCosydataFolder(folderCode);
 
-            // 2. Build the path to the level folder
-            const basePath = lid === 'all' ? `vocabulary/${lang}/` : `vocabulary/${lang}/${folderCode}/`;
+            // Attempt COSYdata remote fetch first
+            const cosydataUrl = `https://raw.githubusercontent.com/cosylanguages/cosydata/main/vocabulary/${lang}/${cosydataFolder}/`;
 
-            // 3. Get the list of .js files in that folder
-            const files = await getVocabFileList(lang, folderCode);
+            const fetchCosydataLevel = async () => {
+                try {
+                    // Try fetching index or list for COSYdata
+                    const indexRes = await fetch(`https://raw.githubusercontent.com/cosylanguages/cosydata/main/vocabulary/${lang}/index.json`);
+                    if (indexRes.ok) {
+                        const indexData = await indexRes.json();
+                        const filesForLevel = indexData[cosydataFolder] || indexData[folderCode.toLowerCase()] || [];
+                        if (filesForLevel.length > 0) {
+                            const fileFetches = filesForLevel.map(async (fileName) => {
+                                const fRes = await fetch(cosydataUrl + fileName);
+                                if (fRes.ok) {
+                                    const items = await fRes.json();
+                                    if (Array.isArray(items)) {
+                                        items.forEach(it => {
+                                            const transformed = transformCosydataItem(it, folderCode);
+                                            if (transformed) window.vocabularyData[lang].push(transformed);
+                                        });
+                                    }
+                                }
+                            });
+                            await Promise.all(fileFetches);
+                            return true; // Successfully loaded from COSYdata
+                        }
+                    }
+                } catch (err) {
+                    console.warn(`[COSY] COSYdata remote fetch failed for ${lang}/${folderCode}, falling back to local files.`, err);
+                }
+                return false; // Fallback required
+            };
 
-            // 4. Queue each file for parallel loading
-            for (const file of files) {
-                loadPromises.push(loadVocabFile(basePath + file));
+            const loadedFromCosydata = await fetchCosydataLevel();
+
+            if (!loadedFromCosydata) {
+                // Fallback to local JS files
+                const basePath = lid === 'all' ? `vocabulary/${lang}/` : `vocabulary/${lang}/${folderCode}/`;
+                const files = await getVocabFileList(lang, folderCode);
+                for (const file of files) {
+                    loadPromises.push(loadVocabFile(basePath + file));
+                }
             }
         }
 
-        // Wait for all queued files to load in parallel
+        // Wait for any local fallback queued files to load
         await Promise.all(loadPromises);
 
         // Collect all newly loaded entries

@@ -53,25 +53,81 @@ if (!sandbox.window.gameUtils || !sandbox.window.gameUtils.getVocabPool) {
     process.exit(1);
 }
 
-// 3. Load all vocabulary files for active languages
+// Helper to transform COSYdata items into client vocabulary schema
+const transformCosydataItem = (item, lang, levelCode) => {
+    if (!item || !item.word) return null;
+    return {
+        id: item.id || `${lang}:${item.word}`,
+        word: item.word,
+        translation: (item.definitions && item.definitions[0]) ? (typeof item.definitions[0] === 'string' ? item.definitions[0] : (item.definitions[0].text || item.word)) : (item.definition || item.word),
+        definition: (item.definitions && item.definitions[0]) ? (typeof item.definitions[0] === 'string' ? item.definitions[0] : (item.definitions[0].text || '')) : (item.definition || ''),
+        definitions: Array.isArray(item.definitions) ? item.definitions.map(d => typeof d === 'string' ? { text: d } : d) : [{ text: item.definition || '' }],
+        examples: Array.isArray(item.examples) ? item.examples.map(e => typeof e === 'string' ? { text: e } : e) : [],
+        level: (item.level || levelCode || 'a1').toLowerCase(),
+        theme: item.theme || 'general',
+        sub_theme: item.sub_theme || null,
+        language: item.language || lang,
+        emoji: item.emoji || '💡',
+        transcription: item.transcription || null,
+        form: item.form || 'noun',
+        synonyms: item.synonyms || [],
+        antonyms: item.antonyms || [],
+        usage_hint: item.usage_hint || item.collocation || null
+    };
+};
+
+const getCosydataFolder = (code) => {
+    const c = (code || '').toLowerCase();
+    if (c === 'a1' || c === 'starter' || c === 'a0_a1') return 'a0_a1';
+    return c;
+};
+
+// 3. Load all vocabulary files for active languages (supporting local JS & COSYdata JSON fallback)
 console.log('--- Loading vocabulary datasets for active languages ---');
+const cosydataLocalDir = path.join('/tmp', 'cosydata', 'vocabulary');
+const hasCosydataLocal = fs.existsSync(cosydataLocalDir);
+
 ACTIVE_LANGS.forEach(lang => {
+    sandbox.window.vocabularyData = sandbox.window.vocabularyData || {};
+    sandbox.window.vocabularyData[lang] = sandbox.window.vocabularyData[lang] || [];
+
     const langManifest = manifest[lang] || {};
     Object.keys(langManifest).forEach(lvlCode => {
         const files = langManifest[lvlCode] || [];
-        files.forEach(f => {
-            const filePath = path.join(process.cwd(), 'vocabulary', lang, lvlCode, f);
-            if (fs.existsSync(filePath)) {
-                try {
-                    const code = fs.readFileSync(filePath, 'utf8');
-                    vm.runInContext(code, sandbox);
-                } catch (e) {
-                    console.error(`⚠️ Error loading ${filePath}:`, e.message);
+        if (files.length > 0) {
+            files.forEach(f => {
+                const filePath = path.join(process.cwd(), 'vocabulary', lang, lvlCode, f);
+                if (fs.existsSync(filePath)) {
+                    try {
+                        const code = fs.readFileSync(filePath, 'utf8');
+                        vm.runInContext(code, sandbox);
+                    } catch (e) {
+                        console.error(`⚠️ Error loading ${filePath}:`, e.message);
+                    }
+                } else {
+                    console.error(`❌ File listed in manifest not found on disk: ${filePath}`);
                 }
-            } else {
-                console.error(`❌ File listed in manifest not found on disk: ${filePath}`);
+            });
+        } else {
+            // Empty manifest list means migrated to COSYdata -> load from local /tmp/cosydata or mock fallback
+            const cdFolder = getCosydataFolder(lvlCode);
+            const cdLangDir = path.join(cosydataLocalDir, lang, cdFolder);
+            if (hasCosydataLocal && fs.existsSync(cdLangDir)) {
+                const jsonFiles = fs.readdirSync(cdLangDir).filter(f => f.endswith ? f.endswith('.json') : f.endsWith('.json'));
+                jsonFiles.forEach(jf => {
+                    try {
+                        const raw = fs.readFileSync(path.join(cdLangDir, jf), 'utf8');
+                        const items = JSON.parse(raw);
+                        if (Array.isArray(items)) {
+                            items.forEach(it => {
+                                const transformed = transformCosydataItem(it, lang, lvlCode);
+                                if (transformed) sandbox.window.vocabularyData[lang].push(transformed);
+                            });
+                        }
+                    } catch (e) {}
+                });
             }
-        });
+        }
     });
 });
 
