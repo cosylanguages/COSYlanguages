@@ -277,61 +277,85 @@
     function buildMCQuestion(item, pool) {
         let matchType = 'definition';
 
+        const defObj = item.definitions?.[0];
+        let defText = typeof defObj === 'string' ? defObj : (defObj?.text || item.definition || item.subtext || '');
+        if (defText.toLowerCase() === (item.word || '').toLowerCase()) defText = '';
+
+        const hasDef = !!defText;
         const hasSynonyms = Array.isArray(item.synonyms) && item.synonyms.length > 0;
         const hasAntonyms = (Array.isArray(item.antonyms) && item.antonyms.length > 0) || !!item.opposite;
 
-        const choices = ['definition'];
+        const choices = [];
+        if (hasDef) choices.push('definition');
+        if (hasDef) choices.push('word_for_def');
         if (hasSynonyms) choices.push('synonym');
         if (hasAntonyms) choices.push('antonym');
 
-        matchType = choices[Math.floor(Math.random() * choices.length)];
+        matchType = choices.length > 0 ? choices[Math.floor(Math.random() * choices.length)] : (hasDef ? 'definition' : 'word_for_def');
 
         let targetText = '';
         let qText = '';
+        let isWordChoice = false;
 
         const itemWord = item.word || item.topic || item.phrase || '...';
 
         if (matchType === 'synonym') {
             targetText = item.synonyms[0];
             qText = `"${itemWord}" ≈ ?`;
+            isWordChoice = true;
         } else if (matchType === 'antonym') {
             targetText = item.antonyms?.[0] || item.opposite;
             qText = `"${itemWord}" ≠ ?`;
+            isWordChoice = true;
+        } else if (matchType === 'word_for_def') {
+            targetText = itemWord;
+            qText = `"${defText || item.emoji || 'Concept'}" = ?`;
+            isWordChoice = true;
         } else {
-            targetText = item.definitions?.[0]?.text || item.definition || item.subtext || itemWord || '...';
+            targetText = defText || itemWord;
             qText = `"${itemWord}" = ?`;
+            isWordChoice = false;
         }
 
-        // Pull distractors
         let distractors = [];
-        if (matchType === 'definition') {
-            distractors = pool
-                .filter(p => (p.id ? p.id !== item.id : p !== item))
-                .map(p => p.definitions?.[0]?.text || p.definition || p.subtext)
-                .filter(Boolean)
-                .sort(() => Math.random() - 0.5);
-        } else {
+        if (isWordChoice) {
             distractors = pool
                 .filter(p => (p.id ? p.id !== item.id : p !== item))
                 .map(p => p.word || p.topic || p.phrase)
                 .filter(Boolean)
                 .sort(() => Math.random() - 0.5);
+        } else {
+            distractors = pool
+                .filter(p => (p.id ? p.id !== item.id : p !== item))
+                .map(p => {
+                    const dObj = p.definitions?.[0];
+                    return typeof dObj === 'string' ? dObj : (dObj?.text || p.definition || p.subtext);
+                })
+                .filter(Boolean)
+                .sort(() => Math.random() - 0.5);
         }
 
-        distractors = [...new Set(distractors)].filter(d => d && d.toLowerCase() !== targetText.toLowerCase());
+        distractors = [...new Set(distractors)].filter(d => d && d.toLowerCase() !== targetText.toLowerCase() && d.toLowerCase() !== itemWord.toLowerCase());
         distractors = distractors.slice(0, 2);
 
+        const sampleFallbacks = ['community', 'safety', 'person', 'place', 'action', 'object', 'service'];
+        let fallbackIdx = 0;
         while (distractors.length < 2) {
             const fallback = pool
                 .filter(p => (p.id ? p.id !== item.id : p !== item))
                 .sort(() => Math.random() - 0.5)[0];
-            const fallbackVal = matchType === 'definition'
-                ? (fallback?.definitions?.[0]?.text || fallback?.definition || fallback?.subtext || 'none')
-                : (fallback?.word || fallback?.topic || fallback?.phrase || 'none');
-            if (fallbackVal && fallbackVal.toLowerCase() !== targetText.toLowerCase()) {
+            let fallbackVal = '';
+            if (isWordChoice) {
+                fallbackVal = fallback?.word || fallback?.topic || fallback?.phrase;
+            } else {
+                const fObj = fallback?.definitions?.[0];
+                fallbackVal = typeof fObj === 'string' ? fObj : (fObj?.text || fallback?.definition || fallback?.subtext);
+            }
+            if (fallbackVal && fallbackVal.toLowerCase() !== targetText.toLowerCase() && !distractors.includes(fallbackVal)) {
                 distractors.push(fallbackVal);
             } else {
-                distractors.push('---');
+                distractors.push(sampleFallbacks[fallbackIdx % sampleFallbacks.length]);
+                fallbackIdx++;
             }
         }
 
@@ -347,6 +371,7 @@
             item,
             ans,
             opts: allOpts,
+            isWordChoice,
             level: mappedLevel,
             theme: item.theme,
             sub_theme: item.sub_theme || null,

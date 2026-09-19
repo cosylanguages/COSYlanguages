@@ -89,7 +89,7 @@
 
             // Visual helper (Emoji/Word)
             if (q.item && form !== 'sc' && form !== 'mp') {
-                const isHiddenWord = (form === 'ls' || form === 'type' || form === 'op' || form === 'np');
+                const isHiddenWord = (form === 'ls' || form === 'type' || form === 'op' || form === 'np' || q.isWordChoice || (q.opts && q.opts.includes(q.item.word)));
                 html += `<div class="pe-question-card">
                             <div class="pe-card-emoji">${isHiddenWord && form === 'ls' ? '🔊' : (q.item.emoji || '💡')}</div>
                             <div class="pe-card-word">${isHiddenWord ? '???' : (q.item.word || q.item.text || '')}</div>`;
