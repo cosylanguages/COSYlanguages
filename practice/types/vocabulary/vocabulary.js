@@ -57,6 +57,8 @@
                 // Nouns, Articles & Plurals
                 { type:'mc', q:'I bought ___ apple and a banana.', opts:['an','a','the','some'], ans:0, level:'starter', theme:'articles_gender', ruleHint:'Use "an" before words starting with a vowel sound.' },
                 { type:'mc', q:'We need ___ bread and cheese.', opts:['some','a','an','many'], ans:0, level:'starter', theme:'articles_gender', ruleHint:'Use "some" with uncountable nouns.' },
+                { type:'mc', q:'How ___ milk do we have in the fridge?', opts:['much','many','few','a few'], ans:0, level:'starter', theme:'articles_gender', ruleHint:'Use "how much" with uncountable nouns like milk.', practice_links:['manuals/en/grammar/a1/topics/countables-uncountables.html'] },
+                { type:'mc', q:'How ___ apples did you buy at the market?', opts:['many','much','little','a little'], ans:0, level:'starter', theme:'articles_gender', ruleHint:'Use "how many" with countable plural nouns like apples.', practice_links:['manuals/en/grammar/a1/topics/countables-uncountables.html'] },
                 { type:'mc', q:'One child, two ___ .', opts:['children','childs','childes','childrens'], ans:0, level:'starter', theme:'cases_declensions', ruleHint:'Irregular plural: child ➔ children.' },
 
                 // Sentence Syntax & Connectors
