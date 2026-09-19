@@ -89,15 +89,16 @@
 
             // Visual helper (Emoji/Word)
             if (q.item && form !== 'sc' && form !== 'mp') {
+                const isHiddenWord = (form === 'ls' || form === 'type' || form === 'op' || form === 'np');
                 html += `<div class="pe-question-card">
-                            <div class="pe-card-emoji">${q.item.emoji || '💡'}</div>
-                            <div class="pe-card-word">${(form === 'ls' || form === 'type' || form === 'op' || form === 'np') ? '???' : (q.item.word || q.item.text || '')}</div>`;
+                            <div class="pe-card-emoji">${isHiddenWord && form === 'ls' ? '🔊' : (q.item.emoji || '💡')}</div>
+                            <div class="pe-card-word">${isHiddenWord ? '???' : (q.item.word || q.item.text || '')}</div>`;
 
-                if (q.item.transcription) {
+                if (q.item.transcription && !isHiddenWord) {
                     html += `<div class="pe-card-transcription">${q.item.transcription}</div>`;
                 }
 
-                const wordToSpeak = (q.item.word || q.item.text || q.ans || '').replace(/'/g, "\\'");
+                const wordToSpeak = (q.item.word || q.item.text || (typeof q.ans === 'string' ? q.ans : '') || '').replace(/'/g, "\\'");
                 html += `<button class="btn-outline pe-card-speak-btn" onclick="window.cosyPracticeEngine.speakText('${wordToSpeak}', '${lang}')">🔊 Listen <span class="keycap-badge">S</span></button>`;
 
                 const links = q.practice_links || q.item?.practice_links;
