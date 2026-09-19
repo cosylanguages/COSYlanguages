@@ -364,30 +364,32 @@
             return;
         }
 
-        const oldScript = document.getElementById(scriptId);
-        if (oldScript) oldScript.remove();
-
-        const script = document.createElement('script');
-        script.id = scriptId;
-        script.src = `vocabulary/${lang}/${level}/${topic}.js`;
-        script.onload = () => {
-            const list = window.vocabularyData[lang] || [];
-            if (list.length > 0) {
-                currentCards = list.slice(0, 12);
+        try {
+            const response = await fetch(`https://cosylanguages.github.io/COSYdata/vocabulary/${lang}/${topic}.json`);
+            if (response.ok) {
+                const data = await response.json();
+                const list = Array.isArray(data) ? data : (typeof data === 'object' && data !== null ? Object.values(data) : []);
+                const filtered = list.filter(item => !item.level || (item.level_code || item.level).toUpperCase() === level.toUpperCase() || level === 'A1');
+                const finalList = filtered.length > 0 ? filtered : list;
+                if (finalList.length > 0) {
+                    currentCards = finalList.slice(0, 12);
+                } else {
+                    currentCards = [
+                        { word: "Category empty", emoji: "⚠️", definitions: ["No vocabulary entries found for this category in COSYdata."] }
+                    ];
+                }
             } else {
                 currentCards = [
-                    { word: "Category not found", emoji: "⚠️", definitions: [{ text: "This language/level doesn't have this category yet." }] }
+                    { word: "Data not available", emoji: "⚠️", definitions: [`Category '${topic}' is not yet available in COSYdata for ${lang.toUpperCase()}.`] }
                 ];
             }
-            renderCards();
-        };
-        script.onerror = () => {
+        } catch (err) {
+            console.warn('[COSYdata] Error loading category data from COSYdata:', err);
             currentCards = [
-                { word: "Data not available", emoji: "⚠️", definitions: [{ text: "This category/level is not available in this language." }] }
+                { word: "Data not available", emoji: "⚠️", definitions: ["Unable to load data from COSYdata endpoint."] }
             ];
-            renderCards();
-        };
-        document.head.appendChild(script);
+        }
+        renderCards();
     }
 
     function renderCards() {

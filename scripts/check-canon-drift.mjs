@@ -15,7 +15,7 @@
 import fs from 'fs';
 import path from 'path';
 
-const DEFAULT_VOCAB_CANON_PATH = 'vocabulary/_canonical/en/A0-A1_master.json';
+const DEFAULT_VOCAB_CANON_PATH = 'https://cosylanguages.github.io/COSYdata/vocabulary/en/index.json';
 const DEFAULT_CURRICULUM_DIR = 'curriculum/en/general';
 
 function printHelp() {
@@ -55,9 +55,26 @@ function parseArgs() {
   return { mirrorPath, canonPath };
 }
 
-function loadJsonFile(filePath) {
+async function loadJsonFile(filePath) {
+  if (filePath.startsWith('http://') || filePath.startsWith('https://')) {
+    try {
+      const res = await fetch(filePath);
+      if (!res.ok) {
+        console.error(`Error fetching URL: ${filePath} (${res.status})`);
+        process.exit(1);
+      }
+      return await res.json();
+    } catch (err) {
+      console.error(`Error fetching URL ${filePath}: ${err.message}`);
+      process.exit(1);
+    }
+  }
+
   const absolutePath = path.resolve(filePath);
   if (!fs.existsSync(absolutePath)) {
+    if (filePath === 'vocabulary/_canonical/en/A0-A1_master.json') {
+      return loadJsonFile(DEFAULT_VOCAB_CANON_PATH);
+    }
     console.error(`Error: File not found at path: ${filePath}`);
     process.exit(1);
   }
@@ -248,9 +265,9 @@ function diffCurriculum(mirrorData, canonData, mirrorPath, canonPath) {
   console.log(`\nSummary: ${addedElsewhere.length} added elsewhere, ${missingElsewhere.length} missing elsewhere, ${fieldMismatches.length} field mismatches.`);
 }
 
-function main() {
+async function main() {
   const { mirrorPath, canonPath: inputCanonPath } = parseArgs();
-  const mirrorData = loadJsonFile(mirrorPath);
+  const mirrorData = await loadJsonFile(mirrorPath);
 
   const mirrorType = detectType(mirrorData);
 
@@ -266,7 +283,7 @@ function main() {
     }
   }
 
-  const canonData = loadJsonFile(targetCanonPath);
+  const canonData = await loadJsonFile(targetCanonPath);
   const canonType = detectType(canonData);
 
   if (mirrorType === 'vocab' || canonType === 'vocab') {

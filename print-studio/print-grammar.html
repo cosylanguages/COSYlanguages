@@ -252,33 +252,15 @@ function getTenseLabel(tense, lang) {
 }
 
 async function loadGrammarData(lang, level) {
-  const dir = levelToDir[level];
-  if (!dir) return;
-
-  await new Promise((resolve) => {
-    const s = document.createElement("script");
-    s.src = `vocabulary/${lang}/${dir}/verbs.js`;
-    s.onload = () => resolve();
-    s.onerror = () => resolve();
-    document.head.appendChild(s);
-  });
+  if (window.COSY && typeof window.COSY.loadLanguageData === 'function') {
+    await window.COSY.loadLanguageData(lang, level);
+  }
 }
 
 async function loadNounData(lang, level) {
-  const dir = levelToDir[level];
-  if (!dir) return;
-
-  const files = ["vocabulary.js", "adjectives.js"];
-  const promises = files.map(f => {
-    return new Promise((resolve) => {
-      const s = document.createElement("script");
-      s.src = `vocabulary/${lang}/${dir}/${f}`;
-      s.onload = () => resolve();
-      s.onerror = () => resolve();
-      document.head.appendChild(s);
-    });
-  });
-  await Promise.all(promises);
+  if (window.COSY && typeof window.COSY.loadLanguageData === 'function') {
+    await window.COSY.loadLanguageData(lang, level);
+  }
 }
 
 function onSelectorChange() {
