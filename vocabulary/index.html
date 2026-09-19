@@ -136,11 +136,23 @@
 <script>
 const VOCAB_MAP = {
   "starter": "A1",
+  "A1": "A1",
+  "a1": "A1",
   "elementary": "A2",
+  "A2": "A2",
+  "a2": "A2",
   "intermediate": "B1",
+  "B1": "B1",
+  "b1": "B1",
   "upper-intermediate": "B2",
+  "B2": "B2",
+  "b2": "B2",
   "advanced": "C1",
-  "proficiency": "C2"
+  "C1": "C1",
+  "c1": "C1",
+  "proficiency": "C2",
+  "C2": "C2",
+  "c2": "C2"
 };
 
 const VOCAB_CONFIG = {
@@ -156,21 +168,9 @@ let VOCAB = {};
 let currentLang = 'en';
 
 async function loadLanguageData(lang) {
-  const levels = ["starter", "elementary", "intermediate", "upper-intermediate", "advanced", "proficiency"];
-  const files = ["vocabulary", "animals", "food", "body", "home", "clothing", "transport", "weather", "numbers", "colours", "family", "jobs", "places", "leisure", "social", "time", "education", "tech", "nature", "shopping", "verbs", "adjectives", "people", "locations", "nationalities", "dishes"];
-  const ps = [];
-  levels.forEach(lv => {
-    files.forEach(f => {
-      const lvShort = window.levelIdToShort(lv);
-      const path = `../vocabulary/${currentLang}/${lvShort}/${f}.js`;
-      ps.push(new Promise(res => {
-        const s = document.createElement("script");
-        s.src = path; s.onload = res; s.onerror = res;
-        document.head.appendChild(s);
-      }));
-    });
-  });
-  await Promise.all(ps);
+  if (window.COSY && typeof window.COSY.loadLanguageData === 'function') {
+    await window.COSY.loadLanguageData(lang, 'all');
+  }
 }
 async function initDynamicVocab() {
   const urlParams = new URLSearchParams(window.location.search);
@@ -201,20 +201,21 @@ async function initDynamicVocab() {
   const seen = new Set();
 
   sources.forEach(item => {
-    if (!item || !item.word || !item.level) return;
-    const key = `${item.word.toLowerCase()}|${item.level}`;
+    if (!item || !item.word) return;
+    const itemLvl = item.level_code || item.level || 'A1';
+    const key = `${item.word.toLowerCase()}|${itemLvl}`;
     if (seen.has(key)) return;
     seen.add(key);
     uniqueItems.push(item);
   });
 
   uniqueItems.forEach(item => {
-    const lvKey = VOCAB_MAP[item.level];
+    const itemLvl = item.level_code || item.level || 'A1';
+    const lvKey = VOCAB_MAP[itemLvl] || 'A1';
     if (lvKey && VOCAB[lvKey]) {
-      // Find theme label
       let themeLabel = item.theme;
       if (window.themeConfig) {
-        const levelConfig = window.themeConfig[item.level];
+        const levelConfig = window.themeConfig[itemLvl];
         if (levelConfig?.common_themes) {
           for (const topTheme in levelConfig.common_themes) {
             const subThemes = levelConfig.common_themes[topTheme];
@@ -226,11 +227,15 @@ async function initDynamicVocab() {
         }
       }
 
+      const rawDef = item.definitions?.[0] || item.definition || "";
+      const defText = typeof rawDef === 'string' ? rawDef : (rawDef.text || "");
+      const rawEx = item.examples?.[0] || (typeof rawDef === 'object' && rawDef.examples?.[0]) || item.example || "";
+
       VOCAB[lvKey].words.push({
         w: item.word,
-        pos: item.form || "",
-        def: item.definitions?.[0]?.text || "",
-        ex: item.definitions?.[0]?.examples?.[0] || "",
+        pos: item.form || item.pos || "",
+        def: defText,
+        ex: rawEx,
         pron: item.transcription ? `[${item.transcription}]` : "",
         err: item.subtext || "",
         topic: themeLabel || item.theme || "",

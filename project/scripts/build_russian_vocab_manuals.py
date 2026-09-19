@@ -14,6 +14,7 @@ import json
 import subprocess
 import glob
 import html
+import urllib.request
 
 def escape_html(text):
     if not text:
@@ -64,6 +65,44 @@ TOPIC_TITLES = {
 }
 
 def load_all_vocab_data():
+    COSYDATA_BASE = "https://cosylanguages.github.io/COSYdata/vocabulary/ru/"
+    try:
+        req = urllib.request.Request(COSYDATA_BASE + "index.json", headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req) as resp:
+            index_data = json.loads(resp.read().decode('utf-8'))
+
+        theme_files = sorted(list(set(index_data.values())))
+        result = {"a1": {}, "a2": {}, "b1": {}, "b2": {}, "c1": {}, "c2": {}}
+
+        for tf in theme_files:
+            url = COSYDATA_BASE + tf
+            try:
+                r = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+                with urllib.request.urlopen(r) as resp:
+                    data = json.loads(resp.read().decode('utf-8'))
+                    items = data if isinstance(data, list) else ([data] if isinstance(data, dict) and 'id' in data else list(data.values()))
+                    for item in items:
+                        lvl = (item.get('level_code') or item.get('level') or 'a1').lower()
+                        if lvl in ('starter', 'a1'): lvl = 'a1'
+                        elif lvl in ('elementary', 'a2'): lvl = 'a2'
+                        elif lvl in ('intermediate', 'b1'): lvl = 'b1'
+                        elif lvl in ('upper-intermediate', 'b2'): lvl = 'b2'
+                        elif lvl in ('advanced', 'c1'): lvl = 'c1'
+                        elif lvl in ('proficiency', 'c2'): lvl = 'c2'
+                        if lvl not in result: result[lvl] = {}
+
+                        theme = item.get('theme') or tf.split('/')[-1].replace('.json', '')
+                        fname = f"{theme}.js" if not theme.endswith('.js') else theme
+                        if fname not in result[lvl]:
+                            result[lvl][fname] = []
+                        result[lvl][fname].append(item)
+            except Exception:
+                pass
+        if any(result.values()):
+            return result
+    except Exception as e:
+        print(f"Warning: COSYdata fetch failed: {e}, falling back to local files.")
+
     node_cmd = """
     const fs = require("fs");
     const path = require("path");

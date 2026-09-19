@@ -923,65 +923,96 @@ window.COSY = {
     },
 
     async loadLanguageData(lang, levelId) {
+        const COSYDATA_BASE = 'https://cosylanguages.github.io/COSYdata/';
         const levelsToLoad = (levelId === 'all')
-            ? window.COSY_LEVELS.map(l => l.id)
+            ? (window.COSY_LEVELS ? window.COSY_LEVELS.map(l => l.id) : ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'])
             : [levelId];
 
-        const allEntries = [];
-        const keys = ['vocabularyData', 'verbsData', 'adjectivesData', 'locationsData', 'peopleData', 'nationalitiesData', 'grammarData', 'grammarElements'];
-        const beforeCounts = {};
-
-        // Track state before parallel loading
+        const keys = ['vocabularyData', 'verbsData', 'adjectivesData', 'locationsData', 'peopleData', 'nationalitiesData', 'grammarData', 'grammarElements', 'dishesData'];
         keys.forEach(key => {
             window[key] = window[key] || {};
             window[key][lang] = window[key][lang] || [];
-            beforeCounts[key] = window[key][lang].length;
         });
 
+        // Attempt remote COSYdata fetch first for centralized vocabulary
+        try {
+            const indexRes = await fetch(`${COSYDATA_BASE}vocabulary/${lang}/index.json`);
+            if (indexRes.ok) {
+                const indexData = await indexRes.json();
+                const themeFiles = [...new Set(Object.values(indexData))];
+                const themeFetches = themeFiles.map(tf =>
+                    fetch(`${COSYDATA_BASE}vocabulary/${lang}/${tf}`)
+                        .then(r => r.ok ? r.json() : null)
+                        .catch(() => null)
+                );
+                const themeResults = await Promise.all(themeFetches);
+                const loadedEntries = [];
+                const seenIds = new Set(window.vocabularyData[lang].map(e => e.id || e.word));
+
+                for (const tData of themeResults) {
+                    if (!tData) continue;
+                    const items = Array.isArray(tData) ? tData : (tData.id ? [tData] : Object.values(tData));
+                    for (const item of items) {
+                        if (!item || !item.word) continue;
+                        const keyId = item.id || `${item.word.toLowerCase()}|${item.level || ''}`;
+                        if (seenIds.has(keyId)) continue;
+                        seenIds.add(keyId);
+
+                        // Normalize level and level_code
+                        if (!item.level && item.level_code) item.level = item.level_code;
+                        if (!item.level_code && item.level) item.level_code = item.level;
+
+                        // Check level filter if applicable
+                        if (levelId && levelId !== 'all') {
+                            const itemLvl = (item.level_code || item.level || '').toLowerCase();
+                            const folderCode = window.getLevelDir ? window.getLevelDir(levelId).toLowerCase() : levelId.toLowerCase();
+                            const shortCode = window.levelIdToShort ? window.levelIdToShort(levelId).toLowerCase() : levelId.toLowerCase();
+                            if (itemLvl !== levelId.toLowerCase() && itemLvl !== folderCode && itemLvl !== shortCode) {
+                                const aliases = { 'starter': 'a1', 'elementary': 'a2', 'intermediate': 'b1', 'upper-intermediate': 'b2', 'advanced': 'c1', 'proficiency': 'c2' };
+                                if (aliases[itemLvl] !== shortCode && itemLvl !== shortCode) continue;
+                            }
+                        }
+
+                        window.vocabularyData[lang].push(item);
+                        loadedEntries.push(item);
+
+                        if (item.form === 'verb' || item.pos === 'verb') window.verbsData[lang].push(item);
+                        if (item.form === 'adjective' || item.pos === 'adjective') window.adjectivesData[lang].push(item);
+                        if (item.theme === 'locations' || item.pos_section === 'locations') window.locationsData[lang].push(item);
+                        if (item.theme === 'people' || item.pos_section === 'people') window.peopleData[lang].push(item);
+                        if (item.theme === 'nationalities') window.nationalitiesData[lang].push(item);
+                        if (item.theme === 'dishes') window.dishesData[lang].push(item);
+                    }
+                }
+
+                if (loadedEntries.length > 0) {
+                    return loadedEntries;
+                }
+            }
+        } catch (err) {
+            console.warn(`[COSYdata] COSYdata fetch failed for ${lang}, falling back to local files:`, err);
+        }
+
+        // Fallback to local script loading for non-migrated languages or offline mode
+        const allEntries = [];
+        const beforeCounts = {};
+        keys.forEach(key => { beforeCounts[key] = window[key][lang].length; });
+
         const loadPromises = [];
-
         for (const lid of levelsToLoad) {
-            // 1. Convert level ID to folder short code
-            const folderCode = window.getLevelDir(lid);
-
-            // 2. Build the path to the level folder
+            const folderCode = window.getLevelDir ? window.getLevelDir(lid) : lid;
             const basePath = lid === 'all' ? `vocabulary/${lang}/` : `vocabulary/${lang}/${folderCode}/`;
-
-            // 3. Get the list of .js files in that folder
             const files = await getVocabFileList(lang, folderCode);
-
-            // 4. Queue each file for parallel loading
             for (const file of files) {
                 loadPromises.push(loadVocabFile(basePath + file));
             }
         }
 
-        // Wait for all queued files to load in parallel
         await Promise.all(loadPromises);
 
-        // Collect all newly loaded entries
         keys.forEach(key => {
             const after = window[key][lang];
             allEntries.push(...after.slice(beforeCounts[key]));
-        });
-
-        // 5. Validate: warn about entries with missing required fields
-        allEntries.forEach(entry => {
-            if (entry && Object.keys(entry).length > 0) {
-                const hasId = !!entry.id;
-                const hasWord = !!entry.word;
-                const hasMeaning = !!(entry.translation || entry.definition || (entry.definitions && entry.definitions.length > 0));
-                const hasLevel = !!entry.level;
-                const hasTheme = !!entry.theme;
-                const hasLang = !!(entry.language || entry.lang);
-
-                if (!hasId || !hasWord || !hasMeaning || !hasLevel || !hasTheme || !hasLang) {
-                    // Suppress for items that have at least some descriptive data
-                    if (!hasWord && !hasMeaning) {
-                        console.warn('[COSY] Entry missing critical fields:', entry);
-                    }
-                }
-            }
         });
 
         return allEntries;
