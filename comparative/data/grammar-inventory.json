@@ -26,7 +26,7 @@
     "links": {
       "el": "../grammar/el-pronouns.html",
       "en": "../grammar/topics/pronouns.html",
-      "fr": "../grammaire-francaise/topics/les-pronoms.html",
+      "fr": "https://cosylanguages.github.io/COSYmanuals/manuals/fr/grammar/a1/topics/les-pronoms.html",
       "it": "../grammar/it-pronomi.html",
       "ru": "../grammar/ru-pronouns.html"
     }
@@ -53,7 +53,7 @@
     "links": {
       "el": "../grammar/el-articles.html",
       "en": "../grammar/topics/articles.html",
-      "fr": "../grammaire-francaise/topics/articles-partitifs.html",
+      "fr": "https://cosylanguages.github.io/COSYmanuals/manuals/fr/grammar/a1/topics/articles-partitifs.html",
       "it": "../grammar/it-articoli.html"
     }
   },
@@ -95,7 +95,7 @@
     ],
     "verified": true,
     "links": {
-      "fr": "../grammaire-francaise/topics/genre-des-noms-2.html",
+      "fr": "https://cosylanguages.github.io/COSYmanuals/manuals/fr/grammar/a1/topics/genre-des-noms-2.html",
       "ru": "../grammar/ru-nouns-gender.html"
     }
   },
@@ -125,7 +125,7 @@
     "verified": true,
     "links": {
       "en": "../grammar/topics/plurals-irregular.html",
-      "fr": "../grammaire-francaise/topics/pluriel-des-noms.html",
+      "fr": "https://cosylanguages.github.io/COSYmanuals/manuals/fr/grammar/a1/topics/pluriel-des-noms.html",
       "it": "../grammar/it-plurali.html"
     }
   },
@@ -152,7 +152,7 @@
     "links": {
       "el": "../grammar/el-be.html",
       "en": "../grammar/topics/to-be.html",
-      "fr": "../grammaire-francaise/topics/etre.html",
+      "fr": "https://cosylanguages.github.io/COSYmanuals/manuals/fr/grammar/a1/topics/etre.html",
       "it": "../grammar/it-essere-1.html",
       "ru": "../grammar/ru-be.html"
     }
@@ -178,7 +178,7 @@
     "verified": true,
     "links": {
       "en": "../grammar/topics/have-got.html",
-      "fr": "../grammaire-francaise/topics/avoir.html",
+      "fr": "https://cosylanguages.github.io/COSYmanuals/manuals/fr/grammar/a1/topics/avoir.html",
       "it": "../grammar/it-avere.html"
     }
   },
@@ -207,7 +207,7 @@
     ],
     "verified": true,
     "links": {
-      "fr": "../grammaire-francaise/topics/negation.html"
+      "fr": "https://cosylanguages.github.io/COSYmanuals/manuals/fr/grammar/a1/topics/negation.html"
     }
   },
   {
@@ -304,7 +304,7 @@
     "verified": true,
     "links": {
       "en": "../grammar/en-possessives.html",
-      "fr": "../grammaire-francaise/topics/adjectifs-possessifs.html"
+      "fr": "https://cosylanguages.github.io/COSYmanuals/manuals/fr/grammar/a1/topics/adjectifs-possessifs.html"
     }
   },
   {
@@ -333,7 +333,7 @@
     "verified": true,
     "links": {
       "en": "../grammar/topics/demonstratives.html",
-      "fr": "../grammaire-francaise/topics/ce-cet-cette-ces.html"
+      "fr": "https://cosylanguages.github.io/COSYmanuals/manuals/fr/grammar/a1/topics/ce-cet-cette-ces.html"
     }
   },
   {
@@ -376,7 +376,7 @@
     "verified": true,
     "links": {
       "en": "../grammar/topics/adjectives.html",
-      "fr": "../grammaire-francaise/topics/accord-des-adjectifs.html"
+      "fr": "https://cosylanguages.github.io/COSYmanuals/manuals/fr/grammar/a1/topics/accord-des-adjectifs.html"
     }
   },
   {
@@ -601,7 +601,7 @@
     ],
     "verified": true,
     "links": {
-      "fr": "../grammaire-francaise/topics/adjectifs-position.html"
+      "fr": "https://cosylanguages.github.io/COSYmanuals/manuals/fr/grammar/a1/topics/adjectifs-position.html"
     }
   },
   {
@@ -1172,7 +1172,7 @@
     "verified": true,
     "links": {
       "en": "../grammar/topics/going-to.html",
-      "fr": "../grammaire-francaise/topics/futur-proche.html"
+      "fr": "https://cosylanguages.github.io/COSYmanuals/manuals/fr/grammar/a1/topics/futur-proche.html"
     }
   },
   {
@@ -1200,7 +1200,7 @@
     ],
     "verified": true,
     "links": {
-      "fr": "../grammaire-francaise/topics/nombres-jours-mois.html"
+      "fr": "https://cosylanguages.github.io/COSYmanuals/manuals/fr/grammar/a1/topics/nombres-jours-mois.html"
     }
   },
   {
@@ -1229,7 +1229,7 @@
     "verified": true,
     "links": {
       "en": "../grammar/topics/comparative-adjectives.html",
-      "fr": "../grammaire-francaise/topics/comparatif.html"
+      "fr": "https://cosylanguages.github.io/COSYmanuals/manuals/fr/grammar/a1/topics/comparatif.html"
     }
   },
   {
@@ -1258,7 +1258,7 @@
     "verified": true,
     "links": {
       "en": "../grammar/topics/superlative-adjectives.html",
-      "fr": "../grammaire-francaise/topics/superlatif.html"
+      "fr": "https://cosylanguages.github.io/COSYmanuals/manuals/fr/grammar/a1/topics/superlatif.html"
     }
   },
   {

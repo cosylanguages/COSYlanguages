@@ -17,8 +17,8 @@ This document defines the dual-system architecture for free grammar content acro
   - `js/data/phonology_data.js`: Loads reference phonology datasets at runtime.
   - `scripts/build_unified_index.py`: Parses all reference JSON entries into canonical globally unique search indexes (`data/index/{lang}_index.json`).
 
-### System 2: Human-Facing CEFR HTML Manuals Layer (`manuals/`)
-- **Directory Structure:** `manuals/{lang}/grammar/{level}/topics/*.html` (e.g. `manuals/en/grammar/a1/topics/to-be.html`)
+### System 2: Human-Facing CEFR HTML Manuals Layer (COSYmanuals)
+- **Directory Structure:** All manuals live in COSYmanuals (`https://cosylanguages.github.io/COSYmanuals/manuals/{lang}/{grammar,vocabulary,communication}/{level}/...`)
 - **Purpose:** Rich, level-calibrated interactive web textbook pages designed for student reading, self-study, and classroom instruction.
 - **Features:**
   - Follows strict pedagogical standards (such as the 14-step rhythm in `GRAMMAR_STANDARD.md`).
@@ -32,14 +32,14 @@ This document defines the dual-system architecture for free grammar content acro
 To ensure seamless navigation between studying theory and doing interactive drills, both systems must be linked bidirectionally using standardized fields:
 
 ### Direction A: From JSON to HTML Manuals (`practice_links`)
-Inside any item in `reference-grammar/{lang}/**/*.json`, include the `practice_links` array containing relative or root-relative paths pointing to the corresponding CEFR topic HTML page(s) in `manuals/`:
+Inside any item in `reference-grammar/{lang}/**/*.json`, include the `practice_links` array containing absolute COSYmanuals URLs pointing to the corresponding CEFR topic HTML page(s) in COSYmanuals:
 
 ```json
 {
   "id": "be_present_simple",
   "label": "Verb 'To Be' (Present)",
   "practice_links": [
-    "manuals/en/grammar/a1/topics/to-be.html"
+    "https://cosylanguages.github.io/COSYmanuals/manuals/en/grammar/a1/topics/to-be.html"
   ]
 }
 ```

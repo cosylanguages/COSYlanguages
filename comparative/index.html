@@ -33,7 +33,7 @@
     <div class="sd-breadcrumbs">
       <a href="../index.html">Home</a>
       <span class="sep">/</span>
-      <a href="../manuals/index.html">Master Directory</a>
+      <a href="https://cosylanguages.github.io/COSYmanuals/" target="_blank" rel="noopener">Master Directory</a>
       <span class="sep">/</span>
       <span class="current">Comparative Matrix</span>
     </div>
@@ -394,10 +394,10 @@
         ${selectedLangs.map(l => {
           const hasFeature = item.languages.includes(l.code);
           if (hasFeature) {
-            const manualPath = '..' + l.manual_url;
+            const manualPath = l.manual_url.startsWith('http') ? l.manual_url : ('https://cosylanguages.github.io/COSYmanuals' + l.manual_url);
             return `
               <td class="comp-cell-status">
-                <a href="${manualPath}" class="comp-cell-link" title="Open ${l.name_en} Grammar Manual">✅</a>
+                <a href="${manualPath}" target="_blank" rel="noopener" class="comp-cell-link" title="Open ${l.name_en} Grammar Manual">✅</a>
               </td>
             `;
           } else {
