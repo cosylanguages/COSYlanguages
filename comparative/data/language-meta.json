@@ -4,97 +4,97 @@
     "name_en": "English",
     "name_native": "English",
     "family": "Germanic",
-    "manual_url": "/grammar/"
+    "manual_url": "https://cosylanguages.github.io/COSYmanuals/manuals/en/grammar/a1/index.html"
   },
   {
     "code": "fr",
     "name_en": "French",
     "name_native": "Français",
     "family": "Romance",
-    "manual_url": "/grammaire-francaise/"
+    "manual_url": "https://cosylanguages.github.io/COSYmanuals/manuals/fr/grammar/a1/index.html"
   },
   {
     "code": "it",
     "name_en": "Italian",
     "name_native": "Italiano",
     "family": "Romance",
-    "manual_url": "/grammatica-italiana/"
+    "manual_url": "https://cosylanguages.github.io/COSYmanuals/manuals/it/grammar/a1/index.html"
   },
   {
     "code": "ru",
     "name_en": "Russian",
     "name_native": "Русский",
     "family": "Slavic",
-    "manual_url": "/grammatika-russkogo-yazyka/"
+    "manual_url": "https://cosylanguages.github.io/COSYmanuals/manuals/ru/grammar/a1/index.html"
   },
   {
     "code": "el",
     "name_en": "Greek",
     "name_native": "Ελληνικά",
     "family": "Hellenic",
-    "manual_url": "/elliniki-grammatiki/"
+    "manual_url": "https://cosylanguages.github.io/COSYmanuals/manuals/el/grammar/a1/index.html"
   },
   {
     "code": "es",
     "name_en": "Spanish",
     "name_native": "Español",
     "family": "Romance",
-    "manual_url": "/gramatica-espanola/"
+    "manual_url": "https://cosylanguages.github.io/COSYmanuals/manuals/es/grammar/a1/index.html"
   },
   {
     "code": "de",
     "name_en": "German",
     "name_native": "Deutsch",
     "family": "Germanic",
-    "manual_url": "/deutsche-grammatik/"
+    "manual_url": "https://cosylanguages.github.io/COSYmanuals/manuals/de/grammar/a1/index.html"
   },
   {
     "code": "pt",
     "name_en": "Portuguese",
     "name_native": "Português",
     "family": "Romance",
-    "manual_url": "/gramatica-portuguesa/"
+    "manual_url": "https://cosylanguages.github.io/COSYmanuals/manuals/pt/grammar/a1/index.html"
   },
   {
     "code": "hy",
     "name_en": "Armenian",
     "name_native": "Հայերեն",
     "family": "Armenian",
-    "manual_url": "/hayots-lezvi-kerakanutyun/"
+    "manual_url": "https://cosylanguages.github.io/COSYmanuals/manuals/hy/grammar/a1/index.html"
   },
   {
     "code": "ka",
     "name_en": "Georgian",
     "name_native": "ქართული",
     "family": "Kartvelian",
-    "manual_url": "/qartuli-gramatika/"
+    "manual_url": "https://cosylanguages.github.io/COSYmanuals/manuals/ka/grammar/a1/index.html"
   },
   {
     "code": "tt",
     "name_en": "Tatar",
     "name_native": "Татарча",
     "family": "Turkic",
-    "manual_url": "/manuals/tt/grammar/"
+    "manual_url": "https://cosylanguages.github.io/COSYmanuals/manuals/tt/grammar/a1/index.html"
   },
   {
     "code": "ba",
     "name_en": "Bashkir",
     "name_native": "Башҡортса",
     "family": "Turkic",
-    "manual_url": "/bashqort-tele-grammatikahy/"
+    "manual_url": "https://cosylanguages.github.io/COSYmanuals/manuals/ba/grammar/a1/index.html"
   },
   {
     "code": "br",
     "name_en": "Breton",
     "name_native": "Brezhoneg",
     "family": "Celtic",
-    "manual_url": "/yezhadur-brezhoneg/"
+    "manual_url": "https://cosylanguages.github.io/COSYmanuals/manuals/br/grammar/a1/index.html"
   },
   {
     "code": "cv",
     "name_en": "Chuvash",
     "name_native": "Чăвашла",
     "family": "Turkic",
-    "manual_url": "/chavash-grammatika/"
+    "manual_url": "https://cosylanguages.github.io/COSYmanuals/manuals/cv/grammar/a1/index.html"
   }
 ]

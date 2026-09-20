@@ -27,7 +27,7 @@ cosylanguages-monorepo/
 │
 ├── apps/                         # Independent micro-frontend workspaces
 │   ├── free-portal/              # Public PWA hub (cosylanguages.github.io)
-│   │                             # Includes: Grammar manuals, Practice hub, Vocabulary games,
+│   │                             # Includes: Direct links to COSYmanuals, Practice hub, Vocabulary games,
 │   │                             # placement quiz, print zines/tools, language index.
 │   │
 │   └── print-studio/             # Heavy programmatic PDF generators (print.cosylanguages.com)

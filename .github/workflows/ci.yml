@@ -31,7 +31,7 @@ jobs:
 
       - name: Validate HTML templates/core
         run: |
-          npx html-validate "*.html" "practice/*.html" "games/*.html" "vocabulary/*.html" "grammar/*.html" || true
+          npx html-validate "*.html" "practice/*.html" "games/*.html" "vocabulary/*.html" || true
 
       - name: Run internal link verification
         run: |

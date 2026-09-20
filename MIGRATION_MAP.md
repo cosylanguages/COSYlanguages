@@ -1,3 +1,5 @@
+SUPERSEDED: manuals moved to COSYmanuals; this file is historical.
+
 # COSYlanguages Repository Reorganization Migration Map
 
 This document presents a comprehensive audit and migration specification for the proposed structural reorganization of the COSYlanguages repository.

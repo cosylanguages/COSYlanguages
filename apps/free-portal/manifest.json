@@ -1,7 +1,7 @@
 {
   "name": "COSYlanguages Free Portal",
   "short_name": "COSY Free",
-  "description": "Learn languages you'll actually speak - Free grammar manuals and self-study vocabulary games.",
+  "description": "Learn languages you'll actually speak - Direct access to COSYmanuals and self-study practice tools and games.",
   "start_url": "../../index.html",
   "display": "standalone",
   "background_color": "#fdf8f0",

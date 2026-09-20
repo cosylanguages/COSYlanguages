@@ -2,7 +2,7 @@
 
 A cosy, immersive language learning platform. Similar in spirit to Skyeng but focused on genuine learning over monetisation.
 
-This repository (`COSYlanguages`) is the **100% FREE, public entry point** to the COSYlanguages ecosystem. It contains only free content: language discovery, free practice tools, grammar/vocabulary manuals, placement quiz, and print tools. Paid courses, events, and teacher/student portals belong in sibling repositories (`COSYplatform`, `COSYevents`, `COSYmanuals`) and are NOT hosted here.
+This repository (`COSYlanguages`) is the **100% FREE, public entry point** to the COSYlanguages ecosystem. It contains only free content: language discovery, free practice tools, links to COSYmanuals, placement quiz, and print tools. Paid courses, events, and manuals belong in sibling repositories (`COSYplatform`, `COSYevents`, `COSYmanuals`) and are NOT hosted here.
 
 ## Live site
 https://cosylanguages.github.io/COSYlanguages/
@@ -46,7 +46,7 @@ COSYtools supports the unified, accountless **COSY Passport** format. Learners c
 COSYlanguages is organized as a distributed ecosystem of specialized sub-products, with this repository (`COSYlanguages`) serving as the primary free hub, orchestrator, and textbook portal.
 
 ### Companion Repositories
-1. **[COSYmanuals](https://github.com/cosylanguages/COSYmanuals):** Restricted web textbooks (`manuals/`), CEFR curriculums (`curriculum/`), and datasets (`vocabulary/`, `reference-grammar/`, `communication/`) accessible to contracted teachers and students.
+1. **[COSYmanuals](https://github.com/cosylanguages/COSYmanuals):** All CEFR HTML grammar, vocabulary, and communication manuals live in COSYmanuals (`manuals/`).
 2. **[COSYevents](https://github.com/cosylanguages/COSYevents):** Public speaking club session decks, multimedia event night guides, and group conversation materials.
 3. **[COSYworld](https://github.com/cosylanguages/COSYworld):** Independent, self-study open-world RPG adventure game. Completely separate from manuals and paid traditional courses, focusing on informal exploratory learning.
 4. **[COSYgames](https://github.com/cosylanguages/COSYgames):** Interactive practice minigames hub (22+ games) for self-study and live online/offline classroom teaching.
@@ -61,7 +61,7 @@ COSYlanguages is organized as a distributed ecosystem of specialized sub-product
 
 ### Central Ecosystem Hub (`COSYlanguages`)
 - **Unified Master Portal & Gateway:** Central directory, multi-product switcher, and global diagnostic placement quiz (`placement-quiz.html`).
-- **Interactive CEFR Web Textbooks (`manuals/`):** Core HTML grammar and vocabulary textbooks across all 13 supported languages.
+- **Interactive CEFR Web Textbooks:** Direct links to COSYmanuals for grammar, vocabulary, and communication manuals across all 13 supported languages.
 - **Language Hubs (`languages/{iso}/index.html`):** Portal pages featuring daily dose facts, idioms, and level roadmaps.
 
 For a detailed analysis of repository candidates and ecosystem architecture, see [`docs/ECOSYSTEM_ARCHITECTURE.md`](docs/ECOSYSTEM_ARCHITECTURE.md).

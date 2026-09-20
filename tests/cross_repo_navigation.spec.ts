@@ -170,6 +170,7 @@ test.describe('Public Cross-Repository Navigation Suite', () => {
     expect(fallbackResults.world).toBe('https://cosylanguages.github.io/COSYworld/');
     expect(fallbackResults.events).toBe('https://cosylanguages.github.io/COSYevents/');
     expect(fallbackResults.blog).toContain('blog/index.html');
+    // Verify teacher link falls back to standalone COSYmanuals portal
     expect(fallbackResults.teacher).toBe('https://cosylanguages.github.io/COSYmanuals/');
   });
 

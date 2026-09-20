@@ -137,7 +137,7 @@ function getEcosystemUrls(env, overrides) {
             world: repoConfig.COSYworld,
             events: repoConfig.COSYevents,
             blog: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'blog/index.html' : 'blog/index.html',
-            teacher: repoConfig.COSYmanuals || (repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'manuals/index.html' : 'manuals/index.html')
+            teacher: repoConfig.COSYmanuals || 'https://cosylanguages.github.io/COSYmanuals/'
         };
     }
 
@@ -167,7 +167,7 @@ function getEcosystemUrls(env, overrides) {
         envDefaults.courses = 'index.html#courses';
         envDefaults.practice = 'practice/index.html';
         envDefaults.blog = 'blog/index.html';
-        envDefaults.teacher = 'manuals/index.html';
+        envDefaults.teacher = 'https://cosylanguages.github.io/COSYmanuals/';
     }
 
     const procEnvUrls = {};

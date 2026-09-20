@@ -83,7 +83,7 @@ This taxonomy outlines the organization of the COSYlanguages ecosystem. All reso
 *   **Path:** Root directory `/` (served via `cosylanguages.github.io/COSYlanguages/`)
 *   **Target Audience:** Public visitors, autonomous self-study learners, and structured course students.
 *   **Core Offerings:**
-    *   **Interactive CEFR Web Textbooks (`manuals/`):** High-contrast color-coded grammar and vocabulary references aligned with COSYlanguages Grammar Standards.
+    *   **Interactive CEFR Web Textbooks:** Direct links to COSYmanuals (`https://cosylanguages.github.io/COSYmanuals/`) for high-contrast color-coded grammar and vocabulary references.
     *   **Curriculum-Integrated Courses (`curriculum/`, `apps/premium-courses/`):** CEFR-level syllabus progression across 6 progressive course tracks.
     *   **Practice Hub & Engines (`practice/`):** Interactive vocabulary, grammar, speaking, and remediation drills.
     *   **Placement Quiz (`placement-quiz.html`):** Adaptive progressive CEFR-aligned diagnostic assessment.
