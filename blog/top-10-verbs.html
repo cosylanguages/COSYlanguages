@@ -102,6 +102,8 @@
         .phrase-pattern { font-weight:700; font-size:0.85rem; text-transform:uppercase; letter-spacing:.03em; color:var(--teal); margin-bottom:0.6rem; }
         .phrase-cells { display:grid; grid-template-columns: repeat(auto-fill, minmax(230px,1fr)); gap:0.4rem 1rem; }
         .phrase-cell { font-size:0.92rem; }
+        .verb-bold { font-weight:700; }
+        .verb-other { color:#e53e3e; font-weight:600; }
         .phrase-flag { margin-right:0.3rem; }
         .phrase-note { margin-top:0.65rem; font-size:0.85rem; background:#EFF7F4; border-left:3px solid var(--teal);
             padding:0.5rem 0.8rem; border-radius:4px; }
@@ -1105,48 +1107,164 @@
 
         <h3 class="sub-h">Phrase bank</h3>
         <div class="phrase-table">
+            <!-- 1. Go to -->
             <div class="phrase-row">
-<div class="phrase-pattern">go to + place (habit)</div>
-<div class="phrase-cells">
-<div class="phrase-cell" data-lang="en"><span class="phrase-flag">🇬🇧</span> <span class="phrase-text">I go to school every day.</span></div>
-<div class="phrase-cell" data-lang="fr"><span class="phrase-flag">🇫🇷</span> <span class="phrase-text">Je vais à l'école tous les jours.</span></div>
-<div class="phrase-cell" data-lang="it"><span class="phrase-flag">🇮🇹</span> <span class="phrase-text">Vado a scuola ogni giorno.</span></div>
-<div class="phrase-cell" data-lang="es"><span class="phrase-flag">🇪🇸</span> <span class="phrase-text">Voy a la escuela todos los días.</span></div>
-<div class="phrase-cell" data-lang="pt"><span class="phrase-flag">🇵🇹</span> <span class="phrase-text">Vou à escola todos os dias.</span></div>
-<div class="phrase-cell" data-lang="de"><span class="phrase-flag">🇩🇪</span> <span class="phrase-text">Ich gehe jeden Tag zur Schule.</span></div>
-<div class="phrase-cell" data-lang="el"><span class="phrase-flag">🇬🇷</span> <span class="phrase-text">Πάω σχολείο κάθε μέρα.</span></div>
-<div class="phrase-cell" data-lang="ru"><span class="phrase-flag">🇷🇺</span> <span class="phrase-text">Я хожу в школу каждый день.</span></div>
-</div>
-<div class="phrase-note">💡 Russian uses ходить (habitual) here, not идти.</div>
-</div>
-<div class="phrase-row">
-<div class="phrase-pattern">going home (right now)</div>
-<div class="phrase-cells">
-<div class="phrase-cell" data-lang="en"><span class="phrase-flag">🇬🇧</span> <span class="phrase-text">I'm going home.</span></div>
-<div class="phrase-cell" data-lang="fr"><span class="phrase-flag">🇫🇷</span> <span class="phrase-text">Je rentre à la maison.</span></div>
-<div class="phrase-cell" data-lang="it"><span class="phrase-flag">🇮🇹</span> <span class="phrase-text">Torno a casa.</span></div>
-<div class="phrase-cell" data-lang="es"><span class="phrase-flag">🇪🇸</span> <span class="phrase-text">Voy a casa.</span></div>
-<div class="phrase-cell" data-lang="pt"><span class="phrase-flag">🇵🇹</span> <span class="phrase-text">Vou para casa.</span></div>
-<div class="phrase-cell" data-lang="de"><span class="phrase-flag">🇩🇪</span> <span class="phrase-text">Ich gehe nach Hause.</span></div>
-<div class="phrase-cell" data-lang="el"><span class="phrase-flag">🇬🇷</span> <span class="phrase-text">Πάω σπίτι.</span></div>
-<div class="phrase-cell" data-lang="ru"><span class="phrase-flag">🇷🇺</span> <span class="phrase-text">Я иду домой.</span></div>
-</div>
-<div class="phrase-note">💡 Russian uses идти here — movement in progress, one direction.</div>
-</div>
-<div class="phrase-row">
-<div class="phrase-pattern">going to + verb (near future)</div>
-<div class="phrase-cells">
-<div class="phrase-cell" data-lang="en"><span class="phrase-flag">🇬🇧</span> <span class="phrase-text">I'm going to call you.</span></div>
-<div class="phrase-cell" data-lang="fr"><span class="phrase-flag">🇫🇷</span> <span class="phrase-text">Je vais t'appeler.</span></div>
-<div class="phrase-cell" data-lang="it"><span class="phrase-flag">🇮🇹</span> <span class="phrase-text">Sto per chiamarti.</span></div>
-<div class="phrase-cell" data-lang="es"><span class="phrase-flag">🇪🇸</span> <span class="phrase-text">Voy a llamarte.</span></div>
-<div class="phrase-cell" data-lang="pt"><span class="phrase-flag">🇵🇹</span> <span class="phrase-text">Vou ligar-te.</span></div>
-<div class="phrase-cell" data-lang="de"><span class="phrase-flag">🇩🇪</span> <span class="phrase-text">Ich werde dich anrufen.</span></div>
-<div class="phrase-cell" data-lang="el"><span class="phrase-flag">🇬🇷</span> <span class="phrase-text">Θα σε πάρω τηλέφωνο.</span></div>
-<div class="phrase-cell" data-lang="ru"><span class="phrase-flag">🇷🇺</span> <span class="phrase-text">Я тебе позвоню.</span></div>
-</div>
-<div class="phrase-note">💡 fr/es/pt reuse 'go'; it uses a third pattern (stare per); de/el/ru use an entirely different future form, not their 'go' verb.</div>
-</div>
+                <div class="phrase-pattern">1. Go to (work / school / Italy) · BUT home</div>
+                <div class="phrase-cells">
+                    <div class="phrase-cell" data-lang="en"><span class="phrase-flag">🇬🇧</span> <span class="phrase-text">I <span class="verb-bold">go</span> to work / school. She <span class="verb-bold">goes</span> to Italy / Rome. BUT I <span class="verb-bold">go</span> home.</span></div>
+                    <div class="phrase-cell" data-lang="fr"><span class="phrase-flag">🇫🇷</span> <span class="phrase-text">Je <span class="verb-bold">vais</span> au travail / à l'école. Elle <span class="verb-bold">va</span> en Italie / à Rome. Mais je <span class="verb-other">rentre</span> à la maison.</span></div>
+                    <div class="phrase-cell" data-lang="it"><span class="phrase-flag">🇮🇹</span> <span class="phrase-text"> <span class="verb-bold">Vado</span> al lavoro / a scuola. Lei <span class="verb-bold">va</span> in Italia / a Roma. Ma <span class="verb-bold">vado</span> / <span class="verb-other">torno</span> a casa.</span></div>
+                    <div class="phrase-cell" data-lang="es"><span class="phrase-flag">🇪🇸</span> <span class="phrase-text"> <span class="verb-bold">Voy</span> al trabajo / a la escuela. Ella <span class="verb-bold">va</span> a Italia / a Roma. Pero <span class="verb-bold">voy</span> a casa.</span></div>
+                    <div class="phrase-cell" data-lang="pt"><span class="phrase-flag">🇵🇹</span> <span class="phrase-text"> <span class="verb-bold">Vou</span> para o trabalho / para a escola. Ela <span class="verb-bold">vai</span> para a Itália / para Roma. Mas <span class="verb-bold">vou</span> para casa.</span></div>
+                    <div class="phrase-cell" data-lang="de"><span class="phrase-flag">🇩🇪</span> <span class="phrase-text">Ich <span class="verb-bold">gehe</span> zur Arbeit / zur Schule. Sie <span class="verb-bold">fährt</span> nach Italien / nach Rom. Aber ich <span class="verb-bold">gehe</span> nach Hause.</span></div>
+                    <div class="phrase-cell" data-lang="el"><span class="phrase-flag">🇬🇷</span> <span class="phrase-text"> <span class="verb-bold">Πάω</span> στη δουλειά / στο σχολείο. <span class="verb-bold">Πηγαίνει</span> στην Ιταλία / στη Ρώμη. Αλλά <span class="verb-bold">πάω</span> σπίτι.</span></div>
+                    <div class="phrase-cell" data-lang="ru"><span class="phrase-flag">🇷🇺</span> <span class="phrase-text">Я <span class="verb-bold">иду</span> на работу / в школу. Она <span class="verb-other">едет</span> в Италию / в Рим. Но я <span class="verb-bold">иду</span> домой.</span></div>
+                </div>
+                <div class="phrase-note">💡 Notice that English uses 'go' with NO preposition for "home". German/Russian switch to vehicle verbs (fahren/ехать) for long-distance travel to countries/cities.</div>
+            </div>
+
+            <!-- 2. Go to the / a -->
+            <div class="phrase-row">
+                <div class="phrase-pattern">2. Go to the / a (doctor / restaurant)</div>
+                <div class="phrase-cells">
+                    <div class="phrase-cell" data-lang="en"><span class="phrase-flag">🇬🇧</span> <span class="phrase-text">I <span class="verb-bold">go</span> to the doctor / dentist. I <span class="verb-bold">go</span> to a restaurant.</span></div>
+                    <div class="phrase-cell" data-lang="fr"><span class="phrase-flag">🇫🇷</span> <span class="phrase-text">Je <span class="verb-bold">vais</span> chez le médecin / le dentiste. Je <span class="verb-bold">vais</span> au restaurant.</span></div>
+                    <div class="phrase-cell" data-lang="it"><span class="phrase-flag">🇮🇹</span> <span class="phrase-text"> <span class="verb-bold">Vado</span> dal medico / dal dentista. <span class="verb-bold">Vado</span> al ristorante.</span></div>
+                    <div class="phrase-cell" data-lang="es"><span class="phrase-flag">🇪🇸</span> <span class="phrase-text"> <span class="verb-bold">Voy</span> al médico / al dentista. <span class="verb-bold">Voy</span> a un restaurante.</span></div>
+                    <div class="phrase-cell" data-lang="pt"><span class="phrase-flag">🇵🇹</span> <span class="phrase-text"> <span class="verb-bold">Vou</span> ao médico / ao dentista. <span class="verb-bold">Vou</span> a um restaurante.</span></div>
+                    <div class="phrase-cell" data-lang="de"><span class="phrase-flag">🇩🇪</span> <span class="phrase-text">Ich <span class="verb-bold">gehe</span> zum Arzt / zum Zahnarzt. Ich <span class="verb-bold">gehe</span> in ein Restaurant.</span></div>
+                    <div class="phrase-cell" data-lang="el"><span class="phrase-flag">🇬🇷</span> <span class="phrase-text"> <span class="verb-bold">Πάω</span> στον γιατρό / στον οδοντίατρο. <span class="verb-bold">Πάω</span> σε ένα εστιατόριο.</span></div>
+                    <div class="phrase-cell" data-lang="ru"><span class="phrase-flag">🇷🇺</span> <span class="phrase-text">Я <span class="verb-bold">иду</span> к врачу / к стоматологу. Я <span class="verb-bold">иду</span> в ресторан.</span></div>
+                </div>
+                <div class="phrase-note">💡 French ("chez") and Italian ("da") use person-prepositions for doctors/dentists rather than location prepositions.</div>
+            </div>
+
+            <!-- 3. Go on -->
+            <div class="phrase-row">
+                <div class="phrase-pattern">3. Go on (holiday / vacation / trip)</div>
+                <div class="phrase-cells">
+                    <div class="phrase-cell" data-lang="en"><span class="phrase-flag">🇬🇧</span> <span class="phrase-text">I <span class="verb-bold">go</span> on holiday / vacation / on a trip to Greece.</span></div>
+                    <div class="phrase-cell" data-lang="fr"><span class="phrase-flag">🇫🇷</span> <span class="phrase-text">Je <span class="verb-bold">pars</span> en vacances / en voyage en Grèce.</span></div>
+                    <div class="phrase-cell" data-lang="it"><span class="phrase-flag">🇮🇹</span> <span class="phrase-text"> <span class="verb-bold">Vado</span> in vacanza / in viaggio in Grecia.</span></div>
+                    <div class="phrase-cell" data-lang="es"><span class="phrase-flag">🇪🇸</span> <span class="phrase-text"> <span class="verb-bold">Me voy</span> de vacaciones / de viaje a Grecia.</span></div>
+                    <div class="phrase-cell" data-lang="pt"><span class="phrase-flag">🇵🇹</span> <span class="phrase-text"> <span class="verb-bold">Vou</span> de férias / de viagem à Grécia.</span></div>
+                    <div class="phrase-cell" data-lang="de"><span class="phrase-flag">🇩🇪</span> <span class="phrase-text">Ich <span class="verb-bold">fahre</span> in den Urlaub / mache eine Reise nach Griechenland.</span></div>
+                    <div class="phrase-cell" data-lang="el"><span class="phrase-flag">🇬🇷</span> <span class="phrase-text"> <span class="verb-bold">Πάω</span> διακοπές / ταξίδι στην Ελλάδα.</span></div>
+                    <div class="phrase-cell" data-lang="ru"><span class="phrase-flag">🇷🇺</span> <span class="phrase-text">Я <span class="verb-other">еду</span> в отпуск / в путешествие в Грецию.</span></div>
+                </div>
+                <div class="phrase-note">💡 French prefers 'partir' (leave), German prefers 'fahren' (travel) or 'machen' (make), Russian uses 'ехать' (travel by transport).</div>
+            </div>
+
+            <!-- 4. Go by -->
+            <div class="phrase-row">
+                <div class="phrase-pattern">4. Go by (bus / car / train / plane)</div>
+                <div class="phrase-cells">
+                    <div class="phrase-cell" data-lang="en"><span class="phrase-flag">🇬🇧</span> <span class="phrase-text">I <span class="verb-bold">go</span> by bus / car / train / plane.</span></div>
+                    <div class="phrase-cell" data-lang="fr"><span class="phrase-flag">🇫🇷</span> <span class="phrase-text">Je <span class="verb-bold">vais</span> en bus / en voiture / en train / en avion.</span></div>
+                    <div class="phrase-cell" data-lang="it"><span class="phrase-flag">🇮🇹</span> <span class="phrase-text"> <span class="verb-bold">Vado</span> in autobus / in macchina / in treno / in aereo.</span></div>
+                    <div class="phrase-cell" data-lang="es"><span class="phrase-flag">🇪🇸</span> <span class="phrase-text"> <span class="verb-bold">Voy</span> en autobús / en coche / en tren / en avión.</span></div>
+                    <div class="phrase-cell" data-lang="pt"><span class="phrase-flag">🇵🇹</span> <span class="phrase-text"> <span class="verb-bold">Vou</span> de autocarro / de carro / de comboio / de avião.</span></div>
+                    <div class="phrase-cell" data-lang="de"><span class="phrase-flag">🇩🇪</span> <span class="phrase-text">Ich <span class="verb-bold">fahre</span> mit dem Bus / Auto / Zug / <span class="verb-other">fliege</span> mit dem Flugzeug.</span></div>
+                    <div class="phrase-cell" data-lang="el"><span class="phrase-flag">🇬🇷</span> <span class="phrase-text"> <span class="verb-bold">Πάω</span> με λεωφορείο / αυτοκίνητο / τρένο / αεροπλάνο.</span></div>
+                    <div class="phrase-cell" data-lang="ru"><span class="phrase-flag">🇷🇺</span> <span class="phrase-text">Я <span class="verb-other">еду</span> на автобусе / машине / поезде / <span class="verb-other">лечу</span> на самолёте.</span></div>
+                </div>
+                <div class="phrase-note">💡 German and Russian strictly distinguish walking from vehicle movement (fahren/ехать) and flying (fliegen/лететь).</div>
+            </div>
+
+            <!-- 5. Go abroad -->
+            <div class="phrase-row">
+                <div class="phrase-pattern">5. Go abroad</div>
+                <div class="phrase-cells">
+                    <div class="phrase-cell" data-lang="en"><span class="phrase-flag">🇬🇧</span> <span class="phrase-text">I <span class="verb-bold">go</span> abroad every summer.</span></div>
+                    <div class="phrase-cell" data-lang="fr"><span class="phrase-flag">🇫🇷</span> <span class="phrase-text">Je <span class="verb-bold">vais</span> à l'étranger chaque été.</span></div>
+                    <div class="phrase-cell" data-lang="it"><span class="phrase-flag">🇮🇹</span> <span class="phrase-text"> <span class="verb-bold">Vado</span> all'estero ogni estate.</span></div>
+                    <div class="phrase-cell" data-lang="es"><span class="phrase-flag">🇪🇸</span> <span class="phrase-text"> <span class="verb-bold">Voy</span> al extranjero cada verano.</span></div>
+                    <div class="phrase-cell" data-lang="pt"><span class="phrase-flag">🇵🇹</span> <span class="phrase-text"> <span class="verb-bold">Vou</span> para o estrangeiro todo o Verão.</span></div>
+                    <div class="phrase-cell" data-lang="de"><span class="phrase-flag">🇩🇪</span> <span class="phrase-text">Ich <span class="verb-bold">fahre</span> jeden Sommer ins Ausland.</span></div>
+                    <div class="phrase-cell" data-lang="el"><span class="phrase-flag">🇬🇷</span> <span class="phrase-text"> <span class="verb-bold">Πάω</span> στο εξωτερικό κάθε καλοκαίρι.</span></div>
+                    <div class="phrase-cell" data-lang="ru"><span class="phrase-flag">🇷🇺</span> <span class="phrase-text">Я <span class="verb-other">езжу</span> за границу каждое лето.</span></div>
+                </div>
+            </div>
+
+            <!-- 6. Go in(side) - go out(side) -->
+            <div class="phrase-row">
+                <div class="phrase-pattern">6. Go in(side) / Go out(side)</div>
+                <div class="phrase-cells">
+                    <div class="phrase-cell" data-lang="en"><span class="phrase-flag">🇬🇧</span> <span class="phrase-text">Let's <span class="verb-bold">go</span> inside! / Let's <span class="verb-bold">go</span> outside!</span></div>
+                    <div class="phrase-cell" data-lang="fr"><span class="phrase-flag">🇫🇷</span> <span class="phrase-text"> <span class="verb-other">Entrons</span> à l'intérieur ! / <span class="verb-other">Sortons</span> dehors !</span></div>
+                    <div class="phrase-cell" data-lang="it"><span class="phrase-flag">🇮🇹</span> <span class="phrase-text"> <span class="verb-other">Entriamo</span> dentro! / <span class="verb-other">Usciamo</span> fuori!</span></div>
+                    <div class="phrase-cell" data-lang="es"><span class="phrase-flag">🇪🇸</span> <span class="phrase-text"> ¡<span class="verb-other">Entremos</span>! / ¡<span class="verb-other">Salgamos</span> afuera!</span></div>
+                    <div class="phrase-cell" data-lang="pt"><span class="phrase-flag">🇵🇹</span> <span class="phrase-text">Vamos <span class="verb-other">entrar</span>! / Vamos <span class="verb-other">sair</span>!</span></div>
+                    <div class="phrase-cell" data-lang="de"><span class="phrase-flag">🇩🇪</span> <span class="phrase-text">Lass uns <span class="verb-bold">reingehen</span>! / Lass uns <span class="verb-bold">rausgehen</span>!</span></div>
+                    <div class="phrase-cell" data-lang="el"><span class="phrase-flag">🇬🇷</span> <span class="phrase-text">Ας <span class="verb-bold">πούμε</span> μέσα! / Ας <span class="verb-other">βγούμε</span> έξω!</span></div>
+                    <div class="phrase-cell" data-lang="ru"><span class="phrase-flag">🇷🇺</span> <span class="phrase-text">Давай <span class="verb-other">зайдем</span> внутрь! / Давай <span class="verb-other">выйдем</span> на улицу!</span></div>
+                </div>
+                <div class="phrase-note">💡 Romance languages (fr/it/es) use specific verbs for entering/exiting (entrer/sortir, entrare/uscire) rather than phrasal verbs.</div>
+            </div>
+
+            <!-- 7. Go left - go straight - go right -->
+            <div class="phrase-row">
+                <div class="phrase-pattern">7. Go left / Go straight / Go right</div>
+                <div class="phrase-cells">
+                    <div class="phrase-cell" data-lang="en"><span class="phrase-flag">🇬🇧</span> <span class="phrase-text"><span class="verb-bold">Go</span> left, <span class="verb-bold">go</span> straight, <span class="verb-bold">go</span> right.</span></div>
+                    <div class="phrase-cell" data-lang="fr"><span class="phrase-flag">🇫🇷</span> <span class="phrase-text"><span class="verb-other">Tournez</span> à gauche, <span class="verb-bold">allez</span> tout droit, <span class="verb-other">tournez</span> à droite.</span></div>
+                    <div class="phrase-cell" data-lang="it"><span class="phrase-flag">🇮🇹</span> <span class="phrase-text"><span class="verb-other">Gira</span> a sinistra, <span class="verb-bold">vai</span> dritto, <span class="verb-other">gira</span> a destra.</span></div>
+                    <div class="phrase-cell" data-lang="es"><span class="phrase-flag">🇪🇸</span> <span class="phrase-text"><span class="verb-other">Gira</span> a la izquierda, <span class="verb-bold">ve</span> recto, <span class="verb-other">gira</span> a la derecha.</span></div>
+                    <div class="phrase-cell" data-lang="pt"><span class="phrase-flag">🇵🇹</span> <span class="phrase-text"><span class="verb-other">Vire</span> à esquerda, <span class="verb-bold">vá</span> em frente, <span class="verb-other">vire</span> à direita.</span></div>
+                    <div class="phrase-cell" data-lang="de"><span class="phrase-flag">🇩🇪</span> <span class="phrase-text"><span class="verb-bold">Gehen</span> Sie nach links, <span class="verb-bold">gehen</span> Sie geradeaus, <span class="verb-bold">gehen</span> Sie nach rechts.</span></div>
+                    <div class="phrase-cell" data-lang="el"><span class="phrase-flag">🇬🇷</span> <span class="phrase-text"><span class="verb-other">Στρίψτε</span> αριστερά, <span class="verb-bold">πηγαίνετε</span> ευθεία, <span class="verb-other">στρίψτε</span> δεξιά.</span></div>
+                    <div class="phrase-cell" data-lang="ru"><span class="phrase-flag">🇷🇺</span> <span class="phrase-text"><span class="verb-other">Поверните</span> налево, <span class="verb-bold">идите</span> прямо, <span class="verb-other">поверните</span> направо.</span></div>
+                </div>
+                <div class="phrase-note">💡 For left/right directions, fr/it/es/pt/el/ru switch to 'turn' (tourner, girar, στρίβω, повернуть) while English & German use 'go'.</div>
+            </div>
+
+            <!-- 8. Go + ing -->
+            <div class="phrase-row">
+                <div class="phrase-pattern">8. Go + -ing (shopping / dancing / drinking / cycling)</div>
+                <div class="phrase-cells">
+                    <div class="phrase-cell" data-lang="en"><span class="phrase-flag">🇬🇧</span> <span class="phrase-text">I <span class="verb-bold">go</span> shopping / dancing / drinking / cycling.</span></div>
+                    <div class="phrase-cell" data-lang="fr"><span class="phrase-flag">🇫🇷</span> <span class="phrase-text">Je <span class="verb-other">fais</span> du shopping / je <span class="verb-other">vais</span> danser / boire un verre / <span class="verb-other">fais</span> du vélo.</span></div>
+                    <div class="phrase-cell" data-lang="it"><span class="phrase-flag">🇮🇹</span> <span class="phrase-text"><span class="verb-other">Faccio</span> shopping / <span class="verb-bold">vado</span> a ballare / a bere / in bicicletta.</span></div>
+                    <div class="phrase-cell" data-lang="es"><span class="phrase-flag">🇪🇸</span> <span class="phrase-text"><span class="verb-other">Hago</span> compras / <span class="verb-bold">voy</span> a bailar / a tomar algo / en bicicleta.</span></div>
+                    <div class="phrase-cell" data-lang="pt"><span class="phrase-flag">🇵🇹</span> <span class="phrase-text"><span class="verb-other">Faço</span> compras / <span class="verb-bold">vou</span> dançar / beber um copo / andar de bicicleta.</span></div>
+                    <div class="phrase-cell" data-lang="de"><span class="phrase-flag">🇩🇪</span> <span class="phrase-text">Ich <span class="verb-bold">gehe</span> einkaufen / tanzen / etwas trinken / <span class="verb-bold">fahre</span> Fahrrad.</span></div>
+                    <div class="phrase-cell" data-lang="el"><span class="phrase-flag">🇬🇷</span> <span class="phrase-text"><span class="verb-bold">Πάω</span> για ψώνια / για χορό / για ποτό / <span class="verb-other">κάνω</span> ποδήλατο.</span></div>
+                    <div class="phrase-cell" data-lang="ru"><span class="phrase-flag">🇷🇺</span> <span class="phrase-text">Я <span class="verb-bold">иду</span> за покупками / танцевать / пить / <span class="verb-other">катаюсь</span> на велосипеде.</span></div>
+                </div>
+                <div class="phrase-note">💡 English uses 'go + -ing' for recreational activities. Other languages often use 'make/do' (faire/fare/hacer) or 'go + infinitive'.</div>
+            </div>
+
+            <!-- 9. How it's going? -->
+            <div class="phrase-row">
+                <div class="phrase-pattern">9. How it's going? · It's going well</div>
+                <div class="phrase-cells">
+                    <div class="phrase-cell" data-lang="en"><span class="phrase-flag">🇬🇧</span> <span class="phrase-text">How's it <span class="verb-bold">going</span>? — It's <span class="verb-bold">going</span> well!</span></div>
+                    <div class="phrase-cell" data-lang="fr"><span class="phrase-flag">🇫🇷</span> <span class="phrase-text">Comment ça <span class="verb-bold">va</span> ? — Ça <span class="verb-bold">va</span> bien !</span></div>
+                    <div class="phrase-cell" data-lang="it"><span class="phrase-flag">🇮🇹</span> <span class="phrase-text">Come <span class="verb-bold">va</span>? — <span class="verb-bold">Va</span> bene!</span></div>
+                    <div class="phrase-cell" data-lang="es"><span class="phrase-flag">🇪🇸</span> <span class="phrase-text">¿Cómo <span class="verb-bold">va</span>? — ¡<span class="verb-bold">Va</span> bien!</span></div>
+                    <div class="phrase-cell" data-lang="pt"><span class="phrase-flag">🇵🇹</span> <span class="phrase-text">Como <span class="verb-bold">vai</span>? — <span class="verb-bold">Vai</span> tudo bem!</span></div>
+                    <div class="phrase-cell" data-lang="de"><span class="phrase-flag">🇩🇪</span> <span class="phrase-text">Wie <span class="verb-bold">geht</span>'s? — Es <span class="verb-bold">geht</span> gut!</span></div>
+                    <div class="phrase-cell" data-lang="el"><span class="phrase-flag">🇬🇷</span> <span class="phrase-text">Πώς <span class="verb-bold">πάει</span>; — <span class="verb-bold">Πάει</span> καλά!</span></div>
+                    <div class="phrase-cell" data-lang="ru"><span class="phrase-flag">🇷🇺</span> <span class="phrase-text">Как <span class="verb-bold">идут</span> дела? — Всё <span class="verb-bold">идёт</span> хорошо!</span></div>
+                </div>
+                <div class="phrase-note">💡 Idiomatic 'go' greeting works identically across English, French, Italian, Spanish, Portuguese, German, Greek, and Russian!</div>
+            </div>
+
+            <!-- 10. Be going to -->
+            <div class="phrase-row">
+                <div class="phrase-pattern">10. Be going to (near future)</div>
+                <div class="phrase-cells">
+                    <div class="phrase-cell" data-lang="en"><span class="phrase-flag">🇬🇧</span> <span class="phrase-text">I am <span class="verb-bold">going</span> to travel.</span></div>
+                    <div class="phrase-cell" data-lang="fr"><span class="phrase-flag">🇫🇷</span> <span class="phrase-text">Je <span class="verb-bold">vais</span> voyager.</span></div>
+                    <div class="phrase-cell" data-lang="it"><span class="phrase-flag">🇮🇹</span> <span class="phrase-text">Sto per <span class="verb-other">viaggiare</span>. / <span class="verb-bold">Vado</span> a viaggiare.</span></div>
+                    <div class="phrase-cell" data-lang="es"><span class="phrase-flag">🇪🇸</span> <span class="phrase-text"><span class="verb-bold">Voy</span> a viajar.</span></div>
+                    <div class="phrase-cell" data-lang="pt"><span class="phrase-flag">🇵🇹</span> <span class="phrase-text"><span class="verb-bold">Vou</span> viajar.</span></div>
+                    <div class="phrase-cell" data-lang="de"><span class="phrase-flag">🇩🇪</span> <span class="phrase-text">Ich <span class="verb-other">werde</span> reisen.</span></div>
+                    <div class="phrase-cell" data-lang="el"><span class="phrase-flag">🇬🇷</span> <span class="phrase-text"><span class="verb-other">Θα</span> ταξιδέψω.</span></div>
+                    <div class="phrase-cell" data-lang="ru"><span class="phrase-flag">🇷🇺</span> <span class="phrase-text">Я <span class="verb-other">буду</span> путешествовать.</span></div>
+                </div>
+                <div class="phrase-note">💡 French, Spanish, and Portuguese use 'go' + infinitive for immediate future. German, Greek, and Russian use auxiliary future verbs.</div>
+            </div>
         </div>
     </section>
 
