@@ -19,14 +19,55 @@
     <link rel="stylesheet" href="../css/practice-new.css">
 
     <style>
+        /* Reading Progress Bar */
+        .reading-progress-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--teal, #0d7a5f) 0%, var(--coral, #e05638) 100%);
+            width: 0%;
+            z-index: 9999;
+            transition: width 0.1s linear;
+        }
+
         .blog-post-hero {
             background: linear-gradient(135deg, #1e2f6b 0%, #0d7a5f 100%);
             color: #fff; padding: 3.5rem 2rem; border-radius: var(--r-xl); margin-bottom: 2rem;
+            position: relative;
         }
-        .blog-post-hero h1 { font-family: 'Fraunces', serif; font-size: 2.3rem; margin-bottom: 1rem; color: #fff; }
-        .blog-post-hero p { font-size: 1.05rem; opacity: 0.92; max-width: 820px; line-height: 1.6; }
-        .post-breadcrumb { margin-bottom: 1.5rem; font-size: 0.9rem; }
+        .blog-post-hero h1 { font-family: 'Fraunces', serif; font-size: 2.5rem; margin-bottom: 1rem; color: #fff; line-height: 1.25; }
+        .blog-post-hero p { font-size: 1.08rem; opacity: 0.94; max-width: 820px; line-height: 1.65; }
+        .post-breadcrumb { margin-bottom: 1.25rem; font-size: 0.9rem; }
         .post-breadcrumb a { color: rgba(255,255,255,0.85); text-decoration: underline; }
+        .article-meta-bar {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 1.25rem;
+            padding-top: 1.25rem;
+            border-top: 1px solid rgba(255,255,255,0.2);
+            font-size: 0.88rem;
+            opacity: 0.95;
+        }
+        .author-tag {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 600;
+        }
+        .author-avatar-sm {
+            width: 26px;
+            height: 26px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.25);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 0.75rem;
+        }
         .source-strip {
             display:flex; flex-wrap:wrap; gap:0.75rem; margin-top:1.25rem;
         }
@@ -245,16 +286,31 @@
     </style>
 </head>
 <body class="practice-page-new">
+    <div class="reading-progress-bar" id="readingProgress"></div>
 
     <nav id="cosy-nav"></nav>
 
     <div class="page">
         <header class="blog-post-hero">
             <div class="post-breadcrumb">
-                <a href="index.html">← Back to Blog Hub</a>
+                <a href="index.html">← Back to Blog &amp; Editorial Hub</a>
             </div>
-            <h1>🎯 Top 10 Essential Verbs for Absolute Beginners (A0–A1)</h1>
+            <h1>🎯 Top 10 Essential Verbs for Absolute Beginners (A0–A1) across 14 Languages</h1>
             <p>Inspired by the <a href="https://youtu.be/-pU2IpA1R2U" target="_blank" rel="noopener" style="color:#fff;text-decoration:underline;">COSYlanguages podcast episode</a> on the verbs every beginner needs first. These 10 verbs exist in all 14 languages we teach, each one linked straight to its live entry in <strong>COSYdata</strong> — our single source of truth — with the real grammar traps (like <em>to be</em> vs. <em>to have</em> for age) called out explicitly instead of glossed over.</p>
+
+            <div class="article-meta-bar">
+                <div class="author-tag">
+                    <div class="author-avatar-sm">C</div>
+                    <span>COSY Editorial Team</span>
+                </div>
+                <span>·</span>
+                <span>⏱️ 8 min read</span>
+                <span>·</span>
+                <span>📅 Published March 2026</span>
+                <span>·</span>
+                <span>💬 14 Languages Matrix</span>
+            </div>
+
             <div class="source-strip">
                 <a href="https://github.com/cosylanguages/COSYdata" target="_blank" rel="noopener">📁 COSYdata source repo</a>
                 <a href="https://youtu.be/-pU2IpA1R2U" target="_blank" rel="noopener">▶️ Podcast episode</a>
@@ -272,8 +328,10 @@
             <div class="lang-filter-header">
                 <h3 class="lang-filter-title">🌐 Select Language(s) to View</h3>
                 <div class="lang-filter-actions">
-                    <button class="lang-filter-btn-action" onclick="resetLangFilter()">Show All Languages</button>
-                    <button class="lang-filter-btn-action" onclick="clearLangFilter()">Clear Selection</button>
+                    <button class="lang-filter-btn-action" onclick="selectPreset('major')">🇪🇺 Core 8 Languages</button>
+                    <button class="lang-filter-btn-action" onclick="selectPreset('indigenous')">🏴 Regional Languages</button>
+                    <button class="lang-filter-btn-action" onclick="resetLangFilter()">Show All 14</button>
+                    <button class="lang-filter-btn-action" onclick="clearLangFilter()">Clear</button>
                 </div>
             </div>
             <div class="lang-filter-pills" id="lang-filter-pills">
@@ -293,7 +351,7 @@
                 <button class="lang-filter-pill" data-lang-filter="br" onclick="toggleLangFilter('br')">🏴 Breton</button>
                 <button class="lang-filter-pill" data-lang-filter="cv" onclick="toggleLangFilter('cv')">🏴 Chuvash</button>
             </div>
-            <div class="filter-status-summary" id="filter-status-summary">Showing all 14 languages. Click any language button to filter.</div>
+            <div class="filter-status-summary" id="filter-status-summary">Showing all 14 languages. Click any language button or preset to filter.</div>
         </section>
 
         <nav class="toc" aria-label="Table of contents">
@@ -2271,6 +2329,26 @@ review is required before merging, per COSYdata's contribution guide.</pre>
         </details>
     </div>
             </section>
+
+            <!-- Related Further Reading Section -->
+            <section class="about-box" style="margin-top:2.5rem;">
+                <h3>☕ Continue Exploring COSY Editorial Resources</h3>
+                <p>Enjoyed this 14-language breakdown? Explore our other canonical lists and teacher journals:</p>
+                <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:1rem; margin-top:1rem;">
+                    <a href="top-100-a0-a1-english.html" style="background:#fff; border:1px solid var(--border); padding:1rem; border-radius:var(--r-md); text-decoration:none; color:var(--ink);">
+                        <strong>🇬🇧 English A0-A1 Master List</strong>
+                        <div style="font-size:0.85rem; color:var(--ink-muted); margin-top:4px;">181 essential words in antonym pairs &amp; sequences.</div>
+                    </a>
+                    <a href="top-100-a0-a1-french.html" style="background:#fff; border:1px solid var(--border); padding:1rem; border-radius:var(--r-md); text-decoration:none; color:var(--ink);">
+                        <strong>🇫🇷 French A0-A1 Master List</strong>
+                        <div style="font-size:0.85rem; color:var(--ink-muted); margin-top:4px;">1,044 native A1 words with monolingual definitions.</div>
+                    </a>
+                    <a href="top-100-a0-a1-spanish.html" style="background:#fff; border:1px solid var(--border); padding:1rem; border-radius:var(--r-md); text-decoration:none; color:var(--ink);">
+                        <strong>🇪🇸 Spanish A0-A1 Master List</strong>
+                        <div style="font-size:0.85rem; color:var(--ink-muted); margin-top:4px;">483 native A1 words with in-language context.</div>
+                    </a>
+                </div>
+            </section>
         </main>
     </div>
 
@@ -2280,6 +2358,17 @@ review is required before merging, per COSYdata's contribution guide.</pre>
     </script>
 
     <script>
+      // Reading Progress Scroll Listener
+      window.addEventListener('scroll', () => {
+        const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        const scrolled = (winScroll / height) * 100;
+        const progressBar = document.getElementById('readingProgress');
+        if (progressBar) {
+          progressBar.style.width = scrolled + '%';
+        }
+      });
+
       // Multi-Language Filter Logic
       const LANG_NAMES = {
         'en': 'English', 'fr': 'French', 'it': 'Italian', 'es': 'Spanish',
@@ -2288,7 +2377,21 @@ review is required before merging, per COSYdata's contribution guide.</pre>
         'br': 'Breton', 'cv': 'Chuvash'
       };
 
+      const PRESETS = {
+        'major': ['en', 'fr', 'it', 'es', 'pt', 'de', 'el', 'ru'],
+        'indigenous': ['hy', 'ka', 'tt', 'ba', 'br', 'cv']
+      };
+
       let selectedLangs = new Set();
+
+      function selectPreset(presetKey) {
+        selectedLangs.clear();
+        if (PRESETS[presetKey]) {
+          PRESETS[presetKey].forEach(code => selectedLangs.add(code));
+        }
+        applyFilter();
+        updateUrlParams();
+      }
 
       function toggleLangFilter(lang) {
         if (lang === 'all') {
