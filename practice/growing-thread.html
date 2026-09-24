@@ -80,7 +80,7 @@
 
   <main class="gt-container">
     <div class="page-head">
-      <span class="eyebrow">A1 English Course Artifact</span>
+      <span class="eyebrow" id="course-artifact-badge">Course Artifact</span>
       <h1>Cumulative Growing Thread Viewer</h1>
       <p class="subtitle">Watch self-portrait monologues and dialogues expand lesson by lesson using only target language content learned so far.</p>
       <hr class="rule">
@@ -88,6 +88,12 @@
 
     <div class="gt-card">
       <div class="gt-controls">
+        <label for="lang-select"><strong>Language:</strong></label>
+        <select id="lang-select" class="gt-select"></select>
+
+        <label for="level-select"><strong>Level:</strong></label>
+        <select id="level-select" class="gt-select"></select>
+
         <label for="unit-select"><strong>Unit:</strong></label>
         <select id="unit-select" class="gt-select"></select>
 
@@ -115,23 +121,127 @@
     </div>
   </footer>
 
+  <script src="../js/data/languages.js"></script>
+  <script src="../js/core/engine.js"></script>
   <script>
     let curriculumData = null;
 
-    async function loadCurriculum() {
-      try {
-        const response = await fetch('../curriculum/en/general/A1.json');
-        curriculumData = await response.json();
-        initControls();
-      } catch (err) {
-        document.getElementById('self-portrait-output').textContent = 'Failed to load curriculum data.';
-        document.getElementById('dialogue-output').textContent = 'Failed to load curriculum data.';
+    function getLangName(code) {
+      if (window.COSY_LANGUAGES) {
+        const item = window.COSY_LANGUAGES.find(l => l.code === code);
+        if (item) return item.name;
+      }
+      return code.toUpperCase();
+    }
+
+    function getLevelName(id) {
+      if (window.COSY_LEVELS) {
+        const item = window.COSY_LEVELS.find(l => l.id === id || l.short === id);
+        if (item) return item.short || item.name;
+      }
+      return id.toUpperCase();
+    }
+
+    function initLangLevelControls() {
+      const langSelect = document.getElementById('lang-select');
+      const levelSelect = document.getElementById('level-select');
+
+      langSelect.innerHTML = '';
+      const languages = window.COSY_LANGUAGES || [
+        { code: 'en', name: 'English', flag: '🇬🇧' },
+        { code: 'fr', name: 'French', flag: '🇫🇷' },
+        { code: 'it', name: 'Italian', flag: '🇮🇹' },
+        { code: 'ru', name: 'Russian', flag: '🇷🇺' },
+        { code: 'el', name: 'Greek', flag: '🇬🇷' }
+      ];
+
+      languages.forEach(l => {
+        const opt = document.createElement('option');
+        opt.value = l.code;
+        opt.textContent = `${l.flag ? l.flag + ' ' : ''}${l.name}`;
+        langSelect.appendChild(opt);
+      });
+
+      levelSelect.innerHTML = '';
+      const levels = window.COSY_LEVELS || [
+        { id: 'starter', short: 'A1', name: 'A1 Starter' },
+        { id: 'elementary', short: 'A2', name: 'A2 Elementary' },
+        { id: 'intermediate', short: 'B1', name: 'B1 Intermediate' },
+        { id: 'upper_intermediate', short: 'B2', name: 'B2 Upper Intermediate' },
+        { id: 'advanced', short: 'C1', name: 'C1 Advanced' },
+        { id: 'proficiency', short: 'C2', name: 'C2 Proficiency' }
+      ];
+
+      levels.forEach(l => {
+        const opt = document.createElement('option');
+        opt.value = l.short || l.id;
+        opt.textContent = `${l.short ? l.short + ' - ' : ''}${l.name}`;
+        levelSelect.appendChild(opt);
+      });
+
+      langSelect.value = 'en';
+      levelSelect.value = 'A1';
+
+      langSelect.addEventListener('change', () => loadSelectedCurriculum());
+      levelSelect.addEventListener('change', () => loadSelectedCurriculum());
+    }
+
+    async function loadSelectedCurriculum() {
+      const langSelect = document.getElementById('lang-select');
+      const levelSelect = document.getElementById('level-select');
+      const unitSelect = document.getElementById('unit-select');
+      const lessonSelect = document.getElementById('lesson-select');
+      const infoEl = document.getElementById('active-lesson-info');
+      const spEl = document.getElementById('self-portrait-output');
+      const diagEl = document.getElementById('dialogue-output');
+      const badgeEl = document.getElementById('course-artifact-badge');
+
+      const langCode = langSelect.value || 'en';
+      const levelCode = levelSelect.value || 'A1';
+      const langName = getLangName(langCode);
+      const levelShort = getLevelName(levelCode);
+
+      if (badgeEl) badgeEl.textContent = `${levelShort} ${langName} Course Artifact`;
+
+      unitSelect.innerHTML = '<option value="">Loading...</option>';
+      lessonSelect.innerHTML = '<option value="">Loading...</option>';
+
+      let units = null;
+      if (window.COSY && window.COSY.loadCurriculum) {
+        units = await window.COSY.loadCurriculum(langCode, levelCode);
+      } else {
+        try {
+          const res = await fetch(`../curriculum/${langCode}/general/${levelCode.toUpperCase()}.json`);
+          if (res.ok) {
+            const data = await res.json();
+            units = data.units;
+          }
+        } catch (e) {
+          units = null;
+        }
+      }
+
+      if (units && units.length > 0) {
+        curriculumData = { units };
+        initUnitLessonControls();
+      } else {
+        curriculumData = null;
+        unitSelect.innerHTML = '<option value="">N/A</option>';
+        lessonSelect.innerHTML = '<option value="">N/A</option>';
+        infoEl.innerHTML = `<em>Growing Thread isn't available yet for ${escapeHTML(langName)} ${escapeHTML(levelShort)}.</em>`;
+        spEl.innerHTML = `<em>Growing Thread isn't available yet for ${escapeHTML(langName)} ${escapeHTML(levelShort)}.</em>`;
+        diagEl.innerHTML = `<em>Growing Thread isn't available yet for ${escapeHTML(langName)} ${escapeHTML(levelShort)}.</em>`;
       }
     }
 
-    function initControls() {
+    function initUnitLessonControls() {
       const unitSelect = document.getElementById('unit-select');
       unitSelect.innerHTML = '';
+
+      if (!curriculumData || !curriculumData.units || curriculumData.units.length === 0) {
+        return;
+      }
+
       curriculumData.units.forEach((u) => {
         const opt = document.createElement('option');
         opt.value = u.unit;
@@ -139,8 +249,8 @@
         unitSelect.appendChild(opt);
       });
 
-      unitSelect.addEventListener('change', () => updateLessonOptions());
-      document.getElementById('lesson-select').addEventListener('change', () => renderThreads());
+      unitSelect.onchange = () => updateLessonOptions();
+      document.getElementById('lesson-select').onchange = () => renderThreads();
 
       updateLessonOptions();
     }
@@ -148,6 +258,8 @@
     function updateLessonOptions() {
       const unitSelect = document.getElementById('unit-select');
       const lessonSelect = document.getElementById('lesson-select');
+      if (!unitSelect.value || !curriculumData) return;
+
       const selectedUnitNum = parseInt(unitSelect.value, 10);
       const unit = curriculumData.units.find(u => u.unit === selectedUnitNum);
 
@@ -166,6 +278,8 @@
     function renderThreads() {
       const unitSelect = document.getElementById('unit-select');
       const lessonSelect = document.getElementById('lesson-select');
+      if (!unitSelect.value || !lessonSelect.value || !curriculumData) return;
+
       const selectedUnitNum = parseInt(unitSelect.value, 10);
       const selectedLessonNum = parseInt(lessonSelect.value, 10);
 
@@ -197,10 +311,11 @@
     }
 
     function escapeHTML(str) {
-      return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      return (str || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
     }
 
-    loadCurriculum();
+    initLangLevelControls();
+    loadSelectedCurriculum();
   </script>
 </body>
 </html>
