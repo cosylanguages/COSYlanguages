@@ -16,122 +16,35 @@
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/components.css">
     <link rel="stylesheet" href="../css/layout.css">
-    <link rel="stylesheet" href="../css/practice-new.css">
-
-    <style>
-        .blog-post-hero {
-            background: linear-gradient(135deg, #1e2f6b 0%, #0d7a5f 100%);
-            color: #fff;
-            padding: 3.5rem 2rem;
-            border-radius: var(--r-xl);
-            margin-bottom: 2.5rem;
-        }
-        .blog-post-hero h1 {
-            font-family: 'Fraunces', serif;
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-            color: #fff;
-        }
-        .blog-post-hero p {
-            font-size: 1.1rem;
-            opacity: 0.9;
-            max-width: 800px;
-            line-height: 1.6;
-        }
-        .post-breadcrumb {
-            margin-bottom: 1.5rem;
-            font-size: 0.9rem;
-        }
-        .post-breadcrumb a {
-            color: rgba(255,255,255,0.8);
-            text-decoration: underline;
-        }
-        .list-section {
-            background: #fff;
-            border: 1px solid var(--border);
-            border-radius: var(--r-xl);
-            padding: 2rem;
-            margin-bottom: 2.5rem;
-        }
-        .sec-head {
-            border-bottom: 2px solid var(--cream);
-            padding-bottom: 1rem;
-            margin-bottom: 1.5rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .sec-head h2 {
-            font-family: 'Fraunces', serif;
-            font-size: 1.6rem;
-            color: var(--ink);
-        }
-        .cards-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-            gap: 1.25rem;
-        }
-        .lex-card {
-            background: var(--warm-white);
-            border: 1px solid var(--border);
-            border-radius: var(--r-md);
-            padding: 1.25rem;
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-        }
-        .lex-theme {
-            font-size: 0.7rem;
-            font-weight: 800;
-            text-transform: uppercase;
-            color: var(--teal);
-            letter-spacing: 0.05em;
-        }
-        .lex-pair {
-            font-family: 'Fraunces', serif;
-            font-size: 1.1rem;
-            font-weight: 600;
-            color: var(--ink);
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-        .lex-arrow {
-            color: var(--coral);
-            font-weight: 800;
-        }
-        .lex-ex {
-            font-size: 0.85rem;
-            font-style: italic;
-            color: var(--ink);
-            background: rgba(255,255,255,0.8);
-            padding: 8px 12px;
-            border-radius: 6px;
-            border-left: 3px solid var(--teal);
-        }
-    </style>
+    <link rel="stylesheet" href="../css/blog.css">
 </head>
-<body class="practice-page-new">
+<body class="blog-page">
 
     <nav id="cosy-nav"></nav>
 
-    <div class="page">
-        <header class="blog-post-hero">
+    <div class="blog-wrapper">
+        <header class="blog-header">
             <div class="post-breadcrumb">
-                <a href="index.html">← Back to Blog Hub</a>
+                <a href="index.html">← Back to Blog &amp; Editorial Hub</a>
             </div>
-            <h1>🇬🇧 Top 100 (181) English A0-A1 Master List</h1>
-            <p>Planning to start learning English? Here is the complete, obligatory beginner blueprint: essential nouns across real-life themes, action verbs grouped in antonym pairs and step-by-step evolutions, descriptive adjectives in opposite pairs and intensity scales, and essential conversational survival phrase patterns.</p>
+            <h1 class="blog-header-title">🇬🇧 Top 100 (181) English A0-A1 Master List</h1>
+            <p class="blog-header-tagline">Planning to start learning English? Here is the complete, obligatory beginner blueprint: essential nouns across real-life themes, action verbs grouped in antonym pairs and step-by-step evolutions, descriptive adjectives in opposite pairs and intensity scales, and essential conversational survival phrase patterns.</p>
+            <div class="blog-header-meta">
+                <span class="blog-meta-chip">🏷️ English Curriculum</span>
+                <span class="blog-meta-chip">🎯 Level A0–A1</span>
+                <span class="blog-meta-chip">📖 181 Lexical Entries</span>
+            </div>
         </header>
 
-        <main>
-            <!-- 1. NOUNS -->
-            <section class="list-section">
-                <div class="sec-head">
-                    <h2>🏛️ 1. Top 100 (69) Essential English Nouns (A0–A1)</h2>
-                    <span style="font-weight:800; color:var(--teal);">69 Items</span>
-                </div>
-                <div class="cards-grid">
+        <div class="blog-layout">
+            <main class="blog-main-col">
+                <!-- 1. NOUNS -->
+                <section class="list-section" id="sec-nouns">
+                    <div class="sec-head">
+                        <h2>🏛️ 1. Top 100 (69) Essential English Nouns (A0–A1)</h2>
+                        <span class="cat-badge">69 Items</span>
+                    </div>
+                    <div class="cards-grid">
 
                     <div class="lex-card">
                         <span class="lex-theme">Time Evolution</span>
@@ -616,16 +529,16 @@
                         </div>
                         <div class="lex-ex">"Find a solution to every problem."</div>
                     </div>
-                </div>
-            </section>
+                    </div>
+                </section>
 
-            <!-- 2. VERBS -->
-            <section class="list-section">
-                <div class="sec-head">
-                    <h2>⚡ 2. Top 100 (50) Essential English Verbs (A0–A1)</h2>
-                    <span style="font-weight:800; color:var(--teal);">50 Items</span>
-                </div>
-                <div class="cards-grid">
+                <!-- 2. VERBS -->
+                <section class="list-section" id="sec-verbs">
+                    <div class="sec-head">
+                        <h2>⚡ 2. Top 100 (50) Essential English Verbs (A0–A1)</h2>
+                        <span class="cat-badge">50 Items</span>
+                    </div>
+                    <div class="cards-grid">
 
                     <div class="lex-card">
                         <span class="lex-theme">Morning Routine</span>
@@ -977,16 +890,16 @@
                         </div>
                         <div class="lex-ex">"Increase speed, decrease sound."</div>
                     </div>
-                </div>
-            </section>
+                    </div>
+                </section>
 
-            <!-- 3. ADJECTIVES -->
-            <section class="list-section">
-                <div class="sec-head">
-                    <h2>🎨 3. Top 100 (45) Essential English Adjectives (A0–A1)</h2>
-                    <span style="font-weight:800; color:var(--teal);">45 Items</span>
-                </div>
-                <div class="cards-grid">
+                <!-- 3. ADJECTIVES -->
+                <section class="list-section" id="sec-adjectives">
+                    <div class="sec-head">
+                        <h2>🎨 3. Top 100 (45) Essential English Adjectives (A0–A1)</h2>
+                        <span class="cat-badge">45 Items</span>
+                    </div>
+                    <div class="cards-grid">
 
                     <div class="lex-card">
                         <span class="lex-theme">Temperature Scale</span>
@@ -1303,16 +1216,16 @@
                         </div>
                         <div class="lex-ex">"Sharp knife, blunt pencil."</div>
                     </div>
-                </div>
-            </section>
+                    </div>
+                </section>
 
-            <!-- 4. PHRASES -->
-            <section class="list-section">
-                <div class="sec-head">
-                    <h2>💬 4. Top 100 (17) Essential English Expressions & Phrases (A0–A1)</h2>
-                    <span style="font-weight:800; color:var(--teal);">17 Items</span>
-                </div>
-                <div class="cards-grid">
+                <!-- 4. PHRASES -->
+                <section class="list-section" id="sec-phrases">
+                    <div class="sec-head">
+                        <h2>💬 4. Top 100 (17) Essential English Expressions & Phrases (A0–A1)</h2>
+                        <span class="cat-badge">17 Items</span>
+                    </div>
+                    <div class="cards-grid">
 
                     <div class="lex-card">
                         <span class="lex-theme">Greetings & Courtesy</span>
@@ -1433,9 +1346,52 @@
                         </div>
                         <div class="lex-ex">"One, two, three ➔ Four, five, six ➔ Seven, eight, nine"</div>
                     </div>
+                    </div>
+                </section>
+            </main>
+
+            <!-- Classic Sidebar -->
+            <aside class="blog-sidebar">
+                <div class="sidebar-widget">
+                    <h3 class="sidebar-widget-title">📌 Quick Navigation</h3>
+                    <ul class="sidebar-list">
+                        <li><a href="#sec-nouns">🏛️ Nouns (69)</a></li>
+                        <li><a href="#sec-verbs">⚡ Verbs (50)</a></li>
+                        <li><a href="#sec-adjectives">🎨 Adjectives (45)</a></li>
+                        <li><a href="#sec-phrases">💬 Phrases (17)</a></li>
+                    </ul>
                 </div>
-            </section>
-        </main>
+
+                <div class="sidebar-widget">
+                    <h3 class="sidebar-widget-title">🌐 Other Languages</h3>
+                    <div class="label-cloud">
+                        <a href="top-100-a0-a1-english.html" class="sidebar-label-chip">🇬🇧 English</a>
+                        <a href="top-100-a0-a1-french.html" class="sidebar-label-chip">🇫🇷 French</a>
+                        <a href="top-100-a0-a1-italian.html" class="sidebar-label-chip">🇮🇹 Italian</a>
+                        <a href="top-100-a0-a1-russian.html" class="sidebar-label-chip">🇷🇺 Russian</a>
+                        <a href="top-100-a0-a1-greek.html" class="sidebar-label-chip">🇬🇷 Greek</a>
+                        <a href="top-100-a0-a1-spanish.html" class="sidebar-label-chip">🇪🇸 Spanish</a>
+                        <a href="top-100-a0-a1-german.html" class="sidebar-label-chip">🇩🇪 German</a>
+                        <a href="top-100-a0-a1-portuguese.html" class="sidebar-label-chip">🇵🇹 Portuguese</a>
+                        <a href="top-100-a0-a1-armenian.html" class="sidebar-label-chip">🇦🇲 Armenian</a>
+                        <a href="top-100-a0-a1-georgian.html" class="sidebar-label-chip">🇬🇪 Georgian</a>
+                        <a href="top-100-a0-a1-tatar.html" class="sidebar-label-chip">🏴 Tatar</a>
+                        <a href="top-100-a0-a1-bashkir.html" class="sidebar-label-chip">🏴 Bashkir</a>
+                        <a href="top-100-a0-a1-breton.html" class="sidebar-label-chip">🏴 Breton</a>
+                    </div>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3 class="sidebar-widget-title">🌟 Featured Post</h3>
+                    <ul class="sidebar-list">
+                        <li>
+                            <a href="top-10-verbs.html"><strong>🎯 Top 10 Essential Verbs across 14 Languages</strong></a>
+                            <span class="sidebar-post-date">Multi-Language Matrix &amp; Grammar Traps</span>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
     </div>
 
     <footer>
@@ -1450,7 +1406,7 @@
             <div class="footer-links-col">
                 <h5>Explore</h5>
                 <a href="../practice/index.html">Free Practice 💡</a>
-                <a href="index.html">COSY Blog & Hub 📝</a>
+                <a href="index.html">COSY Blog &amp; Hub 📝</a>
             </div>
         </div>
         <div class="footer-bottom">© 2026 COSYlanguages — All rights reserved</div>

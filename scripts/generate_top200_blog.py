@@ -3,15 +3,18 @@
 generate_top200_blog.py
 Generates Essential A0-A1 Master Curriculum List blog pages for 13 supported languages.
 - English uses curated A0-A1 Nouns, Verbs, Adjectives, and Survival Phrases.
-- Target languages (fr, it, ru, el, es, de, pt, hy, ka, tt, ba, br) pull directly from
-  vocabulary/{lang}/A1/*.js, displaying native words, monolingual definitions,
-  examples, and Latin transliteration for non-Latin scripts (ru, el, hy, ka, tt, ba).
+- Target languages (fr, it, ru, el, es, de, pt, hy, ka, tt, ba, br) fetch A0-A1 entries
+  directly from COSYdata repository (https://raw.githubusercontent.com/cosylanguages/COSYdata/main/vocabulary/{lang}/a0_a1/),
+  displaying native words, monolingual definitions, examples, and Latin transliteration
+  for non-Latin scripts.
+- Uses shared css/blog.css and classic Blogger.com layout styling.
 """
 
 import os
 import glob
 import json
-import subprocess
+import urllib.request
+import tempfile
 
 LANGUAGES = {
     'en': {
@@ -86,21 +89,21 @@ LANGUAGES = {
     },
     'tt': {
         'name': 'Tatar',
-        'flag': '⬜',
+        'flag': '🏴',
         'slug': 'tatar',
         'sub': 'A0–A1 Master Curriculum',
         'intro': 'Planning to start learning Tatar? Here is the complete beginner blueprint in Tatar script with Latin transliterations: essential nouns, action verbs, adjectives, and expressions.'
     },
     'ba': {
         'name': 'Bashkir',
-        'flag': '⬜',
+        'flag': '🏴',
         'slug': 'bashkir',
         'sub': 'A0–A1 Master Curriculum',
         'intro': 'Planning to start learning Bashkir? Here is the complete beginner blueprint in Bashkir script with Latin transliterations: essential nouns, action verbs, adjectives, and expressions.'
     },
     'br': {
         'name': 'Breton',
-        'flag': '🏴‍☠️',
+        'flag': '🏴',
         'slug': 'breton',
         'sub': 'A0–A1 Master Curriculum',
         'intro': 'Planning to start learning Breton? Here is the complete beginner blueprint: essential nouns, action verbs, adjectives, and conversational phrase patterns.'
@@ -391,46 +394,24 @@ def get_transliteration(lang_code, word):
     return ""
 
 def load_lang_vocab_data(lang_code):
-    js_runner = r"""
-const fs = require('fs');
-const vm = require('vm');
-
-const files = process.argv.slice(1);
-let allItems = [];
-
-for (const file of files) {
-  try {
-    const code = fs.readFileSync(file, 'utf8');
-    const window = { speakingData: {}, vocabData: {}, vocabularyData: {} };
-    const sandbox = { window, console: { log: ()=>{}, error: ()=>{} } };
-
-    vm.createContext(sandbox);
-    vm.runInContext(code, sandbox);
-
-    let items = sandbox.data || [];
-    if (!items.length) {
-      for (const k of Object.keys(window)) {
-        if (window[k] && typeof window[k] === 'object') {
-          for (const l of Object.keys(window[k])) {
-            if (Array.isArray(window[k][l])) items = items.concat(window[k][l]);
-          }
-        }
-      }
-    }
-    allItems = allItems.concat(items);
-  } catch (e) {}
-}
-
-process.stdout.write(JSON.stringify(allItems));
-"""
-    files = glob.glob(os.path.join("vocabulary", lang_code, "A1", "**", "*.js"), recursive=True)
-    if not files:
-        return []
+    # Fetch file list from COSYdata GitHub API
+    api_url = f'https://api.github.com/repos/cosylanguages/COSYdata/contents/vocabulary/{lang_code}/a0_a1'
+    req = urllib.request.Request(api_url, headers={'User-Agent': 'Mozilla/5.0'})
     try:
-        res = subprocess.run(["node", "-e", js_runner] + files, capture_output=True, text=True, check=True)
-        return json.loads(res.stdout)
+        with urllib.request.urlopen(req) as resp:
+            files_info = json.loads(resp.read().decode())
+            fn_list = [f['name'] for f in files_info if f['name'].endswith('.json')]
+            items = []
+            for fn in fn_list:
+                raw_url = f'https://raw.githubusercontent.com/cosylanguages/COSYdata/main/vocabulary/{lang_code}/a0_a1/{fn}'
+                r2 = urllib.request.Request(raw_url, headers={'User-Agent': 'Mozilla/5.0'})
+                with urllib.request.urlopen(r2) as resp2:
+                    data = json.loads(resp2.read().decode())
+                    if isinstance(data, list):
+                        items.extend(data)
+            return items
     except Exception as e:
-        print(f"Error loading {lang_code} A1 vocabulary: {e}")
+        print(f"Error fetching COSYdata for {lang_code}: {e}")
         return []
 
 def generate_cards_html_en(items_list):
@@ -471,7 +452,7 @@ def generate_cards_html_target(lang_code, items_list):
         ex_text = examples[0] if examples else ''
 
         latin_trans = get_transliteration(lang_code, word) if is_non_latin else ""
-        trans_html = f'<div class="lex-transliteration" style="font-size:0.85rem; color:var(--teal); font-style:italic; margin-top:-4px;">[{latin_trans}]</div>' if latin_trans and latin_trans.lower() != word.lower() else ''
+        trans_html = f'<div class="lex-transliteration" style="font-size:0.85rem; color:var(--teal); font-style:italic; margin-top:-2px;">[{latin_trans}]</div>' if latin_trans and latin_trans.lower() != word.lower() else ''
 
         ex_html = f'<div class="lex-ex">"{ex_text}"</div>' if ex_text else ''
         def_html = f'<div class="lex-def" style="font-size:0.9rem; color:var(--ink-muted);">{def_text}</div>' if def_text else ''
@@ -553,159 +534,115 @@ def generate_page(lang_code, lang_info):
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/components.css">
     <link rel="stylesheet" href="../css/layout.css">
-    <link rel="stylesheet" href="../css/practice-new.css">
-
-    <style>
-        .blog-post-hero {{
-            background: linear-gradient(135deg, #1e2f6b 0%, #0d7a5f 100%);
-            color: #fff;
-            padding: 3.5rem 2rem;
-            border-radius: var(--r-xl);
-            margin-bottom: 2.5rem;
-        }}
-        .blog-post-hero h1 {{
-            font-family: 'Fraunces', serif;
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-            color: #fff;
-        }}
-        .blog-post-hero p {{
-            font-size: 1.1rem;
-            opacity: 0.9;
-            max-width: 800px;
-            line-height: 1.6;
-        }}
-        .post-breadcrumb {{
-            margin-bottom: 1.5rem;
-            font-size: 0.9rem;
-        }}
-        .post-breadcrumb a {{
-            color: rgba(255,255,255,0.8);
-            text-decoration: underline;
-        }}
-        .list-section {{
-            background: #fff;
-            border: 1px solid var(--border);
-            border-radius: var(--r-xl);
-            padding: 2rem;
-            margin-bottom: 2.5rem;
-        }}
-        .sec-head {{
-            border-bottom: 2px solid var(--cream);
-            padding-bottom: 1rem;
-            margin-bottom: 1.5rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }}
-        .sec-head h2 {{
-            font-family: 'Fraunces', serif;
-            font-size: 1.6rem;
-            color: var(--ink);
-        }}
-        .cards-grid {{
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-            gap: 1.25rem;
-        }}
-        .lex-card {{
-            background: var(--warm-white);
-            border: 1px solid var(--border);
-            border-radius: var(--r-md);
-            padding: 1.25rem;
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-        }}
-        .lex-theme {{
-            font-size: 0.7rem;
-            font-weight: 800;
-            text-transform: uppercase;
-            color: var(--teal);
-            letter-spacing: 0.05em;
-        }}
-        .lex-pair {{
-            font-family: 'Fraunces', serif;
-            font-size: 1.1rem;
-            font-weight: 600;
-            color: var(--ink);
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }}
-        .lex-arrow {{
-            color: var(--coral);
-            font-weight: 800;
-        }}
-        .lex-ex {{
-            font-size: 0.85rem;
-            font-style: italic;
-            color: var(--ink);
-            background: rgba(255,255,255,0.8);
-            padding: 8px 12px;
-            border-radius: 6px;
-            border-left: 3px solid var(--teal);
-        }}
-    </style>
+    <link rel="stylesheet" href="../css/blog.css">
 </head>
-<body class="practice-page-new">
+<body class="blog-page">
 
     <nav id="cosy-nav"></nav>
 
-    <div class="page">
-        <header class="blog-post-hero">
+    <div class="blog-wrapper">
+        <header class="blog-header">
             <div class="post-breadcrumb">
-                <a href="index.html">← Back to Blog Hub</a>
+                <a href="index.html">← Back to Blog &amp; Editorial Hub</a>
             </div>
-            <h1>{flag} Top 100 ({total_count}) {name} A0-A1 Master List</h1>
-            <p>{intro}</p>
+            <h1 class="blog-header-title">{flag} Top 100 ({total_count}) {name} A0-A1 Master List</h1>
+            <p class="blog-header-tagline">{intro}</p>
+            <div class="blog-header-meta">
+                <span class="blog-meta-chip">🏷️ {name} Curriculum</span>
+                <span class="blog-meta-chip">🎯 Level A0–A1</span>
+                <span class="blog-meta-chip">📖 {total_count} Lexical Entries</span>
+            </div>
         </header>
 
-        <main>
-            <!-- 1. NOUNS -->
-            <section class="list-section">
-                <div class="sec-head">
-                    <h2>{nouns_title}</h2>
-                    <span style="font-weight:800; color:var(--teal);">{nouns_count} Items</span>
-                </div>
-                <div class="cards-grid">
+        <div class="blog-layout">
+            <main class="blog-main-col">
+                <!-- 1. NOUNS -->
+                <section class="list-section" id="sec-nouns">
+                    <div class="sec-head">
+                        <h2>{nouns_title}</h2>
+                        <span class="cat-badge">{nouns_count} Items</span>
+                    </div>
+                    <div class="cards-grid">
 {nouns_html}
-                </div>
-            </section>
+                    </div>
+                </section>
 
-            <!-- 2. VERBS -->
-            <section class="list-section">
-                <div class="sec-head">
-                    <h2>{verbs_title}</h2>
-                    <span style="font-weight:800; color:var(--teal);">{verbs_count} Items</span>
-                </div>
-                <div class="cards-grid">
+                <!-- 2. VERBS -->
+                <section class="list-section" id="sec-verbs">
+                    <div class="sec-head">
+                        <h2>{verbs_title}</h2>
+                        <span class="cat-badge">{verbs_count} Items</span>
+                    </div>
+                    <div class="cards-grid">
 {verbs_html}
-                </div>
-            </section>
+                    </div>
+                </section>
 
-            <!-- 3. ADJECTIVES -->
-            <section class="list-section">
-                <div class="sec-head">
-                    <h2>{adj_title}</h2>
-                    <span style="font-weight:800; color:var(--teal);">{adj_count} Items</span>
-                </div>
-                <div class="cards-grid">
+                <!-- 3. ADJECTIVES -->
+                <section class="list-section" id="sec-adjectives">
+                    <div class="sec-head">
+                        <h2>{adj_title}</h2>
+                        <span class="cat-badge">{adj_count} Items</span>
+                    </div>
+                    <div class="cards-grid">
 {adj_html}
-                </div>
-            </section>
+                    </div>
+                </section>
 
-            <!-- 4. PHRASES -->
-            <section class="list-section">
-                <div class="sec-head">
-                    <h2>{phrases_title}</h2>
-                    <span style="font-weight:800; color:var(--teal);">{phrases_count} Items</span>
-                </div>
-                <div class="cards-grid">
+                <!-- 4. PHRASES -->
+                <section class="list-section" id="sec-phrases">
+                    <div class="sec-head">
+                        <h2>{phrases_title}</h2>
+                        <span class="cat-badge">{phrases_count} Items</span>
+                    </div>
+                    <div class="cards-grid">
 {phrases_html}
+                    </div>
+                </section>
+            </main>
+
+            <!-- Classic Sidebar -->
+            <aside class="blog-sidebar">
+                <div class="sidebar-widget">
+                    <h3 class="sidebar-widget-title">📌 Quick Navigation</h3>
+                    <ul class="sidebar-list">
+                        <li><a href="#sec-nouns">🏛️ Nouns ({nouns_count})</a></li>
+                        <li><a href="#sec-verbs">⚡ Verbs ({verbs_count})</a></li>
+                        <li><a href="#sec-adjectives">🎨 Adjectives ({adj_count})</a></li>
+                        <li><a href="#sec-phrases">💬 Phrases ({phrases_count})</a></li>
+                    </ul>
                 </div>
-            </section>
-        </main>
+
+                <div class="sidebar-widget">
+                    <h3 class="sidebar-widget-title">🌐 Other Languages</h3>
+                    <div class="label-cloud">
+                        <a href="top-100-a0-a1-english.html" class="sidebar-label-chip">🇬🇧 English</a>
+                        <a href="top-100-a0-a1-french.html" class="sidebar-label-chip">🇫🇷 French</a>
+                        <a href="top-100-a0-a1-italian.html" class="sidebar-label-chip">🇮🇹 Italian</a>
+                        <a href="top-100-a0-a1-russian.html" class="sidebar-label-chip">🇷🇺 Russian</a>
+                        <a href="top-100-a0-a1-greek.html" class="sidebar-label-chip">🇬🇷 Greek</a>
+                        <a href="top-100-a0-a1-spanish.html" class="sidebar-label-chip">🇪🇸 Spanish</a>
+                        <a href="top-100-a0-a1-german.html" class="sidebar-label-chip">🇩🇪 German</a>
+                        <a href="top-100-a0-a1-portuguese.html" class="sidebar-label-chip">🇵🇹 Portuguese</a>
+                        <a href="top-100-a0-a1-armenian.html" class="sidebar-label-chip">🇦🇲 Armenian</a>
+                        <a href="top-100-a0-a1-georgian.html" class="sidebar-label-chip">🇬🇪 Georgian</a>
+                        <a href="top-100-a0-a1-tatar.html" class="sidebar-label-chip">🏴 Tatar</a>
+                        <a href="top-100-a0-a1-bashkir.html" class="sidebar-label-chip">🏴 Bashkir</a>
+                        <a href="top-100-a0-a1-breton.html" class="sidebar-label-chip">🏴 Breton</a>
+                    </div>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3 class="sidebar-widget-title">🌟 Featured Post</h3>
+                    <ul class="sidebar-list">
+                        <li>
+                            <a href="top-10-verbs.html"><strong>🎯 Top 10 Essential Verbs across 14 Languages</strong></a>
+                            <span class="sidebar-post-date">Multi-Language Matrix &amp; Grammar Traps</span>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
     </div>
 
     <footer>
@@ -720,7 +657,7 @@ def generate_page(lang_code, lang_info):
             <div class="footer-links-col">
                 <h5>Explore</h5>
                 <a href="../practice/index.html">Free Practice 💡</a>
-                <a href="index.html">COSY Blog & Hub 📝</a>
+                <a href="index.html">COSY Blog &amp; Hub 📝</a>
             </div>
         </div>
         <div class="footer-bottom">© 2026 COSYlanguages — All rights reserved</div>
