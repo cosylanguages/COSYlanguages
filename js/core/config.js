@@ -1,7 +1,7 @@
 /**
  * js/core/config.js
  * Central Configuration Layer for COSY Repository URLs and Ecosystem Routes.
- * Single source of truth across COSYlanguages, COSYmanuals, COSYevents, COSYworld, COSYgames, and COSYtools.
+ * Single source of truth across COSYlanguages, COSYmanuals, COSYevents, COSYgames, and COSYtools.
  */
 
 (function (root, factory) {
@@ -21,7 +21,6 @@
     COSYlanguages: "https://cosylanguages.github.io/COSYlanguages/",
     COSYmanuals: "https://cosylanguages.github.io/COSYmanuals/",
     COSYevents: "https://cosylanguages.github.io/COSYevents/",
-    COSYworld: "https://cosylanguages.github.io/COSYworld/",
     COSYgames: "https://cosylanguages.github.io/COSYgames/",
     COSYtools: "https://cosylanguages.github.io/COSYtools/"
   };
@@ -31,7 +30,6 @@
     COSYlanguages: "http://localhost:3000/",
     COSYmanuals: "http://localhost:3001/",
     COSYevents: "http://localhost:3002/",
-    COSYworld: "http://localhost:3003/",
     COSYgames: "http://localhost:3004/",
     COSYtools: "http://localhost:3005/"
   };
@@ -41,7 +39,6 @@
     COSYlanguages: "https://preview.cosylanguages.com/",
     COSYmanuals: "https://preview-manuals.cosylanguages.com/",
     COSYevents: "https://preview-events.cosylanguages.com/",
-    COSYworld: "https://preview-world.cosylanguages.com/",
     COSYgames: "https://preview-games.cosylanguages.com/",
     COSYtools: "https://preview-tools.cosylanguages.com/"
   };
@@ -80,21 +77,17 @@
    * @returns {boolean}
    */
   function isManualsAuthorized(authContext) {
-    if (authContext && typeof authContext.isTeacher === "boolean") {
-      return authContext.isTeacher || authContext.isAdmin === true;
+    if (authContext) {
+      return authContext.isAdmin === true;
     }
 
     if (typeof window !== "undefined") {
       try {
-        if (window.COSY_USER && (window.COSY_USER.role === "teacher" || window.COSY_USER.role === "admin" || window.COSY_USER.isTeacher)) {
+        if (window.COSY_USER && window.COSY_USER.role === "admin") {
           return true;
         }
         const role = window.localStorage ? window.localStorage.getItem("cosy_user_role") : null;
-        if (role === "teacher" || role === "admin") {
-          return true;
-        }
-        const teacherCode = window.localStorage ? window.localStorage.getItem("cosy_teacher_passcode") : null;
-        if (teacherCode && teacherCode.length > 0) {
+        if (role === "admin") {
           return true;
         }
       } catch (e) {
@@ -126,7 +119,6 @@
       if (process.env.COSY_LANGUAGES_URL) baseSet.COSYlanguages = process.env.COSY_LANGUAGES_URL;
       if (process.env.COSY_MANUALS_URL) baseSet.COSYmanuals = process.env.COSY_MANUALS_URL;
       if (process.env.COSY_EVENTS_URL) baseSet.COSYevents = process.env.COSY_EVENTS_URL;
-      if (process.env.COSY_WORLD_URL) baseSet.COSYworld = process.env.COSY_WORLD_URL;
       if (process.env.COSY_GAMES_URL) baseSet.COSYgames = process.env.COSY_GAMES_URL;
       if (process.env.COSY_TOOLS_URL) baseSet.COSYtools = process.env.COSY_TOOLS_URL;
     }
@@ -163,7 +155,7 @@
 
   /**
    * Retrieve single repository base URL safely.
-   * @param {string} repoKey - 'COSYlanguages' | 'COSYmanuals' | 'COSYevents' | 'COSYworld' | 'COSYgames' | 'COSYtools'
+   * @param {string} repoKey - 'COSYlanguages' | 'COSYmanuals' | 'COSYevents' | 'COSYgames' | 'COSYtools'
    * @param {Object} [options]
    * @returns {string|null}
    */

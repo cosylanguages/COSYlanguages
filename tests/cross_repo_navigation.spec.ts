@@ -20,7 +20,7 @@ test.describe('Public Cross-Repository Navigation Suite', () => {
 
     // Desktop menu bar
     const menuLinks = page.locator('#cosy-nav .nav-links a');
-    await expect(menuLinks).toHaveCount(8);
+    await expect(menuLinks).toHaveCount(6);
 
     // Verify audience-friendly labels (no raw repository names like COSYgames or COSYmanuals)
     const expectedLabels = [
@@ -28,10 +28,8 @@ test.describe('Public Cross-Repository Navigation Suite', () => {
       'Practice',
       'Tools',
       'Games',
-      'World',
       'Events',
-      'Blog',
-      'Teacher resources'
+      'Blog'
     ];
 
     for (let i = 0; i < expectedLabels.length; i++) {
@@ -52,10 +50,8 @@ test.describe('Public Cross-Repository Navigation Suite', () => {
     await expect(links.nth(1)).toHaveAttribute('href', /practice\/index\.html/);
     await expect(links.nth(2)).toHaveAttribute('href', 'https://cosylanguages.github.io/COSYtools/');
     await expect(links.nth(3)).toHaveAttribute('href', 'https://cosylanguages.github.io/COSYgames/');
-    await expect(links.nth(4)).toHaveAttribute('href', 'https://cosylanguages.github.io/COSYworld/');
-    await expect(links.nth(5)).toHaveAttribute('href', 'https://cosylanguages.github.io/COSYevents/');
-    await expect(links.nth(6)).toHaveAttribute('href', /blog\/index\.html/);
-    await expect(links.nth(7)).toHaveAttribute('href', 'https://cosylanguages.github.io/COSYmanuals/');
+    await expect(links.nth(4)).toHaveAttribute('href', 'https://cosylanguages.github.io/COSYevents/');
+    await expect(links.nth(5)).toHaveAttribute('href', /blog\/index\.html/);
 
     // Test dynamic URL configuration overrides
     const overriddenToolsUrl = await page.evaluate(() => {
@@ -101,10 +97,8 @@ test.describe('Public Cross-Repository Navigation Suite', () => {
     expect(drawerTexts.some(t => t.includes('Practice'))).toBe(true);
     expect(drawerTexts.some(t => t.includes('Tools'))).toBe(true);
     expect(drawerTexts.some(t => t.includes('Games'))).toBe(true);
-    expect(drawerTexts.some(t => t.includes('World'))).toBe(true);
     expect(drawerTexts.some(t => t.includes('Events'))).toBe(true);
     expect(drawerTexts.some(t => t.includes('Blog'))).toBe(true);
-    expect(drawerTexts.some(t => t.includes('Teacher resources'))).toBe(true);
 
     // Close mobile menu
     await menuBtn.click();
@@ -155,10 +149,8 @@ test.describe('Public Cross-Repository Navigation Suite', () => {
         practice: window.COSY.getNavHref('practice'),
         tools: window.COSY.getNavHref('tools'),
         games: window.COSY.getNavHref('games'),
-        world: window.COSY.getNavHref('world'),
         events: window.COSY.getNavHref('events'),
-        blog: window.COSY.getNavHref('blog'),
-        teacher: window.COSY.getNavHref('teacher')
+        blog: window.COSY.getNavHref('blog')
       };
     });
 
@@ -167,11 +159,8 @@ test.describe('Public Cross-Repository Navigation Suite', () => {
     expect(fallbackResults.practice).toContain('practice/index.html');
     expect(fallbackResults.tools).toBe('https://cosylanguages.github.io/COSYtools/');
     expect(fallbackResults.games).toBe('https://cosylanguages.github.io/COSYgames/');
-    expect(fallbackResults.world).toBe('https://cosylanguages.github.io/COSYworld/');
     expect(fallbackResults.events).toBe('https://cosylanguages.github.io/COSYevents/');
     expect(fallbackResults.blog).toContain('blog/index.html');
-    // Verify teacher link falls back to standalone COSYmanuals portal
-    expect(fallbackResults.teacher).toBe('https://cosylanguages.github.io/COSYmanuals/');
   });
 
   test('6. Internal and External Links — Target and security attributes', async ({ page }) => {
@@ -183,7 +172,7 @@ test.describe('Public Cross-Repository Navigation Suite', () => {
       await expect(link).not.toHaveAttribute('target', '_blank');
     }
 
-    const externalLinks = page.locator('#cosy-nav .nav-links a[data-translate-key="nav_tools"], #cosy-nav .nav-links a[data-translate-key="nav_games"], #cosy-nav .nav-links a[data-translate-key="nav_world"], #cosy-nav .nav-links a[data-translate-key="nav_events"], #cosy-nav .nav-links a[data-translate-key="nav_teacher"]');
+    const externalLinks = page.locator('#cosy-nav .nav-links a[data-translate-key="nav_tools"], #cosy-nav .nav-links a[data-translate-key="nav_games"], #cosy-nav .nav-links a[data-translate-key="nav_events"]');
     const externalCount = await externalLinks.count();
 
     for (let i = 0; i < externalCount; i++) {

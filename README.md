@@ -48,12 +48,11 @@ COSYlanguages is organized as a distributed ecosystem of specialized sub-product
 ### Companion Repositories
 1. **[COSYmanuals](https://github.com/cosylanguages/COSYmanuals):** All CEFR HTML grammar, vocabulary, and communication manuals live in COSYmanuals (`manuals/`).
 2. **[COSYevents](https://github.com/cosylanguages/COSYevents):** Public speaking club session decks, multimedia event night guides, and group conversation materials.
-3. **[COSYworld](https://github.com/cosylanguages/COSYworld):** Independent, self-study open-world RPG adventure game. Completely separate from manuals and paid traditional courses, focusing on informal exploratory learning.
-4. **[COSYgames](https://github.com/cosylanguages/COSYgames):** Interactive practice minigames hub (22+ games) for self-study and live online/offline classroom teaching.
-5. **[COSYtools](https://github.com/cosylanguages/COSYtools):** Standalone offline linguistic encyclopedia (12 micro-apps for verb conjugators, gender trainers, case systems, and prepositional regime tools).
-6. **[COSYplatform](https://github.com/cosylanguages/COSYplatform):** Host for structured paid CEFR course tracks and student/teacher portals.
+3. **[COSYgames](https://github.com/cosylanguages/COSYgames):** Interactive practice minigames hub (22+ games) for self-study and live online/offline classroom teaching.
+4. **[COSYtools](https://github.com/cosylanguages/COSYtools):** Standalone offline linguistic encyclopedia (12 micro-apps for verb conjugators, gender trainers, case systems, and prepositional regime tools).
+5. **[COSYplatform](https://github.com/cosylanguages/COSYplatform):** Host for structured paid CEFR course tracks and student/teacher portals.
 
-**Ecosystem Relationship Model:** This repository (`COSYlanguages`) hosts free curriculum-integrated games and practice tools directly tied to course tracks and CEFR levels. Meanwhile, companion repositories (`COSYtools`, `COSYworld`, `COSYgames`, `COSYevents`) host standalone, accountless web-based versions. All applications are connected seamlessly via standard URL query parameter handoffs ([`docs/url-handoff.md`](docs/url-handoff.md)) and the unified COSY Passport progress exchange format ([`docs/passport-schema.md`](docs/passport-schema.md)).
+**Ecosystem Relationship Model:** This repository (`COSYlanguages`) hosts free curriculum-integrated games and practice tools directly tied to course tracks and CEFR levels. Meanwhile, companion repositories (`COSYtools`, `COSYgames`, `COSYevents`) host standalone, accountless web-based versions. All applications are connected seamlessly via standard URL query parameter handoffs ([`docs/url-handoff.md`](docs/url-handoff.md)) and the unified COSY Passport progress exchange format ([`docs/passport-schema.md`](docs/passport-schema.md)).
 
 ### Future Extraction Candidates
 - **`COSYstudio`:** Pedagogical print studio, zine builder, boardgame generator (`apps/print-studio/` and `print-*.html`).
