@@ -2,16 +2,16 @@
  * practice/types/concept-check/concept-check.js
  *
  * Interactive Concept Checking Questions (CCQs).
- * Loads a lesson-stage unit (reference-grammar/{lang}/lessons/{unit}.json,
+ * Loads a lesson-stage unit (https://raw.githubusercontent.com/cosylanguages/COSYplatform/main/reference/grammar/{lang}/lessons/{unit}.json,
  * schema/lesson-stage.schema.json) and renders its `meaningCheck` CCQs as
  * yes/no or short-factual checks with immediate feedback.
  *
  * URL params:
- *   ?lang=en&unit=to-be   -> reference-grammar/en/lessons/to-be.json
+ *   ?lang=en&unit=to-be   -> https://raw.githubusercontent.com/cosylanguages/COSYplatform/main/reference/grammar/en/lessons/to-be.json
  *
  * A meaningCheck item may be:
  *   - an inline CCQ object {targetItem, language, ccq, answer, distractor?}
- *   - a string referencing a standalone CCQ file -> reference-grammar/{lang}/ccq/{ref}.json
+ *   - a string referencing a standalone CCQ file -> https://raw.githubusercontent.com/cosylanguages/COSYmanuals/main/data/grammar/reference/{lang}/ccq/{ref}.json
  */
 (function () {
     'use strict';
@@ -52,8 +52,8 @@
         if (!Array.isArray(meaningCheck)) return [];
         return Promise.all(meaningCheck.map(function (mc) {
             if (typeof mc === 'string') {
-                // standalone reference: reference-grammar/{lang}/ccq/{ref}.json
-                var url = BASE + 'reference-grammar/' + lang + '/ccq/' + mc + '.json';
+                // standalone reference: https://raw.githubusercontent.com/cosylanguages/COSYmanuals/main/data/grammar/reference/{lang}/ccq/{ref}.json
+                var url = 'https://raw.githubusercontent.com/cosylanguages/COSYmanuals/main/data/grammar/reference/' + lang + '/ccq/' + mc + '.json';
                 return fetch(url).then(function (r) {
                     if (!r.ok) throw new Error('CCQ not found: ' + url);
                     return r.json();
@@ -196,7 +196,7 @@
     }
 
     function load() {
-        var url = BASE + 'reference-grammar/' + lang + '/lessons/' + unit + '.json';
+        var url = 'https://raw.githubusercontent.com/cosylanguages/COSYplatform/main/reference/grammar/' + lang + '/lessons/' + unit + '.json';
         fetch(url).then(function (r) {
             if (!r.ok) throw new Error('Lesson not found: ' + url);
             return r.json();

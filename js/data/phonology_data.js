@@ -33,7 +33,7 @@
         const result = { sounds: [], stress: [], intonation: [] };
 
         const fetchPromises = categories.map(async (cat) => {
-            const path = `${prefix}reference-grammar/${langLow}/phonology/${cat}.json`;
+            const path = `https://raw.githubusercontent.com/cosylanguages/COSYmanuals/main/data/grammar/reference/${langLow}/phonology/${cat}.json`;
             try {
                 const res = await fetch(path);
                 if (res.ok) {
