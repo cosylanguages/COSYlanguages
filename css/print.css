@@ -8,7 +8,8 @@
     .cosy-video-wrapper, .cosy-article-wrapper, .cosy-lyrics-disclaimer,
     .grammar-word-bank, .btn-verify, .btn-reset, #wonder-music-toggle-container,
     .wonder-audio-player, .mobile-nav, #cosy-tour-fab, .cosy-tour-backdrop-overlay,
-    .cosy-tour-bubble, .cosy-tour-pointer, .cosy-tour-modal-overlay {
+    .cosy-tour-bubble, .cosy-tour-pointer, .cosy-tour-modal-overlay,
+    .print-controls, #cosy-nav, .sd-sticky-header, #cosy-mobile-menu, .filter-section {
         display: none !important;
     }
 
