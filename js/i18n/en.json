@@ -44,7 +44,10 @@
     "skip": "Skip",
     "save": "+ Save",
     "agree": "I Agree",
-    "disagree": "I Disagree"
+    "disagree": "I Disagree",
+    "learnMore": "Learn more →",
+    "exitPractice": "Exit Practice",
+    "hint": "Hint 💡"
   },
   "practice": {
     "startPractice": "Start Practice"
