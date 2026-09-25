@@ -20,7 +20,7 @@ def run_cuj(page):
     page.screenshot(path="/home/jules/project/tests/verification/screenshots/verification_quiz.png")
 
     # Go to classroom synchronizer
-    page.goto("http://localhost:8080/classroom-sync.html")
+    page.goto("http://localhost:8080/apps/classroom-sync/index.html")
     page.wait_for_timeout(1000)
 
     # Take screenshot of classroom-sync in dark theme
