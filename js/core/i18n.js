@@ -109,6 +109,15 @@
     window.setLanguage = async function(lang) {
         if (!lang) return;
         if (inSyncChange) return;
+
+        // Check language lock state
+        if (localStorage.getItem('cosy_ui_lang_locked') === 'true' && currentLang && lang.toLowerCase() !== currentLang.toLowerCase()) {
+            if (window.setUILanguage) {
+                await window.setUILanguage(lang);
+            }
+            return;
+        }
+
         inSyncChange = true;
         try {
             currentLang = lang.toLowerCase();

@@ -42,7 +42,10 @@
     "skip": "Passer",
     "save": "+ Enregistrer",
     "agree": "Je suis d'accord",
-    "disagree": "Je ne suis pas d'accord"
+    "disagree": "Je ne suis pas d'accord",
+    "learnMore": "En savoir plus →",
+    "exitPractice": "Quitter la pratique",
+    "hint": "Indice 💡"
   },
   "practice": {
     "startPractice": "Commencer la pratique"

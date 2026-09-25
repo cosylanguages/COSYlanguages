@@ -350,14 +350,14 @@ function navFree () {
     const profiles = window.COSY_PROFILES ? window.COSY_PROFILES.getProfileList() : ['Guest'];
     const profileOptions = profiles.map(prof => `<option value="${prof}" ${prof === activeProfile ? 'selected' : ''}>👤 ${prof}</option>`).join('');
 
+    const isLocked = (typeof localStorage !== 'undefined' && localStorage.getItem('cosy_ui_lang_locked') === 'true');
     const currentLang = (typeof localStorage !== 'undefined' && (localStorage.getItem('cosy_ui_lang') || localStorage.getItem('cosy_last_language'))) || 'en';
     const langOptions = [
         { code: 'en', flag: '🇬🇧', label: 'EN' },
         { code: 'fr', flag: '🇫🇷', label: 'FR' },
         { code: 'it', flag: '🇮🇹', label: 'IT' },
         { code: 'ru', flag: '🇷🇺', label: 'RU' },
-        { code: 'el', flag: '🇬🇷', label: 'EL' },
-        { code: 'es', flag: '🇪🇸', label: 'ES' }
+        { code: 'el', flag: '🇬🇷', label: 'EL' }
     ].map(l => `<option value="${l.code}" ${l.code === currentLang ? 'selected' : ''}>${l.flag} ${l.label}</option>`).join('');
 
     const logoPrefix = getPrefix();
@@ -372,9 +372,14 @@ function navFree () {
       </ul>
       <div id="cosy-nav-context" class="nav-context"></div>
       <div class="nav-right" style="display:flex; align-items:center; gap:8px;">
-        <select id="cosy-language-switcher" onchange="setLanguage(this.value)" class="styled-sel" style="width: auto; padding: 4px 8px; font-size: 0.8rem; border-radius: var(--r-sm); height: 32px; background: var(--warm-white); border: 1px solid var(--border); color: var(--ink); cursor: pointer;" aria-label="Select Language">
-          ${langOptions}
-        </select>
+        <div class="cosy-lang-lock-wrap" style="display:inline-flex; align-items:center; gap:4px;">
+          <select id="cosy-language-switcher" onchange="setLanguage(this.value)" class="styled-sel" ${isLocked ? 'disabled' : ''} style="width: auto; padding: 4px 8px; font-size: 0.8rem; border-radius: var(--r-sm); height: 32px; background: var(--warm-white); border: 1px solid var(--border); color: var(--ink); cursor: pointer;" aria-label="Select Language">
+            ${langOptions}
+          </select>
+          <button id="cosy-lang-lock-btn" type="button" onclick="if(window.toggleLanguageLock)window.toggleLanguageLock()" class="cosy-lang-lock-btn ${isLocked ? 'locked' : ''}" title="${isLocked ? 'Language is locked on this device. Click to unlock.' : 'Lock language on this device.'}" aria-label="Toggle Language Lock" style="background:none; border:1px solid var(--border); border-radius:var(--r-sm); padding:4px 6px; font-size:0.85rem; height:32px; cursor:pointer; display:inline-flex; align-items:center; justify-center;">
+            ${isLocked ? '🔒' : '🔓'}
+          </button>
+        </div>
         <select id="profile-switcher" onchange="COSY.switchProfile(this.value)" class="styled-sel" style="width: auto; padding: 4px 8px; font-size: 0.8rem; border-radius: var(--r-sm); height: 32px; background: var(--warm-white); border: 1px solid var(--border); color: var(--ink); cursor: pointer;">
           ${profileOptions}
           <option value="__create__">+ New...</option>
@@ -449,6 +454,23 @@ function applyMode () {
 
     const nav = typeof document !== 'undefined' ? document.getElementById('cosy-nav') : null;
     if (nav) {
+        if (!document.querySelector('.cosy-ecosystem-strip')) {
+            const stripEl = document.createElement('nav');
+            const homeUrl = getNavHref('home');
+            stripEl.className = 'cosy-ecosystem-strip';
+            stripEl.setAttribute('aria-label', 'COSY Ecosystem Products');
+            stripEl.innerHTML = `
+              <div class="cosy-strip-inner">
+                <span class="cosy-strip-brand">🌐 COSY Ecosystem:</span>
+                <ul class="cosy-strip-links">
+                  <li><a href="${homeUrl}" class="cosy-strip-link active">COSYlanguages</a></li>
+                  <li><a href="https://cosylanguages.github.io/COSYtools/" target="_blank" rel="noopener" class="cosy-strip-link">COSYtools 🔎</a></li>
+                  <li><a href="https://cosylanguages.github.io/COSYgames/" target="_blank" rel="noopener" class="cosy-strip-link">COSYgames 🎮</a></li>
+                  <li><a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="cosy-strip-link">COSYevents 🎉</a></li>
+                </ul>
+              </div>`;
+            nav.parentNode.insertBefore(stripEl, nav);
+        }
         nav.className = 'nav-container';
         const t = getNavLabel;
         nav.setAttribute('aria-label', t('main_aria', 'Main Navigation'));
@@ -485,6 +507,7 @@ function mobileMenuHTML (mode) {
     const profiles = window.COSY_PROFILES ? window.COSY_PROFILES.getProfileList() : ['Guest'];
     const profileOptions = profiles.map(prof => `<option value="${prof}" ${prof === activeProfile ? 'selected' : ''}>👤 ${prof}</option>`).join('');
 
+    const isLocked = (typeof localStorage !== 'undefined' && localStorage.getItem('cosy_ui_lang_locked') === 'true');
     const currentLang = (typeof localStorage !== 'undefined' && (localStorage.getItem('cosy_ui_lang') || localStorage.getItem('cosy_last_language'))) || 'en';
     const langOptions = [
         { code: 'en', flag: '🇬🇧', label: 'EN' },
@@ -511,9 +534,12 @@ function mobileMenuHTML (mode) {
       <a href="#" onclick="event.preventDefault(); COSY.toggleTheme();" class="mobile-theme-toggle-a" style="display: flex; align-items: center; gap: 8px;">🌓 Toggle Dark Mode</a>
       <div style="padding: 12px 16px; display: flex; align-items: center; gap: 8px;">
          <span style="font-size: 0.9rem; color: var(--ink-soft);" data-i18n="label.language">Language 🌍</span>
-         <select id="cosy-language-switcher-mobile" onchange="setLanguage(this.value)" class="styled-sel" style="width: auto; padding: 4px 8px; font-size: 0.8rem; border-radius: var(--r-sm); height: 32px; background: var(--warm-white); border: 1px solid var(--border); color: var(--ink); cursor: pointer;">
+         <select id="cosy-language-switcher-mobile" onchange="setLanguage(this.value)" class="styled-sel" ${isLocked ? 'disabled' : ''} style="width: auto; padding: 4px 8px; font-size: 0.8rem; border-radius: var(--r-sm); height: 32px; background: var(--warm-white); border: 1px solid var(--border); color: var(--ink); cursor: pointer;">
             ${langOptions}
          </select>
+         <button id="cosy-lang-lock-btn-mobile" type="button" onclick="if(window.toggleLanguageLock)window.toggleLanguageLock()" class="cosy-lang-lock-btn ${isLocked ? 'locked' : ''}" title="${isLocked ? 'Language is locked on this device. Click to unlock.' : 'Lock language on this device.'}" aria-label="Toggle Language Lock" style="background:none; border:1px solid var(--border); border-radius:var(--r-sm); padding:4px 6px; font-size:0.85rem; height:32px; cursor:pointer; display:inline-flex; align-items:center; justify-center;">
+            ${isLocked ? '🔒' : '🔓'}
+         </button>
       </div>
       <div style="padding: 12px 16px; display: flex; align-items: center; gap: 8px;">
          <span style="font-size: 0.9rem; color: var(--ink-soft);">Profile:</span>

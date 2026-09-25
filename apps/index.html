@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conjugation, Gender & Syntax Engines 🔎 | COSYlanguages</title>
+    <title>Conjugation, Gender &amp; Syntax Engines 🔎 | COSYlanguages</title>
     <meta name="description" content="12 offline reference engines for English, French, Italian, Russian, and Greek. Check verb conjugations, noun genders, case declensions, and prepositional regimes.">
     <meta property="og:title" content="Conjugation, Gender & Syntax Engines 🔎 | COSYlanguages">
     <meta property="og:description" content="12 offline reference engines with pattern-recognition color coding, SRS memory review, and drill games.">
@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://raw.githubusercontent.com/cosylanguages/COSYlanguages/ba14a13d3c32e84f5c8ebbabd2d8b85c060d04a4/css/cosy-tokens.css">
+    <link rel="stylesheet" href="../shared/css/tokens.css">
     <link rel="stylesheet" href="../css/tokens.css">
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/components.css">
@@ -192,8 +192,8 @@
                 12 offline interactive tools for instant verb conjugations, noun genders, case declensions, and prepositional regimes with pattern-recognition color coding and game practice.
             </p>
             <div class="passport-actions" style="margin-top: 1rem; display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap;">
-                <button id="export-passport-btn" class="fpill" style="background: var(--sage, #2d6a4f); color: white; border: none; padding: 8px 16px; font-weight: 700; cursor: pointer; border-radius: 99px;">📥 Export progress</button>
-                <button id="import-passport-btn" class="fpill" style="background: var(--warm-white, #fdfbf7); color: var(--sage-dark, #1c4d32); border: 1px solid var(--border-color, #e0dcd5); padding: 8px 16px; font-weight: 700; cursor: pointer; border-radius: 99px;">📤 Import progress</button>
+                <button type="button" id="export-passport-btn" class="fpill" style="background: var(--sage, #2d6a4f); color: white; border: none; padding: 8px 16px; font-weight: 700; cursor: pointer; border-radius: 99px;">📥 Export progress</button>
+                <button type="button" id="import-passport-btn" class="fpill" style="background: var(--warm-white, #fdfbf7); color: var(--sage-dark, #1c4d32); border: 1px solid var(--border-color, #e0dcd5); padding: 8px 16px; font-weight: 700; cursor: pointer; border-radius: 99px;">📤 Import progress</button>
                 <input type="file" id="passport-file-input" accept=".json" style="display: none;">
             </div>
         </div>
@@ -204,19 +204,19 @@
         <div class="filter-section">
           <div class="filter-row">
             <span class="filter-label">Language:</span>
-            <button class="fpill active" data-filter-lang="all" onclick="filterEngines('lang', 'all', this)">All Languages</button>
-            <button class="fpill" data-filter-lang="en" onclick="filterEngines('lang', 'en', this)">🇬🇧 English</button>
-            <button class="fpill" data-filter-lang="fr" onclick="filterEngines('lang', 'fr', this)">🇫🇷 Français</button>
-            <button class="fpill" data-filter-lang="it" onclick="filterEngines('lang', 'it', this)">🇮🇹 Italiano</button>
-            <button class="fpill" data-filter-lang="ru" onclick="filterEngines('lang', 'ru', this)">🇷🇺 Русский</button>
-            <button class="fpill" data-filter-lang="el" onclick="filterEngines('lang', 'el', this)">🇬🇷 Ελληνικά</button>
+            <button type="button" class="fpill active" data-filter-lang="all" onclick="filterEngines('lang', 'all', this)">All Languages</button>
+            <button type="button" class="fpill" data-filter-lang="en" onclick="filterEngines('lang', 'en', this)">🇬🇧 English</button>
+            <button type="button" class="fpill" data-filter-lang="fr" onclick="filterEngines('lang', 'fr', this)">🇫🇷 Français</button>
+            <button type="button" class="fpill" data-filter-lang="it" onclick="filterEngines('lang', 'it', this)">🇮🇹 Italiano</button>
+            <button type="button" class="fpill" data-filter-lang="ru" onclick="filterEngines('lang', 'ru', this)">🇷🇺 Русский</button>
+            <button type="button" class="fpill" data-filter-lang="el" onclick="filterEngines('lang', 'el', this)">🇬🇷 Ελληνικά</button>
           </div>
           <div class="filter-row">
             <span class="filter-label">Tool Type:</span>
-            <button class="fpill active" data-filter-cat="all" onclick="filterEngines('cat', 'all', this)">All Categories</button>
-            <button class="fpill" data-filter-cat="conjugation" onclick="filterEngines('cat', 'conjugation', this)">📜 Conjugation</button>
-            <button class="fpill" data-filter-cat="gender" onclick="filterEngines('cat', 'gender', this)">⚖️ Gender &amp; Cases</button>
-            <button class="fpill" data-filter-cat="syntax" onclick="filterEngines('cat', 'syntax', this)">📍 Prepositions &amp; Syntax</button>
+            <button type="button" class="fpill active" data-filter-cat="all" onclick="filterEngines('cat', 'all', this)">All Categories</button>
+            <button type="button" class="fpill" data-filter-cat="conjugation" onclick="filterEngines('cat', 'conjugation', this)">📜 Conjugation</button>
+            <button type="button" class="fpill" data-filter-cat="gender" onclick="filterEngines('cat', 'gender', this)">⚖️ Gender &amp; Cases</button>
+            <button type="button" class="fpill" data-filter-cat="syntax" onclick="filterEngines('cat', 'syntax', this)">📍 Prepositions &amp; Syntax</button>
           </div>
         </div>
 
