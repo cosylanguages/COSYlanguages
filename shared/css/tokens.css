@@ -347,6 +347,36 @@
     box-shadow: var(--focus-ring, 0 0 0 3px rgba(65, 107, 73, 0.4));
 }
 
+.cosy-lang-lock-wrap {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--cosy-space-xs, 4px);
+}
+
+.cosy-lang-lock-btn {
+    background: transparent;
+    border: 1px solid var(--cosy-color-border, rgba(74, 107, 80, 0.12));
+    border-radius: var(--cosy-radius-sm, 8px);
+    padding: 4px 6px;
+    font-size: 0.85rem;
+    height: 32px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.cosy-lang-lock-btn:hover {
+    background: var(--cosy-color-sage-light, #e8f0e9);
+    border-color: var(--cosy-color-sage, #416b49);
+}
+
+.cosy-lang-lock-btn.locked {
+    background: var(--cosy-color-honey-pale, #fff8e7);
+    border-color: var(--cosy-color-honey, #945e05);
+}
+
 /* ── 12. Dark Mode Theme Overrides ───────────────────────────────────────── */
 html[data-theme="dark"], body.theme-dark {
     --cosy-color-cream:                  #1a1f1a;

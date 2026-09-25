@@ -166,6 +166,15 @@ To maintain ecosystem visual cohesion while permitting product-specific identiti
 
 ---
 
+## 3.1 Device-Level Language Lock Feature
+COSYlanguages supports locking the interface language on a specific device/browser session. Once locked, language selector dropdowns are disabled and attempts to switch languages are blocked until unlocked.
+
+* **Storage Key:** `localStorage['cosy_ui_lang_locked']` (`'true'` | `'false'`)
+* **API Methods:** `window.toggleLanguageLock()` (toggles state, displays a toast, updates UI selectors and lock icons `🔒`/`🔓`).
+* **UI Controls:** Rendered alongside `.cosy-lang-select` dropdowns as `.cosy-lang-lock-btn`.
+
+---
+
 ## 4. Emoji + Icon Navigation Convention
 
 Navigation items across all ecosystem applications follow a strict **"Emoji + Icon Navigation"** convention.

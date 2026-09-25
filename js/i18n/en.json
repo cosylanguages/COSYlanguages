@@ -9,6 +9,8 @@
     "languages": "Languages 🌍",
     "myLessons": "My Lessons 🔐"
   },
+  "lang_locked_notice": "🔒 Device language locked! Interface language is fixed.",
+  "lang_unlocked_notice": "🔓 Device language unlocked! You can now switch languages.",
   "footer": {
     "courses": "Courses",
     "explore": "Explore",

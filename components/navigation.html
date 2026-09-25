@@ -27,13 +27,16 @@
   </ul>
 
   <div class="cosy-nav-actions">
-    <select id="cosy-ui-lang-switcher" class="cosy-lang-select" onchange="if(window.setLanguage)window.setLanguage(this.value)" aria-label="Interface Language">
-      <option value="en">🇬🇧 EN</option>
-      <option value="fr">🇫🇷 FR</option>
-      <option value="it">🇮🇹 IT</option>
-      <option value="ru">🇷🇺 RU</option>
-      <option value="el">🇬🇷 EL</option>
-    </select>
+    <div class="cosy-lang-lock-wrap" style="display:inline-flex; align-items:center; gap:4px;">
+      <select id="cosy-ui-lang-switcher" class="cosy-lang-select" onchange="if(window.setLanguage)window.setLanguage(this.value)" aria-label="Interface Language">
+        <option value="en">🇬🇧 EN</option>
+        <option value="fr">🇫🇷 FR</option>
+        <option value="it">🇮🇹 IT</option>
+        <option value="ru">🇷🇺 RU</option>
+        <option value="el">🇬🇷 EL</option>
+      </select>
+      <button id="cosy-ui-lang-lock-btn" type="button" onclick="if(window.toggleLanguageLock)window.toggleLanguageLock()" class="cosy-lang-lock-btn" title="Lock language on this device" aria-label="Toggle Language Lock" style="background:none; border:1px solid var(--cosy-color-border, rgba(74, 107, 80, 0.12)); border-radius:var(--cosy-radius-sm, 6px); padding:4px 6px; font-size:0.85rem; height:32px; cursor:pointer; display:inline-flex; align-items:center; justify-content:center;">🔓</button>
+    </div>
     <a href="https://wa.me/330766784195" class="cosy-nav-cta" target="_blank" rel="noopener">💬 Contact Us</a>
     <button type="button" class="cosy-hamburger-btn" aria-label="Toggle Navigation Menu" aria-expanded="false" onclick="const d=document.getElementById('cosy-nav-drawer'); if(d){ d.classList.toggle('open'); this.setAttribute('aria-expanded', d.classList.contains('open')); }">
       ☰

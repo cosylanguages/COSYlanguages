@@ -198,9 +198,46 @@
         }
     }
 
+    function isLanguageLocked() {
+        return localStorage.getItem('cosy_ui_lang_locked') === 'true';
+    }
+
+    window.toggleLanguageLock = function() {
+        const currentlyLocked = isLanguageLocked();
+        const newLockState = !currentlyLocked;
+        localStorage.setItem('cosy_ui_lang_locked', newLockState ? 'true' : 'false');
+
+        const msg = newLockState
+            ? (getValueByPath(uiTranslations, 'lang_locked_notice') || '🔒 Device language locked! Interface language is fixed.')
+            : (getValueByPath(uiTranslations, 'lang_unlocked_notice') || '🔓 Device language unlocked! You can now switch languages.');
+
+        if (window.COSY && typeof window.COSY.showToast === 'function') {
+            window.COSY.showToast(msg);
+        }
+
+        updateFlagPickerUI();
+
+        if (window.COSY && typeof window.COSY.refresh === 'function') {
+            window.COSY.refresh();
+        }
+
+        document.dispatchEvent(new CustomEvent('cosyLanguageLockChanged', { detail: { locked: newLockState } }));
+        return newLockState;
+    };
+
     window.setUILanguage = async function(lang) {
         if (!lang) return;
         lang = lang.toLowerCase();
+
+        if (isLanguageLocked() && lang !== currentUILang) {
+            const msg = getValueByPath(uiTranslations, 'lang_locked_notice') || '🔒 Device language is locked. Click 🔒 to unlock before changing languages.';
+            if (window.COSY && typeof window.COSY.showToast === 'function') {
+                window.COSY.showToast(msg, true);
+            }
+            updateFlagPickerUI();
+            return;
+        }
+
         localStorage.setItem('cosy_ui_lang', lang);
 
         // Synchronize with cosy_last_language for general platform compatibility
