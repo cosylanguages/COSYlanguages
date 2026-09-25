@@ -18,11 +18,11 @@ if (!fs.existsSync(SCHEMA_DIR)) {
   process.exit(1);
 }
 
-const schemaFiles = fs.readdirSync(SCHEMA_DIR).filter(f => f.endsWith('.schema.json'));
+const schemaFiles = fs.existsSync(SCHEMA_DIR) ? fs.readdirSync(SCHEMA_DIR).filter(f => f.endsWith('.schema.json')) : [];
 
 if (schemaFiles.length === 0) {
-  console.error(`No .schema.json files found in ${SCHEMA_DIR}`);
-  process.exit(1);
+  console.log(`No .schema.json files found in ${SCHEMA_DIR} (all content schemas migrated).`);
+  process.exit(0);
 }
 
 let hasErrors = false;
@@ -152,78 +152,81 @@ const ccqValidator = ajv.getSchema('ccq.schema.json');
 const verbPatternValidator = ajv.getSchema('verb-pattern.schema.json');
 
 let scanned = 0;
-for (const dataDir of [path.join(ROOT_DIR, 'reference-grammar')]) {
-  const jsonFiles = walkDir(dataDir).filter((f) => {
-    const parts = f.split(path.sep);
-    return parts.includes('lessons') || parts.includes('ccq') || parts.includes('verb-patterns');
-  });
-  for (const file of jsonFiles) {
-    const rel = path.relative(ROOT_DIR, file);
-    let parsed;
-    try {
-      parsed = JSON.parse(fs.readFileSync(file, 'utf8'));
-    } catch (e) {
-      console.error(`✗ ${rel}: failed to parse JSON: ${e.message}`);
-      hasErrors = true;
-      continue;
-    }
-    scanned++;
-    if (parsed.unitId !== undefined) {
-      if (lessonStageValidator && !lessonStageValidator(parsed)) {
-        console.error(`✗ ${rel}: failed lesson-stage.schema.json`);
-        console.error(lessonStageValidator.errors);
+const refGramDir = path.join(ROOT_DIR, 'reference-grammar');
+if (fs.existsSync(refGramDir)) {
+  for (const dataDir of [refGramDir]) {
+    const jsonFiles = walkDir(dataDir).filter((f) => {
+      const parts = f.split(path.sep);
+      return parts.includes('lessons') || parts.includes('ccq') || parts.includes('verb-patterns');
+    });
+    for (const file of jsonFiles) {
+      const rel = path.relative(ROOT_DIR, file);
+      let parsed;
+      try {
+        parsed = JSON.parse(fs.readFileSync(file, 'utf8'));
+      } catch (e) {
+        console.error(`✗ ${rel}: failed to parse JSON: ${e.message}`);
         hasErrors = true;
-      } else {
-        console.log(`✓ ${rel}: validated against lesson-stage.schema.json`);
+        continue;
       }
-
-      const meaningChecks = Array.isArray(parsed.meaningCheck) ? parsed.meaningCheck : [];
-      meaningChecks.forEach((mc, i) => {
-        if (mc && typeof mc === 'object') {
-          if (ccqValidator && !ccqValidator(mc)) {
-            console.error(`✗ ${rel}: inline meaningCheck[${i}] failed ccq.schema.json`);
-            console.error(ccqValidator.errors);
-            hasErrors = true;
-          }
-          if (!validateCCQChoiceItem(mc, `${rel} inline meaningCheck[${i}]`)) {
-            hasErrors = true;
-          }
+      scanned++;
+      if (parsed.unitId !== undefined) {
+        if (lessonStageValidator && !lessonStageValidator(parsed)) {
+          console.error(`✗ ${rel}: failed lesson-stage.schema.json`);
+          console.error(lessonStageValidator.errors);
+          hasErrors = true;
+        } else {
+          console.log(`✓ ${rel}: validated against lesson-stage.schema.json`);
         }
-      });
 
-      const controlledPractice = Array.isArray(parsed.controlledPractice) ? parsed.controlledPractice : [];
-      controlledPractice.forEach((cp, i) => {
-        if (cp && typeof cp === 'object') {
-          if (ccqValidator && !ccqValidator(cp)) {
-            console.error(`✗ ${rel}: inline controlledPractice[${i}] failed ccq.schema.json`);
-            console.error(ccqValidator.errors);
-            hasErrors = true;
+        const meaningChecks = Array.isArray(parsed.meaningCheck) ? parsed.meaningCheck : [];
+        meaningChecks.forEach((mc, i) => {
+          if (mc && typeof mc === 'object') {
+            if (ccqValidator && !ccqValidator(mc)) {
+              console.error(`✗ ${rel}: inline meaningCheck[${i}] failed ccq.schema.json`);
+              console.error(ccqValidator.errors);
+              hasErrors = true;
+            }
+            if (!validateCCQChoiceItem(mc, `${rel} inline meaningCheck[${i}]`)) {
+              hasErrors = true;
+            }
           }
-          if (!validateCCQChoiceItem(cp, `${rel} inline controlledPractice[${i}]`)) {
-            hasErrors = true;
+        });
+
+        const controlledPractice = Array.isArray(parsed.controlledPractice) ? parsed.controlledPractice : [];
+        controlledPractice.forEach((cp, i) => {
+          if (cp && typeof cp === 'object') {
+            if (ccqValidator && !ccqValidator(cp)) {
+              console.error(`✗ ${rel}: inline controlledPractice[${i}] failed ccq.schema.json`);
+              console.error(ccqValidator.errors);
+              hasErrors = true;
+            }
+            if (!validateCCQChoiceItem(cp, `${rel} inline controlledPractice[${i}]`)) {
+              hasErrors = true;
+            }
           }
+        });
+      } else if (parsed.question !== undefined || parsed.ccq !== undefined || parsed.correctAnswer !== undefined) {
+        if (ccqValidator && !ccqValidator(parsed)) {
+          console.error(`✗ ${rel}: failed ccq.schema.json`);
+          console.error(ccqValidator.errors);
+          hasErrors = true;
+        } else if (!validateCCQChoiceItem(parsed, rel)) {
+          hasErrors = true;
+        } else {
+          console.log(`✓ ${rel}: validated against ccq.schema.json`);
         }
-      });
-    } else if (parsed.question !== undefined || parsed.ccq !== undefined || parsed.correctAnswer !== undefined) {
-      if (ccqValidator && !ccqValidator(parsed)) {
-        console.error(`✗ ${rel}: failed ccq.schema.json`);
-        console.error(ccqValidator.errors);
-        hasErrors = true;
-      } else if (!validateCCQChoiceItem(parsed, rel)) {
-        hasErrors = true;
+      } else if (parsed.infinitive !== undefined) {
+        if (verbPatternValidator && !verbPatternValidator(parsed)) {
+          console.error(`✗ ${rel}: failed verb-pattern.schema.json`);
+          console.error(verbPatternValidator.errors);
+          hasErrors = true;
+        } else {
+          console.log(`✓ ${rel}: validated against verb-pattern.schema.json`);
+        }
       } else {
-        console.log(`✓ ${rel}: validated against ccq.schema.json`);
+        console.warn(`! ${rel}: did not match a known schema type, skipped`);
       }
-    } else if (parsed.infinitive !== undefined) {
-      if (verbPatternValidator && !verbPatternValidator(parsed)) {
-        console.error(`✗ ${rel}: failed verb-pattern.schema.json`);
-        console.error(verbPatternValidator.errors);
-        hasErrors = true;
-      } else {
-        console.log(`✓ ${rel}: validated against verb-pattern.schema.json`);
-      }
-    } else {
-      console.warn(`! ${rel}: did not match a known schema type, skipped`);
     }
   }
 }
@@ -231,7 +234,7 @@ for (const dataDir of [path.join(ROOT_DIR, 'reference-grammar')]) {
 if (scanned > 0) {
   console.log(`Scanned ${scanned} live schema-linked data file(s).`);
 } else {
-  console.log('No live schema-linked data files found yet (conventions: reference-grammar/<lang>/lessons, /ccq, /verb-patterns).');
+  console.log('No local schema-linked data files found (datasets migrated to COSYplatform/COSYmanuals).');
 }
 
 if (hasErrors) {

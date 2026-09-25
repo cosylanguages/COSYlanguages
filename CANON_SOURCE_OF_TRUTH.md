@@ -1,69 +1,41 @@
 # Ecosystem Canon Source of Truth Policy
 
-This document establishes the official synchronization policy and authority hierarchy for canonical datasets within the COSY ecosystem (**COSYdata**, **COSYlanguages**, **COSYgames**, **COSYtools**, **COSYworld**, **COSYmanuals**).
+This document establishes the official synchronization policy and authority hierarchy for canonical datasets within the COSY ecosystem (**COSYdata**, **COSYplatform**, **COSYmanuals**, **COSYtools**, **COSYlanguages**, **COSYgames**, **COSYworld**, **COSYevents**).
 
 ---
 
 ## 1. Governance & Single Source of Truth Declarations
 
-To prevent data divergence, duplicate maintenance, and drift across ecosystem repositories:
+To prevent data divergence, duplicate maintenance, and drift across ecosystem repositories, each primary content category is assigned a single writable master repository:
 
 1. **Vocabulary Canon Authority**:
    - `vocabulary/en/a0_a1/*.json` (33 theme files, ~1,700 entries, ID scheme `"en:<slug>:<form>"`) in **COSYdata** is the **sole writable master copy** of the A0-A1 English vocabulary canon for the entire COSY ecosystem.
 2. **Curriculum Canon Authority**:
-   - `curriculum/en/general/*.json` (e.g., `A1.json`, `A2.json`, etc.) in **COSYlanguages** is the **sole writable master copy** of general-course curriculum data for the entire COSY ecosystem.
-3. **Read-Only Mirror Requirement**:
-   - Any other repository or application within the COSY ecosystem (**COSYlanguages**, **COSYgames**, **COSYtools**, **COSYworld**, **COSYmanuals**) holding a copy or subset of these datasets MUST treat its local copy as a **read-only mirror** and label it as such.
-4. **Change Management Protocol**:
-   - Downstream repositories must **NEVER** edit local mirror copies directly.
-   - Proposed vocabulary changes (word additions, removals, definition edits, spelling corrections) must be submitted to **COSYdata** via a GitHub Issue or Pull Request referencing the specific entry ID (e.g., `en:<slug>:<form>`).
-   - Proposed general curriculum changes must be submitted to **COSYlanguages** via a GitHub Issue or Pull Request referencing the specific `lesson` / `unit` number.
-   - Once merged in the respective canonical repository, mirror repositories should update their read-only copies directly.
+   - `curriculums/{lang}/{course_type}/{level}.json` in **COSYplatform** is the **sole writable master copy** of all CEFR curriculum progressions (general, spoken, professional, travelling, relocation, exam) across target languages.
+3. **Grammar Reference Data Authority**:
+   - `data/grammar/reference/{lang}/` (containing CCQs, morphology, syntax, phonology, and confusions data) in **COSYmanuals** is the **sole writable master copy** of machine-readable reference grammar datasets.
+4. **Verb Patterns & Particles Authority**:
+   - `verb-patterns/` and `particles/` in **COSYtools** serve as the **sole writable master copy** for verb conjugation patterns and preposition datasets.
+5. **COSYlanguages Remote Consumption**:
+   - **COSYlanguages** acts as the 100% free, public entry portal and client application. It holds **no writable local copies** of curriculum, reference grammar, CCQ, or verb pattern datasets. All runtime tools, Practice Hub engines, and manuals fetch these datasets remotely from raw GitHub URLs on `COSYplatform`, `COSYmanuals`, `COSYdata`, and `COSYtools`.
 
 ---
 
-## 2. Drift Detection Utility Usage
+## 2. Change Management Protocol
 
-A standalone checker tool is provided in `scripts/check-canon-drift.mjs` to detect and audit drift between local mirror files and the canonical datasets in **COSYdata** and **COSYlanguages**.
-
-### Running the Checker
-
-```bash
-# Audit a vocabulary mirror against COSYdata canonical index
-node scripts/check-canon-drift.mjs path/to/mirror_vocab.json
-
-# Audit a curriculum mirror against curriculum/en/general/A1.json
-node scripts/check-canon-drift.mjs path/to/mirror_A1.json
-```
-
-### Options & Auto-Detection
-- **Automatic Schema Detection**: The script automatically detects whether the input file is a **Vocabulary Canon** dataset or a **Curriculum** dataset.
-- **Explicit Canon Target**: You can optionally pass `--canon <path_to_canon_file>` to override the canonical target file.
-
-### Output Format
-The checker outputs report blocks detailing:
-- **Added Elsewhere**: Words or lessons present in the mirror but missing from the canon source of truth.
-- **Missing Elsewhere**: Words or lessons present in the canon source of truth but missing from the mirror.
-- **Field Modifications**: Mismatched POS, definitions, topics, or lesson titles between mirror and canon.
+- Downstream client repositories (such as **COSYlanguages**, **COSYgames**, **COSYworld**, **COSYevents**) must **NEVER** attempt to host or edit local copies of canonical datasets.
+- **Vocabulary changes**: Submit to [COSYdata](https://github.com/cosylanguages/COSYdata) via Pull Request or Issue referencing specific entry IDs.
+- **Curriculum changes**: Submit to [COSYplatform](https://github.com/cosylanguages/COSYplatform) via Pull Request referencing target language, course track, and lesson IDs.
+- **Reference Grammar & CCQs**: Submit to [COSYmanuals](https://github.com/cosylanguages/COSYmanuals) via Pull Request under `data/grammar/reference/`.
+- **Verb & Preposition Patterns**: Submit to [COSYtools](https://github.com/cosylanguages/COSYtools) via Pull Request.
 
 ---
 
-## 3. Propagation Notes for Sub-Repository READMEs
-
-The following companion note must be added manually to the READMEs of downstream repositories.
-
-### Repositories to Update:
-- `COSYlanguages` (`README.md` for vocabulary mirror context)
-- `COSYgames` (`README.md`)
-- `COSYtools` (`README.md`)
-- `COSYworld` (`README.md`)
-- `COSYmanuals` (`README.md`)
-
-### Snippet to Copy:
+## 3. Propagation Notice for Sub-Repository Documentation
 
 ```markdown
-> ⚠️ **Read-Only Mirror Notice**:
-> The vocabulary datasets (synced from [COSYdata](https://github.com/cosylanguages/COSYdata)) and general curriculum files (`A1.json` - `C2.json`, synced from [COSYlanguages](https://github.com/cosylanguages/COSYlanguages)) in this repository are **read-only mirrors**.
+> ⚠️ **Remote Data Fetch Notice**:
+> Datasets (vocabulary, curriculums, reference grammar, CCQs, and verb patterns) in the COSY ecosystem are maintained centrally in their respective canonical repositories ([COSYdata](https://github.com/cosylanguages/COSYdata), [COSYplatform](https://github.com/cosylanguages/COSYplatform), [COSYmanuals](https://github.com/cosylanguages/COSYmanuals), [COSYtools](https://github.com/cosylanguages/COSYtools)).
 >
-> **Do not edit these dataset files directly in this repository.** Proposed vocabulary changes must be submitted to [COSYdata](https://github.com/cosylanguages/COSYdata) and general curriculum changes to [COSYlanguages](https://github.com/cosylanguages/COSYlanguages). See `CANON_SOURCE_OF_TRUTH.md` in `COSYlanguages` for details.
+> Do not add or edit local copies of these datasets in client repositories. See `CANON_SOURCE_OF_TRUTH.md` for details.
 ```
