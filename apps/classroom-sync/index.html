@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="../../shared/css/tokens.css">
     <link rel="stylesheet" href="css/tokens.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/components.css">
@@ -289,7 +290,7 @@
     <div class="sync-container">
         <div class="header-title">
             <h1>COSY Room Synchronizer 🤝</h1>
-            <p style="color: var(--ink-soft); font-size: 1.1rem;">Zero-Database, Account-Free Live Lesson Coordinator & Speaking Timers.</p>
+            <p style="color: var(--ink-soft); font-size: 1.1rem;">Zero-Database, Account-Free Live Lesson Coordinator &amp; Speaking Timers.</p>
             <div style="background: var(--cream-dark); border: 1px solid var(--border); border-left: 4px solid var(--sage-deep, #3d5a45); padding: 1rem; border-radius: 8px; max-width: 800px; margin: 1.5rem auto 0; text-align: left; font-size: 0.95rem; line-height: 1.5;">
                 🎓 <strong>Teacher Pro-Tip:</strong> Want to use COSY speaking club sessions for your core learning path lessons on <strong>ProgressMe (Edvibe)</strong> instead of running standalone clubs? Check out our step-by-step <strong><a href="https://cosylanguages.github.io/COSYmanuals/" target="_blank" rel="noopener" style="color: var(--sage-deep, #3d5a45); text-decoration: underline; font-weight: bold;">ProgressMe Lessons Integration Guide</a></strong>.
             </div>
@@ -301,7 +302,7 @@
                 <h3>Host a Live Lesson (Teacher)</h3>
                 <div class="input-group">
                     <input type="text" id="teacher-room" class="input-text" placeholder="Enter Room Name (e.g. Room101)">
-                    <button class="btn-action" onclick="hostRoom()">Create Room 🎓</button>
+                    <button type="button" class="btn-action" onclick="hostRoom()">Create Room 🎓</button>
                 </div>
                 <div id="host-status" class="connection-status">Status: Offline</div>
             </div>
@@ -310,7 +311,7 @@
                 <h3>Join a Live Session (Learner)</h3>
                 <div class="input-group">
                     <input type="text" id="student-room" class="input-text" placeholder="Enter Room Name to Join">
-                    <button class="btn-action btn-secondary" onclick="joinRoom()">Join Room ✏️</button>
+                    <button type="button" class="btn-action btn-secondary" onclick="joinRoom()">Join Room ✏️</button>
                 </div>
                 <div id="join-status" class="connection-status">Status: Offline</div>
             </div>
@@ -323,8 +324,8 @@
                 <option value="default">Default Demo: AI and the Brain (Cinema / Science hybrid)</option>
                 <option value="science-aibrain">Science Club: AI and the Brain (Intermediate)</option>
                 <option value="wonder-time">Wonder Club: I Have No Time For It (Advanced)</option>
-                <option value="quotes-dostoevsky">Quotes Club: Dostoevsky on Politics & Religion (B2)</option>
-                <option value="debate-4day">Debatable & Relatable: 4-Day Work Week (B1)</option>
+                <option value="quotes-dostoevsky">Quotes Club: Dostoevsky on Politics &amp; Religion (B2)</option>
+                <option value="debate-4day">Debatable &amp; Relatable: 4-Day Work Week (B1)</option>
             </select>
         </div>
 
@@ -340,11 +341,11 @@
                 <div class="timer-box">
                     <div class="timer-display" id="teacher-timer">00:30</div>
                     <div class="timer-controls">
-                        <button class="btn-timer" onclick="setTimerSec(15)">15s</button>
-                        <button class="btn-timer" onclick="setTimerSec(30)">30s</button>
-                        <button class="btn-timer" onclick="setTimerSec(60)">60s</button>
-                        <button class="btn-timer" style="background:var(--green-light); color:var(--green); border-color:var(--green);" onclick="toggleTimer()">Start / Pause</button>
-                        <button class="btn-timer" style="background:var(--rose-light); color:var(--rose); border-color:var(--rose);" onclick="resetTimer()">Reset</button>
+                        <button type="button" class="btn-timer" onclick="setTimerSec(15)">15s</button>
+                        <button type="button" class="btn-timer" onclick="setTimerSec(30)">30s</button>
+                        <button type="button" class="btn-timer" onclick="setTimerSec(60)">60s</button>
+                        <button type="button" class="btn-timer" style="background:var(--green-light); color:var(--green); border-color:var(--green);" onclick="toggleTimer()">Start / Pause</button>
+                        <button type="button" class="btn-timer" style="background:var(--rose-light); color:var(--rose); border-color:var(--rose);" onclick="resetTimer()">Reset</button>
                     </div>
                 </div>
 
