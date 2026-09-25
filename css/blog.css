@@ -2,6 +2,11 @@
    COSYlanguages — Shared Blog Stylesheet (Classic Blogger.com Aesthetic)
    ========================================================================== */
 
+:root {
+    --teal: var(--cosy-color-sage, var(--sage, #416b49));
+    --coral: var(--cosy-track-spoken, #B84318);
+}
+
 /* Page Background & Overall Container */
 body.blog-page,
 .blog-page-container {

@@ -156,9 +156,10 @@
     </div>
     </div>
 
-    <div id="setup-error-msg" class="setup-error-banner error-banner-hidden">
+    <div id="setup-error-msg" class="setup-error-banner error-banner-hidden" style="display: none; align-items: center; gap: 10px; background: #fff5f5; border: 1px solid #f56565; color: #c53030; padding: 0.85rem 1.25rem; border-radius: 8px; margin: 1rem 0;">
        <span class="error-banner-icon">⚠️</span>
-       <span class="error-banner-text">No exercises found for this combination. Try 'All Themes' or a different level.</span>
+       <span class="error-banner-text" id="setup-error-text">No exercises found for this combination. Try 'All Themes' or a different level.</span>
+       <button onclick="window.cosyPractice.startPractice()" class="btn-retry-sm" style="margin-left: auto; padding: 4px 12px; background: #c53030; color: #fff; border: none; border-radius: 6px; font-weight: bold; cursor: pointer;">Retry 🔄</button>
     </div>
 
     <div class="start-bar">
@@ -551,7 +552,7 @@
     </div>
     <div class="footer-links-col">
       <h3>Project</h3>
-      <a href="../about/index.html">Our Story 🏡</a>
+      <a href="../index.html#how">Our Story 🏡</a>
       <a href="../privacy.html">Privacy &amp; Safety 🛡️</a>
     </div>
     <div class="footer-links-col">

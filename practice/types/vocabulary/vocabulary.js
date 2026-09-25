@@ -816,8 +816,8 @@
             console.warn('[COSY filter] empty result', { lang, level, theme, subTheme, category: cat });
             const errorMsg = document.getElementById('setup-error-msg');
             if (errorMsg) {
-                errorMsg.style.display = 'block';
-                // Scroll to error if not visible
+                errorMsg.style.display = 'flex';
+                errorMsg.classList.remove('error-banner-hidden');
                 errorMsg.scrollIntoView({ behavior: 'smooth', block: 'center' });
             } else {
                 const msg = "No exercises found for this combination. Try All Levels or a different theme.";
@@ -831,7 +831,10 @@
         }
 
         const errorMsg = document.getElementById('setup-error-msg');
-        if (errorMsg) errorMsg.style.display = 'none';
+        if (errorMsg) {
+            errorMsg.style.display = 'none';
+            errorMsg.classList.add('error-banner-hidden');
+        }
 
         qs = [...qs].sort(() => Math.random() - .5).slice(0, 10);
 
