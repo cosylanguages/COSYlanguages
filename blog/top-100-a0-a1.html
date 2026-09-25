@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Top 100 A0–A1 Semantic Master List (100 Chains) — COSY Blog</title>
-    <meta name="description" content="The complete 100-chain A0-A1 beginner vocabulary tree across 10 progressive real-life domains with milestone goals and COSYdata live linkage.">
+    <meta name="description" content="The complete 100-chain A0-A1 beginner vocabulary tree across 10 progressive real-life domains with milestone goals and multi-language support.">
     <link rel="icon" href="../images/logos/cosylanguages.png">
     <link rel="manifest" href="../apps/free-portal/manifest.json">
     <meta name="theme-color" content="#FAF7F2">
@@ -34,6 +34,15 @@
         .chain-rel { font-weight: 700; padding: 0 0.2rem; }
         .rel-seq { color: var(--teal, #0d9488); }
         .rel-opp { color: #e11d48; }
+
+        /* Language Filter Bar */
+        .lang-toolbar { background: var(--bg-subtle, #f8fafc); border: 1px solid var(--border-color, #e2e8f0); border-radius: 12px; padding: 1rem 1.25rem; margin-bottom: 2rem; }
+        .lang-toolbar-title { font-size: 0.9rem; font-weight: 700; color: var(--text-muted, #64748b); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.75rem; display: flex; align-items: center; justify-content: space-between; }
+        .lang-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+        .lang-pill { background: #ffffff; border: 1px solid var(--border-color, #cbd5e1); border-radius: 20px; padding: 0.35rem 0.85rem; font-size: 0.85rem; font-weight: 600; color: var(--text-main, #334155); cursor: pointer; transition: all 0.2s; display: flex; align-items: center; gap: 0.35rem; }
+        .lang-pill:hover, .lang-pill.active { background: var(--teal, #0d9488); color: #ffffff; border-color: var(--teal, #0d9488); }
+        .lang-words-span { display: none; }
+        .lang-words-span.active { display: flex; align-items: center; flex-wrap: wrap; gap: 0.4rem; }
     </style>
 </head>
 <body class="blog-page">
@@ -55,10 +64,10 @@
                 <span>·</span>
                 <span>⏱️ 12 min read</span>
                 <span>·</span>
-                <span>💬 14 Languages Matrix</span>
+                <span>💬 Multi-Language Switcher</span>
             </div>
             <p class="post-header-intro">
-                Organized by real-world human experience rather than random alphabetical lists, this master guide provides <strong>100 progressive semantic chains</strong> across <strong>10 core life domains</strong> for absolute A0–A1 beginners. Each domain builds directly on the last to expand student communicative capability, ending in a concrete <strong>Can-Do Milestone Goal</strong> linked live to <strong>COSYdata</strong> across all 14 target languages.
+                Organized by real-world human experience rather than random alphabetical lists, this master guide provides <strong>100 progressive semantic chains</strong> across <strong>10 core life domains</strong> for absolute A0–A1 beginners. Each domain builds directly on the last to expand student communicative capability, ending in a concrete <strong>Can-Do Milestone Goal</strong> linked live to <strong>COSYdata</strong> across all target languages.
             </p>
             <div class="blog-header-meta" style="margin-top:1rem;">
                 <a href="https://github.com/cosylanguages/COSYdata" target="_blank" rel="noopener" class="blog-meta-chip" style="text-decoration:none;">📁 COSYdata source repo</a>
@@ -66,6 +75,40 @@
                 <a href="#dom-1" class="blog-meta-chip" style="text-decoration:none;">💬 Start Domain 1</a>
             </div>
         </header>
+
+        <!-- Interactive Language Selector Toolbar -->
+        <div class="lang-toolbar">
+            <div class="lang-toolbar-title">
+                <span>🌐 Target Language Selector</span>
+                <span id="activeLangLabel" style="color:var(--teal,#0d9488);">Target Language: 🇬🇧 English</span>
+            </div>
+            <div class="lang-pills">
+                <button type="button" class="lang-pill active" data-lang="en" onclick="filterMasterLang('en', '🇬🇧 English')">
+                    <span>🇬🇧</span> <span>English</span>
+                </button>
+                <button type="button" class="lang-pill " data-lang="fr" onclick="filterMasterLang('fr', '🇫🇷 French')">
+                    <span>🇫🇷</span> <span>French</span>
+                </button>
+                <button type="button" class="lang-pill " data-lang="it" onclick="filterMasterLang('it', '🇮🇹 Italian')">
+                    <span>🇮🇹</span> <span>Italian</span>
+                </button>
+                <button type="button" class="lang-pill " data-lang="es" onclick="filterMasterLang('es', '🇪🇸 Spanish')">
+                    <span>🇪🇸</span> <span>Spanish</span>
+                </button>
+                <button type="button" class="lang-pill " data-lang="pt" onclick="filterMasterLang('pt', '🇵🇹 Portuguese')">
+                    <span>🇵🇹</span> <span>Portuguese</span>
+                </button>
+                <button type="button" class="lang-pill " data-lang="de" onclick="filterMasterLang('de', '🇩🇪 German')">
+                    <span>🇩🇪</span> <span>German</span>
+                </button>
+                <button type="button" class="lang-pill " data-lang="el" onclick="filterMasterLang('el', '🇬🇷 Greek')">
+                    <span>🇬🇷</span> <span>Greek</span>
+                </button>
+                <button type="button" class="lang-pill " data-lang="ru" onclick="filterMasterLang('ru', '🇷🇺 Russian')">
+                    <span>🇷🇺</span> <span>Russian</span>
+                </button>
+            </div>
+        </div>
 
         <div class="blog-layout">
             <main class="blog-main-col">
@@ -86,8 +129,7 @@
                     <span>Chain 1 · Greetings</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>👋 Hello</span> <span class="chain-rel rel-opp">≠</span> <span>🚪 Goodbye</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>👋 Hello</span> <span class="chain-rel rel-opp">≠</span> <span>🚪 Goodbye</span></div>                    <div class="lang-words-span " data-lang="fr"><span>👋 Bonjour</span> <span class="chain-rel rel-opp">≠</span> <span>🚪 Au revoir</span></div>                    <div class="lang-words-span " data-lang="it"><span>👋 Ciao</span> <span class="chain-rel rel-opp">≠</span> <span>🚪 Arrivederci</span></div>                    <div class="lang-words-span " data-lang="es"><span>👋 Hola</span> <span class="chain-rel rel-opp">≠</span> <span>🚪 Adiós</span></div>                    <div class="lang-words-span " data-lang="pt"><span>👋 Olá</span> <span class="chain-rel rel-opp">≠</span> <span>🚪 Adeus</span></div>                    <div class="lang-words-span " data-lang="de"><span>👋 Hallo</span> <span class="chain-rel rel-opp">≠</span> <span>🚪 Auf Wiedersehen</span></div>                    <div class="lang-words-span " data-lang="el"><span>👋 Γεια</span> <span class="chain-rel rel-opp">≠</span> <span>🚪 Αντίο</span></div>                    <div class="lang-words-span " data-lang="ru"><span>👋 Привет</span> <span class="chain-rel rel-opp">≠</span> <span>🚪 До свидания</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -95,8 +137,7 @@
                     <span>Chain 2 · Politeness</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🙏 Please</span> <span class="chain-rel rel-opp">≠</span> <span>💐 Thank you</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🙏 Please</span> <span class="chain-rel rel-opp">≠</span> <span>💐 Thank you</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🙏 S'il vous plaît</span> <span class="chain-rel rel-opp">≠</span> <span>💐 Merci</span></div>                    <div class="lang-words-span " data-lang="it"><span>🙏 Per favore</span> <span class="chain-rel rel-opp">≠</span> <span>💐 Grazie</span></div>                    <div class="lang-words-span " data-lang="es"><span>🙏 Por favor</span> <span class="chain-rel rel-opp">≠</span> <span>💐 Gracias</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🙏 Por favor</span> <span class="chain-rel rel-opp">≠</span> <span>💐 Obrigado</span></div>                    <div class="lang-words-span " data-lang="de"><span>🙏 Bitte</span> <span class="chain-rel rel-opp">≠</span> <span>💐 Danke</span></div>                    <div class="lang-words-span " data-lang="el"><span>🙏 Παρακαλώ</span> <span class="chain-rel rel-opp">≠</span> <span>💐 Ευχαριστώ</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🙏 Пожалуйста</span> <span class="chain-rel rel-opp">≠</span> <span>💐 Спасибо</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -104,8 +145,7 @@
                     <span>Chain 3 · Confirmation</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>✅ Yes</span> <span class="chain-rel rel-opp">≠</span> <span>❌ No</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>✅ Yes</span> <span class="chain-rel rel-opp">≠</span> <span>❌ No</span></div>                    <div class="lang-words-span " data-lang="fr"><span>✅ Oui</span> <span class="chain-rel rel-opp">≠</span> <span>❌ Non</span></div>                    <div class="lang-words-span " data-lang="it"><span>✅ Sì</span> <span class="chain-rel rel-opp">≠</span> <span>❌ No</span></div>                    <div class="lang-words-span " data-lang="es"><span>✅ Sí</span> <span class="chain-rel rel-opp">≠</span> <span>❌ No</span></div>                    <div class="lang-words-span " data-lang="pt"><span>✅ Sim</span> <span class="chain-rel rel-opp">≠</span> <span>❌ Não</span></div>                    <div class="lang-words-span " data-lang="de"><span>✅ Ja</span> <span class="chain-rel rel-opp">≠</span> <span>❌ Nein</span></div>                    <div class="lang-words-span " data-lang="el"><span>✅ Ναι</span> <span class="chain-rel rel-opp">≠</span> <span>❌ Όχι</span></div>                    <div class="lang-words-span " data-lang="ru"><span>✅ Да</span> <span class="chain-rel rel-opp">≠</span> <span>❌ Нет</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -113,8 +153,7 @@
                     <span>Chain 4 · Inquiry</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>❓ Ask</span> <span class="chain-rel rel-opp">≠</span> <span>💡 Answer</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>❓ Ask</span> <span class="chain-rel rel-opp">≠</span> <span>💡 Answer</span></div>                    <div class="lang-words-span " data-lang="fr"><span>❓ Demander</span> <span class="chain-rel rel-opp">≠</span> <span>💡 Répondre</span></div>                    <div class="lang-words-span " data-lang="it"><span>❓ Chiedere</span> <span class="chain-rel rel-opp">≠</span> <span>💡 Rispondere</span></div>                    <div class="lang-words-span " data-lang="es"><span>❓ Preguntar</span> <span class="chain-rel rel-opp">≠</span> <span>💡 Responder</span></div>                    <div class="lang-words-span " data-lang="pt"><span>❓ Perguntar</span> <span class="chain-rel rel-opp">≠</span> <span>💡 Responder</span></div>                    <div class="lang-words-span " data-lang="de"><span>❓ Fragen</span> <span class="chain-rel rel-opp">≠</span> <span>💡 Antworten</span></div>                    <div class="lang-words-span " data-lang="el"><span>❓ Ρωτώ</span> <span class="chain-rel rel-opp">≠</span> <span>💡 Απαντώ</span></div>                    <div class="lang-words-span " data-lang="ru"><span>❓ Спрашивать</span> <span class="chain-rel rel-opp">≠</span> <span>💡 Отвечать</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -122,8 +161,7 @@
                     <span>Chain 5 · Oral Communication</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>👂 Listen</span> <span class="chain-rel rel-opp">≠</span> <span>🗣️ Speak</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>👂 Listen</span> <span class="chain-rel rel-opp">≠</span> <span>🗣️ Speak</span></div>                    <div class="lang-words-span " data-lang="fr"><span>👂 Écouter</span> <span class="chain-rel rel-opp">≠</span> <span>🗣️ Parler</span></div>                    <div class="lang-words-span " data-lang="it"><span>👂 Ascoltare</span> <span class="chain-rel rel-opp">≠</span> <span>🗣️ Parlare</span></div>                    <div class="lang-words-span " data-lang="es"><span>👂 Escuchar</span> <span class="chain-rel rel-opp">≠</span> <span>🗣️ Hablar</span></div>                    <div class="lang-words-span " data-lang="pt"><span>👂 Ouvir</span> <span class="chain-rel rel-opp">≠</span> <span>🗣️ Falar</span></div>                    <div class="lang-words-span " data-lang="de"><span>👂 Hören</span> <span class="chain-rel rel-opp">≠</span> <span>🗣️ Sprechen</span></div>                    <div class="lang-words-span " data-lang="el"><span>👂 Ακούω</span> <span class="chain-rel rel-opp">≠</span> <span>🗣️ Μιλώ</span></div>                    <div class="lang-words-span " data-lang="ru"><span>👂 Слушать</span> <span class="chain-rel rel-opp">≠</span> <span>🗣️ Говорить</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -131,8 +169,7 @@
                     <span>Chain 6 · Literacy</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>📖 Read</span> <span class="chain-rel rel-opp">≠</span> <span>✍️ Write</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>📖 Read</span> <span class="chain-rel rel-opp">≠</span> <span>✍️ Write</span></div>                    <div class="lang-words-span " data-lang="fr"><span>📖 Lire</span> <span class="chain-rel rel-opp">≠</span> <span>✍️ Écrire</span></div>                    <div class="lang-words-span " data-lang="it"><span>📖 Leggere</span> <span class="chain-rel rel-opp">≠</span> <span>✍️ Scrivere</span></div>                    <div class="lang-words-span " data-lang="es"><span>📖 Leer</span> <span class="chain-rel rel-opp">≠</span> <span>✍️ Escribir</span></div>                    <div class="lang-words-span " data-lang="pt"><span>📖 Ler</span> <span class="chain-rel rel-opp">≠</span> <span>✍️ Escrever</span></div>                    <div class="lang-words-span " data-lang="de"><span>📖 Lesen</span> <span class="chain-rel rel-opp">≠</span> <span>✍️ Schreiben</span></div>                    <div class="lang-words-span " data-lang="el"><span>📖 Διαβάζω</span> <span class="chain-rel rel-opp">≠</span> <span>✍️ Γράφω</span></div>                    <div class="lang-words-span " data-lang="ru"><span>📖 Читать</span> <span class="chain-rel rel-opp">≠</span> <span>✍️ Писать</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -140,8 +177,7 @@
                     <span>Chain 7 · Phone Call</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>📱 Call</span> <span class="chain-rel rel-seq">➔</span> <span>💬 Talk</span> <span class="chain-rel rel-seq">➔</span> <span>🤙 Hang up</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>📱 Call</span> <span class="chain-rel rel-seq">➔</span> <span>💬 Talk</span> <span class="chain-rel rel-seq">➔</span> <span>🤙 Hang up</span></div>                    <div class="lang-words-span " data-lang="fr"><span>📱 Appeler</span> <span class="chain-rel rel-seq">➔</span> <span>💬 Parler</span> <span class="chain-rel rel-seq">➔</span> <span>🤙 Raccrocher</span></div>                    <div class="lang-words-span " data-lang="it"><span>📱 Chiamare</span> <span class="chain-rel rel-seq">➔</span> <span>💬 Parlare</span> <span class="chain-rel rel-seq">➔</span> <span>🤙 Riagganciare</span></div>                    <div class="lang-words-span " data-lang="es"><span>📱 Llamar</span> <span class="chain-rel rel-seq">➔</span> <span>💬 Hablar</span> <span class="chain-rel rel-seq">➔</span> <span>🤙 Colgar</span></div>                    <div class="lang-words-span " data-lang="pt"><span>📱 Ligar</span> <span class="chain-rel rel-seq">➔</span> <span>💬 Falar</span> <span class="chain-rel rel-seq">➔</span> <span>🤙 Desligar</span></div>                    <div class="lang-words-span " data-lang="de"><span>📱 Anrufen</span> <span class="chain-rel rel-seq">➔</span> <span>💬 Sprechen</span> <span class="chain-rel rel-seq">➔</span> <span>🤙 Auflegen</span></div>                    <div class="lang-words-span " data-lang="el"><span>📱 Καλώ</span> <span class="chain-rel rel-seq">➔</span> <span>💬 Μιλώ</span> <span class="chain-rel rel-seq">➔</span> <span>🤙 Κλείνω</span></div>                    <div class="lang-words-span " data-lang="ru"><span>📱 Звонить</span> <span class="chain-rel rel-seq">➔</span> <span>💬 Говорить</span> <span class="chain-rel rel-seq">➔</span> <span>🤙 Положить трубку</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -149,8 +185,7 @@
                     <span>Chain 8 · Digital Message</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>💻 Open</span> <span class="chain-rel rel-seq">➔</span> <span>⌨️ Type</span> <span class="chain-rel rel-seq">➔</span> <span>✉️ Send</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>💻 Open</span> <span class="chain-rel rel-seq">➔</span> <span>⌨️ Type</span> <span class="chain-rel rel-seq">➔</span> <span>✉️ Send</span></div>                    <div class="lang-words-span " data-lang="fr"><span>💻 Ouvrir</span> <span class="chain-rel rel-seq">➔</span> <span>⌨️ Taper</span> <span class="chain-rel rel-seq">➔</span> <span>✉️ Envoyer</span></div>                    <div class="lang-words-span " data-lang="it"><span>💻 Aprire</span> <span class="chain-rel rel-seq">➔</span> <span>⌨️ Digitare</span> <span class="chain-rel rel-seq">➔</span> <span>✉️ Inviare</span></div>                    <div class="lang-words-span " data-lang="es"><span>💻 Abrir</span> <span class="chain-rel rel-seq">➔</span> <span>⌨️ Escribir</span> <span class="chain-rel rel-seq">➔</span> <span>✉️ Enviar</span></div>                    <div class="lang-words-span " data-lang="pt"><span>💻 Abrir</span> <span class="chain-rel rel-seq">➔</span> <span>⌨️ Digitar</span> <span class="chain-rel rel-seq">➔</span> <span>✉️ Enviar</span></div>                    <div class="lang-words-span " data-lang="de"><span>💻 Öffnen</span> <span class="chain-rel rel-seq">➔</span> <span>⌨️ Tippen</span> <span class="chain-rel rel-seq">➔</span> <span>✉️ Senden</span></div>                    <div class="lang-words-span " data-lang="el"><span>💻 Ανοίγω</span> <span class="chain-rel rel-seq">➔</span> <span>⌨️ Πληκτρολογώ</span> <span class="chain-rel rel-seq">➔</span> <span>✉️ Στέλνω</span></div>                    <div class="lang-words-span " data-lang="ru"><span>💻 Открыть</span> <span class="chain-rel rel-seq">➔</span> <span>⌨️ Печатать</span> <span class="chain-rel rel-seq">➔</span> <span>✉️ Отправить</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -158,8 +193,7 @@
                     <span>Chain 9 · Power Control</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🔌 Turn on</span> <span class="chain-rel rel-opp">≠</span> <span>💡 Turn off</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🔌 Turn on</span> <span class="chain-rel rel-opp">≠</span> <span>💡 Turn off</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🔌 Allumer</span> <span class="chain-rel rel-opp">≠</span> <span>💡 Éteindre</span></div>                    <div class="lang-words-span " data-lang="it"><span>🔌 Accendere</span> <span class="chain-rel rel-opp">≠</span> <span>💡 Spegnere</span></div>                    <div class="lang-words-span " data-lang="es"><span>🔌 Encender</span> <span class="chain-rel rel-opp">≠</span> <span>💡 Apagar</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🔌 Ligar</span> <span class="chain-rel rel-opp">≠</span> <span>💡 Desligar</span></div>                    <div class="lang-words-span " data-lang="de"><span>🔌 Einschalten</span> <span class="chain-rel rel-opp">≠</span> <span>💡 Ausschalten</span></div>                    <div class="lang-words-span " data-lang="el"><span>🔌 Ανάβω</span> <span class="chain-rel rel-opp">≠</span> <span>💡 Σβήνω</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🔌 Включить</span> <span class="chain-rel rel-opp">≠</span> <span>💡 Выключить</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -167,8 +201,7 @@
                     <span>Chain 10 · Question Primitives</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>❓ Who</span> <span class="chain-rel rel-seq">➔</span> <span>What</span> <span class="chain-rel rel-seq">➔</span> <span>Where</span> <span class="chain-rel rel-seq">➔</span> <span>When</span> <span class="chain-rel rel-seq">➔</span> <span>Why 🧐</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>❓ Who</span> <span class="chain-rel rel-seq">➔</span> <span>What</span> <span class="chain-rel rel-seq">➔</span> <span>Where</span> <span class="chain-rel rel-seq">➔</span> <span>When</span> <span class="chain-rel rel-seq">➔</span> <span>Why 🧐</span></div>                    <div class="lang-words-span " data-lang="fr"><span>❓ Qui</span> <span class="chain-rel rel-seq">➔</span> <span>Quoi</span> <span class="chain-rel rel-seq">➔</span> <span>Où</span> <span class="chain-rel rel-seq">➔</span> <span>Quand</span> <span class="chain-rel rel-seq">➔</span> <span>Pourquoi 🧐</span></div>                    <div class="lang-words-span " data-lang="it"><span>❓ Chi</span> <span class="chain-rel rel-seq">➔</span> <span>Cosa</span> <span class="chain-rel rel-seq">➔</span> <span>Dove</span> <span class="chain-rel rel-seq">➔</span> <span>Quando</span> <span class="chain-rel rel-seq">➔</span> <span>Perché 🧐</span></div>                    <div class="lang-words-span " data-lang="es"><span>❓ Quién</span> <span class="chain-rel rel-seq">➔</span> <span>Qué</span> <span class="chain-rel rel-seq">➔</span> <span>Dónde</span> <span class="chain-rel rel-seq">➔</span> <span>Cuándo</span> <span class="chain-rel rel-seq">➔</span> <span>Por qué 🧐</span></div>                    <div class="lang-words-span " data-lang="pt"><span>❓ Quem</span> <span class="chain-rel rel-seq">➔</span> <span>O que</span> <span class="chain-rel rel-seq">➔</span> <span>Onde</span> <span class="chain-rel rel-seq">➔</span> <span>Quando</span> <span class="chain-rel rel-seq">➔</span> <span>Por que 🧐</span></div>                    <div class="lang-words-span " data-lang="de"><span>❓ Wer</span> <span class="chain-rel rel-seq">➔</span> <span>Was</span> <span class="chain-rel rel-seq">➔</span> <span>Wo</span> <span class="chain-rel rel-seq">➔</span> <span>Wann</span> <span class="chain-rel rel-seq">➔</span> <span>Warum 🧐</span></div>                    <div class="lang-words-span " data-lang="el"><span>❓ Ποιος</span> <span class="chain-rel rel-seq">➔</span> <span>Τι</span> <span class="chain-rel rel-seq">➔</span> <span>Πού</span> <span class="chain-rel rel-seq">➔</span> <span>Πότε</span> <span class="chain-rel rel-seq">➔</span> <span>Γιατί 🧐</span></div>                    <div class="lang-words-span " data-lang="ru"><span>❓ Кто</span> <span class="chain-rel rel-seq">➔</span> <span>Что</span> <span class="chain-rel rel-seq">➔</span> <span>Где</span> <span class="chain-rel rel-seq">➔</span> <span>Когда</span> <span class="chain-rel rel-seq">➔</span> <span>Почему 🧐</span></div>
                 </div>
             </div>
         </div>
@@ -194,8 +227,7 @@
                     <span>Chain 11 · Pronouns &amp; Group</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🙋 Me</span> <span class="chain-rel rel-seq">➔</span> <span>🫵 You</span> <span class="chain-rel rel-seq">➔</span> <span>👥 Us</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🙋 Me</span> <span class="chain-rel rel-seq">➔</span> <span>🫵 You</span> <span class="chain-rel rel-seq">➔</span> <span>👥 Us</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🙋 Moi</span> <span class="chain-rel rel-seq">➔</span> <span>🫵 Toi</span> <span class="chain-rel rel-seq">➔</span> <span>👥 Nous</span></div>                    <div class="lang-words-span " data-lang="it"><span>🙋 Io</span> <span class="chain-rel rel-seq">➔</span> <span>🫵 Tu</span> <span class="chain-rel rel-seq">➔</span> <span>👥 Noi</span></div>                    <div class="lang-words-span " data-lang="es"><span>🙋 Yo</span> <span class="chain-rel rel-seq">➔</span> <span>🫵 Tú</span> <span class="chain-rel rel-seq">➔</span> <span>👥 Nosotros</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🙋 Eu</span> <span class="chain-rel rel-seq">➔</span> <span>🫵 Tu</span> <span class="chain-rel rel-seq">➔</span> <span>👥 Nós</span></div>                    <div class="lang-words-span " data-lang="de"><span>🙋 Ich</span> <span class="chain-rel rel-seq">➔</span> <span>🫵 Du</span> <span class="chain-rel rel-seq">➔</span> <span>👥 Wir</span></div>                    <div class="lang-words-span " data-lang="el"><span>🙋 Εγώ</span> <span class="chain-rel rel-seq">➔</span> <span>🫵 Εσύ</span> <span class="chain-rel rel-seq">➔</span> <span>👥 Εμείς</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🙋 Я</span> <span class="chain-rel rel-seq">➔</span> <span>🫵 Ты</span> <span class="chain-rel rel-seq">➔</span> <span>👥 Мы</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -203,8 +235,7 @@
                     <span>Chain 12 · Male Lifecycle</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>👦 Boy</span> <span class="chain-rel rel-seq">➔</span> <span>👨 Man</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>👦 Boy</span> <span class="chain-rel rel-seq">➔</span> <span>👨 Man</span></div>                    <div class="lang-words-span " data-lang="fr"><span>👦 Garçon</span> <span class="chain-rel rel-seq">➔</span> <span>👨 Homme</span></div>                    <div class="lang-words-span " data-lang="it"><span>👦 Ragazzo</span> <span class="chain-rel rel-seq">➔</span> <span>👨 Uomo</span></div>                    <div class="lang-words-span " data-lang="es"><span>👦 Niño</span> <span class="chain-rel rel-seq">➔</span> <span>👨 Hombre</span></div>                    <div class="lang-words-span " data-lang="pt"><span>👦 Menino</span> <span class="chain-rel rel-seq">➔</span> <span>👨 Homem</span></div>                    <div class="lang-words-span " data-lang="de"><span>👦 Junge</span> <span class="chain-rel rel-seq">➔</span> <span>👨 Mann</span></div>                    <div class="lang-words-span " data-lang="el"><span>👦 Αγόρι</span> <span class="chain-rel rel-seq">➔</span> <span>👨 Άνδρας</span></div>                    <div class="lang-words-span " data-lang="ru"><span>👦 Мальчик</span> <span class="chain-rel rel-seq">➔</span> <span>👨 Мужчина</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -212,8 +243,7 @@
                     <span>Chain 13 · Female Lifecycle</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>👧 Girl</span> <span class="chain-rel rel-seq">➔</span> <span>👩 Woman</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>👧 Girl</span> <span class="chain-rel rel-seq">➔</span> <span>👩 Woman</span></div>                    <div class="lang-words-span " data-lang="fr"><span>👧 Fille</span> <span class="chain-rel rel-seq">➔</span> <span>👩 Femme</span></div>                    <div class="lang-words-span " data-lang="it"><span>👧 Ragazza</span> <span class="chain-rel rel-seq">➔</span> <span>👩 Donna</span></div>                    <div class="lang-words-span " data-lang="es"><span>👧 Niña</span> <span class="chain-rel rel-seq">➔</span> <span>👩 Mujer</span></div>                    <div class="lang-words-span " data-lang="pt"><span>👧 Menina</span> <span class="chain-rel rel-seq">➔</span> <span>👩 Mulher</span></div>                    <div class="lang-words-span " data-lang="de"><span>👧 Mädchen</span> <span class="chain-rel rel-seq">➔</span> <span>👩 Frau</span></div>                    <div class="lang-words-span " data-lang="el"><span>👧 Κορίτσι</span> <span class="chain-rel rel-seq">➔</span> <span>👩 Γυναίκα</span></div>                    <div class="lang-words-span " data-lang="ru"><span>👧 Девочка</span> <span class="chain-rel rel-seq">➔</span> <span>👩 Женщина</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -221,8 +251,7 @@
                     <span>Chain 14 · Gender Contrast</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>👨 Man</span> <span class="chain-rel rel-opp">≠</span> <span>👩 Woman</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>👨 Man</span> <span class="chain-rel rel-opp">≠</span> <span>👩 Woman</span></div>                    <div class="lang-words-span " data-lang="fr"><span>👨 Homme</span> <span class="chain-rel rel-opp">≠</span> <span>👩 Femme</span></div>                    <div class="lang-words-span " data-lang="it"><span>👨 Uomo</span> <span class="chain-rel rel-opp">≠</span> <span>👩 Donna</span></div>                    <div class="lang-words-span " data-lang="es"><span>👨 Hombre</span> <span class="chain-rel rel-opp">≠</span> <span>👩 Mujer</span></div>                    <div class="lang-words-span " data-lang="pt"><span>👨 Homem</span> <span class="chain-rel rel-opp">≠</span> <span>👩 Mulher</span></div>                    <div class="lang-words-span " data-lang="de"><span>👨 Mann</span> <span class="chain-rel rel-opp">≠</span> <span>👩 Frau</span></div>                    <div class="lang-words-span " data-lang="el"><span>👨 Άνδρας</span> <span class="chain-rel rel-opp">≠</span> <span>👩 Γυναίκα</span></div>                    <div class="lang-words-span " data-lang="ru"><span>👨 Мужчина</span> <span class="chain-rel rel-opp">≠</span> <span>👩 Женщина</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -230,8 +259,7 @@
                     <span>Chain 15 · Age Growth</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>👶 Baby</span> <span class="chain-rel rel-seq">➔</span> <span>🧒 Child</span> <span class="chain-rel rel-seq">➔</span> <span>🧑 Adult</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>👶 Baby</span> <span class="chain-rel rel-seq">➔</span> <span>🧒 Child</span> <span class="chain-rel rel-seq">➔</span> <span>🧑 Adult</span></div>                    <div class="lang-words-span " data-lang="fr"><span>👶 Bébé</span> <span class="chain-rel rel-seq">➔</span> <span>🧒 Enfant</span> <span class="chain-rel rel-seq">➔</span> <span>🧑 Adulte</span></div>                    <div class="lang-words-span " data-lang="it"><span>👶 Bambino</span> <span class="chain-rel rel-seq">➔</span> <span>🧒 Ragazzo</span> <span class="chain-rel rel-seq">➔</span> <span>🧑 Adulto</span></div>                    <div class="lang-words-span " data-lang="es"><span>👶 Bebé</span> <span class="chain-rel rel-seq">➔</span> <span>🧒 Niño</span> <span class="chain-rel rel-seq">➔</span> <span>🧑 Adulto</span></div>                    <div class="lang-words-span " data-lang="pt"><span>👶 Bebê</span> <span class="chain-rel rel-seq">➔</span> <span>🧒 Criança</span> <span class="chain-rel rel-seq">➔</span> <span>🧑 Adulto</span></div>                    <div class="lang-words-span " data-lang="de"><span>👶 Baby</span> <span class="chain-rel rel-seq">➔</span> <span>🧒 Kind</span> <span class="chain-rel rel-seq">➔</span> <span>🧑 Erwachsener</span></div>                    <div class="lang-words-span " data-lang="el"><span>👶 Μωρό</span> <span class="chain-rel rel-seq">➔</span> <span>🧒 Παιδί</span> <span class="chain-rel rel-seq">➔</span> <span>🧑 Ενήλικας</span></div>                    <div class="lang-words-span " data-lang="ru"><span>👶 Ребенок</span> <span class="chain-rel rel-seq">➔</span> <span>🧒 Дитя</span> <span class="chain-rel rel-seq">➔</span> <span>🧑 Взрослый</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -239,8 +267,7 @@
                     <span>Chain 16 · Age Spectrum</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>👶 Young</span> <span class="chain-rel rel-opp">≠</span> <span>👵 Old</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>👶 Young</span> <span class="chain-rel rel-opp">≠</span> <span>👵 Old</span></div>                    <div class="lang-words-span " data-lang="fr"><span>👶 Jeune</span> <span class="chain-rel rel-opp">≠</span> <span>👵 Vieux</span></div>                    <div class="lang-words-span " data-lang="it"><span>👶 Giovane</span> <span class="chain-rel rel-opp">≠</span> <span>👵 Vecchio</span></div>                    <div class="lang-words-span " data-lang="es"><span>👶 Joven</span> <span class="chain-rel rel-opp">≠</span> <span>👵 Viejo</span></div>                    <div class="lang-words-span " data-lang="pt"><span>👶 Jovem</span> <span class="chain-rel rel-opp">≠</span> <span>👵 Velho</span></div>                    <div class="lang-words-span " data-lang="de"><span>👶 Jung</span> <span class="chain-rel rel-opp">≠</span> <span>👵 Alt</span></div>                    <div class="lang-words-span " data-lang="el"><span>👶 Νέος</span> <span class="chain-rel rel-opp">≠</span> <span>👵 Γέρος</span></div>                    <div class="lang-words-span " data-lang="ru"><span>👶 Молодой</span> <span class="chain-rel rel-opp">≠</span> <span>👵 Старый</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -248,8 +275,7 @@
                     <span>Chain 17 · Spouses</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🤵 Husband</span> <span class="chain-rel rel-opp">≠</span> <span>👰 Wife</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🤵 Husband</span> <span class="chain-rel rel-opp">≠</span> <span>👰 Wife</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🤵 Mari</span> <span class="chain-rel rel-opp">≠</span> <span>👰 Femme</span></div>                    <div class="lang-words-span " data-lang="it"><span>🤵 Marito</span> <span class="chain-rel rel-opp">≠</span> <span>👰 Moglie</span></div>                    <div class="lang-words-span " data-lang="es"><span>🤵 Esposo</span> <span class="chain-rel rel-opp">≠</span> <span>👰 Esposa</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🤵 Marido</span> <span class="chain-rel rel-opp">≠</span> <span>👰 Esposa</span></div>                    <div class="lang-words-span " data-lang="de"><span>🤵 Ehemann</span> <span class="chain-rel rel-opp">≠</span> <span>👰 Ehefrau</span></div>                    <div class="lang-words-span " data-lang="el"><span>🤵 Σύζυγος</span> <span class="chain-rel rel-opp">≠</span> <span>👰 Γυναίκα</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🤵 Муж</span> <span class="chain-rel rel-opp">≠</span> <span>👰 Жена</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -257,8 +283,7 @@
                     <span>Chain 18 · Siblings</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>👦 Brother</span> <span class="chain-rel rel-opp">≠</span> <span>👧 Sister</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>👦 Brother</span> <span class="chain-rel rel-opp">≠</span> <span>👧 Sister</span></div>                    <div class="lang-words-span " data-lang="fr"><span>👦 Frère</span> <span class="chain-rel rel-opp">≠</span> <span>👧 Sœur</span></div>                    <div class="lang-words-span " data-lang="it"><span>👦 Fratello</span> <span class="chain-rel rel-opp">≠</span> <span>👧 Sorella</span></div>                    <div class="lang-words-span " data-lang="es"><span>👦 Hermano</span> <span class="chain-rel rel-opp">≠</span> <span>👧 Hermana</span></div>                    <div class="lang-words-span " data-lang="pt"><span>👦 Irmão</span> <span class="chain-rel rel-opp">≠</span> <span>👧 Irmã</span></div>                    <div class="lang-words-span " data-lang="de"><span>👦 Bruder</span> <span class="chain-rel rel-opp">≠</span> <span>👧 Schwester</span></div>                    <div class="lang-words-span " data-lang="el"><span>👦 Αδελφός</span> <span class="chain-rel rel-opp">≠</span> <span>👧 Αδελφή</span></div>                    <div class="lang-words-span " data-lang="ru"><span>👦 Брат</span> <span class="chain-rel rel-opp">≠</span> <span>👧 Сестра</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -266,8 +291,7 @@
                     <span>Chain 19 · Family Tree</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>👴 Grandparents</span> <span class="chain-rel rel-seq">➔</span> <span>👨‍👩‍👧 Parents</span> <span class="chain-rel rel-seq">➔</span> <span>🧒 Children</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>👴 Grandparents</span> <span class="chain-rel rel-seq">➔</span> <span>👨‍👩‍👧 Parents</span> <span class="chain-rel rel-seq">➔</span> <span>🧒 Children</span></div>                    <div class="lang-words-span " data-lang="fr"><span>👴 Grands-parents</span> <span class="chain-rel rel-seq">➔</span> <span>👨‍👩‍👧 Parents</span> <span class="chain-rel rel-seq">➔</span> <span>🧒 Enfants</span></div>                    <div class="lang-words-span " data-lang="it"><span>👴 Nonni</span> <span class="chain-rel rel-seq">➔</span> <span>👨‍👩‍👧 Genitori</span> <span class="chain-rel rel-seq">➔</span> <span>🧒 Figli</span></div>                    <div class="lang-words-span " data-lang="es"><span>👴 Abuelos</span> <span class="chain-rel rel-seq">➔</span> <span>👨‍👩‍👧 Padres</span> <span class="chain-rel rel-seq">➔</span> <span>🧒 Hijos</span></div>                    <div class="lang-words-span " data-lang="pt"><span>👴 Avós</span> <span class="chain-rel rel-seq">➔</span> <span>👨‍👩‍👧 Pais</span> <span class="chain-rel rel-seq">➔</span> <span>🧒 Filhos</span></div>                    <div class="lang-words-span " data-lang="de"><span>👴 Großeltern</span> <span class="chain-rel rel-seq">➔</span> <span>👨‍👩‍👧 Eltern</span> <span class="chain-rel rel-seq">➔</span> <span>🧒 Kinder</span></div>                    <div class="lang-words-span " data-lang="el"><span>👴 Παππούδες</span> <span class="chain-rel rel-seq">➔</span> <span>👨‍👩‍👧 Γονείς</span> <span class="chain-rel rel-seq">➔</span> <span>🧒 Παιδιά</span></div>                    <div class="lang-words-span " data-lang="ru"><span>👴 Дедушка и бабушка</span> <span class="chain-rel rel-seq">➔</span> <span>👨‍👩‍👧 Родители</span> <span class="chain-rel rel-seq">➔</span> <span>🧒 Дети</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -275,8 +299,7 @@
                     <span>Chain 20 · Social Relations</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🤝 Friend</span> <span class="chain-rel rel-opp">≠</span> <span>👤 Stranger</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🤝 Friend</span> <span class="chain-rel rel-opp">≠</span> <span>👤 Stranger</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🤝 Ami</span> <span class="chain-rel rel-opp">≠</span> <span>👤 Étranger</span></div>                    <div class="lang-words-span " data-lang="it"><span>🤝 Amico</span> <span class="chain-rel rel-opp">≠</span> <span>👤 Sconosciuto</span></div>                    <div class="lang-words-span " data-lang="es"><span>🤝 Amigo</span> <span class="chain-rel rel-opp">≠</span> <span>👤 Desconocido</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🤝 Amigo</span> <span class="chain-rel rel-opp">≠</span> <span>👤 Estranho</span></div>                    <div class="lang-words-span " data-lang="de"><span>🤝 Freund</span> <span class="chain-rel rel-opp">≠</span> <span>👤 Fremder</span></div>                    <div class="lang-words-span " data-lang="el"><span>🤝 Φίλος</span> <span class="chain-rel rel-opp">≠</span> <span>👤 Ξένος</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🤝 Друг</span> <span class="chain-rel rel-opp">≠</span> <span>👤 Незнакомец</span></div>
                 </div>
             </div>
         </div>
@@ -302,8 +325,7 @@
                     <span>Chain 21 · Immediate Timeline</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>⏳ Before</span> <span class="chain-rel rel-seq">➔</span> <span>⏱️ Now</span> <span class="chain-rel rel-seq">➔</span> <span>⌛ After</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>⏳ Before</span> <span class="chain-rel rel-seq">➔</span> <span>⏱️ Now</span> <span class="chain-rel rel-seq">➔</span> <span>⌛ After</span></div>                    <div class="lang-words-span " data-lang="fr"><span>⏳ Avant</span> <span class="chain-rel rel-seq">➔</span> <span>⏱️ Maintenant</span> <span class="chain-rel rel-seq">➔</span> <span>⌛ Après</span></div>                    <div class="lang-words-span " data-lang="it"><span>⏳ Prima</span> <span class="chain-rel rel-seq">➔</span> <span>⏱️ Ora</span> <span class="chain-rel rel-seq">➔</span> <span>⌛ Dopo</span></div>                    <div class="lang-words-span " data-lang="es"><span>⏳ Antes</span> <span class="chain-rel rel-seq">➔</span> <span>⏱️ Ahora</span> <span class="chain-rel rel-seq">➔</span> <span>⌛ Después</span></div>                    <div class="lang-words-span " data-lang="pt"><span>⏳ Antes</span> <span class="chain-rel rel-seq">➔</span> <span>⏱️ Agora</span> <span class="chain-rel rel-seq">➔</span> <span>⌛ Depois</span></div>                    <div class="lang-words-span " data-lang="de"><span>⏳ Vorher</span> <span class="chain-rel rel-seq">➔</span> <span>⏱️ Jetzt</span> <span class="chain-rel rel-seq">➔</span> <span>⌛ Nachher</span></div>                    <div class="lang-words-span " data-lang="el"><span>⏳ Πριν</span> <span class="chain-rel rel-seq">➔</span> <span>⏱️ Τώρα</span> <span class="chain-rel rel-seq">➔</span> <span>⌛ Μετά</span></div>                    <div class="lang-words-span " data-lang="ru"><span>⏳ До</span> <span class="chain-rel rel-seq">➔</span> <span>⏱️ Сейчас</span> <span class="chain-rel rel-seq">➔</span> <span>⌛ После</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -311,8 +333,7 @@
                     <span>Chain 22 · Time of Day</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🌅 Morning</span> <span class="chain-rel rel-seq">➔</span> <span>☀️ Afternoon</span> <span class="chain-rel rel-seq">➔</span> <span>🌆 Evening</span> <span class="chain-rel rel-seq">➔</span> <span>🌙 Night</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🌅 Morning</span> <span class="chain-rel rel-seq">➔</span> <span>☀️ Afternoon</span> <span class="chain-rel rel-seq">➔</span> <span>🌆 Evening</span> <span class="chain-rel rel-seq">➔</span> <span>🌙 Night</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🌅 Matin</span> <span class="chain-rel rel-seq">➔</span> <span>☀️ Après-midi</span> <span class="chain-rel rel-seq">➔</span> <span>🌆 Soir</span> <span class="chain-rel rel-seq">➔</span> <span>🌙 Nuit</span></div>                    <div class="lang-words-span " data-lang="it"><span>🌅 Mattina</span> <span class="chain-rel rel-seq">➔</span> <span>☀️ Pomeriggio</span> <span class="chain-rel rel-seq">➔</span> <span>🌆 Sera</span> <span class="chain-rel rel-seq">➔</span> <span>🌙 Notte</span></div>                    <div class="lang-words-span " data-lang="es"><span>🌅 Mañana</span> <span class="chain-rel rel-seq">➔</span> <span>☀️ Tarde</span> <span class="chain-rel rel-seq">➔</span> <span>🌆 Noche</span> <span class="chain-rel rel-seq">➔</span> <span>🌙 Noche</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🌅 Manhã</span> <span class="chain-rel rel-seq">➔</span> <span>☀️ Tarde</span> <span class="chain-rel rel-seq">➔</span> <span>🌆 Noite</span> <span class="chain-rel rel-seq">➔</span> <span>🌙 Noite</span></div>                    <div class="lang-words-span " data-lang="de"><span>🌅 Morgen</span> <span class="chain-rel rel-seq">➔</span> <span>☀️ Nachmittag</span> <span class="chain-rel rel-seq">➔</span> <span>🌆 Abend</span> <span class="chain-rel rel-seq">➔</span> <span>🌙 Nacht</span></div>                    <div class="lang-words-span " data-lang="el"><span>🌅 Πρωί</span> <span class="chain-rel rel-seq">➔</span> <span>☀️ Απόγευμα</span> <span class="chain-rel rel-seq">➔</span> <span>🌆 Βράδυ</span> <span class="chain-rel rel-seq">➔</span> <span>🌙 Νύχτα</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🌅 Утро</span> <span class="chain-rel rel-seq">➔</span> <span>☀️ День</span> <span class="chain-rel rel-seq">➔</span> <span>🌆 Вечер</span> <span class="chain-rel rel-seq">➔</span> <span>🌙 Ночь</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -320,8 +341,7 @@
                     <span>Chain 23 · Relative Days</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>⏮️ Yesterday</span> <span class="chain-rel rel-seq">➔</span> <span>🔴 Today</span> <span class="chain-rel rel-seq">➔</span> <span>⏭️ Tomorrow</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>⏮️ Yesterday</span> <span class="chain-rel rel-seq">➔</span> <span>🔴 Today</span> <span class="chain-rel rel-seq">➔</span> <span>⏭️ Tomorrow</span></div>                    <div class="lang-words-span " data-lang="fr"><span>⏮️ Hier</span> <span class="chain-rel rel-seq">➔</span> <span>🔴 Aujourd'hui</span> <span class="chain-rel rel-seq">➔</span> <span>⏭️ Demain</span></div>                    <div class="lang-words-span " data-lang="it"><span>⏮️ Ieri</span> <span class="chain-rel rel-seq">➔</span> <span>🔴 Oggi</span> <span class="chain-rel rel-seq">➔</span> <span>⏭️ Domani</span></div>                    <div class="lang-words-span " data-lang="es"><span>⏮️ Ayer</span> <span class="chain-rel rel-seq">➔</span> <span>🔴 Hoy</span> <span class="chain-rel rel-seq">➔</span> <span>⏭️ Mañana</span></div>                    <div class="lang-words-span " data-lang="pt"><span>⏮️ Ontem</span> <span class="chain-rel rel-seq">➔</span> <span>🔴 Hoje</span> <span class="chain-rel rel-seq">➔</span> <span>⏭️ Amanhã</span></div>                    <div class="lang-words-span " data-lang="de"><span>⏮️ Gestern</span> <span class="chain-rel rel-seq">➔</span> <span>🔴 Heute</span> <span class="chain-rel rel-seq">➔</span> <span>⏭️ Morgen</span></div>                    <div class="lang-words-span " data-lang="el"><span>⏮️ Χθες</span> <span class="chain-rel rel-seq">➔</span> <span>🔴 Σήμερα</span> <span class="chain-rel rel-seq">➔</span> <span>⏭️ Αύριο</span></div>                    <div class="lang-words-span " data-lang="ru"><span>⏮️ Вчера</span> <span class="chain-rel rel-seq">➔</span> <span>🔴 Сегодня</span> <span class="chain-rel rel-seq">➔</span> <span>⏭️ Завтра</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -329,8 +349,7 @@
                     <span>Chain 24 · Duration Units</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>⏱️ Minute</span> <span class="chain-rel rel-seq">➔</span> <span>⏰ Hour</span> <span class="chain-rel rel-seq">➔</span> <span>📅 Day</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>⏱️ Minute</span> <span class="chain-rel rel-seq">➔</span> <span>⏰ Hour</span> <span class="chain-rel rel-seq">➔</span> <span>📅 Day</span></div>                    <div class="lang-words-span " data-lang="fr"><span>⏱️ Minute</span> <span class="chain-rel rel-seq">➔</span> <span>⏰ Heure</span> <span class="chain-rel rel-seq">➔</span> <span>📅 Jour</span></div>                    <div class="lang-words-span " data-lang="it"><span>⏱️ Minuto</span> <span class="chain-rel rel-seq">➔</span> <span>⏰ Ora</span> <span class="chain-rel rel-seq">➔</span> <span>📅 Giorno</span></div>                    <div class="lang-words-span " data-lang="es"><span>⏱️ Minuto</span> <span class="chain-rel rel-seq">➔</span> <span>⏰ Hora</span> <span class="chain-rel rel-seq">➔</span> <span>📅 Día</span></div>                    <div class="lang-words-span " data-lang="pt"><span>⏱️ Minuto</span> <span class="chain-rel rel-seq">➔</span> <span>⏰ Hora</span> <span class="chain-rel rel-seq">➔</span> <span>📅 Dia</span></div>                    <div class="lang-words-span " data-lang="de"><span>⏱️ Minute</span> <span class="chain-rel rel-seq">➔</span> <span>⏰ Stunde</span> <span class="chain-rel rel-seq">➔</span> <span>📅 Tag</span></div>                    <div class="lang-words-span " data-lang="el"><span>⏱️ Λεπτό</span> <span class="chain-rel rel-seq">➔</span> <span>⏰ Ώρα</span> <span class="chain-rel rel-seq">➔</span> <span>📅 Ημέρα</span></div>                    <div class="lang-words-span " data-lang="ru"><span>⏱️ Минута</span> <span class="chain-rel rel-seq">➔</span> <span>⏰ Час</span> <span class="chain-rel rel-seq">➔</span> <span>📅 День</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -338,8 +357,7 @@
                     <span>Chain 25 · Weekly Rhythm</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🗓️ Weekday</span> <span class="chain-rel rel-seq">➔</span> <span>🥳 Weekend</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🗓️ Weekday</span> <span class="chain-rel rel-seq">➔</span> <span>🥳 Weekend</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🗓️ Jour de semaine</span> <span class="chain-rel rel-seq">➔</span> <span>🥳 Week-end</span></div>                    <div class="lang-words-span " data-lang="it"><span>🗓️ Feriale</span> <span class="chain-rel rel-seq">➔</span> <span>🥳 Fine settimana</span></div>                    <div class="lang-words-span " data-lang="es"><span>🗓️ Día laborable</span> <span class="chain-rel rel-seq">➔</span> <span>🥳 Fin de semana</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🗓️ Dia útil</span> <span class="chain-rel rel-seq">➔</span> <span>🥳 Fim de semana</span></div>                    <div class="lang-words-span " data-lang="de"><span>🗓️ Werktag</span> <span class="chain-rel rel-seq">➔</span> <span>🥳 Wochenende</span></div>                    <div class="lang-words-span " data-lang="el"><span>🗓️ Καθημερινή</span> <span class="chain-rel rel-seq">➔</span> <span>🥳 Σαββατοκύριακο</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🗓️ Будний день</span> <span class="chain-rel rel-seq">➔</span> <span>🥳 Выходные</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -347,8 +365,7 @@
                     <span>Chain 26 · Four Seasons</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🌸 Spring</span> <span class="chain-rel rel-seq">➔</span> <span>☀️ Summer</span> <span class="chain-rel rel-seq">➔</span> <span>🍂 Autumn</span> <span class="chain-rel rel-seq">➔</span> <span>❄️ Winter</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🌸 Spring</span> <span class="chain-rel rel-seq">➔</span> <span>☀️ Summer</span> <span class="chain-rel rel-seq">➔</span> <span>🍂 Autumn</span> <span class="chain-rel rel-seq">➔</span> <span>❄️ Winter</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🌸 Printemps</span> <span class="chain-rel rel-seq">➔</span> <span>☀️ Été</span> <span class="chain-rel rel-seq">➔</span> <span>🍂 Automne</span> <span class="chain-rel rel-seq">➔</span> <span>❄️ Hiver</span></div>                    <div class="lang-words-span " data-lang="it"><span>🌸 Primavera</span> <span class="chain-rel rel-seq">➔</span> <span>☀️ Estate</span> <span class="chain-rel rel-seq">➔</span> <span>🍂 Autunno</span> <span class="chain-rel rel-seq">➔</span> <span>❄️ Inverno</span></div>                    <div class="lang-words-span " data-lang="es"><span>🌸 Primavera</span> <span class="chain-rel rel-seq">➔</span> <span>☀️ Verano</span> <span class="chain-rel rel-seq">➔</span> <span>🍂 Otoño</span> <span class="chain-rel rel-seq">➔</span> <span>❄️ Invierno</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🌸 Primavera</span> <span class="chain-rel rel-seq">➔</span> <span>☀️ Verão</span> <span class="chain-rel rel-seq">➔</span> <span>🍂 Outono</span> <span class="chain-rel rel-seq">➔</span> <span>❄️ Inverno</span></div>                    <div class="lang-words-span " data-lang="de"><span>🌸 Frühling</span> <span class="chain-rel rel-seq">➔</span> <span>☀️ Sommer</span> <span class="chain-rel rel-seq">➔</span> <span>🍂 Herbst</span> <span class="chain-rel rel-seq">➔</span> <span>❄️ Winter</span></div>                    <div class="lang-words-span " data-lang="el"><span>🌸 Άνοιξη</span> <span class="chain-rel rel-seq">➔</span> <span>☀️ Καλοκαίρι</span> <span class="chain-rel rel-seq">➔</span> <span>🍂 Φθινόπωρο</span> <span class="chain-rel rel-seq">➔</span> <span>❄️ Χειμώνας</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🌸 Весна</span> <span class="chain-rel rel-seq">➔</span> <span>☀️ Лето</span> <span class="chain-rel rel-seq">➔</span> <span>🍂 Осень</span> <span class="chain-rel rel-seq">➔</span> <span>❄️ Зима</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -356,8 +373,7 @@
                     <span>Chain 27 · Time Horizons</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>📜 Past</span> <span class="chain-rel rel-seq">➔</span> <span>📍 Present</span> <span class="chain-rel rel-seq">➔</span> <span>🔮 Future</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>📜 Past</span> <span class="chain-rel rel-seq">➔</span> <span>📍 Present</span> <span class="chain-rel rel-seq">➔</span> <span>🔮 Future</span></div>                    <div class="lang-words-span " data-lang="fr"><span>📜 Passé</span> <span class="chain-rel rel-seq">➔</span> <span>📍 Présent</span> <span class="chain-rel rel-seq">➔</span> <span>🔮 Futur</span></div>                    <div class="lang-words-span " data-lang="it"><span>📜 Passato</span> <span class="chain-rel rel-seq">➔</span> <span>📍 Presente</span> <span class="chain-rel rel-seq">➔</span> <span>🔮 Futuro</span></div>                    <div class="lang-words-span " data-lang="es"><span>📜 Pasado</span> <span class="chain-rel rel-seq">➔</span> <span>📍 Presente</span> <span class="chain-rel rel-seq">➔</span> <span>🔮 Futuro</span></div>                    <div class="lang-words-span " data-lang="pt"><span>📜 Passado</span> <span class="chain-rel rel-seq">➔</span> <span>📍 Presente</span> <span class="chain-rel rel-seq">➔</span> <span>🔮 Futuro</span></div>                    <div class="lang-words-span " data-lang="de"><span>📜 Vergangenheit</span> <span class="chain-rel rel-seq">➔</span> <span>📍 Gegenwart</span> <span class="chain-rel rel-seq">➔</span> <span>🔮 Zukunft</span></div>                    <div class="lang-words-span " data-lang="el"><span>📜 Παρελθόν</span> <span class="chain-rel rel-seq">➔</span> <span>📍 Παρόν</span> <span class="chain-rel rel-seq">➔</span> <span>🔮 Μέλλον</span></div>                    <div class="lang-words-span " data-lang="ru"><span>📜 Прошлое</span> <span class="chain-rel rel-seq">➔</span> <span>📍 Настоящее</span> <span class="chain-rel rel-seq">➔</span> <span>🔮 Будущее</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -365,8 +381,7 @@
                     <span>Chain 28 · Sequential Order</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>1️⃣ First</span> <span class="chain-rel rel-seq">➔</span> <span>2️⃣ Next</span> <span class="chain-rel rel-seq">➔</span> <span>🏁 Last</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>1️⃣ First</span> <span class="chain-rel rel-seq">➔</span> <span>2️⃣ Next</span> <span class="chain-rel rel-seq">➔</span> <span>🏁 Last</span></div>                    <div class="lang-words-span " data-lang="fr"><span>1️⃣ Premier</span> <span class="chain-rel rel-seq">➔</span> <span>2️⃣ Ensuite</span> <span class="chain-rel rel-seq">➔</span> <span>🏁 Dernier</span></div>                    <div class="lang-words-span " data-lang="it"><span>1️⃣ Primo</span> <span class="chain-rel rel-seq">➔</span> <span>2️⃣ Poi</span> <span class="chain-rel rel-seq">➔</span> <span>🏁 Ultimo</span></div>                    <div class="lang-words-span " data-lang="es"><span>1️⃣ Primero</span> <span class="chain-rel rel-seq">➔</span> <span>2️⃣ Luego</span> <span class="chain-rel rel-seq">➔</span> <span>🏁 Último</span></div>                    <div class="lang-words-span " data-lang="pt"><span>1️⃣ Primeiro</span> <span class="chain-rel rel-seq">➔</span> <span>2️⃣ Depois</span> <span class="chain-rel rel-seq">➔</span> <span>🏁 Último</span></div>                    <div class="lang-words-span " data-lang="de"><span>1️⃣ Erstens</span> <span class="chain-rel rel-seq">➔</span> <span>2️⃣ Als Nächstes</span> <span class="chain-rel rel-seq">➔</span> <span>🏁 Zuletzt</span></div>                    <div class="lang-words-span " data-lang="el"><span>1️⃣ Πρώτο</span> <span class="chain-rel rel-seq">➔</span> <span>2️⃣ Μετά</span> <span class="chain-rel rel-seq">➔</span> <span>🏁 Τελευταίο</span></div>                    <div class="lang-words-span " data-lang="ru"><span>1️⃣ Сначала</span> <span class="chain-rel rel-seq">➔</span> <span>2️⃣ Затем</span> <span class="chain-rel rel-seq">➔</span> <span>🏁 В конце</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -374,8 +389,7 @@
                     <span>Chain 29 · Speed Scale</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🐢 Slow</span> <span class="chain-rel rel-seq">➔</span> <span>🚶 Normal</span> <span class="chain-rel rel-seq">➔</span> <span>🚀 Fast</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🐢 Slow</span> <span class="chain-rel rel-seq">➔</span> <span>🚶 Normal</span> <span class="chain-rel rel-seq">➔</span> <span>🚀 Fast</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🐢 Lent</span> <span class="chain-rel rel-seq">➔</span> <span>🚶 Normal</span> <span class="chain-rel rel-seq">➔</span> <span>🚀 Rapide</span></div>                    <div class="lang-words-span " data-lang="it"><span>🐢 Lento</span> <span class="chain-rel rel-seq">➔</span> <span>🚶 Normale</span> <span class="chain-rel rel-seq">➔</span> <span>🚀 Veloce</span></div>                    <div class="lang-words-span " data-lang="es"><span>🐢 Lento</span> <span class="chain-rel rel-seq">➔</span> <span>🚶 Normal</span> <span class="chain-rel rel-seq">➔</span> <span>🚀 Rápido</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🐢 Lento</span> <span class="chain-rel rel-seq">➔</span> <span>🚶 Normal</span> <span class="chain-rel rel-seq">➔</span> <span>🚀 Rápido</span></div>                    <div class="lang-words-span " data-lang="de"><span>🐢 Langsam</span> <span class="chain-rel rel-seq">➔</span> <span>🚶 Normal</span> <span class="chain-rel rel-seq">➔</span> <span>🚀 Schnell</span></div>                    <div class="lang-words-span " data-lang="el"><span>🐢 Αργά</span> <span class="chain-rel rel-seq">➔</span> <span>🚶 Κανονικά</span> <span class="chain-rel rel-seq">➔</span> <span>🚀 Γρήγορα</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🐢 Медленно</span> <span class="chain-rel rel-seq">➔</span> <span>🚶 Нормально</span> <span class="chain-rel rel-seq">➔</span> <span>🚀 Быстро</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -383,8 +397,7 @@
                     <span>Chain 30 · Frequency Spectrum</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🔄 Always</span> <span class="chain-rel rel-seq">➔</span> <span>🔀 Sometimes</span> <span class="chain-rel rel-seq">➔</span> <span>🚫 Never</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🔄 Always</span> <span class="chain-rel rel-seq">➔</span> <span>🔀 Sometimes</span> <span class="chain-rel rel-seq">➔</span> <span>🚫 Never</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🔄 Toujours</span> <span class="chain-rel rel-seq">➔</span> <span>🔀 Parfois</span> <span class="chain-rel rel-seq">➔</span> <span>🚫 Jamais</span></div>                    <div class="lang-words-span " data-lang="it"><span>🔄 Sempre</span> <span class="chain-rel rel-seq">➔</span> <span>🔀 A volte</span> <span class="chain-rel rel-seq">➔</span> <span>🚫 Mai</span></div>                    <div class="lang-words-span " data-lang="es"><span>🔄 Siempre</span> <span class="chain-rel rel-seq">➔</span> <span>🔀 A veces</span> <span class="chain-rel rel-seq">➔</span> <span>🚫 Nunca</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🔄 Sempre</span> <span class="chain-rel rel-seq">➔</span> <span>🔀 Às vezes</span> <span class="chain-rel rel-seq">➔</span> <span>🚫 Nunca</span></div>                    <div class="lang-words-span " data-lang="de"><span>🔄 Immer</span> <span class="chain-rel rel-seq">➔</span> <span>🔀 Manchmal</span> <span class="chain-rel rel-seq">➔</span> <span>🚫 Nie</span></div>                    <div class="lang-words-span " data-lang="el"><span>🔄 Πάντα</span> <span class="chain-rel rel-seq">➔</span> <span>🔀 Κάποτε</span> <span class="chain-rel rel-seq">➔</span> <span>🚫 Ποτέ</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🔄 Всегда</span> <span class="chain-rel rel-seq">➔</span> <span>🔀 Иногда</span> <span class="chain-rel rel-seq">➔</span> <span>🚫 Никогда</span></div>
                 </div>
             </div>
         </div>
@@ -410,8 +423,7 @@
                     <span>Chain 31 · Morning Wakeup</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>⏰ Wake up</span> <span class="chain-rel rel-seq">➔</span> <span>🛏️ Get up</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>⏰ Wake up</span> <span class="chain-rel rel-seq">➔</span> <span>🛏️ Get up</span></div>                    <div class="lang-words-span " data-lang="fr"><span>⏰ Se réveiller</span> <span class="chain-rel rel-seq">➔</span> <span>🛏️ Se lever</span></div>                    <div class="lang-words-span " data-lang="it"><span>⏰ Svegliarsi</span> <span class="chain-rel rel-seq">➔</span> <span>🛏️ Alzarsi</span></div>                    <div class="lang-words-span " data-lang="es"><span>⏰ Despertarse</span> <span class="chain-rel rel-seq">➔</span> <span>🛏️ Levantarse</span></div>                    <div class="lang-words-span " data-lang="pt"><span>⏰ Acordar</span> <span class="chain-rel rel-seq">➔</span> <span>🛏️ Levantar-se</span></div>                    <div class="lang-words-span " data-lang="de"><span>⏰ Aufwachen</span> <span class="chain-rel rel-seq">➔</span> <span>🛏️ Aufstehen</span></div>                    <div class="lang-words-span " data-lang="el"><span>⏰ Ξυπνώ</span> <span class="chain-rel rel-seq">➔</span> <span>🛏️ Σηκώνομαι</span></div>                    <div class="lang-words-span " data-lang="ru"><span>⏰ Просыпаться</span> <span class="chain-rel rel-seq">➔</span> <span>🛏️ Вставать</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -419,8 +431,7 @@
                     <span>Chain 32 · Hygiene</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🧼 Wash</span> <span class="chain-rel rel-seq">➔</span> <span>🪥 Brush teeth</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🧼 Wash</span> <span class="chain-rel rel-seq">➔</span> <span>🪥 Brush teeth</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🧼 Se laver</span> <span class="chain-rel rel-seq">➔</span> <span>🪥 Se brosser les dents</span></div>                    <div class="lang-words-span " data-lang="it"><span>🧼 Lavarsi</span> <span class="chain-rel rel-seq">➔</span> <span>🪥 Lavarsi i denti</span></div>                    <div class="lang-words-span " data-lang="es"><span>🧼 Lavarse</span> <span class="chain-rel rel-seq">➔</span> <span>🪥 Cepillarse los dientes</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🧼 Lavar-se</span> <span class="chain-rel rel-seq">➔</span> <span>🪥 Escovar os dentes</span></div>                    <div class="lang-words-span " data-lang="de"><span>🧼 Waschen</span> <span class="chain-rel rel-seq">➔</span> <span>🪥 Zähne putzen</span></div>                    <div class="lang-words-span " data-lang="el"><span>🧼 Πλένομαι</span> <span class="chain-rel rel-seq">➔</span> <span>🪥 Βουρτσίζω τα δόντια</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🧼 Умываться</span> <span class="chain-rel rel-seq">➔</span> <span>🛏️ Чистить зубы</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -428,8 +439,7 @@
                     <span>Chain 33 · Clothing Actions</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>👔 Put on</span> <span class="chain-rel rel-opp">≠</span> <span>🧥 Take off</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>👔 Put on</span> <span class="chain-rel rel-opp">≠</span> <span>🧥 Take off</span></div>                    <div class="lang-words-span " data-lang="fr"><span>👔 Mettre</span> <span class="chain-rel rel-opp">≠</span> <span>🧥 Enlever</span></div>                    <div class="lang-words-span " data-lang="it"><span>👔 Indossare</span> <span class="chain-rel rel-opp">≠</span> <span>🧥 Togliere</span></div>                    <div class="lang-words-span " data-lang="es"><span>👔 Ponerse</span> <span class="chain-rel rel-opp">≠</span> <span>🧥 Quitarse</span></div>                    <div class="lang-words-span " data-lang="pt"><span>👔 Vestir</span> <span class="chain-rel rel-opp">≠</span> <span>🧥 Tirar</span></div>                    <div class="lang-words-span " data-lang="de"><span>👔 Anziehen</span> <span class="chain-rel rel-opp">≠</span> <span>🧥 Ausziehen</span></div>                    <div class="lang-words-span " data-lang="el"><span>👔 Φορώ</span> <span class="chain-rel rel-opp">≠</span> <span>🧥 Βγάζω</span></div>                    <div class="lang-words-span " data-lang="ru"><span>👔 Надевать</span> <span class="chain-rel rel-opp">≠</span> <span>🧥 Снимать</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -437,8 +447,7 @@
                     <span>Chain 34 · Workday Rhythm</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>💼 Start work</span> <span class="chain-rel rel-seq">➔</span> <span>☕ Break</span> <span class="chain-rel rel-seq">➔</span> <span>🏠 Finish work</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>💼 Start work</span> <span class="chain-rel rel-seq">➔</span> <span>☕ Break</span> <span class="chain-rel rel-seq">➔</span> <span>🏠 Finish work</span></div>                    <div class="lang-words-span " data-lang="fr"><span>💼 Commencer</span> <span class="chain-rel rel-seq">➔</span> <span>☕ Pause</span> <span class="chain-rel rel-seq">➔</span> <span>🏠 Finir le travail</span></div>                    <div class="lang-words-span " data-lang="it"><span>💼 Iniziare</span> <span class="chain-rel rel-seq">➔</span> <span>☕ Pausa</span> <span class="chain-rel rel-seq">➔</span> <span>🏠 Finire</span></div>                    <div class="lang-words-span " data-lang="es"><span>💼 Empezar</span> <span class="chain-rel rel-seq">➔</span> <span>☕ Descanso</span> <span class="chain-rel rel-seq">➔</span> <span>🏠 Terminar trabajo</span></div>                    <div class="lang-words-span " data-lang="pt"><span>💼 Começar</span> <span class="chain-rel rel-seq">➔</span> <span>☕ Pausa</span> <span class="chain-rel rel-seq">➔</span> <span>🏠 Terminar</span></div>                    <div class="lang-words-span " data-lang="de"><span>💼 Anfangen</span> <span class="chain-rel rel-seq">➔</span> <span>☕ Pause</span> <span class="chain-rel rel-seq">➔</span> <span>🏠 Feierabend</span></div>                    <div class="lang-words-span " data-lang="el"><span>💼 Αρχίζω</span> <span class="chain-rel rel-seq">➔</span> <span>☕ Διάλειμμα</span> <span class="chain-rel rel-seq">➔</span> <span>🏠 Τελειώνω</span></div>                    <div class="lang-words-span " data-lang="ru"><span>💼 Начинать</span> <span class="chain-rel rel-seq">➔</span> <span>☕ Перерыв</span> <span class="chain-rel rel-seq">➔</span> <span>🏠 Заканчивать</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -446,8 +455,7 @@
                     <span>Chain 35 · Evening Transition</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🏠 Go home</span> <span class="chain-rel rel-seq">➔</span> <span>🛋️ Relax</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🏠 Go home</span> <span class="chain-rel rel-seq">➔</span> <span>🛋️ Relax</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🏠 Rentrer</span> <span class="chain-rel rel-seq">➔</span> <span>🛋️ Se détendre</span></div>                    <div class="lang-words-span " data-lang="it"><span>🏠 Andare a casa</span> <span class="chain-rel rel-seq">➔</span> <span>🛋️ Rilassarsi</span></div>                    <div class="lang-words-span " data-lang="es"><span>🏠 Ir a casa</span> <span class="chain-rel rel-seq">➔</span> <span>🛋️ Relajarse</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🏠 Ir para casa</span> <span class="chain-rel rel-seq">➔</span> <span>🛋️ Relaxar</span></div>                    <div class="lang-words-span " data-lang="de"><span>🏠 Nach Hause gehen</span> <span class="chain-rel rel-seq">➔</span> <span>🛋️ Entspannen</span></div>                    <div class="lang-words-span " data-lang="el"><span>🏠 Πάω σπίτι</span> <span class="chain-rel rel-seq">➔</span> <span>🛋️ Χαλαρώνω</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🏠 Идти домой</span> <span class="chain-rel rel-seq">➔</span> <span>🛋️ Отдыхать</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -455,8 +463,7 @@
                     <span>Chain 36 · Rest Cycle</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>😴 Sleep</span> <span class="chain-rel rel-opp">≠</span> <span>⏰ Wake up</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>😴 Sleep</span> <span class="chain-rel rel-opp">≠</span> <span>⏰ Wake up</span></div>                    <div class="lang-words-span " data-lang="fr"><span>😴 Dormir</span> <span class="chain-rel rel-opp">≠</span> <span>⏰ Se réveiller</span></div>                    <div class="lang-words-span " data-lang="it"><span>😴 Dormire</span> <span class="chain-rel rel-opp">≠</span> <span>⏰ Svegliarsi</span></div>                    <div class="lang-words-span " data-lang="es"><span>😴 Dormir</span> <span class="chain-rel rel-opp">≠</span> <span>⏰ Despertar</span></div>                    <div class="lang-words-span " data-lang="pt"><span>😴 Dormir</span> <span class="chain-rel rel-opp">≠</span> <span>⏰ Acordar</span></div>                    <div class="lang-words-span " data-lang="de"><span>😴 Schlafen</span> <span class="chain-rel rel-opp">≠</span> <span>⏰ Aufwachen</span></div>                    <div class="lang-words-span " data-lang="el"><span>😴 Κοιμάμαι</span> <span class="chain-rel rel-opp">≠</span> <span>⏰ Ξυπνώ</span></div>                    <div class="lang-words-span " data-lang="ru"><span>😴 Спать</span> <span class="chain-rel rel-opp">≠</span> <span>⏰ Просыпаться</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -464,8 +471,7 @@
                     <span>Chain 37 · Execution Control</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>▶️ Start</span> <span class="chain-rel rel-opp">≠</span> <span>⏹️ Stop</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>▶️ Start</span> <span class="chain-rel rel-opp">≠</span> <span>⏹️ Stop</span></div>                    <div class="lang-words-span " data-lang="fr"><span>▶️ Commencer</span> <span class="chain-rel rel-opp">≠</span> <span>⏹️ Arrêter</span></div>                    <div class="lang-words-span " data-lang="it"><span>▶️ Iniziare</span> <span class="chain-rel rel-opp">≠</span> <span>⏹️ Fermare</span></div>                    <div class="lang-words-span " data-lang="es"><span>▶️ Empezar</span> <span class="chain-rel rel-opp">≠</span> <span>⏹️ Parar</span></div>                    <div class="lang-words-span " data-lang="pt"><span>▶️ Começar</span> <span class="chain-rel rel-opp">≠</span> <span>⏹️ Parar</span></div>                    <div class="lang-words-span " data-lang="de"><span>▶️ Starten</span> <span class="chain-rel rel-opp">≠</span> <span>⏹️ Stoppen</span></div>                    <div class="lang-words-span " data-lang="el"><span>▶️ Αρχίζω</span> <span class="chain-rel rel-opp">≠</span> <span>⏹️ Σταματώ</span></div>                    <div class="lang-words-span " data-lang="ru"><span>▶️ Начинать</span> <span class="chain-rel rel-opp">≠</span> <span>⏹️ Останавливать</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -473,8 +479,7 @@
                     <span>Chain 38 · Access Control</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🔓 Open</span> <span class="chain-rel rel-opp">≠</span> <span>🔒 Close</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🔓 Open</span> <span class="chain-rel rel-opp">≠</span> <span>🔒 Close</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🔓 Ouvrir</span> <span class="chain-rel rel-opp">≠</span> <span>🔒 Fermer</span></div>                    <div class="lang-words-span " data-lang="it"><span>🔓 Aprire</span> <span class="chain-rel rel-opp">≠</span> <span>🔒 Chiudere</span></div>                    <div class="lang-words-span " data-lang="es"><span>🔓 Abrir</span> <span class="chain-rel rel-opp">≠</span> <span>🔒 Cerrar</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🔓 Abrir</span> <span class="chain-rel rel-opp">≠</span> <span>🔒 Fechar</span></div>                    <div class="lang-words-span " data-lang="de"><span>🔓 Öffnen</span> <span class="chain-rel rel-opp">≠</span> <span>🔒 Schließen</span></div>                    <div class="lang-words-span " data-lang="el"><span>🔓 Ανοίγω</span> <span class="chain-rel rel-opp">≠</span> <span>🔒 Κλείνω</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🔓 Открывать</span> <span class="chain-rel rel-opp">≠</span> <span>🔒 Закрывать</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -482,8 +487,7 @@
                     <span>Chain 39 · Cleanliness State</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>✨ Clean</span> <span class="chain-rel rel-opp">≠</span> <span>🧹 Dirty</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>✨ Clean</span> <span class="chain-rel rel-opp">≠</span> <span>🧹 Dirty</span></div>                    <div class="lang-words-span " data-lang="fr"><span>✨ Propre</span> <span class="chain-rel rel-opp">≠</span> <span>🧹 Sale</span></div>                    <div class="lang-words-span " data-lang="it"><span>✨ Pulito</span> <span class="chain-rel rel-opp">≠</span> <span>🧹 Sporco</span></div>                    <div class="lang-words-span " data-lang="es"><span>✨ Limpio</span> <span class="chain-rel rel-opp">≠</span> <span>🧹 Sucio</span></div>                    <div class="lang-words-span " data-lang="pt"><span>✨ Limpo</span> <span class="chain-rel rel-opp">≠</span> <span>🧹 Sujo</span></div>                    <div class="lang-words-span " data-lang="de"><span>✨ Sauber</span> <span class="chain-rel rel-opp">≠</span> <span>🧹 Schmutzig</span></div>                    <div class="lang-words-span " data-lang="el"><span>✨ Καθαρός</span> <span class="chain-rel rel-opp">≠</span> <span>🧹 Βρώμικος</span></div>                    <div class="lang-words-span " data-lang="ru"><span>✨ Чистый</span> <span class="chain-rel rel-opp">≠</span> <span>🧹 Грязный</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -491,8 +495,7 @@
                     <span>Chain 40 · Moisture State</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🌵 Dry</span> <span class="chain-rel rel-opp">≠</span> <span>💧 Wet</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🌵 Dry</span> <span class="chain-rel rel-opp">≠</span> <span>💧 Wet</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🌵 Sec</span> <span class="chain-rel rel-opp">≠</span> <span>💧 Mouillé</span></div>                    <div class="lang-words-span " data-lang="it"><span>🌵 Asciutto</span> <span class="chain-rel rel-opp">≠</span> <span>💧 Bagnato</span></div>                    <div class="lang-words-span " data-lang="es"><span>🌵 Seco</span> <span class="chain-rel rel-opp">≠</span> <span>💧 Mojado</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🌵 Seco</span> <span class="chain-rel rel-opp">≠</span> <span>💧 Molhado</span></div>                    <div class="lang-words-span " data-lang="de"><span>🌵 Trocken</span> <span class="chain-rel rel-opp">≠</span> <span>💧 Nass</span></div>                    <div class="lang-words-span " data-lang="el"><span>🌵 Στεγνός</span> <span class="chain-rel rel-opp">≠</span> <span>💧 Υγρός</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🌵 Сухой</span> <span class="chain-rel rel-opp">≠</span> <span>💧 Мокрый</span></div>
                 </div>
             </div>
         </div>
@@ -518,8 +521,7 @@
                     <span>Chain 41 · Housing Types</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🏠 House</span> <span class="chain-rel rel-opp">≠</span> <span>🏢 Apartment</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🏠 House</span> <span class="chain-rel rel-opp">≠</span> <span>🏢 Apartment</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🏠 Maison</span> <span class="chain-rel rel-opp">≠</span> <span>🏢 Appartement</span></div>                    <div class="lang-words-span " data-lang="it"><span>🏠 Casa</span> <span class="chain-rel rel-opp">≠</span> <span>🏢 Appartamento</span></div>                    <div class="lang-words-span " data-lang="es"><span>🏠 Casa</span> <span class="chain-rel rel-opp">≠</span> <span>🏢 Apartamento</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🏠 Casa</span> <span class="chain-rel rel-opp">≠</span> <span>🏢 Apartamento</span></div>                    <div class="lang-words-span " data-lang="de"><span>🏠 Haus</span> <span class="chain-rel rel-opp">≠</span> <span>🏢 Wohnung</span></div>                    <div class="lang-words-span " data-lang="el"><span>🏠 Σπίτι</span> <span class="chain-rel rel-opp">≠</span> <span>🏢 Διαμέρισμα</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🏠 Дом</span> <span class="chain-rel rel-opp">≠</span> <span>🏢 Квартира</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -527,8 +529,7 @@
                     <span>Chain 42 · Home Entry &amp; Rooms</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🚪 Door</span> <span class="chain-rel rel-seq">➔</span> <span>🛋️ Living room</span> <span class="chain-rel rel-seq">➔</span> <span>🛏️ Bedroom</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🚪 Door</span> <span class="chain-rel rel-seq">➔</span> <span>🛋️ Living room</span> <span class="chain-rel rel-seq">➔</span> <span>🛏️ Bedroom</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🚪 Porte</span> <span class="chain-rel rel-seq">➔</span> <span>🛋️ Salon</span> <span class="chain-rel rel-seq">➔</span> <span>🛏️ Chambre</span></div>                    <div class="lang-words-span " data-lang="it"><span>🚪 Porta</span> <span class="chain-rel rel-seq">➔</span> <span>🛋️ Soggiorno</span> <span class="chain-rel rel-seq">➔</span> <span>🛏️ Camera da letto</span></div>                    <div class="lang-words-span " data-lang="es"><span>🚪 Puerta</span> <span class="chain-rel rel-seq">➔</span> <span>🛋️ Sala</span> <span class="chain-rel rel-seq">➔</span> <span>🛏️ Dormitorio</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🚪 Porta</span> <span class="chain-rel rel-seq">➔</span> <span>🛋️ Sala</span> <span class="chain-rel rel-seq">➔</span> <span>🛏️ Quarto</span></div>                    <div class="lang-words-span " data-lang="de"><span>🚪 Tür</span> <span class="chain-rel rel-seq">➔</span> <span>🛋️ Wohnzimmer</span> <span class="chain-rel rel-seq">➔</span> <span>🛏️ Schlafzimmer</span></div>                    <div class="lang-words-span " data-lang="el"><span>🚪 Πόρτα</span> <span class="chain-rel rel-seq">➔</span> <span>🛋️ Σαλόνι</span> <span class="chain-rel rel-seq">➔</span> <span>🛏️ Υπνοδωμάτιο</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🚪 Дверь</span> <span class="chain-rel rel-seq">➔</span> <span>🛋️ Гостиная</span> <span class="chain-rel rel-seq">➔</span> <span>🛏️ Спальня</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -536,8 +537,7 @@
                     <span>Chain 43 · Dining Quarters</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🍳 Kitchen</span> <span class="chain-rel rel-seq">➔</span> <span>🍽️ Dining room</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🍳 Kitchen</span> <span class="chain-rel rel-seq">➔</span> <span>🍽️ Dining room</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🍳 Cuisine</span> <span class="chain-rel rel-seq">➔</span> <span>🍽️ Salle à manger</span></div>                    <div class="lang-words-span " data-lang="it"><span>🍳 Cucina</span> <span class="chain-rel rel-seq">➔</span> <span>🍽️ Sala da pranzo</span></div>                    <div class="lang-words-span " data-lang="es"><span>🍳 Cocina</span> <span class="chain-rel rel-seq">➔</span> <span>🍽️ Comedor</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🍳 Cozinha</span> <span class="chain-rel rel-seq">➔</span> <span>🍽️ Sala de jantar</span></div>                    <div class="lang-words-span " data-lang="de"><span>🍳 Küche</span> <span class="chain-rel rel-seq">➔</span> <span>🍽️ Esszimmer</span></div>                    <div class="lang-words-span " data-lang="el"><span>🍳 Κουζίνα</span> <span class="chain-rel rel-seq">➔</span> <span>🍽️ Τραπεζαρία</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🍳 Кухня</span> <span class="chain-rel rel-seq">➔</span> <span>🍽️ Столовая</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -545,8 +545,7 @@
                     <span>Chain 44 · Spatial Location</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🛋️ Inside</span> <span class="chain-rel rel-opp">≠</span> <span>🌳 Outside</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🛋️ Inside</span> <span class="chain-rel rel-opp">≠</span> <span>🌳 Outside</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🛋️ À l'intérieur</span> <span class="chain-rel rel-opp">≠</span> <span>🌳 À l'extérieur</span></div>                    <div class="lang-words-span " data-lang="it"><span>🛋️ Dentro</span> <span class="chain-rel rel-opp">≠</span> <span>🌳 Fuori</span></div>                    <div class="lang-words-span " data-lang="es"><span>🛋️ Dentro</span> <span class="chain-rel rel-opp">≠</span> <span>🌳 Fuera</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🛋️ Dentro</span> <span class="chain-rel rel-opp">≠</span> <span>🌳 Fora</span></div>                    <div class="lang-words-span " data-lang="de"><span>🛋️ Drinnen</span> <span class="chain-rel rel-opp">≠</span> <span>🌳 Draußen</span></div>                    <div class="lang-words-span " data-lang="el"><span>🛋️ Μέσα</span> <span class="chain-rel rel-opp">≠</span> <span>🌳 Έξω</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🛋️ Внутри</span> <span class="chain-rel rel-opp">≠</span> <span>🌳 Снаружи</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -554,8 +553,7 @@
                     <span>Chain 45 · Basic Furniture</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🪵 Table</span> <span class="chain-rel rel-opp">≠</span> <span>🪑 Chair</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🪵 Table</span> <span class="chain-rel rel-opp">≠</span> <span>🪑 Chair</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🪵 Table</span> <span class="chain-rel rel-opp">≠</span> <span>🪑 Chaise</span></div>                    <div class="lang-words-span " data-lang="it"><span>🪵 Tavolo</span> <span class="chain-rel rel-opp">≠</span> <span>🪑 Sedia</span></div>                    <div class="lang-words-span " data-lang="es"><span>🪵 Mesa</span> <span class="chain-rel rel-opp">≠</span> <span>🪑 Silla</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🪵 Mesa</span> <span class="chain-rel rel-opp">≠</span> <span>🪑 Cadeira</span></div>                    <div class="lang-words-span " data-lang="de"><span>🪵 Tisch</span> <span class="chain-rel rel-opp">≠</span> <span>🪑 Stuhl</span></div>                    <div class="lang-words-span " data-lang="el"><span>🪵 Τραπέζι</span> <span class="chain-rel rel-opp">≠</span> <span>🪑 Καρέκλα</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🪵 Стол</span> <span class="chain-rel rel-opp">≠</span> <span>🪑 Стул</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -563,8 +561,7 @@
                     <span>Chain 46 · Rest Furniture</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🛏️ Bed</span> <span class="chain-rel rel-seq">➔</span> <span>💤 Sleep</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🛏️ Bed</span> <span class="chain-rel rel-seq">➔</span> <span>💤 Sleep</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🛏️ Lit</span> <span class="chain-rel rel-seq">➔</span> <span>💤 Dormir</span></div>                    <div class="lang-words-span " data-lang="it"><span>🛏️ Letto</span> <span class="chain-rel rel-seq">➔</span> <span>💤 Dormire</span></div>                    <div class="lang-words-span " data-lang="es"><span>🛏️ Cama</span> <span class="chain-rel rel-seq">➔</span> <span>💤 Dormir</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🛏️ Cama</span> <span class="chain-rel rel-seq">➔</span> <span>💤 Dormir</span></div>                    <div class="lang-words-span " data-lang="de"><span>🛏️ Bett</span> <span class="chain-rel rel-seq">➔</span> <span>💤 Schlafen</span></div>                    <div class="lang-words-span " data-lang="el"><span>🛏️ Κρεβάτι</span> <span class="chain-rel rel-seq">➔</span> <span>💤 Κοιμάμαι</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🛏️ Кровать</span> <span class="chain-rel rel-seq">➔</span> <span>💤 Спать</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -572,8 +569,7 @@
                     <span>Chain 47 · Security Objects</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🔑 Key</span> <span class="chain-rel rel-seq">➔</span> <span>🔒 Lock</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🔑 Key</span> <span class="chain-rel rel-seq">➔</span> <span>🔒 Lock</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🔑 Clé</span> <span class="chain-rel rel-seq">➔</span> <span>🔒 Serrure</span></div>                    <div class="lang-words-span " data-lang="it"><span>🔑 Chiave</span> <span class="chain-rel rel-seq">➔</span> <span>🔒 Serratura</span></div>                    <div class="lang-words-span " data-lang="es"><span>🔑 Llave</span> <span class="chain-rel rel-seq">➔</span> <span>🔒 Cerradura</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🔑 Chave</span> <span class="chain-rel rel-seq">➔</span> <span>🔒 Fechadura</span></div>                    <div class="lang-words-span " data-lang="de"><span>🔑 Schlüssel</span> <span class="chain-rel rel-seq">➔</span> <span>🔒 Schloss</span></div>                    <div class="lang-words-span " data-lang="el"><span>🔑 Κλειδί</span> <span class="chain-rel rel-seq">➔</span> <span>🔒 Κλειδαριά</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🔑 Ключ</span> <span class="chain-rel rel-seq">➔</span> <span>🔒 Замок</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -581,8 +577,7 @@
                     <span>Chain 48 · Apertures</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🪟 Window</span> <span class="chain-rel rel-opp">≠</span> <span>🚪 Door</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🪟 Window</span> <span class="chain-rel rel-opp">≠</span> <span>🚪 Door</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🪟 Fenêtre</span> <span class="chain-rel rel-opp">≠</span> <span>🚪 Porte</span></div>                    <div class="lang-words-span " data-lang="it"><span>🪟 Finestra</span> <span class="chain-rel rel-opp">≠</span> <span>🚪 Porta</span></div>                    <div class="lang-words-span " data-lang="es"><span>🪟 Ventana</span> <span class="chain-rel rel-opp">≠</span> <span>🚪 Puerta</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🪟 Janela</span> <span class="chain-rel rel-opp">≠</span> <span>🚪 Porta</span></div>                    <div class="lang-words-span " data-lang="de"><span>🪟 Fenster</span> <span class="chain-rel rel-opp">≠</span> <span>🚪 Tür</span></div>                    <div class="lang-words-span " data-lang="el"><span>🪟 Παράθυρο</span> <span class="chain-rel rel-opp">≠</span> <span>🚪 Πόρτα</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🪟 Окно</span> <span class="chain-rel rel-opp">≠</span> <span>🚪 Дверь</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -590,8 +585,7 @@
                     <span>Chain 49 · Room Structure</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🧱 Floor</span> <span class="chain-rel rel-opp">≠</span> <span>🏠 Ceiling</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🧱 Floor</span> <span class="chain-rel rel-opp">≠</span> <span>🏠 Ceiling</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🧱 Sol</span> <span class="chain-rel rel-opp">≠</span> <span>🏠 Plafond</span></div>                    <div class="lang-words-span " data-lang="it"><span>🧱 Pavimento</span> <span class="chain-rel rel-opp">≠</span> <span>🏠 Soffitto</span></div>                    <div class="lang-words-span " data-lang="es"><span>🧱 Suelo</span> <span class="chain-rel rel-opp">≠</span> <span>🏠 Techo</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🧱 Chão</span> <span class="chain-rel rel-opp">≠</span> <span>🏠 Teto</span></div>                    <div class="lang-words-span " data-lang="de"><span>🧱 Boden</span> <span class="chain-rel rel-opp">≠</span> <span>🏠 Decke</span></div>                    <div class="lang-words-span " data-lang="el"><span>🧱 Πάτωμα</span> <span class="chain-rel rel-opp">≠</span> <span>🏠 Ταβάνι</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🧱 Пол</span> <span class="chain-rel rel-opp">≠</span> <span>🏠 Потолок</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -599,8 +593,7 @@
                     <span>Chain 50 · Illumination</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>💡 Light</span> <span class="chain-rel rel-opp">≠</span> <span>🌙 Dark</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>💡 Light</span> <span class="chain-rel rel-opp">≠</span> <span>🌙 Dark</span></div>                    <div class="lang-words-span " data-lang="fr"><span>💡 Lumière</span> <span class="chain-rel rel-opp">≠</span> <span>🌙 Obscurité</span></div>                    <div class="lang-words-span " data-lang="it"><span>💡 Luce</span> <span class="chain-rel rel-opp">≠</span> <span>🌙 Buio</span></div>                    <div class="lang-words-span " data-lang="es"><span>💡 Luz</span> <span class="chain-rel rel-opp">≠</span> <span>🌙 Oscuridad</span></div>                    <div class="lang-words-span " data-lang="pt"><span>💡 Luz</span> <span class="chain-rel rel-opp">≠</span> <span>🌙 Escuridão</span></div>                    <div class="lang-words-span " data-lang="de"><span>💡 Licht</span> <span class="chain-rel rel-opp">≠</span> <span>🌙 Dunkel</span></div>                    <div class="lang-words-span " data-lang="el"><span>💡 Φως</span> <span class="chain-rel rel-opp">≠</span> <span>🌙 Σκότος</span></div>                    <div class="lang-words-span " data-lang="ru"><span>💡 Свет</span> <span class="chain-rel rel-opp">≠</span> <span>🌙 Темнота</span></div>
                 </div>
             </div>
         </div>
@@ -626,8 +619,7 @@
                     <span>Chain 51 · Appetite Flow</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>😋 Hungry</span> <span class="chain-rel rel-seq">➔</span> <span>🍽️ Eat</span> <span class="chain-rel rel-seq">➔</span> <span>🫃 Full</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>😋 Hungry</span> <span class="chain-rel rel-seq">➔</span> <span>🍽️ Eat</span> <span class="chain-rel rel-seq">➔</span> <span>🫃 Full</span></div>                    <div class="lang-words-span " data-lang="fr"><span>😋 Faim</span> <span class="chain-rel rel-seq">➔</span> <span>🍽️ Manger</span> <span class="chain-rel rel-seq">➔</span> <span>🫃 Rassasié</span></div>                    <div class="lang-words-span " data-lang="it"><span>😋 Fame</span> <span class="chain-rel rel-seq">➔</span> <span>🍽️ Mangiare</span> <span class="chain-rel rel-seq">➔</span> <span>🫃 Sazio</span></div>                    <div class="lang-words-span " data-lang="es"><span>😋 Hambre</span> <span class="chain-rel rel-seq">➔</span> <span>🍽️ Comer</span> <span class="chain-rel rel-seq">➔</span> <span>🫃 Lleno</span></div>                    <div class="lang-words-span " data-lang="pt"><span>😋 Fome</span> <span class="chain-rel rel-seq">➔</span> <span>🍽️ Comer</span> <span class="chain-rel rel-seq">➔</span> <span>🫃 Cheio</span></div>                    <div class="lang-words-span " data-lang="de"><span>😋 Hungrig</span> <span class="chain-rel rel-seq">➔</span> <span>🍽️ Essen</span> <span class="chain-rel rel-seq">➔</span> <span>🫃 Satt</span></div>                    <div class="lang-words-span " data-lang="el"><span>😋 Πείνα</span> <span class="chain-rel rel-seq">➔</span> <span>🍽️ Τρώω</span> <span class="chain-rel rel-seq">➔</span> <span>🫃 Χορτάτος</span></div>                    <div class="lang-words-span " data-lang="ru"><span>😋 Голоден</span> <span class="chain-rel rel-seq">➔</span> <span>🍽️ Есть</span> <span class="chain-rel rel-seq">➔</span> <span>🫃 Сыт</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -635,8 +627,7 @@
                     <span>Chain 52 · Daily Meals</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🥣 Breakfast</span> <span class="chain-rel rel-seq">➔</span> <span>🥗 Lunch</span> <span class="chain-rel rel-seq">➔</span> <span>🍲 Dinner</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🥣 Breakfast</span> <span class="chain-rel rel-seq">➔</span> <span>🥗 Lunch</span> <span class="chain-rel rel-seq">➔</span> <span>🍲 Dinner</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🥣 Petit-déjeuner</span> <span class="chain-rel rel-seq">➔</span> <span>🥗 Déjeuner</span> <span class="chain-rel rel-seq">➔</span> <span>🍲 Dîner</span></div>                    <div class="lang-words-span " data-lang="it"><span>🥣 Colazione</span> <span class="chain-rel rel-seq">➔</span> <span>🥗 Pranzo</span> <span class="chain-rel rel-seq">➔</span> <span>🍲 Cena</span></div>                    <div class="lang-words-span " data-lang="es"><span>🥣 Desayuno</span> <span class="chain-rel rel-seq">➔</span> <span>🥗 Almuerzo</span> <span class="chain-rel rel-seq">➔</span> <span>🍲 Cena</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🥣 Café da manhã</span> <span class="chain-rel rel-seq">➔</span> <span>🥗 Almoço</span> <span class="chain-rel rel-seq">➔</span> <span>🍲 Jantar</span></div>                    <div class="lang-words-span " data-lang="de"><span>🥣 Frühstück</span> <span class="chain-rel rel-seq">➔</span> <span>🥗 Mittagessen</span> <span class="chain-rel rel-seq">➔</span> <span>🍲 Abendessen</span></div>                    <div class="lang-words-span " data-lang="el"><span>🥣 Πρωινό</span> <span class="chain-rel rel-seq">➔</span> <span>🥗 Μεσημεριανό</span> <span class="chain-rel rel-seq">➔</span> <span>🍲 Δείπνο</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🥣 Завтрак</span> <span class="chain-rel rel-seq">➔</span> <span>🥗 Обед</span> <span class="chain-rel rel-seq">➔</span> <span>🍲 Ужин</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -644,8 +635,7 @@
                     <span>Chain 53 · Culinary Sequence</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🍳 Cook</span> <span class="chain-rel rel-seq">➔</span> <span>🍽️ Eat</span> <span class="chain-rel rel-seq">➔</span> <span>🧽 Wash dishes</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🍳 Cook</span> <span class="chain-rel rel-seq">➔</span> <span>🍽️ Eat</span> <span class="chain-rel rel-seq">➔</span> <span>🧽 Wash dishes</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🍳 Cuisiner</span> <span class="chain-rel rel-seq">➔</span> <span>🍽️ Manger</span> <span class="chain-rel rel-seq">➔</span> <span>🧽 Laver la vaisselle</span></div>                    <div class="lang-words-span " data-lang="it"><span>🍳 Cucinare</span> <span class="chain-rel rel-seq">➔</span> <span>🍽️ Mangiare</span> <span class="chain-rel rel-seq">➔</span> <span>🧽 Lavare i piatti</span></div>                    <div class="lang-words-span " data-lang="es"><span>🍳 Cocinar</span> <span class="chain-rel rel-seq">➔</span> <span>🍽️ Comer</span> <span class="chain-rel rel-seq">➔</span> <span>🧽 Lavar los platos</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🍳 Cozinhar</span> <span class="chain-rel rel-seq">➔</span> <span>🍽️ Comer</span> <span class="chain-rel rel-seq">➔</span> <span>🧽 Lavar a louça</span></div>                    <div class="lang-words-span " data-lang="de"><span>🍳 Kochen</span> <span class="chain-rel rel-seq">➔</span> <span>🍽️ Essen</span> <span class="chain-rel rel-seq">➔</span> <span>🧽 Geschirr spülen</span></div>                    <div class="lang-words-span " data-lang="el"><span>🍳 Μαγειρεύω</span> <span class="chain-rel rel-seq">➔</span> <span>🍽️ Τρώω</span> <span class="chain-rel rel-seq">➔</span> <span>🧽 Πλένω πιάτα</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🍳 Готовить</span> <span class="chain-rel rel-seq">➔</span> <span>🍽️ Есть</span> <span class="chain-rel rel-seq">➔</span> <span>🧽 Мыть посуду</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -653,8 +643,7 @@
                     <span>Chain 54 · Produce Categories</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🍎 Fruit</span> <span class="chain-rel rel-opp">≠</span> <span>🥦 Vegetable</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🍎 Fruit</span> <span class="chain-rel rel-opp">≠</span> <span>🥦 Vegetable</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🍎 Fruit</span> <span class="chain-rel rel-opp">≠</span> <span>🥦 Légume</span></div>                    <div class="lang-words-span " data-lang="it"><span>🍎 Frutta</span> <span class="chain-rel rel-opp">≠</span> <span>🥦 Verdura</span></div>                    <div class="lang-words-span " data-lang="es"><span>🍎 Fruta</span> <span class="chain-rel rel-opp">≠</span> <span>🥦 Verdura</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🍎 Fruta</span> <span class="chain-rel rel-opp">≠</span> <span>🥦 Legume</span></div>                    <div class="lang-words-span " data-lang="de"><span>🍎 Obst</span> <span class="chain-rel rel-opp">≠</span> <span>🥦 Gemüse</span></div>                    <div class="lang-words-span " data-lang="el"><span>🍎 Φρούτο</span> <span class="chain-rel rel-opp">≠</span> <span>🥦 Λαχανικό</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🍎 Фрукт</span> <span class="chain-rel rel-opp">≠</span> <span>🥦 Овощ</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -662,8 +651,7 @@
                     <span>Chain 55 · Protein Staples</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🥩 Meat</span> <span class="chain-rel rel-opp">≠</span> <span>🐟 Fish</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🥩 Meat</span> <span class="chain-rel rel-opp">≠</span> <span>🐟 Fish</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🥩 Viande</span> <span class="chain-rel rel-opp">≠</span> <span>🐟 Poisson</span></div>                    <div class="lang-words-span " data-lang="it"><span>🥩 Carne</span> <span class="chain-rel rel-opp">≠</span> <span>🐟 Pesce</span></div>                    <div class="lang-words-span " data-lang="es"><span>🥩 Carne</span> <span class="chain-rel rel-opp">≠</span> <span>🐟 Pescado</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🥩 Carne</span> <span class="chain-rel rel-opp">≠</span> <span>🐟 Peixe</span></div>                    <div class="lang-words-span " data-lang="de"><span>🥩 Fleisch</span> <span class="chain-rel rel-opp">≠</span> <span>🐟 Fisch</span></div>                    <div class="lang-words-span " data-lang="el"><span>🥩 Κρέας</span> <span class="chain-rel rel-opp">≠</span> <span>🐟 Ψάρι</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🥩 Мясо</span> <span class="chain-rel rel-opp">≠</span> <span>🐟 Рыба</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -671,8 +659,7 @@
                     <span>Chain 56 · Food Temperature</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🔥 Hot</span> <span class="chain-rel rel-opp">≠</span> <span>🧊 Cold</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🔥 Hot</span> <span class="chain-rel rel-opp">≠</span> <span>🧊 Cold</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🔥 Chaud</span> <span class="chain-rel rel-opp">≠</span> <span>🧊 Froid</span></div>                    <div class="lang-words-span " data-lang="it"><span>🔥 Caldo</span> <span class="chain-rel rel-opp">≠</span> <span>🧊 Freddo</span></div>                    <div class="lang-words-span " data-lang="es"><span>🔥 Caliente</span> <span class="chain-rel rel-opp">≠</span> <span>🧊 Frío</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🔥 Quente</span> <span class="chain-rel rel-opp">≠</span> <span>🧊 Frio</span></div>                    <div class="lang-words-span " data-lang="de"><span>🔥 Heiß</span> <span class="chain-rel rel-opp">≠</span> <span>🧊 Kalt</span></div>                    <div class="lang-words-span " data-lang="el"><span>🔥 Ζεστό</span> <span class="chain-rel rel-opp">≠</span> <span>🧊 Κρύο</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🔥 Горячий</span> <span class="chain-rel rel-opp">≠</span> <span>🧊 Холодный</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -680,8 +667,7 @@
                     <span>Chain 57 · Seasoning Contrast</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🧂 Salt</span> <span class="chain-rel rel-opp">≠</span> <span>🍬 Sugar</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🧂 Salt</span> <span class="chain-rel rel-opp">≠</span> <span>🍬 Sugar</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🧂 Sel</span> <span class="chain-rel rel-opp">≠</span> <span>🍬 Sucre</span></div>                    <div class="lang-words-span " data-lang="it"><span>🧂 Sale</span> <span class="chain-rel rel-opp">≠</span> <span>🍬 Zucchero</span></div>                    <div class="lang-words-span " data-lang="es"><span>🧂 Sal</span> <span class="chain-rel rel-opp">≠</span> <span>🍬 Azúcar</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🧂 Sal</span> <span class="chain-rel rel-opp">≠</span> <span>🍬 Açúcar</span></div>                    <div class="lang-words-span " data-lang="de"><span>🧂 Salz</span> <span class="chain-rel rel-opp">≠</span> <span>🍬 Zucker</span></div>                    <div class="lang-words-span " data-lang="el"><span>🧂 Αλάτι</span> <span class="chain-rel rel-opp">≠</span> <span>🍬 Ζάχαρη</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🧂 Соль</span> <span class="chain-rel rel-opp">≠</span> <span>🍬 Сахар</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -689,8 +675,7 @@
                     <span>Chain 58 · Flavor Spectrum</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🍰 Sweet</span> <span class="chain-rel rel-opp">≠</span> <span>🍋 Sour</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🍰 Sweet</span> <span class="chain-rel rel-opp">≠</span> <span>🍋 Sour</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🍰 Sucré</span> <span class="chain-rel rel-opp">≠</span> <span>🍋 Acide</span></div>                    <div class="lang-words-span " data-lang="it"><span>🍰 Dolce</span> <span class="chain-rel rel-opp">≠</span> <span>🍋 Aspro</span></div>                    <div class="lang-words-span " data-lang="es"><span>🍰 Dulce</span> <span class="chain-rel rel-opp">≠</span> <span>🍋 Agrio</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🍰 Doce</span> <span class="chain-rel rel-opp">≠</span> <span>🍋 Azedo</span></div>                    <div class="lang-words-span " data-lang="de"><span>🍰 Süß</span> <span class="chain-rel rel-opp">≠</span> <span>🍋 Sauer</span></div>                    <div class="lang-words-span " data-lang="el"><span>🍰 Γλυκό</span> <span class="chain-rel rel-opp">≠</span> <span>🍋 Ξινό</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🍰 Сладкий</span> <span class="chain-rel rel-opp">≠</span> <span>🍋 Кислый</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -698,8 +683,7 @@
                     <span>Chain 59 · Hot Beverages</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>☕ Coffee</span> <span class="chain-rel rel-opp">≠</span> <span>🍵 Tea</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>☕ Coffee</span> <span class="chain-rel rel-opp">≠</span> <span>🍵 Tea</span></div>                    <div class="lang-words-span " data-lang="fr"><span>☕ Café</span> <span class="chain-rel rel-opp">≠</span> <span>🍵 Thé</span></div>                    <div class="lang-words-span " data-lang="it"><span>☕ Caffè</span> <span class="chain-rel rel-opp">≠</span> <span>🍵 Tè</span></div>                    <div class="lang-words-span " data-lang="es"><span>☕ Café</span> <span class="chain-rel rel-opp">≠</span> <span>🍵 Té</span></div>                    <div class="lang-words-span " data-lang="pt"><span>☕ Café</span> <span class="chain-rel rel-opp">≠</span> <span>🍵 Chá</span></div>                    <div class="lang-words-span " data-lang="de"><span>☕ Kaffee</span> <span class="chain-rel rel-opp">≠</span> <span>🍵 Tee</span></div>                    <div class="lang-words-span " data-lang="el"><span>☕ Καφές</span> <span class="chain-rel rel-opp">≠</span> <span>🍵 Τσάι</span></div>                    <div class="lang-words-span " data-lang="ru"><span>☕ Кофе</span> <span class="chain-rel rel-opp">≠</span> <span>🍵 Чай</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -707,8 +691,7 @@
                     <span>Chain 60 · Dining Drinks</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🍷 Wine</span> <span class="chain-rel rel-opp">≠</span> <span>🍺 Beer</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🍷 Wine</span> <span class="chain-rel rel-opp">≠</span> <span>🍺 Beer</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🍷 Vin</span> <span class="chain-rel rel-opp">≠</span> <span>🍺 Bière</span></div>                    <div class="lang-words-span " data-lang="it"><span>🍷 Vino</span> <span class="chain-rel rel-opp">≠</span> <span>🍺 Birra</span></div>                    <div class="lang-words-span " data-lang="es"><span>🍷 Vino</span> <span class="chain-rel rel-opp">≠</span> <span>🍺 Cerveza</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🍷 Vinho</span> <span class="chain-rel rel-opp">≠</span> <span>🍺 Cerveja</span></div>                    <div class="lang-words-span " data-lang="de"><span>🍷 Wein</span> <span class="chain-rel rel-opp">≠</span> <span>🍺 Bier</span></div>                    <div class="lang-words-span " data-lang="el"><span>🍷 Κρασί</span> <span class="chain-rel rel-opp">≠</span> <span>🍺 Μπίρα</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🍷 Вино</span> <span class="chain-rel rel-opp">≠</span> <span>🍺 Пиво</span></div>
                 </div>
             </div>
         </div>
@@ -734,8 +717,7 @@
                     <span>Chain 61 · Shopping Intent</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>💭 Need</span> <span class="chain-rel rel-seq">➔</span> <span>🔍 Choose</span> <span class="chain-rel rel-seq">➔</span> <span>🛒 Buy</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>💭 Need</span> <span class="chain-rel rel-seq">➔</span> <span>🔍 Choose</span> <span class="chain-rel rel-seq">➔</span> <span>🛒 Buy</span></div>                    <div class="lang-words-span " data-lang="fr"><span>💭 Avoir besoin</span> <span class="chain-rel rel-seq">➔</span> <span>🔍 Choisir</span> <span class="chain-rel rel-seq">➔</span> <span>🛒 Acheter</span></div>                    <div class="lang-words-span " data-lang="it"><span>💭 Aver bisogno</span> <span class="chain-rel rel-seq">➔</span> <span>🔍 Scegliere</span> <span class="chain-rel rel-seq">➔</span> <span>🛒 Comprare</span></div>                    <div class="lang-words-span " data-lang="es"><span>💭 Necesitar</span> <span class="chain-rel rel-seq">➔</span> <span>🔍 Elegir</span> <span class="chain-rel rel-seq">➔</span> <span>🛒 Comprar</span></div>                    <div class="lang-words-span " data-lang="pt"><span>💭 Precisar</span> <span class="chain-rel rel-seq">➔</span> <span>🔍 Escolher</span> <span class="chain-rel rel-seq">➔</span> <span>🛒 Comprar</span></div>                    <div class="lang-words-span " data-lang="de"><span>💭 Brauchen</span> <span class="chain-rel rel-seq">➔</span> <span>🔍 Wählen</span> <span class="chain-rel rel-seq">➔</span> <span>🛒 Kaufen</span></div>                    <div class="lang-words-span " data-lang="el"><span>💭 Χρειάζομαι</span> <span class="chain-rel rel-seq">➔</span> <span>🔍 Επιλέγω</span> <span class="chain-rel rel-seq">➔</span> <span>🛒 Αγοράζω</span></div>                    <div class="lang-words-span " data-lang="ru"><span>💭 Нуждаться</span> <span class="chain-rel rel-seq">➔</span> <span>🔍 Выбирать</span> <span class="chain-rel rel-seq">➔</span> <span>🛒 Покупать</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -743,8 +725,7 @@
                     <span>Chain 62 · Store Venue Types</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🛒 Supermarket</span> <span class="chain-rel rel-seq">➔</span> <span>🥦 Market</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🛒 Supermarket</span> <span class="chain-rel rel-seq">➔</span> <span>🥦 Market</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🛒 Supermarché</span> <span class="chain-rel rel-seq">➔</span> <span>🥦 Marché</span></div>                    <div class="lang-words-span " data-lang="it"><span>🛒 Supermercato</span> <span class="chain-rel rel-seq">➔</span> <span>🥦 Mercato</span></div>                    <div class="lang-words-span " data-lang="es"><span>🛒 Supermercado</span> <span class="chain-rel rel-seq">➔</span> <span>🥦 Mercado</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🛒 Supermercado</span> <span class="chain-rel rel-seq">➔</span> <span>🥦 Mercado</span></div>                    <div class="lang-words-span " data-lang="de"><span>🛒 Supermarkt</span> <span class="chain-rel rel-seq">➔</span> <span>🥦 Markt</span></div>                    <div class="lang-words-span " data-lang="el"><span>🛒 Σούπερ μάρκετ</span> <span class="chain-rel rel-seq">➔</span> <span>🥦 Αγορά</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🛒 Супермаркет</span> <span class="chain-rel rel-seq">➔</span> <span>🥦 Рынок</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -752,8 +733,7 @@
                     <span>Chain 63 · Store Status</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🚪 Open</span> <span class="chain-rel rel-opp">≠</span> <span>🔒 Closed</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🚪 Open</span> <span class="chain-rel rel-opp">≠</span> <span>🔒 Closed</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🚪 Ouvert</span> <span class="chain-rel rel-opp">≠</span> <span>🔒 Fermé</span></div>                    <div class="lang-words-span " data-lang="it"><span>🚪 Aperto</span> <span class="chain-rel rel-opp">≠</span> <span>🔒 Chiuso</span></div>                    <div class="lang-words-span " data-lang="es"><span>🚪 Abierto</span> <span class="chain-rel rel-opp">≠</span> <span>🔒 Cerrado</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🚪 Aberto</span> <span class="chain-rel rel-opp">≠</span> <span>🔒 Fechado</span></div>                    <div class="lang-words-span " data-lang="de"><span>🚪 Offen</span> <span class="chain-rel rel-opp">≠</span> <span>🔒 Geschlossen</span></div>                    <div class="lang-words-span " data-lang="el"><span>🚪 Ανοιχτά</span> <span class="chain-rel rel-opp">≠</span> <span>🔒 Κλειστά</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🚪 Открыто</span> <span class="chain-rel rel-opp">≠</span> <span>🔒 Закрыто</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -761,8 +741,7 @@
                     <span>Chain 64 · Store Roles</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>👤 Customer</span> <span class="chain-rel rel-opp">≠</span> <span>🧑‍💼 Cashier</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>👤 Customer</span> <span class="chain-rel rel-opp">≠</span> <span>🧑‍💼 Cashier</span></div>                    <div class="lang-words-span " data-lang="fr"><span>👤 Client</span> <span class="chain-rel rel-opp">≠</span> <span>🧑‍💼 Caissier</span></div>                    <div class="lang-words-span " data-lang="it"><span>👤 Cliente</span> <span class="chain-rel rel-opp">≠</span> <span>🧑‍💼 Cassiere</span></div>                    <div class="lang-words-span " data-lang="es"><span>👤 Cliente</span> <span class="chain-rel rel-opp">≠</span> <span>🧑‍💼 Cajero</span></div>                    <div class="lang-words-span " data-lang="pt"><span>👤 Cliente</span> <span class="chain-rel rel-opp">≠</span> <span>🧑‍💼 Caixa</span></div>                    <div class="lang-words-span " data-lang="de"><span>👤 Kunde</span> <span class="chain-rel rel-opp">≠</span> <span>🧑‍💼 Kassierer</span></div>                    <div class="lang-words-span " data-lang="el"><span>👤 Πελάτης</span> <span class="chain-rel rel-opp">≠</span> <span>🧑‍💼 Ταμίας</span></div>                    <div class="lang-words-span " data-lang="ru"><span>👤 Покупатель</span> <span class="chain-rel rel-opp">≠</span> <span>🧑‍💼 Кассир</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -770,8 +749,7 @@
                     <span>Chain 65 · Price &amp; Sale</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🏷️ Price</span> <span class="chain-rel rel-opp">≠</span> <span>🏷️ Discount</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🏷️ Price</span> <span class="chain-rel rel-opp">≠</span> <span>🏷️ Discount</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🏷️ Prix</span> <span class="chain-rel rel-opp">≠</span> <span>🏷️ Réduction</span></div>                    <div class="lang-words-span " data-lang="it"><span>🏷️ Prezzo</span> <span class="chain-rel rel-opp">≠</span> <span>🏷️ Sconto</span></div>                    <div class="lang-words-span " data-lang="es"><span>🏷️ Precio</span> <span class="chain-rel rel-opp">≠</span> <span>🏷️ Descuento</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🏷️ Preço</span> <span class="chain-rel rel-opp">≠</span> <span>🏷️ Desconto</span></div>                    <div class="lang-words-span " data-lang="de"><span>🏷️ Preis</span> <span class="chain-rel rel-opp">≠</span> <span>🏷️ Rabatt</span></div>                    <div class="lang-words-span " data-lang="el"><span>🏷️ Τιμή</span> <span class="chain-rel rel-opp">≠</span> <span>🏷️ Έκπτωση</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🏷️ Цена</span> <span class="chain-rel rel-opp">≠</span> <span>🏷️ Скидка</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -779,8 +757,7 @@
                     <span>Chain 66 · Price Scale</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>💸 Cheap</span> <span class="chain-rel rel-opp">≠</span> <span>💎 Expensive</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>💸 Cheap</span> <span class="chain-rel rel-opp">≠</span> <span>💎 Expensive</span></div>                    <div class="lang-words-span " data-lang="fr"><span>💸 Pas cher</span> <span class="chain-rel rel-opp">≠</span> <span>💎 Cher</span></div>                    <div class="lang-words-span " data-lang="it"><span>💸 Economico</span> <span class="chain-rel rel-opp">≠</span> <span>💎 Caro</span></div>                    <div class="lang-words-span " data-lang="es"><span>💸 Barato</span> <span class="chain-rel rel-opp">≠</span> <span>💎 Caro</span></div>                    <div class="lang-words-span " data-lang="pt"><span>💸 Barato</span> <span class="chain-rel rel-opp">≠</span> <span>💎 Caro</span></div>                    <div class="lang-words-span " data-lang="de"><span>💸 Billig</span> <span class="chain-rel rel-opp">≠</span> <span>💎 Teuer</span></div>                    <div class="lang-words-span " data-lang="el"><span>💸 Φτηνός</span> <span class="chain-rel rel-opp">≠</span> <span>💎 Ακριβός</span></div>                    <div class="lang-words-span " data-lang="ru"><span>💸 Дешевый</span> <span class="chain-rel rel-opp">≠</span> <span>💎 Дорогой</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -788,8 +765,7 @@
                     <span>Chain 67 · Package Sizing</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🤏 Small</span> <span class="chain-rel rel-opp">≠</span> <span>🐘 Large</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🤏 Small</span> <span class="chain-rel rel-opp">≠</span> <span>🐘 Large</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🤏 Petit</span> <span class="chain-rel rel-opp">≠</span> <span>🐘 Grand</span></div>                    <div class="lang-words-span " data-lang="it"><span>🤏 Piccolo</span> <span class="chain-rel rel-opp">≠</span> <span>🐘 Grande</span></div>                    <div class="lang-words-span " data-lang="es"><span>🤏 Pequeño</span> <span class="chain-rel rel-opp">≠</span> <span>🐘 Grande</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🤏 Pequeno</span> <span class="chain-rel rel-opp">≠</span> <span>🐘 Grande</span></div>                    <div class="lang-words-span " data-lang="de"><span>🤏 Klein</span> <span class="chain-rel rel-opp">≠</span> <span>🐘 Groß</span></div>                    <div class="lang-words-span " data-lang="el"><span>🤏 Μικρός</span> <span class="chain-rel rel-opp">≠</span> <span>🐘 Μεγάλος</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🤏 Маленький</span> <span class="chain-rel rel-opp">≠</span> <span>🐘 Большой</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -797,8 +773,7 @@
                     <span>Chain 68 · Payment Options</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>💳 Card</span> <span class="chain-rel rel-opp">≠</span> <span>💵 Cash</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>💳 Card</span> <span class="chain-rel rel-opp">≠</span> <span>💵 Cash</span></div>                    <div class="lang-words-span " data-lang="fr"><span>💳 Carte</span> <span class="chain-rel rel-opp">≠</span> <span>💵 Espèces</span></div>                    <div class="lang-words-span " data-lang="it"><span>💳 Carta</span> <span class="chain-rel rel-opp">≠</span> <span>💵 Contanti</span></div>                    <div class="lang-words-span " data-lang="es"><span>💳 Tarjeta</span> <span class="chain-rel rel-opp">≠</span> <span>💵 Efectivo</span></div>                    <div class="lang-words-span " data-lang="pt"><span>💳 Cartão</span> <span class="chain-rel rel-opp">≠</span> <span>💵 Dinheiro</span></div>                    <div class="lang-words-span " data-lang="de"><span>💳 Karte</span> <span class="chain-rel rel-opp">≠</span> <span>💵 Bargeld</span></div>                    <div class="lang-words-span " data-lang="el"><span>💳 Κάρτα</span> <span class="chain-rel rel-opp">≠</span> <span>💵 Μετρητά</span></div>                    <div class="lang-words-span " data-lang="ru"><span>💳 Карта</span> <span class="chain-rel rel-opp">≠</span> <span>💵 Наличные</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -806,8 +781,7 @@
                     <span>Chain 69 · Checkout Flow</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🛍️ Buy</span> <span class="chain-rel rel-seq">➔</span> <span>🧾 Pay</span> <span class="chain-rel rel-seq">➔</span> <span>🛍️ Take home</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🛍️ Buy</span> <span class="chain-rel rel-seq">➔</span> <span>🧾 Pay</span> <span class="chain-rel rel-seq">➔</span> <span>🛍️ Take home</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🛍️ Acheter</span> <span class="chain-rel rel-seq">➔</span> <span>🧾 Payer</span> <span class="chain-rel rel-seq">➔</span> <span>🛍️ Emporter</span></div>                    <div class="lang-words-span " data-lang="it"><span>🛍️ Comprare</span> <span class="chain-rel rel-seq">➔</span> <span>🧾 Pagare</span> <span class="chain-rel rel-seq">➔</span> <span>🛍️ Portare a casa</span></div>                    <div class="lang-words-span " data-lang="es"><span>🛍️ Comprar</span> <span class="chain-rel rel-seq">➔</span> <span>🧾 Pagar</span> <span class="chain-rel rel-seq">➔</span> <span>🛍️ Llevar a casa</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🛍️ Comprar</span> <span class="chain-rel rel-seq">➔</span> <span>🧾 Pagar</span> <span class="chain-rel rel-seq">➔</span> <span>🛍️ Levar para casa</span></div>                    <div class="lang-words-span " data-lang="de"><span>🛍️ Kaufen</span> <span class="chain-rel rel-seq">➔</span> <span>🧾 Bezahlen</span> <span class="chain-rel rel-seq">➔</span> <span>🛍️ Mitnehmen</span></div>                    <div class="lang-words-span " data-lang="el"><span>🛍️ Αγοράζω</span> <span class="chain-rel rel-seq">➔</span> <span>🧾 Πληρώνω</span> <span class="chain-rel rel-seq">➔</span> <span>🛍️ Παίρνω</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🛍️ Покупать</span> <span class="chain-rel rel-seq">➔</span> <span>🧾 Платить</span> <span class="chain-rel rel-seq">➔</span> <span>🛍️ Уносить</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -815,8 +789,7 @@
                     <span>Chain 70 · Money Management</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>💰 Earn</span> <span class="chain-rel rel-seq">➔</span> <span>🏦 Save</span> <span class="chain-rel rel-seq">➔</span> <span>🛍️ Spend</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>💰 Earn</span> <span class="chain-rel rel-seq">➔</span> <span>🏦 Save</span> <span class="chain-rel rel-seq">➔</span> <span>🛍️ Spend</span></div>                    <div class="lang-words-span " data-lang="fr"><span>💰 Gagner</span> <span class="chain-rel rel-seq">➔</span> <span>🏦 Économiser</span> <span class="chain-rel rel-seq">➔</span> <span>🛍️ Dépenser</span></div>                    <div class="lang-words-span " data-lang="it"><span>💰 Guadagnare</span> <span class="chain-rel rel-seq">➔</span> <span>🏦 Risparmiare</span> <span class="chain-rel rel-seq">➔</span> <span>🛍️ Spendere</span></div>                    <div class="lang-words-span " data-lang="es"><span>💰 Ganar</span> <span class="chain-rel rel-seq">➔</span> <span>🏦 Ahorrar</span> <span class="chain-rel rel-seq">➔</span> <span>🛍️ Gastar</span></div>                    <div class="lang-words-span " data-lang="pt"><span>💰 Ganhar</span> <span class="chain-rel rel-seq">➔</span> <span>🏦 Economizar</span> <span class="chain-rel rel-seq">➔</span> <span>🛍️ Gastar</span></div>                    <div class="lang-words-span " data-lang="de"><span>💰 Verdienen</span> <span class="chain-rel rel-seq">➔</span> <span>🏦 Sparen</span> <span class="chain-rel rel-seq">➔</span> <span>🛍️ Ausgeben</span></div>                    <div class="lang-words-span " data-lang="el"><span>💰 Κερδίζω</span> <span class="chain-rel rel-seq">➔</span> <span>🏦 Αποταμιεύω</span> <span class="chain-rel rel-seq">➔</span> <span>🛍️ Ξοδεύω</span></div>                    <div class="lang-words-span " data-lang="ru"><span>💰 Зарабатывать</span> <span class="chain-rel rel-seq">➔</span> <span>🏦 Копить</span> <span class="chain-rel rel-seq">➔</span> <span>🛍️ Тратить</span></div>
                 </div>
             </div>
         </div>
@@ -842,8 +815,7 @@
                     <span>Chain 71 · Relative Position</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>📍 Here</span> <span class="chain-rel rel-opp">≠</span> <span>🫵 There</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>📍 Here</span> <span class="chain-rel rel-opp">≠</span> <span>🫵 There</span></div>                    <div class="lang-words-span " data-lang="fr"><span>📍 Ici</span> <span class="chain-rel rel-opp">≠</span> <span>🫵 Là</span></div>                    <div class="lang-words-span " data-lang="it"><span>📍 Qui</span> <span class="chain-rel rel-opp">≠</span> <span>🫵 Lì</span></div>                    <div class="lang-words-span " data-lang="es"><span>📍 Aquí</span> <span class="chain-rel rel-opp">≠</span> <span>🫵 Allí</span></div>                    <div class="lang-words-span " data-lang="pt"><span>📍 Aqui</span> <span class="chain-rel rel-opp">≠</span> <span>🫵 Lá</span></div>                    <div class="lang-words-span " data-lang="de"><span>📍 Hier</span> <span class="chain-rel rel-opp">≠</span> <span>🫵 Dort</span></div>                    <div class="lang-words-span " data-lang="el"><span>📍 Εδώ</span> <span class="chain-rel rel-opp">≠</span> <span>🫵 Εκεί</span></div>                    <div class="lang-words-span " data-lang="ru"><span>📍 Здесь</span> <span class="chain-rel rel-opp">≠</span> <span>🫵 Там</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -851,8 +823,7 @@
                     <span>Chain 72 · Distance Scale</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>📏 Near</span> <span class="chain-rel rel-opp">≠</span> <span>🔭 Far</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>📏 Near</span> <span class="chain-rel rel-opp">≠</span> <span>🔭 Far</span></div>                    <div class="lang-words-span " data-lang="fr"><span>📏 Près</span> <span class="chain-rel rel-opp">≠</span> <span>🔭 Loin</span></div>                    <div class="lang-words-span " data-lang="it"><span>📏 Vicino</span> <span class="chain-rel rel-opp">≠</span> <span>🔭 Lontano</span></div>                    <div class="lang-words-span " data-lang="es"><span>📏 Cerca</span> <span class="chain-rel rel-opp">≠</span> <span>🔭 Lejos</span></div>                    <div class="lang-words-span " data-lang="pt"><span>📏 Perto</span> <span class="chain-rel rel-opp">≠</span> <span>🔭 Longe</span></div>                    <div class="lang-words-span " data-lang="de"><span>📏 Nah</span> <span class="chain-rel rel-opp">≠</span> <span>🔭 Weit</span></div>                    <div class="lang-words-span " data-lang="el"><span>📏 Κοντά</span> <span class="chain-rel rel-opp">≠</span> <span>🔭 Μακριά</span></div>                    <div class="lang-words-span " data-lang="ru"><span>📏 Близко</span> <span class="chain-rel rel-opp">≠</span> <span>🔭 Далеко</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -860,8 +831,7 @@
                     <span>Chain 73 · Direction Vectors</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>⬅️ Left</span> <span class="chain-rel rel-seq">➔</span> <span>⬆️ Straight</span> <span class="chain-rel rel-seq">➔</span> <span>➡️ Right</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>⬅️ Left</span> <span class="chain-rel rel-seq">➔</span> <span>⬆️ Straight</span> <span class="chain-rel rel-seq">➔</span> <span>➡️ Right</span></div>                    <div class="lang-words-span " data-lang="fr"><span>⬅️ Gauche</span> <span class="chain-rel rel-seq">➔</span> <span>⬆️ Tout droit</span> <span class="chain-rel rel-seq">➔</span> <span>➡️ Droite</span></div>                    <div class="lang-words-span " data-lang="it"><span>⬅️ Sinistra</span> <span class="chain-rel rel-seq">➔</span> <span>⬆️ Dritto</span> <span class="chain-rel rel-seq">➔</span> <span>➡️ Destra</span></div>                    <div class="lang-words-span " data-lang="es"><span>⬅️ Izquierda</span> <span class="chain-rel rel-seq">➔</span> <span>⬆️ Recto</span> <span class="chain-rel rel-seq">➔</span> <span>➡️ Derecha</span></div>                    <div class="lang-words-span " data-lang="pt"><span>⬅️ Esquerda</span> <span class="chain-rel rel-seq">➔</span> <span>⬆️ Em frente</span> <span class="chain-rel rel-seq">➔</span> <span>➡️ Direita</span></div>                    <div class="lang-words-span " data-lang="de"><span>⬅️ Links</span> <span class="chain-rel rel-seq">➔</span> <span>⬆️ Geradeaus</span> <span class="chain-rel rel-seq">➔</span> <span>➡️ Rechts</span></div>                    <div class="lang-words-span " data-lang="el"><span>⬅️ Αριστερά</span> <span class="chain-rel rel-seq">➔</span> <span>⬆️ Ευθεία</span> <span class="chain-rel rel-seq">➔</span> <span>➡️ Δεξιά</span></div>                    <div class="lang-words-span " data-lang="ru"><span>⬅️ Налево</span> <span class="chain-rel rel-seq">➔</span> <span>⬆️ Прямо</span> <span class="chain-rel rel-seq">➔</span> <span>➡️ Направо</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -869,8 +839,7 @@
                     <span>Chain 74 · Map Search</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🗺️ Map</span> <span class="chain-rel rel-seq">➔</span> <span>📍 Location</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🗺️ Map</span> <span class="chain-rel rel-seq">➔</span> <span>📍 Location</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🗺️ Carte</span> <span class="chain-rel rel-seq">➔</span> <span>📍 Emplacement</span></div>                    <div class="lang-words-span " data-lang="it"><span>🗺️ Mappa</span> <span class="chain-rel rel-seq">➔</span> <span>📍 Posizione</span></div>                    <div class="lang-words-span " data-lang="es"><span>🗺️ Mapa</span> <span class="chain-rel rel-seq">➔</span> <span>📍 Ubicación</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🗺️ Mapa</span> <span class="chain-rel rel-seq">➔</span> <span>📍 Localização</span></div>                    <div class="lang-words-span " data-lang="de"><span>🗺️ Karte</span> <span class="chain-rel rel-seq">➔</span> <span>📍 Ort</span></div>                    <div class="lang-words-span " data-lang="el"><span>🗺️ Χάρτης</span> <span class="chain-rel rel-seq">➔</span> <span>📍 Τοποθεσία</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🗺️ Карта</span> <span class="chain-rel rel-seq">➔</span> <span>📍 Локация</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -878,8 +847,7 @@
                     <span>Chain 75 · Transit Hierarchy</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🚌 Bus</span> <span class="chain-rel rel-seq">➔</span> <span>🚆 Train</span> <span class="chain-rel rel-seq">➔</span> <span>✈️ Plane</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🚌 Bus</span> <span class="chain-rel rel-seq">➔</span> <span>🚆 Train</span> <span class="chain-rel rel-seq">➔</span> <span>✈️ Plane</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🚌 Bus</span> <span class="chain-rel rel-seq">➔</span> <span>🚆 Train</span> <span class="chain-rel rel-seq">➔</span> <span>✈️ Avion</span></div>                    <div class="lang-words-span " data-lang="it"><span>🚌 Autobus</span> <span class="chain-rel rel-seq">➔</span> <span>🚆 Treno</span> <span class="chain-rel rel-seq">➔</span> <span>✈️ Aereo</span></div>                    <div class="lang-words-span " data-lang="es"><span>🚌 Autobús</span> <span class="chain-rel rel-seq">➔</span> <span>🚆 Tren</span> <span class="chain-rel rel-seq">➔</span> <span>✈️ Avión</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🚌 Ônibus</span> <span class="chain-rel rel-seq">➔</span> <span>🚆 Trem</span> <span class="chain-rel rel-seq">➔</span> <span>✈️ Avião</span></div>                    <div class="lang-words-span " data-lang="de"><span>🚌 Bus</span> <span class="chain-rel rel-seq">➔</span> <span>🚆 Zug</span> <span class="chain-rel rel-seq">➔</span> <span>✈️ Flugzeug</span></div>                    <div class="lang-words-span " data-lang="el"><span>🚌 Λεωφορείο</span> <span class="chain-rel rel-seq">➔</span> <span>🚆 Τρένο</span> <span class="chain-rel rel-seq">➔</span> <span>✈️ Αεροπλάνο</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🚌 Автобус</span> <span class="chain-rel rel-seq">➔</span> <span>🚆 Поезд</span> <span class="chain-rel rel-seq">➔</span> <span>✈️ Самолет</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -887,8 +855,7 @@
                     <span>Chain 76 · Transit Boarding</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🚉 Station</span> <span class="chain-rel rel-seq">➔</span> <span>🚉 Platform</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🚉 Station</span> <span class="chain-rel rel-seq">➔</span> <span>🚉 Platform</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🚉 Gare</span> <span class="chain-rel rel-seq">➔</span> <span>🚉 Quai</span></div>                    <div class="lang-words-span " data-lang="it"><span>🚉 Stazione</span> <span class="chain-rel rel-seq">➔</span> <span>🚉 Binario</span></div>                    <div class="lang-words-span " data-lang="es"><span>🚉 Estación</span> <span class="chain-rel rel-seq">➔</span> <span>🚉 Andén</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🚉 Estação</span> <span class="chain-rel rel-seq">➔</span> <span>🚉 Plataforma</span></div>                    <div class="lang-words-span " data-lang="de"><span>🚉 Bahnhof</span> <span class="chain-rel rel-seq">➔</span> <span>🚉 Bahnsteig</span></div>                    <div class="lang-words-span " data-lang="el"><span>🚉 Σταθμός</span> <span class="chain-rel rel-seq">➔</span> <span>🚉 Αποβάθρα</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🚉 Станция</span> <span class="chain-rel rel-seq">➔</span> <span>🚉 Платформа</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -896,8 +863,7 @@
                     <span>Chain 77 · Travel Ticket</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🎟️ Ticket</span> <span class="chain-rel rel-seq">➔</span> <span>🧳 Journey</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🎟️ Ticket</span> <span class="chain-rel rel-seq">➔</span> <span>🧳 Journey</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🎟️ Billet</span> <span class="chain-rel rel-seq">➔</span> <span>🧳 Voyage</span></div>                    <div class="lang-words-span " data-lang="it"><span>🎟️ Biglietto</span> <span class="chain-rel rel-seq">➔</span> <span>🧳 Viaggio</span></div>                    <div class="lang-words-span " data-lang="es"><span>🎟️ Billete</span> <span class="chain-rel rel-seq">➔</span> <span>🧳 Viaje</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🎟️ Bilhete</span> <span class="chain-rel rel-seq">➔</span> <span>🧳 Viagem</span></div>                    <div class="lang-words-span " data-lang="de"><span>🎟️ Fahrkarte</span> <span class="chain-rel rel-seq">➔</span> <span>🧳 Reise</span></div>                    <div class="lang-words-span " data-lang="el"><span>🎟️ Εισιτήριο</span> <span class="chain-rel rel-seq">➔</span> <span>🧳 Ταξίδι</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🎟️ Билет</span> <span class="chain-rel rel-seq">➔</span> <span>🧳 Путешествие</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -905,8 +871,7 @@
                     <span>Chain 78 · Trip Movement</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🛬 Arrive</span> <span class="chain-rel rel-opp">≠</span> <span>🛫 Leave</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🛬 Arrive</span> <span class="chain-rel rel-opp">≠</span> <span>🛫 Leave</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🛬 Arriver</span> <span class="chain-rel rel-opp">≠</span> <span>🛫 Partir</span></div>                    <div class="lang-words-span " data-lang="it"><span>🛬 Arrivare</span> <span class="chain-rel rel-opp">≠</span> <span>🛫 Partire</span></div>                    <div class="lang-words-span " data-lang="es"><span>🛬 Llegar</span> <span class="chain-rel rel-opp">≠</span> <span>🛫 Salir</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🛬 Chegar</span> <span class="chain-rel rel-opp">≠</span> <span>🛫 Partir</span></div>                    <div class="lang-words-span " data-lang="de"><span>🛬 Ankommen</span> <span class="chain-rel rel-opp">≠</span> <span>🛫 Abfahren</span></div>                    <div class="lang-words-span " data-lang="el"><span>🛬 Φτάνω</span> <span class="chain-rel rel-opp">≠</span> <span>🛫 Φεύγω</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🛬 Прибывать</span> <span class="chain-rel rel-opp">≠</span> <span>🛫 Уезжать</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -914,8 +879,7 @@
                     <span>Chain 79 · Settlement Scale</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🏙️ City</span> <span class="chain-rel rel-opp">≠</span> <span>🏡 Village</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🏙️ City</span> <span class="chain-rel rel-opp">≠</span> <span>🏡 Village</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🏙️ Ville</span> <span class="chain-rel rel-opp">≠</span> <span>🏡 Village</span></div>                    <div class="lang-words-span " data-lang="it"><span>🏙️ Città</span> <span class="chain-rel rel-opp">≠</span> <span>🏡 Villaggio</span></div>                    <div class="lang-words-span " data-lang="es"><span>🏙️ Ciudad</span> <span class="chain-rel rel-opp">≠</span> <span>🏡 Pueblo</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🏙️ Cidade</span> <span class="chain-rel rel-opp">≠</span> <span>🏡 Vila</span></div>                    <div class="lang-words-span " data-lang="de"><span>🏙️ Stadt</span> <span class="chain-rel rel-opp">≠</span> <span>🏡 Dorf</span></div>                    <div class="lang-words-span " data-lang="el"><span>🏙️ Πόλη</span> <span class="chain-rel rel-opp">≠</span> <span>🏡 Χωριό</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🏙️ Город</span> <span class="chain-rel rel-opp">≠</span> <span>🏡 Деревня</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -923,8 +887,7 @@
                     <span>Chain 80 · Accommodation</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🏨 Hotel</span> <span class="chain-rel rel-opp">≠</span> <span>🛏️ Hostel</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🏨 Hotel</span> <span class="chain-rel rel-opp">≠</span> <span>🛏️ Hostel</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🏨 Hôtel</span> <span class="chain-rel rel-opp">≠</span> <span>🛏️ Auberge</span></div>                    <div class="lang-words-span " data-lang="it"><span>🏨 Hotel</span> <span class="chain-rel rel-opp">≠</span> <span>🛏️ Ostello</span></div>                    <div class="lang-words-span " data-lang="es"><span>🏨 Hotel</span> <span class="chain-rel rel-opp">≠</span> <span>🛏️ Hostal</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🏨 Hotel</span> <span class="chain-rel rel-opp">≠</span> <span>🛏️ Albergue</span></div>                    <div class="lang-words-span " data-lang="de"><span>🏨 Hotel</span> <span class="chain-rel rel-opp">≠</span> <span>🛏️ Herberge</span></div>                    <div class="lang-words-span " data-lang="el"><span>🏨 Ξενοδοχείο</span> <span class="chain-rel rel-opp">≠</span> <span>🛏️ Ξενώνας</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🏨 Отель</span> <span class="chain-rel rel-opp">≠</span> <span>🛏️ Хостел</span></div>
                 </div>
             </div>
         </div>
@@ -950,8 +913,7 @@
                     <span>Chain 81 · Facial Anatomy</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>👤 Face</span> <span class="chain-rel rel-seq">➔</span> <span>👁️ Eyes</span> <span class="chain-rel rel-seq">➔</span> <span>👃 Nose</span> <span class="chain-rel rel-seq">➔</span> <span>👄 Mouth</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>👤 Face</span> <span class="chain-rel rel-seq">➔</span> <span>👁️ Eyes</span> <span class="chain-rel rel-seq">➔</span> <span>👃 Nose</span> <span class="chain-rel rel-seq">➔</span> <span>👄 Mouth</span></div>                    <div class="lang-words-span " data-lang="fr"><span>👤 Visage</span> <span class="chain-rel rel-seq">➔</span> <span>👁️ Yeux</span> <span class="chain-rel rel-seq">➔</span> <span>👃 Nez</span> <span class="chain-rel rel-seq">➔</span> <span>👄 Bouche</span></div>                    <div class="lang-words-span " data-lang="it"><span>👤 Viso</span> <span class="chain-rel rel-seq">➔</span> <span>👁️ Occhi</span> <span class="chain-rel rel-seq">➔</span> <span>👃 Naso</span> <span class="chain-rel rel-seq">➔</span> <span>👄 Bocca</span></div>                    <div class="lang-words-span " data-lang="es"><span>👤 Cara</span> <span class="chain-rel rel-seq">➔</span> <span>👁️ Ojos</span> <span class="chain-rel rel-seq">➔</span> <span>👃 Nariz</span> <span class="chain-rel rel-seq">➔</span> <span>👄 Boca</span></div>                    <div class="lang-words-span " data-lang="pt"><span>👤 Rosto</span> <span class="chain-rel rel-seq">➔</span> <span>👁️ Olhos</span> <span class="chain-rel rel-seq">➔</span> <span>👃 Nariz</span> <span class="chain-rel rel-seq">➔</span> <span>👄 Boca</span></div>                    <div class="lang-words-span " data-lang="de"><span>👤 Gesicht</span> <span class="chain-rel rel-seq">➔</span> <span>👁️ Augen</span> <span class="chain-rel rel-seq">➔</span> <span>👃 Nase</span> <span class="chain-rel rel-seq">➔</span> <span>👄 Mund</span></div>                    <div class="lang-words-span " data-lang="el"><span>👤 Πρόσωπο</span> <span class="chain-rel rel-seq">➔</span> <span>👁️ Μάτια</span> <span class="chain-rel rel-seq">➔</span> <span>👃 Μύτη</span> <span class="chain-rel rel-seq">➔</span> <span>👄 Στόμα</span></div>                    <div class="lang-words-span " data-lang="ru"><span>👤 Лицо</span> <span class="chain-rel rel-seq">➔</span> <span>👁️ Глаза</span> <span class="chain-rel rel-seq">➔</span> <span>👃 Нос</span> <span class="chain-rel rel-seq">➔</span> <span>👄 Рот</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -959,8 +921,7 @@
                     <span>Chain 82 · Upper Extremities</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🖐️ Hand</span> <span class="chain-rel rel-seq">➔</span> <span>🖐️ Fingers</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🖐️ Hand</span> <span class="chain-rel rel-seq">➔</span> <span>🖐️ Fingers</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🖐️ Main</span> <span class="chain-rel rel-seq">➔</span> <span>🖐️ Doigts</span></div>                    <div class="lang-words-span " data-lang="it"><span>🖐️ Mano</span> <span class="chain-rel rel-seq">➔</span> <span>🖐️ Dita</span></div>                    <div class="lang-words-span " data-lang="es"><span>🖐️ Mano</span> <span class="chain-rel rel-seq">➔</span> <span>🖐️ Dedos</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🖐️ Mão</span> <span class="chain-rel rel-seq">➔</span> <span>🖐️ Dedos</span></div>                    <div class="lang-words-span " data-lang="de"><span>🖐️ Hand</span> <span class="chain-rel rel-seq">➔</span> <span>🖐️ Finger</span></div>                    <div class="lang-words-span " data-lang="el"><span>🖐️ Χέρι</span> <span class="chain-rel rel-seq">➔</span> <span>🖐️ Δάχτυλα</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🖐️ Рука</span> <span class="chain-rel rel-seq">➔</span> <span>🖐️ Пальцы</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -968,8 +929,7 @@
                     <span>Chain 83 · Lower Extremities</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🦶 Foot</span> <span class="chain-rel rel-seq">➔</span> <span>🦶 Toes</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🦶 Foot</span> <span class="chain-rel rel-seq">➔</span> <span>🦶 Toes</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🦶 Pied</span> <span class="chain-rel rel-seq">➔</span> <span>🦶 Orteils</span></div>                    <div class="lang-words-span " data-lang="it"><span>🦶 Piede</span> <span class="chain-rel rel-seq">➔</span> <span>🦶 Dita del piede</span></div>                    <div class="lang-words-span " data-lang="es"><span>🦶 Pie</span> <span class="chain-rel rel-seq">➔</span> <span>🦶 Dedos del pie</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🦶 Pé</span> <span class="chain-rel rel-seq">➔</span> <span>🦶 Dedos do pé</span></div>                    <div class="lang-words-span " data-lang="de"><span>🦶 Fuß</span> <span class="chain-rel rel-seq">➔</span> <span>🦶 Zehen</span></div>                    <div class="lang-words-span " data-lang="el"><span>🦶 Πόδι</span> <span class="chain-rel rel-seq">➔</span> <span>🦶 Δάχτυλα ποδιού</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🦶 Нога</span> <span class="chain-rel rel-seq">➔</span> <span>🦶 Пальцы ног</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -977,8 +937,7 @@
                     <span>Chain 84 · Limbs Contrast</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🦾 Arm</span> <span class="chain-rel rel-opp">≠</span> <span>🦵 Leg</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🦾 Arm</span> <span class="chain-rel rel-opp">≠</span> <span>🦵 Leg</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🦾 Bras</span> <span class="chain-rel rel-opp">≠</span> <span>🦵 Jambe</span></div>                    <div class="lang-words-span " data-lang="it"><span>🦾 Braccio</span> <span class="chain-rel rel-opp">≠</span> <span>🦵 Gamba</span></div>                    <div class="lang-words-span " data-lang="es"><span>🦾 Brazo</span> <span class="chain-rel rel-opp">≠</span> <span>🦵 Pierna</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🦾 Braço</span> <span class="chain-rel rel-opp">≠</span> <span>🦵 Perna</span></div>                    <div class="lang-words-span " data-lang="de"><span>🦾 Arm</span> <span class="chain-rel rel-opp">≠</span> <span>🦵 Bein</span></div>                    <div class="lang-words-span " data-lang="el"><span>🦾 Βραχίονας</span> <span class="chain-rel rel-opp">≠</span> <span>🦵 Πόδι</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🦾 Рука</span> <span class="chain-rel rel-opp">≠</span> <span>🦵 Нога</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -986,8 +945,7 @@
                     <span>Chain 85 · Health Condition</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🏃 Healthy</span> <span class="chain-rel rel-opp">≠</span> <span>🤒 Sick</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🏃 Healthy</span> <span class="chain-rel rel-opp">≠</span> <span>🤒 Sick</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🏃 En bonne santé</span> <span class="chain-rel rel-opp">≠</span> <span>🤒 Malade</span></div>                    <div class="lang-words-span " data-lang="it"><span>🏃 Sano</span> <span class="chain-rel rel-opp">≠</span> <span>🤒 Malato</span></div>                    <div class="lang-words-span " data-lang="es"><span>🏃 Sano</span> <span class="chain-rel rel-opp">≠</span> <span>🤒 Enfermo</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🏃 Saudável</span> <span class="chain-rel rel-opp">≠</span> <span>🤒 Doente</span></div>                    <div class="lang-words-span " data-lang="de"><span>🏃 Gesundheit</span> <span class="chain-rel rel-opp">≠</span> <span>🤒 Krank</span></div>                    <div class="lang-words-span " data-lang="el"><span>🏃 Υγιής</span> <span class="chain-rel rel-opp">≠</span> <span>🤒 Άρρωστος</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🏃 Здоровый</span> <span class="chain-rel rel-opp">≠</span> <span>🤒 Больной</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -995,8 +953,7 @@
                     <span>Chain 86 · Symptom &amp; Relief</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🩺 Pain</span> <span class="chain-rel rel-seq">➔</span> <span>💊 Medicine</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🩺 Pain</span> <span class="chain-rel rel-seq">➔</span> <span>💊 Medicine</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🩺 Douleur</span> <span class="chain-rel rel-seq">➔</span> <span>💊 Médicament</span></div>                    <div class="lang-words-span " data-lang="it"><span>🩺 Dolore</span> <span class="chain-rel rel-seq">➔</span> <span>💊 Medicina</span></div>                    <div class="lang-words-span " data-lang="es"><span>🩺 Dolor</span> <span class="chain-rel rel-seq">➔</span> <span>💊 Medicina</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🩺 Dor</span> <span class="chain-rel rel-seq">➔</span> <span>💊 Remédio</span></div>                    <div class="lang-words-span " data-lang="de"><span>🩺 Schmerz</span> <span class="chain-rel rel-seq">➔</span> <span>💊 Medizin</span></div>                    <div class="lang-words-span " data-lang="el"><span>🩺 Πόνος</span> <span class="chain-rel rel-seq">➔</span> <span>💊 Фάρμακο</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🩺 Боль</span> <span class="chain-rel rel-seq">➔</span> <span>💊 Лекарство</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -1004,8 +961,7 @@
                     <span>Chain 87 · Recovery Cycle</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🌡️ Fever</span> <span class="chain-rel rel-seq">➔</span> <span>🛌 Rest</span> <span class="chain-rel rel-seq">➔</span> <span>🔋 Recover</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🌡️ Fever</span> <span class="chain-rel rel-seq">➔</span> <span>🛌 Rest</span> <span class="chain-rel rel-seq">➔</span> <span>🔋 Recover</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🌡️ Fièvre</span> <span class="chain-rel rel-seq">➔</span> <span>🛌 Repos</span> <span class="chain-rel rel-seq">➔</span> <span>🔋 Guérir</span></div>                    <div class="lang-words-span " data-lang="it"><span>🌡️ Febbre</span> <span class="chain-rel rel-seq">➔</span> <span>🛌 Riposo</span> <span class="chain-rel rel-seq">➔</span> <span>🔋 Guarire</span></div>                    <div class="lang-words-span " data-lang="es"><span>🌡️ Fiebre</span> <span class="chain-rel rel-seq">➔</span> <span>🛌 Descanso</span> <span class="chain-rel rel-seq">➔</span> <span>🔋 Recuperarse</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🌡️ Febre</span> <span class="chain-rel rel-seq">➔</span> <span>🛌 Descanso</span> <span class="chain-rel rel-seq">➔</span> <span>🔋 Recuperar</span></div>                    <div class="lang-words-span " data-lang="de"><span>🌡️ Fieber</span> <span class="chain-rel rel-seq">➔</span> <span>🛌 Ruhe</span> <span class="chain-rel rel-seq">➔</span> <span>🔋 Erholen</span></div>                    <div class="lang-words-span " data-lang="el"><span>🌡️ Πυρετός</span> <span class="chain-rel rel-seq">➔</span> <span>🛌 Ξεκούραση</span> <span class="chain-rel rel-seq">➔</span> <span>🔋 Ανάρρωση</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🌡️ Лихорадка</span> <span class="chain-rel rel-seq">➔</span> <span>🛌 Отдых</span> <span class="chain-rel rel-seq">➔</span> <span>🔋 Выздоравливать</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -1013,8 +969,7 @@
                     <span>Chain 88 · Medical Facility</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>👨‍⚕️ Doctor</span> <span class="chain-rel rel-seq">➔</span> <span>🏥 Hospital</span> <span class="chain-rel rel-seq">➔</span> <span>💊 Pharmacy</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>👨‍⚕️ Doctor</span> <span class="chain-rel rel-seq">➔</span> <span>🏥 Hospital</span> <span class="chain-rel rel-seq">➔</span> <span>💊 Pharmacy</span></div>                    <div class="lang-words-span " data-lang="fr"><span>👨‍⚕️ Médecin</span> <span class="chain-rel rel-seq">➔</span> <span>🏥 Hôpital</span> <span class="chain-rel rel-seq">➔</span> <span>💊 Pharmacie</span></div>                    <div class="lang-words-span " data-lang="it"><span>👨‍⚕️ Dottore</span> <span class="chain-rel rel-seq">➔</span> <span>🏥 Ospedale</span> <span class="chain-rel rel-seq">➔</span> <span>💊 Farmacia</span></div>                    <div class="lang-words-span " data-lang="es"><span>👨‍⚕️ Médico</span> <span class="chain-rel rel-seq">➔</span> <span>🏥 Hospital</span> <span class="chain-rel rel-seq">➔</span> <span>💊 Farmacia</span></div>                    <div class="lang-words-span " data-lang="pt"><span>👨‍⚕️ Médico</span> <span class="chain-rel rel-seq">➔</span> <span>🏥 Hospital</span> <span class="chain-rel rel-seq">➔</span> <span>💊 Farmácia</span></div>                    <div class="lang-words-span " data-lang="de"><span>👨‍⚕️ Arzt</span> <span class="chain-rel rel-seq">➔</span> <span>🏥 Krankenhaus</span> <span class="chain-rel rel-seq">➔</span> <span>💊 Apotheke</span></div>                    <div class="lang-words-span " data-lang="el"><span>👨‍⚕️ Γιατρός</span> <span class="chain-rel rel-seq">➔</span> <span>🏥 Νοσοκομείο</span> <span class="chain-rel rel-seq">➔</span> <span>💊 Φαρμακείο</span></div>                    <div class="lang-words-span " data-lang="ru"><span>👨‍⚕️ Врач</span> <span class="chain-rel rel-seq">➔</span> <span>🏥 Больница</span> <span class="chain-rel rel-seq">➔</span> <span>💊 Аптека</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -1022,8 +977,7 @@
                     <span>Chain 89 · Care Journey</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🤒 Sick</span> <span class="chain-rel rel-seq">➔</span> <span>👨‍⚕️ Doctor</span> <span class="chain-rel rel-seq">➔</span> <span>💊 Medicine</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🤒 Sick</span> <span class="chain-rel rel-seq">➔</span> <span>👨‍⚕️ Doctor</span> <span class="chain-rel rel-seq">➔</span> <span>💊 Medicine</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🤒 Malade</span> <span class="chain-rel rel-seq">➔</span> <span>👨‍⚕️ Médecin</span> <span class="chain-rel rel-seq">➔</span> <span>💊 Médicament</span></div>                    <div class="lang-words-span " data-lang="it"><span>🤒 Malato</span> <span class="chain-rel rel-seq">➔</span> <span>👨‍⚕️ Dottore</span> <span class="chain-rel rel-seq">➔</span> <span>💊 Medicina</span></div>                    <div class="lang-words-span " data-lang="es"><span>🤒 Enfermo</span> <span class="chain-rel rel-seq">➔</span> <span>👨‍⚕️ Médico</span> <span class="chain-rel rel-seq">➔</span> <span>💊 Medicina</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🤒 Doente</span> <span class="chain-rel rel-seq">➔</span> <span>👨‍⚕️ Médico</span> <span class="chain-rel rel-seq">➔</span> <span>💊 Remédio</span></div>                    <div class="lang-words-span " data-lang="de"><span>🤒 Krank</span> <span class="chain-rel rel-seq">➔</span> <span>👨‍⚕️ Arzt</span> <span class="chain-rel rel-seq">➔</span> <span>💊 Medizin</span></div>                    <div class="lang-words-span " data-lang="el"><span>🤒 Άρρωστος</span> <span class="chain-rel rel-seq">➔</span> <span>👨‍⚕️ Γιατρός</span> <span class="chain-rel rel-seq">➔</span> <span>💊 Φάρμακο</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🤒 Заболеть</span> <span class="chain-rel rel-seq">➔</span> <span>👨‍⚕️ Врач</span> <span class="chain-rel rel-seq">➔</span> <span>💊 Лекарство</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -1031,8 +985,7 @@
                     <span>Chain 90 · Hygiene Routine</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🧼 Wash hands</span> <span class="chain-rel rel-seq">➔</span> <span>🧻 Dry hands</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🧼 Wash hands</span> <span class="chain-rel rel-seq">➔</span> <span>🧻 Dry hands</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🧼 Se laver les mains</span> <span class="chain-rel rel-seq">➔</span> <span>🧻 Se sécher les mains</span></div>                    <div class="lang-words-span " data-lang="it"><span>🧼 Lavarsi le mani</span> <span class="chain-rel rel-seq">➔</span> <span>🧻 Asciugarsi le mani</span></div>                    <div class="lang-words-span " data-lang="es"><span>🧼 Lavarse las manos</span> <span class="chain-rel rel-seq">➔</span> <span>🧻 Secarse las manos</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🧼 Lavar as mãos</span> <span class="chain-rel rel-seq">➔</span> <span>🧻 Secar as mãos</span></div>                    <div class="lang-words-span " data-lang="de"><span>🧼 Hände waschen</span> <span class="chain-rel rel-seq">➔</span> <span>🧻 Hände trocknen</span></div>                    <div class="lang-words-span " data-lang="el"><span>🧼 Πλένω χέρια</span> <span class="chain-rel rel-seq">➔</span> <span>🧻 Στεγνώνω χέρια</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🧼 Мыть руки</span> <span class="chain-rel rel-seq">➔</span> <span>🧻 Вытирать руки</span></div>
                 </div>
             </div>
         </div>
@@ -1058,8 +1011,7 @@
                     <span>Chain 91 · Primary Emotions</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>😄 Happy</span> <span class="chain-rel rel-opp">≠</span> <span>😢 Sad</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>😄 Happy</span> <span class="chain-rel rel-opp">≠</span> <span>😢 Sad</span></div>                    <div class="lang-words-span " data-lang="fr"><span>😄 Heureux</span> <span class="chain-rel rel-opp">≠</span> <span>😢 Triste</span></div>                    <div class="lang-words-span " data-lang="it"><span>😄 Felice</span> <span class="chain-rel rel-opp">≠</span> <span>😢 Triste</span></div>                    <div class="lang-words-span " data-lang="es"><span>😄 Feliz</span> <span class="chain-rel rel-opp">≠</span> <span>😢 Triste</span></div>                    <div class="lang-words-span " data-lang="pt"><span>😄 Feliz</span> <span class="chain-rel rel-opp">≠</span> <span>😢 Triste</span></div>                    <div class="lang-words-span " data-lang="de"><span>😄 Glücklich</span> <span class="chain-rel rel-opp">≠</span> <span>😢 Traurig</span></div>                    <div class="lang-words-span " data-lang="el"><span>😄 Ευτυχισμένος</span> <span class="chain-rel rel-opp">≠</span> <span>😢 Λυπημένος</span></div>                    <div class="lang-words-span " data-lang="ru"><span>😄 Счастливый</span> <span class="chain-rel rel-opp">≠</span> <span>😢 Грустный</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -1067,8 +1019,7 @@
                     <span>Chain 92 · Emotional Intensity</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🧘 Calm</span> <span class="chain-rel rel-opp">≠</span> <span>😡 Angry</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🧘 Calm</span> <span class="chain-rel rel-opp">≠</span> <span>😡 Angry</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🧘 Calme</span> <span class="chain-rel rel-opp">≠</span> <span>😡 En colère</span></div>                    <div class="lang-words-span " data-lang="it"><span>🧘 Calmo</span> <span class="chain-rel rel-opp">≠</span> <span>😡 Arrabbiato</span></div>                    <div class="lang-words-span " data-lang="es"><span>🧘 Calmo</span> <span class="chain-rel rel-opp">≠</span> <span>😡 Enojado</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🧘 Calmo</span> <span class="chain-rel rel-opp">≠</span> <span>😡 Zangado</span></div>                    <div class="lang-words-span " data-lang="de"><span>🧘 Ruhig</span> <span class="chain-rel rel-opp">≠</span> <span>😡 Wütend</span></div>                    <div class="lang-words-span " data-lang="el"><span>🧘 Ήρεμος</span> <span class="chain-rel rel-opp">≠</span> <span>😡 Θυμωμένος</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🧘 Спокойный</span> <span class="chain-rel rel-opp">≠</span> <span>😡 Злой</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -1076,8 +1027,7 @@
                     <span>Chain 93 · Consciousness State</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>😴 Awake</span> <span class="chain-rel rel-opp">≠</span> <span>💤 Asleep</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>😴 Awake</span> <span class="chain-rel rel-opp">≠</span> <span>💤 Asleep</span></div>                    <div class="lang-words-span " data-lang="fr"><span>😴 Éveillé</span> <span class="chain-rel rel-opp">≠</span> <span>💤 Endormi</span></div>                    <div class="lang-words-span " data-lang="it"><span>😴 Sveglio</span> <span class="chain-rel rel-opp">≠</span> <span>💤 Addormentato</span></div>                    <div class="lang-words-span " data-lang="es"><span>😴 Despierto</span> <span class="chain-rel rel-opp">≠</span> <span>💤 Dormido</span></div>                    <div class="lang-words-span " data-lang="pt"><span>😴 Acordado</span> <span class="chain-rel rel-opp">≠</span> <span>💤 Aboardado</span></div>                    <div class="lang-words-span " data-lang="de"><span>😴 Wach</span> <span class="chain-rel rel-opp">≠</span> <span>💤 Schlafend</span></div>                    <div class="lang-words-span " data-lang="el"><span>😴 Ξύπνιος</span> <span class="chain-rel rel-opp">≠</span> <span>💤 Κοιμισμένος</span></div>                    <div class="lang-words-span " data-lang="ru"><span>😴 Бодрствующий</span> <span class="chain-rel rel-opp">≠</span> <span>💤 Спящий</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -1085,8 +1035,7 @@
                     <span>Chain 94 · Basic Evaluation</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>👍 Good</span> <span class="chain-rel rel-opp">≠</span> <span>👎 Bad</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>👍 Good</span> <span class="chain-rel rel-opp">≠</span> <span>👎 Bad</span></div>                    <div class="lang-words-span " data-lang="fr"><span>👍 Bon</span> <span class="chain-rel rel-opp">≠</span> <span>👎 Mauvais</span></div>                    <div class="lang-words-span " data-lang="it"><span>👍 Buono</span> <span class="chain-rel rel-opp">≠</span> <span>👎 Cattivo</span></div>                    <div class="lang-words-span " data-lang="es"><span>👍 Bueno</span> <span class="chain-rel rel-opp">≠</span> <span>👎 Malo</span></div>                    <div class="lang-words-span " data-lang="pt"><span>👍 Bom</span> <span class="chain-rel rel-opp">≠</span> <span>👎 Mau</span></div>                    <div class="lang-words-span " data-lang="de"><span>👍 Gut</span> <span class="chain-rel rel-opp">≠</span> <span>👎 Schlecht</span></div>                    <div class="lang-words-span " data-lang="el"><span>👍 Καλός</span> <span class="chain-rel rel-opp">≠</span> <span>👎 Κακός</span></div>                    <div class="lang-words-span " data-lang="ru"><span>👍 Хороший</span> <span class="chain-rel rel-opp">≠</span> <span>👎 Плохой</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -1094,8 +1043,7 @@
                     <span>Chain 95 · Task Complexity</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🟢 Easy</span> <span class="chain-rel rel-opp">≠</span> <span>🔴 Difficult</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🟢 Easy</span> <span class="chain-rel rel-opp">≠</span> <span>🔴 Difficult</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🟢 Facile</span> <span class="chain-rel rel-opp">≠</span> <span>🔴 Difficile</span></div>                    <div class="lang-words-span " data-lang="it"><span>🟢 Facile</span> <span class="chain-rel rel-opp">≠</span> <span>🔴 Difficile</span></div>                    <div class="lang-words-span " data-lang="es"><span>🟢 Fácil</span> <span class="chain-rel rel-opp">≠</span> <span>🔴 Difícil</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🟢 Fácil</span> <span class="chain-rel rel-opp">≠</span> <span>🔴 Difícil</span></div>                    <div class="lang-words-span " data-lang="de"><span>🟢 Einfach</span> <span class="chain-rel rel-opp">≠</span> <span>🔴 Schwer</span></div>                    <div class="lang-words-span " data-lang="el"><span>🟢 Εύκολος</span> <span class="chain-rel rel-opp">≠</span> <span>🔴 Δύσκολος</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🟢 Легкий</span> <span class="chain-rel rel-opp">≠</span> <span>🔴 Трудный</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -1103,8 +1051,7 @@
                     <span>Chain 96 · Size Scale</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🐘 Big</span> <span class="chain-rel rel-opp">≠</span> <span>🐁 Small</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🐘 Big</span> <span class="chain-rel rel-opp">≠</span> <span>🐁 Small</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🐘 Grand</span> <span class="chain-rel rel-opp">≠</span> <span>🐁 Petit</span></div>                    <div class="lang-words-span " data-lang="it"><span>🐘 Grande</span> <span class="chain-rel rel-opp">≠</span> <span>🐁 Piccolo</span></div>                    <div class="lang-words-span " data-lang="es"><span>🐘 Grande</span> <span class="chain-rel rel-opp">≠</span> <span>🐁 Pequeño</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🐘 Grande</span> <span class="chain-rel rel-opp">≠</span> <span>🐁 Pequeno</span></div>                    <div class="lang-words-span " data-lang="de"><span>🐘 Groß</span> <span class="chain-rel rel-opp">≠</span> <span>🐁 Klein</span></div>                    <div class="lang-words-span " data-lang="el"><span>🐘 Μεγάλος</span> <span class="chain-rel rel-opp">≠</span> <span>🐁 Μικρός</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🐘 Большой</span> <span class="chain-rel rel-opp">≠</span> <span>🐁 Маленький</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -1112,8 +1059,7 @@
                     <span>Chain 97 · Stature Scale</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>📏 Short</span> <span class="chain-rel rel-opp">≠</span> <span>🦒 Tall</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>📏 Short</span> <span class="chain-rel rel-opp">≠</span> <span>🦒 Tall</span></div>                    <div class="lang-words-span " data-lang="fr"><span>📏 Court</span> <span class="chain-rel rel-opp">≠</span> <span>🦒 Grand</span></div>                    <div class="lang-words-span " data-lang="it"><span>📏 Basso</span> <span class="chain-rel rel-opp">≠</span> <span>🦒 Alto</span></div>                    <div class="lang-words-span " data-lang="es"><span>📏 Bajo</span> <span class="chain-rel rel-opp">≠</span> <span>🦒 Alto</span></div>                    <div class="lang-words-span " data-lang="pt"><span>📏 Baixo</span> <span class="chain-rel rel-opp">≠</span> <span>🦒 Alto</span></div>                    <div class="lang-words-span " data-lang="de"><span>📏 Klein</span> <span class="chain-rel rel-opp">≠</span> <span>🦒 Groß</span></div>                    <div class="lang-words-span " data-lang="el"><span>📏 Κοντός</span> <span class="chain-rel rel-opp">≠</span> <span>🦒 Ψηλός</span></div>                    <div class="lang-words-span " data-lang="ru"><span>📏 Низкий</span> <span class="chain-rel rel-opp">≠</span> <span>🦒 Высокий</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -1121,8 +1067,7 @@
                     <span>Chain 98 · Capacity State</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>📦 Full</span> <span class="chain-rel rel-opp">≠</span> <span>📭 Empty</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>📦 Full</span> <span class="chain-rel rel-opp">≠</span> <span>📭 Empty</span></div>                    <div class="lang-words-span " data-lang="fr"><span>📦 Plein</span> <span class="chain-rel rel-opp">≠</span> <span>📭 Vide</span></div>                    <div class="lang-words-span " data-lang="it"><span>📦 Pieno</span> <span class="chain-rel rel-opp">≠</span> <span>📭 Vuoto</span></div>                    <div class="lang-words-span " data-lang="es"><span>📦 Lleno</span> <span class="chain-rel rel-opp">≠</span> <span>📭 Vacío</span></div>                    <div class="lang-words-span " data-lang="pt"><span>📦 Cheio</span> <span class="chain-rel rel-opp">≠</span> <span>📭 Vazio</span></div>                    <div class="lang-words-span " data-lang="de"><span>📦 Voll</span> <span class="chain-rel rel-opp">≠</span> <span>📭 Leer</span></div>                    <div class="lang-words-span " data-lang="el"><span>📦 Γεμάτος</span> <span class="chain-rel rel-opp">≠</span> <span>📭 Άδειος</span></div>                    <div class="lang-words-span " data-lang="ru"><span>📦 Полный</span> <span class="chain-rel rel-opp">≠</span> <span>📭 Пустой</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -1130,8 +1075,7 @@
                     <span>Chain 99 · Safety State</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>🔒 Safe</span> <span class="chain-rel rel-opp">≠</span> <span>⚠️ Dangerous</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>🔒 Safe</span> <span class="chain-rel rel-opp">≠</span> <span>⚠️ Dangerous</span></div>                    <div class="lang-words-span " data-lang="fr"><span>🔒 Sûr</span> <span class="chain-rel rel-opp">≠</span> <span>⚠️ Dangereux</span></div>                    <div class="lang-words-span " data-lang="it"><span>🔒 Sicuro</span> <span class="chain-rel rel-opp">≠</span> <span>⚠️ Pericoloso</span></div>                    <div class="lang-words-span " data-lang="es"><span>🔒 Seguro</span> <span class="chain-rel rel-opp">≠</span> <span>⚠️ Peligroso</span></div>                    <div class="lang-words-span " data-lang="pt"><span>🔒 Seguro</span> <span class="chain-rel rel-opp">≠</span> <span>⚠️ Perigoso</span></div>                    <div class="lang-words-span " data-lang="de"><span>🔒 Sicher</span> <span class="chain-rel rel-opp">≠</span> <span>⚠️ Gefährlich</span></div>                    <div class="lang-words-span " data-lang="el"><span>🔒 Ασφαλής</span> <span class="chain-rel rel-opp">≠</span> <span>⚠️ Επικίνδυνος</span></div>                    <div class="lang-words-span " data-lang="ru"><span>🔒 Безопасный</span> <span class="chain-rel rel-opp">≠</span> <span>⚠️ Опасный</span></div>
                 </div>
             </div>
             <div class="chain-card">
@@ -1139,8 +1083,7 @@
                     <span>Chain 100 · A0 Mastery Capstone</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
-                <div class="chain-body">
-                    <span>💯 100 Words</span> <span class="chain-rel rel-seq">➔</span> <span>🎯 A0 Mastery!</span>
+                <div class="chain-body">                    <div class="lang-words-span active" data-lang="en"><span>💯 100 Words</span> <span class="chain-rel rel-seq">➔</span> <span>🎯 A0 Mastery!</span></div>                    <div class="lang-words-span " data-lang="fr"><span>💯 100 Mots</span> <span class="chain-rel rel-seq">➔</span> <span>🎯 Maîtrise A0!</span></div>                    <div class="lang-words-span " data-lang="it"><span>💯 100 Parole</span> <span class="chain-rel rel-seq">➔</span> <span>🎯 Padronanza A0!</span></div>                    <div class="lang-words-span " data-lang="es"><span>💯 100 Palabras</span> <span class="chain-rel rel-seq">➔</span> <span>🎯 Dominio A0!</span></div>                    <div class="lang-words-span " data-lang="pt"><span>💯 100 Palavras</span> <span class="chain-rel rel-seq">➔</span> <span>🎯 Domínio A0!</span></div>                    <div class="lang-words-span " data-lang="de"><span>💯 100 Wörter</span> <span class="chain-rel rel-seq">➔</span> <span>🎯 A0 Meisterschaft!</span></div>                    <div class="lang-words-span " data-lang="el"><span>💯 100 Λέξεις</span> <span class="chain-rel rel-seq">➔</span> <span>🎯 Κατάκτηση A0!</span></div>                    <div class="lang-words-span " data-lang="ru"><span>💯 100 Слов</span> <span class="chain-rel rel-seq">➔</span> <span>🎯 Владение A0!</span></div>
                 </div>
             </div>
         </div>
@@ -1173,7 +1116,7 @@
                 <div class="sidebar-box" style="margin-top:1.5rem; background:var(--bg-subtle, #f8fafc); border-radius:12px; padding:1.25rem;">
                     <h3 class="sidebar-h">📁 COSYdata Integration</h3>
                     <p style="font-size:0.85rem; color:var(--text-muted, #64748b); line-height:1.5;">
-                        All words in this master list link directly to canonical index entries in <strong>COSYdata</strong> across 14 target languages (EN, FR, IT, ES, PT, DE, EL, RU, HY, KA, TT, BA, BR, CV).
+                        All words in this master list link directly to canonical index entries in <strong>COSYdata</strong> across all 14 target languages (EN, FR, IT, ES, PT, DE, EL, RU, HY, KA, TT, BA, BR, CV).
                     </p>
                     <a href="https://github.com/cosylanguages/COSYdata" target="_blank" rel="noopener" class="button" style="display:inline-block; width:100%; text-align:center; margin-top:0.5rem; background:var(--teal, #0d9488); color:#fff; padding:0.5rem; border-radius:8px; text-decoration:none; font-weight:600; font-size:0.85rem;">View COSYdata Repo ↗</a>
                 </div>
@@ -1187,5 +1130,27 @@
     </footer>
 
     <script src="../js/core/engine.js"></script>
+    <script>
+        function filterMasterLang(langCode, langName) {
+            document.querySelectorAll('.lang-pill').forEach(btn => {
+                if (btn.getAttribute('data-lang') === langCode) {
+                    btn.classList.add('active');
+                } else {
+                    btn.classList.remove('active');
+                }
+            });
+            document.querySelectorAll('.lang-words-span').forEach(span => {
+                if (span.getAttribute('data-lang') === langCode) {
+                    span.classList.add('active');
+                } else {
+                    span.classList.remove('active');
+                }
+            });
+            const label = document.getElementById('activeLangLabel');
+            if (label) {
+                label.textContent = 'Target Language: ' + langName;
+            }
+        }
+    </script>
 </body>
 </html>
