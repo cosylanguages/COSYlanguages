@@ -356,8 +356,7 @@ function navFree () {
         { code: 'fr', flag: '🇫🇷', label: 'FR' },
         { code: 'it', flag: '🇮🇹', label: 'IT' },
         { code: 'ru', flag: '🇷🇺', label: 'RU' },
-        { code: 'el', flag: '🇬🇷', label: 'EL' },
-        { code: 'es', flag: '🇪🇸', label: 'ES' }
+        { code: 'el', flag: '🇬🇷', label: 'EL' }
     ].map(l => `<option value="${l.code}" ${l.code === currentLang ? 'selected' : ''}>${l.flag} ${l.label}</option>`).join('');
 
     const logoPrefix = getPrefix();

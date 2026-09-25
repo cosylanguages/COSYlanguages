@@ -323,6 +323,30 @@
     background: rgba(255, 255, 255, 0.18);
 }
 
+/* Interface Language Switcher Component */
+.cosy-lang-select {
+    padding: 4px 8px;
+    font-size: var(--cosy-font-size-sm, 0.875rem);
+    font-weight: var(--cosy-font-weight-bold, 700);
+    font-family: inherit;
+    border-radius: var(--cosy-radius-sm, 8px);
+    height: 32px;
+    background-color: var(--cosy-color-warm-white, #FFFEFB);
+    border: 1px solid var(--cosy-color-border, rgba(74, 107, 80, 0.12));
+    color: var(--cosy-color-ink, #2a2a2a);
+    cursor: pointer;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cosy-lang-select:hover {
+    border-color: var(--cosy-color-sage, #416b49);
+}
+
+.cosy-lang-select:focus-visible {
+    outline: none;
+    box-shadow: var(--focus-ring, 0 0 0 3px rgba(65, 107, 73, 0.4));
+}
+
 /* ── 12. Dark Mode Theme Overrides ───────────────────────────────────────── */
 html[data-theme="dark"], body.theme-dark {
     --cosy-color-cream:                  #1a1f1a;

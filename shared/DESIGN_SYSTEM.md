@@ -194,7 +194,44 @@ Navigation items across all ecosystem applications follow a strict **"Emoji + Ic
 
 ---
 
-## 5. Shared "Ecosystem Strip" Component
+## 5. UI Language Switcher & Monolingual Immersion Architecture
+
+### Interface Language Switcher
+All main landing/home pages across the COSY product ecosystem (COSYlanguages, COSYtools, COSYgames, COSYevents) must provide an interface language switcher in the header navigation actions. This allows beginner students to navigate the site in their L1 mother tongue or challenge themselves by switching the UI chrome into a target language.
+
+#### Supported UI Interface Languages
+Currently, the UI chrome localization system supports **5 core interface languages**:
+
+| Code | Flag | Label | Native Name |
+| :--- | :--- | :--- | :--- |
+| `en` | 🇬🇧 | EN | English |
+| `fr` | 🇫🇷 | FR | Français |
+| `it` | 🇮🇹 | IT | Italiano |
+| `ru` | 🇷🇺 | RU | Русский |
+| `el` | 🇬🇷 | EL | Ελληνικά |
+
+#### Standard Switcher Markup
+```html
+<select id="cosy-ui-lang-switcher" class="cosy-lang-select" onchange="if(window.setLanguage)window.setLanguage(this.value)" aria-label="Interface Language">
+  <option value="en">🇬🇧 EN</option>
+  <option value="fr">🇫🇷 FR</option>
+  <option value="it">🇮🇹 IT</option>
+  <option value="ru">🇷🇺 RU</option>
+  <option value="el">🇬🇷 EL</option>
+</select>
+```
+
+---
+
+### Monolingual Content Firewall Standard
+While the navigation chrome, headers, and general landing page metadata localizes based on the user's selected UI language, **all learning and practice content related to a specific studied language MUST remain 100% monolingual in that target language**.
+
+* **Target Language Immersion:** Practice engines, games, flashcards, conjugations, declensions, and manuals for a specific language (e.g. French grammar manuals or Italian declension engines) display prompts, explanations, definitions, and examples strictly in the target language.
+* **No Translation Fallback:** The platform strictly firewalls translation fields from UI prompts, card fallbacks, and exercise hints. No L1 translation hints are permitted within interactive learning modules.
+
+---
+
+## 6. Shared "Ecosystem Strip" Component
 
 The **Ecosystem Strip** is a slim header banner that signals membership in the COSY family and provides direct cross-links to all fully public products.
 
@@ -220,7 +257,7 @@ The **Ecosystem Strip** is a slim header banner that signals membership in the C
 
 ---
 
-## 6. CDN & Live GitHub Pages Linkage Policy
+## 7. CDN & Live GitHub Pages Linkage Policy
 
 Consumer repositories should link directly to the stable published token URL on GitHub Pages:
 
