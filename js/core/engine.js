@@ -106,10 +106,8 @@ const DEFAULT_ECOSYSTEM_URLS = {
     practice: 'practice/index.html',
     tools: 'https://cosylanguages.github.io/COSYtools/',
     games: 'https://cosylanguages.github.io/COSYgames/',
-    world: 'https://cosylanguages.github.io/COSYworld/',
     events: 'https://cosylanguages.github.io/COSYevents/',
-    blog: 'blog/index.html',
-    teacher: 'https://cosylanguages.github.io/COSYmanuals/'
+    blog: 'blog/index.html'
 };
 
 function getConfigModule() {
@@ -134,10 +132,8 @@ function getEcosystemUrls(env, overrides) {
             practice: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'practice/index.html' : 'practice/index.html',
             tools: repoConfig.COSYtools,
             games: repoConfig.COSYgames,
-            world: repoConfig.COSYworld,
             events: repoConfig.COSYevents,
-            blog: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'blog/index.html' : 'blog/index.html',
-            teacher: repoConfig.COSYmanuals || 'https://cosylanguages.github.io/COSYmanuals/'
+            blog: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'blog/index.html' : 'blog/index.html'
         };
     }
 
@@ -167,7 +163,6 @@ function getEcosystemUrls(env, overrides) {
         envDefaults.courses = 'index.html#courses';
         envDefaults.practice = 'practice/index.html';
         envDefaults.blog = 'blog/index.html';
-        envDefaults.teacher = 'https://cosylanguages.github.io/COSYmanuals/';
     }
 
     const procEnvUrls = {};
@@ -176,10 +171,8 @@ function getEcosystemUrls(env, overrides) {
     if (processEnv.COSY_PRACTICE_URL) procEnvUrls.practice = processEnv.COSY_PRACTICE_URL;
     if (processEnv.COSY_TOOLS_URL) procEnvUrls.tools = processEnv.COSY_TOOLS_URL;
     if (processEnv.COSY_GAMES_URL) procEnvUrls.games = processEnv.COSY_GAMES_URL;
-    if (processEnv.COSY_WORLD_URL) procEnvUrls.world = processEnv.COSY_WORLD_URL;
     if (processEnv.COSY_EVENTS_URL) procEnvUrls.events = processEnv.COSY_EVENTS_URL;
     if (processEnv.COSY_BLOG_URL) procEnvUrls.blog = processEnv.COSY_BLOG_URL;
-    if (processEnv.COSY_TEACHER_URL || processEnv.COSY_MANUALS_URL) procEnvUrls.teacher = processEnv.COSY_TEACHER_URL || processEnv.COSY_MANUALS_URL;
 
     return Object.assign({}, envDefaults, procEnvUrls, localSavedUrls, winUrls, winConfig.urls, overrides);
 }
@@ -200,10 +193,8 @@ const NAV_CONFIG = {
         { key: 'practice', hrefKey: 'practice', icon: '💡' },
         { key: 'tools',    hrefKey: 'tools',    icon: '🔎' },
         { key: 'games',    hrefKey: 'games',    icon: '🎮' },
-        { key: 'world',    hrefKey: 'world',    icon: '🌍' },
         { key: 'events',   hrefKey: 'events',   icon: '🎉' },
-        { key: 'blog',     hrefKey: 'blog',     icon: '📰' },
-        { key: 'teacher',  hrefKey: 'teacher',  icon: '👩‍🏫' }
+        { key: 'blog',     hrefKey: 'blog',     icon: '📰' }
     ]
 };
 
@@ -316,14 +307,14 @@ function updateNavActiveState() {
 }
 
 const NAV_FALLBACKS = {
-    en: { home: 'Home', courses: 'Courses', practice: 'Practice', tools: 'Tools', games: 'Games', world: 'World', events: 'Events', blog: 'Blog', teacher: 'Teacher resources', contact: 'Contact us' },
-    fr: { home: 'Accueil', courses: 'Cours', practice: 'Entraînement', tools: 'Outils', games: 'Jeux', world: 'Monde', events: 'Événements', blog: 'Blog', teacher: 'Ressources enseignants', contact: 'Contact' },
-    it: { home: 'Home', courses: 'Corsi', practice: 'Pratica', tools: 'Strumenti', games: 'Giochi', world: 'Mondo', events: 'Eventi', blog: 'Blog', teacher: 'Risorse per insegnanti', contact: 'Contatti' },
-    es: { home: 'Inicio', courses: 'Cursos', practice: 'Práctica', tools: 'Herramientas', games: 'Juegos', world: 'Mundo', events: 'Eventos', blog: 'Blog', teacher: 'Recursos para profesores', contact: 'Contacto' },
-    ru: { home: 'Главная', courses: 'Курсы', practice: 'Практика', tools: 'Инструменты', games: 'Игры', world: 'Мир', events: 'Мероприятия', blog: 'Блог', teacher: 'Учителям', contact: 'Связь' },
-    ba: { home: 'Баш бит', courses: 'Курстар', practice: 'Практика', tools: 'Ҡоралдар', games: 'Уйындар', world: 'Донъя', events: 'Чаралар', blog: 'Блог', teacher: 'Уҡытыусыларға', contact: 'Бәйләнеш' },
-    tt: { home: 'Төп бит', courses: 'Курслар', practice: 'Практика', tools: 'Кораллар', games: 'Уеннар', world: 'Дөнья', events: 'Чаралар', blog: 'Блог', teacher: 'Укытучыларга', contact: 'Бәйләнеш' },
-    el: { home: 'Αρχική', courses: 'Μαθήματα', practice: 'Εξάσκηση', tools: 'Εργαλεία', games: 'Παιχνίδια', world: 'Κόσμος', events: 'Εκδηλώσεις', blog: 'Ιστολόγιο', teacher: 'Πόροι καθηγητών', contact: 'Επικοινωνία' }
+    en: { home: 'Home', courses: 'Courses', practice: 'Practice', tools: 'Tools', games: 'Games', events: 'Events', blog: 'Blog', contact: 'Contact us' },
+    fr: { home: 'Accueil', courses: 'Cours', practice: 'Entraînement', tools: 'Outils', games: 'Jeux', events: 'Événements', blog: 'Blog', contact: 'Contact' },
+    it: { home: 'Home', courses: 'Corsi', practice: 'Pratica', tools: 'Strumenti', games: 'Giochi', events: 'Eventi', blog: 'Blog', contact: 'Contatti' },
+    es: { home: 'Inicio', courses: 'Cursos', practice: 'Práctica', tools: 'Herramientas', games: 'Juegos', events: 'Eventos', blog: 'Blog', contact: 'Contacto' },
+    ru: { home: 'Главная', courses: 'Курсы', practice: 'Практика', tools: 'Инструменты', games: 'Игры', events: 'Мероприятия', blog: 'Блог', contact: 'Связь' },
+    ba: { home: 'Баш бит', courses: 'Курстар', practice: 'Практика', tools: 'Ҡоралдар', games: 'Уйындар', events: 'Чаралар', blog: 'Блог', contact: 'Бәйләнеш' },
+    tt: { home: 'Төп бит', courses: 'Курслар', practice: 'Практика', tools: 'Кораллар', games: 'Уеннар', events: 'Чаралар', blog: 'Блог', contact: 'Бәйләнеш' },
+    el: { home: 'Αρχική', courses: 'Μαθήματα', practice: 'Εξάσκηση', tools: 'Εργαλεία', games: 'Παιχνίδια', events: 'Εκδηλώσεις', blog: 'Ιστολόγιο', contact: 'Επικοινωνία' }
 };
 
 function getNavLabel(key, fallback) {
@@ -341,7 +332,7 @@ function getNavLabel(key, fallback) {
 function renderNavLinks(mode) {
     const config = NAV_CONFIG[mode] || [];
     return config.map(item => {
-        const fallbackLabel = item.key === 'teacher' ? 'Teacher resources' : item.key[0].toUpperCase() + item.key.slice(1);
+        const fallbackLabel = item.key[0].toUpperCase() + item.key.slice(1);
         const label = getNavLabel(item.key, fallbackLabel);
         const key = `nav_${item.key}`;
         const href = getNavHref(item.hrefKey || item.key);
@@ -506,7 +497,7 @@ function mobileMenuHTML (mode) {
 
     const items = NAV_CONFIG.free || [];
     const linksHtml = items.map(item => {
-        const fallbackLabel = item.key === 'teacher' ? 'Teacher resources' : item.key[0].toUpperCase() + item.key.slice(1);
+        const fallbackLabel = item.key[0].toUpperCase() + item.key.slice(1);
         const label = t(item.key, fallbackLabel);
         const href = getNavHref(item.hrefKey || item.key);
         const isExternal = href.startsWith('http://') || href.startsWith('https://');

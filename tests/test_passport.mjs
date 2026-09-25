@@ -12,7 +12,6 @@ console.log("Running COSY Passport module unit tests...");
 assert.deepStrictEqual(ALLOWED_SOURCES, [
     "COSYlanguages",
     "COSYtools",
-    "COSYworld",
     "COSYgames",
     "COSYevents"
 ]);
@@ -41,31 +40,31 @@ console.log("✅ Test 2 Passed: Fresh exportPassport");
 
 // Test 3: exportPassport preserves unknown-source entries
 const updated = exportPassport(fresh, {
-    source: 'COSYworld',
+    source: 'COSYgames',
     progress: [
-        { item: 'district.market.dialogue', value: 1 }
+        { item: 'minigame.action_hero.score', value: 1 }
     ],
-    badges: ['market_explorer']
+    badges: ['action_hero_master']
 }, 'en');
 
 assert.strictEqual(updated.progress.length, 2);
 const languagesEntry = updated.progress.find(p => p.source === 'COSYlanguages');
-const worldEntry = updated.progress.find(p => p.source === 'COSYworld');
+const gamesEntry = updated.progress.find(p => p.source === 'COSYgames');
 
 assert.ok(languagesEntry);
-assert.ok(worldEntry);
+assert.ok(gamesEntry);
 assert.strictEqual(languagesEntry.value, 100);
-assert.strictEqual(worldEntry.value, 1);
-assert.deepStrictEqual(updated.badges.sort(), ['en_starter_master', 'market_explorer'].sort());
+assert.strictEqual(gamesEntry.value, 1);
+assert.deepStrictEqual(updated.badges.sort(), ['en_starter_master', 'action_hero_master'].sort());
 console.log("✅ Test 3 Passed: Non-destructive merge across sources");
 
 // Test 4: importPassport filtering by source
-const importedWorld = importPassport(updated, 'COSYworld');
-assert.strictEqual(importedWorld.valid, true);
-assert.strictEqual(importedWorld.language, 'en');
-assert.strictEqual(importedWorld.progress.length, 1);
-assert.strictEqual(importedWorld.progress[0].item, 'district.market.dialogue');
-assert.strictEqual(importedWorld.fullPassport.progress.length, 2);
+const importedGames = importPassport(updated, 'COSYgames');
+assert.strictEqual(importedGames.valid, true);
+assert.strictEqual(importedGames.language, 'en');
+assert.strictEqual(importedGames.progress.length, 1);
+assert.strictEqual(importedGames.progress[0].item, 'minigame.action_hero.score');
+assert.strictEqual(importedGames.fullPassport.progress.length, 2);
 console.log("✅ Test 4 Passed: importPassport filtering");
 
 // Test 5: downloadPassport formatting

@@ -26,7 +26,6 @@
       questions: 'hundred_questions/index.html',
       storytelling: 'storytelling/index.html',
       scenematch: 'scene_match/index.html',
-      cosyworld: 'https://cosylanguages.github.io/COSYworld/'
     };
 
     window.openGame = function(id) {
@@ -34,7 +33,7 @@
         if (path) {
             // Check if browsing locally or on domain fallback
             if (id === 'cosyworld' && (location.hostname === 'localhost' || location.hostname === '127.0.0.1')) {
-                location.href = '../COSYworld/index.html';
+                location.href = 'https://cosylanguages.github.io/COSYgames/';
             } else {
                 location.href = path;
             }

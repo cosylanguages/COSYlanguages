@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COSY Premium Events — Live Speaking Clubs & Multimedia Nights</title>
+    <meta name="description" content="Discover COSY Premium Events: Thematic Speaking Clubs, Cinema Club, Karaoke Club, Game Evenings, and Long Reads led by expert teachers.">
+    <link rel="icon" href="../../images/logos/cosylanguages.png">
+    <link rel="stylesheet" href="../../css/tokens.css">
+    <link rel="stylesheet" href="../../css/base.css">
+    <link rel="stylesheet" href="../../css/components.css">
+    <link rel="stylesheet" href="../../css/layout.css">
+    <style>
+        .events-hero {
+            background: linear-gradient(135deg, var(--ink, #1c1917) 0%, #2d2623 100%);
+            color: #ffffff;
+            padding: 3.5rem 1.5rem 3rem;
+            text-align: center;
+        }
+        .events-hero h1 {
+            font-family: 'Fraunces', serif;
+            font-size: 2.5rem;
+            margin-bottom: 0.75rem;
+        }
+        .events-hero p {
+            font-size: 1.1rem;
+            max-width: 680px;
+            margin: 0 auto 1.5rem;
+            opacity: 0.9;
+            line-height: 1.6;
+        }
+        .events-container {
+            max-width: 1080px;
+            margin: 0 auto;
+            padding: 2.5rem 1.25rem 4rem;
+        }
+        .section-title {
+            font-family: 'Fraunces', serif;
+            font-size: 1.8rem;
+            color: var(--ink, #1c1917);
+            margin-bottom: 0.5rem;
+            border-bottom: 2px solid var(--border, #e7e5e4);
+            padding-bottom: 0.5rem;
+        }
+        .section-sub {
+            font-size: 0.95rem;
+            color: var(--ink-muted, #57534e);
+            margin-bottom: 1.75rem;
+        }
+        .events-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+        .event-card {
+            background: #ffffff;
+            border: 1px solid var(--border, #e7e5e4);
+            border-radius: var(--r-md, 12px);
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+        }
+        .event-card:hover {
+            transform: translateY(-4px);
+            border-color: var(--teal, #0d7a5f);
+        }
+        .event-icon {
+            font-size: 2.2rem;
+            margin-bottom: 0.75rem;
+        }
+        .event-title {
+            font-family: 'Fraunces', serif;
+            font-size: 1.3rem;
+            color: var(--ink, #1c1917);
+            margin-bottom: 0.5rem;
+        }
+        .event-desc {
+            font-size: 0.92rem;
+            color: var(--ink-muted, #57534e);
+            line-height: 1.55;
+            margin-bottom: 1.25rem;
+        }
+        .event-action {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            color: var(--teal, #0d7a5f);
+            font-weight: 700;
+            font-size: 0.9rem;
+            text-decoration: none;
+        }
+        .event-action:hover {
+            text-decoration: underline;
+        }
+        .external-banner {
+            background: #f0fdf4;
+            border: 1px solid #bbf7d0;
+            border-radius: var(--r-md, 12px);
+            padding: 1.75rem;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .external-banner h3 {
+            font-family: 'Fraunces', serif;
+            font-size: 1.4rem;
+            color: #166534;
+            margin-bottom: 0.5rem;
+        }
+        .external-banner p {
+            font-size: 0.95rem;
+            color: #15803d;
+            max-width: 600px;
+            margin: 0 auto 1.25rem;;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+
+    <nav id="cosy-nav"></nav>
+
+    <header class="events-hero">
+        <h1>🎉 COSY Premium Events</h1>
+        <p>Live, teacher-led conversational speaking clubs and interactive multimedia nights designed to turn passive knowledge into active speech.</p>
+        <a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="btn-primary" style="background: var(--teal, #0d7a5f); color: #fff;">Explore COSYevents Portal →</a>
+    </header>
+
+    <main class="events-container">
+        <!-- Section 1: Thematic Speaking Clubs -->
+        <h2 class="section-title">🗣️ Thematic Speaking Clubs</h2>
+        <p class="section-sub">Structured, communicative discussion rounds led by native &amp; expert teachers across 8 distinct thematic formats.</p>
+
+        <div class="events-grid">
+            <div class="event-card">
+                <div>
+                    <div class="event-icon">💭</div>
+                    <h3 class="event-title">I Couldn't Help But Wonder</h3>
+                    <p class="event-desc">Modern relationships, pop culture, social psychology, and contemporary adult life choices.</p>
+                </div>
+                <a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="event-action">View Sessions in COSYevents →</a>
+            </div>
+
+            <div class="event-card">
+                <div>
+                    <div class="event-icon">🔬</div>
+                    <h3 class="event-title">Keeping Up with Science</h3>
+                    <p class="event-desc">Breakthroughs in technology, space, neuroscience, environment, and future innovation.</p>
+                </div>
+                <a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="event-action">View Sessions in COSYevents →</a>
+            </div>
+
+            <div class="event-card">
+                <div>
+                    <div class="event-icon">🧠</div>
+                    <h3 class="event-title">Mind Matters</h3>
+                    <p class="event-desc">Emotional intelligence, mental health models, habit building, and decision-making heuristics.</p>
+                </div>
+                <a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="event-action">View Sessions in COSYevents →</a>
+            </div>
+
+            <div class="event-card">
+                <div>
+                    <div class="event-icon">⚖️</div>
+                    <h3 class="event-title">Debatable &amp; Relatable</h3>
+                    <p class="event-desc">High-engagement ethical dilemmas, friendly debate formats, and persuasive argumentation practice.</p>
+                </div>
+                <a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="event-action">View Sessions in COSYevents →</a>
+            </div>
+
+            <div class="event-card">
+                <div>
+                    <div class="event-icon">📜</div>
+                    <h3 class="event-title">The Greatest Quotes</h3>
+                    <p class="event-desc">Timeless philosophical insights, literary quotes, and deep reflective discussions.</p>
+                </div>
+                <a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="event-action">View Sessions in COSYevents →</a>
+            </div>
+
+            <div class="event-card">
+                <div>
+                    <div class="event-icon">🎉</div>
+                    <h3 class="event-title">Let's Celebrate</h3>
+                    <p class="event-desc">Global cultural festivals, international traditions, milestones, and holiday heritage.</p>
+                </div>
+                <a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="event-action">View Sessions in COSYevents →</a>
+            </div>
+
+            <div class="event-card">
+                <div>
+                    <div class="event-icon">🌱</div>
+                    <h3 class="event-title">My Life With / Without</h3>
+                    <p class="event-desc">Hypothetical lifestyle choices, digital minimalism, habit experiments, and personal reflections.</p>
+                </div>
+                <a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="event-action">View Sessions in COSYevents →</a>
+            </div>
+
+            <div class="event-card">
+                <div>
+                    <div class="event-icon">✨</div>
+                    <h3 class="event-title">If You Were...</h3>
+                    <p class="event-desc">Creative roleplay, metaphorical personality questions, and imaginative spontaneous speech.</p>
+                </div>
+                <a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="event-action">View Sessions in COSYevents →</a>
+            </div>
+        </div>
+
+        <!-- Section 2: Interactive Multimedia Nights -->
+        <h2 class="section-title">🎬 Interactive Multimedia Nights</h2>
+        <p class="section-sub">Immersive entertainment formats combining cinema, music, literature, and play with target language acquisition.</p>
+
+        <div class="events-grid">
+            <div class="event-card">
+                <div>
+                    <div class="event-icon">🍿</div>
+                    <h3 class="event-title">Cinema Club</h3>
+                    <p class="event-desc">Original language film screenings, screenplay deconstruction, character analysis, and cinematic discussions.</p>
+                </div>
+                <a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="event-action">View Cinema Club in COSYevents →</a>
+            </div>
+
+            <div class="event-card">
+                <div>
+                    <div class="event-icon">🎤</div>
+                    <h3 class="event-title">Karaoke Club</h3>
+                    <p class="event-desc">Pronunciation and rhythm training through international music, lyric deconstruction, and group singing.</p>
+                </div>
+                <a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="event-action">View Karaoke Club in COSYevents →</a>
+            </div>
+
+            <div class="event-card">
+                <div>
+                    <div class="event-icon">🎲</div>
+                    <h3 class="event-title">Game Evening</h3>
+                    <p class="event-desc">Multiplayer word battles, communicative boardgames, and interactive vocabulary challenges.</p>
+                </div>
+                <a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="event-action">View Game Evenings in COSYevents →</a>
+            </div>
+
+            <div class="event-card">
+                <div>
+                    <div class="event-icon">📖</div>
+                    <h3 class="event-title">Long Reads</h3>
+                    <p class="event-desc">Literary parlor discussions, short story analysis, and slow-reading language immersion.</p>
+                </div>
+                <a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="event-action">View Long Reads in COSYevents →</a>
+            </div>
+        </div>
+
+        <div class="external-banner">
+            <h3>🔒 Student &amp; Host Event Access</h3>
+            <p>Full interactive session decks, presentation modes, and host control tools are hosted securely on the standalone COSYevents repository.</p>
+            <a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="btn-primary">Visit COSYevents Portal →</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-inner" style="max-width:1080px; margin:0 auto; padding:2rem 1.25rem;">
+            <p style="font-size:0.85rem; color:var(--ink-muted); text-align:center;">© 2026 COSYlanguages — Public Events Gateway</p>
+        </div>
+    </footer>
+
+    <script src="../../js/core/engine.js"></script>
+    <script src="../../js/core/ui.js"></script>
+</body>
+</html>

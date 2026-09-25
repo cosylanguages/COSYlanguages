@@ -2331,13 +2331,6 @@
                             </div>
                         </div>
                         <div class="ctm-map-item">
-                            <span class="cmi-icon">🌍</span>
-                            <div class="cmi-content">
-                                <strong><a href="${(window.COSY && window.COSY.getNavHref) ? window.COSY.getNavHref('world') : 'https://cosylanguages.github.io/COSYworld/'}" target="_blank" rel="noopener">World</a></strong>
-                                <p>Interactive language quest worlds and exploration.</p>
-                            </div>
-                        </div>
-                        <div class="ctm-map-item">
                             <span class="cmi-icon">🎉</span>
                             <div class="cmi-content">
                                 <strong><a href="${(window.COSY && window.COSY.getNavHref) ? window.COSY.getNavHref('events') : 'https://cosylanguages.github.io/COSYevents/'}" target="_blank" rel="noopener">${getTourText('events_title')}</a></strong>
@@ -2354,7 +2347,6 @@
                         <div class="ctm-map-item">
                             <span class="cmi-icon">👩‍🏫</span>
                             <div class="cmi-content">
-                                <strong><a href="${(window.COSY && window.COSY.getNavHref) ? window.COSY.getNavHref('teacher') : 'https://cosylanguages.github.io/COSYmanuals/'}" target="_blank" rel="noopener">Teacher resources</a></strong>
                                 <p>Comprehensive language manuals and lesson guides.</p>
                             </div>
                         </div>

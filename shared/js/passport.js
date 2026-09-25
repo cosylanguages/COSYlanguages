@@ -9,7 +9,6 @@
 export const ALLOWED_SOURCES = [
     "COSYlanguages",
     "COSYtools",
-    "COSYworld",
     "COSYgames",
     "COSYevents"
 ];
