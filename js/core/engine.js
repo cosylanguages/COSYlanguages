@@ -1026,8 +1026,8 @@ window.COSY = {
         const levelLow = level.toLowerCase();
         const langLow = lang.toLowerCase();
 
-        const standardPath = `${prefix}curriculum/${lang}/general/${levelUp}.json`;
-        const v2Path = `${prefix}curriculum/${lang}/general/${levelUp}_v2.json`;
+        const standardPath = `https://raw.githubusercontent.com/cosylanguages/COSYplatform/main/curriculums/${lang}/general/${levelUp}.json`;
+        const v2Path = `https://raw.githubusercontent.com/cosylanguages/COSYplatform/main/curriculums/${lang}/general/${levelUp}_v2.json`;
 
         try {
             const res = await fetch(standardPath);
