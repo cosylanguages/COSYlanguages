@@ -8,7 +8,7 @@ const STATIC_ASSETS = [
   '../../print-studio/print-zine.html',
   '../../print-studio/print-box.html',
   '../../print-studio/print-boardgame.html',
-  '../../classroom-sync.html',
+  '../../apps/classroom-sync/index.html',
   '../../practice/index.html',
   '../../practice/cognitive-immersion.html',
   '../../css/base.css',

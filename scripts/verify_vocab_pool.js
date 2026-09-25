@@ -11,7 +11,8 @@ const vm = require('vm');
 
 const MIN_QUESTIONS = 8;
 const ACTIVE_LANGS = ['en', 'fr', 'it', 'ru', 'el'];
-const LEVELS = ['starter', 'elementary', 'intermediate', 'upper_intermediate', 'advanced', 'proficiency'];
+// Note: 'starter' (A1) vocabulary is centralized in COSYdata and fetched remotely at runtime.
+const LEVELS = ['elementary', 'intermediate', 'upper_intermediate', 'advanced', 'proficiency'];
 
 const manifestPath = path.join(process.cwd(), 'vocabulary', 'manifest.json');
 if (!fs.existsSync(manifestPath)) {
