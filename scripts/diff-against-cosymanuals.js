@@ -223,7 +223,7 @@ function fetchRemoteJson(url) {
   });
 }
 
-// Load remote/COSYmanuals curriculum for a given key
+// Load remote curriculum from COSYplatform (primary master) or COSYmanuals
 async function loadCosymanualsCurriculum(lang, courseType, level) {
   if (localCosymanualsPath && fs.existsSync(localCosymanualsPath)) {
     const candidates = [
@@ -243,12 +243,11 @@ async function loadCosymanualsCurriculum(lang, courseType, level) {
     return null;
   }
 
-  // Fallback to remote fetching
+  // Fallback to remote fetching from COSYplatform (primary) and COSYmanuals (fallback)
   const urls = [
+    `https://raw.githubusercontent.com/cosylanguages/COSYplatform/main/curriculums/${lang}/${courseType}/${level}.json`,
     `https://raw.githubusercontent.com/cosylanguages/COSYmanuals/main/curriculums/${lang}/${courseType}/${level}.json`,
-    `https://raw.githubusercontent.com/cosylanguages/COSYmanuals/main/curriculum/${lang}/${courseType}/${level}.json`,
-    `https://raw.githubusercontent.com/cosylanguages/COSYmanuals/master/curriculums/${lang}/${courseType}/${level}.json`,
-    `https://raw.githubusercontent.com/cosylanguages/COSYmanuals/master/curriculum/${lang}/${courseType}/${level}.json`
+    `https://raw.githubusercontent.com/cosylanguages/COSYmanuals/main/curriculum/${lang}/${courseType}/${level}.json`
   ];
 
   for (const url of urls) {
