@@ -1,22 +1,18 @@
 media:
-  input: public/images       # Where images will be saved when you upload them in the editor
-  output: /images            # The public URL path for your images
+  input: assets/images    # Or wherever your site currently stores uploaded images
+  output: /assets/images
 
 content:
-  - name: posts
+  - name: blog
     label: Blog Posts
     type: collection
-    path: content/posts      # Replace with the folder where your blog posts live
-    format: md               # Options: md, html, json, yaml
+    path: blog            # The folder where your blog files are located
+    format: html          # Change to 'md' if your posts are Markdown files
     fields:
       - name: title
         label: Title
         type: string
         required: true
-      - name: date
-        label: Date
-        type: date
-        required: true
       - name: body
         label: Content
-        type: rich-text      # Enables the Blogger-like visual rich-text editor
+        type: rich-text   # Gives you the visual WYSIWYG editor like Blogger
