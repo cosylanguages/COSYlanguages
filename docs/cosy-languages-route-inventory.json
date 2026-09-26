@@ -1710,14 +1710,6 @@
       "status": "Shared"
     },
     {
-      "path": "css/cognitive-immersion.css",
-      "category_id": 7,
-      "category": "Shared dependency",
-      "type": "asset",
-      "description": "Shared design token, stylesheet, core JS utility, UI image, or schema",
-      "status": "Shared"
-    },
-    {
       "path": "css/communication.css",
       "category_id": 7,
       "category": "Shared dependency",
@@ -1742,22 +1734,6 @@
       "status": "Shared"
     },
     {
-      "path": "css/cosy-tokens.css",
-      "category_id": 7,
-      "category": "Shared dependency",
-      "type": "asset",
-      "description": "Shared design token, stylesheet, core JS utility, UI image, or schema",
-      "status": "Shared"
-    },
-    {
-      "path": "css/courses.css",
-      "category_id": 7,
-      "category": "Shared dependency",
-      "type": "asset",
-      "description": "Shared design token, stylesheet, core JS utility, UI image, or schema",
-      "status": "Shared"
-    },
-    {
       "path": "css/daily.css",
       "category_id": 7,
       "category": "Shared dependency",
@@ -1767,14 +1743,6 @@
     },
     {
       "path": "css/events.css",
-      "category_id": 7,
-      "category": "Shared dependency",
-      "type": "asset",
-      "description": "Shared design token, stylesheet, core JS utility, UI image, or schema",
-      "status": "Shared"
-    },
-    {
-      "path": "css/games.css",
       "category_id": 7,
       "category": "Shared dependency",
       "type": "asset",
@@ -1822,14 +1790,6 @@
       "status": "Shared"
     },
     {
-      "path": "css/mind-matters.css",
-      "category_id": 7,
-      "category": "Shared dependency",
-      "type": "asset",
-      "description": "Shared design token, stylesheet, core JS utility, UI image, or schema",
-      "status": "Shared"
-    },
-    {
       "path": "css/mobile.css",
       "category_id": 7,
       "category": "Shared dependency",
@@ -1847,14 +1807,6 @@
     },
     {
       "path": "css/practice-new.css",
-      "category_id": 7,
-      "category": "Shared dependency",
-      "type": "asset",
-      "description": "Shared design token, stylesheet, core JS utility, UI image, or schema",
-      "status": "Shared"
-    },
-    {
-      "path": "css/practice.css",
       "category_id": 7,
       "category": "Shared dependency",
       "type": "asset",
@@ -4374,7 +4326,7 @@
       "status": "Shared"
     },
     {
-      "path": "images/scenes/Market Sub-Scene — Fruit & Vegetable Stall",
+      "path": "images/scenes/Market Sub-Scene \u2014 Fruit & Vegetable Stall",
       "category_id": 7,
       "category": "Shared dependency",
       "type": "feature",
@@ -7070,7 +7022,7 @@
       "status": "Shared"
     },
     {
-      "path": "images/ui/vocabulary/places/café.coffee shop.coffeehouse.png",
+      "path": "images/ui/vocabulary/places/caf\u00e9.coffee shop.coffeehouse.png",
       "category_id": 7,
       "category": "Shared dependency",
       "type": "asset",
@@ -8934,7 +8886,7 @@
       "status": "Candidate for Migration"
     },
     {
-      "path": "manuals/br/vocabulary/a2/topics/beajoù-ha-treuzdougen.html",
+      "path": "manuals/br/vocabulary/a2/topics/beajo\u00f9-ha-treuzdougen.html",
       "category_id": 2,
       "category": "Move to COSYmanuals",
       "type": "page",
@@ -8942,7 +8894,7 @@
       "status": "Candidate for Migration"
     },
     {
-      "path": "manuals/br/vocabulary/a2/topics/micherioù-ha-labour.html",
+      "path": "manuals/br/vocabulary/a2/topics/micherio\u00f9-ha-labour.html",
       "category_id": 2,
       "category": "Move to COSYmanuals",
       "type": "page",
@@ -26942,7 +26894,7 @@
       "status": "Candidate for Migration"
     },
     {
-      "path": "manuals/gramatica-espanola/topics/pretérito-perfecto.html",
+      "path": "manuals/gramatica-espanola/topics/pret\u00e9rito-perfecto.html",
       "category_id": 2,
       "category": "Move to COSYmanuals",
       "type": "page",

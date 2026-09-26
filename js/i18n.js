@@ -118,7 +118,6 @@
               <a href="${prefix}practice/index.html" data-i18n="nav.practice">Free Practice 💡</a>
               <a href="${prefix}placement-quiz.html">Placement Quiz 📝</a>
               <a href="${prefix}hybrid/index.html">Hybrid &amp; Community 🌿</a>
-              <a href="${prefix}notebook/index.html">My Notebook 📓</a>
               <a href="https://cosylanguages.github.io/COSYevents/" data-i18n="nav.events">Events 🎉</a>
               <a href="https://cosylanguages.github.io/COSYgames/" data-i18n="nav.games">Games 🎮</a>
             </div>
