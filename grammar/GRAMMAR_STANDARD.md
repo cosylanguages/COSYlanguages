@@ -123,7 +123,7 @@ The 14-step page rhythm (Section 1, Principle 2) is the **authoring** rhythm —
 ### Canonical Implementation
 
 - **Human-facing HTML**: every topic page in `manuals/{lang}/grammar/{level}/topics/*.html` follows the 6-stage markup blueprint in `manuals/_TEMPLATE.md`, which bakes in a standardized `💡 Check your understanding (CCQs)` block (Stage 2).
-- **Machine-readable JSON**: every lesson unit is structured as `schema/lesson-stage.schema.json` data under `reference-grammar/{lang}/lessons/*.json`. The `meaningCheck` array holds inline CCQ objects (`schema/ccq.schema.json`), and `controlledPractice` / `freerPractice` / `production` link out to the COSY ecosystem (`COSYtools`, `COSYgames`, `COSYevents`, `COSYworld`).
+- **Machine-readable JSON**: every lesson unit is structured as `schema/lesson-stage.schema.json` data under `reference-grammar/{lang}/lessons/*.json`. The `meaningCheck` array holds inline CCQ objects (`schema/ccq.schema.json`), and `controlledPractice` / `freerPractice` / `production` link out to the COSY ecosystem (`COSYtools`, `COSYgames`, `COSYevents`).
 - **Validation**: `scripts/validate-schema.js` validates all live lesson-stage and CCQ data files; `scripts/build_unified_index.py` cross-references them into `data/index/{lang}_index.json`.
 
 ### GrowingTask Monologue & Dialogue Policies

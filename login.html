@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In — COSY Ecosystem Entry Point</title>
+    <meta name="description" content="Shared sign-in entry point for restricted COSY platform applications. Public resources on COSYlanguages remain free with no login required.">
+    <link rel="icon" href="images/logos/cosylanguages.png">
+    <link rel="manifest" href="apps/free-portal/manifest.json">
+    <meta name="theme-color" content="#FAF7F2">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/tokens.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/layout.css">
+
+    <style>
+        body {
+            background-color: var(--cream, #fdfcf8);
+            color: var(--ink, #2a2a2a);
+            font-family: var(--font-sans, 'DM Sans', sans-serif);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 0;
+            padding: 0;
+        }
+
+        .login-container {
+            max-width: 440px;
+            width: 90%;
+            margin: 3rem auto;
+            background: var(--warm-white, #FFFEFB);
+            border: 1px solid var(--border, rgba(74, 107, 80, 0.15));
+            border-radius: var(--radius-lg, 22px);
+            padding: 2.5rem 2rem;
+            box-shadow: var(--shadow-base, 0 6px 28px rgba(46, 74, 51, 0.10));
+        }
+
+        .login-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .login-logo {
+            width: 64px;
+            height: 64px;
+            margin-bottom: 1rem;
+        }
+
+        .login-title {
+            font-family: var(--font-serif, 'Fraunces', serif);
+            font-size: 1.75rem;
+            color: var(--sage-deep, #233827);
+            margin: 0 0 0.5rem 0;
+        }
+
+        .login-subtitle {
+            font-size: 0.9rem;
+            color: var(--ink-soft, #5c5957);
+            margin: 0;
+            line-height: 1.4;
+        }
+
+        .login-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.35rem;
+        }
+
+        .form-label {
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--sage-deep, #233827);
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 0.8rem 1rem;
+            font-size: 0.95rem;
+            border: 1px solid var(--border, rgba(74, 107, 80, 0.25));
+            border-radius: var(--radius-md, 14px);
+            background: var(--cream, #fdfcf8);
+            color: var(--ink, #2a2a2a);
+            box-sizing: border-box;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        .form-input:focus {
+            outline: none;
+            border-color: var(--sage, #416b49);
+            box-shadow: 0 0 0 3px rgba(65, 107, 73, 0.15);
+        }
+
+        .login-btn {
+            width: 100%;
+            padding: 0.9rem 1.2rem;
+            font-size: 1rem;
+            font-weight: 700;
+            color: #ffffff;
+            background: var(--sage, #416b49);
+            border: none;
+            border-radius: var(--radius-full, 100px);
+            cursor: pointer;
+            transition: background 0.2s, transform 0.1s;
+            margin-top: 0.5rem;
+        }
+
+        .login-btn:hover {
+            background: var(--sage-dark, #375742);
+        }
+
+        .login-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .alert-box {
+            padding: 0.85rem 1rem;
+            border-radius: var(--radius-md, 14px);
+            font-size: 0.85rem;
+            line-height: 1.4;
+            display: none;
+        }
+
+        .alert-error {
+            background-color: var(--semantic-error-light, #fcebeb);
+            border: 1px solid var(--semantic-error, #a32d2d);
+            color: var(--semantic-error, #a32d2d);
+        }
+
+        .alert-info {
+            background-color: var(--sage-mist, #f0f5f1);
+            border: 1px solid var(--sage-soft, #6b9474);
+            color: var(--sage-deep, #233827);
+        }
+
+        .info-card {
+            margin-top: 2rem;
+            padding: 1rem 1.25rem;
+            background: var(--sage-mist, #f0f5f1);
+            border-radius: var(--radius-md, 14px);
+            font-size: 0.82rem;
+            color: var(--ink-soft, #5c5957);
+            line-height: 1.5;
+            border-left: 4px solid var(--sage, #416b49);
+        }
+
+        .info-card strong {
+            color: var(--sage-deep, #233827);
+        }
+
+        .home-link {
+            display: inline-block;
+            text-align: center;
+            margin-top: 1.5rem;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--sage, #416b49);
+            text-decoration: none;
+        }
+
+        .home-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <nav id="cosy-nav"></nav>
+
+    <main class="login-container">
+        <div class="login-header">
+            <img src="images/logos/cosylanguages.png" alt="COSYlanguages logo" class="login-logo">
+            <h1 class="login-title">Sign In</h1>
+            <p class="login-subtitle">Shared authentication entry point for restricted COSY platform applications</p>
+        </div>
+
+        <div id="alert-banner" class="alert-box" role="alert"></div>
+
+        <form id="login-form" class="login-form" onsubmit="handleSignIn(event)">
+            <div class="form-group">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" id="email" class="form-input" placeholder="name@example.com" required autocomplete="email">
+            </div>
+
+            <div class="form-group">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" id="password" class="form-input" placeholder="••••••••" required autocomplete="current-password">
+            </div>
+
+            <button type="submit" id="submit-btn" class="login-btn">Sign In ➔</button>
+        </form>
+
+        <div class="info-card">
+            <strong>🌐 Public Access Notice:</strong> COSYlanguages is a 100% free, visitor-first platform. All practice tools, games, placement tests, and blog articles require <strong>no account or login</strong>. This sign-in page is solely an entry point for users accessing restricted platforms (<strong>COSYplatform</strong> and <strong>COSYmanuals</strong>).
+        </div>
+
+        <div style="text-align: center;">
+            <a href="index.html" class="home-link">← Return to COSYlanguages Home</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="fb-logo">
+                    <img src="images/logos/cosylanguages.png" alt="COSYlanguages logo">
+                    <span class="fb-name">COSYlanguages</span>
+                </div>
+                <p>Your friendly corner to master new languages and connect with the world. 🌍</p>
+            </div>
+            <div class="footer-links-col">
+                <h5>Explore</h5>
+                <a href="index.html#languages">Languages 🌍</a>
+                <a href="practice/index.html">Free Practice 💡</a>
+                <a href="blog/index.html">Blog &amp; Top 100 📝</a>
+            </div>
+            <div class="footer-links-col">
+                <h5>Gated Apps</h5>
+                <a href="https://cosylanguages.github.io/COSYplatform/">COSYplatform ↗</a>
+                <a href="https://cosylanguages.github.io/COSYmanuals/">COSYmanuals ↗</a>
+            </div>
+        </div>
+        <div class="footer-bottom">© 2026 COSYlanguages — Shared Sign-In Entry Point</div>
+    </footer>
+
+    <!-- Supabase JS Client Library -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/data/languages.js"></script>
+    <script src="js/core/engine.js"></script>
+
+    <script>
+        // =========================================================================
+        // SUPABASE CONFIGURATION PLACEHOLDERS
+        // Provide your Supabase project credentials below or inject window.ENV_SUPABASE_*
+        // =========================================================================
+        const SUPABASE_URL = window.ENV_SUPABASE_URL || "https://YOUR_SUPABASE_PROJECT_ID.supabase.co";
+        const SUPABASE_ANON_KEY = window.ENV_SUPABASE_ANON_KEY || "YOUR_SUPABASE_ANON_KEY";
+
+        // Initialize Supabase Client if SDK is loaded and credentials are set
+        let supabaseClient = null;
+        if (window.supabase && SUPABASE_URL !== "https://YOUR_SUPABASE_PROJECT_ID.supabase.co") {
+            supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+        }
+
+        const COSY_PLATFORM_URL = "https://cosylanguages.github.io/COSYplatform/";
+        const COSY_MANUALS_URL = "https://cosylanguages.github.io/COSYmanuals/";
+
+        function showAlert(message, type = 'error') {
+            const banner = document.getElementById('alert-banner');
+            banner.textContent = message;
+            banner.className = `alert-box alert-${type}`;
+            banner.style.display = 'block';
+        }
+
+        function hideAlert() {
+            const banner = document.getElementById('alert-banner');
+            banner.style.display = 'none';
+        }
+
+        function getRedirectTarget(role) {
+            const params = new URLSearchParams(window.location.search);
+            const redirectParam = params.get('redirect');
+
+            // Check if ?redirect= query param is provided and belongs to authorized ecosystem domains
+            if (redirectParam) {
+                if (redirectParam.startsWith(COSY_PLATFORM_URL) || redirectParam.startsWith(COSY_MANUALS_URL)) {
+                    return redirectParam;
+                }
+            }
+
+            // Role-based default destination
+            if (role === 'teacher' || role === 'admin') {
+                return COSY_MANUALS_URL;
+            }
+            return COSY_PLATFORM_URL;
+        }
+
+        async function handleSignIn(event) {
+            event.preventDefault();
+            hideAlert();
+
+            const email = document.getElementById('email').value.trim();
+            const password = document.getElementById('password').value;
+            const submitBtn = document.getElementById('submit-btn');
+
+            if (!email || !password) {
+                showAlert('Please enter both your email address and password.');
+                return;
+            }
+
+            if (!supabaseClient) {
+                showAlert('Supabase credentials have not been configured yet (placeholder active). Please configure SUPABASE_URL and SUPABASE_ANON_KEY.', 'info');
+                return;
+            }
+
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Signing in...';
+
+            try {
+                const { data: authData, error: authError } = await supabaseClient.auth.signInWithPassword({
+                    email: email,
+                    password: password
+                });
+
+                if (authError) {
+                    showAlert(authError.message || 'Invalid email or password. Please try again.');
+                    submitBtn.disabled = false;
+                    submitBtn.textContent = 'Sign In ➔';
+                    return;
+                }
+
+                // Fetch user profile role if available
+                let role = 'student';
+                if (authData && authData.user) {
+                    const { data: profile } = await supabaseClient
+                        .from('profiles')
+                        .select('role')
+                        .eq('id', authData.user.id)
+                        .single();
+
+                    if (profile && profile.role) {
+                        role = profile.role;
+                    }
+                }
+
+                const targetUrl = getRedirectTarget(role);
+                showAlert(`Sign-in successful! Redirecting to ${targetUrl}...`, 'info');
+
+                setTimeout(() => {
+                    window.location.href = targetUrl;
+                }, 800);
+
+            } catch (err) {
+                console.error('Sign-in error:', err);
+                showAlert('An unexpected error occurred during sign-in. Please try again.');
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Sign In ➔';
+            }
+        }
+    </script>
+</body>
+</html>

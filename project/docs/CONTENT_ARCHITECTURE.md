@@ -92,9 +92,8 @@ This taxonomy outlines the organization of the COSYlanguages ecosystem. All reso
 ### 5.2 Companion Repositories & Relationship Model
 Ecosystem companion repositories host specialized standalone, accountless web-based applications:
 1. **[`COSYtools`](https://github.com/cosylanguages/COSYtools):** Standalone offline reference engines (12 micro-apps for verb conjugators, gender trainers, and prepositional regimes).
-2. **[`COSYworld`](https://github.com/cosylanguages/COSYworld):** Interactive 2D/3D direct immersion environments and Scene Match spaces.
-3. **[`COSYgames`](https://github.com/cosylanguages/COSYgames):** Standalone practice minigames hub and card decks.
-4. **[`COSYevents`](https://github.com/cosylanguages/COSYevents):** Standalone thematic speaking club decks and multimedia event night session guides.
+2. **[`COSYgames`](https://github.com/cosylanguages/COSYgames):** Standalone practice minigames hub and card decks.
+3. **[`COSYevents`](https://github.com/cosylanguages/COSYevents):** Standalone thematic speaking club decks and multimedia event night session guides.
 
 **Ecosystem Linkage Protocol:** While `COSYlanguages` hosts curriculum-integrated games, events, and practice tools directly tied to course tracks and CEFR levels, companion repositories host standalone accountless versions. All applications are connected seamlessly via standard URL query parameter handoffs ([`docs/url-handoff.md`](../../docs/url-handoff.md)) and the unified COSY Passport progress exchange format ([`docs/passport-schema.md`](../../docs/passport-schema.md)).
 

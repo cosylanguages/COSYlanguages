@@ -50,13 +50,13 @@ COSYlanguages is organized as a distributed ecosystem of specialized sub-product
 2. **[COSYevents](https://github.com/cosylanguages/COSYevents):** Public speaking club session decks, multimedia event night guides, and group conversation materials.
 3. **[COSYgames](https://github.com/cosylanguages/COSYgames):** Interactive practice minigames hub (22+ games) for self-study and live online/offline classroom teaching.
 4. **[COSYtools](https://github.com/cosylanguages/COSYtools):** Standalone offline linguistic encyclopedia (12 micro-apps for verb conjugators, gender trainers, case systems, and prepositional regime tools).
-5. **[COSYplatform](https://github.com/cosylanguages/COSYplatform):** Host for structured paid CEFR course tracks and student/teacher portals.
+5. **[COSYplatform](https://github.com/cosylanguages/COSYplatform):** Host for structured paid CEFR course tracks.
 
 **Ecosystem Relationship Model:** This repository (`COSYlanguages`) hosts free curriculum-integrated games and practice tools directly tied to course tracks and CEFR levels. Meanwhile, companion repositories (`COSYtools`, `COSYgames`, `COSYevents`) host standalone, accountless web-based versions. All applications are connected seamlessly via standard URL query parameter handoffs ([`docs/url-handoff.md`](docs/url-handoff.md)) and the unified COSY Passport progress exchange format ([`docs/passport-schema.md`](docs/passport-schema.md)).
 
 ### Future Extraction Candidates
 - **`COSYstudio`:** Pedagogical print studio, zine builder, boardgame generator (`apps/print-studio/` and `print-*.html`).
-- **`COSYclassroom`:** Teacher live screen sync and presentation tool (`classroom-sync.html`).
+- **`COSYclassroom`:** Live screen sync and presentation tool (`classroom-sync.html`).
 
 ### Central Ecosystem Hub (`COSYlanguages`)
 - **Unified Master Portal & Gateway:** Central directory, multi-product switcher, and global diagnostic placement quiz (`placement-quiz.html`).
