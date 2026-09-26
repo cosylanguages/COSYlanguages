@@ -1,6 +1,6 @@
 # Ecosystem Canon Source of Truth Policy
 
-This document establishes the official synchronization policy and authority hierarchy for canonical datasets within the COSY ecosystem (**COSYdata**, **COSYplatform**, **COSYmanuals**, **COSYtools**, **COSYlanguages**, **COSYgames**, **COSYworld**, **COSYevents**).
+This document establishes the official synchronization policy and authority hierarchy for canonical datasets within the COSY ecosystem (**COSYdata**, **COSYplatform**, **COSYmanuals**, **COSYtools**, **COSYlanguages**, **COSYgames**, **COSYevents**).
 
 ---
 
@@ -23,7 +23,7 @@ To prevent data divergence, duplicate maintenance, and drift across ecosystem re
 
 ## 2. Change Management Protocol
 
-- Downstream client repositories (such as **COSYlanguages**, **COSYgames**, **COSYworld**, **COSYevents**) must **NEVER** attempt to host or edit local copies of canonical datasets.
+- Downstream client repositories (such as **COSYlanguages**, **COSYgames**, **COSYevents**) must **NEVER** attempt to host or edit local copies of canonical datasets.
 - **Vocabulary changes**: Submit to [COSYdata](https://github.com/cosylanguages/COSYdata) via Pull Request or Issue referencing specific entry IDs.
 - **Curriculum changes**: Submit to [COSYplatform](https://github.com/cosylanguages/COSYplatform) via Pull Request referencing target language, course track, and lesson IDs.
 - **Reference Grammar & CCQs**: Submit to [COSYmanuals](https://github.com/cosylanguages/COSYmanuals) via Pull Request under `data/grammar/reference/`.

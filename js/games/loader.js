@@ -31,12 +31,7 @@
     window.openGame = function(id) {
         const path = GAME_PATH_MAP[id];
         if (path) {
-            // Check if browsing locally or on domain fallback
-            if (id === 'cosyworld' && (location.hostname === 'localhost' || location.hostname === '127.0.0.1')) {
-                location.href = 'https://cosylanguages.github.io/COSYgames/';
-            } else {
-                location.href = path;
-            }
+            location.href = path;
         } else {
             console.error('Game not found in route map:', id);
         }

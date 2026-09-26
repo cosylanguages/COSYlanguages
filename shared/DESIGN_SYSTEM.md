@@ -9,15 +9,14 @@
 
 ## 1. Overview & Ecosystem Principles
 
-`COSYlanguages` is the primary public entry point in a family of 8 interconnected product repositories:
+`COSYlanguages` is the primary public entry point in a family of 7 interconnected product repositories:
 1. **COSYlanguages** — Primary public ecosystem hub, placement tools, and practice engine.
 2. **COSYdata** — Standalone vocabulary central repository and API endpoints.
 3. **COSYtools** — Conjugation, gender, and preposition reference tools & PWAs.
 4. **COSYmanuals** — Interactive language learning manuals & CELTA grammar topic guides *(restricted access)*.
 5. **COSYplatform** — Curriculum master data and learning management backend *(restricted access)*.
 6. **COSYevents** — Public speaking club hub & session decks *(public gateway with restricted session decks)*.
-7. **COSYgames** — Communicative open-world RPGs, Scene Match, and vocabulary games.
-8. **COSYworld** — Paused open-world RPG sub-product.
+7. **COSYgames** — Communicative minigames, Scene Match, and vocabulary games.
 
 ### Core Ecosystem Principles
 - **One Visual Ecosystem:** All products must feel like part of a unified visual family through shared neutrals, typography, spacing, border radii, and button conventions.
