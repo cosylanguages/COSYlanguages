@@ -1923,15 +1923,6 @@
       "disposition": "Shared Ecosystem Asset"
     },
     {
-      "source_path": "css/cognitive-immersion.css",
-      "category_id": 7,
-      "category_name": "7. Shared dependency",
-      "action": "Shared",
-      "target_repository": "Ecosystem Shared Asset",
-      "rationale": "Shared design token, utility script, UI icon, or JSON schema utilized across multiple apps.",
-      "disposition": "Shared Ecosystem Asset"
-    },
-    {
       "source_path": "css/communication.css",
       "category_id": 7,
       "category_name": "7. Shared dependency",
@@ -1959,24 +1950,6 @@
       "disposition": "Shared Ecosystem Asset"
     },
     {
-      "source_path": "css/cosy-tokens.css",
-      "category_id": 7,
-      "category_name": "7. Shared dependency",
-      "action": "Shared",
-      "target_repository": "Ecosystem Shared Asset",
-      "rationale": "Shared design token, utility script, UI icon, or JSON schema utilized across multiple apps.",
-      "disposition": "Shared Ecosystem Asset"
-    },
-    {
-      "source_path": "css/courses.css",
-      "category_id": 7,
-      "category_name": "7. Shared dependency",
-      "action": "Shared",
-      "target_repository": "Ecosystem Shared Asset",
-      "rationale": "Shared design token, utility script, UI icon, or JSON schema utilized across multiple apps.",
-      "disposition": "Shared Ecosystem Asset"
-    },
-    {
       "source_path": "css/daily.css",
       "category_id": 7,
       "category_name": "7. Shared dependency",
@@ -1987,15 +1960,6 @@
     },
     {
       "source_path": "css/events.css",
-      "category_id": 7,
-      "category_name": "7. Shared dependency",
-      "action": "Shared",
-      "target_repository": "Ecosystem Shared Asset",
-      "rationale": "Shared design token, utility script, UI icon, or JSON schema utilized across multiple apps.",
-      "disposition": "Shared Ecosystem Asset"
-    },
-    {
-      "source_path": "css/games.css",
       "category_id": 7,
       "category_name": "7. Shared dependency",
       "action": "Shared",
@@ -2049,15 +2013,6 @@
       "disposition": "Shared Ecosystem Asset"
     },
     {
-      "source_path": "css/mind-matters.css",
-      "category_id": 7,
-      "category_name": "7. Shared dependency",
-      "action": "Shared",
-      "target_repository": "Ecosystem Shared Asset",
-      "rationale": "Shared design token, utility script, UI icon, or JSON schema utilized across multiple apps.",
-      "disposition": "Shared Ecosystem Asset"
-    },
-    {
       "source_path": "css/mobile.css",
       "category_id": 7,
       "category_name": "7. Shared dependency",
@@ -2077,15 +2032,6 @@
     },
     {
       "source_path": "css/practice-new.css",
-      "category_id": 7,
-      "category_name": "7. Shared dependency",
-      "action": "Shared",
-      "target_repository": "Ecosystem Shared Asset",
-      "rationale": "Shared design token, utility script, UI icon, or JSON schema utilized across multiple apps.",
-      "disposition": "Shared Ecosystem Asset"
-    },
-    {
-      "source_path": "css/practice.css",
       "category_id": 7,
       "category_name": "7. Shared dependency",
       "action": "Shared",
@@ -4929,7 +4875,7 @@
       "disposition": "Shared Ecosystem Asset"
     },
     {
-      "source_path": "images/scenes/Market Sub-Scene — Fruit & Vegetable Stall",
+      "source_path": "images/scenes/Market Sub-Scene \u2014 Fruit & Vegetable Stall",
       "category_id": 7,
       "category_name": "7. Shared dependency",
       "action": "Shared",
@@ -7962,7 +7908,7 @@
       "disposition": "Shared Ecosystem Asset"
     },
     {
-      "source_path": "images/ui/vocabulary/places/café.coffee shop.coffeehouse.png",
+      "source_path": "images/ui/vocabulary/places/caf\u00e9.coffee shop.coffeehouse.png",
       "category_id": 7,
       "category_name": "7. Shared dependency",
       "action": "Shared",
@@ -10059,7 +10005,7 @@
       "disposition": "Textbook / Curriculum Data"
     },
     {
-      "source_path": "manuals/br/vocabulary/a2/topics/beajoù-ha-treuzdougen.html",
+      "source_path": "manuals/br/vocabulary/a2/topics/beajo\u00f9-ha-treuzdougen.html",
       "category_id": 2,
       "category_name": "2. Move to COSYmanuals",
       "action": "Migrate",
@@ -10068,7 +10014,7 @@
       "disposition": "Textbook / Curriculum Data"
     },
     {
-      "source_path": "manuals/br/vocabulary/a2/topics/micherioù-ha-labour.html",
+      "source_path": "manuals/br/vocabulary/a2/topics/micherio\u00f9-ha-labour.html",
       "category_id": 2,
       "category_name": "2. Move to COSYmanuals",
       "action": "Migrate",
@@ -30318,7 +30264,7 @@
       "disposition": "Textbook / Curriculum Data"
     },
     {
-      "source_path": "manuals/gramatica-espanola/topics/pretérito-perfecto.html",
+      "source_path": "manuals/gramatica-espanola/topics/pret\u00e9rito-perfecto.html",
       "category_id": 2,
       "category_name": "2. Move to COSYmanuals",
       "action": "Migrate",
