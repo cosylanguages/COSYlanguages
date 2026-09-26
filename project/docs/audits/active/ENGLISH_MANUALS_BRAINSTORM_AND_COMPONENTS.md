@@ -188,7 +188,7 @@ Visual patterns provide cognitive anchors that make abstract linguistic relation
 
 ## 4. Cross-Reference & Maintenance
 
-- **Primary Audit Reference**: `project/docs/audits/ENGLISH_MANUALS_VISUAL_AUDIT.md`
+- **Primary Audit Reference**: `project/docs/audits/active/ENGLISH_MANUALS_VISUAL_AUDIT.md`
 - **Stylesheets Configured**:
   - `manuals/en/grammar/a1/assets/style.css`
   - `manuals/en/grammar/a2/assets/style.css`
