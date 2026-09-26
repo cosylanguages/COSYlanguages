@@ -1,0 +1,22 @@
+media:
+  input: public/images       # Where images will be saved when you upload them in the editor
+  output: /images            # The public URL path for your images
+
+content:
+  - name: posts
+    label: Blog Posts
+    type: collection
+    path: content/posts      # Replace with the folder where your blog posts live
+    format: md               # Options: md, html, json, yaml
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: date
+        label: Date
+        type: date
+        required: true
+      - name: body
+        label: Content
+        type: rich-text      # Enables the Blogger-like visual rich-text editor
