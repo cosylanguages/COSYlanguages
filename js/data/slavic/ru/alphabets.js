@@ -1,6 +1,0 @@
-(function() {
-    const data = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
-    const lang = "ru";
-    window.alphabetsData = window.alphabetsData || {};
-    window.alphabetsData[lang] = data;
-})();
