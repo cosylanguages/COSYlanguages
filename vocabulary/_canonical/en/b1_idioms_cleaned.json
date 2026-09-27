@@ -1,0 +1,5355 @@
+{
+  "language": "en",
+  "level": "B1",
+  "topic": "Idioms & Expressions",
+  "words": [
+    {
+      "word": "Piece of cake",
+      "word_id": "en_idiom_piece_of_cake",
+      "pos": "idiom",
+      "definition": "Something that is very easy to do.",
+      "example": "The English test was a piece of cake."
+    },
+    {
+      "word": "Break a leg",
+      "word_id": "en_idiom_break_a_leg",
+      "pos": "idiom",
+      "definition": "Good luck (wished to a performer before a show).",
+      "example": "Break a leg at your concert tonight!"
+    },
+    {
+      "word": "So far so good",
+      "word_id": "en_idiom_so_far_so_good",
+      "pos": "idiom",
+      "definition": "Things have gone well up to now.",
+      "example": "How is the new job? So far so good!"
+    },
+    {
+      "word": "Time flies",
+      "word_id": "en_idiom_time_flies",
+      "pos": "idiom",
+      "definition": "Time passes surprisingly quickly.",
+      "example": "Time flies when you are having fun with friends."
+    },
+    {
+      "word": "Easy come, easy go",
+      "word_id": "en_idiom_easy_come_easy_go",
+      "pos": "idiom",
+      "definition": "Money or success easily gained is easily lost.",
+      "example": "I lost my winnings, but easy come, easy go."
+    },
+    {
+      "word": "Better late than never",
+      "word_id": "en_idiom_better_late_than_never",
+      "pos": "idiom",
+      "definition": "It is better to do something late than not at all.",
+      "example": "You finally arrived! Better late than never."
+    },
+    {
+      "word": "Make up your mind",
+      "word_id": "en_idiom_make_up_your_mind",
+      "pos": "idiom",
+      "definition": "To decide or make a decision.",
+      "example": "Please make up your mind about which course to take."
+    },
+    {
+      "word": "Keep in touch",
+      "word_id": "en_idiom_keep_in_touch",
+      "pos": "idiom",
+      "definition": "To maintain contact with someone.",
+      "example": "Let us keep in touch after the course ends."
+    },
+    {
+      "word": "Day in, day out",
+      "word_id": "en_idiom_day_in_day_out",
+      "pos": "idiom",
+      "definition": "Continuously; every single day.",
+      "example": "He practiced guitar day in, day out to improve."
+    },
+    {
+      "word": "All in all",
+      "word_id": "en_idiom_all_in_all",
+      "pos": "idiom",
+      "definition": "Considering everything; overall.",
+      "example": "All in all, the vacation was a great success."
+    },
+    {
+      "word": "Safe and sound",
+      "word_id": "en_idiom_safe_and_sound",
+      "pos": "idiom",
+      "definition": "Unarmed and free from danger.",
+      "example": "They arrived home safe and sound after the long storm."
+    },
+    {
+      "word": "First come, first served",
+      "word_id": "en_idiom_first_come_first_served",
+      "pos": "idiom",
+      "definition": "People are served in the order of their arrival.",
+      "example": "Tickets are allocated first come, first served."
+    },
+    {
+      "word": "Give it a try",
+      "word_id": "en_idiom_give_it_a_try",
+      "pos": "idiom",
+      "definition": "To attempt or try something.",
+      "example": "Even if it looks difficult, give it a try."
+    },
+    {
+      "word": "Cross your fingers",
+      "word_id": "en_idiom_cross_your_fingers",
+      "pos": "idiom",
+      "definition": "To hope for good luck or a favorable outcome.",
+      "example": "Cross your fingers that we win the game!"
+    },
+    {
+      "word": "Long time no see",
+      "word_id": "en_idiom_long_time_no_see",
+      "pos": "idiom",
+      "definition": "It has been a long time since we last met.",
+      "example": "Long time no see! How have you been?"
+    },
+    {
+      "word": "Make yourself at home",
+      "word_id": "en_idiom_make_yourself_at_home",
+      "pos": "idiom",
+      "definition": "To feel comfortable and relaxed in someone else's home.",
+      "example": "Please sit down and make yourself at home."
+    },
+    {
+      "word": "Take it easy",
+      "word_id": "en_idiom_take_it_easy",
+      "pos": "idiom",
+      "definition": "To relax and rest.",
+      "example": "Take it easy this weekend after a busy week at work."
+    },
+    {
+      "word": "As good as new",
+      "word_id": "en_idiom_as_good_as_new",
+      "pos": "idiom",
+      "definition": "In very good condition, like new.",
+      "example": "After repairs, the bicycle was as good as new."
+    },
+    {
+      "word": "Take your time",
+      "word_id": "en_idiom_take_your_time",
+      "pos": "idiom",
+      "definition": "Do not hurry; work at a comfortable pace.",
+      "example": "Take your time answering the test questions."
+    },
+    {
+      "word": "Sooner or later",
+      "word_id": "en_idiom_sooner_or_later",
+      "pos": "idiom",
+      "definition": "Eventually; at some point in the future.",
+      "example": "Sooner or later, you will master English grammar."
+    },
+    {
+      "word": "Over and over",
+      "word_id": "en_idiom_over_and_over",
+      "pos": "idiom",
+      "definition": "Repeatedly many times.",
+      "example": "Example sentence using 'Over and over'."
+    },
+    {
+      "word": "Here and there",
+      "word_id": "en_idiom_here_and_there",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Here and there'",
+      "example": "Example sentence using 'Here and there'."
+    },
+    {
+      "word": "A big deal",
+      "word_id": "en_idiom_a_big_deal",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'A big deal'",
+      "example": "Example sentence using 'A big deal'."
+    },
+    {
+      "word": "A change of mind",
+      "word_id": "en_idiom_a_change_of_mind",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'A change of mind'",
+      "example": "Example sentence using 'A change of mind'."
+    },
+    {
+      "word": "Ups and downs",
+      "word_id": "en_idiom_ups_and_downs",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Ups and downs'",
+      "example": "Example sentence using 'Ups and downs'."
+    },
+    {
+      "word": "Fair and square",
+      "word_id": "en_idiom_fair_and_square",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Fair and square'",
+      "example": "Example sentence using 'Fair and square'."
+    },
+    {
+      "word": "Clean and tidy",
+      "word_id": "en_idiom_clean_and_tidy",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Clean and tidy'",
+      "example": "Example sentence using 'Clean and tidy'."
+    },
+    {
+      "word": "More or less",
+      "word_id": "en_idiom_more_or_less",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'More or less'",
+      "example": "Example sentence using 'More or less'."
+    },
+    {
+      "word": "So-so",
+      "word_id": "en_idiom_so_so",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'So-so'",
+      "example": "Example sentence using 'So-so'."
+    },
+    {
+      "word": "Short and sweet",
+      "word_id": "en_idiom_short_and_sweet",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Short and sweet'",
+      "example": "Example sentence using 'Short and sweet'."
+    },
+    {
+      "word": "Pros and cons",
+      "word_id": "en_idiom_pros_and_cons",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Pros and cons'",
+      "example": "Example sentence using 'Pros and cons'."
+    },
+    {
+      "word": "Sooner than expected",
+      "word_id": "en_idiom_sooner_than_expected",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Sooner than expected'",
+      "example": "Example sentence using 'Sooner than expected'."
+    },
+    {
+      "word": "Under the weather",
+      "word_id": "en_idiom_under_the_weather",
+      "pos": "idiom",
+      "definition": "Feeling slightly unwell or sick.",
+      "example": "I am feeling a bit under the weather today."
+    },
+    {
+      "word": "Once in a blue moon",
+      "word_id": "en_idiom_once_in_a_blue_moon",
+      "pos": "idiom",
+      "definition": "Very rarely or almost never.",
+      "example": "He visits the museum once in a blue moon."
+    },
+    {
+      "word": "Spill the beans",
+      "word_id": "en_idiom_spill_the_beans",
+      "pos": "idiom",
+      "definition": "To reveal a secret unexpectedly.",
+      "example": "Don't spill the beans about the surprise party!"
+    },
+    {
+      "word": "Lend a hand",
+      "word_id": "en_idiom_lend_a_hand",
+      "pos": "idiom",
+      "definition": "To help someone.",
+      "example": "Could you lend me a hand with these heavy boxes?"
+    },
+    {
+      "word": "In the same boat",
+      "word_id": "en_idiom_in_the_same_boat",
+      "pos": "idiom",
+      "definition": "In the same difficult situation as others.",
+      "example": "We are all in the same boat during these exams."
+    },
+    {
+      "word": "See eye to eye",
+      "word_id": "en_idiom_see_eye_to_eye",
+      "pos": "idiom",
+      "definition": "To agree with someone completely.",
+      "example": "My brother and I do not always see eye to eye."
+    },
+    {
+      "word": "Cost an arm and a leg",
+      "word_id": "en_idiom_cost_an_arm_and_a_leg",
+      "pos": "idiom",
+      "definition": "To be extremely expensive.",
+      "example": "Buying a brand new car can cost an arm and a leg."
+    },
+    {
+      "word": "Rule of thumb",
+      "word_id": "en_idiom_rule_of_thumb",
+      "pos": "idiom",
+      "definition": "A practical, approximate rule for doing something.",
+      "example": "As a rule of thumb, review vocabulary every morning."
+    },
+    {
+      "word": "Sleep on it",
+      "word_id": "en_idiom_sleep_on_it",
+      "pos": "idiom",
+      "definition": "To delay making a decision until the next day.",
+      "example": "Don't decide now; sleep on it and tell me tomorrow."
+    },
+    {
+      "word": "Break the ice",
+      "word_id": "en_idiom_break_the_ice",
+      "pos": "idiom",
+      "definition": "To make people feel more comfortable in a new situation.",
+      "example": "An icebreaker game helps break the ice in class."
+    },
+    {
+      "word": "Out of the blue",
+      "word_id": "en_idiom_out_of_the_blue",
+      "pos": "idiom",
+      "definition": "Suddenly and unexpectedly.",
+      "example": "She called me out of the blue after five years."
+    },
+    {
+      "word": "A drop in the ocean",
+      "word_id": "en_idiom_a_drop_in_the_ocean",
+      "pos": "idiom",
+      "definition": "A tiny amount compared to what is needed.",
+      "example": "One dollar is just a drop in the ocean."
+    },
+    {
+      "word": "Back to square one",
+      "word_id": "en_idiom_back_to_square_one",
+      "pos": "idiom",
+      "definition": "Back to the very beginning after a failure.",
+      "example": "The experiment failed, so we are back to square one."
+    },
+    {
+      "word": "On the fence",
+      "word_id": "en_idiom_on_the_fence",
+      "pos": "idiom",
+      "definition": "Undecided between two options.",
+      "example": "He is still on the fence about moving to London."
+    },
+    {
+      "word": "Miss the boat",
+      "word_id": "en_idiom_miss_the_boat",
+      "pos": "idiom",
+      "definition": "To miss an opportunity.",
+      "example": "If you don't apply today, you will miss the boat."
+    },
+    {
+      "word": "Keep an eye on",
+      "word_id": "en_idiom_keep_an_eye_on",
+      "pos": "idiom",
+      "definition": "To watch or look after carefully.",
+      "example": "Please keep an eye on my bag while I buy water."
+    },
+    {
+      "word": "Pain in the neck",
+      "word_id": "en_idiom_pain_in_the_neck",
+      "pos": "idiom",
+      "definition": "Someone or something that is annoying.",
+      "example": "Traffic jams during rush hour are a pain in the neck."
+    },
+    {
+      "word": "Beat the clock",
+      "word_id": "en_idiom_beat_the_clock",
+      "pos": "idiom",
+      "definition": "To finish something before time runs out.",
+      "example": "We worked fast and managed to beat the clock."
+    },
+    {
+      "word": "Call it a day",
+      "word_id": "en_idiom_call_it_a_day",
+      "pos": "idiom",
+      "definition": "To stop working on something for the rest of the day.",
+      "example": "We have worked for eight hours; let's call it a day."
+    },
+    {
+      "word": "Face the music",
+      "word_id": "en_idiom_face_the_music",
+      "pos": "idiom",
+      "definition": "To accept the unpleasant consequences of one's actions.",
+      "example": "He broke the window and had to face the music."
+    },
+    {
+      "word": "Fish out of water",
+      "word_id": "en_idiom_fish_out_of_water",
+      "pos": "idiom",
+      "definition": "Someone who feels uncomfortable in a strange environment.",
+      "example": "I felt like a fish out of water at the formal dinner."
+    },
+    {
+      "word": "Hot potato",
+      "word_id": "en_idiom_hot_potato",
+      "pos": "idiom",
+      "definition": "A controversial or difficult subject.",
+      "example": "The topic of taxes is a political hot potato."
+    },
+    {
+      "word": "In hot water",
+      "word_id": "en_idiom_in_hot_water",
+      "pos": "idiom",
+      "definition": "In trouble or facing difficulty.",
+      "example": "He got into hot water for forgetting his homework."
+    },
+    {
+      "word": "Keep your chin up",
+      "word_id": "en_idiom_keep_your_chin_up",
+      "pos": "idiom",
+      "definition": "To remain cheerful and confident in tough times.",
+      "example": "Keep your chin up! Things will get better soon."
+    },
+    {
+      "word": "Like father, like son",
+      "word_id": "en_idiom_like_father_like_son",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Like father, like son'",
+      "example": "Example sentence using 'Like father, like son'."
+    },
+    {
+      "word": "Make ends meet",
+      "word_id": "en_idiom_make_ends_meet",
+      "pos": "idiom",
+      "definition": "To earn just enough money to pay for basic needs.",
+      "example": "It can be tough for students to make ends meet."
+    },
+    {
+      "word": "No pain, no gain",
+      "word_id": "en_idiom_no_pain_no_gain",
+      "pos": "idiom",
+      "definition": "You must work hard to achieve success.",
+      "example": "Exercising is tough, but no pain, no gain!"
+    },
+    {
+      "word": "Off the record",
+      "word_id": "en_idiom_off_the_record",
+      "pos": "idiom",
+      "definition": "Unofficial and not meant to be published.",
+      "example": "The manager spoke off the record about the plans."
+    },
+    {
+      "word": "On cloud nine",
+      "word_id": "en_idiom_on_cloud_nine",
+      "pos": "idiom",
+      "definition": "Extremely happy and joyful.",
+      "example": "She was on cloud nine after passing her driving test."
+    },
+    {
+      "word": "Peace of mind",
+      "word_id": "en_idiom_peace_of_mind",
+      "pos": "idiom",
+      "definition": "A feeling of calm and freedom from worry.",
+      "example": "Knowing the car is insured gives me peace of mind."
+    },
+    {
+      "word": "Pull yourself together",
+      "word_id": "en_idiom_pull_yourself_together",
+      "pos": "idiom",
+      "definition": "To calm down and control your emotions.",
+      "example": "Stop crying, pull yourself together, and try again."
+    },
+    {
+      "word": "Raining cats and dogs",
+      "word_id": "en_idiom_raining_cats_and_dogs",
+      "pos": "idiom",
+      "definition": "Raining very heavily.",
+      "example": "Don't forget your umbrella; it is raining cats and dogs!"
+    },
+    {
+      "word": "Save for a rainy day",
+      "word_id": "en_idiom_save_for_a_rainy_day",
+      "pos": "idiom",
+      "definition": "To save money for future unexpected needs.",
+      "example": "It is wise to save a portion of your income for a rainy day."
+    },
+    {
+      "word": "Speak of the devil",
+      "word_id": "en_idiom_speak_of_the_devil",
+      "pos": "idiom",
+      "definition": "Said when a person appears just as they are mentioned.",
+      "example": "Speak of the devil! We were just talking about you."
+    },
+    {
+      "word": "Take with a grain of salt",
+      "word_id": "en_idiom_take_with_a_grain_of_salt",
+      "pos": "idiom",
+      "definition": "To view something with skepticism.",
+      "example": "Take online rumors with a grain of salt."
+    },
+    {
+      "word": "The best of both worlds",
+      "word_id": "en_idiom_the_best_of_both_worlds",
+      "pos": "idiom",
+      "definition": "An ideal situation enjoying two different advantages.",
+      "example": "Working remotely gives her the best of both worlds."
+    },
+    {
+      "word": "Under lock and key",
+      "word_id": "en_idiom_under_lock_and_key",
+      "pos": "idiom",
+      "definition": "Stored securely and locked away.",
+      "example": "Important documents are kept under lock and key."
+    },
+    {
+      "word": "Walking on air",
+      "word_id": "en_idiom_walking_on_air",
+      "pos": "idiom",
+      "definition": "Feeling extremely happy and excited.",
+      "example": "After winning the award, he was walking on air."
+    },
+    {
+      "word": "You can say that again",
+      "word_id": "en_idiom_you_can_say_that_again",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'You can say that again'",
+      "example": "Example sentence using 'You can say that again'."
+    },
+    {
+      "word": "Zip your lip",
+      "word_id": "en_idiom_zip_your_lip",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Zip your lip'",
+      "example": "Example sentence using 'Zip your lip'."
+    },
+    {
+      "word": "All ears",
+      "word_id": "en_idiom_all_ears",
+      "pos": "idiom",
+      "definition": "Eager and attentive to listen.",
+      "example": "Tell me your story; I am all ears."
+    },
+    {
+      "word": "At the tip of my tongue",
+      "word_id": "en_idiom_at_the_tip_of_my_tongue",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'At the tip of my tongue'",
+      "example": "Example sentence using 'At the tip of my tongue'."
+    },
+    {
+      "word": "Bark up the wrong tree",
+      "word_id": "en_idiom_bark_up_the_wrong_tree",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Bark up the wrong tree'",
+      "example": "Example sentence using 'Bark up the wrong tree'."
+    },
+    {
+      "word": "Bite your tongue",
+      "word_id": "en_idiom_bite_your_tongue",
+      "pos": "idiom",
+      "definition": "To stop yourself from saying something rude or unwise.",
+      "example": "I wanted to argue, but I decided to bite my tongue."
+    },
+    {
+      "word": "Blow off steam",
+      "word_id": "en_idiom_blow_off_steam",
+      "pos": "idiom",
+      "definition": "To release stress or pent-up energy.",
+      "example": "He goes running after work to blow off steam."
+    },
+    {
+      "word": "Call the shots",
+      "word_id": "en_idiom_call_the_shots",
+      "pos": "idiom",
+      "definition": "To make the important decisions.",
+      "example": "The director is the one who calls the shots here."
+    },
+    {
+      "word": "Change one's mind",
+      "word_id": "en_idiom_change_one_s_mind",
+      "pos": "idiom",
+      "definition": "To alter one's opinion or decision.",
+      "example": "She changed her mind and chose the green dress."
+    },
+    {
+      "word": "Cool as a cucumber",
+      "word_id": "en_idiom_cool_as_a_cucumber",
+      "pos": "idiom",
+      "definition": "Calm and composed under pressure.",
+      "example": "During the job interview, she remained cool as a cucumber."
+    },
+    {
+      "word": "Down in the dumps",
+      "word_id": "en_idiom_down_in_the_dumps",
+      "pos": "idiom",
+      "definition": "Feeling sad or depressed.",
+      "example": "He has been down in the dumps since losing the game."
+    },
+    {
+      "word": "Drive someone crazy",
+      "word_id": "en_idiom_drive_someone_crazy",
+      "pos": "idiom",
+      "definition": "To annoy or frustrate someone greatly.",
+      "example": "Loud noise late at night drives me crazy."
+    },
+    {
+      "word": "Easier said than done",
+      "word_id": "en_idiom_easier_said_than_done",
+      "pos": "idiom",
+      "definition": "Easier to talk about than to actually accomplish.",
+      "example": "Losing weight is definitely easier said than done."
+    },
+    {
+      "word": "Get cold feet",
+      "word_id": "en_idiom_get_cold_feet",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Get cold feet'",
+      "example": "Example sentence using 'Get cold feet'."
+    },
+    {
+      "word": "Give a hand",
+      "word_id": "en_idiom_give_a_hand",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Give a hand'",
+      "example": "Example sentence using 'Give a hand'."
+    },
+    {
+      "word": "Go with the flow",
+      "word_id": "en_idiom_go_with_the_flow",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Go with the flow'",
+      "example": "Example sentence using 'Go with the flow'."
+    },
+    {
+      "word": "Hit the roof",
+      "word_id": "en_idiom_hit_the_roof",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Hit the roof'",
+      "example": "Example sentence using 'Hit the roof'."
+    },
+    {
+      "word": "In the dark",
+      "word_id": "en_idiom_in_the_dark",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'In the dark'",
+      "example": "Example sentence using 'In the dark'."
+    },
+    {
+      "word": "Keep your fingers crossed",
+      "word_id": "en_idiom_keep_your_fingers_crossed",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Keep your fingers crossed'",
+      "example": "Example sentence using 'Keep your fingers crossed'."
+    },
+    {
+      "word": "Kill time",
+      "word_id": "en_idiom_kill_time",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Kill time'",
+      "example": "Example sentence using 'Kill time'."
+    },
+    {
+      "word": "Look up to",
+      "word_id": "en_idiom_look_up_to",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Look up to'",
+      "example": "Example sentence using 'Look up to'."
+    },
+    {
+      "word": "Lose one's temper",
+      "word_id": "en_idiom_lose_one_s_temper",
+      "pos": "idiom",
+      "definition": "To become suddenly very angry.",
+      "example": "Try not to lose your temper when solving conflicts."
+    },
+    {
+      "word": "Make a living",
+      "word_id": "en_idiom_make_a_living",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Make a living'",
+      "example": "Example sentence using 'Make a living'."
+    },
+    {
+      "word": "Mind your own business",
+      "word_id": "en_idiom_mind_your_own_business",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Mind your own business'",
+      "example": "Example sentence using 'Mind your own business'."
+    },
+    {
+      "word": "On the tip of one's tongue",
+      "word_id": "en_idiom_on_the_tip_of_one_s_tongue",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'On the tip of one's tongue'",
+      "example": "Example sentence using 'On the tip of one's tongue'."
+    },
+    {
+      "word": "Out of sight, out of mind",
+      "word_id": "en_idiom_out_of_sight_out_of_mind",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Out of sight, out of mind'",
+      "example": "Example sentence using 'Out of sight, out of mind'."
+    },
+    {
+      "word": "Play it by ear",
+      "word_id": "en_idiom_play_it_by_ear",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Play it by ear'",
+      "example": "Example sentence using 'Play it by ear'."
+    },
+    {
+      "word": "Pull someone's leg",
+      "word_id": "en_idiom_pull_someone_s_leg",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Pull someone's leg'",
+      "example": "Example sentence using 'Pull someone's leg'."
+    },
+    {
+      "word": "Ring a bell",
+      "word_id": "en_idiom_ring_a_bell",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Ring a bell'",
+      "example": "Example sentence using 'Ring a bell'."
+    },
+    {
+      "word": "Run out of",
+      "word_id": "en_idiom_run_out_of",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Run out of'",
+      "example": "Example sentence using 'Run out of'."
+    },
+    {
+      "word": "See the light",
+      "word_id": "en_idiom_see_the_light",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'See the light'",
+      "example": "Example sentence using 'See the light'."
+    },
+    {
+      "word": "Shed light on",
+      "word_id": "en_idiom_shed_light_on",
+      "pos": "idiom",
+      "definition": "To clarify or provide new information about a topic.",
+      "example": "The study shed new light on language learning."
+    },
+    {
+      "word": "Sick and tired",
+      "word_id": "en_idiom_sick_and_tired",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Sick and tired'",
+      "example": "Example sentence using 'Sick and tired'."
+    },
+    {
+      "word": "Spill the tea",
+      "word_id": "en_idiom_spill_the_tea",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Spill the tea'",
+      "example": "Example sentence using 'Spill the tea'."
+    },
+    {
+      "word": "Stand out",
+      "word_id": "en_idiom_stand_out",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Stand out'",
+      "example": "Example sentence using 'Stand out'."
+    },
+    {
+      "word": "Take for granted",
+      "word_id": "en_idiom_take_for_granted",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Take for granted'",
+      "example": "Example sentence using 'Take for granted'."
+    },
+    {
+      "word": "Think outside the box",
+      "word_id": "en_idiom_think_outside_the_box",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Think outside the box'",
+      "example": "Example sentence using 'Think outside the box'."
+    },
+    {
+      "word": "Through the grapevine",
+      "word_id": "en_idiom_through_the_grapevine",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Through the grapevine'",
+      "example": "Example sentence using 'Through the grapevine'."
+    },
+    {
+      "word": "Time will tell",
+      "word_id": "en_idiom_time_will_tell",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Time will tell'",
+      "example": "Example sentence using 'Time will tell'."
+    },
+    {
+      "word": "To make matters worse",
+      "word_id": "en_idiom_to_make_matters_worse",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'To make matters worse'",
+      "example": "Example sentence using 'To make matters worse'."
+    },
+    {
+      "word": "Turn over a new leaf",
+      "word_id": "en_idiom_turn_over_a_new_leaf",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Turn over a new leaf'",
+      "example": "Example sentence using 'Turn over a new leaf'."
+    },
+    {
+      "word": "Under the sun",
+      "word_id": "en_idiom_under_the_sun",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Under the sun'",
+      "example": "Example sentence using 'Under the sun'."
+    },
+    {
+      "word": "Up and down",
+      "word_id": "en_idiom_up_and_down",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Up and down'",
+      "example": "Example sentence using 'Up and down'."
+    },
+    {
+      "word": "Wait and see",
+      "word_id": "en_idiom_wait_and_see",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Wait and see'",
+      "example": "Example sentence using 'Wait and see'."
+    },
+    {
+      "word": "Wear one's heart on one's sleeve",
+      "word_id": "en_idiom_wear_one_s_heart_on_one_s_sleeve",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Wear one's heart on one's sleeve'",
+      "example": "Example sentence using 'Wear one's heart on one's sleeve'."
+    },
+    {
+      "word": "What on earth",
+      "word_id": "en_idiom_what_on_earth",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'What on earth'",
+      "example": "Example sentence using 'What on earth'."
+    },
+    {
+      "word": "Work like a charm",
+      "word_id": "en_idiom_work_like_a_charm",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Work like a charm'",
+      "example": "Example sentence using 'Work like a charm'."
+    },
+    {
+      "word": "You live and learn",
+      "word_id": "en_idiom_you_live_and_learn",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'You live and learn'",
+      "example": "Example sentence using 'You live and learn'."
+    },
+    {
+      "word": "Your turn",
+      "word_id": "en_idiom_your_turn",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Your turn'",
+      "example": "Example sentence using 'Your turn'."
+    },
+    {
+      "word": "A piece of advice",
+      "word_id": "en_idiom_a_piece_of_advice",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'A piece of advice'",
+      "example": "Example sentence using 'A piece of advice'."
+    },
+    {
+      "word": "Arm in arm",
+      "word_id": "en_idiom_arm_in_arm",
+      "pos": "idiom",
+      "definition": "Walking together with arms linked.",
+      "example": "The couple walked arm in arm along the beach."
+    },
+    {
+      "word": "As quiet as a mouse",
+      "word_id": "en_idiom_as_quiet_as_a_mouse",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'As quiet as a mouse'",
+      "example": "Example sentence using 'As quiet as a mouse'."
+    },
+    {
+      "word": "Be in charge of",
+      "word_id": "en_idiom_be_in_charge_of",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Be in charge of'",
+      "example": "Example sentence using 'Be in charge of'."
+    },
+    {
+      "word": "Behind the scenes",
+      "word_id": "en_idiom_behind_the_scenes",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Behind the scenes'",
+      "example": "Example sentence using 'Behind the scenes'."
+    },
+    {
+      "word": "Bite off more than one can chew",
+      "word_id": "en_idiom_bite_off_more_than_one_can_chew",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Bite off more than one can chew'",
+      "example": "Example sentence using 'Bite off more than one can chew'."
+    },
+    {
+      "word": "Break someone's heart",
+      "word_id": "en_idiom_break_someone_s_heart",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Break someone's heart'",
+      "example": "Example sentence using 'Break someone's heart'."
+    },
+    {
+      "word": "By heart",
+      "word_id": "en_idiom_by_heart",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'By heart'",
+      "example": "Example sentence using 'By heart'."
+    },
+    {
+      "word": "Clear as crystal",
+      "word_id": "en_idiom_clear_as_crystal",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Clear as crystal'",
+      "example": "Example sentence using 'Clear as crystal'."
+    },
+    {
+      "word": "Close at hand",
+      "word_id": "en_idiom_close_at_hand",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Close at hand'",
+      "example": "Example sentence using 'Close at hand'."
+    },
+    {
+      "word": "Come true",
+      "word_id": "en_idiom_come_true",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Come true'",
+      "example": "Example sentence using 'Come true'."
+    },
+    {
+      "word": "Count on someone",
+      "word_id": "en_idiom_count_on_someone",
+      "pos": "idiom",
+      "definition": "To rely on or trust someone for support.",
+      "example": "You can always count on your best friends."
+    },
+    {
+      "word": "Cross one's mind",
+      "word_id": "en_idiom_cross_one_s_mind",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Cross one's mind'",
+      "example": "Example sentence using 'Cross one's mind'."
+    },
+    {
+      "word": "Cry wolf",
+      "word_id": "en_idiom_cry_wolf",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Cry wolf'",
+      "example": "Example sentence using 'Cry wolf'."
+    },
+    {
+      "word": "Day and night",
+      "word_id": "en_idiom_day_and_night",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Day and night'",
+      "example": "Example sentence using 'Day and night'."
+    },
+    {
+      "word": "Die out",
+      "word_id": "en_idiom_die_out",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Die out'",
+      "example": "Example sentence using 'Die out'."
+    },
+    {
+      "word": "Do your best",
+      "word_id": "en_idiom_do_your_best",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Do your best'",
+      "example": "Example sentence using 'Do your best'."
+    },
+    {
+      "word": "Drop a line",
+      "word_id": "en_idiom_drop_a_line",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Drop a line'",
+      "example": "Example sentence using 'Drop a line'."
+    },
+    {
+      "word": "Early bird",
+      "word_id": "en_idiom_early_bird",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Early bird'",
+      "example": "Example sentence using 'Early bird'."
+    },
+    {
+      "word": "Every now and then",
+      "word_id": "en_idiom_every_now_and_then",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Every now and then'",
+      "example": "Example sentence using 'Every now and then'."
+    },
+    {
+      "word": "Fall behind",
+      "word_id": "en_idiom_fall_behind",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Fall behind'",
+      "example": "Example sentence using 'Fall behind'."
+    },
+    {
+      "word": "Fall in love",
+      "word_id": "en_idiom_fall_in_love",
+      "pos": "idiom",
+      "definition": "To begin to feel romantic love for someone.",
+      "example": "They fell in love while attending university together."
+    },
+    {
+      "word": "Feel free",
+      "word_id": "en_idiom_feel_free",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Feel free'",
+      "example": "Example sentence using 'Feel free'."
+    },
+    {
+      "word": "Figure out",
+      "word_id": "en_idiom_figure_out",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Figure out'",
+      "example": "Example sentence using 'Figure out'."
+    },
+    {
+      "word": "Fill shoes",
+      "word_id": "en_idiom_fill_shoes",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Fill shoes'",
+      "example": "Example sentence using 'Fill shoes'."
+    },
+    {
+      "word": "From scratch",
+      "word_id": "en_idiom_from_scratch",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'From scratch'",
+      "example": "Example sentence using 'From scratch'."
+    },
+    {
+      "word": "Get rid of",
+      "word_id": "en_idiom_get_rid_of",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Get rid of'",
+      "example": "Example sentence using 'Get rid of'."
+    },
+    {
+      "word": "Get along with",
+      "word_id": "en_idiom_get_along_with",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Get along with'",
+      "example": "Example sentence using 'Get along with'."
+    },
+    {
+      "word": "Give a rain check",
+      "word_id": "en_idiom_give_a_rain_check",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Give a rain check'",
+      "example": "Example sentence using 'Give a rain check'."
+    },
+    {
+      "word": "Give a ride",
+      "word_id": "en_idiom_give_a_ride",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Give a ride'",
+      "example": "Example sentence using 'Give a ride'."
+    },
+    {
+      "word": "Give one's word",
+      "word_id": "en_idiom_give_one_s_word",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Give one's word'",
+      "example": "Example sentence using 'Give one's word'."
+    },
+    {
+      "word": "Go viral",
+      "word_id": "en_idiom_go_viral",
+      "pos": "idiom",
+      "definition": "To become popular very quickly on the internet.",
+      "example": "The funny cat video went viral overnight."
+    },
+    {
+      "word": "Hand down",
+      "word_id": "en_idiom_hand_down",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Hand down'",
+      "example": "Example sentence using 'Hand down'."
+    },
+    {
+      "word": "Hard to believe",
+      "word_id": "en_idiom_hard_to_believe",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Hard to believe'",
+      "example": "Example sentence using 'Hard to believe'."
+    },
+    {
+      "word": "Have a heart of gold",
+      "word_id": "en_idiom_have_a_heart_of_gold",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Have a heart of gold'",
+      "example": "Example sentence using 'Have a heart of gold'."
+    },
+    {
+      "word": "In charge",
+      "word_id": "en_idiom_in_charge",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'In charge'",
+      "example": "Example sentence using 'In charge'."
+    },
+    {
+      "word": "In no time",
+      "word_id": "en_idiom_in_no_time",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'In no time'",
+      "example": "Example sentence using 'In no time'."
+    },
+    {
+      "word": "In the long run",
+      "word_id": "en_idiom_in_the_long_run",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'In the long run'",
+      "example": "Example sentence using 'In the long run'."
+    },
+    {
+      "word": "Keep a secret",
+      "word_id": "en_idiom_keep_a_secret",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Keep a secret'",
+      "example": "Example sentence using 'Keep a secret'."
+    },
+    {
+      "word": "Keep track of",
+      "word_id": "en_idiom_keep_track_of",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Keep track of'",
+      "example": "Example sentence using 'Keep track of'."
+    },
+    {
+      "word": "Know by heart",
+      "word_id": "en_idiom_know_by_heart",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Know by heart'",
+      "example": "Example sentence using 'Know by heart'."
+    },
+    {
+      "word": "Learn by heart",
+      "word_id": "en_idiom_learn_by_heart",
+      "pos": "idiom",
+      "definition": "To memorize something completely.",
+      "example": "In school, we had to learn poems by heart."
+    },
+    {
+      "word": "Leave alone",
+      "word_id": "en_idiom_leave_alone",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Leave alone'",
+      "example": "Example sentence using 'Leave alone'."
+    },
+    {
+      "word": "Look forward to",
+      "word_id": "en_idiom_look_forward_to",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Look forward to'",
+      "example": "Example sentence using 'Look forward to'."
+    },
+    {
+      "word": "Make sense",
+      "word_id": "en_idiom_make_sense",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Make sense'",
+      "example": "Example sentence using 'Make sense'."
+    },
+    {
+      "word": "Nip in the bud",
+      "word_id": "en_idiom_nip_in_the_bud",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Nip in the bud'",
+      "example": "Example sentence using 'Nip in the bud'."
+    },
+    {
+      "word": "On one's own",
+      "word_id": "en_idiom_on_one_s_own",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'On one's own'",
+      "example": "Example sentence using 'On one's own'."
+    },
+    {
+      "word": "Out of hand",
+      "word_id": "en_idiom_out_of_hand",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Out of hand'",
+      "example": "Example sentence using 'Out of hand'."
+    },
+    {
+      "word": "Pay a visit",
+      "word_id": "en_idiom_pay_a_visit",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Pay a visit'",
+      "example": "Example sentence using 'Pay a visit'."
+    },
+    {
+      "word": "Run late",
+      "word_id": "en_idiom_run_late",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Run late'",
+      "example": "Example sentence using 'Run late'."
+    },
+    {
+      "word": "Set an example",
+      "word_id": "en_idiom_set_an_example",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Set an example'",
+      "example": "Example sentence using 'Set an example'."
+    },
+    {
+      "word": "Show up",
+      "word_id": "en_idiom_show_up",
+      "pos": "idiom",
+      "definition": "To arrive or appear at a place.",
+      "example": "He finally showed up an hour late to the meeting."
+    },
+    {
+      "word": "State of the art",
+      "word_id": "en_idiom_state_of_the_art",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'State of the art'",
+      "example": "Example sentence using 'State of the art'."
+    },
+    {
+      "word": "Take part in",
+      "word_id": "en_idiom_take_part_in",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Take part in'",
+      "example": "Example sentence using 'Take part in'."
+    },
+    {
+      "word": "Take place",
+      "word_id": "en_idiom_take_place",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Take place'",
+      "example": "Example sentence using 'Take place'."
+    },
+    {
+      "word": "Under pressure",
+      "word_id": "en_idiom_under_pressure",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Under pressure'",
+      "example": "Example sentence using 'Under pressure'."
+    },
+    {
+      "word": "Word of mouth",
+      "word_id": "en_idiom_word_of_mouth",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Word of mouth'",
+      "example": "Example sentence using 'Word of mouth'."
+    },
+    {
+      "word": "At a glance",
+      "word_id": "en_idiom_at_a_glance",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'At a glance'",
+      "example": "Example sentence using 'At a glance'."
+    },
+    {
+      "word": "Word for word",
+      "word_id": "en_idiom_word_for_word",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Word for word'",
+      "example": "Example sentence using 'Word for word'."
+    },
+    {
+      "word": "Work hard, play hard",
+      "word_id": "en_idiom_work_hard_play_hard",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Work hard, play hard'",
+      "example": "Example sentence using 'Work hard, play hard'."
+    },
+    {
+      "word": "Keep in mind",
+      "word_id": "en_idiom_keep_in_mind",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Keep in mind'",
+      "example": "Example sentence using 'Keep in mind'."
+    },
+    {
+      "word": "Bite the bullet",
+      "word_id": "en_idiom_bite_the_bullet",
+      "pos": "idiom",
+      "definition": "To face a difficult situation with courage.",
+      "example": "I hate going to the dentist, but I had to bite the bullet."
+    },
+    {
+      "word": "Hit the nail on the head",
+      "word_id": "en_idiom_hit_the_nail_on_the_head",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Hit the nail on the head'",
+      "example": "Example sentence using 'Hit the nail on the head'."
+    },
+    {
+      "word": "Burn the midnight oil",
+      "word_id": "en_idiom_burn_the_midnight_oil",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Burn the midnight oil'",
+      "example": "Example sentence using 'Burn the midnight oil'."
+    },
+    {
+      "word": "Cut corners",
+      "word_id": "en_idiom_cut_corners",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Cut corners'",
+      "example": "Example sentence using 'Cut corners'."
+    },
+    {
+      "word": "Through thick and thin",
+      "word_id": "en_idiom_through_thick_and_thin",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Through thick and thin'",
+      "example": "Example sentence using 'Through thick and thin'."
+    },
+    {
+      "word": "Add fuel to the fire",
+      "word_id": "en_idiom_add_fuel_to_the_fire",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Add fuel to the fire'",
+      "example": "Example sentence using 'Add fuel to the fire'."
+    },
+    {
+      "word": "Blessing in disguise",
+      "word_id": "en_idiom_blessing_in_disguise",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Blessing in disguise'",
+      "example": "Example sentence using 'Blessing in disguise'."
+    },
+    {
+      "word": "Don't judge a book by its cover",
+      "word_id": "en_idiom_don_t_judge_a_book_by_its_cover",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Don't judge a book by its cover'",
+      "example": "Example sentence using 'Don't judge a book by its cover'."
+    },
+    {
+      "word": "Every cloud has a silver lining",
+      "word_id": "en_idiom_every_cloud_has_a_silver_lining",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Every cloud has a silver lining'",
+      "example": "Example sentence using 'Every cloud has a silver lining'."
+    },
+    {
+      "word": "A shot in the dark",
+      "word_id": "en_idiom_a_shot_in_the_dark",
+      "pos": "idiom",
+      "definition": "A complete guess without firm evidence.",
+      "example": "His answer was just a shot in the dark, but it was right."
+    },
+    {
+      "word": "Hit the sack",
+      "word_id": "en_idiom_hit_the_sack",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Hit the sack'",
+      "example": "Example sentence using 'Hit the sack'."
+    },
+    {
+      "word": "It takes two to tango",
+      "word_id": "en_idiom_it_takes_two_to_tango",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'It takes two to tango'",
+      "example": "Example sentence using 'It takes two to tango'."
+    },
+    {
+      "word": "Kill two birds with one stone",
+      "word_id": "en_idiom_kill_two_birds_with_one_stone",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Kill two birds with one stone'",
+      "example": "Example sentence using 'Kill two birds with one stone'."
+    },
+    {
+      "word": "Let the cat out of the bag",
+      "word_id": "en_idiom_let_the_cat_out_of_the_bag",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Let the cat out of the bag'",
+      "example": "Example sentence using 'Let the cat out of the bag'."
+    },
+    {
+      "word": "On the ball",
+      "word_id": "en_idiom_on_the_ball",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'On the ball'",
+      "example": "Example sentence using 'On the ball'."
+    },
+    {
+      "word": "Wrap your head around",
+      "word_id": "en_idiom_wrap_your_head_around",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Wrap your head around'",
+      "example": "Example sentence using 'Wrap your head around'."
+    },
+    {
+      "word": "Your guess is as good as mine",
+      "word_id": "en_idiom_your_guess_is_as_good_as_mine",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Your guess is as good as mine'",
+      "example": "Example sentence using 'Your guess is as good as mine'."
+    },
+    {
+      "word": "At the end of the day",
+      "word_id": "en_idiom_at_the_end_of_the_day",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'At the end of the day'",
+      "example": "Example sentence using 'At the end of the day'."
+    },
+    {
+      "word": "Beat around the bush",
+      "word_id": "en_idiom_beat_around_the_bush",
+      "pos": "idiom",
+      "definition": "To avoid speaking directly about a topic.",
+      "example": "Stop beating around the bush and tell me the truth."
+    },
+    {
+      "word": "Ahead of time",
+      "word_id": "en_idiom_ahead_of_time",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Ahead of time'",
+      "example": "Example sentence using 'Ahead of time'."
+    },
+    {
+      "word": "Break the news",
+      "word_id": "en_idiom_break_the_news",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Break the news'",
+      "example": "Example sentence using 'Break the news'."
+    },
+    {
+      "word": "Burn bridges",
+      "word_id": "en_idiom_burn_bridges",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Burn bridges'",
+      "example": "Example sentence using 'Burn bridges'."
+    },
+    {
+      "word": "Catch someone red-handed",
+      "word_id": "en_idiom_catch_someone_red_handed",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Catch someone red-handed'",
+      "example": "Example sentence using 'Catch someone red-handed'."
+    },
+    {
+      "word": "Change of heart",
+      "word_id": "en_idiom_change_of_heart",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Change of heart'",
+      "example": "Example sentence using 'Change of heart'."
+    },
+    {
+      "word": "All set",
+      "word_id": "en_idiom_all_set",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'All set'",
+      "example": "Example sentence using 'All set'."
+    },
+    {
+      "word": "Come across",
+      "word_id": "en_idiom_come_across",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Come across'",
+      "example": "Example sentence using 'Come across'."
+    },
+    {
+      "word": "Cross that bridge when you come to it",
+      "word_id": "en_idiom_cross_that_bridge_when_you_come_to_it",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Cross that bridge when you come to it'",
+      "example": "Example sentence using 'Cross that bridge when you come to it'."
+    },
+    {
+      "word": "Cut to the chase",
+      "word_id": "en_idiom_cut_to_the_chase",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Cut to the chase'",
+      "example": "Example sentence using 'Cut to the chase'."
+    },
+    {
+      "word": "Down to earth",
+      "word_id": "en_idiom_down_to_earth",
+      "pos": "idiom",
+      "definition": "Practical, realistic, and unpretentious.",
+      "example": "Despite her fame, the author is very down to earth."
+    },
+    {
+      "word": "Draw the line",
+      "word_id": "en_idiom_draw_the_line",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Draw the line'",
+      "example": "Example sentence using 'Draw the line'."
+    },
+    {
+      "word": "Fit as a fiddle",
+      "word_id": "en_idiom_fit_as_a_fiddle",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Fit as a fiddle'",
+      "example": "Example sentence using 'Fit as a fiddle'."
+    },
+    {
+      "word": "Follow in someone's footsteps",
+      "word_id": "en_idiom_follow_in_someone_s_footsteps",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Follow in someone's footsteps'",
+      "example": "Example sentence using 'Follow in someone's footsteps'."
+    },
+    {
+      "word": "Get a grip",
+      "word_id": "en_idiom_get_a_grip",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Get a grip'",
+      "example": "Example sentence using 'Get a grip'."
+    },
+    {
+      "word": "Give the cold shoulder",
+      "word_id": "en_idiom_give_the_cold_shoulder",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Give the cold shoulder'",
+      "example": "Example sentence using 'Give the cold shoulder'."
+    },
+    {
+      "word": "Go back to square one",
+      "word_id": "en_idiom_go_back_to_square_one",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Go back to square one'",
+      "example": "Example sentence using 'Go back to square one'."
+    },
+    {
+      "word": "Go the extra mile",
+      "word_id": "en_idiom_go_the_extra_mile",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Go the extra mile'",
+      "example": "Example sentence using 'Go the extra mile'."
+    },
+    {
+      "word": "Have a sweet tooth",
+      "word_id": "en_idiom_have_a_sweet_tooth",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Have a sweet tooth'",
+      "example": "Example sentence using 'Have a sweet tooth'."
+    },
+    {
+      "word": "In a nutshell",
+      "word_id": "en_idiom_in_a_nutshell",
+      "pos": "idiom",
+      "definition": "In a very brief and concise summary.",
+      "example": "In a nutshell, the project was a complete success."
+    },
+    {
+      "word": "Make a long story short",
+      "word_id": "en_idiom_make_a_long_story_short",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Make a long story short'",
+      "example": "Example sentence using 'Make a long story short'."
+    },
+    {
+      "word": "On top of the world",
+      "word_id": "en_idiom_on_top_of_the_world",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'On top of the world'",
+      "example": "Example sentence using 'On top of the world'."
+    },
+    {
+      "word": "Over the moon",
+      "word_id": "en_idiom_over_the_moon",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Over the moon'",
+      "example": "Example sentence using 'Over the moon'."
+    },
+    {
+      "word": "Picture speaks a thousand words",
+      "word_id": "en_idiom_picture_speaks_a_thousand_words",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Picture speaks a thousand words'",
+      "example": "Example sentence using 'Picture speaks a thousand words'."
+    },
+    {
+      "word": "Put all your eggs in one basket",
+      "word_id": "en_idiom_put_all_your_eggs_in_one_basket",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Put all your eggs in one basket'",
+      "example": "Example sentence using 'Put all your eggs in one basket'."
+    },
+    {
+      "word": "Spill one's guts",
+      "word_id": "en_idiom_spill_one_s_guts",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Spill one's guts'",
+      "example": "Example sentence using 'Spill one's guts'."
+    },
+    {
+      "word": "At a loss for words",
+      "word_id": "en_idiom_at_a_loss_for_words",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'At a loss for words'",
+      "example": "Example sentence using 'At a loss for words'."
+    },
+    {
+      "word": "Throw in the towel",
+      "word_id": "en_idiom_throw_in_the_towel",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Throw in the towel'",
+      "example": "Example sentence using 'Throw in the towel'."
+    },
+    {
+      "word": "Tip of the iceberg",
+      "word_id": "en_idiom_tip_of_the_iceberg",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Tip of the iceberg'",
+      "example": "Example sentence using 'Tip of the iceberg'."
+    },
+    {
+      "word": "Up in the air",
+      "word_id": "en_idiom_up_in_the_air",
+      "pos": "idiom",
+      "definition": "Uncertain or not yet settled.",
+      "example": "Our holiday travel plans are still up in the air."
+    },
+    {
+      "word": "Weather the storm",
+      "word_id": "en_idiom_weather_the_storm",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Weather the storm'",
+      "example": "Example sentence using 'Weather the storm'."
+    },
+    {
+      "word": "Clear as day",
+      "word_id": "en_idiom_clear_as_day",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Clear as day'",
+      "example": "Example sentence using 'Clear as day'."
+    },
+    {
+      "word": "Devil's advocate",
+      "word_id": "en_idiom_devil_s_advocate",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Devil's advocate'",
+      "example": "Example sentence using 'Devil's advocate'."
+    },
+    {
+      "word": "Cry over spilt milk",
+      "word_id": "en_idiom_cry_over_spilt_milk",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Cry over spilt milk'",
+      "example": "Example sentence using 'Cry over spilt milk'."
+    },
+    {
+      "word": "Give the benefit of the doubt",
+      "word_id": "en_idiom_give_the_benefit_of_the_doubt",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Give the benefit of the doubt'",
+      "example": "Example sentence using 'Give the benefit of the doubt'."
+    },
+    {
+      "word": "Go down in flames",
+      "word_id": "en_idiom_go_down_in_flames",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Go down in flames'",
+      "example": "Example sentence using 'Go down in flames'."
+    },
+    {
+      "word": "In the heat of the moment",
+      "word_id": "en_idiom_in_the_heat_of_the_moment",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'In the heat of the moment'",
+      "example": "Example sentence using 'In the heat of the moment'."
+    },
+    {
+      "word": "It is not rocket science",
+      "word_id": "en_idiom_it_is_not_rocket_science",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'It is not rocket science'",
+      "example": "Example sentence using 'It is not rocket science'."
+    },
+    {
+      "word": "Off the hook",
+      "word_id": "en_idiom_off_the_hook",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Off the hook'",
+      "example": "Example sentence using 'Off the hook'."
+    },
+    {
+      "word": "On thin ice",
+      "word_id": "en_idiom_on_thin_ice",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'On thin ice'",
+      "example": "Example sentence using 'On thin ice'."
+    },
+    {
+      "word": "Add insult to injury",
+      "word_id": "en_idiom_add_insult_to_injury",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Add insult to injury'",
+      "example": "Example sentence using 'Add insult to injury'."
+    },
+    {
+      "word": "At the drop of a hat",
+      "word_id": "en_idiom_at_the_drop_of_a_hat",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'At the drop of a hat'",
+      "example": "Example sentence using 'At the drop of a hat'."
+    },
+    {
+      "word": "Ball is in your court",
+      "word_id": "en_idiom_ball_is_in_your_court",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Ball is in your court'",
+      "example": "Example sentence using 'Ball is in your court'."
+    },
+    {
+      "word": "Go cold turkey",
+      "word_id": "en_idiom_go_cold_turkey",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Go cold turkey'",
+      "example": "Example sentence using 'Go cold turkey'."
+    },
+    {
+      "word": "Have bigger fish to fry",
+      "word_id": "en_idiom_have_bigger_fish_to_fry",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Have bigger fish to fry'",
+      "example": "Example sentence using 'Have bigger fish to fry'."
+    },
+    {
+      "word": "Ignorance is bliss",
+      "word_id": "en_idiom_ignorance_is_bliss",
+      "pos": "idiom",
+      "definition": "Sometimes it is happier not knowing uncomfortable facts.",
+      "example": "I didn't know about the delay, but ignorance is bliss."
+    },
+    {
+      "word": "Once bitten, twice shy",
+      "word_id": "en_idiom_once_bitten_twice_shy",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Once bitten, twice shy'",
+      "example": "Example sentence using 'Once bitten, twice shy'."
+    },
+    {
+      "word": "Water under the bridge",
+      "word_id": "en_idiom_water_under_the_bridge",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Water under the bridge'",
+      "example": "Example sentence using 'Water under the bridge'."
+    },
+    {
+      "word": "Turn a blind eye",
+      "word_id": "en_idiom_turn_a_blind_eye",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Turn a blind eye'",
+      "example": "Example sentence using 'Turn a blind eye'."
+    },
+    {
+      "word": "Bite the hand that feeds you",
+      "word_id": "en_idiom_bite_the_hand_that_feeds_you",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Bite the hand that feeds you'",
+      "example": "Example sentence using 'Bite the hand that feeds you'."
+    },
+    {
+      "word": "Clear the air",
+      "word_id": "en_idiom_clear_the_air",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Clear the air'",
+      "example": "Example sentence using 'Clear the air'."
+    },
+    {
+      "word": "Come out of left field",
+      "word_id": "en_idiom_come_out_of_left_field",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Come out of left field'",
+      "example": "Example sentence using 'Come out of left field'."
+    },
+    {
+      "word": "Cut from the same cloth",
+      "word_id": "en_idiom_cut_from_the_same_cloth",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Cut from the same cloth'",
+      "example": "Example sentence using 'Cut from the same cloth'."
+    },
+    {
+      "word": "Drive someone up the wall",
+      "word_id": "en_idiom_drive_someone_up_the_wall",
+      "pos": "idiom",
+      "definition": "To annoy or irritate someone intensely.",
+      "example": "The sound of dripping water drives me up the wall."
+    },
+    {
+      "word": "Feather in one's cap",
+      "word_id": "en_idiom_feather_in_one_s_cap",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Feather in one's cap'",
+      "example": "Example sentence using 'Feather in one's cap'."
+    },
+    {
+      "word": "Foot in the door",
+      "word_id": "en_idiom_foot_in_the_door",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Foot in the door'",
+      "example": "Example sentence using 'Foot in the door'."
+    },
+    {
+      "word": "Get your act together",
+      "word_id": "en_idiom_get_your_act_together",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Get your act together'",
+      "example": "Example sentence using 'Get your act together'."
+    },
+    {
+      "word": "In the blink of an eye",
+      "word_id": "en_idiom_in_the_blink_of_an_eye",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'In the blink of an eye'",
+      "example": "Example sentence using 'In the blink of an eye'."
+    },
+    {
+      "word": "Keep someone at arm's length",
+      "word_id": "en_idiom_keep_someone_at_arm_s_length",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Keep someone at arm's length'",
+      "example": "Example sentence using 'Keep someone at arm's length'."
+    },
+    {
+      "word": "Leave well enough alone",
+      "word_id": "en_idiom_leave_well_enough_alone",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Leave well enough alone'",
+      "example": "Example sentence using 'Leave well enough alone'."
+    },
+    {
+      "word": "Let off steam",
+      "word_id": "en_idiom_let_off_steam",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Let off steam'",
+      "example": "Example sentence using 'Let off steam'."
+    },
+    {
+      "word": "Make a mountain out of a molehill",
+      "word_id": "en_idiom_make_a_mountain_out_of_a_molehill",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Make a mountain out of a molehill'",
+      "example": "Example sentence using 'Make a mountain out of a molehill'."
+    },
+    {
+      "word": "Off the beaten track",
+      "word_id": "en_idiom_off_the_beaten_track",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Off the beaten track'",
+      "example": "Example sentence using 'Off the beaten track'."
+    },
+    {
+      "word": "On a roll",
+      "word_id": "en_idiom_on_a_roll",
+      "pos": "idiom",
+      "definition": "Experiencing a continuous period of success.",
+      "example": "Our team has won five matches in a row; we are on a roll."
+    },
+    {
+      "word": "Pay through the nose",
+      "word_id": "en_idiom_pay_through_the_nose",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Pay through the nose'",
+      "example": "Example sentence using 'Pay through the nose'."
+    },
+    {
+      "word": "Playing with fire",
+      "word_id": "en_idiom_playing_with_fire",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Playing with fire'",
+      "example": "Example sentence using 'Playing with fire'."
+    },
+    {
+      "word": "Pull strings",
+      "word_id": "en_idiom_pull_strings",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Pull strings'",
+      "example": "Example sentence using 'Pull strings'."
+    },
+    {
+      "word": "Put one's foot down",
+      "word_id": "en_idiom_put_one_s_foot_down",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Put one's foot down'",
+      "example": "Example sentence using 'Put one's foot down'."
+    },
+    {
+      "word": "Raise the bar",
+      "word_id": "en_idiom_raise_the_bar",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Raise the bar'",
+      "example": "Example sentence using 'Raise the bar'."
+    },
+    {
+      "word": "Read between the lines",
+      "word_id": "en_idiom_read_between_the_lines",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Read between the lines'",
+      "example": "Example sentence using 'Read between the lines'."
+    },
+    {
+      "word": "Red tape",
+      "word_id": "en_idiom_red_tape",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Red tape'",
+      "example": "Example sentence using 'Red tape'."
+    },
+    {
+      "word": "Safe bet",
+      "word_id": "en_idiom_safe_bet",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Safe bet'",
+      "example": "Example sentence using 'Safe bet'."
+    },
+    {
+      "word": "Shoot oneself in the foot",
+      "word_id": "en_idiom_shoot_oneself_in_the_foot",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Shoot oneself in the foot'",
+      "example": "Example sentence using 'Shoot oneself in the foot'."
+    },
+    {
+      "word": "Sit on the fence",
+      "word_id": "en_idiom_sit_on_the_fence",
+      "pos": "idiom",
+      "definition": "To remain neutral and refrain from choosing sides.",
+      "example": "You can't sit on the fence forever; make a choice."
+    },
+    {
+      "word": "Spitting image",
+      "word_id": "en_idiom_spitting_image",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Spitting image'",
+      "example": "Example sentence using 'Spitting image'."
+    },
+    {
+      "word": "Take the high road",
+      "word_id": "en_idiom_take_the_high_road",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Take the high road'",
+      "example": "Example sentence using 'Take the high road'."
+    },
+    {
+      "word": "Taste of one's own medicine",
+      "word_id": "en_idiom_taste_of_one_s_own_medicine",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Taste of one's own medicine'",
+      "example": "Example sentence using 'Taste of one's own medicine'."
+    },
+    {
+      "word": "Tie the knot",
+      "word_id": "en_idiom_tie_the_knot",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Tie the knot'",
+      "example": "Example sentence using 'Tie the knot'."
+    },
+    {
+      "word": "Turn the tide",
+      "word_id": "en_idiom_turn_the_tide",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Turn the tide'",
+      "example": "Example sentence using 'Turn the tide'."
+    },
+    {
+      "word": "Under the thumb of",
+      "word_id": "en_idiom_under_the_thumb_of",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Under the thumb of'",
+      "example": "Example sentence using 'Under the thumb of'."
+    },
+    {
+      "word": "Up to par",
+      "word_id": "en_idiom_up_to_par",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Up to par'",
+      "example": "Example sentence using 'Up to par'."
+    },
+    {
+      "word": "Walking on eggshells",
+      "word_id": "en_idiom_walking_on_eggshells",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Walking on eggshells'",
+      "example": "Example sentence using 'Walking on eggshells'."
+    },
+    {
+      "word": "Weight off one's shoulders",
+      "word_id": "en_idiom_weight_off_one_s_shoulders",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Weight off one's shoulders'",
+      "example": "Example sentence using 'Weight off one's shoulders'."
+    },
+    {
+      "word": "Bite one's lip",
+      "word_id": "en_idiom_bite_one_s_lip",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Bite one's lip'",
+      "example": "Example sentence using 'Bite one's lip'."
+    },
+    {
+      "word": "Call it quits",
+      "word_id": "en_idiom_call_it_quits",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Call it quits'",
+      "example": "Example sentence using 'Call it quits'."
+    },
+    {
+      "word": "Cast light on",
+      "word_id": "en_idiom_cast_light_on",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Cast light on'",
+      "example": "Example sentence using 'Cast light on'."
+    },
+    {
+      "word": "Check out",
+      "word_id": "en_idiom_check_out",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Check out'",
+      "example": "Example sentence using 'Check out'."
+    },
+    {
+      "word": "Climb the ladder",
+      "word_id": "en_idiom_climb_the_ladder",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Climb the ladder'",
+      "example": "Example sentence using 'Climb the ladder'."
+    },
+    {
+      "word": "Come to grips with",
+      "word_id": "en_idiom_come_to_grips_with",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Come to grips with'",
+      "example": "Example sentence using 'Come to grips with'."
+    },
+    {
+      "word": "Cut to the bone",
+      "word_id": "en_idiom_cut_to_the_bone",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Cut to the bone'",
+      "example": "Example sentence using 'Cut to the bone'."
+    },
+    {
+      "word": "Dance to someone's tune",
+      "word_id": "en_idiom_dance_to_someone_s_tune",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Dance to someone's tune'",
+      "example": "Example sentence using 'Dance to someone's tune'."
+    },
+    {
+      "word": "Down the line",
+      "word_id": "en_idiom_down_the_line",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Down the line'",
+      "example": "Example sentence using 'Down the line'."
+    },
+    {
+      "word": "Drag one's feet",
+      "word_id": "en_idiom_drag_one_s_feet",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Drag one's feet'",
+      "example": "Example sentence using 'Drag one's feet'."
+    },
+    {
+      "word": "Draw a blank",
+      "word_id": "en_idiom_draw_a_blank",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Draw a blank'",
+      "example": "Example sentence using 'Draw a blank'."
+    },
+    {
+      "word": "Eat one's words",
+      "word_id": "en_idiom_eat_one_s_words",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Eat one's words'",
+      "example": "Example sentence using 'Eat one's words'."
+    },
+    {
+      "word": "Facing the music",
+      "word_id": "en_idiom_facing_the_music",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Facing the music'",
+      "example": "Example sentence using 'Facing the music'."
+    },
+    {
+      "word": "Fall on deaf ears",
+      "word_id": "en_idiom_fall_on_deaf_ears",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Fall on deaf ears'",
+      "example": "Example sentence using 'Fall on deaf ears'."
+    },
+    {
+      "word": "Fill in the blanks",
+      "word_id": "en_idiom_fill_in_the_blanks",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Fill in the blanks'",
+      "example": "Example sentence using 'Fill in the blanks'."
+    },
+    {
+      "word": "Foot the bill",
+      "word_id": "en_idiom_foot_the_bill",
+      "pos": "idiom",
+      "definition": "To pay the costs or expense for something.",
+      "example": "The company agreed to foot the bill for the dinner."
+    },
+    {
+      "word": "Get wind of",
+      "word_id": "en_idiom_get_wind_of",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Get wind of'",
+      "example": "Example sentence using 'Get wind of'."
+    },
+    {
+      "word": "Go hand in hand",
+      "word_id": "en_idiom_go_hand_in_hand",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Go hand in hand'",
+      "example": "Example sentence using 'Go hand in hand'."
+    },
+    {
+      "word": "Grin and bear it",
+      "word_id": "en_idiom_grin_and_bear_it",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Grin and bear it'",
+      "example": "Example sentence using 'Grin and bear it'."
+    },
+    {
+      "word": "Hang in there",
+      "word_id": "en_idiom_hang_in_there",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Hang in there'",
+      "example": "Example sentence using 'Hang in there'."
+    },
+    {
+      "word": "Down to the wire",
+      "word_id": "en_idiom_down_to_the_wire",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Down to the wire'",
+      "example": "Example sentence using 'Down to the wire'."
+    },
+    {
+      "word": "Hit the ground running",
+      "word_id": "en_idiom_hit_the_ground_running",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Hit the ground running'",
+      "example": "Example sentence using 'Hit the ground running'."
+    },
+    {
+      "word": "In full swing",
+      "word_id": "en_idiom_in_full_swing",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'In full swing'",
+      "example": "Example sentence using 'In full swing'."
+    },
+    {
+      "word": "Know the ropes",
+      "word_id": "en_idiom_know_the_ropes",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Know the ropes'",
+      "example": "Example sentence using 'Know the ropes'."
+    },
+    {
+      "word": "Lay off",
+      "word_id": "en_idiom_lay_off",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Lay off'",
+      "example": "Example sentence using 'Lay off'."
+    },
+    {
+      "word": "Learn the ropes",
+      "word_id": "en_idiom_learn_the_ropes",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Learn the ropes'",
+      "example": "Example sentence using 'Learn the ropes'."
+    },
+    {
+      "word": "Live and let live",
+      "word_id": "en_idiom_live_and_let_live",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Live and let live'",
+      "example": "Example sentence using 'Live and let live'."
+    },
+    {
+      "word": "Make light of",
+      "word_id": "en_idiom_make_light_of",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Make light of'",
+      "example": "Example sentence using 'Make light of'."
+    },
+    {
+      "word": "Mark my words",
+      "word_id": "en_idiom_mark_my_words",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Mark my words'",
+      "example": "Example sentence using 'Mark my words'."
+    },
+    {
+      "word": "Mind the gap",
+      "word_id": "en_idiom_mind_the_gap",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Mind the gap'",
+      "example": "Example sentence using 'Mind the gap'."
+    },
+    {
+      "word": "On second thought",
+      "word_id": "en_idiom_on_second_thought",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'On second thought'",
+      "example": "Example sentence using 'On second thought'."
+    },
+    {
+      "word": "Blow hot and cold",
+      "word_id": "en_idiom_blow_hot_and_cold",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Blow hot and cold'",
+      "example": "Example sentence using 'Blow hot and cold'."
+    },
+    {
+      "word": "Bring to light",
+      "word_id": "en_idiom_bring_to_light",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Bring to light'",
+      "example": "Example sentence using 'Bring to light'."
+    },
+    {
+      "word": "Bury the hatchet",
+      "word_id": "en_idiom_bury_the_hatchet",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Bury the hatchet'",
+      "example": "Example sentence using 'Bury the hatchet'."
+    },
+    {
+      "word": "Butter someone up",
+      "word_id": "en_idiom_butter_someone_up",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Butter someone up'",
+      "example": "Example sentence using 'Butter someone up'."
+    },
+    {
+      "word": "By and large",
+      "word_id": "en_idiom_by_and_large",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'By and large'",
+      "example": "Example sentence using 'By and large'."
+    },
+    {
+      "word": "Call a spade a spade",
+      "word_id": "en_idiom_call_a_spade_a_spade",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Call a spade a spade'",
+      "example": "Example sentence using 'Call a spade a spade'."
+    },
+    {
+      "word": "Catch someone off guard",
+      "word_id": "en_idiom_catch_someone_off_guard",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Catch someone off guard'",
+      "example": "Example sentence using 'Catch someone off guard'."
+    },
+    {
+      "word": "Pot calling the kettle black",
+      "word_id": "en_idiom_pot_calling_the_kettle_black",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Pot calling the kettle black'",
+      "example": "Example sentence using 'Pot calling the kettle black'."
+    },
+    {
+      "word": "A dime a dozen",
+      "word_id": "en_idiom_a_dime_a_dozen",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'A dime a dozen'",
+      "example": "Example sentence using 'A dime a dozen'."
+    },
+    {
+      "word": "Easy as pie",
+      "word_id": "en_idiom_easy_as_pie",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Easy as pie'",
+      "example": "Example sentence using 'Easy as pie'."
+    },
+    {
+      "word": "Climb the corporate ladder",
+      "word_id": "en_idiom_climb_the_corporate_ladder",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Climb the corporate ladder'",
+      "example": "Example sentence using 'Climb the corporate ladder'."
+    },
+    {
+      "word": "Chew the cud",
+      "word_id": "en_idiom_chew_the_cud",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Chew the cud'",
+      "example": "Example sentence using 'Chew the cud'."
+    },
+    {
+      "word": "Clean slate",
+      "word_id": "en_idiom_clean_slate",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Clean slate'",
+      "example": "Example sentence using 'Clean slate'."
+    },
+    {
+      "word": "Close call",
+      "word_id": "en_idiom_close_call",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Close call'",
+      "example": "Example sentence using 'Close call'."
+    },
+    {
+      "word": "Come full circle",
+      "word_id": "en_idiom_come_full_circle",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Come full circle'",
+      "example": "Example sentence using 'Come full circle'."
+    },
+    {
+      "word": "Cook the books",
+      "word_id": "en_idiom_cook_the_books",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Cook the books'",
+      "example": "Example sentence using 'Cook the books'."
+    },
+    {
+      "word": "Couch potato",
+      "word_id": "en_idiom_couch_potato",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Couch potato'",
+      "example": "Example sentence using 'Couch potato'."
+    },
+    {
+      "word": "Dark horse",
+      "word_id": "en_idiom_dark_horse",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Dark horse'",
+      "example": "Example sentence using 'Dark horse'."
+    },
+    {
+      "word": "Dead end",
+      "word_id": "en_idiom_dead_end",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Dead end'",
+      "example": "Example sentence using 'Dead end'."
+    },
+    {
+      "word": "Dog-eat-dog",
+      "word_id": "en_idiom_dog_eat_dog",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Dog-eat-dog'",
+      "example": "Example sentence using 'Dog-eat-dog'."
+    },
+    {
+      "word": "Don't hold your breath",
+      "word_id": "en_idiom_don_t_hold_your_breath",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Don't hold your breath'",
+      "example": "Example sentence using 'Don't hold your breath'."
+    },
+    {
+      "word": "Double-edged sword",
+      "word_id": "en_idiom_double_edged_sword",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Double-edged sword'",
+      "example": "Example sentence using 'Double-edged sword'."
+    },
+    {
+      "word": "Hit the spot",
+      "word_id": "en_idiom_hit_the_spot",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Hit the spot'",
+      "example": "Example sentence using 'Hit the spot'."
+    },
+    {
+      "word": "Draw a line in the sand",
+      "word_id": "en_idiom_draw_a_line_in_the_sand",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Draw a line in the sand'",
+      "example": "Example sentence using 'Draw a line in the sand'."
+    },
+    {
+      "word": "Drop a bombshell",
+      "word_id": "en_idiom_drop_a_bombshell",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Drop a bombshell'",
+      "example": "Example sentence using 'Drop a bombshell'."
+    },
+    {
+      "word": "Elbow grease",
+      "word_id": "en_idiom_elbow_grease",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Elbow grease'",
+      "example": "Example sentence using 'Elbow grease'."
+    },
+    {
+      "word": "Fair-weather friend",
+      "word_id": "en_idiom_fair_weather_friend",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Fair-weather friend'",
+      "example": "Example sentence using 'Fair-weather friend'."
+    },
+    {
+      "word": "Feather your nest",
+      "word_id": "en_idiom_feather_your_nest",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Feather your nest'",
+      "example": "Example sentence using 'Feather your nest'."
+    },
+    {
+      "word": "Fishy situation",
+      "word_id": "en_idiom_fishy_situation",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Fishy situation'",
+      "example": "Example sentence using 'Fishy situation'."
+    },
+    {
+      "word": "Food for thought",
+      "word_id": "en_idiom_food_for_thought",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Food for thought'",
+      "example": "Example sentence using 'Food for thought'."
+    },
+    {
+      "word": "From the horse's mouth",
+      "word_id": "en_idiom_from_the_horse_s_mouth",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'From the horse's mouth'",
+      "example": "Example sentence using 'From the horse's mouth'."
+    },
+    {
+      "word": "Full of hot air",
+      "word_id": "en_idiom_full_of_hot_air",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Full of hot air'",
+      "example": "Example sentence using 'Full of hot air'."
+    },
+    {
+      "word": "Get off on the wrong foot",
+      "word_id": "en_idiom_get_off_on_the_wrong_foot",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Get off on the wrong foot'",
+      "example": "Example sentence using 'Get off on the wrong foot'."
+    },
+    {
+      "word": "Go out on a limb",
+      "word_id": "en_idiom_go_out_on_a_limb",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Go out on a limb'",
+      "example": "Example sentence using 'Go out on a limb'."
+    },
+    {
+      "word": "Green thumb",
+      "word_id": "en_idiom_green_thumb",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Green thumb'",
+      "example": "Example sentence using 'Green thumb'."
+    },
+    {
+      "word": "Grease someone's palm",
+      "word_id": "en_idiom_grease_someone_s_palm",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Grease someone's palm'",
+      "example": "Example sentence using 'Grease someone's palm'."
+    },
+    {
+      "word": "Hard nut to crack",
+      "word_id": "en_idiom_hard_nut_to_crack",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Hard nut to crack'",
+      "example": "Example sentence using 'Hard nut to crack'."
+    },
+    {
+      "word": "Head over heels",
+      "word_id": "en_idiom_head_over_heels",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Head over heels'",
+      "example": "Example sentence using 'Head over heels'."
+    },
+    {
+      "word": "Hit the road",
+      "word_id": "en_idiom_hit_the_road",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Hit the road'",
+      "example": "Example sentence using 'Hit the road'."
+    },
+    {
+      "word": "In a pickle",
+      "word_id": "en_idiom_in_a_pickle",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'In a pickle'",
+      "example": "Example sentence using 'In a pickle'."
+    },
+    {
+      "word": "Keep at bay",
+      "word_id": "en_idiom_keep_at_bay",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Keep at bay'",
+      "example": "Example sentence using 'Keep at bay'."
+    },
+    {
+      "word": "Knock on wood",
+      "word_id": "en_idiom_knock_on_wood",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Knock on wood'",
+      "example": "Example sentence using 'Knock on wood'."
+    },
+    {
+      "word": "Let the chips fall where they may",
+      "word_id": "en_idiom_let_the_chips_fall_where_they_may",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Let the chips fall where they may'",
+      "example": "Example sentence using 'Let the chips fall where they may'."
+    },
+    {
+      "word": "Lock horns",
+      "word_id": "en_idiom_lock_horns",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Lock horns'",
+      "example": "Example sentence using 'Lock horns'."
+    },
+    {
+      "word": "Loose cannon",
+      "word_id": "en_idiom_loose_cannon",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Loose cannon'",
+      "example": "Example sentence using 'Loose cannon'."
+    },
+    {
+      "word": "Make head or tail of",
+      "word_id": "en_idiom_make_head_or_tail_of",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Make head or tail of'",
+      "example": "Example sentence using 'Make head or tail of'."
+    },
+    {
+      "word": "No strings attached",
+      "word_id": "en_idiom_no_strings_attached",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'No strings attached'",
+      "example": "Example sentence using 'No strings attached'."
+    },
+    {
+      "word": "Off the cuff",
+      "word_id": "en_idiom_off_the_cuff",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Off the cuff'",
+      "example": "Example sentence using 'Off the cuff'."
+    },
+    {
+      "word": "On a shoestring",
+      "word_id": "en_idiom_on_a_shoestring",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'On a shoestring'",
+      "example": "Example sentence using 'On a shoestring'."
+    },
+    {
+      "word": "Open a can of worms",
+      "word_id": "en_idiom_open_a_can_of_worms",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Open a can of worms'",
+      "example": "Example sentence using 'Open a can of worms'."
+    },
+    {
+      "word": "Pass the buck",
+      "word_id": "en_idiom_pass_the_buck",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Pass the buck'",
+      "example": "Example sentence using 'Pass the buck'."
+    },
+    {
+      "word": "Pay the piper",
+      "word_id": "en_idiom_pay_the_piper",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Pay the piper'",
+      "example": "Example sentence using 'Pay the piper'."
+    },
+    {
+      "word": "Play second fiddle",
+      "word_id": "en_idiom_play_second_fiddle",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Play second fiddle'",
+      "example": "Example sentence using 'Play second fiddle'."
+    },
+    {
+      "word": "Put a damper on",
+      "word_id": "en_idiom_put_a_damper_on",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Put a damper on'",
+      "example": "Example sentence using 'Put a damper on'."
+    },
+    {
+      "word": "Real McCoy",
+      "word_id": "en_idiom_real_mccoy",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Real McCoy'",
+      "example": "Example sentence using 'Real McCoy'."
+    },
+    {
+      "word": "Red herring",
+      "word_id": "en_idiom_red_herring",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Red herring'",
+      "example": "Example sentence using 'Red herring'."
+    },
+    {
+      "word": "Run-of-the-mill",
+      "word_id": "en_idiom_run_of_the_mill",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Run-of-the-mill'",
+      "example": "Example sentence using 'Run-of-the-mill'."
+    },
+    {
+      "word": "See the big picture",
+      "word_id": "en_idiom_see_the_big_picture",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'See the big picture'",
+      "example": "Example sentence using 'See the big picture'."
+    },
+    {
+      "word": "Keep your cool",
+      "word_id": "en_idiom_keep_your_cool",
+      "pos": "idiom",
+      "definition": "To stay calm in a stressful situation.",
+      "example": "It is crucial to keep your cool during emergencies."
+    },
+    {
+      "word": "Stick to your guns",
+      "word_id": "en_idiom_stick_to_your_guns",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Stick to your guns'",
+      "example": "Example sentence using 'Stick to your guns'."
+    },
+    {
+      "word": "Straw that broke the camel's back",
+      "word_id": "en_idiom_straw_that_broke_the_camel_s_back",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Straw that broke the camel's back'",
+      "example": "Example sentence using 'Straw that broke the camel's back'."
+    },
+    {
+      "word": "Sweeten the pot",
+      "word_id": "en_idiom_sweeten_the_pot",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Sweeten the pot'",
+      "example": "Example sentence using 'Sweeten the pot'."
+    },
+    {
+      "word": "Throw under the bus",
+      "word_id": "en_idiom_throw_under_the_bus",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Throw under the bus'",
+      "example": "Example sentence using 'Throw under the bus'."
+    },
+    {
+      "word": "Tooth and nail",
+      "word_id": "en_idiom_tooth_and_nail",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Tooth and nail'",
+      "example": "Example sentence using 'Tooth and nail'."
+    },
+    {
+      "word": "Touch and go",
+      "word_id": "en_idiom_touch_and_go",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Touch and go'",
+      "example": "Example sentence using 'Touch and go'."
+    },
+    {
+      "word": "White elephant",
+      "word_id": "en_idiom_white_elephant",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'White elephant'",
+      "example": "Example sentence using 'White elephant'."
+    },
+    {
+      "word": "All in a day's work",
+      "word_id": "en_idiom_all_in_a_day_s_work",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'All in a day's work'",
+      "example": "Example sentence using 'All in a day's work'."
+    },
+    {
+      "word": "At a crossroads",
+      "word_id": "en_idiom_at_a_crossroads",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'At a crossroads'",
+      "example": "Example sentence using 'At a crossroads'."
+    },
+    {
+      "word": "Back to the salt mines",
+      "word_id": "en_idiom_back_to_the_salt_mines",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Back to the salt mines'",
+      "example": "Example sentence using 'Back to the salt mines'."
+    },
+    {
+      "word": "Bottom line",
+      "word_id": "en_idiom_bottom_line",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Bottom line'",
+      "example": "Example sentence using 'Bottom line'."
+    },
+    {
+      "word": "Break ground",
+      "word_id": "en_idiom_break_ground",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Break ground'",
+      "example": "Example sentence using 'Break ground'."
+    },
+    {
+      "word": "By a hair's breadth",
+      "word_id": "en_idiom_by_a_hair_s_breadth",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'By a hair's breadth'",
+      "example": "Example sentence using 'By a hair's breadth'."
+    },
+    {
+      "word": "Call it a night",
+      "word_id": "en_idiom_call_it_a_night",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Call it a night'",
+      "example": "Example sentence using 'Call it a night'."
+    },
+    {
+      "word": "Carry the torch",
+      "word_id": "en_idiom_carry_the_torch",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Carry the torch'",
+      "example": "Example sentence using 'Carry the torch'."
+    },
+    {
+      "word": "Cast a wide net",
+      "word_id": "en_idiom_cast_a_wide_net",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Cast a wide net'",
+      "example": "Example sentence using 'Cast a wide net'."
+    },
+    {
+      "word": "Catch someone napping",
+      "word_id": "en_idiom_catch_someone_napping",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Catch someone napping'",
+      "example": "Example sentence using 'Catch someone napping'."
+    },
+    {
+      "word": "Champ at the bit",
+      "word_id": "en_idiom_champ_at_the_bit",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Champ at the bit'",
+      "example": "Example sentence using 'Champ at the bit'."
+    },
+    {
+      "word": "Clear the hurdles",
+      "word_id": "en_idiom_clear_the_hurdles",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Clear the hurdles'",
+      "example": "Example sentence using 'Clear the hurdles'."
+    },
+    {
+      "word": "Come clean",
+      "word_id": "en_idiom_come_clean",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Come clean'",
+      "example": "Example sentence using 'Come clean'."
+    },
+    {
+      "word": "Cook up a storm",
+      "word_id": "en_idiom_cook_up_a_storm",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Cook up a storm'",
+      "example": "Example sentence using 'Cook up a storm'."
+    },
+    {
+      "word": "Cut a long story short",
+      "word_id": "en_idiom_cut_a_long_story_short",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Cut a long story short'",
+      "example": "Example sentence using 'Cut a long story short'."
+    },
+    {
+      "word": "Cut both ways",
+      "word_id": "en_idiom_cut_both_ways",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Cut both ways'",
+      "example": "Example sentence using 'Cut both ways'."
+    },
+    {
+      "word": "Dead set against",
+      "word_id": "en_idiom_dead_set_against",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Dead set against'",
+      "example": "Example sentence using 'Dead set against'."
+    },
+    {
+      "word": "Dig one's heels in",
+      "word_id": "en_idiom_dig_one_s_heels_in",
+      "pos": "idiom",
+      "definition": "To stubbornly refuse to change one's position.",
+      "example": "He dug his heels in and refused to compromise."
+    },
+    {
+      "word": "Do a double take",
+      "word_id": "en_idiom_do_a_double_take",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Do a double take'",
+      "example": "Example sentence using 'Do a double take'."
+    },
+    {
+      "word": "Dollars to donuts",
+      "word_id": "en_idiom_dollars_to_donuts",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Dollars to donuts'",
+      "example": "Example sentence using 'Dollars to donuts'."
+    },
+    {
+      "word": "Don't push your luck",
+      "word_id": "en_idiom_don_t_push_your_luck",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Don't push your luck'",
+      "example": "Example sentence using 'Don't push your luck'."
+    },
+    {
+      "word": "Drag one's name through the mud",
+      "word_id": "en_idiom_drag_one_s_name_through_the_mud",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Drag one's name through the mud'",
+      "example": "Example sentence using 'Drag one's name through the mud'."
+    },
+    {
+      "word": "Draw a line under",
+      "word_id": "en_idiom_draw_a_line_under",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Draw a line under'",
+      "example": "Example sentence using 'Draw a line under'."
+    },
+    {
+      "word": "Drop the ball",
+      "word_id": "en_idiom_drop_the_ball",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Drop the ball'",
+      "example": "Example sentence using 'Drop the ball'."
+    },
+    {
+      "word": "Even the score",
+      "word_id": "en_idiom_even_the_score",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Even the score'",
+      "example": "Example sentence using 'Even the score'."
+    },
+    {
+      "word": "Face value",
+      "word_id": "en_idiom_face_value",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Face value'",
+      "example": "Example sentence using 'Face value'."
+    },
+    {
+      "word": "Falling into place",
+      "word_id": "en_idiom_falling_into_place",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Falling into place'",
+      "example": "Example sentence using 'Falling into place'."
+    },
+    {
+      "word": "Fight a losing battle",
+      "word_id": "en_idiom_fight_a_losing_battle",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Fight a losing battle'",
+      "example": "Example sentence using 'Fight a losing battle'."
+    },
+    {
+      "word": "Fill the void",
+      "word_id": "en_idiom_fill_the_void",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Fill the void'",
+      "example": "Example sentence using 'Fill the void'."
+    },
+    {
+      "word": "Fine-tooth comb",
+      "word_id": "en_idiom_fine_tooth_comb",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Fine-tooth comb'",
+      "example": "Example sentence using 'Fine-tooth comb'."
+    },
+    {
+      "word": "Fish for compliments",
+      "word_id": "en_idiom_fish_for_compliments",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Fish for compliments'",
+      "example": "Example sentence using 'Fish for compliments'."
+    },
+    {
+      "word": "Fly under the radar",
+      "word_id": "en_idiom_fly_under_the_radar",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Fly under the radar'",
+      "example": "Example sentence using 'Fly under the radar'."
+    },
+    {
+      "word": "Follow suit",
+      "word_id": "en_idiom_follow_suit",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Follow suit'",
+      "example": "Example sentence using 'Follow suit'."
+    },
+    {
+      "word": "For good measure",
+      "word_id": "en_idiom_for_good_measure",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'For good measure'",
+      "example": "Example sentence using 'For good measure'."
+    },
+    {
+      "word": "From the ground up",
+      "word_id": "en_idiom_from_the_ground_up",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'From the ground up'",
+      "example": "Example sentence using 'From the ground up'."
+    },
+    {
+      "word": "Gain upper hand",
+      "word_id": "en_idiom_gain_upper_hand",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Gain upper hand'",
+      "example": "Example sentence using 'Gain upper hand'."
+    },
+    {
+      "word": "Last minute",
+      "word_id": "en_idiom_last_minute",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Last minute'",
+      "example": "Example sentence using 'Last minute'."
+    },
+    {
+      "word": "Get a second wind",
+      "word_id": "en_idiom_get_a_second_wind",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Get a second wind'",
+      "example": "Example sentence using 'Get a second wind'."
+    },
+    {
+      "word": "Get one's story straight",
+      "word_id": "en_idiom_get_one_s_story_straight",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Get one's story straight'",
+      "example": "Example sentence using 'Get one's story straight'."
+    },
+    {
+      "word": "Give a run for one's money",
+      "word_id": "en_idiom_give_a_run_for_one_s_money",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Give a run for one's money'",
+      "example": "Example sentence using 'Give a run for one's money'."
+    },
+    {
+      "word": "Give or take",
+      "word_id": "en_idiom_give_or_take",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Give or take'",
+      "example": "Example sentence using 'Give or take'."
+    },
+    {
+      "word": "Go down the drain",
+      "word_id": "en_idiom_go_down_the_drain",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Go down the drain'",
+      "example": "Example sentence using 'Go down the drain'."
+    },
+    {
+      "word": "Go over big",
+      "word_id": "en_idiom_go_over_big",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Go over big'",
+      "example": "Example sentence using 'Go over big'."
+    },
+    {
+      "word": "Grease the wheels",
+      "word_id": "en_idiom_grease_the_wheels",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Grease the wheels'",
+      "example": "Example sentence using 'Grease the wheels'."
+    },
+    {
+      "word": "Green light",
+      "word_id": "en_idiom_green_light",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Green light'",
+      "example": "Example sentence using 'Green light'."
+    },
+    {
+      "word": "Hammer out",
+      "word_id": "en_idiom_hammer_out",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Hammer out'",
+      "example": "Example sentence using 'Hammer out'."
+    },
+    {
+      "word": "Hand over fist",
+      "word_id": "en_idiom_hand_over_fist",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Hand over fist'",
+      "example": "Example sentence using 'Hand over fist'."
+    },
+    {
+      "word": "Hard act to follow",
+      "word_id": "en_idiom_hard_act_to_follow",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Hard act to follow'",
+      "example": "Example sentence using 'Hard act to follow'."
+    },
+    {
+      "word": "Have a blast",
+      "word_id": "en_idiom_have_a_blast",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Have a blast'",
+      "example": "Example sentence using 'Have a blast'."
+    },
+    {
+      "word": "Have a lot on one's plate",
+      "word_id": "en_idiom_have_a_lot_on_one_s_plate",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Have a lot on one's plate'",
+      "example": "Example sentence using 'Have a lot on one's plate'."
+    },
+    {
+      "word": "Hit a brick wall",
+      "word_id": "en_idiom_hit_a_brick_wall",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Hit a brick wall'",
+      "example": "Example sentence using 'Hit a brick wall'."
+    },
+    {
+      "word": "Hit a snag",
+      "word_id": "en_idiom_hit_a_snag",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Hit a snag'",
+      "example": "Example sentence using 'Hit a snag'."
+    },
+    {
+      "word": "In the pipeline",
+      "word_id": "en_idiom_in_the_pipeline",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'In the pipeline'",
+      "example": "Example sentence using 'In the pipeline'."
+    },
+    {
+      "word": "In a heartbeat",
+      "word_id": "en_idiom_in_a_heartbeat",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'In a heartbeat'",
+      "example": "Example sentence using 'In a heartbeat'."
+    },
+    {
+      "word": "In the loop",
+      "word_id": "en_idiom_in_the_loop",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'In the loop'",
+      "example": "Example sentence using 'In the loop'."
+    },
+    {
+      "word": "Iron out",
+      "word_id": "en_idiom_iron_out",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Iron out'",
+      "example": "Example sentence using 'Iron out'."
+    },
+    {
+      "word": "Jump the gun",
+      "word_id": "en_idiom_jump_the_gun",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Jump the gun'",
+      "example": "Example sentence using 'Jump the gun'."
+    },
+    {
+      "word": "Keep one's head above water",
+      "word_id": "en_idiom_keep_one_s_head_above_water",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Keep one's head above water'",
+      "example": "Example sentence using 'Keep one's head above water'."
+    },
+    {
+      "word": "Knock it out of the park",
+      "word_id": "en_idiom_knock_it_out_of_the_park",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Knock it out of the park'",
+      "example": "Example sentence using 'Knock it out of the park'."
+    },
+    {
+      "word": "Know the score",
+      "word_id": "en_idiom_know_the_score",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Know the score'",
+      "example": "Example sentence using 'Know the score'."
+    },
+    {
+      "word": "Lend an ear",
+      "word_id": "en_idiom_lend_an_ear",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Lend an ear'",
+      "example": "Example sentence using 'Lend an ear'."
+    },
+    {
+      "word": "Like clockwork",
+      "word_id": "en_idiom_like_clockwork",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Like clockwork'",
+      "example": "Example sentence using 'Like clockwork'."
+    },
+    {
+      "word": "Long shot",
+      "word_id": "en_idiom_long_shot",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Long shot'",
+      "example": "Example sentence using 'Long shot'."
+    },
+    {
+      "word": "Look before you leap",
+      "word_id": "en_idiom_look_before_you_leap",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Look before you leap'",
+      "example": "Example sentence using 'Look before you leap'."
+    },
+    {
+      "word": "Make a dent",
+      "word_id": "en_idiom_make_a_dent",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Make a dent'",
+      "example": "Example sentence using 'Make a dent'."
+    },
+    {
+      "word": "Make a splash",
+      "word_id": "en_idiom_make_a_splash",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Make a splash'",
+      "example": "Example sentence using 'Make a splash'."
+    },
+    {
+      "word": "Make headway",
+      "word_id": "en_idiom_make_headway",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Make headway'",
+      "example": "Example sentence using 'Make headway'."
+    },
+    {
+      "word": "Meet halfway",
+      "word_id": "en_idiom_meet_halfway",
+      "pos": "idiom",
+      "definition": "To reach a compromise with someone.",
+      "example": "We managed to meet halfway on the price of the car."
+    },
+    {
+      "word": "Music to one's ears",
+      "word_id": "en_idiom_music_to_one_s_ears",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Music to one's ears'",
+      "example": "Example sentence using 'Music to one's ears'."
+    },
+    {
+      "word": "Narrow escape",
+      "word_id": "en_idiom_narrow_escape",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Narrow escape'",
+      "example": "Example sentence using 'Narrow escape'."
+    },
+    {
+      "word": "Neck and neck",
+      "word_id": "en_idiom_neck_and_neck",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Neck and neck'",
+      "example": "Example sentence using 'Neck and neck'."
+    },
+    {
+      "word": "Nip in the air",
+      "word_id": "en_idiom_nip_in_the_air",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Nip in the air'",
+      "example": "Example sentence using 'Nip in the air'."
+    },
+    {
+      "word": "No brainer",
+      "word_id": "en_idiom_no_brainer",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'No brainer'",
+      "example": "Example sentence using 'No brainer'."
+    },
+    {
+      "word": "Off the charts",
+      "word_id": "en_idiom_off_the_charts",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Off the charts'",
+      "example": "Example sentence using 'Off the charts'."
+    },
+    {
+      "word": "On the same wavelength",
+      "word_id": "en_idiom_on_the_same_wavelength",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'On the same wavelength'",
+      "example": "Example sentence using 'On the same wavelength'."
+    },
+    {
+      "word": "On the spur of the moment",
+      "word_id": "en_idiom_on_the_spur_of_the_moment",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'On the spur of the moment'",
+      "example": "Example sentence using 'On the spur of the moment'."
+    },
+    {
+      "word": "Out of the woods",
+      "word_id": "en_idiom_out_of_the_woods",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Out of the woods'",
+      "example": "Example sentence using 'Out of the woods'."
+    },
+    {
+      "word": "Par for the course",
+      "word_id": "en_idiom_par_for_the_course",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Par for the course'",
+      "example": "Example sentence using 'Par for the course'."
+    },
+    {
+      "word": "Pay dividends",
+      "word_id": "en_idiom_pay_dividends",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Pay dividends'",
+      "example": "Example sentence using 'Pay dividends'."
+    },
+    {
+      "word": "Play one's cards right",
+      "word_id": "en_idiom_play_one_s_cards_right",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Play one's cards right'",
+      "example": "Example sentence using 'Play one's cards right'."
+    },
+    {
+      "word": "Put the brakes on",
+      "word_id": "en_idiom_put_the_brakes_on",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Put the brakes on'",
+      "example": "Example sentence using 'Put the brakes on'."
+    },
+    {
+      "word": "Smooth over",
+      "word_id": "en_idiom_smooth_over",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Smooth over'",
+      "example": "Example sentence using 'Smooth over'."
+    },
+    {
+      "word": "Spill the gravy",
+      "word_id": "en_idiom_spill_the_gravy",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Spill the gravy'",
+      "example": "Example sentence using 'Spill the gravy'."
+    },
+    {
+      "word": "Stand test of time",
+      "word_id": "en_idiom_stand_test_of_time",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Stand test of time'",
+      "example": "Example sentence using 'Stand test of time'."
+    },
+    {
+      "word": "Steer clear of",
+      "word_id": "en_idiom_steer_clear_of",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Steer clear of'",
+      "example": "Example sentence using 'Steer clear of'."
+    },
+    {
+      "word": "Stick one's neck out",
+      "word_id": "en_idiom_stick_one_s_neck_out",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Stick one's neck out'",
+      "example": "Example sentence using 'Stick one's neck out'."
+    },
+    {
+      "word": "Strike a chord",
+      "word_id": "en_idiom_strike_a_chord",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Strike a chord'",
+      "example": "Example sentence using 'Strike a chord'."
+    },
+    {
+      "word": "Sweep under the rug",
+      "word_id": "en_idiom_sweep_under_the_rug",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Sweep under the rug'",
+      "example": "Example sentence using 'Sweep under the rug'."
+    },
+    {
+      "word": "Take the edge off",
+      "word_id": "en_idiom_take_the_edge_off",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Take the edge off'",
+      "example": "Example sentence using 'Take the edge off'."
+    },
+    {
+      "word": "Take the heat",
+      "word_id": "en_idiom_take_the_heat",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Take the heat'",
+      "example": "Example sentence using 'Take the heat'."
+    },
+    {
+      "word": "Throw a curveball",
+      "word_id": "en_idiom_throw_a_curveball",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Throw a curveball'",
+      "example": "Example sentence using 'Throw a curveball'."
+    },
+    {
+      "word": "Throw a spanner in the works",
+      "word_id": "en_idiom_throw_a_spanner_in_the_works",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Throw a spanner in the works'",
+      "example": "Example sentence using 'Throw a spanner in the works'."
+    },
+    {
+      "word": "Leave no stone unturned",
+      "word_id": "en_idiom_leave_no_stone_unturned",
+      "pos": "idiom",
+      "definition": "To search thoroughly and try every possible option.",
+      "example": "Investigators left no stone unturned during the search."
+    },
+    {
+      "word": "Achilles' heel",
+      "word_id": "en_idiom_achilles_heel",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Achilles' heel'",
+      "example": "Example sentence using 'Achilles' heel'."
+    },
+    {
+      "word": "Pyrrhic victory",
+      "word_id": "en_idiom_pyrrhic_victory",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Pyrrhic victory'",
+      "example": "Example sentence using 'Pyrrhic victory'."
+    },
+    {
+      "word": "Play fast and loose",
+      "word_id": "en_idiom_play_fast_and_loose",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Play fast and loose'",
+      "example": "Example sentence using 'Play fast and loose'."
+    },
+    {
+      "word": "Grasping at straws",
+      "word_id": "en_idiom_grasping_at_straws",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Grasping at straws'",
+      "example": "Example sentence using 'Grasping at straws'."
+    },
+    {
+      "word": "Keep something at bay",
+      "word_id": "en_idiom_keep_something_at_bay",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Keep something at bay'",
+      "example": "Example sentence using 'Keep something at bay'."
+    },
+    {
+      "word": "Separate the wheat from the chaff",
+      "word_id": "en_idiom_separate_the_wheat_from_the_chaff",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Separate the wheat from the chaff'",
+      "example": "Example sentence using 'Separate the wheat from the chaff'."
+    },
+    {
+      "word": "The elephant in the room",
+      "word_id": "en_idiom_the_elephant_in_the_room",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'The elephant in the room'",
+      "example": "Example sentence using 'The elephant in the room'."
+    },
+    {
+      "word": "Lock, stock, and barrel",
+      "word_id": "en_idiom_lock_stock_and_barrel",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Lock, stock, and barrel'",
+      "example": "Example sentence using 'Lock, stock, and barrel'."
+    },
+    {
+      "word": "Gild the lily",
+      "word_id": "en_idiom_gild_the_lily",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Gild the lily'",
+      "example": "Example sentence using 'Gild the lily'."
+    },
+    {
+      "word": "Fly in the ointment",
+      "word_id": "en_idiom_fly_in_the_ointment",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Fly in the ointment'",
+      "example": "Example sentence using 'Fly in the ointment'."
+    },
+    {
+      "word": "A wolf in sheep's clothing",
+      "word_id": "en_idiom_a_wolf_in_sheep_s_clothing",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'A wolf in sheep's clothing'",
+      "example": "Example sentence using 'A wolf in sheep's clothing'."
+    },
+    {
+      "word": "Steal a march on",
+      "word_id": "en_idiom_steal_a_march_on",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Steal a march on'",
+      "example": "Example sentence using 'Steal a march on'."
+    },
+    {
+      "word": "Throw down the gauntlet",
+      "word_id": "en_idiom_throw_down_the_gauntlet",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Throw down the gauntlet'",
+      "example": "Example sentence using 'Throw down the gauntlet'."
+    },
+    {
+      "word": "Cut the Gordian knot",
+      "word_id": "en_idiom_cut_the_gordian_knot",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Cut the Gordian knot'",
+      "example": "Example sentence using 'Cut the Gordian knot'."
+    },
+    {
+      "word": "Sword of Damocles",
+      "word_id": "en_idiom_sword_of_damocles",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Sword of Damocles'",
+      "example": "Example sentence using 'Sword of Damocles'."
+    },
+    {
+      "word": "Pandora's box",
+      "word_id": "en_idiom_pandora_s_box",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Pandora's box'",
+      "example": "Example sentence using 'Pandora's box'."
+    },
+    {
+      "word": "Burn one's boats",
+      "word_id": "en_idiom_burn_one_s_boats",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Burn one's boats'",
+      "example": "Example sentence using 'Burn one's boats'."
+    },
+    {
+      "word": "Blow one's own trumpet",
+      "word_id": "en_idiom_blow_one_s_own_trumpet",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Blow one's own trumpet'",
+      "example": "Example sentence using 'Blow one's own trumpet'."
+    },
+    {
+      "word": "Bring home the bacon",
+      "word_id": "en_idiom_bring_home_the_bacon",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Bring home the bacon'",
+      "example": "Example sentence using 'Bring home the bacon'."
+    },
+    {
+      "word": "Cast pearls before swine",
+      "word_id": "en_idiom_cast_pearls_before_swine",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Cast pearls before swine'",
+      "example": "Example sentence using 'Cast pearls before swine'."
+    },
+    {
+      "word": "Cook someone's goose",
+      "word_id": "en_idiom_cook_someone_s_goose",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Cook someone's goose'",
+      "example": "Example sentence using 'Cook someone's goose'."
+    },
+    {
+      "word": "Cross swords",
+      "word_id": "en_idiom_cross_swords",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Cross swords'",
+      "example": "Example sentence using 'Cross swords'."
+    },
+    {
+      "word": "Don't count your chickens before they hatch",
+      "word_id": "en_idiom_don_t_count_your_chickens_before_they_hatch",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Don't count your chickens before they hatch'",
+      "example": "Example sentence using 'Don't count your chickens before they hatch'."
+    },
+    {
+      "word": "Drive a hard bargain",
+      "word_id": "en_idiom_drive_a_hard_bargain",
+      "pos": "idiom",
+      "definition": "To negotiate firmly and insist on favorable terms.",
+      "example": "The seller drove a hard bargain during negotiations."
+    },
+    {
+      "word": "Eating humble pie",
+      "word_id": "en_idiom_eating_humble_pie",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Eating humble pie'",
+      "example": "Example sentence using 'Eating humble pie'."
+    },
+    {
+      "word": "Fall from grace",
+      "word_id": "en_idiom_fall_from_grace",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Fall from grace'",
+      "example": "Example sentence using 'Fall from grace'."
+    },
+    {
+      "word": "Fly the coop",
+      "word_id": "en_idiom_fly_the_coop",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Fly the coop'",
+      "example": "Example sentence using 'Fly the coop'."
+    },
+    {
+      "word": "Gain ground",
+      "word_id": "en_idiom_gain_ground",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Gain ground'",
+      "example": "Example sentence using 'Gain ground'."
+    },
+    {
+      "word": "Give short shrift",
+      "word_id": "en_idiom_give_short_shrift",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Give short shrift'",
+      "example": "Example sentence using 'Give short shrift'."
+    },
+    {
+      "word": "Go against the grain",
+      "word_id": "en_idiom_go_against_the_grain",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Go against the grain'",
+      "example": "Example sentence using 'Go against the grain'."
+    },
+    {
+      "word": "Have a bone to pick",
+      "word_id": "en_idiom_have_a_bone_to_pick",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Have a bone to pick'",
+      "example": "Example sentence using 'Have a bone to pick'."
+    },
+    {
+      "word": "In the limelight",
+      "word_id": "en_idiom_in_the_limelight",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'In the limelight'",
+      "example": "Example sentence using 'In the limelight'."
+    },
+    {
+      "word": "Jump through hoops",
+      "word_id": "en_idiom_jump_through_hoops",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Jump through hoops'",
+      "example": "Example sentence using 'Jump through hoops'."
+    },
+    {
+      "word": "A stone's throw",
+      "word_id": "en_idiom_a_stone_s_throw",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'A stone's throw'",
+      "example": "Example sentence using 'A stone's throw'."
+    },
+    {
+      "word": "Keep one's nose clean",
+      "word_id": "en_idiom_keep_one_s_nose_clean",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Keep one's nose clean'",
+      "example": "Example sentence using 'Keep one's nose clean'."
+    },
+    {
+      "word": "Know which way the wind blows",
+      "word_id": "en_idiom_know_which_way_the_wind_blows",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Know which way the wind blows'",
+      "example": "Example sentence using 'Know which way the wind blows'."
+    },
+    {
+      "word": "Lay down the law",
+      "word_id": "en_idiom_lay_down_the_law",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Lay down the law'",
+      "example": "Example sentence using 'Lay down the law'."
+    },
+    {
+      "word": "Lead someone by the nose",
+      "word_id": "en_idiom_lead_someone_by_the_nose",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Lead someone by the nose'",
+      "example": "Example sentence using 'Lead someone by the nose'."
+    },
+    {
+      "word": "Leave in the lurch",
+      "word_id": "en_idiom_leave_in_the_lurch",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Leave in the lurch'",
+      "example": "Example sentence using 'Leave in the lurch'."
+    },
+    {
+      "word": "Level playing field",
+      "word_id": "en_idiom_level_playing_field",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Level playing field'",
+      "example": "Example sentence using 'Level playing field'."
+    },
+    {
+      "word": "Make bricks without straw",
+      "word_id": "en_idiom_make_bricks_without_straw",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Make bricks without straw'",
+      "example": "Example sentence using 'Make bricks without straw'."
+    },
+    {
+      "word": "Make a virtue of necessity",
+      "word_id": "en_idiom_make_a_virtue_of_necessity",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Make a virtue of necessity'",
+      "example": "Example sentence using 'Make a virtue of necessity'."
+    },
+    {
+      "word": "Meet one's match",
+      "word_id": "en_idiom_meet_one_s_match",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Meet one's match'",
+      "example": "Example sentence using 'Meet one's match'."
+    },
+    {
+      "word": "Mend fences",
+      "word_id": "en_idiom_mend_fences",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Mend fences'",
+      "example": "Example sentence using 'Mend fences'."
+    },
+    {
+      "word": "Method in the madness",
+      "word_id": "en_idiom_method_in_the_madness",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Method in the madness'",
+      "example": "Example sentence using 'Method in the madness'."
+    },
+    {
+      "word": "Move heaven and earth",
+      "word_id": "en_idiom_move_heaven_and_earth",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Move heaven and earth'",
+      "example": "Example sentence using 'Move heaven and earth'."
+    },
+    {
+      "word": "No holds barred",
+      "word_id": "en_idiom_no_holds_barred",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'No holds barred'",
+      "example": "Example sentence using 'No holds barred'."
+    },
+    {
+      "word": "On a wing and a prayer",
+      "word_id": "en_idiom_on_a_wing_and_a_prayer",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'On a wing and a prayer'",
+      "example": "Example sentence using 'On a wing and a prayer'."
+    },
+    {
+      "word": "Pass the baton",
+      "word_id": "en_idiom_pass_the_baton",
+      "pos": "idiom",
+      "definition": "To hand over responsibility to a successor.",
+      "example": "The veteran manager passed the baton to the young executive."
+    },
+    {
+      "word": "Pay lip service",
+      "word_id": "en_idiom_pay_lip_service",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Pay lip service'",
+      "example": "Example sentence using 'Pay lip service'."
+    },
+    {
+      "word": "Pick holes in",
+      "word_id": "en_idiom_pick_holes_in",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Pick holes in'",
+      "example": "Example sentence using 'Pick holes in'."
+    },
+    {
+      "word": "Play one's cards close to one's chest",
+      "word_id": "en_idiom_play_one_s_cards_close_to_one_s_chest",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Play one's cards close to one's chest'",
+      "example": "Example sentence using 'Play one's cards close to one's chest'."
+    },
+    {
+      "word": "Poke one's nose into",
+      "word_id": "en_idiom_poke_one_s_nose_into",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Poke one's nose into'",
+      "example": "Example sentence using 'Poke one's nose into'."
+    },
+    {
+      "word": "Pull out all the stops",
+      "word_id": "en_idiom_pull_out_all_the_stops",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Pull out all the stops'",
+      "example": "Example sentence using 'Pull out all the stops'."
+    },
+    {
+      "word": "Put a spoke in someone's wheel",
+      "word_id": "en_idiom_put_a_spoke_in_someone_s_wheel",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Put a spoke in someone's wheel'",
+      "example": "Example sentence using 'Put a spoke in someone's wheel'."
+    },
+    {
+      "word": "Put one's house in order",
+      "word_id": "en_idiom_put_one_s_house_in_order",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Put one's house in order'",
+      "example": "Example sentence using 'Put one's house in order'."
+    },
+    {
+      "word": "Rake over old ashes",
+      "word_id": "en_idiom_rake_over_old_ashes",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Rake over old ashes'",
+      "example": "Example sentence using 'Rake over old ashes'."
+    },
+    {
+      "word": "Reinvent the wheel",
+      "word_id": "en_idiom_reinvent_the_wheel",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Reinvent the wheel'",
+      "example": "Example sentence using 'Reinvent the wheel'."
+    },
+    {
+      "word": "Ride roughshod over",
+      "word_id": "en_idiom_ride_roughshod_over",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Ride roughshod over'",
+      "example": "Example sentence using 'Ride roughshod over'."
+    },
+    {
+      "word": "Ring the changes",
+      "word_id": "en_idiom_ring_the_changes",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Ring the changes'",
+      "example": "Example sentence using 'Ring the changes'."
+    },
+    {
+      "word": "Rub salt into the wound",
+      "word_id": "en_idiom_rub_salt_into_the_wound",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Rub salt into the wound'",
+      "example": "Example sentence using 'Rub salt into the wound'."
+    },
+    {
+      "word": "Rule the roost",
+      "word_id": "en_idiom_rule_the_roost",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Rule the roost'",
+      "example": "Example sentence using 'Rule the roost'."
+    },
+    {
+      "word": "Sail close to the wind",
+      "word_id": "en_idiom_sail_close_to_the_wind",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Sail close to the wind'",
+      "example": "Example sentence using 'Sail close to the wind'."
+    },
+    {
+      "word": "Save one's skin",
+      "word_id": "en_idiom_save_one_s_skin",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Save one's skin'",
+      "example": "Example sentence using 'Save one's skin'."
+    },
+    {
+      "word": "Set one's teeth on edge",
+      "word_id": "en_idiom_set_one_s_teeth_on_edge",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Set one's teeth on edge'",
+      "example": "Example sentence using 'Set one's teeth on edge'."
+    },
+    {
+      "word": "Shoot the breeze",
+      "word_id": "en_idiom_shoot_the_breeze",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Shoot the breeze'",
+      "example": "Example sentence using 'Shoot the breeze'."
+    },
+    {
+      "word": "Sit on one's hands",
+      "word_id": "en_idiom_sit_on_one_s_hands",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Sit on one's hands'",
+      "example": "Example sentence using 'Sit on one's hands'."
+    },
+    {
+      "word": "Skate on thin ice",
+      "word_id": "en_idiom_skate_on_thin_ice",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Skate on thin ice'",
+      "example": "Example sentence using 'Skate on thin ice'."
+    },
+    {
+      "word": "Small world",
+      "word_id": "en_idiom_small_world",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Small world'",
+      "example": "Example sentence using 'Small world'."
+    },
+    {
+      "word": "Steal the show",
+      "word_id": "en_idiom_steal_the_show",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Steal the show'",
+      "example": "Example sentence using 'Steal the show'."
+    },
+    {
+      "word": "Stoke the fires",
+      "word_id": "en_idiom_stoke_the_fires",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Stoke the fires'",
+      "example": "Example sentence using 'Stoke the fires'."
+    },
+    {
+      "word": "Strain at a gnat and swallow a camel",
+      "word_id": "en_idiom_strain_at_a_gnat_and_swallow_a_camel",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Strain at a gnat and swallow a camel'",
+      "example": "Example sentence using 'Strain at a gnat and swallow a camel'."
+    },
+    {
+      "word": "Strike while the iron is hot",
+      "word_id": "en_idiom_strike_while_the_iron_is_hot",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Strike while the iron is hot'",
+      "example": "Example sentence using 'Strike while the iron is hot'."
+    },
+    {
+      "word": "Take the bull by the horns",
+      "word_id": "en_idiom_take_the_bull_by_the_horns",
+      "pos": "idiom",
+      "definition": "To confront a difficult situation directly.",
+      "example": "She decided to take the bull by the horns and deal with the issue."
+    },
+    {
+      "word": "Take the wind out of someone's sails",
+      "word_id": "en_idiom_take_the_wind_out_of_someone_s_sails",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Take the wind out of someone's sails'",
+      "example": "Example sentence using 'Take the wind out of someone's sails'."
+    },
+    {
+      "word": "The die is cast",
+      "word_id": "en_idiom_the_die_is_cast",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'The die is cast'",
+      "example": "Example sentence using 'The die is cast'."
+    },
+    {
+      "word": "Thorn in one's side",
+      "word_id": "en_idiom_thorn_in_one_s_side",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Thorn in one's side'",
+      "example": "Example sentence using 'Thorn in one's side'."
+    },
+    {
+      "word": "Throw fuel on the fire",
+      "word_id": "en_idiom_throw_fuel_on_the_fire",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Throw fuel on the fire'",
+      "example": "Example sentence using 'Throw fuel on the fire'."
+    },
+    {
+      "word": "Throw the baby out with the bathwater",
+      "word_id": "en_idiom_throw_the_baby_out_with_the_bathwater",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Throw the baby out with the bathwater'",
+      "example": "Example sentence using 'Throw the baby out with the bathwater'."
+    },
+    {
+      "word": "Through the eye of a needle",
+      "word_id": "en_idiom_through_the_eye_of_a_needle",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Through the eye of a needle'",
+      "example": "Example sentence using 'Through the eye of a needle'."
+    },
+    {
+      "word": "Toe the line",
+      "word_id": "en_idiom_toe_the_line",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Toe the line'",
+      "example": "Example sentence using 'Toe the line'."
+    },
+    {
+      "word": "Tongue in cheek",
+      "word_id": "en_idiom_tongue_in_cheek",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Tongue in cheek'",
+      "example": "Example sentence using 'Tongue in cheek'."
+    },
+    {
+      "word": "Touch wood",
+      "word_id": "en_idiom_touch_wood",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Touch wood'",
+      "example": "Example sentence using 'Touch wood'."
+    },
+    {
+      "word": "Tread softly",
+      "word_id": "en_idiom_tread_softly",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Tread softly'",
+      "example": "Example sentence using 'Tread softly'."
+    },
+    {
+      "word": "Under the aegis of",
+      "word_id": "en_idiom_under_the_aegis_of",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Under the aegis of'",
+      "example": "Example sentence using 'Under the aegis of'."
+    },
+    {
+      "word": "Up to one's neck",
+      "word_id": "en_idiom_up_to_one_s_neck",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Up to one's neck'",
+      "example": "Example sentence using 'Up to one's neck'."
+    },
+    {
+      "word": "Vent one's spleen",
+      "word_id": "en_idiom_vent_one_s_spleen",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Vent one's spleen'",
+      "example": "Example sentence using 'Vent one's spleen'."
+    },
+    {
+      "word": "Volte-face",
+      "word_id": "en_idiom_volte_face",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Volte-face'",
+      "example": "Example sentence using 'Volte-face'."
+    },
+    {
+      "word": "Walking a tightrope",
+      "word_id": "en_idiom_walking_a_tightrope",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Walking a tightrope'",
+      "example": "Example sentence using 'Walking a tightrope'."
+    },
+    {
+      "word": "Wash one's hands of",
+      "word_id": "en_idiom_wash_one_s_hands_of",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Wash one's hands of'",
+      "example": "Example sentence using 'Wash one's hands of'."
+    },
+    {
+      "word": "Wear many hats",
+      "word_id": "en_idiom_wear_many_hats",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Wear many hats'",
+      "example": "Example sentence using 'Wear many hats'."
+    },
+    {
+      "word": "Wet behind the ears",
+      "word_id": "en_idiom_wet_behind_the_ears",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Wet behind the ears'",
+      "example": "Example sentence using 'Wet behind the ears'."
+    },
+    {
+      "word": "Whet someone's appetite",
+      "word_id": "en_idiom_whet_someone_s_appetite",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Whet someone's appetite'",
+      "example": "Example sentence using 'Whet someone's appetite'."
+    },
+    {
+      "word": "Whipping boy",
+      "word_id": "en_idiom_whipping_boy",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Whipping boy'",
+      "example": "Example sentence using 'Whipping boy'."
+    },
+    {
+      "word": "Whistle in the dark",
+      "word_id": "en_idiom_whistle_in_the_dark",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Whistle in the dark'",
+      "example": "Example sentence using 'Whistle in the dark'."
+    },
+    {
+      "word": "Wild goose chase",
+      "word_id": "en_idiom_wild_goose_chase",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Wild goose chase'",
+      "example": "Example sentence using 'Wild goose chase'."
+    },
+    {
+      "word": "Win hands down",
+      "word_id": "en_idiom_win_hands_down",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Win hands down'",
+      "example": "Example sentence using 'Win hands down'."
+    },
+    {
+      "word": "Wind up",
+      "word_id": "en_idiom_wind_up",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Wind up'",
+      "example": "Example sentence using 'Wind up'."
+    },
+    {
+      "word": "No hard feelings",
+      "word_id": "en_idiom_no_hard_feelings",
+      "pos": "idiom",
+      "definition": "No resentment or anger after a disagreement.",
+      "example": "We lost the contract, but there are no hard feelings."
+    },
+    {
+      "word": "With flying colors",
+      "word_id": "en_idiom_with_flying_colors",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'With flying colors'",
+      "example": "Example sentence using 'With flying colors'."
+    },
+    {
+      "word": "Ace up one's sleeve",
+      "word_id": "en_idiom_ace_up_one_s_sleeve",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Ace up one's sleeve'",
+      "example": "Example sentence using 'Ace up one's sleeve'."
+    },
+    {
+      "word": "Work fingers to the bone",
+      "word_id": "en_idiom_work_fingers_to_the_bone",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Work fingers to the bone'",
+      "example": "Example sentence using 'Work fingers to the bone'."
+    },
+    {
+      "word": "Worship the golden calf",
+      "word_id": "en_idiom_worship_the_golden_calf",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Worship the golden calf'",
+      "example": "Example sentence using 'Worship the golden calf'."
+    },
+    {
+      "word": "Worth one's salt",
+      "word_id": "en_idiom_worth_one_s_salt",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Worth one's salt'",
+      "example": "Example sentence using 'Worth one's salt'."
+    },
+    {
+      "word": "Zero tolerance",
+      "word_id": "en_idiom_zero_tolerance",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Zero tolerance'",
+      "example": "Example sentence using 'Zero tolerance'."
+    },
+    {
+      "word": "A bitter pill to swallow",
+      "word_id": "en_idiom_a_bitter_pill_to_swallow",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'A bitter pill to swallow'",
+      "example": "Example sentence using 'A bitter pill to swallow'."
+    },
+    {
+      "word": "All dressed up and nowhere to go",
+      "word_id": "en_idiom_all_dressed_up_and_nowhere_to_go",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'All dressed up and nowhere to go'",
+      "example": "Example sentence using 'All dressed up and nowhere to go'."
+    },
+    {
+      "word": "Alphabet soup",
+      "word_id": "en_idiom_alphabet_soup",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Alphabet soup'",
+      "example": "Example sentence using 'Alphabet soup'."
+    },
+    {
+      "word": "An arm and a leg",
+      "word_id": "en_idiom_an_arm_and_a_leg",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'An arm and a leg'",
+      "example": "Example sentence using 'An arm and a leg'."
+    },
+    {
+      "word": "Backseat driver",
+      "word_id": "en_idiom_backseat_driver",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Backseat driver'",
+      "example": "Example sentence using 'Backseat driver'."
+    },
+    {
+      "word": "Bark is worse than one's bite",
+      "word_id": "en_idiom_bark_is_worse_than_one_s_bite",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Bark is worse than one's bite'",
+      "example": "Example sentence using 'Bark is worse than one's bite'."
+    },
+    {
+      "word": "Bat an eye",
+      "word_id": "en_idiom_bat_an_eye",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Bat an eye'",
+      "example": "Example sentence using 'Bat an eye'."
+    },
+    {
+      "word": "Be in the red",
+      "word_id": "en_idiom_be_in_the_red",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Be in the red'",
+      "example": "Example sentence using 'Be in the red'."
+    },
+    {
+      "word": "Be in the black",
+      "word_id": "en_idiom_be_in_the_black",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Be in the black'",
+      "example": "Example sentence using 'Be in the black'."
+    },
+    {
+      "word": "Beat a dead horse",
+      "word_id": "en_idiom_beat_a_dead_horse",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Beat a dead horse'",
+      "example": "Example sentence using 'Beat a dead horse'."
+    },
+    {
+      "word": "Behind closed doors",
+      "word_id": "en_idiom_behind_closed_doors",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Behind closed doors'",
+      "example": "Example sentence using 'Behind closed doors'."
+    },
+    {
+      "word": "Blood, sweat, and tears",
+      "word_id": "en_idiom_blood_sweat_and_tears",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Blood, sweat, and tears'",
+      "example": "Example sentence using 'Blood, sweat, and tears'."
+    },
+    {
+      "word": "Bone of contention",
+      "word_id": "en_idiom_bone_of_contention",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Bone of contention'",
+      "example": "Example sentence using 'Bone of contention'."
+    },
+    {
+      "word": "Bridge the gap",
+      "word_id": "en_idiom_bridge_the_gap",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Bridge the gap'",
+      "example": "Example sentence using 'Bridge the gap'."
+    },
+    {
+      "word": "By the skin of one's teeth",
+      "word_id": "en_idiom_by_the_skin_of_one_s_teeth",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'By the skin of one's teeth'",
+      "example": "Example sentence using 'By the skin of one's teeth'."
+    },
+    {
+      "word": "Cast in stone",
+      "word_id": "en_idiom_cast_in_stone",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Cast in stone'",
+      "example": "Example sentence using 'Cast in stone'."
+    },
+    {
+      "word": "Catch-22",
+      "word_id": "en_idiom_catch_22",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Catch-22'",
+      "example": "Example sentence using 'Catch-22'."
+    },
+    {
+      "word": "Close, but no cigar",
+      "word_id": "en_idiom_close_but_no_cigar",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Close, but no cigar'",
+      "example": "Example sentence using 'Close, but no cigar'."
+    },
+    {
+      "word": "On the go",
+      "word_id": "en_idiom_on_the_go",
+      "pos": "idiom",
+      "definition": "Very busy and constantly active.",
+      "example": "As a working mother, she is always on the go."
+    },
+    {
+      "word": "Play it safe",
+      "word_id": "en_idiom_play_it_safe",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Play it safe'",
+      "example": "Example sentence using 'Play it safe'."
+    },
+    {
+      "word": "Flesh and blood",
+      "word_id": "en_idiom_flesh_and_blood",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Flesh and blood'",
+      "example": "Example sentence using 'Flesh and blood'."
+    },
+    {
+      "word": "All told",
+      "word_id": "en_idiom_all_told",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'All told'",
+      "example": "Example sentence using 'All told'."
+    },
+    {
+      "word": "Dark horse candidate",
+      "word_id": "en_idiom_dark_horse_candidate",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Dark horse candidate'",
+      "example": "Example sentence using 'Dark horse candidate'."
+    },
+    {
+      "word": "Blow the whistle",
+      "word_id": "en_idiom_blow_the_whistle",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Blow the whistle'",
+      "example": "Example sentence using 'Blow the whistle'."
+    },
+    {
+      "word": "By the book",
+      "word_id": "en_idiom_by_the_book",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'By the book'",
+      "example": "Example sentence using 'By the book'."
+    },
+    {
+      "word": "Cast aspersions",
+      "word_id": "en_idiom_cast_aspersions",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Cast aspersions'",
+      "example": "Example sentence using 'Cast aspersions'."
+    },
+    {
+      "word": "Change of pace",
+      "word_id": "en_idiom_change_of_pace",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Change of pace'",
+      "example": "Example sentence using 'Change of pace'."
+    },
+    {
+      "word": "Dog and pony show",
+      "word_id": "en_idiom_dog_and_pony_show",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Dog and pony show'",
+      "example": "Example sentence using 'Dog and pony show'."
+    },
+    {
+      "word": "Move the goalposts",
+      "word_id": "en_idiom_move_the_goalposts",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Move the goalposts'",
+      "example": "Example sentence using 'Move the goalposts'."
+    },
+    {
+      "word": "Mum's the word",
+      "word_id": "en_idiom_mum_s_the_word",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Mum's the word'",
+      "example": "Example sentence using 'Mum's the word'."
+    },
+    {
+      "word": "Nail in the coffin",
+      "word_id": "en_idiom_nail_in_the_coffin",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Nail in the coffin'",
+      "example": "Example sentence using 'Nail in the coffin'."
+    },
+    {
+      "word": "No room to swing a cat",
+      "word_id": "en_idiom_no_room_to_swing_a_cat",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'No room to swing a cat'",
+      "example": "Example sentence using 'No room to swing a cat'."
+    },
+    {
+      "word": "On the horns of a dilemma",
+      "word_id": "en_idiom_on_the_horns_of_a_dilemma",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'On the horns of a dilemma'",
+      "example": "Example sentence using 'On the horns of a dilemma'."
+    },
+    {
+      "word": "Pass muster",
+      "word_id": "en_idiom_pass_muster",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Pass muster'",
+      "example": "Example sentence using 'Pass muster'."
+    },
+    {
+      "word": "Pick of the litter",
+      "word_id": "en_idiom_pick_of_the_litter",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Pick of the litter'",
+      "example": "Example sentence using 'Pick of the litter'."
+    },
+    {
+      "word": "Play havoc with",
+      "word_id": "en_idiom_play_havoc_with",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Play havoc with'",
+      "example": "Example sentence using 'Play havoc with'."
+    },
+    {
+      "word": "Poison chalice",
+      "word_id": "en_idiom_poison_chalice",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Poison chalice'",
+      "example": "Example sentence using 'Poison chalice'."
+    },
+    {
+      "word": "Quantum leap",
+      "word_id": "en_idiom_quantum_leap",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Quantum leap'",
+      "example": "Example sentence using 'Quantum leap'."
+    },
+    {
+      "word": "Quicker than the eye",
+      "word_id": "en_idiom_quicker_than_the_eye",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Quicker than the eye'",
+      "example": "Example sentence using 'Quicker than the eye'."
+    },
+    {
+      "word": "Rank and file",
+      "word_id": "en_idiom_rank_and_file",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Rank and file'",
+      "example": "Example sentence using 'Rank and file'."
+    },
+    {
+      "word": "Red carpet treatment",
+      "word_id": "en_idiom_red_carpet_treatment",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Red carpet treatment'",
+      "example": "Example sentence using 'Red carpet treatment'."
+    },
+    {
+      "word": "Right on the mark",
+      "word_id": "en_idiom_right_on_the_mark",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Right on the mark'",
+      "example": "Example sentence using 'Right on the mark'."
+    },
+    {
+      "word": "Rough diamond",
+      "word_id": "en_idiom_rough_diamond",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Rough diamond'",
+      "example": "Example sentence using 'Rough diamond'."
+    },
+    {
+      "word": "A penny for your thoughts",
+      "word_id": "en_idiom_a_penny_for_your_thoughts",
+      "pos": "idiom",
+      "definition": "A way of asking what someone is thinking about.",
+      "example": "You look quiet today; a penny for your thoughts?"
+    },
+    {
+      "word": "Baker's dozen",
+      "word_id": "en_idiom_baker_s_dozen",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Baker's dozen'",
+      "example": "Example sentence using 'Baker's dozen'."
+    },
+    {
+      "word": "Cut off one's nose to spite one's face",
+      "word_id": "en_idiom_cut_off_one_s_nose_to_spite_one_s_face",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Cut off one's nose to spite one's face'",
+      "example": "Example sentence using 'Cut off one's nose to spite one's face'."
+    },
+    {
+      "word": "Don't look a gift horse in the mouth",
+      "word_id": "en_idiom_don_t_look_a_gift_horse_in_the_mouth",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Don't look a gift horse in the mouth'",
+      "example": "Example sentence using 'Don't look a gift horse in the mouth'."
+    },
+    {
+      "word": "Drag someone over the coals",
+      "word_id": "en_idiom_drag_someone_over_the_coals",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Drag someone over the coals'",
+      "example": "Example sentence using 'Drag someone over the coals'."
+    },
+    {
+      "word": "Fly by the seat of one's pants",
+      "word_id": "en_idiom_fly_by_the_seat_of_one_s_pants",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Fly by the seat of one's pants'",
+      "example": "Example sentence using 'Fly by the seat of one's pants'."
+    },
+    {
+      "word": "Have an axe to grind",
+      "word_id": "en_idiom_have_an_axe_to_grind",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Have an axe to grind'",
+      "example": "Example sentence using 'Have an axe to grind'."
+    },
+    {
+      "word": "In the lap of the gods",
+      "word_id": "en_idiom_in_the_lap_of_the_gods",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'In the lap of the gods'",
+      "example": "Example sentence using 'In the lap of the gods'."
+    },
+    {
+      "word": "Keep one's powder dry",
+      "word_id": "en_idiom_keep_one_s_powder_dry",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Keep one's powder dry'",
+      "example": "Example sentence using 'Keep one's powder dry'."
+    },
+    {
+      "word": "Meet one's Waterloo",
+      "word_id": "en_idiom_meet_one_s_waterloo",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Meet one's Waterloo'",
+      "example": "Example sentence using 'Meet one's Waterloo'."
+    },
+    {
+      "word": "Nip something in the bud",
+      "word_id": "en_idiom_nip_something_in_the_bud",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Nip something in the bud'",
+      "example": "Example sentence using 'Nip something in the bud'."
+    },
+    {
+      "word": "Put the cart before the horse",
+      "word_id": "en_idiom_put_the_cart_before_the_horse",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Put the cart before the horse'",
+      "example": "Example sentence using 'Put the cart before the horse'."
+    },
+    {
+      "word": "Rest on one's laurels",
+      "word_id": "en_idiom_rest_on_one_s_laurels",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Rest on one's laurels'",
+      "example": "Example sentence using 'Rest on one's laurels'."
+    },
+    {
+      "word": "Run the gauntlet",
+      "word_id": "en_idiom_run_the_gauntlet",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Run the gauntlet'",
+      "example": "Example sentence using 'Run the gauntlet'."
+    },
+    {
+      "word": "Salt of the earth",
+      "word_id": "en_idiom_salt_of_the_earth",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Salt of the earth'",
+      "example": "Example sentence using 'Salt of the earth'."
+    },
+    {
+      "word": "Tread on thin ice",
+      "word_id": "en_idiom_tread_on_thin_ice",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Tread on thin ice'",
+      "example": "Example sentence using 'Tread on thin ice'."
+    },
+    {
+      "word": "Vanish into thin air",
+      "word_id": "en_idiom_vanish_into_thin_air",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Vanish into thin air'",
+      "example": "Example sentence using 'Vanish into thin air'."
+    },
+    {
+      "word": "With a vengeance",
+      "word_id": "en_idiom_with_a_vengeance",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'With a vengeance'",
+      "example": "Example sentence using 'With a vengeance'."
+    },
+    {
+      "word": "Yellow streak",
+      "word_id": "en_idiom_yellow_streak",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Yellow streak'",
+      "example": "Example sentence using 'Yellow streak'."
+    },
+    {
+      "word": "Acid test",
+      "word_id": "en_idiom_acid_test",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Acid test'",
+      "example": "Example sentence using 'Acid test'."
+    },
+    {
+      "word": "Albatross around one's neck",
+      "word_id": "en_idiom_albatross_around_one_s_neck",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Albatross around one's neck'",
+      "example": "Example sentence using 'Albatross around one's neck'."
+    },
+    {
+      "word": "All roads lead to Rome",
+      "word_id": "en_idiom_all_roads_lead_to_rome",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'All roads lead to Rome'",
+      "example": "Example sentence using 'All roads lead to Rome'."
+    },
+    {
+      "word": "Step up your game",
+      "word_id": "en_idiom_step_up_your_game",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Step up your game'",
+      "example": "Example sentence using 'Step up your game'."
+    },
+    {
+      "word": "Apples and oranges",
+      "word_id": "en_idiom_apples_and_oranges",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Apples and oranges'",
+      "example": "Example sentence using 'Apples and oranges'."
+    },
+    {
+      "word": "Armageddon scenario",
+      "word_id": "en_idiom_armageddon_scenario",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Armageddon scenario'",
+      "example": "Example sentence using 'Armageddon scenario'."
+    },
+    {
+      "word": "At one's wits' end",
+      "word_id": "en_idiom_at_one_s_wits_end",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'At one's wits' end'",
+      "example": "Example sentence using 'At one's wits' end'."
+    },
+    {
+      "word": "Back to the wall",
+      "word_id": "en_idiom_back_to_the_wall",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Back to the wall'",
+      "example": "Example sentence using 'Back to the wall'."
+    },
+    {
+      "word": "Batten down the hatches",
+      "word_id": "en_idiom_batten_down_the_hatches",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Batten down the hatches'",
+      "example": "Example sentence using 'Batten down the hatches'."
+    },
+    {
+      "word": "Beat swords into ploughshares",
+      "word_id": "en_idiom_beat_swords_into_ploughshares",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Beat swords into ploughshares'",
+      "example": "Example sentence using 'Beat swords into ploughshares'."
+    },
+    {
+      "word": "Bee in one's bonnet",
+      "word_id": "en_idiom_bee_in_one_s_bonnet",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Bee in one's bonnet'",
+      "example": "Example sentence using 'Bee in one's bonnet'."
+    },
+    {
+      "word": "Beggars can't be choosers",
+      "word_id": "en_idiom_beggars_can_t_be_choosers",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Beggars can't be choosers'",
+      "example": "Example sentence using 'Beggars can't be choosers'."
+    },
+    {
+      "word": "Behind the 8-ball",
+      "word_id": "en_idiom_behind_the_8_ball",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Behind the 8-ball'",
+      "example": "Example sentence using 'Behind the 8-ball'."
+    },
+    {
+      "word": "Bells and whistles",
+      "word_id": "en_idiom_bells_and_whistles",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Bells and whistles'",
+      "example": "Example sentence using 'Bells and whistles'."
+    },
+    {
+      "word": "Between Scylla and Charybdis",
+      "word_id": "en_idiom_between_scylla_and_charybdis",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Between Scylla and Charybdis'",
+      "example": "Example sentence using 'Between Scylla and Charybdis'."
+    },
+    {
+      "word": "Blood is thicker than water",
+      "word_id": "en_idiom_blood_is_thicker_than_water",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Blood is thicker than water'",
+      "example": "Example sentence using 'Blood is thicker than water'."
+    },
+    {
+      "word": "Bolt from the blue",
+      "word_id": "en_idiom_bolt_from_the_blue",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Bolt from the blue'",
+      "example": "Example sentence using 'Bolt from the blue'."
+    },
+    {
+      "word": "Break the mold",
+      "word_id": "en_idiom_break_the_mold",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Break the mold'",
+      "example": "Example sentence using 'Break the mold'."
+    },
+    {
+      "word": "Bury one's head in the sand",
+      "word_id": "en_idiom_bury_one_s_head_in_the_sand",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Bury one's head in the sand'",
+      "example": "Example sentence using 'Bury one's head in the sand'."
+    },
+    {
+      "word": "Burning question",
+      "word_id": "en_idiom_burning_question",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Burning question'",
+      "example": "Example sentence using 'Burning question'."
+    },
+    {
+      "word": "By hook or by crook",
+      "word_id": "en_idiom_by_hook_or_by_crook",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'By hook or by crook'",
+      "example": "Example sentence using 'By hook or by crook'."
+    },
+    {
+      "word": "Call the tune",
+      "word_id": "en_idiom_call_the_tune",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Call the tune'",
+      "example": "Example sentence using 'Call the tune'."
+    },
+    {
+      "word": "Can't see the forest for the trees",
+      "word_id": "en_idiom_can_t_see_the_forest_for_the_trees",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Can't see the forest for the trees'",
+      "example": "Example sentence using 'Can't see the forest for the trees'."
+    },
+    {
+      "word": "Cast aspersions on",
+      "word_id": "en_idiom_cast_aspersions_on",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Cast aspersions on'",
+      "example": "Example sentence using 'Cast aspersions on'."
+    },
+    {
+      "word": "Cat among the pigeons",
+      "word_id": "en_idiom_cat_among_the_pigeons",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Cat among the pigeons'",
+      "example": "Example sentence using 'Cat among the pigeons'."
+    },
+    {
+      "word": "Caught between a rock and a hard place",
+      "word_id": "en_idiom_caught_between_a_rock_and_a_hard_place",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Caught between a rock and a hard place'",
+      "example": "Example sentence using 'Caught between a rock and a hard place'."
+    },
+    {
+      "word": "Cheek by jowl",
+      "word_id": "en_idiom_cheek_by_jowl",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Cheek by jowl'",
+      "example": "Example sentence using 'Cheek by jowl'."
+    },
+    {
+      "word": "Chew the scenery",
+      "word_id": "en_idiom_chew_the_scenery",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Chew the scenery'",
+      "example": "Example sentence using 'Chew the scenery'."
+    },
+    {
+      "word": "Clear the decks",
+      "word_id": "en_idiom_clear_the_decks",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Clear the decks'",
+      "example": "Example sentence using 'Clear the decks'."
+    },
+    {
+      "word": "Cloak and dagger",
+      "word_id": "en_idiom_cloak_and_dagger",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Cloak and dagger'",
+      "example": "Example sentence using 'Cloak and dagger'."
+    },
+    {
+      "word": "Cog in the machine",
+      "word_id": "en_idiom_cog_in_the_machine",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Cog in the machine'",
+      "example": "Example sentence using 'Cog in the machine'."
+    },
+    {
+      "word": "Come home to roost",
+      "word_id": "en_idiom_come_home_to_roost",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Come home to roost'",
+      "example": "Example sentence using 'Come home to roost'."
+    },
+    {
+      "word": "Crocodile tears",
+      "word_id": "en_idiom_crocodile_tears",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Crocodile tears'",
+      "example": "Example sentence using 'Crocodile tears'."
+    },
+    {
+      "word": "Cross the Rubicon",
+      "word_id": "en_idiom_cross_the_rubicon",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Cross the Rubicon'",
+      "example": "Example sentence using 'Cross the Rubicon'."
+    },
+    {
+      "word": "Cry havoc",
+      "word_id": "en_idiom_cry_havoc",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Cry havoc'",
+      "example": "Example sentence using 'Cry havoc'."
+    },
+    {
+      "word": "Curry favor",
+      "word_id": "en_idiom_curry_favor",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Curry favor'",
+      "example": "Example sentence using 'Curry favor'."
+    },
+    {
+      "word": "Cut one's coat according to one's cloth",
+      "word_id": "en_idiom_cut_one_s_coat_according_to_one_s_cloth",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Cut one's coat according to one's cloth'",
+      "example": "Example sentence using 'Cut one's coat according to one's cloth'."
+    },
+    {
+      "word": "Damocles' sword",
+      "word_id": "en_idiom_damocles_sword",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Damocles' sword'",
+      "example": "Example sentence using 'Damocles' sword'."
+    },
+    {
+      "word": "Davy Jones' locker",
+      "word_id": "en_idiom_davy_jones_locker",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Davy Jones' locker'",
+      "example": "Example sentence using 'Davy Jones' locker'."
+    },
+    {
+      "word": "Devil in the detail",
+      "word_id": "en_idiom_devil_in_the_detail",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Devil in the detail'",
+      "example": "Example sentence using 'Devil in the detail'."
+    },
+    {
+      "word": "Dodged a bullet",
+      "word_id": "en_idiom_dodged_a_bullet",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Dodged a bullet'",
+      "example": "Example sentence using 'Dodged a bullet'."
+    },
+    {
+      "word": "Don't put the cart before the horse",
+      "word_id": "en_idiom_don_t_put_the_cart_before_the_horse",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Don't put the cart before the horse'",
+      "example": "Example sentence using 'Don't put the cart before the horse'."
+    },
+    {
+      "word": "Double jeopardy",
+      "word_id": "en_idiom_double_jeopardy",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Double jeopardy'",
+      "example": "Example sentence using 'Double jeopardy'."
+    },
+    {
+      "word": "Drawing a longbow",
+      "word_id": "en_idiom_drawing_a_longbow",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Drawing a longbow'",
+      "example": "Example sentence using 'Drawing a longbow'."
+    },
+    {
+      "word": "Dry run",
+      "word_id": "en_idiom_dry_run",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Dry run'",
+      "example": "Example sentence using 'Dry run'."
+    },
+    {
+      "word": "Ears are burning",
+      "word_id": "en_idiom_ears_are_burning",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Ears are burning'",
+      "example": "Example sentence using 'Ears are burning'."
+    },
+    {
+      "word": "Win-win situation",
+      "word_id": "en_idiom_win_win_situation",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Win-win situation'",
+      "example": "Example sentence using 'Win-win situation'."
+    },
+    {
+      "word": "Elbow room",
+      "word_id": "en_idiom_elbow_room",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Elbow room'",
+      "example": "Example sentence using 'Elbow room'."
+    },
+    {
+      "word": "Emperor's new clothes",
+      "word_id": "en_idiom_emperor_s_new_clothes",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Emperor's new clothes'",
+      "example": "Example sentence using 'Emperor's new clothes'."
+    },
+    {
+      "word": "Face that launched a thousand ships",
+      "word_id": "en_idiom_face_that_launched_a_thousand_ships",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Face that launched a thousand ships'",
+      "example": "Example sentence using 'Face that launched a thousand ships'."
+    },
+    {
+      "word": "Fall on one's sword",
+      "word_id": "en_idiom_fall_on_one_s_sword",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Fall on one's sword'",
+      "example": "Example sentence using 'Fall on one's sword'."
+    },
+    {
+      "word": "Few and far between",
+      "word_id": "en_idiom_few_and_far_between",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Few and far between'",
+      "example": "Example sentence using 'Few and far between'."
+    },
+    {
+      "word": "Fifth wheel",
+      "word_id": "en_idiom_fifth_wheel",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Fifth wheel'",
+      "example": "Example sentence using 'Fifth wheel'."
+    },
+    {
+      "word": "Fight fire with fire",
+      "word_id": "en_idiom_fight_fire_with_fire",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Fight fire with fire'",
+      "example": "Example sentence using 'Fight fire with fire'."
+    },
+    {
+      "word": "Fine line",
+      "word_id": "en_idiom_fine_line",
+      "pos": "idiom",
+      "definition": "A subtle distinction between two different concepts.",
+      "example": "There is a fine line between confidence and arrogance."
+    },
+    {
+      "word": "Fish or cut bait",
+      "word_id": "en_idiom_fish_or_cut_bait",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Fish or cut bait'",
+      "example": "Example sentence using 'Fish or cut bait'."
+    },
+    {
+      "word": "Flash in the pan",
+      "word_id": "en_idiom_flash_in_the_pan",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Flash in the pan'",
+      "example": "Example sentence using 'Flash in the pan'."
+    },
+    {
+      "word": "Flog a dead horse",
+      "word_id": "en_idiom_flog_a_dead_horse",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Flog a dead horse'",
+      "example": "Example sentence using 'Flog a dead horse'."
+    },
+    {
+      "word": "Fly in the face of",
+      "word_id": "en_idiom_fly_in_the_face_of",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Fly in the face of'",
+      "example": "Example sentence using 'Fly in the face of'."
+    },
+    {
+      "word": "Fool's errand",
+      "word_id": "en_idiom_fool_s_errand",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Fool's errand'",
+      "example": "Example sentence using 'Fool's errand'."
+    },
+    {
+      "word": "Fool's paradise",
+      "word_id": "en_idiom_fool_s_paradise",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Fool's paradise'",
+      "example": "Example sentence using 'Fool's paradise'."
+    },
+    {
+      "word": "Forbidden fruit",
+      "word_id": "en_idiom_forbidden_fruit",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Forbidden fruit'",
+      "example": "Example sentence using 'Forbidden fruit'."
+    },
+    {
+      "word": "From the sublime to the ridiculous",
+      "word_id": "en_idiom_from_the_sublime_to_the_ridiculous",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'From the sublime to the ridiculous'",
+      "example": "Example sentence using 'From the sublime to the ridiculous'."
+    },
+    {
+      "word": "Game worth the candle",
+      "word_id": "en_idiom_game_worth_the_candle",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Game worth the candle'",
+      "example": "Example sentence using 'Game worth the candle'."
+    },
+    {
+      "word": "Get the sack",
+      "word_id": "en_idiom_get_the_sack",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Get the sack'",
+      "example": "Example sentence using 'Get the sack'."
+    },
+    {
+      "word": "Zero in on",
+      "word_id": "en_idiom_zero_in_on",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Zero in on'",
+      "example": "Example sentence using 'Zero in on'."
+    },
+    {
+      "word": "Grease the skids",
+      "word_id": "en_idiom_grease_the_skids",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Grease the skids'",
+      "example": "Example sentence using 'Grease the skids'."
+    },
+    {
+      "word": "Green-eyed monster",
+      "word_id": "en_idiom_green_eyed_monster",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Green-eyed monster'",
+      "example": "Example sentence using 'Green-eyed monster'."
+    },
+    {
+      "word": "Grist to the mill",
+      "word_id": "en_idiom_grist_to_the_mill",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Grist to the mill'",
+      "example": "Example sentence using 'Grist to the mill'."
+    },
+    {
+      "word": "Halcyon days",
+      "word_id": "en_idiom_halcyon_days",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Halcyon days'",
+      "example": "Example sentence using 'Halcyon days'."
+    },
+    {
+      "word": "Ham-fisted",
+      "word_id": "en_idiom_ham_fisted",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Ham-fisted'",
+      "example": "Example sentence using 'Ham-fisted'."
+    },
+    {
+      "word": "Hand that rocks the cradle",
+      "word_id": "en_idiom_hand_that_rocks_the_cradle",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Hand that rocks the cradle'",
+      "example": "Example sentence using 'Hand that rocks the cradle'."
+    },
+    {
+      "word": "Hard row to hoe",
+      "word_id": "en_idiom_hard_row_to_hoe",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Hard row to hoe'",
+      "example": "Example sentence using 'Hard row to hoe'."
+    },
+    {
+      "word": "Have skin in the game",
+      "word_id": "en_idiom_have_skin_in_the_game",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Have skin in the game'",
+      "example": "Example sentence using 'Have skin in the game'."
+    },
+    {
+      "word": "Heads will roll",
+      "word_id": "en_idiom_heads_will_roll",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Heads will roll'",
+      "example": "Example sentence using 'Heads will roll'."
+    },
+    {
+      "word": "Hobson's choice",
+      "word_id": "en_idiom_hobson_s_choice",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Hobson's choice'",
+      "example": "Example sentence using 'Hobson's choice'."
+    },
+    {
+      "word": "Hoist with one's own petard",
+      "word_id": "en_idiom_hoist_with_one_s_own_petard",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Hoist with one's own petard'",
+      "example": "Example sentence using 'Hoist with one's own petard'."
+    },
+    {
+      "word": "Hold water",
+      "word_id": "en_idiom_hold_water",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Hold water'",
+      "example": "Example sentence using 'Hold water'."
+    },
+    {
+      "word": "In the doghouse",
+      "word_id": "en_idiom_in_the_doghouse",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'In the doghouse'",
+      "example": "Example sentence using 'In the doghouse'."
+    },
+    {
+      "word": "Ivory tower",
+      "word_id": "en_idiom_ivory_tower",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Ivory tower'",
+      "example": "Example sentence using 'Ivory tower'."
+    },
+    {
+      "word": "Jack of all trades, master of none",
+      "word_id": "en_idiom_jack_of_all_trades_master_of_none",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Jack of all trades, master of none'",
+      "example": "Example sentence using 'Jack of all trades, master of none'."
+    },
+    {
+      "word": "Janus-faced",
+      "word_id": "en_idiom_janus_faced",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Janus-faced'",
+      "example": "Example sentence using 'Janus-faced'."
+    },
+    {
+      "word": "Keep body and soul together",
+      "word_id": "en_idiom_keep_body_and_soul_together",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Keep body and soul together'",
+      "example": "Example sentence using 'Keep body and soul together'."
+    },
+    {
+      "word": "Kick against the pricks",
+      "word_id": "en_idiom_kick_against_the_pricks",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Kick against the pricks'",
+      "example": "Example sentence using 'Kick against the pricks'."
+    },
+    {
+      "word": "Laugh all the way to the bank",
+      "word_id": "en_idiom_laugh_all_the_way_to_the_bank",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Laugh all the way to the bank'",
+      "example": "Example sentence using 'Laugh all the way to the bank'."
+    },
+    {
+      "word": "Leading light",
+      "word_id": "en_idiom_leading_light",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Leading light'",
+      "example": "Example sentence using 'Leading light'."
+    },
+    {
+      "word": "Lick into shape",
+      "word_id": "en_idiom_lick_into_shape",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Lick into shape'",
+      "example": "Example sentence using 'Lick into shape'."
+    },
+    {
+      "word": "Light at the end of the tunnel",
+      "word_id": "en_idiom_light_at_the_end_of_the_tunnel",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Light at the end of the tunnel'",
+      "example": "Example sentence using 'Light at the end of the tunnel'."
+    },
+    {
+      "word": "Lion's share",
+      "word_id": "en_idiom_lion_s_share",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Lion's share'",
+      "example": "Example sentence using 'Lion's share'."
+    },
+    {
+      "word": "Living on borrowed time",
+      "word_id": "en_idiom_living_on_borrowed_time",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Living on borrowed time'",
+      "example": "Example sentence using 'Living on borrowed time'."
+    },
+    {
+      "word": "Long in the tooth",
+      "word_id": "en_idiom_long_in_the_tooth",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Long in the tooth'",
+      "example": "Example sentence using 'Long in the tooth'."
+    },
+    {
+      "word": "Look to one's laurels",
+      "word_id": "en_idiom_look_to_one_s_laurels",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Look to one's laurels'",
+      "example": "Example sentence using 'Look to one's laurels'."
+    },
+    {
+      "word": "Mad as a hatter",
+      "word_id": "en_idiom_mad_as_a_hatter",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Mad as a hatter'",
+      "example": "Example sentence using 'Mad as a hatter'."
+    },
+    {
+      "word": "Maiden voyage",
+      "word_id": "en_idiom_maiden_voyage",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Maiden voyage'",
+      "example": "Example sentence using 'Maiden voyage'."
+    },
+    {
+      "word": "Make a silk purse out of a sow's ear",
+      "word_id": "en_idiom_make_a_silk_purse_out_of_a_sow_s_ear",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Make a silk purse out of a sow's ear'",
+      "example": "Example sentence using 'Make a silk purse out of a sow's ear'."
+    },
+    {
+      "word": "Man of straw",
+      "word_id": "en_idiom_man_of_straw",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Man of straw'",
+      "example": "Example sentence using 'Man of straw'."
+    },
+    {
+      "word": "Mind one's P's and Q's",
+      "word_id": "en_idiom_mind_one_s_p_s_and_q_s",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Mind one's P's and Q's'",
+      "example": "Example sentence using 'Mind one's P's and Q's'."
+    },
+    {
+      "word": "Midas touch",
+      "word_id": "en_idiom_midas_touch",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Midas touch'",
+      "example": "Example sentence using 'Midas touch'."
+    },
+    {
+      "word": "Mouth-watering",
+      "word_id": "en_idiom_mouth_watering",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Mouth-watering'",
+      "example": "Example sentence using 'Mouth-watering'."
+    },
+    {
+      "word": "Clear as a bell",
+      "word_id": "en_idiom_clear_as_a_bell",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Clear as a bell'",
+      "example": "Example sentence using 'Clear as a bell'."
+    },
+    {
+      "word": "Sail under false colors",
+      "word_id": "en_idiom_sail_under_false_colors",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Sail under false colors'",
+      "example": "Example sentence using 'Sail under false colors'."
+    },
+    {
+      "word": "Second to none",
+      "word_id": "en_idiom_second_to_none",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Second to none'",
+      "example": "Example sentence using 'Second to none'."
+    },
+    {
+      "word": "Set the world on fire",
+      "word_id": "en_idiom_set_the_world_on_fire",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Set the world on fire'",
+      "example": "Example sentence using 'Set the world on fire'."
+    },
+    {
+      "word": "Sitting duck",
+      "word_id": "en_idiom_sitting_duck",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Sitting duck'",
+      "example": "Example sentence using 'Sitting duck'."
+    },
+    {
+      "word": "Square peg in a round hole",
+      "word_id": "en_idiom_square_peg_in_a_round_hole",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Square peg in a round hole'",
+      "example": "Example sentence using 'Square peg in a round hole'."
+    },
+    {
+      "word": "Sticky wicket",
+      "word_id": "en_idiom_sticky_wicket",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Sticky wicket'",
+      "example": "Example sentence using 'Sticky wicket'."
+    },
+    {
+      "word": "Storm in a teacup",
+      "word_id": "en_idiom_storm_in_a_teacup",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Storm in a teacup'",
+      "example": "Example sentence using 'Storm in a teacup'."
+    },
+    {
+      "word": "Cold day in hell",
+      "word_id": "en_idiom_cold_day_in_hell",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Cold day in hell'",
+      "example": "Example sentence using 'Cold day in hell'."
+    },
+    {
+      "word": "Cool, calm, and collected",
+      "word_id": "en_idiom_cool_calm_and_collected",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Cool, calm, and collected'",
+      "example": "Example sentence using 'Cool, calm, and collected'."
+    },
+    {
+      "word": "To the manner born",
+      "word_id": "en_idiom_to_the_manner_born",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'To the manner born'",
+      "example": "Example sentence using 'To the manner born'."
+    },
+    {
+      "word": "Turn the tables",
+      "word_id": "en_idiom_turn_the_tables",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Turn the tables'",
+      "example": "Example sentence using 'Turn the tables'."
+    },
+    {
+      "word": "Under the radar",
+      "word_id": "en_idiom_under_the_radar",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Under the radar'",
+      "example": "Example sentence using 'Under the radar'."
+    },
+    {
+      "word": "Up the ante",
+      "word_id": "en_idiom_up_the_ante",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Up the ante'",
+      "example": "Example sentence using 'Up the ante'."
+    },
+    {
+      "word": "Dead in the water",
+      "word_id": "en_idiom_dead_in_the_water",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Dead in the water'",
+      "example": "Example sentence using 'Dead in the water'."
+    },
+    {
+      "word": "Worth one's weight in gold",
+      "word_id": "en_idiom_worth_one_s_weight_in_gold",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Worth one's weight in gold'",
+      "example": "Example sentence using 'Worth one's weight in gold'."
+    },
+    {
+      "word": "Yellow journalism",
+      "word_id": "en_idiom_yellow_journalism",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Yellow journalism'",
+      "example": "Example sentence using 'Yellow journalism'."
+    },
+    {
+      "word": "Beware of Greeks bearing gifts",
+      "word_id": "en_idiom_beware_of_greeks_bearing_gifts",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Beware of Greeks bearing gifts'",
+      "example": "Example sentence using 'Beware of Greeks bearing gifts'."
+    },
+    {
+      "word": "In the nick of time",
+      "word_id": "en_idiom_in_the_nick_of_time",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'In the nick of time'",
+      "example": "Example sentence using 'In the nick of time'."
+    },
+    {
+      "word": "Apple of one's eye",
+      "word_id": "en_idiom_apple_of_one_s_eye",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Apple of one's eye'",
+      "example": "Example sentence using 'Apple of one's eye'."
+    },
+    {
+      "word": "Keep a stiff upper lip",
+      "word_id": "en_idiom_keep_a_stiff_upper_lip",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Keep a stiff upper lip'",
+      "example": "Example sentence using 'Keep a stiff upper lip'."
+    },
+    {
+      "word": "Behind the eight ball",
+      "word_id": "en_idiom_behind_the_eight_ball",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Behind the eight ball'",
+      "example": "Example sentence using 'Behind the eight ball'."
+    },
+    {
+      "word": "Lesser of two evils",
+      "word_id": "en_idiom_lesser_of_two_evils",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Lesser of two evils'",
+      "example": "Example sentence using 'Lesser of two evils'."
+    },
+    {
+      "word": "Ham-fisted approach",
+      "word_id": "en_idiom_ham_fisted_approach",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Ham-fisted approach'",
+      "example": "Example sentence using 'Ham-fisted approach'."
+    },
+    {
+      "word": "Hobson choice",
+      "word_id": "en_idiom_hobson_choice",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Hobson choice'",
+      "example": "Example sentence using 'Hobson choice'."
+    },
+    {
+      "word": "Hoist by one's own petard",
+      "word_id": "en_idiom_hoist_by_one_s_own_petard",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Hoist by one's own petard'",
+      "example": "Example sentence using 'Hoist by one's own petard'."
+    },
+    {
+      "word": "Word of advice",
+      "word_id": "en_idiom_word_of_advice",
+      "pos": "idiom",
+      "definition": "Idiomatic expression: 'Word of advice'",
+      "example": "Example sentence using 'Word of advice'."
+    }
+  ]
+}

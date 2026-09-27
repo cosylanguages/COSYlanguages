@@ -81,11 +81,11 @@ These files reside outside `manuals/` and will break if `manuals/` paths change:
 - `project/docs/EDITORIAL_HANDBOOK.md` (1 reference)
 - `project/docs/THEMES.md` (1 reference)
 - `project/docs/UNIFIED_VOCABULARY_TAXONOMY_AND_SCENE_MATCH_MATRIX.md` (1 reference)
-- `project/docs/audits/A2_B2_VOCAB_COMMUNICATION_STRATEGY.md` (4 references)
-- `project/docs/audits/ENGLISH_MANUALS_BRAINSTORM_AND_COMPONENTS.md` (5 references)
-- `project/docs/audits/ENGLISH_MANUALS_VISUAL_AUDIT.md` (1 reference)
-- `project/docs/audits/missing-from-inventory.json` (18 references)
-- `project/docs/audits/reference-grammar-audit.json` (44 references)
+- `project/docs/audits/active/A2_B2_VOCAB_COMMUNICATION_STRATEGY.md` (4 references)
+- `project/docs/audits/active/ENGLISH_MANUALS_BRAINSTORM_AND_COMPONENTS.md` (5 references)
+- `project/docs/audits/active/ENGLISH_MANUALS_VISUAL_AUDIT.md` (1 reference)
+- `project/docs/audits/active/missing-from-inventory.json` (18 references)
+- `project/docs/audits/active/reference-grammar-audit.json` (44 references)
 - `project/planning/COMMUNICATION_ARCHITECTURE_BRAINSTORM.md` (3 references)
 - ... and 46 more files.
 

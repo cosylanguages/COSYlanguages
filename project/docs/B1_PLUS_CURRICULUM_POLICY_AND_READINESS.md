@@ -64,4 +64,4 @@ To dynamically audit `curriculum/<lang>/general/` across all 13 languages and ve
 python3 project/scripts/audits/audit_b1_plus_curriculum_readiness.py
 ```
 
-This generates an updated JSON summary at `project/docs/audits/b1_plus_curriculum_audit.json`.
+This generates an updated JSON summary at `project/docs/audits/active/b1_plus_curriculum_audit.json`.
