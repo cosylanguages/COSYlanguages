@@ -2921,139 +2921,6 @@
                 { lang: "fr", path: "apps/premium-events/clubs/quotes/fr/sessions/the-greatest-quotes/voltaire-read-dance-quote.html", level: "B1", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B1)" }
             ]
         },
-        {
-            id: "anticipatory-grief",
-            pages: [
-                { lang: "en", path: "apps/premium-events/clubs/mind/sessions/mind-matters/anticipatory-grief.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
-                { lang: "fr", path: "apps/premium-events/clubs/mind/fr/sessions/mind-matters/anticipatory-grief.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
-            ]
-        },
-        {
-            id: "broken-children-grown-bodies",
-            pages: [
-                { lang: "en", path: "apps/premium-events/clubs/mind/sessions/mind-matters/broken-children-grown-bodies.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
-                { lang: "fr", path: "apps/premium-events/clubs/mind/fr/sessions/mind-matters/broken-children-grown-bodies.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
-            ]
-        },
-        {
-            id: "depersonalization",
-            pages: [
-                { lang: "en", path: "apps/premium-events/clubs/mind/sessions/mind-matters/depersonalization.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
-                { lang: "fr", path: "apps/premium-events/clubs/mind/fr/sessions/mind-matters/depersonalization.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
-            ]
-        },
-        {
-            id: "fear-of-love-control",
-            pages: [
-                { lang: "en", path: "apps/premium-events/clubs/mind/sessions/mind-matters/fear-of-love-control.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
-                { lang: "fr", path: "apps/premium-events/clubs/mind/fr/sessions/mind-matters/fear-of-love-control.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
-            ]
-        },
-        {
-            id: "finding-the-right-person",
-            pages: [
-                { lang: "en", path: "apps/premium-events/clubs/mind/sessions/mind-matters/finding-the-right-person.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
-                { lang: "fr", path: "apps/premium-events/clubs/mind/fr/sessions/mind-matters/finding-the-right-person.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
-            ]
-        },
-        {
-            id: "gilberts-law",
-            pages: [
-                { lang: "en", path: "apps/premium-events/clubs/mind/sessions/mind-matters/gilberts-law.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
-                { lang: "fr", path: "apps/premium-events/clubs/mind/fr/sessions/mind-matters/gilberts-law.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
-            ]
-        },
-        {
-            id: "impersonation",
-            pages: [
-                { lang: "en", path: "apps/premium-events/clubs/mind/sessions/mind-matters/impersonation.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
-                { lang: "fr", path: "apps/premium-events/clubs/mind/fr/sessions/mind-matters/impersonation.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
-            ]
-        },
-        {
-            id: "kidlins-law",
-            pages: [
-                { lang: "en", path: "apps/premium-events/clubs/mind/sessions/mind-matters/kidlins-law.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
-                { lang: "fr", path: "apps/premium-events/clubs/mind/fr/sessions/mind-matters/kidlins-law.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
-            ]
-        },
-        {
-            id: "law-of-attraction",
-            pages: [
-                { lang: "en", path: "apps/premium-events/clubs/mind/sessions/mind-matters/law-of-attraction.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
-                { lang: "fr", path: "apps/premium-events/clubs/mind/fr/sessions/mind-matters/law-of-attraction.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
-            ]
-        },
-        {
-            id: "limerence",
-            pages: [
-                { lang: "en", path: "apps/premium-events/clubs/mind/sessions/mind-matters/limerence.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
-                { lang: "fr", path: "apps/premium-events/clubs/mind/fr/sessions/mind-matters/limerence.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
-            ]
-        },
-        {
-            id: "murphys-law",
-            pages: [
-                { lang: "en", path: "apps/premium-events/clubs/mind/sessions/mind-matters/murphys-law.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
-                { lang: "fr", path: "apps/premium-events/clubs/mind/fr/sessions/mind-matters/murphys-law.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
-            ]
-        },
-        {
-            id: "wilsons-law",
-            pages: [
-                { lang: "en", path: "apps/premium-events/clubs/mind/sessions/mind-matters/wilsons-law.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
-                { lang: "fr", path: "apps/premium-events/clubs/mind/fr/sessions/mind-matters/wilsons-law.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
-            ]
-        },
-        {
-            id: "dostoevsky-loving-power-quote",
-            pages: [
-                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/dostoevsky-loving-power-quote.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
-                { lang: "ru", path: "apps/premium-events/clubs/quotes/ru/sessions/the-greatest-quotes/dostoevsky-loving-power-quote.html", level: "B2", label: "🇷🇺 Русский", levelLabel: "Выше среднего (B2)" }
-            ]
-        },
-        {
-            id: "dostoevsky-politics-religion-quote",
-            pages: [
-                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/dostoevsky-politics-religion-quote.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
-                { lang: "ru", path: "apps/premium-events/clubs/quotes/ru/sessions/the-greatest-quotes/dostoevsky-politics-religion-quote.html", level: "B2", label: "🇷🇺 Русский", levelLabel: "Выше среднего (B2)" }
-            ]
-        },
-        {
-            id: "neufeld-resistance-quote",
-            pages: [
-                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/neufeld-resistance-quote.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
-                { lang: "ru", path: "apps/premium-events/clubs/quotes/ru/sessions/the-greatest-quotes/neufeld-resistance-quote.html", level: "B2", label: "🇷🇺 Русский", levelLabel: "Выше среднего (B2)" }
-            ]
-        },
-        {
-            id: "langle-suppressed-child-quote",
-            pages: [
-                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/langle-suppressed-child-quote.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
-                { lang: "ru", path: "apps/premium-events/clubs/quotes/ru/sessions/the-greatest-quotes/langle-suppressed-child-quote.html", level: "B2", label: "🇷🇺 Русский", levelLabel: "Выше среднего (B2)" }
-            ]
-        },
-        {
-            id: "think-for-yourself-quote",
-            pages: [
-                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/think-for-yourself-quote.html", level: "B1", label: "🇬🇧 English", levelLabel: "Intermediate (B1)" },
-                { lang: "ru", path: "apps/premium-events/clubs/quotes/ru/sessions/the-greatest-quotes/think-for-yourself-quote.html", level: "B1", label: "🇷🇺 Русский", levelLabel: "Средний (B1)" }
-            ]
-        },
-        {
-            id: "wisdom-of-socrates",
-            pages: [
-                { lang: "en", path: "apps/premium-events/clubs/quotes/sessions/the-greatest-quotes/wisdom-of-socrates.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
-                { lang: "fr", path: "apps/premium-events/clubs/quotes/fr/sessions/the-greatest-quotes/la-sagesse-de-socrate.html", level: "B2", label: "🇫🇷 Français", levelLabel: "Intermédiaire (B2)" }
-            ]
-        },
-        {
-            id: "expert-defend-language-mistakes",
-            pages: [
-                { lang: "en", path: "apps/premium-events/clubs/mind/sessions/mind-matters/expert-defend-language-mistakes.html", level: "B2", label: "🇬🇧 English", levelLabel: "Upper-Intermediate (B2)" },
-                { lang: "ru", path: "apps/premium-events/clubs/mind/ru/sessions/mind-matters/ne-ispravlyay-rech.html", level: "B1", label: "🇷🇺 Русский", levelLabel: "Средний (B1)" }
-            ]
-        },
         // 🎬 Cinema Club Level-Switching Groups (Split B1/B2)
         {
             id: "cinema-the-devil-wears-prada",
@@ -4339,8 +4206,7 @@
                                currentPathname.includes('my-life-with-without') ||
                                currentPathname.includes('debatable-relatable') ||
                                currentPathname.includes('if-you-were') ||
-                               currentPathname.includes('long-reads') ||
-                               currentPathname.includes('apps/premium-events/clubs/');
+                               currentPathname.includes('long-reads');
 
         if (!isSpeakingClub) {
             // Clean up session storage states when user leaves speaking clubs
@@ -4739,8 +4605,7 @@
                            path.includes('my-life-with-without') ||
                            path.includes('debatable-relatable') ||
                            path.includes('if-you-were') ||
-                           path.includes('long-reads') ||
-                           path.includes('apps/premium-events/clubs/');
+                           path.includes('long-reads');
                 };
 
                 const targetPath = absoluteUrl.pathname;
