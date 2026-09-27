@@ -1,0 +1,340 @@
+const fs = require('fs');
+const path = require('path');
+const https = require('https');
+
+// Fallback session dataset if network/COSYevents endpoint is offline
+const FALLBACK_SESSIONS = [
+  {
+    id: "science-sleep",
+    title: "The Science of Sleep & Memory Consolidation",
+    club: "Keeping Up with Science",
+    icon: "🔬",
+    level: "Intermediate (B1-B2)",
+    description: "Explore breakthroughs in sleep neuroscience, circadian rhythms, and optimal memory retention strategies.",
+    url: "https://cosylanguages.github.io/COSYevents/"
+  },
+  {
+    id: "mind-limerence",
+    title: "Understanding Limerence & Emotional Attachments",
+    club: "Mind Matters",
+    icon: "🧠",
+    level: "Upper-Intermediate (B2)",
+    description: "Deconstruct the psychology of limerence, emotional regulation, and modern relational dynamics.",
+    url: "https://cosylanguages.github.io/COSYevents/"
+  },
+  {
+    id: "cinema-fleabag",
+    title: "Fleabag: Screenplay Wit & Modern Monologues",
+    club: "Cinema Club",
+    icon: "🍿",
+    level: "Advanced (C1)",
+    description: "Analyze comedic timing, fourth-wall breaks, and conversational nuances in contemporary drama.",
+    url: "https://cosylanguages.github.io/COSYevents/"
+  },
+  {
+    id: "debate-4day-workweek",
+    title: "The 4-Day Work Week Controversy",
+    club: "Debatable & Relatable",
+    icon: "⚖️",
+    level: "Intermediate (B1-B2)",
+    description: "Engage in persuasive debate surrounding labor economics, productivity models, and work-life balance.",
+    url: "https://cosylanguages.github.io/COSYevents/"
+  }
+];
+
+function fetchCOSYeventsSessions() {
+  return new Promise((resolve) => {
+    const url = 'https://raw.githubusercontent.com/cosylanguages/COSYevents/main/data/sessions.json';
+    https.get(url, (res) => {
+      if (res.statusCode !== 200) {
+        return resolve(FALLBACK_SESSIONS);
+      }
+      let data = '';
+      res.on('data', chunk => data += chunk);
+      res.on('end', () => {
+        try {
+          const parsed = JSON.parse(data);
+          const sessions = Array.isArray(parsed) ? parsed : (parsed.sessions || FALLBACK_SESSIONS);
+          resolve(sessions.slice(0, 4));
+        } catch (e) {
+          resolve(FALLBACK_SESSIONS);
+        }
+      });
+    }).on('error', () => {
+      resolve(FALLBACK_SESSIONS);
+    });
+  });
+}
+
+function getFeaturedBlogPost() {
+  const blogIndexPath = path.join(__dirname, '..', 'blog', 'index.html');
+  if (fs.existsSync(blogIndexPath)) {
+    const html = fs.readFileSync(blogIndexPath, 'utf8');
+    // Extract title, excerpt, and author if present
+    const titleMatch = html.match(/class="post-card-title">[\s\S]*?<a[^>]*>([\s\S]*?)<\/a>/i);
+    const title = titleMatch ? titleMatch[1].replace(/<[^>]+>/g, '').trim() : 'Top 10 Essential Verbs for Absolute Beginners (A0–A1)';
+    return {
+      title,
+      author: 'COSY Editorial Team',
+      date: 'October 2026',
+      readTime: '5 min read',
+      excerpt: 'Mastering core high-frequency verbs is the single fastest catalyst for spontaneous speech. Explore the 10 foundational verb patterns across all 14 COSY target languages with structured prepositions and beginner traps.',
+      url: '../blog/top-10-verbs.html'
+    };
+  }
+  return {
+    title: 'Top 10 Essential Verbs for Absolute Beginners (A0–A1)',
+    author: 'COSY Editorial Team',
+    date: 'October 2026',
+    readTime: '5 min read',
+    excerpt: 'Mastering core high-frequency verbs is the single fastest catalyst for spontaneous speech.',
+    url: '../blog/top-10-verbs.html'
+  };
+}
+
+async function generateMonthlyZine() {
+  console.log('📰 Generating Monthly Zine Issue...');
+  const blog = getFeaturedBlogPost();
+  const sessions = await fetchCOSYeventsSessions();
+
+  const sessionCardsHtml = sessions.map(s => `
+    <div class="session-card">
+      <div class="session-card-header">
+        <span class="session-icon">${s.icon || '🗣️'}</span>
+        <span class="session-club">${s.club || 'COSYevents Club'}</span>
+      </div>
+      <h3 class="session-title">${s.title}</h3>
+      <p class="session-level">🎯 Level: <strong>${s.level || 'All Levels'}</strong></p>
+      <p class="session-desc">${s.description || 'Interactive speaking session and guided discussion.'}</p>
+      <div class="session-link-row">
+        <a href="${s.url || 'https://cosylanguages.github.io/COSYevents/'}" target="_blank" class="session-btn">Explore Session →</a>
+      </div>
+    </div>
+  `).join('\n');
+
+  const htmlContent = `<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COSY Gazette &amp; Community Zine — Issue #1 (October 2026)</title>
+    <link rel="icon" href="../images/logos/cosylanguages.png">
+    <link rel="stylesheet" href="../css/tokens.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/print.css">
+    <style>
+        :root {
+            --primary: var(--cosy-color-sage, #416b49);
+            --bg-cream: var(--cream, #FAF7F2);
+        }
+        body {
+            background-color: var(--bg-cream);
+            color: var(--ink, #1c1917);
+            font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .zine-container {
+            max-width: 960px;
+            margin: 2rem auto;
+            background: #ffffff;
+            border: 2px solid var(--border, #e7e5e4);
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            padding: 2.5rem;
+        }
+        .zine-masthead {
+            border-bottom: 3px double var(--primary);
+            padding-bottom: 1.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .zine-issue-badge {
+            display: inline-block;
+            background: var(--primary);
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 0.8rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            margin-bottom: 0.75rem;
+        }
+        .zine-title {
+            font-family: 'Fraunces', Georgia, serif;
+            font-size: 2.4rem;
+            margin: 0 0 0.5rem;
+            color: var(--ink, #1c1917);
+        }
+        .zine-tagline {
+            font-size: 1.05rem;
+            color: var(--ink-muted, #57534e);
+            margin: 0;
+        }
+        .zine-section-title {
+            font-family: 'Fraunces', Georgia, serif;
+            font-size: 1.6rem;
+            color: var(--primary);
+            border-bottom: 2px solid var(--border, #e7e5e4);
+            padding-bottom: 0.4rem;
+            margin-top: 2rem;
+            margin-bottom: 1.25rem;
+        }
+        .featured-article-card {
+            background: #fafaf9;
+            border: 1px solid var(--border, #e7e5e4);
+            border-left: 5px solid var(--primary);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 2.5rem;
+        }
+        .article-title {
+            font-family: 'Fraunces', Georgia, serif;
+            font-size: 1.5rem;
+            margin: 0 0 0.5rem;
+        }
+        .article-meta {
+            font-size: 0.88rem;
+            color: var(--ink-muted, #57534e);
+            margin-bottom: 0.75rem;
+        }
+        .article-excerpt {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #292524;
+            margin-bottom: 1rem;
+        }
+        .article-btn {
+            display: inline-block;
+            background: var(--primary);
+            color: #ffffff;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        .sessions-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.25rem;
+        }
+        .session-card {
+            border: 1px solid var(--border, #e7e5e4);
+            border-radius: 8px;
+            padding: 1.25rem;
+            background: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            page-break-inside: avoid;
+            break-inside: avoid;
+        }
+        .session-card-header {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .session-icon { font-size: 1.5rem; }
+        .session-club {
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: var(--primary);
+            letter-spacing: 0.05em;
+        }
+        .session-title {
+            font-family: 'Fraunces', Georgia, serif;
+            font-size: 1.15rem;
+            margin: 0 0 0.4rem;
+        }
+        .session-level {
+            font-size: 0.85rem;
+            color: var(--ink-muted, #57534e);
+            margin-bottom: 0.5rem;
+        }
+        .session-desc {
+            font-size: 0.9rem;
+            color: #44403c;
+            line-height: 1.5;
+            margin-bottom: 1rem;
+        }
+        .session-btn {
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 0.88rem;
+            text-decoration: none;
+        }
+        .session-btn:hover { text-decoration: underline; }
+        .print-toolbar {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+        .print-btn {
+            background: var(--primary);
+            color: #ffffff;
+            border: none;
+            padding: 0.6rem 1.25rem;
+            font-size: 0.95rem;
+            font-weight: 700;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        @media print {
+            .print-toolbar, nav, footer { display: none !important; }
+            body { background: #ffffff; }
+            .zine-container { border: none; box-shadow: none; padding: 0; margin: 0; max-width: 100%; }
+            .session-card { break-inside: avoid; page-break-inside: avoid; }
+            @page { size: A4 portrait; margin: 12mm; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="print-toolbar no-print">
+        <button class="print-btn" onclick="window.print()">🖨️ Print / Save as PDF Zine</button>
+    </div>
+
+    <div class="zine-container">
+        <header class="zine-masthead">
+            <span class="zine-issue-badge">OCTOBER 2026 • ISSUE #1</span>
+            <h1 class="zine-title">☕ COSY Community Zine &amp; Gazette</h1>
+            <p class="zine-tagline">Monthly editorial highlights, high-frequency core language guides, and live speaking club showcases.</p>
+        </header>
+
+        <section>
+            <h2 class="zine-section-title">📖 Featured Editorial Story</h2>
+            <article class="featured-article-card">
+                <h3 class="article-title">${blog.title}</h3>
+                <div class="article-meta">Written by <strong>${blog.author}</strong> • ${blog.date} • ${blog.readTime}</div>
+                <p class="article-excerpt">${blog.excerpt}</p>
+                <a href="${blog.url}" class="article-btn">Read Full Editorial →</a>
+            </article>
+        </section>
+
+        <section>
+            <h2 class="zine-section-title">🗣️ COSYevents Monthly Session Highlights</h2>
+            <div class="sessions-grid">
+                ${sessionCardsHtml}
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>`;
+
+  const outputPath = path.join(__dirname, '..', 'print-studio', 'monthly-zine-issue-1.html');
+  fs.writeFileSync(outputPath, htmlContent, 'utf8');
+  console.log(`✅ Monthly zine generated successfully at: ${outputPath}`);
+}
+
+if (require.main === module) {
+  generateMonthlyZine();
+}
+
+module.exports = { generateMonthlyZine };
