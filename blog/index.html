@@ -10,7 +10,7 @@
     <meta name="theme-color" content="#FAF7F2">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,300..700;1,8..60,300..700&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/tokens.css">
     <link rel="stylesheet" href="../css/base.css">
@@ -20,26 +20,33 @@
 </head>
 <body class="blog-page">
 
-    <nav id="cosy-nav"></nav>
+    <nav id="cosy-nav" aria-label="Main Navigation"></nav>
 
     <div class="blog-wrapper">
         <!-- Blogger Header -->
-        <header class="blog-header">
+        <header class="blog-header" aria-label="Blog Header">
             <h1 class="blog-header-title"><a href="index.html">COSY Editorial &amp; Learning Corner ☕📖</a></h1>
             <p class="blog-header-tagline">Welcome to our editorial room! Explore personal journal notes, language learning philosophies, and canonical curriculum guides across all 14 COSY target languages.</p>
+            <div class="editorial-date-bar">
+                <span>VOL. I · NO. 1</span>
+                <span>SEPTEMBER 2026</span>
+                <span>14 LANGUAGES EDITION</span>
+                <span>FREE ACCESS</span>
+            </div>
             <div class="blog-header-meta">
                 <span class="blog-meta-chip">✨ 14 Languages</span>
                 <span class="blog-meta-chip">🎯 100% Free &amp; Open Access</span>
                 <span class="blog-meta-chip">💡 Speaking-First Pedagogy</span>
+                <button type="button" onclick="window.print()" class="blog-meta-chip print-btn" title="Print Current Issue / Export PDF">🖨️ Print Issue / PDF</button>
             </div>
         </header>
 
         <!-- Blogger 2-Column Grid -->
         <div class="blog-layout">
-            <main class="blog-main-col" id="blog-main">
+            <main class="blog-main-col" id="blog-main" aria-label="Main Editorial Articles">
                 <!-- Featured Lead Story Section -->
                 <div id="featured-posts-container">
-                <article class="post-card-blogger list-post">
+                <article class="post-card-blogger list-post featured-article">
                     <span class="post-card-label">🌟 Featured Resource List</span>
                     <h2 class="post-card-title">
                         <a href="top-10-verbs.html">🎯 Top 10 Essential Verbs for Absolute Beginners (A0–A1) across All 14 Languages</a>
@@ -52,9 +59,17 @@
                         <span>·</span>
                         <span>⏱️ 8 min read</span>
                     </div>
-                    <p class="post-card-excerpt">
-                        The 10 essential verbs every beginner needs first, linked directly to COSYdata across all 14 target languages with real grammar traps (like <em>to be</em> vs. <em>to have</em> for age or <em>to know</em> facts vs. people) and interactive multi-language filtering.
-                    </p>
+                    <blockquote class="editorial-quote">
+                        "Grammar tables feel safe, but true fluency begins when you embrace real communicative risks across authentic daily contexts."
+                    </blockquote>
+                    <div class="newspaper-columns">
+                        <p>
+                            The 10 essential verbs every beginner needs first, linked directly to COSYdata across all 14 target languages with real grammar traps (like <em>to be</em> vs. <em>to have</em> for age or <em>to know</em> facts vs. people) and interactive multi-language filtering.
+                        </p>
+                        <p>
+                            When approaching language learning from a communicative standpoint, verbs form the structural backbone of every natural interaction. Master these core action items first to begin generating meaningful sentences from your very first session.
+                        </p>
+                    </div>
                     <div class="post-tags-row">
                         <span class="post-tag-chip">#ResourceList</span>
                         <span class="post-tag-chip">#Verbs</span>
@@ -99,8 +114,8 @@
 
                 <!-- Navigation Tabs -->
                 <nav class="blog-tabs-nav" aria-label="Blog Section Tabs">
-                    <button class="blog-tab-btn active sec-tab-btn" onclick="switchBlogTab('edu')">🎓 Educational Corner (Top 100 Lists)</button>
-                    <button class="blog-tab-btn sec-tab-btn" onclick="switchBlogTab('personal')">👤 Personal Corner (Journal Notes)</button>
+                    <button type="button" class="blog-tab-btn active sec-tab-btn" onclick="switchBlogTab('edu')">🎓 Educational Corner (Top 100 Lists)</button>
+                    <button type="button" class="blog-tab-btn sec-tab-btn" onclick="switchBlogTab('personal')">👤 Personal Corner (Journal Notes)</button>
                 </nav>
 
                 <!-- Tab 1: Educational Corner -->
@@ -198,13 +213,13 @@
                         <div>
                             <span style="font-size:0.85rem; font-weight:700; color:var(--ink-muted); margin-right:8px; display:inline-block; margin-bottom:4px;">Filter English Resource by Level:</span>
                             <div class="level-pills">
-                                <button class="level-pill active" onclick="filterLevel('all', this)">All Levels</button>
-                                <button class="level-pill" onclick="filterLevel('A1', this)">A1 Starter</button>
-                                <button class="level-pill" onclick="filterLevel('A2', this)">A2 Elementary</button>
-                                <button class="level-pill" onclick="filterLevel('B1', this)">B1 Intermediate</button>
-                                <button class="level-pill" onclick="filterLevel('B2', this)">B2 Upper-Int</button>
-                                <button class="level-pill" onclick="filterLevel('C1', this)">C1 Advanced</button>
-                                <button class="level-pill" onclick="filterLevel('C2', this)">C2 Mastery</button>
+                                <button type="button" class="level-pill active" onclick="filterLevel('all', this)">All Levels</button>
+                                <button type="button" class="level-pill" onclick="filterLevel('A1', this)">A1 Starter</button>
+                                <button type="button" class="level-pill" onclick="filterLevel('A2', this)">A2 Elementary</button>
+                                <button type="button" class="level-pill" onclick="filterLevel('B1', this)">B1 Intermediate</button>
+                                <button type="button" class="level-pill" onclick="filterLevel('B2', this)">B2 Upper-Int</button>
+                                <button type="button" class="level-pill" onclick="filterLevel('C1', this)">C1 Advanced</button>
+                                <button type="button" class="level-pill" onclick="filterLevel('C2', this)">C2 Mastery</button>
                             </div>
                         </div>
                         <div class="search-box">
@@ -256,10 +271,10 @@
                         <div>
                             <span style="font-size:0.85rem; font-weight:700; color:var(--ink-muted); margin-right:8px; display:inline-block; margin-bottom:4px;">Filter Journal Notes by Category:</span>
                             <div class="level-pills" id="personal-category-filters">
-                                <button class="level-pill active" onclick="filterPersonalCategory('all', this)">All Notes</button>
-                                <button class="level-pill" onclick="filterPersonalCategory('Philosophy', this)">Philosophy</button>
-                                <button class="level-pill" onclick="filterPersonalCategory('Journal Article', this)">Journal Article</button>
-                                <button class="level-pill" onclick="filterPersonalCategory('Ecosystem Update', this)">Ecosystem Update</button>
+                                <button type="button" class="level-pill active" onclick="filterPersonalCategory('all', this)">All Notes</button>
+                                <button type="button" class="level-pill" onclick="filterPersonalCategory('Philosophy', this)">Philosophy</button>
+                                <button type="button" class="level-pill" onclick="filterPersonalCategory('Journal Article', this)">Journal Article</button>
+                                <button type="button" class="level-pill" onclick="filterPersonalCategory('Ecosystem Update', this)">Ecosystem Update</button>
                             </div>
                         </div>
                     </div>

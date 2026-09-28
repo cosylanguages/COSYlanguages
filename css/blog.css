@@ -3,6 +3,15 @@
    ========================================================================== */
 
 :root {
+    --font-masthead: 'Bodoni Moda', 'Playfair Display', serif;
+    --font-headline: 'Playfair Display', 'Fraunces', serif;
+    --font-body: 'Source Serif 4', Georgia, serif;
+    --color-ink: #111111;
+    --color-paper: #FAF7F2;
+    --color-accent: #8c1d1d;
+    --border-thin: 1px solid #111111;
+    --border-thick: 3px solid #111111;
+    --border-double: 4px double #111111;
     --teal: var(--cosy-color-sage, var(--sage, #416b49));
     --coral: var(--cosy-track-spoken, #B84318);
 }
@@ -31,12 +40,41 @@ body.blog-page,
 }
 
 .blog-header-title {
-    font-family: 'Fraunces', serif;
-    font-size: 2.3rem;
-    font-weight: 600;
-    color: var(--ink, #1c1917);
+    font-family: var(--font-masthead);
+    font-size: clamp(2.2rem, 5vw, 3.8rem);
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--color-ink);
     margin: 0 0 0.4rem;
-    letter-spacing: -0.015em;
+    letter-spacing: 0.04em;
+}
+
+.editorial-date-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: var(--border-thin);
+    border-bottom: var(--border-thin);
+    padding: 0.4rem 0;
+    font-family: var(--font-masthead);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin: 1rem 0 0.85rem;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.blog-meta-chip.print-btn {
+    cursor: pointer;
+    background: var(--color-ink);
+    color: #ffffff;
+    border: none;
+    transition: background 0.15s ease;
+}
+
+.blog-meta-chip.print-btn:hover {
+    background: var(--teal);
 }
 
 .blog-header-title a {
@@ -160,6 +198,59 @@ body.blog-page,
 
 .post-card-blogger.list-post {
     border-left: 4px solid var(--teal, #0d7a5f);
+}
+
+.featured-article {
+    border-bottom: var(--border-thick);
+    padding-bottom: 2rem;
+}
+
+.featured-article .post-card-title {
+    font-family: var(--font-headline);
+    font-size: clamp(1.8rem, 3.5vw, 2.5rem);
+    letter-spacing: -0.02em;
+}
+
+/* Broadsheet Multi-Column Layout */
+.newspaper-columns {
+    column-count: 2;
+    column-gap: 2rem;
+    column-rule: 1px solid var(--border, #e7e5e4);
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 640px) {
+    .newspaper-columns {
+        column-count: 1;
+    }
+}
+
+/* Editorial Drop Cap */
+.newspaper-columns p:first-of-type::first-letter {
+    font-family: var(--font-masthead);
+    float: left;
+    font-size: 3.8rem;
+    line-height: 0.85;
+    padding-top: 2px;
+    padding-right: 8px;
+    padding-left: 2px;
+    color: var(--color-ink);
+    font-weight: 800;
+}
+
+/* Pull Quotes */
+blockquote.editorial-quote {
+    font-family: var(--font-headline);
+    font-style: italic;
+    font-size: 1.35rem;
+    text-align: center;
+    border-top: var(--border-thin);
+    border-bottom: var(--border-thin);
+    padding: 1rem 1.5rem;
+    margin: 1.25rem 0;
+    line-height: 1.35;
+    color: var(--color-ink);
 }
 
 .post-card-blogger.resource-list {
@@ -1033,6 +1124,80 @@ body.blog-page,
 footer {
     border-top: 1px solid var(--border, #e7e5e4);
     margin-top: 4rem;
+}
+
+/* --- PRINT MATRIX FOR PHYSICAL DISTRIBUTION --- */
+@media print {
+    @page {
+        size: A4 portrait;
+        margin: 1.2cm;
+    }
+
+    body,
+    body.blog-page,
+    .blog-page-container {
+        background: #ffffff !important;
+        color: #000000 !important;
+        font-size: 10pt;
+    }
+
+    nav,
+    footer,
+    .blog-sidebar,
+    .blog-tabs-nav,
+    .edu-controls,
+    .print-btn,
+    .wa-fab {
+        display: none !important;
+    }
+
+    .blog-wrapper {
+        max-width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .blog-layout {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .blog-header {
+        border-bottom: 2px solid #000000 !important;
+        padding-bottom: 1rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+
+    .blog-header-title {
+        font-size: 28pt !important;
+    }
+
+    .editorial-date-bar {
+        border-top: 1px solid #000000 !important;
+        border-bottom: 1px solid #000000 !important;
+    }
+
+    .post-card-blogger {
+        box-shadow: none !important;
+        border: 1px solid #000000 !important;
+        page-break-inside: avoid;
+    }
+
+    .newspaper-columns {
+        column-count: 3 !important;
+        column-gap: 1.2cm !important;
+        column-rule: 1px solid #000000 !important;
+    }
+
+    .editorial-quote {
+        border-top: 1px solid #000000 !important;
+        border-bottom: 1px solid #000000 !important;
+        font-size: 12pt !important;
+    }
+
+    .page-break {
+        page-break-before: always;
+    }
 }
 
 @media (max-width: 768px) {
