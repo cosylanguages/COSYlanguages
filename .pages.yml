@@ -1,18 +1,72 @@
 media:
-  input: assets/images    # Or wherever your site currently stores uploaded images
+  input: assets/images
   output: /assets/images
 
 content:
-  - name: blog
+  - name: blog_posts
     label: Blog Posts
     type: collection
-    path: blog            # The folder where your blog files are located
-    format: html          # Change to 'md' if your posts are Markdown files
+    path: blog/posts
+    format: yaml-frontmatter
+    filename: "{primary}.md"
+    view:
+      primary: title
+      fields:
+        - title
+        - date
+        - category
+        - draft
     fields:
       - name: title
         label: Title
         type: string
         required: true
+      - name: date
+        label: Published Date
+        type: date
+        required: true
+      - name: updated
+        label: Last Updated Date
+        type: date
+      - name: category
+        label: Category
+        type: select
+        required: true
+        options:
+          - Philosophy
+          - Journal Article
+          - Ecosystem Update
+          - Pedagogy
+          - Methodology
+          - Resource List
+          - Curriculum
+          - Speaking First
+      - name: summary
+        label: Summary Excerpt
+        type: string
+        required: true
+      - name: author
+        label: Author Name
+        type: string
+        required: true
+        default: COSY Editorial Team
+      - name: reading_time
+        label: Reading Time (Minutes)
+        type: number
+      - name: cover_image
+        label: Cover Image
+        type: image
+      - name: tags
+        label: Tags
+        type: list
+      - name: featured
+        label: Featured Post
+        type: boolean
+        default: false
+      - name: draft
+        label: Draft Status
+        type: boolean
+        default: false
       - name: body
-        label: Content
-        type: rich-text   # Gives you the visual WYSIWYG editor like Blogger
+        label: Article Content
+        type: rich-text
