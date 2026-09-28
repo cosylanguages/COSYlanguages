@@ -208,9 +208,6 @@ const NAV_CONFIG = {
         { key: 'languages',      hrefKey: 'languages',      icon: '🌍' },
         { key: 'courses',        hrefKey: 'courses',        icon: '📚' },
         { key: 'practice',       hrefKey: 'practice',       icon: '💡' },
-        { key: 'tools',          hrefKey: 'tools',          icon: '🔎' },
-        { key: 'games',          hrefKey: 'games',          icon: '🎮' },
-        { key: 'events',         hrefKey: 'events',         icon: '🎉' },
         { key: 'placement_quiz', hrefKey: 'placement_quiz', icon: '📝' },
         { key: 'calculator',     hrefKey: 'calculator',     icon: '🧮' },
         { key: 'blog',           hrefKey: 'blog',           icon: '📰' },
@@ -400,10 +397,12 @@ function navFree () {
             ${isLocked ? '🔒' : '🔓'}
           </button>
         </div>
-        <select id="profile-switcher" onchange="COSY.switchProfile(this.value)" class="styled-sel" style="width: auto; padding: 4px 8px; font-size: 0.8rem; border-radius: var(--r-sm); height: 32px; background: var(--warm-white); border: 1px solid var(--border); color: var(--ink); cursor: pointer;">
+        <select id="profile-switcher" onchange="COSY.switchProfile(this.value)" class="styled-sel" style="width: auto; padding: 4px 8px; font-size: 0.8rem; border-radius: var(--r-sm); height: 32px; background: var(--warm-white); border: 1px solid var(--border); color: var(--ink); cursor: pointer;" aria-label="Select Profile">
           ${profileOptions}
-          <option value="__create__">+ New...</option>
+          <option value="__login__">🔐 Log in / Sign in</option>
+          <option value="__create__">+ New Profile...</option>
         </select>
+        <a href="${logoPrefix}login.html" class="nav-login-btn" style="font-size:0.8rem; padding:4px 8px; text-decoration:none; color:var(--ink); border:1px solid var(--border); border-radius:var(--r-sm); height:32px; display:inline-flex; align-items:center; gap:4px; font-weight:500;">🔑 Log in</a>
         <button class="theme-toggle-btn" onclick="COSY.toggleTheme()" aria-label="Toggle Theme" style="background:none; border:none; font-size:1.2rem; cursor:pointer; padding:6px; display:inline-flex; align-items:center; margin-right: 4px;">
             ${isDark ? '☀️' : '🌙'}
         </button>
@@ -563,10 +562,14 @@ function mobileMenuHTML (mode) {
       </div>
       <div style="padding: 12px 16px; display: flex; align-items: center; gap: 8px;">
          <span style="font-size: 0.9rem; color: var(--ink-soft);">Profile:</span>
-         <select id="profile-switcher-mobile" onchange="COSY.switchProfile(this.value)" class="styled-sel" style="width: auto; padding: 4px 8px; font-size: 0.8rem; border-radius: var(--r-sm); height: 32px; background: var(--warm-white); border: 1px solid var(--border); color: var(--ink); cursor: pointer;">
+         <select id="profile-switcher-mobile" onchange="COSY.switchProfile(this.value)" class="styled-sel" style="width: auto; padding: 4px 8px; font-size: 0.8rem; border-radius: var(--r-sm); height: 32px; background: var(--warm-white); border: 1px solid var(--border); color: var(--ink); cursor: pointer;" aria-label="Select Profile Mobile">
             ${profileOptions}
-            <option value="__create__">+ New...</option>
+            <option value="__login__">🔐 Log in / Sign in</option>
+            <option value="__create__">+ New Profile...</option>
          </select>
+      </div>
+      <div style="padding: 4px 16px;">
+         <a href="${logoPrefix}login.html" class="mm-login-btn" style="font-size: 0.9rem; color: var(--sage); font-weight: 600; text-decoration: none; display: inline-flex; align-items: center; gap: 4px;">🔑 Log in to Account</a>
       </div>
       <div class="mm-divider"></div>
       <a href="https://wa.me/330766784195" target="_blank" class="mm-cta" data-translate-key="nav_contact">💬 Contact us on WhatsApp</a>`
@@ -829,6 +832,10 @@ window.COSY = {
     },
 
     switchProfile(name) {
+        if (name === '__login__') {
+            window.location.href = getPrefix() + 'login.html';
+            return;
+        }
         if (name === '__create__') {
             const newName = prompt('Enter name for the new profile:');
             if (newName && newName.trim()) {
