@@ -37,7 +37,8 @@
         <!-- Blogger 2-Column Grid -->
         <div class="blog-layout">
             <main class="blog-main-col" id="blog-main">
-                <!-- Featured Lead Story Card -->
+                <!-- Featured Lead Story Section -->
+                <div id="featured-posts-container">
                 <article class="post-card-blogger list-post">
                     <span class="post-card-label">🌟 Featured Resource List</span>
                     <h2 class="post-card-title">
@@ -93,6 +94,8 @@
                         <span style="font-size: 0.82rem; color: var(--ink-muted);">Comprehensive Guide</span>
                     </div>
                 </article>
+
+                </div>
 
                 <!-- Navigation Tabs -->
                 <nav class="blog-tabs-nav" aria-label="Blog Section Tabs">
@@ -249,26 +252,28 @@
 
                 <!-- Tab 2: Personal Corner -->
                 <div id="tab-personal" class="blog-content-section" style="display:none;">
-                    <article class="post-card-blogger">
-                        <span class="post-card-label">Philosophy</span>
-                        <h2 class="post-card-title">Why Speaking-First is the Only Way to True Fluency</h2>
-                        <div class="post-card-meta">By COSY Team · Published 2026</div>
-                        <p class="post-card-excerpt">When you start learning a language, grammar tables feel safe. But true confidence comes when you open your mouth in lesson one and embrace mistakes as stepping stones.</p>
-                    </article>
+                    <div class="edu-controls" style="margin-bottom: 1.5rem;">
+                        <div>
+                            <span style="font-size:0.85rem; font-weight:700; color:var(--ink-muted); margin-right:8px; display:inline-block; margin-bottom:4px;">Filter Journal Notes by Category:</span>
+                            <div class="level-pills" id="personal-category-filters">
+                                <button class="level-pill active" onclick="filterPersonalCategory('all', this)">All Notes</button>
+                                <button class="level-pill" onclick="filterPersonalCategory('Philosophy', this)">Philosophy</button>
+                                <button class="level-pill" onclick="filterPersonalCategory('Journal Article', this)">Journal Article</button>
+                                <button class="level-pill" onclick="filterPersonalCategory('Ecosystem Update', this)">Ecosystem Update</button>
+                            </div>
+                        </div>
+                    </div>
 
-                    <article class="post-card-blogger">
-                        <span class="post-card-label">Journal Article</span>
-                        <h2 class="post-card-title">Overcoming the Intermediate Plateau (B1 to B2)</h2>
-                        <div class="post-card-meta">By COSY Team · Published 2026</div>
-                        <p class="post-card-excerpt">Many students feel stuck when moving from basic conversations to expressing nuanced opinions. Here is how active contrast learning and collocation practice break the wall.</p>
-                    </article>
-
-                    <article class="post-card-blogger">
-                        <span class="post-card-label">Ecosystem Update</span>
-                        <h2 class="post-card-title">How We Built the COSY Master Curriculum Across 13 Languages</h2>
-                        <div class="post-card-meta">By COSY Team · Published 2026</div>
-                        <p class="post-card-excerpt">Inside our pedagogical framework: combining CELTA-staged communicative frameworks, spaced practice, and authentic real-world language tasks.</p>
-                    </article>
+                    <div id="personal-posts-container">
+                        <noscript>
+                            <article class="post-card-blogger">
+                                <span class="post-card-label">Ecosystem Update</span>
+                                <h2 class="post-card-title"><a href="welcome-to-cosy-blog.html">Welcome to the COSY Editorial &amp; Learning Corner</a></h2>
+                                <div class="post-card-meta">By COSY Editorial Team · Published 2026-09-10</div>
+                                <p class="post-card-excerpt">Welcome to our editorial room! Explore personal journal notes, language learning philosophies, and canonical curriculum guides across all 14 COSY target languages.</p>
+                            </article>
+                        </noscript>
+                    </div>
                 </div>
             </main>
 
@@ -276,7 +281,7 @@
             <aside class="blog-sidebar">
                 <div class="sidebar-widget">
                     <h3 class="sidebar-widget-title">🏷️ Topics &amp; Labels</h3>
-                    <div class="label-cloud">
+                    <div class="label-cloud" id="sidebar-topics">
                         <a href="top-100-a0-a1.html" class="sidebar-label-chip">Top 100 Semantic Tree</a>
                         <a href="top-10-verbs.html" class="sidebar-label-chip">Verbs Matrix</a>
                         <a href="top-100-a0-a1-english.html" class="sidebar-label-chip">A0–A1 Curricula</a>
@@ -288,7 +293,7 @@
 
                 <div class="sidebar-widget">
                     <h3 class="sidebar-widget-title">🌐 Language Guides</h3>
-                    <ul class="sidebar-list">
+                    <ul class="sidebar-list" id="sidebar-guides">
                         <li><a href="top-100-a0-a1.html">🌍 Top 100 Master Semantic Tree (14 Langs)</a></li>
                         <li><a href="top-100-a0-a1-english.html">🇬🇧 English Master Guide</a></li>
                         <li><a href="top-100-a0-a1-french.html">🇫🇷 French Master Guide</a></li>
@@ -302,7 +307,7 @@
 
                 <div class="sidebar-widget">
                     <h3 class="sidebar-widget-title">🕒 Blog Archive</h3>
-                    <ul class="sidebar-list">
+                    <ul class="sidebar-list" id="sidebar-archive">
                         <li>
                             <a href="top-100-a0-a1.html"><strong>September 2026:</strong> Top 100 A0-A1 Semantic Master List</a>
                         </li>
@@ -668,6 +673,130 @@
         document.addEventListener('DOMContentLoaded', () => {
             renderAllGrids();
         });
+
+        // Blog CMS Dynamic Loader
+        let allCmsPosts = [];
+        let activePersonalCategory = 'all';
+
+        document.addEventListener('DOMContentLoaded', () => {
+            loadBlogCMSData();
+        });
+
+        async function loadBlogCMSData() {
+            try {
+                const res = await fetch('posts.json');
+                if (!res.ok) return;
+                allCmsPosts = await res.json();
+                renderBlogCMS();
+            } catch (e) {
+                console.log('CMS posts fallback to static markup:', e);
+            }
+        }
+
+        function filterPersonalCategory(cat, btnEl) {
+            activePersonalCategory = cat;
+            if (btnEl) {
+                document.querySelectorAll('#personal-category-filters .level-pill').forEach(p => p.classList.remove('active'));
+                btnEl.classList.add('active');
+            }
+            renderBlogCMS();
+        }
+
+        function renderBlogCMS() {
+            if (!allCmsPosts || allCmsPosts.length === 0) return;
+
+            // 1. Render Featured Posts Container (Top featured items)
+            const featContainer = document.getElementById('featured-posts-container');
+            if (featContainer) {
+                const featured = allCmsPosts.filter(p => p.featured);
+                if (featured.length > 0) {
+                    featContainer.innerHTML = featured.map((p, idx) => `
+                        <article class="post-card-blogger ${idx % 2 === 0 ? 'list-post' : 'resource-list'}">
+                            <span class="post-card-label">🌟 ${p.category || 'Featured'}</span>
+                            <h2 class="post-card-title">
+                                <a href="${p.url}">${p.title}</a>
+                            </h2>
+                            <div class="post-card-meta">
+                                <span class="post-author-avatar">${(p.author || 'C').charAt(0).toUpperCase()}</span>
+                                <span>Written by <strong>${p.author || 'COSY Team'}</strong></span>
+                                <span>·</span>
+                                <span>📅 Published ${p.date}</span>
+                                <span>·</span>
+                                <span>⏱️ ${p.reading_time || 8} min read</span>
+                            </div>
+                            <p class="post-card-excerpt">${p.summary}</p>
+                            ${p.tags && p.tags.length > 0 ? `
+                            <div class="post-tags-row">
+                                ${p.tags.map(t => `<span class="post-tag-chip">#${t}</span>`).join(' ')}
+                            </div>` : ''}
+                            <div class="post-card-footer" style="margin-top: 0.85rem;">
+                                <a href="${p.url}" class="read-more-link">Read full entry →</a>
+                            </div>
+                        </article>
+                    `).join('');
+                }
+            }
+
+            // 2. Render Personal Corner Posts
+            const personalContainer = document.getElementById('personal-posts-container');
+            if (personalContainer) {
+                let editorialPosts = allCmsPosts.filter(p => p.type === 'post');
+                if (activePersonalCategory !== 'all') {
+                    editorialPosts = editorialPosts.filter(p => p.category === activePersonalCategory);
+                }
+                if (editorialPosts.length === 0) {
+                    personalContainer.innerHTML = '<p style="color:var(--ink-muted); font-style:italic; padding:1rem 0;">No journal notes found in this category.</p>';
+                } else {
+                    personalContainer.innerHTML = editorialPosts.map(p => `
+                        <article class="post-card-blogger">
+                            <span class="post-card-label">${p.category}</span>
+                            <h2 class="post-card-title">
+                                <a href="${p.url}">${p.title}</a>
+                            </h2>
+                            <div class="post-card-meta">Written by ${p.author} · Published ${p.date} · ⏱️ ${p.reading_time} min read</div>
+                            <p class="post-card-excerpt">${p.summary}</p>
+                            ${p.tags && p.tags.length > 0 ? `
+                            <div class="post-tags-row" style="margin-top: 0.5rem;">
+                                ${p.tags.map(t => `<span class="post-tag-chip">#${t}</span>`).join(' ')}
+                            </div>` : ''}
+                            <div style="margin-top: 0.75rem;">
+                                <a href="${p.url}" class="read-more-link">Read note →</a>
+                            </div>
+                        </article>
+                    `).join('');
+                }
+            }
+
+            // 3. Render Sidebar Topics
+            const sidebarTopics = document.getElementById('sidebar-topics');
+            if (sidebarTopics) {
+                const categories = Array.from(new Set(allCmsPosts.map(p => p.category).filter(Boolean)));
+                sidebarTopics.innerHTML = categories.map(c => `
+                    <a href="javascript:void(0)" onclick="switchBlogTab('personal'); filterPersonalCategory('${c.replace(/'/g, "\'")}', null)" class="sidebar-label-chip">${c}</a>
+                `).join('');
+            }
+
+            // 4. Render Sidebar Guides
+            const sidebarGuides = document.getElementById('sidebar-guides');
+            if (sidebarGuides) {
+                const guidesList = allCmsPosts.filter(p => p.type === 'guide').slice(0, 8);
+                sidebarGuides.innerHTML = guidesList.map(g => `
+                    <li><a href="${g.url}">${g.title}</a></li>
+                `).join('');
+            }
+
+            // 5. Render Sidebar Archive
+            const sidebarArchive = document.getElementById('sidebar-archive');
+            if (sidebarArchive) {
+                const archiveList = allCmsPosts.slice(0, 6);
+                sidebarArchive.innerHTML = archiveList.map(item => `
+                    <li>
+                        <a href="${item.url}"><strong>${item.date}:</strong> ${item.title}</a>
+                    </li>
+                `).join('');
+            }
+        }
+
 
         function switchBlogTab(tab) {
             activeTab = tab;

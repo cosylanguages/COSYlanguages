@@ -19,6 +19,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci || npm install
+
+      - name: Build Blog Posts & JSON
+        run: node scripts/build-blog.js
+
       - name: Inject Supabase config
         run: |
           cat > js/config.js << 'CONFIGEOF'
