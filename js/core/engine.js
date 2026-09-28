@@ -102,12 +102,16 @@ function getPrefixedKey(key) {
 
 const DEFAULT_ECOSYSTEM_URLS = {
     home: 'index.html',
+    languages: 'index.html#languages',
     courses: 'index.html#courses',
     practice: 'practice/index.html',
     tools: 'https://cosylanguages.github.io/COSYtools/',
     games: 'https://cosylanguages.github.io/COSYgames/',
     events: 'https://cosylanguages.github.io/COSYevents/',
-    blog: 'blog/index.html'
+    placement_quiz: 'placement-quiz.html',
+    calculator: 'index.html#calculator',
+    blog: 'blog/index.html',
+    join: 'index.html#start'
 };
 
 function getConfigModule() {
@@ -128,12 +132,16 @@ function getEcosystemUrls(env, overrides) {
         const repoConfig = cfg.getEcosystemConfig({ env: env, overrides: overrides });
         return {
             home: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'index.html' : 'index.html',
+            languages: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'index.html#languages' : 'index.html#languages',
             courses: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'index.html#courses' : 'index.html#courses',
             practice: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'practice/index.html' : 'practice/index.html',
             tools: repoConfig.COSYtools,
             games: repoConfig.COSYgames,
             events: repoConfig.COSYevents,
-            blog: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'blog/index.html' : 'blog/index.html'
+            placement_quiz: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'placement-quiz.html' : 'placement-quiz.html',
+            calculator: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'index.html#calculator' : 'index.html#calculator',
+            blog: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'blog/index.html' : 'blog/index.html',
+            join: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'index.html#start' : 'index.html#start'
         };
     }
 
@@ -160,19 +168,27 @@ function getEcosystemUrls(env, overrides) {
 
     if (activeEnv === 'development') {
         envDefaults.home = 'index.html';
+        envDefaults.languages = 'index.html#languages';
         envDefaults.courses = 'index.html#courses';
         envDefaults.practice = 'practice/index.html';
+        envDefaults.placement_quiz = 'placement-quiz.html';
+        envDefaults.calculator = 'index.html#calculator';
         envDefaults.blog = 'blog/index.html';
+        envDefaults.join = 'index.html#start';
     }
 
     const procEnvUrls = {};
     if (processEnv.COSY_HOME_URL) procEnvUrls.home = processEnv.COSY_HOME_URL;
+    if (processEnv.COSY_LANGUAGES_URL) procEnvUrls.languages = processEnv.COSY_LANGUAGES_URL;
     if (processEnv.COSY_COURSES_URL) procEnvUrls.courses = processEnv.COSY_COURSES_URL;
     if (processEnv.COSY_PRACTICE_URL) procEnvUrls.practice = processEnv.COSY_PRACTICE_URL;
     if (processEnv.COSY_TOOLS_URL) procEnvUrls.tools = processEnv.COSY_TOOLS_URL;
     if (processEnv.COSY_GAMES_URL) procEnvUrls.games = processEnv.COSY_GAMES_URL;
     if (processEnv.COSY_EVENTS_URL) procEnvUrls.events = processEnv.COSY_EVENTS_URL;
+    if (processEnv.COSY_PLACEMENT_QUIZ_URL) procEnvUrls.placement_quiz = processEnv.COSY_PLACEMENT_QUIZ_URL;
+    if (processEnv.COSY_CALCULATOR_URL) procEnvUrls.calculator = processEnv.COSY_CALCULATOR_URL;
     if (processEnv.COSY_BLOG_URL) procEnvUrls.blog = processEnv.COSY_BLOG_URL;
+    if (processEnv.COSY_JOIN_URL) procEnvUrls.join = processEnv.COSY_JOIN_URL;
 
     return Object.assign({}, envDefaults, procEnvUrls, localSavedUrls, winUrls, winConfig.urls, overrides);
 }
@@ -189,12 +205,16 @@ function getNavHref(itemKey) {
 
 const NAV_CONFIG = {
     free: [
-        { key: 'courses',  hrefKey: 'courses',  icon: '' },
-        { key: 'practice', hrefKey: 'practice', icon: '💡' },
-        { key: 'tools',    hrefKey: 'tools',    icon: '🔎' },
-        { key: 'games',    hrefKey: 'games',    icon: '🎮' },
-        { key: 'events',   hrefKey: 'events',   icon: '🎉' },
-        { key: 'blog',     hrefKey: 'blog',     icon: '📰' }
+        { key: 'languages',      hrefKey: 'languages',      icon: '🌍' },
+        { key: 'courses',        hrefKey: 'courses',        icon: '📚' },
+        { key: 'practice',       hrefKey: 'practice',       icon: '💡' },
+        { key: 'tools',          hrefKey: 'tools',          icon: '🔎' },
+        { key: 'games',          hrefKey: 'games',          icon: '🎮' },
+        { key: 'events',         hrefKey: 'events',         icon: '🎉' },
+        { key: 'placement_quiz', hrefKey: 'placement_quiz', icon: '📝' },
+        { key: 'calculator',     hrefKey: 'calculator',     icon: '🧮' },
+        { key: 'blog',           hrefKey: 'blog',           icon: '📰' },
+        { key: 'join',           hrefKey: 'join',           icon: '🤝' }
     ]
 };
 
@@ -307,14 +327,14 @@ function updateNavActiveState() {
 }
 
 const NAV_FALLBACKS = {
-    en: { home: 'Home', courses: 'Courses', practice: 'Practice', tools: 'Tools', games: 'Games', events: 'Events', blog: 'Blog', contact: 'Contact us' },
-    fr: { home: 'Accueil', courses: 'Cours', practice: 'Entraînement', tools: 'Outils', games: 'Jeux', events: 'Événements', blog: 'Blog', contact: 'Contact' },
-    it: { home: 'Home', courses: 'Corsi', practice: 'Pratica', tools: 'Strumenti', games: 'Giochi', events: 'Eventi', blog: 'Blog', contact: 'Contatti' },
-    es: { home: 'Inicio', courses: 'Cursos', practice: 'Práctica', tools: 'Herramientas', games: 'Juegos', events: 'Eventos', blog: 'Blog', contact: 'Contacto' },
-    ru: { home: 'Главная', courses: 'Курсы', practice: 'Практика', tools: 'Инструменты', games: 'Игры', events: 'Мероприятия', blog: 'Блог', contact: 'Связь' },
-    ba: { home: 'Баш бит', courses: 'Курстар', practice: 'Практика', tools: 'Ҡоралдар', games: 'Уйындар', events: 'Чаралар', blog: 'Блог', contact: 'Бәйләнеш' },
-    tt: { home: 'Төп бит', courses: 'Курслар', practice: 'Практика', tools: 'Кораллар', games: 'Уеннар', events: 'Чаралар', blog: 'Блог', contact: 'Бәйләнеш' },
-    el: { home: 'Αρχική', courses: 'Μαθήματα', practice: 'Εξάσκηση', tools: 'Εργαλεία', games: 'Παιχνίδια', events: 'Εκδηλώσεις', blog: 'Ιστολόγιο', contact: 'Επικοινωνία' }
+    en: { home: 'Home', languages: 'Languages', courses: 'Courses', practice: 'Practice', tools: 'Tools', games: 'Games', events: 'Events', placement_quiz: 'Placement Quiz', calculator: 'Calculator', blog: 'Blog', join: 'Join', contact: 'Contact us' },
+    fr: { home: 'Accueil', languages: 'Langues', courses: 'Cours', practice: 'Entraînement', tools: 'Outils', games: 'Jeux', events: 'Événements', placement_quiz: 'Test de niveau', calculator: 'Calculateur', blog: 'Blog', join: 'Rejoindre', contact: 'Contact' },
+    it: { home: 'Home', languages: 'Lingue', courses: 'Corsi', practice: 'Pratica', tools: 'Strumenti', games: 'Giochi', events: 'Eventi', placement_quiz: 'Test di livello', calculator: 'Calcolatore', blog: 'Blog', join: 'Unisciti', contact: 'Contatti' },
+    es: { home: 'Inicio', languages: 'Idiomas', courses: 'Cursos', practice: 'Práctica', tools: 'Herramientas', games: 'Juegos', events: 'Eventos', placement_quiz: 'Test de nivel', calculator: 'Calculadora', blog: 'Blog', join: 'Unirse', contact: 'Contacto' },
+    ru: { home: 'Главная', languages: 'Языки', courses: 'Курсы', practice: 'Практика', tools: 'Инструменты', games: 'Игры', events: 'Мероприятия', placement_quiz: 'Тест уровня', calculator: 'Калькулятор', blog: 'Блог', join: 'Начать', contact: 'Связь' },
+    ba: { home: 'Баш бит', languages: 'Телдәр', courses: 'Курстар', practice: 'Практика', tools: 'Ҡоралдар', games: 'Уйындар', events: 'Чаралар', placement_quiz: 'Тест', calculator: 'Калькулятор', blog: 'Блог', join: 'Ҡошулыу', contact: 'Бәйләнеш' },
+    tt: { home: 'Төп бит', languages: 'Телләр', courses: 'Курслар', practice: 'Практика', tools: 'Кораллар', games: 'Уеннар', events: 'Чаралар', placement_quiz: 'Тест', calculator: 'Калькулятор', blog: 'Блог', join: 'Кушылу', contact: 'Бәйләнеш' },
+    el: { home: 'Αρχική', languages: 'Γλώσσες', courses: 'Μαθήματα', practice: 'Εξάσκηση', tools: 'Εργαλεία', games: 'Παιχνίδια', events: 'Εκδηλώσεις', placement_quiz: 'Τεστ επιπέδου', calculator: 'Υπολογιστής', blog: 'Ιστολόγιο', join: 'Εγγραφή', contact: 'Επικοινωνία' }
 };
 
 function getNavLabel(key, fallback) {
