@@ -35,11 +35,9 @@
       <span class="current" data-translate-key="breadcrumb_practice" data-i18n="breadcrumb.practice">Free Practice</span>
     </div>
     <nav class="sd-jump-links" aria-label="Page jump links">
-      <a href="#stats-section" class="sd-jump-link">Stats</a>
       <a href="#setup-section" class="sd-jump-link">Practice Setup</a>
-      <a href="#quickstart-section" class="sd-jump-link">Quick Start</a>
       <a href="#daily-challenge" class="sd-jump-link">Daily Challenge</a>
-      <a href="#activity-section" class="sd-jump-link">Activity & Weak Spots</a>
+      <a href="#activity-section" class="sd-jump-link">Activity &amp; Weak Spots</a>
     </nav>
   </div>
 </header>
@@ -67,49 +65,15 @@
   </header>
 
 <main id="main-content" class="practice-container" role="main">
-  <div id="stats-section" class="dash-stats-row">
-    <div class="dash-stat">
-      <div class="ds-icon">✨</div>
-      <div>
-        <div id="setup-total-score" class="ds-val">0</div>
-        <div class="ds-lbl">Total Score</div>
-      </div>
+  <noscript>
+    <div style="background: #fff5f5; border: 1px solid #f56565; color: #c53030; padding: 0.85rem 1.25rem; border-radius: 8px; margin: 1rem 0; text-align: center; font-weight: 600;">
+      Practice needs JavaScript. Please enable it to start.
     </div>
-    <div class="dash-stat">
-      <div class="ds-icon">✅</div>
-      <div>
-        <div id="total-correct" class="ds-val">0</div>
-        <div class="ds-lbl">Correct Today</div>
-      </div>
-    </div>
-    <div class="dash-stat">
-      <div class="ds-icon">📚</div>
-      <div>
-        <div id="total-sessions" class="ds-val">0</div>
-        <div class="ds-lbl">Sessions</div>
-      </div>
-    </div>
-    <div class="dash-stat stat-target-accent">
-      <div class="ds-icon">🎯</div>
-      <div>
-        <div id="daily-xp-val" class="ds-val">0 / 50 XP</div>
-        <div class="ds-lbl">Daily Target</div>
-      </div>
-    </div>
-    <span id="total-pts" class="stat-hidden-val">0</span>
-  </div>
+  </noscript>
 
   <!-- Selection/Setup Screen -->
   <div id="setup-section" class="setup-panel setup-panel-spaced">
-    <h2 class="sec-title">Practice Setup <span>Configure your session</span></h2>
-
-    <div class="setup-dashboard-wrapper">
-      <div id="theme-progress-panel" class="theme-progress-panel">
-        <h3 class="progress-title">Theme Mastery Trackers 🎯</h3>
-        <div id="progress-trackers-list" class="progress-trackers-list">
-          <!-- Dynamically populated theme progress rows -->
-        </div>
-      </div>
+    <h2 class="sec-title">What would you like to practise? 🎯 <span>Configure your session</span></h2>
 
     <div class="setup-grid">
       <div class="setup-full">
@@ -154,9 +118,8 @@
         </div>
       </div>
     </div>
-    </div>
 
-    <div id="setup-error-msg" class="setup-error-banner error-banner-hidden" style="display: none; align-items: center; gap: 10px; background: #fff5f5; border: 1px solid #f56565; color: #c53030; padding: 0.85rem 1.25rem; border-radius: 8px; margin: 1rem 0;">
+    <div id="setup-error-msg" class="setup-error-banner error-banner-hidden" hidden style="display: none; align-items: center; gap: 10px; background: #fff5f5; border: 1px solid #f56565; color: #c53030; padding: 0.85rem 1.25rem; border-radius: 8px; margin: 1rem 0;">
        <span class="error-banner-icon">⚠️</span>
        <span class="error-banner-text" id="setup-error-text">No exercises found for this combination. Try 'All Themes' or a different level.</span>
        <button onclick="window.cosyPractice.startPractice()" class="btn-retry-sm" style="margin-left: auto; padding: 4px 12px; background: #c53030; color: #fff; border: none; border-radius: 6px; font-weight: bold; cursor: pointer;">Retry 🔄</button>
@@ -167,6 +130,50 @@
       <button onclick="cosyPracticeEngine.toggleProjectorMode()" class="btn-outline" id="projector-setup-toggle" title="Toggle Projector / Classroom Presentation Mode (Key: P)" style="display: inline-flex; align-items: center; gap: 6px;">
         <span>📺</span> <span class="proj-label">Projector Mode</span>
       </button>
+    </div>
+
+    <div id="theme-progress-panel" class="theme-progress-panel" style="margin-top: 2rem;">
+      <h3 class="progress-title">Theme Mastery Trackers 🎯</h3>
+      <div id="progress-trackers-list" class="progress-trackers-list">
+        <!-- Dynamically populated theme progress rows -->
+      </div>
+    </div>
+  </div>
+
+  <div id="stats-section" class="dash-stats-row">
+    <div id="stats-summary-grid" class="dash-stats-grid" style="display: flex; gap: 1rem; flex-wrap: wrap; width: 100%;">
+      <div class="dash-stat">
+        <div class="ds-icon">✨</div>
+        <div>
+          <div id="setup-total-score" class="ds-val">0</div>
+          <div class="ds-lbl">Total Score</div>
+        </div>
+      </div>
+      <div class="dash-stat">
+        <div class="ds-icon">✅</div>
+        <div>
+          <div id="total-correct" class="ds-val">0</div>
+          <div class="ds-lbl">Correct Today</div>
+        </div>
+      </div>
+      <div class="dash-stat">
+        <div class="ds-icon">📚</div>
+        <div>
+          <div id="total-sessions" class="ds-val">0</div>
+          <div class="ds-lbl">Sessions</div>
+        </div>
+      </div>
+      <div class="dash-stat stat-target-accent">
+        <div class="ds-icon">🎯</div>
+        <div>
+          <div id="daily-xp-val" class="ds-val">0 / 50 XP</div>
+          <div class="ds-lbl">Daily Target</div>
+        </div>
+      </div>
+      <span id="total-pts" class="stat-hidden-val">0</span>
+    </div>
+    <div id="stats-empty-state" class="stats-empty-banner" style="display: none; padding: 1rem; text-align: center; background: var(--cream); border: 1px dashed var(--border); border-radius: var(--r-md); font-weight: 600; color: var(--ink-soft); width: 100%;">
+      Start your first session to begin your streak 🔥
     </div>
   </div>
 
@@ -232,7 +239,7 @@
         <div>
           <div style="font-size: 2.2rem; margin-bottom: 0.5rem;">🎮</div>
           <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--ink); margin-bottom: 0.5rem;">Practice Games</h3>
-          <p style="font-size: 0.9rem; color: var(--ink-soft); line-height: 1.4;">19 interactive speaking, mystery, vocabulary, and puzzle minigames hosted on COSYgames.</p>
+          <p style="font-size: 0.9rem; color: var(--ink-soft); line-height: 1.4;">Interactive speaking, mystery, vocabulary and puzzle minigames hosted on COSYgames.</p>
         </div>
         <div style="margin-top: 1rem; font-weight: 700; color: var(--honey-dark);">Play on COSYgames →</div>
       </a>
@@ -243,7 +250,7 @@
           <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--ink); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 6px;">Structured Practice <span style="font-size: 0.85em;">🔒</span></h3>
           <p style="font-size: 0.9rem; color: var(--ink-soft); line-height: 1.4;">Access interactive web textbooks, guided CEFR curriculums, and structured marathons in COSYmanuals.</p>
         </div>
-        <div style="margin-top: 1rem; font-weight: 700; color: var(--blue);">Access COSYmanuals 🔒 →</div>
+        <div style="margin-top: 1rem; font-weight: 700; color: var(--blue);">For students: open COSYmanuals 🔒 →</div>
       </a>
     </div>
   </section>
@@ -286,11 +293,6 @@
         <div class="qs-name">Tenses &amp; Conditionals</div>
         <div class="qs-sub">Verb Tenses &amp; Aspects</div>
       </div>
-      <a href="https://cosylanguages.github.io/COSYtools/en-verb-prep/" class="qs-card qs-card-blue qs-card-link cosy-tools-link" target="_blank" rel="noopener">
-        <div class="qs-icon">🇬🇧</div>
-        <div class="qs-name">EN Prepositions Engine</div>
-        <div class="qs-sub">Verbs, Nouns &amp; Adjectives</div>
-      </a>
       <div class="qs-card qs-card-blue" onclick="window.cosyPractice.quickStart('fr', 'vocab', 'all', 'all')" role="button" tabindex="0" data-i18n-aria-label="aria.languagePracticeTile">
         <div class="qs-icon">🇫🇷</div>
         <div class="qs-name">Français Vocab</div>
@@ -316,46 +318,6 @@
         <div class="qs-name">Concept Check (CCQs)</div>
         <div class="qs-sub">Grammar &amp; Meaning Verification</div>
       </a>
-      <a href="https://cosylanguages.github.io/COSYtools/fr-conjugeur/" class="qs-card qs-card-sage qs-card-link cosy-tools-link" target="_blank" rel="noopener">
-        <div class="qs-icon">🇫🇷</div>
-        <div class="qs-name">FR Conjugeur</div>
-        <div class="qs-sub">Offline Verb Engine</div>
-      </a>
-      <a href="https://cosylanguages.github.io/COSYtools/fr-genre/" class="qs-card qs-card-sage qs-card-link cosy-tools-link" target="_blank" rel="noopener">
-        <div class="qs-icon">🇫🇷</div>
-        <div class="qs-name">FR Genre</div>
-        <div class="qs-sub">Noun & Gender Engine</div>
-      </a>
-      <a href="https://cosylanguages.github.io/COSYtools/it-coniugatore/" class="qs-card qs-card-sage qs-card-link cosy-tools-link" target="_blank" rel="noopener">
-        <div class="qs-icon">🇮🇹</div>
-        <div class="qs-name">IT Coniugatore</div>
-        <div class="qs-sub">Offline Verb Engine</div>
-      </a>
-      <a href="https://cosylanguages.github.io/COSYtools/it-genere/" class="qs-card qs-card-sage qs-card-link cosy-tools-link" target="_blank" rel="noopener">
-        <div class="qs-icon">🇮🇹</div>
-        <div class="qs-name">IT Genere</div>
-        <div class="qs-sub">Noun & Gender Engine</div>
-      </a>
-      <a href="https://cosylanguages.github.io/COSYtools/ru-spryazhenie/" class="qs-card qs-card-sage qs-card-link cosy-tools-link" target="_blank" rel="noopener">
-        <div class="qs-icon">🇷🇺</div>
-        <div class="qs-name">RU Спряжение</div>
-        <div class="qs-sub">Offline Verb Engine</div>
-      </a>
-      <a href="https://cosylanguages.github.io/COSYtools/ru-rod-padezhi/" class="qs-card qs-card-sage qs-card-link cosy-tools-link" target="_blank" rel="noopener">
-        <div class="qs-icon">🇷🇺</div>
-        <div class="qs-name">RU Род &amp; Падежи</div>
-        <div class="qs-sub">Noun & Declension Engine</div>
-      </a>
-      <a href="https://cosylanguages.github.io/COSYtools/el-klisi-rimaton/" class="qs-card qs-card-sage qs-card-link cosy-tools-link" target="_blank" rel="noopener">
-        <div class="qs-icon">🇬🇷</div>
-        <div class="qs-name">EL Κλίση</div>
-        <div class="qs-sub">Offline Verb Engine</div>
-      </a>
-      <a href="https://cosylanguages.github.io/COSYtools/el-genos-ptoseis/" class="qs-card qs-card-sage qs-card-link cosy-tools-link" target="_blank" rel="noopener">
-        <div class="qs-icon">🇬🇷</div>
-        <div class="qs-name">EL Γένος &amp; Πτώσεις</div>
-        <div class="qs-sub">Noun & Declension Engine</div>
-      </a>
       <a href="https://cosylanguages.github.io/COSYgames/" class="qs-card qs-card-gold qs-card-link cosy-games-link" target="_blank" rel="noopener">
         <div class="qs-icon">🎮</div>
         <div class="qs-name">COSY Games Hub</div>
@@ -363,7 +325,7 @@
       </a>
       <a href="https://cosylanguages.github.io/COSYtools/" class="qs-card qs-card-sage qs-card-link cosy-tools-link" target="_blank" rel="noopener">
         <div class="qs-icon">🔎</div>
-        <div class="qs-name">All 12 Engines</div>
+        <div class="qs-name">All reference engines</div>
         <div class="qs-sub">Conjugation, Gender &amp; Syntax</div>
       </a>
     </div>
