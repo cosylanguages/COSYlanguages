@@ -18,7 +18,7 @@ This document establishes the official COSYlanguages policy, workflow sequence, 
 
 ## 2. PR Sequencing Strategy & Workflow Guidelines
 
-- **Master Template Alignment**: Follow the visual standards, outcome banners, 14-part page rhythm, and monolingual guidelines established in `project/docs/EDITORIAL_HANDBOOK.md` and `project/docs/CONTENT_ARCHITECTURE.md`.
+- **Master Template Alignment**: Follow the visual standards, outcome banners, 14-part page rhythm, and monolingual guidelines established in `project/docs/EDITORIAL_HANDBOOK.md` and `docs/CONTENT_ARCHITECTURE.md`.
 - **Merge Dependency**: Execute B1+ manual tasks for a language **only after** §5.2 (Level A2) manuals are fully merged and validated for that specific language.
 - **Atomic Pull Requests**: Enforce **1 PR per language per level per manual type** (e.g. 1 PR for French B1 Grammar, 1 PR for French B1 Vocabulary, 1 PR for French B1 Communication).
 - **Phased Sequencing**: Sequence rollout by language popularity and curriculum readiness rather than attempting all ~90 PRs simultaneously.

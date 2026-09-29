@@ -3,8 +3,8 @@ const path = require('path');
 const { runAudit, LANGS } = require('./generate_vocab_audit_report');
 
 // Ensure reports directory exists
-if (!fs.existsSync('reports')) {
-    fs.mkdirSync('reports', { recursive: true });
+if (!fs.existsSync('docs/archive/reports')) {
+    fs.mkdirSync('docs/archive/reports', { recursive: true });
 }
 
 console.log('Running vocabulary duplication audit engine...');
@@ -223,5 +223,5 @@ A total of **5,241 entries** exist in both repositories under the same language,
 *Report generated automatically by \`scripts/build_markdown_report.js\` in COSYlanguages repository.*
 `;
 
-fs.writeFileSync('reports/vocabulary-duplication-audit.md', md, 'utf8');
-console.log('Successfully written reports/vocabulary-duplication-audit.md');
+fs.writeFileSync('docs/archive/reports/vocabulary-duplication-audit.md', md, 'utf8');
+console.log('Successfully written docs/archive/reports/vocabulary-duplication-audit.md');

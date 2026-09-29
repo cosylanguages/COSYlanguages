@@ -28,7 +28,7 @@ Every file, route, dataset, component, and asset in the repository is assigned t
 | Category ID | Category Name | Description | File Count | % of Repo |
 |---|---|---|---|---|
 | **1** | **Keep in COSYlanguages** | Core landing pages, blog, practice hub, placement quiz, price calculator, language hubs, public entry points, and hub scripts. | **169** | 2.42% |
-| **2** | **Move to COSYmanuals** | Restricted web textbooks (`manuals/`), detailed syllabus curricula (`curriculum/`), reference grammar (`reference-grammar/`, `grammar/`), monolingual vocabulary databases (`vocabulary/`), communicative situation manuals (`communication/`), comparative grammar (`comparative/`), and wordlists (`wordlists/`). | **5,604** | 80.26% |
+| **2** | **Move to COSYmanuals** | Restricted web textbooks (`manuals/`), detailed syllabus curricula (`curriculum/`), reference grammar (`reference-grammar/`, `grammar/`), monolingual vocabulary databases (`vocabulary/`), communicative situation manuals (`communication/`), comparative grammar (`comparative/`), and wordlists (`docs/archive/wordlists/`). | **5,604** | 80.26% |
 | **3** | **Move to COSYevents** | Public speaking club session decks, multimedia event night guides, cinema club, karaoke, and event templates (`templates/events/`). | **13** | 0.19% |
 | **4** | **Move to COSYworld** | Open-world RPG adventure game content, WebGL spatial assets, and interactive room/city scenes (hosted externally at `COSYworld`). | **0** *(external)* | 0.00% |
 | **5** | **Move to COSYgames** | Interactive minigame engines, game templates (`templates/games/`), and game loader drivers (`js/games/`). | **6** | 0.09% |
@@ -79,7 +79,7 @@ Every file, route, dataset, component, and asset in the repository is assigned t
 * **Recommendation:** **Move to COSYmanuals** and consolidate reference tabs into standard manual layouts.
 
 ### 7. Dictionary Functionality & Vocabulary Databases
-* **Location:** `vocabulary/` (1,198 files), `communication/` (2 files), `wordlists/` (1 file)
+* **Location:** `vocabulary/` (1,198 files), `communication/` (2 files), `docs/archive/wordlists/` (1 file)
 * **Current State:** Monolingual IIFE vocabulary databases (A1–C2 across 13 languages), canonical A0–A1 master JSON, communicative dialogue manuals, and general course wordlists.
 * **Finding:** Bulk vocabulary datasets and dictionaries are textbook reference data.
 * **Recommendation:** **Move to COSYmanuals** (while leaving public blog guides in `blog/` as static generated assets on `COSYlanguages`).
@@ -116,7 +116,7 @@ Every file, route, dataset, component, and asset in the repository is assigned t
 * **Exhaustive Reference Grammar:** `reference-grammar/` (297 HTML topic pages across 13 languages)
 * **Core Grammar Manuals:** `grammar/` (55 HTML topic pages, standards, schemas)
 * **Monolingual Vocabulary Databases:** `vocabulary/` (1,198 JS vocabulary files, canonical datasets, schemas)
-* **Communicative Situations & Wordlists:** `communication/` (2 files), `comparative/` (4 files), `wordlists/` (1 file)
+* **Communicative Situations & Wordlists:** `communication/` (2 files), `comparative/` (4 files), `docs/archive/wordlists/` (1 file)
 
 ### Category 3: Move to COSYevents (13 Files)
 * **Speaking Club & Event Night Templates:** `templates/events/` (13 files including `wonder-session-template.html`, `science-session-template.html`, `mind-session-template.html`, `debate-session-template.html`, `celebrate-session-template.html`, `life-session-template.html`, `quotes-session-template.html`, `karaoke-session-template.html`, `long-reads-session-template.html`)

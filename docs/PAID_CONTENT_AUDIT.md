@@ -67,7 +67,7 @@ All files under `apps/premium-courses/` represent structured CEFR course tracks 
 
 1. **`reference-grammar/`**: Machine-readable JSON grammar reference datasets (morphology, syntax, phonology, particles) across 13 languages.
    - *Recommendation:* Move to `COSYmanuals` (restricted curriculum/textbook repo) or retain as shared engine data.
-2. **`wordlists/`**: Unstructured text wordlist files under `wordlists/genera course/`.
+2. **`wordlists/`**: Unstructured text wordlist files under `docs/archive/wordlists/genera course/`.
    - *Recommendation:* Move to `COSYmanuals` or delete as superseded by structured `vocabulary/` datasets.
 3. **`comparative/`**: 14-language comparative grammar atlas matrix HTML page (`comparative/index.html`) and datasets (`comparative/data/`).
    - *Recommendation:* Keep here in `COSYlanguages` as a free public reference tool.

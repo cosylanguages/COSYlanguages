@@ -3,8 +3,8 @@ const path = require('path');
 const { auditQuality } = require('./generate_quality_audit_report');
 
 // Ensure reports directory exists
-if (!fs.existsSync('reports')) {
-    fs.mkdirSync('reports', { recursive: true });
+if (!fs.existsSync('docs/archive/reports')) {
+    fs.mkdirSync('docs/archive/reports', { recursive: true });
 }
 
 console.log('Running vocabulary data quality audit engine...');
@@ -145,5 +145,5 @@ md += `---
 *Report generated automatically by \`scripts/build_quality_markdown_report.js\` in COSYlanguages repository.*
 `;
 
-fs.writeFileSync('reports/vocabulary-data-quality-audit.md', md, 'utf8');
-console.log('Successfully written reports/vocabulary-data-quality-audit.md');
+fs.writeFileSync('docs/archive/reports/vocabulary-data-quality-audit.md', md, 'utf8');
+console.log('Successfully written docs/archive/reports/vocabulary-data-quality-audit.md');
