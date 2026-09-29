@@ -2512,18 +2512,23 @@ body.theme-dark .session-mini-nav .sd-jump-link.active {
   color: var(--ink-soft);
   font-style: italic;
 }
-ht: 44px;
-  line-height: 44px;
-  text-align: center;
-}
 
-.comp-cell-link:hover {
-  transform: scale(1.25);
-}
-
-.comp-no-data-row td {
-  text-align: center;
-  padding: 2.5rem 1.5rem;
-  color: var(--ink-soft);
-  font-style: italic;
+/* Language Code Badge for regional/non-national flags */
+.lang-code-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.6em;
+  height: 1.3em;
+  padding: 0 0.3em;
+  border-radius: 4px;
+  background-color: var(--sage-pale, #e8f0e9);
+  color: var(--sage-deep, #233827);
+  border: 1px solid var(--sage-soft, #6b9474);
+  font-size: 0.75em;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  vertical-align: middle;
+  line-height: 1;
 }

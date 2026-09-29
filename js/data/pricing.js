@@ -19,6 +19,27 @@
     const CUR_S = { EUR: '€', USD: '$', RUB: '₽' };
     const GRP_LG = { en: 'English 🇬🇧', fr: 'Français 🇫🇷', it: 'Italiano 🇮🇹', ru: 'Русский 🇷🇺', el: 'Ελληνικά 🇬🇷' };
 
+    function initCalculatorLangs() {
+        const langSelect = document.getElementById('calc-lang');
+        if (!langSelect) return;
+        const activeLangs = window.COSY_ACTIVE_LANGUAGES || (window.COSY_LANGUAGES ? window.COSY_LANGUAGES.filter(l => l.status === 'active') : []);
+        if (activeLangs.length === 0) return;
+
+        if (langSelect.children.length === 0 || langSelect.querySelectorAll('option').length <= 5) {
+            const currentVal = langSelect.value;
+            langSelect.innerHTML = activeLangs.map(l => {
+                const flagText = l.flag || '';
+                return `<option value="${l.code}">${l.native} ${flagText}</option>`;
+            }).join('');
+
+            if (currentVal && activeLangs.some(l => l.code === currentVal)) {
+                langSelect.value = currentVal;
+            } else {
+                langSelect.value = activeLangs[0].code;
+            }
+        }
+    }
+
     window.calcPrice = function() {
         const langSelect = document.getElementById('calc-lang');
         const typeSelect = document.getElementById('calc-type');
@@ -26,7 +47,17 @@
         if (!langSelect || !typeSelect || !durSelect) return;
 
         const lang = langSelect.value;
-        const type = typeSelect.value;
+        let type = typeSelect.value;
+
+        // Check group lesson eligibility from canonical registry
+        const langObj = (window.COSY_LANGUAGES || []).find(l => l.code === lang);
+        const supportsGroup = langObj ? !!langObj.groupLessons : (lang === 'en' || lang === 'fr' || lang === 'it' || lang === 'ru');
+
+        const groupOpt = Array.from(typeSelect.options).find(o => o.value === 'group');
+        if (groupOpt) {
+            groupOpt.disabled = !supportsGroup;
+            groupOpt.title = supportsGroup ? '' : 'Group lessons are available in English, French, Italian and Russian.';
+        }
 
         // Constraint enforcement: Update allowed durations based on course type
         if (type !== 'group' && COURSE_DURS[type]) {
@@ -62,17 +93,19 @@
         }
 
         if (type === 'group') {
-            const avail = GRP_LG[lang];
-            if (avail) {
-                el('calc-total').textContent = window.t('calc_contact_us');
-                el('calc-detail').textContent = window.t('calc_group_pricing_desc');
-                el('calc-note').textContent = avail + window.t('calc_group_avail_suffix');
-            } else {
-                el('calc-total').textContent = window.t('calc_not_yet_avail');
-                el('calc-detail').textContent = window.t('calc_group_avail_langs');
-                el('calc-note').textContent = '';
+            if (!supportsGroup) {
+                typeSelect.value = 'general';
+                if (el('calc-note')) {
+                    el('calc-note').textContent = 'Group lessons are available in English, French, Italian and Russian.';
+                }
+                window.calcPrice();
+                return;
             }
-            el('calc-cta').textContent = window.t('calc_ask_groups');
+            const avail = GRP_LG[lang] || (langObj ? `${langObj.native} ${langObj.flag}` : lang);
+            el('calc-total').textContent = window.t ? window.t('calc_contact_us') : 'Contact us';
+            el('calc-detail').textContent = window.t ? window.t('calc_group_pricing_desc') : 'Group lessons available';
+            el('calc-note').textContent = avail + (window.t ? window.t('calc_group_avail_suffix') : ' group lessons available');
+            el('calc-cta').textContent = window.t ? window.t('calc_ask_groups') : 'Ask about groups →';
             el('calc-cta').href = `https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20group%20lessons%20in%20${encodeURIComponent(avail || 'this language')}.`;
             return;
         }
@@ -234,6 +267,7 @@
     // Auto-init if on a page with a calculator
     document.addEventListener('DOMContentLoaded', () => {
         if (document.getElementById('calc-lang')) {
+            initCalculatorLangs();
             window.calcPrice();
             ['calc-lang', 'calc-type', 'calc-dur', 'calc-pack', 'calc-cur'].forEach(id => {
                 const el = document.getElementById(id);

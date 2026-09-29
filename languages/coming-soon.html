@@ -99,16 +99,21 @@
 <script>
     document.addEventListener('DOMContentLoaded', () => {
       const soonGrid = document.getElementById('lang-grid-soon');
-      if (soonGrid && window.COSY_LANGUAGES) {
-        soonGrid.innerHTML = window.COSY_LANGUAGES.filter(l => l.status === 'coming_soon').map(l => `
-          <a href="${l.code}/" class="lang-card-soon" aria-label="${l.native} - Coming Soon">
-            <img src="../images/languages/${l.img || 'cosylanguages.png'}" alt="${l.native}">
-            <div class="ls-name" data-translate-key="${l.name.toLowerCase()}">${l.native}</div>
-            <div class="lead-capture" onclick="event.preventDefault(); event.stopPropagation()">
+      const comingLangs = window.COSY_COMING_SOON_LANGUAGES || (window.COSY_LANGUAGES ? window.COSY_LANGUAGES.filter(l => l.status === 'coming-soon' || l.status === 'coming_soon') : []);
+      if (soonGrid && comingLangs) {
+        soonGrid.innerHTML = comingLangs.map(l => `
+          <div class="lang-card-soon">
+            <a href="${l.code}/" style="text-decoration:none; color:inherit; display:block;">
+              <img src="../images/languages/${l.img || 'cosylanguages.png'}" alt="">
+              <div class="ls-name">${l.icon || ''} ${l.native}</div>
+              <div class="cs-note" style="font-size:0.85rem; color:var(--ink-muted); margin:0.3rem 0;">Lessons coming soon</div>
+            </a>
+            ${l.hasFreeVocabulary ? `<a href="../practice/index.html?lang=${l.code}" class="cs-vocab-link" style="display:inline-block; margin-top:0.4rem; font-size:0.82rem; color:var(--sage-dark); font-weight:700; text-decoration:underline;">Free vocabulary available →</a>` : ''}
+            <div class="lead-capture" style="margin-top:0.8rem;" onclick="event.stopPropagation()">
               <input type="email" placeholder="Email me" class="lead-email" aria-label="Email for ${l.name} updates">
               <button class="lead-submit" onclick="captureLead('${l.name}')" aria-label="Notify me">🔔</button>
             </div>
-          </a>
+          </div>
         `).join('');
       }
     });

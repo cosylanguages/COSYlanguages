@@ -487,12 +487,8 @@
 
         <!-- Step 1: Language Choice -->
         <div id="step-lang">
-            <div class="lang-grid">
-                <div class="lang-option" onclick="startQuiz('en')">🇬🇧 English</div>
-                <div class="lang-option" onclick="startQuiz('fr')">🇫🇷 Français</div>
-                <div class="lang-option" onclick="startQuiz('it')">🇮🇹 Italiano</div>
-                <div class="lang-option" onclick="startQuiz('ru')">🇷🇺 Русский</div>
-                <div class="lang-option" onclick="startQuiz('el')">🇬🇷 Ελληνικά</div>
+            <div class="lang-grid" id="quiz-lang-grid">
+                <!-- Dynamically populated from COSY_ACTIVE_LANGUAGES -->
             </div>
         </div>
 
@@ -1077,7 +1073,7 @@
         const LEVEL_TO_FILE = { a1: 'A1', a2: 'A2', b1: 'B1', b2: 'B2', c1: 'C1', c2: 'C2' };
         const levelFile = LEVEL_TO_FILE[finalLevelCode] || 'A1';
         const curriculumHref = `curriculum/${selectedLang}/general/${levelFile}.json${handoffQuery}`;
-        const fallbackHref = `languages/${selectedLang}.html${handoffQuery}`;
+        const fallbackHref = `languages/${selectedLang}/index.html${handoffQuery}`;
         const curriculumBtn = document.getElementById('btn-results-curriculum');
         if (curriculumBtn) {
             curriculumBtn.innerHTML = `${btns.curriculum} (${finalLevelUpper})`;
@@ -1449,6 +1445,15 @@
         const prevWrapper = document.getElementById('dynamic-results-wrapper');
         if (prevWrapper) prevWrapper.remove();
     }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const langGrid = document.getElementById('quiz-lang-grid');
+        if (langGrid && window.COSY_ACTIVE_LANGUAGES) {
+            langGrid.innerHTML = window.COSY_ACTIVE_LANGUAGES.map(l => `
+                <div class="lang-option" onclick="startQuiz('${l.code}')">${l.flag || ''} ${l.native}</div>
+            `).join('');
+        }
+    });
 </script>
 
 <script src="js/data/languages.js"></script>

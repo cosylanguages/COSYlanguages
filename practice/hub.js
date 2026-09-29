@@ -153,7 +153,7 @@
        SPINNING WHEEL LOGIC
     ══════════════════════════════════════ */
     let wheelAngle = 0;
-    const wheelLangs = ['en', 'fr', 'it', 'ru', 'el', 'es', 'de', 'pt', 'hy', 'ka', 'tt', 'ba', 'br'];
+    const wheelLangs = ['en', 'fr', 'it', 'ru', 'el', 'es', 'de', 'pt', 'hy', 'ka', 'tt', 'ba', 'br', 'cv'];
     const wheelCats = ['vocab', 'grammar', 'speaking', 'pronunciation'];
     const wheelItems = [];
     wheelLangs.forEach(l => wheelCats.forEach(c => wheelItems.push({ lang: l, cat: c })));
@@ -206,8 +206,10 @@
 
             const resEl = document.getElementById('wheel-result');
             if (resEl) {
-                const langName = { en:'English', fr:'French', it:'Italian', ru:'Russian', el:'Greek', es:'Spanish', de:'German', pt:'Portuguese', hy:'Armenian', ka:'Georgian', tt:'Tatar', ba:'Bashkir', br:'Breton' };
-                resEl.innerHTML = `Landed on: <strong>${langName[result.lang]} · ${result.cat}</strong>!<br>Starting practice... 🚀`;
+                const langNameMap = (window.COSY_LANGUAGES || []).reduce((acc, l) => { acc[l.code] = l.name; return acc; }, {
+                    en:'English', fr:'French', it:'Italian', ru:'Russian', el:'Greek', es:'Spanish', de:'German', pt:'Portuguese', hy:'Armenian', ka:'Georgian', tt:'Tatar', ba:'Bashkir', br:'Breton', cv:'Chuvash'
+                });
+                resEl.innerHTML = `Landed on: <strong>${langNameMap[result.lang] || result.lang} · ${result.cat}</strong>!<br>Starting practice... 🚀`;
                 setTimeout(() => {
                     window.cosyPractice.closeWheel();
                     window.cosyPractice.quickStart(result.lang, result.cat, 'all', 'all');
@@ -235,8 +237,10 @@
 
                 const resEl = document.getElementById('wheel-result');
                 if (resEl) {
-                    const langName = { en:'English', fr:'French', it:'Italian', ru:'Russian', el:'Greek', es:'Spanish', de:'German', pt:'Portuguese', hy:'Armenian', ka:'Georgian', tt:'Tatar', ba:'Bashkir', br:'Breton' };
-                    resEl.innerHTML = `Landed on: <strong>${langName[result.lang]} · ${result.cat}</strong>!<br>Starting practice... 🚀`;
+                    const langNameMap = (window.COSY_LANGUAGES || []).reduce((acc, l) => { acc[l.code] = l.name; return acc; }, {
+                        en:'English', fr:'French', it:'Italian', ru:'Russian', el:'Greek', es:'Spanish', de:'German', pt:'Portuguese', hy:'Armenian', ka:'Georgian', tt:'Tatar', ba:'Bashkir', br:'Breton', cv:'Chuvash'
+                    });
+                    resEl.innerHTML = `Landed on: <strong>${langNameMap[result.lang] || result.lang} · ${result.cat}</strong>!<br>Starting practice... 🚀`;
                     setTimeout(() => {
                         window.cosyPractice.closeWheel();
                         window.cosyPractice.quickStart(result.lang, result.cat, 'all', 'all');
@@ -516,7 +520,7 @@
         const langContainer = document.getElementById('lang-pills');
         if (langContainer && window.COSY_LANGUAGES) {
             langContainer.innerHTML = window.COSY_LANGUAGES.map(l =>
-                `<div class="lang-pill ${l.code === selectedLang ? 'active' : ''}" data-value="${l.code}">${l.flag} ${l.native}</div>`
+                `<div class="lang-pill ${l.code === selectedLang ? 'active' : ''}" data-value="${l.code}">${l.icon || l.flag || ''} ${l.native}</div>`
             ).join('');
 
             langContainer.querySelectorAll('.lang-pill').forEach(p => {
