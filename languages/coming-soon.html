@@ -31,6 +31,8 @@
 </head>
 <body>
 
+<a href="#main-content" class="skip-link" style="position:absolute;left:-9999px;top:1rem;z-index:9999;padding:0.5rem 1rem;background:#fff;color:#000;" onfocus="this.style.left='1rem'" onblur="this.style.left='-9999px'">Skip to main content</a>
+
 <nav id="cosy-nav"></nav>
 
 <header class="coming-soon-hero">
@@ -38,7 +40,7 @@
     <p class="hero-sub">We're working hard to bring more languages to COSY. Sign up to be notified when your language is ready.</p>
 </header>
 
-<main class="coming-soon-content">
+<main id=main-content class="coming-soon-content">
     <div id="lang-grid-soon" class="lang-grid-soon reveal">
         <!-- Dynamically populated from COSY_LANGUAGES where status is coming_soon -->
     </div>

@@ -23,6 +23,8 @@
 </head>
 <body>
 
+<a href="#main-content" class="skip-link" style="position:absolute;left:-9999px;top:1rem;z-index:9999;padding:0.5rem 1rem;background:#fff;color:#000;" onfocus="this.style.left='1rem'" onblur="this.style.left='-9999px'">Skip to main content</a>
+
 <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20COSYlanguages." class="wa-fab" aria-label="Chat on WhatsApp">💬</a>
 
 <nav id="cosy-nav" aria-label="Main navigation"></nav>
@@ -166,6 +168,8 @@
   let transferNotes = [];
   let selectedLangCodes = new Set();
 
+  const CORE_LANGS = new Set(['en', 'fr', 'it', 'ru', 'el']);
+
   const FLAG_MAP = {
     en: '🇬🇧', fr: '🇫🇷', it: '🇮🇹', ru: '🇷🇺', el: '🇬🇷',
     es: '🇪🇸', de: '🇩🇪', pt: '🇵🇹', hy: '🇦🇲', ka: '🇬🇪',
@@ -282,7 +286,7 @@
           ${langs.map(l => `
             <div class="comp-lang-chip ${selectedLangCodes.has(l.code) ? 'selected' : ''}" onclick="toggleLang('${l.code}')">
               <span>${FLAG_MAP[l.code] || '🌐'}</span>
-              <span>${l.name_en}</span>
+              <span>${l.name_en} ${CORE_LANGS.has(l.code) ? '' : '<small style="opacity:0.75; font-size:0.7rem;">(Coming soon)</small>'}</span>
             </div>
           `).join('')}
         </div>
@@ -355,7 +359,8 @@
         ${selectedLangs.map(l => `
           <th class="col-lang" title="${l.name_en} (${l.name_native})">
             <div>${FLAG_MAP[l.code] || '🌐'}</div>
-            <div style="font-size: 0.78rem; font-weight: 800; color: var(--sage-deep); text-transform: uppercase;">${l.code}</div>
+            <div style="font-size: 0.78rem; font-weight: 800; color: var(--sage-deep); text-transform: uppercase;">${l.code}${CORE_LANGS.has(l.code) ? '' : ' 🌱'}</div>
+            ${CORE_LANGS.has(l.code) ? '' : '<div style="font-size: 0.65rem; color: var(--ink-soft); font-weight: normal;">Coming soon</div>'}
           </th>
         `).join('')}
       </tr>
@@ -391,12 +396,17 @@
           </div>
         </td>
         ${selectedLangs.map(l => {
+          if (!CORE_LANGS.has(l.code)) {
+            return `<td class="comp-cell-status" style="font-size: 0.75rem; color: var(--ink-soft); opacity: 0.75;">Coming soon</td>`;
+          }
           const hasFeature = item.languages.includes(l.code);
           if (hasFeature) {
             const manualPath = l.manual_url.startsWith('http') ? l.manual_url : ('https://cosylanguages.github.io/COSYmanuals' + l.manual_url);
             return `
               <td class="comp-cell-status">
-                <a href="${manualPath}" target="_blank" rel="noopener" class="comp-cell-link" title="Open ${l.name_en} Grammar Manual">✅</a>
+                <a href="https://cosylanguages.github.io/COSYtools/" target="_blank" rel="noopener" class="comp-cell-link" title="Open COSYtools Reference Engine">🔎 Tools</a>
+                <br>
+                <a href="${manualPath}" target="_blank" rel="noopener" style="font-size:0.7rem; color:var(--ink-muted);" title="Manual for students">🔒 for students</a>
               </td>
             `;
           } else {
