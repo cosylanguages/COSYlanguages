@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Courses 📚 | COSYlanguages</title>
+    <meta name="description" content="Explore our 6 structured language courses in English, French, Italian, Russian, and Greek. 1-to-1 and group lessons with a speaking-first approach.">
+    <link rel="canonical" href="https://cosylanguages.github.io/COSYlanguages/courses/index.html">
+    <meta property="og:title" content="Language Courses 📚 | COSYlanguages">
+    <meta property="og:description" content="Explore our 6 structured language courses in English, French, Italian, Russian, and Greek. 1-to-1 and group lessons with a speaking-first approach.">
+    <meta property="og:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
+    <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/courses/index.html">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Language Courses 📚 | COSYlanguages">
+    <meta name="twitter:description" content="Explore our 6 structured language courses in English, French, Italian, Russian, and Greek.">
+    <meta name="twitter:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
+    <link rel="icon" href="../images/logos/cosylanguages.png">
+    <meta name="theme-color" content="#FAF7F2">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/tokens.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/shared-nav.css">
+    <link rel="stylesheet" href="../css/cosy-icons.css">
+
+    <style>
+      .course-hub-wrap {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 2rem 1.5rem 4rem;
+      }
+      .course-breadcrumb {
+        font-size: 0.9rem;
+        color: var(--ink-soft);
+        margin-bottom: 1.5rem;
+      }
+      .course-breadcrumb a {
+        color: var(--sage);
+        text-decoration: none;
+      }
+      .course-breadcrumb a:hover {
+        text-decoration: underline;
+      }
+      .courses-hero {
+        text-align: center;
+        margin-bottom: 3rem;
+      }
+      .courses-hero h1 {
+        font-family: var(--font-heading, 'Fraunces', serif);
+        font-size: 2.5rem;
+        color: var(--ink);
+        margin-bottom: 1rem;
+      }
+      .courses-hero p {
+        font-size: 1.15rem;
+        color: var(--ink-soft);
+        max-width: 700px;
+        margin: 0 auto;
+        line-height: 1.6;
+      }
+      .courses-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5rem;
+        margin-bottom: 3rem;
+      }
+      .course-hub-card {
+        background: var(--warm-white, #FAF7F2);
+        border: 1px solid var(--border, #E2DCD5);
+        border-radius: var(--r-md, 12px);
+        padding: 1.75rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+      .course-hub-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+      }
+      .chc-icon {
+        font-size: 2.2rem;
+        margin-bottom: 0.75rem;
+        display: inline-block;
+      }
+      .chc-title {
+        font-family: var(--font-heading, 'Fraunces', serif);
+        font-size: 1.35rem;
+        color: var(--ink);
+        margin-bottom: 0.5rem;
+      }
+      .chc-desc {
+        font-size: 0.95rem;
+        color: var(--ink-soft);
+        line-height: 1.5;
+        margin-bottom: 1.5rem;
+        flex-grow: 1;
+      }
+      .chc-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        font-weight: 600;
+        color: var(--sage, #416b49);
+        text-decoration: none;
+      }
+      .chc-link:hover {
+        text-decoration: underline;
+      }
+      .group-note-box {
+        background: rgba(65, 107, 73, 0.08);
+        border: 1px solid var(--sage, #416b49);
+        border-radius: var(--r-md, 12px);
+        padding: 1.25rem 1.5rem;
+        margin-bottom: 2.5rem;
+        text-align: center;
+      }
+      .group-note-box p {
+        margin: 0;
+        color: var(--ink);
+        font-size: 1rem;
+      }
+      .contact-cta-box {
+        text-align: center;
+        background: #fff;
+        border: 1px solid var(--border, #E2DCD5);
+        border-radius: var(--r-md, 12px);
+        padding: 2rem;
+        margin-bottom: 2.5rem;
+      }
+      .contact-cta-box h2 {
+        font-family: var(--font-heading, 'Fraunces', serif);
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+      }
+      .contact-cta-box p {
+        color: var(--ink-soft);
+        margin-bottom: 1.25rem;
+      }
+      .contact-btns {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .student-portal-box {
+        background: #f0f4f1;
+        border: 1px dashed var(--sage, #416b49);
+        border-radius: var(--r-md, 12px);
+        padding: 1.25rem 1.5rem;
+        text-align: center;
+        margin-top: 2rem;
+      }
+      .student-portal-box a {
+        color: var(--sage, #416b49);
+        font-weight: 700;
+        text-decoration: none;
+      }
+      .student-portal-box a:hover {
+        text-decoration: underline;
+      }
+    </style>
+</head>
+<body>
+
+<a href="#main-content" class="skip-link" style="position:absolute;left:-9999px;top:1rem;z-index:9999;padding:0.5rem 1rem;background:#fff;color:#000;" onfocus="this.style.left='1rem'" onblur="this.style.left='-9999px'">Skip to main content</a>
+
+<nav id="cosy-nav" aria-label="Main navigation"></nav>
+
+<main id="main-content" class="course-hub-wrap">
+  <div class="course-breadcrumb">
+    <a href="../index.html">Home</a> / <span>Courses</span>
+  </div>
+
+  <section class="courses-hero">
+    <h1>Our Language Courses 📚</h1>
+    <p>Structured, 1-to-1 and group language lessons with a speaking-first approach. Learn with active language learners who love what they teach.</p>
+  </section>
+
+  <div class="courses-grid">
+    <div class="course-hub-card">
+      <div>
+        <span class="chc-icon">📖</span>
+        <h2 class="chc-title">General Course</h2>
+        <p class="chc-desc">All 4 skills growing together, structured CEFR-level progression.</p>
+      </div>
+      <a href="general.html" class="chc-link">Explore General Course →</a>
+    </div>
+
+    <div class="course-hub-card">
+      <div>
+        <span class="chc-icon">🗣️</span>
+        <h2 class="chc-title">Spoken Course</h2>
+        <p class="chc-desc">Experience real conversation with your teacher in 15 or 30 minute focused sessions, free from rigid grammar tables and repetitive worksheets.</p>
+      </div>
+      <a href="spoken.html" class="chc-link">Explore Spoken Course →</a>
+    </div>
+
+    <div class="course-hub-card">
+      <div>
+        <span class="chc-icon">📝</span>
+        <h2 class="chc-title">Exam Preparation</h2>
+        <p class="chc-desc">Authentic tasks, exact exam conditions. Focus on the oral component where it matters most.</p>
+      </div>
+      <a href="exam-preparation.html" class="chc-link">Explore Exam Preparation →</a>
+    </div>
+
+    <div class="course-hub-card">
+      <div>
+        <span class="chc-icon">✈️</span>
+        <h2 class="chc-title">Travelling Course</h2>
+        <p class="chc-desc">Master essential real-world communication for travel: booking, directions, emergencies, and local culture.</p>
+      </div>
+      <a href="travelling.html" class="chc-link">Explore Travelling Course →</a>
+    </div>
+
+    <div class="course-hub-card">
+      <div>
+        <span class="chc-icon">💼</span>
+        <h2 class="chc-title">Professional Course</h2>
+        <p class="chc-desc">Elevate your career with targeted language skills for interviews, negotiations, business presentations, and networking.</p>
+      </div>
+      <a href="professional.html" class="chc-link">Explore Professional Course →</a>
+    </div>
+
+    <div class="course-hub-card">
+      <div>
+        <span class="chc-icon">🏡</span>
+        <h2 class="chc-title">Relocation Course</h2>
+        <p class="chc-desc">Navigate housing, administration, healthcare, local services, and social integration in your new home country.</p>
+      </div>
+      <a href="relocation.html" class="chc-link">Explore Relocation Course →</a>
+    </div>
+  </div>
+
+  <div class="group-note-box">
+    <p><strong>👥 Group lessons also available</strong> in English, French, Italian and Russian. Share the cost and learn together. <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20group%20lessons.">Ask about groups →</a></p>
+  </div>
+
+  <div class="contact-cta-box">
+    <h2>Have questions about our courses?</h2>
+    <p>Get in touch directly with our teaching team to find the best course for your goals.</p>
+    <div class="contact-btns">
+      <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20COSYlanguages%20courses." class="btn-primary" target="_blank" rel="noopener">💬 WhatsApp</a>
+      <a href="https://t.me/cosylanguagesproject" class="btn-secondary" target="_blank" rel="noopener">✈️ Telegram</a>
+    </div>
+  </div>
+
+  <div class="student-portal-box">
+    🎓 <strong>Already a student?</strong> <a href="https://cosylanguages.github.io/COSYplatform/" target="_blank" rel="noopener">Go to your course platform →</a>
+  </div>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="fb-logo">
+        <img src="../images/logos/cosylanguages.png" alt="COSYlanguages logo" loading="lazy" decoding="async" width="38" height="38">
+        <span class="fb-name">COSYlanguages</span>
+      </div>
+      <p data-translate-key="footer_fb_p">Your friendly corner to master new languages and connect with the world. 🌍</p>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_courses">Courses</h3>
+      <a href="index.html">All Courses 📖</a>
+      <a href="general.html" data-translate-key="course_general">General Course</a>
+      <a href="spoken.html" data-translate-key="course_spoken">Spoken Course</a>
+      <a href="exam-preparation.html" data-translate-key="course_exam">Exam Preparation</a>
+      <a href="travelling.html" data-translate-key="course_travelling">Travelling Course</a>
+      <a href="professional.html" data-translate-key="course_professional">Professional Course</a>
+      <a href="relocation.html" data-translate-key="course_relocation">Relocation Course</a>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_explore">Explore</h3>
+      <a href="https://cosylanguages.github.io/COSYmanuals/" target="_blank" rel="noopener">Manuals Hub 🔒 (for students)</a>
+      <a href="../comparative/index.html">Grammar Atlas 🌐</a>
+      <a href="../placement-quiz.html">Placement Quiz 📝</a>
+      <a href="../hybrid/index.html">Hybrid &amp; Community 🌿</a>
+      <a href="../blog/index.html">Blog &amp; Top 100 📝</a>
+      <a href="../apps/index.html">Reference Engines 🔎</a>
+    </div>
+    <div class="footer-links-col">
+      <h3>Project</h3>
+      <a href="../index.html#how">Our Story 🏡</a>
+      <a href="../privacy.html">Privacy &amp; Safety 🛡️</a>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_contact">Contact</h3>
+      <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+      <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+      <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2020–2026 COSYlanguages, All rights reserved</div>
+</footer>
+
+<script src="../js/data/languages.js"></script>
+<script src="../js/core/engine.js"></script>
+<script src="../js/core/i18n.js"></script>
+<script src="../js/core/ui.js"></script>
+</body>
+</html>
