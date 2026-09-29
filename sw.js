@@ -15,6 +15,7 @@ const STATIC_ASSETS = [
   './courses/travelling.html',
   './courses/professional.html',
   './courses/relocation.html',
+  './about/index.html',
   './apps/classroom-sync/index.html',
   './practice/index.html',
   './practice/cognitive-immersion.html',
