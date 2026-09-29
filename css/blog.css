@@ -13,10 +13,10 @@
 /* Base Page & Typography */
 body.blog-page,
 .blog-page-container {
-    background-color: var(--cream, #FAF7F2);
-    color: var(--ink, #1c1917);
+    background-color: var(--cream, #fdfcf8);
+    color: var(--ink, #2a2a2a);
     font-family: var(--font-sans);
-    font-size: 17px;
+    font-size: 18px;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -40,14 +40,14 @@ input:focus-visible {
 /* Headings Base */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-serif);
-    color: var(--ink, #1c1917);
+    color: var(--ink, #2a2a2a);
     line-height: 1.25;
     margin-top: 0;
 }
 
-/* Step 1.1 Masthead Header */
+/* Masthead Header */
 .blog-header {
-    border-bottom: 1px solid var(--border, #e7e5e4);
+    border-bottom: 1px solid var(--border, rgba(74, 107, 80, 0.12));
     padding-bottom: 1.75rem;
     margin-bottom: 2.25rem;
 }
@@ -72,18 +72,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .blog-print-btn {
     background: #ffffff;
-    border: 1px solid var(--border, #e7e5e4);
+    border: 1px solid var(--border, rgba(74, 107, 80, 0.12));
     border-radius: 999px;
     padding: 0.35rem 0.85rem;
     font-size: 0.82rem;
     font-weight: 600;
-    color: var(--ink, #1c1917);
+    color: var(--ink, #2a2a2a);
     cursor: pointer;
     transition: background 0.15s ease, border-color 0.15s ease;
 }
 
 .blog-print-btn:hover {
-    background: var(--warm-white, #faf8f5);
+    background: var(--warm-white, #FFFEFB);
     border-color: var(--teal);
     color: var(--teal);
 }
@@ -106,15 +106,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .blog-header-tagline {
     font-size: 1.1rem;
-    color: var(--ink-muted, #57534e);
+    color: var(--ink-muted, #4a4a4a);
     margin: 0 0 1rem;
-    max-width: 68ch;
-    line-height: 1.5;
+    max-width: 70ch;
+    line-height: 1.6;
 }
 
 .blog-issue-ribbon {
     display: inline-block;
-    border-top: 1px solid var(--border, #e7e5e4);
+    border-top: 1px solid var(--border, rgba(74, 107, 80, 0.12));
     padding-top: 0.5rem;
 }
 
@@ -137,20 +137,21 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.5rem;
 }
 
-/* Step 1.2 Featured Post Hero */
+/* Featured Post Hero */
 .featured-post-hero {
     background: #ffffff;
-    border: 1px solid var(--border, #e7e5e4);
+    border: 1px solid var(--border, rgba(74, 107, 80, 0.12));
     border-radius: 8px;
     padding: 2.25rem;
     margin-bottom: 2.5rem;
+    box-shadow: none;
 }
 
 .featured-title {
     font-size: 2.1rem;
     font-weight: 600;
     margin: 0 0 0.75rem;
-    line-height: 1.2;
+    line-height: 1.25;
 }
 
 .featured-title a {
@@ -164,15 +165,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .featured-dek {
     font-size: 1.1rem;
-    color: var(--ink-muted, #57534e);
-    max-width: 68ch;
+    color: var(--ink-muted, #4a4a4a);
+    max-width: 70ch;
     margin: 0 0 1.25rem;
-    line-height: 1.55;
+    line-height: 1.6;
 }
 
 .post-meta {
     font-size: 0.88rem;
-    color: var(--ink-muted, #57534e);
+    color: var(--ink-muted, #4a4a4a);
     display: flex;
     align-items: center;
     gap: 6px;
@@ -186,7 +187,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .read-post-btn {
     display: inline-block;
-    background: var(--ink, #1c1917);
+    background: var(--ink, #2a2a2a);
     color: #ffffff;
     text-decoration: none;
     font-weight: 700;
@@ -215,14 +216,14 @@ h1, h2, h3, h4, h5, h6 {
 .section-heading {
     font-size: 1.2rem;
     font-weight: 600;
-    border-bottom: 1px solid var(--border, #e7e5e4);
+    border-bottom: 1px solid var(--border, rgba(74, 107, 80, 0.12));
     padding-bottom: 0.5rem;
     margin-bottom: 1.75rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
 }
 
-/* Step 1.3 Post Feed */
+/* Post Feed */
 .feed-container {
     display: flex;
     flex-direction: column;
@@ -230,6 +231,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .post-card {
     padding: 1.25rem 0;
+    box-shadow: none;
 }
 
 .post-card-title {
@@ -250,30 +252,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .post-card-dek {
     font-size: 1.05rem;
-    color: var(--ink-muted, #57534e);
-    max-width: 68ch;
+    color: var(--ink-muted, #4a4a4a);
+    max-width: 70ch;
     margin: 0 0 0.85rem;
-    line-height: 1.55;
-}
-
-.read-link {
-    color: var(--teal);
-    font-weight: 700;
-    font-size: 0.92rem;
-    text-decoration: none;
-}
-
-.read-link:hover {
-    text-decoration: underline;
+    line-height: 1.6;
 }
 
 .feed-rule {
     border: none;
-    border-top: 1px solid var(--border, #e7e5e4);
+    border-top: 1px solid var(--border, rgba(74, 107, 80, 0.12));
     margin: 1rem 0;
 }
 
-/* Step 1.4 Sidebar */
+/* Sidebar */
 .blog-sidebar {
     display: flex;
     flex-direction: column;
@@ -282,9 +273,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .sidebar-widget {
     background: #ffffff;
-    border: 1px solid var(--border, #e7e5e4);
+    border: 1px solid var(--border, rgba(74, 107, 80, 0.12));
     border-radius: 8px;
     padding: 1.25rem 1.5rem;
+    box-shadow: none;
 }
 
 .sidebar-widget-title {
@@ -292,7 +284,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     margin: 0 0 1rem;
     padding-bottom: 0.4rem;
-    border-bottom: 1px solid var(--border, #e7e5e4);
+    border-bottom: 1px solid var(--border, rgba(74, 107, 80, 0.12));
 }
 
 /* Search Widget */
@@ -303,12 +295,12 @@ h1, h2, h3, h4, h5, h6 {
 .search-input {
     width: 100%;
     padding: 0.6rem 0.85rem;
-    border: 1px solid var(--border, #e7e5e4);
+    border: 1px solid var(--border, rgba(74, 107, 80, 0.12));
     border-radius: 6px;
     font-family: var(--font-sans);
     font-size: 0.9rem;
-    background: var(--warm-white, #faf8f5);
-    color: var(--ink, #1c1917);
+    background: var(--warm-white, #FFFEFB);
+    color: var(--ink, #2a2a2a);
     box-sizing: border-box;
 }
 
@@ -326,9 +318,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .sidebar-label-chip {
     display: inline-block;
-    background: var(--warm-white, #faf8f5);
-    border: 1px solid var(--border, #e7e5e4);
-    color: var(--ink, #1c1917);
+    background: var(--warm-white, #FFFEFB);
+    border: 1px solid var(--border, rgba(74, 107, 80, 0.12));
+    color: var(--ink, #2a2a2a);
     font-size: 0.82rem;
     font-weight: 600;
     padding: 4px 10px;
@@ -361,7 +353,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sidebar-list a {
-    color: var(--ink, #1c1917);
+    color: var(--ink, #2a2a2a);
     text-decoration: none;
     line-height: 1.4;
 }
@@ -374,12 +366,23 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 4px;
 }
 
+.lang-code-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 1px 5px;
+    background: var(--sage-light, #e8f0e9);
+    color: var(--sage-dark, #375742);
+    border-radius: 4px;
+    margin-right: 4px;
+}
+
 .coming-soon-tag {
     font-size: 0.7rem;
     font-weight: 700;
-    color: var(--ink-muted, #57534e);
-    background: var(--warm-white, #faf8f5);
-    border: 1px solid var(--border, #e7e5e4);
+    color: var(--ink-muted, #4a4a4a);
+    background: var(--warm-white, #FFFEFB);
+    border: 1px solid var(--border, rgba(74, 107, 80, 0.12));
     padding: 1px 6px;
     border-radius: 4px;
     margin-left: 4px;
@@ -388,131 +391,9 @@ h1, h2, h3, h4, h5, h6 {
 .sidebar-sub-item {
     display: block;
     font-size: 0.82rem;
-    color: var(--ink-muted, #57534e);
+    color: var(--ink-muted, #4a4a4a);
     margin-top: 2px;
     padding-left: 0.5rem;
-}
-
-/* Shared Article Styling for Individual Post Pages */
-.post-header-simple {
-    border-bottom: 1px solid var(--border, #e7e5e4);
-    padding-bottom: 1.5rem;
-    margin-bottom: 2rem;
-}
-
-.post-header-simple h1 {
-    font-size: 2.3rem;
-    font-weight: 600;
-    line-height: 1.25;
-    margin: 0.5rem 0 0.75rem;
-}
-
-.post-header-meta-row {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    flex-wrap: wrap;
-    font-size: 0.88rem;
-    color: var(--ink-muted, #57534e);
-    margin-bottom: 1rem;
-}
-
-.post-header-intro {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    max-width: 68ch;
-}
-
-/* Generic Article Content Styling */
-article.blog-article {
-    max-width: 68ch;
-    font-size: 1.1rem;
-    line-height: 1.65;
-}
-
-article.blog-article p {
-    margin-bottom: 1.5rem;
-}
-
-/* Category Sections & Item Grids on Individual Guide Pages */
-.list-category-section,
-.list-section,
-.verb-section {
-    margin-bottom: 2.5rem;
-    background: #ffffff;
-    border: 1px solid var(--border, #e7e5e4);
-    border-radius: 8px;
-    padding: 1.75rem;
-}
-
-.cat-header,
-.sec-head,
-.verb-head {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid var(--border, #e7e5e4);
-    padding-bottom: 0.85rem;
-    margin-bottom: 1.25rem;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.cat-title,
-.sec-head h2,
-.verb-head h2 {
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin: 0;
-}
-
-.cat-badge {
-    background: var(--teal);
-    color: #ffffff;
-    font-size: 0.75rem;
-    font-weight: 700;
-    padding: 3px 9px;
-    border-radius: 999px;
-}
-
-.items-grid,
-.cards-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 1.25rem;
-}
-
-.item-card,
-.lex-card {
-    background: var(--warm-white, #faf8f5);
-    border: 1px solid var(--border, #e7e5e4);
-    border-radius: 6px;
-    padding: 1.25rem;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-.item-word,
-.lex-pair {
-    font-family: var(--font-serif);
-    font-size: 1.2rem;
-    font-weight: 600;
-}
-
-.item-def {
-    font-size: 0.9rem;
-    color: var(--ink-muted, #57534e);
-}
-
-.item-ex,
-.lex-ex {
-    font-size: 0.88rem;
-    font-style: italic;
-    background: #ffffff;
-    padding: 8px 12px;
-    border-radius: 4px;
-    border-left: 3px solid var(--teal);
 }
 
 /* Responsive Styles */
@@ -551,13 +432,12 @@ article.blog-article p {
     }
 }
 
-/* Step 3.4 Print Styles */
+/* Print Styles */
 @media print {
     nav,
     .blog-header-top,
     .blog-sidebar,
     .read-post-btn,
-    .read-link,
     .blog-issue-ribbon {
         display: none !important;
     }
