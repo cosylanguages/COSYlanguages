@@ -1370,15 +1370,15 @@
         // Add additional immersive recommendation if gap was detected
         if (gapDetected) {
             if (selectedLang === 'en') {
-                actionItems.unshift("<strong>TRAIN YOUR BRAIN:</strong> Use the <strong>Cognitive & Immersion Accelerator</strong> to practice processing speed delay drills and bypass internal translation blocks.");
+                actionItems.unshift("<strong>TRAIN YOUR BRAIN:</strong> Use the <strong>Immersion & Memory Tools</strong> to practice processing speed delay drills and bypass internal translation blocks.");
             } else if (selectedLang === 'fr') {
                 actionItems.unshift("<strong>ENTRAÎNEZ VOTRE CERVEAU :</strong> Utilisez l'accélérateur d'immersion cognitive pour travailler la vitesse de réaction et éliminer la traduction mentale.");
             } else if (selectedLang === 'it') {
                 actionItems.unshift("<strong>ALLENA IL CERVELLO :</strong> Usa l'acceleratore di immersione cognitiva per allenare la velocità di elaborazione e superare i blocchi di traduzione interna.");
             } else if (selectedLang === 'ru') {
-                actionItems.unshift("<strong>ТРЕНИРУЙТЕ МОЗГ:</strong> Используйте наш тренажер 'Cognitive & Immersion Accelerator' для уменьшения времени задержки ответа и избавления от мысленного перевода.");
+                actionItems.unshift("<strong>ТРЕНИРУЙТЕ МОЗГ:</strong> Используйте наш тренажер 'Immersion & Memory Tools' для уменьшения времени задержки ответа и избавления от мысленного перевода.");
             } else {
-                actionItems.unshift("<strong>ΕΞΑΣΚΗΣΗ ΕΓΚΕΦΑΛΟΥ:</strong> Χρησιμοποιήστε το <strong>Cognitive & Immersion Accelerator</strong> για να μειώσετε τον χρόνο αντίδρασης και να σταματήσετε να μεταφράζετε από μέσα σας.");
+                actionItems.unshift("<strong>ΕΞΑΣΚΗΣΗ ΕΓΚΕΦΑΛΟΥ:</strong> Χρησιμοποιήστε το <strong>Immersion & Memory Tools</strong> για να μειώσετε τον χρόνο αντίδρασης και να σταματήσετε να μεταφράζετε από μέσα σας.");
             }
             ctaButtonHtml += `<a href="practice/cognitive-immersion.html?lang=${selectedLang}&level=${finalLevelUpper}&topic=fluency_accelerator" class="action-cta-btn action-cta-secondary">${t.immersion}</a>`;
         }
