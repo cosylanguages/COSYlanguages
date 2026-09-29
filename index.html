@@ -220,11 +220,15 @@
       if (activeGrid && window.COSY_ACTIVE_LANGUAGES) {
         activeGrid.innerHTML = window.COSY_ACTIVE_LANGUAGES.map(l => `
           <a href="languages/${l.code}/" class="lang-card">
-            <img src="images/languages/${l.img || 'cosylanguages.png'}" alt="${l.name}" loading="lazy" decoding="async" width="56" height="56">
+            <img src="images/languages/${l.img || 'cosylanguages.png'}" alt="" loading="lazy" decoding="async" width="56" height="56">
             <div class="lang-name" data-translate-key="${l.name.toLowerCase()}">${l.native}</div>
             <div class="lang-resource-teaser">Resources →</div>
           </a>
         `).join('');
+      }
+      const heroCount = document.querySelector('.hs-num');
+      if (heroCount && window.COSY_ACTIVE_LANGUAGES) {
+        heroCount.textContent = window.COSY_ACTIVE_LANGUAGES.length;
       }
     });
   </script>

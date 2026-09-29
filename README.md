@@ -23,6 +23,7 @@ https://cosylanguages.github.io/COSYlanguages/
 | tt | Tatar | 🔜 Coming soon | May have partial data |
 | ba | Bashkir | 🔜 Coming soon | May have partial data |
 | br | Breton | 🔜 Coming soon | May have partial data |
+| cv | Chuvash | 🔜 Coming soon | May have partial data |
 
 > Coming soon languages may already have grammar, vocabulary, or curriculum data in the repo.
 > They are marked "coming soon" on the public site until published.
@@ -60,7 +61,7 @@ COSYlanguages is organized as a distributed ecosystem of specialized sub-product
 
 ### Central Ecosystem Hub (`COSYlanguages`)
 - **Unified Master Portal & Gateway:** Central directory, multi-product switcher, and global diagnostic placement quiz (`placement-quiz.html`).
-- **Interactive CEFR Web Textbooks:** Direct links to COSYmanuals for grammar, vocabulary, and communication manuals across all 13 supported languages.
+- **Interactive CEFR Web Textbooks:** Direct links to COSYmanuals for grammar, vocabulary, and communication manuals across all 14 supported languages.
 - **Language Hubs (`languages/{iso}/index.html`):** Portal pages featuring daily dose facts, idioms, and level roadmaps.
 
 For a detailed analysis of repository candidates and ecosystem architecture, see [`docs/ECOSYSTEM_ARCHITECTURE.md`](docs/ECOSYSTEM_ARCHITECTURE.md).

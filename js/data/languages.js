@@ -1,6 +1,6 @@
 /**
  * js/data/languages.js
- * Master language registry for COSYlanguages.
+ * Master single-source-of-truth language registry for COSYlanguages.
  */
 
 window.TRANSLATION_MAP = {
@@ -16,28 +16,31 @@ window.TRANSLATION_MAP = {
     'ka': 'js/data/kartvelian/ka/translations.js',
     'tt': 'js/data/turkic/tt/translations.js',
     'ba': 'js/data/turkic/ba/translations.js',
-    'br': 'js/data/celtic/br/translations.js'
+    'br': 'js/data/celtic/br/translations.js',
+    'cv': 'js/data/turkic/cv/translations.js'
 };
 
-// Master language registry.
-// status: 'active' = published on site | 'coming_soon' = data may exist but not yet published
-// has_data: true = there are grammar/vocabulary/curriculum files in the repo for this language
-// James controls when a language moves from coming_soon to active.
+// Master language registry (14 languages).
+// status: 'active' (lessons offered) | 'coming-soon' (lessons coming soon)
+// groupLessons: true (group lessons offered ONLY in en, fr, it, ru)
+// hasFreeVocabulary: true (free vocabulary available in vocabulary/manifest.json)
+// icon: national flag emoji OR rounded neutral badge for languages without a national flag
 
 window.COSY_LANGUAGES = [
-  { code: 'en', name: 'English',    native: 'English',     status: 'active',       flag: '🇬🇧', family: 'germanic', img: 'cosyenglish.png',   has_cases: false, has_data: true  },
-  { code: 'fr', name: 'French',     native: 'Français',    status: 'active',       flag: '🇫🇷', family: 'romance',  img: 'cosyfrench.png',    has_cases: false, has_data: true  },
-  { code: 'it', name: 'Italian',    native: 'Italiano',    status: 'active',       flag: '🇮🇹', family: 'romance',  img: 'cosyitalian.png',   has_cases: false, has_data: true  },
-  { code: 'ru', name: 'Russian',    native: 'Русский',     status: 'active',       flag: '🇷🇺', family: 'slavic',   img: 'cosyrussian.png',   has_cases: true,  has_data: true  },
-  { code: 'el', name: 'Greek',      native: 'Ελληνικά',    status: 'active',       flag: '🇬🇷', family: 'hellenic', img: 'cosygreek.png',     has_cases: true,  has_data: true  },
-  { code: 'es', name: 'Spanish',    native: 'Español',     status: 'coming_soon',  flag: '🇪🇸', family: 'romance',  img: 'cosyspanish.png',   has_cases: false, has_data: true  },
-  { code: 'de', name: 'German',     native: 'Deutsch',     status: 'coming_soon',  flag: '🇩🇪', family: 'germanic', img: 'cosygerman.png',    has_cases: true,  has_data: true  },
-  { code: 'pt', name: 'Portuguese', native: 'Português',   status: 'coming_soon',  flag: '🇵🇹', family: 'romance',  img: 'cosyportugese.png', has_cases: false, has_data: true  },
-  { code: 'hy', name: 'Armenian',   native: 'Հայերեն',     status: 'coming_soon',  flag: '🇦🇲', family: 'armenian', img: 'cosyarmenian.png',  has_cases: true,  has_data: true  },
-  { code: 'ka', name: 'Georgian',   native: 'ქართული',     status: 'coming_soon',  flag: '🇬🇪', family: 'kartvelian', img: 'cosygeorgian.png', has_cases: true,  has_data: true  },
-  { code: 'tt', name: 'Tatar',      native: 'Татарча',     status: 'coming_soon',  flag: '🏴', family: 'turkic',    img: 'cosytatar.png',     has_cases: true,  has_data: true  },
-  { code: 'ba', name: 'Bashkir',    native: 'Башҡортса',   status: 'coming_soon',  flag: '🏴', family: 'turkic',    img: 'cosybachkir.png',   has_cases: true,  has_data: true  },
-  { code: 'br', name: 'Breton',     native: 'Brezhoneg',   status: 'coming_soon',  flag: '🏴', family: 'celtic',    img: 'cosybreton.png',    has_cases: false, has_data: true  },
+  { code: 'en', name: 'English',    native: 'English',     status: 'active',      icon: '🇬🇧', flag: '🇬🇧', groupLessons: true,  hasFreeVocabulary: true, family: 'germanic', img: 'cosyenglish.png',   has_cases: false, has_data: true },
+  { code: 'fr', name: 'French',     native: 'Français',    status: 'active',      icon: '🇫🇷', flag: '🇫🇷', groupLessons: true,  hasFreeVocabulary: true, family: 'romance',  img: 'cosyfrench.png',    has_cases: false, has_data: true },
+  { code: 'it', name: 'Italian',    native: 'Italiano',    status: 'active',      icon: '🇮🇹', flag: '🇮🇹', groupLessons: true,  hasFreeVocabulary: true, family: 'romance',  img: 'cosyitalian.png',   has_cases: false, has_data: true },
+  { code: 'ru', name: 'Russian',    native: 'Русский',     status: 'active',      icon: '🇷🇺', flag: '🇷🇺', groupLessons: true,  hasFreeVocabulary: true, family: 'slavic',   img: 'cosyrussian.png',   has_cases: true,  has_data: true },
+  { code: 'el', name: 'Greek',      native: 'Ελληνικά',    status: 'active',      icon: '🇬🇷', flag: '🇬🇷', groupLessons: false, hasFreeVocabulary: true, family: 'hellenic', img: 'cosygreek.png',     has_cases: true,  has_data: true },
+  { code: 'es', name: 'Spanish',    native: 'Español',     status: 'coming-soon', icon: '🇪🇸', flag: '🇪🇸', groupLessons: false, hasFreeVocabulary: true, family: 'romance',  img: 'cosyspanish.png',   has_cases: false, has_data: true },
+  { code: 'de', name: 'German',     native: 'Deutsch',     status: 'coming-soon', icon: '🇩🇪', flag: '🇩🇪', groupLessons: false, hasFreeVocabulary: true, family: 'germanic', img: 'cosygerman.png',    has_cases: true,  has_data: true },
+  { code: 'pt', name: 'Portuguese', native: 'Português',   status: 'coming-soon', icon: '🇵🇹', flag: '🇵🇹', groupLessons: false, hasFreeVocabulary: true, family: 'romance',  img: 'cosyportugese.png', has_cases: false, has_data: true },
+  { code: 'hy', name: 'Armenian',   native: 'Հայերեն',     status: 'coming-soon', icon: '🇦🇲', flag: '🇦🇲', groupLessons: false, hasFreeVocabulary: true, family: 'armenian', img: 'cosyarmenian.png',  has_cases: true,  has_data: true },
+  { code: 'ka', name: 'Georgian',   native: 'ქართული',     status: 'coming-soon', icon: '🇬🇪', flag: '🇬🇪', groupLessons: false, hasFreeVocabulary: true, family: 'kartvelian', img: 'cosygeorgian.png', has_cases: true,  has_data: true },
+  { code: 'tt', name: 'Tatar',      native: 'Татарча',     status: 'coming-soon', icon: '<span class="lang-code-badge">TT</span>', flag: 'TT', groupLessons: false, hasFreeVocabulary: true, family: 'turkic',    img: 'cosytatar.png',     has_cases: true,  has_data: true },
+  { code: 'ba', name: 'Bashkir',    native: 'Башҡортса',   status: 'coming-soon', icon: '<span class="lang-code-badge">BA</span>', flag: 'BA', groupLessons: false, hasFreeVocabulary: true, family: 'turkic',    img: 'cosybachkir.png',   has_cases: true,  has_data: true },
+  { code: 'br', name: 'Breton',     native: 'Brezhoneg',   status: 'coming-soon', icon: '<span class="lang-code-badge">BR</span>', flag: 'BR', groupLessons: false, hasFreeVocabulary: true, family: 'celtic',    img: 'cosybreton.png',    has_cases: false, has_data: true },
+  { code: 'cv', name: 'Chuvash',    native: 'Чӑвашла',     status: 'coming-soon', icon: '<span class="lang-code-badge">CV</span>', flag: 'CV', groupLessons: false, hasFreeVocabulary: true, family: 'turkic',    img: 'cosylanguages.png', has_cases: true,  has_data: true }
 ];
 
 window.COSY_LEVELS = [
@@ -80,8 +83,7 @@ window.getLangCode = function(val) {
 };
 
 /**
- * Converts a level ID (e.g. 'starter') or short code to its short code (e.g. 'A1').
- * If already a short code, returns it.
+ * Converts a level ID or short code to short code ('A1').
  */
 window.levelIdToShort = function(val) {
     if (!val) return 'A1';
@@ -97,8 +99,7 @@ window.levelIdToShort = function(val) {
 };
 
 /**
- * Converts a short code (e.g. 'A1') or level ID to its full ID (e.g. 'starter').
- * If already an ID, returns it.
+ * Converts a short code ('A1') or level ID to full ID ('starter').
  */
 window.levelShortToId = function(val) {
     if (!val) return 'starter';
@@ -113,35 +114,35 @@ window.levelShortToId = function(val) {
     return match ? match.id : 'starter';
 };
 
-/**
- * Normalises a level string/code to a standard slug (id) or short code.
- * @param {string} val - The level string to normalise.
- * @param {string} [targetType='id'] - 'id' for full ID (starter), 'short' for short code (A1).
- * @returns {string} The normalised level code.
- */
 window.getLevelCode = function(val, targetType = 'id') {
     if (targetType === 'short') return window.levelIdToShort(val);
     return window.levelShortToId(val);
 };
 
-/**
- * Normalises a level string/code to a standard uppercase short code (A1-C2).
- */
 window.normalizeLevel = function(val) {
     return window.levelIdToShort(val);
 };
 
-/**
- * Returns the directory name for a level slug.
- * Maps level IDs to short codes using COSY_LEVELS.
- */
 window.getLevelDir = function(levelId) {
     const match = (window.COSY_LEVELS || []).find(l => l.id === levelId);
     return match ? match.short : levelId.toUpperCase();
 };
 
-// Helper: get only published languages
-window.COSY_ACTIVE_LANGUAGES = window.COSY_LANGUAGES.filter(l => l.status === 'active');
+// Helper getters supporting both status conventions ('coming-soon' and 'coming_soon')
+Object.defineProperty(window, 'COSY_ACTIVE_LANGUAGES', {
+    get: function() {
+        return window.COSY_LANGUAGES.filter(l => l.status === 'active');
+    },
+    configurable: true,
+    enumerable: true
+});
 
-// Helper: get all languages that have data (active + coming-soon with content)
-window.COSY_LANGUAGES_WITH_DATA = window.COSY_LANGUAGES.filter(l => l.has_data);
+Object.defineProperty(window, 'COSY_COMING_SOON_LANGUAGES', {
+    get: function() {
+        return window.COSY_LANGUAGES.filter(l => l.status === 'coming-soon' || l.status === 'coming_soon');
+    },
+    configurable: true,
+    enumerable: true
+});
+
+window.COSY_LANGUAGES_WITH_DATA = window.COSY_LANGUAGES.filter(l => l.hasFreeVocabulary || l.has_data);

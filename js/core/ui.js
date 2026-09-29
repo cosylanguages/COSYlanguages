@@ -966,7 +966,7 @@
     class VimImage extends HTMLElement {
       connectedCallback() {
         const resId = this.getAttribute('resource-id');
-        this.innerHTML = `<img src="https://api.cosylanguages.com/assets/${resId}" style="width:100%;border-radius:10px;margin-bottom:10px;" onerror="this.src='../images/ui/placeholder.png'">`;
+        this.innerHTML = `<img src="https://api.cosylanguages.com/assets/${resId}" alt="" style="width:100%;border-radius:10px;margin-bottom:10px;" onerror="this.src='../images/ui/placeholder.png'">`;
       }
     }
 
