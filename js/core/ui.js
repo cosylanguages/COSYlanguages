@@ -1721,7 +1721,7 @@
             games_intro_title: "How to Play Language Games 🎮",
             games_intro_desc: "Welcome to the Games Arena! Challenge yourself or play with friends. Choose a game, pick a theme, and practice your speaking naturally. No pressure, just pure fun! 🚀",
             practice_intro_title: "How to Use the Practice Hub 💡",
-            practice_intro_desc: "Hone your grammar, vocabulary, and daily listening habits. Accumulate points, hit daily targets, maintain your streak, and boost your memory using our Cognitive & Immersion Accelerator! 🧠",
+            practice_intro_desc: "Hone your grammar, vocabulary, and daily listening habits. Accumulate points, hit daily targets, maintain your streak, and boost your memory using our Immersion & Memory Tools! 🧠",
             events_intro_title: "Our Speaking Club Format 🎉",
             events_intro_desc: "Join conversations about daily life, cinema, science, and philosophy! Every session runs a structured format with 10 key vocabulary cards, 10 discussion questions, and 10 agree/disagree speculative future statements. Double-click any word to save it! 🗣️",
 
