@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Course 📖 | COSYlanguages</title>
+    <meta name="description" content="All 4 skills growing together with structured CEFR-level progression. 1-to-1 and group lessons in English, French, Italian, Russian, and Greek.">
+    <link rel="canonical" href="https://cosylanguages.github.io/COSYlanguages/courses/general.html">
+    <meta property="og:title" content="General Course 📖 | COSYlanguages">
+    <meta property="og:description" content="All 4 skills growing together with structured CEFR-level progression. 1-to-1 and group lessons in English, French, Italian, Russian, and Greek.">
+    <meta property="og:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
+    <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/courses/general.html">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="General Course 📖 | COSYlanguages">
+    <meta name="twitter:description" content="All 4 skills growing together with structured CEFR-level progression.">
+    <meta name="twitter:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
+    <link rel="icon" href="../images/logos/cosylanguages.png">
+    <meta name="theme-color" content="#2d5a36">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/tokens.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/shared-nav.css">
+    <link rel="stylesheet" href="../css/cosy-icons.css">
+
+    <style>
+      :root {
+        --course-accent: #2d5a36;
+      }
+      .course-detail-wrap {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 2rem 1.5rem 4rem;
+      }
+      .course-breadcrumb {
+        font-size: 0.9rem;
+        color: var(--ink-soft);
+        margin-bottom: 1.5rem;
+      }
+      .course-breadcrumb a {
+        color: var(--course-accent);
+        text-decoration: none;
+      }
+      .course-breadcrumb a:hover {
+        text-decoration: underline;
+      }
+      .course-hero {
+        background: var(--warm-white, #FAF7F2);
+        border: 1px solid var(--border, #E2DCD5);
+        border-left: 6px solid var(--course-accent);
+        border-radius: var(--r-md, 12px);
+        padding: 2.5rem 2rem;
+        margin-bottom: 2.5rem;
+      }
+      .course-hero h1 {
+        font-family: var(--font-heading, 'Fraunces', serif);
+        font-size: 2.2rem;
+        color: var(--ink);
+        margin-bottom: 0.75rem;
+      }
+      .course-hero .promise {
+        font-size: 1.25rem;
+        color: var(--ink-soft);
+        line-height: 1.5;
+        margin-bottom: 1.75rem;
+      }
+      .hero-cta-btns {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+      }
+      .btn-accent {
+        background: var(--course-accent);
+        color: #ffffff;
+        padding: 0.75rem 1.5rem;
+        border-radius: var(--r-sm, 8px);
+        font-weight: 700;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        transition: opacity 0.2s;
+      }
+      .btn-accent:hover {
+        opacity: 0.9;
+        color: #ffffff;
+      }
+      .course-section {
+        background: #ffffff;
+        border: 1px solid var(--border, #E2DCD5);
+        border-radius: var(--r-md, 12px);
+        padding: 2rem;
+        margin-bottom: 2rem;
+      }
+      .course-section h2 {
+        font-family: var(--font-heading, 'Fraunces', serif);
+        font-size: 1.4rem;
+        color: var(--ink);
+        margin-bottom: 1rem;
+        border-bottom: 2px solid rgba(0,0,0,0.06);
+        padding-bottom: 0.5rem;
+      }
+      .course-section ul {
+        padding-left: 1.25rem;
+        margin: 0;
+      }
+      .course-section li {
+        margin-bottom: 0.5rem;
+        line-height: 1.6;
+        color: var(--ink-soft);
+      }
+      .course-section p {
+        line-height: 1.6;
+        color: var(--ink-soft);
+        margin-bottom: 0.75rem;
+      }
+      .student-portal-box {
+        background: #f0f4f1;
+        border: 1px dashed var(--course-accent);
+        border-radius: var(--r-md, 12px);
+        padding: 1.25rem 1.5rem;
+        text-align: center;
+        margin-bottom: 2.5rem;
+      }
+      .student-portal-box a {
+        color: var(--course-accent);
+        font-weight: 700;
+        text-decoration: none;
+      }
+      .student-portal-box a:hover {
+        text-decoration: underline;
+      }
+      .course-nav-links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 1rem;
+        border-top: 1px solid var(--border, #E2DCD5);
+      }
+      .course-nav-links a {
+        color: var(--course-accent);
+        font-weight: 600;
+        text-decoration: none;
+      }
+      .course-nav-links a:hover {
+        text-decoration: underline;
+      }
+    </style>
+</head>
+<body>
+
+<a href="#main-content" class="skip-link" style="position:absolute;left:-9999px;top:1rem;z-index:9999;padding:0.5rem 1rem;background:#fff;color:#000;" onfocus="this.style.left='1rem'" onblur="this.style.left='-9999px'">Skip to main content</a>
+
+<nav id="cosy-nav" aria-label="Main navigation"></nav>
+
+<main id="main-content" class="course-detail-wrap">
+  <!-- 1. Breadcrumb -->
+  <div class="course-breadcrumb">
+    <a href="../index.html">Home</a> / <a href="index.html">Courses</a> / <span>General Course</span>
+  </div>
+
+  <!-- 2. Hero -->
+  <section class="course-hero">
+    <h1>General Course 📖</h1>
+    <p class="promise">All 4 skills growing together, structured CEFR-level progression.</p>
+    <div class="hero-cta-btns">
+      <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20the%20General%20Course." class="btn-accent" target="_blank" rel="noopener">💬 Message us on WhatsApp</a>
+      <a href="../index.html#calculator" class="btn-secondary">See prices</a>
+    </div>
+  </section>
+
+  <!-- 3. Who it's for -->
+  <section class="course-section">
+    <h2>Who it's for</h2>
+    <p>Learners looking for a balanced, comprehensive foundation across listening, speaking, reading, and writing.</p>
+    <p>Ideal for beginners building confidence or intermediate students seeking structured CEFR progression from Starter (A1) to Professor (C2).</p>
+    <!-- TODO: needs content from owner -->
+  </section>
+
+  <!-- 4. What you'll do -->
+  <section class="course-section">
+    <h2>What you'll do</h2>
+    <ul>
+      <li>Develop all four core language competencies through communicative, real-world tasks.</li>
+      <li>Master core grammar and vocabulary seamlessly in context through guided discovery.</li>
+      <li>Engage in interactive conversation from session one to ensure immediate oral application.</li>
+      <li>Track progress transparently through structured CEFR-aligned learning objectives.</li>
+    </ul>
+    <!-- TODO: needs content from owner -->
+  </section>
+
+  <!-- 5. Languages -->
+  <section class="course-section">
+    <h2>Languages</h2>
+    <p>Available in <strong>English</strong> (taught since 2020), <strong>French</strong> (since 2022), <strong>Italian</strong> (since 2022), <strong>Russian</strong> (since 2022), and <strong>Greek</strong> (since 2025).</p>
+    <p>👥 <strong>Group lessons:</strong> Available in English, French, Italian, and Russian.</p>
+  </section>
+
+  <!-- 6. How lessons work -->
+  <section class="course-section">
+    <h2>How lessons work</h2>
+    <p>Lessons are conducted 1-to-1 (or in small group cohorts) with a strict speaking-first methodology where at least 40% of every lesson is active speaking.</p>
+    <p><strong>Durations offered:</strong> 60 minutes or 90 minutes.</p>
+  </section>
+
+  <!-- 7. Small box at bottom -->
+  <div class="student-portal-box">
+    🎓 <strong>Already a student?</strong> <a href="https://cosylanguages.github.io/COSYplatform/" target="_blank" rel="noopener">Go to your course platform →</a>
+  </div>
+
+  <!-- 8. Link to next/previous course and back to /courses/ -->
+  <nav class="course-nav-links" aria-label="Course pagination">
+    <a href="relocation.html">← Previous: Relocation Course</a>
+    <a href="index.html">All Courses 📚</a>
+    <a href="spoken.html">Next: Spoken Course →</a>
+  </nav>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="fb-logo">
+        <img src="../images/logos/cosylanguages.png" alt="COSYlanguages logo" loading="lazy" decoding="async" width="38" height="38">
+        <span class="fb-name">COSYlanguages</span>
+      </div>
+      <p data-translate-key="footer_fb_p">Your friendly corner to master new languages and connect with the world. 🌍</p>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_courses">Courses</h3>
+      <a href="index.html">All Courses 📖</a>
+      <a href="general.html" data-translate-key="course_general">General Course</a>
+      <a href="spoken.html" data-translate-key="course_spoken">Spoken Course</a>
+      <a href="exam-preparation.html" data-translate-key="course_exam">Exam Preparation</a>
+      <a href="travelling.html" data-translate-key="course_travelling">Travelling Course</a>
+      <a href="professional.html" data-translate-key="course_professional">Professional Course</a>
+      <a href="relocation.html" data-translate-key="course_relocation">Relocation Course</a>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_explore">Explore</h3>
+      <a href="https://cosylanguages.github.io/COSYmanuals/" target="_blank" rel="noopener">Manuals Hub 🔒 (for students)</a>
+      <a href="../comparative/index.html">Grammar Atlas 🌐</a>
+      <a href="../placement-quiz.html">Placement Quiz 📝</a>
+      <a href="../hybrid/index.html">Hybrid &amp; Community 🌿</a>
+      <a href="../blog/index.html">Blog &amp; Top 100 📝</a>
+      <a href="../apps/index.html">Reference Engines 🔎</a>
+    </div>
+    <div class="footer-links-col">
+      <h3>Project</h3>
+      <a href="../index.html#how">Our Story 🏡</a>
+      <a href="../privacy.html">Privacy &amp; Safety 🛡️</a>
+    </div>
+    <div class="footer-links-col">
+      <h3 data-translate-key="footer_h5_contact">Contact</h3>
+      <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+      <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+      <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2020–2026 COSYlanguages, All rights reserved</div>
+</footer>
+
+<script src="../js/data/languages.js"></script>
+<script src="../js/core/engine.js"></script>
+<script src="../js/core/i18n.js"></script>
+<script src="../js/core/ui.js"></script>
+</body>
+</html>
