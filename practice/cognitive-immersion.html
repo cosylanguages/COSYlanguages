@@ -71,7 +71,7 @@
             margin-bottom: 2rem;
         }
 
-        /* ── Palteca Method Checklist ── */
+        /* ── Monolingual Immersion Checklist ── */
         .planner-grid {
             display: grid;
             grid-template-columns: 1.2fr 0.8fr;
@@ -639,6 +639,7 @@
             to { opacity: 1; transform: translateY(0); }
         }
     </style>
+    <link rel="canonical" href="https://cosylanguages.github.io/COSYlanguages/practice/cognitive-immersion.html">
 </head>
 <body>
 
@@ -655,17 +656,17 @@
     <div class="hero-badge">Neuro-Linguistics Hub</div>
     <h1>Immersion &amp; Memory Tools</h1>
     <p class="hero-sub hero-sub-constrained">
-        A scientifically structured exploration of monolingual language learning, spaced repetition curves, visual memory mapping, and cognitive brain-type adaptors. Learn directly without translation fallback.
+        An interactive exploration of monolingual language learning, spaced repetition curves, visual memory mapping, and cognitive brain-type adaptors. Learn directly without translation fallback.
     </p>
 </header>
 
 <main class="cognitive-container" role="main">
 
-    <!-- Section 1: The Palteca Method & Full Immersion -->
+    <!-- Section 1: Full Monolingual Immersion -->
     <section class="cog-section">
-        <h2 class="cog-section-title">🌊 Full Monolingual Immersion (The Palteca Method)</h2>
+        <h2 class="cog-section-title">🌊 Full Monolingual Immersion</h2>
         <p class="cog-section-desc">
-            Traditional learning treats a foreign language as a code that must be decoded back into your first language (L1). The <strong>Palteca Method</strong> operates entirely on direct concept assimilation. Instead of learning that <em>mela</em> is the translation of "apple", your brain immediately maps the auditory sound <strong>/ˈmela/</strong> directly to the crisp, sweet fruit 🍎 itself. By doing this, you entirely bypass L1 cognitive translation, resulting in instant natural recall.
+            Traditional learning treats a foreign language as a code that must be decoded back into your first language (L1). Direct concept assimilation operates entirely on target-language mapping. Instead of learning that <em>mela</em> is the translation of "apple", your brain maps the auditory sound <strong>/ˈmela/</strong> directly to the crisp, sweet fruit 🍎 itself. By doing this, you bypass L1 cognitive translation for more natural recall.
         </p>
 
         <div class="planner-grid">
@@ -772,7 +773,7 @@
 
                     <div class="sim-track" id="track-monolingual">
                         <div class="sim-track-title text-sage-dark">
-                            <span>Monolingual Route (Palteca)</span>
+                            <span>Direct route (target language only)</span>
                             <span id="timer-mono">0.0s</span>
                         </div>
                         <ul class="sim-steps">
@@ -1372,11 +1373,18 @@
 
                 // Show summary
                 summaryBox.style.display = 'block';
-                const difference = (config.transEnd - config.monoEnd).toFixed(1);
+                const diffVal = (config.transEnd - config.monoEnd);
+                const difference = diffVal.toFixed(1);
+                let speedMsg = "";
+                if (diffVal > 0) {
+                    speedMsg = `In this quick test, the direct route was <strong>${difference} seconds faster</strong> than translating.`;
+                } else {
+                    speedMsg = `In this quick test, the direct route and translation route completed with comparable times.`;
+                }
                 summaryBox.innerHTML = `
                     🎉 <strong>Simulation Finished!</strong><br>
-                    The Palteca direct-immersion route was <strong>${difference} seconds faster</strong> than translating!<br>
-                    <span class="ci-subtitle">Direct concept mapping eliminates the awkward conversation gap completely.</span>
+                    ${speedMsg}<br>
+                    <span class="ci-subtitle">Direct concept mapping helps streamline your conversational recall.</span>
                 `;
             }
         }, 100);
@@ -1488,14 +1496,14 @@
         let feedbackDesc = "";
 
         if (correctCount === 5 && overallScore < 4.0) {
-            feedbackTitle = "⚡ Neuro-Linguistic God! ⚡";
-            feedbackDesc = `Your raw reaction average is ${(totalReactionTime/5).toFixed(2)}s per word with 100% accuracy. You are bypassing L1 translations completely and wiring words directly to physical concepts. Keep this up!`;
+            feedbackTitle = "⚡ Fast Direct Recall! ⚡";
+            feedbackDesc = `Your raw reaction average is ${(totalReactionTime/5).toFixed(2)}s per word with 100% accuracy. You are bypassing L1 translations completely and connecting words directly to physical concepts. Keep this up!`;
         } else if (correctCount >= 4 && overallScore < 7.0) {
             feedbackTitle = "🌊 Fluent Concept Synthesizer 🌊";
-            feedbackDesc = `Average reaction time is ${(totalReactionTime/5).toFixed(2)}s. You're exhibiting quick direct-concept comprehension with minor cognitive latency. Fantastic work!`;
+            feedbackDesc = `Average reaction time is ${(totalReactionTime/5).toFixed(2)}s. You're exhibiting quick direct-concept comprehension. Fantastic work!`;
         } else {
             feedbackTitle = "🐢 Translation Fallback Zone 🐢";
-            feedbackDesc = `Average overall speed is ${(overallScore/5).toFixed(2)}s (including penalties). Your brain is likely running dictionary search algorithms translating back to English. Flip more devices to your target language using our Palteca Checklist above!`;
+            feedbackDesc = `Average overall speed is ${(overallScore/5).toFixed(2)}s (including penalties). Your brain is likely running dictionary search algorithms translating back to English. Flip more devices to your target language using our Digital Immersion Checklist above!`;
         }
 
         document.getElementById('speedtest-results-title').textContent = feedbackTitle;
@@ -1583,9 +1591,9 @@
             ]
         },
         "5": {
-            label: "Spaced Repetition Mastery (Intervals: 1, 3, 7, 14, 30)",
-            title: "Spaced Repetition Mastery Curve 🚀",
-            desc: "Perfect Spaced Repetition Mastery! Every review hits right at the optimal forgetting threshold, flattening the forgetting curve and keeping retention above 95% permanently.",
+            label: "Spaced Repetition Practice (Intervals: 1, 3, 7, 14, 30)",
+            title: "Spaced Repetition Curve 🚀",
+            desc: "Iterative spaced repetition practice reinforces recall over time, strengthening memory retention across scheduled review intervals.",
             color: "var(--sage-dark)",
             path: "M 50,20 L 135,20 L 220,25 L 305,20 L 390,25 L 475,20",
             dots: [

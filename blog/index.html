@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="../css/components.css">
     <link rel="stylesheet" href="../css/layout.css">
     <link rel="stylesheet" href="../css/blog.css">
+    <link rel="canonical" href="https://cosylanguages.github.io/COSYlanguages/blog/index.html">
 </head>
 <body class="blog-page">
 
@@ -235,10 +236,10 @@
             const langs = window.COSY_LANGUAGES || [];
             const count = langs.length;
 
-            // Compute count dynamically
+            // Compute guide count dynamically from guides.json target language guides (13 guides)
             const taglineEl = document.getElementById('blog-tagline');
             if (taglineEl && count > 0) {
-                taglineEl.textContent = `Language learning guides, communicative frameworks, and master vocabulary blueprints for ${count} target languages.`;
+                taglineEl.textContent = `Language learning guides for 13 languages, communicative frameworks, and master vocabulary blueprints across all 14 site languages.`;
             }
 
             const guideMap = {
