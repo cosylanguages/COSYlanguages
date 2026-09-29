@@ -54,7 +54,12 @@
     }
 
     function renderChallenge() {
-        if (!currentChallenge) return;
+        const promptEl = document.getElementById('speakingPrompt');
+
+        if (!currentChallenge || !currentChallenge.levels || !currentChallenge.levels[currentLevel]) {
+            if (promptEl) promptEl.textContent = "Today's prompt is unavailable right now. Try again in a moment.";
+            return;
+        }
 
         document.getElementById('typeBadge').textContent = currentChallenge.title.split(' ')[0] + ' Challenge';
         document.getElementById('cardNum').textContent = '#' + currentChallenge.id;
@@ -62,13 +67,13 @@
         document.getElementById('challengeSubtitle').textContent = currentChallenge.subtitle;
 
         const levelData = currentChallenge.levels[currentLevel];
-        document.getElementById('speakingPrompt').textContent = levelData.prompt;
-        document.getElementById('speakingTip').textContent = '💡 Tip: ' + levelData.tip;
+        if (promptEl) promptEl.textContent = levelData?.prompt || "Today's prompt is unavailable right now. Try again in a moment.";
+        document.getElementById('speakingTip').textContent = '💡 Tip: ' + (levelData?.tip || 'Focus on practice and consistency.');
 
         document.getElementById('microLabel').textContent = 'Micro-task';
-        document.getElementById('microTitle').textContent = levelData.micro.title;
-        document.getElementById('microInstruction').textContent = levelData.micro.instruction;
-        document.getElementById('microExample').textContent = 'Example: ' + levelData.micro.example;
+        document.getElementById('microTitle').textContent = levelData?.micro?.title || 'Quick Drill';
+        document.getElementById('microInstruction').textContent = levelData?.micro?.instruction || '';
+        document.getElementById('microExample').textContent = levelData?.micro?.example ? ('Example: ' + levelData.micro.example) : '';
     }
 
     function updateUI() {

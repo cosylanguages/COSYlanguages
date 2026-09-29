@@ -817,6 +817,7 @@
             const errorMsg = document.getElementById('setup-error-msg');
             if (errorMsg) {
                 errorMsg.style.display = 'flex';
+                errorMsg.removeAttribute('hidden');
                 errorMsg.classList.remove('error-banner-hidden');
                 errorMsg.scrollIntoView({ behavior: 'smooth', block: 'center' });
             } else {
@@ -833,6 +834,7 @@
         const errorMsg = document.getElementById('setup-error-msg');
         if (errorMsg) {
             errorMsg.style.display = 'none';
+            errorMsg.setAttribute('hidden', '');
             errorMsg.classList.add('error-banner-hidden');
         }
 

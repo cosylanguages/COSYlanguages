@@ -603,6 +603,20 @@
                 const pct = Math.min(s.streak / 30, 1);
                 arc.style.strokeDashoffset = 226 - (226 * pct);
             }
+
+            // Empty-state stats check
+            const statsGridEl = document.getElementById('stats-summary-grid');
+            const statsEmptyEl = document.getElementById('stats-empty-state');
+            if (statsGridEl && statsEmptyEl) {
+                const hasHistory = (s.sessions && s.sessions > 0) || (s.history && s.history.length > 0);
+                if (hasHistory) {
+                    statsGridEl.style.display = 'flex';
+                    statsEmptyEl.style.display = 'none';
+                } else {
+                    statsGridEl.style.display = 'none';
+                    statsEmptyEl.style.display = 'block';
+                }
+            }
         },
 
         populateRecentAndMistakes() {
@@ -982,8 +996,11 @@
             if (document.getElementById('final-total-score')) document.getElementById('final-total-score').textContent = s.totalPts;
             if (document.getElementById('final-streak')) document.getElementById('final-streak').textContent = s.streak;
 
-            const accuracyPct = Math.round((sess.correctCount / Math.max(1, sess.sessionQueue.length)) * 100);
-            if (document.getElementById('final-accuracy')) document.getElementById('final-accuracy').textContent = `${accuracyPct}%`;
+            const totalAnswered = sess.currentIndex;
+            const accuracyStr = (totalAnswered > 0 && sess.sessionQueue.length > 0)
+                ? `${Math.round((sess.correctCount / totalAnswered) * 100)}%`
+                : '—';
+            if (document.getElementById('final-accuracy')) document.getElementById('final-accuracy').textContent = accuracyStr;
 
             // Update Speaking Club Bridge Card dynamically based on theme
             const bridgeTitleEl = document.getElementById('bridge-card-title');
