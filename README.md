@@ -33,7 +33,7 @@ https://cosylanguages.github.io/COSYlanguages/
 No translation fallback. If the platform is in Greek, everything is in Greek. If in English, everything is in English. Navigation is aided by emojis and icons, not by translation.
 
 ## Platform Status
-The multi-user system (student/teacher portals) has been deprecated in favor of a visitor-first, public-access learning platform. This repository is 100% free and open-access. Paid courses and events are built and hosted separately in `COSYplatform` and `COSYevents` respectively.
+This repository is free and open-access. Student, teacher and founder sign-in (login.html, Supabase) leads to COSYplatform and COSYmanuals, which are separate repositories. Paid courses and events are built and hosted separately in `COSYplatform` and `COSYevents` respectively.
 
 ## COSY Passport (Progress Backup & Sync)
 
