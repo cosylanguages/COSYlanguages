@@ -6,7 +6,7 @@
       <li><a href="https://cosylanguages.github.io/COSYlanguages/" class="cosy-strip-link active">COSYlanguages</a></li>
       <li><a href="https://cosylanguages.github.io/COSYtools/" target="_blank" rel="noopener" class="cosy-strip-link">COSYtools 🔎</a></li>
       <li><a href="https://cosylanguages.github.io/COSYgames/" target="_blank" rel="noopener" class="cosy-strip-link">COSYgames 🎮</a></li>
-      <li><a href="apps/premium-events/index.html" target="_blank" rel="noopener" class="cosy-strip-link">COSYevents 🎉</a></li>
+      <li><a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="cosy-strip-link">COSYevents 🎉</a></li>
     </ul>
   </div>
 </nav>
@@ -18,29 +18,35 @@
   </a>
 
   <ul class="cosy-nav-menu" role="menubar">
-    <li role="none"><a href="index.html#languages" class="cosy-nav-link" role="menuitem">Languages 🌍</a></li>
     <li role="none"><a href="index.html#courses" class="cosy-nav-link" role="menuitem">Courses 📚</a></li>
+    <li role="none"><a href="index.html#languages" class="cosy-nav-link" role="menuitem">Languages 🌍</a></li>
     <li role="none"><a href="practice/index.html" class="cosy-nav-link" role="menuitem">Practice 💡</a></li>
-    <li role="none"><a href="https://cosylanguages.github.io/COSYtools/" class="cosy-nav-link" target="_blank" rel="noopener" role="menuitem">Tools 🔎</a></li>
     <li role="none"><a href="https://cosylanguages.github.io/COSYgames/" class="cosy-nav-link" target="_blank" rel="noopener" role="menuitem">Games 🎮</a></li>
-    <li role="none"><a href="apps/premium-events/index.html" class="cosy-nav-link" target="_blank" rel="noopener" role="menuitem">Events 🎉</a></li>
-    <li role="none"><a href="placement-quiz.html" class="cosy-nav-link" role="menuitem">Placement Quiz 📝</a></li>
-    <li role="none"><a href="index.html#calculator" class="cosy-nav-link" role="menuitem">Calculator 🧮</a></li>
     <li role="none"><a href="blog/index.html" class="cosy-nav-link" role="menuitem">Blog 📰</a></li>
-    <li role="none"><a href="index.html#start" class="cosy-nav-link" role="menuitem">Join 🤝</a></li>
+    <li role="none" class="cosy-nav-more-wrap">
+      <button type="button" class="cosy-nav-more-btn" aria-expanded="false" aria-controls="cosy-nav-more-menu" onclick="if(window.COSY && window.COSY.toggleMoreMenu) window.COSY.toggleMoreMenu(this)">More ▾</button>
+      <ul id="cosy-nav-more-menu" class="cosy-nav-more-dropdown" role="menu">
+        <li role="none"><a href="https://cosylanguages.github.io/COSYtools/" class="cosy-nav-link" target="_blank" rel="noopener" role="menuitem">Tools 🔎</a></li>
+        <li role="none"><a href="https://cosylanguages.github.io/COSYevents/" class="cosy-nav-link" target="_blank" rel="noopener" role="menuitem">Events 🎉</a></li>
+        <li role="none"><a href="placement-quiz.html" class="cosy-nav-link" role="menuitem">Placement Quiz 📝</a></li>
+        <li role="none"><a href="index.html#calculator" class="cosy-nav-link" role="menuitem">Calculator 🧮</a></li>
+      </ul>
+    </li>
   </ul>
 
   <div class="cosy-nav-actions">
     <div class="cosy-lang-lock-wrap" style="display:inline-flex; align-items:center; gap:4px;">
-      <select id="cosy-ui-lang-switcher" class="cosy-lang-select" onchange="if(window.setLanguage)window.setLanguage(this.value)" aria-label="Interface Language">
+      <select id="cosy-ui-lang-switcher" class="cosy-lang-select" onchange="if(window.setLanguage)window.setLanguage(this.value)" aria-label="Select Interface Language">
         <option value="en">🇬🇧 EN</option>
         <option value="fr">🇫🇷 FR</option>
         <option value="it">🇮🇹 IT</option>
         <option value="ru">🇷🇺 RU</option>
         <option value="el">🇬🇷 EL</option>
       </select>
-      <button id="cosy-ui-lang-lock-btn" type="button" onclick="if(window.toggleLanguageLock)window.toggleLanguageLock()" class="cosy-lang-lock-btn" title="Lock language on this device" aria-label="Toggle Language Lock" style="background:none; border:1px solid var(--cosy-color-border, rgba(74, 107, 80, 0.12)); border-radius:var(--cosy-radius-sm, 6px); padding:4px 6px; font-size:0.85rem; height:32px; cursor:pointer; display:inline-flex; align-items:center; justify-content:center;">🔓</button>
+      <button id="cosy-ui-lang-lock-btn" type="button" onclick="if(window.toggleLanguageLock)window.toggleLanguageLock()" class="cosy-lang-lock-btn" title="Pin interface language on this device." aria-label="Pin interface language on this device." style="background:none; border:1px solid var(--cosy-color-border, rgba(74, 107, 80, 0.12)); border-radius:var(--cosy-radius-sm, 6px); padding:2px 4px; font-size:0.75rem; height:28px; cursor:pointer; display:inline-flex; align-items:center; justify-content:center;">📌</button>
     </div>
+    <button type="button" class="cosy-theme-btn" aria-label="Toggle Theme" onclick="if(window.toggleTheme)window.toggleTheme()">🌙</button>
+    <a href="login.html" class="cosy-nav-link cosy-nav-login" role="menuitem">🔐 Log in</a>
     <a href="https://wa.me/330766784195" class="cosy-nav-cta" target="_blank" rel="noopener">💬 Contact Us</a>
     <button type="button" class="cosy-hamburger-btn" aria-label="Toggle Navigation Menu" aria-expanded="false" onclick="const d=document.getElementById('cosy-nav-drawer'); if(d){ d.classList.toggle('open'); this.setAttribute('aria-expanded', d.classList.contains('open')); }">
       ☰
@@ -51,14 +57,26 @@
 <!-- Mobile Navigation Drawer -->
 <nav id="cosy-nav-drawer" class="cosy-mobile-drawer" aria-label="Mobile Navigation Drawer">
   <a href="index.html" class="cosy-nav-link">Home 🏡</a>
-  <a href="index.html#languages" class="cosy-nav-link">Languages 🌍</a>
   <a href="index.html#courses" class="cosy-nav-link">Courses 📚</a>
+  <a href="index.html#languages" class="cosy-nav-link">Languages 🌍</a>
   <a href="practice/index.html" class="cosy-nav-link">Practice 💡</a>
-  <a href="https://cosylanguages.github.io/COSYtools/" class="cosy-nav-link" target="_blank" rel="noopener">Tools 🔎</a>
   <a href="https://cosylanguages.github.io/COSYgames/" class="cosy-nav-link" target="_blank" rel="noopener">Games 🎮</a>
-  <a href="apps/premium-events/index.html" class="cosy-nav-link" target="_blank" rel="noopener">Events 🎉</a>
+  <a href="blog/index.html" class="cosy-nav-link">Blog 📰</a>
+  <a href="https://cosylanguages.github.io/COSYtools/" class="cosy-nav-link" target="_blank" rel="noopener">Tools 🔎</a>
+  <a href="https://cosylanguages.github.io/COSYevents/" class="cosy-nav-link" target="_blank" rel="noopener">Events 🎉</a>
   <a href="placement-quiz.html" class="cosy-nav-link">Placement Quiz 📝</a>
   <a href="index.html#calculator" class="cosy-nav-link">Calculator 🧮</a>
-  <a href="blog/index.html" class="cosy-nav-link">Blog 📰</a>
-  <a href="index.html#start" class="cosy-nav-link">Join 🤝</a>
+  <a href="login.html" class="cosy-nav-link">🔐 Log in</a>
+
+  <div class="mm-divider" style="height: 1px; background: var(--border, rgba(74, 107, 80, 0.12)); margin: 8px 0;"></div>
+
+  <div class="cosy-mobile-eco-section" style="padding: 4px 12px;">
+    <span class="cosy-mobile-eco-title" style="font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-soft, #666); display: block; margin-bottom: 6px;">COSY ecosystem</span>
+    <div style="display: flex; flex-direction: column; gap: 4px;">
+      <a href="index.html" class="cosy-nav-link active">COSYlanguages</a>
+      <a href="https://cosylanguages.github.io/COSYtools/" target="_blank" rel="noopener" class="cosy-nav-link">COSYtools 🔎</a>
+      <a href="https://cosylanguages.github.io/COSYgames/" target="_blank" rel="noopener" class="cosy-nav-link">COSYgames 🎮</a>
+      <a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="cosy-nav-link">COSYevents 🎉</a>
+    </div>
+  </div>
 </nav>
