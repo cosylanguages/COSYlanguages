@@ -96,5 +96,5 @@ Observez la différence dans un échange réel :
 > **Avant (Niveau B1 répétitif) :**
 > *"Je pense que ce projet est bon. Je suis d'accord avec vous, mais ça dépend du budget. Dans le futur, je veux faire ça."*
 
-> **После (Niveau B2 fluide) :**
+> **Après (Niveau B2 fluide) :**
 > *"À mon avis, ce projet est particulièrement réussi. Je partage entièrement votre avis, même si tout dépend du budget. À l'avenir, j'envisage de concrétiser cette idée."*

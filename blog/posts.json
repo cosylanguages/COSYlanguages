@@ -1,5 +1,110 @@
 [
   {
+    "slug": "stop-translating-10-sentence-frames-el",
+    "title": "Σταματήστε τη μετάφραση! 10 επαναχρησιμοποιήσιμες δομές προτάσεων για να μιλάτε από την πρώτη μέρα",
+    "date": "2026-09-14",
+    "updated": null,
+    "category": "Resource List",
+    "summary": "Μάθετε 10 βασικές δομές προτάσεων και 20 φράσεις επιβίωσης για να καταργήσετε τη μετάφραση λέξη προς λέξη, να περιγράφετε κάθε άγνωστη λέξη και να σκέφτεστε απευθείας στη γλώσσα.",
+    "author": "JY DM",
+    "reading_time": 3,
+    "cover_image": "",
+    "tags": [
+      "SentenceFrames",
+      "Circumlocution",
+      "Fluency",
+      "A0-B1",
+      "Greek"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "stop-translating-10-sentence-frames-el.html"
+  },
+  {
+    "slug": "stop-translating-10-sentence-frames-fr",
+    "title": "Arrêtez de traduire ! 10 structures de phrases réutilisables pour parler dès le premier jour",
+    "date": "2026-09-14",
+    "updated": null,
+    "category": "Resource List",
+    "summary": "Maîtrisez 10 structures de phrases indispensables et 20 phrases de survie pour éliminer la traduction mot à mot, décrire n'importe quel mot oublié et penser directement en langue cible.",
+    "author": "JY DM",
+    "reading_time": 4,
+    "cover_image": "",
+    "tags": [
+      "SentenceFrames",
+      "Circumlocution",
+      "Fluency",
+      "A0-B1",
+      "French"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "stop-translating-10-sentence-frames-fr.html"
+  },
+  {
+    "slug": "stop-translating-10-sentence-frames-it",
+    "title": "Basta tradurre! 10 strutture di frasi riutilizzabili per parlare fin dal primo giorno",
+    "date": "2026-09-14",
+    "updated": null,
+    "category": "Resource List",
+    "summary": "Impara 10 strutture di frasi fondamentali e 20 frasi di sopravvivenza per eliminare la traduzione parola per parola, descrivere qualsiasi parola dimenticata e pensare direttamente in lingua.",
+    "author": "JY DM",
+    "reading_time": 4,
+    "cover_image": "",
+    "tags": [
+      "SentenceFrames",
+      "Circumlocution",
+      "Fluency",
+      "A0-B1",
+      "Italian"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "stop-translating-10-sentence-frames-it.html"
+  },
+  {
+    "slug": "stop-translating-10-sentence-frames-ru",
+    "title": "Хватит переводить! 10 универсальных фраз-шаблонов для разговорной речи с первого дня",
+    "date": "2026-09-14",
+    "updated": null,
+    "category": "Resource List",
+    "summary": "Освойте 10 ключевых речевых шаблонов и 20 фраз выживания, чтобы избавиться от пословного перевода, научиться объяснять любые забытые слова и начать думать на изучаемом языке.",
+    "author": "JY DM",
+    "reading_time": 3,
+    "cover_image": "",
+    "tags": [
+      "SentenceFrames",
+      "Circumlocution",
+      "Fluency",
+      "A0-B1",
+      "Russian"
+    ],
+    "featured": false,
+    "type": "post",
+    "url": "stop-translating-10-sentence-frames-ru.html"
+  },
+  {
+    "slug": "stop-translating-10-sentence-frames",
+    "title": "Stop Translating! 10 Reusable Sentence Frames That Let You Speak From Day One",
+    "date": "2026-09-14",
+    "updated": null,
+    "category": "Resource List",
+    "summary": "Master 10 reusable sentence frames and 20 survival phrases that eliminate word-for-word translation, allowing beginners and intermediate learners to describe anything and think directly in English.",
+    "author": "JY DM",
+    "reading_time": 8,
+    "cover_image": "",
+    "tags": [
+      "SentenceFrames",
+      "Circumlocution",
+      "Fluency",
+      "A0-B1",
+      "Communication"
+    ],
+    "featured": true,
+    "type": "post",
+    "url": "stop-translating-10-sentence-frames.html"
+  },
+  {
     "slug": "replace-50-overused-phrases-el",
     "title": "Σταματήστε να επαναλαμβάνετε αυτές τις 50 φράσεις! Φυσικές εναλλακτικές για το B1–B2",
     "date": "2026-09-13",

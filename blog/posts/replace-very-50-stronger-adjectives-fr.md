@@ -21,7 +21,7 @@ Voici 50 alternatives indispensables aux associations avec *"très"*.
 
 | Au lieu de... | Privilégiez... |
 | :--- | :--- |
-| **Très mauvais** | *atrace, terrible, détestable* |
+| **Très mauvais** | *atroce, terrible, détestable* |
 | **Très bon** | *excellent, remarquable, formidable* |
 | **Très grand** | *immense, gigantesque, colossal* |
 | **Très petit** | *minuscule, infime, minuscule* |
