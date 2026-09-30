@@ -8,7 +8,9 @@
     "shared"
   ],
   "scripts": {
-    "test": "playwright test"
+    "test": "playwright test",
+    "sync:footer": "node scripts/sync-footer.js",
+    "check:footer": "node scripts/check-footer.js"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.12.1",
