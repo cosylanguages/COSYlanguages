@@ -17,9 +17,10 @@ COSYlanguages does **not** collect, store, or track any student or teacher data.
 To protect our open-source ecosystem, the following security standards must be strictly maintained in our GitHub repository:
 
 ### A. Environment & Secret Management
-*   **Never Hardcode Secrets:** All external API endpoints, keys, and configurations (such as temporary testing databases or future integration credentials) must be managed using **GitHub Secrets**.
-*   **Secret Injection at Deploy Time:** Credentials must only be injected dynamically during the deployment build process (as implemented in `.github/workflows/deploy.yml` using `${{ secrets.COSY_SUPABASE_URL }}`).
-*   **Secret Scanning:** Enable GitHub Secret Scanning under repository settings to automatically scan for accidentally committed keys, tokens, or personal identifiers.
+*   **API & Key Security:** Publishable / anonymous keys (such as Supabase anon keys) may be public, but administrative and service role keys must never be committed to the repository.
+*   **Access Rules in Supabase RLS:** Platform access control, table security, and authorization rules live in Supabase Row Level Security (RLS) policies rather than client-side secrecy.
+*   **Secret Injection at Deploy Time:** Credentials and configuration values are injected dynamically during the deployment build process (as implemented in `.github/workflows/deploy.yml` using `${{ secrets.COSY_SUPABASE_URL }}`).
+*   **Secret Scanning:** Enable GitHub Secret Scanning under repository settings to automatically scan for accidentally committed service keys, tokens, or personal identifiers.
 
 ### B. Branch Protections & Access Control
 *   **Protected `main` Branch:** Direct pushes to the `main` branch should be restricted. All code changes must proceed through Pull Requests (PRs).
