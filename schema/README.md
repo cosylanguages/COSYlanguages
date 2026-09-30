@@ -46,7 +46,7 @@ This directory contains JSON Schema (Draft-07) specifications for structured ped
 ---
 
 ### 3. CELTA Lesson Stage Units (`lesson-stage.schema.json`)
-- **Purpose**: Structuring CELTA-style communicative lesson stages combining lead-in context, meaning check (CCQs), form clarification, pronunciation drilling, controlled practice, freer practice, and communicative production across the COSY ecosystem (`COSYtools`, `COSYgames`, `COSYevents`, `COSYworld`).
+- **Purpose**: Structuring CELTA-style communicative lesson stages combining lead-in context, meaning check (CCQs), form clarification, pronunciation drilling, controlled practice, freer practice, and communicative production across the COSY ecosystem (`COSYtools`, `COSYgames`, `COSYevents`).
 
 #### Example (`lesson-stage`)
 ```json

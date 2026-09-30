@@ -20,7 +20,7 @@
 
 .cosy-strip-brand {
   font-weight: 700;
-  color: var(--gold, #e8a838);
+  color: #fcd34d;
 }
 
 .cosy-strip-links {
@@ -43,7 +43,8 @@
 .cosy-strip-link:hover,
 .cosy-strip-link.active {
   color: #ffffff;
-  border-bottom: 1px solid var(--gold, #e8a838);
+  border-bottom: 2px solid #fcd34d;
+  font-weight: 700;
 }
 
 .cosy-navbar {
@@ -314,8 +315,25 @@ body.theme-dark #cosy-mobile-menu {
   align-items: center;
 }
 
-/* Responsive Breakpoints (< 1024px uses mobile hamburger menu) */
-@media (max-width: 1023px) {
+@media (max-width: 480px) {
+  .cosy-navbar,
+  #cosy-nav {
+    padding: 0 0.5rem !important;
+  }
+  .cosy-nav-logo span,
+  .nav-logo span {
+    font-size: 0.95rem !important;
+  }
+  #cosy-nav .nav-right {
+    gap: 4px !important;
+  }
+  #cosy-nav .nav-right .cosy-lang-lock-btn {
+    display: none !important;
+  }
+}
+
+/* Responsive Breakpoints (< 1100px uses mobile hamburger menu) */
+@media (max-width: 1099px) {
   .cosy-ecosystem-strip {
     display: none !important;
   }

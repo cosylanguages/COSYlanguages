@@ -22,9 +22,6 @@ The **`COSYmanuals`** repository is restricted to contracted teachers and studen
     <a href="https://cosylanguages.github.io/COSYgames/?topic=A1-GRAMMAR-TO-BE" class="mpb-btn mpb-btn-games" target="_blank" rel="noopener">
       🎮 Practice Minigames
     </a>
-    <a href="https://cosylanguages.github.io/COSYworld/" class="mpb-btn mpb-btn-world" target="_blank" rel="noopener">
-      🗺️ Open World RPG
-    </a>
     <a href="https://cosylanguages.github.io/COSYtools/" class="mpb-btn mpb-btn-tools" target="_blank" rel="noopener">
       🛠️ Encyclopedia Tools
     </a>

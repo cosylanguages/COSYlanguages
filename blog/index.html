@@ -403,6 +403,20 @@
         document.addEventListener('DOMContentLoaded', () => {
             renderLanguageGuides();
             setupLabelLinks();
+            fetch('posts.json')
+                .then(res => res.json())
+                .then(posts => {
+                    if (!posts || !posts.length) return;
+                    const sorted = posts.map(p => p.date).filter(Boolean).sort();
+                    const newest = sorted[sorted.length - 1];
+                    if (newest) {
+                        const [y, m, d] = newest.split('-');
+                        const dateObj = new Date(y, m - 1, d);
+                        const formatted = dateObj.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+                        const ribbon = document.querySelector('.blog-issue-ribbon .ribbon-label');
+                        if (ribbon) ribbon.textContent = `Latest: ${formatted}`;
+                    }
+                }).catch(() => {});
         });
     </script>
 </body>

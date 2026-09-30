@@ -261,26 +261,49 @@ function updateNavActiveState() {
     });
 }
 
+function getActiveNavLang() {
+    if (typeof window === 'undefined') return 'en';
+    const path = window.location.pathname.toLowerCase();
+    const langMatch = path.match(/\/languages\/([a-z]{2})\b/);
+    if (langMatch && langMatch[1]) {
+        return langMatch[1];
+    }
+    const htmlLang = (document.documentElement && document.documentElement.lang) ? document.documentElement.lang.toLowerCase() : '';
+    if (path.includes('/languages/') && htmlLang) {
+        return htmlLang;
+    }
+    return (typeof localStorage !== 'undefined' && (localStorage.getItem('cosy_ui_lang') || localStorage.getItem('cosy_last_language'))) || htmlLang || 'en';
+}
+
 const NAV_FALLBACKS = {
-    en: { home: 'Home', languages: 'Languages', courses: 'Courses', practice: 'Practice', tools: 'Tools', games: 'Games', events: 'Events', placement_quiz: 'Placement Quiz', calculator: 'Calculator', blog: 'Blog', join: 'Join', contact: 'Contact us', login: '🔐 Log in', more: 'More ▾' },
-    fr: { home: 'Accueil', languages: 'Langues', courses: 'Cours', practice: 'Entraînement', tools: 'Outils', games: 'Jeux', events: 'Événements', placement_quiz: 'Test de niveau', calculator: 'Calculateur', blog: 'Blog', join: 'Rejoindre', contact: 'Contact', login: '🔐 Connexion', more: 'Plus ▾' },
-    it: { home: 'Home', languages: 'Lingue', courses: 'Corsi', practice: 'Pratica', tools: 'Strumenti', games: 'Giochi', events: 'Eventi', placement_quiz: 'Test di livello', calculator: 'Calcolatore', blog: 'Blog', join: 'Unisciti', contact: 'Contatti', login: '🔐 Accedi', more: 'Altro ▾' },
-    es: { home: 'Inicio', languages: 'Idiomas', courses: 'Cursos', practice: 'Práctica', tools: 'Herramientas', games: 'Juegos', events: 'Eventos', placement_quiz: 'Test de nivel', calculator: 'Calculadora', blog: 'Blog', join: 'Unirse', contact: 'Contacto', login: '🔐 Iniciar sesión', more: 'Más ▾' },
-    ru: { home: 'Главная', languages: 'Языки', courses: 'Курсы', practice: 'Практика', tools: 'Инструменты', games: 'Игры', events: 'Мероприятия', placement_quiz: 'Тест уровня', calculator: 'Калькулятор', blog: 'Блог', join: 'Начать', contact: 'Связь', login: '🔐 Вход', more: 'Ещё ▾' },
-    ba: { home: 'Баш бит', languages: 'Телдәр', courses: 'Курстар', practice: 'Практика', tools: 'Ҡоралдар', games: 'Уйындар', events: 'Чаралар', placement_quiz: 'Тест', calculator: 'Калькулятор', blog: 'Блог', join: 'Ҡошулыу', contact: 'Бәйләнеш', login: '🔐 Киреү', more: 'Тағы ▾' },
-    tt: { home: 'Төп бит', languages: 'Телләр', courses: 'Курслар', practice: 'Практика', tools: 'Кораллар', games: 'Уеннар', events: 'Чаралар', placement_quiz: 'Тест', calculator: 'Калькулятор', blog: 'Блог', join: 'Кушылу', contact: 'Бәйләнеш', login: '🔐 Керү', more: 'Тагын ▾' },
-    el: { home: 'Αρχική', languages: 'Γλώσσες', courses: 'Μαθήματα', practice: 'Εξάσκηση', tools: 'Εργαλεία', games: 'Παιχνίδια', events: 'Εκδηλώσεις', placement_quiz: 'Τεστ επιπέδου', calculator: 'Υπολογιστής', blog: 'Ιστολόγιο', join: 'Εγγραφή', contact: 'Επικοινωνία', login: '🔐 Σύνδεση', more: 'Περισσότερα ▾' }
+    en: { home: 'Home', home_aria: 'COSYlanguages Home', languages: 'Languages', courses: 'Courses', practice: 'Practice', tools: 'Tools', games: 'Games', events: 'Events', placement_quiz: 'Placement Quiz', calculator: 'Calculator', blog: 'Blog', join: 'Join', contact: '💬 Contact us', login: '🔐 Log in', more: 'More ▾', pin_to_home: '📲 Pin to Home', breadcrumb_home: 'Home' },
+    fr: { home: 'Accueil', home_aria: 'Accueil COSYlanguages', languages: 'Langues', courses: 'Cours', practice: 'Entraînement', tools: 'Outils', games: 'Jeux', events: 'Événements', placement_quiz: 'Test de niveau', calculator: 'Calculateur', blog: 'Blog', join: 'Rejoindre', contact: '💬 Contact', login: '🔐 Connexion', more: 'Plus ▾', pin_to_home: "📲 Épingler à l'accueil", breadcrumb_home: 'Accueil' },
+    it: { home: 'Home', home_aria: 'COSYlanguages Home', languages: 'Lingue', courses: 'Corsi', practice: 'Pratica', tools: 'Strumenti', games: 'Giochi', events: 'Eventi', placement_quiz: 'Test di livello', calculator: 'Calcolatore', blog: 'Blog', join: 'Unisciti', contact: '💬 Contatti', login: '🔐 Accedi', more: 'Altro ▾', pin_to_home: '📲 Aggiungi a Home', breadcrumb_home: 'Home' },
+    es: { home: 'Inicio', home_aria: 'Inicio COSYlanguages', languages: 'Idiomas', courses: 'Cursos', practice: 'Práctica', tools: 'Herramientas', games: 'Juegos', events: 'Eventos', placement_quiz: 'Test de nivel', calculator: 'Calculadora', blog: 'Blog', join: 'Unirse', contact: '💬 Contacto', login: '🔐 Iniciar sesión', more: 'Más ▾', pin_to_home: '📲 Añadir a inicio', breadcrumb_home: 'Inicio' },
+    ru: { home: 'Главная', home_aria: 'Главная COSYlanguages', languages: 'Языки', courses: 'Курсы', practice: 'Практика', tools: 'Инструменты', games: 'Игры', events: 'Мероприятия', placement_quiz: 'Тест уровня', calculator: 'Калькулятор', blog: 'Блог', join: 'Начать', contact: '💬 Связь', login: '🔐 Вход', more: 'Ещё ▾', pin_to_home: '📲 На главный экран', breadcrumb_home: 'Главная' },
+    de: { home: 'Startseite', home_aria: 'COSYlanguages Startseite', languages: 'Sprachen', courses: 'Kurse', practice: 'Übung', tools: 'Werkzeuge', games: 'Spiele', events: 'Veranstaltungen', placement_quiz: 'Einstufungstest', calculator: 'Rechner', blog: 'Blog', join: 'Beitreten', contact: '💬 Kontakt', login: '🔐 Anmelden', more: 'Mehr ▾', pin_to_home: '📲 Zum Startbildschirm', breadcrumb_home: 'Startseite' },
+    pt: { home: 'Início', home_aria: 'Página inicial do COSYlanguages', languages: 'Línguas', courses: 'Cursos', practice: 'Prática', tools: 'Ferramentas', games: 'Jogos', events: 'Eventos', placement_quiz: 'Teste de nível', calculator: 'Calculadora', blog: 'Blog', join: 'Juntar-se', contact: '💬 Contacto', login: '🔐 Entrar', more: 'Mais ▾', pin_to_home: '📲 Fixar no ecrã principal', breadcrumb_home: 'Início' },
+    ba: { home: 'Баш бит', home_aria: 'COSYlanguages Баш бит', languages: 'Телдәр', courses: 'Курстар', practice: 'Практика', tools: 'Ҡоралдар', games: 'Уйындар', events: 'Чаралар', placement_quiz: 'Тест', calculator: 'Калькулятор', blog: 'Блог', join: 'Ҡошулыу', contact: '💬 Бәйләнеш', login: '🔐 Киреү', more: 'Тағы ▾', pin_to_home: '📲 Баш экранға өҫтәү', breadcrumb_home: 'Баш бит' },
+    tt: { home: 'Төп бит', home_aria: 'COSYlanguages Төп бит', languages: 'Телләр', courses: 'Курслар', practice: 'Практика', tools: 'Кораллар', games: 'Уеннар', events: 'Чаралар', placement_quiz: 'Тест', calculator: 'Калькулятор', blog: 'Блог', join: 'Кушылу', contact: '💬 Бәйләнеш', login: '🔐 Керү', more: 'Тагын ▾', pin_to_home: '📲 Төп экранга өстәү', breadcrumb_home: 'Төп бит' },
+    el: { home: 'Αρχική', home_aria: 'Αρχική COSYlanguages', languages: 'Γλώσσες', courses: 'Μαθήματα', practice: 'Εξάσκηση', tools: 'Εργαλεία', games: 'Παιχνίδια', events: 'Εκδηλώσεις', placement_quiz: 'Τεστ επιπέδου', calculator: 'Υπολογιστής', blog: 'Ιστολόγιο', join: 'Εγγραφή', contact: '💬 Επικοινωνία', login: '🔐 Σύνδεση', more: 'Περισσότερα ▾', pin_to_home: '📲 Στην αρχική οθόνη', breadcrumb_home: 'Αρχική' },
+    hy: { home: 'Գլխավոր', home_aria: 'COSYlanguages Գլխավոր', languages: 'Լեզուներ', courses: 'Դասընթացներ', practice: 'Պրակտիկա', tools: 'Գործիքներ', games: 'Խաղեր', events: 'Միջոցառումներ', placement_quiz: 'Մակարդակի թեստ', calculator: 'Հաշվիչ', blog: 'Բլոգ', join: 'Միանալ', contact: '💬 Կապ', login: '🔐 Մուտք', more: 'Ավելին ▾', pin_to_home: '📲 Ավելացնել գլխավոր էկրանին', breadcrumb_home: 'Գլխավոր' },
+    ka: { home: 'მთავარი', home_aria: 'COSYlanguages მთავარი', languages: 'ენები', courses: 'კურსები', practice: 'პრაქტიკა', tools: 'ინსტრუმენტები', games: 'თამაშები', events: 'ღონისძიებები', placement_quiz: 'დონის ტესტი', calculator: 'კალկულატორი', blog: 'ბლოგი', join: 'შეერთება', contact: '💬 კონტაქტი', login: '🔐 შესვლა', more: 'მეტი ▾', pin_to_home: '📲 მთავარ ეკრანზე', breadcrumb_home: 'მთავარი' },
+    br: { home: 'Degemer', home_aria: 'Pajenn degemer COSYlanguages', languages: 'Yezhoù', courses: 'Kentelioù', practice: 'Pleustriñ', tools: 'Stilioù', games: "C'hoarioù", events: 'Darvoudoù', placement_quiz: 'Test livezh', calculator: 'Kamplerezh', blog: 'Blog', join: 'Kemer perzh', contact: '💬 Kevarzheo', login: '🔐 Kevreañ', more: "Muioc'h ▾", pin_to_home: '📲 Stagañ war ar skramm degemer', breadcrumb_home: 'Degemer' },
+    cv: { home: 'Тĕп страницă', home_aria: 'COSYlanguages Тĕп страницă', languages: 'Чĕлхесем', courses: 'Курссене', practice: 'Практика', tools: 'Инструментсем', games: 'Вăйăсем', events: 'Пулăмсем', placement_quiz: 'Уровень тестĕ', calculator: 'Калькулятор', blog: 'Блог', join: 'Хушăнма', contact: '💬 Çыхăну', login: '🔐 Кĕрĕм', more: 'Нумайрах ▾', pin_to_home: '📲 Тĕп экранологипе хушма', breadcrumb_home: 'Тĕп страницă' }
 };
 
 function getNavLabel(key, fallback) {
     const cleanKey = key.replace(/^nav\./, '');
+    const activeLang = getActiveNavLang();
+
+    if (NAV_FALLBACKS[activeLang] && NAV_FALLBACKS[activeLang][cleanKey]) {
+        return NAV_FALLBACKS[activeLang][cleanKey];
+    }
     if (typeof window !== 'undefined' && window.t) {
         const val = window.t('nav.' + cleanKey) || window.t('nav_' + cleanKey) || window.t(cleanKey);
         if (val) return val;
     }
-    const docLang = (typeof document !== 'undefined' && document.documentElement && document.documentElement.lang) ? document.documentElement.lang.toLowerCase() : 'en';
-    if (NAV_FALLBACKS[docLang] && NAV_FALLBACKS[docLang][cleanKey]) return NAV_FALLBACKS[docLang][cleanKey];
-    if (NAV_FALLBACKS.en[cleanKey]) return NAV_FALLBACKS.en[cleanKey];
+    if (NAV_FALLBACKS.en && NAV_FALLBACKS.en[cleanKey]) return NAV_FALLBACKS.en[cleanKey];
     return fallback;
 }
 
@@ -327,13 +350,22 @@ function navFree () {
     const isDark = (typeof localStorage !== 'undefined' && (localStorage.getItem('cosy_theme') || 'light') === 'dark');
 
     const isLocked = (typeof localStorage !== 'undefined' && localStorage.getItem('cosy_ui_lang_locked') === 'true');
-    const currentLang = (typeof localStorage !== 'undefined' && (localStorage.getItem('cosy_ui_lang') || localStorage.getItem('cosy_last_language'))) || 'en';
+    const currentLang = getActiveNavLang();
     const langOptions = [
         { code: 'en', flag: '🇬🇧', label: 'EN' },
         { code: 'fr', flag: '🇫🇷', label: 'FR' },
         { code: 'it', flag: '🇮🇹', label: 'IT' },
+        { code: 'es', flag: '🇪🇸', label: 'ES' },
+        { code: 'de', flag: '🇩🇪', label: 'DE' },
+        { code: 'pt', flag: '🇵🇹', label: 'PT' },
         { code: 'ru', flag: '🇷🇺', label: 'RU' },
-        { code: 'el', flag: '🇬🇷', label: 'EL' }
+        { code: 'el', flag: '🇬🇷', label: 'EL' },
+        { code: 'hy', flag: '🇦🇲', label: 'HY' },
+        { code: 'ka', flag: '🇬🇪', label: 'KA' },
+        { code: 'br', flag: '🌐', label: 'BR' },
+        { code: 'cv', flag: '🌐', label: 'CV' },
+        { code: 'ba', flag: '🌐', label: 'BA' },
+        { code: 'tt', flag: '🌐', label: 'TT' }
     ].map(l => `<option value="${l.code}" ${l.code === currentLang ? 'selected' : ''}>${l.flag} ${l.label}</option>`).join('');
 
     const logoPrefix = getPrefix();
@@ -352,7 +384,7 @@ function navFree () {
       <div id="cosy-nav-context" class="nav-context"></div>
       <div class="nav-right" style="display:flex; align-items:center; gap:8px;">
         <div class="cosy-lang-lock-wrap" style="display:inline-flex; align-items:center; gap:4px;">
-          <select id="cosy-language-switcher" onchange="setLanguage(this.value)" class="styled-sel" ${isLocked ? 'disabled' : ''} style="width: auto; padding: 4px 8px; font-size: 0.8rem; border-radius: var(--r-sm); height: 32px; background: var(--warm-white); border: 1px solid var(--border); color: var(--ink); cursor: pointer;" aria-label="Select Interface Language">
+          <select id="cosy-language-switcher" onchange="setLanguage(this.value)" class="styled-sel" ${isLocked ? 'disabled' : ''} style="width: auto; min-width: 68px; padding: 4px 6px; font-size: 0.8rem; border-radius: var(--r-sm); height: 32px; background: var(--warm-white); border: 1px solid var(--border); color: var(--ink); cursor: pointer;" aria-label="Select Interface Language">
             ${langOptions}
           </select>
           <button id="cosy-lang-lock-btn" type="button" onclick="if(window.toggleLanguageLock)window.toggleLanguageLock()" class="cosy-lang-lock-btn ${isLocked ? 'locked' : ''}" title="${lockTitle}" aria-label="${lockTitle}" style="background:none; border:1px solid var(--border); border-radius:var(--r-sm); padding:2px 4px; font-size:0.75rem; height:28px; cursor:pointer; display:inline-flex; align-items:center; justify-content:center;">
@@ -440,12 +472,47 @@ function bindNavKeyboardHandlers() {
     }
 }
 
+function ensureSharedNavCss() {
+    if (typeof document === 'undefined') return;
+    const p = getPrefix();
+    if (!document.querySelector('link[href*="css/shared-nav.css"]')) {
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = p + 'css/shared-nav.css';
+        const nav = document.getElementById('cosy-nav');
+        if (nav) nav.style.visibility = 'hidden';
+        link.onload = () => {
+            if (nav) nav.style.visibility = '';
+        };
+        link.onerror = () => {
+            if (nav) nav.style.visibility = '';
+        };
+        if (document.head) {
+            document.head.appendChild(link);
+        } else {
+            document.addEventListener('DOMContentLoaded', () => {
+                if (document.head) document.head.appendChild(link);
+            });
+        }
+    } else {
+        const nav = document.getElementById('cosy-nav');
+        if (nav) nav.style.visibility = '';
+    }
+}
+
+function renderNav() {
+    ensureSharedNavCss();
+    applyMode();
+}
+
 function applyMode () {
     const { mode } = STATE;
     if (typeof document !== 'undefined' && document.body) {
         document.body.className = document.body.className.replace(/mode-\w+/g, '').trim();
         document.body.classList.add('mode-free');
     }
+
+    ensureSharedNavCss();
 
     const nav = typeof document !== 'undefined' ? document.getElementById('cosy-nav') : null;
     if (nav) {
@@ -472,6 +539,10 @@ function applyMode () {
         nav.innerHTML = navFree();
         bindNavKeyboardHandlers();
 
+        const activeNavLang = getActiveNavLang();
+        const desktopSw = document.getElementById('cosy-language-switcher');
+        if (desktopSw) desktopSw.value = activeNavLang;
+
         // Restore context if any
         if (typeof COSY !== 'undefined' && COSY._navContext) {
             const ctx = document.getElementById('cosy-nav-context');
@@ -480,7 +551,11 @@ function applyMode () {
     }
 
     const mm = typeof document !== 'undefined' ? document.getElementById('cosy-mobile-menu') : null;
-    if (mm) mm.innerHTML = mobileMenuHTML(mode);
+    if (mm) {
+        mm.innerHTML = mobileMenuHTML(mode);
+        const mobileSw = document.getElementById('cosy-language-switcher-mobile');
+        if (mobileSw) mobileSw.value = getActiveNavLang();
+    }
 
     if (typeof window !== 'undefined' && window.COSY_UI && typeof window.COSY_UI.updateMobileNav === 'function') {
         window.COSY_UI.updateMobileNav(mode);
@@ -501,14 +576,22 @@ function mobileMenuHTML (mode) {
     const loginHref = getNavHref('login');
 
     const isLocked = (typeof localStorage !== 'undefined' && localStorage.getItem('cosy_ui_lang_locked') === 'true');
-    const currentLang = (typeof localStorage !== 'undefined' && (localStorage.getItem('cosy_ui_lang') || localStorage.getItem('cosy_last_language'))) || 'en';
+    const currentLang = getActiveNavLang();
     const langOptions = [
         { code: 'en', flag: '🇬🇧', label: 'EN' },
         { code: 'fr', flag: '🇫🇷', label: 'FR' },
         { code: 'it', flag: '🇮🇹', label: 'IT' },
+        { code: 'es', flag: '🇪🇸', label: 'ES' },
+        { code: 'de', flag: '🇩🇪', label: 'DE' },
+        { code: 'pt', flag: '🇵🇹', label: 'PT' },
         { code: 'ru', flag: '🇷🇺', label: 'RU' },
         { code: 'el', flag: '🇬🇷', label: 'EL' },
-        { code: 'es', flag: '🇪🇸', label: 'ES' }
+        { code: 'hy', flag: '🇦🇲', label: 'HY' },
+        { code: 'ka', flag: '🇬🇪', label: 'KA' },
+        { code: 'br', flag: '🌐', label: 'BR' },
+        { code: 'cv', flag: '🌐', label: 'CV' },
+        { code: 'ba', flag: '🌐', label: 'BA' },
+        { code: 'tt', flag: '🌐', label: 'TT' }
     ].map(l => `<option value="${l.code}" ${l.code === currentLang ? 'selected' : ''}>${l.flag} ${l.label}</option>`).join('');
 
     const freeItems = NAV_CONFIG.free || [];
@@ -552,7 +635,7 @@ function mobileMenuHTML (mode) {
       <a href="#" onclick="event.preventDefault(); COSY.toggleTheme();" class="cosy-mobile-nav-link mobile-theme-toggle-a" style="display: flex; align-items: center; gap: 8px;">🌓 Toggle Dark Mode</a>
       <div style="padding: 8px 12px; display: flex; align-items: center; gap: 8px; min-height: 44px;">
          <span style="font-size: 0.9rem; color: var(--ink-soft);" data-i18n="label.language">Language 🌍</span>
-         <select id="cosy-language-switcher-mobile" onchange="setLanguage(this.value)" class="styled-sel" ${isLocked ? 'disabled' : ''} style="width: auto; padding: 4px 8px; font-size: 0.8rem; border-radius: var(--r-sm); height: 36px; background: var(--warm-white); border: 1px solid var(--border); color: var(--ink); cursor: pointer;" aria-label="Select Interface Language">
+         <select id="cosy-language-switcher-mobile" onchange="setLanguage(this.value)" class="styled-sel" ${isLocked ? 'disabled' : ''} style="width: auto; min-width: 68px; padding: 4px 6px; font-size: 0.8rem; border-radius: var(--r-sm); height: 36px; background: var(--warm-white); border: 1px solid var(--border); color: var(--ink); cursor: pointer;" aria-label="Select Interface Language">
             ${langOptions}
          </select>
          <button id="cosy-lang-lock-btn-mobile" type="button" onclick="if(window.toggleLanguageLock)window.toggleLanguageLock()" class="cosy-lang-lock-btn ${isLocked ? 'locked' : ''}" title="${lockTitle}" aria-label="${lockTitle}" style="background:none; border:1px solid var(--border); border-radius:var(--r-sm); padding:2px 4px; font-size:0.75rem; height:28px; cursor:pointer; display:inline-flex; align-items:center; justify-content:center;">
@@ -784,6 +867,7 @@ async function loadVocabFile(path) {
 let STATE = readState();
 
 window.COSY = {
+    renderNav,
     get mode() { return STATE.mode },
     get practice() { return STATE.practice },
     get notebook() { return STATE.notebook },

@@ -1596,7 +1596,7 @@ body.page-privacy .wa-fab,
   #cosy-nav .nav-right .nav-login { display: none; }
   #cosy-nav .nav-menu-btn { display: block; }
   #cosy-nav .nav-right { gap: 2px; }
-  #cosy-nav .nav-right .styled-sel { max-width: 50px; font-size: 0.75rem; padding: 2px 2px; }
+  #cosy-nav .nav-right .styled-sel { min-width: 68px; font-size: 0.8rem; padding: 4px 6px; }
   #cosy-nav .nav-logo-sub { display: none; }
   .mobile-nav {
     display: flex;
