@@ -154,6 +154,37 @@ Want quick, bite-sized upgrades you can put into practice immediately? Use these
 
 ---
 
+---
+
+### 🌐 Multilingual Adaptations for FR, RU, IT & EL Learners
+
+The intermediate plateau isn't unique to English. If you are studying French, Russian, Italian, or Greek, you will recognize these exact same overused "safe" verbs and their B1–B2 upgrades:
+
+#### 🇫🇷 French (Avoir, Faire, Dire, Penser, Donner)
+- **Overused *Avoir*:** *avoir un problème* → *rencontrer une difficulté* / *faire face à un problème*
+- **Overused *Faire*:** *faire une décision* ❌ → *prendre une décision* ✅ • *faire du progrès* → *accomplir des progrès*
+- **Overused *Dire*:** *dire une idée* → *exprimer une idée* / *suggérer une solution*
+- **Overused *Penser*:** *je pense que...* → *je considère que...* / *à mon sens...* / *j'estime que...*
+
+#### 🇷🇺 Russian (Делать, Сказать, Думать, Получить, Иметь)
+- **Overused *Делать*:** *делать решение* ❌ → *принимать/принять решение* ✅ • *делать работу* → *выполнять/выполнить задачу*
+- **Overused *Сказать*:** *он сказал мне* → *он сообщил мне* / *отметил* / *утверждает*
+- **Overused *Думать*:** *я думаю* → *я полагаю* / *считаю* / *на мой взгляд*
+- **Overused *Получить*:** *получить опыт* → *приобрести опыт* / *накопить опыт*
+
+#### 🇮🇹 Italian (Fare, Dire, Pensare, Avere, Mettere)
+- **Overused *Fare*:** *fare una scelta* → *compiere una scelta* • *fare una domanda* → *porre una domanda*
+- **Overused *Dire*:** *dire un'opinione* → *esprimere un parere* / *sostenere che...*
+- **Overused *Pensare*:** *penso che...* → *ritengo che...* / *ritengo sia opportuno...* / *a mio avviso...*
+- **Overused *Avere*:** *avere un dubbio* → *nutrire un dubbio* / *nutrire perplessità*
+
+#### 🇬🇷 Greek (Кάνω, Λέω, Σκέφτομαι, Έχω, Παίρνω)
+- **Overused *Κάνω*:** *κάνω μια απόφαση* ❌ → *παίρνω μια απόφαση* ✅ • *κάνω πρόοδο* → *σημειώνω πρόοδο*
+- **Overused *Λέω*:** *λέω μια γνώμη* → *εκφράζω μια γνώμη* / *υποστηρίζω ότι...*
+- **Overused *Σκέφτομαι*:** *σκέφτομαι ότι...* → *θεωρώ ότι...* / *πιστεύω πως...* / *εκτιμώ ότι...*
+
+---
+
 ### Final Thought: Evolution, Not Elimination
 
-Replacing overused verbs is not about banishing words like *get* or *make* completely. They remain indispensable in native English. The goal is recognizing when a specific verb conveys your meaning more accurately, helping you transition smoothly from B1 intermediate conversation to B2–C1 advanced precision.
+Replacing overused verbs is not about banishing words like *get* or *make* completely. They remain indispensable in native speech. The goal is recognizing when a specific verb conveys your meaning more accurately, helping you transition smoothly from B1 intermediate conversation to B2–C1 advanced precision.

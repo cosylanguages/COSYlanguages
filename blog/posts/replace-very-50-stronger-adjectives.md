@@ -103,6 +103,40 @@ Ready to go beyond the basics? Here are 20 additional high-impact adjective upgr
 
 ---
 
+### 🌐 Multilingual Adaptations for FR, RU, IT & EL Learners
+
+In every target language, intermediate learners fall into the habit of relying on a single general intensifier (*très*, *очень*, *molto*, *πολύ*). Here is how to upgrade your adjectives in French, Russian, Italian, and Greek:
+
+#### 🇫🇷 French (*très* + adjectif → adjectifs forts)
+- **très grand** → *immense, gigantesque*
+- **très bon** → *excellent, remarquable, formidable*
+- **très fatigué** → *épuisé, exténué*
+- **très beau** → *superbe, magnifique, splendide*
+- **très intéressant** → *passionnant, captivant*
+
+#### 🇷🇺 Russian (*очень* + прилагательное → сильные прилагательные)
+- **очень большой** → *огромный, гигантский*
+- **очень хороший** → *отличный, великолепный, превосходный*
+- **очень усталый** → *изнуренный, обессиленный*
+- **очень красивый** → *прекрасный, изумительный*
+- **очень интересный** → *захватывающий, увлекательный*
+
+#### 🇮🇹 Italian (*molto* + aggettivo → aggettivi forti)
+- **molto grande** → *immenso, gigantesco*
+- **molto buono** → *eccellente, squisito, ottimo*
+- **molto stanco** → *esausto, sinito*
+- **molto bello** → *bellissimo, magnifico, splendido*
+- **molto interessante** → *affascinante, coinvolgente*
+
+#### 🇬🇷 Greek (*πολύ* + επίθετο → ισχυρά επίθετα)
+- **πολύ μεγάλος** → *τεράστιος, γιγάντιος*
+- **πολύ καλός** → *εξαιρετικός, υπέροχος*
+- **πολύ κουρασμένος** → *εξαντλημένος, κατάκοπος*
+- **πολύ ωραίος / όμορφος** → *πανέμορφος, καταπληκτικός*
+- **πολύ ενδιαφέρων** → *συναρπαστικός, καθηλωτικός*
+
+---
+
 ### Summary: Practicing Strong Adjectives
 
 When learning these new words, try substituting them directly into your daily journal or speaking practice. For instance, instead of saying *"I had a very busy day and I am very tired"*, say **"I had a hectic day and I am exhausted."** Notice how much more vivid and clear your sentence becomes!
