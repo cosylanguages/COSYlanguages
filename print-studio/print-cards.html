@@ -260,7 +260,7 @@
         const topic = document.getElementById('sel-topic').value;
 
         if (topic === 'notebook_dict') {
-            const key = window.COSY_PROFILES ? window.COSY_PROFILES.getPrefixedKey('cosy_dict_free_guest') : 'cosy_dict_free_guest';
+            const key = 'cosy_dict_free_guest';
             const saved = localStorage.getItem(key);
             const dict = saved ? JSON.parse(saved) : {};
             const list = Object.values(dict);

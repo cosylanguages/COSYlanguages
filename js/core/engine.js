@@ -12,91 +12,6 @@
 ;(function () { 'use strict'
 
 /* ═══════════════════════════════════════════════════════════════
-   LOCAL FAMILY PROFILES SYSTEM & LOCALSTORAGE INTERCEPTOR
-   ═══════════════════════════════════════════════════════════════ */
-window.COSY_PROFILES = {
-    getActiveProfile() {
-        return localStorage.getItem('cosy_active_profile') || 'Guest';
-    },
-    getProfileList() {
-        try {
-            const list = localStorage.getItem('cosy_profile_list');
-            return list ? JSON.parse(list) : ['Guest'];
-        } catch (e) {
-            return ['Guest'];
-        }
-    },
-    setActiveProfile(name) {
-        if (!name) return;
-        localStorage.setItem('cosy_active_profile', name);
-        window.location.reload();
-    },
-    createProfile(name) {
-        name = name.trim();
-        if (!name) return false;
-        const list = this.getProfileList();
-        if (list.includes(name)) return false;
-        list.push(name);
-        localStorage.setItem('cosy_profile_list', JSON.stringify(list));
-        return true;
-    },
-    deleteProfile(name) {
-        if (name === 'Guest') return;
-        let list = this.getProfileList();
-        list = list.filter(p => p !== name);
-        localStorage.setItem('cosy_profile_list', JSON.stringify(list));
-        if (this.getActiveProfile() === name) {
-            localStorage.setItem('cosy_active_profile', 'Guest');
-        }
-        window.location.reload();
-    },
-    getPrefixedKey(key) {
-        const active = this.getActiveProfile();
-        if (active === 'Guest') return key;
-        return `profile_${active}_${key}`;
-    }
-};
-
-function getPrefixedKey(key) {
-    if (window.COSY_PROFILES && typeof window.COSY_PROFILES.getPrefixedKey === 'function') {
-        return window.COSY_PROFILES.getPrefixedKey(key);
-    }
-    return key;
-}
-
-(function() {
-    const originalGetItem = localStorage.getItem;
-    const originalSetItem = localStorage.setItem;
-    const EXCLUDED_GLOBAL_KEYS = ['cosy_theme', 'cosy_active_profile', 'cosy_profile_list'];
-
-    localStorage.getItem = function(key) {
-        if (typeof key === 'string' && !EXCLUDED_GLOBAL_KEYS.includes(key) && (
-            key.startsWith('cosy_') ||
-            key === 'practice_streak' ||
-            key === 'cosy_practice' ||
-            key === 'cosy_notebook'
-        )) {
-            const prefixedKey = getPrefixedKey(key);
-            return originalGetItem.call(localStorage, prefixedKey);
-        }
-        return originalGetItem.call(localStorage, key);
-    };
-
-    localStorage.setItem = function(key, value) {
-        if (typeof key === 'string' && !EXCLUDED_GLOBAL_KEYS.includes(key) && (
-            key.startsWith('cosy_') ||
-            key === 'practice_streak' ||
-            key === 'cosy_practice' ||
-            key === 'cosy_notebook'
-        )) {
-            const prefixedKey = getPrefixedKey(key);
-            return originalSetItem.call(localStorage, prefixedKey, value);
-        }
-        return originalSetItem.call(localStorage, key, value);
-    };
-})();
-
-/* ═══════════════════════════════════════════════════════════════
    1. CONSTANTS & KEYS
    ═══════════════════════════════════════════════════════════════ */
 
@@ -111,7 +26,8 @@ const DEFAULT_ECOSYSTEM_URLS = {
     placement_quiz: 'placement-quiz.html',
     calculator: 'index.html#calculator',
     blog: 'blog/index.html',
-    join: 'index.html#start'
+    join: 'index.html#start',
+    login: 'login.html'
 };
 
 function getConfigModule() {
@@ -141,7 +57,8 @@ function getEcosystemUrls(env, overrides) {
             placement_quiz: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'placement-quiz.html' : 'placement-quiz.html',
             calculator: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'index.html#calculator' : 'index.html#calculator',
             blog: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'blog/index.html' : 'blog/index.html',
-            join: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'index.html#start' : 'index.html#start'
+            join: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'index.html#start' : 'index.html#start',
+            login: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'login.html' : 'login.html'
         };
     }
 
@@ -189,6 +106,7 @@ function getEcosystemUrls(env, overrides) {
     if (processEnv.COSY_CALCULATOR_URL) procEnvUrls.calculator = processEnv.COSY_CALCULATOR_URL;
     if (processEnv.COSY_BLOG_URL) procEnvUrls.blog = processEnv.COSY_BLOG_URL;
     if (processEnv.COSY_JOIN_URL) procEnvUrls.join = processEnv.COSY_JOIN_URL;
+    if (processEnv.COSY_LOGIN_URL) procEnvUrls.login = processEnv.COSY_LOGIN_URL;
 
     return Object.assign({}, envDefaults, procEnvUrls, localSavedUrls, winUrls, winConfig.urls, overrides);
 }
@@ -327,14 +245,14 @@ function updateNavActiveState() {
 }
 
 const NAV_FALLBACKS = {
-    en: { home: 'Home', languages: 'Languages', courses: 'Courses', practice: 'Practice', tools: 'Tools', games: 'Games', events: 'Events', placement_quiz: 'Placement Quiz', calculator: 'Calculator', blog: 'Blog', join: 'Join', contact: 'Contact us' },
-    fr: { home: 'Accueil', languages: 'Langues', courses: 'Cours', practice: 'Entraînement', tools: 'Outils', games: 'Jeux', events: 'Événements', placement_quiz: 'Test de niveau', calculator: 'Calculateur', blog: 'Blog', join: 'Rejoindre', contact: 'Contact' },
-    it: { home: 'Home', languages: 'Lingue', courses: 'Corsi', practice: 'Pratica', tools: 'Strumenti', games: 'Giochi', events: 'Eventi', placement_quiz: 'Test di livello', calculator: 'Calcolatore', blog: 'Blog', join: 'Unisciti', contact: 'Contatti' },
-    es: { home: 'Inicio', languages: 'Idiomas', courses: 'Cursos', practice: 'Práctica', tools: 'Herramientas', games: 'Juegos', events: 'Eventos', placement_quiz: 'Test de nivel', calculator: 'Calculadora', blog: 'Blog', join: 'Unirse', contact: 'Contacto' },
-    ru: { home: 'Главная', languages: 'Языки', courses: 'Курсы', practice: 'Практика', tools: 'Инструменты', games: 'Игры', events: 'Мероприятия', placement_quiz: 'Тест уровня', calculator: 'Калькулятор', blog: 'Блог', join: 'Начать', contact: 'Связь' },
-    ba: { home: 'Баш бит', languages: 'Телдәр', courses: 'Курстар', practice: 'Практика', tools: 'Ҡоралдар', games: 'Уйындар', events: 'Чаралар', placement_quiz: 'Тест', calculator: 'Калькулятор', blog: 'Блог', join: 'Ҡошулыу', contact: 'Бәйләнеш' },
-    tt: { home: 'Төп бит', languages: 'Телләр', courses: 'Курслар', practice: 'Практика', tools: 'Кораллар', games: 'Уеннар', events: 'Чаралар', placement_quiz: 'Тест', calculator: 'Калькулятор', blog: 'Блог', join: 'Кушылу', contact: 'Бәйләнеш' },
-    el: { home: 'Αρχική', languages: 'Γλώσσες', courses: 'Μαθήματα', practice: 'Εξάσκηση', tools: 'Εργαλεία', games: 'Παιχνίδια', events: 'Εκδηλώσεις', placement_quiz: 'Τεστ επιπέδου', calculator: 'Υπολογιστής', blog: 'Ιστολόγιο', join: 'Εγγραφή', contact: 'Επικοινωνία' }
+    en: { home: 'Home', languages: 'Languages', courses: 'Courses', practice: 'Practice', tools: 'Tools', games: 'Games', events: 'Events', placement_quiz: 'Placement Quiz', calculator: 'Calculator', blog: 'Blog', join: 'Join', contact: 'Contact us', login: '🔐 Log in' },
+    fr: { home: 'Accueil', languages: 'Langues', courses: 'Cours', practice: 'Entraînement', tools: 'Outils', games: 'Jeux', events: 'Événements', placement_quiz: 'Test de niveau', calculator: 'Calculateur', blog: 'Blog', join: 'Rejoindre', contact: 'Contact', login: '🔐 Connexion' },
+    it: { home: 'Home', languages: 'Lingue', courses: 'Corsi', practice: 'Pratica', tools: 'Strumenti', games: 'Giochi', events: 'Eventi', placement_quiz: 'Test di livello', calculator: 'Calcolatore', blog: 'Blog', join: 'Unisciti', contact: 'Contatti', login: '🔐 Accedi' },
+    es: { home: 'Inicio', languages: 'Idiomas', courses: 'Cursos', practice: 'Práctica', tools: 'Herramientas', games: 'Juegos', events: 'Eventos', placement_quiz: 'Test de nivel', calculator: 'Calculadora', blog: 'Blog', join: 'Unirse', contact: 'Contacto', login: '🔐 Iniciar sesión' },
+    ru: { home: 'Главная', languages: 'Языки', courses: 'Курсы', practice: 'Практика', tools: 'Инструменты', games: 'Игры', events: 'Мероприятия', placement_quiz: 'Тест уровня', calculator: 'Калькулятор', blog: 'Блог', join: 'Начать', contact: 'Связь', login: '🔐 Вход' },
+    ba: { home: 'Баш бит', languages: 'Телдәр', courses: 'Курстар', practice: 'Практика', tools: 'Ҡоралдар', games: 'Уйындар', events: 'Чаралар', placement_quiz: 'Тест', calculator: 'Калькулятор', blog: 'Блог', join: 'Ҡошулыу', contact: 'Бәйләнеш', login: '🔐 Киреү' },
+    tt: { home: 'Төп бит', languages: 'Телләр', courses: 'Курслар', practice: 'Практика', tools: 'Кораллар', games: 'Уеннар', events: 'Чаралар', placement_quiz: 'Тест', calculator: 'Калькулятор', blog: 'Блог', join: 'Кушылу', contact: 'Бәйләнеш', login: '🔐 Керү' },
+    el: { home: 'Αρχική', languages: 'Γλώσσες', courses: 'Μαθήματα', practice: 'Εξάσκηση', tools: 'Εργαλεία', games: 'Παιχνίδια', events: 'Εκδηλώσεις', placement_quiz: 'Τεστ επιπέδου', calculator: 'Υπολογιστής', blog: 'Ιστολόγιο', join: 'Εγγραφή', contact: 'Επικοινωνία', login: '🔐 Σύνδεση' }
 };
 
 function getNavLabel(key, fallback) {
@@ -365,10 +283,8 @@ function renderNavLinks(mode) {
 function navFree () {
     const t = getNavLabel;
     const homeHref = getNavHref('home');
+    const loginHref = getNavHref('login');
     const isDark = (typeof localStorage !== 'undefined' && (localStorage.getItem('cosy_theme') || 'light') === 'dark');
-    const activeProfile = window.COSY_PROFILES ? window.COSY_PROFILES.getActiveProfile() : 'Guest';
-    const profiles = window.COSY_PROFILES ? window.COSY_PROFILES.getProfileList() : ['Guest'];
-    const profileOptions = profiles.map(prof => `<option value="${prof}" ${prof === activeProfile ? 'selected' : ''}>👤 ${prof}</option>`).join('');
 
     const isLocked = (typeof localStorage !== 'undefined' && localStorage.getItem('cosy_ui_lang_locked') === 'true');
     const currentLang = (typeof localStorage !== 'undefined' && (localStorage.getItem('cosy_ui_lang') || localStorage.getItem('cosy_last_language'))) || 'en';
@@ -400,10 +316,7 @@ function navFree () {
             ${isLocked ? '🔒' : '🔓'}
           </button>
         </div>
-        <select id="profile-switcher" onchange="COSY.switchProfile(this.value)" class="styled-sel" style="width: auto; padding: 4px 8px; font-size: 0.8rem; border-radius: var(--r-sm); height: 32px; background: var(--warm-white); border: 1px solid var(--border); color: var(--ink); cursor: pointer;">
-          ${profileOptions}
-          <option value="__create__">+ New...</option>
-        </select>
+        <a href="${loginHref}" class="nav-login" data-translate-key="nav_login" data-i18n="nav.login">${t('login', '🔐 Log in')}</a>
         <button class="theme-toggle-btn" onclick="COSY.toggleTheme()" aria-label="Toggle Theme" style="background:none; border:none; font-size:1.2rem; cursor:pointer; padding:6px; display:inline-flex; align-items:center; margin-right: 4px;">
             ${isDark ? '☀️' : '🌙'}
         </button>
@@ -523,9 +436,7 @@ function applyMode () {
 
 function mobileMenuHTML (mode) {
     const t = getNavLabel;
-    const activeProfile = window.COSY_PROFILES ? window.COSY_PROFILES.getActiveProfile() : 'Guest';
-    const profiles = window.COSY_PROFILES ? window.COSY_PROFILES.getProfileList() : ['Guest'];
-    const profileOptions = profiles.map(prof => `<option value="${prof}" ${prof === activeProfile ? 'selected' : ''}>👤 ${prof}</option>`).join('');
+    const loginHref = getNavHref('login');
 
     const isLocked = (typeof localStorage !== 'undefined' && localStorage.getItem('cosy_ui_lang_locked') === 'true');
     const currentLang = (typeof localStorage !== 'undefined' && (localStorage.getItem('cosy_ui_lang') || localStorage.getItem('cosy_last_language'))) || 'en';
@@ -551,6 +462,7 @@ function mobileMenuHTML (mode) {
     return `
       <a href="${getNavHref('home')}" data-translate-key="nav_home" data-i18n="nav.home">🏡 ${t('home', 'Home')}</a>
       ${linksHtml}
+      <a href="${loginHref}" data-translate-key="nav_login" data-i18n="nav.login">${t('login', '🔐 Log in')}</a>
       <a href="#" onclick="event.preventDefault(); COSY.toggleTheme();" class="mobile-theme-toggle-a" style="display: flex; align-items: center; gap: 8px;">🌓 Toggle Dark Mode</a>
       <div style="padding: 12px 16px; display: flex; align-items: center; gap: 8px;">
          <span style="font-size: 0.9rem; color: var(--ink-soft);" data-i18n="label.language">Language 🌍</span>
@@ -560,13 +472,6 @@ function mobileMenuHTML (mode) {
          <button id="cosy-lang-lock-btn-mobile" type="button" onclick="if(window.toggleLanguageLock)window.toggleLanguageLock()" class="cosy-lang-lock-btn ${isLocked ? 'locked' : ''}" title="${isLocked ? 'Language is locked on this device. Click to unlock.' : 'Lock language on this device.'}" aria-label="Toggle Language Lock" style="background:none; border:1px solid var(--border); border-radius:var(--r-sm); padding:4px 6px; font-size:0.85rem; height:32px; cursor:pointer; display:inline-flex; align-items:center; justify-center;">
             ${isLocked ? '🔒' : '🔓'}
          </button>
-      </div>
-      <div style="padding: 12px 16px; display: flex; align-items: center; gap: 8px;">
-         <span style="font-size: 0.9rem; color: var(--ink-soft);">Profile:</span>
-         <select id="profile-switcher-mobile" onchange="COSY.switchProfile(this.value)" class="styled-sel" style="width: auto; padding: 4px 8px; font-size: 0.8rem; border-radius: var(--r-sm); height: 32px; background: var(--warm-white); border: 1px solid var(--border); color: var(--ink); cursor: pointer;">
-            ${profileOptions}
-            <option value="__create__">+ New...</option>
-         </select>
       </div>
       <div class="mm-divider"></div>
       <a href="https://wa.me/330766784195" target="_blank" class="mm-cta" data-translate-key="nav_contact">💬 Contact us on WhatsApp</a>`
@@ -825,27 +730,6 @@ window.COSY = {
         });
         if (window.COSY && typeof window.COSY.showToast === 'function') {
             window.COSY.showToast(`Theme switched to ${newTheme}!`);
-        }
-    },
-
-    switchProfile(name) {
-        if (name === '__create__') {
-            const newName = prompt('Enter name for the new profile:');
-            if (newName && newName.trim()) {
-                const created = window.COSY_PROFILES.createProfile(newName);
-                if (created) {
-                    window.COSY_PROFILES.setActiveProfile(newName.trim());
-                } else {
-                    alert('Profile name already exists or is invalid!');
-                    const switcher = document.getElementById('profile-switcher') || document.getElementById('profile-switcher-mobile');
-                    if (switcher) switcher.value = window.COSY_PROFILES.getActiveProfile();
-                }
-            } else {
-                const switcher = document.getElementById('profile-switcher') || document.getElementById('profile-switcher-mobile');
-                if (switcher) switcher.value = window.COSY_PROFILES.getActiveProfile();
-            }
-        } else {
-            window.COSY_PROFILES.setActiveProfile(name);
         }
     },
 

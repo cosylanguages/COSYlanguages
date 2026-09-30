@@ -1488,5 +1488,6 @@
   "none": "None",
   "course_travelling": "Travelling Course ✈️",
   "course_professional": "Professional Course 💼",
-  "course_relocation": "Relocation Course 🏡"
+  "course_relocation": "Relocation Course 🏡",
+  "nav_login": "🔐 Anmelden"
 }
