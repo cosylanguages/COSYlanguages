@@ -1502,5 +1502,6 @@
   "enrol_btn": "Enrol in Challenge",
   "mark_done_btn": "Mark today done",
   "today_task_label": "Today's Task",
-  "challenge_complete_msg": "Challenge Completed! 🎉"
+  "challenge_complete_msg": "Challenge Completed! 🎉",
+  "nav_login": "🔐 Connexion"
 }
