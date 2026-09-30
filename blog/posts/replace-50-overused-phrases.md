@@ -3,7 +3,7 @@ title: "Stop Saying These 50 Phrases! Natural Conversational Upgrades for Interm
 date: "2026-09-13"
 category: "Resource List"
 summary: "Break away from repetitive B1 conversational habits with 50 natural phrase upgrades, featuring direct opposites for agreeing, expressing opinions, stating preferences, and asking questions."
-author: "COSY Editorial Team"
+author: "JY DM"
 tags: ["Phrases", "IntermediatePlateau", "Fluency", "B1-B2"]
 featured: false
 draft: false

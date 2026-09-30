@@ -3,7 +3,7 @@ title: "Welcome to the COSY Editorial & Learning Corner"
 date: "2026-09-10"
 category: "Ecosystem Update"
 summary: "Welcome to our editorial room! Explore personal journal notes, language learning philosophies, and canonical curriculum guides across all 14 COSY target languages."
-author: "COSY Editorial Team"
+author: "JY DM"
 tags: ["Welcome", "EcosystemUpdate", "LanguageLearning"]
 featured: true
 draft: false

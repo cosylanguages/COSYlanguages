@@ -3,7 +3,7 @@ title: "Stop Saying 'Very'! 50 Stronger Words Every Intermediate English Learner
 date: "2026-09-12"
 category: "Resource List"
 summary: "Level up your English vocabulary by replacing repetitive 'very + adjective' combinations with 50 powerful, precise adjectives and bonus advanced upgrades."
-author: "COSY Team"
+author: "JY DM"
 tags: ["Vocabulary", "IntermediatePlateau", "Adjectives", "B1-B2"]
 featured: false
 draft: false

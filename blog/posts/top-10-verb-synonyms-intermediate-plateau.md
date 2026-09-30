@@ -3,7 +3,7 @@ title: "Top 10 Overused Verbs and Their Precise Synonyms for the Intermediate Pl
 date: "2026-09-11"
 category: "Resource List"
 summary: "Break through the B1–B2 intermediate plateau by replacing overused safe verbs like get, make, do, and think with precise, high-impact synonyms."
-author: "COSY Team"
+author: "JY DM"
 tags: ["IntermediatePlateau", "Vocabulary", "B1-B2", "Verbs"]
 featured: false
 draft: false

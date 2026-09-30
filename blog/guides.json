@@ -7,9 +7,14 @@
     "category": "Resource List",
     "type": "guide",
     "url": "top-10-verbs.html",
-    "author": "COSY Editorial Team",
+    "author": "JY DM",
     "featured": true,
-    "tags": ["ResourceList", "Verbs", "A0-A1", "14Languages"]
+    "tags": [
+      "ResourceList",
+      "Verbs",
+      "A0-A1",
+      "14Languages"
+    ]
   },
   {
     "slug": "top-100-a0-a1",
@@ -19,9 +24,14 @@
     "category": "Resource List",
     "type": "guide",
     "url": "top-100-a0-a1.html",
-    "author": "COSY Curriculum Team",
+    "author": "JY DM",
     "featured": true,
-    "tags": ["Top100", "Vocabulary", "Beginners", "Curriculum"]
+    "tags": [
+      "Top100",
+      "Vocabulary",
+      "Beginners",
+      "Curriculum"
+    ]
   },
   {
     "slug": "top-100-a0-a1-english",
@@ -31,9 +41,13 @@
     "category": "Curriculum",
     "type": "guide",
     "url": "top-100-a0-a1-english.html",
-    "author": "COSY Curriculum Team",
+    "author": "JY DM",
     "featured": false,
-    "tags": ["English", "Vocabulary", "A0-A1"]
+    "tags": [
+      "English",
+      "Vocabulary",
+      "A0-A1"
+    ]
   },
   {
     "slug": "top-100-a0-a1-french",
@@ -43,9 +57,13 @@
     "category": "Curriculum",
     "type": "guide",
     "url": "top-100-a0-a1-french.html",
-    "author": "COSY Curriculum Team",
+    "author": "JY DM",
     "featured": false,
-    "tags": ["French", "Vocabulary", "A0-A1"]
+    "tags": [
+      "French",
+      "Vocabulary",
+      "A0-A1"
+    ]
   },
   {
     "slug": "top-100-a0-a1-italian",
@@ -55,9 +73,13 @@
     "category": "Curriculum",
     "type": "guide",
     "url": "top-100-a0-a1-italian.html",
-    "author": "COSY Curriculum Team",
+    "author": "JY DM",
     "featured": false,
-    "tags": ["Italian", "Vocabulary", "A0-A1"]
+    "tags": [
+      "Italian",
+      "Vocabulary",
+      "A0-A1"
+    ]
   },
   {
     "slug": "top-100-a0-a1-russian",
@@ -67,9 +89,13 @@
     "category": "Curriculum",
     "type": "guide",
     "url": "top-100-a0-a1-russian.html",
-    "author": "COSY Curriculum Team",
+    "author": "JY DM",
     "featured": false,
-    "tags": ["Russian", "Vocabulary", "A0-A1"]
+    "tags": [
+      "Russian",
+      "Vocabulary",
+      "A0-A1"
+    ]
   },
   {
     "slug": "top-100-a0-a1-greek",
@@ -79,9 +105,13 @@
     "category": "Curriculum",
     "type": "guide",
     "url": "top-100-a0-a1-greek.html",
-    "author": "COSY Curriculum Team",
+    "author": "JY DM",
     "featured": false,
-    "tags": ["Greek", "Vocabulary", "A0-A1"]
+    "tags": [
+      "Greek",
+      "Vocabulary",
+      "A0-A1"
+    ]
   },
   {
     "slug": "top-100-a0-a1-spanish",
@@ -91,9 +121,13 @@
     "category": "Curriculum",
     "type": "guide",
     "url": "top-100-a0-a1-spanish.html",
-    "author": "COSY Curriculum Team",
+    "author": "JY DM",
     "featured": false,
-    "tags": ["Spanish", "Vocabulary", "A0-A1"]
+    "tags": [
+      "Spanish",
+      "Vocabulary",
+      "A0-A1"
+    ]
   },
   {
     "slug": "top-100-a0-a1-german",
@@ -103,9 +137,13 @@
     "category": "Curriculum",
     "type": "guide",
     "url": "top-100-a0-a1-german.html",
-    "author": "COSY Curriculum Team",
+    "author": "JY DM",
     "featured": false,
-    "tags": ["German", "Vocabulary", "A0-A1"]
+    "tags": [
+      "German",
+      "Vocabulary",
+      "A0-A1"
+    ]
   },
   {
     "slug": "top-100-a0-a1-portuguese",
@@ -115,9 +153,13 @@
     "category": "Curriculum",
     "type": "guide",
     "url": "top-100-a0-a1-portuguese.html",
-    "author": "COSY Curriculum Team",
+    "author": "JY DM",
     "featured": false,
-    "tags": ["Portuguese", "Vocabulary", "A0-A1"]
+    "tags": [
+      "Portuguese",
+      "Vocabulary",
+      "A0-A1"
+    ]
   },
   {
     "slug": "top-100-a0-a1-armenian",
@@ -127,9 +169,13 @@
     "category": "Curriculum",
     "type": "guide",
     "url": "top-100-a0-a1-armenian.html",
-    "author": "COSY Curriculum Team",
+    "author": "JY DM",
     "featured": false,
-    "tags": ["Armenian", "Vocabulary", "A0-A1"]
+    "tags": [
+      "Armenian",
+      "Vocabulary",
+      "A0-A1"
+    ]
   },
   {
     "slug": "top-100-a0-a1-georgian",
@@ -139,9 +185,13 @@
     "category": "Curriculum",
     "type": "guide",
     "url": "top-100-a0-a1-georgian.html",
-    "author": "COSY Curriculum Team",
+    "author": "JY DM",
     "featured": false,
-    "tags": ["Georgian", "Vocabulary", "A0-A1"]
+    "tags": [
+      "Georgian",
+      "Vocabulary",
+      "A0-A1"
+    ]
   },
   {
     "slug": "top-100-a0-a1-tatar",
@@ -151,9 +201,13 @@
     "category": "Curriculum",
     "type": "guide",
     "url": "top-100-a0-a1-tatar.html",
-    "author": "COSY Curriculum Team",
+    "author": "JY DM",
     "featured": false,
-    "tags": ["Tatar", "Vocabulary", "A0-A1"]
+    "tags": [
+      "Tatar",
+      "Vocabulary",
+      "A0-A1"
+    ]
   },
   {
     "slug": "top-100-a0-a1-bashkir",
@@ -163,9 +217,13 @@
     "category": "Curriculum",
     "type": "guide",
     "url": "top-100-a0-a1-bashkir.html",
-    "author": "COSY Curriculum Team",
+    "author": "JY DM",
     "featured": false,
-    "tags": ["Bashkir", "Vocabulary", "A0-A1"]
+    "tags": [
+      "Bashkir",
+      "Vocabulary",
+      "A0-A1"
+    ]
   },
   {
     "slug": "top-100-a0-a1-breton",
@@ -175,8 +233,12 @@
     "category": "Curriculum",
     "type": "guide",
     "url": "top-100-a0-a1-breton.html",
-    "author": "COSY Curriculum Team",
+    "author": "JY DM",
     "featured": false,
-    "tags": ["Breton", "Vocabulary", "A0-A1"]
+    "tags": [
+      "Breton",
+      "Vocabulary",
+      "A0-A1"
+    ]
   }
 ]
