@@ -112,5 +112,30 @@
     "reviewMistakes": "Rivedi gli errori",
     "languagePracticeTile": "Prova la pratica gratuita",
     "backToEvents": "Torna a tutti gli eventi dal vivo"
+  },
+  "blog": {
+    "backHome": "← Torna alla Home di COSYlanguages",
+    "backBlog": "← Torna al Blog & Angolo Editoriale",
+    "title": "Blog COSY",
+    "tagline": "Guide all'apprendimento linguistico, quadri comunicativi e mappe di vocabolario in tutte le lingue.",
+    "print": "Stampa 🖨️",
+    "latest": "Ultime notizie",
+    "postFeed": "Feed degli articoli",
+    "search": "Cerca",
+    "searchPlaceholder": "Cerca articoli...",
+    "labels": "Categorie",
+    "languageGuides": "Guide Linguistiche",
+    "archive": "Archivio",
+    "readPost": "Leggi l'articolo →",
+    "returnIndex": "← Torna all'indice del blog",
+    "writtenBy": "Scritto da",
+    "published": "Pubblicato il",
+    "minRead": "min di lettura",
+    "allPosts": "Tutti gli articoli",
+    "resourceList": "Elenco risorse",
+    "ecosystemUpdate": "Aggiornamento ecosistema",
+    "curriculum": "Programma",
+    "masterGuide": "Guida principale",
+    "topicsLabels": "🏷️ Argomenti & Etichette"
   }
 }

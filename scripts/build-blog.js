@@ -118,6 +118,17 @@ function buildBlog() {
     const computedReadingTime = Math.max(1, Math.ceil(wordCount / 200));
     const readingTime = typeof frontmatter.reading_time === 'number' ? frontmatter.reading_time : computedReadingTime;
 
+    // Detect target language from explicit frontmatter or slug suffix
+    let lang = frontmatter.lang ? String(frontmatter.lang).trim().toLowerCase() : null;
+    if (!lang) {
+      if (slug.endsWith('-fr')) lang = 'fr';
+      else if (slug.endsWith('-ru')) lang = 'ru';
+      else if (slug.endsWith('-it')) lang = 'it';
+      else if (slug.endsWith('-el')) lang = 'el';
+      else if (slug.endsWith('-es')) lang = 'es';
+      else lang = 'en';
+    }
+
     const postObj = {
       slug,
       title: String(frontmatter.title || '').trim(),
@@ -131,6 +142,7 @@ function buildBlog() {
       tags: Array.isArray(frontmatter.tags) ? frontmatter.tags : [],
       featured: Boolean(frontmatter.featured),
       draft: Boolean(frontmatter.draft),
+      lang,
       bodyMarkdown: markdownBody,
       type: 'post',
       url: `${slug}.html`
@@ -154,7 +166,7 @@ function buildBlog() {
     const renderedBody = marked.parse(post.bodyMarkdown);
 
     const htmlContent = `<!DOCTYPE html>
-<html lang="en">
+<html lang="${post.lang || 'en'}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -180,17 +192,17 @@ function buildBlog() {
     <div class="blog-wrapper">
         <header class="blog-header">
             <div class="post-breadcrumb" style="margin-bottom: 0.75rem;">
-                <a href="index.html" style="color: var(--teal, #0d9488); text-decoration: none; font-weight: 600; font-size: 0.9rem;">← Back to Blog &amp; Editorial Hub</a>
+                <a href="index.html" style="color: var(--teal, #0d9488); text-decoration: none; font-weight: 600; font-size: 0.9rem;" data-i18n="blog.backBlog">← Back to Blog &amp; Editorial Hub</a>
             </div>
             <span class="post-card-label">${post.category}</span>
             <h1 class="blog-header-title" style="margin-top: 0.5rem;">${post.title}</h1>
             <div class="post-card-meta" style="margin-top: 0.75rem;">
                 <span class="post-author-avatar">${post.author.charAt(0).toUpperCase()}</span>
-                <span>Written by <strong>${post.author}</strong></span>
+                <span><span data-i18n="blog.writtenBy">Written by</span> <strong>${post.author}</strong></span>
                 <span>·</span>
-                <span>📅 Published ${post.date}</span>
+                <span>📅 <span data-i18n="blog.published">Published</span> ${post.date}</span>
                 <span>·</span>
-                <span>⏱️ ${post.reading_time} min read</span>
+                <span>⏱️ ${post.reading_time} <span data-i18n="blog.minRead">min read</span></span>
             </div>
         </header>
 
@@ -207,13 +219,13 @@ function buildBlog() {
                 </div>` : ''}
 
                 <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color, #e2e8f0);">
-                    <a href="index.html" class="read-more-link">← Return to Blog Index</a>
+                    <a href="index.html" class="read-more-link" data-i18n="blog.returnIndex">← Return to Blog Index</a>
                 </div>
             </main>
 
             <aside class="blog-sidebar">
                 <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">🏷️ Topics &amp; Labels</h3>
+                    <h3 class="sidebar-widget-title" data-i18n="blog.topicsLabels">🏷️ Topics &amp; Labels</h3>
                     <div class="label-cloud">
                         <a href="top-100-a0-a1.html" class="sidebar-label-chip">Top 100 Semantic Tree</a>
                         <a href="top-10-verbs.html" class="sidebar-label-chip">Verbs Matrix</a>
@@ -224,7 +236,7 @@ function buildBlog() {
                 </div>
 
                 <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">🌐 Language Guides</h3>
+                    <h3 class="sidebar-widget-title" data-i18n="blog.languageGuides">🌐 Language Guides</h3>
                     <ul class="sidebar-list">
                         <li><a href="top-100-a0-a1.html">🌍 Top 100 Master Semantic Tree (14 Langs)</a></li>
                         <li><a href="top-100-a0-a1-english.html">🇬🇧 English Master Guide</a></li>
@@ -312,6 +324,7 @@ function buildBlog() {
       cover_image: p.cover_image,
       tags: p.tags,
       featured: p.featured,
+      lang: p.lang || 'en',
       type: 'post',
       url: p.url
     })),
@@ -322,11 +335,12 @@ function buildBlog() {
       updated: g.updated || null,
       category: g.category || 'Resource List',
       summary: g.summary,
-      author: g.author || 'COSY Editorial Team',
+      author: g.author || 'JY DM',
       reading_time: g.reading_time || 10,
       cover_image: g.cover_image || '',
       tags: g.tags || [],
       featured: Boolean(g.featured),
+      lang: g.lang || (g.slug.includes('-french') ? 'fr' : g.slug.includes('-russian') ? 'ru' : g.slug.includes('-italian') ? 'it' : g.slug.includes('-greek') ? 'el' : g.slug.includes('-spanish') ? 'es' : 'en'),
       type: 'guide',
       url: g.url || `${g.slug}.html`
     }))

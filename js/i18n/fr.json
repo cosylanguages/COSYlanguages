@@ -115,5 +115,30 @@
   },
   "long_reads": {
     "description": "Nous lisons et discutons des micro-chapitres de livres non-fictionnels, de livres audio et de podcasts longs exceptionnels. Explorez des idées profondes, analysez des chapitres et repoussez vos limites de conversation."
+  },
+  "blog": {
+    "backHome": "← Retour à l'accueil COSYlanguages",
+    "backBlog": "← Retour au Blog & Coin Éditorial",
+    "title": "Blog COSY",
+    "tagline": "Guides d'apprentissage des langues, cadres communicatifs et modèles de vocabulaire à travers toutes les langues.",
+    "print": "Imprimer 🖨️",
+    "latest": "Dernières publications",
+    "postFeed": "Flux des articles",
+    "search": "Recherche",
+    "searchPlaceholder": "Rechercher des articles...",
+    "labels": "Catégories",
+    "languageGuides": "Guides de Langues",
+    "archive": "Archives",
+    "readPost": "Lire l'article →",
+    "returnIndex": "← Retour à l'index du blog",
+    "writtenBy": "Rédigé par",
+    "published": "Publié le",
+    "minRead": "min de lecture",
+    "allPosts": "Tous les articles",
+    "resourceList": "Liste de ressources",
+    "ecosystemUpdate": "Mise à jour écosystème",
+    "curriculum": "Programme",
+    "masterGuide": "Guide principal",
+    "topicsLabels": "🏷️ Sujets & Étiquettes"
   }
 }

@@ -38,40 +38,26 @@
         <!-- Masthead -->
         <header class="blog-header">
             <div class="blog-header-top">
-                <a href="../index.html" class="back-home-link">← Back to COSYlanguages Home</a>
-                <button type="button" onclick="window.print()" class="blog-print-btn" aria-label="Print this page">Print 🖨️</button>
+                <a href="../index.html" class="back-home-link" data-i18n="blog.backHome">← Back to COSYlanguages Home</a>
+                <button type="button" onclick="window.print()" class="blog-print-btn" aria-label="Print this page" data-i18n="blog.print">Print 🖨️</button>
             </div>
-            <h1 class="blog-header-title"><a href="index.html">COSY Blog</a></h1>
-            <p class="blog-header-tagline" id="blog-tagline">Language learning guides, communicative frameworks, and master vocabulary blueprints across all target languages.</p>
+            <h1 class="blog-header-title"><a href="index.html" data-i18n="blog.title">COSY Blog</a></h1>
+            <p class="blog-header-tagline" id="blog-tagline" data-i18n="blog.tagline">Language learning guides, communicative frameworks, and master vocabulary blueprints across all target languages.</p>
             <div class="blog-issue-ribbon">
-                <span class="ribbon-label">Latest: September 14, 2026</span>
+                <span class="ribbon-label"><span data-i18n="blog.latest">Latest</span>: September 14, 2026</span>
             </div>
         </header>
 
         <!-- One Featured Post -->
         <section class="featured-post-hero" aria-label="Featured Post">
-            <span class="kicker">Resource List</span>
-            <h2 class="featured-title">
-                <a href="stop-translating-10-sentence-frames.html">Stop Translating! 10 Reusable Sentence Frames That Let You Speak From Day One</a>
-            </h2>
-            <p class="featured-dek">
-                Master 10 reusable sentence frames and 20 survival phrases that eliminate word-for-word translation, allowing beginners and intermediate learners to describe anything and think directly in English.
-            </p>
-            <div class="post-meta">
-                <span>By <strong>JY DM</strong></span>
-                <span class="meta-sep">·</span>
-                <span>September 14, 2026</span>
-                <span class="meta-sep">·</span>
-                <span>6 min read</span>
-            </div>
-            <a href="stop-translating-10-sentence-frames.html" class="read-post-btn">Read the post →</a>
+            <!-- Rendered dynamically -->
         </section>
 
         <!-- Main Layout: Single-Column Feed & Sidebar -->
         <div class="blog-layout">
             <main class="blog-main-col" id="blog-main">
                 <section aria-label="Blog Post Feed" id="feed-section">
-                    <h2 class="section-heading">Post Feed</h2>
+                    <h2 class="section-heading" data-i18n="blog.postFeed">Post Feed</h2>
 
                     <div id="feed-container" class="feed-container">
                         <!-- Card 1 -->
@@ -199,33 +185,33 @@
             <aside class="blog-sidebar" aria-label="Blog Sidebar">
                 <!-- Search Widget -->
                 <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">Search</h3>
+                    <h3 class="sidebar-widget-title" data-i18n="blog.search">Search</h3>
                     <div class="search-box">
-                        <input type="text" id="blog-search" class="search-input" placeholder="Search posts..." aria-label="Search posts" oninput="handleBlogSearch()">
+                        <input type="text" id="blog-search" class="search-input" placeholder="Search posts..." data-i18n-placeholder="blog.searchPlaceholder" aria-label="Search posts" oninput="handleBlogSearch()">
                     </div>
                 </div>
 
                 <!-- Labels Widget -->
                 <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">Labels</h3>
+                    <h3 class="sidebar-widget-title" data-i18n="blog.labels">Labels</h3>
                     <div class="label-cloud" id="sidebar-labels">
-                        <a href="#feed-section" data-category="all" class="sidebar-label-chip active">All Posts</a>
-                        <a href="#feed-section" data-category="Resource List" class="sidebar-label-chip">Resource List</a>
-                        <a href="#feed-section" data-category="Ecosystem Update" class="sidebar-label-chip">Ecosystem Update</a>
+                        <a href="#feed-section" data-category="all" class="sidebar-label-chip active" data-i18n="blog.allPosts">All Posts</a>
+                        <a href="#feed-section" data-category="Resource List" class="sidebar-label-chip" data-i18n="blog.resourceList">Resource List</a>
+                        <a href="#feed-section" data-category="Ecosystem Update" class="sidebar-label-chip" data-i18n="blog.ecosystemUpdate">Ecosystem Update</a>
                     </div>
                 </div>
 
                 <!-- Language Guides Widget -->
                 <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">Language Guides</h3>
+                    <h3 class="sidebar-widget-title" data-i18n="blog.languageGuides">Language Guides</h3>
                     <ul class="sidebar-list" id="language-guides-list">
-                        <!-- Populated dynamically or fallback rendered -->
+                        <!-- Populated dynamically -->
                     </ul>
                 </div>
 
                 <!-- Archive Widget -->
                 <div class="sidebar-widget">
-                    <h3 class="sidebar-widget-title">Archive</h3>
+                    <h3 class="sidebar-widget-title" data-i18n="blog.archive">Archive</h3>
                     <ul class="sidebar-list">
                         <li>
                             <a href="#feed-section" data-month="2026-09" onclick="filterBlogMonth('2026-09', event)"><strong>September 2026</strong></a>
@@ -297,21 +283,112 @@
     <script src="../js/core/ui.js"></script>
 
     <script>
+        let allBlogPosts = [];
         let selectedCategory = 'all';
         let selectedMonth = 'all';
+
+        async function loadBlogPosts() {
+            try {
+                const res = await fetch('posts.json?v=' + Date.now());
+                if (res.ok) {
+                    allBlogPosts = await res.json();
+                }
+            } catch (e) {
+                console.warn('[Blog] Could not fetch posts.json dynamically', e);
+            }
+            renderBlogFeed();
+        }
+
+        function getActiveUILang() {
+            return localStorage.getItem('cosy_ui_lang') || localStorage.getItem('cosy_last_language') || 'en';
+        }
+
+        function renderBlogFeed() {
+            if (!allBlogPosts || allBlogPosts.length === 0) return;
+
+            const uiLang = getActiveUILang();
+
+            // Group posts by topic/base slug to show posts matching UI language when available, falling back to English
+            const postsByTopic = {};
+            allBlogPosts.forEach(post => {
+                if (post.type === 'guide') return; // Guides rendered in sidebar
+                const baseSlug = post.slug.replace(/-(fr|ru|it|el|es)$/, '');
+                if (!postsByTopic[baseSlug]) postsByTopic[baseSlug] = [];
+                postsByTopic[baseSlug].push(post);
+            });
+
+            // Select best matching post per topic for current UI language
+            const activePosts = [];
+            Object.values(postsByTopic).forEach(variants => {
+                const langMatch = variants.find(v => (v.lang || 'en') === uiLang);
+                if (langMatch) {
+                    activePosts.push(langMatch);
+                } else {
+                    const enMatch = variants.find(v => (v.lang || 'en') === 'en') || variants[0];
+                    activePosts.push(enMatch);
+                }
+            });
+
+            // Sort newest first
+            activePosts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+            // 1. Featured Post
+            const featuredHero = document.querySelector('.featured-post-hero');
+            if (featuredHero && activePosts.length > 0) {
+                const featured = activePosts.find(p => p.featured) || activePosts[0];
+                featuredHero.innerHTML = `
+                    <span class="kicker">${featured.category}</span>
+                    <h2 class="featured-title">
+                        <a href="${featured.url}">${featured.title}</a>
+                    </h2>
+                    <p class="featured-dek">${featured.summary}</p>
+                    <div class="post-meta">
+                        <span><span data-i18n="blog.writtenBy">Written by</span> <strong>${featured.author}</strong></span>
+                        <span class="meta-sep">·</span>
+                        <span>${featured.date}</span>
+                        <span class="meta-sep">·</span>
+                        <span>${featured.reading_time} <span data-i18n="blog.minRead">min read</span></span>
+                    </div>
+                    <a href="${featured.url}" class="read-post-btn" data-i18n="blog.readPost">Read the post →</a>
+                `;
+            }
+
+            // 2. Feed Container
+            const feedContainer = document.getElementById('feed-container');
+            if (feedContainer) {
+                const featuredSlug = (activePosts.find(p => p.featured) || activePosts[0]).slug;
+                const feedPosts = activePosts.filter(p => p.slug !== featuredSlug);
+
+                feedContainer.innerHTML = feedPosts.map((p, idx) => `
+                    <article class="post-card" data-category="${p.category}" data-title="${p.title.replace(/"/g, '&quot;')}">
+                        <span class="kicker">${p.category}</span>
+                        <h3 class="post-card-title">
+                            <a href="${p.url}">${p.title}</a>
+                        </h3>
+                        <p class="post-card-dek">${p.summary}</p>
+                        <div class="post-meta">
+                            <span><span data-i18n="blog.writtenBy">By</span> <strong>${p.author}</strong></span>
+                            <span class="meta-sep">·</span>
+                            <span>${p.date}</span>
+                            <span class="meta-sep">·</span>
+                            <span>${p.reading_time} <span data-i18n="blog.minRead">min read</span></span>
+                        </div>
+                    </article>
+                    ${idx < feedPosts.length - 1 ? '<hr class="feed-rule">' : ''}
+                `).join('');
+            }
+
+            // Re-apply translations for UI chrome in case language switcher changed
+            if (window.COSY_UI_I18N && typeof window.COSY_UI_I18N.refresh === 'function') {
+                window.COSY_UI_I18N.refresh();
+            }
+        }
 
         function renderLanguageGuides() {
             const listEl = document.getElementById('language-guides-list');
             if (!listEl) return;
 
             const langs = window.COSY_LANGUAGES || [];
-            const count = langs.length;
-
-            // Compute guide count dynamically from guides.json target language guides (13 guides)
-            const taglineEl = document.getElementById('blog-tagline');
-            if (taglineEl && count > 0) {
-                taglineEl.textContent = `Language learning guides for 13 languages, communicative frameworks, and master vocabulary blueprints across all 14 site languages.`;
-            }
 
             const guideMap = {
                 'en': 'top-100-a0-a1-english.html',
@@ -400,9 +477,14 @@
             });
         }
 
+        document.addEventListener('cosyUILanguageChanged', () => {
+            renderBlogFeed();
+        });
+
         document.addEventListener('DOMContentLoaded', () => {
             renderLanguageGuides();
             setupLabelLinks();
+            loadBlogPosts();
         });
     </script>
 </body>

@@ -117,5 +117,30 @@
   },
   "long_reads": {
     "description": "We read and discuss micro chapters of outstanding non-fiction books, audiobooks, and long-form podcasts. Explore deep ideas, deconstruct chapters, and expand your conversational limits."
+  },
+  "blog": {
+    "backHome": "← Back to COSYlanguages Home",
+    "backBlog": "← Back to Blog & Editorial Hub",
+    "title": "COSY Blog",
+    "tagline": "Language learning guides, communicative frameworks, and master vocabulary blueprints across all target languages.",
+    "print": "Print 🖨️",
+    "latest": "Latest",
+    "postFeed": "Post Feed",
+    "search": "Search",
+    "searchPlaceholder": "Search posts...",
+    "labels": "Labels",
+    "languageGuides": "Language Guides",
+    "archive": "Archive",
+    "readPost": "Read the post →",
+    "returnIndex": "← Return to Blog Index",
+    "writtenBy": "Written by",
+    "published": "Published",
+    "minRead": "min read",
+    "allPosts": "All Posts",
+    "resourceList": "Resource List",
+    "ecosystemUpdate": "Ecosystem Update",
+    "curriculum": "Curriculum",
+    "masterGuide": "Master Guide",
+    "topicsLabels": "🏷️ Topics & Labels"
   }
 }

@@ -17,6 +17,7 @@
       "Greek"
     ],
     "featured": false,
+    "lang": "el",
     "type": "post",
     "url": "stop-translating-10-sentence-frames-el.html"
   },
@@ -38,6 +39,7 @@
       "French"
     ],
     "featured": false,
+    "lang": "fr",
     "type": "post",
     "url": "stop-translating-10-sentence-frames-fr.html"
   },
@@ -59,6 +61,7 @@
       "Italian"
     ],
     "featured": false,
+    "lang": "it",
     "type": "post",
     "url": "stop-translating-10-sentence-frames-it.html"
   },
@@ -80,6 +83,7 @@
       "Russian"
     ],
     "featured": false,
+    "lang": "ru",
     "type": "post",
     "url": "stop-translating-10-sentence-frames-ru.html"
   },
@@ -101,6 +105,7 @@
       "Communication"
     ],
     "featured": true,
+    "lang": "en",
     "type": "post",
     "url": "stop-translating-10-sentence-frames.html"
   },
@@ -122,6 +127,7 @@
       "Ελληνικά"
     ],
     "featured": false,
+    "lang": "el",
     "type": "post",
     "url": "replace-50-overused-phrases-el.html"
   },
@@ -143,6 +149,7 @@
       "Français"
     ],
     "featured": false,
+    "lang": "fr",
     "type": "post",
     "url": "replace-50-overused-phrases-fr.html"
   },
@@ -164,6 +171,7 @@
       "Italiano"
     ],
     "featured": false,
+    "lang": "it",
     "type": "post",
     "url": "replace-50-overused-phrases-it.html"
   },
@@ -185,6 +193,7 @@
       "Русский"
     ],
     "featured": false,
+    "lang": "ru",
     "type": "post",
     "url": "replace-50-overused-phrases-ru.html"
   },
@@ -205,6 +214,7 @@
       "B1-B2"
     ],
     "featured": false,
+    "lang": "en",
     "type": "post",
     "url": "replace-50-overused-phrases.html"
   },
@@ -226,6 +236,7 @@
       "Ελληνικά"
     ],
     "featured": false,
+    "lang": "el",
     "type": "post",
     "url": "replace-very-50-stronger-adjectives-el.html"
   },
@@ -247,6 +258,7 @@
       "Français"
     ],
     "featured": false,
+    "lang": "fr",
     "type": "post",
     "url": "replace-very-50-stronger-adjectives-fr.html"
   },
@@ -268,6 +280,7 @@
       "Italiano"
     ],
     "featured": false,
+    "lang": "it",
     "type": "post",
     "url": "replace-very-50-stronger-adjectives-it.html"
   },
@@ -289,6 +302,7 @@
       "Русский"
     ],
     "featured": false,
+    "lang": "ru",
     "type": "post",
     "url": "replace-very-50-stronger-adjectives-ru.html"
   },
@@ -309,6 +323,7 @@
       "B1-B2"
     ],
     "featured": false,
+    "lang": "en",
     "type": "post",
     "url": "replace-very-50-stronger-adjectives.html"
   },
@@ -330,6 +345,7 @@
       "Ελληνικά"
     ],
     "featured": false,
+    "lang": "el",
     "type": "post",
     "url": "top-10-verb-synonyms-intermediate-plateau-el.html"
   },
@@ -351,6 +367,7 @@
       "Français"
     ],
     "featured": false,
+    "lang": "fr",
     "type": "post",
     "url": "top-10-verb-synonyms-intermediate-plateau-fr.html"
   },
@@ -372,6 +389,7 @@
       "Italiano"
     ],
     "featured": false,
+    "lang": "it",
     "type": "post",
     "url": "top-10-verb-synonyms-intermediate-plateau-it.html"
   },
@@ -393,6 +411,7 @@
       "Русский"
     ],
     "featured": false,
+    "lang": "ru",
     "type": "post",
     "url": "top-10-verb-synonyms-intermediate-plateau-ru.html"
   },
@@ -413,6 +432,7 @@
       "Verbs"
     ],
     "featured": false,
+    "lang": "en",
     "type": "post",
     "url": "top-10-verb-synonyms-intermediate-plateau.html"
   },
@@ -432,6 +452,7 @@
       "LanguageLearning"
     ],
     "featured": true,
+    "lang": "en",
     "type": "post",
     "url": "welcome-to-cosy-blog.html"
   },
@@ -452,6 +473,7 @@
       "Curriculum"
     ],
     "featured": true,
+    "lang": "en",
     "type": "guide",
     "url": "top-100-a0-a1.html"
   },
@@ -471,6 +493,7 @@
       "A0-A1"
     ],
     "featured": false,
+    "lang": "en",
     "type": "guide",
     "url": "top-100-a0-a1-english.html"
   },
@@ -490,6 +513,7 @@
       "A0-A1"
     ],
     "featured": false,
+    "lang": "fr",
     "type": "guide",
     "url": "top-100-a0-a1-french.html"
   },
@@ -509,6 +533,7 @@
       "A0-A1"
     ],
     "featured": false,
+    "lang": "it",
     "type": "guide",
     "url": "top-100-a0-a1-italian.html"
   },
@@ -528,6 +553,7 @@
       "A0-A1"
     ],
     "featured": false,
+    "lang": "ru",
     "type": "guide",
     "url": "top-100-a0-a1-russian.html"
   },
@@ -547,6 +573,7 @@
       "A0-A1"
     ],
     "featured": false,
+    "lang": "el",
     "type": "guide",
     "url": "top-100-a0-a1-greek.html"
   },
@@ -566,6 +593,7 @@
       "A0-A1"
     ],
     "featured": false,
+    "lang": "es",
     "type": "guide",
     "url": "top-100-a0-a1-spanish.html"
   },
@@ -585,6 +613,7 @@
       "A0-A1"
     ],
     "featured": false,
+    "lang": "en",
     "type": "guide",
     "url": "top-100-a0-a1-german.html"
   },
@@ -604,6 +633,7 @@
       "A0-A1"
     ],
     "featured": false,
+    "lang": "en",
     "type": "guide",
     "url": "top-100-a0-a1-portuguese.html"
   },
@@ -623,6 +653,7 @@
       "A0-A1"
     ],
     "featured": false,
+    "lang": "en",
     "type": "guide",
     "url": "top-100-a0-a1-armenian.html"
   },
@@ -642,6 +673,7 @@
       "A0-A1"
     ],
     "featured": false,
+    "lang": "en",
     "type": "guide",
     "url": "top-100-a0-a1-georgian.html"
   },
@@ -661,6 +693,7 @@
       "A0-A1"
     ],
     "featured": false,
+    "lang": "en",
     "type": "guide",
     "url": "top-100-a0-a1-tatar.html"
   },
@@ -680,6 +713,7 @@
       "A0-A1"
     ],
     "featured": false,
+    "lang": "en",
     "type": "guide",
     "url": "top-100-a0-a1-bashkir.html"
   },
@@ -699,6 +733,7 @@
       "A0-A1"
     ],
     "featured": false,
+    "lang": "en",
     "type": "guide",
     "url": "top-100-a0-a1-breton.html"
   },
@@ -719,6 +754,7 @@
       "14Languages"
     ],
     "featured": true,
+    "lang": "en",
     "type": "guide",
     "url": "top-10-verbs.html"
   }
