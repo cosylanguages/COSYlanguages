@@ -53,7 +53,7 @@ function getEcosystemUrls(env, overrides) {
             practice: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'practice/index.html' : 'practice/index.html',
             tools: repoConfig.COSYtools,
             games: repoConfig.COSYgames,
-            events: repoConfig.COSYevents,
+            events: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'apps/premium-events/index.html' : 'apps/premium-events/index.html',
             placement_quiz: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'placement-quiz.html' : 'placement-quiz.html',
             calculator: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'index.html#calculator' : 'index.html#calculator',
             blog: repoConfig.COSYlanguages ? repoConfig.COSYlanguages + 'blog/index.html' : 'blog/index.html',
@@ -627,16 +627,7 @@ function updateMobileNavTranslated() {
 
     items.forEach(item => item.classList.remove('active'));
 
-    if (path.includes('/practice')) {
-      const p = document.getElementById('mnav-practice');
-      if (p) p.classList.add('active');
-    } else if (path.includes('/courses')) {
-      const c = document.getElementById('mnav-courses');
-      if (c) c.classList.add('active');
-    } else if (path === '/' || path.endsWith('/index.html') && !path.includes('/practice') && !path.includes('/courses') && !path.includes('/blog') && !path.includes('/games') && !path.includes('/apps') && !path.includes('/languages')) {
-      const h = document.getElementById('mnav-home');
-      if (h) h.classList.add('active');
-    }
+    updateNavActiveState();
 }
 
 if (typeof window !== 'undefined') {
