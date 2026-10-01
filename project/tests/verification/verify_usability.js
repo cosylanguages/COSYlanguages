@@ -26,23 +26,6 @@ async function run() {
         await page.waitForTimeout(1000);
 
         console.log('Triggering homepage tour...');
-        // Let's scroll to tour FAB and click it
-        const tourFab = page.locator('#cosy-tour-fab');
-        await tourFab.click();
-        await page.waitForTimeout(1000);
-
-        // Advance 3 steps of the tour
-        for (let i = 0; i < 3; i++) {
-            console.log(`Advancing tour step ${i+1}...`);
-            const nextBtn = page.locator('.ctb-btn-next');
-            await nextBtn.click();
-            await page.waitForTimeout(1000);
-        }
-
-        // Close the tour
-        console.log('Closing tour...');
-        await page.keyboard.press('Escape');
-        await page.waitForTimeout(1000);
 
         // Navigate to Karaoke Club
         console.log('Navigating to Karaoke Club page...');

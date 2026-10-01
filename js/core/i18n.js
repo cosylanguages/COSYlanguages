@@ -32,7 +32,9 @@
     /**
      * Fetches the UI strings JSON for a given language.
      */
+    const EXISTING_UI_DATA_LANGS = ["ba", "br", "de", "el", "en", "es", "fr", "hy", "it", "ka", "pt", "ru", "tt"];
     async function fetchTranslations(lang) {
+        if (!lang || !EXISTING_UI_DATA_LANGS.includes(lang)) return {};
         if (!lang) return {};
 
         const prefix = (window.COSY && typeof window.COSY.getPrefix === 'function')

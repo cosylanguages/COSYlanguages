@@ -74,7 +74,8 @@
             console.error('[i18n] Failed to load English fallback translations', e);
         }
 
-        if (currentUILang !== 'en') {
+        const EXISTING_I18N_LANGS = ["el", "en", "es", "fr", "it", "ru"];
+        if (currentUILang !== 'en' && EXISTING_I18N_LANGS.includes(currentUILang)) {
             try {
                 const langRes = await fetch(`${prefix}js/i18n/${currentUILang}.json?v=${Date.now()}`);
                 if (langRes.ok) {

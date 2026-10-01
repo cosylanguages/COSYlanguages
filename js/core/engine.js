@@ -22,7 +22,7 @@ const DEFAULT_ECOSYSTEM_URLS = {
     practice: 'practice/index.html',
     tools: 'https://cosylanguages.github.io/COSYtools/',
     games: 'https://cosylanguages.github.io/COSYgames/',
-    events: 'https://cosylanguages.github.io/COSYevents/',
+    events: 'apps/premium-events/index.html',
     placement_quiz: 'placement-quiz.html',
     calculator: 'index.html#calculator',
     blog: 'blog/index.html',
@@ -183,79 +183,22 @@ function getPrefix() {
 function isActive (href) {
     const cleanHref = href.split('?')[0].split('#')[0];
     const path = window.location.pathname;
+    const items = document.querySelectorAll(.mobile-nav-item);
 
-    // Home page special case (root or index.html not in a subfolder)
-    if (cleanHref === 'index.html' || cleanHref === './index.html') {
-        const isSubfolder = /\/(practice|games)\//.test(path);
-        if (!isSubfolder && (path.endsWith('/') || path.endsWith('index.html'))) return 'class="active"';
+    items.forEach(item => {
+      item.classList.remove(active);
+    });
+
+    if (path.includes(/practice)) {
+      const p = document.getElementById(mnav-practice);
+      if (p) p.classList.add(active);
+    } else if (path.includes(/courses)) {
+      const c = document.getElementById(mnav-courses);
+      if (c) c.classList.add(active);
+    } else if (path === / || path.endsWith(/index.html) && !path.includes(/practice) && !path.includes(/courses) && !path.includes(/blog) && !path.includes(/games) && !path.includes(/apps) && !path.includes(/languages)) {
+      const h = document.getElementById(mnav-home);
+      if (h) h.classList.add(active);
     }
-
-    // Sub-app matching (e.g. "practice/index.html" matches any path containing "/practice/")
-    const parts = cleanHref.split('/');
-    const folder = parts.find(p => p && p !== '..' && p !== '.');
-    if (folder && folder !== 'index.html') {
-        if (path.includes('/' + folder + '/')) return 'class="active"';
-    }
-
-    // Direct filename match
-    const filename = parts[parts.length - 1];
-    if (path.endsWith(filename) && path.includes(folder || '')) return 'class="active"';
-
-    return '';
-}
-
-function updateNavActiveState() {
-    const navLinks = document.querySelectorAll('nav a, #cosy-nav a, #main-nav a, .mobile-nav a');
-    const currentUrl = new URL(window.location.href);
-    const pathParts = currentUrl.pathname.split('/').filter(p => p);
-    const currentFilename = pathParts[pathParts.length - 1] || 'index.html';
-    const currentHash = currentUrl.hash;
-
-    // Check WhatsApp floating button visibility according to prompt item 6:
-    // Show only on /, courses/*, about/, languages/* and placement-quiz.html
-    // Hide on practice, games, blog, privacy
-    const waFab = document.querySelector('.wa-fab');
-    if (waFab) {
-        const path = currentUrl.pathname.toLowerCase();
-        const isDisallowed = path.includes('/practice') || path.includes('/games') || path.includes('/blog') || path.includes('privacy.html');
-        if (isDisallowed) {
-            waFab.classList.add('hide-wa-fab');
-            waFab.setAttribute('data-hidden', 'true');
-        } else {
-            waFab.classList.remove('hide-wa-fab');
-            waFab.removeAttribute('data-hidden');
-        }
-    }
-
-    navLinks.forEach(link => {
-        const href = link.getAttribute('href');
-        if (!href || href.startsWith('http') || href.startsWith('mailto:')) return;
-
-        link.classList.remove('active');
-
-        // Resolve relative href to absolute path for comparison
-        try {
-            const linkUrl = new URL(href, window.location.origin + window.location.pathname);
-            const linkPathParts = linkUrl.pathname.split('/').filter(p => p);
-            const linkFilename = linkPathParts[linkPathParts.length - 1] || 'index.html';
-            const linkHash = linkUrl.hash;
-
-            // Simple match: filename + hash
-            if (linkFilename === currentFilename) {
-                if (linkHash) {
-                    if (linkHash === currentHash) link.classList.add('active');
-                } else if (!currentHash) {
-                    link.classList.add('active');
-                }
-            }
-
-            // Subfolder match for core sections
-            const coreFolders = ['practice', 'games', 'events'];
-            coreFolders.forEach(folder => {
-                if (pathParts.includes(folder) && linkPathParts.includes(folder)) {
-                    link.classList.add('active');
-                }
-            });
 
         } catch (e) {}
     });
@@ -662,26 +605,27 @@ function updateMobileNavTranslated() {
     const coursesHref = getNavHref('courses');
 
     mobileNav.innerHTML = `
-        <a href="${practiceHref}" class="mobile-nav-item" id="mnav-practice" data-i18n="nav.practice"><span class="mn-icon">💡</span><span>${t('practice', 'Practice')}</span></a>
-        <a href="${gamesHref}" ${gamesHref.startsWith('http') ? 'target="_blank" rel="noopener"' : ''} class="mobile-nav-item" id="mnav-games" data-i18n="nav.games"><span class="mn-icon">🎮</span><span>${t('games', 'Games')}</span></a>
-        <a href="${eventsHref}" ${eventsHref.startsWith('http') ? 'target="_blank" rel="noopener"' : ''} class="mobile-nav-item" id="mnav-events" data-i18n="nav.events"><span class="mn-icon">🎉</span><span>${t('events', 'Events')}</span></a>
-        <a href="${coursesHref}" class="mobile-nav-item" id="mnav-courses" data-i18n="nav.courses"><span class="mn-icon">📚</span><span>${t('courses', 'Courses')}</span></a>
-        <a href="${homeHref}" class="mobile-nav-item" id="mnav-home" data-i18n="nav.home"><span class="mn-icon">🏡</span><span>${t('home', 'Home')}</span></a>`;
+        <a href="${practiceHref}" class="mobile-nav-item" id="mnav-practice"><span class="mn-icon">💡</span><span data-i18n="nav.practice">${t('practice', 'Practice')}</span></a>
+        <a href="${gamesHref}" ${gamesHref.startsWith('http') ? 'target="_blank" rel="noopener"' : ''} class="mobile-nav-item" id="mnav-games"><span class="mn-icon">🎮</span><span data-i18n="nav.games">${t('games', 'Games')}</span></a>
+        <a href="${eventsHref}" ${eventsHref.startsWith('http') ? 'target="_blank" rel="noopener"' : ''} class="mobile-nav-item" id="mnav-events"><span class="mn-icon">🎉</span><span data-i18n="nav.events">${t('events', 'Events')}</span></a>
+        <a href="${coursesHref}" class="mobile-nav-item" id="mnav-courses"><span class="mn-icon">📚</span><span data-i18n="nav.courses">${t('courses', 'Courses')}</span></a>
+        <a href="${homeHref}" class="mobile-nav-item" id="mnav-home"><span class="mn-icon">🏡</span><span data-i18n="nav.home">${t('home', 'Home')}</span></a>`;
 
     const path = window.location.pathname;
-    const currentFilename = path.split('/').pop() || 'index.html';
     const items = document.querySelectorAll('.mobile-nav-item');
 
-    items.forEach(item => {
-      const href = item.getAttribute('href') || '';
-      const linkFilename = href.split('#')[0].split('/').pop() || 'index.html';
-      let active = (currentFilename === linkFilename);
-      if (active) {
-        item.classList.add('active');
-      } else {
-        item.classList.remove('active');
-      }
-    });
+    items.forEach(item => item.classList.remove('active'));
+
+    if (path.includes('/practice')) {
+      const p = document.getElementById('mnav-practice');
+      if (p) p.classList.add('active');
+    } else if (path.includes('/courses')) {
+      const c = document.getElementById('mnav-courses');
+      if (c) c.classList.add('active');
+    } else if (path === '/' || path.endsWith('/index.html') && !path.includes('/practice') && !path.includes('/courses') && !path.includes('/blog') && !path.includes('/games') && !path.includes('/apps') && !path.includes('/languages')) {
+      const h = document.getElementById('mnav-home');
+      if (h) h.classList.add('active');
+    }
 }
 
 if (typeof window !== 'undefined') {

@@ -685,9 +685,6 @@
             const q = this.session.sessionQueue[this.session.currentIndex];
             if (q && q.item) {
                 updateItemSRS(q.item, true, this.session.lang);
-                if (window.COSY?.addToDict) {
-                    window.COSY.addToDict(q.item);
-                }
             }
         },
 
