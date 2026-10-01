@@ -603,11 +603,11 @@
       const coursesHref = getNavHref('courses');
 
       mobileNav.innerHTML = `
-        <a href="${practiceHref}" class="mobile-nav-item" id="mnav-practice"><span class="mn-icon">💡</span><span>Practice</span></a>
-        <a href="${gamesHref}" ${gamesHref.startsWith('http') ? 'target="_blank" rel="noopener"' : ''} class="mobile-nav-item" id="mnav-games"><span class="mn-icon">🎮</span><span>Games</span></a>
-        <a href="${eventsHref}" ${eventsHref.startsWith('http') ? 'target="_blank" rel="noopener"' : ''} class="mobile-nav-item" id="mnav-events"><span class="mn-icon">🎉</span><span>Events</span></a>
-        <a href="${coursesHref}" class="mobile-nav-item" id="mnav-courses"><span class="mn-icon">📚</span><span>Courses</span></a>
-        <a href="${homeHref}" class="mobile-nav-item" id="mnav-home"><span class="mn-icon">🏡</span><span>Home</span></a>`;
+        <a href="${practiceHref}" class="mobile-nav-item" id="mnav-practice"><span class="mn-icon">💡</span><span data-i18n="nav.practice">Practice</span></a>
+        <a href="${gamesHref}" ${gamesHref.startsWith('http') ? 'target="_blank" rel="noopener"' : ''} class="mobile-nav-item" id="mnav-games"><span class="mn-icon">🎮</span><span data-i18n="nav.games">Games</span></a>
+        <a href="${eventsHref}" ${eventsHref.startsWith('http') ? 'target="_blank" rel="noopener"' : ''} class="mobile-nav-item" id="mnav-events"><span class="mn-icon">🎉</span><span data-i18n="nav.events">Events</span></a>
+        <a href="${coursesHref}" class="mobile-nav-item" id="mnav-courses"><span class="mn-icon">📚</span><span data-i18n="nav.courses">Courses</span></a>
+        <a href="${homeHref}" class="mobile-nav-item" id="mnav-home"><span class="mn-icon">🏡</span><span data-i18n="nav.home">Home</span></a>`;
 
       const path = window.location.pathname;
       const currentFilename = path.split('/').pop() || 'index.html';
@@ -4759,11 +4759,14 @@
             const nav = document.createElement('nav');
             const prefix = (window.COSY && typeof window.COSY.getPrefix === 'function') ? window.COSY.getPrefix() : '';
             nav.className = 'mobile-nav';
+            const eventsHref = (window.COSY && typeof window.COSY.getNavHref === 'function') ? window.COSY.getNavHref('events') : `${prefix}apps/premium-events/index.html`;
+            const coursesHref = (window.COSY && typeof window.COSY.getNavHref === 'function') ? window.COSY.getNavHref('courses') : `${prefix}index.html#courses`;
             nav.innerHTML = `
-                <a href="${prefix}practice/index.html" class="mobile-nav-item" id="mnav-practice"><span class="mn-icon">💡</span><span>Practice</span></a>
-                <a href="https://cosylanguages.github.io/COSYgames/" class="mobile-nav-item" id="mnav-games"><span class="mn-icon">🎮</span><span>Games</span></a>
-                <a href="https://cosylanguages.github.io/COSYevents/" class="mobile-nav-item" id="mnav-events"><span class="mn-icon">🎉</span><span>Events</span></a>
-                <a href="${prefix}index.html" class="mobile-nav-item" id="mnav-home"><span class="mn-icon">🏡</span><span>Home</span></a>`;
+                <a href="${prefix}practice/index.html" class="mobile-nav-item" id="mnav-practice"><span class="mn-icon">💡</span><span data-i18n="nav.practice">Practice</span></a>
+                <a href="https://cosylanguages.github.io/COSYgames/" target="_blank" rel="noopener" class="mobile-nav-item" id="mnav-games"><span class="mn-icon">🎮</span><span data-i18n="nav.games">Games</span></a>
+                <a href="${eventsHref}" class="mobile-nav-item" id="mnav-events"><span class="mn-icon">🎉</span><span data-i18n="nav.events">Events</span></a>
+                <a href="${coursesHref}" class="mobile-nav-item" id="mnav-courses"><span class="mn-icon">📚</span><span data-i18n="nav.courses">Courses</span></a>
+                <a href="${prefix}index.html" class="mobile-nav-item" id="mnav-home"><span class="mn-icon">🏡</span><span data-i18n="nav.home">Home</span></a>`;
             document.body.appendChild(nav);
         }
 

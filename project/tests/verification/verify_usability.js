@@ -25,8 +25,6 @@ async function run() {
         await page.goto('http://localhost:8080/');
         await page.waitForTimeout(1000);
 
-        console.log('Triggering homepage tour...');
-
         // Navigate to Karaoke Club
         console.log('Navigating to Karaoke Club page...');
         await page.goto('http://localhost:8080/events/karaoke-club.html');

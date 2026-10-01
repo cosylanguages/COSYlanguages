@@ -32,8 +32,17 @@ jobs:
       - name: Validate Public Entry Pages
         run: npx html-validate index.html login.html privacy.html placement-quiz.html vocabulary/index.html 'languages/*/index.html' 'languages/fr/marathon*.html' 'languages/fr/marathon/*.html'
 
-      - name: Validate Application JavaScript Syntax
-        run: find js practice apps print-studio shared -type f -name '*.js' -print0 | xargs -0 -n1 node --check
+      - name: Check JavaScript Syntax
+        run: npm run check:js-syntax
+
+      - name: Check Inline JavaScript Syntax
+        run: npm run check:inline-js
+
+      - name: Install Playwright Browsers for Smoke Test
+        run: npx playwright install chromium
+
+      - name: Run Smoke Checks
+        run: npm run check:smoke
 
       - name: Run Grammar Logic Tests
         run: >-
