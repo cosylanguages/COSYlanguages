@@ -19,7 +19,6 @@ const STATIC_ASSETS = [
   './apps/classroom-sync/index.html',
   './practice/index.html',
   './practice/cognitive-immersion.html',
-  './https://cosylanguages.github.io/COSYevents/',
   './css/base.css',
   './css/components.css',
   './css/layout.css',

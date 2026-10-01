@@ -29,6 +29,16 @@ jobs:
         run: |
           node scripts/verify_vocab_pool.js
 
+      - name: Validate Public Entry Pages
+        run: npx html-validate index.html login.html privacy.html placement-quiz.html
+
+      - name: Run Grammar Logic Tests
+        run: >-
+          npx playwright test
+          project/tests/adjective_architecture_validation.spec.ts
+          project/tests/relational_architecture_validation.spec.ts
+          --reporter=line
+
       - name: Check Canonical Footer Consistency
         run: |
           npm run check:footer
@@ -37,7 +47,7 @@ jobs:
         run: |
           npm run check:names
 
-      - name: Validate HTML templates/core
+      - name: Report Existing HTML Issues (non-blocking)
         run: |
           npx html-validate "*.html" "practice/*.html" "games/*.html" "vocabulary/*.html" || true
 

@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
-const GRAMMAR_CONFIG = require('../js/data/grammar_config.js');
-const Morphology = require('../js/core/morphology.js');
-const Linguistics = require('../js/core/linguistics.js');
+const GRAMMAR_CONFIG = require('../../js/data/grammar_config.js');
+const Morphology = require('../../js/core/morphology.js');
+const Linguistics = require('../../js/core/linguistics.js');
 
 // Mock globals for node environment
 global.GRAMMAR_CONFIG = GRAMMAR_CONFIG;

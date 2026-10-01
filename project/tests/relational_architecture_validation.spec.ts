@@ -1,9 +1,9 @@
 import { test, expect } from '@playwright/test';
 
 // In Node environment, we need to mock or load the linguistics and grammar config
-const GRAMMAR_CONFIG = require('../js/data/grammar_config.js');
-const Morphology = require('../js/core/morphology.js');
-const Linguistics = require('../js/core/linguistics.js');
+const GRAMMAR_CONFIG = require('../../js/data/grammar_config.js');
+const Morphology = require('../../js/core/morphology.js');
+const Linguistics = require('../../js/core/linguistics.js');
 
 // Setup global environment for the engines
 global.GRAMMAR_CONFIG = GRAMMAR_CONFIG;

@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy & Data Sovereignty - COSYlanguages</title>
+    <title>Privacy &amp; Data Sovereignty - COSYlanguages</title>
     <meta name="description" content="COSYlanguages privacy disclosure: transparent local storage usage, service worker caching, and external service requests.">
     <link rel="canonical" href="https://cosylanguages.github.io/COSYlanguages/privacy.html">
-    <meta property="og:title" content="Privacy & Data Sovereignty - COSYlanguages">
+    <meta property="og:title" content="Privacy &amp; Data Sovereignty - COSYlanguages">
     <meta property="og:description" content="Transparent local storage usage, service worker caching, and external service requests at COSYlanguages.">
     <meta property="og:image" content="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
     <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/privacy.html">
@@ -130,7 +130,7 @@
 <nav id="cosy-nav" aria-label="Main navigation"></nav>
 
 <header class="privacy-hero">
-    <h1>Privacy & Data Sovereignty</h1>
+    <h1>Privacy &amp; Data Sovereignty</h1>
     <p class="hero-sub">Transparent disclosure of technical storage, service worker caching, and external service requests.</p>
 </header>
 
@@ -142,23 +142,25 @@
     </div>
 
     <section class="privacy-section">
-        <h2>Site Operator & Contact Information</h2>
-        <!-- TODO: needs content from owner -->
+        <h2>Site Operator &amp; Contact Information</h2>
+        <p>This project is published as COSYlanguages. For questions about this site, contact <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com</a>. This repository does not identify the legal operator, postal address, or applicable jurisdiction; those details must be confirmed by the operator before this page can serve as a complete legal notice.</p>
     </section>
 
     <section class="privacy-section">
         <h2>Third-Party Requests</h2>
         <p>When you visit pages across COSYlanguages (including home, practice, courses, and blog pages), your browser makes network requests to the following external domains:</p>
         <ul>
-            <li><strong>Google Fonts (`fonts.googleapis.com` & `fonts.gstatic.com`):</strong> Used to load site typography fonts (Fraunces, DM Sans, Nunito, Lora).</li>
+            <li><strong>Google Fonts (`fonts.googleapis.com` &amp; `fonts.gstatic.com`):</strong> Used to load site typography fonts (Fraunces, DM Sans, Nunito, Lora).</li>
             <li><strong>WhatsApp (`wa.me`):</strong> Contact links for student inquiries and course registration.</li>
             <li><strong>Telegram (`t.me`):</strong> Public channel and direct message contact links.</li>
             <li><strong>COSY Ecosystem Repositories (`cosylanguages.github.io`):</strong> Links and data fetches to companion ecosystem sites including COSYtools, COSYgames, COSYevents, COSYmanuals, COSYdata, and COSYplatform.</li>
+            <li><strong>Supabase (`ulklvwevdegbafohqrtr.supabase.co`, sign-in only):</strong> The sign-in page sends the submitted email and password to Supabase Auth. After sign-in, it requests the account's `role` from the `profiles` table. The Supabase client can persist an authentication session in browser storage.</li>
+            <li><strong>jsDelivr (`cdn.jsdelivr.net`, sign-in only):</strong> Delivers the Supabase JavaScript client used by the sign-in page.</li>
         </ul>
     </section>
 
     <section class="privacy-section">
-        <h2>Local Storage & Session Storage Usage</h2>
+        <h2>Local Storage &amp; Session Storage Usage</h2>
         <p>COSYlanguages uses your browser's `localStorage` to preserve your learning state between visits. The stored keys include:</p>
         <ul>
             <li><code class="storage-key">cosy-dict</code>: Saved vocabulary items in your personal notebook.</li>
@@ -167,9 +169,9 @@
             <li><code class="storage-key">cosy-last-practice</code>: Date timestamp of your last completed practice session.</li>
             <li><code class="storage-key">cosy-points</code>: Total accumulated experience points (XP).</li>
             <li><code class="storage-key">selected-speaking-club-level</code>: Saved CEFR level choice for speaking club filtering.</li>
-            <li><code class="storage-key">cosy-i18n-lang</code> & <code class="storage-key">cosy_lang_lock</code>: Interface language preference and lock state.</li>
+            <li><code class="storage-key">cosy-i18n-lang</code> &amp; <code class="storage-key">cosy_lang_lock</code>: Interface language preference and lock state.</li>
             <li><code class="storage-key">cosy_audience_preference</code>: Presentation adaptation preference (Children, Teens, Adults, Seniors).</li>
-            <li><code class="storage-key">cosy_accessibility_text_scale</code> & <code class="storage-key">cosy_accessibility_reduced_motion</code>: Accessibility display preferences.</li>
+            <li><code class="storage-key">cosy_accessibility_text_scale</code> &amp; <code class="storage-key">cosy_accessibility_reduced_motion</code>: Accessibility display preferences.</li>
         </ul>
     </section>
 
@@ -179,17 +181,17 @@
     </section>
 
     <section class="privacy-section">
-        <h2>Messaging & Direct Communications</h2>
-        <!-- TODO: needs content from owner -->
+        <h2>Messaging &amp; Direct Communications</h2>
+        <p>WhatsApp and Telegram links open services operated by third parties. Messages sent through them may include account identifiers and any personal information the sender chooses to share. This repository does not document how long COSYlanguages retains or uses those messages; consult the service providers' privacy information and contact COSYlanguages before sharing sensitive information.</p>
     </section>
 
     <section class="privacy-section">
         <h2>Children's Privacy</h2>
-        <!-- TODO: needs content from owner -->
+        <p>This repository does not publish an age limit, parental-consent process, or child-specific data policy. The sign-in page uses Supabase Auth, and messages may be sent through WhatsApp or Telegram. Parents and guardians should contact <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com</a> before a minor creates or uses an account or shares personal information. The operator must confirm and publish the applicable policy.</p>
     </section>
 
     <section class="privacy-section">
-        <h2>Local Storage Audit & Management Console</h2>
+        <h2>Local Storage Audit &amp; Management Console</h2>
         <div class="interactive-panel">
             <h3>🎛️ Local Storage Console</h3>
             <p>Inspect or clear the variables COSYlanguages has currently saved in your browser:</p>
@@ -199,8 +201,8 @@
             </div>
 
             <div class="privacy-btn-row" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
-                <button onclick="refreshStorageConsole()" class="btn-secondary">🔄 Refresh Audit</button>
-                <button onclick="clearAllCozyData()" class="btn-danger-cozy">⚠️ Clear All Learning Data</button>
+                <button type="button" onclick="refreshStorageConsole()" class="btn-secondary">🔄 Refresh Audit</button>
+                <button type="button" onclick="clearAllCozyData()" class="btn-danger-cozy">⚠️ Clear All Learning Data</button>
             </div>
         </div>
     </section>
@@ -233,7 +235,7 @@
       <a href="comparative/index.html">Grammar Atlas 🌐</a>
       <a href="placement-quiz.html">Placement Quiz 📝</a>
       <a href="hybrid/index.html">Hybrid &amp; Community 🌿</a>
-      <a href="blog/index.html">Blog & Top 100 📝</a>
+      <a href="blog/index.html">Blog &amp; Top 100 📝</a>
       <a href="apps/index.html">Reference Engines 🔎</a>
       <a href="apps/premium-events/index.html">Events 🎉</a>
     </div>

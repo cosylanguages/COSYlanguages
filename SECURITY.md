@@ -1,14 +1,14 @@
 # Security Policy: COSYlanguages Repository & Platform Protection
 
-At COSYlanguages, we prioritize the absolute security, safety, and privacy of both our students and educators. Because we do not use a cloud database or centralized servers for user accounts, our security model focuses on safeguarding our open-source codebase, securing client-side states, and protecting administrative integration keys.
+At COSYlanguages, we prioritize the security, safety, and privacy of students and educators. Most learning state in this repository is stored in the browser, but the sign-in page uses Supabase Auth and reads account roles from a Supabase `profiles` table. Do not describe the whole ecosystem as zero-collection or accountless; each product's data flows and access controls must be documented separately.
 
 ---
 
-## 1. Zero-Collection Privacy Architecture
-COSYlanguages does **not** collect, store, or track any student or teacher data.
-- **No Databases:** There is no centralized database to hack or breach.
-- **Client-Side Sovereignty:** All student portfolios, custom vocab dictionaries, practice metrics, and streaks are stored strictly within the user's browser `localStorage`.
-- **Zero Tracker Cookies:** We do not use advertising, tracking, or telemetry cookies.
+## 1. Data Storage Boundaries
+- **Learning state:** Practice metrics, saved vocabulary, and preferences are generally stored in the user's browser. See `privacy.html` for the documented local-storage keys.
+- **Authentication:** `login.html` sends credentials to Supabase Auth and reads a role from the Supabase `profiles` table. Confirm provider retention, account deletion, and Row Level Security policies in the Supabase project and publish those details in the privacy notice.
+- **Other products and communications:** Companion repositories and third-party messaging services may have separate data flows; do not assume this repository's local-storage behavior applies to them.
+- **Tracking:** No analytics or advertising tracker is evident in this repository's entry-page code. Recheck third-party scripts and companion products before making a site-wide no-tracking claim.
 
 ---
 
