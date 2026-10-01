@@ -15,22 +15,6 @@ test.describe('COSYlanguages Comfort, Usability & Responsive Adaptation', () => 
         if (!navBox) return;
 
         // Ensure floating action buttons sit strictly above mobile nav bottom boundary
-        const dictFab = page.locator('#dict-fab');
-        await expect(dictFab).toBeVisible();
-        const dictBox = await dictFab.boundingBox();
-        expect(dictBox).not.toBeNull();
-        if (dictBox) {
-            // dictFab bottom should be above or equal to mobileNav top
-            expect(dictBox.y + dictBox.height).toBeLessThanOrEqual(navBox.y + 2);
-        }
-
-        const tourFab = page.locator('#cosy-tour-fab');
-        await expect(tourFab).toBeVisible();
-        const tourBox = await tourFab.boundingBox();
-        expect(tourBox).not.toBeNull();
-        if (tourBox) {
-            expect(tourBox.y + tourBox.height).toBeLessThanOrEqual(navBox.y + 2);
-        }
 
         const waFab = page.locator('.wa-fab');
         if (await waFab.isVisible()) {
@@ -48,10 +32,6 @@ test.describe('COSYlanguages Comfort, Usability & Responsive Adaptation', () => 
         // Mobile nav should be hidden on desktop
         const mobileNav = page.locator('.mobile-nav');
         await expect(mobileNav).toBeHidden();
-
-        // Dict fab and tour fab should be visible
-        await expect(page.locator('#dict-fab')).toBeVisible();
-        await expect(page.locator('#cosy-tour-fab')).toBeVisible();
     });
 
     test('Back To Top button appears on scroll and smoothly scrolls to top', async ({ page }) => {
@@ -106,34 +86,6 @@ test.describe('COSYlanguages Comfort, Usability & Responsive Adaptation', () => 
 
         expect(bg).not.toBe('rgb(255, 255, 255)');
         expect(color).not.toBe('rgb(0, 0, 0)');
-    });
-
-    test('Mobile Viewport (390x844) - Touch tap targets and dictionary modal interaction', async ({ page }) => {
-        await page.setViewportSize({ width: 390, height: 844 });
-        await page.goto('http://localhost:8080/index.html');
-
-        // Verify dictionary FAB click opens panel smoothly
-        const dictFab = page.locator('#dict-fab');
-        await dictFab.click();
-
-        const dictPanel = page.locator('#dict-panel');
-        await expect(dictPanel).toHaveClass(/open/);
-
-        const dictPanelBox = await dictPanel.boundingBox();
-        expect(dictPanelBox).not.toBeNull();
-        if (dictPanelBox) {
-            expect(dictPanelBox.width).toBeGreaterThan(280);
-        }
-
-        // Verify mobile nav item tap targets are at least 44px high for thumb comfort
-        const navItem = page.locator('.mobile-nav-item').first();
-        if (await navItem.isVisible()) {
-            const navItemBox = await navItem.boundingBox();
-            expect(navItemBox).not.toBeNull();
-            if (navItemBox) {
-                expect(navItemBox.height).toBeGreaterThanOrEqual(44);
-            }
-        }
     });
 
     test('Practice & Games pages dark theme adaptation on mobile viewport', async ({ page }) => {

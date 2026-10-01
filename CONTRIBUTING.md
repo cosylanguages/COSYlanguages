@@ -43,3 +43,11 @@ Please open an issue to discuss before submitting PRs that affect:
 4. Ensure all JSON data files conform to valid JSON formatting.
 5. Commit your changes with clear, descriptive commit messages.
 6. Push to your fork and submit a Pull Request.
+
+## 📌 Paths used by other repositories (do not move or rename)
+
+The following asset paths in this repository are referenced by external ecosystem repositories (such as COSYevents) via absolute URLs and must not be moved or renamed:
+- `shared/images/logo.png`
+- `images/icouldnthelpbutwonder.png`
+- `images/logos/speaking clubs/` (and everything under it)
+- `shared/css/tokens.css`

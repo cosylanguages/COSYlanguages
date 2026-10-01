@@ -23,7 +23,6 @@ for f in new_files:
     with open(f, encoding='utf-8') as fp:
         c = fp.read()
     assert len(c) > 5000, f"File content too small: {f}"
-    assert 'COSY.addToDict' in c, f"Missing COSY.addToDict: {f}"
     assert '📖 Session Vocabulary' in c, f"Missing Vocab section: {f}"
     assert '🎙️ Discussion Structure' in c, f"Missing Discussion section: {f}"
 print(f"-> All {len(new_files)} files exist and passed checks.")

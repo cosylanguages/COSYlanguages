@@ -170,22 +170,6 @@ html[data-theme="dark"], body.theme-dark {
     padding-left: 10px;
     border-left: 2px solid var(--cream);
 }
-.btn-add-dict {
-    background: none;
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    padding: 2px 8px;
-    font-size: .7rem;
-    cursor: pointer;
-    color: var(--muted);
-    margin-top: 5px;
-    transition: all .2s;
-}
-.btn-add-dict:hover {
-    background: var(--cream);
-    border-color: var(--teal);
-    color: var(--teal);
-}
 .btn-pronounce {
     background: none;
     border: 1px solid var(--border);
@@ -566,7 +550,7 @@ vim-choice, vim-instruction, vim-blockquote, vim-image { display: block; }
 
 /* ── Print/PDF Styles ────────────────────────────── */
 @media print {
-    nav, #cosy-nav, footer, .back-link, .cosy-breadcrumbs, .btn-add-dict, .btn-pronounce, .btn-print, .round-toggle, .club-filters, .filter-btn, .vim-instruction, .btn-play-game {
+    nav, #cosy-nav, footer, .back-link, .cosy-breadcrumbs, .btn-pronounce, .btn-print, .round-toggle, .club-filters, .filter-btn, .vim-instruction, .btn-play-game {
         display: none;
     }
 

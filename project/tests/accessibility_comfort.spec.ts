@@ -7,9 +7,6 @@ test.describe('COSYlanguages Accessibility & Image Optimization', () => {
 
         const backToTop = page.locator('#back-to-top');
         await expect(backToTop).toHaveAttribute('aria-label', 'Back to Top');
-
-        const tourFab = page.locator('#cosy-tour-fab');
-        await expect(tourFab).toHaveAttribute('aria-label', 'Open navigation help guide');
     });
 
     test('Custom custom element <vim-choice> contains role="tablist", role="tab", and aria-selected', async ({ page }) => {

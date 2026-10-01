@@ -204,9 +204,7 @@
         <option value="vocabulary">📖 General Vocab</option>
         <option value="locations">🗺️ Locations</option>
         <option value="people">👥 People</option>
-        <option value="dishes">🍕 Dishes &amp; Food</option>
-        <option value="notebook_dict" class="option-highlight-notebook">⚡ Load My Notebook</option>
-    </select>
+        <option value="dishes">🍕 Dishes &amp; Food</option>    </select>
 
     <button onclick="window.print()" class="btn-print" data-accent="honey">🖨️ Print Pocket Zine</button>
 </div>
@@ -246,22 +244,6 @@
         const level = document.getElementById('sel-level').value;
         const topic = document.getElementById('sel-topic').value;
         const scriptId = 'zine-vocab-script';
-
-        if (topic === 'notebook_dict') {
-            const key = 'cosy_dict_free_guest';
-            const saved = localStorage.getItem(key);
-            const dict = saved ? JSON.parse(saved) : {};
-            const list = Object.values(dict);
-            if (list.length > 0) {
-                currentZineWords = list.slice(0, 6);
-            } else {
-                currentZineWords = [
-                    { word: "My Notebook", emoji: "📓", definitions: [{ text: "Harvest words from speaking clubs by double-clicking them!" }] }
-                ];
-            }
-            renderZine();
-            return;
-        }
 
         try {
             const response = await fetch(`https://cosylanguages.github.io/COSYdata/vocabulary/${lang}/${topic}.json`);
