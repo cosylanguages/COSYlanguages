@@ -204,7 +204,7 @@
       if (activeGrid && window.COSY_ACTIVE_LANGUAGES) {
         activeGrid.innerHTML = window.COSY_ACTIVE_LANGUAGES.map(l => `
           <a href="languages/${l.code}/" class="lang-card">
-            <img src="images/languages/${l.img || 'cosylanguages.png'}" alt="" loading="lazy" decoding="async" width="56" height="56">
+            ${l.img && l.img !== 'cosylanguages.png' ? `<img src="images/languages/${l.img}" alt="" loading="lazy" decoding="async" width="56" height="56">` : `<div class="sc-badge" style="margin: 0 auto 0.5rem;">${(l.code || '').toUpperCase().slice(0, 2)}</div>`}
             <div class="lang-name" data-translate-key="${l.name.toLowerCase()}">${l.native}</div>
             <div class="lang-resource-teaser">Resources →</div>
           </a>

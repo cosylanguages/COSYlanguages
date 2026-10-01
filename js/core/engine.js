@@ -276,20 +276,20 @@ function getActiveNavLang() {
 }
 
 const NAV_FALLBACKS = {
-    en: { home: 'Home', home_aria: 'COSYlanguages Home', languages: 'Languages', courses: 'Courses', practice: 'Practice', tools: 'Tools', games: 'Games', events: 'Events', placement_quiz: 'Placement Quiz', calculator: 'Calculator', blog: 'Blog', join: 'Join', contact: '💬 Contact us', login: '🔐 Log in', more: 'More ▾', pin_to_home: '📲 Pin to Home', breadcrumb_home: 'Home' },
-    fr: { home: 'Accueil', home_aria: 'Accueil COSYlanguages', languages: 'Langues', courses: 'Cours', practice: 'Entraînement', tools: 'Outils', games: 'Jeux', events: 'Événements', placement_quiz: 'Test de niveau', calculator: 'Calculateur', blog: 'Blog', join: 'Rejoindre', contact: '💬 Contact', login: '🔐 Connexion', more: 'Plus ▾', pin_to_home: "📲 Épingler à l'accueil", breadcrumb_home: 'Accueil' },
-    it: { home: 'Home', home_aria: 'COSYlanguages Home', languages: 'Lingue', courses: 'Corsi', practice: 'Pratica', tools: 'Strumenti', games: 'Giochi', events: 'Eventi', placement_quiz: 'Test di livello', calculator: 'Calcolatore', blog: 'Blog', join: 'Unisciti', contact: '💬 Contatti', login: '🔐 Accedi', more: 'Altro ▾', pin_to_home: '📲 Aggiungi a Home', breadcrumb_home: 'Home' },
-    es: { home: 'Inicio', home_aria: 'Inicio COSYlanguages', languages: 'Idiomas', courses: 'Cursos', practice: 'Práctica', tools: 'Herramientas', games: 'Juegos', events: 'Eventos', placement_quiz: 'Test de nivel', calculator: 'Calculadora', blog: 'Blog', join: 'Unirse', contact: '💬 Contacto', login: '🔐 Iniciar sesión', more: 'Más ▾', pin_to_home: '📲 Añadir a inicio', breadcrumb_home: 'Inicio' },
-    ru: { home: 'Главная', home_aria: 'Главная COSYlanguages', languages: 'Языки', courses: 'Курсы', practice: 'Практика', tools: 'Инструменты', games: 'Игры', events: 'Мероприятия', placement_quiz: 'Тест уровня', calculator: 'Калькулятор', blog: 'Блог', join: 'Начать', contact: '💬 Связь', login: '🔐 Вход', more: 'Ещё ▾', pin_to_home: '📲 На главный экран', breadcrumb_home: 'Главная' },
-    de: { home: 'Startseite', home_aria: 'COSYlanguages Startseite', languages: 'Sprachen', courses: 'Kurse', practice: 'Übung', tools: 'Werkzeuge', games: 'Spiele', events: 'Veranstaltungen', placement_quiz: 'Einstufungstest', calculator: 'Rechner', blog: 'Blog', join: 'Beitreten', contact: '💬 Kontakt', login: '🔐 Anmelden', more: 'Mehr ▾', pin_to_home: '📲 Zum Startbildschirm', breadcrumb_home: 'Startseite' },
-    pt: { home: 'Início', home_aria: 'Página inicial do COSYlanguages', languages: 'Línguas', courses: 'Cursos', practice: 'Prática', tools: 'Ferramentas', games: 'Jogos', events: 'Eventos', placement_quiz: 'Teste de nível', calculator: 'Calculadora', blog: 'Blog', join: 'Juntar-se', contact: '💬 Contacto', login: '🔐 Entrar', more: 'Mais ▾', pin_to_home: '📲 Fixar no ecrã principal', breadcrumb_home: 'Início' },
-    ba: { home: 'Баш бит', home_aria: 'COSYlanguages Баш бит', languages: 'Телдәр', courses: 'Курстар', practice: 'Практика', tools: 'Ҡоралдар', games: 'Уйындар', events: 'Чаралар', placement_quiz: 'Тест', calculator: 'Калькулятор', blog: 'Блог', join: 'Ҡошулыу', contact: '💬 Бәйләнеш', login: '🔐 Киреү', more: 'Тағы ▾', pin_to_home: '📲 Баш экранға өҫтәү', breadcrumb_home: 'Баш бит' },
-    tt: { home: 'Төп бит', home_aria: 'COSYlanguages Төп бит', languages: 'Телләр', courses: 'Курслар', practice: 'Практика', tools: 'Кораллар', games: 'Уеннар', events: 'Чаралар', placement_quiz: 'Тест', calculator: 'Калькулятор', blog: 'Блог', join: 'Кушылу', contact: '💬 Бәйләнеш', login: '🔐 Керү', more: 'Тагын ▾', pin_to_home: '📲 Төп экранга өстәү', breadcrumb_home: 'Төп бит' },
-    el: { home: 'Αρχική', home_aria: 'Αρχική COSYlanguages', languages: 'Γλώσσες', courses: 'Μαθήματα', practice: 'Εξάσκηση', tools: 'Εργαλεία', games: 'Παιχνίδια', events: 'Εκδηλώσεις', placement_quiz: 'Τεστ επιπέδου', calculator: 'Υπολογιστής', blog: 'Ιστολόγιο', join: 'Εγγραφή', contact: '💬 Επικοινωνία', login: '🔐 Σύνδεση', more: 'Περισσότερα ▾', pin_to_home: '📲 Στην αρχική οθόνη', breadcrumb_home: 'Αρχική' },
-    hy: { home: 'Գլխավոր', home_aria: 'COSYlanguages Գլխավոր', languages: 'Լեզուներ', courses: 'Դասընթացներ', practice: 'Պրակտիկա', tools: 'Գործիքներ', games: 'Խաղեր', events: 'Միջոցառումներ', placement_quiz: 'Մակարդակի թեստ', calculator: 'Հաշվիչ', blog: 'Բլոգ', join: 'Միանալ', contact: '💬 Կապ', login: '🔐 Մուտք', more: 'Ավելին ▾', pin_to_home: '📲 Ավելացնել գլխավոր էկրանին', breadcrumb_home: 'Գլխավոր' },
-    ka: { home: 'მთავარი', home_aria: 'COSYlanguages მთავარი', languages: 'ენები', courses: 'კურსები', practice: 'პრაქტიკა', tools: 'ინსტრუმენტები', games: 'თამაშები', events: 'ღონისძიებები', placement_quiz: 'დონის ტესტი', calculator: 'კალկულატორი', blog: 'ბლოგი', join: 'შეერთება', contact: '💬 კონტაქტი', login: '🔐 შესვლა', more: 'მეტი ▾', pin_to_home: '📲 მთავარ ეკრანზე', breadcrumb_home: 'მთავარი' },
-    br: { home: 'Degemer', home_aria: 'Pajenn degemer COSYlanguages', languages: 'Yezhoù', courses: 'Kentelioù', practice: 'Pleustriñ', tools: 'Stilioù', games: "C'hoarioù", events: 'Darvoudoù', placement_quiz: 'Test livezh', calculator: 'Kamplerezh', blog: 'Blog', join: 'Kemer perzh', contact: '💬 Kevarzheo', login: '🔐 Kevreañ', more: "Muioc'h ▾", pin_to_home: '📲 Stagañ war ar skramm degemer', breadcrumb_home: 'Degemer' },
-    cv: { home: 'Тĕп страницă', home_aria: 'COSYlanguages Тĕп страницă', languages: 'Чĕлхесем', courses: 'Курссене', practice: 'Практика', tools: 'Инструментсем', games: 'Вăйăсем', events: 'Пулăмсем', placement_quiz: 'Уровень тестĕ', calculator: 'Калькулятор', blog: 'Блог', join: 'Хушăнма', contact: '💬 Çыхăну', login: '🔐 Кĕрĕм', more: 'Нумайрах ▾', pin_to_home: '📲 Тĕп экранологипе хушма', breadcrumb_home: 'Тĕп страницă' }
+    en: { home: 'Home', home_aria: 'COSYlanguages Home', languages: 'Languages', courses: 'Courses', practice: 'Practice', tools: 'Tools', games: 'Games', events: 'Events', placement_quiz: 'Placement Quiz', calculator: 'Calculator', blog: 'Blog', join: 'Join', contact: '💬 Contact us', login: '🔐 Log in', more: 'More ▾', pin_to_home: '📲 Pin to Home', breadcrumb_home: 'Home', toggle_dark_mode: '🌓 Toggle Dark Mode', whatsapp_contact: '💬 Contact us on WhatsApp' },
+    fr: { home: 'Accueil', home_aria: 'Accueil COSYlanguages', languages: 'Langues', courses: 'Cours', practice: 'Entraînement', tools: 'Outils', games: 'Jeux', events: 'Événements', placement_quiz: 'Test de niveau', calculator: 'Calculateur', blog: 'Blog', join: 'Rejoindre', contact: '💬 Contact', login: '🔐 Connexion', more: 'Plus ▾', pin_to_home: "📲 Épingler à l'accueil", breadcrumb_home: 'Accueil', toggle_dark_mode: '🌓 Mode sombre', whatsapp_contact: '💬 Contactez-nous sur WhatsApp' },
+    it: { home: 'Home', home_aria: 'COSYlanguages Home', languages: 'Lingue', courses: 'Corsi', practice: 'Pratica', tools: 'Strumenti', games: 'Giochi', events: 'Eventi', placement_quiz: 'Test di livello', calculator: 'Calcolatore', blog: 'Blog', join: 'Unisciti', contact: '💬 Contatti', login: '🔐 Accedi', more: 'Altro ▾', pin_to_home: '📲 Aggiungi a Home', breadcrumb_home: 'Home', toggle_dark_mode: '🌓 Modalità scura', whatsapp_contact: '💬 Contattaci su WhatsApp' },
+    es: { home: 'Inicio', home_aria: 'Inicio COSYlanguages', languages: 'Idiomas', courses: 'Cursos', practice: 'Práctica', tools: 'Herramientas', games: 'Juegos', events: 'Eventos', placement_quiz: 'Test de nivel', calculator: 'Calculadora', blog: 'Blog', join: 'Unirse', contact: '💬 Contacto', login: '🔐 Iniciar sesión', more: 'Más ▾', pin_to_home: '📲 Añadir a inicio', breadcrumb_home: 'Inicio', toggle_dark_mode: '🌓 Modo oscuro', whatsapp_contact: '💬 Contáctanos por WhatsApp' },
+    ru: { home: 'Главная', home_aria: 'Главная COSYlanguages', languages: 'Языки', courses: 'Курсы', practice: 'Практика', tools: 'Инструменты', games: 'Игры', events: 'Мероприятия', placement_quiz: 'Тест уровня', calculator: 'Калькулятор', blog: 'Блог', join: 'Начать', contact: '💬 Связь', login: '🔐 Вход', more: 'Ещё ▾', pin_to_home: '📲 На главный экран', breadcrumb_home: 'Главная', toggle_dark_mode: '🌓 Тёмная тема', whatsapp_contact: '💬 Написать нам в WhatsApp' },
+    de: { home: 'Startseite', home_aria: 'COSYlanguages Startseite', languages: 'Sprachen', courses: 'Kurse', practice: 'Übung', tools: 'Werkzeuge', games: 'Spiele', events: 'Veranstaltungen', placement_quiz: 'Einstufungstest', calculator: 'Rechner', blog: 'Blog', join: 'Beitreten', contact: '💬 Kontakt', login: '🔐 Anmelden', more: 'Mehr ▾', pin_to_home: '📲 Zum Startbildschirm', breadcrumb_home: 'Startseite', toggle_dark_mode: '🌓 Dunkelmodus', whatsapp_contact: '💬 Kontaktieren Sie uns auf WhatsApp' },
+    pt: { home: 'Início', home_aria: 'Página inicial do COSYlanguages', languages: 'Línguas', courses: 'Cursos', practice: 'Prática', tools: 'Ferramentas', games: 'Jogos', events: 'Eventos', placement_quiz: 'Teste de nível', calculator: 'Calculadora', blog: 'Blog', join: 'Juntar-se', contact: '💬 Contacto', login: '🔐 Entrar', more: 'Mais ▾', pin_to_home: '📲 Fixar no ecrã principal', breadcrumb_home: 'Início', toggle_dark_mode: '🌓 Modo escuro', whatsapp_contact: '💬 Contacte-nos no WhatsApp' },
+    ba: { home: 'Баш бит', home_aria: 'COSYlanguages Баш бит', languages: 'Телдәр', courses: 'Курстар', practice: 'Практика', tools: 'Ҡоралдар', games: 'Уйындар', events: 'Чаралар', placement_quiz: 'Тест', calculator: 'Калькулятор', blog: 'Блог', join: 'Ҡошулыу', contact: '💬 Бәйләнеш', login: '🔐 Киреү', more: 'Тағы ▾', pin_to_home: '📲 Баш экранға өҫтәү', breadcrumb_home: 'Баш бит', toggle_dark_mode: '🌓 Ҡара тема', whatsapp_contact: '💬 WhatsApp арҡылы бәйләнеш' },
+    tt: { home: 'Төп бит', home_aria: 'COSYlanguages Төп бит', languages: 'Телләр', courses: 'Курслар', practice: 'Практика', tools: 'Кораллар', games: 'Уеннар', events: 'Чаралар', placement_quiz: 'Тест', calculator: 'Калькулятор', blog: 'Блог', join: 'Кушылу', contact: '💬 Бәйләнеш', login: '🔐 Керү', more: 'Тагын ▾', pin_to_home: '📲 Төп экранга өстәү', breadcrumb_home: 'Төп бит', toggle_dark_mode: '🌓 Карангы тема', whatsapp_contact: '💬 WhatsApp аша элемтә' },
+    el: { home: 'Αρχική', home_aria: 'Αρχική COSYlanguages', languages: 'Γλώσσες', courses: 'Μαθήματα', practice: 'Εξάσκηση', tools: 'Εργαλεία', games: 'Παιχνίδια', events: 'Εκδηλώσεις', placement_quiz: 'Τεστ επιπέδου', calculator: 'Υπολογιστής', blog: 'Ιστολόγιο', join: 'Εγγραφή', contact: '💬 Επικοινωνία', login: '🔐 Σύνδεση', more: 'Περισσότερα ▾', pin_to_home: '📲 Στην αρχική οθόνη', breadcrumb_home: 'Αρχική', toggle_dark_mode: '🌓 Σκοτεινή λειτουργία', whatsapp_contact: '💬 Επικοινωνήστε μαζί μας στο WhatsApp' },
+    hy: { home: 'Գլխավոր', home_aria: 'COSYlanguages Գլխավոր', languages: 'Լեզուներ', courses: 'Դասընթացներ', practice: 'Պրակտիկա', tools: 'Գործիքներ', games: 'Խաղեր', events: 'Միջոցառումներ', placement_quiz: 'Մակարդակի թեստ', calculator: 'Հաշվիչ', blog: 'Բլոգ', join: 'Միանալ', contact: '💬 Կապ', login: '🔐 Մուտք', more: 'Ավելին ▾', pin_to_home: '📲 Ավելացնել գլխավոր էկրանին', breadcrumb_home: 'Գլխավոր', toggle_dark_mode: '🌓 Մութ ռեժիմ', whatsapp_contact: '💬 Կապվել մեզ հետ WhatsApp-ով' },
+    ka: { home: 'მთავარი', home_aria: 'COSYlanguages მთავარი', languages: 'ენები', courses: 'კურსები', practice: 'პრაქტიკა', tools: 'ინსტრუმენტები', games: 'თამაშები', events: 'ღონისძიებები', placement_quiz: 'დონის ტესტი', calculator: 'კალկულატორი', blog: 'ბლოგი', join: 'შეერთება', contact: '💬 კონტაქტი', login: '🔐 შესვლა', more: 'მეტი ▾', pin_to_home: '📲 მთავარ ეკრანზე', breadcrumb_home: 'მთავარი', toggle_dark_mode: '🌓 მუქი რეჟიმი', whatsapp_contact: '💬 დაგვიკავშირდით WhatsApp-ით' },
+    br: { home: 'Degemer', home_aria: 'Pajenn degemer COSYlanguages', languages: 'Yezhoù', courses: 'Kentelioù', practice: 'Pleustriñ', tools: 'Stilioù', games: "C'hoarioù", events: 'Darvoudoù', placement_quiz: 'Test livezh', calculator: 'Kamplerezh', blog: 'Blog', join: 'Kemer perzh', contact: '💬 Kevarzheo', login: '🔐 Kevreañ', more: "Muioc'h ▾", pin_to_home: '📲 Stagañ war ar skramm degemer', breadcrumb_home: 'Degemer', toggle_dark_mode: '🌓 Mod teñval', whatsapp_contact: '💬 Kit e darempred ganeomp war WhatsApp' },
+    cv: { home: 'Тĕп страницă', home_aria: 'COSYlanguages Тĕп страницă', languages: 'Чĕлхесем', courses: 'Курссене', practice: 'Практика', tools: 'Инструментсем', games: 'Вăйăсем', events: 'Пулăмсем', placement_quiz: 'Уровень тестĕ', calculator: 'Калькулятор', blog: 'Блог', join: 'Хушăнма', contact: '💬 Çыхăну', login: '🔐 Кĕрĕм', more: 'Нумайрах ▾', pin_to_home: '📲 Тĕп экран çинче сăнлама', breadcrumb_home: 'Тĕп страницă', toggle_dark_mode: '🌓 Тĕттĕм режим', whatsapp_contact: '💬 WhatsApp урлă çыхăнма' }
 };
 
 function getNavLabel(key, fallback) {
@@ -632,7 +632,7 @@ function mobileMenuHTML (mode) {
 
       <div class="mm-divider" style="height: 1px; background: var(--border, rgba(74, 107, 80, 0.12)); margin: 8px 0;"></div>
 
-      <a href="#" onclick="event.preventDefault(); COSY.toggleTheme();" class="cosy-mobile-nav-link mobile-theme-toggle-a" style="display: flex; align-items: center; gap: 8px;">🌓 Toggle Dark Mode</a>
+      <a href="#" onclick="event.preventDefault(); COSY.toggleTheme();" class="cosy-mobile-nav-link mobile-theme-toggle-a" style="display: flex; align-items: center; gap: 8px;" data-translate-key="nav_toggle_dark_mode" data-i18n="nav.toggle_dark_mode">${t('toggle_dark_mode', '🌓 Toggle Dark Mode')}</a>
       <div style="padding: 8px 12px; display: flex; align-items: center; gap: 8px; min-height: 44px;">
          <span style="font-size: 0.9rem; color: var(--ink-soft);" data-i18n="label.language">Language 🌍</span>
          <select id="cosy-language-switcher-mobile" onchange="setLanguage(this.value)" class="styled-sel" ${isLocked ? 'disabled' : ''} style="width: auto; min-width: 68px; padding: 4px 6px; font-size: 0.8rem; border-radius: var(--r-sm); height: 36px; background: var(--warm-white); border: 1px solid var(--border); color: var(--ink); cursor: pointer;" aria-label="Select Interface Language">
@@ -643,7 +643,54 @@ function mobileMenuHTML (mode) {
          </button>
       </div>
       <div class="mm-divider" style="height: 1px; background: var(--border, rgba(74, 107, 80, 0.12)); margin: 8px 0;"></div>
-      <a href="https://wa.me/330766784195" target="_blank" class="mm-cta cosy-mobile-nav-link" style="background: var(--sage, #416b49); color: #fff; font-weight: 700; border-radius: 100px; text-align: center; justify-content: center;" data-translate-key="nav_contact">💬 Contact us on WhatsApp</a>`
+      <a href="https://wa.me/330766784195" target="_blank" class="mm-cta cosy-mobile-nav-link" style="background: var(--sage, #416b49); color: #fff; font-weight: 700; border-radius: 100px; text-align: center; justify-content: center;" data-translate-key="nav_whatsapp_contact" data-i18n="nav.whatsapp_contact">${t('whatsapp_contact', '💬 Contact us on WhatsApp')}</a>`
+}
+
+function updateMobileNavTranslated() {
+    const mobileNav = document.querySelector('.mobile-nav');
+    if (!mobileNav) return;
+
+    const getNavHref = (window.COSY && typeof window.COSY.getNavHref === 'function')
+        ? window.COSY.getNavHref
+        : (key => (key === 'home' ? 'index.html' : key === 'practice' ? 'practice/index.html' : key === 'courses' ? 'index.html#courses' : key === 'blog' ? 'blog/index.html' : `https://cosylanguages.github.io/COSY${key}/`));
+
+    const t = getNavLabel;
+    const homeHref = getNavHref('home');
+    const practiceHref = getNavHref('practice');
+    const gamesHref = getNavHref('games');
+    const eventsHref = getNavHref('events');
+    const coursesHref = getNavHref('courses');
+
+    mobileNav.innerHTML = `
+        <a href="${practiceHref}" class="mobile-nav-item" id="mnav-practice" data-i18n="nav.practice"><span class="mn-icon">💡</span><span>${t('practice', 'Practice')}</span></a>
+        <a href="${gamesHref}" ${gamesHref.startsWith('http') ? 'target="_blank" rel="noopener"' : ''} class="mobile-nav-item" id="mnav-games" data-i18n="nav.games"><span class="mn-icon">🎮</span><span>${t('games', 'Games')}</span></a>
+        <a href="${eventsHref}" ${eventsHref.startsWith('http') ? 'target="_blank" rel="noopener"' : ''} class="mobile-nav-item" id="mnav-events" data-i18n="nav.events"><span class="mn-icon">🎉</span><span>${t('events', 'Events')}</span></a>
+        <a href="${coursesHref}" class="mobile-nav-item" id="mnav-courses" data-i18n="nav.courses"><span class="mn-icon">📚</span><span>${t('courses', 'Courses')}</span></a>
+        <a href="${homeHref}" class="mobile-nav-item" id="mnav-home" data-i18n="nav.home"><span class="mn-icon">🏡</span><span>${t('home', 'Home')}</span></a>`;
+
+    const path = window.location.pathname;
+    const currentFilename = path.split('/').pop() || 'index.html';
+    const items = document.querySelectorAll('.mobile-nav-item');
+
+    items.forEach(item => {
+      const href = item.getAttribute('href') || '';
+      const linkFilename = href.split('#')[0].split('/').pop() || 'index.html';
+      let active = (currentFilename === linkFilename);
+      if (active) {
+        item.classList.add('active');
+      } else {
+        item.classList.remove('active');
+      }
+    });
+}
+
+if (typeof window !== 'undefined') {
+    Object.defineProperty(window, 'updateMobileNav', {
+        get: function() { return updateMobileNavTranslated; },
+        set: function(val) { /* ignore hardcoded ui.js overwrite */ },
+        configurable: true,
+        enumerable: true
+    });
 }
 
 /* ─── DICTIONARY ────────────────────────────────────────────────

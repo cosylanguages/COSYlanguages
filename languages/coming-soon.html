@@ -113,7 +113,7 @@
         soonGrid.innerHTML = comingLangs.map(l => `
           <div class="lang-card-soon">
             <a href="${l.code}/" style="text-decoration:none; color:inherit; display:block;">
-              ${l.img ? `<img src="../images/languages/${l.img}" alt="${l.name}">` : `<div class="sc-badge" style="margin: 0 auto 0.5rem;">${(l.code || '').toUpperCase().slice(0, 2)}</div>`}
+              ${l.img && l.img !== 'cosylanguages.png' ? `<img src="../images/languages/${l.img}" alt="${l.name}">` : `<div class="sc-badge" style="margin: 0 auto 0.5rem;">${(l.code || '').toUpperCase().slice(0, 2)}</div>`}
               <div class="ls-name">${l.icon || ''} ${l.native}</div>
               <div class="cs-note" style="font-size:0.85rem; color:var(--ink-muted); margin:0.3rem 0;">Lessons coming soon</div>
             </a>
