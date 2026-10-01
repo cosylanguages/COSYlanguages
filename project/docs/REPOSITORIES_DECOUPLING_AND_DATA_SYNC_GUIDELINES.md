@@ -10,8 +10,7 @@ To prevent code drift, maintainability overhead, and broken links:
 1. **`COSYlanguages`**: Primary gateway. Contains no standalone games, standalone reference micro-apps, or event decks.
 2. **`COSYmanuals`**: Stores raw textbooks (`manuals/`), curriculums (`curriculum/`), and datasets (`vocabulary/`, `reference-grammar/`).
 3. **`COSYevents`**: Stores speaking club decks and event night materials.
-4. **`COSYworld`**: Stores open-world RPG assets and scene drivers.
-5. **`COSYgames`**: Stores the 22+ practice minigames.
+4. **`COSYgames`**: Stores the 22+ practice minigames.
 6. **`COSYtools`**: Stores the 12 reference engines (conjugators, gender, cases, prepositions).
 
 ---

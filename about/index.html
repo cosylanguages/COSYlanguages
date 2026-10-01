@@ -90,6 +90,42 @@
         line-height: 1.7;
         color: var(--ink, #2C2C2C);
       }
+      .about-section p {
+        margin-bottom: 1.25rem;
+      }
+      .about-section p:last-child {
+        margin-bottom: 0;
+      }
+      .hero-jump-menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem 0.75rem;
+        margin-top: 1.5rem;
+        padding-top: 1.25rem;
+        border-top: 1px solid var(--border, #E2DCD5);
+        max-width: 100%;
+        overflow-x: auto;
+      }
+      .hero-jump-menu a {
+        font-size: 0.88rem;
+        font-weight: 700;
+        color: var(--sage-dark, #2d4c33);
+        text-decoration: none;
+        padding: 6px 14px;
+        border-radius: 20px;
+        background: #ffffff;
+        border: 1px solid var(--border, #E2DCD5);
+        white-space: nowrap;
+        transition: all 0.2s ease;
+        min-height: 32px;
+        display: inline-flex;
+        align-items: center;
+      }
+      .hero-jump-menu a:hover {
+        background: var(--sage-pale, #e8f0e9);
+        color: var(--sage-deep, #233827);
+      }
       .about-section ul {
         padding-left: 1.25rem;
         margin-top: 0.75rem;
@@ -163,6 +199,15 @@
       <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20COSYlanguages." class="btn-primary" target="_blank" rel="noopener">Message us on WhatsApp</a>
       <a href="../courses/index.html" class="btn-secondary">See the courses</a>
     </div>
+    <nav class="hero-jump-menu" aria-label="In-page navigation">
+      <a href="#hero">Top</a>
+      <a href="#how-it-began">How it began</a>
+      <a href="#what-we-do">What we do</a>
+      <a href="#what-we-believe">What we believe</a>
+      <a href="#how-we-teach">How we teach</a>
+      <a href="#free-tools">Free tools</a>
+      <a href="#get-in-touch">Contact</a>
+    </nav>
   </section>
 
   <section class="about-section" id="how-it-began">

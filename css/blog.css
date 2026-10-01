@@ -317,16 +317,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sidebar-label-chip {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
     background: var(--warm-white, #FFFEFB);
     border: 1px solid var(--border, rgba(74, 107, 80, 0.12));
     color: var(--ink, #2a2a2a);
     font-size: 0.82rem;
     font-weight: 600;
-    padding: 4px 10px;
+    padding: 6px 12px;
+    min-height: 32px;
     border-radius: 999px;
     text-decoration: none;
     transition: all 0.15s ease;
+    box-sizing: border-box;
 }
 
 .sidebar-label-chip:hover,
@@ -356,6 +359,22 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--ink, #2a2a2a);
     text-decoration: none;
     line-height: 1.4;
+    display: inline-flex;
+    align-items: center;
+    min-height: 32px;
+    padding: 4px 6px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 860px) {
+    .sidebar-label-chip {
+        min-height: 44px;
+        padding: 10px 14px;
+    }
+    .sidebar-list a {
+        min-height: 44px;
+        padding: 8px 10px;
+    }
 }
 
 .sidebar-list a:hover {

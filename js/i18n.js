@@ -47,9 +47,22 @@
         return typeof current === 'string' ? current : null;
     }
 
+    function detectPageLang() {
+        const path = window.location.pathname.toLowerCase();
+        const langMatch = path.match(/\/languages\/([a-z]{2})\b/);
+        if (langMatch && langMatch[1]) {
+            return langMatch[1];
+        }
+        const htmlLang = (document.documentElement && document.documentElement.lang) ? document.documentElement.lang.toLowerCase() : '';
+        if (path.includes('/languages/') && htmlLang) {
+            return htmlLang;
+        }
+        return localStorage.getItem('cosy_ui_lang') || htmlLang || 'en';
+    }
+
     async function loadTranslations() {
         const prefix = getPrefix();
-        currentUILang = localStorage.getItem('cosy_ui_lang') || 'en';
+        currentUILang = detectPageLang();
 
         try {
             // Load English as standard fallback
