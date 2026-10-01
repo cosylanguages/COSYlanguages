@@ -1783,3 +1783,29 @@ body.projector-mode .pe-bb-action-btn {
   font-size: 1.25rem;
   padding: 16px 42px;
 }
+
+/* Touch Heights (min-height 44px on mobile <= 768px, min-height 32px on desktop) */
+.styled-select,
+.tbtn,
+#projector-setup-toggle,
+.theme-toggle-btn,
+.cosy-lang-lock-wrap select,
+#cosy-lang-lock-btn,
+.nav-logo {
+  min-height: 32px;
+}
+
+@media (max-width: 768px) {
+  .styled-select,
+  .tbtn,
+  #projector-setup-toggle,
+  .theme-toggle-btn,
+  .cosy-lang-lock-wrap select,
+  #cosy-lang-lock-btn,
+  .nav-logo,
+  .skip-link {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+}

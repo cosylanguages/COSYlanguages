@@ -1733,10 +1733,21 @@ body.page-privacy .wa-fab,
 }
 
 .sd-breadcrumbs a {
+  display: inline-flex;
+  align-items: center;
   color: var(--ink-soft, #3F4E41);
   text-decoration: none;
   font-weight: 600;
   transition: color 0.2s ease;
+  min-height: 32px;
+  padding: 4px 0;
+}
+
+@media (max-width: 768px) {
+  .sd-breadcrumbs a {
+    min-height: 44px;
+    padding: 6px 0;
+  }
 }
 
 .sd-breadcrumbs a:hover {

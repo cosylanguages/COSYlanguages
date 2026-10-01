@@ -151,7 +151,23 @@ footer {
 .footer-brand p { font-size: .9rem; color: var(--ink-muted); line-height: 1.7; max-width: 240px; }
 
 .footer-links-col h3 { font-family: 'Fraunces', serif; font-size: 1rem; margin-bottom: 1.2rem; }
-.footer-links-col a { display: block; font-size: .9rem; color: var(--ink-muted); margin-bottom: .8rem; font-weight: 500; transition: color .2s; }
+.footer-links-col a {
+    display: inline-flex;
+    align-items: center;
+    font-size: .9rem;
+    color: var(--ink-muted);
+    font-weight: 500;
+    transition: color .2s;
+    min-height: 32px;
+    padding: 4px 0;
+}
+
+@media (max-width: 768px) {
+    .footer-links-col a {
+        min-height: 44px;
+        padding: 6px 0;
+    }
+}
 .footer-links-col a:hover { color: var(--ink); }
 
 .footer-bottom {
