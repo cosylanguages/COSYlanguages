@@ -17,16 +17,15 @@
     <span>COSYlanguages</span>
   </a>
 
-  <ul class="cosy-nav-menu" role="menubar">
-    <li role="none"><a href="index.html#courses" class="cosy-nav-link" role="menuitem">Courses 📚</a></li>
-    <li role="none"><a href="index.html#languages" class="cosy-nav-link" role="menuitem">Languages 🌍</a></li>
-    <li role="none"><a href="index.html#calculator" class="cosy-nav-link" role="menuitem">Calculator 🧮</a></li>
-    <li role="none" class="cosy-nav-more-wrap">
+  <ul class="cosy-nav-menu">
+    <li><a href="index.html#courses" class="cosy-nav-link">Courses 📚</a></li>
+    <li><a href="index.html#languages" class="cosy-nav-link">Languages 🌍</a></li>
+    <li><a href="index.html#calculator" class="cosy-nav-link">Calculator 🧮</a></li>
+    <li class="cosy-nav-more-wrap">
       <button type="button" class="cosy-nav-more-btn" aria-expanded="false" aria-controls="cosy-nav-more-menu" onclick="if(window.COSY && window.COSY.toggleMoreMenu) window.COSY.toggleMoreMenu(this)">More ▾</button>
-      <ul id="cosy-nav-more-menu" class="cosy-nav-more-dropdown" role="menu">
-        <li role="none"><a href="https://cosylanguages.github.io/COSYtools/" class="cosy-nav-link" target="_blank" rel="noopener" role="menuitem">Tools 🔎</a></li>
-        <li role="none"><a href="practice/index.html" class="cosy-nav-link" role="menuitem">Practice 💡</a></li>
-        <li role="none"><a href="blog/index.html" class="cosy-nav-link" role="menuitem">Blog 📰</a></li>
+      <ul id="cosy-nav-more-menu" class="cosy-nav-more-dropdown">
+        <li><a href="practice/index.html" class="cosy-nav-link">Practice 💡</a></li>
+        <li><a href="blog/index.html" class="cosy-nav-link">Blog 📰</a></li>
       </ul>
     </li>
   </ul>
@@ -43,7 +42,7 @@
       <button id="cosy-ui-lang-lock-btn" type="button" onclick="if(window.toggleLanguageLock)window.toggleLanguageLock()" class="cosy-lang-lock-btn" title="Pin interface language on this device." aria-label="Pin interface language on this device." style="background:none; border:1px solid var(--cosy-color-border, rgba(74, 107, 80, 0.12)); border-radius:var(--cosy-radius-sm, 6px); padding:2px 4px; font-size:0.75rem; height:28px; cursor:pointer; display:inline-flex; align-items:center; justify-content:center;">📌</button>
     </div>
     <button type="button" class="cosy-theme-btn" aria-label="Toggle Theme" onclick="if(window.toggleTheme)window.toggleTheme()">🌙</button>
-    <a href="login.html" class="cosy-nav-link cosy-nav-login" role="menuitem">🔐 Log in</a>
+    <a href="login.html" class="cosy-nav-link cosy-nav-login">🔐 Log in</a>
     <a href="https://wa.me/330766784195" class="cosy-nav-cta" target="_blank" rel="noopener">💬 Contact Us</a>
     <button type="button" class="cosy-hamburger-btn" aria-label="Toggle Navigation Menu" aria-expanded="false" onclick="const d=document.getElementById('cosy-nav-drawer'); if(d){ d.classList.toggle('open'); this.setAttribute('aria-expanded', d.classList.contains('open')); }">
       ☰
