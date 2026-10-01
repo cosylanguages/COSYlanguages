@@ -3,12 +3,11 @@
     body { background: #fff; color: #000; font-size: 10pt; line-height: 1.4; }
 
     /* Hide digital-only non-printable components */
-    nav, footer, .wa-fab, #toast, #dict-fab, #dict-panel, .back-link,
-    .cosy-breadcrumbs, .session-switcher, .btn-pronounce, .btn-add-dict,
+    nav, footer, .wa-fab, #toast, .back-link,
+    .cosy-breadcrumbs, .session-switcher, .btn-pronounce,
     .cosy-video-wrapper, .cosy-article-wrapper, .cosy-lyrics-disclaimer,
     .grammar-word-bank, .btn-verify, .btn-reset, #wonder-music-toggle-container,
-    .wonder-audio-player, .mobile-nav, #cosy-tour-fab, .cosy-tour-backdrop-overlay,
-    .cosy-tour-bubble, .cosy-tour-pointer, .cosy-tour-modal-overlay,
+    .wonder-audio-player, .mobile-nav,
     .print-controls, #cosy-nav, .sd-sticky-header, #cosy-mobile-menu, .filter-section {
         display: none !important;
     }

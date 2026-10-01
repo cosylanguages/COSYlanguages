@@ -693,114 +693,6 @@ if (typeof window !== 'undefined') {
     });
 }
 
-/* ─── DICTIONARY ────────────────────────────────────────────────
-   Persistence: uses localStorage['cosy_dict_free_guest']
-─────────────────────────────────────────────────────────────────  */
-let dictionary = {}; // { word: { definition, example, synonyms, antonyms, addedAt } }
-
-function getDictKey() {
-  return `cosy_dict_free_guest`;
-}
-
-function saveWordLocally(word, data) {
-  if (data && !data.addedAt) data.addedAt = Date.now();
-  dictionary[word] = data;
-  saveDict();
-}
-
-function loadVocabLocally() {
-  return Object.values(dictionary);
-}
-
-function loadDict() {
-  const key = getDictKey();
-  const saved = localStorage.getItem(key);
-  dictionary = saved ? JSON.parse(saved) : {};
-
-  // Data Migration
-  let migrated = false;
-
-  // 1. Migrate legacy string-based dictionary entries
-  Object.entries(dictionary).forEach(([word, data]) => {
-    if (typeof data === 'string') {
-      dictionary[word] = {
-        word: word,
-        definition: data,
-        addedAt: Date.now()
-      };
-      migrated = true;
-    }
-  });
-
-  if (migrated) saveDict();
-
-  refreshDictUI();
-  refreshVocabButtons();
-}
-
-function saveDict() {
-  const key = getDictKey();
-  localStorage.setItem(key, JSON.stringify(dictionary));
-}
-
-function refreshDictUI() {
-  const count = Object.keys(dictionary).length;
-  const countEl = document.getElementById('dict-count');
-  if (countEl) countEl.textContent = count;
-
-  const body = document.getElementById('dict-body');
-  const empty = document.getElementById('dict-empty-msg');
-  if (!body) return;
-
-  body.querySelectorAll('.dict-entry').forEach(e => e.remove());
-  if (count === 0) {
-    if (empty) empty.style.display = 'block';
-    return;
-  }
-  if (empty) empty.style.display = 'none';
-  Object.entries(dictionary).forEach(([word, data]) => {
-    const el = document.createElement('div');
-    el.className = 'dict-entry';
-    const def = typeof data === 'string' ? data : (data.definition || '');
-    el.innerHTML = `<div><div class="dict-entry-word">${word}</div><div class="dict-entry-def">${def}</div></div><button class="dict-remove" onclick="COSY.removeFromDict('${word.replace(/'/g,"\\'")}')">✕</button>`;
-    body.appendChild(el);
-  });
-}
-
-function renderDictUI() {
-    const t = getNavLabel;
-    return `
-      <button id="dict-fab" onclick="COSY.toggleDict()">📖 ${t('dictionary', 'My Dictionary')} (<span id="dict-count">0</span>)</button>
-      <div id="dict-panel">
-        <div class="dict-panel-header">
-          <span class="dict-panel-title">📖 ${t('dictionary', 'My Dictionary')}</span>
-          <button class="dict-panel-toggle" onclick="COSY.toggleDict()">✕ ${t('close', 'Close')}</button>
-        </div>
-        <div class="dict-panel-body" id="dict-body">
-          <p class="dict-empty" id="dict-empty-msg" style="font-size:.8rem;color:var(--muted);font-style:italic;text-align:center;padding:1rem 0;">${t('dict_empty', 'No words saved yet.')}</p>
-        </div>
-        <div class="dict-panel-footer" style="padding:.6rem 1rem;border-top:1px solid var(--border);background:var(--cream);">
-          <button class="dict-export-btn" onclick="COSY.exportDict()">⬇️ ${t('dict_export', 'Export as text file')}</button>
-        </div>
-      </div>`;
-}
-
-function refreshVocabButtons() {
-  document.querySelectorAll('.vocab-add-btn, .btn-add-dict').forEach(btn => {
-    const oc = btn.getAttribute('onclick') || '';
-    const wordMatch = oc.match(/addToDict\(['"]([^'"]+)['"]/);
-    const word = wordMatch ? wordMatch[1] : null;
-
-    if (word && dictionary[word]) {
-      btn.textContent = '✓ Saved';
-      btn.classList.add('saved');
-    } else {
-      btn.classList.remove('saved');
-      if (word && !dictionary[word]) btn.textContent = '+ Dictionary';
-    }
-  });
-}
-
 function injectStyles() {
     const p = getPrefix();
     if (!document.querySelector(`link[href*="css/components.css"]`)) {
@@ -856,16 +748,8 @@ function inject () {
     if (!document.getElementById('cosy-mobile-menu')) {
         const m = document.createElement('div'); m.id = 'cosy-mobile-menu'; document.body.appendChild(m);
     }
-    if (!document.getElementById('dict-panel') && !document.getElementById('dict-fab')) {
-        const d = document.createElement('div');
-        d.innerHTML = renderDictUI();
-        while (d.firstChild) {
-            document.body.appendChild(d.firstChild);
-        }
-    }
+
     applyMode();
-    loadDict();
-    loadDict();
 }
 
 /* ═══════════════════════════════════════════════════════════════
@@ -918,7 +802,6 @@ window.COSY = {
     get mode() { return STATE.mode },
     get practice() { return STATE.practice },
     get notebook() { return STATE.notebook },
-    get dictionary() { return dictionary },
     getPrefix,
 
     initTheme() {
@@ -981,97 +864,7 @@ window.COSY = {
     DEFAULT_ECOSYSTEM_URLS,
     NAV_CONFIG,
     NAV_FALLBACKS,
-    // Dictionary
-    async addToDict(wordData, maybeDef, btnEl) {
-        let word, data;
-        let btn = btnEl;
 
-        if (typeof wordData === 'string') {
-            word = wordData;
-            // Handle legacy signature: addToDict(word, def, btn)
-            data = {
-                word: word,
-                definition: typeof maybeDef === 'string' ? maybeDef : '',
-                addedAt: Date.now()
-            };
-            if (maybeDef instanceof HTMLElement) btn = maybeDef;
-        } else if (wordData && typeof wordData === 'object') {
-            // Handle object signature: addToDict(wordObj, btn)
-            word = wordData.word || wordData.text;
-            data = {
-                word: word,
-                definition: wordData.definition || wordData.definitions?.[0]?.text || '',
-                example: wordData.example || wordData.definitions?.[0]?.examples?.[0] || '',
-                synonyms: wordData.synonyms || [],
-                antonyms: wordData.antonyms || [],
-                lang: wordData.lang || localStorage.getItem('cosy_user_lang') || 'en',
-                level: wordData.level,
-                addedAt: Date.now()
-            };
-            if (maybeDef instanceof HTMLElement) btn = maybeDef;
-        }
-
-        if (!word) return;
-
-        if (dictionary[word]) {
-            if (btn && btn instanceof HTMLElement) {
-                btn.textContent = '✓ Saved';
-                btn.classList.add('saved');
-            }
-            return;
-        }
-
-        saveWordLocally(word, data);
-
-        if (btn && btn instanceof HTMLElement) {
-            btn.textContent = '✓ Saved';
-            btn.classList.add('saved');
-        }
-        refreshDictUI();
-    },
-    async removeFromDict(word) {
-        delete dictionary[word];
-        saveDict();
-        refreshDictUI();
-        refreshVocabButtons();
-    },
-    exportDict() {
-        const lines = Object.entries(dictionary).map(([w,d]) => {
-            const def = typeof d === 'string' ? d : (d.definition || '');
-            return `${w} — ${def}`;
-        }).join('\n');
-        const blob = new Blob(['MY COSY DICTIONARY\n\n' + lines], {type:'text/plain'});
-        const a = document.createElement('a');
-        a.href = URL.createObjectURL(blob);
-        a.download = 'cosy-dictionary.txt';
-        a.click();
-    },
-
-    refresh: () => { STATE = readState(); applyMode(); },
-
-    showToast(msg, isError = false) {
-        const t = document.getElementById('toast');
-        if (!t) {
-            const toast = document.createElement('div');
-            toast.id = 'toast';
-            toast.style.cssText = 'position:fixed; bottom:20px; left:50%; transform:translateX(-50%); padding:12px 24px; border-radius:30px; color:#fff; font-weight:800; font-size:0.85rem; z-index:10000; opacity:0; pointer-events:none; transition:opacity 0.3s;';
-            document.body.appendChild(toast);
-        }
-        const toastEl = document.getElementById('toast');
-        toastEl.textContent = msg;
-        toastEl.style.background = isError ? '#c0392b' : '#333';
-        toastEl.style.opacity = '1';
-        toastEl.style.pointerEvents = 'auto';
-        setTimeout(() => {
-            toastEl.style.opacity = '0';
-            toastEl.style.pointerEvents = 'none';
-        }, 3000);
-    },
-
-    toggleDict() {
-      const panel = document.getElementById('dict-panel');
-      if (panel) panel.classList.toggle('open');
-    },
 
     async loadLanguageData(lang, levelId) {
         const COSYDATA_BASE = 'https://cosylanguages.github.io/COSYdata/';

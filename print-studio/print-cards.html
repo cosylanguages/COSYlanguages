@@ -184,9 +184,7 @@
         <option value="vocabulary">📖 General Vocab</option>
         <option value="locations">🗺️ Locations</option>
         <option value="people">👥 People</option>
-        <option value="dishes">🍕 Dishes &amp; Food</option>
-        <option value="notebook_dict" class="option-highlight-notebook">⚡ Load My Notebook</option>
-    </select>
+        <option value="dishes">🍕 Dishes &amp; Food</option>    </select>
 
     <button onclick="document.getElementById('file-input').click()" class="btn-action btn-action-sm">📂 Load JSON File</button>
     <input type="file" id="file-input" style="display: none;" onchange="handleFileUpload(event)">
@@ -258,22 +256,6 @@
         const lang = document.getElementById('sel-lang').value;
         const level = document.getElementById('sel-level').value;
         const topic = document.getElementById('sel-topic').value;
-
-        if (topic === 'notebook_dict') {
-            const key = 'cosy_dict_free_guest';
-            const saved = localStorage.getItem(key);
-            const dict = saved ? JSON.parse(saved) : {};
-            const list = Object.values(dict);
-            if (list.length > 0) {
-                currentCards = list.slice(0, 6);
-            } else {
-                currentCards = [
-                    { word: "My Notebook", emoji: "📓", definitions: ["Harvest words from speaking clubs by double-clicking them!"] }
-                ];
-            }
-            renderCards();
-            return;
-        }
 
         try {
             // Fetch remote dataset from COSYdata repository
