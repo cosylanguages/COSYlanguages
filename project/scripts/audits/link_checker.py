@@ -1,58 +1,77 @@
 import os
-import re
+import sys
+from html.parser import HTMLParser
+from pathlib import Path
+from urllib.parse import unquote, urlsplit
 
-def find_links(content):
-    # Regex to find .html links in href or window.location
-    return re.findall(r'href=["\']([^"\']+\.html(?:#[^"\']*)?(?:\?[^"\']*)?)["\']', content) + \
-           re.findall(r'location\.href\s*=\s*["\']([^"\']+\.html(?:#[^"\']*)?(?:\?[^"\']*)?)["\']', content)
+ROOT_DIR = Path(__file__).resolve().parents[3]
+SKIP_DIRS = {".git", "node_modules", "templates", "components", "project", "test-results", "screenshots", "__pycache__"}
 
-root_dir = "."
-html_files = []
-for root, dirs, files in os.walk(root_dir):
-    if ".git" in root: continue
-    for file in files:
-        if file.endswith(".html") or file.endswith(".js"):
-            html_files.append(os.path.join(root, file))
 
-all_links = {}
-for file_path in html_files:
+class LinkCollector(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.links = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag in {"a", "area"}:
+            self.links.extend(value for name, value in attrs if name == "href" and value)
+
+
+def html_pages():
+    for current, dirs, files in os.walk(ROOT_DIR):
+        dirs[:] = [directory for directory in dirs if directory not in SKIP_DIRS]
+        for filename in files:
+            if filename.endswith(".html"):
+                yield Path(current) / filename
+
+
+def resolve_local_target(source, href):
+    parsed = urlsplit(href.strip())
+    if parsed.scheme or parsed.netloc or not parsed.path:
+        return None
+
+    link_path = Path(unquote(parsed.path))
+    if link_path.is_absolute():
+        parts = link_path.parts[1:]
+        target = ROOT_DIR.joinpath(*parts)
+        if not target.exists() and parts and parts[0] == ROOT_DIR.name:
+            target = ROOT_DIR.joinpath(*parts[1:])
+    else:
+        target = source.parent / link_path
+
+    target = target.resolve()
     try:
-        with open(file_path, 'r', encoding='utf-8') as f:
-            content = f.read()
-            links = find_links(content)
-            all_links[file_path] = links
-    except Exception as e:
-        print(f"Error reading {file_path}: {e}")
+        target.relative_to(ROOT_DIR)
+    except ValueError:
+        return target
 
-all_existing_files = []
-for root, dirs, files in os.walk(root_dir):
-    if ".git" in root: continue
-    for file in files:
-        rel_path = os.path.relpath(os.path.join(root, file), root_dir).replace("\\", "/")
-        all_existing_files.append(rel_path)
+    if target.is_dir():
+        target /= "index.html"
+    return target
+
 
 broken_links = []
-for file_path, links in all_links.items():
-    for link in links:
-        if link.startswith("http") or link.startswith("mailto:") or link.startswith("https://wa.me") or link.startswith("https://t.me"):
-            continue
+page_count = 0
+for source in html_pages():
+    page_count += 1
+    parser = LinkCollector()
+    try:
+        parser.feed(source.read_text(encoding="utf-8"))
+    except (OSError, UnicodeError) as error:
+        broken_links.append((source, "<unreadable page>", str(error)))
+        continue
 
-        # Clean query/hash
-        clean_link = link.split("#")[0].split("?")[0]
-        if not clean_link: continue
+    for href in parser.links:
+        target = resolve_local_target(source, href)
+        if target is not None and not target.is_file():
+            broken_links.append((source, href, str(target)))
 
-        # Resolve relative path
-        base_dir = os.path.dirname(file_path)
-        resolved_path = os.path.normpath(os.path.join(base_dir, clean_link)).replace("\\", "/")
+print(f"Checked {page_count} HTML pages.")
+if broken_links:
+    print(f"Found {len(broken_links)} broken local link(s):")
+    for source, href, target in sorted(set(broken_links)):
+        print(f"{source.relative_to(ROOT_DIR)} | {href} | {target} (NOT FOUND)")
+    sys.exit(1)
 
-        if resolved_path not in all_existing_files and resolved_path + "/index.html" not in all_existing_files:
-             # Handle root relative if needed, but here we assume relative to file
-             if clean_link.startswith("/"):
-                 resolved_path = clean_link.lstrip("/")
-
-             if resolved_path not in all_existing_files:
-                broken_links.append((file_path, link, resolved_path))
-
-print("--- Broken Links Report ---")
-for src, link, resolved in sorted(list(set(broken_links))):
-    print(f"Source: {src} | Link: {link} | Resolved to: {resolved} (NOT FOUND)")
+print("All local HTML links resolve.")

@@ -1,3 +1,4 @@
+import html
 import re
 import os
 
@@ -248,13 +249,13 @@ def format_housing_category(cat_data):
     items = cat_data['items']
     cards_html = []
     for item in items:
-        cards_html.append(f'''          <a href="{item['url']}" target="_blank" class="shop-card">
-            <div class="sc-name">{item['name']}</div>
-            <div class="sc-desc">{item['desc']}</div>
+        cards_html.append(f'''          <a href="{html.escape(item['url'], quote=True)}" target="_blank" class="shop-card">
+            <div class="sc-name">{html.escape(item['name'])}</div>
+            <div class="sc-desc">{html.escape(item['desc'])}</div>
           </a>''')
     cards_str = '\n'.join(cards_html)
     return f'''      <div class="shop-category">
-        <h4>{title}</h4>
+        <h4>{html.escape(title)}</h4>
         <div class="shop-grid">
 {cards_str}
         </div>

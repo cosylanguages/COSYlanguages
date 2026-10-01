@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="COSYlanguages">
 <link rel="apple-touch-icon" href="../../images/logos/cosylanguages.png">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;family=Lora:ital,wght@0,500;0,700;1,500;1,700&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../css/lang-pages.css">
     <link rel="stylesheet" href="../../css/lang-accents.css">
 
@@ -29,10 +29,10 @@
 
 <a href="https://wa.me/330766784195?text=%CE%93%CE%B5%CE%B9%CE%B1%20%CF%83%CE%B1%CF%82!%20%CE%98%CE%B1%20%CE%AE%CE%B8%CE%B5%CE%BB%CE%B1%20%CE%BD%CE%B1%20%CE%BE%CE%B5%CE%BA%CE%B9%CE%BD%CE%AE%CF%83%CF%89%20%CE%BC%CE%B1%CE%B8%CE%AE%CE%BC%CE%B1%CF%84%CE%B1%20%CE%B5%CE%BB%CE%BB%CE%B7%CE%BD%CE%B9%CE%BA%CF%8E%CE%BD." class="wa-fab" title="WhatsApp">💬</a>
 
-<nav id="cosy-nav"></nav>
+<nav id="cosy-nav" aria-label="Κύρια πλοήγηση"></nav>
 
 <!-- Sticky Top Navigation Header -->
-<header class="sd-sticky-header">
+<div class="sd-sticky-header">
   <div class="sd-header-inner">
     <div class="sd-breadcrumbs">
       <a href="../../index.html">Αρχική</a>
@@ -41,23 +41,23 @@
     </div>
     <nav class="sd-jump-links" aria-label="Page jump links">
       <a href="#daily-dose" class="sd-jump-link">Ημερήσια δόση</a>
-      <a href="#interactive-tools" class="sd-jump-link">Εφαρμογές & Εξάσκηση</a>
+      <a href="#interactive-tools" class="sd-jump-link">Εφαρμογές &amp; Εξάσκηση</a>
       <a href="#resources" class="sd-jump-link">Πηγές</a>
-      <a href="#media-culture" class="sd-jump-link">Μέσα & Πολιτισμός</a>
+      <a href="#media-culture" class="sd-jump-link">Μέσα &amp; Πολιτισμός</a>
       <a href="#daily-life" class="sd-jump-link">Καθημερινή ζωή</a>
     </nav>
   </div>
-</header>
+</div>
 
-<header class="hero" data-flag="🇬🇷">
+<header class="hero" data-flag="🇬🇷" aria-labelledby="language-hero-title">
   <div class="hero-inner">
     <div class="hero-eyebrow">🇬🇷 COSYελληνικά</div>
-    <h1>Μιλήστε ελληνικά με <em>αυτοπεποίθηση</em>.</h1>
+    <h1 id="language-hero-title">Μιλήστε ελληνικά με <em>αυτοπεποίθηση</em>.</h1>
     <p class="hero-sub">Η ελληνική γλώσσα: πάνω από 3.000 χρόνια ιστορίας, πολιτισμού και φιλοσοφίας. Ξεκινήστε να τη μιλάτε από το πρώτο μάθημα.</p>
     <div class="hero-ctas">
       <a href="https://wa.me/330766784195?text=%CE%93%CE%B5%CE%B9%CE%B1%20%CF%83%CE%B1%CF%82!%20%CE%98%CE%B1%20%CE%AE%CE%B8%CE%B5%CE%BB%CE%B1%20%CE%BD%CE%B1%20%CE%BE%CE%B5%CE%BA%CE%B9%CE%BD%CE%AE%CF%83%CF%89%20%CE%BC%CE%B1%CE%B8%CE%AE%CE%BC%CE%B1%CF%84%CE%B1%20%CE%B5%CE%BB%CE%BB%CE%B7%CE%BD%CE%B9%CE%BA%CF%8E%CE%BD." class="btn-primary">💬 Ξεκινήστε ελληνικά</a>
       <a href="../../index.html#calculator" class="btn-ghost">Τιμές 🏷️</a>
-      <button onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal((window.t ? window.t('pin_title') : 'Add to Home Screen'), (window.t ? window.t('pin_lang_desc_el') : 'Προσθέστε το COSYελληνικά στην αρχική σας οθόνη για άμεση πρόσβαση στα μαθήματα και την πρακτική.'), url)" class="btn-ghost">📲 Στην αρχική οθόνη</button>
+      <button type="button" onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal((window.t ? window.t('pin_title') : 'Add to Home Screen'), (window.t ? window.t('pin_lang_desc_el') : 'Προσθέστε το COSYελληνικά στην αρχική σας οθόνη για άμεση πρόσβαση στα μαθήματα και την πρακτική.'), url)" class="btn-ghost">📲 Στην αρχική οθόνη</button>
     </div>
     <div class="hero-why">
       <span class="hw-pill">🏛️ Αρχαία φιλοσοφία</span>
@@ -94,8 +94,8 @@
 <!-- Daily dose -->
 <section id="daily-dose">
   <div class="sec-head reveal">
-    <span class="sec-tag" data-translate-key="daily_dose_tag">💊 Daily Dose & Cultural Insights</span>
-    <h2 data-translate-key="daily_dose_title">Fact & Idiom of the Day 💡</h2>
+    <span class="sec-tag" data-translate-key="daily_dose_tag">💊 Daily Dose &amp; Cultural Insights</span>
+    <h2 data-translate-key="daily_dose_title">Fact &amp; Idiom of the Day 💡</h2>
   </div>
   <div class="daily-grid">
     <div class="daily-card reveal" data-bg="🤣">
@@ -114,15 +114,15 @@
 <section id="interactive-tools">
   <div class="sec-head reveal">
     <span class="sec-tag">🛠️ Interactive Tools</span>
-    <h2>Interactive Apps & Practice</h2>
+    <h2>Interactive Apps &amp; Practice</h2>
     <p>Practice Ελληνικά with interactive reference engines, drills, and learning games.</p>
   </div>
   <div class="resources-grid">
 
     <a href="https://cosylanguages.github.io/COSYtools/el-syntaxi/index.html" target="_blank" class="resource-card reveal" rel="noopener">
       <div class="rc-icon">⚙️</div>
-      <div class="rc-name">Σύνταξη Ρημάτων & Ουσιαστικών</div>
-      <div class="rc-desc">Greek verb & noun syntax government engine.</div>
+      <div class="rc-name">Σύνταξη Ρημάτων &amp; Ουσιαστικών</div>
+      <div class="rc-desc">Greek verb &amp; noun syntax government engine.</div>
       <div class="rc-link">Open App →</div>
     </a>
     <a href="https://cosylanguages.github.io/COSYtools/el-klisi-rimaton/index.html" target="_blank" class="resource-card reveal" rel="noopener">
@@ -133,15 +133,15 @@
     </a>
     <a href="https://cosylanguages.github.io/COSYtools/el-genos-ptoseis/index.html" target="_blank" class="resource-card reveal" rel="noopener">
       <div class="rc-icon">⚙️</div>
-      <div class="rc-name">Γένος & Πτώσεις Ουσιαστικών</div>
-      <div class="rc-desc">Greek noun gender & case inflection reference.</div>
+      <div class="rc-name">Γένος &amp; Πτώσεις Ουσιαστικών</div>
+      <div class="rc-desc">Greek noun gender &amp; case inflection reference.</div>
       <div class="rc-link">Open App →</div>
     </a>
 
     <a href="../../practice/index.html?lang=EL" class="resource-card reveal">
       <div class="rc-icon">💡</div>
       <div class="rc-name">Interactive Practice</div>
-      <div class="rc-desc">Free exercises, quizzes & listening tasks for Ελληνικά.</div>
+      <div class="rc-desc">Free exercises, quizzes &amp; listening tasks for Ελληνικά.</div>
       <div class="rc-link">Practice Now →</div>
     </a>
     <a href="https://cosylanguages.github.io/COSYgames/scene_match/index.html?lang=EL" class="resource-card reveal">
@@ -153,7 +153,7 @@
     <a href="https://cosylanguages.github.io/COSYgames/?lang=EL" class="resource-card reveal">
       <div class="rc-icon">🎮</div>
       <div class="rc-name">Language Games</div>
-      <div class="rc-desc">Vocabulary & grammar games to test your fluency.</div>
+      <div class="rc-desc">Vocabulary &amp; grammar games to test your fluency.</div>
       <div class="rc-link">Play Games →</div>
     </a>
   </div>
@@ -254,13 +254,13 @@
     <p data-translate-key="daily_life_desc">Εξερευνήστε ελληνικά καταστήματα και υπηρεσίες: ιδανικό για πρακτικό λεξιλόγιο.</p>
   </div>
     <div class="country-tabs">
-    <button class="ctab" data-country="gr" onclick="showCountry('gr')" data-translate-key="greece">🇬🇷 Ελλάδα</button>
-    <button class="ctab" data-country="cy" onclick="showCountry('cy')" data-translate-key="cyprus">🇨🇾 Κύπρος</button>
+    <button type="button" class="ctab" data-country="gr" onclick="showCountry('gr')" data-translate-key="greece">🇬🇷 Ελλάδα</button>
+    <button type="button" class="ctab" data-country="cy" onclick="showCountry('cy')" data-translate-key="cyprus">🇨🇾 Κύπρος</button>
   </div>
   <div class="country-panel" id="country-gr">
     <div class="country-name">🇬🇷 Ελλάδα</div>
       <div class="shop-category">
-        <h4>🏢 Ακίνητα, Ενοικιάσεις & Σπίτια</h4>
+        <h4>🏢 Ακίνητα, Ενοικιάσεις &amp; Σπίτια</h4>
         <div class="shop-grid">
           <a href="https://www.spitogatos.gr/" target="_blank" class="shop-card">
             <div class="sc-name">Spitogatos</div>
@@ -277,7 +277,7 @@
         </div>
       </div>
       <div class="shop-category">
-        <h4>💄 Μόδα & Ομορφιά</h4>
+        <h4>💄 Μόδα &amp; Ομορφιά</h4>
         <div class="shop-grid">
           <a href="https://www.skroutz.gr/c/52/" target="_blank" class="shop-card">
             <div class="sc-name">Skroutz Fashion</div>
@@ -294,7 +294,7 @@
         </div>
       </div>
       <div class="shop-category">
-        <h4>🏡 Ηλεκτρονικά & Σπίτι</h4>
+        <h4>🏡 Ηλεκτρονικά &amp; Σπίτι</h4>
         <div class="shop-grid">
           <a href="https://www.kotsovolos.gr/" target="_blank" class="shop-card">
             <div class="sc-name">Κωτσόβολος</div>
@@ -311,7 +311,7 @@
         </div>
       </div>
       <div class="shop-category">
-        <h4>🍲 Τρόφιμα & Παντοπωλεία</h4>
+        <h4>🍲 Τρόφιμα &amp; Παντοπωλεία</h4>
         <div class="shop-grid">
           <a href="https://www.sklavenitis.gr/" target="_blank" class="shop-card">
             <div class="sc-name">Σκλαβενίτης</div>
@@ -331,20 +331,20 @@
   <div class="country-panel" id="country-cy">
     <div class="country-name">🇨🇾 Κύπρος</div>
       <div class="shop-category">
-        <h4>🏢 Ακίνητα, Ενοικιάσεις & Σπίτια</h4>
+        <h4>🏢 Ακίνητα, Ενοικιάσεις &amp; Σπίτια</h4>
         <div class="shop-grid">
           <a href="https://www.bazaraki.com/" target="_blank" class="shop-card">
             <div class="sc-name">Bazaraki</div>
-            <div class="sc-desc">The #1 marketplace & property portal in Cyprus.</div>
+            <div class="sc-desc">The #1 marketplace &amp; property portal in Cyprus.</div>
           </a>
           <a href="https://www.realestate.com.cy/" target="_blank" class="shop-card">
             <div class="sc-name">Cyprus Property</div>
-            <div class="sc-desc">Homes and apartments for rent & sale in Cyprus.</div>
+            <div class="sc-desc">Homes and apartments for rent &amp; sale in Cyprus.</div>
           </a>
         </div>
       </div>
       <div class="shop-category">
-        <h4>💄 Μόδα & Ομορφιά</h4>
+        <h4>💄 Μόδα &amp; Ομορφιά</h4>
         <div class="shop-grid">
           <a href="https://www.debenhams.com.cy/" target="_blank" class="shop-card">
             <div class="sc-name">Debenhams Cyprus</div>
@@ -357,7 +357,7 @@
         </div>
       </div>
       <div class="shop-category">
-        <h4>🍲 Τρόφιμα & Παντοπωλεία</h4>
+        <h4>🍲 Τρόφιμα &amp; Παντοπωλεία</h4>
         <div class="shop-grid">
           <a href="https://www.alfamega.com.cy/" target="_blank" class="shop-card">
             <div class="sc-name">Αλφαμέγα</div>

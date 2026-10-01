@@ -1,6 +1,7 @@
 {
   "version": "1.0.0",
   "generated_at": "2026-03-10",
+  "reviewed_at": "2026-10-01",
   "summary": {
     "total_duplicate_candidates": 5,
     "categories": [
@@ -37,8 +38,9 @@
       ],
       "severity": "medium",
       "description": "The top navigation bar implementation exists in both js/core/engine.js and shared/js/core/engine.js with minor divergence in link mappings.",
-      "recommendation": "Remove js/core/engine.js and standardize on shared/js/core/engine.js across all pages.",
-      "safe_to_automate": true
+      "recommendation": "Re-scan navigation consumers before proposing consolidation; the shared/js/core/engine.js path is absent in the current checkout.",
+      "safe_to_automate": false,
+      "status": "Stale candidate: shared/js/core/engine.js is absent from the current checkout."
     },
     {
       "id": "DUP-003",
@@ -46,17 +48,16 @@
       "source_repository": "COSYlanguages",
       "target_repository": "COSYstudio",
       "files_affected": [
-        "apps/print-studio/*",
-        "print-boardgame.html",
-        "print-cards.html",
-        "print-grammar.html",
-        "print-zine.html",
-        "print-box.html"
+        "print-studio/print-boardgame.html",
+        "print-studio/print-cards.html",
+        "print-studio/print-grammar.html",
+        "print-studio/print-zine.html",
+        "print-studio/print-box.html"
       ],
       "severity": "high",
       "description": "Print studio builders and physical resource generators are scattered across root directory (print-*.html) and apps/print-studio/, violating repository isolation principles.",
-      "recommendation": "Consolidate all print tools into a dedicated repository COSYstudio or move under apps/print-studio/ inside COSYtools.",
-      "safe_to_automate": true
+      "recommendation": "Review the active print-studio/ app for extraction to COSYstudio, then update navigation and test deployed replacement routes before deleting local pages.",
+      "safe_to_automate": false
     },
     {
       "id": "DUP-004",
@@ -64,12 +65,12 @@
       "source_repository": "COSYlanguages",
       "target_repository": "COSYcourses",
       "files_affected": [
-        "apps/premium-courses/*"
+        "courses/*.html"
       ],
       "severity": "high",
-      "description": "Syllabus-driven course paths reside inside apps/premium-courses/ on COSYlanguages while curriculum materials are in COSYmanuals/curriculum/.",
-      "recommendation": "Extract apps/premium-courses/ into a dedicated repository COSYcourses as defined in docs/ECOSYSTEM_ARCHITECTURE.md.",
-      "safe_to_automate": true
+      "description": "Static course discovery pages remain under courses/. The previously mapped apps/premium-courses/ directory is absent, so a full course application is not established by this checkout.",
+      "recommendation": "Decide whether these entry pages belong in a future COSYcourses repository only after curriculum ownership and replacement URLs are confirmed.",
+      "safe_to_automate": false
     },
     {
       "id": "DUP-005",
@@ -81,8 +82,9 @@
       ],
       "severity": "critical",
       "description": "Hardcoded access codes for admin, teacher, and student roles stored in plain text inside a publicly served static JSON file.",
-      "recommendation": "Remove data/access/codes.json from public version control immediately and replace with serverless token verification or client-side COSY Passport cryptographic session verification.",
-      "safe_to_automate": false
+      "recommendation": "No such file is present in the current checkout; verify again before treating this historical candidate as an active incident.",
+      "safe_to_automate": false,
+      "status": "Not present in the current checkout."
     }
   ]
 }

@@ -34,10 +34,10 @@
 
 <a href="#main-content" class="skip-link">Skip to Content</a>
 
-<nav id="cosy-nav" role="navigation"></nav>
+<nav id="cosy-nav" aria-label="Main navigation"></nav>
 
 <!-- Sticky Top Navigation Header -->
-<header class="sd-sticky-header">
+<header class="sd-sticky-header" aria-label="Practice navigation">
   <div class="sd-header-inner">
     <div class="sd-breadcrumbs">
       <a href="../index.html" data-translate-key="breadcrumb_home" data-i18n="breadcrumb.home">Home</a>
@@ -54,7 +54,7 @@
 
 <div class="page">
 
-  <header class="dash-hero">
+  <header class="dash-hero" aria-label="Practice overview">
     <div>
       <h1 class="dash-greeting" data-translate-key="tool_practice_title">Language <strong>Practice</strong> 💡</h1>
       <p class="dash-desc-text" data-translate-key="tool_practice_desc">Vocabulary, grammar and speaking exercises. COSY points and daily streaks: the perfect habit.</p>
@@ -74,7 +74,7 @@
     </div>
   </header>
 
-<main id="main-content" class="practice-container" role="main">
+<main id="main-content" class="practice-container">
   <noscript>
     <div style="background: #fff5f5; border: 1px solid #f56565; color: #c53030; padding: 0.85rem 1.25rem; border-radius: 8px; margin: 1rem 0; text-align: center; font-weight: 600;">
       Practice needs JavaScript. Please enable it to start.
@@ -132,12 +132,12 @@
     <div id="setup-error-msg" class="setup-error-banner error-banner-hidden" hidden style="display: none; align-items: center; gap: 10px; background: #fff5f5; border: 1px solid #f56565; color: #c53030; padding: 0.85rem 1.25rem; border-radius: 8px; margin: 1rem 0;">
        <span class="error-banner-icon">⚠️</span>
        <span class="error-banner-text" id="setup-error-text">No exercises found for this combination. Try 'All Themes' or a different level.</span>
-       <button onclick="window.cosyPractice.startPractice()" class="btn-retry-sm" style="margin-left: auto; padding: 4px 12px; background: #c53030; color: #fff; border: none; border-radius: 6px; font-weight: bold; cursor: pointer;">Retry 🔄</button>
+      <button type="button" onclick="window.cosyPractice.startPractice()" class="btn-retry-sm" style="margin-left: auto; padding: 4px 12px; background: #c53030; color: #fff; border: none; border-radius: 6px; font-weight: bold; cursor: pointer;">Retry 🔄</button>
     </div>
 
     <div class="start-bar">
-      <button onclick="window.cosyPractice.startPractice()" class="btn-start" data-translate-key="start_practice" data-i18n="practice.startPractice">Start Practice 🚀</button>
-      <button onclick="cosyPracticeEngine.toggleProjectorMode()" class="btn-outline" id="projector-setup-toggle" title="Toggle Projector / Classroom Presentation Mode (Key: P)" style="display: inline-flex; align-items: center; gap: 6px;">
+      <button type="button" onclick="window.cosyPractice.startPractice()" class="btn-start" data-translate-key="start_practice" data-i18n="practice.startPractice">Start Practice 🚀</button>
+      <button type="button" onclick="cosyPracticeEngine.toggleProjectorMode()" class="btn-outline" id="projector-setup-toggle" title="Toggle Projector / Classroom Presentation Mode (Key: P)" style="display: inline-flex; align-items: center; gap: 6px;">
         <span>📺</span> <span class="proj-label">Projector Mode</span>
       </button>
     </div>
@@ -195,7 +195,7 @@
         <div id="pe-session-title" class="pe-session-title">Practice</div>
       </div>
       <div style="display: flex; align-items: center; gap: 10px;">
-        <button id="pe-projector-toggle" onclick="cosyPracticeEngine.toggleProjectorMode()" class="btn-outline" style="color:#fff; border-color:rgba(255,255,255,0.3); padding: 5px 12px; font-size: 0.8rem;" title="Toggle Projector / Classroom Presentation Mode (Key: P)">📺 Projector</button>
+        <button type="button" id="pe-projector-toggle" onclick="cosyPracticeEngine.toggleProjectorMode()" class="btn-outline" style="color:#fff; border-color:rgba(255,255,255,0.3); padding: 5px 12px; font-size: 0.8rem;" title="Toggle Projector / Classroom Presentation Mode (Key: P)">📺 Projector</button>
       </div>
       <div class="pe-counters pe-counters-rel">
         <div class="pe-counter combo-wrap-hidden" id="combo-wrap">
@@ -226,9 +226,9 @@
       <div id="pe-fb" class="pe-feedback"></div>
 
       <div class="pe-controls">
-        <button id="pe-next" onclick="cosyPractice.nextQ()" class="pe-btn-next pe-btn-next-hidden" data-translate-key="next" data-i18n="button.next">Next Word</button>
-        <button id="pe-hint" onclick="cosyPractice.showHint()" class="pe-btn-hint" data-i18n="button.hint">Hint 💡</button>
-        <button id="exit-practice-btn" onclick="cosyPractice.showSummary()" class="pe-btn-exit" data-translate-key="exit_btn" data-i18n="button.exitPractice">Exit Practice</button>
+        <button type="button" id="pe-next" onclick="cosyPractice.nextQ()" class="pe-btn-next pe-btn-next-hidden" data-translate-key="next" data-i18n="button.next">Next Word</button>
+        <button type="button" id="pe-hint" onclick="cosyPractice.showHint()" class="pe-btn-hint" data-i18n="button.hint">Hint 💡</button>
+        <button type="button" id="exit-practice-btn" onclick="cosyPractice.showSummary()" class="pe-btn-exit" data-translate-key="exit_btn" data-i18n="button.exitPractice">Exit Practice</button>
       </div>
     </div>
   </div>
@@ -283,47 +283,47 @@
   <section id="quickstart-section">
     <h2 class="sec-title">Quick Start <span>Jump right in</span></h2>
     <div class="quickstart-grid">
-      <div class="qs-card qs-card-blue" onclick="window.cosyPractice.quickStart('en', 'vocab', 'all', 'all')" role="button" tabindex="0" data-i18n-aria-label="aria.languagePracticeTile">
-        <div class="qs-icon">🇬🇧</div>
-        <div class="qs-name">English Vocab</div>
-        <div class="qs-sub">Essential words</div>
-      </div>
-      <div class="qs-card qs-card-teal" onclick="window.cosyPractice.quickStart('en', 'grammar', 'all', 'prepositions_place')" role="button" tabindex="0">
-        <div class="qs-icon">📍</div>
-        <div class="qs-name">Prepositions (In/On/At)</div>
-        <div class="qs-sub">Place &amp; Time Rules</div>
-      </div>
-      <div class="qs-card qs-card-coral" onclick="window.cosyPractice.quickStart('en', 'grammar', 'all', 'contrast_pairs')" role="button" tabindex="0">
-        <div class="qs-icon">🎭</div>
-        <div class="qs-name">Excited vs Exciting</div>
-        <div class="qs-sub">-ed vs -ing Adjectives</div>
-      </div>
-      <div class="qs-card qs-card-blue" onclick="window.cosyPractice.quickStart('en', 'grammar', 'all', 'tenses_aspect')" role="button" tabindex="0">
-        <div class="qs-icon">⏳</div>
-        <div class="qs-name">Tenses &amp; Conditionals</div>
-        <div class="qs-sub">Verb Tenses &amp; Aspects</div>
-      </div>
-      <div class="qs-card qs-card-blue" onclick="window.cosyPractice.quickStart('fr', 'vocab', 'all', 'all')" role="button" tabindex="0" data-i18n-aria-label="aria.languagePracticeTile">
-        <div class="qs-icon">🇫🇷</div>
-        <div class="qs-name">Français Vocab</div>
-        <div class="qs-sub">Les mots essentiels</div>
-      </div>
-      <div class="qs-card qs-card-gold" onclick="window.cosyPractice.openWheel()" role="button" tabindex="0" data-i18n-aria-label="aria.spinWheel">
-        <div class="qs-icon">🎡</div>
-        <div class="qs-name">Spin the Wheel</div>
-        <div class="qs-sub">Let fate decide</div>
-      </div>
-      <div class="qs-card qs-card-coral" onclick="window.cosyPractice.startMistakeReview()" role="button" tabindex="0" data-i18n-aria-label="aria.reviewMistakes">
-        <div class="qs-icon">🎯</div>
-        <div class="qs-name">Remediate Weak Spots</div>
-        <div class="qs-sub">Custom mistake drill</div>
-      </div>
-      <div class="qs-card qs-card-teal" onclick="window.cosyPractice.startSRSReview()" role="button" tabindex="0">
-        <div class="qs-icon">🧠</div>
-        <div class="qs-name">SRS Memory Review</div>
-        <div class="qs-sub">Spaced Repetition</div>
-      </div>
-      <a href="types/concept-check/index.html?lang=en&unit=to-be" class="qs-card qs-card-teal qs-card-link">
+      <button type="button" class="qs-card qs-card-blue" onclick="window.cosyPractice.quickStart('en', 'vocab', 'all', 'all')" data-i18n-aria-label="aria.languagePracticeTile">
+        <span class="qs-icon">🇬🇧</span>
+        <span class="qs-name">English Vocab</span>
+        <span class="qs-sub">Essential words</span>
+      </button>
+      <button type="button" class="qs-card qs-card-teal" onclick="window.cosyPractice.quickStart('en', 'grammar', 'all', 'prepositions_place')">
+        <span class="qs-icon">📍</span>
+        <span class="qs-name">Prepositions (In/On/At)</span>
+        <span class="qs-sub">Place &amp; Time Rules</span>
+      </button>
+      <button type="button" class="qs-card qs-card-coral" onclick="window.cosyPractice.quickStart('en', 'grammar', 'all', 'contrast_pairs')">
+        <span class="qs-icon">🎭</span>
+        <span class="qs-name">Excited vs Exciting</span>
+        <span class="qs-sub">-ed vs -ing Adjectives</span>
+      </button>
+      <button type="button" class="qs-card qs-card-blue" onclick="window.cosyPractice.quickStart('en', 'grammar', 'all', 'tenses_aspect')">
+        <span class="qs-icon">⏳</span>
+        <span class="qs-name">Tenses &amp; Conditionals</span>
+        <span class="qs-sub">Verb Tenses &amp; Aspects</span>
+      </button>
+      <button type="button" class="qs-card qs-card-blue" onclick="window.cosyPractice.quickStart('fr', 'vocab', 'all', 'all')" data-i18n-aria-label="aria.languagePracticeTile">
+        <span class="qs-icon">🇫🇷</span>
+        <span class="qs-name">Français Vocab</span>
+        <span class="qs-sub">Les mots essentiels</span>
+      </button>
+      <button type="button" class="qs-card qs-card-gold" onclick="window.cosyPractice.openWheel()" data-i18n-aria-label="aria.spinWheel">
+        <span class="qs-icon">🎡</span>
+        <span class="qs-name">Spin the Wheel</span>
+        <span class="qs-sub">Let fate decide</span>
+      </button>
+      <button type="button" class="qs-card qs-card-coral" onclick="window.cosyPractice.startMistakeReview()" data-i18n-aria-label="aria.reviewMistakes">
+        <span class="qs-icon">🎯</span>
+        <span class="qs-name">Remediate Weak Spots</span>
+        <span class="qs-sub">Custom mistake drill</span>
+      </button>
+      <button type="button" class="qs-card qs-card-teal" onclick="window.cosyPractice.startSRSReview()">
+        <span class="qs-icon">🧠</span>
+        <span class="qs-name">SRS Memory Review</span>
+        <span class="qs-sub">Spaced Repetition</span>
+      </button>
+      <a href="types/concept-check/index.html?lang=en&amp;unit=to-be" class="qs-card qs-card-teal qs-card-link">
         <div class="qs-icon">💡</div>
         <div class="qs-name">Concept Check (CCQs)</div>
         <div class="qs-sub">Grammar &amp; Meaning Verification</div>
@@ -357,9 +357,9 @@
 
       <!-- Level Tabs -->
       <div class="level-tabs">
-        <button id="tab-a" class="ltab" onclick="window.setLevel('a')">A1 - Beginner</button>
-        <button id="tab-b" class="ltab on" onclick="window.setLevel('b')">B1 - Intermediate</button>
-        <button id="tab-c" class="ltab" onclick="window.setLevel('c')">C1 - Advanced</button>
+        <button type="button" id="tab-a" class="ltab" onclick="window.setLevel('a')">A1 - Beginner</button>
+        <button type="button" id="tab-b" class="ltab on" onclick="window.setLevel('b')">B1 - Intermediate</button>
+        <button type="button" id="tab-c" class="ltab" onclick="window.setLevel('c')">C1 - Advanced</button>
       </div>
 
       <!-- Task Panels -->
@@ -389,8 +389,8 @@
         <div class="timer-row">
           <div id="timerDisplay" class="timer-display">2:00</div>
           <div class="timer-btns">
-            <button id="startBtn" class="tbtn go" onclick="window.startTimer()">▶ Start Timer</button>
-            <button id="stopBtn" class="tbtn stop" onclick="window.stopTimer()" disabled>⏸ Pause</button>
+            <button type="button" id="startBtn" class="tbtn go" onclick="window.startTimer()">▶ Start Timer</button>
+            <button type="button" id="stopBtn" class="tbtn stop" onclick="window.stopTimer()" disabled>⏸ Pause</button>
           </div>
         </div>
 
@@ -402,7 +402,7 @@
 
         <!-- Completion Action Row -->
         <div class="complete-row">
-          <button id="btnComplete" class="dc-btn" onclick="window.markComplete()" style="width: 100%; padding: 1rem; font-size: 1.1rem; font-weight: 700;">Complete Challenge (+50 XP) ⚔️</button>
+          <button type="button" id="btnComplete" class="dc-btn" onclick="window.markComplete()" style="width: 100%; padding: 1rem; font-size: 1.1rem; font-weight: 700;">Complete Challenge (+50 XP) ⚔️</button>
         </div>
       </div>
     </div>
@@ -426,9 +426,9 @@
       <div class="wheel-pointer">▼</div>
       <canvas id="wheel-canvas" width="200" height="200" class="wheel-canvas"></canvas>
     </div>
-    <button id="spin-btn" class="wheel-btn">SPIN! 🚀</button>
+    <button type="button" id="spin-btn" class="wheel-btn">SPIN! 🚀</button>
     <div id="wheel-result" class="wheel-result"></div>
-    <button onclick="cosyPractice.closeWheel()" class="btn-outline btn-outline-top-spaced">Close</button>
+    <button type="button" onclick="cosyPractice.closeWheel()" class="btn-outline btn-outline-top-spaced">Close</button>
   </div>
 
   <!-- Stats + Mistakes Grid -->
@@ -454,7 +454,7 @@
       <div id="pe-bb-desc" class="pe-bb-desc"></div>
     </div>
   </div>
-  <button id="pe-bb-btn" class="pe-bb-action-btn" onclick="cosyPracticeEngine.nextQuestion()">Continue</button>
+  <button type="button" id="pe-bb-btn" class="pe-bb-action-btn" onclick="cosyPracticeEngine.nextQuestion()">Continue</button>
 </div>
 
 <div id="summary-modal" class="modal-overlay modal-overlay-hidden">
@@ -490,8 +490,8 @@
     </div>
 
     <div class="modal-action-flex">
-      <button onclick="cosyPractice.startMistakeReview()" class="btn-outline btn-flex-1">Review Weak Spots ✏️</button>
-      <button onclick="cosyPractice.endSession()" class="btn-primary btn-flex-1" data-translate-key="back_to_menu">Back to Menu 🏠</button>
+      <button type="button" onclick="cosyPractice.startMistakeReview()" class="btn-outline btn-flex-1">Review Weak Spots ✏️</button>
+      <button type="button" onclick="cosyPractice.endSession()" class="btn-primary btn-flex-1" data-translate-key="back_to_menu">Back to Menu 🏠</button>
     </div>
   </div>
 </div>

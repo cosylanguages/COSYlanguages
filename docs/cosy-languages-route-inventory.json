@@ -2,7 +2,8 @@
   "metadata": {
     "title": "COSYlanguages Route & File Inventory",
     "total_items": 6983,
-    "generated_date": "2026-03-10"
+    "generated_date": "2026-03-10",
+    "snapshot_status": "Historical snapshot; regenerate before using these counts or path statuses for migration decisions."
   },
   "inventory": [
     {

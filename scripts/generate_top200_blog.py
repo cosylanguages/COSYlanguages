@@ -13,8 +13,27 @@ Generates Essential A0-A1 Master Curriculum List blog pages for 13 supported lan
 import os
 import glob
 import json
+import subprocess
 import urllib.request
 import tempfile
+
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+
+
+def canonical_footer(file_path):
+    script = (
+        "const fs = require('node:fs');"
+        "const { generateFooterForFile } = require('./scripts/sync-footer.js');"
+        "const template = fs.readFileSync('./components/footer.html', 'utf8').trim();"
+        f"process.stdout.write(generateFooterForFile(template, {json.dumps(file_path)}));"
+    )
+    return subprocess.run(
+        ['node', '-e', script],
+        cwd=ROOT_DIR,
+        check=True,
+        capture_output=True,
+        text=True
+    ).stdout
 
 LANGUAGES = {
     'en': {
@@ -514,14 +533,14 @@ def generate_page(lang_code, lang_info):
     nouns_title = f"🏛️ 1. Top 100 ({nouns_count}) Essential {name} Nouns (A0–A1)"
     verbs_title = f"⚡ 2. Top 100 ({verbs_count}) Essential {name} Verbs (A0–A1)"
     adj_title = f"🎨 3. Top 100 ({adj_count}) Essential {name} Adjectives (A0–A1)"
-    phrases_title = f"💬 4. Top 100 ({phrases_count}) Essential {name} Expressions & Phrases (A0–A1)"
+    phrases_title = f"💬 4. Top 100 ({phrases_count}) Essential {name} Expressions &amp; Phrases (A0–A1)"
 
     html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Top 100 ({total_count}) {name} A0-A1 Master List (Nouns, Verbs, Adjectives & Phrases) — COSY Blog</title>
+    <title>Top 100 {name} A0–A1 Vocabulary — COSY Blog</title>
     <meta name="description" content="The ultimate Top 100 ({total_count}) A0-A1 {name} vocabulary blueprint: essential nouns, action verbs, descriptive adjectives, and survival phrase patterns for beginners.">
     <link rel="icon" href="../images/logos/cosylanguages.png">
     <link rel="manifest" href="../apps/free-portal/manifest.json">
@@ -645,23 +664,7 @@ def generate_page(lang_code, lang_info):
         </div>
     </div>
 
-    <footer>
-        <div class="footer-inner">
-            <div class="footer-brand">
-                <div class="fb-logo">
-                    <img src="../images/logos/cosylanguages.png" alt="COSYlanguages logo">
-                    <span class="fb-name">COSYlanguages</span>
-                </div>
-                <p>Your friendly corner to master new languages and connect with the world. 🌍</p>
-            </div>
-            <div class="footer-links-col">
-                <h5>Explore</h5>
-                <a href="../practice/index.html">Free Practice 💡</a>
-                <a href="index.html">COSY Blog &amp; Hub 📝</a>
-            </div>
-        </div>
-        <div class="footer-bottom">© 2026 COSYlanguages — All rights reserved</div>
-    </footer>
+    <!-- CANONICAL_FOOTER -->
 
     <script src="../js/data/languages.js"></script>
     <script src="../js/core/engine.js"></script>
@@ -673,6 +676,7 @@ def generate_page(lang_code, lang_info):
     slug = lang_info['slug']
     filename = f"top-100-a0-a1-{slug}.html"
     filepath = os.path.join("blog", filename)
+    html = html.replace('<!-- CANONICAL_FOOTER -->', canonical_footer(filepath))
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(html)
     print(f"Generated {filepath} (Total: {total_count} -> Nouns: {nouns_count}, Verbs: {verbs_count}, Adj: {adj_count}, Phrases: {phrases_count})")

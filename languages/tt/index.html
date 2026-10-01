@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="COSYlanguages">
 <link rel="apple-touch-icon" href="../../images/logos/cosylanguages.png">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;family=Lora:ital,wght@0,500;0,700;1,500;1,700&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../css/lang-pages.css">
     <link rel="stylesheet" href="../../css/lang-accents.css">
 
@@ -34,10 +34,10 @@ if ('serviceWorker' in navigator) {
 
 <a href="https://wa.me/330766784195?text=Исәнмесез!%20Миңа%20татар%20теле%20дәресләре%20турында%20күбрәк%20белергә%20теләр%20идем." class="wa-fab" title="WhatsApp аша язышу">💬</a>
 
-<nav id="cosy-nav"></nav>
+<nav id="cosy-nav" aria-label="Төп навигация"></nav>
 
 <!-- Sticky Top Navigation Header -->
-<header class="sd-sticky-header">
+<div class="sd-sticky-header">
   <div class="sd-header-inner">
     <div class="sd-breadcrumbs">
       <a href="../../index.html">Төп бит</a>
@@ -52,18 +52,18 @@ if ('serviceWorker' in navigator) {
       <a href="#daily-life" class="sd-jump-link">Көндәлек тормыш</a>
     </nav>
   </div>
-</header>
+</div>
 
-<header class="hero" data-flag="🏳️">
+<header class="hero" data-flag="🏳️" aria-labelledby="language-hero-title">
   <div class="hero-inner">
     <div class="hero-left">
         <div class="hero-eyebrow">🏳️ COSYtatar</div>
-        <h1>Татарча <em>ышанычлы</em> сөйләш!</h1>
+        <h1 id="language-hero-title">Татарча <em>ышанычлы</em> сөйләш!</h1>
         <p class="hero-sub">Тиздән: Сөйләмгә нигезләнгән татар теле дәресләре. Әлегә безнең бушлай ресурсларны кулланыгыз һәм Practice Hub-та практика ясагыз.</p>
         <div class="hero-ctas">
       <a href="../../practice/index.html?lang=TT" class="btn-primary">💡 Practice Татарча Now</a>
       <a href="https://cosylanguages.github.io/COSYgames/?lang=TT" class="btn-ghost">Games 🎮</a>
-      <button onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal('Añadir a la pantalla de inicio', 'Añade Татарча a tu pantalla de inicio para un acceso instantáneo.', url)" class="btn-ghost">📲 Төп экранга өстәү</button>
+      <button type="button" onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal('Añadir a la pantalla de inicio', 'Añade Татарча a tu pantalla de inicio para un acceso instantáneo.', url)" class="btn-ghost">📲 Төп экранга өстәү</button>
     </div>
     </div>
     <div class="hero-why">
@@ -88,7 +88,7 @@ if ('serviceWorker' in navigator) {
     <div class="ss-links">
       <div class="lead-capture" style="display:flex; gap:10px;">
         <input type="email" placeholder="Сезнең email" class="lead-email" style="padding:10px; border-radius:8px; border:1px solid var(--accent); flex-grow:1;">
-        <button class="ss-link ss-link-primary" onclick="captureLead('Tatar')" style="border:none; cursor:pointer;">Хәбәр итү</button>
+        <button type="button" class="ss-link ss-link-primary" onclick="captureLead('Tatar')" style="border:none; cursor:pointer;">Хәбәр итү</button>
       </div>
     </div>
   </div>
@@ -97,8 +97,8 @@ if ('serviceWorker' in navigator) {
 <!-- Daily dose -->
 <section id="daily-dose">
   <div class="sec-head reveal">
-    <span class="sec-tag" data-translate-key="daily_dose_tag">💊 Daily Dose & Cultural Insights</span>
-    <h2 data-translate-key="daily_dose_title">Fact & Idiom of the Day 💡</h2>
+    <span class="sec-tag" data-translate-key="daily_dose_tag">💊 Daily Dose &amp; Cultural Insights</span>
+    <h2 data-translate-key="daily_dose_title">Fact &amp; Idiom of the Day 💡</h2>
   </div>
   <div class="daily-grid">
     <div class="daily-card reveal" data-bg="🤣">
@@ -117,7 +117,7 @@ if ('serviceWorker' in navigator) {
 <section id="interactive-tools">
   <div class="sec-head reveal">
     <span class="sec-tag">🛠️ Interactive Tools</span>
-    <h2>Interactive Apps & Practice</h2>
+    <h2>Interactive Apps &amp; Practice</h2>
     <p>Practice Татарча with interactive reference engines, drills, and learning games.</p>
   </div>
   <div class="resources-grid">
@@ -126,13 +126,13 @@ if ('serviceWorker' in navigator) {
     <a href="../../practice/index.html?lang=TT" class="resource-card reveal">
       <div class="rc-icon">💡</div>
       <div class="rc-name">Interactive Practice</div>
-      <div class="rc-desc">Free exercises, quizzes & listening tasks for Татарча.</div>
+      <div class="rc-desc">Free exercises, quizzes &amp; listening tasks for Татарча.</div>
       <div class="rc-link">Practice Now →</div>
     </a>
     <a href="https://cosylanguages.github.io/COSYgames/?lang=TT" class="resource-card reveal">
       <div class="rc-icon">🎮</div>
       <div class="rc-name">Language Games</div>
-      <div class="rc-desc">Vocabulary & grammar games to test your fluency.</div>
+      <div class="rc-desc">Vocabulary &amp; grammar games to test your fluency.</div>
       <div class="rc-link">Play Games →</div>
     </a>
   </div>
@@ -207,7 +207,7 @@ if ('serviceWorker' in navigator) {
     <p data-translate-key="daily_life_desc">Чын кибетләрне һәм хезмәтләрне өйрәнегез: практик сүзлек запасы өчен бик яхшы.</p>
   </div>
     <div class="country-tabs">
-    <button class="ctab" data-country="tt" onclick="showCountry('tt')">🏳️ Татарстан</button>
+    <button type="button" class="ctab" data-country="tt" onclick="showCountry('tt')">🏳️ Татарстан</button>
   </div>
   <div class="country-panel" id="country-tt">
     <div class="country-name">🏳️ Татарстан</div>

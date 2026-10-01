@@ -142,7 +142,7 @@
 <nav id="cosy-nav" aria-label="Main navigation"></nav>
 
 <!-- Sticky Top Navigation Header -->
-<header class="sd-sticky-header">
+<div class="sd-sticky-header">
   <div class="sd-header-inner">
     <div class="sd-breadcrumbs">
       <a href="../index.html">Home</a>
@@ -158,13 +158,13 @@
       <a href="#pwa" class="sd-jump-link">Offline PWA</a>
     </nav>
   </div>
-</header>
+</div>
 
-<header class="hero">
+<header class="hero" aria-labelledby="bridge-hero-title">
   <div class="hero-inner">
     <div class="hero-left">
       <div class="hero-tag">🔗 Bridge Tools</div>
-      <h1>Connect paper flashcards to <em>digital audio &amp; games</em>.</h1>
+      <h1 id="bridge-hero-title">Connect paper flashcards to <em>digital audio &amp; games</em>.</h1>
       <p class="hero-sub">Printable cards shouldn't live in isolation. Bridge Tools generate QR codes that link your physical zines and flashcards back to online audio pronunciations, interactive quizzes, and Speaking Club sessions.</p>
       <div class="hero-ctas">
         <a href="#generator" class="btn-primary">Generate QR Code ↓</a>
@@ -182,7 +182,7 @@
   </div>
 </header>
 
-<main id=main-content class="page" role="main">
+<main id="main-content" class="page">
 
 <section id="why-this-exists" style="max-width: 780px; margin: 0 auto 3.5rem; padding: 0 1rem; text-align: left;">
   <span class="sec-tag" style="margin-bottom: 0.75rem;">🌙 Why this exists</span>
@@ -226,15 +226,15 @@
 
     <div class="qr-presets">
       <span class="qr-label-sm" style="font-size:0.8rem; font-weight:bold; color:var(--ink-soft); align-self:center;">Quick Presets:</span>
-      <button class="qr-pill" onclick="setQrPreset('https://cosylanguages.github.io/COSYlanguages/practice/index.html')">💡 Free Practice Hub</button>
-      <button class="qr-pill" onclick="setQrPreset('https://cosylanguages.github.io/COSYgames/')">🎮 Language Games</button>
-      <button class="qr-pill" onclick="setQrPreset('https://cosylanguages.github.io/COSYlanguages/https://cosylanguages.github.io/COSYevents/')">🎉 Speaking Clubs</button>
-      <button class="qr-pill" onclick="setQrPreset('https://cosylanguages.github.io/COSYlanguages/print-studio/print-zine.html')">📖 Pocket Zine Compiler</button>
+      <button type="button" class="qr-pill" onclick="setQrPreset('https://cosylanguages.github.io/COSYlanguages/practice/index.html')">💡 Free Practice Hub</button>
+      <button type="button" class="qr-pill" onclick="setQrPreset('https://cosylanguages.github.io/COSYgames/')">🎮 Language Games</button>
+      <button type="button" class="qr-pill" onclick="setQrPreset('https://cosylanguages.github.io/COSYevents/')">🎉 Speaking Clubs</button>
+      <button type="button" class="qr-pill" onclick="setQrPreset('https://cosylanguages.github.io/COSYlanguages/print-studio/print-zine.html')">📖 Pocket Zine Compiler</button>
     </div>
 
     <div class="qr-input-group">
       <input type="text" id="qr-input-url" class="qr-input" placeholder="https://cosylanguages.github.io/COSYlanguages/practice/index.html" value="https://cosylanguages.github.io/COSYlanguages/practice/index.html">
-      <button onclick="generateQRCode()" class="btn-primary" style="white-space:nowrap;">Generate QR Code</button>
+      <button type="button" onclick="generateQRCode()" class="btn-primary" style="white-space:nowrap;">Generate QR Code</button>
     </div>
 
     <div class="qr-output-area">
@@ -248,8 +248,8 @@
         <p style="font-size:0.85rem; color:var(--muted); margin-bottom:1rem;">Stick this QR code on a Leitner card or pocket booklet so learners can scan and jump straight to audio practice!</p>
 
         <div class="qr-actions">
-          <button onclick="downloadQRCode()" class="btn-secondary" style="font-size:0.85rem; padding:0.4rem 0.9rem;">💾 Download PNG</button>
-          <button onclick="printQRCodeLabel()" class="btn-secondary" style="font-size:0.85rem; padding:0.4rem 0.9rem;">🖨️ Print Label</button>
+          <button type="button" onclick="downloadQRCode()" class="btn-secondary" style="font-size:0.85rem; padding:0.4rem 0.9rem;">💾 Download PNG</button>
+          <button type="button" onclick="printQRCodeLabel()" class="btn-secondary" style="font-size:0.85rem; padding:0.4rem 0.9rem;">🖨️ Print Label</button>
         </div>
       </div>
     </div>

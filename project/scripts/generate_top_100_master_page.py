@@ -1,4 +1,25 @@
 import os
+import subprocess
+from html import escape, unescape
+from pathlib import Path
+
+ROOT_DIR = Path(__file__).resolve().parents[2]
+
+
+def canonical_footer():
+    script = (
+        "const fs = require('node:fs');"
+        "const { generateFooterForFile } = require('./scripts/sync-footer.js');"
+        "const template = fs.readFileSync('./components/footer.html', 'utf8').trim();"
+        "process.stdout.write(generateFooterForFile(template, 'blog/top-100-a0-a1.html'));"
+    )
+    return subprocess.run(
+        ['node', '-e', script],
+        cwd=ROOT_DIR,
+        check=True,
+        capture_output=True,
+        text=True
+    ).stdout
 
 DOMAINS = [
     {
@@ -213,6 +234,10 @@ DOMAINS = [
     }
 ]
 
+def escape_html_text(value):
+    return escape(unescape(str(value)), quote=False)
+
+
 def render_html():
     html = []
     html.append('''<!DOCTYPE html>
@@ -295,11 +320,11 @@ def render_html():
         <div class="domain-head">
             <div class="domain-num">{num_str}</div>
             <div>
-                <div class="domain-goal">{dom['emoji']} Domain {dom['num']}: {dom['goal']}</div>
-                <h2>{dom['title']}</h2>
+                <div class="domain-goal">{dom['emoji']} Domain {dom['num']}: {escape_html_text(dom['goal'])}</div>
+                <h2>{escape_html_text(dom['title'])}</h2>
             </div>
         </div>
-        <p class="domain-desc">{dom['desc']}</p>
+        <p class="domain-desc">{escape_html_text(dom['desc'])}</p>
 
         <div class="chains-grid">''')
 
@@ -307,7 +332,7 @@ def render_html():
             rel_class = "rel-seq" if chain['rel'] == "➔" else "rel-opp"
             items_html = []
             for idx, item in enumerate(chain['items']):
-                items_html.append(f'<span>{item}</span>')
+                items_html.append(f'<span>{escape_html_text(item)}</span>')
                 if idx < len(chain['items']) - 1:
                     items_html.append(f'<span class="chain-rel {rel_class}">{chain["rel"]}</span>')
 
@@ -316,7 +341,7 @@ def render_html():
             html.append(f'''
             <div class="chain-card">
                 <div class="chain-head">
-                    <span>Chain {chain['id']} · {chain['title']}</span>
+                    <span>Chain {chain['id']} · {escape_html_text(chain['title'])}</span>
                     <span class="chain-badge">A0 Level</span>
                 </div>
                 <div class="chain-body">
@@ -329,7 +354,7 @@ def render_html():
 
         <div class="milestone-box">
             <div class="milestone-title">🎯 Milestone {dom['num']} Can-Do Goal</div>
-            <p style="margin:0; font-size:0.95rem; color:var(--text-main, #1e293b);">{dom['milestone']}</p>
+            <p style="margin:0; font-size:0.95rem; color:var(--text-main, #1e293b);">{escape_html_text(dom['milestone'])}</p>
         </div>
     </section>''')
 
@@ -366,17 +391,16 @@ def render_html():
     </div>
 
     <!-- Footer -->
-    <footer id="cosy-footer" style="margin-top:4rem; padding:2rem 0; border-top:1px solid var(--border-color, #e2e8f0); text-align:center; font-size:0.9rem; color:var(--text-muted, #64748b);">
-        <p>© 2026 COSYlanguages · 100% Free Public Ecosystem. Built for learners worldwide.</p>
-    </footer>
+    <!-- CANONICAL_FOOTER -->
 
     <script src="../js/core/engine.js"></script>
 </body>
 </html>
 ''')
 
-    with open('blog/top-100-a0-a1.html', 'w', encoding='utf-8') as f:
-        f.write("".join(html))
+    page = "".join(html).replace('<!-- CANONICAL_FOOTER -->', canonical_footer())
+    with open(ROOT_DIR / 'blog/top-100-a0-a1.html', 'w', encoding='utf-8') as f:
+        f.write(page)
 
     print("Successfully generated blog/top-100-a0-a1.html")
 

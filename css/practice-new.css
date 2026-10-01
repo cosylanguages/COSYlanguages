@@ -341,11 +341,17 @@
   border: 1px solid var(--border);
   border-radius: var(--r-lg);
   padding: 1rem;
+  color: inherit;
   cursor: pointer;
+  font: inherit;
   transition: transform .18s, box-shadow .18s, border-color .18s;
   text-align: center;
   position: relative;
   overflow: hidden;
+}
+.qs-card:focus-visible {
+  outline: 3px solid var(--teal);
+  outline-offset: 2px;
 }
 .qs-card::after {
   content: '';
@@ -362,6 +368,7 @@
 .qs-icon { font-size: 1.6rem; margin-bottom: .45rem; display: inline-block; transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
 .qs-name { font-family: 'Fraunces', serif; font-weight: 500; font-size: .92rem; margin-bottom: .2rem; }
 .qs-sub { font-size: .72rem; color: var(--ink-muted); }
+.qs-name, .qs-sub { display: block; }
 
 /* ── SETUP PANEL ── */
 .setup-panel {

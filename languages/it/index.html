@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="COSYlanguages">
 <link rel="apple-touch-icon" href="../../images/logos/cosylanguages.png">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;family=Lora:ital,wght@0,500;0,700;1,500;1,700&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../css/lang-pages.css">
     <link rel="stylesheet" href="../../css/lang-accents.css">
 
@@ -29,10 +29,10 @@
 
 <a href="https://wa.me/330766784195?text=Ciao!%20Vorrei%20saperne%20di%20pi%C3%B9%20sulle%20lezioni%20di%20italiano." class="wa-fab" title="Chatta su WhatsApp">💬</a>
 
-<nav id="cosy-nav"></nav>
+<nav id="cosy-nav" aria-label="Navigazione principale"></nav>
 
 <!-- Sticky Top Navigation Header -->
-<header class="sd-sticky-header">
+<div class="sd-sticky-header">
   <div class="sd-header-inner">
     <div class="sd-breadcrumbs">
       <a href="../../index.html">Home</a>
@@ -48,17 +48,17 @@
       <a href="#daily-life" class="sd-jump-link">Vita quotidiana</a>
     </nav>
   </div>
-</header>
+</div>
 
-<header class="hero" data-flag="🇮🇹">
+<header class="hero" data-flag="🇮🇹" aria-labelledby="language-hero-title">
   <div class="hero-inner">
     <div class="hero-eyebrow">🇮🇹 COSYitaliano</div>
-    <h1>Parlate italiano con <em>passione</em>.</h1>
+    <h1 id="language-hero-title">Parlate italiano con <em>passione</em>.</h1>
     <p class="hero-sub">L'italiano è musica, cultura, storia e cucina. Imparate a parlarlo davvero: dalla prima frase fino alla padronanza.</p>
     <div class="hero-ctas">
       <a href="https://wa.me/330766784195?text=Ciao!%20Vorrei%20iniziare%20le%20lezioni%20di%20italiano." class="btn-primary">💬 Inizia l'italiano</a>
       <a href="../../index.html#calculator" class="btn-ghost">Vedi i prezzi 🏷️</a>
-      <button onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal((window.t ? window.t('pin_title') : 'Add to Home Screen'), (window.t ? window.t('pin_lang_desc_it') : 'Aggiungi COSYitaliano alla tua schermata home per l\'accesso istantaneo alle lezioni e alla pratica.'), url)" class="btn-ghost">📲 Aggiungi a Home</button>
+      <button type="button" onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal((window.t ? window.t('pin_title') : 'Add to Home Screen'), (window.t ? window.t('pin_lang_desc_it') : 'Aggiungi COSYitaliano alla tua schermata home per l\'accesso istantaneo alle lezioni e alla pratica.'), url)" class="btn-ghost">📲 Aggiungi a Home</button>
     </div>
     <div class="hero-why">
       <span class="hw-pill">🍕 Arte &amp; cultura</span>
@@ -130,8 +130,8 @@
 <!-- Daily dose -->
 <section id="daily-dose">
   <div class="sec-head reveal">
-    <span class="sec-tag" data-translate-key="daily_dose_tag">💊 Daily Dose & Cultural Insights</span>
-    <h2 data-translate-key="daily_dose_title">Fact & Idiom of the Day 💡</h2>
+    <span class="sec-tag" data-translate-key="daily_dose_tag">💊 Daily Dose &amp; Cultural Insights</span>
+    <h2 data-translate-key="daily_dose_title">Fact &amp; Idiom of the Day 💡</h2>
   </div>
   <div class="daily-grid">
     <div class="daily-card reveal" data-bg="🤣">
@@ -150,7 +150,7 @@
 <section id="interactive-tools">
   <div class="sec-head reveal">
     <span class="sec-tag">🛠️ Interactive Tools</span>
-    <h2>Interactive Apps & Practice</h2>
+    <h2>Interactive Apps &amp; Practice</h2>
     <p>Practice Italiano with interactive reference engines, drills, and learning games.</p>
   </div>
   <div class="resources-grid">
@@ -158,32 +158,32 @@
     <a href="https://cosylanguages.github.io/COSYtools/it-reggenza/index.html" target="_blank" class="resource-card reveal" rel="noopener">
       <div class="rc-icon">⚙️</div>
       <div class="rc-name">Reggenza Verbale Italiana</div>
-      <div class="rc-desc">Italian prepositional regime engine for verbs, nouns & adjectives.</div>
+      <div class="rc-desc">Italian prepositional regime engine for verbs, nouns &amp; adjectives.</div>
       <div class="rc-link">Open App →</div>
     </a>
     <a href="https://cosylanguages.github.io/COSYtools/it-coniugatore/index.html" target="_blank" class="resource-card reveal" rel="noopener">
       <div class="rc-icon">⚙️</div>
       <div class="rc-name">Il Coniugatore Italiano</div>
-      <div class="rc-desc">Verb conjugation database & tense reference.</div>
+      <div class="rc-desc">Verb conjugation database &amp; tense reference.</div>
       <div class="rc-link">Open App →</div>
     </a>
     <a href="https://cosylanguages.github.io/COSYtools/it-genere/index.html" target="_blank" class="resource-card reveal" rel="noopener">
       <div class="rc-icon">⚙️</div>
       <div class="rc-name">Genere dei Nomi Italiani</div>
-      <div class="rc-desc">Italian noun gender classification & irregular patterns.</div>
+      <div class="rc-desc">Italian noun gender classification &amp; irregular patterns.</div>
       <div class="rc-link">Open App →</div>
     </a>
 
     <a href="../../practice/index.html?lang=IT" class="resource-card reveal">
       <div class="rc-icon">💡</div>
       <div class="rc-name">Interactive Practice</div>
-      <div class="rc-desc">Free exercises, quizzes & listening tasks for Italiano.</div>
+      <div class="rc-desc">Free exercises, quizzes &amp; listening tasks for Italiano.</div>
       <div class="rc-link">Practice Now →</div>
     </a>
     <a href="https://cosylanguages.github.io/COSYgames/?lang=IT" class="resource-card reveal">
       <div class="rc-icon">🎮</div>
       <div class="rc-name">Language Games</div>
-      <div class="rc-desc">Vocabulary & grammar games to test your fluency.</div>
+      <div class="rc-desc">Vocabulary &amp; grammar games to test your fluency.</div>
       <div class="rc-link">Play Games →</div>
     </a>
   </div>
@@ -286,12 +286,12 @@
     <p data-translate-key="daily_life_desc">Esplorate i negozi e i servizi italiani: ottimo per un vocabolario pratico e concreto.</p>
   </div>
   <div class="country-tabs">
-    <button class="ctab" data-country="it" onclick="showCountry('it')" data-translate-key="italy">🇮🇹 Italia</button>
+    <button type="button" class="ctab" data-country="it" onclick="showCountry('it')" data-translate-key="italy">🇮🇹 Italia</button>
   </div>
   <div class="country-panel" id="country-it">
     <div class="country-name">🇮🇹 Italia</div>
       <div class="shop-category">
-        <h4>🏢 Casa, Affitti & Immobiliare</h4>
+        <h4>🏢 Casa, Affitti &amp; Immobiliare</h4>
         <div class="shop-grid">
           <a href="https://www.immobiliare.it/" target="_blank" class="shop-card">
             <div class="sc-name">Immobiliare.it</div>
@@ -312,7 +312,7 @@
         </div>
       </div>
       <div class="shop-category">
-        <h4>💄 Moda & Bellezza</h4>
+        <h4>💄 Moda &amp; Bellezza</h4>
         <div class="shop-grid">
           <a href="https://www.zalando.it/" target="_blank" class="shop-card">
             <div class="sc-name">Zalando</div>
@@ -329,7 +329,7 @@
         </div>
       </div>
       <div class="shop-category">
-        <h4>🏡 Elettronica & Casa</h4>
+        <h4>🏡 Elettronica &amp; Casa</h4>
         <div class="shop-grid">
           <a href="https://www.mediaworld.it/" target="_blank" class="shop-card">
             <div class="sc-name">MediaWorld</div>
@@ -346,7 +346,7 @@
         </div>
       </div>
       <div class="shop-category">
-        <h4>🍲 Alimentari & Spesa</h4>
+        <h4>🍲 Alimentari &amp; Spesa</h4>
         <div class="shop-grid">
           <a href="https://www.coop.it/" target="_blank" class="shop-card">
             <div class="sc-name">Coop</div>

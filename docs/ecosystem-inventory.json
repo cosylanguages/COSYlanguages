@@ -1,6 +1,7 @@
 {
   "version": "1.0.0",
   "generated_at": "2026-03-10",
+  "snapshot_status": "Historical snapshot; file totals and route mappings have not been regenerated against the current checkout.",
   "workspace_summary": {
     "total_files": 6978,
     "repositories_audited": [

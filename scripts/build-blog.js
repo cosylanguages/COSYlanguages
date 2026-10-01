@@ -11,6 +11,15 @@ const path = require('path');
 const yaml = require('js-yaml');
 const { marked } = require('marked');
 
+const blogRenderer = new marked.Renderer();
+blogRenderer.tablecell = function (token) {
+  const tag = token.header ? 'th' : 'td';
+  const align = token.align ? ` style="text-align:${token.align}"` : '';
+  const content = this.parser.parseInline(token.tokens);
+  return `<${tag}${align}>${content}</${tag}>\n`;
+};
+marked.use({ renderer: blogRenderer });
+
 const BLOG_DIR = path.join(__dirname, '..', 'blog');
 const POSTS_DIR = path.join(BLOG_DIR, 'posts');
 const GUIDES_FILE = path.join(BLOG_DIR, 'guides.json');
@@ -34,6 +43,29 @@ const RESERVED_SLUGS = new Set([
   'top-10-verbs',
   'top-100-a0-a1'
 ]);
+
+function escapeHtml(value) {
+  return String(value).replace(/[&<>"']/g, char => ({
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#39;'
+  })[char]);
+}
+
+function getDocumentTitle(title) {
+  const fullTitle = `${title} — COSY Blog`;
+  const characters = Array.from(fullTitle);
+  let documentTitle = characters.length <= 70
+    ? fullTitle
+    : `${characters.slice(0, 69).join('').trimEnd()}…`;
+
+  while (escapeHtml(documentTitle).length > 70) {
+    documentTitle = `${Array.from(documentTitle).slice(0, -2).join('').trimEnd()}…`;
+  }
+  return documentTitle;
+}
 
 function buildBlog() {
   console.log('🚀 Starting Blog Build Pipeline...');
@@ -158,8 +190,8 @@ function buildBlog() {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${post.title} — COSY Blog</title>
-    <meta name="description" content="${post.summary.replace(/"/g, '&quot;')}">
+    <title>${escapeHtml(getDocumentTitle(post.title))}</title>
+    <meta name="description" content="${escapeHtml(post.summary)}">
     <link rel="icon" href="../images/logos/cosylanguages.png">
     <link rel="manifest" href="../apps/free-portal/manifest.json">
     <meta name="theme-color" content="#FAF7F2">
@@ -182,11 +214,11 @@ function buildBlog() {
             <div class="post-breadcrumb" style="margin-bottom: 0.75rem;">
                 <a href="index.html" style="color: var(--teal, #0d9488); text-decoration: none; font-weight: 600; font-size: 0.9rem;">← Back to Blog &amp; Editorial Hub</a>
             </div>
-            <span class="post-card-label">${post.category}</span>
-            <h1 class="blog-header-title" style="margin-top: 0.5rem;">${post.title}</h1>
+            <span class="post-card-label">${escapeHtml(post.category)}</span>
+            <h1 class="blog-header-title" style="margin-top: 0.5rem;">${escapeHtml(post.title)}</h1>
             <div class="post-card-meta" style="margin-top: 0.75rem;">
-                <span class="post-author-avatar">${post.author.charAt(0).toUpperCase()}</span>
-                <span>Written by <strong>${post.author}</strong></span>
+                <span class="post-author-avatar">${escapeHtml(post.author.charAt(0).toUpperCase())}</span>
+                <span>Written by <strong>${escapeHtml(post.author)}</strong></span>
                 <span>·</span>
                 <span>📅 Published ${post.date}</span>
                 <span>·</span>
@@ -196,14 +228,14 @@ function buildBlog() {
 
         <div class="blog-layout">
             <main class="blog-main-col">
-                ${post.cover_image ? `<div class="post-cover" style="margin-bottom: 1.5rem;"><img src="${post.cover_image}" alt="${post.title}" style="width: 100%; border-radius: 12px;"></div>` : ''}
+                ${post.cover_image ? `<div class="post-cover" style="margin-bottom: 1.5rem;"><img src="${escapeHtml(post.cover_image)}" alt="${escapeHtml(post.title)}" style="width: 100%; border-radius: 12px;"></div>` : ''}
                 <article class="post-full-content" style="background: var(--surface, #ffffff); border: 1px solid var(--border-color, #e2e8f0); border-radius: 12px; padding: 2rem; line-height: 1.75; color: var(--text-main, #1e293b);">
                     ${renderedBody}
                 </article>
 
                 ${post.tags.length > 0 ? `
                 <div class="post-tags-row" style="margin-top: 1.5rem;">
-                    ${post.tags.map(t => `<span class="post-tag-chip">#${t}</span>`).join(' ')}
+                    ${post.tags.map(t => `<span class="post-tag-chip">#${escapeHtml(t)}</span>`).join(' ')}
                 </div>` : ''}
 
                 <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color, #e2e8f0);">
@@ -266,7 +298,7 @@ function buildBlog() {
       <a href="../comparative/index.html">Grammar Atlas 🌐</a>
       <a href="../placement-quiz.html">Placement Quiz 📝</a>
       <a href="../hybrid/index.html">Hybrid &amp; Community 🌿</a>
-      <a href="../blog/index.html">Blog & Top 100 📝</a>
+      <a href="../blog/index.html">Blog &amp; Top 100 📝</a>
       <a href="../apps/index.html">Reference Engines 🔎</a>
       <a href="../apps/premium-events/index.html">Events 🎉</a>
     </div>

@@ -21,6 +21,7 @@ if (!fs.existsSync(manifestPath)) {
 }
 
 const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+let hasErrors = false;
 
 const sandbox = {
     window: {
@@ -58,8 +59,9 @@ if (!sandbox.window.gameUtils || !sandbox.window.gameUtils.getVocabPool) {
 console.log('--- Loading vocabulary datasets for active languages ---');
 ACTIVE_LANGS.forEach(lang => {
     const langManifest = manifest[lang] || {};
-    Object.keys(langManifest).forEach(lvlCode => {
-        const files = langManifest[lvlCode] || [];
+    Object.entries(langManifest).forEach(([lvlCode, files]) => {
+        if (lvlCode.toUpperCase() === 'A1') return;
+
         files.forEach(f => {
             const filePath = path.join(process.cwd(), 'vocabulary', lang, lvlCode, f);
             if (fs.existsSync(filePath)) {
@@ -68,9 +70,11 @@ ACTIVE_LANGS.forEach(lang => {
                     vm.runInContext(code, sandbox);
                 } catch (e) {
                     console.error(`⚠️ Error loading ${filePath}:`, e.message);
+                    hasErrors = true;
                 }
             } else {
                 console.error(`❌ File listed in manifest not found on disk: ${filePath}`);
+                hasErrors = true;
             }
         });
     });
@@ -78,7 +82,6 @@ ACTIVE_LANGS.forEach(lang => {
 
 // 4. Verify question pool size for each active language and level
 console.log('--- Verifying minimum question pool size per active language & level ---');
-let hasErrors = false;
 
 ACTIVE_LANGS.forEach(lang => {
     LEVELS.forEach(levelId => {

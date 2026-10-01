@@ -30,7 +30,10 @@ jobs:
           node scripts/verify_vocab_pool.js
 
       - name: Validate Public Entry Pages
-        run: npx html-validate index.html login.html privacy.html placement-quiz.html
+        run: npx html-validate index.html login.html privacy.html placement-quiz.html vocabulary/index.html 'languages/*/index.html' 'languages/fr/marathon*.html' 'languages/fr/marathon/*.html'
+
+      - name: Validate Application JavaScript Syntax
+        run: find js practice apps print-studio shared -type f -name '*.js' -print0 | xargs -0 -n1 node --check
 
       - name: Run Grammar Logic Tests
         run: >-
@@ -47,9 +50,19 @@ jobs:
         run: |
           npm run check:names
 
-      - name: Report Existing HTML Issues (non-blocking)
+      - name: Validate Site HTML
         run: |
-          npx html-validate "*.html" "practice/*.html" "games/*.html" "vocabulary/*.html" || true
+          npx html-validate "*.html" "practice/*.html" "games/*.html" "vocabulary/*.html" "hybrid/*.html"
+
+      - name: Validate Generated Blog Pages
+        run: >-
+          npx html-validate
+          blog/top-100-a0-a1*.html
+          blog/replace-50-overused-phrases*.html
+          blog/replace-very-50-stronger-adjectives*.html
+          blog/stop-translating-10-sentence-frames*.html
+          blog/top-10-verb-synonyms-intermediate-plateau*.html
+          blog/welcome-to-cosy-blog.html
 
       - name: Run internal link verification
         run: |

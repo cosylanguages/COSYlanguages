@@ -1,4 +1,4 @@
-import glob, os, re
+import glob, html, os, re
 
 hub_data = {
     'en': {
@@ -101,7 +101,7 @@ for lang, data in hub_data.items():
     if 'href="#interactive-tools"' not in content:
         content = content.replace(
             '<a href="#daily-dose" class="sd-jump-link">Daily Dose</a>',
-            '<a href="#daily-dose" class="sd-jump-link">Daily Dose</a>\n      <a href="#interactive-tools" class="sd-jump-link">Manuals & Tools</a>'
+            '<a href="#daily-dose" class="sd-jump-link">Daily Dose</a>\n      <a href="#interactive-tools" class="sd-jump-link">Manuals &amp; Tools</a>'
         )
 
     # 2. Update daily dose section HTML to include idiom of the day
@@ -109,8 +109,8 @@ for lang, data in hub_data.items():
 
     new_daily_html = '''<section id="daily-dose">
   <div class="sec-head reveal">
-    <span class="sec-tag" data-translate-key="daily_dose_tag">💊 Daily Dose & Cultural Insights</span>
-    <h2 data-translate-key="daily_dose_title">Fact & Idiom of the Day 💡</h2>
+    <span class="sec-tag" data-translate-key="daily_dose_tag">💊 Daily Dose &amp; Cultural Insights</span>
+    <h2 data-translate-key="daily_dose_title">Fact &amp; Idiom of the Day 💡</h2>
   </div>
   <div class="daily-grid">
     <div class="daily-card reveal" data-bg="🤣">
@@ -130,13 +130,13 @@ for lang, data in hub_data.items():
     manual_links_html = f'''<a href="{data['manual_a0_a1']}" class="resource-card reveal">
       <div class="rc-icon">📘</div>
       <div class="rc-name">3-Book Manual (A0–A1)</div>
-      <div class="rc-desc">Grammar, Vocabulary & Communication Books for starter learners.</div>
+      <div class="rc-desc">Grammar, Vocabulary &amp; Communication Books for starter learners.</div>
       <div class="rc-link">Explore →</div>
     </a>
     <a href="{data['manual_a2']}" class="resource-card reveal">
       <div class="rc-icon">📙</div>
       <div class="rc-name">3-Book Manual (A2)</div>
-      <div class="rc-desc">Elementary grammar, thematic collocations & dialogue maps.</div>
+      <div class="rc-desc">Elementary grammar, thematic collocations &amp; dialogue maps.</div>
       <div class="rc-link">Explore →</div>
     </a>'''
 
@@ -145,7 +145,7 @@ for lang, data in hub_data.items():
     <a href="{data['manual_b1']}" class="resource-card reveal">
       <div class="rc-icon">📗</div>
       <div class="rc-name">3-Book Manual (B1)</div>
-      <div class="rc-desc">Intermediate grammar structures, expanded lexicon & conversation.</div>
+      <div class="rc-desc">Intermediate grammar structures, expanded lexicon &amp; conversation.</div>
       <div class="rc-link">Explore →</div>
     </a>'''
     if 'manual_b2' in data:
@@ -153,7 +153,7 @@ for lang, data in hub_data.items():
     <a href="{data['manual_b2']}" class="resource-card reveal">
       <div class="rc-icon">📕</div>
       <div class="rc-name">3-Book Manual (B2)</div>
-      <div class="rc-desc">Upper-intermediate discourse, nuanced syntax & advanced fluency.</div>
+      <div class="rc-desc">Upper-intermediate discourse, nuanced syntax &amp; advanced fluency.</div>
       <div class="rc-link">Explore →</div>
     </a>'''
     if 'manual_c1' in data:
@@ -161,7 +161,7 @@ for lang, data in hub_data.items():
     <a href="{data['manual_c1']}" class="resource-card reveal">
       <div class="rc-icon">📓</div>
       <div class="rc-name">3-Book Manual (C1)</div>
-      <div class="rc-desc">Advanced precision, professional register & academic prose.</div>
+      <div class="rc-desc">Advanced precision, professional register &amp; academic prose.</div>
       <div class="rc-link">Explore →</div>
     </a>'''
     if 'manual_c2' in data:
@@ -169,7 +169,7 @@ for lang, data in hub_data.items():
     <a href="{data['manual_c2']}" class="resource-card reveal">
       <div class="rc-icon">🎓</div>
       <div class="rc-name">3-Book Manual (C2)</div>
-      <div class="rc-desc">Mastery & native-level idiomatic fluency across domains.</div>
+      <div class="rc-desc">Mastery &amp; native-level idiomatic fluency across domains.</div>
       <div class="rc-link">Explore →</div>
     </a>'''
 
@@ -178,8 +178,8 @@ for lang, data in hub_data.items():
         app_links_html += f'''
     <a href="{app['url']}" class="resource-card reveal">
       <div class="rc-icon">⚙️</div>
-      <div class="rc-name">{app['name']}</div>
-      <div class="rc-desc">{app['desc']}</div>
+      <div class="rc-name">{html.escape(app['name'])}</div>
+      <div class="rc-desc">{html.escape(app['desc'])}</div>
       <div class="rc-link">Open App →</div>
     </a>'''
 
@@ -187,13 +187,13 @@ for lang, data in hub_data.items():
     <a href="../../practice/index.html?lang={data['practice_lang']}" class="resource-card reveal">
       <div class="rc-icon">💡</div>
       <div class="rc-name">Interactive Practice</div>
-      <div class="rc-desc">Free exercises, quizzes & listening tasks for {data['native']}.</div>
+      <div class="rc-desc">Free exercises, quizzes &amp; listening tasks for {html.escape(data['native'])}.</div>
       <div class="rc-link">Practice Now →</div>
     </a>
     <a href="../../games/index.html?lang={data['practice_lang']}" class="resource-card reveal">
       <div class="rc-icon">🎮</div>
       <div class="rc-name">Language Games</div>
-      <div class="rc-desc">Vocabulary & grammar games to test your fluency.</div>
+      <div class="rc-desc">Vocabulary &amp; grammar games to test your fluency.</div>
       <div class="rc-link">Play Games →</div>
     </a>'''
 
@@ -201,8 +201,8 @@ for lang, data in hub_data.items():
 <section id="interactive-tools">
   <div class="sec-head reveal">
     <span class="sec-tag">🛠️ Complete Learning Suite</span>
-    <h2>3-Book Manuals, Apps & Practice</h2>
-    <p>Everything you need for {data['native']}: structured 3-book manuals, interactive reference engines, and instant practice.</p>
+    <h2>3-Book Manuals, Apps &amp; Practice</h2>
+    <p>Everything you need for {html.escape(data['native'])}: structured 3-book manuals, interactive reference engines, and instant practice.</p>
   </div>
   <div class="resources-grid">
     {manual_links_html}

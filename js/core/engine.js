@@ -181,27 +181,38 @@ function getPrefix() {
    4. NAV TEMPLATES
    ═══════════════════════════════════════════════════════════════ */
 function isActive (href) {
-    const cleanHref = href.split('?')[0].split('#')[0];
-    const path = window.location.pathname;
-    const items = document.querySelectorAll(.mobile-nav-item);
+    const target = new URL(href, window.location.href);
+    const current = new URL(window.location.href);
+    const targetPath = target.pathname.replace(/\/index\.html$/, '/');
+    const currentPath = current.pathname.replace(/\/index\.html$/, '/');
 
-    items.forEach(item => {
-      item.classList.remove(active);
-    });
+    if (target.origin === current.origin && targetPath === currentPath && (!target.hash || target.hash === current.hash)) {
+        return 'aria-current="page"';
+    }
+    return '';
+}
 
-    if (path.includes(/practice)) {
-      const p = document.getElementById(mnav-practice);
-      if (p) p.classList.add(active);
-    } else if (path.includes(/courses)) {
-      const c = document.getElementById(mnav-courses);
-      if (c) c.classList.add(active);
-    } else if (path === / || path.endsWith(/index.html) && !path.includes(/practice) && !path.includes(/courses) && !path.includes(/blog) && !path.includes(/games) && !path.includes(/apps) && !path.includes(/languages)) {
-      const h = document.getElementById(mnav-home);
-      if (h) h.classList.add(active);
+function updateNavActiveState() {
+    if (typeof document === 'undefined' || typeof window === 'undefined') return;
+
+    const path = window.location.pathname.toLowerCase();
+    const items = document.querySelectorAll('.mobile-nav-item');
+    items.forEach(item => item.classList.remove('active'));
+
+    let activeId = null;
+    if (path.includes('/practice')) {
+        activeId = 'mnav-practice';
+    } else if (path.includes('/courses')) {
+        activeId = 'mnav-courses';
+    } else if ((path === '/' || path.endsWith('/') || path.endsWith('/index.html')) &&
+        !['/blog', '/games', '/apps', '/languages'].some(section => path.includes(section))) {
+        activeId = 'mnav-home';
     }
 
-        } catch (e) {}
-    });
+    if (activeId) {
+        const activeItem = document.getElementById(activeId);
+        if (activeItem) activeItem.classList.add('active');
+    }
 }
 
 function getActiveNavLang() {
@@ -812,9 +823,10 @@ window.COSY = {
 
     async loadLanguageData(lang, levelId) {
         const COSYDATA_BASE = 'https://cosylanguages.github.io/COSYdata/';
-        const levelsToLoad = (levelId === 'all')
+        let levelsToLoad = (levelId === 'all')
             ? (window.COSY_LEVELS ? window.COSY_LEVELS.map(l => l.id) : ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'])
             : [levelId];
+        let remoteEntries = [];
 
         const keys = ['vocabularyData', 'verbsData', 'adjectivesData', 'locationsData', 'peopleData', 'nationalitiesData', 'grammarData', 'grammarElements', 'dishesData'];
         keys.forEach(key => {
@@ -874,7 +886,19 @@ window.COSY = {
                 }
 
                 if (loadedEntries.length > 0) {
-                    return loadedEntries;
+                    remoteEntries = loadedEntries;
+                    if (levelId !== 'all') return remoteEntries;
+
+                    const remoteLevels = new Set(remoteEntries.map(item => {
+                        const itemLevel = item.level_code || item.level || '';
+                        const shortCode = window.levelIdToShort ? window.levelIdToShort(itemLevel) : itemLevel;
+                        return String(shortCode).toUpperCase();
+                    }));
+                    levelsToLoad = levelsToLoad.filter(lid => {
+                        const shortCode = window.levelIdToShort ? window.levelIdToShort(lid) : lid;
+                        return !remoteLevels.has(String(shortCode).toUpperCase());
+                    });
+                    if (levelsToLoad.length === 0) return remoteEntries;
                 }
             }
         } catch (err) {
@@ -903,7 +927,7 @@ window.COSY = {
             allEntries.push(...after.slice(beforeCounts[key]));
         });
 
-        return allEntries;
+        return remoteEntries.concat(allEntries);
     },
 
     async loadCurriculum(lang, level) {

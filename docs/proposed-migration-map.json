@@ -2,7 +2,8 @@
   "metadata": {
     "title": "COSYlanguages Proposed Migration & Boundary Realignment Map",
     "total_mapped_items": 6984,
-    "generated_date": "2026-03-10"
+    "generated_date": "2026-03-10",
+    "snapshot_status": "Historical snapshot; regenerate and review path existence before using this map to move or delete files."
   },
   "migration_map": [
     {

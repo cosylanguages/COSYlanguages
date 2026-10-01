@@ -3,6 +3,8 @@
 ## Executive Summary
 This document presents the comprehensive audit of the **COSY Languages** ecosystem conducted on **March 10, 2026**. The audit covers all six component repositories defining the ecosystem architecture: **COSYlanguages** (Central Portal Gateway & Hub), **COSYmanuals** (Restricted Web Textbooks & Curricula), **COSYevents** (Public Speaking Clubs & Multimedia Nights), **COSYworld** (3D RPG Adventure & Spatial Scenes), **COSYgames** (Reusable Minigames Hub), and **COSYtools** (Linguistic Reference & Offline PWA Suite).
 
+> **Historical snapshot:** Findings below describe the repository state on March 10, 2026 and are not current issue reports. Referenced paths and workflows must be checked against the live tree before action; see `docs/ECOSYSTEM_ARCHITECTURE.md` for the current migration map.
+
 ---
 
 ## 1. Framework, Language, Build System, Package Manager, and Deployment Setup

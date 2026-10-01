@@ -4,7 +4,9 @@ This document provides a comprehensive inventory of the local `vocabulary/` fold
 
 All vocabulary data is being centralized into the standalone repository **COSYdata** ([https://github.com/cosylanguages/COSYdata](https://github.com/cosylanguages/COSYdata)), served live via GitHub Pages at [https://cosylanguages.github.io/COSYdata/](https://cosylanguages.github.io/COSYdata/).
 
-> **Scope Note:** This task produces only this inventory and checklist in `MIGRATION_NOTES.md`. **No local vocabulary files or consuming source code files have been modified or deleted.**
+> **Migration Status:** The original inventory below is a historical baseline. The shared loader and vocabulary portal have since been updated to combine COSYdata results with local fallback data; local vocabulary files have not been deleted.
+
+> The file and word counts below are the original migration baseline, not a live count. Check the current manifest and consumer paths before using them to plan removal.
 
 ---
 
@@ -191,7 +193,7 @@ As part of the initial pilot migration to validate remote COSYdata integration:
 * **Findings & Data Mismatches:**
   1. **Directory Structure Mismatch:** Local datasets used `vocabulary/<lang>/<LEVEL>/<topic>.js` (nested by level and topic), whereas COSYdata uses flat theme files per language (`vocabulary/<lang>/<theme>.json`, e.g., `animals.json`).
   2. **Data Shape Differences:** Entries in COSYdata store definitions as an array of strings (`definitions: ["Definition text..."]`) rather than objects (`definitions: [{ text: "..." }]`). Card back rendering in `print-cards.html` was updated to support both string array definitions/examples and legacy object definitions cleanly.
-  3. **Missing Themes in COSYdata:** COSYdata currently contains only `animals.json` under `vocabulary/en/`. Topics like `adjectives`, `verbs`, `locations`, `people`, `dishes`, and non-English target languages need to be exported to COSYdata before full migration of all consuming tools.
+  3. **Current remote index snapshot (2026-10-01):** Public COSYdata indexes returned 13,469 entry keys across 312 unique files for English, 1,881 keys/61 files for French, 2,279/81 for Italian, 1,721/60 for Russian, and 1,067/48 for Greek. These are index mappings, not unique word counts. A0-A1 and A2/C1/C2 paths were present in all five indexes; B1 paths were absent for French, Russian, and Greek. The local loader must keep supplying those missing levels, and these mutable remote counts should be refreshed before further extraction.
 
 ---
 
@@ -199,8 +201,8 @@ As part of the initial pilot migration to validate remote COSYdata integration:
 
 When centralizing vocabulary data to **COSYdata** ([`https://cosylanguages.github.io/COSYdata/`](https://cosylanguages.github.io/COSYdata/)):
 
-1. **Loader Base Path Update:** Update `js/core/engine.js` (`getPrefix()` or `basePath`) to point `fetch()` and dynamic `<script>` tag loading to `https://cosylanguages.github.io/COSYdata/vocabulary/` (or JSON fetch endpoints).
-2. **Print Studio Update:** Update `print-cards.html`, `print-zine.html`, `print-boardgame.html`, and `print-grammar.html` script loading URLs to target the remote COSYdata endpoints.
-3. **Reference Portal Update:** Update `vocabulary/index.html` to consume remote COSYdata endpoints.
+1. **Shared Loader (partially migrated):** `js/core/engine.js` tries the COSYdata index first and falls back to local vocabulary. For an `all`-levels request it must also load local levels missing from the remote result; verify this behavior whenever remote coverage changes.
+2. **Print Studio:** `print-studio/print-cards.html` is the remote-data pilot. `print-zine.html`, `print-boardgame.html`, and `print-grammar.html` still need independent consumer checks before their local loaders can be retired.
+3. **Reference Portal (hybrid):** `vocabulary/index.html` calls the shared loader for all levels and consumes its combined remote/local data. Do not point it directly at a remote endpoint or remove its local datasets until parity is confirmed.
 4. **Build & Audit Utility Updates:** Update Python/Node scripts in `scripts/` and `project/scripts/` to fetch or clone from COSYdata if local building is required.
 5. **Local Folder Clean Up:** Once remote consumption is verified across all tools and practice types, delete or archive the local `vocabulary/` dataset folder.

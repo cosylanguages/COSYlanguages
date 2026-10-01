@@ -1,6 +1,6 @@
 # COSYlanguages Ecosystem Architecture & Modularization Roadmap
 
-This document outlines the architecture for decoupling the **COSYlanguages** platform into dedicated standalone GitHub repositories for each major sub-product application, and establishes how the main repository (`COSYlanguages`) functions as the central portal, textbook library, and ecosystem gateway.
+This document tracks the architecture for the **COSYlanguages** ecosystem. It is a living map of current companion repositories and proposed extractions; proposed destinations are not implemented until their repositories and replacement routes exist.
 
 ---
 
@@ -32,9 +32,9 @@ The project has already begun extracting specialized sub-products into standalon
 
 ---
 
-## 2. Proposed Standalone Repositories for Extraction
+## 2. Remaining Extraction Candidates
 
-To make each product modular, independently deployable, and easy to maintain, the following standalone web applications in the main codebase are prime candidates to move into their own dedicated GitHub repositories:
+COSYevents and COSYgames already exist as companion repositories. The remaining proposals below are not repositories yet; paths describe the active local footprint to review before any move.
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
@@ -51,29 +51,21 @@ To make each product modular, independently deployable, and easy to maintain, th
 ```
 
 ### 1. `COSYevents` (`github.com/cosylanguages/COSYevents`)
-* **Migration Status:** Pre-packaged into root folder **[`COSYevents/`](../COSYevents/)** for easy copy-paste migration into its standalone GitHub repository.
-* **Sub-products included:**
-  - *Thematic Speaking Clubs:* I Couldn't Help But Wonder, Keeping Up with Science, Mind Matters, Debatable & Relatable, Let's Celebrate, My Life With/Without, and The Greatest Quotes (`premium-events/clubs/`).
-  - *Multimedia Event Nights:* Cinema Club, Karaoke Club, Game Evening, Long Reads (`premium-events/nights/`).
-  - Public events hubs, browse filters, and session guides (`sessions/`).
+* **Migration Status:** Companion repository exists. There is no `COSYevents/` staging directory in this checkout; `apps/premium-events/` remains a local entry surface whose ownership and overlap should be reviewed before removal.
 
 ### 2. `COSYgames` (`github.com/cosylanguages/COSYgames`)
-* **Migration Status:** Pre-packaged into root folder **[`COSYgames/`](../COSYgames/)** for easy copy-paste migration into its standalone GitHub repository.
-* **Sub-products included:**
-  - 22+ interactive minigames including Scene Match, COSY Crossword, Action Hero, Battle of Wits, Critics Corner, Emoji Odyssey, Fluency Flow, Hot Seat, 100 Questions, Story Chain, What Gender Is It, and Word Linker.
-  - Game engine drivers (`_engine/`) and scene datasets (`data/`).
+* **Migration Status:** Companion repository exists and is linked from the public hub. No `COSYgames/` source or `games/` page tree is present in this checkout; retain only intentional shared integrations.
 
-### Candidate 3: `COSYstudio` (`github.com/cosylanguages/COSYstudio`)
-* **What it is:** The pedagogical print studio and physical resource builder (`apps/print-studio/`, `print-boardgame.html`, `print-cards.html`, `print-grammar.html`, `print-zine.html`, `print-box.html`).
+### Candidate 3: Proposed `COSYstudio`
+* **What it is:** The pedagogical print studio and physical resource builder (`print-studio/`, including `print-boardgame.html`, `print-cards.html`, `print-grammar.html`, `print-zine.html`, and `print-box.html`). The previously proposed `apps/print-studio/` and root-level `print-*.html` paths do not exist.
 * **Why extract to a separate repo:** A standalone web app for teachers and self-learners to generate, customize, and print physical learning zines, flashcard boxes, boardgames, and PDF grammar cheatsheets.
 
-### Candidate 4: `COSYcourses` (`github.com/cosylanguages/COSYcourses`)
-* **What it is:** The syllabus-driven structured course web app (`apps/premium-courses/` and `curriculum/`).
-* **Tracks included:** General, Spoken, Professional, Travelling, Relocation, and Exam Prep across CEFR levels A1–C2.
-* **Why extract to a separate repo:** Operates as a focused structured learning app with level pathways, unit cards, lesson progress, and teacher notes.
+### Candidate 4: Proposed `COSYcourses`
+* **What it is:** A possible future home for the course entry pages currently under `courses/`. The proposed `apps/premium-courses/` and root `curriculum/` paths are absent, so this checkout does not currently demonstrate a separate syllabus application to move.
+* **Why extract to a separate repo:** Reassess after the course product boundary, curriculum source, and live destinations are agreed; do not bulk-move the current public course pages on this proposal alone.
 
-### Candidate 5: `COSYclassroom` (`github.com/cosylanguages/COSYclassroom`)
-* **What it is:** The live classroom presentation and screen sync tool (`classroom-sync.html`).
+### Candidate 5: Proposed `COSYclassroom`
+* **What it is:** The live classroom presentation and screen sync tool at `apps/classroom-sync/index.html`; the previously proposed root `classroom-sync.html` does not exist.
 * **Why extract to a separate repo:** A dedicated presentation utility for teachers projecting interactive lessons onto smartboards or sharing screens during live classes.
 
 ---
@@ -93,9 +85,8 @@ Once standalone sub-products are extracted into their own repositories, **`COSYl
   - 🖨️ **COSYstudio:** Printable Zines & Flashcard Studio
   - 📚 **COSYcourses:** Structured Syllabus Pathways
 
-### 2. Comprehensive CEFR Interactive Web Textbooks (`manuals/`)
-* Retains and expands the core interactive HTML textbooks across all 13 supported languages (English, French, Italian, Russian, Greek, Spanish, German, Portuguese, Armenian, Georgian, Tatar, Bashkir, Breton).
-* Standardizes all manual paths under clean ISO language codes (`manuals/{lang}/grammar/` and `manuals/{lang}/vocabulary/`).
+### 2. Companion Textbooks Entry
+* Interactive textbooks are hosted by the separate COSYmanuals repository, not in a local `manuals/` directory here. COSYlanguages should maintain clear links to the manuals available for the ecosystem's 14 registered languages.
 
 ### 3. Universal Diagnostic Placement & Language Portals
 * **Placement Quiz (`placement-quiz.html`):** Fast, account-free CEFR level assessment.
@@ -110,6 +101,7 @@ Once standalone sub-products are extracted into their own repositories, **`COSYl
 
 1. **Phase 1 (Done):** Extracted `COSYworld` and `COSYtools` into standalone repositories.
 2. **Phase 2 (Done):** Formulated the ecosystem modularization roadmap in `docs/ECOSYSTEM_ARCHITECTURE.md`.
-3. **Phase 3 (Next Steps):**
-   - Create `COSYevents`, `COSYgames`, `COSYstudio`, and `COSYcourses` GitHub repositories.
-   - Refactor `COSYlanguages` into a lightweight master gateway and web textbook portal with unified navigation header linking to all standalone sub-product repos.
+3. **Phase 3 (Remaining Decisions):**
+   - `COSYevents` and `COSYgames` already exist; verify each local bridge before retiring or relocating it.
+   - Decide whether to create `COSYstudio`, `COSYcourses`, and `COSYclassroom` after confirming active routes, data ownership, and replacement URLs.
+   - Keep `COSYlanguages` as the public gateway and update migration records only after each extraction is deployed and its inbound links are checked.

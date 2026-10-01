@@ -643,16 +643,16 @@
 </head>
 <body>
 
-<nav id="cosy-nav" role="navigation"></nav>
+<nav id="cosy-nav" aria-label="Main navigation"></nav>
 
 <header class="cognitive-hero">
-    <div class="cosy-breadcrumbs breadcrumbs-centered" role="navigation" aria-label="Breadcrumb">
+    <nav class="cosy-breadcrumbs breadcrumbs-centered" aria-label="Breadcrumb">
         <a href="../index.html">Home</a>
         <span class="sep">/</span>
         <a href="index.html">Free Practice</a>
         <span class="sep">/</span>
         <span class="current">Cognitive Accelerator</span>
-    </div>
+    </nav>
     <div class="hero-badge">Neuro-Linguistics Hub</div>
     <h1>Immersion &amp; Memory Tools</h1>
     <p class="hero-sub hero-sub-constrained">
@@ -660,7 +660,7 @@
     </p>
 </header>
 
-<main class="cognitive-container" role="main">
+<main class="cognitive-container">
 
     <!-- Section 1: Full Monolingual Immersion -->
     <section class="cog-section">
@@ -679,7 +679,7 @@
                 <div class="checklist-item" onclick="toggleCheck('chk-os')">
                     <input type="checkbox" id="chk-os" onclick="event.stopPropagation(); updateImmersionProgress(true);">
                     <div class="checklist-content">
-                        <h4>Mobile & OS Language Flip 📱</h4>
+                        <h4>Mobile &amp; OS Language Flip 📱</h4>
                         <p>Change your phone, browser, and computer interface to your target language. Yields 150+ daily micro-exposures.</p>
                     </div>
                 </div>
@@ -687,7 +687,7 @@
                 <div class="checklist-item" onclick="toggleCheck('chk-social')">
                     <input type="checkbox" id="chk-social" onclick="event.stopPropagation(); updateImmersionProgress(true);">
                     <div class="checklist-content">
-                        <h4>Native Audio & Podcasts 📻</h4>
+                        <h4>Native Audio &amp; Podcasts 📻</h4>
                         <p>Play native podcasts, local radio, or songs in the background. Retrains your brain’s acoustic phoneme filters.</p>
                     </div>
                 </div>
@@ -740,16 +740,16 @@
         </p>
 
         <div class="brain-tabs-header tabs-header-spaced">
-            <button class="brain-tab-btn active-tab" id="sim-tab-simulator" onclick="switchSimulatorMode('simulator')">🤖 Concept Pathway Simulator</button>
-            <button class="brain-tab-btn" id="sim-tab-speedtest" onclick="switchSimulatorMode('speedtest')">⚡ Direct Concept Speed Test</button>
+            <button type="button" class="brain-tab-btn active-tab" id="sim-tab-simulator" onclick="switchSimulatorMode('simulator')">🤖 Concept Pathway Simulator</button>
+            <button type="button" class="brain-tab-btn" id="sim-tab-speedtest" onclick="switchSimulatorMode('speedtest')">⚡ Direct Concept Speed Test</button>
         </div>
 
         <!-- Mode A: Concept Pathway Simulator -->
         <div id="mode-simulator-view" class="simulator-box">
             <div class="sim-controls">
-                <button class="sim-btn" onclick="startCognitiveSimulation('sole')">Simulate 'Sole ☀️' (Italian)</button>
-                <button class="sim-btn secondary" onclick="startCognitiveSimulation('chien')">Simulate 'Chien 🐕' (French)</button>
-                <button class="sim-btn secondary" onclick="startCognitiveSimulation('mela')">Simulate 'Mela 🍎' (Italian)</button>
+                <button type="button" class="sim-btn" onclick="startCognitiveSimulation('sole')">Simulate 'Sole ☀️' (Italian)</button>
+                <button type="button" class="sim-btn secondary" onclick="startCognitiveSimulation('chien')">Simulate 'Chien 🐕' (French)</button>
+                <button type="button" class="sim-btn secondary" onclick="startCognitiveSimulation('mela')">Simulate 'Mela 🍎' (Italian)</button>
             </div>
 
             <div class="sim-display">
@@ -794,7 +794,7 @@
                 <p class="speedtest-text-soft">
                     Can you connect the foreign word directly to the physical concept (emoji) without reciting its English name? Test your sub-second neural reaction pathways below!
                 </p>
-                <button class="sim-btn" onclick="startSpeedTest()">Start Concept Speed Test 🚀</button>
+                <button type="button" class="sim-btn" onclick="startSpeedTest()">Start Concept Speed Test 🚀</button>
             </div>
 
             <div id="speedtest-gameplay" class="speedtest-gameplay-box">
@@ -816,8 +816,8 @@
                 <p id="speedtest-results-feedback" class="speedtest-feedback-text"></p>
 
                 <div class="flex-center-wrap">
-                    <button class="sim-btn" onclick="startSpeedTest()">Retry Test 🔁</button>
-                    <button class="sim-btn secondary" onclick="switchSimulatorMode('simulator')">Back to Simulator 🤖</button>
+                    <button type="button" class="sim-btn" onclick="startSpeedTest()">Retry Test 🔁</button>
+                    <button type="button" class="sim-btn secondary" onclick="switchSimulatorMode('simulator')">Back to Simulator 🤖</button>
                 </div>
             </div>
         </div>
@@ -831,10 +831,10 @@
         </p>
 
         <div class="brain-tabs-header">
-            <button class="brain-tab-btn active-tab" onclick="switchBrainTab('visual')">🎨 Visual Brain</button>
-            <button class="brain-tab-btn" onclick="switchBrainTab('structural')">📐 Structural/Analytical</button>
-            <button class="brain-tab-btn" onclick="switchBrainTab('auditory')">🔊 Auditory/Mnemonic</button>
-            <button class="brain-tab-btn" onclick="switchBrainTab('tactile')">🧩 Tactile/Kinesthetic</button>
+            <button type="button" class="brain-tab-btn active-tab" onclick="switchBrainTab('visual')">🎨 Visual Brain</button>
+            <button type="button" class="brain-tab-btn" onclick="switchBrainTab('structural')">📐 Structural/Analytical</button>
+            <button type="button" class="brain-tab-btn" onclick="switchBrainTab('auditory')">🔊 Auditory/Mnemonic</button>
+            <button type="button" class="brain-tab-btn" onclick="switchBrainTab('tactile')">🧩 Tactile/Kinesthetic</button>
         </div>
 
         <!-- Visual Brain -->
@@ -900,7 +900,7 @@
 
         <!-- Structural Brain -->
         <div class="brain-pane" id="pane-structural">
-            <h3 class="ci-card-heading-simple">Syntax Formula & Logic Equations</h3>
+            <h3 class="ci-card-heading-simple">Syntax Formula &amp; Logic Equations</h3>
             <p class="ci-desc-md">
                 Analytical brains excel when languages are modeled as mathematical or structural systems. Bypassing L1 feels natural when words are organized as clear variables.
             </p>
@@ -939,7 +939,7 @@
 
         <!-- Auditory Brain -->
         <div class="brain-pane" id="pane-auditory">
-            <h3 class="ci-card-heading-simple">Rhythmic Cadences & Phoneme Tuning</h3>
+            <h3 class="ci-card-heading-simple">Rhythmic Cadences &amp; Phoneme Tuning</h3>
             <p class="ci-desc-md">
                 Auditory brains absorb vocabulary through rhythm, melodic tone peaks, and rhyme patterns.
             </p>
@@ -1024,7 +1024,7 @@
 
     <!-- Section 4: Data Visualizations -->
     <section class="cog-section">
-        <h2 class="cog-section-title">📊 Memory Performance & Timeline Analytics</h2>
+        <h2 class="cog-section-title">📊 Memory Performance &amp; Timeline Analytics</h2>
         <p class="cog-section-desc">
             Visualizing the mathematical progression of memory retention over time. Unreviewed material collapses rapidly into memory regression, whereas spaced intervals produce steady retention progression.
         </p>
@@ -1087,7 +1087,7 @@
             </div>
         </div>
 
-        <h3 class="ci-section-title">Etymological Cognate & Progression Table</h3>
+        <h3 class="ci-section-title">Etymological Cognate &amp; Progression Table</h3>
         <p class="ci-desc-md">
             Seeing etymological progressions acts as a magnificent structural mnemonic. Romance and Germanic structures evolved from common roots, allowing structural minds to guess meanings without translating!
         </p>

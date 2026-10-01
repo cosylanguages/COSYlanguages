@@ -2,7 +2,7 @@
 
 A cosy, immersive language learning platform. Similar in spirit to Skyeng but focused on genuine learning over monetisation.
 
-This repository (`COSYlanguages`) is the **100% FREE, public entry point** to the COSYlanguages ecosystem. It contains only free content: language discovery, free practice tools, links to COSYmanuals, placement quiz, and print tools. Paid courses, events, and manuals belong in sibling repositories (`COSYplatform`, `COSYevents`, `COSYmanuals`) and are NOT hosted here.
+This repository (`COSYlanguages`) is the **public entry point** to the COSYlanguages ecosystem. It provides free language discovery, practice tools, a placement quiz, and print resources, and it also introduces teacher-led courses, pricing, and events to prospective learners. Paid course delivery and restricted manuals are handled by companion services; some print and classroom tools remain here while their future repository boundaries are decided.
 
 ## Live site
 https://cosylanguages.github.io/COSYlanguages/
@@ -56,8 +56,9 @@ COSYlanguages is organized as a distributed ecosystem of specialized sub-product
 **Ecosystem Relationship Model:** This repository (`COSYlanguages`) hosts free curriculum-integrated games and practice tools directly tied to course tracks and CEFR levels. Meanwhile, companion repositories (`COSYtools`, `COSYgames`, `COSYevents`) host standalone, accountless web-based versions. All applications are connected seamlessly via standard URL query parameter handoffs ([`docs/url-handoff.md`](docs/url-handoff.md)) and the unified COSY Passport progress exchange format ([`docs/passport-schema.md`](docs/passport-schema.md)).
 
 ### Future Extraction Candidates
-- **`COSYstudio`:** Pedagogical print studio, zine builder, boardgame generator (`apps/print-studio/` and `print-*.html`).
-- **`COSYclassroom`:** Live screen sync and presentation tool (`classroom-sync.html`).
+- **`COSYstudio` (proposed):** Pedagogical print studio, zine builder, and boardgame generator (`print-studio/`).
+- **`COSYclassroom` (proposed):** Live screen sync and presentation tool (`apps/classroom-sync/index.html`).
+- **`COSYcourses` (proposed):** Course discovery pages currently under `courses/`; no standalone course application is present in this repository.
 
 ### Central Ecosystem Hub (`COSYlanguages`)
 - **Unified Master Portal & Gateway:** Central directory, multi-product switcher, and global diagnostic placement quiz (`placement-quiz.html`).

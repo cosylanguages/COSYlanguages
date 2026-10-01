@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="COSYlanguages">
 <link rel="apple-touch-icon" href="../../images/logos/cosylanguages.png">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;family=Lora:ital,wght@0,500;0,700;1,500;1,700&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../css/tokens.css">
 <link rel="stylesheet" href="../../css/base.css">
 <link rel="stylesheet" href="../../css/components.css">
@@ -38,10 +38,10 @@ if ('serviceWorker' in navigator) {
 
 <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20Chuvash." class="wa-fab" title="Chat on WhatsApp">💬</a>
 
-<nav id="cosy-nav"></nav>
+<nav id="cosy-nav" aria-label="Тĕп навигаци"></nav>
 
 <!-- Sticky Top Navigation Header -->
-<header class="sd-sticky-header">
+<div class="sd-sticky-header">
   <div class="sd-header-inner">
     <div class="sd-breadcrumbs">
       <a href="../../index.html">Тĕп страницă</a>
@@ -52,13 +52,13 @@ if ('serviceWorker' in navigator) {
       <a href="#interactive-tools" class="sd-jump-link">Приложенисемпе Практика</a>
     </nav>
   </div>
-</header>
+</div>
 
-<header class="hero">
+<header class="hero" aria-labelledby="language-hero-title">
   <div class="hero-inner">
     <div class="hero-left">
         <div class="hero-eyebrow"><span class="lang-code-badge">CV</span> COSYchuvash</div>
-        <h1>Чӑвашла <em>ышанычлы</em> сөйләш!</h1>
+        <h1 id="language-hero-title">Чӑвашла <em>ышанычлы</em> сөйләш!</h1>
         <p class="hero-sub">Lessons coming soon. Explore free practice tools and vocabulary resources available now.</p>
         <div class="hero-ctas">
       <a href="../../practice/index.html?lang=cv" class="btn-primary">💡 Practice Чӑвашла Now</a>
@@ -80,7 +80,7 @@ if ('serviceWorker' in navigator) {
     <div class="ss-links">
       <div class="lead-capture" style="display:flex; gap:10px;">
         <input type="email" placeholder="Your email" class="lead-email" style="padding:10px; border-radius:8px; border:1px solid var(--accent); flex-grow:1;">
-        <button class="ss-link ss-link-primary" onclick="captureLead('Chuvash')" style="border:none; cursor:pointer;">Notify Me</button>
+        <button type="button" class="ss-link ss-link-primary" onclick="captureLead('Chuvash')" style="border:none; cursor:pointer;">Notify Me</button>
       </div>
     </div>
   </div>
@@ -90,20 +90,20 @@ if ('serviceWorker' in navigator) {
 <section id="interactive-tools">
   <div class="sec-head reveal">
     <span class="sec-tag">🛠️ Interactive Tools</span>
-    <h2>Interactive Apps & Practice</h2>
+    <h2>Interactive Apps &amp; Practice</h2>
     <p>Practice Чӑвашла with interactive exercises, drills, and learning games.</p>
   </div>
   <div class="resources-grid">
     <a href="../../practice/index.html?lang=cv" class="resource-card reveal">
       <div class="rc-icon">💡</div>
       <div class="rc-name">Interactive Practice</div>
-      <div class="rc-desc">Free exercises, quizzes & listening tasks for Чӑвашла.</div>
+      <div class="rc-desc">Free exercises, quizzes &amp; listening tasks for Чӑвашла.</div>
       <div class="rc-link">Practice Now →</div>
     </a>
     <a href="https://cosylanguages.github.io/COSYgames/?lang=cv" class="resource-card reveal">
       <div class="rc-icon">🎮</div>
       <div class="rc-name">Language Games</div>
-      <div class="rc-desc">Vocabulary & grammar games to test your fluency.</div>
+      <div class="rc-desc">Vocabulary &amp; grammar games to test your fluency.</div>
       <div class="rc-link">Play Games →</div>
     </a>
   </div>

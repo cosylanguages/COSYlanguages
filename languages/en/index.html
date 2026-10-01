@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="COSYlanguages">
 <link rel="apple-touch-icon" href="../../images/logos/cosylanguages.png">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;family=Lora:ital,wght@0,500;0,700;1,500;1,700&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../css/lang-pages.css">
     <link rel="stylesheet" href="../../css/lang-accents.css">
 
@@ -29,10 +29,10 @@
 
 <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20English%20lessons." class="wa-fab" title="Chat on WhatsApp">💬</a>
 
-<nav id="cosy-nav"></nav>
+<nav id="cosy-nav" aria-label="Main navigation"></nav>
 
 <!-- Sticky Top Navigation Header -->
-<header class="sd-sticky-header">
+<header class="sd-sticky-header" aria-label="English section navigation">
   <div class="sd-header-inner">
     <div class="sd-breadcrumbs">
       <a href="../../index.html">Home</a>
@@ -42,15 +42,15 @@
     <nav class="sd-jump-links" aria-label="Page jump links">
       <a href="#skills" class="sd-jump-link">Skill Portals</a>
       <a href="#daily-dose" class="sd-jump-link">Daily Dose</a>
-      <a href="#interactive-tools" class="sd-jump-link">Apps & Practice</a>
+      <a href="#interactive-tools" class="sd-jump-link">Apps &amp; Practice</a>
       <a href="#resources" class="sd-jump-link">Resources</a>
-      <a href="#media-culture" class="sd-jump-link">Media & Culture</a>
+      <a href="#media-culture" class="sd-jump-link">Media &amp; Culture</a>
       <a href="#daily-life" class="sd-jump-link">Daily Life</a>
     </nav>
   </div>
 </header>
 
-<header class="hero" data-flag="🇬🇧">
+<header class="hero" data-flag="🇬🇧" aria-label="English overview">
   <div class="hero-inner">
     <div class="hero-eyebrow">🇬🇧 COSYEnglish</div>
     <h1>Speak English with <em>confidence</em>.</h1>
@@ -58,7 +58,7 @@
     <div class="hero-ctas">
       <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20start%20English%20lessons." class="btn-primary">💬 Start English lessons</a>
       <a href="../../index.html#calculator" class="btn-ghost">See pricing 🏷️</a>
-      <button onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal((window.t ? window.t('pin_title') : 'Add to Home Screen'), (window.t ? window.t('pin_lang_desc_en') : 'Add COSYEnglish to your home screen for instant access to lessons and practice.'), url)" class="btn-ghost">📲 Pin to Home</button>
+      <button type="button" onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal((window.t ? window.t('pin_title') : 'Add to Home Screen'), (window.t ? window.t('pin_lang_desc_en') : 'Add COSYEnglish to your home screen for instant access to lessons and practice.'), url)" class="btn-ghost">📲 Pin to Home</button>
     </div>
     <div class="hero-why">
       <span class="hw-pill">🌍 World language</span>
@@ -114,13 +114,13 @@
     </a>
     <a href="vocabulary.html" class="skill-card">
       <div class="sc-badge">📚</div>
-      <div class="sc-title">Vocabulary & Collocations</div>
+      <div class="sc-title">Vocabulary &amp; Collocations</div>
       <div class="sc-desc">Essential word lists, collocations, phrasal verbs, and idioms.</div>
       <div class="sc-action">Learn Words →</div>
     </a>
     <a href="pronunciation.html" class="skill-card">
       <div class="sc-badge">🗣️</div>
-      <div class="sc-title">Pronunciation & Accent</div>
+      <div class="sc-title">Pronunciation &amp; Accent</div>
       <div class="sc-desc">IPA sound recipes, stress patterns, connected speech, and audio drills.</div>
       <div class="sc-action">Practice Sounds →</div>
     </a>
@@ -130,8 +130,8 @@
 <!-- Daily dose -->
 <section id="daily-dose">
   <div class="sec-head reveal">
-    <span class="sec-tag" data-translate-key="daily_dose_tag">💊 Daily Dose & Cultural Insights</span>
-    <h2 data-translate-key="daily_dose_title">Fact & Idiom of the Day 💡</h2>
+    <span class="sec-tag" data-translate-key="daily_dose_tag">💊 Daily Dose &amp; Cultural Insights</span>
+    <h2 data-translate-key="daily_dose_title">Fact &amp; Idiom of the Day 💡</h2>
   </div>
   <div class="daily-grid">
     <div class="daily-card reveal" data-bg="🤣">
@@ -150,28 +150,28 @@
 <section id="interactive-tools">
   <div class="sec-head reveal">
     <span class="sec-tag">🛠️ Interactive Tools</span>
-    <h2>Interactive Apps & Practice</h2>
+    <h2>Interactive Apps &amp; Practice</h2>
     <p>Practice English with interactive reference engines, drills, and learning games.</p>
   </div>
   <div class="resources-grid">
 
     <a href="https://cosylanguages.github.io/COSYtools/en-verb-prep/index.html" target="_blank" class="resource-card reveal" rel="noopener">
       <div class="rc-icon">⚙️</div>
-      <div class="rc-name">English Verbs & Prepositions</div>
-      <div class="rc-desc">Interactive engine for dependent prepositions & phrasal verbs.</div>
+      <div class="rc-name">English Verbs &amp; Prepositions</div>
+      <div class="rc-desc">Interactive engine for dependent prepositions &amp; phrasal verbs.</div>
       <div class="rc-link">Open App →</div>
     </a>
 
     <a href="../../practice/index.html?lang=EN" class="resource-card reveal">
       <div class="rc-icon">💡</div>
       <div class="rc-name">Interactive Practice</div>
-      <div class="rc-desc">Free exercises, quizzes & listening tasks for English.</div>
+      <div class="rc-desc">Free exercises, quizzes &amp; listening tasks for English.</div>
       <div class="rc-link">Practice Now →</div>
     </a>
     <a href="https://cosylanguages.github.io/COSYgames/?lang=EN" class="resource-card reveal">
       <div class="rc-icon">🎮</div>
       <div class="rc-name">Language Games</div>
-      <div class="rc-desc">Vocabulary & grammar games to test your fluency.</div>
+      <div class="rc-desc">Vocabulary &amp; grammar games to test your fluency.</div>
       <div class="rc-link">Play Games →</div>
     </a>
   </div>
@@ -227,7 +227,7 @@
 <section id="media-culture">
   <div class="sec-head reveal">
     <span class="sec-tag" data-translate-key="media_culture_tag">🎭 Immersion</span>
-    <h2 data-translate-key="media_culture">Media & culture in English</h2>
+    <h2 data-translate-key="media_culture">Media &amp; culture in English</h2>
     <p data-translate-key="media_culture_desc">Immerse yourself in English: listen to live radio and watch real TV channels from English-speaking countries.</p>
   </div>
   <div class="media-grid">
@@ -322,43 +322,43 @@
     <p data-translate-key="daily_life_desc">Explore real shops, services and websites in English: great for practical vocabulary in context.</p>
   </div>
     <div class="country-tabs">
-    <button class="ctab" data-country="uk" onclick="showCountry('uk')" data-translate-key="uk">🇬🇧 United Kingdom</button>
-    <button class="ctab" data-country="us" onclick="showCountry('us')" data-translate-key="us">🇺🇸 United States</button>
-    <button class="ctab" data-country="ca" onclick="showCountry('ca')" data-translate-key="canada">🇨🇦 Canada</button>
-    <button class="ctab" data-country="au" onclick="showCountry('au')" data-translate-key="australia">🇦🇺 Australia</button>
+    <button type="button" class="ctab" data-country="uk" onclick="showCountry('uk')" data-translate-key="uk">🇬🇧 United Kingdom</button>
+    <button type="button" class="ctab" data-country="us" onclick="showCountry('us')" data-translate-key="us">🇺🇸 United States</button>
+    <button type="button" class="ctab" data-country="ca" onclick="showCountry('ca')" data-translate-key="canada">🇨🇦 Canada</button>
+    <button type="button" class="ctab" data-country="au" onclick="showCountry('au')" data-translate-key="australia">🇦🇺 Australia</button>
   </div>
   <div class="country-panel" id="country-uk">
     <div class="country-name">🇬🇧 United Kingdom</div>
       <div class="shop-category">
-        <h4>🏢 Real Estate, Renting & Housing</h4>
+        <h4>🏢 Real Estate, Renting &amp; Housing</h4>
         <div class="shop-grid">
           <a href="https://www.rightmove.co.uk/" target="_blank" class="shop-card">
             <div class="sc-name">Rightmove</div>
-            <div class="sc-desc">UK's #1 property portal for buying & renting apartments.</div>
+            <div class="sc-desc">UK's #1 property portal for buying &amp; renting apartments.</div>
           </a>
           <a href="https://www.zoopla.co.uk/" target="_blank" class="shop-card">
             <div class="sc-name">Zoopla</div>
-            <div class="sc-desc">Homes for sale, property values & flats to rent.</div>
+            <div class="sc-desc">Homes for sale, property values &amp; flats to rent.</div>
           </a>
           <a href="https://www.spareroom.co.uk/" target="_blank" class="shop-card">
             <div class="sc-name">SpareRoom</div>
-            <div class="sc-desc">Flatshares, room rentals & sublets across the UK.</div>
+            <div class="sc-desc">Flatshares, room rentals &amp; sublets across the UK.</div>
           </a>
           <a href="https://www.gumtree.com/" target="_blank" class="shop-card">
             <div class="sc-name">Gumtree UK</div>
-            <div class="sc-desc">Classifieds for property, rooms, furniture & local services.</div>
+            <div class="sc-desc">Classifieds for property, rooms, furniture &amp; local services.</div>
           </a>
         </div>
       </div>
       <div class="shop-category">
-        <h4>💄 Fashion & Beauty</h4>
+        <h4>💄 Fashion &amp; Beauty</h4>
         <div class="shop-grid">
           <a href="https://www.next.co.uk/" target="_blank" class="shop-card">
             <div class="sc-name">Next</div>
             <div class="sc-desc">Clothing, footwear and home products.</div>
           </a>
           <a href="https://www.marksandspencer.com/" target="_blank" class="shop-card">
-            <div class="sc-name">Marks & Spencer</div>
+            <div class="sc-name">Marks &amp; Spencer</div>
             <div class="sc-desc">Clothing, food and home products.</div>
           </a>
           <a href="https://www.boots.com/" target="_blank" class="shop-card">
@@ -368,7 +368,7 @@
         </div>
       </div>
       <div class="shop-category">
-        <h4>🏡 Electronics & Home</h4>
+        <h4>🏡 Electronics &amp; Home</h4>
         <div class="shop-grid">
           <a href="https://www.currys.co.uk/" target="_blank" class="shop-card">
             <div class="sc-name">Currys</div>
@@ -385,7 +385,7 @@
         </div>
       </div>
       <div class="shop-category">
-        <h4>🍲 Food & Groceries</h4>
+        <h4>🍲 Food &amp; Groceries</h4>
         <div class="shop-grid">
           <a href="https://www.tesco.com/" target="_blank" class="shop-card">
             <div class="sc-name">Tesco</div>
@@ -405,28 +405,28 @@
   <div class="country-panel" id="country-us">
     <div class="country-name">🇺🇸 United States</div>
       <div class="shop-category">
-        <h4>🏢 Real Estate, Renting & Housing</h4>
+        <h4>🏢 Real Estate, Renting &amp; Housing</h4>
         <div class="shop-grid">
           <a href="https://www.zillow.com/" target="_blank" class="shop-card">
             <div class="sc-name">Zillow</div>
-            <div class="sc-desc">US leading real estate & rental marketplace.</div>
+            <div class="sc-desc">US leading real estate &amp; rental marketplace.</div>
           </a>
           <a href="https://www.apartments.com/" target="_blank" class="shop-card">
             <div class="sc-name">Apartments.com</div>
-            <div class="sc-desc">Homes, condos & apartments for rent nationwide.</div>
+            <div class="sc-desc">Homes, condos &amp; apartments for rent nationwide.</div>
           </a>
           <a href="https://www.realtor.com/" target="_blank" class="shop-card">
             <div class="sc-name">Realtor.com</div>
-            <div class="sc-desc">Listings for buying, selling & renting homes.</div>
+            <div class="sc-desc">Listings for buying, selling &amp; renting homes.</div>
           </a>
           <a href="https://www.craigslist.org/" target="_blank" class="shop-card">
             <div class="sc-name">Craigslist US</div>
-            <div class="sc-desc">Local classifieds, sublets, rooms & housing.</div>
+            <div class="sc-desc">Local classifieds, sublets, rooms &amp; housing.</div>
           </a>
         </div>
       </div>
       <div class="shop-category">
-        <h4>💄 Fashion & Beauty</h4>
+        <h4>💄 Fashion &amp; Beauty</h4>
         <div class="shop-grid">
           <a href="https://www.macys.com/" target="_blank" class="shop-card">
             <div class="sc-name">Macy's</div>
@@ -443,7 +443,7 @@
         </div>
       </div>
       <div class="shop-category">
-        <h4>🏡 Electronics & Home</h4>
+        <h4>🏡 Electronics &amp; Home</h4>
         <div class="shop-grid">
           <a href="https://www.bestbuy.com/" target="_blank" class="shop-card">
             <div class="sc-name">Best Buy</div>
@@ -456,7 +456,7 @@
         </div>
       </div>
       <div class="shop-category">
-        <h4>🍲 Food & Groceries</h4>
+        <h4>🍲 Food &amp; Groceries</h4>
         <div class="shop-grid">
           <a href="https://www.walmart.com/" target="_blank" class="shop-card">
             <div class="sc-name">Walmart</div>
@@ -472,24 +472,24 @@
   <div class="country-panel" id="country-ca">
     <div class="country-name">🇨🇦 Canada</div>
       <div class="shop-category">
-        <h4>🏢 Real Estate, Renting & Housing</h4>
+        <h4>🏢 Real Estate, Renting &amp; Housing</h4>
         <div class="shop-grid">
           <a href="https://www.realtor.ca/" target="_blank" class="shop-card">
             <div class="sc-name">Realtor.ca</div>
-            <div class="sc-desc">Canada's premier property & real estate marketplace.</div>
+            <div class="sc-desc">Canada's premier property &amp; real estate marketplace.</div>
           </a>
           <a href="https://rentals.ca/" target="_blank" class="shop-card">
             <div class="sc-name">Rentals.ca</div>
-            <div class="sc-desc">Apartments, condos & houses for rent across Canada.</div>
+            <div class="sc-desc">Apartments, condos &amp; houses for rent across Canada.</div>
           </a>
           <a href="https://www.kijiji.ca/" target="_blank" class="shop-card">
             <div class="sc-name">Kijiji CA</div>
-            <div class="sc-desc">Buy, sell & rent property, cars & items locally.</div>
+            <div class="sc-desc">Buy, sell &amp; rent property, cars &amp; items locally.</div>
           </a>
         </div>
       </div>
       <div class="shop-category">
-        <h4>💄 Fashion & Beauty</h4>
+        <h4>💄 Fashion &amp; Beauty</h4>
         <div class="shop-grid">
           <a href="https://www.thebay.com/" target="_blank" class="shop-card">
             <div class="sc-name">The Bay</div>
@@ -502,7 +502,7 @@
         </div>
       </div>
       <div class="shop-category">
-        <h4>🏡 Electronics & Home</h4>
+        <h4>🏡 Electronics &amp; Home</h4>
         <div class="shop-grid">
           <a href="https://www.bestbuy.ca/" target="_blank" class="shop-card">
             <div class="sc-name">Best Buy Canada</div>
@@ -515,7 +515,7 @@
         </div>
       </div>
       <div class="shop-category">
-        <h4>🍲 Food & Groceries</h4>
+        <h4>🍲 Food &amp; Groceries</h4>
         <div class="shop-grid">
           <a href="https://www.loblaws.ca/" target="_blank" class="shop-card">
             <div class="sc-name">Loblaws</div>
@@ -527,15 +527,15 @@
   <div class="country-panel" id="country-au">
     <div class="country-name">🇦🇺 Australia</div>
       <div class="shop-category">
-        <h4>🏢 Real Estate, Renting & Housing</h4>
+        <h4>🏢 Real Estate, Renting &amp; Housing</h4>
         <div class="shop-grid">
           <a href="https://www.realestate.com.au/" target="_blank" class="shop-card">
             <div class="sc-name">Realestate.com.au</div>
-            <div class="sc-desc">Australia's #1 property & rental portal.</div>
+            <div class="sc-desc">Australia's #1 property &amp; rental portal.</div>
           </a>
           <a href="https://www.domain.com.au/" target="_blank" class="shop-card">
             <div class="sc-name">Domain</div>
-            <div class="sc-desc">Property for sale, rent & share houses.</div>
+            <div class="sc-desc">Property for sale, rent &amp; share houses.</div>
           </a>
           <a href="https://flatmates.com.au/" target="_blank" class="shop-card">
             <div class="sc-name">Flatmates</div>
@@ -544,7 +544,7 @@
         </div>
       </div>
       <div class="shop-category">
-        <h4>💄 Fashion & Beauty</h4>
+        <h4>💄 Fashion &amp; Beauty</h4>
         <div class="shop-grid">
           <a href="https://www.myer.com.au/" target="_blank" class="shop-card">
             <div class="sc-name">Myer</div>
@@ -557,7 +557,7 @@
         </div>
       </div>
       <div class="shop-category">
-        <h4>🏡 Electronics & Home</h4>
+        <h4>🏡 Electronics &amp; Home</h4>
         <div class="shop-grid">
           <a href="https://www.jbhifi.com.au/" target="_blank" class="shop-card">
             <div class="sc-name">JB Hi-Fi</div>
@@ -570,7 +570,7 @@
         </div>
       </div>
       <div class="shop-category">
-        <h4>🍲 Food & Groceries</h4>
+        <h4>🍲 Food &amp; Groceries</h4>
         <div class="shop-grid">
           <a href="https://www.woolworths.com.au/" target="_blank" class="shop-card">
             <div class="sc-name">Woolworths</div>

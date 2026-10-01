@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Validate JSON schemas in `schema/` and any content JSON files against them.
+ * Compile repository JSON schemas and validate locally available canonical data.
  */
 
 const fs = require('fs');
@@ -18,25 +18,23 @@ if (!fs.existsSync(SCHEMA_DIR)) {
   process.exit(1);
 }
 
-const schemaFiles = fs.existsSync(SCHEMA_DIR) ? fs.readdirSync(SCHEMA_DIR).filter(f => f.endsWith('.schema.json')) : [];
+const schemaFiles = walkDir(ROOT_DIR).filter(file => file.endsWith('.schema.json'));
 
 if (schemaFiles.length === 0) {
-  console.log(`No .schema.json files found in ${SCHEMA_DIR} (all content schemas migrated).`);
-  process.exit(0);
+  console.error(`No .schema.json files found under ${ROOT_DIR}.`);
+  process.exit(1);
 }
 
 let hasErrors = false;
 
 // 1. Compile all schemas into Ajv
-const schemas = [];
 for (const file of schemaFiles) {
-  const filePath = path.join(SCHEMA_DIR, file);
+  const filePath = file;
   try {
     const rawContent = fs.readFileSync(filePath, 'utf8');
     const jsonSchema = JSON.parse(rawContent);
-    ajv.addSchema(jsonSchema, file);
-    schemas.push({ file, filePath, jsonSchema });
-    console.log(`✓ Loaded schema: ${file}`);
+    ajv.addSchema(jsonSchema, path.basename(file));
+    console.log(`✓ Loaded schema: ${path.relative(ROOT_DIR, file)}`);
   } catch (err) {
     console.error(`✗ Invalid JSON schema structure in ${file}: ${err.message}`);
     hasErrors = true;
@@ -75,7 +73,7 @@ function validateCCQChoiceItem(item, pathPrefix) {
 
 // 2. Extract and validate embedded examples from schema/README.md if present
 const readmePath = path.join(SCHEMA_DIR, 'README.md');
-if (fs.existsSync(readmePath)) {
+if (fs.existsSync(readmePath) && schemaFiles.some(file => path.dirname(path.relative(ROOT_DIR, file)) === 'schema')) {
   const readmeContent = fs.readFileSync(readmePath, 'utf8');
   const jsonBlocks = readmeContent.match(/```json\n([\s\S]*?)\n```/g);
 
@@ -136,6 +134,7 @@ function walkDir(dir) {
   const results = [];
   if (!fs.existsSync(dir)) return results;
   for (const entry of fs.readdirSync(dir)) {
+    if (entry === '.git' || entry === 'node_modules') continue;
     const full = path.join(dir, entry);
     const stat = fs.statSync(full);
     if (stat.isDirectory()) {
@@ -152,6 +151,59 @@ const ccqValidator = ajv.getSchema('ccq.schema.json');
 const verbPatternValidator = ajv.getSchema('verb-pattern.schema.json');
 
 let scanned = 0;
+const vocabValidator = ajv.getSchema('vocab.schema.json');
+const canonicalVocabDir = path.join(ROOT_DIR, 'vocabulary', '_canonical');
+if (vocabValidator && fs.existsSync(canonicalVocabDir)) {
+  const vocabFiles = walkDir(canonicalVocabDir).filter(file => file.endsWith('_cleaned.json'));
+  for (const file of vocabFiles) {
+    const rel = path.relative(ROOT_DIR, file);
+    let parsed;
+    try {
+      parsed = JSON.parse(fs.readFileSync(file, 'utf8'));
+    } catch (e) {
+      console.error(`✗ ${rel}: failed to parse JSON: ${e.message}`);
+      hasErrors = true;
+      continue;
+    }
+    scanned++;
+    if (!vocabValidator(parsed)) {
+      console.error(`✗ ${rel}: failed vocab.schema.json`);
+      console.error(vocabValidator.errors);
+      hasErrors = true;
+    } else {
+      console.log(`✓ ${rel}: validated against vocab.schema.json`);
+    }
+  }
+}
+
+const communicationValidator = ajv.getSchema('communication.schema.json');
+const communicationDir = path.join(ROOT_DIR, 'communication');
+if (communicationValidator && fs.existsSync(communicationDir)) {
+  const communicationFiles = walkDir(communicationDir).filter(file => !file.split(path.sep).includes('_schema'));
+  if (communicationFiles.length === 0) {
+    console.log('Communication schema compiled; no local communication JSON files to validate.');
+  }
+  for (const file of communicationFiles) {
+    const rel = path.relative(ROOT_DIR, file);
+    let parsed;
+    try {
+      parsed = JSON.parse(fs.readFileSync(file, 'utf8'));
+    } catch (e) {
+      console.error(`✗ ${rel}: failed to parse JSON: ${e.message}`);
+      hasErrors = true;
+      continue;
+    }
+    scanned++;
+    if (!communicationValidator(parsed)) {
+      console.error(`✗ ${rel}: failed communication.schema.json`);
+      console.error(communicationValidator.errors);
+      hasErrors = true;
+    } else {
+      console.log(`✓ ${rel}: validated against communication.schema.json`);
+    }
+  }
+}
+
 const refGramDir = path.join(ROOT_DIR, 'reference-grammar');
 if (fs.existsSync(refGramDir)) {
   for (const dataDir of [refGramDir]) {
@@ -241,6 +293,6 @@ if (hasErrors) {
   console.error('\nSchema validation failed.');
   process.exit(1);
 } else {
-  console.log('\nAll schema definitions and examples validated successfully.');
+  console.log('\nAll discovered schemas and mapped datasets validated successfully.');
   process.exit(0);
 }

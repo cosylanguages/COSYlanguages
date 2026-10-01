@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="COSYlanguages">
 <link rel="apple-touch-icon" href="../../images/logos/cosylanguages.png">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;family=Lora:ital,wght@0,500;0,700;1,500;1,700&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../css/lang-pages.css">
     <link rel="stylesheet" href="../../css/lang-accents.css">
 
@@ -29,10 +29,10 @@
 
 <a href="https://wa.me/330766784195?text=Bonjour!%20Je%20souhaite%20en%20savoir%20plus%20sur%20les%20cours%20de%20fran%C3%A7ais." class="wa-fab" title="Chat sur WhatsApp">💬</a>
 
-<nav id="cosy-nav"></nav>
+<nav id="cosy-nav" aria-label="Navigation principale"></nav>
 
 <!-- Sticky Top Navigation Header -->
-<header class="sd-sticky-header">
+<div class="sd-sticky-header">
   <div class="sd-header-inner">
     <div class="sd-breadcrumbs">
       <a href="../../index.html">Accueil</a>
@@ -42,29 +42,29 @@
     <nav class="sd-jump-links" aria-label="Page jump links">
       <a href="#skills" class="sd-jump-link">Portails d'apprentissage</a>
       <a href="#daily-dose" class="sd-jump-link">Dose quotidienne</a>
-      <a href="#interactive-tools" class="sd-jump-link">Applications & Pratique</a>
+      <a href="#interactive-tools" class="sd-jump-link">Applications &amp; Pratique</a>
       <a href="#resources" class="sd-jump-link">Ressources</a>
-      <a href="#media-culture" class="sd-jump-link">Médias & Culture</a>
+      <a href="#media-culture" class="sd-jump-link">Médias &amp; Culture</a>
       <a href="#daily-life" class="sd-jump-link">Vie quotidienne</a>
     </nav>
   </div>
-</header>
+</div>
 
-<header class="hero" data-flag="🇫🇷">
+<header class="hero" data-flag="🇫🇷" aria-labelledby="language-hero-title">
   <div class="hero-inner">
     <div class="hero-eyebrow">🇫🇷 COSYfrançais</div>
-    <h1>Parlez français avec <em>élégance</em>.</h1>
+    <h1 id="language-hero-title">Parlez français avec <em>élégance</em>.</h1>
     <p class="hero-sub">Du « Bonjour » au niveau Baby au discours professionnel fluide au niveau Professor. La conversation d'abord, toujours: parce que le français est la langue de la culture et de la diplomatie.</p>
     <div class="hero-ctas">
       <a href="https://wa.me/330766784195?text=Bonjour!%20Je%20souhaite%20commencer%20des%20cours%20de%20fran%C3%A7ais." class="btn-primary">💬 Commencer le français</a>
       <a href="../../index.html#calculator" class="btn-ghost">Voir les tarifs 🏷️</a>
-      <button onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal((window.t ? window.t('pin_title') : 'Add to Home Screen'), (window.t ? window.t('pin_lang_desc_fr') : 'Ajoutez COSYfrançais à votre écran d\'accueil pour un accès instantané aux cours et à la pratique.'), url)" class="btn-ghost">📲 Épingler à l'accueil</button>
+      <button type="button" onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal((window.t ? window.t('pin_title') : 'Add to Home Screen'), (window.t ? window.t('pin_lang_desc_fr') : 'Ajoutez COSYfrançais à votre écran d\'accueil pour un accès instantané aux cours et à la pratique.'), url)" class="btn-ghost">📲 Épingler à l'accueil</button>
     </div>
     <div class="hero-why">
       <span class="hw-pill">🌍 Langue mondiale</span>
-      <span class="hw-pill">🎨 Culture & Gastronomie</span>
+      <span class="hw-pill">🎨 Culture &amp; Gastronomie</span>
       <span class="hw-pill">🎓 DELF · DALF</span>
-      <span class="hw-pill">🗣️ 1-à-1 & groupe</span>
+      <span class="hw-pill">🗣️ 1-à-1 &amp; groupe</span>
     </div>
   </div>
   <div class="hero-wave"><svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,30 C360,60 1080,0 1440,30 L1440,60 L0,60 Z" fill="#fdf8f0"/></svg></div>
@@ -114,7 +114,7 @@
     </a>
     <a href="vocabulary.html" class="skill-card">
       <div class="sc-badge">📚</div>
-      <div class="sc-title">Vocabulaire & Expressions</div>
+      <div class="sc-title">Vocabulaire &amp; Expressions</div>
       <div class="sc-desc">Listes thématiques, collocations, verbes et idiomes essentiels.</div>
       <div class="sc-action">Apprendre les mots →</div>
     </a>
@@ -130,8 +130,8 @@
 <!-- Daily dose -->
 <section id="daily-dose">
   <div class="sec-head reveal">
-    <span class="sec-tag" data-translate-key="daily_dose_tag">💊 Daily Dose & Cultural Insights</span>
-    <h2 data-translate-key="daily_dose_title">Fact & Idiom of the Day 💡</h2>
+    <span class="sec-tag" data-translate-key="daily_dose_tag">💊 Daily Dose &amp; Cultural Insights</span>
+    <h2 data-translate-key="daily_dose_title">Fact &amp; Idiom of the Day 💡</h2>
   </div>
   <div class="daily-grid">
     <div class="daily-card reveal" data-bg="🤣">
@@ -150,7 +150,7 @@
 <section id="interactive-tools">
   <div class="sec-head reveal">
     <span class="sec-tag">🛠️ Interactive Tools</span>
-    <h2>Interactive Apps & Practice</h2>
+    <h2>Interactive Apps &amp; Practice</h2>
     <p>Practice Français with interactive reference engines, drills, and learning games.</p>
   </div>
   <div class="resources-grid">
@@ -158,26 +158,26 @@
     <a href="https://cosylanguages.github.io/COSYtools/fr-regime/index.html" target="_blank" class="resource-card reveal" rel="noopener">
       <div class="rc-icon">⚙️</div>
       <div class="rc-name">Régime Prépositionnel Français</div>
-      <div class="rc-desc">Engine for French verb, noun & adjective prepositional regimes.</div>
+      <div class="rc-desc">Engine for French verb, noun &amp; adjective prepositional regimes.</div>
       <div class="rc-link">Open App →</div>
     </a>
     <a href="https://cosylanguages.github.io/COSYtools/fr-conjugeur/index.html" target="_blank" class="resource-card reveal" rel="noopener">
       <div class="rc-icon">⚙️</div>
       <div class="rc-name">Le Conjugeur Français</div>
-      <div class="rc-desc">Complete verb conjugation & tense reference.</div>
+      <div class="rc-desc">Complete verb conjugation &amp; tense reference.</div>
       <div class="rc-link">Open App →</div>
     </a>
     <a href="https://cosylanguages.github.io/COSYtools/fr-genre/index.html" target="_blank" class="resource-card reveal" rel="noopener">
       <div class="rc-icon">⚙️</div>
       <div class="rc-name">Genre des Noms Français</div>
-      <div class="rc-desc">Interactive French noun gender & rule finder.</div>
+      <div class="rc-desc">Interactive French noun gender &amp; rule finder.</div>
       <div class="rc-link">Open App →</div>
     </a>
 
     <a href="../../practice/index.html?lang=FR" class="resource-card reveal">
       <div class="rc-icon">💡</div>
       <div class="rc-name">Interactive Practice</div>
-      <div class="rc-desc">Free exercises, quizzes & listening tasks for Français.</div>
+      <div class="rc-desc">Free exercises, quizzes &amp; listening tasks for Français.</div>
       <div class="rc-link">Practice Now →</div>
     </a>
     <a href="https://cosylanguages.github.io/COSYgames/scene_match/index.html?lang=FR" class="resource-card reveal">
@@ -189,7 +189,7 @@
     <a href="https://cosylanguages.github.io/COSYgames/?lang=FR" class="resource-card reveal">
       <div class="rc-icon">🎮</div>
       <div class="rc-name">Language Games</div>
-      <div class="rc-desc">Vocabulary & grammar games to test your fluency.</div>
+      <div class="rc-desc">Vocabulary &amp; grammar games to test your fluency.</div>
       <div class="rc-link">Play Games →</div>
     </a>
   </div>
@@ -294,15 +294,15 @@
     <p data-translate-key="daily_life_desc">Explorez les magasins et services réels: idéal pour un vocabulaire pratique en contexte.</p>
   </div>
   <div class="country-tabs">
-    <button class="ctab" data-country="fr" onclick="showCountry('fr')" data-translate-key="france">🇫🇷 France</button>
-    <button class="ctab" data-country="be" onclick="showCountry('be')" data-translate-key="belgium">🇧🇪 Belgique</button>
-    <button class="ctab" data-country="ch" onclick="showCountry('ch')" data-translate-key="switzerland">🇨🇭 Suisse</button>
-    <button class="ctab" data-country="ca" onclick="showCountry('ca')" data-translate-key="canada">🇨🇦 Canada (QC)</button>
+    <button type="button" class="ctab" data-country="fr" onclick="showCountry('fr')" data-translate-key="france">🇫🇷 France</button>
+    <button type="button" class="ctab" data-country="be" onclick="showCountry('be')" data-translate-key="belgium">🇧🇪 Belgique</button>
+    <button type="button" class="ctab" data-country="ch" onclick="showCountry('ch')" data-translate-key="switzerland">🇨🇭 Suisse</button>
+    <button type="button" class="ctab" data-country="ca" onclick="showCountry('ca')" data-translate-key="canada">🇨🇦 Canada (QC)</button>
   </div>
   <div class="country-panel" id="country-fr">
     <div class="country-name">🇫🇷 France</div>
       <div class="shop-category">
-        <h4>🏢 Logement, Location & Immobilier</h4>
+        <h4>🏢 Logement, Location &amp; Immobilier</h4>
         <div class="shop-grid">
           <a href="https://www.seloger.com/" target="_blank" class="shop-card">
             <div class="sc-name">SeLoger</div>
@@ -323,7 +323,7 @@
         </div>
       </div>
       <div class="shop-category">
-        <h4>💄 Mode & Beauté</h4>
+        <h4>💄 Mode &amp; Beauté</h4>
         <div class="shop-grid">
           <a href="https://www.galerieslafayette.com/" target="_blank" class="shop-card">
             <div class="sc-name">Galeries Lafayette</div>
@@ -336,7 +336,7 @@
         </div>
       </div>
       <div class="shop-category">
-        <h4>🏡 Maison & Tech</h4>
+        <h4>🏡 Maison &amp; Tech</h4>
         <div class="shop-grid">
           <a href="https://www.fnac.com/" target="_blank" class="shop-card">
             <div class="sc-name">Fnac</div>
@@ -361,7 +361,7 @@
   <div class="country-panel" id="country-be">
     <div class="country-name">🇧🇪 Belgique</div>
       <div class="shop-category">
-        <h4>🏢 Logement, Location & Immobilier</h4>
+        <h4>🏢 Logement, Location &amp; Immobilier</h4>
         <div class="shop-grid">
           <a href="https://www.immoweb.be/" target="_blank" class="shop-card">
             <div class="sc-name">Immoweb</div>
@@ -386,7 +386,7 @@
   <div class="country-panel" id="country-ch">
     <div class="country-name">🇨🇭 Suisse</div>
       <div class="shop-category">
-        <h4>🏢 Logement, Location & Immobilier</h4>
+        <h4>🏢 Logement, Location &amp; Immobilier</h4>
         <div class="shop-grid">
           <a href="https://www.immoscout24.ch/" target="_blank" class="shop-card">
             <div class="sc-name">ImmoScout24 CH</div>
@@ -411,7 +411,7 @@
   <div class="country-panel" id="country-ca">
     <div class="country-name">🇨🇦 Canada (Québec)</div>
       <div class="shop-category">
-        <h4>🏢 Logement, Location & Immobilier</h4>
+        <h4>🏢 Logement, Location &amp; Immobilier</h4>
         <div class="shop-grid">
           <a href="https://www.centris.ca/" target="_blank" class="shop-card">
             <div class="sc-name">Centris</div>

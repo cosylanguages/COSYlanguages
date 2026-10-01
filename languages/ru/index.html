@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="COSYlanguages">
 <link rel="apple-touch-icon" href="../../images/logos/cosylanguages.png">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&amp;family=Lora:ital,wght@0,500;0,700;1,500;1,700&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../css/lang-pages.css">
     <link rel="stylesheet" href="../../css/lang-accents.css">
 
@@ -29,10 +29,10 @@
 
 <a href="https://wa.me/330766784195?text=Здравствуйте!%20Я%20хотел%20бы%20узнать%20больше%20об%20уроках%20русского%20языка." class="wa-fab" title="Написать в WhatsApp">💬</a>
 
-<nav id="cosy-nav"></nav>
+<nav id="cosy-nav" aria-label="Основная навигация"></nav>
 
 <!-- Sticky Top Navigation Header -->
-<header class="sd-sticky-header">
+<div class="sd-sticky-header">
   <div class="sd-header-inner">
     <div class="sd-breadcrumbs">
       <a href="../../index.html">Главная</a>
@@ -48,17 +48,17 @@
       <a href="#daily-life" class="sd-jump-link">Повседневная жизнь</a>
     </nav>
   </div>
-</header>
+</div>
 
-<header class="hero" data-flag="🇷🇺">
+<header class="hero" data-flag="🇷🇺" aria-labelledby="language-hero-title">
   <div class="hero-inner">
     <div class="hero-eyebrow">🇷🇺 ТАКОЙрусский</div>
-    <h1>Говорите по-русски <em>уверенно</em>.</h1>
+    <h1 id="language-hero-title">Говорите по-русски <em>уверенно</em>.</h1>
     <p class="hero-sub">От « Привет » на уровне Baby до свободного профессионального общения на уровне Professor. Разговорная практика прежде всего: потому что русский открывает целый мир.</p>
     <div class="hero-ctas">
       <a href="https://wa.me/330766784195?text=Здравствуйте!%20Я%20хотел%20бы%20начать%20занятия%20русским%20языком." class="btn-primary">💬 Начать обучение</a>
       <a href="../../index.html#calculator" class="btn-ghost">Цены 🏷️</a>
-      <button onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal((window.t ? window.t('pin_title') : 'Add to Home Screen'), (window.t ? window.t('pin_lang_desc_ru') : 'Добавьте ТАКОЙрусский на главный экран для мгновенного доступа к урокам и практике.'), url)" class="btn-ghost">📲 На главный экран</button>
+      <button type="button" onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal((window.t ? window.t('pin_title') : 'Add to Home Screen'), (window.t ? window.t('pin_lang_desc_ru') : 'Добавьте ТАКОЙрусский на главный экран для мгновенного доступа к урокам и практике.'), url)" class="btn-ghost">📲 На главный экран</button>
     </div>
     <div class="hero-why">
       <span class="hw-pill">🌍 Язык Евразии</span>
@@ -130,8 +130,8 @@
 <!-- Daily dose -->
 <section id="daily-dose">
   <div class="sec-head reveal">
-    <span class="sec-tag" data-translate-key="daily_dose_tag">💊 Daily Dose & Cultural Insights</span>
-    <h2 data-translate-key="daily_dose_title">Fact & Idiom of the Day 💡</h2>
+    <span class="sec-tag" data-translate-key="daily_dose_tag">💊 Daily Dose &amp; Cultural Insights</span>
+    <h2 data-translate-key="daily_dose_title">Fact &amp; Idiom of the Day 💡</h2>
   </div>
   <div class="daily-grid">
     <div class="daily-card reveal" data-bg="🤣">
@@ -150,7 +150,7 @@
 <section id="interactive-tools">
   <div class="sec-head reveal">
     <span class="sec-tag">🛠️ Interactive Tools</span>
-    <h2>Interactive Apps & Practice</h2>
+    <h2>Interactive Apps &amp; Practice</h2>
     <p>Practice Русский with interactive reference engines, drills, and learning games.</p>
   </div>
   <div class="resources-grid">
@@ -158,20 +158,20 @@
     <a href="https://cosylanguages.github.io/COSYtools/ru-spryazhenie/index.html" target="_blank" class="resource-card reveal" rel="noopener">
       <div class="rc-icon">⚙️</div>
       <div class="rc-name">Спряжение русских глаголов</div>
-      <div class="rc-desc">Russian verb conjugation & aspect pairs.</div>
+      <div class="rc-desc">Russian verb conjugation &amp; aspect pairs.</div>
       <div class="rc-link">Open App →</div>
     </a>
     <a href="https://cosylanguages.github.io/COSYtools/ru-rod-padezhi/index.html" target="_blank" class="resource-card reveal" rel="noopener">
       <div class="rc-icon">⚙️</div>
       <div class="rc-name">Род и падежи существительных</div>
-      <div class="rc-desc">Russian noun gender & 6-case declension engine.</div>
+      <div class="rc-desc">Russian noun gender &amp; 6-case declension engine.</div>
       <div class="rc-link">Open App →</div>
     </a>
 
     <a href="../../practice/index.html?lang=RU" class="resource-card reveal">
       <div class="rc-icon">💡</div>
       <div class="rc-name">Interactive Practice</div>
-      <div class="rc-desc">Free exercises, quizzes & listening tasks for Русский.</div>
+      <div class="rc-desc">Free exercises, quizzes &amp; listening tasks for Русский.</div>
       <div class="rc-link">Practice Now →</div>
     </a>
     <a href="https://cosylanguages.github.io/COSYgames/scene_match/index.html?lang=RU" class="resource-card reveal">
@@ -183,7 +183,7 @@
     <a href="https://cosylanguages.github.io/COSYgames/?lang=RU" class="resource-card reveal">
       <div class="rc-icon">🎮</div>
       <div class="rc-name">Language Games</div>
-      <div class="rc-desc">Vocabulary & grammar games to test your fluency.</div>
+      <div class="rc-desc">Vocabulary &amp; grammar games to test your fluency.</div>
       <div class="rc-link">Play Games →</div>
     </a>
   </div>
@@ -259,7 +259,7 @@
     <p data-translate-key="daily_life_desc">Изучайте реальные магазины и сервисы: лучший способ учить бытовую лексику.</p>
   </div>
     <div class="country-tabs">
-    <button class="ctab" data-country="ru" onclick="showCountry('ru')" data-translate-key="russia">🇷🇺 Россия</button>
+    <button type="button" class="ctab" data-country="ru" onclick="showCountry('ru')" data-translate-key="russia">🇷🇺 Россия</button>
   </div>
   <div class="country-panel" id="country-ru">
     <div class="country-name">🇷🇺 Россия</div>

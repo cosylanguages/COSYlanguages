@@ -1,6 +1,8 @@
-# COSYlanguages Content Schemas
+# Legacy COSYlanguages Content Schema Examples
 
-This directory contains JSON Schema (Draft-07) specifications for structured pedagogical content in COSYlanguages.
+The schema examples below are historical references; the corresponding `ccq`, `verb-pattern`, and `lesson-stage` schema files are not present in this repository and these examples are not currently validated here. The active JSON Schema files are under `communication/_schema/` and `vocabulary/_schema/`. `scripts/validate-schema.js` compiles those schemas and validates the cleaned canonical vocabulary JSON files. No communication content JSON is currently present to validate against its schema.
+
+This document retains examples of previously used structured pedagogical content.
 
 ## Schemas Overview
 
