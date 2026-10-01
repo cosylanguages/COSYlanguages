@@ -38,7 +38,6 @@ This document presents the comprehensive audit of the **COSY Languages** ecosyst
 - `/languages/index.html`: Languages hub main directory.
 - `/languages/{iso}/index.html`: Language portals for 13 supported languages (`en`, `fr`, `it`, `ru`, `el`, `es`, `de`, `pt`, `hy`, `ka`, `tt`, `ba`, `br`).
 - `/practice/index.html` & `/practice/hub.html`: Interactive practice hub dashboard and exercise selector.
-- `/notebook/index.html`: Interactive digital notebook for vocabulary and grammar notes.
 - `/hybrid/index.html`: Hybrid learning track portal.
 
 ### COSYmanuals (Web Textbooks, Curricula, & Reference Grammar) — 3,798 HTML Pages

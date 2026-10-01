@@ -11,7 +11,8 @@
     "test": "playwright test",
     "sync:footer": "node scripts/sync-footer.js",
     "check:footer": "node scripts/check-footer.js",
-    "check:names": "node scripts/check-names.js"
+    "check:names": "node scripts/check-names.js",
+    "check:inline-js": "node scripts/check-inline-js.js"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.12.1",
