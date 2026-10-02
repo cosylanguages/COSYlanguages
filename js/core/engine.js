@@ -123,17 +123,12 @@ function getNavHref(itemKey) {
 
 const NAV_CONFIG = {
     free: [
-        { key: 'courses',        hrefKey: 'courses',        icon: '📚' },
         { key: 'languages',      hrefKey: 'languages',      icon: '🌍' },
+        { key: 'courses',        hrefKey: 'courses',        icon: '📚' },
+        { key: 'calculator',     hrefKey: 'calculator',     icon: '🧮' },
+        { key: 'blog',           hrefKey: 'blog',           icon: '📰' },
         { key: 'practice',       hrefKey: 'practice',       icon: '💡' },
-        { key: 'games',          hrefKey: 'games',          icon: '🎮' },
-        { key: 'blog',           hrefKey: 'blog',           icon: '📰' }
-    ],
-    more: [
-        { key: 'tools',          hrefKey: 'tools',          icon: '🔎' },
-        { key: 'events',         hrefKey: 'events',         icon: '🎉' },
-        { key: 'placement_quiz', hrefKey: 'placement_quiz', icon: '📝' },
-        { key: 'calculator',     hrefKey: 'calculator',     icon: '🧮' }
+        { key: 'placement_quiz', hrefKey: 'placement_quiz', icon: '📝' }
     ]
 };
 
@@ -263,7 +258,7 @@ function getNavLabel(key, fallback) {
 
 function renderNavLinks(mode) {
     const config = NAV_CONFIG[mode] || [];
-    const mainLinks = config.map(item => {
+    return config.map(item => {
         const fallbackLabel = item.key[0].toUpperCase() + item.key.slice(1);
         const label = getNavLabel(item.key, fallbackLabel);
         const key = `nav_${item.key}`;
@@ -272,29 +267,6 @@ function renderNavLinks(mode) {
         const targetAttr = isExternal ? ' target="_blank" rel="noopener"' : '';
         return `<li role="none"><a href="${href}" ${isActive(href)} data-translate-key="${key}" data-i18n="nav.${item.key}" role="menuitem"${targetAttr}>${item.icon ? item.icon + ' ' : ''}${label}</a></li>`;
     }).join('');
-
-    const moreItems = NAV_CONFIG.more || [];
-    const moreMenuHtml = moreItems.map(item => {
-        const fallbackLabel = item.key[0].toUpperCase() + item.key.slice(1);
-        const label = getNavLabel(item.key, fallbackLabel);
-        const key = `nav_${item.key}`;
-        const href = getNavHref(item.hrefKey || item.key);
-        const isExternal = href.startsWith('http://') || href.startsWith('https://');
-        const targetAttr = isExternal ? ' target="_blank" rel="noopener"' : '';
-        return `<li role="none"><a href="${href}" ${isActive(href)} data-translate-key="${key}" data-i18n="nav.${item.key}" role="menuitem"${targetAttr}>${item.icon ? item.icon + ' ' : ''}${label}</a></li>`;
-    }).join('');
-
-    const moreLabel = getNavLabel('more', 'More ▾');
-
-    const moreDropdown = `
-      <li role="none" class="cosy-nav-more-wrap">
-        <button type="button" class="cosy-nav-more-btn" aria-expanded="false" aria-controls="cosy-nav-more-menu" data-i18n="nav.more" onclick="COSY.toggleMoreMenu(this)">${moreLabel}</button>
-        <ul id="cosy-nav-more-menu" class="cosy-nav-more-dropdown" role="menu">
-          ${moreMenuHtml}
-        </ul>
-      </li>`;
-
-    return mainLinks + moreDropdown;
 }
 
 function navFree () {
@@ -480,9 +452,10 @@ function applyMode () {
                 <span class="cosy-strip-brand">🌐 COSY Ecosystem:</span>
                 <ul class="cosy-strip-links">
                   <li><a href="${homeUrl}" class="cosy-strip-link active">COSYlanguages</a></li>
-                  <li><a href="https://cosylanguages.github.io/COSYtools/" target="_blank" rel="noopener" class="cosy-strip-link">COSYtools 🔎</a></li>
-                  <li><a href="https://cosylanguages.github.io/COSYgames/" target="_blank" rel="noopener" class="cosy-strip-link">COSYgames 🎮</a></li>
                   <li><a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="cosy-strip-link">COSYevents 🎉</a></li>
+                  <li><a href="https://cosylanguages.github.io/COSYgames/" target="_blank" rel="noopener" class="cosy-strip-link">COSYgames 🎮</a></li>
+                  <li><a href="https://cosylanguages.github.io/COSYdata/" target="_blank" rel="noopener" class="cosy-strip-link">COSYdata</a></li>
+                  <li><a href="https://cosylanguages.github.io/COSYtools/" target="_blank" rel="noopener" class="cosy-strip-link">COSYtools 🔎</a></li>
                 </ul>
               </div>`;
             nav.parentNode.insertBefore(stripEl, nav);
@@ -549,10 +522,8 @@ function mobileMenuHTML (mode) {
     ].map(l => `<option value="${l.code}" ${l.code === currentLang ? 'selected' : ''}>${l.flag} ${l.label}</option>`).join('');
 
     const freeItems = NAV_CONFIG.free || [];
-    const moreItems = NAV_CONFIG.more || [];
-    const allItems = [...freeItems, ...moreItems];
 
-    const linksHtml = allItems.map(item => {
+    const linksHtml = freeItems.map(item => {
         const fallbackLabel = item.key[0].toUpperCase() + item.key.slice(1);
         const label = t(item.key, fallbackLabel);
         const href = getNavHref(item.hrefKey || item.key);
@@ -578,9 +549,10 @@ function mobileMenuHTML (mode) {
         <span class="cosy-mobile-eco-title" style="font-size: 0.75rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-soft, #666); display: block; margin-bottom: 6px;">COSY ecosystem</span>
         <div style="display: flex; flex-direction: column; gap: 4px;">
           <a href="${homeUrl}" class="cosy-mobile-eco-link active" style="font-size: 0.88rem; min-height: 44px; display: inline-flex; align-items: center;">COSYlanguages</a>
-          <a href="https://cosylanguages.github.io/COSYtools/" target="_blank" rel="noopener" class="cosy-mobile-eco-link" style="font-size: 0.88rem; min-height: 44px; display: inline-flex; align-items: center;">COSYtools 🔎</a>
-          <a href="https://cosylanguages.github.io/COSYgames/" target="_blank" rel="noopener" class="cosy-mobile-eco-link" style="font-size: 0.88rem; min-height: 44px; display: inline-flex; align-items: center;">COSYgames 🎮</a>
           <a href="https://cosylanguages.github.io/COSYevents/" target="_blank" rel="noopener" class="cosy-mobile-eco-link" style="font-size: 0.88rem; min-height: 44px; display: inline-flex; align-items: center;">COSYevents 🎉</a>
+          <a href="https://cosylanguages.github.io/COSYgames/" target="_blank" rel="noopener" class="cosy-mobile-eco-link" style="font-size: 0.88rem; min-height: 44px; display: inline-flex; align-items: center;">COSYgames 🎮</a>
+          <a href="https://cosylanguages.github.io/COSYdata/" target="_blank" rel="noopener" class="cosy-mobile-eco-link" style="font-size: 0.88rem; min-height: 44px; display: inline-flex; align-items: center;">COSYdata</a>
+          <a href="https://cosylanguages.github.io/COSYtools/" target="_blank" rel="noopener" class="cosy-mobile-eco-link" style="font-size: 0.88rem; min-height: 44px; display: inline-flex; align-items: center;">COSYtools 🔎</a>
         </div>
       </div>
 
