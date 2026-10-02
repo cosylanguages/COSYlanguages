@@ -131,6 +131,40 @@
   </div>
 </section>
 
+<section id="languages">
+  <span class="sec-tag" data-translate-key="sec_tag_languages">Languages</span>
+  <h2 class="sec-h2" data-translate-key="sec_h2_languages">Languages we teach</h2>
+  <p class="sec-p" data-translate-key="sec_p_languages">Click a language to explore free resources and tools.</p>
+
+  <div id="lang-grid-active" class="lang-grid reveal">
+    <!-- Dynamically populated from COSY_ACTIVE_LANGUAGES -->
+  </div>
+
+  <div class="home-lang-cta">
+      <p class="lang-coming-label reveal" data-translate-key="lang_coming_soon">More languages coming soon 🌱</p>
+      <a href="languages/coming-soon.html" class="btn-secondary" data-i18n="button.seeUpcomingLanguages">See upcoming languages →</a>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const activeGrid = document.getElementById('lang-grid-active');
+      if (activeGrid && window.COSY_ACTIVE_LANGUAGES) {
+        activeGrid.innerHTML = window.COSY_ACTIVE_LANGUAGES.map(l => `
+          <a href="languages/${l.code}/" class="lang-card">
+            ${l.img && l.img !== 'cosylanguages.png' ? `<img src="images/languages/${l.img}" alt="" loading="lazy" decoding="async" width="56" height="56">` : `<div class="sc-badge" style="margin: 0 auto 0.5rem;">${(l.code || '').toUpperCase().slice(0, 2)}</div>`}
+            <div class="lang-name" data-translate-key="${l.name.toLowerCase()}">${l.native}</div>
+            <div class="lang-resource-teaser">Resources →</div>
+          </a>
+        `).join('');
+      }
+      const heroCount = document.querySelector('.hs-num');
+      if (heroCount && window.COSY_ACTIVE_LANGUAGES) {
+        heroCount.textContent = window.COSY_ACTIVE_LANGUAGES.length;
+      }
+    });
+  </script>
+</section>
+
 <section id="courses">
   <span class="sec-tag" data-translate-key="sec_tag_courses">What we offer</span>
   <h2 class="sec-h2" data-translate-key="sec_h2_courses">Six courses, one promise</h2>
@@ -184,38 +218,18 @@
   </div>
 </section>
 
-<section id="languages">
-  <span class="sec-tag" data-translate-key="sec_tag_languages">Languages</span>
-  <h2 class="sec-h2" data-translate-key="sec_h2_languages">Languages we teach</h2>
-  <p class="sec-p" data-translate-key="sec_p_languages">Click a language to explore free resources and tools.</p>
+<section id="events">
+  <span class="sec-tag">Premium</span>
+  <h2 class="sec-h2">Live events</h2>
 
-  <div id="lang-grid-active" class="lang-grid reveal">
-    <!-- Dynamically populated from COSY_ACTIVE_LANGUAGES -->
+  <div class="events-row reveal">
+    <span class="er-icon">🎉</span>
+    <div class="er-body">
+      <h4 data-translate-key="events_row_h4">Live Premium Events: Speaking Clubs &amp; Multimedia Nights</h4>
+      <p data-translate-key="events_row_p">Thematic speaking clubs, original language cinema nights, karaoke, game evenings, and long reads.</p>
+    </div>
+    <a href="apps/premium-events/index.html" class="btn-secondary" data-translate-key="events_row_cta" data-i18n="button.seeEvents">See events →</a>
   </div>
-
-  <div class="home-lang-cta">
-      <p class="lang-coming-label reveal" data-translate-key="lang_coming_soon">More languages coming soon 🌱</p>
-      <a href="languages/coming-soon.html" class="btn-secondary" data-i18n="button.seeUpcomingLanguages">See upcoming languages →</a>
-  </div>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const activeGrid = document.getElementById('lang-grid-active');
-      if (activeGrid && window.COSY_ACTIVE_LANGUAGES) {
-        activeGrid.innerHTML = window.COSY_ACTIVE_LANGUAGES.map(l => `
-          <a href="languages/${l.code}/" class="lang-card">
-            ${l.img && l.img !== 'cosylanguages.png' ? `<img src="images/languages/${l.img}" alt="" loading="lazy" decoding="async" width="56" height="56">` : `<div class="sc-badge" style="margin: 0 auto 0.5rem;">${(l.code || '').toUpperCase().slice(0, 2)}</div>`}
-            <div class="lang-name" data-translate-key="${l.name.toLowerCase()}">${l.native}</div>
-            <div class="lang-resource-teaser">Resources →</div>
-          </a>
-        `).join('');
-      }
-      const heroCount = document.querySelector('.hs-num');
-      if (heroCount && window.COSY_ACTIVE_LANGUAGES) {
-        heroCount.textContent = window.COSY_ACTIVE_LANGUAGES.length;
-      }
-    });
-  </script>
 </section>
 
 <section id="tools">
@@ -252,26 +266,6 @@
       </div>
       <a href="https://cosylanguages.github.io/COSYgames/" class="tool-link" data-translate-key="tool_games_cta" data-i18n="button.playFreeGames">Play free games →</a>
     </div>
-    <div class="tool-card reveal">
-      <div class="tool-free-label">🔎 COSYtools Reference Hub</div>
-      <h3>Grammar &amp; Reference Tools <span class="cosy-icon icon-search sec-title-icon" aria-hidden="true"></span></h3>
-      <p>Grammar &amp; Reference Tools - Conjugation engines, gender checkers, case systems and more</p>
-      <a href="https://cosylanguages.github.io/COSYtools/" target="_blank" rel="noopener" class="tool-link tool-link-spaced">Open COSYtools →</a>
-    </div>
-  </div>
-</section>
-
-<section id="events">
-  <span class="sec-tag">Premium</span>
-  <h2 class="sec-h2">Live events</h2>
-
-  <div class="events-row reveal">
-    <span class="er-icon">🎉</span>
-    <div class="er-body">
-      <h4 data-translate-key="events_row_h4">Live Premium Events: Speaking Clubs &amp; Multimedia Nights</h4>
-      <p data-translate-key="events_row_p">Thematic speaking clubs, original language cinema nights, karaoke, game evenings, and long reads.</p>
-    </div>
-    <a href="apps/premium-events/index.html" class="btn-secondary" data-translate-key="events_row_cta" data-i18n="button.seeEvents">See events →</a>
   </div>
 </section>
 
