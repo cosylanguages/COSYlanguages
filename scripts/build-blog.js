@@ -210,10 +210,17 @@ function formatFlipbookContent(renderedHtml, slug) {
     </audio>
   </div>`;
 
+    const pageFooterHtml = `
+  <div class="flipbook-page-footer">
+    <span>🗞️ COSY Gazette • Magazine Edition</span>
+    <span>Page ${pageNum} of ${pages.length}</span>
+  </div>`;
+
     return `
 <section class="flipbook-page${idx === 0 ? ' active' : ''}" data-page="${pageNum}" aria-label="Page ${pageNum} of ${pages.length}">
   ${audioPlayerHtml}
   ${chunk}
+  ${pageFooterHtml}
 </section>`;
   }).join('\n');
 }
@@ -248,12 +255,12 @@ function formatFlipbookContent(renderedHtml, slug) {
     <nav id="cosy-nav"></nav>
 
     <div class="blog-wrapper">
-        <header class="blog-header">
+        <header class="blog-header" data-category="${escapeHtml(post.category)}">
             <div class="post-breadcrumb" style="margin-bottom: 0.75rem;">
                 <a href="index.html" style="color: var(--teal, #0d9488); text-decoration: none; font-weight: 600; font-size: 0.9rem;">← Back to Blog &amp; Editorial Hub</a>
             </div>
             <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-                <span class="post-card-label">${escapeHtml(post.category)}</span>
+                <span class="kicker" style="margin-bottom: 0;">${escapeHtml(post.category)}</span>
                 <span class="gazette-badge">📖 Magazine Flipbook Edition</span>
             </div>
             <h1 class="blog-header-title" style="margin-top: 0.5rem;">${escapeHtml(post.title)}</h1>
