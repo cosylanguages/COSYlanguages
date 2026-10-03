@@ -181,14 +181,13 @@ function buildBlog() {
   const publishedPosts = posts.filter(p => !p.draft);
   console.log(`📝 Processing ${publishedPosts.length} published post(s) (${posts.length - publishedPosts.length} draft(s) skipped)...`);
 
-function formatFlipbookContent(renderedHtml) {
+function formatFlipbookContent(renderedHtml, slug) {
   const hrChunks = renderedHtml.split(/<hr\s*\/?>/i).filter(c => c.trim().length > 0);
   let pages = [];
 
   if (hrChunks.length > 1) {
     pages = hrChunks;
   } else {
-    // Split by major headings if no explicit <hr>
     const h3Parts = renderedHtml.split(/(?=<h[23][^>]*>)/i).filter(c => c.trim().length > 0);
     if (h3Parts.length > 1) {
       pages = h3Parts;
@@ -197,16 +196,32 @@ function formatFlipbookContent(renderedHtml) {
     }
   }
 
-  return pages.map((chunk, idx) => `
-<section class="flipbook-page${idx === 0 ? ' active' : ''}" data-page="${idx + 1}" aria-label="Page ${idx + 1} of ${pages.length}">
+  return pages.map((chunk, idx) => {
+    const pageNum = idx + 1;
+    const audioSrc = `../audio/blog/${slug}-page-${pageNum}.mp3`;
+    const audioPlayerHtml = `
+  <div class="page-audio-guide">
+    <div class="audio-guide-header">
+      <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
+      <span class="audio-guide-badge">Page ${pageNum} of ${pages.length}</span>
+    </div>
+    <audio controls preload="none" src="${audioSrc}">
+      Your browser does not support the audio element.
+    </audio>
+  </div>`;
+
+    return `
+<section class="flipbook-page${idx === 0 ? ' active' : ''}" data-page="${pageNum}" aria-label="Page ${pageNum} of ${pages.length}">
+  ${audioPlayerHtml}
   ${chunk}
-</section>`).join('\n');
+</section>`;
+  }).join('\n');
 }
 
   publishedPosts.forEach(post => {
     const htmlPath = path.join(BLOG_DIR, `${post.slug}.html`);
     const rawRendered = marked.parse(post.bodyMarkdown);
-    const flipbookBody = formatFlipbookContent(rawRendered);
+    const flipbookBody = formatFlipbookContent(rawRendered, post.slug);
 
     const htmlContent = `<!DOCTYPE html>
 <html lang="en">

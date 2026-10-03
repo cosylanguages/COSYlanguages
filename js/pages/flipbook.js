@@ -225,12 +225,17 @@
 
             if (this.mode === 'flipbook') {
                 this.pages.forEach((p, i) => {
+                    const audioEl = p.querySelector('audio');
                     if (i + 1 === pageIndex) {
                         p.classList.add('active');
                         p.style.display = 'block';
                     } else {
                         p.classList.remove('active');
                         p.style.display = 'none';
+                        // Pause audio when switching pages
+                        if (audioEl && !audioEl.paused) {
+                            audioEl.pause();
+                        }
                     }
                 });
             }
