@@ -24,7 +24,6 @@ When learners hit B1–B2, these ten verbs tend to carry 80% of their spoken out
 - **obtain / acquire**: *The team obtained the necessary license.*
 - **become**: *It gets cold → It becomes chilly.*
 - **reach / arrive**: *We will reach our destination by noon.*
-- **fetch / collect**: *Could you fetch the documents?*
 - **earn / gain**: *She earned a reputation for reliability.*
 
 #### 2. Make
@@ -53,6 +52,7 @@ When learners hit B1–B2, these ten verbs tend to carry 80% of their spoken out
 - **head / proceed**: *Please proceed to Gate 4.*
 - **leave / depart**: *The train departs at 08:30.*
 - **visit / attend**: *She attended the annual conference.*
+- **advance / navigate**: *The expedition advanced through the mountains.*
 
 #### 6. Say
 - **tell / mention**: *He mentioned the upcoming deadline.*
@@ -71,8 +71,9 @@ When learners hit B1–B2, these ten verbs tend to carry 80% of their spoken out
 #### 8. Look
 - **watch / observe**: *Scientists observed the specimen closely.*
 - **notice / examine**: *The inspector examined the apparatus.*
-- **stare / gaze / glance**: *She glanced at her watch during the meeting.*
-- **inspect / appear / seem**: *The preliminary results appear promising.*
+- **stare / glance**: *She glanced at her watch during the meeting.*
+- **inspect / survey**: *The team surveyed the surrounding landscape.*
+- **appear / seem**: *The preliminary results appear promising.*
 
 #### 9. Know
 - **understand / recognize**: *She recognized the significance of the event.*
@@ -85,7 +86,8 @@ When learners hit B1–B2, these ten verbs tend to carry 80% of their spoken out
 - **provide / offer**: *We offer comprehensive guidance.*
 - **hand / deliver**: *She delivered the speech with confidence.*
 - **donate / award / grant**: *The board granted approval for the budget.*
-- **present / supply / lend**: *The supplier provides high-quality goods.*
+- **present / supply**: *The supplier supplies high-quality goods.*
+- **bestow / contribute**: *Volunteers contribute valuable support to the community.*
 
 ---
 
