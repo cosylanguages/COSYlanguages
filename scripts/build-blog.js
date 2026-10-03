@@ -181,9 +181,32 @@ function buildBlog() {
   const publishedPosts = posts.filter(p => !p.draft);
   console.log(`📝 Processing ${publishedPosts.length} published post(s) (${posts.length - publishedPosts.length} draft(s) skipped)...`);
 
+function formatFlipbookContent(renderedHtml) {
+  const hrChunks = renderedHtml.split(/<hr\s*\/?>/i).filter(c => c.trim().length > 0);
+  let pages = [];
+
+  if (hrChunks.length > 1) {
+    pages = hrChunks;
+  } else {
+    // Split by major headings if no explicit <hr>
+    const h3Parts = renderedHtml.split(/(?=<h[23][^>]*>)/i).filter(c => c.trim().length > 0);
+    if (h3Parts.length > 1) {
+      pages = h3Parts;
+    } else {
+      pages = [renderedHtml];
+    }
+  }
+
+  return pages.map((chunk, idx) => `
+<section class="flipbook-page${idx === 0 ? ' active' : ''}" data-page="${idx + 1}" aria-label="Page ${idx + 1} of ${pages.length}">
+  ${chunk}
+</section>`).join('\n');
+}
+
   publishedPosts.forEach(post => {
     const htmlPath = path.join(BLOG_DIR, `${post.slug}.html`);
-    const renderedBody = marked.parse(post.bodyMarkdown);
+    const rawRendered = marked.parse(post.bodyMarkdown);
+    const flipbookBody = formatFlipbookContent(rawRendered);
 
     const htmlContent = `<!DOCTYPE html>
 <html lang="en">
@@ -214,7 +237,10 @@ function buildBlog() {
             <div class="post-breadcrumb" style="margin-bottom: 0.75rem;">
                 <a href="index.html" style="color: var(--teal, #0d9488); text-decoration: none; font-weight: 600; font-size: 0.9rem;">← Back to Blog &amp; Editorial Hub</a>
             </div>
-            <span class="post-card-label">${escapeHtml(post.category)}</span>
+            <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+                <span class="post-card-label">${escapeHtml(post.category)}</span>
+                <span class="gazette-badge">📖 Magazine Flipbook Edition</span>
+            </div>
             <h1 class="blog-header-title" style="margin-top: 0.5rem;">${escapeHtml(post.title)}</h1>
             <div class="post-card-meta" style="margin-top: 0.75rem;">
                 <span class="post-author-avatar">${escapeHtml(post.author.charAt(0).toUpperCase())}</span>
@@ -229,8 +255,8 @@ function buildBlog() {
         <div class="blog-layout">
             <main class="blog-main-col">
                 ${post.cover_image ? `<div class="post-cover" style="margin-bottom: 1.5rem;"><img src="${escapeHtml(post.cover_image)}" alt="${escapeHtml(post.title)}" style="width: 100%; border-radius: 12px;"></div>` : ''}
-                <article class="post-full-content" style="background: var(--surface, #ffffff); border: 1px solid var(--border-color, #e2e8f0); border-radius: 12px; padding: 2rem; line-height: 1.75; color: var(--text-main, #1e293b);">
-                    ${renderedBody}
+                <article class="post-full-content flipbook-mode" style="background: var(--surface, #ffffff); border: 1px solid var(--border-color, #e2e8f0); border-radius: 12px; padding: 2rem; line-height: 1.75; color: var(--text-main, #1e293b);">
+                    ${flipbookBody}
                 </article>
 
                 ${post.tags.length > 0 ? `
@@ -285,12 +311,12 @@ function buildBlog() {
     <div class="footer-links-col">
       <h3 data-translate-key="footer_h5_courses">Courses</h3>
       <a href="../courses/index.html">All Courses 📖</a>
-      <a href="../courses/general.html" data-translate-key="course_general">General Course</a>
-      <a href="../courses/spoken.html" data-translate-key="course_spoken">Spoken Course</a>
-      <a href="../courses/exam-preparation.html" data-translate-key="course_exam">Exam Preparation</a>
-      <a href="../courses/travelling.html" data-translate-key="course_travelling">Travelling Course</a>
-      <a href="../courses/professional.html" data-translate-key="course_professional">Professional Course</a>
-      <a href="../courses/relocation.html" data-translate-key="course_relocation">Relocation Course</a>
+      <a href="../courses/general.html" data-translate-key="course_general">General Course 📖</a>
+      <a href="../courses/spoken.html" data-translate-key="course_spoken">Spoken Course 🗣️</a>
+      <a href="../courses/exam-preparation.html" data-translate-key="course_exam">Exam Preparation 📝</a>
+      <a href="../courses/travelling.html" data-translate-key="course_travelling">Travelling Course ✈️</a>
+      <a href="../courses/professional.html" data-translate-key="course_professional">Professional Course 💼</a>
+      <a href="../courses/relocation.html" data-translate-key="course_relocation">Relocation Course 🏡</a>
     </div>
     <div class="footer-links-col">
       <h3 data-translate-key="footer_h5_explore">Explore</h3>
@@ -322,6 +348,7 @@ function buildBlog() {
     <script src="../js/core/engine.js"></script>
     <script src="../js/core/i18n.js"></script>
     <script src="../js/core/ui.js"></script>
+    <script src="../js/pages/flipbook.js"></script>
 </body>
 </html>
 `;
