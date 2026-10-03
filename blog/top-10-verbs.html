@@ -30,6 +30,10 @@
             <div class="post-breadcrumb">
                 <a href="index.html">← Back to Blog &amp; Editorial Hub</a>
             </div>
+            <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.5rem;">
+                <span class="post-card-label">Resource List</span>
+                <span class="gazette-badge">📖 Magazine Flipbook Edition</span>
+            </div>
             <h1>🎯 Top 10 Essential Verbs for Absolute Beginners (A0–A1) across 14 Languages</h1>
             <div class="post-header-meta-row">
                 <span class="post-author-avatar">C</span>
@@ -54,9 +58,19 @@
         <!-- Blogger 2-Column Grid -->
         <div class="blog-layout">
             <main class="blog-main-col">
+                <article class="post-full-content flipbook-mode" style="background: var(--surface, #ffffff); border: 1px solid var(--border-color, #e2e8f0); border-radius: 12px; padding: 2rem; line-height: 1.75; color: var(--text-main, #1e293b);">
 
 
-    <section class="verb-section" id="v-be">
+    <section class="flipbook-page active" data-page="1" aria-label="Page 1 of 10">
+        <div class="page-audio-guide">
+            <div class="audio-guide-header">
+                <span class="audio-guide-label">🎧 Page Audio Guide &amp; Narration</span>
+                <span class="audio-guide-badge">Page 1 of 10</span>
+            </div>
+            <audio controls preload="none" src="../audio/blog/top-10-verbs-page-1.mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
         <div class="verb-head">
             <div class="verb-num">01</div>
             <div>
@@ -2231,5 +2245,10 @@ review is required before merging, per COSYdata's contribution guide.</pre>
   <div class="footer-bottom" data-translate-key="footer_copy">© 2020–2026 COSYlanguages, All rights reserved</div>
 
 </footer>
+    <script src="../js/data/languages.js"></script>
+    <script src="../js/core/engine.js"></script>
+    <script src="../js/core/i18n.js"></script>
+    <script src="../js/core/ui.js"></script>
+    <script src="../js/pages/flipbook.js"></script>
 </body>
 </html>

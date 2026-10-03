@@ -128,3 +128,22 @@ Each script is adapted for the target CEFR level to assist learners with listeni
 > Instead of Very smart -> say Brilliant.
 > Instead of Very busy -> say Hectic, Swamped.
 > Practice substituting these words into your daily journal today!"
+
+---
+
+## 📜 3. Top 10 Essential Verbs for Beginners (CEFR A0–A1)
+**Audio Folder Target:** `audio/blog/top-10-verbs-page-{N}.mp3`
+
+### Page 1: Verb 1 — To Be
+**Vocal Direction:** *Clear, articulate, slow pace with distinct pauses.*
+> "Welcome to Page 1: Verb 01 — To Be across 14 languages.
+> The very first verb every beginner needs—and the one where languages disagree the most.
+> In English, German, and Greek, we use 'to be' for age. But in French, Italian, Spanish, and Portuguese, age uses 'have'!
+> Listen to these key sentences: 'I am James, and I am 28 years old. I am a teacher.'
+> Practice stating your name, age, and profession in your target language!"
+
+### Page 2: Verb 2 — To Have
+> "Welcome to Page 2: Verb 02 — To Have.
+> Possession, family, and mealtimes! Notice how Russian expresses possession with 'у меня есть' rather than a direct verb.
+> Key sentences: 'I have time. I have a job. I have a family.'
+> Keep practicing these essential possession patterns!"
