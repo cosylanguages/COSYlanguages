@@ -31,6 +31,88 @@
 }
 .hs-lbl { font-size: .75rem; color: #ffffff; font-weight: 700; text-transform: uppercase; }
 
+/* ── Journey Philosophy & Organic Flow Enhancements ────────────────── */
+section {
+  position: relative;
+  border-radius: 32px;
+  margin: 1.5rem auto;
+  padding: 3.5rem 2rem;
+  transition: background-color 0.3s ease;
+}
+
+#how {
+  background: linear-gradient(180deg, rgba(250, 247, 242, 0.6) 0%, rgba(244, 237, 226, 0.8) 100%);
+  border: 1px solid rgba(65, 107, 73, 0.12);
+}
+
+#languages {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(250, 247, 242, 0.9) 100%);
+  border: 1px solid rgba(65, 107, 73, 0.1);
+}
+
+#courses {
+  background: linear-gradient(180deg, rgba(244, 237, 226, 0.5) 0%, rgba(255, 255, 255, 0.9) 100%);
+  border: 1px solid rgba(65, 107, 73, 0.12);
+}
+
+#events {
+  background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+  border: 1px solid rgba(217, 119, 6, 0.2);
+}
+
+#tools {
+  background: linear-gradient(180deg, rgba(240, 247, 241, 0.7) 0%, rgba(250, 247, 242, 0.9) 100%);
+  border: 1px solid rgba(65, 107, 73, 0.15);
+}
+
+#calculator {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(244, 237, 226, 0.6) 100%);
+  border: 1px solid rgba(65, 107, 73, 0.12);
+}
+
+#reviews {
+  background: linear-gradient(180deg, rgba(244, 237, 226, 0.7) 0%, rgba(240, 247, 241, 0.8) 100%);
+  border: 1px solid rgba(65, 107, 73, 0.12);
+}
+
+#start {
+  background: linear-gradient(135deg, var(--sage-deep, #1a2a1d) 0%, var(--sage-dark, #233827) 100%);
+  border-radius: 32px;
+  color: #ffffff;
+}
+
+/* Journey Roadmap Connectors & Badges */
+.journey-roadmap-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.visual-journey-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.3rem 0.8rem;
+  border-radius: 100px;
+  background: rgba(65, 107, 73, 0.1);
+  color: var(--sage-deep, #233827);
+  border: 1px solid rgba(65, 107, 73, 0.18);
+}
+
+.journey-connector-line {
+  width: 40px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--sage, #416b49), transparent);
+  display: inline-block;
+  vertical-align: middle;
+}
+
 /* ── Content Blocks ────────────────────────────────── */
 .step {
   background: var(--warm-white, #faf7f2);
