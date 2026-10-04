@@ -238,9 +238,11 @@
                 }
             }
 
-            // 2. Fallback to COSY_GRAMMAR_CONFUSION_PAIRS
-            if (modularItems.length === 0 && window.COSY_GRAMMAR_CONFUSION_PAIRS) {
-                const pairsData = window.COSY_GRAMMAR_CONFUSION_PAIRS;
+            // 2. Fallback to language-specific COSY_GRAMMAR_CONFUSION_PAIRS
+            const isFrench = (langKey === 'FR' || (lang || '').toLowerCase() === 'fr');
+            const pairsData = isFrench ? window.COSY_FRENCH_GRAMMAR_CONFUSION_PAIRS : window.COSY_GRAMMAR_CONFUSION_PAIRS;
+
+            if (modularItems.length === 0 && pairsData) {
                 if (normLvl !== 'all' && pairsData[normLvl]) {
                     modularItems = [...pairsData[normLvl]];
                 } else {
