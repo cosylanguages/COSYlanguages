@@ -108,6 +108,62 @@
             return;
         }
 
+        if (selectedCat === 'grammar') {
+            const levelSelect = document.getElementById('level-filter');
+            const lvlVal = levelSelect ? levelSelect.value : 'all';
+            const normLvl = (lvlVal === 'starter' || lvlVal === 'a1') ? 'a1' :
+                            (lvlVal === 'elementary' || lvlVal === 'a2') ? 'a2' :
+                            (lvlVal === 'intermediate' || lvlVal === 'b1') ? 'b1' :
+                            (lvlVal === 'upper_intermediate' || lvlVal === 'b2') ? 'b2' :
+                            (lvlVal === 'advanced' || lvlVal === 'c1') ? 'c1' :
+                            (lvlVal === 'proficiency' || lvlVal === 'c2') ? 'c2' : 'all';
+
+            themeSelect.innerHTML = '<option value="all">All Grammar Categories</option>';
+
+            const pairsData = window.COSY_GRAMMAR_CONFUSION_PAIRS || {};
+            let availablePairs = [];
+
+            if (normLvl !== 'all' && pairsData[normLvl]) {
+                availablePairs = pairsData[normLvl];
+            } else {
+                Object.values(pairsData).forEach(arr => {
+                    availablePairs.push(...arr);
+                });
+            }
+
+            if (availablePairs.length > 0) {
+                const seen = new Set();
+                availablePairs.forEach(p => {
+                    if (!seen.has(p.id)) {
+                        seen.add(p.id);
+                        const opt = document.createElement('option');
+                        opt.value = p.id;
+                        opt.textContent = `${p.group}: ${p.label}`;
+                        themeSelect.appendChild(opt);
+                    }
+                });
+            } else if (window.COSY_GRAMMAR_TOPICS) {
+                let topicsList = [];
+                if (normLvl !== 'all' && window.COSY_GRAMMAR_TOPICS[normLvl]) {
+                    topicsList = window.COSY_GRAMMAR_TOPICS[normLvl];
+                } else {
+                    Object.values(window.COSY_GRAMMAR_TOPICS).forEach(arr => {
+                        topicsList.push(...arr);
+                    });
+                }
+                topicsList.forEach(t => {
+                    const opt = document.createElement('option');
+                    opt.value = t;
+                    opt.textContent = t.replace(/-/g, ' ');
+                    themeSelect.appendChild(opt);
+                });
+            }
+
+            updateSubThemes();
+            updateHandoffLinks();
+            return;
+        }
+
         themeSelect.innerHTML = '<option value="all">All Themes</option>';
         if (window.COSY_THEME_TREE) {
             Object.keys(window.COSY_THEME_TREE).forEach(t => {
@@ -565,6 +621,11 @@
         const normHyphen = lower.replace(/_/g, '-');
         const normUnderscore = lower.replace(/-/g, '_');
         if (lower === 'to_be' || lower === 'to-be') return true;
+
+        if (window.COSY_GRAMMAR_CONFUSION_PAIRS) {
+            const allPairs = Object.values(window.COSY_GRAMMAR_CONFUSION_PAIRS).flat().map(p => p.id.toLowerCase());
+            if (allPairs.includes(lower) || allPairs.includes(normHyphen) || allPairs.includes(normUnderscore)) return true;
+        }
 
         if (window.COSY_GRAMMAR_TOPICS) {
             const allGrammarSlugs = Object.values(window.COSY_GRAMMAR_TOPICS).flat().map(s => s.toLowerCase());

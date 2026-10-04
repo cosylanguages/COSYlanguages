@@ -998,6 +998,29 @@ if (typeof window !== 'undefined') {
     window.addEventListener('popstate', updateNavActiveState);
 }
 
+COSY.getUser = function() {
+    try {
+        if (typeof localStorage !== 'undefined') {
+            const stored = localStorage.getItem('cosy_user') || localStorage.getItem('supabase.auth.token');
+            if (stored) {
+                const parsed = JSON.parse(stored);
+                return parsed.user || parsed;
+            }
+        }
+    } catch(e) {}
+    if (typeof window !== 'undefined' && window.COSY_USER) {
+        return window.COSY_USER;
+    }
+    return null;
+};
+
+COSY.isUserAuthenticated = function() {
+    const u = COSY.getUser();
+    if (!u) return false;
+    const role = String(u.role || u.user_metadata?.role || u.app_metadata?.role || 'student').toLowerCase();
+    return (role === 'student' || role === 'teacher' || role === 'admin');
+};
+
 })();
 
 if (typeof module !== 'undefined' && module.exports) {

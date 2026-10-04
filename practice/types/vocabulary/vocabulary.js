@@ -210,21 +210,85 @@
     };
 
     function getQuestions(lang, cat, level, theme, subTheme) {
-        const pool = (QUESTIONS[lang] && QUESTIONS[lang][cat]) || [];
-        if (!pool || !pool.length) return [];
-        if (window.gameUtils && window.gameUtils.filterVocabulary) {
-            return window.gameUtils.filterVocabulary(pool, { lang, level, theme, subTheme, category: cat });
+        const langKey = (lang || 'EN').toUpperCase();
+        let pool = (QUESTIONS[langKey] && QUESTIONS[langKey][cat]) ? [...QUESTIONS[langKey][cat]] : [];
+
+        if (cat === 'Grammar' || cat === 'grammar') {
+            const normLvl = (level === 'starter' || level === 'a1') ? 'a1' :
+                            (level === 'elementary' || level === 'a2') ? 'a2' :
+                            (level === 'intermediate' || level === 'b1') ? 'b1' :
+                            (level === 'upper_intermediate' || level === 'b2') ? 'b2' :
+                            (level === 'advanced' || level === 'c1') ? 'c1' :
+                            (level === 'proficiency' || level === 'c2') ? 'c2' : 'all';
+
+            let modularItems = [];
+
+            // 1. Check window.COSY_GRAMMAR_DATA (standalone 150-sentence topic files)
+            if (window.COSY_GRAMMAR_DATA) {
+                const dataKey = `${normLvl}_${theme}`;
+                if (window.COSY_GRAMMAR_DATA[dataKey] && window.COSY_GRAMMAR_DATA[dataKey].sentences) {
+                    modularItems = window.COSY_GRAMMAR_DATA[dataKey].sentences;
+                } else {
+                    // Collect all available topic sentences for the level
+                    Object.keys(window.COSY_GRAMMAR_DATA).forEach(k => {
+                        if (k.startsWith(`${normLvl}_`)) {
+                            modularItems.push(...(window.COSY_GRAMMAR_DATA[k].sentences || []));
+                        }
+                    });
+                }
+            }
+
+            // 2. Fallback to COSY_GRAMMAR_CONFUSION_PAIRS
+            if (modularItems.length === 0 && window.COSY_GRAMMAR_CONFUSION_PAIRS) {
+                const pairsData = window.COSY_GRAMMAR_CONFUSION_PAIRS;
+                if (normLvl !== 'all' && pairsData[normLvl]) {
+                    modularItems = [...pairsData[normLvl]];
+                } else {
+                    Object.values(pairsData).forEach(arr => {
+                        modularItems.push(...arr);
+                    });
+                }
+            }
+
+            const formattedItems = modularItems.map(item => ({
+                form: item.type || 'cloze',
+                type: item.type || 'cloze',
+                q: item.q,
+                sentence: item.sentence || item.q,
+                wrongSentence: item.wrongSentence,
+                correctSentence: item.correctSentence,
+                errorExplanation: item.errorExplanation,
+                opts: item.opts,
+                ans: item.ans,
+                level: item.level || normLvl,
+                theme: item.id ? item.id.split('-r-')[0].split('-w-')[0] : theme,
+                ruleHint: item.ruleHint || item.errorExplanation,
+                practice_links: item.practice_links,
+                item: {
+                    word: item.id || item.label || theme,
+                    ruleHint: item.ruleHint || item.errorExplanation,
+                    practice_links: item.practice_links
+                }
+            }));
+
+            pool = [...formattedItems, ...pool];
         }
-        const norm = v => v.toLowerCase().replace(/-/g, '_');
+
+        if (!pool || !pool.length) return [];
+
+        const norm = v => (v || '').toLowerCase().replace(/-/g, '_');
+        const normHyphen = v => (v || '').toLowerCase().replace(/_/g, '-');
         const normalizedLevel = level !== 'all' ? norm(level) : 'all';
 
         return pool.filter(q => {
-            if (!q.level) {
-                console.warn(`Static question missing level field:`, q);
-            }
             const qLevel = norm(q.level || 'starter');
-            const levelMatch = normalizedLevel === 'all' || qLevel === normalizedLevel;
-            const themeMatch = theme === 'all' || q.theme === theme;
+            const levelMatch = normalizedLevel === 'all' || qLevel === normalizedLevel || qLevel === LEVEL_MAP[normalizedLevel];
+            const qThemeNorm = norm(q.theme);
+            const qThemeHyphen = normHyphen(q.theme);
+            const targetThemeNorm = norm(theme);
+            const targetThemeHyphen = normHyphen(theme);
+
+            const themeMatch = theme === 'all' || qThemeNorm === targetThemeNorm || qThemeHyphen === targetThemeHyphen;
             return levelMatch && themeMatch;
         });
     }
@@ -232,12 +296,34 @@
     /* ══════════════════════════════════════
        DATA LOADING
     ══════════════════════════════════════ */
-    async function ensureDataLoaded(lang, level) {
+    async function ensureDataLoaded(lang, level, cat, theme) {
         const targetLang = (lang || 'en').toLowerCase();
         if (window.COSY && window.COSY.loadLanguageData) {
             await window.COSY.loadLanguageData(targetLang, level);
         } else {
             console.error("Centralized loader COSY.loadLanguageData not found.");
+        }
+
+        // Dynamically load standalone grammar topic datasets if requested
+        if ((cat === 'Grammar' || cat === 'grammar') && theme && theme !== 'all') {
+            const normLvl = (level === 'starter' || level === 'a1') ? 'a1' :
+                            (level === 'elementary' || level === 'a2') ? 'a2' :
+                            (level === 'intermediate' || level === 'b1') ? 'b1' :
+                            (level === 'upper_intermediate' || level === 'b2') ? 'b2' :
+                            (level === 'advanced' || level === 'c1') ? 'c1' :
+                            (level === 'proficiency' || level === 'c2') ? 'c2' : 'a1';
+
+            const scriptId = `cosy-grammar-script-${normLvl}-${theme}`;
+            if (typeof document !== 'undefined' && !document.getElementById(scriptId)) {
+                await new Promise((resolve) => {
+                    const script = document.createElement('script');
+                    script.id = scriptId;
+                    script.src = `data/grammar/${normLvl}/${theme}.js`;
+                    script.onload = resolve;
+                    script.onerror = resolve;
+                    document.head.appendChild(script);
+                });
+            }
         }
 
         // Load standalone app morphological datasets via adapter bridge

@@ -37,12 +37,12 @@ def verify_grammar_topics():
             # Test 1: Check window.COSY_GRAMMAR_TOPICS object structure in browser
             topics = page.evaluate("window.COSY_GRAMMAR_TOPICS")
             assert topics is not None, "window.COSY_GRAMMAR_TOPICS should exist"
-            assert "a1" in topics and "a2" in topics and "b1" in topics and "b2" in topics
+            assert "a1" in topics and "a2" in topics and "b1" in topics and "b2" in topics and "c1" in topics and "c2" in topics
             counts = {k: len(v) for k, v in topics.items()}
             total_count = sum(counts.values())
             print(f"Test 1 - window.COSY_GRAMMAR_TOPICS counts: {counts}, total: {total_count}")
-            assert counts == {'a1': 42, 'a2': 46, 'b1': 47, 'b2': 36}, f"Unexpected counts: {counts}"
-            assert total_count == 171, f"Expected 171 topics, got {total_count}"
+            assert counts == {'a1': 42, 'a2': 46, 'b1': 47, 'b2': 36, 'c1': 25, 'c2': 47}, f"Unexpected counts: {counts}"
+            assert total_count == 243, f"Expected 243 topics, got {total_count}"
 
             page.close()
 
@@ -52,7 +52,9 @@ def verify_grammar_topics():
                 ("a1", "past-simple-irregular"),
                 ("a2", "second-conditional"),
                 ("b1", "question-tags"),
-                ("b2", "cleft-sentences-and-emphasis")
+                ("b2", "cleft-sentences-and-emphasis"),
+                ("c1", "cleft-sentences"),
+                ("c2", "historic-vs-historical")
             ]
 
             for level, slug in test_slugs:

@@ -76,7 +76,8 @@
             op: '≠ Antonym',
             np: '👥 Plural',
             mp: '🔗 Match',
-            cloze: '🧩 Sentence Cloze'
+            cloze: '🧩 Sentence Cloze',
+            find_mistake: '🔍 Find the Mistake'
         };
         return m[t] || t;
     }
@@ -102,8 +103,11 @@
                 html += `<button class="btn-outline pe-card-speak-btn" onclick="window.cosyPracticeEngine.speakText('${wordToSpeak}', '${lang}')">🔊 Listen <span class="keycap-badge">S</span></button>`;
 
                 const links = q.practice_links || q.item?.practice_links;
-                if (links && links.length > 0) {
-                    html += `<div style="margin-top:10px;"><a href="../../${links[0]}" target="_blank" class="btn-outline" style="text-decoration:none; display:inline-block; padding: 6px 12px; font-size: 0.85rem;">📖 Open Lesson Manual 🚀</a></div>`;
+                const isAuthenticated = window.COSY && typeof window.COSY.isUserAuthenticated === 'function' ? window.COSY.isUserAuthenticated() : false;
+                if (links && links.length > 0 && isAuthenticated) {
+                    const rawLink = links[0];
+                    const finalHref = (rawLink.startsWith('http://') || rawLink.startsWith('https://') || rawLink.startsWith('/')) ? rawLink : `../../${rawLink}`;
+                    html += `<div style="margin-top:10px;"><a href="${finalHref}" target="_blank" class="btn-outline" style="text-decoration:none; display:inline-block; padding: 6px 12px; font-size: 0.85rem;">📖 Open Lesson Manual 🚀</a></div>`;
                 }
 
                 html += `</div>`;
@@ -125,9 +129,23 @@
                 html += this.renderMP(q, session, lang);
             } else if (form === 'cloze') {
                 html += this.renderCloze(q, session, lang);
+            } else if (form === 'find_mistake') {
+                html += this.renderFindMistake(q, session, lang);
             }
 
             return html;
+        },
+
+        renderFindMistake(q, session, lang) {
+            const finalOpts = q.opts || [q.correctSentence, q.wrongSentence];
+            return `<div style="text-align:center; margin-bottom: 1.5rem;">
+                <div style="background: rgba(220, 38, 38, 0.08); border: 1px solid rgba(220, 38, 38, 0.2); border-radius: 10px; padding: 1.2rem; margin-bottom: 1rem;">
+                    <div style="font-weight: 600; color: #b91c1c; font-size: 0.95rem; margin-bottom: 0.5rem;">🔍 Identify the correct sentence to fix the error:</div>
+                    <div style="font-size: 1.15rem; font-family: 'Fraunces', serif; color: #991b1b; font-style: italic;">"${q.wrongSentence || q.q || '...'}"</div>
+                </div>
+            </div>
+            <div class="mc-options">` + finalOpts.map((o, i) =>
+                `<button class="mc-opt" id="mc-opt-${i}" onclick="checkMC(${i})"><span class="keycap-badge">${i + 1}</span> ${o}</button>`).join('') + `</div>`;
         },
 
         renderMP(q, session, lang) {
