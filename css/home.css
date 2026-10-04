@@ -334,3 +334,84 @@
   margin-top: 0;
   padding: 1.75rem 1.5rem;
 }
+
+/* ── Reviews Section ────────────────────────────────── */
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.review-card {
+  background: var(--warm-white, #faf7f2);
+  border: 1px solid var(--border, #e2dcd5);
+  border-radius: var(--r-lg, 16px);
+  padding: 1.75rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 28px rgba(65, 107, 73, 0.08);
+}
+
+.review-quote-mark {
+  font-family: var(--font-heading, 'Fraunces', serif);
+  font-size: 3.5rem;
+  line-height: 0.8;
+  color: var(--sage-light, #8fb193);
+  opacity: 0.6;
+  margin-bottom: 0.25rem;
+  user-select: none;
+}
+
+.review-text {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--ink-soft, #4b5563);
+  flex-grow: 1;
+  margin-bottom: 1.5rem;
+}
+
+.review-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border, #e2dcd5);
+  flex-wrap: wrap;
+}
+
+.review-brand {
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: var(--sage-deep, #233827);
+  letter-spacing: 0.02em;
+}
+
+.review-course-tag {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--sage-dark, #2d4c33);
+  background: var(--sage-pale, #e8f0e9);
+  padding: 0.25rem 0.65rem;
+  border-radius: 100px;
+  border: 1px solid rgba(65, 107, 73, 0.15);
+}
+
+@media (max-width: 940px) {
+  .reviews-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 660px) {
+  .reviews-grid {
+    grid-template-columns: 1fr;
+  }
+}
