@@ -122,6 +122,39 @@ html[data-theme="dark"] .ss-link-ghost, body.theme-dark .ss-link-ghost {
   color: #86efac; border-color: #86efac;
 }
 
+/* Journey Roadmap & Organic Section Bridges */
+.journey-roadmap-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 0.85rem;
+  flex-wrap: wrap;
+}
+
+.visual-journey-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.3rem 0.8rem;
+  border-radius: 100px;
+  background: var(--sage-pale, #e8f0e9);
+  color: var(--sage-deep, #233827);
+  border: 1px solid var(--border, rgba(74,107,80,.16));
+}
+
+.journey-connector-line {
+  width: 32px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--sage, #416b49), transparent);
+  display: inline-block;
+  vertical-align: middle;
+}
+
 /* Skill Portals Grid */
 .skills-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.25rem;margin-bottom:2.5rem;}
 .skill-card{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);
