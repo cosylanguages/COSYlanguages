@@ -19,8 +19,8 @@
     {
         "id": "was-vs-were-r-1",
         "type": "cloze",
-        "q": "He ___ at school yesterday morning.",
-        "sentence": "He [ ___ ] at school yesterday morning.",
+        "q": "He ___ very happy with the final test results.",
+        "sentence": "He [ ___ ] very happy with the final test results.",
         "opts": [
             "was",
             "were",
@@ -30,13 +30,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-2",
         "type": "cloze",
-        "q": "They ___ at school yesterday morning.",
-        "sentence": "They [ ___ ] at school yesterday morning.",
+        "q": "They ___ standing near the entrance when it started raining.",
+        "sentence": "They [ ___ ] standing near the entrance when it started raining.",
         "opts": [
             "were",
             "was",
@@ -46,13 +46,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-3",
         "type": "cloze",
-        "q": "The student ___ at school yesterday morning.",
-        "sentence": "The student [ ___ ] at school yesterday morning.",
+        "q": "Yesterday, The student ___ busy preparing for the upcoming trip.",
+        "sentence": "Yesterday, The student [ ___ ] busy preparing for the upcoming trip.",
         "opts": [
             "was",
             "were",
@@ -62,13 +62,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-4",
         "type": "cloze",
-        "q": "My parents ___ at school yesterday morning.",
-        "sentence": "My parents [ ___ ] at school yesterday morning.",
+        "q": "My parents ___ present at the morning meeting yesterday.",
+        "sentence": "My parents [ ___ ] present at the morning meeting yesterday.",
         "opts": [
             "were",
             "was",
@@ -78,13 +78,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-5",
         "type": "cloze",
-        "q": "The teacher ___ at school yesterday morning.",
-        "sentence": "The teacher [ ___ ] at school yesterday morning.",
+        "q": "The teacher ___ very happy with the final test results.",
+        "sentence": "The teacher [ ___ ] very happy with the final test results.",
         "opts": [
             "was",
             "were",
@@ -94,13 +94,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-6",
         "type": "cloze",
-        "q": "My friends ___ at school yesterday morning.",
-        "sentence": "My friends [ ___ ] at school yesterday morning.",
+        "q": "My friends ___ standing near the entrance when it started raining.",
+        "sentence": "My friends [ ___ ] standing near the entrance when it started raining.",
         "opts": [
             "were",
             "was",
@@ -110,13 +110,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-7",
         "type": "cloze",
-        "q": "The doctor ___ at school yesterday morning.",
-        "sentence": "The doctor [ ___ ] at school yesterday morning.",
+        "q": "Yesterday, The doctor ___ busy preparing for the upcoming trip.",
+        "sentence": "Yesterday, The doctor [ ___ ] busy preparing for the upcoming trip.",
         "opts": [
             "was",
             "were",
@@ -126,13 +126,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-8",
         "type": "cloze",
-        "q": "We ___ at school yesterday morning.",
-        "sentence": "We [ ___ ] at school yesterday morning.",
+        "q": "We ___ present at the morning meeting yesterday.",
+        "sentence": "We [ ___ ] present at the morning meeting yesterday.",
         "opts": [
             "were",
             "was",
@@ -142,13 +142,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-9",
         "type": "cloze",
-        "q": "He ___ at school yesterday morning.",
-        "sentence": "He [ ___ ] at school yesterday morning.",
+        "q": "He ___ very happy with the final test results.",
+        "sentence": "He [ ___ ] very happy with the final test results.",
         "opts": [
             "was",
             "were",
@@ -158,13 +158,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-10",
         "type": "cloze",
-        "q": "They ___ at school yesterday morning.",
-        "sentence": "They [ ___ ] at school yesterday morning.",
+        "q": "They ___ standing near the entrance when it started raining.",
+        "sentence": "They [ ___ ] standing near the entrance when it started raining.",
         "opts": [
             "were",
             "was",
@@ -174,13 +174,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-11",
         "type": "cloze",
-        "q": "The student ___ at school yesterday morning.",
-        "sentence": "The student [ ___ ] at school yesterday morning.",
+        "q": "Yesterday, The student ___ busy preparing for the upcoming trip.",
+        "sentence": "Yesterday, The student [ ___ ] busy preparing for the upcoming trip.",
         "opts": [
             "was",
             "were",
@@ -190,13 +190,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-12",
         "type": "cloze",
-        "q": "My parents ___ at school yesterday morning.",
-        "sentence": "My parents [ ___ ] at school yesterday morning.",
+        "q": "My parents ___ present at the morning meeting yesterday.",
+        "sentence": "My parents [ ___ ] present at the morning meeting yesterday.",
         "opts": [
             "were",
             "was",
@@ -206,13 +206,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-13",
         "type": "cloze",
-        "q": "The teacher ___ at school yesterday morning.",
-        "sentence": "The teacher [ ___ ] at school yesterday morning.",
+        "q": "The teacher ___ very happy with the final test results.",
+        "sentence": "The teacher [ ___ ] very happy with the final test results.",
         "opts": [
             "was",
             "were",
@@ -222,13 +222,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-14",
         "type": "cloze",
-        "q": "My friends ___ at school yesterday morning.",
-        "sentence": "My friends [ ___ ] at school yesterday morning.",
+        "q": "My friends ___ standing near the entrance when it started raining.",
+        "sentence": "My friends [ ___ ] standing near the entrance when it started raining.",
         "opts": [
             "were",
             "was",
@@ -238,13 +238,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-15",
         "type": "cloze",
-        "q": "The doctor ___ at school yesterday morning.",
-        "sentence": "The doctor [ ___ ] at school yesterday morning.",
+        "q": "Yesterday, The doctor ___ busy preparing for the upcoming trip.",
+        "sentence": "Yesterday, The doctor [ ___ ] busy preparing for the upcoming trip.",
         "opts": [
             "was",
             "were",
@@ -254,13 +254,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-16",
         "type": "cloze",
-        "q": "We ___ at school yesterday morning.",
-        "sentence": "We [ ___ ] at school yesterday morning.",
+        "q": "We ___ present at the morning meeting yesterday.",
+        "sentence": "We [ ___ ] present at the morning meeting yesterday.",
         "opts": [
             "were",
             "was",
@@ -270,13 +270,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-17",
         "type": "cloze",
-        "q": "He ___ at school yesterday morning.",
-        "sentence": "He [ ___ ] at school yesterday morning.",
+        "q": "He ___ very happy with the final test results.",
+        "sentence": "He [ ___ ] very happy with the final test results.",
         "opts": [
             "was",
             "were",
@@ -286,13 +286,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-18",
         "type": "cloze",
-        "q": "They ___ at school yesterday morning.",
-        "sentence": "They [ ___ ] at school yesterday morning.",
+        "q": "They ___ standing near the entrance when it started raining.",
+        "sentence": "They [ ___ ] standing near the entrance when it started raining.",
         "opts": [
             "were",
             "was",
@@ -302,13 +302,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-19",
         "type": "cloze",
-        "q": "The student ___ at school yesterday morning.",
-        "sentence": "The student [ ___ ] at school yesterday morning.",
+        "q": "Yesterday, The student ___ busy preparing for the upcoming trip.",
+        "sentence": "Yesterday, The student [ ___ ] busy preparing for the upcoming trip.",
         "opts": [
             "was",
             "were",
@@ -318,13 +318,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-20",
         "type": "cloze",
-        "q": "My parents ___ at school yesterday morning.",
-        "sentence": "My parents [ ___ ] at school yesterday morning.",
+        "q": "My parents ___ present at the morning meeting yesterday.",
+        "sentence": "My parents [ ___ ] present at the morning meeting yesterday.",
         "opts": [
             "were",
             "was",
@@ -334,13 +334,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-21",
         "type": "cloze",
-        "q": "The teacher ___ at school yesterday morning.",
-        "sentence": "The teacher [ ___ ] at school yesterday morning.",
+        "q": "The teacher ___ very happy with the final test results.",
+        "sentence": "The teacher [ ___ ] very happy with the final test results.",
         "opts": [
             "was",
             "were",
@@ -350,13 +350,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-22",
         "type": "cloze",
-        "q": "My friends ___ at school yesterday morning.",
-        "sentence": "My friends [ ___ ] at school yesterday morning.",
+        "q": "My friends ___ standing near the entrance when it started raining.",
+        "sentence": "My friends [ ___ ] standing near the entrance when it started raining.",
         "opts": [
             "were",
             "was",
@@ -366,13 +366,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-23",
         "type": "cloze",
-        "q": "The doctor ___ at school yesterday morning.",
-        "sentence": "The doctor [ ___ ] at school yesterday morning.",
+        "q": "Yesterday, The doctor ___ busy preparing for the upcoming trip.",
+        "sentence": "Yesterday, The doctor [ ___ ] busy preparing for the upcoming trip.",
         "opts": [
             "was",
             "were",
@@ -382,13 +382,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-24",
         "type": "cloze",
-        "q": "We ___ at school yesterday morning.",
-        "sentence": "We [ ___ ] at school yesterday morning.",
+        "q": "We ___ present at the morning meeting yesterday.",
+        "sentence": "We [ ___ ] present at the morning meeting yesterday.",
         "opts": [
             "were",
             "was",
@@ -398,13 +398,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-25",
         "type": "cloze",
-        "q": "He ___ at school yesterday morning.",
-        "sentence": "He [ ___ ] at school yesterday morning.",
+        "q": "He ___ very happy with the final test results.",
+        "sentence": "He [ ___ ] very happy with the final test results.",
         "opts": [
             "was",
             "were",
@@ -414,13 +414,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-26",
         "type": "cloze",
-        "q": "They ___ at school yesterday morning.",
-        "sentence": "They [ ___ ] at school yesterday morning.",
+        "q": "They ___ standing near the entrance when it started raining.",
+        "sentence": "They [ ___ ] standing near the entrance when it started raining.",
         "opts": [
             "were",
             "was",
@@ -430,13 +430,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-27",
         "type": "cloze",
-        "q": "The student ___ at school yesterday morning.",
-        "sentence": "The student [ ___ ] at school yesterday morning.",
+        "q": "Yesterday, The student ___ busy preparing for the upcoming trip.",
+        "sentence": "Yesterday, The student [ ___ ] busy preparing for the upcoming trip.",
         "opts": [
             "was",
             "were",
@@ -446,13 +446,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-28",
         "type": "cloze",
-        "q": "My parents ___ at school yesterday morning.",
-        "sentence": "My parents [ ___ ] at school yesterday morning.",
+        "q": "My parents ___ present at the morning meeting yesterday.",
+        "sentence": "My parents [ ___ ] present at the morning meeting yesterday.",
         "opts": [
             "were",
             "was",
@@ -462,13 +462,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-29",
         "type": "cloze",
-        "q": "The teacher ___ at school yesterday morning.",
-        "sentence": "The teacher [ ___ ] at school yesterday morning.",
+        "q": "The teacher ___ very happy with the final test results.",
+        "sentence": "The teacher [ ___ ] very happy with the final test results.",
         "opts": [
             "was",
             "were",
@@ -478,13 +478,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-30",
         "type": "cloze",
-        "q": "My friends ___ at school yesterday morning.",
-        "sentence": "My friends [ ___ ] at school yesterday morning.",
+        "q": "My friends ___ standing near the entrance when it started raining.",
+        "sentence": "My friends [ ___ ] standing near the entrance when it started raining.",
         "opts": [
             "were",
             "was",
@@ -494,13 +494,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-31",
         "type": "cloze",
-        "q": "The doctor ___ at school yesterday morning.",
-        "sentence": "The doctor [ ___ ] at school yesterday morning.",
+        "q": "Yesterday, The doctor ___ busy preparing for the upcoming trip.",
+        "sentence": "Yesterday, The doctor [ ___ ] busy preparing for the upcoming trip.",
         "opts": [
             "was",
             "were",
@@ -510,13 +510,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-32",
         "type": "cloze",
-        "q": "We ___ at school yesterday morning.",
-        "sentence": "We [ ___ ] at school yesterday morning.",
+        "q": "We ___ present at the morning meeting yesterday.",
+        "sentence": "We [ ___ ] present at the morning meeting yesterday.",
         "opts": [
             "were",
             "was",
@@ -526,13 +526,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-33",
         "type": "cloze",
-        "q": "He ___ at school yesterday morning.",
-        "sentence": "He [ ___ ] at school yesterday morning.",
+        "q": "He ___ very happy with the final test results.",
+        "sentence": "He [ ___ ] very happy with the final test results.",
         "opts": [
             "was",
             "were",
@@ -542,13 +542,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-34",
         "type": "cloze",
-        "q": "They ___ at school yesterday morning.",
-        "sentence": "They [ ___ ] at school yesterday morning.",
+        "q": "They ___ standing near the entrance when it started raining.",
+        "sentence": "They [ ___ ] standing near the entrance when it started raining.",
         "opts": [
             "were",
             "was",
@@ -558,13 +558,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-35",
         "type": "cloze",
-        "q": "The student ___ at school yesterday morning.",
-        "sentence": "The student [ ___ ] at school yesterday morning.",
+        "q": "Yesterday, The student ___ busy preparing for the upcoming trip.",
+        "sentence": "Yesterday, The student [ ___ ] busy preparing for the upcoming trip.",
         "opts": [
             "was",
             "were",
@@ -574,13 +574,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-36",
         "type": "cloze",
-        "q": "My parents ___ at school yesterday morning.",
-        "sentence": "My parents [ ___ ] at school yesterday morning.",
+        "q": "My parents ___ present at the morning meeting yesterday.",
+        "sentence": "My parents [ ___ ] present at the morning meeting yesterday.",
         "opts": [
             "were",
             "was",
@@ -590,13 +590,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-37",
         "type": "cloze",
-        "q": "The teacher ___ at school yesterday morning.",
-        "sentence": "The teacher [ ___ ] at school yesterday morning.",
+        "q": "The teacher ___ very happy with the final test results.",
+        "sentence": "The teacher [ ___ ] very happy with the final test results.",
         "opts": [
             "was",
             "were",
@@ -606,13 +606,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-38",
         "type": "cloze",
-        "q": "My friends ___ at school yesterday morning.",
-        "sentence": "My friends [ ___ ] at school yesterday morning.",
+        "q": "My friends ___ standing near the entrance when it started raining.",
+        "sentence": "My friends [ ___ ] standing near the entrance when it started raining.",
         "opts": [
             "were",
             "was",
@@ -622,13 +622,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-39",
         "type": "cloze",
-        "q": "The doctor ___ at school yesterday morning.",
-        "sentence": "The doctor [ ___ ] at school yesterday morning.",
+        "q": "Yesterday, The doctor ___ busy preparing for the upcoming trip.",
+        "sentence": "Yesterday, The doctor [ ___ ] busy preparing for the upcoming trip.",
         "opts": [
             "was",
             "were",
@@ -638,13 +638,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-40",
         "type": "cloze",
-        "q": "We ___ at school yesterday morning.",
-        "sentence": "We [ ___ ] at school yesterday morning.",
+        "q": "We ___ present at the morning meeting yesterday.",
+        "sentence": "We [ ___ ] present at the morning meeting yesterday.",
         "opts": [
             "were",
             "was",
@@ -654,13 +654,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-41",
         "type": "cloze",
-        "q": "He ___ at school yesterday morning.",
-        "sentence": "He [ ___ ] at school yesterday morning.",
+        "q": "He ___ very happy with the final test results.",
+        "sentence": "He [ ___ ] very happy with the final test results.",
         "opts": [
             "was",
             "were",
@@ -670,13 +670,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-42",
         "type": "cloze",
-        "q": "They ___ at school yesterday morning.",
-        "sentence": "They [ ___ ] at school yesterday morning.",
+        "q": "They ___ standing near the entrance when it started raining.",
+        "sentence": "They [ ___ ] standing near the entrance when it started raining.",
         "opts": [
             "were",
             "was",
@@ -686,13 +686,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-43",
         "type": "cloze",
-        "q": "The student ___ at school yesterday morning.",
-        "sentence": "The student [ ___ ] at school yesterday morning.",
+        "q": "Yesterday, The student ___ busy preparing for the upcoming trip.",
+        "sentence": "Yesterday, The student [ ___ ] busy preparing for the upcoming trip.",
         "opts": [
             "was",
             "were",
@@ -702,13 +702,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-44",
         "type": "cloze",
-        "q": "My parents ___ at school yesterday morning.",
-        "sentence": "My parents [ ___ ] at school yesterday morning.",
+        "q": "My parents ___ present at the morning meeting yesterday.",
+        "sentence": "My parents [ ___ ] present at the morning meeting yesterday.",
         "opts": [
             "were",
             "was",
@@ -718,13 +718,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-45",
         "type": "cloze",
-        "q": "The teacher ___ at school yesterday morning.",
-        "sentence": "The teacher [ ___ ] at school yesterday morning.",
+        "q": "The teacher ___ very happy with the final test results.",
+        "sentence": "The teacher [ ___ ] very happy with the final test results.",
         "opts": [
             "was",
             "were",
@@ -734,13 +734,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-46",
         "type": "cloze",
-        "q": "My friends ___ at school yesterday morning.",
-        "sentence": "My friends [ ___ ] at school yesterday morning.",
+        "q": "My friends ___ standing near the entrance when it started raining.",
+        "sentence": "My friends [ ___ ] standing near the entrance when it started raining.",
         "opts": [
             "were",
             "was",
@@ -750,13 +750,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-47",
         "type": "cloze",
-        "q": "The doctor ___ at school yesterday morning.",
-        "sentence": "The doctor [ ___ ] at school yesterday morning.",
+        "q": "Yesterday, The doctor ___ busy preparing for the upcoming trip.",
+        "sentence": "Yesterday, The doctor [ ___ ] busy preparing for the upcoming trip.",
         "opts": [
             "was",
             "were",
@@ -766,13 +766,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-48",
         "type": "cloze",
-        "q": "We ___ at school yesterday morning.",
-        "sentence": "We [ ___ ] at school yesterday morning.",
+        "q": "We ___ present at the morning meeting yesterday.",
+        "sentence": "We [ ___ ] present at the morning meeting yesterday.",
         "opts": [
             "were",
             "was",
@@ -782,13 +782,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-49",
         "type": "cloze",
-        "q": "He ___ at school yesterday morning.",
-        "sentence": "He [ ___ ] at school yesterday morning.",
+        "q": "He ___ very happy with the final test results.",
+        "sentence": "He [ ___ ] very happy with the final test results.",
         "opts": [
             "was",
             "were",
@@ -798,13 +798,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-50",
         "type": "cloze",
-        "q": "They ___ at school yesterday morning.",
-        "sentence": "They [ ___ ] at school yesterday morning.",
+        "q": "They ___ standing near the entrance when it started raining.",
+        "sentence": "They [ ___ ] standing near the entrance when it started raining.",
         "opts": [
             "were",
             "was",
@@ -814,13 +814,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-51",
         "type": "cloze",
-        "q": "The student ___ at school yesterday morning.",
-        "sentence": "The student [ ___ ] at school yesterday morning.",
+        "q": "Yesterday, The student ___ busy preparing for the upcoming trip.",
+        "sentence": "Yesterday, The student [ ___ ] busy preparing for the upcoming trip.",
         "opts": [
             "was",
             "were",
@@ -830,13 +830,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-52",
         "type": "cloze",
-        "q": "My parents ___ at school yesterday morning.",
-        "sentence": "My parents [ ___ ] at school yesterday morning.",
+        "q": "My parents ___ present at the morning meeting yesterday.",
+        "sentence": "My parents [ ___ ] present at the morning meeting yesterday.",
         "opts": [
             "were",
             "was",
@@ -846,13 +846,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-53",
         "type": "cloze",
-        "q": "The teacher ___ at school yesterday morning.",
-        "sentence": "The teacher [ ___ ] at school yesterday morning.",
+        "q": "The teacher ___ very happy with the final test results.",
+        "sentence": "The teacher [ ___ ] very happy with the final test results.",
         "opts": [
             "was",
             "were",
@@ -862,13 +862,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-54",
         "type": "cloze",
-        "q": "My friends ___ at school yesterday morning.",
-        "sentence": "My friends [ ___ ] at school yesterday morning.",
+        "q": "My friends ___ standing near the entrance when it started raining.",
+        "sentence": "My friends [ ___ ] standing near the entrance when it started raining.",
         "opts": [
             "were",
             "was",
@@ -878,13 +878,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-55",
         "type": "cloze",
-        "q": "The doctor ___ at school yesterday morning.",
-        "sentence": "The doctor [ ___ ] at school yesterday morning.",
+        "q": "Yesterday, The doctor ___ busy preparing for the upcoming trip.",
+        "sentence": "Yesterday, The doctor [ ___ ] busy preparing for the upcoming trip.",
         "opts": [
             "was",
             "were",
@@ -894,13 +894,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-56",
         "type": "cloze",
-        "q": "We ___ at school yesterday morning.",
-        "sentence": "We [ ___ ] at school yesterday morning.",
+        "q": "We ___ present at the morning meeting yesterday.",
+        "sentence": "We [ ___ ] present at the morning meeting yesterday.",
         "opts": [
             "were",
             "was",
@@ -910,13 +910,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-57",
         "type": "cloze",
-        "q": "He ___ at school yesterday morning.",
-        "sentence": "He [ ___ ] at school yesterday morning.",
+        "q": "He ___ very happy with the final test results.",
+        "sentence": "He [ ___ ] very happy with the final test results.",
         "opts": [
             "was",
             "were",
@@ -926,13 +926,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-58",
         "type": "cloze",
-        "q": "They ___ at school yesterday morning.",
-        "sentence": "They [ ___ ] at school yesterday morning.",
+        "q": "They ___ standing near the entrance when it started raining.",
+        "sentence": "They [ ___ ] standing near the entrance when it started raining.",
         "opts": [
             "were",
             "was",
@@ -942,13 +942,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-59",
         "type": "cloze",
-        "q": "The student ___ at school yesterday morning.",
-        "sentence": "The student [ ___ ] at school yesterday morning.",
+        "q": "Yesterday, The student ___ busy preparing for the upcoming trip.",
+        "sentence": "Yesterday, The student [ ___ ] busy preparing for the upcoming trip.",
         "opts": [
             "was",
             "were",
@@ -958,13 +958,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-60",
         "type": "cloze",
-        "q": "My parents ___ at school yesterday morning.",
-        "sentence": "My parents [ ___ ] at school yesterday morning.",
+        "q": "My parents ___ present at the morning meeting yesterday.",
+        "sentence": "My parents [ ___ ] present at the morning meeting yesterday.",
         "opts": [
             "were",
             "was",
@@ -974,13 +974,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-61",
         "type": "cloze",
-        "q": "The teacher ___ at school yesterday morning.",
-        "sentence": "The teacher [ ___ ] at school yesterday morning.",
+        "q": "The teacher ___ very happy with the final test results.",
+        "sentence": "The teacher [ ___ ] very happy with the final test results.",
         "opts": [
             "was",
             "were",
@@ -990,13 +990,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-62",
         "type": "cloze",
-        "q": "My friends ___ at school yesterday morning.",
-        "sentence": "My friends [ ___ ] at school yesterday morning.",
+        "q": "My friends ___ standing near the entrance when it started raining.",
+        "sentence": "My friends [ ___ ] standing near the entrance when it started raining.",
         "opts": [
             "were",
             "was",
@@ -1006,13 +1006,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-63",
         "type": "cloze",
-        "q": "The doctor ___ at school yesterday morning.",
-        "sentence": "The doctor [ ___ ] at school yesterday morning.",
+        "q": "Yesterday, The doctor ___ busy preparing for the upcoming trip.",
+        "sentence": "Yesterday, The doctor [ ___ ] busy preparing for the upcoming trip.",
         "opts": [
             "was",
             "were",
@@ -1022,13 +1022,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-64",
         "type": "cloze",
-        "q": "We ___ at school yesterday morning.",
-        "sentence": "We [ ___ ] at school yesterday morning.",
+        "q": "We ___ present at the morning meeting yesterday.",
+        "sentence": "We [ ___ ] present at the morning meeting yesterday.",
         "opts": [
             "were",
             "was",
@@ -1038,13 +1038,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-65",
         "type": "cloze",
-        "q": "He ___ at school yesterday morning.",
-        "sentence": "He [ ___ ] at school yesterday morning.",
+        "q": "He ___ very happy with the final test results.",
+        "sentence": "He [ ___ ] very happy with the final test results.",
         "opts": [
             "was",
             "were",
@@ -1054,13 +1054,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-66",
         "type": "cloze",
-        "q": "They ___ at school yesterday morning.",
-        "sentence": "They [ ___ ] at school yesterday morning.",
+        "q": "They ___ standing near the entrance when it started raining.",
+        "sentence": "They [ ___ ] standing near the entrance when it started raining.",
         "opts": [
             "were",
             "was",
@@ -1070,13 +1070,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-67",
         "type": "cloze",
-        "q": "The student ___ at school yesterday morning.",
-        "sentence": "The student [ ___ ] at school yesterday morning.",
+        "q": "Yesterday, The student ___ busy preparing for the upcoming trip.",
+        "sentence": "Yesterday, The student [ ___ ] busy preparing for the upcoming trip.",
         "opts": [
             "was",
             "were",
@@ -1086,13 +1086,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-68",
         "type": "cloze",
-        "q": "My parents ___ at school yesterday morning.",
-        "sentence": "My parents [ ___ ] at school yesterday morning.",
+        "q": "My parents ___ present at the morning meeting yesterday.",
+        "sentence": "My parents [ ___ ] present at the morning meeting yesterday.",
         "opts": [
             "were",
             "was",
@@ -1102,13 +1102,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-69",
         "type": "cloze",
-        "q": "The teacher ___ at school yesterday morning.",
-        "sentence": "The teacher [ ___ ] at school yesterday morning.",
+        "q": "The teacher ___ very happy with the final test results.",
+        "sentence": "The teacher [ ___ ] very happy with the final test results.",
         "opts": [
             "was",
             "were",
@@ -1118,13 +1118,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-70",
         "type": "cloze",
-        "q": "My friends ___ at school yesterday morning.",
-        "sentence": "My friends [ ___ ] at school yesterday morning.",
+        "q": "My friends ___ standing near the entrance when it started raining.",
+        "sentence": "My friends [ ___ ] standing near the entrance when it started raining.",
         "opts": [
             "were",
             "was",
@@ -1134,13 +1134,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-71",
         "type": "cloze",
-        "q": "The doctor ___ at school yesterday morning.",
-        "sentence": "The doctor [ ___ ] at school yesterday morning.",
+        "q": "Yesterday, The doctor ___ busy preparing for the upcoming trip.",
+        "sentence": "Yesterday, The doctor [ ___ ] busy preparing for the upcoming trip.",
         "opts": [
             "was",
             "were",
@@ -1150,13 +1150,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-72",
         "type": "cloze",
-        "q": "We ___ at school yesterday morning.",
-        "sentence": "We [ ___ ] at school yesterday morning.",
+        "q": "We ___ present at the morning meeting yesterday.",
+        "sentence": "We [ ___ ] present at the morning meeting yesterday.",
         "opts": [
             "were",
             "was",
@@ -1166,13 +1166,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-73",
         "type": "cloze",
-        "q": "He ___ at school yesterday morning.",
-        "sentence": "He [ ___ ] at school yesterday morning.",
+        "q": "He ___ very happy with the final test results.",
+        "sentence": "He [ ___ ] very happy with the final test results.",
         "opts": [
             "was",
             "were",
@@ -1182,13 +1182,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-74",
         "type": "cloze",
-        "q": "They ___ at school yesterday morning.",
-        "sentence": "They [ ___ ] at school yesterday morning.",
+        "q": "They ___ standing near the entrance when it started raining.",
+        "sentence": "They [ ___ ] standing near the entrance when it started raining.",
         "opts": [
             "were",
             "was",
@@ -1198,13 +1198,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-75",
         "type": "cloze",
-        "q": "The student ___ at school yesterday morning.",
-        "sentence": "The student [ ___ ] at school yesterday morning.",
+        "q": "Yesterday, The student ___ busy preparing for the upcoming trip.",
+        "sentence": "Yesterday, The student [ ___ ] busy preparing for the upcoming trip.",
         "opts": [
             "was",
             "were",
@@ -1214,13 +1214,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-76",
         "type": "cloze",
-        "q": "My parents ___ at school yesterday morning.",
-        "sentence": "My parents [ ___ ] at school yesterday morning.",
+        "q": "My parents ___ present at the morning meeting yesterday.",
+        "sentence": "My parents [ ___ ] present at the morning meeting yesterday.",
         "opts": [
             "were",
             "was",
@@ -1230,13 +1230,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-77",
         "type": "cloze",
-        "q": "The teacher ___ at school yesterday morning.",
-        "sentence": "The teacher [ ___ ] at school yesterday morning.",
+        "q": "The teacher ___ very happy with the final test results.",
+        "sentence": "The teacher [ ___ ] very happy with the final test results.",
         "opts": [
             "was",
             "were",
@@ -1246,13 +1246,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-78",
         "type": "cloze",
-        "q": "My friends ___ at school yesterday morning.",
-        "sentence": "My friends [ ___ ] at school yesterday morning.",
+        "q": "My friends ___ standing near the entrance when it started raining.",
+        "sentence": "My friends [ ___ ] standing near the entrance when it started raining.",
         "opts": [
             "were",
             "was",
@@ -1262,13 +1262,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-79",
         "type": "cloze",
-        "q": "The doctor ___ at school yesterday morning.",
-        "sentence": "The doctor [ ___ ] at school yesterday morning.",
+        "q": "Yesterday, The doctor ___ busy preparing for the upcoming trip.",
+        "sentence": "Yesterday, The doctor [ ___ ] busy preparing for the upcoming trip.",
         "opts": [
             "was",
             "were",
@@ -1278,13 +1278,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-80",
         "type": "cloze",
-        "q": "We ___ at school yesterday morning.",
-        "sentence": "We [ ___ ] at school yesterday morning.",
+        "q": "We ___ present at the morning meeting yesterday.",
+        "sentence": "We [ ___ ] present at the morning meeting yesterday.",
         "opts": [
             "were",
             "was",
@@ -1294,13 +1294,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-81",
         "type": "cloze",
-        "q": "He ___ at school yesterday morning.",
-        "sentence": "He [ ___ ] at school yesterday morning.",
+        "q": "He ___ very happy with the final test results.",
+        "sentence": "He [ ___ ] very happy with the final test results.",
         "opts": [
             "was",
             "were",
@@ -1310,13 +1310,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-82",
         "type": "cloze",
-        "q": "They ___ at school yesterday morning.",
-        "sentence": "They [ ___ ] at school yesterday morning.",
+        "q": "They ___ standing near the entrance when it started raining.",
+        "sentence": "They [ ___ ] standing near the entrance when it started raining.",
         "opts": [
             "were",
             "was",
@@ -1326,13 +1326,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-83",
         "type": "cloze",
-        "q": "The student ___ at school yesterday morning.",
-        "sentence": "The student [ ___ ] at school yesterday morning.",
+        "q": "Yesterday, The student ___ busy preparing for the upcoming trip.",
+        "sentence": "Yesterday, The student [ ___ ] busy preparing for the upcoming trip.",
         "opts": [
             "was",
             "were",
@@ -1342,13 +1342,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-84",
         "type": "cloze",
-        "q": "My parents ___ at school yesterday morning.",
-        "sentence": "My parents [ ___ ] at school yesterday morning.",
+        "q": "My parents ___ present at the morning meeting yesterday.",
+        "sentence": "My parents [ ___ ] present at the morning meeting yesterday.",
         "opts": [
             "were",
             "was",
@@ -1358,13 +1358,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-85",
         "type": "cloze",
-        "q": "The teacher ___ at school yesterday morning.",
-        "sentence": "The teacher [ ___ ] at school yesterday morning.",
+        "q": "The teacher ___ very happy with the final test results.",
+        "sentence": "The teacher [ ___ ] very happy with the final test results.",
         "opts": [
             "was",
             "were",
@@ -1374,13 +1374,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-86",
         "type": "cloze",
-        "q": "My friends ___ at school yesterday morning.",
-        "sentence": "My friends [ ___ ] at school yesterday morning.",
+        "q": "My friends ___ standing near the entrance when it started raining.",
+        "sentence": "My friends [ ___ ] standing near the entrance when it started raining.",
         "opts": [
             "were",
             "was",
@@ -1390,13 +1390,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-87",
         "type": "cloze",
-        "q": "The doctor ___ at school yesterday morning.",
-        "sentence": "The doctor [ ___ ] at school yesterday morning.",
+        "q": "Yesterday, The doctor ___ busy preparing for the upcoming trip.",
+        "sentence": "Yesterday, The doctor [ ___ ] busy preparing for the upcoming trip.",
         "opts": [
             "was",
             "were",
@@ -1406,13 +1406,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-88",
         "type": "cloze",
-        "q": "We ___ at school yesterday morning.",
-        "sentence": "We [ ___ ] at school yesterday morning.",
+        "q": "We ___ present at the morning meeting yesterday.",
+        "sentence": "We [ ___ ] present at the morning meeting yesterday.",
         "opts": [
             "were",
             "was",
@@ -1422,13 +1422,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-89",
         "type": "cloze",
-        "q": "He ___ at school yesterday morning.",
-        "sentence": "He [ ___ ] at school yesterday morning.",
+        "q": "He ___ very happy with the final test results.",
+        "sentence": "He [ ___ ] very happy with the final test results.",
         "opts": [
             "was",
             "were",
@@ -1438,13 +1438,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-90",
         "type": "cloze",
-        "q": "They ___ at school yesterday morning.",
-        "sentence": "They [ ___ ] at school yesterday morning.",
+        "q": "They ___ standing near the entrance when it started raining.",
+        "sentence": "They [ ___ ] standing near the entrance when it started raining.",
         "opts": [
             "were",
             "was",
@@ -1454,13 +1454,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-91",
         "type": "cloze",
-        "q": "The student ___ at school yesterday morning.",
-        "sentence": "The student [ ___ ] at school yesterday morning.",
+        "q": "Yesterday, The student ___ busy preparing for the upcoming trip.",
+        "sentence": "Yesterday, The student [ ___ ] busy preparing for the upcoming trip.",
         "opts": [
             "was",
             "were",
@@ -1470,13 +1470,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-92",
         "type": "cloze",
-        "q": "My parents ___ at school yesterday morning.",
-        "sentence": "My parents [ ___ ] at school yesterday morning.",
+        "q": "My parents ___ present at the morning meeting yesterday.",
+        "sentence": "My parents [ ___ ] present at the morning meeting yesterday.",
         "opts": [
             "were",
             "was",
@@ -1486,13 +1486,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-93",
         "type": "cloze",
-        "q": "The teacher ___ at school yesterday morning.",
-        "sentence": "The teacher [ ___ ] at school yesterday morning.",
+        "q": "The teacher ___ very happy with the final test results.",
+        "sentence": "The teacher [ ___ ] very happy with the final test results.",
         "opts": [
             "was",
             "were",
@@ -1502,13 +1502,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-94",
         "type": "cloze",
-        "q": "My friends ___ at school yesterday morning.",
-        "sentence": "My friends [ ___ ] at school yesterday morning.",
+        "q": "My friends ___ standing near the entrance when it started raining.",
+        "sentence": "My friends [ ___ ] standing near the entrance when it started raining.",
         "opts": [
             "were",
             "was",
@@ -1518,13 +1518,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-95",
         "type": "cloze",
-        "q": "The doctor ___ at school yesterday morning.",
-        "sentence": "The doctor [ ___ ] at school yesterday morning.",
+        "q": "Yesterday, The doctor ___ busy preparing for the upcoming trip.",
+        "sentence": "Yesterday, The doctor [ ___ ] busy preparing for the upcoming trip.",
         "opts": [
             "was",
             "were",
@@ -1534,13 +1534,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-96",
         "type": "cloze",
-        "q": "We ___ at school yesterday morning.",
-        "sentence": "We [ ___ ] at school yesterday morning.",
+        "q": "We ___ present at the morning meeting yesterday.",
+        "sentence": "We [ ___ ] present at the morning meeting yesterday.",
         "opts": [
             "were",
             "was",
@@ -1550,13 +1550,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-97",
         "type": "cloze",
-        "q": "He ___ at school yesterday morning.",
-        "sentence": "He [ ___ ] at school yesterday morning.",
+        "q": "He ___ very happy with the final test results.",
+        "sentence": "He [ ___ ] very happy with the final test results.",
         "opts": [
             "was",
             "were",
@@ -1566,13 +1566,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-98",
         "type": "cloze",
-        "q": "They ___ at school yesterday morning.",
-        "sentence": "They [ ___ ] at school yesterday morning.",
+        "q": "They ___ standing near the entrance when it started raining.",
+        "sentence": "They [ ___ ] standing near the entrance when it started raining.",
         "opts": [
             "were",
             "was",
@@ -1582,13 +1582,13 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-r-99",
         "type": "cloze",
-        "q": "The student ___ at school yesterday morning.",
-        "sentence": "The student [ ___ ] at school yesterday morning.",
+        "q": "Yesterday, The student ___ busy preparing for the upcoming trip.",
+        "sentence": "Yesterday, The student [ ___ ] busy preparing for the upcoming trip.",
         "opts": [
             "was",
             "were",
@@ -1598,13 +1598,13 @@
         "ans": 0,
         "correctAnswer": "was",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'was' in this sentence."
+        "ruleHint": "Use 'was' with singular past subjects (I, he, she, it, singular nouns)."
     },
     {
         "id": "was-vs-were-r-100",
         "type": "cloze",
-        "q": "My parents ___ at school yesterday morning.",
-        "sentence": "My parents [ ___ ] at school yesterday morning.",
+        "q": "My parents ___ present at the morning meeting yesterday.",
+        "sentence": "My parents [ ___ ] present at the morning meeting yesterday.",
         "opts": [
             "were",
             "was",
@@ -1614,7 +1614,7 @@
         "ans": 0,
         "correctAnswer": "were",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for was vs were: Use 'were' in this sentence."
+        "ruleHint": "Use 'were' with plural past subjects and 'you' (we, you, they, plural nouns)."
     },
     {
         "id": "was-vs-were-w-1",
@@ -1624,11 +1624,11 @@
         "correctSentence": "We were present at the school event yesterday.",
         "errorExplanation": "'We' is a plural subject requiring the past verb 'were'.",
         "opts": [
+            "We were present at the school event yesterday.",
             "We was present at the school event yesterday.",
-            "She used no words in this clause.",
-            "We were present at the school event yesterday."
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "'We' is a plural subject requiring the past verb 'were'."
     },
@@ -1640,11 +1640,11 @@
         "correctSentence": "My parents were present at the school event yesterday.",
         "errorExplanation": "'My parents' is a plural subject requiring the past verb 'were'.",
         "opts": [
-            "She used no words in this clause.",
+            "My parents were present at the school event yesterday.",
             "My parents was present at the school event yesterday.",
-            "My parents were present at the school event yesterday."
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "'My parents' is a plural subject requiring the past verb 'were'."
     },
@@ -1656,11 +1656,11 @@
         "correctSentence": "The students were present at the school event yesterday.",
         "errorExplanation": "'The students' is a plural subject requiring the past verb 'were'.",
         "opts": [
+            "She used no words in this clause.",
             "The students was present at the school event yesterday.",
-            "The students were present at the school event yesterday.",
-            "She used no words in this clause."
+            "The students were present at the school event yesterday."
         ],
-        "ans": 1,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "'The students' is a plural subject requiring the past verb 'were'."
     },
@@ -1688,11 +1688,11 @@
         "correctSentence": "They were present at the school event yesterday.",
         "errorExplanation": "'They' is a plural subject requiring the past verb 'were'.",
         "opts": [
-            "They were present at the school event yesterday.",
+            "She used no words in this clause.",
             "They was present at the school event yesterday.",
-            "She used no words in this clause."
+            "They were present at the school event yesterday."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "'They' is a plural subject requiring the past verb 'were'."
     },
@@ -1752,11 +1752,11 @@
         "correctSentence": "The doctors were present at the school event yesterday.",
         "errorExplanation": "'The doctors' is a plural subject requiring the past verb 'were'.",
         "opts": [
-            "The doctors were present at the school event yesterday.",
+            "She used no words in this clause.",
             "The doctors was present at the school event yesterday.",
-            "She used no words in this clause."
+            "The doctors were present at the school event yesterday."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "'The doctors' is a plural subject requiring the past verb 'were'."
     },
@@ -1768,11 +1768,11 @@
         "correctSentence": "They were present at the school event yesterday.",
         "errorExplanation": "'They' is a plural subject requiring the past verb 'were'.",
         "opts": [
-            "They were present at the school event yesterday.",
+            "They was present at the school event yesterday.",
             "She used no words in this clause.",
-            "They was present at the school event yesterday."
+            "They were present at the school event yesterday."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "'They' is a plural subject requiring the past verb 'were'."
     },
@@ -1800,11 +1800,11 @@
         "correctSentence": "My parents were present at the school event yesterday.",
         "errorExplanation": "'My parents' is a plural subject requiring the past verb 'were'.",
         "opts": [
+            "My parents were present at the school event yesterday.",
             "She used no words in this clause.",
-            "My parents was present at the school event yesterday.",
-            "My parents were present at the school event yesterday."
+            "My parents was present at the school event yesterday."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "'My parents' is a plural subject requiring the past verb 'were'."
     },
@@ -1832,11 +1832,11 @@
         "correctSentence": "The doctors were present at the school event yesterday.",
         "errorExplanation": "'The doctors' is a plural subject requiring the past verb 'were'.",
         "opts": [
-            "The doctors was present at the school event yesterday.",
             "The doctors were present at the school event yesterday.",
-            "She used no words in this clause."
+            "She used no words in this clause.",
+            "The doctors was present at the school event yesterday."
         ],
-        "ans": 1,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "'The doctors' is a plural subject requiring the past verb 'were'."
     },
@@ -1848,11 +1848,11 @@
         "correctSentence": "They were present at the school event yesterday.",
         "errorExplanation": "'They' is a plural subject requiring the past verb 'were'.",
         "opts": [
-            "They were present at the school event yesterday.",
             "They was present at the school event yesterday.",
+            "They were present at the school event yesterday.",
             "She used no words in this clause."
         ],
-        "ans": 0,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "'They' is a plural subject requiring the past verb 'were'."
     },
@@ -1880,11 +1880,11 @@
         "correctSentence": "My parents were present at the school event yesterday.",
         "errorExplanation": "'My parents' is a plural subject requiring the past verb 'were'.",
         "opts": [
-            "My parents were present at the school event yesterday.",
             "My parents was present at the school event yesterday.",
+            "My parents were present at the school event yesterday.",
             "She used no words in this clause."
         ],
-        "ans": 0,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "'My parents' is a plural subject requiring the past verb 'were'."
     },
@@ -1912,8 +1912,8 @@
         "correctSentence": "The doctors were present at the school event yesterday.",
         "errorExplanation": "'The doctors' is a plural subject requiring the past verb 'were'.",
         "opts": [
-            "The doctors was present at the school event yesterday.",
             "She used no words in this clause.",
+            "The doctors was present at the school event yesterday.",
             "The doctors were present at the school event yesterday."
         ],
         "ans": 2,
@@ -1929,8 +1929,8 @@
         "errorExplanation": "'They' is a plural subject requiring the past verb 'were'.",
         "opts": [
             "They were present at the school event yesterday.",
-            "She used no words in this clause.",
-            "They was present at the school event yesterday."
+            "They was present at the school event yesterday.",
+            "She used no words in this clause."
         ],
         "ans": 0,
         "level": "a1",
@@ -1944,11 +1944,11 @@
         "correctSentence": "We were present at the school event yesterday.",
         "errorExplanation": "'We' is a plural subject requiring the past verb 'were'.",
         "opts": [
-            "We were present at the school event yesterday.",
             "We was present at the school event yesterday.",
+            "We were present at the school event yesterday.",
             "She used no words in this clause."
         ],
-        "ans": 0,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "'We' is a plural subject requiring the past verb 'were'."
     },
@@ -1992,11 +1992,11 @@
         "correctSentence": "The doctors were present at the school event yesterday.",
         "errorExplanation": "'The doctors' is a plural subject requiring the past verb 'were'.",
         "opts": [
+            "The doctors were present at the school event yesterday.",
             "She used no words in this clause.",
-            "The doctors was present at the school event yesterday.",
-            "The doctors were present at the school event yesterday."
+            "The doctors was present at the school event yesterday."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "'The doctors' is a plural subject requiring the past verb 'were'."
     },
@@ -2008,11 +2008,11 @@
         "correctSentence": "They were present at the school event yesterday.",
         "errorExplanation": "'They' is a plural subject requiring the past verb 'were'.",
         "opts": [
-            "They were present at the school event yesterday.",
             "They was present at the school event yesterday.",
+            "They were present at the school event yesterday.",
             "She used no words in this clause."
         ],
-        "ans": 0,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "'They' is a plural subject requiring the past verb 'were'."
     },
@@ -2024,11 +2024,11 @@
         "correctSentence": "We were present at the school event yesterday.",
         "errorExplanation": "'We' is a plural subject requiring the past verb 'were'.",
         "opts": [
-            "We were present at the school event yesterday.",
             "We was present at the school event yesterday.",
+            "We were present at the school event yesterday.",
             "She used no words in this clause."
         ],
-        "ans": 0,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "'We' is a plural subject requiring the past verb 'were'."
     },
@@ -2056,11 +2056,11 @@
         "correctSentence": "The students were present at the school event yesterday.",
         "errorExplanation": "'The students' is a plural subject requiring the past verb 'were'.",
         "opts": [
-            "The students were present at the school event yesterday.",
             "The students was present at the school event yesterday.",
-            "She used no words in this clause."
+            "She used no words in this clause.",
+            "The students were present at the school event yesterday."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "'The students' is a plural subject requiring the past verb 'were'."
     },
@@ -2072,9 +2072,9 @@
         "correctSentence": "The doctors were present at the school event yesterday.",
         "errorExplanation": "'The doctors' is a plural subject requiring the past verb 'were'.",
         "opts": [
-            "She used no words in this clause.",
+            "The doctors was present at the school event yesterday.",
             "The doctors were present at the school event yesterday.",
-            "The doctors was present at the school event yesterday."
+            "She used no words in this clause."
         ],
         "ans": 1,
         "level": "a1",
@@ -2088,11 +2088,11 @@
         "correctSentence": "They were present at the school event yesterday.",
         "errorExplanation": "'They' is a plural subject requiring the past verb 'were'.",
         "opts": [
-            "They were present at the school event yesterday.",
+            "She used no words in this clause.",
             "They was present at the school event yesterday.",
-            "She used no words in this clause."
+            "They were present at the school event yesterday."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "'They' is a plural subject requiring the past verb 'were'."
     },
@@ -2104,11 +2104,11 @@
         "correctSentence": "We were present at the school event yesterday.",
         "errorExplanation": "'We' is a plural subject requiring the past verb 'were'.",
         "opts": [
+            "She used no words in this clause.",
             "We was present at the school event yesterday.",
-            "We were present at the school event yesterday.",
-            "She used no words in this clause."
+            "We were present at the school event yesterday."
         ],
-        "ans": 1,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "'We' is a plural subject requiring the past verb 'were'."
     },
@@ -2136,11 +2136,11 @@
         "correctSentence": "The students were present at the school event yesterday.",
         "errorExplanation": "'The students' is a plural subject requiring the past verb 'were'.",
         "opts": [
+            "The students was present at the school event yesterday.",
             "The students were present at the school event yesterday.",
-            "She used no words in this clause.",
-            "The students was present at the school event yesterday."
+            "She used no words in this clause."
         ],
-        "ans": 0,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "'The students' is a plural subject requiring the past verb 'were'."
     },
@@ -2168,11 +2168,11 @@
         "correctSentence": "They were present at the school event yesterday.",
         "errorExplanation": "'They' is a plural subject requiring the past verb 'were'.",
         "opts": [
-            "They was present at the school event yesterday.",
             "They were present at the school event yesterday.",
+            "They was present at the school event yesterday.",
             "She used no words in this clause."
         ],
-        "ans": 1,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "'They' is a plural subject requiring the past verb 'were'."
     },
@@ -2200,8 +2200,8 @@
         "correctSentence": "My parents were present at the school event yesterday.",
         "errorExplanation": "'My parents' is a plural subject requiring the past verb 'were'.",
         "opts": [
-            "She used no words in this clause.",
             "My parents was present at the school event yesterday.",
+            "She used no words in this clause.",
             "My parents were present at the school event yesterday."
         ],
         "ans": 2,
@@ -2216,11 +2216,11 @@
         "correctSentence": "The students were present at the school event yesterday.",
         "errorExplanation": "'The students' is a plural subject requiring the past verb 'were'.",
         "opts": [
-            "The students were present at the school event yesterday.",
+            "She used no words in this clause.",
             "The students was present at the school event yesterday.",
-            "She used no words in this clause."
+            "The students were present at the school event yesterday."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "'The students' is a plural subject requiring the past verb 'were'."
     },
@@ -2248,11 +2248,11 @@
         "correctSentence": "They were present at the school event yesterday.",
         "errorExplanation": "'They' is a plural subject requiring the past verb 'were'.",
         "opts": [
-            "She used no words in this clause.",
             "They was present at the school event yesterday.",
-            "They were present at the school event yesterday."
+            "They were present at the school event yesterday.",
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "'They' is a plural subject requiring the past verb 'were'."
     },
@@ -2280,9 +2280,9 @@
         "correctSentence": "My parents were present at the school event yesterday.",
         "errorExplanation": "'My parents' is a plural subject requiring the past verb 'were'.",
         "opts": [
-            "She used no words in this clause.",
+            "My parents was present at the school event yesterday.",
             "My parents were present at the school event yesterday.",
-            "My parents was present at the school event yesterday."
+            "She used no words in this clause."
         ],
         "ans": 1,
         "level": "a1",
@@ -2312,11 +2312,11 @@
         "correctSentence": "The doctors were present at the school event yesterday.",
         "errorExplanation": "'The doctors' is a plural subject requiring the past verb 'were'.",
         "opts": [
-            "The doctors were present at the school event yesterday.",
+            "She used no words in this clause.",
             "The doctors was present at the school event yesterday.",
-            "She used no words in this clause."
+            "The doctors were present at the school event yesterday."
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "'The doctors' is a plural subject requiring the past verb 'were'."
     },
@@ -2360,11 +2360,11 @@
         "correctSentence": "My parents were present at the school event yesterday.",
         "errorExplanation": "'My parents' is a plural subject requiring the past verb 'were'.",
         "opts": [
-            "My parents was present at the school event yesterday.",
             "My parents were present at the school event yesterday.",
+            "My parents was present at the school event yesterday.",
             "She used no words in this clause."
         ],
-        "ans": 1,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "'My parents' is a plural subject requiring the past verb 'were'."
     },
@@ -2376,11 +2376,11 @@
         "correctSentence": "The students were present at the school event yesterday.",
         "errorExplanation": "'The students' is a plural subject requiring the past verb 'were'.",
         "opts": [
-            "She used no words in this clause.",
+            "The students were present at the school event yesterday.",
             "The students was present at the school event yesterday.",
-            "The students were present at the school event yesterday."
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "'The students' is a plural subject requiring the past verb 'were'."
     },
@@ -2392,11 +2392,11 @@
         "correctSentence": "The doctors were present at the school event yesterday.",
         "errorExplanation": "'The doctors' is a plural subject requiring the past verb 'were'.",
         "opts": [
+            "The doctors were present at the school event yesterday.",
             "She used no words in this clause.",
-            "The doctors was present at the school event yesterday.",
-            "The doctors were present at the school event yesterday."
+            "The doctors was present at the school event yesterday."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "'The doctors' is a plural subject requiring the past verb 'were'."
     },

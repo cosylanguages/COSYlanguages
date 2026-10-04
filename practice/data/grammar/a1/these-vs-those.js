@@ -30,13 +30,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-2",
         "type": "cloze",
-        "q": "Are ___ shoes over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] shoes over there on the top shelf yours?",
+        "q": "Are ___ shoes over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] shoes over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -46,7 +46,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-3",
@@ -62,13 +62,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-4",
         "type": "cloze",
-        "q": "Are ___ glasses over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] glasses over there on the top shelf yours?",
+        "q": "Are ___ glasses over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] glasses over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -78,7 +78,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-5",
@@ -94,13 +94,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-6",
         "type": "cloze",
-        "q": "Are ___ cups over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] cups over there on the top shelf yours?",
+        "q": "Are ___ cups over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] cups over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -110,7 +110,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-7",
@@ -126,13 +126,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-8",
         "type": "cloze",
-        "q": "Are ___ books over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] books over there on the top shelf yours?",
+        "q": "Are ___ books over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] books over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -142,7 +142,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-9",
@@ -158,13 +158,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-10",
         "type": "cloze",
-        "q": "Are ___ shoes over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] shoes over there on the top shelf yours?",
+        "q": "Are ___ shoes over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] shoes over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -174,7 +174,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-11",
@@ -190,13 +190,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-12",
         "type": "cloze",
-        "q": "Are ___ glasses over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] glasses over there on the top shelf yours?",
+        "q": "Are ___ glasses over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] glasses over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -206,7 +206,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-13",
@@ -222,13 +222,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-14",
         "type": "cloze",
-        "q": "Are ___ cups over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] cups over there on the top shelf yours?",
+        "q": "Are ___ cups over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] cups over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -238,7 +238,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-15",
@@ -254,13 +254,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-16",
         "type": "cloze",
-        "q": "Are ___ books over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] books over there on the top shelf yours?",
+        "q": "Are ___ books over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] books over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -270,7 +270,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-17",
@@ -286,13 +286,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-18",
         "type": "cloze",
-        "q": "Are ___ shoes over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] shoes over there on the top shelf yours?",
+        "q": "Are ___ shoes over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] shoes over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -302,7 +302,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-19",
@@ -318,13 +318,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-20",
         "type": "cloze",
-        "q": "Are ___ glasses over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] glasses over there on the top shelf yours?",
+        "q": "Are ___ glasses over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] glasses over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -334,7 +334,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-21",
@@ -350,13 +350,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-22",
         "type": "cloze",
-        "q": "Are ___ cups over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] cups over there on the top shelf yours?",
+        "q": "Are ___ cups over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] cups over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -366,7 +366,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-23",
@@ -382,13 +382,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-24",
         "type": "cloze",
-        "q": "Are ___ books over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] books over there on the top shelf yours?",
+        "q": "Are ___ books over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] books over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -398,7 +398,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-25",
@@ -414,13 +414,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-26",
         "type": "cloze",
-        "q": "Are ___ shoes over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] shoes over there on the top shelf yours?",
+        "q": "Are ___ shoes over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] shoes over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -430,7 +430,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-27",
@@ -446,13 +446,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-28",
         "type": "cloze",
-        "q": "Are ___ glasses over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] glasses over there on the top shelf yours?",
+        "q": "Are ___ glasses over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] glasses over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -462,7 +462,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-29",
@@ -478,13 +478,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-30",
         "type": "cloze",
-        "q": "Are ___ cups over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] cups over there on the top shelf yours?",
+        "q": "Are ___ cups over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] cups over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -494,7 +494,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-31",
@@ -510,13 +510,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-32",
         "type": "cloze",
-        "q": "Are ___ books over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] books over there on the top shelf yours?",
+        "q": "Are ___ books over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] books over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -526,7 +526,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-33",
@@ -542,13 +542,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-34",
         "type": "cloze",
-        "q": "Are ___ shoes over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] shoes over there on the top shelf yours?",
+        "q": "Are ___ shoes over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] shoes over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -558,7 +558,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-35",
@@ -574,13 +574,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-36",
         "type": "cloze",
-        "q": "Are ___ glasses over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] glasses over there on the top shelf yours?",
+        "q": "Are ___ glasses over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] glasses over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -590,7 +590,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-37",
@@ -606,13 +606,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-38",
         "type": "cloze",
-        "q": "Are ___ cups over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] cups over there on the top shelf yours?",
+        "q": "Are ___ cups over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] cups over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -622,7 +622,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-39",
@@ -638,13 +638,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-40",
         "type": "cloze",
-        "q": "Are ___ books over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] books over there on the top shelf yours?",
+        "q": "Are ___ books over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] books over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -654,7 +654,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-41",
@@ -670,13 +670,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-42",
         "type": "cloze",
-        "q": "Are ___ shoes over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] shoes over there on the top shelf yours?",
+        "q": "Are ___ shoes over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] shoes over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -686,7 +686,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-43",
@@ -702,13 +702,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-44",
         "type": "cloze",
-        "q": "Are ___ glasses over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] glasses over there on the top shelf yours?",
+        "q": "Are ___ glasses over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] glasses over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -718,7 +718,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-45",
@@ -734,13 +734,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-46",
         "type": "cloze",
-        "q": "Are ___ cups over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] cups over there on the top shelf yours?",
+        "q": "Are ___ cups over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] cups over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -750,7 +750,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-47",
@@ -766,13 +766,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-48",
         "type": "cloze",
-        "q": "Are ___ books over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] books over there on the top shelf yours?",
+        "q": "Are ___ books over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] books over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -782,7 +782,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-49",
@@ -798,13 +798,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-50",
         "type": "cloze",
-        "q": "Are ___ shoes over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] shoes over there on the top shelf yours?",
+        "q": "Are ___ shoes over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] shoes over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -814,7 +814,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-51",
@@ -830,13 +830,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-52",
         "type": "cloze",
-        "q": "Are ___ glasses over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] glasses over there on the top shelf yours?",
+        "q": "Are ___ glasses over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] glasses over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -846,7 +846,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-53",
@@ -862,13 +862,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-54",
         "type": "cloze",
-        "q": "Are ___ cups over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] cups over there on the top shelf yours?",
+        "q": "Are ___ cups over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] cups over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -878,7 +878,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-55",
@@ -894,13 +894,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-56",
         "type": "cloze",
-        "q": "Are ___ books over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] books over there on the top shelf yours?",
+        "q": "Are ___ books over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] books over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -910,7 +910,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-57",
@@ -926,13 +926,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-58",
         "type": "cloze",
-        "q": "Are ___ shoes over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] shoes over there on the top shelf yours?",
+        "q": "Are ___ shoes over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] shoes over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -942,7 +942,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-59",
@@ -958,13 +958,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-60",
         "type": "cloze",
-        "q": "Are ___ glasses over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] glasses over there on the top shelf yours?",
+        "q": "Are ___ glasses over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] glasses over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -974,7 +974,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-61",
@@ -990,13 +990,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-62",
         "type": "cloze",
-        "q": "Are ___ cups over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] cups over there on the top shelf yours?",
+        "q": "Are ___ cups over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] cups over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -1006,7 +1006,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-63",
@@ -1022,13 +1022,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-64",
         "type": "cloze",
-        "q": "Are ___ books over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] books over there on the top shelf yours?",
+        "q": "Are ___ books over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] books over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -1038,7 +1038,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-65",
@@ -1054,13 +1054,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-66",
         "type": "cloze",
-        "q": "Are ___ shoes over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] shoes over there on the top shelf yours?",
+        "q": "Are ___ shoes over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] shoes over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -1070,7 +1070,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-67",
@@ -1086,13 +1086,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-68",
         "type": "cloze",
-        "q": "Are ___ glasses over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] glasses over there on the top shelf yours?",
+        "q": "Are ___ glasses over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] glasses over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -1102,7 +1102,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-69",
@@ -1118,13 +1118,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-70",
         "type": "cloze",
-        "q": "Are ___ cups over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] cups over there on the top shelf yours?",
+        "q": "Are ___ cups over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] cups over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -1134,7 +1134,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-71",
@@ -1150,13 +1150,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-72",
         "type": "cloze",
-        "q": "Are ___ books over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] books over there on the top shelf yours?",
+        "q": "Are ___ books over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] books over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -1166,7 +1166,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-73",
@@ -1182,13 +1182,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-74",
         "type": "cloze",
-        "q": "Are ___ shoes over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] shoes over there on the top shelf yours?",
+        "q": "Are ___ shoes over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] shoes over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -1198,7 +1198,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-75",
@@ -1214,13 +1214,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-76",
         "type": "cloze",
-        "q": "Are ___ glasses over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] glasses over there on the top shelf yours?",
+        "q": "Are ___ glasses over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] glasses over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -1230,7 +1230,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-77",
@@ -1246,13 +1246,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-78",
         "type": "cloze",
-        "q": "Are ___ cups over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] cups over there on the top shelf yours?",
+        "q": "Are ___ cups over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] cups over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -1262,7 +1262,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-79",
@@ -1278,13 +1278,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-80",
         "type": "cloze",
-        "q": "Are ___ books over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] books over there on the top shelf yours?",
+        "q": "Are ___ books over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] books over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -1294,7 +1294,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-81",
@@ -1310,13 +1310,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-82",
         "type": "cloze",
-        "q": "Are ___ shoes over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] shoes over there on the top shelf yours?",
+        "q": "Are ___ shoes over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] shoes over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -1326,7 +1326,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-83",
@@ -1342,13 +1342,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-84",
         "type": "cloze",
-        "q": "Are ___ glasses over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] glasses over there on the top shelf yours?",
+        "q": "Are ___ glasses over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] glasses over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -1358,7 +1358,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-85",
@@ -1374,13 +1374,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-86",
         "type": "cloze",
-        "q": "Are ___ cups over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] cups over there on the top shelf yours?",
+        "q": "Are ___ cups over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] cups over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -1390,7 +1390,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-87",
@@ -1406,13 +1406,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-88",
         "type": "cloze",
-        "q": "Are ___ books over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] books over there on the top shelf yours?",
+        "q": "Are ___ books over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] books over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -1422,7 +1422,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-89",
@@ -1438,13 +1438,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-90",
         "type": "cloze",
-        "q": "Are ___ shoes over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] shoes over there on the top shelf yours?",
+        "q": "Are ___ shoes over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] shoes over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -1454,7 +1454,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-91",
@@ -1470,13 +1470,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-92",
         "type": "cloze",
-        "q": "Are ___ glasses over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] glasses over there on the top shelf yours?",
+        "q": "Are ___ glasses over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] glasses over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -1486,7 +1486,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-93",
@@ -1502,13 +1502,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-94",
         "type": "cloze",
-        "q": "Are ___ cups over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] cups over there on the top shelf yours?",
+        "q": "Are ___ cups over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] cups over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -1518,7 +1518,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-95",
@@ -1534,13 +1534,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-96",
         "type": "cloze",
-        "q": "Are ___ books over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] books over there on the top shelf yours?",
+        "q": "Are ___ books over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] books over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -1550,7 +1550,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-97",
@@ -1566,13 +1566,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-98",
         "type": "cloze",
-        "q": "Are ___ shoes over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] shoes over there on the top shelf yours?",
+        "q": "Are ___ shoes over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] shoes over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -1582,7 +1582,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-r-99",
@@ -1598,13 +1598,13 @@
         "ans": 0,
         "correctAnswer": "these",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'these' in this sentence."
+        "ruleHint": "Use 'these' for multiple items close to the speaker in space or time."
     },
     {
         "id": "these-vs-those-r-100",
         "type": "cloze",
-        "q": "Are ___ glasses over there on the top shelf yours?",
-        "sentence": "Are [ ___ ] glasses over there on the top shelf yours?",
+        "q": "Are ___ glasses over there on the far shelf yours?",
+        "sentence": "Are [ ___ ] glasses over there on the far shelf yours?",
         "opts": [
             "those",
             "these",
@@ -1614,7 +1614,7 @@
         "ans": 0,
         "correctAnswer": "those",
         "level": "a1",
-        "ruleHint": "CEFR A1 rule for these vs those: Use 'those' in this sentence."
+        "ruleHint": "Use 'those' for multiple items further away from the speaker."
     },
     {
         "id": "these-vs-those-w-1",
@@ -1624,11 +1624,11 @@
         "correctSentence": "Are those cars parked way over there on the far street yours?",
         "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
         "opts": [
-            "Are these cars parked way over there on the far street yours?",
             "Are those cars parked way over there on the far street yours?",
+            "Are these cars parked way over there on the far street yours?",
             "She used no words in this clause."
         ],
-        "ans": 1,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use 'those' for plural items located far away from the speaker."
     },
@@ -1640,11 +1640,11 @@
         "correctSentence": "Are those cars parked way over there on the far street yours?",
         "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
         "opts": [
+            "Are these cars parked way over there on the far street yours?",
             "She used no words in this clause.",
-            "Are those cars parked way over there on the far street yours?",
-            "Are these cars parked way over there on the far street yours?"
+            "Are those cars parked way over there on the far street yours?"
         ],
-        "ans": 1,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use 'those' for plural items located far away from the speaker."
     },
@@ -1672,11 +1672,11 @@
         "correctSentence": "Are those cars parked way over there on the far street yours?",
         "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
         "opts": [
-            "Are those cars parked way over there on the far street yours?",
+            "She used no words in this clause.",
             "Are these cars parked way over there on the far street yours?",
-            "She used no words in this clause."
+            "Are those cars parked way over there on the far street yours?"
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use 'those' for plural items located far away from the speaker."
     },
@@ -1688,11 +1688,11 @@
         "correctSentence": "Are those cars parked way over there on the far street yours?",
         "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
         "opts": [
-            "She used no words in this clause.",
             "Are these cars parked way over there on the far street yours?",
-            "Are those cars parked way over there on the far street yours?"
+            "Are those cars parked way over there on the far street yours?",
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "Use 'those' for plural items located far away from the speaker."
     },
@@ -1704,11 +1704,11 @@
         "correctSentence": "Are those cars parked way over there on the far street yours?",
         "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
         "opts": [
-            "Are those cars parked way over there on the far street yours?",
+            "She used no words in this clause.",
             "Are these cars parked way over there on the far street yours?",
-            "She used no words in this clause."
+            "Are those cars parked way over there on the far street yours?"
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use 'those' for plural items located far away from the speaker."
     },
@@ -1720,11 +1720,11 @@
         "correctSentence": "Are those cars parked way over there on the far street yours?",
         "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
         "opts": [
-            "She used no words in this clause.",
             "Are these cars parked way over there on the far street yours?",
-            "Are those cars parked way over there on the far street yours?"
+            "Are those cars parked way over there on the far street yours?",
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "Use 'those' for plural items located far away from the speaker."
     },
@@ -1736,11 +1736,11 @@
         "correctSentence": "Are those cars parked way over there on the far street yours?",
         "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
         "opts": [
-            "Are those cars parked way over there on the far street yours?",
             "Are these cars parked way over there on the far street yours?",
+            "Are those cars parked way over there on the far street yours?",
             "She used no words in this clause."
         ],
-        "ans": 0,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "Use 'those' for plural items located far away from the speaker."
     },
@@ -1768,11 +1768,11 @@
         "correctSentence": "Are those cars parked way over there on the far street yours?",
         "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
         "opts": [
-            "She used no words in this clause.",
+            "Are those cars parked way over there on the far street yours?",
             "Are these cars parked way over there on the far street yours?",
-            "Are those cars parked way over there on the far street yours?"
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use 'those' for plural items located far away from the speaker."
     },
@@ -1800,11 +1800,11 @@
         "correctSentence": "Are those cars parked way over there on the far street yours?",
         "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
         "opts": [
-            "She used no words in this clause.",
+            "Are those cars parked way over there on the far street yours?",
             "Are these cars parked way over there on the far street yours?",
-            "Are those cars parked way over there on the far street yours?"
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use 'those' for plural items located far away from the speaker."
     },
@@ -1832,11 +1832,11 @@
         "correctSentence": "Are those cars parked way over there on the far street yours?",
         "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
         "opts": [
-            "She used no words in this clause.",
+            "Are those cars parked way over there on the far street yours?",
             "Are these cars parked way over there on the far street yours?",
-            "Are those cars parked way over there on the far street yours?"
+            "She used no words in this clause."
         ],
-        "ans": 2,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use 'those' for plural items located far away from the speaker."
     },
@@ -1928,64 +1928,16 @@
         "correctSentence": "Are those cars parked way over there on the far street yours?",
         "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
         "opts": [
-            "She used no words in this clause.",
-            "Are these cars parked way over there on the far street yours?",
-            "Are those cars parked way over there on the far street yours?"
-        ],
-        "ans": 2,
-        "level": "a1",
-        "ruleHint": "Use 'those' for plural items located far away from the speaker."
-    },
-    {
-        "id": "these-vs-those-w-21",
-        "type": "find_mistake",
-        "q": "Find the mistake in this sentence:",
-        "wrongSentence": "Are these cars parked way over there on the far street yours?",
-        "correctSentence": "Are those cars parked way over there on the far street yours?",
-        "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
-        "opts": [
-            "She used no words in this clause.",
-            "Are these cars parked way over there on the far street yours?",
-            "Are those cars parked way over there on the far street yours?"
-        ],
-        "ans": 2,
-        "level": "a1",
-        "ruleHint": "Use 'those' for plural items located far away from the speaker."
-    },
-    {
-        "id": "these-vs-those-w-22",
-        "type": "find_mistake",
-        "q": "Find the mistake in this sentence:",
-        "wrongSentence": "Are these cars parked way over there on the far street yours?",
-        "correctSentence": "Are those cars parked way over there on the far street yours?",
-        "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
-        "opts": [
-            "She used no words in this clause.",
-            "Are these cars parked way over there on the far street yours?",
-            "Are those cars parked way over there on the far street yours?"
-        ],
-        "ans": 2,
-        "level": "a1",
-        "ruleHint": "Use 'those' for plural items located far away from the speaker."
-    },
-    {
-        "id": "these-vs-those-w-23",
-        "type": "find_mistake",
-        "q": "Find the mistake in this sentence:",
-        "wrongSentence": "Are these cars parked way over there on the far street yours?",
-        "correctSentence": "Are those cars parked way over there on the far street yours?",
-        "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
-        "opts": [
             "Are those cars parked way over there on the far street yours?",
-            "She used no words in this clause.",
-            "Are these cars parked way over there on the far street yours?"
+            "Are these cars parked way over there on the far street yours?",
+            "She used no words in this clause."
         ],
         "ans": 0,
         "level": "a1",
         "ruleHint": "Use 'those' for plural items located far away from the speaker."
     },
     {
-        "id": "these-vs-those-w-24",
+        "id": "these-vs-those-w-21",
         "type": "find_mistake",
         "q": "Find the mistake in this sentence:",
         "wrongSentence": "Are these cars parked way over there on the far street yours?",
@@ -2001,6 +1953,54 @@
         "ruleHint": "Use 'those' for plural items located far away from the speaker."
     },
     {
+        "id": "these-vs-those-w-22",
+        "type": "find_mistake",
+        "q": "Find the mistake in this sentence:",
+        "wrongSentence": "Are these cars parked way over there on the far street yours?",
+        "correctSentence": "Are those cars parked way over there on the far street yours?",
+        "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
+        "opts": [
+            "Are those cars parked way over there on the far street yours?",
+            "Are these cars parked way over there on the far street yours?",
+            "She used no words in this clause."
+        ],
+        "ans": 0,
+        "level": "a1",
+        "ruleHint": "Use 'those' for plural items located far away from the speaker."
+    },
+    {
+        "id": "these-vs-those-w-23",
+        "type": "find_mistake",
+        "q": "Find the mistake in this sentence:",
+        "wrongSentence": "Are these cars parked way over there on the far street yours?",
+        "correctSentence": "Are those cars parked way over there on the far street yours?",
+        "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
+        "opts": [
+            "She used no words in this clause.",
+            "Are those cars parked way over there on the far street yours?",
+            "Are these cars parked way over there on the far street yours?"
+        ],
+        "ans": 1,
+        "level": "a1",
+        "ruleHint": "Use 'those' for plural items located far away from the speaker."
+    },
+    {
+        "id": "these-vs-those-w-24",
+        "type": "find_mistake",
+        "q": "Find the mistake in this sentence:",
+        "wrongSentence": "Are these cars parked way over there on the far street yours?",
+        "correctSentence": "Are those cars parked way over there on the far street yours?",
+        "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
+        "opts": [
+            "Are these cars parked way over there on the far street yours?",
+            "Are those cars parked way over there on the far street yours?",
+            "She used no words in this clause."
+        ],
+        "ans": 1,
+        "level": "a1",
+        "ruleHint": "Use 'those' for plural items located far away from the speaker."
+    },
+    {
         "id": "these-vs-those-w-25",
         "type": "find_mistake",
         "q": "Find the mistake in this sentence:",
@@ -2009,8 +2009,8 @@
         "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
         "opts": [
             "Are those cars parked way over there on the far street yours?",
-            "She used no words in this clause.",
-            "Are these cars parked way over there on the far street yours?"
+            "Are these cars parked way over there on the far street yours?",
+            "She used no words in this clause."
         ],
         "ans": 0,
         "level": "a1",
@@ -2056,11 +2056,11 @@
         "correctSentence": "Are those cars parked way over there on the far street yours?",
         "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
         "opts": [
-            "Are those cars parked way over there on the far street yours?",
+            "She used no words in this clause.",
             "Are these cars parked way over there on the far street yours?",
-            "She used no words in this clause."
+            "Are those cars parked way over there on the far street yours?"
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use 'those' for plural items located far away from the speaker."
     },
@@ -2104,11 +2104,11 @@
         "correctSentence": "Are those cars parked way over there on the far street yours?",
         "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
         "opts": [
-            "Are those cars parked way over there on the far street yours?",
+            "She used no words in this clause.",
             "Are these cars parked way over there on the far street yours?",
-            "She used no words in this clause."
+            "Are those cars parked way over there on the far street yours?"
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use 'those' for plural items located far away from the speaker."
     },
@@ -2120,11 +2120,11 @@
         "correctSentence": "Are those cars parked way over there on the far street yours?",
         "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
         "opts": [
-            "Are those cars parked way over there on the far street yours?",
             "Are these cars parked way over there on the far street yours?",
+            "Are those cars parked way over there on the far street yours?",
             "She used no words in this clause."
         ],
-        "ans": 0,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "Use 'those' for plural items located far away from the speaker."
     },
@@ -2136,11 +2136,11 @@
         "correctSentence": "Are those cars parked way over there on the far street yours?",
         "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
         "opts": [
+            "She used no words in this clause.",
             "Are these cars parked way over there on the far street yours?",
-            "Are those cars parked way over there on the far street yours?",
-            "She used no words in this clause."
+            "Are those cars parked way over there on the far street yours?"
         ],
-        "ans": 1,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use 'those' for plural items located far away from the speaker."
     },
@@ -2152,11 +2152,11 @@
         "correctSentence": "Are those cars parked way over there on the far street yours?",
         "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
         "opts": [
+            "She used no words in this clause.",
             "Are these cars parked way over there on the far street yours?",
-            "Are those cars parked way over there on the far street yours?",
-            "She used no words in this clause."
+            "Are those cars parked way over there on the far street yours?"
         ],
-        "ans": 1,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use 'those' for plural items located far away from the speaker."
     },
@@ -2168,11 +2168,11 @@
         "correctSentence": "Are those cars parked way over there on the far street yours?",
         "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
         "opts": [
-            "Are these cars parked way over there on the far street yours?",
             "Are those cars parked way over there on the far street yours?",
+            "Are these cars parked way over there on the far street yours?",
             "She used no words in this clause."
         ],
-        "ans": 1,
+        "ans": 0,
         "level": "a1",
         "ruleHint": "Use 'those' for plural items located far away from the speaker."
     },
@@ -2200,11 +2200,11 @@
         "correctSentence": "Are those cars parked way over there on the far street yours?",
         "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
         "opts": [
-            "Are those cars parked way over there on the far street yours?",
             "She used no words in this clause.",
-            "Are these cars parked way over there on the far street yours?"
+            "Are these cars parked way over there on the far street yours?",
+            "Are those cars parked way over there on the far street yours?"
         ],
-        "ans": 0,
+        "ans": 2,
         "level": "a1",
         "ruleHint": "Use 'those' for plural items located far away from the speaker."
     },
@@ -2216,8 +2216,8 @@
         "correctSentence": "Are those cars parked way over there on the far street yours?",
         "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
         "opts": [
-            "Are these cars parked way over there on the far street yours?",
             "She used no words in this clause.",
+            "Are these cars parked way over there on the far street yours?",
             "Are those cars parked way over there on the far street yours?"
         ],
         "ans": 2,
@@ -2226,6 +2226,22 @@
     },
     {
         "id": "these-vs-those-w-39",
+        "type": "find_mistake",
+        "q": "Find the mistake in this sentence:",
+        "wrongSentence": "Are these cars parked way over there on the far street yours?",
+        "correctSentence": "Are those cars parked way over there on the far street yours?",
+        "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
+        "opts": [
+            "Are those cars parked way over there on the far street yours?",
+            "She used no words in this clause.",
+            "Are these cars parked way over there on the far street yours?"
+        ],
+        "ans": 0,
+        "level": "a1",
+        "ruleHint": "Use 'those' for plural items located far away from the speaker."
+    },
+    {
+        "id": "these-vs-those-w-40",
         "type": "find_mistake",
         "q": "Find the mistake in this sentence:",
         "wrongSentence": "Are these cars parked way over there on the far street yours?",
@@ -2241,7 +2257,23 @@
         "ruleHint": "Use 'those' for plural items located far away from the speaker."
     },
     {
-        "id": "these-vs-those-w-40",
+        "id": "these-vs-those-w-41",
+        "type": "find_mistake",
+        "q": "Find the mistake in this sentence:",
+        "wrongSentence": "Are these cars parked way over there on the far street yours?",
+        "correctSentence": "Are those cars parked way over there on the far street yours?",
+        "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
+        "opts": [
+            "She used no words in this clause.",
+            "Are these cars parked way over there on the far street yours?",
+            "Are those cars parked way over there on the far street yours?"
+        ],
+        "ans": 2,
+        "level": "a1",
+        "ruleHint": "Use 'those' for plural items located far away from the speaker."
+    },
+    {
+        "id": "these-vs-those-w-42",
         "type": "find_mistake",
         "q": "Find the mistake in this sentence:",
         "wrongSentence": "Are these cars parked way over there on the far street yours?",
@@ -2257,38 +2289,6 @@
         "ruleHint": "Use 'those' for plural items located far away from the speaker."
     },
     {
-        "id": "these-vs-those-w-41",
-        "type": "find_mistake",
-        "q": "Find the mistake in this sentence:",
-        "wrongSentence": "Are these cars parked way over there on the far street yours?",
-        "correctSentence": "Are those cars parked way over there on the far street yours?",
-        "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
-        "opts": [
-            "Are these cars parked way over there on the far street yours?",
-            "She used no words in this clause.",
-            "Are those cars parked way over there on the far street yours?"
-        ],
-        "ans": 2,
-        "level": "a1",
-        "ruleHint": "Use 'those' for plural items located far away from the speaker."
-    },
-    {
-        "id": "these-vs-those-w-42",
-        "type": "find_mistake",
-        "q": "Find the mistake in this sentence:",
-        "wrongSentence": "Are these cars parked way over there on the far street yours?",
-        "correctSentence": "Are those cars parked way over there on the far street yours?",
-        "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
-        "opts": [
-            "She used no words in this clause.",
-            "Are those cars parked way over there on the far street yours?",
-            "Are these cars parked way over there on the far street yours?"
-        ],
-        "ans": 1,
-        "level": "a1",
-        "ruleHint": "Use 'those' for plural items located far away from the speaker."
-    },
-    {
         "id": "these-vs-those-w-43",
         "type": "find_mistake",
         "q": "Find the mistake in this sentence:",
@@ -2296,8 +2296,8 @@
         "correctSentence": "Are those cars parked way over there on the far street yours?",
         "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
         "opts": [
-            "She used no words in this clause.",
             "Are these cars parked way over there on the far street yours?",
+            "She used no words in this clause.",
             "Are those cars parked way over there on the far street yours?"
         ],
         "ans": 2,
@@ -2409,10 +2409,10 @@
         "errorExplanation": "Use 'those' for plural items located far away from the speaker.",
         "opts": [
             "She used no words in this clause.",
-            "Are these cars parked way over there on the far street yours?",
-            "Are those cars parked way over there on the far street yours?"
+            "Are those cars parked way over there on the far street yours?",
+            "Are these cars parked way over there on the far street yours?"
         ],
-        "ans": 2,
+        "ans": 1,
         "level": "a1",
         "ruleHint": "Use 'those' for plural items located far away from the speaker."
     }
